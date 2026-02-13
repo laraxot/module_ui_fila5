@@ -130,7 +130,6 @@ Il componente rispetta la **dignità** dell'utente fornendo feedback immediato, 
 ---
 
 **Status**: ✅ **COMPLETATO**
-**Data**: Dicembre 2024
 **Versione**: RadioCollection v2.0.0 Quantum
 **Stabilità**: Production Ready
 **Filosofia**: Zen Quantistico Preservato
