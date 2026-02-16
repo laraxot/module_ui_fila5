@@ -40,4 +40,40 @@ return [
         'region_required_for_province' => 'Devi selezionare una regione prima di scegliere la provincia',
         'region_province_required_for_cap' => 'Devi selezionare regione e provincia prima di scegliere il CAP',
     ],
+    'label' => 'Location Selector',
+    'plural_label' => 'Location Selector (Plurale)',
+    'navigation' => [
+        'name' => 'Location Selector',
+        'plural' => 'Location Selector',
+        'group' => [
+            'name' => 'General',
+            'description' => 'General Settings',
+        ],
+        'label' => 'Location Selector',
+        'sort' => 1,
+        'icon' => 'heroicon-o-collection',
+    ],
+    'fields' => [
+        'id' => [
+            'label' => 'Identificativo',
+            'tooltip' => 'Identificativo univoco del record',
+        ],
+        'created_at' => [
+            'label' => 'Data Creazione',
+        ],
+        'updated_at' => [
+            'label' => 'Ultima Modifica',
+        ],
+    ],
+    'actions' => [
+        'create' => [
+            'label' => 'Crea Location Selector',
+        ],
+        'edit' => [
+            'label' => 'Modifica Location Selector',
+        ],
+        'delete' => [
+            'label' => 'Elimina Location Selector',
+        ],
+    ],
 ];

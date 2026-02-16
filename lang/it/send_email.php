@@ -28,4 +28,17 @@ return [
             'label' => 'emailFormActions',
         ],
     ],
+    'label' => 'Send Email',
+    'plural_label' => 'Send Email (Plurale)',
+    'navigation' => [
+        'name' => 'Send Email',
+        'plural' => 'Send Email',
+        'group' => [
+            'name' => 'General',
+            'description' => 'General Settings',
+        ],
+        'label' => 'Send Email',
+        'sort' => 1,
+        'icon' => 'heroicon-o-collection',
+    ],
 ];

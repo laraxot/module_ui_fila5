@@ -62,4 +62,6 @@ return [
         'placeholder' => 'Seleziona modello',
         'helper_text' => 'Modello per la gestione delle opzioni campo',
     ],
+    'label' => 'Field Option',
+    'plural_label' => 'Field Option (Plurale)',
 ];

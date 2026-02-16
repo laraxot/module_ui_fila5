@@ -58,4 +58,17 @@ return [
             'title' => 'Errore durante la transizione',
         ],
     ],
+    'label' => 'Icon State',
+    'plural_label' => 'Icon State (Plurale)',
+    'navigation' => [
+        'name' => 'Icon State',
+        'plural' => 'Icon State',
+        'group' => [
+            'name' => 'General',
+            'description' => 'General Settings',
+        ],
+        'label' => 'Icon State',
+        'sort' => 1,
+        'icon' => 'heroicon-o-collection',
+    ],
 ];

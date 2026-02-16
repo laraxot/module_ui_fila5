@@ -47,4 +47,6 @@ return [
         'placeholder' => 'Seleziona modello',
         'helper_text' => 'Modello per la gestione dei campi',
     ],
+    'label' => 'Field',
+    'plural_label' => 'Field (Plurale)',
 ];

@@ -60,4 +60,29 @@ return [
     ],
     'failed' => 'Le credenziali non corrispondono ai nostri record.',
     'throttle' => 'Troppi tentativi di accesso. Riprova tra :seconds secondi.',
+    'label' => 'Auth',
+    'plural_label' => 'Auth (Plurale)',
+    'fields' => [
+        'id' => [
+            'label' => 'Identificativo',
+            'tooltip' => 'Identificativo univoco del record',
+        ],
+        'created_at' => [
+            'label' => 'Data Creazione',
+        ],
+        'updated_at' => [
+            'label' => 'Ultima Modifica',
+        ],
+    ],
+    'actions' => [
+        'create' => [
+            'label' => 'Crea Auth',
+        ],
+        'edit' => [
+            'label' => 'Modifica Auth',
+        ],
+        'delete' => [
+            'label' => 'Elimina Auth',
+        ],
+    ],
 ];

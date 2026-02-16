@@ -34,4 +34,40 @@ return [
         'type' => 'Tipo',
         'btn' => 'Salva',
     ],
+    'label' => 'Filament Navigation',
+    'plural_label' => 'Filament Navigation (Plurale)',
+    'navigation' => [
+        'name' => 'Filament Navigation',
+        'plural' => 'Filament Navigation',
+        'group' => [
+            'name' => 'General',
+            'description' => 'General Settings',
+        ],
+        'label' => 'Filament Navigation',
+        'sort' => 1,
+        'icon' => 'heroicon-o-collection',
+    ],
+    'fields' => [
+        'id' => [
+            'label' => 'Identificativo',
+            'tooltip' => 'Identificativo univoco del record',
+        ],
+        'created_at' => [
+            'label' => 'Data Creazione',
+        ],
+        'updated_at' => [
+            'label' => 'Ultima Modifica',
+        ],
+    ],
+    'actions' => [
+        'create' => [
+            'label' => 'Crea Filament Navigation',
+        ],
+        'edit' => [
+            'label' => 'Modifica Filament Navigation',
+        ],
+        'delete' => [
+            'label' => 'Elimina Filament Navigation',
+        ],
+    ],
 ];

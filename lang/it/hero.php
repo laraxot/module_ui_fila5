@@ -57,4 +57,28 @@ return [
             'heading' => 'empty',
         ],
     ],
+    'label' => 'Hero',
+    'plural_label' => 'Hero (Plurale)',
+    'navigation' => [
+        'name' => 'Hero',
+        'plural' => 'Hero',
+        'group' => [
+            'name' => 'General',
+            'description' => 'General Settings',
+        ],
+        'label' => 'Hero',
+        'sort' => 1,
+        'icon' => 'heroicon-o-collection',
+    ],
+    'actions' => [
+        'create' => [
+            'label' => 'Crea Hero',
+        ],
+        'edit' => [
+            'label' => 'Modifica Hero',
+        ],
+        'delete' => [
+            'label' => 'Elimina Hero',
+        ],
+    ],
 ];

@@ -55,4 +55,29 @@ return [
             ],
         ],
     ],
+    'label' => 'Blocks',
+    'plural_label' => 'Blocks (Plurale)',
+    'fields' => [
+        'id' => [
+            'label' => 'Identificativo',
+            'tooltip' => 'Identificativo univoco del record',
+        ],
+        'created_at' => [
+            'label' => 'Data Creazione',
+        ],
+        'updated_at' => [
+            'label' => 'Ultima Modifica',
+        ],
+    ],
+    'actions' => [
+        'create' => [
+            'label' => 'Crea Blocks',
+        ],
+        'edit' => [
+            'label' => 'Modifica Blocks',
+        ],
+        'delete' => [
+            'label' => 'Elimina Blocks',
+        ],
+    ],
 ];

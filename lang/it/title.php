@@ -26,4 +26,28 @@ return [
             'placeholder' => 'view',
         ],
     ],
+    'label' => 'Title',
+    'plural_label' => 'Title (Plurale)',
+    'navigation' => [
+        'name' => 'Title',
+        'plural' => 'Title',
+        'group' => [
+            'name' => 'General',
+            'description' => 'General Settings',
+        ],
+        'label' => 'Title',
+        'sort' => 1,
+        'icon' => 'heroicon-o-collection',
+    ],
+    'actions' => [
+        'create' => [
+            'label' => 'Crea Title',
+        ],
+        'edit' => [
+            'label' => 'Modifica Title',
+        ],
+        'delete' => [
+            'label' => 'Elimina Title',
+        ],
+    ],
 ];
