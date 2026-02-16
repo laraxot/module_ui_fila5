@@ -34,13 +34,13 @@ return [
         ],
         'test_s3_permissions' => [
             'label' => 'Test Permessi',
-            'tooltip' => 'Testa i permessi S3 (ListBucket, PutObject, GetObject, DeleteObject)',
+            'tooltip' => 'Testa i permessi S3 (ListBucket, PutObject, GetObject, DeleteObject]',
             'success' => 'Permessi S3 testati con successo',
             'error' => 'Errore nel test dei permessi S3',
         ],
         'test_file_operations' => [
             'label' => 'Test Operazioni File',
-            'tooltip' => 'Testa le operazioni sui file S3 (upload, download, delete)',
+            'tooltip' => 'Testa le operazioni sui file S3 (upload, download, delete]',
             'success' => 'Operazioni file testate con successo',
             'error' => 'Errore nel test delle operazioni file',
         ],
@@ -126,5 +126,18 @@ return [
         'cloudfront_config_error' => 'Errore configurazione CloudFront',
         'full_diagnostic_completed' => 'Diagnostica completa completata',
         'check_cloudfront_settings' => 'Controlla le impostazioni CloudFront nella configurazione',
+    ],
+    'label' => 'Awstest',
+    'plural_label' => 'Awstest (Plurale)',
+    'navigation' => [
+        'name' => 'Awstest',
+        'plural' => 'Awstest',
+        'group' => [
+            'name' => 'General',
+            'description' => 'General Settings',
+        ],
+        'label' => 'Awstest',
+        'sort' => 1,
+        'icon' => 'heroicon-o-collection',
     ],
 ];

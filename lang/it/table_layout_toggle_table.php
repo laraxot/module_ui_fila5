@@ -25,4 +25,17 @@ return [
             'help' => 'Scegli il tipo di layout più adatto per visualizzare i dati',
         ],
     ],
+    'label' => 'Table Layout Toggle Table',
+    'plural_label' => 'Table Layout Toggle Table (Plurale)',
+    'navigation' => [
+        'name' => 'Table Layout Toggle Table',
+        'plural' => 'Table Layout Toggle Table',
+        'group' => [
+            'name' => 'General',
+            'description' => 'General Settings',
+        ],
+        'label' => 'Table Layout Toggle Table',
+        'sort' => 1,
+        'icon' => 'heroicon-o-collection',
+    ],
 ];

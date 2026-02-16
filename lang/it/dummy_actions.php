@@ -34,4 +34,17 @@ return [
             'label' => 'delete',
         ],
     ],
+    'label' => 'Dummy Actions',
+    'plural_label' => 'Dummy Actions (Plurale)',
+    'navigation' => [
+        'name' => 'Dummy Actions',
+        'plural' => 'Dummy Actions',
+        'group' => [
+            'name' => 'General',
+            'description' => 'General Settings',
+        ],
+        'label' => 'Dummy Actions',
+        'sort' => 1,
+        'icon' => 'heroicon-o-collection',
+    ],
 ];

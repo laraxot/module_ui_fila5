@@ -249,4 +249,28 @@ return [
             'label' => 'refund_integrate-icon',
         ],
     ],
+    'label' => 'Icon State Group',
+    'plural_label' => 'Icon State Group (Plurale)',
+    'navigation' => [
+        'name' => 'Icon State Group',
+        'plural' => 'Icon State Group',
+        'group' => [
+            'name' => 'General',
+            'description' => 'General Settings',
+        ],
+        'label' => 'Icon State Group',
+        'sort' => 1,
+        'icon' => 'heroicon-o-collection',
+    ],
+    'actions' => [
+        'create' => [
+            'label' => 'Crea Icon State Group',
+        ],
+        'edit' => [
+            'label' => 'Modifica Icon State Group',
+        ],
+        'delete' => [
+            'label' => 'Elimina Icon State Group',
+        ],
+    ],
 ];

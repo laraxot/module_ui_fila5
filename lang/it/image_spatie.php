@@ -23,4 +23,28 @@ return [
             'placeholder' => 'img_uuid',
         ],
     ],
+    'label' => 'Image Spatie',
+    'plural_label' => 'Image Spatie (Plurale)',
+    'navigation' => [
+        'name' => 'Image Spatie',
+        'plural' => 'Image Spatie',
+        'group' => [
+            'name' => 'General',
+            'description' => 'General Settings',
+        ],
+        'label' => 'Image Spatie',
+        'sort' => 1,
+        'icon' => 'heroicon-o-collection',
+    ],
+    'actions' => [
+        'create' => [
+            'label' => 'Crea Image Spatie',
+        ],
+        'edit' => [
+            'label' => 'Modifica Image Spatie',
+        ],
+        'delete' => [
+            'label' => 'Elimina Image Spatie',
+        ],
+    ],
 ];

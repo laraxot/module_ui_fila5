@@ -95,4 +95,6 @@ return [
             'tooltip' => 'Testa operazioni sui file S3',
         ],
     ],
+    'label' => 'S3 Test',
+    'plural_label' => 'S3 Test (Plurale)',
 ];

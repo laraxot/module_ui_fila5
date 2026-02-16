@@ -33,4 +33,28 @@ return [
             'placeholder' => 'image',
         ],
     ],
+    'label' => 'Image',
+    'plural_label' => 'Image (Plurale)',
+    'navigation' => [
+        'name' => 'Image',
+        'plural' => 'Image',
+        'group' => [
+            'name' => 'General',
+            'description' => 'General Settings',
+        ],
+        'label' => 'Image',
+        'sort' => 1,
+        'icon' => 'heroicon-o-collection',
+    ],
+    'actions' => [
+        'create' => [
+            'label' => 'Crea Image',
+        ],
+        'edit' => [
+            'label' => 'Modifica Image',
+        ],
+        'delete' => [
+            'label' => 'Elimina Image',
+        ],
+    ],
 ];

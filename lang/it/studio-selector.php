@@ -32,4 +32,17 @@ return [
         'selected_studio' => 'Studio selezionato',
         'select_studio' => 'Premi spazio o invio per selezionare questo studio',
     ],
+    'label' => 'Studio Selector',
+    'plural_label' => 'Studio Selector (Plurale)',
+    'navigation' => [
+        'name' => 'Studio Selector',
+        'plural' => 'Studio Selector',
+        'group' => [
+            'name' => 'General',
+            'description' => 'General Settings',
+        ],
+        'label' => 'Studio Selector',
+        'sort' => 1,
+        'icon' => 'heroicon-o-collection',
+    ],
 ];

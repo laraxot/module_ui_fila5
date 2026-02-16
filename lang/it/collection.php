@@ -31,4 +31,17 @@ return [
             'label' => 'values-list',
         ],
     ],
+    'label' => 'Collection',
+    'plural_label' => 'Collection (Plurale)',
+    'navigation' => [
+        'name' => 'Collection',
+        'plural' => 'Collection',
+        'group' => [
+            'name' => 'General',
+            'description' => 'General Settings',
+        ],
+        'label' => 'Collection',
+        'sort' => 1,
+        'icon' => 'heroicon-o-collection',
+    ],
 ];
