@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+
 return [
     'login' => [
         'title' => 'Accedi',
@@ -60,10 +61,4 @@ return [
     ],
     'failed' => 'Le credenziali non corrispondono ai nostri record.',
     'throttle' => 'Troppi tentativi di accesso. Riprova tra :seconds secondi.',
-    'label' => 'Missing Label',
-    'plural_label' => 'Missing Plural label',
-    'fields' => [
-    ],
-    'actions' => [
-    ],
 ];
