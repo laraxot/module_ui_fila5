@@ -3,7 +3,6 @@
 declare(strict_types=1);
 
 use Modules\UI\Models\Asset;
-use Modules\UI\Models\Theme;
 
 describe('Asset Model', function (): void {
     it('can be instantiated', function (): void {

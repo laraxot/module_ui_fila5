@@ -3,7 +3,6 @@
 declare(strict_types=1);
 
 use Modules\UI\Models\Component;
-use Modules\UI\Models\Theme;
 
 describe('Component Model', function (): void {
     it('can be instantiated', function (): void {
@@ -53,7 +52,7 @@ describe('Component Model', function (): void {
 
     it('extends BaseModel', function (): void {
         $reflection = new ReflectionClass(Component::class);
-        expect($reflection->isSubclassOf(\Modules\UI\Models\BaseModel::class))->toBeTrue();
+        expect($reflection->isSubclassOf(Modules\UI\Models\BaseModel::class))->toBeTrue();
     });
 
     it('uses strict types', function (): void {
