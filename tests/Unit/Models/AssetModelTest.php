@@ -6,12 +6,12 @@ use Modules\UI\Models\Asset;
 
 describe('Asset Model', function (): void {
     it('can be instantiated', function (): void {
-        $asset = new Asset();
+        $asset = new Asset;
         expect($asset)->toBeInstanceOf(Asset::class);
     });
 
     it('has fillable attributes', function (): void {
-        $asset = new Asset();
+        $asset = new Asset;
         $expected = ['name', 'type', 'path', 'theme_id', 'is_minified', 'is_compressed', 'order', 'should_bundle'];
 
         foreach ($expected as $field) {
@@ -20,7 +20,7 @@ describe('Asset Model', function (): void {
     });
 
     it('has casts defined', function (): void {
-        $asset = new Asset();
+        $asset = new Asset;
         $casts = $asset->getCasts();
 
         expect($casts['is_minified'])->toBe('boolean')
@@ -35,7 +35,7 @@ describe('Asset Model', function (): void {
     });
 
     it('has correct table name', function (): void {
-        $asset = new Asset();
+        $asset = new Asset;
         expect($asset->getTable())->toBe('assets');
     });
 

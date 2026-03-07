@@ -12,26 +12,26 @@ use Modules\Xot\Contracts\ProfileContract;
 /**
  * Theme model for UI module.
  *
- * @property string               $id
- * @property string               $name
- * @property string|null          $description
- * @property bool                 $is_active
- * @property array|null           $config
- * @property int|null             $parent_id
- * @property string|null          $source_path
- * @property string|null          $compiled_path
- * @property bool                 $needs_compilation
- * @property Carbon|null          $created_at
- * @property Carbon|null          $updated_at
- * @property string|null          $updated_by
- * @property string|null          $created_by
- * @property Carbon|null          $deleted_at
- * @property string|null          $deleted_by
- * @property Theme|null           $parent
+ * @property string $id
+ * @property string $name
+ * @property string|null $description
+ * @property bool $is_active
+ * @property array|null $config
+ * @property int|null $parent_id
+ * @property string|null $source_path
+ * @property string|null $compiled_path
+ * @property bool $needs_compilation
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
+ * @property string|null $updated_by
+ * @property string|null $created_by
+ * @property Carbon|null $deleted_at
+ * @property string|null $deleted_by
+ * @property Theme|null $parent
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  *
- * @method static ThemeFactory          factory($count = null, $state = [])
+ * @method static ThemeFactory factory($count = null, $state = [])
  * @method static Builder<static>|Theme newModelQuery()
  * @method static Builder<static>|Theme newQuery()
  * @method static Builder<static>|Theme query()
