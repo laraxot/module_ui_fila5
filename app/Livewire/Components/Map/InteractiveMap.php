@@ -156,7 +156,7 @@ final class InteractiveMap extends Component
             $this->dispatch('downloadFile', [
                 'content' => $data,
                 'filename' => $filename,
-                'mimeType' => $this->getMimeType($format
+                'mimeType' => $this->getMimeType($format)
             ]);
 
             $this->dispatch('notify', [

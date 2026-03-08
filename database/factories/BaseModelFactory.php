@@ -30,7 +30,7 @@ class BaseModelFactory extends Factory
     {
         return [
             'created_at' => $faker->dateTimeBetween('-1 year', 'now'
-            'updated_at' => $faker->dateTimeBetween('-1 year', 'now'
+            'updated_at' => $faker->dateTimeBetween('-1 year', 'now')
         ];
     }
 

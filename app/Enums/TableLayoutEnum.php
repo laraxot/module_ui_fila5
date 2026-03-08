@@ -91,7 +91,7 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
      */
     public function getTableContentGrid(): ?array
     {
-        return $this->isGridLayout(
+        return $this->isGridLayout()
             ? [
                 'sm' => 1,
                 'md' => 2,
