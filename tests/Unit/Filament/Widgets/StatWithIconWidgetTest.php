@@ -11,7 +11,13 @@ use Tests\TestCase;
 uses(TestCase::class);
 
 beforeEach(function () {
+<<<<<<< HEAD
+    $this->widget = new StatWithIconWidget();
+||||||| 6161e129d
+    $this->widget = new StatWithIconWidget;
+=======
     $widget = new StatWithIconWidget();
+>>>>>>> feature/ralph-loop-implementation
 });
 
 test('stat with icon widget extends filament widget', function () {

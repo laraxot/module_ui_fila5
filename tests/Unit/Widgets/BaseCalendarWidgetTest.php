@@ -10,7 +10,14 @@ use Filament\Schemas\Components\Grid;
 use Modules\UI\Filament\Widgets\UserCalendarWidget;
 
 beforeEach(function () {
+<<<<<<< HEAD
+    $this->widget = new class extends UserCalendarWidget {
+||||||| 6161e129d
+    $this->widget = new class extends UserCalendarWidget
+    {
+=======
     $widget = new class extends UserCalendarWidget {
+>>>>>>> feature/ralph-loop-implementation
         public function getActionName(string $function): string
         {
             unset($function);
