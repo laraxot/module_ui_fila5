@@ -52,13 +52,26 @@ class RadioBadge extends Radio
         if ($enum instanceof HasColor) {
             $color = $enum->getColor();
             if (null === $color) {
+<<<<<<< HEAD
+                return $this->selectedColor;
+||||||| 6161e129d
+            if ($color === null) {
+                return $this->selectedColor;
+=======
                 return $selectedColor;
+>>>>>>> feature/ralph-loop-implementation
             }
 
             if (is_array($color)) {
                 $first = reset($color);
 
+<<<<<<< HEAD
+                return is_string($first) && '' !== $first ? $first : $this->selectedColor;
+||||||| 6161e129d
+                return is_string($first) && $first !== '' ? $first : $this->selectedColor;
+=======
                 return is_string($first) && '' !== $first ? $first : $selectedColor;
+>>>>>>> feature/ralph-loop-implementation
             }
 
             // PHPStan L10: $color è già verificato come non-array e non-null, quindi è string

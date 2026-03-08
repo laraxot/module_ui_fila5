@@ -38,7 +38,13 @@ class TableLayoutToggleHeaderAction extends Action
                     $layoutViewRaw = $livewire->layoutView;
                     $layoutView = is_string($layoutViewRaw) ? $layoutViewRaw : '';
 
+<<<<<<< HEAD
+                    return 'list' === $layoutView ? $this->listIcon : $this->gridIcon;
+||||||| 6161e129d
+                    return $layoutView === 'list' ? $this->listIcon : $this->gridIcon;
+=======
                     return 'list' === $layoutView ? $listIcon : $this->gridIcon;
+>>>>>>> feature/ralph-loop-implementation
                 }
 
                 return $listIcon; // default icon
