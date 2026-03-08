@@ -17,8 +17,8 @@ enum CornerPositionEnum: string implements HasColor, HasIcon, HasLabel
 
     public function getLabel(): string
     {
-        // return $name;
-        return trans('ui::corner-position.'.$value.'.label');
+        // return // @var mixed name;
+        return trans('ui::corner-position.'.// @var mixed value.'.label';
 
         // or
         /*
