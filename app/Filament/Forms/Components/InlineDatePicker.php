@@ -239,7 +239,7 @@ class InlineDatePicker extends XotBaseDatePicker
             'month' => $targetMonth,
             'monthName' => $targetMonth->translatedFormat('F'),
             'year' => $targetMonth->year,
-            'weekdays' => $this->getLocalizedWeekdays(
+            'weekdays' => $this->getLocalizedWeekdays()
         ];
     }
 
