@@ -30,9 +30,25 @@ final class Blocks extends Component
 
     /**
      * @param array<int|string, mixed> $blocks
+<<<<<<< HEAD
+||||||| 6161e129d
+     * @param  array<int|string, mixed>  $blocks
+=======
      * @param string|null              $tpl    Deprecated alias for $view (use view for new code)
+>>>>>>> feature/ralph-loop-implementation
      */
     public function __construct(
+<<<<<<< HEAD
+        public string $view,
+        public array $blocks = [],
+        public ?Model $model = null,
+    ) {
+||||||| 6161e129d
+        public string $view,
+        public array $blocks = [],
+        public ?Model $model = null,
+    ) {}
+=======
         string $view = '',
         array $blocks = [],
         ?Model $model = null,
@@ -45,6 +61,7 @@ final class Blocks extends Component
         $view = $resolvedView;
         $blocks = $blocks;
         $model = $model;
+>>>>>>> feature/ralph-loop-implementation
     }
 
     public function render(): View

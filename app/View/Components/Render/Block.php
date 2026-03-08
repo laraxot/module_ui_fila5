@@ -23,7 +23,14 @@ class Block extends Component
         public ?Model $model = null,
         public string $tpl = '',
     ) {
+<<<<<<< HEAD
+        $view = Arr::get($this->block, 'data.view', null);
+||||||| 6161e129d
+        $view = Arr::get($this->block, 'data.view', null);
+        if ($view === null) {
+=======
         $view = Arr::get($block, 'data.view', null);
+>>>>>>> feature/ralph-loop-implementation
         if (null === $view) {
             $view = 'ui::empty';
         }

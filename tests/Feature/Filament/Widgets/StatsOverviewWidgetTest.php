@@ -9,7 +9,13 @@ use Tests\TestCase;
 uses(TestCase::class);
 
 beforeEach(function (): void {
+<<<<<<< HEAD
+    $this->widget = new StatsOverviewWidget();
+||||||| 6161e129d
+    $this->widget = new StatsOverviewWidget;
+=======
     $widget = new StatsOverviewWidget();
+>>>>>>> feature/ralph-loop-implementation
 });
 
 test('stats overview widget extends correct base class', function (): void {
