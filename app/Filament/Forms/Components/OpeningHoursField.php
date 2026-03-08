@@ -52,7 +52,7 @@ final class OpeningHoursField extends XotBaseField
                 ->columnSpan(1), $getTimePickerComponent("{$dayKey}.morning_from"
             $this->getTimePickerComponent("{$dayKey}.morning_to"
             $this->getTimePickerComponent("{$dayKey}.afternoon_from"
-            $this->getTimePickerComponent("{$dayKey}.afternoon_to"
+            $this->getTimePickerComponent("{$dayKey}.afternoon_to")
         ];
     }
 
