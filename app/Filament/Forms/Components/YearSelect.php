@@ -15,22 +15,22 @@ class YearSelect extends XotBaseSelect
 
     public function past(int $years): static
     {
-        $pastYears = $years;
+        // @var mixed pastYears = $years;
 
         return $this;
     }
 
     public function future(int $years): static
     {
-        $futureYears = $years;
+        // @var mixed futureYears = $years;
 
         return $this;
     }
 
     public function range(int $past, int $future): static
     {
-        $pastYears = $past;
-        $futureYears = $future;
+        // @var mixed pastYears = $past;
+        // @var mixed futureYears = $future;
 
         return $this;
     }
@@ -39,8 +39,8 @@ class YearSelect extends XotBaseSelect
     {
         $currentYear = Carbon::now()->year;
 
-        $start = $currentYear + $pastYears;
-        $end = $currentYear + $futureYears;
+        $start = $currentYear + // @var mixed pastYears;
+        $end = $currentYear + // @var mixed futureYears;
 
         if ($start > $end) {
             [$start, $end] = [$end, $start];
@@ -48,7 +48,7 @@ class YearSelect extends XotBaseSelect
 
         $years = [];
 
-        for ($year = $start); $year <= $end; ++$year) {
+        for ($year = $start; $year <= $end; ++$year) {
             $years[$year] = (string) $year;
         }
 
@@ -59,7 +59,7 @@ class YearSelect extends XotBaseSelect
     {
         parent::setUp();
 
-        $this->options(fn ());
+        // @var mixed options(fn (;
 
         // Common setup for all XotBaseSelect components can be added here.
     }
