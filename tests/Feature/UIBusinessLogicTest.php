@@ -14,23 +14,23 @@ use Modules\UI\Models\Theme;
 use Modules\UI\Services\ComponentService;
 use Modules\UI\Services\ThemeService;
 
-describe('UI Business Logic Integration', function () {)
-    beforeEach(function () {)
-        $theme = Theme::factory()
+describe('UI Business Logic Integration', function () {
+    beforeEach(function () {
+        $theme = Theme::factory()->create([
             'name' => 'Default Theme',
             'is_active' => true,
         ]);
 
-        $component = Component::factory()
+        $component = Component::factory()->create([
             'name' => 'test-component',
             'theme_id' => $theme->id,
             'is_active' => true,
         ]);
     });
 
-    describe('Theme Management Business Rules', function () {)
-        it('enforces theme activation rules', function () {)
-            $theme = Theme::factory()->create([)
+    describe('Theme Management Business Rules', function () {
+        it('enforces theme activation rules', function () {
+            $theme = Theme::factory()->create([
                 'name' => 'Test Theme',
                 'is_active' => false,
             ]);
@@ -52,8 +52,8 @@ describe('UI Business Logic Integration', function () {)
             expect($activeThemes->count())->toBeGreaterThan(0);
         });
 
-        it('enforces theme configuration validation', function () {)
-            $theme = Theme::factory()->create([)
+        it('enforces theme configuration validation', function () {
+            $theme = Theme::factory()->create([
                 'name' => 'Configurable Theme',
                 'config' => [
                     'primary_color' => '#007bff',
@@ -69,13 +69,13 @@ describe('UI Business Logic Integration', function () {)
             expect($theme->config['font_family'])->toContain('Arial');
         });
 
-        it('enforces theme inheritance rules', function () {)
-            $parentTheme = Theme::factory()->create([)
+        it('enforces theme inheritance rules', function () {
+            $parentTheme = Theme::factory()->create([
                 'name' => 'Parent Theme',
                 'is_active' => false,
             ]);
 
-            $childTheme = Theme::factory()->create([)
+            $childTheme = Theme::factory()->create([
                 'name' => 'Child Theme',
                 'parent_id' => $parentTheme->id,
                 'is_active' => false,
@@ -96,8 +96,8 @@ describe('UI Business Logic Integration', function () {)
         });
     });
 
-    describe('Component Management Business Rules', function () {)
-        it('enforces component naming conventions', function () {)
+    describe('Component Management Business Rules', function () {
+        it('enforces component naming conventions', function () {
             $validNames = [
                 'button',
                 'card',
@@ -107,7 +107,7 @@ describe('UI Business Logic Integration', function () {)
             ];
 
             foreach ($validNames as $name) {
-                $component = Component::factory()->create([)
+                $component = Component::factory()->create([
                     'name' => $name,
                     'theme_id' => $theme->id,
                 ]);
@@ -119,8 +119,8 @@ describe('UI Business Logic Integration', function () {)
             }
         });
 
-        it('enforces component versioning rules', function () {)
-            $component = Component::factory()->create([)
+        it('enforces component versioning rules', function () {
+            $component = Component::factory()->create([
                 'name' => 'versioned-component',
                 'theme_id' => $theme->id,
                 'version' => '1.0.0',
@@ -143,8 +143,8 @@ describe('UI Business Logic Integration', function () {)
             expect($patch)->toBeGreaterThanOrEqual(0);
         });
 
-        it('enforces component dependency rules', function () {)
-            $component = Component::factory()->create([)
+        it('enforces component dependency rules', function () {
+            $component = Component::factory()->create([
                 'name' => 'dependent-component',
                 'theme_id' => $theme->id,
                 'dependencies' => ['jquery', 'bootstrap'],
@@ -163,9 +163,9 @@ describe('UI Business Logic Integration', function () {)
         });
     });
 
-    describe('Asset Management Business Rules', function () {)
-        it('enforces asset file validation', function () {)
-            $asset = Asset::factory()->create([)
+    describe('Asset Management Business Rules', function () {
+        it('enforces asset file validation', function () {
+            $asset = Asset::factory()->create([
                 'name' => 'main.css',
                 'type' => 'css',
                 'path' => '/assets/css/main.css',
@@ -184,8 +184,8 @@ describe('UI Business Logic Integration', function () {)
             expect($asset->name)->toBe($fileName);
         });
 
-        it('enforces asset optimization rules', function () {)
-            $asset = Asset::factory()->create([)
+        it('enforces asset optimization rules', function () {
+            $asset = Asset::factory()->create([
                 'name' => 'optimized.js',
                 'type' => 'js',
                 'path' => '/assets/js/optimized.js',
@@ -204,21 +204,21 @@ describe('UI Business Logic Integration', function () {)
             }
         });
 
-        it('enforces asset loading order', function () {)
-            $assets = collect([)
-                Asset::factory()->create([)
+        it('enforces asset loading order', function () {
+            $assets = collect([
+                Asset::factory()->create([
                     'name' => 'jquery.js',
                     'type' => 'js',
                     'order' => 1,
                     'theme_id' => $theme->id,
                 ]),
-                Asset::factory()->create([)
+                Asset::factory()->create([
                     'name' => 'bootstrap.js',
                     'type' => 'js',
                     'order' => 2,
                     'theme_id' => $theme->id,
                 ]),
-                Asset::factory()->create([)
+                Asset::factory()->create([
                     'name' => 'app.js',
                     'type' => 'js',
                     'order' => 3,
@@ -239,11 +239,11 @@ describe('UI Business Logic Integration', function () {)
         });
     });
 
-    describe('Component Service Business Rules', function () {)
-        it('enforces component rendering rules', function () {)
+    describe('Component Service Business Rules', function () {
+        it('enforces component rendering rules', function () {
             $service = new ComponentService();
 
-            $component = Component::factory()->create([)
+            $component = Component::factory()->create([
                 'name' => 'renderable-component',
                 'theme_id' => $theme->id,
                 'template' => '<div class="test-component">{{ $content }}</div>',
@@ -260,10 +260,10 @@ describe('UI Business Logic Integration', function () {)
             expect($component->template)->toContain('</div>');
         });
 
-        it('enforces component caching rules', function () {)
+        it('enforces component caching rules', function () {
             $service = new ComponentService();
 
-            $component = Component::factory()->create([)
+            $component = Component::factory()->create([
                 'name' => 'cacheable-component',
                 'theme_id' => $theme->id,
                 'is_cacheable' => true,
