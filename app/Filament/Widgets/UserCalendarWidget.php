@@ -20,7 +20,7 @@ class UserCalendarWidget extends XotBaseWidget
     public function getActionName(string $function): string
     {
         $action_suffix = Str::of($function)->studly()->append('Action')->toString();
-        $resource = XotData::make()->getUserResourceClassByType($type);
+        $resource = XotData::make()->getUserResourceClassByType($this->type);
         $model = $resource::getModel();
         $modelString = \is_string($model) ? $model : (string) $model;
 

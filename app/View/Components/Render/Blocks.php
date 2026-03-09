@@ -21,30 +21,14 @@ use Modules\Xot\Actions\GetViewAction;
 
 final class Blocks extends Component
 {
-    public string $view;
-
-    /** @var array<int|string, mixed> */
-    public array $blocks;
-
-    public ?Model $model = null;
-
     /**
      * @param array<int|string, mixed> $blocks
-     * @param string|null              $tpl    Deprecated alias for $view (use view for new code)
      */
-    public function __construct()
-        string $view = '',
-        array $blocks = [],
-        ?Model $model = null,
-        ?string $tpl = null,
+    public function __construct(
+        public string $view,
+        public array $blocks = [],
+        public ?Model $model = null,
     ) {
-        $resolvedView = $tpl ?? $view;
-        if ('' === $resolvedView) {
-            throw new \InvalidArgumentException('Blocks component requires view or tpl parameter');
-        }
-        $view = $resolvedView;
-        $blocks = $blocks;
-        $model = $model;
     }
 
     public function render(): View
@@ -52,11 +36,11 @@ final class Blocks extends Component
         /**
          * @phpstan-var view-string
          */
-        $view = app(GetViewAction::class)->execute($view);
+        $view = app(GetViewAction::class)->execute($this->view);
         $view_params = [
             'view' => $view,
-            'blocks' => $blocks,
-            'model' => $model,
+            'blocks' => $this->blocks,
+            'model' => $this->model,
         ];
 
         return view($view, $view_params);

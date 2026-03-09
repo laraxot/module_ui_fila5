@@ -83,19 +83,19 @@ class OpeningHoursRule implements ValidationRule
         $toTime = $this->cleanTimeValue($dayHours[$toKey] ?? null);
         /*
          * // Validazione formato orario
-         * if ($fromTime !== null && !$this->isValidTimeFormat($fromTime))
+         * if ($fromTime !== null && !$this->isValidTimeFormat($fromTime)) {
          * $fail("L'orario di apertura {$sessionLabel} per {$dayLabel} deve essere nel formato HH:MM.");
          * return;
          * }
          *
-         * if ($toTime !== null && !$this->isValidTimeFormat($toTime))
+         * if ($toTime !== null && !$this->isValidTimeFormat($toTime)) {
          * $fail("L'orario di chiusura {$sessionLabel} per {$dayLabel} deve essere nel formato HH:MM.");
          * return;
          * }
          */
         // Validazione completezza: se uno è specificato, anche l'altro deve esserlo
         if (null !== $fromTime && null === $toTime) {
-            $fail(static::trans('validation.opening_hours.missing_closing_time', params: [))
+            $fail(static::trans('validation.opening_hours.missing_closing_time', params: [
                 'session' => $sessionLabel,
                 'day' => $dayLabel,
             ]));
@@ -104,7 +104,7 @@ class OpeningHoursRule implements ValidationRule
         }
 
         if (null !== $toTime && null === $fromTime) {
-            $fail(static::trans('validation.opening_hours.missing_opening_time', params: [))
+            $fail(static::trans('validation.opening_hours.missing_opening_time', params: [
                 'session' => $sessionLabel,
                 'day' => $dayLabel,
             ]));
@@ -115,7 +115,7 @@ class OpeningHoursRule implements ValidationRule
         // Validazione logica: apertura deve essere prima della chiusura
         if (null !== $fromTime && null !== $toTime) {
             if ($fromTime >= $toTime) {
-                $fail(static::trans('validation.opening_hours.opening_before_closing', params: [))
+                $fail(static::trans('validation.opening_hours.opening_before_closing', params: [
                     'session' => $sessionLabel,
                     'day' => $dayLabel,
                 ]));

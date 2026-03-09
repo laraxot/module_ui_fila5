@@ -21,7 +21,7 @@ final class TableLayoutToggleTableAction extends Action implements HasTableLayou
             ->tooltip($current->getLabel())
             ->color($current->getColor())
             ->icon($current->getIcon())
-            ->action($toggleLayout(...));
+            ->action($this->toggleLayout(...));
     }
 
     public static function getDefaultName(): string

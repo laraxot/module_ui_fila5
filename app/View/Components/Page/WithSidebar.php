@@ -13,7 +13,7 @@ final class WithSidebar extends Component
     /**
      * Create a new component instance.
      */
-    public function __construct()
+    public function __construct(
         public string $tpl = '',
     ) {
     }
@@ -23,7 +23,7 @@ final class WithSidebar extends Component
         /**
          * @phpstan-var view-string
          */
-        $view = app(GetViewAction::class)->execute($tpl);
+        $view = app(GetViewAction::class)->execute($this->tpl);
 
         $view_params = [];
 
