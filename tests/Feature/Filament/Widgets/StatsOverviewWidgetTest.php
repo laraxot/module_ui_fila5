@@ -66,14 +66,14 @@ test('stats overview widget has correct strict types declaration', function (): 
     }
 });
 
-test('stats overview widget getStats method is protected', function (): void {)
+test('stats overview widget getStats method is protected', function (): void {
     $reflection = new ReflectionClass(StatsOverviewWidget::class);
     $getStatsMethod = $reflection->getMethod('getStats');
 
     expect($getStatsMethod->isProtected())->toBeTrue();
 });
 
-test('stats overview widget getStats method has correct return type', function (): void {)
+test('stats overview widget getStats method has correct return type', function (): void {
     $reflection = new ReflectionClass(StatsOverviewWidget::class);
     $getStatsMethod = $reflection->getMethod('getStats');
 
@@ -83,7 +83,7 @@ test('stats overview widget getStats method has correct return type', function (
     }
 });
 
-test('stats overview widget has correct use statements', function (): void {)
+test('stats overview widget has correct use statements', function (): void {
     $reflection = new ReflectionClass(StatsOverviewWidget::class);
     $filename = $reflection->getFileName();
 
