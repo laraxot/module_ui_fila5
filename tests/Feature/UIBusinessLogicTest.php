@@ -279,10 +279,10 @@ describe('UI Business Logic Integration', function () {
             expect($component->cache_ttl)->toBeLessThan(86400); // 24 ore
         });
 
-        it('enforces component validation rules', function () {)
+        it('enforces component validation rules', function () {
             $service = new ComponentService();
 
-            $component = Component::factory()->create([)
+            $component = Component::factory()->create([
                 'name' => 'validated-component',
                 'theme_id' => $theme->id,
                 'validation_rules' => [
@@ -301,11 +301,11 @@ describe('UI Business Logic Integration', function () {
         });
     });
 
-    describe('Theme Service Business Rules', function () {)
-        it('enforces theme compilation rules', function () {)
+    describe('Theme Service Business Rules', function () {
+        it('enforces theme compilation rules', function () {
             $service = new ThemeService();
 
-            $theme = Theme::factory()->create([)
+            $theme = Theme::factory()->create([
                 'name' => 'Compilable Theme',
                 'source_path' => '/themes/compilable',
                 'compiled_path' => '/public/themes/compilable',
@@ -321,13 +321,13 @@ describe('UI Business Logic Integration', function () {
             expect($theme->source_path)->not->toBe($theme->compiled_path);
         });
 
-        it('enforces theme asset compilation', function () {)
+        it('enforces theme asset compilation', function () {
             $service = new ThemeService();
 
             $theme = $theme;
             $assets = Asset::factory()
                 ->count(3)
-                ->create([)
+                ->create([
                     'theme_id' => $theme->id,
                     'type' => 'css',
                 ]);
@@ -349,10 +349,10 @@ describe('UI Business Logic Integration', function () {
             }
         });
 
-        it('enforces theme configuration inheritance', function () {)
+        it('enforces theme configuration inheritance', function () {
             $service = new ThemeService();
 
-            $parentTheme = Theme::factory()->create([)
+            $parentTheme = Theme::factory()->create([
                 'name' => 'Parent Theme',
                 'config' => [
                     'colors' => ['primary' => '#007bff'],
@@ -360,7 +360,7 @@ describe('UI Business Logic Integration', function () {
                 ],
             ]);
 
-            $childTheme = Theme::factory()->create([)
+            $childTheme = Theme::factory()->create([
                 'name' => 'Child Theme',
                 'parent_id' => $parentTheme->id,
                 'config' => [
@@ -379,9 +379,9 @@ describe('UI Business Logic Integration', function () {
         });
     });
 
-    describe('UI Rendering Business Rules', function () {)
-        it('enforces view compilation rules', function () {)
-            $component = Component::factory()->create([)
+    describe('UI Rendering Business Rules', function () {
+        it('enforces view compilation rules', function () {
+            $component = Component::factory()->create([
                 'name' => 'view-component',
                 'theme_id' => $theme->id,
                 'view_path' => 'components.test-component',
@@ -396,8 +396,8 @@ describe('UI Business Logic Integration', function () {
             expect($component->is_active)->toBeTrue();
         });
 
-        it('enforces component data binding', function () {)
-            $component = Component::factory()->create([)
+        it('enforces component data binding', function () {
+            $component = Component::factory()->create([
                 'name' => 'data-component',
                 'theme_id' => $theme->id,
                 'data_schema' => [
@@ -420,8 +420,8 @@ describe('UI Business Logic Integration', function () {
             }
         });
 
-        it('enforces responsive design rules', function () {)
-            $component = Component::factory()->create([)
+        it('enforces responsive design rules', function () {
+            $component = Component::factory()->create([
                 'name' => 'responsive-component',
                 'theme_id' => $theme->id,
                 'responsive_breakpoints' => [
@@ -450,12 +450,12 @@ describe('UI Business Logic Integration', function () {
         });
     });
 
-    describe('Performance and Optimization Business Rules', function () {)
-        it('enforces asset bundling rules', function () {)
+    describe('Performance and Optimization Business Rules', function () {
+        it('enforces asset bundling rules', function () {
             $theme = $theme;
             $cssAssets = Asset::factory()
                 ->count(3)
-                ->create([)
+                ->create([
                     'theme_id' => $theme->id,
                     'type' => 'css',
                     'should_bundle' => true,
@@ -463,7 +463,7 @@ describe('UI Business Logic Integration', function () {
 
             $jsAssets = Asset::factory()
                 ->count(2)
-                ->create([)
+                ->create([
                     'theme_id' => $theme->id,
                     'type' => 'js',
                     'should_bundle' => true,
@@ -486,8 +486,8 @@ describe('UI Business Logic Integration', function () {
             expect($bundledJsCount)->toBeLessThan($jsAssets->count());
         });
 
-        it('enforces lazy loading rules', function () {)
-            $component = Component::factory()->create([)
+        it('enforces lazy loading rules', function () {
+            $component = Component::factory()->create([
                 'name' => 'lazy-component',
                 'theme_id' => $theme->id,
                 'supports_lazy_loading' => true,
@@ -503,8 +503,8 @@ describe('UI Business Logic Integration', function () {
             expect($component->lazy_loading_threshold)->toBe(0.5);
         });
 
-        it('enforces caching strategies', function () {)
-            $component = Component::factory()->create([)
+        it('enforces caching strategies', function () {
+            $component = Component::factory()->create([
                 'name' => 'cacheable-ui-component',
                 'theme_id' => $theme->id,
                 'cache_strategy' => 'aggressive',
