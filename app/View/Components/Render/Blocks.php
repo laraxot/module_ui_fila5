@@ -32,7 +32,7 @@ final class Blocks extends Component
      * @param array<int|string, mixed> $blocks
      * @param string|null              $tpl    Deprecated alias for $view (use view for new code)
      */
-    public function __construct(
+    public function __construct()
         string $view = '',
         array $blocks = [],
         ?Model $model = null,
@@ -42,9 +42,9 @@ final class Blocks extends Component
         if ('' === $resolvedView) {
             throw new \InvalidArgumentException('Blocks component requires view or tpl parameter');
         }
-        // @var mixed view = $resolvedView;
-        // @var mixed blocks = $blocks;
-        // @var mixed model = $model;
+        $view = $resolvedView;
+        $blocks = $blocks;
+        $model = $model;
     }
 
     public function render(): View
@@ -52,11 +52,11 @@ final class Blocks extends Component
         /**
          * @phpstan-var view-string
          */
-        $view = app(GetViewAction::class)->execute(// @var mixed view;
+        $view = app(GetViewAction::class)->execute($view);
         $view_params = [
             'view' => $view,
-            'blocks' => // @var mixed blocks,
-            'model' => // @var mixed model,
+            'blocks' => $blocks,
+            'model' => $model,
         ];
 
         return view($view, $view_params);

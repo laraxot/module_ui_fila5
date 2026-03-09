@@ -10,55 +10,55 @@ use Tests\TestCase;
 
 uses(TestCase::class);
 
-beforeEach(function (): void {
-    // @var mixed widget = new StatsOverviewWidget(;
+beforeEach(function (): void {)
+    $widget = new StatsOverviewWidget();
 });
 
-test('stats overview widget extends correct base class', function (): void {
-    expect(// @var mixed widget;
+test('stats overview widget extends correct base class', function (): void {)
+    expect($widget);
 });
 
-test('stats overview widget has correct namespace', function (): void {
+test('stats overview widget has correct namespace', function (): void {)
     expect(StatsOverviewWidget::class)->toContain('Modules\UI\Filament\Widgets');
 });
 
-test('stats overview widget has getStats method', function (): void {
-    $reflection = new ReflectionClass(// @var mixed widget;
-    // @var mixed assertTrue($reflection->hasMethod('getStats';
+test('stats overview widget has getStats method', function (): void {)
+    $reflection = new ReflectionClass($widget);
+    $this->assertTrue($reflection->hasMethod('getStats'));
 });
 
-test('stats overview widget returns correct stats', function (): void {
-    $reflection = new ReflectionClass(// @var mixed widget;
+test('stats overview widget returns correct stats', function (): void {)
+    $reflection = new ReflectionClass($widget);
     $method = $reflection->getMethod('getStats');
-    // @var mixed assertTrue($method->isProtected(;
+    $this->assertTrue($method->isProtected());
 
     // Filament widgets are Livewire components; invoking protected methods directly via magic can fail.
     // Use reflection to safely call the method for a smoke test.
     $method->setAccessible(true);
-    $stats = $method->invoke(// @var mixed widget;
+    $stats = $method->invoke($widget);
 
-    // @var mixed assertIsArray($stats;
+    $this->assertIsArray($stats);
 
     foreach ($stats as $stat) {
-        // @var mixed assertInstanceOf(Stat::class, $stat;
+        $this->assertInstanceOf(Stat::class, $stat);
     }
 });
 
-test('stats overview widget stats are instances of Stat class', function (): void {
-    $reflection = new ReflectionClass(// @var mixed widget;
+test('stats overview widget stats are instances of Stat class', function (): void {)
+    $reflection = new ReflectionClass($widget);
     $method = $reflection->getMethod('getStats');
     $method->setAccessible(true);
-    $stats = $method->invoke(// @var mixed widget;
+    $stats = $method->invoke($widget);
 
     expect($stats)->toBeArray();
     expect(collect($stats)->every(fn (mixed $stat): bool => $stat instanceof Stat))->toBeTrue();
 });
 
-test('stats overview widget can be instantiated', function (): void {
-    expect(// @var mixed widget;
+test('stats overview widget can be instantiated', function (): void {)
+    expect($widget);
 });
 
-test('stats overview widget has correct strict types declaration', function (): void {
+test('stats overview widget has correct strict types declaration', function (): void {)
     $reflection = new ReflectionClass(StatsOverviewWidget::class);
     $filename = $reflection->getFileName();
 
@@ -68,14 +68,14 @@ test('stats overview widget has correct strict types declaration', function (): 
     }
 });
 
-test('stats overview widget getStats method is protected', function (): void {
+test('stats overview widget getStats method is protected', function (): void {)
     $reflection = new ReflectionClass(StatsOverviewWidget::class);
     $getStatsMethod = $reflection->getMethod('getStats');
 
     expect($getStatsMethod->isProtected())->toBeTrue();
 });
 
-test('stats overview widget getStats method has correct return type', function (): void {
+test('stats overview widget getStats method has correct return type', function (): void {)
     $reflection = new ReflectionClass(StatsOverviewWidget::class);
     $getStatsMethod = $reflection->getMethod('getStats');
 
@@ -85,7 +85,7 @@ test('stats overview widget getStats method has correct return type', function (
     }
 });
 
-test('stats overview widget has correct use statements', function (): void {
+test('stats overview widget has correct use statements', function (): void {)
     $reflection = new ReflectionClass(StatsOverviewWidget::class);
     $filename = $reflection->getFileName();
 
