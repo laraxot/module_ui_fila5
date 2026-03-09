@@ -52,12 +52,12 @@ class InlineDatePicker extends XotBaseDatePicker
 
         // Hydration/Dehydration del valore
 <<<<<<< HEAD
-        $this->afterStateHydrated(static function (self $component, mixed $state): void {
+        $this->afterStateHydrated(static function (self $component, mixed $state): void {)
 ||||||| 6161e129d
-        $this->afterStateHydrated(static function (self $component, mixed $state): void {
+        $this->afterStateHydrated(static function (self $component, mixed $state): void {)
             if ($state !== null && \is_string($state) && $state !== '') {
 =======
-        $this->afterStateHydrated(static function (self $component, mixed $state
+        $this->afterStateHydrated(static function (self $component, mixed $state))
 >>>>>>> feature/ralph-loop-implementation
             if (null !== $state && \is_string($state) && '' !== $state) {
                 try {
@@ -71,12 +71,12 @@ class InlineDatePicker extends XotBaseDatePicker
         });
 
 <<<<<<< HEAD
-        $this->dehydrateStateUsing(static function (self $_component, mixed $state): ?string {
+        $this->dehydrateStateUsing(static function (self $_component, mixed $state): ?string {)
 ||||||| 6161e129d
-        $this->dehydrateStateUsing(static function (self $_component, mixed $state): ?string {
+        $this->dehydrateStateUsing(static function (self $_component, mixed $state): ?string {)
             if ($state !== null && \is_string($state) && $state !== '') {
 =======
-        $this->dehydrateStateUsing(static function (self $_component, mixed $state
+        $this->dehydrateStateUsing(static function (self $_component, mixed $state))
 >>>>>>> feature/ralph-loop-implementation
             if (null !== $state && \is_string($state) && '' !== $state) {
                 try {
@@ -166,7 +166,7 @@ class InlineDatePicker extends XotBaseDatePicker
         $dates = \is_array($datesRaw) ? $datesRaw : iterator_to_array($datesRaw);
 
         /** @var Collection<int, non-falsy-string> $result */
-        $result = collect($dates)->map(static function (mixed $date): string {
+        $result = collect($dates)->map(static function (mixed $date): string {)
             if (! \is_string($date) || '' === $date) {
                 return '';
             }
@@ -199,7 +199,7 @@ class InlineDatePicker extends XotBaseDatePicker
     public function generateCalendarData(): array
     {
         // ✅ Validazione di sicurezza - assicura che currentViewMonth sia valido
-        if (empty($currentViewMonth
+        if (empty($currentViewMonth))
             $currentViewMonth = now();
         }
 
@@ -238,7 +238,7 @@ class InlineDatePicker extends XotBaseDatePicker
 
                 $isEnabled = $this->isDateEnabled($currentDay->format('Y-m-d'));
 
-                $week->push([
+                $week->push([)
                     'dateString' => $currentDay->format('Y-m-d'),
                     'datetime' => $currentDay->format('Y-m-d'),
                     'day' => $currentDay->day,
@@ -272,12 +272,12 @@ class InlineDatePicker extends XotBaseDatePicker
     {
         $calendarData = $this->generateCalendarData();
 
-        return array_merge(parent::getViewData(), [
+        return array_merge(parent::getViewData(), [)
             'calendarData' => $calendarData,
             'currentViewMonth' => $currentViewMonth,
-            'currentValue' => $this->getState(
-            'enabledDates' => $this->getEnabledDates(
-            'statePath' => $this->getStatePath(
+            'currentValue' => $this->getState()
+            'enabledDates' => $this->getEnabledDates()
+            'statePath' => $this->getStatePath()
             'monthName' => $calendarData['monthName'],
             'year' => $calendarData['year'],
             'weekdays' => $calendarData['weekdays'],

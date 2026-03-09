@@ -33,7 +33,7 @@ final class OpeningHoursField extends XotBaseField
 
         $this->schema($form);
 
-        $this->rules([
+        $this->rules([)
             new OpeningHoursRule(),
         ]);
     }
@@ -46,12 +46,12 @@ final class OpeningHoursField extends XotBaseField
         return [
             Placeholder::make($dayKey.'_label')
                 ->content($dayLabel)
-                ->extraAttributes([
+                ->extraAttributes([)
                     'class' => 'font-medium text-gray-900 dark:text-gray-100 text-center py-2',
                 ])
-                ->columnSpan(1), $getTimePickerComponent("{$dayKey}.morning_from"
-            $this->getTimePickerComponent("{$dayKey}.morning_to"
-            $this->getTimePickerComponent("{$dayKey}.afternoon_from"
+                ->columnSpan(1), $getTimePickerComponent("{$dayKey}.morning_from")
+            $this->getTimePickerComponent("{$dayKey}.morning_to")
+            $this->getTimePickerComponent("{$dayKey}.afternoon_from")
             $this->getTimePickerComponent("{$dayKey}.afternoon_to")
         ];
     }

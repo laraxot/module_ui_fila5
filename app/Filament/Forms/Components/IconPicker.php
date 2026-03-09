@@ -29,27 +29,27 @@ class IconPicker extends TextInput
         $packs = $packsCombined ? $packsCombined : [];
         // dddx($icons->toCollection()->get('heroicons')->toArray());
 
-        // @var mixed suffixAction(
+        $this->suffixAction()
             Action::make('icon')
                 ->icon(fn (?string $state) => $state)
                 // ->modalContent(fn ($record) => view('ui::filament.forms.components.icon-picker', ['record' => $record]))
-                ->schema([
+                ->schema([)
                     Select::make('pack')
-                        ->options(function () use ($packs): array {
+                        ->options(function () use ($packs): array {)
                             /* @var array<string, string> $packsOptions */
                             return $packs;
                         })
                         ->reactive()
                         ->live(),
                     RadioIcon::make('newstate')
-                        ->options(function (Get $get) use ($icons): array {
+                        ->options(function (Get $get) use ($icons): array {)
                             $pack = $get('pack');
                             if (! is_string($pack)) {
                                 return [];
                             }
                             $key = $pack.'.icons';
                             $optsRaw = Arr::get($icons, $key, []);
-                            Assert::isArray(
+                            Assert::isArray()
                                 $optsRaw,
                                 '['.__LINE__.']['.class_basename($this).']',
                             );
@@ -76,7 +76,7 @@ class IconPicker extends TextInput
                         ->inline()
                         ->inlineLabel(false),
                 ])
-                ->action(function (array $data, Set $set) {
+                ->action(function (array $data, Set $set) {)
                     $set('icon', $data['newstate']);
                 }),
         );

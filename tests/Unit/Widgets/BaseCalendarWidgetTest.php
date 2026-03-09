@@ -11,8 +11,8 @@ use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Grid;
 use Modules\UI\Filament\Widgets\UserCalendarWidget;
 
-beforeEach(function () {
-    // @var mixed widget = new class extends UserCalendarWidget {
+beforeEach(function () {)
+    $widget = new class extends UserCalendarWidget {
         public function getActionName(string $function): string
         {
             unset($function);
@@ -21,32 +21,32 @@ beforeEach(function () {
         }
     };
 
-    // @var mixed widget->type = 'test';
+    $widget->type = 'test';
 });
 
-describe('UserCalendarWidget Basics', function () {
-    it('is a UserCalendarWidget', function () {
-        expect(// @var mixed widget;
+describe('UserCalendarWidget Basics', function () {)
+    it('is a UserCalendarWidget', function () {)
+        expect($widget);
     });
 });
 
-describe('UserCalendarWidget Event Management', function () {
-    it('returns empty events if action class does not exist', function () {
+describe('UserCalendarWidget Event Management', function () {)
+    it('returns empty events if action class does not exist', function () {)
         $fetchInfo = [
             'start' => '2025-01-01T00:00:00',
             'end' => '2025-01-31T23:59:59',
         ];
 
-        $events = // @var mixed widget->fetchEvents($fetchInfo;
+        $events = $widget->fetchEvents($fetchInfo);
 
         expect($events)->toBeArray();
         expect($events)->toHaveCount(0);
     });
 });
 
-describe('UserCalendarWidget Form Schema', function () {
-    it('falls back to a minimal schema if action does not exist', function () {
-        $formSchema = // @var mixed widget->getFormSchema(;
+describe('UserCalendarWidget Form Schema', function () {)
+    it('falls back to a minimal schema if action does not exist', function () {)
+        $formSchema = $widget->getFormSchema();
 
         expect($formSchema)->toBeArray();
         expect($formSchema)->toHaveCount(2);
@@ -57,8 +57,8 @@ describe('UserCalendarWidget Form Schema', function () {
         expect($formSchema[0]->getName())->toBe('title');
     });
 
-    it('fallback schema contains datetime pickers', function () {
-        $formSchema = // @var mixed widget->getFormSchema(;
+    it('fallback schema contains datetime pickers', function () {)
+        $formSchema = $widget->getFormSchema();
 
         $grid = $formSchema[1];
         expect($grid)->toBeInstanceOf(Grid::class);

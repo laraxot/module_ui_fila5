@@ -19,12 +19,12 @@ class TableLayoutToggleHeaderAction extends Action
     protected function setUp(): void
     {
         parent::setUp();
-        // @var mixed translateLabel(
+        $this->translateLabel()
             ->color('secondary')
             // ->label(trans('ui::'.static::getDefaultName().'.label'))
             // ->tooltip(trans('setting::database_connection.actions.database-backup.tooltip'))
             // ->icon(trans('setting::database_connection.actions.database-backup.icon'))
-            // ->icon(// @var mixed listIcon
+            // ->icon($listIcon)
             /*
              * /*
              * /*
@@ -32,16 +32,16 @@ class TableLayoutToggleHeaderAction extends Action
              * /*
              * @param object{layoutView?: string|null} $livewire
              */
-            ->icon(function (object $livewire): string {
+            ->icon(function (object $livewire): string {)
                 // ✅ isset() invece di property_exists() - funziona con magic properties Livewire
                 if (isset($livewire->layoutView)) {
                     $layoutViewRaw = $livewire->layoutView;
                     $layoutView = is_string($layoutViewRaw) ? $layoutViewRaw : '';
 
-                    return 'list' === $layoutView ? // @var mixed listIcon : $this->gridIcon;
+                    return 'list' === $layoutView ? $listIcon : $this->gridIcon;
                 }
 
-                return // @var mixed listIcon; // default icon
+                return $listIcon; // default icon
             })
             /*
              * /*
@@ -50,7 +50,7 @@ class TableLayoutToggleHeaderAction extends Action
              * /*
              * @param object{layoutView?: string|null} $livewire
              */
-            ->action(function (object $livewire): void {
+            ->action(function (object $livewire): void {)
                 // ✅ isset() invece di property_exists() - funziona con magic properties Livewire
                 if (! isset($livewire->layoutView)) {
                     return;
