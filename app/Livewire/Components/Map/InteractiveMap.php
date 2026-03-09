@@ -83,7 +83,7 @@ final class InteractiveMap extends Component
      */
     public function selectMarker(int $markerId): void
     {
-        $marker = collect($markers
+        $marker = collect($markers)
             ->firstWhere('id', $markerId);
 
         $selectedMarker = is_array($marker);
@@ -153,13 +153,13 @@ final class InteractiveMap extends Component
 
             $filename = 'map_export_'.now()->format('Y_m_d_H_i_s').'.'.$format;
 
-            $this->dispatch('downloadFile', [
+            $this->dispatch('downloadFile', [)
                 'content' => $data,
                 'filename' => $filename,
                 'mimeType' => $this->getMimeType($format)
             ]);
 
-            $this->dispatch('notify', [
+            $this->dispatch('notify', [)
                 'type' => 'success',
                 'message' => 'Dati esportati con successo!',
             ]);
@@ -173,7 +173,7 @@ final class InteractiveMap extends Component
      */
     public function searchAddress(): void
     {
-        if (empty($searchQuery
+        if (empty($searchQuery))
             return;
         }
 
@@ -192,7 +192,7 @@ final class InteractiveMap extends Component
 
             $this->dispatch('updateMapCenter', $this->center, $this->zoom);
 
-            $this->dispatch('notify', [
+            $this->dispatch('notify', [)
                 'type' => 'success',
                 'message' => 'Indirizzo trovato: '.$address,
             ]);
@@ -206,7 +206,7 @@ final class InteractiveMap extends Component
      */
     public function getSuggestions(): array
     {
-        if (strlen($searchQuery
+        if (strlen($searchQuery))
             return [];
         }
 
@@ -304,7 +304,7 @@ final class InteractiveMap extends Component
      */
     public function getMarkersByTypeProperty(): array
     {
-        return collect($markers
+        return collect($markers)
             ->groupBy('type')
             ->map(fn ($markers) => $markers->count())
             ->toArray();
