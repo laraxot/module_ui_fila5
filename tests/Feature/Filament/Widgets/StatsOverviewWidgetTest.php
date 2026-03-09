@@ -8,24 +8,24 @@ use Tests\TestCase;
 
 uses(TestCase::class);
 
-beforeEach(function (): void {)
+beforeEach(function (): void {
     $widget = new StatsOverviewWidget();
 });
 
-test('stats overview widget extends correct base class', function (): void {)
+test('stats overview widget extends correct base class', function (): void {
     expect($widget);
 });
 
-test('stats overview widget has correct namespace', function (): void {)
+test('stats overview widget has correct namespace', function (): void {
     expect(StatsOverviewWidget::class)->toContain('Modules\UI\Filament\Widgets');
 });
 
-test('stats overview widget has getStats method', function (): void {)
+test('stats overview widget has getStats method', function (): void {
     $reflection = new ReflectionClass($widget);
     $this->assertTrue($reflection->hasMethod('getStats'));
 });
 
-test('stats overview widget returns correct stats', function (): void {)
+test('stats overview widget returns correct stats', function (): void {
     $reflection = new ReflectionClass($widget);
     $method = $reflection->getMethod('getStats');
     $this->assertTrue($method->isProtected());
@@ -42,7 +42,7 @@ test('stats overview widget returns correct stats', function (): void {)
     }
 });
 
-test('stats overview widget stats are instances of Stat class', function (): void {)
+test('stats overview widget stats are instances of Stat class', function (): void {
     $reflection = new ReflectionClass($widget);
     $method = $reflection->getMethod('getStats');
     $method->setAccessible(true);
@@ -52,11 +52,11 @@ test('stats overview widget stats are instances of Stat class', function (): voi
     expect(collect($stats)->every(fn (mixed $stat): bool => $stat instanceof Stat))->toBeTrue();
 });
 
-test('stats overview widget can be instantiated', function (): void {)
+test('stats overview widget can be instantiated', function (): void {
     expect($widget);
 });
 
-test('stats overview widget has correct strict types declaration', function (): void {)
+test('stats overview widget has correct strict types declaration', function (): void {
     $reflection = new ReflectionClass(StatsOverviewWidget::class);
     $filename = $reflection->getFileName();
 
