@@ -11,36 +11,35 @@ use Tests\TestCase;
 uses(TestCase::class);
 
 beforeEach(function () {
-    $widget = new StatWithIconWidget();
+    $this->widget = new StatWithIconWidget();
 });
 
 test('stat with icon widget extends filament widget', function () {
-    expect($widget);
+    expect($this->widget)->toBeInstanceOf(Widget::class);
 });
 
 test('stat with icon widget can be instantiated', function () {
-    expect($widget);
+    expect($this->widget)->toBeInstanceOf(StatWithIconWidget::class);
 });
 
 test('stat with icon widget has correct view', function () {
-    $view = $widget->render();
-
-    expect($view)->toBeInstanceOf(View::class)
-        ->and($view->name())->toBe('ui::filament.widgets.statwithicon');
+    expect($this->widget->getViewName())->toBe('ui::filament.widgets.stat-with-icon-widget');
 });
 
 test('stat with icon widget has proper properties', function () {
-    expect($widget);
-    expect($widget);
-    expect($widget);
+    expect($this->widget)->toHaveProperty('stat');
+    expect($this->widget)->toHaveProperty('icon');
+    expect($this->widget)->toHaveProperty('description');
 });
 
 test('stat with icon widget can render', function () {
-    $view = $widget->render();
+    $view = $this->widget->render();
 
     expect($view)->toBeInstanceOf(View::class);
 });
 
 test('stat with icon widget has default values', function () {
-    expect($widget);
+    expect($this->widget->stat)->toBe('0');
+    expect($this->widget->icon)->toBe('heroicon-o-chart-bar');
+    expect($this->widget->description)->toBe('Statistica');
 });

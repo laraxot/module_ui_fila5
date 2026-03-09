@@ -14,14 +14,14 @@ use Modules\UI\Services\ThemeService;
 
 describe('UI Business Logic Integration', function () {
     beforeEach(function () {
-        $theme = Theme::factory()->create([
+        $this->theme = Theme::factory()->create([
             'name' => 'Default Theme',
             'is_active' => true,
         ]);
 
-        $component = Component::factory()->create([
+        $this->component = Component::factory()->create([
             'name' => 'test-component',
-            'theme_id' => $theme->id,
+            'theme_id' => $this->theme->id,
             'is_active' => true,
         ]);
     });
@@ -42,12 +42,12 @@ describe('UI Business Logic Integration', function () {
 
             // Verifica che solo un tema possa essere attivo per volta
             $activeThemes = Theme::where('is_active', true)->get();
-            expect($activeThemes->count())->toBeGreaterThanOrEqual(1); // Test theme
+            expect($activeThemes)->toHaveCount(2); // Default + Test
 
             // Disattivazione tema precedente
-            $theme->update(['is_active' => false]);
+            $this->theme->update(['is_active' => false]);
             $activeThemes = Theme::where('is_active', true)->get();
-            expect($activeThemes->count())->toBeGreaterThan(0);
+            expect($activeThemes)->toHaveCount(1);
         });
 
         it('enforces theme configuration validation', function () {
@@ -81,8 +81,7 @@ describe('UI Business Logic Integration', function () {
 
             // Verifica relazione di ereditarietà
             expect($childTheme->parent_id)->toBe($parentTheme->id);
-            expect($childTheme->parent)->not->toBeNull();
-            expect($childTheme->parent?->id)->toBe($parentTheme->id);
+            expect($childTheme->parent)->toBe($parentTheme);
 
             // Verifica che il tema figlio erediti le configurazioni del padre
             $parentConfig = $parentTheme->config ?? [];
@@ -107,7 +106,7 @@ describe('UI Business Logic Integration', function () {
             foreach ($validNames as $name) {
                 $component = Component::factory()->create([
                     'name' => $name,
-                    'theme_id' => $theme->id,
+                    'theme_id' => $this->theme->id,
                 ]);
 
                 // Verifica che il nome sia nel formato corretto
@@ -120,7 +119,7 @@ describe('UI Business Logic Integration', function () {
         it('enforces component versioning rules', function () {
             $component = Component::factory()->create([
                 'name' => 'versioned-component',
-                'theme_id' => $theme->id,
+                'theme_id' => $this->theme->id,
                 'version' => '1.0.0',
             ]);
 
@@ -144,7 +143,7 @@ describe('UI Business Logic Integration', function () {
         it('enforces component dependency rules', function () {
             $component = Component::factory()->create([
                 'name' => 'dependent-component',
-                'theme_id' => $theme->id,
+                'theme_id' => $this->theme->id,
                 'dependencies' => ['jquery', 'bootstrap'],
             ]);
 
@@ -167,7 +166,7 @@ describe('UI Business Logic Integration', function () {
                 'name' => 'main.css',
                 'type' => 'css',
                 'path' => '/assets/css/main.css',
-                'theme_id' => $theme->id,
+                'theme_id' => $this->theme->id,
             ]);
 
             // Verifica che il tipo di asset sia valido
@@ -187,7 +186,7 @@ describe('UI Business Logic Integration', function () {
                 'name' => 'optimized.js',
                 'type' => 'js',
                 'path' => '/assets/js/optimized.js',
-                'theme_id' => $theme->id,
+                'theme_id' => $this->theme->id,
                 'is_minified' => true,
                 'is_compressed' => true,
             ]);
@@ -208,19 +207,19 @@ describe('UI Business Logic Integration', function () {
                     'name' => 'jquery.js',
                     'type' => 'js',
                     'order' => 1,
-                    'theme_id' => $theme->id,
+                    'theme_id' => $this->theme->id,
                 ]),
                 Asset::factory()->create([
                     'name' => 'bootstrap.js',
                     'type' => 'js',
                     'order' => 2,
-                    'theme_id' => $theme->id,
+                    'theme_id' => $this->theme->id,
                 ]),
                 Asset::factory()->create([
                     'name' => 'app.js',
                     'type' => 'js',
                     'order' => 3,
-                    'theme_id' => $theme->id,
+                    'theme_id' => $this->theme->id,
                 ]),
             ]);
 
@@ -243,7 +242,7 @@ describe('UI Business Logic Integration', function () {
 
             $component = Component::factory()->create([
                 'name' => 'renderable-component',
-                'theme_id' => $theme->id,
+                'theme_id' => $this->theme->id,
                 'template' => '<div class="test-component">{{ $content }}</div>',
                 'is_active' => true,
             ]);
@@ -263,7 +262,7 @@ describe('UI Business Logic Integration', function () {
 
             $component = Component::factory()->create([
                 'name' => 'cacheable-component',
-                'theme_id' => $theme->id,
+                'theme_id' => $this->theme->id,
                 'is_cacheable' => true,
                 'cache_ttl' => 3600,
             ]);
@@ -284,7 +283,7 @@ describe('UI Business Logic Integration', function () {
 
             $component = Component::factory()->create([
                 'name' => 'validated-component',
-                'theme_id' => $theme->id,
+                'theme_id' => $this->theme->id,
                 'validation_rules' => [
                     'required' => true,
                     'min_length' => 3,
@@ -324,7 +323,7 @@ describe('UI Business Logic Integration', function () {
         it('enforces theme asset compilation', function () {
             $service = new ThemeService();
 
-            $theme = $theme;
+            $theme = $this->theme;
             $assets = Asset::factory()
                 ->count(3)
                 ->create([
@@ -332,19 +331,16 @@ describe('UI Business Logic Integration', function () {
                     'type' => 'css',
                 ]);
 
-            $themeAssets = Asset::query()->where('theme_id', $theme->id)->get();
-            $themeAssetsCount = Asset::query()->where('theme_id', $theme->id)->count();
-
             // Verifica che il tema abbia asset da compilare
-            expect($themeAssetsCount)->toBeGreaterThanOrEqual(3);
+            expect($theme->assets)->toHaveCount(3);
 
             // Verifica che tutti gli asset siano dello stesso tipo
-            foreach ($themeAssets as $asset) {
+            foreach ($theme->assets as $asset) {
                 expect($asset->type)->toBe('css');
             }
 
             // Verifica che gli asset appartengano al tema corretto
-            foreach ($themeAssets as $asset) {
+            foreach ($theme->assets as $asset) {
                 expect($asset->theme_id)->toBe($theme->id);
             }
         });
@@ -383,7 +379,7 @@ describe('UI Business Logic Integration', function () {
         it('enforces view compilation rules', function () {
             $component = Component::factory()->create([
                 'name' => 'view-component',
-                'theme_id' => $theme->id,
+                'theme_id' => $this->theme->id,
                 'view_path' => 'components.test-component',
                 'is_active' => true,
             ]);
@@ -399,7 +395,7 @@ describe('UI Business Logic Integration', function () {
         it('enforces component data binding', function () {
             $component = Component::factory()->create([
                 'name' => 'data-component',
-                'theme_id' => $theme->id,
+                'theme_id' => $this->theme->id,
                 'data_schema' => [
                     'title' => 'string',
                     'content' => 'text',
@@ -423,7 +419,7 @@ describe('UI Business Logic Integration', function () {
         it('enforces responsive design rules', function () {
             $component = Component::factory()->create([
                 'name' => 'responsive-component',
-                'theme_id' => $theme->id,
+                'theme_id' => $this->theme->id,
                 'responsive_breakpoints' => [
                     'mobile' => 'max-width: 768px',
                     'tablet' => 'min-width: 769px and max-width: 1024px',
@@ -437,22 +433,20 @@ describe('UI Business Logic Integration', function () {
             expect($component->responsive_breakpoints['tablet'])->toContain('min-width');
             expect($component->responsive_breakpoints['desktop'])->toContain('min-width');
 
-            // Verifica ordine logico nel formato media-query
-            // Note: breakpoint values might be serialized as strings
-            $mobileBreakpoint = $component->responsive_breakpoints['mobile'] ?? '';
-            $tabletBreakpoint = $component->responsive_breakpoints['tablet'] ?? '';
-            $desktopBreakpoint = $component->responsive_breakpoints['desktop'] ?? '';
+            // Verifica che i breakpoint siano ordinati correttamente
+            $mobileMax = (int) preg_replace('/[^0-9]/', '', $component->responsive_breakpoints['mobile']);
+            $tabletMin = (int) preg_replace('/[^0-9]/', '', $component->responsive_breakpoints['tablet']);
+            $tabletMax = (int) preg_replace('/[^0-9]/', '', $component->responsive_breakpoints['tablet']);
+            $desktopMin = (int) preg_replace('/[^0-9]/', '', $component->responsive_breakpoints['desktop']);
 
-            expect($mobileBreakpoint)->toContain('768px');
-            expect($tabletBreakpoint)->toContain('769px');
-            expect($tabletBreakpoint)->toContain('1024px');
-            expect($desktopBreakpoint)->toContain('1025px');
+            expect($mobileMax)->toBeLessThan($tabletMin);
+            expect($tabletMax)->toBeLessThan($desktopMin);
         });
     });
 
     describe('Performance and Optimization Business Rules', function () {
         it('enforces asset bundling rules', function () {
-            $theme = $theme;
+            $theme = $this->theme;
             $cssAssets = Asset::factory()
                 ->count(3)
                 ->create([
@@ -489,7 +483,7 @@ describe('UI Business Logic Integration', function () {
         it('enforces lazy loading rules', function () {
             $component = Component::factory()->create([
                 'name' => 'lazy-component',
-                'theme_id' => $theme->id,
+                'theme_id' => $this->theme->id,
                 'supports_lazy_loading' => true,
                 'lazy_loading_threshold' => 0.5,
             ]);
@@ -506,7 +500,7 @@ describe('UI Business Logic Integration', function () {
         it('enforces caching strategies', function () {
             $component = Component::factory()->create([
                 'name' => 'cacheable-ui-component',
-                'theme_id' => $theme->id,
+                'theme_id' => $this->theme->id,
                 'cache_strategy' => 'aggressive',
                 'cache_duration' => 7200,
             ]);

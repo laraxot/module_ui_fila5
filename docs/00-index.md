@@ -30,6 +30,10 @@
 ## 🧹 **Manutenzione**
 - 🗑️ **[Cleanup Plan](./consolidation-plan.md)** - Strategia per ridurre i 280+ file di documentazione.
 
+## 📦 **Pacchetti Composer**
+- [Riferimento completo](../../../../docs/composer-packages-reference.md) | [Inventario 312 pacchetti](../../../../docs/architecture/composer-packages-full-inventory.md)
+- `owenvoke/blade-fontawesome` - Icone FontAwesome
+
 ## 🔗 **Moduli Correlati**
 - [Xot](../../xot/docs/readme.md) - Base framework per i widget.
 - [Cms](../../cms/docs/readme.md) - Layout dei contenuti e blocchi.
@@ -37,13 +41,6 @@
 ---
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*
 
-## Regola Operativa Obbligatoria
+## Dependency Intelligence
 
-- Prima di modificare codice: ragionare, studiare i docs del modulo/tema, aggiornare docs/rules/memory/skills.
-- Riferimento globale: [Pre-Edit Docs-First Rule](../../../../docs/rules/pre-edit-docs-first-rule.md)
-- Memory: [Pre-Edit Docs-First Memory](../../../../docs/memory/pre-edit-docs-first-memory.md)
-- Skill: [Pre-Edit Docs-First Skill](../../../../docs/skills/pre-edit-docs-first-skill.md)
-
-## Docs Governance
-
-- [Docs Health](./docs-health.md) - Stato qualità docs, checklist di confidenza e prossime azioni di manutenzione.
+- [Dependency intelligence](dependency-intelligence.md)

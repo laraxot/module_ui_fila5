@@ -23,26 +23,26 @@ class IconStateColumn extends IconColumn
     protected function setUp(): void
     {
         parent::setUp();
-        // $this->getStateUsing(fn(; // the column requires a state to be passed to it))
+        // $this->getStateUsing(fn() => true); // the column requires a state to be passed to it
 
-        $this->icon(function (XotStateContract $state))
+        $this->icon(function (XotStateContract $state) {
             return $state->icon();
         });
 
-        $this->color(function (XotStateContract $state))
+        $this->color(function (XotStateContract $state) {
             return $state->color();
         });
 
-        $this->tooltip(function (XotStateContract $state))
+        $this->tooltip(function (XotStateContract $state) {
             return $state->label();
         });
         // $this->label('aaa');
 
-        $this->action()
+        $this->action(
             Action::make('change-state')
-                ->schema([)
+                ->schema([
                     Select::make('state')
-                        ->options(function (Model&HasStatesContract $record, string $_state): array {)
+                        ->options(function (Model&HasStatesContract $record, string $_state): array {
                             $name = $this->getName();
                             $state = $record->getAttribute($name);
                             if (null === $state) {
@@ -73,7 +73,7 @@ class IconStateColumn extends IconColumn
                             }
 
                             /* @var array<int|string, mixed> $states */
-                            return Arr::mapWithKeys($statesArray, function ($state) use ($record) {)
+                            return Arr::mapWithKeys($statesArray, function ($state) use ($record) {
                                 if (! is_string($state)) {
                                     return [];
                                 }
@@ -86,7 +86,7 @@ class IconStateColumn extends IconColumn
                         })
                         ->required()
                         ->reactive(),
-                    Textarea::make('message')->required(function (Get $get, Model $record): bool {)
+                    Textarea::make('message')->required(function (Get $get, Model $record): bool {
                         $newState = $get('state');
                         $name = $this->getName();
                         $state = $record->getAttribute($name);
@@ -112,7 +112,7 @@ class IconStateColumn extends IconColumn
                             : false;
                     }),
                 ])
-                ->fillForm(function (Model $record): array {)
+                ->fillForm(function (Model $record): array {
                     /** @var Model&HasStatesContract $record */
                     $name = $this->getName();
                     $state = $record->getAttribute($name);
@@ -129,7 +129,7 @@ class IconStateColumn extends IconColumn
                         'state' => $stateName,
                     ];
                 })
-                ->action(function ($record, $data) {)
+                ->action(function ($record, $data) {
                     /** @var array<string, mixed> $data */
                     if (! isset($data['state']) || ! is_string($data['state'])) {
                         throw new \Exception('State is required and must be a string');
@@ -144,7 +144,7 @@ class IconStateColumn extends IconColumn
                     $label = __('pub_theme::'.$model.'_states.'.$state.'.label');
 
                     /** @var Model&HasStatesContract $record */
-                    $currentState = $record->getAttribute($getName());
+                    $currentState = $record->getAttribute($this->getName());
                     if (! $currentState instanceof State) {
                         throw new \Exception('Current state is not a valid State instance');
                     }

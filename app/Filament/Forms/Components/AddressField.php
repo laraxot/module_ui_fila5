@@ -27,7 +27,7 @@ class AddressField extends Field
     {
         parent::setUp();
 
-        $this->afterStateHydrated(function (AddressField $_component, mixed $record))
+        $this->afterStateHydrated(function (AddressField $_component, mixed $record) {
             $data = [
                 'country' => null,
                 'street' => null,
@@ -56,7 +56,7 @@ class AddressField extends Field
 
     public function relationship(string|callable $relationship): static
     {
-        $relationship = $relationship;
+        $this->relationship = $relationship;
 
         return $this;
     }
@@ -82,7 +82,7 @@ class AddressField extends Field
         }
 
         $relationship = $record->{$relationshipMethod}();
-        if (! $relationship instanceof HasOne)
+        if (! $relationship instanceof HasOne
             && ! $relationship instanceof MorphOne
             && ! $relationship instanceof HasMany) {
             return;
@@ -102,13 +102,13 @@ class AddressField extends Field
     public function getDefaultChildComponents(?string $key = null): array
     {
         return [
-            Grid::make()->schema([)
+            Grid::make()->schema([
                 Select::make('country')->searchable(),
                 // ->getSearchResultsUsing(fn (string $query) => Country::where('name', 'like', "%{$query}%")->pluck('name', 'id'))
                 // ->getOptionLabelUsing(fn ($value): ?string => Country::firstWhere('id', $value)->getAttribute('name')),
             ]),
             TextInput::make('street')->maxLength(255),
-            Grid::make(3)->schema([)
+            Grid::make(3)->schema([
                 TextInput::make('city')->maxLength(255),
                 TextInput::make('state')->maxLength(255),
                 TextInput::make('zip')->maxLength(255),
@@ -118,7 +118,7 @@ class AddressField extends Field
 
     public function getRelationship(): string
     {
-        Assert::string($res = $this->evaluate($this->relationship));
+        Assert::string($res = $this->evaluate($this->relationship) ?? $this->getName());
 
         return $res;
     }

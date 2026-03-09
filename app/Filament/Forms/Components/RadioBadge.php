@@ -23,14 +23,14 @@ class RadioBadge extends Radio
      */
     public function getEnumValue(string $value): ?\BackedEnum
     {
-        if (! \is_string($options))
+        if (! \is_string($this->options)) {
             return null;
         }
-        if (! enum_exists($options))
+        if (! enum_exists($this->options)) {
             return null;
         }
         /** @var class-string<\UnitEnum> $enumClass */
-        $enumClass = $options;
+        $enumClass = $this->options;
 
         // Verifica che sia un BackedEnum
         if (! is_subclass_of($enumClass, \BackedEnum::class)) {
@@ -52,13 +52,13 @@ class RadioBadge extends Radio
         if ($enum instanceof HasColor) {
             $color = $enum->getColor();
             if (null === $color) {
-                return $selectedColor;
+                return $this->selectedColor;
             }
 
             if (is_array($color)) {
                 $first = reset($color);
 
-                return is_string($first) && '' !== $first ? $first : $selectedColor;
+                return is_string($first) && '' !== $first ? $first : $this->selectedColor;
             }
 
             // PHPStan L10: $color è già verificato come non-array e non-null, quindi è string
@@ -66,10 +66,10 @@ class RadioBadge extends Radio
                 return $color;
             }
 
-            return $selectedColor;
+            return $this->selectedColor;
         }
 
-        return $selectedColor;
+        return $this->selectedColor;
     }
 
     public function getIconForOption(string $value): ?string
@@ -100,14 +100,14 @@ class RadioBadge extends Radio
 
     public function defaultColor(string $color): static
     {
-        $defaultColor = $color;
+        $this->defaultColor = $color;
 
         return $this;
     }
 
     public function selectedColor(string $color): static
     {
-        $selectedColor = $color;
+        $this->selectedColor = $color;
 
         return $this;
     }

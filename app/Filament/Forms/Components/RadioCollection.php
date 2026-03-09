@@ -26,7 +26,7 @@ final class RadioCollection extends Field
      */
     public function options(\Closure|Collection|null $options): static
     {
-        $options = $options;
+        $this->options = $options;
 
         return $this;
     }
@@ -36,7 +36,7 @@ final class RadioCollection extends Field
      */
     public function itemView(string $view): static
     {
-        $itemView = $view;
+        $this->itemView = $view;
 
         return $this;
     }
@@ -46,7 +46,7 @@ final class RadioCollection extends Field
      */
     public function valueKey(string $key): static
     {
-        $valueKey = $key;
+        $this->valueKey = $key;
 
         return $this;
     }
@@ -72,7 +72,7 @@ final class RadioCollection extends Field
      */
     public function getItemView(): string
     {
-        return $itemView ?? 'ui::filament.forms.components.radio-collection-item';
+        return $this->itemView ?? 'ui::filament.forms.components.radio-collection-item';
     }
 
     /**
@@ -80,7 +80,7 @@ final class RadioCollection extends Field
      */
     public function getValueKey(): string
     {
-        return $valueKey;
+        return $this->valueKey;
     }
 
     /**
@@ -88,11 +88,11 @@ final class RadioCollection extends Field
      */
     public function isOptionSelected(mixed $option): bool
     {
-        $state = SafeStringCastAction::cast($getState());
+        $state = SafeStringCastAction::cast($this->getState());
         $currentValue = (string) $state;
 
         // PHPStan L10: data_get restituisce mixed, SafeStringCastAction accetta mixed
-        $optionData = data_get($option, $getValueKey());
+        $optionData = data_get($option, $this->getValueKey());
         $optionValue = SafeStringCastAction::cast($optionData);
 
         return $currentValue === $optionValue;
