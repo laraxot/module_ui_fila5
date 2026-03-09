@@ -11,37 +11,37 @@ use Tests\TestCase;
 
 uses(TestCase::class);
 
-beforeEach(function () {)
+beforeEach(function () {
     $widget = new StatWithIconWidget();
 });
 
-test('stat with icon widget extends filament widget', function () {)
+test('stat with icon widget extends filament widget', function () {
     expect($widget);
 });
 
-test('stat with icon widget can be instantiated', function () {)
+test('stat with icon widget can be instantiated', function () {
     expect($widget);
 });
 
-test('stat with icon widget has correct view', function () {)
+test('stat with icon widget has correct view', function () {
     $view = $widget->render();
 
     expect($view)->toBeInstanceOf(View::class)
         ->and($view->name())->toBe('ui::filament.widgets.statwithicon');
 });
 
-test('stat with icon widget has proper properties', function () {)
+test('stat with icon widget has proper properties', function () {
     expect($widget);
     expect($widget);
     expect($widget);
 });
 
-test('stat with icon widget can render', function () {)
+test('stat with icon widget can render', function () {
     $view = $widget->render();
 
     expect($view)->toBeInstanceOf(View::class);
 });
 
-test('stat with icon widget has default values', function () {)
+test('stat with icon widget has default values', function () {
     expect($widget);
 });
