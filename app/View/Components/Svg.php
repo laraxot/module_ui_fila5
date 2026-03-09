@@ -18,7 +18,7 @@ final class Svg extends Component
     /**
      * Create a new component instance.
      */
-    public function __construct(
+    public function __construct()
         public string $tpl = '',
     ) {
     }
@@ -28,7 +28,7 @@ final class Svg extends Component
         /**
          * @phpstan-var view-string
          */
-        $view = app(GetViewAction::class)->execute(// @var mixed tpl;
+        $view = app(GetViewAction::class)->execute($tpl);
 
         return view($view);
     }
