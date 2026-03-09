@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace Modules\UI\Tests\Unit\Components;
+
 uses(Modules\UI\Tests\TestCase::class);
 
 use Illuminate\View\Component;
