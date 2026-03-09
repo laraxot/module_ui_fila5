@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace Modules\UI\Tests\Unit\Widgets;
+
 uses(Modules\UI\Tests\TestCase::class);
 
 use Filament\Forms\Components\DateTimePicker;
