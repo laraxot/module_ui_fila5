@@ -10,6 +10,10 @@ use Illuminate\Support\Arr;
 use Illuminate\View\Component;
 use Illuminate\View\View;
 use Modules\Cms\Actions\ResolveLocalizedBlockDataAction;
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 use Webmozart\Assert\Assert;
 
 /**
@@ -53,6 +57,10 @@ class Block extends Component
         /** @var array<string, mixed> $view_params */
         $view_params = (array) $view_params;
         $view_params = app(ResolveLocalizedBlockDataAction::class)->execute($view_params);
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
         Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
         if (! view()->exists($view)) {
             throw new \Exception('view not found ['.$view.']');
