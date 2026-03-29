@@ -55,3 +55,6 @@ resources/views/components/ui/
 
 - [Xot Base](../Xot/docs/)
 - [User Module](../User/docs/)
+
+## AI Workflows
+- [AI Methodologies](./ai-methodologies.md)
