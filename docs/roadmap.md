@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 # 🎨 UI MODULE - ROADMAP 2025
+||||||| parent of 9a84589 (.)
+# UI Module Roadmap
+=======
+# Product Roadmap - UI Module
+>>>>>>> 9a84589 (.)
 
+<<<<<<< HEAD
 **Modulo**: UI (User Interface Components & Design System)  
 **Status**: 85% COMPLETATO  
 **Priority**: HIGH  
@@ -297,3 +304,54 @@ UI Module
 ---
 
 *Questa roadmap è specifica per il modulo UI e viene aggiornata regolarmente in base ai progressi e alle nuove esigenze.*
+||||||| parent of 9a84589 (.)
+"L'interfaccia è l'essenza: rendere l'esperienza indimenticabile."
+
+## 🎯 Visione
+Creare un ecosistema UI "Headless-first" che permetta di cambiare radicalmente il look-and-feel di un tenant tramite semplici configurazioni JSON, sfruttando la potenza di Tailwind CSS v4 e le animazioni native del browser.
+
+## 🏗️ Fasi di Sviluppo
+
+### Fase 1: Modernization (In Progress)
+- [x] PHPStan Level 10 Compliance.
+- [ ] Completamento migrazione a **Tailwind CSS v4**.
+- [ ] Implementazione di **Flux UI** per i componenti interattivi di base.
+- [ ] Rimozione definitiva dei 280+ file obsoleti.
+
+### Fase 2: Component Studio (Planned)
+- [ ] Creazione di una "Gallery" live per testare i componenti UI isolati.
+- [ ] Sistema di **Design Tokens** centralizzato esportabile in vari formati.
+- [ ] Nuovi componenti avanzati per **Data Visualization** (integrazione Chart).
+
+### Fase 3: AI Design (Future)
+- [ ] **AI Theme Generator**: Generazione automatica di palette colori accessibili da un'immagine di brand.
+- [ ] **Dynamic Layout Optimization**: L'AI suggerisce layout migliori in base al tipo di contenuto visualizzato.
+- [ ] **Predictive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
+
+## ✅ Checklist Qualità
+- [x] PHPStan Level 10.
+- [ ] Accessibilità WCAG 2.1 (AA) verificata su tutti i componenti core.
+- [ ] Performance Lighthouse > 90 su pagine UI intensive.
+
+---
+**Ultimo aggiornamento**: Febbraio 2026
+=======
+## 🎯 Vision & Strategy
+Provide a consistent, accessible, and high-performance UI kit for all Laraxot modules based on Filament v5 and specialized Blade components.
+
+## 🗓️ Timeline
+### Q1 2026: Design System (Current)
+- **Super Mucca Component Library** - *Status: In Progress*
+- **Filament v5 Theme Customization** - *Status: Shipped*
+- **Accessibility Audit (WCAG 2.1)** - *Status: Planned*
+
+## 🚦 Status Overview
+| Feature | Status | Owner | Target Date |
+| :--- | :--- | :--- | :--- |
+| Core UI Kit | ✅ Stable | @CoreTeam | Feb 2026 |
+| Custom Icons Pack | 🏗️ In Dev | @CoreTeam | Apr 2026 |
+
+## 📂 Backlog / Future Ideas
+- Dark mode optimization for all custom components.
+- Livewire Volt integration for ultra-fast reactive elements.
+>>>>>>> 9a84589 (.)
