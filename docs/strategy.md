@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Product Strategy: UI Module
 
 ## 🌍 Market Context
@@ -13,3 +14,7 @@ PA users require clear, unambiguous interfaces that work well on varying hardwar
 
 ## 🗺️ Strategic Roadmap (1-2 Years)
 Development of a standalone UI Component Explorer (similar to Storybook) for the Laraxot ecosystem.
+=======
+# Product Strategy Doc - UI Module
+Focus su riusabilità e agnosticismo architetturale.
+>>>>>>> e2330ae (.)
