@@ -25,7 +25,13 @@ final class DarkModeSwitcher extends Component
      */
     public function __construct()
     {
+<<<<<<< HEAD
+        $this->widget = new DarkModeSwitcherWidget();
+||||||| 6161e129d
+        $this->widget = new DarkModeSwitcherWidget;
+=======
         $widget = new DarkModeSwitcherWidget();
+>>>>>>> feature/ralph-loop-implementation
     }
 
     /**

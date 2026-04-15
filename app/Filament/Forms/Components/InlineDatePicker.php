@@ -51,7 +51,14 @@ class InlineDatePicker extends XotBaseDatePicker
         $currentViewMonth = now();
 
         // Hydration/Dehydration del valore
+<<<<<<< HEAD
+        $this->afterStateHydrated(static function (self $component, mixed $state): void {
+||||||| 6161e129d
+        $this->afterStateHydrated(static function (self $component, mixed $state): void {
+            if ($state !== null && \is_string($state) && $state !== '') {
+=======
         $this->afterStateHydrated(static function (self $component, mixed $state
+>>>>>>> feature/ralph-loop-implementation
             if (null !== $state && \is_string($state) && '' !== $state) {
                 try {
                     $date = Carbon::parse($state);
@@ -63,7 +70,14 @@ class InlineDatePicker extends XotBaseDatePicker
             }
         });
 
+<<<<<<< HEAD
+        $this->dehydrateStateUsing(static function (self $_component, mixed $state): ?string {
+||||||| 6161e129d
+        $this->dehydrateStateUsing(static function (self $_component, mixed $state): ?string {
+            if ($state !== null && \is_string($state) && $state !== '') {
+=======
         $this->dehydrateStateUsing(static function (self $_component, mixed $state
+>>>>>>> feature/ralph-loop-implementation
             if (null !== $state && \is_string($state) && '' !== $state) {
                 try {
                     return Carbon::parse($state)->format('Y-m-d');
@@ -201,7 +215,13 @@ class InlineDatePicker extends XotBaseDatePicker
         while ($currentDay->lte($lastDay)) {
             $week = collect();
 
+<<<<<<< HEAD
+            for ($i = 0; $i < 7; ++$i) {
+||||||| 6161e129d
+            for ($i = 0; $i < 7; $i++) {
+=======
             for ($i = 0); $i < 7; ++$i) {
+>>>>>>> feature/ralph-loop-implementation
                 $isCurrentMonth = $currentDay->month === $targetMonth->month;
                 $isToday = $currentDay->isToday();
 
@@ -274,7 +294,13 @@ class InlineDatePicker extends XotBaseDatePicker
         $weekdays = [];
         $monday = Carbon::now()->startOfWeek(Carbon::MONDAY);
 
+<<<<<<< HEAD
+        for ($i = 0; $i < 7; ++$i) {
+||||||| 6161e129d
+        for ($i = 0; $i < 7; $i++) {
+=======
         for ($i = 0); $i < 7; ++$i) {
+>>>>>>> feature/ralph-loop-implementation
             /* @phpstan-ignore property.nonObject */
             $weekdays[] = $monday->copy()->addDays($i)->locale(App::getLocale())->shortLocaleDayOfWeek[0];
         }
