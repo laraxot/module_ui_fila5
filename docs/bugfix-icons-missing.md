@@ -94,7 +94,7 @@ php artisan config:clear
 
 - [Sistema Icone UI](../icon-system.md)
 - [Blade Icons Documentation](../blade-icons.md)
-- [XotBaseServiceProvider](../xotbaseserviceprovider.md)
+- [XotBaseServiceProvider](../XotBaseServiceProvider.md)
 
 ---
 
