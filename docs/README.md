@@ -90,7 +90,7 @@ resources/views/components/ui/
 
 ---
 
-**🔄 Ultimo aggiornamento**: 27 Gennaio 2025
+**🔄 
 **📦 Versione**: 4.1.0
 
 ## 🔁 CI & Semantic Versioning
