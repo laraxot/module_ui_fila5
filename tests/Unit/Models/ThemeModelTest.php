@@ -21,7 +21,7 @@ describe('Theme Model', function (): void {
     });
 
     test('it has fillable attributes', function (): void {
-        $theme = new Theme();
+        $theme = new Theme;
         $expected = ['name', 'description', 'is_active', 'config', 'parent_id', 'source_path', 'compiled_path', 'needs_compilation'];
 
         foreach ($expected as $field) {
