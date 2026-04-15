@@ -16,14 +16,14 @@ use Modules\UI\Services\ThemeService;
 
 describe('UI Business Logic Integration', function () {
     beforeEach(function () {
-        // @var mixed theme = Theme::factory(
+        $theme = Theme::factory(
             'name' => 'Default Theme',
             'is_active' => true,
         ]);
 
-        // @var mixed component = Component::factory(
+        $component = Component::factory(
             'name' => 'test-component',
-            'theme_id' => // @var mixed theme->id,
+            'theme_id' => $theme->id,
             'is_active' => true,
         ]);
     });
@@ -47,7 +47,7 @@ describe('UI Business Logic Integration', function () {
             expect($activeThemes->count())->toBeGreaterThanOrEqual(1); // Test theme
 
             // Disattivazione tema precedente
-            // @var mixed theme->update(['is_active' => false];
+            $theme->update(['is_active' => false]);
             $activeThemes = Theme::where('is_active', true)->get();
             expect($activeThemes->count())->toBeGreaterThan(0);
         });
@@ -109,7 +109,7 @@ describe('UI Business Logic Integration', function () {
             foreach ($validNames as $name) {
                 $component = Component::factory()->create([
                     'name' => $name,
-                    'theme_id' => // @var mixed theme->id,
+                    'theme_id' => $theme->id,
                 ]);
 
                 // Verifica che il nome sia nel formato corretto
@@ -122,7 +122,7 @@ describe('UI Business Logic Integration', function () {
         it('enforces component versioning rules', function () {
             $component = Component::factory()->create([
                 'name' => 'versioned-component',
-                'theme_id' => // @var mixed theme->id,
+                'theme_id' => $theme->id,
                 'version' => '1.0.0',
             ]);
 
@@ -146,7 +146,7 @@ describe('UI Business Logic Integration', function () {
         it('enforces component dependency rules', function () {
             $component = Component::factory()->create([
                 'name' => 'dependent-component',
-                'theme_id' => // @var mixed theme->id,
+                'theme_id' => $theme->id,
                 'dependencies' => ['jquery', 'bootstrap'],
             ]);
 
@@ -169,7 +169,7 @@ describe('UI Business Logic Integration', function () {
                 'name' => 'main.css',
                 'type' => 'css',
                 'path' => '/assets/css/main.css',
-                'theme_id' => // @var mixed theme->id,
+                'theme_id' => $theme->id,
             ]);
 
             // Verifica che il tipo di asset sia valido
@@ -189,7 +189,7 @@ describe('UI Business Logic Integration', function () {
                 'name' => 'optimized.js',
                 'type' => 'js',
                 'path' => '/assets/js/optimized.js',
-                'theme_id' => // @var mixed theme->id,
+                'theme_id' => $theme->id,
                 'is_minified' => true,
                 'is_compressed' => true,
             ]);
@@ -210,19 +210,19 @@ describe('UI Business Logic Integration', function () {
                     'name' => 'jquery.js',
                     'type' => 'js',
                     'order' => 1,
-                    'theme_id' => // @var mixed theme->id,
+                    'theme_id' => $theme->id,
                 ]),
                 Asset::factory()->create([
                     'name' => 'bootstrap.js',
                     'type' => 'js',
                     'order' => 2,
-                    'theme_id' => // @var mixed theme->id,
+                    'theme_id' => $theme->id,
                 ]),
                 Asset::factory()->create([
                     'name' => 'app.js',
                     'type' => 'js',
                     'order' => 3,
-                    'theme_id' => // @var mixed theme->id,
+                    'theme_id' => $theme->id,
                 ]),
             ]);
 
@@ -245,7 +245,7 @@ describe('UI Business Logic Integration', function () {
 
             $component = Component::factory()->create([
                 'name' => 'renderable-component',
-                'theme_id' => // @var mixed theme->id,
+                'theme_id' => $theme->id,
                 'template' => '<div class="test-component">{{ $content }}</div>',
                 'is_active' => true,
             ]);
@@ -265,7 +265,7 @@ describe('UI Business Logic Integration', function () {
 
             $component = Component::factory()->create([
                 'name' => 'cacheable-component',
-                'theme_id' => // @var mixed theme->id,
+                'theme_id' => $theme->id,
                 'is_cacheable' => true,
                 'cache_ttl' => 3600,
             ]);
@@ -286,7 +286,7 @@ describe('UI Business Logic Integration', function () {
 
             $component = Component::factory()->create([
                 'name' => 'validated-component',
-                'theme_id' => // @var mixed theme->id,
+                'theme_id' => $theme->id,
                 'validation_rules' => [
                     'required' => true,
                     'min_length' => 3,
@@ -326,7 +326,7 @@ describe('UI Business Logic Integration', function () {
         it('enforces theme asset compilation', function () {
             $service = new ThemeService();
 
-            $theme = // @var mixed theme;
+            $theme = $theme;
             $assets = Asset::factory()
                 ->count(3)
                 ->create([
@@ -385,7 +385,7 @@ describe('UI Business Logic Integration', function () {
         it('enforces view compilation rules', function () {
             $component = Component::factory()->create([
                 'name' => 'view-component',
-                'theme_id' => // @var mixed theme->id,
+                'theme_id' => $theme->id,
                 'view_path' => 'components.test-component',
                 'is_active' => true,
             ]);
@@ -401,7 +401,7 @@ describe('UI Business Logic Integration', function () {
         it('enforces component data binding', function () {
             $component = Component::factory()->create([
                 'name' => 'data-component',
-                'theme_id' => // @var mixed theme->id,
+                'theme_id' => $theme->id,
                 'data_schema' => [
                     'title' => 'string',
                     'content' => 'text',
@@ -425,7 +425,7 @@ describe('UI Business Logic Integration', function () {
         it('enforces responsive design rules', function () {
             $component = Component::factory()->create([
                 'name' => 'responsive-component',
-                'theme_id' => // @var mixed theme->id,
+                'theme_id' => $theme->id,
                 'responsive_breakpoints' => [
                     'mobile' => 'max-width: 768px',
                     'tablet' => 'min-width: 769px and max-width: 1024px',
@@ -454,7 +454,7 @@ describe('UI Business Logic Integration', function () {
 
     describe('Performance and Optimization Business Rules', function () {
         it('enforces asset bundling rules', function () {
-            $theme = // @var mixed theme;
+            $theme = $theme;
             $cssAssets = Asset::factory()
                 ->count(3)
                 ->create([
@@ -491,7 +491,7 @@ describe('UI Business Logic Integration', function () {
         it('enforces lazy loading rules', function () {
             $component = Component::factory()->create([
                 'name' => 'lazy-component',
-                'theme_id' => // @var mixed theme->id,
+                'theme_id' => $theme->id,
                 'supports_lazy_loading' => true,
                 'lazy_loading_threshold' => 0.5,
             ]);
@@ -508,7 +508,7 @@ describe('UI Business Logic Integration', function () {
         it('enforces caching strategies', function () {
             $component = Component::factory()->create([
                 'name' => 'cacheable-ui-component',
-                'theme_id' => // @var mixed theme->id,
+                'theme_id' => $theme->id,
                 'cache_strategy' => 'aggressive',
                 'cache_duration' => 7200,
             ]);
