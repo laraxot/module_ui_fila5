@@ -11,11 +11,11 @@ use Tests\TestCase;
 uses(TestCase::class);
 
 beforeEach(function (): void {
-    $widget = new StatsOverviewWidget();
+    $this->widget = new StatsOverviewWidget();
 });
 
 test('stats overview widget extends correct base class', function (): void {
-    expect($widget);
+    expect($this->widget)->toBeInstanceOf(Filament\Widgets\StatsOverviewWidget::class);
 });
 
 test('stats overview widget has correct namespace', function (): void {
@@ -23,19 +23,19 @@ test('stats overview widget has correct namespace', function (): void {
 });
 
 test('stats overview widget has getStats method', function (): void {
-    $reflection = new ReflectionClass($widget);
+    $reflection = new ReflectionClass($this->widget);
     $this->assertTrue($reflection->hasMethod('getStats'));
 });
 
 test('stats overview widget returns correct stats', function (): void {
-    $reflection = new ReflectionClass($widget);
+    $reflection = new ReflectionClass($this->widget);
     $method = $reflection->getMethod('getStats');
     $this->assertTrue($method->isProtected());
 
     // Filament widgets are Livewire components; invoking protected methods directly via magic can fail.
     // Use reflection to safely call the method for a smoke test.
     $method->setAccessible(true);
-    $stats = $method->invoke($widget);
+    $stats = $method->invoke($this->widget);
 
     $this->assertIsArray($stats);
 
@@ -45,17 +45,18 @@ test('stats overview widget returns correct stats', function (): void {
 });
 
 test('stats overview widget stats are instances of Stat class', function (): void {
-    $reflection = new ReflectionClass($widget);
+    $reflection = new ReflectionClass($this->widget);
     $method = $reflection->getMethod('getStats');
     $method->setAccessible(true);
-    $stats = $method->invoke($widget);
+    $stats = $method->invoke($this->widget);
 
-    expect($stats)->toBeArray();
-    expect(collect($stats)->every(fn (mixed $stat): bool => $stat instanceof Stat))->toBeTrue();
+    foreach ($stats as $stat) {
+        expect($stat)->toBeInstanceOf(Stat::class);
+    }
 });
 
 test('stats overview widget can be instantiated', function (): void {
-    expect($widget);
+    expect($this->widget)->toBeInstanceOf(StatsOverviewWidget::class);
 });
 
 test('stats overview widget has correct strict types declaration', function (): void {

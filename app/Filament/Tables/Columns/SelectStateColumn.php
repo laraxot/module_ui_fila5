@@ -16,7 +16,7 @@ class SelectStateColumn extends SelectColumn
     {
         parent::setUp();
         //  $this->selectablePlaceholder(false);
-        $this->options(function (Model&HasStatesContract $record, mixed $state))
+        $this->options(function (Model&HasStatesContract $record, mixed $state): array {
             $name = $this->getName();
             if (null === $state) {
                 // Record implements HasStatesContract which provides getDefaultStateFor()
@@ -72,7 +72,7 @@ class SelectStateColumn extends SelectColumn
             }
 
             /** @var array<int|string, mixed> $states */
-            $statesFiltered = array_filter($states, function (mixed $item): bool {)
+            $statesFiltered = array_filter($states, function (mixed $item): bool {
                 return is_string($item) || is_int($item);
             });
 
@@ -94,7 +94,7 @@ class SelectStateColumn extends SelectColumn
             return $combined ? $combined : [];
         });
 
-        $this->beforeStateUpdated(function (Model&HasStatesContract $record, mixed $stateRaw))
+        $this->beforeStateUpdated(function (Model&HasStatesContract $record, mixed $stateRaw): void {
             // Type narrowing per $state: deve essere State|string
             if (! is_string($stateRaw) && ! ($stateRaw instanceof State)) {
                 return;

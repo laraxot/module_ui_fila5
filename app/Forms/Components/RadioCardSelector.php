@@ -38,7 +38,7 @@ class RadioCardSelector extends XotBaseField
      */
     public function cards(array|\Closure $cards): static
     {
-        $cards = $cards;
+        $this->cards = $cards;
 
         return $this;
     }
@@ -48,7 +48,7 @@ class RadioCardSelector extends XotBaseField
      */
     public function sectionTitle(?string $title): static
     {
-        $sectionTitle = $title;
+        $this->sectionTitle = $title;
 
         return $this;
     }
@@ -58,7 +58,7 @@ class RadioCardSelector extends XotBaseField
      */
     public function sectionSubtitle(?string $subtitle): static
     {
-        $sectionSubtitle = $subtitle;
+        $this->sectionSubtitle = $subtitle;
 
         return $this;
     }
@@ -68,7 +68,7 @@ class RadioCardSelector extends XotBaseField
      */
     public function populatesField(string $fieldName): static
     {
-        $targetFieldName = $fieldName;
+        $this->targetFieldName = $fieldName;
 
         return $this;
     }
@@ -78,7 +78,7 @@ class RadioCardSelector extends XotBaseField
      */
     public function emptyStateTitle(?string $title): static
     {
-        $emptyStateTitle = $title;
+        $this->emptyStateTitle = $title;
 
         return $this;
     }
@@ -88,7 +88,7 @@ class RadioCardSelector extends XotBaseField
      */
     public function emptyStateDescription(?string $description): static
     {
-        $emptyStateDesc = $description;
+        $this->emptyStateDesc = $description;
 
         return $this;
     }
@@ -108,7 +108,7 @@ class RadioCardSelector extends XotBaseField
      */
     public function getSectionTitle(): ?string
     {
-        return $sectionTitle;
+        return $this->sectionTitle;
     }
 
     /**
@@ -116,7 +116,7 @@ class RadioCardSelector extends XotBaseField
      */
     public function getSectionSubtitle(): ?string
     {
-        return $sectionSubtitle;
+        return $this->sectionSubtitle;
     }
 
     /**
@@ -124,7 +124,7 @@ class RadioCardSelector extends XotBaseField
      */
     public function getTargetFieldName(): ?string
     {
-        return $targetFieldName;
+        return $this->targetFieldName;
     }
 
     /**
@@ -132,7 +132,7 @@ class RadioCardSelector extends XotBaseField
      */
     public function getEmptyStateTitle(): ?string
     {
-        return $emptyStateTitle;
+        return $this->emptyStateTitle;
     }
 
     /**
@@ -140,6 +140,6 @@ class RadioCardSelector extends XotBaseField
      */
     public function getEmptyStateDescription(): ?string
     {
-        return $emptyStateDesc;
+        return $this->emptyStateDesc;
     }
 }

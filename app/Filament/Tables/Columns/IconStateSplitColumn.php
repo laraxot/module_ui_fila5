@@ -39,8 +39,8 @@ final class IconStateSplitColumn extends Column
      */
     public function stateClass(string $stateClass, string $modelClass): static
     {
-        $stateClass = $stateClass;
-        $modelClass = $modelClass;
+        $this->stateClass = $stateClass;
+        $this->modelClass = $modelClass;
 
         return $this;
     }
@@ -157,11 +157,11 @@ final class IconStateSplitColumn extends Column
      */
     private function getStateMapping(): array
     {
-        if (! class_exists($stateClass))
+        if (! class_exists($this->stateClass) || ! method_exists($this->stateClass, 'getStateMapping')) {
             return [];
         }
 
-        $stateMapping = $stateClass::getStateMapping();
+        $stateMapping = $this->stateClass::getStateMapping();
 
         if (is_object($stateMapping) && method_exists($stateMapping, 'toArray')) {
             /** @var array<string, string> $statesArray */
@@ -193,11 +193,11 @@ final class IconStateSplitColumn extends Column
 
     private function getCachedRecord(int|string $recordId): ?Model
     {
-        if (! class_exists($modelClass))
+        if (! class_exists($this->modelClass) || ! method_exists($this->modelClass, 'find')) {
             return null;
         }
 
-        $record = $modelClass::find($recordId);
+        $record = $this->modelClass::find($recordId);
 
         return is_object($record) && $record instanceof Model ? $record : null;
     }
@@ -209,7 +209,7 @@ final class IconStateSplitColumn extends Column
         return Action::make('prova')
             ->icon('heroicon-m-plus')
             ->color('primary')
-            ->action(function () use ($record): void {)
+            ->action(function () use ($record): void {
                 $recordId = $record && isset($record->id) ? ((string) $record->id) : 'N/A';
                 Notification::make()
                     ->title(__('ui::actions.prova.title'))
@@ -235,14 +235,14 @@ final class IconStateSplitColumn extends Column
         $stateClass = $stateData['class'];
         $stateClassName = $stateClass::class;
 
-        if (! $this->canTransitionTo($recordId, $stateClassName))
+        if (! $this->canTransitionTo($recordId, $stateClassName)) {
             return null;
         }
 
         return Action::make("transition_to_{$stateKey}")
             ->icon($stateData['icon'])
             ->color($stateData['color'])
-            ->action(function () use ($recordId, $stateClassName): void {)
+            ->action(function () use ($recordId, $stateClassName): void {
                 $this->transitionState($recordId, $stateClassName);
             });
     }
@@ -252,11 +252,11 @@ final class IconStateSplitColumn extends Column
      */
     private function getRecordForTransition(int|string $recordId): Model
     {
-        if (! class_exists($modelClass))
+        if (! class_exists($this->modelClass) || ! method_exists($this->modelClass, 'find')) {
             throw new \Exception('Model class not found or invalid');
         }
 
-        $recordRaw = $modelClass::find($recordId);
+        $recordRaw = $this->modelClass::find($recordId);
 
         if (! is_object($recordRaw) || ! ($recordRaw instanceof HasStatesContract) || ! ($recordRaw instanceof Model)) {
             throw new \Exception(__('ui::icon_state.messages.record_not_found'));

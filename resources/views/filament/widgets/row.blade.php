@@ -10,7 +10,7 @@ declare(strict_types=1);
 <x-filament-widgets::widget class="fi-wi-stats-overview">
     <div
     {{--
-        @if ($pollingInterval = // Placeholder purged getPollingInterval(
+        @if ($pollingInterval = $this->getPollingInterval())
             wire:poll.{{ $pollingInterval }}
         @endif
     --}}
@@ -22,7 +22,7 @@ declare(strict_types=1);
             'md:grid-cols-2 xl:grid-cols-4' => $columns === 4,
         ])
     >
-        @foreach (// Placeholder purged widgets as $k=>$v
+        @foreach ($this->widgets as $k=>$v)
             @livewire($v['class'], $v['properties'])
         @endforeach
     </div>

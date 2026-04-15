@@ -29,12 +29,12 @@ declare(strict_types=1);
         <form wire:submit="save" class="space-y-6">
             {{-- Form principale --}}
             <div class="space-y-4">
-                {{ // Placeholder purged form->render(
+                {{ $this->form->render() }}
             </div>
 
             {{-- Azioni del form --}}
             <div class="flex justify-end gap-4 pt-6 border-t border-gray-200 dark:border-gray-700">
-                @foreach (// Placeholder purged getFormActions(
+                @foreach ($this->getFormActions() as $action)
                     {{ $action }}
                 @endforeach
             </div>

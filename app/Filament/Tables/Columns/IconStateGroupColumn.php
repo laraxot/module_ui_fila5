@@ -26,8 +26,8 @@ class IconStateGroupColumn extends ColumnGroup
 
     public function stateClass(string $stateClass, string $modelClass): static
     {
-        $stateClass = $stateClass;
-        $modelClass = $modelClass;
+        $this->stateClass = $stateClass;
+        $this->modelClass = $modelClass;
         $statesRaw = [];
 
         if (class_exists($stateClass) && method_exists($stateClass, 'getStateMapping')) {
@@ -51,22 +51,22 @@ class IconStateGroupColumn extends ColumnGroup
                 continue;
             }
 
-            $stateInstance = new $stateClassItem($modelClass);
+            $stateInstance = new $stateClassItem($this->modelClass);
             Assert::isInstanceOf($stateInstance, StateContract::class);
             $visibleKey = $stateKey.'-visible';
-            $data[$visibleKey] = true;
+            $this->data[$visibleKey] = true;
 
             $column = IconColumn::make($stateKey.'-icon')
                 ->icon($stateInstance->icon(...))
                 ->color($stateInstance->color(...))
                 ->tooltip($stateInstance->label(...))
-                ->extraAttributes([)
+                ->extraAttributes([
                     'class' => 'w-auto min-w-0 px-0',
                     'style' => 'width: fit-content !important;',
                 ])
                 ->extraCellAttributes(['class' => 'px-1 py-1'])
                 ->label('')
-                ->default(function (Model $record) use ($stateClassItem, $stateKey): ?bool {)
+                ->default(function (Model $record) use ($stateClassItem, $stateKey): ?bool {
                     if (isset($record->state) && is_object($record->state) && method_exists($record->state, 'canTransitionTo')) {
                         $canTransition = $record->state->canTransitionTo($stateClassItem);
                         $res = is_bool($canTransition) ? $canTransition : false;
@@ -74,7 +74,7 @@ class IconStateGroupColumn extends ColumnGroup
                         $res = false;
                     }
                     $visibleKey = $stateKey.'-visible';
-                    $data[$visibleKey] = $res;
+                    $this->data[$visibleKey] = $res;
                     if (! $res) {
                         return null;
                     }
@@ -82,23 +82,23 @@ class IconStateGroupColumn extends ColumnGroup
                     return true;
                 });
 
-            $column->action()
+            $column->action(
                 Action::make($stateKey.'-action')
                     ->requiresConfirmation()
-                    ->modalHeading(function (Model $record) use ($stateInstance) {)
+                    ->modalHeading(function (Model $record) use ($stateInstance) {
                         // StateContract provides modalHeading()
                         return $stateInstance->modalHeading();
                     })
-                    ->modalDescription(function (Model $record) use ($stateInstance) {)
+                    ->modalDescription(function (Model $record) use ($stateInstance) {
                         // StateContract provides modalDescription()
                         return $stateInstance->modalDescription();
                     })
-                    ->schema(function (Model $record) use ($stateInstance) {)
+                    ->schema(function (Model $record) use ($stateInstance) {
                         // StateContract provides modalFormSchema()
                         return $stateInstance->modalFormSchema();
                     })
                     ->fillForm($stateInstance->modalFillFormByRecord(...))
-                    ->action(function (Model $record, array $data) use ($stateInstance): void {)
+                    ->action(function (Model $record, array $data) use ($stateInstance): void {
                         // Ensure data is treated as array<string, mixed> for PHPStan and StateContract
                         /** @var array<string, mixed> $typedData */
                         $typedData = $data;
@@ -107,7 +107,7 @@ class IconStateGroupColumn extends ColumnGroup
                     })
             );
 
-            $visibleValue = $data[$visibleKey] ?? false;
+            $visibleValue = $this->data[$visibleKey] ?? false;
             $column->visible($visibleValue);
             $columns[] = $column;
         }

@@ -56,15 +56,15 @@ final class InteractiveMap extends Component
     public function mount(?array $center = null, ?int $zoom = null, array $filters = []): void
     {
         if ($center) {
-            $center = $center;
+            $this->center = $center;
         }
 
         if ($zoom) {
-            $zoom = $zoom;
+            $this->zoom = $zoom;
         }
 
         if ($filters) {
-            $filters = array_merge($this->filters, $filters);
+            $this->filters = array_merge($this->filters, $filters);
         }
 
         $this->loadMarkers();
@@ -83,10 +83,10 @@ final class InteractiveMap extends Component
      */
     public function selectMarker(int $markerId): void
     {
-        $marker = collect($markers)
+        $marker = collect($this->markers)
             ->firstWhere('id', $markerId);
 
-        $selectedMarker = is_array($marker);
+        $this->selectedMarker = is_array($marker) ? $marker : null;
 
         $this->dispatch('markerSelected', $this->selectedMarker);
     }
@@ -96,7 +96,7 @@ final class InteractiveMap extends Component
      */
     public function updateFilters(array $filters): void
     {
-        $filters = array_merge($this->filters, $filters);
+        $this->filters = array_merge($this->filters, $filters);
         $this->loadMarkers();
     }
 
@@ -105,7 +105,7 @@ final class InteractiveMap extends Component
      */
     public function updateBounds(array $bounds): void
     {
-        $filters['bounds'] = $bounds;
+        $this->filters['bounds'] = $bounds;
         $this->loadMarkers();
     }
 
@@ -114,21 +114,21 @@ final class InteractiveMap extends Component
      */
     public function loadMarkers(): void
     {
-        $isLoading = true;
+        $this->isLoading = true;
 
         try {
             /** @phpstan-ignore-next-line class.notFound */
             $mapService = app(MapService::class);
             /* @phpstan-ignore-next-line class.notFound, assign.propertyType */
-            $markers = $mapService->getMarkers($this->filters);
+            $this->markers = $mapService->getMarkers($this->filters);
             /* @phpstan-ignore-next-line class.notFound, assign.propertyType */
-            $stats = $mapService->getMapStats($this->filters);
+            $this->stats = $mapService->getMapStats($this->filters);
         } catch (\Exception $e) {
             $this->addError('map', 'Errore nel caricamento dei marker: '.$e->getMessage());
-            $markers = [];
-            $stats = [];
+            $this->markers = [];
+            $this->stats = [];
         } finally {
-            $isLoading = false;
+            $this->isLoading = false;
         }
     }
 
@@ -149,17 +149,17 @@ final class InteractiveMap extends Component
             /** @phpstan-ignore-next-line class.notFound */
             $mapService = app(MapService::class);
             /** @phpstan-ignore-next-line class.notFound */
-            $data = $mapService->exportData($filters, $format);
+            $data = $mapService->exportData($this->filters, $format);
 
             $filename = 'map_export_'.now()->format('Y_m_d_H_i_s').'.'.$format;
 
-            $this->dispatch('downloadFile', [)
+            $this->dispatch('downloadFile', [
                 'content' => $data,
                 'filename' => $filename,
-                'mimeType' => $this->getMimeType($format)
+                'mimeType' => $this->getMimeType($format),
             ]);
 
-            $this->dispatch('notify', [)
+            $this->dispatch('notify', [
                 'type' => 'success',
                 'message' => 'Dati esportati con successo!',
             ]);
@@ -173,7 +173,7 @@ final class InteractiveMap extends Component
      */
     public function searchAddress(): void
     {
-        if (empty($searchQuery))
+        if (empty($this->searchQuery)) {
             return;
         }
 
@@ -181,18 +181,18 @@ final class InteractiveMap extends Component
             /** @phpstan-ignore-next-line class.notFound */
             $geocodingService = app(GeocodingService::class);
             /** @phpstan-ignore-next-line class.notFound */
-            $result = $geocodingService->geocodeAddress($searchQuery);
+            $result = $geocodingService->geocodeAddress($this->searchQuery);
             Assert::isArray($result, 'Geocoding result must be array');
 
             $address = $result['address'] ?? '';
             Assert::string($address, 'Address must be string');
 
-            $center = [$result['latitude'], $result['longitude']];
-            $zoom = 15;
+            $this->center = [$result['latitude'], $result['longitude']];
+            $this->zoom = 15;
 
             $this->dispatch('updateMapCenter', $this->center, $this->zoom);
 
-            $this->dispatch('notify', [)
+            $this->dispatch('notify', [
                 'type' => 'success',
                 'message' => 'Indirizzo trovato: '.$address,
             ]);
@@ -206,7 +206,7 @@ final class InteractiveMap extends Component
      */
     public function getSuggestions(): array
     {
-        if (strlen($searchQuery))
+        if (strlen($this->searchQuery) < 3) {
             return [];
         }
 
@@ -215,7 +215,7 @@ final class InteractiveMap extends Component
             $geocodingService = app(GeocodingService::class);
 
             /* @phpstan-ignore-next-line class.notFound, return.type */
-            return $geocodingService->getSuggestions($searchQuery);
+            return $geocodingService->getSuggestions($this->searchQuery);
         } catch (\Exception $e) {
             return [];
         }
@@ -226,7 +226,7 @@ final class InteractiveMap extends Component
      */
     public function toggleControls(): void
     {
-        $showControls = ! $this->showControls;
+        $this->showControls = ! $this->showControls;
     }
 
     /**
@@ -234,7 +234,7 @@ final class InteractiveMap extends Component
      */
     public function filterByType(string $type, bool $enabled): void
     {
-        $filters[$type] = $enabled;
+        $this->filters[$type] = $enabled;
         $this->loadMarkers();
     }
 
@@ -243,19 +243,19 @@ final class InteractiveMap extends Component
      */
     public function filterByStatus(string $status, bool $enabled): void
     {
-        $currentStatus = $filters['status'] ?? [];
+        $currentStatus = $this->filters['status'] ?? [];
         Assert::isArray($currentStatus, 'Status filter must be array');
 
         if ($enabled) {
             $currentStatus[] = $status;
-            $filters['status'] = array_unique($currentStatus);
+            $this->filters['status'] = array_unique($currentStatus);
             $this->loadMarkers();
 
             return;
         }
 
         $currentStatus = array_diff($currentStatus, [$status]);
-        $filters['status'] = array_unique($currentStatus);
+        $this->filters['status'] = array_unique($currentStatus);
         $this->loadMarkers();
     }
 
@@ -264,19 +264,19 @@ final class InteractiveMap extends Component
      */
     public function filterByPriority(string $priority, bool $enabled): void
     {
-        $currentPriority = $filters['priority'] ?? [];
+        $currentPriority = $this->filters['priority'] ?? [];
         Assert::isArray($currentPriority, 'Priority filter must be array');
 
         if ($enabled) {
             $currentPriority[] = $priority;
-            $filters['priority'] = array_unique($currentPriority);
+            $this->filters['priority'] = array_unique($currentPriority);
             $this->loadMarkers();
 
             return;
         }
 
         $currentPriority = array_diff($currentPriority, [$priority]);
-        $filters['priority'] = array_unique($currentPriority);
+        $this->filters['priority'] = array_unique($currentPriority);
         $this->loadMarkers();
     }
 
@@ -285,7 +285,7 @@ final class InteractiveMap extends Component
      */
     public function clearFilters(): void
     {
-        $filters = [
+        $this->filters = [
             'tickets' => true,
             'users' => false,
             'locations' => false,
@@ -304,7 +304,7 @@ final class InteractiveMap extends Component
      */
     public function getMarkersByTypeProperty(): array
     {
-        return collect($markers)
+        return collect($this->markers)
             ->groupBy('type')
             ->map(fn ($markers) => $markers->count())
             ->toArray();
@@ -312,12 +312,12 @@ final class InteractiveMap extends Component
 
     public function getVisibleMarkersCountProperty(): int
     {
-        return count($markers);
+        return count($this->markers);
     }
 
     public function getFilteredMarkersCountProperty(): int
     {
-        return count($markers);
+        return count($this->markers);
     }
 
     /**
