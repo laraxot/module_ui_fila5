@@ -6,21 +6,21 @@ namespace Modules\UI\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\UI\Models\Collection;
-use Modules\UI\Models\Theme;
 
 class CollectionFactory extends Factory
 {
+    /**
+     * The name of the factory's corresponding model.
+     */
     protected $model = Collection::class;
 
+    /**
+     * Define the model's default state.
+     *
+     * @return array<string, mixed>
+     */
     public function definition(): array
     {
-        return [
-            'name' => $faker->words(3, true)
-            'description' => $faker->sentence()
-            'type' => $faker->randomElement(['block', 'section', 'layout'])
-            'theme_ID' => Theme::factory(),
-            'is_active' => true,
-            'order' => 0,
-        ];
+        return [];
     }
 }

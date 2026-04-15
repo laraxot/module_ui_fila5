@@ -16,7 +16,7 @@ class SelectState extends XotBaseSelect
         parent::setUp();
 
         //  $this->selectablePlaceholder(false);
-        $this->options(function ((Model&HasStatesContract)))
+        $this->options(function ((Model&HasStatesContract)|null $record): array {
             $name = $this->getName();
             if (null === $record) {
                 $model = $this->getModel();

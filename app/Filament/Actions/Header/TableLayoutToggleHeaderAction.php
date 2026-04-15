@@ -24,7 +24,7 @@ class TableLayoutToggleHeaderAction extends Action
             // ->label(trans('ui::'.static::getDefaultName().'.label'))
             // ->tooltip(trans('setting::database_connection.actions.database-backup.tooltip'))
             // ->icon(trans('setting::database_connection.actions.database-backup.icon'))
-            // ->icon($listIcon)
+            // ->icon($this->listIcon)
             /*
              * /*
              * /*
@@ -32,16 +32,16 @@ class TableLayoutToggleHeaderAction extends Action
              * /*
              * @param object{layoutView?: string|null} $livewire
              */
-            ->icon(function (object $livewire): string {)
+            ->icon(function (object $livewire): string {
                 // ✅ isset() invece di property_exists() - funziona con magic properties Livewire
                 if (isset($livewire->layoutView)) {
                     $layoutViewRaw = $livewire->layoutView;
                     $layoutView = is_string($layoutViewRaw) ? $layoutViewRaw : '';
 
-                    return 'list' === $layoutView ? $listIcon : $this->gridIcon;
+                    return 'list' === $layoutView ? $this->listIcon : $this->gridIcon;
                 }
 
-                return $listIcon; // default icon
+                return $this->listIcon; // default icon
             })
             /*
              * /*
@@ -50,7 +50,7 @@ class TableLayoutToggleHeaderAction extends Action
              * /*
              * @param object{layoutView?: string|null} $livewire
              */
-            ->action(function (object $livewire): void {)
+            ->action(function (object $livewire): void {
                 // ✅ isset() invece di property_exists() - funziona con magic properties Livewire
                 if (! isset($livewire->layoutView)) {
                     return;

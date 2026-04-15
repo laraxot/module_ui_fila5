@@ -19,15 +19,15 @@ final class DarkModeSwitcherWidget extends XotBaseWidget
 
     public function mount(): void
     {
-        $darkMode = filter_var(request());
+        $this->darkMode = filter_var(request()->cookie('dark_mode', 'false'), FILTER_VALIDATE_BOOLEAN);
     }
 
     public function toggleDarkMode(): void
     {
-        $darkMode = ! $this->darkMode;
+        $this->darkMode = ! $this->darkMode;
 
         // Set cookie for persistence
-        Cookie::queue('dark_mode', $darkMode ? 'true' : 'false', 60 * 24 * 30);
+        Cookie::queue('dark_mode', $this->darkMode ? 'true' : 'false', 60 * 24 * 30);
 
         // Dispatch event for frontend to handle theme switching
         $this->dispatch('darkModeUpdated', ['darkMode' => $this->darkMode]);
@@ -46,8 +46,8 @@ final class DarkModeSwitcherWidget extends XotBaseWidget
 
     public function render(): View
     {
-        return view($view, [
-            'darkMode' => $darkMode,
+        return view($this->view, [
+            'darkMode' => $this->darkMode,
         ]);
     }
 }

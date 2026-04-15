@@ -12,7 +12,7 @@ use Filament\Schemas\Components\Grid;
 use Modules\UI\Filament\Widgets\UserCalendarWidget;
 
 beforeEach(function () {
-    $widget = new class extends UserCalendarWidget {
+    $this->widget = new class extends UserCalendarWidget {
         public function getActionName(string $function): string
         {
             unset($function);
@@ -21,12 +21,12 @@ beforeEach(function () {
         }
     };
 
-    $widget->type = 'test';
+    $this->widget->type = 'test';
 });
 
 describe('UserCalendarWidget Basics', function () {
     it('is a UserCalendarWidget', function () {
-        expect($widget);
+        expect($this->widget)->toBeInstanceOf(UserCalendarWidget::class);
     });
 });
 
@@ -37,7 +37,7 @@ describe('UserCalendarWidget Event Management', function () {
             'end' => '2025-01-31T23:59:59',
         ];
 
-        $events = $widget->fetchEvents($fetchInfo);
+        $events = $this->widget->fetchEvents($fetchInfo);
 
         expect($events)->toBeArray();
         expect($events)->toHaveCount(0);
@@ -46,7 +46,7 @@ describe('UserCalendarWidget Event Management', function () {
 
 describe('UserCalendarWidget Form Schema', function () {
     it('falls back to a minimal schema if action does not exist', function () {
-        $formSchema = $widget->getFormSchema();
+        $formSchema = $this->widget->getFormSchema();
 
         expect($formSchema)->toBeArray();
         expect($formSchema)->toHaveCount(2);
@@ -58,34 +58,19 @@ describe('UserCalendarWidget Form Schema', function () {
     });
 
     it('fallback schema contains datetime pickers', function () {
-        $formSchema = $widget->getFormSchema();
+        $formSchema = $this->widget->getFormSchema();
 
         $grid = $formSchema[1];
         expect($grid)->toBeInstanceOf(Grid::class);
 
-        $reflection = new ReflectionClass($grid);
-        $property = $reflection->getProperty('childComponents');
-        $property->setAccessible(true);
-        $gridSchema = $property->getValue($grid);
-
+        $gridSchema = $grid->getChildComponents();
         expect($gridSchema)->toBeArray();
+        expect($gridSchema)->toHaveCount(2);
 
-        $gridValues = array_values($gridSchema);
-        if (isset($gridSchema['default']) && is_array($gridSchema['default'])) {
-            $gridValues = array_values($gridSchema['default']);
-        } elseif (($gridValues[0] ?? null) instanceof Closure) {
-            /** @var array<int, mixed> $resolved */
-            $resolved = $gridValues[0]();
-            $gridValues = array_values($resolved);
-        }
+        expect($gridSchema[0])->toBeInstanceOf(DateTimePicker::class);
+        expect($gridSchema[1])->toBeInstanceOf(DateTimePicker::class);
 
-        expect($gridValues)->not->toBeEmpty();
-        expect($gridValues[0])->toBeInstanceOf(DateTimePicker::class);
-        expect($gridValues[0]->getName())->toBe('starts_at');
-
-        if (isset($gridValues[1])) {
-            expect($gridValues[1])->toBeInstanceOf(DateTimePicker::class);
-            expect($gridValues[1]->getName())->toBe('ends_at');
-        }
+        expect($gridSchema[0]->getName())->toBe('starts_at');
+        expect($gridSchema[1]->getName())->toBe('ends_at');
     });
 });
