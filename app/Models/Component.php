@@ -71,6 +71,7 @@ class Component extends BaseModel
             'responsive_breakpoints' => 'array',
             'supports_lazy_loading' => 'boolean',
             'lazy_loading_threshold' => 'float',
+            'cache_ttl' => 'integer',
             'cache_duration' => 'integer',
         ];
     }
