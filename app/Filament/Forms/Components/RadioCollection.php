@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
-use Modules\Xot\Filament\Forms\Components\XotBaseField;
 use Illuminate\Support\Collection;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
+use Modules\Xot\Filament\Forms\Components\XotBaseField;
 
 final class RadioCollection extends XotBaseField
 {
