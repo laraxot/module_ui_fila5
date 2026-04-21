@@ -1,69 +1,23 @@
-<<<<<<< HEAD
----
-title: "Wiki Index"
-module: "UI"
-updated: "2026-04-15T08:28:51Z"
----
+# Wiki Locale Index
 
-# Wiki Index — UI
+## Karpathy LLM Wiki Standard
 
-> **Purpose:** Content-oriented catalog of all wiki pages in this module.  
-> **Replaces embedding-based RAG at moderate scale (~100 sources).**
+- [forbidden-folders-rule](../../../../docs/wiki/concepts/forbidden-folders.md): Strict structural constraints.
+- [llm-wiki-standard](../../../../docs/wiki/concepts/karpathy-wiki.md): Repository mapping and knowledge lifecycle.
 
-## Concepts
+## Sacred Hierarchy
 
-_No concepts ingested yet. Drop raw documents in `../raw/articles/` and run ingest._
+- [concepts/](./concepts/): Architectural patterns and methodologies.
+- [entities/](./entities/): Key models and components.
+- [sources/](./sources/): Research data and external links.
+- [comparisons/](./comparisons/): Alternative implementations.
+- [decisions/](./decisions/): ADL (Architectural Decision Log).
+- [troubleshooting/](./troubleshooting/): Known issues and solutions.
+- [_archive/](./_archive/): Legacy documentation.
+- [_templates/](./_templates/): Standard templates.
 
-## Entities
+## Compiled Pages
 
-_No entities tracked yet._
-
-## Sources
-
-_No sources ingested yet._
-
-## Comparisons
-
-_No comparisons synthesized yet._
-
----
-
-**Last Updated:** 2026-04-15T08:28:51Z  
-**Total Pages:** 0  
-**Total Raw Sources:** 0
-=======
-# Wiki Locale - Module UI
-
-## Schema di Riferimento
-
-Vedi [[../../../../docs/.schema/WIKI_SCHEMA.md|Schema Wiki Globale]]
-
-## Struttura Locale
-
-```
-wiki/
-├── concepts/       # Pattern e metodologie
-├── entities/       # Classi e componenti
-├── summaries/      # Sommari documenti
-├── comparisons/    # Confronti
-└── overviews/     # Panoramiche
-```
-
-## Pagine Compilate
-
-| Pagina | Tipo | Argomento |
-|--------|------|-----------|
-| [ui-module](./overviews/ui-module.md) | overview | Design system, componenti Blade, Filament panel |
-
-## Raw Sources
-
-Vedi [[../raw/index|Lista Sorgenti Grezzi]]
-
-## Index Globale
-
-Vedi [[../../../../docs/wiki/index|Index Globale Wiki]]
-
----
-
-*Ultimo aggiornamento: 2026-04-15*
->>>>>>> e703676 (.)
+| Page | Type | Source | Updated |
+|------|------|--------|---------|
+| [.gitkeep](./concepts/.gitkeep) | Concept | - | 2026-04-21 |
