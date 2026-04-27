@@ -21,3 +21,6 @@
 | Page | Type | Source | Updated |
 |------|------|--------|---------|
 | [.gitkeep](./concepts/.gitkeep) | Concept | - | 2026-04-21 |
+| [module-filament-component-autoload-rule](./concepts/module-filament-component-autoload-rule.md) | Concept | EnumSelect runtime | 2026-04-23 |
+| [enum-select-contract-and-false-friends](./concepts/enum-select-contract-and-false-friends.md) | Concept | runtime + phpstan | 2026-04-23 |
+| [enumselect-filament-api-collisions](./concepts/enumselect-filament-api-collisions.md) | Concept | runtime fatals (make/enum/getLabel) | 2026-04-23 |
