@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit;
 
-use Filament\Support\Contracts\HasLabel;
 use Filament\Support\Contracts\HasIcon;
+use Filament\Support\Contracts\HasLabel;
 use Modules\UI\Filament\Forms\Components\EnumSelect;
 use PHPUnit\Framework\TestCase;
 
@@ -18,7 +18,7 @@ enum TestColorEnum: string implements HasLabel, HasIcon
 
     public function getLabel(): string
     {
-        return match($this) {
+        return match ($this) {
             self::RED => 'Rosso',
             self::GREEN => 'Verde',
             self::BLUE => 'Blu',
@@ -27,7 +27,7 @@ enum TestColorEnum: string implements HasLabel, HasIcon
 
     public function getIcon(): string
     {
-        return match($this) {
+        return match ($this) {
             self::RED => 'heroicon-o-exclamation',
             self::GREEN => 'heroicon-o-check',
             self::BLUE => 'heroicon-o-info',
@@ -48,7 +48,7 @@ enum TestNoLabelEnum: string
     case BETA = 'beta';
 }
 
-/**
+/*
  * @uses TestCase
  */
 it('generates options from enum class', function () {

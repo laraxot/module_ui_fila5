@@ -5,11 +5,9 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Forms\Components;
 
 use BackedEnum;
-use Closure;
 use Filament\Forms\Components\Select;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasLabel;
-use InvalidArgumentException;
 
 /**
  * EnumSelect - Reusable component for PHP-backed enums in Filament v5.
@@ -24,10 +22,11 @@ final class EnumSelect extends Select
     {
         /** @var static $component */
         $component = parent::make($name);
+
         return $component->native(false);
     }
 
-    protected string|Closure|null $enumClass = null;
+    protected string|\Closure|null $enumClass = null;
 
     protected bool $showIcons = false;
 
@@ -42,7 +41,7 @@ final class EnumSelect extends Select
         $this->options(fn (): array => $this->generateOptions());
     }
 
-    public function enum(string|Closure|null $enum): static
+    public function enum(string|\Closure|null $enum): static
     {
         $this->enumClass = $enum;
 
@@ -67,17 +66,16 @@ final class EnumSelect extends Select
     {
         $enumClass = $this->evaluate($this->enumClass);
 
-        if (! is_string($enumClass) || $enumClass === '') {
+        if (! is_string($enumClass) || '' === $enumClass) {
             return [];
         }
 
         $this->validateEnumClass($enumClass);
-        /** @var class-string<BackedEnum> $enumClass */
-
+        /** @var class-string<\BackedEnum> $enumClass */
         $options = [];
 
         foreach ($enumClass::cases() as $case) {
-            if (! ($case instanceof BackedEnum)) {
+            if (! $case instanceof \BackedEnum) {
                 continue;
             }
 
@@ -87,7 +85,7 @@ final class EnumSelect extends Select
         return $options;
     }
 
-    protected function formatOption(BackedEnum $case): string
+    protected function formatOption(\BackedEnum $case): string
     {
         $label = $this->getCaseLabel($case);
         $icon = $this->showIcons ? $this->getCaseIcon($case) : null;
@@ -99,19 +97,19 @@ final class EnumSelect extends Select
         return $label;
     }
 
-    protected function getCaseLabel(BackedEnum $case): string
+    protected function getCaseLabel(\BackedEnum $case): string
     {
         if ($case instanceof HasLabel) {
             $label = $case->getLabel();
 
-            if (is_string($label) && $label !== '') {
+            if (is_string($label) && '' !== $label) {
                 return $label;
             }
         }
 
         if (method_exists($case, 'label')) {
             $label = $case->label();
-            if (is_string($label) && $label !== '') {
+            if (is_string($label) && '' !== $label) {
                 return $label;
             }
         }
@@ -119,7 +117,7 @@ final class EnumSelect extends Select
         return $case->name;
     }
 
-    protected function getCaseIcon(BackedEnum $case): ?string
+    protected function getCaseIcon(\BackedEnum $case): ?string
     {
         if (! $this->showIcons) {
             return null;
@@ -128,13 +126,13 @@ final class EnumSelect extends Select
         if ($case instanceof HasIcon) {
             $icon = $case->getIcon();
 
-            return is_string($icon) && $icon !== '' ? $icon : null;
+            return is_string($icon) && '' !== $icon ? $icon : null;
         }
 
         if (method_exists($case, 'icon')) {
             $icon = $case->icon();
 
-            return is_string($icon) && $icon !== '' ? $icon : null;
+            return is_string($icon) && '' !== $icon ? $icon : null;
         }
 
         return null;
@@ -156,11 +154,11 @@ final class EnumSelect extends Select
     protected function validateEnumClass(string $enumClass): void
     {
         if (! enum_exists($enumClass)) {
-            throw new InvalidArgumentException("Enum class [$enumClass] does not exist.");
+            throw new \InvalidArgumentException("Enum class [$enumClass] does not exist.");
         }
 
-        if (! is_subclass_of($enumClass, BackedEnum::class)) {
-            throw new InvalidArgumentException("Enum class [$enumClass] must be a backed enum.");
+        if (! is_subclass_of($enumClass, \BackedEnum::class)) {
+            throw new \InvalidArgumentException("Enum class [$enumClass] must be a backed enum.");
         }
     }
 
@@ -168,7 +166,7 @@ final class EnumSelect extends Select
     {
         $enumClass = $this->evaluate($this->enumClass);
 
-        return is_string($enumClass) && $enumClass !== '' ? $enumClass : null;
+        return is_string($enumClass) && '' !== $enumClass ? $enumClass : null;
     }
 
     public function hasIcons(): bool
@@ -188,11 +186,11 @@ final class EnumSelect extends Select
         return $this;
     }
 
-    public function convertToEnum(mixed $value): ?BackedEnum
+    public function convertToEnum(mixed $value): ?\BackedEnum
     {
         $enumClass = $this->getEnumClass();
 
-        if ($enumClass === null || $value === null || $value === '') {
+        if (null === $enumClass || null === $value || '' === $value) {
             return null;
         }
 
@@ -201,7 +199,7 @@ final class EnumSelect extends Select
         }
 
         $this->validateEnumClass($enumClass);
-        /** @var class-string<BackedEnum> $enumClass */
+        /* @var class-string<BackedEnum> $enumClass */
 
         return $enumClass::tryFrom($value);
     }
