@@ -11,7 +11,8 @@ updated: "2026-04-15T08:28:51Z"
 
 ## Concepts
 
-_No concepts ingested yet. Drop raw documents in `../raw/articles/` and run ingest._
+- [context-compression](./context-compression.md) — UI-facing guide to the shared MCP context-compression stack
+- [ui-operating-model](./concepts/ui-operating-model.md) — role, guardrails, retrieval model, and local second-brain loop for shared UI decisions
 
 ## Entities
 
@@ -19,7 +20,7 @@ _No entities tracked yet._
 
 ## Sources
 
-_No sources ingested yet._
+- [ui-architecture-sources](./sources/ui-architecture-sources.md) — summary of the highest-signal UI architecture documents
 
 ## Comparisons
 
@@ -27,6 +28,6 @@ _No comparisons synthesized yet._
 
 ---
 
-**Last Updated:** 2026-04-15T08:28:51Z  
-**Total Pages:** 0  
-**Total Raw Sources:** 0
+**Last Updated:** 2026-04-29T11:55:00Z  
+**Total Pages:** 3  
+**Total Raw Sources:** 4
