@@ -4,12 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit\Datas;
 
-uses(\Modules\UI\Tests\TestCase::class);
+uses(TestCase::class);
 
 use Modules\UI\Data\UserData as DataUserData;
 use Modules\UI\Datas\SliderData;
 use Modules\UI\Datas\SliderDataCollection;
 use Modules\UI\Datas\UserData;
+use Modules\UI\Tests\TestCase;
 
 // --- SliderData ---
 
@@ -71,13 +72,13 @@ it('SliderData can be instantiated with nulls', function (): void {
 // --- SliderDataCollection ---
 
 it('SliderDataCollection can be instantiated', function (): void {
-    $collection = new SliderDataCollection();
+    $collection = new SliderDataCollection;
 
     expect($collection)->toBeInstanceOf(SliderDataCollection::class);
 });
 
 it('SliderDataCollection is a Spatie Data class', function (): void {
-    $collection = new SliderDataCollection();
+    $collection = new SliderDataCollection;
 
     expect($collection)->toBeInstanceOf(Spatie\LaravelData\Data::class);
 });
