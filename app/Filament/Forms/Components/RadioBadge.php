@@ -42,7 +42,7 @@ class RadioBadge extends Radio
             return null;
         }
 
-        /** @var class-string<\BackedEnum&HasColor&HasIcon> $enumClass */
+        /* @var class-string<\BackedEnum&HasColor&HasIcon> $enumClass */
         return $enumClass::tryFrom($value);
     }
 
