@@ -148,7 +148,6 @@ class LocationSelector extends XotBaseGroup
         $errors = [];
 
         // Verifica che se è selezionata una provincia, sia selezionata anche la regione
-        /* @phpstan-ignore offsetAccess.nonOffsetAccessible, offsetAccess.nonOffsetAccessible */
         if (! empty($state[$this->provinceFieldName]) && empty($state[$this->regionFieldName])) {
             $errors[] = __('ui::location_selector.validation.region_required_for_province');
         }
@@ -216,7 +215,7 @@ class LocationSelector extends XotBaseGroup
             ->searchable($this->searchable)
             ->required($this->required)
             ->live()
-            ->afterStateUpdated(function (Set $set) {
+            ->afterStateUpdated(function (Set $set): void {
                 // Reset province e cap quando cambia la regione
                 $set($this->provinceFieldName, null);
                 $set($this->capFieldName, null);
@@ -235,7 +234,7 @@ class LocationSelector extends XotBaseGroup
             ->required($this->required)
             ->live()
             ->disabled(fn (Get $get): bool => ! $get($this->regionFieldName))
-            ->afterStateUpdated(function (Set $set) {
+            ->afterStateUpdated(function (Set $set): void {
                 // Reset cap quando cambia la provincia
                 $set($this->capFieldName, null);
             });
@@ -263,7 +262,6 @@ class LocationSelector extends XotBaseGroup
     protected function getRegionOptions(): array
     {
         try {
-            /* @phpstan-ignore return.type */
             return Comune::select('regione')
                 ->distinct()
                 ->orderBy('regione->nome')
@@ -290,7 +288,6 @@ class LocationSelector extends XotBaseGroup
     protected function getProvinceOptions(string $region): array
     {
         try {
-            /* @phpstan-ignore return.type */
             return Comune::query()
                 ->where('regione->codice', $region)
                 ->select('provincia')
@@ -320,7 +317,6 @@ class LocationSelector extends XotBaseGroup
     protected function getCapOptions(string $region, string $province): array
     {
         try {
-            /* @phpstan-ignore return.type */
             return Comune::query()
                 ->where('regione->codice', $region)
                 ->where('provincia->codice', $province)
@@ -358,7 +354,6 @@ class LocationSelector extends XotBaseGroup
             $query->where('cap->0', $state[$this->capFieldName]);
         }
 
-        /* @phpstan-ignore return.type */
         return $query->first();
     }
 

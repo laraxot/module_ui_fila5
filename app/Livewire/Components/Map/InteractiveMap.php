@@ -45,7 +45,11 @@ final class InteractiveMap extends Component
 
     public string $searchQuery = '';
 
-    /** @var array<string, string> */
+    /**
+     * Untyped to match HandlesEvents::$listeners.
+     *
+     * @var array<string, string>
+     */
     protected $listeners = [
         'markerSelected' => 'selectMarker',
         'filtersChanged' => 'updateFilters',
@@ -117,11 +121,8 @@ final class InteractiveMap extends Component
         $this->isLoading = true;
 
         try {
-            /** @phpstan-ignore-next-line class.notFound */
             $mapService = app(MapService::class);
-            /* @phpstan-ignore-next-line class.notFound, assign.propertyType */
             $this->markers = $mapService->getMarkers($this->filters);
-            /* @phpstan-ignore-next-line class.notFound, assign.propertyType */
             $this->stats = $mapService->getMapStats($this->filters);
         } catch (\Exception $e) {
             $this->addError('map', 'Errore nel caricamento dei marker: '.$e->getMessage());
@@ -146,9 +147,7 @@ final class InteractiveMap extends Component
     public function exportData(string $format = 'json'): void
     {
         try {
-            /** @phpstan-ignore-next-line class.notFound */
             $mapService = app(MapService::class);
-            /** @phpstan-ignore-next-line class.notFound */
             $data = $mapService->exportData($this->filters, $format);
 
             $filename = 'map_export_'.now()->format('Y_m_d_H_i_s').'.'.$format;
@@ -178,9 +177,7 @@ final class InteractiveMap extends Component
         }
 
         try {
-            /** @phpstan-ignore-next-line class.notFound */
             $geocodingService = app(GeocodingService::class);
-            /** @phpstan-ignore-next-line class.notFound */
             $result = $geocodingService->geocodeAddress($this->searchQuery);
             Assert::isArray($result, 'Geocoding result must be array');
 
@@ -211,10 +208,8 @@ final class InteractiveMap extends Component
         }
 
         try {
-            /** @phpstan-ignore-next-line class.notFound */
             $geocodingService = app(GeocodingService::class);
 
-            /* @phpstan-ignore-next-line class.notFound, return.type */
             return $geocodingService->getSuggestions($this->searchQuery);
         } catch (\Exception $e) {
             return [];
@@ -245,17 +240,21 @@ final class InteractiveMap extends Component
     {
         $currentStatus = $this->filters['status'] ?? [];
         Assert::isArray($currentStatus, 'Status filter must be array');
+        $statusList = array_values(array_filter(
+            $currentStatus,
+            static fn (mixed $value): bool => is_string($value),
+        ));
 
         if ($enabled) {
-            $currentStatus[] = $status;
-            $this->filters['status'] = array_unique($currentStatus);
+            $statusList[] = $status;
+            $this->filters['status'] = array_values(array_unique($statusList));
             $this->loadMarkers();
 
             return;
         }
 
-        $currentStatus = array_diff($currentStatus, [$status]);
-        $this->filters['status'] = array_unique($currentStatus);
+        $statusList = array_values(array_diff($statusList, [$status]));
+        $this->filters['status'] = array_values(array_unique($statusList));
         $this->loadMarkers();
     }
 
@@ -266,17 +265,21 @@ final class InteractiveMap extends Component
     {
         $currentPriority = $this->filters['priority'] ?? [];
         Assert::isArray($currentPriority, 'Priority filter must be array');
+        $priorityList = array_values(array_filter(
+            $currentPriority,
+            static fn (mixed $value): bool => is_string($value),
+        ));
 
         if ($enabled) {
-            $currentPriority[] = $priority;
-            $this->filters['priority'] = array_unique($currentPriority);
+            $priorityList[] = $priority;
+            $this->filters['priority'] = array_values(array_unique($priorityList));
             $this->loadMarkers();
 
             return;
         }
 
-        $currentPriority = array_diff($currentPriority, [$priority]);
-        $this->filters['priority'] = array_unique($currentPriority);
+        $priorityList = array_values(array_diff($priorityList, [$priority]));
+        $this->filters['priority'] = array_values(array_unique($priorityList));
         $this->loadMarkers();
     }
 

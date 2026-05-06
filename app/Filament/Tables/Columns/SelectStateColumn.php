@@ -7,8 +7,6 @@ namespace Modules\UI\Filament\Tables\Columns;
 use Filament\Tables\Columns\SelectColumn;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
-use Spatie\ModelStates\HasStatesContract;
-use Spatie\ModelStates\State;
 
 class SelectStateColumn extends SelectColumn
 {
@@ -16,10 +14,13 @@ class SelectStateColumn extends SelectColumn
     {
         parent::setUp();
         //  $this->selectablePlaceholder(false);
-        $this->options(function (Model&HasStatesContract $record, mixed $state): array {
+        $this->options(function (Model $record, mixed $state): array {
             $name = $this->getName();
             if (null === $state) {
                 // Record implements HasStatesContract which provides getDefaultStateFor()
+                if (! method_exists($record, 'getDefaultStateFor')) {
+                    return [];
+                }
                 $defaultStates = $record->getDefaultStateFor($name);
                 $states = Arr::wrap($defaultStates);
                 /** @var array<int|string, mixed> $states */
@@ -28,7 +29,7 @@ class SelectStateColumn extends SelectColumn
                 $statesKeys = array_map(fn ($k) => is_string($k) ? $k : (string) $k, array_keys($states));
                 $combined = array_combine($statesKeys, $statesValues);
 
-                /* @var array<int|string, int|string> $result */
+                /** @var array<int|string, int|string> $result */
                 return $combined ? $combined : [];
             }
 
@@ -42,8 +43,13 @@ class SelectStateColumn extends SelectColumn
                 }
             } catch (\Exception $e) {
                 // Record implements HasStatesContract which provides getStatesFor()
+                if (! method_exists($record, 'getStatesFor')) {
+                    return [];
+                }
                 $fetchedStates = $record->getStatesFor($name);
-                $statesArray = $fetchedStates->toArray();
+                $statesArray = \is_object($fetchedStates) && method_exists($fetchedStates, 'toArray')
+                    ? $fetchedStates->toArray()
+                    : [];
                 $states = $statesArray;
             }
 
@@ -90,30 +96,29 @@ class SelectStateColumn extends SelectColumn
             $statesValues = array_map(fn ($v) => is_string($v) ? $v : (string) $v, array_values($statesFiltered));
             $combined = array_combine($statesKeys, $statesValues);
 
-            /* @var array<int|string, int|string> $combinedTyped */
+            /** @var array<int|string, int|string> $combinedTyped */
             return $combined ? $combined : [];
         });
 
-        $this->beforeStateUpdated(function (Model&HasStatesContract $record, mixed $stateRaw): void {
+        $this->beforeStateUpdated(function (Model $record, mixed $stateRaw): void {
             // Type narrowing per $state: deve essere State|string
-            if (! is_string($stateRaw) && ! ($stateRaw instanceof State)) {
+            if (! is_string($stateRaw)) {
                 return;
             }
 
-            $state = is_string($stateRaw) ? $stateRaw : $stateRaw;
+            $state = $stateRaw;
             $message = '';
 
-            if (! isset($record->state) || ! is_object($record->state)) {
+            $recordState = $record->getAttribute('state');
+            if (! is_object($recordState)) {
                 return;
             }
 
-            if (! $record->state instanceof State) {
+            if (! method_exists($recordState, 'transitionTo')) {
                 return;
             }
 
-            /** @var State $stateObj */
-            $stateObj = $record->state;
-            $stateObj->transitionTo($state, $message);
+            $recordState->transitionTo($state, $message);
         });
     }
 }
