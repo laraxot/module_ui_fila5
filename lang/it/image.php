@@ -63,5 +63,4 @@ return [
             'label' => 'Elimina Image',
         ],
     ],
-
 ];
