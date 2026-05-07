@@ -11,8 +11,7 @@ class HeroWidget extends BaseWidget
 {
     protected ?string $heading = 'Hero Widget';
 
-    // PHPStan L10: Protected per type safety - public properties sono viste come mixed
-    protected $title = '';
+    protected string $title = '';
 
     protected string $icon = '';
 

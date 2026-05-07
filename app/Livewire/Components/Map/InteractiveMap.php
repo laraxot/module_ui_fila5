@@ -24,6 +24,7 @@ final class InteractiveMap extends Component
 
     public array $markers = [];
 
+    /** @var array<string, mixed> */
     public array $filters = [
         'tickets' => true,
         'users' => false,
@@ -57,6 +58,9 @@ final class InteractiveMap extends Component
         'refreshMap' => 'loadMarkers',
     ];
 
+    /**
+     * @param  array<string, mixed>  $filters
+     */
     public function mount(?array $center = null, ?int $zoom = null, array $filters = []): void
     {
         if ($center) {
@@ -90,13 +94,15 @@ final class InteractiveMap extends Component
         $marker = collect($this->markers)
             ->firstWhere('id', $markerId);
 
-        $this->selectedMarker = is_array($marker) ? $marker : null;
+        $this->selectedMarker = \is_array($marker) ? $marker : null;
 
         $this->dispatch('markerSelected', $this->selectedMarker);
     }
 
     /**
      * Aggiorna i filtri.
+     *
+     * @param  array<string, mixed>  $filters
      */
     public function updateFilters(array $filters): void
     {
@@ -122,8 +128,9 @@ final class InteractiveMap extends Component
 
         try {
             $mapService = app(MapService::class);
-            $this->markers = $mapService->getMarkers($this->filters);
-            $this->stats = $mapService->getMapStats($this->filters);
+            $filters = $this->getMapFilters();
+            $this->markers = $mapService->getMarkers($filters);
+            $this->stats = $mapService->getMapStats($filters);
         } catch (\Exception $e) {
             $this->addError('map', 'Errore nel caricamento dei marker: '.$e->getMessage());
             $this->markers = [];
@@ -148,7 +155,7 @@ final class InteractiveMap extends Component
     {
         try {
             $mapService = app(MapService::class);
-            $data = $mapService->exportData($this->filters, $format);
+            $data = $mapService->exportData($this->getMapFilters(), $format);
 
             $filename = 'map_export_'.now()->format('Y_m_d_H_i_s').'.'.$format;
 
@@ -203,14 +210,17 @@ final class InteractiveMap extends Component
      */
     public function getSuggestions(): array
     {
-        if (strlen($this->searchQuery) < 3) {
+        if (\strlen($this->searchQuery) < 3) {
             return [];
         }
 
         try {
             $geocodingService = app(GeocodingService::class);
 
-            return $geocodingService->getSuggestions($this->searchQuery);
+            /** @var array<int, array<string, mixed>> $suggestions */
+            $suggestions = $geocodingService->getSuggestions($this->searchQuery);
+
+            return $suggestions;
         } catch (\Exception $e) {
             return [];
         }
@@ -242,7 +252,7 @@ final class InteractiveMap extends Component
         Assert::isArray($currentStatus, 'Status filter must be array');
         $statusList = array_values(array_filter(
             $currentStatus,
-            static fn (mixed $value): bool => is_string($value),
+            static fn (mixed $value): bool => \is_string($value),
         ));
 
         if ($enabled) {
@@ -267,7 +277,7 @@ final class InteractiveMap extends Component
         Assert::isArray($currentPriority, 'Priority filter must be array');
         $priorityList = array_values(array_filter(
             $currentPriority,
-            static fn (mixed $value): bool => is_string($value),
+            static fn (mixed $value): bool => \is_string($value),
         ));
 
         if ($enabled) {
@@ -309,18 +319,18 @@ final class InteractiveMap extends Component
     {
         return collect($this->markers)
             ->groupBy('type')
-            ->map(fn ($markers) => $markers->count())
+            ->map(static fn ($markers) => $markers->count())
             ->toArray();
     }
 
     public function getVisibleMarkersCountProperty(): int
     {
-        return count($this->markers);
+        return \count($this->markers);
     }
 
     public function getFilteredMarkersCountProperty(): int
     {
-        return count($this->markers);
+        return \count($this->markers);
     }
 
     /**
@@ -334,5 +344,23 @@ final class InteractiveMap extends Component
             'kml' => 'application/vnd.google-earth.kml+xml',
             default => 'application/json',
         };
+    }
+
+    /**
+     * @return array<string, mixed>
+     */
+    private function getMapFilters(): array
+    {
+        $filters = [];
+
+        foreach ($this->filters as $key => $value) {
+            if (! \is_string($key)) {
+                continue;
+            }
+
+            $filters[$key] = $value;
+        }
+
+        return $filters;
     }
 }
