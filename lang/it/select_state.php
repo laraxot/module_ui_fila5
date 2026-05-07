@@ -45,5 +45,4 @@ return [
             'label' => 'Elimina Select State',
         ],
     ],
-
 ];

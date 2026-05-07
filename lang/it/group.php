@@ -77,5 +77,4 @@ return [
             'label' => 'Elimina Group',
         ],
     ],
-
 ];
