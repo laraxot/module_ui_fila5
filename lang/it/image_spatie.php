@@ -50,5 +50,4 @@ return [
             'label' => 'Elimina Image Spatie',
         ],
     ],
-
 ];

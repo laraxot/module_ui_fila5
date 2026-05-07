@@ -29,12 +29,12 @@ class GroupColumn extends Column
 
     public function getFields(): array
     {
-        /** @var array<string, mixed> */
+        /* @var array<string, mixed> */
         return $this->schema;
     }
 
     /**
-     * @param  array<int|string, mixed>  $form
+     * @param array<int|string, mixed> $form
      */
     public function schema(array $form): self
     {
