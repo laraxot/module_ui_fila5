@@ -9,8 +9,8 @@ use Modules\UI\Tests\TestCase;
 
 uses(TestCase::class);
 
-describe('Collection Model', function(): void {
-    test('it can create a collection with valid data', function(): void {
+describe('Collection Model', function (): void {
+    test('it can create a collection with valid data', function (): void {
         $collection = Collection::factory()->create([
             'name' => 'Hero Components',
             'type' => 'block',
@@ -20,8 +20,8 @@ describe('Collection Model', function(): void {
             ->and($collection->type)->toBe('block');
     });
 
-    test('it has fillable attributes', function(): void {
-        $collection = new Collection;
+    test('it has fillable attributes', function (): void {
+        $collection = new Collection();
         $expected = ['name', 'description', 'type'];
 
         foreach ($expected as $field) {
@@ -29,7 +29,7 @@ describe('Collection Model', function(): void {
         }
     });
 
-    test('collection has timestamps', function(): void {
+    test('collection has timestamps', function (): void {
         $collection = Collection::factory()->create();
 
         expect($collection->created_at)->not->toBeNull()
