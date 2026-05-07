@@ -244,7 +244,7 @@ class InlineDatePicker extends XotBaseDatePicker
             'weekdays' => $this->getLocalizedWeekdays(),
         ];
 
-        /** @var array<string, mixed> $res */
+        /* @var array<string, mixed> $res */
         return $res;
     }
 
@@ -268,7 +268,7 @@ class InlineDatePicker extends XotBaseDatePicker
             'weekdays' => $calendarData['weekdays'],
         ]);
 
-        /** @var array<string, mixed> $res */
+        /* @var array<string, mixed> $res */
         return $res;
     }
 
