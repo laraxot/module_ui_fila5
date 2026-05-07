@@ -8,8 +8,8 @@ use Modules\UI\Tests\TestCase;
 
 uses(TestCase::class);
 
-describe('Component Files Existence Tests', function (): void {
-    test('reorganized component files exist in correct locations', function (): void {
+describe('Component Files Existence Tests', function(): void {
+    test('reorganized component files exist in correct locations', function(): void {
         $themeBasePath = base_path('Themes/Sixteen/resources/views/components');
 
         if (! is_dir($themeBasePath)) {
@@ -128,7 +128,7 @@ describe('Component Files Existence Tests', function (): void {
         expect(file_exists($themeBasePath.'/utilities/ui/tabs.blade.php'))->toBeTrue();
     });
 
-    test('no old component files remain in root components directory', function (): void {
+    test('no old component files remain in root components directory', function(): void {
         $themeBasePath = base_path('Themes/Sixteen/resources/views/components');
 
         if (! is_dir($themeBasePath)) {
@@ -143,7 +143,7 @@ describe('Component Files Existence Tests', function (): void {
         expect(file_exists($themeBasePath.'/dropdown.blade.php'))->toBeFalse();
     });
 
-    test('component files contain proper blade syntax', function (): void {
+    test('component files contain proper blade syntax', function(): void {
         $themeBasePath = base_path('Themes/Sixteen/resources/views/components');
 
         if (! is_dir($themeBasePath)) {
@@ -161,7 +161,7 @@ describe('Component Files Existence Tests', function (): void {
         expect($cardContent)->toContain('@props');
     });
 
-    test('directory structure is properly organized', function (): void {
+    test('directory structure is properly organized', function(): void {
         $themeBasePath = base_path('Themes/Sixteen/resources/views/components');
 
         if (! is_dir($themeBasePath)) {

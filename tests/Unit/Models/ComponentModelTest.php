@@ -6,13 +6,13 @@ namespace Modules\UI\Tests\Unit\Models;
 
 use Modules\UI\Models\Component;
 
-describe('Component Model', function (): void {
-    it('can be instantiated', function (): void {
+describe('Component Model', function(): void {
+    it('can be instantiated', function(): void {
         $component = new Component;
         expect($component)->toBeInstanceOf(Component::class);
     });
 
-    it('has fillable attributes', function (): void {
+    it('has fillable attributes', function(): void {
         $component = new Component;
         $expected = [
             'name', 'theme_id', 'is_active', 'version', 'dependencies',
@@ -27,7 +27,7 @@ describe('Component Model', function (): void {
         }
     });
 
-    it('has casts defined', function (): void {
+    it('has casts defined', function(): void {
         $component = new Component;
         $casts = $component->getCasts();
 
@@ -42,28 +42,28 @@ describe('Component Model', function (): void {
             ->and($casts['cache_duration'])->toBe('integer');
     });
 
-    it('has theme relationship', function (): void {
+    it('has theme relationship', function(): void {
         $reflection = new ReflectionClass(Component::class);
         expect($reflection->hasMethod('theme'))->toBeTrue();
     });
 
-    it('has correct table name', function (): void {
+    it('has correct table name', function(): void {
         $component = new Component;
         expect($component->getTable())->toBe('components');
     });
 
-    it('extends BaseModel', function (): void {
+    it('extends BaseModel', function(): void {
         $reflection = new ReflectionClass(Component::class);
         expect($reflection->isSubclassOf(Modules\UI\Models\BaseModel::class))->toBeTrue();
     });
 
-    it('uses strict types', function (): void {
+    it('uses strict types', function(): void {
         $reflection = new ReflectionClass(Component::class);
         $content = file_get_contents($reflection->getFileName());
         expect($content)->toContain('');
     });
 
-    it('has correct namespace', function (): void {
+    it('has correct namespace', function(): void {
         $reflection = new ReflectionClass(Component::class);
         expect($reflection->getNamespaceName())->toBe('Modules\UI\Models');
     });

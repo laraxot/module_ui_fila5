@@ -9,14 +9,14 @@ use Illuminate\View\ComponentAttributeBag;
 use Modules\UI\Filament\Tables\Columns\GroupColumn;
 
 // Test GroupColumn class
-describe('GroupColumn class', function (): void {
-    it('can be instantiated with make()', function (): void {
+describe('GroupColumn class', function(): void {
+    it('can be instantiated with make()', function(): void {
         $column = GroupColumn::make('test');
         expect($column)->toBeInstanceOf(GroupColumn::class);
         expect($column->getName())->toBe('test');
     });
 
-    it('accepts schema with TextColumn instances', function (): void {
+    it('accepts schema with TextColumn instances', function(): void {
         $column = GroupColumn::make('worker')
             ->schema([
                 TextColumn::make('matr'),
@@ -30,7 +30,7 @@ describe('GroupColumn class', function (): void {
         expect($fields[0]->getName())->toBe('matr');
     });
 
-    it('filters out non-Column instances from schema', function (): void {
+    it('filters out non-Column instances from schema', function(): void {
         $column = GroupColumn::make('mixed')
             ->schema([
                 TextColumn::make('valid'),
@@ -44,12 +44,12 @@ describe('GroupColumn class', function (): void {
         expect($fields)->toHaveCount(2);
     });
 
-    it('handles empty schema', function (): void {
+    it('handles empty schema', function(): void {
         $column = GroupColumn::make('empty')->schema([]);
         expect($column->getFields())->toBeEmpty();
     });
 
-    it('uses correct view path', function (): void {
+    it('uses correct view path', function(): void {
         $column = GroupColumn::make('test');
         $reflection = new ReflectionClass($column);
         $property = $reflection->getProperty('view');
@@ -59,8 +59,8 @@ describe('GroupColumn class', function (): void {
 });
 
 // Test view rendering with data_get() fallback
-describe('GroupColumn view rendering', function (): void {
-    it('renders direct attribute values', function (): void {
+describe('GroupColumn view rendering', function(): void {
+    it('renders direct attribute values', function(): void {
         $record = (object) [
             'matr' => '12345',
             'cognome' => 'Rossi',
@@ -78,7 +78,7 @@ describe('GroupColumn view rendering', function (): void {
         expect($value)->toBe('Rossi');
     });
 
-    it('renders nested relation values with dot notation', function (): void {
+    it('renders nested relation values with dot notation', function(): void {
         $record = (object) [
             'valutatore' => (object) [
                 'nome_diri' => 'Mario Rossi',
@@ -91,7 +91,7 @@ describe('GroupColumn view rendering', function (): void {
         expect(data_get($record, 'valutatore.stabi_txt'))->toBe('Stabilimento A');
     });
 
-    it('returns null for missing nested relations', function (): void {
+    it('returns null for missing nested relations', function(): void {
         $record = (object) [
             'valutatore' => null,
         ];
@@ -99,7 +99,7 @@ describe('GroupColumn view rendering', function (): void {
         expect(data_get($record, 'valutatore.nome_diri'))->toBeNull();
     });
 
-    it('handles deep nesting', function (): void {
+    it('handles deep nesting', function(): void {
         $record = (object) [
             'level1' => (object) [
                 'level2' => (object) [
@@ -111,7 +111,7 @@ describe('GroupColumn view rendering', function (): void {
         expect(data_get($record, 'level1.level2.level3'))->toBe('deep value');
     });
 
-    it('preserves zero values', function (): void {
+    it('preserves zero values', function(): void {
         $record = (object) [
             'score' => 0,
             'string_zero' => '0',
@@ -121,7 +121,7 @@ describe('GroupColumn view rendering', function (): void {
         expect(data_get($record, 'string_zero'))->toBe('0');
     });
 
-    it('renders view with nested relation when view system available', function (): void {
+    it('renders view with nested relation when view system available', function(): void {
         $record = (object) [
             'valutatore' => (object) [
                 'nome_diri' => 'Mario Rossi',
@@ -147,7 +147,7 @@ describe('GroupColumn view rendering', function (): void {
         expect($html)->toContain('Mario Rossi');
     });
 
-    it('renders multiple fields in view', function (): void {
+    it('renders multiple fields in view', function(): void {
         $record = (object) [
             'matr' => '12345',
             'cognome' => 'Rossi',
@@ -181,7 +181,7 @@ describe('GroupColumn view rendering', function (): void {
         expect($html)->toContain('Mario');
     });
 
-    it('skips empty values but keeps zeros', function (): void {
+    it('skips empty values but keeps zeros', function(): void {
         $record = (object) [
             'empty_field' => '',
             'null_field' => null,

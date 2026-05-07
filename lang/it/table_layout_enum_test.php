@@ -41,4 +41,8 @@ return [
             'label' => 'Elimina Table Layout Enum Test',
         ],
     ],
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 ];

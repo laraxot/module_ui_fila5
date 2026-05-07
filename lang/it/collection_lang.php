@@ -64,4 +64,8 @@ return [
             'label' => 'Elimina Collection Lang',
         ],
     ],
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 ];

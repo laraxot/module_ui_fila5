@@ -35,4 +35,8 @@ return [
             'label' => 'Elimina Radio Icon',
         ],
     ],
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 ];

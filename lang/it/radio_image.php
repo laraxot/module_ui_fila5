@@ -35,4 +35,8 @@ return [
             'label' => 'Elimina Radio Image',
         ],
     ],
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 ];

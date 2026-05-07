@@ -9,8 +9,8 @@ use Modules\UI\Tests\TestCase;
 
 uses(TestCase::class);
 
-describe('Theme Model', function (): void {
-    test('it can create a theme with valid data', function (): void {
+describe('Theme Model', function(): void {
+    test('it can create a theme with valid data', function(): void {
         $theme = Theme::factory()->create([
             'name' => 'Test Theme',
             'is_active' => true,
@@ -20,7 +20,7 @@ describe('Theme Model', function (): void {
             ->and($theme->is_active)->toBeTrue();
     });
 
-    test('it has fillable attributes', function (): void {
+    test('it has fillable attributes', function(): void {
         $theme = new Theme;
         $expected = ['name', 'description', 'is_active', 'config', 'parent_id', 'source_path', 'compiled_path', 'needs_compilation'];
 
@@ -29,14 +29,14 @@ describe('Theme Model', function (): void {
         }
     });
 
-    test('it casts is_active to boolean', function (): void {
+    test('it casts is_active to boolean', function(): void {
         $theme = Theme::factory()->create(['is_active' => '1']);
 
         expect($theme->is_active)->toBeBool()
             ->and($theme->is_active)->toBeTrue();
     });
 
-    test('it casts config to array', function (): void {
+    test('it casts config to array', function(): void {
         $theme = Theme::factory()->create([
             'config' => ['primary_color' => '#ff0000', 'font_family' => 'Roboto'],
         ]);
@@ -45,33 +45,33 @@ describe('Theme Model', function (): void {
             ->and($theme->config['primary_color'])->toBe('#ff0000');
     });
 
-    test('it casts needs_compilation to boolean', function (): void {
+    test('it casts needs_compilation to boolean', function(): void {
         $theme = Theme::factory()->create(['needs_compilation' => true]);
 
         expect($theme->needs_compilation)->toBeBool()
             ->and($theme->needs_compilation)->toBeTrue();
     });
 
-    test('theme can have parent theme', function (): void {
+    test('theme can have parent theme', function(): void {
         $parent = Theme::factory()->create(['name' => 'Parent Theme']);
         $child = Theme::factory()->create(['name' => 'Child Theme', 'parent_id' => $parent->id]);
 
         expect($child->parent->name)->toBe('Parent Theme');
     });
 
-    test('theme can be active', function (): void {
+    test('theme can be active', function(): void {
         $theme = Theme::factory()->create(['is_active' => true]);
 
         expect($theme->is_active)->toBeTrue();
     });
 
-    test('theme can be inactive', function (): void {
+    test('theme can be inactive', function(): void {
         $theme = Theme::factory()->create(['is_active' => false]);
 
         expect($theme->is_active)->toBeFalse();
     });
 
-    test('theme has timestamps', function (): void {
+    test('theme has timestamps', function(): void {
         $theme = Theme::factory()->create();
 
         expect($theme->created_at)->not->toBeNull()
