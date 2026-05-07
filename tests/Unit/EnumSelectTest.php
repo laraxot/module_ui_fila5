@@ -52,7 +52,7 @@ enum TestNoLabelEnum: string
  * @uses TestCase
  */
 it('generates options from enum class', function () {
-    $select = new EnumSelect();
+    $select = new EnumSelect;
     $select->enum(TestColorEnum::class);
 
     $options = $select->getOptions();
@@ -63,7 +63,7 @@ it('generates options from enum class', function () {
 });
 
 it('uses HasLabel interface when available', function () {
-    $select = new EnumSelect();
+    $select = new EnumSelect;
     $select->enum(TestColorEnum::class);
 
     $options = $select->getOptions();
@@ -73,7 +73,7 @@ it('uses HasLabel interface when available', function () {
 });
 
 it('falls back to case name when HasLabel not implemented', function () {
-    $select = new EnumSelect();
+    $select = new EnumSelect;
     $select->enum(TestNoLabelEnum::class);
 
     $options = $select->getOptions();
@@ -83,21 +83,21 @@ it('falls back to case name when HasLabel not implemented', function () {
 });
 
 it('throws exception for non-backed enum', function () {
-    $select = new EnumSelect();
+    $select = new EnumSelect;
 
     expect(fn () => $select->enum('stdClass'))
         ->toThrow(\Exception::class, 'does not exist');
 });
 
 it('throws exception for non-enum class', function () {
-    $select = new EnumSelect();
+    $select = new EnumSelect;
 
     expect(fn () => $select->enum('App\Models\User'))
         ->toThrow(\Exception::class);
 });
 
 it('converts value to enum case', function () {
-    $select = new EnumSelect();
+    $select = new EnumSelect;
     $select->enum(TestColorEnum::class);
 
     $result = $select->convertToEnum('red');
@@ -111,7 +111,7 @@ it('converts value to enum case', function () {
 });
 
 it('enables icons when requested', function () {
-    $select = new EnumSelect();
+    $select = new EnumSelect;
     $select->enum(TestColorEnum::class);
     $select->icons();
 
@@ -119,7 +119,7 @@ it('enables icons when requested', function () {
 });
 
 it('enables html labels when requested', function () {
-    $select = new EnumSelect();
+    $select = new EnumSelect;
     $select->enum(TestColorEnum::class);
     $select->htmlLabels();
 
@@ -127,14 +127,14 @@ it('enables html labels when requested', function () {
 });
 
 it('returns correct enum class', function () {
-    $select = new EnumSelect();
+    $select = new EnumSelect;
     $select->enum(TestColorEnum::class);
 
     expect($select->getEnumClass())->toBe(TestColorEnum::class);
 });
 
 it('formats html labels with icons', function () {
-    $select = new EnumSelect();
+    $select = new EnumSelect;
     $select->enum(TestColorEnum::class);
     $select->icons();
     $select->htmlLabels();
