@@ -56,4 +56,8 @@ return [
             'label' => 'Elimina Paragraph',
         ],
     ],
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 ];

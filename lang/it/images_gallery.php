@@ -64,4 +64,8 @@ return [
             'label' => 'Elimina Images Gallery',
         ],
     ],
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 ];

@@ -14,7 +14,7 @@ use Modules\UI\Tests\TestCase;
 
 // --- SliderData ---
 
-it('SliderData can be instantiated with all fields', function (): void {
+it('SliderData can be instantiated with all fields', function(): void {
     $data = new SliderData(
         desktop_thumbnail: '/img/desktop.jpg',
         mobile_thumbnail: '/img/mobile.jpg',
@@ -35,7 +35,7 @@ it('SliderData can be instantiated with all fields', function (): void {
         ->and($data->action_text)->toBe('Register Now');
 });
 
-it('SliderData sets short_description from description', function (): void {
+it('SliderData sets short_description from description', function(): void {
     $data = new SliderData(
         desktop_thumbnail: null,
         mobile_thumbnail: null,
@@ -51,7 +51,7 @@ it('SliderData sets short_description from description', function (): void {
     expect($data->short_description)->toBe('My description');
 });
 
-it('SliderData can be instantiated with nulls', function (): void {
+it('SliderData can be instantiated with nulls', function(): void {
     $data = new SliderData(
         desktop_thumbnail: null,
         mobile_thumbnail: null,
@@ -71,13 +71,13 @@ it('SliderData can be instantiated with nulls', function (): void {
 
 // --- SliderDataCollection ---
 
-it('SliderDataCollection can be instantiated', function (): void {
+it('SliderDataCollection can be instantiated', function(): void {
     $collection = new SliderDataCollection;
 
     expect($collection)->toBeInstanceOf(SliderDataCollection::class);
 });
 
-it('SliderDataCollection is a Spatie Data class', function (): void {
+it('SliderDataCollection is a Spatie Data class', function(): void {
     $collection = new SliderDataCollection;
 
     expect($collection)->toBeInstanceOf(Spatie\LaravelData\Data::class);
@@ -85,7 +85,7 @@ it('SliderDataCollection is a Spatie Data class', function (): void {
 
 // --- Datas/UserData ---
 
-it('UI Datas UserData can be instantiated', function (): void {
+it('UI Datas UserData can be instantiated', function(): void {
     $data = new UserData(
         id: 1,
         name: 'Mario Rossi',
@@ -106,7 +106,7 @@ it('UI Datas UserData can be instantiated', function (): void {
         ->and($data->settings)->toBe(['theme' => 'dark']);
 });
 
-it('UI Datas UserData is a Spatie Data class', function (): void {
+it('UI Datas UserData is a Spatie Data class', function(): void {
     $data = new UserData(1, 'Test', 'test@example.com', null, null, [], []);
 
     expect($data)->toBeInstanceOf(Spatie\LaravelData\Data::class);
@@ -114,7 +114,7 @@ it('UI Datas UserData is a Spatie Data class', function (): void {
 
 // --- Data/UserData ---
 
-it('UI Data UserData can be instantiated', function (): void {
+it('UI Data UserData can be instantiated', function(): void {
     $data = new DataUserData(
         id: 42,
         name: 'Luigi Verdi',
@@ -132,7 +132,7 @@ it('UI Data UserData can be instantiated', function (): void {
         ->and($data->avatar)->toBe('avatar.png');
 });
 
-it('UI Data UserData is a Spatie Data class', function (): void {
+it('UI Data UserData is a Spatie Data class', function(): void {
     $data = new DataUserData(1, 'Test', 'test@example.com', null, null, [], []);
 
     expect($data)->toBeInstanceOf(Spatie\LaravelData\Data::class);

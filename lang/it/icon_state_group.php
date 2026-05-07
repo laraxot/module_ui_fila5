@@ -515,4 +515,8 @@ return [
             'label' => 'Elimina Icon State Group',
         ],
     ],
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 ];

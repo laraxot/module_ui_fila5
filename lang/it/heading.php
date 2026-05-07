@@ -43,4 +43,8 @@ return [
             'label' => 'Elimina Heading',
         ],
     ],
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 ];

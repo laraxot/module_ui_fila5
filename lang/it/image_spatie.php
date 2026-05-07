@@ -50,4 +50,8 @@ return [
             'label' => 'Elimina Image Spatie',
         ],
     ],
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 ];

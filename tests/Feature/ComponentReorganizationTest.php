@@ -10,8 +10,8 @@ use Tests\TestCase;
 
 uses(TestCase::class);
 
-describe('Component Reorganization Tests', function (): void {
-    beforeEach(function (): void {
+describe('Component Reorganization Tests', function(): void {
+    beforeEach(function(): void {
         if (! app()->bound('view')) {
             test()->markTestSkipped('View factory is not available in this install.');
         }
@@ -21,7 +21,7 @@ describe('Component Reorganization Tests', function (): void {
         }
     });
 
-    test('forms components are properly organized and render', function (): void {
+    test('forms components are properly organized and render', function(): void {
         // Test forms.input component
         expect(View::exists('pub_theme::components.forms.input'))->toBeTrue();
 
@@ -38,7 +38,7 @@ describe('Component Reorganization Tests', function (): void {
         expect(View::exists('pub_theme::components.forms.form-section'))->toBeTrue();
     });
 
-    test('utilities components are properly organized and render', function (): void {
+    test('utilities components are properly organized and render', function(): void {
         // Test utilities.button component
         expect(View::exists('pub_theme::components.utilities.button'))->toBeTrue();
 
@@ -55,7 +55,7 @@ describe('Component Reorganization Tests', function (): void {
         expect(View::exists('pub_theme::components.utilities.toggle'))->toBeTrue();
     });
 
-    test('layout.sections components are properly organized and render', function (): void {
+    test('layout.sections components are properly organized and render', function(): void {
         // Test layout.sections.action-section component
         expect(View::exists('pub_theme::components.layout.sections.action-section'))->toBeTrue();
 
@@ -69,7 +69,7 @@ describe('Component Reorganization Tests', function (): void {
         expect(View::exists('pub_theme::components.layout.sections.hero'))->toBeTrue();
     });
 
-    test('navigation components are properly organized and render', function (): void {
+    test('navigation components are properly organized and render', function(): void {
         // Test navigation.breadcrumb component
         expect(View::exists('pub_theme::components.navigation.breadcrumb'))->toBeTrue();
 
@@ -83,7 +83,7 @@ describe('Component Reorganization Tests', function (): void {
         expect(View::exists('pub_theme::components.navigation.tabs'))->toBeTrue();
     });
 
-    test('overlays components are properly organized and render', function (): void {
+    test('overlays components are properly organized and render', function(): void {
         // Test overlays.modal component
         expect(View::exists('pub_theme::components.overlays.modal'))->toBeTrue();
 
@@ -97,7 +97,7 @@ describe('Component Reorganization Tests', function (): void {
         expect(View::exists('pub_theme::components.overlays.dialog-modal'))->toBeTrue();
     });
 
-    test('data-display components are properly organized and render', function (): void {
+    test('data-display components are properly organized and render', function(): void {
         // Test data-display.card component
         expect(View::exists('pub_theme::components.data-display.card'))->toBeTrue();
 
@@ -111,7 +111,7 @@ describe('Component Reorganization Tests', function (): void {
         expect(View::exists('pub_theme::components.data-display.table'))->toBeTrue();
     });
 
-    test('feedback components are properly organized and render', function (): void {
+    test('feedback components are properly organized and render', function(): void {
         // Test feedback.progress-indicators component
         expect(View::exists('pub_theme::components.feedback.progress-indicators'))->toBeTrue();
 
@@ -125,7 +125,7 @@ describe('Component Reorganization Tests', function (): void {
         expect(View::exists('pub_theme::components.feedback.alert'))->toBeTrue();
     });
 
-    test('media components are properly organized and render', function (): void {
+    test('media components are properly organized and render', function(): void {
         // Test media.rating component
         expect(View::exists('pub_theme::components.media.rating'))->toBeTrue();
 
@@ -133,7 +133,7 @@ describe('Component Reorganization Tests', function (): void {
         expect(View::exists('pub_theme::components.media.carousel'))->toBeTrue();
     });
 
-    test('auth components are properly organized and render', function (): void {
+    test('auth components are properly organized and render', function(): void {
         // Test auth.confirms-password component
         expect(View::exists('pub_theme::components.auth.confirms-password'))->toBeTrue();
 
@@ -141,17 +141,17 @@ describe('Component Reorganization Tests', function (): void {
         expect(View::exists('pub_theme::components.auth.authentication-card'))->toBeTrue();
     });
 
-    test('footer components are properly organized and render', function (): void {
+    test('footer components are properly organized and render', function(): void {
         // Test footer.institutional component
         expect(View::exists('pub_theme::components.footer.institutional'))->toBeTrue();
     });
 
-    test('blocks components are properly organized and render', function (): void {
+    test('blocks components are properly organized and render', function(): void {
         // Test blocks.forms.login-card component
         expect(View::exists('pub_theme::components.blocks.forms.login-card'))->toBeTrue();
     });
 
-    test('utilities.ui components are properly organized and render', function (): void {
+    test('utilities.ui components are properly organized and render', function(): void {
         // Test utilities.ui.accordion component
         expect(View::exists('pub_theme::components.utilities.ui.accordion'))->toBeTrue();
 
@@ -163,8 +163,8 @@ describe('Component Reorganization Tests', function (): void {
     });
 });
 
-describe('Component Rendering Tests', function (): void {
-    beforeEach(function (): void {
+describe('Component Rendering Tests', function(): void {
+    beforeEach(function(): void {
         if (! app()->bound('view')) {
             test()->markTestSkipped('View factory is not available in this install.');
         }
@@ -174,7 +174,7 @@ describe('Component Rendering Tests', function (): void {
         }
     });
 
-    test('reorganized components can be rendered in blade templates', function (): void {
+    test('reorganized components can be rendered in blade templates', function(): void {
         // Test a simple component rendering
         $html = view('pub_theme::components.forms.input', [
             'name' => 'test',
@@ -185,7 +185,7 @@ describe('Component Rendering Tests', function (): void {
         expect($html)->toContain('test-value');
     });
 
-    test('reorganized button components render correctly', function (): void {
+    test('reorganized button components render correctly', function(): void {
         if (! View::exists('pub_theme::components.utilities.button')) {
             test()->markTestSkipped('pub_theme utilities.button view is not available in this install.');
         }
@@ -198,7 +198,7 @@ describe('Component Rendering Tests', function (): void {
         expect($html)->toContain('button');
     });
 
-    test('reorganized card components render correctly', function (): void {
+    test('reorganized card components render correctly', function(): void {
         if (! View::exists('pub_theme::components.data-display.card')) {
             test()->markTestSkipped('pub_theme data-display.card view is not available in this install.');
         }
@@ -213,8 +213,8 @@ describe('Component Rendering Tests', function (): void {
     });
 });
 
-describe('Component Integration Tests', function (): void {
-    beforeEach(function (): void {
+describe('Component Integration Tests', function(): void {
+    beforeEach(function(): void {
         if (! app()->bound('view')) {
             test()->markTestSkipped('View factory is not available in this install.');
         }
@@ -224,7 +224,7 @@ describe('Component Integration Tests', function (): void {
         }
     });
 
-    test('reorganized components work together in complex layouts', function (): void {
+    test('reorganized components work together in complex layouts', function(): void {
         // This tests that the reorganized components can still work together
         // by rendering a view that uses multiple reorganized components
 

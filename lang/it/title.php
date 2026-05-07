@@ -56,4 +56,8 @@ return [
             'label' => 'Elimina Title',
         ],
     ],
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 ];

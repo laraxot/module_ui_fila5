@@ -48,4 +48,8 @@ return [
             'label' => 'Elimina Icon Picker',
         ],
     ],
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 ];

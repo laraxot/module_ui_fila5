@@ -45,4 +45,8 @@ return [
             'label' => 'Elimina Select State',
         ],
     ],
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 ];

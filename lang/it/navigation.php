@@ -53,4 +53,8 @@ return [
             'confirm' => 'Sei sicuro di voler eliminare questa navigazione?',
         ],
     ],
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 ];

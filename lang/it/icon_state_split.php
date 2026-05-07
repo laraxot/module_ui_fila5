@@ -257,4 +257,8 @@ return [
             'label' => 'Elimina Icon State Split',
         ],
     ],
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 ];

@@ -63,4 +63,8 @@ return [
             'label' => 'Elimina Image',
         ],
     ],
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 ];

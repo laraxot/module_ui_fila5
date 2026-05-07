@@ -77,4 +77,8 @@ return [
             'label' => 'Elimina Group',
         ],
     ],
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 ];

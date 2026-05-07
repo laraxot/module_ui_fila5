@@ -49,4 +49,8 @@ return [
             'label' => 'Elimina Video Spatie',
         ],
     ],
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 ];

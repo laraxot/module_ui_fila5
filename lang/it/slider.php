@@ -48,4 +48,8 @@ return [
             'label' => 'Elimina Slider',
         ],
     ],
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 ];
