@@ -56,5 +56,4 @@ return [
             'label' => 'Elimina Title',
         ],
     ],
-
 ];
