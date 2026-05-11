@@ -1,12 +1,12 @@
-# UI Module - memories Index
+# UI Module - concepts Index
 
 ## Purpose
-Index for UI module memories.
+Index for UI module concepts.
 
 ## On-Demand Loading
 
 ```bash
-qmd search "UI memories" --limit 5
+qmd search "UI concepts" --limit 5
 ```
 
 ## See Also
