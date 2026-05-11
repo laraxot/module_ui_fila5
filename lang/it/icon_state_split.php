@@ -257,5 +257,4 @@ return [
             'label' => 'Elimina Icon State Split',
         ],
     ],
-
 ];
