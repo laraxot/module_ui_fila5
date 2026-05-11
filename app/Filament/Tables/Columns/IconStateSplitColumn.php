@@ -25,9 +25,9 @@ final class IconStateSplitColumn extends Column
 {
     protected string $view = 'ui::filament.tables.columns.icon-state-split';
 
-    protected $stateClass = '';
+    protected string $stateClass = '';
 
-    protected $modelClass = '';
+    protected string $modelClass = '';
 
     /**
      * Configure the state class and model class for this column.
