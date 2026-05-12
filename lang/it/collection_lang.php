@@ -64,5 +64,4 @@ return [
             'label' => 'Elimina Collection Lang',
         ],
     ],
-
 ];

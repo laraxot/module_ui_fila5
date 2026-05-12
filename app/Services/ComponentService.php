@@ -7,4 +7,6 @@ namespace Modules\UI\Services;
 /**
  * Class ComponentService.
  */
-class ComponentService {}
+class ComponentService
+{
+}

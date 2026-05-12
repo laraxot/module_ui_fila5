@@ -48,5 +48,4 @@ return [
             'label' => 'Elimina Slider',
         ],
     ],
-
 ];

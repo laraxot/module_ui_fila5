@@ -53,5 +53,4 @@ return [
             'confirm' => 'Sei sicuro di voler eliminare questa navigazione?',
         ],
     ],
-
 ];
