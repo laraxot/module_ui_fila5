@@ -7,4 +7,6 @@ namespace Modules\UI\Services;
 /**
  * Class ThemeService.
  */
-class ThemeService {}
+class ThemeService
+{
+}

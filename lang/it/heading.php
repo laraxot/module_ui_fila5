@@ -43,5 +43,4 @@ return [
             'label' => 'Elimina Heading',
         ],
     ],
-
 ];

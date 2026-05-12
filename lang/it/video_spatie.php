@@ -49,5 +49,4 @@ return [
             'label' => 'Elimina Video Spatie',
         ],
     ],
-
 ];
