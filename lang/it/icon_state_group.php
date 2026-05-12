@@ -515,5 +515,4 @@ return [
             'label' => 'Elimina Icon State Group',
         ],
     ],
-
 ];
