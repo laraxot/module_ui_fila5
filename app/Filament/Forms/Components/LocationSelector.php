@@ -119,6 +119,7 @@ class LocationSelector extends XotBaseGroup
      * Imposta label personalizzate.
      *
      * @param array<string, string> $labels
+     * @param  array<string, string>  $labels
      */
     public function labels(array $labels): static
     {
@@ -131,6 +132,7 @@ class LocationSelector extends XotBaseGroup
      * Imposta placeholder personalizzati.
      *
      * @param array<string, string> $placeholders
+     * @param  array<string, string>  $placeholders
      */
     public function placeholders(array $placeholders): static
     {
@@ -285,6 +287,7 @@ class LocationSelector extends XotBaseGroup
      *
      * @param string $region Codice regione
      *
+     * @param  string  $region  Codice regione
      * @return array<string, string>
      */
     protected function getProvinceOptions(string $region): array
@@ -314,6 +317,8 @@ class LocationSelector extends XotBaseGroup
      * @param string $region   Codice regione
      * @param string $province Codice provincia
      *
+     * @param  string  $region  Codice regione
+     * @param  string  $province  Codice provincia
      * @return array<string, string>
      */
     protected function getCapOptions(string $region, string $province): array
@@ -384,6 +389,7 @@ class LocationSelector extends XotBaseGroup
     /**
      * @param array<string, mixed> $state
      *
+     * @param  array<string, mixed>  $state
      * @return array<string, mixed>
      */
     protected function formatGeographicData(Comune $comune, array $state): array
