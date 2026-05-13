@@ -60,7 +60,7 @@ final class InteractiveMap extends Component
 
     /**
      * @param array<string, mixed> $filters
-     * @param  array<string, mixed>  $filters
+     * @param array<string, mixed> $filters
      */
     public function mount(?array $center = null, ?int $zoom = null, array $filters = []): void
     {
@@ -104,7 +104,7 @@ final class InteractiveMap extends Component
      * Aggiorna i filtri.
      *
      * @param array<string, mixed> $filters
-     * @param  array<string, mixed>  $filters
+     * @param array<string, mixed> $filters
      */
     public function updateFilters(array $filters): void
     {
