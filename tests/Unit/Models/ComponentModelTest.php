@@ -8,13 +8,13 @@ use Modules\UI\Models\Component;
 
 describe('Component Model', function (): void {
     it('can be instantiated', function (): void {
-        $component = new Component();
+        $component = new Component;
         $component = new Component;
         expect($component)->toBeInstanceOf(Component::class);
     });
 
     it('has fillable attributes', function (): void {
-        $component = new Component();
+        $component = new Component;
         $component = new Component;
         $expected = [
             'name', 'theme_id', 'is_active', 'version', 'dependencies',
@@ -30,7 +30,7 @@ describe('Component Model', function (): void {
     });
 
     it('has casts defined', function (): void {
-        $component = new Component();
+        $component = new Component;
         $component = new Component;
         $casts = $component->getCasts();
 
@@ -51,7 +51,7 @@ describe('Component Model', function (): void {
     });
 
     it('has correct table name', function (): void {
-        $component = new Component();
+        $component = new Component;
         $component = new Component;
         expect($component->getTable())->toBe('components');
     });
