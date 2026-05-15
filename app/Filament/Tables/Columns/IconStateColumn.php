@@ -42,7 +42,7 @@ class IconStateColumn extends IconColumn
                         ->options(function (Model $record, string $_state): array {
                             $name = $this->getName();
                             $state = $record->getAttribute($name);
-                            if (null === $state) {
+                            if ($state === null) {
                                 if (! method_exists($record, 'getDefaultStateFor')) {
                                     return [];
                                 }

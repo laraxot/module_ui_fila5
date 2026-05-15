@@ -32,8 +32,8 @@ final class IconStateSplitColumn extends Column
     /**
      * Configure the state class and model class for this column.
      *
-     * @param string $stateClass The state machine class (e.g., AppointmentState::class)
-     * @param string $modelClass The model class (e.g., Appointment::class)
+     * @param  string  $stateClass  The state machine class (e.g., AppointmentState::class)
+     * @param  string  $modelClass  The model class (e.g., Appointment::class)
      * @param  string  $stateClass  The state machine class (e.g., AppointmentState::class)
      * @param  string  $modelClass  The model class (e.g., Appointment::class)
      */
@@ -222,7 +222,7 @@ final class IconStateSplitColumn extends Column
     }
 
     /**
-     * @param array{class: StateContract, icon: string, label: string, color: string, tooltip: string} $stateData
+     * @param  array{class: StateContract, icon: string, label: string, color: string, tooltip: string}  $stateData
      * @param  array{class: StateContract, icon: string, label: string, color: string, tooltip: string}  $stateData
      */
     private function getTransitionAction(string $stateKey, array $stateData): ?Action
