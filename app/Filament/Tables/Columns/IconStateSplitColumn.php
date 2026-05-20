@@ -130,7 +130,7 @@ final class IconStateSplitColumn extends Column
     #[On('table-action')]
     public function handleTableAction(string $action, int|string $recordId): void
     {
-        if ($action === 'prova') {
+        if ('prova' === $action) {
             $this->prova($recordId);
         }
     }
@@ -230,7 +230,7 @@ final class IconStateSplitColumn extends Column
         $record = $this->getRecord();
         $recordIdRaw = \is_object($record) && isset($record->id) ? $record->id : null;
 
-        if ($recordIdRaw === null || (! \is_int($recordIdRaw) && ! \is_string($recordIdRaw))) {
+        if (null === $recordIdRaw || (! \is_int($recordIdRaw) && ! \is_string($recordIdRaw))) {
             return null;
         }
 
