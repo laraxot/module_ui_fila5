@@ -176,3 +176,5 @@ public_html
 lang/lang/
 _docs/
 docs/archived/
+# Second brain: no-docs-archive — allineato alla wiki (vietato albero docs/archive/)
+docs/archive/
