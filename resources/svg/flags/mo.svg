@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 660 440">
 <rect fill="#00785E" width="660" height="440"/>
 <polygon fill="#FBD116" points="330 82.958 315.792 126.693 352.995 99.666 307.005 99.666 344.208 126.693 "/>
@@ -9,8 +8,3 @@
 </g>
 <use xlink:href="#h" transform="matrix(-1,0,0,1,660,0)"/>
 </svg>
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:a20a5e002eead128bd18f2846ef6ca01a52b4ea50304a801f4bc4cad54f62cdb
-size 2286
->>>>>>> c426613 (.)
