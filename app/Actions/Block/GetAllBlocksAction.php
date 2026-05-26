@@ -15,11 +15,6 @@ use function Safe\realpath;
 use Spatie\LaravelData\DataCollection;
 use Webmozart\Assert\Assert;
 
-use function Safe\realpath;
-
-use Spatie\LaravelData\DataCollection;
-use Webmozart\Assert\Assert;
-
 final class GetAllBlocksAction
 {
     /**
