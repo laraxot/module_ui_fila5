@@ -1,33 +1,34 @@
-<?php
-
-declare(strict_types=1);
-
-return [
-    'previous_month' => 'Mese precedente',
-    'next_month' => 'Mese successivo',
-    'today' => 'Oggi',
-    'months' => [
-        'Gennaio',
-        'Febbraio',
-        'Marzo',
-        'Aprile',
-        'Maggio',
-        'Giugno',
-        'Luglio',
-        'Agosto',
-        'Settembre',
-        'Ottobre',
-        'Novembre',
-        'Dicembre',
-    ],
-    'weekdays' => [
-        'Domenica',
-        'LunedÃ¬',
-        'MartedÃ¬',
-        'MercoledÃ¬',
-        'GiovedÃ¬',
-        'VenerdÃ¬',
-        'Sabato',
-    ],
-    'weekdays_short' => ['Dom', 'Lun', 'Mar', 'Mer', 'Gio', 'Ven', 'Sab'],
-];
+|<|?|p|h|p|
+|
+|d|e|c|l|a|r|e|(|s|t|r|i|c|t|_|t|y|p|e|s|=|1|)|;|
+|
+|r|e|t|u|r|n| |[|
+| | | | |'|p|r|e|v|i|o|u|s|_|m|o|n|t|h|'| |=|>| |'|M|e|s|e| |p|r|e|c|e|d|e|n|t|e|'|,|
+| | | | |'|n|e|x|t|_|m|o|n|t|h|'| |=|>| |'|M|e|s|e| |s|u|c|c|e|s|s|i|v|o|'|,|
+| | | | |'|t|o|d|a|y|'| |=|>| |'|O|g|g|i|'|,|
+| | | | |'|m|o|n|t|h|s|'| |=|>| |[|
+| | | | | | | | |'|G|e|n|n|a|i|o|'|,|
+| | | | | | | | |'|F|e|b|b|r|a|i|o|'|,|
+| | | | | | | | |'|M|a|r|z|o|'|,|
+| | | | | | | | |'|A|p|r|i|l|e|'|,|
+| | | | | | | | |'|M|a|g|g|i|o|'|,|
+| | | | | | | | |'|G|i|u|g|n|o|'|,|
+| | | | | | | | |'|L|u|g|l|i|o|'|,|
+| | | | | | | | |'|A|g|o|s|t|o|'|,|
+| | | | | | | | |'|S|e|t|t|e|m|b|r|e|'|,|
+| | | | | | | | |'|O|t|t|o|b|r|e|'|,|
+| | | | | | | | |'|N|o|v|e|m|b|r|e|'|,|
+| | | | | | | | |'|D|i|c|e|m|b|r|e|'|,|
+| | | | |]|,|
+| | | | |'|w|e|e|k|d|a|y|s|'| |=|>| |[|
+| | | | | | | | |'|D|o|m|e|n|i|c|a|'|,|
+| | | | | | | | |'|L|u|n|e|d|Ã|¬|'|,|
+| | | | | | | | |'|M|a|r|t|e|d|Ã|¬|'|,|
+| | | | | | | | |'|M|e|r|c|o|l|e|d|Ã|¬|'|,|
+| | | | | | | | |'|G|i|o|v|e|d|Ã|¬|'|,|
+| | | | | | | | |'|V|e|n|e|r|d|Ã|¬|'|,|
+| | | | | | | | |'|S|a|b|a|t|o|'|,|
+| | | | |]|,|
+| | | | |'|w|e|e|k|d|a|y|s|_|s|h|o|r|t|'| |=|>| |[|'|D|o|m|'|,| |'|L|u|n|'|,| |'|M|a|r|'|,| |'|M|e|r|'|,| |'|G|i|o|'|,| |'|V|e|n|'|,| |'|S|a|b|'|]|,|
+|]|;|
+|
