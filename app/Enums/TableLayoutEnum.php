@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\UI\Enums;
 
+use Modules\Xot\Traits\EnumTrait;
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasLabel;
 use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\ColumnGroup;
 use Filament\Tables\Columns\Layout\Component;
-use Modules\Xot\Filament\Traits\TransTrait;
 
 /**
  * Enum for managing table layout types in Filament UI components.
@@ -23,7 +23,7 @@ use Modules\Xot\Filament\Traits\TransTrait;
  */
 enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 {
-    use TransTrait;
+    use EnumTrait;
 
     case LIST = 'list';
     case GRID = 'grid';
@@ -33,25 +33,13 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
         return self::LIST;
     }
 
-    public function getLabel(): string
-    {
-        return $this->transClass(self::class, $this->value.'.label');
-    }
+    
 
-    public function getColor(): string
-    {
-        return $this->transClass(self::class, $this->value.'.color');
-    }
+    
 
-    public function getIcon(): string
-    {
-        return $this->transClass(self::class, $this->value.'.icon');
-    }
+    
 
-    public function getDescription(): string
-    {
-        return $this->transClass(self::class, $this->value.'.description');
-    }
+    
 
     public function getTooltip(): string
     {
