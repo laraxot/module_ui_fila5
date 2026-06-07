@@ -21,6 +21,7 @@ laravel/Modules/Cms/
 
 ### Tipi di Blocchi
 
+1. **[NavigationBlock](../laravel/Modules/Cms/docs/blocks/navigation-block.md)**
 1. **[NavigationBlock](../laravel/modules/cms/docs/blocks/navigation-block.md)**
    - Gestione menu di navigazione
    - Header e footer
@@ -125,6 +126,9 @@ laravel/Modules/Cms/
 
 ### Tipi di Blocchi
 
+1. **[NavigationBlock](../laravel/Modules/Cms/project_docs/blocks/navigation-block.md)**
+1. **[NavigationBlock](../laravel/Modules/Cms/project_docs/blocks/navigation-block.md)**
+1. **[NavigationBlock](../laravel/Modules/Cms/project_docs/blocks/navigation-block.md)**
 1. **[NavigationBlock](../laravel/modules/cms/project_docs/blocks/navigation-block.md)**
 1. **[NavigationBlock](../laravel/modules/cms/project_docs/blocks/navigation-block.md)**
 1. **[NavigationBlock](../laravel/modules/cms/project_docs/blocks/navigation-block.md)**

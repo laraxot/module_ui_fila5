@@ -1,5 +1,6 @@
 # Analisi Completa TableLayoutEnum
 
+## Data: 2025-01-06
 ## Data: [DATE]
 
 ## Panoramica
@@ -330,6 +331,10 @@ class TableLayoutEnumTest extends TestCase
 
 - [Usage Guide](table-layout-enum-usage.md)
 - [Conflict Resolution](conflict-resolution-tablelayoutenum.md)
+*Ultimo aggiornamento: 2025-01-06*
+# Analisi Completa TableLayoutEnum
+
+## Data: 2025-01-06
 - [Translation Standards](../../../../docs/translation_standards.md)
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
 
@@ -665,6 +670,6 @@ class TableLayoutEnumTest extends TestCase
 
 - [Usage Guide](table-layout-enum-usage.md)
 - [Conflict Resolution](conflict-resolution-tablelayoutenum.md)
+*Ultimo aggiornamento: 2025-01-06*
 - [Translation Standards](../../../../docs/translation_standards.md)
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
-

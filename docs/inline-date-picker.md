@@ -39,6 +39,7 @@ InlineDatePicker::make('appointment_date')
 Specify which dates should be selectable. Other dates will be disabled.
 
 ```php
+->enabledDates(['2023-06-15', '2023-06-20', '2023-06-25'])
 ->enabledDates(['[DATE]', '[DATE]', '[DATE]'])
 
 // Or using a closure
@@ -182,6 +183,8 @@ When writing tests for forms that use the InlineDatePicker, you can interact wit
 ```php
 // Select a date
 Livewire::test(YourForm::class)
+    ->set('appointment_date', '2023-06-15')
+    ->assertSet('appointment_date', '2023-06-15');
     ->set('appointment_date', '[DATE]')
     ->assertSet('appointment_date', '[DATE]');
 
@@ -256,6 +259,7 @@ InlineDatePicker::make('appointment_date')
 Specify which dates should be selectable. Other dates will be disabled.
 
 ```php
+->enabledDates(['2023-06-15', '2023-06-20', '2023-06-25'])
 ->enabledDates(['[DATE]', '[DATE]', '[DATE]'])
 
 // Or using a closure
@@ -399,6 +403,8 @@ When writing tests for forms that use the InlineDatePicker, you can interact wit
 ```php
 // Select a date
 Livewire::test(YourForm::class)
+    ->set('appointment_date', '2023-06-15')
+    ->assertSet('appointment_date', '2023-06-15');
     ->set('appointment_date', '[DATE]')
     ->assertSet('appointment_date', '[DATE]');
 

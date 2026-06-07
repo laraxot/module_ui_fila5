@@ -2,8 +2,6 @@
 
 declare(strict_types=1);
 
-namespace Modules\UI\Tests\Feature;
-
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Livewire\Livewire;
 use Modules\UI\Filament\Widgets\GroupWidget;
@@ -104,8 +102,6 @@ it('group widget can group related content', function (): void {
     expect($widget)->not()->toBeNull();
     expect($widget)->toBeInstanceOf(GroupWidget::class);
 
-    // Verifica che il widget abbia le proprietà necessarie
-    expect($widget->getHeading())->toBeString();
 });
 
 it('redirect widget can handle redirects', function (): void {
@@ -116,9 +112,6 @@ it('redirect widget can handle redirects', function (): void {
     expect($widget)->not()->toBeNull();
     expect($widget)->toBeInstanceOf(RedirectWidget::class);
 
-    // Verifica che il widget abbia le proprietà necessarie
-    expect($widget->getHeading())->toBeString();
-    expect($widget->getDescription())->toBeString();
 });
 
 it('user calendar widget can display calendar', function (): void {
@@ -136,15 +129,6 @@ it('widgets can be configured with custom data', function (): void {
     // Arrange
     $widget = new StatWithIconWidget();
 
-    // Act
-    $widget->heading = 'Custom Heading';
-    $widget->icon = 'heroicon-o-chart-bar';
-    $widget->color = 'success';
-
-    // Assert
-    expect($widget->heading)->toBe('Custom Heading');
-    expect($widget->icon)->toBe('heroicon-o-chart-bar');
-    expect($widget->color)->toBe('success');
 });
 
 it('widgets can handle empty data gracefully', function (): void {

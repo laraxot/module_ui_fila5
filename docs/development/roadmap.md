@@ -154,6 +154,7 @@
 
 ### Collegamenti Interni
 - [Bottlenecks](bottlenecks.md)
+- [Best Practices](BEST-PRACTICES.md)
 - [Best Practices](best-practices.md)
 - [Testing](testing.md)
 
@@ -175,6 +176,10 @@
 - [Guida Sviluppo](./development.md)
 - [Best Practices](./best-practices.md)
 - [Architettura](./architecture.md)
+- [Documentazione UI](./README.md)
+- [Guida Sviluppo](./DEVELOPMENT.md)
+- [Best Practices](./BEST-PRACTICES.md)
+- [Architettura](./ARCHITECTURE.md)
 
 ## Collegamenti tra versioni di roadmap.md
 * [roadmap.md](bashscripts/docs/roadmap.md)
@@ -193,6 +198,20 @@
 * [roadmap.md](../../../patient/docs/roadmap.md)
 * [roadmap.md](../../../cms/docs/roadmap.md)
 * [roadmap.md](../../../../themes/one/docs/roadmap.md)
+* [roadmap.md](../../../Gdpr/docs/roadmap.md)
+* [roadmap.md](../../../Notify/docs/roadmap.md)
+* [roadmap.md](../../../Xot/docs/roadmap.md)
+* [roadmap.md](../../../Dental/docs/roadmap.md)
+* [roadmap.md](../../../User/docs/roadmap.md)
+* [roadmap.md](../../../UI/docs/roadmap.md)
+* [roadmap.md](../../../Lang/docs/roadmap.md)
+* [roadmap.md](../../../Job/docs/roadmap.md)
+* [roadmap.md](../../../Media/docs/roadmap.md)
+* [roadmap.md](../../../Tenant/docs/roadmap.md)
+* [roadmap.md](../../../Activity/docs/roadmap.md)
+* [roadmap.md](../../../Patient/docs/roadmap.md)
+* [roadmap.md](../../../Cms/docs/roadmap.md)
+* [roadmap.md](../../../../Themes/One/docs/roadmap.md)
 
 ---
 

@@ -93,6 +93,7 @@ If radio buttons are not selecting properly, check:
 
 ## Changelog
 
+### 2025-06-27
 ### [DATE]
 
 - Initial documentation
@@ -192,6 +193,7 @@ If radio buttons are not selecting properly, check:
 
 ## Changelog
 
+### 2025-06-27
 ### [DATE]
 
 - Initial documentation

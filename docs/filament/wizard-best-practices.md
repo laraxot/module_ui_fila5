@@ -160,4 +160,5 @@ public static function getFormSchemaWidget(): array
 
 - [Filament Resources Structure](../filament-resources-structure.md)
 - [Form Components](../form-components.md)
+- [Filament Best Practices](../../Xot/docs/filament-best-practices.md)
 - [Filament Best Practices](../../xot/docs/filament-best-practices.md)
