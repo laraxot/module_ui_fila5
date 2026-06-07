@@ -68,6 +68,9 @@ In the section configuration JSON:
 
 ## Related Documentation
 
+- [Block Components Overview](./README.md)
+- [Data Handling in Blade Components](../blade-data-handling.md)
+- [Section Architecture](../sections/README.md)
 - [Block Components Overview](./readme.md)
 - [Data Handling in Blade Components](../blade-data-handling.md)
 - [Section Architecture](../sections/readme.md)

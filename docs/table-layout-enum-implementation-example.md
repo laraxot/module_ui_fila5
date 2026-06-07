@@ -1,5 +1,6 @@
 # Esempio Implementazione TableLayoutEnum
 
+## Data: 2025-01-27
 ## Data: [DATE]
 
 ## Scenario
@@ -408,6 +409,10 @@ TextColumn::make('name')
 
 - [Analisi TableLayoutEnum](table_layout_enum_analysis.md)
 - [Usage Guide](table-layout-enum-usage.md)
+*Ultimo aggiornamento: 2025-01-27*
+# Esempio Implementazione TableLayoutEnum
+
+## Data: 2025-01-27
 - [Translation Standards](../../../../docs/translation_standards.md)
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
 - [Enum Translation Pattern](../../../../docs/enum-translation-pattern.md)
@@ -822,7 +827,7 @@ TextColumn::make('name')
 
 - [Analisi TableLayoutEnum](table_layout_enum_analysis.md)
 - [Usage Guide](table-layout-enum-usage.md)
+*Ultimo aggiornamento: 2025-01-27*
 - [Translation Standards](../../../../docs/translation_standards.md)
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
 - [Enum Translation Pattern](../../../../docs/enum-translation-pattern.md)
-

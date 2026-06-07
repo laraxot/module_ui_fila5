@@ -1,6 +1,7 @@
 # Correzione Errori PHPStan - RadioBadge.php
 
 ## Data Aggiornamento
+2025-01-27
 [DATE]
 
 ## File Modificato
@@ -147,6 +148,7 @@ class RadioBadge extends Radio
 # Correzione Errori PHPStan - RadioBadge.php
 
 ## Data Aggiornamento
+2025-01-27
 [DATE]
 
 ## File Modificato

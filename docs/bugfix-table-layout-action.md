@@ -140,15 +140,15 @@ php -l Modules/UI/app/Filament/Actions/Table/TableLayoutToggleTableAction.php
 php artisan tinker --execute="TableLayoutToggleTableAction::make('test');"
 
 # Testare l'URL che causava l'errore
-<<<<<<< .merge_file_XEXyRb
-curl -I http://127.0.0.1:8001/healthcare_app/admin/gaia/survey-pdfs
-=======
-curl -I http://127.0.0.1:8001/ptvx/admin/gaia/survey-pdfs
->>>>>>> .merge_file_iwpjs6
+curl -I http://127.0.0.1:8001/<nome progetto>/admin/gaia/survey-pdfs
+curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
 ```
 
 ### Risultati Test
 
+✅ **Sintassi PHP**: Nessun errore di sintassi
+✅ **Istanziazione**: Classe istanziabile correttamente
+✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)
 ✅ **Sintassi PHP**: Nessun errore di sintassi  
 ✅ **Istanziazione**: Classe istanziabile correttamente  
 ✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)  
@@ -169,6 +169,13 @@ curl -I http://127.0.0.1:8001/ptvx/admin/gaia/survey-pdfs
 - Supporta il metodo statico `make()` per l'istanziazione
 - Compatibile con il sistema di layout delle tabelle Filament
 
+## Aggiornamento PHPStan
+
+- **Problema**: l'azione `TableLayoutToggleHeaderAction` accedeva a `$livewire->layoutView` senza un tipo esplicito, causando l'errore `property.notFound` a livello PHPStan 10.
+- **Soluzione**: aggiunto un PHPDoc shape `object{layoutView?: string|null}` sopra le closure `->icon()` e `->action()` e sostituito `property_exists()` con `isset()` per rispettare la regola globale anti magic properties.
+- **Risultato**: eliminato l'errore statico garantendo type safety sulle azioni di header e allineamento con la regola “fix, don’t ignore”.
+- **Verifica**: `php -d memory_limit=4G ./vendor/bin/phpstan analyse Modules/UI --memory-limit=4G --no-progress`
+
 ## Riferimenti
 
 - [Interfaccia HasTableLayout](./HasTableLayout.php)
@@ -177,6 +184,11 @@ curl -I http://127.0.0.1:8001/ptvx/admin/gaia/survey-pdfs
 
 ---
 
+**Data**: 27 Gennaio 2025
+**Modulo**: UI
+**Tipo**: Bug Fix
+**Priorità**: Alta
+**Data**: 27 Gennaio 2025  
 **Modulo**: UI  
 **Tipo**: Bug Fix  
 **Priorità**: Alta  

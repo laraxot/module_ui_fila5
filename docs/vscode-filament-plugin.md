@@ -196,6 +196,7 @@ TextInput::make('full_name')
 ## Collegamenti
 - [Form Components](form-components.md)
 - [Naming Conventions](naming-conventions.md)
+- [Translation System](../../Lang/docs/translation-system.md)
 - [Translation System](../../lang/docs/translation-system.md)
 
 ## Vedi Anche
@@ -400,6 +401,9 @@ TextInput::make('full_name')
 ## Collegamenti
 - [Form Components](form-components.md)
 - [Naming Conventions](naming-conventions.md)
+- [Translation System](../../Lang/project_docs/translation-system.md)
+- [Translation System](../../Lang/project_docs/translation-system.md)
+- [Translation System](../../Lang/project_docs/translation-system.md)
 - [Translation System](../../lang/project_docs/translation-system.md)
 - [Translation System](../../lang/project_docs/translation-system.md)
 - [Translation System](../../lang/project_docs/translation-system.md)

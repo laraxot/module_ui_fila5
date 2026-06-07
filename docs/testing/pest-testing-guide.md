@@ -329,6 +329,7 @@ Based on existing UI module tests:
 ## 🔗 Related Documentation
 
 ### **Module Documentation**
+- [UI Module README](../README.md)
 - [UI Module README](../readme.md)
 - [Component Architecture](../components.md)
 - [Theme System](../themes.md)
@@ -342,6 +343,14 @@ Based on existing UI module tests:
 - [Employee Testing Guide](../../employee/docs/testing/pest-testing-guide.md)
 - [CMS Testing Best Practices](../../cms/docs/tests/pestphp-best-practices.md)
 - [Employee Testing Guide](../../employee/docs/testing/pest-testing-guide.md)
+- [CMS Testing Best Practices](../../Cms/project_docs/tests/pestphp-best-practices.md)
+- [Employee Testing Guide](../../Employee/project_docs/testing/pest-testing-guide.md)
+- [CMS Testing Best Practices](../../Cms/docs/tests/pestphp-best-practices.md)
+- [Employee Testing Guide](../../Employee/docs/testing/pest-testing-guide.md)
+- [CMS Testing Best Practices](../../Cms/docs/tests/pestphp-best-practices.md)
+- [Employee Testing Guide](../../Employee/docs/testing/pest-testing-guide.md)
+- [CMS Testing Best Practices](../../Cms/docs/tests/pestphp-best-practices.md)
+- [Employee Testing Guide](../../Employee/docs/testing/pest-testing-guide.md)
 
 ### **Implementation Files**
 - [UIBusinessLogicTest.php](../../tests/Feature/UIBusinessLogicTest.php)
@@ -349,6 +358,7 @@ Based on existing UI module tests:
 - [CategoryTabsComponentTest.php](../../tests/Feature/CategoryTabsComponentTest.php)
 
 ---
+**Last Updated**: September 2025
 
 **Status**: ✅ PRODUCTION READY
 **Coverage**: UI Components + Business Logic + Service Integration

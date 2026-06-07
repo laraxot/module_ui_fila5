@@ -129,6 +129,9 @@ Components should never rely on variables that haven't been explicitly defined a
 
 ## Related Documentation
 
+- [Block Components Overview](./blocks/README.md)
+- [Component Architecture](./components/README.md)
+- [Section Architecture](./sections/README.md)
 - [Block Components Overview](./blocks/readme.md)
 - [Component Architecture](./components/readme.md)
 - [Section Architecture](./sections/readme.md)
@@ -268,6 +271,9 @@ Components should never rely on variables that haven't been explicitly defined a
 
 ## Related Documentation
 
+- [Block Components Overview](./blocks/README.md)
+- [Component Architecture](./components/README.md)
+- [Section Architecture](./sections/README.md)
 - [Block Components Overview](./blocks/readme.md)
 - [Component Architecture](./components/readme.md)
 - [Section Architecture](./sections/readme.md)
