@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 test('ui components can be rendered', function () {
     $component = new class extends Component {
         public function render()

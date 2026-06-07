@@ -101,7 +101,6 @@ it('group widget can group related content', function (): void {
     // Act & Assert
     expect($widget)->not()->toBeNull();
     expect($widget)->toBeInstanceOf(GroupWidget::class);
-
 });
 
 it('redirect widget can handle redirects', function (): void {
@@ -111,7 +110,6 @@ it('redirect widget can handle redirects', function (): void {
     // Act & Assert
     expect($widget)->not()->toBeNull();
     expect($widget)->toBeInstanceOf(RedirectWidget::class);
-
 });
 
 it('user calendar widget can display calendar', function (): void {
@@ -128,7 +126,6 @@ it('user calendar widget can display calendar', function (): void {
 it('widgets can be configured with custom data', function (): void {
     // Arrange
     $widget = new StatWithIconWidget();
-
 });
 
 it('widgets can handle empty data gracefully', function (): void {
