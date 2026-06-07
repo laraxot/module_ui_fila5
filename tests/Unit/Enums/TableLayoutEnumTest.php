@@ -2,7 +2,6 @@
 
 declare(strict_types=1);
 
-
 use Filament\Tables\Columns\Layout\Stack;
 use Filament\Tables\Columns\TextColumn;
 use Modules\UI\Enums\TableLayoutEnum;
