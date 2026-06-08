@@ -1,3 +1,11 @@
+---
+title: "UI Module Documentation"
+type: documentation
+tags: [module, documentation]
+created: 2026-06-05
+updated: 2026-06-05
+---
+
 # Modulo UI - Componenti Condivisi
 
 ## Overview
