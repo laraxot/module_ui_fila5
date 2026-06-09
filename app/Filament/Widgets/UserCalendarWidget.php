@@ -9,9 +9,9 @@ use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Grid;
 use Illuminate\Support\Str;
 use Modules\Xot\Datas\XotData;
-use Modules\Xot\Filament\Widgets\XotBaseWidget;
+use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
-class UserCalendarWidget extends XotBaseWidget
+class UserCalendarWidget extends XotBaseSchemaWidget
 {
     public string $type;
 
