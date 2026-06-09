@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Widgets;
 
 use Illuminate\Contracts\Support\Htmlable;
-use Modules\Xot\Filament\Widgets\XotBaseWidget;
+use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
-final class StatWithIconWidget extends XotBaseWidget
+final class StatWithIconWidget extends XotBaseSchemaWidget
 {
     protected ?string $heading = 'Stat With Icon';
 
