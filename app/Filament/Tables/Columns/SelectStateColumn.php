@@ -99,7 +99,8 @@ class SelectStateColumn extends SelectColumn
     }
 
     /**
-     * @param  array<int|string, mixed>  $states
+     * @param array<int|string, mixed> $states
+     *
      * @return array<int|string, string>
      */
     private function combineStateOptions(array $states): array

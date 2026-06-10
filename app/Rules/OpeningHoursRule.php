@@ -62,7 +62,7 @@ class OpeningHoursRule implements ValidationRule
      * Valida la coerenza tra le sessioni dello stesso giorno.
      */
     /**
-     * @param  array<string, mixed>  $dayHours
+     * @param array<string, mixed> $dayHours
      */
     private function validateDayLogic(array $dayHours, string $dayLabel, \Closure $fail): void
     {
@@ -81,7 +81,7 @@ class OpeningHoursRule implements ValidationRule
      * Valida una sessione specifica (mattina o pomeriggio).
      */
     /**
-     * @param  array<string, mixed>  $dayHours
+     * @param array<string, mixed> $dayHours
      */
     private function validateSession(array $dayHours, string $session, string $dayLabel, \Closure $fail): void
     {
