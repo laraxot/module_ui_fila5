@@ -29,6 +29,10 @@ return [
         'confirm_password' => 'Conferma Password',
         'save' => 'Salva',
         'update' => 'Aggiorna',
+        'services' => 'I miei servizi',
+        'practices' => 'Le mie pratiche',
+        'notifications' => 'Notifiche',
+        'logout' => 'Esci',
     ],
     'user_dropdown' => [
         'manage_account' => 'Gestione Account',
@@ -37,13 +41,6 @@ return [
         'logout' => 'Logout',
         'login_link' => 'Accedi',
         'register_link' => 'Registrati',
-    ],
-    'profile' => [
-        'services' => 'I miei servizi',
-        'practices' => 'Le mie pratiche',
-        'notifications' => 'Notifiche',
-        'settings' => 'Impostazioni',
-        'logout' => 'Esci',
     ],
     'logout' => [
         'title' => 'Logout',
