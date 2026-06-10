@@ -18,10 +18,12 @@ use Webmozart\Assert\Assert;
  */
 final class InteractiveMap extends Component
 {
+    /** @var array{0: float, 1: float} */
     public array $center = [45.4642, 9.1900]; // Milano
 
     public int $zoom = 10;
 
+    /** @var array<int, array<string, mixed>> */
     public array $markers = [];
 
     /** @var array<string, mixed> */
@@ -36,8 +38,10 @@ final class InteractiveMap extends Component
         'location_types' => [],
     ];
 
+    /** @var array<string, mixed>|null */
     public ?array $selectedMarker = null;
 
+    /** @var array<string, mixed> */
     public array $stats = [];
 
     public bool $showControls = true;
@@ -59,8 +63,8 @@ final class InteractiveMap extends Component
     ];
 
     /**
-     * @param array<string, mixed> $filters
-     * @param array<string, mixed> $filters
+     * @param  array{0: float, 1: float}|null  $center
+     * @param  array<string, mixed>  $filters
      */
     public function mount(?array $center = null, ?int $zoom = null, array $filters = []): void
     {
@@ -114,6 +118,9 @@ final class InteractiveMap extends Component
 
     /**
      * Aggiorna i bounds della mappa.
+     */
+    /**
+     * @param  array<string, float>  $bounds
      */
     public function updateBounds(array $bounds): void
     {
@@ -209,6 +216,8 @@ final class InteractiveMap extends Component
 
     /**
      * Ottiene suggerimenti per la ricerca.
+     *
+     * @return array<int, array<string, mixed>>
      */
     public function getSuggestions(): array
     {
@@ -316,13 +325,18 @@ final class InteractiveMap extends Component
 
     /**
      * Ottiene le proprietà computate.
+     *
+     * @return array<string, int>
      */
     public function getMarkersByTypeProperty(): array
     {
-        return collect($this->markers)
+        /** @var array<string, int> $grouped */
+        $grouped = collect($this->markers)
             ->groupBy('type')
             ->map(static fn ($markers) => $markers->count())
-            ->toArray();
+            ->all();
+
+        return $grouped;
     }
 
     public function getVisibleMarkersCountProperty(): int
