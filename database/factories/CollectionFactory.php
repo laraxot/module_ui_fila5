@@ -7,6 +7,9 @@ namespace Modules\UI\Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\UI\Models\Collection;
 
+/**
+ * @extends Factory<Collection>
+ */
 class CollectionFactory extends Factory
 {
     /**
