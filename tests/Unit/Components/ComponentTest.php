@@ -4,37 +4,42 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit\Components;
 
-uses(TestCase::class);
-
 use Illuminate\View\Component;
 use Modules\UI\Tests\TestCase;
+use PHPUnit\Framework\Assert;
 
-test('ui components can be rendered', function () {
+uses(TestCase::class);
+
+test('ui components can be rendered', function (): void {
     $component = new class extends Component {
-        public function render()
+        public function render(): \Illuminate\Contracts\View\View
         {
             return view('ui::components.ui.button');
         }
     };
 
-    expect($component)->toBeInstanceOf(Component::class);
+    Assert::assertInstanceOf(Component::class, $component);
 });
 
-test('ui button component has correct attributes', function () {
+test('ui button component has correct attributes', function (): void {
     $view = view('ui::components.ui.button', [
         'type' => 'primary',
         'size' => 'md',
         'disabled' => false,
     ]);
 
-    expect($view->render())->toContain('btn')->toContain('btn-primary');
+    $html = (string) $view->render();
+    Assert::assertStringContainsString('btn', $html);
+    Assert::assertStringContainsString('btn-primary', $html);
 });
 
-test('ui card component renders content', function () {
+test('ui card component renders content', function (): void {
     $view = view('ui::components.ui.card', [
         'title' => 'Test Card',
         'content' => 'Test Content',
     ]);
 
-    expect($view->render())->toContain('Test Card')->toContain('Test Content');
+    $html = (string) $view->render();
+    Assert::assertStringContainsString('Test Card', $html);
+    Assert::assertStringContainsString('Test Content', $html);
 });
