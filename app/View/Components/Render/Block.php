@@ -19,6 +19,9 @@ class Block extends Component
 {
     public ?string $view = null;
 
+    /**
+     * @param  array<string, mixed>  $block
+     */
     public function __construct(
         public array $block,
         public ?Model $model = null,
