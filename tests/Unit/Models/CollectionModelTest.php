@@ -18,7 +18,8 @@ describe('Collection Model', function (): void {
             'type' => 'block',
         ]);
 
-        Assert::assertSame('block', $collection->type); Assert::assertSame('Hero Components', $collection->name);
+        Assert::assertSame('block', $collection->type);
+        Assert::assertSame('Hero Components', $collection->name);
     });
 
     test('it has fillable attributes', function (): void {

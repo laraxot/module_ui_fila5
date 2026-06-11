@@ -63,8 +63,8 @@ final class InteractiveMap extends Component
     ];
 
     /**
-     * @param  array{0: float, 1: float}|null  $center
-     * @param  array<string, mixed>  $filters
+     * @param array{0: float, 1: float}|null $center
+     * @param array<string, mixed>           $filters
      */
     public function mount(?array $center = null, ?int $zoom = null, array $filters = []): void
     {
@@ -120,7 +120,7 @@ final class InteractiveMap extends Component
      * Aggiorna i bounds della mappa.
      */
     /**
-     * @param  array<string, float>  $bounds
+     * @param array<string, float> $bounds
      */
     public function updateBounds(array $bounds): void
     {

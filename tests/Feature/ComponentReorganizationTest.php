@@ -8,7 +8,6 @@ use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\View;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
-use Throwable;
 
 uses(TestCase::class);
 
@@ -172,7 +171,7 @@ describe('Component Integration Tests', function (): void {
 
         try {
             Blade::render($testView);
-        } catch (Throwable $e) {
+        } catch (\Throwable $e) {
             Assert::markTestSkipped('Blade component integration not renderable in this install: '.$e->getMessage());
         }
     });
