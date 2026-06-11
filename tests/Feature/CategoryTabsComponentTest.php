@@ -7,7 +7,6 @@ namespace Modules\UI\Tests\Feature;
 use Illuminate\Support\Facades\View;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
-use Throwable;
 
 uses(TestCase::class);
 
@@ -22,7 +21,7 @@ function renderCategoryTabsHtml(array $data = []): ?string
 
     try {
         return View::make('pub_theme::components.blocks.navigation.category-tabs', $data)->render();
-    } catch (Throwable) {
+    } catch (\Throwable) {
         return null;
     }
 }
@@ -33,7 +32,7 @@ function renderCategoryTabsHtml(array $data = []): ?string
 function requireCategoryTabsHtml(array $data = []): string
 {
     $html = renderCategoryTabsHtml($data);
-    if ($html === null) {
+    if (null === $html) {
         Assert::markTestSkipped('pub_theme category-tabs view not available in this install.');
     }
 
@@ -47,7 +46,7 @@ beforeEach(function (): void {
 });
 
 it('category tabs component renders without errors', function (): void {
-    $html = requireCategoryTabsHtml( [
+    $html = requireCategoryTabsHtml([
         'base_url' => '/markets',
         'show_counts' => true,
         'mobile_scrollable' => true,
@@ -59,7 +58,7 @@ it('category tabs component renders without errors', function (): void {
 });
 
 it('category tabs shows all expected categories', function (): void {
-    $html = requireCategoryTabsHtml( [
+    $html = requireCategoryTabsHtml([
         'base_url' => '/markets',
         'show_counts' => true,
     ]);
@@ -70,7 +69,7 @@ it('category tabs shows all expected categories', function (): void {
 });
 
 it('category tabs shows counts when enabled', function (): void {
-    $html = requireCategoryTabsHtml( ['show_counts' => true]);
+    $html = requireCategoryTabsHtml(['show_counts' => true]);
 
     foreach (['250', '45', '67', '34', '28', '23', '19'] as $count) {
         Assert::assertStringContainsString($count, $html);
@@ -78,7 +77,7 @@ it('category tabs shows counts when enabled', function (): void {
 });
 
 it('category tabs hides counts when disabled', function (): void {
-    $html = requireCategoryTabsHtml( ['show_counts' => false]);
+    $html = requireCategoryTabsHtml(['show_counts' => false]);
 
     Assert::assertStringNotContainsString(
         '<span class="ml-1 px-2 py-1 text-xs bg-blue-100 text-blue-700 rounded-full">45</span>',
@@ -91,7 +90,7 @@ it('category tabs hides counts when disabled', function (): void {
 });
 
 it('category tabs has mobile scrollable styling', function (): void {
-    $html = requireCategoryTabsHtml( ['mobile_scrollable' => true]);
+    $html = requireCategoryTabsHtml(['mobile_scrollable' => true]);
 
     Assert::assertStringContainsString('overflow-x-auto', $html);
     Assert::assertStringContainsString('scrollbar-hide', $html);
@@ -105,7 +104,7 @@ it('category tabs has proper responsive classes', function (): void {
 });
 
 it('category tabs generates correct urls', function (): void {
-    $html = requireCategoryTabsHtml( ['base_url' => '/markets']);
+    $html = requireCategoryTabsHtml(['base_url' => '/markets']);
 
     Assert::assertStringContainsString('href="/markets"', $html);
     foreach (['politics', 'sports', 'economics', 'technology', 'entertainment', 'crypto'] as $category) {
@@ -114,7 +113,7 @@ it('category tabs generates correct urls', function (): void {
 });
 
 it('category tabs highlights active category', function (): void {
-    $html = requireCategoryTabsHtml( ['active_category' => 'politics']);
+    $html = requireCategoryTabsHtml(['active_category' => 'politics']);
 
     Assert::assertStringContainsString('bg-blue-600 text-white', $html);
 });

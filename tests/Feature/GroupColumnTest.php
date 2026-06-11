@@ -4,12 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Feature;
 
-use ReflectionClass;
 use Filament\Tables\Columns\TextColumn;
 use Illuminate\View\ComponentAttributeBag;
 use Modules\UI\Filament\Tables\Columns\GroupColumn;
-
 use PHPUnit\Framework\Assert;
+
 // Test GroupColumn class
 describe('GroupColumn class', function (): void {
     it('can be instantiated with make()', function (): void {
@@ -53,7 +52,7 @@ describe('GroupColumn class', function (): void {
 
     it('uses correct view path', function (): void {
         $column = GroupColumn::make('test');
-        $reflection = new ReflectionClass($column);
+        $reflection = new \ReflectionClass($column);
         $property = $reflection->getProperty('view');
 
         Assert::assertSame('ui::filament.tables.columns.group', $property->getValue($column));
@@ -133,6 +132,7 @@ describe('GroupColumn view rendering', function (): void {
 
         if (! app()->bound('view')) {
             Assert::assertSame('Mario Rossi', data_get($record, 'valutatore.nome_diri'));
+
             return;
         }
 
@@ -144,7 +144,7 @@ describe('GroupColumn view rendering', function (): void {
             'isInline' => fn () => false,
         ])->render();
 
-        Assert::assertStringContainsString((string)'Mario Rossi', (string)$html);
+        Assert::assertStringContainsString((string) 'Mario Rossi', (string) $html);
     });
 
     it('renders multiple fields in view', function (): void {
@@ -164,6 +164,7 @@ describe('GroupColumn view rendering', function (): void {
             Assert::assertSame('12345', data_get($record, 'matr'));
             Assert::assertSame('Rossi', data_get($record, 'cognome'));
             Assert::assertSame('Mario', data_get($record, 'nome'));
+
             return;
         }
 
@@ -175,9 +176,9 @@ describe('GroupColumn view rendering', function (): void {
             'isInline' => fn () => false,
         ])->render();
 
-        Assert::assertStringContainsString((string)'12345', (string)$html);
-        Assert::assertStringContainsString((string)'Rossi', (string)$html);
-        Assert::assertStringContainsString((string)'Mario', (string)$html);
+        Assert::assertStringContainsString((string) '12345', (string) $html);
+        Assert::assertStringContainsString((string) 'Rossi', (string) $html);
+        Assert::assertStringContainsString((string) 'Mario', (string) $html);
     });
 
     it('skips empty values but keeps zeros', function (): void {
@@ -191,7 +192,7 @@ describe('GroupColumn view rendering', function (): void {
 
         // The view logic: skip if empty($value) && $value !== 0 && $value !== '0'
         $shouldSkip = static function (mixed $value): bool {
-            return empty($value) && $value !== 0 && $value !== '0';
+            return empty($value) && 0 !== $value && '0' !== $value;
         };
 
         Assert::assertTrue($shouldSkip($record->empty_field));
