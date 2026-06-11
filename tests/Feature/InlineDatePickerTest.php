@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\App;
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
-use ReflectionClass;
+
 use function Safe\file_get_contents;
 
 uses(TestCase::class);
@@ -61,7 +61,7 @@ test('it generates calendar data and marks enabled dates', function (): void {
                 continue;
             }
             $dateValue = $day['datetime'] ?? $day['dateString'] ?? null;
-            if ($dateValue === '2025-06-15') {
+            if ('2025-06-15' === $dateValue) {
                 $found = true;
                 Assert::assertTrue((bool) ($day['isEnabled'] ?? false));
             }
@@ -178,7 +178,7 @@ test('it is kiss simple and clear', function (): void {
  */
 function invokeInlineDatePickerMethod(object $object, string $methodName, array $parameters = []): mixed
 {
-    $reflection = new ReflectionClass($object);
+    $reflection = new \ReflectionClass($object);
     $method = $reflection->getMethod($methodName);
     $method->setAccessible(true);
 
