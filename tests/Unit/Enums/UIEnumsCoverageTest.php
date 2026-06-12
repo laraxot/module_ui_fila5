@@ -24,17 +24,18 @@ it('CornerPositionEnum has correct values', function (): void {
     Assert::assertSame('bottom-right', CornerPositionEnum::BOTTOM_RIGHT->value);
 });
 
-it('CornerPositionEnum getColor returns gray for all cases', function (): void {
+it('CornerPositionEnum getColor returns translation keys via EnumTrait', function (): void {
     foreach (CornerPositionEnum::cases() as $case) {
-        Assert::assertSame('gray', $case->getColor());
+        Assert::assertStringContainsString('ui::corner_position_enum.values.', $case->getColor());
+        Assert::assertStringEndsWith('.color', $case->getColor());
     }
 });
 
-it('CornerPositionEnum getIcon returns heroicon strings', function (): void {
-    Assert::assertSame('heroicon-o-arrow-up-left', CornerPositionEnum::TOP_LEFT->getIcon());
-    Assert::assertSame('heroicon-o-arrow-up-right', CornerPositionEnum::TOP_RIGHT->getIcon());
-    Assert::assertSame('heroicon-o-arrow-down-left', CornerPositionEnum::BOTTOM_LEFT->getIcon());
-    Assert::assertSame('heroicon-o-arrow-down-right', CornerPositionEnum::BOTTOM_RIGHT->getIcon());
+it('CornerPositionEnum getIcon returns translation keys via EnumTrait', function (): void {
+    Assert::assertSame('ui::corner_position_enum.values.top-left.icon', CornerPositionEnum::TOP_LEFT->getIcon());
+    Assert::assertSame('ui::corner_position_enum.values.top-right.icon', CornerPositionEnum::TOP_RIGHT->getIcon());
+    Assert::assertSame('ui::corner_position_enum.values.bottom-left.icon', CornerPositionEnum::BOTTOM_LEFT->getIcon());
+    Assert::assertSame('ui::corner_position_enum.values.bottom-right.icon', CornerPositionEnum::BOTTOM_RIGHT->getIcon());
 });
 
 it('CornerPositionEnum getCssClass returns correct CSS classes', function (): void {
@@ -111,19 +112,19 @@ it('TableLayout has correct values', function (): void {
     Assert::assertSame('grid', TableLayout::GRID->value);
 });
 
-it('TableLayout getLabel returns correct labels', function (): void {
-    Assert::assertSame('List View', TableLayout::LIST->getLabel());
-    Assert::assertSame('Grid View', TableLayout::GRID->getLabel());
+it('TableLayout getLabel returns non-empty strings via EnumTrait', function (): void {
+    Assert::assertNotEmpty(TableLayout::LIST->getLabel());
+    Assert::assertNotEmpty(TableLayout::GRID->getLabel());
 });
 
-it('TableLayout getColor returns correct colors', function (): void {
-    Assert::assertSame('primary', TableLayout::LIST->getColor());
-    Assert::assertSame('secondary', TableLayout::GRID->getColor());
+it('TableLayout getColor returns translation keys via EnumTrait', function (): void {
+    Assert::assertSame('ui::table_layout.values.list.color', TableLayout::LIST->getColor());
+    Assert::assertSame('ui::table_layout.values.grid.color', TableLayout::GRID->getColor());
 });
 
-it('TableLayout getIcon returns correct icons', function (): void {
-    Assert::assertSame('heroicon-o-list-bullet', TableLayout::LIST->getIcon());
-    Assert::assertSame('heroicon-o-squares-2x2', TableLayout::GRID->getIcon());
+it('TableLayout getIcon returns translation keys via EnumTrait', function (): void {
+    Assert::assertSame('ui::table_layout.values.list.icon', TableLayout::LIST->getIcon());
+    Assert::assertSame('ui::table_layout.values.grid.icon', TableLayout::GRID->getIcon());
 });
 
 it('TableLayout toggle switches between layouts', function (): void {

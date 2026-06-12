@@ -11,13 +11,19 @@ use PHPUnit\Framework\Assert;
 uses(TestCase::class);
 
 beforeEach(function () {
-    // Ensure we're using the correct theme
+    if (! View::exists('pub_theme::components.blocks.hero.kalshi-inspired')) {
+        Assert::markTestSkipped('pub_theme kalshi hero view is not available in this install.');
+    }
+
     if (function_exists('config')) {
         config(['app.locale' => 'en']);
     }
 });
 
 test('kalshi inspired hero component renders without errors', function () {
+    if (! View::exists('pub_theme::components.blocks.hero.kalshi-inspired')) {
+        Assert::markTestSkipped('pub_theme kalshi hero view is not available in this install.');
+    }
     $componentData = [
         'title' => 'Test <nome progetto>ion Platform',
         'subtitle' => 'Trade on real events with confidence',

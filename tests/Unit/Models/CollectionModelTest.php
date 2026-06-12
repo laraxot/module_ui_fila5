@@ -16,6 +16,7 @@ describe('Collection Model', function (): void {
         $collection = CollectionFactory::new()->createOne([
             'name' => 'Hero Components',
             'type' => 'block',
+            'theme_id' => 1,
         ]);
 
         Assert::assertSame('block', $collection->type);

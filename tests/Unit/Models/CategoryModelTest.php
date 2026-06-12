@@ -14,11 +14,12 @@ uses(TestCase::class);
 describe('Category Model', function (): void {
     test('it can create a category with valid data', function (): void {
         $category = CategoryFactory::new()->createOne([
-            'name' => 'Test Category',
+            'title' => 'Test Category',
+            'slug' => 'test-category',
             'is_active' => 1,
         ]);
 
-        Assert::assertSame('Test Category', $category->name);
+        Assert::assertSame('Test Category', $category->title);
         Assert::assertSame(1, $category->is_active);
     });
 

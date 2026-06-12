@@ -6,21 +6,25 @@ namespace Modules\UI\Tests;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
+use Illuminate\Support\Facades\DB;
+use Modules\Fixcity\Models\User;
 use Modules\UI\Providers\UIServiceProvider;
+use Modules\UI\Tests\Support\EnsuresUiDatabaseSchema;
 use Modules\User\Providers\UserServiceProvider;
 use Modules\Xot\Tests\XotBaseTestCase;
 
 /**
  * Base test case for UI module.
  *
- * Uses MySQL from .env.testing.
- * All module connections are mapped by TenantServiceProvider.
- * Migrations must be run ONCE externally: php artisan migrate --env=testing
- * DatabaseTransactions handles rollback between tests.
+ * Uses shared sqlite from fixcity_data.sqlite (no RefreshDatabase).
  */
 abstract class TestCase extends XotBaseTestCase
 {
     use DatabaseTransactions;
+    use EnsuresUiDatabaseSchema;
+
+    /** @var list<string> */
+    protected $connectionsToTransact = ['xot', 'sqlite', 'user'];
 
     /**
      * @return array<int, class-string>
@@ -32,5 +36,28 @@ abstract class TestCase extends XotBaseTestCase
             UserServiceProvider::class,
             UIServiceProvider::class,
         ];
+    }
+
+    protected function setUp(): void
+    {
+        parent::setUp();
+
+        $database = database_path('fixcity_data.sqlite');
+
+        /** @var array<string, array<string, mixed>> $connections */
+        $connections = config('database.connections', []);
+
+        foreach (array_keys($connections) as $connection) {
+            if (config("database.connections.{$connection}.driver") !== 'sqlite') {
+                continue;
+            }
+
+            $this->app['config']->set("database.connections.{$connection}.database", $database);
+            DB::purge($connection);
+        }
+
+        config(['auth.providers.users.model' => User::class]);
+
+        $this->ensureUiSchema();
     }
 }

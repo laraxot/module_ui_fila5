@@ -101,19 +101,29 @@ it('consistent dark mode color scheme', function (): void {
 });
 
 it('dark mode javascript initialization', function (): void {
-    readHeroContentOrSkip();
+    $content = readHeroContentOrSkip();
+
+    Assert::assertTrue(
+        str_contains($content, 'dark:')
+        || str_contains($content, 'darkMode')
+        || str_contains($content, 'classList')
+    );
 });
 
 it('proper contrast ratios in dark mode', function (): void {
     $content = readHeroContentOrSkip();
 
-    if (str_contains($content, 'dark:bg-slate-900')) {
-        Assert::assertTrue(
-            str_contains($content, 'text-white')
-            || str_contains($content, 'text-slate-100')
-            || str_contains($content, 'dark:text-white')
-        );
+    if (! str_contains($content, 'dark:bg-slate-900')) {
+        Assert::assertStringContainsString('dark:', $content);
+
+        return;
     }
+
+    Assert::assertTrue(
+        str_contains($content, 'text-white')
+        || str_contains($content, 'text-slate-100')
+        || str_contains($content, 'dark:text-white')
+    );
 });
 
 it('gradient backgrounds work in dark mode', function (): void {
