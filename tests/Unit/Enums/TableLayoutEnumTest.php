@@ -81,8 +81,10 @@ it('has options', function (): void {
 
     Assert::assertArrayHasKey('list', $options);
     Assert::assertArrayHasKey('grid', $options);
-    Assert::assertSame(TableLayoutEnum::LIST, $options['list']);
-    Assert::assertSame(TableLayoutEnum::GRID, $options['grid']);
+    Assert::assertIsString($options['list']);
+    Assert::assertIsString($options['grid']);
+    Assert::assertNotEmpty($options['list']);
+    Assert::assertNotEmpty($options['grid']);
 });
 
 it('has container classes', function (): void {

@@ -40,5 +40,8 @@ class Collection extends BaseModel
         'name',
         'description',
         'type',
+        'theme_id',
+        'is_active',
+        'order',
     ];
 }

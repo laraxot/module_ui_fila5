@@ -18,7 +18,7 @@ describe('UI Business Logic Integration', function (): void {
     describe('Category management', function (): void {
         it('can activate and deactivate categories', function (): void {
             $category = CategoryFactory::new()->createOne([
-                'name' => 'Toggle Category',
+                'title' => 'Toggle Category',
                 'is_active' => 0,
             ]);
 
@@ -28,9 +28,9 @@ describe('UI Business Logic Integration', function (): void {
         });
 
         it('supports parent-child hierarchy', function (): void {
-            $parent = CategoryFactory::new()->createOne(['name' => 'Parent']);
+            $parent = CategoryFactory::new()->createOne(['title' => 'Parent']);
             $child = CategoryFactory::new()->createOne([
-                'name' => 'Child',
+                'title' => 'Child',
                 'parent_id' => $parent->id,
             ]);
 
