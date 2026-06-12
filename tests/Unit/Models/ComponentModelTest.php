@@ -7,7 +7,6 @@ namespace Modules\UI\Tests\Unit\Models;
 use Modules\UI\Models\Component;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
-use ReflectionClass;
 
 use function Safe\file_get_contents;
 
@@ -21,15 +20,15 @@ final class ComponentModelTest extends TestCase
         }
     }
 
-    public function test_can_be_instantiated(): void
+    public function testCanBeInstantiated(): void
     {
         /** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
         $component = new Component();
-        /** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
+        /* @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
         Assert::assertInstanceOf(Component::class, $component);
     }
 
-    public function test_has_fillable_attributes(): void
+    public function testHasFillableAttributes(): void
     {
         /** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
         $component = new Component();
@@ -42,72 +41,72 @@ final class ComponentModelTest extends TestCase
         ];
 
         foreach ($expected as $field) {
-            /** @phpstan-ignore-next-line -- Component model is optional */
+            /* @phpstan-ignore-next-line -- Component model is optional */
             Assert::assertTrue(in_array($field, $component->getFillable()));
         }
     }
 
-    public function test_has_casts_defined(): void
+    public function testHasCastsDefined(): void
     {
         /** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
         $component = new Component();
         $casts = $component->getCasts(); // @phpstan-ignore-line
-        /** @phpstan-ignore-next-line -- $casts is mixed from ignored call */
+        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
         Assert::assertSame('boolean', $casts['is_active']);
-        /** @phpstan-ignore-next-line -- $casts is mixed from ignored call */
+        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
         Assert::assertSame('boolean', $casts['is_cacheable']);
-        /** @phpstan-ignore-next-line -- $casts is mixed from ignored call */
+        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
         Assert::assertSame('array', $casts['dependencies']);
-        /** @phpstan-ignore-next-line -- $casts is mixed from ignored call */
+        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
         Assert::assertSame('array', $casts['validation_rules']);
-        /** @phpstan-ignore-next-line -- $casts is mixed from ignored call */
+        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
         Assert::assertSame('array', $casts['data_schema']);
-        /** @phpstan-ignore-next-line -- $casts is mixed from ignored call */
+        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
         Assert::assertSame('array', $casts['responsive_breakpoints']);
-        /** @phpstan-ignore-next-line -- $casts is mixed from ignored call */
+        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
         Assert::assertSame('boolean', $casts['supports_lazy_loading']);
-        /** @phpstan-ignore-next-line -- $casts is mixed from ignored call */
+        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
         Assert::assertSame('integer', $casts['lazy_loading_threshold']);
-        /** @phpstan-ignore-next-line -- $casts is mixed from ignored call */
+        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
         Assert::assertSame('integer', $casts['cache_duration']);
     }
 
-    public function test_has_theme_relationship(): void
+    public function testHasThemeRelationship(): void
     {
         /** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
-        $reflection = new ReflectionClass(Component::class);
+        $reflection = new \ReflectionClass(Component::class);
         Assert::assertTrue($reflection->hasMethod('theme'));
     }
 
-    public function test_has_correct_table_name(): void
+    public function testHasCorrectTableName(): void
     {
         /** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
         $component = new Component();
-        /** @phpstan-ignore-next-line -- Component model is optional */
+        /* @phpstan-ignore-next-line -- Component model is optional */
         Assert::assertSame('components', $component->getTable());
     }
 
-    public function test_extends_base_model(): void
+    public function testExtendsBaseModel(): void
     {
         /** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
-        $reflection = new ReflectionClass(Component::class);
+        $reflection = new \ReflectionClass(Component::class);
         Assert::assertTrue($reflection->isSubclassOf('Modules\UI\Models\BaseModel'));
     }
 
-    public function test_uses_strict_types(): void
+    public function testUsesStrictTypes(): void
     {
         /** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
-        $reflection = new ReflectionClass(Component::class);
+        $reflection = new \ReflectionClass(Component::class);
         $fileName = $reflection->getFileName();
         Assert::assertNotFalse($fileName);
         $content = file_get_contents($fileName);
         Assert::assertStringContainsString('declare(strict_types=1);', $content);
     }
 
-    public function test_has_correct_namespace(): void
+    public function testHasCorrectNamespace(): void
     {
         /** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
-        $reflection = new ReflectionClass(Component::class);
+        $reflection = new \ReflectionClass(Component::class);
         Assert::assertSame('Modules\UI\Models', $reflection->getNamespaceName());
     }
 }
