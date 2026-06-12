@@ -104,7 +104,6 @@ class RadioCardSelector extends XotBaseField
             return [];
         }
 
-        /** @var array<int, array<string, mixed>> $cards */
         $cards = [];
 
         foreach ($result as $item) {
@@ -119,13 +118,12 @@ class RadioCardSelector extends XotBaseField
     }
 
     /**
-     * @param array<mixed> $item
+     * @param array<mixed, mixed> $item
      *
      * @return array<string, mixed>
      */
     private static function normalizeCardRow(array $item): array
     {
-        /** @var array<string, mixed> $card */
         $card = [];
 
         foreach ($item as $key => $value) {
