@@ -17,7 +17,7 @@ final class BaseCalendarWidgetTest extends TestCase
     {
         parent::setUp();
         $this->mock(SaveTransAction::class, function ($mock): void {
-            /** @phpstan-ignore-next-line */
+            /* @phpstan-ignore-next-line */
             $mock->shouldReceive('execute')->andReturnNull();
         });
     }
@@ -37,12 +37,12 @@ final class BaseCalendarWidgetTest extends TestCase
         return $widget;
     }
 
-    public function test_is_a_user_calendar_widget(): void
+    public function testIsAUserCalendarWidget(): void
     {
         Assert::assertInstanceOf(UserCalendarWidget::class, self::createTestCalendarWidget());
     }
 
-    public function test_returns_empty_events_if_action_class_does_not_exist(): void
+    public function testReturnsEmptyEventsIfActionClassDoesNotExist(): void
     {
         $widget = self::createTestCalendarWidget();
         $fetchInfo = [
@@ -55,7 +55,7 @@ final class BaseCalendarWidgetTest extends TestCase
         Assert::assertCount(0, $events);
     }
 
-    public function test_falls_back_to_a_minimal_schema_if_action_does_not_exist(): void
+    public function testFallsBackToAMinimalSchemaIfActionDoesNotExist(): void
     {
         $widget = self::createTestCalendarWidget();
         $formSchema = $widget->getFormSchema();
@@ -66,7 +66,7 @@ final class BaseCalendarWidgetTest extends TestCase
         Assert::assertSame('title', $formSchema[0]->getName());
     }
 
-    public function test_fallback_schema_contains_a_grid_for_datetime_pickers(): void
+    public function testFallbackSchemaContainsAGridForDatetimePickers(): void
     {
         $widget = self::createTestCalendarWidget();
         $formSchema = $widget->getFormSchema();

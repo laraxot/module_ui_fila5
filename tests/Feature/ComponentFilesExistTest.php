@@ -26,7 +26,7 @@ final class ComponentFilesExistTest extends TestCase
         return $themeBasePath;
     }
 
-    public function test_reorganized_component_files_exist_in_correct_locations(): void
+    public function testReorganizedComponentFilesExistInCorrectLocations(): void
     {
         $themeBasePath = self::requireSixteenComponentsBasePath();
 
@@ -81,11 +81,11 @@ final class ComponentFilesExistTest extends TestCase
         Assert::assertTrue(file_exists($themeBasePath.'/forms/input.blade.php'));
         Assert::assertTrue(file_exists($themeBasePath.'/utilities/button.blade.php'));
         Assert::assertTrue(file_exists($themeBasePath.'/data-display/card.blade.php'));
-        /** @phpstan-ignore-next-line */
+        /* @phpstan-ignore-next-line */
         Assert::assertTrue(true);
     }
 
-    public function test_no_old_component_files_remain_in_root_components_directory(): void
+    public function testNoOldComponentFilesRemainInRootComponentsDirectory(): void
     {
         $themeBasePath = self::requireSixteenComponentsBasePath();
 
@@ -103,11 +103,11 @@ final class ComponentFilesExistTest extends TestCase
             }
         }
 
-        /** @phpstan-ignore-next-line */
+        /* @phpstan-ignore-next-line */
         Assert::assertTrue(true);
     }
 
-    public function test_component_files_contain_proper_blade_syntax(): void
+    public function testComponentFilesContainProperBladeSyntax(): void
     {
         $themeBasePath = self::requireSixteenComponentsBasePath();
 
@@ -121,12 +121,12 @@ final class ComponentFilesExistTest extends TestCase
                 Assert::markTestSkipped('No recognizable Blade component markers in '.$relativePath);
             }
 
-            /** @phpstan-ignore-next-line */
+            /* @phpstan-ignore-next-line */
             Assert::assertTrue(true);
         }
     }
 
-    public function test_directory_structure_is_properly_organized(): void
+    public function testDirectoryStructureIsProperlyOrganized(): void
     {
         $themeBasePath = self::requireSixteenComponentsBasePath();
 
