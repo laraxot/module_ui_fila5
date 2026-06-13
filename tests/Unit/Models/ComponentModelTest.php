@@ -7,30 +7,27 @@ namespace Modules\UI\Tests\Unit\Models;
 use Modules\UI\Models\Component;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
-
 use function Safe\file_get_contents;
 
-final class ComponentModelTest extends TestCase
-{
-    protected function setUp(): void
-    {
-        parent::setUp();
-        if (! class_exists('Modules\UI\Models\Component')) {
+uses(\Modules\UI\Tests\TestCase::class);
+
+beforeEach(function (): void {
+    /** @var \Modules\UI\Tests\TestCase $this */
+if (! class_exists('Modules\UI\Models\Component')) {
             Assert::markTestSkipped('Component model is not part of the UI module artifact set.');
         }
-    }
+});
 
-    public function testCanBeInstantiated(): void
-    {
-        /** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
+describe('Component Model', function (): void {
+    test('can be instantiated', function (): void {
+/** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
         $component = new Component();
         /* @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
         Assert::assertInstanceOf(Component::class, $component);
-    }
+    });
 
-    public function testHasFillableAttributes(): void
-    {
-        /** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
+    test('has fillable attributes', function (): void {
+/** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
         $component = new Component();
         $expected = [
             'name', 'theme_id', 'is_active', 'version', 'dependencies',
@@ -44,11 +41,10 @@ final class ComponentModelTest extends TestCase
             /* @phpstan-ignore-next-line -- Component model is optional */
             Assert::assertTrue(in_array($field, $component->getFillable()));
         }
-    }
+    });
 
-    public function testHasCastsDefined(): void
-    {
-        /** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
+    test('has casts defined', function (): void {
+/** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
         $component = new Component();
         $casts = $component->getCasts(); // @phpstan-ignore-line
         /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
@@ -69,44 +65,39 @@ final class ComponentModelTest extends TestCase
         Assert::assertSame('integer', $casts['lazy_loading_threshold']);
         /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
         Assert::assertSame('integer', $casts['cache_duration']);
-    }
+    });
 
-    public function testHasThemeRelationship(): void
-    {
-        /** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
+    test('has theme relationship', function (): void {
+/** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
         $reflection = new \ReflectionClass(Component::class);
         Assert::assertTrue($reflection->hasMethod('theme'));
-    }
+    });
 
-    public function testHasCorrectTableName(): void
-    {
-        /** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
+    test('has correct table name', function (): void {
+/** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
         $component = new Component();
         /* @phpstan-ignore-next-line -- Component model is optional */
         Assert::assertSame('components', $component->getTable());
-    }
+    });
 
-    public function testExtendsBaseModel(): void
-    {
-        /** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
+    test('extends base model', function (): void {
+/** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
         $reflection = new \ReflectionClass(Component::class);
         Assert::assertTrue($reflection->isSubclassOf('Modules\UI\Models\BaseModel'));
-    }
+    });
 
-    public function testUsesStrictTypes(): void
-    {
-        /** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
+    test('uses strict types', function (): void {
+/** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
         $reflection = new \ReflectionClass(Component::class);
         $fileName = $reflection->getFileName();
         Assert::assertNotFalse($fileName);
         $content = file_get_contents($fileName);
         Assert::assertStringContainsString('declare(strict_types=1);', $content);
-    }
+    });
 
-    public function testHasCorrectNamespace(): void
-    {
-        /** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
+    test('has correct namespace', function (): void {
+/** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
         $reflection = new \ReflectionClass(Component::class);
         Assert::assertSame('Modules\UI\Models', $reflection->getNamespaceName());
-    }
-}
+    });
+});
