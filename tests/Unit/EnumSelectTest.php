@@ -8,7 +8,7 @@ use Modules\UI\Filament\Forms\Components\EnumSelect;
 use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\TestCase;
 
-uses(TestCase::class);
+uses(\Modules\UI\Tests\TestCase::class);
 
 it('generates options from enum class', function (): void {
     $select = EnumSelect::make('enum');

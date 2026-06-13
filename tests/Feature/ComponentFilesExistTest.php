@@ -6,29 +6,28 @@ namespace Modules\UI\Tests\Feature;
 
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
-
 use function Safe\file_get_contents;
 
-final class ComponentFilesExistTest extends TestCase
+uses(\Modules\UI\Tests\TestCase::class);
+
+function sixteenComponentsBasePath(): string
 {
-    private static function sixteenComponentsBasePath(): string
-    {
-        return base_path('Themes/Sixteen/resources/views/components');
+    return base_path('Themes/Sixteen/resources/views/components');
+}
+
+function requireSixteenComponentsBasePath(): string
+{
+    $themeBasePath = sixteenComponentsBasePath();
+    if (! is_dir($themeBasePath)) {
+        Assert::markTestSkipped('Theme Sixteen components directory not present in this install.');
     }
 
-    private static function requireSixteenComponentsBasePath(): string
-    {
-        $themeBasePath = self::sixteenComponentsBasePath();
-        if (! is_dir($themeBasePath)) {
-            Assert::markTestSkipped('Theme Sixteen components directory not present in this install.');
-        }
+    return $themeBasePath;
+}
 
-        return $themeBasePath;
-    }
-
-    public function testReorganizedComponentFilesExistInCorrectLocations(): void
-    {
-        $themeBasePath = self::requireSixteenComponentsBasePath();
+describe('Component Files Exist', function (): void {
+    test('reorganized component files exist in correct locations', function (): void {
+$themeBasePath = requireSixteenComponentsBasePath();
 
         $expected = [
             '/forms/input.blade.php',
@@ -81,13 +80,10 @@ final class ComponentFilesExistTest extends TestCase
         Assert::assertTrue(file_exists($themeBasePath.'/forms/input.blade.php'));
         Assert::assertTrue(file_exists($themeBasePath.'/utilities/button.blade.php'));
         Assert::assertTrue(file_exists($themeBasePath.'/data-display/card.blade.php'));
-        /* @phpstan-ignore-next-line */
-        Assert::assertTrue(true);
-    }
+    });
 
-    public function testNoOldComponentFilesRemainInRootComponentsDirectory(): void
-    {
-        $themeBasePath = self::requireSixteenComponentsBasePath();
+    test('no old component files remain in root components directory', function (): void {
+$themeBasePath = requireSixteenComponentsBasePath();
 
         $legacyFiles = [
             '/input.blade.php',
@@ -97,19 +93,20 @@ final class ComponentFilesExistTest extends TestCase
             '/dropdown.blade.php',
         ];
 
-        foreach ($legacyFiles as $relativePath) {
-            if (file_exists($themeBasePath.$relativePath)) {
-                Assert::markTestSkipped('Legacy root component still present: '.$relativePath);
-            }
+        $legacyPresent = array_values(array_filter(
+            $legacyFiles,
+            static fn (string $relativePath): bool => file_exists($themeBasePath.$relativePath),
+        ));
+
+        if ($legacyPresent !== []) {
+            Assert::markTestSkipped('Legacy root components still present: '.implode(', ', $legacyPresent));
         }
 
-        /* @phpstan-ignore-next-line */
-        Assert::assertTrue(true);
-    }
+        Assert::assertSame([], $legacyPresent);
+    });
 
-    public function testComponentFilesContainProperBladeSyntax(): void
-    {
-        $themeBasePath = self::requireSixteenComponentsBasePath();
+    test('component files contain proper blade syntax', function (): void {
+$themeBasePath = requireSixteenComponentsBasePath();
 
         foreach ([
             '/utilities/button.blade.php',
@@ -120,15 +117,12 @@ final class ComponentFilesExistTest extends TestCase
             if (! str_contains($content, '@props') && ! str_contains($content, '<x-') && ! str_contains($content, '@class')) {
                 Assert::markTestSkipped('No recognizable Blade component markers in '.$relativePath);
             }
-
-            /* @phpstan-ignore-next-line */
-            Assert::assertTrue(true);
+            Assert::assertTrue(str_contains($content, '@props') || str_contains($content, '<x-') || str_contains($content, '@class'), 'Component file contains valid Blade syntax');
         }
-    }
+    });
 
-    public function testDirectoryStructureIsProperlyOrganized(): void
-    {
-        $themeBasePath = self::requireSixteenComponentsBasePath();
+    test('directory structure is properly organized', function (): void {
+$themeBasePath = requireSixteenComponentsBasePath();
 
         Assert::assertTrue(is_dir($themeBasePath.'/forms'));
         Assert::assertTrue(is_dir($themeBasePath.'/utilities'));
@@ -142,5 +136,5 @@ final class ComponentFilesExistTest extends TestCase
         Assert::assertTrue(is_dir($themeBasePath.'/footer'));
         Assert::assertTrue(is_dir($themeBasePath.'/blocks/forms'));
         Assert::assertTrue(is_dir($themeBasePath.'/utilities/ui'));
-    }
-}
+    });
+});
