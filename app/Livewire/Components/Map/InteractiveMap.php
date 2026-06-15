@@ -6,8 +6,8 @@ namespace Modules\UI\Livewire\Components\Map;
 
 use Illuminate\Contracts\View\View;
 use Livewire\Component;
-use Modules\Geo\Services\GeocodingService;
-use Modules\Geo\Services\MapService;
+use Modules\UI\Contracts\GeocodingServiceContract;
+use Modules\UI\Contracts\MapServiceContract;
 use Webmozart\Assert\Assert;
 
 /**
@@ -129,10 +129,14 @@ final class InteractiveMap extends Component
         $this->isLoading = true;
 
         try {
-            $mapService = app(MapService::class);
+            $mapService = app(MapServiceContract::class);
             $filters = $this->getMapFilters();
-            $this->markers = $mapService->getMarkers($filters);
-            $this->stats = $mapService->getMapStats($filters);
+            $markers = $mapService->getMarkers($filters);
+            Assert::isArray($markers);
+            $this->markers = $markers;
+            $stats = $mapService->getMapStats($filters);
+            Assert::isArray($stats);
+            $this->stats = $stats;
         } catch (\Exception $e) {
             $this->addError('map', 'Errore nel caricamento dei marker: '.$e->getMessage());
             $this->markers = [];
@@ -156,7 +160,7 @@ final class InteractiveMap extends Component
     public function exportData(string $format = 'json'): void
     {
         try {
-            $mapService = app(MapService::class);
+            $mapService = app(MapServiceContract::class);
             $data = $mapService->exportData($this->getMapFilters(), $format);
 
             $filename = 'map_export_'.now()->format('Y_m_d_H_i_s').'.'.$format;
@@ -186,7 +190,7 @@ final class InteractiveMap extends Component
         }
 
         try {
-            $geocodingService = app(GeocodingService::class);
+            $geocodingService = app(GeocodingServiceContract::class);
             $result = $geocodingService->geocodeAddress($this->searchQuery);
             Assert::isArray($result, 'Geocoding result must be array');
 
@@ -217,7 +221,7 @@ final class InteractiveMap extends Component
         }
 
         try {
-            $geocodingService = app(GeocodingService::class);
+            $geocodingService = app(GeocodingServiceContract::class);
 
             /** @var array<int, array<string, mixed>> $suggestions */
             $suggestions = $geocodingService->getSuggestions($this->searchQuery);

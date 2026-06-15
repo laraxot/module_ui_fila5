@@ -1,5 +1,18 @@
 # UI Wiki Log
 
+## [2026-06-15] docs | block rendering e catena consumer
+
+- Nuova pagina: [`concepts/block-rendering-and-optional-services.md`](concepts/block-rendering-and-optional-services.md).
+- Mappati consumer: `<x-render.block>` (User home, UI blocks v1/v2), `InteractiveMap` + contratti map/geocoding.
+- `GetAllBlocksAction`: catalogo Filament Blocks cross-modulo (nessun caller PHP diretto nel mono; usato per inventario componenti).
+
+## [2026-06-15] phpstan | contratti opzionali per mappa e block resolver
+
+- `InteractiveMap` non importa piu servizi `Geo` assenti; usa contratti UI locali.
+- `Render\Block` delega la localizzazione a una action UI che usa `Cms` solo se presente.
+- `GetAllBlocksAction` usa un array tipizzato esplicito per evitare non-covarianza delle `Collection`.
+- Verifica: `cd laravel && ./vendor/bin/phpstan analyse Modules` -> 0 errori.
+
 ## [2026-05-21] bugfix | auth register focus perso per overlay header mobile
 - Nuova pagina: `concepts/auth-register-focus-loss-overlay.md`.
 - Root cause identificata in `x-ui.marketing.header`: container mobile fullscreen `fixed` che intercettava i click anche a menu chiuso.
