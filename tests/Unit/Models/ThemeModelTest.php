@@ -8,18 +8,18 @@ use Modules\UI\Models\Theme;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-uses(\Modules\UI\Tests\TestCase::class);
+uses(TestCase::class);
 
 beforeEach(function (): void {
-    /** @var \Modules\UI\Tests\TestCase $this */
-if (! class_exists('Modules\UI\Models\Theme')) {
-            Assert::markTestSkipped('Theme model is not part of the UI module artifact set.');
-        }
+    /* @var \Modules\UI\Tests\TestCase $this */
+    if (! class_exists('Modules\UI\Models\Theme')) {
+        Assert::markTestSkipped('Theme model is not part of the UI module artifact set.');
+    }
 });
 
 describe('Theme Model', function (): void {
     test('it can create atheme with valid data', function (): void {
-/** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
+        /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
         $theme = Theme::factory()->create([
             'name' => 'Test Theme',
             'is_active' => true,
@@ -32,7 +32,7 @@ describe('Theme Model', function (): void {
     });
 
     test('it has fillable attributes', function (): void {
-/** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
+        /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
         $theme = new Theme();
         $expected = ['name', 'description', 'is_active', 'config', 'parent_id', 'source_path', 'compiled_path', 'needs_compilation'];
 
@@ -43,7 +43,7 @@ describe('Theme Model', function (): void {
     });
 
     test('it casts is active to boolean', function (): void {
-/** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
+        /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
         $theme = Theme::factory()->create(['is_active' => '1']);
 
         /* @phpstan-ignore-next-line -- Theme model is optional */
@@ -53,7 +53,7 @@ describe('Theme Model', function (): void {
     });
 
     test('it casts config to array', function (): void {
-/** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
+        /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
         $theme = Theme::factory()->create([
             'config' => ['primary_color' => '#ff0000', 'font_family' => 'Roboto'],
         ]);
@@ -65,7 +65,7 @@ describe('Theme Model', function (): void {
     });
 
     test('it casts needs compilation to boolean', function (): void {
-/** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
+        /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
         $theme = Theme::factory()->create(['needs_compilation' => true]);
 
         /* @phpstan-ignore-next-line -- Theme model is optional */
@@ -75,7 +75,7 @@ describe('Theme Model', function (): void {
     });
 
     test('theme can have parent theme', function (): void {
-/** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
+        /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
         $parent = Theme::factory()->create(['name' => 'Parent Theme']);
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
         $child = Theme::factory()->create(['name' => 'Child Theme', 'parent_id' => $parent->id]);
@@ -85,7 +85,7 @@ describe('Theme Model', function (): void {
     });
 
     test('theme can be active', function (): void {
-/** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
+        /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
         $theme = Theme::factory()->create(['is_active' => true]);
 
         /* @phpstan-ignore-next-line -- Theme model is optional */
@@ -93,7 +93,7 @@ describe('Theme Model', function (): void {
     });
 
     test('theme can be inactive', function (): void {
-/** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
+        /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
         $theme = Theme::factory()->create(['is_active' => false]);
 
         /* @phpstan-ignore-next-line -- Theme model is optional */
@@ -101,7 +101,7 @@ describe('Theme Model', function (): void {
     });
 
     test('theme has timestamps', function (): void {
-/** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
+        /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
         $theme = Theme::factory()->create();
 
         /* @phpstan-ignore-next-line -- Theme model is optional */

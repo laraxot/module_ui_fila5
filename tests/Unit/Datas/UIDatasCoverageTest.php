@@ -12,7 +12,7 @@ use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 use Spatie\LaravelData\Data;
 
-uses(\Modules\UI\Tests\TestCase::class);
+uses(TestCase::class);
 
 it('SliderData can be instantiated with all fields', function (): void {
     $data = new SliderData(

@@ -8,11 +8,11 @@ use Illuminate\View\Component;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-uses(\Modules\UI\Tests\TestCase::class);
+uses(TestCase::class);
 
 describe('Component', function (): void {
     test('ui components can be rendered', function (): void {
-$component = new class extends Component {
+        $component = new class extends Component {
             public function render(): \Illuminate\Contracts\View\View
             {
                 return view('ui::components.ui.button');
@@ -27,7 +27,7 @@ $component = new class extends Component {
     });
 
     test('ui card component renders content', function (): void {
-$view = view('ui::components.ui.card', [
+        $view = view('ui::components.ui.card', [
             'title' => 'Test Card',
             'content' => 'Test Content',
         ]);

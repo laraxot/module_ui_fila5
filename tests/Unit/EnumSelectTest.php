@@ -6,7 +6,6 @@ namespace Modules\UI\Tests\Unit;
 
 use Modules\UI\Filament\Forms\Components\EnumSelect;
 use PHPUnit\Framework\Assert;
-use PHPUnit\Framework\TestCase;
 
 uses(\Modules\UI\Tests\TestCase::class);
 
