@@ -12,7 +12,7 @@ use Modules\UI\Services\ThemeService;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-uses(\Modules\UI\Tests\TestCase::class);
+uses(TestCase::class);
 
 describe('UI Business Logic Integration', function (): void {
     describe('Category management', function (): void {
