@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\View;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-uses(\Modules\UI\Tests\TestCase::class);
+uses(TestCase::class);
 
 function skipUnlessPubThemeViews(): void
 {
@@ -24,7 +24,7 @@ function skipUnlessPubThemeViews(): void
 
 describe('Component Reorganization Tests', function (): void {
     beforeEach(function (): void {
-    /** @var \Modules\UI\Tests\TestCase $this */
+        /* @var \Modules\UI\Tests\TestCase $this */
         skipUnlessPubThemeViews();
     });
 
@@ -106,7 +106,7 @@ describe('Component Reorganization Tests', function (): void {
 
 describe('Component Rendering Tests', function (): void {
     beforeEach(function (): void {
-    /** @var \Modules\UI\Tests\TestCase $this */
+        /* @var \Modules\UI\Tests\TestCase $this */
         skipUnlessPubThemeViews();
     });
 
@@ -160,7 +160,7 @@ describe('Component Rendering Tests', function (): void {
 
 describe('Component Integration Tests', function (): void {
     beforeEach(function (): void {
-    /** @var \Modules\UI\Tests\TestCase $this */
+        /* @var \Modules\UI\Tests\TestCase $this */
         if (! app()->bound('view')) {
             Assert::markTestSkipped('View factory is not available in this install.');
         }

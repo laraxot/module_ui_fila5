@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\View;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-uses(\Modules\UI\Tests\TestCase::class);
+uses(TestCase::class);
 
 /**
  * @param array<string, mixed> $data
@@ -40,7 +40,7 @@ function requireCategoryTabsHtml(array $data = []): string
 }
 
 beforeEach(function (): void {
-    /** @var \Modules\UI\Tests\TestCase $this */
+    /* @var \Modules\UI\Tests\TestCase $this */
     if (function_exists('config')) {
         config(['app.locale' => 'en']);
     }
