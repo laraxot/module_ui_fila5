@@ -10,14 +10,12 @@ use Modules\Lang\Actions\SaveTransAction;
 use Modules\UI\Filament\Widgets\UserCalendarWidget;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
-use function Pest\Laravel\get;
 
-uses(\Modules\UI\Tests\TestCase::class);
+uses(TestCase::class);
 
 function createTestCalendarWidget(): UserCalendarWidget
 {
-    $widget = new class extends UserCalendarWidget
-    {
+    $widget = new class extends UserCalendarWidget {
         public function getActionName(string $function): string
         {
             unset($function);
@@ -31,7 +29,7 @@ function createTestCalendarWidget(): UserCalendarWidget
 }
 
 beforeEach(function (): void {
-    /** @var \Modules\UI\Tests\TestCase $this */
+    /* @var \Modules\UI\Tests\TestCase $this */
     $this->mockService(SaveTransAction::class, static function (\Mockery\MockInterface $mock): void {
         /** @var \Mockery\ExpectationInterface $expectation */
         $expectation = $mock->shouldReceive('execute');
@@ -41,12 +39,12 @@ beforeEach(function (): void {
 
 describe('Base Calendar Widget', function (): void {
     test('is auser calendar widget', function (): void {
-        /** @var \Modules\UI\Tests\TestCase $this */
-Assert::assertInstanceOf(UserCalendarWidget::class, createTestCalendarWidget());
+        /* @var \Modules\UI\Tests\TestCase $this */
+        Assert::assertInstanceOf(UserCalendarWidget::class, createTestCalendarWidget());
     });
 
     test('returns empty events if action class does not exist', function (): void {
-$widget = createTestCalendarWidget();
+        $widget = createTestCalendarWidget();
         $fetchInfo = [
             'start' => '2025-01-01T00:00:00',
             'end' => '2025-01-31T23:59:59',
@@ -58,7 +56,7 @@ $widget = createTestCalendarWidget();
     });
 
     test('falls back to aminimal schema if action does not exist', function (): void {
-$widget = createTestCalendarWidget();
+        $widget = createTestCalendarWidget();
         $formSchema = $widget->getFormSchema();
 
         Assert::assertCount(2, $formSchema);
@@ -68,7 +66,7 @@ $widget = createTestCalendarWidget();
     });
 
     test('fallback schema contains agrid for datetime pickers', function (): void {
-$widget = createTestCalendarWidget();
+        $widget = createTestCalendarWidget();
         $formSchema = $widget->getFormSchema();
 
         $grid = $formSchema[1];

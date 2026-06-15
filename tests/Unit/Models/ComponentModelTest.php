@@ -7,27 +7,28 @@ namespace Modules\UI\Tests\Unit\Models;
 use Modules\UI\Models\Component;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
+
 use function Safe\file_get_contents;
 
-uses(\Modules\UI\Tests\TestCase::class);
+uses(TestCase::class);
 
 beforeEach(function (): void {
-    /** @var \Modules\UI\Tests\TestCase $this */
-if (! class_exists('Modules\UI\Models\Component')) {
-            Assert::markTestSkipped('Component model is not part of the UI module artifact set.');
-        }
+    /* @var \Modules\UI\Tests\TestCase $this */
+    if (! class_exists('Modules\UI\Models\Component')) {
+        Assert::markTestSkipped('Component model is not part of the UI module artifact set.');
+    }
 });
 
 describe('Component Model', function (): void {
     test('can be instantiated', function (): void {
-/** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
+        /** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
         $component = new Component();
         /* @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
         Assert::assertInstanceOf(Component::class, $component);
     });
 
     test('has fillable attributes', function (): void {
-/** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
+        /** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
         $component = new Component();
         $expected = [
             'name', 'theme_id', 'is_active', 'version', 'dependencies',
@@ -44,7 +45,7 @@ describe('Component Model', function (): void {
     });
 
     test('has casts defined', function (): void {
-/** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
+        /** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
         $component = new Component();
         $casts = $component->getCasts(); // @phpstan-ignore-line
         /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
@@ -68,26 +69,26 @@ describe('Component Model', function (): void {
     });
 
     test('has theme relationship', function (): void {
-/** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
+        /** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
         $reflection = new \ReflectionClass(Component::class);
         Assert::assertTrue($reflection->hasMethod('theme'));
     });
 
     test('has correct table name', function (): void {
-/** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
+        /** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
         $component = new Component();
         /* @phpstan-ignore-next-line -- Component model is optional */
         Assert::assertSame('components', $component->getTable());
     });
 
     test('extends base model', function (): void {
-/** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
+        /** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
         $reflection = new \ReflectionClass(Component::class);
         Assert::assertTrue($reflection->isSubclassOf('Modules\UI\Models\BaseModel'));
     });
 
     test('uses strict types', function (): void {
-/** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
+        /** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
         $reflection = new \ReflectionClass(Component::class);
         $fileName = $reflection->getFileName();
         Assert::assertNotFalse($fileName);
@@ -96,7 +97,7 @@ describe('Component Model', function (): void {
     });
 
     test('has correct namespace', function (): void {
-/** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
+        /** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
         $reflection = new \ReflectionClass(Component::class);
         Assert::assertSame('Modules\UI\Models', $reflection->getNamespaceName());
     });

@@ -6,9 +6,10 @@ namespace Modules\UI\Tests\Feature;
 
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
+
 use function Safe\file_get_contents;
 
-uses(\Modules\UI\Tests\TestCase::class);
+uses(TestCase::class);
 
 function sixteenComponentsBasePath(): string
 {
@@ -27,7 +28,7 @@ function requireSixteenComponentsBasePath(): string
 
 describe('Component Files Exist', function (): void {
     test('reorganized component files exist in correct locations', function (): void {
-$themeBasePath = requireSixteenComponentsBasePath();
+        $themeBasePath = requireSixteenComponentsBasePath();
 
         $expected = [
             '/forms/input.blade.php',
@@ -83,7 +84,7 @@ $themeBasePath = requireSixteenComponentsBasePath();
     });
 
     test('no old component files remain in root components directory', function (): void {
-$themeBasePath = requireSixteenComponentsBasePath();
+        $themeBasePath = requireSixteenComponentsBasePath();
 
         $legacyFiles = [
             '/input.blade.php',
@@ -98,7 +99,7 @@ $themeBasePath = requireSixteenComponentsBasePath();
             static fn (string $relativePath): bool => file_exists($themeBasePath.$relativePath),
         ));
 
-        if ($legacyPresent !== []) {
+        if ([] !== $legacyPresent) {
             Assert::markTestSkipped('Legacy root components still present: '.implode(', ', $legacyPresent));
         }
 
@@ -106,7 +107,7 @@ $themeBasePath = requireSixteenComponentsBasePath();
     });
 
     test('component files contain proper blade syntax', function (): void {
-$themeBasePath = requireSixteenComponentsBasePath();
+        $themeBasePath = requireSixteenComponentsBasePath();
 
         foreach ([
             '/utilities/button.blade.php',
@@ -122,7 +123,7 @@ $themeBasePath = requireSixteenComponentsBasePath();
     });
 
     test('directory structure is properly organized', function (): void {
-$themeBasePath = requireSixteenComponentsBasePath();
+        $themeBasePath = requireSixteenComponentsBasePath();
 
         Assert::assertTrue(is_dir($themeBasePath.'/forms'));
         Assert::assertTrue(is_dir($themeBasePath.'/utilities'));
