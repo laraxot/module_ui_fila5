@@ -11,8 +11,8 @@ use Modules\UI\Filament\Widgets\HeroWidget;
 use Modules\UI\Filament\Widgets\OverlookWidget;
 use Modules\UI\Filament\Widgets\RedirectWidget;
 use Modules\UI\Filament\Widgets\RowWidget;
-use Modules\UI\Filament\Widgets\StatWithIconWidget;
 use Modules\UI\Filament\Widgets\StatsOverviewWidget;
+use Modules\UI\Filament\Widgets\StatWithIconWidget;
 use Modules\UI\Filament\Widgets\TestChartWidget;
 use Modules\UI\Filament\Widgets\UserCalendarWidget;
 use Modules\UI\Tests\TestCase;
@@ -23,7 +23,8 @@ uses(TestCase::class, DatabaseTransactions::class);
 
 function concreteRowWidget(): RowWidget
 {
-    return new class extends RowWidget {};
+    return new class extends RowWidget {
+    };
 }
 
 it('widgets instantiate and extend filament base', function (): void {
