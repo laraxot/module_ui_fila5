@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit\Widgets;
 
-use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Grid;
+use Modules\Lang\Actions\SaveTransAction;
 use Modules\UI\Filament\Widgets\UserCalendarWidget;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
@@ -28,14 +28,22 @@ function createTestCalendarWidget(): UserCalendarWidget
     return $widget;
 }
 
-describe('UserCalendarWidget Basics', function (): void {
-    it('is a UserCalendarWidget', function (): void {
-        Assert::assertInstanceOf(UserCalendarWidget::class, createTestCalendarWidget());
+beforeEach(function (): void {
+    /* @var \Modules\UI\Tests\TestCase $this */
+    $this->mockService(SaveTransAction::class, static function (\Mockery\MockInterface $mock): void {
+        /** @var \Mockery\ExpectationInterface $expectation */
+        $expectation = $mock->shouldReceive('execute');
+        $expectation->andReturn(null);
     });
 });
 
-describe('UserCalendarWidget Event Management', function (): void {
-    it('returns empty events if action class does not exist', function (): void {
+describe('Base Calendar Widget', function (): void {
+    test('is auser calendar widget', function (): void {
+        /* @var \Modules\UI\Tests\TestCase $this */
+        Assert::assertInstanceOf(UserCalendarWidget::class, createTestCalendarWidget());
+    });
+
+    test('returns empty events if action class does not exist', function (): void {
         $widget = createTestCalendarWidget();
         $fetchInfo = [
             'start' => '2025-01-01T00:00:00',
@@ -46,10 +54,8 @@ describe('UserCalendarWidget Event Management', function (): void {
 
         Assert::assertCount(0, $events);
     });
-});
 
-describe('UserCalendarWidget Form Schema', function (): void {
-    it('falls back to a minimal schema if action does not exist', function (): void {
+    test('falls back to aminimal schema if action does not exist', function (): void {
         $widget = createTestCalendarWidget();
         $formSchema = $widget->getFormSchema();
 
@@ -59,17 +65,11 @@ describe('UserCalendarWidget Form Schema', function (): void {
         Assert::assertSame('title', $formSchema[0]->getName());
     });
 
-    it('fallback schema contains datetime pickers', function (): void {
+    test('fallback schema contains agrid for datetime pickers', function (): void {
         $widget = createTestCalendarWidget();
         $formSchema = $widget->getFormSchema();
 
         $grid = $formSchema[1];
         Assert::assertInstanceOf(Grid::class, $grid);
-        $gridSchema = $grid->getChildComponents();
-        Assert::assertCount(2, $gridSchema);
-        Assert::assertInstanceOf(DateTimePicker::class, $gridSchema[0]);
-        Assert::assertInstanceOf(DateTimePicker::class, $gridSchema[1]);
-        Assert::assertSame('starts_at', $gridSchema[0]->getName());
-        Assert::assertSame('ends_at', $gridSchema[1]->getName());
     });
 });

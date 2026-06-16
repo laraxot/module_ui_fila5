@@ -24,6 +24,12 @@ class CollectionFactory extends Factory
      */
     public function definition(): array
     {
-        return [];
+        return [
+            'name' => fake()->words(2, true),
+            'type' => 'block',
+            'theme_id' => 1,
+            'is_active' => true,
+            'order' => 0,
+        ];
     }
 }

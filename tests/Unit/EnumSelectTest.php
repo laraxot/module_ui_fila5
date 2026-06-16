@@ -4,12 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit;
 
-use InvalidArgumentException;
 use Modules\UI\Filament\Forms\Components\EnumSelect;
 use PHPUnit\Framework\Assert;
-use PHPUnit\Framework\TestCase;
 
-uses(TestCase::class);
+uses(\Modules\UI\Tests\TestCase::class);
 
 it('generates options from enum class', function (): void {
     $select = EnumSelect::make('enum');
@@ -49,7 +47,7 @@ it('rejects plain (non-backed) enums when resolving options', function (): void 
     try {
         $select->getOptions();
         Assert::fail('Expected InvalidArgumentException');
-    } catch (InvalidArgumentException $e) {
+    } catch (\InvalidArgumentException $e) {
         Assert::assertStringContainsString('must be a backed enum', $e->getMessage());
     }
 });
@@ -60,7 +58,7 @@ it('rejects classes that are not enums when resolving options', function (): voi
     try {
         $select->getOptions();
         Assert::fail('Expected InvalidArgumentException');
-    } catch (InvalidArgumentException $e) {
+    } catch (\InvalidArgumentException $e) {
         Assert::assertStringContainsString('does not exist', $e->getMessage());
     }
 });

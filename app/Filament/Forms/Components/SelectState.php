@@ -28,7 +28,8 @@ class SelectState extends XotBaseSelect
                             if (! \is_array($statesRaw)) {
                                 $statesRaw = Arr::wrap($statesRaw);
                             }
-                            /** @var array<int|string, mixed> $statesRaw */
+
+                            /* @var array<int|string, mixed> $statesRaw */
                             return $this->combineStateOptions($statesRaw);
                         }
                     }
@@ -54,7 +55,8 @@ class SelectState extends XotBaseSelect
     }
 
     /**
-     * @param  array<int|string, mixed>  $states
+     * @param array<int|string, mixed> $states
+     *
      * @return array<int|string, string>
      */
     private function combineStateOptions(array $states): array
