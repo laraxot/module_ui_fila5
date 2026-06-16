@@ -122,7 +122,6 @@ class LocationSelector extends XotBaseGroup
      * Imposta label personalizzate.
      *
      * @param array<string, string> $labels
-     * @param array<string, string> $labels
      */
     public function labels(array $labels): static
     {
@@ -135,7 +134,6 @@ class LocationSelector extends XotBaseGroup
      * Imposta placeholder personalizzati.
      *
      * @param array<string, string> $placeholders
-     * @param array<string, string> $placeholders
      */
     public function placeholders(array $placeholders): static
     {
@@ -144,9 +142,6 @@ class LocationSelector extends XotBaseGroup
         return $this;
     }
 
-    /**
-     * Validazione custom per verificare la coerenza dei dati.
-     */
     /**
      * @return list<string>
      */
@@ -159,7 +154,6 @@ class LocationSelector extends XotBaseGroup
             return $errors;
         }
 
-        /** @phpstan-assert array<string, mixed> $state */
         if (! empty($state[$this->provinceFieldName]) && empty($state[$this->regionFieldName])) {
             $errors[] = __('ui::location_selector.validation.region_required_for_province');
         }
@@ -291,9 +285,6 @@ class LocationSelector extends XotBaseGroup
     /**
      * Ottiene le opzioni per il campo provincia basate sulla regione.
      *
-     * @param string $region Codice regione
-     * @param string $region Codice regione
-     *
      * @return array<string, string>
      */
     protected function getProvinceOptions(string $region): array
@@ -319,11 +310,6 @@ class LocationSelector extends XotBaseGroup
 
     /**
      * Ottiene le opzioni per il campo CAP basate su regione e provincia.
-     *
-     * @param string $region   Codice regione
-     * @param string $province Codice provincia
-     * @param string $region   Codice regione
-     * @param string $province Codice provincia
      *
      * @return array<string, string>
      */
@@ -393,9 +379,6 @@ class LocationSelector extends XotBaseGroup
     }
 
     /**
-     * @param array<string, mixed> $state
-     * @param array<string, mixed> $state
-     *
      * @return array<string, mixed>
      */
     protected function formatGeographicData(Comune $comune, array $state): array
