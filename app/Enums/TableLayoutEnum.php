@@ -33,7 +33,6 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
         return self::LIST;
     }
 
-    
     public function toggle(): self
     {
         return match ($this) {
