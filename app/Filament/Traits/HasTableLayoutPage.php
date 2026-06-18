@@ -37,9 +37,13 @@ trait HasTableLayoutPage
             return null;
         }
 
-        return (function (): TableLayoutEnum {
+        /** @var TableLayoutEnum $layout */
+        $layout = (function (): TableLayoutEnum {
+            /** @var object{layoutView: TableLayoutEnum} $this */
             return $this->layoutView;
         })->call($livewire);
+
+        return $layout;
     }
 
     public static function applyLayoutTo(object $livewire, TableLayoutEnum $layout): void
@@ -49,6 +53,8 @@ trait HasTableLayoutPage
         }
 
         (function (TableLayoutEnum $layout): void {
+            /** @var object{layoutView: TableLayoutEnum} $this */
+            // @phpstan-ignore assign.propertyReadOnly
             $this->layoutView = $layout;
         })->call($livewire, $layout);
     }
