@@ -16,19 +16,22 @@ trait HasTableLayoutPage
 {
     use TableLayoutTrait;
 
-    public function mountTableLayoutFromSession(string $identifier = 'default'): void
-    {
+    public function mountTableLayoutFromSession(
+        string $identifier = 'default'
+    ): void {
         $this->layoutView = $this->getCurrentLayout($identifier);
     }
 
-    public function setLayoutView(TableLayoutEnum $layout): void
+    public function applyLayoutView(TableLayoutEnum $layout): void
     {
         $this->layoutView = $layout;
     }
 
     public static function isLayoutCapable(object $livewire): bool
     {
-        return in_array(self::class, class_uses_recursive($livewire::class), true);
+        $uses = class_uses_recursive($livewire::class);
+
+        return in_array(self::class, $uses, true);
     }
 
     public static function readLayoutFrom(object $livewire): ?TableLayoutEnum
@@ -37,23 +40,22 @@ trait HasTableLayoutPage
             return null;
         }
 
-        /** @var TableLayoutEnum $layout */
-        $layout = (function (): TableLayoutEnum {
-            /** @var object{layoutView: TableLayoutEnum} $this */
+        return (function (): TableLayoutEnum {
+            /** @phpstan-var object{layoutView: TableLayoutEnum} $this */
             return $this->layoutView;
         })->call($livewire);
-
-        return $layout;
     }
 
-    public static function applyLayoutTo(object $livewire, TableLayoutEnum $layout): void
-    {
+    public static function applyLayoutTo(
+        object $livewire,
+        TableLayoutEnum $layout
+    ): void {
         if (! self::isLayoutCapable($livewire)) {
             return;
         }
 
         (function (TableLayoutEnum $layout): void {
-            /** @var object{layoutView: TableLayoutEnum} $this */
+            /** @phpstan-var object{layoutView: TableLayoutEnum} $this */
             // @phpstan-ignore assign.propertyReadOnly
             $this->layoutView = $layout;
         })->call($livewire, $layout);
