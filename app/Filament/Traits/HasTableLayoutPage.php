@@ -16,6 +16,8 @@ trait HasTableLayoutPage
 {
     use TableLayoutTrait;
 
+    public TableLayoutEnum $layoutView = TableLayoutEnum::LIST;
+
     public function mountTableLayoutFromSession(
         string $identifier = 'default'
     ): void {
