@@ -112,8 +112,9 @@ class IconStateGroupColumn extends ColumnGroup
                     })
             );
 
-            $visibleValue = $this->data[$visibleKey] ?? false;
-            $column->visible($visibleValue);
+            /** @var bool $visibleValue */
+            $visibleValue = (bool) ($this->data[$visibleKey] ?? false);
+            $column->visible(fn (): bool => $visibleValue);
             $columns[] = $column;
         }
 
