@@ -11,7 +11,11 @@ final class TestChartWidget extends ChartWidget
 {
     public int $qid = 0;
 
+<<<<<<< HEAD
     public string $maxHeightPx = '200px';
+=======
+    public string $max_height = '200px';
+>>>>>>> laraxot/dev
 
     public string $type = 'line';
 
@@ -30,7 +34,11 @@ final class TestChartWidget extends ChartWidget
 
     protected function getData(): array
     {
+<<<<<<< HEAD
         $this->maxHeight = $this->maxHeightPx;
+=======
+        $this->maxHeight = $this->max_height;
+>>>>>>> laraxot/dev
 
         return [
             'datasets' => [

@@ -8,8 +8,11 @@ use Filament\Tables\Columns\SelectColumn;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
+<<<<<<< HEAD
 use ReflectionClass;
 use ReflectionException;
+=======
+>>>>>>> laraxot/dev
 
 class SelectStateColumn extends SelectColumn
 {
@@ -18,7 +21,11 @@ class SelectStateColumn extends SelectColumn
         parent::setUp();
         $this->options(function (Model $record, mixed $state): array {
             $name = $this->getName();
+<<<<<<< HEAD
             if ($state === null) {
+=======
+            if (null === $state) {
+>>>>>>> laraxot/dev
                 if (! method_exists($record, 'getDefaultStateFor')) {
                     return [];
                 }
@@ -55,15 +62,25 @@ class SelectStateColumn extends SelectColumn
                 if (class_exists($stateClass)) {
                     $stateNameProperty = null;
                     try {
+<<<<<<< HEAD
                         $reflection = new ReflectionClass($stateClass);
+=======
+                        $reflection = new \ReflectionClass($stateClass);
+>>>>>>> laraxot/dev
                         if ($reflection->hasProperty('name')) {
                             $nameProperty = $reflection->getStaticPropertyValue('name');
                             $stateNameProperty = \is_string($nameProperty) ? $nameProperty : null;
                         }
+<<<<<<< HEAD
                     } catch (ReflectionException) {
                         // Intentionally ignored: fall back to $stateNameProperty === null below.
                     }
                     if ($stateNameProperty !== null) {
+=======
+                    } catch (\ReflectionException) {
+                    }
+                    if (null !== $stateNameProperty) {
+>>>>>>> laraxot/dev
                         $statesValues = array_values($states);
                         /** @var list<int|string> $statesValuesTyped */
                         $statesValuesTyped = $statesValues;

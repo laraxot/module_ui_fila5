@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:5253bd6c8d8d90597d57f2efd9b0f78740302f9409b687c474dfe82e462bd5f7
+size 3216
+=======
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -34,3 +39,4 @@
 	</g>
 </g>
 </svg>
+>>>>>>> laraxot/dev

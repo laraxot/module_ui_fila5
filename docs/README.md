@@ -12,11 +12,14 @@ updated: 2026-06-05
 
 Il modulo **UI** fornisce componenti Blade, widget Filament e asset condivisi per tutti i moduli e temi.
 
+<<<<<<< HEAD
 **Quick Start:**
 - **[Architecture Patterns](./architecture-patterns.md)** — Design system, component hierarchy, theming
 - **[Disabled Components](./disabled-components.md)** — Deprecation info & migration paths
 - **[Design Comuni Implementation](./DESIGN_COMUNI_IMPLEMENTATION.md)** — Integration guide
 
+=======
+>>>>>>> laraxot/dev
 ## Struttura Componenti
 
 ```
@@ -124,6 +127,7 @@ MIT
 - [On-Demand Pattern](./ON-DEMAND-PATTERN.md) — Pattern per caricamento efficiente
 - [QMD Setup](./QMD-SETUP.md) — Configurazione ricerca locale
 - [Performance](./PERFORMANCE-OPTIMIZATION.md) — Metriche e best practice
+<<<<<<< HEAD
 - [Project Structure](./PROJECT-STRUCTURE.md) — Directory layout
 ---
 
@@ -161,3 +165,6 @@ Modulo conforme alle regole Laraxot:
   - Non toccati: `StaticAccess`, `CyclomaticComplexity`/`NPathComplexity`, `BooleanArgumentFlag` (refactor architetturale non richiesto); `$module_dir`/`$module_ns` snake_case (convenzione condivisa via `Xot\Providers\XotBaseServiceProvider`); parametri unused nei closure Filament (`$_livewire`, `$_component`, `onDateSelect(...)`) e in `SliderData` (proprietà snake_case che rispecchiano chiavi array/JSON esterne — un rename romperebbe l'hydration Spatie LaravelData senza `#[MapInputName]`); `HasTableLayoutPage::$this` in closure con `->call()` è un falso positivo PHPMD (non vede il rebind di `$this`).
 - **PHPInsights** (`tools/phpinsights.sh analyse Modules/UI/app`): punteggio iniziale 83.0 Code / 87.8 Complexity / 76.5 Architecture / 90.4 Style. Applicato `--fix` per gli style fix sicuri (yoda comparison, static closures, ordered imports/uses, braces). **Il flag `--fix` ha di nuovo introdotto native type hint `array` su proprietà che confliggono con la classe genitore** (`EventServiceProvider::$listen`, `Http/Kernel::$middleware`/`$middlewareGroups`/`$middlewareAliases`, `$fillable` in `FieldOption`/`Collection`/`Category`) — rule PHPStan `property.extraNativeType`; rimosso il type nativo mantenendo i tag `@var` esistenti. **Verificare sempre PHPStan dopo ogni `phpinsights --fix` in questo modulo.**
 - **Pest**: non eseguibile in questa sessione — il bootstrap completo dell'app fallisce per un conflitto di firma pre-esistente e non correlato tra `Modules\Ptv\Models\BaseScheda::anag()` e `Modules\IndennitaResponsabilita\Models\Traits\RelationshipTrait::anag()` (entrambi fuori dallo scope di questo task). Nessun test creato/eseguito; le modifiche sono naming/dead-code, comportamento invariato.
+=======
+- [Project Structure](./PROJECT-STRUCTURE.md) — Directory layout
+>>>>>>> laraxot/dev

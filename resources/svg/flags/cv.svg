@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:3297bdc9b5d5a39408a95ec47320647100c85486feeebbff70c12431dafd7e33
+size 923
+=======
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 510 300">
 <rect width="510" height="300" fill="#003893"/>
 <rect width="510" height="75" y="150" fill="#fff"/>
@@ -22,3 +27,4 @@
 <use xlink:href="#s2" transform="rotate(288)"/>
 </g>
 </svg>
+>>>>>>> laraxot/dev

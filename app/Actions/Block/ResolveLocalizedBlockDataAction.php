@@ -4,8 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\UI\Actions\Block;
 
+<<<<<<< HEAD
 use UnexpectedValueException;
 
+=======
+>>>>>>> laraxot/dev
 /**
  * Risolve dati block localizzati; delega al modulo Cms se presente.
  */
@@ -47,7 +50,11 @@ final class ResolveLocalizedBlockDataAction
 
         foreach ($data as $key => $value) {
             if (! is_string($key)) {
+<<<<<<< HEAD
                 throw new UnexpectedValueException('Block view data must have string keys.');
+=======
+                throw new \UnexpectedValueException('Block view data must have string keys.');
+>>>>>>> laraxot/dev
             }
 
             $viewData[$key] = $value;

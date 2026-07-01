@@ -17,7 +17,11 @@ class SelectState extends XotBaseSelect
 
         $this->options(function (?Model $record): array {
             $name = $this->getName();
+<<<<<<< HEAD
             if ($record === null) {
+=======
+            if (null === $record) {
+>>>>>>> laraxot/dev
                 $model = $this->getModel();
                 if (\is_string($model) && class_exists($model)) {
                     $instance = app($model);
@@ -29,7 +33,11 @@ class SelectState extends XotBaseSelect
                                 $statesRaw = Arr::wrap($statesRaw);
                             }
 
+<<<<<<< HEAD
                             /** @var array<int|string, mixed> $statesRaw */
+=======
+                            /* @var array<int|string, mixed> $statesRaw */
+>>>>>>> laraxot/dev
                             return $this->combineStateOptions($statesRaw);
                         }
                     }

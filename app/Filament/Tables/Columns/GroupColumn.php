@@ -42,7 +42,11 @@ class GroupColumn extends Column
     public function schema(array $form): self
     {
         // Type-check to ensure all elements are Column instances
+<<<<<<< HEAD
         $filtered = array_filter($form, static function (mixed $item): bool {
+=======
+        $filtered = array_filter($form, function (mixed $item): bool {
+>>>>>>> laraxot/dev
             return $item instanceof Column;
         });
 

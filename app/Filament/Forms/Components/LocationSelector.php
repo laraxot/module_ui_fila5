@@ -350,6 +350,31 @@ class LocationSelector extends XotBaseGroup
         }
     }
 
+<<<<<<< HEAD
+=======
+    /**
+     * @return array<string, string>
+     */
+    private static function normalizeStringOptions(mixed $options): array
+    {
+        if (! \is_array($options)) {
+            return [];
+        }
+
+        $normalizedOptions = [];
+
+        foreach ($options as $key => $value) {
+            if (! \is_string($value) && ! \is_int($value)) {
+                continue;
+            }
+
+            $normalizedOptions[(string) $key] = (string) $value;
+        }
+
+        return $normalizedOptions;
+    }
+
+>>>>>>> laraxot/dev
     protected function getComuneFromState(mixed $state): ?Comune
     {
         if (! \is_array($state)) {
@@ -394,6 +419,7 @@ class LocationSelector extends XotBaseGroup
             'city' => $comune->nome ?? null,
         ];
     }
+<<<<<<< HEAD
 
     /**
      * @return array<string, string>
@@ -416,4 +442,6 @@ class LocationSelector extends XotBaseGroup
 
         return $normalizedOptions;
     }
+=======
+>>>>>>> laraxot/dev
 }
