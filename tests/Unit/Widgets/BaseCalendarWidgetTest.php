@@ -6,6 +6,8 @@ namespace Modules\UI\Tests\Unit\Widgets;
 
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Grid;
+use Mockery\ExpectationInterface;
+use Mockery\MockInterface;
 use Modules\Lang\Actions\SaveTransAction;
 use Modules\UI\Filament\Widgets\UserCalendarWidget;
 use Modules\UI\Tests\TestCase;
@@ -15,7 +17,8 @@ uses(TestCase::class);
 
 function createTestCalendarWidget(): UserCalendarWidget
 {
-    $widget = new class extends UserCalendarWidget {
+    $widget = new class extends UserCalendarWidget
+    {
         public function getActionName(string $function): string
         {
             unset($function);
@@ -30,8 +33,8 @@ function createTestCalendarWidget(): UserCalendarWidget
 
 beforeEach(function (): void {
     /* @var \Modules\UI\Tests\TestCase $this */
-    $this->mockService(SaveTransAction::class, static function (\Mockery\MockInterface $mock): void {
-        /** @var \Mockery\ExpectationInterface $expectation */
+    $this->mockService(SaveTransAction::class, static function (MockInterface $mock): void {
+        /** @var ExpectationInterface $expectation */
         $expectation = $mock->shouldReceive('execute');
         $expectation->andReturn(null);
     });
