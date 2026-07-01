@@ -15,7 +15,7 @@ use function Safe\file_get_contents;
 uses(TestCase::class);
 
 test('stats overview widget extends correct base class', function (): void {
-    $widget = new StatsOverviewWidget();
+    $widget = new StatsOverviewWidget;
     Assert::assertInstanceOf(FilamentStatsOverviewWidget::class, $widget);
 });
 
@@ -24,13 +24,13 @@ test('stats overview widget has correct namespace', function (): void {
 });
 
 test('stats overview widget has getStats method', function (): void {
-    $widget = new StatsOverviewWidget();
+    $widget = new StatsOverviewWidget;
     $reflection = new \ReflectionClass($widget);
     Assert::assertTrue($reflection->hasMethod('getStats'));
 });
 
 test('stats overview widget returns correct stats', function (): void {
-    $widget = new StatsOverviewWidget();
+    $widget = new StatsOverviewWidget;
     $reflection = new \ReflectionClass($widget);
     $method = $reflection->getMethod('getStats');
     Assert::assertTrue($method->isProtected());
@@ -45,7 +45,7 @@ test('stats overview widget returns correct stats', function (): void {
 });
 
 test('stats overview widget can be instantiated', function (): void {
-    $widget = new StatsOverviewWidget();
+    $widget = new StatsOverviewWidget;
     Assert::assertInstanceOf(StatsOverviewWidget::class, $widget);
 });
 
@@ -53,7 +53,7 @@ test('stats overview widget has correct strict types declaration', function (): 
     $reflection = new \ReflectionClass(StatsOverviewWidget::class);
     $filename = $reflection->getFileName();
 
-    if (false !== $filename) {
+    if ($filename !== false) {
         $content = file_get_contents($filename);
         Assert::assertStringContainsString('declare(strict_types=1)', $content);
     }
@@ -78,7 +78,7 @@ test('stats overview widget has correct use statements', function (): void {
     $reflection = new \ReflectionClass(StatsOverviewWidget::class);
     $filename = $reflection->getFileName();
 
-    if (false !== $filename) {
+    if ($filename !== false) {
         $content = file_get_contents($filename);
         Assert::assertStringContainsString('use Filament\\Widgets\\StatsOverviewWidget as BaseWidget;', $content);
     }

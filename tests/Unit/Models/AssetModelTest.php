@@ -22,7 +22,7 @@ beforeEach(function (): void {
 describe('Asset Model', function (): void {
     test('can be instantiated', function (): void {
         /** @phpstan-ignore-next-line -- Asset model is optional, guarded by setUp */
-        $asset = new Asset();
+        $asset = new Asset;
         /* @phpstan-ignore-next-line -- Asset::class resolves to string even if class absent */
         Assert::assertInstanceOf(Asset::class, $asset);
     });
@@ -31,7 +31,7 @@ describe('Asset Model', function (): void {
         $expected = ['name', 'type', 'path', 'theme_id', 'is_minified', 'is_compressed', 'order', 'should_bundle'];
 
         /** @phpstan-ignore-next-line -- Asset model is optional, guarded by setUp */
-        $asset = new Asset();
+        $asset = new Asset;
         foreach ($expected as $field) {
             /* @phpstan-ignore-next-line -- Asset model is optional */
             Assert::assertTrue(in_array($field, $asset->getFillable()));
@@ -40,7 +40,7 @@ describe('Asset Model', function (): void {
 
     test('has casts defined', function (): void {
         /** @phpstan-ignore-next-line -- Asset model is optional, guarded by setUp */
-        $asset = new Asset();
+        $asset = new Asset;
         $casts = $asset->getCasts(); // @phpstan-ignore-line
         /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
         Assert::assertSame('boolean', $casts['is_minified']);
@@ -60,7 +60,7 @@ describe('Asset Model', function (): void {
 
     test('has correct table name', function (): void {
         /** @phpstan-ignore-next-line -- Asset model is optional, guarded by setUp */
-        $asset = new Asset();
+        $asset = new Asset;
         /* @phpstan-ignore-next-line -- Asset model is optional */
         Assert::assertSame('assets', $asset->getTable());
     });
