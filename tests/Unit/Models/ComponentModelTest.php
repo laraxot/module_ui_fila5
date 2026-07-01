@@ -22,14 +22,14 @@ beforeEach(function (): void {
 describe('Component Model', function (): void {
     test('can be instantiated', function (): void {
         /** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
-        $component = new Component;
+        $component = new Component();
         /* @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
         Assert::assertInstanceOf(Component::class, $component);
     });
 
     test('has fillable attributes', function (): void {
         /** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
-        $component = new Component;
+        $component = new Component();
         $expected = [
             'name', 'theme_id', 'is_active', 'version', 'dependencies',
             'template', 'is_cacheable', 'cache_ttl', 'validation_rules',
@@ -46,7 +46,7 @@ describe('Component Model', function (): void {
 
     test('has casts defined', function (): void {
         /** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
-        $component = new Component;
+        $component = new Component();
         $casts = $component->getCasts(); // @phpstan-ignore-line
         /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
         Assert::assertSame('boolean', $casts['is_active']);
@@ -76,7 +76,7 @@ describe('Component Model', function (): void {
 
     test('has correct table name', function (): void {
         /** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
-        $component = new Component;
+        $component = new Component();
         /* @phpstan-ignore-next-line -- Component model is optional */
         Assert::assertSame('components', $component->getTable());
     });
