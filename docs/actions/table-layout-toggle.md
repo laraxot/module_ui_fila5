@@ -5,7 +5,6 @@ Azione Filament per il toggle del layout delle tabelle tra vista griglia e lista
 
 ## Caratteristiche
 - Supporto per layout griglia e lista
-<<<<<<< HEAD
 - Integrazione con Livewire (`$layoutView` sulla pagina ListRecords)
 - Persistenza dello stato del layout in sessione
 - Icone e tooltip dinamici dal layout corrente
@@ -13,11 +12,6 @@ Azione Filament per il toggle del layout delle tabelle tra vista griglia e lista
 ## Contratto runtime (obbligatorio)
 
 La tabella Filament legge `$layoutView` tramite `HasXotTable::table()`. L’azione deve aggiornare **sia** la sessione **sia** `$livewire->layoutView` al click. Vedi [bugfix toggle non funzionante](../bugfix-table-layout-toggle-not-working.md) e [contratto Xot](../../Xot/docs/filament/table-layout-toggle-contract.md).
-=======
-- Integrazione con Livewire
-- Persistenza dello stato del layout
-- Supporto per tooltip e icone dinamiche
->>>>>>> laraxot/dev
 
 ## Miglioramenti PHPStan Livello 9
 Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
@@ -71,7 +65,6 @@ Azione Filament per il toggle del layout delle tabelle tra vista griglia e lista
 
 ## Caratteristiche
 - Supporto per layout griglia e lista
-<<<<<<< HEAD
 - Integrazione con Livewire (`$layoutView` sulla pagina ListRecords)
 - Persistenza dello stato del layout in sessione
 - Icone e tooltip dinamici dal layout corrente
@@ -79,11 +72,6 @@ Azione Filament per il toggle del layout delle tabelle tra vista griglia e lista
 ## Contratto runtime (obbligatorio)
 
 La tabella Filament legge `$layoutView` tramite `HasXotTable::table()`. L’azione deve aggiornare **sia** la sessione **sia** `$livewire->layoutView` al click. Vedi [bugfix toggle non funzionante](../bugfix-table-layout-toggle-not-working.md) e [contratto Xot](../../Xot/docs/filament/table-layout-toggle-contract.md).
-=======
-- Integrazione con Livewire
-- Persistenza dello stato del layout
-- Supporto per tooltip e icone dinamiche
->>>>>>> laraxot/dev
 
 ## Miglioramenti PHPStan Livello 9
 Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:

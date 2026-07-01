@@ -27,11 +27,7 @@ class IconPicker extends TextInput
         $packsKeys = $packs;
         $packsCombined = array_combine($packsKeys, $packsKeys);
         /** @var array<string, string> $packs */
-<<<<<<< HEAD
         $packs = $packsCombined ? $packsCombined : [];
-=======
-        $packs = $packsCombined ?: [];
->>>>>>> laraxot/dev
 
         $this->suffixAction(
             Action::make('icon')

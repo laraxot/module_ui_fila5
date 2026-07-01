@@ -191,7 +191,3 @@ docs/legacy/**
 *.rej
 *~head
 
-<<<<<<< HEAD
-=======
-agentdb.rvf
->>>>>>> laraxot/dev
