@@ -5,10 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Actions\Datetime;
 
 use Carbon\Carbon;
-<<<<<<< HEAD
 use RuntimeException;
-=======
->>>>>>> laraxot/dev
 use Spatie\QueueableAction\QueueableAction;
 
 final class GetDaysMappingAction
@@ -73,13 +70,8 @@ final class GetDaysMappingAction
     {
         $carbon = Carbon::create();
 
-<<<<<<< HEAD
         if ($carbon === null) {
             throw new RuntimeException('Failed to create Carbon instance');
-=======
-        if (null === $carbon) {
-            throw new \RuntimeException('Failed to create Carbon instance');
->>>>>>> laraxot/dev
         }
 
         return $carbon;

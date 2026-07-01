@@ -5,10 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Services\Map;
 
 use Modules\UI\Contracts\GeocodingServiceContract;
-<<<<<<< HEAD
 use RuntimeException;
-=======
->>>>>>> laraxot/dev
 
 /**
  * Fallback quando il modulo Geo non è installato.
@@ -20,11 +17,7 @@ final class NullGeocodingService implements GeocodingServiceContract
      */
     public function geocodeAddress(string $address): array
     {
-<<<<<<< HEAD
         throw new RuntimeException('Geocoding non disponibile: modulo Geo assente.');
-=======
-        throw new \RuntimeException('Geocoding non disponibile: modulo Geo assente.');
->>>>>>> laraxot/dev
     }
 
     /**

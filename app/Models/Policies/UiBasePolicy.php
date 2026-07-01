@@ -10,10 +10,6 @@ namespace Modules\UI\Models\Policies;
 
 use Illuminate\Auth\Access\HandlesAuthorization;
 use Modules\Xot\Contracts\UserContract;
-<<<<<<< HEAD
-=======
-use Modules\Xot\Datas\XotData;
->>>>>>> laraxot/dev
 
 abstract class UiBasePolicy
 {
@@ -22,14 +18,8 @@ abstract class UiBasePolicy
     /**
      * @SuppressWarnings("PHPMD.UnusedFormalParameter")
      */
-<<<<<<< HEAD
     public function before(UserContract $user, string $ability): ?bool
     {
-=======
-    public function before(UserContract $user, string $_ability): ?bool
-    {
-        $xotData = XotData::make();
->>>>>>> laraxot/dev
         if ($user->hasRole('super-admin')) {
             return true;
         }

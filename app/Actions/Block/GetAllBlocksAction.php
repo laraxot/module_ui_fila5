@@ -9,13 +9,7 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Modules\Xot\Actions\File\GetClassNameByPathAction;
 use Modules\Xot\Datas\ComponentFileData;
-<<<<<<< HEAD
 use function Safe\realpath;
-=======
-
-use function Safe\realpath;
-
->>>>>>> laraxot/dev
 use Spatie\LaravelData\DataCollection;
 use Webmozart\Assert\Assert;
 
@@ -34,11 +28,7 @@ final class GetAllBlocksAction
         $files = is_array($files) ? array_values($files) : [];
 
         /** @var array<int, array{name: string, class: class-string, module: string, path: string|false}> $blocks */
-<<<<<<< HEAD
         $blocks = Arr::map($files, static function (string $path): array {
-=======
-        $blocks = Arr::map($files, function (string $path): array {
->>>>>>> laraxot/dev
             $path = realpath($path);
             $class = app(GetClassNameByPathAction::class)->execute($path);
 

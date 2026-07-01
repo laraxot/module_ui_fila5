@@ -33,19 +33,6 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
         return self::LIST;
     }
 
-<<<<<<< HEAD
-=======
-    public function getTooltip(): string
-    {
-        return $this->transClass(self::class, $this->value.'.tooltip');
-    }
-
-    public function getHelperText(): string
-    {
-        return $this->transClass(self::class, $this->value.'.helper_text');
-    }
-
->>>>>>> laraxot/dev
     public function toggle(): self
     {
         return match ($this) {
@@ -56,20 +43,12 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 
     public function isGridLayout(): bool
     {
-<<<<<<< HEAD
         return $this === self::GRID;
-=======
-        return self::GRID === $this;
->>>>>>> laraxot/dev
     }
 
     public function isListLayout(): bool
     {
-<<<<<<< HEAD
         return $this === self::LIST;
-=======
-        return self::LIST === $this;
->>>>>>> laraxot/dev
     }
 
     /**
@@ -101,11 +80,8 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
      *
      * @param array<Column|ColumnGroup|Component> $listColumns Columns for list layout
      * @param array<Column|ColumnGroup|Component> $gridColumns Columns for grid layout
-<<<<<<< HEAD
      * @param array<Column|ColumnGroup|Component> $listColumns Columns for list layout
      * @param array<Column|ColumnGroup|Component> $gridColumns Columns for grid layout
-=======
->>>>>>> laraxot/dev
      *
      * @return array<Column|ColumnGroup|Component>
      */

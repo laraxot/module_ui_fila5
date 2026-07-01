@@ -42,11 +42,7 @@ class RadioBadge extends Radio
             return null;
         }
 
-<<<<<<< HEAD
         /** @var class-string<\BackedEnum&HasColor&HasIcon> $enumClass */
-=======
-        /* @var class-string<\BackedEnum&HasColor&HasIcon> $enumClass */
->>>>>>> laraxot/dev
         return $enumClass::tryFrom($value);
     }
 
@@ -55,30 +51,18 @@ class RadioBadge extends Radio
         $enum = $this->getEnumValue($value);
         if ($enum instanceof HasColor) {
             $color = $enum->getColor();
-<<<<<<< HEAD
             if ($color === null) {
-=======
-            if (null === $color) {
->>>>>>> laraxot/dev
                 return $this->selectedColor;
             }
 
             if (is_array($color)) {
                 $first = reset($color);
 
-<<<<<<< HEAD
                 return is_string($first) && $first !== '' ? $first : $this->selectedColor;
             }
 
             // PHPStan L10: $color è già verificato come non-array e non-null, quindi è string
             if ($color !== '') {
-=======
-                return is_string($first) && '' !== $first ? $first : $this->selectedColor;
-            }
-
-            // PHPStan L10: $color è già verificato come non-array e non-null, quindi è string
-            if ('' !== $color) {
->>>>>>> laraxot/dev
                 return $color;
             }
 
@@ -97,11 +81,7 @@ class RadioBadge extends Radio
         $icon = $enum->getIcon();
 
         // getIcon() può restituire Htmlable|string|null, ma dobbiamo restituire solo string|null
-<<<<<<< HEAD
         if ($icon === null) {
-=======
-        if (null === $icon) {
->>>>>>> laraxot/dev
             return null;
         }
 
