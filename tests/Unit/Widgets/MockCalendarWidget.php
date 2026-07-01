@@ -7,12 +7,20 @@ namespace Modules\UI\Tests\Unit\Widgets;
 use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Component;
+<<<<<<< HEAD
 use Modules\UI\Filament\Widgets\BaseCalendarWidget;
+=======
+use Modules\UI\Tests\Unit\Widgets\Fixtures\BaseCalendarWidgetStub;
+>>>>>>> laraxot/dev
 
 /**
  * Widget di supporto per i test del BaseCalendarWidget.
  */
+<<<<<<< HEAD
 class MockCalendarWidget extends BaseCalendarWidget
+=======
+class MockCalendarWidget extends BaseCalendarWidgetStub
+>>>>>>> laraxot/dev
 {
     public string $model = MockEventModel::class;
 

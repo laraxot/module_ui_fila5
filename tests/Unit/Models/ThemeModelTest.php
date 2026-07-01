@@ -20,7 +20,11 @@ beforeEach(function (): void {
 describe('Theme Model', function (): void {
     test('it can create atheme with valid data', function (): void {
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
+<<<<<<< HEAD
         $theme = Theme::factory()->create([
+=======
+        $theme = Theme::factory()->createOne([
+>>>>>>> laraxot/dev
             'name' => 'Test Theme',
             'is_active' => true,
         ]);
@@ -44,7 +48,11 @@ describe('Theme Model', function (): void {
 
     test('it casts is active to boolean', function (): void {
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
+<<<<<<< HEAD
         $theme = Theme::factory()->create(['is_active' => '1']);
+=======
+        $theme = Theme::factory()->createOne(['is_active' => '1']);
+>>>>>>> laraxot/dev
 
         /* @phpstan-ignore-next-line -- Theme model is optional */
         Assert::assertIsBool($theme->is_active);
@@ -54,7 +62,11 @@ describe('Theme Model', function (): void {
 
     test('it casts config to array', function (): void {
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
+<<<<<<< HEAD
         $theme = Theme::factory()->create([
+=======
+        $theme = Theme::factory()->createOne([
+>>>>>>> laraxot/dev
             'config' => ['primary_color' => '#ff0000', 'font_family' => 'Roboto'],
         ]);
 
@@ -66,7 +78,11 @@ describe('Theme Model', function (): void {
 
     test('it casts needs compilation to boolean', function (): void {
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
+<<<<<<< HEAD
         $theme = Theme::factory()->create(['needs_compilation' => true]);
+=======
+        $theme = Theme::factory()->createOne(['needs_compilation' => true]);
+>>>>>>> laraxot/dev
 
         /* @phpstan-ignore-next-line -- Theme model is optional */
         Assert::assertIsBool($theme->needs_compilation);
@@ -76,9 +92,15 @@ describe('Theme Model', function (): void {
 
     test('theme can have parent theme', function (): void {
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
+<<<<<<< HEAD
         $parent = Theme::factory()->create(['name' => 'Parent Theme']);
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
         $child = Theme::factory()->create(['name' => 'Child Theme', 'parent_id' => $parent->id]);
+=======
+        $parent = Theme::factory()->createOne(['name' => 'Parent Theme']);
+        /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
+        $child = Theme::factory()->createOne(['name' => 'Child Theme', 'parent_id' => $parent->id]);
+>>>>>>> laraxot/dev
 
         /* @phpstan-ignore-next-line -- Theme model is optional */
         Assert::assertSame('Parent Theme', $child->parent->name);
@@ -86,7 +108,11 @@ describe('Theme Model', function (): void {
 
     test('theme can be active', function (): void {
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
+<<<<<<< HEAD
         $theme = Theme::factory()->create(['is_active' => true]);
+=======
+        $theme = Theme::factory()->createOne(['is_active' => true]);
+>>>>>>> laraxot/dev
 
         /* @phpstan-ignore-next-line -- Theme model is optional */
         Assert::assertTrue($theme->is_active);
@@ -94,7 +120,11 @@ describe('Theme Model', function (): void {
 
     test('theme can be inactive', function (): void {
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
+<<<<<<< HEAD
         $theme = Theme::factory()->create(['is_active' => false]);
+=======
+        $theme = Theme::factory()->createOne(['is_active' => false]);
+>>>>>>> laraxot/dev
 
         /* @phpstan-ignore-next-line -- Theme model is optional */
         Assert::assertFalse($theme->is_active);
@@ -102,7 +132,11 @@ describe('Theme Model', function (): void {
 
     test('theme has timestamps', function (): void {
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
+<<<<<<< HEAD
         $theme = Theme::factory()->create();
+=======
+        $theme = Theme::factory()->createOne();
+>>>>>>> laraxot/dev
 
         /* @phpstan-ignore-next-line -- Theme model is optional */
         Assert::assertNotNull($theme->created_at);

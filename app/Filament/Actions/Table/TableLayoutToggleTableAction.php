@@ -6,8 +6,12 @@ namespace Modules\UI\Filament\Actions\Table;
 
 use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords;
+<<<<<<< HEAD
 use Modules\UI\Enums\TableLayoutEnum;
 use Modules\UI\Filament\Traits\HasTableLayoutPage;
+=======
+use Modules\UI\Contracts\HasTableLayout;
+>>>>>>> laraxot/dev
 
 final class TableLayoutToggleTableAction extends Action implements HasTableLayout
 {
@@ -17,10 +21,19 @@ final class TableLayoutToggleTableAction extends Action implements HasTableLayou
     {
         parent::setUp();
 
+<<<<<<< HEAD
         $this->iconButton()
             ->label('')
             ->tooltip(fn (): string => $this->resolveTargetLayout()->getLabel())
             ->icon(fn (): string => $this->resolveTargetLayout()->getIcon())
+=======
+        $current = $this->getCurrentLayout();
+
+        $this->label(__('ui::table_layout.actions.toggle.label'))
+            ->tooltip($current->getLabel())
+            ->color($current->getColor())
+            ->icon($current->getIcon())
+>>>>>>> laraxot/dev
             ->action($this->toggleLayout(...));
     }
 
@@ -29,6 +42,7 @@ final class TableLayoutToggleTableAction extends Action implements HasTableLayou
         return 'table_layout_toggle';
     }
 
+<<<<<<< HEAD
     protected function toggleLayout(): void
     {
         $livewire = $this->getLivewire();
@@ -74,4 +88,17 @@ final class TableLayoutToggleTableAction extends Action implements HasTableLayou
 
         return $this->getCurrentLayout();
     }
+=======
+    protected function toggleLayout(?ListRecords $livewire): void
+    {
+        $currentLayout = $this->getCurrentLayout();
+        $newLayout = $currentLayout->toggle();
+
+        $this->setTableLayout($newLayout);
+
+        if ($livewire instanceof ListRecords) {
+            $livewire->dispatch('$refresh');
+        }
+    }
+>>>>>>> laraxot/dev
 }

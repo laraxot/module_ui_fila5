@@ -111,8 +111,16 @@ describe('Component Rendering Tests', function (): void {
     });
 
     test('reorganized components can be rendered in blade templates', function (): void {
+<<<<<<< HEAD
         try {
             $html = view('pub_theme::components.forms.input', [
+=======
+        Assert::assertTrue(View::exists('pub_theme::components.forms.input'));
+        /** @var view-string $viewName */
+        $viewName = 'pub_theme::components.forms.input';
+        try {
+            $html = view($viewName, [
+>>>>>>> laraxot/dev
                 'name' => 'test',
                 'type' => 'text',
                 'value' => 'test-value',
@@ -129,8 +137,15 @@ describe('Component Rendering Tests', function (): void {
             Assert::markTestSkipped('pub_theme utilities.button view is not available in this install.');
         }
 
+<<<<<<< HEAD
         try {
             $html = view('pub_theme::components.utilities.button', [
+=======
+        /** @var view-string $viewName */
+        $viewName = 'pub_theme::components.utilities.button';
+        try {
+            $html = view($viewName, [
+>>>>>>> laraxot/dev
                 'type' => 'button',
             ])->render();
         } catch (\Throwable $e) {
@@ -145,8 +160,15 @@ describe('Component Rendering Tests', function (): void {
             Assert::markTestSkipped('pub_theme data-display.card view is not available in this install.');
         }
 
+<<<<<<< HEAD
         try {
             $html = view('pub_theme::components.data-display.card', [
+=======
+        /** @var view-string $viewName */
+        $viewName = 'pub_theme::components.data-display.card';
+        try {
+            $html = view($viewName, [
+>>>>>>> laraxot/dev
                 'title' => 'Test Card',
                 'subtitle' => 'Test Subtitle',
             ])->render();
