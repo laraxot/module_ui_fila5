@@ -19,7 +19,7 @@ trait HasTableLayoutPage
     public TableLayoutEnum $layoutView = TableLayoutEnum::LIST;
 
     public function mountTableLayoutFromSession(
-        string $identifier = 'default'
+        string $identifier = 'default',
     ): void {
         $this->layoutView = $this->getCurrentLayout($identifier);
     }
@@ -49,7 +49,7 @@ trait HasTableLayoutPage
 
     public static function applyLayoutTo(
         object $livewire,
-        TableLayoutEnum $layout
+        TableLayoutEnum $layout,
     ): void {
         if (! self::isLayoutCapable($livewire)) {
             return;
