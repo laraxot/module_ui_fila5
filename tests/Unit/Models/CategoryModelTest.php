@@ -24,7 +24,7 @@ describe('Category Model', function (): void {
     });
 
     test('it has fillable attributes', function (): void {
-        $category = new Category;
+        $category = new Category();
         $expected = ['name', 'description', 'icon', 'parent_id', 'is_active', 'sort_order'];
 
         foreach ($expected as $field) {
