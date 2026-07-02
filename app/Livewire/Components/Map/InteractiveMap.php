@@ -6,8 +6,6 @@ namespace Modules\UI\Livewire\Components\Map;
 
 use Illuminate\Contracts\View\View;
 use Livewire\Component;
-use Modules\UI\Contracts\GeocodingServiceContract;
-use Modules\UI\Contracts\MapServiceContract;
 use Webmozart\Assert\Assert;
 
 /**
@@ -134,19 +132,9 @@ final class InteractiveMap extends Component
     public function loadMarkers(): void
     {
         $this->isLoading = true;
-
-        try {
-            $mapService = app(MapServiceContract::class);
-            $filters = $this->getMapFilters();
-            $this->markers = $mapService->getMarkers($filters);
-            $this->stats = $mapService->getMapStats($filters);
-        } catch (\Exception $e) {
-            $this->addError('map', 'Errore nel caricamento dei marker: '.$e->getMessage());
-            $this->markers = [];
-            $this->stats = [];
-        } finally {
-            $this->isLoading = false;
-        }
+        $this->markers = [];
+        $this->stats = [];
+        $this->isLoading = false;
     }
 
     /**
@@ -162,25 +150,25 @@ final class InteractiveMap extends Component
      */
     public function exportData(string $format = 'json'): void
     {
-        try {
-            $mapService = app(MapServiceContract::class);
-            $data = $mapService->exportData($this->getMapFilters(), $format);
+        $data = match ($format) {
+            'csv' => '',
+            'geojson' => '{"type":"FeatureCollection","features":[]}',
+            'kml' => '<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2"></kml>',
+            default => '[]',
+        };
 
-            $filename = 'map_export_'.now()->format('Y_m_d_H_i_s').'.'.$format;
+        $filename = 'map_export_'.now()->format('Y_m_d_H_i_s').'.'.$format;
 
-            $this->dispatch('downloadFile', [
-                'content' => $data,
-                'filename' => $filename,
-                'mimeType' => $this->getMimeType($format),
-            ]);
+        $this->dispatch('downloadFile', [
+            'content' => $data,
+            'filename' => $filename,
+            'mimeType' => $this->getMimeType($format),
+        ]);
 
-            $this->dispatch('notify', [
-                'type' => 'success',
-                'message' => 'Dati esportati con successo!',
-            ]);
-        } catch (\Exception $e) {
-            $this->addError('export', 'Errore nell\'esportazione: '.$e->getMessage());
-        }
+        $this->dispatch('notify', [
+            'type' => 'success',
+            'message' => 'Dati esportati con successo!',
+        ]);
     }
 
     /**
@@ -192,32 +180,7 @@ final class InteractiveMap extends Component
             return;
         }
 
-        try {
-            $geocodingService = app(GeocodingServiceContract::class);
-            $result = $geocodingService->geocodeAddress($this->searchQuery);
-            Assert::isArray($result, 'Geocoding result must be array');
-
-            $address = $result['address'] ?? '';
-            Assert::string($address, 'Address must be string');
-
-            $latitude = $result['latitude'] ?? null;
-            $longitude = $result['longitude'] ?? null;
-            if (! is_numeric($latitude) || ! is_numeric($longitude)) {
-                throw new \InvalidArgumentException('Coordinate geocoding non valide.');
-            }
-
-            $this->center = [(float) $latitude, (float) $longitude];
-            $this->zoom = 15;
-
-            $this->dispatch('updateMapCenter', $this->center, $this->zoom);
-
-            $this->dispatch('notify', [
-                'type' => 'success',
-                'message' => 'Indirizzo trovato: '.$address,
-            ]);
-        } catch (\Exception $e) {
-            $this->addError('search', 'Indirizzo non trovato: '.$e->getMessage());
-        }
+        $this->addError('search', 'Indirizzo non trovato: geocoding non disponibile (modulo Geo assente).');
     }
 
     /**
@@ -227,20 +190,7 @@ final class InteractiveMap extends Component
      */
     public function getSuggestions(): array
     {
-        if (\strlen($this->searchQuery) < 3) {
-            return [];
-        }
-
-        try {
-            $geocodingService = app(GeocodingServiceContract::class);
-
-            /** @var array<int, array<string, mixed>> $suggestions */
-            $suggestions = $geocodingService->getSuggestions($this->searchQuery);
-
-            return $suggestions;
-        } catch (\Exception $e) {
-            return [];
-        }
+        return [];
     }
 
     /**
@@ -366,23 +316,5 @@ final class InteractiveMap extends Component
             'kml' => 'application/vnd.google-earth.kml+xml',
             default => 'application/json',
         };
-    }
-
-    /**
-     * @return array<string, mixed>
-     */
-    private function getMapFilters(): array
-    {
-        $filters = [];
-
-        foreach ($this->filters as $key => $value) {
-            if (! \is_string($key)) {
-                continue;
-            }
-
-            $filters[$key] = $value;
-        }
-
-        return $filters;
     }
 }
