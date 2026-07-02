@@ -37,9 +37,13 @@ trait HasTableLayoutPage
             return null;
         }
 
-        return (function (): TableLayoutEnum {
-            return $this->layoutView;
-        })->call($livewire);
+        if (! property_exists($livewire, 'layoutView')) {
+            return null;
+        }
+
+        $layout = $livewire->layoutView;
+
+        return $layout instanceof TableLayoutEnum ? $layout : null;
     }
 
     public static function applyLayoutTo(object $livewire, TableLayoutEnum $layout): void
@@ -48,8 +52,10 @@ trait HasTableLayoutPage
             return;
         }
 
-        (function (TableLayoutEnum $layout): void {
-            $this->layoutView = $layout;
-        })->call($livewire, $layout);
+        if (! property_exists($livewire, 'layoutView')) {
+            return;
+        }
+
+        $livewire->layoutView = $layout;
     }
 }

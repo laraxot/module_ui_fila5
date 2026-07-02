@@ -7,10 +7,10 @@ namespace Modules\UI\Tests;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Support\Facades\DB;
-use Modules\Fixcity\Models\User;
 use Modules\UI\Providers\UIServiceProvider;
 use Modules\UI\Tests\Support\EnsuresUiDatabaseSchema;
 use Modules\User\Providers\UserServiceProvider;
+use Modules\Xot\Datas\XotData;
 use Modules\Xot\Tests\XotBaseTestCase;
 
 /**
@@ -56,7 +56,7 @@ abstract class TestCase extends XotBaseTestCase
             DB::purge($connection);
         }
 
-        config(['auth.providers.users.model' => User::class]);
+        config(['auth.providers.users.model' => XotData::make()->getUserClass()]);
 
         $this->ensureUiSchema();
     }
