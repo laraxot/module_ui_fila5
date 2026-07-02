@@ -29,7 +29,7 @@ function createTestCalendarWidget(): UserCalendarWidget
 }
 
 beforeEach(function (): void {
-    /** @var \Modules\UI\Tests\TestCase $this */
+    /* @var \Modules\UI\Tests\TestCase $this */
     $this->mockService(SaveTransAction::class, static function (\Mockery\MockInterface $mock): void {
         /** @var \Mockery\ExpectationInterface $expectation */
         $expectation = $mock->shouldReceive('execute');
