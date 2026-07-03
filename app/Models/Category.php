@@ -16,10 +16,10 @@ use Modules\Xot\Models\BaseModel;
  */
 /**
  * @property string               $id
-<<<<<<< HEAD
+ *                                             <<<<<<< HEAD
  * @property string|null          $name
-=======
->>>>>>> c001364 (.)
+ *                                             =======
+ *                                             >>>>>>> c001364 (.)
  * @property string               $title
  * @property string               $slug
  * @property int|null             $parent_id
