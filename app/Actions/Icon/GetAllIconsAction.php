@@ -16,7 +16,11 @@ class GetAllIconsAction
     /**
      * @return array<string, array<string, mixed>>
      */
+<<<<<<< HEAD
     public function execute(string $context = 'form'): array
+=======
+    public function execute(string $_context = 'form'): array
+>>>>>>> c001364 (.)
     {
         $iconsFactory = App::make(IconFactory::class);
 

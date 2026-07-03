@@ -49,13 +49,19 @@ class LocationSelector extends XotBaseGroup
     /**
      * Label personalizzate per i campi.
      */
+<<<<<<< HEAD
     /** @var array<string, string> */
+=======
+>>>>>>> c001364 (.)
     protected array $labels = [];
 
     /**
      * Placeholder personalizzati per i campi.
+<<<<<<< HEAD
      *
      * @var array<string, string>
+=======
+>>>>>>> c001364 (.)
      */
     protected array $placeholders = [];
 
@@ -147,9 +153,12 @@ class LocationSelector extends XotBaseGroup
     /**
      * Validazione custom per verificare la coerenza dei dati.
      */
+<<<<<<< HEAD
     /**
      * @return list<string>
      */
+=======
+>>>>>>> c001364 (.)
     public function validate(): array
     {
         $state = $this->getState();
@@ -350,6 +359,31 @@ class LocationSelector extends XotBaseGroup
         }
     }
 
+<<<<<<< HEAD
+=======
+    /**
+     * @return array<string, string>
+     */
+    private static function normalizeStringOptions(mixed $options): array
+    {
+        if (! \is_array($options)) {
+            return [];
+        }
+
+        $normalizedOptions = [];
+
+        foreach ($options as $key => $value) {
+            if (! \is_string($value) && ! \is_int($value)) {
+                continue;
+            }
+
+            $normalizedOptions[(string) $key] = (string) $value;
+        }
+
+        return $normalizedOptions;
+    }
+
+>>>>>>> c001364 (.)
     protected function getComuneFromState(mixed $state): ?Comune
     {
         if (! \is_array($state)) {
@@ -394,6 +428,7 @@ class LocationSelector extends XotBaseGroup
             'city' => $comune->nome ?? null,
         ];
     }
+<<<<<<< HEAD
 
     /**
      * @return array<string, string>
@@ -416,4 +451,6 @@ class LocationSelector extends XotBaseGroup
 
         return $normalizedOptions;
     }
+=======
+>>>>>>> c001364 (.)
 }

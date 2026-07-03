@@ -44,9 +44,12 @@ class YearSelect extends XotBaseSelect
         return $this;
     }
 
+<<<<<<< HEAD
     /**
      * @return array<int, string>
      */
+=======
+>>>>>>> c001364 (.)
     protected function getYearsOptions(): array
     {
         $currentYear = Carbon::now()->year;

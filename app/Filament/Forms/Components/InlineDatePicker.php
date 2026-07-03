@@ -63,7 +63,11 @@ class InlineDatePicker extends XotBaseDatePicker
             }
         });
 
+<<<<<<< HEAD
         $this->dehydrateStateUsing(static function (self $component, mixed $state): ?string {
+=======
+        $this->dehydrateStateUsing(static function (self $_component, mixed $state): ?string {
+>>>>>>> c001364 (.)
             if (null !== $state && \is_string($state) && '' !== $state) {
                 try {
                     return Carbon::parse($state)->format('Y-m-d');
@@ -238,13 +242,23 @@ class InlineDatePicker extends XotBaseDatePicker
             $weeks->push($week->toArray());
         }
 
+<<<<<<< HEAD
         return [
+=======
+        $res = [
+>>>>>>> c001364 (.)
             'weeks' => $weeks->toArray(),
             'month' => $targetMonth,
             'monthName' => $targetMonth->translatedFormat('F'),
             'year' => $targetMonth->year,
             'weekdays' => $this->getLocalizedWeekdays(),
         ];
+<<<<<<< HEAD
+=======
+
+        /* @var array<string, mixed> $res */
+        return $res;
+>>>>>>> c001364 (.)
     }
 
     /**
@@ -256,7 +270,11 @@ class InlineDatePicker extends XotBaseDatePicker
     {
         $calendarData = $this->generateCalendarData();
 
+<<<<<<< HEAD
         return array_merge(parent::getViewData(), [
+=======
+        $res = array_merge(parent::getViewData(), [
+>>>>>>> c001364 (.)
             'calendarData' => $calendarData,
             'currentViewMonth' => $this->currentViewMonth,
             'currentValue' => $this->getState(),
@@ -266,6 +284,12 @@ class InlineDatePicker extends XotBaseDatePicker
             'year' => $calendarData['year'],
             'weekdays' => $calendarData['weekdays'],
         ]);
+<<<<<<< HEAD
+=======
+
+        /* @var array<string, mixed> $res */
+        return $res;
+>>>>>>> c001364 (.)
     }
 
     /**

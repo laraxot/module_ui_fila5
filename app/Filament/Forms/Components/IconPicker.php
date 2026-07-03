@@ -11,7 +11,10 @@ use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Components\Utilities\Set;
 use Illuminate\Support\Arr;
 use Modules\UI\Actions\Icon\GetAllIconsAction;
+<<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
+=======
+>>>>>>> c001364 (.)
 use Webmozart\Assert\Assert;
 
 class IconPicker extends TextInput
@@ -27,11 +30,20 @@ class IconPicker extends TextInput
         $packsKeys = $packs;
         $packsCombined = array_combine($packsKeys, $packsKeys);
         /** @var array<string, string> $packs */
+<<<<<<< HEAD
         $packs = $packsCombined ? $packsCombined : [];
+=======
+        $packs = $packsCombined ?: [];
+        // dddx($icons->toCollection()->get('heroicons')->toArray());
+>>>>>>> c001364 (.)
 
         $this->suffixAction(
             Action::make('icon')
                 ->icon(static fn (?string $state) => $state)
+<<<<<<< HEAD
+=======
+                // ->modalContent(fn ($record) => view('ui::filament.forms.components.icon-picker', ['record' => $record]))
+>>>>>>> c001364 (.)
                 ->schema([
                     Select::make('pack')
                         ->options(static function () use ($packs): array {
@@ -52,6 +64,7 @@ class IconPicker extends TextInput
                                 '['.__LINE__.']['.class_basename($this).']',
                             );
                             /** @var array<int|string, mixed> $optsRaw */
+<<<<<<< HEAD
                             $optsValues = array_map(
                                 static fn ($v) => SafeStringCastAction::cast($v),
                                 array_values($optsRaw),
@@ -61,6 +74,23 @@ class IconPicker extends TextInput
                                 static fn ($k) => SafeStringCastAction::cast($k),
                                 array_keys($optsRaw),
                             );
+=======
+                            $optsValues = array_map(static fn ($v) => \is_string($v) ? $v : (string) $v, array_values($optsRaw));
+                            /** @var array<int|string> $optsKeys */
+                            $optsKeys = array_map(static fn ($k) => \is_string($k) ? $k : (string) $k, array_keys($optsRaw));
+                            $optsValues = array_map(static fn ($v) => \is_string($v) ? $v : (string) $v, array_values($optsRaw));
+                            /** @var array<int|string> $optsKeys */
+                            $optsKeys = array_map(static fn ($k) => \is_string($k) ? $k : (string) $k, array_keys($optsRaw));
+                            $optsValues = array_map(static fn ($v) => \is_string($v) ? $v : (string) $v, array_values($optsRaw));
+                            /** @var array<int|string> $optsKeys */
+                            $optsKeys = array_map(static fn ($k) => \is_string($k) ? $k : (string) $k, array_keys($optsRaw));
+                            $optsValues = array_map(static fn ($v) => \is_string($v) ? $v : (string) $v, array_values($optsRaw));
+                            /** @var array<int|string> $optsKeys */
+                            $optsKeys = array_map(static fn ($k) => \is_string($k) ? $k : (string) $k, array_keys($optsRaw));
+                            $optsValues = array_map(static fn ($v) => \is_string($v) ? $v : (string) $v, array_values($optsRaw));
+                            /** @var array<int|string> $optsKeys */
+                            $optsKeys = array_map(static fn ($k) => \is_string($k) ? $k : (string) $k, array_keys($optsRaw));
+>>>>>>> c001364 (.)
                             $optsCombined = array_combine($optsKeys, $optsValues);
 
                             return $optsCombined ? $optsCombined : [];

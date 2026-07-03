@@ -33,9 +33,12 @@ final class Slider
             ->columns(1);
     }
 
+<<<<<<< HEAD
     /**
      * @return array<int|string, \Filament\Schemas\Components\Component>
      */
+=======
+>>>>>>> c001364 (.)
     public static function getFormSchema(): array
     {
         return [

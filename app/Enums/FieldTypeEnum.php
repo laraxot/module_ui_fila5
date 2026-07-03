@@ -9,10 +9,17 @@ declare(strict_types=1);
 
 namespace Modules\UI\Enums;
 
+<<<<<<< HEAD
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasLabel;
 use Modules\Xot\Traits\EnumTrait;
+=======
+use Modules\Xot\Traits\EnumTrait;
+use Filament\Support\Contracts\HasColor;
+use Filament\Support\Contracts\HasIcon;
+use Filament\Support\Contracts\HasLabel;
+>>>>>>> c001364 (.)
 
 /**
  * Defines the different types of appointments in the system.
@@ -38,4 +45,15 @@ enum FieldTypeEnum: string implements HasColor, HasIcon, HasLabel
     case DATE = 'date';
     case TIME = 'time';
     case DATETIME = 'datetime';
+<<<<<<< HEAD
+=======
+
+    
+
+    
+
+    
+
+    
+>>>>>>> c001364 (.)
 }

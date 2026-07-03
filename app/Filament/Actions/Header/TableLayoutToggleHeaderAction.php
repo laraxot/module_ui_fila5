@@ -50,7 +50,11 @@ class TableLayoutToggleHeaderAction extends Action
              * /*
              * @param object{layoutView?: string|null} $livewire
              */
+<<<<<<< HEAD
             ->action(static function (object $livewire): void {
+=======
+            ->action(function (object $livewire): void {
+>>>>>>> c001364 (.)
                 // ✅ isset() invece di property_exists() - funziona con magic properties Livewire
                 if (! isset($livewire->layoutView)) {
                     return;

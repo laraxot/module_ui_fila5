@@ -6,6 +6,11 @@ namespace Modules\UI\Livewire\Components\Map;
 
 use Illuminate\Contracts\View\View;
 use Livewire\Component;
+<<<<<<< HEAD
+=======
+use Modules\Geo\Services\GeocodingService;
+use Modules\Geo\Services\MapService;
+>>>>>>> c001364 (.)
 use Webmozart\Assert\Assert;
 
 /**
@@ -16,12 +21,18 @@ use Webmozart\Assert\Assert;
  */
 final class InteractiveMap extends Component
 {
+<<<<<<< HEAD
     /** @var array{0: float, 1: float} */
+=======
+>>>>>>> c001364 (.)
     public array $center = [45.4642, 9.1900]; // Milano
 
     public int $zoom = 10;
 
+<<<<<<< HEAD
     /** @var array<int, array<string, mixed>> */
+=======
+>>>>>>> c001364 (.)
     public array $markers = [];
 
     /** @var array<string, mixed> */
@@ -36,10 +47,15 @@ final class InteractiveMap extends Component
         'location_types' => [],
     ];
 
+<<<<<<< HEAD
     /** @var array<string, mixed>|null */
     public ?array $selectedMarker = null;
 
     /** @var array<string, mixed> */
+=======
+    public ?array $selectedMarker = null;
+
+>>>>>>> c001364 (.)
     public array $stats = [];
 
     public bool $showControls = true;
@@ -61,8 +77,13 @@ final class InteractiveMap extends Component
     ];
 
     /**
+<<<<<<< HEAD
      * @param array{0: float, 1: float}|null $center
      * @param array<string, mixed>           $filters
+=======
+     * @param array<string, mixed> $filters
+     * @param array<string, mixed> $filters
+>>>>>>> c001364 (.)
      */
     public function mount(?array $center = null, ?int $zoom = null, array $filters = []): void
     {
@@ -117,9 +138,12 @@ final class InteractiveMap extends Component
     /**
      * Aggiorna i bounds della mappa.
      */
+<<<<<<< HEAD
     /**
      * @param array<string, float> $bounds
      */
+=======
+>>>>>>> c001364 (.)
     public function updateBounds(array $bounds): void
     {
         $this->filters['bounds'] = $bounds;
@@ -132,9 +156,25 @@ final class InteractiveMap extends Component
     public function loadMarkers(): void
     {
         $this->isLoading = true;
+<<<<<<< HEAD
         $this->markers = [];
         $this->stats = [];
         $this->isLoading = false;
+=======
+
+        try {
+            $mapService = app(MapService::class);
+            $filters = $this->getMapFilters();
+            $this->markers = $mapService->getMarkers($filters);
+            $this->stats = $mapService->getMapStats($filters);
+        } catch (\Exception $e) {
+            $this->addError('map', 'Errore nel caricamento dei marker: '.$e->getMessage());
+            $this->markers = [];
+            $this->stats = [];
+        } finally {
+            $this->isLoading = false;
+        }
+>>>>>>> c001364 (.)
     }
 
     /**
@@ -150,6 +190,7 @@ final class InteractiveMap extends Component
      */
     public function exportData(string $format = 'json'): void
     {
+<<<<<<< HEAD
         $data = match ($format) {
             'csv' => '',
             'geojson' => '{"type":"FeatureCollection","features":[]}',
@@ -169,6 +210,27 @@ final class InteractiveMap extends Component
             'type' => 'success',
             'message' => 'Dati esportati con successo!',
         ]);
+=======
+        try {
+            $mapService = app(MapService::class);
+            $data = $mapService->exportData($this->getMapFilters(), $format);
+
+            $filename = 'map_export_'.now()->format('Y_m_d_H_i_s').'.'.$format;
+
+            $this->dispatch('downloadFile', [
+                'content' => $data,
+                'filename' => $filename,
+                'mimeType' => $this->getMimeType($format),
+            ]);
+
+            $this->dispatch('notify', [
+                'type' => 'success',
+                'message' => 'Dati esportati con successo!',
+            ]);
+        } catch (\Exception $e) {
+            $this->addError('export', 'Errore nell\'esportazione: '.$e->getMessage());
+        }
+>>>>>>> c001364 (.)
     }
 
     /**
@@ -180,17 +242,60 @@ final class InteractiveMap extends Component
             return;
         }
 
+<<<<<<< HEAD
         $this->addError('search', 'Indirizzo non trovato: geocoding non disponibile (modulo Geo assente).');
+=======
+        try {
+            $geocodingService = app(GeocodingService::class);
+            $result = $geocodingService->geocodeAddress($this->searchQuery);
+            Assert::isArray($result, 'Geocoding result must be array');
+
+            $address = $result['address'] ?? '';
+            Assert::string($address, 'Address must be string');
+
+            $this->center = [$result['latitude'], $result['longitude']];
+            $this->zoom = 15;
+
+            $this->dispatch('updateMapCenter', $this->center, $this->zoom);
+
+            $this->dispatch('notify', [
+                'type' => 'success',
+                'message' => 'Indirizzo trovato: '.$address,
+            ]);
+        } catch (\Exception $e) {
+            $this->addError('search', 'Indirizzo non trovato: '.$e->getMessage());
+        }
+>>>>>>> c001364 (.)
     }
 
     /**
      * Ottiene suggerimenti per la ricerca.
+<<<<<<< HEAD
      *
      * @return array<int, array<string, mixed>>
      */
     public function getSuggestions(): array
     {
         return [];
+=======
+     */
+    public function getSuggestions(): array
+    {
+        if (\strlen($this->searchQuery) < 3) {
+            return [];
+        }
+
+        try {
+            $geocodingService = app(GeocodingService::class);
+
+            /** @var array<int, array<string, mixed>> $suggestions */
+            $suggestions = $geocodingService->getSuggestions($this->searchQuery);
+
+            return $suggestions;
+        } catch (\Exception $e) {
+            return [];
+        }
+>>>>>>> c001364 (.)
     }
 
     /**
@@ -281,6 +386,7 @@ final class InteractiveMap extends Component
 
     /**
      * Ottiene le proprietà computate.
+<<<<<<< HEAD
      *
      * @return array<string, int>
      */
@@ -293,6 +399,15 @@ final class InteractiveMap extends Component
             ->all();
 
         return $grouped;
+=======
+     */
+    public function getMarkersByTypeProperty(): array
+    {
+        return collect($this->markers)
+            ->groupBy('type')
+            ->map(static fn ($markers) => $markers->count())
+            ->toArray();
+>>>>>>> c001364 (.)
     }
 
     public function getVisibleMarkersCountProperty(): int
@@ -317,4 +432,25 @@ final class InteractiveMap extends Component
             default => 'application/json',
         };
     }
+<<<<<<< HEAD
+=======
+
+    /**
+     * @return array<string, mixed>
+     */
+    private function getMapFilters(): array
+    {
+        $filters = [];
+
+        foreach ($this->filters as $key => $value) {
+            if (! \is_string($key)) {
+                continue;
+            }
+
+            $filters[$key] = $value;
+        }
+
+        return $filters;
+    }
+>>>>>>> c001364 (.)
 }

@@ -29,10 +29,13 @@ return [
         'confirm_password' => 'Conferma Password',
         'save' => 'Salva',
         'update' => 'Aggiorna',
+<<<<<<< HEAD
         'services' => 'I miei servizi',
         'practices' => 'Le mie pratiche',
         'notifications' => 'Notifiche',
         'logout' => 'Esci',
+=======
+>>>>>>> c001364 (.)
     ],
     'user_dropdown' => [
         'manage_account' => 'Gestione Account',
@@ -42,6 +45,16 @@ return [
         'login_link' => 'Accedi',
         'register_link' => 'Registrati',
     ],
+<<<<<<< HEAD
+=======
+    'user_menu_profile' => [
+        'services' => 'I miei servizi',
+        'practices' => 'Le mie pratiche',
+        'notifications' => 'Notifiche',
+        'settings' => 'Impostazioni',
+        'logout' => 'Esci',
+    ],
+>>>>>>> c001364 (.)
     'logout' => [
         'title' => 'Logout',
         'confirm_message' => 'Sei sicuro di voler effettuare il logout?',

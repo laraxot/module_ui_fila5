@@ -13,7 +13,10 @@ use Filament\Tables\Columns\IconColumn;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
+<<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
+=======
+>>>>>>> c001364 (.)
 use Modules\Xot\Contracts\StateContract as XotStateContract;
 
 class IconStateColumn extends IconColumn
@@ -23,6 +26,7 @@ class IconStateColumn extends IconColumn
         parent::setUp();
         // $this->getStateUsing(fn() => true); // the column requires a state to be passed to it
 
+<<<<<<< HEAD
         $this->icon(static function (XotStateContract $state) {
             return $state->icon();
         });
@@ -32,6 +36,17 @@ class IconStateColumn extends IconColumn
         });
 
         $this->tooltip(static function (XotStateContract $state) {
+=======
+        $this->icon(function (XotStateContract $state) {
+            return $state->icon();
+        });
+
+        $this->color(function (XotStateContract $state) {
+            return $state->color();
+        });
+
+        $this->tooltip(function (XotStateContract $state) {
+>>>>>>> c001364 (.)
             return $state->label();
         });
         // $this->label('aaa');
@@ -82,7 +97,11 @@ class IconStateColumn extends IconColumn
                                 return [];
                             }
 
+<<<<<<< HEAD
                             return Arr::mapWithKeys($statesArray, static function (mixed $stateItem) use ($record): array {
+=======
+                            return Arr::mapWithKeys($statesArray, function (mixed $stateItem) use ($record): array {
+>>>>>>> c001364 (.)
                                 if (! is_string($stateItem)) {
                                     return [];
                                 }
@@ -111,7 +130,11 @@ class IconStateColumn extends IconColumn
                             return false;
                         }
 
+<<<<<<< HEAD
                         $newStateClass = Arr::get($statesArray, SafeStringCastAction::cast($newState));
+=======
+                        $newStateClass = Arr::get($statesArray, (string) $newState);
+>>>>>>> c001364 (.)
                         if (! is_string($newStateClass) || ! class_exists($newStateClass)) {
                             return false;
                         }

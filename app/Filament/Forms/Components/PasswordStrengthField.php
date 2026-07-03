@@ -23,7 +23,11 @@ class PasswordStrengthField extends TextInput
 
     public function evaluateStrength(): static
     {
+<<<<<<< HEAD
         $this->afterStateUpdated(static function (string $state): void {
+=======
+        $this->afterStateUpdated(function (string $state): void {
+>>>>>>> c001364 (.)
             unset($state);
             // $zxcvbn = new Zxcvbn();
             // $result = $zxcvbn->passwordStrength($state);

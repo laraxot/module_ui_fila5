@@ -43,10 +43,13 @@ return [
         'confirm_password' => 'Confirm Password',
         'save' => 'Save',
         'update' => 'Update',
+<<<<<<< HEAD
         'services' => 'My Services',
         'practices' => 'My Practices',
         'notifications' => 'Notifications',
         'logout' => 'Log Out',
+=======
+>>>>>>> c001364 (.)
     ],
     'user_dropdown' => [
         'manage_account' => 'Account Management',
@@ -56,6 +59,16 @@ return [
         'login_link' => 'Sign in',
         'register_link' => 'Register',
     ],
+<<<<<<< HEAD
+=======
+    'profile_services' => [
+        'services' => 'My Services',
+        'practices' => 'My Practices',
+        'notifications' => 'Notifications',
+        'settings' => 'Settings',
+        'logout' => 'Log Out',
+    ],
+>>>>>>> c001364 (.)
     'navigation' => [
         'open_menu' => 'Open main menu',
         'close_menu' => 'Close main menu',
