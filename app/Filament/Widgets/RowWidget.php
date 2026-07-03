@@ -13,10 +13,15 @@ use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 abstract class RowWidget extends XotBaseSchemaWidget
 {
+<<<<<<< HEAD
     /** @var array<string, int|string> */
     public array $grid = [];
 
     /** @var array<int, class-string> */
+=======
+    public array $grid = [];
+
+>>>>>>> c001364 (.)
     public array $widgets = [];
 
     protected string $view = 'ui::filament.widgets.row';

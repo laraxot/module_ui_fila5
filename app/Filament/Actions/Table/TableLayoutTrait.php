@@ -35,7 +35,11 @@ trait TableLayoutTrait
             }
         }
 
+<<<<<<< HEAD
         return TableLayoutEnum::LIST;
+=======
+        return TableLayoutEnum::GRID;
+>>>>>>> c001364 (.)
     }
 
     /**

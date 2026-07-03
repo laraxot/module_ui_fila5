@@ -94,12 +94,17 @@ class RadioCardSelector extends XotBaseField
     }
 
     /**
+<<<<<<< HEAD
      * @return array<int, array<string, mixed>>
+=======
+     * Ottiene le card per la visualizzazione.
+>>>>>>> c001364 (.)
      */
     public function getCards(): array
     {
         $result = $this->evaluate($this->cards);
 
+<<<<<<< HEAD
         if (! \is_array($result)) {
             return [];
         }
@@ -115,6 +120,9 @@ class RadioCardSelector extends XotBaseField
         }
 
         return $cards;
+=======
+        return \is_array($result) ? $result : [];
+>>>>>>> c001364 (.)
     }
 
     /**
@@ -156,6 +164,7 @@ class RadioCardSelector extends XotBaseField
     {
         return $this->emptyStateDesc;
     }
+<<<<<<< HEAD
 
     /**
      * @param array<mixed, mixed> $item
@@ -176,4 +185,6 @@ class RadioCardSelector extends XotBaseField
 
         return $card;
     }
+=======
+>>>>>>> c001364 (.)
 }

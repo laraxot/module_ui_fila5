@@ -140,6 +140,11 @@ La soluzione semplice è la migliore perché:
 
 ---
 
+<<<<<<< HEAD
+=======
+**Last Updated**: June 2025
+**Version**: 2.3
+>>>>>>> c001364 (.)
 
 **Compatibility**: Filament 3.x, Laravel 10.x
 # IconStateSplitColumn Actions Implementation - Soluzione Semplice
@@ -284,7 +289,16 @@ La soluzione semplice è la migliore perché:
 
 ---
 
+<<<<<<< HEAD
 
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
+=======
+**Last Updated**: June 2025
+**Version**: 2.3
+
+**Compatibility**: Filament 3.x, Laravel 10.x
+**Compatibility**: Filament 3.x, Laravel 10.x
+**Compatibility**: Filament 3.x, Laravel 10.x
+>>>>>>> c001364 (.)

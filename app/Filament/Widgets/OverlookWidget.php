@@ -27,7 +27,10 @@ final class OverlookWidget extends XotBaseSchemaWidget
      * ];
      */
 
+<<<<<<< HEAD
     /** @var array<int, array<string, mixed>> */
+=======
+>>>>>>> c001364 (.)
     public array $stats = [];
 
     protected string $view = 'ui::filament.widgets.overlook';

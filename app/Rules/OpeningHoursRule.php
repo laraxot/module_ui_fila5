@@ -43,27 +43,41 @@ class OpeningHoursRule implements ValidationRule
                 continue;
             }
 
+<<<<<<< HEAD
             /** @var array<string, mixed> $typedDayHours */
             $typedDayHours = $dayHours;
 
+=======
+>>>>>>> c001364 (.)
             // Type narrowing per dayLabel
             $dayLabelString = \is_string($dayLabel) ? $dayLabel : (string) $dayLabel;
 
             // Valida ogni sessione (mattina e pomeriggio)
+<<<<<<< HEAD
             $this->validateSession($typedDayHours, 'morning', $dayLabelString, $fail);
             $this->validateSession($typedDayHours, 'afternoon', $dayLabelString, $fail);
 
             // Valida la coerenza tra sessioni dello stesso giorno
             $this->validateDayLogic($typedDayHours, $dayLabelString, $fail);
+=======
+            $this->validateSession($dayHours, 'morning', $dayLabelString, $fail);
+            $this->validateSession($dayHours, 'afternoon', $dayLabelString, $fail);
+
+            // Valida la coerenza tra sessioni dello stesso giorno
+            $this->validateDayLogic($dayHours, $dayLabelString, $fail);
+>>>>>>> c001364 (.)
         }
     }
 
     /**
      * Valida la coerenza tra le sessioni dello stesso giorno.
      */
+<<<<<<< HEAD
     /**
      * @param array<string, mixed> $dayHours
      */
+=======
+>>>>>>> c001364 (.)
     private function validateDayLogic(array $dayHours, string $dayLabel, \Closure $fail): void
     {
         $morningTo = $this->cleanTimeValue($dayHours['morning_to'] ?? null);
@@ -80,9 +94,12 @@ class OpeningHoursRule implements ValidationRule
     /**
      * Valida una sessione specifica (mattina o pomeriggio).
      */
+<<<<<<< HEAD
     /**
      * @param array<string, mixed> $dayHours
      */
+=======
+>>>>>>> c001364 (.)
     private function validateSession(array $dayHours, string $session, string $dayLabel, \Closure $fail): void
     {
         $fromKey = "{$session}_from";

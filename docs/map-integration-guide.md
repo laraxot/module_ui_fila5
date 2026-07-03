@@ -1,11 +1,16 @@
 # 🗺️ GUIDA INTEGRAZIONE MAPPA INTERATTIVA
 
 **Modulo**: UI (User Interface)
+<<<<<<< HEAD
+=======
+**Data**: 2025-01-27
+>>>>>>> c001364 (.)
 **Versione**: 1.0
 **Stato**: 🚧 IN SVILUPPO
 
 ---
 
+<<<<<<< HEAD
 ## ⚠️ STATO ATTUALE (2026-07-02)
 
 Questo documento descrive una visione/roadmap per l'integrazione mappa, **mai completata**. Il codice
@@ -44,6 +49,8 @@ implementazione reale come quella appena rimossa.
 
 ---
 
+=======
+>>>>>>> c001364 (.)
 ## 🎯 PANORAMICA
 
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
@@ -622,6 +629,10 @@ class GeocodingService
 - [Livewire Components](https://laravel-livewire.com/docs/2.x/quickstart)
 
 ### 📖 Documentazione Correlata
+<<<<<<< HEAD
+=======
+- [Farmshops.eu Analysis](../Geo/docs/farmshops-analysis.md)
+>>>>>>> c001364 (.)
 - [Farmshops.eu Analysis](../geo/docs/farmshops-analysis.md)
 - [Geo Module Documentation](../Geo/docs/)
 - [UI Component API](component-api.md)
@@ -629,10 +640,19 @@ class GeocodingService
 
 ---
 
+<<<<<<< HEAD
+=======
+**Last Updated**: 2025-01-27
+**Next Review**: 2025-02-27
+>>>>>>> c001364 (.)
 
 **Status**: 🚧 IN SVILUPPO
 **Confidence Level**: 90%
 
 ---
 
+<<<<<<< HEAD
 *Questa guida fornisce le basi per implementare funzionalità mappa interattiva nel modulo UI, migliorando significativamente l'esperienza utente con visualizzazioni geografiche avanzate.*
+=======
+*Questa guida fornisce le basi per implementare funzionalità mappa interattiva nel modulo UI, migliorando significativamente l'esperienza utente con visualizzazioni geografiche avanzate.*
+>>>>>>> c001364 (.)

@@ -185,6 +185,10 @@ Quando serve fare type narrowing di una variabile usata più volte, estrarre il 
 
 - [PHPStan Level 10 Documentation](https://phpstan.org/user-guide/rule-levels)
 - [PHPStan Compliance Report](phpstan-compliance.md)
+<<<<<<< HEAD
+=======
+- [UI Module README](README.md)
+>>>>>>> c001364 (.)
 - [UI Module README](readme.md)
 - [Architecture Rules](architecture_rules.md)
 
@@ -194,3 +198,7 @@ Quando serve fare type narrowing di una variabile usata più volte, estrarre il 
 
 ---
 
+<<<<<<< HEAD
+=======
+*Ultimo aggiornamento: 11 Novembre 2025*
+>>>>>>> c001364 (.)

@@ -7,9 +7,12 @@ namespace Modules\UI\Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\UI\Models\FieldOption;
 
+<<<<<<< HEAD
 /**
  * @extends Factory<FieldOption>
  */
+=======
+>>>>>>> c001364 (.)
 class FieldOptionFactory extends Factory
 {
     /**
