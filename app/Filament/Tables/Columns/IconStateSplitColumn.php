@@ -9,10 +9,7 @@ use Filament\Notifications\Notification;
 use Filament\Tables\Columns\Column;
 use Illuminate\Database\Eloquent\Model;
 use Livewire\Attributes\On;
-<<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
-=======
->>>>>>> c001364 (.)
 use Modules\Xot\Contracts\StateContract;
 
 /**
@@ -36,13 +33,8 @@ final class IconStateSplitColumn extends Column
     /**
      * Configure the state class and model class for this column.
      *
-     * @param string $stateClass The state machine class (e.g., AppointmentState::class)
-     * @param string $modelClass The model class (e.g., Appointment::class)
-<<<<<<< HEAD
-=======
-     * @param string $stateClass The state machine class (e.g., AppointmentState::class)
-     * @param string $modelClass The model class (e.g., Appointment::class)
->>>>>>> c001364 (.)
+     * @param  string  $stateClass  The state machine class (e.g., AppointmentState::class)
+     * @param  string  $modelClass  The model class (e.g., Appointment::class)
      */
     public function stateClass(string $stateClass, string $modelClass): static
     {
@@ -68,7 +60,6 @@ final class IconStateSplitColumn extends Column
                 continue;
             }
 
-<<<<<<< HEAD
             $labelString = SafeStringCastAction::cast($stateInstance->label());
 
             $result[$stateKey] = [
@@ -76,15 +67,6 @@ final class IconStateSplitColumn extends Column
                 'icon' => SafeStringCastAction::cast($stateInstance->icon()),
                 'label' => $labelString,
                 'color' => SafeStringCastAction::cast($stateInstance->color()),
-=======
-            $labelString = (string) $stateInstance->label();
-
-            $result[$stateKey] = [
-                'class' => $stateInstance,
-                'icon' => (string) $stateInstance->icon(),
-                'label' => $labelString,
-                'color' => (string) $stateInstance->color(),
->>>>>>> c001364 (.)
                 'tooltip' => $labelString,
             ];
         }
@@ -147,7 +129,7 @@ final class IconStateSplitColumn extends Column
     #[On('table-action')]
     public function handleTableAction(string $action, int|string $recordId): void
     {
-        if ('prova' === $action) {
+        if ($action === 'prova') {
             $this->prova($recordId);
         }
     }
@@ -229,11 +211,7 @@ final class IconStateSplitColumn extends Column
             ->icon('heroicon-m-plus')
             ->color('primary')
             ->action(static function () use ($record): void {
-<<<<<<< HEAD
                 $recordId = $record && isset($record->id) ? SafeStringCastAction::cast($record->id) : 'N/A';
-=======
-                $recordId = $record && isset($record->id) ? ((string) $record->id) : 'N/A';
->>>>>>> c001364 (.)
                 Notification::make()
                     ->title(__('ui::actions.prova.title'))
                     ->body(__('ui::actions.prova.body', ['id' => $recordId]))
@@ -243,26 +221,18 @@ final class IconStateSplitColumn extends Column
     }
 
     /**
-     * @param array{class: StateContract, icon: string, label: string, color: string, tooltip: string} $stateData
-<<<<<<< HEAD
-=======
-     * @param array{class: StateContract, icon: string, label: string, color: string, tooltip: string} $stateData
->>>>>>> c001364 (.)
+     * @param  array{class: StateContract, icon: string, label: string, color: string, tooltip: string}  $stateData
      */
     private function getTransitionAction(string $stateKey, array $stateData): ?Action
     {
         $record = $this->getRecord();
         $recordIdRaw = \is_object($record) && isset($record->id) ? $record->id : null;
 
-        if (null === $recordIdRaw || (! \is_int($recordIdRaw) && ! \is_string($recordIdRaw))) {
+        if ($recordIdRaw === null || (! \is_int($recordIdRaw) && ! \is_string($recordIdRaw))) {
             return null;
         }
 
-<<<<<<< HEAD
         $recordId = \is_int($recordIdRaw) ? $recordIdRaw : SafeStringCastAction::cast($recordIdRaw);
-=======
-        $recordId = \is_int($recordIdRaw) ? $recordIdRaw : (string) $recordIdRaw;
->>>>>>> c001364 (.)
         $stateClass = $stateData['class'];
         $stateClassName = $stateClass::class;
 

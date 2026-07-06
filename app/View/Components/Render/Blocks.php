@@ -22,14 +22,13 @@ use Modules\Xot\Actions\GetViewAction;
 final class Blocks extends Component
 {
     /**
-     * @param array<int|string, mixed> $blocks
+     * @param  array<int|string, mixed>  $blocks
      */
     public function __construct(
         public string $view,
         public array $blocks = [],
         public ?Model $model = null,
-    ) {
-    }
+    ) {}
 
     public function render(): View
     {
@@ -37,20 +36,12 @@ final class Blocks extends Component
          * @phpstan-var view-string
          */
         $view = app(GetViewAction::class)->execute($this->view);
-<<<<<<< HEAD
         $viewParams = [
-=======
-        $view_params = [
->>>>>>> c001364 (.)
             'view' => $view,
             'blocks' => $this->blocks,
             'model' => $this->model,
         ];
 
-<<<<<<< HEAD
         return view($view, $viewParams);
-=======
-        return view($view, $view_params);
->>>>>>> c001364 (.)
     }
 }

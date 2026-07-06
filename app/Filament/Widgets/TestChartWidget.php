@@ -11,11 +11,7 @@ final class TestChartWidget extends ChartWidget
 {
     public int $qid = 0;
 
-<<<<<<< HEAD
     public string $maxHeightPx = '200px';
-=======
-    public string $max_height = '200px';
->>>>>>> c001364 (.)
 
     public string $type = 'line';
 
@@ -34,11 +30,7 @@ final class TestChartWidget extends ChartWidget
 
     protected function getData(): array
     {
-<<<<<<< HEAD
         $this->maxHeight = $this->maxHeightPx;
-=======
-        $this->maxHeight = $this->max_height;
->>>>>>> c001364 (.)
 
         return [
             'datasets' => [

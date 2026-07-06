@@ -16,11 +16,7 @@ class GetAllIconsAction
     /**
      * @return array<string, array<string, mixed>>
      */
-<<<<<<< HEAD
     public function execute(string $context = 'form'): array
-=======
-    public function execute(string $_context = 'form'): array
->>>>>>> c001364 (.)
     {
         $iconsFactory = App::make(IconFactory::class);
 
@@ -80,7 +76,7 @@ class GetAllIconsAction
                     }
 
                     // Simply ignore files that aren't SVGs
-                    if ('svg' !== $file->getExtension()) {
+                    if ($file->getExtension() !== 'svg') {
                         continue;
                     }
 
@@ -98,7 +94,7 @@ class GetAllIconsAction
 
                     $prefix = $set['prefix'] ?? '';
                     $prefixString = is_string($prefix) ? $prefix : '';
-                    $iconFullName = '' !== $prefixString ? $prefixString.'-'.$iconName : $iconName;
+                    $iconFullName = $prefixString !== '' ? $prefixString.'-'.$iconName : $iconName;
                     $iconsList[] = $iconFullName;
                 }
             }

@@ -19,19 +19,16 @@ class Block extends Component
 {
     public ?string $view = null;
 
-<<<<<<< HEAD
     /**
-     * @param array<string, mixed> $block
+     * @param  array<string, mixed>  $block
      */
-=======
->>>>>>> c001364 (.)
     public function __construct(
         public array $block,
         public ?Model $model = null,
         public string $tpl = '',
     ) {
         $view = Arr::get($this->block, 'data.view', null);
-        if (null === $view) {
+        if ($view === null) {
             $view = 'ui::empty';
         }
         Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
@@ -47,38 +44,22 @@ class Block extends Component
         $view = $this->view;
         if (! view()->exists(is_string($view) ? $view : ((string) $view))) {
             $message = 'view not exists ['.$view.'] ! <pre>'.print_r($this->block, true).'</pre>';
-<<<<<<< HEAD
             $viewParams = [
-=======
-            $view_params = [
->>>>>>> c001364 (.)
                 'title' => 'deprecated',
                 'message' => $message,
             ];
 
-<<<<<<< HEAD
             return view('ui::alert', $viewParams);
         }
         $viewParams = $this->normalizeViewData($this->block['data'] ?? []);
         $viewParams = app(ResolveLocalizedBlockDataAction::class)->execute($viewParams);
         $viewParams = $this->normalizeViewData($viewParams);
-=======
-            return view('ui::alert', $view_params);
-        }
-        $view_params = $this->normalizeViewData($this->block['data'] ?? []);
-        $view_params = app(ResolveLocalizedBlockDataAction::class)->execute($view_params);
-        $view_params = $this->normalizeViewData($view_params);
->>>>>>> c001364 (.)
         Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
         if (! view()->exists($view)) {
             throw new \Exception('view not found ['.$view.']');
         }
 
-<<<<<<< HEAD
         return view($view, $viewParams);
-=======
-        return view($view, $view_params);
->>>>>>> c001364 (.)
     }
 
     /**

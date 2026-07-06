@@ -38,7 +38,7 @@ class TableLayoutToggleHeaderAction extends Action
                     $layoutViewRaw = $livewire->layoutView;
                     $layoutView = is_string($layoutViewRaw) ? $layoutViewRaw : '';
 
-                    return 'list' === $layoutView ? $this->listIcon : $this->gridIcon;
+                    return $layoutView === 'list' ? $this->listIcon : $this->gridIcon;
                 }
 
                 return $this->listIcon; // default icon
@@ -50,11 +50,7 @@ class TableLayoutToggleHeaderAction extends Action
              * /*
              * @param object{layoutView?: string|null} $livewire
              */
-<<<<<<< HEAD
             ->action(static function (object $livewire): void {
-=======
-            ->action(function (object $livewire): void {
->>>>>>> c001364 (.)
                 // ✅ isset() invece di property_exists() - funziona con magic properties Livewire
                 if (! isset($livewire->layoutView)) {
                     return;
@@ -63,7 +59,7 @@ class TableLayoutToggleHeaderAction extends Action
                 $layoutViewRaw = $livewire->layoutView;
                 $layoutView = is_string($layoutViewRaw) ? $layoutViewRaw : '';
 
-                $livewire->layoutView = 'grid' === $layoutView ? 'list' : 'grid';
+                $livewire->layoutView = $layoutView === 'grid' ? 'list' : 'grid';
             });
     }
 
