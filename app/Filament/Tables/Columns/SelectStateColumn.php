@@ -16,7 +16,7 @@ class SelectStateColumn extends SelectColumn
         parent::setUp();
         $this->options(function (Model $record, mixed $state): array {
             $name = $this->getName();
-            if ($state === null) {
+            if (null === $state) {
                 if (! method_exists($record, 'getDefaultStateFor')) {
                     return [];
                 }
@@ -59,9 +59,8 @@ class SelectStateColumn extends SelectColumn
                             $stateNameProperty = \is_string($nameProperty) ? $nameProperty : null;
                         }
                     } catch (\ReflectionException) {
-                        // Intentionally ignored: fall back to $stateNameProperty === null below.
                     }
-                    if ($stateNameProperty !== null) {
+                    if (null !== $stateNameProperty) {
                         $statesValues = array_values($states);
                         /** @var list<int|string> $statesValuesTyped */
                         $statesValuesTyped = $statesValues;
@@ -100,7 +99,8 @@ class SelectStateColumn extends SelectColumn
     }
 
     /**
-     * @param  array<int|string, mixed>  $states
+     * @param array<int|string, mixed> $states
+     *
      * @return array<int|string, string>
      */
     private function combineStateOptions(array $states): array

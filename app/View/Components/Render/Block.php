@@ -20,7 +20,7 @@ class Block extends Component
     public ?string $view = null;
 
     /**
-     * @param  array<string, mixed>  $block
+     * @param array<string, mixed> $block
      */
     public function __construct(
         public array $block,
@@ -28,7 +28,7 @@ class Block extends Component
         public string $tpl = '',
     ) {
         $view = Arr::get($this->block, 'data.view', null);
-        if ($view === null) {
+        if (null === $view) {
             $view = 'ui::empty';
         }
         Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
@@ -44,22 +44,22 @@ class Block extends Component
         $view = $this->view;
         if (! view()->exists(is_string($view) ? $view : ((string) $view))) {
             $message = 'view not exists ['.$view.'] ! <pre>'.print_r($this->block, true).'</pre>';
-            $viewParams = [
+            $view_params = [
                 'title' => 'deprecated',
                 'message' => $message,
             ];
 
-            return view('ui::alert', $viewParams);
+            return view('ui::alert', $view_params);
         }
-        $viewParams = $this->normalizeViewData($this->block['data'] ?? []);
-        $viewParams = app(ResolveLocalizedBlockDataAction::class)->execute($viewParams);
-        $viewParams = $this->normalizeViewData($viewParams);
+        $view_params = $this->normalizeViewData($this->block['data'] ?? []);
+        $view_params = app(ResolveLocalizedBlockDataAction::class)->execute($view_params);
+        $view_params = $this->normalizeViewData($view_params);
         Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
         if (! view()->exists($view)) {
             throw new \Exception('view not found ['.$view.']');
         }
 
-        return view($view, $viewParams);
+        return view($view, $view_params);
     }
 
     /**

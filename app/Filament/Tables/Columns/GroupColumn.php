@@ -37,12 +37,12 @@ class GroupColumn extends Column
     }
 
     /**
-     * @param  array<int|string, mixed>  $form
+     * @param array<int|string, mixed> $form
      */
     public function schema(array $form): self
     {
         // Type-check to ensure all elements are Column instances
-        $filtered = array_filter($form, static function (mixed $item): bool {
+        $filtered = array_filter($form, function (mixed $item): bool {
             return $item instanceof Column;
         });
 
