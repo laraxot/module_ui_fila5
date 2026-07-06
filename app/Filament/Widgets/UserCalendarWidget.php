@@ -8,10 +8,7 @@ use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Grid;
 use Illuminate\Support\Str;
-<<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
-=======
->>>>>>> c001364 (.)
 use Modules\Xot\Datas\XotData;
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
@@ -26,11 +23,7 @@ class UserCalendarWidget extends XotBaseSchemaWidget
         $actionSuffix = Str::of($function)->studly()->append('Action')->toString();
         $resource = XotData::make()->getUserResourceClassByType($this->type);
         $model = $resource::getModel();
-<<<<<<< HEAD
         $modelString = SafeStringCastAction::cast($model);
-=======
-        $modelString = \is_string($model) ? $model : (string) $model;
->>>>>>> c001364 (.)
 
         return Str::of($modelString)
             ->replace('\Models\\', '\\Actions\\')
@@ -39,9 +32,8 @@ class UserCalendarWidget extends XotBaseSchemaWidget
     }
 
     /**
-     * @param array<string, mixed> $fetchInfo
-     * @param array<string, mixed> $fetchInfo
-     *
+     * @param  array<string, mixed>  $fetchInfo
+     * @param  array<string, mixed>  $fetchInfo
      * @return array<int, array<string, mixed>>
      */
     public function fetchEvents(array $fetchInfo): array
@@ -88,13 +80,10 @@ class UserCalendarWidget extends XotBaseSchemaWidget
     /**
      * @SuppressWarnings("PHPMD.UnusedFormalParameter")
      */
-<<<<<<< HEAD
     /**
-     * @param array<string, mixed>|null $view
-     * @param array<string, mixed>|null $resource
+     * @param  array<string, mixed>|null  $view
+     * @param  array<string, mixed>|null  $resource
      */
-=======
->>>>>>> c001364 (.)
     public function onDateSelect(string $start, ?string $end, bool $allDay, ?array $view, ?array $resource): void
     {
         // TODO: Implementare la logica per la selezione della data

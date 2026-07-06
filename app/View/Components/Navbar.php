@@ -18,9 +18,7 @@ final class Navbar extends Component
     /**
      * Create a new component instance.
      */
-    public function __construct()
-    {
-    }
+    public function __construct() {}
 
     public function render(): Renderable
     {
@@ -29,14 +27,8 @@ final class Navbar extends Component
          */
         $view = app(GetViewAction::class)->execute();
         dddx($view);
-<<<<<<< HEAD
         $viewParams = [];
 
         return view($view, $viewParams);
-=======
-        $view_params = [];
-
-        return view($view, $view_params);
->>>>>>> c001364 (.)
     }
 }

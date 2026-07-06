@@ -4,17 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\UI\Enums;
 
-<<<<<<< HEAD
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasLabel;
 use Modules\Xot\Traits\EnumTrait;
-=======
-use Modules\Xot\Traits\EnumTrait;
-use Filament\Support\Contracts\HasColor;
-use Filament\Support\Contracts\HasIcon;
-use Filament\Support\Contracts\HasLabel;
->>>>>>> c001364 (.)
 
 enum CornerPositionEnum: string implements HasColor, HasIcon, HasLabel
 {
@@ -25,12 +18,6 @@ enum CornerPositionEnum: string implements HasColor, HasIcon, HasLabel
     case BOTTOM_LEFT = 'bottom-left';
     case BOTTOM_RIGHT = 'bottom-right';
 
-<<<<<<< HEAD
-=======
-    /**
-     * ---.
-     */
->>>>>>> c001364 (.)
     public function getCssClass(): string
     {
         return match ($this) {

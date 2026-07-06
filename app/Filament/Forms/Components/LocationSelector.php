@@ -48,20 +48,15 @@ class LocationSelector extends XotBaseGroup
 
     /**
      * Label personalizzate per i campi.
+     *
+     * @var array<string, string>
      */
-<<<<<<< HEAD
-    /** @var array<string, string> */
-=======
->>>>>>> c001364 (.)
     protected array $labels = [];
 
     /**
      * Placeholder personalizzati per i campi.
-<<<<<<< HEAD
      *
      * @var array<string, string>
-=======
->>>>>>> c001364 (.)
      */
     protected array $placeholders = [];
 
@@ -127,8 +122,7 @@ class LocationSelector extends XotBaseGroup
     /**
      * Imposta label personalizzate.
      *
-     * @param array<string, string> $labels
-     * @param array<string, string> $labels
+     * @param  array<string, string>  $labels
      */
     public function labels(array $labels): static
     {
@@ -140,8 +134,7 @@ class LocationSelector extends XotBaseGroup
     /**
      * Imposta placeholder personalizzati.
      *
-     * @param array<string, string> $placeholders
-     * @param array<string, string> $placeholders
+     * @param  array<string, string>  $placeholders
      */
     public function placeholders(array $placeholders): static
     {
@@ -152,13 +145,9 @@ class LocationSelector extends XotBaseGroup
 
     /**
      * Validazione custom per verificare la coerenza dei dati.
+     *
+     * @return array<int, string>
      */
-<<<<<<< HEAD
-    /**
-     * @return list<string>
-     */
-=======
->>>>>>> c001364 (.)
     public function validate(): array
     {
         $state = $this->getState();
@@ -300,9 +289,7 @@ class LocationSelector extends XotBaseGroup
     /**
      * Ottiene le opzioni per il campo provincia basate sulla regione.
      *
-     * @param string $region Codice regione
-     * @param string $region Codice regione
-     *
+     * @param  string  $region  Codice regione
      * @return array<string, string>
      */
     protected function getProvinceOptions(string $region): array
@@ -329,11 +316,8 @@ class LocationSelector extends XotBaseGroup
     /**
      * Ottiene le opzioni per il campo CAP basate su regione e provincia.
      *
-     * @param string $region   Codice regione
-     * @param string $province Codice provincia
-     * @param string $region   Codice regione
-     * @param string $province Codice provincia
-     *
+     * @param  string  $region  Codice regione
+     * @param  string  $province  Codice provincia
      * @return array<string, string>
      */
     protected function getCapOptions(string $region, string $province): array
@@ -359,8 +343,6 @@ class LocationSelector extends XotBaseGroup
         }
     }
 
-<<<<<<< HEAD
-=======
     /**
      * @return array<string, string>
      */
@@ -383,7 +365,6 @@ class LocationSelector extends XotBaseGroup
         return $normalizedOptions;
     }
 
->>>>>>> c001364 (.)
     protected function getComuneFromState(mixed $state): ?Comune
     {
         if (! \is_array($state)) {
@@ -405,9 +386,7 @@ class LocationSelector extends XotBaseGroup
     }
 
     /**
-     * @param array<string, mixed> $state
-     * @param array<string, mixed> $state
-     *
+     * @param  array<string, mixed>  $state
      * @return array<string, mixed>
      */
     protected function formatGeographicData(Comune $comune, array $state): array
@@ -428,29 +407,4 @@ class LocationSelector extends XotBaseGroup
             'city' => $comune->nome ?? null,
         ];
     }
-<<<<<<< HEAD
-
-    /**
-     * @return array<string, string>
-     */
-    private static function normalizeStringOptions(mixed $options): array
-    {
-        if (! \is_array($options)) {
-            return [];
-        }
-
-        $normalizedOptions = [];
-
-        foreach ($options as $key => $value) {
-            if (! \is_string($value) && ! \is_int($value)) {
-                continue;
-            }
-
-            $normalizedOptions[(string) $key] = (string) $value;
-        }
-
-        return $normalizedOptions;
-    }
-=======
->>>>>>> c001364 (.)
 }

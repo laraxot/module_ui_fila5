@@ -9,10 +9,7 @@ use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 final class GroupWidget extends XotBaseSchemaWidget
 {
     protected static ?string $heading = 'Group Widget';
-<<<<<<< HEAD
 
-=======
->>>>>>> c001364 (.)
     public function getFormSchema(): array
     {
         return [];

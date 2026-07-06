@@ -7,12 +7,9 @@ namespace Modules\UI\Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\UI\Models\Collection;
 
-<<<<<<< HEAD
 /**
  * @extends Factory<Collection>
  */
-=======
->>>>>>> c001364 (.)
 class CollectionFactory extends Factory
 {
     /**
@@ -27,7 +24,6 @@ class CollectionFactory extends Factory
      */
     public function definition(): array
     {
-<<<<<<< HEAD
         return [
             'name' => fake()->words(2, true),
             'type' => 'block',
@@ -35,8 +31,5 @@ class CollectionFactory extends Factory
             'is_active' => true,
             'order' => 0,
         ];
-=======
-        return [];
->>>>>>> c001364 (.)
     }
 }

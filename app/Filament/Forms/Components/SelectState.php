@@ -6,10 +6,7 @@ namespace Modules\UI\Filament\Forms\Components;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
-<<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
-=======
->>>>>>> c001364 (.)
 use Modules\Xot\Filament\Forms\Components\XotBaseSelect;
 
 class SelectState extends XotBaseSelect
@@ -18,13 +15,9 @@ class SelectState extends XotBaseSelect
     {
         parent::setUp();
 
-<<<<<<< HEAD
-=======
-        //  $this->selectablePlaceholder(false);
->>>>>>> c001364 (.)
         $this->options(function (?Model $record): array {
             $name = $this->getName();
-            if (null === $record) {
+            if ($record === null) {
                 $model = $this->getModel();
                 if (\is_string($model) && class_exists($model)) {
                     $instance = app($model);
@@ -35,28 +28,9 @@ class SelectState extends XotBaseSelect
                             if (! \is_array($statesRaw)) {
                                 $statesRaw = Arr::wrap($statesRaw);
                             }
-<<<<<<< HEAD
 
                             /* @var array<int|string, mixed> $statesRaw */
                             return $this->combineStateOptions($statesRaw);
-=======
-                            /** @var array<int|string, mixed> $statesRaw */
-                            $states = $statesRaw;
-                            $statesKeys = array_map(static fn ($v) => \is_string($v) ? $v : (string) $v, array_values($states));
-                            $statesValues = array_map(static fn ($v) => \is_string($v) ? $v : (string) $v, array_values($states));
-
-                            $combined = array_combine($statesKeys, $statesValues);
-                            /** @var array<int|string, int|string> $combinedTyped */
-                            $combinedTyped = $combined ? $combined : [];
-                            $statesKeys = array_map(static fn ($v) => \is_string($v) ? $v : (string) $v, array_values($states));
-                            $statesValues = array_map(static fn ($v) => \is_string($v) ? $v : (string) $v, array_values($states));
-
-                            $combined = array_combine($statesKeys, $statesValues);
-                            /** @var array<int|string, int|string> $combinedTyped */
-                            $combinedTyped = $combined ? $combined : [];
-
-                            return $combinedTyped;
->>>>>>> c001364 (.)
                         }
                     }
                 }
@@ -74,7 +48,6 @@ class SelectState extends XotBaseSelect
                 : [];
             /** @var array<int|string, mixed> $states */
             $states = $statesRaw;
-<<<<<<< HEAD
 
             return $this->combineStateOptions($states);
         });
@@ -82,8 +55,7 @@ class SelectState extends XotBaseSelect
     }
 
     /**
-     * @param array<int|string, mixed> $states
-     *
+     * @param  array<int|string, mixed>  $states
      * @return array<int|string, string>
      */
     private function combineStateOptions(array $states): array
@@ -100,17 +72,4 @@ class SelectState extends XotBaseSelect
 
         return $combined ? $combined : [];
     }
-=======
-            $statesKeys = array_map(static fn ($v) => \is_string($v) ? $v : (string) $v, array_values($states));
-            $statesValues = array_map(static fn ($v) => \is_string($v) ? $v : (string) $v, array_values($states));
-
-            $combined = array_combine($statesKeys, $statesValues);
-            /** @var array<int|string, int|string> $combinedTyped */
-            $combinedTyped = $combined ? $combined : [];
-
-            return $combinedTyped;
-        });
-        $this->required();
-    }
->>>>>>> c001364 (.)
 }
