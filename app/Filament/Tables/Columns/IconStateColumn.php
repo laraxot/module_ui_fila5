@@ -23,15 +23,15 @@ class IconStateColumn extends IconColumn
         parent::setUp();
         // $this->getStateUsing(fn() => true); // the column requires a state to be passed to it
 
-        $this->icon(static function (XotStateContract $state) {
+        $this->icon(function (XotStateContract $state) {
             return $state->icon();
         });
 
-        $this->color(static function (XotStateContract $state) {
+        $this->color(function (XotStateContract $state) {
             return $state->color();
         });
 
-        $this->tooltip(static function (XotStateContract $state) {
+        $this->tooltip(function (XotStateContract $state) {
             return $state->label();
         });
         // $this->label('aaa');
@@ -43,7 +43,7 @@ class IconStateColumn extends IconColumn
                         ->options(function (Model $record, string $_state): array {
                             $name = $this->getName();
                             $state = $record->getAttribute($name);
-                            if ($state === null) {
+                            if (null === $state) {
                                 if (! method_exists($record, 'getDefaultStateFor')) {
                                     return [];
                                 }
@@ -82,7 +82,7 @@ class IconStateColumn extends IconColumn
                                 return [];
                             }
 
-                            return Arr::mapWithKeys($statesArray, static function (mixed $stateItem) use ($record): array {
+                            return Arr::mapWithKeys($statesArray, function (mixed $stateItem) use ($record): array {
                                 if (! is_string($stateItem)) {
                                     return [];
                                 }
