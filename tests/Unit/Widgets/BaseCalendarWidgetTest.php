@@ -17,7 +17,8 @@ uses(TestCase::class);
 
 function createTestCalendarWidget(): UserCalendarWidget
 {
-    $widget = new class extends UserCalendarWidget {
+    $widget = new class() extends UserCalendarWidget
+    {
         public function getActionName(string $function): string
         {
             unset($function);
@@ -32,8 +33,8 @@ function createTestCalendarWidget(): UserCalendarWidget
 
 beforeEach(function (): void {
     /* @var \Modules\UI\Tests\TestCase $this */
-    /** @var \Modules\UI\Tests\TestCase $this */
-        $this->mockService(SaveTransAction::class, static function (MockInterface $mock): void {
+    /** @var TestCase $this */
+    $this->mockService(SaveTransAction::class, static function (MockInterface $mock): void {
         /** @var ExpectationInterface $expectation */
         $expectation = $mock->shouldReceive('execute');
         $expectation->andReturn(null);
