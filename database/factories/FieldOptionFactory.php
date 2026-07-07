@@ -8,11 +8,17 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\UI\Models\FieldOption;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /**
  * @extends Factory<FieldOption>
  */
 >>>>>>> 40b96bcd6 (.)
+=======
+/**
+ * @extends Factory<FieldOption>
+ */
+>>>>>>> origin/dev
 class FieldOptionFactory extends Factory
 {
     /**

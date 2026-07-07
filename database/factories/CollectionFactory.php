@@ -8,11 +8,17 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\UI\Models\Collection;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /**
  * @extends Factory<Collection>
  */
 >>>>>>> 40b96bcd6 (.)
+=======
+/**
+ * @extends Factory<Collection>
+ */
+>>>>>>> origin/dev
 class CollectionFactory extends Factory
 {
     /**
@@ -28,8 +34,11 @@ class CollectionFactory extends Factory
     public function definition(): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return [];
 =======
+=======
+>>>>>>> origin/dev
         return [
             'name' => fake()->words(2, true),
             'type' => 'block',
@@ -37,6 +46,9 @@ class CollectionFactory extends Factory
             'is_active' => true,
             'order' => 0,
         ];
+<<<<<<< HEAD
 >>>>>>> 40b96bcd6 (.)
+=======
+>>>>>>> origin/dev
     }
 }

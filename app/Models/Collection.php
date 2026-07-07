@@ -15,9 +15,12 @@ use Modules\Xot\Models\BaseModel;
  */
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
 =======
+=======
+>>>>>>> origin/dev
  * @property string|null                     $name
  * @property string|null                     $description
  * @property string|null                     $type
@@ -25,7 +28,10 @@ use Modules\Xot\Models\BaseModel;
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property ProfileContract|null            $creator
  * @property ProfileContract|null            $updater
+<<<<<<< HEAD
 >>>>>>> 40b96bcd6 (.)
+=======
+>>>>>>> origin/dev
  *
  * @method static CollectionFactory          factory($count = null, $state = [])
  * @method static Builder<static>|Collection newModelQuery()
@@ -46,10 +52,16 @@ class Collection extends BaseModel
         'description',
         'type',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'theme_id',
         'is_active',
         'order',
 >>>>>>> 40b96bcd6 (.)
+=======
+        'theme_id',
+        'is_active',
+        'order',
+>>>>>>> origin/dev
     ];
 }

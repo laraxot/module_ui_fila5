@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasLabel;
 use Modules\UI\Filament\Forms\Components\EnumSelect;
@@ -55,6 +56,8 @@ enum TestNoLabelEnum: string
 it('generates options from enum class', function () {
     $select = new EnumSelect();
 =======
+=======
+>>>>>>> origin/dev
 use Modules\UI\Filament\Forms\Components\EnumSelect;
 use PHPUnit\Framework\Assert;
 
@@ -62,11 +65,15 @@ uses(\Modules\UI\Tests\TestCase::class);
 
 it('generates options from enum class', function (): void {
     $select = EnumSelect::make('enum');
+<<<<<<< HEAD
 >>>>>>> 40b96bcd6 (.)
+=======
+>>>>>>> origin/dev
     $select->enum(TestColorEnum::class);
 
     $options = $select->getOptions();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     expect($options)->toBeArray()
         ->toHaveCount(3)
@@ -76,6 +83,8 @@ it('generates options from enum class', function (): void {
 it('uses HasLabel interface when available', function () {
     $select = new EnumSelect();
 =======
+=======
+>>>>>>> origin/dev
     Assert::assertCount(3, $options);
     foreach (['red', 'green', 'blue'] as $key) {
         Assert::assertArrayHasKey($key, $options);
@@ -84,11 +93,15 @@ it('uses HasLabel interface when available', function () {
 
 it('uses HasLabel interface when available', function (): void {
     $select = EnumSelect::make('enum');
+<<<<<<< HEAD
 >>>>>>> 40b96bcd6 (.)
+=======
+>>>>>>> origin/dev
     $select->enum(TestColorEnum::class);
 
     $options = $select->getOptions();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     expect($options['red'])->toContain('Rosso');
     expect($options['green'])->toContain('Verde');
@@ -97,17 +110,23 @@ it('uses HasLabel interface when available', function (): void {
 it('falls back to case name when HasLabel not implemented', function () {
     $select = new EnumSelect();
 =======
+=======
+>>>>>>> origin/dev
     Assert::assertNotEmpty($options['red']);
     Assert::assertNotEmpty($options['green']);
 });
 
 it('falls back to case name when HasLabel not implemented', function (): void {
     $select = EnumSelect::make('enum');
+<<<<<<< HEAD
 >>>>>>> 40b96bcd6 (.)
+=======
+>>>>>>> origin/dev
     $select->enum(TestNoLabelEnum::class);
 
     $options = $select->getOptions();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     expect($options['alpha'])->toBe('ALPHA');
     expect($options['beta'])->toBe('BETA');
@@ -167,6 +186,8 @@ it('returns correct enum class', function () {
 it('formats html labels with icons', function () {
     $select = new EnumSelect();
 =======
+=======
+>>>>>>> origin/dev
     Assert::assertSame('ALPHA', $options['alpha']);
     Assert::assertSame('BETA', $options['beta']);
 });
@@ -230,7 +251,10 @@ it('returns correct enum class', function (): void {
 
 it('formats html labels with icons', function (): void {
     $select = EnumSelect::make('enum');
+<<<<<<< HEAD
 >>>>>>> 40b96bcd6 (.)
+=======
+>>>>>>> origin/dev
     $select->enum(TestColorEnum::class);
     $select->icons();
     $select->htmlLabels();
@@ -238,12 +262,18 @@ it('formats html labels with icons', function (): void {
     $options = $select->getOptions();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     expect($options['red'])->toContain('heroicon-o-exclamation');
     expect($options['red'])->toContain('Rosso');
 =======
+=======
+>>>>>>> origin/dev
     $redOption = $options['red'];
     Assert::assertIsString($redOption);
     Assert::assertStringContainsString('heroicon-o-exclamation', $redOption);
     Assert::assertStringContainsString('Rosso', $redOption);
+<<<<<<< HEAD
 >>>>>>> 40b96bcd6 (.)
+=======
+>>>>>>> origin/dev
 });

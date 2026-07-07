@@ -6,16 +6,22 @@ namespace Modules\UI\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\UI\Models\Category;
 
 =======
+=======
+>>>>>>> origin/dev
 use Illuminate\Support\Str;
 use Modules\UI\Models\Category;
 
 /**
  * @extends Factory<Category>
  */
+<<<<<<< HEAD
 >>>>>>> 40b96bcd6 (.)
+=======
+>>>>>>> origin/dev
 class CategoryFactory extends Factory
 {
     /**
@@ -31,8 +37,11 @@ class CategoryFactory extends Factory
     public function definition(): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         return [];
 =======
+=======
+>>>>>>> origin/dev
         /** @var string $title */
         $title = fake()->sentence(2);
 
@@ -42,6 +51,9 @@ class CategoryFactory extends Factory
             'is_active' => 1,
             'sort_order' => 0,
         ];
+<<<<<<< HEAD
 >>>>>>> 40b96bcd6 (.)
+=======
+>>>>>>> origin/dev
     }
 }
