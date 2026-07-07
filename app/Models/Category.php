@@ -17,12 +17,18 @@ use Modules\Xot\Models\BaseModel;
 /**
  * @property string               $id
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/dev
  *                                             <<<<<<< HEAD
  * @property string|null          $name
  *                                             =======
  *                                             >>>>>>> c001364 (.)
+<<<<<<< HEAD
 >>>>>>> 40b96bcd6 (.)
+=======
+>>>>>>> origin/dev
  * @property string               $title
  * @property string               $slug
  * @property int|null             $parent_id

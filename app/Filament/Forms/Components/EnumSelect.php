@@ -105,11 +105,17 @@ final class EnumSelect extends Select
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     /**
      * @return array<int|string, string>
      */
 >>>>>>> 40b96bcd6 (.)
+=======
+    /**
+     * @return array<int|string, string>
+     */
+>>>>>>> origin/dev
     protected function generateOptions(): array
     {
         $enumClass = $this->evaluate($this->enumClass);
