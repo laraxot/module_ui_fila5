@@ -25,7 +25,9 @@ Il modulo `UI` non deve dipendere dal modulo `Geo`.
 
 `app/Filament/Forms/Components/LocationSelector.php` non appartiene a `UI` (importa `Modules\Geo\Models\Comune`).
 
-Rinominato `.old` il 2026-07-08. Se servira' un selettore geografico, crearlo in `Modules/Geo/` usando contratti UI o primitive generiche.
+Rinominato `.old` il 2026-07-08 (locale; `*.old` e' in `.gitignore`). In repo i file `.php` attivi sono **rimossi** dall'autoload.
+
+Se servira' un selettore geografico, crearlo in `Modules/Geo/` usando contratti UI o primitive generiche.
 
 ## Caso InteractiveMap
 

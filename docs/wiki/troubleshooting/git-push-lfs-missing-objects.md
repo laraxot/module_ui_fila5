@@ -115,3 +115,32 @@ git push -u laraxot dev
 
 - Issue: [laraxot/module_ui_fila5#24](https://github.com/laraxot/module_ui_fila5/issues/24)
 - Discussion: [laraxot/module_ui_fila5#25](https://github.com/laraxot/module_ui_fila5/discussions/25)
+- Confine moduli: [geo-boundary.md](../../geo-boundary.md) · [dependency-rules.md](../../dependency-rules.md)
+
+## Checklist post-push (modulo UI)
+
+Dopo un push riuscito su `laraxot/dev`, verificare:
+
+```bash
+cd laravel/Modules/UI
+
+# 1. Nessun import Geo attivo in autoload
+grep -r "Modules\\\\Geo" app/ --include="*.php" | grep -v '\.old' | grep -v '\.to_geo'
+
+# 2. Componenti geografici disattivati (non in autoload)
+test ! -f app/Livewire/Components/Map/InteractiveMap.php
+test ! -f app/Filament/Forms/Components/LocationSelector.php
+# backup locale .old opzionale — *.old e' in .gitignore
+
+# 3. PHPStan modulo
+cd ../../ && php -d memory_limit=2048M vendor/bin/phpstan analyse Modules/UI
+
+# 4. Root modulo senza .txt spuri (spostati in _docs/)
+find . -maxdepth 1 -name '*.txt' -print
+```
+
+| Problema residuo | Fix |
+|------------------|-----|
+| `LocationSelector.php` / `InteractiveMap.php` attivi | Rimuovi dal repo (`git rm`); backup locale opzionale come `.old` (gitignored) |
+| Marker `<<<<<<<` in `docs/` | Risolvi forward-only, vedi [git-merge-conflict-inventory](./git-merge-conflict-inventory.md) |
+| Root `.txt` duplicati | Rimuovi da root; contenuto in `_docs/` |
