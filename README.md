@@ -43,6 +43,25 @@ Stack frontoffice: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filamen
 
 ---
 
+<<<<<<< HEAD
+## Regola di Dipendenza
+
+UI è una **dipendenza condivisa** — la freccia è unidirezionale:
+
+```
+Xot ← UI ← Geo, User, Tenant, Activity, …
+```
+
+- UI **NON dipende** da moduli domain-specific (Geo, Activity, Media, ecc.)
+- Geo (e altri moduli) **possono dipendere** da UI
+- Componenti geografici (mappe, geocoding) → `Modules/Geo/`, non qui
+
+Dettagli: [`docs/dependency-rules.md`](./docs/dependency-rules.md)
+
+---
+
+=======
+>>>>>>> laraxot/dev
 ## Documentazione
 
 | Lingua | Link |
