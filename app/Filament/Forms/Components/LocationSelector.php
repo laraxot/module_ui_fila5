@@ -49,10 +49,13 @@ class LocationSelector extends XotBaseGroup
     /**
      * Label personalizzate per i campi.
      */
+    /** @var array<string, string> */
     protected array $labels = [];
 
     /**
      * Placeholder personalizzati per i campi.
+     *
+     * @var array<string, string>
      */
     protected array $placeholders = [];
 
@@ -143,6 +146,9 @@ class LocationSelector extends XotBaseGroup
 
     /**
      * Validazione custom per verificare la coerenza dei dati.
+     */
+    /**
+     * @return list<string>
      */
     public function validate(): array
     {
