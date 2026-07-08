@@ -1,3 +1,11 @@
+---
+title: "UI Module Documentation"
+type: documentation
+tags: [module, documentation]
+created: 2026-06-05
+updated: 2026-06-05
+---
+
 # Modulo UI - Componenti Condivisi
 
 ## Overview
@@ -105,7 +113,6 @@ MIT
 - [[BMAD Method](../../../../docs/wiki/concepts/bmad-method.md)]
 - [[Context Engineering](../../../../docs/wiki/concepts/context-engineering.md)]
 - [[LLM Wiki Governance](../../../../docs/wiki/concepts/llm-wiki-governance.md)]
-<<<<<<< HEAD
 
 ## Documentation
 
@@ -113,5 +120,3 @@ MIT
 - [QMD Setup](./QMD-SETUP.md) — Configurazione ricerca locale
 - [Performance](./PERFORMANCE-OPTIMIZATION.md) — Metriche e best practice
 - [Project Structure](./PROJECT-STRUCTURE.md) — Directory layout
-=======
->>>>>>> 01dce8d29 (initial commit)

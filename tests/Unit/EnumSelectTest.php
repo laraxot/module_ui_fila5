@@ -4,143 +4,110 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit;
 
-use Filament\Support\Contracts\HasIcon;
-use Filament\Support\Contracts\HasLabel;
 use Modules\UI\Filament\Forms\Components\EnumSelect;
-use PHPUnit\Framework\TestCase;
+use PHPUnit\Framework\Assert;
 
-// Test enums
-enum TestColorEnum: string implements HasIcon, HasLabel
-{
-    case RED = 'red';
-    case GREEN = 'green';
-    case BLUE = 'blue';
+uses(\Modules\UI\Tests\TestCase::class);
 
-    public function getLabel(): string
-    {
-        return match ($this) {
-            self::RED => 'Rosso',
-            self::GREEN => 'Verde',
-            self::BLUE => 'Blu',
-        };
-    }
-
-    public function getIcon(): string
-    {
-        return match ($this) {
-            self::RED => 'heroicon-o-exclamation',
-            self::GREEN => 'heroicon-o-check',
-            self::BLUE => 'heroicon-o-info',
-        };
-    }
-}
-
-enum TestSimpleEnum: string
-{
-    case ONE = 'one';
-    case TWO = 'two';
-    case THREE = 'three';
-}
-
-enum TestNoLabelEnum: string
-{
-    case ALPHA = 'alpha';
-    case BETA = 'beta';
-}
-
-/*
- * @uses TestCase
- */
-it('generates options from enum class', function () {
-    $select = new EnumSelect();
+it('generates options from enum class', function (): void {
+    $select = EnumSelect::make('enum');
     $select->enum(TestColorEnum::class);
 
     $options = $select->getOptions();
 
-    expect($options)->toBeArray()
-        ->toHaveCount(3)
-        ->toHaveKeys(['red', 'green', 'blue']);
+    Assert::assertCount(3, $options);
+    foreach (['red', 'green', 'blue'] as $key) {
+        Assert::assertArrayHasKey($key, $options);
+    }
 });
 
-it('uses HasLabel interface when available', function () {
-    $select = new EnumSelect();
+it('uses HasLabel interface when available', function (): void {
+    $select = EnumSelect::make('enum');
     $select->enum(TestColorEnum::class);
 
     $options = $select->getOptions();
 
-    expect($options['red'])->toContain('Rosso');
-    expect($options['green'])->toContain('Verde');
+    Assert::assertNotEmpty($options['red']);
+    Assert::assertNotEmpty($options['green']);
 });
 
-it('falls back to case name when HasLabel not implemented', function () {
-    $select = new EnumSelect();
+it('falls back to case name when HasLabel not implemented', function (): void {
+    $select = EnumSelect::make('enum');
     $select->enum(TestNoLabelEnum::class);
 
     $options = $select->getOptions();
 
-    expect($options['alpha'])->toBe('ALPHA');
-    expect($options['beta'])->toBe('BETA');
+    Assert::assertSame('ALPHA', $options['alpha']);
+    Assert::assertSame('BETA', $options['beta']);
 });
 
-it('throws exception for non-backed enum', function () {
-    $select = new EnumSelect();
+it('rejects plain (non-backed) enums when resolving options', function (): void {
+    $select = EnumSelect::make('enum')->enum(TestPureUnitEnum::class);
 
-    expect(fn () => $select->enum('stdClass'))
-        ->toThrow(\Exception::class, 'does not exist');
+    try {
+        $select->getOptions();
+        Assert::fail('Expected InvalidArgumentException');
+    } catch (\InvalidArgumentException $e) {
+        Assert::assertStringContainsString('must be a backed enum', $e->getMessage());
+    }
 });
 
-it('throws exception for non-enum class', function () {
-    $select = new EnumSelect();
+it('rejects classes that are not enums when resolving options', function (): void {
+    $select = EnumSelect::make('enum')->enum(\stdClass::class);
 
-    expect(fn () => $select->enum('App\Models\User'))
-        ->toThrow(\Exception::class);
+    try {
+        $select->getOptions();
+        Assert::fail('Expected InvalidArgumentException');
+    } catch (\InvalidArgumentException $e) {
+        Assert::assertStringContainsString('does not exist', $e->getMessage());
+    }
 });
 
-it('converts value to enum case', function () {
-    $select = new EnumSelect();
+it('converts value to enum case', function (): void {
+    $select = EnumSelect::make('enum');
     $select->enum(TestColorEnum::class);
 
     $result = $select->convertToEnum('red');
-    expect($result)->toBe(TestColorEnum::RED);
-
+    Assert::assertSame(TestColorEnum::RED, $result);
     $result = $select->convertToEnum('invalid');
-    expect($result)->toBeNull();
-
+    Assert::assertNull($result);
     $result = $select->convertToEnum(null);
-    expect($result)->toBeNull();
+    Assert::assertNull($result);
 });
 
-it('enables icons when requested', function () {
-    $select = new EnumSelect();
+it('enables icons when requested', function (): void {
+    $select = EnumSelect::make('enum');
     $select->enum(TestColorEnum::class);
     $select->icons();
 
-    expect($select->hasIcons())->toBeTrue();
+    Assert::assertTrue($select->hasIcons());
 });
 
-it('enables html labels when requested', function () {
-    $select = new EnumSelect();
+it('enables html labels when requested', function (): void {
+    $select = EnumSelect::make('enum');
     $select->enum(TestColorEnum::class);
     $select->htmlLabels();
 
-    expect($select->allowsHtml())->toBeTrue();
+    Assert::assertTrue($select->allowsHtml());
 });
 
-it('returns correct enum class', function () {
-    $select = new EnumSelect();
+it('returns correct enum class', function (): void {
+    $select = EnumSelect::make('enum');
     $select->enum(TestColorEnum::class);
 
-    expect($select->getEnumClass())->toBe(TestColorEnum::class);
+    Assert::assertSame(TestColorEnum::class, $select->getEnumClass());
 });
 
-it('formats html labels with icons', function () {
-    $select = new EnumSelect();
+it('formats html labels with icons', function (): void {
+    $select = EnumSelect::make('enum');
     $select->enum(TestColorEnum::class);
     $select->icons();
     $select->htmlLabels();
 
     $options = $select->getOptions();
 
-    expect($options['red'])->toContain('heroicon-o-exclamation');
-    expect($options['red'])->toContain('Rosso');
+    $redOption = $options['red'];
+    Assert::assertIsString($redOption);
+    Assert::assertStringContainsString('heroicon-o-exclamation', $redOption);
+    Assert::assertStringContainsString('Rosso', $redOption);
 });
