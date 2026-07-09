@@ -150,7 +150,7 @@ class IconStateColumn extends IconColumn
             $statesArray = \is_array($fallback) ? $fallback : [];
         }
 
-        if ($statesArray === []) {
+        if ([] === $statesArray) {
             return [];
         }
 
