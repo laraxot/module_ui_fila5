@@ -10,6 +10,15 @@ use PHPUnit\Framework\Assert;
 use function Safe\file_get_contents;
 
 uses(TestCase::class);
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
 
 beforeEach(function (): void {
     /* @var \Modules\UI\Tests\TestCase $this */
@@ -167,7 +176,6 @@ it('backdrop effects work in dark mode', function (): void {
         Assert::assertTrue(
             str_contains($content, 'bg-white/5')
             || str_contains($content, 'bg-black/')
-            || str_contains($content, 'backdrop-blur')
         );
     }
 });

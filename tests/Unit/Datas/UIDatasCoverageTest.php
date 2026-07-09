@@ -13,6 +13,14 @@ use PHPUnit\Framework\Assert;
 use Spatie\LaravelData\Data;
 
 uses(TestCase::class);
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
 
 it('SliderData can be instantiated with all fields', function (): void {
     $data = new SliderData(

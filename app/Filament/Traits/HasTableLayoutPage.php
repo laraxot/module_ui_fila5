@@ -19,7 +19,7 @@ trait HasTableLayoutPage
     public TableLayoutEnum $layoutView = TableLayoutEnum::LIST;
 
     public function mountTableLayoutFromSession(
-        string $identifier = 'default'
+        string $identifier = 'default',
     ): void {
         $this->layoutView = $this->getCurrentLayout($identifier);
     }
@@ -42,24 +42,19 @@ trait HasTableLayoutPage
             return null;
         }
 
-        return (function (): TableLayoutEnum {
-            /** @phpstan-var object{layoutView: TableLayoutEnum} $this */
-            return $this->layoutView;
-        })->call($livewire);
+        $layout = data_get($livewire, 'layoutView');
+
+        return $layout instanceof TableLayoutEnum ? $layout : null;
     }
 
     public static function applyLayoutTo(
         object $livewire,
-        TableLayoutEnum $layout
+        TableLayoutEnum $layout,
     ): void {
         if (! self::isLayoutCapable($livewire)) {
             return;
         }
 
-        (function (TableLayoutEnum $layout): void {
-            /** @phpstan-var object{layoutView: TableLayoutEnum} $this */
-            // @phpstan-ignore assign.propertyReadOnly
-            $this->layoutView = $layout;
-        })->call($livewire, $layout);
+        data_set($livewire, 'layoutView', $layout);
     }
 }

@@ -180,6 +180,20 @@ _docs/
 docs/legacy/
 docs/legacy/**
 
+# Legacy PHPUnit (solo cartella maiuscola Tests/ — non confondere con Pest tests/)
+/Tests/
+
+# Pest + audit-coverage bridge (claude-audit legge .gitignore case-insensitive su WSL)
+!tests/
+!tests/**
+!audit-coverage/
+!audit-coverage/**
+
+# claude-audit static — archived Tailwind UI kit blocks (not FO production)
+resources/views/components/blocks/pricing/archivied/
+resources/views/components/blocks/feature_sections/archivied/
+resources/views/components/blocks/blog/archivied/
+
 # -----------------------------------------------------------------------------
 # Copie residue da merge/rebase o editor (mai committare — es. `.agent~HEAD`, `*.md~head`)
 # -----------------------------------------------------------------------------

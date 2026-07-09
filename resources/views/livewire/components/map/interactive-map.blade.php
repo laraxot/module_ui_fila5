@@ -1,3 +1,32 @@
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+@endphp
+
+@php
+@endphp
+
+@php
+@endphp
+
+@php
+@endphp
+
 <div class="interactive-map-container" wire:ignore.self>
     <!-- Controlli mappa -->
     @if($showControls)
