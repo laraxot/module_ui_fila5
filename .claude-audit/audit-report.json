@@ -1,14 +1,14 @@
 {
   "version": "0.2.2",
-  "timestamp": "2026-07-09T18:23:55.303Z",
+  "timestamp": "2026-07-09T19:26:20.377Z",
   "project": {
     "name": "UI",
     "path": "/var/www/_bases/base_fixcity_fila5/laravel/Modules/UI",
     "languages": {
-      "Markdown": 996,
+      "Markdown": 1048,
       "JSON": 10,
       "YAML": 2,
-      "PHP": 816,
+      "PHP": 820,
       "XML": 2,
       "JavaScript": 9,
       "CSS": 1,
@@ -17,8 +17,8 @@
     "frameworks": [
       "TailwindCSS"
     ],
-    "totalFiles": 1837,
-    "totalLines": 183010,
+    "totalFiles": 1893,
+    "totalLines": 184255,
     "hasTests": true,
     "hasDependencyFile": true,
     "dependencyFile": "package.json",
@@ -100,5 +100,5 @@
   "mediumCount": 0,
   "lowCount": 0,
   "aiPowered": false,
-  "durationMs": 567
+  "durationMs": 278
 }

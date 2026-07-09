@@ -4,6 +4,26 @@
 
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
 // UI Blade view — see Modules/UI/docs/wiki.
 // UI Blade view — see Modules/UI/docs/wiki.
 // UI Blade view — see Modules/UI/docs/wiki.
