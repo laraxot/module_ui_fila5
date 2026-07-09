@@ -7,8 +7,8 @@ declare(strict_types=1);
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/it/auth.php
 return [
-// UI — translation keys (no business logic).
-// UI — translation keys (no business logic).
+    // UI — translation keys (no business logic).
+    // UI — translation keys (no business logic).
     'login' => [
         'title' => 'Accedi',
         'email' => 'Email',
