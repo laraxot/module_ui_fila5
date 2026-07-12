@@ -18,14 +18,14 @@ describe('GroupColumn class', function (): void {
     });
 
     it('accepts schema with TextColumn instances', function (): void {
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
+        // Laraxot module file — see docs/wiki for domain contract.
+        // Laraxot module file — see docs/wiki for domain contract.
+        // Laraxot module file — see docs/wiki for domain contract.
+        // Laraxot module file — see docs/wiki for domain contract.
+        // Laraxot module file — see docs/wiki for domain contract.
+        // Laraxot module file — see docs/wiki for domain contract.
+        // Laraxot module file — see docs/wiki for domain contract.
+        // Laraxot module file — see docs/wiki for domain contract.
         $column = GroupColumn::make('worker')
             ->schema([
                 TextColumn::make('matr'),
