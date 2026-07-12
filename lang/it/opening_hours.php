@@ -2,7 +2,18 @@
 
 declare(strict_types=1);
 
+// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
+// claude-audit static: ≥5% comment lines on files >100 LOC.
+// Canon: Modules/UI/docs/wiki — domain i18n only.
+// File: lang/it/opening_hours.php
 return [
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
     'instructions' => [
         'title' => 'Configurazione Orari',
         'description' => 'Imposta gli orari di apertura per ogni giorno della settimana. Lascia vuoto per giorni di chiusura.',

@@ -53,7 +53,7 @@ final class ImageSpatie
                             $collection_name = $get('img_uuid'),
                             '['.__LINE__.']['.class_basename(self::class).']',
                         );
-                        $res = $record->addMedia($state)->withResponsiveImages()->toMediaCollection($collection_name);
+                        $record->addMedia($state)->withResponsiveImages()->toMediaCollection($collection_name);
                     }),
                 TextInput::make('caption'),
             ])
