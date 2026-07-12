@@ -60,7 +60,7 @@ class SelectStateColumn extends SelectColumn
             return \is_string($item) || \is_int($item);
         });
 
-        /** @var array<int|string, mixed> $statesFiltered */
+        /* @var array<int|string, mixed> $statesFiltered */
         return $this->combineStateOptions($statesFiltered);
     }
 
@@ -122,7 +122,8 @@ class SelectStateColumn extends SelectColumn
     }
 
     /**
-     * @param  array<int|string, mixed>  $states
+     * @param array<int|string, mixed> $states
+     *
      * @return array<int|string, mixed>
      */
     private function prependCurrentStateName(mixed $state, array $states): array

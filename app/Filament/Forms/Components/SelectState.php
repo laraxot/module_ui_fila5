@@ -63,7 +63,7 @@ class SelectState extends XotBaseSelect
             $statesRaw = Arr::wrap($statesRaw);
         }
 
-        /** @var array<int|string, mixed> $statesRaw */
+        /* @var array<int|string, mixed> $statesRaw */
         return $this->combineStateOptions($statesRaw);
     }
 
