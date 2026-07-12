@@ -10,6 +10,12 @@ use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
 
 function skipUnlessPubThemeViews(): void
 {

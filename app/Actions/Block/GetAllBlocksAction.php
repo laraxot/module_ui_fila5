@@ -14,9 +14,12 @@ use function Safe\realpath;
 
 use Spatie\LaravelData\DataCollection;
 use Webmozart\Assert\Assert;
+use Spatie\QueueableAction\QueueableAction;
 
 final class GetAllBlocksAction
 {
+    use QueueableAction;
+
     /**
      * @return DataCollection<int, ComponentFileData>
      */

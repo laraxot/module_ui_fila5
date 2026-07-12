@@ -27,7 +27,7 @@ class AddressField extends XotBaseField
     {
         parent::setUp();
 
-        $this->afterStateHydrated(function (AddressField $_component, mixed $record): void {
+        $this->afterStateHydrated(function (AddressField $component, mixed $record): void {
             $data = [
                 'country' => null,
                 'street' => null,
@@ -37,6 +37,8 @@ class AddressField extends XotBaseField
             ];
 
             if (! $record instanceof Model) {
+                $component->state($data);
+
                 return;
             }
 
@@ -48,7 +50,7 @@ class AddressField extends XotBaseField
                 }
             }
 
-            // }
+            $component->state($data);
         });
 
         $this->dehydrated(false);

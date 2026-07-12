@@ -25,6 +25,13 @@ class LanguageController extends Controller
         session()->put('locale', $locale);
         app()->setLocale($locale);
 
-        return redirect()->back();
+        $previous = url()->previous();
+        $fallback = url('/');
+
+        if (! is_string($previous) || ! str_starts_with($previous, $fallback)) {
+            return redirect()->to($fallback);
+        }
+
+        return redirect()->to($previous);
     }
 }

@@ -1,3 +1,56 @@
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+@endphp
+
+@php
+@endphp
+
+@php
+@endphp
+
+@php
+@endphp
+
 @props([
     'currentStep' => 1,
     'totalSteps' => 4,

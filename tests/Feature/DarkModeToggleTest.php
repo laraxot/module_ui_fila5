@@ -10,6 +10,15 @@ use PHPUnit\Framework\Assert;
 use function Safe\file_get_contents;
 
 uses(TestCase::class);
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
 
 beforeEach(function (): void {
     /* @var \Modules\UI\Tests\TestCase $this */

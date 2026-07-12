@@ -9,6 +9,14 @@ use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
+// Laraxot — see module docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
 
 beforeEach(function () {
     /* @var \Modules\UI\Tests\TestCase $this */
