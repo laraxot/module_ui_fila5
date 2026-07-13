@@ -50,8 +50,8 @@ I seguenti file sono **accettabili** nel modulo UI perché definiscono interfacc
 |-------------------------------------------------|-----------------------------------------------------------|
 | `app/Contracts/GeocodingServiceContract.php`    | Interfaccia astratta — nessuna dipendenza da Geo          |
 | `app/Contracts/MapServiceContract.php`          | Interfaccia astratta — nessuna dipendenza da Geo          |
-| `app/Services/Map/NullGeocodingService.php`     | Null Object pattern — fallback quando Geo non è installato |
-| `app/Services/Map/NullMapService.php`           | Null Object pattern — fallback quando Geo non è installato |
+| `app/Adapters/Map/NullGeocodingServiceAdapter.php` | Null Object pattern — fallback quando Geo non è installato |
+| `app/Adapters/Map/NullMapServiceAdapter.php`       | Null Object pattern — fallback quando Geo non è installato |
 
 ### Documentazione archiviata
 

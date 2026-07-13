@@ -3,7 +3,7 @@ title: "no app/Support — business logic in QueueableAction"
 type: concept
 tags: [ui, actions, queueable-action, support, refactor, adapter]
 created: 2026-07-12
-updated: 2026-07-12
+updated: 2026-07-13
 qmd: "UI module no app Support NullMap NullGeocoding Adapter"
 issues:
   - "https://github.com/laraxot/base_fixcity_fila5/issues/372"
@@ -32,6 +32,17 @@ Nel modulo UI **non** esiste più `app/Support/`.
 I fallback mappa/geocoding **implementano** `MapServiceContract` / `GeocodingServiceContract` con più metodi pubblici. Per religione Laraxot vivono in `app/Adapters/`, non in `app/Actions/`.
 
 Binding in `UIServiceProvider::register()`.
+
+## Pulizia `app/Services/` (2026-07-13)
+
+Rimosso l'intera cartella `app/Services/` — duplicati o wrapper inutili:
+
+| Legacy `app/Services/` | Destinazione / azione |
+|------------------------|------------------------|
+| `UIService::asset()` | `app(Xot\Actions\File\AssetAction::class)->execute($asset)` |
+| `ThemeService`, `ComponentService` | Eliminati (classi vuote) |
+| `Map/NullMapService` | Già in `Adapters/Map/NullMapServiceAdapter` |
+| `Map/NullGeocodingService` | Già in `Adapters/Map/NullGeocodingServiceAdapter` |
 
 ## Collegamenti
 
