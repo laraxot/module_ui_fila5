@@ -13,10 +13,13 @@ use Modules\Xot\Datas\ComponentFileData;
 use function Safe\realpath;
 
 use Spatie\LaravelData\DataCollection;
+use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
 
 final class GetAllBlocksAction
 {
+    use QueueableAction;
+
     /**
      * @return DataCollection<int, ComponentFileData>
      */

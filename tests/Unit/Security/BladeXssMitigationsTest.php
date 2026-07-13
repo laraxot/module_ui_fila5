@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 use PHPUnit\Framework\Assert;
 
+use function Safe\file_get_contents;
+
 it('button blade avoids unescaped dynamic tag emission', function (): void {
     $path = dirname(__DIR__, 3).'/resources/views/components/ui/button.blade.php';
     $contents = (string) file_get_contents($path);
