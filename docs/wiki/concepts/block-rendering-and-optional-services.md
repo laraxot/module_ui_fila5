@@ -3,7 +3,7 @@ title: "Block rendering e servizi opzionali"
 type: concept
 tags: [ui, blocks, livewire, phpstan, geo, cms]
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-07-13
 qmd: "UI block render InteractiveMap MapServiceContract ResolveLocalizedBlockDataAction GetAllBlocksAction"
 related:
   - ./phpstan-dynamic-array-normalization.md
@@ -47,9 +47,9 @@ flowchart LR
 | Artefatto | Ruolo | Consumer noti |
 |-----------|-------|---------------|
 | `InteractiveMap` (Livewire) | Marker, filtri, export, geocoding | `resources/views/livewire/components/map/interactive-map.blade.php`; integrazione documentata in `docs/map-integration-guide.md` |
-| `MapServiceContract` | Contratto marker/stats/export | Registrato in `UIServiceProvider` → `NullMapService` di default |
-| `GeocodingServiceContract` | Contratto ricerca indirizzi | `NullGeocodingService` di default |
-| `NullMapService` / `NullGeocodingService` | Fallback quando Geo assente | Container Laravel (singleton) |
+| `MapServiceContract` | Contratto marker/stats/export | Registrato in `UIServiceProvider` → `NullMapServiceAdapter` di default |
+| `GeocodingServiceContract` | Contratto ricerca indirizzi | `NullGeocodingServiceAdapter` di default |
+| `NullMapServiceAdapter` / `NullGeocodingServiceAdapter` | Fallback quando Geo assente | `app/Adapters/Map/` — container singleton |
 
 Quando il modulo **Geo** sarà installato, sostituire il binding in `UIServiceProvider` senza toccare `InteractiveMap`.
 
