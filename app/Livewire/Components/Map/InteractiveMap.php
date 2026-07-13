@@ -6,8 +6,11 @@ namespace Modules\UI\Livewire\Components\Map;
 
 use Illuminate\Contracts\View\View;
 use Livewire\Component;
-use Modules\Geo\Services\GeocodingService;
-use Modules\Geo\Services\MapService;
+use Modules\Geo\Actions\Geocoding\GeocodeAddressAction;
+use Modules\Geo\Actions\Geocoding\GetGeocodingSuggestionsAction;
+use Modules\Geo\Actions\Map\ExportMapDataAction;
+use Modules\Geo\Actions\Map\GetMapMarkersAction;
+use Modules\Geo\Actions\Map\GetMapStatsAction;
 use Webmozart\Assert\Assert;
 
 /**
@@ -136,10 +139,9 @@ final class InteractiveMap extends Component
         $this->isLoading = true;
 
         try {
-            $mapService = app(MapService::class);
             $filters = $this->getMapFilters();
-            $this->markers = $mapService->getMarkers($filters);
-            $this->stats = $mapService->getMapStats($filters);
+            $this->markers = app(GetMapMarkersAction::class)->execute($filters);
+            $this->stats = app(GetMapStatsAction::class)->execute($filters);
         } catch (\Exception $e) {
             $this->addError('map', 'Errore nel caricamento dei marker: '.$e->getMessage());
             $this->markers = [];
@@ -163,8 +165,7 @@ final class InteractiveMap extends Component
     public function exportData(string $format = 'json'): void
     {
         try {
-            $mapService = app(MapService::class);
-            $data = $mapService->exportData($this->getMapFilters(), $format);
+            $data = app(ExportMapDataAction::class)->execute($this->getMapFilters(), $format);
 
             $filename = 'map_export_'.now()->format('Y_m_d_H_i_s').'.'.$format;
 
@@ -193,8 +194,7 @@ final class InteractiveMap extends Component
         }
 
         try {
-            $geocodingService = app(GeocodingService::class);
-            $result = $geocodingService->geocodeAddress($this->searchQuery);
+            $result = app(GeocodeAddressAction::class)->execute($this->searchQuery);
             Assert::isArray($result, 'Geocoding result must be array');
 
             $address = $result['address'] ?? '';
@@ -226,12 +226,7 @@ final class InteractiveMap extends Component
         }
 
         try {
-            $geocodingService = app(GeocodingService::class);
-
-            /** @var array<int, array<string, mixed>> $suggestions */
-            $suggestions = $geocodingService->getSuggestions($this->searchQuery);
-
-            return $suggestions;
+            return app(GetGeocodingSuggestionsAction::class)->execute($this->searchQuery);
         } catch (\Exception $e) {
             return [];
         }
