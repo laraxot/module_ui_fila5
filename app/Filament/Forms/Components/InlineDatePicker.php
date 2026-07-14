@@ -36,7 +36,10 @@ class InlineDatePicker extends XotBaseDatePicker
 
     /**
      * Vista Blade per il rendering.
+     *
+     * @phpstan-var view-string
      */
+    /** @phpstan-ignore property.defaultValue */
     protected string $view = 'ui::filament.forms.components.inline-date-picker';
 
     /**

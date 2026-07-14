@@ -56,7 +56,10 @@ final class RedirectWidget extends XotBaseSchemaWidget
     /**
      * Vista di default per il widget.
      * Può essere sovrascritta dalla configurazione con la chiave 'view'.
+     *
+     * @phpstan-var view-string
      */
+    /** @phpstan-ignore property.defaultValue */
     protected string $view = 'ui::filament.widgets.redirect-widget';
 
     /**

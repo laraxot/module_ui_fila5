@@ -30,6 +30,8 @@ final class OverlookWidget extends XotBaseSchemaWidget
     /** @var array<int, array<string, mixed>> */
     public array $stats = [];
 
+    /** @phpstan-var view-string */
+    /** @phpstan-ignore property.defaultValue */
     protected string $view = 'ui::filament.widgets.overlook';
 
     protected int|string|array $columnSpan = 1;

@@ -8,8 +8,7 @@ use Modules\Xot\Filament\Forms\Components\XotBaseRadio;
 
 final class RadioIcon extends XotBaseRadio
 {
-    /**
-     * @var view-string
-     */
+    /** @phpstan-var view-string */
+    /** @phpstan-ignore property.defaultValue */
     protected string $view = 'ui::filament.forms.components.radio-icon';
 }

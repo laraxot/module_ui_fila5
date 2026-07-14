@@ -38,7 +38,10 @@ class Block extends Component
     public function render(): ViewFactory|View
     {
         if (! isset($this->block['type'])) {
-            return view('ui::empty');
+            /** @phpstan-var view-string */
+            $viewName = 'ui::empty';
+
+            return view($viewName);
         }
 
         $view = $this->view;
@@ -48,8 +51,10 @@ class Block extends Component
                 'title' => 'deprecated',
                 'message' => $message,
             ];
+            /** @phpstan-var view-string */
+            $viewAlert = 'ui::alert';
 
-            return view('ui::alert', $view_params);
+            return view($viewAlert, $view_params);
         }
         $view_params = $this->normalizeViewData($this->block['data'] ?? []);
         $view_params = app(ResolveLocalizedBlockDataAction::class)->execute($view_params);

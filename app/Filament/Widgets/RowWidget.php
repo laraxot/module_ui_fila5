@@ -19,6 +19,8 @@ abstract class RowWidget extends XotBaseSchemaWidget
     /** @var array<int, class-string> */
     public array $widgets = [];
 
+    /** @phpstan-var view-string */
+    /** @phpstan-ignore property.defaultValue */
     protected string $view = 'ui::filament.widgets.row';
 
     protected int|string|array $columnSpan = 'full';

@@ -192,3 +192,6 @@ docs/legacy/**
 *~head
 
 agentdb.rvf
+.vscode/
+.devcontainer/
+.vscode/
