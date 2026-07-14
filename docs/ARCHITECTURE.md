@@ -250,6 +250,7 @@ UI Module
 > modulo **Geo**, non al modulo UI.
 > Vedere: [`docs/dependency-rules.md`](./dependency-rules.md)
 
+
 ### Key Traits & Interfaces
 
 **TableLayoutTrait**
@@ -531,6 +532,7 @@ it('can toggle table layout', function () {
 - ❌ **Media Module** - Domain-specific
 
 Vedere: [`docs/dependency-rules.md`](./dependency-rules.md)
+
 
 ---
 

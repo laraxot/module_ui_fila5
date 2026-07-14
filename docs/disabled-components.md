@@ -1,7 +1,7 @@
 # Disabled/Stale Components in UI Module
 
 **Status**: Documentation of unavailable dependencies  
-**Date**: 2026-06-18
+**Date**: 2026-07-08
 
 ## Overview
 
@@ -37,9 +37,7 @@ use Modules\Geo\Services\MapService;
 
 #### Restoration Steps
 Do not reactivate this component inside `UI`.
-If map features are needed, create the component in `Modules/Geo` and let `Geo`
-depend on generic UI primitives.
-3. Test geocoding and export functionality
+If map features are needed, create the component in `Modules/Geo` and let `Geo` depend on generic UI primitives.
 
 ### 2. Cms Action Dependency
 
