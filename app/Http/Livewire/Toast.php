@@ -15,6 +15,7 @@ final class Toast extends Component
 {
     public function render(): View
     {
+        /** @phpstan-var view-string */
         $view = 'ui::livewire.toast';
         $view_params = [
             'view' => $view,

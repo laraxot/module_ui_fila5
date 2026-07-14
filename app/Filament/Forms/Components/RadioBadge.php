@@ -10,6 +10,8 @@ use Filament\Support\Contracts\HasIcon;
 
 class RadioBadge extends Radio
 {
+    /** @phpstan-var view-string */
+    /** @phpstan-ignore property.defaultValue */
     protected string $view = 'ui::filament.forms.components.radio-badge';
 
     protected string $defaultColor = 'gray-200'; // gray-200

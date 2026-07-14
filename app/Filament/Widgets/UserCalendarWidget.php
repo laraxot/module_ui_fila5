@@ -16,6 +16,8 @@ class UserCalendarWidget extends XotBaseSchemaWidget
 {
     public string $type;
 
+    /** @phpstan-var view-string */
+    /** @phpstan-ignore property.defaultValue */
     protected string $view = 'ui::filament.widgets.user-calendar';
 
     public function getActionName(string $function): string
