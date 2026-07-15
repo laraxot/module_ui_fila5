@@ -1,3 +1,23 @@
+---
+title: "Utilizzo dei Componenti Filament Dropdown e Avatar"
+type: concept
+tags: [filament, dropdown, avatar, usage]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "filament-dropdown-avatar-usage-1 utilizzo dei componenti filament dropdown e avatar"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./advanced-form-components.md"
+  - "./algolia-docsearch-1.md"
+  - "./algolia-docsearch.md"
+  - "./architecture-rules-1.md"
+  - "./architecture-rules-2.md"
+  - "./architecture-rules.md"
+  - "./auth-pages.md"
+  - "./base-components.md"
+---
+
 # Utilizzo dei Componenti Filament Dropdown e Avatar
 
 ## Collegamenti correlati

@@ -1,3 +1,23 @@
+---
+title: "Correzioni PHPStan Livello 7 - Modulo UI"
+type: concept
+tags: [phpstan, fixes]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "phpstan-fixes-1 correzioni phpstan livello 7 - modulo ui"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./advanced-form-components.md"
+  - "./algolia-docsearch-1.md"
+  - "./algolia-docsearch.md"
+  - "./architecture-rules-1.md"
+  - "./architecture-rules-2.md"
+  - "./architecture-rules.md"
+  - "./auth-pages.md"
+  - "./base-components.md"
+---
+
 # Correzioni PHPStan Livello 7 - Modulo UI
 
 Questo documento traccia gli errori PHPStan di livello 7 identificati nel modulo UI e le relative soluzioni implementate.

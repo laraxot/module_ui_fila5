@@ -1,3 +1,20 @@
+---
+title: "Sistema Componenti UI"
+type: concept
+tags: [component, system]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "component-system sistema componenti ui"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./component-system-1.md"
+  - "./form-component-1.md"
+  - "./form-component.md"
+  - "./theme-system-1.md"
+  - "./theme-system.md"
+---
+
 # Sistema Componenti UI
 
 ## 📊 Stato Implementazione

@@ -3,6 +3,15 @@ module: UI
 topic: table-layout-toggle
 status: resolved
 related_issue: provtv/base_ptv_fila5_mono
+related:
+  - "./00-index-1.md"
+  - "./00-index.md"
+  - "./04-datas.md"
+  - "./advanced-form-components-1.md"
+  - "./advanced-form-components.md"
+  - "./agent-confidence-discipline.md"
+  - "./agent-confidence-protocol.md"
+  - "./agent-edit-discipline.md"
 ---
 
 # Bug: «Cambia layout» richiedeva due click

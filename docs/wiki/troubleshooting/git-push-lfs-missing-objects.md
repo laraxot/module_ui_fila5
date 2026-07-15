@@ -6,12 +6,13 @@ created: 2026-07-08
 updated: 2026-07-08
 qmd: "git push LFS missing objects module UI risoluzione squash"
 issues:
-  - "https://github.com/laraxot/module_ui_fila5/issues/24"
 discussions:
-  - "https://github.com/laraxot/module_ui_fila5/discussions/25"
 related:
-  - "../troubleshooting/git-merge-conflict-inventory.md"
-  - "../../development-workflow-rules.md"
+  - "./git-merge-conflict-inventory-1.md"
+  - "./git-merge-conflict-inventory.md"
+  - "./module-theme-root-hygiene.md"
+  - "./phpstan-fixes-1.md"
+  - "./phpstan-fixes.md"
 ---
 
 # Git push — oggetti LFS mancanti

@@ -3,6 +3,15 @@ title: Algolia DocSearch
 description: Configure Algolia DocSearch with the Jigsaw docs starter template
 extends: _layouts.documentation
 section: content
+related:
+  - "./advanced-form-components.md"
+  - "./algolia-docsearch.md"
+  - "./architecture-rules-1.md"
+  - "./architecture-rules-2.md"
+  - "./architecture-rules.md"
+  - "./auth-pages.md"
+  - "./base-components.md"
+  - "./best-practices-1.md"
 ---
 
 # Algolia DocSearch {#algolia-docsearch}

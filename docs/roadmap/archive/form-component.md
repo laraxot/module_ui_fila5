@@ -1,3 +1,20 @@
+---
+title: "Form Component"
+type: concept
+tags: [form, component]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "form-component form component"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./component-system-1.md"
+  - "./component-system.md"
+  - "./form-component-1.md"
+  - "./theme-system-1.md"
+  - "./theme-system.md"
+---
+
 # Form Component
 
 ## 📊 Stato Implementazione
