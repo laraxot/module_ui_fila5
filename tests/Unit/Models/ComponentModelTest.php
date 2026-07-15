@@ -21,14 +21,11 @@ beforeEach(function (): void {
 
 describe('Component Model', function (): void {
     test('can be instantiated', function (): void {
-        /** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
         $component = new Component();
-        /* @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
         Assert::assertInstanceOf(Component::class, $component);
     });
 
     test('has fillable attributes', function (): void {
-        /** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
         $component = new Component();
         $expected = [
             'name', 'theme_id', 'is_active', 'version', 'dependencies',
@@ -39,32 +36,20 @@ describe('Component Model', function (): void {
         ];
 
         foreach ($expected as $field) {
-            /* @phpstan-ignore-next-line -- Component model is optional */
             Assert::assertTrue(in_array($field, $component->getFillable()));
         }
     });
 
     test('has casts defined', function (): void {
-        /** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
         $component = new Component();
-        $casts = $component->getCasts(); // @phpstan-ignore-line
-        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
         Assert::assertSame('boolean', $casts['is_active']);
-        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
         Assert::assertSame('boolean', $casts['is_cacheable']);
-        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
         Assert::assertSame('array', $casts['dependencies']);
-        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
         Assert::assertSame('array', $casts['validation_rules']);
-        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
         Assert::assertSame('array', $casts['data_schema']);
-        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
         Assert::assertSame('array', $casts['responsive_breakpoints']);
-        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
         Assert::assertSame('boolean', $casts['supports_lazy_loading']);
-        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
         Assert::assertSame('integer', $casts['lazy_loading_threshold']);
-        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
         Assert::assertSame('integer', $casts['cache_duration']);
     });
 
@@ -75,9 +60,7 @@ describe('Component Model', function (): void {
     });
 
     test('has correct table name', function (): void {
-        /** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
         $component = new Component();
-        /* @phpstan-ignore-next-line -- Component model is optional */
         Assert::assertSame('components', $component->getTable());
     });
 
