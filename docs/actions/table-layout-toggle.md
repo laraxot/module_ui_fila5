@@ -1,3 +1,16 @@
+---
+title: "TableLayoutToggleTableAction"
+type: concept
+tags: [table, layout, toggle]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "table-layout-toggle tablelayouttoggletableaction"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./table-layout-toggle-1.md"
+---
+
 # TableLayoutToggleTableAction
 
 ## Scopo

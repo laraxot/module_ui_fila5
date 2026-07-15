@@ -1,3 +1,17 @@
+---
+title: "UI Module - Roadmap, Issues & Optimization"
+type: concept
+tags: [legacy, roadmap, issues]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "legacy-roadmap-and-issues ui module - roadmap, issues & optimization"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./legacy-roadmap-conflict.md"
+  - "./legacy-roadmap.md"
+---
+
 # UI Module - Roadmap, Issues & Optimization
 
 **Modulo**: UI (User Interface Components)

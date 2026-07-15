@@ -1,3 +1,20 @@
+---
+title: "Sistema di Theming"
+type: concept
+tags: [theme, system]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "theme-system sistema di theming"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./component-system-1.md"
+  - "./component-system.md"
+  - "./form-component-1.md"
+  - "./form-component.md"
+  - "./theme-system-1.md"
+---
+
 # Sistema di Theming
 
 ## 📊 Stato Implementazione

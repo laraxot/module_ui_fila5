@@ -7,8 +7,11 @@ created: 2026-07-08
 updated: 2026-07-08
 qmd: "module theme root txt md hygiene audit fix"
 related:
-  - ../../../../../../docs/wiki/rules/module-theme-root-no-txt-files.md
-  - ../../../../../../docs/wiki/rules/module-theme-root-md-files-limit.md
+  - "./git-merge-conflict-inventory-1.md"
+  - "./git-merge-conflict-inventory.md"
+  - "./git-push-lfs-missing-objects.md"
+  - "./phpstan-fixes-1.md"
+  - "./phpstan-fixes.md"
 ---
 
 # Root modulo/tema — igiene

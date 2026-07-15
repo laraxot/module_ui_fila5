@@ -1,3 +1,23 @@
+---
+title: "Regole Architetturali"
+type: rule
+tags: [architecture, rules]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "architecture-rules regole architetturali"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./advanced-form-components.md"
+  - "./algolia-docsearch-1.md"
+  - "./algolia-docsearch.md"
+  - "./architecture-rules-1.md"
+  - "./architecture-rules-2.md"
+  - "./auth-pages.md"
+  - "./base-components.md"
+  - "./best-practices-1.md"
+---
+
 # Regole Architetturali
 
 ## Principi Fondamentali
@@ -202,7 +222,7 @@ class UIServiceProvider extends XotBaseServiceProvider
 - [Documentazione Folio](https://laravel.com/docs/folio)
 - [Documentazione Laravel Localization](https://github.com/mcamara/laravel-localization)
 - [Best Practices UI](./UI_BEST_PRACTICES.md)
-- [Guida Componenti](./COMPONENTS_GUIDE.md)
+- [Guida Componenti](./components-guide.md)
 - [Componenti Blade Filament](https://filamentphp.com/docs/3.x/support/blade-components/overview)
 
 ## Gestione delle Rotte

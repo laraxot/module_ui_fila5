@@ -1,3 +1,23 @@
+---
+title: "Ubuntu 1"
+type: concept
+tags: [ubuntu]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "ubuntu-1 ubuntu 1"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./api-1.md"
+  - "./api.md"
+  - "./blocks-1.md"
+  - "./blocks.md"
+  - "./carousel-slider-1.md"
+  - "./carousel-slider.md"
+  - "./changelog-1.md"
+  - "./changelog-2.md"
+---
+
 sudo apt-get install jpegoptim
 sudo apt-get install optipng
 sudo apt-get install pngquant // For PNG Image

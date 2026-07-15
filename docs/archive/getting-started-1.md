@@ -3,6 +3,15 @@ title: Getting Started
 description: Getting started with Jigsaw's docs starter template is as easy as 1, 2, 3.
 extends: _layouts.documentation
 section: content
+related:
+  - "./advanced-form-components.md"
+  - "./algolia-docsearch-1.md"
+  - "./algolia-docsearch.md"
+  - "./architecture-rules-1.md"
+  - "./architecture-rules-2.md"
+  - "./architecture-rules.md"
+  - "./auth-pages.md"
+  - "./base-components.md"
 ---
 
 # Getting Started {#getting-started}

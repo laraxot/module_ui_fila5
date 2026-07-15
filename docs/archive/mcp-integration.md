@@ -1,9 +1,29 @@
+---
+title: "Integrazione dei Server MCP con il Modulo UI"
+type: concept
+tags: [mcp, integration]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "mcp-integration integrazione dei server mcp con il modulo ui"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./advanced-form-components.md"
+  - "./algolia-docsearch-1.md"
+  - "./algolia-docsearch.md"
+  - "./architecture-rules-1.md"
+  - "./architecture-rules-2.md"
+  - "./architecture-rules.md"
+  - "./auth-pages.md"
+  - "./base-components.md"
+---
+
 # Integrazione dei Server MCP con il Modulo UI
 
 ## Panoramica
 
 Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_predict_fila3_mono.
-||||||| parent of 9a84589 (.):docs/archive/mcp_integration.md
+||||||| parent of 9a84589 (.):docs/archive/mcp-integration-1.md
 Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_predict_fila5_mono.
 
 ## Server MCP Consigliati
@@ -703,5 +723,5 @@ $analyze = function () {
 ## Conclusione
 
 L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_predict_fila3_mono.
-||||||| parent of 9a84589 (.):docs/archive/mcp_integration.md
+||||||| parent of 9a84589 (.):docs/archive/mcp-integration-1.md
 L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_predict_fila5_mono.

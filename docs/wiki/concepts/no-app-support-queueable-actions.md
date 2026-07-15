@@ -6,12 +6,16 @@ created: 2026-07-12
 updated: 2026-07-13
 qmd: "UI module no app Support NullMap NullGeocoding Adapter"
 issues:
-  - "https://github.com/laraxot/base_fixcity_fila5/issues/372"
 discussions:
-  - "https://github.com/laraxot/base_fixcity_fila5/discussions/273"
 related:
-  - block-rendering-and-optional-services.md
-  - ../../../../docs/wiki/rules/queueable-action-trait-mandatory.md
+  - "./auth-register-focus-loss-overlay.md"
+  - "./block-rendering-and-optional-services.md"
+  - "./claude-audit-static.md"
+  - "./code-redundancy-ui.md"
+  - "./context-overflow-prevention.md"
+  - "./enum-select-best-practices.md"
+  - "./enum-select-component.md"
+  - "./enum-select-contract-and-false-friends.md"
 ---
 
 # no `app/Support/` — business logic in QueueableAction

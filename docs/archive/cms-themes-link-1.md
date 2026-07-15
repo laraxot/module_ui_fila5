@@ -1,3 +1,23 @@
+---
+title: "Collegamenti ai Temi nel Modulo Cms"
+type: concept
+tags: [cms, themes, link]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "cms-themes-link-1 collegamenti ai temi nel modulo cms"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./advanced-form-components.md"
+  - "./algolia-docsearch-1.md"
+  - "./algolia-docsearch.md"
+  - "./architecture-rules-1.md"
+  - "./architecture-rules-2.md"
+  - "./architecture-rules.md"
+  - "./auth-pages.md"
+  - "./base-components.md"
+---
+
 # Collegamenti ai Temi nel Modulo Cms
 
 Questo documento fornisce collegamenti bidirezionali tra il modulo UI e il modulo Cms per quanto riguarda i temi.

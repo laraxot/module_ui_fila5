@@ -1,3 +1,23 @@
+---
+title: "AVVISO IMPORTANTE (2025-05-13)"
+type: concept
+tags: [paths, assets]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "paths-and-assets avviso importante (2025-05-13)"
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+related:
+  - "./advanced-form-components.md"
+  - "./algolia-docsearch-1.md"
+  - "./algolia-docsearch.md"
+  - "./architecture-rules-1.md"
+  - "./architecture-rules-2.md"
+  - "./architecture-rules.md"
+  - "./auth-pages.md"
+  - "./base-components.md"
+---
+
 # AVVISO IMPORTANTE (2025-05-13)
 
 > **ATTENZIONE:** Tutti i componenti UI condivisi (come `logo.blade.php`) devono essere SEMPRE posizionati in `Modules/UI/resources/views/components/ui/` e MAI in `resources/views/components/`. Qualsiasi violazione di questa regola causa errori di rendering, override errati, problemi di modularità e manutenzione.
@@ -12,7 +32,7 @@
 
 ## Collegamenti correlati
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
-- [Architettura Modulare](/laravel/Modules/UI/docs/ARCHITECTURE.md)
+- [Architettura Modulare](/laravel/Modules/UI/docs/architecture-1.md)
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
 
 ## Percorsi Corretti per gli Asset

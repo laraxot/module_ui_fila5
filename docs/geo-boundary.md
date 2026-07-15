@@ -4,6 +4,15 @@ type: rule
 module: UI
 created: 2026-07-06
 updated: 2026-07-08
+related:
+  - "./00-index-1.md"
+  - "./00-index.md"
+  - "./04-datas.md"
+  - "./advanced-form-components-1.md"
+  - "./advanced-form-components.md"
+  - "./agent-confidence-discipline.md"
+  - "./agent-confidence-protocol.md"
+  - "./agent-edit-discipline.md"
 ---
 
 # Confine UI e Geo
