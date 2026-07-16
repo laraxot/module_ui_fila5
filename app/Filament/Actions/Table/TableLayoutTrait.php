@@ -23,7 +23,7 @@ trait TableLayoutTrait
         $layout = Session::get($sessionKey);
 
         // dddx($layout);
-        if ($layout !== null && in_array($layout, TableLayoutEnum::cases(), strict: false)) {
+        if (null !== $layout && in_array($layout, TableLayoutEnum::cases(), strict: false)) {
             // $layout è già un TableLayoutEnum dopo il controllo in_array con strict
             return $layout;
         }
@@ -31,7 +31,7 @@ trait TableLayoutTrait
         // Se $layout è una stringa/int, prova a convertirlo
         if (is_string($layout) || is_int($layout)) {
             $enum = TableLayoutEnum::tryFrom($layout);
-            if ($enum !== null) {
+            if (null !== $enum) {
                 return $enum;
             }
         }
