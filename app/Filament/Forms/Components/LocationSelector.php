@@ -360,5 +360,4 @@ class LocationSelector extends XotBaseGroup
 
         return $normalizedOptions;
     }
-
 }
