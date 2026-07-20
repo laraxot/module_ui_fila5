@@ -9,6 +9,7 @@ use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
 use Filament\Notifications\Notification;
 use Filament\Schemas\Components\Utilities\Get;
+use Exception;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
@@ -142,12 +143,12 @@ class IconStateColumn extends XotBaseIconColumn
                 ->action(function ($record, $data): void {
                     /** @var array<string, mixed> $data */
                     if (! isset($data['state']) || ! is_string($data['state'])) {
-                        throw new \Exception('State is required and must be a string');
+                        throw new Exception('State is required and must be a string');
                     }
                     $state = $data['state'];
                     /** @var Model $record */
                     if (! is_object($record)) {
-                        throw new \Exception('Record must be an object');
+                        throw new Exception('Record must be an object');
                     }
                     $model = Str::of(class_basename($record))->slug()->toString();
                     /** @var string $label */
@@ -155,7 +156,7 @@ class IconStateColumn extends XotBaseIconColumn
 
                     $currentState = $record->getAttribute($this->getName());
                     if (! is_object($currentState) || ! method_exists($currentState, 'transitionTo')) {
-                        throw new \Exception('Current state is not a valid State instance');
+                        throw new Exception('Current state is not a valid State instance');
                     }
 
                     /** @var string|null $message */

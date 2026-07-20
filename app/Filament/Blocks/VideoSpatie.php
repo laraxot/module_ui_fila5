@@ -52,10 +52,10 @@ final class VideoSpatie
                         // Call to an undefined method Filament\Forms\Contracts\HasForms::validateOnly().
                         // $livewire->validateOnly($component->getStatePath());
                         Assert::string(
-                            $collection_name = $get('img_uuid'),
+                            $collectionName = $get('img_uuid'),
                             '['.__LINE__.']['.class_basename(self::class).']',
                         );
-                        $record->addMedia($state)->withResponsiveImages()->toMediaCollection($collection_name);
+                        $record->addMedia($state)->withResponsiveImages()->toMediaCollection($collectionName);
                     }),
                 /*
                  * Select::make('ratio')
