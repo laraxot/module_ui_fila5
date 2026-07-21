@@ -3,8 +3,8 @@ title: "Block rendering e servizi opzionali"
 type: concept
 tags: [ui, blocks, livewire, phpstan, geo, cms]
 created: 2026-06-15
-updated: 2026-06-15
-qmd: "UI block render InteractiveMap MapServiceContract ResolveLocalizedBlockDataAction GetAllBlocksAction"
+updated: 2026-07-21
+qmd: "UI block render MapServiceContract ResolveLocalizedBlockDataAction GetAllBlocksAction geo-boundary"
 related:
   - "./auth-register-focus-loss-overlay.md"
   - "./claude-audit-static.md"
@@ -14,16 +14,17 @@ related:
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
   - "./enum-select-usage.md"
+  - "../../geo-boundary.md"
 ---
 
 # Block rendering e servizi opzionali
 
 ## Scopo
 
-Il modulo **UI** fornisce componenti Blade/Livewire riusabili per pagine marketing e admin. Due filiere distinte:
+Il modulo **UI** fornisce componenti Blade/Livewire riusabili per pagine marketing e admin.
 
 1. **Block CMS** — composizione pagina da blocchi JSON (Filament Blocks).
-2. **Mappa interattiva** — widget Livewire con marker e filtri (opzionale senza modulo Geo).
+2. **Contratti mappa/geocoding** — solo interfacce + null object in UI; implementazione Livewire mappa = dominio **Geo** (vedi [geo-boundary](../../geo-boundary.md)).
 
 ## Catena di utilizzo — Block
 
@@ -47,16 +48,15 @@ flowchart LR
 | `ResolveLocalizedBlockDataAction` | Bridge verso Cms opzionale | Solo `Render\Block::render()` |
 | `Filament/Blocks/*` | Definizione schema blocchi (Page, Post, Contact, …) | Filament page builder cross-modulo |
 
-## Catena di utilizzo — Mappa
+## Catena di utilizzo — Mappa (solo contratti in UI)
 
-| Artefatto | Ruolo | Consumer noti |
-|-----------|-------|---------------|
-| `InteractiveMap` (Livewire) | Marker, filtri, export, geocoding | `resources/views/livewire/components/map/interactive-map.blade.php`; integrazione documentata in `docs/map-integration-guide.md` |
-| `MapServiceContract` | Contratto marker/stats/export | Registrato in `UIServiceProvider` → `NullMapService` di default |
+| Artefatto | Ruolo | Note |
+|-----------|-------|------|
+| `MapServiceContract` | Contratto marker/stats/export | Binding in `UIServiceProvider` → `NullMapService` |
 | `GeocodingServiceContract` | Contratto ricerca indirizzi | `NullGeocodingService` di default |
 | `NullMapService` / `NullGeocodingService` | Fallback quando Geo assente | Container Laravel (singleton) |
 
-Quando il modulo **Geo** sarà installato, sostituire il binding in `UIServiceProvider` senza toccare `InteractiveMap`.
+`InteractiveMap` **non** appartiene a UI: va in `Modules/Geo` (su ptvx Geo non è installato). Non riattivarlo qui.
 
 ## Regola PHPStan
 
