@@ -96,7 +96,7 @@ final class InteractiveMap extends Component
             ->firstWhere('id', $markerId);
 
         if (is_array($marker)) {
-            /* @var array<string, mixed> $marker */
+            /** @var array<string, mixed> $marker */
             $this->selectedMarker = $marker;
         } else {
             $this->selectedMarker = null;
@@ -265,7 +265,7 @@ final class InteractiveMap extends Component
     {
         $currentStatus = $this->filters['status'] ?? [];
         Assert::isArray($currentStatus, 'Status filter must be array');
-        /* @var array<int, string> $currentStatus */
+        Assert::allString($currentStatus, 'Status filter values must be strings');
 
         if ($enabled) {
             $currentStatus[] = $status;
@@ -287,7 +287,7 @@ final class InteractiveMap extends Component
     {
         $currentPriority = $this->filters['priority'] ?? [];
         Assert::isArray($currentPriority, 'Priority filter must be array');
-        /* @var array<int, string> $currentPriority */
+        Assert::allString($currentPriority, 'Priority filter values must be strings');
 
         if ($enabled) {
             $currentPriority[] = $priority;
@@ -328,11 +328,13 @@ final class InteractiveMap extends Component
      */
     public function getMarkersByTypeProperty(): array
     {
-        /* @var array<string, int> */
-        return collect($this->markers)
+        /** @var array<string, int> $result */
+        $result = collect($this->markers)
             ->groupBy('type')
             ->map(fn ($markers) => $markers->count())
             ->toArray();
+
+        return $result;
     }
 
     public function getVisibleMarkersCountProperty(): int
