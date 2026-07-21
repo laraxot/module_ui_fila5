@@ -62,3 +62,7 @@ test ! -f app/Livewire/Components/Map/InteractiveMap.php
 test ! -f resources/views/livewire/components/map/interactive-map.blade.php
 test ! -f app/Filament/Forms/Components/LocationSelector.php
 ```
+
+## Handoff sessione
+
+- [git-multi-org-sync-handoff.md](./git-multi-org-sync-handoff.md) (STORY-003)
