@@ -96,8 +96,11 @@ final class InteractiveMap extends Component
             ->firstWhere('id', $markerId);
 
         if (is_array($marker)) {
-            /* @var array<string, mixed> $marker */
-            $this->selectedMarker = $marker;
+            $typedMarker = [];
+            foreach ($marker as $key => $value) {
+                $typedMarker[(string) $key] = $value;
+            }
+            $this->selectedMarker = $typedMarker;
         } else {
             $this->selectedMarker = null;
         }
