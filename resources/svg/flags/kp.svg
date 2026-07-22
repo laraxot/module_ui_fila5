@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 72 36">
 <rect fill="#024FA2" width="72" height="36"/>
 <rect fill="#fff" y="6" width="72" height="24"/>
@@ -14,9 +17,13 @@
 <use xlink:href="#cone" transform="rotate(144)" id="use18"/>
 <use xlink:href="#cone" transform="rotate(-144)" id="use20"/>
 </g>
+<<<<<<< HEAD
 </svg>
 =======
 version https://git-lfs.github.com/spec/v1
 oid sha256:e691f1bd5630092174084b727d30497da300c699085d10b21134f1acb1cf5d3a
 size 791
 >>>>>>> dfac49d (.)
+=======
+</svg>
+>>>>>>> dfbb8305 (.)

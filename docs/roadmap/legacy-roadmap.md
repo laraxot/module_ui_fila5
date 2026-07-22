@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ---
 title: "UI Module Roadmap"
 type: concept
@@ -19,8 +22,11 @@ related:
   - "./03-later.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 # UI Module Roadmap
 
 Vedi [roadmap/00-index](roadmap/00-index.md).

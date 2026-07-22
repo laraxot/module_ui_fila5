@@ -3,9 +3,12 @@
 declare(strict_types=1);
 
 return [
+<<<<<<< HEAD
 <<<<<<< .merge_file_mHAN0p
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
     'list' => [
         'label' => 'Lista',
         'color' => 'primary',
@@ -21,6 +24,7 @@ return [
         'description' => 'Layout a griglia responsive con card',
         'tooltip' => 'Visualizza i dati in formato card responsive',
         'helper_text' => 'Ideale per visualizzare pochi dati con focus visivo',
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_Sx4Hi6
     'values' => [
@@ -44,6 +48,8 @@ return [
 =======
 >>>>>>> dfac49d (.)
 >>>>>>> .merge_file_Sx4Hi6
+=======
+>>>>>>> dfbb8305 (.)
     ],
     'label' => 'Table Layout Enum',
     'plural_label' => 'Table Layout Enum (Plurale)',

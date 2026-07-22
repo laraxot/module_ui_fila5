@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 256">
 <rect fill="#da000c" width="512" height="256"/>
 <rect fill="#fff" width="512" height="171.5"/>
@@ -52,9 +55,13 @@
 <path stroke-linejoin="round" d="M228.6875,102.4375V156.78125H241.53125V136.4375C241.53125,126.85477 247.92755,122.34375 256,122.34375C263.75894,122.34375 270.46875,126.85477 270.46875,136.4375V156.78125H283.3125V102.4375z"/>
 </g>
 </g>
+<<<<<<< HEAD
 </svg>
 =======
 version https://git-lfs.github.com/spec/v1
 oid sha256:92fdfc46aedf1a1ad6ccb8cb48656d8c655af5752f37894957b8ac12a8610fdf
 size 5866
 >>>>>>> dfac49d (.)
+=======
+</svg>
+>>>>>>> dfbb8305 (.)

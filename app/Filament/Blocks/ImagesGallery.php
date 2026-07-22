@@ -65,10 +65,14 @@ final class ImagesGallery
                 //     ->columnSpanFull(),
             ])
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->columns('form' === $context ? 2 : 1);
 =======
             ->columns($context === 'form' ? 2 : 1);
 >>>>>>> dfac49d (.)
+=======
+            ->columns('form' === $context ? 2 : 1);
+>>>>>>> dfbb8305 (.)
     }
 
     /**

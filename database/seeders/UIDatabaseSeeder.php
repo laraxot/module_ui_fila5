@@ -5,6 +5,9 @@ declare(strict_types=1);
 namespace Modules\UI\Database\Seeders;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 use Illuminate\Database\Seeder;
 
 /**
@@ -27,6 +30,7 @@ class UIDatabaseSeeder extends Seeder
         if (null !== $this->command) {
             $this->command->info('UIDatabaseSeeder: completato.');
         }
+<<<<<<< HEAD
 =======
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Seeder;
@@ -42,5 +46,7 @@ class UIDatabaseSeeder extends Seeder
 
         // $this->call("OthersTableSeeder");
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
     }
 }

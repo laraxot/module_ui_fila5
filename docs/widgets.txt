@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
 =======
 ---
@@ -9,3 +10,6 @@ canonical: ../../../Themes/docs/shared-components/widgets.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/widgets.md
 >>>>>>> dfac49d (.)
+=======
+https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
+>>>>>>> dfbb8305 (.)

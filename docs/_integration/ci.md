@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ---
 title: "ci"
 type: concept
@@ -19,8 +22,11 @@ related:
   - "./custom-theme-1.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 # ci
 
 <!-- Contenuto migrato da _docs/ci.txt -->

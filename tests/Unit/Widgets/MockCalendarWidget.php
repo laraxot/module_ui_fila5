@@ -8,19 +8,27 @@ use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Component;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\UI\Tests\Unit\Widgets\Fixtures\BaseCalendarWidgetStub;
 =======
 use Modules\UI\Filament\Widgets\BaseCalendarWidget;
 >>>>>>> dfac49d (.)
+=======
+use Modules\UI\Tests\Unit\Widgets\Fixtures\BaseCalendarWidgetStub;
+>>>>>>> dfbb8305 (.)
 
 /**
  * Widget di supporto per i test del BaseCalendarWidget.
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 class MockCalendarWidget extends BaseCalendarWidgetStub
 =======
 class MockCalendarWidget extends BaseCalendarWidget
 >>>>>>> dfac49d (.)
+=======
+class MockCalendarWidget extends BaseCalendarWidgetStub
+>>>>>>> dfbb8305 (.)
 {
     public string $model = MockEventModel::class;
 

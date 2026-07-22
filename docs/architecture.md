@@ -1,10 +1,14 @@
 # UI Module - Architecture Guide (2025)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 > **Last Updated:** 2025-11-19
 =======
 > **
 >>>>>>> dfac49d (.)
+=======
+> **Last Updated:** 2025-11-19
+>>>>>>> dfbb8305 (.)
 > **PHPStan Level:** 10
 > **Status:** Shared UI Components & Filament Customizations
 
@@ -549,6 +553,7 @@ class MyFormComponent extends Field
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 // Non aggiungere route manualmente
@@ -572,6 +577,8 @@ Blade::component('ui::components.icon', 'ui.icon');
 // Non creare componenti personalizzati se esiste un equivalente Filament
 <x-ui.button>Click me</x-ui.button>
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 ```
 
 ### Widget Development
@@ -679,7 +686,11 @@ The UI module is a **well-architected, feature-rich Filament customization layer
 
 **Document Version:** 1.0
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Generated:** 2025-11-19
 =======
 >>>>>>> dfac49d (.)
+=======
+**Generated:** 2025-11-19
+>>>>>>> dfbb8305 (.)
 **Author:** Claude Code Analysis

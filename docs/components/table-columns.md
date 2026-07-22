@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ---
 title: "Table Columns Components"
 type: concept
@@ -19,8 +22,11 @@ related:
   - "./full-calendar-1.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 # Table Columns Components
 
 ## Overview
@@ -188,10 +194,14 @@ use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
 - [State Management](../state-transitions.md)
 - [Filament Components](../filament-components.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [UI Architecture](../architecture-rules-1.md)
 =======
 - [UI Architecture](../architecture_rules.md)
 >>>>>>> dfac49d (.)
+=======
+- [UI Architecture](../architecture-rules-1.md)
+>>>>>>> dfbb8305 (.)
 - [Accessibility Guidelines](../accessibility.md)
 ---
 

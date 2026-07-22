@@ -3,10 +3,14 @@
 ## Panoramica
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_predict_fila3_mono.
 =======
 Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_<nome progetto>_fila5_mono.
 >>>>>>> dfac49d (.)
+=======
+Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_predict_fila3_mono.
+>>>>>>> dfbb8305 (.)
 
 ## Server MCP Consigliati
 
@@ -57,38 +61,54 @@ class GenerateUIScreenshotsAction
     {
         $results = [];
 <<<<<<< HEAD
-
-=======
-        
->>>>>>> dfac49d (.)
-        // Assicurati che la directory di output esista
-        if (!file_exists($outputDir)) {
-            mkdir($outputDir, 0755, true);
-        }
 <<<<<<< HEAD
 
 =======
         
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
+        // Assicurati che la directory di output esista
+        if (!file_exists($outputDir)) {
+            mkdir($outputDir, 0755, true);
+        }
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
         foreach ($routes as $route) {
             try {
                 $url = route($route);
                 $fileName = Str::slug($route) . '.png';
                 $outputPath = $outputDir . '/' . $fileName;
 <<<<<<< HEAD
-
-=======
-                
->>>>>>> dfac49d (.)
-                Log::info("Generating screenshot for route: {$route}", [
-                    'url' => $url,
-                    'output_path' => $outputPath
-                ]);
 <<<<<<< HEAD
 
 =======
                 
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
+                Log::info("Generating screenshot for route: {$route}", [
+                    'url' => $url,
+                    'output_path' => $outputPath
+                ]);
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+                
+>>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
                 $screenshotPath = $this->mcpService->puppeteer()->captureScreenshot(
                     $url,
                     $outputPath,
@@ -99,10 +119,14 @@ class GenerateUIScreenshotsAction
                     ], $options)
                 );
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
                 
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
                 if ($screenshotPath) {
                     $results[$route] = $screenshotPath;
                     Log::info("Screenshot generated successfully", [
@@ -123,10 +147,14 @@ class GenerateUIScreenshotsAction
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
         return $results;
     }
 }
@@ -175,16 +203,22 @@ class ThemeFileService
     {
         $fullPath = $this->getThemePath($themeName) . '/' . $filePath;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 
         try {
             $content = $this->mcpService->filesystem()->readFile($fullPath);
 
+<<<<<<< HEAD
 =======
         
         try {
             $content = $this->mcpService->filesystem()->readFile($fullPath);
             
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
             return $content ?: null;
         } catch (\Exception $e) {
             Log::error("Failed to read theme file", [
@@ -193,10 +227,14 @@ class ThemeFileService
                 'message' => $e->getMessage()
             ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
             return null;
         }
     }
@@ -214,10 +252,14 @@ class ThemeFileService
     {
         $fullPath = $this->getThemePath($themeName) . '/' . $filePath;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
         try {
             // Assicurati che la directory esista
             $directory = dirname($fullPath);
@@ -225,10 +267,14 @@ class ThemeFileService
                 mkdir($directory, 0755, true);
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
             return $this->mcpService->filesystem()->writeFile($fullPath, $content);
         } catch (\Exception $e) {
             Log::error("Failed to write theme file", [
@@ -237,10 +283,14 @@ class ThemeFileService
                 'message' => $e->getMessage()
             ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
             return false;
         }
     }
@@ -257,11 +307,15 @@ class ThemeFileService
     {
         $fullPath = $this->getThemePath($themeName);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 
         if ($directory) {
             $fullPath .= '/' . $directory;
         }
 
+<<<<<<< HEAD
 =======
         
         if ($directory) {
@@ -269,6 +323,8 @@ class ThemeFileService
         }
         
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
         try {
             return $this->mcpService->filesystem()->listDirectory($fullPath);
         } catch (\Exception $e) {
@@ -278,10 +334,14 @@ class ThemeFileService
                 'message' => $e->getMessage()
             ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
             return [];
         }
     }
@@ -345,10 +405,14 @@ class UICacheService
     {
         $cacheKey = $this->generateComponentCacheKey($componentName, $props);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
         try {
             return $this->mcpService->redis()->set(
                 $cacheKey,
@@ -364,10 +428,14 @@ class UICacheService
                 'message' => $e->getMessage()
             ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
             return false;
         }
     }
@@ -384,6 +452,9 @@ class UICacheService
     {
         $cacheKey = $this->generateComponentCacheKey($componentName, $props);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 
         try {
             $cached = $this->mcpService->redis()->get($cacheKey);
@@ -392,6 +463,7 @@ class UICacheService
                 return $cached['html'];
             }
 
+<<<<<<< HEAD
 =======
         
         try {
@@ -402,6 +474,8 @@ class UICacheService
             }
             
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
             return null;
         } catch (\Exception $e) {
             Log::error("Failed to get cached UI component", [
@@ -409,10 +483,14 @@ class UICacheService
                 'message' => $e->getMessage()
             ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
             return null;
         }
     }
@@ -431,6 +509,9 @@ class UICacheService
             // Invalida tutti i componenti con questo nome
             $pattern = "ui_component_{$componentName}_*";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 
             try {
                 $keys = $this->mcpService->redis()->keys($pattern);
@@ -439,6 +520,7 @@ class UICacheService
                     $this->mcpService->redis()->delete($key);
                 }
 
+<<<<<<< HEAD
 =======
             
             try {
@@ -449,6 +531,8 @@ class UICacheService
                 }
                 
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
                 return true;
             } catch (\Exception $e) {
                 Log::error("Failed to invalidate UI component cache", [
@@ -456,20 +540,28 @@ class UICacheService
                     'message' => $e->getMessage()
                 ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
                 
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
                 return false;
             }
         } else {
             // Invalida un componente specifico
             $cacheKey = $this->generateComponentCacheKey($componentName, $props);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
             try {
                 return $this->mcpService->redis()->delete($cacheKey);
             } catch (\Exception $e) {
@@ -478,10 +570,14 @@ class UICacheService
                     'message' => $e->getMessage()
                 ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
                 
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
                 return false;
             }
         }
@@ -499,10 +595,14 @@ class UICacheService
     {
         $propsHash = md5(json_encode($props));
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
         return "ui_component_{$componentName}_{$propsHash}";
     }
 }
@@ -553,19 +653,27 @@ class AnalyzeUIAccessibilityAction
             // Estrai il contenuto HTML della pagina
             $html = $this->mcpService->puppeteer()->extractContent($url, 'html');
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
             if (!$html) {
                 Log::error("Failed to extract HTML content", [
                     'url' => $url
                 ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
                 
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
                 return new UIAnalysisData(
                     score: 0,
                     issues: ['Failed to extract HTML content'],
@@ -573,21 +681,29 @@ class AnalyzeUIAccessibilityAction
                 );
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
             // Analizza l'accessibilità con sequential-thinking
             $analysis = $this->mcpService->sequentialThinking()->analyze(
                 $html,
                 ['accessibility', 'usability', 'performance']
             );
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 
             $accessibilityScore = $analysis['accessibility']['score'] ?? 0;
             $accessibilityIssues = $analysis['accessibility']['issues'] ?? [];
             $suggestions = $analysis['accessibility']['suggestions'] ?? [];
 
+<<<<<<< HEAD
 =======
             
             $accessibilityScore = $analysis['accessibility']['score'] ?? 0;
@@ -595,6 +711,8 @@ class AnalyzeUIAccessibilityAction
             $suggestions = $analysis['accessibility']['suggestions'] ?? [];
             
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
             return new UIAnalysisData(
                 score: $accessibilityScore,
                 issues: $accessibilityIssues,
@@ -607,10 +725,14 @@ class AnalyzeUIAccessibilityAction
                 'trace' => $e->getTraceAsString()
             ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
             return new UIAnalysisData(
                 score: 0,
                 issues: ['Analysis failed: ' . $e->getMessage()],
@@ -643,37 +765,53 @@ class CachedUIComponent extends Component
      */
     public string $componentName;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
     /**
      * @var array<string, mixed>
      */
     public array $componentProps = [];
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
     /**
      * @var int
      */
     public int $cacheTtl = 3600;
 <<<<<<< HEAD
-
-=======
-    
->>>>>>> dfac49d (.)
-    /**
-     * @var bool
-     */
-    public bool $forceRefresh = false;
 <<<<<<< HEAD
 
 =======
     
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
+    /**
+     * @var bool
+     */
+    public bool $forceRefresh = false;
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
     /**
      * Monta il componente.
      *
@@ -690,10 +828,14 @@ class CachedUIComponent extends Component
         $this->cacheTtl = $cacheTtl;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
     /**
      * Forza l'aggiornamento del componente.
      *
@@ -704,10 +846,14 @@ class CachedUIComponent extends Component
         $this->forceRefresh = true;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
     /**
      * Renderizza il componente.
      *
@@ -718,6 +864,9 @@ class CachedUIComponent extends Component
         /** @var MCPServiceContract $mcpService */
         $mcpService = app(MCPServiceContract::class);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 
         /** @var UICacheService $uiCacheService */
         $uiCacheService = app(UICacheService::class);
@@ -736,6 +885,7 @@ class CachedUIComponent extends Component
             $uiCacheService->cacheComponent($this->componentName, $this->componentProps, $html, $this->cacheTtl);
         }
 
+<<<<<<< HEAD
 =======
         
         /** @var UICacheService $uiCacheService */
@@ -756,6 +906,8 @@ class CachedUIComponent extends Component
         }
         
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
         return view('ui::livewire.cached-ui-component', [
             'html' => $html
         ]);
@@ -785,11 +937,15 @@ $mount = function (string $url = '') {
 $analyze = function () {
     $this->isAnalyzing = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 
     try {
         /** @var AnalyzeUIAccessibilityAction $analyzeAction */
         $analyzeAction = app(AnalyzeUIAccessibilityAction::class);
 
+<<<<<<< HEAD
 =======
     
     try {
@@ -797,6 +953,8 @@ $analyze = function () {
         $analyzeAction = app(AnalyzeUIAccessibilityAction::class);
         
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
         $this->analysisResult = $analyzeAction->execute($this->url);
     } catch (\Exception $e) {
         $this->addError('analysis', $e->getMessage());
@@ -820,10 +978,14 @@ $analyze = function () {
         @error('analysis') <span class="text-red-500 text-xs">{{ $message }}</span> @enderror
     </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
     @if($analysisResult)
         <div class="mt-6 bg-white shadow overflow-hidden sm:rounded-lg">
             <div class="px-4 py-5 sm:px-6">
@@ -895,6 +1057,9 @@ $analyze = function () {
 ## Conclusione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_predict_fila3_mono.
 # Integrazione dei Server MCP con il Modulo UI
 
@@ -1599,6 +1764,9 @@ $analyze = function () {
 ## Conclusione
 
 L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_predict_fila3_mono.
+<<<<<<< HEAD
 =======
 L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_<nome progetto>_fila5_mono.
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

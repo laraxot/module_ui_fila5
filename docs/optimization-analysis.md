@@ -760,10 +760,14 @@ class ComponentUsageTracker
 - [Filament UI Guidelines](https://filamentphp.com/docs/support/style-guide)
 - [Tailwind CSS Best Practices](https://tailwindcss.com/docs/reusing-styles)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Component Design Patterns](../../../docs/component-design-patterns.md)
 =======
 - [Component Design Patterns](../../../../docs/component-design-patterns.md)
 >>>>>>> dfac49d (.)
+=======
+- [Component Design Patterns](../../../docs/component-design-patterns.md)
+>>>>>>> dfbb8305 (.)
 
 ---
 

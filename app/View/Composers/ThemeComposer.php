@@ -5,9 +5,12 @@ declare(strict_types=1);
 namespace Modules\UI\View\Composers;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Exception;
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 use Illuminate\View\View;
 
 final class ThemeComposer
@@ -40,10 +43,14 @@ final class ThemeComposer
         $view = "ui::svg.flags.{$lang}";
         if (! view()->exists($view)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new \Exception('view not exits ['.$view.']');
 =======
             throw new Exception('view not exits ['.$view.']');
 >>>>>>> dfac49d (.)
+=======
+            throw new \Exception('view not exits ['.$view.']');
+>>>>>>> dfbb8305 (.)
         }
 
         return view($view);

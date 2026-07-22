@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 return [
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
     'values' => [
         'list' => [
             'label' => 'List',
@@ -18,8 +21,11 @@ return [
             'description' => 'Grid',
         ],
     ],
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
     'actions' => [
         'toggle' => [
             'label' => 'Toggle Layout',

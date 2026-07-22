@@ -71,10 +71,14 @@ class OpeningHoursRule implements ValidationRule
 
         // Se ci sono entrambe le sessioni, la chiusura mattina deve essere prima dell'apertura pomeriggio
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (null !== $morningTo && null !== $afternoonFrom) {
 =======
         if ($morningTo !== null && $afternoonFrom !== null) {
 >>>>>>> dfac49d (.)
+=======
+        if (null !== $morningTo && null !== $afternoonFrom) {
+>>>>>>> dfbb8305 (.)
             if ($morningTo >= $afternoonFrom) {
                 $fail(static::trans('validation.morning_before_afternoon', params: ['day' => $dayLabel]));
             }
@@ -92,10 +96,14 @@ class OpeningHoursRule implements ValidationRule
         $fromKey = "{$session}_from";
         $toKey = "{$session}_to";
 <<<<<<< HEAD
+<<<<<<< HEAD
         $sessionLabel = 'morning' === $session
 =======
         $sessionLabel = $session === 'morning'
 >>>>>>> dfac49d (.)
+=======
+        $sessionLabel = 'morning' === $session
+>>>>>>> dfbb8305 (.)
             ? static::trans('validation.opening_hours.morning')
             : static::trans('validation.opening_hours.afternoon');
 
@@ -115,10 +123,14 @@ class OpeningHoursRule implements ValidationRule
          */
         // Validazione completezza: se uno è specificato, anche l'altro deve esserlo
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (null !== $fromTime && null === $toTime) {
 =======
         if ($fromTime !== null && $toTime === null) {
 >>>>>>> dfac49d (.)
+=======
+        if (null !== $fromTime && null === $toTime) {
+>>>>>>> dfbb8305 (.)
             $fail(static::trans('validation.opening_hours.missing_closing_time', params: [
                 'session' => $sessionLabel,
                 'day' => $dayLabel,
@@ -128,10 +140,14 @@ class OpeningHoursRule implements ValidationRule
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (null !== $toTime && null === $fromTime) {
 =======
         if ($toTime !== null && $fromTime === null) {
 >>>>>>> dfac49d (.)
+=======
+        if (null !== $toTime && null === $fromTime) {
+>>>>>>> dfbb8305 (.)
             $fail(static::trans('validation.opening_hours.missing_opening_time', params: [
                 'session' => $sessionLabel,
                 'day' => $dayLabel,
@@ -142,10 +158,14 @@ class OpeningHoursRule implements ValidationRule
 
         // Validazione logica: apertura deve essere prima della chiusura
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (null !== $fromTime && null !== $toTime) {
 =======
         if ($fromTime !== null && $toTime !== null) {
 >>>>>>> dfac49d (.)
+=======
+        if (null !== $fromTime && null !== $toTime) {
+>>>>>>> dfbb8305 (.)
             if ($fromTime >= $toTime) {
                 $fail(static::trans('validation.opening_hours.opening_before_closing', params: [
                     'session' => $sessionLabel,
@@ -163,10 +183,14 @@ class OpeningHoursRule implements ValidationRule
     private function cleanTimeValue(mixed $value): ?string
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (null === $value || '' === $value || '--:--' === $value) {
 =======
         if ($value === null || $value === '' || $value === '--:--') {
 >>>>>>> dfac49d (.)
+=======
+        if (null === $value || '' === $value || '--:--' === $value) {
+>>>>>>> dfbb8305 (.)
             return null;
         }
 
@@ -174,10 +198,14 @@ class OpeningHoursRule implements ValidationRule
             $cleaned = trim($value);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             return '' === $cleaned ? null : $cleaned;
 =======
             return $cleaned === '' ? null : $cleaned;
 >>>>>>> dfac49d (.)
+=======
+            return '' === $cleaned ? null : $cleaned;
+>>>>>>> dfbb8305 (.)
         }
 
         return null;

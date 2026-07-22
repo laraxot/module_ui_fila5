@@ -345,15 +345,22 @@ echo "✅ Consolidamento completato!"
 
 ### Documentazione Correlata
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [README](../README.md) - Panoramica modulo UI
 =======
 - [README](../readme.md) - Panoramica modulo UI
 >>>>>>> dfac49d (.)
+=======
+- [README](../README.md) - Panoramica modulo UI
+>>>>>>> dfbb8305 (.)
 - [Architettura](./core/architecture.md) - Architettura modulo
 - [Convenzioni](./core/conventions.md) - Convenzioni unificate
 
 ### Documentazione Root
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 - [docs/ottimizzazioni-sistema.md](../../../docs/ottimizzazioni-sistema.md) - Ottimizzazioni sistema generale
 - [docs/architettura-moduli.md](../../../docs/architettura-moduli.md) - Architettura moduli
 
@@ -364,6 +371,7 @@ echo "✅ Consolidamento completato!"
 ---
 
 **Ultimo aggiornamento:** 2025-01-06
+<<<<<<< HEAD
 =======
 - [docs/ottimizzazioni-sistema.md](../../../../docs/ottimizzazioni-sistema.md) - Ottimizzazioni sistema generale
 - [docs/architettura-moduli.md](../../../../docs/architettura-moduli.md) - Architettura moduli
@@ -375,6 +383,8 @@ echo "✅ Consolidamento completato!"
 ---
 
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 **Stato:** In implementazione
 **Responsabile:** Team Sviluppo UI
 **Priorità:** ALTA (duplicazioni massive identificate)

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 # PHPStan Corrections - Modulo UI
 
 **Data:** 17 Agosto 2025  
@@ -124,6 +127,7 @@ La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Lara
 Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 12**.
 
 Il **codice è funzionalmente corretto** e ora rispetta gli standard di tipizzazione PHP per tutti i componenti personalizzati.
+<<<<<<< HEAD
 =======
 ---
 module: theme
@@ -133,3 +137,5 @@ canonical: ../../../Themes/docs/shared-components/phpstan-corrections.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan-corrections.md
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

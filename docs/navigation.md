@@ -36,12 +36,16 @@ $page->navigation
 
 ## Collegamenti tra versioni di navigation.md
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 * [navigation.md](../../../Gdpr/docs/navigation.md)
 * [navigation.md](../../../Xot/docs/navigation.md)
 * [navigation.md](../../../UI/docs/navigation.md)
 * [navigation.md](../../../Cms/docs/blocks/navigation.md)
 * [navigation.md](../../../Cms/docs/navigation.md)
 * [navigation.md](../../../Cms/docs/components/navigation.md)
+<<<<<<< HEAD
 =======
 * [navigation.md](../../../gdpr/docs/navigation.md)
 * [navigation.md](../../../xot/docs/navigation.md)
@@ -50,6 +54,8 @@ $page->navigation
 * [navigation.md](../../../cms/docs/navigation.md)
 * [navigation.md](../../../cms/docs/components/navigation.md)
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 
 ### Versione Incoming
 

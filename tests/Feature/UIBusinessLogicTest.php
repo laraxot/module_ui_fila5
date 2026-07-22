@@ -8,10 +8,13 @@ use Modules\UI\Database\Factories\CategoryFactory;
 use Modules\UI\Database\Factories\CollectionFactory;
 use Modules\UI\Models\Collection;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\UI\Services\ComponentService;
 use Modules\UI\Services\ThemeService;
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
@@ -63,6 +66,7 @@ describe('UI Business Logic Integration', function (): void {
         });
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
     describe('Service stubs', function (): void {
@@ -72,4 +76,6 @@ describe('UI Business Logic Integration', function (): void {
         });
     });
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 });

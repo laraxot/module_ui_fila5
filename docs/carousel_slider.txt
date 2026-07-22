@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 https://www.embla-carousel.com/examples/predefined/
 
 
@@ -9,6 +12,7 @@ https://keen-slider.io/examples
 
 https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
 
+<<<<<<< HEAD
 =======
 ---
 module: theme
@@ -18,3 +22,5 @@ canonical: ../../../Themes/docs/shared-components/carousel-slider.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/carousel-slider.md
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

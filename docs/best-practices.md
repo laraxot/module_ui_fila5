@@ -243,6 +243,7 @@ class AdvancedForm extends Component
 ## Collegamenti tra versioni di best-practices.md
 * [best-practices.md](docs/tecnico/filament/best-practices.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [best-practices.md](../../../Xot/docs/laraxot/best-practices.md)
 * [best-practices.md](../../../UI/docs/best-practices.md)
 * [best-practices.md](../../../../Themes/One/docs/best-practices.md)
@@ -251,6 +252,11 @@ class AdvancedForm extends Component
 * [best-practices.md](../../../ui/docs/best-practices.md)
 * [best-practices.md](../../../../themes/one/docs/best-practices.md)
 >>>>>>> dfac49d (.)
+=======
+* [best-practices.md](../../../Xot/docs/laraxot/best-practices.md)
+* [best-practices.md](../../../UI/docs/best-practices.md)
+* [best-practices.md](../../../../Themes/One/docs/best-practices.md)
+>>>>>>> dfbb8305 (.)
 
 ### Versione Incoming
 
@@ -502,6 +508,9 @@ class AdvancedForm extends Component
 ## Collegamenti tra versioni di best-practices.md
 * [best-practices.md](docs/tecnico/filament/best-practices.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 * [best-practices.md](../../../Xot/project_docs/laraxot/best-practices.md)
 * [best-practices.md](../../../UI/project_docs/best-practices.md)
 * [best-practices.md](../../../../Themes/One/project_docs/best-practices.md)
@@ -511,6 +520,7 @@ class AdvancedForm extends Component
 * [best-practices.md](../../../Xot/project_docs/laraxot/best-practices.md)
 * [best-practices.md](../../../UI/project_docs/best-practices.md)
 * [best-practices.md](../../../../Themes/One/project_docs/best-practices.md)
+<<<<<<< HEAD
 =======
 * [best-practices.md](../../../xot/project_docs/laraxot/best-practices.md)
 * [best-practices.md](../../../ui/project_docs/best-practices.md)
@@ -522,6 +532,8 @@ class AdvancedForm extends Component
 * [best-practices.md](../../../ui/project_docs/best-practices.md)
 * [best-practices.md](../../../../themes/one/project_docs/best-practices.md)
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 
 ### Versione Incoming
 

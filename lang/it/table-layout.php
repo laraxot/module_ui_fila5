@@ -21,10 +21,14 @@ return [
     ],
     'toggle' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
         'label' => 'Cambia Layout!!!',
 =======
         'label' => 'Cambia Layout',
 >>>>>>> dfac49d (.)
+=======
+        'label' => 'Cambia Layout!!!',
+>>>>>>> dfbb8305 (.)
         'tooltip' => 'Alterna tra visualizzazione lista e griglia',
         'helper_text' => 'Cambia il tipo di visualizzazione',
     ],

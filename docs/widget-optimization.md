@@ -111,10 +111,14 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
     protected static ?string $pollingInterval = null;
     protected static bool $isLazy = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
     // Configurazioni comuni per tutti i widget di statistiche UI
     protected static function getDefaultStats(): array
     {
@@ -123,20 +127,28 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
         ];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
     // Metodi helper comuni
     protected function formatNumber(int|float $number): string
     {
         return number_format($number);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
     protected function formatPercentage(int|float $percentage): string
     {
         return number_format($percentage, 1) . '%';
@@ -164,16 +176,22 @@ abstract class UIBaseTestWidget extends XotBaseWidget
     protected static bool $isLazy = true;
     protected static ?string $pollingInterval = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 
     // Configurazioni comuni per tutti i widget di test UI
     public array $widgets = [];
 
+<<<<<<< HEAD
 =======
     
     // Configurazioni comuni per tutti i widget di test UI
     public array $widgets = [];
     
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
     // Metodi helper comuni
     protected function getTestData(): array
     {
@@ -206,10 +224,14 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
     protected static ?string $description = null;
     protected static ?string $pollingInterval = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
     // Configurazioni comuni per tutti i grafici UI
     protected function getDefaultChartOptions(): array
     {
@@ -224,10 +246,14 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
         ];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
     // Metodi helper comuni
     protected function formatChartData(array $data): array
     {
@@ -311,10 +337,14 @@ class SystemTestWidget extends UIBaseTestWidget
 {
     protected static string $view = 'ui::filament.widgets.system-test';
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
     public function getViewData(): array
     {
         return array_merge(
@@ -326,10 +356,14 @@ class SystemTestWidget extends UIBaseTestWidget
         );
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
     private function getSystemInfo(): array
     {
         return [
@@ -339,10 +373,14 @@ class SystemTestWidget extends UIBaseTestWidget
         ];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
     private function getDatabaseStatus(): array
     {
         try {
@@ -375,10 +413,14 @@ class SystemTestWidget extends UIBaseTestWidget
 ## 🔗 Collegamenti Correlati
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [XotBase Patterns](../../Xot/docs/optimization_opportunities.md)
 =======
 - [XotBase Patterns](../../xot/docs/optimization_opportunities.md)
 >>>>>>> dfac49d (.)
+=======
+- [XotBase Patterns](../../Xot/docs/optimization_opportunities.md)
+>>>>>>> dfbb8305 (.)
 - [UI Components](components.md)
 - [Development Guidelines](development-guidelines.md)
 - [Testing Strategy](testing-strategy.md)
@@ -386,6 +428,9 @@ class SystemTestWidget extends UIBaseTestWidget
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 *Ultimo aggiornamento: Giugno 2025*
 *Autore: Analisi Automatica del Progetto*
 # Ottimizzazioni Widget - Modulo UI
@@ -733,6 +778,9 @@ class SystemTestWidget extends UIBaseTestWidget
 ---
 
 *Ultimo aggiornamento: Giugno 2025*
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 *Autore: Analisi Automatica del Progetto*

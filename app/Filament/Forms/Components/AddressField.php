@@ -28,10 +28,13 @@ class AddressField extends XotBaseField
         parent::setUp();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         // NOTE: relationship data is currently only validated for presence here;
         // wiring it into the component state is tracked as a follow-up (see saveRelationships()).
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
         $this->afterStateHydrated(function (AddressField $_component, mixed $record): void {
             if (! $record instanceof Model) {
                 return;
@@ -40,13 +43,19 @@ class AddressField extends XotBaseField
             $relationship = $this->getRelationship();
             if ($relationship && $record->relationLoaded($relationship)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
                 $address = $record->getRelationValue($relationship);
                 if (null !== $address && is_object($address) && method_exists($address, 'toArray')) {
                     $address->toArray();
                 }
+<<<<<<< HEAD
 =======
                 $record->getRelationValue($relationship);
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
             }
         });
 

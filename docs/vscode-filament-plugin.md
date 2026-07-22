@@ -197,10 +197,14 @@ TextInput::make('full_name')
 - [Form Components](form-components.md)
 - [Naming Conventions](naming-conventions.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Translation System](../../Lang/docs/translation-system.md)
 =======
 - [Translation System](../../lang/docs/translation-system.md)
 >>>>>>> dfac49d (.)
+=======
+- [Translation System](../../Lang/docs/translation-system.md)
+>>>>>>> dfbb8305 (.)
 
 ## Vedi Anche
 - [VSCode PHP Setup](vscode-php-setup.md)
@@ -405,6 +409,7 @@ TextInput::make('full_name')
 - [Form Components](form-components.md)
 - [Naming Conventions](naming-conventions.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Translation System](../../Lang/project_docs/translation-system.md)
 - [Translation System](../../Lang/project_docs/translation-system.md)
 - [Translation System](../../Lang/project_docs/translation-system.md)
@@ -413,6 +418,11 @@ TextInput::make('full_name')
 - [Translation System](../../lang/project_docs/translation-system.md)
 - [Translation System](../../lang/project_docs/translation-system.md)
 >>>>>>> dfac49d (.)
+=======
+- [Translation System](../../Lang/project_docs/translation-system.md)
+- [Translation System](../../Lang/project_docs/translation-system.md)
+- [Translation System](../../Lang/project_docs/translation-system.md)
+>>>>>>> dfbb8305 (.)
 
 ## Vedi Anche
 - [VSCode PHP Setup](vscode-php-setup.md)

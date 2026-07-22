@@ -5,19 +5,27 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Actions\Header;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Actions\XotBaseAction;
 =======
 use Filament\Actions\Action;
 >>>>>>> dfac49d (.)
+=======
+use Modules\Xot\Filament\Actions\XotBaseAction;
+>>>>>>> dfbb8305 (.)
 
 /**
  * @see https://filamentphp.com/plugins/tgeorgel-table-layout-toggle
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 class TableLayoutToggleHeaderAction extends XotBaseAction
 =======
 class TableLayoutToggleHeaderAction extends Action
 >>>>>>> dfac49d (.)
+=======
+class TableLayoutToggleHeaderAction extends XotBaseAction
+>>>>>>> dfbb8305 (.)
 {
     // use NavigationActionLabelTrait;
     public string $listIcon = 'heroicon-o-list-bullet';
@@ -47,10 +55,14 @@ class TableLayoutToggleHeaderAction extends Action
                     $layoutView = is_string($layoutViewRaw) ? $layoutViewRaw : '';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                     return 'list' === $layoutView ? $this->listIcon : $this->gridIcon;
 =======
                     return $layoutView === 'list' ? $this->listIcon : $this->gridIcon;
 >>>>>>> dfac49d (.)
+=======
+                    return 'list' === $layoutView ? $this->listIcon : $this->gridIcon;
+>>>>>>> dfbb8305 (.)
                 }
 
                 return $this->listIcon; // default icon
@@ -63,10 +75,14 @@ class TableLayoutToggleHeaderAction extends Action
              * @param object{layoutView?: string|null} $livewire
              */
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->action(function (object $livewire): void {
 =======
             ->action(static function (object $livewire): void {
 >>>>>>> dfac49d (.)
+=======
+            ->action(function (object $livewire): void {
+>>>>>>> dfbb8305 (.)
                 // ✅ isset() invece di property_exists() - funziona con magic properties Livewire
                 if (! isset($livewire->layoutView)) {
                     return;
@@ -76,10 +92,14 @@ class TableLayoutToggleHeaderAction extends Action
                 $layoutView = is_string($layoutViewRaw) ? $layoutViewRaw : '';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 $livewire->layoutView = 'grid' === $layoutView ? 'list' : 'grid';
 =======
                 $livewire->layoutView = $layoutView === 'grid' ? 'list' : 'grid';
 >>>>>>> dfac49d (.)
+=======
+                $livewire->layoutView = 'grid' === $layoutView ? 'list' : 'grid';
+>>>>>>> dfbb8305 (.)
             });
     }
 

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # UI Module Roadmap
 
 =======
@@ -305,6 +306,10 @@ UI Module
 *Questa roadmap è specifica per il modulo UI e viene aggiornata regolarmente in base ai progressi e alle nuove esigenze.*
 ||||||| parent of 9a84589 (.)
 >>>>>>> dfac49d (.)
+=======
+# UI Module Roadmap
+
+>>>>>>> dfbb8305 (.)
 "L'interfaccia è l'essenza: rendere l'esperienza indimenticabile."
 
 ## 🎯 Visione
@@ -335,7 +340,11 @@ Creare un ecosistema UI "Headless-first" che permetta di cambiare radicalmente i
 
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Ultimo aggiornamento**: 31 Gennaio 2026
 =======
 **
 >>>>>>> dfac49d (.)
+=======
+**Ultimo aggiornamento**: 31 Gennaio 2026
+>>>>>>> dfbb8305 (.)

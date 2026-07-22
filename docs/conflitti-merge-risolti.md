@@ -1,10 +1,14 @@
 # Conflitti di Merge Risolti nel Modulo UI
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Conflitti Risolti (2025-05-13)
 =======
 ## Conflitti Risolti ([DATE])
 >>>>>>> dfac49d (.)
+=======
+## Conflitti Risolti (2025-05-13)
+>>>>>>> dfbb8305 (.)
 
 ### 1. UIServiceProvider.php
 
@@ -61,6 +65,9 @@ Questa documentazione integra le informazioni sui conflitti risolti, fornendo de
 
 ## Backlink
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 - [Torna a docs/links.md](../../../../docs/links.md)
 - [Vedi anche: UI/docs/README.md](./README.md)
 - [Vedi anche: Xot/docs/README.md](../../Xot/docs/README.md)
@@ -70,6 +77,7 @@ Questa documentazione integra le informazioni sui conflitti risolti, fornendo de
 # Conflitti di Merge Risolti nel Modulo UI
 
 ## Conflitti Risolti (2025-05-13)
+<<<<<<< HEAD
 =======
 - [Torna a docs/links.md](../../../../../docs/links.md)
 - [Vedi anche: UI/docs/README.md](./readme.md)
@@ -81,6 +89,8 @@ Questa documentazione integra le informazioni sui conflitti risolti, fornendo de
 
 ## Conflitti Risolti ([DATE])
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 
 ### 1. UIServiceProvider.php
 
@@ -137,12 +147,16 @@ Questa documentazione integra le informazioni sui conflitti risolti, fornendo de
 
 ## Backlink
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 - [Torna a docs/links.md](../../../../docs/links.md)
 - [Vedi anche: UI/docs/README.md](./README.md)
 - [Vedi anche: Xot/docs/README.md](../../Xot/docs/README.md)
 - [Vedi anche: Blog/docs/README.md](../../Blog/docs/README.md)
 - [Vedi anche: Cms/docs/README.md](../../Cms/docs/README.md)
 - [Vedi anche: Comment/docs/README.md](../../Comment/docs/README.md)
+<<<<<<< HEAD
 =======
 - [Torna a docs/links.md](../../../../../docs/links.md)
 - [Vedi anche: UI/docs/README.md](./readme.md)
@@ -151,3 +165,5 @@ Questa documentazione integra le informazioni sui conflitti risolti, fornendo de
 - [Vedi anche: Cms/docs/README.md](../../cms/docs/readme.md)
 - [Vedi anche: Comment/docs/README.md](../../comment/docs/readme.md)
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

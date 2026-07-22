@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 https://github.com/savannabits/filament-signature-pad
 
 
@@ -12,6 +15,7 @@ https://filamentphp.com/plugins/saade-adjacency-list
 https://filamentphp.com/plugins/codewithdennis-select-tree
 https://github.com/beholdr/filament-trilist
 
+<<<<<<< HEAD
 =======
 ---
 module: theme
@@ -21,3 +25,5 @@ canonical: ../../../Themes/docs/shared-components/filament-Modules.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/filament-Modules.md
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

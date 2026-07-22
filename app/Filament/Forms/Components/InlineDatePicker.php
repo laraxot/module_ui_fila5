@@ -9,10 +9,14 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
 use Modules\Xot\Filament\Forms\Components\XotBaseDatePicker;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 use RuntimeException;
 >>>>>>> dfac49d (.)
+=======
+
+>>>>>>> dfbb8305 (.)
 use function Safe\preg_match;
 
 /**
@@ -57,10 +61,14 @@ class InlineDatePicker extends XotBaseDatePicker
         // Hydration/Dehydration del valore
         $this->afterStateHydrated(static function (self $component, mixed $state): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (null !== $state && \is_string($state) && '' !== $state) {
 =======
             if ($state !== null && \is_string($state) && $state !== '') {
 >>>>>>> dfac49d (.)
+=======
+            if (null !== $state && \is_string($state) && '' !== $state) {
+>>>>>>> dfbb8305 (.)
                 try {
                     $date = Carbon::parse($state);
                     $component->currentViewMonth = $date->format('Y-m');
@@ -72,12 +80,17 @@ class InlineDatePicker extends XotBaseDatePicker
         });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->dehydrateStateUsing(static function (self $_component, mixed $state): ?string {
             if (null !== $state && \is_string($state) && '' !== $state) {
 =======
         $this->dehydrateStateUsing(static function (self $component, mixed $state): ?string {
             if ($state !== null && \is_string($state) && $state !== '') {
 >>>>>>> dfac49d (.)
+=======
+        $this->dehydrateStateUsing(static function (self $_component, mixed $state): ?string {
+            if (null !== $state && \is_string($state) && '' !== $state) {
+>>>>>>> dfbb8305 (.)
                 try {
                     return Carbon::parse($state)->format('Y-m-d');
                 } catch (\Exception $e) {
@@ -169,10 +182,14 @@ class InlineDatePicker extends XotBaseDatePicker
         /** @var Collection<int, non-falsy-string> $result */
         $result = collect($dates)->map(static function (mixed $date): string {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (! \is_string($date) || '' === $date) {
 =======
             if (! \is_string($date) || $date === '') {
 >>>>>>> dfac49d (.)
+=======
+            if (! \is_string($date) || '' === $date) {
+>>>>>>> dfbb8305 (.)
                 return '';
             }
             try {
@@ -181,10 +198,14 @@ class InlineDatePicker extends XotBaseDatePicker
                 return '';
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
         })->filter(static fn (string $v): bool => '' !== $v)->values(); // Remove empty strings and reindex
 =======
         })->filter(static fn (string $v): bool => $v !== '')->values(); // Remove empty strings and reindex
 >>>>>>> dfac49d (.)
+=======
+        })->filter(static fn (string $v): bool => '' !== $v)->values(); // Remove empty strings and reindex
+>>>>>>> dfbb8305 (.)
 
         /** @var Collection<int, string> $resultTyped */
         $resultTyped = $result;
@@ -260,10 +281,14 @@ class InlineDatePicker extends XotBaseDatePicker
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $res = [
 =======
         return [
 >>>>>>> dfac49d (.)
+=======
+        $res = [
+>>>>>>> dfbb8305 (.)
             'weeks' => $weeks->toArray(),
             'month' => $targetMonth,
             'monthName' => $targetMonth->translatedFormat('F'),
@@ -271,11 +296,17 @@ class InlineDatePicker extends XotBaseDatePicker
             'weekdays' => $this->getLocalizedWeekdays(),
         ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         /* @var array<string, mixed> $res */
         return $res;
 =======
 >>>>>>> dfac49d (.)
+=======
+
+        /* @var array<string, mixed> $res */
+        return $res;
+>>>>>>> dfbb8305 (.)
     }
 
     /**
@@ -288,10 +319,14 @@ class InlineDatePicker extends XotBaseDatePicker
         $calendarData = $this->generateCalendarData();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $res = array_merge(parent::getViewData(), [
 =======
         return array_merge(parent::getViewData(), [
 >>>>>>> dfac49d (.)
+=======
+        $res = array_merge(parent::getViewData(), [
+>>>>>>> dfbb8305 (.)
             'calendarData' => $calendarData,
             'currentViewMonth' => $this->currentViewMonth,
             'currentValue' => $this->getState(),
@@ -302,11 +337,17 @@ class InlineDatePicker extends XotBaseDatePicker
             'weekdays' => $calendarData['weekdays'],
         ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         /* @var array<string, mixed> $res */
         return $res;
 =======
 >>>>>>> dfac49d (.)
+=======
+
+        /* @var array<string, mixed> $res */
+        return $res;
+>>>>>>> dfbb8305 (.)
     }
 
     /**
@@ -323,10 +364,14 @@ class InlineDatePicker extends XotBaseDatePicker
             $dayCarbon = $monday->copy()->addDays($i)->locale(App::getLocale());
             if (! $dayCarbon instanceof Carbon) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 throw new \RuntimeException('Expected Carbon instance');
 =======
                 throw new RuntimeException('Expected Carbon instance');
 >>>>>>> dfac49d (.)
+=======
+                throw new \RuntimeException('Expected Carbon instance');
+>>>>>>> dfbb8305 (.)
             }
             $shortDay = $dayCarbon->shortLocaleDayOfWeek;
             $weekdays[] = \is_string($shortDay) ? mb_substr($shortDay, 0, 1) : (string) $shortDay;

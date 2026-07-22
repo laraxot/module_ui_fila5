@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 https://github.com/owainjones74/filament-chunked-file-uploads/tree/main
 =======
 ---
@@ -9,3 +10,6 @@ canonical: ../../../Themes/docs/shared-components/chunk.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/chunk.md
 >>>>>>> dfac49d (.)
+=======
+https://github.com/owainjones74/filament-chunked-file-uploads/tree/main
+>>>>>>> dfbb8305 (.)

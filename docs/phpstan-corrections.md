@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 # Correzioni PHPStan - Modulo UI
 
 ## Panoramica
@@ -141,6 +144,7 @@ return view($this->view, $viewParamsArray);
 - [Architettura Modulo UI](../architecture.md)
 - [Guida PHPStan](../../../docs/phpstan-guide.md)
 - [Best Practices Laraxot](../../../docs/laraxot-best-practices.md)
+<<<<<<< HEAD
 =======
 # PHPStan Corrections - Modulo UI
 
@@ -268,3 +272,5 @@ Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I r
 
 Il **codice è funzionalmente corretto** e ora rispetta gli standard di tipizzazione PHP per tutti i componenti personalizzati.
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

@@ -5,6 +5,9 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
@@ -21,12 +24,15 @@ use PHPUnit\Framework\Assert;
  * the ignores.
  */
 
+<<<<<<< HEAD
 =======
 use Modules\UI\Models\Theme;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 uses(TestCase::class);
 
 beforeEach(function (): void {
@@ -38,6 +44,7 @@ beforeEach(function (): void {
 
 describe('Theme Model', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
     test('it can create a theme with valid data', function (): void {
         /** @phpstan-ignore-next-line class.notFound, method.nonObject (Theme model absent from artifact set (test skipped at runtime)) */
         $theme = \Modules\UI\Models\Theme::factory()->createOne([
@@ -46,10 +53,16 @@ describe('Theme Model', function (): void {
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
         $theme = Theme::factory()->create([
 >>>>>>> dfac49d (.)
+=======
+    test('it can create a theme with valid data', function (): void {
+        /** @phpstan-ignore-next-line class.notFound, method.nonObject (Theme model absent from artifact set (test skipped at runtime)) */
+        $theme = \Modules\UI\Models\Theme::factory()->createOne([
+>>>>>>> dfbb8305 (.)
             'name' => 'Test Theme',
             'is_active' => true,
         ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         /* @phpstan-ignore-next-line property.nonObject (Theme model absent from artifact set) */
         Assert::assertSame('Test Theme', $theme->name);
@@ -59,11 +72,19 @@ describe('Theme Model', function (): void {
         Assert::assertSame('Test Theme', $theme->name);
         /* @phpstan-ignore-next-line -- Theme model is optional */
 >>>>>>> dfac49d (.)
+=======
+        /* @phpstan-ignore-next-line property.nonObject (Theme model absent from artifact set) */
+        Assert::assertSame('Test Theme', $theme->name);
+        /* @phpstan-ignore-next-line property.nonObject (Theme model absent from artifact set) */
+>>>>>>> dfbb8305 (.)
         Assert::assertTrue($theme->is_active);
     });
 
     test('it has fillable attributes', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
         /** @phpstan-ignore-next-line class.notFound (Theme model absent from artifact set) */
         $theme = new \Modules\UI\Models\Theme();
         $expected = ['name', 'description', 'is_active', 'config', 'parent_id', 'source_path', 'compiled_path', 'needs_compilation'];
@@ -71,6 +92,7 @@ describe('Theme Model', function (): void {
         foreach ($expected as $field) {
             /* @phpstan-ignore-next-line class.notFound (Theme model absent from artifact set) */
             Assert::assertTrue(in_array($field, $theme->getFillable(), true));
+<<<<<<< HEAD
 =======
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
         $theme = new Theme();
@@ -80,17 +102,23 @@ describe('Theme Model', function (): void {
             /* @phpstan-ignore-next-line -- Theme model is optional */
             Assert::assertTrue(in_array($field, $theme->getFillable()));
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
         }
     });
 
     test('it casts is active to boolean', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
         /** @phpstan-ignore-next-line class.notFound, method.nonObject (Theme model absent from artifact set) */
         $theme = \Modules\UI\Models\Theme::factory()->createOne(['is_active' => '1']);
 
         /* @phpstan-ignore-next-line property.nonObject (Theme model absent from artifact set) */
         Assert::assertIsBool($theme->is_active);
         /* @phpstan-ignore-next-line property.nonObject (Theme model absent from artifact set) */
+<<<<<<< HEAD
 =======
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
         $theme = Theme::factory()->create(['is_active' => '1']);
@@ -99,11 +127,16 @@ describe('Theme Model', function (): void {
         Assert::assertIsBool($theme->is_active);
         /* @phpstan-ignore-next-line -- Theme model is optional */
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
         Assert::assertTrue($theme->is_active);
     });
 
     test('it casts config to array', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
         /** @phpstan-ignore-next-line class.notFound, method.nonObject (Theme model absent from artifact set) */
         $theme = \Modules\UI\Models\Theme::factory()->createOne([
             'config' => ['primary_color' => '#ff0000', 'font_family' => 'Roboto'],
@@ -112,6 +145,7 @@ describe('Theme Model', function (): void {
         /* @phpstan-ignore-next-line property.nonObject (Theme model absent from artifact set) */
         Assert::assertIsArray($theme->config);
         /* @phpstan-ignore-next-line property.nonObject (Theme model absent from artifact set) */
+<<<<<<< HEAD
 =======
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
         $theme = Theme::factory()->create([
@@ -122,17 +156,23 @@ describe('Theme Model', function (): void {
         Assert::assertIsArray($theme->config);
         /* @phpstan-ignore-next-line -- Theme model is optional */
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
         Assert::assertSame('#ff0000', $theme->config['primary_color']);
     });
 
     test('it casts needs compilation to boolean', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
         /** @phpstan-ignore-next-line class.notFound, method.nonObject (Theme model absent from artifact set) */
         $theme = \Modules\UI\Models\Theme::factory()->createOne(['needs_compilation' => true]);
 
         /* @phpstan-ignore-next-line property.nonObject (Theme model absent from artifact set) */
         Assert::assertIsBool($theme->needs_compilation);
         /* @phpstan-ignore-next-line property.nonObject (Theme model absent from artifact set) */
+<<<<<<< HEAD
 =======
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
         $theme = Theme::factory()->create(['needs_compilation' => true]);
@@ -141,17 +181,23 @@ describe('Theme Model', function (): void {
         Assert::assertIsBool($theme->needs_compilation);
         /* @phpstan-ignore-next-line -- Theme model is optional */
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
         Assert::assertTrue($theme->needs_compilation);
     });
 
     test('theme can have parent theme', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
         /** @phpstan-ignore-next-line class.notFound, method.nonObject (Theme model absent from artifact set) */
         $parent = \Modules\UI\Models\Theme::factory()->createOne(['name' => 'Parent Theme']);
         /** @phpstan-ignore-next-line class.notFound, method.nonObject, property.nonObject (Theme model absent from artifact set) */
         $child = \Modules\UI\Models\Theme::factory()->createOne(['name' => 'Child Theme', 'parent_id' => $parent->id]);
 
         /* @phpstan-ignore-next-line property.nonObject (Theme model absent from artifact set) */
+<<<<<<< HEAD
 =======
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
         $parent = Theme::factory()->create(['name' => 'Parent Theme']);
@@ -160,47 +206,65 @@ describe('Theme Model', function (): void {
 
         /* @phpstan-ignore-next-line -- Theme model is optional */
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
         Assert::assertSame('Parent Theme', $child->parent->name);
     });
 
     test('theme can be active', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
         /** @phpstan-ignore-next-line class.notFound, method.nonObject (Theme model absent from artifact set) */
         $theme = \Modules\UI\Models\Theme::factory()->createOne(['is_active' => true]);
 
         /* @phpstan-ignore-next-line property.nonObject (Theme model absent from artifact set) */
+<<<<<<< HEAD
 =======
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
         $theme = Theme::factory()->create(['is_active' => true]);
 
         /* @phpstan-ignore-next-line -- Theme model is optional */
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
         Assert::assertTrue($theme->is_active);
     });
 
     test('theme can be inactive', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
         /** @phpstan-ignore-next-line class.notFound, method.nonObject (Theme model absent from artifact set) */
         $theme = \Modules\UI\Models\Theme::factory()->createOne(['is_active' => false]);
 
         /* @phpstan-ignore-next-line property.nonObject (Theme model absent from artifact set) */
+<<<<<<< HEAD
 =======
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
         $theme = Theme::factory()->create(['is_active' => false]);
 
         /* @phpstan-ignore-next-line -- Theme model is optional */
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
         Assert::assertFalse($theme->is_active);
     });
 
     test('theme has timestamps', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
         /** @phpstan-ignore-next-line class.notFound, method.nonObject (Theme model absent from artifact set) */
         $theme = \Modules\UI\Models\Theme::factory()->createOne();
 
         /* @phpstan-ignore-next-line property.nonObject (Theme model absent from artifact set) */
         Assert::assertNotNull($theme->created_at);
         /* @phpstan-ignore-next-line property.nonObject (Theme model absent from artifact set) */
+<<<<<<< HEAD
 =======
         /** @phpstan-ignore-next-line -- Theme model is optional, guarded by setUp */
         $theme = Theme::factory()->create();
@@ -209,6 +273,8 @@ describe('Theme Model', function (): void {
         Assert::assertNotNull($theme->created_at);
         /* @phpstan-ignore-next-line -- Theme model is optional */
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
         Assert::assertNotNull($theme->updated_at);
     });
 });

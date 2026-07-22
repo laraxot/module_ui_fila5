@@ -2,10 +2,14 @@
 
 ## Data
 <<<<<<< HEAD
+<<<<<<< HEAD
 2025-01-06
 =======
 [DATE]
 >>>>>>> dfac49d (.)
+=======
+2025-01-06
+>>>>>>> dfbb8305 (.)
 
 ## Strumenti Utilizzati
 
@@ -55,13 +59,19 @@ Eseguire `./vendor/bin/rector process Modules/UI --dry-run` per vedere le modifi
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 - [Module Analysis Report](../../../docs/module-analysis-report-2025-01-06.md)
 - [PHPStan Level 10 Fixes](../../../docs/phpstan-level10-fixes-2025-01-06.md)
 
 *Ultimo aggiornamento: 2025-01-06*
+<<<<<<< HEAD
 =======
 - [Module Analysis Report](../../../../docs/module-analysis-report-[date].md)
 - [PHPStan Level 10 Fixes](../../../../docs/phpstan-level10-fixes-[date].md)
 
 *Ultimo aggiornamento: [DATE]*
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
