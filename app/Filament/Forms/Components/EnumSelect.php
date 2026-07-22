@@ -28,12 +28,6 @@ final class EnumSelect extends XotBaseSelect
         $this->options(fn (): array => $this->generateOptions());
     }
 
-<<<<<<< .merge_file_IT3yld
-    public static function make(?string $name = null): static
-    {
-        /** @var static $component */
-        $component = parent::make($name);
-=======
     /**
      * Create a new EnumSelect component.
      * Signature must match Filament\\Forms\\Components\\Field::make(?string $name = null).
@@ -41,8 +35,7 @@ final class EnumSelect extends XotBaseSelect
     public static function make(?string $name = null): static
     {
         /** @var static $component */
-        $component = null === $name ? parent::make() : parent::make($name);
->>>>>>> .merge_file_2GhBMn
+        $component = parent::make($name);
 
         return $component->native(false);
     }
