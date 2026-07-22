@@ -28,7 +28,6 @@ final class Navbar extends Component
          * @phpstan-var view-string
          */
         $view = app(GetViewAction::class)->execute();
-        dddx($view);
         $viewParams = [];
 
         return view($view, $viewParams);
