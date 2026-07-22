@@ -277,8 +277,14 @@ The UI module needs a robust design system with consistent components, theming c
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Created**: 2026-01-31
 =======
 >>>>>>> dfac49d (.)
 **Status**: Pending
 **Assignee**: TBD
+=======
+**Created**: 2026-01-31
+**Status**: Pending
+**Assignee**: TBD
+>>>>>>> dfbb8305 (.)

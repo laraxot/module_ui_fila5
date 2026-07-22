@@ -127,7 +127,11 @@ Ogni metodo di test implementa:
 6. **Documentazione**: File markdown nella cartella docs del modulo
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: Gennaio 2025*
 =======
 >>>>>>> dfac49d (.)
+=======
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> dfbb8305 (.)
 *Errore risolto: ErrorException Undefined variable $results*

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ---
 title: "chunk"
 type: concept
@@ -19,8 +22,11 @@ related:
   - "./custom-theme-1.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 # chunk
 
 <!-- Contenuto migrato da _docs/chunk.txt -->

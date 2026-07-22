@@ -23,6 +23,7 @@ Example of a Volt component in a Folio page:
 <?php
 use App\Models\Event;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use function Livewire\Volt\{computed, mount};
 
 $events = computed(fn () => Event::upcoming()->get());
@@ -39,6 +40,11 @@ new class extends Component {
     }
 };
 >>>>>>> dfac49d (.)
+=======
+use function Livewire\Volt\{computed, mount};
+
+$events = computed(fn () => Event::upcoming()->get());
+>>>>>>> dfbb8305 (.)
 ?>
 
 <x-layout>
@@ -68,6 +74,7 @@ new class extends Component {
 
 ### 5. Data Handling
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Use `computed()` for data that should be cached until dependencies change
 - Use `state()` for reactive properties
 - Use `mount()` for initialization logic when component loads
@@ -75,6 +82,11 @@ new class extends Component {
 - In class-based components, keep state in `public` properties and initialize in `mount()`
 - For derived values, prefer methods/getters in the class (functional `computed()` / `state()` is legacy/mantenimento)
 >>>>>>> dfac49d (.)
+=======
+- Use `computed()` for data that should be cached until dependencies change
+- Use `state()` for reactive properties
+- Use `mount()` for initialization logic when component loads
+>>>>>>> dfbb8305 (.)
 - Sushi package can be used for dummy data in development
 
 ### 6. Middleware Application
@@ -120,7 +132,11 @@ middleware(['auth', 'verified']);
 
 ## Date
 <<<<<<< HEAD
+<<<<<<< HEAD
 2025-11-29
 =======
 [DATE]
 >>>>>>> dfac49d (.)
+=======
+2025-11-29
+>>>>>>> dfbb8305 (.)

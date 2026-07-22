@@ -357,11 +357,15 @@ dd($this->layout->getTableContentGrid());
 - [UI Components](../components.md)
 - [Filament Tables](https://filamentphp.com/docs/3.x/tables/overview)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 - [Translation Standards](../../Xot/docs/translation-standards.md)
 - [Enum Standards](../../../docs/enum_standards.md)
 
 ## Ultimo Aggiornamento
 2025-01-27 - Documentazione completa TableLayoutEnum
+<<<<<<< HEAD
 =======
 - [Translation Standards](../../xot/docs/translation-standards.md)
 - [Enum Standards](../../../../docs/enum_standards.md)
@@ -369,3 +373,5 @@ dd($this->layout->getTableContentGrid());
 ## Ultimo Aggiornamento
 [DATE] - Documentazione completa TableLayoutEnum
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

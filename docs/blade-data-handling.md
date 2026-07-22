@@ -130,6 +130,7 @@ Components should never rely on variables that haven't been explicitly defined a
 ## Related Documentation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Block Components Overview](./blocks/README.md)
 - [Component Architecture](./components/README.md)
 - [Section Architecture](./sections/README.md)
@@ -138,6 +139,11 @@ Components should never rely on variables that haven't been explicitly defined a
 - [Component Architecture](./components/readme.md)
 - [Section Architecture](./sections/readme.md)
 >>>>>>> dfac49d (.)
+=======
+- [Block Components Overview](./blocks/README.md)
+- [Component Architecture](./components/README.md)
+- [Section Architecture](./sections/README.md)
+>>>>>>> dfbb8305 (.)
 
 > **Note**: This document is the primary reference for Blade data handling patterns across all modules.
 > All module-specific implementations should link back to this document.
@@ -275,6 +281,7 @@ Components should never rely on variables that haven't been explicitly defined a
 ## Related Documentation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Block Components Overview](./blocks/README.md)
 - [Component Architecture](./components/README.md)
 - [Section Architecture](./sections/README.md)
@@ -283,6 +290,11 @@ Components should never rely on variables that haven't been explicitly defined a
 - [Component Architecture](./components/readme.md)
 - [Section Architecture](./sections/readme.md)
 >>>>>>> dfac49d (.)
+=======
+- [Block Components Overview](./blocks/README.md)
+- [Component Architecture](./components/README.md)
+- [Section Architecture](./sections/README.md)
+>>>>>>> dfbb8305 (.)
 
 > **Note**: This document is the primary reference for Blade data handling patterns across all modules.
 > All module-specific implementations should link back to this document.

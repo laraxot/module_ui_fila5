@@ -6,6 +6,9 @@ created: 2026-05-28
 tags: [filament, ui, blade]
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
   - "./auth-register-focus-loss-overlay.md"
   - "./block-rendering-and-optional-services.md"
   - "./claude-audit-static.md"
@@ -14,10 +17,13 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
+<<<<<<< HEAD
 =======
   - ../../../../../../docs/wiki/rules/filament-first-rule.md
   - ../../blade/filament-components.md
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 ---
 
 # UI — Filament Blade canonical

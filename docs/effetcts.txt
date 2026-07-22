@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 https://mridul2820.github.io/css-js/
 
 https://github.com/Mridul2820/css-js
@@ -23,6 +26,7 @@ Motion
 
 
 
+<<<<<<< HEAD
 =======
 ---
 module: theme
@@ -32,3 +36,5 @@ canonical: ../../../Themes/docs/shared-components/effetcts.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/effetcts.md
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

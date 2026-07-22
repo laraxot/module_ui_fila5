@@ -9,10 +9,14 @@ Un componente avanzato per la selezione di date che mostra un calendario inline 
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 InlineDatePicker::make('appointment_date')
 <<<<<<< HEAD
+<<<<<<< HEAD
     ->enabledDates(['2025-06-05', '2025-06-21', '2025-06-25'])
 =======
     ->enabledDates(['[DATE]', '[DATE]', '[DATE]'])
 >>>>>>> dfac49d (.)
+=======
+    ->enabledDates(['2025-06-05', '2025-06-21', '2025-06-25'])
+>>>>>>> dfbb8305 (.)
     ->calendarConfig([
         'locale' => 'it',
         'firstDayOfWeek' => 1, // Lunedì come primo giorno della settimana
@@ -65,10 +69,14 @@ Lo stile del componente può essere personalizzato sovrascrivendo le classi CSS 
 $enabledDates = $datePicker->getEnabledDates();
 // Verificare se una data è abilitata
 <<<<<<< HEAD
+<<<<<<< HEAD
 $isEnabled = $datePicker->isDateEnabled('2025-06-15');
 =======
 $isEnabled = $datePicker->isDateEnabled('[DATE]');
 >>>>>>> dfac49d (.)
+=======
+$isEnabled = $datePicker->isDateEnabled('2025-06-15');
+>>>>>>> dfbb8305 (.)
 // Generare la griglia di un mese specifico
 $monthGrid = $datePicker->generateMonthGrid(2025, 6);
 #### Best Practice
@@ -213,6 +221,9 @@ form.addEventListener('submit', (e) => {
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
 ## Collegamenti tra versioni di form-components.md
 * [form-components.md](../../../UI/project_docs/form-components.md)
@@ -220,6 +231,7 @@ form.addEventListener('submit', (e) => {
 - [Documentazione Frontend](../Cms/docs/frontend-architecture.md)
 * [form-components.md](../../../UI/docs/form-components.md)
 * [form-components.md](../../../UI/docs/roadmap/form-components.md)
+<<<<<<< HEAD
 =======
 - [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
 ## Collegamenti tra versioni di form-components.md
@@ -229,6 +241,8 @@ form.addEventListener('submit', (e) => {
 * [form-components.md](../../../ui/docs/form-components.md)
 * [form-components.md](../../../ui/docs/roadmap/form-components.md)
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 # Componenti Form
 
 ## Introduzione
@@ -246,10 +260,14 @@ use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 
 InlineDatePicker::make('appointment_date')
 <<<<<<< HEAD
+<<<<<<< HEAD
     ->enabledDates(['2025-06-05', '2025-06-21', '2025-06-25'])
 =======
     ->enabledDates(['[DATE]', '[DATE]', '[DATE]'])
 >>>>>>> dfac49d (.)
+=======
+    ->enabledDates(['2025-06-05', '2025-06-21', '2025-06-25'])
+>>>>>>> dfbb8305 (.)
     ->calendarConfig([
         'locale' => 'it',
         'firstDayOfWeek' => 1, // Lunedì come primo giorno della settimana
@@ -323,10 +341,14 @@ $enabledDates = $datePicker->getEnabledDates();
 
 // Verificare se una data è abilitata
 <<<<<<< HEAD
+<<<<<<< HEAD
 $isEnabled = $datePicker->isDateEnabled('2025-06-15');
 =======
 $isEnabled = $datePicker->isDateEnabled('[DATE]');
 >>>>>>> dfac49d (.)
+=======
+$isEnabled = $datePicker->isDateEnabled('2025-06-15');
+>>>>>>> dfbb8305 (.)
 
 // Generare la griglia di un mese specifico
 $monthGrid = $datePicker->generateMonthGrid(2025, 6);
@@ -528,13 +550,19 @@ form.addEventListener('submit', (e) => {
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
 ## Collegamenti tra versioni di form-components.md
 * [form-components.md](../../../UI/project_docs/form-components.md)
 * [form-components.md](../../../UI/project_docs/roadmap/form-components.md)
+<<<<<<< HEAD
 =======
 - [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
 ## Collegamenti tra versioni di form-components.md
 * [form-components.md](../../../ui/project_docs/form-components.md)
 * [form-components.md](../../../ui/project_docs/roadmap/form-components.md)
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

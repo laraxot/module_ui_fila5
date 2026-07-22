@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ---
 title: "Integrazione dei Componenti Filament nei Blocchi"
 type: concept
@@ -15,8 +18,11 @@ related:
   - "./user-dropdown.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 # Integrazione dei Componenti Filament nei Blocchi
 
 ## Introduzione

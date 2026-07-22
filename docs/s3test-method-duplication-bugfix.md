@@ -188,10 +188,14 @@ public function testAndReturnData(): array // Viola SRP
 
 ## Data Correzione
 <<<<<<< HEAD
+<<<<<<< HEAD
 2025-01-06
 =======
 [DATE]
 >>>>>>> dfac49d (.)
+=======
+2025-01-06
+>>>>>>> dfbb8305 (.)
 
 ## Correzioni Aggiuntive Implementate
 

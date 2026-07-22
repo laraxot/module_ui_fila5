@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 # Integrazione dei Server MCP con il Modulo UI
 
 ## Panoramica
@@ -702,6 +705,7 @@ $analyze = function () {
 ## Conclusione
 
 L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_predict_fila3_mono.
+<<<<<<< HEAD
 =======
 ---
 module: theme
@@ -711,3 +715,5 @@ canonical: ../../../Themes/docs/shared-components/mcp-integration.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/mcp-integration.md
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

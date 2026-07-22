@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ---
 title: "Errore: Tag Mancante nei Dropdown List Items"
 type: concept
@@ -13,8 +16,11 @@ related:
   - "./static-instance-method-incompatibility.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 # Errore: Tag Mancante nei Dropdown List Items
 
 ## Problema

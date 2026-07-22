@@ -46,6 +46,7 @@ Tutti i file risolti rispettano:
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Root UI](../../../docs/modules/ui.md)
 - [Components Documentation](./components.md)
 - [Design System Guidelines](../../../docs/design-system.md)
@@ -54,6 +55,11 @@ Tutti i file risolti rispettano:
 - [Components Documentation](./components.md)
 - [Design System Guidelines](../../../../docs/design-system.md)
 >>>>>>> dfac49d (.)
+=======
+- [Documentazione Root UI](../../../docs/modules/ui.md)
+- [Components Documentation](./components.md)
+- [Design System Guidelines](../../../docs/design-system.md)
+>>>>>>> dfbb8305 (.)
 
 ---
 *Aggiornato automaticamente dopo risoluzione conflitti Git*

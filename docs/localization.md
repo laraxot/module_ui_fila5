@@ -126,9 +126,14 @@ Modules/UI/
 - [Documentazione Filament](https://filamentphp.com/docs)
 - [Documentazione Folio](https://laravel.com/docs/folio)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Best Practices UI](./UI_BEST_PRACTICES.md)
 - [Guida Componenti](./COMPONENTS_GUIDE.md)
 =======
 - [Best Practices UI](./ui_best_practices.md)
 - [Guida Componenti](./components_guide.md)
 >>>>>>> dfac49d (.)
+=======
+- [Best Practices UI](./UI_BEST_PRACTICES.md)
+- [Guida Componenti](./COMPONENTS_GUIDE.md)
+>>>>>>> dfbb8305 (.)

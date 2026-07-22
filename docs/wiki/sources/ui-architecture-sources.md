@@ -6,9 +6,12 @@ created: "2026-04-29T00:00:00Z"
 updated: "2026-04-29T00:00:00Z"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   - "[[UI Operating Model]]"
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 ---
 
 # UI Architecture Sources
@@ -19,12 +22,17 @@ related:
 
 - `README.md`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `architecture-1.md`
 - `product-strategy-1.md`
 =======
 - `ARCHITECTURE.md`
 - `PRODUCT_STRATEGY.md`
 >>>>>>> dfac49d (.)
+=======
+- `architecture-1.md`
+- `product-strategy-1.md`
+>>>>>>> dfbb8305 (.)
 - `architecture/structure.md`
 
 ## Main Signals

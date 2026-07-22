@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 https://github.com/tecnickcom/TCPDF
 
 simplesoftwareio/simple-qrcode  
@@ -6,6 +9,7 @@ https://laravel-news.com/package/simplesoftwareio-simple-qrcode
 
 
 https://github.com/giauphan/laravel-qr-code
+<<<<<<< HEAD
 =======
 ---
 module: theme
@@ -15,3 +19,5 @@ canonical: ../../../Themes/docs/shared-components/qrcode.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/qrcode.md
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

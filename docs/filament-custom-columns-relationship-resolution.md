@@ -167,10 +167,14 @@ class ValutatoreColumn extends GroupColumn
 ```php
 // In your Model (e.g., Schede.php)
 <<<<<<< HEAD
+<<<<<<< HEAD
 class Schede extends BaseModel
 =======
 class Scheda extends BaseModel
 >>>>>>> dfac49d (.)
+=======
+class Schede extends BaseModel
+>>>>>>> dfbb8305 (.)
 {
     protected function valutatoreNomeDiri(): Attribute
     {
@@ -632,4 +636,8 @@ The relationship resolution problem in custom Filament columns stems from the di
 
 ---
 
+<<<<<<< HEAD
 *This document is part of the PTVX development guide. For related documentation, see the UI module documentation and Laraxot architecture guides.*
+=======
+*This document is part of the PTVX development guide. For related documentation, see the UI module documentation and Laraxot architecture guides.*
+>>>>>>> dfbb8305 (.)

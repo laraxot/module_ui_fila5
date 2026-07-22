@@ -90,4 +90,5 @@
 <circle cy="201.75" cx="390.44" r=".8" fill="#D4AF3A"/>
 </g>
 <use xlink:href="#a" transform="matrix(-1 0 0 1 639.97 0)" height="320" width="640"/>
+<<<<<<< HEAD
 </svg>

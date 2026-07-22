@@ -8,6 +8,9 @@ updated: 2026-06-05
 qmd: "ui module wiki index filament second brain"
 issues:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 discussions:
 related:
   - "./agents.md"
@@ -15,6 +18,7 @@ related:
   - "./context-compression.md"
   - "./log.md"
   - "./overview.md"
+<<<<<<< HEAD
 =======
   - "https://github.com/laraxot/base_fixcity_fila5/issues/272"
 discussions:
@@ -25,6 +29,8 @@ related:
   - ../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md
   - ../../docs/wiki/concepts/ai-harness-module-discipline.md
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 ---
 
 # Wiki Locale Index
@@ -52,10 +58,15 @@ related:
 - [decisions/](./decisions/): ADL (Architectural Decision Log).
 - [troubleshooting/](./troubleshooting/): Known issues and solutions.
 <<<<<<< HEAD
+<<<<<<< HEAD
   - [git-push-lfs-missing-objects](./troubleshooting/git-push-lfs-missing-objects.md): push rifiutato per LFS mancanti
   - [module-theme-root-hygiene](./troubleshooting/module-theme-root-hygiene.md): zero `.txt`, max 4 `.md` in root moduli/temi
 =======
 >>>>>>> dfac49d (.)
+=======
+  - [git-push-lfs-missing-objects](./troubleshooting/git-push-lfs-missing-objects.md): push rifiutato per LFS mancanti
+  - [module-theme-root-hygiene](./troubleshooting/module-theme-root-hygiene.md): zero `.txt`, max 4 `.md` in root moduli/temi
+>>>>>>> dfbb8305 (.)
 - [_archive/](./_archive/): Legacy documentation.
 - [_templates/](./_templates/): Standard templates.
 

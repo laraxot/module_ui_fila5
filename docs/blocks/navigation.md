@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ---
 title: "Navigation Component"
 type: concept
@@ -15,8 +18,11 @@ related:
   - "./user-dropdown.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 # Navigation Component
 
 This document describes the Navigation component used in section headers and its proper implementation.

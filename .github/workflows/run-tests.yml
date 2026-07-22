@@ -25,6 +25,7 @@ jobs:
 
     steps:
       - name: Checkout code
+<<<<<<< HEAD
 <<<<<<< .merge_file_FLijHL
         uses: actions/checkout@v3
 =======
@@ -34,6 +35,9 @@ jobs:
         uses: actions/checkout@v3
 >>>>>>> dfac49d (.)
 >>>>>>> .merge_file_2PZAcC
+=======
+        uses: actions/checkout@v7
+>>>>>>> dfbb8305 (.)
 
       - name: Setup PHP
         uses: shivammathur/setup-php@latest

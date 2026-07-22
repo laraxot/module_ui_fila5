@@ -198,10 +198,14 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
   - Smart forms
   - Auto-completion
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Predictive inputs
 =======
   - <nome progetto>ive inputs
 >>>>>>> dfac49d (.)
+=======
+  - Predictive inputs
+>>>>>>> dfbb8305 (.)
 
 - [ ] **Real-Time Components**
   - Live updates
@@ -279,10 +283,14 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
 ## 🔗 Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [← UI Module README](../README.md)
 =======
 - [← UI Module README](../readme.md)
 >>>>>>> dfac49d (.)
+=======
+- [← UI Module README](../README.md)
+>>>>>>> dfbb8305 (.)
 - [← Components Documentation](./components.md)
 - [← Project Roadmap](../../../docs/project-analysis-and-roadmap.md)
 - [← Root Documentation](../../../docs/index.md)
