@@ -4,11 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\UI\Providers;
 
-<<<<<<< HEAD
-=======
 use Modules\UI\Adapters\Location\NullLocationDataProviderAdapter;
 use Modules\UI\Contracts\LocationDataProviderContract;
->>>>>>> dfbb8305 (.)
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 use Modules\Xot\Providers\XotBaseServiceProvider;
 
@@ -35,8 +32,6 @@ class UIServiceProvider extends XotBaseServiceProvider
     protected string $module_ns = __NAMESPACE__;
 
     /**
-<<<<<<< HEAD
-=======
      * Registra il binding di default (null-object) per LocationDataProviderContract.
      *
      * Un modulo esterno (es. Geo) può sovrascrivere questo binding registrando
@@ -50,21 +45,6 @@ class UIServiceProvider extends XotBaseServiceProvider
     }
 
     /**
-     * Boot del service provider.
-     *
-     * Configura i componenti Blade e altre funzionalità del modulo UI.
-     *
-     * @return void
-     */
-
-    /**
-     * Registra i servizi del provider.
-     *
-     * @return void
-     */
-
-    /**
->>>>>>> dfbb8305 (.)
      * Restituisce il percorso delle viste dei componenti UI.
      */
     public function getComponentViewPath(): string
