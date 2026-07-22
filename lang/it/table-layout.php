@@ -20,7 +20,11 @@ return [
         'icon' => 'heroicon-o-squares-2x2',
     ],
     'toggle' => [
+<<<<<<< .merge_file_df38h7
         'label' => 'Cambia Layout!!!',
+=======
+        'label' => 'Cambia Layout',
+>>>>>>> .merge_file_tdIHHn
         'tooltip' => 'Alterna tra visualizzazione lista e griglia',
         'helper_text' => 'Cambia il tipo di visualizzazione',
     ],

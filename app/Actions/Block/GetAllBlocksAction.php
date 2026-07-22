@@ -33,7 +33,11 @@ final class GetAllBlocksAction
         $files = is_array($files) ? array_values($files) : [];
 
         /** @var array<int, array{name: string, class: class-string, module: string, path: string|false}> $blocks */
+<<<<<<< .merge_file_hrxANJ
         $blocks = Arr::map($files, function (string $path): array {
+=======
+        $blocks = Arr::map($files, static function (string $path): array {
+>>>>>>> .merge_file_fjURoQ
             $path = realpath($path);
             $class = app(GetClassNameByPathAction::class)->execute($path);
 

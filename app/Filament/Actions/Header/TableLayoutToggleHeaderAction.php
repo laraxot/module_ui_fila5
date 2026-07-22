@@ -50,7 +50,11 @@ class TableLayoutToggleHeaderAction extends XotBaseAction
              * /*
              * @param object{layoutView?: string|null} $livewire
              */
+<<<<<<< .merge_file_dAfsOt
             ->action(function (object $livewire): void {
+=======
+            ->action(static function (object $livewire): void {
+>>>>>>> .merge_file_wocjol
                 // ✅ isset() invece di property_exists() - funziona con magic properties Livewire
                 if (! isset($livewire->layoutView)) {
                     return;

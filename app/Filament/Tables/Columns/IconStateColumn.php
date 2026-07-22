@@ -23,6 +23,7 @@ class IconStateColumn extends XotBaseIconColumn
         parent::setUp();
         // $this->getStateUsing(fn() => true); // the column requires a state to be passed to it
 
+<<<<<<< .merge_file_FxJukM
         $this->icon(function (XotStateContract $state) {
             return $state->icon();
         });
@@ -32,6 +33,17 @@ class IconStateColumn extends XotBaseIconColumn
         });
 
         $this->tooltip(function (XotStateContract $state) {
+=======
+        $this->icon(static function (XotStateContract $state) {
+            return $state->icon();
+        });
+
+        $this->color(static function (XotStateContract $state) {
+            return $state->color();
+        });
+
+        $this->tooltip(static function (XotStateContract $state) {
+>>>>>>> .merge_file_AAqq47
             return $state->label();
         });
         // $this->label('aaa');
@@ -82,7 +94,11 @@ class IconStateColumn extends XotBaseIconColumn
                                 return [];
                             }
 
+<<<<<<< .merge_file_FxJukM
                             return Arr::mapWithKeys($statesArray, function (mixed $stateItem) use ($record): array {
+=======
+                            return Arr::mapWithKeys($statesArray, static function (mixed $stateItem) use ($record): array {
+>>>>>>> .merge_file_AAqq47
                                 if (! is_string($stateItem)) {
                                     return [];
                                 }

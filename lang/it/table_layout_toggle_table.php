@@ -11,7 +11,11 @@ return [
     'table_layout' => [
         'actions' => [
             'toggle' => [
+<<<<<<< .merge_file_5k6BHM
                 'label' => 'Cambia Layout!',
+=======
+                'label' => 'Cambia Layout',
+>>>>>>> .merge_file_lwAZpA
                 'tooltip' => 'Passa da vista a elenco a vista a griglia',
                 'helper_text' => 'Cambia il tipo di visualizzazione',
             ],
