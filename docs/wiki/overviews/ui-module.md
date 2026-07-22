@@ -2,24 +2,9 @@
 type: overview
 module: UI
 sources:
-<<<<<<< HEAD
-<<<<<<< HEAD
 confidence: high
 updated: 2026-04-15
 related:
-=======
-  - ../../../docs/module-ui.md
-  - ../../../docs/philosophy.md
-  - ../../../docs/design-system.md
-  - ../../../docs/table-components.md
-confidence: high
-updated: 2026-04-15
->>>>>>> dfac49d (.)
-=======
-confidence: high
-updated: 2026-04-15
-related:
->>>>>>> dfbb8305 (.)
 ---
 
 # UI Module — Overview

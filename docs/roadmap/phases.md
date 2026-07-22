@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "Fasi di sviluppo - UI Module"
 type: concept
@@ -22,11 +18,6 @@ related:
   - "./03-later.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # Fasi di sviluppo - UI Module
 
 ## Fase 1: Modernization (In Progress)

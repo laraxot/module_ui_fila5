@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "Standard Form di Autenticazione"
 type: rule
@@ -20,11 +16,6 @@ related:
   - "./ui-standards.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # Standard Form di Autenticazione
 
 ## Principi di Design
@@ -237,15 +228,7 @@ related:
    - Sanitizzazione input
 
 ## Collegamenti
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Form Standards](./form-standards-1.md)
-=======
-- [Form Standards](./form_standards.md)
->>>>>>> dfac49d (.)
-=======
-- [Form Standards](./form-standards-1.md)
->>>>>>> dfbb8305 (.)
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md)
 # Standard Form di Autenticazione
@@ -460,14 +443,6 @@ related:
    - Sanitizzazione input
 
 ## Collegamenti
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Form Standards](./form-standards-1.md)
-=======
-- [Form Standards](./form_standards.md)
->>>>>>> dfac49d (.)
-=======
-- [Form Standards](./form-standards-1.md)
->>>>>>> dfbb8305 (.)
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md)

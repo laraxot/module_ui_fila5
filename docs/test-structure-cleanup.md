@@ -105,15 +105,7 @@ Modules/UI/
 - Minimal disruption to existing code
 - Clear migration path
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ### 4. **Autoloader Predictability**
-=======
-### 4. **Autoloader <nome progetto>ability**
->>>>>>> dfac49d (.)
-=======
-### 4. **Autoloader Predictability**
->>>>>>> dfbb8305 (.)
 - Eliminates ambiguous class resolution
 - Consistent namespace-to-directory mapping
 - Reliable test discovery and execution
@@ -180,15 +172,7 @@ composer dump-autoload 2>&1 | grep -i "ui"
 After cleanup:
 
 - ✅ No more PSR-4 autoloading warnings
-<<<<<<< HEAD
-<<<<<<< HEAD
 - ✅ Clear, predictable test structure
-=======
-- ✅ Clear, <nome progetto>able test structure
->>>>>>> dfac49d (.)
-=======
-- ✅ Clear, predictable test structure
->>>>>>> dfbb8305 (.)
 - ✅ Consistent with Laravel conventions
 - ✅ Compatible with module system
 - ✅ Maintains all existing test functionality

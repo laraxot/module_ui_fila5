@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "Uso Corretto dei Componenti Filament nei Blocchi"
 type: concept
@@ -18,11 +14,6 @@ related:
   - "./user-dropdown.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # Uso Corretto dei Componenti Filament nei Blocchi
 
 ## Componenti Disponibili e Limitazioni

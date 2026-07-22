@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "eav"
 type: concept
@@ -22,11 +18,6 @@ related:
   - "./custom-firm-fields.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # eav
 
 <!-- Contenuto migrato da _docs/eav.txt -->

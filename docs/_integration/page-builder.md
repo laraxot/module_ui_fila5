@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "page_builder"
 type: concept
@@ -22,11 +18,6 @@ related:
   - "./custom-firm-fields.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # page_builder
 
 <!-- Contenuto migrato da _docs/page_builder.txt -->

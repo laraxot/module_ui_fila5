@@ -229,11 +229,4 @@ Includi sempre esempi pratici:
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 *Ultimo aggiornamento: Dicembre 2024*
-=======
->>>>>>> dfac49d (.)
-=======
-*Ultimo aggiornamento: Dicembre 2024*
->>>>>>> dfbb8305 (.)

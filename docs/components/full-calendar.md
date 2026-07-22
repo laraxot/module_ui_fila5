@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "FullCalendar Component for Filament"
 type: concept
@@ -22,11 +18,6 @@ related:
   - "./full-calendar-1.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # FullCalendar Component for Filament
 
 ## Introduction
@@ -282,15 +273,7 @@ To use the widget in a Blade view:
 
 ## Backlinks and References
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Ptv Module - Calendar Usage](../../ptv/docs/features/full-calendar-1.md)
-=======
-- [Ptv Module - Calendar Usage](../../ptv/docs/features/full_calendar.md)
->>>>>>> dfac49d (.)
-=======
-- [Ptv Module - Calendar Usage](../../ptv/docs/features/full-calendar-1.md)
->>>>>>> dfbb8305 (.)
 - [Official Saade FullCalendar Documentation](https://github.com/saade/filament-fullcalendar)
 - [FullCalendar.io Documentation](https://fullcalendar.io/docs)
 
@@ -550,15 +533,7 @@ To use the widget in a Blade view:
 
 ## Backlinks and References
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Ptv Module - Calendar Usage](../../ptv/docs/features/full-calendar-1.md)
-=======
-- [Ptv Module - Calendar Usage](../../ptv/docs/features/full_calendar.md)
->>>>>>> dfac49d (.)
-=======
-- [Ptv Module - Calendar Usage](../../ptv/docs/features/full-calendar-1.md)
->>>>>>> dfbb8305 (.)
 - [Official Saade FullCalendar Documentation](https://github.com/saade/filament-fullcalendar)
 - [FullCalendar.io Documentation](https://fullcalendar.io/docs)
 

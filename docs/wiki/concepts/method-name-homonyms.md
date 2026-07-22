@@ -4,10 +4,6 @@ type: analysis
 module: UI
 updated: 2026-06-15
 related:
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
   - "./auth-register-focus-loss-overlay.md"
   - "./block-rendering-and-optional-services.md"
   - "./claude-audit-static.md"
@@ -16,13 +12,6 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
-<<<<<<< HEAD
-=======
-  - ../../../../../../docs/wiki/method-name-homonym-census.md
-  - ../../../../../../bashscripts/docs/method-homonym-census.json
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 ---
 
 # Censimento omonimi metodi — UI

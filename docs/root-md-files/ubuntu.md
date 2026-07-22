@@ -24,8 +24,4 @@ sudo apt-get install pngquant // For PNG Image
 sudo npm install -g svgo
 sudo apt-get install gifsicle
 sudo apt-get install webp
-<<<<<<< HEAD
 sudo apt-get install libavif-bin # minimum 0.9.3
-=======
-sudo apt-get install libavif-bin # minimum 0.9.3
->>>>>>> dfbb8305 (.)

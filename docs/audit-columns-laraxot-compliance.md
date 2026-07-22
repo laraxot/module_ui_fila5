@@ -1,13 +1,6 @@
 # Audit e Correzione Colonne Filament - Modulo UI
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 **Data**: 11 Novembre 2025
-=======
->>>>>>> dfac49d (.)
-=======
-**Data**: 11 Novembre 2025
->>>>>>> dfbb8305 (.)
 **Status**: ✅ COMPLETATO
 
 ## Analisi Completa

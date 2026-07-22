@@ -106,15 +106,7 @@ All AWS operations are wrapped in try-catch blocks to handle exceptions graceful
 ## Related Documentation
 - [AWS Test Bugfix Documentation](./awstest-bugfix-undefined-variable.md)
 - [Bugfix: Undefined Variable in AWS Test](./bugfix-awstest-undefined-variable.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Root Documentation: AWS Testing](../../docs/aws-testing.md)
-=======
-- [Root Documentation: AWS Testing](../../../docs/aws-testing.md)
->>>>>>> dfac49d (.)
-=======
-- [Root Documentation: AWS Testing](../../docs/aws-testing.md)
->>>>>>> dfbb8305 (.)
 
 ## PHPStan Compliance
 The component has been updated to comply with PHPStan level 9 requirements:
@@ -125,12 +117,4 @@ The component has been updated to comply with PHPStan level 9 requirements:
 - Correct parameter typing
 - Safe function usage
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 *Last Updated: August 2025*
-=======
-*
->>>>>>> dfac49d (.)
-=======
-*Last Updated: August 2025*
->>>>>>> dfbb8305 (.)

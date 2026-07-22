@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 # Correzioni PHPStan - Gennaio 2025
 
 ## Panoramica
@@ -59,15 +55,3 @@ public function canTransitionTo(int|string $recordId, string $stateClass): bool
 - [Architettura Modulo UI](./architecture.md)
 - [Filament Tables](./filament-tables.md)
 - [Icon State Split Column](./icon-state-split-column.md)
-<<<<<<< HEAD
-=======
----
-module: theme
-topic: phpstan-fixes-gennaio
-canonical: ../../../Themes/docs/shared-components/phpstan-fixes-gennaio-2025-Modules.md
----
-
-See canonical documentation: ../../../Themes/docs/shared-components/phpstan-fixes-gennaio-2025-Modules.md
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)

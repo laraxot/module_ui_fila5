@@ -85,14 +85,7 @@ Questi metodi sono già stati refactorizzati e la complessità è al limite acce
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 **Data**: 2025-01-06
-=======
->>>>>>> dfac49d (.)
-=======
-**Data**: 2025-01-06
->>>>>>> dfbb8305 (.)
 **Status**: Correzioni completate per modulo UI
 **Problemi critici rimanenti**: 0
 **Problemi al limite soglia**: ~4 (non critici)

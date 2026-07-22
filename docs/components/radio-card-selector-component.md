@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "RadioCardSelector Component - Modulo UI"
 type: concept
@@ -22,11 +18,6 @@ related:
   - "./full-calendar-1.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # RadioCardSelector Component - Modulo UI
 
 ## 🎯 **Panoramica**

@@ -1,13 +1,6 @@
 # Cyclomatic Complexity Report - Module: UI
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 **Generated:** 2025-10-01 19:44:11
-=======
->>>>>>> dfac49d (.)
-=======
-**Generated:** 2025-10-01 19:44:11
->>>>>>> dfbb8305 (.)
 **Analyzer:** Super Mucca 🐮
 
 ---

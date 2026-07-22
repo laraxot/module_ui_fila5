@@ -151,15 +151,7 @@ Per tutti i widget che utilizzano AWS SDK:
 ## Collegamenti
 
 - [S3Test Bugfix](s3test-bugfix-null-errorcode.md) - Problema simile risolto
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [PHPStan Level 9 Guidelines](../../docs/phpstan-level9-guidelines.md)
-=======
-- [PHPStan Level 9 Guidelines](../../../docs/phpstan-level9-guidelines.md)
->>>>>>> dfac49d (.)
-=======
-- [PHPStan Level 9 Guidelines](../../docs/phpstan-level9-guidelines.md)
->>>>>>> dfbb8305 (.)
 - [Filament ViewField Documentation](https://filamentphp.com/docs/3.x/forms/fields/view)
 
 ## Verifica dello Status

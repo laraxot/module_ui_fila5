@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "Modulo UI"
 type: concept
@@ -17,11 +13,6 @@ related:
   - "./filament-resources-structure.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # Modulo UI
 
 Data: 2025-04-23 19:09:56

@@ -68,20 +68,9 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 
 - [selectstatecolumn.md](selectstatecolumn.md)
 - [table-components.md](table-components.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Modules/UI/docs/](../docs/)
 
 *Ultimo aggiornamento: 29 luglio 2025*
-=======
-- [Modules/UI/docs/](../../docs/)
-
->>>>>>> dfac49d (.)
-=======
-- [Modules/UI/docs/](../docs/)
-
-*Ultimo aggiornamento: 29 luglio 2025*
->>>>>>> dfbb8305 (.)
 # Risoluzione Conflitto IconStateColumn.php
 
 ## Problema Identificato
@@ -156,11 +145,4 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 - [Modules/UI/project_docs/](../project_docs/)
 - [Modules/UI/project_docs/](../project_docs/)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 *Ultimo aggiornamento: 29 luglio 2025*
-=======
->>>>>>> dfac49d (.)
-=======
-*Ultimo aggiornamento: 29 luglio 2025*
->>>>>>> dfbb8305 (.)

@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 300">
 <defs>
 <g id="b" fill="#1eb53a">
@@ -27,13 +23,4 @@
 <use xlink:href="#star"/>
 <use xlink:href="#star" transform="rotate(120,250,150)"/>
 <use xlink:href="#star" transform="rotate(240,250,150)"/>
-<<<<<<< HEAD
 </svg>
-=======
-version https://git-lfs.github.com/spec/v1
-oid sha256:745bfa9ee0bd72ac177f7f28c8a50cceec5be8ecb4bf5eef03679b1dc4b2ccff
-size 918
->>>>>>> dfac49d (.)
-=======
-</svg>
->>>>>>> dfbb8305 (.)

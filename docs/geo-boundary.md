@@ -32,15 +32,9 @@ Il modulo `UI` non deve dipendere dal modulo `Geo`.
 
 ## Caso LocationSelector
 
-<<<<<<< HEAD
 `app/Filament/Forms/Components/LocationSelector.php` non appartiene a `UI` (importava `Modules\Geo\Models\Comune`, poi il contratto `LocationDataProviderContract`, comunque dominio Geo).
 
 Rimosso definitivamente dal repo il 2026-07-22, archiviato forward-only in `docs/archive/Filament/Forms/Components/LocationSelector.php.old`.
-=======
-`app/Filament/Forms/Components/LocationSelector.php` non appartiene a `UI` (importa `Modules\Geo\Models\Comune`).
-
-Rimosso dal repo il 2026-07-08; backup locale opzionale `LocationSelector.php.old` (`*.old` in `.gitignore`).
->>>>>>> dfbb8305 (.)
 
 Se servira' un selettore geografico, crearlo in `Modules/Geo/` usando contratti UI o primitive generiche.
 
@@ -48,7 +42,6 @@ Se servira' un selettore geografico, crearlo in `Modules/Geo/` usando contratti 
 
 `app/Livewire/Components/Map/InteractiveMap.php` e la relativa view Blade non appartengono a `UI`.
 
-<<<<<<< HEAD
 Rimosso definitivamente dal repo il 2026-07-22, archiviato forward-only in `docs/archive/Livewire/Map.old/InteractiveMap.php.old`.
 
 Non riattivarlo in `UI`. Se in futuro servira' una mappa, crearla nel modulo `Geo` e usare eventuali componenti UI solo come base visuale.
@@ -59,30 +52,17 @@ Anche il pattern contract + null-object-adapter (`app/Contracts/{LocationDataPro
 
 Rimosso dal repo il 2026-07-22, archiviato forward-only in `docs/archive/Contracts/*.old` e `docs/archive/Adapters/*.old`. `UIServiceProvider::register()` non fa più `bindIf` di questi contratti.
 
-=======
-Rimosso dal repo il 2026-07-08; backup locale opzionale `InteractiveMap.php.old` (`*.old` in `.gitignore`).
-
-Non riattivarlo in `UI`. Se in futuro servira' una mappa, crearla nel modulo `Geo` e usare eventuali componenti UI solo come base visuale.
-
->>>>>>> dfbb8305 (.)
 ## Motivazione
 
 Questa separazione evita dipendenze inverse, classi mancanti e accoppiamento tra design system e dominio geografico.
 
-<<<<<<< HEAD
 ## Progetto base_quaeris_fila5
 
 `laravel/Modules/Geo` **è presente e abilitato** in questo progetto (`"Geo": true` in `modules_statuses.json`), ma questo non autorizza `UI` a contenere logica/contratti geografici: la direzione delle dipendenze resta Geo → UI, mai il contrario.
-=======
-## Progetto base_ptvx_fila5
-
-`laravel/Modules/Geo` **non è presente** — `"Geo": false` in `modules_statuses.json`. Per mappe/geocoding usare altro progetto o installare `laraxot/module_geo_fila5` solo se serve.
->>>>>>> dfbb8305 (.)
 
 ## Verifica
 
 ```bash
-<<<<<<< HEAD
 grep -r "Modules\\\\Geo" app/ --include="*.php" | grep -v '\.old'
 test ! -f app/Livewire/Components/Map/InteractiveMap.php
 test ! -f resources/views/livewire/components/map/interactive-map.blade.php
@@ -91,12 +71,6 @@ test ! -d app/Contracts/../Adapters
 test ! -f app/Contracts/LocationDataProviderContract.php
 test ! -f app/Contracts/MapServiceContract.php
 test ! -f app/Contracts/GeocodingServiceContract.php
-=======
-grep -r "Modules\\\\Geo" app/ --include="*.php" | grep -v '\.old' | grep -v '\.to_geo'
-test ! -f app/Livewire/Components/Map/InteractiveMap.php
-test ! -f resources/views/livewire/components/map/interactive-map.blade.php
-test ! -f app/Filament/Forms/Components/LocationSelector.php
->>>>>>> dfbb8305 (.)
 ```
 
 ## Handoff sessione

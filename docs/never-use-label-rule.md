@@ -154,21 +154,9 @@ rules:
 
 ## Collegamenti
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Translation Standards](../../../docs/translation-standards.md)
 - [Filament Best Practices](../../../docs/filament-best-practices.md)
 - [LangServiceProvider Documentation](../../../docs/lang-service-provider.md)
-=======
-- [Translation Standards](../../../../docs/translation-standards.md)
-- [Filament Best Practices](../../../../docs/filament-best-practices.md)
-- [LangServiceProvider Documentation](../../../../docs/lang-service-provider.md)
->>>>>>> dfac49d (.)
-=======
-- [Translation Standards](../../../docs/translation-standards.md)
-- [Filament Best Practices](../../../docs/filament-best-practices.md)
-- [LangServiceProvider Documentation](../../../docs/lang-service-provider.md)
->>>>>>> dfbb8305 (.)
 
 ## Memoria Permanente
 
@@ -180,15 +168,7 @@ rules:
 - SEMPRE testare le traduzioni prima del commit
 # REGOLA CRITICA: MAI usare ->label()
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ## Data: 2025-01-06
-=======
-## Data: [DATE]
->>>>>>> dfac49d (.)
-=======
-## Data: 2025-01-06
->>>>>>> dfbb8305 (.)
 
 ## ❌ ERRORE CRITICO - NON FARE MAI QUESTO
 
@@ -353,21 +333,9 @@ rules:
 
 ## Collegamenti
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Translation Standards](../../../docs/translation-standards.md)
 - [Filament Best Practices](../../../docs/filament-best-practices.md)
 - [LangServiceProvider Documentation](../../../docs/lang-service-provider.md)
-=======
-- [Translation Standards](../../../../docs/translation-standards.md)
-- [Filament Best Practices](../../../../docs/filament-best-practices.md)
-- [LangServiceProvider Documentation](../../../../docs/lang-service-provider.md)
->>>>>>> dfac49d (.)
-=======
-- [Translation Standards](../../../docs/translation-standards.md)
-- [Filament Best Practices](../../../docs/filament-best-practices.md)
-- [LangServiceProvider Documentation](../../../docs/lang-service-provider.md)
->>>>>>> dfbb8305 (.)
 
 ## Memoria Permanente
 
@@ -383,11 +351,4 @@ rules:
 
 - SEMPRE testare le traduzioni prima del commit
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06*
-=======
->>>>>>> dfac49d (.)
-=======
-*Ultimo aggiornamento: 2025-01-06*
->>>>>>> dfbb8305 (.)

@@ -391,15 +391,7 @@ class ClosedDays extends Field { /* Focused on day selection */ }
 
 #### **3.1 AI-Enhanced Components**
 - Smart form validation with ML suggestions
-<<<<<<< HEAD
-<<<<<<< HEAD
 - Auto-complete components with intelligent predictions
-=======
-- Auto-complete components with intelligent <nome progetto>ions
->>>>>>> dfac49d (.)
-=======
-- Auto-complete components with intelligent predictions
->>>>>>> dfbb8305 (.)
 - Dynamic form generation based on data patterns
 - Voice-controlled component interactions
 
@@ -736,15 +728,7 @@ class UserCalendarWidget extends XotBaseWidget
 **Modulo**: UI (User Interface Components & Design System)
 **Status**: 85% COMPLETATO
 **Priority**: HIGH
-<<<<<<< HEAD
-<<<<<<< HEAD
 **PHPStan**: ✅ Level 9 (0 errori)
-=======
-**PHPStan**: ✅ Level 10 (0 errori)
->>>>>>> dfac49d (.)
-=======
-**PHPStan**: ✅ Level 9 (0 errori)
->>>>>>> dfbb8305 (.)
 **Filament**: ✅ 4.x Compatibile
 
 ---
@@ -816,15 +800,7 @@ UI Module
 - [x] **Orientation Handling**: Gestione orientamento dispositivo
 
 ### 🛠️ Technical Excellence
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [x] **PHPStan Level 9**: 0 errori
-=======
-- [x] **PHPStan Level 10**: 0 errori
->>>>>>> dfac49d (.)
-=======
-- [x] **PHPStan Level 9**: 0 errori
->>>>>>> dfbb8305 (.)
 - [x] **Filament 4.x**: Compatibilità completa
 - [x] **Type Safety**: Type hints completi
 - [x] **Error Handling**: Gestione errori robusta
@@ -952,15 +928,7 @@ UI Module
 ## 🎯 SUCCESS METRICS
 
 ### 📊 Technical Metrics
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [x] **PHPStan Level 9**: 0 errori ✅
-=======
-- [x] **PHPStan Level 10**: 0 errori ✅
->>>>>>> dfac49d (.)
-=======
-- [x] **PHPStan Level 9**: 0 errori ✅
->>>>>>> dfbb8305 (.)
 - [x] **Filament 4.x**: Compatibile ✅
 - [ ] **Test Coverage**: 80% (target)
 - [ ] **Response Time**: < 200ms
@@ -1046,16 +1014,8 @@ UI Module
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 **Last Updated**: 2025-10-01
 **Next Review**: 2025-11-01
-=======
->>>>>>> dfac49d (.)
-=======
-**Last Updated**: 2025-10-01
-**Next Review**: 2025-11-01
->>>>>>> dfbb8305 (.)
 **Status**: 🚧 ACTIVE DEVELOPMENT
 **Confidence Level**: 90%
 

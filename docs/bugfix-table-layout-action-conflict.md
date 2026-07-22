@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 # Bug Fix: TableLayoutToggleTableAction Access Level Error - 27 Gennaio 2025
 
 ## Problema Identificato
@@ -182,15 +178,3 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 **Tipo**: Bug Fix
 **Priorità**: Alta
 **Stato**: ✅ Risolto
-<<<<<<< HEAD
-=======
----
-module: theme
-topic: bugfix-table-layout-action-conflict
-canonical: ../../../Themes/docs/shared-components/bugfix-table-layout-action-.md
----
-
-See canonical documentation: ../../../Themes/docs/shared-components/bugfix-table-layout-action-.md
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)

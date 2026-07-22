@@ -1,17 +1,2 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 https://github.com/yemenpoint/filament-custom-fields
 
-=======
----
-module: theme
-topic: eav
-canonical: ../../../Themes/docs/shared-components/eav.md
----
-
-See canonical documentation: ../../../Themes/docs/shared-components/eav.md
->>>>>>> dfac49d (.)
-=======
-https://github.com/yemenpoint/filament-custom-fields
-
->>>>>>> dfbb8305 (.)

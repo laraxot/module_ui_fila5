@@ -1,14 +1,7 @@
 # 🗺️ GUIDA INTEGRAZIONE MAPPA INTERATTIVA
 
 **Modulo**: UI (User Interface)
-<<<<<<< HEAD
-<<<<<<< HEAD
 **Data**: 2025-01-27
-=======
->>>>>>> dfac49d (.)
-=======
-**Data**: 2025-01-27
->>>>>>> dfbb8305 (.)
 **Versione**: 1.0
 **Stato**: 🚧 IN SVILUPPO
 
@@ -51,15 +44,7 @@ Modules/UI/
 │   │   │   ├── map-markers.js
 │   │   │   └── map-popup.js
 │   │   └── components/
-<<<<<<< HEAD
-<<<<<<< HEAD
 │   │       ├── location-picker.js
-=======
-│   │       ├── location-picker-lit.js
->>>>>>> dfac49d (.)
-=======
-│   │       ├── location-picker.js
->>>>>>> dfbb8305 (.)
 │   │       └── address-autocomplete.js
 │   ├── css/
 │   │   ├── map/
@@ -600,32 +585,15 @@ class GeocodingService
 - [Livewire Components](https://laravel-livewire.com/docs/2.x/quickstart)
 
 ### 📖 Documentazione Correlata
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Farmshops.eu Analysis](../Geo/docs/farmshops-analysis.md)
-=======
-- [Farmshops.eu Analysis](../geo/docs/farmshops-analysis.md)
->>>>>>> dfac49d (.)
-=======
-- [Farmshops.eu Analysis](../Geo/docs/farmshops-analysis.md)
->>>>>>> dfbb8305 (.)
 - [Geo Module Documentation](../Geo/docs/)
 - [UI Component API](component-api.md)
 - [Styling Guide](styling-guide.md)
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 **Last Updated**: 2025-01-27
 **Next Review**: 2025-02-27
-=======
-
->>>>>>> dfac49d (.)
-=======
-**Last Updated**: 2025-01-27
-**Next Review**: 2025-02-27
->>>>>>> dfbb8305 (.)
 **Status**: 🚧 IN SVILUPPO
 **Confidence Level**: 90%
 

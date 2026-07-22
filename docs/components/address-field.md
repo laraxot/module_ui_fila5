@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "AddressField Component"
 type: concept
@@ -22,11 +18,6 @@ related:
   - "./full-calendar.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # AddressField Component
 
 ## Panoramica
@@ -64,15 +55,7 @@ AddressField::make('address')
 3. Configurare correttamente i servizi di geocoding
 4. Testare con diversi formati di indirizzo
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 [Torna alla documentazione UI](/docs/modules/module-ui-1.md#components)
-=======
-[Torna alla documentazione UI](/docs/modules/module_ui.md#components)
->>>>>>> dfac49d (.)
-=======
-[Torna alla documentazione UI](/docs/modules/module-ui-1.md#components)
->>>>>>> dfbb8305 (.)
 # AddressField Component
 
 ## Panoramica
@@ -110,12 +93,4 @@ AddressField::make('address')
 3. Configurare correttamente i servizi di geocoding
 4. Testare con diversi formati di indirizzo
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 [Torna alla documentazione UI](/docs/modules/module-ui-1.md#components)
-=======
-[Torna alla documentazione UI](/docs/modules/module_ui.md#components)
->>>>>>> dfac49d (.)
-=======
-[Torna alla documentazione UI](/docs/modules/module-ui-1.md#components)
->>>>>>> dfbb8305 (.)

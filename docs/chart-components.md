@@ -137,15 +137,7 @@ class UserStats extends Component
 - [Componenti Form](./form-components.md)
 - [Componenti Table](./table-components.md)
 - [Componenti Layout](./layout-components.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Documentazione Frontend](../Cms/docs/frontend-architecture.md)
-=======
-- [Documentazione Frontend](../cms/docs/frontend-architecture.md)
->>>>>>> dfac49d (.)
-=======
-- [Documentazione Frontend](../Cms/docs/frontend-architecture.md)
->>>>>>> dfbb8305 (.)
 # Componenti Chart
 
 ## Introduzione
@@ -285,18 +277,6 @@ class UserStats extends Component
 - [Componenti Form](./form-components.md)
 - [Componenti Table](./table-components.md)
 - [Componenti Layout](./layout-components.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
-=======
-- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
-- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
-- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
->>>>>>> dfac49d (.)
-=======
-- [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
-- [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
-- [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
->>>>>>> dfbb8305 (.)

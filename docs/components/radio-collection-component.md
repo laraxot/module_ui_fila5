@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "RadioCollection Component: Analisi Ontologica e Fenomenologica"
 type: concept
@@ -22,11 +18,6 @@ related:
   - "./full-calendar-1.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # RadioCollection Component: Analisi Ontologica e Fenomenologica
 
 ## 🎭 Filosofia & Epistemologia del Componente

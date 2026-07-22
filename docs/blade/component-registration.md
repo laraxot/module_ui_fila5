@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "Registrazione Componenti Blade nei Moduli"
 type: concept
@@ -15,11 +11,6 @@ related:
   - "./filament-components.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # Registrazione Componenti Blade nei Moduli
 
 ## Architettura dei componenti Blade

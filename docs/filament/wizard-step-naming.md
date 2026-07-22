@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "Convenzioni di Naming per i Wizard Step in Filament"
 type: concept
@@ -22,11 +18,6 @@ related:
   - "./filament-4-migration-sumy.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # Convenzioni di Naming per i Wizard Step in Filament
 
 ## Regola Fondamentale

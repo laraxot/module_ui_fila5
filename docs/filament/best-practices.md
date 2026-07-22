@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "Best Practices Filament"
 type: concept
@@ -22,11 +18,6 @@ related:
   - "./file-upload-component.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # Best Practices Filament
 
 ## Regole fondamentali

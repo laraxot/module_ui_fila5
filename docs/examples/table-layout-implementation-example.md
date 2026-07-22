@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "Esempio Pratico: Implementazione TableLayoutEnum"
 type: concept
@@ -15,11 +11,6 @@ related:
   - "./inline-date-picker-usage.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # Esempio Pratico: Implementazione TableLayoutEnum
 
 ## Panoramica
@@ -361,16 +352,6 @@ class ListUsersTest extends TestCase
 ## Collegamenti
 
 - [TableLayoutEnum Documentation](../table-layout-enum-comprehensive.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [UI Module Architecture](../architecture-rules-1.md)
 - [Filament Best Practices](../../../../docs/filament_best-practices-2.md)
-=======
-- [UI Module Architecture](../architecture_rules.md)
-- [Filament Best Practices](../../../../docs/filament_best_practices.md)
->>>>>>> dfac49d (.)
-=======
-- [UI Module Architecture](../architecture-rules-1.md)
-- [Filament Best Practices](../../../../docs/filament_best-practices-2.md)
->>>>>>> dfbb8305 (.)
 - [Translation Standards](../../../../docs/translation_standards.md)

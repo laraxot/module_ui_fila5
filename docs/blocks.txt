@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 https://github.com/whitecube/nova-flexible-content
 
 
@@ -23,15 +19,3 @@ https://tw-elements.com/docs/standard/navigation/navbar/
 https://freefrontend.com/tailwind-navbars/
 
 https://preline.co/docs/mega-menu.html
-<<<<<<< HEAD
-=======
----
-module: theme
-topic: blocks
-canonical: ../../../Themes/docs/shared-components/blocks.md
----
-
-See canonical documentation: ../../../Themes/docs/shared-components/blocks.md
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
