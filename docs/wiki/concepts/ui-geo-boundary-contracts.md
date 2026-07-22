@@ -31,6 +31,10 @@ Il pattern “contract + null-adapter in UI” era un compromesso sbagliato: spo
 - `LocationSelector`, `InteractiveMap`
 - `bindIf` Geo in `UIServiceProvider`
 
+### Come corretto
+
+Delete del layer geografico + cleanup provider; **non** sostituito con stub. Push documentato in [../../multi-org-sync-laraxot-provtv.md](../../multi-org-sync-laraxot-provtv.md).
+
 Canon operativo: [../../geo-boundary.md](../../geo-boundary.md)
 
 ## Verifica

@@ -34,6 +34,21 @@ Quindi in UI non devono restare neanche fallback/null-object “per quando Geo m
 - `LocationSelector`, `InteractiveMap` (e view correlate)
 - Service/adapter null-object di mappa/geocoding
 
+## Come è stato corretto (2026-07-22)
+
+**Problema:** in UI restavano adapter/contract/selector geografici anche se `Geo` non esiste in questo monorepo — violazione del confine (dominio in design system).
+
+**Fix (forward-only, niente `git restore`):**
+
+1. Eliminati `app/Adapters/Location/` e `app/Adapters/Map/` (e la cartella `app/Adapters/` se vuota).
+2. Eliminati i contratti `LocationDataProviderContract`, `MapServiceContract`, `GeocodingServiceContract`.
+3. Eliminato `LocationSelector.php` attivo (non reintrodurre come “null-adapter”).
+4. Rimosso da `UIServiceProvider` il `bindIf` / registrazione verso null-adapters Geo.
+5. Canon aggiornato qui + [second-brain.md](./second-brain.md) + [wiki/concepts/ui-geo-boundary-contracts.md](./wiki/concepts/ui-geo-boundary-contracts.md).
+6. Push dual-remote (`laraxot` + `provtv`) a tip `b874935` — vedi [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md) e [multi-org-sync-laraxot-provtv.md](./multi-org-sync-laraxot-provtv.md).
+
+**Anti-pattern:** ricreare contract+null in UI “perché Geo manca”. Senza Geo non serve il layer.
+
 ## Storia (forward-only)
 
 Rimosso il 2026-07-22 da UI (git history = archivio; **no** `docs/archive/`):

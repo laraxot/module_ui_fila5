@@ -3,7 +3,7 @@ title: "Handoff multi-org sync (STORY-003)"
 type: handoff
 tags: [git, multi-org, bmad, story-003]
 created: 2026-07-21
-updated: 2026-07-21
+updated: 2026-07-22
 module: "UI"
 issues:
   - "https://github.com/provtv/module_ui_fila5/issues/20"
@@ -37,7 +37,12 @@ Un tree dirty o un remote dietro/avanti **non** è sincronizzato, anche se l’a
 2. Dopo edit PHP: phpstan/phpmd/phpinsights scoped (prompt `02-gitmodules-sync.md`)
 3. Mai `git restore` — forward-only
 4. UI: non reintrodurre `InteractiveMap` (dominio Geo)
+5. Push: se unpack fallisce → `--no-thin`; se GH008 LFS → `lfs fetch --all` dal remote sano, poi `lfs push --all` sul target ([playbook](./wiki/troubleshooting/git-push-lfs-missing-objects.md))
 
 ## Note owner
 
 InteractiveMap rimosso; vedi `geo-boundary.md` e `geo-dependency-violation-interactive-map.md`.
+
+### Sessione push 2026-07-22
+
+`dev` allineato FF su `laraxot` e `provtv` a `b874935` con `--no-thin` + LFS da `laraxot` verso `provtv`. Dettaglio: [git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md) · [multi-org-sync-laraxot-provtv.md](./multi-org-sync-laraxot-provtv.md).

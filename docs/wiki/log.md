@@ -66,6 +66,12 @@ related:
 ## 2026-07-22 — PHPStan Modules 0 + geo-boundary
 
 - Conflitti PHP UI risolti (0 marker di conflitto in *.php).
-- Dominio Geo fuori da UI: InteractiveMap/LocationSelector/contratti Map-Location archiviati in `docs/archive/`.
+- Dominio Geo fuori da UI: rimossi Adaptive Map/Location, contratti, `LocationSelector` attivo (storico in **git**, non in `docs/archive/`).
 - Evidence: `laravel/storage/app/ai/phpstan-modules-20260722-213406.json` (0 errori).
 - Canon: [geo-boundary.md](../geo-boundary.md) · coordinamento: `docs/chat/phpstan-modules-status.md`.
+
+## 2026-07-22 — Push dual-remote + LFS
+
+- Tip `b874935` su `laraxot/dev` e `provtv/dev`.
+- Fix: deepen/shallow + `git push --no-thin` + `git lfs fetch laraxot --all` → `git lfs push provtv --all`.
+- Playbook: [troubleshooting/git-push-lfs-missing-objects.md](./troubleshooting/git-push-lfs-missing-objects.md).
