@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Uso Corretto dei Componenti Filament nei Blocchi"
 type: concept
@@ -14,6 +15,8 @@ related:
   - "./user-dropdown.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Uso Corretto dei Componenti Filament nei Blocchi
 
 ## Componenti Disponibili e Limitazioni

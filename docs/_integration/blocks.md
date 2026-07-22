@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "blocks"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./custom-theme-1.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # blocks
 
 <!-- Contenuto migrato da _docs/blocks.txt -->

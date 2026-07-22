@@ -6,15 +6,25 @@ namespace Modules\UI\Filament\Forms\Components;
 
 use Filament\Actions\Action;
 use Filament\Forms\Components\Select;
+<<<<<<< HEAD
+=======
+use Filament\Forms\Components\TextInput;
+>>>>>>> dfac49d (.)
 use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Components\Utilities\Set;
 use Illuminate\Support\Arr;
 use Modules\UI\Actions\Icon\GetAllIconsAction;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
+<<<<<<< HEAD
 use Modules\Xot\Filament\Forms\Components\XotBaseTextInput;
 use Webmozart\Assert\Assert;
 
 class IconPicker extends XotBaseTextInput
+=======
+use Webmozart\Assert\Assert;
+
+class IconPicker extends TextInput
+>>>>>>> dfac49d (.)
 {
     protected function setUp(): void
     {
@@ -27,7 +37,11 @@ class IconPicker extends XotBaseTextInput
         $packsKeys = $packs;
         $packsCombined = array_combine($packsKeys, $packsKeys);
         /** @var array<string, string> $packs */
+<<<<<<< HEAD
         $packs = $packsCombined ?: [];
+=======
+        $packs = $packsCombined ? $packsCombined : [];
+>>>>>>> dfac49d (.)
 
         $this->suffixAction(
             Action::make('icon')

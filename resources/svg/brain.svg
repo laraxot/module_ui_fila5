@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -119,3 +120,8 @@
 		l0.111,0.115c8.296,8.381,12.788,19.701,12.784,31.233C487.749,264.571,485.672,272.518,481.277,279.744z"/>
 </g>
 </svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:81034419da03c864d66717b8ddbd0922608d2826f2724e798d5506f798eaecae
+size 12663
+>>>>>>> dfac49d (.)

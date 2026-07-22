@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Filament 4 Migration Summary"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./file-upload-component.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Filament 4 Migration Summary
 
 ## Completed Tasks ✅

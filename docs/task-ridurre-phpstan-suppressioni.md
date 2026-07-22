@@ -3,7 +3,10 @@
 **Modulo**: UI
 **Priorita'**: Alta
 **Completamento**: 0%
+<<<<<<< HEAD
 **Data**: 2026-01-30
+=======
+>>>>>>> dfac49d (.)
 
 ---
 

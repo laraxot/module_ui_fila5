@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "api"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./custom-theme-1.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # api
 
 <!-- Contenuto migrato da _docs/api.txt -->

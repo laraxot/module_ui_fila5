@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "tailwind_themes"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # tailwind_themes
 
 <!-- Contenuto migrato da _docs/tailwind_themes.txt -->

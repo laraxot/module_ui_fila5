@@ -1,6 +1,7 @@
 ---
 module: theme
 topic: list-records
+<<<<<<< HEAD
 canonical: ../../../../Themes/docs/shared-components/listrecords-1.md
 related:
   - "./automatic-translations.md"
@@ -14,3 +15,9 @@ related:
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/listrecords-1.md
+=======
+canonical: ../../../../Themes/docs/shared-components/ListRecords.md
+---
+
+See canonical documentation: ../../../../Themes/docs/shared-components/ListRecords.md
+>>>>>>> dfac49d (.)

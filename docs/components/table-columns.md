@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Table Columns Components"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./full-calendar-1.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Table Columns Components
 
 ## Overview
@@ -184,7 +187,11 @@ use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
 ## Related Documentation
 - [State Management](../state-transitions.md)
 - [Filament Components](../filament-components.md)
+<<<<<<< HEAD
 - [UI Architecture](../architecture-rules-1.md)
+=======
+- [UI Architecture](../architecture_rules.md)
+>>>>>>> dfac49d (.)
 - [Accessibility Guidelines](../accessibility.md)
 ---
 

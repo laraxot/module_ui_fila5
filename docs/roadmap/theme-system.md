@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Sistema di Theming"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./03-later.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Sistema di Theming
 
 ## 📊 Stato Implementazione

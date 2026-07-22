@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Visione - UI Module"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./03-later.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Visione - UI Module
 
 Creare un ecosistema UI Headless-first:

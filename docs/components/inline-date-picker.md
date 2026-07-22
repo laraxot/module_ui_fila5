@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "InlineDatePicker Component"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./full-calendar-1.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # InlineDatePicker Component
 
 ## Overview

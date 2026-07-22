@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "media"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # media
 
 <!-- Contenuto migrato da _docs/media.txt -->

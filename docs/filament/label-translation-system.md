@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Sistema di Traduzione Automatica delle Etichette (Label) in Filament"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./filament-4-migration-sumy.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Sistema di Traduzione Automatica delle Etichette (Label) in Filament
 
 ## Regola Fondamentale

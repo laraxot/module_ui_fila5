@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "links"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # links
 
 <!-- Contenuto migrato da _docs/links.txt -->

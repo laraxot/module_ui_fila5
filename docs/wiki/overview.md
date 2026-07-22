@@ -4,12 +4,15 @@ module: "UI"
 type: overview
 created: "2026-04-15T08:28:51Z"
 updated: "2026-04-15T08:28:51Z"
+<<<<<<< HEAD
 related:
   - "./agents.md"
   - "./bmad-method.md"
   - "./context-compression.md"
   - "./index.md"
   - "./log.md"
+=======
+>>>>>>> dfac49d (.)
 ---
 
 # UI Wiki Overview

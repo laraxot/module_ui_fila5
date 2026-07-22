@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Correzioni Errori di Sintassi - Modulo UI"
 type: concept
@@ -14,6 +15,8 @@ related:
   - "./wizard-steps.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Correzioni Errori di Sintassi - Modulo UI
 
 ## Problema Risolto: UiBasePolicy.php

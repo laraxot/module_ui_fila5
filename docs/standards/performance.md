@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Standard di Performance"
 type: concept
@@ -16,6 +17,8 @@ related:
   - "./ui-standards.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Standard di Performance
 
 ## 🚀 Metriche Core Web Vitals

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "flip_cards"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # flip_cards
 
 <!-- Contenuto migrato da _docs/flip_cards.txt -->

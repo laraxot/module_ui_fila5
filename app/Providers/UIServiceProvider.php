@@ -4,8 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\UI\Providers;
 
+<<<<<<< HEAD
 use Modules\UI\Adapters\Location\NullLocationDataProviderAdapter;
 use Modules\UI\Contracts\LocationDataProviderContract;
+=======
+>>>>>>> dfac49d (.)
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 use Modules\Xot\Providers\XotBaseServiceProvider;
 
@@ -32,6 +35,7 @@ class UIServiceProvider extends XotBaseServiceProvider
     protected string $module_ns = __NAMESPACE__;
 
     /**
+<<<<<<< HEAD
      * Registra il binding di default (null-object) per LocationDataProviderContract.
      *
      * Un modulo esterno (es. Geo) può sovrascrivere questo binding registrando
@@ -45,6 +49,8 @@ class UIServiceProvider extends XotBaseServiceProvider
     }
 
     /**
+=======
+>>>>>>> dfac49d (.)
      * Boot del service provider.
      *
      * Configura i componenti Blade e altre funzionalità del modulo UI.

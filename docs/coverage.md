@@ -1,6 +1,9 @@
 # Code Coverage: UI
 
+<<<<<<< HEAD
 **Date:** 2026-01-17
+=======
+>>>>>>> dfac49d (.)
 **Lines Coverage:** N/A (Failed to parse)
 **Test Exit Code:** 2
 

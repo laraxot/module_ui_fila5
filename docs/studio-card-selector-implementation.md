@@ -218,15 +218,25 @@ return [
 ---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
+<<<<<<< HEAD
 **Last Updated**: January 2025
 **Last Updated**: January 2025
+=======
+
+
+>>>>>>> dfac49d (.)
         ],
 
 ---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
+<<<<<<< HEAD
 **Last Updated**: January 2025
 **Last Updated**: January 2025
+=======
+
+
+>>>>>>> dfac49d (.)
         ],
         'phone' => [
             'label' => 'Telefono',
@@ -255,13 +265,20 @@ return [
 ---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
+<<<<<<< HEAD
 **Last Updated**: January 2025
 **Last Updated**: January 2025
 **Last Updated**: January 2025
+=======
+
+
+
+>>>>>>> dfac49d (.)
 
 ---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
+<<<<<<< HEAD
 **Last Updated**: January 2025
 **Last Updated**: January 2025
 **Last Updated**: January 2025
@@ -269,6 +286,15 @@ return [
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
 **Last Updated**: January 2025
+=======
+
+
+
+---
+**Component Status**: 📋 Documented - Ready for Implementation
+**Reusability**: 🔄 High - Cross-module compatible
+
+>>>>>>> dfac49d (.)
 # StudioCardSelector Component - Modulo UI
 
 ## 🎯 **Panoramica**
@@ -462,6 +488,12 @@ return [
 
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
+<<<<<<< HEAD
 **Last Updated**: January 2025
 **Last Updated**: January 2025
 **Last Updated**: January 2025
+=======
+
+
+
+>>>>>>> dfac49d (.)

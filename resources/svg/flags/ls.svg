@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 300">
 <rect width="450" height="300" fill="#009543"/>
 <rect width="450" height="210" fill="#fff"/>
@@ -21,3 +22,8 @@
 <path d="m263.98,185.45,2.19,4.38-4.38,1.4984-0.34579-2.0748,2.5358-3.8037z"/>
 </g>
 </svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc5763382f8418db0af12dbfc41b61ee5b65d5a2eaef734a5b6e2ed9cdbfa385
+size 2008
+>>>>>>> dfac49d (.)

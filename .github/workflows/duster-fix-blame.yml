@@ -16,7 +16,11 @@ jobs:
       contents: write
 
     steps:
+<<<<<<< HEAD
       - uses: actions/checkout@v7
+=======
+      - uses: actions/checkout@v3
+>>>>>>> dfac49d (.)
         with:
           ref: ${{ github.head_ref }}
 

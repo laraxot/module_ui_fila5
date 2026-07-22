@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Integrazione dei Componenti Filament nei Blocchi"
 type: concept
@@ -14,6 +15,8 @@ related:
   - "./user-dropdown.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Integrazione dei Componenti Filament nei Blocchi
 
 ## Introduzione

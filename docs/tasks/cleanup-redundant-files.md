@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Task: Cleanup Redundant Files (UI Module)"
 type: concept
@@ -17,6 +18,8 @@ related:
   - "./ui-filament-v5.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Task: Cleanup Redundant Files (UI Module)
 
 ## 📋 Obiettivo

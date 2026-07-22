@@ -8,7 +8,11 @@ use Filament\Forms\Components\Select;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Components\Utilities\Set;
+<<<<<<< HEAD
 use Modules\UI\Contracts\LocationDataProviderContract;
+=======
+use Modules\Geo\Models\Comune;
+>>>>>>> dfac49d (.)
 use Modules\Xot\Filament\Schemas\Components\XotBaseGroup;
 
 /**
@@ -191,7 +195,13 @@ class LocationSelector extends XotBaseGroup
         /** @var array<string, mixed> $validatedState */
         $validatedState = $state;
         try {
+<<<<<<< HEAD
             return $this->getLocationDataProvider()->resolve($validatedState);
+=======
+            $comune = $this->getComuneFromState($validatedState);
+
+            return $comune ? $this->formatGeographicData($comune, $validatedState) : null;
+>>>>>>> dfac49d (.)
         } catch (\Exception $e) {
             logger()->error('LocationSelector: Errore nel recupero dati geografici', [
                 'state' => $validatedState,
@@ -203,6 +213,7 @@ class LocationSelector extends XotBaseGroup
     }
 
     /**
+<<<<<<< HEAD
      * Risolve il provider dei dati geografici dal container.
      *
      * L'implementazione concreta è fornita da un modulo esterno (es. Geo);
@@ -214,6 +225,8 @@ class LocationSelector extends XotBaseGroup
     }
 
     /**
+=======
+>>>>>>> dfac49d (.)
      * Genera lo schema dei componenti figlio.
      *
      * @return array<Component>
@@ -281,7 +294,16 @@ class LocationSelector extends XotBaseGroup
     protected function getRegionOptions(): array
     {
         try {
+<<<<<<< HEAD
             return self::normalizeStringOptions($this->getLocationDataProvider()->getRegions());
+=======
+            return self::normalizeStringOptions(Comune::select('regione')
+                ->distinct()
+                ->orderBy('regione->nome')
+                ->get()
+                ->pluck('regione.nome', 'regione.codice')
+                ->toArray());
+>>>>>>> dfac49d (.)
         } catch (\Exception $e) {
             // Log dell'errore per debug
             logger()->error('LocationSelector: Errore nel caricamento regioni', [
@@ -303,7 +325,18 @@ class LocationSelector extends XotBaseGroup
     protected function getProvinceOptions(string $region): array
     {
         try {
+<<<<<<< HEAD
             return self::normalizeStringOptions($this->getLocationDataProvider()->getProvinces($region));
+=======
+            return self::normalizeStringOptions(Comune::query()
+                ->where('regione->codice', $region)
+                ->select('provincia')
+                ->distinct()
+                ->orderBy('provincia->nome')
+                ->get()
+                ->pluck('provincia.nome', 'provincia.codice')
+                ->toArray());
+>>>>>>> dfac49d (.)
         } catch (\Exception $e) {
             logger()->error('LocationSelector: Errore nel caricamento province', [
                 'region' => $region,
@@ -327,7 +360,19 @@ class LocationSelector extends XotBaseGroup
     protected function getCapOptions(string $region, string $province): array
     {
         try {
+<<<<<<< HEAD
             return self::normalizeStringOptions($this->getLocationDataProvider()->getCaps($region, $province));
+=======
+            return self::normalizeStringOptions(Comune::query()
+                ->where('regione->codice', $region)
+                ->where('provincia->codice', $province)
+                ->select('cap')
+                ->distinct()
+                ->orderBy('cap')
+                ->get()
+                ->pluck('cap.0', 'cap.0')
+                ->toArray());
+>>>>>>> dfac49d (.)
         } catch (\Exception $e) {
             logger()->error('LocationSelector: Errore nel caricamento CAP', [
                 'region' => $region,
@@ -339,6 +384,54 @@ class LocationSelector extends XotBaseGroup
         }
     }
 
+<<<<<<< HEAD
+=======
+    protected function getComuneFromState(mixed $state): ?Comune
+    {
+        if (! \is_array($state)) {
+            return null;
+        }
+
+        /** @var array<string, mixed> $state */
+        $query = Comune::query()->where('regione->codice', $state[$this->regionFieldName]);
+
+        if (! empty($state[$this->provinceFieldName])) {
+            $query->where('provincia->codice', $state[$this->provinceFieldName]);
+        }
+
+        if (! empty($state[$this->capFieldName])) {
+            $query->where('cap->0', $state[$this->capFieldName]);
+        }
+
+        return $query->first();
+    }
+
+    /**
+     * @param array<string, mixed> $state
+     * @param array<string, mixed> $state
+     *
+     * @return array<string, mixed>
+     */
+    protected function formatGeographicData(Comune $comune, array $state): array
+    {
+        $regione = \is_array($comune->regione) ? $comune->regione : [];
+        $provincia = \is_array($comune->provincia) ? $comune->provincia : [];
+
+        return [
+            'region' => [
+                'code' => $regione['codice'] ?? null,
+                'name' => $regione['nome'] ?? null,
+            ],
+            'province' => [
+                'code' => $provincia['codice'] ?? null,
+                'name' => $provincia['nome'] ?? null,
+            ],
+            'cap' => $state[$this->capFieldName] ?? null,
+            'city' => $comune->nome ?? null,
+        ];
+    }
+
+>>>>>>> dfac49d (.)
     /**
      * @return array<string, string>
      */

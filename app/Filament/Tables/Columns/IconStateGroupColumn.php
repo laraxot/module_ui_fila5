@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Actions\Action;
+<<<<<<< HEAD
 use Filament\Tables\Columns\IconColumn;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Contracts\StateContract;
@@ -12,6 +13,15 @@ use Modules\Xot\Filament\Tables\Columns\XotBaseColumnGroup;
 use Webmozart\Assert\Assert;
 
 class IconStateGroupColumn extends XotBaseColumnGroup
+=======
+use Filament\Tables\Columns\ColumnGroup;
+use Filament\Tables\Columns\IconColumn;
+use Illuminate\Database\Eloquent\Model;
+use Modules\Xot\Contracts\StateContract;
+use Webmozart\Assert\Assert;
+
+class IconStateGroupColumn extends ColumnGroup
+>>>>>>> dfac49d (.)
 {
     public string $stateClass = '';
 
@@ -90,6 +100,7 @@ class IconStateGroupColumn extends XotBaseColumnGroup
             $column->action(
                 Action::make($stateKey.'-action')
                     ->requiresConfirmation()
+<<<<<<< HEAD
                     ->modalHeading(function (Model $record) use ($stateInstance) {
                         // StateContract provides modalHeading()
                         return $stateInstance->modalHeading();
@@ -99,11 +110,26 @@ class IconStateGroupColumn extends XotBaseColumnGroup
                         return $stateInstance->modalDescription();
                     })
                     ->schema(function (Model $record) use ($stateInstance) {
+=======
+                    ->modalHeading(static function (Model $record) use ($stateInstance) {
+                        // StateContract provides modalHeading()
+                        return $stateInstance->modalHeading();
+                    })
+                    ->modalDescription(static function (Model $record) use ($stateInstance) {
+                        // StateContract provides modalDescription()
+                        return $stateInstance->modalDescription();
+                    })
+                    ->schema(static function (Model $record) use ($stateInstance) {
+>>>>>>> dfac49d (.)
                         // StateContract provides modalFormSchema()
                         return $stateInstance->modalFormSchema();
                     })
                     ->fillForm($stateInstance->modalFillFormByRecord(...))
+<<<<<<< HEAD
                     ->action(function (Model $record, array $data) use ($stateInstance): void {
+=======
+                    ->action(static function (Model $record, array $data) use ($stateInstance): void {
+>>>>>>> dfac49d (.)
                         // Ensure data is treated as array<string, mixed> for PHPStan and StateContract
                         /** @var array<string, mixed> $typedData */
                         $typedData = $data;
@@ -112,7 +138,12 @@ class IconStateGroupColumn extends XotBaseColumnGroup
                     })
             );
 
+<<<<<<< HEAD
             $column->visible((bool) ($this->data[$visibleKey] ?? false));
+=======
+            $visibleValue = $this->data[$visibleKey] ?? false;
+            $column->visible((bool) $visibleValue);
+>>>>>>> dfac49d (.)
             $columns[] = $column;
         }
 

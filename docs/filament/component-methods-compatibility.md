@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Compatibilità dei Metodi nei Componenti Filament"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./file-upload-component.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Compatibilità dei Metodi nei Componenti Filament
 
 ## Panoramica

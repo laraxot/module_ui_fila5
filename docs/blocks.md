@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Blocchi
 
 ## Panoramica
@@ -182,3 +183,26 @@ Per gestire correttamente le route nei blocchi, seguire queste linee guida:
 * [blocks.md](../../../Cms/docs/blocks.md)
 * [blocks.md](../../../../Themes/One/docs/blocks.md)
 * [blocks.md](../../../../Themes/One/docs/components/blocks.md)
+=======
+https://github.com/whitecube/nova-flexible-content
+
+
+https://filamentphp.com/plugins/statik-flexible-content-blocks
+
+
+
+https://tailblocks.cc/
+https://tailwindcomponents.com/
+https://flowbite.com/docs/getting-started/introduction/
+https://merakiui.com/
+https://tailwindui.com/
+https://www.tailwindtoolbox.com/
+https://tw-elements.com/docs/standard/navigation/navbar/
+
+
+
+
+https://freefrontend.com/tailwind-navbars/
+
+https://preline.co/docs/mega-menu.html
+>>>>>>> dfac49d (.)

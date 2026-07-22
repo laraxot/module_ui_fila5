@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Standard Form nei Temi"
 type: rule
@@ -16,6 +17,8 @@ related:
   - "./ui-standards.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Standard Form nei Temi
 
 ## Principi Generali

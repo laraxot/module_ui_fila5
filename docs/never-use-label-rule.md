@@ -154,9 +154,15 @@ rules:
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [Translation Standards](../../../docs/translation-standards.md)
 - [Filament Best Practices](../../../docs/filament-best-practices.md)
 - [LangServiceProvider Documentation](../../../docs/lang-service-provider.md)
+=======
+- [Translation Standards](../../../../docs/translation-standards.md)
+- [Filament Best Practices](../../../../docs/filament-best-practices.md)
+- [LangServiceProvider Documentation](../../../../docs/lang-service-provider.md)
+>>>>>>> dfac49d (.)
 
 ## Memoria Permanente
 
@@ -168,7 +174,11 @@ rules:
 - SEMPRE testare le traduzioni prima del commit
 # REGOLA CRITICA: MAI usare ->label()
 
+<<<<<<< HEAD
 ## Data: 2025-01-06
+=======
+## Data: [DATE]
+>>>>>>> dfac49d (.)
 
 ## ❌ ERRORE CRITICO - NON FARE MAI QUESTO
 
@@ -333,9 +343,15 @@ rules:
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [Translation Standards](../../../docs/translation-standards.md)
 - [Filament Best Practices](../../../docs/filament-best-practices.md)
 - [LangServiceProvider Documentation](../../../docs/lang-service-provider.md)
+=======
+- [Translation Standards](../../../../docs/translation-standards.md)
+- [Filament Best Practices](../../../../docs/filament-best-practices.md)
+- [LangServiceProvider Documentation](../../../../docs/lang-service-provider.md)
+>>>>>>> dfac49d (.)
 
 ## Memoria Permanente
 
@@ -351,4 +367,7 @@ rules:
 
 - SEMPRE testare le traduzioni prima del commit
 
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06*
+=======
+>>>>>>> dfac49d (.)

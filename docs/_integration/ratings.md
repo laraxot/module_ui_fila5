@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "ratings"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # ratings
 
 <!-- Contenuto migrato da _docs/ratings.txt -->

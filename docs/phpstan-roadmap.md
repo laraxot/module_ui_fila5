@@ -1,6 +1,10 @@
 # PHPStan Roadmap - UI Module
 
+<<<<<<< HEAD
 > **Date**: 2026-01-14
+=======
+> **Date**: [DATE]
+>>>>>>> dfac49d (.)
 > **Status**: ✅ Fully Compliant (Level 10)
 > **Errors**: 0
 

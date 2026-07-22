@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Registrazione dei Componenti nei Moduli"
 type: concept
@@ -13,6 +14,8 @@ related:
   - "./structure.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Registrazione dei Componenti nei Moduli
 
 ## Regola Fondamentale

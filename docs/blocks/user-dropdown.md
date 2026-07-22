@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "User Dropdown Component"
 type: concept
@@ -14,6 +15,8 @@ related:
   - "./navigation.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # User Dropdown Component
 
 This document describes the User Dropdown component used in the header section and explains proper data handling patterns.

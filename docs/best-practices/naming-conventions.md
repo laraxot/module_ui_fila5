@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Naming Conventions"
 type: concept
@@ -10,6 +11,8 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
 ---
 
+=======
+>>>>>>> dfac49d (.)
 ## Collegamenti tra versioni di naming-conventions.md
 * [naming-conventions.md](../../../../../docs/naming-conventions.md)
 * [naming-conventions.md](../../xot/docs/naming-conventions.md)
