@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "Componente FileUpload"
 type: concept
@@ -22,11 +18,6 @@ related:
   - "./full-calendar.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # Componente FileUpload
 
 ## Collegamenti Bidirezionali

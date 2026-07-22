@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 # Aggiornamento Traduzioni Modulo UI - Gennaio 2026
 
 ## Data Intervento
@@ -150,15 +146,3 @@ Tutte le traduzioni seguono la struttura espansa:
 
 *Intervento completato il: 2026-01-22*
 *Conforme alle regole DRY + KISS*
-<<<<<<< HEAD
-=======
----
-module: theme
-topic: translations-update
-canonical: ../../../Themes/docs/shared-components/translations-update-january.md
----
-
-See canonical documentation: ../../../Themes/docs/shared-components/translations-update-january.md
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)

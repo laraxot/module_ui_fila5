@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 # Collegamenti Modulo UI
 
 > **Nota:** Ogni link deve essere accompagnato da una breve descrizione che spiega il contesto e l'utilità della risorsa, per facilitare la consultazione e la manutenzione.
@@ -69,13 +65,3 @@
   > Template, layout e risorse grafiche condivise per il tema "One".
 
 ---
-<<<<<<< HEAD
-=======
----------------------------------------------------------------------------------------------------
-Laravel URL Redirects with Optional Protected Url Passwords
-https://codebrisk.com/blog/laravel-url-redirects-with-optional-protected-url-passwords
-composer require yorcreative/laravel-urlshortener
----------------------------------------------------------------------------------------------------
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)

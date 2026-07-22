@@ -234,14 +234,6 @@ class ViewLocation extends XotBaseViewRecord
 
 ## Riferimenti
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Regole Architetturali Critiche](../../Xot/docs/critical-architecture-rules.md)
-=======
-- [Regole Architetturali Critiche](../../xot/docs/critical-architecture-rules.md)
->>>>>>> dfac49d (.)
-=======
-- [Regole Architetturali Critiche](../../Xot/docs/critical-architecture-rules.md)
->>>>>>> dfbb8305 (.)
 - [PHPStan Patterns](./phpstan-patterns.md)
 - [PHPStan Compliance](./phpstan-compliance.md)

@@ -93,13 +93,5 @@ Tutti i file del modulo UI sono PHPStan Level 10 compliant usando `isset()`.
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 **Ultimo aggiornamento**: 2025-01-06
-=======
-**Ultimo aggiornamento**: [DATE]
->>>>>>> dfac49d (.)
-=======
-**Ultimo aggiornamento**: 2025-01-06
->>>>>>> dfbb8305 (.)
 **Status**: ✅ PHPStan Level 10 - 0 Errors

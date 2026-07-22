@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 # Regole di Naming per File
 
 ## 🎯 Regola Fondamentale: NO Duplicati Case-Insensitive
@@ -122,15 +118,3 @@ Se entrambi i file contengono contenuto diverso:
 - Laravel Naming Conventions
 - Filament Best Practices
 - Git Case Sensitivity Issues
-<<<<<<< HEAD
-=======
----
-module: theme
-topic: file-naming-rules
-canonical: ../../../Themes/docs/shared-components/file-naming-rules.md
----
-
-See canonical documentation: ../../../Themes/docs/shared-components/file-naming-rules.md
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)

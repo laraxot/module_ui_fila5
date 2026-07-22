@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "chartjs-plugin-datalabels with Filament 5 ChartWidget (multiple labels)"
 type: concept
@@ -19,11 +15,6 @@ related:
   - "./shared-hosting-strategy.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # chartjs-plugin-datalabels with Filament 5 ChartWidget (multiple labels)
 
 ## Goal

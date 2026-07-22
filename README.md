@@ -43,10 +43,6 @@ Stack frontoffice: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filamen
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ## Regola di Dipendenza
 
 UI è una **dipendenza condivisa** — la freccia è unidirezionale:
@@ -64,11 +60,6 @@ Dettagli: [`docs/dependency-rules.md`](./docs/dependency-rules.md)
 ---
 
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 ## Documentazione
 
 | Lingua | Link |

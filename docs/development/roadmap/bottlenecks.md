@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "Colli di Bottiglia - Modulo UI"
 type: concept
@@ -18,11 +14,6 @@ related:
   - "./theme-system.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # Colli di Bottiglia - Modulo UI
 
 ## 1. Performance Componenti [85%]

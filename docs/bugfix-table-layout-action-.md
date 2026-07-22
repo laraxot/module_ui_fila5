@@ -140,34 +140,14 @@ php -l Modules/UI/app/Filament/Actions/Table/TableLayoutToggleTableAction.php
 php artisan tinker --execute="TableLayoutToggleTableAction::make('test');"
 
 # Testare l'URL che causava l'errore
-<<<<<<< HEAD
-<<<<<<< HEAD
 curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
-=======
-curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
->>>>>>> dfac49d (.)
-=======
-curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
->>>>>>> dfbb8305 (.)
 ```
 
 ### Risultati Test
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ✅ **Sintassi PHP**: Nessun errore di sintassi  
 ✅ **Istanziazione**: Classe istanziabile correttamente  
 ✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)  
-=======
-✅ **Sintassi PHP**: Nessun errore di sintassi
-✅ **Istanziazione**: Classe istanziabile correttamente
-✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)
->>>>>>> dfac49d (.)
-=======
-✅ **Sintassi PHP**: Nessun errore di sintassi  
-✅ **Istanziazione**: Classe istanziabile correttamente  
-✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)  
->>>>>>> dfbb8305 (.)
 ✅ **PHPStan**: Nessun errore di linting rilevato
 
 ## Impatto
@@ -193,20 +173,8 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 **Data**: 27 Gennaio 2025  
 **Modulo**: UI  
 **Tipo**: Bug Fix  
 **Priorità**: Alta  
-<<<<<<< HEAD
-=======
-**Modulo**: UI
-**Tipo**: Bug Fix
-**Priorità**: Alta
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 **Stato**: ✅ Risolto

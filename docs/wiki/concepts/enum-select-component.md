@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "Enum Select Component"
 type: concept
@@ -22,11 +18,6 @@ related:
   - "./enum-select-usage.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 ## EnumSelect Component Specification
 
 A reusable Iron Select for PHP-backed enums in Filament v5.

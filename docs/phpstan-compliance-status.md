@@ -1,14 +1,6 @@
 # PHPStan Level 10 Compliance Status
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 **Last Updated**: 2025-12-10
-=======
-
->>>>>>> dfac49d (.)
-=======
-**Last Updated**: 2025-12-10
->>>>>>> dfbb8305 (.)
 **Status**: ✅ FULLY COMPLIANT (0 errors)
 
 ## Summary

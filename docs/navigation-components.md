@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 # Componenti di Navigazione
 
 ## Indice
@@ -294,15 +290,3 @@ return [
    - Utilizzare i componenti Filament per icone e avatar: `<x-filament::icon>`, `<x-filament::avatar>`
    - Utilizzare i componenti Filament per i dropdown quando possibile
    - Utilizzare i separatori corretti nei dropdown (div con bordo, non componenti inesistenti)
-<<<<<<< HEAD
-=======
----
-module: theme
-topic: navigation-components
-canonical: ../../../Themes/docs/shared-components/navigation-components.md
----
-
-See canonical documentation: ../../../Themes/docs/shared-components/navigation-components.md
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)

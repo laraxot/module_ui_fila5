@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "Footer Component"
 type: concept
@@ -22,11 +18,6 @@ related:
   - "./full-calendar.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # Footer Component
 
 Questo documento serve come punto di riferimento centrale per la documentazione del componente Footer.
@@ -42,15 +33,7 @@ laravel/Themes/One/resources/views/components/layouts/footer.blade.php
 ### Documentazione Principale
 - [Documentazione Dettagliata del Footer](../../../../themes/one/docs/components/layouts/footer.md)
 - [Guida allo Stile del Tema One](../../../../themes/one/docs/style_guide.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Sistema di Layout](/laravel/Themes/One/docs/design-system-2.md#layout)
-=======
-- [Sistema di Layout](/laravel/Themes/One/docs/design_system.md#layout)
->>>>>>> dfac49d (.)
-=======
-- [Sistema di Layout](/laravel/Themes/One/docs/design-system-2.md#layout)
->>>>>>> dfbb8305 (.)
 
 ### Best Practices e Linee Guida
 - [Best Practices Components](../../../cms/docs/best-practices/components.md)

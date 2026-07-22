@@ -16,19 +16,7 @@ jobs:
       contents: write
 
     steps:
-<<<<<<< HEAD
-<<<<<<< .merge_file_h3d27a
       - uses: actions/checkout@v3
-=======
-<<<<<<< HEAD
-      - uses: actions/checkout@v7
-=======
-      - uses: actions/checkout@v3
->>>>>>> dfac49d (.)
->>>>>>> .merge_file_41Qiok
-=======
-      - uses: actions/checkout@v7
->>>>>>> dfbb8305 (.)
         with:
           ref: ${{ github.head_ref }}
 

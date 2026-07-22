@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "Utilizzo dei componenti Blade di Filament"
 type: concept
@@ -15,11 +11,6 @@ related:
   - "./component-registration.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # Utilizzo dei componenti Blade di Filament
 
 ## Regola fondamentale (obbligatoria)

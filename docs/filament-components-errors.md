@@ -137,15 +137,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 
 ## Collegamenti Bidirezionali
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Documentazione Componenti Filament](../../../docs/filament/components.md)
-=======
-- [Documentazione Componenti Filament](../../../../docs/filament/components.md)
->>>>>>> dfac49d (.)
-=======
-- [Documentazione Componenti Filament](../../../docs/filament/components.md)
->>>>>>> dfbb8305 (.)
 - [Best Practices UI](../../best-practices.md)
 - [Errori Comuni UI](../../common-errors.md)
 - [Implementazione Corretta](../../examples/correct-implementation.md)
@@ -318,21 +310,9 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 
 ## Collegamenti Bidirezionali
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Documentazione Componenti Filament](../../../project_docs/filament/components.md)
 - [Documentazione Componenti Filament](../../../project_docs/filament/components.md)
 - [Documentazione Componenti Filament](../../../project_docs/filament/components.md)
-=======
-- [Documentazione Componenti Filament](../../../../docs/project/filament/components.md)
-- [Documentazione Componenti Filament](../../../../docs/project/filament/components.md)
-- [Documentazione Componenti Filament](../../../../docs/project/filament/components.md)
->>>>>>> dfac49d (.)
-=======
-- [Documentazione Componenti Filament](../../../project_docs/filament/components.md)
-- [Documentazione Componenti Filament](../../../project_docs/filament/components.md)
-- [Documentazione Componenti Filament](../../../project_docs/filament/components.md)
->>>>>>> dfbb8305 (.)
 - [Best Practices UI](../../best-practices.md)
 - [Errori Comuni UI](../../common-errors.md)
 - [Implementazione Corretta](../../examples/correct-implementation.md)

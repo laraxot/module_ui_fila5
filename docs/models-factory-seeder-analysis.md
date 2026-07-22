@@ -27,11 +27,4 @@
 Il modulo UI non dovrebbe avere modelli - è dedicato a componenti di interfaccia.
 
 ---
-<<<<<<< HEAD
-<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06*
-=======
->>>>>>> dfac49d (.)
-=======
-*Ultimo aggiornamento: 2025-01-06*
->>>>>>> dfbb8305 (.)

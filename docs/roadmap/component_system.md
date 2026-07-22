@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 # Sistema Componenti UI
 
 ## 📊 Stato Implementazione
@@ -199,15 +195,3 @@ protected function resolveLazyProp(string $key): mixed
 3. Migliorare test coverage
 4. Documentare best practices
 5. Ottimizzare performance 
-<<<<<<< HEAD
-=======
----
-module: theme
-topic: component_system
-canonical: ../../../../Themes/docs/shared-components/component-system.md
----
-
-See canonical documentation: ../../../../Themes/docs/shared-components/component-system.md
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)

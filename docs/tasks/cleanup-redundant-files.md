@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "Task: Cleanup Redundant Files (UI Module)"
 type: concept
@@ -21,11 +17,6 @@ related:
   - "./ui-filament-v5.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # Task: Cleanup Redundant Files (UI Module)
 
 ## 📋 Obiettivo

@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "Standard Form nei Temi"
 type: rule
@@ -20,11 +16,6 @@ related:
   - "./ui-standards.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # Standard Form nei Temi
 
 ## Principi Generali

@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "Compatibilità dei Metodi nei Componenti Filament"
 type: concept
@@ -22,11 +18,6 @@ related:
   - "./file-upload-component.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # Compatibilità dei Metodi nei Componenti Filament
 
 ## Panoramica

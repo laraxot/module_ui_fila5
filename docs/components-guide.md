@@ -171,14 +171,6 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 
 ## Volt e Folio
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-Nel progetto la sintassi di default per i componenti Volt interattivi è **class-based** (`new class extends Livewire\Volt\Component`). Gli esempi qui sotto che usano `use function Livewire\Volt\{state, mount\}` sono **legacy/mantenimento**.
-
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 ### Componenti Volt
 - Utilizzare la direttiva `@volt` per i componenti Volt
 - Struttura standard:
@@ -224,18 +216,8 @@ Nel progetto la sintassi di default per i componenti Volt interattivi è **class
   ```
 
 ### Gestione dello Stato
-<<<<<<< HEAD
-<<<<<<< HEAD
 - Utilizzare `state()` per definire le proprietà
 - Utilizzare `mount()` per l'inizializzazione
-=======
-- In class-based, usa proprietà `public` e inizializza in `mount(): void`
-- Gli helper functional `state()` / `computed()` sono legacy/mantenimento (non per nuovi componenti)
->>>>>>> dfac49d (.)
-=======
-- Utilizzare `state()` per definire le proprietà
-- Utilizzare `mount()` per l'inizializzazione
->>>>>>> dfbb8305 (.)
 - Gestire gli errori con try/catch
 - Implementare stati di loading
 
@@ -645,14 +627,6 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 
 ## Volt e Folio
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-Nel progetto la sintassi di default per i componenti Volt interattivi è **class-based** (`new class extends Livewire\Volt\Component`). Gli esempi qui sotto che usano `use function Livewire\Volt\{state, mount\}` sono **legacy/mantenimento**.
-
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 ### Componenti Volt
 - Utilizzare la direttiva `@volt` per i componenti Volt
 - Struttura standard:
@@ -698,18 +672,8 @@ Nel progetto la sintassi di default per i componenti Volt interattivi è **class
   ```
 
 ### Gestione dello Stato
-<<<<<<< HEAD
-<<<<<<< HEAD
 - Utilizzare `state()` per definire le proprietà
 - Utilizzare `mount()` per l'inizializzazione
-=======
-- In class-based, usa proprietà `public` e inizializza in `mount(): void`
-- Gli helper functional `state()` / `computed()` sono legacy/mantenimento (non per nuovi componenti)
->>>>>>> dfac49d (.)
-=======
-- Utilizzare `state()` per definire le proprietà
-- Utilizzare `mount()` per l'inizializzazione
->>>>>>> dfbb8305 (.)
 - Gestire gli errori con try/catch
 - Implementare stati di loading
 

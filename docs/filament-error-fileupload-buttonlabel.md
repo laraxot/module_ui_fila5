@@ -16,15 +16,7 @@ Il metodo `buttonLabel()` **NON esiste** sul componente `Filament\Forms\Componen
 - Seguire la tabella di compatibilità dei metodi nei componenti Filament (vedi doc modulo Patient e Xot).
 
 ## Collegamenti
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Errore e best practice modulo Patient](../../Patient/docs/filament-error-fileupload-buttonlabel.md)
-=======
-- [Errore e best practice modulo Patient](../../patient/docs/filament-error-fileupload-buttonlabel.md)
->>>>>>> dfac49d (.)
-=======
-- [Errore e best practice modulo Patient](../../Patient/docs/filament-error-fileupload-buttonlabel.md)
->>>>>>> dfbb8305 (.)
 - [Tabella metodi supportati](filament-component-methods.md)
 
 ---
@@ -35,15 +27,7 @@ Il metodo `buttonLabel()` **NON esiste** sul componente `Filament\Forms\Componen
 Questa doc va sempre consultata e linkata in ogni review e sviluppo che coinvolga FileUpload. Ogni modulo coinvolto deve avere un collegamento bidirezionale a questa doc.
 
 ## Collegamenti tra versioni di filament-error-fileupload-buttonlabel.md
-<<<<<<< HEAD
-<<<<<<< HEAD
 * [filament-error-fileupload-buttonlabel.md](../../Patient/docs/filament-error-fileupload-buttonlabel.md)
-=======
-* [filament-error-fileupload-buttonlabel.md](../../patient/docs/filament-error-fileupload-buttonlabel.md)
->>>>>>> dfac49d (.)
-=======
-* [filament-error-fileupload-buttonlabel.md](../../Patient/docs/filament-error-fileupload-buttonlabel.md)
->>>>>>> dfbb8305 (.)
 # Errore: Metodo `buttonLabel()` su FileUpload di Filament
 
 ## Descrizione
@@ -62,15 +46,7 @@ Il metodo `buttonLabel()` **NON esiste** sul componente `Filament\Forms\Componen
 - Seguire la tabella di compatibilità dei metodi nei componenti Filament (vedi doc modulo Patient e Xot).
 
 ## Collegamenti
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [Errore e best practice modulo Patient](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
-=======
-- [Errore e best practice modulo Patient](../../patient/project_docs/filament-error-fileupload-buttonlabel.md)
->>>>>>> dfac49d (.)
-=======
-- [Errore e best practice modulo Patient](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
->>>>>>> dfbb8305 (.)
 - [Tabella metodi supportati](filament-component-methods.md)
 
 ---
@@ -81,18 +57,6 @@ Il metodo `buttonLabel()` **NON esiste** sul componente `Filament\Forms\Componen
 Questa doc va sempre consultata e linkata in ogni review e sviluppo che coinvolga FileUpload. Ogni modulo coinvolto deve avere un collegamento bidirezionale a questa doc.
 
 ## Collegamenti tra versioni di filament-error-fileupload-buttonlabel.md
-<<<<<<< HEAD
-<<<<<<< HEAD
 * [filament-error-fileupload-buttonlabel.md](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
 * [filament-error-fileupload-buttonlabel.md](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
 * [filament-error-fileupload-buttonlabel.md](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
-=======
-* [filament-error-fileupload-buttonlabel.md](../../patient/project_docs/filament-error-fileupload-buttonlabel.md)
-* [filament-error-fileupload-buttonlabel.md](../../patient/project_docs/filament-error-fileupload-buttonlabel.md)
-* [filament-error-fileupload-buttonlabel.md](../../patient/project_docs/filament-error-fileupload-buttonlabel.md)
->>>>>>> dfac49d (.)
-=======
-* [filament-error-fileupload-buttonlabel.md](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
-* [filament-error-fileupload-buttonlabel.md](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
-* [filament-error-fileupload-buttonlabel.md](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
->>>>>>> dfbb8305 (.)

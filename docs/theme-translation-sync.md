@@ -38,15 +38,7 @@ Entrambi i temi contengono i seguenti file di traduzione:
 11. `patient.php` - Gestione pazienti
 12. `studio.php` - Gestione studi
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ## Correzioni Applicate (2025-01-06)
-=======
-## Correzioni Applicate ([DATE])
->>>>>>> dfac49d (.)
-=======
-## Correzioni Applicate (2025-01-06)
->>>>>>> dfbb8305 (.)
 
 ### 1. Problema: Traduzione mancante `pub_theme::appointment.fields.state.label`
 
@@ -81,15 +73,7 @@ Entrambi i temi contengono i seguenti file di traduzione:
 - `duration` - Durata
 - `emergency` - Emergenza
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ### 4. Problema: Testo hardcoded in italiano per i referti (2025-01-06)
-=======
-### 4. Problema: Testo hardcoded in italiano per i referti ([DATE])
->>>>>>> dfac49d (.)
-=======
-### 4. Problema: Testo hardcoded in italiano per i referti (2025-01-06)
->>>>>>> dfbb8305 (.)
 
 **Causa**: Il file `appointment/item.blade.php` conteneva testo hardcoded in italiano per la sezione referti:
 - "Il tuo referto è pronto!"
@@ -239,10 +223,6 @@ return [
 
 - [Theme Widget Translations](theme-widget-translations.md)
 - [Translation Helper Text Standards](translation-helper-text-standards.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 - [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/Modules/<nome modulo>/docs/translation_quality_standards.md)
 - [Modules/<nome progetto>/docs/translation_quality_standards.md](../laravel/Modules/<nome progetto>/docs/translation_quality_standards.md)
 - [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/Modules/<nome modulo>/docs/translation_quality_standards.md)
@@ -253,20 +233,5 @@ return [
 ---
 
 **Ultimo aggiornamento**: 2025-01-06
-<<<<<<< HEAD
-=======
-- [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/modules/<nome modulo>/docs/translation_quality_standards.md)
-- [Modules/<nome progetto>/docs/translation_quality_standards.md](../laravel/modules/<nome progetto>/docs/translation_quality_standards.md)
-- [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/modules/<nome modulo>/docs/translation_quality_standards.md)
-- [Modules/<nome progetto>/docs/translation_quality_standards.md](../laravel/modules/<nome progetto>/docs/translation_quality_standards.md)
-- [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/modules/<nome modulo>/docs/translation_quality_standards.md)
-- [Modules/<nome progetto>/docs/translation_quality_standards.md](../laravel/modules/<nome progetto>/docs/translation_quality_standards.md)
-
----
-
-**Ultimo aggiornamento**: [DATE]
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 **Versione**: 2.2
 **Autore**: AI Assistant

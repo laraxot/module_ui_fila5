@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "Module Filament Component Autoload Rule"
 type: rule
@@ -22,11 +18,6 @@ related:
   - "./enum-select-contract-and-false-friends.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # Module Filament Component Autoload Rule
 
 ## Regola

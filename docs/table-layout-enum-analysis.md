@@ -1,14 +1,6 @@
 # Analisi Completa TableLayoutEnum
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ## Data: 2025-01-06
-=======
-## Data: [DATE]
->>>>>>> dfac49d (.)
-=======
-## Data: 2025-01-06
->>>>>>> dfbb8305 (.)
 
 ## Panoramica
 
@@ -338,10 +330,6 @@ class TableLayoutEnumTest extends TestCase
 
 - [Usage Guide](table-layout-enum-usage.md)
 - [Conflict Resolution](conflict-resolution-tablelayoutenum.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 - [Translation Standards](../../../docs/translation_standards.md)
 - [Filament Best Practices](../../../docs/filament_best_practices.md)
 
@@ -349,17 +337,6 @@ class TableLayoutEnumTest extends TestCase
 # Analisi Completa TableLayoutEnum
 
 ## Data: 2025-01-06
-<<<<<<< HEAD
-=======
-- [Translation Standards](../../../../docs/translation_standards.md)
-- [Filament Best Practices](../../../../docs/filament_best_practices.md)
-
-# Analisi Completa TableLayoutEnum
-
-## Data: [DATE]
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 
 ## Panoramica
 
@@ -689,19 +666,7 @@ class TableLayoutEnumTest extends TestCase
 
 - [Usage Guide](table-layout-enum-usage.md)
 - [Conflict Resolution](conflict-resolution-tablelayoutenum.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 - [Translation Standards](../../../docs/translation_standards.md)
 - [Filament Best Practices](../../../docs/filament_best_practices.md)
 
 *Ultimo aggiornamento: 2025-01-06*
-<<<<<<< HEAD
-=======
-- [Translation Standards](../../../../docs/translation_standards.md)
-- [Filament Best Practices](../../../../docs/filament_best_practices.md)
-
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)

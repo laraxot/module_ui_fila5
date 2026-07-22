@@ -1,14 +1,6 @@
 # Analisi Approfondita del Modulo UI
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 > **Generato**: 2025-12-24
-=======
-> **Generato**: [DATE]
->>>>>>> dfac49d (.)
-=======
-> **Generato**: 2025-12-24
->>>>>>> dfbb8305 (.)
 > **Scopo**: Documentare la filosofia, logica, business logic e architettura del modulo UI
 
 ---

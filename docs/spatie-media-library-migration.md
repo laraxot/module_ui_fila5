@@ -711,49 +711,23 @@ public function downloadDocument(Media $media): Response
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 *Ultimo aggiornamento: Dicembre 2024*
-=======
->>>>>>> dfac49d (.)
-=======
-*Ultimo aggiornamento: Dicembre 2024*
->>>>>>> dfbb8305 (.)
 *Versione: 1.0*
 *Compatibilità: Laraxot <nome progetto>, Spatie Media Library 11.x, Filament 3.x*
 *Compatibilità: Laraxot , Spatie Media Library 11.x, Filament 3.x*
 *Compatibilità: Laraxot , Spatie Media Library 11.x, Filament 3.x*
-<<<<<<< HEAD
-<<<<<<< HEAD
 *Ultimo aggiornamento: Dicembre 2024*
-=======
->>>>>>> dfac49d (.)
-=======
-*Ultimo aggiornamento: Dicembre 2024*
->>>>>>> dfbb8305 (.)
 *Versione: 1.0*
 *Compatibilità: Laraxot , Spatie Media Library 11.x, Filament 3.x*
 *Compatibilità: Laraxot <nome progetto>, Spatie Media Library 11.x, Filament 3.x*
 *Compatibilità: Laraxot <nome progetto>, Spatie Media Library 11.x, Filament 3.x*
 *Compatibilità: Laraxot , Spatie Media Library 11.x, Filament 3.x*
 *Compatibilità: Laraxot , Spatie Media Library 11.x, Filament 3.x*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 *Ultimo aggiornamento: Dicembre 2024*
 *Versione: 1.0*
 *Compatibilità: Laraxot , Spatie Media Library 11.x, Filament 3.x*
 *Compatibilità: Laraxot <nome progetto>, Spatie Media Library 11.x, Filament 3.x*
 *Ultimo aggiornamento: Dicembre 2024*
-<<<<<<< HEAD
-=======
-*Versione: 1.0*
-*Compatibilità: Laraxot , Spatie Media Library 11.x, Filament 3.x*
-*Compatibilità: Laraxot <nome progetto>, Spatie Media Library 11.x, Filament 3.x*
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 *Versione: 1.0*
 *Compatibilità: Laraxot , Spatie Media Library 11.x, Filament 3.x*
 *Compatibilità: Laraxot <nome progetto>, Spatie Media Library 11.x, Filament 3.x*
@@ -1291,14 +1265,7 @@ public function downloadDocument(Media $media): Response
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 *Ultimo aggiornamento: Dicembre 2024*
-=======
->>>>>>> dfac49d (.)
-=======
-*Ultimo aggiornamento: Dicembre 2024*
->>>>>>> dfbb8305 (.)
 *Versione: 1.0*
 *Compatibilità: Laraxot , Spatie Media Library 11.x, Filament 3.x*
 *Compatibilità: Laraxot , Spatie Media Library 11.x, Filament 3.x*

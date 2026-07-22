@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 # Guida ai Componenti UI
 
 ## Layout
@@ -458,15 +454,3 @@ $logout = function () {
 - ✅ Seguire la struttura standard
 - ✅ Gestire correttamente le traduzioni
 - ✅ Testare in entrambi gli stati
-<<<<<<< HEAD
-=======
----
-module: theme
-topic: components_guide
-canonical: ../../../Themes/docs/shared-components/components-guide.md
----
-
-See canonical documentation: ../../../Themes/docs/shared-components/components-guide.md
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)

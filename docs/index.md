@@ -1140,23 +1140,10 @@ Common issues and solutions:
 7. **Testing**: Test components with various data types and edge cases
 
 ## Related Modules
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 - [Chart Module](../Chart/docs/index.md) - Chart generation and data processing
 - [Quaeris Module](../Quaeris/docs/index.md) - Survey management and question charts
 - [LimeSurvey Module](../Limesurvey/docs/index.md) - Survey data access with dynamic models
 - [Xot Module](../Xot/docs/index.md) - Base UI infrastructure and component patterns
-<<<<<<< HEAD
-=======
-- [Chart Module](../chart/docs/index.md) - Chart generation and data processing
-- [Quaeris Module](../Quaeris/docs/index.md) - Survey management and question charts
-- [LimeSurvey Module](../limesurvey/docs/index.md) - Survey data access with dynamic models
-- [Xot Module](../xot/docs/index.md) - Base UI infrastructure and component patterns
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 
 ## Statistical Analysis for Question Type Y
 
@@ -1395,13 +1382,4 @@ Specialized UI components for displaying statistics of Y type questions:
         }
     </script>
 </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
 ```
-=======
-```
-- [Conflict Resolution](conflict-resolution.md)
->>>>>>> dfac49d (.)
-=======
-```
->>>>>>> dfbb8305 (.)

@@ -93,15 +93,7 @@ If radio buttons are not selecting properly, check:
 
 ## Changelog
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ### 2025-06-27
-=======
-### [DATE]
->>>>>>> dfac49d (.)
-=======
-### 2025-06-27
->>>>>>> dfbb8305 (.)
 
 - Initial documentation
 - Added troubleshooting section for selection issues
@@ -200,15 +192,7 @@ If radio buttons are not selecting properly, check:
 
 ## Changelog
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ### 2025-06-27
-=======
-### [DATE]
->>>>>>> dfac49d (.)
-=======
-### 2025-06-27
->>>>>>> dfbb8305 (.)
 
 - Initial documentation
 - Added troubleshooting section for selection issues

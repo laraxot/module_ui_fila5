@@ -18,8 +18,4 @@ related:
   - "./ci.md"
 ---
 
-<<<<<<< HEAD
 https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
-=======
-https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
->>>>>>> dfbb8305 (.)

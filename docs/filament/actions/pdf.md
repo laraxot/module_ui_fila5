@@ -3,16 +3,8 @@ title: Filament Action PDF
 description: Azioni Filament per creare PDF
 extends: _layouts.documentation
 section: content
-<<<<<<< HEAD
-<<<<<<< HEAD
 related:
   - "./attach.md"
-=======
->>>>>>> dfac49d (.)
-=======
-related:
-  - "./attach.md"
->>>>>>> dfbb8305 (.)
 ---
 
 # Metodo 1

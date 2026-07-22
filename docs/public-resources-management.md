@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 # Gestione delle Risorse Pubbliche
 
 ## Indice
@@ -290,15 +286,3 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 ## Conclusione
 
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>.
-<<<<<<< HEAD
-=======
----
-module: theme
-topic: public-resources-management
-canonical: ../../../Themes/docs/shared-components/public-resources-management.md
----
-
-See canonical documentation: ../../../Themes/docs/shared-components/public-resources-management.md
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)

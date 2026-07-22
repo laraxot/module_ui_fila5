@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "Roadmap Modulo UI"
 type: concept
@@ -14,11 +10,6 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 ### Versione HEAD
 
 # Roadmap Modulo UI
@@ -314,15 +305,7 @@ Overall Module Completion: 60%
 
 ### Component System Enhancement [75%]
 - [x] Base Components [docs/roadmap/components_base.md]
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [x] Form Components [docs/roadmap/form-components-2.md]
-=======
-- [x] Form Components [docs/roadmap/form_components.md]
->>>>>>> dfac49d (.)
-=======
-- [x] Form Components [docs/roadmap/form-components-2.md]
->>>>>>> dfbb8305 (.)
 - [ ] Data Display Components [docs/roadmap/data_display.md]
 - [ ] Navigation Components [docs/roadmap/navigation.md]
 - [x] Layout Components [docs/roadmap/layout.md]

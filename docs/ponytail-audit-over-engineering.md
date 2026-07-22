@@ -1,10 +1,6 @@
 # Ponytail audit — UI (over-engineering)
 
-<<<<<<< HEAD
 **Ultimo run:** 2026-06-30  
-=======
-**Ultimo run:** 2026-07-01  
->>>>>>> dfbb8305 (.)
 **Modulo:** design system, componenti Filament/Blade condivisi.  
 **Hub:** [../../../../docs/audit/ponytail-audit.md](../../../../docs/audit/ponytail-audit.md)  
 **Remediation:** [../../../../docs/project/ponytail-audit-remediation.md](../../../../docs/project/ponytail-audit-remediation.md)
@@ -12,20 +8,11 @@
 
 ## Findings
 
-<<<<<<< HEAD
 | # | Tag | Cosa | Sostituzione | Path |
 |---|-----|------|--------------|------|
 | UI1 | `delete`→`.bak` | `Config.bak/` (duplicato nested di `config/`) | Solo `config/` | `Config.bak/` |
 | UI2 | `delete` | `docs/archive/` (~144 file duplicati sessione) | Solo `docs/wiki/` | `docs/archive/` |
 | UI3 | `delete` | ~26 stub `.md` in root modulo (`api.md`, `blocks.md`, …) | `docs/` + indici | root `Modules/UI/*.md` |
-=======
-| # | Tag | Cosa | Sostituzione | Path | Stato |
-|---|-----|------|--------------|------|-------|
-| UI0 | `delete` | Layer Map/Geocoding speculativo (contratto + `Null*` senza wiring) | Geo module quando serve | `app/Contracts/`, `app/Services/Map/` | ✅ 2026-07-01 |
-| UI1 | `delete` | `Config/` maiuscolo + `Config.bak/` (duplicato di `config/`) | Solo `config/` | `Config/`, `Config.bak/` | ✅ 2026-07-01 |
-| UI2 | `delete` | `docs/archive/` (~144 file duplicati sessione) | Solo `docs/wiki/` | `docs/archive/` | ✅ 2026-07-01 |
-| UI3 | `delete` | ~26 stub `.md` / `.txt` in root + mirror `_docs/`, `docs/root-*` | `docs/wiki/` + indici | root `Modules/UI/*`, `_docs/` | ✅ 2026-07-01 |
->>>>>>> dfbb8305 (.)
 
 ## Collegamenti
 

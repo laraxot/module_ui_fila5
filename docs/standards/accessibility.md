@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "Standard di Accessibilità"
 type: concept
@@ -20,11 +16,6 @@ related:
   - "./ui-standards.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # Standard di Accessibilità
 
 ## 🎯 WCAG 2.1

@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 # Utilizzo dei Componenti Blade di Filament
 
 ## Indice
@@ -458,15 +454,3 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 ## Conclusione
 
 Utilizzando i componenti Blade nativi di Filament, possiamo garantire una maggiore coerenza visiva, una migliore manutenibilità del codice e un'esperienza utente più fluida . Inoltre, possiamo beneficiare degli aggiornamenti e dei miglioramenti futuri di Filament senza dover modificare i nostri componenti personalizzati.
-<<<<<<< HEAD
-=======
----
-module: theme
-topic: filament-blade-components-usage
-canonical: ../../../Themes/docs/shared-components/filament-blade-components-usage.md
----
-
-See canonical documentation: ../../../Themes/docs/shared-components/filament-blade-components-usage.md
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)

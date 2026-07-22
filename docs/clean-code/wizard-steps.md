@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 ---
 title: "Gestione degli Step nei Wizard Filament"
 type: concept
@@ -18,11 +14,6 @@ related:
   - "./wizard-schema-separation.md"
 ---
 
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 # Gestione degli Step nei Wizard Filament
 
 ## Collegamenti Bidirezionali

@@ -1,13 +1,6 @@
 # Analisi Errori PHPStan - Modulo UI
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 **Data**: 2025-12-23
-=======
->>>>>>> dfac49d (.)
-=======
-**Data**: 2025-12-23
->>>>>>> dfbb8305 (.)
 **Modulo**: UI
 **Livello PHPStan**: max
 **Status**: ✅ Corretto (0 errori)
