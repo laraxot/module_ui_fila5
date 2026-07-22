@@ -32,9 +32,9 @@ Il modulo `UI` non deve dipendere dal modulo `Geo`.
 
 ## Caso LocationSelector
 
-`app/Filament/Forms/Components/LocationSelector.php` non appartiene a `UI` (importa `Modules\Geo\Models\Comune`).
+`app/Filament/Forms/Components/LocationSelector.php` non appartiene a `UI` (importava `Modules\Geo\Models\Comune`, poi il contratto `LocationDataProviderContract`, comunque dominio Geo).
 
-Rimosso dal repo il 2026-07-08; backup locale opzionale `LocationSelector.php.old` (`*.old` in `.gitignore`).
+Rimosso definitivamente dal repo il 2026-07-22, archiviato forward-only in `docs/archive/Filament/Forms/Components/LocationSelector.php.old`.
 
 Se servira' un selettore geografico, crearlo in `Modules/Geo/` usando contratti UI o primitive generiche.
 
@@ -42,25 +42,35 @@ Se servira' un selettore geografico, crearlo in `Modules/Geo/` usando contratti 
 
 `app/Livewire/Components/Map/InteractiveMap.php` e la relativa view Blade non appartengono a `UI`.
 
-Rimosso dal repo il 2026-07-08; backup locale opzionale `InteractiveMap.php.old` (`*.old` in `.gitignore`).
+Rimosso definitivamente dal repo il 2026-07-22, archiviato forward-only in `docs/archive/Livewire/Map.old/InteractiveMap.php.old`.
 
 Non riattivarlo in `UI`. Se in futuro servira' una mappa, crearla nel modulo `Geo` e usare eventuali componenti UI solo come base visuale.
+
+## Caso Contracts/Adapters (LocationDataProviderContract, MapServiceContract, GeocodingServiceContract)
+
+Anche il pattern contract + null-object-adapter (`app/Contracts/{LocationDataProviderContract,MapServiceContract,GeocodingServiceContract}.php`, `app/Adapters/{Location,Map}/Null*Adapter.php`) introdotto per disaccoppiare `LocationSelector`/`InteractiveMap` da `Modules\Geo` è dominio geografico, non generico: non doveva vivere in `UI` nemmeno nella forma disaccoppiata.
+
+Rimosso dal repo il 2026-07-22, archiviato forward-only in `docs/archive/Contracts/*.old` e `docs/archive/Adapters/*.old`. `UIServiceProvider::register()` non fa più `bindIf` di questi contratti.
 
 ## Motivazione
 
 Questa separazione evita dipendenze inverse, classi mancanti e accoppiamento tra design system e dominio geografico.
 
-## Progetto base_ptvx_fila5
+## Progetto base_quaeris_fila5
 
-`laravel/Modules/Geo` **non è presente** — `"Geo": false` in `modules_statuses.json`. Per mappe/geocoding usare altro progetto o installare `laraxot/module_geo_fila5` solo se serve.
+`laravel/Modules/Geo` **è presente e abilitato** in questo progetto (`"Geo": true` in `modules_statuses.json`), ma questo non autorizza `UI` a contenere logica/contratti geografici: la direzione delle dipendenze resta Geo → UI, mai il contrario.
 
 ## Verifica
 
 ```bash
-grep -r "Modules\\\\Geo" app/ --include="*.php" | grep -v '\.old' | grep -v '\.to_geo'
+grep -r "Modules\\\\Geo" app/ --include="*.php" | grep -v '\.old'
 test ! -f app/Livewire/Components/Map/InteractiveMap.php
 test ! -f resources/views/livewire/components/map/interactive-map.blade.php
 test ! -f app/Filament/Forms/Components/LocationSelector.php
+test ! -d app/Contracts/../Adapters
+test ! -f app/Contracts/LocationDataProviderContract.php
+test ! -f app/Contracts/MapServiceContract.php
+test ! -f app/Contracts/GeocodingServiceContract.php
 ```
 
 ## Handoff sessione
