@@ -4,23 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Tables\Columns;
 
-<<<<<<< HEAD
-use Filament\Actions\Action;
-use Filament\Notifications\Notification;
-=======
 use Exception;
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
-use Filament\Tables\Columns\Column;
->>>>>>> dfac49d (.)
 use Illuminate\Database\Eloquent\Model;
 use Livewire\Attributes\On;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Contracts\StateContract;
-<<<<<<< HEAD
 use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
-=======
->>>>>>> dfac49d (.)
 
 /**
  * IconStateSplitColumn - Enhanced state transition column with compact grid layout.
@@ -32,11 +23,7 @@ use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
  * - Proper error handling and notifications
  * - Mobile-friendly design
  */
-<<<<<<< HEAD
 final class IconStateSplitColumn extends XotBaseColumn
-=======
-final class IconStateSplitColumn extends Column
->>>>>>> dfac49d (.)
 {
     protected string $view = 'ui::filament.tables.columns.icon-state-split';
 
@@ -49,11 +36,7 @@ final class IconStateSplitColumn extends Column
      *
      * @param string $stateClass The state machine class (e.g., AppointmentState::class)
      * @param string $modelClass The model class (e.g., Appointment::class)
-<<<<<<< HEAD
-     * @param string $stateClass The state machine class (e.g., AppointmentState::class)
-     * @param string $modelClass The model class (e.g., Appointment::class)
-=======
->>>>>>> dfac49d (.)
+
      */
     public function stateClass(string $stateClass, string $modelClass): static
     {
@@ -103,11 +86,7 @@ final class IconStateSplitColumn extends Column
             return \is_object($recordState) && method_exists($recordState, 'canTransitionTo')
                 ? (bool) $recordState->canTransitionTo($stateClass)
                 : false;
-<<<<<<< HEAD
-        } catch (\Exception) {
-=======
         } catch (Exception) {
->>>>>>> dfac49d (.)
             return false;
         }
     }
@@ -152,11 +131,7 @@ final class IconStateSplitColumn extends Column
     #[On('table-action')]
     public function handleTableAction(string $action, int|string $recordId): void
     {
-<<<<<<< HEAD
-        if ('prova' === $action) {
-=======
         if ($action === 'prova') {
->>>>>>> dfac49d (.)
             $this->prova($recordId);
         }
     }
@@ -170,20 +145,12 @@ final class IconStateSplitColumn extends Column
             $record = $this->getRecordForTransition($recordId);
             $state = $record->getAttribute('state');
             if (! \is_object($state) || ! method_exists($state, 'transitionTo')) {
-<<<<<<< HEAD
-                throw new \Exception(__('ui::icon_state.messages.invalid_state_instance'));
-=======
                 throw new Exception(__('ui::icon_state.messages.invalid_state_instance'));
->>>>>>> dfac49d (.)
             }
             $state->transitionTo($stateClass);
 
             $this->notifyTransitionSuccess();
-<<<<<<< HEAD
-        } catch (\Exception $e) {
-=======
         } catch (Exception $e) {
->>>>>>> dfac49d (.)
             $this->notifyTransitionError($e->getMessage());
         }
     }
@@ -222,11 +189,7 @@ final class IconStateSplitColumn extends Column
             }
 
             return $stateInstance;
-<<<<<<< HEAD
-        } catch (\Exception) {
-=======
         } catch (Exception) {
->>>>>>> dfac49d (.)
             return null;
         }
     }
@@ -261,21 +224,14 @@ final class IconStateSplitColumn extends Column
 
     /**
      * @param array{class: StateContract, icon: string, label: string, color: string, tooltip: string} $stateData
-<<<<<<< HEAD
-     * @param array{class: StateContract, icon: string, label: string, color: string, tooltip: string} $stateData
-=======
->>>>>>> dfac49d (.)
+
      */
     private function getTransitionAction(string $stateKey, array $stateData): ?Action
     {
         $record = $this->getRecord();
         $recordIdRaw = \is_object($record) && isset($record->id) ? $record->id : null;
 
-<<<<<<< HEAD
-        if (null === $recordIdRaw || (! \is_int($recordIdRaw) && ! \is_string($recordIdRaw))) {
-=======
         if ($recordIdRaw === null || (! \is_int($recordIdRaw) && ! \is_string($recordIdRaw))) {
->>>>>>> dfac49d (.)
             return null;
         }
 
@@ -298,30 +254,18 @@ final class IconStateSplitColumn extends Column
     private function getRecordForTransition(int|string $recordId): Model
     {
         if (! class_exists($this->modelClass) || ! method_exists($this->modelClass, 'find')) {
-<<<<<<< HEAD
-            throw new \Exception('Model class not found or invalid');
-=======
             throw new Exception('Model class not found or invalid');
->>>>>>> dfac49d (.)
         }
 
         $recordRaw = $this->modelClass::find($recordId);
 
         if (! \is_object($recordRaw) || ! ($recordRaw instanceof Model)) {
-<<<<<<< HEAD
-            throw new \Exception(__('ui::icon_state.messages.record_not_found'));
-=======
             throw new Exception(__('ui::icon_state.messages.record_not_found'));
->>>>>>> dfac49d (.)
         }
 
         $recordState = $recordRaw->getAttribute('state');
         if (! \is_object($recordState) || ! method_exists($recordState, 'transitionTo')) {
-<<<<<<< HEAD
-            throw new \Exception(__('ui::icon_state.messages.invalid_state_instance'));
-=======
             throw new Exception(__('ui::icon_state.messages.invalid_state_instance'));
->>>>>>> dfac49d (.)
         }
 
         return $recordRaw;

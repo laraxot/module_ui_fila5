@@ -3,7 +3,6 @@
 declare(strict_types=1);
 
 return [
-<<<<<<< HEAD
     'values' => [
         'list' => [
             'label' => 'Elenco',
@@ -20,12 +19,7 @@ return [
     ],
     'actions' => [
         'toggle' => [
-            'label' => 'Cambia Layout!!',
-=======
-    'actions' => [
-        'toggle' => [
             'label' => 'Cambia Layout',
->>>>>>> dfac49d (.)
             'tooltip' => 'Passa da vista a elenco a vista a griglia',
             'helper_text' => 'Cambia il tipo di visualizzazione',
         ],

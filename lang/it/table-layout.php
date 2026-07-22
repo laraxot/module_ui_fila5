@@ -20,11 +20,7 @@ return [
         'icon' => 'heroicon-o-squares-2x2',
     ],
     'toggle' => [
-<<<<<<< HEAD
-        'label' => 'Cambia Layout!!!',
-=======
         'label' => 'Cambia Layout',
->>>>>>> dfac49d (.)
         'tooltip' => 'Alterna tra visualizzazione lista e griglia',
         'helper_text' => 'Cambia il tipo di visualizzazione',
     ],

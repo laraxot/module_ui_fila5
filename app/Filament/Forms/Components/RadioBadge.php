@@ -4,25 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
-<<<<<<< HEAD
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 use Modules\Xot\Filament\Forms\Components\XotBaseRadio;
 
 class RadioBadge extends XotBaseRadio
-=======
-use Filament\Forms\Components\Radio;
-use Filament\Support\Contracts\HasColor;
-use Filament\Support\Contracts\HasIcon;
-
-class RadioBadge extends Radio
->>>>>>> dfac49d (.)
 {
     protected string $view = 'ui::filament.forms.components.radio-badge';
 
-    protected string $defaultColor = 'gray-200'; // gray-200
+    protected string $defaultColor = 'gray-200';
 
-    protected string $selectedColor = 'blue-500'; // '#3b82f6'; // blue-500
+    protected string $selectedColor = 'blue-500';
 
     /**
      * Get enum value from string value.
@@ -40,21 +32,15 @@ class RadioBadge extends Radio
         /** @var class-string<\UnitEnum> $enumClass */
         $enumClass = $this->options;
 
-        // Verifica che sia un BackedEnum
         if (! is_subclass_of($enumClass, \BackedEnum::class)) {
             return null;
         }
 
-        // Verifica che implementi le interfacce richieste
         if (! is_subclass_of($enumClass, HasColor::class) || ! is_subclass_of($enumClass, HasIcon::class)) {
             return null;
         }
 
-<<<<<<< HEAD
-        /* @var class-string<\BackedEnum&HasColor&HasIcon> $enumClass */
-=======
         /** @var class-string<\BackedEnum&HasColor&HasIcon> $enumClass */
->>>>>>> dfac49d (.)
         return $enumClass::tryFrom($value);
     }
 
@@ -63,30 +49,17 @@ class RadioBadge extends Radio
         $enum = $this->getEnumValue($value);
         if ($enum instanceof HasColor) {
             $color = $enum->getColor();
-<<<<<<< HEAD
-            if (null === $color) {
-=======
             if ($color === null) {
->>>>>>> dfac49d (.)
                 return $this->selectedColor;
             }
 
             if (is_array($color)) {
                 $first = reset($color);
 
-<<<<<<< HEAD
-                return is_string($first) && '' !== $first ? $first : $this->selectedColor;
-            }
-
-            // PHPStan L10: $color è già verificato come non-array e non-null, quindi è string
-            if ('' !== $color) {
-=======
                 return is_string($first) && $first !== '' ? $first : $this->selectedColor;
             }
 
-            // PHPStan L10: $color è già verificato come non-array e non-null, quindi è string
             if ($color !== '') {
->>>>>>> dfac49d (.)
                 return $color;
             }
 
@@ -104,12 +77,7 @@ class RadioBadge extends Radio
         }
         $icon = $enum->getIcon();
 
-        // getIcon() può restituire Htmlable|string|null, ma dobbiamo restituire solo string|null
-<<<<<<< HEAD
-        if (null === $icon) {
-=======
         if ($icon === null) {
->>>>>>> dfac49d (.)
             return null;
         }
 
@@ -117,8 +85,6 @@ class RadioBadge extends Radio
             return $icon;
         }
 
-        // PHPStan L10: $icon è BackedEnum|Htmlable dopo is_string(), quindi è sempre object
-        // Se è Htmlable, convertilo a string
         if (method_exists($icon, '__toString')) {
             return (string) $icon;
         }

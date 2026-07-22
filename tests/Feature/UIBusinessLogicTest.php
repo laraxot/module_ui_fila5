@@ -7,11 +7,8 @@ namespace Modules\UI\Tests\Feature;
 use Modules\UI\Database\Factories\CategoryFactory;
 use Modules\UI\Database\Factories\CollectionFactory;
 use Modules\UI\Models\Collection;
-<<<<<<< HEAD
-=======
 use Modules\UI\Services\ComponentService;
 use Modules\UI\Services\ThemeService;
->>>>>>> dfac49d (.)
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
@@ -62,8 +59,6 @@ describe('UI Business Logic Integration', function (): void {
             Assert::assertGreaterThanOrEqual(1, $blocks->count());
         });
     });
-<<<<<<< HEAD
-=======
 
     describe('Service stubs', function (): void {
         it('instantiates theme and component services', function (): void {
@@ -71,5 +66,4 @@ describe('UI Business Logic Integration', function (): void {
             Assert::assertInstanceOf(ComponentService::class, new ComponentService());
         });
     });
->>>>>>> dfac49d (.)
 });

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Widgets;
 
 use Filament\Support\RawJs;
-<<<<<<< HEAD
 use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
 
 final class TestChartWidget extends XotBaseChartWidget
@@ -13,15 +12,6 @@ final class TestChartWidget extends XotBaseChartWidget
     public int $qid = 0;
 
     public string $max_height = '200px';
-=======
-use Filament\Widgets\ChartWidget;
-
-final class TestChartWidget extends ChartWidget
-{
-    public int $qid = 0;
-
-    public string $maxHeightPx = '200px';
->>>>>>> dfac49d (.)
 
     public string $type = 'line';
 
@@ -40,11 +30,7 @@ final class TestChartWidget extends ChartWidget
 
     protected function getData(): array
     {
-<<<<<<< HEAD
         $this->maxHeight = $this->max_height;
-=======
-        $this->maxHeight = $this->maxHeightPx;
->>>>>>> dfac49d (.)
 
         return [
             'datasets' => [

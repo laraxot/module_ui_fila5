@@ -4,20 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Actions\Table;
 
-<<<<<<< HEAD
-use Filament\Resources\Pages\ListRecords;
-use Modules\UI\Contracts\HasTableLayout;
-use Modules\Xot\Filament\Actions\XotBaseAction;
-
-final class TableLayoutToggleTableAction extends XotBaseAction implements HasTableLayout
-=======
-use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords;
 use Modules\UI\Enums\TableLayoutEnum;
 use Modules\UI\Filament\Traits\HasTableLayoutPage;
+use Modules\Xot\Filament\Actions\XotBaseAction;
 
-final class TableLayoutToggleTableAction extends Action implements HasTableLayout
->>>>>>> dfac49d (.)
+final class TableLayoutToggleTableAction extends XotBaseAction implements HasTableLayout
 {
     use TableLayoutTrait;
 
@@ -25,22 +17,11 @@ final class TableLayoutToggleTableAction extends Action implements HasTableLayou
     {
         parent::setUp();
 
-<<<<<<< HEAD
-        $current = $this->getCurrentLayout();
-
-        $this
-            ->iconButton()
-            ->tooltip($current->getLabel())
-            ->color($current->getColor())
-            ->icon($current->getIcon())
-            ->action(fn (ListRecords $livewire) => $this->toggleLayout($livewire));
-=======
         $this->iconButton()
             ->label('')
             ->tooltip(fn (): string => $this->resolveTargetLayout()->getLabel())
             ->icon(fn (): string => $this->resolveTargetLayout()->getIcon())
             ->action($this->toggleLayout(...));
->>>>>>> dfac49d (.)
     }
 
     public static function getDefaultName(): string
@@ -48,18 +29,6 @@ final class TableLayoutToggleTableAction extends Action implements HasTableLayou
         return 'table_layout_toggle';
     }
 
-<<<<<<< HEAD
-    protected function toggleLayout(ListRecords $livewire): void
-    {
-        $currentLayout = $this->getCurrentLayout();
-        $newLayout = $currentLayout->toggle();
-
-        $this->setTableLayout($newLayout);
-
-        $livewire->dispatch('$refresh');
-        $livewire->resetTable();
-        $livewire->js('$wire.$refresh()');
-=======
     protected function toggleLayout(): void
     {
         $livewire = $this->getLivewire();
@@ -104,6 +73,5 @@ final class TableLayoutToggleTableAction extends Action implements HasTableLayou
         }
 
         return $this->getCurrentLayout();
->>>>>>> dfac49d (.)
     }
 }
