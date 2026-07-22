@@ -90,6 +90,7 @@ class IconStateGroupColumn extends XotBaseColumnGroup
             $column->action(
                 Action::make($stateKey.'-action')
                     ->requiresConfirmation()
+<<<<<<< .merge_file_xiUNci
                     ->modalHeading(function (Model $record) use ($stateInstance) {
                         // StateContract provides modalHeading()
                         return $stateInstance->modalHeading();
@@ -99,11 +100,26 @@ class IconStateGroupColumn extends XotBaseColumnGroup
                         return $stateInstance->modalDescription();
                     })
                     ->schema(function (Model $record) use ($stateInstance) {
+=======
+                    ->modalHeading(static function (Model $record) use ($stateInstance) {
+                        // StateContract provides modalHeading()
+                        return $stateInstance->modalHeading();
+                    })
+                    ->modalDescription(static function (Model $record) use ($stateInstance) {
+                        // StateContract provides modalDescription()
+                        return $stateInstance->modalDescription();
+                    })
+                    ->schema(static function (Model $record) use ($stateInstance) {
+>>>>>>> .merge_file_bxjTJt
                         // StateContract provides modalFormSchema()
                         return $stateInstance->modalFormSchema();
                     })
                     ->fillForm($stateInstance->modalFillFormByRecord(...))
+<<<<<<< .merge_file_xiUNci
                     ->action(function (Model $record, array $data) use ($stateInstance): void {
+=======
+                    ->action(static function (Model $record, array $data) use ($stateInstance): void {
+>>>>>>> .merge_file_bxjTJt
                         // Ensure data is treated as array<string, mixed> for PHPStan and StateContract
                         /** @var array<string, mixed> $typedData */
                         $typedData = $data;
@@ -112,7 +128,12 @@ class IconStateGroupColumn extends XotBaseColumnGroup
                     })
             );
 
+<<<<<<< .merge_file_xiUNci
             $column->visible((bool) ($this->data[$visibleKey] ?? false));
+=======
+            $visibleValue = $this->data[$visibleKey] ?? false;
+            $column->visible((bool) $visibleValue);
+>>>>>>> .merge_file_bxjTJt
             $columns[] = $column;
         }
 

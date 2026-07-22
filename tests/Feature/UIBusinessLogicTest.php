@@ -7,6 +7,11 @@ namespace Modules\UI\Tests\Feature;
 use Modules\UI\Database\Factories\CategoryFactory;
 use Modules\UI\Database\Factories\CollectionFactory;
 use Modules\UI\Models\Collection;
+<<<<<<< .merge_file_TKVyAm
+=======
+use Modules\UI\Services\ComponentService;
+use Modules\UI\Services\ThemeService;
+>>>>>>> .merge_file_a9cubG
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
@@ -57,4 +62,14 @@ describe('UI Business Logic Integration', function (): void {
             Assert::assertGreaterThanOrEqual(1, $blocks->count());
         });
     });
+<<<<<<< .merge_file_TKVyAm
+=======
+
+    describe('Service stubs', function (): void {
+        it('instantiates theme and component services', function (): void {
+            Assert::assertInstanceOf(ThemeService::class, new ThemeService());
+            Assert::assertInstanceOf(ComponentService::class, new ComponentService());
+        });
+    });
+>>>>>>> .merge_file_a9cubG
 });

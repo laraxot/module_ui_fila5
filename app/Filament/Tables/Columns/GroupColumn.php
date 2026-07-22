@@ -40,10 +40,17 @@ class GroupColumn extends XotBaseColumn
     /**
      * @param array<int|string, mixed> $form
      */
+<<<<<<< .merge_file_FNpz8l
     public function schema(array $form): static
     {
         // Type-check to ensure all elements are Column instances
         $filtered = array_filter($form, function (mixed $item): bool {
+=======
+    public function schema(array $form): self
+    {
+        // Type-check to ensure all elements are Column instances
+        $filtered = array_filter($form, static function (mixed $item): bool {
+>>>>>>> .merge_file_1j5q1f
             return $item instanceof Column;
         });
 

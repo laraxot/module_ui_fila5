@@ -17,7 +17,11 @@ final class ApplyCalendarToPanelAction
 {
     use QueueableAction;
 
+<<<<<<< .merge_file_P33fF1
     public function execute(Panel $panel, string $calendar_class): Panel
+=======
+    public function execute(Panel $panel, string $calendarClass): Panel
+>>>>>>> .merge_file_22bnjk
     {
         // TODO: Reimplementare quando sarà disponibile un pacchetto FullCalendar compatibile con Filament v4
         // Per ora ritorniamo il panel senza modifiche per evitare errori

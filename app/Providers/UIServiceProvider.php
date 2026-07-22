@@ -15,6 +15,9 @@ use Modules\Xot\Providers\XotBaseServiceProvider;
  * Nota: la registrazione dei Blade components modulari avviene tramite GetModulePathByGeneratorAction
  * per garantire la corretta risoluzione dei path secondo la struttura dei moduli.
  *
+ * Bind di default (null-object) per LocationDataProviderContract: {@see LocationSelector} lo risolve
+ * dal container, quindi serve un fallback anche senza il modulo Geo installato (vedi docs/geo-boundary.md).
+ *
  * @phpstan-type ModuleConfig array{name: string, alias: string, description: string, keywords: array<int, string>, priority: int, providers: array<int, class-string>}
  */
 class UIServiceProvider extends XotBaseServiceProvider

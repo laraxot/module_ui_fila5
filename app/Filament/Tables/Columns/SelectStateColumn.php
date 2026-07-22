@@ -59,7 +59,11 @@ class SelectStateColumn extends XotBaseSelectColumn
                             $stateNameProperty = \is_string($nameProperty) ? $nameProperty : null;
                         }
                     } catch (\ReflectionException) {
+<<<<<<< .merge_file_zouTZc
                         // Skip if the "name" static property cannot be reflected.
+=======
+                        // Intentionally ignored: fall back to $stateNameProperty === null below.
+>>>>>>> .merge_file_To7APv
                     }
                     if (null !== $stateNameProperty) {
                         $statesValues = array_values($states);

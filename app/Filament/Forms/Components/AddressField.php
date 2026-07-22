@@ -27,6 +27,11 @@ class AddressField extends XotBaseField
     {
         parent::setUp();
 
+<<<<<<< .merge_file_kTNwt1
+=======
+        // NOTE: relationship data is currently only validated for presence here;
+        // wiring it into the component state is tracked as a follow-up (see saveRelationships()).
+>>>>>>> .merge_file_eu4ywU
         $this->afterStateHydrated(function (AddressField $_component, mixed $record): void {
             if (! $record instanceof Model) {
                 return;
@@ -34,10 +39,14 @@ class AddressField extends XotBaseField
 
             $relationship = $this->getRelationship();
             if ($relationship && $record->relationLoaded($relationship)) {
+<<<<<<< .merge_file_kTNwt1
                 $address = $record->getRelationValue($relationship);
                 if (null !== $address && is_object($address) && method_exists($address, 'toArray')) {
                     $address->toArray();
                 }
+=======
+                $record->getRelationValue($relationship);
+>>>>>>> .merge_file_eu4ywU
             }
         });
 
