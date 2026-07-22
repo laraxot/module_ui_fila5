@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Errore di incompatibilità tra metodi statici e di istanza in Filament"
 type: concept
@@ -12,6 +13,8 @@ related:
   - "./dropdown-list-item-tag.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Errore di incompatibilità tra metodi statici e di istanza in Filament
 
 ## Problema

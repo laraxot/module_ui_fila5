@@ -108,5 +108,8 @@ Aggiungere `@phpstan-ignore` e gestione errori:
 - Valutare se Geo deve essere modulo separato o parte di UI
 - Documentare struttura dati JSON attesa
 
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-27*
+=======
+>>>>>>> dfac49d (.)
 

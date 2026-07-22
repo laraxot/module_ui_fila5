@@ -9,7 +9,15 @@ jobs:
     runs-on: ubuntu-latest
  
     steps:
+<<<<<<< .merge_file_kiJWxx
       - uses: actions/checkout@v2
+=======
+<<<<<<< HEAD
+      - uses: actions/checkout@v7
+=======
+      - uses: actions/checkout@v2
+>>>>>>> dfac49d (.)
+>>>>>>> .merge_file_3vu1HM
         with:
           token: "${{ secrets.ACCESS_TOKEN || secrets.GITHUB_TOKEN }}"
  

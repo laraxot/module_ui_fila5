@@ -4,12 +4,20 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Actions\Header;
 
+<<<<<<< HEAD
 use Modules\Xot\Filament\Actions\XotBaseAction;
+=======
+use Filament\Actions\Action;
+>>>>>>> dfac49d (.)
 
 /**
  * @see https://filamentphp.com/plugins/tgeorgel-table-layout-toggle
  */
+<<<<<<< HEAD
 class TableLayoutToggleHeaderAction extends XotBaseAction
+=======
+class TableLayoutToggleHeaderAction extends Action
+>>>>>>> dfac49d (.)
 {
     // use NavigationActionLabelTrait;
     public string $listIcon = 'heroicon-o-list-bullet';
@@ -38,7 +46,11 @@ class TableLayoutToggleHeaderAction extends XotBaseAction
                     $layoutViewRaw = $livewire->layoutView;
                     $layoutView = is_string($layoutViewRaw) ? $layoutViewRaw : '';
 
+<<<<<<< HEAD
                     return 'list' === $layoutView ? $this->listIcon : $this->gridIcon;
+=======
+                    return $layoutView === 'list' ? $this->listIcon : $this->gridIcon;
+>>>>>>> dfac49d (.)
                 }
 
                 return $this->listIcon; // default icon
@@ -50,7 +62,11 @@ class TableLayoutToggleHeaderAction extends XotBaseAction
              * /*
              * @param object{layoutView?: string|null} $livewire
              */
+<<<<<<< HEAD
             ->action(function (object $livewire): void {
+=======
+            ->action(static function (object $livewire): void {
+>>>>>>> dfac49d (.)
                 // ✅ isset() invece di property_exists() - funziona con magic properties Livewire
                 if (! isset($livewire->layoutView)) {
                     return;
@@ -59,7 +75,11 @@ class TableLayoutToggleHeaderAction extends XotBaseAction
                 $layoutViewRaw = $livewire->layoutView;
                 $layoutView = is_string($layoutViewRaw) ? $layoutViewRaw : '';
 
+<<<<<<< HEAD
                 $livewire->layoutView = 'grid' === $layoutView ? 'list' : 'grid';
+=======
+                $livewire->layoutView = $layoutView === 'grid' ? 'list' : 'grid';
+>>>>>>> dfac49d (.)
             });
     }
 

@@ -159,10 +159,19 @@ Seleziona le colonne appropriate in base al layout corrente.
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [Documentazione Completa TableLayoutEnum](../../laravel/Modules/UI/docs/table-layout-enum-complete-guide.md)
 - [Modulo UI](../../laravel/Modules/UI/docs/README.md)
+=======
+- [Documentazione Completa TableLayoutEnum](../../laravel/modules/ui/docs/table-layout-enum-complete-guide.md)
+- [Modulo UI](../../laravel/modules/ui/docs/readme.md)
+>>>>>>> dfac49d (.)
 - [Enum Standards](enum_standards.md)
 - [Filament Best Practices](filament-widget-best-practices.md)
 
 ## Ultimo Aggiornamento
+<<<<<<< HEAD
 2025-01-27 - Documentazione TableLayoutEnum nella root docs
+=======
+[DATE] - Documentazione TableLayoutEnum nella root docs
+>>>>>>> dfac49d (.)

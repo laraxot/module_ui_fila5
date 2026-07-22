@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Form Components - 95% Completato"
 type: concept
@@ -14,6 +15,8 @@ related:
   - "./theme-system.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Form Components - 95% Completato
 
 ## Descrizione

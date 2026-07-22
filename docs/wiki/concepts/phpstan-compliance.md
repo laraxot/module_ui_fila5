@@ -5,6 +5,7 @@ tags: [ui, phpstan, types, compliance, quality, static-analysis]
 created: 2026-06-10
 updated: 2026-06-10
 related:
+<<<<<<< HEAD
   - "./auth-register-focus-loss-overlay.md"
   - "./block-rendering-and-optional-services.md"
   - "./claude-audit-static.md"
@@ -13,6 +14,10 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
+=======
+  - ../../../../Themes/Sixteen/docs/wiki/concepts/phpstan-compliance.md
+  - ../../../../../docs/wiki/concepts/phpstan-level-max-compliance.md
+>>>>>>> dfac49d (.)
 ---
 
 # UI Module — PHPStan Type Compliance

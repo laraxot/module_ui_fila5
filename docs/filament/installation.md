@@ -3,6 +3,7 @@ title: Installazione Filament
 description: Installazione Filament
 extends: _layouts.documentation
 section: content
+<<<<<<< HEAD
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -12,6 +13,8 @@ related:
   - "./filament-4-migration-guide.md"
   - "./filament-4-migration-summary.md"
   - "./filament-4-migration-sumy.md"
+=======
+>>>>>>> dfac49d (.)
 ---
 
 # Installazione Filament {#installazione-filament}

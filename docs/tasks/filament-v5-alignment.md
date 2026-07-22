@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Task: Filament v5 Alignment (UI Module)"
 type: concept
@@ -17,6 +18,8 @@ related:
   - "./ui-filament-v5.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Task: Filament v5 Alignment (UI Module)
 
 ## 📋 Obiettivo

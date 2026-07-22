@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Separazione dello Schema dagli Step nei Wizard Filament"
 type: concept
@@ -14,6 +15,8 @@ related:
   - "./wizard-steps.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Separazione dello Schema dagli Step nei Wizard Filament
 
 ## Regola Fondamentale

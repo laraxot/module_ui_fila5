@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Architettura Modulo UI"
 type: concept
@@ -10,6 +11,8 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Architettura Modulo UI
 
 ## 🏗️ Panoramica Architetturale

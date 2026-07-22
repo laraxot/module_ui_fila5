@@ -196,7 +196,11 @@ TextInput::make('full_name')
 ## Collegamenti
 - [Form Components](form-components.md)
 - [Naming Conventions](naming-conventions.md)
+<<<<<<< HEAD
 - [Translation System](../../Lang/docs/translation-system.md)
+=======
+- [Translation System](../../lang/docs/translation-system.md)
+>>>>>>> dfac49d (.)
 
 ## Vedi Anche
 - [VSCode PHP Setup](vscode-php-setup.md)
@@ -400,9 +404,15 @@ TextInput::make('full_name')
 ## Collegamenti
 - [Form Components](form-components.md)
 - [Naming Conventions](naming-conventions.md)
+<<<<<<< HEAD
 - [Translation System](../../Lang/project_docs/translation-system.md)
 - [Translation System](../../Lang/project_docs/translation-system.md)
 - [Translation System](../../Lang/project_docs/translation-system.md)
+=======
+- [Translation System](../../lang/project_docs/translation-system.md)
+- [Translation System](../../lang/project_docs/translation-system.md)
+- [Translation System](../../lang/project_docs/translation-system.md)
+>>>>>>> dfac49d (.)
 
 ## Vedi Anche
 - [VSCode PHP Setup](vscode-php-setup.md)

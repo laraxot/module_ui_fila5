@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "filament"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # filament
 
 <!-- Contenuto migrato da _docs/filament.txt -->

@@ -20,7 +20,15 @@ jobs:
     environment: Testing
     
     steps:
+<<<<<<< .merge_file_R6sp1c
       - uses: actions/checkout@v5
+=======
+<<<<<<< HEAD
+      - uses: actions/checkout@v7
+=======
+      - uses: actions/checkout@v5
+>>>>>>> dfac49d (.)
+>>>>>>> .merge_file_rbD02h
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2

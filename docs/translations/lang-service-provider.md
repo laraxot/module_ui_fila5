@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Gestione delle Traduzioni con LangServiceProvider"
 type: concept
@@ -10,6 +11,8 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Gestione delle Traduzioni con LangServiceProvider
 
 ## Collegamenti Bidirezionali

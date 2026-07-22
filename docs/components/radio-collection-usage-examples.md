@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "RadioCollection - Esempi di Utilizzo"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./full-calendar-1.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # RadioCollection - Esempi di Utilizzo
 
 ## Utilizzo Base

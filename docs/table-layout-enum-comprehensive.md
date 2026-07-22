@@ -398,10 +398,17 @@ Restituisce il testo di aiuto tradotto per il layout.
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [TransTrait Documentation](../../Xot/docs/filament/trans-trait.md)
 - [UI Module Architecture](architecture_rules.md)
 - [Filament Best Practices](../../../docs/filament_best_practices.md)
 - [Translation Standards](../../../docs/translation_standards.md)
+=======
+- [TransTrait Documentation](../../xot/docs/filament/trans-trait.md)
+- [UI Module Architecture](architecture_rules.md)
+- [Filament Best Practices](../../../../docs/filament_best_practices.md)
+- [Translation Standards](../../../../docs/translation_standards.md)
+>>>>>>> dfac49d (.)
 - [Table Components](table-components.md)
 
 ---

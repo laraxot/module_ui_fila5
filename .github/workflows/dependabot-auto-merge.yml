@@ -10,6 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
+<<<<<<< HEAD
+=======
+
+>>>>>>> dfac49d (.)
       - name: Dependabot metadata
         id: metadata
         uses: dependabot/fetch-metadata@latest

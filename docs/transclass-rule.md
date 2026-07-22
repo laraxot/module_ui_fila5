@@ -1,6 +1,10 @@
 # REGOLA CRITICA: Usa SEMPRE transClass() negli Enum
 
+<<<<<<< HEAD
 ## Data: 2025-01-06
+=======
+## Data: [DATE]
+>>>>>>> dfac49d (.)
 
 ## ✅ CORRETTO - Implementazione Enum con TransTrait
 
@@ -282,9 +286,15 @@ rules:
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [Translation Standards](../../../docs/translation_standards.md)
 - [Filament Best Practices](../../../docs/filament_best_practices.md)
 - [TransTrait Documentation](../../Xot/docs/trans_trait_usage.md)
+=======
+- [Translation Standards](../../../../docs/translation_standards.md)
+- [Filament Best Practices](../../../../docs/filament_best_practices.md)
+- [TransTrait Documentation](../../xot/docs/trans_trait_usage.md)
+>>>>>>> dfac49d (.)
 
 ## Memoria Permanente
 
@@ -295,10 +305,16 @@ rules:
 - SEMPRE struttura espansa nelle traduzioni
 - SEMPRE sincronizzazione IT/EN/DE
 
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06*
 # REGOLA CRITICA: Usa SEMPRE transClass() negli Enum
 
 ## Data: 2025-01-06
+=======
+# REGOLA CRITICA: Usa SEMPRE transClass() negli Enum
+
+## Data: [DATE]
+>>>>>>> dfac49d (.)
 
 ## ✅ CORRETTO - Implementazione Enum con TransTrait
 
@@ -580,9 +596,15 @@ rules:
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [Translation Standards](../../../docs/translation_standards.md)
 - [Filament Best Practices](../../../docs/filament_best_practices.md)
 - [TransTrait Documentation](../../Xot/docs/trans_trait_usage.md)
+=======
+- [Translation Standards](../../../../docs/translation_standards.md)
+- [Filament Best Practices](../../../../docs/filament_best_practices.md)
+- [TransTrait Documentation](../../xot/docs/trans_trait_usage.md)
+>>>>>>> dfac49d (.)
 
 ## Memoria Permanente
 
@@ -593,4 +615,7 @@ rules:
 - SEMPRE struttura espansa nelle traduzioni
 - SEMPRE sincronizzazione IT/EN/DE
 
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06*
+=======
+>>>>>>> dfac49d (.)

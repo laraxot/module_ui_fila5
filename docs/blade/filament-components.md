@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Utilizzo dei componenti Blade di Filament"
 type: concept
@@ -11,6 +12,8 @@ related:
   - "./component-registration.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Utilizzo dei componenti Blade di Filament
 
 ## Regola fondamentale (obbligatoria)

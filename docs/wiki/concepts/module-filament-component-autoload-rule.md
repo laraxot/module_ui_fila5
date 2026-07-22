@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Module Filament Component Autoload Rule"
 type: rule
@@ -18,6 +19,8 @@ related:
   - "./enum-select-contract-and-false-friends.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Module Filament Component Autoload Rule
 
 ## Regola

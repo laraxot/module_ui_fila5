@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "RadioCollection Component - A Deep Dive"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./full-calendar-1.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # RadioCollection Component - A Deep Dive
 
 ## Philosophical Foundation

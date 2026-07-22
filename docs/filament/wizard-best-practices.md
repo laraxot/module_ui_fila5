@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Best Practices per i Wizard in Filament"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./filament-4-migration-sumy.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Best Practices per i Wizard in Filament
 
 ## Regola Fondamentale: Estrazione dei Metodi per gli Step

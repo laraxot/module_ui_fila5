@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "megamenu"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # megamenu
 
 <!-- Contenuto migrato da _docs/megamenu.txt -->

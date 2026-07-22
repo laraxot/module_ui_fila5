@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" 
      fill="none" 
@@ -96,3 +97,8 @@
         <path stroke-linecap="round" d="M2 18v4M6 18v4M12 18v4M18 18v4M22 18v4" stroke-width="0.5" />
     </g>
 </svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:8454bfb9e3ae25b8fae5be7734d5e5582997a04d96c2067e2f37e2d55aaad4e1
+size 3423
+>>>>>>> dfac49d (.)

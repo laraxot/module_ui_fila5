@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Guida Completa: Multiple Labels con chartjs-plugin-datalabels in Filament 5.x (Modulo UI)"
 type: guide
@@ -15,6 +16,8 @@ related:
   - "./shared-hosting-strategy.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Guida Completa: Multiple Labels con chartjs-plugin-datalabels in Filament 5.x (Modulo UI)
 
 **Versione:** 1.0  

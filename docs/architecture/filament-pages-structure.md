@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Struttura Pagine Filament - Modulo UI"
 type: concept
@@ -13,6 +14,8 @@ related:
   - "./structure.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Struttura Pagine Filament - Modulo UI
 
 ## Panoramica

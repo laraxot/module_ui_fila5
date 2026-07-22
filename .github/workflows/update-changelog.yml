@@ -1,19 +1,44 @@
+<<<<<<< .merge_file_BE30IE
 name: "Update Changelog"
+=======
+<<<<<<< HEAD
+name: Update Changelog
+=======
+name: "Update Changelog"
+>>>>>>> dfac49d (.)
+>>>>>>> .merge_file_EgpbBp
 
 on:
   release:
     types: [released]
 
+<<<<<<< .merge_file_BE30IE
 permissions:
   contents: write
 
+=======
+<<<<<<< HEAD
+=======
+permissions:
+  contents: write
+
+>>>>>>> dfac49d (.)
+>>>>>>> .merge_file_EgpbBp
 jobs:
   update:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
+<<<<<<< .merge_file_BE30IE
         uses: actions/checkout@v3
+=======
+<<<<<<< HEAD
+        uses: actions/checkout@v7
+=======
+        uses: actions/checkout@v3
+>>>>>>> dfac49d (.)
+>>>>>>> .merge_file_EgpbBp
         with:
           ref: main
 
@@ -24,7 +49,15 @@ jobs:
           release-notes: ${{ github.event.release.body }}
 
       - name: Commit updated CHANGELOG
+<<<<<<< .merge_file_BE30IE
         uses: stefanzweifel/git-auto-commit-action@latest
+=======
+<<<<<<< HEAD
+        uses: stefanzweifel/git-auto-commit-action@v5
+=======
+        uses: stefanzweifel/git-auto-commit-action@latest
+>>>>>>> dfac49d (.)
+>>>>>>> .merge_file_EgpbBp
         with:
           branch: main
           commit_message: Update CHANGELOG

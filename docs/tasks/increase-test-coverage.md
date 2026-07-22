@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Task: Incremento Test Coverage (Pest) - UI"
 type: concept
@@ -17,6 +18,8 @@ related:
   - "./ui-filament-v5.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Task: Incremento Test Coverage (Pest) - UI
 
 **Modulo**: UI  

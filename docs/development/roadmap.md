@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Roadmap Modulo UI"
 type: concept
@@ -10,6 +11,8 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
 ---
 
+=======
+>>>>>>> dfac49d (.)
 ### Versione HEAD
 
 # Roadmap Modulo UI
@@ -305,7 +308,11 @@ Overall Module Completion: 60%
 
 ### Component System Enhancement [75%]
 - [x] Base Components [docs/roadmap/components_base.md]
+<<<<<<< HEAD
 - [x] Form Components [docs/roadmap/form-components-2.md]
+=======
+- [x] Form Components [docs/roadmap/form_components.md]
+>>>>>>> dfac49d (.)
 - [ ] Data Display Components [docs/roadmap/data_display.md]
 - [ ] Navigation Components [docs/roadmap/navigation.md]
 - [x] Layout Components [docs/roadmap/layout.md]

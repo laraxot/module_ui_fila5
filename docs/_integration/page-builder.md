@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "page_builder"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # page_builder
 
 <!-- Contenuto migrato da _docs/page_builder.txt -->

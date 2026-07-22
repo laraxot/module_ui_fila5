@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "RadioCollection: Debugging & Risoluzione Problemi di Selezione"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./full-calendar-1.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # RadioCollection: Debugging & Risoluzione Problemi di Selezione
 
 ## 🔍 Diagnosi del Problema

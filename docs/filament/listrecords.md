@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "List Records in Filament"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./filament-4-migration-sumy.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # List Records in Filament
 
 ## Estensione Corretta

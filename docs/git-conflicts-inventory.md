@@ -27,5 +27,9 @@
 
 ## Stato
 - ❌ Conflitti da risolvere
+<<<<<<< HEAD
 - 📅 Data rilevamento: 2025-11-12
+=======
+- 📅 Data rilevamento: [DATE]
+>>>>>>> dfac49d (.)
 - 🔄 Priorità: ALTA - Componenti UI critici

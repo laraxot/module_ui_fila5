@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Supporto per Icone nei Componenti Filament"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./file-upload-component.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Supporto per Icone nei Componenti Filament
 
 ## Riepilogo della Compatibilità

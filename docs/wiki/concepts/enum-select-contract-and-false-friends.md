@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "EnumSelect Contract And False Friends"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./enum-select-usage.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # EnumSelect Contract And False Friends
 
 ## Context
@@ -32,8 +35,12 @@ Questa pagina fissa il contratto minimo del componente.
 
 ## Best Practices
 
+<<<<<<< HEAD
 - Estendere `Modules\Xot\Filament\Forms\Components\XotBaseSelect`, mantenendo compatibilita' totale con la API Filament parent.
 - In `make(?string $name = null)`, chiamare `parent::make()` nel ramo `null` e `parent::make($name)` solo nel ramo stringa: preserva la risoluzione del nome di default senza passare `null` al contratto statico Xot.
+=======
+- Estendere `Filament\Forms\Components\Select` mantenendo compatibilita' totale con la API parent.
+>>>>>>> dfac49d (.)
 - Dichiarare `public static function make(?string $name = null): static`.
 - Mantenere **identica** la firma di `enum()` al parent Filament: `enum(string|Closure|null $enum): static`.
 - Validare sempre che la classe passata a `->enum()` sia una backed enum esistente.
