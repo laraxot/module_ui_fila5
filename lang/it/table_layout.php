@@ -19,11 +19,7 @@ return [
     ],
     'actions' => [
         'toggle' => [
-<<<<<<< .merge_file_OF5Oma
-            'label' => 'Cambia Layout!!',
-=======
             'label' => 'Cambia Layout',
->>>>>>> .merge_file_KfdEgY
             'tooltip' => 'Passa da vista a elenco a vista a griglia',
             'helper_text' => 'Cambia il tipo di visualizzazione',
         ],

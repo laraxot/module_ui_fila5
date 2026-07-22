@@ -23,11 +23,7 @@ final class ImageSpatie
             ->schema([
                 Hidden::make('img_uuid')
                     ->default(Str::uuid()->toString(...))
-<<<<<<< .merge_file_RSi5tT
-                    ->formatStateUsing(fn ($state) => $state ?? Str::uuid()->toString()),
-=======
                     ->formatStateUsing(static fn ($state) => $state ?? Str::uuid()->toString()),
->>>>>>> .merge_file_WyC6dN
                 // ->live()
                 SpatieMediaLibraryFileUpload::make('image')
                     ->live()
@@ -43,13 +39,8 @@ final class ImageSpatie
                     ->openable()
                     ->downloadable()
                     // ->rules(Rule::dimensions()->maxWidth(600)->maxHeight(800))
-<<<<<<< .merge_file_RSi5tT
-                    ->collection(fn (Get $get) => $get('img_uuid'))
-                    ->afterStateUpdated(function (
-=======
                     ->collection(static fn (Get $get) => $get('img_uuid'))
                     ->afterStateUpdated(static function (
->>>>>>> .merge_file_WyC6dN
                         HasForms $_livewire,
                         SpatieMediaLibraryFileUpload $_component,
                         TemporaryUploadedFile $state,

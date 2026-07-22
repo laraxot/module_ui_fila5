@@ -16,11 +16,7 @@ class GetAllIconsAction
     /**
      * @return array<string, array<string, mixed>>
      */
-<<<<<<< .merge_file_Mt6FwK
     public function execute(string $_context = 'form'): array
-=======
-    public function execute(string $context = 'form'): array
->>>>>>> .merge_file_5Lqrnm
     {
         $iconsFactory = App::make(IconFactory::class);
 
