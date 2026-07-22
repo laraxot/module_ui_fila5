@@ -11,15 +11,7 @@ return [
     'table_layout' => [
         'actions' => [
             'toggle' => [
-<<<<<<< HEAD
-<<<<<<< HEAD
                 'label' => 'Cambia Layout!',
-=======
-                'label' => 'Cambia Layout',
->>>>>>> dfac49d (.)
-=======
-                'label' => 'Cambia Layout!',
->>>>>>> dfbb8305 (.)
                 'tooltip' => 'Passa da vista a elenco a vista a griglia',
                 'helper_text' => 'Cambia il tipo di visualizzazione',
             ],

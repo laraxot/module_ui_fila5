@@ -7,21 +7,9 @@ namespace Modules\UI\Tests;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Support\Facades\DB;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Modules\UI\Providers\UIServiceProvider;
 use Modules\UI\Tests\Support\EnsuresUiDatabaseSchema;
 use Modules\User\Models\User;
-=======
-use Modules\Fixcity\Models\User;
-use Modules\UI\Providers\UIServiceProvider;
-use Modules\UI\Tests\Support\EnsuresUiDatabaseSchema;
->>>>>>> dfac49d (.)
-=======
-use Modules\UI\Providers\UIServiceProvider;
-use Modules\UI\Tests\Support\EnsuresUiDatabaseSchema;
-use Modules\User\Models\User;
->>>>>>> dfbb8305 (.)
 use Modules\User\Providers\UserServiceProvider;
 use Modules\Xot\Tests\XotBaseTestCase;
 

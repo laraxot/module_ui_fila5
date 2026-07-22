@@ -4,25 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 use Modules\Xot\Filament\Forms\Components\XotBaseRadio;
 
 class RadioBadge extends XotBaseRadio
-<<<<<<< HEAD
-=======
-use Filament\Forms\Components\Radio;
-use Filament\Support\Contracts\HasColor;
-use Filament\Support\Contracts\HasIcon;
-
-class RadioBadge extends Radio
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 {
     protected string $view = 'ui::filament.forms.components.radio-badge';
 
@@ -56,15 +42,7 @@ class RadioBadge extends Radio
             return null;
         }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         /* @var class-string<\BackedEnum&HasColor&HasIcon> $enumClass */
-=======
-        /** @var class-string<\BackedEnum&HasColor&HasIcon> $enumClass */
->>>>>>> dfac49d (.)
-=======
-        /* @var class-string<\BackedEnum&HasColor&HasIcon> $enumClass */
->>>>>>> dfbb8305 (.)
         return $enumClass::tryFrom($value);
     }
 
@@ -73,40 +51,18 @@ class RadioBadge extends Radio
         $enum = $this->getEnumValue($value);
         if ($enum instanceof HasColor) {
             $color = $enum->getColor();
-<<<<<<< HEAD
-<<<<<<< HEAD
             if (null === $color) {
-=======
-            if ($color === null) {
->>>>>>> dfac49d (.)
-=======
-            if (null === $color) {
->>>>>>> dfbb8305 (.)
                 return $this->selectedColor;
             }
 
             if (is_array($color)) {
                 $first = reset($color);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
                 return is_string($first) && '' !== $first ? $first : $this->selectedColor;
             }
 
             // PHPStan L10: $color è già verificato come non-array e non-null, quindi è string
             if ('' !== $color) {
-<<<<<<< HEAD
-=======
-                return is_string($first) && $first !== '' ? $first : $this->selectedColor;
-            }
-
-            // PHPStan L10: $color è già verificato come non-array e non-null, quindi è string
-            if ($color !== '') {
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
                 return $color;
             }
 
@@ -125,15 +81,7 @@ class RadioBadge extends Radio
         $icon = $enum->getIcon();
 
         // getIcon() può restituire Htmlable|string|null, ma dobbiamo restituire solo string|null
-<<<<<<< HEAD
-<<<<<<< HEAD
         if (null === $icon) {
-=======
-        if ($icon === null) {
->>>>>>> dfac49d (.)
-=======
-        if (null === $icon) {
->>>>>>> dfbb8305 (.)
             return null;
         }
 
