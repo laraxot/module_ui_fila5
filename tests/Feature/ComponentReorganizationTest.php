@@ -111,22 +111,11 @@ describe('Component Rendering Tests', function (): void {
     });
 
     test('reorganized components can be rendered in blade templates', function (): void {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
         Assert::assertTrue(View::exists('pub_theme::components.forms.input'));
         /** @var view-string $viewName */
         $viewName = 'pub_theme::components.forms.input';
         try {
             $html = view($viewName, [
-<<<<<<< HEAD
-=======
-        try {
-            $html = view('pub_theme::components.forms.input', [
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
                 'name' => 'test',
                 'type' => 'text',
                 'value' => 'test-value',
@@ -143,21 +132,10 @@ describe('Component Rendering Tests', function (): void {
             Assert::markTestSkipped('pub_theme utilities.button view is not available in this install.');
         }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
         /** @var view-string $viewName */
         $viewName = 'pub_theme::components.utilities.button';
         try {
             $html = view($viewName, [
-<<<<<<< HEAD
-=======
-        try {
-            $html = view('pub_theme::components.utilities.button', [
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
                 'type' => 'button',
             ])->render();
         } catch (\Throwable $e) {
@@ -172,21 +150,10 @@ describe('Component Rendering Tests', function (): void {
             Assert::markTestSkipped('pub_theme data-display.card view is not available in this install.');
         }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
         /** @var view-string $viewName */
         $viewName = 'pub_theme::components.data-display.card';
         try {
             $html = view($viewName, [
-<<<<<<< HEAD
-=======
-        try {
-            $html = view('pub_theme::components.data-display.card', [
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
                 'title' => 'Test Card',
                 'subtitle' => 'Test Subtitle',
             ])->render();
