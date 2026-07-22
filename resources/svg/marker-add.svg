@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -12,3 +13,8 @@
 	<polygon points="272,208 240,208 240,240 208,240 208,272 240,272 240,304 272,304 272,272 304,272 304,240 272,240 	"/>
 </g>
 </svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:b985445b778acad024c8b01f820af6b2b52eff4efded5a1ae1a7175bc784569c
+size 995
+>>>>>>> dfac49d (.)

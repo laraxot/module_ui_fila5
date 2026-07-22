@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Task: Refactoring Componenti Complessi - UI"
 type: concept
@@ -17,6 +18,8 @@ related:
   - "./ui-filament-v5.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Task: Refactoring Componenti Complessi - UI
 
 **Modulo**: UI  

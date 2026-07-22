@@ -2,7 +2,11 @@
 
 ## Panoramica
 
+<<<<<<< HEAD
 Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_predict_fila3_mono.
+=======
+Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_<nome progetto>_fila5_mono.
+>>>>>>> dfac49d (.)
 
 ## Server MCP Consigliati
 
@@ -52,23 +56,39 @@ class GenerateUIScreenshotsAction
     public function execute(array $routes, string $outputDir, array $options = []): array
     {
         $results = [];
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> dfac49d (.)
         // Assicurati che la directory di output esista
         if (!file_exists($outputDir)) {
             mkdir($outputDir, 0755, true);
         }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> dfac49d (.)
         foreach ($routes as $route) {
             try {
                 $url = route($route);
                 $fileName = Str::slug($route) . '.png';
                 $outputPath = $outputDir . '/' . $fileName;
+<<<<<<< HEAD
 
+=======
+                
+>>>>>>> dfac49d (.)
                 Log::info("Generating screenshot for route: {$route}", [
                     'url' => $url,
                     'output_path' => $outputPath
                 ]);
+<<<<<<< HEAD
 
+=======
+                
+>>>>>>> dfac49d (.)
                 $screenshotPath = $this->mcpService->puppeteer()->captureScreenshot(
                     $url,
                     $outputPath,
@@ -78,7 +98,11 @@ class GenerateUIScreenshotsAction
                         'omitBackground' => false
                     ], $options)
                 );
+<<<<<<< HEAD
 
+=======
+                
+>>>>>>> dfac49d (.)
                 if ($screenshotPath) {
                     $results[$route] = $screenshotPath;
                     Log::info("Screenshot generated successfully", [
@@ -98,7 +122,11 @@ class GenerateUIScreenshotsAction
                 ]);
             }
         }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> dfac49d (.)
         return $results;
     }
 }
@@ -146,10 +174,17 @@ class ThemeFileService
     public function readThemeFile(string $themeName, string $filePath): ?string
     {
         $fullPath = $this->getThemePath($themeName) . '/' . $filePath;
+<<<<<<< HEAD
 
         try {
             $content = $this->mcpService->filesystem()->readFile($fullPath);
 
+=======
+        
+        try {
+            $content = $this->mcpService->filesystem()->readFile($fullPath);
+            
+>>>>>>> dfac49d (.)
             return $content ?: null;
         } catch (\Exception $e) {
             Log::error("Failed to read theme file", [
@@ -157,7 +192,11 @@ class ThemeFileService
                 'file' => $filePath,
                 'message' => $e->getMessage()
             ]);
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> dfac49d (.)
             return null;
         }
     }
@@ -174,14 +213,22 @@ class ThemeFileService
     public function writeThemeFile(string $themeName, string $filePath, string $content): bool
     {
         $fullPath = $this->getThemePath($themeName) . '/' . $filePath;
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> dfac49d (.)
         try {
             // Assicurati che la directory esista
             $directory = dirname($fullPath);
             if (!file_exists($directory)) {
                 mkdir($directory, 0755, true);
             }
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> dfac49d (.)
             return $this->mcpService->filesystem()->writeFile($fullPath, $content);
         } catch (\Exception $e) {
             Log::error("Failed to write theme file", [
@@ -189,7 +236,11 @@ class ThemeFileService
                 'file' => $filePath,
                 'message' => $e->getMessage()
             ]);
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> dfac49d (.)
             return false;
         }
     }
@@ -205,11 +256,19 @@ class ThemeFileService
     public function listThemeFiles(string $themeName, string $directory = ''): array
     {
         $fullPath = $this->getThemePath($themeName);
+<<<<<<< HEAD
 
         if ($directory) {
             $fullPath .= '/' . $directory;
         }
 
+=======
+        
+        if ($directory) {
+            $fullPath .= '/' . $directory;
+        }
+        
+>>>>>>> dfac49d (.)
         try {
             return $this->mcpService->filesystem()->listDirectory($fullPath);
         } catch (\Exception $e) {
@@ -218,7 +277,11 @@ class ThemeFileService
                 'directory' => $directory,
                 'message' => $e->getMessage()
             ]);
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> dfac49d (.)
             return [];
         }
     }
@@ -281,7 +344,11 @@ class UICacheService
     public function cacheComponent(string $componentName, array $props, string $renderedHtml, int $ttl = 3600): bool
     {
         $cacheKey = $this->generateComponentCacheKey($componentName, $props);
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> dfac49d (.)
         try {
             return $this->mcpService->redis()->set(
                 $cacheKey,
@@ -296,7 +363,11 @@ class UICacheService
                 'component' => $componentName,
                 'message' => $e->getMessage()
             ]);
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> dfac49d (.)
             return false;
         }
     }
@@ -312,6 +383,7 @@ class UICacheService
     public function getCachedComponent(string $componentName, array $props): ?string
     {
         $cacheKey = $this->generateComponentCacheKey($componentName, $props);
+<<<<<<< HEAD
 
         try {
             $cached = $this->mcpService->redis()->get($cacheKey);
@@ -320,13 +392,27 @@ class UICacheService
                 return $cached['html'];
             }
 
+=======
+        
+        try {
+            $cached = $this->mcpService->redis()->get($cacheKey);
+            
+            if ($cached && isset($cached['html'])) {
+                return $cached['html'];
+            }
+            
+>>>>>>> dfac49d (.)
             return null;
         } catch (\Exception $e) {
             Log::error("Failed to get cached UI component", [
                 'component' => $componentName,
                 'message' => $e->getMessage()
             ]);
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> dfac49d (.)
             return null;
         }
     }
@@ -344,6 +430,7 @@ class UICacheService
         if (empty($props)) {
             // Invalida tutti i componenti con questo nome
             $pattern = "ui_component_{$componentName}_*";
+<<<<<<< HEAD
 
             try {
                 $keys = $this->mcpService->redis()->keys($pattern);
@@ -352,19 +439,37 @@ class UICacheService
                     $this->mcpService->redis()->delete($key);
                 }
 
+=======
+            
+            try {
+                $keys = $this->mcpService->redis()->keys($pattern);
+                
+                foreach ($keys as $key) {
+                    $this->mcpService->redis()->delete($key);
+                }
+                
+>>>>>>> dfac49d (.)
                 return true;
             } catch (\Exception $e) {
                 Log::error("Failed to invalidate UI component cache", [
                     'component' => $componentName,
                     'message' => $e->getMessage()
                 ]);
+<<<<<<< HEAD
 
+=======
+                
+>>>>>>> dfac49d (.)
                 return false;
             }
         } else {
             // Invalida un componente specifico
             $cacheKey = $this->generateComponentCacheKey($componentName, $props);
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> dfac49d (.)
             try {
                 return $this->mcpService->redis()->delete($cacheKey);
             } catch (\Exception $e) {
@@ -372,7 +477,11 @@ class UICacheService
                     'component' => $componentName,
                     'message' => $e->getMessage()
                 ]);
+<<<<<<< HEAD
 
+=======
+                
+>>>>>>> dfac49d (.)
                 return false;
             }
         }
@@ -389,7 +498,11 @@ class UICacheService
     private function generateComponentCacheKey(string $componentName, array $props): string
     {
         $propsHash = md5(json_encode($props));
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> dfac49d (.)
         return "ui_component_{$componentName}_{$propsHash}";
     }
 }
@@ -439,29 +552,49 @@ class AnalyzeUIAccessibilityAction
         try {
             // Estrai il contenuto HTML della pagina
             $html = $this->mcpService->puppeteer()->extractContent($url, 'html');
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> dfac49d (.)
             if (!$html) {
                 Log::error("Failed to extract HTML content", [
                     'url' => $url
                 ]);
+<<<<<<< HEAD
 
+=======
+                
+>>>>>>> dfac49d (.)
                 return new UIAnalysisData(
                     score: 0,
                     issues: ['Failed to extract HTML content'],
                     suggestions: ['Check if the URL is accessible']
                 );
             }
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> dfac49d (.)
             // Analizza l'accessibilità con sequential-thinking
             $analysis = $this->mcpService->sequentialThinking()->analyze(
                 $html,
                 ['accessibility', 'usability', 'performance']
             );
+<<<<<<< HEAD
 
             $accessibilityScore = $analysis['accessibility']['score'] ?? 0;
             $accessibilityIssues = $analysis['accessibility']['issues'] ?? [];
             $suggestions = $analysis['accessibility']['suggestions'] ?? [];
 
+=======
+            
+            $accessibilityScore = $analysis['accessibility']['score'] ?? 0;
+            $accessibilityIssues = $analysis['accessibility']['issues'] ?? [];
+            $suggestions = $analysis['accessibility']['suggestions'] ?? [];
+            
+>>>>>>> dfac49d (.)
             return new UIAnalysisData(
                 score: $accessibilityScore,
                 issues: $accessibilityIssues,
@@ -473,7 +606,11 @@ class AnalyzeUIAccessibilityAction
                 'message' => $e->getMessage(),
                 'trace' => $e->getTraceAsString()
             ]);
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> dfac49d (.)
             return new UIAnalysisData(
                 score: 0,
                 issues: ['Analysis failed: ' . $e->getMessage()],
@@ -505,22 +642,38 @@ class CachedUIComponent extends Component
      * @var string
      */
     public string $componentName;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> dfac49d (.)
     /**
      * @var array<string, mixed>
      */
     public array $componentProps = [];
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> dfac49d (.)
     /**
      * @var int
      */
     public int $cacheTtl = 3600;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> dfac49d (.)
     /**
      * @var bool
      */
     public bool $forceRefresh = false;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> dfac49d (.)
     /**
      * Monta il componente.
      *
@@ -536,7 +689,11 @@ class CachedUIComponent extends Component
         $this->componentProps = $componentProps;
         $this->cacheTtl = $cacheTtl;
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> dfac49d (.)
     /**
      * Forza l'aggiornamento del componente.
      *
@@ -546,7 +703,11 @@ class CachedUIComponent extends Component
     {
         $this->forceRefresh = true;
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> dfac49d (.)
     /**
      * Renderizza il componente.
      *
@@ -556,6 +717,7 @@ class CachedUIComponent extends Component
     {
         /** @var MCPServiceContract $mcpService */
         $mcpService = app(MCPServiceContract::class);
+<<<<<<< HEAD
 
         /** @var UICacheService $uiCacheService */
         $uiCacheService = app(UICacheService::class);
@@ -574,6 +736,26 @@ class CachedUIComponent extends Component
             $uiCacheService->cacheComponent($this->componentName, $this->componentProps, $html, $this->cacheTtl);
         }
 
+=======
+        
+        /** @var UICacheService $uiCacheService */
+        $uiCacheService = app(UICacheService::class);
+        
+        $html = null;
+        
+        if (!$this->forceRefresh) {
+            $html = $uiCacheService->getCachedComponent($this->componentName, $this->componentProps);
+        }
+        
+        if ($html === null) {
+            // Renderizza il componente
+            $html = view("ui::components.{$this->componentName}", $this->componentProps)->render();
+            
+            // Memorizza in cache
+            $uiCacheService->cacheComponent($this->componentName, $this->componentProps, $html, $this->cacheTtl);
+        }
+        
+>>>>>>> dfac49d (.)
         return view('ui::livewire.cached-ui-component', [
             'html' => $html
         ]);
@@ -602,11 +784,19 @@ $mount = function (string $url = '') {
 
 $analyze = function () {
     $this->isAnalyzing = true;
+<<<<<<< HEAD
 
     try {
         /** @var AnalyzeUIAccessibilityAction $analyzeAction */
         $analyzeAction = app(AnalyzeUIAccessibilityAction::class);
 
+=======
+    
+    try {
+        /** @var AnalyzeUIAccessibilityAction $analyzeAction */
+        $analyzeAction = app(AnalyzeUIAccessibilityAction::class);
+        
+>>>>>>> dfac49d (.)
         $this->analysisResult = $analyzeAction->execute($this->url);
     } catch (\Exception $e) {
         $this->addError('analysis', $e->getMessage());
@@ -629,7 +819,11 @@ $analyze = function () {
         </div>
         @error('analysis') <span class="text-red-500 text-xs">{{ $message }}</span> @enderror
     </div>
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> dfac49d (.)
     @if($analysisResult)
         <div class="mt-6 bg-white shadow overflow-hidden sm:rounded-lg">
             <div class="px-4 py-5 sm:px-6">
@@ -700,6 +894,7 @@ $analyze = function () {
 
 ## Conclusione
 
+<<<<<<< HEAD
 L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_predict_fila3_mono.
 # Integrazione dei Server MCP con il Modulo UI
 
@@ -1404,3 +1599,6 @@ $analyze = function () {
 ## Conclusione
 
 L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_predict_fila3_mono.
+=======
+L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_<nome progetto>_fila5_mono.
+>>>>>>> dfac49d (.)

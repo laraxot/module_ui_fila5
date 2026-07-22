@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Componenti UI - Modulo UI"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./full-calendar-1.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Componenti UI - Modulo UI
 
 ## Panoramica

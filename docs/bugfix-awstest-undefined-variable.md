@@ -126,5 +126,8 @@ Ogni metodo di test implementa:
 5. **User Feedback**: Notifiche chiare per successo/errore
 6. **Documentazione**: File markdown nella cartella docs del modulo
 
+<<<<<<< HEAD
 *Ultimo aggiornamento: Gennaio 2025*
+=======
+>>>>>>> dfac49d (.)
 *Errore risolto: ErrorException Undefined variable $results*

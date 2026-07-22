@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Registrazione Componenti Blade nei Moduli"
 type: concept
@@ -11,6 +12,8 @@ related:
   - "./filament-components.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Registrazione Componenti Blade nei Moduli
 
 ## Architettura dei componenti Blade

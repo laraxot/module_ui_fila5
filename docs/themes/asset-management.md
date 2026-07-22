@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Gestione degli Asset"
 type: concept
@@ -15,6 +16,8 @@ related:
   - "./schemaless-attributes-guide.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Gestione degli Asset
 
 ## Struttura delle Directory

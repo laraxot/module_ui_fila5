@@ -1,6 +1,9 @@
 # MCP Servers per UI/UX - Modulo UI
 
+<<<<<<< HEAD
 > Ultimo aggiornamento: Febbraio 2026
+=======
+>>>>>>> dfac49d (.)
 
 ## Scopo
 
@@ -35,7 +38,12 @@ Il modulo UI fornisce componenti Blade condivisi in `resources/views/components/
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [MCP UI/UX Tema Two](../../Themes/Two/docs/mcp-ui-ux.md)
 - [Status MCP Progetto](../../../docs/mcp-servers-status.md)
+=======
+- [MCP UI/UX Tema Two](../../themes/two/docs/mcp-ui-ux.md)
+- [Status MCP Progetto](../../../../docs/mcp-servers-status.md)
+>>>>>>> dfac49d (.)
 - [Skill MCP UI/UX](../../../.windsurf/skills/mcp-ui-ux/skill.md)
 - [Workflow MCP UI/UX](../../../.windsurf/workflows/mcp-ui-ux.md)

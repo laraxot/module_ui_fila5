@@ -1,6 +1,10 @@
 # MCP Server Configuration - UI Module
 
+<<<<<<< HEAD
 **Last Updated**: 31 Gennaio 2026
+=======
+
+>>>>>>> dfac49d (.)
 **Status**: ✅ Configured
 **MCP Servers**: Asana, ClickUp, Filesystem, Database, Redmine (Planned)
 
@@ -36,6 +40,11 @@ The UI module's MCP configuration enables AI assistants to interact with:
     },
     "filesystem": {
       "command": "npx",
+<<<<<<< HEAD
+=======
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", ". progetto>/laravel"],
+||||||| parent of 9a84589 (.)
+>>>>>>> dfac49d (.)
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "/var/www/_bases/base_laravelpizza/laravel"],
       "description": "Access to UI module files"
     },
@@ -43,6 +52,11 @@ The UI module's MCP configuration enables AI assistants to interact with:
       "command": "npx",
       "args": ["-y", "@bytebase/dbhub"],
       "env": {
+<<<<<<< HEAD
+=======
+        "DATABASE_URL": "sqlite://. progetto>/laravel/database/database.sqlite"
+||||||| parent of 9a84589 (.)
+>>>>>>> dfac49d (.)
         "DATABASE_URL": "sqlite:///var/www/_bases/base_laravelpizza/laravel/database/database.sqlite"
       },
       "description": "SQLite database queries"
@@ -58,7 +72,11 @@ The UI module's MCP configuration enables AI assistants to interact with:
 ### Asana Integration
 ```bash
 # Create task
+<<<<<<< HEAD
 "Create task in 'LaravelPizza - UI Module' project: 'Implement location selector component'"
+=======
+"Create task in '<nome progetto> - UI Module' project: 'Implement location selector component'"
+>>>>>>> dfac49d (.)
 
 # Update status
 "Update task 'Create reusable card component' status to 'In Progress'"
@@ -111,17 +129,29 @@ The UI module's MCP configuration enables AI assistants to interact with:
 
 ## 📚 Related Documentation
 
+<<<<<<< HEAD
 - [Asana MCP Configuration](../../../docs/mcp-asana-configuration.md)
 - [ClickUp MCP Configuration](../../../docs/mcp-clickup-configuration.md)
 - [Redmine MCP Configuration](../../../docs/mcp-redmine-configuration.md)
 - [UI Module Roadmap](./roadmap-2026-01-31.md)
+=======
+- [Asana MCP Configuration](../../../../docs/mcp-asana-configuration.md)
+- [ClickUp MCP Configuration](../../../../docs/mcp-clickup-configuration.md)
+- [Redmine MCP Configuration](../../../../docs/mcp-redmine-configuration.md)
+- [UI Module Roadmap](./roadmap-[date].md)
+>>>>>>> dfac49d (.)
 
 ---
 
 ## 🔄 Updates
 
+<<<<<<< HEAD
 - **2026-01-31**: Added ClickUp support
 - **2026-01-31**: Planned Redmine integration
+=======
+- **[DATE]**: Added ClickUp support
+- **[DATE]**: Planned Redmine integration
+>>>>>>> dfac49d (.)
 - **Servers Active**: 4 (Asana, ClickUp, Filesystem, Database)
 
 ---

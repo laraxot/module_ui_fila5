@@ -1,6 +1,10 @@
 # UI Module - Architecture Guide (2025)
 
+<<<<<<< HEAD
 > **Last Updated:** 2025-11-19
+=======
+> **
+>>>>>>> dfac49d (.)
 > **PHPStan Level:** 10
 > **Status:** Shared UI Components & Filament Customizations
 
@@ -544,6 +548,30 @@ class MyFormComponent extends Field
         $this->validateUsing([/* validation rules */]);
     }
 }
+<<<<<<< HEAD
+=======
+
+// Non aggiungere route manualmente
+Route::get('/example', [ExampleController::class, 'index']);
+
+// Non creare middleware personalizzati
+class CustomMiddleware
+{
+    public function handle($request, Closure $next)
+    {
+        // ...
+    }
+}
+
+// Non hardcodare percorsi delle risorse
+<img src="/var/www/html/Quaeris/laravel/public/images/avatar.png">
+
+// Non duplicare la registrazione dei componenti
+Blade::component('ui::components.icon', 'ui.icon');
+
+// Non creare componenti personalizzati se esiste un equivalente Filament
+<x-ui.button>Click me</x-ui.button>
+>>>>>>> dfac49d (.)
 ```
 
 ### Widget Development
@@ -650,5 +678,8 @@ The UI module is a **well-architected, feature-rich Filament customization layer
 ---
 
 **Document Version:** 1.0
+<<<<<<< HEAD
 **Generated:** 2025-11-19
+=======
+>>>>>>> dfac49d (.)
 **Author:** Claude Code Analysis

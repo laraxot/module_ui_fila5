@@ -1,5 +1,6 @@
 # Documentation Index
 
+<<<<<<< HEAD
 ## actions
 
 - [table-layout-toggle-1.md](./actions/table-layout-toggle-1.md)
@@ -1156,4 +1157,14 @@
 - [phpstan-fixes-1.md](./wiki/troubleshooting/phpstan-fixes-1.md)
 - [phpstan-fixes-2026-05-06.deprecated.md](./wiki/troubleshooting/phpstan-fixes-2026-05-06.deprecated.md)
 - [phpstan-fixes.md](./wiki/troubleshooting/phpstan-fixes.md)
+<<<<<<< .merge_file_elMqRf
 
+=======
+=======
+Modulo: UI
+
+## File disponibili
+
+<!-- auto-generato: elencare i file .md presenti -->
+>>>>>>> dfac49d (.)
+>>>>>>> .merge_file_V95jsC

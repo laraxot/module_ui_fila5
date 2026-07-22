@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "UI Module Wiki Index"
 type: concept
@@ -12,6 +13,8 @@ related:
   - "./log.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # UI Module Wiki Index
 
 > **Module**: UI

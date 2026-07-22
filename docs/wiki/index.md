@@ -7,6 +7,7 @@ created: 2026-04-15
 updated: 2026-06-05
 qmd: "ui module wiki index filament second brain"
 issues:
+<<<<<<< HEAD
 discussions:
 related:
   - "./agents.md"
@@ -14,6 +15,16 @@ related:
   - "./context-compression.md"
   - "./log.md"
   - "./overview.md"
+=======
+  - "https://github.com/laraxot/base_fixcity_fila5/issues/272"
+discussions:
+  - "https://github.com/laraxot/base_fixcity_fila5/discussions/273"
+related:
+  - ../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md
+  - ../../../../docs/wiki/bmad/architecture.md
+  - ../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md
+  - ../../docs/wiki/concepts/ai-harness-module-discipline.md
+>>>>>>> dfac49d (.)
 ---
 
 # Wiki Locale Index
@@ -40,8 +51,11 @@ related:
 - [comparisons/](./comparisons/): Alternative implementations.
 - [decisions/](./decisions/): ADL (Architectural Decision Log).
 - [troubleshooting/](./troubleshooting/): Known issues and solutions.
+<<<<<<< HEAD
   - [git-push-lfs-missing-objects](./troubleshooting/git-push-lfs-missing-objects.md): push rifiutato per LFS mancanti
   - [module-theme-root-hygiene](./troubleshooting/module-theme-root-hygiene.md): zero `.txt`, max 4 `.md` in root moduli/temi
+=======
+>>>>>>> dfac49d (.)
 - [_archive/](./_archive/): Legacy documentation.
 - [_templates/](./_templates/): Standard templates.
 

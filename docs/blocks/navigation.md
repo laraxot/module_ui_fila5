@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Navigation Component"
 type: concept
@@ -14,6 +15,8 @@ related:
   - "./user-dropdown.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Navigation Component
 
 This document describes the Navigation component used in section headers and its proper implementation.

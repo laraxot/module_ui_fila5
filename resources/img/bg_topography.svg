@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -244,3 +245,8 @@
 	</g>
 </g>
 </svg>
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef166c7348891dfe3f3135dd4d85057dac996e679c52e48b17bcd7a92c060d37
+size 25767
+>>>>>>> dfac49d (.)

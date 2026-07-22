@@ -5,6 +5,10 @@ declare(strict_types=1);
 namespace Modules\UI\Actions\Datetime;
 
 use Carbon\Carbon;
+<<<<<<< HEAD
+=======
+use RuntimeException;
+>>>>>>> dfac49d (.)
 use Spatie\QueueableAction\QueueableAction;
 
 final class GetDaysMappingAction
@@ -69,8 +73,13 @@ final class GetDaysMappingAction
     {
         $carbon = Carbon::create();
 
+<<<<<<< HEAD
         if (null === $carbon) {
             throw new \RuntimeException('Failed to create Carbon instance');
+=======
+        if ($carbon === null) {
+            throw new RuntimeException('Failed to create Carbon instance');
+>>>>>>> dfac49d (.)
         }
 
         return $carbon;

@@ -121,7 +121,11 @@ try {
 - [Best Practices](../best-practices.md)
 
 ## Data Correzione
+<<<<<<< HEAD
 2025-01-06
+=======
+[DATE]
+>>>>>>> dfac49d (.)
 
 ## Autore
 AI Assistant

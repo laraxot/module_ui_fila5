@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "IconStateSplitColumn - Comprehensive Improvements Summary"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./full-calendar-1.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # IconStateSplitColumn - Comprehensive Improvements Summary
 
 ## 🎯 **Problem Analysis**

@@ -118,6 +118,7 @@ class RadioCardSelector extends XotBaseField
     }
 
     /**
+<<<<<<< HEAD
      * @param array<mixed, mixed> $item
      *
      * @return array<string, mixed>
@@ -138,6 +139,8 @@ class RadioCardSelector extends XotBaseField
     }
 
     /**
+=======
+>>>>>>> dfac49d (.)
      * Ottiene il titolo della sezione.
      */
     public function getSectionTitle(): ?string
@@ -176,4 +179,27 @@ class RadioCardSelector extends XotBaseField
     {
         return $this->emptyStateDesc;
     }
+<<<<<<< HEAD
+=======
+
+    /**
+     * @param array<mixed, mixed> $item
+     *
+     * @return array<string, mixed>
+     */
+    private static function normalizeCardRow(array $item): array
+    {
+        $card = [];
+
+        foreach ($item as $key => $value) {
+            if (! \is_string($key)) {
+                continue;
+            }
+
+            $card[$key] = $value;
+        }
+
+        return $card;
+    }
+>>>>>>> dfac49d (.)
 }

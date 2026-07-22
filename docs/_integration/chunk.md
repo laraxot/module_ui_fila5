@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "chunk"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./custom-theme-1.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # chunk
 
 <!-- Contenuto migrato da _docs/chunk.txt -->

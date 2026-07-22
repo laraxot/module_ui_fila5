@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "eav"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # eav
 
 <!-- Contenuto migrato da _docs/eav.txt -->

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Sistema di Theming"
 type: concept
@@ -14,6 +15,8 @@ related:
   - "./form-components.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Sistema di Theming
 
 ## 📊 Stato Implementazione

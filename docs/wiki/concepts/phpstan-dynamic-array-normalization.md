@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "PHPStan Dynamic Array Normalization"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./enum-select-contract-and-false-friends.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # PHPStan Dynamic Array Normalization
 
 ## Scopo

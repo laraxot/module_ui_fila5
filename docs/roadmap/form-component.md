@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Form Component"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./03-later.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Form Component
 
 ## 📊 Stato Implementazione

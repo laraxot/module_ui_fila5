@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "carousel_slider"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./custom-theme-1.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # carousel_slider
 
 <!-- Contenuto migrato da _docs/carousel_slider.txt -->

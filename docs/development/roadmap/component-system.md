@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Sistema Componenti UI"
 type: concept
@@ -14,6 +15,8 @@ related:
   - "./theme-system.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Sistema Componenti UI
 
 ## 📊 Stato Implementazione

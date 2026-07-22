@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "UI Activity Log"
 type: concept
@@ -12,6 +13,8 @@ related:
   - "./index.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # UI Activity Log
 
 > **Module**: UI
