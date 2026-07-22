@@ -31,15 +31,7 @@ class GetUserDataAction
         $avatarValue = null;
         if (isset($user->profile_photo_path) && is_string($user->profile_photo_path)) {
             $avatarValue = $user->profile_photo_path;
-<<<<<<< HEAD
-<<<<<<< HEAD
         } elseif ($user->relationLoaded('profile') && null !== $user->profile) {
-=======
-        } elseif ($user->relationLoaded('profile') && $user->profile !== null) {
->>>>>>> dfac49d (.)
-=======
-        } elseif ($user->relationLoaded('profile') && null !== $user->profile) {
->>>>>>> dfbb8305 (.)
             $profile = $user->profile;
             if (is_object($profile) && method_exists($profile, 'getAvatarUrl')) {
                 $avatarValue = $profile->getAvatarUrl();
@@ -57,15 +49,7 @@ class GetUserDataAction
         // Get settings - could be in profile or extra attributes
         /** @var array<string, mixed> $settingsArray */
         $settingsArray = [];
-<<<<<<< HEAD
-<<<<<<< HEAD
         if ($user->relationLoaded('profile') && null !== $user->profile) {
-=======
-        if ($user->relationLoaded('profile') && $user->profile !== null) {
->>>>>>> dfac49d (.)
-=======
-        if ($user->relationLoaded('profile') && null !== $user->profile) {
->>>>>>> dfbb8305 (.)
             $profile = $user->profile;
             if (is_object($profile) && isset($profile->extra)) {
                 $extra = $profile->extra;
@@ -88,18 +72,8 @@ class GetUserDataAction
             id: (int) $user->id,
             name: (string) ($user->name ?? ''),
             email: (string) ($user->email ?? ''),
-<<<<<<< HEAD
-<<<<<<< HEAD
             avatar: null !== $avatarValue ? (string) $avatarValue : null,
             role: null !== $roleValue ? (string) $roleValue : null,
-=======
-            avatar: $avatarValue !== null ? (string) $avatarValue : null,
-            role: $roleValue !== null ? (string) $roleValue : null,
->>>>>>> dfac49d (.)
-=======
-            avatar: null !== $avatarValue ? (string) $avatarValue : null,
-            role: null !== $roleValue ? (string) $roleValue : null,
->>>>>>> dfbb8305 (.)
             permissions: $permissions ?? [],
             settings: $settingsArray,
         );
