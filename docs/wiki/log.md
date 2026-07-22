@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: "UI Wiki Log"
 type: concept
@@ -16,8 +15,6 @@ related:
   - "./overview.md"
 ---
 
-=======
->>>>>>> dfac49d (.)
 ## [2026-06-05] docs | HackerNoon harness — tips 001-022 in wiki locale
 
 - Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
@@ -65,3 +62,10 @@ related:
 - Layer wiki: `docs/wiki/` — LLM-maintained, sintesi ad alto riuso.
 - Schema: `docs/.schema/WIKI_SCHEMA.md`
 - Adozione moduli: `docs/project/llm-wiki-module-adoption.md`
+
+## 2026-07-22 — PHPStan Modules 0 + geo-boundary
+
+- Conflitti PHP UI risolti (0 marker di conflitto in *.php).
+- Dominio Geo fuori da UI: InteractiveMap/LocationSelector/contratti Map-Location archiviati in `docs/archive/`.
+- Evidence: `laravel/storage/app/ai/phpstan-modules-20260722-213406.json` (0 errori).
+- Canon: [geo-boundary.md](../geo-boundary.md) · coordinamento: `docs/chat/phpstan-modules-status.md`.

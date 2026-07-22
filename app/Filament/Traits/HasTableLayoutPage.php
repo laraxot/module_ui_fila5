@@ -11,19 +11,14 @@ use Modules\UI\Filament\Actions\Table\TableLayoutTrait;
  * Sincronizza la proprietà Livewire layoutView con la preferenza in sessione.
  *
  * @property TableLayoutEnum $layoutView
-<<<<<<< HEAD
  *
  * Usato da: Modules\Xot\Filament\Traits\HasXotTable (cross-module, PHPStan non rileva il consumer analizzando solo UI)
  */
 /** @phpstan-ignore trait.unused */
-=======
- */
->>>>>>> dfac49d (.)
 trait HasTableLayoutPage
 {
     use TableLayoutTrait;
 
-<<<<<<< HEAD
     public TableLayoutEnum $layoutView = TableLayoutEnum::LIST;
 
     public function mountTableLayoutFromSession(
@@ -33,27 +28,15 @@ trait HasTableLayoutPage
     }
 
     public function applyLayoutView(TableLayoutEnum $layout): void
-=======
-    public function mountTableLayoutFromSession(string $identifier = 'default'): void
-    {
-        $this->layoutView = $this->getCurrentLayout($identifier);
-    }
-
-    public function setLayoutView(TableLayoutEnum $layout): void
->>>>>>> dfac49d (.)
     {
         $this->layoutView = $layout;
     }
 
     public static function isLayoutCapable(object $livewire): bool
     {
-<<<<<<< HEAD
         $uses = class_uses_recursive($livewire::class);
 
         return in_array(self::class, $uses, true);
-=======
-        return in_array(self::class, class_uses_recursive($livewire::class), true);
->>>>>>> dfac49d (.)
     }
 
     public static function readLayoutFrom(object $livewire): ?TableLayoutEnum
@@ -62,7 +45,6 @@ trait HasTableLayoutPage
             return null;
         }
 
-<<<<<<< HEAD
         $layout = data_get($livewire, 'layoutView');
 
         return $layout instanceof TableLayoutEnum ? $layout : null;
@@ -72,25 +54,10 @@ trait HasTableLayoutPage
         object $livewire,
         TableLayoutEnum $layout,
     ): void {
-=======
-        return (function (): TableLayoutEnum {
-            return $this->layoutView;
-        })->call($livewire);
-    }
-
-    public static function applyLayoutTo(object $livewire, TableLayoutEnum $layout): void
-    {
->>>>>>> dfac49d (.)
         if (! self::isLayoutCapable($livewire)) {
             return;
         }
 
-<<<<<<< HEAD
         data_set($livewire, 'layoutView', $layout);
-=======
-        (function (TableLayoutEnum $layout): void {
-            $this->layoutView = $layout;
-        })->call($livewire, $layout);
->>>>>>> dfac49d (.)
     }
 }

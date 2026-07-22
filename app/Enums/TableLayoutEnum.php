@@ -33,7 +33,6 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
         return self::LIST;
     }
 
-<<<<<<< HEAD
     public function getTooltip(): string
     {
         return $this->transClass(self::class, $this->value.'.tooltip');
@@ -44,8 +43,6 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
         return $this->transClass(self::class, $this->value.'.helper_text');
     }
 
-=======
->>>>>>> dfac49d (.)
     public function toggle(): self
     {
         return match ($this) {
@@ -56,20 +53,12 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 
     public function isGridLayout(): bool
     {
-<<<<<<< HEAD
-        return self::GRID === $this;
-=======
         return $this === self::GRID;
->>>>>>> dfac49d (.)
     }
 
     public function isListLayout(): bool
     {
-<<<<<<< HEAD
-        return self::LIST === $this;
-=======
         return $this === self::LIST;
->>>>>>> dfac49d (.)
     }
 
     /**
@@ -101,11 +90,6 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
      *
      * @param array<Column|ColumnGroup|Component> $listColumns Columns for list layout
      * @param array<Column|ColumnGroup|Component> $gridColumns Columns for grid layout
-<<<<<<< HEAD
-=======
-     * @param array<Column|ColumnGroup|Component> $listColumns Columns for list layout
-     * @param array<Column|ColumnGroup|Component> $gridColumns Columns for grid layout
->>>>>>> dfac49d (.)
      *
      * @return array<Column|ColumnGroup|Component>
      */

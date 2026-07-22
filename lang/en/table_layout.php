@@ -3,7 +3,6 @@
 declare(strict_types=1);
 
 return [
-<<<<<<< HEAD
     'values' => [
         'list' => [
             'label' => 'List',
@@ -18,8 +17,6 @@ return [
             'description' => 'Grid',
         ],
     ],
-=======
->>>>>>> dfac49d (.)
     'actions' => [
         'toggle' => [
             'label' => 'Toggle Layout',

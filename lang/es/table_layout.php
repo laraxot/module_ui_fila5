@@ -3,7 +3,6 @@
 declare(strict_types=1);
 
 return [
-<<<<<<< HEAD
     'values' => [
         'list' => [
             'label' => 'Lista',
@@ -18,8 +17,6 @@ return [
             'description' => 'Cuadrícula',
         ],
     ],
-=======
->>>>>>> dfac49d (.)
     'actions' => [
         'toggle' => [
             'label' => 'Cambiar diseño',

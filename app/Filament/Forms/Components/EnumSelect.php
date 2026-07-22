@@ -4,25 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
-<<<<<<< HEAD
-use Filament\Support\Contracts\HasIcon;
-use Filament\Support\Contracts\HasLabel;
-use Modules\Xot\Filament\Forms\Components\XotBaseSelect;
-=======
-use Filament\Forms\Components\Select;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasLabel;
 use InvalidArgumentException;
->>>>>>> dfac49d (.)
+use Modules\Xot\Filament\Forms\Components\XotBaseSelect;
 
 /**
  * EnumSelect - Reusable component for PHP-backed enums in Filament v5.
  */
-<<<<<<< HEAD
 final class EnumSelect extends XotBaseSelect
-=======
-final class EnumSelect extends Select
->>>>>>> dfac49d (.)
 {
     protected string|\Closure|null $enumClass = null;
 
@@ -39,24 +29,14 @@ final class EnumSelect extends Select
         $this->options(fn (): array => $this->generateOptions());
     }
 
-<<<<<<< .merge_file_LAHET1
-    /**
-     * Create a new EnumSelect component.
-     * Signature mirrors Filament; null delegates default-name resolution to the parent.
-     */
-=======
-<<<<<<< HEAD
-=======
     /**
      * Create a new EnumSelect component.
      * Signature must match Filament\\Forms\\Components\\Field::make(?string $name = null).
      */
->>>>>>> dfac49d (.)
->>>>>>> .merge_file_FM8ebI
     public static function make(?string $name = null): static
     {
         /** @var static $component */
-        $component = null === $name ? parent::make() : parent::make($name);
+        $component = $name === null ? parent::make() : parent::make($name);
 
         return $component->native(false);
     }
@@ -86,11 +66,7 @@ final class EnumSelect extends Select
     {
         $enumClass = $this->evaluate($this->enumClass);
 
-<<<<<<< HEAD
-        return is_string($enumClass) && '' !== $enumClass ? $enumClass : null;
-=======
         return is_string($enumClass) && $enumClass !== '' ? $enumClass : null;
->>>>>>> dfac49d (.)
     }
 
     public function hasIcons(): bool
@@ -114,11 +90,7 @@ final class EnumSelect extends Select
     {
         $enumClass = $this->getEnumClass();
 
-<<<<<<< HEAD
-        if (null === $enumClass || null === $value || '' === $value) {
-=======
         if ($enumClass === null || $value === null || $value === '') {
->>>>>>> dfac49d (.)
             return null;
         }
 
@@ -140,11 +112,7 @@ final class EnumSelect extends Select
     {
         $enumClass = $this->evaluate($this->enumClass);
 
-<<<<<<< HEAD
-        if (! is_string($enumClass) || '' === $enumClass) {
-=======
         if (! is_string($enumClass) || $enumClass === '') {
->>>>>>> dfac49d (.)
             return [];
         }
 
@@ -180,22 +148,14 @@ final class EnumSelect extends Select
         if ($case instanceof HasLabel) {
             $label = $case->getLabel();
 
-<<<<<<< HEAD
-            if (is_string($label) && '' !== $label) {
-=======
             if (is_string($label) && $label !== '') {
->>>>>>> dfac49d (.)
                 return $label;
             }
         }
 
         if (method_exists($case, 'label')) {
             $label = $case->label();
-<<<<<<< HEAD
-            if (is_string($label) && '' !== $label) {
-=======
             if (is_string($label) && $label !== '') {
->>>>>>> dfac49d (.)
                 return $label;
             }
         }
@@ -212,21 +172,13 @@ final class EnumSelect extends Select
         if ($case instanceof HasIcon) {
             $icon = $case->getIcon();
 
-<<<<<<< HEAD
-            return is_string($icon) && '' !== $icon ? $icon : null;
-=======
             return is_string($icon) && $icon !== '' ? $icon : null;
->>>>>>> dfac49d (.)
         }
 
         if (method_exists($case, 'icon')) {
             $icon = $case->icon();
 
-<<<<<<< HEAD
-            return is_string($icon) && '' !== $icon ? $icon : null;
-=======
             return is_string($icon) && $icon !== '' ? $icon : null;
->>>>>>> dfac49d (.)
         }
 
         return null;
@@ -248,19 +200,11 @@ final class EnumSelect extends Select
     protected function validateEnumClass(string $enumClass): void
     {
         if (! enum_exists($enumClass)) {
-<<<<<<< HEAD
-            throw new \InvalidArgumentException("Enum class [{$enumClass}] does not exist.");
-        }
-
-        if (! is_subclass_of($enumClass, \BackedEnum::class)) {
-            throw new \InvalidArgumentException("Enum class [{$enumClass}] must be a backed enum.");
-=======
             throw new InvalidArgumentException("Enum class [{$enumClass}] does not exist.");
         }
 
         if (! is_subclass_of($enumClass, \BackedEnum::class)) {
             throw new InvalidArgumentException("Enum class [{$enumClass}] must be a backed enum.");
->>>>>>> dfac49d (.)
         }
     }
 }

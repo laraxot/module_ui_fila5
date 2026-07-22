@@ -6,11 +6,8 @@ namespace Modules\UI\Tests\Unit\Widgets;
 
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Grid;
-<<<<<<< HEAD
 use Mockery\ExpectationInterface;
 use Mockery\MockInterface;
-=======
->>>>>>> dfac49d (.)
 use Modules\Lang\Actions\SaveTransAction;
 use Modules\UI\Filament\Widgets\UserCalendarWidget;
 use Modules\UI\Tests\TestCase;
@@ -35,14 +32,8 @@ function createTestCalendarWidget(): UserCalendarWidget
 
 beforeEach(function (): void {
     /* @var \Modules\UI\Tests\TestCase $this */
-<<<<<<< HEAD
-    /* @var TestCase $this */
     $this->mockService(SaveTransAction::class, static function (MockInterface $mock): void {
         /** @var ExpectationInterface $expectation */
-=======
-    $this->mockService(SaveTransAction::class, static function (\Mockery\MockInterface $mock): void {
-        /** @var \Mockery\ExpectationInterface $expectation */
->>>>>>> dfac49d (.)
         $expectation = $mock->shouldReceive('execute');
         $expectation->andReturn(null);
     });

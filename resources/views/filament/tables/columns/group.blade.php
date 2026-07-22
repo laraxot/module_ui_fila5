@@ -21,18 +21,10 @@ declare(strict_types=1);
      
         @php
             $name = $field->getName();
-<<<<<<< .merge_file_qVObPG
-            $value = $record->{$name} ?? null;
-=======
-<<<<<<< HEAD
             $value = $field->getState();
             if ($value === null) {
                 $value = data_get($record, $name);
             }
-=======
-            $value = $record->{$name} ?? null;
->>>>>>> dfac49d (.)
->>>>>>> .merge_file_K10kjG
             // Skip empty values to save space
             if (empty($value) && $value !== 0 && $value !== '0') {
                 continue;
