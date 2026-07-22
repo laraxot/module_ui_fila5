@@ -1,6 +1,9 @@
 # Strategia Correzione Errori PHPStan - RadioBadge.php
 
+<<<<<<< HEAD
 **Data**: 2025-12-23
+=======
+>>>>>>> dfac49d (.)
 **File**: `app/Filament/Forms/Components/RadioBadge.php`
 **Errori**: 3
 

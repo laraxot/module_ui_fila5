@@ -183,6 +183,14 @@ class StatsWidget extends Widget
 2. **Usa un nome descrittivo** (es. `user-profile.svg`)
 3. **L'icona sarà disponibile** come `ui-user-profile`
 
+<<<<<<< HEAD
+=======
+### Sottocartelle (es. brands)
+
+- `brands/github.svg` → `ui-brands.github` (punto = separatore path)
+- **Vietato** SVG inline nelle Blade: vedi [no-svg-hardcoded-in-blade.md](no-svg-hardcoded-in-blade.md)
+
+>>>>>>> dfac49d (.)
 ### Esempio di Icona SVG
 
 ```svg
@@ -326,12 +334,20 @@ Tutte le icone sono compatibili con Filament 4.x e versioni successive.
 
 ## 📝 Changelog
 
+<<<<<<< HEAD
 ### v1.1.0 - 2025-01-27
+=======
+### v1.1.0 - [DATE]
+>>>>>>> dfac49d (.)
 - **🔧 Icone Aggiuntive**: Aggiunte icone mancanti (cancel, save, logout, showPassword, user-main, user-team, user-user-tenant)
 - **🐛 Bug Fix**: Risolto errore "SvgNotFound" per icona "cancel"
 - **📝 Traduzioni**: Aggiornati file di traduzione per utilizzare prefisso "ui-" corretto
 
+<<<<<<< HEAD
 ### v1.0.0 - 2025-01-27
+=======
+### v1.0.0 - [DATE]
+>>>>>>> dfac49d (.)
 - **🎨 Sistema Icone**: Implementato sistema completo di icone SVG
 - **🔧 Registrazione Automatica**: Icone registrate automaticamente
 - **📚 Documentazione**: Documentazione completa del sistema

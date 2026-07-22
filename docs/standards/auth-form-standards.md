@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Standard Form di Autenticazione"
 type: rule
@@ -16,6 +17,8 @@ related:
   - "./ui-standards.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Standard Form di Autenticazione
 
 ## Principi di Design
@@ -228,7 +231,11 @@ related:
    - Sanitizzazione input
 
 ## Collegamenti
+<<<<<<< HEAD
 - [Form Standards](./form-standards-1.md)
+=======
+- [Form Standards](./form_standards.md)
+>>>>>>> dfac49d (.)
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md)
 # Standard Form di Autenticazione
@@ -443,6 +450,10 @@ related:
    - Sanitizzazione input
 
 ## Collegamenti
+<<<<<<< HEAD
 - [Form Standards](./form-standards-1.md)
+=======
+- [Form Standards](./form_standards.md)
+>>>>>>> dfac49d (.)
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md)

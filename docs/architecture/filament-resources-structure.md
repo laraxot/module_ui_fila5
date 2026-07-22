@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Struttura delle Filament Resources"
 type: concept
@@ -13,6 +14,8 @@ related:
   - "./structure.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Struttura delle Filament Resources
 
 ## Panoramica

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "UI Module Roadmap"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./03-later.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # UI Module Roadmap
 
 Vedi [roadmap/00-index](roadmap/00-index.md).

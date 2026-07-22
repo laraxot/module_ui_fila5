@@ -255,11 +255,18 @@ php artisan ui:accessibility-check
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [Analisi Moduli Globale](../../../docs/modules_analysis_and_optimization.md)
 - [Components Guide](components.md)
 - [TableLayoutEnum Guide](table-layout-enum-complete-guide.md)
 
 *Ultimo aggiornamento: gennaio 2025*
+=======
+- [Analisi Moduli Globale](../../../../docs/modules_analysis_and_optimization.md)
+- [Components Guide](components.md)
+- [TableLayoutEnum Guide](table-layout-enum-complete-guide.md)
+
+>>>>>>> dfac49d (.)
 # Raccomandazioni di Ottimizzazione - Modulo UI
 
 ## 🎯 Stato Attuale e Analisi
@@ -508,8 +515,15 @@ php artisan ui:accessibility-check
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [Analisi Moduli Globale](../../../docs/modules_analysis_and_optimization.md)
 - [Components Guide](components.md)
 - [TableLayoutEnum Guide](table-layout-enum-complete-guide.md)
 
 *Ultimo aggiornamento: gennaio 2025*
+=======
+- [Analisi Moduli Globale](../../../../docs/modules_analysis_and_optimization.md)
+- [Components Guide](components.md)
+- [TableLayoutEnum Guide](table-layout-enum-complete-guide.md)
+
+>>>>>>> dfac49d (.)

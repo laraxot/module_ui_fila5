@@ -5,9 +5,14 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Tables\Columns\Column;
+<<<<<<< HEAD
 use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
 
 class GroupColumn extends XotBaseColumn
+=======
+
+class GroupColumn extends Column
+>>>>>>> dfac49d (.)
 {
     /** @var array<int|string, mixed> */
     public array $form = [];
@@ -40,10 +45,17 @@ class GroupColumn extends XotBaseColumn
     /**
      * @param array<int|string, mixed> $form
      */
+<<<<<<< HEAD
     public function schema(array $form): static
     {
         // Type-check to ensure all elements are Column instances
         $filtered = array_filter($form, function (mixed $item): bool {
+=======
+    public function schema(array $form): self
+    {
+        // Type-check to ensure all elements are Column instances
+        $filtered = array_filter($form, static function (mixed $item): bool {
+>>>>>>> dfac49d (.)
             return $item instanceof Column;
         });
 

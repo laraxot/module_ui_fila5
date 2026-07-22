@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "custom_theme"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # custom_theme
 
 <!-- Contenuto migrato da _docs/custom_theme.txt -->

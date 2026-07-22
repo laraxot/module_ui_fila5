@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "UI Module Icon System"
 type: concept
@@ -10,6 +11,8 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # UI Module Icon System
 
 ## How It Works

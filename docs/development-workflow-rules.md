@@ -1,6 +1,10 @@
 # Development Workflow Rules - UI Module
 
+<<<<<<< HEAD
 **Date**: 2025-12-15
+=======
+**Date**: [DATE]
+>>>>>>> dfac49d (.)
 **Status**: Active
 **Purpose**: Document the mandatory development workflow for UI module
 
@@ -146,10 +150,17 @@
 
 ## 📚 Related Documentation
 
+<<<<<<< HEAD
 - [Xot Philosophy](../Xot/docs/philosophy-complete.md)
 - [PSR-4 Autoloading Error Analysis](./psr4-autoloading-error-analysis.md)
 - [Development Guidelines](../../../docs/development/README.md)
 - [Git Workflow](../../../docs/git-conflict-resolution/README.md)
+=======
+- [Xot Philosophy](../xot/docs/philosophy-complete.md)
+- [PSR-4 Autoloading Error Analysis](./psr4-autoloading-error-analysis.md)
+- [Development Guidelines](../../../../docs/development/readme.md)
+- [Git Workflow](../../../../docs/git-conflict-resolution/readme.md)
+>>>>>>> dfac49d (.)
 
 ## ⚠️ Consequences of Skipping Steps
 

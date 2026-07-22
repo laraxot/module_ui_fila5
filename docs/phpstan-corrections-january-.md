@@ -155,5 +155,9 @@ if ($color !== '') {  // Non serve is_string()
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [PHPStan Code Quality Guide](../../Xot/docs/phpstan-code-quality-guide.md)
+=======
+- [PHPStan Code Quality Guide](../../xot/docs/phpstan-code-quality-guide.md)
+>>>>>>> dfac49d (.)
 - [Correzioni Precedenti](./phpstan-corrections.md)

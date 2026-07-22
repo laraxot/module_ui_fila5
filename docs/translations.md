@@ -2,8 +2,13 @@
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale sulle traduzioni
 - [Regole Generali Traduzioni](../../Xot/docs/translations.md)
+=======
+- [Modulo Lang](../../lang/docs/module_lang.md) - Documentazione principale sulle traduzioni
+- [Regole Generali Traduzioni](../../xot/docs/translations.md)
+>>>>>>> dfac49d (.)
 
 ## Struttura
 
@@ -51,6 +56,7 @@ return [
 ];
 ```
 ## Collegamenti tra versioni di translations.md
+<<<<<<< HEAD
 * [translations.md](../../../Chart/docs/translations.md)
 * [translations.md](../../../Reporting/docs/translations.md)
 * [translations.md](../../../Gdpr/docs/translations.md)
@@ -68,3 +74,22 @@ return [
 * [translations.md](../../../Activity/docs/translations.md)
 * [translations.md](../../../Patient/docs/translations.md)
 * [translations.md](../../../Cms/docs/translations.md)
+=======
+* [translations.md](../../../chart/docs/translations.md)
+* [translations.md](../../../reporting/docs/translations.md)
+* [translations.md](../../../gdpr/docs/translations.md)
+* [translations.md](../../../notify/docs/translations.md)
+* [translations.md](../../../xot/docs/roadmap/lang/translations.md)
+* [translations.md](../../../xot/docs/translations.md)
+* [translations.md](../../../dental/docs/translations.md)
+* [translations.md](../../../user/docs/translations.md)
+* [translations.md](../../../ui/docs/translations.md)
+* [translations.md](../../../lang/docs/packages/translations.md)
+* [translations.md](../../../lang/docs/translations.md)
+* [translations.md](../../../job/docs/translations.md)
+* [translations.md](../../../media/docs/translations.md)
+* [translations.md](../../../tenant/docs/translations.md)
+* [translations.md](../../../activity/docs/translations.md)
+* [translations.md](../../../patient/docs/translations.md)
+* [translations.md](../../../cms/docs/translations.md)
+>>>>>>> dfac49d (.)

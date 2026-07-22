@@ -9,7 +9,11 @@ jobs:
     runs-on: ubuntu-latest
  
     steps:
+<<<<<<< HEAD
       - uses: actions/checkout@v7
+=======
+      - uses: actions/checkout@v2
+>>>>>>> dfac49d (.)
         with:
           token: "${{ secrets.ACCESS_TOKEN || secrets.GITHUB_TOKEN }}"
  

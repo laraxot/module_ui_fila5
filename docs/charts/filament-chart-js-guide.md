@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Filament Chart.js Guide"
 type: guide
@@ -15,6 +16,8 @@ related:
   - "./shared-hosting-strategy.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Filament Chart.js Guide
 
 > **Why this guide?**: To standardize how we use Chart.js in Filament, especially regarding advanced features like plugins (Zoom, Annotations) which are not enabled by default.

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Raw Sources — UI"
 type: concept
@@ -10,6 +11,8 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Raw Sources — UI
 
 Questo layer contiene le fonti grezze: documenti immutabili che l'LLM legge ma non modifica.

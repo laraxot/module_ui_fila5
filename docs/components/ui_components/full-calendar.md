@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "FullCalendar Component"
 type: concept
@@ -10,6 +11,8 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # FullCalendar Component
 
 ## Introduction

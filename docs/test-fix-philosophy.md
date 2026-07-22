@@ -1,6 +1,10 @@
 # Test Fix Philosophy: Fix Tests, Not Production Code
 
+<<<<<<< HEAD
 **Date**: 2025-12-15
+=======
+**Date**: [DATE]
+>>>>>>> dfac49d (.)
 **Context**: Understanding the correct approach to fixing test failures
 
 ## 🎯 Core Principle

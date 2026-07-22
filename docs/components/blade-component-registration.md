@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Registrazione corretta dei componenti Blade nei moduli"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./full-calendar.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Registrazione corretta dei componenti Blade nei moduli
 
 ## Problema

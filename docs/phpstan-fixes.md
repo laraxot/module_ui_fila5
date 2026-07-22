@@ -62,7 +62,11 @@ if (isset($record->attribute)) {
 # PHPStan Status: Modules/UI
 
 ## Analysis
+<<<<<<< HEAD
 - **Date**: 2025-12-24
+=======
+- **Date**: [DATE]
+>>>>>>> dfac49d (.)
 - **Total Errors**: 0
 - **Status**: Passed
 

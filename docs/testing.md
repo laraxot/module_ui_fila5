@@ -175,7 +175,11 @@ protected function createApplication()
     $app = parent::createApplication();
     
     $app['config']->set([
+<<<<<<< HEAD
         'database.connections.ui.database' => 'quaeris_data_test',
+=======
+'database.connections.ui.database' => 'Quaeris_data_test',
+>>>>>>> dfac49d (.)
     ]);
     
     return $app;
@@ -261,9 +265,15 @@ protected function createApplication()
 
 ### Internal Resources
 
+<<<<<<< HEAD
 - [Testing Setup Guide](../../docs/testing-setup.md)
 - [Testing Best Practices](../../docs/testing-best-practices.md)
 - [Troubleshooting Guide](../../docs/troubleshooting.md)
+=======
+- [Testing Setup Guide](../../../docs/testing-setup.md)
+- [Testing Best Practices](../../../docs/testing-best-practices.md)
+- [Troubleshooting Guide](../../../docs/troubleshooting.md)
+>>>>>>> dfac49d (.)
 
 ## Testing Examples
 
@@ -359,4 +369,8 @@ Remember: Good tests are the foundation of reliable software development.
 
 ---
 
+<<<<<<< HEAD
 *Last updated: January 2025*
+=======
+*
+>>>>>>> dfac49d (.)

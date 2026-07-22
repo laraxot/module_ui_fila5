@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Theme"
 type: concept
@@ -18,4 +19,6 @@ related:
   - "./filament-4-migration-sumy.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 https://fly.io/laravel-bytes/filamentphp-adding-some-style/

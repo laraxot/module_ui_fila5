@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Filament Components"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./full-calendar.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Filament Components
 
 ## Resources

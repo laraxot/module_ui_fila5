@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Checklist qualità - UI Module"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./03-later.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Checklist qualità - UI Module
 
 - [x] PHPStan Level 10

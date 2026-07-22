@@ -1,5 +1,6 @@
 ---
 title: EnumSelect Usage
+<<<<<<< HEAD
 related:
   - "./auth-register-focus-loss-overlay.md"
   - "./block-rendering-and-optional-services.md"
@@ -9,6 +10,8 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
+=======
+>>>>>>> dfac49d (.)
 ---
 
 ## Overview

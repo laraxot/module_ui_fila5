@@ -3,7 +3,11 @@
 ## Current Status: ✅ PASSED
 - **PHPStan Level**: 10
 - **Errors**: 0
+<<<<<<< HEAD
 - **Last Checked**: 2025-11-17
+=======
+- **Last Checked**: [DATE]
+>>>>>>> dfac49d (.)
 
 ## Module Overview
 The UI module provides user interface components, themes, and frontend utilities for the application.
@@ -70,4 +74,8 @@ The UI module integrates with:
 ---
 
 *Status: ✅ PHPStan Level 10 Compliant*
+<<<<<<< HEAD
 *Last Updated: 2025-11-17*
+=======
+*
+>>>>>>> dfac49d (.)

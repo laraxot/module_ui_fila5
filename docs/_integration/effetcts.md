@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "effetcts"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # effetcts
 
 <!-- Contenuto migrato da _docs/effetcts.txt -->

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Componente FileUpload"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./full-calendar.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # Componente FileUpload
 
 ## Collegamenti Bidirezionali

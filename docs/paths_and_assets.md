@@ -22,7 +22,11 @@
 , è fondamentale rispettare la struttura corretta delle directory per gli asset pubblici:
 
 ```
+<<<<<<< HEAD
 /var/www/html/saluteora/
+=======
+/var/www/html/<nome progetto>/
+>>>>>>> dfac49d (.)
 ├── laravel/                 # Applicazione Laravel (codice sorgente)
 │   ├── Modules/             # Moduli dell'applicazione
 │   ├── resources/           # Risorse non compilate
@@ -40,10 +44,17 @@
 
 | Tipo di Asset | ✅ Percorso Corretto | ❌ Percorso Errato |
 |---------------|---------------------|-------------------|
+<<<<<<< HEAD
 | Immagini | `/var/www/html/saluteora/public_html/images/` | `/var/www/html/saluteora/laravel/public/images/` |
 | CSS | `/var/www/html/saluteora/public_html/css/` | `/var/www/html/saluteora/laravel/public/css/` |
 | JavaScript | `/var/www/html/saluteora/public_html/js/` | `/var/www/html/saluteora/laravel/public/js/` |
 | SVG | `/var/www/html/saluteora/public_html/images/` | `/var/www/html/saluteora/laravel/public/images/` |
+=======
+| Immagini | `/var/www/html/<nome progetto>/public_html/images/` | `/var/www/html/<nome progetto>/laravel/public/images/` |
+| CSS | `/var/www/html/<nome progetto>/public_html/css/` | `/var/www/html/<nome progetto>/laravel/public/css/` |
+| JavaScript | `/var/www/html/<nome progetto>/public_html/js/` | `/var/www/html/<nome progetto>/laravel/public/js/` |
+| SVG | `/var/www/html/<nome progetto>/public_html/images/` | `/var/www/html/<nome progetto>/laravel/public/images/` |
+>>>>>>> dfac49d (.)
 
 ## Utilizzo degli Asset nei Componenti Blade
 
@@ -74,7 +85,11 @@ Per garantire una buona esperienza utente, implementare sempre un fallback per l
 Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati come componenti Blade in:
 
 ```
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/
+=======
+/var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/
+>>>>>>> dfac49d (.)
 ```
 
 ### SVG come Asset Pubblici
@@ -82,7 +97,11 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizionati in:
 
 ```
+<<<<<<< HEAD
 /var/www/html/saluteora/public_html/images/
+=======
+/var/www/html/<nome progetto>/public_html/images/
+>>>>>>> dfac49d (.)
 ```
 
 ## Gestione dei Componenti UI
@@ -92,13 +111,21 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 Il componente avatar è implementato in:
 
 ```
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
+=======
+/var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
+>>>>>>> dfac49d (.)
 ```
 
 E utilizza gli avatar SVG dalla directory pubblica:
 
 ```
+<<<<<<< HEAD
 /var/www/html/saluteora/public_html/images/avatars/
+=======
+/var/www/html/<nome progetto>/public_html/images/avatars/
+>>>>>>> dfac49d (.)
 ```
 
 ### Componente Icon
@@ -106,7 +133,11 @@ E utilizza gli avatar SVG dalla directory pubblica:
 Il componente icon è implementato in:
 
 ```
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/icon.blade.php
+=======
+/var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/icon.blade.php
+>>>>>>> dfac49d (.)
 ```
 
 E include le definizioni SVG direttamente nel componente.
@@ -147,7 +178,11 @@ E include le definizioni SVG direttamente nel componente.
 
 ## Errori Comuni
 
+<<<<<<< HEAD
 1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/saluteora/laravel/public/` invece di `/var/www/html/saluteora/public_html/`
+=======
+1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/<nome progetto>/laravel/public/` invece di `/var/www/html/<nome progetto>/public_html/`
+>>>>>>> dfac49d (.)
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile
 4. **Inconsistenza nei nomi dei file**: Utilizzare convenzioni di naming diverse per file simili

@@ -1,6 +1,9 @@
 # 🔧 PSR-4 Fix Implementation Plan - UI Module
 
+<<<<<<< HEAD
 **Data**: Dicembre 15, 2025
+=======
+>>>>>>> dfac49d (.)
 **Modulo**: UI
 **Tipo Fix**: Namespace correction (Modules\Notify → Modules\UI)
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "ci"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./custom-theme-1.md"
 ---
 
+=======
+>>>>>>> dfac49d (.)
 # ci
 
 <!-- Contenuto migrato da _docs/ci.txt -->
