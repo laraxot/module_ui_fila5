@@ -23,11 +23,7 @@ final class VideoSpatie
             ->schema([
                 Hidden::make('img_uuid')
                     ->default(Str::uuid()->toString(...))
-<<<<<<< .merge_file_IMJXR5
-                    ->formatStateUsing(fn ($state) => $state ?? Str::uuid()->toString())
-=======
                     ->formatStateUsing(static fn ($state) => $state ?? Str::uuid()->toString())
->>>>>>> .merge_file_wyF0qD
                     ->live(),
                 // ->required(),
 
@@ -45,13 +41,8 @@ final class VideoSpatie
                     ->previewable()
                     ->downloadable()
                     // ->rules(Rule::dimensions()->maxWidth(600)->maxHeight(800))
-<<<<<<< .merge_file_IMJXR5
-                    ->collection(fn (Get $get) => $get('img_uuid'))
-                    ->afterStateUpdated(function (
-=======
                     ->collection(static fn (Get $get) => $get('img_uuid'))
                     ->afterStateUpdated(static function (
->>>>>>> .merge_file_wyF0qD
                         HasForms $_livewire,
                         SpatieMediaLibraryFileUpload $_component,
                         TemporaryUploadedFile $state,

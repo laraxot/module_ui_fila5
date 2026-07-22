@@ -12,9 +12,9 @@ class RadioBadge extends XotBaseRadio
 {
     protected string $view = 'ui::filament.forms.components.radio-badge';
 
-    protected string $defaultColor = 'gray-200';
+    protected string $defaultColor = 'gray-200'; // gray-200
 
-    protected string $selectedColor = 'blue-500';
+    protected string $selectedColor = 'blue-500'; // '#3b82f6'; // blue-500
 
     /**
      * Get enum value from string value.
@@ -32,10 +32,12 @@ class RadioBadge extends XotBaseRadio
         /** @var class-string<\UnitEnum> $enumClass */
         $enumClass = $this->options;
 
+        // Verifica che sia un BackedEnum
         if (! is_subclass_of($enumClass, \BackedEnum::class)) {
             return null;
         }
 
+        // Verifica che implementi le interfacce richieste
         if (! is_subclass_of($enumClass, HasColor::class) || ! is_subclass_of($enumClass, HasIcon::class)) {
             return null;
         }
@@ -59,6 +61,7 @@ class RadioBadge extends XotBaseRadio
                 return is_string($first) && '' !== $first ? $first : $this->selectedColor;
             }
 
+            // PHPStan L10: $color è già verificato come non-array e non-null, quindi è string
             if ('' !== $color) {
                 return $color;
             }
@@ -77,10 +80,7 @@ class RadioBadge extends XotBaseRadio
         }
         $icon = $enum->getIcon();
 
-<<<<<<< .merge_file_KfguPc
         // getIcon() può restituire Htmlable|string|null, ma dobbiamo restituire solo string|null
-=======
->>>>>>> .merge_file_IWIuy5
         if (null === $icon) {
             return null;
         }
@@ -89,6 +89,8 @@ class RadioBadge extends XotBaseRadio
             return $icon;
         }
 
+        // PHPStan L10: $icon è BackedEnum|Htmlable dopo is_string(), quindi è sempre object
+        // Se è Htmlable, convertilo a string
         if (method_exists($icon, '__toString')) {
             return (string) $icon;
         }
