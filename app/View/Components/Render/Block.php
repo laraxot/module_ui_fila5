@@ -4,14 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\UI\View\Components\Render;
 
-use Exception;
 use Illuminate\Contracts\View\Factory as ViewFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\View\Component;
 use Illuminate\View\View;
 use Modules\UI\Actions\Block\ResolveLocalizedBlockDataAction;
-use UnexpectedValueException;
 use Webmozart\Assert\Assert;
 
 /**
@@ -58,7 +56,7 @@ class Block extends Component
         $viewParams = $this->normalizeViewData($viewParams);
         Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
         if (! view()->exists($view)) {
-            throw new Exception('view not found ['.$view.']');
+            throw new \Exception('view not found ['.$view.']');
         }
 
         return view($view, $viewParams);
@@ -77,7 +75,7 @@ class Block extends Component
 
         foreach ($data as $key => $value) {
             if (! is_string($key)) {
-                throw new UnexpectedValueException('Block view data must have string keys.');
+                throw new \UnexpectedValueException('Block view data must have string keys.');
             }
 
             $viewData[$key] = $value;

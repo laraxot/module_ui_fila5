@@ -40,7 +40,7 @@ class RadioBadge extends XotBaseRadio
             return null;
         }
 
-        /** @var class-string<\BackedEnum&HasColor&HasIcon> $enumClass */
+        /* @var class-string<\BackedEnum&HasColor&HasIcon> $enumClass */
         return $enumClass::tryFrom($value);
     }
 
@@ -49,17 +49,17 @@ class RadioBadge extends XotBaseRadio
         $enum = $this->getEnumValue($value);
         if ($enum instanceof HasColor) {
             $color = $enum->getColor();
-            if ($color === null) {
+            if (null === $color) {
                 return $this->selectedColor;
             }
 
             if (is_array($color)) {
                 $first = reset($color);
 
-                return is_string($first) && $first !== '' ? $first : $this->selectedColor;
+                return is_string($first) && '' !== $first ? $first : $this->selectedColor;
             }
 
-            if ($color !== '') {
+            if ('' !== $color) {
                 return $color;
             }
 
@@ -77,7 +77,7 @@ class RadioBadge extends XotBaseRadio
         }
         $icon = $enum->getIcon();
 
-        if ($icon === null) {
+        if (null === $icon) {
             return null;
         }
 
