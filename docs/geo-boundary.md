@@ -3,76 +3,61 @@ title: "Confine UI e Geo"
 type: rule
 module: UI
 created: 2026-07-06
-updated: 2026-07-21
+updated: 2026-07-22
 related:
-  - "./00-index-1.md"
+  - "./second-brain.md"
   - "./00-index.md"
-  - "./04-datas.md"
-  - "./advanced-form-components-1.md"
-  - "./advanced-form-components.md"
-  - "./agent-confidence-discipline.md"
-  - "./agent-confidence-protocol.md"
-  - "./agent-edit-discipline.md"
+  - "./filosofia-modulo-ui.md"
 ---
 
 # Confine UI e Geo
 
-## Regola
+## Perché (religione)
 
-Il modulo `UI` non deve dipendere dal modulo `Geo`.
+`UI` = design system: componenti visuali generici e riusabili.
 
-`UI` fornisce componenti visuali generici e riusabili. La logica geografica, mappe interattive, geocoding, marker, export GeoJSON/KML e integrazioni GIS appartengono al dominio `Geo`.
+Mappe, geocoding, marker, regioni/province/CAP, export GeoJSON/KML = **dominio geografico**.
+Quel dominio vive in `Modules/Geo` (quando il progetto lo include), **mai** in `UI`.
 
-## Dipendenze consentite
+Direzione dipendenze: **Geo → UI** (Geo può usare primitive UI). Mai il contrario.
 
-- `Geo` puo' dipendere da `UI` per usare primitive visuali.
-- `UI` non deve importare namespace `Modules\Geo\*`.
-- `UI` non deve contenere service geografici, geocoder o map service.
-- Componenti con dominio geografico vanno rimossi dall'autoload PHP (o backup locale `.old`, gitignored).
+## Questo progetto (`base_ptvx_fila5`)
 
-## Caso LocationSelector
+`laravel/Modules/Geo` **non esiste** e **non deve essere reintrodotto** senza decisione esplicita.
+Quindi in UI non devono restare neanche fallback/null-object “per quando Geo manca”: senza Geo non serve il layer.
 
-`app/Filament/Forms/Components/LocationSelector.php` non appartiene a `UI` (importava `Modules\Geo\Models\Comune`, poi il contratto `LocationDataProviderContract`, comunque dominio Geo).
+## Vietato in UI
 
-Rimosso definitivamente dal repo il 2026-07-22, archiviato forward-only in `docs/archive/Filament/Forms/Components/LocationSelector.php.old`.
+- Namespace `Modules\Geo\*`
+- `app/Adapters/Location/`, `app/Adapters/Map/`
+- Contratti `LocationDataProviderContract`, `MapServiceContract`, `GeocodingServiceContract`
+- `LocationSelector`, `InteractiveMap` (e view correlate)
+- Service/adapter null-object di mappa/geocoding
 
-Se servira' un selettore geografico, crearlo in `Modules/Geo/` usando contratti UI o primitive generiche.
+## Storia (forward-only)
 
-## Caso InteractiveMap
+Rimosso il 2026-07-22 da UI (git history = archivio; **no** `docs/archive/`):
 
-`app/Livewire/Components/Map/InteractiveMap.php` e la relativa view Blade non appartengono a `UI`.
+- `app/Adapters/Location/`, `app/Adapters/Map/`
+- contratti Location/Map/Geocoding
+- `LocationSelector.php` attivo
+- `bindIf` in `UIServiceProvider` verso null-adapters
 
-Rimosso definitivamente dal repo il 2026-07-22, archiviato forward-only in `docs/archive/Livewire/Map.old/InteractiveMap.php.old`.
-
-Non riattivarlo in `UI`. Se in futuro servira' una mappa, crearla nel modulo `Geo` e usare eventuali componenti UI solo come base visuale.
-
-## Caso Contracts/Adapters (LocationDataProviderContract, MapServiceContract, GeocodingServiceContract)
-
-Anche il pattern contract + null-object-adapter (`app/Contracts/{LocationDataProviderContract,MapServiceContract,GeocodingServiceContract}.php`, `app/Adapters/{Location,Map}/Null*Adapter.php`) introdotto per disaccoppiare `LocationSelector`/`InteractiveMap` da `Modules\Geo` è dominio geografico, non generico: non doveva vivere in `UI` nemmeno nella forma disaccoppiata.
-
-Rimosso dal repo il 2026-07-22, archiviato forward-only in `docs/archive/Contracts/*.old` e `docs/archive/Adapters/*.old`. `UIServiceProvider::register()` non fa più `bindIf` di questi contratti.
-
-## Motivazione
-
-Questa separazione evita dipendenze inverse, classi mancanti e accoppiamento tra design system e dominio geografico.
-
-## Progetto base_quaeris_fila5
-
-`laravel/Modules/Geo` **è presente e abilitato** in questo progetto (`"Geo": true` in `modules_statuses.json`), ma questo non autorizza `UI` a contenere logica/contratti geografici: la direzione delle dipendenze resta Geo → UI, mai il contrario.
+Se in un altro monorepo servirà geografia: implementare in `Modules/Geo`, non ricopiare in UI.
 
 ## Verifica
 
 ```bash
-grep -r "Modules\\\\Geo" app/ --include="*.php" | grep -v '\.old'
-test ! -f app/Livewire/Components/Map/InteractiveMap.php
-test ! -f resources/views/livewire/components/map/interactive-map.blade.php
-test ! -f app/Filament/Forms/Components/LocationSelector.php
-test ! -d app/Contracts/../Adapters
+cd laravel/Modules/UI
+test ! -d app/Adapters
 test ! -f app/Contracts/LocationDataProviderContract.php
 test ! -f app/Contracts/MapServiceContract.php
 test ! -f app/Contracts/GeocodingServiceContract.php
+test ! -f app/Filament/Forms/Components/LocationSelector.php
+grep -R "Modules\\\\Geo" app/ --include="*.php" || true
 ```
 
-## Handoff sessione
+## Cross-reference
 
-- [git-multi-org-sync-handoff.md](./git-multi-org-sync-handoff.md) (STORY-003)
+- [second-brain.md](./second-brain.md)
+- [filosofia-modulo-ui.md](./filosofia-modulo-ui.md)
