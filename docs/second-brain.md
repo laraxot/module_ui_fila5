@@ -1,7 +1,7 @@
 ---
 title: second brain — puntatore modulo UI
 type: reference
-qmd: second brain UI phpstan merge conflicts adapters map null services
+qmd: second brain UI phpstan geo-boundary no map adapters Location Map
 updated: 2026-07-22
 issues:
   - https://github.com/provtv/module_ui_fila5/issues
@@ -16,18 +16,18 @@ Stub **puntatore**: disciplina globale nella wiki di progetto; qui solo lezioni 
 ## Link operativi (relativi al repo)
 
 - Modello: [../../../../docs/wiki/concepts/second-brain-operating-model.md](../../../../docs/wiki/concepts/second-brain-operating-model.md)
+- Confine UI≠Geo: [./geo-boundary.md](./geo-boundary.md)
 - Git forward-only: [../../../../docs/wiki/rules/git-forward-only.md](../../../../docs/wiki/rules/git-forward-only.md)
-- Sweep PHPStan: [../../../../docs/chat/phpstan-l10-sweep-2026-07-22.md](../../../../docs/chat/phpstan-l10-sweep-2026-07-22.md)
 - Board multi-agente: [../../../../docs/chat/multi-agent-standing-coordination.md](../../../../docs/chat/multi-agent-standing-coordination.md)
 
-## Lezioni PHPStan / merge (2026-07-22)
+## Lezioni operative
 
 | Problema | Perché | Fix |
 |----------|--------|-----|
-| Bootstrap `unexpected <<` | Marker merge in PHP UI | Studiare `git show provtv/dev:path` e riscrivere (no restore) |
-| `phpstan.path` su `Services/Map/Null*Service` | File rimossi; cache swarm stale | Equivalente in `Adapters/Map/*Adapter`; wipe `storage/phpstan-swarm/*/cache-*` |
-| Race durante analyse lungo | Altri agenti re-introducono conflitti | Lock file caldi; claim su board |
+| Bootstrap `unexpected <<` | Marker merge in PHP UI | Studiare `git show` e riscrivere (no restore) |
+| Adapter Map/Location in UI | Dominio geografico, non design system | Eliminare; in `base_ptvx_fila5` Geo non c’è |
+| `phpstan.path` su `Services/Map/Null*` | File rimossi; cache stale | Wipe cache swarm; non ricreare Map in UI |
 
-**Map/Geo:** null-object = `app/Adapters/Map/NullMapServiceAdapter` + `NullGeocodingServiceAdapter` — non ricreare `app/Services/Map/`.
+**Map/Geo in UI: vietato.** Niente `Adapters/Map`, `Adapters/Location`, contratti Location/Map/Geocoding, `LocationSelector`, `InteractiveMap`. Storia in git.
 
 Remotes tipici: `provtv` + `laraxot` → `module_ui_fila5` (`git remote -v`).
