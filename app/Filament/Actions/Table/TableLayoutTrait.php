@@ -22,17 +22,8 @@ trait TableLayoutTrait
         /** @var TableLayoutEnum|string|int|null $layout */
         $layout = Session::get($sessionKey);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         // dddx($layout);
         if (null !== $layout && in_array($layout, TableLayoutEnum::cases(), strict: false)) {
-=======
-        if ($layout !== null && in_array($layout, TableLayoutEnum::cases(), strict: true)) {
->>>>>>> dfac49d (.)
-=======
-        // dddx($layout);
-        if (null !== $layout && in_array($layout, TableLayoutEnum::cases(), strict: false)) {
->>>>>>> dfbb8305 (.)
             // $layout è già un TableLayoutEnum dopo il controllo in_array con strict
             return $layout;
         }
@@ -40,15 +31,7 @@ trait TableLayoutTrait
         // Se $layout è una stringa/int, prova a convertirlo
         if (is_string($layout) || is_int($layout)) {
             $enum = TableLayoutEnum::tryFrom($layout);
-<<<<<<< HEAD
-<<<<<<< HEAD
             if (null !== $enum) {
-=======
-            if ($enum !== null) {
->>>>>>> dfac49d (.)
-=======
-            if (null !== $enum) {
->>>>>>> dfbb8305 (.)
                 return $enum;
             }
         }
