@@ -8,16 +8,11 @@ use Illuminate\Contracts\Support\Renderable;
 use Illuminate\View\Component;
 use Modules\Xot\Actions\GetViewAction;
 
-// use Modules\Xot\View\Components\XotBaseComponent;
-
 /**
- * .
+ * Navbar component.
  */
 final class Navbar extends Component
 {
-    /**
-     * Create a new component instance.
-     */
     public function __construct()
     {
     }
@@ -28,10 +23,6 @@ final class Navbar extends Component
          * @phpstan-var view-string
          */
         $view = app(GetViewAction::class)->execute();
-<<<<<<< HEAD
-=======
-        dddx($view);
->>>>>>> dfbb8305 (.)
         $viewParams = [];
 
         return view($view, $viewParams);
