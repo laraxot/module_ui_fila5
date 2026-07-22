@@ -1,9 +1,13 @@
 # Analisi Metodi Duplicati - Modulo UI
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Data Generazione**: 2025-10-15 06:41:17
 =======
 >>>>>>> dfac49d (.)
+=======
+**Data Generazione**: 2025-10-15 06:41:17
+>>>>>>> dfbb8305 (.)
 **Totale Gruppi di Duplicati**:
 
 ## Sommario Esecutivo

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 # Sistema di Theming
 
 ## 📊 Stato Implementazione
@@ -234,6 +237,7 @@ class ThemeCompiler
 3. Ottimizzare caching
 4. Aggiungere theme builder
 5. Migliorare documentazione 
+<<<<<<< HEAD
 =======
 ---
 module: theme
@@ -243,3 +247,5 @@ canonical: ../../../../Themes/docs/shared-components/theme-system.md
 
 See canonical documentation: ../../../../Themes/docs/shared-components/theme-system.md
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

@@ -23,4 +23,5 @@
 <use xlink:href="#star"/>
 <use xlink:href="#star" transform="rotate(120,250,150)"/>
 <use xlink:href="#star" transform="rotate(240,250,150)"/>
+<<<<<<< HEAD
 </svg>

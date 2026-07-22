@@ -141,6 +141,7 @@ Tutte le traduzioni seguono la struttura espansa:
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laraxot Translation Philosophy](../../Xot/docs/translation-philosophy.md)
 - [Translation Standards](../../Xot/docs/translation-standards.md)
 - [UI Module Documentation](../README.md)
@@ -149,6 +150,11 @@ Tutte le traduzioni seguono la struttura espansa:
 - [Translation Standards](../../xot/docs/translation-standards.md)
 - [UI Module Documentation](../readme.md)
 >>>>>>> dfac49d (.)
+=======
+- [Laraxot Translation Philosophy](../../Xot/docs/translation-philosophy.md)
+- [Translation Standards](../../Xot/docs/translation-standards.md)
+- [UI Module Documentation](../README.md)
+>>>>>>> dfbb8305 (.)
 
 *Intervento completato il: 2026-01-22*
 *Conforme alle regole DRY + KISS*

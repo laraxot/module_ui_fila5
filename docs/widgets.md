@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 # UI Widgets
 
 ## Overview
@@ -83,6 +86,9 @@ To create a new widget:
 - Use configuration arrays for customization
 - Document all available options and their defaults
 - Follow the established naming conventions and patterns
+<<<<<<< HEAD
 =======
 https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

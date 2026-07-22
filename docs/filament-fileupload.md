@@ -90,6 +90,7 @@ return [
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Translation System](../../Lang/docs/translation-system.md)
 - [Form Components](../../Patient/docs/filament-form-components.md)
 - [Best Practices](../../Xot/docs/filament-best-practices.md)
@@ -98,6 +99,11 @@ return [
 - [Form Components](../../patient/docs/filament-form-components.md)
 - [Best Practices](../../xot/docs/filament-best-practices.md)
 >>>>>>> dfac49d (.)
+=======
+- [Translation System](../../Lang/docs/translation-system.md)
+- [Form Components](../../Patient/docs/filament-form-components.md)
+- [Best Practices](../../Xot/docs/filament-best-practices.md)
+>>>>>>> dfbb8305 (.)
 
 ## Vedi Anche
 - [Filament File Upload](https://filamentphp.com/docs/forms/fields/file-upload)
@@ -194,6 +200,7 @@ return [
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Translation System](../../Lang/project_docs/translation-system.md)
 - [Form Components](../../Patient/project_docs/filament-form-components.md)
 - [Best Practices](../../Xot/project_docs/filament-best-practices.md)
@@ -202,6 +209,11 @@ return [
 - [Form Components](../../patient/project_docs/filament-form-components.md)
 - [Best Practices](../../xot/project_docs/filament-best-practices.md)
 >>>>>>> dfac49d (.)
+=======
+- [Translation System](../../Lang/project_docs/translation-system.md)
+- [Form Components](../../Patient/project_docs/filament-form-components.md)
+- [Best Practices](../../Xot/project_docs/filament-best-practices.md)
+>>>>>>> dfbb8305 (.)
 
 ## Vedi Anche
 - [Filament File Upload](https://filamentphp.com/project_docs/forms/fields/file-upload)

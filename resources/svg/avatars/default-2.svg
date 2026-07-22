@@ -3,4 +3,5 @@
   <circle cx="35" cy="40" r="5" fill="#F9FAFB"/>
   <circle cx="65" cy="40" r="5" fill="#F9FAFB"/>
   <path d="M30 60C30 60 38 70 50 70C62 70 70 60 70 60" stroke="#F9FAFB" stroke-width="4" stroke-linecap="round"/>
+<<<<<<< HEAD
 </svg>

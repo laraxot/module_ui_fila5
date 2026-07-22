@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ---
 title: "Separazione dello Schema dagli Step nei Wizard Filament"
 type: concept
@@ -15,8 +18,11 @@ related:
   - "./wizard-steps.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 # Separazione dello Schema dagli Step nei Wizard Filament
 
 ## Regola Fondamentale

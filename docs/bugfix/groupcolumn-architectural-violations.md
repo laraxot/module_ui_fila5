@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ---
 title: "Bugfix: GroupColumn Architectural Violations"
 type: concept
@@ -13,8 +16,11 @@ related:
   - "./iconcolumn-view-path-fix.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 # Bugfix: GroupColumn Architectural Violations
 
 **Data Fix**: 11 Novembre 2025
@@ -331,12 +337,17 @@ Column (Filament - DO NOT REFERENCE)
 ## Riferimenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laraxot Architectural Rules](../../architecture-rules-1.md)
 - [Never Use Label Rule](../never-use-label-rule-1.md)
 =======
 - [Laraxot Architectural Rules](../../architecture_rules.md)
 - [Never Use Label Rule](../never_use_label_rule.md)
 >>>>>>> dfac49d (.)
+=======
+- [Laraxot Architectural Rules](../../architecture-rules-1.md)
+- [Never Use Label Rule](../never-use-label-rule-1.md)
+>>>>>>> dfbb8305 (.)
 - [XotBaseColumn](../../../../Xot/app/Filament/Tables/Columns/XotBaseColumn.php)
 - [Translation Pattern](../../translations/)
 - [docs/blade-components.md](../../../../docs/blade-components.md)

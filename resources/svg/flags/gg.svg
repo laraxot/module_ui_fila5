@@ -5,4 +5,5 @@
 <use xlink:href="#arm" transform="rotate(90)"/>
 <use xlink:href="#arm" transform="rotate(-90)"/>
 <use xlink:href="#arm" transform="rotate(180)"/>
+<<<<<<< HEAD
 </svg>

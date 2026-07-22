@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 # Architectural Rules & Guidelines
 
 This module adheres to the **Laraxot Architecture** and **Super Cow Methodology**.
@@ -14,6 +17,7 @@ For strict coding standards, Filament extension rules, and PHPStan guidelines, p
 2.  **Zero Errors**: PHPStan Level 10 compliance is mandatory.
 3.  **XotBase**: Always extend `XotBase` classes, never Filament classes directly.
 4.  **Translations**: Use `LangServiceProvider` for automatic label resolution.
+<<<<<<< HEAD
 =======
 ---
 module: theme
@@ -23,3 +27,5 @@ canonical: ../../../Themes/docs/shared-components/architecture-rules-Modules.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/architecture-rules-Modules.md
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

@@ -186,10 +186,14 @@ Quando serve fare type narrowing di una variabile usata più volte, estrarre il 
 - [PHPStan Level 10 Documentation](https://phpstan.org/user-guide/rule-levels)
 - [PHPStan Compliance Report](phpstan-compliance.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [UI Module README](README.md)
 =======
 - [UI Module README](readme.md)
 >>>>>>> dfac49d (.)
+=======
+- [UI Module README](README.md)
+>>>>>>> dfbb8305 (.)
 - [Architecture Rules](architecture_rules.md)
 
 ---
@@ -199,6 +203,10 @@ Quando serve fare type narrowing di una variabile usata più volte, estrarre il 
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 11 Novembre 2025*
 =======
 >>>>>>> dfac49d (.)
+=======
+*Ultimo aggiornamento: 11 Novembre 2025*
+>>>>>>> dfbb8305 (.)

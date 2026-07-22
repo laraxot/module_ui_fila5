@@ -125,10 +125,14 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 
 ## Collegamenti Bidirezionali
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [README](README.md)
 =======
 - [README](readme.md)
 >>>>>>> dfac49d (.)
+=======
+- [README](README.md)
+>>>>>>> dfbb8305 (.)
 - [Componenti](components.md)
 - [Layout](layouts-and-themes.md)
 
@@ -136,10 +140,14 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 - [Tailwind Config](../config/tailwind.config.js)
 - [Theme Config](../config/theme.php)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Filament UI](../../Cms/docs/filament-components.md)
 =======
 - [Filament UI](../../cms/docs/filament-components.md)
 >>>>>>> dfac49d (.)
+=======
+- [Filament UI](../../Cms/docs/filament-components.md)
+>>>>>>> dfbb8305 (.)
 # Design System
 
 ## Panoramica
@@ -267,16 +275,21 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 
 ## Collegamenti Bidirezionali
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [README](README.md)
 =======
 - [README](readme.md)
 >>>>>>> dfac49d (.)
+=======
+- [README](README.md)
+>>>>>>> dfbb8305 (.)
 - [Componenti](components.md)
 - [Layout](layouts-and-themes.md)
 
 ## Vedi Anche
 - [Tailwind Config](../config/tailwind.config.js)
 - [Theme Config](../config/theme.php)
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Filament UI](../../Cms/project_docs/filament-components.md)
 - [Filament UI](../../Cms/project_docs/filament-components.md)
@@ -286,3 +299,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 - [Filament UI](../../cms/project_docs/filament-components.md)
 - [Filament UI](../../cms/project_docs/filament-components.md)
 >>>>>>> dfac49d (.)
+=======
+- [Filament UI](../../Cms/project_docs/filament-components.md)
+- [Filament UI](../../Cms/project_docs/filament-components.md)
+- [Filament UI](../../Cms/project_docs/filament-components.md)
+>>>>>>> dfbb8305 (.)

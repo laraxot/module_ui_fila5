@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ---
 title: "Struttura delle Filament Resources"
 type: concept
@@ -14,8 +17,11 @@ related:
   - "./structure.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 # Struttura delle Filament Resources
 
 ## Panoramica

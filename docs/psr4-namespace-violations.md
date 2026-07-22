@@ -396,6 +396,7 @@ composer dump-autoload = Manifestation of Truth
 
 **Documentazione Interna**:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [../../../docs/modules-index.md](../../../docs/modules-index.md) - Module Index
 - [../../Xot/docs/README.md](../../Xot/docs/README.md) - XotBase Pattern
 - [./README.md](./README.md) - UI Module Overview
@@ -404,6 +405,11 @@ composer dump-autoload = Manifestation of Truth
 - [../../Xot/docs/README.md](../../xot/docs/readme.md) - XotBase Pattern
 - [./README.md](./readme.md) - UI Module Overview
 >>>>>>> dfac49d (.)
+=======
+- [../../../docs/modules-index.md](../../../docs/modules-index.md) - Module Index
+- [../../Xot/docs/README.md](../../Xot/docs/README.md) - XotBase Pattern
+- [./README.md](./README.md) - UI Module Overview
+>>>>>>> dfbb8305 (.)
 
 ---
 

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ---
 title: "RadioCollection Component - Implementation Guide"
 type: concept
@@ -19,8 +22,11 @@ related:
   - "./full-calendar-1.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 # RadioCollection Component - Implementation Guide
 
 ## Overview
@@ -246,10 +252,14 @@ RadioCollection::make('studio_id')
 
 - [UI Module Overview](../ui.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Filament Form Components](../filament/filament-components-usage-1.md)
 =======
 - [Filament Form Components](../filament/filament_components_usage.md)
 >>>>>>> dfac49d (.)
+=======
+- [Filament Form Components](../filament/filament-components-usage-1.md)
+>>>>>>> dfbb8305 (.)
 - [Radio Collection Philosophy](./radio-collection-philosophy.md)
 
 ## Change Log

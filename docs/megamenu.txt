@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 https://www.tailwindtoolbox.com/components/megamenu
 
 
@@ -20,6 +23,7 @@ https://medium.com/themesberg-blog/how-to-build-a-mega-menu-with-tailwind-css-an
 
 
 
+<<<<<<< HEAD
 =======
 ---
 module: theme
@@ -29,3 +33,5 @@ canonical: ../../../Themes/docs/shared-components/megamenu.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/megamenu.md
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

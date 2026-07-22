@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ---
 title: "filament"
 type: concept
@@ -19,8 +22,11 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 # filament
 
 <!-- Contenuto migrato da _docs/filament.txt -->

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 # Struttura Pagine Filament - Modulo UI
 
 ## Panoramica
@@ -182,6 +185,7 @@ class S3Test extends XotBasePage
 - [Blade Components](./blade-components.md)
 
 *Ultimo aggiornamento: 2025-01-06*
+<<<<<<< HEAD
 =======
 ---
 module: theme
@@ -191,3 +195,5 @@ canonical: ../../../Themes/docs/shared-components/filament-pages-structure.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/filament-pages-structure.md
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

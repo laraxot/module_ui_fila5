@@ -11,9 +11,12 @@ jobs:
     if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
       - name: Dependabot metadata
         id: metadata
         uses: dependabot/fetch-metadata@latest

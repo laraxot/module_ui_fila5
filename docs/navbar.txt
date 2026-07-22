@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 https://tw-elements.com/docs/standard/navigation/navbar/
 
 https://flowbite.com/docs/components/navbar/
@@ -8,6 +11,7 @@ https://tailwindflex.com/tag/navbar
 https://freefrontend.com/tailwind-navbars/
 
 
+<<<<<<< HEAD
 =======
 ---
 module: theme
@@ -17,3 +21,5 @@ canonical: ../../../Themes/docs/shared-components/navbar.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/navbar.md
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

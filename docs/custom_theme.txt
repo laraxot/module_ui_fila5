@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss
 
 
@@ -10,6 +13,7 @@ in app/Providers/Filament/AdminPanelProvider.php
 ->viteTheme('resources/css/filament/admin/theme.css')
 
 
+<<<<<<< HEAD
 =======
 ---
 module: theme
@@ -19,3 +23,5 @@ canonical: ../../../Themes/docs/shared-components/custom-theme.txt
 
 See canonical documentation: ../../../Themes/docs/shared-components/custom-theme.txt
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

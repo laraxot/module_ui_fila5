@@ -1,9 +1,13 @@
 # Filament 4.x Upgrade - Modulo UI
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Data**: 2025-09-30
 =======
 >>>>>>> dfac49d (.)
+=======
+**Data**: 2025-09-30
+>>>>>>> dfbb8305 (.)
 **Status**: ✅ COMPLETATO
 **Versione Filament**: 4.0.20
 
@@ -149,17 +153,23 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 4. **Testing**: Testare approfonditamente il widget quando il pacchetto sarà aggiornato
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 *Ultimo aggiornamento: 2025-09-30*
 *Modulo UI compatibile con Filament 4.0.20*
 # Filament 4.x Upgrade - Modulo UI
 
 **Data**: 2025-09-30
+<<<<<<< HEAD
 =======
 *Ultimo aggiornamento: [DATE]*
 *Modulo UI compatibile con Filament 4.0.20*
 # Filament 4.x Upgrade - Modulo UI
 
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 **Status**: ✅ COMPLETATO
 **Versione Filament**: 4.0.20
 
@@ -305,8 +315,12 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 4. **Testing**: Testare approfonditamente il widget quando il pacchetto sarà aggiornato
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-09-30*
 =======
 *Ultimo aggiornamento: [DATE]*
 >>>>>>> dfac49d (.)
+=======
+*Ultimo aggiornamento: 2025-09-30*
+>>>>>>> dfbb8305 (.)
 *Modulo UI compatibile con Filament 4.0.20*

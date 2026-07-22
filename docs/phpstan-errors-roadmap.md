@@ -1,9 +1,13 @@
 # PHPStan Level 10 Errors Roadmap - UI Module
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Data**: 2026-01-09  
 =======
 >>>>>>> dfac49d (.)
+=======
+**Data**: 2026-01-09  
+>>>>>>> dfbb8305 (.)
 **Modulo**: UI  
 **Livello PHPStan**: 10  
 **Status**: 🧘 **IN ANALISI**
@@ -117,7 +121,11 @@
 **Status**: 🧘 **IN ANALISI**
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Ultimo aggiornamento**: 2026-01-09
 =======
 **Ultimo aggiornamento**: [DATE]
 >>>>>>> dfac49d (.)
+=======
+**Ultimo aggiornamento**: 2026-01-09
+>>>>>>> dfbb8305 (.)

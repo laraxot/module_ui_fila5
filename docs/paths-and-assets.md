@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # AVVISO IMPORTANTE (2025-05-13)
 =======
 # AVVISO IMPORTANTE ([DATE])
 >>>>>>> dfac49d (.)
+=======
+# AVVISO IMPORTANTE (2025-05-13)
+>>>>>>> dfbb8305 (.)
 
 > **ATTENZIONE:** Tutti i componenti UI condivisi (come `logo.blade.php`) devono essere SEMPRE posizionati in `Modules/UI/resources/views/components/ui/` e MAI in `resources/views/components/`. Qualsiasi violazione di questa regola causa errori di rendering, override errati, problemi di modularità e manutenzione.
 >
@@ -13,11 +17,15 @@
 > **Soluzione:** Seguire SEMPRE la regola documentata qui sotto e aggiornata anche in README.md e nella root docs/links.md.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 # Gestione dei Percorsi e degli Asset
 
 ## Collegamenti correlati
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
 - [Architettura Modulare](/laravel/Modules/UI/docs/ARCHITECTURE.md)
+<<<<<<< HEAD
 =======
 # Gestione dei Percorsi e degli Asset 
 
@@ -25,6 +33,8 @@
 - [README modulo UI](/laravel/modules/ui/docs/readme.md)
 - [Architettura Modulare](/laravel/modules/ui/docs/architecture.md)
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
 
 ## Percorsi Corretti per gli Asset
@@ -35,15 +45,21 @@
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 
 
 
 
 
 
+<<<<<<< HEAD
 =======
 /var/www/html/Quaeris/
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 ├── laravel/                 # Applicazione Laravel (codice sorgente)
 │   ├── Modules/             # Moduli dell'applicazione
 │   ├── resources/           # Risorse non compilate
@@ -62,6 +78,9 @@
 | Tipo di Asset | ✅ Percorso Corretto | ❌ Percorso Errato |
 |---------------|---------------------|-------------------|
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 | Immagini | `public_html/images/` | `public/images/` |
 | CSS | `public_html/css/` | `public/css/` |
 | JavaScript | `public_html/js/` | `public/js/` |
@@ -70,12 +89,15 @@
 | CSS | `public_html/css/` | `public/css/` |
 | JavaScript | `public_html/js/` | `public/js/` |
 | SVG | `public_html/images/` | `public/images/` |
+<<<<<<< HEAD
 =======
 | Immagini | `/var/www/html/Quaeris/public_html/images/` | `/var/www/html/Quaeris/laravel/public/images/` |
 | CSS | `/var/www/html/Quaeris/public_html/css/` | `/var/www/html/Quaeris/laravel/public/css/` |
 | JavaScript | `/var/www/html/Quaeris/public_html/js/` | `/var/www/html/Quaeris/laravel/public/js/` |
 | SVG | `/var/www/html/Quaeris/public_html/images/` | `/var/www/html/Quaeris/laravel/public/images/` |
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 
 ## Utilizzo degli Asset nei Componenti Blade
 
@@ -93,10 +115,14 @@ Per garantire una buona esperienza utente, implementare sempre un fallback per l
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <img
 =======
 <img 
 >>>>>>> dfac49d (.)
+=======
+<img
+>>>>>>> dfbb8305 (.)
     src="{{ asset('images/avatars/default-' . $avatarNumber . '.svg') }}"
     alt="{{ $user->name ?? 'User' }}"
     onerror="this.src='{{ asset('images/default-avatar.svg') }}'"
@@ -111,15 +137,21 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 Themes/One/resources/views/components/ui/
 Themes/One/resources/views/components/ui/
 Themes/One/resources/views/components/ui/
 Themes/One/resources/views/components/ui/
 Themes/One/resources/views/components/ui/
 Themes/One/resources/views/components/ui/
+<<<<<<< HEAD
 =======
 /var/www/html/Quaeris/laravel/Themes/One/resources/views/components/ui/
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 ```
 
 ### SVG come Asset Pubblici
@@ -128,15 +160,21 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 public_html/images/
 public_html/images/
 public_html/images/
 public_html/images/
 public_html/images/
 public_html/images/
+<<<<<<< HEAD
 =======
 /var/www/html/Quaeris/public_html/images/
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 ```
 
 ## Gestione dei Componenti UI
@@ -147,30 +185,42 @@ Il componente avatar è implementato in:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 Themes/One/resources/views/components/ui/avatar.blade.php
 Themes/One/resources/views/components/ui/avatar.blade.php
 Themes/One/resources/views/components/ui/avatar.blade.php
 Themes/One/resources/views/components/ui/avatar.blade.php
 Themes/One/resources/views/components/ui/avatar.blade.php
 Themes/One/resources/views/components/ui/avatar.blade.php
+<<<<<<< HEAD
 =======
 /var/www/html/Quaeris/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 ```
 
 E utilizza gli avatar SVG dalla directory pubblica:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 public_html/images/avatars/
 public_html/images/avatars/
 public_html/images/avatars/
 public_html/images/avatars/
 public_html/images/avatars/
 public_html/images/avatars/
+<<<<<<< HEAD
 =======
 /var/www/html/Quaeris/public_html/images/avatars/
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 ```
 
 ### Componente Icon
@@ -179,15 +229,21 @@ Il componente icon è implementato in:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 Themes/One/resources/views/components/ui/icon.blade.php
 Themes/One/resources/views/components/ui/icon.blade.php
 Themes/One/resources/views/components/ui/icon.blade.php
 Themes/One/resources/views/components/ui/icon.blade.php
 Themes/One/resources/views/components/ui/icon.blade.php
 Themes/One/resources/views/components/ui/icon.blade.php
+<<<<<<< HEAD
 =======
 /var/www/html/Quaeris/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 ```
 
 E include le definizioni SVG direttamente nel componente.
@@ -197,10 +253,14 @@ E include le definizioni SVG direttamente nel componente.
 > **IMPORTANTE:** Tutti i componenti Blade UI condivisi (es. logo, button, badge, ecc.) devono essere posizionati esclusivamente in:
 >
 <<<<<<< HEAD
+<<<<<<< HEAD
 > `Modules/UI/resources/views/components/ui/`
 =======
 > `/var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/`
 >>>>>>> dfac49d (.)
+=======
+> `Modules/UI/resources/views/components/ui/`
+>>>>>>> dfbb8305 (.)
 >
 > **MAI** in `resources/views/components/ui/` della root Laravel.
 
@@ -215,11 +275,15 @@ E include le definizioni SVG direttamente nel componente.
 **❌ Errato:**
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 resources/views/components/ui/logo.blade.php
 ```
 **✅ Corretto:**
 ```
 Modules/UI/resources/views/components/ui/logo.blade.php
+<<<<<<< HEAD
 =======
 /var/www/html/ptvx/laravel/resources/views/components/ui/logo.blade.php
 ```
@@ -227,6 +291,8 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 ```
 /var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/logo.blade.php
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 ```
 
 ## Best Practices
@@ -241,6 +307,9 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 ## Errori Comuni
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 1. **Utilizzo del percorso Laravel public**: Utilizzare `public/` invece di `public_html/`
 1. **Utilizzo del percorso Laravel public**: Utilizzare `public/` invece di `public_html/`
 1. **Utilizzo del percorso Laravel public**: Utilizzare `public/` invece di `public_html/`
@@ -400,9 +469,12 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 ## Errori Comuni
 
 1. **Utilizzo del percorso Laravel public**: Utilizzare `public/` invece di `public_html/`
+<<<<<<< HEAD
 =======
 1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/Quaeris/laravel/public/` invece di `/var/www/html/Quaeris/public_html/`
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile
 4. **Inconsistenza nei nomi dei file**: Utilizzare convenzioni di naming diverse per file simili
