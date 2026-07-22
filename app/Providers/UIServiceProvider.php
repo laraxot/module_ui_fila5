@@ -4,11 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\UI\Providers;
 
-<<<<<<< HEAD
-use Modules\UI\Adapters\Location\NullLocationDataProviderAdapter;
-use Modules\UI\Contracts\LocationDataProviderContract;
-=======
->>>>>>> dfac49d (.)
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 use Modules\Xot\Providers\XotBaseServiceProvider;
 
@@ -33,36 +28,6 @@ class UIServiceProvider extends XotBaseServiceProvider
     protected string $module_dir = __DIR__;
 
     protected string $module_ns = __NAMESPACE__;
-
-    /**
-<<<<<<< HEAD
-     * Registra il binding di default (null-object) per LocationDataProviderContract.
-     *
-     * Un modulo esterno (es. Geo) può sovrascrivere questo binding registrando
-     * la propria implementazione concreta nel container.
-     */
-    public function register(): void
-    {
-        parent::register();
-
-        $this->app->bindIf(LocationDataProviderContract::class, NullLocationDataProviderAdapter::class);
-    }
-
-    /**
-=======
->>>>>>> dfac49d (.)
-     * Boot del service provider.
-     *
-     * Configura i componenti Blade e altre funzionalità del modulo UI.
-     *
-     * @return void
-     */
-
-    /**
-     * Registra i servizi del provider.
-     *
-     * @return void
-     */
 
     /**
      * Restituisce il percorso delle viste dei componenti UI.
