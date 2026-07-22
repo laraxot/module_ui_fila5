@@ -4,44 +4,19 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Tables\Columns;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Filament\Tables\Columns\XotBaseSelectColumn;
 
 class SelectStateColumn extends XotBaseSelectColumn
-<<<<<<< HEAD
-=======
-use Filament\Tables\Columns\SelectColumn;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Arr;
-use Modules\Xot\Actions\Cast\SafeStringCastAction;
-use ReflectionClass;
-use ReflectionException;
-
-class SelectStateColumn extends SelectColumn
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
 {
     protected function setUp(): void
     {
         parent::setUp();
         $this->options(function (Model $record, mixed $state): array {
             $name = $this->getName();
-<<<<<<< HEAD
-<<<<<<< HEAD
             if (null === $state) {
-=======
-            if ($state === null) {
->>>>>>> dfac49d (.)
-=======
-            if (null === $state) {
->>>>>>> dfbb8305 (.)
                 if (! method_exists($record, 'getDefaultStateFor')) {
                     return [];
                 }
@@ -78,36 +53,15 @@ class SelectStateColumn extends SelectColumn
                 if (class_exists($stateClass)) {
                     $stateNameProperty = null;
                     try {
-<<<<<<< HEAD
-<<<<<<< HEAD
                         $reflection = new \ReflectionClass($stateClass);
-=======
-                        $reflection = new ReflectionClass($stateClass);
->>>>>>> dfac49d (.)
-=======
-                        $reflection = new \ReflectionClass($stateClass);
->>>>>>> dfbb8305 (.)
                         if ($reflection->hasProperty('name')) {
                             $nameProperty = $reflection->getStaticPropertyValue('name');
                             $stateNameProperty = \is_string($nameProperty) ? $nameProperty : null;
                         }
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    } catch (\ReflectionException) {
-                    }
-                    if (null !== $stateNameProperty) {
-=======
-                    } catch (ReflectionException) {
-                        // Intentionally ignored: fall back to $stateNameProperty === null below.
-                    }
-                    if ($stateNameProperty !== null) {
->>>>>>> dfac49d (.)
-=======
                     } catch (\ReflectionException) {
                         // Skip if the "name" static property cannot be reflected.
                     }
                     if (null !== $stateNameProperty) {
->>>>>>> dfbb8305 (.)
                         $statesValues = array_values($states);
                         /** @var list<int|string> $statesValuesTyped */
                         $statesValuesTyped = $statesValues;

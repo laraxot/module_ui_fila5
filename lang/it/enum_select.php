@@ -4,21 +4,7 @@ declare(strict_types=1);
 
 return [
     'fields' => [
-<<<<<<< HEAD
-<<<<<<< HEAD
         'type_id' => ['label' => 'type_id', 'placeholder' => 'type_id', 'helper_text' => 'type_id', 'description' => 'type_id'],
         'enum' => ['label' => 'enum', 'placeholder' => 'enum', 'helper_text' => 'enum', 'description' => 'enum'],
-=======
-        'type_id' => [
-            'label' => 'type_id',
-            'placeholder' => 'type_id',
-            'helper_text' => 'type_id',
-            'description' => 'type_id',
-        ],
->>>>>>> dfac49d (.)
-=======
-        'type_id' => ['label' => 'type_id', 'placeholder' => 'type_id', 'helper_text' => 'type_id', 'description' => 'type_id'],
-        'enum' => ['label' => 'enum', 'placeholder' => 'enum', 'helper_text' => 'enum', 'description' => 'enum'],
->>>>>>> dfbb8305 (.)
     ],
 ];

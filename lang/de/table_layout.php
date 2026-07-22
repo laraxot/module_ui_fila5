@@ -3,10 +3,6 @@
 declare(strict_types=1);
 
 return [
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
     'values' => [
         'list' => [
             'label' => 'Liste',
@@ -21,11 +17,6 @@ return [
             'description' => 'Raster',
         ],
     ],
-<<<<<<< HEAD
-=======
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
     'actions' => [
         'toggle' => [
             'label' => 'Layout wechseln',

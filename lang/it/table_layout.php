@@ -3,10 +3,6 @@
 declare(strict_types=1);
 
 return [
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> dfbb8305 (.)
     'values' => [
         'list' => [
             'label' => 'Elenco',
@@ -24,14 +20,6 @@ return [
     'actions' => [
         'toggle' => [
             'label' => 'Cambia Layout!!',
-<<<<<<< HEAD
-=======
-    'actions' => [
-        'toggle' => [
-            'label' => 'Cambia Layout',
->>>>>>> dfac49d (.)
-=======
->>>>>>> dfbb8305 (.)
             'tooltip' => 'Passa da vista a elenco a vista a griglia',
             'helper_text' => 'Cambia il tipo di visualizzazione',
         ],

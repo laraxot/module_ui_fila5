@@ -5,20 +5,9 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Tables\Columns\Column;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
 
 class GroupColumn extends XotBaseColumn
-=======
-
-class GroupColumn extends Column
->>>>>>> dfac49d (.)
-=======
-use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
-
-class GroupColumn extends XotBaseColumn
->>>>>>> dfbb8305 (.)
 {
     /** @var array<int|string, mixed> */
     public array $form = [];
@@ -51,28 +40,10 @@ class GroupColumn extends XotBaseColumn
     /**
      * @param array<int|string, mixed> $form
      */
-<<<<<<< HEAD
-<<<<<<< .merge_file_bFKhGW
-    public function schema(array $form): self
-=======
-<<<<<<< HEAD
-    public function schema(array $form): static
->>>>>>> .merge_file_UAUGOX
-    {
-        // Type-check to ensure all elements are Column instances
-        $filtered = array_filter($form, function (mixed $item): bool {
-=======
-    public function schema(array $form): self
-    {
-        // Type-check to ensure all elements are Column instances
-        $filtered = array_filter($form, static function (mixed $item): bool {
->>>>>>> dfac49d (.)
-=======
     public function schema(array $form): static
     {
         // Type-check to ensure all elements are Column instances
         $filtered = array_filter($form, function (mixed $item): bool {
->>>>>>> dfbb8305 (.)
             return $item instanceof Column;
         });
 
