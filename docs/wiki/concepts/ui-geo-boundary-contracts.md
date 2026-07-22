@@ -1,45 +1,43 @@
 ---
-title: "ui geo boundary contracts"
+title: "ui geo boundary — niente contratti mappa in UI"
 type: concept
 module: UI
-tags: [ui, geo, contracts, adapters, interactive-map, location-selector]
+tags: [ui, geo, contracts, adapters, boundary]
 created: 2026-07-22
 updated: 2026-07-22
-qmd: "UI Geo boundary LocationDataProviderContract MapServiceContract GeocodingServiceContract InteractiveMap null adapter bindIf"
-issues:
-  - https://github.com/laraxot/base_quaeris_fila5/issues/122
-discussions:
-  - https://github.com/laraxot/base_quaeris_fila5/discussions/124
+qmd: "UI Geo boundary no Location Map Geocoding contracts adapters LocationSelector InteractiveMap"
+issues: []
+discussions: []
 related:
+  - ../../geo-boundary.md
+  - ../../second-brain.md
   - ./block-rendering-and-optional-services.md
-  - ./no-services-no-support-queueable-actions.md
-  - ../../../../../../docs/chat/module-ui-geo-dependency-removal.md
-  - ../../../../../../docs/chat/phpstan-modules-status.md
 ---
 
-# UI ↛ Geo — confini via Contract + Adapter
+# UI ↛ Geo — confini (senza contratti in UI)
 
 ## Perché
 
-`Modules\UI` è riusabile: non deve importare `Modules\Geo\*`. Geo (o altro modulo) fornisce dati/mappa **solo** registrando implementazioni nel container.
+`Modules\UI` = design system. Geografia/mappe = dominio `Geo`.
 
-## Contratti (SSoT UI)
+Il pattern “contract + null-adapter in UI” era un compromesso sbagliato: spostava il **dominio** geografico dentro UI sotto forma di interfacce. Se serve mappa/location, vive in `Modules/Geo` (quando il monorepo lo include).
 
-| Contract | Uso |
-|----------|-----|
-| `LocationDataProviderContract` | regioni/province/CAP (`LocationSelector`) |
-| `MapServiceContract` | marker/stats/export (`InteractiveMap`) |
-| `GeocodingServiceContract` | geocode + suggerimenti (`InteractiveMap`) |
+## Stato (2026-07-22)
 
-## Null-object
+**Rimossi da UI** (non ricreare):
 
-`app/Adapters/Map/*` e `app/Adapters/Location/*` — binding default con `bindIf` in `UIServiceProvider::register()`.
+- `app/Adapters/Location/`, `app/Adapters/Map/`
+- `LocationDataProviderContract`, `MapServiceContract`, `GeocodingServiceContract`
+- `LocationSelector`, `InteractiveMap`
+- `bindIf` Geo in `UIServiceProvider`
 
-**Vietato:** `app/Services/` (duplicati rimossi 2026-07-22).
+Canon operativo: [../../geo-boundary.md](../../geo-boundary.md)
 
 ## Verifica
 
 ```bash
-rg 'use Modules\\Geo\\' Modules/UI --glob '*.php'   # deve essere vuoto
-cd laravel && ./vendor/bin/phpstan analyse Modules/UI
+cd laravel/Modules/UI
+test ! -d app/Adapters
+rg 'LocationDataProviderContract|MapServiceContract|GeocodingServiceContract' app --glob '*.php'
+# deve essere vuoto
 ```

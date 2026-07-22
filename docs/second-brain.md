@@ -28,6 +28,6 @@ Stub **puntatore**: disciplina globale nella wiki di progetto; qui solo lezioni 
 | Adapter Map/Location in UI | Dominio geografico, non design system | Eliminare; in `base_ptvx_fila5` Geo non c’è |
 | `phpstan.path` su `Services/Map/Null*` | File rimossi; cache stale | Wipe cache swarm; non ricreare Map in UI |
 
-**Map/Geo in UI: vietato.** Niente `Adapters/Map`, `Adapters/Location`, contratti Location/Map/Geocoding, `LocationSelector`, `InteractiveMap`. Storia in git.
+**Map/Geo:** Nel modulo `UI` non devono esserci elementi legati a mappe, geolocalizzazione o dati geografici. Le cartelle `app/Adapters/Location` e `app/Adapters/Map` sono state rimosse. Il modulo `Geo` è un ambito separato e non fa parte di questo progetto; il modulo `UI` deve mantenere responsabilità esclusiva sui componenti UI generici.
 
 Remotes tipici: `provtv` + `laraxot` → `module_ui_fila5` (`git remote -v`).

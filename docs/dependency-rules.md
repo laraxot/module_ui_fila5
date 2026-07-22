@@ -42,31 +42,17 @@ I componenti che richiedono funzionalità geografiche **appartengono al modulo G
 | `app/Filament/Forms/Components/LocationSelector.php.old`                    | Usa `Modules\Geo\Models\Comune` direttamente    | `Modules/Geo/`     |
 | `resources/views/livewire/components/map/interactive-map.blade.php.old`     | View del componente Geo disabilitato            | `Modules/Geo/`     |
 
-### Contratti e Null Services (accettabili in UI)
+### Contratti / Adapter Map-Location — **non** accettabili in UI
 
-I seguenti file sono **accettabili** nel modulo UI perché definiscono interfacce astratte senza dipendere da classi Geo concrete:
+Rimossi il 2026-07-22 (vedi [geo-boundary.md](./geo-boundary.md)): anche i contratti/null-adapter erano dominio geografico.
 
-| File                                            | Motivo                                                    |
-|-------------------------------------------------|-----------------------------------------------------------|
-| `app/Contracts/GeocodingServiceContract.php`    | Interfaccia astratta — nessuna dipendenza da Geo          |
-| `app/Contracts/MapServiceContract.php`          | Interfaccia astratta — nessuna dipendenza da Geo          |
-| `app/Services/Map/NullGeocodingService.php`     | Null Object pattern — fallback quando Geo non è installato |
-| `app/Services/Map/NullMapService.php`           | Null Object pattern — fallback quando Geo non è installato |
+| Rimosso | Motivo |
+|---------|--------|
+| `app/Adapters/Location/`, `app/Adapters/Map/` | Dominio Geo, non design system |
+| `LocationDataProviderContract`, `MapServiceContract`, `GeocodingServiceContract` | Stesso dominio |
+| `LocationSelector.php` attivo | Selettore geografico |
 
-### Documentazione archiviata
-
-| File                                        | Motivo                              |
-|---------------------------------------------|-------------------------------------|
-| `docs/map-integration-guide.md.old`         | Descriveva componenti Geo nel UI    |
-
----
-
-## LocationSelector: già disabilitato
-
-`LocationSelector` importava direttamente `Modules\Geo\Models\Comune` — violazione della regola.
-È stato rinominato `LocationSelector.php.old` in data 2026-07-06.
-
-Se in futuro si vuole un selettore regione/provincia/CAP nel modulo UI, deve usare **solo contratti astratti** (es. `GeocodingServiceContract`) e ricevere i dati via dependency injection, senza importare classi concrete di Geo.
+Se serve geografia: modulo `Geo` (quando presente), mai ricopiare in UI.
 
 ---
 
