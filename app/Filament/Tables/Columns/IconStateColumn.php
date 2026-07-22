@@ -5,23 +5,30 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Tables\Columns;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Exception;
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 use Filament\Actions\Action;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
 use Filament\Notifications\Notification;
 use Filament\Schemas\Components\Utilities\Get;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Filament\Tables\Columns\IconColumn;
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Contracts\StateContract as XotStateContract;
+<<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\Xot\Filament\Tables\Columns\XotBaseIconColumn;
 
@@ -30,6 +37,11 @@ class IconStateColumn extends XotBaseIconColumn
 
 class IconStateColumn extends IconColumn
 >>>>>>> dfac49d (.)
+=======
+use Modules\Xot\Filament\Tables\Columns\XotBaseIconColumn;
+
+class IconStateColumn extends XotBaseIconColumn
+>>>>>>> dfbb8305 (.)
 {
     protected function setUp(): void
     {
@@ -37,6 +49,9 @@ class IconStateColumn extends IconColumn
         // $this->getStateUsing(fn() => true); // the column requires a state to be passed to it
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
         $this->icon(function (XotStateContract $state) {
             return $state->icon();
         });
@@ -46,6 +61,7 @@ class IconStateColumn extends IconColumn
         });
 
         $this->tooltip(function (XotStateContract $state) {
+<<<<<<< HEAD
 =======
         $this->icon(static function (XotStateContract $state) {
             return $state->icon();
@@ -57,6 +73,8 @@ class IconStateColumn extends IconColumn
 
         $this->tooltip(static function (XotStateContract $state) {
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
             return $state->label();
         });
         // $this->label('aaa');
@@ -69,10 +87,14 @@ class IconStateColumn extends IconColumn
                             $name = $this->getName();
                             $state = $record->getAttribute($name);
 <<<<<<< HEAD
+<<<<<<< HEAD
                             if (null === $state) {
 =======
                             if ($state === null) {
 >>>>>>> dfac49d (.)
+=======
+                            if (null === $state) {
+>>>>>>> dfbb8305 (.)
                                 if (! method_exists($record, 'getDefaultStateFor')) {
                                     return [];
                                 }
@@ -98,10 +120,14 @@ class IconStateColumn extends IconColumn
                                 /** @var array<int|string, mixed> $statesArray */
                                 $statesArray = $state->transitionableStates();
 <<<<<<< HEAD
+<<<<<<< HEAD
                             } catch (\Exception $e) {
 =======
                             } catch (Exception $e) {
 >>>>>>> dfac49d (.)
+=======
+                            } catch (\Exception $e) {
+>>>>>>> dfbb8305 (.)
                                 if (! method_exists($record, 'getStatesFor')) {
                                     return [];
                                 }
@@ -116,10 +142,14 @@ class IconStateColumn extends IconColumn
                             }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                             return Arr::mapWithKeys($statesArray, function (mixed $stateItem) use ($record): array {
 =======
                             return Arr::mapWithKeys($statesArray, static function (mixed $stateItem) use ($record): array {
 >>>>>>> dfac49d (.)
+=======
+                            return Arr::mapWithKeys($statesArray, function (mixed $stateItem) use ($record): array {
+>>>>>>> dfbb8305 (.)
                                 if (! is_string($stateItem)) {
                                     return [];
                                 }
@@ -180,19 +210,27 @@ class IconStateColumn extends IconColumn
                     /** @var array<string, mixed> $data */
                     if (! isset($data['state']) || ! is_string($data['state'])) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                         throw new \Exception('State is required and must be a string');
 =======
                         throw new Exception('State is required and must be a string');
 >>>>>>> dfac49d (.)
+=======
+                        throw new \Exception('State is required and must be a string');
+>>>>>>> dfbb8305 (.)
                     }
                     $state = $data['state'];
                     /** @var Model $record */
                     if (! is_object($record)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                         throw new \Exception('Record must be an object');
 =======
                         throw new Exception('Record must be an object');
 >>>>>>> dfac49d (.)
+=======
+                        throw new \Exception('Record must be an object');
+>>>>>>> dfbb8305 (.)
                     }
                     $model = Str::of(class_basename($record))->slug()->toString();
                     /** @var string $label */
@@ -201,10 +239,14 @@ class IconStateColumn extends IconColumn
                     $currentState = $record->getAttribute($this->getName());
                     if (! is_object($currentState) || ! method_exists($currentState, 'transitionTo')) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                         throw new \Exception('Current state is not a valid State instance');
 =======
                         throw new Exception('Current state is not a valid State instance');
 >>>>>>> dfac49d (.)
+=======
+                        throw new \Exception('Current state is not a valid State instance');
+>>>>>>> dfbb8305 (.)
                     }
 
                     /** @var string|null $message */

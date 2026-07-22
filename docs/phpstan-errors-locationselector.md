@@ -109,7 +109,11 @@ Aggiungere `@phpstan-ignore` e gestione errori:
 - Documentare struttura dati JSON attesa
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-27*
 =======
 >>>>>>> dfac49d (.)
+=======
+*Ultimo aggiornamento: 2025-01-27*
+>>>>>>> dfbb8305 (.)
 

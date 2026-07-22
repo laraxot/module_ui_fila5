@@ -119,6 +119,9 @@ class RadioCardSelector extends XotBaseField
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
      * @param array<mixed, mixed> $item
      *
      * @return array<string, mixed>
@@ -139,8 +142,11 @@ class RadioCardSelector extends XotBaseField
     }
 
     /**
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
      * Ottiene il titolo della sezione.
      */
     public function getSectionTitle(): ?string
@@ -180,6 +186,7 @@ class RadioCardSelector extends XotBaseField
         return $this->emptyStateDesc;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
     /**
@@ -202,4 +209,6 @@ class RadioCardSelector extends XotBaseField
         return $card;
     }
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 }

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ---
 title: "Errore di incompatibilità tra metodi statici e di istanza in Filament"
 type: concept
@@ -13,8 +16,11 @@ related:
   - "./dropdown-list-item-tag.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 # Errore di incompatibilità tra metodi statici e di istanza in Filament
 
 ## Problema

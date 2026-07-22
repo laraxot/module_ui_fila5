@@ -1,9 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 https://naxon.dev/blog/laravel-media-library-load-only-1st-picture-efficiently
 
 https://www.answeroverflow.com/m/1158821463168659496
 
 
+<<<<<<< HEAD
 =======
 ---
 module: theme
@@ -13,3 +17,5 @@ canonical: ../../../Themes/docs/shared-components/media.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/media.md
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

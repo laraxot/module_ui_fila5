@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3600 2400">
 <title>Flag of Equatorial Guinea</title>
 <rect width="3600" height="2400" fill="#e32118"/>
@@ -73,9 +76,13 @@
 </g>
 </g>
 </g>
+<<<<<<< HEAD
 </svg>
 =======
 version https://git-lfs.github.com/spec/v1
 oid sha256:f7daaac491b0831ecb8bf23aa24b6773d6b668da9c6541d96986506b6054b19a
 size 8135
 >>>>>>> dfac49d (.)
+=======
+</svg>
+>>>>>>> dfbb8305 (.)

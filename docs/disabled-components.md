@@ -1,7 +1,11 @@
 # Disabled/Stale Components in UI Module
 
 **Status**: Documentation of unavailable dependencies  
+<<<<<<< HEAD
 **Date**: 2026-06-18
+=======
+**Date**: 2026-07-08
+>>>>>>> dfbb8305 (.)
 
 ## Overview
 
@@ -36,10 +40,15 @@ use Modules\Geo\Services\MapService;
 - `GeocodingService::getSuggestions()` — Autocomplete address suggestions
 
 #### Restoration Steps
+<<<<<<< HEAD
 If `Modules/Geo` is installed:
 1. Rename `InteractiveMap.php.old` → `InteractiveMap.php`
 2. Verify Geo module exports the required services
 3. Test geocoding and export functionality
+=======
+Do not reactivate this component inside `UI`.
+If map features are needed, create the component in `Modules/Geo` and let `Geo` depend on generic UI primitives.
+>>>>>>> dfbb8305 (.)
 
 ### 2. Cms Action Dependency
 
@@ -106,7 +115,12 @@ When UI module needs features from optional modules:
 
 ## Future Work
 
+<<<<<<< HEAD
 - [ ] Create `Modules/Geo` when geographic features are needed
+=======
+- [ ] Keep geographic components out of `UI`
+- [ ] Create `Modules/Geo` only when geographic features are needed
+>>>>>>> dfbb8305 (.)
 - [ ] Merge CMS localization pattern into Xot base
 - [ ] Document pattern for optional module dependencies in wiki
 

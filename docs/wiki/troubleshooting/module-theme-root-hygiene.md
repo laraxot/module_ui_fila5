@@ -4,7 +4,11 @@ type: rule
 module: UI
 tags: [hygiene, modules, themes, txt, markdown]
 created: 2026-07-08
+<<<<<<< HEAD
 updated: 2026-07-08
+=======
+updated: 2026-07-22
+>>>>>>> dfbb8305 (.)
 qmd: "module theme root txt md hygiene audit fix"
 related:
   - "./git-merge-conflict-inventory-1.md"
@@ -21,6 +25,16 @@ related:
 | Root `Modules/*` e `Themes/*` | Consentito |
 |---------------------------------|------------|
 | `*.txt` | **0** |
+<<<<<<< HEAD
+=======
+| `phpstan*` / `phpmd*` / `psalm*` | **0** (canon: `laravel/phpstan.neon`, `laravel/phpmd-ruleset.xml`) |
+| `ruvector.db` | **0** in root (+ entry in `.gitignore` di ogni modulo/tema) |
+| `webpack*` | **0** (canon: `vite.config.js`) |
+| `*.php` | **0** (codice in `app/`; tooling: `laravel/phpinsights.php`, `laravel/rector.php`, …) |
+| `.gitmodules` / `*.html` / `*.py` | **0** |
+| `test*` / `*~*` (tilde in nome o estensione) | **0** |
+| `*.js` | solo `*.config.js` (es. `vite.config.js`); altri **0** |
+>>>>>>> dfbb8305 (.)
 | `*.md` | **max 4**: `README.md`, `CHANGELOG.md`, `LICENSE.md`, `AGENTS.md` |
 | Cartelle | solo **lowercase** (`app`, `config`, `docs`, …) |
 
@@ -65,6 +79,13 @@ Sposta:
 | Cartelle maiuscole legacy (es. `Xot/Datas/`) | Archivia in `docs/root-uppercase-folders/` se **non** in PSR-4 `app/` |
 | File vuoto `.md` | Elimina |
 
+<<<<<<< HEAD
+=======
+## Bonifica 2026-07-22 (monorepo)
+
+Re-audit violazioni (Activity/Job/Tenant/UI/Xot/User/Media/Rating + Theme One). Fix script allineato a `docs/root-txt-files/` + `docs/root-md-files/`; max 4 `.md` ammessi. Audit: **OK**.
+
+>>>>>>> dfbb8305 (.)
 ## Bonifica 2026-07-08 (monorepo)
 
 23 violazioni risolte su moduli/temi (Job, Notify, UI, Xot, Zero, …). Audit finale: **OK**.

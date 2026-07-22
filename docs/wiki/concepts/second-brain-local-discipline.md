@@ -8,6 +8,9 @@ updated: 2026-06-05
 qmd: "ui second brain stub canonical xot harness hackernoon llm-wiki"
 issues:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 discussions:
 related:
   - "./auth-register-focus-loss-overlay.md"
@@ -18,6 +21,7 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
+<<<<<<< HEAD
 =======
   - "https://github.com/laraxot/base_fixcity_fila5/issues/272"
 discussions:
@@ -28,6 +32,8 @@ related:
   - ../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md
   - ../../../../../../bashscripts/tools/prompts/llm-wiki.txt
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 ---
 
 # Contratto wiki locale — stub UI

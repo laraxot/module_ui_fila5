@@ -66,6 +66,7 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 
 - [UI Components](../components/volt.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [PHPStan Level 10 Fixes](../../Xot/docs/phpstan-level10-fixes.md)
 - [Translation Standards](../../Lang/docs/translation-standards.md)
 - [Best Practices](../../Xot/docs/translation-keys-best-practices.md)
@@ -74,6 +75,11 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 - [Translation Standards](../../lang/docs/translation-standards.md)
 - [Best Practices](../../xot/docs/translation-keys-best-practices.md)
 >>>>>>> dfac49d (.)
+=======
+- [PHPStan Level 10 Fixes](../../Xot/docs/phpstan-level10-fixes.md)
+- [Translation Standards](../../Lang/docs/translation-standards.md)
+- [Best Practices](../../Xot/docs/translation-keys-best-practices.md)
+>>>>>>> dfbb8305 (.)
 
 ## Note per Sviluppatori Futuri
 
@@ -157,6 +163,9 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 
 - [UI Components](../components/volt.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 - [PHPStan Level 10 Fixes](../../Xot/project_docs/phpstan-level10-fixes.md)
 - [Translation Standards](../../Lang/project_docs/translation-standards.md)
 - [Best Practices](../../Xot/project_docs/translation-keys-best-practices.md)
@@ -166,6 +175,7 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 - [PHPStan Level 10 Fixes](../../Xot/project_docs/phpstan-level10-fixes.md)
 - [Translation Standards](../../Lang/project_docs/translation-standards.md)
 - [Best Practices](../../Xot/project_docs/translation-keys-best-practices.md)
+<<<<<<< HEAD
 =======
 - [PHPStan Level 10 Fixes](../../xot/project_docs/phpstan-level10-fixes.md)
 - [Translation Standards](../../lang/project_docs/translation-standards.md)
@@ -177,6 +187,8 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 - [Translation Standards](../../lang/project_docs/translation-standards.md)
 - [Best Practices](../../xot/project_docs/translation-keys-best-practices.md)
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 
 ## Note per Sviluppatori Futuri
 

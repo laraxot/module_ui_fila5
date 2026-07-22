@@ -77,6 +77,7 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 - [filament-components-location-studio.md](filament-components-location-studio.md)
 - [components.md](components.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Modules/UI/docs/](../docs/)
 
 *Ultimo aggiornamento: 29 luglio 2025*
@@ -84,6 +85,11 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 - [Modules/UI/docs/](../../docs/)
 
 >>>>>>> dfac49d (.)
+=======
+- [Modules/UI/docs/](../docs/)
+
+*Ultimo aggiornamento: 29 luglio 2025*
+>>>>>>> dfbb8305 (.)
 # Risoluzione Conflitto LocationSelector.php
 
 ## Problema Identificato
@@ -167,6 +173,10 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 - [Modules/UI/project_docs/](../project_docs/)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 29 luglio 2025*
 =======
 >>>>>>> dfac49d (.)
+=======
+*Ultimo aggiornamento: 29 luglio 2025*
+>>>>>>> dfbb8305 (.)

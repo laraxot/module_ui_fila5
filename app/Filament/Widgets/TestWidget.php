@@ -11,11 +11,17 @@ final class TestWidget extends XotBaseSchemaWidget
     protected ?string $heading = 'Test Widget';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @return array<string, mixed>
      */
 =======
 >>>>>>> dfac49d (.)
+=======
+    /**
+     * @return array<string, mixed>
+     */
+>>>>>>> dfbb8305 (.)
     public function getFormSchema(): array
     {
         return [];

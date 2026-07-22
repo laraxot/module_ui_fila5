@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 # Componenti UI
 
 ## Componenti Form Avanzati
@@ -382,6 +385,7 @@ Tutti i componenti UI condivisi devono essere posizionati in `Modules/UI/resourc
 - [UI Components Architecture](../README.md)
 
 *Documentazione aggiornata: Dicembre 2024*
+<<<<<<< HEAD
 =======
 ---
 module: theme
@@ -391,3 +395,5 @@ canonical: ../../../Themes/docs/shared-components/components-guide.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/components-guide.md
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

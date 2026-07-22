@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ---
 title: "Standard di Performance"
 type: concept
@@ -17,8 +20,11 @@ related:
   - "./ui-standards.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 # Standard di Performance
 
 ## 🚀 Metriche Core Web Vitals

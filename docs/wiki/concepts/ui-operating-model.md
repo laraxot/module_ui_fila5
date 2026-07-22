@@ -6,6 +6,9 @@ created: "2026-04-29T00:00:00Z"
 updated: "2026-04-29T07:22:00Z"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
   - "./auth-register-focus-loss-overlay.md"
   - "./block-rendering-and-optional-services.md"
   - "./claude-audit-static.md"
@@ -14,10 +17,13 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
+<<<<<<< HEAD
 =======
   - "[[Theme Integration]]"
   - "[[UI Architecture Sources]]"
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 ---
 
 # UI Operating Model
@@ -73,10 +79,15 @@ When a task concerns shared interface behavior:
 - [[UI Architecture Sources]]
 - `../../README.md`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `../../architecture-1.md`
 - `../../product-strategy-1.md`
 =======
 - `../../ARCHITECTURE.md`
 - `../../PRODUCT_STRATEGY.md`
 >>>>>>> dfac49d (.)
+=======
+- `../../architecture-1.md`
+- `../../product-strategy-1.md`
+>>>>>>> dfbb8305 (.)
 - `../../architecture/structure.md`

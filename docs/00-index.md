@@ -1,18 +1,26 @@
 # 📚 **Indice Documentazione Modulo UI**
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Last Update**: 31 Gennaio 2026
 =======
 >>>>>>> dfac49d (.)
+=======
+**Last Update**: 31 Gennaio 2026
+>>>>>>> dfbb8305 (.)
 **Status**: ✅ PHPStan Level 10 Compliant
 **Module Version**: 2.3.0
 
 ## 🎯 **Lettura Essenziale**
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. [README.md](./README.md) - Design System e overview componenti.
 =======
 1. [README.md](./readme.md) - Design System e overview componenti.
 >>>>>>> dfac49d (.)
+=======
+1. [README.md](./README.md) - Design System e overview componenti.
+>>>>>>> dfbb8305 (.)
 2. [roadmap.md](./roadmap.md) - Evoluzione 2026: Tailwind v4 e Flux UI integration.
 3. [philosophy.md](./philosophy.md) - "La Bellezza è Funzionale": filosofia del design in Laraxot.
 
@@ -25,6 +33,7 @@
 - 🧩 **[Blade Components](./blade-components.md)** - Libreria di componenti atomici riutilizzabili.
 - ⚡ **[Filament Components](./filament-components-usage.md)** - Custom columns, fields e widgets per l'Admin Panel.
 - 📍 **[Location Selector](./filament-components-location-studio.md)** - Componente avanzato per la selezione geografica.
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - 🏛️ **[Design Comuni FAQ Components](./design-comuni-faq-components.md)** - Componenti UI per pagina FAQ (Accordion, Hero, Breadcrumb, Search) ✅ 90%
@@ -60,15 +69,20 @@
 | Breadcrumb | ✅ 100% | ✅ 100% | N/A | ✅ 100% |
 | Search | ✅ 100% | ✅ 90% | ⏳ 0% | ⏳ 65% |
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 
 ## 🛠️ **Integrazioni Tecniche**
 - 🏗️ **[Tailwind v4 Upgrade](./filament-v4-theme-upgrade.md)** - Guida alla migrazione verso l'ultima versione di Tailwind.
 - 🛣️ **[Folio & Volt Themes](./struttura-themes-folio.md)** - Gestione dei temi nelle pagine Folio.
 - 🧪 **[Table Layout Enum](./table-layout-enum-complete-guide.md)** - Standardizzazione dei layout tabelle.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - 🐛 **[Bugfix Cambia layout](./bugfix-table-layout-toggle-not-working.md)** - Sync `layoutView` / sessione (toggle lista-griglia).
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 
 ## 🧪 **Qualità e Sviluppo**
 - ✅ **[PHPStan Analysis](./phpstan-level-10-cleanup.md)** - Report di conformità Level 10.
@@ -78,12 +92,16 @@
 - 🗑️ **[Cleanup Plan](./consolidation-plan.md)** - Strategia per ridurre i 280+ file di documentazione.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ## 🔗 **Moduli Correlati**
 - [Xot](../../Xot/docs/README.md) - Base framework per i widget.
 - [Cms](../../Cms/docs/README.md) - Layout dei contenuti e blocchi.
 
 ---
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*
+<<<<<<< HEAD
 =======
 ## 📦 **Pacchetti Composer**
 - [Riferimento completo](../../../../docs/composer-packages-reference.md) | [Inventario 312 pacchetti](../../../../docs/architecture/composer-packages-full-inventory.md)
@@ -127,3 +145,5 @@
 
 - [Dependency intelligence](dependency-intelligence.md)
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

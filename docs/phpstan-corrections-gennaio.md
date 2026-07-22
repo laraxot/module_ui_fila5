@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 # PHPStan Corrections - Gennaio 2025
 
 ## Riepilogo
@@ -238,6 +241,7 @@ class ViewLocation extends XotBaseViewRecord
 - [Regole Architetturali Critiche](../../Xot/docs/critical-architecture-rules.md)
 - [PHPStan Patterns](./phpstan-patterns.md)
 - [PHPStan Compliance](./phpstan-compliance.md)
+<<<<<<< HEAD
 =======
 ---
 module: theme
@@ -247,3 +251,5 @@ canonical: ../../../Themes/docs/shared-components/phpstan-corrections-.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan-corrections-.md
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

@@ -3,6 +3,9 @@ module: theme
 topic: filament-4-migration-sumy
 canonical: ../../../../Themes/docs/shared-components/filament-4-migration-summary.md
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -12,8 +15,11 @@ related:
   - "./filament-4-migration-guide.md"
   - "./filament-4-migration-summary.md"
   - "./file-upload-component.md"
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/filament-4-migration-summary.md

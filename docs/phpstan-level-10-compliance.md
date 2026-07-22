@@ -1,20 +1,28 @@
 # PHPStan Level 10 Compliance - UI Module
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Ultimo aggiornamento**: 2025-12-10
 =======
 **Ultimo aggiornamento**: [DATE]
 >>>>>>> dfac49d (.)
+=======
+**Ultimo aggiornamento**: 2025-12-10
+>>>>>>> dfbb8305 (.)
 **Status**: ✅ Completamente conforme a PHPStan Level 10
 
 ## 📊 Stato Corrente
 - **Errori PHPStan**: 0
 - **Livello analisi**: Level 10 (massimo)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Data ultima verifica**: 2025-12-10
 =======
 - **Data ultima verifica**: [DATE]
 >>>>>>> dfac49d (.)
+=======
+- **Data ultima verifica**: 2025-12-10
+>>>>>>> dfbb8305 (.)
 
 ## 🔧 Correzioni Applicate
 

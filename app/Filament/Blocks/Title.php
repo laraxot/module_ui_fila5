@@ -11,6 +11,9 @@ use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
 
 class Title // extends XotBaseBlock
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 {public static function make(string $name = 'title', string $context = 'form'): Block
 {
     // $view = 'ui::components.blocks.title.v1';
@@ -36,6 +39,7 @@ class Title // extends XotBaseBlock
         ])
         ->columns('form' === $context ? 2 : 1);
 }
+<<<<<<< HEAD
 =======
 {
     public static function make(string $name = 'title', string $context = 'form'): Block
@@ -64,4 +68,6 @@ class Title // extends XotBaseBlock
             ->columns($context === 'form' ? 2 : 1);
     }
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 }

@@ -7,6 +7,9 @@ updated: 2026-06-13
 qmd: "UI module testing Pest PHPStan Sixteen components mockService createStub"
 issues:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 discussions:
 related:
   - "./auth-register-focus-loss-overlay.md"
@@ -17,6 +20,7 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
+<<<<<<< HEAD
 =======
   - "https://github.com/laraxot/base_fixcity_fila5/issues/52"
 discussions:
@@ -25,6 +29,8 @@ related:
   - ../../../../Themes/Sixteen/docs/wiki/concepts/theme-component-test-contract.md
   - ../../../Xot/docs/wiki/concepts/phpstan-pest-bridge-discipline.md
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 ---
 
 # Testing in UI

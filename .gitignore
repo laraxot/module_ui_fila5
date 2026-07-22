@@ -1,4 +1,32 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# ==============================================
+# LARAXOT MODULE UI - .GITIGNORE
+# ==============================================
+# Modulo UI Laraxot - Template standardizzato
+# Ultimo aggiornamento: 2025-01-31
+# ==============================================
+
+
+# ==============================================
+# DEPENDENCIES & PACKAGES
+# ==============================================
+/vendor/
+/node_modules/
+/docs/vendor/
+
+composer.lock
+package-lock.json
+yarn.lock
+yarn-error.log
+npm-debug.log
+
+
+# ==============================================
+# BUILD & COMPILED FILES
+# ==============================================
+>>>>>>> dfbb8305 (.)
 # Auto-generated forbidden paths — do not edit manually
 # Reason: root cleanup policy (see docs/wiki/rules/root-cleanup-policy.md)
 
@@ -29,6 +57,7 @@ composer.lock
 package-lock.json
 yarn.lock
 # --- Build & compiled ---
+<<<<<<< HEAD
 =======
 # ==============================================
 # LARAXOT MODULE UI - .GITIGNORE
@@ -56,10 +85,13 @@ npm-debug.log
 # BUILD & COMPILED FILES
 # ==============================================
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 /build/
 /dist/
 docs/cache/
 cache/
+<<<<<<< HEAD
 <<<<<<< HEAD
 docs/phpstan/
 public/css/compiled/
@@ -67,12 +99,22 @@ public/js/compiled/
 public/mix-manifest.json
 # --- Cache & temporary ---
 =======
+=======
+>>>>>>> dfbb8305 (.)
 
 
 # ==============================================
 # CACHE & TEMPORARY FILES
 # ==============================================
+<<<<<<< HEAD
 >>>>>>> dfac49d (.)
+=======
+docs/phpstan/
+public/css/compiled/
+public/js/compiled/
+public/mix-manifest.json
+# --- Cache & temporary ---
+>>>>>>> dfbb8305 (.)
 *.cache
 *.lock
 *.phar
@@ -84,10 +126,13 @@ public/mix-manifest.json
 *:Zone.Identifier
 v8-compile-cache-*
 <<<<<<< HEAD
+<<<<<<< HEAD
 .php-cs-fixer.cache
 .phpunit.result.cache
 # --- Logs ---
 =======
+=======
+>>>>>>> dfbb8305 (.)
 
 .php-cs-fixer.cache
 .phpunit.result.cache
@@ -96,32 +141,48 @@ v8-compile-cache-*
 # ==============================================
 # LOG FILES
 # ==============================================
+<<<<<<< HEAD
 >>>>>>> dfac49d (.)
+=======
+.php-cs-fixer.cache
+.phpunit.result.cache
+# --- Logs ---
+>>>>>>> dfbb8305 (.)
 *.log
 error_log
 npm-debug.log*
 yarn-error.log*
 lerna-debug.log*
 <<<<<<< HEAD
+<<<<<<< HEAD
 # --- Laravel runtime ---
 =======
+=======
+>>>>>>> dfbb8305 (.)
 
 
 # ==============================================
 # LARAVEL SPECIFIC
 # ==============================================
+<<<<<<< HEAD
 >>>>>>> dfac49d (.)
+=======
+# --- Laravel runtime ---
+>>>>>>> dfbb8305 (.)
 /storage/*.key
 /public/storage
 /public/hot
 /public_html/storage
 /public_html/hot
 <<<<<<< HEAD
+<<<<<<< HEAD
 .env
 .env.*
 !.env.example
 # --- Environment & IDE ---
 =======
+=======
+>>>>>>> dfbb8305 (.)
 
 .env
 .env.*
@@ -131,7 +192,14 @@ lerna-debug.log*
 # ==============================================
 # ENVIRONMENT & IDE
 # ==============================================
+<<<<<<< HEAD
 >>>>>>> dfac49d (.)
+=======
+.env
+.env.*
+!.env.example
+# --- Environment & IDE ---
+>>>>>>> dfbb8305 (.)
 Homestead.yaml
 Homestead.json
 /.vagrant
@@ -139,6 +207,21 @@ Homestead.json
 .phpintel
 .phpstorm.meta.php
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+
+# ==============================================
+# GIT SPECIFIC
+# ==============================================
+.git-rewrite/
+.git-blame-ignore-revs
+
+
+# ==============================================
+# SYSTEM FILES
+# ==============================================
+>>>>>>> dfbb8305 (.)
 .windsurf/
 .cursor/
 .vscode/
@@ -153,6 +236,7 @@ Homestead.json
 *.orig
 *.rej
 # --- System files ---
+<<<<<<< HEAD
 =======
 
 
@@ -167,6 +251,8 @@ Homestead.json
 # SYSTEM FILES
 # ==============================================
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 .DS_Store
 .DS_Store?
 ._*
@@ -175,15 +261,23 @@ Homestead.json
 ehthumbs.db
 Thumbs.db
 <<<<<<< HEAD
+<<<<<<< HEAD
 agentdb.rvf
 # --- Backup / old files ---
 =======
+=======
+>>>>>>> dfbb8305 (.)
 
 
 # ==============================================
 # BACKUP FILES
 # ==============================================
+<<<<<<< HEAD
 >>>>>>> dfac49d (.)
+=======
+agentdb.rvf
+# --- Backup / old files ---
+>>>>>>> dfbb8305 (.)
 *.old
 *.old1
 *.old2
@@ -194,10 +288,13 @@ agentdb.rvf
 *.bak
 *.new
 <<<<<<< HEAD
+<<<<<<< HEAD
 # --- Legacy directories (historic cleanup) ---
 resources/views/Components_old/
 resources/lang/
 =======
+=======
+>>>>>>> dfbb8305 (.)
 
 
 # ==============================================
@@ -224,11 +321,18 @@ resources/lang/
 # OLD DIRECTORIES (LEGACY CLEANUP)
 # ==============================================
 resources/views/Components_old/
+<<<<<<< HEAD
 >>>>>>> dfac49d (.)
+=======
+# --- Legacy directories (historic cleanup) ---
+resources/views/Components_old/
+resources/lang/
+>>>>>>> dfbb8305 (.)
 database/Migrations_old/
 database/Seeders_old/
 database/Factories_old/
 database_old/
+<<<<<<< HEAD
 <<<<<<< HEAD
 lang/lang/
 # --- Project-specific (UI) ---
@@ -238,6 +342,8 @@ public_html
 config/local.php
 config/development.php
 =======
+=======
+>>>>>>> dfbb8305 (.)
 
 
 # ==============================================
@@ -253,11 +359,22 @@ public/js/compiled/
 public/mix-manifest.json
 
 # Design / UI tools
+<<<<<<< HEAD
 >>>>>>> dfac49d (.)
+=======
+lang/lang/
+# --- Project-specific (UI) ---
+*.fila2
+laravel
+public_html
+config/local.php
+config/development.php
+>>>>>>> dfbb8305 (.)
 *.psd
 *.sketch
 *.fig
 design_notes.txt
+<<<<<<< HEAD
 <<<<<<< HEAD
 # AI/TOOL SCAFFOLD — must never exist in the module tree.
 # Generated by AI agents / external CI, never part of the module domain.
@@ -273,6 +390,8 @@ docs/**/workbench/
 docs/**/scripts/
 docs/**/bashscripts/
 =======
+=======
+>>>>>>> dfbb8305 (.)
 
 
 # ==============================================
@@ -302,4 +421,25 @@ docs/legacy/**
 *.rej
 *~head
 
+<<<<<<< HEAD
 >>>>>>> dfac49d (.)
+=======
+agentdb.rvf
+docs/archived/
+# AI/TOOL SCAFFOLD — must never exist in the module tree.
+# Generated by AI agents / external CI, never part of the module domain.
+# See docs/wiki/rules/module-theme-root-cleanup.md
+# Patterns cover both module root and nested occurrences (docs/**).
+tests/AuditCoverage/
+docs/scripts/
+docs/bashscripts/
+docs/**/archive/
+docs/**/archived/
+docs/**/legacy/
+docs/**/workbench/
+docs/**/scripts/
+docs/**/bashscripts/
+
+# Local vector DB (agent tooling)
+ruvector.db
+>>>>>>> dfbb8305 (.)

@@ -1,9 +1,13 @@
 # Rapporto Aggiornamento Filament 4.x - Modulo UI
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Data**: 2025-01-27
 =======
 >>>>>>> dfac49d (.)
+=======
+**Data**: 2025-01-27
+>>>>>>> dfbb8305 (.)
 **Status**: ✅ COMPLETATO
 **Versione Filament**: 4.0.17
 
@@ -91,10 +95,14 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 - [Guida Ufficiale Filament 4.x](https://filamentphp.com/docs/4.x/upgrade-guide)
 - [Pacchetto FullCalendar](https://github.com/saade/filament-fullcalendar)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Modulo UI](../README.md)
 =======
 - [Documentazione Modulo UI](../readme.md)
 >>>>>>> dfac49d (.)
+=======
+- [Documentazione Modulo UI](../README.md)
+>>>>>>> dfbb8305 (.)
 
 ## 📋 Checklist Completata
 
@@ -120,15 +128,21 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 - Sistema di autenticazione e autorizzazione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 *Ultimo aggiornamento: 2025-01-27*
 # Rapporto Aggiornamento Filament 4.x - Modulo UI
 
 **Data**: 2025-01-27
+<<<<<<< HEAD
 =======
 *Ultimo aggiornamento: [DATE]*
 # Rapporto Aggiornamento Filament 4.x - Modulo UI
 
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 **Status**: ✅ COMPLETATO
 **Versione Filament**: 4.0.17
 
@@ -216,10 +230,14 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 - [Guida Ufficiale Filament 4.x](https://filamentphp.com/docs/4.x/upgrade-guide)
 - [Pacchetto FullCalendar](https://github.com/saade/filament-fullcalendar)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Modulo UI](../README.md)
 =======
 - [Documentazione Modulo UI](../readme.md)
 >>>>>>> dfac49d (.)
+=======
+- [Documentazione Modulo UI](../README.md)
+>>>>>>> dfbb8305 (.)
 
 ## 📋 Checklist Completata
 
@@ -245,7 +263,11 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 - Sistema di autenticazione e autorizzazione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-27*
 =======
 *Ultimo aggiornamento: [DATE]*
 >>>>>>> dfac49d (.)
+=======
+*Ultimo aggiornamento: 2025-01-27*
+>>>>>>> dfbb8305 (.)

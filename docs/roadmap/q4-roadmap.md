@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ---
 title: "UI Module Roadmap (2025 Q4)"
 type: concept
@@ -19,8 +22,11 @@ related:
   - "./03-later.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 # UI Module Roadmap (2025 Q4)
 
 ## Vision & Scope
@@ -35,10 +41,14 @@ related:
 - [ ] Audit Filament v4 changes in components/pages
 - [ ] Replace labels with translations (expanded structure)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Optimize icons/assets; document in `docs/paths-and-assets-2.md`
 =======
 - [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
 >>>>>>> dfac49d (.)
+=======
+- [ ] Optimize icons/assets; document in `docs/paths-and-assets-2.md`
+>>>>>>> dfbb8305 (.)
 - [ ] Strengthen tests for critical widgets
 
 ## Acceptance Criteria
@@ -59,10 +69,14 @@ related:
 - [ ] Audit Filament v4 changes in components/pages
 - [ ] Replace labels with translations (expanded structure)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Optimize icons/assets; document in `docs/paths-and-assets-2.md`
 =======
 - [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
 >>>>>>> dfac49d (.)
+=======
+- [ ] Optimize icons/assets; document in `docs/paths-and-assets-2.md`
+>>>>>>> dfbb8305 (.)
 - [ ] Strengthen tests for critical widgets
 
 ## Acceptance Criteria

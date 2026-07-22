@@ -78,10 +78,14 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 - ✅ `phpstan-fixes-summary.md` → Mantenere
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Nota**: File con date nei nomi (`phpstan-level-10-cleanup-2025-11-06.md`, `dry-kiss-analysis-2025-10-15.md`) dovrebbero essere spostati in `archive/` o consolidati.
 =======
 **Nota**: File con date nei nomi (`phpstan-level-10-cleanup-[DATE].md`, `dry-kiss-analysis-[DATE].md`) dovrebbero essere spostati in `archive/` o consolidati.
 >>>>>>> dfac49d (.)
+=======
+**Nota**: File con date nei nomi (`phpstan-level-10-cleanup-2025-11-06.md`, `dry-kiss-analysis-2025-10-15.md`) dovrebbero essere spostati in `archive/` o consolidati.
+>>>>>>> dfbb8305 (.)
 
 ### 7. VSCode Documentation
 - ❌ `vscode_filament_extension.md` → Eliminare
@@ -125,21 +129,30 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 ## File con Date nei Nomi (da Spostare in Archive)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. `dry-kiss-analysis-2025-10-15.md` → `archive/dry-kiss-analysis.md`
 2. `phpstan-level-10-cleanup-2025-11-06.md` → `archive/phpstan-level-10-cleanup.md`
 =======
 1. `dry-kiss-analysis-[DATE].md` → `archive/dry-kiss-analysis.md`
 2. `phpstan-level-10-cleanup-[DATE].md` → `archive/phpstan-level-10-cleanup.md`
 >>>>>>> dfac49d (.)
+=======
+1. `dry-kiss-analysis-2025-10-15.md` → `archive/dry-kiss-analysis.md`
+2. `phpstan-level-10-cleanup-2025-11-06.md` → `archive/phpstan-level-10-cleanup.md`
+>>>>>>> dfbb8305 (.)
 3. `phpstan-fixes-gennaio-2025.md` → Consolidare in `phpstan-compliance.md`
 
 ## File con Maiuscole (da Rinominare)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. Verificare duplicati con maiuscole rispetto a `metodi-duplicati-analisi.md` e normalizzare
 =======
 1. `METODI_DUPLICATI_ANALISI.md` → `metodi-duplicati-analisi.md` (già esiste `metodi-duplicati-analisi.md`)
 >>>>>>> dfac49d (.)
+=======
+1. Verificare duplicati con maiuscole rispetto a `metodi-duplicati-analisi.md` e normalizzare
+>>>>>>> dfbb8305 (.)
 
 ## Processo di Consolidamento
 
@@ -195,9 +208,13 @@ Per ogni coppia di file duplicati:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Data creazione**: 2025-01-06
 =======
 **Data creazione**: [DATE]
 >>>>>>> dfac49d (.)
+=======
+**Data creazione**: 2025-01-06
+>>>>>>> dfbb8305 (.)
 **Status**: Piano da implementare
 **Priorità**: Alta

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ---
 title: "Sistema Componenti UI"
 type: concept
@@ -15,8 +18,11 @@ related:
   - "./theme-system.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 # Sistema Componenti UI
 
 ## 📊 Stato Implementazione

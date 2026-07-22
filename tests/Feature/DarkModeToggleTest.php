@@ -168,9 +168,12 @@ it('backdrop effects work in dark mode', function (): void {
             str_contains($content, 'bg-white/5')
             || str_contains($content, 'bg-black/')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             || str_contains($content, 'backdrop-blur')
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
         );
     }
 });

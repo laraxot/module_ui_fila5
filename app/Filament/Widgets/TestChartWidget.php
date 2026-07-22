@@ -6,6 +6,9 @@ namespace Modules\UI\Filament\Widgets;
 
 use Filament\Support\RawJs;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
 
 final class TestChartWidget extends XotBaseChartWidget
@@ -13,6 +16,7 @@ final class TestChartWidget extends XotBaseChartWidget
     public int $qid = 0;
 
     public string $max_height = '200px';
+<<<<<<< HEAD
 =======
 use Filament\Widgets\ChartWidget;
 
@@ -22,6 +26,8 @@ final class TestChartWidget extends ChartWidget
 
     public string $maxHeightPx = '200px';
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 
     public string $type = 'line';
 
@@ -41,10 +47,14 @@ final class TestChartWidget extends ChartWidget
     protected function getData(): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->maxHeight = $this->max_height;
 =======
         $this->maxHeight = $this->maxHeightPx;
 >>>>>>> dfac49d (.)
+=======
+        $this->maxHeight = $this->max_height;
+>>>>>>> dfbb8305 (.)
 
         return [
             'datasets' => [

@@ -128,10 +128,14 @@
 ### Collegamenti Interni
 - [Roadmap](roadmap.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Best Practices](BEST-PRACTICES.md)
 =======
 - [Best Practices](best-practices.md)
 >>>>>>> dfac49d (.)
+=======
+- [Best Practices](BEST-PRACTICES.md)
+>>>>>>> dfbb8305 (.)
 ### Versione HEAD
 
 - [Testing](testing.md)
@@ -142,6 +146,9 @@
 ## Collegamenti tra versioni di bottlenecks.md
 * [bottlenecks.md](../../../../bashscripts/docs/bottlenecks.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 * [bottlenecks.md](../../Chart/docs/bottlenecks.md)
 * [bottlenecks.md](../../Chart/docs/performance/bottlenecks.md)
 * [bottlenecks.md](../../Gdpr/docs/bottlenecks.md)
@@ -161,6 +168,7 @@
 * [bottlenecks.md](../../Activity/docs/bottlenecks.md)
 * [bottlenecks.md](../../Patient/docs/roadmap/bottlenecks.md)
 * [bottlenecks.md](../../Cms/docs/bottlenecks.md)
+<<<<<<< HEAD
 =======
 * [bottlenecks.md](../../chart/docs/bottlenecks.md)
 * [bottlenecks.md](../../chart/docs/performance/bottlenecks.md)
@@ -182,5 +190,7 @@
 * [bottlenecks.md](../../patient/docs/roadmap/bottlenecks.md)
 * [bottlenecks.md](../../cms/docs/bottlenecks.md)
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 
 ---

@@ -219,17 +219,6 @@ return [
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
 <<<<<<< HEAD
-**Last Updated**: January 2025
-**Last Updated**: January 2025
-=======
-
-
->>>>>>> dfac49d (.)
-        ],
-
----
-**Component Status**: 📋 Documented - Ready for Implementation
-**Reusability**: 🔄 High - Cross-module compatible
 <<<<<<< HEAD
 **Last Updated**: January 2025
 **Last Updated**: January 2025
@@ -237,6 +226,27 @@ return [
 
 
 >>>>>>> dfac49d (.)
+=======
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+>>>>>>> dfbb8305 (.)
+        ],
+
+---
+**Component Status**: 📋 Documented - Ready for Implementation
+**Reusability**: 🔄 High - Cross-module compatible
+<<<<<<< HEAD
+<<<<<<< HEAD
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+=======
+
+
+>>>>>>> dfac49d (.)
+=======
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+>>>>>>> dfbb8305 (.)
         ],
         'phone' => [
             'label' => 'Telefono',
@@ -266,6 +276,7 @@ return [
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Last Updated**: January 2025
 **Last Updated**: January 2025
 **Last Updated**: January 2025
@@ -274,11 +285,19 @@ return [
 
 
 >>>>>>> dfac49d (.)
+=======
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+>>>>>>> dfbb8305 (.)
 
 ---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 **Last Updated**: January 2025
 **Last Updated**: January 2025
 **Last Updated**: January 2025
@@ -286,6 +305,7 @@ return [
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
 **Last Updated**: January 2025
+<<<<<<< HEAD
 =======
 
 
@@ -295,6 +315,8 @@ return [
 **Reusability**: 🔄 High - Cross-module compatible
 
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 # StudioCardSelector Component - Modulo UI
 
 ## 🎯 **Panoramica**
@@ -489,6 +511,7 @@ return [
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Last Updated**: January 2025
 **Last Updated**: January 2025
 **Last Updated**: January 2025
@@ -497,3 +520,8 @@ return [
 
 
 >>>>>>> dfac49d (.)
+=======
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+>>>>>>> dfbb8305 (.)

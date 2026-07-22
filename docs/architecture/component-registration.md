@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ---
 title: "Registrazione dei Componenti nei Moduli"
 type: concept
@@ -14,8 +17,11 @@ related:
   - "./structure.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 # Registrazione dei Componenti nei Moduli
 
 ## Regola Fondamentale

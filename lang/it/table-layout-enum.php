@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 return [
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
     'list' => [
         'label' => 'Lista',
         'color' => 'primary',
@@ -19,6 +22,7 @@ return [
         'description' => 'Layout a griglia responsive con card',
         'tooltip' => 'Visualizza i dati in formato card responsive',
         'helper_text' => 'Ideale per visualizzare pochi dati con focus visivo',
+<<<<<<< HEAD
 =======
     'values' => [
         'list' => [
@@ -38,6 +42,8 @@ return [
             'helper_text' => 'Ideale per visualizzare pochi dati con focus visivo',
         ],
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
     ],
     'label' => 'Table Layout Enum',
     'plural_label' => 'Table Layout Enum (Plurale)',

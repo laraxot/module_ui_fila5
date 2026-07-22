@@ -1,10 +1,14 @@
 # REGOLA CRITICA: Usa SEMPRE transClass() negli Enum
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Data: 2025-01-06
 =======
 ## Data: [DATE]
 >>>>>>> dfac49d (.)
+=======
+## Data: 2025-01-06
+>>>>>>> dfbb8305 (.)
 
 ## ✅ CORRETTO - Implementazione Enum con TransTrait
 
@@ -287,6 +291,7 @@ rules:
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Translation Standards](../../../docs/translation_standards.md)
 - [Filament Best Practices](../../../docs/filament_best_practices.md)
 - [TransTrait Documentation](../../Xot/docs/trans_trait_usage.md)
@@ -295,6 +300,11 @@ rules:
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
 - [TransTrait Documentation](../../xot/docs/trans_trait_usage.md)
 >>>>>>> dfac49d (.)
+=======
+- [Translation Standards](../../../docs/translation_standards.md)
+- [Filament Best Practices](../../../docs/filament_best_practices.md)
+- [TransTrait Documentation](../../Xot/docs/trans_trait_usage.md)
+>>>>>>> dfbb8305 (.)
 
 ## Memoria Permanente
 
@@ -306,15 +316,21 @@ rules:
 - SEMPRE sincronizzazione IT/EN/DE
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 *Ultimo aggiornamento: 2025-01-06*
 # REGOLA CRITICA: Usa SEMPRE transClass() negli Enum
 
 ## Data: 2025-01-06
+<<<<<<< HEAD
 =======
 # REGOLA CRITICA: Usa SEMPRE transClass() negli Enum
 
 ## Data: [DATE]
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 
 ## ✅ CORRETTO - Implementazione Enum con TransTrait
 
@@ -597,6 +613,7 @@ rules:
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Translation Standards](../../../docs/translation_standards.md)
 - [Filament Best Practices](../../../docs/filament_best_practices.md)
 - [TransTrait Documentation](../../Xot/docs/trans_trait_usage.md)
@@ -605,6 +622,11 @@ rules:
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
 - [TransTrait Documentation](../../xot/docs/trans_trait_usage.md)
 >>>>>>> dfac49d (.)
+=======
+- [Translation Standards](../../../docs/translation_standards.md)
+- [Filament Best Practices](../../../docs/filament_best_practices.md)
+- [TransTrait Documentation](../../Xot/docs/trans_trait_usage.md)
+>>>>>>> dfbb8305 (.)
 
 ## Memoria Permanente
 
@@ -616,6 +638,10 @@ rules:
 - SEMPRE sincronizzazione IT/EN/DE
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06*
 =======
 >>>>>>> dfac49d (.)
+=======
+*Ultimo aggiornamento: 2025-01-06*
+>>>>>>> dfbb8305 (.)

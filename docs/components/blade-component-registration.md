@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ---
 title: "Registrazione corretta dei componenti Blade nei moduli"
 type: concept
@@ -19,8 +22,11 @@ related:
   - "./full-calendar.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 # Registrazione corretta dei componenti Blade nei moduli
 
 ## Problema

@@ -8,9 +8,13 @@ use Illuminate\Support\Facades\Session;
 use Modules\UI\Enums\TableLayoutEnum;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /** @phpstan-ignore trait.unused */
 =======
 >>>>>>> dfac49d (.)
+=======
+/** @phpstan-ignore trait.unused */
+>>>>>>> dfbb8305 (.)
 trait TableLayoutTrait
 {
     public function getTableLayout(): TableLayoutEnum

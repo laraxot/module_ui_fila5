@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 300">
 <rect fill="#3A75C4" width="500" height="300"/>
 <rect fill="#CE1126" width="500" height="225"/>
@@ -11,9 +14,13 @@
 <use xlink:href="#star" y="32.2083"/>
 <use xlink:href="#star" y="64.4166"/>
 <use xlink:href="#star" y="96.625"/>
+<<<<<<< HEAD
 </svg>
 =======
 version https://git-lfs.github.com/spec/v1
 oid sha256:7242420248f1b5c7ee266883182cc8d967691a8b39be5fb70744a3d33f80c080
 size 690
 >>>>>>> dfac49d (.)
+=======
+</svg>
+>>>>>>> dfbb8305 (.)

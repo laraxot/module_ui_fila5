@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 https://github.com/tanthammar/filament-extras
 
 
@@ -8,6 +11,7 @@ https://github.com/saade/filament-extra
 
 https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
 
+<<<<<<< HEAD
 =======
 ---
 module: theme
@@ -17,3 +21,5 @@ canonical: ../../../Themes/docs/shared-components/custom-firm-fields.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/custom-firm-fields.md
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

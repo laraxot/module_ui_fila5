@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ---------------------------------------------------------------------------------------------------
 Automatic Code formatting for Apps with Laravel Code Style
 https://codebrisk.com/blog/automatic-code-formatting-for-apps-with-laravel-code-style
@@ -8,6 +11,7 @@ Control the Complexity of Php Methods by Checking Arguments
 https://codebrisk.com/blog/control-the-complexity-of-php-methods-by-checking-arguments
 composer require degraciamathieu/php-arguments-detector --dev
 ------------------------------------------------------------------------------------------------------
+<<<<<<< HEAD
 =======
 ---
 module: theme
@@ -17,3 +21,5 @@ canonical: ../../../Themes/docs/shared-components/ci.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/ci.md
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

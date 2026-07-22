@@ -24,10 +24,14 @@ final class VideoSpatie
                 Hidden::make('img_uuid')
                     ->default(Str::uuid()->toString(...))
 <<<<<<< HEAD
+<<<<<<< HEAD
                     ->formatStateUsing(fn ($state) => $state ?? Str::uuid()->toString())
 =======
                     ->formatStateUsing(static fn ($state) => $state ?? Str::uuid()->toString())
 >>>>>>> dfac49d (.)
+=======
+                    ->formatStateUsing(fn ($state) => $state ?? Str::uuid()->toString())
+>>>>>>> dfbb8305 (.)
                     ->live(),
                 // ->required(),
 
@@ -46,12 +50,17 @@ final class VideoSpatie
                     ->downloadable()
                     // ->rules(Rule::dimensions()->maxWidth(600)->maxHeight(800))
 <<<<<<< HEAD
+<<<<<<< HEAD
                     ->collection(fn (Get $get) => $get('img_uuid'))
                     ->afterStateUpdated(function (
 =======
                     ->collection(static fn (Get $get) => $get('img_uuid'))
                     ->afterStateUpdated(static function (
 >>>>>>> dfac49d (.)
+=======
+                    ->collection(fn (Get $get) => $get('img_uuid'))
+                    ->afterStateUpdated(function (
+>>>>>>> dfbb8305 (.)
                         HasForms $_livewire,
                         SpatieMediaLibraryFileUpload $_component,
                         TemporaryUploadedFile $state,
@@ -82,10 +91,14 @@ final class VideoSpatie
                 // Forms\Components\SpatieMediaLibraryFileUpload::make('media_id')
             ])
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->columns('form' === $context ? 2 : 1);
 =======
             ->columns($context === 'form' ? 2 : 1);
 >>>>>>> dfac49d (.)
+=======
+            ->columns('form' === $context ? 2 : 1);
+>>>>>>> dfbb8305 (.)
     }
 
     /**

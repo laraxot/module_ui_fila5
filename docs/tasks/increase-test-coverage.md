@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ---
 title: "Task: Incremento Test Coverage (Pest) - UI"
 type: concept
@@ -18,8 +21,11 @@ related:
   - "./ui-filament-v5.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 # Task: Incremento Test Coverage (Pest) - UI
 
 **Modulo**: UI  

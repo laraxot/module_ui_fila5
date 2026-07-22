@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-225 -114 450 300">
 <title>Flag of Malawi</title>
 <rect x="-225" y="-114" width="450" height="300"/>
@@ -22,9 +25,13 @@
 </g>
 <rect x="-225" y="-21.5" width="450" height="7.5"/>
 <rect x="-225" y="86" width="450" height="100" fill="#339E35"/>
+<<<<<<< HEAD
 </svg>
 =======
 version https://git-lfs.github.com/spec/v1
 oid sha256:95b9a2a516de5d93e7c8be9f9e0bb1c407d55c0222fb17cd30bc2606a486ebe7
 size 816
 >>>>>>> dfac49d (.)
+=======
+</svg>
+>>>>>>> dfbb8305 (.)

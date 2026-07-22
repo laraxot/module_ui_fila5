@@ -6,14 +6,20 @@ created: "2026-04-29T00:00:00Z"
 updated: "2026-04-29T00:00:00Z"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
   - "./agents.md"
   - "./bmad-method.md"
   - "./index.md"
   - "./log.md"
   - "./overview.md"
+<<<<<<< HEAD
 =======
   - "[[UI Operating Model]]"
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 ---
 
 # Context Compression Setup

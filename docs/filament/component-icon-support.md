@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ---
 title: "Supporto per Icone nei Componenti Filament"
 type: concept
@@ -19,8 +22,11 @@ related:
   - "./file-upload-component.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 # Supporto per Icone nei Componenti Filament
 
 ## Riepilogo della Compatibilità

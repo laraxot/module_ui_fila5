@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 # Form Component
 
 ## 📊 Stato Implementazione
@@ -228,6 +231,7 @@ class FormState
 3. Aggiungere nested form support
 4. Migliorare validation performance
 5. Documentare best practices 
+<<<<<<< HEAD
 =======
 ---
 module: theme
@@ -237,3 +241,5 @@ canonical: ../../../../Themes/docs/shared-components/form-component.md
 
 See canonical documentation: ../../../../Themes/docs/shared-components/form-component.md
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

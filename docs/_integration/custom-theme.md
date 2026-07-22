@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ---
 title: "custom_theme"
 type: concept
@@ -19,8 +22,11 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 # custom_theme
 
 <!-- Contenuto migrato da _docs/custom_theme.txt -->

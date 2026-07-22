@@ -84,12 +84,17 @@ mkdir -p archive
 
 # Spostare file con date
 <<<<<<< HEAD
+<<<<<<< HEAD
 mv dry-kiss-analysis-2025-10-15.md archive/dry-kiss-analysis.md 2>/dev/null
 mv phpstan-level-10-cleanup-2025-11-06.md archive/phpstan-level-10-cleanup.md 2>/dev/null
 =======
 mv dry-kiss-analysis-[DATE].md archive/dry-kiss-analysis.md 2>/dev/null
 mv phpstan-level-10-cleanup-[DATE].md archive/phpstan-level-10-cleanup.md 2>/dev/null
 >>>>>>> dfac49d (.)
+=======
+mv dry-kiss-analysis-2025-10-15.md archive/dry-kiss-analysis.md 2>/dev/null
+mv phpstan-level-10-cleanup-2025-11-06.md archive/phpstan-level-10-cleanup.md 2>/dev/null
+>>>>>>> dfbb8305 (.)
 
 # Consolidare file PHPStan con date
 # phpstan-fixes-gennaio-2025.md → consolidare in phpstan-compliance.md
@@ -99,6 +104,9 @@ mv phpstan-level-10-cleanup-[DATE].md archive/phpstan-level-10-cleanup.md 2>/dev
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 # Verificare duplicati con maiuscole rispetto ai nomi in minuscolo
 for file in *.md; do
     lowercase="$(echo "$file" | tr '[:upper:]' '[:lower:]')"
@@ -110,6 +118,7 @@ for file in *.md; do
         fi
     fi
 done
+<<<<<<< HEAD
 =======
 # Verificare se METODI_DUPLICATI_ANALISI.md è diverso da metodi-duplicati-analisi.md
 # Se sono identici, eliminare quello con maiuscole
@@ -122,6 +131,8 @@ if [ -f "METODI_DUPLICATI_ANALISI.md" ]; then
     fi
 fi
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 ```
 
 ## Verifica Finale

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ---
 title: "Sistema di Theming"
 type: concept
@@ -15,8 +18,11 @@ related:
   - "./form-components.md"
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 # Sistema di Theming
 
 ## 📊 Stato Implementazione

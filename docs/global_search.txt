@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 https://github.com/spatie/laravel-searchable
 
 =======
@@ -10,3 +11,7 @@ canonical: ../../../Themes/docs/shared-components/global-search.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/global-search.md
 >>>>>>> dfac49d (.)
+=======
+https://github.com/spatie/laravel-searchable
+
+>>>>>>> dfbb8305 (.)

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 # Git Conflict Resolution Audit
 
 ## Data
@@ -40,6 +43,7 @@ Tutte le verifiche hanno avuto esito positivo.
 
 ---
 Ultimo aggiornamento: 2025-01-06
+<<<<<<< HEAD
 =======
 # Conflict Resolution — Module UI
 
@@ -105,3 +109,5 @@ Ultimo aggiornamento: 2025-01-06
 ## Backlinks
 - [Root conflict resolution report](../../../../docs/conflict-resolution-report.md)
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

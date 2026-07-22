@@ -46,6 +46,7 @@ Questa documentazione integra entrambe le versioni emerse dal conflitto per forn
 
 ## Backlink
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Torna a docs/links.md](../../../../docs/links.md)
 - [Vedi anche: UI/docs/components.md](./components.md)
 - [Vedi anche: Xot/docs/README.md](../../Xot/docs/README.md)
@@ -54,6 +55,11 @@ Questa documentazione integra entrambe le versioni emerse dal conflitto per forn
 - [Vedi anche: UI/docs/components.md](./components.md)
 - [Vedi anche: Xot/docs/README.md](../../xot/docs/readme.md)
 >>>>>>> dfac49d (.)
+=======
+- [Torna a docs/links.md](../../../../docs/links.md)
+- [Vedi anche: UI/docs/components.md](./components.md)
+- [Vedi anche: Xot/docs/README.md](../../Xot/docs/README.md)
+>>>>>>> dfbb8305 (.)
 
 ## Esempi
 ```blade
@@ -64,6 +70,7 @@ Questa documentazione integra entrambe le versioni emerse dal conflitto per forn
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Componenti UI](laravel/Modules/UI/docs/components.md)
 - [Documentazione Filament](laravel/Modules/UI/docs/filament/README.md)
 - [Convenzioni di Naming](laravel/Modules/UI/docs/naming-conventions.md)
@@ -72,3 +79,8 @@ Questa documentazione integra entrambe le versioni emerse dal conflitto per forn
 - [Documentazione Filament](laravel/modules/ui/docs/filament/readme.md)
 - [Convenzioni di Naming](laravel/modules/ui/docs/naming-conventions.md)
 >>>>>>> dfac49d (.)
+=======
+- [Componenti UI](laravel/Modules/UI/docs/components.md)
+- [Documentazione Filament](laravel/Modules/UI/docs/filament/README.md)
+- [Convenzioni di Naming](laravel/Modules/UI/docs/naming-conventions.md)
+>>>>>>> dfbb8305 (.)

@@ -10,12 +10,16 @@ use Spatie\LaravelData\DataCollection;
 final class SliderDataCollection extends Data
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     /** @var DataCollection<int, SliderData> */
 =======
     /**
      * @var DataCollection<int, SliderData>
      */
 >>>>>>> dfac49d (.)
+=======
+    /** @var DataCollection<int, SliderData> */
+>>>>>>> dfbb8305 (.)
     public DataCollection $slider_data;
 
     public function __construct()

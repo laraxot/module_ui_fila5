@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ---
 title: "Naming Conventions"
 type: concept
@@ -11,8 +14,11 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
 ---
 
+<<<<<<< HEAD
 =======
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 ## Collegamenti tra versioni di naming-conventions.md
 * [naming-conventions.md](../../../../../docs/naming-conventions.md)
 * [naming-conventions.md](../../xot/docs/naming-conventions.md)

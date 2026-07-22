@@ -95,6 +95,9 @@ php artisan config:clear
 - [Sistema Icone UI](../icon-system.md)
 - [Blade Icons Documentation](../blade-icons.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 - [XotBaseServiceProvider](../XotBaseServiceProvider.md)
 
 ---
@@ -103,6 +106,7 @@ php artisan config:clear
 **Modulo**: UI  
 **Tipo**: Bug Fix  
 **Priorità**: Alta  
+<<<<<<< HEAD
 =======
 - [XotBaseServiceProvider](../xotbaseserviceprovider.md)
 
@@ -112,4 +116,6 @@ php artisan config:clear
 **Tipo**: Bug Fix
 **Priorità**: Alta
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 **Stato**: ✅ Risolto

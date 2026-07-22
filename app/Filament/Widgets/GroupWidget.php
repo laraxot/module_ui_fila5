@@ -11,11 +11,17 @@ final class GroupWidget extends XotBaseSchemaWidget
     protected static ?string $heading = 'Group Widget';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @return array<string, mixed>
      */
 =======
 >>>>>>> dfac49d (.)
+=======
+    /**
+     * @return array<string, mixed>
+     */
+>>>>>>> dfbb8305 (.)
     public function getFormSchema(): array
     {
         return [];

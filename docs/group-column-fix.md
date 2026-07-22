@@ -2,6 +2,9 @@
 
 ## Problema
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 
 Con `GroupColumn` alcuni valori risultano vuoti quando le colonne figlio puntano a relazioni o attributi annidati (es. `valutatore.nome_diri`). In questi casi la tabella non mostra nulla, anche se la stessa colonna funziona quando usata come `TextColumn` standard.
 
@@ -30,6 +33,7 @@ Con `$name = 'valutatore.nome_diri'`, questo cerca `$record->{'valutatore.nome_d
 ### View aggiornata con fallback `data_get()`
 
 La view ora usa un approccio a due livelli:
+<<<<<<< HEAD
 =======
 L'errore `LogicException - The column [matr] is not mounted to a table` si verificava quando il componente `GroupColumn` veniva utilizzato in una tabella Filament. Il problema era che le colonne figlio non erano correttamente montate alla tabella padre.
 
@@ -87,11 +91,16 @@ La view è stata aggiornata per:
 - Aggiungere etichette per migliorare la leggibilità
 - Gestire meglio i valori null
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 
 ```php
 @php
     $name = $field->getName();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
     // 1. Prova getState() (non funziona per colonne non montate)
     $value = $field->getState();
     // 2. Fallback: data_get() risolve la dot notation
@@ -130,6 +139,7 @@ Senza eager loading, `data_get()` restituirà `null` perché la relazione non è
 ## Utilizzo
 
 ### Attributi diretti (sempre funziona)
+<<<<<<< HEAD
 =======
     $value = $record->getAttribute($name);
 
@@ -153,6 +163,8 @@ Senza eager loading, `data_get()` restituirà `null` perché la relazione non è
 ## Utilizzo
 Il `GroupColumn` può essere utilizzato per raggruppare più valori in una singola colonna della tabella, risparmiando spazio:
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 
 ```php
 GroupColumn::make('lavoratore')->schema([
@@ -160,6 +172,9 @@ GroupColumn::make('lavoratore')->schema([
     TextColumn::make('cognome'),
     TextColumn::make('nome'),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 ])
 ```
 
@@ -220,6 +235,7 @@ I test verificano:
 
 - [Custom Columns (Ptv)](../../Ptv/docs/custom-columns.md)
 - [Common Errors (Theme One)](../../../Themes/One/docs/common-errors.md)
+<<<<<<< HEAD
 =======
     TextColumn::make('email'),
 ])
@@ -240,3 +256,5 @@ Sono stati creati test per verificare:
 - [ProgressioniResource Usage](../../progressioni/docs/progressioni-resource.md)
 - [Filament Tables Documentation](https://filamentphp.com/docs/3.x/tables/columns)
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)

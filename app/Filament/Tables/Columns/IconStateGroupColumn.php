@@ -6,6 +6,9 @@ namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Actions\Action;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
 use Filament\Tables\Columns\IconColumn;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Contracts\StateContract;
@@ -13,6 +16,7 @@ use Modules\Xot\Filament\Tables\Columns\XotBaseColumnGroup;
 use Webmozart\Assert\Assert;
 
 class IconStateGroupColumn extends XotBaseColumnGroup
+<<<<<<< HEAD
 =======
 use Filament\Tables\Columns\ColumnGroup;
 use Filament\Tables\Columns\IconColumn;
@@ -22,6 +26,8 @@ use Webmozart\Assert\Assert;
 
 class IconStateGroupColumn extends ColumnGroup
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
 {
     public string $stateClass = '';
 
@@ -101,6 +107,9 @@ class IconStateGroupColumn extends ColumnGroup
                 Action::make($stateKey.'-action')
                     ->requiresConfirmation()
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> dfbb8305 (.)
                     ->modalHeading(function (Model $record) use ($stateInstance) {
                         // StateContract provides modalHeading()
                         return $stateInstance->modalHeading();
@@ -110,6 +119,7 @@ class IconStateGroupColumn extends ColumnGroup
                         return $stateInstance->modalDescription();
                     })
                     ->schema(function (Model $record) use ($stateInstance) {
+<<<<<<< HEAD
 =======
                     ->modalHeading(static function (Model $record) use ($stateInstance) {
                         // StateContract provides modalHeading()
@@ -121,15 +131,21 @@ class IconStateGroupColumn extends ColumnGroup
                     })
                     ->schema(static function (Model $record) use ($stateInstance) {
 >>>>>>> dfac49d (.)
+=======
+>>>>>>> dfbb8305 (.)
                         // StateContract provides modalFormSchema()
                         return $stateInstance->modalFormSchema();
                     })
                     ->fillForm($stateInstance->modalFillFormByRecord(...))
 <<<<<<< HEAD
+<<<<<<< HEAD
                     ->action(function (Model $record, array $data) use ($stateInstance): void {
 =======
                     ->action(static function (Model $record, array $data) use ($stateInstance): void {
 >>>>>>> dfac49d (.)
+=======
+                    ->action(function (Model $record, array $data) use ($stateInstance): void {
+>>>>>>> dfbb8305 (.)
                         // Ensure data is treated as array<string, mixed> for PHPStan and StateContract
                         /** @var array<string, mixed> $typedData */
                         $typedData = $data;
@@ -139,11 +155,15 @@ class IconStateGroupColumn extends ColumnGroup
             );
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             $column->visible((bool) ($this->data[$visibleKey] ?? false));
 =======
             $visibleValue = $this->data[$visibleKey] ?? false;
             $column->visible((bool) $visibleValue);
 >>>>>>> dfac49d (.)
+=======
+            $column->visible((bool) ($this->data[$visibleKey] ?? false));
+>>>>>>> dfbb8305 (.)
             $columns[] = $column;
         }
 
