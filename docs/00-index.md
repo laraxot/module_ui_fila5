@@ -31,6 +31,13 @@
 ## 🧹 **Manutenzione**
 - 🗑️ **[Cleanup Plan](./consolidation-plan.md)** - Strategia per ridurre i 280+ file di documentazione.
 
+<<<<<<< HEAD
+=======
+## 📦 **Pacchetti Composer**
+- [Riferimento composer packages](../../../../bashscripts/ai/wiki/memories/composer-packages-reference.md)
+- `owenvoke/blade-fontawesome` - Icone FontAwesome
+
+>>>>>>> 9c784166 (.)
 ## 🔗 **Moduli Correlati**
 - [Xot](../../Xot/docs/README.md) - Base framework per i widget.
 - [Cms](../../Cms/docs/README.md) - Layout dei contenuti e blocchi.
