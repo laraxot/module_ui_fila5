@@ -243,3 +243,4 @@ docs/legacy/**
 .devcontainer/
 .vscode/
 .windsurf/
+phpstan*
