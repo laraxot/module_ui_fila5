@@ -7,7 +7,8 @@ _bmad-output
 .claude-audit
 .devcontainer
 _docs
-docs/archive
+docs/archive/
+docs/archive/**
 docs/archived
 docs/legacy
 docs/workbench
@@ -242,7 +243,3 @@ docs/legacy/**
 .devcontainer/
 .vscode/
 .windsurf/
-
-# Laraxot — quality tool configs forbidden in module/theme root (use laravel/phpinsights.php, laravel/rector.php)
-phpinsights.php
-rector.php

@@ -20,7 +20,6 @@ related:
 
 > Baseline statica riproducibile per orientare il miglioramento. I conteggi sono segnali, non sostituiscono PHPStan, Pest o la review del flusso reale.
 
-
 ## GitHub (repo del componente)
 
 ```bash
