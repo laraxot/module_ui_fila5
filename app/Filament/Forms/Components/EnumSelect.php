@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
-use Filament\Forms\Components\Select;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasLabel;
+use Modules\Xot\Filament\Forms\Components\XotBaseSelect;
 
 /**
  * EnumSelect - Reusable component for PHP-backed enums in Filament v5.
  */
-final class EnumSelect extends Select
+final class EnumSelect extends XotBaseSelect
 {
     protected string|\Closure|null $enumClass = null;
 

@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Tables\Columns;
 
-use Filament\Tables\Columns\SelectColumn;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
+use Modules\Xot\Filament\Tables\Columns\XotBaseSelectColumn;
 
-class SelectStateColumn extends SelectColumn
+class SelectStateColumn extends XotBaseSelectColumn
 {
     protected function setUp(): void
     {
@@ -59,6 +59,7 @@ class SelectStateColumn extends SelectColumn
                             $stateNameProperty = \is_string($nameProperty) ? $nameProperty : null;
                         }
                     } catch (\ReflectionException) {
+                        // Intentionally ignored: fall back to $stateNameProperty === null below.
                     }
                     if (null !== $stateNameProperty) {
                         $statesValues = array_values($states);

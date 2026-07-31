@@ -1,7 +1,0 @@
----
-module: theme
-topic: ubuntu
-canonical: ../../../Themes/docs/shared-components/ubuntu.md
----
-
-See canonical documentation: ../../../Themes/docs/shared-components/ubuntu.md
