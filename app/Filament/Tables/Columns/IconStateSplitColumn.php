@@ -6,11 +6,11 @@ namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
-use Filament\Tables\Columns\Column;
 use Illuminate\Database\Eloquent\Model;
 use Livewire\Attributes\On;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Contracts\StateContract;
+use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
 
 /**
  * IconStateSplitColumn - Enhanced state transition column with compact grid layout.
@@ -22,7 +22,7 @@ use Modules\Xot\Contracts\StateContract;
  * - Proper error handling and notifications
  * - Mobile-friendly design
  */
-final class IconStateSplitColumn extends Column
+final class IconStateSplitColumn extends XotBaseColumn
 {
     protected string $view = 'ui::filament.tables.columns.icon-state-split';
 
@@ -33,8 +33,6 @@ final class IconStateSplitColumn extends Column
     /**
      * Configure the state class and model class for this column.
      *
-     * @param string $stateClass The state machine class (e.g., AppointmentState::class)
-     * @param string $modelClass The model class (e.g., Appointment::class)
      * @param string $stateClass The state machine class (e.g., AppointmentState::class)
      * @param string $modelClass The model class (e.g., Appointment::class)
      */
@@ -223,7 +221,6 @@ final class IconStateSplitColumn extends Column
     }
 
     /**
-     * @param array{class: StateContract, icon: string, label: string, color: string, tooltip: string} $stateData
      * @param array{class: StateContract, icon: string, label: string, color: string, tooltip: string} $stateData
      */
     private function getTransitionAction(string $stateKey, array $stateData): ?Action

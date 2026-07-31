@@ -121,7 +121,7 @@ try {
 - [Best Practices](../best-practices.md)
 
 ## Data Correzione
-[DATE]
+2025-01-06
 
 ## Autore
 AI Assistant

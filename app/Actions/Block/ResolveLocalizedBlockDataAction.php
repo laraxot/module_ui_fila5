@@ -4,11 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\UI\Actions\Block;
 
+use Spatie\QueueableAction\QueueableAction;
+
 /**
  * Risolve dati block localizzati; delega al modulo Cms se presente.
  */
 final class ResolveLocalizedBlockDataAction
 {
+    use QueueableAction;
+
     /**
      * @param array<string, mixed> $viewParams
      *

@@ -1,22 +1,22 @@
 # Componenti SVG Bandiere nel Modulo UI
 
 ## Collegamenti correlati
-- [Documentazione centrale](/docs/readme.md)
+- [Documentazione centrale](/docs/README.md)
 - [Collegamenti documentazione](/docs/collegamenti-documentazione.md)
-- [Documentazione UI](/laravel/modules/ui/docs/readme.md)
+- [Documentazione UI](/laravel/Modules/UI/docs/README.md)
 - [Documentazione sezioni](/docs/sections.md)
-- [Header: Lingua e Utente](/laravel/themes/one/docs/sections/header_language_user_dropdown.md)
-- [Implementazione CMS](/laravel/modules/cms/docs/sections/header_language_user_dropdown.md)
+- [Header: Lingua e Utente](/laravel/Themes/One/docs/sections/HEADER_LANGUAGE_USER_DROPDOWN.md)
+- [Implementazione CMS](/laravel/Modules/Cms/docs/sections/HEADER_LANGUAGE_USER_DROPDOWN.md)
 
 ## Panoramica
 
-Il modulo UI di Quaeris include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
 
 ## Struttura dei Componenti Bandiera
 
 I file SVG delle bandiere sono archiviati in:
 ```
-/var/www/html/Quaeris/laravel/Modules/UI/resources/svg/flags/
+/var/www/html/saluteora/laravel/Modules/UI/resources/svg/flags/
 ```
 
 Ogni bandiera è rappresentata da un file SVG con il codice ISO del paese come nome file (ad esempio, `it.svg` per l'Italia, `gb.svg` per il Regno Unito).
@@ -135,7 +135,7 @@ Le bandiere devono essere utilizzate come icone Filament:
 2. **Personalizzazione**: Facile da personalizzare con classi CSS
 3. **Prestazioni**: Gli SVG sono leggeri e non richiedono richieste HTTP aggiuntive
 4. **Accessibilità**: Possibilità di aggiungere attributi di accessibilità
-5. **Coerenza**: Utilizzo di componenti nativi di Quaeris
+5. **Coerenza**: Utilizzo di componenti nativi di SaluteOra
 
 ## Bandiere Disponibili
 

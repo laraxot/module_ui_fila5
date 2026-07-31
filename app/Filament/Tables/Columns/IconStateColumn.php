@@ -9,29 +9,29 @@ use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
 use Filament\Notifications\Notification;
 use Filament\Schemas\Components\Utilities\Get;
-use Filament\Tables\Columns\IconColumn;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Contracts\StateContract as XotStateContract;
+use Modules\Xot\Filament\Tables\Columns\XotBaseIconColumn;
 
-class IconStateColumn extends IconColumn
+class IconStateColumn extends XotBaseIconColumn
 {
     protected function setUp(): void
     {
         parent::setUp();
         // $this->getStateUsing(fn() => true); // the column requires a state to be passed to it
 
-        $this->icon(function (XotStateContract $state) {
+        $this->icon(static function (XotStateContract $state) {
             return $state->icon();
         });
 
-        $this->color(function (XotStateContract $state) {
+        $this->color(static function (XotStateContract $state) {
             return $state->color();
         });
 
-        $this->tooltip(function (XotStateContract $state) {
+        $this->tooltip(static function (XotStateContract $state) {
             return $state->label();
         });
         // $this->label('aaa');
@@ -82,7 +82,7 @@ class IconStateColumn extends IconColumn
                                 return [];
                             }
 
-                            return Arr::mapWithKeys($statesArray, function (mixed $stateItem) use ($record): array {
+                            return Arr::mapWithKeys($statesArray, static function (mixed $stateItem) use ($record): array {
                                 if (! is_string($stateItem)) {
                                     return [];
                                 }
