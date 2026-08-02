@@ -1,7 +1,5 @@
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
 ---
 title: "FullCalendar Component for Filament"
 type: concept
@@ -23,7 +21,6 @@ related:
 ---
 
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 # FullCalendar Component for Filament
 
 ## Introduction
@@ -76,11 +73,7 @@ use Saade\FilamentFullCalendar\Data\EventData;
 <<<<<<< HEAD
  * 
 =======
-<<<<<<< HEAD
- * 
-=======
  *
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
  * Provides core functionality for all calendars in the application.
  */
@@ -125,11 +118,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 <<<<<<< HEAD
                 
 =======
-<<<<<<< HEAD
-                
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
             Forms\Components\Grid::make()
                 ->schema([
@@ -139,11 +128,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 <<<<<<< HEAD
                         
 =======
-<<<<<<< HEAD
-                        
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
                     Forms\Components\DateTimePicker::make('end_date')
                         ->label(__('ui::calendar.fields.end_date.label'))
@@ -152,11 +137,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 <<<<<<< HEAD
                 
 =======
-<<<<<<< HEAD
-                
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
             Forms\Components\Textarea::make('description')
                 ->label(__('ui::calendar.fields.description.label'))
@@ -169,19 +150,11 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
                 ->rgb(),
                 
 =======
-<<<<<<< HEAD
-                
-            Forms\Components\ColorPicker::make('color')
-                ->label(__('ui::calendar.fields.color.label'))
-                ->rgb(),
-                
-=======
 
             Forms\Components\ColorPicker::make('color')
                 ->label(__('ui::calendar.fields.color.label'))
                 ->rgb(),
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
             Forms\Components\Toggle::make('is_all_day')
                 ->label(__('ui::calendar.fields.is_all_day.label'))
@@ -327,13 +300,6 @@ To use the widget in a Blade view:
 
 ## Backlinks and References
 
-<<<<<<< HEAD
-- [Ptv Module - Calendar Usage](../../Ptv/docs/features/full_calendar.md)
-- [Official Saade FullCalendar Documentation](https://github.com/saade/filament-fullcalendar)
-- [FullCalendar.io Documentation](https://fullcalendar.io/docs)
-
-*Last updated: June 2025*
-=======
 <<<<<<< HEAD
 - [Ptv Module - Calendar Usage](../../Ptv/docs/features/full_calendar.md)
 - [Official Saade FullCalendar Documentation](https://github.com/saade/filament-fullcalendar)
@@ -606,5 +572,4 @@ To use the widget in a Blade view:
 - [FullCalendar.io Documentation](https://fullcalendar.io/docs)
 
 *
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

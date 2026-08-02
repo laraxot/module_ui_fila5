@@ -1,7 +1,5 @@
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
 ---
 title: "carousel_slider"
 type: concept
@@ -23,16 +21,12 @@ related:
 ---
 
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 # carousel_slider
 
 <!-- Contenuto migrato da _docs/carousel_slider.txt -->
 
 https://www.embla-carousel.com/examples/predefined/
 
-<<<<<<< HEAD
-
-=======
 <<<<<<< HEAD
 
 =======
@@ -47,7 +41,6 @@ https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider
 
 https://www.embla-carousel.com/examples/predefined/
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 
 https://tw-elements.com/docs/standard/components/carousel/
 
@@ -56,9 +49,5 @@ https://keen-slider.io/examples
 <<<<<<< HEAD
 https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
 =======
-<<<<<<< HEAD
 https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
-=======
-https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

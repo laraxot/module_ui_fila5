@@ -99,9 +99,6 @@ If radio buttons are not selecting properly, check:
 <<<<<<< HEAD
 - Added troubleshooting section for selection issues
 =======
-<<<<<<< HEAD
-- Added troubleshooting section for selection issues
-=======
 - Added troubleshooting section for selection issues
 # RadioCollection Component
 
@@ -202,5 +199,4 @@ If radio buttons are not selecting properly, check:
 
 - Initial documentation
 - Added troubleshooting section for selection issues
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

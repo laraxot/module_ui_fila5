@@ -1,6 +1,4 @@
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
 ---
 module: theme
 topic: best_practices
@@ -261,15 +259,9 @@ class AdvancedForm extends Component
 
 - Breaking changes
 
->>>>>>> laraxot/dev
 ---
 module: theme
 topic: best_practices
 canonical: ../../../Themes/docs/shared-components/best-practices_1.md
 ---
-<<<<<<< HEAD
-
-See canonical documentation: ../../../Themes/docs/shared-components/best-practices_1.md
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

@@ -8,9 +8,6 @@
 <<<<<<< HEAD
 - **PHPStan level 10**: 12/12 file core certificati
 =======
-<<<<<<< HEAD
-- **PHPStan level 10**: 12/12 file core certificati
-=======
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
@@ -18,7 +15,6 @@
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - **Translation Standards**: 100% compliance con struttura espansa
 - **Component Architecture**: 50+ componenti Blade riutilizzabili
@@ -35,11 +31,7 @@
 <<<<<<< HEAD
 - **Bundle Size**: < 200KB per tutti i componenti  
 =======
-<<<<<<< HEAD
-- **Bundle Size**: < 200KB per tutti i componenti  
-=======
 - **Bundle Size**: < 200KB per tutti i componenti
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - **Mobile Responsive**: 100% componenti responsive
 - **Caching**: Sistema caching componenti attivo
@@ -57,9 +49,6 @@
 <<<<<<< HEAD
 - **Esempi troppo specifici** per <nome progetto>
 =======
-<<<<<<< HEAD
-- **Esempi troppo specifici** per <nome progetto>
-=======
 - **Esempi troppo specifici** per
 - **Esempi troppo specifici** per
 - **Esempi troppo specifici** per
@@ -67,7 +56,6 @@
 - **Esempi troppo specifici** per
 - **Esempi troppo specifici** per
 - **Esempi troppo specifici** per
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 ## 🔧 RACCOMANDAZIONI SPECIFICHE
@@ -80,9 +68,6 @@
 <<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/UI/
 =======
-<<<<<<< HEAD
-/var/www/html/<nome progetto>/laravel/Modules/UI/
-=======
 Modules/UI/
 Modules/UI/
 Modules/UI/
@@ -90,7 +75,6 @@ Modules/UI/
 Modules/UI/
 Modules/UI/
 Modules/UI/
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 https://api.<nome progetto>.com/
 
@@ -122,9 +106,6 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 <<<<<<< HEAD
 - ✅ PHPStan level 10 (12/12 files)
 =======
-<<<<<<< HEAD
-- ✅ PHPStan level 10 (12/12 files)
-=======
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
@@ -132,7 +113,6 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - ✅ Translation Standards 100%
 - ✅ 50+ Blade Components
@@ -190,24 +170,16 @@ class ComponentPerformanceMiddleware
         $start = microtime(true);
 <<<<<<< HEAD
         
-=======
-<<<<<<< HEAD
-        
         $response = $next($request);
         
         $duration = (microtime(true) - $start) * 1000;
         
 =======
 
->>>>>>> laraxot/dev
         $response = $next($request);
         
         $duration = (microtime(true) - $start) * 1000;
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         if ($duration > 50) {
             Log::warning("Slow component detected", [
@@ -218,11 +190,7 @@ class ComponentPerformanceMiddleware
 <<<<<<< HEAD
         
 =======
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         return $response;
     }
@@ -299,9 +267,6 @@ php artisan ui:accessibility-check
 <<<<<<< HEAD
 - **NON toccare** l'architettura PHPStan level 10
 =======
-<<<<<<< HEAD
-- **NON toccare** l'architettura PHPStan level 10
-=======
 - **NON toccare** l'architettura PHPStan Level 9
 - **NON toccare** l'architettura PHPStan Level 9
 - **NON toccare** l'architettura PHPStan Level 9
@@ -309,7 +274,6 @@ php artisan ui:accessibility-check
 - **NON toccare** l'architettura PHPStan Level 9
 - **NON toccare** l'architettura PHPStan Level 9
 - **NON toccare** l'architettura PHPStan Level 9
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - **NON modificare** il sistema TableLayoutEnum (perfetto)
 - **NON cambiare** il pattern TransTrait (eccellente)
@@ -331,9 +295,6 @@ php artisan ui:accessibility-check
 - [Components Guide](components.md)
 - [TableLayoutEnum Guide](table-layout-enum-complete-guide.md)
 
-<<<<<<< HEAD
-*Ultimo aggiornamento: gennaio 2025*
-=======
 <<<<<<< HEAD
 *Ultimo aggiornamento: gennaio 2025*
 =======
@@ -591,5 +552,4 @@ php artisan ui:accessibility-check
 - [TableLayoutEnum Guide](table-layout-enum-complete-guide.md)
 
 *Ultimo aggiornamento: gennaio 2025*
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

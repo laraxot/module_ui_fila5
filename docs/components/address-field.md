@@ -1,7 +1,5 @@
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
 ---
 title: "AddressField Component"
 type: concept
@@ -23,7 +21,6 @@ related:
 ---
 
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 # AddressField Component
 
 ## Panoramica
@@ -61,9 +58,6 @@ AddressField::make('address')
 3. Configurare correttamente i servizi di geocoding
 4. Testare con diversi formati di indirizzo
 
-<<<<<<< HEAD
-[Torna alla documentazione UI](/docs/modules/module_ui.md#components) 
-=======
 <<<<<<< HEAD
 [Torna alla documentazione UI](/docs/modules/module_ui.md#components) 
 =======
@@ -106,5 +100,4 @@ AddressField::make('address')
 4. Testare con diversi formati di indirizzo
 
 [Torna alla documentazione UI](/docs/modules/module-ui-1.md#components)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

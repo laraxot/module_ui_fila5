@@ -1,16 +1,9 @@
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 module: theme
 topic: filament_error_fileupload_icon
 canonical: ../../../Themes/docs/shared-components/filament-error-fileupload-icon_1.md
 ---
-<<<<<<< HEAD
-
-See canonical documentation: ../../../Themes/docs/shared-components/filament-error-fileupload-icon_1.md
-=======
 
 See canonical documentation: ../../../Themes/docs/shared-components/filament-error-fileupload-icon_1.md
 =======
@@ -62,5 +55,4 @@ Il metodo `icon()` **NON esiste** sul componente `Filament\Forms\Components\File
 
 ## Collegamenti tra versioni di filament-error-fileupload-icon.md
 * [filament-error-fileupload-icon.md](../../Patient/project_docs/filament-error-fileupload-icon.md)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

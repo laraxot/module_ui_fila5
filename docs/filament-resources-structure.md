@@ -1,16 +1,9 @@
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 module: theme
 topic: filament_resources_structure
 canonical: ../../../Themes/docs/shared-components/filament-resources-structure_1.md
 ---
-<<<<<<< HEAD
-
-See canonical documentation: ../../../Themes/docs/shared-components/filament-resources-structure_1.md
-=======
 
 See canonical documentation: ../../../Themes/docs/shared-components/filament-resources-structure_1.md
 =======
@@ -186,5 +179,4 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 
 ## Note
 Questa documentazione è collegata bidirezionalmente con la documentazione specifica dei moduli. Per dettagli su resources specifiche, consultare la documentazione del modulo corrispondente.
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

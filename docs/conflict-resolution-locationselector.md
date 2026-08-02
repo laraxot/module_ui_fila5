@@ -9,11 +9,7 @@ Il file `Modules/UI/app/Filament/Forms/Components/LocationSelector.php` presenta
 <<<<<<< HEAD
 3. **Linea 322**: Continuazione metodo validate 
 =======
-<<<<<<< HEAD
-3. **Linea 322**: Continuazione metodo validate 
-=======
 3. **Linea 322**: Continuazione metodo validate
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 4. **Linea 342**: Metodo getGeographicData con gestione dati geografici
 5. **Linea 355**: Continuazione metodo getGeographicData
@@ -86,9 +82,6 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 - [components.md](components.md)
 - [Modules/UI/docs/](../docs/)
 
-<<<<<<< HEAD
-*Ultimo aggiornamento: 29 luglio 2025*
-=======
 <<<<<<< HEAD
 *Ultimo aggiornamento: 29 luglio 2025*
 =======
@@ -176,5 +169,4 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 - [Modules/UI/project_docs/](../project_docs/)
 
 *Ultimo aggiornamento: 29 luglio 2025*
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

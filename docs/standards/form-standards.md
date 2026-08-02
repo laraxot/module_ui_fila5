@@ -1,7 +1,5 @@
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
 ---
 title: "Standard Form nei Temi"
 type: rule
@@ -21,7 +19,6 @@ related:
 ---
 
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 # Standard Form nei Temi
 
 ## Principi Generali
@@ -82,11 +79,7 @@ related:
 <<<<<<< HEAD
   <input 
 =======
-<<<<<<< HEAD
-  <input 
-=======
   <input
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     type="text"
     class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500"
@@ -113,11 +106,7 @@ related:
 <<<<<<< HEAD
     <input 
 =======
-<<<<<<< HEAD
-    <input 
-=======
     <input
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
       type="checkbox"
       class="h-4 w-4 text-primary-600 border-gray-300 rounded focus:ring-primary-500"
@@ -179,11 +168,7 @@ screens: {
 <<<<<<< HEAD
   <input 
 =======
-<<<<<<< HEAD
-  <input 
-=======
   <input
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     type="email"
     class="w-full px-4 py-2 border border-red-300 rounded-md focus:ring-2 focus:ring-red-500"
@@ -205,11 +190,7 @@ screens: {
 <<<<<<< HEAD
   <input 
 =======
-<<<<<<< HEAD
-  <input 
-=======
   <input
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     type="text"
     class="w-full px-4 py-2 border border-green-300 rounded-md focus:ring-2 focus:ring-green-500"
@@ -232,11 +213,7 @@ screens: {
 <<<<<<< HEAD
   <input 
 =======
-<<<<<<< HEAD
-  <input 
-=======
   <input
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     type="email"
     aria-labelledby="email-label"
@@ -266,11 +243,7 @@ screens: {
 <<<<<<< HEAD
 <button 
 =======
-<<<<<<< HEAD
-<button 
-=======
 <button
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
   type="submit"
   class="btn btn-primary"
@@ -327,9 +300,6 @@ form.addEventListener('submit', async (e) => {
 ## Collegamenti
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md)
-<<<<<<< HEAD
-- [Performance](./performance.md) 
-=======
 <<<<<<< HEAD
 - [Performance](./performance.md) 
 =======
@@ -592,5 +562,4 @@ form.addEventListener('submit', async (e) => {
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md)
 - [Performance](./performance.md)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

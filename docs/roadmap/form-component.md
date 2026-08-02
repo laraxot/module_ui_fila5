@@ -1,7 +1,5 @@
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
 ---
 title: "Form Component"
 type: concept
@@ -23,7 +21,6 @@ related:
 ---
 
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 # Form Component
 
 ## 📊 Stato Implementazione
@@ -66,17 +63,10 @@ class FormBuilder extends XotBaseUIComponent
     protected array $values = [];
     
 =======
-<<<<<<< HEAD
-    
-    /** @var array<string, mixed> */
-    protected array $values = [];
-    
-=======
 
     /** @var array<string, mixed> */
     protected array $values = [];
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function addField(string $name, FormField $field): self
     {
@@ -86,11 +76,7 @@ class FormBuilder extends XotBaseUIComponent
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function validate(): ValidationResult
     {
@@ -111,11 +97,7 @@ abstract class FormField
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     abstract public function render(): View;
     abstract public function validate($value): ValidationResult;
@@ -129,11 +111,7 @@ class InputField extends FormField
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function setType(string $type): self
     {
@@ -232,19 +210,11 @@ protected function validateField(string $name): void
     );
     
 =======
-<<<<<<< HEAD
-    
-    $result = $this->fields[$name]->validate(
-        $this->values[$name]
-    );
-    
-=======
 
     $result = $this->fields[$name]->validate(
         $this->values[$name]
     );
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     $this->errors[$name] = $result->errors();
 }
@@ -258,9 +228,6 @@ class FormState
     protected array $initialValues = [];
 <<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-    
     /** @var array<string, mixed> */
     protected array $currentValues = [];
     
@@ -269,17 +236,12 @@ class FormState
         return $this->initialValues[$field] !== 
 =======
 
->>>>>>> laraxot/dev
     /** @var array<string, mixed> */
     protected array $currentValues = [];
     
     public function isDirty(string $field): bool
     {
-<<<<<<< HEAD
-        return $this->initialValues[$field] !== 
-=======
         return $this->initialValues[$field] !==
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
                $this->currentValues[$field];
     }
@@ -324,9 +286,6 @@ class FormState
 2. Implementare file upload
 3. Aggiungere nested form support
 4. Migliorare validation performance
-<<<<<<< HEAD
-5. Documentare best practices 
-=======
 <<<<<<< HEAD
 5. Documentare best practices 
 =======
@@ -560,5 +519,4 @@ class FormState
 3. Aggiungere nested form support
 4. Migliorare validation performance
 5. Documentare best practices
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

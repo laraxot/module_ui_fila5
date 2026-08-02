@@ -148,12 +148,8 @@ class CustomMiddleware
 <<<<<<< HEAD
 <img src="/var/www/html/saluteora/laravel/public/images/avatar.png">
 =======
-<<<<<<< HEAD
-<img src="/var/www/html/saluteora/laravel/public/images/avatar.png">
-=======
 <img src="public/images/avatar.png">
 <img src="public/images/avatar.png">
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 // Non duplicare la registrazione dei componenti
@@ -295,19 +291,11 @@ class UIServiceProvider extends XotBaseServiceProvider
   ]);
   
 =======
-<<<<<<< HEAD
-  
-  state([
-      'property' => null,
-  ]);
-  
-=======
 
   state([
       'property' => null,
   ]);
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
   $action = function () {
       // Logica dell'azione
@@ -316,11 +304,7 @@ class UIServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
   
 =======
-<<<<<<< HEAD
-  
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
   <div>
       <!-- Template del componente -->
@@ -341,17 +325,10 @@ class UIServiceProvider extends XotBaseServiceProvider
   name('page.name');
   
 =======
-<<<<<<< HEAD
-  
-  middleware(['auth']);
-  name('page.name');
-  
-=======
 
   middleware(['auth']);
   name('page.name');
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
   state([
       'property' => null,
@@ -360,11 +337,7 @@ class UIServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
   
 =======
-<<<<<<< HEAD
-  
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
   <x-layouts.main>
       <!-- Contenuto della pagina -->
@@ -508,9 +481,6 @@ class UIServiceProvider extends XotBaseServiceProvider
 5. **Cosa Fare**:
    - Utilizzare i componenti responsive appropriati
    - Mantenere la coerenza con il tema dark/light
-<<<<<<< HEAD
-   - Gestire correttamente il logout con CSRF
-=======
 <<<<<<< HEAD
    - Gestire correttamente il logout con CSRF
 =======
@@ -971,5 +941,4 @@ class UIServiceProvider extends XotBaseServiceProvider
    - Utilizzare i componenti responsive appropriati
    - Mantenere la coerenza con il tema dark/light
    - Gestire correttamente il logout con CSRF
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

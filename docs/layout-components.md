@@ -145,9 +145,6 @@ $breakpoints: (
 <<<<<<< HEAD
 - [Accessibilità](./standards/accessibility.md) 
 =======
-<<<<<<< HEAD
-- [Accessibilità](./standards/accessibility.md) 
-=======
 - [Accessibilità](./standards/accessibility.md)
 # Componenti Layout
 
@@ -294,5 +291,4 @@ $breakpoints: (
 - [Componenti Base](./base-components.md)
 - [Performance](./standards/performance.md)
 - [Accessibilità](./standards/accessibility.md)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

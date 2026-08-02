@@ -1,7 +1,5 @@
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
 ---
 title: "custom_theme"
 type: concept
@@ -23,15 +21,12 @@ related:
 ---
 
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 # custom_theme
 
 <!-- Contenuto migrato da _docs/custom_theme.txt -->
 
 https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss
 
-<<<<<<< HEAD
-=======
 <<<<<<< HEAD
 =======
 php artisan make:filament-theme admin
@@ -46,7 +41,6 @@ in app/Providers/Filament/AdminPanelProvider.php
 
 https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 
 php artisan make:filament-theme admin
 
@@ -56,9 +50,5 @@ in app/Providers/Filament/AdminPanelProvider.php
 <<<<<<< HEAD
 ->viteTheme('resources/css/filament/admin/theme.css')
 =======
-<<<<<<< HEAD
 ->viteTheme('resources/css/filament/admin/theme.css')
-=======
-->viteTheme('resources/css/filament/admin/theme.css')
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

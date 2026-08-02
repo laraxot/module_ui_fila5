@@ -84,15 +84,9 @@ Il design system definisce gli standard visivi e di interazione per garantire co
     Contenuto della card
     
 =======
-<<<<<<< HEAD
-    
-    Contenuto della card
-    
-=======
 
     Contenuto della card
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     <x-slot name="footer">
         Footer della card
@@ -143,9 +137,6 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ## Vedi Anche
 - [Tailwind Config](../config/tailwind.config.js)
 - [Theme Config](../config/theme.php)
-<<<<<<< HEAD
-- [Filament UI](../../Cms/docs/filament-components.md) 
-=======
 <<<<<<< HEAD
 - [Filament UI](../../Cms/docs/filament-components.md) 
 =======
@@ -286,5 +277,4 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 - [Filament UI](../../Cms/project_docs/filament-components.md)
 - [Filament UI](../../Cms/project_docs/filament-components.md)
 - [Filament UI](../../Cms/project_docs/filament-components.md)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

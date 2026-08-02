@@ -3,8 +3,6 @@
 ## Overview
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
 The `IconStateSplitColumn` is a custom Filament table column component designed to display state transition icons in a compact, responsive grid layout. It extends Filament's `Column` component to provide an optimized user experience for state management in tables.
 ## Key Features
 # IconStateSplitColumn Implementation
@@ -514,7 +512,6 @@ document.addEventListener('state-transition', function(event) {
 
 ## Overview
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 
 The `IconStateSplitColumn` is a custom Filament table column component designed to display state transition icons in a compact, responsive grid layout. It extends Filament's `Column` component to provide an optimized user experience for state management in tables.
 
@@ -583,11 +580,7 @@ class IconStateSplitColumn extends Column
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     protected function setUp(): void
     {
@@ -597,11 +590,7 @@ class IconStateSplitColumn extends Column
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function stateClass(string $stateClass, string $modelClass): static
     {
@@ -610,11 +599,7 @@ class IconStateSplitColumn extends Column
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function getRecordStates(): array
     {
@@ -623,11 +608,7 @@ class IconStateSplitColumn extends Column
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function canTransitionTo($recordId, $stateClass): bool
     {
@@ -834,21 +815,12 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
         action: 'prova'
     } 
 =======
-<<<<<<< HEAD
-onclick="window.dispatchEvent(new CustomEvent('state-transition', { 
-    detail: { 
-        recordId: {{ $record->id }}, 
-        stateClass: '{{ $state['class']::class }}',
-        action: 'prova'
-    } 
-=======
 onclick="window.dispatchEvent(new CustomEvent('state-transition', {
     detail: {
         recordId: {{ $record->id }},
         stateClass: '{{ $state['class']::class }}',
         action: 'prova'
     }
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 }))"
 
@@ -858,11 +830,7 @@ document.addEventListener('state-transition', function(event) {
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     if (window.Livewire) {
         window.Livewire.find(document.querySelector('[wire\\:id]').getAttribute('wire:id'))
@@ -906,13 +874,7 @@ document.addEventListener('state-transition', function(event) {
 ||||||| parent of 9a84589 (.):docs/archived/iconstatesplitcolumn-implementation-1.md
 **Compatibility**: Filament 3.x, Laravel 10.x
 =======
-<<<<<<< HEAD
-**Compatibility**: Filament 4.x, Laravel 10.x 
-||||||| parent of 9a84589 (.):docs/archived/iconstatesplitcolumn-implementation-1.md
-**Compatibility**: Filament 3.x, Laravel 10.x
-=======
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

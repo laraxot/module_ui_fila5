@@ -36,11 +36,7 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     <x-filament::dropdown.list>
         <x-filament::dropdown.list.item>
@@ -193,19 +189,11 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
   ]);
   
 =======
-<<<<<<< HEAD
-  
-  state([
-      'property' => null,
-  ]);
-  
-=======
 
   state([
       'property' => null,
   ]);
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
   $action = function () {
       // Logica dell'azione
@@ -214,11 +202,7 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 <<<<<<< HEAD
   
 =======
-<<<<<<< HEAD
-  
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
   <div>
       <!-- Template del componente -->
@@ -239,17 +223,10 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
   name('page.name');
   
 =======
-<<<<<<< HEAD
-  
-  middleware(['auth']);
-  name('page.name');
-  
-=======
 
   middleware(['auth']);
   name('page.name');
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
   state([
       'property' => null,
@@ -258,11 +235,7 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 <<<<<<< HEAD
   
 =======
-<<<<<<< HEAD
-  
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
   <x-layouts.main>
       <!-- Contenuto della pagina -->
@@ -312,11 +285,7 @@ $logout = function () {
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     @if($isLoggingOut)
         <x-filament::loading-indicator />
@@ -368,11 +337,7 @@ $logout = function () {
 <<<<<<< HEAD
         
 =======
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         @if($isLoggingOut)
             <x-filament::loading-indicator />
@@ -523,9 +488,6 @@ $logout = function () {
 - ✅ Utilizzare i componenti appropriati
 - ✅ Seguire la struttura standard
 - ✅ Gestire correttamente le traduzioni
-<<<<<<< HEAD
-- ✅ Testare in entrambi gli stati
-=======
 <<<<<<< HEAD
 - ✅ Testare in entrambi gli stati
 =======
@@ -986,5 +948,4 @@ $logout = function () {
 - ✅ Seguire la struttura standard
 - ✅ Gestire correttamente le traduzioni
 - ✅ Testare in entrambi gli stati
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

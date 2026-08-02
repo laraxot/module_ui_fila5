@@ -1,16 +1,8 @@
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 module: theme
 topic: filament_error_fileupload_prefixicon
 canonical: ../../../Themes/docs/shared-components/filament-error-fileupload-prefixicon_1.md
-<<<<<<< HEAD
----
-
-See canonical documentation: ../../../Themes/docs/shared-components/filament-error-fileupload-prefixicon_1.md
-=======
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/filament-error-fileupload-prefixicon_1.md
@@ -85,5 +77,4 @@ Se serve un’icona, usare solo i metodi previsti dalla documentazione Filament.
 * [filament-error-fileupload-prefixicon.md](../../Patient/project_docs/filament-error-fileupload-prefixicon.md)
 * [filament-error-fileupload-prefixicon.md](../../Patient/project_docs/filament-error-fileupload-prefixicon.md)
 * [filament-error-fileupload-prefixicon.md](../../Patient/project_docs/filament-error-fileupload-prefixicon.md)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

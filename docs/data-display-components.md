@@ -172,11 +172,7 @@ new Chart(ctx, {
 <<<<<<< HEAD
   
 =======
-<<<<<<< HEAD
-  
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
   @media (max-width: 768px) {
     .table {
@@ -194,11 +190,7 @@ new Chart(ctx, {
 <<<<<<< HEAD
   
 =======
-<<<<<<< HEAD
-  
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
   canvas {
     animation: fadeIn 0.5s ease;
@@ -210,9 +202,6 @@ new Chart(ctx, {
 - [Componenti Base](./base-components.md)
 - [Form Avanzati](./advanced-form-components.md)
 - [Accessibilità](./standards/accessibility.md)
-<<<<<<< HEAD
-- [Performance](./standards/performance.md) 
-=======
 <<<<<<< HEAD
 - [Performance](./standards/performance.md) 
 =======
@@ -414,5 +403,4 @@ new Chart(ctx, {
 - [Form Avanzati](./advanced-form-components.md)
 - [Accessibilità](./standards/accessibility.md)
 - [Performance](./standards/performance.md)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

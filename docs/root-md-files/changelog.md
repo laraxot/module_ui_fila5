@@ -3,11 +3,6 @@
 
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
 =======
-<<<<<<< HEAD
-# Changelog
-
-Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
-=======
 ---
 title: "Changelog"
 type: concept
@@ -31,5 +26,4 @@ related:
 # Changelog
 
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

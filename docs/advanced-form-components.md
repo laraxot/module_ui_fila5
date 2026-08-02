@@ -21,15 +21,9 @@
     type="email" 
     id="email" 
 =======
-<<<<<<< HEAD
-  <input 
-    type="email" 
-    id="email" 
-=======
   <input
     type="email"
     id="email"
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     class="form-control is-invalid"
     aria-describedby="email-error"
@@ -49,15 +43,9 @@
     type="text" 
     id="search" 
 =======
-<<<<<<< HEAD
-  <input 
-    type="text" 
-    id="search" 
-=======
   <input
     type="text"
     id="search"
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     class="form-control"
     list="suggestions"
@@ -82,15 +70,9 @@
       type="text" 
       id="date" 
 =======
-<<<<<<< HEAD
-    <input 
-      type="text" 
-      id="date" 
-=======
     <input
       type="text"
       id="date"
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
       class="form-control"
       data-date-format="dd/mm/yyyy"
@@ -112,15 +94,9 @@
       type="text" 
       id="time" 
 =======
-<<<<<<< HEAD
-    <input 
-      type="text" 
-      id="time" 
-=======
     <input
       type="text"
       id="time"
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
       class="form-control"
       data-time-format="HH:mm"
@@ -143,15 +119,9 @@
     type="range" 
     id="range" 
 =======
-<<<<<<< HEAD
-  <input 
-    type="range" 
-    id="range" 
-=======
   <input
     type="range"
     id="range"
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     class="form-range"
     min="0"
@@ -173,15 +143,9 @@
       type="number" 
       id="quantity" 
 =======
-<<<<<<< HEAD
-    <input 
-      type="number" 
-      id="quantity" 
-=======
     <input
       type="number"
       id="quantity"
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
       class="form-control text-center"
       min="0"
@@ -237,17 +201,10 @@
     border-color: $danger;
     
 =======
-<<<<<<< HEAD
-  
-  &.is-invalid {
-    border-color: $danger;
-    
-=======
 
   &.is-invalid {
     border-color: $danger;
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     &:focus {
       box-shadow: 0 0 0 0.2rem rgba($danger, 0.25);
@@ -263,11 +220,7 @@
 <<<<<<< HEAD
   
 =======
-<<<<<<< HEAD
-  
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
   &:focus-within {
     transform: translateY(-1px);
@@ -280,9 +233,6 @@
 - [Componenti Base](./base-components.md)
 - [Feedback](./feedback-components.md)
 - [Accessibilità](./standards/accessibility.md)
-<<<<<<< HEAD
-- [Performance](./standards/performance.md) 
-=======
 <<<<<<< HEAD
 - [Performance](./standards/performance.md) 
 =======
@@ -476,5 +426,4 @@
 - [Feedback](./feedback-components.md)
 - [Accessibilità](./standards/accessibility.md)
 - [Performance](./standards/performance.md)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

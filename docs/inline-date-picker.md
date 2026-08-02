@@ -210,9 +210,6 @@ If the component doesn't look right, make sure you have the required Tailwind CS
 <<<<<<< HEAD
 Contributions are welcome! Please feel free to submit a Pull Request.
 =======
-<<<<<<< HEAD
-Contributions are welcome! Please feel free to submit a Pull Request.
-=======
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## ♻️ Manutenzione
@@ -431,5 +428,4 @@ If the component doesn't look right, make sure you have the required Tailwind CS
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

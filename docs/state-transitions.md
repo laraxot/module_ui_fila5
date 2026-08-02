@@ -50,9 +50,6 @@ class ExampleTransition extends Transition
 <<<<<<< HEAD
 - [SelectStateColumn Documentation](./select-state-column.md)
 =======
-<<<<<<< HEAD
-- [SelectStateColumn Documentation](./select-state-column.md)
-=======
 - [SelectStateColumn Documentation](./select-state-column.md)
 # State Transitions Guide
 
@@ -104,5 +101,4 @@ class ExampleTransition extends Transition
 ## Related Documentation
 - [State Management](./state-management.md)
 - [SelectStateColumn Documentation](./select-state-column.md)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
