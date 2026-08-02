@@ -55,7 +55,7 @@ Frontoffice senza Livewire dedicato — pattern [Alpine](https://filamentphp.com
 </x-filament::tabs>
 ```
 
-Caso Fixcity `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
+Caso progetto corrente `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
 
 ## Esempi di utilizzo
 

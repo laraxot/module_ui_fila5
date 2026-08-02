@@ -391,7 +391,7 @@ class ClosedDays extends Field { /* Focused on day selection */ }
 
 #### **3.1 AI-Enhanced Components**
 - Smart form validation with ML suggestions
-- Auto-complete components with intelligent predictions
+- Auto-complete components with intelligent forecasts
 - Dynamic form generation based on data patterns
 - Voice-controlled component interactions
 
@@ -735,7 +735,7 @@ class UserCalendarWidget extends XotBaseWidget
 
 ## 🎯 MODULE OVERVIEW
 
-Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+Il modulo **UI** è il sistema di componenti e design system della piattaforma progetto corrente, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
 
 ### 🏗️ Architettura Modulo
 ```

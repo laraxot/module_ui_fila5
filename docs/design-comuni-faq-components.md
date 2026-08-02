@@ -360,7 +360,7 @@ Render: HTML
 pub_theme:: → Themes/Sixteen/resources/views/
 ```
 
-Configurato in `config/local/fixcity/xra.php`:
+Configurato in `config/local/current/xra.php`:
 ```php
 'pub_theme' => 'Sixteen',
 ```

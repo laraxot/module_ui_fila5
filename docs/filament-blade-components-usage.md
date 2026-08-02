@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# Utilizzo dei Componenti Blade di Filament 
+# Utilizzo dei Componenti Blade di Filament
 =======
 # Utilizzo dei Componenti Blade di Filament
 >>>>>>> laraxot/dev
@@ -44,7 +44,7 @@ Filament fornisce una serie di componenti Blade pronti all'uso che dovrebbero es
 ⚠️ **ATTENZIONE**: I seguenti layout **NON esistono** in Filament e non devono essere utilizzati:
 
 <<<<<<< HEAD
-- ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di SaluteOra
+- ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>corrente
 =======
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>
@@ -196,7 +196,7 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 3. **NON nidificare** elementi dropdown in modo errato - Rispettare la struttura gerarchica dei componenti Filament.
 
 <<<<<<< HEAD
-## Gestione delle Rotte 
+## Gestione delle Rotte
 =======
 ## Gestione delle Rotte
 >>>>>>> laraxot/dev
@@ -209,7 +209,7 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 
 2. **Per le pagine frontend**:
 <<<<<<< HEAD
-   - Creare file Blade in `/var/www/html/saluteora/laravel/Themes/One/resources/views/pages/`
+   - Creare file Blade in `[project-root]/laravel/Themes/One/resources/views/pages/`
 =======
    - Creare file Blade in `Themes/One/resources/views/pages/`
    - Creare file Blade in `Themes/One/resources/views/pages/`

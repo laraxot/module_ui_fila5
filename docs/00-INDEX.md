@@ -98,14 +98,14 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 | Da | A | Tipo |
 |----|---|------|
 | Testimonials Component | [Theme Customization](../../Themes/TwentyOne/docs/components/testimonials.md) | Integration |
-| Testimonials Component | [Predict Homepage](../../Modules/Predict/docs/02-frontend/00-INDEX.md) | Consumer |
+| Testimonials Component | [forecast Homepage](../../Modules/Domain/docs/02-frontend/00-INDEX.md) | Consumer |
 
 ### Verso Questo Indice
 
 | Da | A | Tipo |
 |----|---|------|
 | [Theme Index](../../Themes/TwentyOne/docs/00-INDEX.md) | UI Components | Dependency |
-| [Predict Module Index](../../Modules/Predict/docs/00-INDEX.md) | UI Components | Reference |
+| [forecast Module Index](../../Modules/Domain/docs/00-INDEX.md) | UI Components | Reference |
 
 ---
 
