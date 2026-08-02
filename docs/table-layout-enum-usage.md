@@ -1,16 +1,9 @@
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 module: theme
 topic: table_layout_enum_usage
 canonical: ../../../Themes/docs/shared-components/table-layout-enum-usage_1.md
 ---
-<<<<<<< HEAD
-
-See canonical documentation: ../../../Themes/docs/shared-components/table-layout-enum-usage_1.md
-=======
 
 See canonical documentation: ../../../Themes/docs/shared-components/table-layout-enum-usage_1.md
 =======
@@ -373,5 +366,4 @@ class ListUsers extends ListRecords
 Il metodo `getTableColumns()` ora richiede due parametri:
 - `$listColumns`: Array delle colonne per layout lista
 - `$gridColumns`: Array delle colonne per layout griglia
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

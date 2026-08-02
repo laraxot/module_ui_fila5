@@ -8,16 +8,10 @@ updated: "2026-07-29"
 related:
   - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
 =======
-<<<<<<< HEAD
-updated: "2026-07-29"
-related:
-  - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
-=======
 updated: "2026-07-23"
 related:
   - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
   - "./wiki/troubleshooting/git-push-lfs-missing-objects.md"
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
   - "./git-multi-org-sync-handoff.md"
 ---
@@ -43,11 +37,8 @@ fetch di tutti i remote, quality gates (PHPStan L10, PHPMD), risincronizzazione 
 
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
 - **Blocco LFS lato server (provtv)** (storico): in una sessione precedente si era
   riscritta la storia senza tracking LFS. **Non ripetere** rewrite se evitabile.
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - **Violazione di dipendenza Geo→UI**: `app/Livewire/Components/Map/InteractiveMap.php`
   importava `Modules\\Geo\\Services\\{Geocoding,Map}Service`, un modulo che non fa
@@ -64,13 +55,9 @@ fetch di tutti i remote, quality gates (PHPStan L10, PHPMD), risincronizzazione 
 <<<<<<< HEAD
 
 =======
-<<<<<<< HEAD
-
-=======
 | `GH008` / LFS missing su `provtv` | OID LFS non presenti su quel remote | `git lfs fetch laraxot --all` → `git lfs push provtv --all` → push |
 
 Playbook completo: [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md).
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 ## Regola per il futuro
@@ -80,10 +67,7 @@ sincronizzare **tutti** i remote elencati, non solo `origin`/`provtv`. Mai forza
 push distruttivi su storie scollegate: preferire `--allow-unrelated-histories` e
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
 revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sibling sano, non squash/reset.
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 ### Caso User 2026-07-23 (unrelated)

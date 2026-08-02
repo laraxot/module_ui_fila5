@@ -145,9 +145,6 @@ class S3Test extends XotBasePage
 <<<<<<< HEAD
 *Ultimo aggiornamento: giugno 2025* 
 =======
-<<<<<<< HEAD
-*Ultimo aggiornamento: giugno 2025* 
-=======
 *Ultimo aggiornamento: giugno 2025*
 # Filament Pages Refactoring - UI Module
 
@@ -294,5 +291,4 @@ class S3Test extends XotBasePage
 - [DRY + KISS Principles](../../Xot/docs/dry_kiss_principles.md)
 
 *Ultimo aggiornamento: giugno 2025*
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

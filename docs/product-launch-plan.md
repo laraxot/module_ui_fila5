@@ -1,8 +1,5 @@
 <<<<<<< HEAD
 # UI Module - Product Launch Plan
-=======
-<<<<<<< HEAD
-# UI Module - Product Launch Plan
 
 **Module:** UI  
 **Version:** 1.0.0  
@@ -87,7 +84,6 @@
 *Last Updated: March 12, 2026*
 =======
 # UI - Product Launch Plan
->>>>>>> laraxot/dev
 
 **Module:** UI  
 **Version:** 1.0.0  
@@ -169,9 +165,6 @@
 
 ---
 
-<<<<<<< HEAD
-*Last Updated: March 12, 2026*
-=======
 - lancio di superfici non ancora supportate dal backend
 - documentazione non aderente al codice reale
 - dipendenze inter-modulo sottostimate
@@ -181,5 +174,4 @@
 - [PRD](prd.md)
 - [User Research](user-research.md)
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

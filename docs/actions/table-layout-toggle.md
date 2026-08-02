@@ -1,6 +1,4 @@
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
 # TableLayoutToggleTableAction
 
 ## Panoramica
@@ -71,7 +69,6 @@ related:
   - "./table-layout-toggle-1.md"
 ---
 
->>>>>>> laraxot/dev
 # TableLayoutToggleTableAction
 
 ## Panoramica
@@ -127,9 +124,6 @@ class MyListRecords extends ListRecords
 - [Risoluzione Conflitti UI](../CONFLITTI_MERGE_RISOLTI.md): Documentazione dei conflitti risolti
 - [Test di Risoluzione Conflitti](../test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
 
-<<<<<<< HEAD
-[Torna alla documentazione UI](/docs/modules/module_ui.md#actions) 
-=======
 - **Non** spostare il toggle in `HasTableLayoutPage` — duplicazione inutile.
 - **Non** rimuovere `TableLayoutTrait` dall’Action — è il punto che scrive sessione al click.
 - **Non** refactorare icona/tooltip in closure se non c’è bug visivo.
@@ -144,5 +138,4 @@ Vedi [bugfix](../bugfix-table-layout-toggle-not-working.md): bastano `resetTable
 - [Disciplina agente](../../../docs/wiki/memories/agent-table-layout-toggle-discipline.md)
 - [Contratto Xot](../../Xot/docs/filament/table-layout-toggle-contract.md)
 - [Tema One — tabelle](../../../Themes/One/docs/filament-resource-schemas-tables.md)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

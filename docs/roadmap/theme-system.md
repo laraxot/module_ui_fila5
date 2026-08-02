@@ -1,7 +1,5 @@
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
 ---
 title: "Sistema di Theming"
 type: concept
@@ -23,7 +21,6 @@ related:
 ---
 
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 # Sistema di Theming
 
 ## 📊 Stato Implementazione
@@ -66,17 +63,10 @@ class ThemeRegistry
     protected array $overrides = [];
     
 =======
-<<<<<<< HEAD
-    
-    /** @var array<string, array<string, mixed>> */
-    protected array $overrides = [];
-    
-=======
 
     /** @var array<string, array<string, mixed>> */
     protected array $overrides = [];
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function register(Theme $theme): void
     {
@@ -85,11 +75,7 @@ class ThemeRegistry
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function override(string $tenant, array $config): void
     {
@@ -110,11 +96,7 @@ class Theme
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function resolve(string $path, $default = null)
     {
@@ -123,11 +105,7 @@ class Theme
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function extend(array $overrides): self
     {
@@ -296,9 +274,6 @@ class ThemeCompiler
 2. Implementare CSS-in-JS
 3. Ottimizzare caching
 4. Aggiungere theme builder
-<<<<<<< HEAD
-5. Migliorare documentazione 
-=======
 <<<<<<< HEAD
 5. Migliorare documentazione 
 =======
@@ -538,5 +513,4 @@ class ThemeCompiler
 3. Ottimizzare caching
 4. Aggiungere theme builder
 5. Migliorare documentazione
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

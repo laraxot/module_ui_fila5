@@ -5,15 +5,9 @@
 **Status**: ✅ COMPLETATO  
 **Versione Filament**: 4.0.17  
 =======
-<<<<<<< HEAD
-**Data**: 2025-01-27  
-**Status**: ✅ COMPLETATO  
-**Versione Filament**: 4.0.17  
-=======
 **Data**: 2025-01-27
 **Status**: ✅ COMPLETATO
 **Versione Filament**: 4.0.17
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 ## 🔧 Correzioni Implementate
@@ -22,11 +16,7 @@
 <<<<<<< HEAD
 **Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 4.x  
 =======
-<<<<<<< HEAD
-**Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 4.x  
-=======
 **Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 4.x
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 **Soluzione**: Disabilitazione temporanea del widget
 
@@ -97,11 +87,7 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function getEvents(): array
     {
@@ -140,9 +126,6 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 - Widget base di Filament 4.x
 - Sistema di autenticazione e autorizzazione
 
-<<<<<<< HEAD
-*Ultimo aggiornamento: 2025-01-27*
-=======
 <<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-27*
 =======
@@ -262,5 +245,4 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 - Sistema di autenticazione e autorizzazione
 
 *Ultimo aggiornamento: 2025-01-27*
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

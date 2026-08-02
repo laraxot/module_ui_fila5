@@ -7,14 +7,6 @@ canonical: ../../../Themes/docs/shared-components/customizing-your-site_1.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/customizing-your-site_1.md
 =======
-<<<<<<< HEAD
-module: theme
-topic: customizing_your_site
-canonical: ../../../Themes/docs/shared-components/customizing-your-site_1.md
----
-
-See canonical documentation: ../../../Themes/docs/shared-components/customizing-your-site_1.md
-=======
 title: Customizing Your Site
 description: Customizing your Jigsaw docs site
 extends: _layouts.documentation
@@ -205,5 +197,4 @@ class Foo extends bar
 ### Versione Incoming
 
 ---
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

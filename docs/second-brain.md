@@ -21,10 +21,7 @@ Stub **puntatore**: disciplina globale nella wiki di progetto; qui solo lezioni 
 - Board multi-agente: [../../../../docs/chat/multi-agent-standing-coordination.md](../../../../docs/chat/multi-agent-standing-coordination.md)
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
 - Push dual-remote / LFS: [./wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 ## Lezioni operative
@@ -36,10 +33,7 @@ Stub **puntatore**: disciplina globale nella wiki di progetto; qui solo lezioni 
 | `phpstan.path` su `Services/Map/Null*` | File rimossi; cache stale | Wipe cache swarm; non ricreare Map in UI |
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
 | Push unpack / GH008 LFS | thin pack + OID LFS assenti su un org | `--no-thin`; `lfs fetch --all` da sibling sano |
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 **Map/Geo:** Nel modulo `UI` non devono esserci elementi legati a mappe, geolocalizzazione o dati geografici. Le cartelle `app/Adapters/Location` e `app/Adapters/Map` sono state rimosse. Il modulo `Geo` è un ambito separato e non fa parte di questo progetto; il modulo `UI` deve mantenere responsabilità esclusiva sui componenti UI generici.

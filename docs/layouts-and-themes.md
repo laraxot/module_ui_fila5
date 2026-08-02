@@ -55,8 +55,6 @@ Per correggere questa situazione, è necessario:
 ```bash
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
 
 # Creare la directory Themes se non esiste
 mkdir -p /laravel/Themes
@@ -526,7 +524,6 @@ Per correggere questa situazione, è necessario:
 
 ```bash
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 # Creare la directory Themes se non esiste
 mkdir -p /laravel/Themes
 
@@ -670,13 +667,9 @@ Questa scelta evita ambiguità e possibili errori runtime nella gestione delle i
 <<<<<<< HEAD
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
 =======
-<<<<<<< HEAD
-Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
-=======
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale:
@@ -689,13 +682,9 @@ In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale
 <<<<<<< HEAD
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
 =======
-<<<<<<< HEAD
-Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
-=======
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 ## Layout System
@@ -753,11 +742,7 @@ class Dashboard extends Component
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     protected function getLayoutData(): array
     {
@@ -787,11 +772,7 @@ class Dashboard extends Component
 <<<<<<< HEAD
 #### PrintLayout 
 =======
-<<<<<<< HEAD
-#### PrintLayout 
-=======
 #### PrintLayout
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 ```php
 use Modules\UI\Layouts\PrintLayout;
@@ -802,11 +783,7 @@ class StampaPratica extends Component
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     protected function getLayoutData(): array
     {
@@ -853,11 +830,7 @@ return [
 <<<<<<< HEAD
         
 =======
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         // Tipografia
         'typography' => [
@@ -874,11 +847,7 @@ return [
 <<<<<<< HEAD
         
 =======
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         // Spaziature
         'spacing' => [
@@ -889,11 +858,7 @@ return [
 <<<<<<< HEAD
         
 =======
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         // Bordi
         'border' => [
@@ -903,11 +868,7 @@ return [
 <<<<<<< HEAD
         
 =======
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         // Ombre
         'shadows' => [
@@ -1016,9 +977,5 @@ AdminLayout::make()
 <<<<<<< HEAD
    - Centralizzare configurazioni 
 =======
-<<<<<<< HEAD
-   - Centralizzare configurazioni 
-=======
    - Centralizzare configurazioni
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

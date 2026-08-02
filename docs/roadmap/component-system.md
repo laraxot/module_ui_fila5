@@ -1,7 +1,5 @@
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
 ---
 title: "Sistema Componenti UI"
 type: concept
@@ -23,7 +21,6 @@ related:
 ---
 
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 # Sistema Componenti UI
 
 ## 📊 Stato Implementazione
@@ -220,9 +217,6 @@ protected function resolveLazyProp(string $key): mixed
 2. Implementare lazy loading
 3. Migliorare test coverage
 4. Documentare best practices
-<<<<<<< HEAD
-5. Ottimizzare performance 
-=======
 <<<<<<< HEAD
 5. Ottimizzare performance 
 =======
@@ -424,5 +418,4 @@ protected function resolveLazyProp(string $key): mixed
 3. Migliorare test coverage
 4. Documentare best practices
 5. Ottimizzare performance
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

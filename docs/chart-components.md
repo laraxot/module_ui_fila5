@@ -10,11 +10,7 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 <<<<<<< HEAD
 <x-ui::line-chart 
 =======
-<<<<<<< HEAD
-<x-ui::line-chart 
-=======
 <x-ui::line-chart
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     :title="'Andamento Utenti'"
     :labels="['Gen', 'Feb', 'Mar', 'Apr', 'Mag', 'Giu']"
@@ -38,11 +34,7 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 <<<<<<< HEAD
 <x-ui::pie-chart 
 =======
-<<<<<<< HEAD
-<x-ui::pie-chart 
-=======
 <x-ui::pie-chart
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     :title="'Distribuzione Utenti'"
     :labels="['Attivi', 'Inattivi', 'In attesa']"
@@ -60,11 +52,7 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 <<<<<<< HEAD
 <x-ui::stats-overview 
 =======
-<<<<<<< HEAD
-<x-ui::stats-overview 
-=======
 <x-ui::stats-overview
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     :stats="[
         [
@@ -118,11 +106,7 @@ class UserStats extends Component
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function mount()
     {
@@ -131,11 +115,7 @@ class UserStats extends Component
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function updateChartData()
     {
@@ -153,11 +133,7 @@ class UserStats extends Component
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function render()
     {
@@ -185,9 +161,6 @@ class UserStats extends Component
 - [Componenti Form](./form-components.md)
 - [Componenti Table](./table-components.md)
 - [Componenti Layout](./layout-components.md)
-<<<<<<< HEAD
-- [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
-=======
 <<<<<<< HEAD
 - [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
 =======
@@ -334,5 +307,4 @@ class UserStats extends Component
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

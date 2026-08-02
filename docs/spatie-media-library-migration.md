@@ -3,8 +3,6 @@
 ## 🌍 Analisi Multidimensionale della Migrazione
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
 # Migrazione da FileUpload a Spatie Media Library
 
 ## 🌍 Analisi Multidimensionale della Migrazione
@@ -739,7 +737,6 @@ public function downloadDocument(Media $media): Response
 
 ## 🌍 Analisi Multidimensionale della Migrazione
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 
 ### **Filosofia & Spiritualità**
 - **Evoluzione Paradigmatica**: Passaggio da gestione **atomistica** (FileUpload singoli) a gestione **sistemica** (Media Library ecosystem)
@@ -775,11 +772,7 @@ SpatieMediaLibraryFileUpload::make('photo_profile')
 <<<<<<< HEAD
 // Notify Themes  
 =======
-<<<<<<< HEAD
-// Notify Themes  
-=======
 // Notify Themes
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 SpatieMediaLibraryFileUpload::make('logo_src')
 
@@ -801,11 +794,7 @@ Forms\Components\FileUpload::make('health_card')
 <<<<<<< HEAD
 Forms\Components\FileUpload::make('identity_document') 
 =======
-<<<<<<< HEAD
-Forms\Components\FileUpload::make('identity_document') 
-=======
 Forms\Components\FileUpload::make('identity_document')
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 Forms\Components\FileUpload::make('isee_certificate')
 Forms\Components\FileUpload::make('pregnancy_certificate')
@@ -818,11 +807,7 @@ FileUpload::make('image') // Image block
 <<<<<<< HEAD
 FileUpload::make('background') // Hero block  
 =======
-<<<<<<< HEAD
-FileUpload::make('background') // Hero block  
-=======
 FileUpload::make('background') // Hero block
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 FileUpload::make('logo') // InfoBlock, LogoBlock
 
@@ -840,13 +825,9 @@ FileUpload::make('logo_header') // Metatag
 <<<<<<< HEAD
 // BaseModel <nome progetto> - IMPLEMENTA GIÀ HasMedia + InteractsWithMedia
 =======
-<<<<<<< HEAD
-// BaseModel <nome progetto> - IMPLEMENTA GIÀ HasMedia + InteractsWithMedia
-=======
 // BaseModel  - IMPLEMENTA GIÀ HasMedia + InteractsWithMedia
 // BaseModel  - IMPLEMENTA GIÀ HasMedia + InteractsWithMedia
 // BaseModel  - IMPLEMENTA GIÀ HasMedia + InteractsWithMedia
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 abstract class BaseModel extends Model implements HasMedia
 {
@@ -864,11 +845,7 @@ abstract class BaseProfile extends BaseModel implements ProfileContract
 <<<<<<< HEAD
 // BaseTenant - IMPLEMENTA GIÀ  
 =======
-<<<<<<< HEAD
-// BaseTenant - IMPLEMENTA GIÀ  
-=======
 // BaseTenant - IMPLEMENTA GIÀ
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 abstract class BaseTenant extends BaseModel implements HasAvatar, HasMedia
 {
@@ -896,19 +873,11 @@ Ogni tipo di documento dovrà avere la sua collection specifica:
 
 // Doctor Documents Collections  
 =======
-<<<<<<< HEAD
-'identity_document' => 'documenti_identita'  
-'isee_certificate' => 'certificazioni_isee'
-'pregnancy_certificate' => 'certificati_gravidanza'
-
-// Doctor Documents Collections  
-=======
 'identity_document' => 'documenti_identita'
 'isee_certificate' => 'certificazioni_isee'
 'pregnancy_certificate' => 'certificati_gravidanza'
 
 // Doctor Documents Collections
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 'certifications' => 'certificazioni_professionali'
 
@@ -917,11 +886,7 @@ Ogni tipo di documento dovrà avere la sua collection specifica:
 <<<<<<< HEAD
 'backgrounds' => 'sfondi_interfaccia' 
 =======
-<<<<<<< HEAD
-'backgrounds' => 'sfondi_interfaccia' 
-=======
 'backgrounds' => 'sfondi_interfaccia'
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 'headers' => 'intestazioni'
 ```
@@ -937,9 +902,6 @@ public function registerMediaCollections(): void
         ->singleFile();
 <<<<<<< HEAD
         
-=======
-<<<<<<< HEAD
-        
     $this->addMediaCollection('documenti_identita')
         ->acceptsMimeTypes(['image/jpeg', 'image/png', 'application/pdf'])
         ->singleFile();
@@ -950,7 +912,6 @@ public function registerMediaCollections(): void
         
 =======
 
->>>>>>> laraxot/dev
     $this->addMediaCollection('documenti_identita')
         ->acceptsMimeTypes(['image/jpeg', 'image/png', 'application/pdf'])
         ->singleFile();
@@ -958,11 +919,7 @@ public function registerMediaCollections(): void
     $this->addMediaCollection('certificazioni_isee')
         ->acceptsMimeTypes(['application/pdf'])
         ->singleFile();
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     $this->addMediaCollection('certificati_gravidanza')
         ->acceptsMimeTypes(['application/pdf'])
@@ -993,11 +950,7 @@ class SpatieDocumentUpload
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public static function forHealthCard(): SpatieMediaLibraryFileUpload
     {
@@ -1008,11 +961,7 @@ class SpatieDocumentUpload
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public static function forCertifications(): SpatieMediaLibraryFileUpload
     {
@@ -1031,11 +980,7 @@ class SpatieDocumentUpload
 <<<<<<< HEAD
 // Modules/UI/app/Filament/Components/SpatieImageUpload.php  
 =======
-<<<<<<< HEAD
-// Modules/UI/app/Filament/Components/SpatieImageUpload.php  
-=======
 // Modules/UI/app/Filament/Components/SpatieImageUpload.php
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 class SpatieImageUpload
 {
@@ -1052,11 +997,7 @@ class SpatieImageUpload
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public static function forBackground(string $collection = 'backgrounds'): SpatieMediaLibraryFileUpload
     {
@@ -1079,13 +1020,9 @@ class SpatieImageUpload
 <<<<<<< HEAD
 // Modules/<nome progetto>/app/Filament/Resources/PatientResource.php - getFormSchema()
 =======
-<<<<<<< HEAD
-// Modules/<nome progetto>/app/Filament/Resources/PatientResource.php - getFormSchema()
-=======
 // Modules/<nome modulo>/app/Filament/Resources/PatientResource.php - getFormSchema()
 // Modules/<nome modulo>/app/Filament/Resources/PatientResource.php - getFormSchema()
 // Modules/<nome modulo>/app/Filament/Resources/PatientResource.php - getFormSchema()
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 // PRIMA (FileUpload standard)
@@ -1098,11 +1035,7 @@ class SpatieImageUpload
 <<<<<<< HEAD
 // DOPO (SpatieMediaLibraryFileUpload)  
 =======
-<<<<<<< HEAD
-// DOPO (SpatieMediaLibraryFileUpload)  
-=======
 // DOPO (SpatieMediaLibraryFileUpload)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 'health_card' => \Modules\UI\Filament\Components\SpatieDocumentUpload::forHealthCard()
     ->label(trans('<nome progetto>::patients.fields.health_card.label'))
@@ -1120,11 +1053,7 @@ FileUpload::make('image'),
 <<<<<<< HEAD
 // DOPO  
 =======
-<<<<<<< HEAD
-// DOPO  
-=======
 // DOPO
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 \Modules\UI\Filament\Components\SpatieImageUpload::make('image', 'content_images')
     ->imagePreviewHeight('250')
@@ -1144,11 +1073,7 @@ public function up(): void
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     foreach($patients as $patient) {
         if($patient->health_card && Storage::exists($patient->health_card)) {
@@ -1169,11 +1094,7 @@ Schema::table('users', function (Blueprint $table) {
 <<<<<<< HEAD
         'identity_document', 
 =======
-<<<<<<< HEAD
-        'identity_document', 
-=======
         'identity_document',
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         'isee_certificate',
         'pregnancy_certificate',
@@ -1192,13 +1113,9 @@ Schema::table('users', function (Blueprint $table) {
 <<<<<<< HEAD
 // Modules/<nome progetto>/app/Models/User.php - Aggiunta registerMediaCollections
 =======
-<<<<<<< HEAD
-// Modules/<nome progetto>/app/Models/User.php - Aggiunta registerMediaCollections
-=======
 // Modules/<nome modulo>/app/Models/User.php - Aggiunta registerMediaCollections
 // Modules/<nome modulo>/app/Models/User.php - Aggiunta registerMediaCollections
 // Modules/<nome modulo>/app/Models/User.php - Aggiunta registerMediaCollections
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 public function registerMediaCollections(): void
@@ -1211,11 +1128,7 @@ public function registerMediaCollections(): void
 <<<<<<< HEAD
         
 =======
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     $this->addMediaCollection('documenti_identita')
         ->acceptsMimeTypes(['image/jpeg', 'image/png', 'application/pdf'])
@@ -1224,11 +1137,7 @@ public function registerMediaCollections(): void
 <<<<<<< HEAD
         
 =======
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     $this->addMediaCollection('certificazioni_isee')
         ->acceptsMimeTypes(['application/pdf'])
@@ -1237,11 +1146,7 @@ public function registerMediaCollections(): void
 <<<<<<< HEAD
         
 =======
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     $this->addMediaCollection('certificati_gravidanza')
         ->acceptsMimeTypes(['application/pdf'])
@@ -1250,11 +1155,7 @@ public function registerMediaCollections(): void
 <<<<<<< HEAD
         
 =======
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     // Certificazioni dottore (multiple)
     $this->addMediaCollection('certificazioni_professionali')
@@ -1272,11 +1173,7 @@ public function registerMediaConversions(Media $media = null): void
 <<<<<<< HEAD
         
 =======
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     $this->addMediaConversion('preview')
         ->width(600)
@@ -1291,13 +1188,9 @@ public function registerMediaConversions(Media $media = null): void
 <<<<<<< HEAD
 // Modules/<nome progetto>/app/Models/User.php - Accessors di transizione
 =======
-<<<<<<< HEAD
-// Modules/<nome progetto>/app/Models/User.php - Accessors di transizione
-=======
 // Modules/<nome modulo>/app/Models/User.php - Accessors di transizione
 // Modules/<nome modulo>/app/Models/User.php - Accessors di transizione
 // Modules/<nome modulo>/app/Models/User.php - Accessors di transizione
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 /**
@@ -1335,19 +1228,11 @@ public function getCertificationsAttribute(): array
             <a href="{{ $patient->getFirstMediaUrl('tessere_sanitarie') }}" 
                target="_blank" 
 =======
-<<<<<<< HEAD
-            <img src="{{ $patient->getFirstMediaUrl('tessere_sanitarie', 'thumbnail') }}" 
-                 alt="Tessera Sanitaria"
-                 class="w-full h-32 object-cover rounded">
-            <a href="{{ $patient->getFirstMediaUrl('tessere_sanitarie') }}" 
-               target="_blank" 
-=======
             <img src="{{ $patient->getFirstMediaUrl('tessere_sanitarie', 'thumbnail') }}"
                  alt="Tessera Sanitaria"
                  class="w-full h-32 object-cover rounded">
             <a href="{{ $patient->getFirstMediaUrl('tessere_sanitarie') }}"
                target="_blank"
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
                class="text-blue-600 text-sm">
                 {{ __('<nome progetto>::common.view_document') }}
@@ -1357,11 +1242,7 @@ public function getCertificationsAttribute(): array
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     @if($patient->hasMedia('certificazioni_isee'))
         <div class="document-preview">
@@ -1372,11 +1253,7 @@ public function getCertificationsAttribute(): array
 <<<<<<< HEAD
             <a href="{{ $patient->getFirstMediaUrl('certificazioni_isee') }}" 
 =======
-<<<<<<< HEAD
-            <a href="{{ $patient->getFirstMediaUrl('certificazioni_isee') }}" 
-=======
             <a href="{{ $patient->getFirstMediaUrl('certificazioni_isee') }}"
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
                target="_blank"
                class="text-blue-600 text-sm">
@@ -1446,11 +1323,7 @@ public function downloadDocument(Media $media): Response
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     if($media->collection_name === 'tessere_sanitarie') {
         // Log accesso a documento sensibile
@@ -1461,11 +1334,7 @@ public function downloadDocument(Media $media): Response
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     return response()->download($media->getPath());
 }
@@ -1490,11 +1359,7 @@ public function downloadDocument(Media $media): Response
 <<<<<<< HEAD
 ### **Post-Migrazione**  
 =======
-<<<<<<< HEAD
-### **Post-Migrazione**  
-=======
 ### **Post-Migrazione**
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - [ ] Cleanup file obsoleti
 - [ ] Performance comparison
@@ -1507,17 +1372,11 @@ public function downloadDocument(Media $media): Response
 
 ### **Documentazione Correlata**
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 - [Spatie Media Library Official Docs](https://spatie.be/docs/laravel-medialibrary)
 - [Filament Plugin Documentation](https://filamentphp.com/plugins/filament-spatie-media-library)
 - [UI Components Docs](./filament-components-rules.md)
 - [<nome progetto> Models Architecture](../<nome progetto>/docs/models-architecture.md)
-<<<<<<< HEAD
 =======
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - [Spatie Media Library Official Docs](https://spatie.be/project_docs/laravel-medialibrary)
 - [Filament Plugin Documentation](https://filamentphp.com/plugins/filament-spatie-media-library)
@@ -1537,11 +1396,7 @@ public function downloadDocument(Media $media): Response
 <<<<<<< HEAD
 2. **ALTO**: DoctorResource (certificazioni professionali)  
 =======
-<<<<<<< HEAD
-2. **ALTO**: DoctorResource (certificazioni professionali)  
-=======
 2. **ALTO**: DoctorResource (certificazioni professionali)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 3. **MEDIO**: UI Blocks (contenuti pubblici)
 4. **BASSO**: Appearance pages (configurazioni admin)
@@ -1565,15 +1420,9 @@ public function downloadDocument(Media $media): Response
 *Versione: 1.0*  
 *Compatibilità: Laraxot <nome progetto>, Spatie Media Library 11.x, Filament 4.x* 
 =======
-<<<<<<< HEAD
-*Ultimo aggiornamento: Dicembre 2024*  
-*Versione: 1.0*  
-*Compatibilità: Laraxot <nome progetto>, Spatie Media Library 11.x, Filament 4.x* 
-=======
 *Ultimo aggiornamento: Dicembre 2024*
 *Versione: 1.0*
 *Compatibilità: Laraxot , Spatie Media Library 11.x, Filament 3.x*
 *Compatibilità: Laraxot , Spatie Media Library 11.x, Filament 3.x*
 *Compatibilità: Laraxot , Spatie Media Library 11.x, Filament 3.x*
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

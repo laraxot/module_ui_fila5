@@ -7,11 +7,7 @@
 <<<<<<< HEAD
 // /var/www/html/base_<nome progetto>/laravel/Themes/One/resources/views/pages/auth/logout.blade.php
 =======
-<<<<<<< HEAD
-// /var/www/html/base_<nome progetto>/laravel/Themes/One/resources/views/pages/auth/logout.blade.php
-=======
 // Themes/One/resources/views/pages/auth/logout.blade.php
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 <?php
@@ -42,17 +38,10 @@ $logout = function() {
                 <button 
                     wire:click="logout" 
 =======
-<<<<<<< HEAD
-            
-            <div class="flex justify-center space-x-4">
-                <button 
-                    wire:click="logout" 
-=======
 
             <div class="flex justify-center space-x-4">
                 <button
                     wire:click="logout"
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
                     class="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
                 >
@@ -63,15 +52,9 @@ $logout = function() {
                 <a 
                     href="{{ url()->previous() }}" 
 =======
-<<<<<<< HEAD
-                
-                <a 
-                    href="{{ url()->previous() }}" 
-=======
 
                 <a
                     href="{{ url()->previous() }}"
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
                     class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
                 >
@@ -141,9 +124,6 @@ $logout = function() {
 2. Fornire feedback chiari all'utente
 3. Garantire la sicurezza del processo di logout
 4. Assicurare la responsività su tutti i dispositivi
-<<<<<<< HEAD
-5. Utilizzare le traduzioni per il supporto multilingua 
-=======
 <<<<<<< HEAD
 5. Utilizzare le traduzioni per il supporto multilingua 
 =======
@@ -258,5 +238,4 @@ $logout = function() {
 3. Garantire la sicurezza del processo di logout
 4. Assicurare la responsività su tutti i dispositivi
 5. Utilizzare le traduzioni per il supporto multilingua
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

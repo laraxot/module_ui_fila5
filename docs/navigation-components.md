@@ -1,9 +1,6 @@
 <<<<<<< HEAD
 # Componenti di Navigazione 
 =======
-<<<<<<< HEAD
-# Componenti di Navigazione 
-=======
 # Componenti di Navigazione
 
 ## Indice
@@ -185,7 +182,6 @@ Il componente `user-dropdown` è progettato per gestire automaticamente la visua
 - [Accessibilità](./standards/accessibility.md)
 # Componenti di Navigazione
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -258,11 +254,7 @@ I componenti di navigazione devono utilizzare sempre le funzioni di localizzazio
 <<<<<<< HEAD
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/saluteora/laravel/lang/{locale}/auth.php`:
 =======
-<<<<<<< HEAD
-Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/saluteora/laravel/lang/{locale}/auth.php`:
-=======
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 ```php
@@ -308,9 +300,5 @@ return [
 <<<<<<< HEAD
    - Utilizzare i separatori corretti nei dropdown (div con bordo, non componenti inesistenti)
 =======
-<<<<<<< HEAD
    - Utilizzare i separatori corretti nei dropdown (div con bordo, non componenti inesistenti)
-=======
-   - Utilizzare i separatori corretti nei dropdown (div con bordo, non componenti inesistenti)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

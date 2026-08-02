@@ -7,14 +7,6 @@ canonical: ../../../Themes/docs/shared-components/algolia-docsearch_1.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/algolia-docsearch_1.md
 =======
-<<<<<<< HEAD
-module: theme
-topic: algolia_docsearch
-canonical: ../../../Themes/docs/shared-components/algolia-docsearch_1.md
----
-
-See canonical documentation: ../../../Themes/docs/shared-components/algolia-docsearch_1.md
-=======
 title: Algolia DocSearch
 description: Configure Algolia DocSearch with the Jigsaw docs starter template
 extends: _layouts.documentation
@@ -180,5 +172,4 @@ For more details, visit the [official Algolia DocSearch documentation.](https://
 ### Versione Incoming
 
 ---
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

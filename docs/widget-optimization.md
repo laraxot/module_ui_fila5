@@ -113,11 +113,7 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     // Configurazioni comuni per tutti i widget di statistiche UI
     protected static function getDefaultStats(): array
@@ -129,11 +125,7 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     // Metodi helper comuni
     protected function formatNumber(int|float $number): string
@@ -143,11 +135,7 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     protected function formatPercentage(int|float $percentage): string
     {
@@ -181,17 +169,10 @@ abstract class UIBaseTestWidget extends XotBaseWidget
     public array $widgets = [];
     
 =======
-<<<<<<< HEAD
-    
-    // Configurazioni comuni per tutti i widget di test UI
-    public array $widgets = [];
-    
-=======
 
     // Configurazioni comuni per tutti i widget di test UI
     public array $widgets = [];
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     // Metodi helper comuni
     protected function getTestData(): array
@@ -227,11 +208,7 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     // Configurazioni comuni per tutti i grafici UI
     protected function getDefaultChartOptions(): array
@@ -249,11 +226,7 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     // Metodi helper comuni
     protected function formatChartData(array $data): array
@@ -340,11 +313,7 @@ class SystemTestWidget extends UIBaseTestWidget
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function getViewData(): array
     {
@@ -359,11 +328,7 @@ class SystemTestWidget extends UIBaseTestWidget
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     private function getSystemInfo(): array
     {
@@ -376,11 +341,7 @@ class SystemTestWidget extends UIBaseTestWidget
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     private function getDatabaseStatus(): array
     {
@@ -421,9 +382,6 @@ class SystemTestWidget extends UIBaseTestWidget
 ---
 
 *Ultimo aggiornamento: Giugno 2025*
-<<<<<<< HEAD
-*Autore: Analisi Automatica del Progetto*
-=======
 <<<<<<< HEAD
 *Autore: Analisi Automatica del Progetto*
 =======
@@ -774,5 +732,4 @@ class SystemTestWidget extends UIBaseTestWidget
 
 *Ultimo aggiornamento: Giugno 2025*
 *Autore: Analisi Automatica del Progetto*
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

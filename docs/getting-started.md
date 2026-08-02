@@ -70,10 +70,7 @@ Now that you’ve edited your configuration variables and know how to customize 
 ```bash
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 # build static files with Jigsaw
 ./vendor/bin/jigsaw build
 
@@ -90,8 +87,6 @@ npm run dev
 * [getting-started.md](../../../UI/docs/getting-started.md)
 * [getting-started.md](../../../Tenant/docs/it/getting-started.md)
 * [getting-started.md](../../../Cms/docs/getting-started.md)
-<<<<<<< HEAD
-=======
 
 ### Versione Incoming
 
@@ -170,7 +165,6 @@ Files that don't require processing (such as images and fonts) can be added dire
 Now that you’ve edited your configuration variables and know how to customize your styles and content, let’s build the site.
 
 ```bash
->>>>>>> laraxot/dev
 # build static files with Jigsaw
 ./vendor/bin/jigsaw build
 
@@ -180,17 +174,7 @@ npm run dev
 ```
 ### Versione HEAD
 
-<<<<<<< HEAD
-
 ## Collegamenti tra versioni di getting-started.md
-* [getting-started.md](../../../Gdpr/docs/getting-started.md)
-* [getting-started.md](../../../Xot/docs/getting-started.md)
-* [getting-started.md](../../../UI/docs/getting-started.md)
-* [getting-started.md](../../../Tenant/docs/it/getting-started.md)
-* [getting-started.md](../../../Cms/docs/getting-started.md)
-=======
-## Collegamenti tra versioni di getting-started.md
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 * [getting-started.md](../../../Gdpr/project_docs/getting-started.md)
 * [getting-started.md](../../../Xot/project_docs/getting-started.md)
@@ -205,15 +189,7 @@ npm run dev
 
 ---
 =======
-<<<<<<< HEAD
-
-### Versione Incoming
-
-
----
-=======
 ### Versione Incoming
 
 ---
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

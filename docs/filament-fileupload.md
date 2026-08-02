@@ -98,9 +98,6 @@ return [
 <<<<<<< HEAD
 - [Laravel File Storage](https://laravel.com/docs/filesystem) 
 =======
-<<<<<<< HEAD
-- [Laravel File Storage](https://laravel.com/docs/filesystem) 
-=======
 - [Laravel File Storage](https://laravel.com/docs/filesystem)
 # FileUpload Component in Filament
 
@@ -194,7 +191,6 @@ return [
 
 ## Collegamenti
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 - [Translation System](../../Lang/project_docs/translation-system.md)
 - [Form Components](../../Patient/project_docs/filament-form-components.md)
 - [Best Practices](../../Xot/project_docs/filament-best-practices.md)
@@ -204,9 +200,5 @@ return [
 <<<<<<< HEAD
 - [Laravel File Storage](https://laravel.com/project_docs/filesystem) 
 =======
-<<<<<<< HEAD
-- [Laravel File Storage](https://laravel.com/project_docs/filesystem) 
-=======
 - [Laravel File Storage](https://laravel.com/project_docs/filesystem)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

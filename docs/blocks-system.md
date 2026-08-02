@@ -1,16 +1,9 @@
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 module: theme
 topic: blocks_system
 canonical: ../../../Themes/docs/shared-components/blocks-system_1.md
 ---
-<<<<<<< HEAD
-
-See canonical documentation: ../../../Themes/docs/shared-components/blocks-system_1.md
-=======
 
 See canonical documentation: ../../../Themes/docs/shared-components/blocks-system_1.md
 =======
@@ -226,5 +219,4 @@ public function render()
 
 ## Note
 Questa documentazione è parte del sistema di documentazione di il progetto. Per dettagli specifici sui singoli blocchi, consultare la documentazione dei rispettivi moduli.
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
