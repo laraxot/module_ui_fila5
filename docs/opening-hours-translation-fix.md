@@ -11,11 +11,7 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
 <<<<<<< HEAD
 - `afternoon` - Sezione pomeridiana  
 =======
-<<<<<<< HEAD
-- `afternoon` - Sezione pomeridiana  
-=======
 - `afternoon` - Sezione pomeridiana
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - `morning_label` - Etichetta attività mattutine
 - `afternoon_label` - Etichetta attività pomeridiane
@@ -141,9 +137,6 @@ done
 - **REGOLA CRITICA**: Sincronizzazione obbligatoria tra lingue
 - **REGOLA CRITICA**: Struttura espansa per tutti i campi
 - **REGOLA CRITICA**: Sintassi moderna e tipizzazione stretta
-<<<<<<< HEAD
-- **REGOLA CRITICA**: Controllo automatico con script
-=======
 <<<<<<< HEAD
 - **REGOLA CRITICA**: Controllo automatico con script
 =======
@@ -284,5 +277,4 @@ done
 - **REGOLA CRITICA**: Struttura espansa per tutti i campi
 - **REGOLA CRITICA**: Sintassi moderna e tipizzazione stretta
 - **REGOLA CRITICA**: Controllo automatico con script
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

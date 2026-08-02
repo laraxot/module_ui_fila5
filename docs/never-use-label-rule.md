@@ -2,8 +2,6 @@
 
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
 ## ❌ ERRORE CRITICO - NON FARE MAI QUESTO
 
 ```php
@@ -173,7 +171,6 @@ rules:
 # REGOLA CRITICA: MAI usare ->label()
 
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 ## Data: 2025-01-06
 
 ## ❌ ERRORE CRITICO - NON FARE MAI QUESTO
@@ -289,10 +286,6 @@ TextColumn::make('status')
 <<<<<<< HEAD
 ### Prima di usare qualsiasi componente Filament:
 =======
-<<<<<<< HEAD
-### Prima di usare qualsiasi componente Filament:
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 ### Prima di usare un componente Filament:
 - [ ] Implementare traduzioni in `lang/it/fields.php`
@@ -309,11 +302,6 @@ TextColumn::make('status')
 Prima di usare qualsiasi componente Filament:
 
 =======
-<<<<<<< HEAD
-Prima di usare qualsiasi componente Filament:
-
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - [ ] Implementare traduzioni in `lang/it/fields.php`
 - [ ] Implementare traduzioni in `lang/en/fields.php`
@@ -328,10 +316,6 @@ Prima di usare qualsiasi componente Filament:
 <<<<<<< HEAD
 
 =======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 ## Verifica Automatica
 
@@ -373,9 +357,6 @@ rules:
 
 <<<<<<< HEAD
 **RICORDA SEMPRE**: 
-=======
-<<<<<<< HEAD
-**RICORDA SEMPRE**: 
 **RICORDA SEMPRE**:
 - MAI usare `->label()` in componenti Filament
 - SEMPRE implementare traduzioni nei file `lang/`
@@ -388,7 +369,6 @@ rules:
 
 *Ultimo aggiornamento: 2025-01-06*
 =======
->>>>>>> laraxot/dev
 **RICORDA SEMPRE**:
 - MAI usare `->label()` in componenti Filament
 - SEMPRE implementare traduzioni nei file `lang/`
@@ -397,10 +377,4 @@ rules:
 - SEMPRE testare le traduzioni prima del commit
 
 *Ultimo aggiornamento: 2025-01-06*
-<<<<<<< HEAD
-*Ultimo aggiornamento: 2025-01-06*
-
-*Ultimo aggiornamento: 2025-01-06*
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

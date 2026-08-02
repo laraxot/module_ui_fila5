@@ -10,11 +10,7 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 <<<<<<< HEAD
 <x-ui::datatable 
 =======
-<<<<<<< HEAD
-<x-ui::datatable 
-=======
 <x-ui::datatable
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     :columns="[
         ['name' => 'id', 'label' => 'ID', 'sortable' => true],
@@ -36,11 +32,7 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 <<<<<<< HEAD
 <x-ui::status-badge 
 =======
-<<<<<<< HEAD
-<x-ui::status-badge 
-=======
 <x-ui::status-badge
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     :status="$user->status"
     :options="[
@@ -56,11 +48,7 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 <<<<<<< HEAD
 <x-ui::action-buttons 
 =======
-<<<<<<< HEAD
-<x-ui::action-buttons 
-=======
 <x-ui::action-buttons
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     :actions="[
         [
@@ -121,11 +109,7 @@ class UserTable extends Component
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function sortBy($field)
     {
@@ -139,11 +123,7 @@ class UserTable extends Component
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function render()
     {
@@ -157,11 +137,7 @@ class UserTable extends Component
 <<<<<<< HEAD
             
 =======
-<<<<<<< HEAD
-            
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         return view('livewire.user-table', compact('users'));
     }
@@ -187,9 +163,6 @@ class UserTable extends Component
 - [Componenti Form](./form-components.md)
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
-<<<<<<< HEAD
-- [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
-=======
 <<<<<<< HEAD
 - [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
 =======
@@ -338,5 +311,4 @@ class UserTable extends Component
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

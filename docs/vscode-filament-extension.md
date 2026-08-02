@@ -37,11 +37,7 @@ Durante la digitazione di `<x-filament::`, l'estensione suggerisce i componenti 
 <<<<<<< HEAD
 - **Terminale**: 
 =======
-<<<<<<< HEAD
-- **Terminale**: 
-=======
 - **Terminale**:
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
   ```sh
   code --install-extension doonfrs.vscode-filament
@@ -112,9 +108,6 @@ L'estensione **doonfrs.vscode-filament** migliora notevolmente lo sviluppo Filam
 ---
 
 ## Aggiornamenti
-<<<<<<< HEAD
-Per segnalare bug o suggerire miglioramenti, usa la [pagina GitHub dell'estensione](https://github.com/doonfrs/vscode-filament).
-=======
 <<<<<<< HEAD
 Per segnalare bug o suggerire miglioramenti, usa la [pagina GitHub dell'estensione](https://github.com/doonfrs/vscode-filament).
 =======
@@ -226,5 +219,4 @@ L'estensione **doonfrs.vscode-filament** migliora notevolmente lo sviluppo Filam
 
 ## Aggiornamenti
 Per segnalare bug o suggerire miglioramenti, usa la [pagina GitHub dell'estensione](https://github.com/doonfrs/vscode-filament).
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

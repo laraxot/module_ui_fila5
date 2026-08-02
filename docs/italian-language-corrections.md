@@ -81,11 +81,7 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 <<<<<<< HEAD
 // Dopo  
 =======
-<<<<<<< HEAD
-// Dopo  
-=======
 // Dopo
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 'morning_hours' => 'Orari del mattino',
 'afternoon_hours' => 'Orari del pomeriggio',
@@ -166,9 +162,6 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 - [Validation Files Multilingua](./validation_files_multilingua.md)
 - [Linee Guida Localizzazione](./localization_guidelines.md)
 
-<<<<<<< HEAD
-*Correzioni completate: gennaio 2025*
-=======
 <<<<<<< HEAD
 *Correzioni completate: gennaio 2025*
 =======
@@ -334,5 +327,4 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 - [Linee Guida Localizzazione](./localization_guidelines.md)
 
 *Correzioni completate: gennaio 2025*
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

@@ -1,16 +1,9 @@
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 module: theme
 topic: selectstatecolumn_confirmation_modal
 canonical: ../../../Themes/docs/shared-components/selectstatecolumn-confirmation-modal-1.md
 ---
-<<<<<<< HEAD
-
-See canonical documentation: ../../../Themes/docs/shared-components/selectstatecolumn-confirmation-modal-1.md
-=======
 
 See canonical documentation: ../../../Themes/docs/shared-components/selectstatecolumn-confirmation-modal-1.md
 =======
@@ -120,5 +113,4 @@ Verificare che:
 3. La modale si chiuda in entrambi gli scenari
 4. Lo stato venga aggiornato correttamente nel database
 5. Gli errori vengano gestiti in modo appropriato
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

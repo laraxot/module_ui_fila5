@@ -1,11 +1,7 @@
 <<<<<<< HEAD
 # Utilizzo dei Componenti Filament 
 =======
-<<<<<<< HEAD
-# Utilizzo dei Componenti Filament 
-=======
 # Utilizzo dei Componenti Filament
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 ## Collegamenti correlati
@@ -146,19 +142,11 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
     </x-filament::dropdown.item>
     
 =======
-<<<<<<< HEAD
-    
-    <x-filament::dropdown.item wire:click="action">
-        Azione 1
-    </x-filament::dropdown.item>
-    
-=======
 
     <x-filament::dropdown.item wire:click="action">
         Azione 1
     </x-filament::dropdown.item>
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     <x-filament::dropdown.item href="#">
         Azione 2
@@ -181,13 +169,9 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 <<<<<<< HEAD
 2. **Percorso errato del provider**: Utilizzare `/var/www/html/saluteora/laravel/Modules/UI/Providers/UIServiceProvider.php` invece di `/var/www/html/saluteora/laravel/Modules/UI/app/Providers/UIServiceProvider.php`
 =======
-<<<<<<< HEAD
-2. **Percorso errato del provider**: Utilizzare `/var/www/html/saluteora/laravel/Modules/UI/Providers/UIServiceProvider.php` invece di `/var/www/html/saluteora/laravel/Modules/UI/app/Providers/UIServiceProvider.php`
-=======
 2. **Percorso errato del provider**: Utilizzare `Modules/UI/Providers/UIServiceProvider.php` invece di `Modules/UI/app/Providers/UIServiceProvider.php`
 2. **Percorso errato del provider**: Utilizzare `Modules/UI/Providers/UIServiceProvider.php` invece di `Modules/UI/app/Providers/UIServiceProvider.php`
 2. **Percorso errato del provider**: Utilizzare `Modules/UI/Providers/UIServiceProvider.php` invece di `Modules/UI/app/Providers/UIServiceProvider.php`
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 3. **Creazione di componenti duplicati**: Creare componenti personalizzati che duplicano funzionalità già fornite da Filament
 4. **Mancata verifica dei componenti esistenti**: Non controllare se un componente è già disponibile in Filament prima di crearne uno personalizzato
@@ -197,9 +181,6 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 - [Documentazione Filament](https://filamentphp.com/docs/3.x/support/blade-components/overview)
 - [Heroicons](https://heroicons.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
-<<<<<<< HEAD
-- [Laravel Blade](https://laravel.com/docs/10.x/blade)
-=======
 <<<<<<< HEAD
 - [Laravel Blade](https://laravel.com/docs/10.x/blade)
 =======
@@ -370,5 +351,4 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 - [Heroicons](https://heroicons.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Laravel Blade](https://laravel.com/docs/10.x/blade)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

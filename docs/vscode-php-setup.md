@@ -133,9 +133,6 @@
             "port": 9003,
             "pathMappings": {
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
                 "/var/www/html/base_<nome progetto>": "${workspaceFolder}"
             }
         }
@@ -147,11 +144,8 @@
 
 ```json
 // tasks.json
-<<<<<<< HEAD
-=======
 =======
                 "/ tasks.json
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 {
     "version": "2.0.0",
@@ -245,9 +239,6 @@
 ## Vedi Anche
 - [VSCode Documentation](https://code.visualstudio.com/docs)
 - [PHP Intelephense](https://intelephense.com)
-<<<<<<< HEAD
-- [Filament Documentation](https://filamentphp.com/docs) 
-=======
 <<<<<<< HEAD
 - [Filament Documentation](https://filamentphp.com/docs) 
 =======
@@ -480,5 +471,4 @@
 - [VSCode Documentation](https://code.visualstudio.com/docs)
 - [PHP Intelephense](https://intelephense.com)
 - [Filament Documentation](https://filamentphp.com/docs)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

@@ -33,15 +33,9 @@ return array (
     array (
         'create' => 
 =======
-<<<<<<< HEAD
-    'actions' => 
-    array (
-        'create' => 
-=======
     'actions' =>
     array (
         'create' =>
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         array (
             'label' => 'create',
@@ -83,15 +77,9 @@ return array (
   array (
     'create' => 
 =======
-<<<<<<< HEAD
-  'actions' => 
-  array (
-    'create' => 
-=======
   'actions' =>
   array (
     'create' =>
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     array (
       'label' => 'create',
@@ -174,9 +162,6 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 - **Modulo**: UI
 - **File**: Multipli file di traduzione
 - **Tipo Conflitto**: Dichiarazione PHP e sintassi array
-<<<<<<< HEAD
-- **Scelta**: Versione HEAD (con strict types e sintassi moderna)
-=======
 <<<<<<< HEAD
 - **Scelta**: Versione HEAD (con strict types e sintassi moderna)
 =======
@@ -334,5 +319,4 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 - **File**: Multipli file di traduzione
 - **Tipo Conflitto**: Dichiarazione PHP e sintassi array
 - **Scelta**: Versione HEAD (con strict types e sintassi moderna)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

@@ -22,11 +22,7 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     case LIST = 'list';
     case GRID = 'grid';
@@ -147,11 +143,7 @@ enum MyEnum: string implements HasColor, HasIcon, HasLabel
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     case VALUE1 = 'value1';
     case VALUE2 = 'value2';
@@ -307,11 +299,7 @@ rules:
 <<<<<<< HEAD
 **RICORDA SEMPRE**: 
 =======
-<<<<<<< HEAD
-**RICORDA SEMPRE**: 
-=======
 **RICORDA SEMPRE**:
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - SEMPRE `TransTrait` negli enum
 - SEMPRE `transClass()` per traduzioni
@@ -319,9 +307,6 @@ rules:
 - SEMPRE struttura espansa nelle traduzioni
 - SEMPRE sincronizzazione IT/EN/DE
 
-<<<<<<< HEAD
-*Ultimo aggiornamento: 2025-01-06* 
-=======
 <<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06* 
 =======
@@ -624,5 +609,4 @@ rules:
 - SEMPRE sincronizzazione IT/EN/DE
 
 *Ultimo aggiornamento: 2025-01-06*
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

@@ -57,9 +57,6 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 <<<<<<< HEAD
 - [README del Modulo UI](./README.md)
 =======
-<<<<<<< HEAD
-- [README del Modulo UI](./README.md)
-=======
 - [README del Modulo UI](./README.md)
 # Implementazione di strict_types nel Modulo UI
 
@@ -118,5 +115,4 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 - [Linee Guida PHPStan Livello 10](../../Xot/docs/PHPStan/LEVEL10_LINEE_GUIDA.md)
 - [Conflitti Merge Risolti](./CONFLITTI_MERGE_RISOLTI.md)
 - [README del Modulo UI](./README.md)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

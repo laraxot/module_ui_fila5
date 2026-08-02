@@ -1,8 +1,5 @@
 <<<<<<< HEAD
 # Documentation
-=======
-<<<<<<< HEAD
-# Documentation
 
 This directory contains documentation for the module.
 
@@ -26,7 +23,6 @@ tags: [module, documentation]
 created: 2026-06-05
 updated: 2026-06-05
 ---
->>>>>>> laraxot/dev
 
 This directory contains documentation for the module.
 
@@ -37,13 +33,6 @@ This directory contains documentation for the module.
 
 ## Guidelines
 
-<<<<<<< HEAD
-Documentation should be:
-- Clear and concise
-- Example-driven
-- Updated with code changes
-- Use Markdown format (.md)
-=======
 ```
 resources/views/components/ui/
 ├── buttons/
@@ -150,5 +139,4 @@ MIT
 - [QMD Setup](./qmd-setup.md) — Configurazione ricerca locale
 - [Performance](./performance-optimization.md) — Metriche e best practice
 - [Project Structure](./project-structure.md) — Directory layout
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

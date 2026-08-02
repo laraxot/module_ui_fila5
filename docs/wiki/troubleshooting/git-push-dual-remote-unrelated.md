@@ -11,10 +11,7 @@ related:
   - "../../git-multi-org-sync-handoff.md"
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
   - "./git-push-lfs-missing-objects.md"
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
   - "../../../../User/docs/wiki/troubleshooting/git-push-dual-remote-unrelated.md"
 ---
@@ -49,9 +46,6 @@ A differenza del caso User (diagnosticato una volta, poi fermo), su UI il ri-mer
 - Stesso pattern, altro modulo: [User git-push-dual-remote-unrelated](../../../../User/docs/wiki/troubleshooting/git-push-dual-remote-unrelated.md)
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
 - LFS / `--no-thin`: [UI git-push-lfs-missing-objects](./git-push-lfs-missing-objects.md)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - Storico risoluzione marker di conflitto (73 file, poi ricorsi): [git-merge-conflict-inventory.md](./git-merge-conflict-inventory.md)

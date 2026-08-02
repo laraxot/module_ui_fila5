@@ -1,7 +1,5 @@
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
 ---
 title: "tailwind_themes"
 type: concept
@@ -23,7 +21,6 @@ related:
 ---
 
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 # tailwind_themes
 
 <!-- Contenuto migrato da _docs/tailwind_themes.txt -->
@@ -33,9 +30,6 @@ https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your
 <<<<<<< HEAD
 https://merakiui.com/
 =======
-<<<<<<< HEAD
-https://merakiui.com/
-=======
 https://merakiui.com/
 # tailwind_themes
 
@@ -44,5 +38,4 @@ https://merakiui.com/
 https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your-next-project-3igo
 
 https://merakiui.com/
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

@@ -74,14 +74,9 @@ related:
 
 - Tip `b874935` su `laraxot/dev` e `provtv/dev`.
 =======
-<<<<<<< HEAD
-
-- Tip `b874935` su `laraxot/dev` e `provtv/dev`.
-=======
 ## 2026-07-22 — Push dual-remote + LFS
 
 - Tip `b874935` su `laraxot/dev` e `provtv/dev`.
 - Fix: deepen/shallow + `git push --no-thin` + `git lfs fetch laraxot --all` → `git lfs push provtv --all`.
 - Playbook: [troubleshooting/git-push-lfs-missing-objects.md](./troubleshooting/git-push-lfs-missing-objects.md).
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

@@ -5,7 +5,6 @@
 CHANGELOG.md export-ignore
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 *.jpg !text !filter !merge !diff
 *.jpeg !text !filter !merge !diff
@@ -13,9 +12,4 @@ CHANGELOG.md export-ignore
 *.webp !text !filter !merge !diff
 *.png !text !filter !merge !diff
 *.svg !text !filter !merge !diff
-<<<<<<< HEAD
-=======
-=======
 *.psd filter=lfs diff=lfs merge=lfs -text
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev

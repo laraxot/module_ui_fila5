@@ -64,9 +64,6 @@ Questa documentazione integra le informazioni sui conflitti risolti, fornendo de
 <<<<<<< HEAD
 - [Vedi anche: Comment/docs/README.md](../../Comment/docs/README.md)
 =======
-<<<<<<< HEAD
-- [Vedi anche: Comment/docs/README.md](../../Comment/docs/README.md)
-=======
 - [Vedi anche: Comment/docs/README.md](../../Comment/docs/README.md)
 # Conflitti di Merge Risolti nel Modulo UI
 
@@ -132,5 +129,4 @@ Questa documentazione integra le informazioni sui conflitti risolti, fornendo de
 - [Vedi anche: Blog/docs/README.md](../../Blog/docs/README.md)
 - [Vedi anche: Cms/docs/README.md](../../Cms/docs/README.md)
 - [Vedi anche: Comment/docs/README.md](../../Comment/docs/README.md)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

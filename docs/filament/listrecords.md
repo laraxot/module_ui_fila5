@@ -1,7 +1,5 @@
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
 ---
 title: "List Records in Filament"
 type: concept
@@ -23,7 +21,6 @@ related:
 ---
 
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 # List Records in Filament
 
 ## Estensione Corretta
@@ -180,9 +177,6 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 
 <<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
 class ListXXX extends XotBaseListRecords
 {
     
@@ -195,21 +189,11 @@ class ListXXX extends XotBaseListRecords
   
 
 =======
->>>>>>> laraxot/dev
 class ListXXX extends XotBaseListRecords
 {
     
     protected static string $resource = XXXResource::class;
 
-<<<<<<< HEAD
-    
-
-    
-
-  
-
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function getGridTableColumns(): array
     {
@@ -235,11 +219,7 @@ class ListXXX extends XotBaseListRecords
 <<<<<<< HEAD
             
 =======
-<<<<<<< HEAD
-            
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
             ViewAction::make()
                 ->label(''),
@@ -278,9 +258,6 @@ class ListXXX extends XotBaseListRecords
             );
     }
 }
-<<<<<<< HEAD
-```
-=======
 <<<<<<< HEAD
 ```
 =======
@@ -504,5 +481,4 @@ class ListXXX extends XotBaseListRecords
     }
 }
 ```
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

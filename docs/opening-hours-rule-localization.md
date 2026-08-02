@@ -131,11 +131,7 @@ $rule = new OpeningHoursRule();
 <<<<<<< HEAD
 // Test inglese  
 =======
-<<<<<<< HEAD
-// Test inglese  
-=======
 // Test inglese
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 App::setLocale('en');
 $rule = new OpeningHoursRule();
@@ -190,9 +186,6 @@ $rule = new OpeningHoursRule();
 - [Validation System](./validation_system.md)
 - [Localization Guidelines](./localization_guidelines.md)
 
-<<<<<<< HEAD
-*Correzione completata: gennaio 2025*
-=======
 <<<<<<< HEAD
 *Correzione completata: gennaio 2025*
 =======
@@ -382,5 +375,4 @@ $rule = new OpeningHoursRule();
 - [Localization Guidelines](./localization_guidelines.md)
 
 *Correzione completata: gennaio 2025*
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

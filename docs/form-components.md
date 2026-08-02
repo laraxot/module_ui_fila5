@@ -2,11 +2,7 @@
 
 ## Introduzione
 <<<<<<< HEAD
-
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 I componenti form forniscono elementi di input e validazione per la creazione di form complessi e interattivi.
 
 ## Componenti Disponibili
@@ -295,16 +291,9 @@ form.addEventListener('submit', (e) => {
 ## Collegamenti tra versioni di form-components.md
 * [form-components.md](../../../UI/docs/form-components.md)
 * [form-components.md](../../../UI/docs/roadmap/form-components.md)
-<<<<<<< HEAD
-- [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md) 
-## Collegamenti tra versioni di form-components.md
-* [form-components.md](../../../UI/project_docs/form-components.md)
-* [form-components.md](../../../UI/project_docs/roadmap/form-components.md)
-=======
 # Componenti Form
 
 ## Introduzione
->>>>>>> laraxot/dev
 
 I componenti form forniscono elementi di input e validazione per la creazione di form complessi e interattivi.
 
@@ -412,13 +401,9 @@ use Filament\Forms\Form;
 use Filament\Forms\Components\Section;
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 
-<<<<<<< HEAD
-public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
 public function form(Form $form): Form
 public function form(Form $form): Form
 public function form(Form $form): Form
->>>>>>> laraxot/dev
 {
     return $form->schema([
         Section::make('Prenotazione Appuntamento')
@@ -430,11 +415,7 @@ public function form(Form $form): Form
                         $dates = [];
                         $date = now();
                         $count = 0;
-<<<<<<< HEAD
-                        
-=======
 
->>>>>>> laraxot/dev
                         while ($count < 30) {
                             if (!$date->isWeekend()) {
                                 $dates[] = $date->format('Y-m-d');
@@ -442,11 +423,7 @@ public function form(Form $form): Form
                             }
                             $date->addDay();
                         }
-<<<<<<< HEAD
-                        
-=======
 
->>>>>>> laraxot/dev
                         return $dates;
                     })
                     ->calendarConfig([
@@ -463,17 +440,10 @@ public function form(Form $form): Form
 
 ### Input
 ```blade
-<<<<<<< HEAD
-<x-ui::input 
-    name="email" 
-    type="email" 
-    label="Email" 
-=======
 <x-ui::input
     name="email"
     type="email"
     label="Email"
->>>>>>> laraxot/dev
     placeholder="Inserisci la tua email"
     :required="true"
     :disabled="false"
@@ -486,13 +456,8 @@ public function form(Form $form): Form
 
 ### Select
 ```blade
-<<<<<<< HEAD
-<x-ui::select 
-    name="role" 
-=======
 <x-ui::select
     name="role"
->>>>>>> laraxot/dev
     label="Ruolo"
     :options="[
         'admin' => 'Amministratore',
@@ -509,13 +474,8 @@ public function form(Form $form): Form
 
 ### Checkbox
 ```blade
-<<<<<<< HEAD
-<x-ui::checkbox 
-    name="terms" 
-=======
 <x-ui::checkbox
     name="terms"
->>>>>>> laraxot/dev
     label="Accetto i termini e condizioni"
     :required="true"
     :checked="false"
@@ -526,13 +486,8 @@ public function form(Form $form): Form
 
 ### Radio
 ```blade
-<<<<<<< HEAD
-<x-ui::radio 
-    name="gender" 
-=======
 <x-ui::radio
     name="gender"
->>>>>>> laraxot/dev
     label="Genere"
     :options="[
         'male' => 'Maschio',
@@ -546,13 +501,8 @@ public function form(Form $form): Form
 
 ### Textarea
 ```blade
-<<<<<<< HEAD
-<x-ui::textarea 
-    name="message" 
-=======
 <x-ui::textarea
     name="message"
->>>>>>> laraxot/dev
     label="Messaggio"
     placeholder="Inserisci il tuo messaggio"
     :rows="4"
@@ -586,20 +536,12 @@ class UserForm extends Component
 {
     public $name;
     public $email;
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     protected $rules = [
         'name' => 'required|min:3',
         'email' => 'required|email',
     ];
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
     public function save()
     {
         $this->validate();
@@ -639,19 +581,8 @@ form.addEventListener('submit', (e) => {
 - [Componenti Table](./table-components.md)
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
-<<<<<<< HEAD
-- [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
-## Collegamenti tra versioni di form-components.md
-* [form-components.md](../../../UI/docs/form-components.md)
-* [form-components.md](../../../UI/docs/roadmap/form-components.md)
-- [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md) 
-## Collegamenti tra versioni di form-components.md
-* [form-components.md](../../../UI/project_docs/form-components.md)
-* [form-components.md](../../../UI/project_docs/roadmap/form-components.md)
-=======
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
 ## Collegamenti tra versioni di form-components.md
 * [form-components.md](../../../UI/project_docs/form-components.md)
 * [form-components.md](../../../UI/project_docs/roadmap/form-components.md)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

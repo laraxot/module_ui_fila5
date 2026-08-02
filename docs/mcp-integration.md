@@ -55,11 +55,7 @@ class GenerateUIScreenshotsAction
 <<<<<<< HEAD
         
 =======
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         // Assicurati che la directory di output esista
         if (!file_exists($outputDir)) {
@@ -68,11 +64,7 @@ class GenerateUIScreenshotsAction
 <<<<<<< HEAD
         
 =======
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         foreach ($routes as $route) {
             try {
@@ -82,11 +74,7 @@ class GenerateUIScreenshotsAction
 <<<<<<< HEAD
                 
 =======
-<<<<<<< HEAD
-                
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
                 Log::info("Generating screenshot for route: {$route}", [
                     'url' => $url,
@@ -95,11 +83,7 @@ class GenerateUIScreenshotsAction
 <<<<<<< HEAD
                 
 =======
-<<<<<<< HEAD
-                
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
                 $screenshotPath = $this->mcpService->puppeteer()->captureScreenshot(
                     $url,
@@ -113,11 +97,7 @@ class GenerateUIScreenshotsAction
 <<<<<<< HEAD
                 
 =======
-<<<<<<< HEAD
-                
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
                 if ($screenshotPath) {
                     $results[$route] = $screenshotPath;
@@ -141,11 +121,7 @@ class GenerateUIScreenshotsAction
 <<<<<<< HEAD
         
 =======
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         return $results;
     }
@@ -200,17 +176,10 @@ class ThemeFileService
             $content = $this->mcpService->filesystem()->readFile($fullPath);
             
 =======
-<<<<<<< HEAD
-        
-        try {
-            $content = $this->mcpService->filesystem()->readFile($fullPath);
-            
-=======
 
         try {
             $content = $this->mcpService->filesystem()->readFile($fullPath);
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
             return $content ?: null;
         } catch (\Exception $e) {
@@ -222,11 +191,7 @@ class ThemeFileService
 <<<<<<< HEAD
             
 =======
-<<<<<<< HEAD
-            
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
             return null;
         }
@@ -247,11 +212,7 @@ class ThemeFileService
 <<<<<<< HEAD
         
 =======
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         try {
             // Assicurati che la directory esista
@@ -262,11 +223,7 @@ class ThemeFileService
 <<<<<<< HEAD
             
 =======
-<<<<<<< HEAD
-            
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
             return $this->mcpService->filesystem()->writeFile($fullPath, $content);
         } catch (\Exception $e) {
@@ -278,11 +235,7 @@ class ThemeFileService
 <<<<<<< HEAD
             
 =======
-<<<<<<< HEAD
-            
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
             return false;
         }
@@ -306,19 +259,11 @@ class ThemeFileService
         }
         
 =======
-<<<<<<< HEAD
-        
-        if ($directory) {
-            $fullPath .= '/' . $directory;
-        }
-        
-=======
 
         if ($directory) {
             $fullPath .= '/' . $directory;
         }
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         try {
             return $this->mcpService->filesystem()->listDirectory($fullPath);
@@ -331,11 +276,7 @@ class ThemeFileService
 <<<<<<< HEAD
             
 =======
-<<<<<<< HEAD
-            
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
             return [];
         }
@@ -402,11 +343,7 @@ class UICacheService
 <<<<<<< HEAD
         
 =======
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         try {
             return $this->mcpService->redis()->set(
@@ -425,11 +362,7 @@ class UICacheService
 <<<<<<< HEAD
             
 =======
-<<<<<<< HEAD
-            
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
             return false;
         }
@@ -448,9 +381,6 @@ class UICacheService
         $cacheKey = $this->generateComponentCacheKey($componentName, $props);
 <<<<<<< HEAD
         
-=======
-<<<<<<< HEAD
-        
         try {
             $cached = $this->mcpService->redis()->get($cacheKey);
             
@@ -460,18 +390,13 @@ class UICacheService
             
 =======
 
->>>>>>> laraxot/dev
         try {
             $cached = $this->mcpService->redis()->get($cacheKey);
             
             if ($cached && isset($cached['html'])) {
                 return $cached['html'];
             }
-<<<<<<< HEAD
-            
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
             return null;
         } catch (\Exception $e) {
@@ -482,11 +407,7 @@ class UICacheService
 <<<<<<< HEAD
             
 =======
-<<<<<<< HEAD
-            
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
             return null;
         }
@@ -507,9 +428,6 @@ class UICacheService
             $pattern = "ui_component_{$componentName}_*";
 <<<<<<< HEAD
             
-=======
-<<<<<<< HEAD
-            
             try {
                 $keys = $this->mcpService->redis()->keys($pattern);
                 
@@ -519,18 +437,13 @@ class UICacheService
                 
 =======
 
->>>>>>> laraxot/dev
             try {
                 $keys = $this->mcpService->redis()->keys($pattern);
                 
                 foreach ($keys as $key) {
                     $this->mcpService->redis()->delete($key);
                 }
-<<<<<<< HEAD
-                
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
                 return true;
             } catch (\Exception $e) {
@@ -541,11 +454,7 @@ class UICacheService
 <<<<<<< HEAD
                 
 =======
-<<<<<<< HEAD
-                
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
                 return false;
             }
@@ -555,11 +464,7 @@ class UICacheService
 <<<<<<< HEAD
             
 =======
-<<<<<<< HEAD
-            
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
             try {
                 return $this->mcpService->redis()->delete($cacheKey);
@@ -571,11 +476,7 @@ class UICacheService
 <<<<<<< HEAD
                 
 =======
-<<<<<<< HEAD
-                
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
                 return false;
             }
@@ -596,11 +497,7 @@ class UICacheService
 <<<<<<< HEAD
         
 =======
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         return "ui_component_{$componentName}_{$propsHash}";
     }
@@ -654,11 +551,7 @@ class AnalyzeUIAccessibilityAction
 <<<<<<< HEAD
             
 =======
-<<<<<<< HEAD
-            
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
             if (!$html) {
                 Log::error("Failed to extract HTML content", [
@@ -667,11 +560,7 @@ class AnalyzeUIAccessibilityAction
 <<<<<<< HEAD
                 
 =======
-<<<<<<< HEAD
-                
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
                 return new UIAnalysisData(
                     score: 0,
@@ -682,11 +571,7 @@ class AnalyzeUIAccessibilityAction
 <<<<<<< HEAD
             
 =======
-<<<<<<< HEAD
-            
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
             // Analizza l'accessibilità con sequential-thinking
             $analysis = $this->mcpService->sequentialThinking()->analyze(
@@ -700,19 +585,11 @@ class AnalyzeUIAccessibilityAction
             $suggestions = $analysis['accessibility']['suggestions'] ?? [];
             
 =======
-<<<<<<< HEAD
-            
-            $accessibilityScore = $analysis['accessibility']['score'] ?? 0;
-            $accessibilityIssues = $analysis['accessibility']['issues'] ?? [];
-            $suggestions = $analysis['accessibility']['suggestions'] ?? [];
-            
-=======
 
             $accessibilityScore = $analysis['accessibility']['score'] ?? 0;
             $accessibilityIssues = $analysis['accessibility']['issues'] ?? [];
             $suggestions = $analysis['accessibility']['suggestions'] ?? [];
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
             return new UIAnalysisData(
                 score: $accessibilityScore,
@@ -728,11 +605,7 @@ class AnalyzeUIAccessibilityAction
 <<<<<<< HEAD
             
 =======
-<<<<<<< HEAD
-            
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
             return new UIAnalysisData(
                 score: 0,
@@ -768,11 +641,7 @@ class CachedUIComponent extends Component
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     /**
      * @var array<string, mixed>
@@ -781,11 +650,7 @@ class CachedUIComponent extends Component
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     /**
      * @var int
@@ -794,11 +659,7 @@ class CachedUIComponent extends Component
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     /**
      * @var bool
@@ -807,11 +668,7 @@ class CachedUIComponent extends Component
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     /**
      * Monta il componente.
@@ -831,11 +688,7 @@ class CachedUIComponent extends Component
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     /**
      * Forza l'aggiornamento del componente.
@@ -849,11 +702,7 @@ class CachedUIComponent extends Component
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     /**
      * Renderizza il componente.
@@ -866,9 +715,6 @@ class CachedUIComponent extends Component
         $mcpService = app(MCPServiceContract::class);
 <<<<<<< HEAD
         
-=======
-<<<<<<< HEAD
-        
         /** @var UICacheService $uiCacheService */
         $uiCacheService = app(UICacheService::class);
         
@@ -888,7 +734,6 @@ class CachedUIComponent extends Component
         
 =======
 
->>>>>>> laraxot/dev
         /** @var UICacheService $uiCacheService */
         $uiCacheService = app(UICacheService::class);
         
@@ -905,11 +750,7 @@ class CachedUIComponent extends Component
             // Memorizza in cache
             $uiCacheService->cacheComponent($this->componentName, $this->componentProps, $html, $this->cacheTtl);
         }
-<<<<<<< HEAD
-        
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         return view('ui::livewire.cached-ui-component', [
             'html' => $html
@@ -946,19 +787,11 @@ $analyze = function () {
         $analyzeAction = app(AnalyzeUIAccessibilityAction::class);
         
 =======
-<<<<<<< HEAD
-    
-    try {
-        /** @var AnalyzeUIAccessibilityAction $analyzeAction */
-        $analyzeAction = app(AnalyzeUIAccessibilityAction::class);
-        
-=======
 
     try {
         /** @var AnalyzeUIAccessibilityAction $analyzeAction */
         $analyzeAction = app(AnalyzeUIAccessibilityAction::class);
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         $this->analysisResult = $analyzeAction->execute($this->url);
     } catch (\Exception $e) {
@@ -985,11 +818,7 @@ $analyze = function () {
 <<<<<<< HEAD
     
 =======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     @if($analysisResult)
         <div class="mt-6 bg-white shadow overflow-hidden sm:rounded-lg">
@@ -1061,9 +890,6 @@ $analyze = function () {
 
 ## Conclusione
 
-<<<<<<< HEAD
-L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_predict_fila3_mono.
-=======
 <<<<<<< HEAD
 L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_predict_fila3_mono.
 =======
@@ -1771,5 +1597,4 @@ $analyze = function () {
 ## Conclusione
 
 L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_predict_fila3_mono.
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
