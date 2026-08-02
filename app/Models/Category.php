@@ -33,7 +33,7 @@ use Modules\Xot\Models\BaseModel;
  * @property ProfileContract|null $updater
  * @property ProfileContract|null $deleter
  *
- * @method static CategoryFactory factory($count = null, $state = [])
+ * @method static CategoryFactory          factory($count = null, $state = [])
  * @method static Builder<static>|Category newModelQuery()
  * @method static Builder<static>|Category newQuery()
  * @method static Builder<static>|Category query()
