@@ -12,17 +12,24 @@ use Modules\Xot\Models\BaseModel;
 /**
  * FieldOption model for UI module.
  * FormBuilder module not available - extending from XotBaseModel instead.
- */
-/**
+ *
+ * @property string|null          $id
+ * @property string|null          $field_id
+ * @property string|null          $label
+ * @property string|null          $value
+ * @property int|null             $order
+ * @property string|null          $created_by
+ * @property string|null          $updated_by
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+ * @property ProfileContract|null $deleter
  *
- * @method static FieldOptionFactory          factory($count = null, $state = [])
+ * @method static FieldOptionFactory factory($count = null, $state = [])
  * @method static Builder<static>|FieldOption newModelQuery()
  * @method static Builder<static>|FieldOption newQuery()
  * @method static Builder<static>|FieldOption query()
- *
- * @property ProfileContract|null $deleter
  *
  * @mixin \Eloquent
  */

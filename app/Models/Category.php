@@ -13,8 +13,7 @@ use Modules\Xot\Models\BaseModel;
 /**
  * Category model for UI module.
  * FormBuilder module not available - extending from XotBaseModel instead.
- */
-/**
+ *
  * @property string               $id
  * @property string|null          $name
  * @property string               $title
@@ -32,8 +31,9 @@ use Modules\Xot\Models\BaseModel;
  * @property int                  $sort_order
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+ * @property ProfileContract|null $deleter
  *
- * @method static CategoryFactory          factory($count = null, $state = [])
+ * @method static CategoryFactory factory($count = null, $state = [])
  * @method static Builder<static>|Category newModelQuery()
  * @method static Builder<static>|Category newQuery()
  * @method static Builder<static>|Category query()
@@ -51,8 +51,6 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Category whereTitle($value)
  * @method static Builder<static>|Category whereUpdatedAt($value)
  * @method static Builder<static>|Category whereUpdatedBy($value)
- *
- * @property ProfileContract|null $deleter
  *
  * @mixin \Eloquent
  */
