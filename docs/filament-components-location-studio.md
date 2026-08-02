@@ -3,7 +3,7 @@
 ## Overview
 
 <<<<<<< HEAD
-Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo SaluteOra.
+Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo <nome progetto>corrente.
 =======
 Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo <nome progetto>.
 >>>>>>> laraxot/dev
@@ -19,7 +19,7 @@ Componente Filament per la selezione gerarchica di Regione → Provincia → CAP
 
 #### Caratteristiche
 <<<<<<< HEAD
-- ✅ **Selezione Gerarchica**: Regione → Provincia → CAP  
+- ✅ **Selezione Gerarchica**: Regione → Provincia → CAP
 =======
 - ✅ **Selezione Gerarchica**: Regione → Provincia → CAP
 >>>>>>> laraxot/dev
@@ -63,7 +63,7 @@ Componente Blade per la selezione di studi odontoiatrici tramite pulsanti radio-
 
 ```blade
 <<<<<<< HEAD
-<x-ui::ui.studio-selector 
+<x-ui::ui.studio-selector
 =======
 <x-ui::ui.studio-selector
 >>>>>>> laraxot/dev
@@ -99,7 +99,7 @@ protected function getStudioStepSchema(): array
     return [
         // Titolo step
 <<<<<<< HEAD
-        View::make('saluteora::filament.widgets.studio-step-header')
+        View::make('<nome progetto>ilament.widgets.studio-step-header')
 =======
         View::make('<nome progetto>::filament.widgets.studio-step-header')
 >>>>>>> laraxot/dev
@@ -111,7 +111,7 @@ protected function getStudioStepSchema(): array
 
         // Pulsanti selezione studio
 <<<<<<< HEAD
-        View::make('saluteora::filament.widgets.studio-selector')
+        View::make('<nome progetto>ilament.widgets.studio-selector')
 =======
         View::make('<nome progetto>::filament.widgets.studio-selector')
 >>>>>>> laraxot/dev
@@ -124,8 +124,8 @@ protected function getStudioStepSchema(): array
         // TextInput per mostrare studio selezionato
         TextInput::make('selected_studio_name')
 <<<<<<< HEAD
-            ->label(__('saluteora::widgets.find_doctor.fields.selected_studio.label'))
-            ->placeholder(__('saluteora::widgets.find_doctor.fields.selected_studio.placeholder'))
+            ->label(__('<nome progetto>idgets.find_doctor.fields.selected_studio.label'))
+            ->placeholder(__('<nome progetto>idgets.find_doctor.fields.selected_studio.placeholder'))
 =======
             ->label(__('<nome progetto>::widgets.find_doctor.fields.selected_studio.label'))
             ->placeholder(__('<nome progetto>::widgets.find_doctor.fields.selected_studio.placeholder'))
@@ -151,7 +151,7 @@ public function selectStudio(int $studioId): void
 {
     $studio = Studio::find($studioId);
 <<<<<<< HEAD
-    
+
 =======
 
 >>>>>>> laraxot/dev
@@ -164,7 +164,7 @@ public function selectStudio(int $studioId): void
     $this->data['selected_studio'] = $studioId;
     $this->data['selected_studio_name'] = $studio->name;
 <<<<<<< HEAD
-    
+
 =======
 
 >>>>>>> laraxot/dev
@@ -181,7 +181,7 @@ public function selectStudio(int $studioId): void
 - Validazione cascata
 
 <<<<<<< HEAD
-### 2. **Step Selezione Studio**  
+### 2. **Step Selezione Studio**
 =======
 ### 2. **Step Selezione Studio**
 >>>>>>> laraxot/dev
@@ -206,7 +206,7 @@ protected function getStudiosForSelectedArea(): Collection
 {
     $cacheKey = "studios_area_{$this->data['region']}_{$this->data['province']}_{$this->data['cap']}";
 <<<<<<< HEAD
-    
+
 =======
 
 >>>>>>> laraxot/dev
@@ -236,7 +236,7 @@ class FindDoctorWidgetStep2Test extends TestCase
     {
         $studio = Studio::factory()->create(['name' => 'Studio Test']);
 <<<<<<< HEAD
-        
+
 =======
 
 >>>>>>> laraxot/dev
@@ -246,7 +246,7 @@ class FindDoctorWidgetStep2Test extends TestCase
             ->set('data.cap', '00042')
             ->call('selectStudio', $studio->id);
 <<<<<<< HEAD
-            
+
 =======
 
 >>>>>>> laraxot/dev
@@ -290,10 +290,10 @@ class FindDoctorWidgetStep2Test extends TestCase
 ---
 
 <<<<<<< HEAD
-**Creato**: 26 Giugno 2025  
-**Versione**: 2.0 - Semplificato  
-**Stato**: Implementation Ready  
-**Approccio**: Pulsanti + TextInput (semplice e diretto) 
+**Creato**: 26 Giugno 2025
+**Versione**: 2.0 - Semplificato
+**Stato**: Implementation Ready
+**Approccio**: Pulsanti + TextInput (semplice e diretto)
 =======
 **Creato**: 26 Giugno 2025
 **Versione**: 2.0 - Semplificato

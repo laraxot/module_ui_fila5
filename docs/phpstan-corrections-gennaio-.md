@@ -58,12 +58,12 @@ Pagine Resource estendevano direttamente classi Filament invece di XotBase.
 - **`EditUser` (User)**:
   - Cambiato da `EditRecord` a `XotBaseEditRecord`
   - Aggiunto import corretto
-- **`CreateQuestionChart` (Quaeris)**:
+- **`CreateQuestionChart` (modulo questionari)**:
   - Cambiato da `CreateRecord` a `XotBaseCreateRecord`
-- **`EditQuestionChart` (Quaeris)**:
-- **`CreateQuestionChart` (Quaeris)**:
+- **`EditQuestionChart` (modulo questionari)**:
+- **`CreateQuestionChart` (modulo questionari)**:
   - Cambiato da `CreateRecord` a `XotBaseCreateRecord`
-- **`EditQuestionChart` (Quaeris)**:
+- **`EditQuestionChart` (modulo questionari)**:
   - Cambiato da `EditRecord` a `XotBaseEditRecord`
 - **`ViewPageContent` (Cms)**:
   - Cambiato da `ViewRecord` a `XotBaseViewRecord`
@@ -206,8 +206,8 @@ class ViewLocation extends XotBaseViewRecord
 - `app/Filament/Forms/Components/TreeField.php`
 - `app/Filament/Forms/Components/LocationSelector.php`
 
-### Modulo Quaeris
-### Modulo Quaeris
+### Modulo modulo questionari
+### Modulo modulo questionari
 - `app/Filament/Resources/QuestionChartResource.php`
 - `app/Filament/Resources/SurveyPdfResource/Resources/QuestionCharts/Pages/CreateQuestionChart.php`
 - `app/Filament/Resources/SurveyPdfResource/Resources/QuestionCharts/Pages/EditQuestionChart.php`

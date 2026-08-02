@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# Utilizzo dei Componenti Filament Dropdown e Avatar 
+# Utilizzo dei Componenti Filament Dropdown e Avatar
 =======
 # Utilizzo dei Componenti Filament Dropdown e Avatar
 >>>>>>> laraxot/dev
@@ -72,8 +72,8 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
     {{-- Dropdown per utente loggato --}}
     <div class="relative" x-data="{ open: false }" @click.away="open = false">
 <<<<<<< HEAD
-        <button 
-            @click="open = ! open" 
+        <button
+            @click="open = ! open"
 =======
         <button
             @click="open = ! open"
@@ -93,7 +93,7 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
         </button>
 
 <<<<<<< HEAD
-        <div 
+        <div
 =======
         <div
 >>>>>>> laraxot/dev
@@ -214,7 +214,7 @@ $this->mount(function () {
 ## Gestione delle Traduzioni
 
 <<<<<<< HEAD
-Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di SaluteOra per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
+Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto>corrente per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
 =======
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di  per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto> per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.

@@ -30,7 +30,7 @@ Non usare path paralleli fuori da `app/` per classi namespaced `Modules\UI\...`.
 
 ## Perche'
 
-L'errore recente su `EnumSelect` non era un problema del widget Fixcity ma di autoload: il file era stato creato nel path sbagliato e Laravel non trovava la classe `Modules\UI\Filament\Forms\Components\EnumSelect`.
+L'errore recente su `EnumSelect` non era un problema del widget progetto corrente ma di autoload: il file era stato creato nel path sbagliato e Laravel non trovava la classe `Modules\UI\Filament\Forms\Components\EnumSelect`.
 
 ## Best Practices
 

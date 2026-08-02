@@ -167,7 +167,7 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 
 1. **Utilizzo del prefisso errato**: Utilizzare `x-ui-icon` invece di `x-filament::icon`
 <<<<<<< HEAD
-2. **Percorso errato del provider**: Utilizzare `/var/www/html/saluteora/laravel/Modules/UI/Providers/UIServiceProvider.php` invece di `/var/www/html/saluteora/laravel/Modules/UI/app/Providers/UIServiceProvider.php`
+2. **Percorso errato del provider**: Utilizzare `[project-root]/laravel/Modules/UI/Providers/UIServiceProvider.php` invece di `[project-root]/laravel/Modules/UI/app/Providers/UIServiceProvider.php`
 =======
 2. **Percorso errato del provider**: Utilizzare `Modules/UI/Providers/UIServiceProvider.php` invece di `Modules/UI/app/Providers/UIServiceProvider.php`
 2. **Percorso errato del provider**: Utilizzare `Modules/UI/Providers/UIServiceProvider.php` invece di `Modules/UI/app/Providers/UIServiceProvider.php`
