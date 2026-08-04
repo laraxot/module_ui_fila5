@@ -12,7 +12,6 @@ use Modules\Xot\Models\BaseModel;
 /**
  * Collection model for UI module.
  * FormBuilder module not available - extending from XotBaseModel instead.
-<<<<<<< HEAD
 =======
  * <<<<<<< HEAD.
  *
@@ -31,7 +30,6 @@ use Modules\Xot\Models\BaseModel;
  * @property ProfileContract|null            $updater
  * @property ProfileContract|null            $deleter
  *                                                        =======
->>>>>>> laraxot/dev
  */
 /**
  * @property string|null                     $name
@@ -41,17 +39,14 @@ use Modules\Xot\Models\BaseModel;
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property ProfileContract|null            $creator
  * @property ProfileContract|null            $updater
-<<<<<<< HEAD
 =======
  *                                                        >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
  *
  * @method static CollectionFactory          factory($count = null, $state = [])
  * @method static Builder<static>|Collection newModelQuery()
  * @method static Builder<static>|Collection newQuery()
  * @method static Builder<static>|Collection query()
  *
-<<<<<<< HEAD
  * @property ProfileContract|null $deleter
  *
 =======
@@ -62,7 +57,6 @@ use Modules\Xot\Models\BaseModel;
  *
  * >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
  *
->>>>>>> laraxot/dev
  * @mixin \Eloquent
  */
 class Collection extends BaseModel

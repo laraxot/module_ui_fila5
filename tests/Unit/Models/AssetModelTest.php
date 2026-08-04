@@ -34,11 +34,7 @@ beforeEach(function (): void {
 describe('Asset Model', function (): void {
     test('can be instantiated', function (): void {
         /** @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
-<<<<<<< HEAD
-        $asset = new Asset;
-=======
         $asset = new Asset();
->>>>>>> laraxot/dev
         /* @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
         Assert::assertInstanceOf(Asset::class, $asset);
     });
@@ -47,11 +43,7 @@ describe('Asset Model', function (): void {
         $expected = ['name', 'type', 'path', 'theme_id', 'is_minified', 'is_compressed', 'order', 'should_bundle'];
 
         /** @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
-<<<<<<< HEAD
-        $asset = new Asset;
-=======
         $asset = new Asset();
->>>>>>> laraxot/dev
         foreach ($expected as $field) {
             /* @phpstan-ignore-next-line class.notFound, argument.type (Asset model absent from artifact set) */
             Assert::assertTrue(in_array($field, $asset->getFillable()));
@@ -60,11 +52,7 @@ describe('Asset Model', function (): void {
 
     test('has casts defined', function (): void {
         /** @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
-<<<<<<< HEAD
-        $asset = new Asset;
-=======
         $asset = new Asset();
->>>>>>> laraxot/dev
         /**
          * @var array<string, string> $casts
          *
@@ -85,11 +73,7 @@ describe('Asset Model', function (): void {
 
     test('has correct table name', function (): void {
         /** @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
-<<<<<<< HEAD
-        $asset = new Asset;
-=======
         $asset = new Asset();
->>>>>>> laraxot/dev
         /* @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
         Assert::assertSame('assets', $asset->getTable());
     });
