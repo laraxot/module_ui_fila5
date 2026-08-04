@@ -12,7 +12,7 @@ use Modules\Xot\Models\BaseModel;
 /**
  * Collection model for UI module.
  * FormBuilder module not available - extending from XotBaseModel instead.
-<<<<<<< HEAD
+ * <<<<<<< HEAD.
  *
  * @property string|null                     $id
  * @property string|null                     $name
@@ -28,7 +28,7 @@ use Modules\Xot\Models\BaseModel;
  * @property ProfileContract|null            $creator
  * @property ProfileContract|null            $updater
  * @property ProfileContract|null            $deleter
-=======
+ *                                                        =======
  */
 /**
  * @property string|null                     $name
@@ -38,18 +38,20 @@ use Modules\Xot\Models\BaseModel;
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property ProfileContract|null            $creator
  * @property ProfileContract|null            $updater
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+ *                                                        >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
  *
  * @method static CollectionFactory          factory($count = null, $state = [])
  * @method static Builder<static>|Collection newModelQuery()
  * @method static Builder<static>|Collection newQuery()
  * @method static Builder<static>|Collection query()
  *
-<<<<<<< HEAD
-=======
+ * <<<<<<< HEAD
+ * =======
+ *
  * @property ProfileContract|null $deleter
  *
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+ * >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+ *
  * @mixin \Eloquent
  */
 class Collection extends BaseModel
