@@ -13,7 +13,12 @@ use Modules\Xot\Models\BaseModel;
 /**
  * Category model for UI module.
  * FormBuilder module not available - extending from XotBaseModel instead.
+<<<<<<< HEAD
  *
+=======
+ */
+/**
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
  * @property string               $id
  * @property string|null          $name
  * @property string               $title
@@ -31,7 +36,10 @@ use Modules\Xot\Models\BaseModel;
  * @property int                  $sort_order
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+<<<<<<< HEAD
  * @property ProfileContract|null $deleter
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
  *
  * @method static CategoryFactory          factory($count = null, $state = [])
  * @method static Builder<static>|Category newModelQuery()
@@ -52,6 +60,11 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Category whereUpdatedAt($value)
  * @method static Builder<static>|Category whereUpdatedBy($value)
  *
+<<<<<<< HEAD
+=======
+ * @property ProfileContract|null $deleter
+ *
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
  * @mixin \Eloquent
  */
 class Category extends BaseModel

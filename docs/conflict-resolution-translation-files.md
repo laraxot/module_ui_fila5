@@ -29,6 +29,7 @@ return [
 // BRANCH (sintassi vecchia)
 return array (
 <<<<<<< HEAD
+<<<<<<< HEAD
     'actions' => 
     array (
         'create' => 
@@ -37,6 +38,11 @@ return array (
     array (
         'create' =>
 >>>>>>> laraxot/dev
+=======
+    'actions' => 
+    array (
+        'create' => 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
         array (
             'label' => 'create',
         ),
@@ -73,6 +79,7 @@ declare(strict_types=1);
 
 return array (
 <<<<<<< HEAD
+<<<<<<< HEAD
   'actions' => 
   array (
     'create' => 
@@ -81,6 +88,11 @@ return array (
   array (
     'create' =>
 >>>>>>> laraxot/dev
+=======
+  'actions' => 
+  array (
+    'create' => 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     array (
       'label' => 'create',
     ),
@@ -162,6 +174,7 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 - **Modulo**: UI
 - **File**: Multipli file di traduzione
 - **Tipo Conflitto**: Dichiarazione PHP e sintassi array
+<<<<<<< HEAD
 <<<<<<< HEAD
 - **Scelta**: Versione HEAD (con strict types e sintassi moderna)
 =======
@@ -320,3 +333,6 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 - **Tipo Conflitto**: Dichiarazione PHP e sintassi array
 - **Scelta**: Versione HEAD (con strict types e sintassi moderna)
 >>>>>>> laraxot/dev
+=======
+- **Scelta**: Versione HEAD (con strict types e sintassi moderna)
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

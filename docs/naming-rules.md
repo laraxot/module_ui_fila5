@@ -14,8 +14,11 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 ❌ **Non Corretto**:
 ```md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 # Design System il progetto
 Il design system di il progetto definisce...
 ```
@@ -46,6 +49,7 @@ I nomi specifici dell'applicazione devono apparire solo:
 ## Vedi Anche
 - [Documentazione Principale](../../../docs/README.md)
 - [Standard di Codice](../../../docs/standards/coding-standards.md)
+<<<<<<< HEAD
 # Regole di Naming nei Moduli
 
 ## Regola: No Nomi Specifici dell'Applicazione
@@ -95,3 +99,10 @@ I nomi specifici dell'applicazione devono apparire solo:
 - [Standard di Codice](../../../project_docs/standards/coding-standards.md)
 - [Best Practices](../../../project_docs/standards/best-practices.md)
 >>>>>>> laraxot/dev
+=======
+- [Best Practices](../../../docs/standards/best-practices.md) 
+||||||| parent of 9a84589 (.):docs/archived/naming-rules-1.md
+- [Documentazione Principale](../../../docs/README.md)
+- [Standard di Codice](../../../docs/standards/coding-standards.md)
+- [Best Practices](../../../docs/standards/best-practices.md)
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

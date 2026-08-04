@@ -133,6 +133,9 @@
             "port": 9003,
             "pathMappings": {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
                 "/var/www/html/base_<nome progetto>": "${workspaceFolder}"
             }
         }
@@ -144,9 +147,12 @@
 
 ```json
 // tasks.json
+<<<<<<< HEAD
 =======
                 "/ tasks.json
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 {
     "version": "2.0.0",
     "tasks": [
@@ -239,6 +245,7 @@
 ## Vedi Anche
 - [VSCode Documentation](https://code.visualstudio.com/docs)
 - [PHP Intelephense](https://intelephense.com)
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Filament Documentation](https://filamentphp.com/docs) 
 =======
@@ -472,3 +479,6 @@
 - [PHP Intelephense](https://intelephense.com)
 - [Filament Documentation](https://filamentphp.com/docs)
 >>>>>>> laraxot/dev
+=======
+- [Filament Documentation](https://filamentphp.com/docs) 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

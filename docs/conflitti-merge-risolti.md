@@ -62,6 +62,7 @@ Questa documentazione integra le informazioni sui conflitti risolti, fornendo de
 - [Vedi anche: Blog/docs/README.md](../../Blog/docs/README.md)
 - [Vedi anche: Cms/docs/README.md](../../Cms/docs/README.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Vedi anche: Comment/docs/README.md](../../Comment/docs/README.md)
 =======
 - [Vedi anche: Comment/docs/README.md](../../Comment/docs/README.md)
@@ -130,3 +131,6 @@ Questa documentazione integra le informazioni sui conflitti risolti, fornendo de
 - [Vedi anche: Cms/docs/README.md](../../Cms/docs/README.md)
 - [Vedi anche: Comment/docs/README.md](../../Comment/docs/README.md)
 >>>>>>> laraxot/dev
+=======
+- [Vedi anche: Comment/docs/README.md](../../Comment/docs/README.md)
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

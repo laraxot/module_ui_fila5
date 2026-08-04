@@ -17,6 +17,7 @@
 <div class="form-group">
   <label for="email">Email</label>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <input 
     type="email" 
     id="email" 
@@ -25,6 +26,11 @@
     type="email"
     id="email"
 >>>>>>> laraxot/dev
+=======
+  <input 
+    type="email" 
+    id="email" 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     class="form-control is-invalid"
     aria-describedby="email-error"
   >
@@ -39,6 +45,7 @@
 <div class="form-group">
   <label for="search">Cerca</label>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <input 
     type="text" 
     id="search" 
@@ -47,6 +54,11 @@
     type="text"
     id="search"
 >>>>>>> laraxot/dev
+=======
+  <input 
+    type="text" 
+    id="search" 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     class="form-control"
     list="suggestions"
     autocomplete="off"
@@ -66,6 +78,7 @@
   <label for="date">Data</label>
   <div class="input-group datepicker">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <input 
       type="text" 
       id="date" 
@@ -74,6 +87,11 @@
       type="text"
       id="date"
 >>>>>>> laraxot/dev
+=======
+    <input 
+      type="text" 
+      id="date" 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
       class="form-control"
       data-date-format="dd/mm/yyyy"
     >
@@ -90,6 +108,7 @@
   <label for="time">Ora</label>
   <div class="input-group timepicker">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <input 
       type="text" 
       id="time" 
@@ -98,6 +117,11 @@
       type="text"
       id="time"
 >>>>>>> laraxot/dev
+=======
+    <input 
+      type="text" 
+      id="time" 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
       class="form-control"
       data-time-format="HH:mm"
     >
@@ -115,6 +139,7 @@
 <div class="form-group">
   <label for="range">Range</label>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <input 
     type="range" 
     id="range" 
@@ -123,6 +148,11 @@
     type="range"
     id="range"
 >>>>>>> laraxot/dev
+=======
+  <input 
+    type="range" 
+    id="range" 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     class="form-range"
     min="0"
     max="100"
@@ -139,6 +169,7 @@
   <div class="input-group">
     <button class="btn btn-outline-secondary" type="button">-</button>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <input 
       type="number" 
       id="quantity" 
@@ -147,6 +178,11 @@
       type="number"
       id="quantity"
 >>>>>>> laraxot/dev
+=======
+    <input 
+      type="number" 
+      id="quantity" 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
       class="form-control text-center"
       min="0"
       max="100"
@@ -196,16 +232,22 @@
     box-shadow: 0 0 0 0.2rem rgba($primary, 0.25);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
   
   &.is-invalid {
     border-color: $danger;
     
+<<<<<<< HEAD
 =======
 
   &.is-invalid {
     border-color: $danger;
 
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     &:focus {
       box-shadow: 0 0 0 0.2rem rgba($danger, 0.25);
     }
@@ -218,10 +260,14 @@
 .input-group {
   transition: all 0.3s ease;
 <<<<<<< HEAD
+<<<<<<< HEAD
   
 =======
 
 >>>>>>> laraxot/dev
+=======
+  
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
   &:focus-within {
     transform: translateY(-1px);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -233,6 +279,7 @@
 - [Componenti Base](./base-components.md)
 - [Feedback](./feedback-components.md)
 - [Accessibilità](./standards/accessibility.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Performance](./standards/performance.md) 
 =======
@@ -427,3 +474,6 @@
 - [Accessibilità](./standards/accessibility.md)
 - [Performance](./standards/performance.md)
 >>>>>>> laraxot/dev
+=======
+- [Performance](./standards/performance.md) 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

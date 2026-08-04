@@ -98,14 +98,22 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 | Da | A | Tipo |
 |----|---|------|
 | Testimonials Component | [Theme Customization](../../Themes/TwentyOne/docs/components/testimonials.md) | Integration |
+<<<<<<< HEAD
 | Testimonials Component | [forecast Homepage](../../Modules/Domain/docs/02-frontend/00-INDEX.md) | Consumer |
+=======
+| Testimonials Component | [Predict Homepage](../../Modules/Predict/docs/02-frontend/00-INDEX.md) | Consumer |
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 
 ### Verso Questo Indice
 
 | Da | A | Tipo |
 |----|---|------|
 | [Theme Index](../../Themes/TwentyOne/docs/00-INDEX.md) | UI Components | Dependency |
+<<<<<<< HEAD
 | [forecast Module Index](../../Modules/Domain/docs/00-INDEX.md) | UI Components | Reference |
+=======
+| [Predict Module Index](../../Modules/Predict/docs/00-INDEX.md) | UI Components | Reference |
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 
 ---
 

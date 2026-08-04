@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ---
 title: "Sistema Componenti UI"
@@ -21,6 +22,8 @@ related:
 ---
 
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 # Sistema Componenti UI
 
 ## 📊 Stato Implementazione
@@ -217,6 +220,7 @@ protected function resolveLazyProp(string $key): mixed
 2. Implementare lazy loading
 3. Migliorare test coverage
 4. Documentare best practices
+<<<<<<< HEAD
 <<<<<<< HEAD
 5. Ottimizzare performance 
 =======
@@ -419,3 +423,6 @@ protected function resolveLazyProp(string $key): mixed
 4. Documentare best practices
 5. Ottimizzare performance
 >>>>>>> laraxot/dev
+=======
+5. Ottimizzare performance 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

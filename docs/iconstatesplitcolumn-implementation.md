@@ -2,6 +2,7 @@
 
 ## Overview
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 The `IconStateSplitColumn` is a custom Filament table column component designed to display state transition icons in a compact, responsive grid layout. It extends Filament's `Column` component to provide an optimized user experience for state management in tables.
 ## Key Features
@@ -512,6 +513,8 @@ document.addEventListener('state-transition', function(event) {
 
 ## Overview
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 
 The `IconStateSplitColumn` is a custom Filament table column component designed to display state transition icons in a compact, responsive grid layout. It extends Filament's `Column` component to provide an optimized user experience for state management in tables.
 
@@ -578,38 +581,54 @@ class IconStateSplitColumn extends Column
     protected string $stateClass = '';
     protected string $modelClass = '';
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 
 >>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     protected function setUp(): void
     {
         parent::setUp();
         $this->label('Stati');
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 
 >>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     public function stateClass(string $stateClass, string $modelClass): static
     {
         // Configure states and model
     }
 <<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-    public function getRecordStates(): array
-    {
-        // Return array of available states
-    }
 <<<<<<< HEAD
     
 =======
 
 >>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+    public function getRecordStates(): array
+    {
+        // Return array of available states
+    }
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     public function canTransitionTo($recordId, $stateClass): bool
     {
         // Check if transition is possible
@@ -808,12 +827,16 @@ The main issue was that `wire:click` doesn't work directly in Filament table col
 ```javascript
 // Custom event dispatch
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 onclick="window.dispatchEvent(new CustomEvent('state-transition', { 
     detail: { 
         recordId: {{ $record->id }}, 
         stateClass: '{{ $state['class']::class }}',
         action: 'prova'
     } 
+<<<<<<< HEAD
 =======
 onclick="window.dispatchEvent(new CustomEvent('state-transition', {
     detail: {
@@ -822,16 +845,22 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
         action: 'prova'
     }
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 }))"
 
 // Event listener for Livewire integration
 document.addEventListener('state-transition', function(event) {
     const { recordId, stateClass, action } = event.detail;
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 
 >>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     if (window.Livewire) {
         window.Livewire.find(document.querySelector('[wire\\:id]').getAttribute('wire:id'))
             .call(action, recordId, stateClass);
@@ -869,6 +898,7 @@ document.addEventListener('state-transition', function(event) {
 
 **Last Updated**: June 2025
 **Version**: 2.1
+<<<<<<< HEAD
 <<<<<<< HEAD
 **Compatibility**: Filament 4.x, Laravel 10.x 
 ||||||| parent of 9a84589 (.):docs/archived/iconstatesplitcolumn-implementation-1.md
@@ -878,3 +908,8 @@ document.addEventListener('state-transition', function(event) {
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 >>>>>>> laraxot/dev
+=======
+**Compatibility**: Filament 4.x, Laravel 10.x 
+||||||| parent of 9a84589 (.):docs/archived/iconstatesplitcolumn-implementation-1.md
+**Compatibility**: Filament 3.x, Laravel 10.x
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

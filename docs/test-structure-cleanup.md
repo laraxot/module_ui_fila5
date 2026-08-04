@@ -105,7 +105,11 @@ Modules/UI/
 - Minimal disruption to existing code
 - Clear migration path
 
+<<<<<<< HEAD
 ### 4. **Autoloader stability**
+=======
+### 4. **Autoloader Predictability**
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 - Eliminates ambiguous class resolution
 - Consistent namespace-to-directory mapping
 - Reliable test discovery and execution
@@ -172,7 +176,11 @@ composer dump-autoload 2>&1 | grep -i "ui"
 After cleanup:
 
 - ✅ No more PSR-4 autoloading warnings
+<<<<<<< HEAD
 - ✅ Clear, stable test structure
+=======
+- ✅ Clear, predictable test structure
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 - ✅ Consistent with Laravel conventions
 - ✅ Compatible with module system
 - ✅ Maintains all existing test functionality

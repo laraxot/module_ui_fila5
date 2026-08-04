@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ---
 title: "custom_theme"
@@ -21,12 +22,15 @@ related:
 ---
 
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 # custom_theme
 
 <!-- Contenuto migrato da _docs/custom_theme.txt -->
 
 https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 php artisan make:filament-theme admin
@@ -41,6 +45,8 @@ in app/Providers/Filament/AdminPanelProvider.php
 
 https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 
 php artisan make:filament-theme admin
 
@@ -48,7 +54,11 @@ add resources/css/filament/admin/theme.css entry to vite.config.js
 
 in app/Providers/Filament/AdminPanelProvider.php
 <<<<<<< HEAD
+<<<<<<< HEAD
 ->viteTheme('resources/css/filament/admin/theme.css')
 =======
 ->viteTheme('resources/css/filament/admin/theme.css')
 >>>>>>> laraxot/dev
+=======
+->viteTheme('resources/css/filament/admin/theme.css')
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

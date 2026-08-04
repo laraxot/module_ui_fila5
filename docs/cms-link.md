@@ -15,12 +15,18 @@ Secondo le regole di organizzazione della documentazione:
 - [Blocchi di Contenuto](../../Cms/docs/blocks.md) - Documentazione sui blocchi di contenuto
 - [Filament Integration](../../Cms/docs/filament.md) - Integrazione con Filament
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 - [Documentazione Frontend](../../Cms/project_docs/frontoffice.md) - Documentazione completa sul frontend
 - [Componenti Blade](../../Cms/project_docs/components.md) - Documentazione sui componenti Blade nel frontend
 - [Blocchi di Contenuto](../../Cms/project_docs/blocks.md) - Documentazione sui blocchi di contenuto
 - [Filament Integration](../../Cms/project_docs/filament.md) - Integrazione con Filament
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 
 ## Utilizzo dei Componenti UI nel Frontend
 
@@ -41,6 +47,7 @@ Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/docs/
 * [cms-link.md](../../../User/docs/cms-link.md)
 * [cms-link.md](../../../UI/docs/cms-link.md)
 * [cms-link.md](../../../Lang/docs/cms-link.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 * [cms-link.md](../../../Xot/project_docs/cms-link.md)
 * [cms-link.md](../../../User/project_docs/cms-link.md)
@@ -86,3 +93,9 @@ Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/proje
 * [cms-link.md](../../../UI/project_docs/cms-link.md)
 * [cms-link.md](../../../Lang/project_docs/cms-link.md)
 >>>>>>> laraxot/dev
+=======
+* [cms-link.md](../../../Xot/project_docs/cms-link.md)
+* [cms-link.md](../../../User/project_docs/cms-link.md)
+* [cms-link.md](../../../UI/project_docs/cms-link.md)
+* [cms-link.md](../../../Lang/project_docs/cms-link.md)
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

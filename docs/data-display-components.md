@@ -170,10 +170,14 @@ new Chart(ctx, {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 <<<<<<< HEAD
+<<<<<<< HEAD
   
 =======
 
 >>>>>>> laraxot/dev
+=======
+  
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
   @media (max-width: 768px) {
     .table {
       min-width: 600px;
@@ -188,10 +192,14 @@ new Chart(ctx, {
   position: relative;
   height: 300px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   
 =======
 
 >>>>>>> laraxot/dev
+=======
+  
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
   canvas {
     animation: fadeIn 0.5s ease;
   }
@@ -202,6 +210,7 @@ new Chart(ctx, {
 - [Componenti Base](./base-components.md)
 - [Form Avanzati](./advanced-form-components.md)
 - [Accessibilità](./standards/accessibility.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Performance](./standards/performance.md) 
 =======
@@ -404,3 +413,6 @@ new Chart(ctx, {
 - [Accessibilità](./standards/accessibility.md)
 - [Performance](./standards/performance.md)
 >>>>>>> laraxot/dev
+=======
+- [Performance](./standards/performance.md) 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

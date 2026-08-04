@@ -9,7 +9,11 @@
 
 ## 🎯 PANORAMICA
 
+<<<<<<< HEAD
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione progetto corrente.
+=======
+Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 
 ---
 
@@ -429,7 +433,11 @@ class MapService
                     'description' => $ticket->description,
                     'status' => $ticket->status->slug,
                     'priority' => $ticket->priority->slug,
+<<<<<<< HEAD
                     'url' => route('tickets.show', $ticket)
+=======
+                    'url' => route('fixcity.tickets.show', $ticket)
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
                 ];
             })
             ->toArray();
@@ -509,7 +517,11 @@ class GeocodingService
             />
         </div>
         <div class="col-md-4">
+<<<<<<< HEAD
             <livewire:project::components.ticket-stats />
+=======
+            <livewire:fixcity::components.ticket-stats />
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
         </div>
     </div>
 </div>
@@ -563,7 +575,11 @@ class GeocodingService
 - [ ] GeocodingService implementation
 
 ### 📅 Fase 3: Integrazione (Settimana 3)
+<<<<<<< HEAD
 - [ ] Integrazione con modulo progetto corrente
+=======
+- [ ] Integrazione con modulo Fixcity
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 - [ ] Integrazione con modulo User
 - [ ] API endpoints per mappa
 - [ ] Testing componenti

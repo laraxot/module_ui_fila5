@@ -10,9 +10,12 @@ related:
   - "./git-merge-conflict-inventory-1.md"
   - "./git-merge-conflict-inventory.md"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   - "./git-push-lfs-missing-objects.md"
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
   - "./phpstan-fixes-1.md"
   - "./phpstan-fixes.md"
 ---
