@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ---
 title: "Gestione degli Asset"
@@ -18,6 +19,8 @@ related:
 ---
 
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 # Gestione degli Asset
 
 ## Struttura delle Directory
@@ -76,6 +79,7 @@ Gli script di automazione si trovano nella directory `bashscripts/`:
 - Creare alert per problemi di permessi
 - Monitorare lo spazio disponibile
 - Verificare periodicamente l'integrità degli asset
+<<<<<<< HEAD
 <<<<<<< HEAD
 - Utilizzare lo script di verifica prima di ogni deploy 
 =======
@@ -140,3 +144,6 @@ Gli script di automazione si trovano nella directory `bashscripts/`:
 - Verificare periodicamente l'integrità degli asset
 - Utilizzare lo script di verifica prima di ogni deploy
 >>>>>>> laraxot/dev
+=======
+- Utilizzare lo script di verifica prima di ogni deploy 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Struttura Themes e Folio in <nome progetto>corrente
+=======
+# Struttura Themes e Folio in SaluteOra
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 
 ## ⚠️ ATTENZIONE CRITICA
 
@@ -8,7 +12,11 @@
 
 ## Struttura del Progetto
 
+<<<<<<< HEAD
 Il progetto <nome progetto>corrente utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
+=======
+Il progetto SaluteOra utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 
 ```
 /laravel/

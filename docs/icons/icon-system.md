@@ -94,7 +94,11 @@ Tables\Columns\IconColumn::make('status')
 ## Cross-Module Icons
 Each module registers its own SVG icons:
 - `Modules/User/resources/svg/` → `user-{name}`
+<<<<<<< HEAD
 - `resources/svg/` → `{name}`
+=======
+- `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 - etc.
 
 The `ui-` prefix is special: contains the global design system icons shared across all modules.

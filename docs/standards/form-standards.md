@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ---
 title: "Standard Form nei Temi"
@@ -19,6 +20,8 @@ related:
 ---
 
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 # Standard Form nei Temi
 
 ## Principi Generali
@@ -77,10 +80,14 @@ related:
     Nome
   </label>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <input 
 =======
   <input
 >>>>>>> laraxot/dev
+=======
+  <input 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     type="text"
     class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500"
   >
@@ -104,10 +111,14 @@ related:
 <div class="form-group">
   <div class="flex items-center">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <input 
 =======
     <input
 >>>>>>> laraxot/dev
+=======
+    <input 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
       type="checkbox"
       class="h-4 w-4 text-primary-600 border-gray-300 rounded focus:ring-primary-500"
     >
@@ -166,10 +177,14 @@ screens: {
     Email
   </label>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <input 
 =======
   <input
 >>>>>>> laraxot/dev
+=======
+  <input 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     type="email"
     class="w-full px-4 py-2 border border-red-300 rounded-md focus:ring-2 focus:ring-red-500"
     aria-invalid="true"
@@ -188,10 +203,14 @@ screens: {
     Username
   </label>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <input 
 =======
   <input
 >>>>>>> laraxot/dev
+=======
+  <input 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     type="text"
     class="w-full px-4 py-2 border border-green-300 rounded-md focus:ring-2 focus:ring-green-500"
     aria-invalid="false"
@@ -211,10 +230,14 @@ screens: {
     Email
   </label>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <input 
 =======
   <input
 >>>>>>> laraxot/dev
+=======
+  <input 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     type="email"
     aria-labelledby="email-label"
     aria-required="true"
@@ -241,10 +264,14 @@ screens: {
 ### Loading States
 ```html
 <<<<<<< HEAD
+<<<<<<< HEAD
 <button 
 =======
 <button
 >>>>>>> laraxot/dev
+=======
+<button 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
   type="submit"
   class="btn btn-primary"
   disabled
@@ -300,6 +327,7 @@ form.addEventListener('submit', async (e) => {
 ## Collegamenti
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Performance](./performance.md) 
 =======
@@ -563,3 +591,6 @@ form.addEventListener('submit', async (e) => {
 - [Accessibility](./accessibility.md)
 - [Performance](./performance.md)
 >>>>>>> laraxot/dev
+=======
+- [Performance](./performance.md) 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

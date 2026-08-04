@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 # UI Module - Product Strategy
 
 **Module:** UI  
@@ -89,6 +92,7 @@ Easy to use and extend.
 
 ---
 
+<<<<<<< HEAD
 *Last Updated: March 12, 2026*
 =======
 # UI - Product Strategy
@@ -140,3 +144,6 @@ Easy to use and extend.
 - Standard operativo: `spatie/laravel-queueable-action`
 - Convenzione: Action con metodo `execute()` e dispatch tramite container
 >>>>>>> laraxot/dev
+=======
+*Last Updated: March 12, 2026*
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

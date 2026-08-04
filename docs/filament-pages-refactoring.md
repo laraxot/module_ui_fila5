@@ -143,6 +143,7 @@ class S3Test extends XotBasePage
 - [DRY + KISS Principles](../../Xot/docs/dry_kiss_principles.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: giugno 2025* 
 =======
 *Ultimo aggiornamento: giugno 2025*
@@ -292,3 +293,6 @@ class S3Test extends XotBasePage
 
 *Ultimo aggiornamento: giugno 2025*
 >>>>>>> laraxot/dev
+=======
+*Ultimo aggiornamento: giugno 2025* 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

@@ -28,7 +28,11 @@ Tutti in `Modules/UI/app/Filament/Forms/Components/`:
 
 ### Import Statements da Verificare
 
+<<<<<<< HEAD
 **modulo operativo/app/Filament/Resources/ClientResource.php**:
+=======
+**TechPlanner/app/Filament/Resources/ClientResource.php**:
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 ```php
 Line 13: use Modules\Notify\Filament\Forms\Components\ContactSection;
 ```

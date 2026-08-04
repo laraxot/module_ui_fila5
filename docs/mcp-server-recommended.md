@@ -21,6 +21,7 @@ Gestione interfaccia utente, componenti, asset e frontend.
 
 ## Note
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Personalizza la configurazione per esigenze di frontend avanzato.
 =======
 - Personalizza la configurazione per esigenze di frontend avanzato.
@@ -48,3 +49,6 @@ Gestione interfaccia utente, componenti, asset e frontend.
 ## Note
 - Personalizza la configurazione per esigenze di frontend avanzato.
 >>>>>>> laraxot/dev
+=======
+- Personalizza la configurazione per esigenze di frontend avanzato.
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

@@ -129,10 +129,14 @@ $rule = new OpeningHoursRule();
 // Verificare messaggi in italiano
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Test inglese  
 =======
 // Test inglese
 >>>>>>> laraxot/dev
+=======
+// Test inglese  
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 App::setLocale('en');
 $rule = new OpeningHoursRule();
 // Verificare messaggi in inglese
@@ -186,6 +190,7 @@ $rule = new OpeningHoursRule();
 - [Validation System](./validation_system.md)
 - [Localization Guidelines](./localization_guidelines.md)
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 *Correzione completata: gennaio 2025*
 =======
@@ -376,3 +381,6 @@ $rule = new OpeningHoursRule();
 
 *Correzione completata: gennaio 2025*
 >>>>>>> laraxot/dev
+=======
+*Correzione completata: gennaio 2025*
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

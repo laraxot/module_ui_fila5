@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ---
 title: "Form Component"
@@ -21,6 +22,8 @@ related:
 ---
 
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 # Form Component
 
 ## 📊 Stato Implementazione
@@ -58,26 +61,36 @@ class FormBuilder extends XotBaseUIComponent
     /** @var array<string, FormField> */
     protected array $fields = [];
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     
     /** @var array<string, mixed> */
     protected array $values = [];
     
+<<<<<<< HEAD
 =======
 
     /** @var array<string, mixed> */
     protected array $values = [];
 
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     public function addField(string $name, FormField $field): self
     {
         $this->fields[$name] = $field;
         return $this;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 
 >>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     public function validate(): ValidationResult
     {
         return $this->validator->validate($this->values);
@@ -95,10 +108,14 @@ abstract class FormField
     protected ?string $placeholder = null;
     protected array $validators = [];
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 
 >>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     abstract public function render(): View;
     abstract public function validate($value): ValidationResult;
 }
@@ -109,10 +126,14 @@ class InputField extends FormField
     protected ?int $maxLength = null;
     protected ?string $pattern = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 
 >>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     public function setType(string $type): self
     {
         $this->type = $type;
@@ -204,11 +225,15 @@ protected function validateField(string $name): void
         return;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     
     $result = $this->fields[$name]->validate(
         $this->values[$name]
     );
     
+<<<<<<< HEAD
 =======
 
     $result = $this->fields[$name]->validate(
@@ -216,6 +241,8 @@ protected function validateField(string $name): void
     );
 
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     $this->errors[$name] = $result->errors();
 }
 ```
@@ -227,6 +254,9 @@ class FormState
     /** @var array<string, mixed> */
     protected array $initialValues = [];
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     
     /** @var array<string, mixed> */
     protected array $currentValues = [];
@@ -234,6 +264,7 @@ class FormState
     public function isDirty(string $field): bool
     {
         return $this->initialValues[$field] !== 
+<<<<<<< HEAD
 =======
 
     /** @var array<string, mixed> */
@@ -243,6 +274,8 @@ class FormState
     {
         return $this->initialValues[$field] !==
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
                $this->currentValues[$field];
     }
 }
@@ -286,6 +319,7 @@ class FormState
 2. Implementare file upload
 3. Aggiungere nested form support
 4. Migliorare validation performance
+<<<<<<< HEAD
 <<<<<<< HEAD
 5. Documentare best practices 
 =======
@@ -520,3 +554,6 @@ class FormState
 4. Migliorare validation performance
 5. Documentare best practices
 >>>>>>> laraxot/dev
+=======
+5. Documentare best practices 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

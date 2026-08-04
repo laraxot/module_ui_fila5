@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 # UI Module - Product Roadmap
 
 **Module:** UI  
@@ -101,6 +104,7 @@ To create a **unified, beautiful, and accessible design system** that ensures co
 
 ---
 
+<<<<<<< HEAD
 *Last Updated: March 12, 2026*
 =======
 # UI - Product Roadmap
@@ -158,3 +162,6 @@ To create a **unified, beautiful, and accessible design system** that ensures co
 - [Sprint Planning Meeting](sprint-planning-meeting.md)
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
 >>>>>>> laraxot/dev
+=======
+*Last Updated: March 12, 2026*
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

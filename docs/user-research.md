@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 # UI Module - User Research
 
 **Module:** UI  
@@ -91,6 +94,7 @@ Some customization capability required.
 
 ---
 
+<<<<<<< HEAD
 *Last Updated: March 12, 2026*
 =======
 # User Research: UI Module
@@ -106,3 +110,6 @@ Some customization capability required.
 - Enforce the use of `Tabs` and `Sections` in all `XotBaseResource` forms.
 - Optimize table columns for narrow viewports using `WorkerColumn` patterns.
 >>>>>>> laraxot/dev
+=======
+*Last Updated: March 12, 2026*
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

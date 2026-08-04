@@ -55,6 +55,7 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 - [Linee Guida PHPStan Livello 10](../../Xot/docs/PHPStan/LEVEL10_LINEE_GUIDA.md)
 - [Conflitti Merge Risolti](./CONFLITTI_MERGE_RISOLTI.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [README del Modulo UI](./README.md)
 =======
 - [README del Modulo UI](./README.md)
@@ -116,3 +117,6 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 - [Conflitti Merge Risolti](./CONFLITTI_MERGE_RISOLTI.md)
 - [README del Modulo UI](./README.md)
 >>>>>>> laraxot/dev
+=======
+- [README del Modulo UI](./README.md)
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

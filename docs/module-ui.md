@@ -113,6 +113,7 @@ composer format        # Formatta il codice
 
 ## Changelog
 <<<<<<< HEAD
+<<<<<<< HEAD
 Le modifiche vengono tracciate nel repository GitHub. 
 =======
 Le modifiche vengono tracciate nel repository GitHub.
@@ -232,3 +233,6 @@ composer format        # Formatta il codice
 ## Changelog
 Le modifiche vengono tracciate nel repository GitHub.
 >>>>>>> laraxot/dev
+=======
+Le modifiche vengono tracciate nel repository GitHub. 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

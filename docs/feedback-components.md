@@ -110,11 +110,15 @@
 ### Tooltip
 ```html
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 <button 
   type="button" 
   class="btn btn-secondary" 
   data-bs-toggle="tooltip" 
   data-bs-placement="top" 
+<<<<<<< HEAD
 =======
 <button
   type="button"
@@ -122,6 +126,8 @@
   data-bs-toggle="tooltip"
   data-bs-placement="top"
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
   title="Tooltip in alto"
 >
   Tooltip
@@ -131,11 +137,15 @@
 ### Popover
 ```html
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 <button 
   type="button" 
   class="btn btn-secondary" 
   data-bs-toggle="popover" 
   data-bs-placement="right" 
+<<<<<<< HEAD
 =======
 <button
   type="button"
@@ -143,6 +153,8 @@
   data-bs-toggle="popover"
   data-bs-placement="right"
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
   data-bs-content="Contenuto del popover"
   title="Titolo Popover"
 >
@@ -156,12 +168,16 @@
 ```html
 <div class="progress">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
   <div 
     class="progress-bar progress-bar-striped progress-bar-animated" 
     role="progressbar" 
     style="width: 75%" 
     aria-valuenow="75" 
     aria-valuemin="0" 
+<<<<<<< HEAD
 =======
   <div
     class="progress-bar progress-bar-striped progress-bar-animated"
@@ -170,6 +186,8 @@
     aria-valuenow="75"
     aria-valuemin="0"
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     aria-valuemax="100"
   >
     75%
@@ -231,6 +249,7 @@ $zindex-tooltip: 1070;
 - [Componenti Base](./base-components.md)
 - [Layout](./layout-components.md)
 - [Accessibilità](./standards/accessibility.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Performance](./standards/performance.md) 
 =======
@@ -445,3 +464,6 @@ $zindex-tooltip: 1070;
 - [Accessibilità](./standards/accessibility.md)
 - [Performance](./standards/performance.md)
 >>>>>>> laraxot/dev
+=======
+- [Performance](./standards/performance.md) 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

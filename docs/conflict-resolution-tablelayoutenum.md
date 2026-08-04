@@ -82,6 +82,7 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 - **Modulo**: UI
 - **File**: `app/Enums/TableLayoutEnum.php`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Tipo Conflitto**: Sintassi PHPStan
 =======
 - **Tipo Conflitto**: Sintassi PHPStan
@@ -180,3 +181,6 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 - **Scelta**: Versione Branch 988693e (sintassi moderna)
 - **Scelta**: Versione Branch 988693e (sintassi moderna)
 >>>>>>> laraxot/dev
+=======
+- **Tipo Conflitto**: Sintassi PHPStan
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

@@ -69,8 +69,11 @@ Now that you’ve edited your configuration variables and know how to customize 
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 # build static files with Jigsaw
 ./vendor/bin/jigsaw build
 
@@ -87,6 +90,7 @@ npm run dev
 * [getting-started.md](../../../UI/docs/getting-started.md)
 * [getting-started.md](../../../Tenant/docs/it/getting-started.md)
 * [getting-started.md](../../../Cms/docs/getting-started.md)
+<<<<<<< HEAD
 
 ### Versione Incoming
 
@@ -176,6 +180,8 @@ npm run dev
 
 ## Collegamenti tra versioni di getting-started.md
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 * [getting-started.md](../../../Gdpr/project_docs/getting-started.md)
 * [getting-started.md](../../../Xot/project_docs/getting-started.md)
 * [getting-started.md](../../../UI/project_docs/getting-started.md)
@@ -183,13 +189,20 @@ npm run dev
 * [getting-started.md](../../../Cms/project_docs/getting-started.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 
 ### Versione Incoming
 
 
+<<<<<<< HEAD
 ---
 =======
 ### Versione Incoming
 
 ---
 >>>>>>> laraxot/dev
+=======
+---
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

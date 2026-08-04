@@ -34,10 +34,14 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
         </x-filament::button>
     </x-slot>
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 
 >>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     <x-filament::dropdown.list>
         <x-filament::dropdown.list.item>
             {{ __('View') }}
@@ -183,11 +187,15 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
   <?php
   use function Livewire\Volt\{state, mount};
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
   
   state([
       'property' => null,
   ]);
   
+<<<<<<< HEAD
 =======
 
   state([
@@ -195,15 +203,21 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
   ]);
 
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
   $action = function () {
       // Logica dell'azione
   };
   ?>
 <<<<<<< HEAD
+<<<<<<< HEAD
   
 =======
 
 >>>>>>> laraxot/dev
+=======
+  
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
   <div>
       <!-- Template del componente -->
   </div>
@@ -218,25 +232,35 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
   use function Laravel\Folio\{middleware, name};
   use function Livewire\Volt\{state, mount};
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
   
   middleware(['auth']);
   name('page.name');
   
+<<<<<<< HEAD
 =======
 
   middleware(['auth']);
   name('page.name');
 
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
   state([
       'property' => null,
   ]);
   ?>
 <<<<<<< HEAD
+<<<<<<< HEAD
   
 =======
 
 >>>>>>> laraxot/dev
+=======
+  
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
   <x-layouts.main>
       <!-- Contenuto della pagina -->
   </x-layouts.main>
@@ -283,10 +307,14 @@ $logout = function () {
         <!-- Default state -->
     @endif
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 
 >>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     @if($isLoggingOut)
         <x-filament::loading-indicator />
     @endif
@@ -335,10 +363,14 @@ $logout = function () {
             <!-- Default state -->
         @endif
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 
 >>>>>>> laraxot/dev
+=======
+        
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
         @if($isLoggingOut)
             <x-filament::loading-indicator />
         @endif
@@ -488,6 +520,7 @@ $logout = function () {
 - ✅ Utilizzare i componenti appropriati
 - ✅ Seguire la struttura standard
 - ✅ Gestire correttamente le traduzioni
+<<<<<<< HEAD
 <<<<<<< HEAD
 - ✅ Testare in entrambi gli stati
 =======
@@ -949,3 +982,6 @@ $logout = function () {
 - ✅ Gestire correttamente le traduzioni
 - ✅ Testare in entrambi gli stati
 >>>>>>> laraxot/dev
+=======
+- ✅ Testare in entrambi gli stati
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

@@ -3,6 +3,7 @@
 *.scss linguist-vendored
 *.js linguist-vendored
 CHANGELOG.md export-ignore
+<<<<<<< HEAD
 
 # Binary files (no git LFS)
 *.jpg binary
@@ -16,8 +17,15 @@ CHANGELOG.md export-ignore
 =======
 *.png !text !filter !merge !diff
 *.svg !text !filter !merge !diff
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 *.jpg !text !filter !merge !diff
 *.jpeg !text !filter !merge !diff
 *.gif !text !filter !merge !diff
 *.webp !text !filter !merge !diff
+<<<<<<< HEAD
 >>>>>>> .merge_file_4KrCdP
+=======
+*.png !text !filter !merge !diff
+*.svg !text !filter !merge !diff
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

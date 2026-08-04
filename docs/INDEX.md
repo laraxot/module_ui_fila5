@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 ---
 title: UI Module — Documentazione
 module: UI
@@ -442,6 +445,7 @@ laravel/Modules/UI/
 **Last Updated**: 2026-07-28  
 **Status**: Approved for consolidation  
 **Next Steps**: Create PATTERNS.md and TROUBLESHOOTING.md with UI-specific content
+<<<<<<< HEAD
 =======
 # Documentation Index
 
@@ -451,6 +455,8 @@ laravel/Modules/UI/
 
 ## architecture
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 
 - [component-registration.md](./architecture/component-registration.md)
 - [filament-pages-structure.md](./architecture/filament-pages-structure.md)
@@ -1597,6 +1603,7 @@ laravel/Modules/UI/
 - [git-merge-conflict-inventory-2026-04-28.deprecated.md](./wiki/troubleshooting/git-merge-conflict-inventory-2026-04-28.deprecated.md)
 - [git-merge-conflict-inventory.md](./wiki/troubleshooting/git-merge-conflict-inventory.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [module-theme-root-hygiene.md](./wiki/troubleshooting/module-theme-root-hygiene.md)
 - [phpstan-fixes-1.md](./wiki/troubleshooting/phpstan-fixes-1.md)
 - [phpstan-fixes-2026-05-06.deprecated.md](./wiki/troubleshooting/phpstan-fixes-2026-05-06.deprecated.md)
@@ -1609,3 +1616,9 @@ laravel/Modules/UI/
 - [phpstan-fixes.md](./wiki/troubleshooting/phpstan-fixes.md)
 
 >>>>>>> laraxot/dev
+=======
+- [module-theme-root-hygiene.md](./wiki/troubleshooting/module-theme-root-hygiene.md)
+- [phpstan-fixes-1.md](./wiki/troubleshooting/phpstan-fixes-1.md)
+- [phpstan-fixes-2026-05-06.deprecated.md](./wiki/troubleshooting/phpstan-fixes-2026-05-06.deprecated.md)
+- [phpstan-fixes.md](./wiki/troubleshooting/phpstan-fixes.md)
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
