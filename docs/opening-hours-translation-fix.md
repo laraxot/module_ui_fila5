@@ -9,10 +9,14 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
 ### Campi per Ogni Giorno
 - `morning` - Sezione mattutina
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `afternoon` - Sezione pomeridiana  
 =======
 - `afternoon` - Sezione pomeridiana
 >>>>>>> laraxot/dev
+=======
+- `afternoon` - Sezione pomeridiana  
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 - `morning_label` - Etichetta attività mattutine
 - `afternoon_label` - Etichetta attività pomeridiane
 
@@ -137,6 +141,7 @@ done
 - **REGOLA CRITICA**: Sincronizzazione obbligatoria tra lingue
 - **REGOLA CRITICA**: Struttura espansa per tutti i campi
 - **REGOLA CRITICA**: Sintassi moderna e tipizzazione stretta
+<<<<<<< HEAD
 <<<<<<< HEAD
 - **REGOLA CRITICA**: Controllo automatico con script
 =======
@@ -278,3 +283,6 @@ done
 - **REGOLA CRITICA**: Sintassi moderna e tipizzazione stretta
 - **REGOLA CRITICA**: Controllo automatico con script
 >>>>>>> laraxot/dev
+=======
+- **REGOLA CRITICA**: Controllo automatico con script
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

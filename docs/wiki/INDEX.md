@@ -20,7 +20,11 @@ related:
 
 ## AI / second brain
 
+<<<<<<< HEAD
 - [hackernoon-ai-coding-tips-progetto corrente-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-progetto corrente-map.md)
+=======
+- [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 - [bmad/architecture](../../../../docs/wiki/bmad/architecture.md)
 - [frontmatter + GitHub](../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md)
 - [ai-harness-module-discipline](../../docs/wiki/concepts/ai-harness-module-discipline.md)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ---
 title: "custom_firm_fields"
@@ -21,12 +22,15 @@ related:
 ---
 
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 # custom_firm_fields
 
 <!-- Contenuto migrato da _docs/custom_firm_fields.txt -->
 
 https://github.com/tanthammar/filament-extras
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 //--- with nested ?
@@ -39,13 +43,20 @@ https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-ca
 
 https://github.com/tanthammar/filament-extras
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 
 //--- with nested ?
 https://github.com/saade/filament-extra
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
 =======
 https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
 >>>>>>> laraxot/dev
+=======
+
+https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

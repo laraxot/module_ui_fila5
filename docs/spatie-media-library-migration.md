@@ -2,6 +2,7 @@
 
 ## 🌍 Analisi Multidimensionale della Migrazione
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Migrazione da FileUpload a Spatie Media Library
 
@@ -737,6 +738,8 @@ public function downloadDocument(Media $media): Response
 
 ## 🌍 Analisi Multidimensionale della Migrazione
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 
 ### **Filosofia & Spiritualità**
 - **Evoluzione Paradigmatica**: Passaggio da gestione **atomistica** (FileUpload singoli) a gestione **sistemica** (Media Library ecosystem)
@@ -769,11 +772,15 @@ public function downloadDocument(Media $media): Response
 // User Profile
 SpatieMediaLibraryFileUpload::make('photo_profile')
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 // Notify Themes  
 =======
 // Notify Themes
 >>>>>>> laraxot/dev
+=======
+// Notify Themes  
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 SpatieMediaLibraryFileUpload::make('logo_src')
 
 // UI Blocks
@@ -792,10 +799,14 @@ SpatieMediaLibraryFileUpload::make('image') // ImagesGallery
 // PatientResource (4 documenti)
 Forms\Components\FileUpload::make('health_card')
 <<<<<<< HEAD
+<<<<<<< HEAD
 Forms\Components\FileUpload::make('identity_document') 
 =======
 Forms\Components\FileUpload::make('identity_document')
 >>>>>>> laraxot/dev
+=======
+Forms\Components\FileUpload::make('identity_document') 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 Forms\Components\FileUpload::make('isee_certificate')
 Forms\Components\FileUpload::make('pregnancy_certificate')
 
@@ -805,10 +816,14 @@ Forms\Components\FileUpload::make('certifications')
 // UI Blocks Standard
 FileUpload::make('image') // Image block
 <<<<<<< HEAD
+<<<<<<< HEAD
 FileUpload::make('background') // Hero block  
 =======
 FileUpload::make('background') // Hero block
 >>>>>>> laraxot/dev
+=======
+FileUpload::make('background') // Hero block  
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 FileUpload::make('logo') // InfoBlock, LogoBlock
 
 // Appearance Pages
@@ -823,12 +838,16 @@ FileUpload::make('logo_header') // Metatag
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 // BaseModel <nome progetto> - IMPLEMENTA GIÀ HasMedia + InteractsWithMedia
 =======
 // BaseModel  - IMPLEMENTA GIÀ HasMedia + InteractsWithMedia
 // BaseModel  - IMPLEMENTA GIÀ HasMedia + InteractsWithMedia
 // BaseModel  - IMPLEMENTA GIÀ HasMedia + InteractsWithMedia
 >>>>>>> laraxot/dev
+=======
+// BaseModel <nome progetto> - IMPLEMENTA GIÀ HasMedia + InteractsWithMedia
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 abstract class BaseModel extends Model implements HasMedia
 {
     use InteractsWithMedia;
@@ -843,10 +862,14 @@ abstract class BaseProfile extends BaseModel implements ProfileContract
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // BaseTenant - IMPLEMENTA GIÀ  
 =======
 // BaseTenant - IMPLEMENTA GIÀ
 >>>>>>> laraxot/dev
+=======
+// BaseTenant - IMPLEMENTA GIÀ  
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 abstract class BaseTenant extends BaseModel implements HasAvatar, HasMedia
 {
     use InteractsWithMedia;
@@ -867,11 +890,15 @@ Ogni tipo di documento dovrà avere la sua collection specifica:
 // Patient Documents Collections
 'health_card' => 'tessere_sanitarie'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 'identity_document' => 'documenti_identita'  
 'isee_certificate' => 'certificazioni_isee'
 'pregnancy_certificate' => 'certificati_gravidanza'
 
 // Doctor Documents Collections  
+<<<<<<< HEAD
 =======
 'identity_document' => 'documenti_identita'
 'isee_certificate' => 'certificazioni_isee'
@@ -879,15 +906,21 @@ Ogni tipo di documento dovrà avere la sua collection specifica:
 
 // Doctor Documents Collections
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 'certifications' => 'certificazioni_professionali'
 
 // UI/Appearance Collections
 'logos' => 'loghi_sistema'
 <<<<<<< HEAD
+<<<<<<< HEAD
 'backgrounds' => 'sfondi_interfaccia' 
 =======
 'backgrounds' => 'sfondi_interfaccia'
 >>>>>>> laraxot/dev
+=======
+'backgrounds' => 'sfondi_interfaccia' 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 'headers' => 'intestazioni'
 ```
 
@@ -901,6 +934,9 @@ public function registerMediaCollections(): void
         ->acceptsMimeTypes(['image/jpeg', 'image/png', 'application/pdf'])
         ->singleFile();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
         
     $this->addMediaCollection('documenti_identita')
         ->acceptsMimeTypes(['image/jpeg', 'image/png', 'application/pdf'])
@@ -910,6 +946,7 @@ public function registerMediaCollections(): void
         ->acceptsMimeTypes(['application/pdf'])
         ->singleFile();
         
+<<<<<<< HEAD
 =======
 
     $this->addMediaCollection('documenti_identita')
@@ -921,6 +958,8 @@ public function registerMediaCollections(): void
         ->singleFile();
 
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     $this->addMediaCollection('certificati_gravidanza')
         ->acceptsMimeTypes(['application/pdf'])
         ->singleFile();
@@ -948,10 +987,14 @@ class SpatieDocumentUpload
             ->acceptedFileTypes(['image/jpeg', 'image/png', 'application/pdf']);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 
 >>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     public static function forHealthCard(): SpatieMediaLibraryFileUpload
     {
         return static::make('health_card', 'tessere_sanitarie')
@@ -959,10 +1002,14 @@ class SpatieDocumentUpload
             ->maxSize(5120); // 5MB per documenti leggeri
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 
 >>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     public static function forCertifications(): SpatieMediaLibraryFileUpload
     {
         return static::make('certifications', 'certificazioni_professionali')
@@ -978,10 +1025,14 @@ class SpatieDocumentUpload
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Modules/UI/app/Filament/Components/SpatieImageUpload.php  
 =======
 // Modules/UI/app/Filament/Components/SpatieImageUpload.php
 >>>>>>> laraxot/dev
+=======
+// Modules/UI/app/Filament/Components/SpatieImageUpload.php  
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 class SpatieImageUpload
 {
     public static function forLogo(string $collection = 'logos'): SpatieMediaLibraryFileUpload
@@ -995,10 +1046,14 @@ class SpatieImageUpload
             ->singleFile();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 
 >>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     public static function forBackground(string $collection = 'backgrounds'): SpatieMediaLibraryFileUpload
     {
         return SpatieMediaLibraryFileUpload::make('background')
@@ -1018,12 +1073,16 @@ class SpatieImageUpload
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Modules/<nome progetto>/app/Filament/Resources/PatientResource.php - getFormSchema()
 =======
 // Modules/<nome modulo>/app/Filament/Resources/PatientResource.php - getFormSchema()
 // Modules/<nome modulo>/app/Filament/Resources/PatientResource.php - getFormSchema()
 // Modules/<nome modulo>/app/Filament/Resources/PatientResource.php - getFormSchema()
 >>>>>>> laraxot/dev
+=======
+// Modules/<nome progetto>/app/Filament/Resources/PatientResource.php - getFormSchema()
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 
 // PRIMA (FileUpload standard)
 'health_card' => Forms\Components\FileUpload::make('health_card')
@@ -1033,10 +1092,14 @@ class SpatieImageUpload
     ->maxSize(5120),
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // DOPO (SpatieMediaLibraryFileUpload)  
 =======
 // DOPO (SpatieMediaLibraryFileUpload)
 >>>>>>> laraxot/dev
+=======
+// DOPO (SpatieMediaLibraryFileUpload)  
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 'health_card' => \Modules\UI\Filament\Components\SpatieDocumentUpload::forHealthCard()
     ->label(trans('<nome progetto>::patients.fields.health_card.label'))
     ->helperText(trans('<nome progetto>::patients.fields.health_card.help')),
@@ -1051,10 +1114,14 @@ class SpatieImageUpload
 FileUpload::make('image'),
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // DOPO  
 =======
 // DOPO
 >>>>>>> laraxot/dev
+=======
+// DOPO  
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 \Modules\UI\Filament\Components\SpatieImageUpload::make('image', 'content_images')
     ->imagePreviewHeight('250')
     ->conversion('thumbnail'),
@@ -1071,10 +1138,14 @@ public function up(): void
     // Migrazione automatica dei file esistenti
     $patients = Patient::whereNotNull('health_card')->get();
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 
 >>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     foreach($patients as $patient) {
         if($patient->health_card && Storage::exists($patient->health_card)) {
             $patient->addMediaFromUrl(Storage::url($patient->health_card))
@@ -1092,10 +1163,14 @@ Schema::table('users', function (Blueprint $table) {
     $table->dropColumn([
         'health_card',
 <<<<<<< HEAD
+<<<<<<< HEAD
         'identity_document', 
 =======
         'identity_document',
 >>>>>>> laraxot/dev
+=======
+        'identity_document', 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
         'isee_certificate',
         'pregnancy_certificate',
         'certifications'
@@ -1111,12 +1186,16 @@ Schema::table('users', function (Blueprint $table) {
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Modules/<nome progetto>/app/Models/User.php - Aggiunta registerMediaCollections
 =======
 // Modules/<nome modulo>/app/Models/User.php - Aggiunta registerMediaCollections
 // Modules/<nome modulo>/app/Models/User.php - Aggiunta registerMediaCollections
 // Modules/<nome modulo>/app/Models/User.php - Aggiunta registerMediaCollections
 >>>>>>> laraxot/dev
+=======
+// Modules/<nome progetto>/app/Models/User.php - Aggiunta registerMediaCollections
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 
 public function registerMediaCollections(): void
 {
@@ -1126,37 +1205,53 @@ public function registerMediaCollections(): void
         ->singleFile()
         ->useDisk('private');
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 
 >>>>>>> laraxot/dev
+=======
+        
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     $this->addMediaCollection('documenti_identita')
         ->acceptsMimeTypes(['image/jpeg', 'image/png', 'application/pdf'])
         ->singleFile()
         ->useDisk('private');
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 
 >>>>>>> laraxot/dev
+=======
+        
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     $this->addMediaCollection('certificazioni_isee')
         ->acceptsMimeTypes(['application/pdf'])
         ->singleFile()
         ->useDisk('private');
 <<<<<<< HEAD
-        
-=======
-
->>>>>>> laraxot/dev
-    $this->addMediaCollection('certificati_gravidanza')
-        ->acceptsMimeTypes(['application/pdf'])
-        ->singleFile()
-        ->useDisk('private');
 <<<<<<< HEAD
         
 =======
 
 >>>>>>> laraxot/dev
+=======
+        
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+    $this->addMediaCollection('certificati_gravidanza')
+        ->acceptsMimeTypes(['application/pdf'])
+        ->singleFile()
+        ->useDisk('private');
+<<<<<<< HEAD
+<<<<<<< HEAD
+        
+=======
+
+>>>>>>> laraxot/dev
+=======
+        
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     // Certificazioni dottore (multiple)
     $this->addMediaCollection('certificazioni_professionali')
         ->acceptsMimeTypes(['application/pdf'])
@@ -1171,10 +1266,14 @@ public function registerMediaConversions(Media $media = null): void
         ->sharpen(10)
         ->performOnCollections('tessere_sanitarie', 'documenti_identita');
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 
 >>>>>>> laraxot/dev
+=======
+        
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     $this->addMediaConversion('preview')
         ->width(600)
         ->height(400)
@@ -1186,12 +1285,16 @@ public function registerMediaConversions(Media $media = null): void
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Modules/<nome progetto>/app/Models/User.php - Accessors di transizione
 =======
 // Modules/<nome modulo>/app/Models/User.php - Accessors di transizione
 // Modules/<nome modulo>/app/Models/User.php - Accessors di transizione
 // Modules/<nome modulo>/app/Models/User.php - Accessors di transizione
 >>>>>>> laraxot/dev
+=======
+// Modules/<nome progetto>/app/Models/User.php - Accessors di transizione
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 
 /**
  * Accessor per compatibilità con codice esistente.
@@ -1222,11 +1325,15 @@ public function getCertificationsAttribute(): array
         <div class="document-preview">
             <h4>{{ __('<nome progetto>::patients.health_card') }}</h4>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
             <img src="{{ $patient->getFirstMediaUrl('tessere_sanitarie', 'thumbnail') }}" 
                  alt="Tessera Sanitaria"
                  class="w-full h-32 object-cover rounded">
             <a href="{{ $patient->getFirstMediaUrl('tessere_sanitarie') }}" 
                target="_blank" 
+<<<<<<< HEAD
 =======
             <img src="{{ $patient->getFirstMediaUrl('tessere_sanitarie', 'thumbnail') }}"
                  alt="Tessera Sanitaria"
@@ -1234,16 +1341,22 @@ public function getCertificationsAttribute(): array
             <a href="{{ $patient->getFirstMediaUrl('tessere_sanitarie') }}"
                target="_blank"
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
                class="text-blue-600 text-sm">
                 {{ __('<nome progetto>::common.view_document') }}
             </a>
         </div>
     @endif
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 
 >>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     @if($patient->hasMedia('certificazioni_isee'))
         <div class="document-preview">
             <h4>{{ __('<nome progetto>::patients.isee_certificate') }}</h4>
@@ -1251,10 +1364,14 @@ public function getCertificationsAttribute(): array
                 <i class="fas fa-file-pdf text-red-600 text-3xl"></i>
             </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <a href="{{ $patient->getFirstMediaUrl('certificazioni_isee') }}" 
 =======
             <a href="{{ $patient->getFirstMediaUrl('certificazioni_isee') }}"
 >>>>>>> laraxot/dev
+=======
+            <a href="{{ $patient->getFirstMediaUrl('certificazioni_isee') }}" 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
                target="_blank"
                class="text-blue-600 text-sm">
                 {{ __('<nome progetto>::common.download_pdf') }}
@@ -1321,10 +1438,14 @@ public function downloadDocument(Media $media): Response
 {
     $this->authorize('download', $media);
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 
 >>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     if($media->collection_name === 'tessere_sanitarie') {
         // Log accesso a documento sensibile
         activity()
@@ -1332,10 +1453,14 @@ public function downloadDocument(Media $media): Response
             ->log('downloaded_health_card');
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 
 >>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     return response()->download($media->getPath());
 }
 ```
@@ -1357,10 +1482,14 @@ public function downloadDocument(Media $media): Response
 - [ ] User communication su downtime
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### **Post-Migrazione**  
 =======
 ### **Post-Migrazione**
 >>>>>>> laraxot/dev
+=======
+### **Post-Migrazione**  
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 - [ ] Cleanup file obsoleti
 - [ ] Performance comparison
 - [ ] User training su nuove features
@@ -1372,12 +1501,18 @@ public function downloadDocument(Media $media): Response
 
 ### **Documentazione Correlata**
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 - [Spatie Media Library Official Docs](https://spatie.be/docs/laravel-medialibrary)
 - [Filament Plugin Documentation](https://filamentphp.com/plugins/filament-spatie-media-library)
 - [UI Components Docs](./filament-components-rules.md)
 - [<nome progetto> Models Architecture](../<nome progetto>/docs/models-architecture.md)
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 - [Spatie Media Library Official Docs](https://spatie.be/project_docs/laravel-medialibrary)
 - [Filament Plugin Documentation](https://filamentphp.com/plugins/filament-spatie-media-library)
 - [UI Components Docs](./filament-components-rules.md)
@@ -1394,10 +1529,14 @@ public function downloadDocument(Media $media): Response
 ### **Ordine di Priorità**
 1. **CRITICO**: PatientResource (documenti sensibili)
 <<<<<<< HEAD
+<<<<<<< HEAD
 2. **ALTO**: DoctorResource (certificazioni professionali)  
 =======
 2. **ALTO**: DoctorResource (certificazioni professionali)
 >>>>>>> laraxot/dev
+=======
+2. **ALTO**: DoctorResource (certificazioni professionali)  
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 3. **MEDIO**: UI Blocks (contenuti pubblici)
 4. **BASSO**: Appearance pages (configurazioni admin)
 
@@ -1415,6 +1554,7 @@ public function downloadDocument(Media $media): Response
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 *Ultimo aggiornamento: Dicembre 2024*  
 *Versione: 1.0*  
@@ -1426,3 +1566,8 @@ public function downloadDocument(Media $media): Response
 *Compatibilità: Laraxot , Spatie Media Library 11.x, Filament 3.x*
 *Compatibilità: Laraxot , Spatie Media Library 11.x, Filament 3.x*
 >>>>>>> laraxot/dev
+=======
+*Ultimo aggiornamento: Dicembre 2024*  
+*Versione: 1.0*  
+*Compatibilità: Laraxot <nome progetto>, Spatie Media Library 11.x, Filament 4.x* 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

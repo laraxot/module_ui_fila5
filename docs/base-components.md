@@ -159,6 +159,7 @@ $spacers: (
 - [Performance](./standards/performance.md)
 - [Accessibilità](./standards/accessibility.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [UI Standards](./standards/ui-standards.md) 
 =======
 - [UI Standards](./standards/ui-standards.md)
@@ -324,3 +325,6 @@ $spacers: (
 - [Accessibilità](./standards/accessibility.md)
 - [UI Standards](./standards/ui-standards.md)
 >>>>>>> laraxot/dev
+=======
+- [UI Standards](./standards/ui-standards.md) 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

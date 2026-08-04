@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Componenti di Navigazione 
 =======
 # Componenti di Navigazione
@@ -182,6 +183,9 @@ Il componente `user-dropdown` è progettato per gestire automaticamente la visua
 - [Accessibilità](./standards/accessibility.md)
 # Componenti di Navigazione
 >>>>>>> laraxot/dev
+=======
+# Componenti di Navigazione 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -252,10 +256,14 @@ I componenti di navigazione devono utilizzare sempre le funzioni di localizzazio
 ### Traduzioni Necessarie
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `[project-root]/laravel/lang/{locale}/auth.php`:
 =======
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
 >>>>>>> laraxot/dev
+=======
+Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/saluteora/laravel/lang/{locale}/auth.php`:
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 
 ```php
 return [
@@ -298,7 +306,11 @@ return [
    - Utilizzare i componenti Filament per icone e avatar: `<x-filament::icon>`, `<x-filament::avatar>`
    - Utilizzare i componenti Filament per i dropdown quando possibile
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Utilizzare i separatori corretti nei dropdown (div con bordo, non componenti inesistenti)
 =======
    - Utilizzare i separatori corretti nei dropdown (div con bordo, non componenti inesistenti)
 >>>>>>> laraxot/dev
+=======
+   - Utilizzare i separatori corretti nei dropdown (div con bordo, non componenti inesistenti)
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

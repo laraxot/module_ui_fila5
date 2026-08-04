@@ -8,10 +8,14 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 ### LineChart
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 <x-ui::line-chart 
 =======
 <x-ui::line-chart
 >>>>>>> laraxot/dev
+=======
+<x-ui::line-chart 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     :title="'Andamento Utenti'"
     :labels="['Gen', 'Feb', 'Mar', 'Apr', 'Mag', 'Giu']"
     :datasets="[
@@ -32,10 +36,14 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 ### PieChart
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 <x-ui::pie-chart 
 =======
 <x-ui::pie-chart
 >>>>>>> laraxot/dev
+=======
+<x-ui::pie-chart 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     :title="'Distribuzione Utenti'"
     :labels="['Attivi', 'Inattivi', 'In attesa']"
     :data="[300, 50, 100]"
@@ -50,10 +58,14 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 ### StatsOverview
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 <x-ui::stats-overview 
 =======
 <x-ui::stats-overview
 >>>>>>> laraxot/dev
+=======
+<x-ui::stats-overview 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     :stats="[
         [
             'label' => 'Utenti Totali',
@@ -104,19 +116,27 @@ class UserStats extends Component
 {
     public $chartData;
 <<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-    public function mount()
-    {
-        $this->updateChartData();
-    }
 <<<<<<< HEAD
     
 =======
 
 >>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+    public function mount()
+    {
+        $this->updateChartData();
+    }
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     public function updateChartData()
     {
         $this->chartData = [
@@ -131,10 +151,14 @@ class UserStats extends Component
         ];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 
 >>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     public function render()
     {
         return view('livewire.user-stats');
@@ -161,6 +185,7 @@ class UserStats extends Component
 - [Componenti Form](./form-components.md)
 - [Componenti Table](./table-components.md)
 - [Componenti Layout](./layout-components.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
 =======
@@ -308,3 +333,6 @@ class UserStats extends Component
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
 >>>>>>> laraxot/dev
+=======
+- [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

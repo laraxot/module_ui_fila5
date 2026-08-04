@@ -96,6 +96,7 @@ return [
 ## Vedi Anche
 - [Filament File Upload](https://filamentphp.com/docs/forms/fields/file-upload)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel File Storage](https://laravel.com/docs/filesystem) 
 =======
 - [Laravel File Storage](https://laravel.com/docs/filesystem)
@@ -191,6 +192,9 @@ return [
 
 ## Collegamenti
 >>>>>>> laraxot/dev
+=======
+- [Laravel File Storage](https://laravel.com/docs/filesystem) 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 - [Translation System](../../Lang/project_docs/translation-system.md)
 - [Form Components](../../Patient/project_docs/filament-form-components.md)
 - [Best Practices](../../Xot/project_docs/filament-best-practices.md)
@@ -198,7 +202,11 @@ return [
 ## Vedi Anche
 - [Filament File Upload](https://filamentphp.com/project_docs/forms/fields/file-upload)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel File Storage](https://laravel.com/project_docs/filesystem) 
 =======
 - [Laravel File Storage](https://laravel.com/project_docs/filesystem)
 >>>>>>> laraxot/dev
+=======
+- [Laravel File Storage](https://laravel.com/project_docs/filesystem) 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

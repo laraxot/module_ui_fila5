@@ -10,13 +10,21 @@
 
 ## Panoramica
 
+<<<<<<< HEAD
 Il modulo UI di <nome progetto>corrente include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+=======
+Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 
 ## Struttura dei Componenti Bandiera
 
 I file SVG delle bandiere sono archiviati in:
 ```
+<<<<<<< HEAD
 [project-root]/laravel/Modules/UI/resources/svg/flags/
+=======
+/var/www/html/saluteora/laravel/Modules/UI/resources/svg/flags/
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 ```
 
 Ogni bandiera è rappresentata da un file SVG con il codice ISO del paese come nome file (ad esempio, `it.svg` per l'Italia, `gb.svg` per il Regno Unito).
@@ -66,10 +74,17 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 ### Esempio con Attributi
 
 ```blade
+<<<<<<< HEAD
 <x-ui-flags.it
     class="h-6 w-6 rounded-full shadow-sm"
     title="Italiano"
     aria-label="Seleziona lingua italiana"
+=======
+<x-ui-flags.it 
+    class="h-6 w-6 rounded-full shadow-sm" 
+    title="Italiano" 
+    aria-label="Seleziona lingua italiana" 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 />
 ```
 
@@ -135,7 +150,11 @@ Le bandiere devono essere utilizzate come icone Filament:
 2. **Personalizzazione**: Facile da personalizzare con classi CSS
 3. **Prestazioni**: Gli SVG sono leggeri e non richiedono richieste HTTP aggiuntive
 4. **Accessibilità**: Possibilità di aggiungere attributi di accessibilità
+<<<<<<< HEAD
 5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>corrente
+=======
+5. **Coerenza**: Utilizzo di componenti nativi di SaluteOra
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 
 ## Bandiere Disponibili
 

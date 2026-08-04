@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ---
 title: "List Records in Filament"
@@ -21,6 +22,8 @@ related:
 ---
 
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 # List Records in Filament
 
 ## Estensione Corretta
@@ -176,6 +179,9 @@ use Webmozart\Assert\Assert;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 
 class ListXXX extends XotBaseListRecords
 {
@@ -188,6 +194,7 @@ class ListXXX extends XotBaseListRecords
 
   
 
+<<<<<<< HEAD
 =======
 class ListXXX extends XotBaseListRecords
 {
@@ -195,6 +202,8 @@ class ListXXX extends XotBaseListRecords
     protected static string $resource = XXXResource::class;
 
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
     public function getGridTableColumns(): array
     {
         return [
@@ -217,10 +226,14 @@ class ListXXX extends XotBaseListRecords
     {
         return [
 <<<<<<< HEAD
+<<<<<<< HEAD
             
 =======
 
 >>>>>>> laraxot/dev
+=======
+            
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
             ViewAction::make()
                 ->label(''),
             EditAction::make()
@@ -258,6 +271,7 @@ class ListXXX extends XotBaseListRecords
             );
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 ```
 =======
@@ -482,3 +496,6 @@ class ListXXX extends XotBaseListRecords
 }
 ```
 >>>>>>> laraxot/dev
+=======
+```
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

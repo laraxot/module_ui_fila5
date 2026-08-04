@@ -1,10 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 ---
 module: theme
 topic: lang_link
 canonical: ../../../Themes/docs/shared-components/lang-link_1.md
 ---
 
+<<<<<<< HEAD
 See canonical documentation: ../../../Themes/docs/shared-components/lang-link_1.md
 =======
 # Collegamento alle Traduzioni del Modulo UI
@@ -68,3 +72,6 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 * [lang-link.md](../../../Patient/project_docs/lang-link.md)
 * [lang-link.md](../../../Cms/project_docs/lang-link.md)
 >>>>>>> laraxot/dev
+=======
+See canonical documentation: ../../../Themes/docs/shared-components/lang-link_1.md
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

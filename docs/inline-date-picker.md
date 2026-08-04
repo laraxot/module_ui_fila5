@@ -208,6 +208,7 @@ If the component doesn't look right, make sure you have the required Tailwind CS
 ## Contributing
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Contributions are welcome! Please feel free to submit a Pull Request.
 =======
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -429,3 +430,6 @@ If the component doesn't look right, make sure you have the required Tailwind CS
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 >>>>>>> laraxot/dev
+=======
+Contributions are welcome! Please feel free to submit a Pull Request.
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)

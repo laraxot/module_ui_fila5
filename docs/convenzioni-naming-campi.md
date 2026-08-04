@@ -103,6 +103,9 @@ TextInput::make('full_name')
 - [Documentazione Filament Forms](https://filamentphp.com/docs/3.x/forms/fields/text-input)
 - [Best Practices Database](../../../docs/database/best-practices.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 - [Convenzioni API](../../../docs/api/convenzioni.md) 
 ||||||| parent of 9a84589 (.):docs/convenzioni-naming-campi-1.md
 - [Best Practices Database](../../../docs/database/best-practices.md)
@@ -111,6 +114,7 @@ TextInput::make('full_name')
 * [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
 
 ||||||| parent of 9a84589 (.):docs/convenzioni-naming-campi-1.md
+<<<<<<< HEAD
 * [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
 =======
 - [Convenzioni API](../../../docs/api/convenzioni.md)
@@ -226,3 +230,6 @@ TextInput::make('full_name')
 - [Best Practices Database](../../../project_docs/database/best-practices.md)
 - [Convenzioni API](../../../project_docs/api/convenzioni.md)
 >>>>>>> laraxot/dev
+=======
+* [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
