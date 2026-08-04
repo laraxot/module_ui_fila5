@@ -12,7 +12,7 @@ use Modules\Xot\Models\BaseModel;
 /**
  * FieldOption model for UI module.
  * FormBuilder module not available - extending from XotBaseModel instead.
-<<<<<<< HEAD
+ * <<<<<<< HEAD.
  *
  * @property string|null                     $id
  * @property string|null                     $field_id
@@ -26,23 +26,25 @@ use Modules\Xot\Models\BaseModel;
  * @property ProfileContract|null            $creator
  * @property ProfileContract|null            $updater
  * @property ProfileContract|null            $deleter
-=======
+ *                                                       =======
  */
 /**
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+ *                                         >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
  *
  * @method static FieldOptionFactory          factory($count = null, $state = [])
  * @method static Builder<static>|FieldOption newModelQuery()
  * @method static Builder<static>|FieldOption newQuery()
  * @method static Builder<static>|FieldOption query()
  *
-<<<<<<< HEAD
-=======
+ * <<<<<<< HEAD
+ * =======
+ *
  * @property ProfileContract|null $deleter
  *
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+ * >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+ *
  * @mixin \Eloquent
  */
 class FieldOption extends BaseModel
