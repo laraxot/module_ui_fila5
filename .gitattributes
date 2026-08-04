@@ -4,19 +4,11 @@
 *.css linguist-vendored
 *.scss linguist-vendored
 *.js linguist-vendored
-
 CHANGELOG.md export-ignore
-
 *.psd !text !filter !merge !diff
 *.png !text !filter !merge !diff
 *.svg !text !filter !merge !diff
 =======
-*.css linguist-vendored
-*.scss linguist-vendored
-*.js linguist-vendored
-CHANGELOG.md export-ignore
-<<<<<<< HEAD
-
 # Binary files (no git LFS)
 *.jpg binary
 *.jpeg binary
@@ -26,17 +18,12 @@ CHANGELOG.md export-ignore
 *.svg binary
 *.psd binary
 <<<<<<< .merge_file_rjSbbn
-=======
-*.png !text !filter !merge !diff
-*.svg !text !filter !merge !diff
-=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 *.jpg !text !filter !merge !diff
 *.jpeg !text !filter !merge !diff
 *.gif !text !filter !merge !diff
 *.webp !text !filter !merge !diff
-<<<<<<< HEAD
 *.ico !text !filter !merge !diff
 *.pdf !text !filter !merge !diff
 *.zip !text !filter !merge !diff
@@ -45,11 +32,4 @@ CHANGELOG.md export-ignore
 *.ttf !text !filter !merge !diff
 *.eot !text !filter !merge !diff
 *.otf !text !filter !merge !diff
-=======
-<<<<<<< HEAD
 >>>>>>> .merge_file_4KrCdP
-=======
-*.png !text !filter !merge !diff
-*.svg !text !filter !merge !diff
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
