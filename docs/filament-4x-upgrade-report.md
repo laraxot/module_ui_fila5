@@ -1,13 +1,43 @@
 # Rapporto Aggiornamento Filament 4.x - Modulo UI
 
+<<<<<<< HEAD
 **Data**: 2025-01-27
 **Status**: ✅ COMPLETATO
 **Versione Filament**: 4.0.17
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+**Data**: 2025-01-27  
+**Status**: ✅ COMPLETATO  
+**Versione Filament**: 4.0.17  
+=======
+**Data**: 2025-01-27
+**Status**: ✅ COMPLETATO
+**Versione Filament**: 4.0.17
+>>>>>>> laraxot/dev
+=======
+**Data**: 2025-01-27  
+**Status**: ✅ COMPLETATO  
+**Versione Filament**: 4.0.17  
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 
 ## 🔧 Correzioni Implementate
 
 ### 1. Widget FullCalendar Disabilitato
+<<<<<<< HEAD
 **Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 4.x
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+**Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 4.x  
+=======
+**Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 4.x
+>>>>>>> laraxot/dev
+=======
+**Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 4.x  
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 **Soluzione**: Disabilitazione temporanea del widget
 
 **File disabilitato**:
@@ -74,7 +104,19 @@ class UserCalendarWidget extends \Filament\Widgets\Widget
 class SimpleCalendarWidget extends \Filament\Widgets\Widget
 {
     protected static ?string $view = 'ui::filament.widgets.simple-calendar';
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
     public function getEvents(): array
     {
         // Logica per recuperare eventi
@@ -112,6 +154,13 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 - Widget base di Filament 4.x
 - Sistema di autenticazione e autorizzazione
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Ultimo aggiornamento: 2025-01-27*
+=======
+>>>>>>> laraxot/dev
 *Ultimo aggiornamento: 2025-01-27*
 # Rapporto Aggiornamento Filament 4.x - Modulo UI
 
@@ -228,3 +277,10 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 - Sistema di autenticazione e autorizzazione
 
 *Ultimo aggiornamento: 2025-01-27*
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+*Ultimo aggiornamento: 2025-01-27*
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

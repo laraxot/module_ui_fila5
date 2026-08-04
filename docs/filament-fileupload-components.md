@@ -61,6 +61,13 @@ Forms\Components\FileUpload::make('certifications')
 
 ## Vedi Anche
 - [Filament FileUpload Documentation](https://filamentphp.com/docs/forms/fields#file-upload)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Best Practices](../../Xot/docs/filament-best-practices.md) 
+=======
+>>>>>>> laraxot/dev
 - [Best Practices](../../Xot/docs/filament-best-practices.md)
 # Componenti FileUpload in Filament
 
@@ -119,10 +126,29 @@ Forms\Components\FileUpload::make('certifications')
    - Fornire feedback di progresso
 
 ## Collegamenti
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+- [Best Practices](../../Xot/docs/filament-best-practices.md) 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 - [README](../../Patient/project_docs/README.md)
 - [Filament Resources](../../Patient/project_docs/filament-resources.md)
 - [Form Components](../../Patient/project_docs/filament-form-components.md)
 
 ## Vedi Anche
 - [Filament FileUpload Documentation](https://filamentphp.com/project_docs/forms/fields#file-upload)
+<<<<<<< HEAD
 - [Best Practices](../../Xot/project_docs/filament-best-practices.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Best Practices](../../Xot/project_docs/filament-best-practices.md) 
+=======
+- [Best Practices](../../Xot/project_docs/filament-best-practices.md)
+>>>>>>> laraxot/dev
+=======
+- [Best Practices](../../Xot/project_docs/filament-best-practices.md) 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

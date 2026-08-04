@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+---
+module: theme
+topic: blade_data_handling
+canonical: ../../../Themes/docs/shared-components/blade-data-handling_1.md
+---
+
+<<<<<<< HEAD
+See canonical documentation: ../../../Themes/docs/shared-components/blade-data-handling_1.md
+=======
+>>>>>>> laraxot/dev
 # Data Handling in Blade Components
 
 This document outlines best practices for data handling in Blade components, particularly in theme blocks used for content sections.
@@ -274,3 +290,10 @@ Components should never rely on variables that haven't been explicitly defined a
 
 > **Note**: This document is the primary reference for Blade data handling patterns across all modules.
 > All module-specific implementations should link back to this document.
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+See canonical documentation: ../../../Themes/docs/shared-components/blade-data-handling_1.md
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

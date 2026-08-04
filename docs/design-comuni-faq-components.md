@@ -360,7 +360,15 @@ Render: HTML
 pub_theme:: → Themes/Sixteen/resources/views/
 ```
 
+<<<<<<< HEAD
 Configurato in `config/local/fixcity/xra.php`:
+=======
+<<<<<<< HEAD
+Configurato in `config/local/current/xra.php`:
+=======
+Configurato in `config/local/fixcity/xra.php`:
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 ```php
 'pub_theme' => 'Sixteen',
 ```

@@ -200,6 +200,13 @@ TextInput::make('full_name')
 
 ## Vedi Anche
 - [VSCode PHP Setup](vscode-php-setup.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Development Tools](development-tools.md)
+=======
+>>>>>>> laraxot/dev
 - [Development Tools](development-tools.md)
 - [Filament Documentation](https://filamentphp.com/docs)
 # Plugin VSCode per Filament
@@ -410,3 +417,10 @@ TextInput::make('full_name')
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Filament Documentation](https://filamentphp.com/docs)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+- [Development Tools](development-tools.md)
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

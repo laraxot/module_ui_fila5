@@ -142,6 +142,13 @@ class S3Test extends XotBasePage
 - [XotBasePage Implementation](../../Xot/docs/xotbasepage_implementation.md)
 - [DRY + KISS Principles](../../Xot/docs/dry_kiss_principles.md)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Ultimo aggiornamento: giugno 2025* 
+=======
+>>>>>>> laraxot/dev
 *Ultimo aggiornamento: giugno 2025*
 # Filament Pages Refactoring - UI Module
 
@@ -288,3 +295,10 @@ class S3Test extends XotBasePage
 - [DRY + KISS Principles](../../Xot/docs/dry_kiss_principles.md)
 
 *Ultimo aggiornamento: giugno 2025*
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+*Ultimo aggiornamento: giugno 2025* 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

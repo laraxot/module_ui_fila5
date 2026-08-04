@@ -8,7 +8,15 @@ qmd: "ui filament direct inheritance xotbase action form table widget audit"
 issues:
   - "https://github.com/laraxot/module_ui_fila5/issues/27"
 discussions:
+<<<<<<< HEAD
   - "https://github.com/laraxot/base_techplanner_fila5/discussions/12"
+=======
+<<<<<<< HEAD
+  - ""
+=======
+  - "https://github.com/laraxot/base_techplanner_fila5/discussions/12"
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 related:
   - "../../../../Xot/docs/wiki/concepts/xotbase-filament-widget-hierarchy.md"
 ---

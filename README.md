@@ -8,7 +8,15 @@
 [![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue.svg)](https://www.php-fig.org/psr/psr-12/)
 [![Strict Types](https://img.shields.io/badge/PHP-strict__types-1-informational.svg)](#)
 [![Laraxot Modules](https://img.shields.io/badge/Architecture-Modular-purple.svg)](#)
+<<<<<<< HEAD
 [![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
+=======
+<<<<<<< HEAD
+[![Current Platform](https://img.shields.io/badge/Platform-progetto corrente-008758.svg)](#)
+=======
+[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 
 > **Componenti che non reinventano la ruota.** Design system condiviso tra moduli e tema.
 
@@ -70,4 +78,12 @@ Dettagli: [`docs/dependency-rules.md`](./docs/dependency-rules.md)
 
 ---
 
+<<<<<<< HEAD
 **Modulo** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+=======
+<<<<<<< HEAD
+**Modulo** `ui` · **Laraxot** · **Current Platform** · PHPStan 10 · Filament 5
+=======
+**Modulo** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

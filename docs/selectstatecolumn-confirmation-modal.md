@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+---
+module: theme
+topic: selectstatecolumn_confirmation_modal
+canonical: ../../../Themes/docs/shared-components/selectstatecolumn-confirmation-modal-1.md
+---
+
+<<<<<<< HEAD
+See canonical documentation: ../../../Themes/docs/shared-components/selectstatecolumn-confirmation-modal-1.md
+=======
+>>>>>>> laraxot/dev
 # SelectStateColumn - Aggiunta Modal di Conferma
 
 ## Panoramica
@@ -104,3 +120,10 @@ Verificare che:
 3. La modale si chiuda in entrambi gli scenari
 4. Lo stato venga aggiornato correttamente nel database
 5. Gli errori vengano gestiti in modo appropriato
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+See canonical documentation: ../../../Themes/docs/shared-components/selectstatecolumn-confirmation-modal-1.md
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

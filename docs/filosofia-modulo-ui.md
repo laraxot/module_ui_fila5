@@ -81,8 +81,18 @@ Questo è intenzionale: UI è un **consumer** di Xot, non un base layer.
 Ogni componente è progettato per essere riutilizzato in più moduli senza duplicazione:
 
 ```php
+<<<<<<< HEAD
 // InlineDatePicker - Usato in TechPlanner, Employee, Cms
 // LocationSelector - Usato in TechPlanner, Employee, Geo
+=======
+<<<<<<< HEAD
+// InlineDatePicker - Usato in modulo operativo, Employee, Cms
+// LocationSelector - Usato in modulo operativo, Employee, Geo
+=======
+// InlineDatePicker - Usato in TechPlanner, Employee, Cms
+// LocationSelector - Usato in TechPlanner, Employee, Geo
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 // IconStateColumn - Usato in tutti i moduli con Spatie ModelStates
 // RadioCollection - Usato per selezioni complesse multimodulo
 ```
@@ -393,7 +403,15 @@ namespace Modules\UI\...;
 Altri moduli consumano componenti UI:
 
 ```php
+<<<<<<< HEAD
 // In TechPlanner/Filament/Resources/DeviceResource.php
+=======
+<<<<<<< HEAD
+// In modulo operativo/Filament/Resources/DeviceResource.php
+=======
+// In TechPlanner/Filament/Resources/DeviceResource.php
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 use Modules\UI\Filament\Tables\Columns\IconStateColumn;
 
