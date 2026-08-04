@@ -1,3 +1,28 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+# Documentation
+
+This directory contains documentation for the module.
+
+## Structure
+
+- **architecture.md** - Module architecture and design patterns
+- **README.md** - This file
+
+## Guidelines
+
+Documentation should be:
+- Clear and concise
+- Example-driven
+- Updated with code changes
+- Use Markdown format (.md)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "UI Module Documentation"
 type: documentation
@@ -6,6 +31,7 @@ created: 2026-06-05
 updated: 2026-06-05
 ---
 
+<<<<<<< HEAD
 # Modulo UI - Componenti Condivisi
 
 ## Overview
@@ -13,6 +39,16 @@ updated: 2026-06-05
 Il modulo **UI** fornisce componenti Blade, widget Filament e asset condivisi per tutti i moduli e temi.
 
 ## Struttura Componenti
+=======
+This directory contains documentation for the module.
+
+## Structure
+
+- **architecture.md** - Module architecture and design patterns
+- **README.md** - This file
+
+## Guidelines
+>>>>>>> laraxot/dev
 
 ```
 resources/views/components/ui/
@@ -120,3 +156,9 @@ MIT
 - [QMD Setup](./qmd-setup.md) — Configurazione ricerca locale
 - [Performance](./performance-optimization.md) — Metriche e best practice
 - [Project Structure](./project-structure.md) — Directory layout
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

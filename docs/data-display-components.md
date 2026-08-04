@@ -169,7 +169,19 @@ new Chart(ctx, {
 .table-responsive {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  
+=======
+
+>>>>>>> laraxot/dev
+=======
+  
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
   @media (max-width: 768px) {
     .table {
       min-width: 600px;
@@ -183,7 +195,19 @@ new Chart(ctx, {
 .chart-container {
   position: relative;
   height: 300px;
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  
+=======
+
+>>>>>>> laraxot/dev
+=======
+  
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
   canvas {
     animation: fadeIn 0.5s ease;
   }
@@ -194,6 +218,13 @@ new Chart(ctx, {
 - [Componenti Base](./base-components.md)
 - [Form Avanzati](./advanced-form-components.md)
 - [Accessibilità](./standards/accessibility.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Performance](./standards/performance.md) 
+=======
+>>>>>>> laraxot/dev
 - [Performance](./standards/performance.md)
 # Componenti Visualizzazione Dati
 
@@ -392,3 +423,10 @@ new Chart(ctx, {
 - [Form Avanzati](./advanced-form-components.md)
 - [Accessibilità](./standards/accessibility.md)
 - [Performance](./standards/performance.md)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+- [Performance](./standards/performance.md) 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

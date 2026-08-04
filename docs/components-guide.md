@@ -33,7 +33,19 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
             {{ __('More actions') }}
         </x-filament::button>
     </x-slot>
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
     <x-filament::dropdown.list>
         <x-filament::dropdown.list.item>
             {{ __('View') }}
@@ -178,16 +190,48 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
   @volt('component.name')
   <?php
   use function Livewire\Volt\{state, mount};
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+  
+  state([
+      'property' => null,
+  ]);
+  
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 
   state([
       'property' => null,
   ]);
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
   $action = function () {
       // Logica dell'azione
   };
   ?>
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  
+=======
+
+>>>>>>> laraxot/dev
+=======
+  
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
   <div>
       <!-- Template del componente -->
   </div>
@@ -201,15 +245,46 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
   <?php
   use function Laravel\Folio\{middleware, name};
   use function Livewire\Volt\{state, mount};
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+  
+  middleware(['auth']);
+  name('page.name');
+  
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 
   middleware(['auth']);
   name('page.name');
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
   state([
       'property' => null,
   ]);
   ?>
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  
+=======
+
+>>>>>>> laraxot/dev
+=======
+  
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
   <x-layouts.main>
       <!-- Contenuto della pagina -->
   </x-layouts.main>
@@ -255,7 +330,19 @@ $logout = function () {
     @else
         <!-- Default state -->
     @endif
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
     @if($isLoggingOut)
         <x-filament::loading-indicator />
     @endif
@@ -303,7 +390,19 @@ $logout = function () {
         @else
             <!-- Default state -->
         @endif
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        
+=======
+
+>>>>>>> laraxot/dev
+=======
+        
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
         @if($isLoggingOut)
             <x-filament::loading-indicator />
         @endif
@@ -453,6 +552,13 @@ $logout = function () {
 - ✅ Utilizzare i componenti appropriati
 - ✅ Seguire la struttura standard
 - ✅ Gestire correttamente le traduzioni
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- ✅ Testare in entrambi gli stati
+=======
+>>>>>>> laraxot/dev
 - ✅ Testare in entrambi gli stati
 # Guida ai Componenti UI
 
@@ -910,3 +1016,10 @@ $logout = function () {
 - ✅ Seguire la struttura standard
 - ✅ Gestire correttamente le traduzioni
 - ✅ Testare in entrambi gli stati
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+- ✅ Testare in entrambi gli stati
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

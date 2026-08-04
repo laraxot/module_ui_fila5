@@ -137,7 +137,19 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 
 ## Collegamenti Bidirezionali
 
+<<<<<<< HEAD
 - [Documentazione Componenti Filament](../../../docs/filament/components.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Documentazione Componenti Filament](../../../../docs/filament/components.md)
+=======
+- [Documentazione Componenti Filament](../../../docs/filament/components.md)
+>>>>>>> laraxot/dev
+=======
+- [Documentazione Componenti Filament](../../../../docs/filament/components.md)
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 - [Best Practices UI](../../best-practices.md)
 - [Errori Comuni UI](../../common-errors.md)
 - [Implementazione Corretta](../../examples/correct-implementation.md)
@@ -168,6 +180,16 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 1. La documentazione degli errori UI deve essere sempre in `Modules/UI/docs/`
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+1. La documentazione degli errori UI deve essere sempre in `Modules/UI/project_docs/`
+2. Mantenere collegamenti bidirezionali aggiornati
+3. Seguire le convenzioni di naming del progetto
+4. Aggiornare la documentazione quando vengono scoperti nuovi errori 
+=======
+>>>>>>> laraxot/dev
 4. Aggiornare la documentazione quando vengono scoperti nuovi errori
 # Errori Comuni nei Componenti Filament UI
 
@@ -348,3 +370,13 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
 4. Aggiornare la documentazione quando vengono scoperti nuovi errori
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+1. La documentazione degli errori UI deve essere sempre in `Modules/UI/project_docs/`
+2. Mantenere collegamenti bidirezionali aggiornati
+3. Seguire le convenzioni di naming del progetto
+4. Aggiornare la documentazione quando vengono scoperti nuovi errori 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

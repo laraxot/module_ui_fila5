@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Gestione degli Asset"
 type: concept
@@ -15,6 +21,12 @@ related:
   - "./schemaless-attributes-guide.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 # Gestione degli Asset
 
 ## Struttura delle Directory
@@ -73,6 +85,13 @@ Gli script di automazione si trovano nella directory `bashscripts/`:
 - Creare alert per problemi di permessi
 - Monitorare lo spazio disponibile
 - Verificare periodicamente l'integrità degli asset
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- Utilizzare lo script di verifica prima di ogni deploy 
+=======
+>>>>>>> laraxot/dev
 - Utilizzare lo script di verifica prima di ogni deploy
 # Gestione degli Asset
 
@@ -133,3 +152,10 @@ Gli script di automazione si trovano nella directory `bashscripts/`:
 - Monitorare lo spazio disponibile
 - Verificare periodicamente l'integrità degli asset
 - Utilizzare lo script di verifica prima di ogni deploy
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+- Utilizzare lo script di verifica prima di ogni deploy 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

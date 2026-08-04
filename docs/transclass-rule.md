@@ -19,7 +19,19 @@ use Modules\Xot\Filament\Traits\TransTrait;
 enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
     case LIST = 'list';
     case GRID = 'grid';
 
@@ -136,7 +148,19 @@ use Modules\Xot\Filament\Traits\TransTrait;
 enum MyEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
     case VALUE1 = 'value1';
     case VALUE2 = 'value2';
 }
@@ -288,13 +312,32 @@ rules:
 
 ## Memoria Permanente
 
+<<<<<<< HEAD
 **RICORDA SEMPRE**:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+**RICORDA SEMPRE**: 
+=======
+**RICORDA SEMPRE**:
+>>>>>>> laraxot/dev
+=======
+**RICORDA SEMPRE**: 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 - SEMPRE `TransTrait` negli enum
 - SEMPRE `transClass()` per traduzioni
 - MAI `match()` per traduzioni
 - SEMPRE struttura espansa nelle traduzioni
 - SEMPRE sincronizzazione IT/EN/DE
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Ultimo aggiornamento: 2025-01-06* 
+=======
+>>>>>>> laraxot/dev
 *Ultimo aggiornamento: 2025-01-06*
 # REGOLA CRITICA: Usa SEMPRE transClass() negli Enum
 
@@ -594,3 +637,10 @@ rules:
 - SEMPRE sincronizzazione IT/EN/DE
 
 *Ultimo aggiornamento: 2025-01-06*
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

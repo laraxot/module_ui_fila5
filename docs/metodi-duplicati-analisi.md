@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+---
+module: theme
+topic: METODI_DUPLICATI_ANALISI
+canonical: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
+---
+
+<<<<<<< HEAD
+See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
+=======
+>>>>>>> laraxot/dev
 # 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 
 **Powered by**: Super Mucca AI 🐄✨
@@ -107,7 +123,11 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 
 ### Pattern 1: getTableColumns() - ESEMPIO REALE
 
+<<<<<<< HEAD
 #### Fixcity/TicketResource/ListTickets.php (ECCELLENTE)
+=======
+#### progetto corrente/TicketResource/ListTickets.php (ECCELLENTE)
+>>>>>>> laraxot/dev
 ```php
 protected function getTableColumns(): array
 {
@@ -468,7 +488,11 @@ public function getTableFilters(): array
 - Test dopo ogni modulo
 - Code review
 
+<<<<<<< HEAD
 **Settimana 2**: Moduli Business (Fixcity, Blog, Geo)
+=======
+**Settimana 2**: Moduli Business (progetto corrente, Blog, Geo)
+>>>>>>> laraxot/dev
 - 20 List files
 - Test integrazione
 - Performance check
@@ -506,7 +530,11 @@ public function getTableFilters(): array
 3. Refactoring moduli core (Xot, User, Cms)
 
 #### ⭐⭐⭐⭐ PRIORITÀ ALTA
+<<<<<<< HEAD
 4. Refactoring moduli business (Fixcity, Blog, Geo)
+=======
+4. Refactoring moduli business (progetto corrente, Blog, Geo)
+>>>>>>> laraxot/dev
 5. ActionPresets per CRUD
 6. Documentazione completa
 
@@ -645,7 +673,11 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 
 ### Pattern 1: getTableColumns() - ESEMPIO REALE
 
+<<<<<<< HEAD
 #### Fixcity/TicketResource/ListTickets.php (ECCELLENTE)
+=======
+#### progetto corrente/TicketResource/ListTickets.php (ECCELLENTE)
+>>>>>>> laraxot/dev
 ```php
 protected function getTableColumns(): array
 {
@@ -1006,7 +1038,11 @@ public function getTableFilters(): array
 - Test dopo ogni modulo
 - Code review
 
+<<<<<<< HEAD
 **Settimana 2**: Moduli Business (Fixcity, Blog, Geo)
+=======
+**Settimana 2**: Moduli Business (progetto corrente, Blog, Geo)
+>>>>>>> laraxot/dev
 - 20 List files
 - Test integrazione
 - Performance check
@@ -1044,7 +1080,11 @@ public function getTableFilters(): array
 3. Refactoring moduli core (Xot, User, Cms)
 
 #### ⭐⭐⭐⭐ PRIORITÀ ALTA
+<<<<<<< HEAD
 4. Refactoring moduli business (Fixcity, Blog, Geo)
+=======
+4. Refactoring moduli business (progetto corrente, Blog, Geo)
+>>>>>>> laraxot/dev
 5. ActionPresets per CRUD
 6. Documentazione completa
 
@@ -1183,7 +1223,11 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 
 ### Pattern 1: getTableColumns() - ESEMPIO REALE
 
+<<<<<<< HEAD
 #### Fixcity/TicketResource/ListTickets.php (ECCELLENTE)
+=======
+#### progetto corrente/TicketResource/ListTickets.php (ECCELLENTE)
+>>>>>>> laraxot/dev
 ```php
 protected function getTableColumns(): array
 {
@@ -1544,7 +1588,11 @@ public function getTableFilters(): array
 - Test dopo ogni modulo
 - Code review
 
+<<<<<<< HEAD
 **Settimana 2**: Moduli Business (Fixcity, Blog, Geo)
+=======
+**Settimana 2**: Moduli Business (progetto corrente, Blog, Geo)
+>>>>>>> laraxot/dev
 - 20 List files
 - Test integrazione
 - Performance check
@@ -1582,7 +1630,11 @@ public function getTableFilters(): array
 3. Refactoring moduli core (Xot, User, Cms)
 
 #### ⭐⭐⭐⭐ PRIORITÀ ALTA
+<<<<<<< HEAD
 4. Refactoring moduli business (Fixcity, Blog, Geo)
+=======
+4. Refactoring moduli business (progetto corrente, Blog, Geo)
+>>>>>>> laraxot/dev
 5. ActionPresets per CRUD
 6. Documentazione completa
 
@@ -1721,7 +1773,11 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 
 ### Pattern 1: getTableColumns() - ESEMPIO REALE
 
+<<<<<<< HEAD
 #### Fixcity/TicketResource/ListTickets.php (ECCELLENTE)
+=======
+#### progetto corrente/TicketResource/ListTickets.php (ECCELLENTE)
+>>>>>>> laraxot/dev
 ```php
 protected function getTableColumns(): array
 {
@@ -2082,7 +2138,11 @@ public function getTableFilters(): array
 - Test dopo ogni modulo
 - Code review
 
+<<<<<<< HEAD
 **Settimana 2**: Moduli Business (Fixcity, Blog, Geo)
+=======
+**Settimana 2**: Moduli Business (progetto corrente, Blog, Geo)
+>>>>>>> laraxot/dev
 - 20 List files
 - Test integrazione
 - Performance check
@@ -2120,7 +2180,11 @@ public function getTableFilters(): array
 3. Refactoring moduli core (Xot, User, Cms)
 
 #### ⭐⭐⭐⭐ PRIORITÀ ALTA
+<<<<<<< HEAD
 4. Refactoring moduli business (Fixcity, Blog, Geo)
+=======
+4. Refactoring moduli business (progetto corrente, Blog, Geo)
+>>>>>>> laraxot/dev
 5. ActionPresets per CRUD
 6. Documentazione completa
 
@@ -2150,3 +2214,10 @@ public function getTableFilters(): array
 4. Implementazione ColumnBuilder
 
 **Domande?** Chiedi alla Super Mucca! 🐄⚡
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

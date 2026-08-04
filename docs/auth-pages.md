@@ -4,7 +4,19 @@
 
 ### Struttura
 ```php
+<<<<<<< HEAD
 // Themes/One/resources/views/pages/auth/logout.blade.php
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+// /var/www/html/base_<nome progetto>/laravel/Themes/One/resources/views/pages/auth/logout.blade.php
+=======
+// Themes/One/resources/views/pages/auth/logout.blade.php
+>>>>>>> laraxot/dev
+=======
+// /var/www/html/base_<nome progetto>/laravel/Themes/One/resources/views/pages/auth/logout.blade.php
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 
 <?php
 
@@ -28,17 +40,54 @@ $logout = function() {
         <div class="text-center">
             <h2 class="text-2xl font-bold mb-4">{{ __('Stai per essere disconnesso') }}</h2>
             <p class="text-gray-600 mb-6">{{ __('Sei sicuro di voler uscire?') }}</p>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+            
+            <div class="flex justify-center space-x-4">
+                <button 
+                    wire:click="logout" 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 
             <div class="flex justify-center space-x-4">
                 <button
                     wire:click="logout"
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
                     class="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
                 >
                     {{ __('Esci') }}
                 </button>
+<<<<<<< HEAD
 
                 <a
                     href="{{ url()->previous() }}"
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                
+                <a 
+                    href="{{ url()->previous() }}" 
+=======
+
+                <a
+                    href="{{ url()->previous() }}"
+>>>>>>> laraxot/dev
+=======
+                
+                <a 
+                    href="{{ url()->previous() }}" 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
                     class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
                 >
                     {{ __('Annulla') }}
@@ -107,6 +156,13 @@ $logout = function() {
 2. Fornire feedback chiari all'utente
 3. Garantire la sicurezza del processo di logout
 4. Assicurare la responsività su tutti i dispositivi
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+5. Utilizzare le traduzioni per il supporto multilingua 
+=======
+>>>>>>> laraxot/dev
 5. Utilizzare le traduzioni per il supporto multilingua
 # Pagine di Autenticazione
 
@@ -218,3 +274,10 @@ $logout = function() {
 3. Garantire la sicurezza del processo di logout
 4. Assicurare la responsività su tutti i dispositivi
 5. Utilizzare le traduzioni per il supporto multilingua
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+5. Utilizzare le traduzioni per il supporto multilingua 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

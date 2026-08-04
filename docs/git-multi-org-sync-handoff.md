@@ -37,7 +37,17 @@ Un tree dirty o un remote dietro/avanti **non** è sincronizzato, anche se l’a
 2. Dopo edit PHP: phpstan/phpmd/phpinsights scoped (prompt `02-gitmodules-sync.md`)
 3. Mai `git restore` — forward-only
 4. UI: non reintrodurre `InteractiveMap` (dominio Geo)
+<<<<<<< HEAD
 5. Push: se unpack fallisce → `--no-thin`; se GH008 LFS → `lfs fetch --all` dal remote sano, poi `lfs push --all` sul target ([playbook](./wiki/troubleshooting/git-push-lfs-missing-objects.md))
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+5. Push: se unpack fallisce → `--no-thin`; se GH008 LFS → `lfs fetch --all` dal remote sano, poi `lfs push --all` sul target ([playbook](./wiki/troubleshooting/git-push-lfs-missing-objects.md))
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 
 ## Note owner
 
@@ -45,7 +55,17 @@ InteractiveMap rimosso; vedi `geo-boundary.md` e `geo-dependency-violation-inter
 
 ### Sessione push 2026-07-22
 
+<<<<<<< HEAD
 `dev` allineato FF su `laraxot` e `provtv` a `b874935` con `--no-thin` + LFS da `laraxot` verso `provtv`. Dettaglio: [git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md) · [multi-org-sync-laraxot-provtv.md](./multi-org-sync-laraxot-provtv.md).
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+`dev` allineato FF su `laraxot` e `provtv` a `b874935` con `--no-thin` + LFS da `laraxot` verso `provtv`. Dettaglio: [git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md) · [multi-org-sync-laraxot-provtv.md](./multi-org-sync-laraxot-provtv.md).
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 
 ### Caso User 2026-07-23 (unrelated)
 

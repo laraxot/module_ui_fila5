@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "AddressField Component"
 type: concept
@@ -18,6 +24,12 @@ related:
   - "./full-calendar.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 # AddressField Component
 
 ## Panoramica
@@ -55,6 +67,13 @@ AddressField::make('address')
 3. Configurare correttamente i servizi di geocoding
 4. Testare con diversi formati di indirizzo
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+[Torna alla documentazione UI](/docs/modules/module_ui.md#components) 
+=======
+>>>>>>> laraxot/dev
 [Torna alla documentazione UI](/docs/modules/module-ui-1.md#components)
 # AddressField Component
 
@@ -94,3 +113,10 @@ AddressField::make('address')
 4. Testare con diversi formati di indirizzo
 
 [Torna alla documentazione UI](/docs/modules/module-ui-1.md#components)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+[Torna alla documentazione UI](/docs/modules/module_ui.md#components) 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

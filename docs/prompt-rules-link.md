@@ -3,13 +3,37 @@
 Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../../Xot/docs/PROMPT_RULES.md)
 ### Versione HEAD
 
+<<<<<<< HEAD
 ### Versione Incoming
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+
+### Versione Incoming
+
+
+<<<<<<< HEAD
+=======
+### Versione Incoming
+
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 ## Collegamenti tra versioni di PROMPT_RULES_LINK.md
 * [PROMPT_RULES_LINK.md](../../../UI/docs/PROMPT_RULES_LINK.md)
 * [PROMPT_RULES_LINK.md](../../../Lang/docs/PROMPT_RULES_LINK.md)
 * [PROMPT_RULES_LINK.md](../../../Cms/docs/PROMPT_RULES_LINK.md)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ## Collegamenti tra versioni di prompt_rules_link.md
 * [prompt_rules_link.md](../../Lang/docs/prompt_rules_link.md)
 * [prompt_rules_link.md](../../Cms/docs/prompt_rules_link.md)
@@ -26,9 +50,29 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 * [PROMPT_RULES_LINK.md](../../../UI/docs/PROMPT_RULES_LINK.md)
 * [PROMPT_RULES_LINK.md](../../../Lang/docs/PROMPT_RULES_LINK.md)
 * [PROMPT_RULES_LINK.md](../../../Cms/docs/PROMPT_RULES_LINK.md)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 
 ## Collegamenti tra versioni di prompt_rules_link.md
 * [prompt_rules_link.md](../../Lang/docs/prompt_rules_link.md)
 * [prompt_rules_link.md](../../Cms/docs/prompt_rules_link.md)
 
+<<<<<<< HEAD
 ---
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+---
+=======
+---
+>>>>>>> laraxot/dev
+=======
+
+---
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

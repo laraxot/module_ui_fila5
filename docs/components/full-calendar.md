@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "FullCalendar Component for Filament"
 type: concept
@@ -18,6 +24,12 @@ related:
   - "./full-calendar-1.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 # FullCalendar Component for Filament
 
 ## Introduction
@@ -67,7 +79,19 @@ use Saade\FilamentFullCalendar\Data\EventData;
 
 /**
  * Base widget for FullCalendar.
+<<<<<<< HEAD
  *
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+ * 
+=======
+ *
+>>>>>>> laraxot/dev
+=======
+ * 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
  * Provides core functionality for all calendars in the application.
  */
 abstract class BaseCalendarWidget extends FullCalendarWidget
@@ -108,27 +132,83 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
                 ->placeholder(__('ui::calendar.fields.title.placeholder'))
                 ->helperText(__('ui::calendar.fields.title.help'))
                 ->required(),
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                
+=======
+
+>>>>>>> laraxot/dev
+=======
+                
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
             Forms\Components\Grid::make()
                 ->schema([
                     Forms\Components\DateTimePicker::make('start_date')
                         ->label(__('ui::calendar.fields.start_date.label'))
                         ->required(),
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                        
+=======
+
+>>>>>>> laraxot/dev
+=======
+                        
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
                     Forms\Components\DateTimePicker::make('end_date')
                         ->label(__('ui::calendar.fields.end_date.label'))
                         ->required(),
                 ]),
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                
+=======
+
+>>>>>>> laraxot/dev
+=======
+                
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
             Forms\Components\Textarea::make('description')
                 ->label(__('ui::calendar.fields.description.label'))
                 ->placeholder(__('ui::calendar.fields.description.placeholder'))
                 ->columnSpanFull(),
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+                
+            Forms\Components\ColorPicker::make('color')
+                ->label(__('ui::calendar.fields.color.label'))
+                ->rgb(),
+                
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 
             Forms\Components\ColorPicker::make('color')
                 ->label(__('ui::calendar.fields.color.label'))
                 ->rgb(),
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
             Forms\Components\Toggle::make('is_all_day')
                 ->label(__('ui::calendar.fields.is_all_day.label'))
                 ->default(false),
@@ -273,6 +353,20 @@ To use the widget in a Blade view:
 
 ## Backlinks and References
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+- [Ptv Module - Calendar Usage](../../Ptv/docs/features/full_calendar.md)
+- [Official Saade FullCalendar Documentation](https://github.com/saade/filament-fullcalendar)
+- [FullCalendar.io Documentation](https://fullcalendar.io/docs)
+
+<<<<<<< HEAD
+*Last updated: June 2025*
+=======
+>>>>>>> laraxot/dev
 - [Ptv Module - Calendar Usage](../../ptv/docs/features/full-calendar-1.md)
 - [Official Saade FullCalendar Documentation](https://github.com/saade/filament-fullcalendar)
 - [FullCalendar.io Documentation](https://fullcalendar.io/docs)
@@ -538,3 +632,10 @@ To use the widget in a Blade view:
 - [FullCalendar.io Documentation](https://fullcalendar.io/docs)
 
 *
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+*Last updated: June 2025*
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

@@ -67,7 +67,19 @@ protected function getInfolistSchema(): array
                             ,
                     ]),
             ]),
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        
+=======
+
+>>>>>>> laraxot/dev
+=======
+        
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
         'dettagli_account' => Section::make('Dettagli Account')
             ->schema([
                 // Altri componenti...
@@ -199,6 +211,13 @@ return [
 
 ## Conclusione
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Seguendo queste linee guida, garantirai un'implementazione corretta e coerente del metodo `getInfolistSchema()`, facilitando la manutenzione del codice e prevenendo errori di tipo rilevati da PHPStan. Ricorda: usa **sempre** chiavi di tipo stringa per gli array restituiti. 
+=======
+>>>>>>> laraxot/dev
 Seguendo queste linee guida, garantirai un'implementazione corretta e coerente del metodo `getInfolistSchema()`, facilitando la manutenzione del codice e prevenendo errori di tipo rilevati da PHPStan. Ricorda: usa **sempre** chiavi di tipo stringa per gli array restituiti.
 # Linee Guida per l'Implementazione di getInfolistSchema
 
@@ -402,3 +421,10 @@ return [
 ## Conclusione
 
 Seguendo queste linee guida, garantirai un'implementazione corretta e coerente del metodo `getInfolistSchema()`, facilitando la manutenzione del codice e prevenendo errori di tipo rilevati da PHPStan. Ricorda: usa **sempre** chiavi di tipo stringa per gli array restituiti.
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+Seguendo queste linee guida, garantirai un'implementazione corretta e coerente del metodo `getInfolistSchema()`, facilitando la manutenzione del codice e prevenendo errori di tipo rilevati da PHPStan. Ricorda: usa **sempre** chiavi di tipo stringa per gli array restituiti. 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

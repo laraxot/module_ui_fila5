@@ -1,4 +1,16 @@
+<<<<<<< HEAD
 # Componenti Dropdown, Avatar e Loading Indicator di Filament
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Componenti Dropdown, Avatar e Loading Indicator di Filament 
+=======
+# Componenti Dropdown, Avatar e Loading Indicator di Filament
+>>>>>>> laraxot/dev
+=======
+# Componenti Dropdown, Avatar e Loading Indicator di Filament 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -27,7 +39,19 @@ Il componente Dropdown di Filament è composto da tre parti principali:
     <x-slot name="trigger">
         <!-- Contenuto del trigger -->
     </x-slot>
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
     <!-- Elementi del dropdown -->
     <x-filament::dropdown.list>
         <x-filament::dropdown.item href="#" icon="heroicon-o-user">
@@ -102,7 +126,19 @@ Opzioni di larghezza:
 ```blade
 <x-filament::dropdown.item>
     Notifiche
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
     <x-slot name="badge">
         3
     </x-slot>
@@ -199,7 +235,19 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
                 size="md"
                 class="ring-2 ring-white ring-opacity-50 shadow-sm"
             />
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            
+=======
+
+>>>>>>> laraxot/dev
+=======
+            
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
             <div class="ml-1">
                 <x-filament::icon
                     name="heroicon-o-chevron-down"
@@ -208,15 +256,48 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
             </div>
         </button>
     </x-slot>
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
     <x-filament::dropdown.list>
         <div class="px-4 py-2 text-xs text-gray-400">
             {{ __('Manage Account') }}
         </div>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+        
+        <x-filament::dropdown.item href="{{ route('profile.show') }}" icon="heroicon-o-user">
+            {{ __('Profile') }}
+        </x-filament::dropdown.item>
+        
+        <x-filament::dropdown.item href="{{ route('profile.show') }}" icon="heroicon-o-cog-6-tooth">
+            {{ __('Settings') }}
+        </x-filament::dropdown.item>
+        
+        <x-filament::dropdown.separator />
+        
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 
         <x-filament::dropdown.item href="{{ route('profile.show') }}" icon="heroicon-o-user">
             {{ __('Profile') }}
         </x-filament::dropdown.item>
+<<<<<<< HEAD
 
         <x-filament::dropdown.item href="{{ route('profile.show') }}" icon="heroicon-o-cog-6-tooth">
             {{ __('Settings') }}
@@ -224,6 +305,18 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 
         <x-filament::dropdown.separator />
 
+=======
+        
+        <x-filament::dropdown.item href="{{ route('profile.show') }}" icon="heroicon-o-cog-6-tooth">
+            {{ __('Settings') }}
+        </x-filament::dropdown.item>
+        
+        <x-filament::dropdown.separator />
+
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
         <form method="POST" action="{{ route('logout') }}">
             @csrf
             <x-filament::dropdown.item
@@ -252,6 +345,13 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 - [Documentazione Dropdown di Filament](https://filamentphp.com/docs/3.x/support/blade-components/dropdown)
 - [Documentazione Avatar di Filament](https://filamentphp.com/docs/3.x/support/blade-components/avatar)
 - [Documentazione Loading Indicator di Filament](https://filamentphp.com/docs/3.x/support/blade-components/loading-indicator)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Documentazione Icone di Filament](https://filamentphp.com/docs/3.x/support/icons)
+=======
+>>>>>>> laraxot/dev
 - [Documentazione Icone di Filament](https://filamentphp.com/docs/3.x/support/icons)
 # Componenti Dropdown, Avatar e Loading Indicator di Filament
 
@@ -508,3 +608,10 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 - [Documentazione Avatar di Filament](https://filamentphp.com/docs/3.x/support/blade-components/avatar)
 - [Documentazione Loading Indicator di Filament](https://filamentphp.com/docs/3.x/support/blade-components/loading-indicator)
 - [Documentazione Icone di Filament](https://filamentphp.com/docs/3.x/support/icons)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+- [Documentazione Icone di Filament](https://filamentphp.com/docs/3.x/support/icons)
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

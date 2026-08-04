@@ -1,4 +1,16 @@
+<<<<<<< HEAD
 # Utilizzo dei Componenti Filament
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Utilizzo dei Componenti Filament 
+=======
+# Utilizzo dei Componenti Filament
+>>>>>>> laraxot/dev
+=======
+# Utilizzo dei Componenti Filament 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 
 ## Collegamenti correlati
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
@@ -131,11 +143,31 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
             Apri Menu
         </x-filament::button>
     </x-slot>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+    
+    <x-filament::dropdown.item wire:click="action">
+        Azione 1
+    </x-filament::dropdown.item>
+    
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 
     <x-filament::dropdown.item wire:click="action">
         Azione 1
     </x-filament::dropdown.item>
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
     <x-filament::dropdown.item href="#">
         Azione 2
     </x-filament::dropdown.item>
@@ -154,9 +186,23 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 ## Errori Comuni
 
 1. **Utilizzo del prefisso errato**: Utilizzare `x-ui-icon` invece di `x-filament::icon`
+<<<<<<< HEAD
 2. **Percorso errato del provider**: Utilizzare `Modules/UI/Providers/UIServiceProvider.php` invece di `Modules/UI/app/Providers/UIServiceProvider.php`
 2. **Percorso errato del provider**: Utilizzare `Modules/UI/Providers/UIServiceProvider.php` invece di `Modules/UI/app/Providers/UIServiceProvider.php`
 2. **Percorso errato del provider**: Utilizzare `Modules/UI/Providers/UIServiceProvider.php` invece di `Modules/UI/app/Providers/UIServiceProvider.php`
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+2. **Percorso errato del provider**: Utilizzare `[project-root]/laravel/Modules/UI/Providers/UIServiceProvider.php` invece di `[project-root]/laravel/Modules/UI/app/Providers/UIServiceProvider.php`
+=======
+2. **Percorso errato del provider**: Utilizzare `Modules/UI/Providers/UIServiceProvider.php` invece di `Modules/UI/app/Providers/UIServiceProvider.php`
+2. **Percorso errato del provider**: Utilizzare `Modules/UI/Providers/UIServiceProvider.php` invece di `Modules/UI/app/Providers/UIServiceProvider.php`
+2. **Percorso errato del provider**: Utilizzare `Modules/UI/Providers/UIServiceProvider.php` invece di `Modules/UI/app/Providers/UIServiceProvider.php`
+>>>>>>> laraxot/dev
+=======
+2. **Percorso errato del provider**: Utilizzare `/var/www/html/saluteora/laravel/Modules/UI/Providers/UIServiceProvider.php` invece di `/var/www/html/saluteora/laravel/Modules/UI/app/Providers/UIServiceProvider.php`
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 3. **Creazione di componenti duplicati**: Creare componenti personalizzati che duplicano funzionalità già fornite da Filament
 4. **Mancata verifica dei componenti esistenti**: Non controllare se un componente è già disponibile in Filament prima di crearne uno personalizzato
 
@@ -165,6 +211,13 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 - [Documentazione Filament](https://filamentphp.com/docs/3.x/support/blade-components/overview)
 - [Heroicons](https://heroicons.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Laravel Blade](https://laravel.com/docs/10.x/blade)
+=======
+>>>>>>> laraxot/dev
 - [Laravel Blade](https://laravel.com/docs/10.x/blade)
 # Utilizzo dei Componenti Filament
 
@@ -332,3 +385,10 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 - [Heroicons](https://heroicons.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Laravel Blade](https://laravel.com/docs/10.x/blade)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+- [Laravel Blade](https://laravel.com/docs/10.x/blade)
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

@@ -42,7 +42,19 @@ use Modules\Xot\Filament\Traits\TransTrait;
 class OpeningHoursRule implements ValidationRule
 {
     use TransTrait;
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
     // Utilizzo nelle validazioni
     $fail(static::trans('validation.opening_hours.morning_before_afternoon', params: [
         'day' => $dayLabel
@@ -194,6 +206,13 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 - [Opening Hours Field](./opening_hours_field.md)
 - [Localization Guidelines](./localization_guidelines.md)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Implementazione completata: gennaio 2025*
+=======
+>>>>>>> laraxot/dev
 *Implementazione completata: gennaio 2025*
 # File Validation Multilingua - Modulo UI
 
@@ -392,3 +411,10 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 - [Localization Guidelines](./localization_guidelines.md)
 
 *Implementazione completata: gennaio 2025*
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+*Implementazione completata: gennaio 2025*
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

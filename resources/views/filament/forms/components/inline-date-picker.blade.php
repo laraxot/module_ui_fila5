@@ -15,7 +15,11 @@ declare(strict_types=1);
 @php
     $statePath = $getStatePath();
     $calendarData = $calendarData ?? [];
+<<<<<<< HEAD
     $currentValue = $currentValue ?? null;
+=======
+    $currentValue = $currentValue;
+>>>>>>> laraxot/dev
     $enabledDates = $enabledDates ?? collect();
     $currentViewMonth = $currentViewMonth ?? now()->format('Y-m');
     $monthName = $monthName ?? 'Loading...';

@@ -95,6 +95,13 @@ return [
 
 ## Vedi Anche
 - [Filament File Upload](https://filamentphp.com/docs/forms/fields/file-upload)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Laravel File Storage](https://laravel.com/docs/filesystem) 
+=======
+>>>>>>> laraxot/dev
 - [Laravel File Storage](https://laravel.com/docs/filesystem)
 # FileUpload Component in Filament
 
@@ -187,10 +194,29 @@ return [
    - Segui le convenzioni di naming
 
 ## Collegamenti
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+- [Laravel File Storage](https://laravel.com/docs/filesystem) 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 - [Translation System](../../Lang/project_docs/translation-system.md)
 - [Form Components](../../Patient/project_docs/filament-form-components.md)
 - [Best Practices](../../Xot/project_docs/filament-best-practices.md)
 
 ## Vedi Anche
 - [Filament File Upload](https://filamentphp.com/project_docs/forms/fields/file-upload)
+<<<<<<< HEAD
 - [Laravel File Storage](https://laravel.com/project_docs/filesystem)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Laravel File Storage](https://laravel.com/project_docs/filesystem) 
+=======
+- [Laravel File Storage](https://laravel.com/project_docs/filesystem)
+>>>>>>> laraxot/dev
+=======
+- [Laravel File Storage](https://laravel.com/project_docs/filesystem) 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

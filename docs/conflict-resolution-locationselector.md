@@ -6,7 +6,19 @@ Il file `Modules/UI/app/Filament/Forms/Components/LocationSelector.php` presenta
 
 1. **Linea 278**: Metodo getCapOptions con logica di gestione errori
 2. **Linea 312**: Metodo validate con logica di validazione
+<<<<<<< HEAD
 3. **Linea 322**: Continuazione metodo validate
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+3. **Linea 322**: Continuazione metodo validate 
+=======
+3. **Linea 322**: Continuazione metodo validate
+>>>>>>> laraxot/dev
+=======
+3. **Linea 322**: Continuazione metodo validate 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 4. **Linea 342**: Metodo getGeographicData con gestione dati geografici
 5. **Linea 355**: Continuazione metodo getGeographicData
 6. **Linea 364**: Continuazione metodo getGeographicData
@@ -78,6 +90,13 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 - [components.md](components.md)
 - [Modules/UI/docs/](../docs/)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Ultimo aggiornamento: 29 luglio 2025*
+=======
+>>>>>>> laraxot/dev
 *Ultimo aggiornamento: 29 luglio 2025*
 # Risoluzione Conflitto LocationSelector.php
 
@@ -162,3 +181,10 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 - [Modules/UI/project_docs/](../project_docs/)
 
 *Ultimo aggiornamento: 29 luglio 2025*
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+*Ultimo aggiornamento: 29 luglio 2025*
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

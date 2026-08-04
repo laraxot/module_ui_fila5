@@ -1,9 +1,23 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Struttura Themes e Folio in <nome progetto>corrente
+=======
+>>>>>>> laraxot/dev
 # Struttura Themes e Folio in
 # Struttura Themes e Folio in <nome progetto>
 # Struttura Themes e Folio in
 # Struttura Themes e Folio in <nome progetto>
 # Struttura Themes e Folio in
 # Struttura Themes e Folio in <nome progetto>
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+# Struttura Themes e Folio in SaluteOra
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 
 ## ⚠️ ATTENZIONE CRITICA
 
@@ -13,12 +27,26 @@
 
 ## Struttura del Progetto
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Il progetto <nome progetto>corrente utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
+=======
+>>>>>>> laraxot/dev
 Il progetto  utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 Il progetto  utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 Il progetto  utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+Il progetto SaluteOra utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
 
 ```
 /laravel/
@@ -174,6 +202,13 @@ config('theme.views_path') // Output: "Themes/One/resources/views"
 
 - [Documentazione Laravel Folio](https://laravel.com/docs/folio)
 - [mcamara/laravel-localization](https://github.com/mcamara/laravel-localization)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- Configurazione Theme: `/laravel/config/theme.php`
+=======
+>>>>>>> laraxot/dev
 - Configurazione Theme: `/laravel/config/theme.php`
 # Struttura Themes e Folio in <nome progetto>
 
@@ -342,3 +377,10 @@ config('theme.views_path') // Output: "Themes/One/resources/views"
 - [Documentazione Laravel Folio](https://laravel.com/docs/folio)
 - [mcamara/laravel-localization](https://github.com/mcamara/laravel-localization)
 - Configurazione Theme: `/laravel/config/theme.php`
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+- Configurazione Theme: `/laravel/config/theme.php`
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev

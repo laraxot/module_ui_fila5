@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+---
+module: theme
+topic: filament_error_fileupload_icon
+canonical: ../../../Themes/docs/shared-components/filament-error-fileupload-icon_1.md
+---
+
+<<<<<<< HEAD
+See canonical documentation: ../../../Themes/docs/shared-components/filament-error-fileupload-icon_1.md
+=======
+>>>>>>> laraxot/dev
 # Errore: Metodo `icon()` su FileUpload di Filament
 
 ## Descrizione
@@ -46,3 +62,10 @@ Il metodo `icon()` **NON esiste** sul componente `Filament\Forms\Components\File
 
 ## Collegamenti tra versioni di filament-error-fileupload-icon.md
 * [filament-error-fileupload-icon.md](../../Patient/project_docs/filament-error-fileupload-icon.md)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+See canonical documentation: ../../../Themes/docs/shared-components/filament-error-fileupload-icon_1.md
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
