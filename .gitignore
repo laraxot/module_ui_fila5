@@ -428,3 +428,4 @@ phpmd*
 /_docs
 /docs/archive
 /docs/legacy
+rector.php
