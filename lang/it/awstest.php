@@ -13,22 +13,46 @@ return [
             'label' => 'URL Distribuzione CloudFront',
             'placeholder' => 'Inserisci URL CloudFront',
             'helper_text' => 'URL della distribuzione CloudFront configurata',
+<<<<<<< HEAD
             'tooltip' => '',
             'description' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+            'description' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'iam_user' => [
             'label' => 'Utente/Ruolo IAM',
             'placeholder' => 'Inserisci utente IAM',
             'helper_text' => 'Utente o ruolo IAM utilizzato per l\'accesso AWS',
+<<<<<<< HEAD
             'tooltip' => '',
             'description' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+            'description' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'aws_config' => [
             'label' => 'Configurazione AWS',
             'placeholder' => 'Configurazione AWS corrente',
             'helper_text' => 'Panoramica della configurazione AWS attuale',
+<<<<<<< HEAD
             'tooltip' => '',
             'description' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+            'description' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
     ],
     'actions' => [
@@ -40,13 +64,29 @@ return [
         ],
         'test_s3_permissions' => [
             'label' => 'Test Permessi',
+<<<<<<< HEAD
             'tooltip' => 'Testa i permessi S3 (ListBucket, PutObject, GetObject, DeleteObject]',
+=======
+<<<<<<< HEAD
+            'tooltip' => 'Testa i permessi S3 (ListBucket, PutObject, GetObject, DeleteObject]',
+=======
+            'tooltip' => 'Testa i permessi S3 (ListBucket, PutObject, GetObject, DeleteObject)',
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
             'success' => 'Permessi S3 testati con successo',
             'error' => 'Errore nel test dei permessi S3',
         ],
         'test_file_operations' => [
             'label' => 'Test Operazioni File',
+<<<<<<< HEAD
             'tooltip' => 'Testa le operazioni sui file S3 (upload, download, delete]',
+=======
+<<<<<<< HEAD
+            'tooltip' => 'Testa le operazioni sui file S3 (upload, download, delete]',
+=======
+            'tooltip' => 'Testa le operazioni sui file S3 (upload, download, delete)',
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
             'success' => 'Operazioni file testate con successo',
             'error' => 'Errore nel test delle operazioni file',
         ],
@@ -133,6 +173,10 @@ return [
         'full_diagnostic_completed' => 'Diagnostica completa completata',
         'check_cloudfront_settings' => 'Controlla le impostazioni CloudFront nella configurazione',
     ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     'label' => 'Awstest',
     'plural_label' => 'Awstest (Plurale)',
     'navigation' => [
@@ -146,4 +190,9 @@ return [
         'sort' => 1,
         'icon' => 'heroicon-o-collection',
     ],
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

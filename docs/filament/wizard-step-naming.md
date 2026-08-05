@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ---
 title: "Convenzioni di Naming per i Wizard Step in Filament"
 type: concept
@@ -18,6 +22,11 @@ related:
   - "./filament-4-migration-sumy.md"
 ---
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 # Convenzioni di Naming per i Wizard Step in Filament
 
 ## Regola Fondamentale

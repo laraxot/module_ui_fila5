@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 module: theme
 topic: .gitignore
@@ -15,6 +16,9 @@ agentdb.rvf
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 phpstan-corrections-gennaio-2025.md
 translations-update-january-2026.md
 git-push-recovery-2026-07-28.md
@@ -38,10 +42,23 @@ redundancy-audit-2026-05-21.md
 *_[0-9][0-9].md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+=======
+=======
+---
+module: theme
+topic: .gitignore
+canonical: ../../../Themes/docs/shared-components/.gitignore-Modules
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/.gitignore-Modules
+agentdb.rvf
+>>>>>>> 990a9de5 (.)
 >>>>>>> laraxot/dev

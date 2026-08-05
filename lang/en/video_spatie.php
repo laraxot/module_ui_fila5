@@ -9,19 +9,37 @@ return [
             'description' => 'img_uuid',
             'helper_text' => 'img_uuid',
             'placeholder' => 'img_uuid',
+<<<<<<< HEAD
             'tooltip' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'video' => [
             'label' => 'video',
             'description' => 'video',
             'helper_text' => 'video',
+<<<<<<< HEAD
             'tooltip' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'caption' => [
             'label' => 'caption',
             'description' => 'caption',
             'helper_text' => 'caption',
             'placeholder' => 'caption',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             'tooltip' => '',
         ],
     ],
@@ -36,4 +54,11 @@ return [
     'plural_label' => 'Missing Plural label',
     'actions' => [
     ],
+<<<<<<< HEAD
+=======
+=======
+        ],
+    ],
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

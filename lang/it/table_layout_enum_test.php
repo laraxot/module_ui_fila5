@@ -6,6 +6,10 @@ return [
     'fields' => [
         'name' => [
             'label' => 'name',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
@@ -39,6 +43,14 @@ return [
         ],
         'delete' => [
             'label' => 'Elimina Table Layout Enum Test',
+<<<<<<< HEAD
+=======
+=======
+        ],
+        'email' => [
+            'label' => 'email',
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
     ],
 ];

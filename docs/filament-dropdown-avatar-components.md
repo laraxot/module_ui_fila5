@@ -1,7 +1,18 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Componenti Dropdown, Avatar e Loading Indicator di Filament
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Componenti Dropdown, Avatar e Loading Indicator di Filament
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 # Componenti Dropdown, Avatar e Loading Indicator di Filament 
 =======
@@ -10,6 +21,19 @@
 =======
 # Componenti Dropdown, Avatar e Loading Indicator di Filament 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+# Componenti Dropdown, Avatar e Loading Indicator di Filament
+>>>>>>> 990a9de5 (.)
+=======
+# Componenti Dropdown, Avatar e Loading Indicator di Filament
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 
 ## Indice
@@ -40,9 +64,20 @@ Il componente Dropdown di Filament è composto da tre parti principali:
         <!-- Contenuto del trigger -->
     </x-slot>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
     
 =======
@@ -51,6 +86,19 @@ Il componente Dropdown di Filament è composto da tre parti principali:
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
     <!-- Elementi del dropdown -->
     <x-filament::dropdown.list>
@@ -127,9 +175,20 @@ Opzioni di larghezza:
 <x-filament::dropdown.item>
     Notifiche
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
     
 =======
@@ -138,6 +197,19 @@ Opzioni di larghezza:
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
     <x-slot name="badge">
         3
@@ -236,9 +308,20 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
                 class="ring-2 ring-white ring-opacity-50 shadow-sm"
             />
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
             
 =======
@@ -247,6 +330,19 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 =======
             
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
             <div class="ml-1">
                 <x-filament::icon
@@ -257,9 +353,20 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
         </button>
     </x-slot>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
     
 =======
@@ -268,14 +375,37 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
     <x-filament::dropdown.list>
         <div class="px-4 py-2 text-xs text-gray-400">
             {{ __('Manage Account') }}
         </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -292,12 +422,34 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
         
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 
         <x-filament::dropdown.item href="{{ route('profile.show') }}" icon="heroicon-o-user">
             {{ __('Profile') }}
         </x-filament::dropdown.item>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 
         <x-filament::dropdown.item href="{{ route('profile.show') }}" icon="heroicon-o-cog-6-tooth">
             {{ __('Settings') }}
@@ -305,7 +457,14 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 
         <x-filament::dropdown.separator />
 
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         
         <x-filament::dropdown.item href="{{ route('profile.show') }}" icon="heroicon-o-cog-6-tooth">
             {{ __('Settings') }}
@@ -316,6 +475,17 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
         <form method="POST" action="{{ route('logout') }}">
             @csrf
@@ -346,11 +516,29 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 - [Documentazione Avatar di Filament](https://filamentphp.com/docs/3.x/support/blade-components/avatar)
 - [Documentazione Loading Indicator di Filament](https://filamentphp.com/docs/3.x/support/blade-components/loading-indicator)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Documentazione Icone di Filament](https://filamentphp.com/docs/3.x/support/icons)
+=======
+=======
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [Documentazione Icone di Filament](https://filamentphp.com/docs/3.x/support/icons)
 =======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 - [Documentazione Icone di Filament](https://filamentphp.com/docs/3.x/support/icons)
 # Componenti Dropdown, Avatar e Loading Indicator di Filament
@@ -609,9 +797,29 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 - [Documentazione Loading Indicator di Filament](https://filamentphp.com/docs/3.x/support/blade-components/loading-indicator)
 - [Documentazione Icone di Filament](https://filamentphp.com/docs/3.x/support/icons)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 - [Documentazione Icone di Filament](https://filamentphp.com/docs/3.x/support/icons)
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev

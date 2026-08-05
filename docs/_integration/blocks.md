@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ---
 title: "blocks"
 type: concept
@@ -18,6 +22,11 @@ related:
   - "./custom-theme-1.md"
 ---
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 # blocks
 
 <!-- Contenuto migrato da _docs/blocks.txt -->

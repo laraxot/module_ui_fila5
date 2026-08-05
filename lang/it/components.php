@@ -6,6 +6,10 @@ return [
     'state_icons' => [
         'no_transitions' => 'Nessuna transizione disponibile',
     ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     'label' => 'Components',
     'plural_label' => 'Components (Plurale)',
     'navigation' => [
@@ -50,4 +54,9 @@ return [
             'label' => 'Elimina Components',
         ],
     ],
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

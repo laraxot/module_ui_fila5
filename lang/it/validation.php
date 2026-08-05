@@ -11,6 +11,10 @@ return [
         'missing_opening_time' => 'Se specifichi l\'orario di chiusura del :session per :day, devi specificare anche quello di apertura.',
         'opening_before_closing' => 'L\'orario di apertura del :session per :day deve essere precedente a quello di chiusura.',
     ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     'label' => 'Validation',
     'plural_label' => 'Validation (Plurale)',
     'navigation' => [
@@ -55,4 +59,9 @@ return [
             'label' => 'Elimina Validation',
         ],
     ],
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

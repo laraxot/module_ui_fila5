@@ -7,7 +7,15 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 
 ### LineChart
 ```blade
+<<<<<<< HEAD
 <x-ui::line-chart 
+=======
+<<<<<<< HEAD
+<x-ui::line-chart 
+=======
+<x-ui::line-chart
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
     :title="'Andamento Utenti'"
     :labels="['Gen', 'Feb', 'Mar', 'Apr', 'Mag', 'Giu']"
     :datasets="[
@@ -27,7 +35,15 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 
 ### PieChart
 ```blade
+<<<<<<< HEAD
 <x-ui::pie-chart 
+=======
+<<<<<<< HEAD
+<x-ui::pie-chart 
+=======
+<x-ui::pie-chart
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
     :title="'Distribuzione Utenti'"
     :labels="['Attivi', 'Inattivi', 'In attesa']"
     :data="[300, 50, 100]"
@@ -41,7 +57,15 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 
 ### StatsOverview
 ```blade
+<<<<<<< HEAD
 <x-ui::stats-overview 
+=======
+<<<<<<< HEAD
+<x-ui::stats-overview 
+=======
+<x-ui::stats-overview
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
     :stats="[
         [
             'label' => 'Utenti Totali',
@@ -91,12 +115,28 @@ use Livewire\Component;
 class UserStats extends Component
 {
     public $chartData;
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
     public function mount()
     {
         $this->updateChartData();
     }
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
     public function updateChartData()
     {
         $this->chartData = [
@@ -110,7 +150,15 @@ class UserStats extends Component
             ]
         ];
     }
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
     public function render()
     {
         return view('livewire.user-stats');
@@ -137,4 +185,12 @@ class UserStats extends Component
 - [Componenti Form](./form-components.md)
 - [Componenti Table](./table-components.md)
 - [Componenti Layout](./layout-components.md)
+<<<<<<< HEAD
 - [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
+=======
+<<<<<<< HEAD
+- [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
+=======
+- [Documentazione Frontend](../Cms/docs/frontend-architecture.md)
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev

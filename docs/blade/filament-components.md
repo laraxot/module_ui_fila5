@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ---
 title: "Utilizzo dei componenti Blade di Filament"
 type: concept
@@ -18,6 +22,16 @@ related:
 **Se esiste una soluzione Filament, usare sempre quella.** Canon progetto: [filament-first-rule.md](../../../../../docs/wiki/rules/filament-first-rule.md) (Rule 019). Memoria agenti: [filament-first-mandatory-agents.md](../../../../../docs/wiki/memories/filament-first-mandatory-agents.md).
 
 Wiki modulo: [filament-first-blade-canonical.md](../wiki/concepts/filament-first-blade-canonical.md).
+<<<<<<< HEAD
+=======
+=======
+# Utilizzo dei componenti Blade di Filament
+
+## Regola fondamentale
+
+Nel progetto <nome progetto>, esiste una regola fondamentale: **utilizzare sempre i componenti Blade forniti da Filament quando disponibili**, invece di creare componenti personalizzati duplicati.
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 
 ## Vantaggi dei componenti Filament
 
@@ -41,6 +55,10 @@ Filament mette a disposizione molti componenti Blade riutilizzabili:
 | Card | `<x-filament::card>` | Card personalizzate |
 | Icon | `<x-filament::icon>` | Icon personalizzate |
 | Modal | `<x-filament::modal>` | Modal personalizzate |
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 | Tabs | `<x-filament::tabs>` + `<x-filament::tabs.item>` | `nav-tabs` Bootstrap, shim `data-bs-toggle="tab"` |
 
 ### Tabs (Filament 5)
@@ -56,13 +74,36 @@ Frontoffice senza Livewire dedicato — pattern [Alpine](https://filamentphp.com
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Caso Fixcity `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Caso Fixcity `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 Caso progetto corrente `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
 =======
 Caso Fixcity `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+Caso Fixcity `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
+>>>>>>> 990a9de5 (.)
+=======
+| Tabs | `<x-filament::tabs>` | Tab personalizzati |
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 
 ## Esempi di utilizzo
@@ -132,6 +173,10 @@ Per migrare da componenti personalizzati a componenti Filament:
 
 ## Documentazione di riferimento
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 - [Filament 5 — Components overview](https://filamentphp.com/docs/5.x/components/overview)
 - [Tabs](https://filamentphp.com/docs/5.x/components/tabs)
 - [Button](https://filamentphp.com/docs/5.x/components/button)
@@ -142,3 +187,18 @@ Per migrare da componenti personalizzati a componenti Filament:
 ## Moduli correlati
 
 - [User](../../user/docs/blade/using-filament-components.md) - Implementazione dei componenti profilo con Filament
+<<<<<<< HEAD
+=======
+=======
+- [Documentazione ufficiale Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components)
+- [Dropdown](https://filamentphp.com/docs/3.x/support/blade-components/dropdown)
+- [Button](https://filamentphp.com/docs/3.x/support/blade-components/button)
+- [Card](https://filamentphp.com/docs/3.x/support/blade-components/card)
+- [Icon](https://filamentphp.com/docs/3.x/support/blade-components/icon)
+- [Modal](https://filamentphp.com/docs/3.x/support/blade-components/modal)
+
+## Moduli correlati
+
+- [User](../../User/docs/blade/using-filament-components.md) - Implementazione dei componenti profilo con Filament
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev

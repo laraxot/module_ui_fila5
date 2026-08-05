@@ -21,9 +21,20 @@ class ListUsers extends ListRecords
 {
     protected TableLayoutEnum $layout = TableLayoutEnum::LIST;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
     
 =======
@@ -32,6 +43,19 @@ class ListUsers extends ListRecords
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
     public function table(Table $table): Table
     {
@@ -215,9 +239,20 @@ class ListUsers extends ListRecords
 {
     protected TableLayoutEnum $layout;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
     
 =======
@@ -226,15 +261,39 @@ class ListUsers extends ListRecords
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
     public function mount(): void
     {
         $this->layout = TableLayoutEnum::init();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
     
 =======
@@ -243,6 +302,19 @@ class ListUsers extends ListRecords
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
     protected function getHeaderActions(): array
     {
@@ -281,9 +353,20 @@ protected function getColumnsForLayout(): array
         Tables\Columns\TextColumn::make('created_at')->dateTime(),
     ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
     
 =======
@@ -292,6 +375,19 @@ protected function getColumnsForLayout(): array
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
     $gridColumns = [
         Tables\Columns\Layout\Stack::make([
@@ -300,9 +396,20 @@ protected function getColumnsForLayout(): array
         ]),
     ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
     
 =======
@@ -311,6 +418,19 @@ protected function getColumnsForLayout(): array
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
     return $this->layout->getTableColumns($listColumns, $gridColumns);
 }
@@ -355,9 +475,20 @@ class TableLayoutEnumTest extends TestCase
         $this->assertEquals(TableLayoutEnum::LIST, TableLayoutEnum::init());
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
     
 =======
@@ -366,6 +497,19 @@ class TableLayoutEnumTest extends TestCase
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
     public function test_toggle_switches_layout(): void
     {
@@ -406,11 +550,29 @@ class TableLayoutEnumTest extends TestCase
 - [Filament Best Practices](../../../docs/filament_best_practices.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Ultimo aggiornamento: 2025-01-06* 
+=======
+=======
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06* 
 =======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 *Ultimo aggiornamento: 2025-01-06*
 # Analisi Completa TableLayoutEnum
@@ -750,9 +912,29 @@ class TableLayoutEnumTest extends TestCase
 
 *Ultimo aggiornamento: 2025-01-06*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev

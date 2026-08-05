@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ---
 title: "Studio Selection Component con Pulsanti"
 type: concept
@@ -18,6 +22,11 @@ related:
   - "./full-calendar-1.md"
 ---
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 # Studio Selection Component con Pulsanti
 
 ## Descrizione

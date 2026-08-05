@@ -49,10 +49,19 @@ return [
                 'placeholder' => 'es. Consulenze',
                 'helper_text' => 'Descrizione attività pomeridiane del lunedì',
             ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             'label' => '',
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'tuesday' => [
             'morning' => [
@@ -99,10 +108,19 @@ return [
                 'placeholder' => 'es. Consulenze',
                 'helper_text' => 'Descrizione attività pomeridiane del martedì',
             ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             'label' => '',
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'wednesday' => [
             'morning' => [
@@ -149,10 +167,19 @@ return [
                 'placeholder' => 'es. Consulenze',
                 'helper_text' => 'Descrizione attività pomeridiane del mercoledì',
             ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             'label' => '',
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'thursday' => [
             'morning' => [
@@ -199,10 +226,19 @@ return [
                 'placeholder' => 'es. Consulenze',
                 'helper_text' => 'Descrizione attività pomeridiane del giovedì',
             ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             'label' => '',
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'friday' => [
             'morning' => [
@@ -249,10 +285,19 @@ return [
                 'placeholder' => 'es. Consulenze',
                 'helper_text' => 'Descrizione attività pomeridiane del venerdì',
             ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             'label' => '',
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'saturday' => [
             'morning' => [
@@ -299,10 +344,19 @@ return [
                 'placeholder' => 'es. Consulenze',
                 'helper_text' => 'Descrizione attività pomeridiane del sabato',
             ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             'label' => '',
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'sunday' => [
             'morning' => [
@@ -345,24 +399,49 @@ return [
                 'placeholder' => 'es. Consulenze',
                 'helper_text' => 'Descrizione attività pomeridiane della domenica',
             ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             'label' => '',
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'schedule' => [
             'label' => 'Programma Orari',
             'placeholder' => 'Configura gli orari di apertura',
             'helper_text' => 'Gestione completa degli orari di disponibilità',
+<<<<<<< HEAD
             'tooltip' => '',
             'description' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+            'description' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'availability' => [
             'label' => 'Disponibilità',
             'placeholder' => 'Imposta la tua disponibilità',
             'helper_text' => 'Configura quando sei disponibile per appuntamenti',
+<<<<<<< HEAD
             'tooltip' => '',
             'description' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+            'description' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
     ],
     'sections' => [
@@ -392,6 +471,10 @@ return [
         'schedule_saved' => 'Orari salvati correttamente',
         'invalid_time_range' => 'Orario non valido: l\'ora di fine deve essere successiva all\'ora di inizio',
     ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     'navigation' => [
         'label' => 'Missing Navigation Label',
         'plural_label' => 'Missing Navigation Plural Label',
@@ -401,4 +484,9 @@ return [
     ],
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label',
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

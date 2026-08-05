@@ -23,6 +23,10 @@ return [
             'placeholder' => 'Selecteer indelingstype',
             'tooltip' => 'Kies tussen lijst- en rasterweergave',
             'help' => 'Kies het meest geschikte indelingstype om de gegevens weer te geven',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             'helper_text' => '',
             'description' => '',
         ],
@@ -36,4 +40,11 @@ return [
     ],
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label',
+<<<<<<< HEAD
+=======
+=======
+        ],
+    ],
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

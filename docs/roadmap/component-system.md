@@ -1,8 +1,23 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 >>>>>>> laraxot/dev
 ---
 title: "Sistema Componenti UI"
@@ -25,10 +40,27 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 # Sistema Componenti UI
 
@@ -227,11 +259,29 @@ protected function resolveLazyProp(string $key): mixed
 3. Migliorare test coverage
 4. Documentare best practices
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+5. Ottimizzare performance 
+=======
+=======
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 5. Ottimizzare performance 
 =======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 5. Ottimizzare performance
 # Sistema Componenti UI
@@ -432,9 +482,29 @@ protected function resolveLazyProp(string $key): mixed
 4. Documentare best practices
 5. Ottimizzare performance
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 5. Ottimizzare performance 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev

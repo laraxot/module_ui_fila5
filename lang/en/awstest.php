@@ -13,22 +13,46 @@ return [
             'label' => 'CloudFront Distribution URL',
             'placeholder' => 'Enter CloudFront URL',
             'helper_text' => 'URL of the configured CloudFront distribution',
+<<<<<<< HEAD
             'tooltip' => '',
             'description' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+            'description' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'iam_user' => [
             'label' => 'IAM User/Role',
             'placeholder' => 'Enter IAM user',
             'helper_text' => 'IAM user or role used for AWS access',
+<<<<<<< HEAD
             'tooltip' => '',
             'description' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+            'description' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'aws_config' => [
             'label' => 'AWS Configuration',
             'placeholder' => 'Current AWS configuration',
             'helper_text' => 'Overview of current AWS configuration',
+<<<<<<< HEAD
             'tooltip' => '',
             'description' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+            'description' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
     ],
     'actions' => [
@@ -133,6 +157,10 @@ return [
         'full_diagnostic_completed' => 'Full diagnostic completed',
         'check_cloudfront_settings' => 'Check CloudFront settings in config',
     ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     'navigation' => [
         'label' => 'Missing Navigation Label',
         'plural_label' => 'Missing Navigation Plural Label',
@@ -142,4 +170,9 @@ return [
     ],
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label',
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

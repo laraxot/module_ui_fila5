@@ -1,6 +1,9 @@
 * text=auto
 <<<<<<< HEAD
 
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 *.css linguist-vendored
 *.scss linguist-vendored
 *.js linguist-vendored
@@ -8,7 +11,6 @@ CHANGELOG.md export-ignore
 *.psd !text !filter !merge !diff
 *.png !text !filter !merge !diff
 *.svg !text !filter !merge !diff
-=======
 # Binary files (no git LFS)
 *.jpg binary
 *.jpeg binary
@@ -19,7 +21,8 @@ CHANGELOG.md export-ignore
 *.psd binary
 <<<<<<< .merge_file_rjSbbn
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
+>>>>>>> 990a9de5 (.)
+*.psd filter=lfs diff=lfs merge=lfs -text
 *.jpg !text !filter !merge !diff
 *.jpeg !text !filter !merge !diff
 *.gif !text !filter !merge !diff

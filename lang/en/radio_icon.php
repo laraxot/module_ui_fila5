@@ -6,6 +6,10 @@ return [
     'fields' => [
         'newstate' => [
             'label' => 'newstate',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
@@ -22,4 +26,11 @@ return [
     'plural_label' => 'Missing Plural label',
     'actions' => [
     ],
+<<<<<<< HEAD
+=======
+=======
+        ],
+    ],
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

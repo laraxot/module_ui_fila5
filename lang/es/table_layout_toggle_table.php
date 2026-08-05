@@ -23,6 +23,10 @@ return [
             'placeholder' => 'Seleccionar tipo de diseño',
             'tooltip' => 'Elegir entre vista de lista y vista de cuadrícula',
             'help' => 'Elija el tipo de diseño más adecuado para visualizar los datos',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             'helper_text' => '',
             'description' => '',
         ],
@@ -36,4 +40,11 @@ return [
     ],
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label',
+<<<<<<< HEAD
+=======
+=======
+        ],
+    ],
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

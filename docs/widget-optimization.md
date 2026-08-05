@@ -111,9 +111,20 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
     protected static ?string $pollingInterval = null;
     protected static bool $isLazy = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
     
 =======
@@ -122,6 +133,19 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
     // Configurazioni comuni per tutti i widget di statistiche UI
     protected static function getDefaultStats(): array
@@ -131,9 +155,20 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
         ];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
     
 =======
@@ -142,6 +177,19 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
     // Metodi helper comuni
     protected function formatNumber(int|float $number): string
@@ -149,9 +197,20 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
         return number_format($number);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
     
 =======
@@ -160,6 +219,19 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
     protected function formatPercentage(int|float $percentage): string
     {
@@ -188,8 +260,18 @@ abstract class UIBaseTestWidget extends XotBaseWidget
     protected static bool $isLazy = true;
     protected static ?string $pollingInterval = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -199,16 +281,45 @@ abstract class UIBaseTestWidget extends XotBaseWidget
     
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 
     // Configurazioni comuni per tutti i widget di test UI
     public array $widgets = [];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
     // Metodi helper comuni
     protected function getTestData(): array
@@ -242,9 +353,20 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
     protected static ?string $description = null;
     protected static ?string $pollingInterval = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
     
 =======
@@ -253,6 +375,19 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
     // Configurazioni comuni per tutti i grafici UI
     protected function getDefaultChartOptions(): array
@@ -268,9 +403,20 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
         ];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
     
 =======
@@ -279,6 +425,19 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
     // Metodi helper comuni
     protected function formatChartData(array $data): array
@@ -363,9 +522,20 @@ class SystemTestWidget extends UIBaseTestWidget
 {
     protected static string $view = 'ui::filament.widgets.system-test';
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
     
 =======
@@ -374,6 +544,19 @@ class SystemTestWidget extends UIBaseTestWidget
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
     public function getViewData(): array
     {
@@ -386,9 +569,20 @@ class SystemTestWidget extends UIBaseTestWidget
         );
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
     
 =======
@@ -397,6 +591,19 @@ class SystemTestWidget extends UIBaseTestWidget
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
     private function getSystemInfo(): array
     {
@@ -407,9 +614,20 @@ class SystemTestWidget extends UIBaseTestWidget
         ];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
     
 =======
@@ -418,6 +636,19 @@ class SystemTestWidget extends UIBaseTestWidget
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
     private function getDatabaseStatus(): array
     {
@@ -459,11 +690,29 @@ class SystemTestWidget extends UIBaseTestWidget
 
 *Ultimo aggiornamento: Giugno 2025*
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Autore: Analisi Automatica del Progetto*
+=======
+=======
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 *Autore: Analisi Automatica del Progetto*
 =======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 *Autore: Analisi Automatica del Progetto*
 # Ottimizzazioni Widget - Modulo UI
@@ -813,9 +1062,29 @@ class SystemTestWidget extends UIBaseTestWidget
 *Ultimo aggiornamento: Giugno 2025*
 *Autore: Analisi Automatica del Progetto*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 *Autore: Analisi Automatica del Progetto*
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev

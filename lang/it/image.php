@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 return [
     'fields' => [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
         'caption' => ['label' => 'caption', 'description' => 'caption', 'helper_text' => 'caption', 'placeholder' => 'caption', 'tooltip' => ''],
         'alt' => ['label' => 'alt', 'description' => 'alt', 'helper_text' => 'alt', 'placeholder' => 'alt', 'tooltip' => ''],
         'ratio' => ['label' => 'ratio', 'description' => 'ratio', 'tooltip' => '', 'helper_text' => '', 'placeholder' => 'ratio'],
@@ -24,5 +28,38 @@ return [
         'create' => ['label' => 'Crea Image'],
         'edit' => ['label' => 'Modifica Image'],
         'delete' => ['label' => 'Elimina Image'],
+<<<<<<< HEAD
+=======
+=======
+        'caption' => [
+            'label' => 'caption',
+            'description' => 'caption',
+            'helper_text' => 'caption',
+            'placeholder' => 'caption',
+        ],
+        'alt' => [
+            'label' => 'alt',
+            'description' => 'alt',
+            'helper_text' => 'alt',
+            'placeholder' => 'alt',
+        ],
+        'ratio' => [
+            'label' => 'ratio',
+            'description' => 'ratio',
+        ],
+        'url' => [
+            'label' => 'url',
+            'description' => 'url',
+            'helper_text' => 'url',
+            'placeholder' => 'url',
+        ],
+        'image' => [
+            'label' => 'image',
+            'description' => 'image',
+            'helper_text' => 'image',
+            'placeholder' => 'image',
+        ],
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
     ],
 ];

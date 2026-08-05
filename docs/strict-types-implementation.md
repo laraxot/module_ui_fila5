@@ -55,11 +55,29 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 - [Linee Guida PHPStan Livello 10](../../Xot/docs/PHPStan/LEVEL10_LINEE_GUIDA.md)
 - [Conflitti Merge Risolti](./CONFLITTI_MERGE_RISOLTI.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [README del Modulo UI](./README.md)
+=======
+=======
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [README del Modulo UI](./README.md)
 =======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 - [README del Modulo UI](./README.md)
 # Implementazione di strict_types nel Modulo UI
@@ -120,9 +138,29 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 - [Conflitti Merge Risolti](./CONFLITTI_MERGE_RISOLTI.md)
 - [README del Modulo UI](./README.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 - [README del Modulo UI](./README.md)
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev

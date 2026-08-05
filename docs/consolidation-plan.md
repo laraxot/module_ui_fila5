@@ -126,7 +126,15 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 
 ## File con Maiuscole (da Rinominare)
 
+<<<<<<< HEAD
 1. Verificare duplicati con maiuscole rispetto a `metodi-duplicati-analisi.md` e normalizzare
+=======
+<<<<<<< HEAD
+1. Verificare duplicati con maiuscole rispetto a `metodi-duplicati-analisi.md` e normalizzare
+=======
+1. `METODI_DUPLICATI_ANALISI.md` → `metodi-duplicati-analisi.md` (già esiste `metodi-duplicati-analisi.md`)
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 
 ## Processo di Consolidamento
 

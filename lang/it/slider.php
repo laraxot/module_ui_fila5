@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 return [
     'fields' => [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
         'method' => ['label' => 'method', 'description' => 'method', 'helper_text' => 'method', 'placeholder' => 'method', 'tooltip' => ''],
         '_tpl' => ['label' => '_tpl', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
         'view' => ['label' => 'view', 'tooltip' => '', 'helper_text' => '', 'description' => '', 'placeholder' => 'view'],
@@ -22,5 +26,22 @@ return [
         'create' => ['label' => 'Crea Slider'],
         'edit' => ['label' => 'Modifica Slider'],
         'delete' => ['label' => 'Elimina Slider'],
+<<<<<<< HEAD
+=======
+=======
+        'method' => [
+            'label' => 'method',
+            'description' => 'method',
+            'helper_text' => 'method',
+            'placeholder' => 'method',
+        ],
+        '_tpl' => [
+            'label' => '_tpl',
+        ],
+        'view' => [
+            'label' => 'view',
+        ],
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
     ],
 ];

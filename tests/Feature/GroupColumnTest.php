@@ -11,8 +11,24 @@ use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Contracts\HasTable;
 use Filament\Tables\Table;
 use Illuminate\View\ComponentAttributeBag;
+<<<<<<< HEAD
 use Mockery\Expectation;
 use Mockery\MockInterface;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Mockery\Expectation;
+use Mockery\MockInterface;
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+use Mockery\Expectation;
+use Mockery\MockInterface;
+>>>>>>> 990a9de5 (.)
+>>>>>>> laraxot/dev
 use Modules\UI\Filament\Tables\Columns\GroupColumn;
 use PHPUnit\Framework\Assert;
 
@@ -21,6 +37,7 @@ use PHPUnit\Framework\Assert;
  */
 function groupColumnViewTableBag(): array
 {
+<<<<<<< HEAD
     /** @var HasTable&MockInterface $livewire */
     $livewire = \Mockery::mock(HasTable::class);
     $livewireExpectation = $livewire->shouldReceive('getTableRecordKey');
@@ -38,6 +55,55 @@ function groupColumnViewTableBag(): array
     if ($tableExpectation instanceof Expectation) {
         $tableExpectation->andReturn($livewire);
     }
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    $livewire = \Mockery::mock(HasTable::class);
+    $livewire->shouldReceive('getTableRecordKey')->andReturnUsing(
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 990a9de5 (.)
+    /** @var HasTable&MockInterface $livewire */
+    $livewire = \Mockery::mock(HasTable::class);
+    /** @var Expectation $expectation */
+    $expectation = $livewire->shouldReceive('getTableRecordKey');
+    $expectation->andReturnUsing(
+<<<<<<< HEAD
+=======
+    $livewire = \Mockery::mock(HasTable::class);
+    $livewire->shouldReceive('getTableRecordKey')->andReturnUsing(
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+        static fn (mixed $record): string => is_object($record) && method_exists($record, 'getKey')
+            ? (string) $record->getKey()
+            : '1'
+    );
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+    $table = \Mockery::mock(Table::class);
+    $table->shouldReceive('getLivewire')->andReturn($livewire);
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 990a9de5 (.)
+    /** @var Table&MockInterface $table */
+    $table = \Mockery::mock(Table::class);
+    /** @var Expectation $expectation */
+    $expectation = $table->shouldReceive('getLivewire');
+    $expectation->andReturn($livewire);
+<<<<<<< HEAD
+=======
+    $table = \Mockery::mock(Table::class);
+    $table->shouldReceive('getLivewire')->andReturn($livewire);
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+>>>>>>> laraxot/dev
 
     return [
         'getTable' => static fn (): Table => $table,
@@ -98,7 +164,21 @@ describe('GroupColumn class', function (): void {
         $group = GroupColumn::make('id/motivo')->schema([$child]);
 
         $tableProperty = (new \ReflectionClass(Column::class))->getProperty('table');
+<<<<<<< HEAD
         /** @var Table&MockInterface $fakeTable */
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        /** @var Table&MockInterface $fakeTable */
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+        /** @var Table&MockInterface $fakeTable */
+>>>>>>> 990a9de5 (.)
+>>>>>>> laraxot/dev
         $fakeTable = \Mockery::mock(Table::class);
 
         $group->table($fakeTable);
@@ -187,7 +267,23 @@ describe('GroupColumn view rendering', function (): void {
         $html = view('ui::filament.tables.columns.group', [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
+<<<<<<< HEAD
             'attributes' => new ComponentAttributeBag(),
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'attributes' => new ComponentAttributeBag(),
+=======
+<<<<<<< HEAD
+            'attributes' => new ComponentAttributeBag,
+=======
+            'attributes' => new ComponentAttributeBag(),
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+            'attributes' => new ComponentAttributeBag,
+>>>>>>> 990a9de5 (.)
+>>>>>>> laraxot/dev
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
             ...groupColumnViewTableBag(),
@@ -220,7 +316,23 @@ describe('GroupColumn view rendering', function (): void {
         $html = view('ui::filament.tables.columns.group', [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
+<<<<<<< HEAD
             'attributes' => new ComponentAttributeBag(),
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'attributes' => new ComponentAttributeBag(),
+=======
+<<<<<<< HEAD
+            'attributes' => new ComponentAttributeBag,
+=======
+            'attributes' => new ComponentAttributeBag(),
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+            'attributes' => new ComponentAttributeBag,
+>>>>>>> 990a9de5 (.)
+>>>>>>> laraxot/dev
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
             ...groupColumnViewTableBag(),
@@ -242,7 +354,23 @@ describe('GroupColumn view rendering', function (): void {
 
         // The view logic: skip if empty($value) && $value !== 0 && $value !== '0'
         $shouldSkip = static function (mixed $value): bool {
+<<<<<<< HEAD
             return empty($value) && 0 !== $value && '0' !== $value;
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            return empty($value) && 0 !== $value && '0' !== $value;
+=======
+<<<<<<< HEAD
+            return empty($value) && $value !== 0 && $value !== '0';
+=======
+            return empty($value) && 0 !== $value && '0' !== $value;
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+            return empty($value) && $value !== 0 && $value !== '0';
+>>>>>>> 990a9de5 (.)
+>>>>>>> laraxot/dev
         };
 
         Assert::assertTrue($shouldSkip($record->empty_field));
@@ -253,7 +381,27 @@ describe('GroupColumn view rendering', function (): void {
 
     it('renders IconColumn boolean via toEmbeddedHtml instead of raw 1', function (): void {
         if (! app()->bound('view')) {
+<<<<<<< HEAD
             $this->markTestSkipped('view service not bound');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            Assert::assertTrue(true);
+
+            return;
+=======
+<<<<<<< HEAD
+            $this->markTestSkipped('view service not bound');
+=======
+            Assert::assertTrue(true);
+
+            return;
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+            $this->markTestSkipped('view service not bound');
+>>>>>>> 990a9de5 (.)
+>>>>>>> laraxot/dev
         }
 
         $record = ['ha_diritto' => 1];
@@ -264,7 +412,23 @@ describe('GroupColumn view rendering', function (): void {
         $html = view('ui::filament.tables.columns.group', [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
+<<<<<<< HEAD
             'attributes' => new ComponentAttributeBag(),
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'attributes' => new ComponentAttributeBag(),
+=======
+<<<<<<< HEAD
+            'attributes' => new ComponentAttributeBag,
+=======
+            'attributes' => new ComponentAttributeBag(),
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+            'attributes' => new ComponentAttributeBag,
+>>>>>>> 990a9de5 (.)
+>>>>>>> laraxot/dev
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
             ...groupColumnViewTableBag(),
@@ -282,7 +446,27 @@ describe('GroupColumn view rendering', function (): void {
 
     it('applies TextColumn formatState and html for comma-separated motivo', function (): void {
         if (! app()->bound('view')) {
+<<<<<<< HEAD
             $this->markTestSkipped('view service not bound');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            Assert::assertTrue(true);
+
+            return;
+=======
+<<<<<<< HEAD
+            $this->markTestSkipped('view service not bound');
+=======
+            Assert::assertTrue(true);
+
+            return;
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+            $this->markTestSkipped('view service not bound');
+>>>>>>> 990a9de5 (.)
+>>>>>>> laraxot/dev
         }
 
         $record = ['motivo' => 'a,b,c'];
@@ -290,7 +474,23 @@ describe('GroupColumn view rendering', function (): void {
             TextColumn::make('motivo')
                 ->html()
                 ->formatStateUsing(static function (mixed $state): string {
+<<<<<<< HEAD
                     if (! is_string($state) || '' === $state) {
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    if (! is_string($state) || '' === $state) {
+=======
+<<<<<<< HEAD
+                    if (! is_string($state) || $state === '') {
+=======
+                    if (! is_string($state) || '' === $state) {
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+                    if (! is_string($state) || $state === '') {
+>>>>>>> 990a9de5 (.)
+>>>>>>> laraxot/dev
                         return '';
                     }
 
@@ -305,7 +505,23 @@ describe('GroupColumn view rendering', function (): void {
         $html = view('ui::filament.tables.columns.group', [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
+<<<<<<< HEAD
             'attributes' => new ComponentAttributeBag(),
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'attributes' => new ComponentAttributeBag(),
+=======
+<<<<<<< HEAD
+            'attributes' => new ComponentAttributeBag,
+=======
+            'attributes' => new ComponentAttributeBag(),
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+            'attributes' => new ComponentAttributeBag,
+>>>>>>> 990a9de5 (.)
+>>>>>>> laraxot/dev
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
             ...groupColumnViewTableBag(),
@@ -317,7 +533,27 @@ describe('GroupColumn view rendering', function (): void {
 
     it('renders SelectColumn via toEmbeddedHtml even when state is null', function (): void {
         if (! app()->bound('view')) {
+<<<<<<< HEAD
             $this->markTestSkipped('view service not bound');
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            Assert::assertTrue(true);
+
+            return;
+=======
+<<<<<<< HEAD
+            $this->markTestSkipped('view service not bound');
+=======
+            Assert::assertTrue(true);
+
+            return;
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+            $this->markTestSkipped('view service not bound');
+>>>>>>> 990a9de5 (.)
+>>>>>>> laraxot/dev
         }
 
         $record = ['valutatore_id' => null];
@@ -329,7 +565,23 @@ describe('GroupColumn view rendering', function (): void {
         $html = view('ui::filament.tables.columns.group', [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
+<<<<<<< HEAD
             'attributes' => new ComponentAttributeBag(),
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            'attributes' => new ComponentAttributeBag(),
+=======
+<<<<<<< HEAD
+            'attributes' => new ComponentAttributeBag,
+=======
+            'attributes' => new ComponentAttributeBag(),
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+            'attributes' => new ComponentAttributeBag,
+>>>>>>> 990a9de5 (.)
+>>>>>>> laraxot/dev
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
             ...groupColumnViewTableBag(),

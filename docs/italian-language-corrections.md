@@ -79,9 +79,20 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 'afternoon_hours' => 'Orario pomeridiano',
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Dopo
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+// Dopo
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 // Dopo  
 =======
@@ -90,6 +101,19 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 =======
 // Dopo  
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+// Dopo
+>>>>>>> 990a9de5 (.)
+=======
+// Dopo
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 'morning_hours' => 'Orari del mattino',
 'afternoon_hours' => 'Orari del pomeriggio',
@@ -171,11 +195,29 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 - [Linee Guida Localizzazione](./localization_guidelines.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Correzioni completate: gennaio 2025*
+=======
+=======
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 *Correzioni completate: gennaio 2025*
 =======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 *Correzioni completate: gennaio 2025*
 # Correzioni Lingua Italiana - Opening Hours
@@ -340,9 +382,29 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 *Correzioni completate: gennaio 2025*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 *Correzioni completate: gennaio 2025*
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev

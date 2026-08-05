@@ -9,27 +9,52 @@ return [
             'description' => 'link',
             'helper_text' => 'link',
             'placeholder' => 'link',
+<<<<<<< HEAD
             'tooltip' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'class' => [
             'label' => 'class',
             'description' => 'class',
             'helper_text' => 'class',
             'placeholder' => 'class',
+<<<<<<< HEAD
             'tooltip' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'label' => [
             'label' => 'label',
             'description' => 'label',
             'helper_text' => 'label',
             'placeholder' => 'label',
+<<<<<<< HEAD
             'tooltip' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'buttons' => [
             'label' => 'buttons',
             'description' => 'buttons',
             'helper_text' => 'buttons',
             'placeholder' => 'buttons',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             'tooltip' => '',
         ],
         '_tpl' => [
@@ -37,25 +62,51 @@ return [
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
+<<<<<<< HEAD
+=======
+=======
+        ],
+        '_tpl' => [
+            'label' => '_tpl',
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'background' => [
             'label' => 'background',
             'description' => 'background',
             'helper_text' => 'background',
             'placeholder' => 'background',
+<<<<<<< HEAD
             'tooltip' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'text' => [
             'label' => 'text',
             'description' => 'text',
             'helper_text' => 'text',
             'placeholder' => 'text',
+<<<<<<< HEAD
             'tooltip' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'title' => [
             'label' => 'title',
             'description' => 'title',
             'helper_text' => 'title',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             'tooltip' => '',
         ],
         'view' => [
@@ -76,4 +127,14 @@ return [
     'plural_label' => 'Missing Plural label',
     'actions' => [
     ],
+<<<<<<< HEAD
+=======
+=======
+        ],
+        'view' => [
+            'label' => 'view',
+        ],
+    ],
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

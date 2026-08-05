@@ -7,9 +7,18 @@ namespace Modules\UI\Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\UI\Models\Collection;
 
+<<<<<<< HEAD
 /**
  * @extends Factory<Collection>
  */
+=======
+<<<<<<< HEAD
+/**
+ * @extends Factory<Collection>
+ */
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 class CollectionFactory extends Factory
 {
     /**
@@ -24,6 +33,10 @@ class CollectionFactory extends Factory
      */
     public function definition(): array
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
         return [
             'name' => fake()->words(2, true),
             'type' => 'block',
@@ -31,5 +44,11 @@ class CollectionFactory extends Factory
             'is_active' => true,
             'order' => 0,
         ];
+<<<<<<< HEAD
+=======
+=======
+        return [];
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
     }
 }

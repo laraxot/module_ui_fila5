@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 return [
     'fields' => [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
         'img_uuid' => ['label' => 'img_uuid', 'description' => 'img_uuid', 'helper_text' => 'img_uuid', 'placeholder' => 'img_uuid', 'tooltip' => ''],
         'video' => ['label' => 'video', 'description' => 'video', 'helper_text' => 'video', 'tooltip' => '', 'placeholder' => 'video'],
         'caption' => ['label' => 'caption', 'description' => 'caption', 'helper_text' => 'caption', 'placeholder' => 'caption', 'tooltip' => ''],
@@ -22,5 +26,27 @@ return [
         'create' => ['label' => 'Crea Video Spatie'],
         'edit' => ['label' => 'Modifica Video Spatie'],
         'delete' => ['label' => 'Elimina Video Spatie'],
+<<<<<<< HEAD
+=======
+=======
+        'img_uuid' => [
+            'label' => 'img_uuid',
+            'description' => 'img_uuid',
+            'helper_text' => 'img_uuid',
+            'placeholder' => 'img_uuid',
+        ],
+        'video' => [
+            'label' => 'video',
+            'description' => 'video',
+            'helper_text' => 'video',
+        ],
+        'caption' => [
+            'label' => 'caption',
+            'description' => 'caption',
+            'helper_text' => 'caption',
+            'placeholder' => 'caption',
+        ],
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
     ],
 ];

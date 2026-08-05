@@ -4,7 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Widgets;
 
+<<<<<<< HEAD
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
+=======
+<<<<<<< HEAD
+use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
+=======
+use Modules\Xot\Filament\Widgets\XotBaseWidget;
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 
 /**
  * RedirectWidget - Widget per gestire redirect verso URL specifici.
@@ -22,7 +30,15 @@ use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
  *     }
  * }
  */
+<<<<<<< HEAD
 final class RedirectWidget extends XotBaseSchemaWidget
+=======
+<<<<<<< HEAD
+final class RedirectWidget extends XotBaseSchemaWidget
+=======
+final class RedirectWidget extends XotBaseWidget
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 {
     public ?string $url = null;
 
@@ -65,6 +81,13 @@ final class RedirectWidget extends XotBaseSchemaWidget
      *
      * @return array<string, mixed>
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    #[\Override]
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
     public function getFormSchema(): array
     {
         return [];

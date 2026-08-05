@@ -15,6 +15,10 @@ return [
     'test_iam_credentials' => 'Test Credenziali IAM',
     'test_iam_policies' => 'Test Policy IAM',
     'run_full_diagnostic' => 'Esegui Diagnostica Completa',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     'label' => 'Aws Test',
     'plural_label' => 'Aws Test (Plurale)',
     'fields' => [
@@ -48,4 +52,9 @@ return [
             'label' => 'Elimina Aws Test',
         ],
     ],
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

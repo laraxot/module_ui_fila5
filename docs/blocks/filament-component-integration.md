@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ---
 title: "Integrazione dei Componenti Filament nei Blocchi"
 type: concept
@@ -14,6 +18,11 @@ related:
   - "./user-dropdown.md"
 ---
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 # Integrazione dei Componenti Filament nei Blocchi
 
 ## Introduzione
@@ -198,7 +207,15 @@ I form Filament che utilizzano campi complessi, wizard multi-step o molti campi 
 ## Riferimenti alla Documentazione
 
 - [Documentazione ufficiale Filament](https://filamentphp.com/docs/3.x/support/blade-components)
+<<<<<<< HEAD
 - [Integrazione Filament nel modulo CMS](../../cms/docs/filament-integration.md)
+=======
+<<<<<<< HEAD
+- [Integrazione Filament nel modulo CMS](../../cms/docs/filament-integration.md)
+=======
+- [Integrazione Filament nel modulo CMS](../../Cms/docs/filament-integration.md)
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 - [Best practices per i componenti UI](../components/best-practices.md)
 
 ---

@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ---
 title: "Gestione delle Traduzioni con LangServiceProvider"
 type: concept
@@ -10,6 +14,11 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
 ---
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 # Gestione delle Traduzioni con LangServiceProvider
 
 ## Collegamenti Bidirezionali
@@ -156,4 +165,12 @@ public static function getFormSchema(): array
 
 - [Laravel Localization](https://laravel.com/docs/localization)
 - [Filament Forms](https://filamentphp.com/docs/forms)
+<<<<<<< HEAD
 - [Best Practices Internazionalizzazione](../../../../docs/i18n/best-practices.md)
+=======
+<<<<<<< HEAD
+- [Best Practices Internazionalizzazione](../../../../docs/i18n/best-practices.md)
+=======
+- [Best Practices Internazionalizzazione](../../../docs/i18n/best-practices.md)
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev

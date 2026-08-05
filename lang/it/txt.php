@@ -7,6 +7,10 @@ return [
     'edit' => 'modifica',
     'view' => 'vedi',
     'note' => 'note',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     'label' => 'Txt',
     'plural_label' => 'Txt (Plurale)',
     'navigation' => [
@@ -51,4 +55,9 @@ return [
             'label' => 'Elimina Txt',
         ],
     ],
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

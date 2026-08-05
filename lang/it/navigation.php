@@ -3,6 +3,10 @@
 declare(strict_types=1);
 
 return [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     'navigation' => [
         'label' => 'Navigazione',
         'plural_label' => 'Navigazioni',
@@ -51,6 +55,29 @@ return [
             'success' => 'Navigazione eliminata con successo',
             'failure' => 'Errore nell\'eliminazione della navigazione',
             'confirm' => 'Sei sicuro di voler eliminare questa navigazione?',
+<<<<<<< HEAD
+=======
+=======
+    'fields' => [
+        'items' => [
+            'label' => 'items',
+            'placeholder' => 'items',
+            'helper_text' => 'items',
+            'description' => 'items',
+        ],
+        'label' => [
+            'label' => 'label',
+            'placeholder' => 'label',
+            'helper_text' => 'label',
+            'description' => 'label',
+        ],
+        'url' => [
+            'label' => 'url',
+            'placeholder' => 'url',
+            'helper_text' => 'url',
+            'description' => 'url',
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
     ],
 ];

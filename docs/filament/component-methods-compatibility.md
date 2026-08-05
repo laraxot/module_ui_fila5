@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ---
 title: "Compatibilità dei Metodi nei Componenti Filament"
 type: concept
@@ -18,6 +22,11 @@ related:
   - "./file-upload-component.md"
 ---
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 # Compatibilità dei Metodi nei Componenti Filament
 
 ## Panoramica
@@ -126,4 +135,12 @@ Forms\Components\FileUpload::make('certification')
 - [Documentazione Filament](./resources.md)
 - [Form Components](../form-components.md)
 - [Filament Resources Structure](../filament-resources-structure.md)
+<<<<<<< HEAD
 - [Documentazione specifica nel modulo Patient](../../patient/docs/filament-component-methods.md)
+=======
+<<<<<<< HEAD
+- [Documentazione specifica nel modulo Patient](../../patient/docs/filament-component-methods.md)
+=======
+- [Documentazione specifica nel modulo Patient](../../Patient/docs/filament-component-methods.md)
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev

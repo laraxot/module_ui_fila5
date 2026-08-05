@@ -1,9 +1,24 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 # TableLayoutToggleTableAction
 
 ## Panoramica
@@ -60,8 +75,20 @@ class MyListRecords extends ListRecords
 - [Test di Risoluzione Conflitti](../test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [Torna alla documentazione UI](/docs/modules/module_ui.md#actions) 
 =======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+[Torna alla documentazione UI](/docs/modules/module_ui.md#actions) 
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 >>>>>>> laraxot/dev
 ---
 title: "TableLayoutToggleTableAction"
@@ -79,6 +106,14 @@ related:
 # TableLayoutToggleTableAction
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 990a9de5 (.)
+>>>>>>> laraxot/dev
 ## Scopo
 
 Bottone **Cambia layout** (lista ↔ griglia) sulle `XotBaseListRecords` con `HasXotTable`. Solo UX: stessi record, presentazione diversa.
@@ -105,7 +140,18 @@ click → toggleLayout()
 | `HasXotTable` | Render colonne/griglia da `$layoutView` |
 
 ## Cosa non toccare
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+[Torna alla documentazione UI](/docs/modules/module_ui.md#actions)
+# TableLayoutToggleTableAction
+
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ## Panoramica
 Azione Filament per il toggle del layout delle tabelle tra vista griglia e lista.
 
@@ -158,6 +204,16 @@ class MyListRecords extends ListRecords
 ## Collegamenti alla Documentazione
 - [Risoluzione Conflitti UI](../CONFLITTI_MERGE_RISOLTI.md): Documentazione dei conflitti risolti
 - [Test di Risoluzione Conflitti](../test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 >>>>>>> laraxot/dev
 
 - **Non** spostare il toggle in `HasTableLayoutPage` — duplicazione inutile.
@@ -175,9 +231,30 @@ Vedi [bugfix](../bugfix-table-layout-toggle-not-working.md): bastano `resetTable
 - [Contratto Xot](../../Xot/docs/filament/table-layout-toggle-contract.md)
 - [Tema One — tabelle](../../../Themes/One/docs/filament-resource-schemas-tables.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 [Torna alla documentazione UI](/docs/modules/module_ui.md#actions) 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+
+[Torna alla documentazione UI](/docs/modules/module_ui.md#actions)
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev

@@ -1,8 +1,19 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ## Collegamenti tra versioni di naming-conventions.md
 * [naming-conventions.md](../../../../docs/naming-conventions.md)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -15,6 +26,21 @@
 =======
 ## Collegamenti tra versioni di naming-conventions.md
 * [naming-conventions.md](../../../../../docs/naming-conventions.md)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+## Collegamenti tra versioni di naming-conventions.md
+* [naming-conventions.md](../../../../docs/naming-conventions.md)
+>>>>>>> 990a9de5 (.)
+=======
+## Collegamenti tra versioni di naming-conventions.md
+* [naming-conventions.md](../../../../docs/naming-conventions.md)
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 * [naming-conventions.md](../../Xot/docs/naming-conventions.md)
 * [naming-conventions.md](../../Patient/docs/naming-conventions.md)
@@ -23,9 +49,29 @@
 * [naming-conventions.md](../../Xot/project_docs/naming-conventions.md)
 * [naming-conventions.md](../../Patient/project_docs/naming-conventions.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 * [naming-conventions.md](../../Patient/docs/naming-conventions.md)
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev

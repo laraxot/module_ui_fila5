@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ---
 title: "Risorse Filament"
 type: concept
@@ -18,6 +22,11 @@ related:
   - "./filament-4-migration-sumy.md"
 ---
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 # Risorse Filament
 
 ## Documentazione Dettagliata
@@ -79,4 +88,12 @@ related:
 
 ## Collegamenti tra versioni di resources.md
 * [resources.md](docs/tecnico/filament/resources.md)
+<<<<<<< HEAD
 * [resources.md](../../../ui/docs/filament/resources.md)
+=======
+<<<<<<< HEAD
+* [resources.md](../../../ui/docs/filament/resources.md)
+=======
+* [resources.md](../../../UI/docs/filament/resources.md)
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev

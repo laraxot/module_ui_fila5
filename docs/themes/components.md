@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ---
 title: "Componenti del Tema"
 type: concept
@@ -15,6 +19,11 @@ related:
   - "./schemaless-attributes-guide.md"
 ---
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 # Componenti del Tema
 
 ## Logo
@@ -89,7 +98,20 @@ Il componente logo è uno degli elementi più importanti dell'interfaccia utente
 ```
 
 ## Collegamenti tra versioni di components.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 * [components.md](../../../ui/docs/components.md)
 * [components.md](../../../ui/docs/themes/components.md)
 * [components.md](../../../cms/docs/components.md)
 * [components.md](../../../../themes/one/docs/components.md)
+<<<<<<< HEAD
+=======
+=======
+* [components.md](../../../UI/docs/components.md)
+* [components.md](../../../UI/docs/themes/components.md)
+* [components.md](../../../Cms/docs/components.md)
+* [components.md](../../../../Themes/One/docs/components.md)
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev

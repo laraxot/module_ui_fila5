@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ---
 title: "Chart Export Strategy (PNG/SVG)"
 type: concept
@@ -15,6 +19,11 @@ related:
   - "./shared-hosting-strategy.md"
 ---
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 # Chart Export Strategy (PNG/SVG)
 
 > **Goal**: Allow users to download Filament charts as images (PNG) or vectors (SVG) for reports.

@@ -5,6 +5,10 @@ declare(strict_types=1);
 return [
     'months' => [
         'long' => [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             0 => 'Gennaio',
             1 => 'Febbraio',
             2 => 'Marzo',
@@ -31,10 +35,45 @@ return [
             9 => 'Ott',
             10 => 'Nov',
             11 => 'Dic',
+<<<<<<< HEAD
+=======
+=======
+            'Gennaio',
+            'Febbraio',
+            'Marzo',
+            'Aprile',
+            'Maggio',
+            'Giugno',
+            'Luglio',
+            'Agosto',
+            'Settembre',
+            'Ottobre',
+            'Novembre',
+            'Dicembre',
+        ],
+        'short' => [
+            'Gen',
+            'Feb',
+            'Mar',
+            'Apr',
+            'Mag',
+            'Giu',
+            'Lug',
+            'Ago',
+            'Set',
+            'Ott',
+            'Nov',
+            'Dic',
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
     ],
     'weekdays' => [
         'long' => [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             0 => 'Domenica',
             1 => 'Lunedì',
             2 => 'Martedì',
@@ -61,6 +100,21 @@ return [
             5 => 'Ve',
             6 => 'Sa',
         ],
+<<<<<<< HEAD
+=======
+=======
+            'Domenica',
+            'Lunedì',
+            'Martedì',
+            'Mercoledì',
+            'Giovedì',
+            'Venerdì',
+            'Sabato',
+        ],
+        'short' => ['Dom', 'Lun', 'Mar', 'Mer', 'Gio', 'Ven', 'Sab'],
+        'min' => ['Do', 'Lu', 'Ma', 'Me', 'Gi', 'Ve', 'Sa'],
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
     ],
     'buttons' => [
         'previous' => 'Mese precedente',
@@ -82,21 +136,42 @@ return [
             'placeholder' => 'Inserisci un titolo',
             'helper_text' => 'Inserisci un titolo descrittivo',
             'description' => 'Titolo dell\'evento',
+<<<<<<< HEAD
             'tooltip' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'starts_at' => [
             'label' => 'Inizio',
             'placeholder' => 'Seleziona data e ora di inizio',
             'helper_text' => 'Data e ora di inizio dell\'evento',
             'description' => 'Data e ora di inizio',
+<<<<<<< HEAD
             'tooltip' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'ends_at' => [
             'label' => 'Fine',
             'placeholder' => 'Seleziona data e ora di fine',
             'helper_text' => 'Data e ora di fine dell\'evento',
             'description' => 'Data e ora di fine',
+<<<<<<< HEAD
             'tooltip' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
     ],
     'actions' => [
@@ -122,6 +197,10 @@ return [
         'date' => 'Inserisci una data valida',
         'after' => 'La data di fine deve essere successiva alla data di inizio',
     ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     'label' => 'User Calendar',
     'plural_label' => 'User Calendar (Plurale)',
     'navigation' => [
@@ -135,4 +214,9 @@ return [
         'sort' => 1,
         'icon' => 'heroicon-o-collection',
     ],
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

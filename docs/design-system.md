@@ -80,11 +80,22 @@ Il design system definisce gli standard visivi e di interazione per garantire co
         Titolo Card
     </x-slot>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 
     Contenuto della card
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
     
     Contenuto della card
@@ -99,6 +110,23 @@ Il design system definisce gli standard visivi e di interazione per garantire co
     Contenuto della card
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+    Contenuto della card
+
+>>>>>>> 990a9de5 (.)
+=======
+
+    Contenuto della card
+
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
     <x-slot name="footer">
         Footer della card
@@ -150,11 +178,29 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 - [Tailwind Config](../config/tailwind.config.js)
 - [Theme Config](../config/theme.php)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Filament UI](../../Cms/docs/filament-components.md) 
+=======
+=======
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [Filament UI](../../Cms/docs/filament-components.md) 
 =======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 - [Filament UI](../../Cms/docs/filament-components.md)
 # Design System
@@ -294,9 +340,29 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 - [Filament UI](../../Cms/project_docs/filament-components.md)
 - [Filament UI](../../Cms/project_docs/filament-components.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 - [Filament UI](../../Cms/docs/filament-components.md) 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev

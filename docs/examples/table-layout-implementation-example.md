@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ---
 title: "Esempio Pratico: Implementazione TableLayoutEnum"
 type: concept
@@ -11,6 +15,11 @@ related:
   - "./inline-date-picker-usage.md"
 ---
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 # Esempio Pratico: Implementazione TableLayoutEnum
 
 ## Panoramica
@@ -352,6 +361,18 @@ class ListUsersTest extends TestCase
 ## Collegamenti
 
 - [TableLayoutEnum Documentation](../table-layout-enum-comprehensive.md)
+<<<<<<< HEAD
 - [UI Module Architecture](../architecture-rules-1.md)
 - [Filament Best Practices](../../../../docs/filament_best-practices-2.md)
 - [Translation Standards](../../../../docs/translation_standards.md)
+=======
+<<<<<<< HEAD
+- [UI Module Architecture](../architecture-rules-1.md)
+- [Filament Best Practices](../../../../docs/filament_best-practices-2.md)
+- [Translation Standards](../../../../docs/translation_standards.md)
+=======
+- [UI Module Architecture](../architecture_rules.md)
+- [Filament Best Practices](../../../docs/filament_best_practices.md)
+- [Translation Standards](../../../docs/translation_standards.md)
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev

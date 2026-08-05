@@ -11,6 +11,10 @@ return [
         'sort' => 70,
         'icon' => 'heroicon-o-squares-2x2',
     ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     'label' => 'Ui',
     'plural_label' => 'Ui (Plurale)',
     'fields' => [
@@ -44,4 +48,9 @@ return [
             'label' => 'Elimina Ui',
         ],
     ],
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

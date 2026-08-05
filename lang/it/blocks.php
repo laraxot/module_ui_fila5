@@ -55,6 +55,10 @@ return [
             ],
         ],
     ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     'label' => 'Blocks',
     'plural_label' => 'Blocks (Plurale)',
     'fields' => [
@@ -88,4 +92,9 @@ return [
             'label' => 'Elimina Blocks',
         ],
     ],
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

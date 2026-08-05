@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ---
 title: "UI Module Roadmap (2025 Q4)"
 type: concept
@@ -18,6 +22,11 @@ related:
   - "./03-later.md"
 ---
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 # UI Module Roadmap (2025 Q4)
 
 ## Vision & Scope
@@ -31,7 +40,15 @@ related:
 ## Milestones
 - [ ] Audit Filament v4 changes in components/pages
 - [ ] Replace labels with translations (expanded structure)
+<<<<<<< HEAD
 - [ ] Optimize icons/assets; document in `docs/paths-and-assets-2.md`
+=======
+<<<<<<< HEAD
+- [ ] Optimize icons/assets; document in `docs/paths-and-assets-2.md`
+=======
+- [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 - [ ] Strengthen tests for critical widgets
 
 ## Acceptance Criteria
@@ -51,7 +68,15 @@ related:
 ## Milestones
 - [ ] Audit Filament v4 changes in components/pages
 - [ ] Replace labels with translations (expanded structure)
+<<<<<<< HEAD
 - [ ] Optimize icons/assets; document in `docs/paths-and-assets-2.md`
+=======
+<<<<<<< HEAD
+- [ ] Optimize icons/assets; document in `docs/paths-and-assets-2.md`
+=======
+- [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 - [ ] Strengthen tests for critical widgets
 
 ## Acceptance Criteria

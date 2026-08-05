@@ -43,10 +43,19 @@ return [
         'confirm_password' => 'Confirm Password',
         'save' => 'Save',
         'update' => 'Update',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
         'services' => 'My Services',
         'practices' => 'My Practices',
         'notifications' => 'Notifications',
         'logout' => 'Log Out',
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
     ],
     'user_dropdown' => [
         'manage_account' => 'Account Management',
@@ -64,10 +73,19 @@ return [
         'profile' => 'Profile',
         'settings' => 'Settings',
     ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label',
     'fields' => [
     ],
     'actions' => [
     ],
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

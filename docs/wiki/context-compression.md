@@ -68,13 +68,33 @@ qmd query "$1" -c wiki --limit 3 > compressed_result.md
 
 # Estrai keyword principali
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 qmd search "$1" -c project-docs | head -5 > keywords.txt
 =======
 qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
+>>>>>>> 990a9de5 (.)
 >>>>>>> laraxot/dev
 
 # Genera sommario

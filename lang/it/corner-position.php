@@ -15,6 +15,10 @@ return [
     'bottom-right' => [
         'label' => 'basso a destra',
     ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     'label' => 'Corner Position',
     'plural_label' => 'Corner Position (Plurale)',
     'navigation' => [
@@ -59,4 +63,9 @@ return [
             'label' => 'Elimina Corner Position',
         ],
     ],
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

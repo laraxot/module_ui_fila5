@@ -96,11 +96,29 @@ return [
 ## Vedi Anche
 - [Filament File Upload](https://filamentphp.com/docs/forms/fields/file-upload)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Laravel File Storage](https://laravel.com/docs/filesystem) 
+=======
+=======
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [Laravel File Storage](https://laravel.com/docs/filesystem) 
 =======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 - [Laravel File Storage](https://laravel.com/docs/filesystem)
 # FileUpload Component in Filament
@@ -195,11 +213,31 @@ return [
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 - [Laravel File Storage](https://laravel.com/docs/filesystem) 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 - [Translation System](../../Lang/project_docs/translation-system.md)
 - [Form Components](../../Patient/project_docs/filament-form-components.md)
@@ -208,9 +246,20 @@ return [
 ## Vedi Anche
 - [Filament File Upload](https://filamentphp.com/project_docs/forms/fields/file-upload)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel File Storage](https://laravel.com/project_docs/filesystem)
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Laravel File Storage](https://laravel.com/project_docs/filesystem)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 - [Laravel File Storage](https://laravel.com/project_docs/filesystem) 
 =======
@@ -219,4 +268,17 @@ return [
 =======
 - [Laravel File Storage](https://laravel.com/project_docs/filesystem) 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [Laravel File Storage](https://laravel.com/project_docs/filesystem)
+>>>>>>> 990a9de5 (.)
+=======
+- [Laravel File Storage](https://laravel.com/project_docs/filesystem)
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
