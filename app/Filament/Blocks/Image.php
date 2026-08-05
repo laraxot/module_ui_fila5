@@ -54,7 +54,7 @@ class Image
     /**
      * @return array<int, \Filament\Schemas\Components\Component>
      */
-    public static function getFormSchema(): array
+    public static function getFormSchemaOld(): array
     {
         return [
             FileUpload::make('image')

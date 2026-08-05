@@ -56,7 +56,7 @@ class UserCalendarWidget extends XotBaseSchemaWidget
     /**
      * @return array<int, TextInput|Grid>
      */
-    public function getFormSchema(): array
+    public function getFormSchemaOld(): array
     {
         $action = $this->getActionName(__FUNCTION__);
 

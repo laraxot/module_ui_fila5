@@ -15,7 +15,7 @@ final class StatWithIconWidget extends XotBaseSchemaWidget
 
     protected string|int|float|bool|Htmlable|\Closure $value;
 
-    public function getFormSchema(): array
+    public function getFormSchemaOld(): array
     {
         return [];
     }
