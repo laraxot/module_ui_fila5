@@ -213,7 +213,7 @@ class SelectStateColumn extends SelectColumn
                 return;
             }
 
-            if (! ($record->state instanceof State)) {
+            if (! $record->state instanceof State) {
                 return;
             }
 
