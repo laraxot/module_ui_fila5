@@ -7,7 +7,6 @@ namespace Modules\UI\Filament\Tables\Columns;
 use Filament\Tables\Columns\TextColumn;
 use Illuminate\Support\HtmlString;
 use Modules\Xot\Filament\Support\RecordAnchor;
-use Override;
 
 /**
  * Colonna id che funge anche da ancora della riga.
@@ -18,7 +17,7 @@ use Override;
  */
 class IDColumn extends TextColumn
 {
-    #[Override]
+    #[\Override]
     public static function make(?string $name = null): static
     {
         return parent::make($name ?? 'id')
@@ -38,7 +37,7 @@ class IDColumn extends TextColumn
     {
         $value = is_scalar($state) ? (string) $state : '';
 
-        if ($value === '') {
+        if ('' === $value) {
             return new HtmlString('');
         }
 
