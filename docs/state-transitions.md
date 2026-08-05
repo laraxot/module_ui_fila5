@@ -49,8 +49,17 @@ class ExampleTransition extends Transition
 - [State Management](./state-management.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [SelectStateColumn Documentation](./select-state-column.md)
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [SelectStateColumn Documentation](./select-state-column.md)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [SelectStateColumn Documentation](./select-state-column.md)
 # State Transitions Guide
 
@@ -102,7 +111,16 @@ class ExampleTransition extends Transition
 ## Related Documentation
 - [State Management](./state-management.md)
 - [SelectStateColumn Documentation](./select-state-column.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 - [SelectStateColumn Documentation](./select-state-column.md)
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

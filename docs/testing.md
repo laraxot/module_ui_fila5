@@ -176,10 +176,20 @@ protected function createApplication()
     
     $app['config']->set([
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        'database.connections.ui.database' => 'quaeris_data_test',
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
         'database.connections.ui.database' => 'modulo questionari_data_test',
 =======
         'database.connections.ui.database' => 'quaeris_data_test',
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     ]);
     
     return $app;

@@ -135,6 +135,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+                "/ tasks.json
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
                 "/var/www/html/base_<nome progetto>": "${workspaceFolder}"
             }
@@ -153,6 +159,10 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 {
     "version": "2.0.0",
     "tasks": [
@@ -247,8 +257,17 @@
 - [PHP Intelephense](https://intelephense.com)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Filament Documentation](https://filamentphp.com/docs) 
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Filament Documentation](https://filamentphp.com/docs) 
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [Filament Documentation](https://filamentphp.com/docs)
 # Configurazione VSCode per PHP e Filament
 
@@ -478,7 +497,16 @@
 - [VSCode Documentation](https://code.visualstudio.com/docs)
 - [PHP Intelephense](https://intelephense.com)
 - [Filament Documentation](https://filamentphp.com/docs)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 - [Filament Documentation](https://filamentphp.com/docs) 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

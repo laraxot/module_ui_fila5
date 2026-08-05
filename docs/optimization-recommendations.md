@@ -7,8 +7,17 @@
 #### Qualità del Codice
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **PHPStan level 10**: 12/12 file core certificati
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- **PHPStan level 10**: 12/12 file core certificati
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
@@ -16,10 +25,19 @@
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 - **PHPStan level 10**: 12/12 file core certificati
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - **Translation Standards**: 100% compliance con struttura espansa
 - **Component Architecture**: 50+ componenti Blade riutilizzabili
 - **Filament Integration**: 20+ widget personalizzati perfettamente integrati
@@ -34,6 +52,12 @@
 - **Component Rendering**: < 50ms per componente
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+- **Bundle Size**: < 200KB per tutti i componenti
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 - **Bundle Size**: < 200KB per tutti i componenti  
 =======
 - **Bundle Size**: < 200KB per tutti i componenti
@@ -41,6 +65,10 @@
 =======
 - **Bundle Size**: < 200KB per tutti i componenti  
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - **Mobile Responsive**: 100% componenti responsive
 - **Caching**: Sistema caching componenti attivo
 
@@ -56,8 +84,17 @@
 - **Informazioni duplicate** tra sezioni
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Esempi troppo specifici** per <nome progetto>
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- **Esempi troppo specifici** per <nome progetto>
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - **Esempi troppo specifici** per
 - **Esempi troppo specifici** per
 - **Esempi troppo specifici** per
@@ -65,10 +102,19 @@
 - **Esempi troppo specifici** per
 - **Esempi troppo specifici** per
 - **Esempi troppo specifici** per
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 - **Esempi troppo specifici** per <nome progetto>
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## 🔧 RACCOMANDAZIONI SPECIFICHE
 
@@ -79,8 +125,17 @@
 // ❌ PROBLEMI ATTUALI (in documentazione)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/UI/
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+/var/www/html/<nome progetto>/laravel/Modules/UI/
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 Modules/UI/
 Modules/UI/
 Modules/UI/
@@ -88,10 +143,19 @@ Modules/UI/
 Modules/UI/
 Modules/UI/
 Modules/UI/
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 /var/www/html/<nome progetto>/laravel/Modules/UI/
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 https://api.<nome progetto>.com/
 
 // ✅ SOLUZIONI
@@ -121,8 +185,17 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 ## 🏆 Quality Achievements
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ PHPStan level 10 (12/12 files)
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- ✅ PHPStan level 10 (12/12 files)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
@@ -130,10 +203,19 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 - ✅ PHPStan level 10 (12/12 files)
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - ✅ Translation Standards 100%
 - ✅ 50+ Blade Components
 - ✅ Accessibility Score 98/100
@@ -191,6 +273,16 @@ class ComponentPerformanceMiddleware
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+
+        $response = $next($request);
+
+        $duration = (microtime(true) - $start) * 1000;
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
         
         $response = $next($request);
@@ -207,6 +299,10 @@ class ComponentPerformanceMiddleware
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         if ($duration > 50) {
             Log::warning("Slow component detected", [
                 'component' => $request->route()->getName(),
@@ -215,6 +311,12 @@ class ComponentPerformanceMiddleware
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
         
 =======
 
@@ -222,6 +324,10 @@ class ComponentPerformanceMiddleware
 =======
         
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         return $response;
     }
 }
@@ -296,8 +402,17 @@ php artisan ui:accessibility-check
 ### Mantenere Eccellenze
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **NON toccare** l'architettura PHPStan level 10
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- **NON toccare** l'architettura PHPStan level 10
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - **NON toccare** l'architettura PHPStan Level 9
 - **NON toccare** l'architettura PHPStan Level 9
 - **NON toccare** l'architettura PHPStan Level 9
@@ -305,10 +420,19 @@ php artisan ui:accessibility-check
 - **NON toccare** l'architettura PHPStan Level 9
 - **NON toccare** l'architettura PHPStan Level 9
 - **NON toccare** l'architettura PHPStan Level 9
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 - **NON toccare** l'architettura PHPStan level 10
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - **NON modificare** il sistema TableLayoutEnum (perfetto)
 - **NON cambiare** il pattern TransTrait (eccellente)
 - **NON alterare** la struttura componenti (ben organizzata)
@@ -331,8 +455,17 @@ php artisan ui:accessibility-check
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: gennaio 2025*
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Ultimo aggiornamento: gennaio 2025*
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 *Ultimo aggiornamento: gennaio 2025*
 # Raccomandazioni di Ottimizzazione - Modulo UI
 
@@ -587,7 +720,16 @@ php artisan ui:accessibility-check
 - [TableLayoutEnum Guide](table-layout-enum-complete-guide.md)
 
 *Ultimo aggiornamento: gennaio 2025*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 *Ultimo aggiornamento: gennaio 2025*
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

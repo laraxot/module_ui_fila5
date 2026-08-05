@@ -4,6 +4,12 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo <nome progetto>corrente.
 =======
 Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo <nome progetto>.
@@ -11,6 +17,10 @@ Questi componenti Filament sono stati creati per supportare la selezione geograf
 =======
 Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo SaluteOra.
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## Componenti Implementati
 
@@ -24,6 +34,12 @@ Componente Filament per la selezione gerarchica di Regione → Provincia → CAP
 #### Caratteristiche
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+- ✅ **Selezione Gerarchica**: Regione → Provincia → CAP
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 - ✅ **Selezione Gerarchica**: Regione → Provincia → CAP
 =======
 - ✅ **Selezione Gerarchica**: Regione → Provincia → CAP
@@ -31,6 +47,10 @@ Componente Filament per la selezione gerarchica di Regione → Provincia → CAP
 =======
 - ✅ **Selezione Gerarchica**: Regione → Provincia → CAP  
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - ✅ **Live Updates**: I campi si aggiornano automaticamente
 - ✅ **Integrazione Geo**: Utilizza i modelli del modulo Geo
 - ✅ **Validazione Cascata**: I campi dipendenti si validano automaticamente
@@ -72,6 +92,12 @@ Componente Blade per la selezione di studi odontoiatrici tramite pulsanti radio-
 ```blade
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<x-ui::ui.studio-selector
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 <x-ui::ui.studio-selector
 =======
 <x-ui::ui.studio-selector
@@ -79,6 +105,10 @@ Componente Blade per la selezione di studi odontoiatrici tramite pulsanti radio-
 =======
 <x-ui::ui.studio-selector 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     :studios="$studios"
     :selected-studio="$selectedStudioId"
     target-field="selected_studio"
@@ -112,6 +142,12 @@ protected function getStudioStepSchema(): array
         // Titolo step
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+        View::make('<nome progetto>::filament.widgets.studio-step-header')
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
         View::make('<nome progetto>ilament.widgets.studio-step-header')
 =======
         View::make('<nome progetto>::filament.widgets.studio-step-header')
@@ -119,6 +155,10 @@ protected function getStudioStepSchema(): array
 =======
         View::make('saluteora::filament.widgets.studio-step-header')
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             ->viewData([
                 'studiosCount' => $this->getStudiosCount(),
                 'geographicArea' => $this->getGeographicAreaName(),
@@ -128,6 +168,12 @@ protected function getStudioStepSchema(): array
         // Pulsanti selezione studio
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+        View::make('<nome progetto>::filament.widgets.studio-selector')
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
         View::make('<nome progetto>ilament.widgets.studio-selector')
 =======
         View::make('<nome progetto>::filament.widgets.studio-selector')
@@ -135,6 +181,10 @@ protected function getStudioStepSchema(): array
 =======
         View::make('saluteora::filament.widgets.studio-selector')
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             ->viewData([
                 'studios' => $this->getStudiosForSelectedArea(),
                 'selectedStudio' => $this->data['selected_studio'] ?? null,
@@ -144,6 +194,13 @@ protected function getStudioStepSchema(): array
         // TextInput per mostrare studio selezionato
         TextInput::make('selected_studio_name')
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ->label(__('<nome progetto>::widgets.find_doctor.fields.selected_studio.label'))
+            ->placeholder(__('<nome progetto>::widgets.find_doctor.fields.selected_studio.placeholder'))
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
             ->label(__('<nome progetto>idgets.find_doctor.fields.selected_studio.label'))
             ->placeholder(__('<nome progetto>idgets.find_doctor.fields.selected_studio.placeholder'))
@@ -155,6 +212,10 @@ protected function getStudioStepSchema(): array
             ->label(__('saluteora::widgets.find_doctor.fields.selected_studio.label'))
             ->placeholder(__('saluteora::widgets.find_doctor.fields.selected_studio.placeholder'))
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             ->readonly()
             ->visible(fn (): bool => !empty($this->data['selected_studio']))
             ->suffixIcon('heroicon-o-check-circle')
@@ -177,6 +238,12 @@ public function selectStudio(int $studioId): void
     $studio = Studio::find($studioId);
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 
 =======
 
@@ -184,6 +251,10 @@ public function selectStudio(int $studioId): void
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     if (!$studio || !$studio->active) {
         $this->addError('selected_studio', 'Studio non disponibile');
         return;
@@ -194,6 +265,12 @@ public function selectStudio(int $studioId): void
     $this->data['selected_studio_name'] = $studio->name;
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 
 =======
 
@@ -201,6 +278,10 @@ public function selectStudio(int $studioId): void
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     // Notifica il cambio di stato
     $this->dispatch('studio-selected', studioId: $studioId, studioName: $studio->name);
 }
@@ -215,6 +296,12 @@ public function selectStudio(int $studioId): void
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+### 2. **Step Selezione Studio**
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 ### 2. **Step Selezione Studio**
 =======
 ### 2. **Step Selezione Studio**
@@ -222,6 +309,10 @@ public function selectStudio(int $studioId): void
 =======
 ### 2. **Step Selezione Studio**  
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - Visualizzazione pulsanti per ogni studio nell'area
 - Click su pulsante = selezione studio
 - Visual feedback immediato (radio indicator + colori)
@@ -244,6 +335,12 @@ protected function getStudiosForSelectedArea(): Collection
     $cacheKey = "studios_area_{$this->data['region']}_{$this->data['province']}_{$this->data['cap']}";
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 
 =======
 
@@ -251,6 +348,10 @@ protected function getStudiosForSelectedArea(): Collection
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     return cache()->remember($cacheKey, 300, function () {
         return Studio::query()
             ->active()
@@ -278,6 +379,12 @@ class FindDoctorWidgetStep2Test extends TestCase
         $studio = Studio::factory()->create(['name' => 'Studio Test']);
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 
 =======
 
@@ -285,12 +392,22 @@ class FindDoctorWidgetStep2Test extends TestCase
 =======
         
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $widget = Livewire::test(FindDoctorAndAppointmentWidget::class)
             ->set('data.region', '12')
             ->set('data.province', 'RM')
             ->set('data.cap', '00042')
             ->call('selectStudio', $studio->id);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 
 =======
@@ -299,6 +416,10 @@ class FindDoctorWidgetStep2Test extends TestCase
 =======
             
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $widget->assertSet('data.selected_studio', $studio->id)
                ->assertSet('data.selected_studio_name', 'Studio Test');
     }
@@ -340,11 +461,20 @@ class FindDoctorWidgetStep2Test extends TestCase
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 **Creato**: 26 Giugno 2025
 **Versione**: 2.0 - Semplificato
 **Stato**: Implementation Ready
 **Approccio**: Pulsanti + TextInput (semplice e diretto)
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 **Creato**: 26 Giugno 2025
 **Versione**: 2.0 - Semplificato
 **Stato**: Implementation Ready
@@ -605,6 +735,11 @@ class FindDoctorWidgetStep2Test extends TestCase
 **Versione**: 2.0 - Semplificato
 **Stato**: Implementation Ready
 **Approccio**: Pulsanti + TextInput (semplice e diretto)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 **Creato**: 26 Giugno 2025  
@@ -612,3 +747,7 @@ class FindDoctorWidgetStep2Test extends TestCase
 **Stato**: Implementation Ready  
 **Approccio**: Pulsanti + TextInput (semplice e diretto) 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

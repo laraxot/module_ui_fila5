@@ -1,6 +1,57 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+# UI - Product Launch Plan
+
+> Piano di lancio. Modulo.
+> Launch readiness stimata: 71%.
+
+## Obiettivo del lancio
+
+Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: design system e componenti UI riusabili.
+
+## Audience interna
+
+- owner di modulo o tema
+- admin/operatori
+- sviluppatori che dipendono dal componente
+
+## Criteri di readiness
+
+- PRD e roadmap aggiornati
+- test critici verdi
+- smoke test del runtime completato
+- gap P0 documentati o chiusi
+
+## Piano di rilascio
+
+### Fase 1 - Internal readiness
+- confermare scope
+- verificare quality gates
+- aggiornare docs e issue
+
+### Fase 2 - Controlled rollout
+- abilitare il componente nel flusso reale
+- monitorare errori, regressioni e feedback
+
+### Fase 3 - Post-launch review
+- confrontare outcome e target
+- spostare i gap residui nel backlog
+
+## Metriche di lancio
+
+| Metrica | Target |
+|--------|--------|
+| Regressioni P0 | 0 |
+| Issue bloccanti dopo rilascio | < 5% delle issue aperte |
+| Documentazione di supporto aggiornata | 100% |
+
+## Rischi
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 # UI Module - Product Launch Plan
 
@@ -168,6 +219,10 @@
 | **Critical Issues** | 0 |
 
 ---
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 - lancio di superfici non ancora supportate dal backend
 - documentazione non aderente al codice reale
@@ -178,7 +233,16 @@
 - [PRD](prd.md)
 - [User Research](user-research.md)
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 *Last Updated: March 12, 2026*
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

@@ -17,6 +17,11 @@ Secondo le regole di organizzazione della documentazione:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 - [Documentazione Frontend](../../Cms/project_docs/frontoffice.md) - Documentazione completa sul frontend
 - [Componenti Blade](../../Cms/project_docs/components.md) - Documentazione sui componenti Blade nel frontend
@@ -27,6 +32,10 @@ Secondo le regole di organizzazione della documentazione:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## Utilizzo dei Componenti UI nel Frontend
 
@@ -49,11 +58,20 @@ Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/docs/
 * [cms-link.md](../../../Lang/docs/cms-link.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 * [cms-link.md](../../../Xot/project_docs/cms-link.md)
 * [cms-link.md](../../../User/project_docs/cms-link.md)
 * [cms-link.md](../../../UI/project_docs/cms-link.md)
 * [cms-link.md](../../../Lang/project_docs/cms-link.md)
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Collegamenti al Modulo Cms
 
 Questo documento fornisce collegamenti bidirezionali tra il modulo UI e il modulo Cms.
@@ -92,6 +110,11 @@ Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/proje
 * [cms-link.md](../../../User/project_docs/cms-link.md)
 * [cms-link.md](../../../UI/project_docs/cms-link.md)
 * [cms-link.md](../../../Lang/project_docs/cms-link.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 * [cms-link.md](../../../Xot/project_docs/cms-link.md)
@@ -99,3 +122,7 @@ Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/proje
 * [cms-link.md](../../../UI/project_docs/cms-link.md)
 * [cms-link.md](../../../Lang/project_docs/cms-link.md)
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

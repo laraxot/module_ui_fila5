@@ -37,7 +37,11 @@ final class Navigation extends XotBaseBlock
     /**
      * @return array<string, Component>
      */
+<<<<<<< HEAD
     public function getFormSchemaOld(): array
+=======
+    public function getFormSchema(): array
+>>>>>>> laraxot/dev
     {
         return [
             'items' => Repeater::make('items')

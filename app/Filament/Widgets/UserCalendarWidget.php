@@ -56,7 +56,11 @@ class UserCalendarWidget extends XotBaseSchemaWidget
     /**
      * @return array<int, TextInput|Grid>
      */
+<<<<<<< HEAD
     public function getFormSchemaOld(): array
+=======
+    public function getFormSchema(): array
+>>>>>>> laraxot/dev
     {
         $action = $this->getActionName(__FUNCTION__);
 

@@ -106,10 +106,20 @@ Modules/UI/
 - Clear migration path
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+### 4. **Autoloader Predictability**
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ### 4. **Autoloader stability**
 =======
 ### 4. **Autoloader Predictability**
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - Eliminates ambiguous class resolution
 - Consistent namespace-to-directory mapping
 - Reliable test discovery and execution
@@ -177,10 +187,20 @@ After cleanup:
 
 - ✅ No more PSR-4 autoloading warnings
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- ✅ Clear, predictable test structure
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 - ✅ Clear, stable test structure
 =======
 - ✅ Clear, predictable test structure
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - ✅ Consistent with Laravel conventions
 - ✅ Compatible with module system
 - ✅ Maintains all existing test functionality
