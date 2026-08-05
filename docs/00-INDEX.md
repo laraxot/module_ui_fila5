@@ -101,13 +101,13 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
-| Testimonials Component | [Predict Homepage](../../Modules/Predict/docs/02-frontend/00-INDEX.md) | Consumer |
+| Testimonials Component | [Predict Homepage](../../Modules/Predict/docs/02-frontend/00-index.md) | Consumer |
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
-| Testimonials Component | [forecast Homepage](../../Modules/Domain/docs/02-frontend/00-INDEX.md) | Consumer |
+| Testimonials Component | [forecast Homepage](../../Modules/Domain/docs/02-frontend/00-index.md) | Consumer |
 =======
-| Testimonials Component | [Predict Homepage](../../Modules/Predict/docs/02-frontend/00-INDEX.md) | Consumer |
+| Testimonials Component | [Predict Homepage](../../Modules/Predict/docs/02-frontend/00-index.md) | Consumer |
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 <<<<<<< HEAD
 =======
@@ -118,17 +118,17 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 
 | Da | A | Tipo |
 |----|---|------|
-| [Theme Index](../../Themes/TwentyOne/docs/00-INDEX.md) | UI Components | Dependency |
+| [Theme Index](../../Themes/TwentyOne/docs/00-index.md) | UI Components | Dependency |
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
-| [Predict Module Index](../../Modules/Predict/docs/00-INDEX.md) | UI Components | Reference |
+| [Predict Module Index](../../Modules/Predict/docs/00-index.md) | UI Components | Reference |
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
-| [forecast Module Index](../../Modules/Domain/docs/00-INDEX.md) | UI Components | Reference |
+| [forecast Module Index](../../Modules/Domain/docs/00-index.md) | UI Components | Reference |
 =======
-| [Predict Module Index](../../Modules/Predict/docs/00-INDEX.md) | UI Components | Reference |
+| [Predict Module Index](../../Modules/Predict/docs/00-index.md) | UI Components | Reference |
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 <<<<<<< HEAD
 =======

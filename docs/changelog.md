@@ -16,10 +16,10 @@ Tutte le variazioni importanti di UI saranno generate automaticamente da semanti
 ---
 module: theme
 topic: changelog
-canonical: ../../../Themes/docs/shared-components/CHANGELOG.md
+canonical: ../../../Themes/docs/shared-components/changelog.md
 ---
 
-See canonical documentation: ../../../Themes/docs/shared-components/CHANGELOG.md
+See canonical documentation: ../../../Themes/docs/shared-components/changelog.md
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD

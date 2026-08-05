@@ -76,7 +76,7 @@ related:
 - Struttura wiki/log.md inizializzata.
 - Layer raw: tutti i file in `docs/` (eccetto `wiki/`).
 - Layer wiki: `docs/wiki/` — LLM-maintained, sintesi ad alto riuso.
-- Schema: `docs/.schema/WIKI_SCHEMA.md`
+- Schema: `docs/.schema/wiki-schema.md`
 - Adozione moduli: `docs/project/llm-wiki-module-adoption.md`
 
 ## 2026-07-22 — PHPStan Modules 0 + geo-boundary

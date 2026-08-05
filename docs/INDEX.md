@@ -330,7 +330,7 @@ laravel/Modules/UI/
 │   ├── Unit/                 # Component unit tests
 │   └── Pest/                 # Pest test suite
 └── docs/
-    ├── INDEX.md              # This file
+    ├── index.md              # This file
     ├── README.md             # Quick start
     ├── PATTERNS.md           # Architecture & decisions
     ├── TROUBLESHOOTING.md    # Common errors
