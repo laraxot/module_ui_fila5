@@ -177,6 +177,7 @@ protected function createApplication()
     $app['config']->set([
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'database.connections.ui.database' => 'quaeris_data_test',
 =======
@@ -190,6 +191,9 @@ protected function createApplication()
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        'database.connections.ui.database' => 'quaeris_data_test',
+>>>>>>> 990a9de5 (.)
     ]);
     
     return $app;

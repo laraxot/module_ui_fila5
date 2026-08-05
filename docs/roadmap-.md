@@ -393,6 +393,7 @@ class ClosedDays extends Field { /* Focused on day selection */ }
 - Smart form validation with ML suggestions
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - Auto-complete components with intelligent predictions
 =======
@@ -406,6 +407,9 @@ class ClosedDays extends Field { /* Focused on day selection */ }
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- Auto-complete components with intelligent predictions
+>>>>>>> 990a9de5 (.)
 - Dynamic form generation based on data patterns
 - Voice-controlled component interactions
 
@@ -751,6 +755,7 @@ class UserCalendarWidget extends XotBaseWidget
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
 =======
@@ -764,6 +769,9 @@ Il modulo **UI** è il sistema di componenti e design system della piattaforma F
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+>>>>>>> 990a9de5 (.)
 
 ### 🏗️ Architettura Modulo
 ```

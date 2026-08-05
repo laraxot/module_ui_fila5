@@ -125,6 +125,7 @@ See the **[LimeSurvey Professional Charts Guide](../../../limesurvey/docs/profes
 **Do NOT** use `dompdf` or client-side canvas capture for charts.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper around Browsershot).
 =======
@@ -138,6 +139,9 @@ The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper arou
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper around Browsershot).
+>>>>>>> 990a9de5 (.)
 
 **Pattern:** "Shadow Report Views"
 1.  Create a dedicated Blade view for the report (linear layout).

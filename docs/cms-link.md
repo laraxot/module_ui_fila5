@@ -16,6 +16,7 @@ Secondo le regole di organizzazione della documentazione:
 - [Filament Integration](../../Cms/docs/filament.md) - Integrazione con Filament
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -36,6 +37,8 @@ Secondo le regole di organizzazione della documentazione:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 
 ## Utilizzo dei Componenti UI nel Frontend
 
@@ -58,6 +61,7 @@ Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/docs/
 * [cms-link.md](../../../Lang/docs/cms-link.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -72,6 +76,8 @@ Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/docs/
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 # Collegamenti al Modulo Cms
 
 Questo documento fornisce collegamenti bidirezionali tra il modulo UI e il modulo Cms.
@@ -111,6 +117,7 @@ Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/proje
 * [cms-link.md](../../../UI/project_docs/cms-link.md)
 * [cms-link.md](../../../Lang/project_docs/cms-link.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -126,3 +133,5 @@ Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/proje
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

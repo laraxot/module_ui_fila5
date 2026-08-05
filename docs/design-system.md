@@ -81,6 +81,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
     </x-slot>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
     Contenuto della card
@@ -106,6 +107,11 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+    Contenuto della card
+
+>>>>>>> 990a9de5 (.)
     <x-slot name="footer">
         Footer della card
     </x-slot>
@@ -158,6 +164,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Filament UI](../../Cms/docs/filament-components.md) 
 =======
 =======
@@ -168,6 +175,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 - [Filament UI](../../Cms/docs/filament-components.md)
 # Design System
 
@@ -306,6 +315,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 - [Filament UI](../../Cms/project_docs/filament-components.md)
 - [Filament UI](../../Cms/project_docs/filament-components.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -318,3 +328,5 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

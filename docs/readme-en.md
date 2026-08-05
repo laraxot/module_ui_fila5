@@ -10,6 +10,7 @@
 [![Laraxot Modules](https://img.shields.io/badge/Architecture-Modular-purple.svg)](#)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 [![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
 =======
@@ -23,6 +24,9 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
+>>>>>>> 990a9de5 (.)
 
 > **Components that don't reinvent the wheel.** Shared design system across modules and theme.
 
@@ -69,6 +73,7 @@ Frontoffice stack: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filamen
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Module** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
 =======
@@ -82,3 +87,6 @@ Frontoffice stack: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filamen
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+**Module** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+>>>>>>> 990a9de5 (.)

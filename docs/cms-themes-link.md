@@ -28,6 +28,7 @@ I componenti UI definiti in questo modulo vengono utilizzati nei temi attraverso
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Compilazione Temi](../../../docs/compilazione_temi.md) - Collegamento nella root alla documentazione sulla compilazione dei temi
 - [Theme Links](../../../docs/theme-links.md) - Collegamenti nella root alla documentazione sui temi
@@ -49,6 +50,10 @@ I componenti UI definiti in questo modulo vengono utilizzati nei temi attraverso
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- [Compilazione Temi](../../../docs/compilazione_temi.md) - Collegamento nella root alla documentazione sulla compilazione dei temi
+- [Theme Links](../../../docs/theme-links.md) - Collegamenti nella root alla documentazione sui temi
+>>>>>>> 990a9de5 (.)
 
 ## Collegamento Bidirezionale
 
@@ -57,6 +62,7 @@ Questo documento è collegato bidirezionalmente con [themes-ui-link.md](../../Cm
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 > Aggiorna entrambi i riferimenti se modifichi la documentazione dei temi o aggiungi nuove sezioni.
 =======
 =======
@@ -67,6 +73,8 @@ Questo documento è collegato bidirezionalmente con [themes-ui-link.md](../../Cm
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 > Aggiorna entrambi i riferimenti se modifichi la documentazione dei temi o aggiungi nuove sezioni.
 # Collegamenti ai Temi nel Modulo Cms
 
@@ -105,6 +113,7 @@ Questo documento è collegato bidirezionalmente con [themes-ui-link.md](../../Cm
 
 > Aggiorna entrambi i riferimenti se modifichi la documentazione dei temi o aggiungi nuove sezioni.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -117,3 +126,5 @@ Questo documento è collegato bidirezionalmente con [themes-ui-link.md](../../Cm
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

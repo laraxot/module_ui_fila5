@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -9,6 +10,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 ---
 title: "custom_theme"
 type: concept
@@ -30,6 +33,7 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -41,6 +45,8 @@ related:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 # custom_theme
 
 <!-- Contenuto migrato da _docs/custom_theme.txt -->
@@ -50,6 +56,7 @@ https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-li
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -58,6 +65,8 @@ https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-li
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 php artisan make:filament-theme admin
 
 add resources/css/filament/admin/theme.css entry to vite.config.js
@@ -70,6 +79,7 @@ in app/Providers/Filament/AdminPanelProvider.php
 
 https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -81,6 +91,8 @@ https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-li
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 
 php artisan make:filament-theme admin
 
@@ -89,6 +101,7 @@ add resources/css/filament/admin/theme.css entry to vite.config.js
 in app/Providers/Filament/AdminPanelProvider.php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ->viteTheme('resources/css/filament/admin/theme.css')
 =======
@@ -106,3 +119,6 @@ in app/Providers/Filament/AdminPanelProvider.php
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+->viteTheme('resources/css/filament/admin/theme.css')
+>>>>>>> 990a9de5 (.)

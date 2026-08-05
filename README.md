@@ -10,6 +10,7 @@
 [![Laraxot Modules](https://img.shields.io/badge/Architecture-Modular-purple.svg)](#)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 [![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
 =======
@@ -23,6 +24,9 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
+>>>>>>> 990a9de5 (.)
 
 > **Componenti che non reinventano la ruota.** Design system condiviso tra moduli e tema.
 
@@ -86,6 +90,7 @@ Dettagli: [`docs/dependency-rules.md`](./docs/dependency-rules.md)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Modulo** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
 =======
@@ -99,3 +104,6 @@ Dettagli: [`docs/dependency-rules.md`](./docs/dependency-rules.md)
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+**Modulo** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+>>>>>>> 990a9de5 (.)

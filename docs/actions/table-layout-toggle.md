@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -69,6 +70,8 @@ class MyListRecords extends ListRecords
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 ---
 title: "TableLayoutToggleTableAction"
 type: concept
@@ -85,8 +88,11 @@ related:
 # TableLayoutToggleTableAction
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 990a9de5 (.)
 ## Scopo
 
 Bottone **Cambia layout** (lista ↔ griglia) sulle `XotBaseListRecords` con `HasXotTable`. Solo UX: stessi record, presentazione diversa.
@@ -113,6 +119,7 @@ click → toggleLayout()
 | `HasXotTable` | Render colonne/griglia da `$layoutView` |
 
 ## Cosa non toccare
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 ## Panoramica
@@ -171,6 +178,8 @@ class MyListRecords extends ListRecords
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 
 - **Non** spostare il toggle in `HasTableLayoutPage` — duplicazione inutile.
 - **Non** rimuovere `TableLayoutTrait` dall’Action — è il punto che scrive sessione al click.
@@ -187,6 +196,7 @@ Vedi [bugfix](../bugfix-table-layout-toggle-not-working.md): bastano `resetTable
 - [Contratto Xot](../../Xot/docs/filament/table-layout-toggle-contract.md)
 - [Tema One — tabelle](../../../Themes/One/docs/filament-resource-schemas-tables.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -199,3 +209,5 @@ Vedi [bugfix](../bugfix-table-layout-toggle-not-working.md): bastano `resetTable
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

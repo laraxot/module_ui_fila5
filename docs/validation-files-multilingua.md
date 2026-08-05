@@ -44,6 +44,7 @@ class OpeningHoursRule implements ValidationRule
     use TransTrait;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -61,6 +62,9 @@ class OpeningHoursRule implements ValidationRule
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
     // Utilizzo nelle validazioni
     $fail(static::trans('validation.opening_hours.morning_before_afternoon', params: [
         'day' => $dayLabel
@@ -215,6 +219,7 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Implementazione completata: gennaio 2025*
 =======
 =======
@@ -225,6 +230,8 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 *Implementazione completata: gennaio 2025*
 # File Validation Multilingua - Modulo UI
 
@@ -424,6 +431,7 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 
 *Implementazione completata: gennaio 2025*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -436,3 +444,5 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

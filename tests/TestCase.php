@@ -16,8 +16,12 @@ use Modules\Xot\Tests\XotBaseTestCase;
 /**
  * Base test case for UI module.
  *
+<<<<<<< HEAD
  * Uses shared sqlite from database.sqlite (no RefreshDatabase).
  * Uses shared sqlite from database.sqlite (no RefreshDatabase).
+=======
+ * Uses shared sqlite from fixcity_data.sqlite (no RefreshDatabase).
+>>>>>>> 990a9de5 (.)
  */
 abstract class TestCase extends XotBaseTestCase
 {
@@ -43,7 +47,11 @@ abstract class TestCase extends XotBaseTestCase
     {
         parent::setUp();
 
+<<<<<<< HEAD
         $database = database_path('database.sqlite');
+=======
+        $database = database_path('fixcity_data.sqlite');
+>>>>>>> 990a9de5 (.)
 
         /** @var array<string, array<string, mixed>> $connections */
         $connections = config('database.connections', []);

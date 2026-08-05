@@ -362,6 +362,7 @@ pub_theme:: → Themes/Sixteen/resources/views/
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Configurato in `config/local/fixcity/xra.php`:
 =======
@@ -375,6 +376,9 @@ Configurato in `config/local/fixcity/xra.php`:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Configurato in `config/local/fixcity/xra.php`:
+>>>>>>> 990a9de5 (.)
 ```php
 'pub_theme' => 'Sixteen',
 ```

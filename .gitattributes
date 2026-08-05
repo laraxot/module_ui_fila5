@@ -7,6 +7,7 @@ CHANGELOG.md export-ignore
 *.psd !text !filter !merge !diff
 *.png !text !filter !merge !diff
 *.svg !text !filter !merge !diff
+<<<<<<< HEAD
 # Binary files (no git LFS)
 *.jpg binary
 *.jpeg binary
@@ -15,6 +16,8 @@ CHANGELOG.md export-ignore
 *.png binary
 *.svg binary
 *.psd binary
+=======
+>>>>>>> 990a9de5 (.)
 *.jpg !text !filter !merge !diff
 *.jpeg !text !filter !merge !diff
 *.gif !text !filter !merge !diff

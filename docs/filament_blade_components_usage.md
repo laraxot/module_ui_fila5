@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Utilizzo dei Componenti Blade di Filament 
 =======
@@ -13,6 +14,9 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+# Utilizzo dei Componenti Blade di Filament 
+>>>>>>> 990a9de5 (.)
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -55,6 +59,7 @@ Filament fornisce una serie di componenti Blade pronti all'uso che dovrebbero es
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di SaluteOra
 =======
@@ -68,6 +73,9 @@ Filament fornisce una serie di componenti Blade pronti all'uso che dovrebbero es
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di SaluteOra
+>>>>>>> 990a9de5 (.)
 - ❌ `<x-filament::layouts.card>` - Non esiste, utilizzare invece una combinazione di `<x-filament::card>` e altri componenti
 - ❌ `<x-filament::layouts.base>` - Non esiste
 
@@ -212,6 +220,7 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ## Gestione delle Rotte 
 =======
@@ -225,6 +234,9 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+## Gestione delle Rotte 
+>>>>>>> 990a9de5 (.)
 
 ### Regole Fondamentali
 
@@ -233,6 +245,7 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
    - Folio gestisce automaticamente le rotte del frontend
 
 2. **Per le pagine frontend**:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -248,6 +261,9 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+   - Creare file Blade in `/var/www/html/saluteora/laravel/Themes/One/resources/views/pages/`
+>>>>>>> 990a9de5 (.)
    - Utilizzare Folio per il routing automatico
    - Esempio: `/profile/index.blade.php` sarà accessibile come `/it/profile`
 

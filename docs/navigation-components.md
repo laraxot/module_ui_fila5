@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Componenti di Navigazione 
 =======
 =======
@@ -11,6 +12,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 # Componenti di Navigazione
 
 ## Indice
@@ -192,6 +195,7 @@ Il componente `user-dropdown` è progettato per gestire automaticamente la visua
 - [Accessibilità](./standards/accessibility.md)
 # Componenti di Navigazione
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -204,6 +208,8 @@ Il componente `user-dropdown` è progettato per gestire automaticamente la visua
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -275,6 +281,7 @@ I componenti di navigazione devono utilizzare sempre le funzioni di localizzazio
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
 =======
@@ -292,6 +299,9 @@ Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/htm
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
+>>>>>>> 990a9de5 (.)
 
 ```php
 return [
@@ -335,6 +345,7 @@ return [
    - Utilizzare i componenti Filament per i dropdown quando possibile
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    - Utilizzare i separatori corretti nei dropdown (div con bordo, non componenti inesistenti)
 =======
@@ -352,3 +363,6 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+   - Utilizzare i separatori corretti nei dropdown (div con bordo, non componenti inesistenti)
+>>>>>>> 990a9de5 (.)

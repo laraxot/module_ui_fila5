@@ -599,6 +599,7 @@ protected function getOptions(): array
 - [Filament 5.x Installation Guide](../../chart/docs/filament-5-installation-guide.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [SimpleChartWidget con Sfondi](../../Quaeris/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
 =======
@@ -612,6 +613,9 @@ protected function getOptions(): array
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- [SimpleChartWidget con Sfondi](../../Quaeris/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
+>>>>>>> 990a9de5 (.)
 
 ### Documentazione Ufficiale
 
@@ -622,6 +626,7 @@ protected function getOptions(): array
 
 **Versione:** 1.0  
 **Ultimo Aggiornamento:** Gennaio 2026  
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -637,3 +642,6 @@ protected function getOptions(): array
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+**Mantenuto da:** Quaeris Development Team
+>>>>>>> 990a9de5 (.)

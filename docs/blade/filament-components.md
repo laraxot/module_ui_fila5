@@ -57,6 +57,7 @@ Frontoffice senza Livewire dedicato — pattern [Alpine](https://filamentphp.com
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Caso Fixcity `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
 =======
@@ -70,6 +71,9 @@ Caso Fixcity `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnala
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Caso Fixcity `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
+>>>>>>> 990a9de5 (.)
 
 ## Esempi di utilizzo
 

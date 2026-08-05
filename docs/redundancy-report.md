@@ -32,6 +32,7 @@ Esiste anche in:
 - `Modules/Blog/app/Models/Category.php`
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - `Modules/Fixcity/app/Models/Category.php`
 =======
@@ -45,6 +46,9 @@ Esiste anche in:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- `Modules/Fixcity/app/Models/Category.php`
+>>>>>>> 990a9de5 (.)
 
 Verificare se ciascun modulo ha la propria tabella `categories` o se dovrebbe usare un modello condiviso.
 

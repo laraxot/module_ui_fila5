@@ -5,6 +5,7 @@ tags: [git, sync, multi-org, laraxot, provtv, quality-gates]
 created: "2026-07-21"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -18,10 +19,13 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 updated: "2026-07-23"
 related:
   - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
   - "./wiki/troubleshooting/git-push-lfs-missing-objects.md"
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -37,6 +41,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
   - "./git-multi-org-sync-handoff.md"
 ---
 
@@ -61,6 +67,7 @@ fetch di tutti i remote, quality gates (PHPStan L10, PHPMD), risincronizzazione 
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - **Blocco LFS lato server (provtv)** (storico): in una sessione precedente si era
   riscritta la storia senza tracking LFS. **Non ripetere** rewrite se evitabile.
@@ -78,6 +85,10 @@ fetch di tutti i remote, quality gates (PHPStan L10, PHPMD), risincronizzazione 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- **Blocco LFS lato server (provtv)** (storico): in una sessione precedente si era
+  riscritta la storia senza tracking LFS. **Non ripetere** rewrite se evitabile.
+>>>>>>> 990a9de5 (.)
 - **Violazione di dipendenza Geo→UI**: `app/Livewire/Components/Map/InteractiveMap.php`
   importava `Modules\\Geo\\Services\\{Geocoding,Map}Service`, un modulo che non fa
   parte di questo progetto e che comunque UI non dovrebbe mai importare
@@ -92,6 +103,7 @@ fetch di tutti i remote, quality gates (PHPStan L10, PHPMD), risincronizzazione 
 | `unpack failed` / `did not receive expected object` | pack thin + storia merge laraxot↔provtv | `git push --no-thin` |
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 | `GH008` / LFS missing su `provtv` | OID LFS non presenti su quel remote | `git lfs fetch laraxot --all` → `git lfs push provtv --all` → push |
 
@@ -113,6 +125,11 @@ Playbook completo: [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+| `GH008` / LFS missing su `provtv` | OID LFS non presenti su quel remote | `git lfs fetch laraxot --all` → `git lfs push provtv --all` → push |
+
+Playbook completo: [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md).
+>>>>>>> 990a9de5 (.)
 
 ## Regola per il futuro
 
@@ -121,6 +138,7 @@ sincronizzare **tutti** i remote elencati, non solo `origin`/`provtv`. Mai forza
 push distruttivi su storie scollegate: preferire `--allow-unrelated-histories` e
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sibling sano, non squash/reset.
 =======
@@ -136,6 +154,9 @@ revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sib
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sibling sano, non squash/reset.
+>>>>>>> 990a9de5 (.)
 
 ### Caso User 2026-07-23 (unrelated)
 

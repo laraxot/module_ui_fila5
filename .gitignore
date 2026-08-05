@@ -244,6 +244,7 @@ docs/legacy/**
 .vscode/
 .windsurf/
 phpstan*
+<<<<<<< HEAD
 
 /.ai*
 /_bmad
@@ -430,3 +431,5 @@ phpmd*
 /docs/legacy
 rector.php
 .php-cs-fixer.cache
+=======
+>>>>>>> 990a9de5 (.)

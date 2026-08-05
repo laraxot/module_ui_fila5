@@ -35,6 +35,7 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
     </x-slot>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -52,6 +53,9 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
     <x-filament::dropdown.list>
         <x-filament::dropdown.list.item>
             {{ __('View') }}
@@ -198,6 +202,7 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
   use function Livewire\Volt\{state, mount};
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -216,12 +221,15 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 
   state([
       'property' => null,
   ]);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -233,12 +241,15 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
   $action = function () {
       // Logica dell'azione
   };
   ?>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -256,6 +267,9 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
   <div>
       <!-- Template del componente -->
   </div>
@@ -271,6 +285,7 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
   use function Livewire\Volt\{state, mount};
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -288,11 +303,14 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 
   middleware(['auth']);
   name('page.name');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -304,12 +322,15 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
   state([
       'property' => null,
   ]);
   ?>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -327,6 +348,9 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
   <x-layouts.main>
       <!-- Contenuto della pagina -->
   </x-layouts.main>
@@ -374,6 +398,7 @@ $logout = function () {
     @endif
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -391,6 +416,9 @@ $logout = function () {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
     @if($isLoggingOut)
         <x-filament::loading-indicator />
     @endif
@@ -440,6 +468,7 @@ $logout = function () {
         @endif
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -457,6 +486,9 @@ $logout = function () {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
         @if($isLoggingOut)
             <x-filament::loading-indicator />
         @endif
@@ -609,6 +641,7 @@ $logout = function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ Testare in entrambi gli stati
 =======
 =======
@@ -619,6 +652,8 @@ $logout = function () {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 - ✅ Testare in entrambi gli stati
 # Guida ai Componenti UI
 
@@ -1077,6 +1112,7 @@ $logout = function () {
 - ✅ Gestire correttamente le traduzioni
 - ✅ Testare in entrambi gli stati
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1089,3 +1125,5 @@ $logout = function () {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

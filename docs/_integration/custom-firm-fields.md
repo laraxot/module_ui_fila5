@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -9,6 +10,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 ---
 title: "custom_firm_fields"
 type: concept
@@ -30,6 +33,7 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -41,6 +45,8 @@ related:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 # custom_firm_fields
 
 <!-- Contenuto migrato da _docs/custom_firm_fields.txt -->
@@ -50,6 +56,7 @@ https://github.com/tanthammar/filament-extras
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -58,6 +65,8 @@ https://github.com/tanthammar/filament-extras
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 //--- with nested ?
 https://github.com/saade/filament-extra
 
@@ -68,6 +77,7 @@ https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-ca
 
 https://github.com/tanthammar/filament-extras
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -79,12 +89,15 @@ https://github.com/tanthammar/filament-extras
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 
 //--- with nested ?
 https://github.com/saade/filament-extra
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
 =======
@@ -104,3 +117,6 @@ https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-ca
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
+>>>>>>> 990a9de5 (.)

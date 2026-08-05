@@ -18,6 +18,7 @@
   <label for="email">Email</label>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <input
     type="email"
@@ -43,6 +44,11 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+  <input
+    type="email"
+    id="email"
+>>>>>>> 990a9de5 (.)
     class="form-control is-invalid"
     aria-describedby="email-error"
   >
@@ -58,6 +64,7 @@
   <label for="search">Cerca</label>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <input
     type="text"
@@ -83,6 +90,11 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+  <input
+    type="text"
+    id="search"
+>>>>>>> 990a9de5 (.)
     class="form-control"
     list="suggestions"
     autocomplete="off"
@@ -103,6 +115,7 @@
   <div class="input-group datepicker">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <input
       type="text"
@@ -128,6 +141,11 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    <input
+      type="text"
+      id="date"
+>>>>>>> 990a9de5 (.)
       class="form-control"
       data-date-format="dd/mm/yyyy"
     >
@@ -145,6 +163,7 @@
   <div class="input-group timepicker">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <input
       type="text"
@@ -170,6 +189,11 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    <input
+      type="text"
+      id="time"
+>>>>>>> 990a9de5 (.)
       class="form-control"
       data-time-format="HH:mm"
     >
@@ -188,6 +212,7 @@
   <label for="range">Range</label>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <input
     type="range"
@@ -213,6 +238,11 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+  <input
+    type="range"
+    id="range"
+>>>>>>> 990a9de5 (.)
     class="form-range"
     min="0"
     max="100"
@@ -230,6 +260,7 @@
     <button class="btn btn-outline-secondary" type="button">-</button>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <input
       type="number"
@@ -255,6 +286,11 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    <input
+      type="number"
+      id="quantity"
+>>>>>>> 990a9de5 (.)
       class="form-control text-center"
       min="0"
       max="100"
@@ -305,6 +341,7 @@
   }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -322,11 +359,14 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 
   &.is-invalid {
     border-color: $danger;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -338,6 +378,8 @@
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
     &:focus {
       box-shadow: 0 0 0 0.2rem rgba($danger, 0.25);
     }
@@ -351,6 +393,7 @@
   transition: all 0.3s ease;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -368,6 +411,9 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
   &:focus-within {
     transform: translateY(-1px);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -382,6 +428,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Performance](./standards/performance.md) 
 =======
 =======
@@ -392,6 +439,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 - [Performance](./standards/performance.md)
 # Componenti Form Avanzati
 
@@ -583,6 +632,7 @@
 - [Accessibilità](./standards/accessibility.md)
 - [Performance](./standards/performance.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -595,3 +645,5 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

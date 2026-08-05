@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -20,6 +21,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/best-practic
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 # Best Practices UI
 
 ## Principi Generali
@@ -274,8 +277,11 @@ class AdvancedForm extends Component
 
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 990a9de5 (.)
 # Best Practices UI
 
 ## Principi Generali
@@ -535,6 +541,7 @@ class AdvancedForm extends Component
 - Breaking changes
 
 ---
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 module: theme
@@ -549,3 +556,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/best-practic
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

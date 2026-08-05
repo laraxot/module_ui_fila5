@@ -13,7 +13,12 @@ use Modules\Xot\Models\BaseModel;
 /**
  * Category model for UI module.
  * FormBuilder module not available - extending from XotBaseModel instead.
+<<<<<<< HEAD
  *
+=======
+ */
+/**
+>>>>>>> 990a9de5 (.)
  * @property string               $id
  * @property string|null          $name
  * @property string               $title
@@ -31,7 +36,10 @@ use Modules\Xot\Models\BaseModel;
  * @property int                  $sort_order
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+<<<<<<< HEAD
  * @property ProfileContract|null $deleter
+=======
+>>>>>>> 990a9de5 (.)
  *
  * @method static CategoryFactory          factory($count = null, $state = [])
  * @method static Builder<static>|Category newModelQuery()
@@ -52,6 +60,11 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Category whereUpdatedAt($value)
  * @method static Builder<static>|Category whereUpdatedBy($value)
  *
+<<<<<<< HEAD
+=======
+ * @property ProfileContract|null $deleter
+ *
+>>>>>>> 990a9de5 (.)
  * @mixin \Eloquent
  */
 class Category extends BaseModel

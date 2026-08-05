@@ -100,6 +100,7 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 | Testimonials Component | [Theme Customization](../../Themes/TwentyOne/docs/components/testimonials.md) | Integration |
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 | Testimonials Component | [Predict Homepage](../../Modules/Predict/docs/02-frontend/00-index.md) | Consumer |
 =======
@@ -113,11 +114,15 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+| Testimonials Component | [Predict Homepage](../../Modules/Predict/docs/02-frontend/00-INDEX.md) | Consumer |
+>>>>>>> 990a9de5 (.)
 
 ### Verso Questo Indice
 
 | Da | A | Tipo |
 |----|---|------|
+<<<<<<< HEAD
 | [Theme Index](../../Themes/TwentyOne/docs/00-index.md) | UI Components | Dependency |
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -134,6 +139,10 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+| [Theme Index](../../Themes/TwentyOne/docs/00-INDEX.md) | UI Components | Dependency |
+| [Predict Module Index](../../Modules/Predict/docs/00-INDEX.md) | UI Components | Reference |
+>>>>>>> 990a9de5 (.)
 
 ---
 
