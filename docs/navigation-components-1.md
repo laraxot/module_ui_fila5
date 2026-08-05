@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Componenti di Navigazione 
+=======
+# Componenti di Navigazione
+>>>>>>> 6e44b7d5 (.)
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -68,7 +72,11 @@ I componenti di navigazione devono utilizzare sempre le funzioni di localizzazio
 
 ### Traduzioni Necessarie
 
+<<<<<<< HEAD
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/saluteora/laravel/lang/{locale}/auth.php`:
+=======
+Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
+>>>>>>> 6e44b7d5 (.)
 
 ```php
 return [

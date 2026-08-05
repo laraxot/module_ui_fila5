@@ -211,6 +211,7 @@ If the component doesn't look right, make sure you have the required Tailwind CS
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Contributions are welcome! Please feel free to submit a Pull Request.
 =======
 =======
@@ -223,6 +224,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## ♻️ Manutenzione
@@ -443,6 +446,7 @@ If the component doesn't look right, make sure you have the required Tailwind CS
 Contributions are welcome! Please feel free to submit a Pull Request.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -457,3 +461,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

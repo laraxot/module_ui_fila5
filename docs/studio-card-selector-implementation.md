@@ -9,6 +9,7 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -19,6 +20,8 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 ## 🏗️ **Architettura Component**
 
 ## 🏗️ **Architettura Component**
@@ -292,6 +295,7 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -305,6 +309,8 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 ### Classe PHP
 ```php
 // Modules/UI/app/Forms/Components/StudioCardSelector.php
@@ -324,6 +330,7 @@ class StudioCardSelector extends Field
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -343,10 +350,13 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 
     // Dati studios da visualizzare
     protected Collection|Closure|null $studios = null;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -362,6 +372,8 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
     // Personalizzazioni UI
     protected bool $showDistance = false;
     protected bool $showSpecializations = false;
@@ -370,6 +382,7 @@ class StudioCardSelector extends Field
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -390,6 +403,9 @@ class StudioCardSelector extends Field
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     // Configure studios data source
     public function studios(Collection|Closure $studios): static
     {
@@ -399,6 +415,7 @@ class StudioCardSelector extends Field
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -419,6 +436,9 @@ class StudioCardSelector extends Field
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     // Enable/disable features
     public function showDistance(bool $show = true): static
     {
@@ -428,6 +448,7 @@ class StudioCardSelector extends Field
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -448,6 +469,9 @@ class StudioCardSelector extends Field
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function showSpecializations(bool $show = true): static
     {
         $this->showSpecializations = $show;
@@ -456,6 +480,7 @@ class StudioCardSelector extends Field
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -476,6 +501,9 @@ class StudioCardSelector extends Field
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function showPhone(bool $show = true): static
     {
         $this->showPhone = $show;
@@ -484,6 +512,7 @@ class StudioCardSelector extends Field
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -504,6 +533,9 @@ class StudioCardSelector extends Field
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     // Layout variants
     public function compact(): static
     {
@@ -513,6 +545,7 @@ class StudioCardSelector extends Field
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -533,6 +566,9 @@ class StudioCardSelector extends Field
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function detailed(): static
     {
         $this->cardLayout = 'detailed';
@@ -541,6 +577,7 @@ class StudioCardSelector extends Field
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -561,6 +598,9 @@ class StudioCardSelector extends Field
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     // Data getters for view
     public function getStudios(): Collection
     {
@@ -569,6 +609,7 @@ class StudioCardSelector extends Field
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -589,6 +630,9 @@ class StudioCardSelector extends Field
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function getCardLayout(): string
     {
         return $this->cardLayout;
@@ -596,6 +640,7 @@ class StudioCardSelector extends Field
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -616,6 +661,9 @@ class StudioCardSelector extends Field
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function shouldShowDistance(): bool
     {
         return $this->showDistance;
@@ -623,6 +671,7 @@ class StudioCardSelector extends Field
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -643,6 +692,9 @@ class StudioCardSelector extends Field
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function shouldShowSpecializations(): bool
     {
         return $this->showSpecializations;
@@ -650,6 +702,7 @@ class StudioCardSelector extends Field
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -670,6 +723,9 @@ class StudioCardSelector extends Field
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function shouldShowPhone(): bool
     {
         return $this->showPhone;
@@ -698,6 +754,7 @@ protected function getStudioStepSchema(): array
 private function getStudiosForLocation(Get $get): Collection
 {
     $cap = $get('cap');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -733,6 +790,11 @@ private function getStudiosForLocation(Get $get): Collection
     $region = $get('region');
 
 >>>>>>> 990a9de5 (.)
+=======
+    $province = $get('province');
+    $region = $get('region');
+
+>>>>>>> 6e44b7d5 (.)
     if (!$cap || !$province || !$region) {
         return collect();
     }
@@ -740,6 +802,7 @@ private function getStudiosForLocation(Get $get): Collection
     return \Modules\<nome modulo>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
     return \Modules\<nome modulo>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
     return \Modules\<nome modulo>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -755,6 +818,8 @@ private function getStudiosForLocation(Get $get): Collection
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
         $q->where('postal_code', $cap)
           ->where('administrative_area_level_3', $province)
           ->where('administrative_area_level_2', $region);
@@ -809,6 +874,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -832,6 +898,8 @@ return [
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 ### Modulo Generico
 - [Widget Analysis](../<nome modulo>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
 ### Modulo Generico
@@ -848,6 +916,7 @@ return [
 **Last Updated**: January 2025
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -862,3 +931,5 @@ return [
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

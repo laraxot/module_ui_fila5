@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "RadioCardSelector Component - Modulo UI"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./full-calendar-1.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # RadioCardSelector Component - Modulo UI
 
 ## 🎯 **Panoramica**
@@ -291,9 +294,15 @@ RadioCardSelector::make('item')
 
 ## 🔗 **Collegamenti**
 
+<<<<<<< HEAD
 - [Widget FindDoctorAndAppointment](../../../../modules/<nome progetto>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
 - [Componenti UI Overview](../components.md)
 - [Best Practices Filament](../../../../../docs/filament-best-practices.md)
+=======
+- [Widget FindDoctorAndAppointment](../../../../Modules/<nome progetto>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
+- [Componenti UI Overview](../components.md)
+- [Best Practices Filament](../../../../docs/filament-best-practices.md)
+>>>>>>> 6e44b7d5 (.)
 
 ---
 

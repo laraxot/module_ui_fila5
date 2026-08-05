@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -47,12 +48,15 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 # carousel_slider
 
 <!-- Contenuto migrato da _docs/carousel_slider.txt -->
 
 https://www.embla-carousel.com/examples/predefined/
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,6 +73,8 @@ https://www.embla-carousel.com/examples/predefined/
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 https://tw-elements.com/docs/standard/components/carousel/
 
 https://keen-slider.io/examples
@@ -79,6 +85,7 @@ https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider
 <!-- Contenuto migrato da _docs/carousel_slider.txt -->
 
 https://www.embla-carousel.com/examples/predefined/
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -95,11 +102,14 @@ https://www.embla-carousel.com/examples/predefined/
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 
 https://tw-elements.com/docs/standard/components/carousel/
 
 https://keen-slider.io/examples
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -123,3 +133,6 @@ https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider
 =======
 https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
 >>>>>>> 990a9de5 (.)
+=======
+https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
+>>>>>>> 6e44b7d5 (.)

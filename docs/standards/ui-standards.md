@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Standard UI"
 type: rule
@@ -16,6 +17,8 @@ related:
   - "./performance.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # Standard UI
 
 ## 🎨 Design System

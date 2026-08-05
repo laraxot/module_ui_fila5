@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Modulo UI"
 type: concept
@@ -13,6 +14,8 @@ related:
   - "./filament-resources-structure.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # Modulo UI
 
 Data: 2025-04-23 19:09:56
@@ -22,7 +25,11 @@ Data: 2025-04-23 19:09:56
 - **Namespace principale**: Modules\\UI
 Modules\\UI\\Database\\Factories
 Modules\\UI\\Database\\Seeders
+<<<<<<< HEAD
 - **Pacchetto Composer**: laraxot/module_ui_fila5
+=======
+- **Pacchetto Composer**: laraxot/module_ui_fila3
+>>>>>>> 6e44b7d5 (.)
 Marco Sottana
 - **Dipendenze**: owenvoke/blade-fontawesome * repositories type path url ../User type path url ../Tenant type path url ../Xot scripts post-autoload-dump1 @php vendor/bin/testbench package:discover --ansi
 - **Totale file PHP**: 330
@@ -516,6 +523,7 @@ tests_old
 
 ## Collegamenti tra versioni di structure.md
 * [structure.md](bashscripts/docs/structure.md)
+<<<<<<< HEAD
 * [structure.md](../../../gdpr/docs/structure.md)
 * [structure.md](../../../notify/docs/structure.md)
 * [structure.md](../../../xot/docs/structure.md)
@@ -531,3 +539,20 @@ tests_old
 * [structure.md](../../../cms/docs/structure.md)
 * [structure.md](../../../cms/docs/themes/structure.md)
 * [structure.md](../../../cms/docs/components/structure.md)
+=======
+* [structure.md](../../../Gdpr/docs/structure.md)
+* [structure.md](../../../Notify/docs/structure.md)
+* [structure.md](../../../Xot/docs/structure.md)
+* [structure.md](../../../Xot/docs/base/structure.md)
+* [structure.md](../../../Xot/docs/config/structure.md)
+* [structure.md](../../../User/docs/structure.md)
+* [structure.md](../../../UI/docs/structure.md)
+* [structure.md](../../../Lang/docs/structure.md)
+* [structure.md](../../../Job/docs/structure.md)
+* [structure.md](../../../Media/docs/structure.md)
+* [structure.md](../../../Tenant/docs/structure.md)
+* [structure.md](../../../Activity/docs/structure.md)
+* [structure.md](../../../Cms/docs/structure.md)
+* [structure.md](../../../Cms/docs/themes/structure.md)
+* [structure.md](../../../Cms/docs/components/structure.md)
+>>>>>>> 6e44b7d5 (.)

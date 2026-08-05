@@ -31,6 +31,7 @@ return array (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     'actions' =>
     array (
@@ -61,6 +62,11 @@ return array (
     array (
         'create' =>
 >>>>>>> 990a9de5 (.)
+=======
+    'actions' =>
+    array (
+        'create' =>
+>>>>>>> 6e44b7d5 (.)
         array (
             'label' => 'create',
         ),
@@ -99,6 +105,7 @@ return array (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   'actions' =>
   array (
@@ -129,6 +136,11 @@ return array (
   array (
     'create' =>
 >>>>>>> 990a9de5 (.)
+=======
+  'actions' =>
+  array (
+    'create' =>
+>>>>>>> 6e44b7d5 (.)
     array (
       'label' => 'create',
     ),
@@ -214,6 +226,7 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Scelta**: Versione HEAD (con strict types e sintassi moderna)
 =======
 =======
@@ -226,6 +239,8 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 - **Scelta**: Versione HEAD (con strict types e sintassi moderna)
 # Risoluzione Conflitti File di Traduzione UI
 
@@ -382,6 +397,7 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 - **Scelta**: Versione HEAD (con strict types e sintassi moderna)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -396,3 +412,5 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

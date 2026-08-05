@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -47,6 +48,8 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 # Sistema di Theming
 
 ## 📊 Stato Implementazione
@@ -86,6 +89,7 @@ class ThemeRegistry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -105,10 +109,13 @@ class ThemeRegistry
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 
     /** @var array<string, array<string, mixed>> */
     protected array $overrides = [];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -124,6 +131,8 @@ class ThemeRegistry
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
     public function register(Theme $theme): void
     {
         $this->themes[$theme->getName()] = $theme;
@@ -131,6 +140,7 @@ class ThemeRegistry
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -151,6 +161,9 @@ class ThemeRegistry
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function override(string $tenant, array $config): void
     {
         $this->overrides[$tenant] = $config;
@@ -170,6 +183,7 @@ class Theme
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -190,6 +204,9 @@ class Theme
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function resolve(string $path, $default = null)
     {
         return Arr::get($this->config, $path, $default);
@@ -197,6 +214,7 @@ class Theme
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -217,6 +235,9 @@ class Theme
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function extend(array $overrides): self
     {
         return new self(
@@ -388,6 +409,7 @@ class ThemeCompiler
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 5. Migliorare documentazione 
 =======
 =======
@@ -400,6 +422,8 @@ class ThemeCompiler
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 5. Migliorare documentazione
 # Sistema di Theming
 
@@ -638,6 +662,7 @@ class ThemeCompiler
 5. Migliorare documentazione
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -652,3 +677,5 @@ class ThemeCompiler
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Supporto per Icone nei Componenti Filament"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./file-upload-component.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # Supporto per Icone nei Componenti Filament
 
 ## Riepilogo della Compatibilità
@@ -128,6 +131,10 @@ Forms\Components\TextInput::make('name')
 ## Riferimenti
 
 - [Documentazione Filament Forms](https://filamentphp.com/docs/3.x/forms/fields/overview)
+<<<<<<< HEAD
 - [API Components Filament](../ui/docs/filament/components-api.md)
+=======
+- [API Components Filament](../UI/docs/filament/components-api.md)
+>>>>>>> 6e44b7d5 (.)
 
 > **NOTA**: Questa documentazione segue la regola di centralizzare tutte le documentazioni UI nel modulo UI con collegamenti bidirezionali dagli altri moduli.

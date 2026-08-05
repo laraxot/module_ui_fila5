@@ -85,6 +85,7 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Tipo Conflitto**: Sintassi PHPStan
 =======
 =======
@@ -97,6 +98,8 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 - **Tipo Conflitto**: Sintassi PHPStan
 - **Scelta**: Versione Branch 988693e (sintassi moderna)
 # Risoluzione Conflitto TableLayoutEnum
@@ -194,6 +197,7 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 - **Scelta**: Versione Branch 988693e (sintassi moderna)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -208,3 +212,5 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

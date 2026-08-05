@@ -32,45 +32,68 @@ class OpeningHoursRule implements ValidationRule
          * }
          * }
          */
+<<<<<<< HEAD
         if (! \is_array($value)) {
             return;
         }
 
         foreach ($days as $dayKey => $dayLabel) {
+=======
+        foreach ($days as $dayKey => $dayLabel) {
+            /* @phpstan-ignore-next-line */
+>>>>>>> 6e44b7d5 (.)
             $dayHours = $value[$dayKey] ?? [];
 
             if (! \is_array($dayHours)) {
                 continue;
             }
 
+<<<<<<< HEAD
             /** @var array<string, mixed> $typedDayHours */
             $typedDayHours = $dayHours;
 
+=======
+>>>>>>> 6e44b7d5 (.)
             // Type narrowing per dayLabel
             $dayLabelString = \is_string($dayLabel) ? $dayLabel : (string) $dayLabel;
 
             // Valida ogni sessione (mattina e pomeriggio)
+<<<<<<< HEAD
             $this->validateSession($typedDayHours, 'morning', $dayLabelString, $fail);
             $this->validateSession($typedDayHours, 'afternoon', $dayLabelString, $fail);
 
             // Valida la coerenza tra sessioni dello stesso giorno
             $this->validateDayLogic($typedDayHours, $dayLabelString, $fail);
+=======
+            $this->validateSession($dayHours, 'morning', $dayLabelString, $fail);
+            $this->validateSession($dayHours, 'afternoon', $dayLabelString, $fail);
+
+            // Valida la coerenza tra sessioni dello stesso giorno
+            $this->validateDayLogic($dayHours, $dayLabelString, $fail);
+>>>>>>> 6e44b7d5 (.)
         }
     }
 
     /**
      * Valida la coerenza tra le sessioni dello stesso giorno.
      */
+<<<<<<< HEAD
     /**
      * @param array<string, mixed> $dayHours
      */
+=======
+>>>>>>> 6e44b7d5 (.)
     private function validateDayLogic(array $dayHours, string $dayLabel, \Closure $fail): void
     {
         $morningTo = $this->cleanTimeValue($dayHours['morning_to'] ?? null);
         $afternoonFrom = $this->cleanTimeValue($dayHours['afternoon_from'] ?? null);
 
         // Se ci sono entrambe le sessioni, la chiusura mattina deve essere prima dell'apertura pomeriggio
+<<<<<<< HEAD
         if (null !== $morningTo && null !== $afternoonFrom) {
+=======
+        if ($morningTo !== null && $afternoonFrom !== null) {
+>>>>>>> 6e44b7d5 (.)
             if ($morningTo >= $afternoonFrom) {
                 $fail(static::trans('validation.morning_before_afternoon', params: ['day' => $dayLabel]));
             }
@@ -80,14 +103,21 @@ class OpeningHoursRule implements ValidationRule
     /**
      * Valida una sessione specifica (mattina o pomeriggio).
      */
+<<<<<<< HEAD
     /**
      * @param array<string, mixed> $dayHours
      */
+=======
+>>>>>>> 6e44b7d5 (.)
     private function validateSession(array $dayHours, string $session, string $dayLabel, \Closure $fail): void
     {
         $fromKey = "{$session}_from";
         $toKey = "{$session}_to";
+<<<<<<< HEAD
         $sessionLabel = 'morning' === $session
+=======
+        $sessionLabel = $session === 'morning'
+>>>>>>> 6e44b7d5 (.)
             ? static::trans('validation.opening_hours.morning')
             : static::trans('validation.opening_hours.afternoon');
 
@@ -106,7 +136,11 @@ class OpeningHoursRule implements ValidationRule
          * }
          */
         // Validazione completezza: se uno è specificato, anche l'altro deve esserlo
+<<<<<<< HEAD
         if (null !== $fromTime && null === $toTime) {
+=======
+        if ($fromTime !== null && $toTime === null) {
+>>>>>>> 6e44b7d5 (.)
             $fail(static::trans('validation.opening_hours.missing_closing_time', params: [
                 'session' => $sessionLabel,
                 'day' => $dayLabel,
@@ -115,7 +149,11 @@ class OpeningHoursRule implements ValidationRule
             return;
         }
 
+<<<<<<< HEAD
         if (null !== $toTime && null === $fromTime) {
+=======
+        if ($toTime !== null && $fromTime === null) {
+>>>>>>> 6e44b7d5 (.)
             $fail(static::trans('validation.opening_hours.missing_opening_time', params: [
                 'session' => $sessionLabel,
                 'day' => $dayLabel,
@@ -125,7 +163,11 @@ class OpeningHoursRule implements ValidationRule
         }
 
         // Validazione logica: apertura deve essere prima della chiusura
+<<<<<<< HEAD
         if (null !== $fromTime && null !== $toTime) {
+=======
+        if ($fromTime !== null && $toTime !== null) {
+>>>>>>> 6e44b7d5 (.)
             if ($fromTime >= $toTime) {
                 $fail(static::trans('validation.opening_hours.opening_before_closing', params: [
                     'session' => $sessionLabel,
@@ -142,14 +184,22 @@ class OpeningHoursRule implements ValidationRule
      */
     private function cleanTimeValue(mixed $value): ?string
     {
+<<<<<<< HEAD
         if (null === $value || '' === $value || '--:--' === $value) {
+=======
+        if ($value === null || $value === '' || $value === '--:--') {
+>>>>>>> 6e44b7d5 (.)
             return null;
         }
 
         if (\is_string($value)) {
             $cleaned = trim($value);
 
+<<<<<<< HEAD
             return '' === $cleaned ? null : $cleaned;
+=======
+            return $cleaned === '' ? null : $cleaned;
+>>>>>>> 6e44b7d5 (.)
         }
 
         return null;

@@ -10,7 +10,10 @@ return [
             'help' => 'Identifikační název prvku',
             'description' => 'Název objektu',
             'helper_text' => '',
+<<<<<<< HEAD
             'tooltip' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
         ],
         'edit-name' => [
             'label' => 'Upravit název',
@@ -18,7 +21,10 @@ return [
             'help' => 'Upravit existující název',
             'description' => 'Akce pro úpravu názvu',
             'helper_text' => '',
+<<<<<<< HEAD
             'tooltip' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
         ],
         'change-state' => [
             'label' => 'Změnit stav',
@@ -26,7 +32,10 @@ return [
             'help' => 'Upravit aktuální stav',
             'description' => 'Akce pro změnu stavu',
             'helper_text' => '',
+<<<<<<< HEAD
             'tooltip' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
         ],
         'state' => [
             'label' => 'Stav',
@@ -34,7 +43,10 @@ return [
             'help' => 'Aktuální stav prvku',
             'description' => 'Aktuální systémová podmínka',
             'helper_text' => '',
+<<<<<<< HEAD
             'tooltip' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
         ],
         'message' => [
             'label' => 'Zpráva',
@@ -42,7 +54,10 @@ return [
             'help' => 'Informativní zpráva',
             'description' => 'Text zprávy',
             'helper_text' => '',
+<<<<<<< HEAD
             'tooltip' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
         ],
     ],
     'messages' => [
@@ -56,6 +71,7 @@ return [
             'title' => 'Chyba přechodu',
         ],
     ],
+<<<<<<< HEAD
     'navigation' => [
         'label' => 'Missing Navigation Label',
         'plural_label' => 'Missing Navigation Plural Label',
@@ -67,4 +83,6 @@ return [
     'plural_label' => 'Missing Plural label',
     'actions' => [
     ],
+=======
+>>>>>>> 6e44b7d5 (.)
 ];

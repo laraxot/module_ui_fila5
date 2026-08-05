@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -47,12 +48,15 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 # custom_theme
 
 <!-- Contenuto migrato da _docs/custom_theme.txt -->
 
 https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67,6 +71,8 @@ https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-li
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 php artisan make:filament-theme admin
 
 add resources/css/filament/admin/theme.css entry to vite.config.js
@@ -80,6 +86,7 @@ in app/Providers/Filament/AdminPanelProvider.php
 https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -93,6 +100,8 @@ https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-li
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 
 php artisan make:filament-theme admin
 
@@ -102,6 +111,7 @@ in app/Providers/Filament/AdminPanelProvider.php
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ->viteTheme('resources/css/filament/admin/theme.css')
 =======
@@ -122,3 +132,6 @@ in app/Providers/Filament/AdminPanelProvider.php
 =======
 ->viteTheme('resources/css/filament/admin/theme.css')
 >>>>>>> 990a9de5 (.)
+=======
+->viteTheme('resources/css/filament/admin/theme.css')
+>>>>>>> 6e44b7d5 (.)

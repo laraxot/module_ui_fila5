@@ -80,6 +80,7 @@ Mostra documentazione al passaggio del mouse su:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 public static function form(Form $form): Form
 public static function form(Form $form): Form
@@ -106,6 +107,11 @@ public static function form(Form $form): Form
 public static function form(Form $form): Form
 public static function form(Form $form): Form
 >>>>>>> 990a9de5 (.)
+=======
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+>>>>>>> 6e44b7d5 (.)
 {
     return $form->schema([
         // Digitare 'fil-text' e premere Tab
@@ -115,6 +121,7 @@ public static function form(Form $form): Form
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -135,6 +142,9 @@ public static function form(Form $form): Form
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
         // Digitare 'fil-select' e premere Tab
         Select::make('status')
             ->options([
@@ -145,6 +155,7 @@ public static function form(Form $form): Form
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -165,6 +176,9 @@ public static function form(Form $form): Form
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
         // Digitare 'fil-rich' e premere Tab
         RichEditor::make('content')
             ->required()
@@ -188,6 +202,7 @@ public static function table(Table $table): Table
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -208,6 +223,9 @@ public static function table(Table $table): Table
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
             // Digitare 'fil-col' e premere Tab
             IconColumn::make('status')
                 ->boolean(),
@@ -250,6 +268,7 @@ Forms\Components\Wizard::make([
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -270,6 +289,9 @@ Forms\Components\Wizard::make([
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
                     Forms\Components\TextInput::make('last_name')
                         ->required(),
                 ]),
@@ -329,6 +351,7 @@ Forms\Components\Wizard::make([
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack) 
 =======
 =======
@@ -341,6 +364,8 @@ Forms\Components\Wizard::make([
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 - [Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack)
 # Filament VSCode Extension
 
@@ -511,6 +536,7 @@ Forms\Components\Wizard::make([
 1. Organizzazione del codice
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -525,3 +551,5 @@ Forms\Components\Wizard::make([
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

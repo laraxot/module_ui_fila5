@@ -112,6 +112,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -132,11 +133,14 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 <button
   type="button"
   class="btn btn-secondary"
   data-bs-toggle="tooltip"
   data-bs-placement="top"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -152,6 +156,8 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
   title="Tooltip in alto"
 >
   Tooltip
@@ -160,6 +166,7 @@
 
 ### Popover
 ```html
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -183,11 +190,14 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 <button
   type="button"
   class="btn btn-secondary"
   data-bs-toggle="popover"
   data-bs-placement="right"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -203,6 +213,8 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
   data-bs-content="Contenuto del popover"
   title="Titolo Popover"
 >
@@ -215,6 +227,7 @@
 ### Progress Bar
 ```html
 <div class="progress">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -239,12 +252,15 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
   <div
     class="progress-bar progress-bar-striped progress-bar-animated"
     role="progressbar"
     style="width: 75%"
     aria-valuenow="75"
     aria-valuemin="0"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -260,6 +276,8 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
     aria-valuemax="100"
   >
     75%
@@ -325,6 +343,7 @@ $zindex-tooltip: 1070;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Performance](./standards/performance.md) 
 =======
 =======
@@ -337,6 +356,8 @@ $zindex-tooltip: 1070;
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 - [Performance](./standards/performance.md)
 # Componenti Feedback e Notifiche
 
@@ -549,6 +570,7 @@ $zindex-tooltip: 1070;
 - [Performance](./standards/performance.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -563,3 +585,5 @@ $zindex-tooltip: 1070;
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

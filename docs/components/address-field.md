@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -47,6 +48,8 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 # AddressField Component
 
 ## Panoramica
@@ -84,6 +87,7 @@ AddressField::make('address')
 3. Configurare correttamente i servizi di geocoding
 4. Testare con diversi formati di indirizzo
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -101,6 +105,9 @@ AddressField::make('address')
 =======
 >>>>>>> 990a9de5 (.)
 [Torna alla documentazione UI](/docs/modules/module-ui-1.md#components)
+=======
+[Torna alla documentazione UI](/docs/modules/module_ui.md#components)
+>>>>>>> 6e44b7d5 (.)
 # AddressField Component
 
 ## Panoramica
@@ -138,6 +145,7 @@ AddressField::make('address')
 3. Configurare correttamente i servizi di geocoding
 4. Testare con diversi formati di indirizzo
 
+<<<<<<< HEAD
 [Torna alla documentazione UI](/docs/modules/module-ui-1.md#components)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -155,3 +163,6 @@ AddressField::make('address')
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+[Torna alla documentazione UI](/docs/modules/module_ui.md#components)
+>>>>>>> 6e44b7d5 (.)

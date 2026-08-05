@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 return [
+<<<<<<< HEAD
     'values' => [
         'list' => [
             'label' => 'Liste',
@@ -17,10 +18,13 @@ return [
             'description' => 'Grille',
         ],
     ],
+=======
+>>>>>>> 6e44b7d5 (.)
     'actions' => [
         'toggle' => [
             'label' => 'Basculer la disposition',
             'tooltip' => 'Basculer entre la vue liste et la vue grille',
+<<<<<<< HEAD
             'helper_text' => 'Changer le type d\'affichage',
         ],
     ],
@@ -35,4 +39,9 @@ return [
     'plural_label' => 'Missing Plural label',
     'fields' => [
     ],
+=======
+            'helper_text' => "Changer le type d'affichage",
+        ],
+    ],
+>>>>>>> 6e44b7d5 (.)
 ];

@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 return [
+<<<<<<< HEAD
     'values' => [
         'list' => [
             'label' => 'List',
@@ -17,6 +18,8 @@ return [
             'description' => 'Grid',
         ],
     ],
+=======
+>>>>>>> 6e44b7d5 (.)
     'actions' => [
         'toggle' => [
             'label' => 'Toggle Layout',
@@ -24,6 +27,7 @@ return [
             'helper_text' => 'Change the display type',
         ],
     ],
+<<<<<<< HEAD
     'navigation' => [
         'label' => 'Missing Navigation Label',
         'plural_label' => 'Missing Navigation Plural Label',
@@ -35,4 +39,6 @@ return [
     'plural_label' => 'Missing Plural label',
     'fields' => [
     ],
+=======
+>>>>>>> 6e44b7d5 (.)
 ];

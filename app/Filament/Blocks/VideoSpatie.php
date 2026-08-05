@@ -23,7 +23,11 @@ final class VideoSpatie
             ->schema([
                 Hidden::make('img_uuid')
                     ->default(Str::uuid()->toString(...))
+<<<<<<< HEAD
                     ->formatStateUsing(static fn ($state) => $state ?? Str::uuid()->toString())
+=======
+                    ->formatStateUsing(fn ($state) => $state ?? Str::uuid()->toString())
+>>>>>>> 6e44b7d5 (.)
                     ->live(),
                 // ->required(),
 
@@ -41,8 +45,13 @@ final class VideoSpatie
                     ->previewable()
                     ->downloadable()
                     // ->rules(Rule::dimensions()->maxWidth(600)->maxHeight(800))
+<<<<<<< HEAD
                     ->collection(static fn (Get $get) => $get('img_uuid'))
                     ->afterStateUpdated(static function (
+=======
+                    ->collection(fn (Get $get) => $get('img_uuid'))
+                    ->afterStateUpdated(function (
+>>>>>>> 6e44b7d5 (.)
                         HasForms $_livewire,
                         SpatieMediaLibraryFileUpload $_component,
                         TemporaryUploadedFile $state,
@@ -52,10 +61,17 @@ final class VideoSpatie
                         // Call to an undefined method Filament\Forms\Contracts\HasForms::validateOnly().
                         // $livewire->validateOnly($component->getStatePath());
                         Assert::string(
+<<<<<<< HEAD
                             $collectionName = $get('img_uuid'),
                             '['.__LINE__.']['.class_basename(self::class).']',
                         );
                         $record->addMedia($state)->withResponsiveImages()->toMediaCollection($collectionName);
+=======
+                            $collection_name = $get('img_uuid'),
+                            '['.__LINE__.']['.class_basename(self::class).']',
+                        );
+                        $record->addMedia($state)->withResponsiveImages()->toMediaCollection($collection_name);
+>>>>>>> 6e44b7d5 (.)
                     }),
                 /*
                  * Select::make('ratio')
@@ -72,12 +88,18 @@ final class VideoSpatie
                 // ->customProperties(fn(Forms\Get $get) => ['gallery_id' => $get('gallery_id')]),
                 // Forms\Components\SpatieMediaLibraryFileUpload::make('media_id')
             ])
+<<<<<<< HEAD
             ->columns('form' === $context ? 2 : 1);
     }
 
     /**
      * @return array<string, string>
      */
+=======
+            ->columns($context === 'form' ? 2 : 1);
+    }
+
+>>>>>>> 6e44b7d5 (.)
     public static function getRatios(): array
     {
         return [

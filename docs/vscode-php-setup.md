@@ -135,6 +135,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 "/ tasks.json
 =======
@@ -167,6 +168,9 @@
 =======
                 "/ tasks.json
 >>>>>>> 990a9de5 (.)
+=======
+                "/ tasks.json
+>>>>>>> 6e44b7d5 (.)
 {
     "version": "2.0.0",
     "tasks": [
@@ -263,6 +267,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Filament Documentation](https://filamentphp.com/docs) 
 =======
 =======
@@ -275,6 +280,8 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 - [Filament Documentation](https://filamentphp.com/docs)
 # Configurazione VSCode per PHP e Filament
 
@@ -506,6 +513,7 @@
 - [Filament Documentation](https://filamentphp.com/docs)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -520,3 +528,5 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

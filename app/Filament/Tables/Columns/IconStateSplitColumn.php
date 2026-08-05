@@ -6,11 +6,20 @@ namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Livewire\Attributes\On;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Contracts\StateContract;
 use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
+=======
+use Filament\Tables\Columns\Column;
+use Illuminate\Database\Eloquent\Model;
+use Livewire\Attributes\On;
+use Modules\Xot\Contracts\StateContract;
+use Spatie\ModelStates\HasStatesContract;
+use Spatie\ModelStates\State;
+>>>>>>> 6e44b7d5 (.)
 
 /**
  * IconStateSplitColumn - Enhanced state transition column with compact grid layout.
@@ -22,7 +31,11 @@ use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
  * - Proper error handling and notifications
  * - Mobile-friendly design
  */
+<<<<<<< HEAD
 final class IconStateSplitColumn extends XotBaseColumn
+=======
+final class IconStateSplitColumn extends Column
+>>>>>>> 6e44b7d5 (.)
 {
     protected string $view = 'ui::filament.tables.columns.icon-state-split';
 
@@ -33,8 +46,13 @@ final class IconStateSplitColumn extends XotBaseColumn
     /**
      * Configure the state class and model class for this column.
      *
+<<<<<<< HEAD
      * @param string $stateClass The state machine class (e.g., AppointmentState::class)
      * @param string $modelClass The model class (e.g., Appointment::class)
+=======
+     * @param  string  $stateClass  The state machine class (e.g., AppointmentState::class)
+     * @param  string  $modelClass  The model class (e.g., Appointment::class)
+>>>>>>> 6e44b7d5 (.)
      */
     public function stateClass(string $stateClass, string $modelClass): static
     {
@@ -60,6 +78,7 @@ final class IconStateSplitColumn extends XotBaseColumn
                 continue;
             }
 
+<<<<<<< HEAD
             $labelString = SafeStringCastAction::cast($stateInstance->label());
 
             $result[$stateKey] = [
@@ -67,6 +86,15 @@ final class IconStateSplitColumn extends XotBaseColumn
                 'icon' => SafeStringCastAction::cast($stateInstance->icon()),
                 'label' => $labelString,
                 'color' => SafeStringCastAction::cast($stateInstance->color()),
+=======
+            $labelString = (string) $stateInstance->label();
+
+            $result[$stateKey] = [
+                'class' => $stateInstance,
+                'icon' => (string) $stateInstance->icon(),
+                'label' => $labelString,
+                'color' => (string) $stateInstance->color(),
+>>>>>>> 6e44b7d5 (.)
                 'tooltip' => $labelString,
             ];
         }
@@ -79,10 +107,15 @@ final class IconStateSplitColumn extends XotBaseColumn
         try {
             $record = $this->getCachedRecord($recordId);
 
+<<<<<<< HEAD
             $recordState = $record?->getAttribute('state');
 
             return \is_object($recordState) && method_exists($recordState, 'canTransitionTo')
                 ? (bool) $recordState->canTransitionTo($stateClass)
+=======
+            return $record && isset($record->state) && $record->state instanceof State
+                ? $record->state->canTransitionTo($stateClass)
+>>>>>>> 6e44b7d5 (.)
                 : false;
         } catch (\Exception) {
             return false;
@@ -129,7 +162,11 @@ final class IconStateSplitColumn extends XotBaseColumn
     #[On('table-action')]
     public function handleTableAction(string $action, int|string $recordId): void
     {
+<<<<<<< HEAD
         if ('prova' === $action) {
+=======
+        if ($action === 'prova') {
+>>>>>>> 6e44b7d5 (.)
             $this->prova($recordId);
         }
     }
@@ -142,7 +179,11 @@ final class IconStateSplitColumn extends XotBaseColumn
         try {
             $record = $this->getRecordForTransition($recordId);
             $state = $record->getAttribute('state');
+<<<<<<< HEAD
             if (! \is_object($state) || ! method_exists($state, 'transitionTo')) {
+=======
+            if (! ($state instanceof State)) {
+>>>>>>> 6e44b7d5 (.)
                 throw new \Exception(__('ui::icon_state.messages.invalid_state_instance'));
             }
             $state->transitionTo($stateClass);
@@ -164,11 +205,19 @@ final class IconStateSplitColumn extends XotBaseColumn
 
         $stateMapping = $this->stateClass::getStateMapping();
 
+<<<<<<< HEAD
         if (\is_object($stateMapping) && method_exists($stateMapping, 'toArray')) {
             /** @var array<string, string> $statesArray */
             $statesArray = $stateMapping->toArray();
 
             return \is_array($statesArray) ? $statesArray : [];
+=======
+        if (is_object($stateMapping) && method_exists($stateMapping, 'toArray')) {
+            /** @var array<string, string> $statesArray */
+            $statesArray = $stateMapping->toArray();
+
+            return is_array($statesArray) ? $statesArray : [];
+>>>>>>> 6e44b7d5 (.)
         }
 
         return [];
@@ -177,12 +226,20 @@ final class IconStateSplitColumn extends XotBaseColumn
     private function getStateInstance(mixed $stateClassItem, mixed $record): ?StateContract
     {
         try {
+<<<<<<< HEAD
             if (! \is_string($stateClassItem) || ! class_exists($stateClassItem)) {
+=======
+            if (! is_string($stateClassItem) || ! class_exists($stateClassItem)) {
+>>>>>>> 6e44b7d5 (.)
                 return null;
             }
 
             $stateInstance = new $stateClassItem($record);
+<<<<<<< HEAD
             if (! $stateInstance instanceof StateContract) {
+=======
+            if (! ($stateInstance instanceof StateContract)) {
+>>>>>>> 6e44b7d5 (.)
                 return null;
             }
 
@@ -200,7 +257,11 @@ final class IconStateSplitColumn extends XotBaseColumn
 
         $record = $this->modelClass::find($recordId);
 
+<<<<<<< HEAD
         return \is_object($record) && $record instanceof Model ? $record : null;
+=======
+        return is_object($record) && $record instanceof Model ? $record : null;
+>>>>>>> 6e44b7d5 (.)
     }
 
     private function getProvaAction(): Action
@@ -210,8 +271,13 @@ final class IconStateSplitColumn extends XotBaseColumn
         return Action::make('prova')
             ->icon('heroicon-m-plus')
             ->color('primary')
+<<<<<<< HEAD
             ->action(static function () use ($record): void {
                 $recordId = $record && isset($record->id) ? SafeStringCastAction::cast($record->id) : 'N/A';
+=======
+            ->action(function () use ($record): void {
+                $recordId = $record && isset($record->id) ? ((string) $record->id) : 'N/A';
+>>>>>>> 6e44b7d5 (.)
                 Notification::make()
                     ->title(__('ui::actions.prova.title'))
                     ->body(__('ui::actions.prova.body', ['id' => $recordId]))
@@ -221,11 +287,16 @@ final class IconStateSplitColumn extends XotBaseColumn
     }
 
     /**
+<<<<<<< HEAD
      * @param array{class: StateContract, icon: string, label: string, color: string, tooltip: string} $stateData
+=======
+     * @param  array{class: StateContract, icon: string, label: string, color: string, tooltip: string}  $stateData
+>>>>>>> 6e44b7d5 (.)
      */
     private function getTransitionAction(string $stateKey, array $stateData): ?Action
     {
         $record = $this->getRecord();
+<<<<<<< HEAD
         $recordIdRaw = \is_object($record) && isset($record->id) ? $record->id : null;
 
         if (null === $recordIdRaw || (! \is_int($recordIdRaw) && ! \is_string($recordIdRaw))) {
@@ -233,6 +304,15 @@ final class IconStateSplitColumn extends XotBaseColumn
         }
 
         $recordId = \is_int($recordIdRaw) ? $recordIdRaw : SafeStringCastAction::cast($recordIdRaw);
+=======
+        $recordIdRaw = is_object($record) && isset($record->id) ? $record->id : null;
+
+        if ($recordIdRaw === null || (! is_int($recordIdRaw) && ! is_string($recordIdRaw))) {
+            return null;
+        }
+
+        $recordId = is_int($recordIdRaw) ? $recordIdRaw : (string) $recordIdRaw;
+>>>>>>> 6e44b7d5 (.)
         $stateClass = $stateData['class'];
         $stateClassName = $stateClass::class;
 
@@ -248,6 +328,12 @@ final class IconStateSplitColumn extends XotBaseColumn
             });
     }
 
+<<<<<<< HEAD
+=======
+    /**
+     * @return Model&HasStatesContract
+     */
+>>>>>>> 6e44b7d5 (.)
     private function getRecordForTransition(int|string $recordId): Model
     {
         if (! class_exists($this->modelClass) || ! method_exists($this->modelClass, 'find')) {
@@ -256,12 +342,20 @@ final class IconStateSplitColumn extends XotBaseColumn
 
         $recordRaw = $this->modelClass::find($recordId);
 
+<<<<<<< HEAD
         if (! \is_object($recordRaw) || ! ($recordRaw instanceof Model)) {
             throw new \Exception(__('ui::icon_state.messages.record_not_found'));
         }
 
         $recordState = $recordRaw->getAttribute('state');
         if (! \is_object($recordState) || ! method_exists($recordState, 'transitionTo')) {
+=======
+        if (! is_object($recordRaw) || ! ($recordRaw instanceof HasStatesContract) || ! ($recordRaw instanceof Model)) {
+            throw new \Exception(__('ui::icon_state.messages.record_not_found'));
+        }
+
+        if (! isset($recordRaw->state) || ! ($recordRaw->state instanceof State)) {
+>>>>>>> 6e44b7d5 (.)
             throw new \Exception(__('ui::icon_state.messages.invalid_state_instance'));
         }
 

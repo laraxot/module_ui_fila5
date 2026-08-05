@@ -9,6 +9,7 @@ return [
             'description' => 'method',
             'helper_text' => 'method',
             'placeholder' => 'method',
+<<<<<<< HEAD
             'tooltip' => '',
         ],
         '_tpl' => [
@@ -35,4 +36,14 @@ return [
     'plural_label' => 'Missing Plural label',
     'actions' => [
     ],
+=======
+        ],
+        '_tpl' => [
+            'label' => '_tpl',
+        ],
+        'view' => [
+            'label' => 'view',
+        ],
+    ],
+>>>>>>> 6e44b7d5 (.)
 ];

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Bugfix: IconColumn Estende Direttamente Filament Column"
 type: concept
@@ -12,6 +13,8 @@ related:
   - "./iconcolumn-view-path-fix.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # Bugfix: IconColumn Estende Direttamente Filament Column
 
 **Data Fix**: 11 Novembre 2025

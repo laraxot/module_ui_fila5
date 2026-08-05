@@ -4,18 +4,29 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
+<<<<<<< HEAD
 use Illuminate\Support\Collection;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Filament\Forms\Components\XotBaseField;
 
 final class RadioCollection extends XotBaseField
+=======
+use Filament\Forms\Components\Field;
+use Illuminate\Support\Collection;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
+
+final class RadioCollection extends Field
+>>>>>>> 6e44b7d5 (.)
 {
     protected string $view = 'ui::filament.forms.components.radio-collection';
 
     /**
      * Callback per ottenere gli studi.
      */
+<<<<<<< HEAD
     /** @var \Closure|Collection<int|string, mixed>|null */
+=======
+>>>>>>> 6e44b7d5 (.)
     protected \Closure|Collection|null $options = null;
 
     protected string $itemView;
@@ -25,9 +36,12 @@ final class RadioCollection extends XotBaseField
     /**
      * Set the options collection for the radio buttons.
      */
+<<<<<<< HEAD
     /**
      * @param \Closure|Collection<int|string, mixed>|null $options
      */
+=======
+>>>>>>> 6e44b7d5 (.)
     public function options(\Closure|Collection|null $options): static
     {
         $this->options = $options;

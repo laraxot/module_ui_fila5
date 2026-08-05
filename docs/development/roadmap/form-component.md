@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Form Component"
 type: concept
@@ -14,6 +15,8 @@ related:
   - "./theme-system.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # Form Component
 
 ## 📊 Stato Implementazione

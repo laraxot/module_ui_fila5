@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Filament 4 Components Development Guide"
 type: guide
@@ -18,6 +19,8 @@ related:
   - "./file-upload-component.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # Filament 4 Components Development Guide
 
 ## Overview

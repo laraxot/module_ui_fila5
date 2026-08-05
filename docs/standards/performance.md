@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Standard di Performance"
 type: concept
@@ -16,6 +17,8 @@ related:
   - "./ui-standards.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # Standard di Performance
 
 ## 🚀 Metriche Core Web Vitals
@@ -118,6 +121,7 @@ setTimeout(() => {
 - [Componenti Base](../base-components.md)
 ## Collegamenti tra versioni di performance.md
 * [performance.md](laravel/vendor/spatie/laravel-data/docs/advanced-usage/performance.md)
+<<<<<<< HEAD
 * [performance.md](../../../xot/docs/features/performance.md)
 * [performance.md](../../../xot/docs/packages/performance.md)
 * [performance.md](../../../xot/docs/roadmap/architecture/performance.md)
@@ -125,3 +129,12 @@ setTimeout(() => {
 * [performance.md](../../../lang/docs/packages/performance.md)
 * [performance.md](../../../job/docs/packages/performance.md)
 * [performance.md](../../../cms/docs/frontoffice/performance.md)
+=======
+* [performance.md](../../../Xot/docs/features/performance.md)
+* [performance.md](../../../Xot/docs/packages/performance.md)
+* [performance.md](../../../Xot/docs/roadmap/architecture/performance.md)
+* [performance.md](../../../UI/docs/standards/performance.md)
+* [performance.md](../../../Lang/docs/packages/performance.md)
+* [performance.md](../../../Job/docs/packages/performance.md)
+* [performance.md](../../../Cms/docs/frontoffice/performance.md)
+>>>>>>> 6e44b7d5 (.)

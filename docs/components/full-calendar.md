@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -47,6 +48,8 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 # FullCalendar Component for Filament
 
 ## Introduction
@@ -99,6 +102,7 @@ use Saade\FilamentFullCalendar\Data\EventData;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  *
 =======
@@ -119,6 +123,9 @@ use Saade\FilamentFullCalendar\Data\EventData;
 =======
  *
 >>>>>>> 990a9de5 (.)
+=======
+ *
+>>>>>>> 6e44b7d5 (.)
  * Provides core functionality for all calendars in the application.
  */
 abstract class BaseCalendarWidget extends FullCalendarWidget
@@ -162,6 +169,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -182,6 +190,9 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
             Forms\Components\Grid::make()
                 ->schema([
                     Forms\Components\DateTimePicker::make('start_date')
@@ -190,6 +201,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -210,6 +222,9 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
                     Forms\Components\DateTimePicker::make('end_date')
                         ->label(__('ui::calendar.fields.end_date.label'))
                         ->required(),
@@ -217,6 +232,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -237,6 +253,9 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
             Forms\Components\Textarea::make('description')
                 ->label(__('ui::calendar.fields.description.label'))
                 ->placeholder(__('ui::calendar.fields.description.placeholder'))
@@ -244,6 +263,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -264,11 +284,14 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 
             Forms\Components\ColorPicker::make('color')
                 ->label(__('ui::calendar.fields.color.label'))
                 ->rgb(),
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -284,6 +307,8 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
             Forms\Components\Toggle::make('is_all_day')
                 ->label(__('ui::calendar.fields.is_all_day.label'))
                 ->default(false),
@@ -431,6 +456,7 @@ To use the widget in a Blade view:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -438,11 +464,14 @@ To use the widget in a Blade view:
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+>>>>>>> 6e44b7d5 (.)
 - [Ptv Module - Calendar Usage](../../Ptv/docs/features/full_calendar.md)
 - [Official Saade FullCalendar Documentation](https://github.com/saade/filament-fullcalendar)
 - [FullCalendar.io Documentation](https://fullcalendar.io/docs)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Last updated: June 2025*
 =======
 <<<<<<< HEAD
@@ -456,6 +485,9 @@ To use the widget in a Blade view:
 - [FullCalendar.io Documentation](https://fullcalendar.io/docs)
 
 *
+=======
+*Last updated: June 2025*
+>>>>>>> 6e44b7d5 (.)
 # FullCalendar Component for Filament
 
 ## Introduction
@@ -711,6 +743,7 @@ To use the widget in a Blade view:
 
 ## Backlinks and References
 
+<<<<<<< HEAD
 - [Ptv Module - Calendar Usage](../../ptv/docs/features/full-calendar-1.md)
 - [Official Saade FullCalendar Documentation](https://github.com/saade/filament-fullcalendar)
 - [FullCalendar.io Documentation](https://fullcalendar.io/docs)
@@ -732,3 +765,10 @@ To use the widget in a Blade view:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+- [Ptv Module - Calendar Usage](../../Ptv/docs/features/full_calendar.md)
+- [Official Saade FullCalendar Documentation](https://github.com/saade/filament-fullcalendar)
+- [FullCalendar.io Documentation](https://fullcalendar.io/docs)
+
+*Last updated: June 2025*
+>>>>>>> 6e44b7d5 (.)

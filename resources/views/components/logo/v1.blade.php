@@ -10,7 +10,11 @@ declare(strict_types=1);
 </svg>
 --}}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <img src="{{ asset('assets/branding/img/logo-ft.svg') }}" alt="{{ config('app.name') }}" class="h-8 w-auto" />
 =======
 <img src="{{ asset('assets/predict/img/logo-ft.svg') }}" alt="{{ config('app.name') }}" class="h-8 w-auto" />
 >>>>>>> 990a9de5 (.)
+=======
+<x-filament-panels::logo class="w-auto h-16 mx-auto text-indigo-600" />
+>>>>>>> 6e44b7d5 (.)

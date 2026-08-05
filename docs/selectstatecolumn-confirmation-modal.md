@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -23,6 +24,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/selectstatec
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 # SelectStateColumn - Aggiunta Modal di Conferma
 
 ## Panoramica
@@ -131,6 +134,7 @@ Verificare che:
 5. Gli errori vengano gestiti in modo appropriato
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -145,3 +149,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/selectstatec
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

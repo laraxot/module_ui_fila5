@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
+<<<<<<< HEAD
+=======
+use Filament\Forms\Components\Field;
+>>>>>>> 6e44b7d5 (.)
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Grid;
@@ -11,12 +15,19 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
+<<<<<<< HEAD
 use Modules\Xot\Filament\Forms\Components\XotBaseField;
+=======
+>>>>>>> 6e44b7d5 (.)
 use Webmozart\Assert\Assert;
 
 // use Squire\Models\Country;
 
+<<<<<<< HEAD
 class AddressField extends XotBaseField
+=======
+class AddressField extends Field
+>>>>>>> 6e44b7d5 (.)
 {
     /** @var string|callable|null */
     public $relationship;
@@ -27,18 +38,40 @@ class AddressField extends XotBaseField
     {
         parent::setUp();
 
+<<<<<<< HEAD
         $this->afterStateHydrated(function (AddressField $_component, mixed $record): void {
             if (! $record instanceof Model) {
+=======
+        $this->afterStateHydrated(function (AddressField $_component, mixed $record) {
+            $data = [
+                'country' => null,
+                'street' => null,
+                'city' => null,
+                'state' => null,
+                'zip' => null,
+            ];
+
+            if (! ($record instanceof Model)) {
+>>>>>>> 6e44b7d5 (.)
                 return;
             }
 
             $relationship = $this->getRelationship();
             if ($relationship && $record->relationLoaded($relationship)) {
                 $address = $record->getRelationValue($relationship);
+<<<<<<< HEAD
                 if (null !== $address && is_object($address) && method_exists($address, 'toArray')) {
                     $address->toArray();
                 }
             }
+=======
+                if ($address !== null && is_object($address) && method_exists($address, 'toArray')) {
+                    $data = $address->toArray();
+                }
+            }
+
+            // }
+>>>>>>> 6e44b7d5 (.)
         });
 
         $this->dehydrated(false);

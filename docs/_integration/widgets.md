@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "widgets"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # widgets
 
 <!-- Contenuto migrato da _docs/widgets.txt -->

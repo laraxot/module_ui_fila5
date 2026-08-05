@@ -17,6 +17,7 @@ Secondo le regole di organizzazione della documentazione:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -39,6 +40,8 @@ Secondo le regole di organizzazione della documentazione:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 
 ## Utilizzo dei Componenti UI nel Frontend
 
@@ -62,6 +65,7 @@ Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/docs/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -78,6 +82,8 @@ Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/docs/
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 # Collegamenti al Modulo Cms
 
 Questo documento fornisce collegamenti bidirezionali tra il modulo UI e il modulo Cms.
@@ -118,6 +124,7 @@ Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/proje
 * [cms-link.md](../../../Lang/project_docs/cms-link.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -135,3 +142,5 @@ Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/proje
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

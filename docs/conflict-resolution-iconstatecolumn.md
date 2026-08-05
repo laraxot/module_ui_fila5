@@ -74,6 +74,7 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 29 luglio 2025*
 =======
 =======
@@ -86,6 +87,8 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 *Ultimo aggiornamento: 29 luglio 2025*
 # Risoluzione Conflitto IconStateColumn.php
 
@@ -164,6 +167,7 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 *Ultimo aggiornamento: 29 luglio 2025*
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -178,3 +182,5 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

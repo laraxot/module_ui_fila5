@@ -7,7 +7,10 @@ namespace Modules\UI\Traits;
 use Illuminate\Support\Facades\Session;
 use Modules\UI\Enums\TableLayoutEnum;
 
+<<<<<<< HEAD
 /** @phpstan-ignore trait.unused */
+=======
+>>>>>>> 6e44b7d5 (.)
 trait TableLayoutTrait
 {
     public function getTableLayout(): TableLayoutEnum

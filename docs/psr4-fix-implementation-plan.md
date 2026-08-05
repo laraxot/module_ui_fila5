@@ -31,6 +31,7 @@ Tutti in `Modules/UI/app/Filament/Forms/Components/`:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **TechPlanner/app/Filament/Resources/ClientResource.php**:
 =======
@@ -47,6 +48,9 @@ Tutti in `Modules/UI/app/Filament/Forms/Components/`:
 =======
 **TechPlanner/app/Filament/Resources/ClientResource.php**:
 >>>>>>> 990a9de5 (.)
+=======
+**TechPlanner/app/Filament/Resources/ClientResource.php**:
+>>>>>>> 6e44b7d5 (.)
 ```php
 Line 13: use Modules\Notify\Filament\Forms\Components\ContactSection;
 ```
@@ -162,10 +166,14 @@ Aggiornare:
 - [x] `Modules/UI/docs/psr4-fix-implementation-plan.md` - Questo file (status update)
 - [ ] `Modules/UI/docs/README.md` - Aggiungere reference a PSR-4 fix
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] `Modules/UI/docs/changelog.md` - Log del fix
 =======
 - [ ] `Modules/UI/docs/CHANGELOG.md` - Log del fix
 >>>>>>> 990a9de5 (.)
+=======
+- [ ] `Modules/UI/docs/CHANGELOG.md` - Log del fix
+>>>>>>> 6e44b7d5 (.)
 
 ### Step 8: Git Commit
 

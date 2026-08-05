@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -47,6 +48,8 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 # List Records in Filament
 
 ## Estensione Corretta
@@ -204,14 +207,18 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 class ListXXX extends XotBaseListRecords
 {
 
     protected static string $resource = XXXResource::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -247,6 +254,8 @@ class ListXXX extends XotBaseListRecords
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
     public function getGridTableColumns(): array
     {
         return [
@@ -271,6 +280,7 @@ class ListXXX extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -291,6 +301,9 @@ class ListXXX extends XotBaseListRecords
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
             ViewAction::make()
                 ->label(''),
             EditAction::make()
@@ -332,6 +345,7 @@ class ListXXX extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```
 =======
 =======
@@ -344,6 +358,8 @@ class ListXXX extends XotBaseListRecords
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 ```
 # List Records in Filament
 
@@ -566,6 +582,7 @@ class ListXXX extends XotBaseListRecords
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -580,3 +597,5 @@ class ListXXX extends XotBaseListRecords
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

@@ -16,6 +16,7 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -35,10 +36,13 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
     <x-filament::icon-button
         icon="heroicon-m-plus"
         wire:click="prova({{ $record->id }})"
         label="Test Azione"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -54,6 +58,8 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
     />
 </div>
 ```
@@ -115,6 +121,7 @@ public function prova($recordId): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -134,10 +141,13 @@ public function prova($recordId): void
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 <x-filament::icon-button
     icon="heroicon-m-plus"
     wire:click="prova({{ $record->id }})"
     label="Test Azione"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -153,6 +163,8 @@ public function prova($recordId): void
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 />
 ```
 
@@ -190,6 +202,7 @@ public function transitionState($recordId, $stateClass): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -210,6 +223,9 @@ public function transitionState($recordId, $stateClass): void
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     \Filament\Notifications\Notification::make()
         ->title('Transizione Completata')
         ->success()
@@ -219,6 +235,7 @@ public function transitionState($recordId, $stateClass): void
 
 ### 2. Aggiungere il pulsante nel template
 ```blade
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -241,10 +258,13 @@ public function transitionState($recordId, $stateClass): void
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 <x-filament::icon-button
     icon="heroicon-o-arrow-right"
     wire:click="transitionState({{ $record->id }}, '{{ $stateClass }}')"
     label="Cambia Stato"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -260,6 +280,8 @@ public function transitionState($recordId, $stateClass): void
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 />
 ```
 
@@ -279,6 +301,7 @@ La soluzione semplice è la migliore perché:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Compatibility**: Filament 4.x, Laravel 10.x 
 =======
 =======
@@ -291,6 +314,8 @@ La soluzione semplice è la migliore perché:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 **Compatibility**: Filament 3.x, Laravel 10.x
 # IconStateSplitColumn Actions Implementation - Soluzione Semplice
 
@@ -441,6 +466,7 @@ La soluzione semplice è la migliore perché:
 **Compatibility**: Filament 3.x, Laravel 10.x
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -455,3 +481,5 @@ La soluzione semplice è la migliore perché:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

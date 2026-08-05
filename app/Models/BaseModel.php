@@ -9,8 +9,12 @@ use Modules\Xot\Models\XotBaseModel;
 /**
  * Base model for UI module.
  */
+<<<<<<< HEAD
 abstract class BaseModel extends XotBaseModel
 {
     /** @var string */
     protected $connection = 'u_i';
 }
+=======
+abstract class BaseModel extends XotBaseModel {}
+>>>>>>> 6e44b7d5 (.)

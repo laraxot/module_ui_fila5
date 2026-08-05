@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "InlineDatePicker Component"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./full-calendar-1.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # InlineDatePicker Component
 
 ## Overview
@@ -362,7 +365,11 @@ public function setCurrentViewMonth(string $monthString): void
 ### Versione 3.0 - AI-Powered Temporal Intelligence
 - **Smart Suggestions**: Suggerimenti AI per date ottimali
 - **Pattern Recognition**: Riconoscimento pattern utente
+<<<<<<< HEAD
 - **<nome progetto>ive Availability**: Previsione disponibilità
+=======
+- **Predictive Availability**: Previsione disponibilità
+>>>>>>> 6e44b7d5 (.)
 ### Versione 4.0 - Universal Temporal Interface
 - **Multiple Calendars**: Supporto calendari diversi (Gregoriano, Lunare, etc.)
 - **Timezone Handling**: Gestione fusi orari avanzata

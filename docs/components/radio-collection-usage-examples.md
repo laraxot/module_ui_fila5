@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "RadioCollection - Esempi di Utilizzo"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./full-calendar-1.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # RadioCollection - Esempi di Utilizzo
 
 ## Utilizzo Base

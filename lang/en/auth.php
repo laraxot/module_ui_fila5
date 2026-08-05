@@ -43,10 +43,13 @@ return [
         'confirm_password' => 'Confirm Password',
         'save' => 'Save',
         'update' => 'Update',
+<<<<<<< HEAD
         'services' => 'My Services',
         'practices' => 'My Practices',
         'notifications' => 'Notifications',
         'logout' => 'Log Out',
+=======
+>>>>>>> 6e44b7d5 (.)
     ],
     'user_dropdown' => [
         'manage_account' => 'Account Management',
@@ -64,10 +67,13 @@ return [
         'profile' => 'Profile',
         'settings' => 'Settings',
     ],
+<<<<<<< HEAD
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label',
     'fields' => [
     ],
     'actions' => [
     ],
+=======
+>>>>>>> 6e44b7d5 (.)
 ];

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Tables\Columns\Column;
+<<<<<<< HEAD
 use Filament\Tables\Table;
 use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
 
@@ -18,6 +19,11 @@ use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
 class GroupColumn extends XotBaseColumn
 {
     /** @var array<int|string, mixed> */
+=======
+
+class GroupColumn extends Column
+{
+>>>>>>> 6e44b7d5 (.)
     public array $form = [];
 
     /**
@@ -28,14 +34,30 @@ class GroupColumn extends XotBaseColumn
     protected string $view = 'ui::filament.tables.columns.group';
 
     /**
+<<<<<<< HEAD
      * @return array<Column>
      */
     public function getFields(): array
     {
+=======
+     * Initialize the component.
+     */
+    protected function setUp(): void
+    {
+        parent::setUp();
+
+        // Component initialization logic
+    }
+
+    public function getFields(): array
+    {
+        /* @var array<string, mixed> */
+>>>>>>> 6e44b7d5 (.)
         return $this->schema;
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
      * @param array<int|string, mixed> $form
 =======
@@ -48,10 +70,23 @@ class GroupColumn extends XotBaseColumn
             return $item instanceof Column;
         });
 
+=======
+     * @param  array<int|string, mixed>  $form
+     */
+    public function schema(array $form): self
+    {
+        // Type-check to ensure all elements are Column instances
+        $filtered = array_filter($form, function (mixed $item): bool {
+            return $item instanceof Column;
+        });
+
+        /** @var array<int|string, Column> $filtered */
+>>>>>>> 6e44b7d5 (.)
         /** @var array<int, Column> $filteredValues */
         $filteredValues = array_values($filtered);
         $this->schema = $filteredValues;
 
+<<<<<<< HEAD
         $this->mountChildrenToTable($this->table);
 
         return $this;
@@ -79,4 +114,8 @@ class GroupColumn extends XotBaseColumn
             $child->table($table);
         }
     }
+=======
+        return $this;
+    }
+>>>>>>> 6e44b7d5 (.)
 }

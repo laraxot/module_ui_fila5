@@ -23,6 +23,7 @@ return [
             'placeholder' => 'اختر نوع التخطيط',
             'tooltip' => 'اختر بين عرض القائمة وعرض الشبكة',
             'help' => 'اختر نوع التخطيط المناسب لعرض البيانات',
+<<<<<<< HEAD
             'helper_text' => '',
             'description' => '',
         ],
@@ -36,4 +37,8 @@ return [
     ],
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label',
+=======
+        ],
+    ],
+>>>>>>> 6e44b7d5 (.)
 ];

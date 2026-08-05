@@ -21,76 +21,127 @@ use Closure;
 class StudioCardSelector extends Field
 {
     protected string $view = 'ui::forms.components.studio-card-selector';
+<<<<<<< HEAD
     
     // Dati studios da visualizzare
     protected Collection|Closure|null $studios = null;
     
+=======
+
+    // Dati studios da visualizzare
+    protected Collection|Closure|null $studios = null;
+
+>>>>>>> 6e44b7d5 (.)
     // Personalizzazioni UI
     protected bool $showDistance = false;
     protected bool $showSpecializations = false;
     protected bool $showPhone = false;
     protected string $cardLayout = 'default'; // 'default', 'compact', 'detailed'
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6e44b7d5 (.)
     // Configure studios data source
     public function studios(Collection|Closure $studios): static
     {
         $this->studios = $studios;
         return $this;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6e44b7d5 (.)
     // Enable/disable features
     public function showDistance(bool $show = true): static
     {
         $this->showDistance = $show;
         return $this;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function showSpecializations(bool $show = true): static
     {
         $this->showSpecializations = $show;
         return $this;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function showPhone(bool $show = true): static
     {
         $this->showPhone = $show;
         return $this;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6e44b7d5 (.)
     // Layout variants
     public function compact(): static
     {
         $this->cardLayout = 'compact';
         return $this;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function detailed(): static
     {
         $this->cardLayout = 'detailed';
         return $this;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6e44b7d5 (.)
     // Data getters for view
     public function getStudios(): Collection
     {
         return $this->evaluate($this->studios) ?? collect();
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function getCardLayout(): string
     {
         return $this->cardLayout;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function shouldShowDistance(): bool
     {
         return $this->showDistance;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function shouldShowSpecializations(): bool
     {
         return $this->showSpecializations;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function shouldShowPhone(): bool
     {
         return $this->showPhone;
@@ -119,6 +170,7 @@ protected function getStudioStepSchema(): array
 private function getStudiosForLocation(Get $get): Collection
 {
     $cap = $get('cap');
+<<<<<<< HEAD
     $province = $get('province'); 
     $region = $get('region');
     
@@ -127,6 +179,16 @@ private function getStudiosForLocation(Get $get): Collection
     }
     
     return \Modules\SaluteOra\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
+=======
+    $province = $get('province');
+    $region = $get('region');
+
+    if (!$cap || !$province || !$region) {
+        return collect();
+    }
+
+    return \Modules\<nome progetto>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
+>>>>>>> 6e44b7d5 (.)
         $q->where('postal_code', $cap)
           ->where('administrative_area_level_3', $province)
           ->where('administrative_area_level_2', $region);
@@ -178,6 +240,7 @@ return [
 - [Components Overview](./components.md)
 - [Form Components Guide](./form-components.md)
 
+<<<<<<< HEAD
 ### Modulo SaluteOra
 - [Widget Analysis](../SaluteOra/docs/widgets/find-doctor-widget-studio-step-analysis.md)
 
@@ -186,3 +249,13 @@ return [
 **Component Status**: 📋 Documented - Ready for Implementation  
 **Reusability**: 🔄 High - Cross-module compatible  
 **Last Updated**: January 2025 
+=======
+### Modulo <nome progetto>
+- [Widget Analysis](../<nome progetto>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
+
+---
+
+**Component Status**: 📋 Documented - Ready for Implementation
+**Reusability**: 🔄 High - Cross-module compatible
+**Last Updated**: January 2025
+>>>>>>> 6e44b7d5 (.)

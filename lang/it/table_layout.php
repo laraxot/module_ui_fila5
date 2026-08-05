@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 return [
+<<<<<<< HEAD
     'values' => [
         'list' => [
             'label' => 'Elenco',
@@ -17,6 +18,8 @@ return [
             'description' => 'Griglia',
         ],
     ],
+=======
+>>>>>>> 6e44b7d5 (.)
     'actions' => [
         'toggle' => [
             'label' => 'Cambia Layout',
@@ -24,6 +27,7 @@ return [
             'helper_text' => 'Cambia il tipo di visualizzazione',
         ],
     ],
+<<<<<<< HEAD
     'label' => 'Table Layout',
     'plural_label' => 'Table Layout (Plurale)',
     'navigation' => [
@@ -57,4 +61,6 @@ return [
             'description' => '',
         ],
     ],
+=======
+>>>>>>> 6e44b7d5 (.)
 ];

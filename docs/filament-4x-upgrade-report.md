@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Data**: 2025-01-27
 **Status**: ✅ COMPLETATO
@@ -33,6 +34,11 @@
 **Status**: ✅ COMPLETATO
 **Versione Filament**: 4.0.17
 >>>>>>> 990a9de5 (.)
+=======
+**Data**: 2025-01-27
+**Status**: ✅ COMPLETATO
+**Versione Filament**: 4.0.17
+>>>>>>> 6e44b7d5 (.)
 
 ## 🔧 Correzioni Implementate
 
@@ -40,6 +46,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 4.x
 =======
@@ -60,6 +67,9 @@
 =======
 **Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 4.x
 >>>>>>> 990a9de5 (.)
+=======
+**Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 4.x
+>>>>>>> 6e44b7d5 (.)
 **Soluzione**: Disabilitazione temporanea del widget
 
 **File disabilitato**:
@@ -129,6 +139,7 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -149,6 +160,9 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function getEvents(): array
     {
         // Logica per recuperare eventi
@@ -190,6 +204,7 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-27*
 =======
 =======
@@ -202,6 +217,8 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 *Ultimo aggiornamento: 2025-01-27*
 # Rapporto Aggiornamento Filament 4.x - Modulo UI
 
@@ -320,6 +337,7 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 *Ultimo aggiornamento: 2025-01-27*
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -334,3 +352,5 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

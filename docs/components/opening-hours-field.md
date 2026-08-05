@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "OpeningHoursField Component"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./full-calendar-1.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # OpeningHoursField Component
 
 ## Introduzione
@@ -434,3 +437,7 @@ class Doctor extends BaseModel
 
 ---
 
+<<<<<<< HEAD
+=======
+*Ultimo aggiornamento: Dicembre 2024*
+>>>>>>> 6e44b7d5 (.)

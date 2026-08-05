@@ -113,6 +113,7 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -133,6 +134,9 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     // Configurazioni comuni per tutti i widget di statistiche UI
     protected static function getDefaultStats(): array
     {
@@ -143,6 +147,7 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -163,6 +168,9 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     // Metodi helper comuni
     protected function formatNumber(int|float $number): string
     {
@@ -171,6 +179,7 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -191,6 +200,9 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     protected function formatPercentage(int|float $percentage): string
     {
         return number_format($percentage, 1) . '%';
@@ -220,6 +232,7 @@ abstract class UIBaseTestWidget extends XotBaseWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -239,10 +252,13 @@ abstract class UIBaseTestWidget extends XotBaseWidget
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 
     // Configurazioni comuni per tutti i widget di test UI
     public array $widgets = [];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -258,6 +274,8 @@ abstract class UIBaseTestWidget extends XotBaseWidget
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
     // Metodi helper comuni
     protected function getTestData(): array
     {
@@ -292,6 +310,7 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -312,6 +331,9 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     // Configurazioni comuni per tutti i grafici UI
     protected function getDefaultChartOptions(): array
     {
@@ -328,6 +350,7 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -348,6 +371,9 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     // Metodi helper comuni
     protected function formatChartData(array $data): array
     {
@@ -433,6 +459,7 @@ class SystemTestWidget extends UIBaseTestWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -453,6 +480,9 @@ class SystemTestWidget extends UIBaseTestWidget
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function getViewData(): array
     {
         return array_merge(
@@ -466,6 +496,7 @@ class SystemTestWidget extends UIBaseTestWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -486,6 +517,9 @@ class SystemTestWidget extends UIBaseTestWidget
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     private function getSystemInfo(): array
     {
         return [
@@ -497,6 +531,7 @@ class SystemTestWidget extends UIBaseTestWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -517,6 +552,9 @@ class SystemTestWidget extends UIBaseTestWidget
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     private function getDatabaseStatus(): array
     {
         try {
@@ -560,6 +598,7 @@ class SystemTestWidget extends UIBaseTestWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Autore: Analisi Automatica del Progetto*
 =======
 =======
@@ -572,6 +611,8 @@ class SystemTestWidget extends UIBaseTestWidget
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 *Autore: Analisi Automatica del Progetto*
 # Ottimizzazioni Widget - Modulo UI
 
@@ -921,6 +962,7 @@ class SystemTestWidget extends UIBaseTestWidget
 *Autore: Analisi Automatica del Progetto*
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -935,3 +977,5 @@ class SystemTestWidget extends UIBaseTestWidget
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

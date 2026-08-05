@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 module: theme
 topic: inline-date-picker-component
@@ -14,3 +15,6 @@ related:
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/.gitkeep
+=======
+
+>>>>>>> 6e44b7d5 (.)

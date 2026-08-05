@@ -9,10 +9,14 @@ declare(strict_types=1);
             <div class="relative z-50 flex items-center w-auto h-full">
                 <a href="{{ route('home') }}" class="flex items-center mr-0 md:mr-5 shrink-0">
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <img src="{{ asset('assets/branding/img/logo-ft.svg') }}" alt="{{ config('app.name') }}" class="h-8 w-auto" />
 =======
                     <img src="{{ asset('assets/predict/img/logo-ft.svg') }}" alt="{{ config('app.name') }}" class="h-8 w-auto" />
 >>>>>>> 990a9de5 (.)
+=======
+                    <x-filament-panels::logo />
+>>>>>>> 6e44b7d5 (.)
                 </a>
 
                 {{-- Hamburger Menu Button --}}

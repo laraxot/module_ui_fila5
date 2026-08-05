@@ -33,6 +33,7 @@ Depending on where your site is hosted, you may need to configure your server to
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -50,12 +51,15 @@ Depending on where your site is hosted, you may need to configure your server to
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 ## Collegamenti tra versioni di custom-404-page.md
 * [custom-404-page.md](../../../Gdpr/docs/custom-404-page.md)
 * [custom-404-page.md](../../../Xot/docs/custom-404-page.md)
 * [custom-404-page.md](../../../UI/docs/custom-404-page.md)
 * [custom-404-page.md](../../../Tenant/docs/it/custom-404-page.md)
 * [custom-404-page.md](../../../Cms/docs/custom-404-page.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -70,6 +74,8 @@ Depending on where your site is hosted, you may need to configure your server to
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 
 ### Versione Incoming
 
@@ -113,6 +119,7 @@ Depending on where your site is hosted, you may need to configure your server to
 ## Collegamenti tra versioni di custom-404-page.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -126,6 +133,8 @@ Depending on where your site is hosted, you may need to configure your server to
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 * [custom-404-page.md](../../../Gdpr/project_docs/custom-404-page.md)
 * [custom-404-page.md](../../../Xot/project_docs/custom-404-page.md)
 * [custom-404-page.md](../../../UI/project_docs/custom-404-page.md)
@@ -135,6 +144,7 @@ Depending on where your site is hosted, you may need to configure your server to
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ### Versione Incoming
 
@@ -168,3 +178,8 @@ Depending on where your site is hosted, you may need to configure your server to
 
 ---
 >>>>>>> 990a9de5 (.)
+=======
+### Versione Incoming
+
+---
+>>>>>>> 6e44b7d5 (.)

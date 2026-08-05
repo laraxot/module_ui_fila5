@@ -6,6 +6,7 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ### Versione Incoming
 
@@ -34,6 +35,10 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 ### Versione Incoming
 
 >>>>>>> 990a9de5 (.)
+=======
+### Versione Incoming
+
+>>>>>>> 6e44b7d5 (.)
 ## Collegamenti tra versioni di PROMPT_RULES_LINK.md
 * [PROMPT_RULES_LINK.md](../../../UI/docs/PROMPT_RULES_LINK.md)
 * [PROMPT_RULES_LINK.md](../../../Lang/docs/PROMPT_RULES_LINK.md)
@@ -43,6 +48,7 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -53,6 +59,8 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 ## Collegamenti tra versioni di prompt_rules_link.md
 * [prompt_rules_link.md](../../Lang/docs/prompt_rules_link.md)
 * [prompt_rules_link.md](../../Cms/docs/prompt_rules_link.md)
@@ -71,6 +79,7 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 * [PROMPT_RULES_LINK.md](../../../Cms/docs/PROMPT_RULES_LINK.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -84,6 +93,8 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 
 ## Collegamenti tra versioni di prompt_rules_link.md
 * [prompt_rules_link.md](../../Lang/docs/prompt_rules_link.md)
@@ -92,6 +103,7 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ---
 =======
@@ -114,3 +126,6 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 =======
 ---
 >>>>>>> 990a9de5 (.)
+=======
+---
+>>>>>>> 6e44b7d5 (.)

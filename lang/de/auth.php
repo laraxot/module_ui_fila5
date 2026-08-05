@@ -60,10 +60,13 @@ return [
     ],
     'failed' => 'Le credenziali non corrispondono ai nostri record.',
     'throttle' => 'Troppi tentativi di accesso. Riprova tra :seconds secondi.',
+<<<<<<< HEAD
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label',
     'fields' => [
     ],
     'actions' => [
     ],
+=======
+>>>>>>> 6e44b7d5 (.)
 ];

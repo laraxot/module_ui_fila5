@@ -9,19 +9,26 @@ return [
             'description' => 'img_uuid',
             'helper_text' => 'img_uuid',
             'placeholder' => 'img_uuid',
+<<<<<<< HEAD
             'tooltip' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
         ],
         'video' => [
             'label' => 'video',
             'description' => 'video',
             'helper_text' => 'video',
+<<<<<<< HEAD
             'tooltip' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
         ],
         'caption' => [
             'label' => 'caption',
             'description' => 'caption',
             'helper_text' => 'caption',
             'placeholder' => 'caption',
+<<<<<<< HEAD
             'tooltip' => '',
         ],
     ],
@@ -36,4 +43,8 @@ return [
     'plural_label' => 'Missing Plural label',
     'actions' => [
     ],
+=======
+        ],
+    ],
+>>>>>>> 6e44b7d5 (.)
 ];

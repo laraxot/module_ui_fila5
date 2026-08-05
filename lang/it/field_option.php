@@ -14,59 +14,86 @@ return [
         'edit' => [
             'label' => 'Modifica',
             'tooltip' => 'Modifica opzione',
+<<<<<<< HEAD
             'helper_text' => '',
             'description' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
         ],
         'openFilters' => [
             'label' => 'Apri Filtri',
             'tooltip' => 'Apri il pannello dei filtri',
+<<<<<<< HEAD
             'helper_text' => '',
             'description' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
         ],
         'applyFilters' => [
             'label' => 'Applica Filtri',
             'tooltip' => 'Applica i filtri selezionati',
+<<<<<<< HEAD
             'helper_text' => '',
             'description' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
         ],
         'resetFilters' => [
             'label' => 'Reset Filtri',
             'tooltip' => 'Ripristina i filtri predefiniti',
+<<<<<<< HEAD
             'helper_text' => '',
             'description' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
         ],
         'toggleColumns' => [
             'label' => 'Mostra/Nascondi Colonne',
             'tooltip' => 'Mostra o nascondi colonne della tabella',
+<<<<<<< HEAD
             'helper_text' => '',
             'description' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
         ],
         'reorderRecords' => [
             'label' => 'Riordina Record',
             'tooltip' => 'Riordina i record della tabella',
+<<<<<<< HEAD
             'helper_text' => '',
             'description' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
         ],
         'type' => [
             'label' => 'Tipo',
             'placeholder' => 'Seleziona tipo opzione',
             'helper_text' => 'Tipo di opzione del campo',
+<<<<<<< HEAD
             'tooltip' => '',
             'description' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
         ],
         'key' => [
             'label' => 'Chiave',
             'placeholder' => 'Inserisci chiave opzione',
             'helper_text' => 'Chiave identificativa dell\'opzione',
+<<<<<<< HEAD
             'tooltip' => '',
             'description' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
         ],
         'name' => [
             'label' => 'Nome',
             'placeholder' => 'Inserisci nome opzione',
             'helper_text' => 'Nome dell\'opzione del campo',
+<<<<<<< HEAD
             'tooltip' => '',
             'description' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
         ],
     ],
     'navigation' => [
@@ -80,6 +107,9 @@ return [
         'placeholder' => 'Seleziona modello',
         'helper_text' => 'Modello per la gestione delle opzioni campo',
     ],
+<<<<<<< HEAD
     'label' => 'Field Option',
     'plural_label' => 'Field Option (Plurale)',
+=======
+>>>>>>> 6e44b7d5 (.)
 ];

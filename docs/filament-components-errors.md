@@ -140,6 +140,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [Documentazione Componenti Filament](../../../docs/filament/components.md)
 =======
@@ -160,6 +161,9 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 =======
 - [Documentazione Componenti Filament](../../../docs/filament/components.md)
 >>>>>>> 990a9de5 (.)
+=======
+- [Documentazione Componenti Filament](../../../docs/filament/components.md)
+>>>>>>> 6e44b7d5 (.)
 - [Best Practices UI](../../best-practices.md)
 - [Errori Comuni UI](../../common-errors.md)
 - [Implementazione Corretta](../../examples/correct-implementation.md)
@@ -193,6 +197,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -209,6 +214,8 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 4. Aggiornare la documentazione quando vengono scoperti nuovi errori
 # Errori Comuni nei Componenti Filament UI
 
@@ -391,6 +398,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 4. Aggiornare la documentazione quando vengono scoperti nuovi errori
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -408,3 +416,5 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

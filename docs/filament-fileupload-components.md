@@ -65,6 +65,7 @@ Forms\Components\FileUpload::make('certifications')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Best Practices](../../Xot/docs/filament-best-practices.md) 
 =======
 =======
@@ -77,6 +78,8 @@ Forms\Components\FileUpload::make('certifications')
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 - [Best Practices](../../Xot/docs/filament-best-practices.md)
 # Componenti FileUpload in Filament
 
@@ -137,6 +140,7 @@ Forms\Components\FileUpload::make('certifications')
 ## Collegamenti
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -151,12 +155,15 @@ Forms\Components\FileUpload::make('certifications')
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 - [README](../../Patient/project_docs/README.md)
 - [Filament Resources](../../Patient/project_docs/filament-resources.md)
 - [Form Components](../../Patient/project_docs/filament-form-components.md)
 
 ## Vedi Anche
 - [Filament FileUpload Documentation](https://filamentphp.com/project_docs/forms/fields#file-upload)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -180,3 +187,6 @@ Forms\Components\FileUpload::make('certifications')
 =======
 - [Best Practices](../../Xot/project_docs/filament-best-practices.md)
 >>>>>>> 990a9de5 (.)
+=======
+- [Best Practices](../../Xot/project_docs/filament-best-practices.md)
+>>>>>>> 6e44b7d5 (.)

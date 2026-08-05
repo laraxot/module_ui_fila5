@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -47,6 +48,8 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 # Form Component
 
 ## 📊 Stato Implementazione
@@ -86,6 +89,7 @@ class FormBuilder extends XotBaseUIComponent
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -105,10 +109,13 @@ class FormBuilder extends XotBaseUIComponent
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 
     /** @var array<string, mixed> */
     protected array $values = [];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -124,6 +131,8 @@ class FormBuilder extends XotBaseUIComponent
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
     public function addField(string $name, FormField $field): self
     {
         $this->fields[$name] = $field;
@@ -132,6 +141,7 @@ class FormBuilder extends XotBaseUIComponent
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -152,6 +162,9 @@ class FormBuilder extends XotBaseUIComponent
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function validate(): ValidationResult
     {
         return $this->validator->validate($this->values);
@@ -171,6 +184,7 @@ abstract class FormField
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -191,6 +205,9 @@ abstract class FormField
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     abstract public function render(): View;
     abstract public function validate($value): ValidationResult;
 }
@@ -203,6 +220,7 @@ class InputField extends FormField
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -223,6 +241,9 @@ class InputField extends FormField
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function setType(string $type): self
     {
         $this->type = $type;
@@ -316,6 +337,7 @@ protected function validateField(string $name): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -336,11 +358,14 @@ protected function validateField(string $name): void
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 
     $result = $this->fields[$name]->validate(
         $this->values[$name]
     );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -356,6 +381,8 @@ protected function validateField(string $name): void
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
     $this->errors[$name] = $result->errors();
 }
 ```
@@ -369,9 +396,12 @@ class FormState
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 
     /** @var array<string, mixed> */
     protected array $currentValues = [];
@@ -379,6 +409,7 @@ class FormState
     public function isDirty(string $field): bool
     {
         return $this->initialValues[$field] !==
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -411,6 +442,8 @@ class FormState
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
                $this->currentValues[$field];
     }
 }
@@ -458,6 +491,7 @@ class FormState
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 5. Documentare best practices 
 =======
 =======
@@ -470,6 +504,8 @@ class FormState
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 5. Documentare best practices
 # Form Component
 
@@ -702,6 +738,7 @@ class FormState
 5. Documentare best practices
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -716,3 +753,5 @@ class FormState
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

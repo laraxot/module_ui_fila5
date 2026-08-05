@@ -58,6 +58,7 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [README del Modulo UI](./README.md)
 =======
 =======
@@ -70,6 +71,8 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 - [README del Modulo UI](./README.md)
 # Implementazione di strict_types nel Modulo UI
 
@@ -130,6 +133,7 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 - [README del Modulo UI](./README.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -144,3 +148,5 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
