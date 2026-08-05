@@ -44,6 +44,12 @@ class OpeningHoursRule implements ValidationRule
     use TransTrait;
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
     
 =======
 
@@ -51,6 +57,10 @@ class OpeningHoursRule implements ValidationRule
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     // Utilizzo nelle validazioni
     $fail(static::trans('validation.opening_hours.morning_before_afternoon', params: [
         'day' => $dayLabel
@@ -204,8 +214,17 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Implementazione completata: gennaio 2025*
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Implementazione completata: gennaio 2025*
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 *Implementazione completata: gennaio 2025*
 # File Validation Multilingua - Modulo UI
 
@@ -404,7 +423,16 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 - [Localization Guidelines](./localization_guidelines.md)
 
 *Implementazione completata: gennaio 2025*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 *Implementazione completata: gennaio 2025*
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

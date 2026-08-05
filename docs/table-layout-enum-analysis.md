@@ -22,6 +22,12 @@ class ListUsers extends ListRecords
     protected TableLayoutEnum $layout = TableLayoutEnum::LIST;
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
     
 =======
 
@@ -29,6 +35,10 @@ class ListUsers extends ListRecords
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function table(Table $table): Table
     {
         return $table
@@ -212,6 +222,12 @@ class ListUsers extends ListRecords
     protected TableLayoutEnum $layout;
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
     
 =======
 
@@ -219,12 +235,22 @@ class ListUsers extends ListRecords
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function mount(): void
     {
         $this->layout = TableLayoutEnum::init();
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
     
 =======
 
@@ -232,6 +258,10 @@ class ListUsers extends ListRecords
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     protected function getHeaderActions(): array
     {
         return [
@@ -270,6 +300,12 @@ protected function getColumnsForLayout(): array
     ];
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
     
 =======
 
@@ -277,6 +313,10 @@ protected function getColumnsForLayout(): array
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     $gridColumns = [
         Tables\Columns\Layout\Stack::make([
             Tables\Columns\TextColumn::make('name')->weight(FontWeight::Bold),
@@ -285,6 +325,12 @@ protected function getColumnsForLayout(): array
     ];
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
     
 =======
 
@@ -292,6 +338,10 @@ protected function getColumnsForLayout(): array
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     return $this->layout->getTableColumns($listColumns, $gridColumns);
 }
 ```
@@ -336,6 +386,12 @@ class TableLayoutEnumTest extends TestCase
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
     
 =======
 
@@ -343,6 +399,10 @@ class TableLayoutEnumTest extends TestCase
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function test_toggle_switches_layout(): void
     {
         $layout = TableLayoutEnum::LIST;
@@ -383,8 +443,17 @@ class TableLayoutEnumTest extends TestCase
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06* 
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Ultimo aggiornamento: 2025-01-06* 
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 *Ultimo aggiornamento: 2025-01-06*
 # Analisi Completa TableLayoutEnum
 
@@ -722,7 +791,16 @@ class TableLayoutEnumTest extends TestCase
 - [Filament Best Practices](../../../docs/filament_best_practices.md)
 
 *Ultimo aggiornamento: 2025-01-06*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

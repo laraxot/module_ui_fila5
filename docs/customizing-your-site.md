@@ -2,6 +2,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 module: theme
 topic: customizing_your_site
@@ -11,6 +16,10 @@ canonical: ../../../Themes/docs/shared-components/customizing-your-site_1.md
 <<<<<<< HEAD
 See canonical documentation: ../../../Themes/docs/shared-components/customizing-your-site_1.md
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 title: Customizing Your Site
 description: Customizing your Jigsaw docs site
 extends: _layouts.documentation
@@ -201,7 +210,16 @@ class Foo extends bar
 ### Versione Incoming
 
 ---
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 See canonical documentation: ../../../Themes/docs/shared-components/customizing-your-site_1.md
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

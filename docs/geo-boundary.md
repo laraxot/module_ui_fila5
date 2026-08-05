@@ -49,9 +49,19 @@ Quindi in UI non devono restare neanche fallback/null-object “per quando Geo m
 <<<<<<< HEAD
 =======
 6. Push dual-remote (`laraxot` + `provtv`) a tip `b874935` — vedi [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md) e [multi-org-sync-laraxot-provtv.md](./multi-org-sync-laraxot-provtv.md).
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+6. Push dual-remote (`laraxot` + `provtv`) a tip `b874935` — vedi [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md) e [multi-org-sync-laraxot-provtv.md](./multi-org-sync-laraxot-provtv.md).
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 **Anti-pattern:** ricreare contract+null in UI “perché Geo manca”. Senza Geo non serve il layer.
 

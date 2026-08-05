@@ -30,6 +30,14 @@ return [
 return array (
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+    'actions' =>
+    array (
+        'create' =>
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
     'actions' => 
     array (
         'create' => 
@@ -43,6 +51,10 @@ return array (
     array (
         'create' => 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         array (
             'label' => 'create',
         ),
@@ -80,6 +92,14 @@ declare(strict_types=1);
 return array (
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+  'actions' =>
+  array (
+    'create' =>
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
   'actions' => 
   array (
     'create' => 
@@ -93,6 +113,10 @@ return array (
   array (
     'create' => 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     array (
       'label' => 'create',
     ),
@@ -176,8 +200,17 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 - **Tipo Conflitto**: Dichiarazione PHP e sintassi array
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Scelta**: Versione HEAD (con strict types e sintassi moderna)
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- **Scelta**: Versione HEAD (con strict types e sintassi moderna)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - **Scelta**: Versione HEAD (con strict types e sintassi moderna)
 # Risoluzione Conflitti File di Traduzione UI
 
@@ -332,7 +365,16 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 - **File**: Multipli file di traduzione
 - **Tipo Conflitto**: Dichiarazione PHP e sintassi array
 - **Scelta**: Versione HEAD (con strict types e sintassi moderna)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 - **Scelta**: Versione HEAD (con strict types e sintassi moderna)
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

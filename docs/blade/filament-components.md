@@ -56,10 +56,20 @@ Frontoffice senza Livewire dedicato — pattern [Alpine](https://filamentphp.com
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Caso Fixcity `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 Caso progetto corrente `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
 =======
 Caso Fixcity `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## Esempi di utilizzo
 

@@ -147,6 +147,13 @@ class CustomMiddleware
 // Non hardcodare percorsi delle risorse
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<img src="public/images/avatar.png">
+<img src="public/images/avatar.png">
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 <img src="[project-root]/laravel/public/images/avatar.png">
 =======
 <img src="public/images/avatar.png">
@@ -155,6 +162,10 @@ class CustomMiddleware
 =======
 <img src="/var/www/html/saluteora/laravel/public/images/avatar.png">
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 // Non duplicare la registrazione dei componenti
 Blade::component('ui::components.icon', 'ui.icon');
@@ -291,6 +302,11 @@ class UIServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
   
   state([
@@ -299,20 +315,39 @@ class UIServiceProvider extends XotBaseServiceProvider
   
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
   state([
       'property' => null,
   ]);
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
   $action = function () {
       // Logica dell'azione
   };
   ?>
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
   
 =======
 
@@ -320,6 +355,10 @@ class UIServiceProvider extends XotBaseServiceProvider
 =======
   
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
   <div>
       <!-- Template del componente -->
   </div>
@@ -336,6 +375,11 @@ class UIServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
   
   middleware(['auth']);
@@ -343,19 +387,38 @@ class UIServiceProvider extends XotBaseServiceProvider
   
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
   middleware(['auth']);
   name('page.name');
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
   state([
       'property' => null,
   ]);
   ?>
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
   
 =======
 
@@ -363,6 +426,10 @@ class UIServiceProvider extends XotBaseServiceProvider
 =======
   
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
   <x-layouts.main>
       <!-- Contenuto della pagina -->
   </x-layouts.main>
@@ -507,8 +574,17 @@ class UIServiceProvider extends XotBaseServiceProvider
    - Mantenere la coerenza con il tema dark/light
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Gestire correttamente il logout con CSRF
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+   - Gestire correttamente il logout con CSRF
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
    - Gestire correttamente il logout con CSRF
 # Regole Architetturali
 
@@ -966,7 +1042,16 @@ class UIServiceProvider extends XotBaseServiceProvider
    - Utilizzare i componenti responsive appropriati
    - Mantenere la coerenza con il tema dark/light
    - Gestire correttamente il logout con CSRF
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
    - Gestire correttamente il logout con CSRF
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

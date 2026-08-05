@@ -598,10 +598,20 @@ protected function getOptions(): array
 - [Guida Completa Chart Module](../../chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
 - [Filament 5.x Installation Guide](../../chart/docs/filament-5-installation-guide.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [SimpleChartWidget con Sfondi](../../Quaeris/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 - [SimpleChartWidget con Sfondi](../../modulo questionari/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
 =======
 - [SimpleChartWidget con Sfondi](../../Quaeris/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ### Documentazione Ufficiale
 
@@ -613,7 +623,17 @@ protected function getOptions(): array
 **Versione:** 1.0  
 **Ultimo Aggiornamento:** Gennaio 2026  
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+**Mantenuto da:** Quaeris Development Team
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 **Mantenuto da:** modulo questionari Development Team
 =======
 **Mantenuto da:** Quaeris Development Team
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

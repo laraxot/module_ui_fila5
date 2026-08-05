@@ -1,6 +1,19 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+# Documentation Index
+
+## actions
+
+- [table-layout-toggle-1.md](./actions/table-layout-toggle-1.md)
+- [table-layout-toggle.md](./actions/table-layout-toggle.md)
+
+## architecture
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 ---
 title: UI Module — Documentazione
@@ -457,6 +470,10 @@ laravel/Modules/UI/
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 - [component-registration.md](./architecture/component-registration.md)
 - [filament-pages-structure.md](./architecture/filament-pages-structure.md)
@@ -1604,17 +1621,31 @@ laravel/Modules/UI/
 - [git-merge-conflict-inventory.md](./wiki/troubleshooting/git-merge-conflict-inventory.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 - [module-theme-root-hygiene.md](./wiki/troubleshooting/module-theme-root-hygiene.md)
 - [phpstan-fixes-1.md](./wiki/troubleshooting/phpstan-fixes-1.md)
 - [phpstan-fixes-2026-05-06.deprecated.md](./wiki/troubleshooting/phpstan-fixes-2026-05-06.deprecated.md)
 - [phpstan-fixes.md](./wiki/troubleshooting/phpstan-fixes.md)
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md)
 - [module-theme-root-hygiene.md](./wiki/troubleshooting/module-theme-root-hygiene.md)
 - [phpstan-fixes-1.md](./wiki/troubleshooting/phpstan-fixes-1.md)
 - [phpstan-fixes-2026-05-06.deprecated.md](./wiki/troubleshooting/phpstan-fixes-2026-05-06.deprecated.md)
 - [phpstan-fixes.md](./wiki/troubleshooting/phpstan-fixes.md)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 - [module-theme-root-hygiene.md](./wiki/troubleshooting/module-theme-root-hygiene.md)
@@ -1622,3 +1653,7 @@ laravel/Modules/UI/
 - [phpstan-fixes-2026-05-06.deprecated.md](./wiki/troubleshooting/phpstan-fixes-2026-05-06.deprecated.md)
 - [phpstan-fixes.md](./wiki/troubleshooting/phpstan-fixes.md)
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

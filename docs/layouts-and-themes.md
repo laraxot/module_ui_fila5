@@ -55,7 +55,15 @@ Per correggere questa situazione, è necessario:
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 # Creare la directory Themes se non esiste
 mkdir -p /laravel/Themes
@@ -524,9 +532,18 @@ Per correggere questa situazione, è necessario:
 4. Rigenerare l'autoloader
 
 ```bash
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Creare la directory Themes se non esiste
 mkdir -p /laravel/Themes
 
@@ -669,6 +686,14 @@ Questa scelta evita ambiguità e possibili errori runtime nella gestione delle i
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
+Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
+Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
 =======
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
@@ -678,6 +703,10 @@ Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentaz
 =======
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale:
 - Rimuovere codice commentato o superfluo lasciato da template generici o da sviluppi temporanei.
@@ -688,6 +717,14 @@ In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
+Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
+Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
 =======
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
@@ -697,6 +734,10 @@ Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferi
 =======
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## Layout System
 
@@ -752,6 +793,12 @@ class Dashboard extends Component
     protected static string $layout = AdminLayout::class;
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
     
 =======
 
@@ -759,6 +806,10 @@ class Dashboard extends Component
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     protected function getLayoutData(): array
     {
         return [
@@ -786,6 +837,12 @@ class Dashboard extends Component
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+#### PrintLayout
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 #### PrintLayout 
 =======
 #### PrintLayout
@@ -793,6 +850,10 @@ class Dashboard extends Component
 =======
 #### PrintLayout 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ```php
 use Modules\UI\Layouts\PrintLayout;
 
@@ -801,6 +862,12 @@ class StampaPratica extends Component
     protected static string $layout = PrintLayout::class;
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
     
 =======
 
@@ -808,6 +875,10 @@ class StampaPratica extends Component
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     protected function getLayoutData(): array
     {
         return [
@@ -852,6 +923,12 @@ return [
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
         
 =======
 
@@ -859,6 +936,10 @@ return [
 =======
         
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         // Tipografia
         'typography' => [
             'fonts' => [
@@ -873,6 +954,12 @@ return [
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
         
 =======
 
@@ -880,6 +967,10 @@ return [
 =======
         
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         // Spaziature
         'spacing' => [
             'base' => '1rem',
@@ -888,6 +979,12 @@ return [
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
         
 =======
 
@@ -895,6 +992,10 @@ return [
 =======
         
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         // Bordi
         'border' => [
             'radius' => '0.375rem',
@@ -902,6 +1003,12 @@ return [
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
         
 =======
 
@@ -909,6 +1016,10 @@ return [
 =======
         
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         // Ombre
         'shadows' => [
             'sm' => '0 1px 2px 0 rgb(0 0 0 / 0.05)',
@@ -1015,6 +1126,12 @@ AdminLayout::make()
    - Seguire convenzioni di naming
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+   - Centralizzare configurazioni
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
    - Centralizzare configurazioni 
 =======
    - Centralizzare configurazioni
@@ -1022,3 +1139,7 @@ AdminLayout::make()
 =======
    - Centralizzare configurazioni 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

@@ -144,8 +144,17 @@ $breakpoints: (
 - [Performance](./standards/performance.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Accessibilità](./standards/accessibility.md) 
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Accessibilità](./standards/accessibility.md) 
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [Accessibilità](./standards/accessibility.md)
 # Componenti Layout
 
@@ -292,7 +301,16 @@ $breakpoints: (
 - [Componenti Base](./base-components.md)
 - [Performance](./standards/performance.md)
 - [Accessibilità](./standards/accessibility.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 - [Accessibilità](./standards/accessibility.md) 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

@@ -28,6 +28,13 @@ I componenti UI definiti in questo modulo vengono utilizzati nei temi attraverso
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+- [Compilazione Temi](../../../docs/compilazione_temi.md) - Collegamento nella root alla documentazione sulla compilazione dei temi
+- [Theme Links](../../../docs/theme-links.md) - Collegamenti nella root alla documentazione sui temi
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 - [Compilazione Temi](../../../../docs/compilazione_temi.md) - Collegamento nella root alla documentazione sulla compilazione dei temi
 - [Theme Links](../../../../docs/theme-links.md) - Collegamenti nella root alla documentazione sui temi
 =======
@@ -38,6 +45,10 @@ I componenti UI definiti in questo modulo vengono utilizzati nei temi attraverso
 - [Compilazione Temi](../../../../docs/compilazione_temi.md) - Collegamento nella root alla documentazione sulla compilazione dei temi
 - [Theme Links](../../../../docs/theme-links.md) - Collegamenti nella root alla documentazione sui temi
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## Collegamento Bidirezionale
 
@@ -45,8 +56,17 @@ Questo documento è collegato bidirezionalmente con [themes-ui-link.md](../../Cm
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 > Aggiorna entrambi i riferimenti se modifichi la documentazione dei temi o aggiungi nuove sezioni.
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+> Aggiorna entrambi i riferimenti se modifichi la documentazione dei temi o aggiungi nuove sezioni.
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 > Aggiorna entrambi i riferimenti se modifichi la documentazione dei temi o aggiungi nuove sezioni.
 # Collegamenti ai Temi nel Modulo Cms
 
@@ -84,7 +104,16 @@ I componenti UI definiti in questo modulo vengono utilizzati nei temi attraverso
 Questo documento è collegato bidirezionalmente con [themes-ui-link.md](../../Cms/project_docs/themes-ui-link.md) nel modulo Cms.
 
 > Aggiorna entrambi i riferimenti se modifichi la documentazione dei temi o aggiungi nuove sezioni.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 > Aggiorna entrambi i riferimenti se modifichi la documentazione dei temi o aggiungi nuove sezioni.
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

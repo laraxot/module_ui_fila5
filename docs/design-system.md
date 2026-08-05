@@ -81,6 +81,14 @@ Il design system definisce gli standard visivi e di interazione per garantire co
     </x-slot>
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+    Contenuto della card
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
     
     Contenuto della card
     
@@ -94,6 +102,10 @@ Il design system definisce gli standard visivi e di interazione per garantire co
     Contenuto della card
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     <x-slot name="footer">
         Footer della card
     </x-slot>
@@ -145,8 +157,17 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 - [Theme Config](../config/theme.php)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Filament UI](../../Cms/docs/filament-components.md) 
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Filament UI](../../Cms/docs/filament-components.md) 
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [Filament UI](../../Cms/docs/filament-components.md)
 # Design System
 
@@ -284,7 +305,16 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 - [Filament UI](../../Cms/project_docs/filament-components.md)
 - [Filament UI](../../Cms/project_docs/filament-components.md)
 - [Filament UI](../../Cms/project_docs/filament-components.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 - [Filament UI](../../Cms/docs/filament-components.md) 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

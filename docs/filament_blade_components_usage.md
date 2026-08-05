@@ -1,8 +1,18 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Utilizzo dei Componenti Blade di Filament 
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 # Utilizzo dei Componenti Blade di Filament
 =======
 # Utilizzo dei Componenti Blade di Filament 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -44,10 +54,20 @@ Filament fornisce una serie di componenti Blade pronti all'uso che dovrebbero es
 ⚠️ **ATTENZIONE**: I seguenti layout **NON esistono** in Filament e non devono essere utilizzati:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di SaluteOra
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>corrente
 =======
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di SaluteOra
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - ❌ `<x-filament::layouts.card>` - Non esiste, utilizzare invece una combinazione di `<x-filament::card>` e altri componenti
 - ❌ `<x-filament::layouts.base>` - Non esiste
 
@@ -191,10 +211,20 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 3. **NON nidificare** elementi dropdown in modo errato - Rispettare la struttura gerarchica dei componenti Filament.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+## Gestione delle Rotte 
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ## Gestione delle Rotte
 =======
 ## Gestione delle Rotte 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ### Regole Fondamentali
 
@@ -204,10 +234,20 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 
 2. **Per le pagine frontend**:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   - Creare file Blade in `/var/www/html/saluteora/laravel/Themes/One/resources/views/pages/`
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
    - Creare file Blade in `[project-root]/laravel/Themes/One/resources/views/pages/`
 =======
    - Creare file Blade in `/var/www/html/saluteora/laravel/Themes/One/resources/views/pages/`
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
    - Utilizzare Folio per il routing automatico
    - Esempio: `/profile/index.blade.php` sarà accessibile come `/it/profile`
 
