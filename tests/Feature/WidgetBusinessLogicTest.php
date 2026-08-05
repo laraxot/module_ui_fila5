@@ -78,7 +78,7 @@ uses(Tests\TestCase::class, DatabaseTransactions::class);
 
 it('row widget can render correctly', function (): void {
     // Arrange
-    $widget = new RowWidget;
+    $widget = new RowWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -91,7 +91,7 @@ it('row widget can render correctly', function (): void {
 
 it('stat with icon widget can display statistics', function (): void {
     // Arrange
-    $widget = new StatWithIconWidget;
+    $widget = new StatWithIconWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -111,7 +111,7 @@ it('stat with icon widget can display statistics', function (): void {
 
 it('overlook widget can provide overview data', function (): void {
     // Arrange
-    $widget = new OverlookWidget;
+    $widget = new OverlookWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -122,7 +122,7 @@ it('overlook widget can provide overview data', function (): void {
 
 it('hero widget can display hero content', function (): void {
     // Arrange
-    $widget = new HeroWidget;
+    $widget = new HeroWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -133,7 +133,7 @@ it('hero widget can display hero content', function (): void {
 
 it('test chart widget can display chart data', function (): void {
     // Arrange
-    $widget = new TestChartWidget;
+    $widget = new TestChartWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -145,7 +145,7 @@ it('test chart widget can display chart data', function (): void {
 
 it('stats overview widget can display multiple statistics', function (): void {
     // Arrange
-    $widget = new StatsOverviewWidget;
+    $widget = new StatsOverviewWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -156,7 +156,7 @@ it('stats overview widget can display multiple statistics', function (): void {
 
 it('group widget can group related content', function (): void {
     // Arrange
-    $widget = new GroupWidget;
+    $widget = new GroupWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -168,7 +168,7 @@ it('group widget can group related content', function (): void {
 
 it('redirect widget can handle redirects', function (): void {
     // Arrange
-    $widget = new RedirectWidget;
+    $widget = new RedirectWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -181,7 +181,7 @@ it('redirect widget can handle redirects', function (): void {
 
 it('user calendar widget can display calendar', function (): void {
     // Arrange
-    $widget = new UserCalendarWidget;
+    $widget = new UserCalendarWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -192,7 +192,7 @@ it('user calendar widget can display calendar', function (): void {
 
 it('widgets can be configured with custom data', function (): void {
     // Arrange
-    $widget = new StatWithIconWidget;
+    $widget = new StatWithIconWidget();
 
     // Act
     $widget->heading = 'Custom Heading';
@@ -207,7 +207,7 @@ it('widgets can be configured with custom data', function (): void {
 
 it('widgets can handle empty data gracefully', function (): void {
     // Arrange
-    $widget = new StatsOverviewWidget;
+    $widget = new StatsOverviewWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -217,7 +217,7 @@ it('widgets can handle empty data gracefully', function (): void {
 
 it('widgets can be rendered in livewire context', function (): void {
     // Arrange
-    $widget = new RowWidget;
+    $widget = new RowWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -228,7 +228,7 @@ it('widgets can be rendered in livewire context', function (): void {
 
 it('widgets can handle dynamic content', function (): void {
     // Arrange
-    $widget = new OverlookWidget;
+    $widget = new OverlookWidget();
 
     // Act
     $widget->heading = 'Dynamic Heading';
@@ -241,7 +241,7 @@ it('widgets can handle dynamic content', function (): void {
 
 it('widgets can validate required properties', function (): void {
     // Arrange
-    $widget = new HeroWidget;
+    $widget = new HeroWidget();
 
     // Act & Assert
     expect(method_exists($widget, 'render'))->toBeTrue();
@@ -249,7 +249,7 @@ it('widgets can validate required properties', function (): void {
 
 it('widgets can handle custom styling', function (): void {
     // Arrange
-    $widget = new StatWithIconWidget;
+    $widget = new StatWithIconWidget();
 
     // Act
     $widget->color = 'primary';
@@ -262,7 +262,7 @@ it('widgets can handle custom styling', function (): void {
 
 it('widgets can handle responsive behavior', function (): void {
     // Arrange
-    $widget = new RowWidget;
+    $widget = new RowWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -273,7 +273,7 @@ it('widgets can handle responsive behavior', function (): void {
 
 it('widgets can handle interactive features', function (): void {
     // Arrange
-    $widget = new TestChartWidget;
+    $widget = new TestChartWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -284,7 +284,7 @@ it('widgets can handle interactive features', function (): void {
 
 it('widgets can handle error states', function (): void {
     // Arrange
-    $widget = new StatsOverviewWidget;
+    $widget = new StatsOverviewWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -295,7 +295,7 @@ it('widgets can handle error states', function (): void {
 
 it('widgets can handle loading states', function (): void {
     // Arrange
-    $widget = new UserCalendarWidget;
+    $widget = new UserCalendarWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -306,7 +306,7 @@ it('widgets can handle loading states', function (): void {
 
 it('widgets can handle empty states', function (): void {
     // Arrange
-    $widget = new GroupWidget;
+    $widget = new GroupWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -317,7 +317,7 @@ it('widgets can handle empty states', function (): void {
 
 it('widgets can handle custom actions', function (): void {
     // Arrange
-    $widget = new RedirectWidget;
+    $widget = new RedirectWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -328,7 +328,7 @@ it('widgets can handle custom actions', function (): void {
 
 it('widgets can handle data refresh', function (): void {
     // Arrange
-    $widget = new TestChartWidget;
+    $widget = new TestChartWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -339,7 +339,7 @@ it('widgets can handle data refresh', function (): void {
 
 it('widgets can handle custom events', function (): void {
     // Arrange
-    $widget = new OverlookWidget;
+    $widget = new OverlookWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -350,7 +350,7 @@ it('widgets can handle custom events', function (): void {
 
 it('widgets can handle accessibility features', function (): void {
     // Arrange
-    $widget = new HeroWidget;
+    $widget = new HeroWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -361,7 +361,7 @@ it('widgets can handle accessibility features', function (): void {
 
 it('widgets can handle internationalization', function (): void {
     // Arrange
-    $widget = new StatWithIconWidget;
+    $widget = new StatWithIconWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -372,7 +372,7 @@ it('widgets can handle internationalization', function (): void {
 
 it('widgets can handle theme customization', function (): void {
     // Arrange
-    $widget = new RowWidget;
+    $widget = new RowWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -383,7 +383,7 @@ it('widgets can handle theme customization', function (): void {
 
 it('widgets can handle performance optimization', function (): void {
     // Arrange
-    $widget = new StatsOverviewWidget;
+    $widget = new StatsOverviewWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -394,7 +394,7 @@ it('widgets can handle performance optimization', function (): void {
 
 it('widgets can handle security features', function (): void {
     // Arrange
-    $widget = new UserCalendarWidget;
+    $widget = new UserCalendarWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -405,7 +405,7 @@ it('widgets can handle security features', function (): void {
 
 it('widgets can handle logging and monitoring', function (): void {
     // Arrange
-    $widget = new TestChartWidget;
+    $widget = new TestChartWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -416,7 +416,7 @@ it('widgets can handle logging and monitoring', function (): void {
 
 it('widgets can handle backup and recovery', function (): void {
     // Arrange
-    $widget = new GroupWidget;
+    $widget = new GroupWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();
@@ -427,7 +427,7 @@ it('widgets can handle backup and recovery', function (): void {
 
 it('widgets can handle scalability features', function (): void {
     // Arrange
-    $widget = new RedirectWidget;
+    $widget = new RedirectWidget();
 
     // Act & Assert
     expect($widget)->not()->toBeNull();

@@ -45,7 +45,7 @@ use Tests\TestCase;
 uses(TestCase::class);
 
 beforeEach(function () {
-    $this->widget = new RowWidget;
+    $this->widget = new RowWidget();
 });
 
 test('row widget extends filament widget', function () {
