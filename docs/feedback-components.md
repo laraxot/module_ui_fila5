@@ -111,6 +111,7 @@
 ```html
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -129,12 +130,15 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 <button
   type="button"
   class="btn btn-secondary"
   data-bs-toggle="tooltip"
   data-bs-placement="top"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -146,6 +150,8 @@
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
   title="Tooltip in alto"
 >
   Tooltip
@@ -154,6 +160,7 @@
 
 ### Popover
 ```html
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -174,12 +181,15 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 <button
   type="button"
   class="btn btn-secondary"
   data-bs-toggle="popover"
   data-bs-placement="right"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -191,6 +201,8 @@
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
   data-bs-content="Contenuto del popover"
   title="Titolo Popover"
 >
@@ -203,6 +215,7 @@
 ### Progress Bar
 ```html
 <div class="progress">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -224,6 +237,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
   <div
     class="progress-bar progress-bar-striped progress-bar-animated"
     role="progressbar"
@@ -231,6 +246,7 @@
     aria-valuenow="75"
     aria-valuemin="0"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -242,6 +258,8 @@
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
     aria-valuemax="100"
   >
     75%
@@ -306,6 +324,7 @@ $zindex-tooltip: 1070;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Performance](./standards/performance.md) 
 =======
 =======
@@ -316,6 +335,8 @@ $zindex-tooltip: 1070;
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 - [Performance](./standards/performance.md)
 # Componenti Feedback e Notifiche
 
@@ -527,6 +548,7 @@ $zindex-tooltip: 1070;
 - [Accessibilità](./standards/accessibility.md)
 - [Performance](./standards/performance.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -539,3 +561,5 @@ $zindex-tooltip: 1070;
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -9,6 +10,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 ---
 title: "Gestione degli Asset"
 type: concept
@@ -27,6 +30,7 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -38,6 +42,8 @@ related:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 # Gestione degli Asset
 
 ## Struttura delle Directory
@@ -99,6 +105,7 @@ Gli script di automazione si trovano nella directory `bashscripts/`:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Utilizzare lo script di verifica prima di ogni deploy 
 =======
 =======
@@ -109,6 +116,8 @@ Gli script di automazione si trovano nella directory `bashscripts/`:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 - Utilizzare lo script di verifica prima di ogni deploy
 # Gestione degli Asset
 
@@ -170,6 +179,7 @@ Gli script di automazione si trovano nella directory `bashscripts/`:
 - Verificare periodicamente l'integrità degli asset
 - Utilizzare lo script di verifica prima di ogni deploy
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -182,3 +192,5 @@ Gli script di automazione si trovano nella directory `bashscripts/`:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

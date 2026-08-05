@@ -8,6 +8,7 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -16,6 +17,8 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 ## 🏗️ **Architettura Component**
 
 ## 🏗️ **Architettura Component**
@@ -288,6 +291,7 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 ## 🏗️ **Architettura Component**
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -299,6 +303,8 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 ### Classe PHP
 ```php
 // Modules/UI/app/Forms/Components/StudioCardSelector.php
@@ -317,6 +323,7 @@ class StudioCardSelector extends Field
     protected string $view = 'ui::forms.components.studio-card-selector';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -334,11 +341,14 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 
     // Dati studios da visualizzare
     protected Collection|Closure|null $studios = null;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -350,6 +360,8 @@ class StudioCardSelector extends Field
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
     // Personalizzazioni UI
     protected bool $showDistance = false;
     protected bool $showSpecializations = false;
@@ -357,6 +369,7 @@ class StudioCardSelector extends Field
     protected string $cardLayout = 'default'; // 'default', 'compact', 'detailed'
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -374,6 +387,9 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
     // Configure studios data source
     public function studios(Collection|Closure $studios): static
     {
@@ -382,6 +398,7 @@ class StudioCardSelector extends Field
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -399,6 +416,9 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
     // Enable/disable features
     public function showDistance(bool $show = true): static
     {
@@ -407,6 +427,7 @@ class StudioCardSelector extends Field
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -424,6 +445,9 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
     public function showSpecializations(bool $show = true): static
     {
         $this->showSpecializations = $show;
@@ -431,6 +455,7 @@ class StudioCardSelector extends Field
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -448,6 +473,9 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
     public function showPhone(bool $show = true): static
     {
         $this->showPhone = $show;
@@ -455,6 +483,7 @@ class StudioCardSelector extends Field
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -472,6 +501,9 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
     // Layout variants
     public function compact(): static
     {
@@ -480,6 +512,7 @@ class StudioCardSelector extends Field
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -497,6 +530,9 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
     public function detailed(): static
     {
         $this->cardLayout = 'detailed';
@@ -504,6 +540,7 @@ class StudioCardSelector extends Field
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -521,6 +558,9 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
     // Data getters for view
     public function getStudios(): Collection
     {
@@ -528,6 +568,7 @@ class StudioCardSelector extends Field
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -545,12 +586,16 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
     public function getCardLayout(): string
     {
         return $this->cardLayout;
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -568,12 +613,16 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
     public function shouldShowDistance(): bool
     {
         return $this->showDistance;
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -591,12 +640,16 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
     public function shouldShowSpecializations(): bool
     {
         return $this->showSpecializations;
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -614,6 +667,9 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
     public function shouldShowPhone(): bool
     {
         return $this->showPhone;
@@ -644,6 +700,7 @@ private function getStudiosForLocation(Get $get): Collection
     $cap = $get('cap');
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     $province = $get('province');
     $region = $get('region');
@@ -671,6 +728,11 @@ private function getStudiosForLocation(Get $get): Collection
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    $province = $get('province');
+    $region = $get('region');
+
+>>>>>>> 990a9de5 (.)
     if (!$cap || !$province || !$region) {
         return collect();
     }
@@ -679,6 +741,7 @@ private function getStudiosForLocation(Get $get): Collection
     return \Modules\<nome modulo>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
     return \Modules\<nome modulo>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -690,6 +753,8 @@ private function getStudiosForLocation(Get $get): Collection
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
         $q->where('postal_code', $cap)
           ->where('administrative_area_level_3', $province)
           ->where('administrative_area_level_2', $region);
@@ -743,6 +808,7 @@ return [
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -764,6 +830,8 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 ### Modulo Generico
 - [Widget Analysis](../<nome modulo>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
 ### Modulo Generico
@@ -779,6 +847,7 @@ return [
 **Last Updated**: January 2025
 **Last Updated**: January 2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -791,3 +860,5 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

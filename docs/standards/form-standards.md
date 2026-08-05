@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -9,6 +10,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 ---
 title: "Standard Form nei Temi"
 type: rule
@@ -28,6 +31,7 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -39,6 +43,8 @@ related:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 # Standard Form nei Temi
 
 ## Principi Generali
@@ -98,6 +104,7 @@ related:
   </label>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <input
 =======
@@ -115,6 +122,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+  <input
+>>>>>>> 990a9de5 (.)
     type="text"
     class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500"
   >
@@ -139,6 +149,7 @@ related:
   <div class="flex items-center">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <input
 =======
@@ -156,6 +167,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    <input
+>>>>>>> 990a9de5 (.)
       type="checkbox"
       class="h-4 w-4 text-primary-600 border-gray-300 rounded focus:ring-primary-500"
     >
@@ -215,6 +229,7 @@ screens: {
   </label>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <input
 =======
@@ -232,6 +247,9 @@ screens: {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+  <input
+>>>>>>> 990a9de5 (.)
     type="email"
     class="w-full px-4 py-2 border border-red-300 rounded-md focus:ring-2 focus:ring-red-500"
     aria-invalid="true"
@@ -251,6 +269,7 @@ screens: {
   </label>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <input
 =======
@@ -268,6 +287,9 @@ screens: {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+  <input
+>>>>>>> 990a9de5 (.)
     type="text"
     class="w-full px-4 py-2 border border-green-300 rounded-md focus:ring-2 focus:ring-green-500"
     aria-invalid="false"
@@ -288,6 +310,7 @@ screens: {
   </label>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <input
 =======
@@ -305,6 +328,9 @@ screens: {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+  <input
+>>>>>>> 990a9de5 (.)
     type="email"
     aria-labelledby="email-label"
     aria-required="true"
@@ -332,6 +358,7 @@ screens: {
 ```html
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <button
 =======
@@ -349,6 +376,9 @@ screens: {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<button
+>>>>>>> 990a9de5 (.)
   type="submit"
   class="btn btn-primary"
   disabled
@@ -407,6 +437,7 @@ form.addEventListener('submit', async (e) => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Performance](./performance.md) 
 =======
 =======
@@ -417,6 +448,8 @@ form.addEventListener('submit', async (e) => {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 - [Performance](./performance.md)
 # Standard Form nei Temi
 
@@ -677,6 +710,7 @@ form.addEventListener('submit', async (e) => {
 - [Accessibility](./accessibility.md)
 - [Performance](./performance.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -689,3 +723,5 @@ form.addEventListener('submit', async (e) => {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

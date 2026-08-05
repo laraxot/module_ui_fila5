@@ -15,6 +15,7 @@ Il `TableLayoutTrait` è un componente chiave del sistema di layout delle tabell
    - `namespace Modules\UI\Traits;`
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    - `namespace Modules\UI\app\Traits;`
 =======
@@ -32,6 +33,9 @@ Il `TableLayoutTrait` è un componente chiave del sistema di layout delle tabell
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+   - `namespace Modules\UI\app\Traits;`
+>>>>>>> 990a9de5 (.)
 
 2. **Incoerenza nella Formattazione del Codice**: Presenza di linee vuote e spazi bianchi inconsistenti.
 
@@ -85,6 +89,7 @@ Questo trait è strettamente correlato a:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 La risoluzione dei conflitti in `TableLayoutTrait.php` è stata effettuata mantenendo il namespace corretto allineato con la struttura delle directory e garantendo la coerenza con il resto del codebase. Questa soluzione permette il corretto funzionamento del sistema di layout delle tabelle nel modulo UI, fornendo agli utenti la possibilità di scegliere tra visualizzazioni diverse dei dati. 
 =======
 =======
@@ -95,6 +100,8 @@ La risoluzione dei conflitti in `TableLayoutTrait.php` è stata effettuata mante
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 La risoluzione dei conflitti in `TableLayoutTrait.php` è stata effettuata mantenendo il namespace corretto allineato con la struttura delle directory e garantendo la coerenza con il resto del codebase. Questa soluzione permette il corretto funzionamento del sistema di layout delle tabelle nel modulo UI, fornendo agli utenti la possibilità di scegliere tra visualizzazioni diverse dei dati.
 # Risoluzione Conflitti in TableLayoutTrait
 
@@ -164,6 +171,7 @@ Questo trait è strettamente correlato a:
 
 La risoluzione dei conflitti in `TableLayoutTrait.php` è stata effettuata mantenendo il namespace corretto allineato con la struttura delle directory e garantendo la coerenza con il resto del codebase. Questa soluzione permette il corretto funzionamento del sistema di layout delle tabelle nel modulo UI, fornendo agli utenti la possibilità di scegliere tra visualizzazioni diverse dei dati.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -176,3 +184,5 @@ La risoluzione dei conflitti in `TableLayoutTrait.php` è stata effettuata mante
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

@@ -11,6 +11,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
 =======
@@ -24,6 +25,9 @@ Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modu
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
+>>>>>>> 990a9de5 (.)
 
 ---
 
@@ -445,6 +449,7 @@ class MapService
                     'priority' => $ticket->priority->slug,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     'url' => route('fixcity.tickets.show', $ticket)
 =======
@@ -458,6 +463,9 @@ class MapService
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+                    'url' => route('fixcity.tickets.show', $ticket)
+>>>>>>> 990a9de5 (.)
                 ];
             })
             ->toArray();
@@ -539,6 +547,7 @@ class GeocodingService
         <div class="col-md-4">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             <livewire:fixcity::components.ticket-stats />
 =======
@@ -552,6 +561,9 @@ class GeocodingService
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+            <livewire:fixcity::components.ticket-stats />
+>>>>>>> 990a9de5 (.)
         </div>
     </div>
 </div>
@@ -607,6 +619,7 @@ class GeocodingService
 ### 📅 Fase 3: Integrazione (Settimana 3)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [ ] Integrazione con modulo Fixcity
 =======
@@ -620,6 +633,9 @@ class GeocodingService
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- [ ] Integrazione con modulo Fixcity
+>>>>>>> 990a9de5 (.)
 - [ ] Integrazione con modulo User
 - [ ] API endpoints per mappa
 - [ ] Testing componenti

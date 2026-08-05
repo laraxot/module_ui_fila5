@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Gestione delle Risorse Pubbliche
 =======
@@ -17,6 +18,9 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+# Gestione delle Risorse Pubbliche
+>>>>>>> 990a9de5 (.)
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -37,6 +41,7 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [project-root]/
 =======
 =======
@@ -47,12 +52,15 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 
 
 
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -66,6 +74,8 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 ├── public_html/           # Directory pubblica principale
 │   ├── images/            # Immagini pubbliche
 │   ├── css/               # File CSS
@@ -78,6 +88,7 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 > **IMPORTANTE**: MAI utilizzare `[project-root]/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>corrente.
 =======
 =======
@@ -88,12 +99,15 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 > **IMPORTANTE**: MAI utilizzare `laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di PTVX.
 > **IMPORTANTE**: MAI utilizzare `public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>.
 > **IMPORTANTE**: MAI utilizzare `laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di PTVX.
 > **IMPORTANTE**: MAI utilizzare `public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>.
 > **IMPORTANTE**: MAI utilizzare `laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di PTVX.
 > **IMPORTANTE**: MAI utilizzare `public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>.
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -107,6 +121,8 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 
 ## Tipi di Risorse
 
@@ -115,6 +131,7 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Le immagini devono essere posizionate in `[project-root]/public_html/images/` e organizzate in sottocartelle per tipologia:
 =======
 =======
@@ -125,12 +142,15 @@ Le immagini devono essere posizionate in `[project-root]/public_html/images/` e 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 Le immagini devono essere posizionate in `public_html/images/` e organizzate in sottocartelle per tipologia:
 Le immagini devono essere posizionate in `public_html/images/` e organizzate in sottocartelle per tipologia:
 Le immagini devono essere posizionate in `public_html/images/` e organizzate in sottocartelle per tipologia:
 Le immagini devono essere posizionate in `public_html/images/` e organizzate in sottocartelle per tipologia:
 Le immagini devono essere posizionate in `public_html/images/` e organizzate in sottocartelle per tipologia:
 Le immagini devono essere posizionate in `public_html/images/` e organizzate in sottocartelle per tipologia:
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -144,6 +164,8 @@ Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/im
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 
 - `/images/avatars/` - Avatar utenti
 - `/images/logos/` - Loghi
@@ -210,6 +232,7 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 ### Avatar Utente
 
 ```blade
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -237,6 +260,11 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<img
+    src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}"
+    alt="{{ $user->name }}"
+>>>>>>> 990a9de5 (.)
     class="h-10 w-10 rounded-full"
 >
 ```
@@ -245,6 +273,7 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 
 ```blade
 <a href="{{ LaravelLocalization::getLocalizedURL(LaravelLocalization::getCurrentLocale(), route('home')) }}">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -260,6 +289,8 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
     <img
         src="{{ asset('images/logos/<nome progetto>-logo.svg') }}"
         alt=""
@@ -271,6 +302,7 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
         alt=""
         src="{{ asset('images/logos/<nome progetto>-logo.svg') }}"
         alt="<nome progetto>"
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -286,6 +318,8 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
         class="h-8"
     >
 </a>
@@ -303,6 +337,7 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>corrente.
 =======
 =======
@@ -313,6 +348,8 @@ Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantis
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto .
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>.
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto .
@@ -450,6 +487,7 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -462,3 +500,5 @@ Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantis
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

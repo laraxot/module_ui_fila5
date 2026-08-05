@@ -107,6 +107,7 @@ Modules/UI/
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ### 4. **Autoloader Predictability**
 =======
@@ -120,6 +121,9 @@ Modules/UI/
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+### 4. **Autoloader Predictability**
+>>>>>>> 990a9de5 (.)
 - Eliminates ambiguous class resolution
 - Consistent namespace-to-directory mapping
 - Reliable test discovery and execution
@@ -188,6 +192,7 @@ After cleanup:
 - ✅ No more PSR-4 autoloading warnings
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - ✅ Clear, predictable test structure
 =======
@@ -201,6 +206,9 @@ After cleanup:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- ✅ Clear, predictable test structure
+>>>>>>> 990a9de5 (.)
 - ✅ Consistent with Laravel conventions
 - ✅ Compatible with module system
 - ✅ Maintains all existing test functionality

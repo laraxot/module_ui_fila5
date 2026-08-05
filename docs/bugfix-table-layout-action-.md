@@ -142,6 +142,7 @@ php artisan tinker --execute="TableLayoutToggleTableAction::make('test');"
 # Testare l'URL che causava l'errore
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 =======
@@ -155,6 +156,9 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
+>>>>>>> 990a9de5 (.)
 ```
 
 ### Risultati Test

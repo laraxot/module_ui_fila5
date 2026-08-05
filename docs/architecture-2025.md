@@ -1,6 +1,7 @@
 ---
 module: theme
 <<<<<<< HEAD
+<<<<<<< HEAD
 topic: architecture-2025
 =======
 <<<<<<< HEAD
@@ -18,3 +19,10 @@ canonical: ../../../Themes/docs/shared-components/architecture.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/architecture.md
+=======
+topic: architecture-2025
+canonical: ../../../Themes/docs/shared-components/ARCHITECTURE.md
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/ARCHITECTURE.md
+>>>>>>> 990a9de5 (.)

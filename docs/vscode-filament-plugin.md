@@ -203,6 +203,7 @@ TextInput::make('full_name')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Development Tools](development-tools.md)
 =======
 =======
@@ -213,6 +214,8 @@ TextInput::make('full_name')
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 - [Development Tools](development-tools.md)
 - [Filament Documentation](https://filamentphp.com/docs)
 # Plugin VSCode per Filament
@@ -424,6 +427,7 @@ TextInput::make('full_name')
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Filament Documentation](https://filamentphp.com/docs)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -436,3 +440,5 @@ TextInput::make('full_name')
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

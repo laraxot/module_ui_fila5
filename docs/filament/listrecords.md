@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -9,6 +10,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 ---
 title: "List Records in Filament"
 type: concept
@@ -30,6 +33,7 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -41,6 +45,8 @@ related:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 # List Records in Filament
 
 ## Estensione Corretta
@@ -197,12 +203,16 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 990a9de5 (.)
 class ListXXX extends XotBaseListRecords
 {
 
     protected static string $resource = XXXResource::class;
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -235,6 +245,8 @@ class ListXXX extends XotBaseListRecords
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
     public function getGridTableColumns(): array
     {
         return [
@@ -258,6 +270,7 @@ class ListXXX extends XotBaseListRecords
         return [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -275,6 +288,9 @@ class ListXXX extends XotBaseListRecords
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
             ViewAction::make()
                 ->label(''),
             EditAction::make()
@@ -315,6 +331,7 @@ class ListXXX extends XotBaseListRecords
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```
 =======
 =======
@@ -325,6 +342,8 @@ class ListXXX extends XotBaseListRecords
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 ```
 # List Records in Filament
 
@@ -546,6 +565,7 @@ class ListXXX extends XotBaseListRecords
 }
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -558,3 +578,5 @@ class ListXXX extends XotBaseListRecords
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

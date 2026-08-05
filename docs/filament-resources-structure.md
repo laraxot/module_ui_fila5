@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -20,6 +21,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/filament-res
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 # Struttura delle Filament Resources
 
 ## Panoramica
@@ -193,6 +196,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 ## Note
 Questa documentazione è collegata bidirezionalmente con la documentazione specifica dei moduli. Per dettagli su resources specifiche, consultare la documentazione del modulo corrispondente.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -205,3 +209,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/filament-res
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

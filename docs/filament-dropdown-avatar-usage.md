@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Utilizzo dei Componenti Filament Dropdown e Avatar
 =======
@@ -17,6 +18,9 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+# Utilizzo dei Componenti Filament Dropdown e Avatar
+>>>>>>> 990a9de5 (.)
 
 ## Collegamenti correlati
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
@@ -85,6 +89,7 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
 @if($isLoggedIn)
     {{-- Dropdown per utente loggato --}}
     <div class="relative" x-data="{ open: false }" @click.away="open = false">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -108,6 +113,10 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        <button
+            @click="open = ! open"
+>>>>>>> 990a9de5 (.)
             class="flex items-center text-sm font-medium text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300 focus:outline-none transition duration-150 ease-in-out"
         >
             <div>
@@ -122,6 +131,7 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
             </div>
         </button>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -141,6 +151,9 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        <div
+>>>>>>> 990a9de5 (.)
             x-show="open"
             x-transition:enter="transition ease-out duration-200"
             x-transition:enter-start="transform opacity-0 scale-95"
@@ -260,6 +273,7 @@ $this->mount(function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto>corrente per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
 =======
 =======
@@ -270,12 +284,15 @@ Le traduzioni per il dropdown utente sono definite nei file di traduzione di Lar
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di  per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto> per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di  per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto> per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di  per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto> per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -289,6 +306,8 @@ Le traduzioni per il dropdown utente sono definite nei file di traduzione di Lar
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 
 ### Struttura delle Traduzioni
 
@@ -367,6 +386,7 @@ Seguire queste convenzioni per le chiavi di traduzione:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Tailwind CSS](https://tailwindcss.com/)
 =======
 =======
@@ -377,6 +397,8 @@ Seguire queste convenzioni per le chiavi di traduzione:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 - [Tailwind CSS](https://tailwindcss.com/)
 # Utilizzo dei Componenti Filament Dropdown e Avatar
 
@@ -658,6 +680,7 @@ Seguire queste convenzioni per le chiavi di traduzione:
 - [Heroicons](https://heroicons.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -670,3 +693,5 @@ Seguire queste convenzioni per le chiavi di traduzione:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

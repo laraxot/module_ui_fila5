@@ -145,6 +145,7 @@ $breakpoints: (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Accessibilità](./standards/accessibility.md) 
 =======
 =======
@@ -155,6 +156,8 @@ $breakpoints: (
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 - [Accessibilità](./standards/accessibility.md)
 # Componenti Layout
 
@@ -302,6 +305,7 @@ $breakpoints: (
 - [Performance](./standards/performance.md)
 - [Accessibilità](./standards/accessibility.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -314,3 +318,5 @@ $breakpoints: (
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

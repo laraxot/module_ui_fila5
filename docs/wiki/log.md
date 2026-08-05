@@ -19,6 +19,7 @@ related:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
 - GitHub: [#272](https://github.com/laraxot/base_fixcity_fila5/issues/272) / [D#273](https://github.com/laraxot/base_fixcity_fila5/discussions/273)
@@ -35,6 +36,10 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
+- GitHub: [#272](https://github.com/laraxot/base_fixcity_fila5/issues/272) / [D#273](https://github.com/laraxot/base_fixcity_fila5/discussions/273)
+>>>>>>> 990a9de5 (.)
 
 # UI Wiki Log
 
@@ -76,7 +81,11 @@ related:
 - Struttura wiki/log.md inizializzata.
 - Layer raw: tutti i file in `docs/` (eccetto `wiki/`).
 - Layer wiki: `docs/wiki/` — LLM-maintained, sintesi ad alto riuso.
+<<<<<<< HEAD
 - Schema: `docs/.schema/wiki-schema.md`
+=======
+- Schema: `docs/.schema/WIKI_SCHEMA.md`
+>>>>>>> 990a9de5 (.)
 - Adozione moduli: `docs/project/llm-wiki-module-adoption.md`
 
 ## 2026-07-22 — PHPStan Modules 0 + geo-boundary
@@ -88,6 +97,7 @@ related:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -100,11 +110,14 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 ## 2026-07-22 — Push dual-remote + LFS
 
 - Tip `b874935` su `laraxot/dev` e `provtv/dev`.
 - Fix: deepen/shallow + `git push --no-thin` + `git lfs fetch laraxot --all` → `git lfs push provtv --all`.
 - Playbook: [troubleshooting/git-push-lfs-missing-objects.md](./troubleshooting/git-push-lfs-missing-objects.md).
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -119,3 +132,5 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

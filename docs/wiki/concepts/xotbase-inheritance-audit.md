@@ -10,6 +10,7 @@ issues:
 discussions:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   - "https://github.com/laraxot/base_techplanner_fila5/discussions/12"
 =======
@@ -23,6 +24,9 @@ discussions:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+  - "https://github.com/laraxot/base_techplanner_fila5/discussions/12"
+>>>>>>> 990a9de5 (.)
 related:
   - "../../../../Xot/docs/wiki/concepts/xotbase-filament-widget-hierarchy.md"
 ---

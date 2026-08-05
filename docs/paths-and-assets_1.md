@@ -12,7 +12,11 @@
 
 ## Collegamenti correlati
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
+<<<<<<< HEAD
 - [Architettura Modulare](/laravel/Modules/UI/docs/architecture.md)
+=======
+- [Architettura Modulare](/laravel/Modules/UI/docs/ARCHITECTURE.md)
+>>>>>>> 990a9de5 (.)
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
 
 ## Percorsi Corretti per gli Asset

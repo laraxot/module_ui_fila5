@@ -79,6 +79,7 @@ Mostra documentazione al passaggio del mouse su:
 // Digitare 'fil-form' e premere Tab
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 public static function form(Form $form): Form
 public static function form(Form $form): Form
@@ -100,6 +101,11 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+>>>>>>> 990a9de5 (.)
 {
     return $form->schema([
         // Digitare 'fil-text' e premere Tab
@@ -108,6 +114,7 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
             ->maxLength(255),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -125,6 +132,9 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
         // Digitare 'fil-select' e premere Tab
         Select::make('status')
             ->options([
@@ -134,6 +144,7 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
             ->required(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -151,6 +162,9 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
         // Digitare 'fil-rich' e premere Tab
         RichEditor::make('content')
             ->required()
@@ -173,6 +187,7 @@ public static function table(Table $table): Table
                 ->sortable(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -190,6 +205,9 @@ public static function table(Table $table): Table
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
             // Digitare 'fil-col' e premere Tab
             IconColumn::make('status')
                 ->boolean(),
@@ -231,6 +249,7 @@ Forms\Components\Wizard::make([
                         ->required(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -248,6 +267,9 @@ Forms\Components\Wizard::make([
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
                     Forms\Components\TextInput::make('last_name')
                         ->required(),
                 ]),
@@ -306,6 +328,7 @@ Forms\Components\Wizard::make([
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack) 
 =======
 =======
@@ -316,6 +339,8 @@ Forms\Components\Wizard::make([
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 - [Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack)
 # Filament VSCode Extension
 
@@ -485,6 +510,7 @@ Forms\Components\Wizard::make([
 
 1. Organizzazione del codice
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -497,3 +523,5 @@ Forms\Components\Wizard::make([
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

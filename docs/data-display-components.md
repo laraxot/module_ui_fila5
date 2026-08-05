@@ -171,6 +171,7 @@ new Chart(ctx, {
   -webkit-overflow-scrolling: touch;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -188,6 +189,9 @@ new Chart(ctx, {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
   @media (max-width: 768px) {
     .table {
       min-width: 600px;
@@ -203,6 +207,7 @@ new Chart(ctx, {
   height: 300px;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -220,6 +225,9 @@ new Chart(ctx, {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
   canvas {
     animation: fadeIn 0.5s ease;
   }
@@ -233,6 +241,7 @@ new Chart(ctx, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Performance](./standards/performance.md) 
 =======
 =======
@@ -243,6 +252,8 @@ new Chart(ctx, {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 - [Performance](./standards/performance.md)
 # Componenti Visualizzazione Dati
 
@@ -442,6 +453,7 @@ new Chart(ctx, {
 - [Accessibilità](./standards/accessibility.md)
 - [Performance](./standards/performance.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -454,3 +466,5 @@ new Chart(ctx, {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

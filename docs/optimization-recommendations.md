@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **PHPStan level 10**: 12/12 file core certificati
 =======
 =======
@@ -18,6 +19,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
@@ -25,6 +28,7 @@
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -38,6 +42,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 - **Translation Standards**: 100% compliance con struttura espansa
 - **Component Architecture**: 50+ componenti Blade riutilizzabili
 - **Filament Integration**: 20+ widget personalizzati perfettamente integrati
@@ -52,6 +58,7 @@
 - **Component Rendering**: < 50ms per componente
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - **Bundle Size**: < 200KB per tutti i componenti
 =======
@@ -69,6 +76,9 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- **Bundle Size**: < 200KB per tutti i componenti
+>>>>>>> 990a9de5 (.)
 - **Mobile Responsive**: 100% componenti responsive
 - **Caching**: Sistema caching componenti attivo
 
@@ -85,6 +95,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Esempi troppo specifici** per <nome progetto>
 =======
 =======
@@ -95,6 +106,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 - **Esempi troppo specifici** per
 - **Esempi troppo specifici** per
 - **Esempi troppo specifici** per
@@ -102,6 +115,7 @@
 - **Esempi troppo specifici** per
 - **Esempi troppo specifici** per
 - **Esempi troppo specifici** per
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -115,6 +129,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 
 ## 🔧 RACCOMANDAZIONI SPECIFICHE
 
@@ -126,6 +142,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/UI/
 =======
 =======
@@ -136,6 +153,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 Modules/UI/
 Modules/UI/
 Modules/UI/
@@ -143,6 +162,7 @@ Modules/UI/
 Modules/UI/
 Modules/UI/
 Modules/UI/
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -156,6 +176,8 @@ Modules/UI/
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 https://api.<nome progetto>.com/
 
 // ✅ SOLUZIONI
@@ -186,6 +208,7 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ PHPStan level 10 (12/12 files)
 =======
 =======
@@ -196,6 +219,8 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
@@ -203,6 +228,7 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -216,6 +242,8 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 - ✅ Translation Standards 100%
 - ✅ 50+ Blade Components
 - ✅ Accessibility Score 98/100
@@ -272,12 +300,16 @@ class ComponentPerformanceMiddleware
         $start = microtime(true);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 990a9de5 (.)
 
         $response = $next($request);
 
         $duration = (microtime(true) - $start) * 1000;
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -303,6 +335,8 @@ class ComponentPerformanceMiddleware
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
         if ($duration > 50) {
             Log::warning("Slow component detected", [
                 'component' => $request->route()->getName(),
@@ -311,6 +345,7 @@ class ComponentPerformanceMiddleware
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -328,6 +363,9 @@ class ComponentPerformanceMiddleware
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
         return $response;
     }
 }
@@ -403,6 +441,7 @@ php artisan ui:accessibility-check
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **NON toccare** l'architettura PHPStan level 10
 =======
 =======
@@ -413,6 +452,8 @@ php artisan ui:accessibility-check
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 - **NON toccare** l'architettura PHPStan Level 9
 - **NON toccare** l'architettura PHPStan Level 9
 - **NON toccare** l'architettura PHPStan Level 9
@@ -420,6 +461,7 @@ php artisan ui:accessibility-check
 - **NON toccare** l'architettura PHPStan Level 9
 - **NON toccare** l'architettura PHPStan Level 9
 - **NON toccare** l'architettura PHPStan Level 9
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -433,6 +475,8 @@ php artisan ui:accessibility-check
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 - **NON modificare** il sistema TableLayoutEnum (perfetto)
 - **NON cambiare** il pattern TransTrait (eccellente)
 - **NON alterare** la struttura componenti (ben organizzata)
@@ -456,6 +500,7 @@ php artisan ui:accessibility-check
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: gennaio 2025*
 =======
 =======
@@ -466,6 +511,8 @@ php artisan ui:accessibility-check
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 *Ultimo aggiornamento: gennaio 2025*
 # Raccomandazioni di Ottimizzazione - Modulo UI
 
@@ -721,6 +768,7 @@ php artisan ui:accessibility-check
 
 *Ultimo aggiornamento: gennaio 2025*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -733,3 +781,5 @@ php artisan ui:accessibility-check
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

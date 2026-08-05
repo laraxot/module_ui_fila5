@@ -147,6 +147,7 @@ class CustomMiddleware
 // Non hardcodare percorsi delle risorse
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <img src="public/images/avatar.png">
 <img src="public/images/avatar.png">
@@ -166,6 +167,10 @@ class CustomMiddleware
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<img src="public/images/avatar.png">
+<img src="public/images/avatar.png">
+>>>>>>> 990a9de5 (.)
 
 // Non duplicare la registrazione dei componenti
 Blade::component('ui::components.icon', 'ui.icon');
@@ -301,6 +306,7 @@ class UIServiceProvider extends XotBaseServiceProvider
   use function Livewire\Volt\{state, mount};
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -319,12 +325,15 @@ class UIServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 
   state([
       'property' => null,
   ]);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -336,12 +345,15 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
   $action = function () {
       // Logica dell'azione
   };
   ?>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -359,6 +371,9 @@ class UIServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
   <div>
       <!-- Template del componente -->
   </div>
@@ -374,6 +389,7 @@ class UIServiceProvider extends XotBaseServiceProvider
   use function Livewire\Volt\{state, mount};
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -391,11 +407,14 @@ class UIServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 
   middleware(['auth']);
   name('page.name');
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -407,12 +426,15 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
   state([
       'property' => null,
   ]);
   ?>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -430,6 +452,9 @@ class UIServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
   <x-layouts.main>
       <!-- Contenuto della pagina -->
   </x-layouts.main>
@@ -575,6 +600,7 @@ class UIServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Gestire correttamente il logout con CSRF
 =======
 =======
@@ -585,6 +611,8 @@ class UIServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
    - Gestire correttamente il logout con CSRF
 # Regole Architetturali
 
@@ -1043,6 +1071,7 @@ class UIServiceProvider extends XotBaseServiceProvider
    - Mantenere la coerenza con il tema dark/light
    - Gestire correttamente il logout con CSRF
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1055,3 +1084,5 @@ class UIServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

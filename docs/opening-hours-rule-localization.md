@@ -130,6 +130,7 @@ $rule = new OpeningHoursRule();
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // Test inglese
 =======
@@ -147,6 +148,9 @@ $rule = new OpeningHoursRule();
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+// Test inglese
+>>>>>>> 990a9de5 (.)
 App::setLocale('en');
 $rule = new OpeningHoursRule();
 // Verificare messaggi in inglese
@@ -203,6 +207,7 @@ $rule = new OpeningHoursRule();
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Correzione completata: gennaio 2025*
 =======
 =======
@@ -213,6 +218,8 @@ $rule = new OpeningHoursRule();
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 *Correzione completata: gennaio 2025*
 # Localizzazione OpeningHoursRule - Modulo UI
 
@@ -400,6 +407,7 @@ $rule = new OpeningHoursRule();
 
 *Correzione completata: gennaio 2025*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -412,3 +420,5 @@ $rule = new OpeningHoursRule();
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

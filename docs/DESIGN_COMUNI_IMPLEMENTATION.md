@@ -128,6 +128,7 @@ Pages are configured via JSON files:
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Location**: `config/local/fixcity/database/content/pages/`
 =======
@@ -141,6 +142,9 @@ Pages are configured via JSON files:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+**Location**: `config/local/fixcity/database/content/pages/`
+>>>>>>> 990a9de5 (.)
 
 **Example**: `tests.homepage.json`
 

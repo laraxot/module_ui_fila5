@@ -1,6 +1,7 @@
 ---
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -20,6 +21,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/customizing-
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 title: Customizing Your Site
 description: Customizing your Jigsaw docs site
 extends: _layouts.documentation
@@ -211,6 +214,7 @@ class Foo extends bar
 
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -223,3 +227,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/customizing-
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

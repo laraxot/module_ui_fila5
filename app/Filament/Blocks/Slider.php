@@ -36,7 +36,11 @@ final class Slider
     /**
      * @return array<int|string, \Filament\Schemas\Components\Component>
      */
+<<<<<<< HEAD
     public static function getFormSchemaOld(): array
+=======
+    public static function getFormSchema(): array
+>>>>>>> 990a9de5 (.)
     {
         return [
             'layout' => Select::make('layout')

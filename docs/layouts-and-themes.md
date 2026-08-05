@@ -56,6 +56,7 @@ Per correggere questa situazione, è necessario:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -64,6 +65,8 @@ Per correggere questa situazione, è necessario:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 
 # Creare la directory Themes se non esiste
 mkdir -p /laravel/Themes
@@ -533,6 +536,7 @@ Per correggere questa situazione, è necessario:
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -544,6 +548,8 @@ Per correggere questa situazione, è necessario:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 # Creare la directory Themes se non esiste
 mkdir -p /laravel/Themes
 
@@ -686,6 +692,7 @@ Questa scelta evita ambiguità e possibili errori runtime nella gestione delle i
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
@@ -707,6 +714,11 @@ Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentaz
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
+Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
+Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
+>>>>>>> 990a9de5 (.)
 
 In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale:
 - Rimuovere codice commentato o superfluo lasciato da template generici o da sviluppi temporanei.
@@ -717,6 +729,7 @@ In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
@@ -738,6 +751,11 @@ Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferi
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
+Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
+Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
+>>>>>>> 990a9de5 (.)
 
 ## Layout System
 
@@ -793,6 +811,7 @@ class Dashboard extends Component
     protected static string $layout = AdminLayout::class;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -810,6 +829,9 @@ class Dashboard extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
     protected function getLayoutData(): array
     {
         return [
@@ -837,6 +859,7 @@ class Dashboard extends Component
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #### PrintLayout
 =======
@@ -854,6 +877,9 @@ class Dashboard extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+#### PrintLayout
+>>>>>>> 990a9de5 (.)
 ```php
 use Modules\UI\Layouts\PrintLayout;
 
@@ -862,6 +888,7 @@ class StampaPratica extends Component
     protected static string $layout = PrintLayout::class;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -879,6 +906,9 @@ class StampaPratica extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
     protected function getLayoutData(): array
     {
         return [
@@ -923,6 +953,7 @@ return [
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -940,6 +971,9 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
         // Tipografia
         'typography' => [
             'fonts' => [
@@ -954,6 +988,7 @@ return [
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -971,6 +1006,9 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
         // Spaziature
         'spacing' => [
             'base' => '1rem',
@@ -979,6 +1017,7 @@ return [
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -996,6 +1035,9 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
         // Bordi
         'border' => [
             'radius' => '0.375rem',
@@ -1003,6 +1045,7 @@ return [
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -1020,6 +1063,9 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
         // Ombre
         'shadows' => [
             'sm' => '0 1px 2px 0 rgb(0 0 0 / 0.05)',
@@ -1126,6 +1172,7 @@ AdminLayout::make()
    - Seguire convenzioni di naming
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    - Centralizzare configurazioni
 =======
@@ -1143,3 +1190,6 @@ AdminLayout::make()
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+   - Centralizzare configurazioni
+>>>>>>> 990a9de5 (.)

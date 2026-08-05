@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -9,6 +10,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 ---
 title: "carousel_slider"
 type: concept
@@ -30,6 +33,7 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -41,6 +45,8 @@ related:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 # carousel_slider
 
 <!-- Contenuto migrato da _docs/carousel_slider.txt -->
@@ -50,6 +56,7 @@ https://www.embla-carousel.com/examples/predefined/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -60,6 +67,8 @@ https://www.embla-carousel.com/examples/predefined/
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 https://tw-elements.com/docs/standard/components/carousel/
 
 https://keen-slider.io/examples
@@ -71,6 +80,7 @@ https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider
 
 https://www.embla-carousel.com/examples/predefined/
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -83,6 +93,8 @@ https://www.embla-carousel.com/examples/predefined/
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 
 https://tw-elements.com/docs/standard/components/carousel/
 
@@ -90,6 +102,7 @@ https://keen-slider.io/examples
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
 =======
@@ -107,3 +120,6 @@ https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
+>>>>>>> 990a9de5 (.)

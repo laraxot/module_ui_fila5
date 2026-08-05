@@ -69,6 +69,7 @@ qmd query "$1" -c wiki --limit 3 > compressed_result.md
 # Estrai keyword principali
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
 =======
@@ -82,6 +83,9 @@ qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
+>>>>>>> 990a9de5 (.)
 
 # Genera sommario
 qmd multi-get $(qmd search "$1" -c main_docs | head -10) | awk '/^# / {print; getline; print; print ""}' > summary.md

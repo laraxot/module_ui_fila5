@@ -96,6 +96,7 @@ Each module registers its own SVG icons:
 - `Modules/User/resources/svg/` → `user-{name}`
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
 =======
@@ -109,6 +110,9 @@ Each module registers its own SVG icons:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
+>>>>>>> 990a9de5 (.)
 - etc.
 
 The `ui-` prefix is special: contains the global design system icons shared across all modules.

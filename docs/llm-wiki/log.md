@@ -22,7 +22,11 @@ related:
 
 ## [2026-04-15] maintenance | Initial wiki setup
 - Created: llm-wiki/ directory structure
+<<<<<<< HEAD
 - Created: agents.md (agent instructions)
+=======
+- Created: AGENTS.md (agent instructions)
+>>>>>>> 990a9de5 (.)
 - Created: index.md (content catalog)
 - Created: log.md (this file)
 - Directories initialized:

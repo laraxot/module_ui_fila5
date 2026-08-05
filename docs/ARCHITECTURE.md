@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 990a9de5 (.)
 # UI Module - Architecture Guide (2025)
 
 > **Last Updated:** 2025-11-19
@@ -655,6 +658,7 @@ The UI module is a **well-architected, feature-rich Filament customization layer
 **Document Version:** 1.0
 **Generated:** 2025-11-19
 **Author:** Claude Code Analysis
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 ---
@@ -680,3 +684,5 @@ UI module for Laraxot platform.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

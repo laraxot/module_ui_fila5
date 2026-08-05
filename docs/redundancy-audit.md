@@ -7,6 +7,7 @@ created: 2026-05-21
 related:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   - https://github.com/laraxot/base_fixcity_fila5/issues/89
 =======
@@ -20,6 +21,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+  - https://github.com/laraxot/base_fixcity_fila5/issues/89
+>>>>>>> 990a9de5 (.)
 ---
 
 # UI redundancy audit 2026-05-21

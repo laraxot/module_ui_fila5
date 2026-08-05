@@ -19,7 +19,11 @@ docs/
 ├── wiki/
 │   ├── index.md           # Catalogo
 │   ├── log.md             # Registro
+<<<<<<< HEAD
 │   ├── schema.md          # Questo file
+=======
+│   ├── SCHEMA.md          # Questo file
+>>>>>>> 990a9de5 (.)
 │   ├── concepts/          # Pattern, architettura
 │   ├── entities/          # Modelli, azioni
 │   ├── sources/           # Doc esterna

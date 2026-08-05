@@ -10,6 +10,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Gestione dei Percorsi e degli Asset
 =======
@@ -31,6 +32,13 @@
 ## Collegamenti correlati
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
 - [Architettura Modulare](/laravel/Modules/UI/docs/architecture.md)
+=======
+# Gestione dei Percorsi e degli Asset
+
+## Collegamenti correlati
+- [README modulo UI](/laravel/Modules/UI/docs/README.md)
+- [Architettura Modulare](/laravel/Modules/UI/docs/ARCHITECTURE.md)
+>>>>>>> 990a9de5 (.)
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
 
 ## Percorsi Corretti per gli Asset
@@ -43,6 +51,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [project-root]/
 =======
 =======
@@ -53,12 +62,15 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 
 
 
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -72,6 +84,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 ├── laravel/                 # Applicazione Laravel (codice sorgente)
 │   ├── Modules/             # Moduli dell'applicazione
 │   ├── resources/           # Risorse non compilate
@@ -91,6 +105,7 @@
 |---------------|---------------------|-------------------|
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -105,6 +120,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 | Immagini | `public_html/images/` | `public/images/` |
 | CSS | `public_html/css/` | `public/css/` |
 | JavaScript | `public_html/js/` | `public/js/` |
@@ -113,6 +130,7 @@
 | CSS | `public_html/css/` | `public/css/` |
 | JavaScript | `public_html/js/` | `public/js/` |
 | SVG | `public_html/images/` | `public/images/` |
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -129,6 +147,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 
 ## Utilizzo degli Asset nei Componenti Blade
 
@@ -147,6 +167,7 @@ Per garantire una buona esperienza utente, implementare sempre un fallback per l
 ```php
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <img
 =======
@@ -164,6 +185,9 @@ Per garantire una buona esperienza utente, implementare sempre un fallback per l
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<img
+>>>>>>> 990a9de5 (.)
     src="{{ asset('images/avatars/default-' . $avatarNumber . '.svg') }}"
     alt="{{ $user->name ?? 'User' }}"
     onerror="this.src='{{ asset('images/default-avatar.svg') }}'"
@@ -180,6 +204,7 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [project-root]/laravel/Themes/One/resources/views/components/ui/
 =======
 =======
@@ -190,12 +215,15 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 Themes/One/resources/views/components/ui/
 Themes/One/resources/views/components/ui/
 Themes/One/resources/views/components/ui/
 Themes/One/resources/views/components/ui/
 Themes/One/resources/views/components/ui/
 Themes/One/resources/views/components/ui/
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -209,6 +237,8 @@ Themes/One/resources/views/components/ui/
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 ```
 
 ### SVG come Asset Pubblici
@@ -219,6 +249,7 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [project-root]/public_html/images/
 =======
 =======
@@ -229,12 +260,15 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 public_html/images/
 public_html/images/
 public_html/images/
 public_html/images/
 public_html/images/
 public_html/images/
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -248,6 +282,8 @@ public_html/images/
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 ```
 
 ## Gestione dei Componenti UI
@@ -260,6 +296,7 @@ Il componente avatar è implementato in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [project-root]/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 =======
 =======
@@ -270,12 +307,15 @@ Il componente avatar è implementato in:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 Themes/One/resources/views/components/ui/avatar.blade.php
 Themes/One/resources/views/components/ui/avatar.blade.php
 Themes/One/resources/views/components/ui/avatar.blade.php
 Themes/One/resources/views/components/ui/avatar.blade.php
 Themes/One/resources/views/components/ui/avatar.blade.php
 Themes/One/resources/views/components/ui/avatar.blade.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -289,6 +329,8 @@ Themes/One/resources/views/components/ui/avatar.blade.php
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 ```
 
 E utilizza gli avatar SVG dalla directory pubblica:
@@ -297,6 +339,7 @@ E utilizza gli avatar SVG dalla directory pubblica:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [project-root]/public_html/images/avatars/
 =======
 =======
@@ -307,12 +350,15 @@ E utilizza gli avatar SVG dalla directory pubblica:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 public_html/images/avatars/
 public_html/images/avatars/
 public_html/images/avatars/
 public_html/images/avatars/
 public_html/images/avatars/
 public_html/images/avatars/
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -326,6 +372,8 @@ public_html/images/avatars/
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 ```
 
 ### Componente Icon
@@ -336,6 +384,7 @@ Il componente icon è implementato in:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 [project-root]/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 =======
 =======
@@ -346,12 +395,15 @@ Il componente icon è implementato in:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 Themes/One/resources/views/components/ui/icon.blade.php
 Themes/One/resources/views/components/ui/icon.blade.php
 Themes/One/resources/views/components/ui/icon.blade.php
 Themes/One/resources/views/components/ui/icon.blade.php
 Themes/One/resources/views/components/ui/icon.blade.php
 Themes/One/resources/views/components/ui/icon.blade.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -365,6 +417,8 @@ Themes/One/resources/views/components/ui/icon.blade.php
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 ```
 
 E include le definizioni SVG direttamente nel componente.
@@ -373,6 +427,7 @@ E include le definizioni SVG direttamente nel componente.
 
 > **IMPORTANTE:** Tutti i componenti Blade UI condivisi (es. logo, button, badge, ecc.) devono essere posizionati esclusivamente in:
 >
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -392,6 +447,9 @@ E include le definizioni SVG direttamente nel componente.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+> `Modules/UI/resources/views/components/ui/`
+>>>>>>> 990a9de5 (.)
 >
 > **MAI** in `resources/views/components/ui/` della root Laravel.
 
@@ -405,6 +463,7 @@ E include le definizioni SVG direttamente nel componente.
 
 **❌ Errato:**
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -425,12 +484,15 @@ E include le definizioni SVG direttamente nel componente.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 resources/views/components/ui/logo.blade.php
 ```
 **✅ Corretto:**
 ```
 Modules/UI/resources/views/components/ui/logo.blade.php
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -442,6 +504,8 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 ```
 
 ## Best Practices
@@ -455,6 +519,7 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 
 ## Errori Comuni
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -471,6 +536,8 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 1. **Utilizzo del percorso Laravel public**: Utilizzare `public/` invece di `public_html/`
 1. **Utilizzo del percorso Laravel public**: Utilizzare `public/` invece di `public_html/`
 1. **Utilizzo del percorso Laravel public**: Utilizzare `public/` invece di `public_html/`
@@ -494,7 +561,11 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 
 ## Collegamenti correlati
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
+<<<<<<< HEAD
 - [Architettura Modulare](/laravel/Modules/UI/docs/architecture.md)
+=======
+- [Architettura Modulare](/laravel/Modules/UI/docs/ARCHITECTURE.md)
+>>>>>>> 990a9de5 (.)
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
 
 ## Percorsi Corretti per gli Asset
@@ -634,6 +705,7 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile
 4. **Inconsistenza nei nomi dei file**: Utilizzare convenzioni di naming diverse per file simili
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -649,3 +721,5 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

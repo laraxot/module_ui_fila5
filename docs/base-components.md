@@ -161,6 +161,7 @@ $spacers: (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [UI Standards](./standards/ui-standards.md) 
 =======
 =======
@@ -171,6 +172,8 @@ $spacers: (
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 - [UI Standards](./standards/ui-standards.md)
 # Componenti Base
 
@@ -334,6 +337,7 @@ $spacers: (
 - [Accessibilità](./standards/accessibility.md)
 - [UI Standards](./standards/ui-standards.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -346,3 +350,5 @@ $spacers: (
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)

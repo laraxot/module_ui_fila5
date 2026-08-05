@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -35,3 +36,12 @@ Tutte le variazioni importanti di UI saranno generate automaticamente da semanti
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+---
+module: theme
+topic: changelog
+canonical: ../../../Themes/docs/shared-components/CHANGELOG.md
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/CHANGELOG.md
+>>>>>>> 990a9de5 (.)
