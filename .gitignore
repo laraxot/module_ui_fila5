@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 # Auto-generated forbidden paths — do not edit manually
 # Reason: root cleanup policy (see docs/wiki/rules/root-cleanup-policy.md)
 
@@ -247,16 +244,13 @@ docs/legacy/**
 .vscode/
 .windsurf/
 phpstan*
-=======
-<<<<<<< HEAD
+
 /.ai*
 /_bmad
 /bashscripts
 /_docs
 /docs/archive
 /docs/legacy
-=======
->>>>>>> laraxot/dev
 
 !.env.example
 # --- Backup / old files ---
@@ -428,14 +422,9 @@ yarn.lock
 
 # Root quality tool configs forbidden in module root
 phpmd*
-<<<<<<< HEAD
 /.ai*
 /_bmad
 /bashscripts
 /_docs
 /docs/archive
 /docs/legacy
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev

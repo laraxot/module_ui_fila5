@@ -26,11 +26,7 @@ abstract class RowWidget extends XotBaseSchemaWidget
     /**
      * @return array<int|string, Component>
      */
-<<<<<<< HEAD
-    public function getFormSchemaOld(): array
-=======
     public function getFormSchema(): array
->>>>>>> laraxot/dev
     {
         return [];
     }
