@@ -13,23 +13,23 @@ use Modules\Xot\Models\BaseModel;
 /**
  * Category model for UI module.
  * FormBuilder module not available - extending from XotBaseModel instead.
-<<<<<<< HEAD
+ * <<<<<<< HEAD.
  */
 /**
-=======
-=======
+ * =======
+ * =======
  * <<<<<<< HEAD
->>>>>>> laraxot/dev
+ * >>>>>>> laraxot/dev
  * <<<<<<< HEAD.
  *
  * =======
  */
 /**
-<<<<<<< HEAD
+ * <<<<<<< HEAD
  * >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.).
-=======
+ * =======
  * >>>>>>> 990a9de5 (.).
->>>>>>> laraxot/dev
+ * >>>>>>> laraxot/dev.
  *
  * @property string               $id
  * @property string|null          $name
@@ -48,19 +48,20 @@ use Modules\Xot\Models\BaseModel;
  * @property int                  $sort_order
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
-<<<<<<< HEAD
-=======
+ *                                             <<<<<<< HEAD
+ *                                             =======
  *                                             <<<<<<< HEAD
  * @property ProfileContract|null $deleter
  *                                             =======
  *                                             >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
  *
- * @method static CategoryFactory          factory($count = null, $state = [])
-=======
- *                                             <<<<<<< HEAD
+ * @method static CategoryFactory factory($count = null, $state = [])
+ *                                                                    =======
+ *                                                                    <<<<<<< HEAD
+ *
  * @property ProfileContract|null $deleter
- *                                             =======
- *                                             >>>>>>> 990a9de5 (.)
+ *                                         =======
+ *                                         >>>>>>> 990a9de5 (.)
  *
  * @method static CategoryFactory factory($count = null, $state = [])
  *                                                                    =======
@@ -85,7 +86,7 @@ use Modules\Xot\Models\BaseModel;
  *
  * @method static CategoryFactory          factory($count = null, $state = [])
  *                                                                             >>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
+ *                                                                             >>>>>>> laraxot/dev
  * @method static Builder<static>|Category newModelQuery()
  * @method static Builder<static>|Category newQuery()
  * @method static Builder<static>|Category query()
@@ -104,27 +105,27 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Category whereUpdatedAt($value)
  * @method static Builder<static>|Category whereUpdatedBy($value)
  *
-<<<<<<< HEAD
+ * <<<<<<< HEAD
+ *
  * @property ProfileContract|null $deleter
  *
-=======
-=======
+ * =======
+ * =======
  * <<<<<<< HEAD
->>>>>>> laraxot/dev
+ * >>>>>>> laraxot/dev
  * <<<<<<< HEAD
  * =======
- *
  * @property ProfileContract|null $deleter
  *
-<<<<<<< HEAD
+ * <<<<<<< HEAD
  * >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-=======
+ * =======
  * >>>>>>> 990a9de5 (.)
  * =======
  * @property ProfileContract|null $deleter
  *
  * >>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
+ * >>>>>>> laraxot/dev
  *
  * @mixin \Eloquent
  */
