@@ -13,7 +13,7 @@ final class TestWidget extends XotBaseSchemaWidget
     /**
      * @return array<string, mixed>
      */
-    public function getFormSchema(): array
+    public function getFormSchemaOld(): array
     {
         return [];
     }
