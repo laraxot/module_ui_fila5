@@ -9,6 +9,12 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 ```blade
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<x-ui::datatable
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 <x-ui::datatable 
 =======
 <x-ui::datatable
@@ -16,6 +22,10 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 =======
 <x-ui::datatable 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     :columns="[
         ['name' => 'id', 'label' => 'ID', 'sortable' => true],
         ['name' => 'name', 'label' => 'Nome', 'sortable' => true],
@@ -35,6 +45,12 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 ```blade
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<x-ui::status-badge
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 <x-ui::status-badge 
 =======
 <x-ui::status-badge
@@ -42,6 +58,10 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 =======
 <x-ui::status-badge 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     :status="$user->status"
     :options="[
         'active' => ['label' => 'Attivo', 'color' => 'success'],
@@ -55,6 +75,12 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 ```blade
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<x-ui::action-buttons
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 <x-ui::action-buttons 
 =======
 <x-ui::action-buttons
@@ -62,6 +88,10 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 =======
 <x-ui::action-buttons 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     :actions="[
         [
             'type' => 'view',
@@ -120,6 +150,12 @@ class UserTable extends Component
     public $perPage = 10;
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
     
 =======
 
@@ -127,6 +163,10 @@ class UserTable extends Component
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function sortBy($field)
     {
         if ($this->sortField === $field) {
@@ -138,6 +178,12 @@ class UserTable extends Component
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
     
 =======
 
@@ -145,6 +191,10 @@ class UserTable extends Component
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function render()
     {
         $users = User::query()
@@ -156,6 +206,12 @@ class UserTable extends Component
             ->paginate($this->perPage);
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
             
 =======
 
@@ -163,6 +219,10 @@ class UserTable extends Component
 =======
             
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         return view('livewire.user-table', compact('users'));
     }
 }
@@ -189,8 +249,17 @@ class UserTable extends Component
 - [Componenti Layout](./layout-components.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [Documentazione Frontend](../Cms/docs/frontend-architecture.md)
 # Componenti Table
 
@@ -336,7 +405,16 @@ class UserTable extends Component
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 - [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

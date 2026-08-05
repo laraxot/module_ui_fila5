@@ -18,6 +18,14 @@
   <label for="email">Email</label>
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+  <input
+    type="email"
+    id="email"
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
   <input 
     type="email" 
     id="email" 
@@ -31,6 +39,10 @@
     type="email" 
     id="email" 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     class="form-control is-invalid"
     aria-describedby="email-error"
   >
@@ -46,6 +58,14 @@
   <label for="search">Cerca</label>
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+  <input
+    type="text"
+    id="search"
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
   <input 
     type="text" 
     id="search" 
@@ -59,6 +79,10 @@
     type="text" 
     id="search" 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     class="form-control"
     list="suggestions"
     autocomplete="off"
@@ -79,6 +103,14 @@
   <div class="input-group datepicker">
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+    <input
+      type="text"
+      id="date"
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
     <input 
       type="text" 
       id="date" 
@@ -92,6 +124,10 @@
       type="text" 
       id="date" 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
       class="form-control"
       data-date-format="dd/mm/yyyy"
     >
@@ -109,6 +145,14 @@
   <div class="input-group timepicker">
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+    <input
+      type="text"
+      id="time"
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
     <input 
       type="text" 
       id="time" 
@@ -122,6 +166,10 @@
       type="text" 
       id="time" 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
       class="form-control"
       data-time-format="HH:mm"
     >
@@ -140,6 +188,14 @@
   <label for="range">Range</label>
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+  <input
+    type="range"
+    id="range"
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
   <input 
     type="range" 
     id="range" 
@@ -153,6 +209,10 @@
     type="range" 
     id="range" 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     class="form-range"
     min="0"
     max="100"
@@ -170,6 +230,14 @@
     <button class="btn btn-outline-secondary" type="button">-</button>
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+    <input
+      type="number"
+      id="quantity"
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
     <input 
       type="number" 
       id="quantity" 
@@ -183,6 +251,10 @@
       type="number" 
       id="quantity" 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
       class="form-control text-center"
       min="0"
       max="100"
@@ -234,6 +306,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
   
   &.is-invalid {
@@ -241,13 +318,26 @@
     
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
   &.is-invalid {
     border-color: $danger;
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     &:focus {
       box-shadow: 0 0 0 0.2rem rgba($danger, 0.25);
     }
@@ -261,6 +351,12 @@
   transition: all 0.3s ease;
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
   
 =======
 
@@ -268,6 +364,10 @@
 =======
   
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
   &:focus-within {
     transform: translateY(-1px);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -281,8 +381,17 @@
 - [Accessibilità](./standards/accessibility.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Performance](./standards/performance.md) 
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Performance](./standards/performance.md) 
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [Performance](./standards/performance.md)
 # Componenti Form Avanzati
 
@@ -473,7 +582,16 @@
 - [Feedback](./feedback-components.md)
 - [Accessibilità](./standards/accessibility.md)
 - [Performance](./standards/performance.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 - [Performance](./standards/performance.md) 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

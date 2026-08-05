@@ -9,10 +9,20 @@
 [![Strict Types](https://img.shields.io/badge/PHP-strict__types-1-informational.svg)](#)
 [![Laraxot Modules](https://img.shields.io/badge/Architecture-Modular-purple.svg)](#)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 [![Current Platform](https://img.shields.io/badge/Platform-progetto corrente-008758.svg)](#)
 =======
 [![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 > **Components that don't reinvent the wheel.** Shared design system across modules and theme.
 
@@ -58,7 +68,17 @@ Frontoffice stack: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filamen
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+**Module** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 **Module** `ui` · **Laraxot** · **Current Platform** · PHPStan 10 · Filament 5
 =======
 **Module** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

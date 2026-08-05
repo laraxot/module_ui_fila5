@@ -13,6 +13,21 @@ use Modules\Xot\Models\BaseModel;
 /**
  * Category model for UI module.
  * FormBuilder module not available - extending from XotBaseModel instead.
+<<<<<<< HEAD
+=======
+ * <<<<<<< HEAD.
+ */
+/**
+ * =======
+ * <<<<<<< HEAD.
+ *
+ * =======
+ */
+/**
+ * >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.).
+ *
+ * >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
  *
  * @property string               $id
  * @property string|null          $name
@@ -31,7 +46,17 @@ use Modules\Xot\Models\BaseModel;
  * @property int                  $sort_order
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+<<<<<<< HEAD
  * @property ProfileContract|null $deleter
+=======
+ *                                             <<<<<<< HEAD
+ *                                             =======
+ *                                             <<<<<<< HEAD
+ * @property ProfileContract|null $deleter
+ *                                             =======
+ *                                             >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+ *                                             >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
  *
  * @method static CategoryFactory          factory($count = null, $state = [])
  * @method static Builder<static>|Category newModelQuery()
@@ -52,6 +77,22 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Category whereUpdatedAt($value)
  * @method static Builder<static>|Category whereUpdatedBy($value)
  *
+<<<<<<< HEAD
+=======
+ * <<<<<<< HEAD
+ *
+ * @property ProfileContract|null $deleter
+ *
+ * =======
+ * <<<<<<< HEAD
+ * =======
+ * @property ProfileContract|null $deleter
+ *
+ * >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+ *
+ * >>>>>>> laraxot/dev
+ *
+>>>>>>> laraxot/dev
  * @mixin \Eloquent
  */
 class Category extends BaseModel

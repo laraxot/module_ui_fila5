@@ -82,12 +82,23 @@ Ogni componente è progettato per essere riutilizzato in più moduli senza dupli
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+// InlineDatePicker - Usato in TechPlanner, Employee, Cms
+// LocationSelector - Usato in TechPlanner, Employee, Geo
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 // InlineDatePicker - Usato in modulo operativo, Employee, Cms
 // LocationSelector - Usato in modulo operativo, Employee, Geo
 =======
 // InlineDatePicker - Usato in TechPlanner, Employee, Cms
 // LocationSelector - Usato in TechPlanner, Employee, Geo
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 // IconStateColumn - Usato in tutti i moduli con Spatie ModelStates
 // RadioCollection - Usato per selezioni complesse multimodulo
 ```
@@ -399,10 +410,20 @@ Altri moduli consumano componenti UI:
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+// In TechPlanner/Filament/Resources/DeviceResource.php
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 // In modulo operativo/Filament/Resources/DeviceResource.php
 =======
 // In TechPlanner/Filament/Resources/DeviceResource.php
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 use Modules\UI\Filament\Tables\Columns\IconStateColumn;
 

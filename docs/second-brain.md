@@ -7,10 +7,20 @@ issues:
   - https://github.com/provtv/module_ui_fila5/issues
 discussions:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  - https://github.com/laraxot/base_fixcity_fila5/discussions/273
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
   - https://github.com/laraxot/platform/discussions/273
 =======
   - https://github.com/laraxot/base_fixcity_fila5/discussions/273
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ---
 
 # Second brain (modulo UI)
@@ -27,9 +37,19 @@ Stub **puntatore**: disciplina globale nella wiki di progetto; qui solo lezioni 
 <<<<<<< HEAD
 =======
 - Push dual-remote / LFS: [./wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+- Push dual-remote / LFS: [./wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md)
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## Lezioni operative
 
@@ -42,9 +62,19 @@ Stub **puntatore**: disciplina globale nella wiki di progetto; qui solo lezioni 
 <<<<<<< HEAD
 =======
 | Push unpack / GH008 LFS | thin pack + OID LFS assenti su un org | `--no-thin`; `lfs fetch --all` da sibling sano |
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+| Push unpack / GH008 LFS | thin pack + OID LFS assenti su un org | `--no-thin`; `lfs fetch --all` da sibling sano |
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 **Map/Geo:** Nel modulo `UI` non devono esserci elementi legati a mappe, geolocalizzazione o dati geografici. Le cartelle `app/Adapters/Location` e `app/Adapters/Map` sono state rimosse. Il modulo `Geo` è un ambito separato e non fa parte di questo progetto; il modulo `UI` deve mantenere responsabilità esclusiva sui componenti UI generici.
 

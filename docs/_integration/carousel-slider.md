@@ -1,6 +1,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ---
 title: "carousel_slider"
 type: concept
@@ -21,9 +29,18 @@ related:
   - "./custom-theme-1.md"
 ---
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # carousel_slider
 
 <!-- Contenuto migrato da _docs/carousel_slider.txt -->
@@ -32,8 +49,17 @@ https://www.embla-carousel.com/examples/predefined/
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 https://tw-elements.com/docs/standard/components/carousel/
 
 https://keen-slider.io/examples
@@ -44,10 +70,19 @@ https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider
 <!-- Contenuto migrato da _docs/carousel_slider.txt -->
 
 https://www.embla-carousel.com/examples/predefined/
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 https://tw-elements.com/docs/standard/components/carousel/
 
@@ -55,6 +90,12 @@ https://keen-slider.io/examples
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
 =======
 https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
@@ -62,3 +103,7 @@ https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider
 =======
 https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

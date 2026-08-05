@@ -80,6 +80,12 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+// Dopo
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 // Dopo  
 =======
 // Dopo
@@ -87,6 +93,10 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 =======
 // Dopo  
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 'morning_hours' => 'Orari del mattino',
 'afternoon_hours' => 'Orari del pomeriggio',
 ```
@@ -168,8 +178,17 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Correzioni completate: gennaio 2025*
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Correzioni completate: gennaio 2025*
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 *Correzioni completate: gennaio 2025*
 # Correzioni Lingua Italiana - Opening Hours
 
@@ -332,7 +351,16 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 - [Linee Guida Localizzazione](./localization_guidelines.md)
 
 *Correzioni completate: gennaio 2025*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 *Correzioni completate: gennaio 2025*
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

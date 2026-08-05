@@ -72,8 +72,17 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 29 luglio 2025*
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Ultimo aggiornamento: 29 luglio 2025*
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 *Ultimo aggiornamento: 29 luglio 2025*
 # Risoluzione Conflitto IconStateColumn.php
 
@@ -150,7 +159,16 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 - [Modules/UI/project_docs/](../project_docs/)
 
 *Ultimo aggiornamento: 29 luglio 2025*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 *Ultimo aggiornamento: 29 luglio 2025*
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
