@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "REGOLA CRITICA: NO Commenti Ovvi nel Codice"
 type: concept
@@ -14,6 +15,8 @@ related:
   - "./wizard-steps.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # REGOLA CRITICA: NO Commenti Ovvi nel Codice
 
 ## Principio Fondamentale
@@ -109,7 +112,15 @@ public static function init(): self
 - Mantenere solo commenti che aggiungono valore reale
 
 ## Collegamenti
+<<<<<<< HEAD
 - [../../../docs/clean-code-no-obvious-comments.md](../../../../docs/clean-code-no-obvious-comments.md)
 - [wizard-steps.md](wizard-steps.md)
 - [wizard-schema-separation.md](wizard-schema-separation.md)
 
+=======
+- [../../docs/clean-code-no-obvious-comments.md](../../../docs/clean-code-no-obvious-comments.md)
+- [wizard-steps.md](wizard-steps.md)
+- [wizard-schema-separation.md](wizard-schema-separation.md)
+
+*Ultimo aggiornamento: 2025-08-04*
+>>>>>>> 6e44b7d5 (.)

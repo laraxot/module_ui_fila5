@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <input
     type="email"
@@ -49,6 +50,11 @@
     type="email"
     id="email"
 >>>>>>> 990a9de5 (.)
+=======
+  <input
+    type="email"
+    id="email"
+>>>>>>> 6e44b7d5 (.)
     class="form-control is-invalid"
     aria-describedby="email-error"
   >
@@ -65,6 +71,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <input
     type="text"
@@ -95,6 +102,11 @@
     type="text"
     id="search"
 >>>>>>> 990a9de5 (.)
+=======
+  <input
+    type="text"
+    id="search"
+>>>>>>> 6e44b7d5 (.)
     class="form-control"
     list="suggestions"
     autocomplete="off"
@@ -116,6 +128,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <input
       type="text"
@@ -146,6 +159,11 @@
       type="text"
       id="date"
 >>>>>>> 990a9de5 (.)
+=======
+    <input
+      type="text"
+      id="date"
+>>>>>>> 6e44b7d5 (.)
       class="form-control"
       data-date-format="dd/mm/yyyy"
     >
@@ -164,6 +182,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <input
       type="text"
@@ -194,6 +213,11 @@
       type="text"
       id="time"
 >>>>>>> 990a9de5 (.)
+=======
+    <input
+      type="text"
+      id="time"
+>>>>>>> 6e44b7d5 (.)
       class="form-control"
       data-time-format="HH:mm"
     >
@@ -213,6 +237,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <input
     type="range"
@@ -243,6 +268,11 @@
     type="range"
     id="range"
 >>>>>>> 990a9de5 (.)
+=======
+  <input
+    type="range"
+    id="range"
+>>>>>>> 6e44b7d5 (.)
     class="form-range"
     min="0"
     max="100"
@@ -261,6 +291,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <input
       type="number"
@@ -291,6 +322,11 @@
       type="number"
       id="quantity"
 >>>>>>> 990a9de5 (.)
+=======
+    <input
+      type="number"
+      id="quantity"
+>>>>>>> 6e44b7d5 (.)
       class="form-control text-center"
       min="0"
       max="100"
@@ -342,6 +378,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -361,10 +398,13 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 
   &.is-invalid {
     border-color: $danger;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -380,6 +420,8 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
     &:focus {
       box-shadow: 0 0 0 0.2rem rgba($danger, 0.25);
     }
@@ -394,6 +436,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -414,6 +457,9 @@
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
   &:focus-within {
     transform: translateY(-1px);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -429,6 +475,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Performance](./standards/performance.md) 
 =======
 =======
@@ -441,6 +488,8 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 - [Performance](./standards/performance.md)
 # Componenti Form Avanzati
 
@@ -633,6 +682,7 @@
 - [Performance](./standards/performance.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -647,3 +697,5 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

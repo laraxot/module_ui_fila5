@@ -21,6 +21,7 @@ Il metodo `buttonLabel()` **NON esiste** sul componente `Filament\Forms\Componen
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -31,6 +32,8 @@ Il metodo `buttonLabel()` **NON esiste** sul componente `Filament\Forms\Componen
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 - [Tabella metodi supportati](filament-component-methods.md)
 
 ---
@@ -58,6 +61,7 @@ Il metodo `buttonLabel()` **NON esiste** sul componente `Filament\Forms\Componen
 ## Best Practice
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -71,6 +75,8 @@ Il metodo `buttonLabel()` **NON esiste** sul componente `Filament\Forms\Componen
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 - Consultare sempre la [documentazione ufficiale Filament](https://filamentphp.com/project_docs/3.x/forms/fields/file-upload) prima di usare metodi non standard.
 - Seguire la tabella di compatibilità dei metodi nei componenti Filament (vedi doc modulo Patient e Xot).
 
@@ -89,6 +95,7 @@ Questa doc va sempre consultata e linkata in ogni review e sviluppo che coinvolg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 * [filament-error-fileupload-buttonlabel.md](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
 * [filament-error-fileupload-buttonlabel.md](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
@@ -115,3 +122,8 @@ Questa doc va sempre consultata e linkata in ogni review e sviluppo che coinvolg
 * [filament-error-fileupload-buttonlabel.md](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
 * [filament-error-fileupload-buttonlabel.md](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
 >>>>>>> 990a9de5 (.)
+=======
+* [filament-error-fileupload-buttonlabel.md](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
+* [filament-error-fileupload-buttonlabel.md](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
+* [filament-error-fileupload-buttonlabel.md](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
+>>>>>>> 6e44b7d5 (.)

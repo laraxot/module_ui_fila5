@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Pulse"
 type: concept
@@ -18,4 +19,6 @@ related:
   - "./filament-4-migration-sumy.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 https://bitbucket.org/modcreative/wayble-pulse/src/main/filament/Widgets/Charts/SignalHitsByCategory.php

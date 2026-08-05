@@ -120,7 +120,11 @@ public function form(Form $form): Form
                         $dates = [];
                         $date = now();
                         $count = 0;
+<<<<<<< HEAD
                         
+=======
+
+>>>>>>> 6e44b7d5 (.)
                         while ($count < 30) {
                             if (!$date->isWeekend()) {
                                 $dates[] = $date->format('Y-m-d');
@@ -128,7 +132,11 @@ public function form(Form $form): Form
                             }
                             $date->addDay();
                         }
+<<<<<<< HEAD
                         
+=======
+
+>>>>>>> 6e44b7d5 (.)
                         return $dates;
                     })
                     ->calendarConfig([
@@ -145,10 +153,17 @@ public function form(Form $form): Form
 
 ### Input
 ```blade
+<<<<<<< HEAD
 <x-ui::input 
     name="email" 
     type="email" 
     label="Email" 
+=======
+<x-ui::input
+    name="email"
+    type="email"
+    label="Email"
+>>>>>>> 6e44b7d5 (.)
     placeholder="Inserisci la tua email"
     :required="true"
     :disabled="false"
@@ -161,8 +176,13 @@ public function form(Form $form): Form
 
 ### Select
 ```blade
+<<<<<<< HEAD
 <x-ui::select 
     name="role" 
+=======
+<x-ui::select
+    name="role"
+>>>>>>> 6e44b7d5 (.)
     label="Ruolo"
     :options="[
         'admin' => 'Amministratore',
@@ -179,8 +199,13 @@ public function form(Form $form): Form
 
 ### Checkbox
 ```blade
+<<<<<<< HEAD
 <x-ui::checkbox 
     name="terms" 
+=======
+<x-ui::checkbox
+    name="terms"
+>>>>>>> 6e44b7d5 (.)
     label="Accetto i termini e condizioni"
     :required="true"
     :checked="false"
@@ -191,8 +216,13 @@ public function form(Form $form): Form
 
 ### Radio
 ```blade
+<<<<<<< HEAD
 <x-ui::radio 
     name="gender" 
+=======
+<x-ui::radio
+    name="gender"
+>>>>>>> 6e44b7d5 (.)
     label="Genere"
     :options="[
         'male' => 'Maschio',
@@ -206,8 +236,13 @@ public function form(Form $form): Form
 
 ### Textarea
 ```blade
+<<<<<<< HEAD
 <x-ui::textarea 
     name="message" 
+=======
+<x-ui::textarea
+    name="message"
+>>>>>>> 6e44b7d5 (.)
     label="Messaggio"
     placeholder="Inserisci il tuo messaggio"
     :rows="4"
@@ -241,12 +276,20 @@ class UserForm extends Component
 {
     public $name;
     public $email;
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6e44b7d5 (.)
     protected $rules = [
         'name' => 'required|min:3',
         'email' => 'required|email',
     ];
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function save()
     {
         $this->validate();
@@ -286,8 +329,15 @@ form.addEventListener('submit', (e) => {
 - [Componenti Table](./table-components.md)
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
+<<<<<<< HEAD
 - [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
 ## Collegamenti tra versioni di form-components.md
 * [form-components.md](../../../UI/docs/form-components.md)
 * [form-components.md](../../../UI/docs/roadmap/form-components.md)
 
+=======
+- [Documentazione Frontend](../Cms/docs/frontend-architecture.md)
+## Collegamenti tra versioni di form-components.md
+* [form-components.md](../../../UI/docs/form-components.md)
+* [form-components.md](../../../UI/docs/roadmap/form-components.md)
+>>>>>>> 6e44b7d5 (.)

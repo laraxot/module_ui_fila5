@@ -7,7 +7,11 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 
 ### DataTable
 ```blade
+<<<<<<< HEAD
 <x-ui::datatable 
+=======
+<x-ui::datatable
+>>>>>>> 6e44b7d5 (.)
     :columns="[
         ['name' => 'id', 'label' => 'ID', 'sortable' => true],
         ['name' => 'name', 'label' => 'Nome', 'sortable' => true],
@@ -25,7 +29,11 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 
 ### StatusBadge
 ```blade
+<<<<<<< HEAD
 <x-ui::status-badge 
+=======
+<x-ui::status-badge
+>>>>>>> 6e44b7d5 (.)
     :status="$user->status"
     :options="[
         'active' => ['label' => 'Attivo', 'color' => 'success'],
@@ -37,7 +45,11 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 
 ### ActionButtons
 ```blade
+<<<<<<< HEAD
 <x-ui::action-buttons 
+=======
+<x-ui::action-buttons
+>>>>>>> 6e44b7d5 (.)
     :actions="[
         [
             'type' => 'view',
@@ -94,7 +106,11 @@ class UserTable extends Component
     public $sortDirection = 'asc';
     public $search = '';
     public $perPage = 10;
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function sortBy($field)
     {
         if ($this->sortField === $field) {
@@ -104,7 +120,11 @@ class UserTable extends Component
             $this->sortDirection = 'asc';
         }
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function render()
     {
         $users = User::query()
@@ -114,7 +134,11 @@ class UserTable extends Component
             })
             ->orderBy($this->sortField, $this->sortDirection)
             ->paginate($this->perPage);
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> 6e44b7d5 (.)
         return view('livewire.user-table', compact('users'));
     }
 }
@@ -139,4 +163,8 @@ class UserTable extends Component
 - [Componenti Form](./form-components.md)
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
+<<<<<<< HEAD
 - [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
+=======
+- [Documentazione Frontend](../Cms/docs/frontend-architecture.md)
+>>>>>>> 6e44b7d5 (.)

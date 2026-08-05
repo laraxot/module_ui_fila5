@@ -9,13 +9,17 @@ return [
             'description' => 'title',
             'helper_text' => 'title',
             'placeholder' => 'title',
+<<<<<<< HEAD
             'tooltip' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
         ],
         'text' => [
             'label' => 'Testo',
             'description' => 'text',
             'helper_text' => 'text',
             'placeholder' => 'text',
+<<<<<<< HEAD
             'tooltip' => '',
         ],
         '_tpl' => [
@@ -23,12 +27,18 @@ return [
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
+=======
+        ],
+        '_tpl' => [
+            'label' => '_tpl',
+>>>>>>> 6e44b7d5 (.)
         ],
         'view' => [
             'label' => 'view',
             'description' => 'view',
             'helper_text' => 'view',
             'placeholder' => 'view',
+<<<<<<< HEAD
             'tooltip' => '',
         ],
     ],
@@ -54,6 +64,8 @@ return [
         ],
         'delete' => [
             'label' => 'Elimina Paragraph',
+=======
+>>>>>>> 6e44b7d5 (.)
         ],
     ],
 ];

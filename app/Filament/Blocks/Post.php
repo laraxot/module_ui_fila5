@@ -11,9 +11,12 @@ use Modules\Xot\Filament\Blocks\XotBaseBlock;
 
 final class Post extends XotBaseBlock
 {
+<<<<<<< HEAD
     /**
      * @return array<int, \Filament\Schemas\Components\Component>
      */
+=======
+>>>>>>> 6e44b7d5 (.)
     public static function getFormSchema(): array
     {
         return [

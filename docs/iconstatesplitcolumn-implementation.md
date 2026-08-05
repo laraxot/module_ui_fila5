@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -15,6 +16,8 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 The `IconStateSplitColumn` is a custom Filament table column component designed to display state transition icons in a compact, responsive grid layout. It extends Filament's `Column` component to provide an optimized user experience for state management in tables.
 ## Key Features
 # IconStateSplitColumn Implementation
@@ -525,6 +528,7 @@ document.addEventListener('state-transition', function(event) {
 ## Overview
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -538,6 +542,8 @@ document.addEventListener('state-transition', function(event) {
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 
 The `IconStateSplitColumn` is a custom Filament table column component designed to display state transition icons in a compact, responsive grid layout. It extends Filament's `Column` component to provide an optimized user experience for state management in tables.
 
@@ -606,6 +612,7 @@ class IconStateSplitColumn extends Column
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -626,6 +633,9 @@ class IconStateSplitColumn extends Column
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     protected function setUp(): void
     {
         parent::setUp();
@@ -634,6 +644,7 @@ class IconStateSplitColumn extends Column
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -654,6 +665,9 @@ class IconStateSplitColumn extends Column
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function stateClass(string $stateClass, string $modelClass): static
     {
         // Configure states and model
@@ -661,6 +675,7 @@ class IconStateSplitColumn extends Column
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -681,6 +696,9 @@ class IconStateSplitColumn extends Column
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function getRecordStates(): array
     {
         // Return array of available states
@@ -688,6 +706,7 @@ class IconStateSplitColumn extends Column
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -708,6 +727,9 @@ class IconStateSplitColumn extends Column
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function canTransitionTo($recordId, $stateClass): bool
     {
         // Check if transition is possible
@@ -905,6 +927,7 @@ The main issue was that `wire:click` doesn't work directly in Filament table col
 #### Solution Architecture
 ```javascript
 // Custom event dispatch
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -929,6 +952,8 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 onclick="window.dispatchEvent(new CustomEvent('state-transition', {
     detail: {
         recordId: {{ $record->id }},
@@ -937,6 +962,7 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -950,6 +976,8 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 }))"
 
 // Event listener for Livewire integration
@@ -958,6 +986,7 @@ document.addEventListener('state-transition', function(event) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -978,6 +1007,9 @@ document.addEventListener('state-transition', function(event) {
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     if (window.Livewire) {
         window.Livewire.find(document.querySelector('[wire\\:id]').getAttribute('wire:id'))
             .call(action, recordId, stateClass);
@@ -1018,6 +1050,7 @@ document.addEventListener('state-transition', function(event) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
@@ -1048,3 +1081,8 @@ document.addEventListener('state-transition', function(event) {
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 >>>>>>> 990a9de5 (.)
+=======
+**Compatibility**: Filament 3.x, Laravel 10.x
+**Compatibility**: Filament 3.x, Laravel 10.x
+**Compatibility**: Filament 3.x, Laravel 10.x
+>>>>>>> 6e44b7d5 (.)

@@ -36,6 +36,7 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -56,6 +57,9 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     <x-filament::dropdown.list>
         <x-filament::dropdown.list.item>
             {{ __('View') }}
@@ -203,6 +207,7 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -223,11 +228,14 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 
   state([
       'property' => null,
   ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -243,6 +251,8 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
   $action = function () {
       // Logica dell'azione
   };
@@ -250,6 +260,7 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -270,6 +281,9 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
   <div>
       <!-- Template del componente -->
   </div>
@@ -286,6 +300,7 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -305,10 +320,13 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 
   middleware(['auth']);
   name('page.name');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -324,6 +342,8 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
   state([
       'property' => null,
   ]);
@@ -331,6 +351,7 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -351,6 +372,9 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
   <x-layouts.main>
       <!-- Contenuto della pagina -->
   </x-layouts.main>
@@ -399,6 +423,7 @@ $logout = function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -419,6 +444,9 @@ $logout = function () {
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     @if($isLoggingOut)
         <x-filament::loading-indicator />
     @endif
@@ -469,6 +497,7 @@ $logout = function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -489,6 +518,9 @@ $logout = function () {
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
         @if($isLoggingOut)
             <x-filament::loading-indicator />
         @endif
@@ -642,6 +674,7 @@ $logout = function () {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ Testare in entrambi gli stati
 =======
 =======
@@ -654,6 +687,8 @@ $logout = function () {
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 - ✅ Testare in entrambi gli stati
 # Guida ai Componenti UI
 
@@ -1113,6 +1148,7 @@ $logout = function () {
 - ✅ Testare in entrambi gli stati
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1127,3 +1163,5 @@ $logout = function () {
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

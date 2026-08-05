@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
 =======
@@ -28,6 +29,9 @@ Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modu
 =======
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
 >>>>>>> 990a9de5 (.)
+=======
+Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
+>>>>>>> 6e44b7d5 (.)
 
 ---
 
@@ -450,6 +454,7 @@ class MapService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     'url' => route('fixcity.tickets.show', $ticket)
 =======
@@ -466,6 +471,9 @@ class MapService
 =======
                     'url' => route('fixcity.tickets.show', $ticket)
 >>>>>>> 990a9de5 (.)
+=======
+                    'url' => route('fixcity.tickets.show', $ticket)
+>>>>>>> 6e44b7d5 (.)
                 ];
             })
             ->toArray();
@@ -548,6 +556,7 @@ class GeocodingService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             <livewire:fixcity::components.ticket-stats />
 =======
@@ -564,6 +573,9 @@ class GeocodingService
 =======
             <livewire:fixcity::components.ticket-stats />
 >>>>>>> 990a9de5 (.)
+=======
+            <livewire:fixcity::components.ticket-stats />
+>>>>>>> 6e44b7d5 (.)
         </div>
     </div>
 </div>
@@ -620,6 +632,7 @@ class GeocodingService
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - [ ] Integrazione con modulo Fixcity
 =======
@@ -636,6 +649,9 @@ class GeocodingService
 =======
 - [ ] Integrazione con modulo Fixcity
 >>>>>>> 990a9de5 (.)
+=======
+- [ ] Integrazione con modulo Fixcity
+>>>>>>> 6e44b7d5 (.)
 - [ ] Integrazione con modulo User
 - [ ] API endpoints per mappa
 - [ ] Testing componenti

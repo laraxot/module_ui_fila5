@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -23,6 +24,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/table-layout
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 # TableLayoutEnum Usage Guide
 
 ## Nuovo Approccio (Corretto)
@@ -384,6 +387,7 @@ Il metodo `getTableColumns()` ora richiede due parametri:
 - `$gridColumns`: Array delle colonne per layout griglia
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -398,3 +402,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/table-layout
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

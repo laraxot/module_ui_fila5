@@ -35,10 +35,17 @@ class CustomComponent extends Component
     // Proprietà pubbliche con type hint
     public string $label;
     public ?string $hint = null;
+<<<<<<< HEAD
     
     // Proprietà private per stato interno
     private bool $isLoading = false;
     
+=======
+
+    // Proprietà private per stato interno
+    private bool $isLoading = false;
+
+>>>>>>> 6e44b7d5 (.)
     // Metodi pubblici con return type
     public function render(): View
     {
@@ -54,12 +61,20 @@ class CustomComponent extends Component
     <div class="header">
         {{ $header ?? '' }}
     </div>
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6e44b7d5 (.)
     {{-- Gestire stati condizionali --}}
     <div class="content {{ $isLoading ? 'loading' : '' }}">
         {{ $slot }}
     </div>
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6e44b7d5 (.)
     {{-- Fornire fallback --}}
     <div class="footer">
         {{ $footer ?? 'Default Footer' }}
@@ -74,11 +89,19 @@ class CustomComponent extends Component
     &__header { }
     &__content { }
     &__footer { }
+<<<<<<< HEAD
     
     // Stati
     &--loading { }
     &--disabled { }
     
+=======
+
+    // Stati
+    &--loading { }
+    &--disabled { }
+
+>>>>>>> 6e44b7d5 (.)
     // Varianti
     &--primary { }
     &--secondary { }
@@ -239,13 +262,18 @@ class AdvancedForm extends Component
 - Configurazioni disponibili
 ### Versione HEAD
 
+<<<<<<< HEAD
 - Breaking changes 
+=======
+- Breaking changes
+>>>>>>> 6e44b7d5 (.)
 ## Collegamenti tra versioni di best-practices.md
 * [best-practices.md](docs/tecnico/filament/best-practices.md)
 * [best-practices.md](../../../Xot/docs/laraxot/best-practices.md)
 * [best-practices.md](../../../UI/docs/best-practices.md)
 * [best-practices.md](../../../../Themes/One/docs/best-practices.md)
 
+<<<<<<< HEAD
 
 ### Versione Incoming
 
@@ -253,3 +281,10 @@ class AdvancedForm extends Component
 
 ---
 
+=======
+### Versione Incoming
+
+- Breaking changes
+
+---
+>>>>>>> 6e44b7d5 (.)

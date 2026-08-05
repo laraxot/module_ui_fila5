@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Componente FileUpload in Filament"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./filament-4-migration-sumy.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # Componente FileUpload in Filament
 
 ## Limitazioni e Metodi Disponibili
@@ -90,6 +93,10 @@ Forms\Components\FileUpload::make('document')
 ## Riferimenti
 
 - [Documentazione Filament FileUpload](https://filamentphp.com/docs/3.x/forms/fields/file-upload)
+<<<<<<< HEAD
 - [API Components Filament](../ui/docs/filament/components-api.md)
+=======
+- [API Components Filament](../UI/docs/filament/components-api.md)
+>>>>>>> 6e44b7d5 (.)
 
 > **NOTA**: Questa documentazione segue la regola di centralizzare tutte le documentazioni UI nel modulo UI con collegamenti bidirezionali dagli altri moduli.

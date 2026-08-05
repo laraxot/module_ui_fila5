@@ -57,6 +57,7 @@ Per correggere questa situazione, è necessario:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -67,6 +68,8 @@ Per correggere questa situazione, è necessario:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 
 # Creare la directory Themes se non esiste
 mkdir -p /laravel/Themes
@@ -537,6 +540,7 @@ Per correggere questa situazione, è necessario:
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -550,6 +554,8 @@ Per correggere questa situazione, è necessario:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 # Creare la directory Themes se non esiste
 mkdir -p /laravel/Themes
 
@@ -693,6 +699,7 @@ Questa scelta evita ambiguità e possibili errori runtime nella gestione delle i
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
@@ -719,6 +726,11 @@ Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentaz
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
 >>>>>>> 990a9de5 (.)
+=======
+Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
+Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
+Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
+>>>>>>> 6e44b7d5 (.)
 
 In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale:
 - Rimuovere codice commentato o superfluo lasciato da template generici o da sviluppi temporanei.
@@ -730,6 +742,7 @@ In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
@@ -756,6 +769,11 @@ Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferi
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
 >>>>>>> 990a9de5 (.)
+=======
+Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
+Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
+Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
+>>>>>>> 6e44b7d5 (.)
 
 ## Layout System
 
@@ -812,6 +830,7 @@ class Dashboard extends Component
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -832,6 +851,9 @@ class Dashboard extends Component
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     protected function getLayoutData(): array
     {
         return [
@@ -860,6 +882,7 @@ class Dashboard extends Component
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #### PrintLayout
 =======
@@ -880,6 +903,9 @@ class Dashboard extends Component
 =======
 #### PrintLayout
 >>>>>>> 990a9de5 (.)
+=======
+#### PrintLayout
+>>>>>>> 6e44b7d5 (.)
 ```php
 use Modules\UI\Layouts\PrintLayout;
 
@@ -889,6 +915,7 @@ class StampaPratica extends Component
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -909,6 +936,9 @@ class StampaPratica extends Component
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     protected function getLayoutData(): array
     {
         return [
@@ -954,6 +984,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -974,6 +1005,9 @@ return [
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
         // Tipografia
         'typography' => [
             'fonts' => [
@@ -989,6 +1023,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -1009,6 +1044,9 @@ return [
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
         // Spaziature
         'spacing' => [
             'base' => '1rem',
@@ -1018,6 +1056,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -1038,6 +1077,9 @@ return [
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
         // Bordi
         'border' => [
             'radius' => '0.375rem',
@@ -1046,6 +1088,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -1066,6 +1109,9 @@ return [
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
         // Ombre
         'shadows' => [
             'sm' => '0 1px 2px 0 rgb(0 0 0 / 0.05)',
@@ -1173,6 +1219,7 @@ AdminLayout::make()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
    - Centralizzare configurazioni
 =======
@@ -1193,3 +1240,6 @@ AdminLayout::make()
 =======
    - Centralizzare configurazioni
 >>>>>>> 990a9de5 (.)
+=======
+   - Centralizzare configurazioni
+>>>>>>> 6e44b7d5 (.)

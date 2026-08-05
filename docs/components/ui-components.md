@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Componenti UI - Modulo UI"
 type: concept
@@ -18,11 +19,17 @@ related:
   - "./full-calendar-1.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # Componenti UI - Modulo UI
 
 ## Panoramica
 
+<<<<<<< HEAD
 I componenti UI forniscono elementi riutilizzabili e standardizzati per l'interfaccia utente dell'ecosistema PTVX Fila 5.
+=======
+I componenti UI forniscono elementi riutilizzabili e standardizzati per l'interfaccia utente dell'ecosistema PTVX Fila3 Mono.
+>>>>>>> 6e44b7d5 (.)
 
 ## 🎯 Principi di Design
 
@@ -196,10 +203,18 @@ return [
 
 ## 🔗 Collegamenti
 
+<<<<<<< HEAD
 - [**README Modulo UI**](../readme.md)
+=======
+- [**README Modulo UI**](../README.md)
+>>>>>>> 6e44b7d5 (.)
 - [**Sistema Layout**](../layout/layout-system.md)
 - [**Gestione Asset**](../assets/asset-management.md)
 - [**Personalizzazioni Filament**](../filament/filament-customizations.md)
 
 ---
 
+<<<<<<< HEAD
+=======
+*Ultimo aggiornamento: giugno 2025*
+>>>>>>> 6e44b7d5 (.)

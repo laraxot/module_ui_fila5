@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo <nome progetto>.
 =======
@@ -25,6 +26,9 @@ Questi componenti Filament sono stati creati per supportare la selezione geograf
 =======
 Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo <nome progetto>.
 >>>>>>> 990a9de5 (.)
+=======
+Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo <nome progetto>.
+>>>>>>> 6e44b7d5 (.)
 
 ## Componenti Implementati
 
@@ -36,6 +40,7 @@ Questi componenti Filament sono stati creati per supportare la selezione geograf
 Componente Filament per la selezione gerarchica di Regione → Provincia → CAP con aggiornamenti live e integrazione con il modulo Geo.
 
 #### Caratteristiche
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59,6 +64,9 @@ Componente Filament per la selezione gerarchica di Regione → Provincia → CAP
 =======
 - ✅ **Selezione Gerarchica**: Regione → Provincia → CAP
 >>>>>>> 990a9de5 (.)
+=======
+- ✅ **Selezione Gerarchica**: Regione → Provincia → CAP
+>>>>>>> 6e44b7d5 (.)
 - ✅ **Live Updates**: I campi si aggiornano automaticamente
 - ✅ **Integrazione Geo**: Utilizza i modelli del modulo Geo
 - ✅ **Validazione Cascata**: I campi dipendenti si validano automaticamente
@@ -101,6 +109,7 @@ Componente Blade per la selezione di studi odontoiatrici tramite pulsanti radio-
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <x-ui::ui.studio-selector
 =======
@@ -121,6 +130,9 @@ Componente Blade per la selezione di studi odontoiatrici tramite pulsanti radio-
 =======
 <x-ui::ui.studio-selector
 >>>>>>> 990a9de5 (.)
+=======
+<x-ui::ui.studio-selector
+>>>>>>> 6e44b7d5 (.)
     :studios="$studios"
     :selected-studio="$selectedStudioId"
     target-field="selected_studio"
@@ -155,6 +167,7 @@ protected function getStudioStepSchema(): array
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         View::make('<nome progetto>::filament.widgets.studio-step-header')
 =======
@@ -175,6 +188,9 @@ protected function getStudioStepSchema(): array
 =======
         View::make('<nome progetto>::filament.widgets.studio-step-header')
 >>>>>>> 990a9de5 (.)
+=======
+        View::make('<nome progetto>::filament.widgets.studio-step-header')
+>>>>>>> 6e44b7d5 (.)
             ->viewData([
                 'studiosCount' => $this->getStudiosCount(),
                 'geographicArea' => $this->getGeographicAreaName(),
@@ -182,6 +198,7 @@ protected function getStudioStepSchema(): array
             ->visible(fn (): bool => $this->hasValidGeographicSelection()),
 
         // Pulsanti selezione studio
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -205,6 +222,9 @@ protected function getStudioStepSchema(): array
 =======
         View::make('<nome progetto>::filament.widgets.studio-selector')
 >>>>>>> 990a9de5 (.)
+=======
+        View::make('<nome progetto>::filament.widgets.studio-selector')
+>>>>>>> 6e44b7d5 (.)
             ->viewData([
                 'studios' => $this->getStudiosForSelectedArea(),
                 'selectedStudio' => $this->data['selected_studio'] ?? null,
@@ -213,6 +233,7 @@ protected function getStudioStepSchema(): array
 
         // TextInput per mostrare studio selezionato
         TextInput::make('selected_studio_name')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -241,6 +262,10 @@ protected function getStudioStepSchema(): array
             ->label(__('<nome progetto>::widgets.find_doctor.fields.selected_studio.label'))
             ->placeholder(__('<nome progetto>::widgets.find_doctor.fields.selected_studio.placeholder'))
 >>>>>>> 990a9de5 (.)
+=======
+            ->label(__('<nome progetto>::widgets.find_doctor.fields.selected_studio.label'))
+            ->placeholder(__('<nome progetto>::widgets.find_doctor.fields.selected_studio.placeholder'))
+>>>>>>> 6e44b7d5 (.)
             ->readonly()
             ->visible(fn (): bool => !empty($this->data['selected_studio']))
             ->suffixIcon('heroicon-o-check-circle')
@@ -264,6 +289,7 @@ public function selectStudio(int $studioId): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -284,6 +310,9 @@ public function selectStudio(int $studioId): void
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     if (!$studio || !$studio->active) {
         $this->addError('selected_studio', 'Studio non disponibile');
         return;
@@ -295,6 +324,7 @@ public function selectStudio(int $studioId): void
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -315,6 +345,9 @@ public function selectStudio(int $studioId): void
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     // Notifica il cambio di stato
     $this->dispatch('studio-selected', studioId: $studioId, studioName: $studio->name);
 }
@@ -327,6 +360,7 @@ public function selectStudio(int $studioId): void
 - Live updates automatici tra i campi
 - Validazione cascata
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -350,6 +384,9 @@ public function selectStudio(int $studioId): void
 =======
 ### 2. **Step Selezione Studio**
 >>>>>>> 990a9de5 (.)
+=======
+### 2. **Step Selezione Studio**
+>>>>>>> 6e44b7d5 (.)
 - Visualizzazione pulsanti per ogni studio nell'area
 - Click su pulsante = selezione studio
 - Visual feedback immediato (radio indicator + colori)
@@ -373,6 +410,7 @@ protected function getStudiosForSelectedArea(): Collection
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -393,6 +431,9 @@ protected function getStudiosForSelectedArea(): Collection
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     return cache()->remember($cacheKey, 300, function () {
         return Studio::query()
             ->active()
@@ -421,6 +462,7 @@ class FindDoctorWidgetStep2Test extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -441,11 +483,15 @@ class FindDoctorWidgetStep2Test extends TestCase
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
         $widget = Livewire::test(FindDoctorAndAppointmentWidget::class)
             ->set('data.region', '12')
             ->set('data.province', 'RM')
             ->set('data.cap', '00042')
             ->call('selectStudio', $studio->id);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -469,6 +515,9 @@ class FindDoctorWidgetStep2Test extends TestCase
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
         $widget->assertSet('data.selected_studio', $studio->id)
                ->assertSet('data.selected_studio_name', 'Studio Test');
     }
@@ -511,6 +560,7 @@ class FindDoctorWidgetStep2Test extends TestCase
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -527,6 +577,8 @@ class FindDoctorWidgetStep2Test extends TestCase
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 **Creato**: 26 Giugno 2025
 **Versione**: 2.0 - Semplificato
 **Stato**: Implementation Ready
@@ -789,6 +841,7 @@ class FindDoctorWidgetStep2Test extends TestCase
 **Approccio**: Pulsanti + TextInput (semplice e diretto)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -806,3 +859,5 @@ class FindDoctorWidgetStep2Test extends TestCase
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

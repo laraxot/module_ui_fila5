@@ -14,6 +14,7 @@ use Modules\Xot\Models\BaseModel;
  * FormBuilder module not available - extending from XotBaseModel instead.
  */
 /**
+<<<<<<< HEAD
  * @property string|null                     $name
  * @property string|null                     $description
  * @property string|null                     $type
@@ -23,6 +24,12 @@ use Modules\Xot\Models\BaseModel;
  * @property ProfileContract|null            $updater
  *
  * @method static CollectionFactory          factory($count = null, $state = [])
+=======
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+ *
+ * @method static CollectionFactory factory($count = null, $state = [])
+>>>>>>> 6e44b7d5 (.)
  * @method static Builder<static>|Collection newModelQuery()
  * @method static Builder<static>|Collection newQuery()
  * @method static Builder<static>|Collection query()
@@ -40,8 +47,11 @@ class Collection extends BaseModel
         'name',
         'description',
         'type',
+<<<<<<< HEAD
         'theme_id',
         'is_active',
         'order',
+=======
+>>>>>>> 6e44b7d5 (.)
     ];
 }

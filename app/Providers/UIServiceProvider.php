@@ -13,19 +13,53 @@ use Modules\Xot\Providers\XotBaseServiceProvider;
  * Nota: la registrazione dei Blade components modulari avviene tramite GetModulePathByGeneratorAction
  * per garantire la corretta risoluzione dei path secondo la struttura dei moduli.
  *
+<<<<<<< HEAD
  * Nessun binding Geo/Map/Location: dominio geografico non appartiene a UI
  * (vedi docs/geo-boundary.md). In questo progetto il modulo Geo non è presente.
  *
+=======
+>>>>>>> 6e44b7d5 (.)
  * @phpstan-type ModuleConfig array{name: string, alias: string, description: string, keywords: array<int, string>, priority: int, providers: array<int, class-string>}
  */
 class UIServiceProvider extends XotBaseServiceProvider
 {
+<<<<<<< HEAD
     public string $name = 'UI';
 
+=======
+    /**
+     * Nome del modulo.
+     */
+    public string $name = 'UI';
+
+    /**
+     * Directory del modulo.
+     */
+>>>>>>> 6e44b7d5 (.)
     protected string $module_dir = __DIR__;
 
     protected string $module_ns = __NAMESPACE__;
 
+<<<<<<< HEAD
+=======
+    /**
+     * Boot del service provider.
+     *
+     * Configura i componenti Blade e altre funzionalità del modulo UI.
+     *
+     * @return void
+     */
+
+    /**
+     * Registra i servizi del provider.
+     *
+     * @return void
+     */
+
+    /**
+     * Restituisce il percorso delle viste dei componenti UI.
+     */
+>>>>>>> 6e44b7d5 (.)
     public function getComponentViewPath(): string
     {
         return app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-view');

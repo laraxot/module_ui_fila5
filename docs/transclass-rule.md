@@ -22,6 +22,7 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -42,6 +43,9 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     case LIST = 'list';
     case GRID = 'grid';
 
@@ -161,6 +165,7 @@ enum MyEnum: string implements HasColor, HasIcon, HasLabel
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -181,6 +186,9 @@ enum MyEnum: string implements HasColor, HasIcon, HasLabel
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     case VALUE1 = 'value1';
     case VALUE2 = 'value2';
 }
@@ -335,6 +343,7 @@ rules:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **RICORDA SEMPRE**:
 =======
@@ -355,12 +364,16 @@ rules:
 =======
 **RICORDA SEMPRE**:
 >>>>>>> 990a9de5 (.)
+=======
+**RICORDA SEMPRE**:
+>>>>>>> 6e44b7d5 (.)
 - SEMPRE `TransTrait` negli enum
 - SEMPRE `transClass()` per traduzioni
 - MAI `match()` per traduzioni
 - SEMPRE struttura espansa nelle traduzioni
 - SEMPRE sincronizzazione IT/EN/DE
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -377,6 +390,8 @@ rules:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 *Ultimo aggiornamento: 2025-01-06*
 # REGOLA CRITICA: Usa SEMPRE transClass() negli Enum
 
@@ -678,6 +693,7 @@ rules:
 *Ultimo aggiornamento: 2025-01-06*
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -692,3 +708,5 @@ rules:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

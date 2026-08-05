@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📚 **Indice Documentazione Modulo UI**
 
 **Last Update**: 31 Gennaio 2026
@@ -41,3 +42,7 @@
 
 ---
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*
+=======
+# Documentation Index
+# Documentation Index
+>>>>>>> 6e44b7d5 (.)

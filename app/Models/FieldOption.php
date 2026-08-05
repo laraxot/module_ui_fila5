@@ -17,7 +17,11 @@ use Modules\Xot\Models\BaseModel;
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  *
+<<<<<<< HEAD
  * @method static FieldOptionFactory          factory($count = null, $state = [])
+=======
+ * @method static FieldOptionFactory factory($count = null, $state = [])
+>>>>>>> 6e44b7d5 (.)
  * @method static Builder<static>|FieldOption newModelQuery()
  * @method static Builder<static>|FieldOption newQuery()
  * @method static Builder<static>|FieldOption query()

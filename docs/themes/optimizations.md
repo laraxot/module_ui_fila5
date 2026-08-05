@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Themes - Ottimizzazioni e Correzioni"
 type: concept
@@ -15,6 +16,8 @@ related:
   - "./schemaless-attributes-guide.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # Themes - Ottimizzazioni e Correzioni
 
 ## 🎯 Overview

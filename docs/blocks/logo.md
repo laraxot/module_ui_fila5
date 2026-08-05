@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Logo Component"
 type: concept
@@ -14,6 +15,8 @@ related:
   - "./user-dropdown.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # Logo Component
 
 This document describes the Logo component used in section headers and its proper implementation.
@@ -84,6 +87,12 @@ In the section configuration JSON:
 
 ## Related Documentation
 
+<<<<<<< HEAD
 - [Block Components Overview](./readme.md)
 - [Data Handling in Blade Components](../blade-data-handling.md)
 - [Section Architecture](../sections/readme.md)
+=======
+- [Block Components Overview](./README.md)
+- [Data Handling in Blade Components](../blade-data-handling.md)
+- [Section Architecture](../sections/README.md)
+>>>>>>> 6e44b7d5 (.)

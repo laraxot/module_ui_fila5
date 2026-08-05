@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Bugfix: IconColumn View Path Mismatch"
 type: concept
@@ -12,6 +13,8 @@ related:
   - "./iconcolumn-extends-filament-column.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # Bugfix: IconColumn View Path Mismatch
 
 **Data Fix**: 11 Novembre 2025
@@ -126,6 +129,10 @@ protected string $view = 'ui::filament.tables.columns.icon';
 
 ## Riferimenti
 
+<<<<<<< HEAD
 - [Laraxot Architectural Rules](../../architecture-rules-1.md)
+=======
+- [Laraxot Architectural Rules](../../architecture_rules.md)
+>>>>>>> 6e44b7d5 (.)
 - [XotBaseIconColumn](../../../../Xot/app/Filament/Tables/Columns/XotBaseIconColumn.php)
 - [Blade Best Practices](https://laravel.com/docs/blade)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "navbar"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # navbar
 
 <!-- Contenuto migrato da _docs/navbar.txt -->

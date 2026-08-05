@@ -64,12 +64,18 @@ final class ImagesGallery
                 // TextInput::make('caption')
                 //     ->columnSpanFull(),
             ])
+<<<<<<< HEAD
             ->columns('form' === $context ? 2 : 1);
     }
 
     /**
      * @return array<string, string>
      */
+=======
+            ->columns($context === 'form' ? 2 : 1);
+    }
+
+>>>>>>> 6e44b7d5 (.)
     public static function getRatios(): array
     {
         return [

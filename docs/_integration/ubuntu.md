@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "ubuntu"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # ubuntu
 
 <!-- Contenuto migrato da _docs/ubuntu.txt -->

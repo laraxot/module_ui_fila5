@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 module: theme
 topic: compilation
@@ -11,3 +12,6 @@ related:
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/.gitkeep
+=======
+
+>>>>>>> 6e44b7d5 (.)

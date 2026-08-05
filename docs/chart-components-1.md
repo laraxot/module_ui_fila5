@@ -7,7 +7,11 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 
 ### LineChart
 ```blade
+<<<<<<< HEAD
 <x-ui::line-chart 
+=======
+<x-ui::line-chart
+>>>>>>> 6e44b7d5 (.)
     :title="'Andamento Utenti'"
     :labels="['Gen', 'Feb', 'Mar', 'Apr', 'Mag', 'Giu']"
     :datasets="[
@@ -27,7 +31,11 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 
 ### PieChart
 ```blade
+<<<<<<< HEAD
 <x-ui::pie-chart 
+=======
+<x-ui::pie-chart
+>>>>>>> 6e44b7d5 (.)
     :title="'Distribuzione Utenti'"
     :labels="['Attivi', 'Inattivi', 'In attesa']"
     :data="[300, 50, 100]"
@@ -41,7 +49,11 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 
 ### StatsOverview
 ```blade
+<<<<<<< HEAD
 <x-ui::stats-overview 
+=======
+<x-ui::stats-overview
+>>>>>>> 6e44b7d5 (.)
     :stats="[
         [
             'label' => 'Utenti Totali',
@@ -91,12 +103,20 @@ use Livewire\Component;
 class UserStats extends Component
 {
     public $chartData;
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function mount()
     {
         $this->updateChartData();
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function updateChartData()
     {
         $this->chartData = [
@@ -110,7 +130,11 @@ class UserStats extends Component
             ]
         ];
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function render()
     {
         return view('livewire.user-stats');
@@ -137,4 +161,8 @@ class UserStats extends Component
 - [Componenti Form](./form-components.md)
 - [Componenti Table](./table-components.md)
 - [Componenti Layout](./layout-components.md)
+<<<<<<< HEAD
 - [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
+=======
+- [Documentazione Frontend](../Cms/docs/frontend-architecture.md)
+>>>>>>> 6e44b7d5 (.)

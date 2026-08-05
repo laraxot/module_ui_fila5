@@ -105,13 +105,17 @@ TextInput::make('full_name')
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 - [Convenzioni API](../../../docs/api/convenzioni.md)
 ## Collegamenti tra versioni di convenzioni-naming-campi.md
 * [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
 # Convenzioni di Naming dei Campi
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -139,6 +143,8 @@ TextInput::make('full_name')
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 
 ## Collegamenti Bidirezionali
 - [Best Practices UI](../best-practices.md)
@@ -250,6 +256,7 @@ TextInput::make('full_name')
 - [Convenzioni API](../../../project_docs/api/convenzioni.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -264,3 +271,5 @@ TextInput::make('full_name')
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

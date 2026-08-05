@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Studio Selection Component con Pulsanti"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./full-calendar-1.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # Studio Selection Component con Pulsanti
 
 ## Descrizione

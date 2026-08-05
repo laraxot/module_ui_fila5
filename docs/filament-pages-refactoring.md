@@ -146,6 +146,7 @@ class S3Test extends XotBasePage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: giugno 2025* 
 =======
 =======
@@ -158,6 +159,8 @@ class S3Test extends XotBasePage
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 *Ultimo aggiornamento: giugno 2025*
 # Filament Pages Refactoring - UI Module
 
@@ -306,6 +309,7 @@ class S3Test extends XotBasePage
 *Ultimo aggiornamento: giugno 2025*
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -320,3 +324,5 @@ class S3Test extends XotBasePage
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

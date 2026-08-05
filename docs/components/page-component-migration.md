@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Migrazione Componenti di Pagina - Modulo UI"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./full-calendar-1.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # Migrazione Componenti di Pagina - Modulo UI
 
 ## Panoramica
@@ -243,4 +246,8 @@ Log::error('Error loading page content', [
 
 - [Documentazione Componenti Blade](https://laravel.com/docs/blade#components)
 - [Sistema di Blocchi UI](../blocks/blocks-system.md)
+<<<<<<< HEAD
 - [Migrazione CMS](../../cms/docs/migrations/02_theme_content_to_page_component.md)
+=======
+- [Migrazione CMS](../../Cms/docs/migrations/02_theme_content_to_page_component.md)
+>>>>>>> 6e44b7d5 (.)

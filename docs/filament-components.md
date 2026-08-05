@@ -58,6 +58,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
 =======
@@ -78,11 +79,15 @@
 =======
 4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
 >>>>>>> 990a9de5 (.)
+=======
+4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
+>>>>>>> 6e44b7d5 (.)
 ## Collegamenti tra versioni di filament-components.md
 * [filament-components.md](../../User/docs/best-practices/filament-components.md)
 * [filament-components.md](../../Cms/docs/best-practices/filament-components.md)
 * [filament-components.md](../../Cms/docs/filament-components.md)
 * [filament-components.md](../../../docs/rules/filament-components.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -97,6 +102,8 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 # Componenti Filament UI
 
 ## Collegamenti Bidirezionali
@@ -160,6 +167,7 @@
 ## Collegamenti tra versioni di filament-components.md
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -173,6 +181,8 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 * [filament-components.md](../../User/project_docs/best-practices/filament-components.md)
 * [filament-components.md](../../Cms/project_docs/best-practices/filament-components.md)
 * [filament-components.md](../../Cms/project_docs/filament-components.md)
@@ -180,6 +190,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -201,3 +212,5 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

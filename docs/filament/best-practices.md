@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Best Practices Filament"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./file-upload-component.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # Best Practices Filament
 
 ## Regole fondamentali

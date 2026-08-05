@@ -84,6 +84,7 @@ Ogni componente è progettato per essere riutilizzato in più moduli senza dupli
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // InlineDatePicker - Usato in TechPlanner, Employee, Cms
 // LocationSelector - Usato in TechPlanner, Employee, Geo
@@ -104,6 +105,10 @@ Ogni componente è progettato per essere riutilizzato in più moduli senza dupli
 // InlineDatePicker - Usato in TechPlanner, Employee, Cms
 // LocationSelector - Usato in TechPlanner, Employee, Geo
 >>>>>>> 990a9de5 (.)
+=======
+// InlineDatePicker - Usato in TechPlanner, Employee, Cms
+// LocationSelector - Usato in TechPlanner, Employee, Geo
+>>>>>>> 6e44b7d5 (.)
 // IconStateColumn - Usato in tutti i moduli con Spatie ModelStates
 // RadioCollection - Usato per selezioni complesse multimodulo
 ```
@@ -417,6 +422,7 @@ Altri moduli consumano componenti UI:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // In TechPlanner/Filament/Resources/DeviceResource.php
 =======
@@ -433,6 +439,9 @@ Altri moduli consumano componenti UI:
 =======
 // In TechPlanner/Filament/Resources/DeviceResource.php
 >>>>>>> 990a9de5 (.)
+=======
+// In TechPlanner/Filament/Resources/DeviceResource.php
+>>>>>>> 6e44b7d5 (.)
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 use Modules\UI\Filament\Tables\Columns\IconStateColumn;
 

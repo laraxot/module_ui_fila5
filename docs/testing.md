@@ -178,6 +178,7 @@ protected function createApplication()
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'database.connections.ui.database' => 'quaeris_data_test',
 =======
@@ -194,6 +195,9 @@ protected function createApplication()
 =======
         'database.connections.ui.database' => 'quaeris_data_test',
 >>>>>>> 990a9de5 (.)
+=======
+        'database.connections.ui.database' => 'quaeris_data_test',
+>>>>>>> 6e44b7d5 (.)
     ]);
     
     return $app;
@@ -377,4 +381,8 @@ Remember: Good tests are the foundation of reliable software development.
 
 ---
 
+<<<<<<< HEAD
 *Last updated: January 2025*
+=======
+*Last updated: January 2025*
+>>>>>>> 6e44b7d5 (.)

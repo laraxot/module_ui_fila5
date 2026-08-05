@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "RadioCollection Component: Analisi Ontologica e Fenomenologica"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./full-calendar-1.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # RadioCollection Component: Analisi Ontologica e Fenomenologica
 
 ## 🎭 Filosofia & Epistemologia del Componente
@@ -287,6 +290,7 @@ wire:model.live="{{ $getStatePath() }}"
 *"In ogni scelta si cela l'universo intero, e in ogni click si manifesta la volontà dell'essere digitale."*
 **Ultimo aggiornamento ontologico**: Dicembre 2024
 **Versione dell'esistenza**: 1.0.0
+<<<<<<< HEAD
 **Compatibilità karmica**: Filament 5.x, Livewire 4.x, Laravel 11+
 **Compatibilità karmica**: Filament 5.x, Livewire 4.x, Laravel 11+
 **Compatibilità karmica**: Filament 3.x, Livewire 4.x, Laravel 10+
@@ -295,3 +299,13 @@ wire:model.live="{{ $getStatePath() }}"
 **Compatibilità karmica**: Filament 3.x, Livewire 4.x, Laravel 10+
 **Compatibilità karmica**: Filament 5.x, Livewire 4.x, Laravel 11+
 **Compatibilità karmica**: Filament 3.x, Livewire 4.x, Laravel 10+
+=======
+**Compatibilità karmica**: Filament 4.x, Livewire 3.x, Laravel 11+
+**Compatibilità karmica**: Filament 4.x, Livewire 3.x, Laravel 11+
+**Compatibilità karmica**: Filament 3.x, Livewire 3.x, Laravel 10+
+**Compatibilità karmica**: Filament 4.x, Livewire 3.x, Laravel 11+
+**Compatibilità karmica**: Filament 4.x, Livewire 3.x, Laravel 11+
+**Compatibilità karmica**: Filament 3.x, Livewire 3.x, Laravel 10+
+**Compatibilità karmica**: Filament 4.x, Livewire 3.x, Laravel 11+
+**Compatibilità karmica**: Filament 3.x, Livewire 3.x, Laravel 10+
+>>>>>>> 6e44b7d5 (.)

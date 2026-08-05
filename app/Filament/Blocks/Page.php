@@ -9,6 +9,7 @@ use Modules\Xot\Filament\Blocks\XotBaseBlock;
 
 final class Page extends XotBaseBlock
 {
+<<<<<<< HEAD
     /**
      * @return array<int, \Filament\Schemas\Components\Component>
      */
@@ -17,6 +18,9 @@ final class Page extends XotBaseBlock
 =======
     public static function getFormSchema(): array
 >>>>>>> 990a9de5 (.)
+=======
+    public static function getFormSchema(): array
+>>>>>>> 6e44b7d5 (.)
     {
         return [
             RichEditor::make('content')

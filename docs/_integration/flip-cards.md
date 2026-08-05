@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -100,6 +101,8 @@ https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create
 =======
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 # flip_cards
 
 <!-- Contenuto migrato da _docs/flip_cards.txt -->
@@ -115,6 +118,7 @@ https://dev.to/adetutu/how-to-design-a-css-card-flip-animation-creating-flipping
 https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
 
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -131,6 +135,8 @@ https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
+=======
+>>>>>>> 6e44b7d5 (.)
 # flip_cards
 
 <!-- Contenuto migrato da _docs/flip_cards.txt -->
@@ -146,4 +152,7 @@ https://dev.to/adetutu/how-to-design-a-css-card-flip-animation-creating-flipping
 https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
 
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+<<<<<<< HEAD
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

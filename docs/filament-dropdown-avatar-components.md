@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Componenti Dropdown, Avatar e Loading Indicator di Filament
 =======
@@ -21,6 +22,9 @@
 =======
 # Componenti Dropdown, Avatar e Loading Indicator di Filament
 >>>>>>> 990a9de5 (.)
+=======
+# Componenti Dropdown, Avatar e Loading Indicator di Filament
+>>>>>>> 6e44b7d5 (.)
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -52,6 +56,7 @@ Il componente Dropdown di Filament è composto da tre parti principali:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -72,6 +77,9 @@ Il componente Dropdown di Filament è composto da tre parti principali:
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     <!-- Elementi del dropdown -->
     <x-filament::dropdown.list>
         <x-filament::dropdown.item href="#" icon="heroicon-o-user">
@@ -149,6 +157,7 @@ Opzioni di larghezza:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -169,6 +178,9 @@ Opzioni di larghezza:
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     <x-slot name="badge">
         3
     </x-slot>
@@ -268,6 +280,7 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -288,6 +301,9 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
             <div class="ml-1">
                 <x-filament::icon
                     name="heroicon-o-chevron-down"
@@ -299,6 +315,7 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -319,6 +336,9 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
     <x-filament::dropdown.list>
         <div class="px-4 py-2 text-xs text-gray-400">
             {{ __('Manage Account') }}
@@ -326,6 +346,7 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -352,16 +373,21 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 
         <x-filament::dropdown.item href="{{ route('profile.show') }}" icon="heroicon-o-user">
             {{ __('Profile') }}
         </x-filament::dropdown.item>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 
         <x-filament::dropdown.item href="{{ route('profile.show') }}" icon="heroicon-o-cog-6-tooth">
             {{ __('Settings') }}
@@ -369,6 +395,7 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 
         <x-filament::dropdown.separator />
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -388,6 +415,8 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
         <form method="POST" action="{{ route('logout') }}">
             @csrf
             <x-filament::dropdown.item
@@ -420,6 +449,7 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Icone di Filament](https://filamentphp.com/docs/3.x/support/icons)
 =======
 =======
@@ -432,6 +462,8 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 - [Documentazione Icone di Filament](https://filamentphp.com/docs/3.x/support/icons)
 # Componenti Dropdown, Avatar e Loading Indicator di Filament
 
@@ -690,6 +722,7 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 - [Documentazione Icone di Filament](https://filamentphp.com/docs/3.x/support/icons)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -704,3 +737,5 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

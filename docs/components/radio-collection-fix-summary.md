@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "RadioCollection: Riassunto Correzione & Risultati FINALI"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./full-calendar-1.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # RadioCollection: Riassunto Correzione & Risultati FINALI
 
 ## 🎯 Problema Identificato

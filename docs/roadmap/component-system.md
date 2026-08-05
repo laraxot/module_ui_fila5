@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -47,6 +48,8 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 # Sistema Componenti UI
 
 ## 📊 Stato Implementazione
@@ -243,6 +246,7 @@ protected function resolveLazyProp(string $key): mixed
 2. Implementare lazy loading
 3. Migliorare test coverage
 4. Documentare best practices
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -259,6 +263,8 @@ protected function resolveLazyProp(string $key): mixed
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 5. Ottimizzare performance
 # Sistema Componenti UI
 
@@ -457,6 +463,7 @@ protected function resolveLazyProp(string $key): mixed
 3. Migliorare test coverage
 4. Documentare best practices
 5. Ottimizzare performance
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -473,3 +480,5 @@ protected function resolveLazyProp(string $key): mixed
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

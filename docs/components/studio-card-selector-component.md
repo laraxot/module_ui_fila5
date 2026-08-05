@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "StudioCardSelector Component - Modulo UI"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./full-calendar-1.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # StudioCardSelector Component - Modulo UI
 
 ## 🎯 **Panoramica**
@@ -507,7 +510,11 @@ class StudioCardSelectorTest extends DuskTestCase
 ## 📖 **Collegamenti Documentazione**
 
 ### Modulo UI
+<<<<<<< HEAD
 - [Components Overview](./readme.md)
+=======
+- [Components Overview](./README.md)
+>>>>>>> 6e44b7d5 (.)
 - [Form Components Guide](../form-components.md)
 - [Accessibility Guidelines](../accessibility.md)
 
@@ -526,4 +533,8 @@ class StudioCardSelectorTest extends DuskTestCase
 **Reusability**: 🔄 High - Cross-module compatible
 **Complexity**: 🟡 Medium - Custom view with Alpine.js
 **Maintenance**: 🟢 Low - Well-documented and tested
+<<<<<<< HEAD
 
+=======
+**Last Updated**: January 2025
+>>>>>>> 6e44b7d5 (.)

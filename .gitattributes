@@ -1,9 +1,13 @@
 * text=auto
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6e44b7d5 (.)
 *.css linguist-vendored
 *.scss linguist-vendored
 *.js linguist-vendored
 CHANGELOG.md export-ignore
+<<<<<<< HEAD
 *.psd !text !filter !merge !diff
 *.png !text !filter !merge !diff
 *.svg !text !filter !merge !diff
@@ -18,10 +22,16 @@ CHANGELOG.md export-ignore
 *.psd binary
 =======
 >>>>>>> 990a9de5 (.)
+=======
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.png !text !filter !merge !diff
+*.svg !text !filter !merge !diff
+>>>>>>> 6e44b7d5 (.)
 *.jpg !text !filter !merge !diff
 *.jpeg !text !filter !merge !diff
 *.gif !text !filter !merge !diff
 *.webp !text !filter !merge !diff
+<<<<<<< HEAD
 *.ico !text !filter !merge !diff
 *.pdf !text !filter !merge !diff
 *.zip !text !filter !merge !diff
@@ -30,3 +40,5 @@ CHANGELOG.md export-ignore
 *.ttf !text !filter !merge !diff
 *.eot !text !filter !merge !diff
 *.otf !text !filter !merge !diff
+=======
+>>>>>>> 6e44b7d5 (.)

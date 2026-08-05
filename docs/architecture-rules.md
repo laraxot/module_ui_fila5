@@ -148,6 +148,7 @@ class CustomMiddleware
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <img src="public/images/avatar.png">
 <img src="public/images/avatar.png">
@@ -171,6 +172,10 @@ class CustomMiddleware
 <img src="public/images/avatar.png">
 <img src="public/images/avatar.png">
 >>>>>>> 990a9de5 (.)
+=======
+<img src="public/images/avatar.png">
+<img src="public/images/avatar.png">
+>>>>>>> 6e44b7d5 (.)
 
 // Non duplicare la registrazione dei componenti
 Blade::component('ui::components.icon', 'ui.icon');
@@ -307,6 +312,7 @@ class UIServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -327,11 +333,14 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 
   state([
       'property' => null,
   ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -347,6 +356,8 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
   $action = function () {
       // Logica dell'azione
   };
@@ -354,6 +365,7 @@ class UIServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -374,6 +386,9 @@ class UIServiceProvider extends XotBaseServiceProvider
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
   <div>
       <!-- Template del componente -->
   </div>
@@ -390,6 +405,7 @@ class UIServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -409,10 +425,13 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 
   middleware(['auth']);
   name('page.name');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -428,6 +447,8 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
   state([
       'property' => null,
   ]);
@@ -435,6 +456,7 @@ class UIServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -455,6 +477,9 @@ class UIServiceProvider extends XotBaseServiceProvider
 =======
 
 >>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
   <x-layouts.main>
       <!-- Contenuto della pagina -->
   </x-layouts.main>
@@ -601,6 +626,7 @@ class UIServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Gestire correttamente il logout con CSRF
 =======
 =======
@@ -613,6 +639,8 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
    - Gestire correttamente il logout con CSRF
 # Regole Architetturali
 
@@ -1072,6 +1100,7 @@ class UIServiceProvider extends XotBaseServiceProvider
    - Gestire correttamente il logout con CSRF
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1086,3 +1115,5 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

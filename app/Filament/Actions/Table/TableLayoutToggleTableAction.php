@@ -4,12 +4,19 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Actions\Table;
 
+<<<<<<< HEAD
 use Filament\Resources\Pages\ListRecords;
 use Modules\UI\Enums\TableLayoutEnum;
 use Modules\UI\Filament\Traits\HasTableLayoutPage;
 use Modules\Xot\Filament\Actions\XotBaseAction;
 
 final class TableLayoutToggleTableAction extends XotBaseAction implements HasTableLayout
+=======
+use Filament\Actions\Action;
+use Filament\Resources\Pages\ListRecords;
+
+final class TableLayoutToggleTableAction extends Action implements HasTableLayout
+>>>>>>> 6e44b7d5 (.)
 {
     use TableLayoutTrait;
 
@@ -17,10 +24,19 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
     {
         parent::setUp();
 
+<<<<<<< HEAD
         $this->iconButton()
             ->label('')
             ->tooltip(fn (): string => $this->resolveTargetLayout()->getLabel())
             ->icon(fn (): string => $this->resolveTargetLayout()->getIcon())
+=======
+        $current = $this->getCurrentLayout();
+
+        $this->label(__('ui::table_layout.actions.toggle.label'))
+            ->tooltip($current->getLabel())
+            ->color($current->getColor())
+            ->icon($current->getIcon())
+>>>>>>> 6e44b7d5 (.)
             ->action($this->toggleLayout(...));
     }
 
@@ -29,6 +45,7 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
         return 'table_layout_toggle';
     }
 
+<<<<<<< HEAD
     protected function toggleLayout(): void
     {
         $livewire = $this->getLivewire();
@@ -74,4 +91,17 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
 
         return $this->getCurrentLayout();
     }
+=======
+    protected function toggleLayout(?ListRecords $livewire): void
+    {
+        $currentLayout = $this->getCurrentLayout();
+        $newLayout = $currentLayout->toggle();
+
+        $this->setTableLayout($newLayout);
+
+        if ($livewire instanceof ListRecords) {
+            $livewire->dispatch('$refresh');
+        }
+    }
+>>>>>>> 6e44b7d5 (.)
 }

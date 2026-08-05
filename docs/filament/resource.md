@@ -3,6 +3,7 @@ title: Creazione di una Resource
 description: Creazione di una Resource
 extends: _layouts.documentation
 section: content
+<<<<<<< HEAD
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -12,6 +13,8 @@ related:
   - "./filament-4-migration-guide.md"
   - "./filament-4-migration-summary.md"
   - "./filament-4-migration-sumy.md"
+=======
+>>>>>>> 6e44b7d5 (.)
 ---
 
 # Creazione di una Resource {#creazione-resource}

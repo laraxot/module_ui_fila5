@@ -6,8 +6,13 @@ namespace Modules\UI\Filament\Forms\Components;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
+<<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Filament\Forms\Components\XotBaseSelect;
+=======
+use Modules\Xot\Filament\Forms\Components\XotBaseSelect;
+use Spatie\ModelStates\HasStatesContract;
+>>>>>>> 6e44b7d5 (.)
 
 class SelectState extends XotBaseSelect
 {
@@ -15,9 +20,16 @@ class SelectState extends XotBaseSelect
     {
         parent::setUp();
 
+<<<<<<< HEAD
         $this->options(function (?Model $record): array {
             $name = $this->getName();
             if (null === $record) {
+=======
+        //  $this->selectablePlaceholder(false);
+        $this->options(function ((Model&HasStatesContract)|null $record): array {
+            $name = $this->getName();
+            if ($record === null) {
+>>>>>>> 6e44b7d5 (.)
                 $model = $this->getModel();
                 if (\is_string($model) && class_exists($model)) {
                     $instance = app($model);
@@ -28,9 +40,28 @@ class SelectState extends XotBaseSelect
                             if (! \is_array($statesRaw)) {
                                 $statesRaw = Arr::wrap($statesRaw);
                             }
+<<<<<<< HEAD
 
                             /* @var array<int|string, mixed> $statesRaw */
                             return $this->combineStateOptions($statesRaw);
+=======
+                            /** @var array<int|string, mixed> $statesRaw */
+                            $states = $statesRaw;
+                            $statesKeys = array_map(static fn ($v) => \is_string($v) ? $v : (string) $v, array_values($states));
+                            $statesValues = array_map(static fn ($v) => \is_string($v) ? $v : (string) $v, array_values($states));
+
+                            $combined = array_combine($statesKeys, $statesValues);
+                            /** @var array<int|string, int|string> $combinedTyped */
+                            $combinedTyped = $combined ? $combined : [];
+                            $statesKeys = array_map(static fn ($v) => \is_string($v) ? $v : (string) $v, array_values($states));
+                            $statesValues = array_map(static fn ($v) => \is_string($v) ? $v : (string) $v, array_values($states));
+
+                            $combined = array_combine($statesKeys, $statesValues);
+                            /** @var array<int|string, int|string> $combinedTyped */
+                            $combinedTyped = $combined ? $combined : [];
+
+                            return $combinedTyped;
+>>>>>>> 6e44b7d5 (.)
                         }
                     }
                 }
@@ -38,6 +69,7 @@ class SelectState extends XotBaseSelect
                 return [];
             }
 
+<<<<<<< HEAD
             if (! method_exists($record, 'getStatesFor')) {
                 return [];
             }
@@ -73,4 +105,23 @@ class SelectState extends XotBaseSelect
 
         return $combined ? $combined : [];
     }
+=======
+            // Record implements HasStatesContract which provides getStatesFor()
+            $statesCollection = $record->getStatesFor($name);
+            // getStatesFor() returns Collection which has toArray()
+            $statesRaw = $statesCollection->toArray();
+            /** @var array<int|string, mixed> $states */
+            $states = $statesRaw;
+            $statesKeys = array_map(static fn ($v) => \is_string($v) ? $v : (string) $v, array_values($states));
+            $statesValues = array_map(static fn ($v) => \is_string($v) ? $v : (string) $v, array_values($states));
+
+            $combined = array_combine($statesKeys, $statesValues);
+            /** @var array<int|string, int|string> $combinedTyped */
+            $combinedTyped = $combined ? $combined : [];
+
+            return $combinedTyped;
+        });
+        $this->required();
+    }
+>>>>>>> 6e44b7d5 (.)
 }

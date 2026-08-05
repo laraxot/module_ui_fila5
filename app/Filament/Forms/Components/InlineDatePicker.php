@@ -46,22 +46,40 @@ class InlineDatePicker extends XotBaseDatePicker
     {
         parent::setUp();
 
+<<<<<<< HEAD
         Carbon::setLocale(App::getLocale());
         $this->currentViewMonth = now()->format('Y-m');
 
         $this->afterStateHydrated(static function (self $component, mixed $state): void {
             if (null !== $state && \is_string($state) && '' !== $state) {
+=======
+        // Inizializzazione con localizzazione Carbon
+        Carbon::setLocale(App::getLocale());
+        $this->currentViewMonth = now()->format('Y-m');
+
+        // Hydration/Dehydration del valore
+        $this->afterStateHydrated(static function (self $component, mixed $state): void {
+            if ($state !== null && \is_string($state) && $state !== '') {
+>>>>>>> 6e44b7d5 (.)
                 try {
                     $date = Carbon::parse($state);
                     $component->currentViewMonth = $date->format('Y-m');
                 } catch (\Exception $e) {
+<<<<<<< HEAD
+=======
+                    // Handle invalid date
+>>>>>>> 6e44b7d5 (.)
                     $component->currentViewMonth = now()->format('Y-m');
                 }
             }
         });
 
         $this->dehydrateStateUsing(static function (self $_component, mixed $state): ?string {
+<<<<<<< HEAD
             if (null !== $state && \is_string($state) && '' !== $state) {
+=======
+            if ($state !== null && \is_string($state) && $state !== '') {
+>>>>>>> 6e44b7d5 (.)
                 try {
                     return Carbon::parse($state)->format('Y-m-d');
                 } catch (\Exception $e) {
@@ -100,7 +118,11 @@ class InlineDatePicker extends XotBaseDatePicker
     /**
      * Imposta le date abilitate.
      *
+<<<<<<< HEAD
      * @param array<string>|\Closure $dates
+=======
+     * @param  array<string>|\Closure  $dates
+>>>>>>> 6e44b7d5 (.)
      */
     public function enabledDates(array|\Closure $dates): static
     {
@@ -112,6 +134,7 @@ class InlineDatePicker extends XotBaseDatePicker
     /**
      * Imposta il mese corrente di visualizzazione.
      *
+<<<<<<< HEAD
      * @param string $month Formato Y-m (es. '2025-06')
      */
     public function currentViewMonth(string $month): static
@@ -119,6 +142,17 @@ class InlineDatePicker extends XotBaseDatePicker
         if (empty($month) || ! preg_match('/^\d{4}-\d{2}$/', $month)) {
             $this->currentViewMonth = now()->format('Y-m');
         } else {
+=======
+     * @param  string  $month  Formato Y-m (es. '2025-06')
+     */
+    public function currentViewMonth(string $month): static
+    {
+        // ✅ Validazione robusta - fallback se vuoto o invalido
+        if (empty($month) || ! preg_match('/^\d{4}-\d{2}$/', $month)) {
+            $this->currentViewMonth = now()->format('Y-m');
+        } else {
+            // Verifica che sia una data valida
+>>>>>>> 6e44b7d5 (.)
             try {
                 Carbon::createFromFormat('Y-m', $month);
                 $this->currentViewMonth = $month;
@@ -148,7 +182,11 @@ class InlineDatePicker extends XotBaseDatePicker
 
         /** @var Collection<int, non-falsy-string> $result */
         $result = collect($dates)->map(static function (mixed $date): string {
+<<<<<<< HEAD
             if (! \is_string($date) || '' === $date) {
+=======
+            if (! \is_string($date) || $date === '') {
+>>>>>>> 6e44b7d5 (.)
                 return '';
             }
             try {
@@ -156,7 +194,11 @@ class InlineDatePicker extends XotBaseDatePicker
             } catch (\Exception $e) {
                 return '';
             }
+<<<<<<< HEAD
         })->filter(static fn (string $v): bool => '' !== $v)->values(); // Remove empty strings and reindex
+=======
+        })->filter(static fn (string $v): bool => $v !== '')->values(); // Remove empty strings and reindex
+>>>>>>> 6e44b7d5 (.)
 
         /** @var Collection<int, string> $resultTyped */
         $resultTyped = $result;
@@ -179,15 +221,25 @@ class InlineDatePicker extends XotBaseDatePicker
      */
     public function generateCalendarData(): array
     {
+<<<<<<< HEAD
+=======
+        // ✅ Validazione di sicurezza - assicura che currentViewMonth sia valido
+>>>>>>> 6e44b7d5 (.)
         if (empty($this->currentViewMonth) || ! preg_match('/^\d{4}-\d{2}$/', $this->currentViewMonth)) {
             $this->currentViewMonth = now()->format('Y-m');
         }
 
+<<<<<<< HEAD
         $targetMonthRaw = Carbon::createFromFormat('Y-m', $this->currentViewMonth);
         if (! $targetMonthRaw) {
             $targetMonthRaw = Carbon::now();
         }
         $targetMonth = $targetMonthRaw->startOfMonth();
+=======
+        /** @phpstan-ignore method.nonObject */
+        $targetMonth = Carbon::createFromFormat('Y-m', $this->currentViewMonth)->startOfMonth();
+        /** @phpstan-ignore-next-line */
+>>>>>>> 6e44b7d5 (.)
         $firstDay = $targetMonth->copy()->startOfWeek(Carbon::MONDAY);
         $lastDay = $targetMonth->copy()->endOfMonth()->endOfWeek(Carbon::SUNDAY);
 
@@ -197,10 +249,18 @@ class InlineDatePicker extends XotBaseDatePicker
         while ($currentDay->lte($lastDay)) {
             $week = collect();
 
+<<<<<<< HEAD
             for ($i = 0; $i < 7; ++$i) {
                 $isCurrentMonth = $currentDay->month === $targetMonth->month;
                 $isToday = $currentDay->isToday();
 
+=======
+            for ($i = 0; $i < 7; $i++) {
+                $isCurrentMonth = $currentDay->month === $targetMonth->month;
+                $isToday = $currentDay->isToday();
+
+                // Gestione sicura del controllo selezione
+>>>>>>> 6e44b7d5 (.)
                 $isSelected = false;
                 try {
                     $state = $this->getState();
@@ -269,6 +329,7 @@ class InlineDatePicker extends XotBaseDatePicker
         $weekdays = [];
         $monday = Carbon::now()->startOfWeek(Carbon::MONDAY);
 
+<<<<<<< HEAD
         for ($i = 0; $i < 7; ++$i) {
             $dayCarbon = $monday->copy()->addDays($i)->locale(App::getLocale());
             if (! $dayCarbon instanceof Carbon) {
@@ -276,6 +337,11 @@ class InlineDatePicker extends XotBaseDatePicker
             }
             $shortDay = $dayCarbon->shortLocaleDayOfWeek;
             $weekdays[] = \is_string($shortDay) ? mb_substr($shortDay, 0, 1) : (string) $shortDay;
+=======
+        for ($i = 0; $i < 7; $i++) {
+            /* @phpstan-ignore property.nonObject */
+            $weekdays[] = $monday->copy()->addDays($i)->locale(App::getLocale())->shortLocaleDayOfWeek[0];
+>>>>>>> 6e44b7d5 (.)
         }
 
         return $weekdays;

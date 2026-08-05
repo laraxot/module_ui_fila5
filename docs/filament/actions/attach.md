@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Attach"
 type: concept
@@ -11,6 +12,8 @@ related:
   - "./pdf.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 ```php
 AttachAction::make()->modifyRecordSelectUsing(
 fn ($select) => $select->getOptionLabelFromRecordUsing(fn ($record) => $record->name . ' ' . $record->organization)

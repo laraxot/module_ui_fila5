@@ -29,10 +29,13 @@ return [
         'confirm_password' => 'Conferma Password',
         'save' => 'Salva',
         'update' => 'Aggiorna',
+<<<<<<< HEAD
         'services' => 'I miei servizi',
         'practices' => 'Le mie pratiche',
         'notifications' => 'Notifiche',
         'logout' => 'Esci',
+=======
+>>>>>>> 6e44b7d5 (.)
     ],
     'user_dropdown' => [
         'manage_account' => 'Gestione Account',
@@ -64,6 +67,7 @@ return [
     ],
     'failed' => 'Le credenziali non corrispondono ai nostri record.',
     'throttle' => 'Troppi tentativi di accesso. Riprova tra :seconds secondi.',
+<<<<<<< HEAD
     'label' => 'Auth',
     'plural_label' => 'Auth (Plurale)',
     'fields' => [
@@ -97,4 +101,6 @@ return [
             'label' => 'Elimina Auth',
         ],
     ],
+=======
+>>>>>>> 6e44b7d5 (.)
 ];

@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // Themes/One/resources/views/pages/auth/logout.blade.php
 =======
@@ -27,6 +28,9 @@
 =======
 // Themes/One/resources/views/pages/auth/logout.blade.php
 >>>>>>> 990a9de5 (.)
+=======
+// Themes/One/resources/views/pages/auth/logout.blade.php
+>>>>>>> 6e44b7d5 (.)
 
 <?php
 
@@ -53,6 +57,7 @@ $logout = function() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -72,10 +77,13 @@ $logout = function() {
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 
             <div class="flex justify-center space-x-4">
                 <button
                     wire:click="logout"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -91,6 +99,8 @@ $logout = function() {
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
                     class="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
                 >
                     {{ __('Esci') }}
@@ -98,6 +108,7 @@ $logout = function() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
                 <a
@@ -128,6 +139,11 @@ $logout = function() {
                 <a
                     href="{{ url()->previous() }}"
 >>>>>>> 990a9de5 (.)
+=======
+
+                <a
+                    href="{{ url()->previous() }}"
+>>>>>>> 6e44b7d5 (.)
                     class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
                 >
                     {{ __('Annulla') }}
@@ -200,6 +216,7 @@ $logout = function() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 5. Utilizzare le traduzioni per il supporto multilingua 
 =======
 =======
@@ -212,6 +229,8 @@ $logout = function() {
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 5. Utilizzare le traduzioni per il supporto multilingua
 # Pagine di Autenticazione
 
@@ -325,6 +344,7 @@ $logout = function() {
 5. Utilizzare le traduzioni per il supporto multilingua
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -339,3 +359,5 @@ $logout = function() {
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

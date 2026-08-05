@@ -12,19 +12,31 @@ use Modules\UI\Enums\TableLayoutEnum;
 class ListUsers extends ListRecords
 {
     protected TableLayoutEnum $layout;
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function mount(): void
     {
         $this->layout = TableLayoutEnum::LIST;
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6e44b7d5 (.)
     public function table(Table $table): Table
     {
         return $table
             ->columns($this->getColumnsForLayout())
             ->contentGrid($this->layout->getTableContentGrid());
     }
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 6e44b7d5 (.)
     /**
      * Restituisce le colonne appropriate per il layout corrente
      */
@@ -35,7 +47,11 @@ class ListUsers extends ListRecords
             Tables\Columns\TextColumn::make('email'),
             Tables\Columns\TextColumn::make('created_at'),
         ];
+<<<<<<< HEAD
         
+=======
+
+>>>>>>> 6e44b7d5 (.)
         $gridColumns = [
             Tables\Columns\Layout\Stack::make([
                 Tables\Columns\TextColumn::make('name')
@@ -43,10 +59,17 @@ class ListUsers extends ListRecords
                 Tables\Columns\TextColumn::make('email'),
             ]),
         ];
+<<<<<<< HEAD
         
         return $this->layout->getTableColumns($listColumns, $gridColumns);
     }
     
+=======
+
+        return $this->layout->getTableColumns($listColumns, $gridColumns);
+    }
+
+>>>>>>> 6e44b7d5 (.)
     /**
      * Toggle del layout tramite action
      */
@@ -74,4 +97,8 @@ class ListUsers extends ListRecords
 
 Il metodo `getTableColumns()` ora richiede due parametri:
 - `$listColumns`: Array delle colonne per layout lista
+<<<<<<< HEAD
 - `$gridColumns`: Array delle colonne per layout griglia 
+=======
+- `$gridColumns`: Array delle colonne per layout griglia
+>>>>>>> 6e44b7d5 (.)

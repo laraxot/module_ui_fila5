@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests;
 
+<<<<<<< HEAD
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Support\Facades\DB;
@@ -70,3 +71,8 @@ abstract class TestCase extends XotBaseTestCase
         $this->ensureUiSchema();
     }
 }
+=======
+use Modules\Xot\Tests\TestCase as BaseTestCase;
+
+abstract class TestCase extends BaseTestCase {}
+>>>>>>> 6e44b7d5 (.)

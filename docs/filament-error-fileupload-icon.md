@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -23,6 +24,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/filament-err
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 # Errore: Metodo `icon()` su FileUpload di Filament
 
 ## Descrizione
@@ -73,6 +76,7 @@ Il metodo `icon()` **NON esiste** sul componente `Filament\Forms\Components\File
 * [filament-error-fileupload-icon.md](../../Patient/project_docs/filament-error-fileupload-icon.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -87,3 +91,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/filament-err
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

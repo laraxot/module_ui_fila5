@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Utilizzo dei Componenti Blade di Filament
 =======
@@ -21,6 +22,9 @@
 =======
 # Utilizzo dei Componenti Blade di Filament
 >>>>>>> 990a9de5 (.)
+=======
+# Utilizzo dei Componenti Blade di Filament
+>>>>>>> 6e44b7d5 (.)
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -65,6 +69,7 @@ Filament fornisce una serie di componenti Blade pronti all'uso che dovrebbero es
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>corrente
 =======
 =======
@@ -77,12 +82,15 @@ Filament fornisce una serie di componenti Blade pronti all'uso che dovrebbero es
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -99,6 +107,8 @@ Filament fornisce una serie di componenti Blade pronti all'uso che dovrebbero es
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 - ❌ `<x-filament::layouts.card>` - Non esiste, utilizzare invece una combinazione di `<x-filament::card>` e altri componenti
 - ❌ `<x-filament::layouts.base>` - Non esiste
 
@@ -241,6 +251,7 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 
 3. **NON nidificare** elementi dropdown in modo errato - Rispettare la struttura gerarchica dei componenti Filament.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -264,6 +275,9 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 =======
 ## Gestione delle Rotte
 >>>>>>> 990a9de5 (.)
+=======
+## Gestione delle Rotte
+>>>>>>> 6e44b7d5 (.)
 
 ### Regole Fondamentali
 
@@ -272,6 +286,7 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
    - Folio gestisce automaticamente le rotte del frontend
 
 2. **Per le pagine frontend**:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -288,12 +303,15 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
    - Creare file Blade in `Themes/One/resources/views/pages/`
    - Creare file Blade in `Themes/One/resources/views/pages/`
    - Creare file Blade in `Themes/One/resources/views/pages/`
    - Creare file Blade in `Themes/One/resources/views/pages/`
    - Creare file Blade in `Themes/One/resources/views/pages/`
    - Creare file Blade in `Themes/One/resources/views/pages/`
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -310,6 +328,8 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
    - Utilizzare Folio per il routing automatico
    - Esempio: `/profile/index.blade.php` sarà accessibile come `/it/profile`
 
@@ -342,6 +362,7 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Utilizzando i componenti Blade nativi di Filament, possiamo garantire una maggiore coerenza visiva, una migliore manutenibilità del codice e un'esperienza utente più fluida . Inoltre, possiamo beneficiare degli aggiornamenti e dei miglioramenti futuri di Filament senza dover modificare i nostri componenti personalizzati.
 =======
 =======
@@ -354,6 +375,8 @@ Utilizzando i componenti Blade nativi di Filament, possiamo garantire una maggio
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 Utilizzando i componenti Blade nativi di Filament, possiamo garantire una maggiore coerenza visiva, una migliore manutenibilità del codice e un'esperienza utente più fluida . Inoltre, possiamo beneficiare degli aggiornamenti e dei miglioramenti futuri di Filament senza dover modificare i nostri componenti personalizzati.
 # Utilizzo dei Componenti Blade di Filament
 
@@ -580,6 +603,7 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 Utilizzando i componenti Blade nativi di Filament, possiamo garantire una maggiore coerenza visiva, una migliore manutenibilità del codice e un'esperienza utente più fluida . Inoltre, possiamo beneficiare degli aggiornamenti e dei miglioramenti futuri di Filament senza dover modificare i nostri componenti personalizzati.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -594,3 +618,5 @@ Utilizzando i componenti Blade nativi di Filament, possiamo garantire una maggio
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)

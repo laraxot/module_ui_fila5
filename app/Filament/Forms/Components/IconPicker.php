@@ -6,15 +6,25 @@ namespace Modules\UI\Filament\Forms\Components;
 
 use Filament\Actions\Action;
 use Filament\Forms\Components\Select;
+<<<<<<< HEAD
+=======
+use Filament\Forms\Components\TextInput;
+>>>>>>> 6e44b7d5 (.)
 use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Components\Utilities\Set;
 use Illuminate\Support\Arr;
 use Modules\UI\Actions\Icon\GetAllIconsAction;
+<<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Filament\Forms\Components\XotBaseTextInput;
 use Webmozart\Assert\Assert;
 
 class IconPicker extends XotBaseTextInput
+=======
+use Webmozart\Assert\Assert;
+
+class IconPicker extends TextInput
+>>>>>>> 6e44b7d5 (.)
 {
     protected function setUp(): void
     {
@@ -27,6 +37,7 @@ class IconPicker extends XotBaseTextInput
         $packsKeys = $packs;
         $packsCombined = array_combine($packsKeys, $packsKeys);
         /** @var array<string, string> $packs */
+<<<<<<< HEAD
         $packs = $packsCombined ?: [];
 
         $this->suffixAction(
@@ -35,6 +46,19 @@ class IconPicker extends XotBaseTextInput
                 ->schema([
                     Select::make('pack')
                         ->options(static function () use ($packs): array {
+=======
+        $packs = $packsCombined ? $packsCombined : [];
+        // dddx($icons->toCollection()->get('heroicons')->toArray());
+
+        $this->suffixAction(
+            Action::make('icon')
+                ->icon(fn (?string $state) => $state)
+                // ->modalContent(fn ($record) => view('ui::filament.forms.components.icon-picker', ['record' => $record]))
+                ->schema([
+                    Select::make('pack')
+                        ->options(function () use ($packs): array {
+                            /* @var array<string, string> $packsOptions */
+>>>>>>> 6e44b7d5 (.)
                             return $packs;
                         })
                         ->reactive()
@@ -42,7 +66,11 @@ class IconPicker extends XotBaseTextInput
                     RadioIcon::make('newstate')
                         ->options(function (Get $get) use ($icons): array {
                             $pack = $get('pack');
+<<<<<<< HEAD
                             if (! \is_string($pack)) {
+=======
+                            if (! is_string($pack)) {
+>>>>>>> 6e44b7d5 (.)
                                 return [];
                             }
                             $key = $pack.'.icons';
@@ -52,6 +80,7 @@ class IconPicker extends XotBaseTextInput
                                 '['.__LINE__.']['.class_basename($this).']',
                             );
                             /** @var array<int|string, mixed> $optsRaw */
+<<<<<<< HEAD
                             $optsValues = array_map(
                                 static fn ($v) => SafeStringCastAction::cast($v),
                                 array_values($optsRaw),
@@ -61,6 +90,23 @@ class IconPicker extends XotBaseTextInput
                                 static fn ($k) => SafeStringCastAction::cast($k),
                                 array_keys($optsRaw),
                             );
+=======
+                            $optsValues = array_map(fn ($v) => is_string($v) ? $v : (string) $v, array_values($optsRaw));
+                            /** @var array<int|string> $optsKeys */
+                            $optsKeys = array_map(fn ($k) => is_string($k) ? $k : (string) $k, array_keys($optsRaw));
+                            $optsValues = array_map(fn ($v) => is_string($v) ? $v : (string) $v, array_values($optsRaw));
+                            /** @var array<int|string> $optsKeys */
+                            $optsKeys = array_map(fn ($k) => is_string($k) ? $k : (string) $k, array_keys($optsRaw));
+                            $optsValues = array_map(fn ($v) => is_string($v) ? $v : (string) $v, array_values($optsRaw));
+                            /** @var array<int|string> $optsKeys */
+                            $optsKeys = array_map(fn ($k) => is_string($k) ? $k : (string) $k, array_keys($optsRaw));
+                            $optsValues = array_map(fn ($v) => is_string($v) ? $v : (string) $v, array_values($optsRaw));
+                            /** @var array<int|string> $optsKeys */
+                            $optsKeys = array_map(fn ($k) => is_string($k) ? $k : (string) $k, array_keys($optsRaw));
+                            $optsValues = array_map(fn ($v) => is_string($v) ? $v : (string) $v, array_values($optsRaw));
+                            /** @var array<int|string> $optsKeys */
+                            $optsKeys = array_map(fn ($k) => is_string($k) ? $k : (string) $k, array_keys($optsRaw));
+>>>>>>> 6e44b7d5 (.)
                             $optsCombined = array_combine($optsKeys, $optsValues);
 
                             return $optsCombined ? $optsCombined : [];
@@ -68,7 +114,11 @@ class IconPicker extends XotBaseTextInput
                         ->inline()
                         ->inlineLabel(false),
                 ])
+<<<<<<< HEAD
                 ->action(static function (array $data, Set $set): void {
+=======
+                ->action(function (array $data, Set $set) {
+>>>>>>> 6e44b7d5 (.)
                     $set('icon', $data['newstate']);
                 }),
         );

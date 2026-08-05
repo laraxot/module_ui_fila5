@@ -75,7 +75,10 @@ class Foo extends bar
 </div>
 ### Versione HEAD
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6e44b7d5 (.)
 ## Collegamenti tra versioni di customizing-your-site.md
 * [customizing-your-site.md](../../../Gdpr/docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../Xot/docs/customizing-your-site.md)
@@ -83,9 +86,15 @@ class Foo extends bar
 * [customizing-your-site.md](../../../Tenant/docs/it/customizing-your-site.md)
 * [customizing-your-site.md](../../../Cms/docs/customizing-your-site.md)
 
+<<<<<<< HEAD
 
 ### Versione Incoming
 
 
 ---
 
+=======
+### Versione Incoming
+
+---
+>>>>>>> 6e44b7d5 (.)

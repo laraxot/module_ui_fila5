@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -8,6 +9,8 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+>>>>>>> 6e44b7d5 (.)
 # TableLayoutToggleTableAction
 
 ## Panoramica
@@ -63,6 +66,7 @@ class MyListRecords extends ListRecords
 - [Risoluzione Conflitti UI](../CONFLITTI_MERGE_RISOLTI.md): Documentazione dei conflitti risolti
 - [Test di Risoluzione Conflitti](../test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 [Torna alla documentazione UI](/docs/modules/module_ui.md#actions) 
 =======
@@ -122,6 +126,11 @@ click → toggleLayout()
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+[Torna alla documentazione UI](/docs/modules/module_ui.md#actions)
+# TableLayoutToggleTableAction
+
+>>>>>>> 6e44b7d5 (.)
 ## Panoramica
 Azione Filament per il toggle del layout delle tabelle tra vista griglia e lista.
 
@@ -175,6 +184,7 @@ class MyListRecords extends ListRecords
 - [Risoluzione Conflitti UI](../CONFLITTI_MERGE_RISOLTI.md): Documentazione dei conflitti risolti
 - [Test di Risoluzione Conflitti](../test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -211,3 +221,7 @@ Vedi [bugfix](../bugfix-table-layout-toggle-not-working.md): bastano `resetTable
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 990a9de5 (.)
+=======
+
+[Torna alla documentazione UI](/docs/modules/module_ui.md#actions)
+>>>>>>> 6e44b7d5 (.)

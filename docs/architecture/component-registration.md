@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Registrazione dei Componenti nei Moduli"
 type: concept
@@ -13,6 +14,8 @@ related:
   - "./structure.md"
 ---
 
+=======
+>>>>>>> 6e44b7d5 (.)
 # Registrazione dei Componenti nei Moduli
 
 ## Regola Fondamentale
