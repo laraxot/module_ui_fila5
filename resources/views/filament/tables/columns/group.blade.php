@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 @php
     declare(strict_types=1);
 
@@ -12,17 +16,45 @@
     $fields = $getFields();
     $record = $getRecord();
 @endphp
+<<<<<<< HEAD
+=======
+=======
+<?php
+
+declare(strict_types=1);
+
+    $fields = $getFields();
+    $record = $getRecord();
+?>
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 <div
     {{
         $attributes
             ->merge($getExtraAttributes(), escape: false)
             ->class([
+<<<<<<< HEAD
                 'fi-ta-group flex flex-col gap-1',
                 'px-3 py-4' => ! $isInline(),
+=======
+<<<<<<< HEAD
+                'fi-ta-group flex flex-col gap-1',
+                'px-3 py-4' => ! $isInline(),
+=======
+                'fi-ta-icon flex flex-wrap gap-1.5',
+                'px-3 py-4' => ! $isInline(),
+                //'flex-col' => $isListWithLineBreaks(),
+                'flex-col' => true,
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
             ])
     }}
 >
     @foreach ($fields as $field)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
         @php
             // Children live only in GroupColumn::$schema — mount table + record
             // or getState()/toEmbeddedHtml() throw "column is not mounted to a table".
@@ -64,6 +96,24 @@
                 }
             }
 
+<<<<<<< HEAD
+=======
+=======
+     
+        @php
+            $name = $field->getName();
+            $value = $record->{$name} ?? null;
+            // Skip empty values to save space
+            if (empty($value) && $value !== 0 && $value !== '0') {
+                continue;
+            }
+
+            // Format the value for display
+            $formattedValue = $value;
+
+            // Resolve the label leveraging LangServiceProvider auto translations
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
             $rawLabel = $field->getLabel();
 
             if ($rawLabel instanceof \Closure) {
@@ -79,6 +129,10 @@
             }
 
             if ($labelText === '') {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
                 $translationKey = 'ui::table.columns.'.$name.'.label';
                 $translated = __($translationKey);
                 $labelText = $translated !== $translationKey
@@ -119,5 +173,23 @@
                 @endif
             </div>
         @endif
+<<<<<<< HEAD
+=======
+=======
+                $translationKey = 'ui::table.columns.' . $name . '.label';
+                $translated = __($translationKey);
+                $labelText = $translated !== $translationKey
+                    ? $translated
+                    : \Illuminate\Support\Str::of((string) $name)->replace('_', ' ')->headline()->value();
+            }
+
+            $displayText = $labelText . ': ' . $formattedValue;
+        @endphp
+        
+            {{ $displayText }}<br/>
+        
+        
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
     @endforeach
 </div>

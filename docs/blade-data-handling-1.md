@@ -61,7 +61,15 @@ Components should never rely on variables that haven't been explicitly defined a
     @if($prop1)
         <h2>{{ $prop1 }}</h2>
     @endif
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
     @if($prop2)
         <p>{{ $prop2 }}</p>
     @endif
@@ -94,7 +102,15 @@ Components should never rely on variables that haven't been explicitly defined a
 
 ```blade
 <!-- INCORRECT: Hard-coded project references -->
+<<<<<<< HEAD
 <div class="title">Welcome to SaluteOra</div>
+=======
+<<<<<<< HEAD
+<div class="title">Welcome to SaluteOra</div>
+=======
+<div class="title">Welcome to <nome progetto></div>
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 
 <!-- CORRECT: Dynamic configuration -->
 <div class="title">Welcome to {{ config('app.name') }}</div>

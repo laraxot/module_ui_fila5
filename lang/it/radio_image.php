@@ -6,6 +6,10 @@ return [
     'fields' => [
         'view' => [
             'label' => 'view',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
@@ -33,6 +37,11 @@ return [
         ],
         'delete' => [
             'label' => 'Elimina Radio Image',
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
     ],
 ];

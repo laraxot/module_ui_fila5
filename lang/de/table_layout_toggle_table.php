@@ -23,6 +23,10 @@ return [
             'placeholder' => 'Layout-Typ auswählen',
             'tooltip' => 'Zwischen Listen- und Rasteransicht wählen',
             'help' => 'Wählen Sie den am besten geeigneten Layout-Typ zur Anzeige der Daten',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             'helper_text' => '',
             'description' => '',
         ],
@@ -36,4 +40,11 @@ return [
     ],
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label',
+<<<<<<< HEAD
+=======
+=======
+        ],
+    ],
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

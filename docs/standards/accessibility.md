@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ---
 title: "Standard di Accessibilità"
 type: concept
@@ -16,6 +20,11 @@ related:
   - "./ui-standards.md"
 ---
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 # Standard di Accessibilità
 
 ## 🎯 WCAG 2.1
@@ -130,6 +139,10 @@ related:
 >
 ```
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ## Tecniche W3C di riferimento
 
 Per implementazioni dettagliate (label, focus, link, contrasto, autocomplete, aria-label, reflow):
@@ -145,6 +158,11 @@ Per implementazioni dettagliate (label, focus, link, contrasto, autocomplete, ar
 
 Piano di risoluzione per il tema Two: `laravel/Themes/Two/docs/wcag-techniques-resolution.md`.
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ## 🔗 Collegamenti
 - [Performance](./performance.md)
 - [UI Standards](./ui-standards.md)

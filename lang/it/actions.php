@@ -13,6 +13,10 @@ return [
         'title' => 'Prova',
         'body' => 'Questo è un messaggio di prova per il record con ID: :id',
     ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     'label' => 'Actions',
     'plural_label' => 'Actions (Plurale)',
     'navigation' => [
@@ -57,4 +61,9 @@ return [
             'label' => 'Elimina Actions',
         ],
     ],
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

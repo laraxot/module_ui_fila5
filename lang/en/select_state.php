@@ -10,7 +10,14 @@ return [
             'help' => 'Current state of the selection',
             'description' => 'Selectable state',
             'helper_text' => '',
+<<<<<<< HEAD
             'tooltip' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'message' => [
             'label' => 'Message',
@@ -18,6 +25,10 @@ return [
             'help' => 'Informative message for the selection',
             'description' => 'Message text',
             'helper_text' => '',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             'tooltip' => '',
         ],
     ],
@@ -32,4 +43,11 @@ return [
     'plural_label' => 'Missing Plural label',
     'actions' => [
     ],
+<<<<<<< HEAD
+=======
+=======
+        ],
+    ],
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

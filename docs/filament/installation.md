@@ -3,6 +3,10 @@ title: Installazione Filament
 description: Installazione Filament
 extends: _layouts.documentation
 section: content
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -12,6 +16,11 @@ related:
   - "./filament-4-migration-guide.md"
   - "./filament-4-migration-summary.md"
   - "./filament-4-migration-sumy.md"
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ---
 
 # Installazione Filament {#installazione-filament}

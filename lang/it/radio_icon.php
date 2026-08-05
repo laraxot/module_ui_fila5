@@ -6,6 +6,10 @@ return [
     'fields' => [
         'newstate' => [
             'label' => 'newstate',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
@@ -33,6 +37,11 @@ return [
         ],
         'delete' => [
             'label' => 'Elimina Radio Icon',
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
     ],
 ];

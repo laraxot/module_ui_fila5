@@ -34,6 +34,10 @@ return [
         'type' => 'Tipo',
         'btn' => 'Salva',
     ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     'label' => 'Filament Navigation',
     'plural_label' => 'Filament Navigation (Plurale)',
     'navigation' => [
@@ -78,4 +82,9 @@ return [
             'label' => 'Elimina Filament Navigation',
         ],
     ],
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

@@ -34,7 +34,15 @@ class RadioCardSelector extends XotBaseField
     /**
      * Imposta le card disponibili per la selezione.
      *
+<<<<<<< HEAD
      * @param array<int, array<string, mixed>>|\Closure $cards
+=======
+<<<<<<< HEAD
+     * @param array<int, array<string, mixed>>|\Closure $cards
+=======
+     * @param  array<int, array<string, mixed>>|\Closure  $cards
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
      */
     public function cards(array|\Closure $cards): static
     {
@@ -94,12 +102,24 @@ class RadioCardSelector extends XotBaseField
     }
 
     /**
+<<<<<<< HEAD
      * @return array<int, array<string, mixed>>
+=======
+<<<<<<< HEAD
+     * @return array<int, array<string, mixed>>
+=======
+     * Ottiene le card per la visualizzazione.
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
      */
     public function getCards(): array
     {
         $result = $this->evaluate($this->cards);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
         if (! \is_array($result)) {
             return [];
         }
@@ -135,6 +155,12 @@ class RadioCardSelector extends XotBaseField
         }
 
         return $card;
+<<<<<<< HEAD
+=======
+=======
+        return \is_array($result) ? $result : [];
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
     }
 
     /**

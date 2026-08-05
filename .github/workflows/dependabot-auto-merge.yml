@@ -10,6 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
       - name: Dependabot metadata
         id: metadata
         uses: dependabot/fetch-metadata@latest

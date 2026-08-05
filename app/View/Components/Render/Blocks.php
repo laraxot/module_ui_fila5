@@ -22,14 +22,31 @@ use Modules\Xot\Actions\GetViewAction;
 final class Blocks extends Component
 {
     /**
+<<<<<<< HEAD
      * @param array<int|string, mixed> $blocks
+=======
+<<<<<<< HEAD
+     * @param array<int|string, mixed> $blocks
+=======
+     * @param  array<int|string, mixed>  $blocks
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
      */
     public function __construct(
         public string $view,
         public array $blocks = [],
         public ?Model $model = null,
+<<<<<<< HEAD
     ) {
     }
+=======
+<<<<<<< HEAD
+    ) {
+    }
+=======
+    ) {}
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 
     public function render(): View
     {
@@ -37,12 +54,28 @@ final class Blocks extends Component
          * @phpstan-var view-string
          */
         $view = app(GetViewAction::class)->execute($this->view);
+<<<<<<< HEAD
         $viewParams = [
+=======
+<<<<<<< HEAD
+        $viewParams = [
+=======
+        $view_params = [
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
             'view' => $view,
             'blocks' => $this->blocks,
             'model' => $this->model,
         ];
 
+<<<<<<< HEAD
         return view($view, $viewParams);
+=======
+<<<<<<< HEAD
+        return view($view, $viewParams);
+=======
+        return view($view, $view_params);
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
     }
 }

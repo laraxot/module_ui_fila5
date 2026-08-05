@@ -14,14 +14,38 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 ❌ **Non Corretto**:
 ```md
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 # Design System il progetto
 Il design system di il progetto definisce...
@@ -30,8 +54,25 @@ Il design system di il progetto definisce...
 ✅ **Corretto**:
 ```md
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> 990a9de5 (.)
+=======
+
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 # Design System
 Il design system definisce...
@@ -58,8 +99,23 @@ I nomi specifici dell'applicazione devono apparire solo:
 - [Documentazione Principale](../../../docs/README.md)
 - [Standard di Codice](../../../docs/standards/coding-standards.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 # Regole di Naming nei Moduli
 
@@ -105,10 +161,21 @@ I nomi specifici dell'applicazione devono apparire solo:
 
 ## Vedi Anche
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 - [Documentazione Principale](../../../project_docs/README.md)
 - [Standard di Codice](../../../project_docs/standards/coding-standards.md)
 - [Best Practices](../../../project_docs/standards/best-practices.md)
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [Best Practices](../../../docs/standards/best-practices.md)
 =======
 - [Documentazione Principale](../../../project_docs/README.md)
@@ -122,4 +189,21 @@ I nomi specifici dell'applicazione devono apparire solo:
 - [Standard di Codice](../../../docs/standards/coding-standards.md)
 - [Best Practices](../../../docs/standards/best-practices.md)
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [Documentazione Principale](../../../project_docs/README.md)
+- [Standard di Codice](../../../project_docs/standards/coding-standards.md)
+- [Best Practices](../../../project_docs/standards/best-practices.md)
+>>>>>>> 990a9de5 (.)
+=======
+- [Documentazione Principale](../../../project_docs/README.md)
+- [Standard di Codice](../../../project_docs/standards/coding-standards.md)
+- [Best Practices](../../../project_docs/standards/best-practices.md)
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev

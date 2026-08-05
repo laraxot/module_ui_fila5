@@ -13,15 +13,31 @@ return [
             'label' => 'File di Test',
             'placeholder' => 'Carica un file per testare S3',
             'helper_text' => 'Il file verrà caricato su S3 per testare la configurazione',
+<<<<<<< HEAD
             'tooltip' => '',
             'description' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+            'description' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'debug_output' => [
             'label' => 'Risultati Debug',
             'placeholder' => 'I risultati dei test appariranno qui',
             'helper_text' => 'Output dettagliato dei test di configurazione AWS',
+<<<<<<< HEAD
             'tooltip' => '',
             'description' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+            'description' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
     ],
     'actions' => [
@@ -39,7 +55,15 @@ return [
         ],
         'testPermissions' => [
             'label' => '🔒 Test Permessi',
+<<<<<<< HEAD
             'tooltip' => 'Testa i permessi S3 (ListBucket, PutObject, GetObject, DeleteObject]',
+=======
+<<<<<<< HEAD
+            'tooltip' => 'Testa i permessi S3 (ListBucket, PutObject, GetObject, DeleteObject]',
+=======
+            'tooltip' => 'Testa i permessi S3 (ListBucket, PutObject, GetObject, DeleteObject)',
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
             'success' => 'Permessi S3 testati con successo',
             'error' => 'Errore nel test dei permessi S3',
         ],
@@ -119,6 +143,10 @@ return [
         'subject' => 'Test Email con Allegato S3',
         'body' => 'Questa è una email di test inviata dal sistema S3Test con allegato caricato su S3 e servito tramite CloudFront.',
     ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     'label' => 'S3test',
     'plural_label' => 'S3test (Plurale)',
     'navigation' => [
@@ -132,4 +160,9 @@ return [
         'sort' => 1,
         'icon' => 'heroicon-o-collection',
     ],
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

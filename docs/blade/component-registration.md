@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ---
 title: "Registrazione Componenti Blade nei Moduli"
 type: concept
@@ -11,6 +15,11 @@ related:
   - "./filament-components.md"
 ---
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 # Registrazione Componenti Blade nei Moduli
 
 ## Architettura dei componenti Blade

@@ -1,8 +1,23 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 >>>>>>> laraxot/dev
 ---
 title: "Standard Form nei Temi"
@@ -23,10 +38,27 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 # Standard Form nei Temi
 
@@ -86,9 +118,20 @@ related:
     Nome
   </label>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <input
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  <input
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
   <input 
 =======
@@ -97,6 +140,19 @@ related:
 =======
   <input 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+  <input
+>>>>>>> 990a9de5 (.)
+=======
+  <input
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
     type="text"
     class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500"
@@ -121,9 +177,20 @@ related:
 <div class="form-group">
   <div class="flex items-center">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <input
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    <input
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
     <input 
 =======
@@ -132,6 +199,19 @@ related:
 =======
     <input 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+    <input
+>>>>>>> 990a9de5 (.)
+=======
+    <input
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
       type="checkbox"
       class="h-4 w-4 text-primary-600 border-gray-300 rounded focus:ring-primary-500"
@@ -191,9 +271,20 @@ screens: {
     Email
   </label>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <input
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  <input
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
   <input 
 =======
@@ -202,6 +293,19 @@ screens: {
 =======
   <input 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+  <input
+>>>>>>> 990a9de5 (.)
+=======
+  <input
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
     type="email"
     class="w-full px-4 py-2 border border-red-300 rounded-md focus:ring-2 focus:ring-red-500"
@@ -221,9 +325,20 @@ screens: {
     Username
   </label>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <input
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  <input
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
   <input 
 =======
@@ -232,6 +347,19 @@ screens: {
 =======
   <input 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+  <input
+>>>>>>> 990a9de5 (.)
+=======
+  <input
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
     type="text"
     class="w-full px-4 py-2 border border-green-300 rounded-md focus:ring-2 focus:ring-green-500"
@@ -252,9 +380,20 @@ screens: {
     Email
   </label>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <input
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  <input
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
   <input 
 =======
@@ -263,6 +402,19 @@ screens: {
 =======
   <input 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+  <input
+>>>>>>> 990a9de5 (.)
+=======
+  <input
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
     type="email"
     aria-labelledby="email-label"
@@ -290,9 +442,20 @@ screens: {
 ### Loading States
 ```html
 <<<<<<< HEAD
+<<<<<<< HEAD
 <button
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<button
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 <button 
 =======
@@ -301,6 +464,19 @@ screens: {
 =======
 <button 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+<button
+>>>>>>> 990a9de5 (.)
+=======
+<button
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
   type="submit"
   class="btn btn-primary"
@@ -358,11 +534,29 @@ form.addEventListener('submit', async (e) => {
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Performance](./performance.md) 
+=======
+=======
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [Performance](./performance.md) 
 =======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 - [Performance](./performance.md)
 # Standard Form nei Temi
@@ -624,9 +818,29 @@ form.addEventListener('submit', async (e) => {
 - [Accessibility](./accessibility.md)
 - [Performance](./performance.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 - [Performance](./performance.md) 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev

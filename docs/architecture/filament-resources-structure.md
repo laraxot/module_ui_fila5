@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ---
 title: "Struttura delle Filament Resources"
 type: concept
@@ -13,6 +17,11 @@ related:
   - "./structure.md"
 ---
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 # Struttura delle Filament Resources
 
 ## Panoramica
@@ -66,8 +75,18 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 ```
 
 ## Documentazione Correlata
+<<<<<<< HEAD
 - [Documentazione CMS Module](../laravel/modules/cms/docs/filament-resources.md)
 - [Documentazione Xot Module](../laravel/modules/xot/docs/filament-resources.md)
+=======
+<<<<<<< HEAD
+- [Documentazione CMS Module](../laravel/modules/cms/docs/filament-resources.md)
+- [Documentazione Xot Module](../laravel/modules/xot/docs/filament-resources.md)
+=======
+- [Documentazione CMS Module](../laravel/Modules/Cms/docs/filament-resources.md)
+- [Documentazione Xot Module](../laravel/Modules/Xot/docs/filament-resources.md)
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 
 ## Best Practices
 1. **Namespace**

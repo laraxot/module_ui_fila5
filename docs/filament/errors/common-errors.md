@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ---
 title: "Errori Comuni in Filament"
 type: concept
@@ -12,6 +16,11 @@ related:
   - "./static-instance-method-incompatibility.md"
 ---
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 # Errori Comuni in Filament
 
 ## Errori di compatibilità metodi statici/instanza

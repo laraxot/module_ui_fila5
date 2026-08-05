@@ -6,6 +6,10 @@ return [
     'fields' => [
         'azioni' => [
             'label' => 'azioni',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
@@ -51,6 +55,32 @@ return [
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
+<<<<<<< HEAD
+=======
+=======
+        ],
+        'prova' => [
+            'label' => 'prova',
+        ],
+        'prova2' => [
+            'label' => 'prova2',
+        ],
+        'status' => [
+            'label' => 'status',
+        ],
+        'due' => [
+            'label' => 'due',
+        ],
+        'uno' => [
+            'label' => 'uno',
+        ],
+        'uno-action' => [
+            'label' => 'uno-action',
+        ],
+        'due-action' => [
+            'label' => 'due-action',
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
     ],
     'actions' => [
@@ -58,6 +88,10 @@ return [
             'label' => 'delete',
         ],
     ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     'label' => 'Dummy Actions',
     'plural_label' => 'Dummy Actions (Plurale)',
     'navigation' => [
@@ -71,4 +105,9 @@ return [
         'sort' => 1,
         'icon' => 'heroicon-o-collection',
     ],
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

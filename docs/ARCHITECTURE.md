@@ -1,4 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 990a9de5 (.)
+>>>>>>> laraxot/dev
 # UI Module - Architecture Guide (2025)
 
 > **Last Updated:** 2025-11-19
@@ -653,7 +661,13 @@ The UI module is a **well-architected, feature-rich Filament customization layer
 **Document Version:** 1.0
 **Generated:** 2025-11-19
 **Author:** Claude Code Analysis
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ---
 title: "UI Module Architecture"
 type: architecture
@@ -673,4 +687,13 @@ UI module for Laraxot platform.
 ## Quality Gates
 - PHPStan L10 compliance
 - Test coverage requirements
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
 >>>>>>> laraxot/dev

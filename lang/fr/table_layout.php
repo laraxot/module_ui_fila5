@@ -3,6 +3,10 @@
 declare(strict_types=1);
 
 return [
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     'values' => [
         'list' => [
             'label' => 'Liste',
@@ -17,10 +21,19 @@ return [
             'description' => 'Grille',
         ],
     ],
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
     'actions' => [
         'toggle' => [
             'label' => 'Basculer la disposition',
             'tooltip' => 'Basculer entre la vue liste et la vue grille',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             'helper_text' => 'Changer le type d\'affichage',
         ],
     ],
@@ -35,4 +48,12 @@ return [
     'plural_label' => 'Missing Plural label',
     'fields' => [
     ],
+<<<<<<< HEAD
+=======
+=======
+            'helper_text' => "Changer le type d'affichage",
+        ],
+    ],
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

@@ -23,6 +23,10 @@ return [
             'placeholder' => 'Selecionar tipo de layout',
             'tooltip' => 'Escolher entre visualização em lista e em grelha',
             'help' => 'Escolha o tipo de layout adequado para visualizar os dados',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             'helper_text' => '',
             'description' => '',
         ],
@@ -36,4 +40,11 @@ return [
     ],
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label',
+<<<<<<< HEAD
+=======
+=======
+        ],
+    ],
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

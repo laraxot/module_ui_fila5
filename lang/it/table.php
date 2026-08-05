@@ -10,6 +10,10 @@ return [
             'helper_text' => 'Azioni disponibili per la transizione di stato',
         ],
     ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     'label' => 'Table',
     'plural_label' => 'Table (Plurale)',
     'navigation' => [
@@ -54,4 +58,9 @@ return [
             'label' => 'Elimina Table',
         ],
     ],
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

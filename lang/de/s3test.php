@@ -13,15 +13,31 @@ return [
             'label' => 'Test Datei',
             'placeholder' => 'Datei hochladen um S3 zu testen',
             'helper_text' => 'Datei wird zu S3 hochgeladen um die Konfiguration zu testen',
+<<<<<<< HEAD
             'tooltip' => '',
             'description' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+            'description' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'debug_output' => [
             'label' => 'Debug Ergebnisse',
             'placeholder' => 'Test Ergebnisse erscheinen hier',
             'helper_text' => 'Detaillierte Ausgabe der AWS Konfigurationstests',
+<<<<<<< HEAD
             'tooltip' => '',
             'description' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+            'description' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
     ],
     'actions' => [
@@ -81,6 +97,10 @@ return [
         'complete' => '✅ Vollständig',
         'incomplete' => '❌ Unvollständig',
     ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     'navigation' => [
         'label' => 'Missing Navigation Label',
         'plural_label' => 'Missing Navigation Plural Label',
@@ -90,4 +110,9 @@ return [
     ],
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label',
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

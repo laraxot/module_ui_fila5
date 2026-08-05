@@ -71,12 +71,28 @@ class GetAllIconsAction
 
                 foreach ($files as $file) {
                     // Type narrowing per SplFileInfo
+<<<<<<< HEAD
                     if (! $file instanceof \SplFileInfo) {
+=======
+<<<<<<< HEAD
+                    if (! $file instanceof \SplFileInfo) {
+=======
+                    if (! ($file instanceof \SplFileInfo)) {
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
                         continue;
                     }
 
                     // Simply ignore files that aren't SVGs
+<<<<<<< HEAD
                     if ('svg' !== $file->getExtension()) {
+=======
+<<<<<<< HEAD
+                    if ('svg' !== $file->getExtension()) {
+=======
+                    if ($file->getExtension() !== 'svg') {
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
                         continue;
                     }
 
@@ -94,7 +110,15 @@ class GetAllIconsAction
 
                     $prefix = $set['prefix'] ?? '';
                     $prefixString = is_string($prefix) ? $prefix : '';
+<<<<<<< HEAD
                     $iconFullName = '' !== $prefixString ? $prefixString.'-'.$iconName : $iconName;
+=======
+<<<<<<< HEAD
+                    $iconFullName = '' !== $prefixString ? $prefixString.'-'.$iconName : $iconName;
+=======
+                    $iconFullName = $prefixString !== '' ? $prefixString.'-'.$iconName : $iconName;
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
                     $iconsList[] = $iconFullName;
                 }
             }

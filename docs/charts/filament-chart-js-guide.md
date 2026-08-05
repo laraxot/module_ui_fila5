@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ---
 title: "Filament Chart.js Guide"
 type: guide
@@ -15,6 +19,11 @@ related:
   - "./shared-hosting-strategy.md"
 ---
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 # Filament Chart.js Guide
 
 > **Why this guide?**: To standardize how we use Chart.js in Filament, especially regarding advanced features like plugins (Zoom, Annotations) which are not enabled by default.
@@ -115,7 +124,15 @@ protected function getOptions(): array
 ## 4. Professional Configuration (Standards 2026)
 
 To achieve a premium "SaaS" look, configure your `getOptions()` to control fonts, layouts, and tooltips.
+<<<<<<< HEAD
 See the **[LimeSurvey Professional Charts Guide](../../../limesurvey/docs/professional-charts-and-pdfs.md)** for the detailed specification on:
+=======
+<<<<<<< HEAD
+See the **[LimeSurvey Professional Charts Guide](../../../limesurvey/docs/professional-charts-and-pdfs.md)** for the detailed specification on:
+=======
+See the **[LimeSurvey Professional Charts Guide](../../../Limesurvey/docs/professional-charts-and-pdfs.md)** for the detailed specification on:
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 -   Font consistency (Inter/Roboto).
 -   Legend positioning.
 -   Gridline reduction (Data-Ink Ratio).
@@ -124,13 +141,37 @@ See the **[LimeSurvey Professional Charts Guide](../../../limesurvey/docs/profes
 
 **Do NOT** use `dompdf` or client-side canvas capture for charts.
 <<<<<<< HEAD
+<<<<<<< HEAD
 The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper around Browsershot).
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper around Browsershot).
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 The architectural standard for modulo questionari is **Spatie Laravel PDF** (a wrapper around Browsershot).
 =======
 The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper around Browsershot).
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper around Browsershot).
+>>>>>>> 990a9de5 (.)
+=======
+The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper around Browsershot).
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 
 **Pattern:** "Shadow Report Views"
@@ -141,5 +182,15 @@ The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper arou
 
 ---
 **See Also**:
+<<<<<<< HEAD
 -   [Dashboard Best Practices](../../../limesurvey/docs/dashboard-best-practices.md)
 -   [Professional Charts & PDF Guide](../../../limesurvey/docs/professional-charts-and-pdfs.md)
+=======
+<<<<<<< HEAD
+-   [Dashboard Best Practices](../../../limesurvey/docs/dashboard-best-practices.md)
+-   [Professional Charts & PDF Guide](../../../limesurvey/docs/professional-charts-and-pdfs.md)
+=======
+-   [Dashboard Best Practices](../../../Limesurvey/docs/dashboard-best-practices.md)
+-   [Professional Charts & PDF Guide](../../../Limesurvey/docs/professional-charts-and-pdfs.md)
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev

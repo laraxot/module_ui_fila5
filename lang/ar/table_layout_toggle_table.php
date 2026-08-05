@@ -23,6 +23,10 @@ return [
             'placeholder' => 'اختر نوع التخطيط',
             'tooltip' => 'اختر بين عرض القائمة وعرض الشبكة',
             'help' => 'اختر نوع التخطيط المناسب لعرض البيانات',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             'helper_text' => '',
             'description' => '',
         ],
@@ -36,4 +40,11 @@ return [
     ],
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label',
+<<<<<<< HEAD
+=======
+=======
+        ],
+    ],
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

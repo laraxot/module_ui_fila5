@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ---
 title: "RadioCollection - Esempi di Utilizzo"
 type: concept
@@ -18,6 +22,11 @@ related:
   - "./full-calendar-1.md"
 ---
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 # RadioCollection - Esempi di Utilizzo
 
 ## Utilizzo Base

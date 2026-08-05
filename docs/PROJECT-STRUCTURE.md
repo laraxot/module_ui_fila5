@@ -18,6 +18,22 @@ tags: [structure, architecture, module]
 │   ├── concepts/                 # Topic/theme pages
 │   ├── entities/                 # Organization/person pages
 │   ├── rules/                    # ⚠️ 151+ regole progettuali
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+│   │   ├── 00-index.md          # Indice regole
+│   │   ├── 00-TRIGGER_MAP.md    # Trigger map (link a globale)
+│   │   └── *.md                 # Regole specifiche modulo
+│   ├── skills/                   # Skill progettuali
+│   │   ├── index.md
+│   │   └── *.md
+│   ├── commands/                 # Comandi progettuali
+│   │   ├── index.md
+│   │   └── *.md
+│   ├── memories/                 # Memorie progettuali
+│   │   ├── index.md
+=======
+>>>>>>> laraxot/dev
 │   │   ├── 00-INDEX.md          # Indice regole
 │   │   ├── 00-TRIGGER_MAP.md    # Trigger map (link a globale)
 │   │   └── *.md                 # Regole specifiche modulo
@@ -29,13 +45,25 @@ tags: [structure, architecture, module]
 │   │   └── *.md
 │   ├── memories/                 # Memorie progettuali
 │   │   ├── INDEX.md
+<<<<<<< HEAD
+=======
+>>>>>>> 990a9de5 (.)
+>>>>>>> laraxot/dev
 │   │   └── *.md
 │   ├── decisions/                # Architecture decision records
 │   └── troubleshooting/          # Bug fixes, error resolutions
 ├── ON-DEMAND-PATTERN.md          # 🌟 QUESTO FILE — Pattern on-demand
 ├── QMD-SETUP.md                  # Configurazione QMD
 ├── PERFORMANCE-OPTIMIZATION.md    # Metriche e best practice
+<<<<<<< HEAD
 ├── ARCHITECTURE.md               # (opzionale) Architettura modulo
+=======
+<<<<<<< HEAD
+├── architecture.md               # (opzionale) Architettura modulo
+=======
+├── ARCHITECTURE.md               # (opzionale) Architettura modulo
+>>>>>>> 990a9de5 (.)
+>>>>>>> laraxot/dev
 └── README.md                     # (opzionale) Overview modulo
 \`\`\`
 
@@ -107,7 +135,15 @@ graph TD
 mkdir -p docs/wiki/{rules,skills,commands,memories,concepts,entities,decisions,troubleshooting}
 
 # 2. Crea INDEX files (già creati)
+<<<<<<< HEAD
 cp docs/wiki/rules/INDEX.md docs/wiki/rules/
+=======
+<<<<<<< HEAD
+cp docs/wiki/rules/index.md docs/wiki/rules/
+=======
+cp docs/wiki/rules/INDEX.md docs/wiki/rules/
+>>>>>>> 990a9de5 (.)
+>>>>>>> laraxot/dev
 # ... etc
 
 # 3. Aggiungi a QMD collection (opzionale, già incluso global)

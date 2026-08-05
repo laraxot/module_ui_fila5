@@ -10,7 +10,14 @@ return [
             'help' => 'Nome identificativo dell\'elemento',
             'description' => 'Nome dell\'oggetto',
             'helper_text' => '',
+<<<<<<< HEAD
             'tooltip' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'edit-name' => [
             'label' => 'Modifica nome',
@@ -18,7 +25,14 @@ return [
             'help' => 'Modifica il nome esistente',
             'description' => 'Azione per modificare il nome',
             'helper_text' => '',
+<<<<<<< HEAD
             'tooltip' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'change-state' => [
             'label' => 'Cambia stato',
@@ -26,7 +40,14 @@ return [
             'help' => 'Modifica lo stato corrente',
             'description' => 'Azione per cambiare lo stato',
             'helper_text' => '',
+<<<<<<< HEAD
             'tooltip' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'state' => [
             'label' => 'Stato',
@@ -34,7 +55,14 @@ return [
             'help' => 'Stato attuale dell\'elemento',
             'description' => 'Condizione corrente del sistema',
             'helper_text' => '',
+<<<<<<< HEAD
             'tooltip' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'message' => [
             'label' => 'Messaggio',
@@ -42,7 +70,14 @@ return [
             'help' => 'Messaggio informativo',
             'description' => 'Testo del messaggio',
             'helper_text' => '',
+<<<<<<< HEAD
             'tooltip' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
     ],
     'actions' => [
@@ -63,6 +98,10 @@ return [
             'title' => 'Errore durante la transizione',
         ],
     ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     'label' => 'Icon State',
     'plural_label' => 'Icon State (Plurale)',
     'navigation' => [
@@ -76,4 +115,9 @@ return [
         'sort' => 1,
         'icon' => 'heroicon-o-collection',
     ],
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

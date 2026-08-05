@@ -9,6 +9,10 @@ return [
         'light_mode' => 'Tema chiaro',
         'dark_mode' => 'Tema scuro',
     ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     'label' => 'Widgets',
     'plural_label' => 'Widgets (Plurale)',
     'navigation' => [
@@ -53,4 +57,9 @@ return [
             'label' => 'Elimina Widgets',
         ],
     ],
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

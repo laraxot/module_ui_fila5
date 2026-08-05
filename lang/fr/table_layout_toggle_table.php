@@ -23,6 +23,10 @@ return [
             'placeholder' => 'Sélectionner le type de disposition',
             'tooltip' => 'Choisir entre la vue liste et la vue grille',
             'help' => 'Choisissez le type de disposition le plus adapté pour afficher les données',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             'helper_text' => '',
             'description' => '',
         ],
@@ -36,4 +40,11 @@ return [
     ],
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label',
+<<<<<<< HEAD
+=======
+=======
+        ],
+    ],
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ];

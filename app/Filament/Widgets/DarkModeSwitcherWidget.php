@@ -7,9 +7,21 @@ namespace Modules\UI\Filament\Widgets;
 use Filament\Schemas\Components\Component;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\Cookie;
+<<<<<<< HEAD
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
+=======
+<<<<<<< HEAD
+use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
+
+final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
+=======
+use Modules\Xot\Filament\Widgets\XotBaseWidget;
+
+final class DarkModeSwitcherWidget extends XotBaseWidget
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 {
     public ?array $data = [];
 
@@ -38,6 +50,13 @@ final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
      *
      * @return array<int, Component>
      */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    #[\Override]
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
     public function getFormSchema(): array
     {
         return [];

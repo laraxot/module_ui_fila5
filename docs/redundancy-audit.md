@@ -6,13 +6,33 @@ tags: [redundancy, components, config, design-system]
 created: 2026-05-21
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - https://github.com/laraxot/base_fixcity_fila5/issues/89
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  - https://github.com/laraxot/base_fixcity_fila5/issues/89
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
   - https://github.com/laraxot/platform/issues/89
 =======
   - https://github.com/laraxot/base_fixcity_fila5/issues/89
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+  - https://github.com/laraxot/base_fixcity_fila5/issues/89
+>>>>>>> 990a9de5 (.)
 >>>>>>> laraxot/dev
 ---
 

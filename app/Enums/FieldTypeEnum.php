@@ -12,20 +12,49 @@ namespace Modules\UI\Enums;
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasLabel;
+<<<<<<< HEAD
 use Modules\Xot\Traits\EnumTrait;
+=======
+<<<<<<< HEAD
+use Modules\Xot\Traits\EnumTrait;
+=======
+use Modules\Xot\Filament\Traits\TransTrait;
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 
 /**
  * Defines the different types of appointments in the system.
  *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
  * @method static self        fromName(string $name)
  * @method static self        fromValue(string $value)
  * @method static self        tryFromName(string $name)
  * @method static self        tryFromValue(string $value)
+<<<<<<< HEAD
+=======
+=======
+ * @method static self fromName(string $name)
+ * @method static self fromValue(string $value)
+ * @method static self tryFromName(string $name)
+ * @method static self tryFromValue(string $value)
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
  * @method static array<self> cases()
  */
 enum FieldTypeEnum: string implements HasColor, HasIcon, HasLabel
 {
+<<<<<<< HEAD
     use EnumTrait;
+=======
+<<<<<<< HEAD
+    use EnumTrait;
+=======
+    use TransTrait;
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 
     case TEXT = 'text';
     // case NUMBER   = 'number';
@@ -38,4 +67,30 @@ enum FieldTypeEnum: string implements HasColor, HasIcon, HasLabel
     case DATE = 'date';
     case TIME = 'time';
     case DATETIME = 'datetime';
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+    public function getLabel(): string
+    {
+        return $this->transClass(self::class, $this->value.'.label');
+    }
+
+    public function getColor(): string
+    {
+        return $this->transClass(self::class, $this->value.'.color');
+    }
+
+    public function getIcon(): string
+    {
+        return $this->transClass(self::class, $this->value.'.icon');
+    }
+
+    public function getDescription(): string
+    {
+        return $this->transClass(self::class, $this->value.'.description');
+    }
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 }

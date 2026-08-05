@@ -6,6 +6,13 @@ php artisan make:filament-theme admin
 add resources/css/filament/admin/theme.css entry to vite.config.js
 
 in app/Providers/Filament/AdminPanelProvider.php
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+add
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 ->viteTheme('resources/css/filament/admin/theme.css')
 
 

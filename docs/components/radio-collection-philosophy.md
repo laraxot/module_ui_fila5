@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ---
 title: "RadioCollection Component - A Deep Dive"
 type: concept
@@ -18,6 +22,11 @@ related:
   - "./full-calendar-1.md"
 ---
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 # RadioCollection Component - A Deep Dive
 
 ## Philosophical Foundation
@@ -114,7 +123,15 @@ The component design reflects principles from game theory:
 - Clear rules of engagement (how selection works)
 - Immediate feedback for actions
 - Consistent application of rules
+<<<<<<< HEAD
 - <nome progetto>able outcomes for interactions
+=======
+<<<<<<< HEAD
+- <nome progetto>able outcomes for interactions
+=======
+- Predictable outcomes for interactions
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 
 ### Information Architecture
 

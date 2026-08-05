@@ -8,6 +8,10 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
       interval: "daily"
     labels:
       - "dependencies"
@@ -19,3 +23,11 @@ updates:
     labels:
       - "npm"
       - "dependencies"
+<<<<<<< HEAD
+=======
+=======
+      interval: "weekly"
+    labels:
+      - "dependencies"
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev

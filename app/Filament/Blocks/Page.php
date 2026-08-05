@@ -9,10 +9,25 @@ use Modules\Xot\Filament\Blocks\XotBaseBlock;
 
 final class Page extends XotBaseBlock
 {
+<<<<<<< HEAD
     /**
      * @return array<int, \Filament\Schemas\Components\Component>
      */
     public static function getFormSchema(): array
+=======
+<<<<<<< HEAD
+    /**
+     * @return array<int, \Filament\Schemas\Components\Component>
+     */
+<<<<<<< HEAD
+    public static function getFormSchemaOld(): array
+=======
+    public static function getFormSchema(): array
+>>>>>>> 990a9de5 (.)
+=======
+    public static function getFormSchema(): array
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
     {
         return [
             RichEditor::make('content')

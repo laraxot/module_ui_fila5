@@ -8,9 +8,21 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Widgets;
 
+<<<<<<< HEAD
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 final class OverlookWidget extends XotBaseSchemaWidget
+=======
+<<<<<<< HEAD
+use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
+
+final class OverlookWidget extends XotBaseSchemaWidget
+=======
+use Modules\Xot\Filament\Widgets\XotBaseWidget;
+
+final class OverlookWidget extends XotBaseWidget
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 {
     public string $icon = 'heroicon-o-envelope';
 
@@ -27,16 +39,32 @@ final class OverlookWidget extends XotBaseSchemaWidget
      * ];
      */
 
+<<<<<<< HEAD
     /** @var array<int, array<string, mixed>> */
+=======
+<<<<<<< HEAD
+    /** @var array<int, array<string, mixed>> */
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
     public array $stats = [];
 
     protected string $view = 'ui::filament.widgets.overlook';
 
     protected int|string|array $columnSpan = 1;
 
+<<<<<<< HEAD
     /**
      * @return array<string, mixed>
      */
+=======
+<<<<<<< HEAD
+    /**
+     * @return array<string, mixed>
+     */
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
     public function getFormSchema(): array
     {
         return [];

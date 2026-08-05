@@ -1,6 +1,16 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -13,6 +23,17 @@ canonical: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 <<<<<<< HEAD
 See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 =======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 # 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 
@@ -124,9 +145,27 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 ### Pattern 1: getTableColumns() - ESEMPIO REALE
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+#### progetto corrente/TicketResource/ListTickets.php (ECCELLENTE)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 #### Fixcity/TicketResource/ListTickets.php (ECCELLENTE)
 =======
 #### progetto corrente/TicketResource/ListTickets.php (ECCELLENTE)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+#### Fixcity/TicketResource/ListTickets.php (ECCELLENTE)
+>>>>>>> 990a9de5 (.)
+=======
+#### Fixcity/TicketResource/ListTickets.php (ECCELLENTE)
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 ```php
 protected function getTableColumns(): array
@@ -489,9 +528,27 @@ public function getTableFilters(): array
 - Code review
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+**Settimana 2**: Moduli Business (progetto corrente, Blog, Geo)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 **Settimana 2**: Moduli Business (Fixcity, Blog, Geo)
 =======
 **Settimana 2**: Moduli Business (progetto corrente, Blog, Geo)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+**Settimana 2**: Moduli Business (Fixcity, Blog, Geo)
+>>>>>>> 990a9de5 (.)
+=======
+**Settimana 2**: Moduli Business (Fixcity, Blog, Geo)
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 - 20 List files
 - Test integrazione
@@ -531,9 +588,27 @@ public function getTableFilters(): array
 
 #### ⭐⭐⭐⭐ PRIORITÀ ALTA
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+4. Refactoring moduli business (progetto corrente, Blog, Geo)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 4. Refactoring moduli business (Fixcity, Blog, Geo)
 =======
 4. Refactoring moduli business (progetto corrente, Blog, Geo)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+4. Refactoring moduli business (Fixcity, Blog, Geo)
+>>>>>>> 990a9de5 (.)
+=======
+4. Refactoring moduli business (Fixcity, Blog, Geo)
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 5. ActionPresets per CRUD
 6. Documentazione completa
@@ -674,9 +749,27 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 ### Pattern 1: getTableColumns() - ESEMPIO REALE
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+#### progetto corrente/TicketResource/ListTickets.php (ECCELLENTE)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 #### Fixcity/TicketResource/ListTickets.php (ECCELLENTE)
 =======
 #### progetto corrente/TicketResource/ListTickets.php (ECCELLENTE)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+#### Fixcity/TicketResource/ListTickets.php (ECCELLENTE)
+>>>>>>> 990a9de5 (.)
+=======
+#### Fixcity/TicketResource/ListTickets.php (ECCELLENTE)
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 ```php
 protected function getTableColumns(): array
@@ -1039,9 +1132,27 @@ public function getTableFilters(): array
 - Code review
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+**Settimana 2**: Moduli Business (progetto corrente, Blog, Geo)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 **Settimana 2**: Moduli Business (Fixcity, Blog, Geo)
 =======
 **Settimana 2**: Moduli Business (progetto corrente, Blog, Geo)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+**Settimana 2**: Moduli Business (Fixcity, Blog, Geo)
+>>>>>>> 990a9de5 (.)
+=======
+**Settimana 2**: Moduli Business (Fixcity, Blog, Geo)
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 - 20 List files
 - Test integrazione
@@ -1081,9 +1192,27 @@ public function getTableFilters(): array
 
 #### ⭐⭐⭐⭐ PRIORITÀ ALTA
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+4. Refactoring moduli business (progetto corrente, Blog, Geo)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 4. Refactoring moduli business (Fixcity, Blog, Geo)
 =======
 4. Refactoring moduli business (progetto corrente, Blog, Geo)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+4. Refactoring moduli business (Fixcity, Blog, Geo)
+>>>>>>> 990a9de5 (.)
+=======
+4. Refactoring moduli business (Fixcity, Blog, Geo)
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 5. ActionPresets per CRUD
 6. Documentazione completa
@@ -1224,9 +1353,27 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 ### Pattern 1: getTableColumns() - ESEMPIO REALE
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+#### progetto corrente/TicketResource/ListTickets.php (ECCELLENTE)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 #### Fixcity/TicketResource/ListTickets.php (ECCELLENTE)
 =======
 #### progetto corrente/TicketResource/ListTickets.php (ECCELLENTE)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+#### Fixcity/TicketResource/ListTickets.php (ECCELLENTE)
+>>>>>>> 990a9de5 (.)
+=======
+#### Fixcity/TicketResource/ListTickets.php (ECCELLENTE)
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 ```php
 protected function getTableColumns(): array
@@ -1589,9 +1736,27 @@ public function getTableFilters(): array
 - Code review
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+**Settimana 2**: Moduli Business (progetto corrente, Blog, Geo)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 **Settimana 2**: Moduli Business (Fixcity, Blog, Geo)
 =======
 **Settimana 2**: Moduli Business (progetto corrente, Blog, Geo)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+**Settimana 2**: Moduli Business (Fixcity, Blog, Geo)
+>>>>>>> 990a9de5 (.)
+=======
+**Settimana 2**: Moduli Business (Fixcity, Blog, Geo)
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 - 20 List files
 - Test integrazione
@@ -1631,9 +1796,27 @@ public function getTableFilters(): array
 
 #### ⭐⭐⭐⭐ PRIORITÀ ALTA
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+4. Refactoring moduli business (progetto corrente, Blog, Geo)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 4. Refactoring moduli business (Fixcity, Blog, Geo)
 =======
 4. Refactoring moduli business (progetto corrente, Blog, Geo)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+4. Refactoring moduli business (Fixcity, Blog, Geo)
+>>>>>>> 990a9de5 (.)
+=======
+4. Refactoring moduli business (Fixcity, Blog, Geo)
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 5. ActionPresets per CRUD
 6. Documentazione completa
@@ -1774,9 +1957,27 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 ### Pattern 1: getTableColumns() - ESEMPIO REALE
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+#### progetto corrente/TicketResource/ListTickets.php (ECCELLENTE)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 #### Fixcity/TicketResource/ListTickets.php (ECCELLENTE)
 =======
 #### progetto corrente/TicketResource/ListTickets.php (ECCELLENTE)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+#### Fixcity/TicketResource/ListTickets.php (ECCELLENTE)
+>>>>>>> 990a9de5 (.)
+=======
+#### Fixcity/TicketResource/ListTickets.php (ECCELLENTE)
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 ```php
 protected function getTableColumns(): array
@@ -2139,9 +2340,27 @@ public function getTableFilters(): array
 - Code review
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+**Settimana 2**: Moduli Business (progetto corrente, Blog, Geo)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 **Settimana 2**: Moduli Business (Fixcity, Blog, Geo)
 =======
 **Settimana 2**: Moduli Business (progetto corrente, Blog, Geo)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+**Settimana 2**: Moduli Business (Fixcity, Blog, Geo)
+>>>>>>> 990a9de5 (.)
+=======
+**Settimana 2**: Moduli Business (Fixcity, Blog, Geo)
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 - 20 List files
 - Test integrazione
@@ -2181,9 +2400,27 @@ public function getTableFilters(): array
 
 #### ⭐⭐⭐⭐ PRIORITÀ ALTA
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+4. Refactoring moduli business (progetto corrente, Blog, Geo)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 4. Refactoring moduli business (Fixcity, Blog, Geo)
 =======
 4. Refactoring moduli business (progetto corrente, Blog, Geo)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+4. Refactoring moduli business (Fixcity, Blog, Geo)
+>>>>>>> 990a9de5 (.)
+=======
+4. Refactoring moduli business (Fixcity, Blog, Geo)
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 5. ActionPresets per CRUD
 6. Documentazione completa
@@ -2215,9 +2452,29 @@ public function getTableFilters(): array
 
 **Domande?** Chiedi alla Super Mucca! 🐄⚡
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev

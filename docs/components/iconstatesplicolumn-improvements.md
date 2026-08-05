@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ---
 title: "IconStateSplitColumn - Comprehensive Improvements Summary"
 type: concept
@@ -18,6 +22,11 @@ related:
   - "./full-calendar-1.md"
 ---
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 # IconStateSplitColumn - Comprehensive Improvements Summary
 
 ## 🎯 **Problem Analysis**
@@ -291,5 +300,14 @@ This comprehensive refactor demonstrates best practices for Filament component d
 
 ---
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+**Last Updated**: 2025-01-28
+**Version**: 2.0.0
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
 **Status**: ✅ Production Ready

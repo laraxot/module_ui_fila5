@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Support\Facades\DB;
@@ -16,7 +20,16 @@ use Modules\Xot\Tests\XotBaseTestCase;
 /**
  * Base test case for UI module.
  *
+<<<<<<< HEAD
  * Uses shared sqlite from fixcity_data.sqlite (no RefreshDatabase).
+=======
+<<<<<<< HEAD
+ * Uses shared sqlite from database.sqlite (no RefreshDatabase).
+ * Uses shared sqlite from database.sqlite (no RefreshDatabase).
+=======
+ * Uses shared sqlite from fixcity_data.sqlite (no RefreshDatabase).
+>>>>>>> 990a9de5 (.)
+>>>>>>> laraxot/dev
  */
 abstract class TestCase extends XotBaseTestCase
 {
@@ -42,7 +55,15 @@ abstract class TestCase extends XotBaseTestCase
     {
         parent::setUp();
 
+<<<<<<< HEAD
         $database = database_path('fixcity_data.sqlite');
+=======
+<<<<<<< HEAD
+        $database = database_path('database.sqlite');
+=======
+        $database = database_path('fixcity_data.sqlite');
+>>>>>>> 990a9de5 (.)
+>>>>>>> laraxot/dev
 
         /** @var array<string, array<string, mixed>> $connections */
         $connections = config('database.connections', []);
@@ -61,3 +82,11 @@ abstract class TestCase extends XotBaseTestCase
         $this->ensureUiSchema();
     }
 }
+<<<<<<< HEAD
+=======
+=======
+use Modules\Xot\Tests\TestCase as BaseTestCase;
+
+abstract class TestCase extends BaseTestCase {}
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev

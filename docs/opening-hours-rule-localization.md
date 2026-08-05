@@ -129,9 +129,20 @@ $rule = new OpeningHoursRule();
 // Verificare messaggi in italiano
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Test inglese
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+// Test inglese
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 // Test inglese  
 =======
@@ -140,6 +151,19 @@ $rule = new OpeningHoursRule();
 =======
 // Test inglese  
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+// Test inglese
+>>>>>>> 990a9de5 (.)
+=======
+// Test inglese
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 App::setLocale('en');
 $rule = new OpeningHoursRule();
@@ -195,11 +219,29 @@ $rule = new OpeningHoursRule();
 - [Localization Guidelines](./localization_guidelines.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Correzione completata: gennaio 2025*
+=======
+=======
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 *Correzione completata: gennaio 2025*
 =======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev
 *Correzione completata: gennaio 2025*
 # Localizzazione OpeningHoursRule - Modulo UI
@@ -388,9 +430,29 @@ $rule = new OpeningHoursRule();
 
 *Correzione completata: gennaio 2025*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 *Correzione completata: gennaio 2025*
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> 990a9de5 (.)
+=======
+>>>>>>> 6e44b7d5 (.)
 >>>>>>> laraxot/dev

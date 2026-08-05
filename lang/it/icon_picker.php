@@ -6,15 +6,28 @@ return [
     'fields' => [
         'newstate' => [
             'label' => 'newstate',
+<<<<<<< HEAD
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
+=======
+<<<<<<< HEAD
+            'tooltip' => '',
+            'helper_text' => '',
+            'description' => '',
+=======
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
         'pack' => [
             'label' => 'pack',
             'description' => 'pack',
             'helper_text' => 'pack',
             'placeholder' => 'pack',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             'tooltip' => '',
         ],
         'icon' => [
@@ -46,6 +59,14 @@ return [
         ],
         'delete' => [
             'label' => 'Elimina Icon Picker',
+<<<<<<< HEAD
+=======
+=======
+        ],
+        'icon' => [
+            'label' => 'icon',
+>>>>>>> 6e44b7d5 (.)
+>>>>>>> laraxot/dev
         ],
     ],
 ];
