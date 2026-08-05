@@ -13,13 +13,14 @@ use Modules\Xot\Models\BaseModel;
 /**
  * Category model for UI module.
  * FormBuilder module not available - extending from XotBaseModel instead.
-<<<<<<< HEAD
-<<<<<<< HEAD
+ * <<<<<<< HEAD
+ * <<<<<<< HEAD.
  *
-=======
+ * =======
  */
 /**
->>>>>>> 990a9de5 (.)
+ * >>>>>>> 990a9de5 (.).
+ *
  * @property string               $id
  * @property string|null          $name
  * @property string               $title
@@ -37,34 +38,34 @@ use Modules\Xot\Models\BaseModel;
  * @property int                  $sort_order
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
-<<<<<<< HEAD
+ *                                             <<<<<<< HEAD
  * @property ProfileContract|null $deleter
-=======
->>>>>>> 990a9de5 (.)
+ *                                             =======
+ *                                             >>>>>>> 990a9de5 (.)
  *
- * @method static CategoryFactory          factory($count = null, $state = [])
-=======
+ * @method static CategoryFactory factory($count = null, $state = [])
+ *                                                                    =======
  */
 /**
- * @property string $id
- * @property string $title
- * @property string $slug
- * @property int|null $parent_id
- * @property Carbon|null $created_at
- * @property Carbon|null $updated_at
- * @property string|null $description
- * @property string|null $icon
- * @property string|null $updated_by
- * @property string|null $created_by
- * @property Carbon|null $deleted_at
- * @property string|null $deleted_by
- * @property int $is_active
- * @property int $sort_order
+ * @property string               $id
+ * @property string               $title
+ * @property string               $slug
+ * @property int|null             $parent_id
+ * @property Carbon|null          $created_at
+ * @property Carbon|null          $updated_at
+ * @property string|null          $description
+ * @property string|null          $icon
+ * @property string|null          $updated_by
+ * @property string|null          $created_by
+ * @property Carbon|null          $deleted_at
+ * @property string|null          $deleted_by
+ * @property int                  $is_active
+ * @property int                  $sort_order
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  *
- * @method static CategoryFactory factory($count = null, $state = [])
->>>>>>> 6e44b7d5 (.)
+ * @method static CategoryFactory          factory($count = null, $state = [])
+ *                                                                             >>>>>>> 6e44b7d5 (.)
  * @method static Builder<static>|Category newModelQuery()
  * @method static Builder<static>|Category newQuery()
  * @method static Builder<static>|Category query()
@@ -83,16 +84,18 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Category whereUpdatedAt($value)
  * @method static Builder<static>|Category whereUpdatedBy($value)
  *
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+ * <<<<<<< HEAD
+ * <<<<<<< HEAD
+ * =======
+ *
  * @property ProfileContract|null $deleter
  *
->>>>>>> 990a9de5 (.)
-=======
+ * >>>>>>> 990a9de5 (.)
+ * =======
  * @property ProfileContract|null $deleter
  *
->>>>>>> 6e44b7d5 (.)
+ * >>>>>>> 6e44b7d5 (.)
+ *
  * @mixin \Eloquent
  */
 class Category extends BaseModel
