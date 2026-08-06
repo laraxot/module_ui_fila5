@@ -18,19 +18,8 @@ final class SpatieDocumentUpload
     /**
      * Configurazione base per upload documenti con collection specifica.
      *
-     * <<<<<<< HEAD
-     *
      * @param string $name       Nome del campo
      * @param string $collection Nome della media collection
-     *                           =======
-     *                           <<<<<<< HEAD
-     * @param string $name       Nome del campo
-     * @param string $collection Nome della media collection
-     *                           =======
-     * @param string $name       Nome del campo
-     * @param string $collection Nome della media collection
-     *                           >>>>>>> 6e44b7d5 (.)
-     *                           >>>>>>> laraxot/dev
      */
     public static function make(string $name, string $collection): SpatieMediaLibraryFileUpload
     {
@@ -105,25 +94,11 @@ final class SpatieDocumentUpload
     /**
      * Upload documento generico con collection personalizzata.
      *
-     * <<<<<<< HEAD
-     * =======
-     * <<<<<<< HEAD
-     *
-     * >>>>>>> laraxot/dev
      *
      * @param string        $name       Nome del campo
      * @param string        $collection Nome della collection
      * @param array<string> $mimeTypes  Tipi MIME accettati
      * @param int           $maxSize    Dimensione massima in KB
-     *                                  <<<<<<< HEAD
-     *                                  =======
-     *                                  =======
-     * @param string        $name       Nome del campo
-     * @param string        $collection Nome della collection
-     * @param array<string> $mimeTypes  Tipi MIME accettati
-     * @param int           $maxSize    Dimensione massima in KB
-     *                                  >>>>>>> 6e44b7d5 (.)
-     *                                  >>>>>>> laraxot/dev
      */
     public static function custom(
         string $name,
