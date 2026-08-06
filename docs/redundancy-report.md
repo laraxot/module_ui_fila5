@@ -30,35 +30,7 @@ Referenziava `Modules\Geo\Services\MapService` e `Modules\Geo\Services\Geocoding
 
 Esiste anche in:
 - `Modules/Blog/app/Models/Category.php`
-<<<<<<< HEAD
-<<<<<<< HEAD
 - `Modules/Fixcity/app/Models/Category.php`
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-- `Modules/Fixcity/app/Models/Category.php`
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-- `Modules/Project/app/Models/Category.php`
-=======
-- `Modules/Fixcity/app/Models/Category.php`
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- `Modules/Fixcity/app/Models/Category.php`
->>>>>>> 990a9de5 (.)
->>>>>>> laraxot/dev
 
 Verificare se ciascun modulo ha la propria tabella `categories` o se dovrebbe usare un modello condiviso.
 

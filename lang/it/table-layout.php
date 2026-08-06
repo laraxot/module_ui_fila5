@@ -24,10 +24,6 @@ return [
         'tooltip' => 'Alterna tra visualizzazione lista e griglia',
         'helper_text' => 'Cambia il tipo di visualizzazione',
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     'label' => 'Table Layout',
     'plural_label' => 'Table Layout (Plurale)',
     'navigation' => [
@@ -39,7 +35,7 @@ return [
         ],
         'label' => 'Table Layout',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
+        'icon' => 'heroicon-o-rectangle-stack',
     ],
     'fields' => [
         'id' => [
@@ -72,9 +68,4 @@ return [
             'label' => 'Elimina Table Layout',
         ],
     ],
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ];

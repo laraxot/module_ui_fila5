@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 module: theme
 topic: cms-themes-link_1
@@ -9,9 +5,6 @@ canonical: ../../../Themes/docs/shared-components/cms-themes-link-1.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/cms-themes-link-1.md
-<<<<<<< HEAD
-=======
-=======
 # Collegamenti ai Temi nel Modulo Cms
 
 Questo documento fornisce collegamenti bidirezionali tra il modulo UI e il modulo Cms per quanto riguarda i temi.
@@ -48,5 +41,3 @@ I componenti UI definiti in questo modulo vengono utilizzati nei temi attraverso
 Questo documento è collegato bidirezionalmente con [themes-ui-link.md](../../Cms/docs/themes-ui-link.md) nel modulo Cms.
 
 > Aggiorna entrambi i riferimenti se modifichi la documentazione dei temi o aggiungi nuove sezioni.
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev

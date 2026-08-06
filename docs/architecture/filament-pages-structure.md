@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 title: "Struttura Pagine Filament - Modulo UI"
 type: concept
@@ -17,11 +13,6 @@ related:
   - "./structure.md"
 ---
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 # Struttura Pagine Filament - Modulo UI
 
 ## Panoramica
@@ -201,19 +192,6 @@ class S3Test extends XotBasePage
 
 ## Collegamenti
 - [Filament Extension Rules](../../../.cursor/rules/filament-extension-rules.mdc)
-<<<<<<< HEAD
 - [UI Module README](./readme.md)
 - [Blade Components](./blade-components.md)
 
-=======
-<<<<<<< HEAD
-- [UI Module README](./readme.md)
-- [Blade Components](./blade-components.md)
-
-=======
-- [UI Module README](./README.md)
-- [Blade Components](./blade-components.md)
-
-*Ultimo aggiornamento: 2025-01-06*
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev

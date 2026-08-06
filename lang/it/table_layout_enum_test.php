@@ -6,10 +6,6 @@ return [
     'fields' => [
         'name' => [
             'label' => 'name',
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
@@ -32,7 +28,7 @@ return [
         ],
         'label' => 'Table Layout Enum Test',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
+        'icon' => 'heroicon-o-rectangle-stack',
     ],
     'actions' => [
         'create' => [
@@ -43,14 +39,6 @@ return [
         ],
         'delete' => [
             'label' => 'Elimina Table Layout Enum Test',
-<<<<<<< HEAD
-=======
-=======
-        ],
-        'email' => [
-            'label' => 'email',
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
     ],
 ];

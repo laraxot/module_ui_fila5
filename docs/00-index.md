@@ -1,7 +1,18 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
+---
+title: "UI — indice della documentazione"
+description: "Documentazione del modulo UI: componenti di interfaccia condivisi."
+module: UI
+tags: [ui, documentazione, modulo, laraxot]
+status: active
+repository: https://github.com/laraxot/module_ui_fila5
+related:
+  - ./00-index.md
+  - ./index.md
+  - ../../../../docs/wiki/audits/docs-redundancy-audit.md
+issues: https://github.com/laraxot/module_ui_fila5/issues
+discussions: https://github.com/laraxot/module_ui_fila5/discussions
+---
+
 # 📚 **Indice Documentazione Modulo UI**
 
 **Last Update**: 31 Gennaio 2026
@@ -45,10 +56,3 @@
 
 ---
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*
-<<<<<<< HEAD
-=======
-=======
-# Documentation Index
-# Documentation Index
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev

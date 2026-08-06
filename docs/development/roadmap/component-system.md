@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 title: "Sistema Componenti UI"
 type: concept
@@ -18,11 +14,6 @@ related:
   - "./theme-system.md"
 ---
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 # Sistema Componenti UI
 
 ## 📊 Stato Implementazione

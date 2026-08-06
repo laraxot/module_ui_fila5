@@ -13,10 +13,6 @@ return [
             'body' => 'Si è verificato un errore durante la transizione di stato: :error',
         ],
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     'label' => 'Notifications',
     'plural_label' => 'Notifications (Plurale)',
     'navigation' => [
@@ -28,7 +24,7 @@ return [
         ],
         'label' => 'Notifications',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
+        'icon' => 'heroicon-o-rectangle-stack',
     ],
     'fields' => [
         'id' => [
@@ -61,9 +57,4 @@ return [
             'label' => 'Elimina Notifications',
         ],
     ],
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ];

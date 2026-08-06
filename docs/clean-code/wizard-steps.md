@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 title: "Gestione degli Step nei Wizard Filament"
 type: concept
@@ -18,11 +14,6 @@ related:
   - "./wizard-schema-separation.md"
 ---
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 # Gestione degli Step nei Wizard Filament
 
 ## Collegamenti Bidirezionali
@@ -161,12 +152,4 @@ class DoctorResource extends XotBaseResource
 
 - [Documentazione Filament Forms](https://filamentphp.com/docs/3.x/forms/layout/wizard)
 - [Best Practices Forms](../forms/best-practices.md)
-<<<<<<< HEAD
 - [Clean Code Guidelines](../../../../docs/clean-code.md)
-=======
-<<<<<<< HEAD
-- [Clean Code Guidelines](../../../../docs/clean-code.md)
-=======
-- [Clean Code Guidelines](../../../docs/clean-code.md)
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev

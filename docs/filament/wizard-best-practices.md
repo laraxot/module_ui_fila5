@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 title: "Best Practices per i Wizard in Filament"
 type: concept
@@ -22,11 +18,6 @@ related:
   - "./filament-4-migration-sumy.md"
 ---
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 # Best Practices per i Wizard in Filament
 
 ## Regola Fondamentale: Estrazione dei Metodi per gli Step
@@ -189,12 +180,4 @@ public static function getFormSchemaWidget(): array
 
 - [Filament Resources Structure](../filament-resources-structure.md)
 - [Form Components](../form-components.md)
-<<<<<<< HEAD
 - [Filament Best Practices](../../xot/docs/filament-best-practices.md)
-=======
-<<<<<<< HEAD
-- [Filament Best Practices](../../xot/docs/filament-best-practices.md)
-=======
-- [Filament Best Practices](../../Xot/docs/filament-best-practices.md)
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev

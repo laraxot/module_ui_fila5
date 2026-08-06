@@ -7,10 +7,6 @@ return [
     'next_month' => 'Mese successivo',
     'today' => 'Oggi',
     'months' => [
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
         0 => 'Gennaio',
         1 => 'Febbraio',
         2 => 'Marzo',
@@ -53,7 +49,7 @@ return [
         ],
         'label' => 'Datepicker',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
+        'icon' => 'heroicon-o-rectangle-stack',
     ],
     'fields' => [
         'id' => [
@@ -86,32 +82,4 @@ return [
             'label' => 'Elimina Datepicker',
         ],
     ],
-<<<<<<< HEAD
-=======
-=======
-        'Gennaio',
-        'Febbraio',
-        'Marzo',
-        'Aprile',
-        'Maggio',
-        'Giugno',
-        'Luglio',
-        'Agosto',
-        'Settembre',
-        'Ottobre',
-        'Novembre',
-        'Dicembre',
-    ],
-    'weekdays' => [
-        'Domenica',
-        'Lunedì',
-        'Martedì',
-        'Mercoledì',
-        'Giovedì',
-        'Venerdì',
-        'Sabato',
-    ],
-    'weekdays_short' => ['Dom', 'Lun', 'Mar', 'Mer', 'Gio', 'Ven', 'Sab'],
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ];

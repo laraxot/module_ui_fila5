@@ -64,24 +64,12 @@ final class ImagesGallery
                 // TextInput::make('caption')
                 //     ->columnSpanFull(),
             ])
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
             ->columns('form' === $context ? 2 : 1);
     }
 
     /**
      * @return array<string, string>
      */
-<<<<<<< HEAD
-=======
-=======
-            ->columns($context === 'form' ? 2 : 1);
-    }
-
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     public static function getRatios(): array
     {
         return [

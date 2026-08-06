@@ -84,15 +84,7 @@ public static function form(Form $form): Form
         TextInput::make('title')
             ->required()
             ->maxLength(255),
-<<<<<<< HEAD
             
-=======
-<<<<<<< HEAD
-            
-=======
-
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         // Digitare 'fil-select' e premere Tab
         Select::make('status')
             ->options([
@@ -100,15 +92,7 @@ public static function form(Form $form): Form
                 'published' => 'Published',
             ])
             ->required(),
-<<<<<<< HEAD
             
-=======
-<<<<<<< HEAD
-            
-=======
-
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         // Digitare 'fil-rich' e premere Tab
         RichEditor::make('content')
             ->required()
@@ -129,15 +113,7 @@ public static function table(Table $table): Table
             TextColumn::make('title')
                 ->searchable()
                 ->sortable(),
-<<<<<<< HEAD
                 
-=======
-<<<<<<< HEAD
-                
-=======
-
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
             // Digitare 'fil-col' e premere Tab
             IconColumn::make('status')
                 ->boolean(),
@@ -177,15 +153,7 @@ Forms\Components\Wizard::make([
                     // Digitare 'fil-text' e premere Tab
                     Forms\Components\TextInput::make('first_name')
                         ->required(),
-<<<<<<< HEAD
                         
-=======
-<<<<<<< HEAD
-                        
-=======
-
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
                     Forms\Components\TextInput::make('last_name')
                         ->required(),
                 ]),
@@ -241,12 +209,4 @@ Forms\Components\Wizard::make([
 
 - [Filament Documentation](https://filamentphp.com)
 - [VSCode PHP Extension](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
-<<<<<<< HEAD
-- [Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack) 
-=======
-<<<<<<< HEAD
-- [Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack) 
-=======
 - [Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack)
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev

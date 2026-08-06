@@ -33,10 +33,6 @@ return [
         'type' => 'Type',
         'btn' => 'Bewaar',
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     'navigation' => [
         'label' => 'Missing Navigation Label',
         'plural_label' => 'Missing Navigation Plural Label',
@@ -50,9 +46,4 @@ return [
     ],
     'actions' => [
     ],
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ];

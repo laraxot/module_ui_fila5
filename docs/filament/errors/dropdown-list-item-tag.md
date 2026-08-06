@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 title: "Errore: Tag Mancante nei Dropdown List Items"
 type: concept
@@ -16,11 +12,6 @@ related:
   - "./static-instance-method-incompatibility.md"
 ---
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 # Errore: Tag Mancante nei Dropdown List Items
 
 ## Problema

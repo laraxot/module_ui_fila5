@@ -7,10 +7,6 @@ return [
     'edit' => 'modifica',
     'view' => 'vedi',
     'note' => 'note',
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     'label' => 'Txt',
     'plural_label' => 'Txt (Plurale)',
     'navigation' => [
@@ -22,7 +18,7 @@ return [
         ],
         'label' => 'Txt',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
+        'icon' => 'heroicon-o-rectangle-stack',
     ],
     'fields' => [
         'id' => [
@@ -55,9 +51,4 @@ return [
             'label' => 'Elimina Txt',
         ],
     ],
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ];

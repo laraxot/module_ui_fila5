@@ -69,15 +69,7 @@ final class GetDaysMappingAction
     {
         $carbon = Carbon::create();
 
-<<<<<<< HEAD
         if (null === $carbon) {
-=======
-<<<<<<< HEAD
-        if (null === $carbon) {
-=======
-        if ($carbon === null) {
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
             throw new \RuntimeException('Failed to create Carbon instance');
         }
 

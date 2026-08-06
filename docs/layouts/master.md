@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 title: "Master Layout Documentation"
 type: concept
@@ -14,11 +10,6 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
 ---
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 # Master Layout Documentation
 
 ## Overview

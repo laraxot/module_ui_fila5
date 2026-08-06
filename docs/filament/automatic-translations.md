@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 title: "Traduzioni Automatiche nei Componenti Filament"
 type: concept
@@ -25,14 +21,6 @@ related:
 # Traduzioni Automatiche nei Componenti Filament
 
 > **NOTA IMPORTANTE**: Questo documento è un riferimento specifico per il modulo UI. La documentazione completa sulle traduzioni automatiche si trova nel [modulo Lang](../../lang/docs/automatic-translations.md).
-<<<<<<< HEAD
-=======
-=======
-# Traduzioni Automatiche nei Componenti Filament
-
-> **NOTA IMPORTANTE**: Questo documento è un riferimento specifico per il modulo UI. La documentazione completa sulle traduzioni automatiche si trova nel [modulo Lang](../../Lang/docs/automatic-translations.md).
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 
 ## Regola Fondamentale
 In il progetto, **NON utilizzare mai** il metodo `->label()` nei componenti Filament. Le etichette vengono gestite automaticamente dal `LangServiceProvider` attraverso i file di traduzione.
@@ -75,24 +63,9 @@ patient::doctor.fields.first_name.label
 
 ## Collegamenti Bidirezionali
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 - [Documentazione Completa sulle Traduzioni Automatiche](../../lang/docs/automatic-translations.md)
 - [Best Practices per i Componenti Filament](./component-methods-compatibility.md)
 - [Convenzioni di Traduzione](../../lang/docs/translation-conventions.md)
 
 ## Collegamenti tra versioni di automatic-translations.md
 * [automatic-translations.md](../../../lang/docs/automatic-translations.md)
-<<<<<<< HEAD
-=======
-=======
-- [Documentazione Completa sulle Traduzioni Automatiche](../../Lang/docs/automatic-translations.md)
-- [Best Practices per i Componenti Filament](./component-methods-compatibility.md)
-- [Convenzioni di Traduzione](../../Lang/docs/translation-conventions.md)
-
-## Collegamenti tra versioni di automatic-translations.md
-* [automatic-translations.md](../../../Lang/docs/automatic-translations.md)
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev

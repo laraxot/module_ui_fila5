@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 # 🎨 UI
 
 [![Domain-UI](https://img.shields.io/badge/Domain-UI%20Kit-7B1FA2.svg)](#)
@@ -12,35 +8,6 @@
 [![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue.svg)](https://www.php-fig.org/psr/psr-12/)
 [![Strict Types](https://img.shields.io/badge/PHP-strict__types-1-informational.svg)](#)
 [![Laraxot Modules](https://img.shields.io/badge/Architecture-Modular-purple.svg)](#)
-<<<<<<< HEAD
-<<<<<<< HEAD
-[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-[![Current Platform](https://img.shields.io/badge/Platform-progetto corrente-008758.svg)](#)
-=======
-[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
->>>>>>> 990a9de5 (.)
->>>>>>> laraxot/dev
 
 > **Componenti che non reinventano la ruota.** Design system condiviso tra moduli e tema.
 
@@ -102,35 +69,6 @@ Dettagli: [`docs/dependency-rules.md`](./docs/dependency-rules.md)
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Modulo** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-**Modulo** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-**Modulo** `ui` · **Laraxot** · **Current Platform** · PHPStan 10 · Filament 5
-=======
-**Modulo** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-**Modulo** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
->>>>>>> 990a9de5 (.)
-=======
 # 🎨 UI Module - Eleva la Tua Interfaccia al Livello Successivo! 🚀
 
 ![GitHub issues](https://img.shields.io/github/issues/laraxot/module_ui_fila3)
@@ -375,5 +313,3 @@ This project is distributed under the MIT license. See the [LICENSE](LICENSE) fi
 Este proyecto está distribuido bajo la licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
 
 ---
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev

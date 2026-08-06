@@ -3,10 +3,6 @@
 declare(strict_types=1);
 
 return [
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     'values' => [
         'list' => [
             'label' => 'List',
@@ -21,11 +17,6 @@ return [
             'description' => 'Grid',
         ],
     ],
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     'actions' => [
         'toggle' => [
             'label' => 'Toggle Layout',
@@ -33,10 +24,6 @@ return [
             'helper_text' => 'Change the display type',
         ],
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     'navigation' => [
         'label' => 'Missing Navigation Label',
         'plural_label' => 'Missing Navigation Plural Label',
@@ -48,9 +35,4 @@ return [
     'plural_label' => 'Missing Plural label',
     'fields' => [
     ],
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ];

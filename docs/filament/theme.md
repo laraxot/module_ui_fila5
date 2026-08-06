@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 title: "Theme"
 type: concept
@@ -22,9 +18,4 @@ related:
   - "./filament-4-migration-sumy.md"
 ---
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 https://fly.io/laravel-bytes/filamentphp-adding-some-style/

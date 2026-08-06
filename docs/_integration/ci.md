@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 title: "ci"
 type: concept
@@ -22,11 +18,6 @@ related:
   - "./custom-theme-1.md"
 ---
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 # ci
 
 <!-- Contenuto migrato da _docs/ci.txt -->

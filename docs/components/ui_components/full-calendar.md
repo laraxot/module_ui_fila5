@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 title: "FullCalendar Component"
 type: concept
@@ -14,11 +10,6 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
 ---
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 # FullCalendar Component
 
 ## Introduction
@@ -34,18 +25,8 @@ The FullCalendar component is implemented following these principles:
 
 ## Links to Detailed Documentation
 
-<<<<<<< HEAD
 - [UI Component Documentation](../laravel/modules/ui/docs/components/full-calendar.md)
 - [Implementation in Ptv Module](../laravel/modules/ptv/docs/features/full-calendar.md)
-=======
-<<<<<<< HEAD
-- [UI Component Documentation](../laravel/modules/ui/docs/components/full-calendar.md)
-- [Implementation in Ptv Module](../laravel/modules/ptv/docs/features/full-calendar.md)
-=======
-- [UI Component Documentation](../laravel/Modules/UI/docs/components/full-calendar.md)
-- [Implementation in Ptv Module](../laravel/Modules/Ptv/docs/features/full-calendar.md)
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 - [Cursor Implementation Rules](../.cursor/rules/full_calendar_rules.mdc)
 - [Windsurf Implementation Rules](../.windsurf/rules/full_calendar_rules.mdc)
 
@@ -74,12 +55,4 @@ When making changes to the FullCalendar component:
 4. Verify compliance with rules in Cursor and Windsurf .mdc files
 5. Ensure all class names and attributes follow English naming conventions
 
-<<<<<<< HEAD
 *
-=======
-<<<<<<< HEAD
-*
-=======
-*Last updated: June 2025*
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev

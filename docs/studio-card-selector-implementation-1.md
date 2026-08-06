@@ -21,177 +21,80 @@ use Closure;
 class StudioCardSelector extends Field
 {
     protected string $view = 'ui::forms.components.studio-card-selector';
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     
     // Dati studios da visualizzare
     protected Collection|Closure|null $studios = null;
     
-<<<<<<< HEAD
-=======
-=======
 
     // Dati studios da visualizzare
     protected Collection|Closure|null $studios = null;
 
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     // Personalizzazioni UI
     protected bool $showDistance = false;
     protected bool $showSpecializations = false;
     protected bool $showPhone = false;
     protected string $cardLayout = 'default'; // 'default', 'compact', 'detailed'
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     // Configure studios data source
     public function studios(Collection|Closure $studios): static
     {
         $this->studios = $studios;
         return $this;
     }
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     // Enable/disable features
     public function showDistance(bool $show = true): static
     {
         $this->showDistance = $show;
         return $this;
     }
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     public function showSpecializations(bool $show = true): static
     {
         $this->showSpecializations = $show;
         return $this;
     }
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     public function showPhone(bool $show = true): static
     {
         $this->showPhone = $show;
         return $this;
     }
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     // Layout variants
     public function compact(): static
     {
         $this->cardLayout = 'compact';
         return $this;
     }
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     public function detailed(): static
     {
         $this->cardLayout = 'detailed';
         return $this;
     }
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     // Data getters for view
     public function getStudios(): Collection
     {
         return $this->evaluate($this->studios) ?? collect();
     }
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     public function getCardLayout(): string
     {
         return $this->cardLayout;
     }
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     public function shouldShowDistance(): bool
     {
         return $this->showDistance;
     }
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     public function shouldShowSpecializations(): bool
     {
         return $this->showSpecializations;
     }
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     public function shouldShowPhone(): bool
     {
         return $this->showPhone;
@@ -220,10 +123,6 @@ protected function getStudioStepSchema(): array
 private function getStudiosForLocation(Get $get): Collection
 {
     $cap = $get('cap');
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     $province = $get('province'); 
     $region = $get('region');
     
@@ -232,9 +131,6 @@ private function getStudiosForLocation(Get $get): Collection
     }
     
     return \Modules\SaluteOra\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
-<<<<<<< HEAD
-=======
-=======
     $province = $get('province');
     $region = $get('region');
 
@@ -243,8 +139,6 @@ private function getStudiosForLocation(Get $get): Collection
     }
 
     return \Modules\<nome progetto>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         $q->where('postal_code', $cap)
           ->where('administrative_area_level_3', $province)
           ->where('administrative_area_level_2', $region);
@@ -296,10 +190,6 @@ return [
 - [Components Overview](./components.md)
 - [Form Components Guide](./form-components.md)
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ### Modulo SaluteOra
 - [Widget Analysis](../SaluteOra/docs/widgets/find-doctor-widget-studio-step-analysis.md)
 
@@ -307,11 +197,7 @@ return [
 
 **Component Status**: 📋 Documented - Ready for Implementation  
 **Reusability**: 🔄 High - Cross-module compatible  
-<<<<<<< HEAD
 **Last Updated**: January 2025 
-=======
-**Last Updated**: January 2025 
-=======
 ### Modulo <nome progetto>
 - [Widget Analysis](../<nome progetto>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
 
@@ -320,5 +206,3 @@ return [
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
 **Last Updated**: January 2025
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
