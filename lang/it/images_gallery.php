@@ -9,66 +9,34 @@ return [
             'description' => 'version',
             'helper_text' => 'version',
             'placeholder' => 'version',
-<<<<<<< HEAD
             'tooltip' => '',
-=======
-<<<<<<< HEAD
-            'tooltip' => '',
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
         'subtitle' => [
             'label' => 'subtitle',
             'description' => 'subtitle',
             'helper_text' => 'subtitle',
             'placeholder' => 'subtitle',
-<<<<<<< HEAD
             'tooltip' => '',
-=======
-<<<<<<< HEAD
-            'tooltip' => '',
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
         'title' => [
             'label' => 'title',
             'description' => 'title',
             'helper_text' => 'title',
             'placeholder' => 'title',
-<<<<<<< HEAD
             'tooltip' => '',
-=======
-<<<<<<< HEAD
-            'tooltip' => '',
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
         'image' => [
             'label' => 'image',
             'placeholder' => 'image',
             'helper_text' => 'image',
             'description' => 'image',
-<<<<<<< HEAD
             'tooltip' => '',
-=======
-<<<<<<< HEAD
-            'tooltip' => '',
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
         'gallery' => [
             'label' => 'gallery',
             'placeholder' => 'gallery',
             'helper_text' => 'gallery',
             'description' => 'gallery',
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
             'tooltip' => '',
         ],
     ],
@@ -83,7 +51,7 @@ return [
         ],
         'label' => 'Images Gallery',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
+        'icon' => 'heroicon-o-rectangle-stack',
     ],
     'actions' => [
         'create' => [
@@ -94,11 +62,6 @@ return [
         ],
         'delete' => [
             'label' => 'Elimina Images Gallery',
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
     ],
 ];

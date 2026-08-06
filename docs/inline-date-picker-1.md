@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 module: theme
 topic: inline-date-picker_1
@@ -9,9 +5,6 @@ canonical: ../../../Themes/docs/shared-components/inline-date-picker-1.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/inline-date-picker-1.md
-<<<<<<< HEAD
-=======
-=======
 # InlineDatePicker Component
 
 A customizable inline date picker component for Filament forms with month navigation and enabled/disabled date support.
@@ -222,5 +215,3 @@ If the component doesn't look right, make sure you have the required Tailwind CS
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev

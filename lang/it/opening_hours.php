@@ -46,15 +46,7 @@ return [
         'afternoon_hours' => 'Orari del pomeriggio',
     ],
     'notes' => [
-<<<<<<< HEAD
         'format_hint' => 'Utilizzare il formato 24 ore (es. 14:30 per le 2:30 del pomeriggio]',
-=======
-<<<<<<< HEAD
-        'format_hint' => 'Utilizzare il formato 24 ore (es. 14:30 per le 2:30 del pomeriggio]',
-=======
-        'format_hint' => 'Utilizzare il formato 24 ore (es. 14:30 per le 2:30 del pomeriggio)',
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         'empty_hint' => 'Lasciare vuoto significa "chiuso"',
     ],
     'validation' => [
@@ -79,10 +71,6 @@ return [
             'afternoon' => 'pomeriggio',
         ],
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     'label' => 'Opening Hours',
     'plural_label' => 'Opening Hours (Plurale)',
     'navigation' => [
@@ -94,7 +82,7 @@ return [
         ],
         'label' => 'Opening Hours',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
+        'icon' => 'heroicon-o-rectangle-stack',
     ],
     'fields' => [
         'id' => [
@@ -127,9 +115,4 @@ return [
             'label' => 'Elimina Opening Hours',
         ],
     ],
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ];

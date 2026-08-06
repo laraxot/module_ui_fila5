@@ -48,10 +48,6 @@ return [
             'email_sent_error' => 'Errore durante l\'invio dell\'email',
         ],
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     'label' => 'Pages',
     'plural_label' => 'Pages (Plurale)',
     'navigation' => [
@@ -63,7 +59,7 @@ return [
         ],
         'label' => 'Pages',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
+        'icon' => 'heroicon-o-rectangle-stack',
     ],
     'fields' => [
         'id' => [
@@ -96,9 +92,4 @@ return [
             'label' => 'Elimina Pages',
         ],
     ],
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ];

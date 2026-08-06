@@ -20,17 +20,8 @@ final class Svg extends Component
      */
     public function __construct(
         public string $tpl = '',
-<<<<<<< HEAD
     ) {
     }
-=======
-<<<<<<< HEAD
-    ) {
-    }
-=======
-    ) {}
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 
     public function render(): View
     {

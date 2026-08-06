@@ -14,10 +14,6 @@ return [
     'next' => 'Avanti',
     'confirm' => 'Conferma',
     'completed' => 'Completato',
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     'label' => 'Stepper',
     'plural_label' => 'Stepper (Plurale)',
     'fields' => [
@@ -51,9 +47,4 @@ return [
             'label' => 'Elimina Stepper',
         ],
     ],
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ];

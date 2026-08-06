@@ -8,6 +8,7 @@ use Illuminate\Contracts\View\View;
 use Livewire\Component;
 use Modules\Geo\Services\GeocodingService;
 use Modules\Geo\Services\MapService;
+use Modules\Xot\Actions\Cast\SafeFloatCastAction;
 use Webmozart\Assert\Assert;
 
 /**
@@ -18,12 +19,20 @@ use Webmozart\Assert\Assert;
  */
 final class InteractiveMap extends Component
 {
-    public array $center = [45.4642, 9.1900]; // Milano
+    /** @var list<float> [lat, lng] — default Milano */
+    public array $center = [45.4642, 9.1900];
 
     public int $zoom = 10;
 
+    /**
+     * Payload dei marker così come arriva da MapService: struttura decisa dal
+     * servizio, non dal componente.
+     *
+     * @var list<array<string, mixed>>
+     */
     public array $markers = [];
 
+    /** @var array<string, bool|list<string>|array<string, float>> */
     public array $filters = [
         'tickets' => true,
         'users' => false,
@@ -35,8 +44,10 @@ final class InteractiveMap extends Component
         'location_types' => [],
     ];
 
+    /** @var array<string, mixed>|null */
     public ?array $selectedMarker = null;
 
+    /** @var array<string, mixed> */
     public array $stats = [];
 
     public bool $showControls = true;
@@ -53,6 +64,10 @@ final class InteractiveMap extends Component
         'refreshMap' => 'loadMarkers',
     ];
 
+    /**
+     * @param  list<float>|null  $center
+     * @param  array<string, bool|list<string>|array<string,float>>  $filters
+     */
     public function mount(?array $center = null, ?int $zoom = null, array $filters = []): void
     {
         if ($center) {
@@ -93,6 +108,8 @@ final class InteractiveMap extends Component
 
     /**
      * Aggiorna i filtri.
+     *
+     * @param  array<string, bool|list<string>|array<string, float>>  $filters
      */
     public function updateFilters(array $filters): void
     {
@@ -102,6 +119,8 @@ final class InteractiveMap extends Component
 
     /**
      * Aggiorna i bounds della mappa.
+     *
+     * @param  array<string, float>  $bounds
      */
     public function updateBounds(array $bounds): void
     {
@@ -187,7 +206,20 @@ final class InteractiveMap extends Component
             $address = $result['address'] ?? '';
             Assert::string($address, 'Address must be string');
 
-            $this->center = [$result['latitude'], $result['longitude']];
+            // Il geocoder restituisce un payload non tipizzato: le coordinate vanno
+            // validate prima del cast. Senza `Assert::numeric()` un payload non
+            // numerico diventerebbe silenziosamente 0.0 (default dell'action) e la
+            // mappa finirebbe al largo del Golfo di Guinea invece di segnalare
+            // l'errore; l'assert lo fa risalire nel catch come "indirizzo non trovato".
+            $latitude = $result['latitude'] ?? null;
+            $longitude = $result['longitude'] ?? null;
+            Assert::numeric($latitude, 'Latitude must be numeric');
+            Assert::numeric($longitude, 'Longitude must be numeric');
+
+            $this->center = [
+                SafeFloatCastAction::castWithRange($latitude, -90.0, 90.0),
+                SafeFloatCastAction::castWithRange($longitude, -180.0, 180.0),
+            ];
             $this->zoom = 15;
 
             $this->dispatch('updateMapCenter', $this->center, $this->zoom);
@@ -203,6 +235,8 @@ final class InteractiveMap extends Component
 
     /**
      * Ottiene suggerimenti per la ricerca.
+     *
+     * @return list<array<string, mixed>>
      */
     public function getSuggestions(): array
     {
@@ -300,14 +334,25 @@ final class InteractiveMap extends Component
     }
 
     /**
-     * Ottiene le proprietà computate.
+     * Conteggio dei marker raggruppati per tipo.
+     *
+     * @return array<string, int>
      */
     public function getMarkersByTypeProperty(): array
     {
-        return collect($this->markers)
-            ->groupBy('type')
-            ->map(fn ($markers) => $markers->count())
-            ->toArray();
+        // `groupBy()->map()->toArray()` perde il tipo della chiave (array-key, non
+        // string): il conteggio esplicito mantiene la firma array<string, int> e
+        // scarta i marker privi di un tipo utilizzabile come chiave.
+        $counts = [];
+        foreach ($this->markers as $marker) {
+            $type = $marker['type'] ?? null;
+            if (! is_string($type) || $type === '') {
+                continue;
+            }
+            $counts[$type] = ($counts[$type] ?? 0) + 1;
+        }
+
+        return $counts;
     }
 
     public function getVisibleMarkersCountProperty(): int

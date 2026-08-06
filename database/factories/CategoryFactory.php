@@ -5,23 +5,12 @@ declare(strict_types=1);
 namespace Modules\UI\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 use Illuminate\Support\Str;
 use Modules\UI\Models\Category;
 
 /**
  * @extends Factory<Category>
  */
-<<<<<<< HEAD
-=======
-=======
-use Modules\UI\Models\Category;
-
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 class CategoryFactory extends Factory
 {
     /**
@@ -36,10 +25,6 @@ class CategoryFactory extends Factory
      */
     public function definition(): array
     {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
         /** @var string $title */
         $title = fake()->sentence(2);
 
@@ -49,11 +34,5 @@ class CategoryFactory extends Factory
             'is_active' => 1,
             'sort_order' => 0,
         ];
-<<<<<<< HEAD
-=======
-=======
-        return [];
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     }
 }

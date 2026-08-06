@@ -9,39 +9,7 @@
 
 ## 🎯 PANORAMICA
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione progetto corrente.
-=======
-Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
->>>>>>> 990a9de5 (.)
-=======
-Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 
 ---
 
@@ -461,39 +429,7 @@ class MapService
                     'description' => $ticket->description,
                     'status' => $ticket->status->slug,
                     'priority' => $ticket->priority->slug,
-<<<<<<< HEAD
-<<<<<<< HEAD
                     'url' => route('fixcity.tickets.show', $ticket)
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-                    'url' => route('fixcity.tickets.show', $ticket)
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-                    'url' => route('tickets.show', $ticket)
-=======
-                    'url' => route('fixcity.tickets.show', $ticket)
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-                    'url' => route('fixcity.tickets.show', $ticket)
->>>>>>> 990a9de5 (.)
-=======
-                    'url' => route('fixcity.tickets.show', $ticket)
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
                 ];
             })
             ->toArray();
@@ -573,39 +509,7 @@ class GeocodingService
             />
         </div>
         <div class="col-md-4">
-<<<<<<< HEAD
-<<<<<<< HEAD
             <livewire:fixcity::components.ticket-stats />
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-            <livewire:fixcity::components.ticket-stats />
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-            <livewire:project::components.ticket-stats />
-=======
-            <livewire:fixcity::components.ticket-stats />
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-            <livewire:fixcity::components.ticket-stats />
->>>>>>> 990a9de5 (.)
-=======
-            <livewire:fixcity::components.ticket-stats />
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         </div>
     </div>
 </div>
@@ -659,39 +563,7 @@ class GeocodingService
 - [ ] GeocodingService implementation
 
 ### 📅 Fase 3: Integrazione (Settimana 3)
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [ ] Integrazione con modulo Fixcity
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-- [ ] Integrazione con modulo Fixcity
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-- [ ] Integrazione con modulo progetto corrente
-=======
-- [ ] Integrazione con modulo Fixcity
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- [ ] Integrazione con modulo Fixcity
->>>>>>> 990a9de5 (.)
-=======
-- [ ] Integrazione con modulo Fixcity
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 - [ ] Integrazione con modulo User
 - [ ] API endpoints per mappa
 - [ ] Testing componenti

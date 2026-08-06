@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 module: theme
 topic: compilation
@@ -15,9 +11,3 @@ related:
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/.gitkeep
-<<<<<<< HEAD
-=======
-=======
-
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev

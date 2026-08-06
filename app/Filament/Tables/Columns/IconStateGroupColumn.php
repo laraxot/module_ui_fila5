@@ -5,10 +5,6 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Actions\Action;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 use Filament\Tables\Columns\IconColumn;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Contracts\StateContract;
@@ -16,39 +12,17 @@ use Modules\Xot\Filament\Tables\Columns\XotBaseColumnGroup;
 use Webmozart\Assert\Assert;
 
 class IconStateGroupColumn extends XotBaseColumnGroup
-<<<<<<< HEAD
-=======
-=======
-use Filament\Tables\Columns\ColumnGroup;
-use Filament\Tables\Columns\IconColumn;
-use Illuminate\Database\Eloquent\Model;
-use Modules\Xot\Contracts\StateContract;
-use Webmozart\Assert\Assert;
-
-class IconStateGroupColumn extends ColumnGroup
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 {
     public string $stateClass = '';
 
     public string $modelClass = '';
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     /**
      * Form data holder.
      *
      * @var array<string, mixed>
      */
     public ?array $data = [];
-<<<<<<< HEAD
-=======
-=======
-    public array $data = [];
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 
     protected function setUp(): void
     {
@@ -116,10 +90,6 @@ class IconStateGroupColumn extends ColumnGroup
             $column->action(
                 Action::make($stateKey.'-action')
                     ->requiresConfirmation()
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
                     ->modalHeading(static function (Model $record) use ($stateInstance) {
                         // StateContract provides modalHeading()
                         return $stateInstance->modalHeading();
@@ -129,33 +99,11 @@ class IconStateGroupColumn extends ColumnGroup
                         return $stateInstance->modalDescription();
                     })
                     ->schema(static function (Model $record) use ($stateInstance) {
-<<<<<<< HEAD
-=======
-=======
-                    ->modalHeading(function (Model $record) use ($stateInstance) {
-                        // StateContract provides modalHeading()
-                        return $stateInstance->modalHeading();
-                    })
-                    ->modalDescription(function (Model $record) use ($stateInstance) {
-                        // StateContract provides modalDescription()
-                        return $stateInstance->modalDescription();
-                    })
-                    ->schema(function (Model $record) use ($stateInstance) {
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
                         // StateContract provides modalFormSchema()
                         return $stateInstance->modalFormSchema();
                     })
                     ->fillForm($stateInstance->modalFillFormByRecord(...))
-<<<<<<< HEAD
                     ->action(static function (Model $record, array $data) use ($stateInstance): void {
-=======
-<<<<<<< HEAD
-                    ->action(static function (Model $record, array $data) use ($stateInstance): void {
-=======
-                    ->action(function (Model $record, array $data) use ($stateInstance): void {
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
                         // Ensure data is treated as array<string, mixed> for PHPStan and StateContract
                         /** @var array<string, mixed> $typedData */
                         $typedData = $data;
@@ -165,15 +113,7 @@ class IconStateGroupColumn extends ColumnGroup
             );
 
             $visibleValue = $this->data[$visibleKey] ?? false;
-<<<<<<< HEAD
             $column->visible((bool) $visibleValue);
-=======
-<<<<<<< HEAD
-            $column->visible((bool) $visibleValue);
-=======
-            $column->visible($visibleValue);
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
             $columns[] = $column;
         }
 

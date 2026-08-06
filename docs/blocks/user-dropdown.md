@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 title: "User Dropdown Component"
 type: concept
@@ -18,11 +14,6 @@ related:
   - "./navigation.md"
 ---
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 # User Dropdown Component
 
 This document describes the User Dropdown component used in the header section and explains proper data handling patterns.
@@ -142,18 +133,6 @@ The error occurred because:
 
 ## Related Documentation
 
-<<<<<<< HEAD
 - [Block Components Overview](./readme.md)
 - [Data Handling in Blade Components](../blade-data-handling.md)
 - [Section Architecture](../sections/readme.md)
-=======
-<<<<<<< HEAD
-- [Block Components Overview](./readme.md)
-- [Data Handling in Blade Components](../blade-data-handling.md)
-- [Section Architecture](../sections/readme.md)
-=======
-- [Block Components Overview](./README.md)
-- [Data Handling in Blade Components](../blade-data-handling.md)
-- [Section Architecture](../sections/README.md)
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev

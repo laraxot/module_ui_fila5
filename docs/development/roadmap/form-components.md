@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 title: "Form Components - 95% Completato"
 type: concept
@@ -18,11 +14,6 @@ related:
   - "./theme-system.md"
 ---
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 # Form Components - 95% Completato
 
 ## Descrizione
@@ -116,15 +107,5 @@ I componenti form forniscono un'interfaccia standardizzata per la creazione e ge
 - Ottimizzare performance
 - Aggiornare documentazione
 ## Collegamenti tra versioni di form-components.md
-<<<<<<< HEAD
 * [form-components.md](../../../ui/docs/form-components.md)
 * [form-components.md](../../../ui/docs/roadmap/form-components.md)
-=======
-<<<<<<< HEAD
-* [form-components.md](../../../ui/docs/form-components.md)
-* [form-components.md](../../../ui/docs/roadmap/form-components.md)
-=======
-* [form-components.md](../../../UI/docs/form-components.md)
-* [form-components.md](../../../UI/docs/roadmap/form-components.md)
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev

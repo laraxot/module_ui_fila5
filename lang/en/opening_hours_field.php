@@ -49,19 +49,10 @@ return [
                 'placeholder' => 'e.g. Consultations',
                 'helper_text' => 'Description of Monday afternoon activities',
             ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
             'label' => '',
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
         'tuesday' => [
             'morning' => [
@@ -108,19 +99,10 @@ return [
                 'placeholder' => 'e.g. Consultations',
                 'helper_text' => 'Description of Tuesday afternoon activities',
             ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
             'label' => '',
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
         'wednesday' => [
             'morning' => [
@@ -167,19 +149,10 @@ return [
                 'placeholder' => 'e.g. Consultations',
                 'helper_text' => 'Description of Wednesday afternoon activities',
             ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
             'label' => '',
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
         'thursday' => [
             'morning' => [
@@ -226,19 +199,10 @@ return [
                 'placeholder' => 'e.g. Consultations',
                 'helper_text' => 'Description of Thursday afternoon activities',
             ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
             'label' => '',
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
         'friday' => [
             'morning' => [
@@ -285,19 +249,10 @@ return [
                 'placeholder' => 'e.g. Consultations',
                 'helper_text' => 'Description of Friday afternoon activities',
             ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
             'label' => '',
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
         'saturday' => [
             'morning' => [
@@ -344,19 +299,10 @@ return [
                 'placeholder' => 'e.g. Consultations',
                 'helper_text' => 'Description of Saturday afternoon activities',
             ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
             'label' => '',
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
         'sunday' => [
             'morning' => [
@@ -399,49 +345,24 @@ return [
                 'placeholder' => 'e.g. Consultations',
                 'helper_text' => 'Description of Sunday afternoon activities',
             ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
             'label' => '',
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
         'schedule' => [
             'label' => 'Schedule',
             'placeholder' => 'Configure opening hours',
             'helper_text' => 'Complete availability schedule management',
-<<<<<<< HEAD
             'tooltip' => '',
             'description' => '',
-=======
-<<<<<<< HEAD
-            'tooltip' => '',
-            'description' => '',
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
         'availability' => [
             'label' => 'Availability',
             'placeholder' => 'Set your availability',
             'helper_text' => 'Configure when you are available for appointments',
-<<<<<<< HEAD
             'tooltip' => '',
             'description' => '',
-=======
-<<<<<<< HEAD
-            'tooltip' => '',
-            'description' => '',
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
     ],
     'sections' => [
@@ -471,10 +392,6 @@ return [
         'schedule_saved' => 'Schedule saved successfully',
         'invalid_time_range' => 'Invalid time: end time must be after start time',
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     'navigation' => [
         'label' => 'Missing Navigation Label',
         'plural_label' => 'Missing Navigation Plural Label',
@@ -484,9 +401,4 @@ return [
     ],
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label',
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ];

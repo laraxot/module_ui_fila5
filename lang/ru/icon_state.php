@@ -10,14 +10,7 @@ return [
             'help' => 'Идентифицирующее имя элемента',
             'description' => 'Имя объекта',
             'helper_text' => '',
-<<<<<<< HEAD
             'tooltip' => '',
-=======
-<<<<<<< HEAD
-            'tooltip' => '',
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
         'edit-name' => [
             'label' => 'Редактировать имя',
@@ -25,14 +18,7 @@ return [
             'help' => 'Изменить существующее имя',
             'description' => 'Действие для изменения имени',
             'helper_text' => '',
-<<<<<<< HEAD
             'tooltip' => '',
-=======
-<<<<<<< HEAD
-            'tooltip' => '',
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
         'change-state' => [
             'label' => 'Изменить состояние',
@@ -40,14 +26,7 @@ return [
             'help' => 'Изменить текущее состояние',
             'description' => 'Действие для изменения состояния',
             'helper_text' => '',
-<<<<<<< HEAD
             'tooltip' => '',
-=======
-<<<<<<< HEAD
-            'tooltip' => '',
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
         'state' => [
             'label' => 'Состояние',
@@ -55,14 +34,7 @@ return [
             'help' => 'Текущее состояние элемента',
             'description' => 'Текущее состояние системы',
             'helper_text' => '',
-<<<<<<< HEAD
             'tooltip' => '',
-=======
-<<<<<<< HEAD
-            'tooltip' => '',
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
         'message' => [
             'label' => 'Сообщение',
@@ -70,14 +42,7 @@ return [
             'help' => 'Информационное сообщение',
             'description' => 'Текст сообщения',
             'helper_text' => '',
-<<<<<<< HEAD
             'tooltip' => '',
-=======
-<<<<<<< HEAD
-            'tooltip' => '',
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
     ],
     'messages' => [
@@ -91,10 +56,6 @@ return [
             'title' => 'Ошибка перехода',
         ],
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     'navigation' => [
         'label' => 'Missing Navigation Label',
         'plural_label' => 'Missing Navigation Plural Label',
@@ -106,9 +67,4 @@ return [
     'plural_label' => 'Missing Plural label',
     'actions' => [
     ],
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ];

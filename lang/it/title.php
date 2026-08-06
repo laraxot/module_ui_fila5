@@ -9,24 +9,13 @@ return [
             'description' => 'text',
             'placeholder' => 'text',
             'helper_text' => 'text',
-<<<<<<< HEAD
             'tooltip' => '',
-=======
-<<<<<<< HEAD
-            'tooltip' => '',
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
         'level' => [
             'label' => 'Grandezza',
             'description' => 'level',
             'helper_text' => 'level',
             'placeholder' => 'level',
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
             'tooltip' => '',
         ],
         '_tpl' => [
@@ -34,24 +23,12 @@ return [
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
-<<<<<<< HEAD
-=======
-=======
-        ],
-        '_tpl' => [
-            'label' => '_tpl',
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
         'view' => [
             'label' => 'view',
             'description' => 'view',
             'helper_text' => 'view',
             'placeholder' => 'view',
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
             'tooltip' => '',
         ],
     ],
@@ -66,7 +43,7 @@ return [
         ],
         'label' => 'Title',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
+        'icon' => 'heroicon-o-rectangle-stack',
     ],
     'actions' => [
         'create' => [
@@ -77,11 +54,6 @@ return [
         ],
         'delete' => [
             'label' => 'Elimina Title',
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
     ],
 ];

@@ -34,10 +34,6 @@ return [
         'type' => 'Tipo',
         'btn' => 'Salva',
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     'label' => 'Filament Navigation',
     'plural_label' => 'Filament Navigation (Plurale)',
     'navigation' => [
@@ -49,7 +45,7 @@ return [
         ],
         'label' => 'Filament Navigation',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
+        'icon' => 'heroicon-o-rectangle-stack',
     ],
     'fields' => [
         'id' => [
@@ -82,9 +78,4 @@ return [
             'label' => 'Elimina Filament Navigation',
         ],
     ],
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ];

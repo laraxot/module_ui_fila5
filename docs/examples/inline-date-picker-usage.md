@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 title: "Esempi di Utilizzo di InlineDatePicker"
 type: concept
@@ -15,11 +11,6 @@ related:
   - "./table-layout-implementation-example.md"
 ---
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 # Esempi di Utilizzo di InlineDatePicker
 
 ## Esempio 1: Prenotazione Appuntamenti Medici
@@ -154,14 +145,6 @@ class AdvancedBookingForm
                     return $this->availabilityService->getAvailableDates(
                         serviceId: $serviceId,
                         locationId: $locationId,
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-                        startDate: Carbon::today(),
-                        endDate: Carbon::today()->addMonths(3)
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
                     );
                 })
                 ->calendarConfig([
@@ -317,13 +300,6 @@ class CustomCalendarForm
             InlineDatePicker::make('special_date')
                 ->enabledDates(function () {
                     // Date con stati speciali
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-                    return SpecialDate::query()
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
                         ->where('is_active', true)
                         ->where('date', '>=', now())
                         ->get()
@@ -349,13 +325,6 @@ class CustomCalendarForm
                 ])
                 ->afterStateUpdated(function ($state) {
                     // Carica metadati per la data selezionata
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-                    $specialDate = SpecialDate::whereDate('date', $state)->first();
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 
                     if ($specialDate) {
                         $this->selectedDateMetadata = $specialDate->metadata;
@@ -368,39 +337,18 @@ class CustomCalendarForm
 
     private function isHoliday(string $date): bool
     {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        return SpecialDate::whereDate('date', $date)
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
             ->where('type', 'holiday')
             ->exists();
     }
 
     private function isHighDemand(string $date): bool
     {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        return SpecialDate::whereDate('date', $date)
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
             ->where('priority', 'high')
             ->exists();
     }
 
     private function isPremiumOnly(string $date): bool
     {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-        return SpecialDate::whereDate('date', $date)
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
             ->where('type', 'premium_only')
             ->exists();
     }

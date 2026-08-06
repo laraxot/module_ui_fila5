@@ -10,15 +10,7 @@ use Filament\Support\Contracts\HasLabel;
 use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\ColumnGroup;
 use Filament\Tables\Columns\Layout\Component;
-<<<<<<< HEAD
 use Modules\Xot\Traits\EnumTrait;
-=======
-<<<<<<< HEAD
-use Modules\Xot\Traits\EnumTrait;
-=======
-use Modules\Xot\Filament\Traits\TransTrait;
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 
 /**
  * Enum for managing table layout types in Filament UI components.
@@ -31,15 +23,7 @@ use Modules\Xot\Filament\Traits\TransTrait;
  */
 enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 {
-<<<<<<< HEAD
     use EnumTrait;
-=======
-<<<<<<< HEAD
-    use EnumTrait;
-=======
-    use TransTrait;
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 
     case LIST = 'list';
     case GRID = 'grid';
@@ -49,32 +33,6 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
         return self::LIST;
     }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-    public function getLabel(): string
-    {
-        return $this->transClass(self::class, $this->value.'.label');
-    }
-
-    public function getColor(): string
-    {
-        return $this->transClass(self::class, $this->value.'.color');
-    }
-
-    public function getIcon(): string
-    {
-        return $this->transClass(self::class, $this->value.'.icon');
-    }
-
-    public function getDescription(): string
-    {
-        return $this->transClass(self::class, $this->value.'.description');
-    }
-
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     public function getTooltip(): string
     {
         return $this->transClass(self::class, $this->value.'.tooltip');
@@ -95,28 +53,12 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 
     public function isGridLayout(): bool
     {
-<<<<<<< HEAD
         return self::GRID === $this;
-=======
-<<<<<<< HEAD
-        return self::GRID === $this;
-=======
-        return $this === self::GRID;
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     }
 
     public function isListLayout(): bool
     {
-<<<<<<< HEAD
         return self::LIST === $this;
-=======
-<<<<<<< HEAD
-        return self::LIST === $this;
-=======
-        return $this === self::LIST;
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     }
 
     /**
@@ -146,22 +88,9 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
      * This method replaces the old debug_backtrace approach with explicit
      * parameter passing for better type safety and testability.
      *
-<<<<<<< HEAD
      * @param array<Column|ColumnGroup|Component> $listColumns Columns for list layout
      * @param array<Column|ColumnGroup|Component> $gridColumns Columns for grid layout
      *
-=======
-<<<<<<< HEAD
-     * @param array<Column|ColumnGroup|Component> $listColumns Columns for list layout
-     * @param array<Column|ColumnGroup|Component> $gridColumns Columns for grid layout
-     *
-=======
-     * @param  array<Column|ColumnGroup|Component>  $listColumns  Columns for list layout
-     * @param  array<Column|ColumnGroup|Component>  $gridColumns  Columns for grid layout
-     * @param  array<Column|ColumnGroup|Component>  $listColumns  Columns for list layout
-     * @param  array<Column|ColumnGroup|Component>  $gridColumns  Columns for grid layout
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
      * @return array<Column|ColumnGroup|Component>
      */
     public function getTableColumns(array $listColumns, array $gridColumns): array
@@ -169,14 +98,7 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
         return $this->isGridLayout() ? $gridColumns : $listColumns;
     }
 
-<<<<<<< HEAD
     /** @return array<string, string> */
-=======
-<<<<<<< HEAD
-    /** @return array<string, string> */
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     public static function getOptions(): array
     {
         return [

@@ -6,10 +6,6 @@ return [
     'fields' => [
         'view' => [
             'label' => 'view',
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
@@ -26,11 +22,4 @@ return [
     'plural_label' => 'Missing Plural label',
     'actions' => [
     ],
-<<<<<<< HEAD
-=======
-=======
-        ],
-    ],
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ];

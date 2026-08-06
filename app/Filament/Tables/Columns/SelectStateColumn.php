@@ -4,36 +4,16 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Tables\Columns;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Filament\Tables\Columns\XotBaseSelectColumn;
 
 class SelectStateColumn extends XotBaseSelectColumn
-<<<<<<< HEAD
-=======
-=======
-use Filament\Tables\Columns\SelectColumn;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Arr;
-use Spatie\ModelStates\HasStatesContract;
-use Spatie\ModelStates\State;
-
-class SelectStateColumn extends SelectColumn
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 {
     protected function setUp(): void
     {
         parent::setUp();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
         $this->options(function (Model $record, mixed $state): array {
             $name = $this->getName();
             if (null === $state) {
@@ -46,34 +26,10 @@ class SelectStateColumn extends SelectColumn
                 $states = \is_array($states) ? $states : [];
 
                 return $this->combineStateOptions($states);
-<<<<<<< HEAD
-=======
-=======
-        //  $this->selectablePlaceholder(false);
-        $this->options(function (Model&HasStatesContract $record, mixed $state): array {
-            $name = $this->getName();
-            if ($state === null) {
-                // Record implements HasStatesContract which provides getDefaultStateFor()
-                $defaultStates = $record->getDefaultStateFor($name);
-                $states = Arr::wrap($defaultStates);
-                /** @var array<int|string, mixed> $states */
-                $states = is_array($states) ? $states : [];
-                $statesValues = array_map(fn ($v) => is_string($v) ? $v : (string) $v, array_values($states));
-                $statesKeys = array_map(fn ($k) => is_string($k) ? $k : (string) $k, array_keys($states));
-                $combined = array_combine($statesKeys, $statesValues);
-
-                /* @var array<int|string, int|string> $result */
-                return $combined ? $combined : [];
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
             }
 
             $states = [];
             try {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
                 if (\is_object($state) && method_exists($state, 'transitionableStates')) {
                     $transitionableStates = $state->transitionableStates();
                     if (is_iterable($transitionableStates)) {
@@ -88,68 +44,24 @@ class SelectStateColumn extends SelectColumn
                 $statesArray = \is_object($fetchedStates) && method_exists($fetchedStates, 'toArray')
                     ? $fetchedStates->toArray()
                     : [];
-<<<<<<< HEAD
-=======
-=======
-                if (is_object($state) && method_exists($state, 'transitionableStates')) {
-                    $transitionableStates = $state->transitionableStates();
-                    if (is_iterable($transitionableStates)) {
-                        $states = is_array($transitionableStates) ? $transitionableStates : iterator_to_array($transitionableStates);
-                    }
-                }
-            } catch (\Exception $e) {
-                // Record implements HasStatesContract which provides getStatesFor()
-                $fetchedStates = $record->getStatesFor($name);
-                $statesArray = $fetchedStates->toArray();
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
                 $states = $statesArray;
             }
 
             /** @var array<int|string, mixed> $states */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
             if (\is_object($state)) {
                 $stateClass = $state::class;
                 if (class_exists($stateClass)) {
                     $stateNameProperty = null;
-<<<<<<< HEAD
-=======
-=======
-            if (is_object($state)) {
-                $stateClass = $state::class;
-                if (class_exists($stateClass)) {
-                    $stateNameProperty = null;
-                    // ✅ Usa Reflection invece di property_exists per maggiore affidabilità
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
                     try {
                         $reflection = new \ReflectionClass($stateClass);
                         if ($reflection->hasProperty('name')) {
                             $nameProperty = $reflection->getStaticPropertyValue('name');
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
                             $stateNameProperty = \is_string($nameProperty) ? $nameProperty : null;
                         }
                     } catch (\ReflectionException) {
                         // Intentionally ignored: fall back to $stateNameProperty === null below.
                     }
                     if (null !== $stateNameProperty) {
-<<<<<<< HEAD
-=======
-=======
-                            $stateNameProperty = is_string($nameProperty) ? $nameProperty : null;
-                        }
-                    } catch (\ReflectionException) {
-                        // Property non esiste, $stateNameProperty rimane null
-                    }
-                    if ($stateNameProperty !== null) {
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
                         $statesValues = array_values($states);
                         /** @var list<int|string> $statesValuesTyped */
                         $statesValuesTyped = $statesValues;
@@ -159,10 +71,6 @@ class SelectStateColumn extends SelectColumn
             }
 
             /** @var array<int|string, mixed> $states */
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
             $statesFiltered = array_filter($states, static function (mixed $item): bool {
                 return \is_string($item) || \is_int($item);
             });
@@ -210,53 +118,4 @@ class SelectStateColumn extends SelectColumn
 
         return $combined ? $combined : [];
     }
-<<<<<<< HEAD
-=======
-=======
-            $statesFiltered = array_filter($states, function (mixed $item): bool {
-                return is_string($item) || is_int($item);
-            });
-
-            /** @var array<int|string> $statesKeys */
-            $statesKeys = array_map(fn ($k) => is_string($k) ? $k : (string) $k, array_keys($statesFiltered));
-            /** @var array<int|string> $statesValues */
-            $statesValues = array_map(fn ($v) => is_string($v) ? $v : (string) $v, array_values($statesFiltered));
-            $combined = array_combine($statesKeys, $statesValues);
-            /** @var array<int|string, int|string> $combinedTyped */
-            $combinedTyped = $combined ? $combined : [];
-
-            /** @var array<int|string> $statesKeys */
-            $statesKeys = array_map(fn ($k) => is_string($k) ? $k : (string) $k, array_keys($statesFiltered));
-            /** @var array<int|string> $statesValues */
-            $statesValues = array_map(fn ($v) => is_string($v) ? $v : (string) $v, array_values($statesFiltered));
-            $combined = array_combine($statesKeys, $statesValues);
-
-            /* @var array<int|string, int|string> $combinedTyped */
-            return $combined ? $combined : [];
-        });
-
-        $this->beforeStateUpdated(function (Model&HasStatesContract $record, mixed $stateRaw): void {
-            // Type narrowing per $state: deve essere State|string
-            if (! is_string($stateRaw) && ! ($stateRaw instanceof State)) {
-                return;
-            }
-
-            $state = is_string($stateRaw) ? $stateRaw : $stateRaw;
-            $message = '';
-
-            if (! isset($record->state) || ! is_object($record->state)) {
-                return;
-            }
-
-            if (! $record->state instanceof State) {
-                return;
-            }
-
-            /** @var State $stateObj */
-            $stateObj = $record->state;
-            $stateObj->transitionTo($state, $message);
-        });
-    }
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 }

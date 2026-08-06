@@ -8,26 +8,6 @@
 >
 > **Soluzione:** Seguire SEMPRE la regola documentata qui sotto e aggiornata anche in README.md e nella root docs/links.md.
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-# Gestione dei Percorsi e degli Asset 
-
-## Collegamenti correlati
-- [README modulo UI](/laravel/Modules/UI/docs/README.md)
-<<<<<<< HEAD
-- [Architettura Modulare](/laravel/Modules/UI/docs/ARCHITECTURE.md)
-=======
-- [Architettura Modulare](/laravel/Modules/UI/docs/architecture.md)
-=======
-# Gestione dei Percorsi e degli Asset
-
-## Collegamenti correlati
-- [README modulo UI](/laravel/Modules/UI/docs/README.md)
-- [Architettura Modulare](/laravel/Modules/UI/docs/ARCHITECTURE.md)
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
 
 ## Percorsi Corretti per gli Asset
@@ -37,15 +17,7 @@
 , è fondamentale rispettare la struttura corretta delle directory per gli asset pubblici:
 
 ```
-<<<<<<< HEAD
 /var/www/html/saluteora/
-=======
-<<<<<<< HEAD
-/var/www/html/saluteora/
-=======
-
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ├── laravel/                 # Applicazione Laravel (codice sorgente)
 │   ├── Modules/             # Moduli dell'applicazione
 │   ├── resources/           # Risorse non compilate
@@ -63,23 +35,6 @@
 
 | Tipo di Asset | ✅ Percorso Corretto | ❌ Percorso Errato |
 |---------------|---------------------|-------------------|
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-| Immagini | `/var/www/html/saluteora/public_html/images/` | `/var/www/html/saluteora/laravel/public/images/` |
-| CSS | `/var/www/html/saluteora/public_html/css/` | `/var/www/html/saluteora/laravel/public/css/` |
-| JavaScript | `/var/www/html/saluteora/public_html/js/` | `/var/www/html/saluteora/laravel/public/js/` |
-| SVG | `/var/www/html/saluteora/public_html/images/` | `/var/www/html/saluteora/laravel/public/images/` |
-<<<<<<< HEAD
-=======
-=======
-| Immagini | `public_html/images/` | `public/images/` |
-| CSS | `public_html/css/` | `public/css/` |
-| JavaScript | `public_html/js/` | `public/js/` |
-| SVG | `public_html/images/` | `public/images/` |
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 
 ## Utilizzo degli Asset nei Componenti Blade
 
@@ -96,15 +51,7 @@ Quando si fa riferimento agli asset nei componenti Blade, utilizzare sempre l'he
 Per garantire una buona esperienza utente, implementare sempre un fallback per le immagini che potrebbero non essere disponibili:
 
 ```php
-<<<<<<< HEAD
 <img 
-=======
-<<<<<<< HEAD
-<img 
-=======
-<img
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     src="{{ asset('images/avatars/default-' . $avatarNumber . '.svg') }}"
     alt="{{ $user->name ?? 'User' }}"
     onerror="this.src='{{ asset('images/default-avatar.svg') }}'"
@@ -118,15 +65,6 @@ Per garantire una buona esperienza utente, implementare sempre un fallback per l
 Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati come componenti Blade in:
 
 ```
-<<<<<<< HEAD
-/var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/
-=======
-<<<<<<< HEAD
-/var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/
-=======
-Themes/One/resources/views/components/ui/
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ```
 
 ### SVG come Asset Pubblici
@@ -134,15 +72,6 @@ Themes/One/resources/views/components/ui/
 Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizionati in:
 
 ```
-<<<<<<< HEAD
-/var/www/html/saluteora/public_html/images/
-=======
-<<<<<<< HEAD
-/var/www/html/saluteora/public_html/images/
-=======
-public_html/images/
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ```
 
 ## Gestione dei Componenti UI
@@ -152,29 +81,11 @@ public_html/images/
 Il componente avatar è implementato in:
 
 ```
-<<<<<<< HEAD
-/var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
-=======
-<<<<<<< HEAD
-/var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
-=======
-Themes/One/resources/views/components/ui/avatar.blade.php
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ```
 
 E utilizza gli avatar SVG dalla directory pubblica:
 
 ```
-<<<<<<< HEAD
-/var/www/html/saluteora/public_html/images/avatars/
-=======
-<<<<<<< HEAD
-/var/www/html/saluteora/public_html/images/avatars/
-=======
-public_html/images/avatars/
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ```
 
 ### Componente Icon
@@ -182,15 +93,6 @@ public_html/images/avatars/
 Il componente icon è implementato in:
 
 ```
-<<<<<<< HEAD
-/var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/icon.blade.php
-=======
-<<<<<<< HEAD
-/var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/icon.blade.php
-=======
-Themes/One/resources/views/components/ui/icon.blade.php
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ```
 
 E include le definizioni SVG direttamente nel componente.
@@ -199,15 +101,6 @@ E include le definizioni SVG direttamente nel componente.
 
 > **IMPORTANTE:** Tutti i componenti Blade UI condivisi (es. logo, button, badge, ecc.) devono essere posizionati esclusivamente in:
 >
-<<<<<<< HEAD
-> `/var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/`
-=======
-<<<<<<< HEAD
-> `/var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/`
-=======
-> `Modules/UI/resources/views/components/ui/`
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 >
 > **MAI** in `resources/views/components/ui/` della root Laravel.
 
@@ -221,25 +114,6 @@ E include le definizioni SVG direttamente nel componente.
 
 **❌ Errato:**
 ```
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-/var/www/html/ptvx/laravel/resources/views/components/ui/logo.blade.php
-```
-**✅ Corretto:**
-```
-/var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/logo.blade.php
-<<<<<<< HEAD
-=======
-=======
-resources/views/components/ui/logo.blade.php
-```
-**✅ Corretto:**
-```
-Modules/UI/resources/views/components/ui/logo.blade.php
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ```
 
 ## Best Practices
@@ -253,15 +127,6 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 
 ## Errori Comuni
 
-<<<<<<< HEAD
-1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/saluteora/laravel/public/` invece di `/var/www/html/saluteora/public_html/`
-=======
-<<<<<<< HEAD
-1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/saluteora/laravel/public/` invece di `/var/www/html/saluteora/public_html/`
-=======
-1. **Utilizzo del percorso Laravel public**: Utilizzare `public/` invece di `public_html/`
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile
 4. **Inconsistenza nei nomi dei file**: Utilizzare convenzioni di naming diverse per file simili

@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 title: "Filament 4 Components Development Guide"
 type: guide
@@ -22,11 +18,6 @@ related:
   - "./file-upload-component.md"
 ---
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 # Filament 4 Components Development Guide
 
 ## Overview

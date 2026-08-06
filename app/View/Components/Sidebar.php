@@ -12,19 +12,9 @@ class Sidebar extends Component
     /**
      * Create a new component instance.
      */
-<<<<<<< HEAD
     public function __construct()
     {
     }
-=======
-<<<<<<< HEAD
-    public function __construct()
-    {
-    }
-=======
-    public function __construct() {}
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 
     public function render(): View
     {

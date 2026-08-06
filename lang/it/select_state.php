@@ -10,14 +10,7 @@ return [
             'help' => 'Stato attuale della selezione',
             'description' => 'Stato selezionabile',
             'helper_text' => '',
-<<<<<<< HEAD
             'tooltip' => '',
-=======
-<<<<<<< HEAD
-            'tooltip' => '',
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
         'message' => [
             'label' => 'Messaggio',
@@ -25,10 +18,6 @@ return [
             'help' => 'Messaggio informativo per la selezione',
             'description' => 'Testo del messaggio',
             'helper_text' => '',
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
             'tooltip' => '',
         ],
     ],
@@ -43,7 +32,7 @@ return [
         ],
         'label' => 'Select State',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
+        'icon' => 'heroicon-o-rectangle-stack',
     ],
     'actions' => [
         'create' => [
@@ -54,11 +43,6 @@ return [
         ],
         'delete' => [
             'label' => 'Elimina Select State',
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
     ],
 ];
