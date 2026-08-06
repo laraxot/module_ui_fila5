@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 title: "Componenti UI - Modulo UI"
 type: concept
@@ -22,24 +18,11 @@ related:
   - "./full-calendar-1.md"
 ---
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 # Componenti UI - Modulo UI
 
 ## Panoramica
 
-<<<<<<< HEAD
 I componenti UI forniscono elementi riutilizzabili e standardizzati per l'interfaccia utente dell'ecosistema PTVX Fila 5.
-=======
-<<<<<<< HEAD
-I componenti UI forniscono elementi riutilizzabili e standardizzati per l'interfaccia utente dell'ecosistema PTVX Fila 5.
-=======
-I componenti UI forniscono elementi riutilizzabili e standardizzati per l'interfaccia utente dell'ecosistema PTVX Fila3 Mono.
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 
 ## 🎯 Principi di Design
 
@@ -213,25 +196,10 @@ return [
 
 ## 🔗 Collegamenti
 
-<<<<<<< HEAD
 - [**README Modulo UI**](../readme.md)
-=======
-<<<<<<< HEAD
-- [**README Modulo UI**](../readme.md)
-=======
-- [**README Modulo UI**](../README.md)
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 - [**Sistema Layout**](../layout/layout-system.md)
 - [**Gestione Asset**](../assets/asset-management.md)
 - [**Personalizzazioni Filament**](../filament/filament-customizations.md)
 
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-*Ultimo aggiornamento: giugno 2025*
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev

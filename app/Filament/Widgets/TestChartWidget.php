@@ -5,21 +5,9 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Widgets;
 
 use Filament\Support\RawJs;
-<<<<<<< HEAD
 use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
 
 final class TestChartWidget extends XotBaseChartWidget
-=======
-<<<<<<< HEAD
-use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
-
-final class TestChartWidget extends XotBaseChartWidget
-=======
-use Filament\Widgets\ChartWidget;
-
-final class TestChartWidget extends ChartWidget
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 {
     public int $qid = 0;
 

@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 title: "Roadmap Modulo UI"
 type: concept
@@ -14,11 +10,6 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
 ---
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ### Versione HEAD
 
 # Roadmap Modulo UI
@@ -175,15 +166,7 @@ related:
 
 ### Collegamenti Interni
 - [Bottlenecks](bottlenecks.md)
-<<<<<<< HEAD
 - [Best Practices](best-practices.md)
-=======
-<<<<<<< HEAD
-- [Best Practices](best-practices.md)
-=======
-- [Best Practices](BEST-PRACTICES.md)
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 - [Testing](testing.md)
 
 ### Versione HEAD
@@ -200,31 +183,14 @@ related:
 - Mantenere coerenza design system
 
 ## Collegamenti
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 - [Documentazione UI](./readme.md)
 - [Guida Sviluppo](./development.md)
 - [Best Practices](./best-practices.md)
 - [Architettura](./architecture.md)
-<<<<<<< HEAD
-=======
-=======
-- [Documentazione UI](./README.md)
-- [Guida Sviluppo](./DEVELOPMENT.md)
-- [Best Practices](./BEST-PRACTICES.md)
-- [Architettura](./ARCHITECTURE.md)
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 
 ## Collegamenti tra versioni di roadmap.md
 * [roadmap.md](bashscripts/docs/roadmap.md)
 * [roadmap.md](docs/roadmap.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 * [roadmap.md](../../../gdpr/docs/roadmap.md)
 * [roadmap.md](../../../notify/docs/roadmap.md)
 * [roadmap.md](../../../xot/docs/roadmap.md)
@@ -239,25 +205,6 @@ related:
 * [roadmap.md](../../../patient/docs/roadmap.md)
 * [roadmap.md](../../../cms/docs/roadmap.md)
 * [roadmap.md](../../../../themes/one/docs/roadmap.md)
-<<<<<<< HEAD
-=======
-=======
-* [roadmap.md](../../../Gdpr/docs/roadmap.md)
-* [roadmap.md](../../../Notify/docs/roadmap.md)
-* [roadmap.md](../../../Xot/docs/roadmap.md)
-* [roadmap.md](../../../Dental/docs/roadmap.md)
-* [roadmap.md](../../../User/docs/roadmap.md)
-* [roadmap.md](../../../UI/docs/roadmap.md)
-* [roadmap.md](../../../Lang/docs/roadmap.md)
-* [roadmap.md](../../../Job/docs/roadmap.md)
-* [roadmap.md](../../../Media/docs/roadmap.md)
-* [roadmap.md](../../../Tenant/docs/roadmap.md)
-* [roadmap.md](../../../Activity/docs/roadmap.md)
-* [roadmap.md](../../../Patient/docs/roadmap.md)
-* [roadmap.md](../../../Cms/docs/roadmap.md)
-* [roadmap.md](../../../../Themes/One/docs/roadmap.md)
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 
 ---
 
@@ -358,15 +305,7 @@ Overall Module Completion: 60%
 
 ### Component System Enhancement [75%]
 - [x] Base Components [docs/roadmap/components_base.md]
-<<<<<<< HEAD
 - [x] Form Components [docs/roadmap/form-components-2.md]
-=======
-<<<<<<< HEAD
-- [x] Form Components [docs/roadmap/form-components-2.md]
-=======
-- [x] Form Components [docs/roadmap/form_components.md]
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 - [ ] Data Display Components [docs/roadmap/data_display.md]
 - [ ] Navigation Components [docs/roadmap/navigation.md]
 - [x] Layout Components [docs/roadmap/layout.md]

@@ -7,18 +7,9 @@ namespace Modules\UI\Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Modules\UI\Models\FieldOption;
 
-<<<<<<< HEAD
 /**
  * @extends Factory<FieldOption>
  */
-=======
-<<<<<<< HEAD
-/**
- * @extends Factory<FieldOption>
- */
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 class FieldOptionFactory extends Factory
 {
     /**

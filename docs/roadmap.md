@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 # UI Module Roadmap
 
 "L'interfaccia è l'essenza: rendere l'esperienza indimenticabile."
@@ -25,35 +21,6 @@ Creare un ecosistema UI "Headless-first" che permetta di cambiare radicalmente i
 ### Fase 3: AI Design (Future)
 - [ ] **AI Theme Generator**: Generazione automatica di palette colori accessibili da un'immagine di brand.
 - [ ] **Dynamic Layout Optimization**: L'AI suggerisce layout migliori in base al tipo di contenuto visualizzato.
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [ ] **Predictive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-- [ ] **Predictive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-- [ ] **forecastive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
-=======
-- [ ] **Predictive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- [ ] **Predictive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
->>>>>>> 990a9de5 (.)
->>>>>>> laraxot/dev
 
 ## ✅ Checklist Qualità
 - [x] PHPStan Level 10.
@@ -62,9 +29,6 @@ Creare un ecosistema UI "Headless-first" che permetta di cambiare radicalmente i
 
 ---
 **Ultimo aggiornamento**: 31 Gennaio 2026
-<<<<<<< HEAD
-=======
-=======
 # Roadmap Modulo UI - Completamento e Miglioramenti
 
 **Data Creazione**: 2026-01-02
@@ -337,5 +301,3 @@ Completare il modulo UI con tutte le funzionalità mancanti, migliorare qualità
 ---
 
 **Filosofia**: UI fornisce componenti riutilizzabili e design system - nessuna business logic, solo presentazione.
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev

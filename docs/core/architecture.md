@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 title: "Architettura Modulo UI"
 type: concept
@@ -14,11 +10,6 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
 ---
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 # Architettura Modulo UI
 
 ## 🏗️ Panoramica Architetturale
@@ -235,30 +226,11 @@ public function boot(): void
 
 ## 🔗 Collegamenti
 
-<<<<<<< HEAD
 - [Best Practices Sistema](../../../../docs/core/best-practices.md)
 - [Convenzioni Sistema](../../../../docs/core/conventions.md)
 - [Template Modulo](../../../../docs/templates/module-template.md)
-=======
-<<<<<<< HEAD
-- [Best Practices Sistema](../../../../docs/core/best-practices.md)
-- [Convenzioni Sistema](../../../../docs/core/conventions.md)
-- [Template Modulo](../../../../docs/templates/module-template.md)
-=======
-- [Best Practices Sistema](../../../docs/core/best-practices.md)
-- [Convenzioni Sistema](../../../docs/core/conventions.md)
-- [Template Modulo](../../../docs/templates/module-template.md)
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 - [PHPStan Guide](../development/phpstan-guide.md)
 
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-**Ultimo aggiornamento:** Gennaio 2025
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 **Versione:** 2.0 - Consolidata DRY + KISS

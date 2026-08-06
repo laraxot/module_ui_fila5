@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 title: "Bugfix: IconColumn Estende Direttamente Filament Column"
 type: concept
@@ -16,11 +12,6 @@ related:
   - "./iconcolumn-view-path-fix.md"
 ---
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 # Bugfix: IconColumn Estende Direttamente Filament Column
 
 **Data Fix**: 11 Novembre 2025

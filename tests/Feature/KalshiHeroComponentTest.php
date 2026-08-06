@@ -2,63 +2,31 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 namespace Modules\UI\Tests\Feature;
 
 use Illuminate\Support\Facades\View;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
-<<<<<<< HEAD
-=======
-=======
-use Illuminate\Support\Facades\View;
-use Tests\TestCase;
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 
 uses(TestCase::class);
 
 beforeEach(function () {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     /* @var \Modules\UI\Tests\TestCase $this */
     if (! View::exists('pub_theme::components.blocks.hero.kalshi-inspired')) {
         Assert::markTestSkipped('pub_theme kalshi hero view is not available in this install.');
     }
 
-<<<<<<< HEAD
-=======
-=======
-    // Ensure we're using the correct theme
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     if (function_exists('config')) {
         config(['app.locale' => 'en']);
     }
 });
 
 test('kalshi inspired hero component renders without errors', function () {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     if (! View::exists('pub_theme::components.blocks.hero.kalshi-inspired')) {
         Assert::markTestSkipped('pub_theme kalshi hero view is not available in this install.');
     }
     $componentData = [
         'title' => 'Test <nome progetto>ion Platform',
-<<<<<<< HEAD
-=======
-=======
-    $componentData = [
-        'title' => 'Test Prediction Platform',
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         'subtitle' => 'Trade on real events with confidence',
         'cta_text' => 'Start Trading',
         'cta_link' => '/markets',
@@ -70,27 +38,11 @@ test('kalshi inspired hero component renders without errors', function () {
 
     $view = View::make('pub_theme::components.blocks.hero.kalshi-inspired', $componentData);
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     $html = $view->render();
     Assert::assertStringContainsString((string) 'Test <nome progetto>ion Platform', (string) $html);
     Assert::assertStringContainsString((string) 'Trade on real events with confidence', (string) $html);
     Assert::assertStringContainsString((string) 'Start Trading', (string) $html);
     Assert::assertStringContainsString((string) 'View Markets', (string) $html);
-<<<<<<< HEAD
-=======
-=======
-    expect($view)->not()->toBeNull();
-
-    $html = $view->render();
-    expect($html)->toContain('Test Prediction Platform');
-    expect($html)->toContain('Trade on real events with confidence');
-    expect($html)->toContain('Start Trading');
-    expect($html)->toContain('View Markets');
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 });
 
 test('kalshi hero shows statistics when enabled', function () {
@@ -99,10 +51,6 @@ test('kalshi hero shows statistics when enabled', function () {
     ]);
 
     $html = $view->render();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     Assert::assertStringContainsString((string) '250+', (string) $html);
     Assert::assertStringContainsString((string) 'Active Markets', (string) $html);
     Assert::assertStringContainsString((string) '50K+', (string) $html);
@@ -111,19 +59,6 @@ test('kalshi hero shows statistics when enabled', function () {
     Assert::assertStringContainsString((string) 'Accuracy Rate', (string) $html);
     Assert::assertStringContainsString((string) '5K+', (string) $html);
     Assert::assertStringContainsString((string) 'Active Traders', (string) $html);
-<<<<<<< HEAD
-=======
-=======
-    expect($html)->toContain('250+');
-    expect($html)->toContain('Active Markets');
-    expect($html)->toContain('50K+');
-    expect($html)->toContain('Total Predictions');
-    expect($html)->toContain('89%');
-    expect($html)->toContain('Accuracy Rate');
-    expect($html)->toContain('5K+');
-    expect($html)->toContain('Active Traders');
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 });
 
 test('kalshi hero hides statistics when disabled', function () {
@@ -132,18 +67,8 @@ test('kalshi hero hides statistics when disabled', function () {
     ]);
 
     $html = $view->render();
-<<<<<<< HEAD
     Assert::assertStringNotContainsString('Active Markets', $html);
     Assert::assertStringNotContainsString('Total <nome progetto>ions', $html);
-=======
-<<<<<<< HEAD
-    Assert::assertStringNotContainsString('Active Markets', $html);
-    Assert::assertStringNotContainsString('Total <nome progetto>ions', $html);
-=======
-    expect($html)->not()->toContain('Active Markets');
-    expect($html)->not()->toContain('Total Predictions');
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 });
 
 test('kalshi hero shows categories when enabled', function () {
@@ -152,10 +77,6 @@ test('kalshi hero shows categories when enabled', function () {
     ]);
 
     $html = $view->render();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     Assert::assertStringContainsString((string) 'Popular Categories', (string) $html);
     Assert::assertStringContainsString((string) 'Politics', (string) $html);
     Assert::assertStringContainsString((string) 'Sports', (string) $html);
@@ -163,18 +84,6 @@ test('kalshi hero shows categories when enabled', function () {
     Assert::assertStringContainsString((string) 'Technology', (string) $html);
     Assert::assertStringContainsString((string) 'Entertainment', (string) $html);
     Assert::assertStringContainsString((string) 'Crypto', (string) $html);
-<<<<<<< HEAD
-=======
-=======
-    expect($html)->toContain('Popular Categories');
-    expect($html)->toContain('Politics');
-    expect($html)->toContain('Sports');
-    expect($html)->toContain('Economics');
-    expect($html)->toContain('Technology');
-    expect($html)->toContain('Entertainment');
-    expect($html)->toContain('Crypto');
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 });
 
 test('kalshi hero hides categories when disabled', function () {
@@ -183,15 +92,7 @@ test('kalshi hero hides categories when disabled', function () {
     ]);
 
     $html = $view->render();
-<<<<<<< HEAD
     Assert::assertStringNotContainsString('Popular Categories', $html);
-=======
-<<<<<<< HEAD
-    Assert::assertStringNotContainsString('Popular Categories', $html);
-=======
-    expect($html)->not()->toContain('Popular Categories');
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 });
 
 test('kalshi hero supports custom props', function () {
@@ -205,92 +106,39 @@ test('kalshi hero supports custom props', function () {
     ]);
 
     $html = $view->render();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     Assert::assertStringContainsString((string) 'Custom Market Title', (string) $html);
     Assert::assertStringContainsString((string) 'Custom trading platform description', (string) $html);
     Assert::assertStringContainsString((string) 'Join Now', (string) $html);
     Assert::assertStringContainsString((string) 'Learn More', (string) $html);
     Assert::assertStringContainsString((string) 'href="/register"', (string) $html);
     Assert::assertStringContainsString((string) 'href="/about"', (string) $html);
-<<<<<<< HEAD
-=======
-=======
-    expect($html)->toContain('Custom Market Title');
-    expect($html)->toContain('Custom trading platform description');
-    expect($html)->toContain('Join Now');
-    expect($html)->toContain('Learn More');
-    expect($html)->toContain('href="/register"');
-    expect($html)->toContain('href="/about"');
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 });
 
 test('kalshi hero has proper css classes and styling', function () {
     $view = View::make('pub_theme::components.blocks.hero.kalshi-inspired');
 
     $html = $view->render();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     Assert::assertStringContainsString((string) 'bg-gradient-to-br from-slate-900', (string) $html);
     Assert::assertStringContainsString((string) 'animate-gradient-x', (string) $html);
     Assert::assertStringContainsString((string) 'bg-grid-pattern', (string) $html);
     Assert::assertStringContainsString((string) 'dark:from-slate-950', (string) $html);
-<<<<<<< HEAD
-=======
-=======
-    expect($html)->toContain('bg-gradient-to-br from-slate-900');
-    expect($html)->toContain('animate-gradient-x');
-    expect($html)->toContain('bg-grid-pattern');
-    expect($html)->toContain('dark:from-slate-950');
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 });
 
 test('kalshi hero includes required css animations', function () {
     $view = View::make('pub_theme::components.blocks.hero.kalshi-inspired');
 
     $html = $view->render();
-<<<<<<< HEAD
     Assert::assertStringContainsString((string) '@keyframes gradient-x', (string) $html);
     Assert::assertStringContainsString((string) '.animate-gradient-x', (string) $html);
     Assert::assertStringContainsString((string) '.bg-grid-pattern', (string) $html);
-=======
-<<<<<<< HEAD
-    Assert::assertStringContainsString((string) '@keyframes gradient-x', (string) $html);
-    Assert::assertStringContainsString((string) '.animate-gradient-x', (string) $html);
-    Assert::assertStringContainsString((string) '.bg-grid-pattern', (string) $html);
-=======
-    expect($html)->toContain('@keyframes gradient-x');
-    expect($html)->toContain('.animate-gradient-x');
-    expect($html)->toContain('.bg-grid-pattern');
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 });
 
 test('kalshi hero has responsive design classes', function () {
     $view = View::make('pub_theme::components.blocks.hero.kalshi-inspired');
 
     $html = $view->render();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     Assert::assertStringContainsString((string) 'md:text-7xl lg:text-8xl', (string) $html);
     Assert::assertStringContainsString((string) 'grid-cols-2 md:grid-cols-4', (string) $html);
     Assert::assertStringContainsString((string) 'md:grid-cols-3 lg:grid-cols-6', (string) $html);
     Assert::assertStringContainsString((string) 'flex-col sm:flex-row', (string) $html);
-<<<<<<< HEAD
-=======
-=======
-    expect($html)->toContain('md:text-7xl lg:text-8xl');
-    expect($html)->toContain('grid-cols-2 md:grid-cols-4');
-    expect($html)->toContain('md:grid-cols-3 lg:grid-cols-6');
-    expect($html)->toContain('flex-col sm:flex-row');
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 });

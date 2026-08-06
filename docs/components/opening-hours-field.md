@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 title: "OpeningHoursField Component"
 type: concept
@@ -22,11 +18,6 @@ related:
   - "./full-calendar-1.md"
 ---
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 # OpeningHoursField Component
 
 ## Introduzione
@@ -443,10 +434,3 @@ class Doctor extends BaseModel
 
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-*Ultimo aggiornamento: Dicembre 2024*
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev

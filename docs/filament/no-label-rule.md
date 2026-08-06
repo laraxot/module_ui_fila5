@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 title: "REGOLA CRITICA: MAI ->label() nei Componenti Filament UI"
 type: rule
@@ -22,11 +18,6 @@ related:
   - "./filament-4-migration-sumy.md"
 ---
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 # REGOLA CRITICA: MAI ->label() nei Componenti Filament UI
 
 ## Principio Fondamentale per il Modulo UI
@@ -127,23 +118,8 @@ find Modules/UI/ -name "*.php" -exec grep -l "->label(" {} \;
 **"Se vedi ->label() in qualsiasi componente del modulo UI, ELIMINALO IMMEDIATAMENTE."**
 
 ## Collegamenti
-<<<<<<< HEAD
 - [../../../../docs/filament-no-label-rule.md](../../../../../docs/filament-no-label-rule.md)
-=======
-<<<<<<< HEAD
-- [../../../../docs/filament-no-label-rule.md](../../../../../docs/filament-no-label-rule.md)
-=======
-- [../../../docs/filament-no-label-rule.md](../../../../docs/filament-no-label-rule.md)
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 - [automatic-translations.md](automatic-translations.md)
 - [label-translation-system.md](label-translation-system.md)
 - [best-practices.md](best-practices.md)
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-*Ultimo aggiornamento: 2025-08-04*
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev

@@ -391,39 +391,7 @@ class ClosedDays extends Field { /* Focused on day selection */ }
 
 #### **3.1 AI-Enhanced Components**
 - Smart form validation with ML suggestions
-<<<<<<< HEAD
-<<<<<<< HEAD
 - Auto-complete components with intelligent predictions
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-- Auto-complete components with intelligent predictions
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-- Auto-complete components with intelligent forecasts
-=======
-- Auto-complete components with intelligent predictions
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- Auto-complete components with intelligent predictions
->>>>>>> 990a9de5 (.)
-=======
-- Auto-complete components with intelligent predictions
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 - Dynamic form generation based on data patterns
 - Voice-controlled component interactions
 
@@ -767,39 +735,7 @@ class UserCalendarWidget extends XotBaseWidget
 
 ## 🎯 MODULE OVERVIEW
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-Il modulo **UI** è il sistema di componenti e design system della piattaforma progetto corrente, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
-=======
-Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
->>>>>>> 990a9de5 (.)
-=======
-Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 
 ### 🏗️ Architettura Modulo
 ```

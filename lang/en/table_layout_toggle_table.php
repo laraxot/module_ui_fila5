@@ -23,10 +23,6 @@ return [
             'placeholder' => 'Select layout type',
             'tooltip' => 'Choose between list and grid view',
             'help' => 'Choose the most suitable layout type to display the data',
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
             'helper_text' => '',
             'description' => '',
         ],
@@ -40,11 +36,4 @@ return [
     ],
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label',
-<<<<<<< HEAD
-=======
-=======
-        ],
-    ],
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ];

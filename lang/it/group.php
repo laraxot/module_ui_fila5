@@ -6,10 +6,6 @@ return [
     'fields' => [
         'lavoratore' => [
             'label' => 'lavoratore',
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
@@ -68,7 +64,7 @@ return [
         ],
         'label' => 'Group',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
+        'icon' => 'heroicon-o-rectangle-stack',
     ],
     'actions' => [
         'create' => [
@@ -79,32 +75,6 @@ return [
         ],
         'delete' => [
             'label' => 'Elimina Group',
-<<<<<<< HEAD
-=======
-=======
-        ],
-        'qua' => [
-            'label' => 'qua',
-        ],
-        'rep' => [
-            'label' => 'rep',
-        ],
-        'periodo' => [
-            'label' => 'periodo',
-        ],
-        'info' => [
-            'label' => 'info',
-        ],
-        'diritto' => [
-            'label' => 'diritto',
-        ],
-        'motivo/invio email' => [
-            'label' => 'motivo/invio email',
-        ],
-        'motivo/invio_email' => [
-            'label' => 'motivo/invio_email',
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         ],
     ],
 ];

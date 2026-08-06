@@ -256,15 +256,7 @@ use Modules\UI\Layouts\AdminLayout;
 class Dashboard extends Component
 {
     protected static string $layout = AdminLayout::class;
-<<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     protected function getLayoutData(): array
     {
         return [
@@ -290,30 +282,14 @@ class Dashboard extends Component
 }
 ```
 
-<<<<<<< HEAD
 #### PrintLayout 
-=======
-<<<<<<< HEAD
-#### PrintLayout 
-=======
-#### PrintLayout
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ```php
 use Modules\UI\Layouts\PrintLayout;
 
 class StampaPratica extends Component
 {
     protected static string $layout = PrintLayout::class;
-<<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     protected function getLayoutData(): array
     {
         return [
@@ -356,15 +332,7 @@ return [
             'warning' => '#f59e0b',
             'danger' => '#ef4444',
         ],
-<<<<<<< HEAD
         
-=======
-<<<<<<< HEAD
-        
-=======
-
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         // Tipografia
         'typography' => [
             'fonts' => [
@@ -377,44 +345,20 @@ return [
                 'xl' => '1.25rem',
             ],
         ],
-<<<<<<< HEAD
         
-=======
-<<<<<<< HEAD
-        
-=======
-
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         // Spaziature
         'spacing' => [
             'base' => '1rem',
             'lg' => '1.5rem',
             'xl' => '2rem',
         ],
-<<<<<<< HEAD
         
-=======
-<<<<<<< HEAD
-        
-=======
-
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         // Bordi
         'border' => [
             'radius' => '0.375rem',
             'width' => '1px',
         ],
-<<<<<<< HEAD
         
-=======
-<<<<<<< HEAD
-        
-=======
-
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
         // Ombre
         'shadows' => [
             'sm' => '0 1px 2px 0 rgb(0 0 0 / 0.05)',
@@ -519,12 +463,4 @@ AdminLayout::make()
 4. **Manutenibilità**
    - Documentare personalizzazioni
    - Seguire convenzioni di naming
-<<<<<<< HEAD
-   - Centralizzare configurazioni 
-=======
-<<<<<<< HEAD
-   - Centralizzare configurazioni 
-=======
    - Centralizzare configurazioni
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev

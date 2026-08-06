@@ -4,25 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 use Modules\Xot\Filament\Forms\Components\XotBaseRadio;
 
 class RadioBadge extends XotBaseRadio
-<<<<<<< HEAD
-=======
-=======
-use Filament\Forms\Components\Radio;
-use Filament\Support\Contracts\HasColor;
-use Filament\Support\Contracts\HasIcon;
-
-class RadioBadge extends Radio
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 {
     protected string $view = 'ui::filament.forms.components.radio-badge';
 
@@ -65,40 +51,18 @@ class RadioBadge extends Radio
         $enum = $this->getEnumValue($value);
         if ($enum instanceof HasColor) {
             $color = $enum->getColor();
-<<<<<<< HEAD
             if (null === $color) {
-=======
-<<<<<<< HEAD
-            if (null === $color) {
-=======
-            if ($color === null) {
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
                 return $this->selectedColor;
             }
 
             if (is_array($color)) {
                 $first = reset($color);
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
                 return is_string($first) && '' !== $first ? $first : $this->selectedColor;
             }
 
             // PHPStan L10: $color è già verificato come non-array e non-null, quindi è string
             if ('' !== $color) {
-<<<<<<< HEAD
-=======
-=======
-                return is_string($first) && $first !== '' ? $first : $this->selectedColor;
-            }
-
-            // PHPStan L10: $color è già verificato come non-array e non-null, quindi è string
-            if ($color !== '') {
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
                 return $color;
             }
 
@@ -111,29 +75,13 @@ class RadioBadge extends Radio
     public function getIconForOption(string $value): ?string
     {
         $enum = $this->getEnumValue($value);
-<<<<<<< HEAD
         if (! $enum instanceof HasIcon) {
-=======
-<<<<<<< HEAD
-        if (! $enum instanceof HasIcon) {
-=======
-        if (! ($enum instanceof HasIcon)) {
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
             return null;
         }
         $icon = $enum->getIcon();
 
         // getIcon() può restituire Htmlable|string|null, ma dobbiamo restituire solo string|null
-<<<<<<< HEAD
         if (null === $icon) {
-=======
-<<<<<<< HEAD
-        if (null === $icon) {
-=======
-        if ($icon === null) {
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
             return null;
         }
 

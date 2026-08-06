@@ -5,19 +5,10 @@ declare(strict_types=1);
 ?>
 @props(['user' => auth()->user()])
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 @php
     $localeProfileUrl = \Mcamara\LaravelLocalization\Facades\LaravelLocalization::localizeURL('/profile');
 @endphp
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 <div class="relative">
     <x-filament::dropdown>
         <x-slot name="trigger">
@@ -41,15 +32,7 @@ declare(strict_types=1);
         </x-slot>
 
         @auth
-<<<<<<< HEAD
             <x-filament::dropdown.list.item tag="a" :href="$localeProfileUrl" icon="heroicon-o-user">
-=======
-<<<<<<< HEAD
-            <x-filament::dropdown.list.item tag="a" :href="$localeProfileUrl" icon="heroicon-o-user">
-=======
-            <x-filament::dropdown.list.item tag="a" :href="route('profile')" icon="heroicon-o-user">
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
                 {{ __('ui::navigation.profile') }}
             </x-filament::dropdown.list.item>
 

@@ -11,10 +11,6 @@ return [
     'fields' => [
         'openFilters' => [
             'label' => 'openFilters',
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
@@ -67,31 +63,6 @@ return [
         ],
         'label' => 'Collection',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
+        'icon' => 'heroicon-o-rectangle-stack',
     ],
-<<<<<<< HEAD
-=======
-=======
-        ],
-        'applyFilters' => [
-            'label' => 'applyFilters',
-        ],
-        'resetFilters' => [
-            'label' => 'resetFilters',
-        ],
-        'reorderRecords' => [
-            'label' => 'reorderRecords',
-        ],
-        'toggleColumns' => [
-            'label' => 'toggleColumns',
-        ],
-        'name' => [
-            'label' => 'name',
-        ],
-        'values-list' => [
-            'label' => 'values-list',
-        ],
-    ],
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ];

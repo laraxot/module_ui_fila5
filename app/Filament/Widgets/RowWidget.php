@@ -9,10 +9,6 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Widgets;
 
 use Filament\Schemas\Components\Component;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 abstract class RowWidget extends XotBaseSchemaWidget
@@ -21,17 +17,6 @@ abstract class RowWidget extends XotBaseSchemaWidget
     public array $grid = [];
 
     /** @var array<int, class-string> */
-<<<<<<< HEAD
-=======
-=======
-use Modules\Xot\Filament\Widgets\XotBaseWidget;
-
-abstract class RowWidget extends XotBaseWidget
-{
-    public array $grid = [];
-
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     public array $widgets = [];
 
     protected string $view = 'ui::filament.widgets.row';

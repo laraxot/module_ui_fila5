@@ -228,11 +228,7 @@ $socialLinks = [
 php artisan view:clear
 
 # Test in browser
-<<<<<<< HEAD
 # http://app.local/it/tests/homepage
-=======
-# http://fixcity.local/it/tests/homepage
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 ```
 
 ### Verify SVG Files

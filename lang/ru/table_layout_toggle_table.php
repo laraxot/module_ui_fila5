@@ -23,10 +23,6 @@ return [
             'placeholder' => 'Выбрать тип макета',
             'tooltip' => 'Выбрать между списочным и сеточным представлением',
             'help' => 'Выберите подходящий тип макета для отображения данных',
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
             'helper_text' => '',
             'description' => '',
         ],
@@ -40,11 +36,4 @@ return [
     ],
     'label' => 'Missing Label',
     'plural_label' => 'Missing Plural label',
-<<<<<<< HEAD
-=======
-=======
-        ],
-    ],
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ];

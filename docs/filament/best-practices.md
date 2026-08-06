@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 ---
 title: "Best Practices Filament"
 type: concept
@@ -22,11 +18,6 @@ related:
   - "./file-upload-component.md"
 ---
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 # Best Practices Filament
 
 ## Regole fondamentali

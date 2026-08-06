@@ -13,10 +13,6 @@ return [
         'title' => 'Test',
         'body' => 'Ceci est un message de test pour l\'enregistrement avec l\'ID: :id',
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     'navigation' => [
         'label' => 'Missing Navigation Label',
         'plural_label' => 'Missing Navigation Plural Label',
@@ -30,9 +26,4 @@ return [
     ],
     'actions' => [
     ],
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ];

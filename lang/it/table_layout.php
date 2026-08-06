@@ -3,10 +3,6 @@
 declare(strict_types=1);
 
 return [
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     'values' => [
         'list' => [
             'label' => 'Elenco',
@@ -21,11 +17,6 @@ return [
             'description' => 'Griglia',
         ],
     ],
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
     'actions' => [
         'toggle' => [
             'label' => 'Cambia Layout',
@@ -33,10 +24,6 @@ return [
             'helper_text' => 'Cambia il tipo di visualizzazione',
         ],
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     'label' => 'Table Layout',
     'plural_label' => 'Table Layout (Plurale)',
     'navigation' => [
@@ -48,7 +35,7 @@ return [
         ],
         'label' => 'Table Layout',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
+        'icon' => 'heroicon-o-rectangle-stack',
     ],
     'fields' => [
         'id' => [
@@ -70,9 +57,4 @@ return [
             'description' => '',
         ],
     ],
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6e44b7d5 (.)
->>>>>>> laraxot/dev
 ];
