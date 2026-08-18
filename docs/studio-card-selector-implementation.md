@@ -6,6 +6,8 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 ## 🏗️ **Architettura Component**
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -299,6 +301,7 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 ### Classe PHP
 ```php
 // Modules/UI/app/Forms/Components/StudioCardSelector.php
@@ -316,6 +319,8 @@ class StudioCardSelector extends Field
 {
     protected string $view = 'ui::forms.components.studio-card-selector';
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -324,10 +329,13 @@ class StudioCardSelector extends Field
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
     
     // Dati studios da visualizzare
     protected Collection|Closure|null $studios = null;
     
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -350,12 +358,16 @@ class StudioCardSelector extends Field
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     // Personalizzazioni UI
     protected bool $showDistance = false;
     protected bool $showSpecializations = false;
     protected bool $showPhone = false;
     protected string $cardLayout = 'default'; // 'default', 'compact', 'detailed'
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -374,6 +386,7 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     // Configure studios data source
     public function studios(Collection|Closure $studios): static
     {
@@ -381,6 +394,9 @@ class StudioCardSelector extends Field
         return $this;
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -399,6 +415,7 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     // Enable/disable features
     public function showDistance(bool $show = true): static
     {
@@ -406,6 +423,9 @@ class StudioCardSelector extends Field
         return $this;
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -424,12 +444,16 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function showSpecializations(bool $show = true): static
     {
         $this->showSpecializations = $show;
         return $this;
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -448,12 +472,16 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function showPhone(bool $show = true): static
     {
         $this->showPhone = $show;
         return $this;
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -472,6 +500,7 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     // Layout variants
     public function compact(): static
     {
@@ -479,6 +508,9 @@ class StudioCardSelector extends Field
         return $this;
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -497,12 +529,16 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function detailed(): static
     {
         $this->cardLayout = 'detailed';
         return $this;
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -521,12 +557,16 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     // Data getters for view
     public function getStudios(): Collection
     {
         return $this->evaluate($this->studios) ?? collect();
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -545,11 +585,15 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function getCardLayout(): string
     {
         return $this->cardLayout;
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -568,11 +612,15 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function shouldShowDistance(): bool
     {
         return $this->showDistance;
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -591,11 +639,15 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function shouldShowSpecializations(): bool
     {
         return $this->showSpecializations;
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -614,6 +666,7 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function shouldShowPhone(): bool
     {
         return $this->showPhone;
@@ -643,6 +696,8 @@ private function getStudiosForLocation(Get $get): Collection
 {
     $cap = $get('cap');
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     $province = $get('province');
@@ -654,6 +709,7 @@ private function getStudiosForLocation(Get $get): Collection
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
     $province = $get('province'); 
     $region = $get('region');
     
@@ -664,6 +720,8 @@ private function getStudiosForLocation(Get $get): Collection
     return \Modules\<nome progetto>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
     $province = $get('province');
     $region = $get('region');
     
@@ -690,6 +748,7 @@ private function getStudiosForLocation(Get $get): Collection
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
         $q->where('postal_code', $cap)
           ->where('administrative_area_level_3', $province)
           ->where('administrative_area_level_2', $region);
@@ -742,6 +801,8 @@ return [
 - [Form Components Guide](./form-components.md)
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -750,6 +811,7 @@ return [
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
 ### Modulo <nome progetto>
 - [Widget Analysis](../<nome progetto>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
 
@@ -757,6 +819,9 @@ return [
 
 **Component Status**: 📋 Documented - Ready for Implementation  
 **Reusability**: 🔄 High - Cross-module compatible  
+<<<<<<< HEAD
+**Last Updated**: January 2025
+=======
 <<<<<<< HEAD
 **Last Updated**: January 2025
 =======
@@ -791,3 +856,4 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

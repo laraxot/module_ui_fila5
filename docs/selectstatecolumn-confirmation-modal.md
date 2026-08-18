@@ -1,4 +1,6 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -7,12 +9,16 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
 ---
 module: theme
 topic: selectstatecolumn_confirmation_modal
 canonical: ../../../Themes/docs/shared-components/selectstatecolumn-confirmation-modal-1.md
 ---
 
+<<<<<<< HEAD
+See canonical documentation: ../../../Themes/docs/shared-components/selectstatecolumn-confirmation-modal-1.md
+=======
 <<<<<<< HEAD
 See canonical documentation: ../../../Themes/docs/shared-components/selectstatecolumn-confirmation-modal-1.md
 =======
@@ -139,3 +145,4 @@ See canonical documentation: ../../../Themes/docs/shared-components/selectstatec
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

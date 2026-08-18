@@ -3,6 +3,11 @@ module: theme
 topic: AGENTS
 canonical: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
 <<<<<<< HEAD
+---
+
+See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -41,3 +46,4 @@ See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Mo
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

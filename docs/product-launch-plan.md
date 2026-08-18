@@ -1,4 +1,6 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 # UI - Product Launch Plan
@@ -53,6 +55,7 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
 # UI Module - Product Launch Plan
 
 **Module:** UI  
@@ -135,6 +138,9 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 
 ---
 
+<<<<<<< HEAD
+*Last Updated: March 12, 2026*
+=======
 <<<<<<< HEAD
 *Last Updated: March 12, 2026*
 =======
@@ -246,3 +252,4 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

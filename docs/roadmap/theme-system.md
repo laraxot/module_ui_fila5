@@ -1,4 +1,6 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -16,8 +18,8 @@ tags: [theme, system]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "theme-system sistema di theming"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index.md"
@@ -41,6 +43,7 @@ related:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 # Sistema di Theming
 
 ## 📊 Stato Implementazione
@@ -78,6 +81,8 @@ class ThemeRegistry
     /** @var array<string, Theme> */
     protected array $themes = [];
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -86,10 +91,13 @@ class ThemeRegistry
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
     
     /** @var array<string, array<string, mixed>> */
     protected array $overrides = [];
     
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -112,11 +120,15 @@ class ThemeRegistry
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function register(Theme $theme): void
     {
         $this->themes[$theme->getName()] = $theme;
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -135,6 +147,7 @@ class ThemeRegistry
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function override(string $tenant, array $config): void
     {
         $this->overrides[$tenant] = $config;
@@ -152,6 +165,9 @@ class Theme
         protected ?string $parent = null
     ) {}
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -170,11 +186,15 @@ class Theme
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function resolve(string $path, $default = null)
     {
         return Arr::get($this->config, $path, $default);
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -193,6 +213,7 @@ class Theme
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function extend(array $overrides): self
     {
         return new self(
@@ -360,6 +381,9 @@ class ThemeCompiler
 2. Implementare CSS-in-JS
 3. Ottimizzare caching
 4. Aggiungere theme builder
+<<<<<<< HEAD
+5. Migliorare documentazione 
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -622,3 +646,4 @@ class ThemeCompiler
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

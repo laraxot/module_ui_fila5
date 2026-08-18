@@ -58,6 +58,9 @@ Report locale (2026-07-17). Metodo: `phpstan analyse` livello max, `phpmd` (rule
 | Rating | - | - | 7% | 0 |
 | Seo | - | - | 100% | 0 |
 <<<<<<< HEAD
+| TechPlanner | - | - | 2% | 0 |
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 | TechPlanner | - | - | 2% | 0 |
@@ -72,6 +75,7 @@ Report locale (2026-07-17). Metodo: `phpstan analyse` livello max, `phpmd` (rule
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 | Tenant | - | - | 75% | 6 |
 | UI | - | - | 34% | 4 |
 | User | - | - | 23% | 4 |

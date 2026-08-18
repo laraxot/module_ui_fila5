@@ -7,20 +7,24 @@ issues:
   - https://github.com/provtv/module_ui_fila5/issues
 discussions:
 <<<<<<< HEAD
+  - https://github.com/laraxot/base_fixcity_fila5/discussions/273
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
-  - https://github.com/laraxot/base_fixcity_fila5/discussions/273
+  - https://github.com/laraxot/<nome repitory>/discussions/273
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
   - https://github.com/laraxot/platform/discussions/273
 =======
-  - https://github.com/laraxot/base_fixcity_fila5/discussions/273
+  - https://github.com/laraxot/<nome repitory>/discussions/273
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 ---
 
 # Second brain (modulo UI)
@@ -34,6 +38,8 @@ Stub **puntatore**: disciplina globale nella wiki di progetto; qui solo lezioni 
 - Git forward-only: [../../../../docs/wiki/rules/git-forward-only.md](../../../../docs/wiki/rules/git-forward-only.md)
 - Board multi-agente: [../../../../docs/chat/multi-agent-standing-coordination.md](../../../../docs/chat/multi-agent-standing-coordination.md)
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - Push dual-remote / LFS: [./wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md)
@@ -50,13 +56,18 @@ Stub **puntatore**: disciplina globale nella wiki di progetto; qui solo lezioni 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 
 ## Lezioni operative
 
 | Problema | Perché | Fix |
 |----------|--------|-----|
 | Bootstrap `unexpected <<` | Marker merge in PHP UI | Studiare `git show` e riscrivere (no restore) |
+<<<<<<< HEAD
 | Adapter Map/Location in UI | Dominio geografico, non design system | Eliminare; in `base_ptvx_fila5` Geo non c’è |
+| `phpstan.path` su `Services/Map/Null*` | File rimossi; cache stale | Wipe cache swarm; non ricreare Map in UI |
+=======
+| Adapter Map/Location in UI | Dominio geografico, non design system | Eliminare; in `<nome repository>` Geo non c’è |
 | `phpstan.path` su `Services/Map/Null*` | File rimossi; cache stale | Wipe cache swarm; non ricreare Map in UI |
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75,6 +86,7 @@ Stub **puntatore**: disciplina globale nella wiki di progetto; qui solo lezioni 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 
 **Map/Geo:** Nel modulo `UI` non devono esserci elementi legati a mappe, geolocalizzazione o dati geografici. Le cartelle `app/Adapters/Location` e `app/Adapters/Map` sono state rimosse. Il modulo `Geo` è un ambito separato e non fa parte di questo progetto; il modulo `UI` deve mantenere responsabilità esclusiva sui componenti UI generici.
 

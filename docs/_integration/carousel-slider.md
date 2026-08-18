@@ -1,4 +1,6 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -16,8 +18,8 @@ tags: [carousel, slider]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "carousel-slider carousel_slider"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
   - "./api.md"
   - "./blocks.md"
@@ -41,12 +43,16 @@ related:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 # carousel_slider
 
 <!-- Contenuto migrato da _docs/carousel_slider.txt -->
 
 https://www.embla-carousel.com/examples/predefined/
 
+<<<<<<< HEAD
+
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83,11 +89,15 @@ https://www.embla-carousel.com/examples/predefined/
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 
 https://tw-elements.com/docs/standard/components/carousel/
 
 https://keen-slider.io/examples
 
+<<<<<<< HEAD
+https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -107,3 +117,4 @@ https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

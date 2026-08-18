@@ -10,6 +10,8 @@ related:
   - "./git-merge-conflict-inventory-1.md"
   - "./git-merge-conflict-inventory.md"
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   - "./git-push-lfs-missing-objects.md"
@@ -26,6 +28,7 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
   - "./phpstan-fixes-1.md"
   - "./phpstan-fixes.md"
 ---

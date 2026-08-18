@@ -1,6 +1,8 @@
 # REGOLA CRITICA: MAI usare ->label()
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -191,6 +193,7 @@ rules:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 ## Data: 2025-01-06
 
 ## ❌ ERRORE CRITICO - NON FARE MAI QUESTO
@@ -304,6 +307,9 @@ TextColumn::make('status')
 ## Checklist Pre-Implementazione
 
 <<<<<<< HEAD
+### Prima di usare qualsiasi componente Filament:
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -320,6 +326,7 @@ TextColumn::make('status')
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 ### Prima di usare un componente Filament:
 - [ ] Implementare traduzioni in `lang/it/fields.php`
 - [ ] Implementare traduzioni in `lang/en/fields.php`
@@ -332,6 +339,10 @@ TextColumn::make('status')
 - [ ] Controllare che tutte le traduzioni siano implementate
 - [ ] Testare che le traduzioni funzionino correttamente
 <<<<<<< HEAD
+Prima di usare qualsiasi componente Filament:
+
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -350,6 +361,7 @@ Prima di usare qualsiasi componente Filament:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 - [ ] Implementare traduzioni in `lang/it/fields.php`
 - [ ] Implementare traduzioni in `lang/en/fields.php`
 - [ ] Implementare traduzioni in `lang/de/fields.php`
@@ -361,6 +373,9 @@ Prima di usare qualsiasi componente Filament:
 - [ ] Controllare che tutte le traduzioni siano implementate
 - [ ] Testare che le traduzioni funzionino correttamente
 <<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -377,6 +392,7 @@ Prima di usare qualsiasi componente Filament:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 ## Verifica Automatica
 
 ### PHPStan Rule (Ideale)
@@ -416,6 +432,8 @@ rules:
 ## Memoria Permanente
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 **RICORDA SEMPRE**:
@@ -437,6 +455,7 @@ rules:
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
 **RICORDA SEMPRE**: 
 **RICORDA SEMPRE**:
 - MAI usare `->label()` in componenti Filament
@@ -451,6 +470,9 @@ rules:
 <<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06*
 =======
+<<<<<<< HEAD
+*Ultimo aggiornamento: 2025-01-06*
+=======
 **RICORDA SEMPRE**:
 - MAI usare `->label()` in componenti Filament
 - SEMPRE implementare traduzioni nei file `lang/`
@@ -467,3 +489,4 @@ rules:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

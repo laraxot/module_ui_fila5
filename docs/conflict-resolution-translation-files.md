@@ -29,6 +29,11 @@ return [
 // BRANCH (sintassi vecchia)
 return array (
 <<<<<<< HEAD
+    'actions' => 
+    array (
+        'create' => 
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     'actions' =>
@@ -55,6 +60,7 @@ return array (
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
         array (
             'label' => 'create',
         ),
@@ -91,6 +97,11 @@ declare(strict_types=1);
 
 return array (
 <<<<<<< HEAD
+  'actions' => 
+  array (
+    'create' => 
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   'actions' =>
@@ -117,6 +128,7 @@ return array (
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     array (
       'label' => 'create',
     ),
@@ -198,6 +210,9 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 - **Modulo**: UI
 - **File**: Multipli file di traduzione
 - **Tipo Conflitto**: Dichiarazione PHP e sintassi array
+<<<<<<< HEAD
+- **Scelta**: Versione HEAD (con strict types e sintassi moderna)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -378,3 +393,4 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

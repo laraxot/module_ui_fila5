@@ -55,6 +55,9 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 - [Linee Guida PHPStan Livello 10](../../Xot/docs/PHPStan/LEVEL10_LINEE_GUIDA.md)
 - [Conflitti Merge Risolti](./CONFLITTI_MERGE_RISOLTI.md)
 <<<<<<< HEAD
+- [README del Modulo UI](./README.md)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [README del Modulo UI](./README.md)
@@ -138,3 +141,4 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

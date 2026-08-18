@@ -14,6 +14,8 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 
 <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-1 p-1">
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -22,10 +24,13 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
     <x-filament::icon-button 
         icon="heroicon-m-plus" 
         wire:click="prova({{ $record->id }})" 
         label="Test Azione" 
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -48,6 +53,7 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     />
 </div>
 ```
@@ -107,6 +113,8 @@ public function prova($recordId): void
 ### Nel Template
 ```blade
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -115,10 +123,13 @@ public function prova($recordId): void
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
 <x-filament::icon-button 
     icon="heroicon-m-plus" 
     wire:click="prova({{ $record->id }})" 
     label="Test Azione" 
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -141,6 +152,7 @@ public function prova($recordId): void
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 />
 ```
 
@@ -176,6 +188,9 @@ public function transitionState($recordId, $stateClass): void
     $record = $this->modelClass::find($recordId);
     $record->state->transitionTo($stateClass);
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -194,6 +209,7 @@ public function transitionState($recordId, $stateClass): void
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     \Filament\Notifications\Notification::make()
         ->title('Transizione Completata')
         ->success()
@@ -204,6 +220,8 @@ public function transitionState($recordId, $stateClass): void
 ### 2. Aggiungere il pulsante nel template
 ```blade
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -212,10 +230,13 @@ public function transitionState($recordId, $stateClass): void
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
 <x-filament::icon-button 
     icon="heroicon-o-arrow-right" 
     wire:click="transitionState({{ $record->id }}, '{{ $stateClass }}')" 
     label="Cambia Stato" 
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -238,6 +259,7 @@ public function transitionState($recordId, $stateClass): void
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 />
 ```
 
@@ -253,6 +275,9 @@ La soluzione semplice è la migliore perché:
 
 **Last Updated**: June 2025
 **Version**: 2.3
+<<<<<<< HEAD
+**Compatibility**: Filament 4.x, Laravel 10.x 
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -427,3 +452,4 @@ La soluzione semplice è la migliore perché:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

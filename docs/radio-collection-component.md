@@ -97,6 +97,9 @@ If radio buttons are not selecting properly, check:
 
 - Initial documentation
 <<<<<<< HEAD
+- Added troubleshooting section for selection issues
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - Added troubleshooting section for selection issues
@@ -222,3 +225,4 @@ If radio buttons are not selecting properly, check:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

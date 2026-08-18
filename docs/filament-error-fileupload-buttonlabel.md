@@ -18,6 +18,8 @@ Il metodo `buttonLabel()` **NON esiste** sul componente `Filament\Forms\Componen
 ## Collegamenti
 - [Errore e best practice modulo Patient](../../Patient/docs/filament-error-fileupload-buttonlabel.md)
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -65,6 +67,7 @@ Il metodo `buttonLabel()` **NON esiste** sul componente `Filament\Forms\Componen
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 - Consultare sempre la [documentazione ufficiale Filament](https://filamentphp.com/project_docs/3.x/forms/fields/file-upload) prima di usare metodi non standard.
 - Seguire la tabella di compatibilità dei metodi nei componenti Filament (vedi doc modulo Patient e Xot).
 
@@ -80,6 +83,9 @@ Il metodo `buttonLabel()` **NON esiste** sul componente `Filament\Forms\Componen
 Questa doc va sempre consultata e linkata in ogni review e sviluppo che coinvolga FileUpload. Ogni modulo coinvolto deve avere un collegamento bidirezionale a questa doc.
 
 ## Collegamenti tra versioni di filament-error-fileupload-buttonlabel.md
+<<<<<<< HEAD
+* [filament-error-fileupload-buttonlabel.md](../../Patient/docs/filament-error-fileupload-buttonlabel.md)
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -103,3 +109,4 @@ Questa doc va sempre consultata e linkata in ogni review e sviluppo che coinvolg
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 # Auto-generated forbidden paths — do not edit manually
 # Reason: root cleanup policy (see docs/wiki/rules/root-cleanup-policy.md)
 
@@ -251,6 +253,7 @@ phpstan*
 /_docs
 /docs/archive
 /docs/legacy
+>>>>>>> 92912795 (.)
 
 !.env.example
 # --- Backup / old files ---
@@ -422,6 +425,8 @@ yarn.lock
 
 # Root quality tool configs forbidden in module root
 phpmd*
+<<<<<<< HEAD
+=======
 /.ai*
 /_bmad
 /bashscripts
@@ -430,3 +435,4 @@ phpmd*
 /docs/legacy
 rector.php
 .php-cs-fixer.cache
+>>>>>>> 92912795 (.)

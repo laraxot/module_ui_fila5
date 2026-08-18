@@ -8,6 +8,9 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 ### DataTable
 ```blade
 <<<<<<< HEAD
+<x-ui::datatable 
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <x-ui::datatable
@@ -26,6 +29,7 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     :columns="[
         ['name' => 'id', 'label' => 'ID', 'sortable' => true],
         ['name' => 'name', 'label' => 'Nome', 'sortable' => true],
@@ -44,6 +48,9 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 ### StatusBadge
 ```blade
 <<<<<<< HEAD
+<x-ui::status-badge 
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <x-ui::status-badge
@@ -62,6 +69,7 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     :status="$user->status"
     :options="[
         'active' => ['label' => 'Attivo', 'color' => 'success'],
@@ -74,6 +82,9 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 ### ActionButtons
 ```blade
 <<<<<<< HEAD
+<x-ui::action-buttons 
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <x-ui::action-buttons
@@ -92,6 +103,7 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     :actions="[
         [
             'type' => 'view',
@@ -149,6 +161,9 @@ class UserTable extends Component
     public $search = '';
     public $perPage = 10;
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -167,6 +182,7 @@ class UserTable extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function sortBy($field)
     {
         if ($this->sortField === $field) {
@@ -177,6 +193,9 @@ class UserTable extends Component
         }
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -195,6 +214,7 @@ class UserTable extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function render()
     {
         $users = User::query()
@@ -205,6 +225,9 @@ class UserTable extends Component
             ->orderBy($this->sortField, $this->sortDirection)
             ->paginate($this->perPage);
 <<<<<<< HEAD
+            
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -223,6 +246,7 @@ class UserTable extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
         return view('livewire.user-table', compact('users'));
     }
 }
@@ -247,6 +271,9 @@ class UserTable extends Component
 - [Componenti Form](./form-components.md)
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
+<<<<<<< HEAD
+- [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -418,3 +445,4 @@ class UserTable extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

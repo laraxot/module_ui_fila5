@@ -34,6 +34,9 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
         </x-filament::button>
     </x-slot>
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -52,6 +55,7 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     <x-filament::dropdown.list>
         <x-filament::dropdown.list.item>
             {{ __('View') }}
@@ -197,6 +201,8 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
   <?php
   use function Livewire\Volt\{state, mount};
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -205,11 +211,14 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
   
   state([
       'property' => null,
   ]);
   
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -233,11 +242,15 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
   $action = function () {
       // Logica dell'azione
   };
   ?>
 <<<<<<< HEAD
+  
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -256,6 +269,7 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
   <div>
       <!-- Template del componente -->
   </div>
@@ -270,6 +284,8 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
   use function Laravel\Folio\{middleware, name};
   use function Livewire\Volt\{state, mount};
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -278,10 +294,13 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
   
   middleware(['auth']);
   name('page.name');
   
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -304,11 +323,15 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
   state([
       'property' => null,
   ]);
   ?>
 <<<<<<< HEAD
+  
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -327,6 +350,7 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
   <x-layouts.main>
       <!-- Contenuto della pagina -->
   </x-layouts.main>
@@ -373,6 +397,9 @@ $logout = function () {
         <!-- Default state -->
     @endif
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -391,6 +418,7 @@ $logout = function () {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     @if($isLoggingOut)
         <x-filament::loading-indicator />
     @endif
@@ -439,6 +467,9 @@ $logout = function () {
             <!-- Default state -->
         @endif
 <<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -457,6 +488,7 @@ $logout = function () {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
         @if($isLoggingOut)
             <x-filament::loading-indicator />
         @endif
@@ -606,6 +638,9 @@ $logout = function () {
 - ✅ Utilizzare i componenti appropriati
 - ✅ Seguire la struttura standard
 - ✅ Gestire correttamente le traduzioni
+<<<<<<< HEAD
+- ✅ Testare in entrambi gli stati
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1089,3 +1124,4 @@ $logout = function () {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

@@ -68,6 +68,9 @@ protected function getInfolistSchema(): array
                     ]),
             ]),
 <<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -86,6 +89,7 @@ protected function getInfolistSchema(): array
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
         'dettagli_account' => Section::make('Dettagli Account')
             ->schema([
                 // Altri componenti...
@@ -217,6 +221,9 @@ return [
 
 ## Conclusione
 
+<<<<<<< HEAD
+Seguendo queste linee guida, garantirai un'implementazione corretta e coerente del metodo `getInfolistSchema()`, facilitando la manutenzione del codice e prevenendo errori di tipo rilevati da PHPStan. Ricorda: usa **sempre** chiavi di tipo stringa per gli array restituiti. 
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -446,3 +453,4 @@ Seguendo queste linee guida, garantirai un'implementazione corretta e coerente d
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

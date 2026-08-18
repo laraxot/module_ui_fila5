@@ -14,6 +14,8 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 ❌ **Non Corretto**:
 ```md
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -88,6 +90,7 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 
 ❌ **Non Corretto**:
 ```md
+>>>>>>> 92912795 (.)
 # Design System il progetto
 Il design system di il progetto definisce...
 ```
@@ -117,6 +120,10 @@ I nomi specifici dell'applicazione devono apparire solo:
 
 ## Vedi Anche
 <<<<<<< HEAD
+- [Documentazione Principale](../../../docs/README.md)
+- [Standard di Codice](../../../docs/standards/coding-standards.md)
+=======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - [Documentazione Principale](../../../project_docs/README.md)
@@ -131,13 +138,18 @@ I nomi specifici dell'applicazione devono apparire solo:
 - [Best Practices](../../../project_docs/standards/best-practices.md)
 >>>>>>> laraxot/dev
 =======
+>>>>>>> 92912795 (.)
 - [Best Practices](../../../docs/standards/best-practices.md) 
 ||||||| parent of 9a84589 (.):docs/archived/naming-rules-1.md
 - [Documentazione Principale](../../../docs/README.md)
 - [Standard di Codice](../../../docs/standards/coding-standards.md)
+<<<<<<< HEAD
+- [Best Practices](../../../docs/standards/best-practices.md)
+=======
 - [Best Practices](../../../docs/standards/best-practices.md)
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

@@ -21,6 +21,9 @@ class ListUsers extends ListRecords
 {
     protected TableLayoutEnum $layout = TableLayoutEnum::LIST;
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -39,6 +42,7 @@ class ListUsers extends ListRecords
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function table(Table $table): Table
     {
         return $table
@@ -221,6 +225,9 @@ class ListUsers extends ListRecords
 {
     protected TableLayoutEnum $layout;
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -239,11 +246,15 @@ class ListUsers extends ListRecords
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function mount(): void
     {
         $this->layout = TableLayoutEnum::init();
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -262,6 +273,7 @@ class ListUsers extends ListRecords
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     protected function getHeaderActions(): array
     {
         return [
@@ -299,6 +311,9 @@ protected function getColumnsForLayout(): array
         Tables\Columns\TextColumn::make('created_at')->dateTime(),
     ];
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -317,6 +332,7 @@ protected function getColumnsForLayout(): array
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     $gridColumns = [
         Tables\Columns\Layout\Stack::make([
             Tables\Columns\TextColumn::make('name')->weight(FontWeight::Bold),
@@ -324,6 +340,9 @@ protected function getColumnsForLayout(): array
         ]),
     ];
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -342,6 +361,7 @@ protected function getColumnsForLayout(): array
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     return $this->layout->getTableColumns($listColumns, $gridColumns);
 }
 ```
@@ -385,6 +405,9 @@ class TableLayoutEnumTest extends TestCase
         $this->assertEquals(TableLayoutEnum::LIST, TableLayoutEnum::init());
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -403,6 +426,7 @@ class TableLayoutEnumTest extends TestCase
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function test_toggle_switches_layout(): void
     {
         $layout = TableLayoutEnum::LIST;
@@ -441,6 +465,9 @@ class TableLayoutEnumTest extends TestCase
 - [Translation Standards](../../../docs/translation_standards.md)
 - [Filament Best Practices](../../../docs/filament_best_practices.md)
 
+<<<<<<< HEAD
+*Ultimo aggiornamento: 2025-01-06* 
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -804,3 +831,4 @@ class TableLayoutEnumTest extends TestCase
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

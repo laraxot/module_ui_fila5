@@ -3,8 +3,8 @@ title: "Bugfix: GroupColumn Architectural Violations"
 type: concept
 tags: [groupcolumn, architectural, violations]
 created: 2026-07-14
-updated: 2026-07-14
-qmd: "groupcolumn-architectural-violations bugfix: groupcolumn architectural violations"
+updated: 2026-08-18
+qmd: "groupcolumn-architectural-violations bugfix phpstan class.notFound cache"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -14,8 +14,18 @@ related:
 
 # Bugfix: GroupColumn Architectural Violations
 
-**Data Fix**: 11 Novembre 2025
-**Status**: ✅ RISOLTO
+**Status**: codice su `XotBaseColumn`. Chi lo usa: operatori che cercano schede per matr/cognome (colonne raggruppate lavoratore/periodo).
+
+## PHPStan — marker Git e cache
+
+`GroupColumn` con `<<<<<<<` non viene parsato: PHPStan non registra la classe. I consumer (Ptv `WorkerColumn`, tabelle Performance/Progressioni) diventano `class.notFound` a cascata. Dopo un merge:
+
+```bash
+cd laravel && ./vendor/bin/phpstan clear-result-cache
+cd laravel && ./vendor/bin/phpstan analyse Modules --memory-limit=-1 --no-progress
+```
+
+Non è un bug delle colonne: è un file che non compila. Il Job da non rompere è la ricerca in tabella.
 
 ## Problema
 
