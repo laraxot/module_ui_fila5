@@ -55,25 +55,7 @@
 1. La documentazione dei componenti UI deve essere in `Modules/UI/docs/`
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
-<<<<<<< HEAD
-<<<<<<< HEAD
-4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti 
-=======
-4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
->>>>>>> laraxot/dev
->>>>>>> rnare la documentazione quando vengono aggiunti nuovi componenti 
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -84,17 +66,6 @@
 * [filament-components.md](../../Cms/docs/best-practices/filament-components.md)
 * [filament-components.md](../../Cms/docs/filament-components.md)
 * [filament-components.md](../../../docs/rules/filament-components.md)
-<<<<<<< HEAD
-<<<<<<< .merge_file_nG4REF
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_1gTcg0
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Componenti Filament UI
 
 ## Collegamenti Bidirezionali
@@ -156,37 +127,15 @@
 3. Seguire le convenzioni di naming del progetto
 4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
 ## Collegamenti tra versioni di filament-components.md
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
 * [filament-components.md](../../User/project_docs/best-practices/filament-components.md)
 * [filament-components.md](../../Cms/project_docs/best-practices/filament-components.md)
 * [filament-components.md](../../Cms/project_docs/filament-components.md)
 * [filament-components.md](../../../project_docs/rules/filament-components.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 ||||||| parent of 9a84589 (.):docs/archived/filament-components-1.md
 * [filament-components.md](../../../docs/rules/filament-components.md)
-=======
-<<<<<<< HEAD
-
 ||||||| parent of 9a84589 (.):docs/archived/filament-components-1.md
 * [filament-components.md](../../../docs/rules/filament-components.md)
-=======
->>>>>>> laraxot/dev
->>>>>>> 
-||||||| parent of 9a84589 (.):docs/archived/filament-components-1.md
-* [filament-components.md](../../../docs/rules/filament-components.md)
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

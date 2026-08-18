@@ -436,23 +436,8 @@ IconService
 - **Root README**: [UI Module](./README.md)
 - **Framework Base**: [Xot Architecture Patterns](../../Xot/docs/architecture-patterns.md)
 - **Disabled Components**: [disabled-components.md](./disabled-components.md)
-<<<<<<< .merge_file_qRrEXg
-- **Architecture Overview**: [ARCHITECTURE.md](./ARCHITECTURE.md)
-- **Index**: [INDEX.md](./INDEX.md)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **Architecture Overview**: [ARCHITECTURE.md](./ARCHITECTURE.md)
-- **Index**: [INDEX.md](./INDEX.md)
-=======
-- **Architecture Overview**: [architecture.md](./architecture.md)
-- **Index**: [index.md](./index.md)
->>>>>>> 92912795 (.)
-=======
-- **Architecture Overview**: [ARCHITECTURE.md](./ARCHITECTURE.md)
-- **Index**: [INDEX.md](./INDEX.md)
->>>>>>> laraxot/dev
->>>>>>> .merge_file_oS6GpW
+- **Architecture Overview**: [ARCHITECTURE.md](./architecture.md)
+- **Index**: [INDEX.md](./index.md)
 - **Design System**: [DESIGN_COMUNI_IMPLEMENTATION.md](./DESIGN_COMUNI_IMPLEMENTATION.md)
 - **Icon Integration**: [BRANDS_ICONS_INTEGRATION.md](./BRANDS_ICONS_INTEGRATION.md)
 

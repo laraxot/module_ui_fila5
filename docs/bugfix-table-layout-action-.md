@@ -140,21 +140,7 @@ php -l Modules/UI/app/Filament/Actions/Table/TableLayoutToggleTableAction.php
 php artisan tinker --execute="TableLayoutToggleTableAction::make('test');"
 
 # Testare l'URL che causava l'errore
-<<<<<<< HEAD
-<<<<<<< HEAD
-curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
 curl -I http://127.0.0.1:8001/modulo questionari/admin/gaia/survey-pdfs
->>>>>>> http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -163,12 +149,9 @@ curl -I http://127.0.0.1:8001/modulo questionari/admin/gaia/survey-pdfs
 
 ### Risultati Test
 
-<<<<<<< HEAD
 ✅ **Sintassi PHP**: Nessun errore di sintassi  
 ✅ **Istanziazione**: Classe istanziabile correttamente  
 ✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)  
-=======
->>>>>>> laraxot/dev
 ✅ **PHPStan**: Nessun errore di linting rilevato
 
 ## Impatto
@@ -194,11 +177,8 @@ curl -I http://127.0.0.1:8001/modulo questionari/admin/gaia/survey-pdfs
 
 ---
 
-<<<<<<< HEAD
 **Data**: 27 Gennaio 2025  
 **Modulo**: UI  
 **Tipo**: Bug Fix  
 **Priorità**: Alta  
-=======
->>>>>>> laraxot/dev
 **Stato**: ✅ Risolto

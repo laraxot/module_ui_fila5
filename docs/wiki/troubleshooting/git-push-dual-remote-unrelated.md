@@ -9,23 +9,8 @@ qmd: "UI module_ui_fila5 push unrelated histories laraxot provtv loop automatico
 related:
   - "../../multi-org-sync-laraxot-provtv.md"
   - "../../git-multi-org-sync-handoff.md"
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
   - "./git-push-lfs-missing-objects.md"
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
   - "./git-push-lfs-missing-objects.md"
->>>>>>> laraxot/dev
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-=======
->>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
   - "./git-push-lfs-missing-objects.md"
@@ -61,23 +46,8 @@ A differenza del caso User (diagnosticato una volta, poi fermo), su UI il ri-mer
 ## Relazione con altri playbook
 
 - Stesso pattern, altro modulo: [User git-push-dual-remote-unrelated](../../../../User/docs/wiki/troubleshooting/git-push-dual-remote-unrelated.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 - LFS / `--no-thin`: [UI git-push-lfs-missing-objects](./git-push-lfs-missing-objects.md)
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
 - LFS / `--no-thin`: [UI git-push-lfs-missing-objects](./git-push-lfs-missing-objects.md)
->>>>>>> laraxot/dev
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-=======
->>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 - LFS / `--no-thin`: [UI git-push-lfs-missing-objects](./git-push-lfs-missing-objects.md)

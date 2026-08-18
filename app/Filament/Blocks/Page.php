@@ -9,11 +9,7 @@ use Modules\Xot\Filament\Blocks\XotBaseBlock;
 
 final class Page extends XotBaseBlock
 {
-<<<<<<< .merge_file_lspkXn
-/**
-=======
     /**
->>>>>>> .merge_file_VklC3L
      * @return array<int, \Filament\Schemas\Components\Component>
      */
     public static function getFormSchema(): array

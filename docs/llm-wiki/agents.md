@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< .merge_file_5ytL9S
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_bXwVFF
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
 ---
 title: "Agent instructions"
 type: reference
@@ -23,16 +12,6 @@ related:
   - "./log.md"
 ---
 
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
 # UI {{TYPE^}} LLM Wiki Agent Instructions
 
 > **Module/Theme:** UI
@@ -171,21 +150,8 @@ Related:
 ## Related Documentation
 
 - [Project Wiki Integration](../../docs/wiki/README.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
-- [Module Documentation](../README.md)
-=======
 - [Project Wiki Agent Instructions](../../docs/wiki/agents.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 - [Module Documentation](../README.md)
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
-- [Module Documentation](../README.md)
->>>>>>> e Documentation](../README.md)
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
@@ -194,9 +160,6 @@ Related:
 - [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
 - [Module Documentation](../README.md)
 >>>>>>> laraxot/dev
-<<<<<<< .merge_file_5ytL9S
-=======
->>>>>>> 92912795 (.)
 =======
 - [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
 - [Module Documentation](../README.md)

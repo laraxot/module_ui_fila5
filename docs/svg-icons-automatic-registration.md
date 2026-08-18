@@ -91,19 +91,7 @@ ls -la laravel/Modules/UI/resources/svg/brands/
 php artisan view:clear
 
 # Test in browser
-<<<<<<< HEAD
-<<<<<<< HEAD
-# http://fixcity.local/it/tests/homepage
-=======
-<<<<<<< HEAD
 # http://app.local/it/tests/homepage
-=======
-# http://<nome progetto>.local/it/tests/homepage
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
-=======
-# http://app.local/it/tests/homepage
->>>>>>> laraxot/dev
 ```
 
 ## 📊 Icon Inventory

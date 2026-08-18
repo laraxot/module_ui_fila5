@@ -81,25 +81,6 @@ Questo è intenzionale: UI è un **consumer** di Xot, non un base layer.
 Ogni componente è progettato per essere riutilizzato in più moduli senza duplicazione:
 
 ```php
-<<<<<<< HEAD
-<<<<<<< HEAD
-// InlineDatePicker - Usato in TechPlanner, Employee, Cms
-// LocationSelector - Usato in TechPlanner, Employee, Geo
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-// InlineDatePicker - Usato in TechPlanner, Employee, Cms
-// LocationSelector - Usato in TechPlanner, Employee, Geo
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
-// InlineDatePicker - Usato in modulo operativo, Employee, Cms
-// LocationSelector - Usato in modulo operativo, Employee, Geo
->>>>>>> eDatePicker - Usato in TechPlanner, Employee, Cms
-// LocationSelector - Usato in TechPlanner, Employee, Geo
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -416,21 +397,7 @@ namespace Modules\UI\...;
 Altri moduli consumano componenti UI:
 
 ```php
-<<<<<<< HEAD
-<<<<<<< HEAD
-// In TechPlanner/Filament/Resources/DeviceResource.php
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-// In TechPlanner/Filament/Resources/DeviceResource.php
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
 // In modulo operativo/Filament/Resources/DeviceResource.php
->>>>>>> chPlanner/Filament/Resources/DeviceResource.php
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

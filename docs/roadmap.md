@@ -21,21 +21,8 @@ Creare un ecosistema UI "Headless-first" che permetta di cambiare radicalmente i
 ### Fase 3: AI Design (Future)
 - [ ] **AI Theme Generator**: Generazione automatica di palette colori accessibili da un'immagine di brand.
 - [ ] **Dynamic Layout Optimization**: L'AI suggerisce layout migliori in base al tipo di contenuto visualizzato.
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [ ] **Predictive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-- [ ] **Predictive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
 - [ ] **forecastive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
->>>>>>> Predictive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -48,8 +35,6 @@ Creare un ecosistema UI "Headless-first" che permetta di cambiare radicalmente i
 
 ---
 **Ultimo aggiornamento**: 31 Gennaio 2026
-<<<<<<< HEAD
-=======
 # Roadmap Modulo UI - Completamento e Miglioramenti
 
 **Data Creazione**: 2026-01-02
@@ -322,4 +307,3 @@ Completare il modulo UI con tutte le funzionalità mancanti, migliorare qualità
 ---
 
 **Filosofia**: UI fornisce componenti riutilizzabili e design system - nessuna business logic, solo presentazione.
->>>>>>> laraxot/dev

@@ -1,45 +1,19 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Componenti di Navigazione 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Componenti di Navigazione 
-=======
->>>>>>> 
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Componenti di Navigazione 
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 # Componenti di Navigazione
-
 ## Indice
 - [Panoramica](#panoramica)
 - [Componenti Disponibili](#componenti-disponibili)
 - [Gestione dell'Autenticazione](#gestione-dellautenticazione)
 - [Localizzazione](#localizzazione)
 - [Best Practices](#best-practices)
-
 ## Panoramica
-
 Questo documento descrive l'utilizzo corretto dei componenti di navigazione , con particolare attenzione alla gestione condizionale dell'autenticazione e alla localizzazione.
-
 ## Componenti Disponibili
-
 ### Componenti di Navigazione Principali
-
 - `<x-blocks.navigation.user-dropdown>` - Dropdown utente (visualizzato solo per utenti autenticati)
 - `<x-blocks.navigation.login-buttons>` - Pulsanti di login/registrazione (visualizzati solo per utenti non autenticati)
 - `<x-blocks.navigation.language-switcher>` - Selettore della lingua
-
 ## Gestione dell'Autenticazione
-
 Il componente `user-dropdown` è progettato per gestire automaticamente la visualizzazione condizionale in base allo stato di autenticazione dell'utente:
-
 ```blade
 @props([
     'alignment' => 'right',
@@ -50,7 +24,6 @@ Il componente `user-dropdown` è progettato per gestire automaticamente la visua
   </div>
 </nav>
 ```
-
 ## 📑 Breadcrumbs
 ```html
 <nav aria-label="breadcrumb">
@@ -58,25 +31,16 @@ Il componente `user-dropdown` è progettato per gestire automaticamente la visua
     <li class="breadcrumb-item">
       <a href="/">Home</a>
     </li>
-    <li class="breadcrumb-item">
       <a href="/categoria">Categoria</a>
-    </li>
     <li class="breadcrumb-item active" aria-current="page">
       Pagina Corrente
-    </li>
   </ol>
-</nav>
-```
-
 ## 📱 Menu Mobile
-```html
 <div class="mobile-menu">
   <div class="mobile-menu-header">
     <button class="close-menu" aria-label="Chiudi menu">
       <i class="fas fa-times"></i>
     </button>
-  </div>
-
   <nav class="mobile-menu-nav">
     <ul>
       <li class="active">
@@ -84,95 +48,60 @@ Il componente `user-dropdown` è progettato per gestire automaticamente la visua
           <i class="fas fa-home"></i>
           Home
         </a>
-      </li>
       <li class="has-submenu">
         <a href="#">
           <i class="fas fa-cog"></i>
           Impostazioni
-        </a>
         <ul class="submenu">
           <li><a href="#">Profilo</a></li>
           <li><a href="#">Sicurezza</a></li>
         </ul>
-      </li>
-    </ul>
   </nav>
 </div>
-```
-
 ## 🎯 Paginazione
-```html
 <nav aria-label="Paginazione">
   <ul class="pagination">
     <li class="page-item disabled">
       <span class="page-link">Precedente</span>
-    </li>
     <li class="page-item active">
       <span class="page-link">1</span>
-    </li>
     <li class="page-item">
       <a class="page-link" href="#">2</a>
-    </li>
-    <li class="page-item">
       <a class="page-link" href="#">3</a>
-    </li>
-    <li class="page-item">
       <a class="page-link" href="#">Successivo</a>
-    </li>
   </ul>
-</nav>
-```
-
 ## 🔗 Tabs
-```html
 <div class="tabs">
   <ul class="nav nav-tabs" role="tablist">
     <li class="nav-item">
       <a class="nav-link active" data-bs-toggle="tab" href="#tab1">
         Tab 1
       </a>
-    </li>
-    <li class="nav-item">
       <a class="nav-link" data-bs-toggle="tab" href="#tab2">
         Tab 2
-      </a>
-    </li>
-  </ul>
-
   <div class="tab-content">
     <div class="tab-pane active" id="tab1">
       Contenuto Tab 1
     </div>
     <div class="tab-pane" id="tab2">
       Contenuto Tab 2
-    </div>
-  </div>
-</div>
-```
-
 ## 🎨 Stili e Comportamenti
-
 ### Dropdown
 ```scss
 .dropdown {
   position: relative;
-
   &-menu {
     position: absolute;
     top: 100%;
     left: 0;
     z-index: 1000;
     display: none;
-
     &.show {
       display: block;
     }
   }
 }
-```
-
 ### Mobile Menu
-```scss
 .mobile-menu {
   position: fixed;
   top: 0;
@@ -183,26 +112,12 @@ Il componente `user-dropdown` è progettato per gestire automaticamente la visua
   z-index: 1000;
   transform: translateX(-100%);
   transition: transform 0.3s ease;
-
   &.show {
     transform: translateX(0);
-  }
-}
-```
-
 ## 🔗 Collegamenti
 - [Componenti Base](./base-components.md)
 - [Layout](./layout-components.md)
 - [Accessibilità](./standards/accessibility.md)
-# Componenti di Navigazione
-=======
-# Componenti di Navigazione 
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-=======
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -272,25 +187,8 @@ I componenti di navigazione devono utilizzare sempre le funzioni di localizzazio
 
 ### Traduzioni Necessarie
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/saluteora/laravel/lang/{locale}/auth.php`:
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-Assicurarsi che le seguenti chiavi di traduzione siano definite in `[project-root]/laravel/lang/{locale}/auth.php`:
-=======
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
->>>>>>> laraxot/dev
->>>>>>> rsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/saluteora/laravel/lang/{locale}/auth.php`:
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -337,28 +235,11 @@ return [
 4. **Componenti Filament**:
    - Utilizzare i componenti Filament per icone e avatar: `<x-filament::icon>`, `<x-filament::avatar>`
    - Utilizzare i componenti Filament per i dropdown quando possibile
-<<<<<<< HEAD
-<<<<<<< HEAD
    - Utilizzare i separatori corretti nei dropdown (div con bordo, non componenti inesistenti)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-   - Utilizzare i separatori corretti nei dropdown (div con bordo, non componenti inesistenti)
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
-   - Utilizzare i separatori corretti nei dropdown (div con bordo, non componenti inesistenti)
->>>>>>> lizzare i separatori corretti nei dropdown (div con bordo, non componenti inesistenti)
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
    - Utilizzare i separatori corretti nei dropdown (div con bordo, non componenti inesistenti)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_JIXbtE
-=======
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

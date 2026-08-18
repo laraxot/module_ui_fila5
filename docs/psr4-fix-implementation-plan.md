@@ -28,21 +28,7 @@ Tutti in `Modules/UI/app/Filament/Forms/Components/`:
 
 ### Import Statements da Verificare
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-**TechPlanner/app/Filament/Resources/ClientResource.php**:
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-**TechPlanner/app/Filament/Resources/ClientResource.php**:
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
 **modulo operativo/app/Filament/Resources/ClientResource.php**:
->>>>>>> anner/app/Filament/Resources/ClientResource.php**:
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -162,19 +148,7 @@ Aggiornare:
 - [x] `Modules/UI/docs/psr4-namespace-violations.md` - Aggiungere sezione "Fix Implemented"
 - [x] `Modules/UI/docs/psr4-fix-implementation-plan.md` - Questo file (status update)
 - [ ] `Modules/UI/docs/README.md` - Aggiungere reference a PSR-4 fix
-<<<<<<< .merge_file_hUvia6
 - [ ] `Modules/UI/docs/CHANGELOG.md` - Log del fix
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [ ] `Modules/UI/docs/CHANGELOG.md` - Log del fix
-=======
-- [ ] `Modules/UI/docs/changelog.md` - Log del fix
->>>>>>> 92912795 (.)
-=======
-- [ ] `Modules/UI/docs/CHANGELOG.md` - Log del fix
->>>>>>> laraxot/dev
->>>>>>> .merge_file_hX4YSV
 
 ### Step 8: Git Commit
 

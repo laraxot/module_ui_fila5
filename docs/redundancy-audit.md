@@ -5,21 +5,8 @@ module: UI
 tags: [redundancy, components, config, design-system]
 created: 2026-05-21
 related:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - https://github.com/laraxot/base_fixcity_fila5/issues/89
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
   - https://github.com/laraxot/<nome repitory>/issues/89
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
   - https://github.com/laraxot/platform/issues/89
->>>>>>> s://github.com/laraxot/<nome repitory>/issues/89
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

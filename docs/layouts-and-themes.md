@@ -53,18 +53,6 @@ Per correggere questa situazione, è necessario:
 4. Rigenerare l'autoloader
 
 ```bash
-<<<<<<< HEAD
-<<<<<<< .merge_file_uJGCrr
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> .merge_file_9B9YFh
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 # Creare la directory Themes se non esiste
 mkdir -p /laravel/Themes
@@ -533,16 +521,6 @@ Per correggere questa situazione, è necessario:
 4. Rigenerare l'autoloader
 
 ```bash
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
 # Creare la directory Themes se non esiste
 mkdir -p /laravel/Themes
 
@@ -683,30 +661,7 @@ Nel file GetAllIconsAction.php è stato risolto un conflitto mantenendo una sola
 
 Questa scelta evita ambiguità e possibili errori runtime nella gestione delle icone dinamiche.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
-Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
-Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
-=======
-Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
-Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
-Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
->>>>>>> laraxot/dev
->>>>>>> agionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
@@ -718,29 +673,7 @@ In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale
 
 **Decisione architetturale**: In simple.blade.php è stato rimosso un blocco di codice commentato relativo a header e menu di esempio, mantenendo solo la struttura effettivamente utilizzata e correggendo il titolo. Questa scelta assicura chiarezza, manutenibilità e coerenza visiva.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
-Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
-Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
-=======
-Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
-Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
-Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../project_docs/risoluzione_conflitti_git.md).
->>>>>>> laraxot/dev
->>>>>>> riori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -798,17 +731,7 @@ use Modules\UI\Layouts\AdminLayout;
 class Dashboard extends Component
 {
     protected static string $layout = AdminLayout::class;
-<<<<<<< .merge_file_uJGCrr
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> .merge_file_9B9YFh
     
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_uJGCrr
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
@@ -840,25 +763,7 @@ class Dashboard extends Component
 }
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-#### PrintLayout 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 #### PrintLayout
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-#### PrintLayout 
-=======
-#### PrintLayout
->>>>>>> laraxot/dev
->>>>>>> ntLayout 
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -869,29 +774,7 @@ use Modules\UI\Layouts\PrintLayout;
 class StampaPratica extends Component
 {
     protected static string $layout = PrintLayout::class;
-<<<<<<< .merge_file_uJGCrr
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> .merge_file_9B9YFh
-    
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_uJGCrr
-=======
->>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9B9YFh
@@ -937,17 +820,7 @@ return [
             'warning' => '#f59e0b',
             'danger' => '#ef4444',
         ],
-<<<<<<< .merge_file_uJGCrr
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> .merge_file_9B9YFh
         
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_uJGCrr
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
@@ -966,29 +839,7 @@ return [
                 'xl' => '1.25rem',
             ],
         ],
-<<<<<<< .merge_file_uJGCrr
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
         
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> .merge_file_9B9YFh
-        
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_uJGCrr
-=======
->>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9B9YFh
@@ -998,29 +849,7 @@ return [
             'lg' => '1.5rem',
             'xl' => '2rem',
         ],
-<<<<<<< .merge_file_uJGCrr
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
         
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> .merge_file_9B9YFh
-        
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_uJGCrr
-=======
->>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9B9YFh
@@ -1029,29 +858,7 @@ return [
             'radius' => '0.375rem',
             'width' => '1px',
         ],
-<<<<<<< .merge_file_uJGCrr
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
         
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> .merge_file_9B9YFh
-        
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_uJGCrr
-=======
->>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
@@ -1160,25 +967,7 @@ AdminLayout::make()
 4. **Manutenibilità**
    - Documentare personalizzazioni
    - Seguire convenzioni di naming
-<<<<<<< HEAD
-<<<<<<< HEAD
-   - Centralizzare configurazioni 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
    - Centralizzare configurazioni
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-   - Centralizzare configurazioni 
-=======
-   - Centralizzare configurazioni
->>>>>>> laraxot/dev
->>>>>>> tralizzare configurazioni 
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

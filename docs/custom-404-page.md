@@ -30,17 +30,7 @@ This starter template includes a custom __404 Not Found__ error page, located at
 Depending on where your site is hosted, you may need to configure your server to use the custom 404 page. For more details, visit the [Jigsaw documentation about configuring a custom 404 page.](https://jigsaw.tighten.co/docs/custom-404-page/)
 ### Versione HEAD
 
-<<<<<<< .merge_file_dENG8l
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> .merge_file_72FYea
 
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_dENG8l
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
@@ -53,18 +43,6 @@ Depending on where your site is hosted, you may need to configure your server to
 * [custom-404-page.md](../../../UI/docs/custom-404-page.md)
 * [custom-404-page.md](../../../Tenant/docs/it/custom-404-page.md)
 * [custom-404-page.md](../../../Cms/docs/custom-404-page.md)
-<<<<<<< HEAD
-<<<<<<< .merge_file_dENG8l
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> .merge_file_72FYea
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 ### Versione Incoming
 
@@ -106,53 +84,21 @@ Depending on where your site is hosted, you may need to configure your server to
 ### Versione HEAD
 
 ## Collegamenti tra versioni di custom-404-page.md
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
 * [custom-404-page.md](../../../Gdpr/project_docs/custom-404-page.md)
 * [custom-404-page.md](../../../Xot/project_docs/custom-404-page.md)
 * [custom-404-page.md](../../../UI/project_docs/custom-404-page.md)
 * [custom-404-page.md](../../../Tenant/project_docs/it/custom-404-page.md)
 * [custom-404-page.md](../../../Cms/project_docs/custom-404-page.md)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 ### Versione Incoming
 
 ---
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
 
 ### Versione Incoming
 
 
-<<<<<<< HEAD
 ---
-=======
-<<<<<<< HEAD
----
-=======
 ### Versione Incoming
-
----
->>>>>>> laraxot/dev
->>>>>>> 
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 ### Versione Incoming
