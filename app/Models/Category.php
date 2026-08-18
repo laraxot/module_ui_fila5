@@ -30,7 +30,11 @@ use Modules\Xot\Models\BaseModel;
  * @property ProfileContract|null $updater
  * @property ProfileContract|null $deleter
  *
+<<<<<<< .merge_file_Gd0Sky
  * @method static CategoryFactory factory                  ($count = null, $state = [])
+=======
+ * @method static CategoryFactory          factory                  ($count = null, $state = [])
+>>>>>>> .merge_file_fdKGWe
  * @method static Builder<static>|Category newModelQuery   ()
  * @method static Builder<static>|Category newQuery        ()
  * @method static Builder<static>|Category query           ()

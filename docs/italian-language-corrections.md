@@ -356,6 +356,7 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 - [Opening Hours Rule](../app/Rules/OpeningHoursRule.php)
 - [Validation Files Multilingua](./validation_files_multilingua.md)
 - [Linee Guida Localizzazione](./localization_guidelines.md)
+<<<<<<< HEAD
 
 *Correzioni completate: gennaio 2025*
 =======
@@ -363,3 +364,10 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_GCGyll
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qTO8yO

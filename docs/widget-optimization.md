@@ -110,6 +110,11 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
     protected static ?int $sort = 0;
     protected static ?string $pollingInterval = null;
     protected static bool $isLazy = true;
+<<<<<<< .merge_file_uKROcs
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_ObjhKH
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
@@ -746,9 +751,17 @@ class SystemTestWidget extends UIBaseTestWidget
 ---
 
 *Ultimo aggiornamento: Giugno 2025*
+<<<<<<< HEAD
 *Autore: Analisi Automatica del Progetto*
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_uKROcs
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ObjhKH

@@ -1,4 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_Bf6LOY
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_ipK4OU
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -40,6 +47,11 @@ related:
 https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_Bf6LOY
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_ipK4OU
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -91,3 +103,11 @@ in app/Providers/Filament/AdminPanelProvider.php
 =======
 ->viteTheme('resources/css/filament/admin/theme.css')
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_Bf6LOY
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+->viteTheme('resources/css/filament/admin/theme.css')
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ipK4OU

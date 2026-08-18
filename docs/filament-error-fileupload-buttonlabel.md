@@ -18,6 +18,12 @@ Il metodo `buttonLabel()` **NON esiste** sul componente `Filament\Forms\Componen
 ## Collegamenti
 - [Errore e best practice modulo Patient](../../Patient/docs/filament-error-fileupload-buttonlabel.md)
 <<<<<<< HEAD
+<<<<<<< .merge_file_d0g7PM
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_Ppzpeb
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD

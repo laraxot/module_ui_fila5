@@ -120,6 +120,13 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 
 ```blade
 <<<<<<< HEAD
+<<<<<<< .merge_file_VZayxn
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_Uk5Lz3
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -424,6 +431,7 @@ Le bandiere devono essere utilizzate come icone Filament:
 3. **Prestazioni**: Gli SVG sono leggeri e non richiedono richieste HTTP aggiuntive
 4. **Accessibilità**: Possibilità di aggiungere attributi di accessibilità
 5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 5. **Coerenza**: Utilizzo di componenti nativi di SaluteOra

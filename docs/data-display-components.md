@@ -169,6 +169,26 @@ new Chart(ctx, {
 .table-responsive {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+<<<<<<< .merge_file_sUVmup
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+  
+=======
+
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_x9jbk3
   
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
@@ -414,6 +434,11 @@ new Chart(ctx, {
 - [Componenti Base](./base-components.md)
 - [Form Avanzati](./advanced-form-components.md)
 - [Accessibilità](./standards/accessibility.md)
+<<<<<<< .merge_file_sUVmup
+=======
+<<<<<<< HEAD
+- [Performance](./standards/performance.md)
+>>>>>>> .merge_file_x9jbk3
 <<<<<<< HEAD
 - [Performance](./standards/performance.md)
 =======

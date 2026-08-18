@@ -502,6 +502,13 @@
 ## Vedi Anche
 - [VSCode Documentation](https://code.visualstudio.com/docs)
 - [PHP Intelephense](https://intelephense.com)
+<<<<<<< .merge_file_XkFJB7
+=======
+<<<<<<< HEAD
+- [Filament Documentation](https://filamentphp.com/docs)
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_RphYZt
 <<<<<<< HEAD
 - [Filament Documentation](https://filamentphp.com/docs)
 =======

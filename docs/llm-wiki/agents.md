@@ -1,4 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_5ytL9S
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_bXwVFF
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -188,3 +194,11 @@ Related:
 - [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
 - [Module Documentation](../README.md)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_5ytL9S
+=======
+>>>>>>> 92912795 (.)
+=======
+- [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
+- [Module Documentation](../README.md)
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_bXwVFF

@@ -1,4 +1,19 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_dZYr1u
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> .merge_file_Crnkz3
 # Documentation
 
 This directory contains documentation for the module.
@@ -100,6 +115,10 @@ resources/views/components/ui/
 ## AI Workflows
 - [AI Methodologies](./ai-methodologies.md)
 ||||||| parent of 9a84589 (.)
+<<<<<<< .merge_file_dZYr1u
+=======
+=======
+>>>>>>> .merge_file_Crnkz3
 >>>>>>> laraxot/dev
     case LIST = 'list';
     case GRID = 'grid';
@@ -587,6 +606,7 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 
 *Ultimo aggiornamento: gennaio 2025*
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_dZYr1u
 
 ---
 
@@ -1157,3 +1177,5 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 *Ultimo aggiornamento: gennaio 2025* 
 *Ultimo aggiornamento: gennaio 2025* 
 *Ultimo aggiornamento: gennaio 2025* 
+=======
+>>>>>>> .merge_file_Crnkz3

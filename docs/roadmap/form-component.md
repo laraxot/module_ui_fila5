@@ -1,4 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_6ACzKM
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_lo9PMv
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -70,6 +77,21 @@ class FormBuilder extends XotBaseUIComponent
     /** @var array<string, FormField> */
     protected array $fields = [];
 <<<<<<< HEAD
+<<<<<<< .merge_file_6ACzKM
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> .merge_file_lo9PMv
     
     /** @var array<string, mixed> */
     protected array $values = [];
@@ -581,6 +603,11 @@ class FormState
 2. Implementare file upload
 3. Aggiungere nested form support
 4. Migliorare validation performance
+<<<<<<< .merge_file_6ACzKM
+=======
+<<<<<<< HEAD
+5. Documentare best practices
+>>>>>>> .merge_file_lo9PMv
 <<<<<<< HEAD
 5. Documentare best practices
 =======

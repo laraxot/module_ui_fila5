@@ -154,6 +154,21 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
         </x-filament::button>
     </x-slot>
 <<<<<<< HEAD
+<<<<<<< .merge_file_Y03ljs
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> .merge_file_uqI9c3
     
     <x-filament::dropdown.item wire:click="action">
         Azione 1

@@ -550,6 +550,7 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 - [Icone in Filament](https://filamentphp.com/docs/3.x/support/icons)
 
 ## Conclusione
+<<<<<<< HEAD
 
 Utilizzando i componenti Blade nativi di Filament, possiamo garantire una maggiore coerenza visiva, una migliore manutenibilità del codice e un'esperienza utente più fluida . Inoltre, possiamo beneficiare degli aggiornamenti e dei miglioramenti futuri di Filament senza dover modificare i nostri componenti personalizzati.
 =======
@@ -557,3 +558,10 @@ Utilizzando i componenti Blade nativi di Filament, possiamo garantire una maggio
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_0BVL2C
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_yMEIG4

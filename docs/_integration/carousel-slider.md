@@ -1,4 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_hlLC9t
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_sEzTf2
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -40,6 +47,14 @@ related:
 https://www.embla-carousel.com/examples/predefined/
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_hlLC9t
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_sEzTf2
 <<<<<<< HEAD
 
 =======
@@ -90,3 +105,10 @@ https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider
 =======
 https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_hlLC9t
+=======
+>>>>>>> 92912795 (.)
+=======
+https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_sEzTf2
