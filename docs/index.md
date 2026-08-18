@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "UI — indice della documentazione"
 description: "Documentazione del modulo UI: componenti di interfaccia condivisi."
@@ -15,7 +13,6 @@ issues: https://github.com/laraxot/module_ui_fila5/issues
 discussions: https://github.com/laraxot/module_ui_fila5/discussions
 ---
 
->>>>>>> laraxot/dev
 # UI Module Documentation
 
 ## Overview
