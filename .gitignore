@@ -420,3 +420,4 @@ agentdb.rvf
 phpstan*
 phpmd*
 rector.php
+*.old

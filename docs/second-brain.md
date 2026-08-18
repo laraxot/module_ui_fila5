@@ -6,21 +6,8 @@ updated: 2026-07-22
 issues:
   - https://github.com/provtv/module_ui_fila5/issues
 discussions:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - https://github.com/laraxot/base_fixcity_fila5/discussions/273
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
   - https://github.com/laraxot/<nome repitory>/discussions/273
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
   - https://github.com/laraxot/platform/discussions/273
->>>>>>> s://github.com/laraxot/<nome repitory>/discussions/273
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -38,23 +25,8 @@ Stub **puntatore**: disciplina globale nella wiki di progetto; qui solo lezioni 
 - Confine UI≠Geo: [./geo-boundary.md](./geo-boundary.md)
 - Git forward-only: [../../../../docs/wiki/rules/git-forward-only.md](../../../../docs/wiki/rules/git-forward-only.md)
 - Board multi-agente: [../../../../docs/chat/multi-agent-standing-coordination.md](../../../../docs/chat/multi-agent-standing-coordination.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 - Push dual-remote / LFS: [./wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md)
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
 - Push dual-remote / LFS: [./wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md)
->>>>>>> laraxot/dev
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-=======
->>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 - Push dual-remote / LFS: [./wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md)
@@ -65,27 +37,10 @@ Stub **puntatore**: disciplina globale nella wiki di progetto; qui solo lezioni 
 | Problema | Perché | Fix |
 |----------|--------|-----|
 | Bootstrap `unexpected <<` | Marker merge in PHP UI | Studiare `git show` e riscrivere (no restore) |
-<<<<<<< HEAD
-<<<<<<< HEAD
-| Adapter Map/Location in UI | Dominio geografico, non design system | Eliminare; in `base_ptvx_fila5` Geo non c’è |
-| `phpstan.path` su `Services/Map/Null*` | File rimossi; cache stale | Wipe cache swarm; non ricreare Map in UI |
-=======
 | Adapter Map/Location in UI | Dominio geografico, non design system | Eliminare; in `<nome repository>` Geo non c’è |
 | `phpstan.path` su `Services/Map/Null*` | File rimossi; cache stale | Wipe cache swarm; non ricreare Map in UI |
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 | Push unpack / GH008 LFS | thin pack + OID LFS assenti su un org | `--no-thin`; `lfs fetch --all` da sibling sano |
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
 | Push unpack / GH008 LFS | thin pack + OID LFS assenti su un org | `--no-thin`; `lfs fetch --all` da sibling sano |
->>>>>>> laraxot/dev
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-=======
->>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 | Adapter Map/Location in UI | Dominio geografico, non design system | Eliminare; in `base_ptvx_fila5` Geo non c’è |

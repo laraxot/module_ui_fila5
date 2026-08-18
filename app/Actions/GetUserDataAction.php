@@ -74,13 +74,8 @@ class GetUserDataAction
             id: SafeIntCastAction::cast($user->id),
             name: SafeStringCastAction::cast($user->name ?? ''),
             email: SafeStringCastAction::cast($user->email ?? ''),
-<<<<<<< .merge_file_7MpfNU
-            avatar: $avatarValue !== null ? SafeStringCastAction::cast($avatarValue) : null,
-            role: $roleValue !== null ? (string) $roleValue : null,
-=======
             avatar: null !== $avatarValue ? SafeStringCastAction::cast($avatarValue) : null,
             role: null !== $roleValue ? (string) $roleValue : null,
->>>>>>> .merge_file_pCDvxO
             permissions: $permissions ?? [],
             settings: $settingsArray,
         );

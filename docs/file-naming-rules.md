@@ -34,29 +34,10 @@ Su filesystem case-insensitive (Windows, macOS default), file con nomi che diffe
 
 ```
 ✅ CORRETTO:
-- README.md (maiuscolo - convenzione universale)
-- ROADMAP.md (maiuscolo - convenzione universale)
-<<<<<<< .merge_file_NcYrRq
-- CHANGELOG.md (maiuscolo - convenzione universale)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-- CHANGELOG.md (maiuscolo - convenzione universale)
-=======
-- changelog.md (maiuscolo - convenzione universale)
->>>>>>> 92912795 (.)
-=======
-- CHANGELOG.md (maiuscolo - convenzione universale)
->>>>>>> laraxot/dev
->>>>>>> .merge_file_JOmqwR
-- LICENSE.md (maiuscolo - convenzione universale)
-- CONTRIBUTING.md (maiuscolo - convenzione universale)
-- SECURITY.md (maiuscolo - convenzione universale)
-
-- Tutti gli altri: kebab-case minuscolo
-  → file-naming-rules.md
-  → phpstan-fixes.md
-  → api-integration.md
+- README.md (unica eccezione maiuscola nei docs/)
+- In .github/: CONTRIBUTING.md e SECURITY.md (GitHub li cerca con quel casing)
+- Tutti gli altri markdown: kebab-case minuscolo
+  → changelog.md, agents.md, file-naming-rules.md
 ```
 
 ### File Blade

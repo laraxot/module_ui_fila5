@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 # UI - Product Strategy
 
 > Strategia prodotto. Modulo.
@@ -52,10 +47,6 @@ Portare **UI** a uno stato in cui il progetto ottiene un vantaggio netto e misur
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
 
 ## Regola architetturale
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
 # UI Module - Product Strategy
 
 **Module:** UI  
@@ -146,57 +137,7 @@ Easy to use and extend.
 
 ---
 
-<<<<<<< HEAD
 *Last Updated: March 12, 2026*
-=======
-<<<<<<< HEAD
-*Last Updated: March 12, 2026*
-=======
-# UI - Product Strategy
-
-**Module:** UI  
-**Version:** 1.0.0  
-**Last Updated:** March 12, 2026  
-**Owner:** Product Team
-
----
-
-## Executive Summary
-
-The UI module provides a comprehensive design system and component library, enabling consistent, accessible, and beautiful user interfaces across the entire platform.
-
----
-
-## Market Analysis
-
-### TAM / SAM / SOM
-
-| Segment | TAM | SAM | SOM (2028) |
-|---------|-----|-----|------------|
-| **Design Systems** | $5B | $500M | $25M |
-| **Component Libraries** | $3B | $300M | $15M |
-| **Total** | $8B | $800M | $40M |
-
----
-
-## Strategic Pillars
-
-### Pillar 1: Consistency
-One design language everywhere.
-
-### Pillar 2: Accessibility
-Inclusive by default.
-
-### Pillar 3: Performance
-Fast, efficient components.
-
-### Pillar 4: Developer Experience
-Easy to use and extend.
-
----
-
-## Go-to-Market Strategy
->>>>>>> laraxot/dev
 
 - Action-first: niente generic `Services` per la business logic
 - Standard operativo: `spatie/laravel-queueable-action`

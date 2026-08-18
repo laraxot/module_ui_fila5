@@ -19,19 +19,7 @@ docs/
 ├── wiki/
 │   ├── index.md           # Catalogo
 │   ├── log.md             # Registro
-<<<<<<< .merge_file_7RdQuC
 │   ├── schema.md          # Questo file
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-│   ├── SCHEMA.md          # Questo file
-=======
-│   ├── schema.md          # Questo file
->>>>>>> 92912795 (.)
-=======
-│   ├── SCHEMA.md          # Questo file
->>>>>>> laraxot/dev
->>>>>>> .merge_file_enfj8k
 │   ├── concepts/          # Pattern, architettura
 │   ├── entities/          # Modelli, azioni
 │   ├── sources/           # Doc esterna

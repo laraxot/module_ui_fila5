@@ -105,21 +105,8 @@ Modules/UI/
 - Minimal disruption to existing code
 - Clear migration path
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ### 4. **Autoloader Predictability**
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-### 4. **Autoloader Predictability**
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
 ### 4. **Autoloader stability**
->>>>>>> *Autoloader Predictability**
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -191,21 +178,8 @@ composer dump-autoload 2>&1 | grep -i "ui"
 After cleanup:
 
 - ✅ No more PSR-4 autoloading warnings
-<<<<<<< HEAD
-<<<<<<< HEAD
 - ✅ Clear, predictable test structure
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-- ✅ Clear, predictable test structure
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
 - ✅ Clear, stable test structure
->>>>>>> r, predictable test structure
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

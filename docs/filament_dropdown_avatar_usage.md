@@ -1,18 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Utilizzo dei Componenti Filament Dropdown e Avatar 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-# Utilizzo dei Componenti Filament Dropdown e Avatar 
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
 # Utilizzo dei Componenti Filament Dropdown e Avatar
->>>>>>> zo dei Componenti Filament Dropdown e Avatar 
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -86,25 +72,9 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
 @if($isLoggedIn)
     {{-- Dropdown per utente loggato --}}
     <div class="relative" x-data="{ open: false }" @click.away="open = false">
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <button 
-            @click="open = ! open" 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        <button 
-            @click="open = ! open" 
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
         <button
             @click="open = ! open"
->>>>>>> <button 
             @click="open = ! open" 
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -125,21 +95,7 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
             </div>
         </button>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <div 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        <div 
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
         <div
->>>>>>> <div 
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -261,21 +217,7 @@ $this->mount(function () {
 
 ## Gestione delle Traduzioni
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di SaluteOra per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di SaluteOra per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto>corrente per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
->>>>>>> zioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di SaluteOra per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

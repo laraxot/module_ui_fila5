@@ -1,19 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< .merge_file_dZYr1u
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
->>>>>>> .merge_file_Crnkz3
 # Documentation
 
 This directory contains documentation for the module.
@@ -30,8 +14,6 @@ Documentation should be:
 - Example-driven
 - Updated with code changes
 - Use Markdown format (.md)
-<<<<<<< HEAD
-=======
 ---
 title: "UI Module Documentation"
 type: documentation
@@ -40,9 +22,6 @@ created: 2026-06-05
 updated: 2026-06-05
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 # Modulo UI - Componenti Condivisi
 
 ## Overview
@@ -50,8 +29,6 @@ updated: 2026-06-05
 Il modulo **UI** fornisce componenti Blade, widget Filament e asset condivisi per tutti i moduli e temi.
 
 ## Struttura Componenti
-=======
->>>>>>> laraxot/dev
 This directory contains documentation for the module.
 
 ## Structure
@@ -60,7 +37,6 @@ This directory contains documentation for the module.
 - **README.md** - This file
 
 ## Guidelines
->>>>>>> laraxot/dev
 
 ```
 resources/views/components/ui/
@@ -115,11 +91,6 @@ resources/views/components/ui/
 ## AI Workflows
 - [AI Methodologies](./ai-methodologies.md)
 ||||||| parent of 9a84589 (.)
-<<<<<<< .merge_file_dZYr1u
-=======
-=======
->>>>>>> .merge_file_Crnkz3
->>>>>>> laraxot/dev
     case LIST = 'list';
     case GRID = 'grid';
 
@@ -127,7 +98,6 @@ resources/views/components/ui/
     {
         return $this->transClass(self::class, $this->value . '.label');
     }
-<<<<<<< HEAD
 }
 ```
 
@@ -174,10 +144,6 @@ MIT
 - [QMD Setup](./qmd-setup.md) — Configurazione ricerca locale
 - [Performance](./performance-optimization.md) — Metriche e best practice
 - [Project Structure](./project-structure.md) — Directory layout
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
@@ -606,7 +572,6 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 
 *Ultimo aggiornamento: gennaio 2025*
 >>>>>>> laraxot/dev
-<<<<<<< .merge_file_dZYr1u
 
 ---
 
@@ -1177,5 +1142,3 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 *Ultimo aggiornamento: gennaio 2025* 
 *Ultimo aggiornamento: gennaio 2025* 
 *Ultimo aggiornamento: gennaio 2025* 
-=======
->>>>>>> .merge_file_Crnkz3

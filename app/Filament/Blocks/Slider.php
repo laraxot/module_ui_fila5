@@ -33,11 +33,7 @@ final class Slider
             ->columns(1);
     }
 
-<<<<<<< .merge_file_SM8ltd
-/**
-=======
     /**
->>>>>>> .merge_file_beiTnA
      * @return array<int|string, \Filament\Schemas\Components\Component>
      */
     public static function getFormSchema(): array

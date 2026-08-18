@@ -5,18 +5,8 @@ tags: [iconcolumn, view, path, fix]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "iconcolumn-view-path-fix bugfix: iconcolumn view path mismatch"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-=======
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 related:
   - "./groupcolumn-architectural-violations.md"
   - "./iconcolumn-extends-filament-column.md"

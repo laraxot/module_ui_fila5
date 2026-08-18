@@ -1,17 +1,5 @@
 # REGOLA CRITICA: MAI usare ->label()
 
-<<<<<<< HEAD
-<<<<<<< .merge_file_XE8nGn
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> .merge_file_zrlaAK
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
 ## ❌ ERRORE CRITICO - NON FARE MAI QUESTO
 
 ```php
@@ -180,16 +168,6 @@ rules:
 - SEMPRE testare le traduzioni prima del commit
 # REGOLA CRITICA: MAI usare ->label()
 
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
 ## Data: 2025-01-06
 
 ## ❌ ERRORE CRITICO - NON FARE MAI QUESTO
@@ -302,25 +280,8 @@ TextColumn::make('status')
 
 ## Checklist Pre-Implementazione
 
-<<<<<<< HEAD
-<<<<<<< .merge_file_XE8nGn
-=======
-<<<<<<< HEAD
 ### Prima di usare qualsiasi componente Filament:
-=======
->>>>>>> .merge_file_zrlaAK
-<<<<<<< HEAD
 ### Prima di usare qualsiasi componente Filament:
-=======
-<<<<<<< HEAD
-### Prima di usare qualsiasi componente Filament:
-=======
->>>>>>> laraxot/dev
->>>>>>> a di usare qualsiasi componente Filament:
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
 ### Prima di usare un componente Filament:
@@ -334,20 +295,9 @@ TextColumn::make('status')
 - [ ] Verificare che non ci siano `->label()` nel codice
 - [ ] Controllare che tutte le traduzioni siano implementate
 - [ ] Testare che le traduzioni funzionino correttamente
-<<<<<<< HEAD
-<<<<<<< HEAD
 Prima di usare qualsiasi componente Filament:
 
-=======
-<<<<<<< HEAD
-Prima di usare qualsiasi componente Filament:
 
-=======
->>>>>>> laraxot/dev
->>>>>>>  usare qualsiasi componente Filament:
-
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -362,17 +312,7 @@ Prima di usare qualsiasi componente Filament:
 - [ ] Verificare che non ci siano `->label()` nel codice
 - [ ] Controllare che tutte le traduzioni siano implementate
 - [ ] Testare che le traduzioni funzionino correttamente
-<<<<<<< .merge_file_XE8nGn
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> .merge_file_zrlaAK
 
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_XE8nGn
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
@@ -416,13 +356,7 @@ rules:
 - [LangServiceProvider Documentation](../../../docs/lang-service-provider.md)
 
 ## Memoria Permanente
-<<<<<<< HEAD
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 **RICORDA SEMPRE**:
 
 - MAI usare `->label()` in componenti Filament
@@ -436,10 +370,6 @@ rules:
 - SEMPRE testare le traduzioni prima del commit
 
 *Ultimo aggiornamento: 2025-01-06*
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
 **RICORDA SEMPRE**: 
 **RICORDA SEMPRE**:
 - MAI usare `->label()` in componenti Filament
@@ -451,24 +381,13 @@ rules:
 *Ultimo aggiornamento: 2025-01-06*
 *Ultimo aggiornamento: 2025-01-06*
 
-<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06*
-=======
-<<<<<<< HEAD
-*Ultimo aggiornamento: 2025-01-06*
-=======
 **RICORDA SEMPRE**:
 - MAI usare `->label()` in componenti Filament
 - SEMPRE implementare traduzioni nei file `lang/`
 - SEMPRE struttura espansa (label, placeholder, tooltip, helper_text)
 - SEMPRE sincronizzare IT/EN/DE
 - SEMPRE testare le traduzioni prima del commit
-
-*Ultimo aggiornamento: 2025-01-06*
->>>>>>> laraxot/dev
->>>>>>> aggiornamento: 2025-01-06*
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

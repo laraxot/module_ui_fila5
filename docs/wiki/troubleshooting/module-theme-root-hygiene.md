@@ -9,23 +9,8 @@ qmd: "module theme root txt md hygiene audit fix"
 related:
   - "./git-merge-conflict-inventory-1.md"
   - "./git-merge-conflict-inventory.md"
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
   - "./git-push-lfs-missing-objects.md"
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
   - "./git-push-lfs-missing-objects.md"
->>>>>>> laraxot/dev
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-=======
->>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
   - "./git-push-lfs-missing-objects.md"

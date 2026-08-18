@@ -391,21 +391,8 @@ class ClosedDays extends Field { /* Focused on day selection */ }
 
 #### **3.1 AI-Enhanced Components**
 - Smart form validation with ML suggestions
-<<<<<<< HEAD
-<<<<<<< HEAD
 - Auto-complete components with intelligent predictions
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-- Auto-complete components with intelligent predictions
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
 - Auto-complete components with intelligent forecasts
->>>>>>> omplete components with intelligent predictions
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -754,21 +741,8 @@ class UserCalendarWidget extends XotBaseWidget
 
 ## 🎯 MODULE OVERVIEW
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 Il modulo **UI** è il sistema di componenti e design system della piattaforma <nome progetto>, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
->>>>>>> HEAD
-=======
->>>>>>> laraxot/dev
 Il modulo **UI** è il sistema di componenti e design system della piattaforma progetto corrente, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
->>>>>>> o **UI** è il sistema di componenti e design system della piattaforma <nome progetto>, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
