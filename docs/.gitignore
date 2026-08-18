@@ -1,15 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 ---
 module: theme
 topic: .gitignore
 canonical: ../../../Themes/docs/shared-components/.gitignore-Modules
----
 
 See canonical documentation: ../../../Themes/docs/shared-components/.gitignore-Modules
 agentdb.rvf
-=======
->>>>>>> 92912795 (.)
 phpstan-corrections-gennaio-2025.md
 translations-update-january-2026.md
 git-push-recovery-2026-07-28.md
@@ -25,20 +20,15 @@ phpstan-fixes-january-2025.md
 notify-user-git-push-resolution-2026-07-28.md
 phpstan-fixes-gennaio-2025.md
 redundancy-audit-2026-05-21.md
-
 # No numbered .md duplicates (rule: docs/wiki/rules/no-numbered-filenames.md)
 *-[0-9].md
 *-[0-9][0-9].md
 *_[0-9].md
 *_[0-9][0-9].md
-=======
 # =============================================================================
 # LARAXOT MODULE: UI - .gitignore
-# =============================================================================
-
 # -----------------------------------------------------------------------------
 # Forbidden directories (root cleanup policy)
-# -----------------------------------------------------------------------------
 bashscripts
 _bmad
 _bmad-output
@@ -53,7 +43,6 @@ scripts
 test-results
 tests/.claude-audit
 tests/AuditCoverage/
-
 docs/archive/
 docs/archive/**
 docs/archived/
@@ -68,54 +57,35 @@ docs/**/legacy/
 docs/**/workbench/
 docs/**/scripts/
 docs/**/bashscripts/
-
-# -----------------------------------------------------------------------------
 # Dependencies
-# -----------------------------------------------------------------------------
 /vendor/
 /node_modules/
 /docs/vendor/
-
 composer.lock
 package-lock.json
 yarn.lock
-
-# -----------------------------------------------------------------------------
 # Build artifacts
-# -----------------------------------------------------------------------------
 /build/
 /dist/
-
 cache/
 docs/cache/
 docs/phpstan/
-
 public/css/compiled/
 public/js/compiled/
 public/mix-manifest.json
-
-# -----------------------------------------------------------------------------
 # Laravel
-# -----------------------------------------------------------------------------
 /storage/*.key
 /public/storage
 /public/hot
 /public_html/storage
 /public_html/hot
-
-# -----------------------------------------------------------------------------
 # Environment
-# -----------------------------------------------------------------------------
 .env
 .env.*
 !.env.example
-
 config/local.php
 config/development.php
-
-# -----------------------------------------------------------------------------
 # IDE
-# -----------------------------------------------------------------------------
 .idea/
 .vscode/
 .cursor/
@@ -123,10 +93,7 @@ config/development.php
 .phpintel
 .phpstorm.meta.php
 /.vagrant
-
-# -----------------------------------------------------------------------------
 # Cache
-# -----------------------------------------------------------------------------
 .php-cs-fixer.cache
 .phpunit.result.cache
 *.cache
@@ -138,34 +105,23 @@ config/development.php
 *.swo
 *.stackdump
 v8-compile-cache-*
-
-# -----------------------------------------------------------------------------
 # Logs
-# -----------------------------------------------------------------------------
 *.log
 error_log
 npm-debug.log*
 yarn-error.log*
 lerna-debug.log*
-
-# -----------------------------------------------------------------------------
 # Git leftovers
-# -----------------------------------------------------------------------------
 .git-rewrite/
 .git-blame-ignore-revs
-
 *.orig
 *.rej
-
 *~HEAD
 *~BASE
 *~LOCAL
 *~REMOTE
 *~head
-
-# -----------------------------------------------------------------------------
 # Backup files
-# -----------------------------------------------------------------------------
 *.old
 *.old1
 *.old2
@@ -175,35 +131,23 @@ lerna-debug.log*
 *.backup_*
 *.bak
 *.new
-
-# -----------------------------------------------------------------------------
 # Legacy
-# -----------------------------------------------------------------------------
 resources/views/Components_old/
 resources/lang/
 lang/lang/
-
 database_old/
 database/Migrations_old/
 database/Seeders_old/
 database/Factories_old/
-
-# -----------------------------------------------------------------------------
 # UI module
-# -----------------------------------------------------------------------------
 *.fila2
 *.psd
 *.fig
 *.sketch
-
 design_notes.txt
-
 laravel
 public_html
-
-# -----------------------------------------------------------------------------
 # System files
-# -----------------------------------------------------------------------------
 .DS_Store
 .DS_Store?
 ._*
@@ -211,13 +155,8 @@ public_html
 .Trashes
 Thumbs.db
 ehthumbs.db
-agentdb.rvf
 *:Zone.Identifier
-
-# -----------------------------------------------------------------------------
 # Root quality tools
-# -----------------------------------------------------------------------------
 phpstan*
 phpmd*
 rector.php
->>>>>>> laraxot/dev

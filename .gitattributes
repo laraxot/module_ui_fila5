@@ -1,8 +1,5 @@
 # Prototype: laravel/Modules/* e laravel/Themes/*
-<<<<<<< HEAD
-=======
 # Canon: docs/wiki/rules/no-git-lfs.md
->>>>>>> laraxot/dev
 # Sync: bash bashscripts/templates/sync-gitattributes-modules.sh
 #
 # Git LFS VIETATO. Binari = blob git normali.

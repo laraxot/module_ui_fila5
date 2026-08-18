@@ -11,14 +11,14 @@ use Modules\Xot\Filament\Blocks\XotBaseBlock;
 
 final class Navigation extends XotBaseBlock
 {
-/**
+    /**
      * @return array<string, Component>
      */
     #[\Override]
     public static function getBlockSchema(): array
     {
         return [
-            Repeater::make('items')
+            'items' => Repeater::make('items')
                 ->label(__('ui::blocks.navigation.fields.items.label'))
                 ->schema([
                     TextInput::make('label')

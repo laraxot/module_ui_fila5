@@ -63,11 +63,7 @@ class GroupColumn extends XotBaseColumn
 
     private function mountChildrenToTable(?Table $table): void
     {
-<<<<<<< HEAD
         if ($table === null) {
-=======
-        if (null === $table) {
->>>>>>> laraxot/dev
             return;
         }
 
