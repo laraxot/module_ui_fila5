@@ -40,11 +40,6 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Collection newQuery()
  * @method static Builder<static>|Collection query()
  *
-<<<<<<< .merge_file_3FKOja
-=======
- * <<<<<<< .merge_file_hwLZ8g
- * >>>>>>> .merge_file_NIoM7l
->>>>>>> .merge_file_guFVHX
  * @mixin \Eloquent
  */
 class Collection extends BaseModel
