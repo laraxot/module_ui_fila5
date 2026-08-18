@@ -146,6 +146,9 @@ class CustomMiddleware
 
 // Non hardcodare percorsi delle risorse
 <<<<<<< HEAD
+<img src="/var/www/html/saluteora/laravel/public/images/avatar.png">
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <img src="public/images/avatar.png">
@@ -166,6 +169,7 @@ class CustomMiddleware
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 
 // Non duplicare la registrazione dei componenti
 Blade::component('ui::components.icon', 'ui.icon');
@@ -300,6 +304,8 @@ class UIServiceProvider extends XotBaseServiceProvider
   <?php
   use function Livewire\Volt\{state, mount};
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -308,11 +314,14 @@ class UIServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
   
   state([
       'property' => null,
   ]);
   
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -336,11 +345,15 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
   $action = function () {
       // Logica dell'azione
   };
   ?>
 <<<<<<< HEAD
+  
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -359,6 +372,7 @@ class UIServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
   <div>
       <!-- Template del componente -->
   </div>
@@ -373,6 +387,8 @@ class UIServiceProvider extends XotBaseServiceProvider
   use function Laravel\Folio\{middleware, name};
   use function Livewire\Volt\{state, mount};
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -381,10 +397,13 @@ class UIServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
   
   middleware(['auth']);
   name('page.name');
   
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -407,11 +426,15 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
   state([
       'property' => null,
   ]);
   ?>
 <<<<<<< HEAD
+  
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -430,6 +453,7 @@ class UIServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
   <x-layouts.main>
       <!-- Contenuto della pagina -->
   </x-layouts.main>
@@ -572,6 +596,9 @@ class UIServiceProvider extends XotBaseServiceProvider
 5. **Cosa Fare**:
    - Utilizzare i componenti responsive appropriati
    - Mantenere la coerenza con il tema dark/light
+<<<<<<< HEAD
+   - Gestire correttamente il logout con CSRF
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1055,3 +1082,4 @@ class UIServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

@@ -1,4 +1,6 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -16,8 +18,8 @@ tags: [component, system]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "component-system sistema componenti ui"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
   - "./00-index-1.md"
   - "./00-index.md"
@@ -41,6 +43,7 @@ related:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 # Sistema Componenti UI
 
 ## 📊 Stato Implementazione
@@ -237,6 +240,9 @@ protected function resolveLazyProp(string $key): mixed
 2. Implementare lazy loading
 3. Migliorare test coverage
 4. Documentare best practices
+<<<<<<< HEAD
+5. Ottimizzare performance 
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -461,3 +467,4 @@ protected function resolveLazyProp(string $key): mixed
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

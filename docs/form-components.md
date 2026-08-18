@@ -2,6 +2,8 @@
 
 ## Introduzione
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 I componenti form forniscono elementi di input e validazione per la creazione di form complessi e interattivi.
@@ -557,6 +559,7 @@ form.addEventListener('submit', (e) => {
 # Componenti Form
 
 ## Introduzione
+>>>>>>> 92912795 (.)
 
 I componenti form forniscono elementi di input e validazione per la creazione di form complessi e interattivi.
 
@@ -664,9 +667,13 @@ use Filament\Forms\Form;
 use Filament\Forms\Components\Section;
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 
+<<<<<<< HEAD
+public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
 public function form(Form $form): Form
 public function form(Form $form): Form
 public function form(Form $form): Form
+>>>>>>> 92912795 (.)
 {
     return $form->schema([
         Section::make('Prenotazione Appuntamento')
@@ -678,7 +685,11 @@ public function form(Form $form): Form
                         $dates = [];
                         $date = now();
                         $count = 0;
+<<<<<<< HEAD
+                        
+=======
 
+>>>>>>> 92912795 (.)
                         while ($count < 30) {
                             if (!$date->isWeekend()) {
                                 $dates[] = $date->format('Y-m-d');
@@ -686,7 +697,11 @@ public function form(Form $form): Form
                             }
                             $date->addDay();
                         }
+<<<<<<< HEAD
+                        
+=======
 
+>>>>>>> 92912795 (.)
                         return $dates;
                     })
                     ->calendarConfig([
@@ -703,10 +718,17 @@ public function form(Form $form): Form
 
 ### Input
 ```blade
+<<<<<<< HEAD
+<x-ui::input 
+    name="email" 
+    type="email" 
+    label="Email" 
+=======
 <x-ui::input
     name="email"
     type="email"
     label="Email"
+>>>>>>> 92912795 (.)
     placeholder="Inserisci la tua email"
     :required="true"
     :disabled="false"
@@ -719,8 +741,13 @@ public function form(Form $form): Form
 
 ### Select
 ```blade
+<<<<<<< HEAD
+<x-ui::select 
+    name="role" 
+=======
 <x-ui::select
     name="role"
+>>>>>>> 92912795 (.)
     label="Ruolo"
     :options="[
         'admin' => 'Amministratore',
@@ -737,8 +764,13 @@ public function form(Form $form): Form
 
 ### Checkbox
 ```blade
+<<<<<<< HEAD
+<x-ui::checkbox 
+    name="terms" 
+=======
 <x-ui::checkbox
     name="terms"
+>>>>>>> 92912795 (.)
     label="Accetto i termini e condizioni"
     :required="true"
     :checked="false"
@@ -749,8 +781,13 @@ public function form(Form $form): Form
 
 ### Radio
 ```blade
+<<<<<<< HEAD
+<x-ui::radio 
+    name="gender" 
+=======
 <x-ui::radio
     name="gender"
+>>>>>>> 92912795 (.)
     label="Genere"
     :options="[
         'male' => 'Maschio',
@@ -764,8 +801,13 @@ public function form(Form $form): Form
 
 ### Textarea
 ```blade
+<<<<<<< HEAD
+<x-ui::textarea 
+    name="message" 
+=======
 <x-ui::textarea
     name="message"
+>>>>>>> 92912795 (.)
     label="Messaggio"
     placeholder="Inserisci il tuo messaggio"
     :rows="4"
@@ -799,12 +841,20 @@ class UserForm extends Component
 {
     public $name;
     public $email;
+<<<<<<< HEAD
+    
+=======
 
+>>>>>>> 92912795 (.)
     protected $rules = [
         'name' => 'required|min:3',
         'email' => 'required|email',
     ];
+<<<<<<< HEAD
+    
+=======
 
+>>>>>>> 92912795 (.)
     public function save()
     {
         $this->validate();
@@ -844,6 +894,16 @@ form.addEventListener('submit', (e) => {
 - [Componenti Table](./table-components.md)
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
+<<<<<<< HEAD
+- [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
+## Collegamenti tra versioni di form-components.md
+* [form-components.md](../../../UI/docs/form-components.md)
+* [form-components.md](../../../UI/docs/roadmap/form-components.md)
+- [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md) 
+## Collegamenti tra versioni di form-components.md
+* [form-components.md](../../../UI/project_docs/form-components.md)
+* [form-components.md](../../../UI/project_docs/roadmap/form-components.md)
+=======
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
 ## Collegamenti tra versioni di form-components.md
 * [form-components.md](../../../UI/project_docs/form-components.md)
@@ -864,3 +924,4 @@ form.addEventListener('submit', (e) => {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

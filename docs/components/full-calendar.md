@@ -1,4 +1,6 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -16,8 +18,8 @@ tags: [full, calendar]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "full-calendar fullcalendar component for filament"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -41,6 +43,7 @@ related:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 # FullCalendar Component for Filament
 
 ## Introduction
@@ -91,6 +94,9 @@ use Saade\FilamentFullCalendar\Data\EventData;
 /**
  * Base widget for FullCalendar.
 <<<<<<< HEAD
+ * 
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
  *
@@ -109,6 +115,7 @@ use Saade\FilamentFullCalendar\Data\EventData;
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
  * Provides core functionality for all calendars in the application.
  */
 abstract class BaseCalendarWidget extends FullCalendarWidget
@@ -150,6 +157,9 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
                 ->helperText(__('ui::calendar.fields.title.help'))
                 ->required(),
 <<<<<<< HEAD
+                
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -168,12 +178,16 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
             Forms\Components\Grid::make()
                 ->schema([
                     Forms\Components\DateTimePicker::make('start_date')
                         ->label(__('ui::calendar.fields.start_date.label'))
                         ->required(),
 <<<<<<< HEAD
+                        
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -192,11 +206,15 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
                     Forms\Components\DateTimePicker::make('end_date')
                         ->label(__('ui::calendar.fields.end_date.label'))
                         ->required(),
                 ]),
 <<<<<<< HEAD
+                
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -215,11 +233,14 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
             Forms\Components\Textarea::make('description')
                 ->label(__('ui::calendar.fields.description.label'))
                 ->placeholder(__('ui::calendar.fields.description.placeholder'))
                 ->columnSpanFull(),
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -228,11 +249,14 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
                 
             Forms\Components\ColorPicker::make('color')
                 ->label(__('ui::calendar.fields.color.label'))
                 ->rgb(),
                 
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -256,6 +280,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
             Forms\Components\Toggle::make('is_all_day')
                 ->label(__('ui::calendar.fields.is_all_day.label'))
                 ->default(false),
@@ -401,6 +426,8 @@ To use the widget in a Blade view:
 ## Backlinks and References
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -409,6 +436,7 @@ To use the widget in a Blade view:
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
 - [Ptv Module - Calendar Usage](../../Ptv/docs/features/full_calendar.md)
 - [Official Saade FullCalendar Documentation](https://github.com/saade/filament-fullcalendar)
 - [FullCalendar.io Documentation](https://fullcalendar.io/docs)
@@ -417,6 +445,9 @@ To use the widget in a Blade view:
 *Last updated: June 2025*
 =======
 <<<<<<< HEAD
+*Last updated: June 2025*
+=======
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -698,3 +729,4 @@ To use the widget in a Blade view:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

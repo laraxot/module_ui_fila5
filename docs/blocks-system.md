@@ -1,4 +1,6 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -7,12 +9,16 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
 ---
 module: theme
 topic: blocks_system
 canonical: ../../../Themes/docs/shared-components/blocks-system_1.md
 ---
 
+<<<<<<< HEAD
+See canonical documentation: ../../../Themes/docs/shared-components/blocks-system_1.md
+=======
 <<<<<<< HEAD
 See canonical documentation: ../../../Themes/docs/shared-components/blocks-system_1.md
 =======
@@ -245,3 +251,4 @@ See canonical documentation: ../../../Themes/docs/shared-components/blocks-syste
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

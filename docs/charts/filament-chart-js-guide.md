@@ -5,8 +5,13 @@ tags: [filament, chart, guide]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament-chart-js-guide filament chart.js guide"
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
 related:
   - "./chartjs-datalabels-multiple-labels-complete-guide.md"
   - "./chartjs-plugin-datalabels-filament5.md"
@@ -124,6 +129,9 @@ See the **[LimeSurvey Professional Charts Guide](../../../limesurvey/docs/profes
 
 **Do NOT** use `dompdf` or client-side canvas capture for charts.
 <<<<<<< HEAD
+The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper around Browsershot).
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper around Browsershot).
@@ -138,6 +146,7 @@ The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper arou
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 
 **Pattern:** "Shadow Report Views"
 1.  Create a dedicated Blade view for the report (linear layout).

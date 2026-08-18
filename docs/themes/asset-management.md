@@ -1,4 +1,6 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -16,8 +18,8 @@ tags: [asset, management]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "asset-management gestione degli asset"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
   - "./asset-management-1.md"
   - "./compilation.md"
@@ -38,6 +40,7 @@ related:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 # Gestione degli Asset
 
 ## Struttura delle Directory
@@ -96,6 +99,9 @@ Gli script di automazione si trovano nella directory `bashscripts/`:
 - Creare alert per problemi di permessi
 - Monitorare lo spazio disponibile
 - Verificare periodicamente l'integrità degli asset
+<<<<<<< HEAD
+- Utilizzare lo script di verifica prima di ogni deploy 
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -182,3 +188,4 @@ Gli script di automazione si trovano nella directory `bashscripts/`:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

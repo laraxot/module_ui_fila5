@@ -29,6 +29,9 @@ Tutti in `Modules/UI/app/Filament/Forms/Components/`:
 ### Import Statements da Verificare
 
 <<<<<<< HEAD
+**TechPlanner/app/Filament/Resources/ClientResource.php**:
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 **TechPlanner/app/Filament/Resources/ClientResource.php**:
@@ -43,6 +46,7 @@ Tutti in `Modules/UI/app/Filament/Forms/Components/`:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 ```php
 Line 13: use Modules\Notify\Filament\Forms\Components\ContactSection;
 ```
@@ -157,7 +161,11 @@ Aggiornare:
 - [x] `Modules/UI/docs/psr4-namespace-violations.md` - Aggiungere sezione "Fix Implemented"
 - [x] `Modules/UI/docs/psr4-fix-implementation-plan.md` - Questo file (status update)
 - [ ] `Modules/UI/docs/README.md` - Aggiungere reference a PSR-4 fix
+<<<<<<< HEAD
+- [ ] `Modules/UI/docs/CHANGELOG.md` - Log del fix
+=======
 - [ ] `Modules/UI/docs/changelog.md` - Log del fix
+>>>>>>> 92912795 (.)
 
 ### Step 8: Git Commit
 

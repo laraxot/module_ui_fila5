@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+# Struttura Themes e Folio in SaluteOra
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 # Struttura Themes e Folio in <nome progetto>corrente
@@ -30,6 +33,7 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 
 ## ⚠️ ATTENZIONE CRITICA
 
@@ -39,6 +43,9 @@
 
 ## Struttura del Progetto
 
+<<<<<<< HEAD
+Il progetto SaluteOra utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -71,6 +78,7 @@ Il progetto SaluteOra utilizza un sistema di **Themes** che modifica la struttur
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 
 ```
 /laravel/
@@ -226,6 +234,9 @@ config('theme.views_path') // Output: "Themes/One/resources/views"
 
 - [Documentazione Laravel Folio](https://laravel.com/docs/folio)
 - [mcamara/laravel-localization](https://github.com/mcamara/laravel-localization)
+<<<<<<< HEAD
+- Configurazione Theme: `/laravel/config/theme.php`
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -420,3 +431,4 @@ config('theme.views_path') // Output: "Themes/One/resources/views"
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

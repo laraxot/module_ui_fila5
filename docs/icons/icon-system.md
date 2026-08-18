@@ -5,8 +5,13 @@ tags: [icon, system]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "icon-system ui module icon system"
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
 related:
 ---
 
@@ -95,6 +100,9 @@ Tables\Columns\IconColumn::make('status')
 Each module registers its own SVG icons:
 - `Modules/User/resources/svg/` → `user-{name}`
 <<<<<<< HEAD
+- `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
@@ -109,6 +117,7 @@ Each module registers its own SVG icons:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 - etc.
 
 The `ui-` prefix is special: contains the global design system icons shared across all modules.

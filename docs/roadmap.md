@@ -22,6 +22,9 @@ Creare un ecosistema UI "Headless-first" che permetta di cambiare radicalmente i
 - [ ] **AI Theme Generator**: Generazione automatica di palette colori accessibili da un'immagine di brand.
 - [ ] **Dynamic Layout Optimization**: L'AI suggerisce layout migliori in base al tipo di contenuto visualizzato.
 <<<<<<< HEAD
+- [ ] **Predictive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - [ ] **Predictive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
@@ -36,6 +39,7 @@ Creare un ecosistema UI "Headless-first" che permetta di cambiare radicalmente i
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 
 ## ✅ Checklist Qualità
 - [x] PHPStan Level 10.

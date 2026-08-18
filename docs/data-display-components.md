@@ -170,6 +170,9 @@ new Chart(ctx, {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 <<<<<<< HEAD
+  
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -188,6 +191,7 @@ new Chart(ctx, {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
   @media (max-width: 768px) {
     .table {
       min-width: 600px;
@@ -202,6 +206,9 @@ new Chart(ctx, {
   position: relative;
   height: 300px;
 <<<<<<< HEAD
+  
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -220,6 +227,7 @@ new Chart(ctx, {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
   canvas {
     animation: fadeIn 0.5s ease;
   }
@@ -230,6 +238,9 @@ new Chart(ctx, {
 - [Componenti Base](./base-components.md)
 - [Form Avanzati](./advanced-form-components.md)
 - [Accessibilità](./standards/accessibility.md)
+<<<<<<< HEAD
+- [Performance](./standards/performance.md) 
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -454,3 +465,4 @@ new Chart(ctx, {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

@@ -3,6 +3,9 @@
 ## Panoramica
 
 <<<<<<< HEAD
+Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_predict_fila3_mono.
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_predict_fila3_mono.
@@ -13,6 +16,7 @@ Questo documento fornisce linee guida per l'integrazione dei server MCP (Model C
 =======
 Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_predict_fila3_mono.
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
 
 ## Server MCP Consigliati
 
@@ -63,6 +67,9 @@ class GenerateUIScreenshotsAction
     {
         $results = [];
 <<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
         
 =======
@@ -71,11 +78,15 @@ class GenerateUIScreenshotsAction
 =======
         
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
         // Assicurati che la directory di output esista
         if (!file_exists($outputDir)) {
             mkdir($outputDir, 0755, true);
         }
 <<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
         
 =======
@@ -84,12 +95,16 @@ class GenerateUIScreenshotsAction
 =======
         
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
         foreach ($routes as $route) {
             try {
                 $url = route($route);
                 $fileName = Str::slug($route) . '.png';
                 $outputPath = $outputDir . '/' . $fileName;
 <<<<<<< HEAD
+                
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
                 
 =======
@@ -98,11 +113,15 @@ class GenerateUIScreenshotsAction
 =======
                 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
                 Log::info("Generating screenshot for route: {$route}", [
                     'url' => $url,
                     'output_path' => $outputPath
                 ]);
 <<<<<<< HEAD
+                
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
                 
 =======
@@ -111,6 +130,7 @@ class GenerateUIScreenshotsAction
 =======
                 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
                 $screenshotPath = $this->mcpService->puppeteer()->captureScreenshot(
                     $url,
                     $outputPath,
@@ -121,6 +141,9 @@ class GenerateUIScreenshotsAction
                     ], $options)
                 );
 <<<<<<< HEAD
+                
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
                 
 =======
@@ -129,6 +152,7 @@ class GenerateUIScreenshotsAction
 =======
                 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
                 if ($screenshotPath) {
                     $results[$route] = $screenshotPath;
                     Log::info("Screenshot generated successfully", [
@@ -149,6 +173,9 @@ class GenerateUIScreenshotsAction
             }
         }
 <<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
         
 =======
@@ -157,6 +184,7 @@ class GenerateUIScreenshotsAction
 =======
         
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
         return $results;
     }
 }
@@ -205,13 +233,18 @@ class ThemeFileService
     {
         $fullPath = $this->getThemePath($themeName) . '/' . $filePath;
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
         
         try {
             $content = $this->mcpService->filesystem()->readFile($fullPath);
             
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 
@@ -221,6 +254,7 @@ class ThemeFileService
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
             return $content ?: null;
         } catch (\Exception $e) {
             Log::error("Failed to read theme file", [
@@ -229,6 +263,9 @@ class ThemeFileService
                 'message' => $e->getMessage()
             ]);
 <<<<<<< HEAD
+            
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
             
 =======
@@ -237,6 +274,7 @@ class ThemeFileService
 =======
             
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
             return null;
         }
     }
@@ -254,6 +292,9 @@ class ThemeFileService
     {
         $fullPath = $this->getThemePath($themeName) . '/' . $filePath;
 <<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
         
 =======
@@ -262,6 +303,7 @@ class ThemeFileService
 =======
         
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
         try {
             // Assicurati che la directory esista
             $directory = dirname($fullPath);
@@ -269,6 +311,9 @@ class ThemeFileService
                 mkdir($directory, 0755, true);
             }
 <<<<<<< HEAD
+            
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
             
 =======
@@ -277,6 +322,7 @@ class ThemeFileService
 =======
             
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
             return $this->mcpService->filesystem()->writeFile($fullPath, $content);
         } catch (\Exception $e) {
             Log::error("Failed to write theme file", [
@@ -285,6 +331,9 @@ class ThemeFileService
                 'message' => $e->getMessage()
             ]);
 <<<<<<< HEAD
+            
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
             
 =======
@@ -293,6 +342,7 @@ class ThemeFileService
 =======
             
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
             return false;
         }
     }
@@ -309,14 +359,19 @@ class ThemeFileService
     {
         $fullPath = $this->getThemePath($themeName);
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
         
         if ($directory) {
             $fullPath .= '/' . $directory;
         }
         
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 
@@ -327,6 +382,7 @@ class ThemeFileService
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
         try {
             return $this->mcpService->filesystem()->listDirectory($fullPath);
         } catch (\Exception $e) {
@@ -336,6 +392,9 @@ class ThemeFileService
                 'message' => $e->getMessage()
             ]);
 <<<<<<< HEAD
+            
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
             
 =======
@@ -344,6 +403,7 @@ class ThemeFileService
 =======
             
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
             return [];
         }
     }
@@ -407,6 +467,9 @@ class UICacheService
     {
         $cacheKey = $this->generateComponentCacheKey($componentName, $props);
 <<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
         
 =======
@@ -415,6 +478,7 @@ class UICacheService
 =======
         
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
         try {
             return $this->mcpService->redis()->set(
                 $cacheKey,
@@ -430,6 +494,9 @@ class UICacheService
                 'message' => $e->getMessage()
             ]);
 <<<<<<< HEAD
+            
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
             
 =======
@@ -438,6 +505,7 @@ class UICacheService
 =======
             
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
             return false;
         }
     }
@@ -454,9 +522,12 @@ class UICacheService
     {
         $cacheKey = $this->generateComponentCacheKey($componentName, $props);
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
         
         try {
             $cached = $this->mcpService->redis()->get($cacheKey);
@@ -467,6 +538,8 @@ class UICacheService
             
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 
         try {
             $cached = $this->mcpService->redis()->get($cacheKey);
@@ -478,12 +551,16 @@ class UICacheService
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
             return null;
         } catch (\Exception $e) {
             Log::error("Failed to get cached UI component", [
                 'component' => $componentName,
                 'message' => $e->getMessage()
             ]);
+<<<<<<< HEAD
+            
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
             
@@ -493,6 +570,7 @@ class UICacheService
 =======
             
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
             return null;
         }
     }
@@ -511,9 +589,12 @@ class UICacheService
             // Invalida tutti i componenti con questo nome
             $pattern = "ui_component_{$componentName}_*";
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
             
             try {
                 $keys = $this->mcpService->redis()->keys($pattern);
@@ -522,6 +603,8 @@ class UICacheService
                     $this->mcpService->redis()->delete($key);
                 }
                 
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 
@@ -535,6 +618,7 @@ class UICacheService
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
                 return true;
             } catch (\Exception $e) {
                 Log::error("Failed to invalidate UI component cache", [
@@ -542,6 +626,9 @@ class UICacheService
                     'message' => $e->getMessage()
                 ]);
 <<<<<<< HEAD
+                
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
                 
 =======
@@ -550,12 +637,16 @@ class UICacheService
 =======
                 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
                 return false;
             }
         } else {
             // Invalida un componente specifico
             $cacheKey = $this->generateComponentCacheKey($componentName, $props);
 <<<<<<< HEAD
+            
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
             
 =======
@@ -564,6 +655,7 @@ class UICacheService
 =======
             
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
             try {
                 return $this->mcpService->redis()->delete($cacheKey);
             } catch (\Exception $e) {
@@ -572,6 +664,9 @@ class UICacheService
                     'message' => $e->getMessage()
                 ]);
 <<<<<<< HEAD
+                
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
                 
 =======
@@ -580,6 +675,7 @@ class UICacheService
 =======
                 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
                 return false;
             }
         }
@@ -597,6 +693,9 @@ class UICacheService
     {
         $propsHash = md5(json_encode($props));
 <<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
         
 =======
@@ -605,6 +704,7 @@ class UICacheService
 =======
         
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
         return "ui_component_{$componentName}_{$propsHash}";
     }
 }
@@ -655,6 +755,9 @@ class AnalyzeUIAccessibilityAction
             // Estrai il contenuto HTML della pagina
             $html = $this->mcpService->puppeteer()->extractContent($url, 'html');
 <<<<<<< HEAD
+            
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
             
 =======
@@ -663,11 +766,15 @@ class AnalyzeUIAccessibilityAction
 =======
             
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
             if (!$html) {
                 Log::error("Failed to extract HTML content", [
                     'url' => $url
                 ]);
 <<<<<<< HEAD
+                
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
                 
 =======
@@ -676,6 +783,7 @@ class AnalyzeUIAccessibilityAction
 =======
                 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
                 return new UIAnalysisData(
                     score: 0,
                     issues: ['Failed to extract HTML content'],
@@ -683,6 +791,9 @@ class AnalyzeUIAccessibilityAction
                 );
             }
 <<<<<<< HEAD
+            
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
             
 =======
@@ -691,20 +802,26 @@ class AnalyzeUIAccessibilityAction
 =======
             
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
             // Analizza l'accessibilità con sequential-thinking
             $analysis = $this->mcpService->sequentialThinking()->analyze(
                 $html,
                 ['accessibility', 'usability', 'performance']
             );
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
             
             $accessibilityScore = $analysis['accessibility']['score'] ?? 0;
             $accessibilityIssues = $analysis['accessibility']['issues'] ?? [];
             $suggestions = $analysis['accessibility']['suggestions'] ?? [];
             
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 
@@ -715,6 +832,7 @@ class AnalyzeUIAccessibilityAction
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
             return new UIAnalysisData(
                 score: $accessibilityScore,
                 issues: $accessibilityIssues,
@@ -727,6 +845,9 @@ class AnalyzeUIAccessibilityAction
                 'trace' => $e->getTraceAsString()
             ]);
 <<<<<<< HEAD
+            
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
             
 =======
@@ -735,6 +856,7 @@ class AnalyzeUIAccessibilityAction
 =======
             
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
             return new UIAnalysisData(
                 score: 0,
                 issues: ['Analysis failed: ' . $e->getMessage()],
@@ -767,6 +889,9 @@ class CachedUIComponent extends Component
      */
     public string $componentName;
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     
 =======
@@ -775,11 +900,15 @@ class CachedUIComponent extends Component
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
     /**
      * @var array<string, mixed>
      */
     public array $componentProps = [];
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     
 =======
@@ -788,11 +917,15 @@ class CachedUIComponent extends Component
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
     /**
      * @var int
      */
     public int $cacheTtl = 3600;
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     
 =======
@@ -801,11 +934,15 @@ class CachedUIComponent extends Component
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
     /**
      * @var bool
      */
     public bool $forceRefresh = false;
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     
 =======
@@ -814,6 +951,7 @@ class CachedUIComponent extends Component
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
     /**
      * Monta il componente.
      *
@@ -830,6 +968,9 @@ class CachedUIComponent extends Component
         $this->cacheTtl = $cacheTtl;
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     
 =======
@@ -838,6 +979,7 @@ class CachedUIComponent extends Component
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
     /**
      * Forza l'aggiornamento del componente.
      *
@@ -848,6 +990,9 @@ class CachedUIComponent extends Component
         $this->forceRefresh = true;
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     
 =======
@@ -856,6 +1001,7 @@ class CachedUIComponent extends Component
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
     /**
      * Renderizza il componente.
      *
@@ -866,9 +1012,12 @@ class CachedUIComponent extends Component
         /** @var MCPServiceContract $mcpService */
         $mcpService = app(MCPServiceContract::class);
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
         
         /** @var UICacheService $uiCacheService */
         $uiCacheService = app(UICacheService::class);
@@ -887,6 +1036,8 @@ class CachedUIComponent extends Component
             $uiCacheService->cacheComponent($this->componentName, $this->componentProps, $html, $this->cacheTtl);
         }
         
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 
@@ -910,6 +1061,7 @@ class CachedUIComponent extends Component
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
         return view('ui::livewire.cached-ui-component', [
             'html' => $html
         ]);
@@ -939,14 +1091,19 @@ $mount = function (string $url = '') {
 $analyze = function () {
     $this->isAnalyzing = true;
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
     
     try {
         /** @var AnalyzeUIAccessibilityAction $analyzeAction */
         $analyzeAction = app(AnalyzeUIAccessibilityAction::class);
         
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 
@@ -957,6 +1114,7 @@ $analyze = function () {
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
         $this->analysisResult = $analyzeAction->execute($this->url);
     } catch (\Exception $e) {
         $this->addError('analysis', $e->getMessage());
@@ -980,6 +1138,9 @@ $analyze = function () {
         @error('analysis') <span class="text-red-500 text-xs">{{ $message }}</span> @enderror
     </div>
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
     
 =======
@@ -988,6 +1149,7 @@ $analyze = function () {
 =======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
     @if($analysisResult)
         <div class="mt-6 bg-white shadow overflow-hidden sm:rounded-lg">
             <div class="px-4 py-5 sm:px-6">
@@ -1058,6 +1220,9 @@ $analyze = function () {
 
 ## Conclusione
 
+<<<<<<< HEAD
+L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_predict_fila3_mono.
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_ptvx_fila3_mono.
@@ -2487,3 +2652,4 @@ L'integrazione dei server MCP con il modulo UI consente di migliorare significat
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

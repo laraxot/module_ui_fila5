@@ -69,6 +69,9 @@ I componenti di navigazione devono utilizzare sempre le funzioni di localizzazio
 ### Traduzioni Necessarie
 
 <<<<<<< HEAD
+Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/saluteora/laravel/lang/{locale}/auth.php`:
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/saluteora/laravel/lang/{locale}/auth.php`:
@@ -83,6 +86,7 @@ Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/htm
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 
 ```php
 return [

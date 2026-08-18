@@ -1,4 +1,6 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -7,6 +9,7 @@
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
 # TableLayoutToggleTableAction
 
 ## Panoramica
@@ -66,6 +69,9 @@ class MyListRecords extends ListRecords
 [Torna alla documentazione UI](/docs/modules/module_ui.md#actions) 
 =======
 <<<<<<< HEAD
+[Torna alla documentazione UI](/docs/modules/module_ui.md#actions) 
+=======
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -76,8 +82,8 @@ tags: [table, layout, toggle]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "table-layout-toggle tablelayouttoggletableaction"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
   - "./table-layout-toggle-1.md"
 ---
@@ -199,3 +205,4 @@ Vedi [bugfix](../bugfix-table-layout-toggle-not-working.md): bastano `resetTable
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

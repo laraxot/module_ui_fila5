@@ -78,6 +78,9 @@ Mostra documentazione al passaggio del mouse su:
 ```php
 // Digitare 'fil-form' e premere Tab
 <<<<<<< HEAD
+public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 public static function form(Form $form): Form
@@ -100,6 +103,7 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 {
     return $form->schema([
         // Digitare 'fil-text' e premere Tab
@@ -107,6 +111,9 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
             ->required()
             ->maxLength(255),
 <<<<<<< HEAD
+            
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -125,6 +132,7 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
         // Digitare 'fil-select' e premere Tab
         Select::make('status')
             ->options([
@@ -133,6 +141,9 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
             ])
             ->required(),
 <<<<<<< HEAD
+            
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -151,6 +162,7 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
         // Digitare 'fil-rich' e premere Tab
         RichEditor::make('content')
             ->required()
@@ -172,6 +184,9 @@ public static function table(Table $table): Table
                 ->searchable()
                 ->sortable(),
 <<<<<<< HEAD
+                
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -190,6 +205,7 @@ public static function table(Table $table): Table
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
             // Digitare 'fil-col' e premere Tab
             IconColumn::make('status')
                 ->boolean(),
@@ -230,6 +246,9 @@ Forms\Components\Wizard::make([
                     Forms\Components\TextInput::make('first_name')
                         ->required(),
 <<<<<<< HEAD
+                        
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -248,6 +267,7 @@ Forms\Components\Wizard::make([
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
                     Forms\Components\TextInput::make('last_name')
                         ->required(),
                 ]),
@@ -303,6 +323,9 @@ Forms\Components\Wizard::make([
 
 - [Filament Documentation](https://filamentphp.com)
 - [VSCode PHP Extension](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
+<<<<<<< HEAD
+- [Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack) 
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -497,3 +520,4 @@ Forms\Components\Wizard::make([
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

@@ -143,6 +143,9 @@ class S3Test extends XotBasePage
 - [DRY + KISS Principles](../../Xot/docs/dry_kiss_principles.md)
 
 <<<<<<< HEAD
+*Ultimo aggiornamento: giugno 2025* 
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 *Ultimo aggiornamento: giugno 2025* 
@@ -314,3 +317,4 @@ class S3Test extends XotBasePage
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

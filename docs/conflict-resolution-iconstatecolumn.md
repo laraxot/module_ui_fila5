@@ -71,6 +71,9 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 - [Modules/UI/docs/](../docs/)
 
 <<<<<<< HEAD
+*Ultimo aggiornamento: 29 luglio 2025*
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 *Ultimo aggiornamento: 29 luglio 2025*
@@ -172,3 +175,4 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

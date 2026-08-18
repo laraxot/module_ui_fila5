@@ -8,6 +8,9 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 ### LineChart
 ```blade
 <<<<<<< HEAD
+<x-ui::line-chart 
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <x-ui::line-chart
@@ -26,6 +29,7 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     :title="'Andamento Utenti'"
     :labels="['Gen', 'Feb', 'Mar', 'Apr', 'Mag', 'Giu']"
     :datasets="[
@@ -46,6 +50,9 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 ### PieChart
 ```blade
 <<<<<<< HEAD
+<x-ui::pie-chart 
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <x-ui::pie-chart
@@ -64,6 +71,7 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     :title="'Distribuzione Utenti'"
     :labels="['Attivi', 'Inattivi', 'In attesa']"
     :data="[300, 50, 100]"
@@ -78,6 +86,9 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 ### StatsOverview
 ```blade
 <<<<<<< HEAD
+<x-ui::stats-overview 
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <x-ui::stats-overview
@@ -96,6 +107,7 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     :stats="[
         [
             'label' => 'Utenti Totali',
@@ -146,6 +158,9 @@ class UserStats extends Component
 {
     public $chartData;
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -164,11 +179,15 @@ class UserStats extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function mount()
     {
         $this->updateChartData();
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -187,6 +206,7 @@ class UserStats extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function updateChartData()
     {
         $this->chartData = [
@@ -201,6 +221,9 @@ class UserStats extends Component
         ];
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -219,6 +242,7 @@ class UserStats extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function render()
     {
         return view('livewire.user-stats');
@@ -245,6 +269,9 @@ class UserStats extends Component
 - [Componenti Form](./form-components.md)
 - [Componenti Table](./table-components.md)
 - [Componenti Layout](./layout-components.md)
+<<<<<<< HEAD
+- [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -414,3 +441,4 @@ class UserStats extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

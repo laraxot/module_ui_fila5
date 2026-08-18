@@ -1,4 +1,6 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -16,8 +18,8 @@ tags: [flip, cards]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "flip-cards flip_cards"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
   - "./api.md"
   - "./blocks.md"
@@ -41,12 +43,15 @@ related:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 # flip_cards
 
 <!-- Contenuto migrato da _docs/flip_cards.txt -->
 
 https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
 
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -99,6 +104,7 @@ https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create
 <!-- Contenuto migrato da _docs/flip_cards.txt -->
 
 https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
+>>>>>>> 92912795 (.)
 
 https://codepen.io/desandro/pen/LmWozd
 
@@ -108,6 +114,11 @@ https://dev.to/adetutu/how-to-design-a-css-card-flip-animation-creating-flipping
 
 https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
 
+<<<<<<< HEAD
+
+
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+=======
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
 =======
 <<<<<<< HEAD
@@ -123,3 +134,4 @@ https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

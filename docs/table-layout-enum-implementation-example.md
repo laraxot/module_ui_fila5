@@ -29,6 +29,9 @@ class ListUsers extends XotBaseListRecords
 {
     protected TableLayoutEnum $layout;
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -47,12 +50,16 @@ class ListUsers extends XotBaseListRecords
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function mount(): void
     {
         parent::mount();
         $this->layout = TableLayoutEnum::init();
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -71,6 +78,7 @@ class ListUsers extends XotBaseListRecords
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function table(Table $table): Table
     {
         return $table
@@ -82,6 +90,9 @@ class ListUsers extends XotBaseListRecords
             ->filterable();
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -100,6 +111,7 @@ class ListUsers extends XotBaseListRecords
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     /**
      * Restituisce le colonne appropriate per il layout corrente
      */
@@ -124,6 +136,9 @@ class ListUsers extends XotBaseListRecords
                 }),
         ];
 <<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -142,6 +157,7 @@ class ListUsers extends XotBaseListRecords
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
         $gridColumns = [
             Stack::make([
                 TextColumn::make('name')
@@ -161,6 +177,8 @@ class ListUsers extends XotBaseListRecords
                 }),
         ];
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -169,6 +187,7 @@ class ListUsers extends XotBaseListRecords
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
         
         return $this->layout->getTableColumns($listColumns, $gridColumns);
     }
@@ -177,6 +196,8 @@ class ListUsers extends XotBaseListRecords
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
@@ -195,6 +216,7 @@ class ListUsers extends XotBaseListRecords
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     /**
      * Azioni header con toggle layout
      */
@@ -211,6 +233,9 @@ class ListUsers extends XotBaseListRecords
         ];
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -229,6 +254,7 @@ class ListUsers extends XotBaseListRecords
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     /**
      * Azioni bulk per il layout corrente
      */
@@ -379,6 +405,9 @@ class TableLayoutEnumTest extends TestCase
         $this->assertEquals(TableLayoutEnum::LIST, TableLayoutEnum::init());
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -397,6 +426,7 @@ class TableLayoutEnumTest extends TestCase
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function test_toggle_switches_layout(): void
     {
         $layout = TableLayoutEnum::LIST;
@@ -404,6 +434,9 @@ class TableLayoutEnumTest extends TestCase
         $this->assertEquals(TableLayoutEnum::LIST, $layout->toggle()->toggle());
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -422,11 +455,15 @@ class TableLayoutEnumTest extends TestCase
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function test_get_label_returns_translated_string(): void
     {
         $listLabel = TableLayoutEnum::LIST->getLabel();
         $gridLabel = TableLayoutEnum::GRID->getLabel();
 <<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -445,12 +482,16 @@ class TableLayoutEnumTest extends TestCase
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
         $this->assertIsString($listLabel);
         $this->assertIsString($gridLabel);
         $this->assertNotEmpty($listLabel);
         $this->assertNotEmpty($gridLabel);
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -469,11 +510,15 @@ class TableLayoutEnumTest extends TestCase
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function test_get_color_returns_valid_color(): void
     {
         $listColor = TableLayoutEnum::LIST->getColor();
         $gridColor = TableLayoutEnum::GRID->getColor();
 <<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -492,12 +537,16 @@ class TableLayoutEnumTest extends TestCase
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
         $this->assertIsString($listColor);
         $this->assertIsString($gridColor);
         $this->assertNotEmpty($listColor);
         $this->assertNotEmpty($gridColor);
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -516,11 +565,15 @@ class TableLayoutEnumTest extends TestCase
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function test_get_icon_returns_valid_icon(): void
     {
         $listIcon = TableLayoutEnum::LIST->getIcon();
         $gridIcon = TableLayoutEnum::GRID->getIcon();
 <<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -539,12 +592,16 @@ class TableLayoutEnumTest extends TestCase
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
         $this->assertIsString($listIcon);
         $this->assertIsString($gridIcon);
         $this->assertNotEmpty($listIcon);
         $this->assertNotEmpty($gridIcon);
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -563,11 +620,14 @@ class TableLayoutEnumTest extends TestCase
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function test_get_table_content_grid_returns_null_for_list(): void
     {
         $this->assertNull(TableLayoutEnum::LIST->getTableContentGrid());
     }
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -576,6 +636,7 @@ class TableLayoutEnumTest extends TestCase
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
     
     public function test_get_table_content_grid_returns_array_for_grid(): void
     {
@@ -585,6 +646,8 @@ class TableLayoutEnumTest extends TestCase
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
@@ -604,6 +667,7 @@ class TableLayoutEnumTest extends TestCase
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
         $this->assertIsArray($grid);
         $this->assertArrayHasKey('sm', $grid);
         $this->assertArrayHasKey('md', $grid);
@@ -612,6 +676,9 @@ class TableLayoutEnumTest extends TestCase
         $this->assertArrayHasKey('2xl', $grid);
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -630,11 +697,14 @@ class TableLayoutEnumTest extends TestCase
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function test_get_table_columns_returns_correct_columns(): void
     {
         $listColumns = ['name', 'email'];
         $gridColumns = ['stack'];
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -647,6 +717,7 @@ class TableLayoutEnumTest extends TestCase
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
         
         $result = TableLayoutEnum::LIST->getTableColumns($listColumns, $gridColumns);
         $this->assertEquals($listColumns, $result);
@@ -657,6 +728,8 @@ class TableLayoutEnumTest extends TestCase
     
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 
         $result = TableLayoutEnum::LIST->getTableColumns($listColumns, $gridColumns);
         $this->assertEquals($listColumns, $result);
@@ -681,12 +754,16 @@ class TableLayoutEnumTest extends TestCase
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function test_is_grid_layout_returns_correct_boolean(): void
     {
         $this->assertTrue(TableLayoutEnum::GRID->isGridLayout());
         $this->assertFalse(TableLayoutEnum::LIST->isGridLayout());
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -705,12 +782,15 @@ class TableLayoutEnumTest extends TestCase
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function test_is_list_layout_returns_correct_boolean(): void
     {
         $this->assertTrue(TableLayoutEnum::LIST->isListLayout());
         $this->assertFalse(TableLayoutEnum::GRID->isListLayout());
     }
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -719,6 +799,7 @@ class TableLayoutEnumTest extends TestCase
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
     
     public function test_get_options_returns_all_options(): void
     {
@@ -728,6 +809,8 @@ class TableLayoutEnumTest extends TestCase
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
@@ -747,12 +830,16 @@ class TableLayoutEnumTest extends TestCase
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
         $this->assertIsArray($options);
         $this->assertArrayHasKey('list', $options);
         $this->assertArrayHasKey('grid', $options);
         $this->assertCount(2, $options);
     }
 <<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -771,11 +858,15 @@ class TableLayoutEnumTest extends TestCase
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function test_get_container_classes_returns_valid_classes(): void
     {
         $listClasses = TableLayoutEnum::LIST->getContainerClasses();
         $gridClasses = TableLayoutEnum::GRID->getContainerClasses();
 <<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -794,6 +885,7 @@ class TableLayoutEnumTest extends TestCase
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
         $this->assertEquals('table-layout-list', $listClasses);
         $this->assertEquals('table-layout-grid', $gridClasses);
     }
@@ -852,6 +944,9 @@ TextColumn::make('name')
 - [Filament Best Practices](../../../docs/filament_best_practices.md)
 - [Enum Translation Pattern](../../../docs/enum-translation-pattern.md)
 
+<<<<<<< HEAD
+*Ultimo aggiornamento: 2025-01-27* 
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1294,3 +1389,4 @@ TextColumn::make('name')
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

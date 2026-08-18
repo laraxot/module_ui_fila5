@@ -62,6 +62,9 @@ Questa documentazione integra le informazioni sui conflitti risolti, fornendo de
 - [Vedi anche: Blog/docs/README.md](../../Blog/docs/README.md)
 - [Vedi anche: Cms/docs/README.md](../../Cms/docs/README.md)
 <<<<<<< HEAD
+- [Vedi anche: Comment/docs/README.md](../../Comment/docs/README.md)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [Vedi anche: Comment/docs/README.md](../../Comment/docs/README.md)
@@ -152,3 +155,4 @@ Questa documentazione integra le informazioni sui conflitti risolti, fornendo de
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

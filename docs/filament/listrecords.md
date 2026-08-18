@@ -1,4 +1,6 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -16,8 +18,8 @@ tags: [listrecords]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "listrecords list records in filament"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -41,6 +43,7 @@ related:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 # List Records in Filament
 
 ## Estensione Corretta
@@ -196,6 +199,8 @@ use Webmozart\Assert\Assert;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 class ListXXX extends XotBaseListRecords
@@ -209,6 +214,7 @@ class ListXXX extends XotBaseListRecords
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
 
 class ListXXX extends XotBaseListRecords
 {
@@ -223,6 +229,8 @@ class ListXXX extends XotBaseListRecords
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 class ListXXX extends XotBaseListRecords
 {
     
@@ -235,6 +243,7 @@ class ListXXX extends XotBaseListRecords
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
     public function getGridTableColumns(): array
     {
         return [
@@ -257,6 +266,9 @@ class ListXXX extends XotBaseListRecords
     {
         return [
 <<<<<<< HEAD
+            
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -275,6 +287,7 @@ class ListXXX extends XotBaseListRecords
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
             ViewAction::make()
                 ->label(''),
             EditAction::make()
@@ -312,6 +325,9 @@ class ListXXX extends XotBaseListRecords
             );
     }
 }
+<<<<<<< HEAD
+```
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -558,3 +574,4 @@ class ListXXX extends XotBaseListRecords
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

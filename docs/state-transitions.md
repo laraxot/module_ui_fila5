@@ -48,6 +48,9 @@ class ExampleTransition extends Transition
 ## Related Documentation
 - [State Management](./state-management.md)
 <<<<<<< HEAD
+- [SelectStateColumn Documentation](./select-state-column.md)
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [SelectStateColumn Documentation](./select-state-column.md)
@@ -124,3 +127,4 @@ class ExampleTransition extends Transition
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

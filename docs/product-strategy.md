@@ -1,4 +1,6 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 # UI - Product Strategy
@@ -56,6 +58,7 @@ Portare **UI** a uno stato in cui il progetto ottiene un vantaggio netto e misur
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
 # UI Module - Product Strategy
 
 **Module:** UI  
@@ -149,6 +152,9 @@ Easy to use and extend.
 <<<<<<< HEAD
 *Last Updated: March 12, 2026*
 =======
+<<<<<<< HEAD
+*Last Updated: March 12, 2026*
+=======
 # UI - Product Strategy
 
 **Module:** UI  
@@ -214,3 +220,4 @@ Easy to use and extend.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

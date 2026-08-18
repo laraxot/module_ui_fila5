@@ -1,4 +1,6 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 # User Research: UI Module
@@ -15,6 +17,7 @@ Identify usability issues in complex Filament forms and tables.
 <<<<<<< HEAD
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
 # UI Module - User Research
 
 **Module:** UI  
@@ -110,6 +113,9 @@ Some customization capability required.
 <<<<<<< HEAD
 *Last Updated: March 12, 2026*
 =======
+<<<<<<< HEAD
+*Last Updated: March 12, 2026*
+=======
 # User Research: UI Module
 
 **Module:** UI  
@@ -139,3 +145,4 @@ Some customization capability required.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)

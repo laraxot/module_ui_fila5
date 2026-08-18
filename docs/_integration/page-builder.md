@@ -1,4 +1,6 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -16,8 +18,8 @@ tags: [page, builder]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "page-builder page_builder"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
   - "./api.md"
   - "./blocks.md"
@@ -41,10 +43,14 @@ related:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 # page_builder
 
 <!-- Contenuto migrato da _docs/page_builder.txt -->
 
+<<<<<<< HEAD
+https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77,3 +83,4 @@ https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
