@@ -1,6 +1,13 @@
 # REGOLA CRITICA: MAI usare ->label()
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_XE8nGn
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_zrlaAK
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -296,6 +303,12 @@ TextColumn::make('status')
 ## Checklist Pre-Implementazione
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_XE8nGn
+=======
+<<<<<<< HEAD
+### Prima di usare qualsiasi componente Filament:
+=======
+>>>>>>> .merge_file_zrlaAK
 <<<<<<< HEAD
 ### Prima di usare qualsiasi componente Filament:
 =======
@@ -349,11 +362,23 @@ Prima di usare qualsiasi componente Filament:
 - [ ] Verificare che non ci siano `->label()` nel codice
 - [ ] Controllare che tutte le traduzioni siano implementate
 - [ ] Testare che le traduzioni funzionino correttamente
+<<<<<<< .merge_file_XE8nGn
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_zrlaAK
 
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_XE8nGn
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zrlaAK
 ## Verifica Automatica
 
 ### PHPStan Rule (Ideale)

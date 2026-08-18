@@ -12,7 +12,19 @@
 
 ## Collegamenti correlati
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
+<<<<<<< .merge_file_trgDNO
 - [Architettura Modulare](/laravel/Modules/UI/docs/ARCHITECTURE.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Architettura Modulare](/laravel/Modules/UI/docs/ARCHITECTURE.md)
+=======
+- [Architettura Modulare](/laravel/Modules/UI/docs/architecture.md)
+>>>>>>> 92912795 (.)
+=======
+- [Architettura Modulare](/laravel/Modules/UI/docs/ARCHITECTURE.md)
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_OWkic9
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
 
 ## Percorsi Corretti per gli Asset
@@ -60,6 +72,12 @@
 | Tipo di Asset | ✅ Percorso Corretto | ❌ Percorso Errato |
 |---------------|---------------------|-------------------|
 <<<<<<< HEAD
+<<<<<<< .merge_file_trgDNO
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_OWkic9
 <<<<<<< HEAD
 =======
 | Immagini | `[project-root]/public_html/images/` | `[project-root]/laravel/public/images/` |
@@ -77,6 +95,18 @@
 | CSS | `/var/www/html/saluteora/public_html/css/` | `/var/www/html/saluteora/laravel/public/css/` |
 | JavaScript | `/var/www/html/saluteora/public_html/js/` | `/var/www/html/saluteora/laravel/public/js/` |
 | SVG | `/var/www/html/saluteora/public_html/images/` | `/var/www/html/saluteora/laravel/public/images/` |
+<<<<<<< .merge_file_trgDNO
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> .merge_file_OWkic9
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)

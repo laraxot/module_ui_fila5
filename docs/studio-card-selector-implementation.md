@@ -6,6 +6,13 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 ## 🏗️ **Architettura Component**
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_QotBmV
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_wJTV3B
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -308,6 +315,21 @@ class StudioCardSelector extends Field
 {
     protected string $view = 'ui::forms.components.studio-card-selector';
 <<<<<<< HEAD
+<<<<<<< .merge_file_QotBmV
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> .merge_file_wJTV3B
     
     // Dati studios da visualizzare
     protected Collection|Closure|null $studios = null;
@@ -331,122 +353,331 @@ class StudioCardSelector extends Field
     protected bool $showSpecializations = false;
     protected bool $showPhone = false;
     protected string $cardLayout = 'default'; // 'default', 'compact', 'detailed'
+<<<<<<< .merge_file_QotBmV
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_wJTV3B
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_QotBmV
+=======
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wJTV3B
     // Configure studios data source
     public function studios(Collection|Closure $studios): static
     {
         $this->studios = $studios;
         return $this;
     }
+<<<<<<< .merge_file_QotBmV
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_wJTV3B
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_QotBmV
+=======
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wJTV3B
     // Enable/disable features
     public function showDistance(bool $show = true): static
     {
         $this->showDistance = $show;
         return $this;
     }
+<<<<<<< .merge_file_QotBmV
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_wJTV3B
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_QotBmV
+=======
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wJTV3B
     public function showSpecializations(bool $show = true): static
     {
         $this->showSpecializations = $show;
         return $this;
     }
+<<<<<<< .merge_file_QotBmV
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_wJTV3B
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_QotBmV
+=======
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wJTV3B
     public function showPhone(bool $show = true): static
     {
         $this->showPhone = $show;
         return $this;
     }
+<<<<<<< .merge_file_QotBmV
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_wJTV3B
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_QotBmV
+=======
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wJTV3B
     // Layout variants
     public function compact(): static
     {
         $this->cardLayout = 'compact';
         return $this;
     }
+<<<<<<< .merge_file_QotBmV
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_wJTV3B
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_QotBmV
+=======
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wJTV3B
     public function detailed(): static
     {
         $this->cardLayout = 'detailed';
         return $this;
     }
+<<<<<<< .merge_file_QotBmV
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_wJTV3B
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_QotBmV
+=======
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wJTV3B
     // Data getters for view
     public function getStudios(): Collection
     {
         return $this->evaluate($this->studios) ?? collect();
     }
+<<<<<<< .merge_file_QotBmV
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_wJTV3B
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_QotBmV
+=======
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wJTV3B
     public function getCardLayout(): string
     {
         return $this->cardLayout;
     }
+<<<<<<< .merge_file_QotBmV
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_wJTV3B
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_QotBmV
+=======
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wJTV3B
     public function shouldShowDistance(): bool
     {
         return $this->showDistance;
     }
+<<<<<<< .merge_file_QotBmV
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_wJTV3B
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_QotBmV
+=======
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wJTV3B
     public function shouldShowSpecializations(): bool
     {
         return $this->showSpecializations;
     }
+<<<<<<< .merge_file_QotBmV
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_wJTV3B
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_QotBmV
+=======
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wJTV3B
     public function shouldShowPhone(): bool
     {
         return $this->showPhone;
@@ -504,6 +735,8 @@ private function getStudiosForLocation(Get $get): Collection
     $region = $get('region');
     
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     if (!$cap || !$province || !$region) {
         return collect();
@@ -574,6 +807,21 @@ return [
 - [Form Components Guide](./form-components.md)
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_QotBmV
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> .merge_file_wJTV3B
 ### Modulo <nome progetto>
 - [Widget Analysis](../<nome progetto>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
 

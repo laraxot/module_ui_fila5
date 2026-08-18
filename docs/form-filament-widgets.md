@@ -86,6 +86,11 @@ public static function getFormSchema(): array
                 ->required()
                 ->columnSpan(1),
         ]),
+<<<<<<< .merge_file_HQyurZ
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_KtQUlS
         
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
@@ -240,6 +245,7 @@ Per una documentazione più approfondita sull'utilizzo dei widget Filament in il
 - [Best Practices per i Form in il progetto](../laravel/Modules/Cms/docs/form_best_practices.md) (da creare)
 
 ## Conclusione
+<<<<<<< HEAD
 
 L'utilizzo esclusivo dei widget Filament per i form in il progetto rappresenta una scelta strategica che ha portato a un'interfaccia utente coerente, robusta e facilmente manutenibile. Questa decisione architetturale supporta gli obiettivi del progetto in termini di qualità del codice, velocità di sviluppo e esperienza utente.
 =======
@@ -247,3 +253,10 @@ L'utilizzo esclusivo dei widget Filament per i form in il progetto rappresenta u
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_HQyurZ
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KtQUlS

@@ -20,6 +20,11 @@ Il `TableLayoutEnum` è un enum PHP che gestisce i layout delle tabelle nei comp
 class ListUsers extends ListRecords
 {
     protected TableLayoutEnum $layout = TableLayoutEnum::LIST;
+<<<<<<< .merge_file_AzdTkI
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_yMLEXj
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)

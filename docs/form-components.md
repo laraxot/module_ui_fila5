@@ -32,6 +32,8 @@ use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 InlineDatePicker::make('appointment_date')
     ->enabledDates(['2025-06-05', '2025-06-21', '2025-06-25'])
     ->calendarConfig([
@@ -42,9 +44,12 @@ InlineDatePicker::make('appointment_date')
     ->required();
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #### Caratteristiche Principali
 
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 - **Selezione Controllata**: Solo le date specificate in `enabledDates()` sono selezionabili
@@ -55,9 +60,12 @@ InlineDatePicker::make('appointment_date')
 - **Internazionalizzazione**: Supporto integrato per diverse lingue e formati di data
 - **Performance Ottimizzate**: Caricamento lazy dei dati e rendering efficiente
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #### Metodi Disponibili
 
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 | Metodo | Parametri | Descrizione |
@@ -79,6 +87,9 @@ InlineDatePicker::make('appointment_date')
 
 ```php
 InlineDatePicker::make('appointment_date')
+>>>>>>> laraxot/dev
+=======
+#### Configurazione Avanzata
 >>>>>>> laraxot/dev
 =======
 #### Configurazione Avanzata
@@ -131,6 +142,8 @@ InlineDatePicker::make('appointment_date')
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     ->enabledDates($enabledDates)
     ->live()
     ->afterStateUpdated(function (Set $set, $state) {
@@ -171,6 +184,8 @@ $monthGrid = $datePicker->generateMonthGrid(2025, 6);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 1. **Performance**: Per un gran numero di date, utilizzare una closure per generare le date abilitate in modo lazy
 2. **Accessibilità**: Assicurarsi che il componente sia accessibile da tastiera
 3. **Localizzazione**: Configurare correttamente la lingua e il formato della data
@@ -200,6 +215,8 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 {
     return $form->schema([
         Section::make('Prenotazione Appuntamento')
@@ -211,7 +228,22 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
                         $dates = [];
                         $date = now();
                         $count = 0;
+<<<<<<< .merge_file_VfKtsg
                         
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                        
+=======
+<<<<<<< HEAD
+
+=======
+                        
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZaXCXC
                         while ($count < 30) {
                             if (!$date->isWeekend()) {
                                 $dates[] = $date->format('Y-m-d');
@@ -219,7 +251,21 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
                             }
                             $date->addDay();
                         }
+<<<<<<< .merge_file_VfKtsg
                         
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                        
+=======
+<<<<<<< HEAD
+=======
+                        
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZaXCXC
                         return $dates;
                     })
                     ->calendarConfig([
@@ -256,6 +302,8 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     placeholder="Inserisci la tua email"
     :required="true"
     :disabled="false"
@@ -279,6 +327,8 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 ```blade
 <x-ui::select 
     name="role" 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
@@ -380,12 +430,28 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ### Regole
 - Required
 - Min/Max length
 - Pattern
 - Custom rules
+<<<<<<< .merge_file_VfKtsg
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZaXCXC
 ### Messaggi
 - Personalizzazione messaggi errore
 - Localizzazione
@@ -418,11 +484,27 @@ class UserForm extends Component
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     protected $rules = [
         'name' => 'required|min:3',
         'email' => 'required|email',
     ];
+<<<<<<< .merge_file_VfKtsg
     
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZaXCXC
     public function save()
     {
         $this->validate();
@@ -470,18 +552,50 @@ form.addEventListener('submit', (e) => {
 });
 ## Best Practices
 >>>>>>> laraxot/dev
+=======
+});
+## Best Practices
+>>>>>>> laraxot/dev
 ### Utilizzo
 - Validazione lato server e client
 - Feedback immediato
 - Accessibilità
 - UX ottimizzata
+<<<<<<< .merge_file_VfKtsg
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZaXCXC
 ### Performance
 - Lazy loading
 - Debounce input
 - Cache validazione
 - Ottimizzazione risorse
+<<<<<<< .merge_file_VfKtsg
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZaXCXC
 ## Collegamenti
 - [Componenti Base](./base-components.md)
 - [Componenti Table](./table-components.md)
@@ -642,7 +756,19 @@ public function form(Form $form): Form
                         $dates = [];
                         $date = now();
                         $count = 0;
+<<<<<<< .merge_file_VfKtsg
                         
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                        
+=======
+
+>>>>>>> 92912795 (.)
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZaXCXC
                         while ($count < 30) {
                             if (!$date->isWeekend()) {
                                 $dates[] = $date->format('Y-m-d');
@@ -650,7 +776,19 @@ public function form(Form $form): Form
                             }
                             $date->addDay();
                         }
+<<<<<<< .merge_file_VfKtsg
                         
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                        
+=======
+
+>>>>>>> 92912795 (.)
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZaXCXC
                         return $dates;
                     })
                     ->calendarConfig([
@@ -674,11 +812,20 @@ public function form(Form $form): Form
     type="email" 
     label="Email" 
 =======
+<<<<<<< .merge_file_VfKtsg
+=======
+=======
+>>>>>>> .merge_file_ZaXCXC
 >>>>>>> laraxot/dev
 <x-ui::input
     name="email"
     type="email"
     label="Email"
+<<<<<<< .merge_file_VfKtsg
+=======
+<<<<<<< HEAD
+>>>>>>> 92912795 (.)
+>>>>>>> .merge_file_ZaXCXC
 =======
 >>>>>>> laraxot/dev
     placeholder="Inserisci la tua email"
@@ -813,12 +960,36 @@ class UserForm extends Component
 {
     public $name;
     public $email;
+<<<<<<< .merge_file_VfKtsg
     
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> 92912795 (.)
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZaXCXC
     protected $rules = [
         'name' => 'required|min:3',
         'email' => 'required|email',
     ];
+<<<<<<< .merge_file_VfKtsg
     
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> 92912795 (.)
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZaXCXC
     public function save()
     {
         $this->validate();
@@ -869,11 +1040,16 @@ form.addEventListener('submit', (e) => {
 * [form-components.md](../../../UI/project_docs/form-components.md)
 * [form-components.md](../../../UI/project_docs/roadmap/form-components.md)
 =======
+<<<<<<< .merge_file_VfKtsg
+=======
+=======
+>>>>>>> .merge_file_ZaXCXC
 >>>>>>> laraxot/dev
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
 ## Collegamenti tra versioni di form-components.md
 * [form-components.md](../../../UI/project_docs/form-components.md)
 * [form-components.md](../../../UI/project_docs/roadmap/form-components.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md) 

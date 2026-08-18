@@ -126,11 +126,33 @@ class UserCalendarWidget extends \Filament\Widgets\Widget
 class SimpleCalendarWidget extends \Filament\Widgets\Widget
 {
     protected static ?string $view = 'ui::filament.widgets.simple-calendar';
+<<<<<<< .merge_file_3S4j1j
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_S77U05
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_3S4j1j
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_S77U05
     public function getEvents(): array
     {
         // Logica per recuperare eventi

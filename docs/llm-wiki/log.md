@@ -32,7 +32,19 @@ related:
 
 ## [2026-04-15] maintenance | Initial wiki setup
 - Created: llm-wiki/ directory structure
+<<<<<<< .merge_file_PjAOuV
 - Created: AGENTS.md (agent instructions)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- Created: AGENTS.md (agent instructions)
+=======
+- Created: agents.md (agent instructions)
+>>>>>>> 92912795 (.)
+=======
+- Created: AGENTS.md (agent instructions)
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_l0gyr3
 - Created: index.md (content catalog)
 - Created: log.md (this file)
 - Directories initialized:

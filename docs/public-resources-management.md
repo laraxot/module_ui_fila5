@@ -93,12 +93,15 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 > **IMPORTANTE**: MAI utilizzare `laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di PTVX.
 > **IMPORTANTE**: MAI utilizzare `public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>.
 > **IMPORTANTE**: MAI utilizzare `laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di PTVX.
 > **IMPORTANTE**: MAI utilizzare `public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>.
 > **IMPORTANTE**: MAI utilizzare `laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di PTVX.
 > **IMPORTANTE**: MAI utilizzare `public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>.
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 > **IMPORTANTE**: MAI utilizzare `/var/www/html/saluteora/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di SaluteOra.
@@ -310,6 +313,8 @@ Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantis
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto .
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>.
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto .
@@ -446,6 +451,7 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 ## Conclusione
 
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>.
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto SaluteOra.

@@ -33,6 +33,11 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
             {{ __('More actions') }}
         </x-filament::button>
     </x-slot>
+<<<<<<< .merge_file_HDx9ET
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_rPpHVP
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
@@ -974,9 +979,17 @@ $logout = function () {
 - ✅ Utilizzare i componenti appropriati
 - ✅ Seguire la struttura standard
 - ✅ Gestire correttamente le traduzioni
+<<<<<<< HEAD
 - ✅ Testare in entrambi gli stati
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_HDx9ET
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rPpHVP

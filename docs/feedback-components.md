@@ -110,6 +110,21 @@
 ### Tooltip
 ```html
 <<<<<<< HEAD
+<<<<<<< .merge_file_dJO7jw
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> .merge_file_HFoecH
 <button 
   type="button" 
   class="btn btn-secondary" 
@@ -139,6 +154,21 @@
 ### Popover
 ```html
 <<<<<<< HEAD
+<<<<<<< .merge_file_dJO7jw
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> .merge_file_HFoecH
 <button 
   type="button" 
   class="btn btn-secondary" 
@@ -172,6 +202,21 @@
 ```html
 <div class="progress">
 <<<<<<< HEAD
+<<<<<<< .merge_file_dJO7jw
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> .merge_file_HFoecH
   <div 
     class="progress-bar progress-bar-striped progress-bar-animated" 
     role="progressbar" 

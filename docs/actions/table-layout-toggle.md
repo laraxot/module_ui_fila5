@@ -1,4 +1,19 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_pQqs8E
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> .merge_file_Ll6WNu
 # TableLayoutToggleTableAction
 
 ## Panoramica

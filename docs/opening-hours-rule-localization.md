@@ -404,6 +404,7 @@ $rule = new OpeningHoursRule();
 - [Opening Hours Field](./opening_hours_field.md)
 - [Validation System](./validation_system.md)
 - [Localization Guidelines](./localization_guidelines.md)
+<<<<<<< HEAD
 
 *Correzione completata: gennaio 2025*
 =======
@@ -411,3 +412,10 @@ $rule = new OpeningHoursRule();
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_fuT3Ys
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_OPhlxX

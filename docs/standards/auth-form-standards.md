@@ -1,4 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_rmiXcZ
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_JhOgM6
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -202,11 +209,23 @@ related:
 ```scss
 .auth-card {
   @apply shadow-sm;
+<<<<<<< .merge_file_rmiXcZ
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_JhOgM6
   
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_rmiXcZ
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_JhOgM6
   @screen sm {
     @apply shadow-md;
   }

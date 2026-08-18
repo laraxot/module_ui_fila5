@@ -1,5 +1,20 @@
 ---
 <<<<<<< HEAD
+<<<<<<< .merge_file_Mv1PNx
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> .merge_file_ds8FDN
 module: theme
 topic: algolia_docsearch
 canonical: ../../../Themes/docs/shared-components/algolia-docsearch_1.md

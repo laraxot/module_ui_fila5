@@ -1,5 +1,13 @@
 # Migrazione da FileUpload a Spatie Media Library
 
+<<<<<<< .merge_file_xNrsS0
+=======
+<<<<<<< HEAD
+## 🌍 Analisi Multidimensionale della Migrazione
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_fH1D46
 <<<<<<< HEAD
 ## 🌍 Analisi Multidimensionale della Migrazione
 <<<<<<< HEAD
@@ -995,16 +1003,56 @@ Ogni tipo di documento dovrà avere la sua collection specifica:
 // Patient Documents Collections
 'health_card' => 'tessere_sanitarie'
 <<<<<<< HEAD
+<<<<<<< .merge_file_xNrsS0
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> .merge_file_fH1D46
 'identity_document' => 'documenti_identita'  
 'isee_certificate' => 'certificazioni_isee'
 'pregnancy_certificate' => 'certificati_gravidanza'
 
 // Doctor Documents Collections  
+<<<<<<< .merge_file_xNrsS0
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fH1D46
 'identity_document' => 'documenti_identita'
 'isee_certificate' => 'certificazioni_isee'
 'pregnancy_certificate' => 'certificati_gravidanza'
 
 // Doctor Documents Collections
+<<<<<<< .merge_file_xNrsS0
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fH1D46
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
@@ -1053,6 +1101,21 @@ public function registerMediaCollections(): void
         ->acceptsMimeTypes(['image/jpeg', 'image/png', 'application/pdf'])
         ->singleFile();
 <<<<<<< HEAD
+<<<<<<< .merge_file_xNrsS0
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> .merge_file_fH1D46
         
     $this->addMediaCollection('documenti_identita')
         ->acceptsMimeTypes(['image/jpeg', 'image/png', 'application/pdf'])
@@ -1113,22 +1176,66 @@ class SpatieDocumentUpload
             ->maxSize(10240) // 10MB
             ->acceptedFileTypes(['image/jpeg', 'image/png', 'application/pdf']);
     }
+<<<<<<< .merge_file_xNrsS0
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_fH1D46
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_xNrsS0
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fH1D46
     public static function forHealthCard(): SpatieMediaLibraryFileUpload
     {
         return static::make('health_card', 'tessere_sanitarie')
             ->imagePreviewHeight('150')
             ->maxSize(5120); // 5MB per documenti leggeri
     }
+<<<<<<< .merge_file_xNrsS0
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_fH1D46
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_xNrsS0
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fH1D46
     public static function forCertifications(): SpatieMediaLibraryFileUpload
     {
         return static::make('certifications', 'certificazioni_professionali')
@@ -1179,11 +1286,32 @@ class SpatieImageUpload
             ->maxSize(2048) // 2MB
             ->singleFile();
     }
+<<<<<<< .merge_file_xNrsS0
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_fH1D46
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_xNrsS0
+=======
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fH1D46
     public static function forBackground(string $collection = 'backgrounds'): SpatieMediaLibraryFileUpload
     {
         return SpatieMediaLibraryFileUpload::make('background')
@@ -1317,11 +1445,23 @@ public function up(): void
 {
     // Migrazione automatica dei file esistenti
     $patients = Patient::whereNotNull('health_card')->get();
+<<<<<<< .merge_file_xNrsS0
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_fH1D46
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_xNrsS0
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fH1D46
     foreach($patients as $patient) {
         if($patient->health_card && Storage::exists($patient->health_card)) {
             $patient->addMediaFromUrl(Storage::url($patient->health_card))
@@ -1416,38 +1556,96 @@ public function registerMediaCollections(): void
         ->acceptsMimeTypes(['image/jpeg', 'image/png', 'application/pdf'])
         ->singleFile()
         ->useDisk('private');
+<<<<<<< .merge_file_xNrsS0
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_fH1D46
         
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_xNrsS0
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fH1D46
     $this->addMediaCollection('documenti_identita')
         ->acceptsMimeTypes(['image/jpeg', 'image/png', 'application/pdf'])
         ->singleFile()
         ->useDisk('private');
+<<<<<<< .merge_file_xNrsS0
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_fH1D46
         
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_xNrsS0
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fH1D46
     $this->addMediaCollection('certificazioni_isee')
         ->acceptsMimeTypes(['application/pdf'])
         ->singleFile()
         ->useDisk('private');
+<<<<<<< .merge_file_xNrsS0
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_fH1D46
         
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_xNrsS0
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fH1D46
     $this->addMediaCollection('certificati_gravidanza')
         ->acceptsMimeTypes(['application/pdf'])
         ->singleFile()
         ->useDisk('private');
+<<<<<<< .merge_file_xNrsS0
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_fH1D46
         
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_xNrsS0
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fH1D46
     // Certificazioni dottore (multiple)
     $this->addMediaCollection('certificazioni_professionali')
         ->acceptsMimeTypes(['application/pdf'])
@@ -1461,11 +1659,22 @@ public function registerMediaConversions(Media $media = null): void
         ->height(300)
         ->sharpen(10)
         ->performOnCollections('tessere_sanitarie', 'documenti_identita');
+<<<<<<< .merge_file_xNrsS0
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_fH1D46
         
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_xNrsS0
+=======
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fH1D46
     $this->addMediaConversion('preview')
         ->width(600)
         ->height(400)
@@ -1532,6 +1741,19 @@ public function getCertificationsAttribute(): array
 <div class="grid grid-cols-2 gap-4">
     @if($patient->hasMedia('tessere_sanitarie'))
         <div class="document-preview">
+<<<<<<< .merge_file_xNrsS0
+=======
+<<<<<<< HEAD
+            <h4>{{ __('<nome progetto>::patients.health_card') }}</h4>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fH1D46
 <<<<<<< HEAD
             <h4>{{ __('<nome progetto>::patients.health_card') }}</h4>
             <img src="{{ $patient->getFirstMediaUrl('tessere_sanitarie', 'thumbnail') }}" 
@@ -1541,11 +1763,22 @@ public function getCertificationsAttribute(): array
                target="_blank" 
 =======
 >>>>>>> laraxot/dev
+=======
+            <h4>{{ __('{module}::patients.health_card') }}</h4>
+>>>>>>> laraxot/dev
             <img src="{{ $patient->getFirstMediaUrl('tessere_sanitarie', 'thumbnail') }}"
                  alt="Tessera Sanitaria"
                  class="w-full h-32 object-cover rounded">
             <a href="{{ $patient->getFirstMediaUrl('tessere_sanitarie') }}"
                target="_blank"
+<<<<<<< .merge_file_xNrsS0
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> .merge_file_fH1D46
 =======
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -1701,22 +1934,54 @@ public function scopeExpiredDocuments($query)
 public function downloadDocument(Media $media): Response
 {
     $this->authorize('download', $media);
+<<<<<<< .merge_file_xNrsS0
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_fH1D46
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_xNrsS0
+=======
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fH1D46
     if($media->collection_name === 'tessere_sanitarie') {
         // Log accesso a documento sensibile
         activity()
             ->performedOn($media)
             ->log('downloaded_health_card');
     }
+<<<<<<< .merge_file_xNrsS0
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_fH1D46
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_xNrsS0
+=======
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fH1D46
     return response()->download($media->getPath());
 }
 ```

@@ -67,6 +67,21 @@ protected function getInfolistSchema(): array
                             ,
                     ]),
             ]),
+<<<<<<< .merge_file_SgFG9O
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_9VF1QT
         
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)

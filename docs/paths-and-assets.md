@@ -98,6 +98,12 @@
 | Tipo di Asset | ✅ Percorso Corretto | ❌ Percorso Errato |
 |---------------|---------------------|-------------------|
 <<<<<<< HEAD
+<<<<<<< .merge_file_dpWwyB
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_K9BI5b
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -479,6 +485,10 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 | CSS | `public_html/css/` | `public/css/` |
 | JavaScript | `public_html/js/` | `public/js/` |
 | SVG | `public_html/images/` | `public/images/` |
+<<<<<<< .merge_file_dpWwyB
+=======
+=======
+>>>>>>> .merge_file_K9BI5b
 >>>>>>> laraxot/dev
 
 ## Utilizzo degli Asset nei Componenti Blade

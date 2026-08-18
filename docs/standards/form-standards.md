@@ -1,4 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_C5BVuu
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_M0jgIX
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -670,6 +677,13 @@ form.addEventListener('submit', async (e) => {
 ## Collegamenti
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md)
+<<<<<<< .merge_file_C5BVuu
+=======
+<<<<<<< HEAD
+- [Performance](./performance.md)
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_M0jgIX
 <<<<<<< HEAD
 - [Performance](./performance.md)
 =======

@@ -110,4 +110,12 @@ The UI module provides comprehensive user interface components and styling:
 - Version management
 - Styling system
 - Accessibility tools
+<<<<<<< .merge_file_cIEeDc
 - Performance optimization
+=======
+<<<<<<< HEAD
+- Performance optimization
+=======
+- Performance optimization
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_WPcQjD

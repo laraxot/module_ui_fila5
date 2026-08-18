@@ -820,7 +820,10 @@ class UIServiceProvider extends XotBaseServiceProvider
       // Logica dell'azione
   };
   ?>
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
   <div>
       <!-- Template del componente -->
   </div>
@@ -845,7 +848,10 @@ class UIServiceProvider extends XotBaseServiceProvider
       'property' => null,
   ]);
   ?>
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
   <x-layouts.main>
       <!-- Contenuto della pagina -->
   </x-layouts.main>
@@ -988,9 +994,16 @@ class UIServiceProvider extends XotBaseServiceProvider
 5. **Cosa Fare**:
    - Utilizzare i componenti responsive appropriati
    - Mantenere la coerenza con il tema dark/light
+<<<<<<< HEAD
    - Gestire correttamente il logout con CSRF
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_2glLf4
+=======
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_j8E57X

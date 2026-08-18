@@ -13,15 +13,50 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 
 ❌ **Non Corretto**:
 ```md
+<<<<<<< .merge_file_zO0dEh
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_0ZBxzm
 
 
+<<<<<<< .merge_file_zO0dEh
+=======
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_0ZBxzm
 # Design System il progetto
 Il design system di il progetto definisce...
 ```
 
 ✅ **Corretto**:
 ```md
+<<<<<<< .merge_file_zO0dEh
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_0ZBxzm
 # Design System
 Il design system definisce...
 ```
@@ -46,6 +81,15 @@ I nomi specifici dell'applicazione devono apparire solo:
 ## Vedi Anche
 - [Documentazione Principale](../../../docs/README.md)
 - [Standard di Codice](../../../docs/standards/coding-standards.md)
+<<<<<<< .merge_file_zO0dEh
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_0ZBxzm
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Regole di Naming nei Moduli
@@ -63,6 +107,11 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 
 ❌ **Non Corretto**:
 ```md
+<<<<<<< .merge_file_zO0dEh
+=======
+<<<<<<< HEAD
+>>>>>>> 92912795 (.)
+>>>>>>> .merge_file_0ZBxzm
 =======
 >>>>>>> laraxot/dev
 # Design System il progetto

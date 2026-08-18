@@ -14,6 +14,21 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 
 <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-1 p-1">
 <<<<<<< HEAD
+<<<<<<< .merge_file_60IULa
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> .merge_file_gjZddL
     <x-filament::icon-button 
         icon="heroicon-m-plus" 
         wire:click="prova({{ $record->id }})" 
@@ -91,6 +106,21 @@ public function prova($recordId): void
 ### Nel Template
 ```blade
 <<<<<<< HEAD
+<<<<<<< .merge_file_60IULa
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> .merge_file_gjZddL
 <x-filament::icon-button 
     icon="heroicon-m-plus" 
     wire:click="prova({{ $record->id }})" 

@@ -2,6 +2,13 @@
 
 ## Overview
 <<<<<<< HEAD
+<<<<<<< .merge_file_hAcl5B
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_fC8CJP
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -589,39 +596,97 @@ class IconStateSplitColumn extends Column
     protected string $view = 'ui::filament.tables.columns.icon-state-split';
     protected string $stateClass = '';
     protected string $modelClass = '';
+<<<<<<< .merge_file_hAcl5B
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_fC8CJP
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_hAcl5B
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fC8CJP
     protected function setUp(): void
     {
         parent::setUp();
         $this->label('Stati');
     }
+<<<<<<< .merge_file_hAcl5B
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_fC8CJP
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_hAcl5B
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fC8CJP
     public function stateClass(string $stateClass, string $modelClass): static
     {
         // Configure states and model
     }
+<<<<<<< .merge_file_hAcl5B
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_fC8CJP
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_hAcl5B
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fC8CJP
     public function getRecordStates(): array
     {
         // Return array of available states
     }
+<<<<<<< .merge_file_hAcl5B
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_fC8CJP
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_hAcl5B
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fC8CJP
     public function canTransitionTo($recordId, $stateClass): bool
     {
         // Check if transition is possible
@@ -820,6 +885,21 @@ The main issue was that `wire:click` doesn't work directly in Filament table col
 ```javascript
 // Custom event dispatch
 <<<<<<< HEAD
+<<<<<<< .merge_file_hAcl5B
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> .merge_file_fC8CJP
 onclick="window.dispatchEvent(new CustomEvent('state-transition', { 
     detail: { 
         recordId: {{ $record->id }}, 
@@ -847,11 +927,22 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
 // Event listener for Livewire integration
 document.addEventListener('state-transition', function(event) {
     const { recordId, stateClass, action } = event.detail;
+<<<<<<< .merge_file_hAcl5B
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> .merge_file_fC8CJP
     
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_hAcl5B
+=======
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fC8CJP
     if (window.Livewire) {
         window.Livewire.find(document.querySelector('[wire\\:id]').getAttribute('wire:id'))
             .call(action, recordId, stateClass);

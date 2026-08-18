@@ -15,6 +15,21 @@ Secondo le regole di organizzazione della documentazione:
 - [Blocchi di Contenuto](../../Cms/docs/blocks.md) - Documentazione sui blocchi di contenuto
 - [Filament Integration](../../Cms/docs/filament.md) - Integrazione con Filament
 <<<<<<< HEAD
+<<<<<<< .merge_file_1GugyW
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> .merge_file_WuPAc5
 - [Documentazione Frontend](../../Cms/project_docs/frontoffice.md) - Documentazione completa sul frontend
 - [Componenti Blade](../../Cms/project_docs/components.md) - Documentazione sui componenti Blade nel frontend
 - [Blocchi di Contenuto](../../Cms/project_docs/blocks.md) - Documentazione sui blocchi di contenuto
@@ -24,6 +39,12 @@ Secondo le regole di organizzazione della documentazione:
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_1GugyW
+=======
+>>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_WuPAc5
 
 ## Utilizzo dei Componenti UI nel Frontend
 

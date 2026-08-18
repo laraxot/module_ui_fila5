@@ -105,6 +105,12 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 
 ```blade
 <<<<<<< HEAD
+<<<<<<< .merge_file_G9ypjq
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_1bhGHb
 <<<<<<< HEAD
 =======
 <x-ui-flags.it
@@ -122,6 +128,18 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
     class="h-6 w-6 rounded-full shadow-sm" 
     title="Italiano" 
     aria-label="Seleziona lingua italiana" 
+<<<<<<< .merge_file_G9ypjq
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> .merge_file_1bhGHb
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)

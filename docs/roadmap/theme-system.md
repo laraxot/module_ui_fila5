@@ -1,4 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_6UM0tG
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_kc1jMg
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -70,6 +76,21 @@ class ThemeRegistry
     /** @var array<string, Theme> */
     protected array $themes = [];
 <<<<<<< HEAD
+<<<<<<< .merge_file_6UM0tG
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> .merge_file_kc1jMg
     
     /** @var array<string, array<string, mixed>> */
     protected array $overrides = [];
@@ -542,6 +563,11 @@ class ThemeCompiler
 2. Implementare CSS-in-JS
 3. Ottimizzare caching
 4. Aggiungere theme builder
+<<<<<<< .merge_file_6UM0tG
+=======
+<<<<<<< HEAD
+5. Migliorare documentazione
+>>>>>>> .merge_file_kc1jMg
 <<<<<<< HEAD
 5. Migliorare documentazione
 =======
