@@ -19,28 +19,7 @@ use Modules\Xot\Filament\Traits\TransTrait;
 enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
-<<<<<<< HEAD
-<<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
     case LIST = 'list';
@@ -159,27 +138,8 @@ use Modules\Xot\Filament\Traits\TransTrait;
 enum MyEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-=======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
     case VALUE1 = 'value1';
@@ -340,20 +300,16 @@ rules:
 <<<<<<< HEAD
 =======
 **RICORDA SEMPRE**:
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 **RICORDA SEMPRE**: 
 =======
 **RICORDA SEMPRE**:
 >>>>>>> laraxot/dev
-=======
-**RICORDA SEMPRE**: 
+>>>>>>> A SEMPRE**: 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 - SEMPRE `TransTrait` negli enum
@@ -370,13 +326,13 @@ rules:
 <<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06* 
 =======
-=======
-=======
+>>>>>>> 
 <<<<<<< HEAD
 <<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06* 
 =======
 >>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 *Ultimo aggiornamento: 2025-01-06*
 # REGOLA CRITICA: Usa SEMPRE transClass() negli Enum
@@ -680,18 +636,10 @@ rules:
 <<<<<<< HEAD
 
 *Ultimo aggiornamento: 2025-01-06*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 =======
 *Ultimo aggiornamento: 2025-01-06* 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

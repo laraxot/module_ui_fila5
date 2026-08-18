@@ -3,15 +3,6 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 ---
 title: "Standard Form nei Temi"
 type: rule
@@ -30,17 +21,12 @@ related:
   - "./ui-standards.md"
 ---
 
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 # Standard Form nei Temi
@@ -107,20 +93,16 @@ related:
 <<<<<<< HEAD
 =======
   <input
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
   <input 
 =======
   <input
 >>>>>>> laraxot/dev
-=======
-  <input 
+>>>>>>>  
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
     type="text"
@@ -152,20 +134,16 @@ related:
 <<<<<<< HEAD
 =======
     <input
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
     <input 
 =======
     <input
 >>>>>>> laraxot/dev
-=======
-    <input 
+>>>>>>> ut 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
       type="checkbox"
@@ -232,20 +210,16 @@ screens: {
 <<<<<<< HEAD
 =======
   <input
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
   <input 
 =======
   <input
 >>>>>>> laraxot/dev
-=======
-  <input 
+>>>>>>>  
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
     type="email"
@@ -272,20 +246,16 @@ screens: {
 <<<<<<< HEAD
 =======
   <input
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
   <input 
 =======
   <input
 >>>>>>> laraxot/dev
-=======
-  <input 
+>>>>>>>  
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
     type="text"
@@ -313,20 +283,16 @@ screens: {
 <<<<<<< HEAD
 =======
   <input
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
   <input 
 =======
   <input
 >>>>>>> laraxot/dev
-=======
-  <input 
+>>>>>>>  
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
     type="email"
@@ -361,20 +327,16 @@ screens: {
 <<<<<<< HEAD
 =======
 <button
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 <button 
 =======
 <button
 >>>>>>> laraxot/dev
-=======
-<button 
+>>>>>>> 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
   type="submit"
@@ -440,13 +402,13 @@ form.addEventListener('submit', async (e) => {
 <<<<<<< HEAD
 - [Performance](./performance.md) 
 =======
-=======
-=======
+>>>>>>> 
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [Performance](./performance.md) 
 =======
 >>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [Performance](./performance.md)
 =======
@@ -710,18 +672,10 @@ form.addEventListener('submit', async (e) => {
 - [Accessibility](./accessibility.md)
 <<<<<<< HEAD
 - [Performance](./performance.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 =======
 - [Performance](./performance.md) 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

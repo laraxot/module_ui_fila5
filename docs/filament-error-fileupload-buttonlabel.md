@@ -22,15 +22,6 @@ Il metodo `buttonLabel()` **NON esiste** sul componente `Filament\Forms\Componen
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 - [Tabella metodi supportati](filament-component-methods.md)
 
 ---
@@ -56,17 +47,12 @@ Il metodo `buttonLabel()` **NON esiste** sul componente `Filament\Forms\Componen
 - Per personalizzare il testo del bottone, usare le opzioni di traduzione dedicate nei file di lingua oppure override via slot Blade se disponibile.
 
 ## Best Practice
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -96,8 +82,8 @@ Questa doc va sempre consultata e linkata in ogni review e sviluppo che coinvolg
 * [filament-error-fileupload-buttonlabel.md](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
 * [filament-error-fileupload-buttonlabel.md](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
 * [filament-error-fileupload-buttonlabel.md](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 * [filament-error-fileupload-buttonlabel.md](../../Patient/docs/filament-error-fileupload-buttonlabel.md)
@@ -106,12 +92,9 @@ Questa doc va sempre consultata e linkata in ogni review e sviluppo che coinvolg
 * [filament-error-fileupload-buttonlabel.md](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
 * [filament-error-fileupload-buttonlabel.md](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
 >>>>>>> laraxot/dev
+>>>>>>> ent-error-fileupload-buttonlabel.md](../../Patient/docs/filament-error-fileupload-buttonlabel.md)
 =======
-* [filament-error-fileupload-buttonlabel.md](../../Patient/docs/filament-error-fileupload-buttonlabel.md)
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

@@ -14,42 +14,17 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 
 <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-1 p-1">
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
     <x-filament::icon-button 
         icon="heroicon-m-plus" 
         wire:click="prova({{ $record->id }})" 
         label="Test Azione" 
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
     <x-filament::icon-button
         icon="heroicon-m-plus"
         wire:click="prova({{ $record->id }})"
         label="Test Azione"
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
@@ -116,42 +91,17 @@ public function prova($recordId): void
 ### Nel Template
 ```blade
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
 <x-filament::icon-button 
     icon="heroicon-m-plus" 
     wire:click="prova({{ $record->id }})" 
     label="Test Azione" 
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 <x-filament::icon-button
     icon="heroicon-m-plus"
     wire:click="prova({{ $record->id }})"
     label="Test Azione"
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
@@ -191,27 +141,8 @@ public function transitionState($recordId, $stateClass): void
     // Logica per la transizione di stato
     $record = $this->modelClass::find($recordId);
     $record->state->transitionTo($stateClass);
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-=======
     
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
     \Filament\Notifications\Notification::make()
@@ -223,42 +154,18 @@ public function transitionState($recordId, $stateClass): void
 
 ### 2. Aggiungere il pulsante nel template
 ```blade
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
 <x-filament::icon-button 
     icon="heroicon-o-arrow-right" 
     wire:click="transitionState({{ $record->id }}, '{{ $stateClass }}')" 
     label="Cambia Stato" 
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 <x-filament::icon-button
     icon="heroicon-o-arrow-right"
     wire:click="transitionState({{ $record->id }}, '{{ $stateClass }}')"
     label="Cambia Stato"
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
@@ -287,13 +194,13 @@ La soluzione semplice è la migliore perché:
 <<<<<<< HEAD
 **Compatibility**: Filament 4.x, Laravel 10.x 
 =======
-=======
-=======
+>>>>>>> 
 <<<<<<< HEAD
 <<<<<<< HEAD
 **Compatibility**: Filament 4.x, Laravel 10.x 
 =======
 >>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 **Compatibility**: Filament 3.x, Laravel 10.x
 # IconStateSplitColumn Actions Implementation - Soluzione Semplice
@@ -449,18 +356,10 @@ La soluzione semplice è la migliore perché:
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 =======
 **Compatibility**: Filament 4.x, Laravel 10.x 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

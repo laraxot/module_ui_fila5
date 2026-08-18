@@ -6,16 +6,13 @@
 <<<<<<< HEAD
 =======
 # Gestione delle Risorse Pubbliche 
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 # Gestione delle Risorse Pubbliche
+>>>>>>> ne delle Risorse Pubbliche 
 =======
-# Gestione delle Risorse Pubbliche 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -46,16 +43,13 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 <<<<<<< HEAD
 =======
 /var/www/html/saluteora/
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 [project-root]/
+>>>>>>> /html/saluteora/
 =======
-/var/www/html/saluteora/
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -78,16 +72,13 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 <<<<<<< HEAD
 =======
 > **IMPORTANTE**: MAI utilizzare `/var/www/html/saluteora/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di SaluteOra.
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 > **IMPORTANTE**: MAI utilizzare `[project-root]/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>corrente.
+>>>>>>> RTANTE**: MAI utilizzare `/var/www/html/saluteora/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di SaluteOra.
 =======
-> **IMPORTANTE**: MAI utilizzare `/var/www/html/saluteora/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di SaluteOra.
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -106,16 +97,13 @@ Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/im
 <<<<<<< HEAD
 =======
 Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/images/` e organizzate in sottocartelle per tipologia:
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 Le immagini devono essere posizionate in `[project-root]/public_html/images/` e organizzate in sottocartelle per tipologia:
+>>>>>>> ini devono essere posizionate in `/var/www/html/saluteora/public_html/images/` e organizzate in sottocartelle per tipologia:
 =======
-Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/images/` e organizzate in sottocartelle per tipologia:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -199,20 +187,17 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 <img 
     src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}" 
     alt="{{ $user->name }}" 
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <img
     src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}"
     alt="{{ $user->name }}"
-=======
-<img 
+>>>>>>> 
     src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}" 
     alt="{{ $user->name }}" 
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -240,20 +225,17 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
     <img 
         src="{{ asset('images/logos/saluteora-logo.svg') }}" 
         alt="SaluteOra" 
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
     <img
         src="{{ asset('images/logos/<nome progetto>ogo.svg') }}"
         alt="<nome progetto>corrente"
-=======
-    <img 
+>>>>>>>  
         src="{{ asset('images/logos/saluteora-logo.svg') }}" 
         alt="SaluteOra" 
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -283,16 +265,13 @@ Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantis
 <<<<<<< HEAD
 =======
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto SaluteOra.
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>corrente.
+>>>>>>>  queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto SaluteOra.
 =======
-Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto SaluteOra.
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

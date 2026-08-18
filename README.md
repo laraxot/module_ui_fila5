@@ -16,16 +16,13 @@
 <<<<<<< HEAD
 =======
 [![<nome progetto> Platform](https://img.shields.io/badge/Platform-<nome progetto>-008758.svg)](#)
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 [![Current Platform](https://img.shields.io/badge/Platform-progetto corrente-008758.svg)](#)
+>>>>>>>  progetto> Platform](https://img.shields.io/badge/Platform-<nome progetto>-008758.svg)](#)
 =======
-[![<nome progetto> Platform](https://img.shields.io/badge/Platform-<nome progetto>-008758.svg)](#)
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -99,16 +96,13 @@ Dettagli: [`docs/dependency-rules.md`](./docs/dependency-rules.md)
 <<<<<<< HEAD
 =======
 **Modulo** `ui` · **Laraxot** · **<nome progetto> Platform** · PHPStan 10 · Filament 5
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 **Modulo** `ui` · **Laraxot** · **Current Platform** · PHPStan 10 · Filament 5
+>>>>>>> ** `ui` · **Laraxot** · **<nome progetto> Platform** · PHPStan 10 · Filament 5
 =======
-**Modulo** `ui` · **Laraxot** · **<nome progetto> Platform** · PHPStan 10 · Filament 5
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

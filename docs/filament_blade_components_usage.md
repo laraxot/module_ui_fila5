@@ -6,16 +6,13 @@
 <<<<<<< HEAD
 =======
 # Utilizzo dei Componenti Blade di Filament 
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 # Utilizzo dei Componenti Blade di Filament
+>>>>>>> zo dei Componenti Blade di Filament 
 =======
-# Utilizzo dei Componenti Blade di Filament 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -69,16 +66,13 @@ Filament fornisce una serie di componenti Blade pronti all'uso che dovrebbero es
 <<<<<<< HEAD
 =======
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di SaluteOra
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>corrente
+>>>>>>> filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di SaluteOra
 =======
-- ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di SaluteOra
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -234,16 +228,13 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 <<<<<<< HEAD
 =======
 ## Gestione delle Rotte 
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 ## Gestione delle Rotte
+>>>>>>> one delle Rotte 
 =======
-## Gestione delle Rotte 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -265,16 +256,13 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 <<<<<<< HEAD
 =======
    - Creare file Blade in `/var/www/html/saluteora/laravel/Themes/One/resources/views/pages/`
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
    - Creare file Blade in `[project-root]/laravel/Themes/One/resources/views/pages/`
+>>>>>>> are file Blade in `/var/www/html/saluteora/laravel/Themes/One/resources/views/pages/`
 =======
-   - Creare file Blade in `/var/www/html/saluteora/laravel/Themes/One/resources/views/pages/`
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

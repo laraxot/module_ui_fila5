@@ -3,15 +3,6 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 ---
 title: "custom_firm_fields"
 type: concept
@@ -32,17 +23,12 @@ related:
   - "./custom-theme-1.md"
 ---
 
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -58,15 +44,6 @@ https://github.com/tanthammar/filament-extras
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 //--- with nested ?
 https://github.com/saade/filament-extra
 
@@ -76,17 +53,12 @@ https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-ca
 <!-- Contenuto migrato da _docs/custom_firm_fields.txt -->
 
 https://github.com/tanthammar/filament-extras
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -104,22 +76,15 @@ https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-ca
 <<<<<<< HEAD
 =======
 https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
-<<<<<<< HEAD
 
 https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
-=======
+>>>>>>> 
 https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
->>>>>>> laraxot/dev
 =======
-
-https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

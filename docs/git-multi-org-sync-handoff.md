@@ -64,18 +64,15 @@ Un tree dirty o un remote dietro/avanti **non** è sincronizzato, anche se l’a
 <<<<<<< HEAD
 =======
 5. Push: se unpack fallisce → `--no-thin`; se GH008 LFS → `lfs fetch --all` dal remote sano, poi `lfs push --all` sul target ([playbook](./wiki/troubleshooting/git-push-lfs-missing-objects.md))
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 5. Push: se unpack fallisce → `--no-thin`; se GH008 LFS → `lfs fetch --all` dal remote sano, poi `lfs push --all` sul target ([playbook](./wiki/troubleshooting/git-push-lfs-missing-objects.md))
 >>>>>>> laraxot/dev
-=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -95,18 +92,15 @@ InteractiveMap rimosso; vedi `geo-boundary.md` e `geo-dependency-violation-inter
 <<<<<<< HEAD
 =======
 `dev` allineato FF su `laraxot` e `provtv` a `b874935` con `--no-thin` + LFS da `laraxot` verso `provtv`. Dettaglio: [git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md) · [multi-org-sync-laraxot-provtv.md](./multi-org-sync-laraxot-provtv.md).
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 `dev` allineato FF su `laraxot` e `provtv` a `b874935` con `--no-thin` + LFS da `laraxot` verso `provtv`. Dettaglio: [git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md) · [multi-org-sync-laraxot-provtv.md](./multi-org-sync-laraxot-provtv.md).
 >>>>>>> laraxot/dev
-=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

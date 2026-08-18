@@ -17,16 +17,13 @@ Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modu
 <<<<<<< HEAD
 =======
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione <nome progetto>.
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione progetto corrente.
+>>>>>>> uida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione <nome progetto>.
 =======
-Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione <nome progetto>.
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -459,16 +456,13 @@ class MapService
 <<<<<<< HEAD
 =======
                     'url' => route('<nome progetto>.tickets.show', $ticket)
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
                     'url' => route('tickets.show', $ticket)
+>>>>>>>             'url' => route('<nome progetto>.tickets.show', $ticket)
 =======
-                    'url' => route('<nome progetto>.tickets.show', $ticket)
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -561,16 +555,13 @@ class GeocodingService
 <<<<<<< HEAD
 =======
             <livewire:<nome progetto>::components.ticket-stats />
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
             <livewire:project::components.ticket-stats />
+>>>>>>>     <livewire:<nome progetto>::components.ticket-stats />
 =======
-            <livewire:<nome progetto>::components.ticket-stats />
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -637,16 +628,13 @@ class GeocodingService
 <<<<<<< HEAD
 =======
 - [ ] Integrazione con modulo <nome progetto>
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 - [ ] Integrazione con modulo progetto corrente
+>>>>>>> tegrazione con modulo <nome progetto>
 =======
-- [ ] Integrazione con modulo <nome progetto>
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

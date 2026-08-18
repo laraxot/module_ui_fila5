@@ -13,16 +13,13 @@ related:
 <<<<<<< HEAD
 =======
   - https://github.com/laraxot/<nome repitory>/issues/89
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
   - https://github.com/laraxot/platform/issues/89
+>>>>>>> s://github.com/laraxot/<nome repitory>/issues/89
 =======
-  - https://github.com/laraxot/<nome repitory>/issues/89
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

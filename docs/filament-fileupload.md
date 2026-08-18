@@ -104,13 +104,13 @@ return [
 <<<<<<< HEAD
 - [Laravel File Storage](https://laravel.com/docs/filesystem) 
 =======
-=======
-=======
+>>>>>>> 
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [Laravel File Storage](https://laravel.com/docs/filesystem) 
 =======
 >>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [Laravel File Storage](https://laravel.com/docs/filesystem)
 # FileUpload Component in Filament
@@ -204,18 +204,10 @@ return [
    - Segui le convenzioni di naming
 
 ## Collegamenti
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 =======
 - [Laravel File Storage](https://laravel.com/docs/filesystem) 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -234,20 +226,17 @@ return [
 <<<<<<< HEAD
 =======
 - [Laravel File Storage](https://laravel.com/project_docs/filesystem)
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 - [Laravel File Storage](https://laravel.com/project_docs/filesystem) 
 =======
 - [Laravel File Storage](https://laravel.com/project_docs/filesystem)
 >>>>>>> laraxot/dev
+>>>>>>> el File Storage](https://laravel.com/project_docs/filesystem) 
 =======
-- [Laravel File Storage](https://laravel.com/project_docs/filesystem) 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

@@ -16,16 +16,13 @@ discussions:
 <<<<<<< HEAD
 =======
   - "https://github.com/laraxot/<nome repository>/discussions/12"
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
   - ""
+>>>>>>> ps://github.com/laraxot/<nome repository>/discussions/12"
 =======
-  - "https://github.com/laraxot/<nome repository>/discussions/12"
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

@@ -99,16 +99,13 @@ php artisan view:clear
 <<<<<<< HEAD
 =======
 # http://<nome progetto>.local/it/tests/homepage
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 # http://app.local/it/tests/homepage
+>>>>>>> /<nome progetto>.local/it/tests/homepage
 =======
-# http://<nome progetto>.local/it/tests/homepage
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

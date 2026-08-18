@@ -3,15 +3,6 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 ---
 title: "List Records in Filament"
 type: concept
@@ -32,17 +23,12 @@ related:
   - "./filament-4-migration-sumy.md"
 ---
 
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -212,12 +198,9 @@ class ListXXX extends XotBaseListRecords
 
     protected static string $resource = XXXResource::class;
 
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 
 class ListXXX extends XotBaseListRecords
@@ -241,11 +224,8 @@ class ListXXX extends XotBaseListRecords
     protected static string $resource = XXXResource::class;
 
 >>>>>>> laraxot/dev
-=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
     public function getGridTableColumns(): array
@@ -269,27 +249,8 @@ class ListXXX extends XotBaseListRecords
     public function getTableActions(): array
     {
         return [
-<<<<<<< HEAD
-            
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-            
-=======
-
->>>>>>> laraxot/dev
-=======
             
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
             ViewAction::make()
@@ -337,13 +298,13 @@ class ListXXX extends XotBaseListRecords
 <<<<<<< HEAD
 ```
 =======
-=======
-=======
+>>>>>>> 
 <<<<<<< HEAD
 <<<<<<< HEAD
 ```
 =======
 >>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ```
 # List Records in Filament
@@ -566,20 +527,8 @@ class ListXXX extends XotBaseListRecords
             );
     }
 }
-<<<<<<< HEAD
 ```
-<<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-```
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

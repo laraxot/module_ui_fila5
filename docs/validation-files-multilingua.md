@@ -42,28 +42,7 @@ use Modules\Xot\Filament\Traits\TransTrait;
 class OpeningHoursRule implements ValidationRule
 {
     use TransTrait;
-<<<<<<< HEAD
-<<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
     // Utilizzo nelle validazioni
@@ -225,13 +204,13 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 <<<<<<< HEAD
 *Implementazione completata: gennaio 2025*
 =======
-=======
-=======
+>>>>>>> 
 <<<<<<< HEAD
 <<<<<<< HEAD
 *Implementazione completata: gennaio 2025*
 =======
 >>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 *Implementazione completata: gennaio 2025*
 # File Validation Multilingua - Modulo UI
@@ -431,21 +410,9 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 - [TransTrait Documentation](../../Xot/docs/trans_trait.md)
 - [Opening Hours Field](./opening_hours_field.md)
 - [Localization Guidelines](./localization_guidelines.md)
-<<<<<<< HEAD
 
 *Implementazione completata: gennaio 2025*
-<<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-*Implementazione completata: gennaio 2025*
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

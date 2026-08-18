@@ -169,28 +169,7 @@ new Chart(ctx, {
 .table-responsive {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-<<<<<<< HEAD
-<<<<<<< HEAD
   
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-  
-=======
-
->>>>>>> laraxot/dev
-=======
-  
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
   @media (max-width: 768px) {
@@ -206,27 +185,8 @@ new Chart(ctx, {
 .chart-container {
   position: relative;
   height: 300px;
-<<<<<<< HEAD
-  
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-  
-=======
-
->>>>>>> laraxot/dev
-=======
   
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
   canvas {
@@ -247,13 +207,13 @@ new Chart(ctx, {
 <<<<<<< HEAD
 - [Performance](./standards/performance.md) 
 =======
-=======
-=======
+>>>>>>> 
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [Performance](./standards/performance.md) 
 =======
 >>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [Performance](./standards/performance.md)
 # Componenti Visualizzazione Dati
@@ -456,18 +416,10 @@ new Chart(ctx, {
 - [Accessibilità](./standards/accessibility.md)
 <<<<<<< HEAD
 - [Performance](./standards/performance.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 =======
 - [Performance](./standards/performance.md) 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

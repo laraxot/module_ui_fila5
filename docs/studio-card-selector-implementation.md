@@ -10,15 +10,6 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 ## 🏗️ **Architettura Component**
 
 ## 🏗️ **Architettura Component**
@@ -290,17 +281,12 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 
 ## 🏗️ **Architettura Component**
 
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -322,42 +308,17 @@ class StudioCardSelector extends Field
 {
     protected string $view = 'ui::forms.components.studio-card-selector';
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
     
     // Dati studios da visualizzare
     protected Collection|Closure|null $studios = null;
     
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 
     // Dati studios da visualizzare
     protected Collection|Closure|null $studios = null;
 
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
@@ -370,28 +331,7 @@ class StudioCardSelector extends Field
     protected bool $showSpecializations = false;
     protected bool $showPhone = false;
     protected string $cardLayout = 'default'; // 'default', 'compact', 'detailed'
-<<<<<<< HEAD
-<<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -403,28 +343,7 @@ class StudioCardSelector extends Field
         $this->studios = $studios;
         return $this;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -436,28 +355,7 @@ class StudioCardSelector extends Field
         $this->showDistance = $show;
         return $this;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -468,28 +366,7 @@ class StudioCardSelector extends Field
         $this->showSpecializations = $show;
         return $this;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -500,28 +377,7 @@ class StudioCardSelector extends Field
         $this->showPhone = $show;
         return $this;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -533,28 +389,7 @@ class StudioCardSelector extends Field
         $this->cardLayout = 'compact';
         return $this;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -565,28 +400,7 @@ class StudioCardSelector extends Field
         $this->cardLayout = 'detailed';
         return $this;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -597,28 +411,7 @@ class StudioCardSelector extends Field
     {
         return $this->evaluate($this->studios) ?? collect();
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -628,28 +421,7 @@ class StudioCardSelector extends Field
     {
         return $this->cardLayout;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -659,28 +431,7 @@ class StudioCardSelector extends Field
     {
         return $this->showDistance;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -690,28 +441,7 @@ class StudioCardSelector extends Field
     {
         return $this->showSpecializations;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -754,12 +484,9 @@ private function getStudiosForLocation(Get $get): Collection
     $province = $get('province');
     $region = $get('region');
 
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
     $province = $get('province'); 
     $region = $get('region');
@@ -776,11 +503,7 @@ private function getStudiosForLocation(Get $get): Collection
     $province = $get('province');
     $region = $get('region');
     
-<<<<<<< HEAD
-=======
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
 >>>>>>> laraxot/dev
     if (!$cap || !$province || !$region) {
         return collect();
@@ -790,14 +513,8 @@ private function getStudiosForLocation(Get $get): Collection
 <<<<<<< HEAD
     return \Modules\<nome modulo>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
     return \Modules\<nome modulo>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
@@ -857,18 +574,6 @@ return [
 - [Form Components Guide](./form-components.md)
 
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
 ### Modulo <nome progetto>
 - [Widget Analysis](../<nome progetto>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
 
@@ -882,9 +587,6 @@ return [
 <<<<<<< HEAD
 **Last Updated**: January 2025
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 ### Modulo Generico
 - [Widget Analysis](../<nome modulo>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
@@ -900,18 +602,9 @@ return [
 **Last Updated**: January 2025
 **Last Updated**: January 2025
 **Last Updated**: January 2025
-<<<<<<< HEAD
+>>>>>>> pdated**: January 2025
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-**Last Updated**: January 2025
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

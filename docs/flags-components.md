@@ -20,8 +20,8 @@ Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazion
 Il modulo UI di  include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
 Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
 Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 Il modulo UI di <nome progetto>corrente include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
@@ -30,12 +30,9 @@ Il modulo UI di  include una vasta collezione di SVG di bandiere nazionali che p
 Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
 Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
 >>>>>>> laraxot/dev
+>>>>>>> o UI di SaluteOra include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
 =======
-Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -56,8 +53,8 @@ I file SVG delle bandiere sono archiviati in:
 Modules/UI/resources/svg/flags/
 Modules/UI/resources/svg/flags/
 Modules/UI/resources/svg/flags/
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 [project-root]/laravel/Modules/UI/resources/svg/flags/
@@ -66,12 +63,9 @@ Modules/UI/resources/svg/flags/
 Modules/UI/resources/svg/flags/
 Modules/UI/resources/svg/flags/
 >>>>>>> laraxot/dev
+>>>>>>> /html/saluteora/laravel/Modules/UI/resources/svg/flags/
 =======
-/var/www/html/saluteora/laravel/Modules/UI/resources/svg/flags/
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -129,41 +123,21 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 <x-ui-flags.it
     class="h-6 w-6 rounded-full shadow-sm"
     title="Italiano"
     aria-label="Seleziona lingua italiana"
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
-<x-ui-flags.it
     class="h-6 w-6 rounded-full shadow-sm"
     title="Italiano"
     aria-label="Seleziona lingua italiana"
->>>>>>> laraxot/dev
 =======
+>>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <x-ui-flags.it 
     class="h-6 w-6 rounded-full shadow-sm" 
     title="Italiano" 
     aria-label="Seleziona lingua italiana" 
-<<<<<<< HEAD
 =======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -242,13 +216,13 @@ Le bandiere devono essere utilizzate come icone Filament:
 <<<<<<< HEAD
 5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>corrente
 =======
-=======
-=======
+>>>>>>> 
 <<<<<<< HEAD
 <<<<<<< HEAD
 5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>corrente
 =======
 >>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 5. **Coerenza**: Utilizzo di componenti nativi di
 5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
@@ -451,18 +425,10 @@ Le bandiere devono essere utilizzate come icone Filament:
 4. **Accessibilità**: Possibilità di aggiungere attributi di accessibilità
 5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 =======
 5. **Coerenza**: Utilizzo di componenti nativi di SaluteOra
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -530,20 +496,13 @@ L'utilizzo dei componenti SVG delle bandiere del modulo UI è il modo più effic
 <<<<<<< HEAD
 =======
 L'utilizzo dei componenti SVG delle bandiere del modulo UI è il modo più efficace per rendere il selettore di lingue nell'header più accattivante e visibile. Questi componenti sono già integrati  e possono essere facilmente utilizzati in qualsiasi parte dell'applicazione.
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
-<<<<<<< HEAD
 L'utilizzo dei componenti SVG delle bandiere del modulo UI è il modo più efficace per rendere il selettore di lingue nell'header più accattivante e visibile. Questi componenti sono già integrati  e possono essere facilmente utilizzati in qualsiasi parte dell'applicazione.
+>>>>>>> zo dei componenti SVG delle bandiere del modulo UI è il modo più efficace per rendere il selettore di lingue nell'header più accattivante e visibile. Questi componenti sono già integrati  e possono essere facilmente utilizzati in qualsiasi parte dell'applicazione.
 =======
-L'utilizzo dei componenti SVG delle bandiere del modulo UI è il modo più efficace per rendere il selettore di lingue nell'header più accattivante e visibile. Questi componenti sono già integrati  e possono essere facilmente utilizzati in qualsiasi parte dell'applicazione.
->>>>>>> laraxot/dev
-=======
-L'utilizzo dei componenti SVG delle bandiere del modulo UI è il modo più efficace per rendere il selettore di lingue nell'header più accattivante e visibile. Questi componenti sono già integrati  e possono essere facilmente utilizzati in qualsiasi parte dell'applicazione.
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

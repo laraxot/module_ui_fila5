@@ -42,20 +42,17 @@ Durante la digitazione di `<x-filament::`, l'estensione suggerisce i componenti 
 <<<<<<< HEAD
 =======
 - **Terminale**:
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 - **Terminale**: 
 =======
 - **Terminale**:
 >>>>>>> laraxot/dev
+>>>>>>> inale**: 
 =======
-- **Terminale**: 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
   ```sh
@@ -135,13 +132,13 @@ Per segnalare bug o suggerire miglioramenti, usa la [pagina GitHub dell'estensio
 <<<<<<< HEAD
 Per segnalare bug o suggerire miglioramenti, usa la [pagina GitHub dell'estensione](https://github.com/doonfrs/vscode-filament).
 =======
-=======
-=======
+>>>>>>> 
 <<<<<<< HEAD
 <<<<<<< HEAD
 Per segnalare bug o suggerire miglioramenti, usa la [pagina GitHub dell'estensione](https://github.com/doonfrs/vscode-filament).
 =======
 >>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 Per segnalare bug o suggerire miglioramenti, usa la [pagina GitHub dell'estensione](https://github.com/doonfrs/vscode-filament).
 # VSCode Filament Extension (doonfrs.vscode-filament)
@@ -252,20 +249,8 @@ L'estensione **doonfrs.vscode-filament** migliora notevolmente lo sviluppo Filam
 ---
 
 ## Aggiornamenti
-<<<<<<< HEAD
 Per segnalare bug o suggerire miglioramenti, usa la [pagina GitHub dell'estensione](https://github.com/doonfrs/vscode-filament).
-<<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-Per segnalare bug o suggerire miglioramenti, usa la [pagina GitHub dell'estensione](https://github.com/doonfrs/vscode-filament).
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

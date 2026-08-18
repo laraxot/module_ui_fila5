@@ -3,15 +3,6 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 ---
 title: "Standard Form di Autenticazione"
 type: rule
@@ -30,17 +21,12 @@ related:
   - "./ui-standards.md"
 ---
 
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -100,8 +86,8 @@ related:
 =======
       <input
         type="email"
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
       <input 
@@ -110,13 +96,10 @@ related:
       <input
         type="email"
 >>>>>>> laraxot/dev
-=======
-      <input 
+>>>>>>> nput 
         type="email" 
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -136,12 +119,9 @@ related:
 
   <div>
     <button
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
   
   <!-- Altri campi -->
@@ -158,11 +138,8 @@ related:
   <div>
     <button
 >>>>>>> laraxot/dev
-=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -225,28 +202,7 @@ related:
 ```scss
 .auth-card {
   @apply shadow-sm;
-<<<<<<< HEAD
-<<<<<<< HEAD
   
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-  
-=======
-
->>>>>>> laraxot/dev
-=======
-  
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -312,20 +268,17 @@ related:
 <<<<<<< HEAD
 =======
   <input
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
   <input 
 =======
   <input
 >>>>>>> laraxot/dev
+>>>>>>>  
 =======
-  <input 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -380,19 +333,10 @@ related:
 - [Accessibility](./accessibility.md) 
 =======
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
 - [Form Standards](./form_standards.md)
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md) 
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - [Form Standards](./form-standards-1.md)
 - [UI Standards](./ui-standards.md)
@@ -612,20 +556,11 @@ related:
 - [Form Standards](./form-standards-1.md)
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- [Form Standards](./form_standards.md)
+>>>>>>> Standards](./form_standards.md)
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md) 
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

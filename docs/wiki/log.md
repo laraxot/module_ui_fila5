@@ -37,18 +37,15 @@ related:
 =======
 - Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
 - GitHub: [#272](https://github.com/laraxot/<nome repitory>/issues/272) / [D#273](https://github.com/laraxot/<nome repitory>/discussions/273)
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 - Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-progetto corrente-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
 - GitHub: [#272](https://github.com/laraxot/platform/issues/272) / [D#273](https://github.com/laraxot/platform/discussions/273)
-=======
-- Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
+>>>>>>> hecklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
 - GitHub: [#272](https://github.com/laraxot/<nome repitory>/issues/272) / [D#273](https://github.com/laraxot/<nome repitory>/discussions/273)
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -120,37 +117,19 @@ related:
 - Tip `b874935` su `laraxot/dev` e `provtv/dev`.
 =======
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
 
 - Tip `b874935` su `laraxot/dev` e `provtv/dev`.
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 ## 2026-07-22 — Push dual-remote + LFS
 
 - Tip `b874935` su `laraxot/dev` e `provtv/dev`.
 - Fix: deepen/shallow + `git push --no-thin` + `git lfs fetch laraxot --all` → `git lfs push provtv --all`.
 - Playbook: [troubleshooting/git-push-lfs-missing-objects.md](./troubleshooting/git-push-lfs-missing-objects.md).
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-
+>>>>>>> 
 - Tip `b874935` su `laraxot/dev` e `provtv/dev`.
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

@@ -6,16 +6,13 @@
 <<<<<<< HEAD
 =======
 # Struttura Themes e Folio in SaluteOra
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 # Struttura Themes e Folio in <nome progetto>corrente
+>>>>>>> ura Themes e Folio in SaluteOra
 =======
-# Struttura Themes e Folio in SaluteOra
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -38,16 +35,13 @@ Il progetto SaluteOra utilizza un sistema di **Themes** che modifica la struttur
 <<<<<<< HEAD
 =======
 Il progetto SaluteOra utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 Il progetto <nome progetto>corrente utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
+>>>>>>> tto SaluteOra utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 =======
-Il progetto SaluteOra utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

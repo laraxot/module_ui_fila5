@@ -615,16 +615,13 @@ protected function getOptions(): array
 <<<<<<< HEAD
 =======
 - [SimpleChartWidget con Sfondi](../../Quaeris/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 - [SimpleChartWidget con Sfondi](../../modulo questionari/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
+>>>>>>> eChartWidget con Sfondi](../../Quaeris/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
 =======
-- [SimpleChartWidget con Sfondi](../../Quaeris/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -648,16 +645,13 @@ protected function getOptions(): array
 <<<<<<< HEAD
 =======
 **Mantenuto da:** Quaeris Development Team
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 **Mantenuto da:** modulo questionari Development Team
+>>>>>>> uto da:** Quaeris Development Team
 =======
-**Mantenuto da:** Quaeris Development Team
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

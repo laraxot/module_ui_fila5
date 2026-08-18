@@ -87,8 +87,8 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
 public static function form(Form $form): Form
 public static function form(Form $form): Form
 public static function form(Form $form): Form
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
@@ -97,12 +97,9 @@ public static function form(Form $form): Form
 public static function form(Form $form): Form
 public static function form(Form $form): Form
 >>>>>>> laraxot/dev
+>>>>>>> tatic function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
-public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -116,28 +113,7 @@ public static function form(Form $form): Form
         TextInput::make('title')
             ->required()
             ->maxLength(255),
-<<<<<<< HEAD
-<<<<<<< HEAD
             
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-            
-=======
-
->>>>>>> laraxot/dev
-=======
-            
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -149,28 +125,7 @@ public static function form(Form $form): Form
                 'published' => 'Published',
             ])
             ->required(),
-<<<<<<< HEAD
-<<<<<<< HEAD
             
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-            
-=======
-
->>>>>>> laraxot/dev
-=======
-            
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -195,28 +150,7 @@ public static function table(Table $table): Table
             TextColumn::make('title')
                 ->searchable()
                 ->sortable(),
-<<<<<<< HEAD
-<<<<<<< HEAD
                 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-                
-=======
-
->>>>>>> laraxot/dev
-=======
-                
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -260,28 +194,7 @@ Forms\Components\Wizard::make([
                     // Digitare 'fil-text' e premere Tab
                     Forms\Components\TextInput::make('first_name')
                         ->required(),
-<<<<<<< HEAD
-<<<<<<< HEAD
                         
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-                        
-=======
-
->>>>>>> laraxot/dev
-=======
-                        
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -350,13 +263,13 @@ Forms\Components\Wizard::make([
 <<<<<<< HEAD
 - [Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack) 
 =======
-=======
-=======
+>>>>>>> 
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack) 
 =======
 >>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack)
 # Filament VSCode Extension
@@ -526,18 +439,10 @@ Forms\Components\Wizard::make([
 ## Best Practices
 
 1. Organizzazione del codice
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 =======
 - [Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack) 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

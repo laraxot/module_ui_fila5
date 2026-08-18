@@ -33,16 +33,13 @@ related:
 <<<<<<< HEAD
 =======
 | **Tips 001–022** | [hackernoon map](../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md) |
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 | **Tips 001–022** | [hackernoon map](../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-progetto corrente-map.md) |
+>>>>>>>  001–022** | [hackernoon map](../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md) |
 =======
-| **Tips 001–022** | [hackernoon map](../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md) |
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
 ---
 module: theme
 topic: filament_resources_structure
@@ -22,9 +10,6 @@ See canonical documentation: ../../../Themes/docs/shared-components/filament-res
 <<<<<<< HEAD
 See canonical documentation: ../../../Themes/docs/shared-components/filament-resources-structure_1.md
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 # Struttura delle Filament Resources
 
@@ -198,17 +183,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 
 ## Note
 Questa documentazione è collegata bidirezionalmente con la documentazione specifica dei moduli. Per dettagli su resources specifiche, consultare la documentazione del modulo corrispondente.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-See canonical documentation: ../../../Themes/docs/shared-components/filament-resources-structure_1.md
+>>>>>>> nical documentation: ../../../Themes/docs/shared-components/filament-resources-structure_1.md
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)

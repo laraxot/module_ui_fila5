@@ -14,20 +14,17 @@ Il file `Modules/UI/app/Filament/Forms/Components/LocationSelector.php` presenta
 <<<<<<< HEAD
 =======
 3. **Linea 322**: Continuazione metodo validate
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 3. **Linea 322**: Continuazione metodo validate 
 =======
 3. **Linea 322**: Continuazione metodo validate
 >>>>>>> laraxot/dev
+>>>>>>> ea 322**: Continuazione metodo validate 
 =======
-3. **Linea 322**: Continuazione metodo validate 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -113,13 +110,13 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 <<<<<<< HEAD
 *Ultimo aggiornamento: 29 luglio 2025*
 =======
-=======
-=======
+>>>>>>> 
 <<<<<<< HEAD
 <<<<<<< HEAD
 *Ultimo aggiornamento: 29 luglio 2025*
 =======
 >>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 *Ultimo aggiornamento: 29 luglio 2025*
 # Risoluzione Conflitto LocationSelector.php
@@ -205,18 +202,10 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 - [Modules/UI/project_docs/](../project_docs/)
 
 *Ultimo aggiornamento: 29 luglio 2025*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 =======
 *Ultimo aggiornamento: 29 luglio 2025*
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

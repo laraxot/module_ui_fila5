@@ -113,16 +113,13 @@ Modules/UI/
 <<<<<<< HEAD
 =======
 ### 4. **Autoloader Predictability**
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 ### 4. **Autoloader stability**
+>>>>>>> *Autoloader Predictability**
 =======
-### 4. **Autoloader Predictability**
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -202,16 +199,13 @@ After cleanup:
 <<<<<<< HEAD
 =======
 - ✅ Clear, predictable test structure
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 - ✅ Clear, stable test structure
+>>>>>>> r, predictable test structure
 =======
-- ✅ Clear, predictable test structure
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

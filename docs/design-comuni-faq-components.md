@@ -368,16 +368,13 @@ Configurato in `config/local/fixcity/xra.php`:
 <<<<<<< HEAD
 =======
 Configurato in `config/local/<nome progetto>/xra.php`:
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 Configurato in `config/local/current/xra.php`:
+>>>>>>> ato in `config/local/<nome progetto>/xra.php`:
 =======
-Configurato in `config/local/<nome progetto>/xra.php`:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
