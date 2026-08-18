@@ -170,6 +170,7 @@ new Chart(ctx, {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 <<<<<<< HEAD
+<<<<<<< HEAD
   
 =======
 <<<<<<< HEAD
@@ -426,6 +427,8 @@ new Chart(ctx, {
 .table-responsive {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+=======
+>>>>>>> laraxot/dev
 
   @media (max-width: 768px) {
     .table {
@@ -451,6 +454,7 @@ new Chart(ctx, {
 - [Componenti Base](./base-components.md)
 - [Form Avanzati](./advanced-form-components.md)
 - [Accessibilità](./standards/accessibility.md)
+<<<<<<< HEAD
 - [Performance](./standards/performance.md)
 <<<<<<< HEAD
 =======
@@ -466,3 +470,5 @@ new Chart(ctx, {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

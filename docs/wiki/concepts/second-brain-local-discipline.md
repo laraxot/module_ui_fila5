@@ -26,6 +26,7 @@ related:
 | **Canon** | [Xot second-brain-local-discipline.md](../../../../Xot/docs/wiki/concepts/second-brain-local-discipline.md) |
 | **Harness moduli** | [ai-harness-module-discipline.md](../../../../docs/wiki/concepts/ai-harness-module-discipline.md) |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | **Tips 001–022** | [hackernoon map](../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md) |
 =======
 <<<<<<< HEAD
@@ -44,6 +45,9 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+| **Tips 001–022** | [hackernoon map](../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md) |
+>>>>>>> laraxot/dev
 | **Prompt router** | [llm-wiki.txt](../../../../../../bashscripts/tools/prompts/llm-wiki.txt) |
 
 Solo decisioni specifiche di **UI** in `docs/wiki/`; contratto generico in Xot.

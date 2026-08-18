@@ -198,6 +198,7 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
   - Smart forms
   - Auto-completion
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Predictive inputs
 =======
 <<<<<<< HEAD
@@ -216,6 +217,9 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+  - Predictive inputs
+>>>>>>> laraxot/dev
 
 - [ ] **Real-Time Components**
   - Live updates

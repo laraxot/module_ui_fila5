@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Componenti di Navigazione 
 =======
 <<<<<<< HEAD
@@ -208,6 +209,8 @@ Il componente `user-dropdown` è progettato per gestire automaticamente la visua
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -278,6 +281,7 @@ I componenti di navigazione devono utilizzare sempre le funzioni di localizzazio
 ### Traduzioni Necessarie
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/saluteora/laravel/lang/{locale}/auth.php`:
 =======
 <<<<<<< HEAD
@@ -300,6 +304,9 @@ Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/htm
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
+>>>>>>> laraxot/dev
 
 ```php
 return [
@@ -342,6 +349,7 @@ return [
    - Utilizzare i componenti Filament per icone e avatar: `<x-filament::icon>`, `<x-filament::avatar>`
    - Utilizzare i componenti Filament per i dropdown quando possibile
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Utilizzare i separatori corretti nei dropdown (div con bordo, non componenti inesistenti)
 =======
 <<<<<<< HEAD
@@ -364,3 +372,6 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+   - Utilizzare i separatori corretti nei dropdown (div con bordo, non componenti inesistenti)
+>>>>>>> laraxot/dev

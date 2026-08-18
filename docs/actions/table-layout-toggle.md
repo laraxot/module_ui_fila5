@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -206,3 +207,7 @@ Vedi [bugfix](../bugfix-table-layout-toggle-not-working.md): bastano `resetTable
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+
+[Torna alla documentazione UI](/docs/modules/module_ui.md#actions)
+>>>>>>> laraxot/dev

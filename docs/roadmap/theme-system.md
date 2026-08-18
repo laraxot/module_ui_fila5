@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44,6 +45,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
 # Sistema di Theming
 
 ## 📊 Stato Implementazione
@@ -80,6 +83,7 @@ class ThemeRegistry
 {
     /** @var array<string, Theme> */
     protected array $themes = [];
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -438,6 +442,8 @@ class ThemeRegistry
     /** @var array<string, array<string, mixed>> */
     protected array $overrides = [];
 
+=======
+>>>>>>> laraxot/dev
     public function register(Theme $theme): void
     {
         $this->themes[$theme->getName()] = $theme;
@@ -632,6 +638,7 @@ class ThemeCompiler
 2. Implementare CSS-in-JS
 3. Ottimizzare caching
 4. Aggiungere theme builder
+<<<<<<< HEAD
 5. Migliorare documentazione
 <<<<<<< HEAD
 =======
@@ -647,3 +654,5 @@ class ThemeCompiler
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

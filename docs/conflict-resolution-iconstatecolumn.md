@@ -69,6 +69,7 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 - [selectstatecolumn.md](selectstatecolumn.md)
 - [table-components.md](table-components.md)
 - [Modules/UI/docs/](../docs/)
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 *Ultimo aggiornamento: 29 luglio 2025*
@@ -176,3 +177,5 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

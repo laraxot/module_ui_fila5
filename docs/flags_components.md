@@ -11,6 +11,7 @@
 ## Panoramica
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
 =======
 <<<<<<< HEAD
@@ -29,11 +30,15 @@ Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazion
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+>>>>>>> laraxot/dev
 
 ## Struttura dei Componenti Bandiera
 
 I file SVG delle bandiere sono archiviati in:
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/UI/resources/svg/flags/
 =======
@@ -53,6 +58,9 @@ I file SVG delle bandiere sono archiviati in:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+/var/www/html/saluteora/laravel/Modules/UI/resources/svg/flags/
+>>>>>>> laraxot/dev
 ```
 
 Ogni bandiera è rappresentata da un file SVG con il codice ISO del paese come nome file (ad esempio, `it.svg` per l'Italia, `gb.svg` per il Regno Unito).
@@ -103,6 +111,7 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -120,10 +129,13 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
 <x-ui-flags.it 
     class="h-6 w-6 rounded-full shadow-sm" 
     title="Italiano" 
     aria-label="Seleziona lingua italiana" 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -135,6 +147,8 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
 />
 ```
 
@@ -201,6 +215,7 @@ Le bandiere devono essere utilizzate come icone Filament:
 3. **Prestazioni**: Gli SVG sono leggeri e non richiedono richieste HTTP aggiuntive
 4. **Accessibilità**: Possibilità di aggiungere attributi di accessibilità
 <<<<<<< HEAD
+<<<<<<< HEAD
 5. **Coerenza**: Utilizzo di componenti nativi di SaluteOra
 =======
 <<<<<<< HEAD
@@ -219,6 +234,9 @@ Le bandiere devono essere utilizzate come icone Filament:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+5. **Coerenza**: Utilizzo di componenti nativi di SaluteOra
+>>>>>>> laraxot/dev
 
 ## Bandiere Disponibili
 

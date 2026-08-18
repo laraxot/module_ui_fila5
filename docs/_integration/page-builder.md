@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84,3 +85,8 @@ https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+# page_builder
+
+<!-- Contenuto migrato da _docs/page_builder.txt -->
+>>>>>>> laraxot/dev

@@ -6,6 +6,7 @@
 
 #### Qualità del Codice
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **PHPStan level 10**: 12/12 file core certificati
 =======
 <<<<<<< HEAD
@@ -42,6 +43,8 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
 - **Translation Standards**: 100% compliance con struttura espansa
 - **Component Architecture**: 50+ componenti Blade riutilizzabili
 - **Filament Integration**: 20+ widget personalizzati perfettamente integrati
@@ -55,6 +58,7 @@
 #### Performance Ottimizzata
 - **Component Rendering**: < 50ms per componente
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Bundle Size**: < 200KB per tutti i componenti  
 =======
 <<<<<<< HEAD
@@ -77,6 +81,9 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+- **Bundle Size**: < 200KB per tutti i componenti
+>>>>>>> laraxot/dev
 - **Mobile Responsive**: 100% componenti responsive
 - **Caching**: Sistema caching componenti attivo
 
@@ -91,6 +98,7 @@
 - **README.md**: 407 righe (troppo denso)
 - **Informazioni duplicate** tra sezioni
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Esempi troppo specifici** per <nome progetto>
 =======
 <<<<<<< HEAD
@@ -127,6 +135,8 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
 
 ## 🔧 RACCOMANDAZIONI SPECIFICHE
 
@@ -136,6 +146,7 @@
 ```php
 // ❌ PROBLEMI ATTUALI (in documentazione)
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/UI/
 =======
 <<<<<<< HEAD
@@ -172,6 +183,8 @@ Modules/UI/
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
 https://api.<nome progetto>.com/
 
 // ✅ SOLUZIONI
@@ -200,6 +213,7 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 
 ## 🏆 Quality Achievements
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ PHPStan level 10 (12/12 files)
 =======
 <<<<<<< HEAD
@@ -236,6 +250,8 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
 - ✅ Translation Standards 100%
 - ✅ 50+ Blade Components
 - ✅ Accessibility Score 98/100
@@ -291,6 +307,7 @@ class ComponentPerformanceMiddleware
     {
         $start = microtime(true);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -329,6 +346,8 @@ class ComponentPerformanceMiddleware
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
         if ($duration > 50) {
             Log::warning("Slow component detected", [
                 'component' => $request->route()->getName(),
@@ -336,6 +355,7 @@ class ComponentPerformanceMiddleware
             ]);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
 <<<<<<< HEAD
@@ -358,6 +378,9 @@ class ComponentPerformanceMiddleware
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+
+>>>>>>> laraxot/dev
         return $response;
     }
 }
@@ -431,6 +454,7 @@ php artisan ui:accessibility-check
 
 ### Mantenere Eccellenze
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **NON toccare** l'architettura PHPStan level 10
 =======
 <<<<<<< HEAD
@@ -467,6 +491,8 @@ php artisan ui:accessibility-check
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
 - **NON modificare** il sistema TableLayoutEnum (perfetto)
 - **NON cambiare** il pattern TransTrait (eccellente)
 - **NON alterare** la struttura componenti (ben organizzata)
@@ -486,6 +512,7 @@ php artisan ui:accessibility-check
 - [Analisi Moduli Globale](../../../docs/modules_analysis_and_optimization.md)
 - [Components Guide](components.md)
 - [TableLayoutEnum Guide](table-layout-enum-complete-guide.md)
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 *Ultimo aggiornamento: gennaio 2025*
@@ -771,3 +798,5 @@ php artisan ui:accessibility-check
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

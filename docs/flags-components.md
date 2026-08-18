@@ -11,6 +11,7 @@
 ## Panoramica
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
 =======
 <<<<<<< HEAD
@@ -37,11 +38,15 @@ Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazion
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+>>>>>>> laraxot/dev
 
 ## Struttura dei Componenti Bandiera
 
 I file SVG delle bandiere sono archiviati in:
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/saluteora/laravel/Modules/UI/resources/svg/flags/
 =======
@@ -69,6 +74,8 @@ Modules/UI/resources/svg/flags/
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
 ```
 
 Ogni bandiera è rappresentata da un file SVG con il codice ISO del paese come nome file (ad esempio, `it.svg` per l'Italia, `gb.svg` per il Regno Unito).
@@ -119,6 +126,7 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -158,6 +166,8 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
 />
 ```
 
@@ -224,6 +234,7 @@ Le bandiere devono essere utilizzate come icone Filament:
 3. **Prestazioni**: Gli SVG sono leggeri e non richiedono richieste HTTP aggiuntive
 4. **Accessibilità**: Possibilità di aggiungere attributi di accessibilità
 <<<<<<< HEAD
+<<<<<<< HEAD
 5. **Coerenza**: Utilizzo di componenti nativi di SaluteOra
 =======
 <<<<<<< HEAD
@@ -242,6 +253,10 @@ Le bandiere devono essere utilizzate come icone Filament:
 5. **Coerenza**: Utilizzo di componenti nativi di
 5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
 5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
+=======
+5. **Coerenza**: Utilizzo di componenti nativi di
+5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
+>>>>>>> laraxot/dev
 
 ## Bandiere Disponibili
 
@@ -306,7 +321,10 @@ Per visualizzare correttamente le bandiere, è necessario:
 
 ## Panoramica
 
+<<<<<<< HEAD
 Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+=======
+>>>>>>> laraxot/dev
 
 ## Struttura dei Componenti Bandiera
 
@@ -433,6 +451,7 @@ Le bandiere devono essere utilizzate come icone Filament:
 4. **Accessibilità**: Possibilità di aggiungere attributi di accessibilità
 5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -446,6 +465,8 @@ Le bandiere devono essere utilizzate come icone Filament:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
 
 ## Bandiere Disponibili
 
@@ -502,6 +523,7 @@ Per visualizzare correttamente le bandiere, è necessario:
 ## Conclusione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 L'utilizzo dei componenti SVG delle bandiere del modulo UI è il modo più efficace per rendere il selettore di lingue nell'header più accattivante e visibile. Questi componenti sono già integrati  e possono essere facilmente utilizzati in qualsiasi parte dell'applicazione.
 =======
 <<<<<<< HEAD
@@ -524,3 +546,5 @@ L'utilizzo dei componenti SVG delle bandiere del modulo UI è il modo più effic
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

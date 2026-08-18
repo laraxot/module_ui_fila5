@@ -43,6 +43,7 @@ class OpeningHoursRule implements ValidationRule
 {
     use TransTrait;
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 <<<<<<< HEAD
@@ -277,6 +278,8 @@ use Modules\Xot\Filament\Traits\TransTrait;
 class OpeningHoursRule implements ValidationRule
 {
     use TransTrait;
+=======
+>>>>>>> laraxot/dev
 
     // Utilizzo nelle validazioni
     $fail(static::trans('validation.opening_hours.morning_before_afternoon', params: [
@@ -428,6 +431,7 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 - [TransTrait Documentation](../../Xot/docs/trans_trait.md)
 - [Opening Hours Field](./opening_hours_field.md)
 - [Localization Guidelines](./localization_guidelines.md)
+<<<<<<< HEAD
 
 *Implementazione completata: gennaio 2025*
 <<<<<<< HEAD
@@ -444,3 +448,5 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

@@ -11,7 +11,11 @@ return [
     'navigation' => [
         'label' => 'Collezioni',
         'group' => 'UI',
+<<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> laraxot/dev
         'sort' => 68,
     ],
     'fields' => [
