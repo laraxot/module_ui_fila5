@@ -10,6 +10,7 @@
 ## 🎯 PANORAMICA
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
 =======
 <<<<<<< HEAD
@@ -28,6 +29,9 @@ Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modu
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
+>>>>>>> laraxot/dev
 
 ---
 
@@ -448,6 +452,7 @@ class MapService
                     'status' => $ticket->status->slug,
                     'priority' => $ticket->priority->slug,
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'url' => route('fixcity.tickets.show', $ticket)
 =======
 <<<<<<< HEAD
@@ -466,6 +471,9 @@ class MapService
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+                    'url' => route('fixcity.tickets.show', $ticket)
+>>>>>>> laraxot/dev
                 ];
             })
             ->toArray();
@@ -546,6 +554,7 @@ class GeocodingService
         </div>
         <div class="col-md-4">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <livewire:fixcity::components.ticket-stats />
 =======
 <<<<<<< HEAD
@@ -564,6 +573,9 @@ class GeocodingService
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+            <livewire:fixcity::components.ticket-stats />
+>>>>>>> laraxot/dev
         </div>
     </div>
 </div>
@@ -618,6 +630,7 @@ class GeocodingService
 
 ### 📅 Fase 3: Integrazione (Settimana 3)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Integrazione con modulo Fixcity
 =======
 <<<<<<< HEAD
@@ -636,6 +649,9 @@ class GeocodingService
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+- [ ] Integrazione con modulo Fixcity
+>>>>>>> laraxot/dev
 - [ ] Integrazione con modulo User
 - [ ] API endpoints per mappa
 - [ ] Testing componenti

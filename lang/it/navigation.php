@@ -7,7 +7,11 @@ return [
         'label' => 'Navigazione',
         'plural_label' => 'Navigazioni',
         'group' => 'Gestione Contenuti',
+<<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> laraxot/dev
         'sort' => 1,
     ],
     'label' => 'Navigazione',

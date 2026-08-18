@@ -9,6 +9,7 @@
 > **Soluzione:** Seguire SEMPRE la regola documentata qui sotto e aggiornata anche in README.md e nella root docs/links.md.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Gestione dei Percorsi e degli Asset 
 
 ## Collegamenti correlati
@@ -39,6 +40,9 @@
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
 - [Architettura Modulare](/laravel/Modules/UI/docs/architecture.md)
 >>>>>>> 92912795 (.)
+=======
+# Gestione dei Percorsi e degli Asset
+>>>>>>> laraxot/dev
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
 
 ## Percorsi Corretti per gli Asset
@@ -48,6 +52,7 @@
 , è fondamentale rispettare la struttura corretta delle directory per gli asset pubblici:
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/saluteora/
 =======
@@ -84,6 +89,8 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
 ├── laravel/                 # Applicazione Laravel (codice sorgente)
 │   ├── Modules/             # Moduli dell'applicazione
 │   ├── resources/           # Risorse non compilate
@@ -101,6 +108,7 @@
 
 | Tipo di Asset | ✅ Percorso Corretto | ❌ Percorso Errato |
 |---------------|---------------------|-------------------|
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -584,6 +592,8 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 | CSS | `public_html/css/` | `public/css/` |
 | JavaScript | `public_html/js/` | `public/js/` |
 | SVG | `public_html/images/` | `public/images/` |
+=======
+>>>>>>> laraxot/dev
 
 ## Utilizzo degli Asset nei Componenti Blade
 
@@ -614,7 +624,10 @@ Per garantire una buona esperienza utente, implementare sempre un fallback per l
 Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati come componenti Blade in:
 
 ```
+<<<<<<< HEAD
 Themes/One/resources/views/components/ui/
+=======
+>>>>>>> laraxot/dev
 ```
 
 ### SVG come Asset Pubblici
@@ -622,7 +635,10 @@ Themes/One/resources/views/components/ui/
 Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizionati in:
 
 ```
+<<<<<<< HEAD
 public_html/images/
+=======
+>>>>>>> laraxot/dev
 ```
 
 ## Gestione dei Componenti UI
@@ -632,13 +648,19 @@ public_html/images/
 Il componente avatar è implementato in:
 
 ```
+<<<<<<< HEAD
 Themes/One/resources/views/components/ui/avatar.blade.php
+=======
+>>>>>>> laraxot/dev
 ```
 
 E utilizza gli avatar SVG dalla directory pubblica:
 
 ```
+<<<<<<< HEAD
 public_html/images/avatars/
+=======
+>>>>>>> laraxot/dev
 ```
 
 ### Componente Icon
@@ -646,7 +668,10 @@ public_html/images/avatars/
 Il componente icon è implementato in:
 
 ```
+<<<<<<< HEAD
 Themes/One/resources/views/components/ui/icon.blade.php
+=======
+>>>>>>> laraxot/dev
 ```
 
 E include le definizioni SVG direttamente nel componente.
@@ -669,11 +694,14 @@ E include le definizioni SVG direttamente nel componente.
 
 **❌ Errato:**
 ```
+<<<<<<< HEAD
 resources/views/components/ui/logo.blade.php
 ```
 **✅ Corretto:**
 ```
 Modules/UI/resources/views/components/ui/logo.blade.php
+=======
+>>>>>>> laraxot/dev
 ```
 
 ## Best Practices
@@ -687,6 +715,7 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 
 ## Errori Comuni
 
+<<<<<<< HEAD
 1. **Utilizzo del percorso Laravel public**: Utilizzare `public/` invece di `public_html/`
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile
@@ -708,3 +737,5 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

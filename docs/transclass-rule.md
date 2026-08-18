@@ -20,6 +20,7 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 <<<<<<< HEAD
@@ -399,6 +400,8 @@ use Modules\Xot\Filament\Traits\TransTrait;
 enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
+=======
+>>>>>>> laraxot/dev
 
     case LIST = 'list';
     case GRID = 'grid';
@@ -674,6 +677,7 @@ rules:
 - MAI `match()` per traduzioni
 - SEMPRE struttura espansa nelle traduzioni
 - SEMPRE sincronizzazione IT/EN/DE
+<<<<<<< HEAD
 
 *Ultimo aggiornamento: 2025-01-06*
 <<<<<<< HEAD
@@ -690,3 +694,5 @@ rules:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

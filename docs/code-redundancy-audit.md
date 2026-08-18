@@ -7,10 +7,14 @@ created: "2026-05-26"
 updated: "2026-05-26"
 owner: "UI"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/150"
 =======
 issue: "https://github.com/provtv/<nome repository>/issues/150"
 >>>>>>> 92912795 (.)
+=======
+issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/150"
+>>>>>>> laraxot/dev
 ---
 
 # Code redundancy audit — UI
@@ -93,10 +97,14 @@ Ridurre rumore, duplicazione e ambiguita' nel codice di questo module, senza per
 
 - Markdown locale + Git restano la base piu' portabile: gli agenti leggono/scrivono file senza database esterni.
 <<<<<<< HEAD
+<<<<<<< HEAD
 - AGENTS.md/SKILL.md devono restare manifest leggeri, con YAML/front matter e routing on-demand.
 =======
 - agents.md/SKILL.md devono restare manifest leggeri, con YAML/front matter e routing on-demand.
 >>>>>>> 92912795 (.)
+=======
+- AGENTS.md/SKILL.md devono restare manifest leggeri, con YAML/front matter e routing on-demand.
+>>>>>>> laraxot/dev
 - I descrittori architetturali navigabili riducono i passi di localizzazione: ogni owner dovrebbe avere mappa scopo -> file chiave.
 - AI utile = recupero mirato, non pre-caricamento: report atomici, QMD, issue e log.
 

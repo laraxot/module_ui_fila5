@@ -146,6 +146,7 @@ class CustomMiddleware
 
 // Non hardcodare percorsi delle risorse
 <<<<<<< HEAD
+<<<<<<< HEAD
 <img src="/var/www/html/saluteora/laravel/public/images/avatar.png">
 =======
 <<<<<<< HEAD
@@ -760,6 +761,8 @@ class CustomMiddleware
 }
 
 // Non hardcodare percorsi delle risorse
+=======
+>>>>>>> laraxot/dev
 <img src="public/images/avatar.png">
 
 // Non duplicare la registrazione dei componenti
@@ -894,16 +897,22 @@ class UIServiceProvider extends XotBaseServiceProvider
   @volt('component.name')
   <?php
   use function Livewire\Volt\{state, mount};
+<<<<<<< HEAD
 
   state([
       'property' => null,
   ]);
 
+=======
+>>>>>>> laraxot/dev
   $action = function () {
       // Logica dell'azione
   };
   ?>
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
   <div>
       <!-- Template del componente -->
   </div>
@@ -917,15 +926,21 @@ class UIServiceProvider extends XotBaseServiceProvider
   <?php
   use function Laravel\Folio\{middleware, name};
   use function Livewire\Volt\{state, mount};
+<<<<<<< HEAD
 
   middleware(['auth']);
   name('page.name');
 
+=======
+>>>>>>> laraxot/dev
   state([
       'property' => null,
   ]);
   ?>
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
   <x-layouts.main>
       <!-- Contenuto della pagina -->
   </x-layouts.main>
@@ -1068,6 +1083,7 @@ class UIServiceProvider extends XotBaseServiceProvider
 5. **Cosa Fare**:
    - Utilizzare i componenti responsive appropriati
    - Mantenere la coerenza con il tema dark/light
+<<<<<<< HEAD
    - Gestire correttamente il logout con CSRF
 <<<<<<< HEAD
 =======
@@ -1083,3 +1099,5 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

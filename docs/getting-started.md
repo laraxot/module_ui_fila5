@@ -69,6 +69,7 @@ Now that you’ve edited your configuration variables and know how to customize 
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,10 +87,14 @@ Now that you’ve edited your configuration variables and know how to customize 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
 # build static files with Jigsaw
 ./vendor/bin/jigsaw build
 
 # compile assets with Laravel Mix
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -119,6 +124,8 @@ npm run dev
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 * [getting-started.md](../../../Gdpr/docs/getting-started.md)
 * [getting-started.md](../../../Xot/docs/getting-started.md)
 * [getting-started.md](../../../UI/docs/getting-started.md)
@@ -126,10 +133,13 @@ npm run dev
 * [getting-started.md](../../../Cms/docs/getting-started.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ### Versione Incoming
@@ -185,8 +195,11 @@ section: content
 ```
 
 [Read more about Jigsaw layouts.](https://jigsaw.tighten.co/project_docs/content-blade/)
+<<<<<<< HEAD
 [Read more about Jigsaw layouts.](https://jigsaw.tighten.co/project_docs/content-blade/)
 [Read more about Jigsaw layouts.](https://jigsaw.tighten.co/project_docs/content-blade/)
+=======
+>>>>>>> laraxot/dev
 
 ---
 
@@ -199,8 +212,11 @@ Then, when Jigsaw builds your site, the entire `/source/assets/` directory conta
 Files that don't require processing (such as images and fonts) can be added directly to `/source/assets/`.
 
 [Read more about compiling assets in Jigsaw using Laravel Mix.](http://jigsaw.tighten.co/project_docs/compiling-assets/)
+<<<<<<< HEAD
 [Read more about compiling assets in Jigsaw using Laravel Mix.](http://jigsaw.tighten.co/project_docs/compiling-assets/)
 [Read more about compiling assets in Jigsaw using Laravel Mix.](http://jigsaw.tighten.co/project_docs/compiling-assets/)
+=======
+>>>>>>> laraxot/dev
 
 ---
 
@@ -209,7 +225,10 @@ Files that don't require processing (such as images and fonts) can be added dire
 Now that you’ve edited your configuration variables and know how to customize your styles and content, let’s build the site.
 
 ```bash
+<<<<<<< HEAD
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
 # build static files with Jigsaw
 ./vendor/bin/jigsaw build
 
@@ -219,6 +238,7 @@ npm run dev
 ```
 ### Versione HEAD
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 ## Collegamenti tra versioni di getting-started.md
@@ -242,6 +262,9 @@ npm run dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+## Collegamenti tra versioni di getting-started.md
+>>>>>>> laraxot/dev
 * [getting-started.md](../../../Gdpr/project_docs/getting-started.md)
 * [getting-started.md](../../../Xot/project_docs/getting-started.md)
 * [getting-started.md](../../../UI/project_docs/getting-started.md)
@@ -249,6 +272,7 @@ npm run dev
 * [getting-started.md](../../../Cms/project_docs/getting-started.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -285,3 +309,5 @@ npm run dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

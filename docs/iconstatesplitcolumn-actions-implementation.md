@@ -14,6 +14,7 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 
 <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-1 p-1">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54,6 +55,8 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
     />
 </div>
 ```
@@ -112,6 +115,7 @@ public function prova($recordId): void
 
 ### Nel Template
 ```blade
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -373,6 +377,8 @@ public function prova($recordId): void
     icon="heroicon-m-plus"
     wire:click="prova({{ $record->id }})"
     label="Test Azione"
+=======
+>>>>>>> laraxot/dev
 />
 ```
 
@@ -417,10 +423,13 @@ public function transitionState($recordId, $stateClass): void
 
 ### 2. Aggiungere il pulsante nel template
 ```blade
+<<<<<<< HEAD
 <x-filament::icon-button
     icon="heroicon-o-arrow-right"
     wire:click="transitionState({{ $record->id }}, '{{ $stateClass }}')"
     label="Cambia Stato"
+=======
+>>>>>>> laraxot/dev
 />
 ```
 
@@ -436,6 +445,7 @@ La soluzione semplice è la migliore perché:
 
 **Last Updated**: June 2025
 **Version**: 2.3
+<<<<<<< HEAD
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
@@ -453,3 +463,5 @@ La soluzione semplice è la migliore perché:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

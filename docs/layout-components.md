@@ -143,6 +143,7 @@ $breakpoints: (
 - [Componenti Base](./base-components.md)
 - [Performance](./standards/performance.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Accessibilità](./standards/accessibility.md) 
 =======
 <<<<<<< HEAD
@@ -318,3 +319,5 @@ $breakpoints: (
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

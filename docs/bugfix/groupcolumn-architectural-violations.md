@@ -3,8 +3,13 @@ title: "Bugfix: GroupColumn Architectural Violations"
 type: concept
 tags: [groupcolumn, architectural, violations]
 created: 2026-07-14
+<<<<<<< HEAD
 updated: 2026-08-18
 qmd: "groupcolumn-architectural-violations bugfix phpstan class.notFound cache"
+=======
+updated: 2026-07-14
+qmd: "groupcolumn-architectural-violations bugfix: groupcolumn architectural violations"
+>>>>>>> laraxot/dev
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 related:
@@ -14,6 +19,7 @@ related:
 
 # Bugfix: GroupColumn Architectural Violations
 
+<<<<<<< HEAD
 **Status**: codice su `XotBaseColumn`. Chi lo usa: operatori che cercano schede per matr/cognome (colonne raggruppate lavoratore/periodo).
 
 ## PHPStan — marker Git e cache
@@ -26,6 +32,10 @@ cd laravel && ./vendor/bin/phpstan analyse Modules --memory-limit=-1 --no-progre
 ```
 
 Non è un bug delle colonne: è un file che non compila. Il Job da non rompere è la ricerca in tabella.
+=======
+**Data Fix**: 11 Novembre 2025
+**Status**: ✅ RISOLTO
+>>>>>>> laraxot/dev
 
 ## Problema
 

@@ -111,6 +111,7 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
     protected static ?string $pollingInterval = null;
     protected static bool $isLazy = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 <<<<<<< HEAD
@@ -685,6 +686,8 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
     protected static ?int $sort = 0;
     protected static ?string $pollingInterval = null;
     protected static bool $isLazy = true;
+=======
+>>>>>>> laraxot/dev
 
     // Configurazioni comuni per tutti i widget di statistiche UI
     protected static function getDefaultStats(): array
@@ -726,10 +729,13 @@ abstract class UIBaseTestWidget extends XotBaseWidget
     protected static string $view = 'ui::filament.widgets.base-test';
     protected static bool $isLazy = true;
     protected static ?string $pollingInterval = null;
+<<<<<<< HEAD
 
     // Configurazioni comuni per tutti i widget di test UI
     public array $widgets = [];
 
+=======
+>>>>>>> laraxot/dev
     // Metodi helper comuni
     protected function getTestData(): array
     {
@@ -918,6 +924,7 @@ class SystemTestWidget extends UIBaseTestWidget
 ---
 
 *Ultimo aggiornamento: Giugno 2025*
+<<<<<<< HEAD
 *Autore: Analisi Automatica del Progetto*
 <<<<<<< HEAD
 =======
@@ -933,3 +940,5 @@ class SystemTestWidget extends UIBaseTestWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

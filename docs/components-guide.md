@@ -34,6 +34,7 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
         </x-filament::button>
     </x-slot>
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 <<<<<<< HEAD
@@ -690,6 +691,8 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
             {{ __('More actions') }}
         </x-filament::button>
     </x-slot>
+=======
+>>>>>>> laraxot/dev
 
     <x-filament::dropdown.list>
         <x-filament::dropdown.list.item>
@@ -835,11 +838,14 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
   @volt('component.name')
   <?php
   use function Livewire\Volt\{state, mount};
+<<<<<<< HEAD
 
   state([
       'property' => null,
   ]);
 
+=======
+>>>>>>> laraxot/dev
   $action = function () {
       // Logica dell'azione
   };
@@ -858,10 +864,13 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
   <?php
   use function Laravel\Folio\{middleware, name};
   use function Livewire\Volt\{state, mount};
+<<<<<<< HEAD
 
   middleware(['auth']);
   name('page.name');
 
+=======
+>>>>>>> laraxot/dev
   state([
       'property' => null,
   ]);
@@ -1110,6 +1119,7 @@ $logout = function () {
 - ✅ Utilizzare i componenti appropriati
 - ✅ Seguire la struttura standard
 - ✅ Gestire correttamente le traduzioni
+<<<<<<< HEAD
 - ✅ Testare in entrambi gli stati
 <<<<<<< HEAD
 =======
@@ -1125,3 +1135,5 @@ $logout = function () {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

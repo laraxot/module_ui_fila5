@@ -113,6 +113,7 @@ composer format        # Formatta il codice
 
 ## Changelog
 <<<<<<< HEAD
+<<<<<<< HEAD
 Le modifiche vengono tracciate nel repository GitHub. 
 =======
 <<<<<<< HEAD
@@ -258,3 +259,5 @@ Le modifiche vengono tracciate nel repository GitHub.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

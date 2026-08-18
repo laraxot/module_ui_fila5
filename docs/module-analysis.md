@@ -61,6 +61,7 @@ The UI module provides comprehensive user interface components and styling:
 - **User**: Authentication interface components
 - **Cms**: Content display components
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Quaeris**: Dashboard UI components
 =======
 <<<<<<< HEAD
@@ -79,6 +80,9 @@ The UI module provides comprehensive user interface components and styling:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+- **Quaeris**: Dashboard UI components
+>>>>>>> laraxot/dev
 - **Xot**: Base UI infrastructure
 - **Filament**: Component compatibility
 
@@ -109,4 +113,8 @@ The UI module provides comprehensive user interface components and styling:
 - Version management
 - Styling system
 - Accessibility tools
+<<<<<<< HEAD
 - Performance optimization
+=======
+- Performance optimization
+>>>>>>> laraxot/dev

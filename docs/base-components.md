@@ -159,6 +159,7 @@ $spacers: (
 - [Performance](./standards/performance.md)
 - [Accessibilità](./standards/accessibility.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [UI Standards](./standards/ui-standards.md) 
 =======
 <<<<<<< HEAD
@@ -350,3 +351,5 @@ $spacers: (
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

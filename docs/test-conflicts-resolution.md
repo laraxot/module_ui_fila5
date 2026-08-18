@@ -41,6 +41,7 @@ cd laravel
 
 - [Risoluzione Conflitti Git](../../../../docs/risoluzione_conflitti_git.md): Documentazione principale sulla risoluzione dei conflitti git.
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [UI Conflict Links](../../../../docs/ui_conflict_links.md): Collegamenti ai file di risoluzione dei conflitti nel modulo UI. 
 =======
 <<<<<<< HEAD
@@ -114,3 +115,5 @@ cd laravel
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
