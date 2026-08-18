@@ -33,7 +33,7 @@ class GetUserDataAction
         $avatarValue = null;
         if (isset($user->profile_photo_path) && is_string($user->profile_photo_path)) {
             $avatarValue = $user->profile_photo_path;
-        } elseif ($user->relationLoaded('profile') && $user->profile !== null) {
+        } elseif ($user->relationLoaded('profile') && null !== $user->profile) {
             $profile = $user->profile;
             if (is_object($profile) && method_exists($profile, 'getAvatarUrl')) {
                 $avatarValue = $profile->getAvatarUrl();
@@ -51,7 +51,7 @@ class GetUserDataAction
         // Get settings - could be in profile or extra attributes
         /** @var array<string, mixed> $settingsArray */
         $settingsArray = [];
-        if ($user->relationLoaded('profile') && $user->profile !== null) {
+        if ($user->relationLoaded('profile') && null !== $user->profile) {
             $profile = $user->profile;
             if (is_object($profile) && isset($profile->extra)) {
                 $extra = $profile->extra;
