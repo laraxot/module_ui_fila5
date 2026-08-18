@@ -129,6 +129,7 @@ $rule = new OpeningHoursRule();
 // Verificare messaggi in italiano
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Test inglese  
 =======
 <<<<<<< HEAD
@@ -351,6 +352,8 @@ App::setLocale('it');
 $rule = new OpeningHoursRule();
 // Verificare messaggi in italiano
 
+=======
+>>>>>>> laraxot/dev
 // Test inglese
 App::setLocale('en');
 $rule = new OpeningHoursRule();
@@ -404,6 +407,7 @@ $rule = new OpeningHoursRule();
 - [Opening Hours Field](./opening_hours_field.md)
 - [Validation System](./validation_system.md)
 - [Localization Guidelines](./localization_guidelines.md)
+<<<<<<< HEAD
 
 *Correzione completata: gennaio 2025*
 <<<<<<< HEAD
@@ -420,3 +424,5 @@ $rule = new OpeningHoursRule();
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

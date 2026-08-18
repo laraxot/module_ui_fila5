@@ -17,6 +17,7 @@
 <div class="form-group">
   <label for="email">Email</label>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <input 
     type="email" 
     id="email" 
@@ -460,6 +461,8 @@
 ```html
 <div class="form-group">
   <label for="email">Email</label>
+=======
+>>>>>>> laraxot/dev
   <input
     type="email"
     id="email"
@@ -603,10 +606,13 @@
     border-color: $primary;
     box-shadow: 0 0 0 0.2rem rgba($primary, 0.25);
   }
+<<<<<<< HEAD
 
   &.is-invalid {
     border-color: $danger;
 
+=======
+>>>>>>> laraxot/dev
     &:focus {
       box-shadow: 0 0 0 0.2rem rgba($danger, 0.25);
     }
@@ -618,7 +624,10 @@
 ```scss
 .input-group {
   transition: all 0.3s ease;
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
   &:focus-within {
     transform: translateY(-1px);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -630,6 +639,7 @@
 - [Componenti Base](./base-components.md)
 - [Feedback](./feedback-components.md)
 - [Accessibilità](./standards/accessibility.md)
+<<<<<<< HEAD
 - [Performance](./standards/performance.md)
 <<<<<<< HEAD
 =======
@@ -645,3 +655,5 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -448,6 +449,8 @@ form.addEventListener('submit', async (e) => {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - [Performance](./performance.md)
+=======
+>>>>>>> laraxot/dev
 # Standard Form nei Temi
 
 ## Principi Generali
@@ -705,6 +708,7 @@ form.addEventListener('submit', async (e) => {
 ## Collegamenti
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md)
+<<<<<<< HEAD
 - [Performance](./performance.md)
 <<<<<<< HEAD
 =======
@@ -720,3 +724,5 @@ form.addEventListener('submit', async (e) => {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

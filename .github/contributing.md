@@ -41,6 +41,7 @@ Before submitting a pull request:
 If the project maintainer has any additional requirements, you will find them listed here.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **[PSR-2 Coding Standard](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)** - The standard can be enforced by running the `composer lint` console command.
 =======
 <<<<<<< HEAD
@@ -63,6 +64,9 @@ If the project maintainer has any additional requirements, you will find them li
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+- **[PSR-2 Coding Standard](https://github.com/php-fig/fig-standards/blob/master/accepted/psr-2-coding-style-guide.md)** - The standard can be enforced by running the `composer lint` console command.
+>>>>>>> laraxot/dev
 
 - **Add tests!** - Your patch won't be accepted if it doesn't have tests.
 
@@ -75,6 +79,7 @@ If the project maintainer has any additional requirements, you will find them li
 - **Send coherent history** - Make sure each individual commit in your pull request is meaningful. If you had to make multiple intermediate commits while developing, please [squash them](https://www.git-scm.com/book/en/v2/Git-Tools-Rewriting-History#Changing-Multiple-Commit-Messages) before submitting.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Happy coding**!
 =======
 <<<<<<< HEAD
@@ -97,3 +102,6 @@ If the project maintainer has any additional requirements, you will find them li
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+**Happy coding**!
+>>>>>>> laraxot/dev

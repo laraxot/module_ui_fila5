@@ -229,6 +229,7 @@ php artisan view:clear
 
 # Test in browser
 <<<<<<< HEAD
+<<<<<<< HEAD
 # http://fixcity.local/it/tests/homepage
 =======
 <<<<<<< HEAD
@@ -247,6 +248,9 @@ php artisan view:clear
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+# http://fixcity.local/it/tests/homepage
+>>>>>>> laraxot/dev
 ```
 
 ### Verify SVG Files

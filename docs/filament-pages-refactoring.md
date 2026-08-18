@@ -141,6 +141,7 @@ class S3Test extends XotBasePage
 - [Filament Best Practices](../../Xot/docs/filament_best_practices.md)
 - [XotBasePage Implementation](../../Xot/docs/xotbasepage_implementation.md)
 - [DRY + KISS Principles](../../Xot/docs/dry_kiss_principles.md)
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 *Ultimo aggiornamento: giugno 2025* 
@@ -318,3 +319,5 @@ class S3Test extends XotBasePage
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

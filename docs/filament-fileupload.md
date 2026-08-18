@@ -96,6 +96,7 @@ return [
 ## Vedi Anche
 - [Filament File Upload](https://filamentphp.com/docs/forms/fields/file-upload)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Laravel File Storage](https://laravel.com/docs/filesystem) 
 =======
 <<<<<<< HEAD
@@ -217,12 +218,15 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
 - [Translation System](../../Lang/project_docs/translation-system.md)
 - [Form Components](../../Patient/project_docs/filament-form-components.md)
 - [Best Practices](../../Xot/project_docs/filament-best-practices.md)
 
 ## Vedi Anche
 - [Filament File Upload](https://filamentphp.com/project_docs/forms/fields/file-upload)
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Laravel File Storage](https://laravel.com/project_docs/filesystem) 
 =======
@@ -246,3 +250,6 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+- [Laravel File Storage](https://laravel.com/project_docs/filesystem)
+>>>>>>> laraxot/dev

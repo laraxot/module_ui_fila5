@@ -21,6 +21,7 @@ class ListUsers extends ListRecords
 {
     protected TableLayoutEnum $layout = TableLayoutEnum::LIST;
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 <<<<<<< HEAD
@@ -504,6 +505,8 @@ Il `TableLayoutEnum` è un enum PHP che gestisce i layout delle tabelle nei comp
 class ListUsers extends ListRecords
 {
     protected TableLayoutEnum $layout = TableLayoutEnum::LIST;
+=======
+>>>>>>> laraxot/dev
 
     public function table(Table $table): Table
     {
@@ -816,6 +819,7 @@ class TableLayoutEnumTest extends TestCase
 - [Conflict Resolution](conflict-resolution-tablelayoutenum.md)
 - [Translation Standards](../../../docs/translation_standards.md)
 - [Filament Best Practices](../../../docs/filament_best_practices.md)
+<<<<<<< HEAD
 
 *Ultimo aggiornamento: 2025-01-06*
 <<<<<<< HEAD
@@ -832,3 +836,5 @@ class TableLayoutEnumTest extends TestCase
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

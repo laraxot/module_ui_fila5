@@ -8,6 +8,7 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 ### DataTable
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 <x-ui::datatable 
 =======
 <<<<<<< HEAD
@@ -297,6 +298,8 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 
 ### DataTable
 ```blade
+=======
+>>>>>>> laraxot/dev
 <x-ui::datatable
     :columns="[
         ['name' => 'id', 'label' => 'ID', 'sortable' => true],
@@ -429,6 +432,7 @@ class UserTable extends Component
 - [Componenti Form](./form-components.md)
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
+<<<<<<< HEAD
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
@@ -446,3 +450,5 @@ class UserTable extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

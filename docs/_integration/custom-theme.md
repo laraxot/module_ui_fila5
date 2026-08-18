@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44,12 +45,15 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
 # custom_theme
 
 <!-- Contenuto migrato da _docs/custom_theme.txt -->
 
 https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -87,12 +91,15 @@ https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-li
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
 
 php artisan make:filament-theme admin
 
 add resources/css/filament/admin/theme.css entry to vite.config.js
 
 in app/Providers/Filament/AdminPanelProvider.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 ->viteTheme('resources/css/filament/admin/theme.css')
 =======
@@ -116,3 +123,6 @@ in app/Providers/Filament/AdminPanelProvider.php
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+->viteTheme('resources/css/filament/admin/theme.css')
+>>>>>>> laraxot/dev

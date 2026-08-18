@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Auto-generated forbidden paths — do not edit manually
 # Reason: root cleanup policy (see docs/wiki/rules/root-cleanup-policy.md)
@@ -14,12 +15,29 @@ docs/archive/**
 docs/archived
 docs/legacy
 docs/workbench
+=======
+# =============================================================================
+# LARAXOT MODULE: UI - .gitignore
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Forbidden directories (root cleanup policy)
+# -----------------------------------------------------------------------------
+bashscripts
+_bmad
+_bmad-output
+_docs
+.circleci
+.claude-audit
+.devcontainer
+>>>>>>> laraxot/dev
 .kilocode
 .kiro
 .ralph
 scripts
 test-results
 tests/.claude-audit
+<<<<<<< HEAD
 # ==============================================
 # LARAXOT MODULE: UI — .gitignore
 # Grouped, deduped. See docs/wiki/rules/module-theme-root-cleanup.md
@@ -202,6 +220,16 @@ design_notes.txt
 # See docs/wiki/rules/module-theme-root-cleanup.md
 # Patterns cover both module root and nested occurrences (docs/**).
 tests/AuditCoverage/
+=======
+tests/AuditCoverage/
+
+docs/archive/
+docs/archive/**
+docs/archived/
+docs/legacy/
+docs/legacy/**
+docs/workbench/
+>>>>>>> laraxot/dev
 docs/scripts/
 docs/bashscripts/
 docs/**/archive/
@@ -211,6 +239,7 @@ docs/**/workbench/
 docs/**/scripts/
 docs/**/bashscripts/
 
+<<<<<<< HEAD
 
 # ==============================================
 # PROJECT-SPECIFIC
@@ -436,3 +465,156 @@ phpmd*
 rector.php
 .php-cs-fixer.cache
 >>>>>>> 92912795 (.)
+=======
+# -----------------------------------------------------------------------------
+# Dependencies
+# -----------------------------------------------------------------------------
+/vendor/
+/node_modules/
+/docs/vendor/
+
+composer.lock
+package-lock.json
+yarn.lock
+
+# -----------------------------------------------------------------------------
+# Build artifacts
+# -----------------------------------------------------------------------------
+/build/
+/dist/
+
+cache/
+docs/cache/
+docs/phpstan/
+
+public/css/compiled/
+public/js/compiled/
+public/mix-manifest.json
+
+# -----------------------------------------------------------------------------
+# Laravel
+# -----------------------------------------------------------------------------
+/storage/*.key
+/public/storage
+/public/hot
+/public_html/storage
+/public_html/hot
+
+# -----------------------------------------------------------------------------
+# Environment
+# -----------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+config/local.php
+config/development.php
+
+# -----------------------------------------------------------------------------
+# IDE
+# -----------------------------------------------------------------------------
+.idea/
+.vscode/
+.cursor/
+.windsurf/
+.phpintel
+.phpstorm.meta.php
+/.vagrant
+
+# -----------------------------------------------------------------------------
+# Cache
+# -----------------------------------------------------------------------------
+.php-cs-fixer.cache
+.phpunit.result.cache
+*.cache
+*.lock
+*.tmp
+*.phar
+*.jar
+*.swp
+*.swo
+*.stackdump
+v8-compile-cache-*
+
+# -----------------------------------------------------------------------------
+# Logs
+# -----------------------------------------------------------------------------
+*.log
+error_log
+npm-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# -----------------------------------------------------------------------------
+# Git leftovers
+# -----------------------------------------------------------------------------
+.git-rewrite/
+.git-blame-ignore-revs
+
+*.orig
+*.rej
+
+*~HEAD
+*~BASE
+*~LOCAL
+*~REMOTE
+*~head
+
+# -----------------------------------------------------------------------------
+# Backup files
+# -----------------------------------------------------------------------------
+*.old
+*.old1
+*.old2
+*.backup
+*.backup.*
+*.backup-*
+*.backup_*
+*.bak
+*.new
+
+# -----------------------------------------------------------------------------
+# Legacy
+# -----------------------------------------------------------------------------
+resources/views/Components_old/
+resources/lang/
+lang/lang/
+
+database_old/
+database/Migrations_old/
+database/Seeders_old/
+database/Factories_old/
+
+# -----------------------------------------------------------------------------
+# UI module
+# -----------------------------------------------------------------------------
+*.fila2
+*.psd
+*.fig
+*.sketch
+
+design_notes.txt
+
+laravel
+public_html
+
+# -----------------------------------------------------------------------------
+# System files
+# -----------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+agentdb.rvf
+*:Zone.Identifier
+
+# -----------------------------------------------------------------------------
+# Root quality tools
+# -----------------------------------------------------------------------------
+phpstan*
+phpmd*
+rector.php
+>>>>>>> laraxot/dev

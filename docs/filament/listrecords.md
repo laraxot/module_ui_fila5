@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44,6 +45,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
 # List Records in Filament
 
 ## Estensione Corretta
@@ -198,6 +201,7 @@ use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -501,6 +505,8 @@ class ListXXX extends XotBaseListRecords
 
     protected static string $resource = XXXResource::class;
 
+=======
+>>>>>>> laraxot/dev
     public function getGridTableColumns(): array
     {
         return [
@@ -560,6 +566,7 @@ class ListXXX extends XotBaseListRecords
             );
     }
 }
+<<<<<<< HEAD
 ```
 <<<<<<< HEAD
 =======
@@ -575,3 +582,5 @@ class ListXXX extends XotBaseListRecords
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

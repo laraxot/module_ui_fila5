@@ -5,6 +5,7 @@
 **Hub:** [../../../../docs/audit/ponytail-audit.md](../../../../docs/audit/ponytail-audit.md)  
 **Remediation:** [../../../../docs/project/ponytail-audit-remediation.md](../../../../docs/project/ponytail-audit-remediation.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 **GitHub monorepo:** [Issue #221](https://github.com/laraxot/base_predict_fila5/issues/221) · [Discussion #222](https://github.com/laraxot/base_predict_fila5/discussions/222) · [Discussion #228](https://github.com/laraxot/base_predict_fila5/discussions/228)
 =======
 <<<<<<< HEAD
@@ -23,6 +24,9 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+**GitHub monorepo:** [Issue #221](https://github.com/laraxot/base_predict_fila5/issues/221) · [Discussion #222](https://github.com/laraxot/base_predict_fila5/discussions/222) · [Discussion #228](https://github.com/laraxot/base_predict_fila5/discussions/228)
+>>>>>>> laraxot/dev
 
 ## Findings
 
@@ -36,7 +40,11 @@
 
 - [wiki/concepts/ponytail-audit.md](./wiki/concepts/ponytail-audit.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [00-INDEX.md](./00-INDEX.md)
 =======
 - [00-index.md](./00-index.md)
 >>>>>>> 92912795 (.)
+=======
+- [00-INDEX.md](./00-INDEX.md)
+>>>>>>> laraxot/dev

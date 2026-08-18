@@ -133,6 +133,7 @@
             "port": 9003,
             "pathMappings": {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -412,6 +413,8 @@
             "request": "launch",
             "port": 9003,
             "pathMappings": {
+=======
+>>>>>>> laraxot/dev
                 "/ tasks.json
 {
     "version": "2.0.0",
@@ -505,6 +508,7 @@
 ## Vedi Anche
 - [VSCode Documentation](https://code.visualstudio.com/docs)
 - [PHP Intelephense](https://intelephense.com)
+<<<<<<< HEAD
 - [Filament Documentation](https://filamentphp.com/docs)
 <<<<<<< HEAD
 =======
@@ -520,3 +524,5 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

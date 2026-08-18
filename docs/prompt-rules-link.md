@@ -1,5 +1,6 @@
 # Regole per i Prompt
 
+<<<<<<< HEAD
 Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../../Xot/docs/PROMPT_RULES.md)
 ### Versione HEAD
 
@@ -113,3 +114,13 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../../Xot/docs/prompt-rules.md).
+
+## Collegamenti negli altri moduli
+
+Lo stesso rimando esiste nei moduli che espongono prompt:
+
+* [Regole prompt del modulo Lang](../../Lang/docs/prompt-rules-link.md)
+* [Regole prompt del modulo Cms](../../Cms/docs/prompt-rules-link.md)
+>>>>>>> laraxot/dev

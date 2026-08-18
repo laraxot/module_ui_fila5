@@ -29,6 +29,7 @@ class ListUsers extends XotBaseListRecords
 {
     protected TableLayoutEnum $layout;
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 <<<<<<< HEAD
@@ -991,6 +992,8 @@ use Modules\Xot\Filament\Resources\XotBaseListRecords;
 class ListUsers extends XotBaseListRecords
 {
     protected TableLayoutEnum $layout;
+=======
+>>>>>>> laraxot/dev
 
     public function mount(): void
     {
@@ -1051,10 +1054,13 @@ class ListUsers extends XotBaseListRecords
                     default => 'gray',
                 }),
         ];
+<<<<<<< HEAD
 
         return $this->layout->getTableColumns($listColumns, $gridColumns);
     }
 
+=======
+>>>>>>> laraxot/dev
     /**
      * Azioni header con toggle layout
      */
@@ -1265,11 +1271,14 @@ class TableLayoutEnumTest extends TestCase
     {
         $this->assertNull(TableLayoutEnum::LIST->getTableContentGrid());
     }
+<<<<<<< HEAD
 
     public function test_get_table_content_grid_returns_array_for_grid(): void
     {
         $grid = TableLayoutEnum::GRID->getTableContentGrid();
 
+=======
+>>>>>>> laraxot/dev
         $this->assertIsArray($grid);
         $this->assertArrayHasKey('sm', $grid);
         $this->assertArrayHasKey('md', $grid);
@@ -1282,6 +1291,7 @@ class TableLayoutEnumTest extends TestCase
     {
         $listColumns = ['name', 'email'];
         $gridColumns = ['stack'];
+<<<<<<< HEAD
 
         $result = TableLayoutEnum::LIST->getTableColumns($listColumns, $gridColumns);
         $this->assertEquals($listColumns, $result);
@@ -1290,6 +1300,8 @@ class TableLayoutEnumTest extends TestCase
         $this->assertEquals($gridColumns, $result);
     }
 
+=======
+>>>>>>> laraxot/dev
     public function test_is_grid_layout_returns_correct_boolean(): void
     {
         $this->assertTrue(TableLayoutEnum::GRID->isGridLayout());
@@ -1301,11 +1313,14 @@ class TableLayoutEnumTest extends TestCase
         $this->assertTrue(TableLayoutEnum::LIST->isListLayout());
         $this->assertFalse(TableLayoutEnum::GRID->isListLayout());
     }
+<<<<<<< HEAD
 
     public function test_get_options_returns_all_options(): void
     {
         $options = TableLayoutEnum::getOptions();
 
+=======
+>>>>>>> laraxot/dev
         $this->assertIsArray($options);
         $this->assertArrayHasKey('list', $options);
         $this->assertArrayHasKey('grid', $options);
@@ -1374,6 +1389,7 @@ TextColumn::make('name')
 - [Translation Standards](../../../docs/translation_standards.md)
 - [Filament Best Practices](../../../docs/filament_best_practices.md)
 - [Enum Translation Pattern](../../../docs/enum-translation-pattern.md)
+<<<<<<< HEAD
 
 *Ultimo aggiornamento: 2025-01-27*
 <<<<<<< HEAD
@@ -1390,3 +1406,5 @@ TextColumn::make('name')
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

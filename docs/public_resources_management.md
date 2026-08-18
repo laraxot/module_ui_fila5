@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Gestione delle Risorse Pubbliche 
 =======
 <<<<<<< HEAD
@@ -17,6 +18,9 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+# Gestione delle Risorse Pubbliche 
+>>>>>>> laraxot/dev
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -34,6 +38,7 @@ Questo documento descrive la corretta gestione delle risorse pubbliche (immagini
 La struttura corretta per le risorse pubbliche  è la seguente:
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/saluteora/
 =======
@@ -53,6 +58,9 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+/var/www/html/saluteora/
+>>>>>>> laraxot/dev
 ├── public_html/           # Directory pubblica principale
 │   ├── images/            # Immagini pubbliche
 │   ├── css/               # File CSS
@@ -62,6 +70,7 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 └── laravel/               # Applicazione Laravel (NON contiene file pubblici)
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 > **IMPORTANTE**: MAI utilizzare `/var/www/html/saluteora/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di SaluteOra.
 =======
@@ -81,11 +90,15 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+> **IMPORTANTE**: MAI utilizzare `/var/www/html/saluteora/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di SaluteOra.
+>>>>>>> laraxot/dev
 
 ## Tipi di Risorse
 
 ### Immagini
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/images/` e organizzate in sottocartelle per tipologia:
 =======
@@ -105,6 +118,9 @@ Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/im
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/images/` e organizzate in sottocartelle per tipologia:
+>>>>>>> laraxot/dev
 
 - `/images/avatars/` - Avatar utenti
 - `/images/logos/` - Loghi
@@ -172,6 +188,7 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 <img 
     src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}" 
     alt="{{ $user->name }}" 
@@ -198,6 +215,11 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+<img 
+    src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}" 
+    alt="{{ $user->name }}" 
+>>>>>>> laraxot/dev
     class="h-10 w-10 rounded-full"
 >
 ```
@@ -206,6 +228,7 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 
 ```blade
 <a href="{{ LaravelLocalization::getLocalizedURL(LaravelLocalization::getCurrentLocale(), route('home')) }}">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <img 
         src="{{ asset('images/logos/saluteora-logo.svg') }}" 
@@ -233,6 +256,11 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+    <img 
+        src="{{ asset('images/logos/saluteora-logo.svg') }}" 
+        alt="SaluteOra" 
+>>>>>>> laraxot/dev
         class="h-8"
     >
 </a>
@@ -247,6 +275,7 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 
 ## Conclusione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto SaluteOra.
 =======
@@ -266,3 +295,6 @@ Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantis
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto SaluteOra.
+>>>>>>> laraxot/dev

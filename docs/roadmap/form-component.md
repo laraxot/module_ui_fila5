@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44,6 +45,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
 # Form Component
 
 ## 📊 Stato Implementazione
@@ -80,6 +83,7 @@ class FormBuilder extends XotBaseUIComponent
 {
     /** @var array<string, FormField> */
     protected array $fields = [];
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -508,6 +512,8 @@ class FormBuilder extends XotBaseUIComponent
     /** @var array<string, mixed> */
     protected array $values = [];
 
+=======
+>>>>>>> laraxot/dev
     public function addField(string $name, FormField $field): self
     {
         $this->fields[$name] = $field;
@@ -631,11 +637,14 @@ protected function validateField(string $name): void
     if (!isset($this->dirtyFields[$name])) {
         return;
     }
+<<<<<<< HEAD
 
     $result = $this->fields[$name]->validate(
         $this->values[$name]
     );
 
+=======
+>>>>>>> laraxot/dev
     $this->errors[$name] = $result->errors();
 }
 ```
@@ -646,6 +655,7 @@ class FormState
 {
     /** @var array<string, mixed> */
     protected array $initialValues = [];
+<<<<<<< HEAD
 
     /** @var array<string, mixed> */
     protected array $currentValues = [];
@@ -653,6 +663,8 @@ class FormState
     public function isDirty(string $field): bool
     {
         return $this->initialValues[$field] !==
+=======
+>>>>>>> laraxot/dev
                $this->currentValues[$field];
     }
 }
@@ -696,6 +708,7 @@ class FormState
 2. Implementare file upload
 3. Aggiungere nested form support
 4. Migliorare validation performance
+<<<<<<< HEAD
 5. Documentare best practices
 <<<<<<< HEAD
 =======
@@ -711,3 +724,5 @@ class FormState
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev

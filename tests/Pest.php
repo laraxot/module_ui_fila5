@@ -13,6 +13,11 @@ use Modules\UI\Models\Collection;
  * Vietato expect()->extend() / uses()->in() qui (PHPStan method.internalClass).
  */
 
+<<<<<<< HEAD
+=======
+require_once __DIR__.'/../../Xot/tests/XotBasePest.php';
+
+>>>>>>> laraxot/dev
 /**
  * @param array<string, mixed> $attributes
  */

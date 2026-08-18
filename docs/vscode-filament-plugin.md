@@ -201,6 +201,7 @@ TextInput::make('full_name')
 ## Vedi Anche
 - [VSCode PHP Setup](vscode-php-setup.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Development Tools](development-tools.md)
 =======
 <<<<<<< HEAD
@@ -440,3 +441,5 @@ TextInput::make('full_name')
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> laraxot/dev
