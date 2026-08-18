@@ -188,7 +188,7 @@ describe('GroupColumn view rendering', function (): void {
         $html = view('ui::filament.tables.columns.group', [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
-            'attributes' => new ComponentAttributeBag,
+            'attributes' => new ComponentAttributeBag(),
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
             ...groupColumnViewTableBag(),
@@ -221,7 +221,7 @@ describe('GroupColumn view rendering', function (): void {
         $html = view('ui::filament.tables.columns.group', [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
-            'attributes' => new ComponentAttributeBag,
+            'attributes' => new ComponentAttributeBag(),
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
             ...groupColumnViewTableBag(),
@@ -243,7 +243,7 @@ describe('GroupColumn view rendering', function (): void {
 
         // The view logic: skip if empty($value) && $value !== 0 && $value !== '0'
         $shouldSkip = static function (mixed $value): bool {
-            return empty($value) && $value !== 0 && $value !== '0';
+            return empty($value) && 0 !== $value && '0' !== $value;
         };
 
         Assert::assertTrue($shouldSkip($record->empty_field));
@@ -265,7 +265,7 @@ describe('GroupColumn view rendering', function (): void {
         $html = view('ui::filament.tables.columns.group', [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
-            'attributes' => new ComponentAttributeBag,
+            'attributes' => new ComponentAttributeBag(),
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
             ...groupColumnViewTableBag(),
@@ -291,7 +291,7 @@ describe('GroupColumn view rendering', function (): void {
             TextColumn::make('motivo')
                 ->html()
                 ->formatStateUsing(static function (mixed $state): string {
-                    if (! is_string($state) || $state === '') {
+                    if (! is_string($state) || '' === $state) {
                         return '';
                     }
 
@@ -306,7 +306,7 @@ describe('GroupColumn view rendering', function (): void {
         $html = view('ui::filament.tables.columns.group', [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
-            'attributes' => new ComponentAttributeBag,
+            'attributes' => new ComponentAttributeBag(),
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
             ...groupColumnViewTableBag(),
@@ -330,7 +330,7 @@ describe('GroupColumn view rendering', function (): void {
         $html = view('ui::filament.tables.columns.group', [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
-            'attributes' => new ComponentAttributeBag,
+            'attributes' => new ComponentAttributeBag(),
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
             ...groupColumnViewTableBag(),
