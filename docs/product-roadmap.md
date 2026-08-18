@@ -44,12 +44,9 @@ Questo roadmap traduce il PRD in sequenza di rilascio per **UI**, che nel proget
 - target completamento: 95%+
 
 ## Dipendenze
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 # UI Module - Product Roadmap
 
@@ -208,26 +205,13 @@ To create a **unified, beautiful, and accessible design system** that ensures co
 ---
 
 ## Now / Next / Later
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 - [PRD](prd.md)
 - [Product Strategy](product-strategy.md)
 - [Sprint Planning Meeting](sprint-planning-meeting.md)
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-*Last Updated: March 12, 2026*
+>>>>>>> dated: March 12, 2026*
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)

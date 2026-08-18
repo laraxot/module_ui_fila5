@@ -134,16 +134,13 @@ Pages are configured via JSON files:
 <<<<<<< HEAD
 =======
 **Location**: `config/local/<nome progetto>/database/content/pages/`
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 **Location**: `config/local/current/database/content/pages/`
+>>>>>>> on**: `config/local/<nome progetto>/database/content/pages/`
 =======
-**Location**: `config/local/<nome progetto>/database/content/pages/`
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

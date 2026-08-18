@@ -205,16 +205,13 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
 <<<<<<< HEAD
 =======
   - Predictive inputs
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
   - forecastive inputs
+>>>>>>> ictive inputs
 =======
-  - Predictive inputs
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

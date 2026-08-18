@@ -139,16 +139,13 @@ The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper arou
 <<<<<<< HEAD
 =======
 The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper around Browsershot).
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 The architectural standard for modulo questionari is **Spatie Laravel PDF** (a wrapper around Browsershot).
+>>>>>>> itectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper around Browsershot).
 =======
-The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper around Browsershot).
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

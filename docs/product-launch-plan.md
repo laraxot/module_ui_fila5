@@ -49,12 +49,9 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 | Documentazione di supporto aggiornata | 100% |
 
 ## Rischi
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 # UI Module - Product Launch Plan
 
@@ -225,9 +222,6 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 | **Critical Issues** | 0 |
 
 ---
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 - lancio di superfici non ancora supportate dal backend
@@ -239,17 +233,7 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 - [PRD](prd.md)
 - [User Research](user-research.md)
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-*Last Updated: March 12, 2026*
+>>>>>>> dated: March 12, 2026*
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)

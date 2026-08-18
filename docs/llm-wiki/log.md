@@ -32,15 +32,7 @@ related:
 
 ## [2026-04-15] maintenance | Initial wiki setup
 - Created: llm-wiki/ directory structure
-<<<<<<< HEAD
-<<<<<<< HEAD
 - Created: AGENTS.md (agent instructions)
-=======
-- Created: agents.md (agent instructions)
->>>>>>> 92912795 (.)
-=======
-- Created: AGENTS.md (agent instructions)
->>>>>>> laraxot/dev
 - Created: index.md (content catalog)
 - Created: log.md (this file)
 - Directories initialized:

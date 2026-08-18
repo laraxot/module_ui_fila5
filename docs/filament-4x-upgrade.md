@@ -155,13 +155,13 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 <<<<<<< HEAD
 *Modulo UI compatibile con Filament 4.0.20*
 =======
-=======
-=======
+>>>>>>> 
 <<<<<<< HEAD
 <<<<<<< HEAD
 *Modulo UI compatibile con Filament 4.0.20*
 =======
 >>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 *Modulo UI compatibile con Filament 4.0.20*
 # Filament 4.x Upgrade - Modulo UI
@@ -313,18 +313,10 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 
 *Ultimo aggiornamento: 2025-09-30*
 *Modulo UI compatibile con Filament 4.0.20*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 =======
 *Modulo UI compatibile con Filament 4.0.20*
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

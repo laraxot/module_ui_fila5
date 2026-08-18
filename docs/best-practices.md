@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
 ---
 module: theme
 topic: best_practices
@@ -22,9 +10,6 @@ See canonical documentation: ../../../Themes/docs/shared-components/best-practic
 <<<<<<< HEAD
 See canonical documentation: ../../../Themes/docs/shared-components/best-practices_1.md
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 # Best Practices UI
 
@@ -548,11 +533,7 @@ topic: best_practices
 canonical: ../../../Themes/docs/shared-components/best-practices_1.md
 ---
 >>>>>>> laraxot/dev
-=======
-See canonical documentation: ../../../Themes/docs/shared-components/best-practices_1.md
+>>>>>>> nical documentation: ../../../Themes/docs/shared-components/best-practices_1.md
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)

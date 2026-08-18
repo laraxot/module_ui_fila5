@@ -112,16 +112,13 @@ Each module registers its own SVG icons:
 <<<<<<< HEAD
 =======
 - `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 - `resources/svg/` → `{name}`
+>>>>>>> es/TechPlanner/resources/svg/` → `techplanner-{name}`
 =======
-- `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

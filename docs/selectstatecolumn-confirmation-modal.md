@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
 ---
 module: theme
 topic: selectstatecolumn_confirmation_modal
@@ -22,9 +10,6 @@ See canonical documentation: ../../../Themes/docs/shared-components/selectstatec
 <<<<<<< HEAD
 See canonical documentation: ../../../Themes/docs/shared-components/selectstatecolumn-confirmation-modal-1.md
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 # SelectStateColumn - Aggiunta Modal di Conferma
 
@@ -132,17 +117,7 @@ Verificare che:
 3. La modale si chiuda in entrambi gli scenari
 4. Lo stato venga aggiornato correttamente nel database
 5. Gli errori vengano gestiti in modo appropriato
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-See canonical documentation: ../../../Themes/docs/shared-components/selectstatecolumn-confirmation-modal-1.md
+>>>>>>> nical documentation: ../../../Themes/docs/shared-components/selectstatecolumn-confirmation-modal-1.md
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)

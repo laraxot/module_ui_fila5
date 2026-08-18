@@ -65,16 +65,13 @@ Report locale (2026-07-17). Metodo: `phpstan analyse` livello max, `phpmd` (rule
 <<<<<<< HEAD
 =======
 | TechPlanner | - | - | 2% | 0 |
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 | modulo operativo | - | - | 2% | 0 |
+>>>>>>> anner | - | - | 2% | 0 |
 =======
-| TechPlanner | - | - | 2% | 0 |
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -178,7 +175,4 @@ public function resolveType(string $type): string
 ```
 
 Ogni `resolveX()` estratto scende sotto soglia 10 e diventa testabile in isolamento con un test Pest dedicato.
-<<<<<<< HEAD
 
-=======
->>>>>>> laraxot/dev

@@ -3,15 +3,6 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 ---
 title: "AddressField Component"
 type: concept
@@ -32,17 +23,12 @@ related:
   - "./full-calendar.md"
 ---
 
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -93,13 +79,13 @@ AddressField::make('address')
 <<<<<<< HEAD
 [Torna alla documentazione UI](/docs/modules/module_ui.md#components) 
 =======
-=======
-=======
+>>>>>>> 
 <<<<<<< HEAD
 <<<<<<< HEAD
 [Torna alla documentazione UI](/docs/modules/module_ui.md#components) 
 =======
 >>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 [Torna alla documentazione UI](/docs/modules/module-ui-1.md#components)
 # AddressField Component
@@ -140,18 +126,10 @@ AddressField::make('address')
 4. Testare con diversi formati di indirizzo
 
 [Torna alla documentazione UI](/docs/modules/module-ui-1.md#components)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 =======
 [Torna alla documentazione UI](/docs/modules/module_ui.md#components) 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

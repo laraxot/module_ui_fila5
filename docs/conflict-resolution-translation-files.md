@@ -40,8 +40,8 @@ return array (
     'actions' =>
     array (
         'create' =>
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
     'actions' => 
@@ -52,14 +52,11 @@ return array (
     array (
         'create' =>
 >>>>>>> laraxot/dev
-=======
-    'actions' => 
+>>>>>>> ions' => 
     array (
         'create' => 
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -114,8 +111,8 @@ return array (
   'actions' =>
   array (
     'create' =>
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
   'actions' => 
@@ -126,14 +123,11 @@ return array (
   array (
     'create' =>
 >>>>>>> laraxot/dev
-=======
-  'actions' => 
+>>>>>>> ns' => 
   array (
     'create' => 
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -231,13 +225,13 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 <<<<<<< HEAD
 - **Scelta**: Versione HEAD (con strict types e sintassi moderna)
 =======
-=======
-=======
+>>>>>>> 
 <<<<<<< HEAD
 <<<<<<< HEAD
 - **Scelta**: Versione HEAD (con strict types e sintassi moderna)
 =======
 >>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - **Scelta**: Versione HEAD (con strict types e sintassi moderna)
 # Risoluzione Conflitti File di Traduzione UI
@@ -393,18 +387,10 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 - **File**: Multipli file di traduzione
 - **Tipo Conflitto**: Dichiarazione PHP e sintassi array
 - **Scelta**: Versione HEAD (con strict types e sintassi moderna)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 =======
 - **Scelta**: Versione HEAD (con strict types e sintassi moderna)
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

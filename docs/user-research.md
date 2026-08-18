@@ -11,12 +11,9 @@ Identify usability issues in complex Filament forms and tables.
 ## 💡 Key Findings
 - Users struggle with very long forms without clear sections or tabs.
 - Mobile responsiveness is critical for field workers.
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 # UI Module - User Research
 
@@ -124,25 +121,12 @@ Some customization capability required.
 **Owner:** Product Team
 
 ---
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 ## ✅ Actionable Insights / Next Steps
 - Enforce the use of `Tabs` and `Sections` in all `XotBaseResource` forms.
 - Optimize table columns for narrow viewports using `WorkerColumn` patterns.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-*Last Updated: March 12, 2026*
+>>>>>>> dated: March 12, 2026*
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)

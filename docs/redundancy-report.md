@@ -38,16 +38,13 @@ Esiste anche in:
 <<<<<<< HEAD
 =======
 - `Modules/<nome progetto>/app/Models/Category.php`
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 - `Modules/Project/app/Models/Category.php`
+>>>>>>> es/<nome progetto>/app/Models/Category.php`
 =======
-- `Modules/<nome progetto>/app/Models/Category.php`
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
 ---
 module: theme
 topic: METODI_DUPLICATI_ANALISI
@@ -22,9 +10,6 @@ See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLI
 <<<<<<< HEAD
 See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 # 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 
@@ -2274,17 +2259,19 @@ public function getTableFilters(): array
 4. Implementazione ColumnBuilder
 
 **Domande?** Chiedi alla Super Mucca! 🐄⚡
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
+>>>>>>> nical documentation: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+
+---
+
+<!-- Merged from METODI-DUPLICATI-ANALISI.md, which collided with this file on case-insensitive filesystems. -->
+
+---
+module: theme
+topic: METODI-DUPLICATI-ANALISI
+canonical: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md

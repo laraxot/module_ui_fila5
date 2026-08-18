@@ -112,12 +112,9 @@ TextInput::make('full_name')
 ## Collegamenti tra versioni di convenzioni-naming-campi.md
 * [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
 # Convenzioni di Naming dei Campi
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 - [Convenzioni API](../../../docs/api/convenzioni.md) 
 ||||||| parent of 9a84589 (.):docs/convenzioni-naming-campi-1.md
@@ -136,9 +133,6 @@ TextInput::make('full_name')
 - [Convenzioni API](../../../docs/api/convenzioni.md)
 ## Collegamenti tra versioni di convenzioni-naming-campi.md
 * [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 ## Collegamenti Bidirezionali
@@ -249,18 +243,9 @@ TextInput::make('full_name')
 - [Documentazione Filament Forms](https://filamentphp.com/project_docs/3.x/forms/fields/text-input)
 - [Best Practices Database](../../../project_docs/database/best-practices.md)
 - [Convenzioni API](../../../project_docs/api/convenzioni.md)
-<<<<<<< HEAD
+>>>>>>> nzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-* [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

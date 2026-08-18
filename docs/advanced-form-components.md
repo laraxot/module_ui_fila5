@@ -28,8 +28,8 @@
   <input
     type="email"
     id="email"
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
   <input 
@@ -40,14 +40,11 @@
     type="email"
     id="email"
 >>>>>>> laraxot/dev
-=======
-  <input 
+>>>>>>>  
     type="email" 
     id="email" 
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
     class="form-control is-invalid"
@@ -74,8 +71,8 @@
   <input
     type="text"
     id="search"
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
   <input 
@@ -86,14 +83,10 @@
     type="text"
     id="search"
 >>>>>>> laraxot/dev
-=======
-  <input 
+>>>>>>>  
     type="text" 
     id="search" 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
     class="form-control"
@@ -125,8 +118,8 @@
     <input
       type="text"
       id="date"
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
     <input 
@@ -137,14 +130,10 @@
       type="text"
       id="date"
 >>>>>>> laraxot/dev
-=======
-    <input 
+>>>>>>> ut 
       type="text" 
       id="date" 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
       class="form-control"
@@ -173,8 +162,8 @@
     <input
       type="text"
       id="time"
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
     <input 
@@ -185,14 +174,10 @@
       type="text"
       id="time"
 >>>>>>> laraxot/dev
-=======
-    <input 
+>>>>>>> ut 
       type="text" 
       id="time" 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
       class="form-control"
@@ -222,8 +207,8 @@
   <input
     type="range"
     id="range"
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
   <input 
@@ -234,14 +219,10 @@
     type="range"
     id="range"
 >>>>>>> laraxot/dev
-=======
-  <input 
+>>>>>>>  
     type="range" 
     id="range" 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
     class="form-range"
@@ -270,8 +251,8 @@
     <input
       type="number"
       id="quantity"
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
     <input 
@@ -282,14 +263,10 @@
       type="number"
       id="quantity"
 >>>>>>> laraxot/dev
-=======
-    <input 
+>>>>>>> ut 
       type="number" 
       id="quantity" 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
       class="form-control text-center"
@@ -340,42 +317,18 @@
     border-color: $primary;
     box-shadow: 0 0 0 0.2rem rgba($primary, 0.25);
   }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
   
   &.is-invalid {
     border-color: $danger;
     
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 
   &.is-invalid {
     border-color: $danger;
 
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
@@ -392,27 +345,8 @@
 ```scss
 .input-group {
   transition: all 0.3s ease;
-<<<<<<< HEAD
-  
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-  
-=======
-
->>>>>>> laraxot/dev
-=======
   
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
   &:focus-within {
@@ -434,13 +368,13 @@
 <<<<<<< HEAD
 - [Performance](./standards/performance.md) 
 =======
-=======
-=======
+>>>>>>> 
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [Performance](./standards/performance.md) 
 =======
 >>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [Performance](./standards/performance.md)
 # Componenti Form Avanzati
@@ -624,10 +558,7 @@
 ```scss
 .input-group {
   transition: all 0.3s ease;
-<<<<<<< HEAD
 
-=======
->>>>>>> laraxot/dev
   &:focus-within {
     transform: translateY(-1px);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -641,18 +572,10 @@
 - [Accessibilità](./standards/accessibility.md)
 <<<<<<< HEAD
 - [Performance](./standards/performance.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 =======
 - [Performance](./standards/performance.md) 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

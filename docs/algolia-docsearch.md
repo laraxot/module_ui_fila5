@@ -1,17 +1,5 @@
 ---
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
 module: theme
 topic: algolia_docsearch
 canonical: ../../../Themes/docs/shared-components/algolia-docsearch_1.md
@@ -23,9 +11,6 @@ See canonical documentation: ../../../Themes/docs/shared-components/algolia-docs
 <<<<<<< HEAD
 See canonical documentation: ../../../Themes/docs/shared-components/algolia-docsearch_1.md
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 title: Algolia DocSearch
 description: Configure Algolia DocSearch with the Jigsaw docs starter template
@@ -192,18 +177,9 @@ For more details, visit the [official Algolia DocSearch documentation.](https://
 ### Versione Incoming
 
 ---
-<<<<<<< HEAD
+>>>>>>> nical documentation: ../../../Themes/docs/shared-components/algolia-docsearch_1.md
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-See canonical documentation: ../../../Themes/docs/shared-components/algolia-docsearch_1.md
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

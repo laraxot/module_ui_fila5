@@ -3,15 +3,6 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 ---
 title: "FullCalendar Component for Filament"
 type: concept
@@ -32,17 +23,12 @@ related:
   - "./full-calendar-1.md"
 ---
 
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -104,20 +90,17 @@ use Saade\FilamentFullCalendar\Data\EventData;
 <<<<<<< HEAD
 =======
  *
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
  * 
 =======
  *
 >>>>>>> laraxot/dev
+>>>>>>> 
 =======
- * 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -162,28 +145,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
                 ->placeholder(__('ui::calendar.fields.title.placeholder'))
                 ->helperText(__('ui::calendar.fields.title.help'))
                 ->required(),
-<<<<<<< HEAD
-<<<<<<< HEAD
                 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-                
-=======
-
->>>>>>> laraxot/dev
-=======
-                
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -193,28 +155,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
                     Forms\Components\DateTimePicker::make('start_date')
                         ->label(__('ui::calendar.fields.start_date.label'))
                         ->required(),
-<<<<<<< HEAD
-<<<<<<< HEAD
                         
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-                        
-=======
-
->>>>>>> laraxot/dev
-=======
-                        
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -223,28 +164,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
                         ->label(__('ui::calendar.fields.end_date.label'))
                         ->required(),
                 ]),
-<<<<<<< HEAD
-<<<<<<< HEAD
                 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-                
-=======
-
->>>>>>> laraxot/dev
-=======
-                
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -254,18 +174,6 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
                 ->placeholder(__('ui::calendar.fields.description.placeholder'))
                 ->columnSpanFull(),
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
                 
             Forms\Components\ColorPicker::make('color')
                 ->label(__('ui::calendar.fields.color.label'))
@@ -273,25 +181,12 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
                 
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 
             Forms\Components\ColorPicker::make('color')
                 ->label(__('ui::calendar.fields.color.label'))
                 ->rgb(),
 
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
@@ -443,21 +338,6 @@ To use the widget in a Blade view:
 
 ## Backlinks and References
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
 - [Ptv Module - Calendar Usage](../../Ptv/docs/features/full_calendar.md)
 - [Official Saade FullCalendar Documentation](https://github.com/saade/filament-fullcalendar)
 - [FullCalendar.io Documentation](https://fullcalendar.io/docs)
@@ -469,9 +349,6 @@ To use the widget in a Blade view:
 <<<<<<< HEAD
 *Last updated: June 2025*
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - [Ptv Module - Calendar Usage](../../ptv/docs/features/full-calendar-1.md)
 - [Official Saade FullCalendar Documentation](https://github.com/saade/filament-fullcalendar)
@@ -738,18 +615,9 @@ To use the widget in a Blade view:
 - [FullCalendar.io Documentation](https://fullcalendar.io/docs)
 
 *
-<<<<<<< HEAD
+>>>>>>> dated: June 2025*
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-*Last updated: June 2025*
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
 ---
 module: theme
 topic: blade_data_handling
@@ -22,9 +10,6 @@ See canonical documentation: ../../../Themes/docs/shared-components/blade-data-h
 <<<<<<< HEAD
 See canonical documentation: ../../../Themes/docs/shared-components/blade-data-handling_1.md
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 # Data Handling in Blade Components
 
@@ -302,17 +287,7 @@ Components should never rely on variables that haven't been explicitly defined a
 
 > **Note**: This document is the primary reference for Blade data handling patterns across all modules.
 > All module-specific implementations should link back to this document.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-See canonical documentation: ../../../Themes/docs/shared-components/blade-data-handling_1.md
+>>>>>>> nical documentation: ../../../Themes/docs/shared-components/blade-data-handling_1.md
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)

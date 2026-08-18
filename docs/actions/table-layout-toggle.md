@@ -1,16 +1,4 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
 # TableLayoutToggleTableAction
 
 ## Panoramica
@@ -72,9 +60,6 @@ class MyListRecords extends ListRecords
 <<<<<<< HEAD
 [Torna alla documentazione UI](/docs/modules/module_ui.md#actions) 
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 ---
 title: "TableLayoutToggleTableAction"
@@ -174,9 +159,6 @@ class MyListRecords extends ListRecords
 ## Collegamenti alla Documentazione
 - [Risoluzione Conflitti UI](../CONFLITTI_MERGE_RISOLTI.md): Documentazione dei conflitti risolti
 - [Test di Risoluzione Conflitti](../test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 - **Non** spostare il toggle in `HasTableLayoutPage` — duplicazione inutile.
@@ -193,18 +175,9 @@ Vedi [bugfix](../bugfix-table-layout-toggle-not-working.md): bastano `resetTable
 - [Disciplina agente](../../../docs/wiki/memories/agent-table-layout-toggle-discipline.md)
 - [Contratto Xot](../../Xot/docs/filament/table-layout-toggle-contract.md)
 - [Tema One — tabelle](../../../Themes/One/docs/filament-resource-schemas-tables.md)
-<<<<<<< HEAD
+>>>>>>> lla documentazione UI](/docs/modules/module_ui.md#actions) 
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-[Torna alla documentazione UI](/docs/modules/module_ui.md#actions) 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

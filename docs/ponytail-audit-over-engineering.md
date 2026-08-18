@@ -12,16 +12,13 @@
 <<<<<<< HEAD
 =======
 **GitHub monorepo:** [Issue #221](https://github.com/laraxot/<nome repository>/discussions/228)
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 **GitHub monorepo:** [Issue #221](https://github.com/laraxot/<nome repository>/discussions/228)
+>>>>>>>  monorepo:** [Issue #221](https://github.com/laraxot/<nome repository>/discussions/228)
 =======
-**GitHub monorepo:** [Issue #221](https://github.com/laraxot/<nome repository>/discussions/228)
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -39,12 +36,4 @@
 ## Collegamenti
 
 - [wiki/concepts/ponytail-audit.md](./wiki/concepts/ponytail-audit.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [00-INDEX.md](./00-INDEX.md)
-=======
-- [00-index.md](./00-index.md)
->>>>>>> 92912795 (.)
-=======
-- [00-INDEX.md](./00-INDEX.md)
->>>>>>> laraxot/dev

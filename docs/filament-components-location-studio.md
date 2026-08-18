@@ -10,20 +10,17 @@ Questi componenti Filament sono stati creati per supportare la selezione geograf
 <<<<<<< HEAD
 =======
 Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo <nome progetto>.
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo <nome progetto>corrente.
 =======
 Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo <nome progetto>.
 >>>>>>> laraxot/dev
+>>>>>>> omponenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo SaluteOra.
 =======
-Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo SaluteOra.
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -47,20 +44,13 @@ Componente Filament per la selezione gerarchica di Regione → Provincia → CAP
 <<<<<<< HEAD
 =======
 - ✅ **Selezione Gerarchica**: Regione → Provincia → CAP
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
-<<<<<<< HEAD
 - ✅ **Selezione Gerarchica**: Regione → Provincia → CAP
+>>>>>>> lezione Gerarchica**: Regione → Provincia → CAP  
 =======
-- ✅ **Selezione Gerarchica**: Regione → Provincia → CAP
->>>>>>> laraxot/dev
-=======
-- ✅ **Selezione Gerarchica**: Regione → Provincia → CAP  
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -112,20 +102,13 @@ Componente Blade per la selezione di studi odontoiatrici tramite pulsanti radio-
 <<<<<<< HEAD
 =======
 <x-ui::ui.studio-selector
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
-<<<<<<< HEAD
 <x-ui::ui.studio-selector
+>>>>>>> i.studio-selector 
 =======
-<x-ui::ui.studio-selector
->>>>>>> laraxot/dev
-=======
-<x-ui::ui.studio-selector 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -169,20 +152,17 @@ protected function getStudioStepSchema(): array
 <<<<<<< HEAD
 =======
         View::make('<nome progetto>::filament.widgets.studio-step-header')
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
         View::make('<nome progetto>ilament.widgets.studio-step-header')
 =======
         View::make('<nome progetto>::filament.widgets.studio-step-header')
 >>>>>>> laraxot/dev
+>>>>>>> View::make('saluteora::filament.widgets.studio-step-header')
 =======
-        View::make('saluteora::filament.widgets.studio-step-header')
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -202,20 +182,17 @@ protected function getStudioStepSchema(): array
 <<<<<<< HEAD
 =======
         View::make('<nome progetto>::filament.widgets.studio-selector')
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
         View::make('<nome progetto>ilament.widgets.studio-selector')
 =======
         View::make('<nome progetto>::filament.widgets.studio-selector')
 >>>>>>> laraxot/dev
+>>>>>>> View::make('saluteora::filament.widgets.studio-selector')
 =======
-        View::make('saluteora::filament.widgets.studio-selector')
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -238,8 +215,8 @@ protected function getStudioStepSchema(): array
 =======
             ->label(__('<nome progetto>::widgets.find_doctor.fields.selected_studio.label'))
             ->placeholder(__('<nome progetto>::widgets.find_doctor.fields.selected_studio.placeholder'))
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
             ->label(__('<nome progetto>idgets.find_doctor.fields.selected_studio.label'))
@@ -248,13 +225,10 @@ protected function getStudioStepSchema(): array
             ->label(__('<nome progetto>::widgets.find_doctor.fields.selected_studio.label'))
             ->placeholder(__('<nome progetto>::widgets.find_doctor.fields.selected_studio.placeholder'))
 >>>>>>> laraxot/dev
-=======
-            ->label(__('saluteora::widgets.find_doctor.fields.selected_studio.label'))
+>>>>>>>     ->label(__('saluteora::widgets.find_doctor.fields.selected_studio.label'))
             ->placeholder(__('saluteora::widgets.find_doctor.fields.selected_studio.placeholder'))
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -281,28 +255,7 @@ protected function getStudioStepSchema(): array
 public function selectStudio(int $studioId): void
 {
     $studio = Studio::find($studioId);
-<<<<<<< HEAD
-<<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-
-=======
-
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -315,28 +268,7 @@ public function selectStudio(int $studioId): void
     // Aggiorna i dati del form
     $this->data['selected_studio'] = $studioId;
     $this->data['selected_studio_name'] = $studio->name;
-<<<<<<< HEAD
-<<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-
-=======
-
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -361,20 +293,13 @@ public function selectStudio(int $studioId): void
 <<<<<<< HEAD
 =======
 ### 2. **Step Selezione Studio**
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
-<<<<<<< HEAD
 ### 2. **Step Selezione Studio**
+>>>>>>> *Step Selezione Studio**  
 =======
-### 2. **Step Selezione Studio**
->>>>>>> laraxot/dev
-=======
-### 2. **Step Selezione Studio**  
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -399,28 +324,7 @@ public function selectStudio(int $studioId): void
 protected function getStudiosForSelectedArea(): Collection
 {
     $cacheKey = "studios_area_{$this->data['region']}_{$this->data['province']}_{$this->data['cap']}";
-<<<<<<< HEAD
-<<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-
-=======
-
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -450,28 +354,7 @@ class FindDoctorWidgetStep2Test extends TestCase
     public function clicking_studio_button_populates_textinput()
     {
         $studio = Studio::factory()->create(['name' => 'Studio Test']);
-<<<<<<< HEAD
-<<<<<<< HEAD
         
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-
-=======
-
->>>>>>> laraxot/dev
-=======
-        
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -481,28 +364,7 @@ class FindDoctorWidgetStep2Test extends TestCase
             ->set('data.province', 'RM')
             ->set('data.cap', '00042')
             ->call('selectStudio', $studio->id);
-<<<<<<< HEAD
-<<<<<<< HEAD
             
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-
-=======
-
->>>>>>> laraxot/dev
-=======
-            
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
@@ -554,20 +416,11 @@ class FindDoctorWidgetStep2Test extends TestCase
 **Approccio**: Pulsanti + TextInput (semplice e diretto) 
 =======
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
 **Creato**: 26 Giugno 2025
 **Versione**: 2.0 - Semplificato
 **Stato**: Implementation Ready
 **Approccio**: Pulsanti + TextInput (semplice e diretto)
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 **Creato**: 26 Giugno 2025
 **Versione**: 2.0 - Semplificato
@@ -829,21 +682,12 @@ class FindDoctorWidgetStep2Test extends TestCase
 **Versione**: 2.0 - Semplificato
 **Stato**: Implementation Ready
 **Approccio**: Pulsanti + TextInput (semplice e diretto)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-**Creato**: 26 Giugno 2025  
+>>>>>>> **: 26 Giugno 2025  
 **Versione**: 2.0 - Semplificato  
 **Stato**: Implementation Ready  
 **Approccio**: Pulsanti + TextInput (semplice e diretto) 
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

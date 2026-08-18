@@ -29,16 +29,13 @@ Creare un ecosistema UI "Headless-first" che permetta di cambiare radicalmente i
 <<<<<<< HEAD
 =======
 - [ ] **Predictive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 - [ ] **forecastive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
+>>>>>>> Predictive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
 =======
-- [ ] **Predictive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

@@ -83,18 +83,15 @@ public function asset(): string
 =======
 - `ChangeStatus::execute` - [Modules/<nome progetto>/app/Actions/ChangeStatus.php:12](Modules/<nome progetto>/app/Actions/ChangeStatus.php) (Modulo: <nome progetto>)
 - `GenerateTicketsAction::execute` - [Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php:24](Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php) (Modulo: <nome progetto>)
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 - `ChangeStatus::execute` - [Modules/Project/app/Actions/ChangeStatus.php:12](Modules/Project/app/Actions/ChangeStatus.php) (Modulo: progetto corrente)
 - `GenerateTicketsAction::execute` - [Modules/Project/app/Actions/GenerateTicketsAction.php:24](Modules/Project/app/Actions/GenerateTicketsAction.php) (Modulo: progetto corrente)
-=======
-- `ChangeStatus::execute` - [Modules/<nome progetto>/app/Actions/ChangeStatus.php:12](Modules/<nome progetto>/app/Actions/ChangeStatus.php) (Modulo: <nome progetto>)
+>>>>>>> eStatus::execute` - [Modules/<nome progetto>/app/Actions/ChangeStatus.php:12](Modules/<nome progetto>/app/Actions/ChangeStatus.php) (Modulo: <nome progetto>)
 - `GenerateTicketsAction::execute` - [Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php:24](Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php) (Modulo: <nome progetto>)
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======

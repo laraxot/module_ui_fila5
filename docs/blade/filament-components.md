@@ -81,16 +81,13 @@ Caso Fixcity `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnala
 <<<<<<< HEAD
 =======
 Caso <nome progetto> `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
+>>>>>>> HEAD
 =======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
 Caso progetto corrente `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
+>>>>>>> me progetto> `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
 =======
-Caso <nome progetto> `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 =======
