@@ -11,7 +11,7 @@ use Modules\Xot\Filament\Blocks\XotBaseBlock;
 
 final class Navigation extends XotBaseBlock
 {
-/**
+    /**
      * @return array<string, Component>
      */
     #[\Override]

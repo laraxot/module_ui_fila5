@@ -13,30 +13,30 @@ use Modules\Xot\Models\BaseModel;
 /**
  * Category model for UI module.
  * FormBuilder module not available - extending from XotBaseModel instead.
-<<<<<<< HEAD
+ * <<<<<<< HEAD.
  *
- * @property string $id
- * @property string|null $name
- * @property string $title
- * @property string $slug
- * @property int|null $parent_id
- * @property Carbon|null $created_at
- * @property Carbon|null $updated_at
- * @property string|null $description
- * @property string|null $icon
- * @property string|null $updated_by
- * @property string|null $created_by
- * @property Carbon|null $deleted_at
- * @property string|null $deleted_by
- * @property int $is_active
- * @property int $sort_order
+ * @property string               $id
+ * @property string|null          $name
+ * @property string               $title
+ * @property string               $slug
+ * @property int|null             $parent_id
+ * @property Carbon|null          $created_at
+ * @property Carbon|null          $updated_at
+ * @property string|null          $description
+ * @property string|null          $icon
+ * @property string|null          $updated_by
+ * @property string|null          $created_by
+ * @property Carbon|null          $deleted_at
+ * @property string|null          $deleted_by
+ * @property int                  $is_active
+ * @property int                  $sort_order
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  * @property ProfileContract|null $deleter
  *
  * @method static CategoryFactory factory($count = null, $state = [])
-=======
- * <<<<<<< HEAD.
+ *                                                                    =======
+ *                                                                    <<<<<<< HEAD.
  */
 /**
  * =======
@@ -110,7 +110,7 @@ use Modules\Xot\Models\BaseModel;
  * @method static CategoryFactory          factory($count = null, $state = [])
  *                                                                             >>>>>>> 6e44b7d5 (.)
  *                                                                             >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
+ *                                                                             >>>>>>> laraxot/dev
  * @method static Builder<static>|Category newModelQuery()
  * @method static Builder<static>|Category newQuery()
  * @method static Builder<static>|Category query()
@@ -129,8 +129,8 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Category whereUpdatedAt($value)
  * @method static Builder<static>|Category whereUpdatedBy($value)
  *
-<<<<<<< HEAD
-=======
+ * <<<<<<< HEAD
+ * =======
  * <<<<<<< HEAD
  *
  * @property ProfileContract|null $deleter
@@ -153,7 +153,8 @@ use Modules\Xot\Models\BaseModel;
  * >>>>>>> 6e44b7d5 (.)
  * >>>>>>> laraxot/dev
  *
->>>>>>> laraxot/dev
+ * >>>>>>> laraxot/dev
+ *
  * @mixin \Eloquent
  */
 class Category extends BaseModel
