@@ -11,6 +11,7 @@ use Modules\Xot\Models\BaseModel;
 
 /**
  * Collection model for UI module.
+ *
  * FormBuilder module not available - extending from XotBaseModel instead.
  *
  * @property string|null                     $id
@@ -34,12 +35,10 @@ use Modules\Xot\Models\BaseModel;
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property ProfileContract|null            $creator
  * @property ProfileContract|null            $updater
- *
  * @method static CollectionFactory          factory($count = null, $state = [])
  * @method static Builder<static>|Collection newModelQuery()
  * @method static Builder<static>|Collection newQuery()
  * @method static Builder<static>|Collection query()
- *
  * @mixin \Eloquent
  */
 class Collection extends BaseModel

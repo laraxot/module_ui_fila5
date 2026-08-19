@@ -17,4 +17,4 @@ Su Linux i file `Foo.md` e `foo.md` coesistono; su Windows/macOS collidono. Una 
 
 ## Ancora aperti
 
-Marker di merge ancora presenti in altri markdown del modulo (non coppie di casing). Non bloccano PHPStan.
+Nessun marker di conflitto a inizio riga nel repo (`git grep`). I Feature Pest Filament del modulo User possono contendere il database di testing con altri suite in parallelo.
