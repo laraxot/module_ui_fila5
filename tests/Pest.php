@@ -13,7 +13,7 @@ use Modules\UI\Models\Collection;
  * Vietato expect()->extend() / uses()->in() qui (PHPStan method.internalClass).
  */
 
-require_once __DIR__.'/../../Xot/tests/XotBasePest.php';
+// Helper condivisi: Modules\Xot\Tests\XotBasePest, per autoload PSR-4. Niente require_once.
 
 /**
  * @param array<string, mixed> $attributes
