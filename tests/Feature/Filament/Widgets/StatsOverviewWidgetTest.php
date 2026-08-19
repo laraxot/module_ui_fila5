@@ -71,7 +71,8 @@ test('stats overview widget getStats method has correct return type', function (
     $returnType = $getStatsMethod->getReturnType();
 
     Assert::assertNotNull($returnType);
-    Assert::assertSame('array', $returnType instanceof \ReflectionNamedType ? $returnType->getName() : (string) $returnType);
+    Assert::assertInstanceOf(\ReflectionNamedType::class, $returnType);
+    Assert::assertSame('array', $returnType->getName());
 });
 
 test('stats overview widget has correct use statements', function (): void {
