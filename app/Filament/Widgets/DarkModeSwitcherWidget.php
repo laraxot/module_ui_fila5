@@ -43,8 +43,6 @@ final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
         return [];
     }
 
-<<<<<<< HEAD
-=======
     /**
      * Disabilitabile via config per temi/test (default: visibile).
      */
@@ -53,7 +51,6 @@ final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
         return (bool) config('ui.dark_mode_switcher.enabled', true);
     }
 
->>>>>>> laraxot/dev
     public function render(): View
     {
         return view($this->view, [
