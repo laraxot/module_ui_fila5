@@ -11,7 +11,10 @@ use Modules\Xot\Models\BaseModel;
 
 /**
  * FieldOption model for UI module.
+<<<<<<< HEAD
+=======
  *
+>>>>>>> laraxot/dev
  * FormBuilder module not available - extending from XotBaseModel instead.
  *
  * @property string|null                     $id
@@ -26,10 +29,14 @@ use Modules\Xot\Models\BaseModel;
  * @property ProfileContract|null            $creator
  * @property ProfileContract|null            $updater
  * @property ProfileContract|null            $deleter
+<<<<<<< HEAD
+ *
+=======
  * @method static FieldOptionFactory          factory($count = null, $state = [])
  * @method static Builder<static>|FieldOption newModelQuery()
  * @method static Builder<static>|FieldOption newQuery()
  * @method static Builder<static>|FieldOption query()
+>>>>>>> laraxot/dev
  * @mixin \Eloquent
  */
 class FieldOption extends BaseModel

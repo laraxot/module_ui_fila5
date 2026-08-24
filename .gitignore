@@ -1,3 +1,7 @@
+<<<<<<< .merge_file_2As0b7
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_ZSF497
 # =============================================================================
 # LARAXOT MODULE: UI - .gitignore
 # =============================================================================
@@ -12,6 +16,10 @@ _docs
 .circleci
 .claude-audit
 .devcontainer
+<<<<<<< .merge_file_2As0b7
+=======
+=======
+>>>>>>> .merge_file_ZSF497
 # Auto-generated forbidden paths — do not edit manually
 # Reason: root cleanup policy (see docs/wiki/rules/root-cleanup-policy.md)
 
@@ -31,16 +39,25 @@ docs/workbench
 # -----------------------------------------------------------------------------
 # Forbidden directories (root cleanup policy)
 _bmad
+>>>>>>> laraxot/dev
 .kilocode
 .kiro
 .ralph
 scripts
 test-results
 tests/.claude-audit
+<<<<<<< .merge_file_2As0b7
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_ZSF497
 tests/AuditCoverage/
 
 docs/archive/
 docs/archive/**
+<<<<<<< .merge_file_2As0b7
+=======
+=======
+>>>>>>> .merge_file_ZSF497
 # ==============================================
 # LARAXOT MODULE: UI — .gitignore
 # Grouped, deduped. See docs/wiki/rules/module-theme-root-cleanup.md
@@ -163,6 +180,7 @@ design_notes.txt
 # See docs/wiki/rules/module-theme-root-cleanup.md
 # Patterns cover both module root and nested occurrences (docs/**).
 tests/AuditCoverage/
+>>>>>>> laraxot/dev
 docs/archived/
 docs/legacy/
 docs/legacy/**
@@ -175,10 +193,18 @@ docs/**/legacy/
 docs/**/workbench/
 docs/**/scripts/
 docs/**/bashscripts/
+<<<<<<< .merge_file_2As0b7
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_ZSF497
 
 # -----------------------------------------------------------------------------
 # Dependencies
 # -----------------------------------------------------------------------------
+<<<<<<< .merge_file_2As0b7
+=======
+=======
+>>>>>>> .merge_file_ZSF497
 # PROJECT-SPECIFIC
 # END OF UI .GITIGNORE
 _docs/
@@ -338,6 +364,7 @@ yarn.lock
 phpmd*
 # -----------------------------------------------------------------------------
 # Dependencies
+>>>>>>> laraxot/dev
 /vendor/
 /node_modules/
 /docs/vendor/
@@ -345,6 +372,10 @@ phpmd*
 composer.lock
 package-lock.json
 yarn.lock
+<<<<<<< .merge_file_2As0b7
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_ZSF497
 
 # -----------------------------------------------------------------------------
 # Build artifacts
@@ -363,6 +394,10 @@ public/mix-manifest.json
 # -----------------------------------------------------------------------------
 # Laravel
 # -----------------------------------------------------------------------------
+<<<<<<< .merge_file_2As0b7
+=======
+=======
+>>>>>>> .merge_file_ZSF497
 # Build artifacts
 /build/
 /dist/
@@ -373,11 +408,16 @@ public/css/compiled/
 public/js/compiled/
 public/mix-manifest.json
 # Laravel
+>>>>>>> laraxot/dev
 /storage/*.key
 /public/storage
 /public/hot
 /public_html/storage
 /public_html/hot
+<<<<<<< .merge_file_2As0b7
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_ZSF497
 
 # -----------------------------------------------------------------------------
 # Environment
@@ -392,6 +432,10 @@ config/development.php
 # -----------------------------------------------------------------------------
 # IDE
 # -----------------------------------------------------------------------------
+<<<<<<< .merge_file_2As0b7
+=======
+=======
+>>>>>>> .merge_file_ZSF497
 # Environment
 .env
 .env.*
@@ -399,6 +443,7 @@ config/development.php
 config/local.php
 config/development.php
 # IDE
+>>>>>>> laraxot/dev
 .idea/
 .vscode/
 .cursor/
@@ -406,11 +451,21 @@ config/development.php
 .phpintel
 .phpstorm.meta.php
 /.vagrant
+<<<<<<< .merge_file_2As0b7
 
 # -----------------------------------------------------------------------------
 # Cache
 # -----------------------------------------------------------------------------
+=======
+<<<<<<< HEAD
+
+# -----------------------------------------------------------------------------
+>>>>>>> .merge_file_ZSF497
 # Cache
+# -----------------------------------------------------------------------------
+=======
+# Cache
+>>>>>>> laraxot/dev
 .php-cs-fixer.cache
 .phpunit.result.cache
 *.cache
@@ -422,16 +477,29 @@ config/development.php
 *.swo
 *.stackdump
 v8-compile-cache-*
+<<<<<<< .merge_file_2As0b7
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_ZSF497
 
 # -----------------------------------------------------------------------------
 # Logs
 # -----------------------------------------------------------------------------
+<<<<<<< .merge_file_2As0b7
+=======
+=======
+>>>>>>> .merge_file_ZSF497
 # Logs
+>>>>>>> laraxot/dev
 *.log
 error_log
 npm-debug.log*
 yarn-error.log*
 lerna-debug.log*
+<<<<<<< .merge_file_2As0b7
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_ZSF497
 
 # -----------------------------------------------------------------------------
 # Git leftovers
@@ -442,21 +510,35 @@ lerna-debug.log*
 *.orig
 *.rej
 
+<<<<<<< .merge_file_2As0b7
+=======
+=======
+>>>>>>> .merge_file_ZSF497
 # Git leftovers
 .git-rewrite/
 .git-blame-ignore-revs
 *.orig
 *.rej
+>>>>>>> laraxot/dev
 *~HEAD
 *~BASE
 *~LOCAL
 *~REMOTE
 *~head
+<<<<<<< .merge_file_2As0b7
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_ZSF497
 
 # -----------------------------------------------------------------------------
 # Backup files
 # -----------------------------------------------------------------------------
+<<<<<<< .merge_file_2As0b7
+=======
+=======
+>>>>>>> .merge_file_ZSF497
 # Backup files
+>>>>>>> laraxot/dev
 *.old
 *.old1
 *.old2
@@ -466,6 +548,7 @@ lerna-debug.log*
 *.backup_*
 *.bak
 *.new
+<<<<<<< .merge_file_2As0b7
 
 # -----------------------------------------------------------------------------
 # Legacy
@@ -474,23 +557,49 @@ resources/views/Components_old/
 resources/lang/
 lang/lang/
 
+=======
+<<<<<<< HEAD
+
+# -----------------------------------------------------------------------------
+>>>>>>> .merge_file_ZSF497
+# Legacy
+# -----------------------------------------------------------------------------
+resources/views/Components_old/
+resources/lang/
+lang/lang/
+
+=======
 # Legacy
 resources/views/Components_old/
 resources/lang/
 lang/lang/
+>>>>>>> laraxot/dev
 database_old/
 database/Migrations_old/
 database/Seeders_old/
 database/Factories_old/
+<<<<<<< .merge_file_2As0b7
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_ZSF497
 
 # -----------------------------------------------------------------------------
 # UI module
 # -----------------------------------------------------------------------------
+<<<<<<< .merge_file_2As0b7
+=======
+=======
+>>>>>>> .merge_file_ZSF497
 # UI module
+>>>>>>> laraxot/dev
 *.fila2
 *.psd
 *.fig
 *.sketch
+<<<<<<< .merge_file_2As0b7
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_ZSF497
 
 design_notes.txt
 
@@ -500,10 +609,15 @@ public_html
 # -----------------------------------------------------------------------------
 # System files
 # -----------------------------------------------------------------------------
+<<<<<<< .merge_file_2As0b7
+=======
+=======
+>>>>>>> .merge_file_ZSF497
 design_notes.txt
 laravel
 public_html
 # System files
+>>>>>>> laraxot/dev
 .DS_Store
 .DS_Store?
 ._*
@@ -513,6 +627,10 @@ Thumbs.db
 ehthumbs.db
 agentdb.rvf
 *:Zone.Identifier
+<<<<<<< .merge_file_2As0b7
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_ZSF497
 
 # -----------------------------------------------------------------------------
 # Root quality tools
@@ -520,8 +638,13 @@ agentdb.rvf
 phpstan*
 phpmd*
 rector.php
+<<<<<<< .merge_file_2As0b7
+=======
+=======
+>>>>>>> .merge_file_ZSF497
 # Root quality tools
 phpstan*
 phpmd*
 rector.php
 *.old
+>>>>>>> laraxot/dev

@@ -4,10 +4,28 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit\Models;
 
+<<<<<<< HEAD
+use Modules\UI\Database\Factories\CategoryFactory;
+=======
+>>>>>>> laraxot/dev
 use Modules\UI\Models\Category;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
+<<<<<<< HEAD
+uses(TestCase::class);
+
+describe('Category Model', function (): void {
+    test('it can create a category with valid data', function (): void {
+        $category = CategoryFactory::new()->createOne([
+            'title' => 'Test Category',
+            'slug' => 'test-category',
+            'is_active' => 1,
+        ]);
+
+        Assert::assertSame('Test Category', $category->title);
+        Assert::assertSame(1, $category->is_active);
+=======
 uses(TestCase::class)->group('no-ui-db');
 
 describe('Category Model', function (): void {
@@ -23,6 +41,7 @@ describe('Category Model', function (): void {
         Assert::assertSame('Test Category', $category->title);
         Assert::assertSame('test-category', $category->slug);
         Assert::assertSame(1, (int) $category->is_active);
+>>>>>>> laraxot/dev
     });
 
     test('it has fillable attributes', function (): void {
@@ -34,9 +53,17 @@ describe('Category Model', function (): void {
         }
     });
 
+<<<<<<< HEAD
+    test('category has timestamps', function (): void {
+        $category = CategoryFactory::new()->createOne();
+
+        Assert::assertNotNull($category->created_at);
+        Assert::assertNotNull($category->updated_at);
+=======
     test('category has timestamps enabled', function (): void {
         $category = new Category();
 
         Assert::assertTrue($category->timestamps);
+>>>>>>> laraxot/dev
     });
 });

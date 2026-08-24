@@ -16,7 +16,11 @@ class SelectStateColumn extends XotBaseSelectColumn
         parent::setUp();
         $this->options(function (Model $record, mixed $state): array {
             $name = $this->getName();
+<<<<<<< HEAD
+            if (null === $state) {
+=======
             if ($state === null) {
+>>>>>>> laraxot/dev
                 if (! method_exists($record, 'getDefaultStateFor')) {
                     return [];
                 }
@@ -61,7 +65,11 @@ class SelectStateColumn extends XotBaseSelectColumn
                     } catch (\ReflectionException) {
                         // Intentionally ignored: fall back to $stateNameProperty === null below.
                     }
+<<<<<<< HEAD
+                    if (null !== $stateNameProperty) {
+=======
                     if ($stateNameProperty !== null) {
+>>>>>>> laraxot/dev
                         $statesValues = array_values($states);
                         /** @var list<int|string> $statesValuesTyped */
                         $statesValuesTyped = $statesValues;
@@ -100,17 +108,30 @@ class SelectStateColumn extends XotBaseSelectColumn
     }
 
     /**
+<<<<<<< HEAD
+     * @param array<int|string, mixed> $states
+     *
+=======
      * @param  array<int|string, mixed>  $states
+>>>>>>> laraxot/dev
      * @return array<int|string, string>
      */
     private function combineStateOptions(array $states): array
     {
         $statesKeys = array_map(
+<<<<<<< HEAD
+            static fn ($key) => SafeStringCastAction::cast($key),
+            array_keys($states),
+        );
+        $statesValues = array_map(
+            static fn ($value) => SafeStringCastAction::cast($value),
+=======
             static fn (mixed $key): string => SafeStringCastAction::cast($key),
             array_keys($states),
         );
         $statesValues = array_map(
             static fn (mixed $value): string => SafeStringCastAction::cast($value),
+>>>>>>> laraxot/dev
             array_values($states),
         );
         $combined = array_combine($statesKeys, $statesValues);

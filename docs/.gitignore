@@ -1,3 +1,7 @@
+<<<<<<< .merge_file_5LAj7s
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_QKHIbj
 # =============================================================================
 # LARAXOT MODULE: UI - .gitignore
 # =============================================================================
@@ -5,6 +9,10 @@
 # -----------------------------------------------------------------------------
 # Forbidden directories (root cleanup policy)
 # -----------------------------------------------------------------------------
+<<<<<<< .merge_file_5LAj7s
+=======
+=======
+>>>>>>> .merge_file_QKHIbj
 ---
 module: theme
 topic: .gitignore
@@ -36,6 +44,7 @@ redundancy-audit-2026-05-21.md
 # LARAXOT MODULE: UI - .gitignore
 # -----------------------------------------------------------------------------
 # Forbidden directories (root cleanup policy)
+>>>>>>> laraxot/dev
 bashscripts
 _bmad
 _bmad-output
@@ -50,7 +59,14 @@ scripts
 test-results
 tests/.claude-audit
 tests/AuditCoverage/
+<<<<<<< .merge_file_5LAj7s
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_QKHIbj
 docs/archive/
 docs/archive/**
 docs/archived/
@@ -65,6 +81,10 @@ docs/**/legacy/
 docs/**/workbench/
 docs/**/scripts/
 docs/**/bashscripts/
+<<<<<<< .merge_file_5LAj7s
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_QKHIbj
 
 # -----------------------------------------------------------------------------
 # Dependencies
@@ -94,6 +114,10 @@ public/mix-manifest.json
 # -----------------------------------------------------------------------------
 # Laravel
 # -----------------------------------------------------------------------------
+<<<<<<< .merge_file_5LAj7s
+=======
+=======
+>>>>>>> .merge_file_QKHIbj
 # Dependencies
 /vendor/
 /node_modules/
@@ -111,11 +135,13 @@ public/css/compiled/
 public/js/compiled/
 public/mix-manifest.json
 # Laravel
+>>>>>>> laraxot/dev
 /storage/*.key
 /public/storage
 /public/hot
 /public_html/storage
 /public_html/hot
+<<<<<<< .merge_file_5LAj7s
 
 # -----------------------------------------------------------------------------
 # Environment
@@ -130,6 +156,24 @@ config/development.php
 # -----------------------------------------------------------------------------
 # IDE
 # -----------------------------------------------------------------------------
+=======
+<<<<<<< HEAD
+
+# -----------------------------------------------------------------------------
+>>>>>>> .merge_file_QKHIbj
+# Environment
+# -----------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+config/local.php
+config/development.php
+
+# -----------------------------------------------------------------------------
+# IDE
+# -----------------------------------------------------------------------------
+=======
 # Environment
 .env
 .env.*
@@ -137,6 +181,7 @@ config/development.php
 config/local.php
 config/development.php
 # IDE
+>>>>>>> laraxot/dev
 .idea/
 .vscode/
 .cursor/
@@ -144,11 +189,20 @@ config/development.php
 .phpintel
 .phpstorm.meta.php
 /.vagrant
+<<<<<<< .merge_file_5LAj7s
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_QKHIbj
 
 # -----------------------------------------------------------------------------
 # Cache
 # -----------------------------------------------------------------------------
+<<<<<<< .merge_file_5LAj7s
+=======
+=======
+>>>>>>> .merge_file_QKHIbj
 # Cache
+>>>>>>> laraxot/dev
 .php-cs-fixer.cache
 .phpunit.result.cache
 *.cache
@@ -160,16 +214,29 @@ config/development.php
 *.swo
 *.stackdump
 v8-compile-cache-*
+<<<<<<< .merge_file_5LAj7s
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_QKHIbj
 
 # -----------------------------------------------------------------------------
 # Logs
 # -----------------------------------------------------------------------------
+<<<<<<< .merge_file_5LAj7s
+=======
+=======
+>>>>>>> .merge_file_QKHIbj
 # Logs
+>>>>>>> laraxot/dev
 *.log
 error_log
 npm-debug.log*
 yarn-error.log*
 lerna-debug.log*
+<<<<<<< .merge_file_5LAj7s
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_QKHIbj
 
 # -----------------------------------------------------------------------------
 # Git leftovers
@@ -180,21 +247,36 @@ lerna-debug.log*
 *.orig
 *.rej
 
+<<<<<<< .merge_file_5LAj7s
+=======
+=======
+>>>>>>> .merge_file_QKHIbj
 # Git leftovers
 .git-rewrite/
 .git-blame-ignore-revs
 *.orig
 *.rej
+>>>>>>> laraxot/dev
 *~HEAD
 *~BASE
 *~LOCAL
 *~REMOTE
 *~head
+<<<<<<< .merge_file_5LAj7s
 
 # -----------------------------------------------------------------------------
 # Backup files
 # -----------------------------------------------------------------------------
+=======
+<<<<<<< HEAD
+
+# -----------------------------------------------------------------------------
+>>>>>>> .merge_file_QKHIbj
 # Backup files
+# -----------------------------------------------------------------------------
+=======
+# Backup files
+>>>>>>> laraxot/dev
 *.old
 *.old1
 *.old2
@@ -204,6 +286,7 @@ lerna-debug.log*
 *.backup_*
 *.bak
 *.new
+<<<<<<< .merge_file_5LAj7s
 
 # -----------------------------------------------------------------------------
 # Legacy
@@ -212,23 +295,46 @@ resources/views/Components_old/
 resources/lang/
 lang/lang/
 
+=======
+<<<<<<< HEAD
+
+# -----------------------------------------------------------------------------
+>>>>>>> .merge_file_QKHIbj
+# Legacy
+# -----------------------------------------------------------------------------
+resources/views/Components_old/
+resources/lang/
+lang/lang/
+
+=======
 # Legacy
 resources/views/Components_old/
 resources/lang/
 lang/lang/
+>>>>>>> laraxot/dev
 database_old/
 database/Migrations_old/
 database/Seeders_old/
 database/Factories_old/
+<<<<<<< .merge_file_5LAj7s
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_QKHIbj
 
 # -----------------------------------------------------------------------------
 # UI module
 # -----------------------------------------------------------------------------
+<<<<<<< .merge_file_5LAj7s
+=======
+=======
+>>>>>>> .merge_file_QKHIbj
 # UI module
+>>>>>>> laraxot/dev
 *.fila2
 *.psd
 *.fig
 *.sketch
+<<<<<<< .merge_file_5LAj7s
 
 design_notes.txt
 
@@ -238,10 +344,24 @@ public_html
 # -----------------------------------------------------------------------------
 # System files
 # -----------------------------------------------------------------------------
+=======
+<<<<<<< HEAD
+
+>>>>>>> .merge_file_QKHIbj
+design_notes.txt
+
+laravel
+public_html
+
+# -----------------------------------------------------------------------------
+# System files
+# -----------------------------------------------------------------------------
+=======
 design_notes.txt
 laravel
 public_html
 # System files
+>>>>>>> laraxot/dev
 .DS_Store
 .DS_Store?
 ._*
@@ -249,6 +369,10 @@ public_html
 .Trashes
 Thumbs.db
 ehthumbs.db
+<<<<<<< .merge_file_5LAj7s
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_QKHIbj
 agentdb.rvf
 *:Zone.Identifier
 
@@ -258,8 +382,13 @@ agentdb.rvf
 phpstan*
 phpmd*
 rector.php
+<<<<<<< .merge_file_5LAj7s
+=======
+=======
+>>>>>>> .merge_file_QKHIbj
 *:Zone.Identifier
 # Root quality tools
 phpstan*
 phpmd*
 rector.php
+>>>>>>> laraxot/dev

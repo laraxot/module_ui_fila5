@@ -23,7 +23,11 @@ class GetAllIconsAction
         // Uso reflection per accedere alle icone in modo sicuro
         try {
             $reflection = new \ReflectionClass($iconsFactory);
+<<<<<<< HEAD
+            $property = $reflection->getProperty('iconSets');
+=======
             $property = $reflection->getProperty('sets');
+>>>>>>> laraxot/dev
             $property->setAccessible(true);
             $icons = $property->getValue($iconsFactory);
         } catch (\Exception $e) {
@@ -31,7 +35,12 @@ class GetAllIconsAction
             return [];
         }
 
+<<<<<<< HEAD
+        // Verifica che $icons sia un array prima di usare Arr::map()
+        if (! is_array($icons)) {
+=======
         if (! is_iterable($icons)) {
+>>>>>>> laraxot/dev
             return [];
         }
 
@@ -63,13 +72,35 @@ class GetAllIconsAction
                     continue;
                 }
 
+<<<<<<< HEAD
+                $files = File::allFiles($path);
+                if (! is_iterable($files)) {
+                    continue;
+                }
+
+                foreach ($files as $file) {
+                    // Type narrowing per SplFileInfo
+                    if (! $file instanceof \SplFileInfo) {
+                        continue;
+                    }
+
+=======
                 foreach (File::allFiles($path) as $file) {
+>>>>>>> laraxot/dev
                     // Simply ignore files that aren't SVGs
                     if ('svg' !== $file->getExtension()) {
                         continue;
                     }
 
                     $pathname = $file->getPathname();
+<<<<<<< HEAD
+                    if (! is_string($pathname)) {
+                        continue;
+                    }
+
+                    // $iconName = $this->getIconName($file, parentPath: $path, prefix: $prefix);
+=======
+>>>>>>> laraxot/dev
                     $iconName = str($pathname)
                         ->after($path.DIRECTORY_SEPARATOR)
                         ->replace(DIRECTORY_SEPARATOR, '.')
