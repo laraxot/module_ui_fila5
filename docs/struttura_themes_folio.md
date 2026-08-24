@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Struttura Themes e Folio in SaluteOra
+=======
+# Struttura Themes e Folio in <nome progetto>corrente
+>>>>>>> laraxot/dev
 
 ## ⚠️ ATTENZIONE CRITICA
 
@@ -8,7 +12,11 @@
 
 ## Struttura del Progetto
 
+<<<<<<< HEAD
 Il progetto SaluteOra utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
+=======
+Il progetto <nome progetto>corrente utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
+>>>>>>> laraxot/dev
 
 ```
 /laravel/

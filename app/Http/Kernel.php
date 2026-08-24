@@ -19,7 +19,11 @@ use Illuminate\Foundation\Http\Middleware\HandlePrecognitiveRequests;
 use Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance;
 use Illuminate\Foundation\Http\Middleware\TrimStrings;
 use Illuminate\Foundation\Http\Middleware\ValidatePostSize;
+<<<<<<< HEAD
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
+=======
+use Illuminate\Foundation\Http\Middleware\PreventRequestForgery;
+>>>>>>> laraxot/dev
 use Illuminate\Http\Middleware\HandleCors;
 use Illuminate\Http\Middleware\SetCacheHeaders;
 use Illuminate\Routing\Middleware\SubstituteBindings;
@@ -60,7 +64,11 @@ class Kernel extends HttpKernel
             AddQueuedCookiesToResponse::class,
             StartSession::class,
             ShareErrorsFromSession::class,
+<<<<<<< HEAD
             VerifyCsrfToken::class,
+=======
+            PreventRequestForgery::class,
+>>>>>>> laraxot/dev
             SubstituteBindings::class,
             SetLocale::class,
         ],
