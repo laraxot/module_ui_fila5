@@ -31,12 +31,6 @@ Depending on where your site is hosted, you may need to configure your server to
 ### Versione HEAD
 
 
-=======
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_72FYea
 ## Collegamenti tra versioni di custom-404-page.md
 * [custom-404-page.md](../../../Gdpr/docs/custom-404-page.md)
 * [custom-404-page.md](../../../Xot/docs/custom-404-page.md)
@@ -99,9 +93,3 @@ Depending on where your site is hosted, you may need to configure your server to
 
 ---
 ### Versione Incoming
->>>>>>> 92912795 (.)
-=======
-### Versione Incoming
-
----
->>>>>>> laraxot/dev

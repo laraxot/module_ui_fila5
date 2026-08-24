@@ -33,13 +33,6 @@ return array (
         'create' =>
     array (
         'create' => 
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-    'actions' =>
-    array (
-        'create' =>
->>>>>>> laraxot/dev
         array (
             'label' => 'create',
         ),
@@ -80,13 +73,6 @@ return array (
     'create' =>
   array (
     'create' => 
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-  'actions' =>
-  array (
-    'create' =>
->>>>>>> laraxot/dev
     array (
       'label' => 'create',
     ),

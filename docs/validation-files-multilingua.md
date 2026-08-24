@@ -333,7 +333,3 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 - [TransTrait Documentation](../../Xot/docs/trans_trait.md)
 - [Opening Hours Field](./opening_hours_field.md)
 - [Localization Guidelines](./localization_guidelines.md)
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_3Z6NCZ

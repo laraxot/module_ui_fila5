@@ -324,3 +324,5 @@ Check that you're not overriding the component's JavaScript with custom code. Th
 ### Styling issues
 If the component doesn't look right, make sure you have the required Tailwind CSS utilities included in your build. The component uses standard Tailwind classes for styling.
 ## Contributing
+
+```

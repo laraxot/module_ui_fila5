@@ -9,8 +9,6 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
 ### Campi per Ogni Giorno
 - `morning` - Sezione mattutina
 - `afternoon` - Sezione pomeridiana
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
 - `morning_label` - Etichetta attività mattutine
 - `afternoon_label` - Etichetta attività pomeridiane
 
@@ -237,7 +235,5 @@ done
 - **REGOLA CRITICA**: Sincronizzazione obbligatoria tra lingue
 - **REGOLA CRITICA**: Struttura espansa per tutti i campi
 - **REGOLA CRITICA**: Sintassi moderna e tipizzazione stretta
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_fE2RHS
+
+```

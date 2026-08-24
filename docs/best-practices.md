@@ -171,6 +171,3 @@ class AdvancedForm extends Component
 module: theme
 topic: best_practices
 canonical: ../../../Themes/docs/shared-components/best-practices_1.md
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)

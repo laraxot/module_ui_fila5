@@ -146,11 +146,6 @@ class CustomMiddleware
 
 // Non hardcodare percorsi delle risorse
 <img src="[project-root]/laravel/public/images/avatar.png">
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-<img src="/var/www/html/saluteora/laravel/public/images/avatar.png">
->>>>>>> laraxot/dev
 
 // Non duplicare la registrazione dei componenti
 Blade::component('ui::components.icon', 'ui.icon');

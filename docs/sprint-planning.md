@@ -82,7 +82,3 @@ Implement core design system with essential UI components.
 ## ✅ Definition of Done
 - All 6 files exist.
 - Accessibility scores > 95 on Lighthouse for core pages.
->>>>>>> dated: March 12, 2026*
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)

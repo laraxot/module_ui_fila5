@@ -20,11 +20,6 @@
 #### Performance Ottimizzata
 - **Component Rendering**: < 50ms per componente
 - **Bundle Size**: < 200KB per tutti i componenti
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-- **Bundle Size**: < 200KB per tutti i componenti
->>>>>>> laraxot/dev
 - **Mobile Responsive**: 100% componenti responsive
 - **Caching**: Sistema caching componenti attivo
 
@@ -148,9 +143,6 @@ class ComponentPerformanceMiddleware
         
         $duration = (microtime(true) - $start) * 1000;
 
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
         if ($duration > 50) {
             Log::warning("Slow component detected", [
                 'component' => $request->route()->getName(),
@@ -158,16 +150,6 @@ class ComponentPerformanceMiddleware
             ]);
         }
         
-=======
-
->>>>>>> laraxot/dev
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-
->>>>>>> laraxot/dev
->>>>>>> .merge_file_ZHCSL7
         return $response;
     }
 }

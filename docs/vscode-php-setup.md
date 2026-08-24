@@ -145,7 +145,6 @@
 ```json
 // tasks.json
                 "/ tasks.json
->>>>>>> 92912795 (.)
 {
     "version": "2.0.0",
     "tasks": [
@@ -405,3 +404,5 @@
 ## Vedi Anche
 - [VSCode Documentation](https://code.visualstudio.com/docs)
 - [PHP Intelephense](https://intelephense.com)
+
+```

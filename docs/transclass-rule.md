@@ -137,8 +137,6 @@ enum MyEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
     
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     case VALUE1 = 'value1';
     case VALUE2 = 'value2';
 }
@@ -291,9 +289,6 @@ rules:
 ## Memoria Permanente
 
 **RICORDA SEMPRE**:
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
 - SEMPRE `TransTrait` negli enum
 - SEMPRE `transClass()` per traduzioni
 - MAI `match()` per traduzioni
@@ -455,5 +450,3 @@ rules:
 - MAI `match()` per traduzioni
 - SEMPRE struttura espansa nelle traduzioni
 - SEMPRE sincronizzazione IT/EN/DE
-=======
->>>>>>> laraxot/dev

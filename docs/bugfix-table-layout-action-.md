@@ -141,10 +141,6 @@ php artisan tinker --execute="TableLayoutToggleTableAction::make('test');"
 
 # Testare l'URL che causava l'errore
 curl -I http://127.0.0.1:8001/modulo questionari/admin/gaia/survey-pdfs
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
 ```
 
 ### Risultati Test

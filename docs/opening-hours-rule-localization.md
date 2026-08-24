@@ -129,8 +129,6 @@ $rule = new OpeningHoursRule();
 // Verificare messaggi in italiano
 
 // Test inglese
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
 App::setLocale('en');
 $rule = new OpeningHoursRule();
 // Verificare messaggi in inglese
@@ -319,7 +317,3 @@ App::setLocale('de');
 - [Opening Hours Field](./opening_hours_field.md)
 - [Validation System](./validation_system.md)
 - [Localization Guidelines](./localization_guidelines.md)
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_OPhlxX

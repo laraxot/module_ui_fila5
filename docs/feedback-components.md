@@ -119,11 +119,6 @@
   class="btn btn-secondary"
   data-bs-toggle="tooltip"
   data-bs-placement="top"
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
   title="Tooltip in alto"
 >
   Tooltip
@@ -142,11 +137,6 @@
   class="btn btn-secondary"
   data-bs-toggle="popover"
   data-bs-placement="right"
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
   data-bs-content="Contenuto del popover"
   title="Titolo Popover"
 >
@@ -171,11 +161,6 @@
     style="width: 75%"
     aria-valuenow="75"
     aria-valuemin="0"
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
     aria-valuemax="100"
   >
     75%
@@ -366,3 +351,5 @@ $zindex-tooltip: 1070;
 - [Componenti Base](./base-components.md)
 - [Layout](./layout-components.md)
 - [Accessibilità](./standards/accessibility.md)
+
+```

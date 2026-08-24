@@ -21,11 +21,6 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
         icon="heroicon-m-plus"
         wire:click="prova({{ $record->id }})"
         label="Test Azione"
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
     />
 </div>
 ```
@@ -92,9 +87,6 @@ public function prova($recordId): void
     icon="heroicon-m-plus"
     wire:click="prova({{ $record->id }})"
     label="Test Azione"
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
 />
 ```
 
@@ -130,9 +122,6 @@ public function transitionState($recordId, $stateClass): void
     $record = $this->modelClass::find($recordId);
     $record->state->transitionTo($stateClass);
     
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     \Filament\Notifications\Notification::make()
         ->title('Transizione Completata')
         ->success()
@@ -150,12 +139,6 @@ public function transitionState($recordId, $stateClass): void
     icon="heroicon-o-arrow-right"
     wire:click="transitionState({{ $record->id }}, '{{ $stateClass }}')"
     label="Cambia Stato"
-=======
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
 />
 ```
 
@@ -172,5 +155,3 @@ La soluzione semplice è la migliore perché:
 **Last Updated**: June 2025
 **Version**: 2.3
 **Compatibility**: Filament 4.x, Laravel 10.x 
-=======
->>>>>>> laraxot/dev

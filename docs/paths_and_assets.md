@@ -23,11 +23,6 @@
 
 ```
 [project-root]/
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-/var/www/html/saluteora/
->>>>>>> laraxot/dev
 ├── laravel/                 # Applicazione Laravel (codice sorgente)
 │   ├── Modules/             # Moduli dell'applicazione
 │   ├── resources/           # Risorse non compilate
@@ -49,17 +44,10 @@
 | CSS | `[project-root]/public_html/css/` | `[project-root]/laravel/public/css/` |
 | JavaScript | `[project-root]/public_html/js/` | `[project-root]/laravel/public/js/` |
 | SVG | `[project-root]/public_html/images/` | `[project-root]/laravel/public/images/` |
-=======
->>>>>>> laraxot/dev
 | Immagini | `/var/www/html/saluteora/public_html/images/` | `/var/www/html/saluteora/laravel/public/images/` |
 | CSS | `/var/www/html/saluteora/public_html/css/` | `/var/www/html/saluteora/laravel/public/css/` |
 | JavaScript | `/var/www/html/saluteora/public_html/js/` | `/var/www/html/saluteora/laravel/public/js/` |
 | SVG | `/var/www/html/saluteora/public_html/images/` | `/var/www/html/saluteora/laravel/public/images/` |
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
 
 ## Utilizzo degli Asset nei Componenti Blade
 
@@ -91,11 +79,6 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 
 ```
 [project-root]/laravel/Themes/One/resources/views/components/ui/
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-/var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/
->>>>>>> laraxot/dev
 ```
 
 ### SVG come Asset Pubblici
@@ -104,11 +87,6 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 
 ```
 [project-root]/public_html/images/
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-/var/www/html/saluteora/public_html/images/
->>>>>>> laraxot/dev
 ```
 
 ## Gestione dei Componenti UI
@@ -119,22 +97,12 @@ Il componente avatar è implementato in:
 
 ```
 [project-root]/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-/var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
->>>>>>> laraxot/dev
 ```
 
 E utilizza gli avatar SVG dalla directory pubblica:
 
 ```
 [project-root]/public_html/images/avatars/
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-/var/www/html/saluteora/public_html/images/avatars/
->>>>>>> laraxot/dev
 ```
 
 ### Componente Icon
@@ -143,11 +111,6 @@ Il componente icon è implementato in:
 
 ```
 [project-root]/laravel/Themes/One/resources/views/components/ui/icon.blade.php
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-/var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/icon.blade.php
->>>>>>> laraxot/dev
 ```
 
 E include le definizioni SVG direttamente nel componente.
@@ -189,11 +152,6 @@ E include le definizioni SVG direttamente nel componente.
 ## Errori Comuni
 
 1. **Utilizzo del percorso Laravel public**: Utilizzare `[project-root]/laravel/public/` invece di `[project-root]/public_html/`
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/saluteora/laravel/public/` invece di `/var/www/html/saluteora/public_html/`
->>>>>>> laraxot/dev
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile
 4. **Inconsistenza nei nomi dei file**: Utilizzare convenzioni di naming diverse per file simili

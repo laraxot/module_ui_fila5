@@ -200,6 +200,8 @@ Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la st
     └── Two/                        # Theme secondario
 ## Configurazione Theme
 Il theme attivo è configurato in `/laravel/config/theme.php`:
+```
+
 ```php
 return [
     'name' => 'One',                              # Theme attivo
@@ -237,6 +239,8 @@ Il parametro `[locale]` NON è gestito come directory dinamica ma attraverso il 
 - La locale è gestita da `mcamara/laravel-localization`
 ## Errori Comuni da Evitare
 ### ❌ ERRORE 1: Creare file nella struttura standard
+```
+
 ```bash
 # SBAGLIATO
 /laravel/resources/views/pages/[locale]/patient/book.blade.php
@@ -274,3 +278,5 @@ config('theme.views_path') // Output: "Themes/One/resources/views"
 ## Link Utili
 - [Documentazione Laravel Folio](https://laravel.com/docs/folio)
 - [mcamara/laravel-localization](https://github.com/mcamara/laravel-localization)
+
+```

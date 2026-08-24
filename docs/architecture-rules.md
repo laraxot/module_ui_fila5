@@ -149,8 +149,6 @@ class CustomMiddleware
 <img src="public/images/avatar.png">
 <img src="public/images/avatar.png">
 <img src="public/images/avatar.png">
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
 
 // Non duplicare la registrazione dei componenti
 Blade::component('ui::components.icon', 'ui.icon');
@@ -294,20 +292,11 @@ class UIServiceProvider extends XotBaseServiceProvider
       'property' => null,
   ]);
 
-=======
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
   $action = function () {
       // Logica dell'azione
   };
   ?>
   
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
   <div>
       <!-- Template del componente -->
   </div>
@@ -329,20 +318,11 @@ class UIServiceProvider extends XotBaseServiceProvider
   middleware(['auth']);
   name('page.name');
 
-=======
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
   state([
       'property' => null,
   ]);
   ?>
   
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
   <x-layouts.main>
       <!-- Contenuto della pagina -->
   </x-layouts.main>
@@ -815,6 +795,3 @@ class UIServiceProvider extends XotBaseServiceProvider
 5. **Cosa Fare**:
    - Utilizzare i componenti responsive appropriati
    - Mantenere la coerenza con il tema dark/light
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_j8E57X

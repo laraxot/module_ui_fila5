@@ -12,15 +12,10 @@
 ## Collegamenti correlati
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
 - [Architettura Modulare](/laravel/Modules/UI/docs/ARCHITECTURE.md)
->>>>>>> laraxot/dev
 
 ## Collegamenti correlati
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
 - [Architettura Modulare](/laravel/Modules/UI/docs/architecture.md)
->>>>>>> 92912795 (.)
-=======
-# Gestione dei Percorsi e degli Asset
->>>>>>> laraxot/dev
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
 
 ## Percorsi Corretti per gli Asset
@@ -72,8 +67,6 @@ Per garantire una buona esperienza utente, implementare sempre un fallback per l
 
 ```php
 <img
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     src="{{ asset('images/avatars/default-' . $avatarNumber . '.svg') }}"
     alt="{{ $user->name ?? 'User' }}"
     onerror="this.src='{{ asset('images/default-avatar.svg') }}'"
@@ -165,9 +158,6 @@ E include le definizioni SVG direttamente nel componente.
 >
 > `Modules/UI/resources/views/components/ui/`
 > `Modules/UI/resources/views/components/ui/`
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
 >
 > **MAI** in `resources/views/components/ui/` della root Laravel.
 
@@ -191,12 +181,6 @@ resources/views/components/ui/logo.blade.php
 **✅ Corretto:**
 ```
 Modules/UI/resources/views/components/ui/logo.blade.php
-=======
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
 ```
 
 ## Best Practices
@@ -376,7 +360,3 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile
 4. **Inconsistenza nei nomi dei file**: Utilizzare convenzioni di naming diverse per file simili
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev

@@ -138,11 +138,6 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 ## Collegamenti Bidirezionali
 
 - [Documentazione Componenti Filament](../../../../docs/filament/components.md)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-- [Documentazione Componenti Filament](../../../docs/filament/components.md)
->>>>>>> laraxot/dev
 - [Best Practices UI](../../best-practices.md)
 - [Errori Comuni UI](../../common-errors.md)
 - [Implementazione Corretta](../../examples/correct-implementation.md)
@@ -271,7 +266,3 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
 4. Aggiornare la documentazione quando vengono scoperti nuovi errori 
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev

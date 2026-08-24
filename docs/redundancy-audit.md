@@ -7,11 +7,6 @@ created: 2026-05-21
 related:
   - https://github.com/laraxot/<nome repitory>/issues/89
   - https://github.com/laraxot/platform/issues/89
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-  - https://github.com/laraxot/base_fixcity_fila5/issues/89
->>>>>>> laraxot/dev
 ---
 
 # UI redundancy audit 2026-05-21

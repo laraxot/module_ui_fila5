@@ -6,10 +6,6 @@
 ```php
 // Themes/One/resources/views/pages/auth/logout.blade.php
 // Themes/One/resources/views/pages/auth/logout.blade.php
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
 
 <?php
 
@@ -41,11 +37,6 @@ $logout = function() {
             <div class="flex justify-center space-x-4">
                 <button
                     wire:click="logout"
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
                     class="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
                 >
                     {{ __('Esci') }}
@@ -54,10 +45,6 @@ $logout = function() {
                     href="{{ url()->previous() }}"
                 <a 
                     href="{{ url()->previous() }}" 
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
                     class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
                 >
                     {{ __('Annulla') }}

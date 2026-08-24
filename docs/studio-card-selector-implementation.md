@@ -277,6 +277,8 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 ## 🏗️ **Architettura Component**
 
 ### Classe PHP
+```
+
 ```php
 // Modules/UI/app/Forms/Components/StudioCardSelector.php
 <?php
@@ -300,26 +302,14 @@ class StudioCardSelector extends Field
     // Dati studios da visualizzare
     protected Collection|Closure|null $studios = null;
 
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
     // Personalizzazioni UI
     protected bool $showDistance = false;
     protected bool $showSpecializations = false;
     protected bool $showPhone = false;
     protected string $cardLayout = 'default'; // 'default', 'compact', 'detailed'
     
-=======
 
->>>>>>> laraxot/dev
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
 
->>>>>>> laraxot/dev
->>>>>>> .merge_file_wJTV3B
     // Configure studios data source
     public function studios(Collection|Closure $studios): static
     {
@@ -327,16 +317,8 @@ class StudioCardSelector extends Field
         return $this;
     }
     
-=======
 
->>>>>>> laraxot/dev
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
 
->>>>>>> laraxot/dev
->>>>>>> .merge_file_wJTV3B
     // Enable/disable features
     public function showDistance(bool $show = true): static
     {
@@ -344,48 +326,24 @@ class StudioCardSelector extends Field
         return $this;
     }
     
-=======
 
->>>>>>> laraxot/dev
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
 
->>>>>>> laraxot/dev
->>>>>>> .merge_file_wJTV3B
     public function showSpecializations(bool $show = true): static
     {
         $this->showSpecializations = $show;
         return $this;
     }
     
-=======
 
->>>>>>> laraxot/dev
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
 
->>>>>>> laraxot/dev
->>>>>>> .merge_file_wJTV3B
     public function showPhone(bool $show = true): static
     {
         $this->showPhone = $show;
         return $this;
     }
     
-=======
 
->>>>>>> laraxot/dev
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
 
->>>>>>> laraxot/dev
->>>>>>> .merge_file_wJTV3B
     // Layout variants
     public function compact(): static
     {
@@ -393,93 +351,45 @@ class StudioCardSelector extends Field
         return $this;
     }
     
-=======
 
->>>>>>> laraxot/dev
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
 
->>>>>>> laraxot/dev
->>>>>>> .merge_file_wJTV3B
     public function detailed(): static
     {
         $this->cardLayout = 'detailed';
         return $this;
     }
     
-=======
 
->>>>>>> laraxot/dev
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
 
->>>>>>> laraxot/dev
->>>>>>> .merge_file_wJTV3B
     // Data getters for view
     public function getStudios(): Collection
     {
         return $this->evaluate($this->studios) ?? collect();
     }
     
-=======
 
->>>>>>> laraxot/dev
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
 
->>>>>>> laraxot/dev
->>>>>>> .merge_file_wJTV3B
     public function getCardLayout(): string
     {
         return $this->cardLayout;
     }
     
-=======
 
->>>>>>> laraxot/dev
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
 
->>>>>>> laraxot/dev
->>>>>>> .merge_file_wJTV3B
     public function shouldShowDistance(): bool
     {
         return $this->showDistance;
     }
     
-=======
 
->>>>>>> laraxot/dev
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
 
->>>>>>> laraxot/dev
->>>>>>> .merge_file_wJTV3B
     public function shouldShowSpecializations(): bool
     {
         return $this->showSpecializations;
     }
     
-=======
 
->>>>>>> laraxot/dev
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
 
->>>>>>> laraxot/dev
->>>>>>> .merge_file_wJTV3B
     public function shouldShowPhone(): bool
     {
         return $this->showPhone;
@@ -529,13 +439,6 @@ private function getStudiosForLocation(Get $get): Collection
     return \Modules\<nome modulo>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
     return \Modules\<nome modulo>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
     return \Modules\<nome modulo>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
         $q->where('postal_code', $cap)
           ->where('administrative_area_level_3', $province)
           ->where('administrative_area_level_2', $region);
@@ -600,7 +503,3 @@ return [
 ---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev

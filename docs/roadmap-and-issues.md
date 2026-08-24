@@ -199,11 +199,6 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
   - Auto-completion
   - Predictive inputs
   - forecastive inputs
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-  - Predictive inputs
->>>>>>> laraxot/dev
 
 - [ ] **Real-Time Components**
   - Live updates

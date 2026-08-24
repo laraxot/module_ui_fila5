@@ -39,6 +39,3 @@ https://github.com/saade/filament-extra
 
 https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
 https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
-=======
-https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
->>>>>>> laraxot/dev

@@ -5,19 +5,11 @@
 **Versione Filament**: 4.0.17
 **Status**: ✅ COMPLETATO  
 **Versione Filament**: 4.0.17  
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
 
 ## 🔧 Correzioni Implementate
 
 ### 1. Widget FullCalendar Disabilitato
 **Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 4.x
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
 **Soluzione**: Disabilitazione temporanea del widget
 
 **File disabilitato**:
@@ -85,10 +77,6 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 {
     protected static ?string $view = 'ui::filament.widgets.simple-calendar';
     
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_S77U05
     public function getEvents(): array
     {
         // Logica per recuperare eventi

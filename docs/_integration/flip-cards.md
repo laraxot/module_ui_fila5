@@ -66,6 +66,3 @@ https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
 
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
-=======
-https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
->>>>>>> laraxot/dev

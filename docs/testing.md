@@ -177,11 +177,6 @@ protected function createApplication()
     $app['config']->set([
         'database.connections.ui.database' => 'quaeris_data_test',
         'database.connections.ui.database' => 'modulo questionari_data_test',
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-        'database.connections.ui.database' => 'quaeris_data_test',
->>>>>>> laraxot/dev
     ]);
     
     return $app;
@@ -391,3 +386,31 @@ Interventi 2026-08-20 (wave UI):
 
 Prossimo step: coprire rami residui IconStateColumn (fillForm/textarea required), RadioBadge, IconPicker, UserCalendarWidget; poi Job (suite Feature hang?) e Media.
 
+---
+
+## Aree di test per sottosistema (migrate da `TESTING.md` in root)
+
+> Questo blocco stava nella root del modulo, dove sono ammessi solo README,
+> CHANGELOG, LICENSE, AGENTS e CLAUDE. Il contenuto non era duplicato qui
+> dentro, quindi è stato accodato invece che cancellato: va integrato nelle
+> sezioni sopra.
+
+## Component Testing
+- Livewire component tests
+- Vue component tests
+- Filament widget tests
+
+## Theme Testing
+- Tailwind CSS build verification
+- Theme variable validation
+- Dark mode testing
+
+## Integration Tests
+- Admin panel flow tests
+- Page builder drag-and-drop tests
+- Theme switching tests
+
+## Running Tests
+```bash
+./vendor/bin/pest Modules/UI/tests
+```

@@ -362,11 +362,6 @@ pub_theme:: → Themes/Sixteen/resources/views/
 
 Configurato in `config/local/<nome progetto>/xra.php`:
 Configurato in `config/local/current/xra.php`:
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-Configurato in `config/local/fixcity/xra.php`:
->>>>>>> laraxot/dev
 ```php
 'pub_theme' => 'Sixteen',
 ```

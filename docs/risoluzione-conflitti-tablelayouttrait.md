@@ -14,8 +14,6 @@ Il `TableLayoutTrait` è un componente chiave del sistema di layout delle tabell
 1. **Conflitto di Namespace**: Esistevano due versioni diverse del namespace:
    - `namespace Modules\UI\Traits;`
    - `namespace Modules\UI\app\Traits;`
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
 
 2. **Incoerenza nella Formattazione del Codice**: Presenza di linee vuote e spazi bianchi inconsistenti.
 
@@ -109,5 +107,3 @@ Questo trait è strettamente correlato a:
 - `BaseListRecords.php`: La classe base che utilizza il trait
 - `TableLayoutToggleTableAction.php`: L'azione che consente di cambiare il layout nella tabella
 ## Conclusione
-=======
->>>>>>> laraxot/dev

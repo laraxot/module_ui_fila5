@@ -230,11 +230,6 @@ php artisan view:clear
 # Test in browser
 # http://<nome progetto>.local/it/tests/homepage
 # http://app.local/it/tests/homepage
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-# http://fixcity.local/it/tests/homepage
->>>>>>> laraxot/dev
 ```
 
 ### Verify SVG Files

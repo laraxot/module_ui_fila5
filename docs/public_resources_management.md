@@ -1,9 +1,4 @@
 # Gestione delle Risorse Pubbliche
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-# Gestione delle Risorse Pubbliche 
->>>>>>> laraxot/dev
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -22,11 +17,6 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 
 ```
 [project-root]/
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-/var/www/html/saluteora/
->>>>>>> laraxot/dev
 ├── public_html/           # Directory pubblica principale
 │   ├── images/            # Immagini pubbliche
 │   ├── css/               # File CSS
@@ -37,22 +27,12 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 ```
 
 > **IMPORTANTE**: MAI utilizzare `[project-root]/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>corrente.
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-> **IMPORTANTE**: MAI utilizzare `/var/www/html/saluteora/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di SaluteOra.
->>>>>>> laraxot/dev
 
 ## Tipi di Risorse
 
 ### Immagini
 
 Le immagini devono essere posizionate in `[project-root]/public_html/images/` e organizzate in sottocartelle per tipologia:
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/images/` e organizzate in sottocartelle per tipologia:
->>>>>>> laraxot/dev
 
 - `/images/avatars/` - Avatar utenti
 - `/images/logos/` - Loghi
@@ -124,13 +104,6 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
     alt="{{ $user->name }}"
     src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}" 
     alt="{{ $user->name }}" 
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-<img 
-    src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}" 
-    alt="{{ $user->name }}" 
->>>>>>> laraxot/dev
     class="h-10 w-10 rounded-full"
 >
 ```
@@ -139,13 +112,6 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 
 ```blade
 <a href="{{ LaravelLocalization::getLocalizedURL(LaravelLocalization::getCurrentLocale(), route('home')) }}">
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-    <img 
-        src="{{ asset('images/logos/saluteora-logo.svg') }}" 
-        alt="SaluteOra" 
->>>>>>> laraxot/dev
         class="h-8"
     >
 </a>
@@ -161,8 +127,3 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 ## Conclusione
 
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>corrente.
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto SaluteOra.
->>>>>>> laraxot/dev

@@ -18,10 +18,6 @@ Un componente avanzato per la selezione di date che mostra un calendario inline 
 ```php
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 InlineDatePicker::make('appointment_date')
     ->enabledDates(['2025-06-05', '2025-06-21', '2025-06-25'])
     ->calendarConfig([
@@ -54,9 +50,6 @@ InlineDatePicker::make('appointment_date')
 #### Configurazione Avanzata
 ```php
 InlineDatePicker::make('appointment_date')
-=======
-#### Configurazione Avanzata
->>>>>>> laraxot/dev
     ->enabledDates(function () {
         // Logica dinamica per generare le date abilitate
         return [
@@ -86,8 +79,6 @@ Lo stile del componente può essere personalizzato sovrascrivendo le classi CSS 
 
 ```php
 InlineDatePicker::make('appointment_date')
-=======
->>>>>>> laraxot/dev
     ->enabledDates($enabledDates)
     ->live()
     ->afterStateUpdated(function (Set $set, $state) {
@@ -119,8 +110,6 @@ $monthGrid = $datePicker->generateMonthGrid(2025, 6);
 
 #### Best Practice
 
-=======
->>>>>>> laraxot/dev
 1. **Performance**: Per un gran numero di date, utilizzare una closure per generare le date abilitate in modo lazy
 2. **Accessibilità**: Assicurarsi che il componente sia accessibile da tastiera
 3. **Localizzazione**: Configurare correttamente la lingua e il formato della data
@@ -141,8 +130,6 @@ use Filament\Forms\Components\Section;
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 
 public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
-=======
->>>>>>> laraxot/dev
 {
     return $form->schema([
         Section::make('Prenotazione Appuntamento')
@@ -190,8 +177,6 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     name="email" 
     type="email" 
     label="Email" 
-=======
->>>>>>> laraxot/dev
     placeholder="Inserisci la tua email"
     :required="true"
     :disabled="false"
@@ -209,8 +194,6 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 ```blade
 <x-ui::select 
     name="role" 
-=======
->>>>>>> laraxot/dev
     label="Ruolo"
     :options="[
         'admin' => 'Amministratore',
@@ -290,8 +273,6 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 
 ## Validazione
 
-=======
->>>>>>> laraxot/dev
 ### Regole
 - Required
 - Min/Max length
@@ -321,8 +302,6 @@ class UserForm extends Component
     public $name;
     public $email;
     
-=======
->>>>>>> laraxot/dev
     protected $rules = [
         'name' => 'required|min:3',
         'email' => 'required|email',
@@ -348,10 +327,6 @@ form.addEventListener('submit', (e) => {
 ## Best Practices
     }
 ```
-=======
-});
-## Best Practices
->>>>>>> laraxot/dev
 ### Utilizzo
 - Validazione lato server e client
 - Feedback immediato
@@ -683,5 +658,3 @@ form.addEventListener('submit', (e) => {
 ## Collegamenti tra versioni di form-components.md
 * [form-components.md](../../../UI/project_docs/form-components.md)
 * [form-components.md](../../../UI/project_docs/roadmap/form-components.md)
-=======
->>>>>>> laraxot/dev

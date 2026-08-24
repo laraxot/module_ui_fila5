@@ -64,9 +64,6 @@ related:
       <input
         type="email"
         type="email" 
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
         class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-primary-500 focus:border-primary-500 sm:text-sm"
       >
     </div>
@@ -86,9 +83,6 @@ related:
   
   <div>
     <button
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
       type="submit"
       class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
     >
@@ -148,12 +142,6 @@ related:
 .auth-card {
   @apply shadow-sm;
   
-=======
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_JhOgM6
   @screen sm {
     @apply shadow-md;
   }
@@ -208,10 +196,6 @@ related:
 <div class="auth-field">
   <label id="email-label">Email</label>
   <input
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
     type="email"
     aria-labelledby="email-label"
     aria-required="true"
@@ -394,7 +378,5 @@ related:
 ## Collegamenti
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md) 
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
+
+```

@@ -81,12 +81,6 @@ Questo è intenzionale: UI è un **consumer** di Xot, non un base layer.
 Ogni componente è progettato per essere riutilizzato in più moduli senza duplicazione:
 
 ```php
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-// InlineDatePicker - Usato in modulo operativo, Employee, Cms
-// LocationSelector - Usato in modulo operativo, Employee, Geo
->>>>>>> laraxot/dev
 // IconStateColumn - Usato in tutti i moduli con Spatie ModelStates
 // RadioCollection - Usato per selezioni complesse multimodulo
 ```
@@ -398,11 +392,6 @@ Altri moduli consumano componenti UI:
 
 ```php
 // In modulo operativo/Filament/Resources/DeviceResource.php
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-// In Filament/Resources/DeviceResource.php di un modulo consumer
->>>>>>> laraxot/dev
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 use Modules\UI\Filament\Tables\Columns\IconStateColumn;
 
