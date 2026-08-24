@@ -55,10 +55,8 @@ class Block extends Component
         $viewParams = app(ResolveLocalizedBlockDataAction::class)->execute($viewParams);
         $viewParams = $this->normalizeViewData($viewParams);
         Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
-        if (! view()->exists($view)) {
-            throw new \Exception('view not found ['.$view.']');
-        }
 
+        /** @var view-string $view */
         return view($view, $viewParams);
     }
 
