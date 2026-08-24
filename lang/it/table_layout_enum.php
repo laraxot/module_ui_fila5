@@ -32,7 +32,15 @@ return [
         ],
         'label' => 'Table Layout Enum',
         'sort' => 1,
+<<<<<<< .merge_file_anVyNq
         'icon' => 'heroicon-o-rectangle-stack',
+=======
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-rectangle-stack',
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_e3kZKY
     ],
     'fields' => [
         'id' => [

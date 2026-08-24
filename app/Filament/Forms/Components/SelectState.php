@@ -17,7 +17,11 @@ class SelectState extends XotBaseSelect
 
         $this->options(function (?Model $record): array {
             $name = $this->getName();
+<<<<<<< HEAD
+            if (null === $record) {
+=======
             if ($record === null) {
+>>>>>>> laraxot/dev
                 $model = $this->getModel();
                 if (\is_string($model) && class_exists($model)) {
                     $instance = app($model);
@@ -55,17 +59,30 @@ class SelectState extends XotBaseSelect
     }
 
     /**
+<<<<<<< HEAD
+     * @param array<int|string, mixed> $states
+     *
+=======
      * @param  array<int|string, mixed>  $states
+>>>>>>> laraxot/dev
      * @return array<int|string, string>
      */
     private function combineStateOptions(array $states): array
     {
         $statesKeys = array_map(
+<<<<<<< HEAD
+            static fn ($key) => SafeStringCastAction::cast($key),
+            array_keys($states),
+        );
+        $statesValues = array_map(
+            static fn ($value) => SafeStringCastAction::cast($value),
+=======
             static fn (mixed $key): string => SafeStringCastAction::cast($key),
             array_keys($states),
         );
         $statesValues = array_map(
             static fn (mixed $value): string => SafeStringCastAction::cast($value),
+>>>>>>> laraxot/dev
             array_values($states),
         );
         $combined = array_combine($statesKeys, $statesValues);
