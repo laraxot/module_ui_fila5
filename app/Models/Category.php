@@ -11,12 +11,6 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Models\BaseModel;
 
 /**
-<<<<<<< HEAD
- * Category model for UI module.
- * FormBuilder module not available - extending from XotBaseModel instead.
- *
-=======
->>>>>>> laraxot/dev
  * @property string               $id
  * @property string|null          $name
  * @property string               $title
@@ -35,11 +29,6 @@ use Modules\Xot\Models\BaseModel;
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  * @property ProfileContract|null $deleter
-<<<<<<< HEAD
- *
- * @method static CategoryFactory factory($count = null, $state = [])
- *
-=======
  * @method static CategoryFactory          factory                  ($count = null, $state = [])
  * @method static Builder<static>|Category newModelQuery   ()
  * @method static Builder<static>|Category newQuery        ()
@@ -58,11 +47,6 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Category whereTitle      ($value)
  * @method static Builder<static>|Category whereUpdatedAt  ($value)
  * @method static Builder<static>|Category whereUpdatedBy  ($value)
- * @method static \Modules\UI\Database\Factories\CategoryFactory factory($count = null, $state = [])
- * @method static Builder<static>|Category newModelQuery()
- * @method static Builder<static>|Category newQuery()
- * @method static Builder<static>|Category query()
->>>>>>> laraxot/dev
  * @mixin \Eloquent
  */
 class Category extends BaseModel

@@ -11,10 +11,7 @@ use Modules\Xot\Models\BaseModel;
 
 /**
  * Collection model for UI module.
-<<<<<<< HEAD
-=======
  *
->>>>>>> laraxot/dev
  * FormBuilder module not available - extending from XotBaseModel instead.
  *
  * @property string|null                     $id
@@ -42,12 +39,6 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Collection newModelQuery()
  * @method static Builder<static>|Collection newQuery()
  * @method static Builder<static>|Collection query()
-<<<<<<< HEAD
- *
- *
- *
-=======
->>>>>>> laraxot/dev
  * @mixin \Eloquent
  */
 class Collection extends BaseModel
