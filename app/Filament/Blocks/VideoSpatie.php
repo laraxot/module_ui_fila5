@@ -23,11 +23,7 @@ final class VideoSpatie
             ->schema([
                 Hidden::make('img_uuid')
                     ->default(Str::uuid()->toString(...))
-<<<<<<< HEAD
-                    ->formatStateUsing(static fn ($state) => $state ?? Str::uuid()->toString())
-=======
                     ->formatStateUsing(static fn (mixed $state): mixed => $state ?? Str::uuid()->toString())
->>>>>>> laraxot/dev
                     ->live(),
                 // ->required(),
 
@@ -36,11 +32,7 @@ final class VideoSpatie
                     ->hiddenLabel()
                     // ->imagePreviewHeight('250')
                     // ->panelLayout('integrated')
-<<<<<<< HEAD
-                    ->imageResizeMode('cover')
-=======
                     ->automaticallyResizeImagesMode('cover')
->>>>>>> laraxot/dev
                     ->panelAspectRatio('2:1')
                     ->maxSize(502400)
                     ->disk('local')
@@ -80,11 +72,7 @@ final class VideoSpatie
                 // ->customProperties(fn(Forms\Get $get) => ['gallery_id' => $get('gallery_id')]),
                 // Forms\Components\SpatieMediaLibraryFileUpload::make('media_id')
             ])
-<<<<<<< HEAD
-            ->columns('form' === $context ? 2 : 1);
-=======
             ->columns($context === 'form' ? 2 : 1);
->>>>>>> laraxot/dev
     }
 
     /**

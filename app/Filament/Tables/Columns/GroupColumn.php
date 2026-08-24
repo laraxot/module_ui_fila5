@@ -36,11 +36,7 @@ class GroupColumn extends XotBaseColumn
     }
 
     /**
-<<<<<<< HEAD
-     * @param  array<int|string, mixed>  $form
-=======
      * @param array<int|string, mixed> $form
->>>>>>> laraxot/dev
      */
     public function schema(array $form): static
     {

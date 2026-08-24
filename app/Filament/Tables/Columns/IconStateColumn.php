@@ -43,11 +43,7 @@ class IconStateColumn extends XotBaseIconColumn
                         ->options(function (Model $record, string $_state): array {
                             $name = $this->getName();
                             $state = $record->getAttribute($name);
-<<<<<<< HEAD
-                            if (null === $state) {
-=======
                             if ($state === null) {
->>>>>>> laraxot/dev
                                 if (! method_exists($record, 'getDefaultStateFor')) {
                                     return [];
                                 }
@@ -143,11 +139,7 @@ class IconStateColumn extends XotBaseIconColumn
                         'state' => $stateName,
                     ];
                 })
-<<<<<<< HEAD
-                ->action(function ($record, $data): void {
-=======
                 ->action(function (mixed $record, array $data): void {
->>>>>>> laraxot/dev
                     /** @var array<string, mixed> $data */
                     if (! isset($data['state']) || ! is_string($data['state'])) {
                         throw new \Exception('State is required and must be a string');
