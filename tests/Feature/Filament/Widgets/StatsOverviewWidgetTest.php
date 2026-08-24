@@ -81,6 +81,6 @@ test('stats overview widget has correct use statements', function (): void {
 
     if (false !== $filename) {
         $content = file_get_contents($filename);
-        Assert::assertStringContainsString('use Filament\\Widgets\\StatsOverviewWidget as BaseWidget;', $content);
+        Assert::assertStringContainsString('use Modules\\Xot\\Filament\\Widgets\\XotBaseStatsOverviewWidget;', $content);
     }
 });

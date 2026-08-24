@@ -89,11 +89,13 @@ final class RadioCollection extends XotBaseField
 
     /**
      * Comparazione type-safe per determinare se un'opzione è selezionata.
+     *
+     * @param  mixed  $stateOverride  stato esplicito (test/offline senza container Livewire)
      */
-    public function isOptionSelected(mixed $option): bool
+    public function isOptionSelected(mixed $option, mixed $stateOverride = null): bool
     {
-        $state = SafeStringCastAction::cast($this->getState());
-        $currentValue = (string) $state;
+        $state = $stateOverride ?? $this->getState();
+        $currentValue = (string) SafeStringCastAction::cast($state);
 
         // PHPStan L10: data_get restituisce mixed, SafeStringCastAction accetta mixed
         $optionData = data_get($option, $this->getValueKey());
