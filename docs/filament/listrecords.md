@@ -1,5 +1,6 @@
 # List Records in Filament
 
+<<<<<<< HEAD
 ## Estensione Corretta
 
 ```php
@@ -12,6 +13,16 @@ class ListMyRecords extends ListRecords
 }
 
 // ✅ CORRETTO: Estendere XotBaseListRecords
+=======
+## Perché
+
+Le pagine lista delle Resource non estendono `Filament\Resources\Pages\ListRecords`.
+Estendono `XotBaseListRecords`: traduzioni, permessi e colonne restano nel contratto Laraxot.
+
+## Estensione corretta
+
+```php
+>>>>>>> laraxot/dev
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 
 class ListMyRecords extends XotBaseListRecords
@@ -21,12 +32,17 @@ class ListMyRecords extends XotBaseListRecords
     public function getListTableColumns(): array
     {
         return [
+<<<<<<< HEAD
             // definizione colonne
+=======
+            // colonne
+>>>>>>> laraxot/dev
         ];
     }
 }
 ```
 
+<<<<<<< HEAD
 ## Metodi Obbligatori
 
 Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti metodi:
@@ -157,10 +173,37 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
         return [
         ];
     }
+=======
+## Metodi obbligatori
+
+Quando si estende `XotBaseListRecords`:
+
+1. `getListTableColumns()` — colonne
+2. `getListTableActions()` — azioni riga
+3. `getListTableBulkActions()` — azioni di massa
+4. `getListTableFilters()` — filtri
+
+Prefisso `List` obbligatorio. Visibilità `public`. Non cambiare la visibilità dei metodi ereditati.
+
+## Errori comuni
+
+- Estendere `ListRecords` Filament direttamente
+- Usare `getTableColumns()` / `getTableActions()` senza prefisso `List`
+- Mettere la tabella sulla Resource invece che sulla pagina List
+- `protected function getListTableColumns()`
+
+## Best practices
+
+```php
+class ListMyRecords extends XotBaseListRecords
+{
+    protected static string $resource = MyResource::class;
+>>>>>>> laraxot/dev
 
     public function getListTableColumns(): array
     {
         return [
+<<<<<<< HEAD
         ];
     }
 
@@ -211,3 +254,28 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
             );
     }
 }
+=======
+            TextColumn::make('id')->sortable(),
+            TextColumn::make('name')->searchable(),
+        ];
+    }
+
+    public function getListTableActions(): array
+    {
+        return [
+            'edit' => EditAction::make(),
+            'delete' => DeleteAction::make(),
+        ];
+    }
+
+    public function getListTableBulkActions(): array
+    {
+        return [
+            'delete' => DeleteBulkAction::make(),
+        ];
+    }
+}
+```
+
+Traduzioni con `static::trans()`, permessi con `can()` nel `mount()`.
+>>>>>>> laraxot/dev

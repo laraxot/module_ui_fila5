@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # =============================================================================
 # LARAXOT MODULE: UI - .gitignore
 # =============================================================================
@@ -5,6 +6,39 @@
 # -----------------------------------------------------------------------------
 # Forbidden directories (root cleanup policy)
 # -----------------------------------------------------------------------------
+=======
+---
+module: theme
+topic: .gitignore
+canonical: ../../../Themes/docs/shared-components/.gitignore-Modules
+
+See canonical documentation: ../../../Themes/docs/shared-components/.gitignore-Modules
+agentdb.rvf
+phpstan-corrections-gennaio-2025.md
+translations-update-january-2026.md
+git-push-recovery-2026-07-28.md
+phpstan-fixes-november-2025.md
+bugfix-icons-missing-2025-01-27.md
+notify-quality-gate-resolution-2026-07-28.md
+copilot-redundancy-audit-2026-05-25.md
+phpstan-fixes-2025.md
+dry-kiss-analysis-2025-10-15.md
+architecture-2025.md
+roadmap-2025.md
+phpstan-fixes-january-2025.md
+notify-user-git-push-resolution-2026-07-28.md
+phpstan-fixes-gennaio-2025.md
+redundancy-audit-2026-05-21.md
+# No numbered .md duplicates (rule: docs/wiki/rules/no-numbered-filenames.md)
+*-[0-9].md
+*-[0-9][0-9].md
+*_[0-9].md
+*_[0-9][0-9].md
+# =============================================================================
+# LARAXOT MODULE: UI - .gitignore
+# -----------------------------------------------------------------------------
+# Forbidden directories (root cleanup policy)
+>>>>>>> laraxot/dev
 bashscripts
 _bmad
 _bmad-output
@@ -19,7 +53,10 @@ scripts
 test-results
 tests/.claude-audit
 tests/AuditCoverage/
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 docs/archive/
 docs/archive/**
 docs/archived/
@@ -34,6 +71,7 @@ docs/**/legacy/
 docs/**/workbench/
 docs/**/scripts/
 docs/**/bashscripts/
+<<<<<<< HEAD
 
 # -----------------------------------------------------------------------------
 # Dependencies
@@ -63,11 +101,31 @@ public/mix-manifest.json
 # -----------------------------------------------------------------------------
 # Laravel
 # -----------------------------------------------------------------------------
+=======
+# Dependencies
+/vendor/
+/node_modules/
+/docs/vendor/
+composer.lock
+package-lock.json
+yarn.lock
+# Build artifacts
+/build/
+/dist/
+cache/
+docs/cache/
+docs/phpstan/
+public/css/compiled/
+public/js/compiled/
+public/mix-manifest.json
+# Laravel
+>>>>>>> laraxot/dev
 /storage/*.key
 /public/storage
 /public/hot
 /public_html/storage
 /public_html/hot
+<<<<<<< HEAD
 
 # -----------------------------------------------------------------------------
 # Environment
@@ -82,6 +140,15 @@ config/development.php
 # -----------------------------------------------------------------------------
 # IDE
 # -----------------------------------------------------------------------------
+=======
+# Environment
+.env
+.env.*
+!.env.example
+config/local.php
+config/development.php
+# IDE
+>>>>>>> laraxot/dev
 .idea/
 .vscode/
 .cursor/
@@ -89,10 +156,14 @@ config/development.php
 .phpintel
 .phpstorm.meta.php
 /.vagrant
+<<<<<<< HEAD
 
 # -----------------------------------------------------------------------------
 # Cache
 # -----------------------------------------------------------------------------
+=======
+# Cache
+>>>>>>> laraxot/dev
 .php-cs-fixer.cache
 .phpunit.result.cache
 *.cache
@@ -104,15 +175,20 @@ config/development.php
 *.swo
 *.stackdump
 v8-compile-cache-*
+<<<<<<< HEAD
 
 # -----------------------------------------------------------------------------
 # Logs
 # -----------------------------------------------------------------------------
+=======
+# Logs
+>>>>>>> laraxot/dev
 *.log
 error_log
 npm-debug.log*
 yarn-error.log*
 lerna-debug.log*
+<<<<<<< HEAD
 
 # -----------------------------------------------------------------------------
 # Git leftovers
@@ -123,15 +199,26 @@ lerna-debug.log*
 *.orig
 *.rej
 
+=======
+# Git leftovers
+.git-rewrite/
+.git-blame-ignore-revs
+*.orig
+*.rej
+>>>>>>> laraxot/dev
 *~HEAD
 *~BASE
 *~LOCAL
 *~REMOTE
 *~head
+<<<<<<< HEAD
 
 # -----------------------------------------------------------------------------
 # Backup files
 # -----------------------------------------------------------------------------
+=======
+# Backup files
+>>>>>>> laraxot/dev
 *.old
 *.old1
 *.old2
@@ -141,6 +228,7 @@ lerna-debug.log*
 *.backup_*
 *.bak
 *.new
+<<<<<<< HEAD
 
 # -----------------------------------------------------------------------------
 # Legacy
@@ -149,18 +237,29 @@ resources/views/Components_old/
 resources/lang/
 lang/lang/
 
+=======
+# Legacy
+resources/views/Components_old/
+resources/lang/
+lang/lang/
+>>>>>>> laraxot/dev
 database_old/
 database/Migrations_old/
 database/Seeders_old/
 database/Factories_old/
+<<<<<<< HEAD
 
 # -----------------------------------------------------------------------------
 # UI module
 # -----------------------------------------------------------------------------
+=======
+# UI module
+>>>>>>> laraxot/dev
 *.fila2
 *.psd
 *.fig
 *.sketch
+<<<<<<< HEAD
 
 design_notes.txt
 
@@ -170,6 +269,12 @@ public_html
 # -----------------------------------------------------------------------------
 # System files
 # -----------------------------------------------------------------------------
+=======
+design_notes.txt
+laravel
+public_html
+# System files
+>>>>>>> laraxot/dev
 .DS_Store
 .DS_Store?
 ._*
@@ -177,6 +282,7 @@ public_html
 .Trashes
 Thumbs.db
 ehthumbs.db
+<<<<<<< HEAD
 agentdb.rvf
 *:Zone.Identifier
 
@@ -186,3 +292,10 @@ agentdb.rvf
 phpstan*
 phpmd*
 rector.php
+=======
+*:Zone.Identifier
+# Root quality tools
+phpstan*
+phpmd*
+rector.php
+>>>>>>> laraxot/dev
