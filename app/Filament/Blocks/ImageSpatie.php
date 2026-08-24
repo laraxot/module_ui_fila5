@@ -23,11 +23,7 @@ final class ImageSpatie
             ->schema([
                 Hidden::make('img_uuid')
                     ->default(Str::uuid()->toString(...))
-<<<<<<< HEAD
-                    ->formatStateUsing(static fn ($state) => $state ?? Str::uuid()->toString()),
-=======
                     ->formatStateUsing(static fn (mixed $state): mixed => $state ?? Str::uuid()->toString()),
->>>>>>> laraxot/dev
                 // ->live()
                 SpatieMediaLibraryFileUpload::make('image')
                     ->live()
@@ -61,10 +57,6 @@ final class ImageSpatie
                     }),
                 TextInput::make('caption'),
             ])
-<<<<<<< HEAD
-            ->columns('form' === $context ? 2 : 1);
-=======
             ->columns($context === 'form' ? 2 : 1);
->>>>>>> laraxot/dev
     }
 }

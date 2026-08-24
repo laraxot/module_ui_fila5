@@ -1,25 +1,56 @@
-<<<<<<< .merge_file_5LAj7s
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_QKHIbj
 # =============================================================================
 # LARAXOT MODULE: UI - .gitignore
 # =============================================================================
+#
+# Canonical documentation:
+# ../../../Themes/docs/shared-components/.gitignore-Modules
+
 
 # -----------------------------------------------------------------------------
 # Forbidden directories (root cleanup policy)
 # -----------------------------------------------------------------------------
-<<<<<<< .merge_file_5LAj7s
-=======
-=======
->>>>>>> .merge_file_QKHIbj
----
-module: theme
-topic: .gitignore
-canonical: ../../../Themes/docs/shared-components/.gitignore-Modules
+bashscripts/
+_bmad/
+_bmad-output/
+_docs/
+.circleci/
+.claude-audit/
+.devcontainer/
+.kilocode/
+.kiro/
+.ralph/
+scripts/
+test-results/
+tests/.claude-audit/
+tests/AuditCoverage/
 
-See canonical documentation: ../../../Themes/docs/shared-components/.gitignore-Modules
+
+# -----------------------------------------------------------------------------
+# Documentation archives / generated content
+# -----------------------------------------------------------------------------
+docs/archive/
+docs/archived/
+docs/legacy/
+docs/workbench/
+docs/scripts/
+docs/bashscripts/
+
+docs/**/archive/
+docs/**/archived/
+docs/**/legacy/
+docs/**/workbench/
+docs/**/scripts/
+docs/**/bashscripts/
+
+docs/cache/
+docs/phpstan/
+
+
+# -----------------------------------------------------------------------------
+# Documentation files
+# -----------------------------------------------------------------------------
 agentdb.rvf
+
 phpstan-corrections-gennaio-2025.md
 translations-update-january-2026.md
 git-push-recovery-2026-07-28.md
@@ -35,56 +66,13 @@ phpstan-fixes-january-2025.md
 notify-user-git-push-resolution-2026-07-28.md
 phpstan-fixes-gennaio-2025.md
 redundancy-audit-2026-05-21.md
-# No numbered .md duplicates (rule: docs/wiki/rules/no-numbered-filenames.md)
+
+# No numbered Markdown duplicates
 *-[0-9].md
 *-[0-9][0-9].md
 *_[0-9].md
 *_[0-9][0-9].md
-# =============================================================================
-# LARAXOT MODULE: UI - .gitignore
-# -----------------------------------------------------------------------------
-# Forbidden directories (root cleanup policy)
->>>>>>> laraxot/dev
-bashscripts
-_bmad
-_bmad-output
-_docs
-.circleci
-.claude-audit
-.devcontainer
-.kilocode
-.kiro
-.ralph
-scripts
-test-results
-tests/.claude-audit
-tests/AuditCoverage/
-<<<<<<< .merge_file_5LAj7s
 
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_QKHIbj
-docs/archive/
-docs/archive/**
-docs/archived/
-docs/legacy/
-docs/legacy/**
-docs/workbench/
-docs/scripts/
-docs/bashscripts/
-docs/**/archive/
-docs/**/archived/
-docs/**/legacy/
-docs/**/workbench/
-docs/**/scripts/
-docs/**/bashscripts/
-<<<<<<< .merge_file_5LAj7s
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_QKHIbj
 
 # -----------------------------------------------------------------------------
 # Dependencies
@@ -97,6 +85,16 @@ composer.lock
 package-lock.json
 yarn.lock
 
+
+# -----------------------------------------------------------------------------
+# Python
+# -----------------------------------------------------------------------------
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+
 # -----------------------------------------------------------------------------
 # Build artifacts
 # -----------------------------------------------------------------------------
@@ -104,44 +102,22 @@ yarn.lock
 /dist/
 
 cache/
-docs/cache/
-docs/phpstan/
 
 public/css/compiled/
 public/js/compiled/
 public/mix-manifest.json
 
+
 # -----------------------------------------------------------------------------
 # Laravel
 # -----------------------------------------------------------------------------
-<<<<<<< .merge_file_5LAj7s
-=======
-=======
->>>>>>> .merge_file_QKHIbj
-# Dependencies
-/vendor/
-/node_modules/
-/docs/vendor/
-composer.lock
-package-lock.json
-yarn.lock
-# Build artifacts
-/build/
-/dist/
-cache/
-docs/cache/
-docs/phpstan/
-public/css/compiled/
-public/js/compiled/
-public/mix-manifest.json
-# Laravel
->>>>>>> laraxot/dev
 /storage/*.key
 /public/storage
 /public/hot
+
 /public_html/storage
 /public_html/hot
-<<<<<<< .merge_file_5LAj7s
+
 
 # -----------------------------------------------------------------------------
 # Environment
@@ -153,58 +129,26 @@ public/mix-manifest.json
 config/local.php
 config/development.php
 
-# -----------------------------------------------------------------------------
-# IDE
-# -----------------------------------------------------------------------------
-=======
-<<<<<<< HEAD
 
 # -----------------------------------------------------------------------------
->>>>>>> .merge_file_QKHIbj
-# Environment
+# IDE / editors
 # -----------------------------------------------------------------------------
-.env
-.env.*
-!.env.example
-
-config/local.php
-config/development.php
-
-# -----------------------------------------------------------------------------
-# IDE
-# -----------------------------------------------------------------------------
-=======
-# Environment
-.env
-.env.*
-!.env.example
-config/local.php
-config/development.php
-# IDE
->>>>>>> laraxot/dev
 .idea/
 .vscode/
 .cursor/
 .windsurf/
+
 .phpintel
 .phpstorm.meta.php
 /.vagrant
-<<<<<<< .merge_file_5LAj7s
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_QKHIbj
+
 
 # -----------------------------------------------------------------------------
-# Cache
+# Cache / temporary files
 # -----------------------------------------------------------------------------
-<<<<<<< .merge_file_5LAj7s
-=======
-=======
->>>>>>> .merge_file_QKHIbj
-# Cache
->>>>>>> laraxot/dev
 .php-cs-fixer.cache
 .phpunit.result.cache
+
 *.cache
 *.lock
 *.tmp
@@ -213,80 +157,54 @@ config/development.php
 *.swp
 *.swo
 *.stackdump
+
 v8-compile-cache-*
-<<<<<<< .merge_file_5LAj7s
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_QKHIbj
+
 
 # -----------------------------------------------------------------------------
 # Logs
 # -----------------------------------------------------------------------------
-<<<<<<< .merge_file_5LAj7s
-=======
-=======
->>>>>>> .merge_file_QKHIbj
-# Logs
->>>>>>> laraxot/dev
 *.log
 error_log
+
 npm-debug.log*
 yarn-error.log*
 lerna-debug.log*
-<<<<<<< .merge_file_5LAj7s
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_QKHIbj
+
 
 # -----------------------------------------------------------------------------
-# Git leftovers
+# Git / merge leftovers
 # -----------------------------------------------------------------------------
 .git-rewrite/
 .git-blame-ignore-revs
 
+.merge_file_*
+
 *.orig
 *.rej
 
-<<<<<<< .merge_file_5LAj7s
-=======
-=======
->>>>>>> .merge_file_QKHIbj
-# Git leftovers
-.git-rewrite/
-.git-blame-ignore-revs
-*.orig
-*.rej
->>>>>>> laraxot/dev
 *~HEAD
 *~BASE
 *~LOCAL
 *~REMOTE
 *~head
-<<<<<<< .merge_file_5LAj7s
+
 
 # -----------------------------------------------------------------------------
 # Backup files
 # -----------------------------------------------------------------------------
-=======
-<<<<<<< HEAD
-
-# -----------------------------------------------------------------------------
->>>>>>> .merge_file_QKHIbj
-# Backup files
-# -----------------------------------------------------------------------------
-=======
-# Backup files
->>>>>>> laraxot/dev
 *.old
 *.old1
 *.old2
+
 *.backup
 *.backup.*
 *.backup-*
 *.backup_*
+
 *.bak
 *.new
-<<<<<<< .merge_file_5LAj7s
+
 
 # -----------------------------------------------------------------------------
 # Legacy
@@ -295,86 +213,40 @@ resources/views/Components_old/
 resources/lang/
 lang/lang/
 
-=======
-<<<<<<< HEAD
-
-# -----------------------------------------------------------------------------
->>>>>>> .merge_file_QKHIbj
-# Legacy
-# -----------------------------------------------------------------------------
-resources/views/Components_old/
-resources/lang/
-lang/lang/
-
-=======
-# Legacy
-resources/views/Components_old/
-resources/lang/
-lang/lang/
->>>>>>> laraxot/dev
 database_old/
 database/Migrations_old/
 database/Seeders_old/
 database/Factories_old/
-<<<<<<< .merge_file_5LAj7s
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_QKHIbj
+
 
 # -----------------------------------------------------------------------------
 # UI module
 # -----------------------------------------------------------------------------
-<<<<<<< .merge_file_5LAj7s
-=======
-=======
->>>>>>> .merge_file_QKHIbj
-# UI module
->>>>>>> laraxot/dev
 *.fila2
 *.psd
 *.fig
 *.sketch
-<<<<<<< .merge_file_5LAj7s
 
 design_notes.txt
 
-laravel
-public_html
+laravel/
+public_html/
+
 
 # -----------------------------------------------------------------------------
 # System files
 # -----------------------------------------------------------------------------
-=======
-<<<<<<< HEAD
-
->>>>>>> .merge_file_QKHIbj
-design_notes.txt
-
-laravel
-public_html
-
-# -----------------------------------------------------------------------------
-# System files
-# -----------------------------------------------------------------------------
-=======
-design_notes.txt
-laravel
-public_html
-# System files
->>>>>>> laraxot/dev
 .DS_Store
 .DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
+
 Thumbs.db
 ehthumbs.db
-<<<<<<< .merge_file_5LAj7s
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_QKHIbj
-agentdb.rvf
+
 *:Zone.Identifier
+
 
 # -----------------------------------------------------------------------------
 # Root quality tools
@@ -382,13 +254,3 @@ agentdb.rvf
 phpstan*
 phpmd*
 rector.php
-<<<<<<< .merge_file_5LAj7s
-=======
-=======
->>>>>>> .merge_file_QKHIbj
-*:Zone.Identifier
-# Root quality tools
-phpstan*
-phpmd*
-rector.php
->>>>>>> laraxot/dev

@@ -71,12 +71,8 @@ test('stats overview widget getStats method has correct return type', function (
     $returnType = $getStatsMethod->getReturnType();
 
     Assert::assertNotNull($returnType);
-<<<<<<< HEAD
-    Assert::assertSame('array', $returnType instanceof \ReflectionNamedType ? $returnType->getName() : (string) $returnType);
-=======
     Assert::assertInstanceOf(\ReflectionNamedType::class, $returnType);
     Assert::assertSame('array', $returnType->getName());
->>>>>>> laraxot/dev
 });
 
 test('stats overview widget has correct use statements', function (): void {
@@ -85,10 +81,6 @@ test('stats overview widget has correct use statements', function (): void {
 
     if (false !== $filename) {
         $content = file_get_contents($filename);
-<<<<<<< HEAD
-        Assert::assertStringContainsString('use Filament\\Widgets\\StatsOverviewWidget as BaseWidget;', $content);
-=======
         Assert::assertStringContainsString('use Modules\\Xot\\Filament\\Widgets\\XotBaseStatsOverviewWidget;', $content);
->>>>>>> laraxot/dev
     }
 });
