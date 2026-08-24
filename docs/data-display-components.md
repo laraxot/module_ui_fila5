@@ -169,7 +169,12 @@ new Chart(ctx, {
 .table-responsive {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+<<<<<<< HEAD
 
+=======
+  
+  
+>>>>>>> laraxot/dev
   @media (max-width: 768px) {
     .table {
       min-width: 600px;
@@ -183,7 +188,11 @@ new Chart(ctx, {
 .chart-container {
   position: relative;
   height: 300px;
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> laraxot/dev
   canvas {
     animation: fadeIn 0.5s ease;
   }
@@ -194,3 +203,140 @@ new Chart(ctx, {
 - [Componenti Base](./base-components.md)
 - [Form Avanzati](./advanced-form-components.md)
 - [Accessibilità](./standards/accessibility.md)
+<<<<<<< HEAD
+=======
+- [Performance](./standards/performance.md)
+# Componenti Visualizzazione Dati
+## 📊 Tabelle
+### Tabella Base
+```html
+<div class="table-responsive">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nome</th>
+        <th scope="col">Email</th>
+        <th scope="col">Azioni</th>
+      </tr>
+    </thead>
+    <tbody>
+        <th scope="row">1</th>
+        <td>Mario Rossi</td>
+        <td>mario@example.com</td>
+        <td>
+          <button class="btn btn-sm btn-primary">Modifica</button>
+          <button class="btn btn-sm btn-danger">Elimina</button>
+        </td>
+    </tbody>
+  </table>
+</div>
+```
+### Tabella con Ordinamento
+<table class="table table-sortable">
+  <thead>
+    <tr>
+      <th class="sortable" data-sort="id">ID</th>
+      <th class="sortable" data-sort="name">Nome</th>
+      <th class="sortable" data-sort="date">Data</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Contenuto tabella -->
+  </tbody>
+</table>
+## 📈 Grafici
+### Line Chart
+<div class="chart-container">
+  <canvas id="lineChart"></canvas>
+<script>
+const ctx = document.getElementById('lineChart').getContext('2d');
+new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: ['Gen', 'Feb', 'Mar', 'Apr'],
+    datasets: [{
+      label: 'Vendite',
+      data: [12, 19, 3, 5],
+      borderColor: '#007bff',
+      tension: 0.1
+    }]
+  }
+});
+</script>
+### Pie Chart
+  <canvas id="pieChart"></canvas>
+const ctx = document.getElementById('pieChart').getContext('2d');
+  type: 'pie',
+    labels: ['Rosso', 'Blu', 'Giallo'],
+      data: [300, 50, 100],
+      backgroundColor: ['#ff6384', '#36a2eb', '#ffce56']
+## 📋 Lista
+### Lista Ordinata
+<ol class="list-group">
+  <li class="list-group-item d-flex justify-content-between align-items-center">
+    Primo elemento
+    <span class="badge bg-primary rounded-pill">14</span>
+  </li>
+    Secondo elemento
+    <span class="badge bg-primary rounded-pill">2</span>
+</ol>
+### Lista con Azioni
+<ul class="list-group">
+  <li class="list-group-item">
+    <div class="d-flex justify-content-between align-items-center">
+      <div>
+        <h5 class="mb-1">Titolo elemento</h5>
+        <p class="mb-1">Descrizione elemento</p>
+      </div>
+      <div class="btn-group">
+        <button class="btn btn-sm btn-outline-primary">Modifica</button>
+        <button class="btn btn-sm btn-outline-danger">Elimina</button>
+    </div>
+</ul>
+## 📑 Card
+### Card con Immagine
+<div class="card">
+  <img src="image.jpg" class="card-img-top" alt="Immagine">
+  <div class="card-body">
+    <h5 class="card-title">Titolo Card</h5>
+    <p class="card-text">Descrizione della card.</p>
+    <a href="#" class="btn btn-primary">Azione</a>
+  </div>
+### Card con Tabella
+  <div class="card-header">
+    <h5 class="card-title mb-0">Dettagli</h5>
+    <table class="table table-sm">
+      <tbody>
+        <tr>
+          <th scope="row">Nome</th>
+          <td>Mario Rossi</td>
+        </tr>
+          <th scope="row">Email</th>
+          <td>mario@example.com</td>
+      </tbody>
+    </table>
+## 🎨 Stili e Comportamenti
+### Responsive Tables
+```scss
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  @media (max-width: 768px) {
+    .table {
+      min-width: 600px;
+    }
+}
+### Chart Animations
+.chart-container {
+  position: relative;
+  height: 300px;
+  canvas {
+    animation: fadeIn 0.5s ease;
+## 🔗 Collegamenti
+- [Componenti Base](./base-components.md)
+- [Form Avanzati](./advanced-form-components.md)
+- [Accessibilità](./standards/accessibility.md)
+
+```
+>>>>>>> laraxot/dev

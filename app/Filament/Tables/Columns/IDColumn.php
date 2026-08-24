@@ -37,7 +37,11 @@ class IDColumn extends XotBaseTextColumn
     {
         $value = is_scalar($state) ? (string) $state : '';
 
+<<<<<<< HEAD
         if ($value === '') {
+=======
+        if ('' === $value) {
+>>>>>>> laraxot/dev
             return new HtmlString('');
         }
 

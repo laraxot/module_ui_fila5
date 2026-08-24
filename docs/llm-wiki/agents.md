@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+---
+title: "Agent instructions"
+type: reference
+tags: [agents, coding-agent, llm-wiki]
+created: 2026-07-01
+updated: 2026-07-01
+qmd: "istruzioni agenti LLM wiki modulo"
+issues: []
+discussions: []
+related:
+  - "./index.md"
+  - "./log.md"
+---
+
+>>>>>>> laraxot/dev
 # UI {{TYPE^}} LLM Wiki Agent Instructions
 
 > **Module/Theme:** UI
@@ -136,5 +153,9 @@ Related:
 ## Related Documentation
 
 - [Project Wiki Integration](../../docs/wiki/README.md)
+<<<<<<< HEAD
 - [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
+=======
+- [Project Wiki Agent Instructions](../../docs/wiki/agents.md)
+>>>>>>> laraxot/dev
 - [Module Documentation](../README.md)

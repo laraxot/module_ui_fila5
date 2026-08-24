@@ -39,7 +39,11 @@ return [
         ],
         'testPermissions' => [
             'label' => '🔒 Test Permessi',
+<<<<<<< HEAD
             'tooltip' => 'Testa i permessi S3 (ListBucket, PutObject, GetObject, DeleteObject]',
+=======
+            'tooltip' => 'Testa i permessi S3 (ListBucket, PutObject, GetObject, DeleteObject)',
+>>>>>>> laraxot/dev
             'success' => 'Permessi S3 testati con successo',
             'error' => 'Errore nel test dei permessi S3',
         ],
