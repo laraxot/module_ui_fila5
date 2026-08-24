@@ -37,6 +37,8 @@ laravel/Modules/Cms/
    - Gestione submit
 ## Implementazione
 ### 1. Definizione Blocco
+```
+
 ```php
 use Filament\Forms\Components\Builder\Block;
 class CustomBlock extends Block
@@ -49,6 +51,8 @@ class CustomBlock extends Block
     }
 }
 ### 2. Struttura JSON
+```
+
 ```json
     "type": "block_type",
     "data": {
@@ -83,6 +87,5 @@ public function render()
 Questa documentazione è parte del sistema di documentazione di il progetto. Per dettagli specifici sui singoli blocchi, consultare la documentazione dei rispettivi moduli.
 1. **[NavigationBlock](../laravel/Modules/Cms/project_docs/blocks/navigation-block.md)**
 - [Documentazione Blocchi](../laravel/Modules/Cms/project_docs/blocks/)
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
+
+```

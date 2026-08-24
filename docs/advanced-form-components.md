@@ -21,8 +21,6 @@
     id="email"
     type="email" 
     id="email" 
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     class="form-control is-invalid"
     aria-describedby="email-error"
   >
@@ -41,9 +39,6 @@
     id="search"
     type="text" 
     id="search" 
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     class="form-control"
     list="suggestions"
     autocomplete="off"
@@ -67,9 +62,6 @@
       id="date"
       type="text" 
       id="date" 
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
       class="form-control"
       data-date-format="dd/mm/yyyy"
     >
@@ -90,9 +82,6 @@
       id="time"
       type="text" 
       id="time" 
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
       class="form-control"
       data-time-format="HH:mm"
     >
@@ -114,9 +103,6 @@
     id="range"
     type="range" 
     id="range" 
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     class="form-range"
     min="0"
     max="100"
@@ -137,9 +123,6 @@
       id="quantity"
       type="number" 
       id="quantity" 
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
       class="form-control text-center"
       min="0"
       max="100"
@@ -196,12 +179,6 @@
   &.is-invalid {
     border-color: $danger;
 
-=======
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     &:focus {
       box-shadow: 0 0 0 0.2rem rgba($danger, 0.25);
     }
@@ -214,9 +191,6 @@
 .input-group {
   transition: all 0.3s ease;
   
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
   &:focus-within {
     transform: translateY(-1px);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -346,3 +320,5 @@
 - [Componenti Base](./base-components.md)
 - [Feedback](./feedback-components.md)
 - [Accessibilità](./standards/accessibility.md)
+
+```

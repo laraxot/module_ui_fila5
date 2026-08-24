@@ -94,8 +94,6 @@ npm run dev
 
 
 ## Collegamenti tra versioni di getting-started.md
-=======
->>>>>>> laraxot/dev
 * [getting-started.md](../../../Gdpr/docs/getting-started.md)
 * [getting-started.md](../../../Xot/docs/getting-started.md)
 * [getting-started.md](../../../UI/docs/getting-started.md)
@@ -119,6 +117,8 @@ This is a starter template for creating a beautiful, customizable documentation 
 ## Configuration {#getting-started-configuration}
 
 As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/project_docs/site-variables/) to learn more.
+
+```
 
 ```php
 // config.php
@@ -194,12 +194,6 @@ npm run dev
 * [getting-started.md](../../../UI/docs/getting-started.md)
 * [getting-started.md](../../../Tenant/docs/it/getting-started.md)
 * [getting-started.md](../../../Cms/docs/getting-started.md)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-## Collegamenti tra versioni di getting-started.md
->>>>>>> laraxot/dev
 * [getting-started.md](../../../Gdpr/project_docs/getting-started.md)
 * [getting-started.md](../../../Xot/project_docs/getting-started.md)
 * [getting-started.md](../../../UI/project_docs/getting-started.md)
@@ -215,7 +209,3 @@ npm run dev
 
 ---
 ### Versione Incoming
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev

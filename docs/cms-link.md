@@ -18,12 +18,6 @@ Secondo le regole di organizzazione della documentazione:
 - [Componenti Blade](../../Cms/project_docs/components.md) - Documentazione sui componenti Blade nel frontend
 - [Blocchi di Contenuto](../../Cms/project_docs/blocks.md) - Documentazione sui blocchi di contenuto
 - [Filament Integration](../../Cms/project_docs/filament.md) - Integrazione con Filament
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_WuPAc5
 
 ## Utilizzo dei Componenti UI nel Frontend
 
@@ -71,7 +65,3 @@ Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/proje
 * [cms-link.md](../../../User/project_docs/cms-link.md)
 * [cms-link.md](../../../UI/project_docs/cms-link.md)
 * [cms-link.md](../../../Lang/project_docs/cms-link.md)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev

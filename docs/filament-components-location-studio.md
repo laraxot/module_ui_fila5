@@ -4,10 +4,6 @@
 
 Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo <nome progetto>.
 Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo <nome progetto>.
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
 
 ## Componenti Implementati
 
@@ -20,10 +16,6 @@ Componente Filament per la selezione gerarchica di Regione → Provincia → CAP
 
 #### Caratteristiche
 - ✅ **Selezione Gerarchica**: Regione → Provincia → CAP
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
 - ✅ **Live Updates**: I campi si aggiornano automaticamente
 - ✅ **Integrazione Geo**: Utilizza i modelli del modulo Geo
 - ✅ **Validazione Cascata**: I campi dipendenti si validano automaticamente
@@ -64,10 +56,6 @@ Componente Blade per la selezione di studi odontoiatrici tramite pulsanti radio-
 
 ```blade
 <x-ui::ui.studio-selector
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
     :studios="$studios"
     :selected-studio="$selectedStudioId"
     target-field="selected_studio"
@@ -101,10 +89,6 @@ protected function getStudioStepSchema(): array
         // Titolo step
         View::make('<nome progetto>::filament.widgets.studio-step-header')
         View::make('<nome progetto>::filament.widgets.studio-step-header')
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
             ->viewData([
                 'studiosCount' => $this->getStudiosCount(),
                 'geographicArea' => $this->getGeographicAreaName(),
@@ -114,10 +98,6 @@ protected function getStudioStepSchema(): array
         // Pulsanti selezione studio
         View::make('<nome progetto>::filament.widgets.studio-selector')
         View::make('<nome progetto>::filament.widgets.studio-selector')
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
             ->viewData([
                 'studios' => $this->getStudiosForSelectedArea(),
                 'selectedStudio' => $this->data['selected_studio'] ?? null,
@@ -126,12 +106,6 @@ protected function getStudioStepSchema(): array
 
         // TextInput per mostrare studio selezionato
         TextInput::make('selected_studio_name')
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-            ->label(__('<nome progetto>::widgets.find_doctor.fields.selected_studio.label'))
-            ->placeholder(__('<nome progetto>::widgets.find_doctor.fields.selected_studio.placeholder'))
->>>>>>> laraxot/dev
             ->readonly()
             ->visible(fn (): bool => !empty($this->data['selected_studio']))
             ->suffixIcon('heroicon-o-check-circle')
@@ -153,12 +127,6 @@ public function selectStudio(int $studioId): void
 {
     $studio = Studio::find($studioId);
     
-=======
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_htuv6z
     if (!$studio || !$studio->active) {
         $this->addError('selected_studio', 'Studio non disponibile');
         return;
@@ -168,12 +136,6 @@ public function selectStudio(int $studioId): void
     $this->data['selected_studio'] = $studioId;
     $this->data['selected_studio_name'] = $studio->name;
     
-=======
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_htuv6z
     // Notifica il cambio di stato
     $this->dispatch('studio-selected', studioId: $studioId, studioName: $studio->name);
 }
@@ -187,10 +149,6 @@ public function selectStudio(int $studioId): void
 - Validazione cascata
 
 ### 2. **Step Selezione Studio**
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
 - Visualizzazione pulsanti per ogni studio nell'area
 - Click su pulsante = selezione studio
 - Visual feedback immediato (radio indicator + colori)
@@ -212,12 +170,6 @@ protected function getStudiosForSelectedArea(): Collection
 {
     $cacheKey = "studios_area_{$this->data['region']}_{$this->data['province']}_{$this->data['cap']}";
     
-=======
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_htuv6z
     return cache()->remember($cacheKey, 300, function () {
         return Studio::query()
             ->active()
@@ -244,23 +196,12 @@ class FindDoctorWidgetStep2Test extends TestCase
     {
         $studio = Studio::factory()->create(['name' => 'Studio Test']);
         
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_htuv6z
         $widget = Livewire::test(FindDoctorAndAppointmentWidget::class)
             ->set('data.region', '12')
             ->set('data.province', 'RM')
             ->set('data.cap', '00042')
             ->call('selectStudio', $studio->id);
             
-=======
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_htuv6z
         $widget->assertSet('data.selected_studio', $studio->id)
                ->assertSet('data.selected_studio_name', 'Studio Test');
     }
@@ -469,7 +410,5 @@ class FindDoctorWidgetStep2Test extends TestCase
 **Versione**: 2.0 - Semplificato  
 **Stato**: Implementation Ready  
 **Approccio**: Pulsanti + TextInput (semplice e diretto) 
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
+
+```

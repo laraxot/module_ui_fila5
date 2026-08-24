@@ -203,17 +203,11 @@ class ListUsers extends ListRecords
 {
     protected TableLayoutEnum $layout;
     
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     public function mount(): void
     {
         $this->layout = TableLayoutEnum::init();
     }
     
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     protected function getHeaderActions(): array
     {
         return [
@@ -251,9 +245,6 @@ protected function getColumnsForLayout(): array
         Tables\Columns\TextColumn::make('created_at')->dateTime(),
     ];
     
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     $gridColumns = [
         Tables\Columns\Layout\Stack::make([
             Tables\Columns\TextColumn::make('name')->weight(FontWeight::Bold),
@@ -261,9 +252,6 @@ protected function getColumnsForLayout(): array
         ]),
     ];
     
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     return $this->layout->getTableColumns($listColumns, $gridColumns);
 }
 ```
@@ -307,9 +295,6 @@ class TableLayoutEnumTest extends TestCase
         $this->assertEquals(TableLayoutEnum::LIST, TableLayoutEnum::init());
     }
     
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     public function test_toggle_switches_layout(): void
     {
         $layout = TableLayoutEnum::LIST;
@@ -564,5 +549,3 @@ class TableLayoutEnumTest extends TestCase
 - [Conflict Resolution](conflict-resolution-tablelayoutenum.md)
 - [Translation Standards](../../../docs/translation_standards.md)
 - [Filament Best Practices](../../../docs/filament_best_practices.md)
-=======
->>>>>>> laraxot/dev

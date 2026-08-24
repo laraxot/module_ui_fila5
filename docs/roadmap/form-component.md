@@ -62,17 +62,12 @@ class FormBuilder extends XotBaseUIComponent
     /** @var array<string, mixed> */
     protected array $values = [];
 
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     public function addField(string $name, FormField $field): self
     {
         $this->fields[$name] = $field;
         return $this;
     }
     
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     public function validate(): ValidationResult
     {
         return $this->validator->validate($this->values);
@@ -90,9 +85,6 @@ abstract class FormField
     protected ?string $placeholder = null;
     protected array $validators = [];
     
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     abstract public function render(): View;
     abstract public function validate($value): ValidationResult;
 }
@@ -103,9 +95,6 @@ class InputField extends FormField
     protected ?int $maxLength = null;
     protected ?string $pattern = null;
     
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     public function setType(string $type): self
     {
         $this->type = $type;
@@ -206,12 +195,6 @@ protected function validateField(string $name): void
         $this->values[$name]
     );
 
-=======
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     $this->errors[$name] = $result->errors();
 }
 ```
@@ -243,8 +226,6 @@ class FormState
     public function isDirty(string $field): bool
     {
         return $this->initialValues[$field] !==
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
                $this->currentValues[$field];
     }
 }

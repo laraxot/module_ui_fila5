@@ -1861,9 +1861,6 @@ laravel/Modules/UI/
 > Mappa completa della knowledge base locale del modulo UI. Ultimo aggiornamento: 2026-07-28
 
 ## architecture
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
 
 - [component-registration.md](./architecture/component-registration.md)
 - [filament-pages-structure.md](./architecture/filament-pages-structure.md)
@@ -3013,7 +3010,3 @@ laravel/Modules/UI/
 - [phpstan-fixes-1.md](./wiki/troubleshooting/phpstan-fixes-1.md)
 - [phpstan-fixes-2026-05-06.deprecated.md](./wiki/troubleshooting/phpstan-fixes-2026-05-06.deprecated.md)
 - [phpstan-fixes.md](./wiki/troubleshooting/phpstan-fixes.md)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev

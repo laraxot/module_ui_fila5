@@ -61,7 +61,5 @@ For more details, visit the [official Algolia DocSearch documentation.](https://
 * [algolia-docsearch.md](../../../Xot/project_docs/algolia-docsearch.md)
 * [algolia-docsearch.md](../../../UI/project_docs/algolia-docsearch.md)
 * [algolia-docsearch.md](../../../Cms/project_docs/algolia-docsearch.md)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
+
+```

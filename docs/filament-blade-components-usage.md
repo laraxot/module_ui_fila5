@@ -1,6 +1,4 @@
 # Utilizzo dei Componenti Blade di Filament
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -192,9 +190,6 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 3. **NON nidificare** elementi dropdown in modo errato - Rispettare la struttura gerarchica dei componenti Filament.
 
 ## Gestione delle Rotte
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
 
 ### Regole Fondamentali
 
@@ -389,7 +384,3 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 - [Componenti Blade di Filament](https://filamentphp.com/docs/3.x/support/blade-components)
 - [Icone in Filament](https://filamentphp.com/docs/3.x/support/icons)
 ## Conclusione
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_yMEIG4

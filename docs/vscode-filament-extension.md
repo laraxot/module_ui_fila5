@@ -35,8 +35,6 @@ Durante la digitazione di `<x-filament::`, l'estensione suggerisce i componenti 
 ## Installazione
 - **Marketplace**: Cerca "Filament" su [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=doonfrs.vscode-filament) e installa l'estensione.
 - **Terminale**:
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
   ```sh
   code --install-extension doonfrs.vscode-filament
   ```
@@ -175,7 +173,5 @@ L'estensione **doonfrs.vscode-filament** migliora notevolmente lo sviluppo Filam
 - [Repository GitHub](https://github.com/doonfrs/vscode-filament)
 - [Documentazione Filament](https://filamentphp.com/docs)
 ## Aggiornamenti
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_PMp2Zp
+
+```

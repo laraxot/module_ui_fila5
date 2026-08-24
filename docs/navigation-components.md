@@ -189,11 +189,6 @@ I componenti di navigazione devono utilizzare sempre le funzioni di localizzazio
 
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
->>>>>>> laraxot/dev
 
 ```php
 return [
@@ -236,13 +231,3 @@ return [
    - Utilizzare i componenti Filament per icone e avatar: `<x-filament::icon>`, `<x-filament::avatar>`
    - Utilizzare i componenti Filament per i dropdown quando possibile
    - Utilizzare i separatori corretti nei dropdown (div con bordo, non componenti inesistenti)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-   - Utilizzare i separatori corretti nei dropdown (div con bordo, non componenti inesistenti)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-   - Utilizzare i separatori corretti nei dropdown (div con bordo, non componenti inesistenti)
->>>>>>> laraxot/dev
->>>>>>> .merge_file_aOsHZ2

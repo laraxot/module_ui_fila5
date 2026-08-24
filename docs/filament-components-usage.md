@@ -1,8 +1,4 @@
 # Utilizzo dei Componenti Filament
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
 
 ## Collegamenti correlati
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
@@ -145,11 +141,6 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
         Azione 1
     </x-filament::dropdown.item>
 
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
     <x-filament::dropdown.item href="#">
         Azione 2
     </x-filament::dropdown.item>
@@ -174,10 +165,6 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 2. **Percorso errato del provider**: Utilizzare `Modules/UI/Providers/UIServiceProvider.php` invece di `Modules/UI/app/Providers/UIServiceProvider.php`
 2. **Percorso errato del provider**: Utilizzare `Modules/UI/Providers/UIServiceProvider.php` invece di `Modules/UI/app/Providers/UIServiceProvider.php`
 2. **Percorso errato del provider**: Utilizzare `Modules/UI/Providers/UIServiceProvider.php` invece di `Modules/UI/app/Providers/UIServiceProvider.php`
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
 3. **Creazione di componenti duplicati**: Creare componenti personalizzati che duplicano funzionalità già fornite da Filament
 4. **Mancata verifica dei componenti esistenti**: Non controllare se un componente è già disponibile in Filament prima di crearne uno personalizzato
 

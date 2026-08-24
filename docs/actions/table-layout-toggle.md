@@ -133,9 +133,3 @@ Vedi [bugfix](../bugfix-table-layout-toggle-not-working.md): bastano `resetTable
 - [Disciplina agente](../../../docs/wiki/memories/agent-table-layout-toggle-discipline.md)
 - [Contratto Xot](../../Xot/docs/filament/table-layout-toggle-contract.md)
 - [Tema One — tabelle](../../../Themes/One/docs/filament-resource-schemas-tables.md)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-
-[Torna alla documentazione UI](/docs/modules/module_ui.md#actions)
->>>>>>> laraxot/dev

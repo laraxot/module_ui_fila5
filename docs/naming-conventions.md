@@ -13,6 +13,3 @@
 * [naming-conventions.md](../../Xot/project_docs/naming-conventions.md)
 * [naming-conventions.md](../../Patient/project_docs/naming-conventions.md)
 * [naming-conventions.md](../../Patient/docs/naming-conventions.md)
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev

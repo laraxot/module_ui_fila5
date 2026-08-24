@@ -29,12 +29,6 @@ I componenti UI definiti in questo modulo vengono utilizzati nei temi attraverso
 - [Compilazione Temi](../../../../docs/compilazione_temi.md) - Collegamento nella root alla documentazione sulla compilazione dei temi
 - [Theme Links](../../../../docs/theme-links.md) - Collegamenti nella root alla documentazione sui temi
 - [Theme Links](../../../../docs/theme-links.md) - Collegamenti nella root alla documentazione sui temi
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-- [Compilazione Temi](../../../docs/compilazione_temi.md) - Collegamento nella root alla documentazione sulla compilazione dei temi
-- [Theme Links](../../../docs/theme-links.md) - Collegamenti nella root alla documentazione sui temi
->>>>>>> laraxot/dev
 
 ## Collegamento Bidirezionale
 

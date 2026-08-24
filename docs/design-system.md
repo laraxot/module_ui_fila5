@@ -82,8 +82,6 @@ Il design system definisce gli standard visivi e di interazione per garantire co
     Contenuto della card
     Contenuto della card
     
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     <x-slot name="footer">
         Footer della card
     </x-slot>
@@ -227,5 +225,5 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ## Vedi Anche
 - [Tailwind Config](../config/tailwind.config.js)
 - [Theme Config](../config/theme.php)
-=======
->>>>>>> laraxot/dev
+
+```

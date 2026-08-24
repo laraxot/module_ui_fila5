@@ -142,7 +142,3 @@ Easy to use and extend.
 - Action-first: niente generic `Services` per la business logic
 - Standard operativo: `spatie/laravel-queueable-action`
 - Convenzione: Action con metodo `execute()` e dispatch tramite container
->>>>>>> dated: March 12, 2026*
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)

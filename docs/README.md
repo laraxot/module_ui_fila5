@@ -144,10 +144,6 @@ MIT
 - [QMD Setup](./qmd-setup.md) — Configurazione ricerca locale
 - [Performance](./performance-optimization.md) — Metriche e best practice
 - [Project Structure](./project-structure.md) — Directory layout
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
 
     public function getTableContentGrid(): array
     {
@@ -394,6 +390,8 @@ class DataTableComponent extends Component
             'layout' => $this->layout,
         ]);
 ### ❌ MAI usa match() per traduzioni negli Enum
+```
+
 ```php
 // ❌ ERRORE - Non fare mai questo
 public function getLabel(): string
@@ -571,7 +569,6 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 - **[REGOLA CRITICA: SEMPRE usa transClass()](transclass_rule.md)**
 
 *Ultimo aggiornamento: gennaio 2025*
->>>>>>> laraxot/dev
 
 ---
 
@@ -685,6 +682,8 @@ Il modulo UI fornisce componenti, widget e funzionalità di interfaccia utente c
 ## Regole Critiche
 
 ### ❌ MAI usare ->label()
+```
+
 ```php
 // ERRORE - Non fare mai questo
 TextColumn::make('name')->label('Nome')
@@ -957,6 +956,8 @@ class DataTableComponent extends Component
             'layout' => $this->layout,
         ]);
 ### ❌ MAI usa match() per traduzioni negli Enum
+```
+
 ```php
 // ❌ ERRORE - Non fare mai questo
 public function getLabel(): string

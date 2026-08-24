@@ -95,11 +95,6 @@ Tables\Columns\IconColumn::make('status')
 Each module registers its own SVG icons:
 - `Modules/User/resources/svg/` → `user-{name}`
 - `resources/svg/` → `{name}`
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-- `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
->>>>>>> laraxot/dev
 - etc.
 
 The `ui-` prefix is special: contains the global design system icons shared across all modules.

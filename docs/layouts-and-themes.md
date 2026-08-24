@@ -662,9 +662,6 @@ Nel file GetAllIconsAction.php è stato risolto un conflitto mantenendo una sola
 Questa scelta evita ambiguità e possibili errori runtime nella gestione delle icone dinamiche.
 
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
 
 In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale:
 - Rimuovere codice commentato o superfluo lasciato da template generici o da sviluppi temporanei.
@@ -674,10 +671,6 @@ In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale
 **Decisione architetturale**: In simple.blade.php è stato rimosso un blocco di codice commentato relativo a header e menu di esempio, mantenendo solo la struttura effettivamente utilizzata e correggendo il titolo. Questa scelta assicura chiarezza, manutenibilità e coerenza visiva.
 
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
 
 ## Layout System
 
@@ -732,12 +725,6 @@ class Dashboard extends Component
 {
     protected static string $layout = AdminLayout::class;
     
-=======
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_9B9YFh
     protected function getLayoutData(): array
     {
         return [
@@ -764,10 +751,6 @@ class Dashboard extends Component
 ```
 
 #### PrintLayout
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
 ```php
 use Modules\UI\Layouts\PrintLayout;
 
@@ -775,9 +758,6 @@ class StampaPratica extends Component
 {
     protected static string $layout = PrintLayout::class;
     
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_9B9YFh
     protected function getLayoutData(): array
     {
         return [
@@ -821,12 +801,6 @@ return [
             'danger' => '#ef4444',
         ],
         
-=======
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_9B9YFh
         // Tipografia
         'typography' => [
             'fonts' => [
@@ -840,9 +814,6 @@ return [
             ],
         ],
         
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_9B9YFh
         // Spaziature
         'spacing' => [
             'base' => '1rem',
@@ -850,19 +821,12 @@ return [
             'xl' => '2rem',
         ],
         
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_9B9YFh
         // Bordi
         'border' => [
             'radius' => '0.375rem',
             'width' => '1px',
         ],
         
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_9B9YFh
         // Ombre
         'shadows' => [
             'sm' => '0 1px 2px 0 rgb(0 0 0 / 0.05)',
@@ -968,7 +932,3 @@ AdminLayout::make()
    - Documentare personalizzazioni
    - Seguire convenzioni di naming
    - Centralizzare configurazioni
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev

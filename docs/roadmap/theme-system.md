@@ -62,17 +62,11 @@ class ThemeRegistry
     /** @var array<string, array<string, mixed>> */
     protected array $overrides = [];
 
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     public function register(Theme $theme): void
     {
         $this->themes[$theme->getName()] = $theme;
     }
     
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     public function override(string $tenant, array $config): void
     {
         $this->overrides[$tenant] = $config;
@@ -90,17 +84,11 @@ class Theme
         protected ?string $parent = null
     ) {}
     
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     public function resolve(string $path, $default = null)
     {
         return Arr::get($this->config, $path, $default);
     }
     
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     public function extend(array $overrides): self
     {
         return new self(

@@ -90,3 +90,5 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 - [Regole Generali per strict_types](../../Xot/docs/php-strict-types.md)
 - [Linee Guida PHPStan Livello 10](../../Xot/docs/PHPStan/LEVEL10_LINEE_GUIDA.md)
 - [Conflitti Merge Risolti](./CONFLITTI_MERGE_RISOLTI.md)
+
+```

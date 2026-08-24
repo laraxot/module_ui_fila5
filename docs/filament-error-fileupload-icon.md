@@ -26,6 +26,3 @@ Il metodo `icon()` **NON esiste** sul componente `Filament\Forms\Components\File
 - Consultare sempre la [documentazione ufficiale Filament](https://filamentphp.com/project_docs/3.x/forms/fields/file-upload) prima di usare metodi non standard.
 - [Errore e best practice modulo Patient](../../Patient/project_docs/filament-error-fileupload-icon.md)
 * [filament-error-fileupload-icon.md](../../Patient/project_docs/filament-error-fileupload-icon.md)
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)

@@ -193,6 +193,3 @@ $columns = $this->layout->getTableColumns($listColumns, $gridColumns);
 - [Root Documentation: UI Components](../../../docs/components/ui-components.md)
      * Toggle del layout tramite action
                 ->icon($this->layout->getIcon())
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)

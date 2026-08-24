@@ -337,3 +337,5 @@ TextInput::make('full_name')
 - [Translation System](../../Lang/project_docs/translation-system.md)
 ## Vedi Anche
 - [VSCode PHP Setup](vscode-php-setup.md)
+
+```

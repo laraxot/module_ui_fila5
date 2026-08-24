@@ -282,8 +282,6 @@ TextColumn::make('status')
 
 ### Prima di usare qualsiasi componente Filament:
 ### Prima di usare qualsiasi componente Filament:
-=======
->>>>>>> laraxot/dev
 ### Prima di usare un componente Filament:
 - [ ] Implementare traduzioni in `lang/it/fields.php`
 - [ ] Implementare traduzioni in `lang/en/fields.php`
@@ -298,10 +296,6 @@ TextColumn::make('status')
 Prima di usare qualsiasi componente Filament:
 
 
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
 - [ ] Implementare traduzioni in `lang/it/fields.php`
 - [ ] Implementare traduzioni in `lang/en/fields.php`
 - [ ] Implementare traduzioni in `lang/de/fields.php`
@@ -313,12 +307,6 @@ Prima di usare qualsiasi componente Filament:
 - [ ] Controllare che tutte le traduzioni siano implementate
 - [ ] Testare che le traduzioni funzionino correttamente
 
-=======
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_zrlaAK
 ## Verifica Automatica
 
 ### PHPStan Rule (Ideale)
@@ -388,7 +376,3 @@ rules:
 - SEMPRE struttura espansa (label, placeholder, tooltip, helper_text)
 - SEMPRE sincronizzare IT/EN/DE
 - SEMPRE testare le traduzioni prima del commit
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev

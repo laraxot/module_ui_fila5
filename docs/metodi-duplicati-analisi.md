@@ -326,9 +326,6 @@ public function getTableFilters(): array
 3. Kick-off Fase 1
 4. Implementazione ColumnBuilder
 **Domande?** Chiedi alla Super Mucca! 🐄⚡
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
 
 ---
 

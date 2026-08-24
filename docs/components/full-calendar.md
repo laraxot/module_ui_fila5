@@ -68,9 +68,6 @@ use Saade\FilamentFullCalendar\Data\EventData;
 /**
  * Base widget for FullCalendar.
  *
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
  * Provides core functionality for all calendars in the application.
  */
 abstract class BaseCalendarWidget extends FullCalendarWidget
@@ -112,31 +109,17 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
                 ->helperText(__('ui::calendar.fields.title.help'))
                 ->required(),
                 
-=======
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_UOflBu
             Forms\Components\Grid::make()
                 ->schema([
                     Forms\Components\DateTimePicker::make('start_date')
                         ->label(__('ui::calendar.fields.start_date.label'))
                         ->required(),
                         
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_UOflBu
                     Forms\Components\DateTimePicker::make('end_date')
                         ->label(__('ui::calendar.fields.end_date.label'))
                         ->required(),
                 ]),
                 
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_UOflBu
             Forms\Components\Textarea::make('description')
                 ->label(__('ui::calendar.fields.description.label'))
                 ->placeholder(__('ui::calendar.fields.description.placeholder'))
@@ -151,11 +134,6 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
                 ->label(__('ui::calendar.fields.color.label'))
                 ->rgb(),
 
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
             Forms\Components\Toggle::make('is_all_day')
                 ->label(__('ui::calendar.fields.is_all_day.label'))
                 ->default(false),
@@ -468,12 +446,5 @@ To use the widget in a Blade view:
 7. Test on different devices to ensure responsiveness
 8. Always use English for class and attribute names
 ## Backlinks and References
->>>>>>> 92912795 (.)
-=======
-*Last updated: June 2025*
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-*Last updated: June 2025*
->>>>>>> laraxot/dev
->>>>>>> .merge_file_UOflBu
+
+```

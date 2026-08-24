@@ -188,20 +188,11 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
       'property' => null,
   ]);
 
-=======
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
   $action = function () {
       // Logica dell'azione
   };
   ?>
   
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
   <div>
       <!-- Template del componente -->
   </div>
@@ -223,20 +214,11 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
   middleware(['auth']);
   name('page.name');
 
-=======
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
   state([
       'property' => null,
   ]);
   ?>
   
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
   <x-layouts.main>
       <!-- Contenuto della pagina -->
   </x-layouts.main>
@@ -283,9 +265,6 @@ $logout = function () {
         <!-- Default state -->
     @endif
     
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     @if($isLoggingOut)
         <x-filament::loading-indicator />
     @endif
@@ -334,9 +313,6 @@ $logout = function () {
             <!-- Default state -->
         @endif
         
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
         @if($isLoggingOut)
             <x-filament::loading-indicator />
         @endif
@@ -782,7 +758,3 @@ name('auth.logout');
 - ✅ Utilizzare i componenti appropriati
 - ✅ Seguire la struttura standard
 - ✅ Gestire correttamente le traduzioni
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_rPpHVP

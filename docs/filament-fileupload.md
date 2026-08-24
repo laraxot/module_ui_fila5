@@ -164,8 +164,3 @@ return [
 ## Vedi Anche
 - [Filament File Upload](https://filamentphp.com/project_docs/forms/fields/file-upload)
 - [Laravel File Storage](https://laravel.com/project_docs/filesystem)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-- [Laravel File Storage](https://laravel.com/project_docs/filesystem)
->>>>>>> laraxot/dev

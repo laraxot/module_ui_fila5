@@ -71,6 +71,3 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 Questa documentazione è collegata bidirezionalmente con la documentazione specifica dei moduli. Per dettagli su resources specifiche, consultare la documentazione del modulo corrispondente.
 - [Documentazione CMS Module](../laravel/Modules/Cms/project_docs/filament-resources.md)
 - [Documentazione Xot Module](../laravel/Modules/Xot/project_docs/filament-resources.md)
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)

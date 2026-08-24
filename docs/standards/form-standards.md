@@ -74,7 +74,6 @@ related:
     Nome
   </label>
   <input
->>>>>>> 92912795 (.)
     type="text"
     class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500"
   >
@@ -98,9 +97,6 @@ related:
 <div class="form-group">
   <div class="flex items-center">
     <input
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
       type="checkbox"
       class="h-4 w-4 text-primary-600 border-gray-300 rounded focus:ring-primary-500"
     >
@@ -159,9 +155,6 @@ screens: {
     Email
   </label>
   <input
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     type="email"
     class="w-full px-4 py-2 border border-red-300 rounded-md focus:ring-2 focus:ring-red-500"
     aria-invalid="true"
@@ -180,9 +173,6 @@ screens: {
     Username
   </label>
   <input
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     type="text"
     class="w-full px-4 py-2 border border-green-300 rounded-md focus:ring-2 focus:ring-green-500"
     aria-invalid="false"
@@ -202,9 +192,6 @@ screens: {
     Email
   </label>
   <input
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     type="email"
     aria-labelledby="email-label"
     aria-required="true"
@@ -231,9 +218,6 @@ screens: {
 ### Loading States
 ```html
 <button
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
   type="submit"
   class="btn btn-primary"
   disabled

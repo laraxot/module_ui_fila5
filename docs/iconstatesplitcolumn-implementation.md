@@ -46,6 +46,8 @@ use Modules\<nome progetto>\Models\Appointment;
 
 ## Implementation
 ### Basic Usage
+```
+
 ```php
 use Modules\UI\Filament\Tables\Columns\IconStateSplitColumn;
 use Modules\<nome modulo>\States\Appointment\AppointmentState;
@@ -422,6 +424,8 @@ The main issue was that `wire:click` doesn't work directly in Filament table col
 #### Problem Analysis
 The main issue was that `wire:click` doesn't work directly in Filament table columns because they are not Livewire components. The solution implements a custom event system:
 #### Solution Architecture
+```
+
 ```javascript
 // Custom event dispatch
 onclick="window.dispatchEvent(new CustomEvent('state-transition', {
@@ -542,6 +546,8 @@ The `IconStateSplitColumn` is a custom Filament table column component designed 
 
 ### Basic Usage
 
+```
+
 ```php
 use Modules\UI\Filament\Tables\Columns\IconStateSplitColumn;
 use Modules\<nome progetto>\States\Appointment\AppointmentState;
@@ -575,42 +581,22 @@ class IconStateSplitColumn extends Column
     protected string $stateClass = '';
     protected string $modelClass = '';
     
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_fC8CJP
     protected function setUp(): void
     {
         parent::setUp();
         $this->label('Stati');
     }
     
-=======
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_fC8CJP
     public function stateClass(string $stateClass, string $modelClass): static
     {
         // Configure states and model
     }
     
-=======
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_fC8CJP
     public function getRecordStates(): array
     {
         // Return array of available states
     }
     
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_fC8CJP
     public function canTransitionTo($recordId, $stateClass): bool
     {
         // Check if transition is possible
@@ -820,22 +806,12 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
         stateClass: '{{ $state['class']::class }}',
         action: 'prova'
     }
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
 }))"
 
 // Event listener for Livewire integration
 document.addEventListener('state-transition', function(event) {
     const { recordId, stateClass, action } = event.detail;
     
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_fC8CJP
     if (window.Livewire) {
         window.Livewire.find(document.querySelector('[wire\\:id]').getAttribute('wire:id'))
             .call(action, recordId, stateClass);
@@ -878,8 +854,3 @@ document.addEventListener('state-transition', function(event) {
 **Compatibility**: Filament 3.x, Laravel 10.x
 ||||||| parent of 9a84589 (.):docs/archived/iconstatesplitcolumn-implementation-1.md
 **Compatibility**: Filament 3.x, Laravel 10.x
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-**Compatibility**: Filament 3.x, Laravel 10.x
->>>>>>> laraxot/dev

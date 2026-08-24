@@ -119,18 +119,12 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
         ];
     }
     
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     // Metodi helper comuni
     protected function formatNumber(int|float $number): string
     {
         return number_format($number);
     }
     
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     protected function formatPercentage(int|float $percentage): string
     {
         return number_format($percentage, 1) . '%';
@@ -165,12 +159,6 @@ abstract class UIBaseTestWidget extends XotBaseWidget
     // Configurazioni comuni per tutti i widget di test UI
     public array $widgets = [];
 
-=======
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     // Metodi helper comuni
     protected function getTestData(): array
     {
@@ -203,9 +191,6 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
     protected static ?string $description = null;
     protected static ?string $pollingInterval = null;
     
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     // Configurazioni comuni per tutti i grafici UI
     protected function getDefaultChartOptions(): array
     {
@@ -220,9 +205,6 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
         ];
     }
     
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     // Metodi helper comuni
     protected function formatChartData(array $data): array
     {
@@ -306,9 +288,6 @@ class SystemTestWidget extends UIBaseTestWidget
 {
     protected static string $view = 'ui::filament.widgets.system-test';
     
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     public function getViewData(): array
     {
         return array_merge(
@@ -320,9 +299,6 @@ class SystemTestWidget extends UIBaseTestWidget
         );
     }
     
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     private function getSystemInfo(): array
     {
         return [
@@ -332,9 +308,6 @@ class SystemTestWidget extends UIBaseTestWidget
         ];
     }
     
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     private function getDatabaseStatus(): array
     {
         try {
@@ -539,7 +512,3 @@ class SystemTestWidget extends UIBaseTestWidget
 - [Testing Strategy](testing-strategy.md)
 ---
 *Ultimo aggiornamento: Giugno 2025*
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_ObjhKH

@@ -676,3 +676,32 @@ UI module for Laraxot platform.
 ## Quality Gates
 - PHPStan L10 compliance
 - Test coverage requirements
+
+---
+
+## Sintesi dei sottosistemi (migrata da `ARCHITECTURE.md` in root)
+
+> Questo blocco stava nella root del modulo, dove sono ammessi solo README,
+> CHANGELOG, LICENSE, AGENTS e CLAUDE. Il contenuto non era duplicato qui
+> dentro, quindi è stato accodato invece che cancellato: va integrato nelle
+> sezioni sopra.
+
+## Overview
+The UI module provides Filament-based admin interface components, themes, and utilities.
+
+## Components
+- **Filament Resources**: AdminPanel resources for data management
+- **Widgets**: Dashboard widgets and custom controls
+- **Themes**: Tailwind CSS theme system
+- **Layout Components**: Navbar, blocks, page builder
+
+## Subsystems
+- **Page Builder**: Drag-and-drop content builder
+- **Theme System**: Multi-theme support with Tailwind
+- **Components**: Reusable Vue/Blade components
+- **Admin Panel**: Filament admin interface
+
+## Related Docs
+- Wiki: `docs/wiki/ui/`
+- Components: `docs/wiki/ui/UI-*.md`
+- Filament: `docs/wiki/concepts/UI-filament-patterns.md`

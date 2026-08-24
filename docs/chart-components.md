@@ -8,8 +8,6 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 ### LineChart
 ```blade
 <x-ui::line-chart
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     :title="'Andamento Utenti'"
     :labels="['Gen', 'Feb', 'Mar', 'Apr', 'Mag', 'Giu']"
     :datasets="[
@@ -30,9 +28,6 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 ### PieChart
 ```blade
 <x-ui::pie-chart
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     :title="'Distribuzione Utenti'"
     :labels="['Attivi', 'Inattivi', 'In attesa']"
     :data="[300, 50, 100]"
@@ -47,9 +42,6 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 ### StatsOverview
 ```blade
 <x-ui::stats-overview
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     :stats="[
         [
             'label' => 'Utenti Totali',
@@ -100,17 +92,11 @@ class UserStats extends Component
 {
     public $chartData;
     
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     public function mount()
     {
         $this->updateChartData();
     }
     
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     public function updateChartData()
     {
         $this->chartData = [
@@ -125,9 +111,6 @@ class UserStats extends Component
         ];
     }
     
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
     public function render()
     {
         return view('livewire.user-stats');
@@ -254,5 +237,5 @@ class UserStats extends Component
 - [Componenti Form](./form-components.md)
 - [Componenti Table](./table-components.md)
 - [Componenti Layout](./layout-components.md)
-=======
->>>>>>> laraxot/dev
+
+```

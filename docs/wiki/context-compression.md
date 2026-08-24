@@ -69,11 +69,6 @@ qmd query "$1" -c wiki --limit 3 > compressed_result.md
 # Estrai keyword principali
 qmd search "$1" -c <nome progetto>-docs | head -5 > keywords.txt
 qmd search "$1" -c project-docs | head -5 > keywords.txt
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
->>>>>>> laraxot/dev
 
 # Genera sommario
 qmd multi-get $(qmd search "$1" -c main_docs | head -10) | awk '/^# / {print; getline; print; print ""}' > summary.md

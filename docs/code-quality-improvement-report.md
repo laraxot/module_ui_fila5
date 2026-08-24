@@ -9,11 +9,6 @@ qmd: "code quality baseline PHPStan Pest strict types Laraxot UI git remote"
 story: STORY-001
 # GRAVE: issue/discussion del modulo — mai base_techplanner / base_workorder / mono.
 # GRAVE: issue/discussion del modulo — mai base_project / base_workorder / mono.
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-# GRAVE: issue/discussion del modulo — mai base_techplanner / base_workorder / mono.
->>>>>>> laraxot/dev
 # Resolve: cd laravel/Modules/UI && git remote -v → laraxot/module_ui_fila5
 issues: []
 discussions: []
@@ -35,11 +30,6 @@ cd laravel/Modules/UI && git remote -v
 
 **Lezione grave:** in un conflitto Git, *entrambe* le parti possono essere sbagliate (`base_techplanner_*` vs `base_workorder_*`). Non scegliere a caso: `git remote -v` nella cartella del modulo/tema.
 **Lezione grave:** in un conflitto Git, *entrambe* le parti possono essere sbagliate (`base_project_*` vs `base_workorder_*`). Non scegliere a caso: `git remote -v` nella cartella del modulo/tema.
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-**Lezione grave:** in un conflitto Git, *entrambe* le parti possono essere sbagliate (`base_techplanner_*` vs `base_workorder_*`). Non scegliere a caso: `git remote -v` nella cartella del modulo/tema.
->>>>>>> laraxot/dev
 
 ## Baseline
 

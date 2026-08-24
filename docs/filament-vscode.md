@@ -78,13 +78,6 @@ Mostra documentazione al passaggio del mouse su:
 ```php
 // Digitare 'fil-form' e premere Tab
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-public static function form(Form $form): Form
-public static function form(Form $form): Form
-public static function form(Form $form): Form
->>>>>>> laraxot/dev
 {
     return $form->schema([
         // Digitare 'fil-text' e premere Tab
@@ -92,12 +85,6 @@ public static function form(Form $form): Form
             ->required()
             ->maxLength(255),
             
-=======
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_YWccIt
         // Digitare 'fil-select' e premere Tab
         Select::make('status')
             ->options([
@@ -106,9 +93,6 @@ public static function form(Form $form): Form
             ])
             ->required(),
             
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_YWccIt
         // Digitare 'fil-rich' e premere Tab
         RichEditor::make('content')
             ->required()
@@ -130,12 +114,6 @@ public static function table(Table $table): Table
                 ->searchable()
                 ->sortable(),
                 
-=======
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_YWccIt
             // Digitare 'fil-col' e premere Tab
             IconColumn::make('status')
                 ->boolean(),
@@ -176,10 +154,6 @@ Forms\Components\Wizard::make([
                     Forms\Components\TextInput::make('first_name')
                         ->required(),
                         
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_YWccIt
                     Forms\Components\TextInput::make('last_name')
                         ->required(),
                 ]),
@@ -357,3 +331,5 @@ Forms\Components\Wizard::make([
 ]);
 ## Best Practices
 1. Organizzazione del codice
+
+```

@@ -187,7 +187,3 @@ TextInput::make('full_name')
 - [Best Practices Database](../../../project_docs/database/best-practices.md)
 - [Convenzioni API](../../../project_docs/api/convenzioni.md)
 * [convenzioni-naming-campi.md](../../../../project_docs/convenzioni-naming-campi.md)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev

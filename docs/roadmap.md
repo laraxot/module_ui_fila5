@@ -23,10 +23,6 @@ Creare un ecosistema UI "Headless-first" che permetta di cambiare radicalmente i
 - [ ] **Dynamic Layout Optimization**: L'AI suggerisce layout migliori in base al tipo di contenuto visualizzato.
 - [ ] **Predictive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
 - [ ] **forecastive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
->>>>>>> laraxot/dev
 
 ## ✅ Checklist Qualità
 - [x] PHPStan Level 10.

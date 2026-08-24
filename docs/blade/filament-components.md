@@ -62,11 +62,6 @@ Frontoffice senza Livewire dedicato — pattern [Alpine](https://filamentphp.com
 
 Caso <nome progetto> `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
 Caso progetto corrente `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-| Tabs | `<x-filament::tabs>` | Tab personalizzati |
->>>>>>> laraxot/dev
 
 ## Esempi di utilizzo
 

@@ -6,11 +6,6 @@
 **Remediation:** [../../../../docs/project/ponytail-audit-remediation.md](../../../../docs/project/ponytail-audit-remediation.md)
 **GitHub monorepo:** [Issue #221](https://github.com/laraxot/<nome repository>/discussions/228)
 **GitHub monorepo:** [Issue #221](https://github.com/laraxot/<nome repository>/discussions/228)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-=======
-**GitHub monorepo:** [Issue #221](https://github.com/laraxot/base_predict_fila5/issues/221) · [Discussion #222](https://github.com/laraxot/base_predict_fila5/discussions/222) · [Discussion #228](https://github.com/laraxot/base_predict_fila5/discussions/228)
->>>>>>> laraxot/dev
 
 ## Findings
 

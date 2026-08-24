@@ -30,6 +30,3 @@ Se serve un’icona, usare solo i metodi previsti dalla documentazione Filament.
 * [filament-error-fileupload-prefixicon.md](../../Patient/docs/filament-error-fileupload-prefixicon.md)
 - Questo errore si è manifestato nel modulo Patient: vedere [Patient/project_docs/filament-error-fileupload-prefixicon.md](../../Patient/project_docs/filament-error-fileupload-prefixicon.md)
 * [filament-error-fileupload-prefixicon.md](../../Patient/project_docs/filament-error-fileupload-prefixicon.md)
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
