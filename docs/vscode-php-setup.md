@@ -133,14 +133,6 @@
             "port": 9003,
             "pathMappings": {
                 "/ tasks.json
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-                "/var/www/html/base_<nome progetto>": "${workspaceFolder}"
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
                 "/var/www/html/base_<nome progetto>": "${workspaceFolder}"
             }
         }
@@ -167,19 +159,17 @@
             "presentation": {
                 "reveal": "always",
                 "panel": "new"
->>>>>>> laraxot/dev
             }
         }
     ]
 }
 ```
 
-<<<<<<< HEAD
 ## Tasks Personalizzati
 
 ```json
 // tasks.json
-=======
+
 ## Best Practices
 
 ### 1. Organizzazione Workspace
@@ -356,7 +346,6 @@
             "request": "launch",
             "port": 9003,
             "pathMappings": {
->>>>>>> laraxot/dev
                 "/ tasks.json
     "version": "2.0.0",
     "tasks": [
@@ -420,7 +409,6 @@
 ## Vedi Anche
 - [VSCode Documentation](https://code.visualstudio.com/docs)
 - [PHP Intelephense](https://intelephense.com)
-<<<<<<< HEAD
 - [Filament Documentation](https://filamentphp.com/docs)
 # Configurazione VSCode per PHP e Filament
 ## Estensioni Essenziali
@@ -590,11 +578,5 @@
 - [PHP Intelephense](https://intelephense.com)
 
 ```
-<<<<<<< HEAD
-=======
-=======
 
 ```
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev

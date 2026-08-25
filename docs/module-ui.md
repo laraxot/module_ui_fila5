@@ -112,10 +112,6 @@ composer format        # Formatta il codice
 - File upload
 
 ## Changelog
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 Le modifiche vengono tracciate nel repository GitHub.
 # Modulo UI
 ## Informazioni Generali
@@ -209,8 +205,3 @@ composer format        # Formatta il codice
 - Date pickers
 - File upload
 ## Changelog
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
