@@ -28,7 +28,7 @@ test('row widget can be instantiated via concrete subclass', function (): void {
 test('row widget returns empty form schema', function (): void {
     $widget = new class extends RowWidget {
     };
-    Assert::assertSame([], $widget->getFormSchema());
+    Assert::assertSame([], $widget->getFormSchema()); // @phpstan-ignore method.deprecated (hook di progetto: la deprecazione e ereditata per nome dal prototipo Filament 5, il codice eseguito e il nostro — story 16.12)
 });
 
 test('row widget exposes grid and widgets arrays', function (): void {
