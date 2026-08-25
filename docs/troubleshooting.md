@@ -3,14 +3,6 @@
 ## Common Issues
 
 For general troubleshooting, please refer to the [Xot Troubleshooting Guide](../../Xot/docs/troubleshooting.md).
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 
 ---
 
@@ -757,10 +749,3 @@ Se il troubleshooting non risolve:
 - [PATTERNS](./PATTERNS.md) — Decisioni architetturali
 - [INDEX](./INDEX.md) — Indice documentazione completo
 - [standards/ui-standards](./standards/ui-standards.md) — Component standards
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev

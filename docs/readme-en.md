@@ -8,22 +8,10 @@
 [![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue.svg)](https://www.php-fig.org/psr/psr-12/)
 [![Strict Types](https://img.shields.io/badge/PHP-strict__types-1-informational.svg)](#)
 [![Laraxot Modules](https://img.shields.io/badge/Architecture-Modular-purple.svg)](#)
-<<<<<<< HEAD
-[![<nome progetto> Platform](https://img.shields.io/badge/Platform-<nome progetto>-008758.svg)](#)
-[![Current Platform](https://img.shields.io/badge/Platform-progetto corrente-008758.svg)](#)
-=======
-<<<<<<< HEAD
-[![<nome progetto> Platform](https://img.shields.io/badge/Platform-<nome progetto>-008758.svg)](#)
-[![Current Platform](https://img.shields.io/badge/Platform-progetto corrente-008758.svg)](#)
-=======
-<<<<<<< HEAD
 [![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
-=======
+
 [![<nome progetto> Platform](https://img.shields.io/badge/Platform-<nome progetto>-008758.svg)](#)
 [![Current Platform](https://img.shields.io/badge/Platform-progetto corrente-008758.svg)](#)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 
 > **Components that don't reinvent the wheel.** Shared design system across modules and theme.
 
@@ -68,19 +56,7 @@ Frontoffice stack: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filamen
 
 ---
 
-<<<<<<< HEAD
-**Module** `ui` · **Laraxot** · **<nome progetto> Platform** · PHPStan 10 · Filament 5
-**Module** `ui` · **Laraxot** · **Current Platform** · PHPStan 10 · Filament 5
-=======
-<<<<<<< HEAD
-**Module** `ui` · **Laraxot** · **<nome progetto> Platform** · PHPStan 10 · Filament 5
-**Module** `ui` · **Laraxot** · **Current Platform** · PHPStan 10 · Filament 5
-=======
-<<<<<<< HEAD
 **Module** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
-=======
+
 **Module** `ui` · **Laraxot** · **<nome progetto> Platform** · PHPStan 10 · Filament 5
 **Module** `ui` · **Laraxot** · **Current Platform** · PHPStan 10 · Filament 5
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev

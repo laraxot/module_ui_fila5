@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 # Componenti di Navigazione
 ## Indice
 - [Panoramica](#panoramica)
@@ -126,13 +118,6 @@ Il componente `user-dropdown` è progettato per gestire automaticamente la visua
 - [Componenti Base](./base-components.md)
 - [Layout](./layout-components.md)
 - [Accessibilità](./standards/accessibility.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -203,18 +188,7 @@ I componenti di navigazione devono utilizzare sempre le funzioni di localizzazio
 ### Traduzioni Necessarie
 
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
-<<<<<<< HEAD
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
-=======
-<<<<<<< HEAD
-Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
-=======
-<<<<<<< HEAD
-=======
-Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 
 ```php
 return [
