@@ -91,12 +91,36 @@ use Livewire\Component;
 class UserStats extends Component
 {
     public $chartData;
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function mount()
     {
         $this->updateChartData();
     }
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function updateChartData()
     {
         $this->chartData = [
@@ -110,7 +134,19 @@ class UserStats extends Component
             ]
         ];
     }
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function render()
     {
         return view('livewire.user-stats');
@@ -137,6 +173,14 @@ class UserStats extends Component
 - [Componenti Form](./form-components.md)
 - [Componenti Table](./table-components.md)
 - [Componenti Layout](./layout-components.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [Documentazione Frontend](../Cms/docs/frontend-architecture.md)
 # Componenti Chart
 ## Introduzione
@@ -239,3 +283,10 @@ class UserStats extends Component
 - [Componenti Layout](./layout-components.md)
 
 ```
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

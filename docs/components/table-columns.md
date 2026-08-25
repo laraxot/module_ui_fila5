@@ -5,8 +5,23 @@ tags: [table, columns]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "table-columns table columns components"
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -196,5 +211,18 @@ use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 4.x, Laravel 11.x
 **Compatibility**: Filament 3.x, Laravel 10.x
+<<<<<<< HEAD
 
 ```
+=======
+<<<<<<< HEAD
+
+```
+=======
+<<<<<<< HEAD
+=======
+
+```
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

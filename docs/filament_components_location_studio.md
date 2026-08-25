@@ -2,7 +2,18 @@
 
 ## Overview
 
+<<<<<<< HEAD
 Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo <nome progetto>corrente.
+=======
+<<<<<<< HEAD
+Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo <nome progetto>corrente.
+=======
+<<<<<<< HEAD
+=======
+Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo <nome progetto>corrente.
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## Componenti Implementati
 
@@ -14,7 +25,18 @@ Questi componenti Filament sono stati creati per supportare la selezione geograf
 Componente Filament per la selezione gerarchica di Regione → Provincia → CAP con aggiornamenti live e integrazione con il modulo Geo.
 
 #### Caratteristiche
+<<<<<<< HEAD
 - ✅ **Selezione Gerarchica**: Regione → Provincia → CAP
+=======
+<<<<<<< HEAD
+- ✅ **Selezione Gerarchica**: Regione → Provincia → CAP
+=======
+<<<<<<< HEAD
+=======
+- ✅ **Selezione Gerarchica**: Regione → Provincia → CAP
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - ✅ **Live Updates**: I campi si aggiornano automaticamente
 - ✅ **Integrazione Geo**: Utilizza i modelli del modulo Geo
 - ✅ **Validazione Cascata**: I campi dipendenti si validano automaticamente
@@ -54,7 +76,18 @@ Componente Blade per la selezione di studi odontoiatrici tramite pulsanti radio-
 #### Utilizzo Base
 
 ```blade
+<<<<<<< HEAD
 <x-ui::ui.studio-selector
+=======
+<<<<<<< HEAD
+<x-ui::ui.studio-selector
+=======
+<<<<<<< HEAD
+=======
+<x-ui::ui.studio-selector
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     :studios="$studios"
     :selected-studio="$selectedStudioId"
     target-field="selected_studio"
@@ -86,7 +119,18 @@ protected function getStudioStepSchema(): array
 {
     return [
         // Titolo step
+<<<<<<< HEAD
         View::make('<nome progetto>ilament.widgets.studio-step-header')
+=======
+<<<<<<< HEAD
+        View::make('<nome progetto>ilament.widgets.studio-step-header')
+=======
+<<<<<<< HEAD
+=======
+        View::make('<nome progetto>ilament.widgets.studio-step-header')
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             ->viewData([
                 'studiosCount' => $this->getStudiosCount(),
                 'geographicArea' => $this->getGeographicAreaName(),
@@ -94,7 +138,18 @@ protected function getStudioStepSchema(): array
             ->visible(fn (): bool => $this->hasValidGeographicSelection()),
 
         // Pulsanti selezione studio
+<<<<<<< HEAD
         View::make('<nome progetto>ilament.widgets.studio-selector')
+=======
+<<<<<<< HEAD
+        View::make('<nome progetto>ilament.widgets.studio-selector')
+=======
+<<<<<<< HEAD
+=======
+        View::make('<nome progetto>ilament.widgets.studio-selector')
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             ->viewData([
                 'studios' => $this->getStudiosForSelectedArea(),
                 'selectedStudio' => $this->data['selected_studio'] ?? null,
@@ -103,6 +158,17 @@ protected function getStudioStepSchema(): array
 
         // TextInput per mostrare studio selezionato
         TextInput::make('selected_studio_name')
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            ->label(__('<nome progetto>::widgets.find_doctor.fields.selected_studio.label'))
+            ->placeholder(__('<nome progetto>::widgets.find_doctor.fields.selected_studio.placeholder'))
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             ->readonly()
             ->visible(fn (): bool => !empty($this->data['selected_studio']))
             ->suffixIcon('heroicon-o-check-circle')
@@ -145,7 +211,18 @@ public function selectStudio(int $studioId): void
 - Live updates automatici tra i campi
 - Validazione cascata
 
+<<<<<<< HEAD
 ### 2. **Step Selezione Studio**
+=======
+<<<<<<< HEAD
+### 2. **Step Selezione Studio**
+=======
+<<<<<<< HEAD
+=======
+### 2. **Step Selezione Studio**
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - Visualizzazione pulsanti per ogni studio nell'area
 - Click su pulsante = selezione studio
 - Visual feedback immediato (radio indicator + colori)
@@ -238,6 +315,14 @@ class FindDoctorWidgetStep2Test extends TestCase
 
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 **Creato**: 26 Giugno 2025
 **Versione**: 2.0 - Semplificato
 **Stato**: Implementation Ready

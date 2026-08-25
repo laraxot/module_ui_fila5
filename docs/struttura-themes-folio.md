@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Struttura Themes e Folio in <nome progetto>corrente
 # Struttura Themes e Folio in <nome progetto>corrente
 # Struttura Themes e Folio in
@@ -6,6 +14,13 @@
 # Struttura Themes e Folio in <nome progetto>
 # Struttura Themes e Folio in
 # Struttura Themes e Folio in <nome progetto>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## ⚠️ ATTENZIONE CRITICA
 
@@ -15,6 +30,14 @@
 
 ## Struttura del Progetto
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 Il progetto <nome progetto>corrente utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 Il progetto <nome progetto>corrente utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 Il progetto  utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
@@ -23,6 +46,13 @@ Il progetto  utilizza un sistema di **Themes** che modifica la struttura standar
 Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 Il progetto  utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ```
 /laravel/
@@ -280,3 +310,10 @@ config('theme.views_path') // Output: "Themes/One/resources/views"
 - [mcamara/laravel-localization](https://github.com/mcamara/laravel-localization)
 
 ```
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

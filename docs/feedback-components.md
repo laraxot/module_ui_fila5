@@ -109,6 +109,14 @@
 
 ### Tooltip
 ```html
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <button 
   type="button" 
   class="btn btn-secondary" 
@@ -127,6 +135,14 @@
 
 ### Popover
 ```html
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <button 
   type="button" 
   class="btn btn-secondary" 
@@ -149,6 +165,14 @@
 ### Progress Bar
 ```html
 <div class="progress">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
   <div 
     class="progress-bar progress-bar-striped progress-bar-animated" 
     role="progressbar" 
@@ -353,3 +377,10 @@ $zindex-tooltip: 1070;
 - [Accessibilità](./standards/accessibility.md)
 
 ```
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

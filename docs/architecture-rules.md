@@ -149,6 +149,13 @@ class CustomMiddleware
 <img src="public/images/avatar.png">
 <img src="public/images/avatar.png">
 <img src="public/images/avatar.png">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 // Non duplicare la registrazione dei componenti
 Blade::component('ui::components.icon', 'ui.icon');
@@ -282,6 +289,14 @@ class UIServiceProvider extends XotBaseServiceProvider
   @volt('component.name')
   <?php
   use function Livewire\Volt\{state, mount};
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
   
   state([
       'property' => null,
@@ -296,7 +311,18 @@ class UIServiceProvider extends XotBaseServiceProvider
       // Logica dell'azione
   };
   ?>
+<<<<<<< HEAD
   
+=======
+<<<<<<< HEAD
+  
+=======
+<<<<<<< HEAD
+=======
+  
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
   <div>
       <!-- Template del componente -->
   </div>
@@ -310,6 +336,14 @@ class UIServiceProvider extends XotBaseServiceProvider
   <?php
   use function Laravel\Folio\{middleware, name};
   use function Livewire\Volt\{state, mount};
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
   
   middleware(['auth']);
   name('page.name');
@@ -322,7 +356,18 @@ class UIServiceProvider extends XotBaseServiceProvider
       'property' => null,
   ]);
   ?>
+<<<<<<< HEAD
   
+=======
+<<<<<<< HEAD
+  
+=======
+<<<<<<< HEAD
+=======
+  
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
   <x-layouts.main>
       <!-- Contenuto della pagina -->
   </x-layouts.main>
@@ -795,3 +840,10 @@ class UIServiceProvider extends XotBaseServiceProvider
 5. **Cosa Fare**:
    - Utilizzare i componenti responsive appropriati
    - Mantenere la coerenza con il tema dark/light
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

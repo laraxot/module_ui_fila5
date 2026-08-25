@@ -38,7 +38,6 @@ abstract class TestCase extends XotBaseTestCase
             UIServiceProvider::class,
         ];
     }
-
     protected function setUp(): void
     {
         $this->prepareSharedFixcitySqliteForTesting();

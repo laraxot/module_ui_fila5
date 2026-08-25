@@ -28,14 +28,40 @@ use Modules\Xot\Filament\Resources\XotBaseListRecords;
 class ListUsers extends XotBaseListRecords
 {
     protected TableLayoutEnum $layout;
+<<<<<<< HEAD
     
     
+=======
+<<<<<<< HEAD
+    
+    
+=======
+<<<<<<< HEAD
+
+=======
+    
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function mount(): void
     {
         parent::mount();
         $this->layout = TableLayoutEnum::init();
     }
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function table(Table $table): Table
     {
         return $table
@@ -46,7 +72,19 @@ class ListUsers extends XotBaseListRecords
             ->searchable()
             ->filterable();
     }
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     /**
      * Restituisce le colonne appropriate per il layout corrente
      */
@@ -70,7 +108,19 @@ class ListUsers extends XotBaseListRecords
                     default => 'gray',
                 }),
         ];
+<<<<<<< HEAD
         
+=======
+<<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $gridColumns = [
             Stack::make([
                 TextColumn::make('name')
@@ -89,6 +139,14 @@ class ListUsers extends XotBaseListRecords
                     default => 'gray',
                 }),
         ];
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         
         return $this->layout->getTableColumns($listColumns, $gridColumns);
     }
@@ -112,7 +170,19 @@ class ListUsers extends XotBaseListRecords
             // Altre azioni...
         ];
     }
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     /**
      * Azioni bulk per il layout corrente
      */
@@ -262,51 +332,155 @@ class TableLayoutEnumTest extends TestCase
     {
         $this->assertEquals(TableLayoutEnum::LIST, TableLayoutEnum::init());
     }
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function test_toggle_switches_layout(): void
     {
         $layout = TableLayoutEnum::LIST;
         $this->assertEquals(TableLayoutEnum::GRID, $layout->toggle());
         $this->assertEquals(TableLayoutEnum::LIST, $layout->toggle()->toggle());
     }
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function test_get_label_returns_translated_string(): void
     {
         $listLabel = TableLayoutEnum::LIST->getLabel();
         $gridLabel = TableLayoutEnum::GRID->getLabel();
+<<<<<<< HEAD
         
+=======
+<<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $this->assertIsString($listLabel);
         $this->assertIsString($gridLabel);
         $this->assertNotEmpty($listLabel);
         $this->assertNotEmpty($gridLabel);
     }
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function test_get_color_returns_valid_color(): void
     {
         $listColor = TableLayoutEnum::LIST->getColor();
         $gridColor = TableLayoutEnum::GRID->getColor();
+<<<<<<< HEAD
         
+=======
+<<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $this->assertIsString($listColor);
         $this->assertIsString($gridColor);
         $this->assertNotEmpty($listColor);
         $this->assertNotEmpty($gridColor);
     }
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function test_get_icon_returns_valid_icon(): void
     {
         $listIcon = TableLayoutEnum::LIST->getIcon();
         $gridIcon = TableLayoutEnum::GRID->getIcon();
+<<<<<<< HEAD
         
+=======
+<<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $this->assertIsString($listIcon);
         $this->assertIsString($gridIcon);
         $this->assertNotEmpty($listIcon);
         $this->assertNotEmpty($gridIcon);
     }
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function test_get_table_content_grid_returns_null_for_list(): void
     {
         $this->assertNull(TableLayoutEnum::LIST->getTableContentGrid());
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     
     public function test_get_table_content_grid_returns_array_for_grid(): void
     {
@@ -324,7 +498,19 @@ class TableLayoutEnumTest extends TestCase
         $this->assertArrayHasKey('xl', $grid);
         $this->assertArrayHasKey('2xl', $grid);
     }
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function test_get_table_columns_returns_correct_columns(): void
     {
         $listColumns = ['name', 'email'];
@@ -354,12 +540,32 @@ class TableLayoutEnumTest extends TestCase
         $this->assertTrue(TableLayoutEnum::GRID->isGridLayout());
         $this->assertFalse(TableLayoutEnum::LIST->isGridLayout());
     }
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function test_is_list_layout_returns_correct_boolean(): void
     {
         $this->assertTrue(TableLayoutEnum::LIST->isListLayout());
         $this->assertFalse(TableLayoutEnum::GRID->isListLayout());
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     
     public function test_get_options_returns_all_options(): void
     {
@@ -375,12 +581,36 @@ class TableLayoutEnumTest extends TestCase
         $this->assertArrayHasKey('grid', $options);
         $this->assertCount(2, $options);
     }
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function test_get_container_classes_returns_valid_classes(): void
     {
         $listClasses = TableLayoutEnum::LIST->getContainerClasses();
         $gridClasses = TableLayoutEnum::GRID->getContainerClasses();
+<<<<<<< HEAD
         
+=======
+<<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $this->assertEquals('table-layout-list', $listClasses);
         $this->assertEquals('table-layout-grid', $gridClasses);
     }
@@ -438,6 +668,14 @@ TextColumn::make('name')
 - [Translation Standards](../../../docs/translation_standards.md)
 - [Filament Best Practices](../../../docs/filament_best_practices.md)
 - [Enum Translation Pattern](../../../docs/enum-translation-pattern.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 *Ultimo aggiornamento: 2025-01-27*
 # Esempio Implementazione TableLayoutEnum
@@ -693,3 +931,10 @@ TextColumn::make('name')
 - [Enum Translation Pattern](../../../docs/enum-translation-pattern.md)
 
 ```
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
