@@ -1,4 +1,12 @@
 ---
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 module: theme
 topic: algolia_docsearch
 canonical: ../../../Themes/docs/shared-components/algolia-docsearch_1.md
@@ -63,3 +71,10 @@ For more details, visit the [official Algolia DocSearch documentation.](https://
 * [algolia-docsearch.md](../../../Cms/project_docs/algolia-docsearch.md)
 
 ```
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

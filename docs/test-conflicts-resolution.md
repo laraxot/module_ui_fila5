@@ -40,6 +40,14 @@ cd laravel
 ## Collegamenti Principali
 
 - [Risoluzione Conflitti Git](../../../../docs/risoluzione_conflitti_git.md): Documentazione principale sulla risoluzione dei conflitti git.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [UI Conflict Links](../../../../docs/ui_conflict_links.md): Collegamenti ai file di risoluzione dei conflitti nel modulo UI.
 # Test di Risoluzione Conflitti nel Modulo UI
 ## Descrizione
@@ -67,3 +75,10 @@ cd laravel
 - [components.md](components.md): Documentazione dei componenti UI, incluso AddressField.
 ## Collegamenti Principali
 - [Risoluzione Conflitti Git](../../../../docs/risoluzione_conflitti_git.md): Documentazione principale sulla risoluzione dei conflitti git.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

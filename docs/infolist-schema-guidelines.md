@@ -67,7 +67,19 @@ protected function getInfolistSchema(): array
                             ,
                     ]),
             ]),
+<<<<<<< HEAD
         
+=======
+<<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         'dettagli_account' => Section::make('Dettagli Account')
             ->schema([
                 // Altri componenti...
@@ -291,3 +303,10 @@ return [
 3. **Nomi Significativi per le Chiavi**: Scegli nomi di chiave che riflettano il contenuto o lo scopo del componente
 4. **Rispetta la Struttura di Filament**: Segui le convenzioni di Filament per la struttura dei componenti
 ## Conclusione
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

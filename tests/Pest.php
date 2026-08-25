@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-/*
+/**
  * Bootstrap Pest — modulo UI.
  *
  * Questo file NON viene caricato. `Pest\Bootstrappers\BootFiles` legge `Pest.php`,

@@ -6,6 +6,13 @@
 ```php
 // Themes/One/resources/views/pages/auth/logout.blade.php
 // Themes/One/resources/views/pages/auth/logout.blade.php
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 <?php
 
@@ -29,6 +36,14 @@ $logout = function() {
         <div class="text-center">
             <h2 class="text-2xl font-bold mb-4">{{ __('Stai per essere disconnesso') }}</h2>
             <p class="text-gray-600 mb-6">{{ __('Sei sicuro di voler uscire?') }}</p>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             
             <div class="flex justify-center space-x-4">
                 <button 
@@ -41,10 +56,25 @@ $logout = function() {
                 >
                     {{ __('Esci') }}
                 </button>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
                 <a
                     href="{{ url()->previous() }}"
                 <a 
                     href="{{ url()->previous() }}" 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
                     class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
                 >
                     {{ __('Annulla') }}
@@ -200,3 +230,10 @@ $logout = function() {
 1. Mantenere il design semplice e intuitivo
 2. Fornire feedback chiari all'utente
 4. Assicurare la responsività su tutti i dispositivi
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

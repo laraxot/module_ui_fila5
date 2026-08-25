@@ -86,7 +86,19 @@ public static function getFormSchema(): array
                 ->required()
                 ->columnSpan(1),
         ]),
+<<<<<<< HEAD
         
+=======
+<<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         Forms\Components\Section::make('Contenuto della Pagina')->schema([
             PageContent::make('content_blocks')
                 ->label('Blocchi Contenuto')
@@ -184,3 +196,10 @@ Per una documentazione più approfondita sull'utilizzo dei widget Filament in il
 - [Creazione di Componenti Personalizzati](../laravel/Modules/Cms/docs/custom_filament_components.md) (da creare)
 - [Best Practices per i Form in il progetto](../laravel/Modules/Cms/docs/form_best_practices.md) (da creare)
 ## Conclusione
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

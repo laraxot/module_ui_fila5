@@ -169,8 +169,22 @@ new Chart(ctx, {
 .table-responsive {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+<<<<<<< HEAD
   
   
+=======
+<<<<<<< HEAD
+  
+  
+=======
+<<<<<<< HEAD
+
+=======
+  
+  
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
   @media (max-width: 768px) {
     .table {
       min-width: 600px;
@@ -184,7 +198,19 @@ new Chart(ctx, {
 .chart-container {
   position: relative;
   height: 300px;
+<<<<<<< HEAD
   
+=======
+<<<<<<< HEAD
+  
+=======
+<<<<<<< HEAD
+
+=======
+  
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
   canvas {
     animation: fadeIn 0.5s ease;
   }
@@ -329,3 +355,10 @@ const ctx = document.getElementById('pieChart').getContext('2d');
 - [Accessibilità](./standards/accessibility.md)
 
 ```
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

@@ -126,8 +126,22 @@ All Bootstrap Italia classes are mapped to Tailwind via @apply:
 
 Pages are configured via JSON files:
 
+<<<<<<< HEAD
 **Location**: `config/local/<nome progetto>/database/content/pages/`
 **Location**: `config/local/current/database/content/pages/`
+=======
+<<<<<<< HEAD
+**Location**: `config/local/<nome progetto>/database/content/pages/`
+**Location**: `config/local/current/database/content/pages/`
+=======
+<<<<<<< HEAD
+**Location**: `config/local/fixcity/database/content/pages/`
+=======
+**Location**: `config/local/<nome progetto>/database/content/pages/`
+**Location**: `config/local/current/database/content/pages/`
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 **Example**: `tests.homepage.json`
 

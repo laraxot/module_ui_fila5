@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ---
 title: "Form Component"
 type: concept
@@ -18,6 +26,13 @@ related:
   - "./03-later.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Form Component
 
 ## 📊 Stato Implementazione
@@ -54,6 +69,14 @@ class FormBuilder extends XotBaseUIComponent
 {
     /** @var array<string, FormField> */
     protected array $fields = [];
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     
     /** @var array<string, mixed> */
     protected array $values = [];
@@ -67,7 +90,19 @@ class FormBuilder extends XotBaseUIComponent
         $this->fields[$name] = $field;
         return $this;
     }
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function validate(): ValidationResult
     {
         return $this->validator->validate($this->values);
@@ -84,7 +119,19 @@ abstract class FormField
     protected bool $required = false;
     protected ?string $placeholder = null;
     protected array $validators = [];
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     abstract public function render(): View;
     abstract public function validate($value): ValidationResult;
 }
@@ -94,7 +141,19 @@ class InputField extends FormField
     protected string $type = 'text';
     protected ?int $maxLength = null;
     protected ?string $pattern = null;
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function setType(string $type): self
     {
         $this->type = $type;
@@ -185,6 +244,14 @@ protected function validateField(string $name): void
     if (!isset($this->dirtyFields[$name])) {
         return;
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     
     $result = $this->fields[$name]->validate(
         $this->values[$name]
@@ -226,6 +293,13 @@ class FormState
     public function isDirty(string $field): bool
     {
         return $this->initialValues[$field] !==
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
                $this->currentValues[$field];
     }
 }
@@ -416,3 +490,10 @@ class FormState
 2. Implementare file upload
 3. Aggiungere nested form support
 4. Migliorare validation performance
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

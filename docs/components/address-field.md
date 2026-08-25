@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ---
 title: "AddressField Component"
 type: concept
@@ -18,6 +26,13 @@ related:
   - "./full-calendar.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # AddressField Component
 
 ## Panoramica
@@ -86,3 +101,10 @@ AddressField::make('address')
 2. Implementare la gestione degli errori per il geocoding
 3. Configurare correttamente i servizi di geocoding
 4. Testare con diversi formati di indirizzo
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

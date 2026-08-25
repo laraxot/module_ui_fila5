@@ -37,6 +37,7 @@ final class OverlookWidget extends XotBaseSchemaWidget
 
     /**
      * @return array<string, Component>
+     * @return array<string, mixed>
      */
     public function getFormSchema(): array
     {

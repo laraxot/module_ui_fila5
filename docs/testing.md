@@ -176,7 +176,18 @@ protected function createApplication()
     
     $app['config']->set([
         'database.connections.ui.database' => 'quaeris_data_test',
+<<<<<<< HEAD
         'database.connections.ui.database' => 'modulo questionari_data_test',
+=======
+<<<<<<< HEAD
+        'database.connections.ui.database' => 'modulo questionari_data_test',
+=======
+<<<<<<< HEAD
+=======
+        'database.connections.ui.database' => 'modulo questionari_data_test',
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     ]);
     
     return $app;
@@ -361,6 +372,14 @@ Remember: Good tests are the foundation of reliable software development.
 ---
 
 *Last updated: January 2025*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## Story 5.26 — progress verso 100% (2026-08-20)
 
@@ -414,3 +433,10 @@ Prossimo step: coprire rami residui IconStateColumn (fillForm/textarea required)
 ```bash
 ./vendor/bin/pest Modules/UI/tests
 ```
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

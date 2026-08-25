@@ -3,6 +3,14 @@ title: "Sincronizzazione multi-organizzazione (laraxot + provtv)"
 type: concept
 tags: [git, sync, multi-org, laraxot, provtv, quality-gates]
 created: "2026-07-21"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 updated: "2026-07-29"
 related:
   - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
@@ -10,6 +18,13 @@ updated: "2026-07-23"
   - "./wiki/troubleshooting/git-push-lfs-missing-objects.md"
 related:
   - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
   - "./git-multi-org-sync-handoff.md"
 ---
 
@@ -32,10 +47,25 @@ fetch di tutti i remote, quality gates (PHPStan L10, PHPMD), risincronizzazione 
   "add/add" (nella maggior parte dei casi contenuto identico, differenze reali
   risolte a mano confrontando i diff).
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - **Blocco LFS lato server (provtv)** (storico): in una sessione precedente si era
   riscritta la storia senza tracking LFS. **Non ripetere** rewrite se evitabile.
 - **Blocco LFS lato server (provtv)** (storico): in una sessione precedente si era
   riscritta la storia senza tracking LFS. **Non ripetere** rewrite se evitabile.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - **Violazione di dipendenza Geo→UI**: `app/Livewire/Components/Map/InteractiveMap.php`
   importava `Modules\\Geo\\Services\\{Geocoding,Map}Service`, un modulo che non fa
   parte di questo progetto e che comunque UI non dovrebbe mai importare
@@ -48,20 +78,48 @@ fetch di tutti i remote, quality gates (PHPStan L10, PHPMD), risincronizzazione 
 | Sintomo | Causa | Fix |
 |---------|-------|-----|
 | `unpack failed` / `did not receive expected object` | pack thin + storia merge laraxot↔provtv | `git push --no-thin` |
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 | `GH008` / LFS missing su `provtv` | OID LFS non presenti su quel remote | `git lfs fetch laraxot --all` → `git lfs push provtv --all` → push |
 
 Playbook completo: [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md).
 | `GH008` / LFS missing su `provtv` | OID LFS non presenti su quel remote | `git lfs fetch laraxot --all` → `git lfs push provtv --all` → push |
 
 Playbook completo: [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md).
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## Regola per il futuro
 
 Prima di un merge/rebase su questo repo, controllare sempre `git remote -v` e
 sincronizzare **tutti** i remote elencati, non solo `origin`/`provtv`. Mai forzare
 push distruttivi su storie scollegate: preferire `--allow-unrelated-histories` e
+<<<<<<< HEAD
 revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sibling sano, non squash/reset.
 revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sibling sano, non squash/reset.
+=======
+<<<<<<< HEAD
+revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sibling sano, non squash/reset.
+revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sibling sano, non squash/reset.
+=======
+<<<<<<< HEAD
+=======
+revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sibling sano, non squash/reset.
+revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sibling sano, non squash/reset.
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ### Caso User 2026-07-23 (unrelated)
 

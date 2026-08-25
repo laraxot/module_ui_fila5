@@ -236,8 +236,21 @@ final class GroupColumn extends XotBaseColumn
 @php
     $fields = $getFields();  // ✅ PSR-12
 **Dopo (18 Nov 2025)**:
+<<<<<<< HEAD
 ```
 
+=======
+<<<<<<< HEAD
+```
+
+=======
+<<<<<<< HEAD
+=======
+```
+
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ```blade
 @php
     $fields = $getFields();
