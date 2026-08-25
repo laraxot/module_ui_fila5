@@ -140,18 +140,7 @@ php -l Modules/UI/app/Filament/Actions/Table/TableLayoutToggleTableAction.php
 php artisan tinker --execute="TableLayoutToggleTableAction::make('test');"
 
 # Testare l'URL che causava l'errore
-<<<<<<< HEAD
 curl -I http://127.0.0.1:8001/modulo questionari/admin/gaia/survey-pdfs
-=======
-<<<<<<< HEAD
-curl -I http://127.0.0.1:8001/modulo questionari/admin/gaia/survey-pdfs
-=======
-<<<<<<< HEAD
-=======
-curl -I http://127.0.0.1:8001/modulo questionari/admin/gaia/survey-pdfs
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 ```
 
 ### Risultati Test

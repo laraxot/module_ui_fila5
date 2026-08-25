@@ -60,19 +60,9 @@ The UI module provides comprehensive user interface components and styling:
 ## Integration with Other Modules
 - **User**: Authentication interface components
 - **Cms**: Content display components
-<<<<<<< HEAD
-- **modulo questionari**: Dashboard UI components
-=======
-<<<<<<< HEAD
-- **modulo questionari**: Dashboard UI components
-=======
-<<<<<<< HEAD
 - **Quaeris**: Dashboard UI components
-=======
+
 - **modulo questionari**: Dashboard UI components
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 - **Xot**: Base UI infrastructure
 - **Filament**: Component compatibility
 

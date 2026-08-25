@@ -1,12 +1,4 @@
 ---
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 module: theme
 topic: customizing_your_site
 canonical: ../../../Themes/docs/shared-components/customizing-your-site_1.md
@@ -76,10 +68,3 @@ class Foo extends bar
 ### Versione Incoming
 
 ```
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
