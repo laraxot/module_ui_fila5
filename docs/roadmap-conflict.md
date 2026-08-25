@@ -10,7 +10,7 @@
 
 ## 🎯 MODULE OVERVIEW
 
-Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+Il modulo **UI** è il sistema di componenti e design system della piattaforma <nome progetto>, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
 
 ### 🏗️ Architettura Modulo
 ```
@@ -289,7 +289,8 @@ UI Module
 
 ---
 
-
+**Last Updated**: 2025-10-01
+**Next Review**: 2025-11-01
 **Status**: 🚧 ACTIVE DEVELOPMENT
 **Confidence Level**: 90%
 

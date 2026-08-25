@@ -60,15 +60,10 @@
 * [filament-components.md](../../User/docs/best-practices/filament-components.md)
 * [filament-components.md](../../Cms/docs/best-practices/filament-components.md)
 * [filament-components.md](../../Cms/docs/filament-components.md)
-<<<<<<< HEAD:docs/filament_components.md
 * [filament-components.md](../../../docs/rules/filament-components.md)
 * [filament-components.md](../../User/project_docs/best-practices/filament-components.md)
 * [filament-components.md](../../Cms/project_docs/best-practices/filament-components.md)
 * [filament-components.md](../../Cms/project_docs/filament-components.md)
 * [filament-components.md](../../../project_docs/rules/filament-components.md)
 
-||||||| parent of 9a84589 (.):docs/archive/filament-components-1.md
 * [filament-components.md](../../../docs/rules/filament-components.md)
-=======
-* [filament-components.md](../../../../docs/rules/filament-components.md)
->>>>>>> 9a84589 (.):docs/archive/filament-components-1.md

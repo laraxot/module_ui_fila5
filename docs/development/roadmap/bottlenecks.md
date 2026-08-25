@@ -1,3 +1,19 @@
+---
+title: "Colli di Bottiglia - Modulo UI"
+type: concept
+tags: [bottlenecks]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "bottlenecks colli di bottiglia - modulo ui"
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
+  - "./component-system.md"
+  - "./form-component.md"
+  - "./form-components.md"
+  - "./theme-system.md"
+---
+
 # Colli di Bottiglia - Modulo UI
 
 ## 1. Performance Componenti [85%]

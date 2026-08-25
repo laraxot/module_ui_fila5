@@ -41,16 +41,9 @@ I nomi specifici dell'applicazione devono apparire solo:
 - [Componenti](components.md)
 
 ## Vedi Anche
-<<<<<<< HEAD:docs/naming_rules.md
 - [Documentazione Principale](../../../docs/README.md)
 - [Standard di Codice](../../../docs/standards/coding-standards.md)
 - [Best Practices](../../../docs/standards/best-practices.md) 
-||||||| parent of 9a84589 (.):docs/archive/naming-rules-1.md
 - [Documentazione Principale](../../../docs/README.md)
 - [Standard di Codice](../../../docs/standards/coding-standards.md)
 - [Best Practices](../../../docs/standards/best-practices.md)
-=======
-- [Documentazione Principale](../../../../docs/README.md)
-- [Standard di Codice](../../../../docs/standards/coding-standards.md)
-- [Best Practices](../../../../docs/standards/best-practices.md)
->>>>>>> 9a84589 (.):docs/archive/naming-rules-1.md

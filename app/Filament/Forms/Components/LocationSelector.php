@@ -9,6 +9,7 @@ use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Components\Utilities\Set;
 use Modules\Geo\Models\Comune;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Filament\Schemas\Components\XotBaseGroup;
 
 /**
@@ -48,11 +49,15 @@ class LocationSelector extends XotBaseGroup
 
     /**
      * Label personalizzate per i campi.
+    *
+     * @var array<string, string>
      */
     protected array $labels = [];
 
     /**
      * Placeholder personalizzati per i campi.
+    *
+     * @var array<string, string>
      */
     protected array $placeholders = [];
 
@@ -141,6 +146,8 @@ class LocationSelector extends XotBaseGroup
 
     /**
      * Validazione custom per verificare la coerenza dei dati.
+    *
+     * @return list<string> messaggi di errore, già tradotti
      */
     public function validate(): array
     {
@@ -150,7 +157,7 @@ class LocationSelector extends XotBaseGroup
         // Verifica che se è selezionata una provincia, sia selezionata anche la regione
         /* @phpstan-ignore offsetAccess.nonOffsetAccessible, offsetAccess.nonOffsetAccessible */
         if (! empty($state[$this->provinceFieldName]) && empty($state[$this->regionFieldName])) {
-            $errors[] = __('ui::location_selector.validation.region_required_for_province');
+           $errors[] = SafeStringCastAction::cast(__('ui::location_selector.validation.region_required_for_province'));
         }
 
         // Verifica che se è selezionato un CAP, siano selezionate regione e provincia
@@ -160,7 +167,7 @@ class LocationSelector extends XotBaseGroup
             $provinceValue = $state[$this->provinceFieldName] ?? null;
 
             if (! empty($capValue) && (empty($regionValue) || empty($provinceValue))) {
-                $errors[] = __('ui::location_selector.validation.region_province_required_for_cap');
+               $errors[] = SafeStringCastAction::cast(__('ui::location_selector.validation.region_province_required_for_cap'));
             }
         }
 
@@ -358,7 +365,6 @@ class LocationSelector extends XotBaseGroup
             $query->where('cap->0', $state[$this->capFieldName]);
         }
 
-        /* @phpstan-ignore return.type */
         return $query->first();
     }
 

@@ -69,6 +69,7 @@ Now that you’ve edited your configuration variables and know how to customize 
 
 ```bash
 
+
 # build static files with Jigsaw
 ./vendor/bin/jigsaw build
 
@@ -81,16 +82,23 @@ npm run dev
 ### Versione HEAD
 
 ## Collegamenti tra versioni di getting-started.md
-* [getting-started.md](../../../gdpr/project_docs/getting-started.md)
-* [getting-started.md](../../../xot/project_docs/getting-started.md)
-* [getting-started.md](../../../ui/project_docs/getting-started.md)
-* [getting-started.md](../../../tenant/project_docs/it/getting-started.md)
-* [getting-started.md](../../../cms/project_docs/getting-started.md)
-* [getting-started.md](../../../gdpr/docs/getting-started.md)
-* [getting-started.md](../../../xot/docs/getting-started.md)
-* [getting-started.md](../../../ui/docs/getting-started.md)
-* [getting-started.md](../../../tenant/docs/it/getting-started.md)
-* [getting-started.md](../../../cms/docs/getting-started.md)
+* [getting-started.md](../../../Gdpr/project_docs/getting-started.md)
+* [getting-started.md](../../../Xot/project_docs/getting-started.md)
+* [getting-started.md](../../../UI/project_docs/getting-started.md)
+* [getting-started.md](../../../Tenant/project_docs/it/getting-started.md)
+* [getting-started.md](../../../Cms/project_docs/getting-started.md)
+# options: dev, prod
+npm run dev
+```
+### Versione HEAD
+
+
+## Collegamenti tra versioni di getting-started.md
+* [getting-started.md](../../../Gdpr/docs/getting-started.md)
+* [getting-started.md](../../../Xot/docs/getting-started.md)
+* [getting-started.md](../../../UI/docs/getting-started.md)
+* [getting-started.md](../../../Tenant/docs/it/getting-started.md)
+* [getting-started.md](../../../Cms/docs/getting-started.md)
 
 ### Versione Incoming
 
@@ -109,6 +117,8 @@ This is a starter template for creating a beautiful, customizable documentation 
 ## Configuration {#getting-started-configuration}
 
 As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/project_docs/site-variables/) to learn more.
+
+```
 
 ```php
 // config.php
@@ -179,12 +189,23 @@ npm run dev
 ### Versione HEAD
 
 ## Collegamenti tra versioni di getting-started.md
-* [getting-started.md](../../../gdpr/project_docs/getting-started.md)
-* [getting-started.md](../../../xot/project_docs/getting-started.md)
-* [getting-started.md](../../../ui/project_docs/getting-started.md)
-* [getting-started.md](../../../tenant/project_docs/it/getting-started.md)
-* [getting-started.md](../../../cms/project_docs/getting-started.md)
+* [getting-started.md](../../../Gdpr/docs/getting-started.md)
+* [getting-started.md](../../../Xot/docs/getting-started.md)
+* [getting-started.md](../../../UI/docs/getting-started.md)
+* [getting-started.md](../../../Tenant/docs/it/getting-started.md)
+* [getting-started.md](../../../Cms/docs/getting-started.md)
+* [getting-started.md](../../../Gdpr/project_docs/getting-started.md)
+* [getting-started.md](../../../Xot/project_docs/getting-started.md)
+* [getting-started.md](../../../UI/project_docs/getting-started.md)
+* [getting-started.md](../../../Tenant/project_docs/it/getting-started.md)
+* [getting-started.md](../../../Cms/project_docs/getting-started.md)
 
 ### Versione Incoming
 
 ---
+
+### Versione Incoming
+
+
+---
+### Versione Incoming
