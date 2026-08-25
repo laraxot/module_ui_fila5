@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "custom_firm_fields"
 type: concept
@@ -20,15 +18,12 @@ related:
   - "./custom-theme-1.md"
 ---
 
->>>>>>> laraxot/dev
 # custom_firm_fields
 
 <!-- Contenuto migrato da _docs/custom_firm_fields.txt -->
 
 https://github.com/tanthammar/filament-extras
 
-<<<<<<< HEAD
-=======
 //--- with nested ?
 https://github.com/saade/filament-extra
 
@@ -38,13 +33,9 @@ https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-ca
 <!-- Contenuto migrato da _docs/custom_firm_fields.txt -->
 
 https://github.com/tanthammar/filament-extras
->>>>>>> laraxot/dev
 
 //--- with nested ?
 https://github.com/saade/filament-extra
 
 https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
-<<<<<<< HEAD
-=======
 https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
->>>>>>> laraxot/dev

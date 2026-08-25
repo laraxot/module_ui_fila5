@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Sistema di Theming"
 type: concept
@@ -20,7 +18,6 @@ related:
   - "./03-later.md"
 ---
 
->>>>>>> laraxot/dev
 # Sistema di Theming
 
 ## 📊 Stato Implementazione
@@ -57,8 +54,6 @@ class ThemeRegistry
 {
     /** @var array<string, Theme> */
     protected array $themes = [];
-<<<<<<< HEAD
-=======
     
     /** @var array<string, array<string, mixed>> */
     protected array $overrides = [];
@@ -67,16 +62,11 @@ class ThemeRegistry
     /** @var array<string, array<string, mixed>> */
     protected array $overrides = [];
 
->>>>>>> laraxot/dev
     public function register(Theme $theme): void
     {
         $this->themes[$theme->getName()] = $theme;
     }
-<<<<<<< HEAD
-
-=======
     
->>>>>>> laraxot/dev
     public function override(string $tenant, array $config): void
     {
         $this->overrides[$tenant] = $config;
@@ -93,20 +83,12 @@ class Theme
         protected array $config,
         protected ?string $parent = null
     ) {}
-<<<<<<< HEAD
-
-=======
     
->>>>>>> laraxot/dev
     public function resolve(string $path, $default = null)
     {
         return Arr::get($this->config, $path, $default);
     }
-<<<<<<< HEAD
-
-=======
     
->>>>>>> laraxot/dev
     public function extend(array $overrides): self
     {
         return new self(
@@ -274,8 +256,6 @@ class ThemeCompiler
 2. Implementare CSS-in-JS
 3. Ottimizzare caching
 4. Aggiungere theme builder
-<<<<<<< HEAD
-=======
 5. Migliorare documentazione
 # Sistema di Theming
 ## 📊 Stato Implementazione
@@ -430,4 +410,3 @@ class ThemeCompiler
 2. Implementare CSS-in-JS
 3. Ottimizzare caching
 4. Aggiungere theme builder
->>>>>>> laraxot/dev

@@ -133,8 +133,6 @@
             "port": 9003,
             "pathMappings": {
                 "/ tasks.json
-<<<<<<< HEAD
-=======
                 "/var/www/html/base_<nome progetto>": "${workspaceFolder}"
             }
         }
@@ -147,7 +145,6 @@
 ```json
 // tasks.json
                 "/ tasks.json
->>>>>>> laraxot/dev
 {
     "version": "2.0.0",
     "tasks": [
@@ -240,8 +237,6 @@
 ## Vedi Anche
 - [VSCode Documentation](https://code.visualstudio.com/docs)
 - [PHP Intelephense](https://intelephense.com)
-<<<<<<< HEAD
-=======
 - [Filament Documentation](https://filamentphp.com/docs)
 # Configurazione VSCode per PHP e Filament
 ## Estensioni Essenziali
@@ -411,4 +406,3 @@
 - [PHP Intelephense](https://intelephense.com)
 
 ```
->>>>>>> laraxot/dev

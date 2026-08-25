@@ -28,8 +28,6 @@ Modern, clean "Bento Grid" style with high contrast and clear typography for Pub
 ## 🚫 Out of Scope
 - Business logic.
 - Backend API development.
-<<<<<<< HEAD
-=======
 
 ---
 
@@ -63,4 +61,3 @@ UI module for Laraxot platform providing core functionality.
 - Pest test coverage >90%
 - Integration testing
 
->>>>>>> laraxot/dev

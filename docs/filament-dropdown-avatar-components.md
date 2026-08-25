@@ -27,11 +27,7 @@ Il componente Dropdown di Filament è composto da tre parti principali:
     <x-slot name="trigger">
         <!-- Contenuto del trigger -->
     </x-slot>
-<<<<<<< HEAD
-
-=======
     
->>>>>>> laraxot/dev
     <!-- Elementi del dropdown -->
     <x-filament::dropdown.list>
         <x-filament::dropdown.item href="#" icon="heroicon-o-user">
@@ -106,11 +102,7 @@ Opzioni di larghezza:
 ```blade
 <x-filament::dropdown.item>
     Notifiche
-<<<<<<< HEAD
-
-=======
     
->>>>>>> laraxot/dev
     <x-slot name="badge">
         3
     </x-slot>
@@ -207,11 +199,7 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
                 size="md"
                 class="ring-2 ring-white ring-opacity-50 shadow-sm"
             />
-<<<<<<< HEAD
-
-=======
             
->>>>>>> laraxot/dev
             <div class="ml-1">
                 <x-filament::icon
                     name="heroicon-o-chevron-down"
@@ -220,17 +208,11 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
             </div>
         </button>
     </x-slot>
-<<<<<<< HEAD
-
-=======
     
->>>>>>> laraxot/dev
     <x-filament::dropdown.list>
         <div class="px-4 py-2 text-xs text-gray-400">
             {{ __('Manage Account') }}
         </div>
-<<<<<<< HEAD
-=======
         
         <x-filament::dropdown.item href="{{ route('profile.show') }}" icon="heroicon-o-user">
             {{ __('Profile') }}
@@ -260,7 +242,6 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
         
         <x-filament::dropdown.separator />
 
->>>>>>> laraxot/dev
         <form method="POST" action="{{ route('logout') }}">
             @csrf
             <x-filament::dropdown.item
@@ -289,8 +270,6 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 - [Documentazione Dropdown di Filament](https://filamentphp.com/docs/3.x/support/blade-components/dropdown)
 - [Documentazione Avatar di Filament](https://filamentphp.com/docs/3.x/support/blade-components/avatar)
 - [Documentazione Loading Indicator di Filament](https://filamentphp.com/docs/3.x/support/blade-components/loading-indicator)
-<<<<<<< HEAD
-=======
 - [Documentazione Icone di Filament](https://filamentphp.com/docs/3.x/support/icons)
 # Componenti Dropdown, Avatar e Loading Indicator di Filament
 ## Indice
@@ -439,4 +418,3 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 - [Documentazione Dropdown di Filament](https://filamentphp.com/docs/3.x/support/blade-components/dropdown)
 - [Documentazione Avatar di Filament](https://filamentphp.com/docs/3.x/support/blade-components/avatar)
 - [Documentazione Loading Indicator di Filament](https://filamentphp.com/docs/3.x/support/blade-components/loading-indicator)
->>>>>>> laraxot/dev

@@ -14,13 +14,10 @@ Secondo le regole di organizzazione della documentazione:
 - [Componenti Blade](../../Cms/docs/components.md) - Documentazione sui componenti Blade nel frontend
 - [Blocchi di Contenuto](../../Cms/docs/blocks.md) - Documentazione sui blocchi di contenuto
 - [Filament Integration](../../Cms/docs/filament.md) - Integrazione con Filament
-<<<<<<< HEAD
-=======
 - [Documentazione Frontend](../../Cms/project_docs/frontoffice.md) - Documentazione completa sul frontend
 - [Componenti Blade](../../Cms/project_docs/components.md) - Documentazione sui componenti Blade nel frontend
 - [Blocchi di Contenuto](../../Cms/project_docs/blocks.md) - Documentazione sui blocchi di contenuto
 - [Filament Integration](../../Cms/project_docs/filament.md) - Integrazione con Filament
->>>>>>> laraxot/dev
 
 ## Utilizzo dei Componenti UI nel Frontend
 
@@ -41,8 +38,6 @@ Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/docs/
 * [cms-link.md](../../../User/docs/cms-link.md)
 * [cms-link.md](../../../UI/docs/cms-link.md)
 * [cms-link.md](../../../Lang/docs/cms-link.md)
-<<<<<<< HEAD
-=======
 * [cms-link.md](../../../Xot/project_docs/cms-link.md)
 * [cms-link.md](../../../User/project_docs/cms-link.md)
 * [cms-link.md](../../../UI/project_docs/cms-link.md)
@@ -70,4 +65,3 @@ Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/proje
 * [cms-link.md](../../../User/project_docs/cms-link.md)
 * [cms-link.md](../../../UI/project_docs/cms-link.md)
 * [cms-link.md](../../../Lang/project_docs/cms-link.md)
->>>>>>> laraxot/dev

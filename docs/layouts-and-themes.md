@@ -53,8 +53,6 @@ Per correggere questa situazione, è necessario:
 4. Rigenerare l'autoloader
 
 ```bash
-<<<<<<< HEAD
-=======
 
 # Creare la directory Themes se non esiste
 mkdir -p /laravel/Themes
@@ -523,7 +521,6 @@ Per correggere questa situazione, è necessario:
 4. Rigenerare l'autoloader
 
 ```bash
->>>>>>> laraxot/dev
 # Creare la directory Themes se non esiste
 mkdir -p /laravel/Themes
 
@@ -664,10 +661,7 @@ Nel file GetAllIconsAction.php è stato risolto un conflitto mantenendo una sola
 
 Questa scelta evita ambiguità e possibili errori runtime nella gestione delle icone dinamiche.
 
-<<<<<<< HEAD
-=======
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
->>>>>>> laraxot/dev
 
 In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale:
 - Rimuovere codice commentato o superfluo lasciato da template generici o da sviluppi temporanei.
@@ -676,10 +670,7 @@ In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale
 
 **Decisione architetturale**: In simple.blade.php è stato rimosso un blocco di codice commentato relativo a header e menu di esempio, mantenendo solo la struttura effettivamente utilizzata e correggendo il titolo. Questa scelta assicura chiarezza, manutenibilità e coerenza visiva.
 
-<<<<<<< HEAD
-=======
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
->>>>>>> laraxot/dev
 
 ## Layout System
 
@@ -733,10 +724,7 @@ use Modules\UI\Layouts\AdminLayout;
 class Dashboard extends Component
 {
     protected static string $layout = AdminLayout::class;
-<<<<<<< HEAD
-=======
     
->>>>>>> laraxot/dev
     protected function getLayoutData(): array
     {
         return [
@@ -762,20 +750,14 @@ class Dashboard extends Component
 }
 ```
 
-<<<<<<< HEAD
-=======
 #### PrintLayout
->>>>>>> laraxot/dev
 ```php
 use Modules\UI\Layouts\PrintLayout;
 
 class StampaPratica extends Component
 {
     protected static string $layout = PrintLayout::class;
-<<<<<<< HEAD
-=======
     
->>>>>>> laraxot/dev
     protected function getLayoutData(): array
     {
         return [
@@ -818,10 +800,7 @@ return [
             'warning' => '#f59e0b',
             'danger' => '#ef4444',
         ],
-<<<<<<< HEAD
-=======
         
->>>>>>> laraxot/dev
         // Tipografia
         'typography' => [
             'fonts' => [
@@ -834,29 +813,20 @@ return [
                 'xl' => '1.25rem',
             ],
         ],
-<<<<<<< HEAD
-=======
         
->>>>>>> laraxot/dev
         // Spaziature
         'spacing' => [
             'base' => '1rem',
             'lg' => '1.5rem',
             'xl' => '2rem',
         ],
-<<<<<<< HEAD
-=======
         
->>>>>>> laraxot/dev
         // Bordi
         'border' => [
             'radius' => '0.375rem',
             'width' => '1px',
         ],
-<<<<<<< HEAD
-=======
         
->>>>>>> laraxot/dev
         // Ombre
         'shadows' => [
             'sm' => '0 1px 2px 0 rgb(0 0 0 / 0.05)',
@@ -961,7 +931,4 @@ AdminLayout::make()
 4. **Manutenibilità**
    - Documentare personalizzazioni
    - Seguire convenzioni di naming
-<<<<<<< HEAD
-=======
    - Centralizzare configurazioni
->>>>>>> laraxot/dev

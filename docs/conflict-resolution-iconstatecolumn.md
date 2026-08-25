@@ -69,8 +69,6 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 - [selectstatecolumn.md](selectstatecolumn.md)
 - [table-components.md](table-components.md)
 - [Modules/UI/docs/](../docs/)
-<<<<<<< HEAD
-=======
 
 *Ultimo aggiornamento: 29 luglio 2025*
 # Risoluzione Conflitto IconStateColumn.php
@@ -123,4 +121,3 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 - [selectstatecolumn.md](selectstatecolumn.md)
 - [table-components.md](table-components.md)
 - [Modules/UI/project_docs/](../project_docs/)
->>>>>>> laraxot/dev

@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 # Gestione delle Risorse Pubbliche
->>>>>>> laraxot/dev
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -19,8 +16,6 @@ Questo documento descrive la corretta gestione delle risorse pubbliche (immagini
 La struttura corretta per le risorse pubbliche  è la seguente:
 
 ```
-<<<<<<< HEAD
-=======
 [project-root]/
 [project-root]/
 
@@ -29,7 +24,6 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 
 
 
->>>>>>> laraxot/dev
 ├── public_html/           # Directory pubblica principale
 │   ├── images/            # Immagini pubbliche
 │   ├── css/               # File CSS
@@ -39,11 +33,8 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 └── laravel/               # Applicazione Laravel (NON contiene file pubblici)
 ```
 
-<<<<<<< HEAD
-=======
 > **IMPORTANTE**: MAI utilizzare `[project-root]/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>corrente.
 > **IMPORTANTE**: MAI utilizzare `[project-root]/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>corrente.
->>>>>>> laraxot/dev
 > **IMPORTANTE**: MAI utilizzare `laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di PTVX.
 > **IMPORTANTE**: MAI utilizzare `public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>.
 > **IMPORTANTE**: MAI utilizzare `laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di PTVX.
@@ -55,8 +46,6 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 
 ### Immagini
 
-<<<<<<< HEAD
-=======
 Le immagini devono essere posizionate in `[project-root]/public_html/images/` e organizzate in sottocartelle per tipologia:
 Le immagini devono essere posizionate in `[project-root]/public_html/images/` e organizzate in sottocartelle per tipologia:
 Le immagini devono essere posizionate in `public_html/images/` e organizzate in sottocartelle per tipologia:
@@ -65,7 +54,6 @@ Le immagini devono essere posizionate in `public_html/images/` e organizzate in 
 Le immagini devono essere posizionate in `public_html/images/` e organizzate in sottocartelle per tipologia:
 Le immagini devono essere posizionate in `public_html/images/` e organizzate in sottocartelle per tipologia:
 Le immagini devono essere posizionate in `public_html/images/` e organizzate in sottocartelle per tipologia:
->>>>>>> laraxot/dev
 
 - `/images/avatars/` - Avatar utenti
 - `/images/logos/` - Loghi
@@ -132,14 +120,11 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 ### Avatar Utente
 
 ```blade
-<<<<<<< HEAD
-=======
 <img
     src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}"
     alt="{{ $user->name }}"
     src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}" 
     alt="{{ $user->name }}" 
->>>>>>> laraxot/dev
     class="h-10 w-10 rounded-full"
 >
 ```
@@ -162,11 +147,8 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 
 ## Conclusione
 
-<<<<<<< HEAD
-=======
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>corrente.
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>corrente.
->>>>>>> laraxot/dev
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto .
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>.
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto .

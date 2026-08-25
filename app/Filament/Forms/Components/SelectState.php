@@ -15,7 +15,7 @@ class SelectState extends XotBaseSelect
     {
         parent::setUp();
 
-        $this->options(function (?Model $record): array {
+       $this->options(function (?Model $record): array {
             $name = $this->getName();
             if ($record === null) {
                 $model = $this->getModel();
@@ -28,7 +28,6 @@ class SelectState extends XotBaseSelect
                             if (! \is_array($statesRaw)) {
                                 $statesRaw = Arr::wrap($statesRaw);
                             }
-
                             /* @var array<int|string, mixed> $statesRaw */
                             return $this->combineStateOptions($statesRaw);
                         }
@@ -38,7 +37,7 @@ class SelectState extends XotBaseSelect
                 return [];
             }
 
-            if (! method_exists($record, 'getStatesFor')) {
+           if (! method_exists($record, 'getStatesFor')) {
                 return [];
             }
 

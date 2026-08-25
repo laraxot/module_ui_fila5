@@ -19,11 +19,8 @@
   <input
     type="email"
     id="email"
-<<<<<<< HEAD
-=======
     type="email" 
     id="email" 
->>>>>>> laraxot/dev
     class="form-control is-invalid"
     aria-describedby="email-error"
   >
@@ -40,11 +37,8 @@
   <input
     type="text"
     id="search"
-<<<<<<< HEAD
-=======
     type="text" 
     id="search" 
->>>>>>> laraxot/dev
     class="form-control"
     list="suggestions"
     autocomplete="off"
@@ -66,11 +60,8 @@
     <input
       type="text"
       id="date"
-<<<<<<< HEAD
-=======
       type="text" 
       id="date" 
->>>>>>> laraxot/dev
       class="form-control"
       data-date-format="dd/mm/yyyy"
     >
@@ -89,11 +80,8 @@
     <input
       type="text"
       id="time"
-<<<<<<< HEAD
-=======
       type="text" 
       id="time" 
->>>>>>> laraxot/dev
       class="form-control"
       data-time-format="HH:mm"
     >
@@ -113,11 +101,8 @@
   <input
     type="range"
     id="range"
-<<<<<<< HEAD
-=======
     type="range" 
     id="range" 
->>>>>>> laraxot/dev
     class="form-range"
     min="0"
     max="100"
@@ -136,11 +121,8 @@
     <input
       type="number"
       id="quantity"
-<<<<<<< HEAD
-=======
       type="number" 
       id="quantity" 
->>>>>>> laraxot/dev
       class="form-control text-center"
       min="0"
       max="100"
@@ -189,8 +171,6 @@
     border-color: $primary;
     box-shadow: 0 0 0 0.2rem rgba($primary, 0.25);
   }
-<<<<<<< HEAD
-=======
   
   &.is-invalid {
     border-color: $danger;
@@ -199,7 +179,6 @@
   &.is-invalid {
     border-color: $danger;
 
->>>>>>> laraxot/dev
     &:focus {
       box-shadow: 0 0 0 0.2rem rgba($danger, 0.25);
     }
@@ -211,10 +190,7 @@
 ```scss
 .input-group {
   transition: all 0.3s ease;
-<<<<<<< HEAD
-=======
   
->>>>>>> laraxot/dev
   &:focus-within {
     transform: translateY(-1px);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -226,8 +202,6 @@
 - [Componenti Base](./base-components.md)
 - [Feedback](./feedback-components.md)
 - [Accessibilità](./standards/accessibility.md)
-<<<<<<< HEAD
-=======
 - [Performance](./standards/performance.md)
 # Componenti Form Avanzati
 ## 📝 Input Avanzati
@@ -348,4 +322,3 @@
 - [Accessibilità](./standards/accessibility.md)
 
 ```
->>>>>>> laraxot/dev

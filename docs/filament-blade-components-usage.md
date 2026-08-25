@@ -39,8 +39,6 @@ Filament fornisce una serie di componenti Blade pronti all'uso che dovrebbero es
 
 ⚠️ **ATTENZIONE**: I seguenti layout **NON esistono** in Filament e non devono essere utilizzati:
 
-<<<<<<< HEAD
-=======
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>corrente
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>corrente
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di
@@ -49,7 +47,6 @@ Filament fornisce una serie di componenti Blade pronti all'uso che dovrebbero es
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>
->>>>>>> laraxot/dev
 - ❌ `<x-filament::layouts.card>` - Non esiste, utilizzare invece una combinazione di `<x-filament::card>` e altri componenti
 - ❌ `<x-filament::layouts.base>` - Non esiste
 
@@ -201,8 +198,6 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
    - Folio gestisce automaticamente le rotte del frontend
 
 2. **Per le pagine frontend**:
-<<<<<<< HEAD
-=======
    - Creare file Blade in `[project-root]/laravel/Themes/One/resources/views/pages/`
    - Creare file Blade in `[project-root]/laravel/Themes/One/resources/views/pages/`
    - Creare file Blade in `Themes/One/resources/views/pages/`
@@ -211,7 +206,6 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
    - Creare file Blade in `Themes/One/resources/views/pages/`
    - Creare file Blade in `Themes/One/resources/views/pages/`
    - Creare file Blade in `Themes/One/resources/views/pages/`
->>>>>>> laraxot/dev
    - Utilizzare Folio per il routing automatico
    - Esempio: `/profile/index.blade.php` sarà accessibile come `/it/profile`
 
@@ -239,8 +233,6 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 - [Icone in Filament](https://filamentphp.com/docs/3.x/support/icons)
 
 ## Conclusione
-<<<<<<< HEAD
-=======
 
 Utilizzando i componenti Blade nativi di Filament, possiamo garantire una maggiore coerenza visiva, una migliore manutenibilità del codice e un'esperienza utente più fluida . Inoltre, possiamo beneficiare degli aggiornamenti e dei miglioramenti futuri di Filament senza dover modificare i nostri componenti personalizzati.
 # Utilizzo dei Componenti Blade di Filament
@@ -392,4 +384,3 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 - [Componenti Blade di Filament](https://filamentphp.com/docs/3.x/support/blade-components)
 - [Icone in Filament](https://filamentphp.com/docs/3.x/support/icons)
 ## Conclusione
->>>>>>> laraxot/dev

@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Gestione degli Asset"
 type: concept
@@ -17,7 +15,6 @@ related:
   - "./schemaless-attributes-guide.md"
 ---
 
->>>>>>> laraxot/dev
 # Gestione degli Asset
 
 ## Struttura delle Directory
@@ -76,8 +73,6 @@ Gli script di automazione si trovano nella directory `bashscripts/`:
 - Creare alert per problemi di permessi
 - Monitorare lo spazio disponibile
 - Verificare periodicamente l'integrità degli asset
-<<<<<<< HEAD
-=======
 - Utilizzare lo script di verifica prima di ogni deploy
 # Gestione degli Asset
 ## Struttura delle Directory
@@ -124,4 +119,3 @@ Gli script di automazione si trovano nella directory `bashscripts/`:
 - Verificare periodicamente l'integrità degli asset
 
 ```
->>>>>>> laraxot/dev
