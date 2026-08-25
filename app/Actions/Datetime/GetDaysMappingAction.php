@@ -67,6 +67,10 @@ final class GetDaysMappingAction
      */
     private function createCarbonInstance(): Carbon
     {
+<<<<<<< HEAD
        return Carbon::now();
+=======
+        return Carbon::now();
+>>>>>>> laraxot/dev
     }
 }

@@ -4,7 +4,11 @@ declare(strict_types=1);
 
 return [
     'fields' => [
+<<<<<<< HEAD
        'link' => ['label' => 'link', 'description' => 'link', 'helper_text' => 'link', 'placeholder' => 'link', 'tooltip' => ''],
+=======
+        'link' => ['label' => 'link', 'description' => 'link', 'helper_text' => 'link', 'placeholder' => 'link', 'tooltip' => ''],
+>>>>>>> laraxot/dev
         'class' => ['label' => 'class', 'description' => 'class', 'helper_text' => 'class', 'placeholder' => 'class', 'tooltip' => ''],
         'label' => ['label' => 'label', 'description' => 'label', 'helper_text' => 'label', 'placeholder' => 'label', 'tooltip' => ''],
         'buttons' => ['label' => 'buttons', 'description' => 'buttons', 'helper_text' => 'buttons', 'placeholder' => 'buttons', 'tooltip' => ''],
@@ -22,7 +26,11 @@ return [
     'navigation' => [
         'name' => 'Hero',
         'plural' => 'Hero',
+<<<<<<< HEAD
        'group' => ['name' => 'General', 'description' => 'General Settings'],
+=======
+        'group' => ['name' => 'General', 'description' => 'General Settings'],
+>>>>>>> laraxot/dev
         'label' => 'Hero',
         'sort' => 1,
         'icon' => 'heroicon-o-rectangle-stack',

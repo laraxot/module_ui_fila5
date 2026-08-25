@@ -19,7 +19,11 @@ use Webmozart\Assert\Assert;
  */
 final class InteractiveMap extends Component
 {
+<<<<<<< HEAD
    /** @var list<float> [lat, lng] — default Milano */
+=======
+    /** @var list<float> [lat, lng] — default Milano */
+>>>>>>> laraxot/dev
     public array $center = [45.4642, 9.1900];
 
     public int $zoom = 10;
@@ -44,7 +48,11 @@ final class InteractiveMap extends Component
         'location_types' => [],
     ];
 
+<<<<<<< HEAD
    /** @var array<string, mixed>|null */
+=======
+    /** @var array<string, mixed>|null */
+>>>>>>> laraxot/dev
     public ?array $selectedMarker = null;
 
     /** @var array<string, mixed> */
@@ -64,7 +72,11 @@ final class InteractiveMap extends Component
         'refreshMap' => 'loadMarkers',
     ];
 
+<<<<<<< HEAD
    /**
+=======
+    /**
+>>>>>>> laraxot/dev
      * @param  list<float>|null  $center
      * @param  array<string, bool|list<string>|array<string,float>>  $filters
      */
@@ -108,7 +120,11 @@ final class InteractiveMap extends Component
 
     /**
      * Aggiorna i filtri.
+<<<<<<< HEAD
     *
+=======
+     *
+>>>>>>> laraxot/dev
      * @param  array<string, bool|list<string>|array<string, float>>  $filters
      */
     public function updateFilters(array $filters): void
@@ -119,7 +135,11 @@ final class InteractiveMap extends Component
 
     /**
      * Aggiorna i bounds della mappa.
+<<<<<<< HEAD
     *
+=======
+     *
+>>>>>>> laraxot/dev
      * @param  array<string, float>  $bounds
      */
     public function updateBounds(array $bounds): void
@@ -206,7 +226,11 @@ final class InteractiveMap extends Component
             $address = $result['address'] ?? '';
             Assert::string($address, 'Address must be string');
 
+<<<<<<< HEAD
            // Il geocoder restituisce un payload non tipizzato: le coordinate vanno
+=======
+            // Il geocoder restituisce un payload non tipizzato: le coordinate vanno
+>>>>>>> laraxot/dev
             // validate prima del cast. Senza `Assert::numeric()` un payload non
             // numerico diventerebbe silenziosamente 0.0 (default dell'action) e la
             // mappa finirebbe al largo del Golfo di Guinea invece di segnalare
@@ -235,7 +259,11 @@ final class InteractiveMap extends Component
 
     /**
      * Ottiene suggerimenti per la ricerca.
+<<<<<<< HEAD
     *
+=======
+     *
+>>>>>>> laraxot/dev
      * @return list<array<string, mixed>>
      */
     public function getSuggestions(): array
@@ -334,7 +362,11 @@ final class InteractiveMap extends Component
     }
 
     /**
+<<<<<<< HEAD
     * Conteggio dei marker raggruppati per tipo.
+=======
+     * Conteggio dei marker raggruppati per tipo.
+>>>>>>> laraxot/dev
      *
      * @return array<string, int>
      */

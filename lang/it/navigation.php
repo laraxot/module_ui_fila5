@@ -3,7 +3,11 @@
 declare(strict_types=1);
 
 return [
+<<<<<<< HEAD
    'navigation' => ['label' => 'Navigazione', 'plural_label' => 'Navigazioni', 'group' => 'Gestione Contenuti', 'icon' => 'heroicon-o-rectangle-stack', 'sort' => 1],
+=======
+    'navigation' => ['label' => 'Navigazione', 'plural_label' => 'Navigazioni', 'group' => 'Gestione Contenuti', 'icon' => 'heroicon-o-rectangle-stack', 'sort' => 1],
+>>>>>>> laraxot/dev
     'label' => 'Navigazione',
     'plural_label' => 'Navigazioni',
     'fields' => [

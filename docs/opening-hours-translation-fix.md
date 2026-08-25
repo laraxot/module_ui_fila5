@@ -133,6 +133,8 @@ done
 - **REGOLA CRITICA**: Sincronizzazione obbligatoria tra lingue
 - **REGOLA CRITICA**: Struttura espansa per tutti i campi
 - **REGOLA CRITICA**: Sintassi moderna e tipizzazione stretta
+<<<<<<< HEAD
+=======
 - **REGOLA CRITICA**: Controllo automatico con script
 # Fix Traduzioni Opening Hours Field - Modulo UI
 ## Problema Identificato
@@ -237,3 +239,7 @@ done
 - **REGOLA CRITICA**: Sintassi moderna e tipizzazione stretta
 
 ```
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

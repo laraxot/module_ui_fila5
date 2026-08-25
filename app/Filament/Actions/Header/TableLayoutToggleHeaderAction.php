@@ -40,7 +40,11 @@ class TableLayoutToggleHeaderAction extends XotBaseAction
                 return $this->listIcon; // default icon
             })
             /*
+<<<<<<< HEAD
             * @param object{layoutView?: string|null} $livewire
+=======
+             * @param object{layoutView?: string|null} $livewire
+>>>>>>> laraxot/dev
              */
             ->action(static function (object $livewire): void {
                 // ✅ isset() invece di property_exists() - funziona con magic properties Livewire

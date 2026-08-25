@@ -5,7 +5,11 @@ declare(strict_types=1);
 return [
     'fields' => [
         'monday' => [
+<<<<<<< HEAD
            'morning' => ['label' => 'Mattina Lunedì', 'placeholder' => 'Seleziona orario mattutino', 'helper_text' => 'Orario di apertura del lunedì mattina'],
+=======
+            'morning' => ['label' => 'Mattina Lunedì', 'placeholder' => 'Seleziona orario mattutino', 'helper_text' => 'Orario di apertura del lunedì mattina'],
+>>>>>>> laraxot/dev
             'afternoon' => ['label' => 'Pomeriggio Lunedì', 'placeholder' => 'Seleziona orario pomeridiano', 'helper_text' => 'Orario di apertura del lunedì pomeriggio'],
             'morning_from' => ['label' => 'Orario', 'placeholder' => '08:00', 'helper_text' => '', 'description' => 'monday.morning_from'],
             'morning_to' => ['label' => 'Orario', 'placeholder' => '12:00', 'helper_text' => '', 'description' => 'monday.morning_to'],
@@ -19,7 +23,11 @@ return [
             'description' => '',
         ],
         'tuesday' => [
+<<<<<<< HEAD
            'morning' => ['label' => 'Mattina Martedì', 'placeholder' => 'Seleziona orario mattutino', 'helper_text' => 'Orario di apertura del martedì mattina'],
+=======
+            'morning' => ['label' => 'Mattina Martedì', 'placeholder' => 'Seleziona orario mattutino', 'helper_text' => 'Orario di apertura del martedì mattina'],
+>>>>>>> laraxot/dev
             'afternoon' => ['label' => 'Pomeriggio Martedì', 'placeholder' => 'Seleziona orario pomeridiano', 'helper_text' => 'Orario di apertura del martedì pomeriggio'],
             'morning_from' => ['label' => 'Orario', 'placeholder' => '08:00', 'helper_text' => '', 'description' => 'tuesday.morning_from'],
             'morning_to' => ['label' => 'Orario', 'placeholder' => '12:00', 'helper_text' => '', 'description' => 'tuesday.morning_to'],
@@ -33,7 +41,11 @@ return [
             'description' => '',
         ],
         'wednesday' => [
+<<<<<<< HEAD
            'morning' => ['label' => 'Mattina Mercoledì', 'placeholder' => 'Seleziona orario mattutino', 'helper_text' => 'Orario di apertura del mercoledì mattina'],
+=======
+            'morning' => ['label' => 'Mattina Mercoledì', 'placeholder' => 'Seleziona orario mattutino', 'helper_text' => 'Orario di apertura del mercoledì mattina'],
+>>>>>>> laraxot/dev
             'afternoon' => ['label' => 'Pomeriggio Mercoledì', 'placeholder' => 'Seleziona orario pomeridiano', 'helper_text' => 'Orario di apertura del mercoledì pomeriggio'],
             'morning_from' => ['label' => 'Orario', 'placeholder' => '08:00', 'helper_text' => '', 'description' => 'wednesday.morning_from'],
             'morning_to' => ['label' => 'Orario', 'placeholder' => '12:00', 'helper_text' => '', 'description' => 'wednesday.morning_to'],
@@ -47,7 +59,11 @@ return [
             'description' => '',
         ],
         'thursday' => [
+<<<<<<< HEAD
            'morning' => ['label' => 'Mattina Giovedì', 'placeholder' => 'Seleziona orario mattutino', 'helper_text' => 'Orario di apertura del giovedì mattina'],
+=======
+            'morning' => ['label' => 'Mattina Giovedì', 'placeholder' => 'Seleziona orario mattutino', 'helper_text' => 'Orario di apertura del giovedì mattina'],
+>>>>>>> laraxot/dev
             'afternoon' => ['label' => 'Pomeriggio Giovedì', 'placeholder' => 'Seleziona orario pomeridiano', 'helper_text' => 'Orario di apertura del giovedì pomeriggio'],
             'morning_from' => ['label' => 'Orario', 'placeholder' => '08:00', 'helper_text' => '', 'description' => 'thursday.morning_from'],
             'morning_to' => ['label' => 'Orario', 'placeholder' => '12:00', 'helper_text' => '', 'description' => 'thursday.morning_to'],
@@ -61,7 +77,11 @@ return [
             'description' => '',
         ],
         'friday' => [
+<<<<<<< HEAD
            'morning' => ['label' => 'Mattina Venerdì', 'placeholder' => 'Seleziona orario mattutino', 'helper_text' => 'Orario di apertura del venerdì mattina'],
+=======
+            'morning' => ['label' => 'Mattina Venerdì', 'placeholder' => 'Seleziona orario mattutino', 'helper_text' => 'Orario di apertura del venerdì mattina'],
+>>>>>>> laraxot/dev
             'afternoon' => ['label' => 'Pomeriggio Venerdì', 'placeholder' => 'Seleziona orario pomeridiano', 'helper_text' => 'Orario di apertura del venerdì pomeriggio'],
             'morning_from' => ['label' => 'Orario', 'placeholder' => '08:00', 'helper_text' => '', 'description' => 'friday.morning_from'],
             'morning_to' => ['label' => 'Orario', 'placeholder' => '12:00', 'helper_text' => '', 'description' => 'friday.morning_to'],
@@ -75,7 +95,11 @@ return [
             'description' => '',
         ],
         'saturday' => [
+<<<<<<< HEAD
            'morning' => ['label' => 'Mattina Sabato', 'placeholder' => 'Seleziona orario mattutino', 'helper_text' => 'Orario di apertura del sabato mattina'],
+=======
+            'morning' => ['label' => 'Mattina Sabato', 'placeholder' => 'Seleziona orario mattutino', 'helper_text' => 'Orario di apertura del sabato mattina'],
+>>>>>>> laraxot/dev
             'afternoon' => ['label' => 'Pomeriggio Sabato', 'placeholder' => 'Seleziona orario pomeridiano', 'helper_text' => 'Orario di apertura del sabato pomeriggio'],
             'morning_from' => ['label' => 'Orario', 'placeholder' => '08:00', 'helper_text' => '', 'description' => 'saturday.morning_from'],
             'morning_to' => ['label' => 'Orario', 'placeholder' => '12:00', 'helper_text' => '', 'description' => 'saturday.morning_to'],
@@ -89,7 +113,11 @@ return [
             'description' => '',
         ],
         'sunday' => [
+<<<<<<< HEAD
            'morning' => ['label' => 'Mattina Domenica', 'placeholder' => 'Seleziona orario mattutino', 'helper_text' => 'Orario di apertura della domenica mattina'],
+=======
+            'morning' => ['label' => 'Mattina Domenica', 'placeholder' => 'Seleziona orario mattutino', 'helper_text' => 'Orario di apertura della domenica mattina'],
+>>>>>>> laraxot/dev
             'afternoon' => ['label' => 'Pomeriggio Domenica', 'placeholder' => 'Seleziona orario pomeridiano', 'helper_text' => 'Orario di apertura della domenica pomeriggio'],
             'morning_from' => ['label' => 'Orario', 'placeholder' => '08:00', 'helper_text' => ''],
             'morning_to' => ['label' => 'Orario', 'placeholder' => '12:00', 'helper_text' => ''],
@@ -102,7 +130,11 @@ return [
             'helper_text' => '',
             'description' => '',
         ],
+<<<<<<< HEAD
        'schedule' => ['label' => 'Programma Orari', 'placeholder' => 'Configura gli orari di apertura', 'helper_text' => 'Gestione completa degli orari di disponibilità', 'tooltip' => '', 'description' => ''],
+=======
+        'schedule' => ['label' => 'Programma Orari', 'placeholder' => 'Configura gli orari di apertura', 'helper_text' => 'Gestione completa degli orari di disponibilità', 'tooltip' => '', 'description' => ''],
+>>>>>>> laraxot/dev
         'availability' => ['label' => 'Disponibilità', 'placeholder' => 'Imposta la tua disponibilità', 'helper_text' => 'Configura quando sei disponibile per appuntamenti', 'tooltip' => '', 'description' => ''],
         'monday_label' => ['label' => 'monday_label'],
         'tuesday_label' => ['label' => 'tuesday_label'],
@@ -169,7 +201,11 @@ return [
     'navigation' => [
         'name' => 'Opening Hours Field',
         'plural' => 'Opening Hours Field',
+<<<<<<< HEAD
        'group' => ['name' => 'General', 'description' => 'General Settings'],
+=======
+        'group' => ['name' => 'General', 'description' => 'General Settings'],
+>>>>>>> laraxot/dev
         'label' => 'Opening Hours Field',
         'sort' => 1,
         'icon' => 'heroicon-o-rectangle-stack',

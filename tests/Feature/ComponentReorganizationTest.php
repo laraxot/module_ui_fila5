@@ -106,7 +106,11 @@ describe('Component Reorganization Tests', function (): void {
 
 describe('Component Rendering Tests', function (): void {
     beforeEach(function (): void {
+<<<<<<< HEAD
        /* @var \Modules\UI\Tests\TestCase $this */
+=======
+        /* @var \Modules\UI\Tests\TestCase $this */
+>>>>>>> laraxot/dev
         skipUnlessPubThemeViews();
     });
 
@@ -129,7 +133,11 @@ describe('Component Rendering Tests', function (): void {
 
     test('reorganized button components render correctly', function (): void {
         if (! View::exists('pub_theme::components.utilities.button')) {
+<<<<<<< HEAD
            Assert::markTestSkipped('pub_theme utilities.button view is not available in this install.');
+=======
+            Assert::markTestSkipped('pub_theme utilities.button view is not available in this install.');
+>>>>>>> laraxot/dev
         }
 
         /** @var view-string $viewName */
@@ -147,7 +155,11 @@ describe('Component Rendering Tests', function (): void {
 
     test('reorganized card components render correctly', function (): void {
         if (! View::exists('pub_theme::components.data-display.card')) {
+<<<<<<< HEAD
            Assert::markTestSkipped('pub_theme data-display.card view is not available in this install.');
+=======
+            Assert::markTestSkipped('pub_theme data-display.card view is not available in this install.');
+>>>>>>> laraxot/dev
         }
 
         /** @var view-string $viewName */
@@ -167,7 +179,11 @@ describe('Component Rendering Tests', function (): void {
 
 describe('Component Integration Tests', function (): void {
     beforeEach(function (): void {
+<<<<<<< HEAD
        /* @var \Modules\UI\Tests\TestCase $this */
+=======
+        /* @var \Modules\UI\Tests\TestCase $this */
+>>>>>>> laraxot/dev
         if (! app()->bound('view')) {
             Assert::markTestSkipped('View factory is not available in this install.');
         }
@@ -191,7 +207,11 @@ describe('Component Integration Tests', function (): void {
             </x-slot>
         </x-layout.sections.action-section>';
 
+<<<<<<< HEAD
        try {
+=======
+        try {
+>>>>>>> laraxot/dev
             Blade::render($testView);
         } catch (\Throwable $e) {
             Assert::markTestSkipped('Blade component integration not renderable in this install: '.$e->getMessage());

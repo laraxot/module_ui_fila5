@@ -51,7 +51,11 @@ describe('Component Model', function (): void {
         ];
 
         foreach ($expected as $field) {
+<<<<<<< HEAD
            /* @phpstan-ignore-next-line class.notFound, argument.type (Component model absent from artifact set) */
+=======
+            /* @phpstan-ignore-next-line class.notFound, argument.type (Component model absent from artifact set) */
+>>>>>>> laraxot/dev
             Assert::assertTrue(in_array($field, $component->getFillable()));
         }
     });

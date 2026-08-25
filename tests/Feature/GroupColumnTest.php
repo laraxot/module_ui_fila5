@@ -49,7 +49,11 @@ function groupColumnViewTableBag(): array
 describe('GroupColumn class', function (): void {
     it('can be instantiated with make()', function (): void {
         $column = GroupColumn::make('test');
+<<<<<<< HEAD
        Assert::assertInstanceOf(GroupColumn::class, $column);
+=======
+        Assert::assertInstanceOf(GroupColumn::class, $column);
+>>>>>>> laraxot/dev
         Assert::assertSame('test', $column->getName());
     });
 
@@ -62,7 +66,11 @@ describe('GroupColumn class', function (): void {
             ]);
 
         $fields = $column->getFields();
+<<<<<<< HEAD
        Assert::assertCount(3, $fields);
+=======
+        Assert::assertCount(3, $fields);
+>>>>>>> laraxot/dev
         Assert::assertInstanceOf(TextColumn::class, $fields[0]);
         Assert::assertSame('matr', $fields[0]->getName());
     });
@@ -78,17 +86,29 @@ describe('GroupColumn class', function (): void {
             ]);
 
         $fields = $column->getFields();
+<<<<<<< HEAD
        Assert::assertCount(2, $fields);
+=======
+        Assert::assertCount(2, $fields);
+>>>>>>> laraxot/dev
     });
 
     it('handles empty schema', function (): void {
         $column = GroupColumn::make('empty')->schema([]);
+<<<<<<< HEAD
        Assert::assertEmpty($column->getFields());
+=======
+        Assert::assertEmpty($column->getFields());
+>>>>>>> laraxot/dev
     });
 
     it('uses correct view path', function (): void {
         $column = GroupColumn::make('test');
+<<<<<<< HEAD
        $reflection = new \ReflectionClass($column);
+=======
+        $reflection = new \ReflectionClass($column);
+>>>>>>> laraxot/dev
         $property = $reflection->getProperty('view');
 
         Assert::assertSame('ui::filament.tables.columns.group', $property->getValue($column));
@@ -122,7 +142,11 @@ describe('GroupColumn view rendering', function (): void {
         ];
 
         $value = data_get($record, 'matr');
+<<<<<<< HEAD
        Assert::assertSame('12345', $value);
+=======
+        Assert::assertSame('12345', $value);
+>>>>>>> laraxot/dev
         $value = data_get($record, 'cognome');
         Assert::assertSame('Rossi', $value);
     });
@@ -136,7 +160,11 @@ describe('GroupColumn view rendering', function (): void {
         ];
 
         // Test data_get() resolves dot notation
+<<<<<<< HEAD
        Assert::assertSame('Mario Rossi', data_get($record, 'valutatore.nome_diri'));
+=======
+        Assert::assertSame('Mario Rossi', data_get($record, 'valutatore.nome_diri'));
+>>>>>>> laraxot/dev
         Assert::assertSame('Stabilimento A', data_get($record, 'valutatore.stabi_txt'));
     });
 
@@ -145,7 +173,11 @@ describe('GroupColumn view rendering', function (): void {
             'valutatore' => null,
         ];
 
+<<<<<<< HEAD
        Assert::assertNull(data_get($record, 'valutatore.nome_diri'));
+=======
+        Assert::assertNull(data_get($record, 'valutatore.nome_diri'));
+>>>>>>> laraxot/dev
     });
 
     it('handles deep nesting', function (): void {
@@ -157,7 +189,11 @@ describe('GroupColumn view rendering', function (): void {
             ],
         ];
 
+<<<<<<< HEAD
        Assert::assertSame('deep value', data_get($record, 'level1.level2.level3'));
+=======
+        Assert::assertSame('deep value', data_get($record, 'level1.level2.level3'));
+>>>>>>> laraxot/dev
     });
 
     it('preserves zero values', function (): void {
@@ -166,7 +202,11 @@ describe('GroupColumn view rendering', function (): void {
             'string_zero' => '0',
         ];
 
+<<<<<<< HEAD
        Assert::assertSame(0, data_get($record, 'score'));
+=======
+        Assert::assertSame(0, data_get($record, 'score'));
+>>>>>>> laraxot/dev
         Assert::assertSame('0', data_get($record, 'string_zero'));
     });
 
@@ -180,7 +220,11 @@ describe('GroupColumn view rendering', function (): void {
         $fields = [TextColumn::make('valutatore.nome_diri')];
 
         if (! app()->bound('view')) {
+<<<<<<< HEAD
            Assert::assertSame('Mario Rossi', data_get($record, 'valutatore.nome_diri'));
+=======
+            Assert::assertSame('Mario Rossi', data_get($record, 'valutatore.nome_diri'));
+>>>>>>> laraxot/dev
 
             return;
         }
@@ -191,7 +235,11 @@ describe('GroupColumn view rendering', function (): void {
             'attributes' => new ComponentAttributeBag(),
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
+<<<<<<< HEAD
            ...groupColumnViewTableBag(),
+=======
+            ...groupColumnViewTableBag(),
+>>>>>>> laraxot/dev
         ])->render();
 
         Assert::assertStringContainsString((string) 'Mario Rossi', (string) $html);
@@ -211,7 +259,11 @@ describe('GroupColumn view rendering', function (): void {
         ];
 
         if (! app()->bound('view')) {
+<<<<<<< HEAD
            Assert::assertSame('12345', data_get($record, 'matr'));
+=======
+            Assert::assertSame('12345', data_get($record, 'matr'));
+>>>>>>> laraxot/dev
             Assert::assertSame('Rossi', data_get($record, 'cognome'));
             Assert::assertSame('Mario', data_get($record, 'nome'));
 
@@ -224,7 +276,11 @@ describe('GroupColumn view rendering', function (): void {
             'attributes' => new ComponentAttributeBag(),
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
+<<<<<<< HEAD
            ...groupColumnViewTableBag(),
+=======
+            ...groupColumnViewTableBag(),
+>>>>>>> laraxot/dev
         ])->render();
 
         Assert::assertStringContainsString((string) '12345', (string) $html);
@@ -242,7 +298,11 @@ describe('GroupColumn view rendering', function (): void {
         ];
 
         // The view logic: skip if empty($value) && $value !== 0 && $value !== '0'
+<<<<<<< HEAD
        $shouldSkip = static function (mixed $value): bool {
+=======
+        $shouldSkip = static function (mixed $value): bool {
+>>>>>>> laraxot/dev
             return empty($value) && 0 !== $value && '0' !== $value;
         };
 

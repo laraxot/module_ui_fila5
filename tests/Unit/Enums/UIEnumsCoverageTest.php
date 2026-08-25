@@ -18,7 +18,11 @@ uses(TestCase::class);
 // --- CornerPositionEnum ---
 
 it('CornerPositionEnum has correct values', function (): void {
+<<<<<<< HEAD
    Assert::assertSame('top-left', CornerPositionEnum::TOP_LEFT->value);
+=======
+    Assert::assertSame('top-left', CornerPositionEnum::TOP_LEFT->value);
+>>>>>>> laraxot/dev
     Assert::assertSame('top-right', CornerPositionEnum::TOP_RIGHT->value);
     Assert::assertSame('bottom-left', CornerPositionEnum::BOTTOM_LEFT->value);
     Assert::assertSame('bottom-right', CornerPositionEnum::BOTTOM_RIGHT->value);
@@ -50,14 +54,22 @@ it('CornerPositionEnum can be created from value', function (): void {
 
 it('CornerPositionEnum getLabel returns a string', function (): void {
     foreach (CornerPositionEnum::cases() as $case) {
+<<<<<<< HEAD
        Assert::assertNotEmpty($case->getLabel());
+=======
+        Assert::assertNotEmpty($case->getLabel());
+>>>>>>> laraxot/dev
     }
 });
 
 // --- FieldTypeEnum ---
 
 it('FieldTypeEnum has correct values', function (): void {
+<<<<<<< HEAD
    Assert::assertSame('text', FieldTypeEnum::TEXT->value);
+=======
+    Assert::assertSame('text', FieldTypeEnum::TEXT->value);
+>>>>>>> laraxot/dev
     Assert::assertSame('email', FieldTypeEnum::EMAIL->value);
     Assert::assertSame('textarea', FieldTypeEnum::TEXTAREA->value);
     Assert::assertSame('select', FieldTypeEnum::SELECT->value);
@@ -76,37 +88,61 @@ it('FieldTypeEnum implements HasLabel, HasColor, HasIcon', function (): void {
 
 it('FieldTypeEnum getLabel returns a string', function (): void {
     foreach (FieldTypeEnum::cases() as $case) {
+<<<<<<< HEAD
        Assert::assertNotEmpty($case->getLabel());
+=======
+        Assert::assertNotEmpty($case->getLabel());
+>>>>>>> laraxot/dev
     }
 });
 
 it('FieldTypeEnum getColor returns a string', function (): void {
     foreach (FieldTypeEnum::cases() as $case) {
+<<<<<<< HEAD
        Assert::assertNotEmpty($case->getColor());
+=======
+        Assert::assertNotEmpty($case->getColor());
+>>>>>>> laraxot/dev
     }
 });
 
 it('FieldTypeEnum getIcon returns a string', function (): void {
     foreach (FieldTypeEnum::cases() as $case) {
+<<<<<<< HEAD
        Assert::assertNotEmpty($case->getIcon());
+=======
+        Assert::assertNotEmpty($case->getIcon());
+>>>>>>> laraxot/dev
     }
 });
 
 it('FieldTypeEnum getDescription returns a string', function (): void {
     foreach (FieldTypeEnum::cases() as $case) {
+<<<<<<< HEAD
        Assert::assertNotEmpty($case->getDescription());
+=======
+        Assert::assertNotEmpty($case->getDescription());
+>>>>>>> laraxot/dev
     }
 });
 
 it('FieldTypeEnum can be created from value', function (): void {
+<<<<<<< HEAD
    Assert::assertSame(FieldTypeEnum::TEXT, FieldTypeEnum::from('text'));
+=======
+    Assert::assertSame(FieldTypeEnum::TEXT, FieldTypeEnum::from('text'));
+>>>>>>> laraxot/dev
     Assert::assertSame(FieldTypeEnum::EMAIL, FieldTypeEnum::from('email'));
 });
 
 // --- TableLayout ---
 
 it('TableLayout has correct values', function (): void {
+<<<<<<< HEAD
    Assert::assertSame('list', TableLayout::LIST->value);
+=======
+    Assert::assertSame('list', TableLayout::LIST->value);
+>>>>>>> laraxot/dev
     Assert::assertSame('grid', TableLayout::GRID->value);
 });
 

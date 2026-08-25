@@ -30,8 +30,17 @@ Referenziava `Modules\Geo\Services\MapService` e `Modules\Geo\Services\Geocoding
 
 Esiste anche in:
 - `Modules/Blog/app/Models/Category.php`
+<<<<<<< HEAD
 - `Modules/<nome progetto>/app/Models/Category.php`
 - `Modules/Project/app/Models/Category.php`
+=======
+<<<<<<< HEAD
+- `Modules/Fixcity/app/Models/Category.php`
+=======
+- `Modules/<nome progetto>/app/Models/Category.php`
+- `Modules/Project/app/Models/Category.php`
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 Verificare se ciascun modulo ha la propria tabella `categories` o se dovrebbe usare un modello condiviso.
 

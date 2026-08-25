@@ -20,6 +20,8 @@ Gestione interfaccia utente, componenti, asset e frontend.
 ```
 
 ## Note
+<<<<<<< HEAD
+=======
 - Personalizza la configurazione per esigenze di frontend avanzato.
 # MCP Server Consigliati per il Modulo UI
 ## Scopo del Modulo
@@ -39,3 +41,7 @@ Gestione interfaccia utente, componenti, asset e frontend.
 }
 ```
 ## Note
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

@@ -4,7 +4,11 @@ declare(strict_types=1);
 
 return [
     'months' => [
+<<<<<<< HEAD
        'long' => ['Gennaio', 'Febbraio', 'Marzo', 'Aprile', 'Maggio', 'Giugno', 'Luglio', 'Agosto', 'Settembre', 'Ottobre', 'Novembre', 'Dicembre'],
+=======
+        'long' => ['Gennaio', 'Febbraio', 'Marzo', 'Aprile', 'Maggio', 'Giugno', 'Luglio', 'Agosto', 'Settembre', 'Ottobre', 'Novembre', 'Dicembre'],
+>>>>>>> laraxot/dev
         'short' => ['Gen', 'Feb', 'Mar', 'Apr', 'Mag', 'Giu', 'Lug', 'Ago', 'Set', 'Ott', 'Nov', 'Dic'],
     ],
     'weekdays' => [
@@ -31,7 +35,11 @@ return [
     'navigation' => [
         'name' => 'User Calendar',
         'plural' => 'User Calendar',
+<<<<<<< HEAD
        'group' => ['name' => 'General', 'description' => 'General Settings'],
+=======
+        'group' => ['name' => 'General', 'description' => 'General Settings'],
+>>>>>>> laraxot/dev
         'label' => 'User Calendar',
         'sort' => 1,
         'icon' => 'heroicon-o-rectangle-stack',

@@ -13,14 +13,22 @@ use Modules\Xot\Providers\XotBaseServiceProvider;
  * Nota: la registrazione dei Blade components modulari avviene tramite GetModulePathByGeneratorAction
  * per garantire la corretta risoluzione dei path secondo la struttura dei moduli.
  *
+<<<<<<< HEAD
 * Nessun binding Geo/Map/Location: dominio geografico non appartiene a UI
+=======
+ * Nessun binding Geo/Map/Location: dominio geografico non appartiene a UI
+>>>>>>> laraxot/dev
  * (vedi docs/geo-boundary.md). In questo progetto il modulo Geo non è presente.
  *
  * @phpstan-type ModuleConfig array{name: string, alias: string, description: string, keywords: array<int, string>, priority: int, providers: array<int, class-string>}
  */
 class UIServiceProvider extends XotBaseServiceProvider
 {
+<<<<<<< HEAD
    public string $name = 'UI';
+=======
+    public string $name = 'UI';
+>>>>>>> laraxot/dev
 
     protected string $module_dir = __DIR__;
 

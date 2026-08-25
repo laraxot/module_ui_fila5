@@ -95,6 +95,8 @@ return [
 
 ## Vedi Anche
 - [Filament File Upload](https://filamentphp.com/docs/forms/fields/file-upload)
+<<<<<<< HEAD
+=======
 - [Laravel File Storage](https://laravel.com/docs/filesystem)
 # FileUpload Component in Filament
 ## Metodi Disponibili
@@ -157,6 +159,10 @@ return [
    - Documenta requisiti specifici
    - Segui le convenzioni di naming
 ## Collegamenti
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [Translation System](../../Lang/project_docs/translation-system.md)
 - [Form Components](../../Patient/project_docs/filament-form-components.md)
 - [Best Practices](../../Xot/project_docs/filament-best-practices.md)

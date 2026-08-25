@@ -280,12 +280,21 @@ The main issue was that `wire:click` doesn't work directly in Filament table col
 #### Solution Architecture
 ```javascript
 // Custom event dispatch
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 onclick="window.dispatchEvent(new CustomEvent('state-transition', { 
     detail: { 
         recordId: {{ $record->id }}, 
         stateClass: '{{ $state['class']::class }}',
         action: 'prova'
     } 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 }))"
 
 // Event listener for Livewire integration

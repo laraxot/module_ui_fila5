@@ -46,7 +46,11 @@ class InlineDatePicker extends XotBaseDatePicker
     {
         parent::setUp();
 
+<<<<<<< HEAD
        Carbon::setLocale(App::getLocale());
+=======
+        Carbon::setLocale(App::getLocale());
+>>>>>>> laraxot/dev
         $this->currentViewMonth = now()->format('Y-m');
 
         $this->afterStateHydrated(static function (self $component, mixed $state): void {
@@ -116,7 +120,11 @@ class InlineDatePicker extends XotBaseDatePicker
      */
     public function currentViewMonth(string $month): static
     {
+<<<<<<< HEAD
        if (empty($month) || ! preg_match('/^\d{4}-\d{2}$/', $month)) {
+=======
+        if (empty($month) || ! preg_match('/^\d{4}-\d{2}$/', $month)) {
+>>>>>>> laraxot/dev
             $this->currentViewMonth = now()->format('Y-m');
         } else {
             try {
@@ -183,7 +191,11 @@ class InlineDatePicker extends XotBaseDatePicker
             $this->currentViewMonth = now()->format('Y-m');
         }
 
+<<<<<<< HEAD
        $targetMonthRaw = Carbon::createFromFormat('Y-m', $this->currentViewMonth);
+=======
+        $targetMonthRaw = Carbon::createFromFormat('Y-m', $this->currentViewMonth);
+>>>>>>> laraxot/dev
         if (! $targetMonthRaw) {
             $targetMonthRaw = Carbon::now();
         }
@@ -270,7 +282,11 @@ class InlineDatePicker extends XotBaseDatePicker
         $monday = Carbon::now()->startOfWeek(Carbon::MONDAY);
 
         for ($i = 0; $i < 7; ++$i) {
+<<<<<<< HEAD
            $dayCarbon = $monday->copy()->addDays($i)->locale(App::getLocale());
+=======
+            $dayCarbon = $monday->copy()->addDays($i)->locale(App::getLocale());
+>>>>>>> laraxot/dev
             if (! $dayCarbon instanceof Carbon) {
                 throw new \RuntimeException('Expected Carbon instance');
             }

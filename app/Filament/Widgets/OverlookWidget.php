@@ -27,14 +27,22 @@ final class OverlookWidget extends XotBaseSchemaWidget
      * ];
      */
 
+<<<<<<< HEAD
    /** @var array<int, array<string, mixed>> */
+=======
+    /** @var array<int, array<string, mixed>> */
+>>>>>>> laraxot/dev
     public array $stats = [];
 
     protected string $view = 'ui::filament.widgets.overlook';
 
     protected int|string|array $columnSpan = 1;
 
+<<<<<<< HEAD
    /**
+=======
+    /**
+>>>>>>> laraxot/dev
      * @return array<string, mixed>
      */
     public function getFormSchema(): array

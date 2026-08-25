@@ -19,14 +19,22 @@ it('has enum values', function (): void {
 
 it('has default layout', function (): void {
     $default = TableLayoutEnum::init();
+<<<<<<< HEAD
    Assert::assertSame(TableLayoutEnum::LIST, $default);
+=======
+    Assert::assertSame(TableLayoutEnum::LIST, $default);
+>>>>>>> laraxot/dev
 });
 
 it('toggles between layouts', function (): void {
     $list = TableLayoutEnum::LIST;
     $grid = TableLayoutEnum::GRID;
 
+<<<<<<< HEAD
    Assert::assertSame($grid, $list->toggle());
+=======
+    Assert::assertSame($grid, $list->toggle());
+>>>>>>> laraxot/dev
     Assert::assertSame($list, $grid->toggle());
 });
 
@@ -34,7 +42,11 @@ it('checks layout types correctly', function (): void {
     $list = TableLayoutEnum::LIST;
     $grid = TableLayoutEnum::GRID;
 
+<<<<<<< HEAD
    Assert::assertTrue($list->isListLayout());
+=======
+    Assert::assertTrue($list->isListLayout());
+>>>>>>> laraxot/dev
     Assert::assertFalse($list->isGridLayout());
     Assert::assertTrue($grid->isGridLayout());
     Assert::assertFalse($grid->isListLayout());
@@ -44,7 +56,11 @@ it('has grid configuration', function (): void {
     $grid = TableLayoutEnum::GRID;
     $config = $grid->getTableContentGrid();
 
+<<<<<<< HEAD
    Assert::assertIsArray($config);
+=======
+    Assert::assertIsArray($config);
+>>>>>>> laraxot/dev
     Assert::assertArrayHasKey('sm', $config);
     Assert::assertArrayHasKey('md', $config);
     Assert::assertArrayHasKey('lg', $config);
@@ -70,7 +86,11 @@ it('returns correct table columns based on layout', function (): void {
 
     // Test list layout
     $result = $list->getTableColumns($listColumns, $gridColumns);
+<<<<<<< HEAD
    Assert::assertSame($listColumns, $result);
+=======
+    Assert::assertSame($listColumns, $result);
+>>>>>>> laraxot/dev
     // Test grid layout
     $result = $grid->getTableColumns($listColumns, $gridColumns);
     Assert::assertSame($gridColumns, $result);
@@ -79,7 +99,11 @@ it('returns correct table columns based on layout', function (): void {
 it('has options', function (): void {
     $options = TableLayoutEnum::getOptions();
 
+<<<<<<< HEAD
    Assert::assertArrayHasKey('list', $options);
+=======
+    Assert::assertArrayHasKey('list', $options);
+>>>>>>> laraxot/dev
     Assert::assertArrayHasKey('grid', $options);
     Assert::assertIsString($options['list']);
     Assert::assertIsString($options['grid']);
@@ -94,6 +118,10 @@ it('has container classes', function (): void {
     $listClasses = $list->getContainerClasses();
     $gridClasses = $grid->getContainerClasses();
 
+<<<<<<< HEAD
    Assert::assertGreaterThan(0, strlen($listClasses));
+=======
+    Assert::assertGreaterThan(0, strlen($listClasses));
+>>>>>>> laraxot/dev
     Assert::assertGreaterThan(0, strlen($gridClasses));
 });

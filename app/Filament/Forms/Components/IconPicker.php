@@ -27,7 +27,11 @@ class IconPicker extends XotBaseTextInput
         $packsKeys = $packs;
         $packsCombined = array_combine($packsKeys, $packsKeys);
         /** @var array<string, string> $packs */
+<<<<<<< HEAD
        $packs = $packsCombined ?: [];
+=======
+        $packs = $packsCombined ?: [];
+>>>>>>> laraxot/dev
 
         $this->suffixAction(
             Action::make('icon')
@@ -42,7 +46,11 @@ class IconPicker extends XotBaseTextInput
                     RadioIcon::make('newstate')
                         ->options(function (Get $get) use ($icons): array {
                             $pack = $get('pack');
+<<<<<<< HEAD
                            if (! \is_string($pack)) {
+=======
+                            if (! \is_string($pack)) {
+>>>>>>> laraxot/dev
                                 return [];
                             }
                             $key = $pack.'.icons';
@@ -52,7 +60,11 @@ class IconPicker extends XotBaseTextInput
                                 '['.__LINE__.']['.class_basename($this).']',
                             );
                             /** @var array<int|string, mixed> $optsRaw */
+<<<<<<< HEAD
                            $optsValues = array_map(
+=======
+                            $optsValues = array_map(
+>>>>>>> laraxot/dev
                                 static fn (mixed $v): string => SafeStringCastAction::cast($v),
                                 array_values($optsRaw),
                             );
@@ -68,7 +80,11 @@ class IconPicker extends XotBaseTextInput
                         ->inline()
                         ->inlineLabel(false),
                 ])
+<<<<<<< HEAD
                ->action(static function (array $data, Set $set): void {
+=======
+                ->action(static function (array $data, Set $set): void {
+>>>>>>> laraxot/dev
                     $set('icon', $data['newstate']);
                 }),
         );

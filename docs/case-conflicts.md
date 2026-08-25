@@ -1,9 +1,23 @@
 # Case-Insensitive File Conflicts
 
+<<<<<<< HEAD
+Su Linux i file `Foo.md` e `foo.md` coesistono; su Windows/macOS collidono. Una sola variante per coppia.
+=======
+<<<<<<< HEAD
+File duplicati rilevati nel modulo `UI`:
+>>>>>>> laraxot/dev
+
+## Risolto (2026-08-18)
+
+<<<<<<< HEAD
+=======
+Uniformare ciascuna coppia scegliendo un'unica versione (in genere `README.md`, `CONTRIBUTING.md`, ecc.) e rimuovere i duplicati.
+=======
 Su Linux i file `Foo.md` e `foo.md` coesistono; su Windows/macOS collidono. Una sola variante per coppia.
 
 ## Risolto (2026-08-18)
 
+>>>>>>> laraxot/dev
 | Coppia | Tenuto | Perché |
 |---|---|---|
 | `.github/CONTRIBUTING.md` / `contributing.md` | `CONTRIBUTING.md` | GitHub legge quel nome; il minuscolo era lo stesso testo con marker |
@@ -18,3 +32,7 @@ Su Linux i file `Foo.md` e `foo.md` coesistono; su Windows/macOS collidono. Una 
 ## Ancora aperti
 
 Nessun marker di conflitto a inizio riga nel repo (`git grep`). I Feature Pest Filament del modulo User possono contendere il database di testing con altri suite in parallelo.
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

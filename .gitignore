@@ -244,4 +244,8 @@ phpstan*
 phpmd*
 rector.php
 phpmd.ruleset.xml
+<<<<<<< HEAD
 phpmd.ruleset.xml.bak
+=======
+phpmd.ruleset.xml.bak
+>>>>>>> laraxot/dev

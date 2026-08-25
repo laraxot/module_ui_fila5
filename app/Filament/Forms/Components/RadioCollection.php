@@ -15,7 +15,11 @@ final class RadioCollection extends XotBaseField
     /**
      * Callback per ottenere gli studi.
      */
+<<<<<<< HEAD
    /** @var \Closure|Collection<int|string, mixed>|null */
+=======
+    /** @var \Closure|Collection<int|string, mixed>|null */
+>>>>>>> laraxot/dev
     protected \Closure|Collection|null $options = null;
 
     protected string $itemView;
@@ -25,7 +29,11 @@ final class RadioCollection extends XotBaseField
     /**
      * Set the options collection for the radio buttons.
      */
+<<<<<<< HEAD
    /**
+=======
+    /**
+>>>>>>> laraxot/dev
      * @param \Closure|Collection<int|string, mixed>|null $options
      */
     public function options(\Closure|Collection|null $options): static
@@ -89,7 +97,11 @@ final class RadioCollection extends XotBaseField
 
     /**
      * Comparazione type-safe per determinare se un'opzione è selezionata.
+<<<<<<< HEAD
     *
+=======
+     *
+>>>>>>> laraxot/dev
      * @param  mixed  $stateOverride  stato esplicito (test/offline senza container Livewire)
      */
     public function isOptionSelected(mixed $option, mixed $stateOverride = null): bool

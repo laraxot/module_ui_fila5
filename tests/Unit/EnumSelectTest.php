@@ -15,7 +15,11 @@ it('generates options from enum class', function (): void {
 
     $options = $select->getOptions();
 
+<<<<<<< HEAD
    Assert::assertCount(3, $options);
+=======
+    Assert::assertCount(3, $options);
+>>>>>>> laraxot/dev
     foreach (['red', 'green', 'blue'] as $key) {
         Assert::assertArrayHasKey($key, $options);
     }
@@ -27,7 +31,11 @@ it('uses HasLabel interface when available', function (): void {
 
     $options = $select->getOptions();
 
+<<<<<<< HEAD
    Assert::assertNotEmpty($options['red']);
+=======
+    Assert::assertNotEmpty($options['red']);
+>>>>>>> laraxot/dev
     Assert::assertNotEmpty($options['green']);
 });
 
@@ -37,7 +45,11 @@ it('falls back to case name when HasLabel not implemented', function (): void {
 
     $options = $select->getOptions();
 
+<<<<<<< HEAD
    Assert::assertSame('ALPHA', $options['alpha']);
+=======
+    Assert::assertSame('ALPHA', $options['alpha']);
+>>>>>>> laraxot/dev
     Assert::assertSame('BETA', $options['beta']);
 });
 
@@ -106,7 +118,11 @@ it('formats html labels with icons', function (): void {
 
     $options = $select->getOptions();
 
+<<<<<<< HEAD
    $redOption = $options['red'];
+=======
+    $redOption = $options['red'];
+>>>>>>> laraxot/dev
     Assert::assertIsString($redOption);
     Assert::assertStringContainsString('heroicon-o-exclamation', $redOption);
     Assert::assertStringContainsString('Rosso', $redOption);

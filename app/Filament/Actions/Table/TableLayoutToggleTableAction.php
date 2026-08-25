@@ -17,7 +17,11 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
     {
         parent::setUp();
 
+<<<<<<< HEAD
        $this->iconButton()
+=======
+        $this->iconButton()
+>>>>>>> laraxot/dev
             ->label('')
             ->tooltip(fn (): string => $this->resolveTargetLayout()->getLabel())
             ->icon(fn (): string => $this->resolveTargetLayout()->getIcon())
@@ -29,7 +33,11 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
         return 'table_layout_toggle';
     }
 
+<<<<<<< HEAD
    protected function toggleLayout(): void
+=======
+    protected function toggleLayout(): void
+>>>>>>> laraxot/dev
     {
         $livewire = $this->getLivewire();
 

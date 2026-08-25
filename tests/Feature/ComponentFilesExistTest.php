@@ -74,7 +74,11 @@ describe('Component Files Exist', function (): void {
 
         foreach ($expected as $relativePath) {
             if (! file_exists($themeBasePath.$relativePath)) {
+<<<<<<< HEAD
                Assert::markTestSkipped('Theme Sixteen expected component file missing: '.$relativePath);
+=======
+                Assert::markTestSkipped('Theme Sixteen expected component file missing: '.$relativePath);
+>>>>>>> laraxot/dev
             }
         }
 

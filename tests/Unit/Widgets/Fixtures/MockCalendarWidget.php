@@ -39,7 +39,11 @@ class MockCalendarWidget extends BaseCalendarWidgetStub
         ];
     }
 
+<<<<<<< HEAD
    /**
+=======
+    /**
+>>>>>>> laraxot/dev
      * @return array<int, Component>
      */
     public function getFormSchema(): array

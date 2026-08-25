@@ -25,7 +25,11 @@ use Modules\Xot\Traits\EnumTrait;
  */
 enum FieldTypeEnum: string implements HasColor, HasIcon, HasLabel
 {
+<<<<<<< HEAD
    use EnumTrait;
+=======
+    use EnumTrait;
+>>>>>>> laraxot/dev
 
     case TEXT = 'text';
     // case NUMBER   = 'number';

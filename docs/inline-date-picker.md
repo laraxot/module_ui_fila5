@@ -206,6 +206,8 @@ Check that you're not overriding the component's JavaScript with custom code. Th
 If the component doesn't look right, make sure you have the required Tailwind CSS utilities included in your build. The component uses standard Tailwind classes for styling.
 
 ## Contributing
+<<<<<<< HEAD
+=======
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 ## ♻️ Manutenzione
@@ -326,3 +328,7 @@ If the component doesn't look right, make sure you have the required Tailwind CS
 ## Contributing
 
 ```
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

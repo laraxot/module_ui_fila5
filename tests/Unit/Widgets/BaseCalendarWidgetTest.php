@@ -25,7 +25,11 @@ function createTestCalendarWidget(): UserCalendarWidget
             return 'Modules\\UI\\Tests\\Unit\\Widgets\\NonExistingAction';
         }
     };
+<<<<<<< HEAD
    $widget->type = 'test';
+=======
+    $widget->type = 'test';
+>>>>>>> laraxot/dev
 
     return $widget;
 }
@@ -52,7 +56,11 @@ describe('Base Calendar Widget', function (): void {
             'end' => '2025-01-31T23:59:59',
         ];
 
+<<<<<<< HEAD
        $events = $widget->fetchEvents($fetchInfo);
+=======
+        $events = $widget->fetchEvents($fetchInfo);
+>>>>>>> laraxot/dev
 
         Assert::assertCount(0, $events);
     });

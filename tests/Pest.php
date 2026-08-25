@@ -2,7 +2,11 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 /**
+=======
+/*
+>>>>>>> laraxot/dev
  * Bootstrap Pest — modulo UI.
  *
  * Questo file NON viene caricato. `Pest\Bootstrappers\BootFiles` legge `Pest.php`,

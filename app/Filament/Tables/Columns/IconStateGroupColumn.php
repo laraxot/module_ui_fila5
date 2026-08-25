@@ -90,7 +90,11 @@ class IconStateGroupColumn extends XotBaseColumnGroup
             $column->action(
                 Action::make($stateKey.'-action')
                     ->requiresConfirmation()
+<<<<<<< HEAD
                    ->modalHeading(static function (Model $record) use ($stateInstance) {
+=======
+                    ->modalHeading(static function (Model $record) use ($stateInstance) {
+>>>>>>> laraxot/dev
                         // StateContract provides modalHeading()
                         return $stateInstance->modalHeading();
                     })
@@ -103,7 +107,11 @@ class IconStateGroupColumn extends XotBaseColumnGroup
                         return $stateInstance->modalFormSchema();
                     })
                     ->fillForm($stateInstance->modalFillFormByRecord(...))
+<<<<<<< HEAD
                    ->action(static function (Model $record, array $data) use ($stateInstance): void {
+=======
+                    ->action(static function (Model $record, array $data) use ($stateInstance): void {
+>>>>>>> laraxot/dev
                         // Ensure data is treated as array<string, mixed> for PHPStan and StateContract
                         /** @var array<string, mixed> $typedData */
                         $typedData = $data;
@@ -113,7 +121,11 @@ class IconStateGroupColumn extends XotBaseColumnGroup
             );
 
             $visibleValue = $this->data[$visibleKey] ?? false;
+<<<<<<< HEAD
            $column->visible((bool) $visibleValue);
+=======
+            $column->visible((bool) $visibleValue);
+>>>>>>> laraxot/dev
             $columns[] = $column;
         }
 

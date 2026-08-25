@@ -27,7 +27,11 @@ it('SliderData can be instantiated with all fields', function (): void {
         action_text: 'Register Now',
     );
 
+<<<<<<< HEAD
    Assert::assertInstanceOf(SliderData::class, $data);
+=======
+    Assert::assertInstanceOf(SliderData::class, $data);
+>>>>>>> laraxot/dev
     Assert::assertSame('/img/desktop.jpg', $data->desktop_thumbnail);
     Assert::assertSame('/img/mobile.jpg', $data->mobile_thumbnail);
     Assert::assertSame('/events', $data->link);
@@ -48,7 +52,11 @@ it('SliderData sets short_description from description', function (): void {
         action_text: null,
     );
 
+<<<<<<< HEAD
    Assert::assertSame('My description', $data->short_description);
+=======
+    Assert::assertSame('My description', $data->short_description);
+>>>>>>> laraxot/dev
 });
 
 it('SliderData can be instantiated with nulls', function (): void {
@@ -64,7 +72,11 @@ it('SliderData can be instantiated with nulls', function (): void {
         action_text: null,
     );
 
+<<<<<<< HEAD
    Assert::assertInstanceOf(SliderData::class, $data);
+=======
+    Assert::assertInstanceOf(SliderData::class, $data);
+>>>>>>> laraxot/dev
     Assert::assertNull($data->desktop_thumbnail);
 });
 
@@ -77,7 +89,11 @@ it('SliderDataCollection can be instantiated', function (): void {
 it('SliderDataCollection is a Spatie Data class', function (): void {
     $collection = new SliderDataCollection();
 
+<<<<<<< HEAD
    Assert::assertInstanceOf(Data::class, $collection);
+=======
+    Assert::assertInstanceOf(Data::class, $collection);
+>>>>>>> laraxot/dev
 });
 
 it('UI Datas UserData can be instantiated', function (): void {
@@ -91,7 +107,11 @@ it('UI Datas UserData can be instantiated', function (): void {
         settings: ['theme' => 'dark'],
     );
 
+<<<<<<< HEAD
    Assert::assertInstanceOf(UserData::class, $data);
+=======
+    Assert::assertInstanceOf(UserData::class, $data);
+>>>>>>> laraxot/dev
     Assert::assertSame(1, $data->id);
     Assert::assertSame('Mario Rossi', $data->name);
     Assert::assertSame('mario@example.com', $data->email);
@@ -104,7 +124,11 @@ it('UI Datas UserData can be instantiated', function (): void {
 it('UI Datas UserData is a Spatie Data class', function (): void {
     $data = new UserData(1, 'Test', 'test@example.com', null, null, [], []);
 
+<<<<<<< HEAD
    Assert::assertInstanceOf(Data::class, $data);
+=======
+    Assert::assertInstanceOf(Data::class, $data);
+>>>>>>> laraxot/dev
 });
 
 it('UI Data UserData can be instantiated', function (): void {
@@ -118,7 +142,11 @@ it('UI Data UserData can be instantiated', function (): void {
         settings: [],
     );
 
+<<<<<<< HEAD
    Assert::assertInstanceOf(DataUserData::class, $data);
+=======
+    Assert::assertInstanceOf(DataUserData::class, $data);
+>>>>>>> laraxot/dev
     Assert::assertSame(42, $data->id);
     Assert::assertSame('Luigi Verdi', $data->name);
     Assert::assertSame('luigi@example.com', $data->email);
@@ -128,5 +156,9 @@ it('UI Data UserData can be instantiated', function (): void {
 it('UI Data UserData is a Spatie Data class', function (): void {
     $data = new DataUserData(1, 'Test', 'test@example.com', null, null, [], []);
 
+<<<<<<< HEAD
    Assert::assertInstanceOf(Data::class, $data);
+=======
+    Assert::assertInstanceOf(Data::class, $data);
+>>>>>>> laraxot/dev
 });

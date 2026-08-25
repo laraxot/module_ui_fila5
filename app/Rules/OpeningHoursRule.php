@@ -32,7 +32,11 @@ class OpeningHoursRule implements ValidationRule
          * }
          * }
          */
+<<<<<<< HEAD
        if (! \is_array($value)) {
+=======
+        if (! \is_array($value)) {
+>>>>>>> laraxot/dev
             return;
         }
 
@@ -43,14 +47,22 @@ class OpeningHoursRule implements ValidationRule
                 continue;
             }
 
+<<<<<<< HEAD
            /** @var array<string, mixed> $typedDayHours */
+=======
+            /** @var array<string, mixed> $typedDayHours */
+>>>>>>> laraxot/dev
             $typedDayHours = $dayHours;
 
             // Type narrowing per dayLabel
             $dayLabelString = \is_string($dayLabel) ? $dayLabel : (string) $dayLabel;
 
             // Valida ogni sessione (mattina e pomeriggio)
+<<<<<<< HEAD
            $this->validateSession($typedDayHours, 'morning', $dayLabelString, $fail);
+=======
+            $this->validateSession($typedDayHours, 'morning', $dayLabelString, $fail);
+>>>>>>> laraxot/dev
             $this->validateSession($typedDayHours, 'afternoon', $dayLabelString, $fail);
 
             // Valida la coerenza tra sessioni dello stesso giorno
@@ -61,7 +73,11 @@ class OpeningHoursRule implements ValidationRule
     /**
      * Valida la coerenza tra le sessioni dello stesso giorno.
      */
+<<<<<<< HEAD
    /**
+=======
+    /**
+>>>>>>> laraxot/dev
      * @param array<string, mixed> $dayHours
      */
     private function validateDayLogic(array $dayHours, string $dayLabel, \Closure $fail): void
@@ -80,7 +96,11 @@ class OpeningHoursRule implements ValidationRule
     /**
      * Valida una sessione specifica (mattina o pomeriggio).
      */
+<<<<<<< HEAD
    /**
+=======
+    /**
+>>>>>>> laraxot/dev
      * @param array<string, mixed> $dayHours
      */
     private function validateSession(array $dayHours, string $session, string $dayLabel, \Closure $fail): void

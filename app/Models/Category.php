@@ -11,7 +11,11 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Models\BaseModel;
 
 /**
+<<<<<<< HEAD
 * @property string               $id
+=======
+ * @property string               $id
+>>>>>>> laraxot/dev
  * @property string|null          $name
  * @property string               $title
  * @property string               $slug
@@ -28,7 +32,11 @@ use Modules\Xot\Models\BaseModel;
  * @property int                  $sort_order
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+<<<<<<< HEAD
 * @property ProfileContract|null $deleter
+=======
+ * @property ProfileContract|null $deleter
+>>>>>>> laraxot/dev
  *
  * @method static CategoryFactory factory($count = null, $state = [])
  *

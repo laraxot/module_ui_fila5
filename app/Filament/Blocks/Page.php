@@ -9,7 +9,11 @@ use Modules\Xot\Filament\Blocks\XotBaseBlock;
 
 final class Page extends XotBaseBlock
 {
+<<<<<<< HEAD
    /**
+=======
+    /**
+>>>>>>> laraxot/dev
      * @return array<int, \Filament\Schemas\Components\Component>
      */
     public static function getFormSchema(): array

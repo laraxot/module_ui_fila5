@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "tailwind_themes"
 type: concept
@@ -18,13 +23,23 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # tailwind_themes
 
 <!-- Contenuto migrato da _docs/tailwind_themes.txt -->
 
 https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your-next-project-3igo
+<<<<<<< HEAD
+=======
 
 https://merakiui.com/
 # tailwind_themes
 <!-- Contenuto migrato da _docs/tailwind_themes.txt -->
 https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your-next-project-3igo
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

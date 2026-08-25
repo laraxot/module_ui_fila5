@@ -19,7 +19,15 @@ use Modules\Xot\Filament\Traits\TransTrait;
 enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     case LIST = 'list';
     case GRID = 'grid';
 
@@ -136,7 +144,15 @@ use Modules\Xot\Filament\Traits\TransTrait;
 enum MyEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     case VALUE1 = 'value1';
     case VALUE2 = 'value2';
 }
@@ -294,6 +310,8 @@ rules:
 - MAI `match()` per traduzioni
 - SEMPRE struttura espansa nelle traduzioni
 - SEMPRE sincronizzazione IT/EN/DE
+<<<<<<< HEAD
+=======
 
 *Ultimo aggiornamento: 2025-01-06*
 # REGOLA CRITICA: Usa SEMPRE transClass() negli Enum
@@ -450,3 +468,7 @@ rules:
 - MAI `match()` per traduzioni
 - SEMPRE struttura espansa nelle traduzioni
 - SEMPRE sincronizzazione IT/EN/DE
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

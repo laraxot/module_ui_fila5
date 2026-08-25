@@ -20,7 +20,11 @@ class UserCalendarWidget extends XotBaseSchemaWidget
 
     public function getActionName(string $function): string
     {
+<<<<<<< HEAD
        $actionSuffix = Str::of($function)->studly()->append('Action')->toString();
+=======
+        $actionSuffix = Str::of($function)->studly()->append('Action')->toString();
+>>>>>>> laraxot/dev
         $resource = XotData::make()->getUserResourceClassByType($this->type);
         $model = $resource::getModel();
         $modelString = SafeStringCastAction::cast($model);
@@ -33,7 +37,11 @@ class UserCalendarWidget extends XotBaseSchemaWidget
 
     /**
      * @param array<string, mixed> $fetchInfo
+<<<<<<< HEAD
     * @param array<string, mixed> $fetchInfo
+=======
+     * @param array<string, mixed> $fetchInfo
+>>>>>>> laraxot/dev
      *
      * @return array<int, array<string, mixed>>
      */
@@ -50,7 +58,11 @@ class UserCalendarWidget extends XotBaseSchemaWidget
             return [];
         }
 
+<<<<<<< HEAD
        return self::normalizeEventsArray($actionInstance->execute($fetchInfo));
+=======
+        return self::normalizeEventsArray($actionInstance->execute($fetchInfo));
+>>>>>>> laraxot/dev
     }
 
     /**
@@ -63,7 +75,11 @@ class UserCalendarWidget extends XotBaseSchemaWidget
         if (class_exists($action)) {
             $actionInstance = app($action);
             if (\is_object($actionInstance) && method_exists($actionInstance, 'execute')) {
+<<<<<<< HEAD
                return self::normalizeFormSchema($actionInstance->execute());
+=======
+                return self::normalizeFormSchema($actionInstance->execute());
+>>>>>>> laraxot/dev
             }
         }
 
@@ -81,7 +97,11 @@ class UserCalendarWidget extends XotBaseSchemaWidget
     /**
      * @SuppressWarnings("PHPMD.UnusedFormalParameter")
      */
+<<<<<<< HEAD
    /**
+=======
+    /**
+>>>>>>> laraxot/dev
      * @param array<string, mixed>|null $view
      * @param array<string, mixed>|null $resource
      */
@@ -91,7 +111,11 @@ class UserCalendarWidget extends XotBaseSchemaWidget
     }
 
     /**
+<<<<<<< HEAD
     * Normalize dynamic calendar action output into typed event arrays.
+=======
+     * Normalize dynamic calendar action output into typed event arrays.
+>>>>>>> laraxot/dev
      *
      * @return array<int, array<string, mixed>>
      */

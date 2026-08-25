@@ -13,7 +13,11 @@ class YearSelect extends XotBaseSelect
 
     protected int $futureYears = 0;
 
+<<<<<<< HEAD
    protected function setUp(): void
+=======
+    protected function setUp(): void
+>>>>>>> laraxot/dev
     {
         parent::setUp();
 
@@ -44,7 +48,11 @@ class YearSelect extends XotBaseSelect
         return $this;
     }
 
+<<<<<<< HEAD
    /**
+=======
+    /**
+>>>>>>> laraxot/dev
      * @return array<int, string>
      */
     protected function getYearsOptions(): array

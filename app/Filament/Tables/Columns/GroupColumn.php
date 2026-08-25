@@ -28,7 +28,11 @@ class GroupColumn extends XotBaseColumn
     protected string $view = 'ui::filament.tables.columns.group';
 
     /**
+<<<<<<< HEAD
     * @return array<Column>
+=======
+     * @return array<Column>
+>>>>>>> laraxot/dev
      */
     public function getFields(): array
     {
@@ -38,7 +42,11 @@ class GroupColumn extends XotBaseColumn
     /**
      * @param array<int|string, mixed> $form
      */
+<<<<<<< HEAD
    public function schema(array $form): static
+=======
+    public function schema(array $form): static
+>>>>>>> laraxot/dev
     {
         $filtered = array_filter($form, static function (mixed $item): bool {
             return $item instanceof Column;
@@ -48,7 +56,11 @@ class GroupColumn extends XotBaseColumn
         $filteredValues = array_values($filtered);
         $this->schema = $filteredValues;
 
+<<<<<<< HEAD
        $this->mountChildrenToTable($this->table);
+=======
+        $this->mountChildrenToTable($this->table);
+>>>>>>> laraxot/dev
 
         return $this;
     }

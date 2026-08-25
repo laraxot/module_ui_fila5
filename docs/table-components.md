@@ -94,7 +94,15 @@ class UserTable extends Component
     public $sortDirection = 'asc';
     public $search = '';
     public $perPage = 10;
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function sortBy($field)
     {
         if ($this->sortField === $field) {
@@ -104,7 +112,15 @@ class UserTable extends Component
             $this->sortDirection = 'asc';
         }
     }
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function render()
     {
         $users = User::query()
@@ -114,7 +130,15 @@ class UserTable extends Component
             })
             ->orderBy($this->sortField, $this->sortDirection)
             ->paginate($this->perPage);
+<<<<<<< HEAD
             
+=======
+<<<<<<< HEAD
+
+=======
+            
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         return view('livewire.user-table', compact('users'));
     }
 }
@@ -139,6 +163,11 @@ class UserTable extends Component
 - [Componenti Form](./form-components.md)
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 - [Documentazione Frontend](../Cms/docs/frontend-architecture.md)
 # Componenti Table
 ## Introduzione
@@ -248,3 +277,7 @@ class UserTable extends Component
 - [Componenti Layout](./layout-components.md)
 
 ```
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

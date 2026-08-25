@@ -18,19 +18,31 @@ uses(TestCase::class);
 
 test('it can be instantiated', function (): void {
     $component = InlineDatePicker::make('test');
+<<<<<<< HEAD
    Assert::assertInstanceOf(Field::class, $component);
+=======
+    Assert::assertInstanceOf(Field::class, $component);
+>>>>>>> laraxot/dev
     Assert::assertInstanceOf(InlineDatePicker::class, $component);
 });
 
 test('it can set and get enabled dates', function (): void {
     $dates = ['2025-06-01', '2025-06-15', '2025-06-30'];
+<<<<<<< HEAD
    $component = InlineDatePicker::make('test')->enabledDates($dates);
+=======
+    $component = InlineDatePicker::make('test')->enabledDates($dates);
+>>>>>>> laraxot/dev
     Assert::assertSame($dates, $component->getEnabledDates()->toArray());
 });
 
 test('it accepts closure for enabled dates', function (): void {
     $dates = ['2025-06-01', '2025-06-15', '2025-06-30'];
+<<<<<<< HEAD
    $component = InlineDatePicker::make('test')->enabledDates(fn () => $dates);
+=======
+    $component = InlineDatePicker::make('test')->enabledDates(fn () => $dates);
+>>>>>>> laraxot/dev
     Assert::assertSame($dates, $component->getEnabledDates()->toArray());
 });
 
@@ -45,7 +57,11 @@ test('it generates calendar data and marks enabled dates', function (): void {
     $component->currentViewMonth('2025-06');
     $data = $component->generateCalendarData();
 
+<<<<<<< HEAD
    foreach (['year', 'month', 'weeks', 'monthName', 'weekdays'] as $key) {
+=======
+    foreach (['year', 'month', 'weeks', 'monthName', 'weekdays'] as $key) {
+>>>>>>> laraxot/dev
         Assert::assertArrayHasKey($key, $data);
     }
 
@@ -71,7 +87,11 @@ test('it generates calendar data and marks enabled dates', function (): void {
 
 test('it respects locale in calendar data', function (): void {
     App::setLocale('it');
+<<<<<<< HEAD
    $data = InlineDatePicker::make('test')->generateCalendarData();
+=======
+    $data = InlineDatePicker::make('test')->generateCalendarData();
+>>>>>>> laraxot/dev
     Assert::assertArrayHasKey('monthName', $data);
 });
 
@@ -81,13 +101,21 @@ test('it can be used in a form', function (): void {
 
 test('it handles empty enabled dates', function (): void {
     $component = InlineDatePicker::make('test')->enabledDates([]);
+<<<<<<< HEAD
    Assert::assertInstanceOf(Collection::class, $component->getEnabledDates());
+=======
+    Assert::assertInstanceOf(Collection::class, $component->getEnabledDates());
+>>>>>>> laraxot/dev
     Assert::assertTrue($component->getEnabledDates()->isEmpty());
     Assert::assertTrue($component->isDateEnabled('2025-06-15'));
 });
 
 test('it throws on invalid enabled dates input', function (): void {
     $component = InlineDatePicker::make('test')->enabledDates(['invalid-date']);
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
     try {
         $dates = $component->getEnabledDates()->toArray();
         Assert::assertIsArray($dates);
@@ -98,13 +126,21 @@ test('it throws on invalid enabled dates input', function (): void {
 
 test('it handles different date formats', function (): void {
     $component = InlineDatePicker::make('test')->enabledDates(['2025-06-15']);
+<<<<<<< HEAD
    Assert::assertTrue($component->isDateEnabled('2025-06-15'));
+=======
+    Assert::assertTrue($component->isDateEnabled('2025-06-15'));
+>>>>>>> laraxot/dev
     Assert::assertFalse($component->isDateEnabled('15-06-2025'));
 });
 
 test('it handles time portion gracefully', function (): void {
     $component = InlineDatePicker::make('test')->enabledDates(['2025-06-15']);
+<<<<<<< HEAD
    Assert::assertTrue($component->isDateEnabled('2025-06-15'));
+=======
+    Assert::assertTrue($component->isDateEnabled('2025-06-15'));
+>>>>>>> laraxot/dev
     Assert::assertFalse($component->isDateEnabled('2025-06-16'));
 });
 
@@ -153,7 +189,11 @@ test('it is dry no code duplication', function (): void {
 
 test('it is kiss simple and clear', function (): void {
     $picker = InlineDatePicker::make('test_date');
+<<<<<<< HEAD
    Assert::assertInstanceOf(InlineDatePicker::class, $picker->enabledDates(['2024-01-01']));
+=======
+    Assert::assertInstanceOf(InlineDatePicker::class, $picker->enabledDates(['2024-01-01']));
+>>>>>>> laraxot/dev
 
     foreach ([
         'enabledDates',
@@ -163,12 +203,20 @@ test('it is kiss simple and clear', function (): void {
         'previousMonth',
         'nextMonth',
     ] as $method) {
+<<<<<<< HEAD
        Assert::assertTrue(method_exists($picker, $method), "Metodo essenziale mancante: {$method}");
+=======
+        Assert::assertTrue(method_exists($picker, $method), "Metodo essenziale mancante: {$method}");
+>>>>>>> laraxot/dev
     }
 });
 
 /**
+<<<<<<< HEAD
 * @param array<int, mixed> $parameters
+=======
+ * @param array<int, mixed> $parameters
+>>>>>>> laraxot/dev
  */
 function invokeInlineDatePickerMethod(object $object, string $methodName, array $parameters = []): mixed
 {

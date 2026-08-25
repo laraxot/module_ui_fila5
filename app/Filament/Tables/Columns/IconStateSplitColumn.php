@@ -33,7 +33,11 @@ final class IconStateSplitColumn extends XotBaseColumn
     /**
      * Configure the state class and model class for this column.
      *
+<<<<<<< HEAD
     * @param  string  $stateClass  The state machine class (e.g., AppointmentState::class)
+=======
+     * @param  string  $stateClass  The state machine class (e.g., AppointmentState::class)
+>>>>>>> laraxot/dev
      * @param  string  $modelClass  The model class (e.g., Appointment::class)
      */
     public function stateClass(string $stateClass, string $modelClass): static
@@ -60,7 +64,11 @@ final class IconStateSplitColumn extends XotBaseColumn
                 continue;
             }
 
+<<<<<<< HEAD
            $labelString = SafeStringCastAction::cast($stateInstance->label());
+=======
+            $labelString = SafeStringCastAction::cast($stateInstance->label());
+>>>>>>> laraxot/dev
 
             $result[$stateKey] = [
                 'class' => $stateInstance,
@@ -79,7 +87,11 @@ final class IconStateSplitColumn extends XotBaseColumn
         try {
             $record = $this->getCachedRecord($recordId);
 
+<<<<<<< HEAD
            $recordState = $record?->getAttribute('state');
+=======
+            $recordState = $record?->getAttribute('state');
+>>>>>>> laraxot/dev
 
             return \is_object($recordState) && method_exists($recordState, 'canTransitionTo')
                 ? (bool) $recordState->canTransitionTo($stateClass)
@@ -129,7 +141,11 @@ final class IconStateSplitColumn extends XotBaseColumn
     #[On('table-action')]
     public function handleTableAction(string $action, int|string $recordId): void
     {
+<<<<<<< HEAD
        if ($action === 'prova') {
+=======
+        if ($action === 'prova') {
+>>>>>>> laraxot/dev
             $this->prova($recordId);
         }
     }
@@ -142,7 +158,11 @@ final class IconStateSplitColumn extends XotBaseColumn
         try {
             $record = $this->getRecordForTransition($recordId);
             $state = $record->getAttribute('state');
+<<<<<<< HEAD
            if (! \is_object($state) || ! method_exists($state, 'transitionTo')) {
+=======
+            if (! \is_object($state) || ! method_exists($state, 'transitionTo')) {
+>>>>>>> laraxot/dev
                 throw new \Exception(__('ui::icon_state.messages.invalid_state_instance'));
             }
             $state->transitionTo($stateClass);
@@ -164,7 +184,11 @@ final class IconStateSplitColumn extends XotBaseColumn
 
         $stateMapping = $this->stateClass::getStateMapping();
 
+<<<<<<< HEAD
        if (\is_object($stateMapping) && method_exists($stateMapping, 'toArray')) {
+=======
+        if (\is_object($stateMapping) && method_exists($stateMapping, 'toArray')) {
+>>>>>>> laraxot/dev
             /** @var array<string, string> $statesArray */
             $statesArray = $stateMapping->toArray();
 
@@ -174,7 +198,11 @@ final class IconStateSplitColumn extends XotBaseColumn
         return [];
     }
 
+<<<<<<< HEAD
    /**
+=======
+    /**
+>>>>>>> laraxot/dev
      * @param  array<array-key, mixed>|Model|null  $record
      */
     private function getStateInstance(string $stateClassItem, Model|array|null $record): ?StateContract
@@ -203,7 +231,11 @@ final class IconStateSplitColumn extends XotBaseColumn
 
         $record = $this->modelClass::find($recordId);
 
+<<<<<<< HEAD
        return \is_object($record) && $record instanceof Model ? $record : null;
+=======
+        return \is_object($record) && $record instanceof Model ? $record : null;
+>>>>>>> laraxot/dev
     }
 
     private function getProvaAction(): Action
@@ -213,7 +245,11 @@ final class IconStateSplitColumn extends XotBaseColumn
         return Action::make('prova')
             ->icon('heroicon-m-plus')
             ->color('primary')
+<<<<<<< HEAD
            ->action(static function () use ($record): void {
+=======
+            ->action(static function () use ($record): void {
+>>>>>>> laraxot/dev
                 $recordId = $record && isset($record->id) ? SafeStringCastAction::cast($record->id) : 'N/A';
                 Notification::make()
                     ->title(__('ui::actions.prova.title'))
@@ -224,12 +260,20 @@ final class IconStateSplitColumn extends XotBaseColumn
     }
 
     /**
+<<<<<<< HEAD
     * @param  array{class: StateContract, icon: string, label: string, color: string, tooltip: string}  $stateData
+=======
+     * @param  array{class: StateContract, icon: string, label: string, color: string, tooltip: string}  $stateData
+>>>>>>> laraxot/dev
      */
     private function getTransitionAction(string $stateKey, array $stateData): ?Action
     {
         $record = $this->getRecord();
+<<<<<<< HEAD
        $recordIdRaw = \is_object($record) && isset($record->id) ? $record->id : null;
+=======
+        $recordIdRaw = \is_object($record) && isset($record->id) ? $record->id : null;
+>>>>>>> laraxot/dev
 
         if ($recordIdRaw === null || (! \is_int($recordIdRaw) && ! \is_string($recordIdRaw))) {
             return null;
@@ -259,7 +303,11 @@ final class IconStateSplitColumn extends XotBaseColumn
 
         $recordRaw = $this->modelClass::find($recordId);
 
+<<<<<<< HEAD
        if (! \is_object($recordRaw) || ! ($recordRaw instanceof Model)) {
+=======
+        if (! \is_object($recordRaw) || ! ($recordRaw instanceof Model)) {
+>>>>>>> laraxot/dev
             throw new \Exception(__('ui::icon_state.messages.record_not_found'));
         }
 

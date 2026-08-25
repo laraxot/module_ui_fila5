@@ -43,7 +43,11 @@ return [
         'confirm_password' => 'Confirm Password',
         'save' => 'Save',
         'update' => 'Update',
+<<<<<<< HEAD
        'services' => 'My Services',
+=======
+        'services' => 'My Services',
+>>>>>>> laraxot/dev
         'practices' => 'My Practices',
         'notifications' => 'Notifications',
         'logout' => 'Log Out',

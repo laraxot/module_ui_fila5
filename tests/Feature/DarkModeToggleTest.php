@@ -120,7 +120,11 @@ it('proper contrast ratios in dark mode', function (): void {
         return;
     }
 
+<<<<<<< HEAD
    Assert::assertTrue(
+=======
+    Assert::assertTrue(
+>>>>>>> laraxot/dev
         str_contains($content, 'text-white')
         || str_contains($content, 'text-slate-100')
         || str_contains($content, 'dark:text-white')

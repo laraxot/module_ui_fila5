@@ -23,7 +23,11 @@ use Modules\Xot\Traits\EnumTrait;
  */
 enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 {
+<<<<<<< HEAD
    use EnumTrait;
+=======
+    use EnumTrait;
+>>>>>>> laraxot/dev
 
     case LIST = 'list';
     case GRID = 'grid';
@@ -98,7 +102,11 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
         return $this->isGridLayout() ? $gridColumns : $listColumns;
     }
 
+<<<<<<< HEAD
    /** @return array<string, string> */
+=======
+    /** @return array<string, string> */
+>>>>>>> laraxot/dev
     public static function getOptions(): array
     {
         return [

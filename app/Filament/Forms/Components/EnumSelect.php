@@ -28,7 +28,11 @@ final class EnumSelect extends XotBaseSelect
         $this->options(fn (): array => $this->generateOptions());
     }
 
+<<<<<<< HEAD
    /**
+=======
+    /**
+>>>>>>> laraxot/dev
      * Create a new EnumSelect component.
      * Signature must match Filament\\Forms\\Components\\Field::make(?string $name = null).
      */
@@ -61,7 +65,11 @@ final class EnumSelect extends XotBaseSelect
         return $this;
     }
 
+<<<<<<< HEAD
    public function getEnumClass(): ?string
+=======
+    public function getEnumClass(): ?string
+>>>>>>> laraxot/dev
     {
         $enumClass = $this->evaluate($this->enumClass);
 
@@ -199,7 +207,11 @@ final class EnumSelect extends XotBaseSelect
     protected function validateEnumClass(string $enumClass): void
     {
         if (! enum_exists($enumClass)) {
+<<<<<<< HEAD
            throw new \InvalidArgumentException("Enum class [{$enumClass}] does not exist.");
+=======
+            throw new \InvalidArgumentException("Enum class [{$enumClass}] does not exist.");
+>>>>>>> laraxot/dev
         }
 
         if (! is_subclass_of($enumClass, \BackedEnum::class)) {

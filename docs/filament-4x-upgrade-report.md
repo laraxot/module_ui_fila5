@@ -1,15 +1,27 @@
 # Rapporto Aggiornamento Filament 4.x - Modulo UI
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 **Data**: 2025-01-27
 **Status**: ✅ COMPLETATO
 **Versione Filament**: 4.0.17
 **Status**: ✅ COMPLETATO  
 **Versione Filament**: 4.0.17  
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## 🔧 Correzioni Implementate
 
 ### 1. Widget FullCalendar Disabilitato
+<<<<<<< HEAD
+=======
 **Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 4.x
+>>>>>>> laraxot/dev
 **Soluzione**: Disabilitazione temporanea del widget
 
 **File disabilitato**:
@@ -76,7 +88,14 @@ class UserCalendarWidget extends \Filament\Widgets\Widget
 class SimpleCalendarWidget extends \Filament\Widgets\Widget
 {
     protected static ?string $view = 'ui::filament.widgets.simple-calendar';
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function getEvents(): array
     {
         // Logica per recuperare eventi
@@ -114,6 +133,11 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 - Widget base di Filament 4.x
 - Sistema di autenticazione e autorizzazione
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 *Ultimo aggiornamento: 2025-01-27*
 # Rapporto Aggiornamento Filament 4.x - Modulo UI
 **Data**: 2025-01-27
@@ -197,3 +221,7 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 - Tutte le altre funzionalità del modulo UI
 - Widget base di Filament 4.x
 - Sistema di autenticazione e autorizzazione
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

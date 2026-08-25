@@ -94,13 +94,21 @@ class RadioCardSelector extends XotBaseField
     }
 
     /**
+<<<<<<< HEAD
     * @return array<int, array<string, mixed>>
+=======
+     * @return array<int, array<string, mixed>>
+>>>>>>> laraxot/dev
      */
     public function getCards(): array
     {
         $result = $this->evaluate($this->cards);
 
+<<<<<<< HEAD
        if (! \is_array($result)) {
+=======
+        if (! \is_array($result)) {
+>>>>>>> laraxot/dev
             return [];
         }
 

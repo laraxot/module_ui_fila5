@@ -11,7 +11,11 @@ use PHPUnit\Framework\Assert;
 uses(TestCase::class);
 
 beforeEach(function () {
+<<<<<<< HEAD
    /* @var \Modules\UI\Tests\TestCase $this */
+=======
+    /* @var \Modules\UI\Tests\TestCase $this */
+>>>>>>> laraxot/dev
     if (! View::exists('pub_theme::components.blocks.hero.kalshi-inspired')) {
         Assert::markTestSkipped('pub_theme kalshi hero view is not available in this install.');
     }
@@ -22,7 +26,11 @@ beforeEach(function () {
 });
 
 test('kalshi inspired hero component renders without errors', function () {
+<<<<<<< HEAD
    if (! View::exists('pub_theme::components.blocks.hero.kalshi-inspired')) {
+=======
+    if (! View::exists('pub_theme::components.blocks.hero.kalshi-inspired')) {
+>>>>>>> laraxot/dev
         Assert::markTestSkipped('pub_theme kalshi hero view is not available in this install.');
     }
     $componentData = [
@@ -38,7 +46,11 @@ test('kalshi inspired hero component renders without errors', function () {
 
     $view = View::make('pub_theme::components.blocks.hero.kalshi-inspired', $componentData);
 
+<<<<<<< HEAD
    $html = $view->render();
+=======
+    $html = $view->render();
+>>>>>>> laraxot/dev
     Assert::assertStringContainsString((string) 'Test <nome progetto>ion Platform', (string) $html);
     Assert::assertStringContainsString((string) 'Trade on real events with confidence', (string) $html);
     Assert::assertStringContainsString((string) 'Start Trading', (string) $html);
@@ -51,7 +63,11 @@ test('kalshi hero shows statistics when enabled', function () {
     ]);
 
     $html = $view->render();
+<<<<<<< HEAD
    Assert::assertStringContainsString((string) '250+', (string) $html);
+=======
+    Assert::assertStringContainsString((string) '250+', (string) $html);
+>>>>>>> laraxot/dev
     Assert::assertStringContainsString((string) 'Active Markets', (string) $html);
     Assert::assertStringContainsString((string) '50K+', (string) $html);
     Assert::assertStringContainsString((string) 'Total <nome progetto>ions', (string) $html);
@@ -67,7 +83,11 @@ test('kalshi hero hides statistics when disabled', function () {
     ]);
 
     $html = $view->render();
+<<<<<<< HEAD
    Assert::assertStringNotContainsString('Active Markets', $html);
+=======
+    Assert::assertStringNotContainsString('Active Markets', $html);
+>>>>>>> laraxot/dev
     Assert::assertStringNotContainsString('Total <nome progetto>ions', $html);
 });
 
@@ -77,7 +97,11 @@ test('kalshi hero shows categories when enabled', function () {
     ]);
 
     $html = $view->render();
+<<<<<<< HEAD
    Assert::assertStringContainsString((string) 'Popular Categories', (string) $html);
+=======
+    Assert::assertStringContainsString((string) 'Popular Categories', (string) $html);
+>>>>>>> laraxot/dev
     Assert::assertStringContainsString((string) 'Politics', (string) $html);
     Assert::assertStringContainsString((string) 'Sports', (string) $html);
     Assert::assertStringContainsString((string) 'Economics', (string) $html);
@@ -92,7 +116,11 @@ test('kalshi hero hides categories when disabled', function () {
     ]);
 
     $html = $view->render();
+<<<<<<< HEAD
    Assert::assertStringNotContainsString('Popular Categories', $html);
+=======
+    Assert::assertStringNotContainsString('Popular Categories', $html);
+>>>>>>> laraxot/dev
 });
 
 test('kalshi hero supports custom props', function () {
@@ -106,7 +134,11 @@ test('kalshi hero supports custom props', function () {
     ]);
 
     $html = $view->render();
+<<<<<<< HEAD
    Assert::assertStringContainsString((string) 'Custom Market Title', (string) $html);
+=======
+    Assert::assertStringContainsString((string) 'Custom Market Title', (string) $html);
+>>>>>>> laraxot/dev
     Assert::assertStringContainsString((string) 'Custom trading platform description', (string) $html);
     Assert::assertStringContainsString((string) 'Join Now', (string) $html);
     Assert::assertStringContainsString((string) 'Learn More', (string) $html);
@@ -118,7 +150,11 @@ test('kalshi hero has proper css classes and styling', function () {
     $view = View::make('pub_theme::components.blocks.hero.kalshi-inspired');
 
     $html = $view->render();
+<<<<<<< HEAD
    Assert::assertStringContainsString((string) 'bg-gradient-to-br from-slate-900', (string) $html);
+=======
+    Assert::assertStringContainsString((string) 'bg-gradient-to-br from-slate-900', (string) $html);
+>>>>>>> laraxot/dev
     Assert::assertStringContainsString((string) 'animate-gradient-x', (string) $html);
     Assert::assertStringContainsString((string) 'bg-grid-pattern', (string) $html);
     Assert::assertStringContainsString((string) 'dark:from-slate-950', (string) $html);
@@ -128,7 +164,11 @@ test('kalshi hero includes required css animations', function () {
     $view = View::make('pub_theme::components.blocks.hero.kalshi-inspired');
 
     $html = $view->render();
+<<<<<<< HEAD
    Assert::assertStringContainsString((string) '@keyframes gradient-x', (string) $html);
+=======
+    Assert::assertStringContainsString((string) '@keyframes gradient-x', (string) $html);
+>>>>>>> laraxot/dev
     Assert::assertStringContainsString((string) '.animate-gradient-x', (string) $html);
     Assert::assertStringContainsString((string) '.bg-grid-pattern', (string) $html);
 });
@@ -137,7 +177,11 @@ test('kalshi hero has responsive design classes', function () {
     $view = View::make('pub_theme::components.blocks.hero.kalshi-inspired');
 
     $html = $view->render();
+<<<<<<< HEAD
    Assert::assertStringContainsString((string) 'md:text-7xl lg:text-8xl', (string) $html);
+=======
+    Assert::assertStringContainsString((string) 'md:text-7xl lg:text-8xl', (string) $html);
+>>>>>>> laraxot/dev
     Assert::assertStringContainsString((string) 'grid-cols-2 md:grid-cols-4', (string) $html);
     Assert::assertStringContainsString((string) 'md:grid-cols-3 lg:grid-cols-6', (string) $html);
     Assert::assertStringContainsString((string) 'flex-col sm:flex-row', (string) $html);

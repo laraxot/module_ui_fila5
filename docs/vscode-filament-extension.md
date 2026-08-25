@@ -104,6 +104,8 @@ L'estensione **doonfrs.vscode-filament** migliora notevolmente lo sviluppo Filam
 ---
 
 ## Aggiornamenti
+<<<<<<< HEAD
+=======
 Per segnalare bug o suggerire miglioramenti, usa la [pagina GitHub dell'estensione](https://github.com/doonfrs/vscode-filament).
 # VSCode Filament Extension (doonfrs.vscode-filament)
 ## Cos'è
@@ -175,3 +177,7 @@ L'estensione **doonfrs.vscode-filament** migliora notevolmente lo sviluppo Filam
 ## Aggiornamenti
 
 ```
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
