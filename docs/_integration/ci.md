@@ -1,3 +1,23 @@
+---
+title: "ci"
+type: concept
+tags: [docs]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "ci ci"
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
+  - "./api.md"
+  - "./blocks.md"
+  - "./carousel-slider-1.md"
+  - "./carousel-slider.md"
+  - "./chunk.md"
+  - "./custom-firm-fields-1.md"
+  - "./custom-firm-fields.md"
+  - "./custom-theme-1.md"
+---
+
 # ci
 
 <!-- Contenuto migrato da _docs/ci.txt -->

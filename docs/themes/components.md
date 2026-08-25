@@ -1,3 +1,20 @@
+---
+title: "Componenti del Tema"
+type: concept
+tags: [components]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "components componenti del tema"
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
+  - "./asset-management-1.md"
+  - "./asset-management.md"
+  - "./compilation.md"
+  - "./optimizations.md"
+  - "./schemaless-attributes-guide.md"
+---
+
 # Componenti del Tema
 
 ## Logo

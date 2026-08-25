@@ -91,7 +91,8 @@ ls -la laravel/Modules/UI/resources/svg/brands/
 php artisan view:clear
 
 # Test in browser
-# http://fixcity.local/it/tests/homepage
+# http://<nome progetto>.local/it/tests/homepage
+# http://app.local/it/tests/homepage
 ```
 
 ## 📊 Icon Inventory

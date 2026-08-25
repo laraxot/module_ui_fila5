@@ -171,8 +171,6 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
 
 ## Volt e Folio
 
-Nel progetto la sintassi di default per i componenti Volt interattivi è **class-based** (`new class extends Livewire\Volt\Component`). Gli esempi qui sotto che usano `use function Livewire\Volt\{state, mount\}` sono **legacy/mantenimento**.
-
 ### Componenti Volt
 - Utilizzare la direttiva `@volt` per i componenti Volt
 - Struttura standard:
@@ -218,8 +216,8 @@ Nel progetto la sintassi di default per i componenti Volt interattivi è **class
   ```
 
 ### Gestione dello Stato
-- In class-based, usa proprietà `public` e inizializza in `mount(): void`
-- Gli helper functional `state()` / `computed()` sono legacy/mantenimento (non per nuovi componenti)
+- Utilizzare `state()` per definire le proprietà
+- Utilizzare `mount()` per l'inizializzazione
 - Gestire gli errori con try/catch
 - Implementare stati di loading
 

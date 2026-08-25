@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
-use Filament\Forms\Components\Radio;
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
+use Modules\Xot\Filament\Forms\Components\XotBaseRadio;
 
-class RadioBadge extends Radio
+class RadioBadge extends XotBaseRadio
 {
     protected string $view = 'ui::filament.forms.components.radio-badge';
 

@@ -1,3 +1,15 @@
+---
+title: "UI Module Icon System"
+type: concept
+tags: [icon, system]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "icon-system ui module icon system"
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
+---
+
 # UI Module Icon System
 
 ## How It Works
@@ -82,7 +94,7 @@ Tables\Columns\IconColumn::make('status')
 ## Cross-Module Icons
 Each module registers its own SVG icons:
 - `Modules/User/resources/svg/` → `user-{name}`
-- `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
+- `resources/svg/` → `{name}`
 - etc.
 
 The `ui-` prefix is special: contains the global design system icons shared across all modules.

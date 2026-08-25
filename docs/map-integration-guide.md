@@ -1,6 +1,7 @@
 # 🗺️ GUIDA INTEGRAZIONE MAPPA INTERATTIVA
 
 **Modulo**: UI (User Interface)
+**Data**: 2025-01-27
 **Versione**: 1.0
 **Stato**: 🚧 IN SVILUPPO
 
@@ -8,7 +9,8 @@
 
 ## 🎯 PANORAMICA
 
-Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
+Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione <nome progetto>.
+Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione progetto corrente.
 
 ---
 
@@ -428,7 +430,8 @@ class MapService
                     'description' => $ticket->description,
                     'status' => $ticket->status->slug,
                     'priority' => $ticket->priority->slug,
-                    'url' => route('fixcity.tickets.show', $ticket)
+                    'url' => route('<nome progetto>.tickets.show', $ticket)
+                    'url' => route('tickets.show', $ticket)
                 ];
             })
             ->toArray();
@@ -508,7 +511,8 @@ class GeocodingService
             />
         </div>
         <div class="col-md-4">
-            <livewire:fixcity::components.ticket-stats />
+            <livewire:<nome progetto>::components.ticket-stats />
+            <livewire:project::components.ticket-stats />
         </div>
     </div>
 </div>
@@ -562,7 +566,8 @@ class GeocodingService
 - [ ] GeocodingService implementation
 
 ### 📅 Fase 3: Integrazione (Settimana 3)
-- [ ] Integrazione con modulo Fixcity
+- [ ] Integrazione con modulo <nome progetto>
+- [ ] Integrazione con modulo progetto corrente
 - [ ] Integrazione con modulo User
 - [ ] API endpoints per mappa
 - [ ] Testing componenti
@@ -584,14 +589,15 @@ class GeocodingService
 - [Livewire Components](https://laravel-livewire.com/docs/2.x/quickstart)
 
 ### 📖 Documentazione Correlata
-- [Farmshops.eu Analysis](../geo/docs/farmshops-analysis.md)
+- [Farmshops.eu Analysis](../Geo/docs/farmshops-analysis.md)
 - [Geo Module Documentation](../Geo/docs/)
 - [UI Component API](component-api.md)
 - [Styling Guide](styling-guide.md)
 
 ---
 
-
+**Last Updated**: 2025-01-27
+**Next Review**: 2025-02-27
 **Status**: 🚧 IN SVILUPPO
 **Confidence Level**: 90%
 
