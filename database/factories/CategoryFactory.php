@@ -25,7 +25,11 @@ class CategoryFactory extends Factory
      */
     public function definition(): array
     {
+<<<<<<< HEAD
        /** @var string $title */
+=======
+        /** @var string $title */
+>>>>>>> laraxot/dev
         $title = fake()->sentence(2);
 
         return [

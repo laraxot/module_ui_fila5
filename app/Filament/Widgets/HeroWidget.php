@@ -23,7 +23,11 @@ class HeroWidget extends XotBaseStatsOverviewWidget
     protected function getStats(): array
     {
         return [
+<<<<<<< HEAD
            Stat::make('', $this->title)->icon($this->icon),
+=======
+            Stat::make('', $this->title)->icon($this->icon),
+>>>>>>> laraxot/dev
         ];
     }
 }

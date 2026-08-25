@@ -47,6 +47,8 @@ class ExampleTransition extends Transition
 
 ## Related Documentation
 - [State Management](./state-management.md)
+<<<<<<< HEAD
+=======
 - [SelectStateColumn Documentation](./select-state-column.md)
 # State Transitions Guide
 ## Overview
@@ -87,3 +89,7 @@ class ExampleTransition extends Transition
 - Always provide default values for optional parameters
 ## Related Documentation
 - [State Management](./state-management.md)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

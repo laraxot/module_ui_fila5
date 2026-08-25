@@ -181,6 +181,8 @@ $rule = new OpeningHoursRule();
 - [Opening Hours Field](./opening_hours_field.md)
 - [Validation System](./validation_system.md)
 - [Localization Guidelines](./localization_guidelines.md)
+<<<<<<< HEAD
+=======
 
 *Correzione completata: gennaio 2025*
 # Localizzazione OpeningHoursRule - Modulo UI
@@ -317,3 +319,7 @@ App::setLocale('de');
 - [Opening Hours Field](./opening_hours_field.md)
 - [Validation System](./validation_system.md)
 - [Localization Guidelines](./localization_guidelines.md)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 php
+=======
+@php
+>>>>>>> laraxot/dev
     declare(strict_types=1);
 
     use Filament\Tables\Columns\ColorColumn;
@@ -17,13 +21,21 @@ php
         $attributes
             ->merge($getExtraAttributes(), escape: false)
             ->class([
+<<<<<<< HEAD
                'fi-ta-group flex flex-col gap-1',
+=======
+                'fi-ta-group flex flex-col gap-1',
+>>>>>>> laraxot/dev
                 'px-3 py-4' => ! $isInline(),
             ])
     }}
 >
     @foreach ($fields as $field)
+<<<<<<< HEAD
        @php
+=======
+        @php
+>>>>>>> laraxot/dev
             // Children live only in GroupColumn::$schema — mount table + record
             // or getState()/toEmbeddedHtml() throw "column is not mounted to a table".
             if (isset($getTable) && is_callable($getTable)) {
@@ -79,7 +91,11 @@ php
             }
 
             if ($labelText === '') {
+<<<<<<< HEAD
                $translationKey = 'ui::table.columns.'.$name.'.label';
+=======
+                $translationKey = 'ui::table.columns.'.$name.'.label';
+>>>>>>> laraxot/dev
                 $translated = __($translationKey);
                 $labelText = $translated !== $translationKey
                     ? $translated

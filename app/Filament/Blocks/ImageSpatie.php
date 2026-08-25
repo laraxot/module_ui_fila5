@@ -23,7 +23,11 @@ final class ImageSpatie
             ->schema([
                 Hidden::make('img_uuid')
                     ->default(Str::uuid()->toString(...))
+<<<<<<< HEAD
                    ->formatStateUsing(static fn (mixed $state): mixed => $state ?? Str::uuid()->toString()),
+=======
+                    ->formatStateUsing(static fn (mixed $state): mixed => $state ?? Str::uuid()->toString()),
+>>>>>>> laraxot/dev
                 // ->live()
                 SpatieMediaLibraryFileUpload::make('image')
                     ->live()
@@ -39,7 +43,11 @@ final class ImageSpatie
                     ->openable()
                     ->downloadable()
                     // ->rules(Rule::dimensions()->maxWidth(600)->maxHeight(800))
+<<<<<<< HEAD
                    ->collection(static fn (Get $get) => $get('img_uuid'))
+=======
+                    ->collection(static fn (Get $get) => $get('img_uuid'))
+>>>>>>> laraxot/dev
                     ->afterStateUpdated(static function (
                         HasForms $_livewire,
                         SpatieMediaLibraryFileUpload $_component,
@@ -50,7 +58,11 @@ final class ImageSpatie
                         // Call to an undefined method Filament\Forms\Contracts\HasForms::validateOnly().
                         // $livewire->validateOnly($component->getStatePath());
                         Assert::string(
+<<<<<<< HEAD
                            $collectionName = $get('img_uuid'),
+=======
+                            $collectionName = $get('img_uuid'),
+>>>>>>> laraxot/dev
                             '['.__LINE__.']['.class_basename(self::class).']',
                         );
                         $record->addMedia($state)->withResponsiveImages()->toMediaCollection($collectionName);

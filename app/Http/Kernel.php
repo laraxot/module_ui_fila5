@@ -60,7 +60,11 @@ class Kernel extends HttpKernel
             AddQueuedCookiesToResponse::class,
             StartSession::class,
             ShareErrorsFromSession::class,
+<<<<<<< HEAD
            PreventRequestForgery::class,
+=======
+            PreventRequestForgery::class,
+>>>>>>> laraxot/dev
             SubstituteBindings::class,
             SetLocale::class,
         ],

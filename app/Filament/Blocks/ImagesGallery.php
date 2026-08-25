@@ -22,7 +22,11 @@ final class ImagesGallery
                             // ->image()
                             // ->maxSize(5000)
                             ->multiple()
+<<<<<<< HEAD
                            ->reorderable()
+=======
+                            ->reorderable()
+>>>>>>> laraxot/dev
                             ->openable()
                             ->downloadable()
                             ->columnSpanFull()
@@ -46,7 +50,11 @@ final class ImagesGallery
                 //         // ->image()
                 //         // ->maxSize(5000)
                 //     ->multiple()
+<<<<<<< HEAD
                //     ->reorderable()
+=======
+                //     ->reorderable()
+>>>>>>> laraxot/dev
                 //     ->openable()
                 //     ->downloadable()
                 //     ->columnSpanFull()
@@ -67,7 +75,11 @@ final class ImagesGallery
             ->columns('form' === $context ? 2 : 1);
     }
 
+<<<<<<< HEAD
    /**
+=======
+    /**
+>>>>>>> laraxot/dev
      * @return array<string, string>
      */
     public static function getRatios(): array

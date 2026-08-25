@@ -19,7 +19,11 @@ declare(strict_types=1);
                     </div>
                 </div>
             </div>
+<<<<<<< HEAD
            <div
+=======
+            <div
+>>>>>>> laraxot/dev
                 x-show="mobileMenuOpen"
                 x-transition.opacity
                 :class="{ 'pointer-events-auto': mobileMenuOpen, 'pointer-events-none': !mobileMenuOpen }"

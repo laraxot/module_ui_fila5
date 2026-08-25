@@ -23,7 +23,11 @@ class IconStateColumn extends XotBaseIconColumn
         parent::setUp();
         // $this->getStateUsing(fn() => true); // the column requires a state to be passed to it
 
+<<<<<<< HEAD
        $this->icon(static function (XotStateContract $state) {
+=======
+        $this->icon(static function (XotStateContract $state) {
+>>>>>>> laraxot/dev
             return $state->icon();
         });
 
@@ -40,7 +44,11 @@ class IconStateColumn extends XotBaseIconColumn
             Action::make('change-state')
                 ->schema([
                     Select::make('state')
+<<<<<<< HEAD
                        ->options(function (Model $record, string $_state): array {
+=======
+                        ->options(function (Model $record, string $_state): array {
+>>>>>>> laraxot/dev
                             $name = $this->getName();
                             $state = $record->getAttribute($name);
                             if ($state === null) {
@@ -61,7 +69,11 @@ class IconStateColumn extends XotBaseIconColumn
 
                                 return $options;
                             }
+<<<<<<< HEAD
                            if (! is_object($state) || ! method_exists($state, 'transitionableStates')) {
+=======
+                            if (! is_object($state) || ! method_exists($state, 'transitionableStates')) {
+>>>>>>> laraxot/dev
                                 return [];
                             }
 
@@ -69,7 +81,11 @@ class IconStateColumn extends XotBaseIconColumn
                                 /** @var array<int|string, mixed> $statesArray */
                                 $statesArray = $state->transitionableStates();
                             } catch (\Exception $e) {
+<<<<<<< HEAD
                                if (! method_exists($record, 'getStatesFor')) {
+=======
+                                if (! method_exists($record, 'getStatesFor')) {
+>>>>>>> laraxot/dev
                                     return [];
                                 }
                                 $fetchedStates = $record->getStatesFor($name);
@@ -88,7 +104,11 @@ class IconStateColumn extends XotBaseIconColumn
                                 }
                                 $model = Str::of(class_basename($record))->slug()->toString();
                                 /** @var string $label */
+<<<<<<< HEAD
                                $label = __('pub_theme::'.$model.'_states.'.$stateItem.'.label');
+=======
+                                $label = __('pub_theme::'.$model.'_states.'.$stateItem.'.label');
+>>>>>>> laraxot/dev
 
                                 return [$stateItem => $label];
                             });
@@ -99,7 +119,11 @@ class IconStateColumn extends XotBaseIconColumn
                         $newState = $get('state');
                         $name = $this->getName();
                         $state = $record->getAttribute($name);
+<<<<<<< HEAD
                        if (! is_object($state) || ! method_exists($state, 'getStateMapping')) {
+=======
+                        if (! is_object($state) || ! method_exists($state, 'getStateMapping')) {
+>>>>>>> laraxot/dev
                             return false;
                         }
 
@@ -124,7 +148,11 @@ class IconStateColumn extends XotBaseIconColumn
                     }),
                 ])
                 ->fillForm(function (Model $record): array {
+<<<<<<< HEAD
                    $name = $this->getName();
+=======
+                    $name = $this->getName();
+>>>>>>> laraxot/dev
                     $state = $record->getAttribute($name);
                     if (! is_object($state)) {
                         return [];
@@ -139,7 +167,11 @@ class IconStateColumn extends XotBaseIconColumn
                         'state' => $stateName,
                     ];
                 })
+<<<<<<< HEAD
                ->action(function (mixed $record, array $data): void {
+=======
+                ->action(function (mixed $record, array $data): void {
+>>>>>>> laraxot/dev
                     /** @var array<string, mixed> $data */
                     if (! isset($data['state']) || ! is_string($data['state'])) {
                         throw new \Exception('State is required and must be a string');
@@ -153,7 +185,11 @@ class IconStateColumn extends XotBaseIconColumn
                     /** @var string $label */
                     $label = __('pub_theme::'.$model.'_states.'.$state.'.label');
 
+<<<<<<< HEAD
                    $currentState = $record->getAttribute($this->getName());
+=======
+                    $currentState = $record->getAttribute($this->getName());
+>>>>>>> laraxot/dev
                     if (! is_object($currentState) || ! method_exists($currentState, 'transitionTo')) {
                         throw new \Exception('Current state is not a valid State instance');
                     }

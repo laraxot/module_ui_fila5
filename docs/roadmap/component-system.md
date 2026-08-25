@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Sistema Componenti UI"
 type: concept
@@ -18,6 +23,10 @@ related:
   - "./03-later.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Sistema Componenti UI
 
 ## 📊 Stato Implementazione
@@ -214,6 +223,8 @@ protected function resolveLazyProp(string $key): mixed
 2. Implementare lazy loading
 3. Migliorare test coverage
 4. Documentare best practices
+<<<<<<< HEAD
+=======
 5. Ottimizzare performance
 # Sistema Componenti UI
 ## 📊 Stato Implementazione
@@ -347,3 +358,7 @@ protected function resolveLazyProp(string $key): mixed
 2. Implementare lazy loading
 3. Migliorare test coverage
 4. Documentare best practices
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

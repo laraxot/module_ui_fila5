@@ -1,4 +1,7 @@
+<<<<<<< HEAD
+=======
 # Utilizzo dei Componenti Filament Dropdown e Avatar
+>>>>>>> laraxot/dev
 
 ## Collegamenti correlati
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
@@ -67,9 +70,15 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
 @if($isLoggedIn)
     {{-- Dropdown per utente loggato --}}
     <div class="relative" x-data="{ open: false }" @click.away="open = false">
+<<<<<<< HEAD
+=======
         <button
             @click="open = ! open"
             @click="open = ! open" 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             class="flex items-center text-sm font-medium text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300 focus:outline-none transition duration-150 ease-in-out"
         >
             <div>
@@ -84,7 +93,10 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
             </div>
         </button>
 
+<<<<<<< HEAD
+=======
         <div
+>>>>>>> laraxot/dev
             x-show="open"
             x-transition:enter="transition ease-out duration-200"
             x-transition:enter-start="transform opacity-0 scale-95"
@@ -201,8 +213,16 @@ $this->mount(function () {
 
 ## Gestione delle Traduzioni
 
+<<<<<<< HEAD
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto>corrente per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto>corrente per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
+=======
+<<<<<<< HEAD
+=======
+Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto>corrente per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
+Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto>corrente per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di  per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto> per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di  per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
@@ -284,6 +304,8 @@ Seguire queste convenzioni per le chiavi di traduzione:
 - [Documentazione Filament - Dropdown](https://filamentphp.com/docs/3.x/support/blade-components/dropdown)
 - [Documentazione Filament - Loading Indicator](https://filamentphp.com/docs/3.x/support/blade-components/loading-indicator)
 - [Heroicons](https://heroicons.com/)
+<<<<<<< HEAD
+=======
 - [Tailwind CSS](https://tailwindcss.com/)
 # Utilizzo dei Componenti Filament Dropdown e Avatar
 ## Collegamenti correlati
@@ -482,3 +504,7 @@ Seguire queste convenzioni per le chiavi di traduzione:
 - [Heroicons](https://heroicons.com/)
 
 ```
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

@@ -8,7 +8,11 @@ use Spatie\LaravelData\Data;
 
 final class UserData extends Data
 {
+<<<<<<< HEAD
    /**
+=======
+    /**
+>>>>>>> laraxot/dev
      * @param array<int, string>   $permissions
      * @param array<string, mixed> $settings
      */

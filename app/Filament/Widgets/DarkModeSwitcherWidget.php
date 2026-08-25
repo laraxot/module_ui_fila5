@@ -43,7 +43,11 @@ final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
         return [];
     }
 
+<<<<<<< HEAD
    /**
+=======
+    /**
+>>>>>>> laraxot/dev
      * Disabilitabile via config per temi/test (default: visibile).
      */
     public static function canView(): bool

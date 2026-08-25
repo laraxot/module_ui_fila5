@@ -142,6 +142,8 @@ $breakpoints: (
 ## 🔗 Collegamenti
 - [Componenti Base](./base-components.md)
 - [Performance](./standards/performance.md)
+<<<<<<< HEAD
+=======
 - [Accessibilità](./standards/accessibility.md)
 # Componenti Layout
 ## 📐 Struttura Base
@@ -239,3 +241,7 @@ $breakpoints: (
 - [Performance](./standards/performance.md)
 
 ```
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

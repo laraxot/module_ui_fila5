@@ -24,7 +24,11 @@ class CollectionFactory extends Factory
      */
     public function definition(): array
     {
+<<<<<<< HEAD
        return [
+=======
+        return [
+>>>>>>> laraxot/dev
             'name' => fake()->words(2, true),
             'type' => 'block',
             'theme_id' => 1,

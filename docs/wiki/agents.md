@@ -2,6 +2,11 @@
 module: theme
 topic: AGENTS
 canonical: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
 related:
@@ -12,3 +17,7 @@ related:
   - "./overview.md"
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

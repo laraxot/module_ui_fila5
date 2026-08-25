@@ -11,7 +11,11 @@ use Modules\Xot\Models\BaseModel;
 
 /**
  * Collection model for UI module.
+<<<<<<< HEAD
 *
+=======
+ *
+>>>>>>> laraxot/dev
  * FormBuilder module not available - extending from XotBaseModel instead.
  *
  * @property string|null                     $id
@@ -50,7 +54,11 @@ class Collection extends BaseModel
         'name',
         'description',
         'type',
+<<<<<<< HEAD
        'theme_id',
+=======
+        'theme_id',
+>>>>>>> laraxot/dev
         'is_active',
         'order',
     ];

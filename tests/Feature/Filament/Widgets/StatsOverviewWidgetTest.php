@@ -45,7 +45,11 @@ test('stats overview widget returns correct stats', function (): void {
 });
 
 test('stats overview widget can be instantiated', function (): void {
+<<<<<<< HEAD
    $widget = new StatsOverviewWidget();
+=======
+    $widget = new StatsOverviewWidget();
+>>>>>>> laraxot/dev
     Assert::assertInstanceOf(StatsOverviewWidget::class, $widget);
 });
 
@@ -60,7 +64,11 @@ test('stats overview widget has correct strict types declaration', function (): 
 });
 
 test('stats overview widget getStats method is protected', function (): void {
+<<<<<<< HEAD
    $reflection = new \ReflectionClass(StatsOverviewWidget::class);
+=======
+    $reflection = new \ReflectionClass(StatsOverviewWidget::class);
+>>>>>>> laraxot/dev
     $getStatsMethod = $reflection->getMethod('getStats');
     Assert::assertTrue($getStatsMethod->isProtected());
 });

@@ -11,7 +11,11 @@ use Modules\Xot\Models\BaseModel;
 
 /**
  * FieldOption model for UI module.
+<<<<<<< HEAD
 *
+=======
+ *
+>>>>>>> laraxot/dev
  * FormBuilder module not available - extending from XotBaseModel instead.
  *
  * @property string|null                     $id

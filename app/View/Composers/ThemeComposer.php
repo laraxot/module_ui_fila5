@@ -18,12 +18,20 @@ final class ThemeComposer
         return view($view);
     }
 
+<<<<<<< HEAD
    public function metatag(string $index): string|bool|null
+=======
+    public function metatag(string $index): string|bool|null
+>>>>>>> laraxot/dev
     {
         // $ris = self::__getStatic($index);
         // echo '<br/>['.$index.']['.$ris.']';
         // if ('' === $ris || null === $ris) {
+<<<<<<< HEAD
        $value = config('metatag.'.$index);
+=======
+        $value = config('metatag.'.$index);
+>>>>>>> laraxot/dev
 
         return is_string($value) || is_bool($value) ? $value : null;
     }

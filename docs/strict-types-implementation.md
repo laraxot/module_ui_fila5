@@ -54,6 +54,11 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 - [Regole Generali per strict_types](../../Xot/docs/php-strict-types.md)
 - [Linee Guida PHPStan Livello 10](../../Xot/docs/PHPStan/LEVEL10_LINEE_GUIDA.md)
 - [Conflitti Merge Risolti](./CONFLITTI_MERGE_RISOLTI.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 - [README del Modulo UI](./README.md)
 # Implementazione di strict_types nel Modulo UI
 ## Importanza di declare(strict_types=1)
@@ -92,3 +97,7 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 - [Conflitti Merge Risolti](./CONFLITTI_MERGE_RISOLTI.md)
 
 ```
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

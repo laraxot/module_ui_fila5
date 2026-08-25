@@ -200,6 +200,8 @@ TextInput::make('full_name')
 
 ## Vedi Anche
 - [VSCode PHP Setup](vscode-php-setup.md)
+<<<<<<< HEAD
+=======
 - [Development Tools](development-tools.md)
 - [Filament Documentation](https://filamentphp.com/docs)
 # Plugin VSCode per Filament
@@ -339,3 +341,7 @@ TextInput::make('full_name')
 - [VSCode PHP Setup](vscode-php-setup.md)
 
 ```
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

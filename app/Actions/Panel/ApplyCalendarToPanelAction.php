@@ -15,7 +15,11 @@ use Spatie\QueueableAction\QueueableAction;
  */
 final class ApplyCalendarToPanelAction
 {
+<<<<<<< HEAD
    use QueueableAction;
+=======
+    use QueueableAction;
+>>>>>>> laraxot/dev
 
     public function execute(Panel $panel, string $calendarClass): Panel
     {

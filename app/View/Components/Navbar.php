@@ -23,7 +23,11 @@ final class Navbar extends Component
          * @phpstan-var view-string
          */
         $view = app(GetViewAction::class)->execute();
+<<<<<<< HEAD
        $viewParams = [];
+=======
+        $viewParams = [];
+>>>>>>> laraxot/dev
 
         return view($view, $viewParams);
     }

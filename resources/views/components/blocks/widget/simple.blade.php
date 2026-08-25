@@ -6,7 +6,11 @@ declare(strict_types=1);
 @props(['widget'])
 <div>
     @php
+<<<<<<< HEAD
        $canRenderWidget = is_string($widget)
+=======
+        $canRenderWidget = is_string($widget)
+>>>>>>> laraxot/dev
             && $widget !== ''
             && class_exists($widget)
             && (! method_exists($widget, 'canView') || $widget::canView());

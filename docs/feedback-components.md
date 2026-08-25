@@ -109,6 +109,11 @@
 
 ### Tooltip
 ```html
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 <button 
   type="button" 
   class="btn btn-secondary" 
@@ -119,6 +124,7 @@
   class="btn btn-secondary"
   data-bs-toggle="tooltip"
   data-bs-placement="top"
+>>>>>>> laraxot/dev
   title="Tooltip in alto"
 >
   Tooltip
@@ -127,6 +133,11 @@
 
 ### Popover
 ```html
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 <button 
   type="button" 
   class="btn btn-secondary" 
@@ -137,6 +148,7 @@
   class="btn btn-secondary"
   data-bs-toggle="popover"
   data-bs-placement="right"
+>>>>>>> laraxot/dev
   data-bs-content="Contenuto del popover"
   title="Titolo Popover"
 >
@@ -149,6 +161,11 @@
 ### Progress Bar
 ```html
 <div class="progress">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
   <div 
     class="progress-bar progress-bar-striped progress-bar-animated" 
     role="progressbar" 
@@ -161,6 +178,7 @@
     style="width: 75%"
     aria-valuenow="75"
     aria-valuemin="0"
+>>>>>>> laraxot/dev
     aria-valuemax="100"
   >
     75%
@@ -174,8 +192,11 @@
   <div class="skeleton-header"></div>
   <div class="skeleton-body">
     <div class="skeleton-line"></div>
+<<<<<<< HEAD
+=======
     <div class="skeleton-line"></div>
     <div class="skeleton-line"></div>
+>>>>>>> laraxot/dev
   </div>
 </div>
 ```
@@ -222,6 +243,8 @@ $zindex-tooltip: 1070;
 - [Componenti Base](./base-components.md)
 - [Layout](./layout-components.md)
 - [Accessibilità](./standards/accessibility.md)
+<<<<<<< HEAD
+=======
 - [Performance](./standards/performance.md)
 # Componenti Feedback e Notifiche
 ## 🚨 Alert e Notifiche
@@ -353,3 +376,7 @@ $zindex-tooltip: 1070;
 - [Accessibilità](./standards/accessibility.md)
 
 ```
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

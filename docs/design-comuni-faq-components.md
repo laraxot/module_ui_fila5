@@ -360,8 +360,17 @@ Render: HTML
 pub_theme:: → Themes/Sixteen/resources/views/
 ```
 
+<<<<<<< HEAD
 Configurato in `config/local/<nome progetto>/xra.php`:
 Configurato in `config/local/current/xra.php`:
+=======
+<<<<<<< HEAD
+Configurato in `config/local/fixcity/xra.php`:
+=======
+Configurato in `config/local/<nome progetto>/xra.php`:
+Configurato in `config/local/current/xra.php`:
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ```php
 'pub_theme' => 'Sixteen',
 ```

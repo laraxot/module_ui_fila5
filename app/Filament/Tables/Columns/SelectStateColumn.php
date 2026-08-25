@@ -14,7 +14,11 @@ class SelectStateColumn extends XotBaseSelectColumn
     protected function setUp(): void
     {
         parent::setUp();
+<<<<<<< HEAD
        $this->options(function (Model $record, mixed $state): array {
+=======
+        $this->options(function (Model $record, mixed $state): array {
+>>>>>>> laraxot/dev
             $name = $this->getName();
             if ($state === null) {
                 if (! method_exists($record, 'getDefaultStateFor')) {
@@ -30,7 +34,11 @@ class SelectStateColumn extends XotBaseSelectColumn
 
             $states = [];
             try {
+<<<<<<< HEAD
                if (\is_object($state) && method_exists($state, 'transitionableStates')) {
+=======
+                if (\is_object($state) && method_exists($state, 'transitionableStates')) {
+>>>>>>> laraxot/dev
                     $transitionableStates = $state->transitionableStates();
                     if (is_iterable($transitionableStates)) {
                         $states = \is_array($transitionableStates) ? $transitionableStates : iterator_to_array($transitionableStates);
@@ -48,7 +56,11 @@ class SelectStateColumn extends XotBaseSelectColumn
             }
 
             /** @var array<int|string, mixed> $states */
+<<<<<<< HEAD
            if (\is_object($state)) {
+=======
+            if (\is_object($state)) {
+>>>>>>> laraxot/dev
                 $stateClass = $state::class;
                 if (class_exists($stateClass)) {
                     $stateNameProperty = null;
@@ -56,7 +68,11 @@ class SelectStateColumn extends XotBaseSelectColumn
                         $reflection = new \ReflectionClass($stateClass);
                         if ($reflection->hasProperty('name')) {
                             $nameProperty = $reflection->getStaticPropertyValue('name');
+<<<<<<< HEAD
                            $stateNameProperty = \is_string($nameProperty) ? $nameProperty : null;
+=======
+                            $stateNameProperty = \is_string($nameProperty) ? $nameProperty : null;
+>>>>>>> laraxot/dev
                         }
                     } catch (\ReflectionException) {
                         // Intentionally ignored: fall back to $stateNameProperty === null below.
@@ -71,7 +87,11 @@ class SelectStateColumn extends XotBaseSelectColumn
             }
 
             /** @var array<int|string, mixed> $states */
+<<<<<<< HEAD
            $statesFiltered = array_filter($states, static function (mixed $item): bool {
+=======
+            $statesFiltered = array_filter($states, static function (mixed $item): bool {
+>>>>>>> laraxot/dev
                 return \is_string($item) || \is_int($item);
             });
 

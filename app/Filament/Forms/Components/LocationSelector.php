@@ -49,14 +49,22 @@ class LocationSelector extends XotBaseGroup
 
     /**
      * Label personalizzate per i campi.
+<<<<<<< HEAD
     *
+=======
+     *
+>>>>>>> laraxot/dev
      * @var array<string, string>
      */
     protected array $labels = [];
 
     /**
      * Placeholder personalizzati per i campi.
+<<<<<<< HEAD
     *
+=======
+     *
+>>>>>>> laraxot/dev
      * @var array<string, string>
      */
     protected array $placeholders = [];
@@ -146,7 +154,11 @@ class LocationSelector extends XotBaseGroup
 
     /**
      * Validazione custom per verificare la coerenza dei dati.
+<<<<<<< HEAD
     *
+=======
+     *
+>>>>>>> laraxot/dev
      * @return list<string> messaggi di errore, già tradotti
      */
     public function validate(): array
@@ -157,7 +169,11 @@ class LocationSelector extends XotBaseGroup
         // Verifica che se è selezionata una provincia, sia selezionata anche la regione
         /* @phpstan-ignore offsetAccess.nonOffsetAccessible, offsetAccess.nonOffsetAccessible */
         if (! empty($state[$this->provinceFieldName]) && empty($state[$this->regionFieldName])) {
+<<<<<<< HEAD
            $errors[] = SafeStringCastAction::cast(__('ui::location_selector.validation.region_required_for_province'));
+=======
+            $errors[] = SafeStringCastAction::cast(__('ui::location_selector.validation.region_required_for_province'));
+>>>>>>> laraxot/dev
         }
 
         // Verifica che se è selezionato un CAP, siano selezionate regione e provincia
@@ -167,7 +183,11 @@ class LocationSelector extends XotBaseGroup
             $provinceValue = $state[$this->provinceFieldName] ?? null;
 
             if (! empty($capValue) && (empty($regionValue) || empty($provinceValue))) {
+<<<<<<< HEAD
                $errors[] = SafeStringCastAction::cast(__('ui::location_selector.validation.region_province_required_for_cap'));
+=======
+                $errors[] = SafeStringCastAction::cast(__('ui::location_selector.validation.region_province_required_for_cap'));
+>>>>>>> laraxot/dev
             }
         }
 

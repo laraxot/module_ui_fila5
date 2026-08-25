@@ -37,12 +37,20 @@ final class Blocks extends Component
          * @phpstan-var view-string
          */
         $view = app(GetViewAction::class)->execute($this->view);
+<<<<<<< HEAD
        $viewParams = [
+=======
+        $viewParams = [
+>>>>>>> laraxot/dev
             'view' => $view,
             'blocks' => $this->blocks,
             'model' => $this->model,
         ];
 
+<<<<<<< HEAD
        return view($view, $viewParams);
+=======
+        return view($view, $viewParams);
+>>>>>>> laraxot/dev
     }
 }

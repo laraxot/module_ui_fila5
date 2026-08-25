@@ -13,14 +13,22 @@ final class StatWithIconWidget extends XotBaseSchemaWidget
 
     protected string|Htmlable $label;
 
+<<<<<<< HEAD
    protected string|int|float|bool|Htmlable|\Closure $value;
+=======
+    protected string|int|float|bool|Htmlable|\Closure $value;
+>>>>>>> laraxot/dev
 
     public function getFormSchema(): array
     {
         return [];
     }
 
+<<<<<<< HEAD
    /**
+=======
+    /**
+>>>>>>> laraxot/dev
      * @return array<string, mixed>
      */
     protected function getData(): array

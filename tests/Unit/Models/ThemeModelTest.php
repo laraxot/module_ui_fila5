@@ -38,7 +38,11 @@ describe('Theme Model', function (): void {
             'is_active' => true,
         ]);
 
+<<<<<<< HEAD
        /* @phpstan-ignore-next-line property.nonObject (Theme model absent from artifact set) */
+=======
+        /* @phpstan-ignore-next-line property.nonObject (Theme model absent from artifact set) */
+>>>>>>> laraxot/dev
         Assert::assertSame('Test Theme', $theme->name);
         /* @phpstan-ignore-next-line property.nonObject (Theme model absent from artifact set) */
         Assert::assertTrue($theme->is_active);
@@ -50,7 +54,11 @@ describe('Theme Model', function (): void {
         $expected = ['name', 'description', 'is_active', 'config', 'parent_id', 'source_path', 'compiled_path', 'needs_compilation'];
 
         foreach ($expected as $field) {
+<<<<<<< HEAD
            /* @phpstan-ignore-next-line class.notFound (Theme model absent from artifact set) */
+=======
+            /* @phpstan-ignore-next-line class.notFound (Theme model absent from artifact set) */
+>>>>>>> laraxot/dev
             Assert::assertTrue(in_array($field, $theme->getFillable(), true));
         }
     });

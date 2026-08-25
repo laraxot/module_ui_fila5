@@ -52,7 +52,11 @@ it('category tabs component renders without errors', function (): void {
         'show_counts' => true,
         'mobile_scrollable' => true,
         'active_category' => 'all',
+<<<<<<< HEAD
    ]);
+=======
+    ]);
+>>>>>>> laraxot/dev
 
     Assert::assertStringContainsString('/markets', $html);
     Assert::assertStringContainsString('All Markets', $html);

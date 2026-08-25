@@ -4,7 +4,11 @@ declare(strict_types=1);
 
 return [
     'fields' => [
+<<<<<<< HEAD
        'banned-icon' => ['label' => 'banned-icon', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
+=======
+        'banned-icon' => ['label' => 'banned-icon', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
+>>>>>>> laraxot/dev
         'banned-action' => ['label' => 'banned-action', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
         'cancelled-icon' => ['label' => 'cancelled-icon', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
         'cancelled-action' => ['label' => 'cancelled-action', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
@@ -48,7 +52,11 @@ return [
     'navigation' => [
         'name' => 'Icon State Split',
         'plural' => 'Icon State Split',
+<<<<<<< HEAD
        'group' => ['name' => 'General', 'description' => 'General Settings'],
+=======
+        'group' => ['name' => 'General', 'description' => 'General Settings'],
+>>>>>>> laraxot/dev
         'label' => 'Icon State Split',
         'sort' => 1,
         'icon' => 'heroicon-o-rectangle-stack',

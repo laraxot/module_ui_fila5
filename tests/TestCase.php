@@ -17,7 +17,11 @@ use function Safe\file_get_contents;
 /**
  * Base test case for UI module.
  *
+<<<<<<< HEAD
 * Uses shared sqlite from fixcity_data.sqlite (no RefreshDatabase).
+=======
+ * Uses shared sqlite from fixcity_data.sqlite (no RefreshDatabase).
+>>>>>>> laraxot/dev
  * Pattern skip offline: Feature/`ui-db` skip se manca schema; Unit eseguiti.
  */
 abstract class TestCase extends XotBaseTestCase
@@ -38,6 +42,10 @@ abstract class TestCase extends XotBaseTestCase
             UIServiceProvider::class,
         ];
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
     protected function setUp(): void
     {
         $this->prepareSharedFixcitySqliteForTesting();

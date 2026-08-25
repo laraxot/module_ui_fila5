@@ -23,7 +23,11 @@ class GetAllIconsAction
         // Uso reflection per accedere alle icone in modo sicuro
         try {
             $reflection = new \ReflectionClass($iconsFactory);
+<<<<<<< HEAD
            $property = $reflection->getProperty('sets');
+=======
+            $property = $reflection->getProperty('sets');
+>>>>>>> laraxot/dev
             $property->setAccessible(true);
             $icons = $property->getValue($iconsFactory);
         } catch (\Exception $e) {
@@ -31,7 +35,11 @@ class GetAllIconsAction
             return [];
         }
 
+<<<<<<< HEAD
        if (! is_iterable($icons)) {
+=======
+        if (! is_iterable($icons)) {
+>>>>>>> laraxot/dev
             return [];
         }
 
@@ -63,7 +71,11 @@ class GetAllIconsAction
                     continue;
                 }
 
+<<<<<<< HEAD
                foreach (File::allFiles($path) as $file) {
+=======
+                foreach (File::allFiles($path) as $file) {
+>>>>>>> laraxot/dev
                     // Simply ignore files that aren't SVGs
                     if ('svg' !== $file->getExtension()) {
                         continue;

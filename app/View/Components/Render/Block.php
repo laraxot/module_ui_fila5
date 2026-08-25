@@ -19,7 +19,11 @@ class Block extends Component
 {
     public ?string $view = null;
 
+<<<<<<< HEAD
    /**
+=======
+    /**
+>>>>>>> laraxot/dev
      * @param array<string, mixed> $block
      */
     public function __construct(
@@ -44,12 +48,20 @@ class Block extends Component
         $view = $this->view;
         if (! view()->exists(is_string($view) ? $view : ((string) $view))) {
             $message = 'view not exists ['.$view.'] ! <pre>'.print_r($this->block, true).'</pre>';
+<<<<<<< HEAD
            $viewParams = [
+=======
+            $viewParams = [
+>>>>>>> laraxot/dev
                 'title' => 'deprecated',
                 'message' => $message,
             ];
 
+<<<<<<< HEAD
            return view('ui::alert', $viewParams);
+=======
+            return view('ui::alert', $viewParams);
+>>>>>>> laraxot/dev
         }
         $viewParams = $this->normalizeViewData($this->block['data'] ?? []);
         $viewParams = app(ResolveLocalizedBlockDataAction::class)->execute($viewParams);

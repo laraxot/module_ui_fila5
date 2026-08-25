@@ -44,7 +44,11 @@ final class OpeningHoursField extends XotBaseField
     private function getDaySchema(string $dayKey, string $dayLabel): array
     {
         return [
+<<<<<<< HEAD
            TextEntry::make($dayKey.'_label')
+=======
+            TextEntry::make($dayKey.'_label')
+>>>>>>> laraxot/dev
                 ->state($dayLabel)
                 ->extraAttributes([
                     'class' => 'font-medium text-gray-900 dark:text-gray-100 text-center py-2',

@@ -18,7 +18,11 @@ use Webmozart\Assert\Assert;
 
 final class GetAllBlocksAction
 {
+<<<<<<< HEAD
    use QueueableAction;
+=======
+    use QueueableAction;
+>>>>>>> laraxot/dev
 
     /**
      * @return DataCollection<int, ComponentFileData>
@@ -29,7 +33,11 @@ final class GetAllBlocksAction
 
         $files = File::glob(base_path('Modules').'/*/'.$relativePath.'/../Filament/Blocks/*.php');
 
+<<<<<<< HEAD
        /** @var list<string> $files */
+=======
+        /** @var list<string> $files */
+>>>>>>> laraxot/dev
         $files = is_array($files) ? array_values($files) : [];
 
         /** @var array<int, array{name: string, class: class-string, module: string, path: string|false}> $blocks */
@@ -52,6 +60,10 @@ final class GetAllBlocksAction
             ];
         });
 
+<<<<<<< HEAD
        return ComponentFileData::collection(array_values($blocks));
+=======
+        return ComponentFileData::collection(array_values($blocks));
+>>>>>>> laraxot/dev
     }
 }

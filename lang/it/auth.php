@@ -29,7 +29,11 @@ return [
         'confirm_password' => 'Conferma Password',
         'save' => 'Salva',
         'update' => 'Aggiorna',
+<<<<<<< HEAD
        'services' => 'I miei servizi',
+=======
+        'services' => 'I miei servizi',
+>>>>>>> laraxot/dev
         'practices' => 'Le mie pratiche',
         'notifications' => 'Notifiche',
         'logout' => 'Esci',

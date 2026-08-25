@@ -3,7 +3,11 @@
 declare(strict_types=1);
 
 return [
+<<<<<<< HEAD
    'values' => [
+=======
+    'values' => [
+>>>>>>> laraxot/dev
         'list' => ['label' => 'Elenco', 'icon' => 'heroicon-o-list-bullet', 'color' => 'primary', 'description' => 'Elenco'],
         'grid' => ['label' => 'Griglia', 'icon' => 'heroicon-o-squares-2x2', 'color' => 'secondary', 'description' => 'Griglia'],
     ],
@@ -15,7 +19,11 @@ return [
     'navigation' => [
         'name' => 'Table Layout',
         'plural' => 'Table Layout',
+<<<<<<< HEAD
        'group' => ['name' => 'General', 'description' => 'General Settings'],
+=======
+        'group' => ['name' => 'General', 'description' => 'General Settings'],
+>>>>>>> laraxot/dev
         'label' => 'Table Layout',
         'sort' => 1,
         'icon' => 'heroicon-o-rectangle-stack',

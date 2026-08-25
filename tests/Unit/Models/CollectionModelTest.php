@@ -28,7 +28,11 @@ describe('Collection Model', function (): void {
         $expected = ['name', 'description', 'type'];
 
         foreach ($expected as $field) {
+<<<<<<< HEAD
            Assert::assertTrue(in_array($field, $collection->getFillable(), true));
+=======
+            Assert::assertTrue(in_array($field, $collection->getFillable(), true));
+>>>>>>> laraxot/dev
         }
     });
 
