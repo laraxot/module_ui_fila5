@@ -1,18 +1,5 @@
 # List Records in Filament
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-## Perché
-
-Le pagine lista delle Resource non estendono `Filament\Resources\Pages\ListRecords`.
-Estendono `XotBaseListRecords`: traduzioni, permessi e colonne restano nel contratto Laraxot.
-
-## Estensione corretta
-
-```php
-=======
-<<<<<<< HEAD
 ## Estensione Corretta
 
 ```php
@@ -25,8 +12,6 @@ class ListMyRecords extends ListRecords
 }
 
 // ✅ CORRETTO: Estendere XotBaseListRecords
-=======
->>>>>>> laraxot/dev
 ## Perché
 
 Le pagine lista delle Resource non estendono `Filament\Resources\Pages\ListRecords`.
@@ -35,11 +20,6 @@ Estendono `XotBaseListRecords`: traduzioni, permessi e colonne restano nel contr
 ## Estensione corretta
 
 ```php
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 
 class ListMyRecords extends XotBaseListRecords
@@ -49,33 +29,17 @@ class ListMyRecords extends XotBaseListRecords
     public function getListTableColumns(): array
     {
         return [
-<<<<<<< HEAD
-            // colonne
-=======
-<<<<<<< HEAD
-            // colonne
-=======
-<<<<<<< HEAD
             // definizione colonne
-=======
-            // colonne
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
+
+// colonne
         ];
     }
 }
 ```
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 ## Metodi obbligatori
-=======
-<<<<<<< HEAD
+
 ## Metodi Obbligatori
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 
 Quando si estende `XotBaseListRecords`:
 
@@ -96,8 +60,6 @@ Prefisso `List` obbligatorio. Visibilità `public`. Non cambiare la visibilità 
 ## Best practices
 
 ```php
-<<<<<<< HEAD
-=======
 declare(strict_types=1);
 
 namespace Modules\XXX\Filament\Resources\XXXResource\Pages;
@@ -150,7 +112,6 @@ Prefisso `List` obbligatorio. Visibilità `public`. Non cambiare la visibilità 
 ## Best practices
 
 ```php
->>>>>>> laraxot/dev
 class ListMyRecords extends XotBaseListRecords
 {
     protected static string $resource = MyResource::class;
@@ -158,11 +119,6 @@ class ListMyRecords extends XotBaseListRecords
     public function getListTableColumns(): array
     {
         return [
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
         ];
     }
 
@@ -213,9 +169,6 @@ class ListMyRecords extends XotBaseListRecords
             );
     }
 }
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
             TextColumn::make('id')->sortable(),
             TextColumn::make('name')->searchable(),
         ];
@@ -239,10 +192,3 @@ class ListMyRecords extends XotBaseListRecords
 ```
 
 Traduzioni con `static::trans()`, permessi con `can()` nel `mount()`.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev

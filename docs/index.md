@@ -1398,14 +1398,6 @@ Specialized UI components for displaying statistics of Y type questions:
     </script>
 </div>
 ```
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 
 ---
 
@@ -3018,10 +3010,3 @@ laravel/Modules/UI/
 - [phpstan-fixes-1.md](./wiki/troubleshooting/phpstan-fixes-1.md)
 - [phpstan-fixes-2026-05-06.deprecated.md](./wiki/troubleshooting/phpstan-fixes-2026-05-06.deprecated.md)
 - [phpstan-fixes.md](./wiki/troubleshooting/phpstan-fixes.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev

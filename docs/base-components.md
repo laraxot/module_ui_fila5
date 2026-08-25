@@ -158,10 +158,6 @@ $spacers: (
 ## 🔗 Collegamenti
 - [Performance](./standards/performance.md)
 - [Accessibilità](./standards/accessibility.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 - [UI Standards](./standards/ui-standards.md)
 # Componenti Base
 ## 🎨 Design System
@@ -268,8 +264,3 @@ $spacers: (
 - [Accessibilità](./standards/accessibility.md)
 
 ```
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev

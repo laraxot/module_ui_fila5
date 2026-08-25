@@ -33,19 +33,6 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
             {{ __('More actions') }}
         </x-filament::button>
     </x-slot>
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
     <x-filament::dropdown.list>
         <x-filament::dropdown.list.item>
             {{ __('View') }}
@@ -190,14 +177,6 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
   @volt('component.name')
   <?php
   use function Livewire\Volt\{state, mount};
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
   
   state([
       'property' => null,
@@ -212,19 +191,6 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
       // Logica dell'azione
   };
   ?>
-<<<<<<< HEAD
-  
-=======
-<<<<<<< HEAD
-  
-=======
-<<<<<<< HEAD
-
-=======
-  
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
   <div>
       <!-- Template del componente -->
   </div>
@@ -238,14 +204,6 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
   <?php
   use function Laravel\Folio\{middleware, name};
   use function Livewire\Volt\{state, mount};
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
   
   middleware(['auth']);
   name('page.name');
@@ -258,19 +216,6 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
       'property' => null,
   ]);
   ?>
-<<<<<<< HEAD
-  
-=======
-<<<<<<< HEAD
-  
-=======
-<<<<<<< HEAD
-
-=======
-  
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
   <x-layouts.main>
       <!-- Contenuto della pagina -->
   </x-layouts.main>
@@ -316,19 +261,6 @@ $logout = function () {
     @else
         <!-- Default state -->
     @endif
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
     @if($isLoggingOut)
         <x-filament::loading-indicator />
     @endif
@@ -376,19 +308,6 @@ $logout = function () {
         @else
             <!-- Default state -->
         @endif
-<<<<<<< HEAD
-        
-=======
-<<<<<<< HEAD
-        
-=======
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
         @if($isLoggingOut)
             <x-filament::loading-indicator />
         @endif
@@ -834,10 +753,3 @@ name('auth.logout');
 - ✅ Utilizzare i componenti appropriati
 - ✅ Seguire la struttura standard
 - ✅ Gestire correttamente le traduzioni
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev

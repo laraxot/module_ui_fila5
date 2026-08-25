@@ -1,8 +1,5 @@
 # PHPStan Compliance - UI Module
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 ## Status: ✅ FULLY COMPLIANT
 
 **Analysis Date:** September 22, 2025
@@ -13,10 +10,6 @@
 ## Compliance Summary
 
 The UI module is fully compliant with PHPStan level 10 analysis, demonstrating:
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
 ## Stato canonico corrente
 
 **Ultima analisi cold:** 24 agosto 2026  
@@ -124,11 +117,6 @@ instance inferita da Eloquent. Il test comportamentale equivalente passa con **1
 ## Compliance Summary
 
 Lo scope state UI-7.1 dimostra:
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 
 - ✅ Rigorous type hints implementation
 - ✅ Proper null handling
