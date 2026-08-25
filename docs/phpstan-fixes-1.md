@@ -4,9 +4,8 @@ topic: phpstan_fixes
 canonical: ../../../Themes/docs/shared-components/phpstan-fixes_1.md
 ---
 
-<<<<<<< HEAD:docs/phpstan_fixes.md
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan-fixes_1.md
-=======
+
 Questo documento traccia gli errori PHPStan di livello 7 identificati nel modulo UI e le relative soluzioni implementate.
 
 ## Errori Identificati
@@ -53,4 +52,3 @@ if ($livewire) {
 ```
 
 Questo approccio è più robusto e previene errori a runtime quando l'oggetto `$livewire` non ha i metodi o le proprietà previste.
->>>>>>> laraxot/dev:docs/phpstan-fixes-1.md

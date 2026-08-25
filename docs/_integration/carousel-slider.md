@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 ---
 title: "carousel_slider"
 type: concept
@@ -19,22 +16,12 @@ related:
   - "./custom-firm-fields-1.md"
   - "./custom-firm-fields.md"
   - "./custom-theme-1.md"
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
+
 # carousel_slider
 <!-- Contenuto migrato da _docs/carousel_slider.txt -->
 https://www.embla-carousel.com/examples/predefined/
-<<<<<<< HEAD
-=======
-
-
->>>>>>> laraxot/dev
 https://tw-elements.com/docs/standard/components/carousel/
 https://keen-slider.io/examples
-<<<<<<< HEAD
-=======
 
 ---
 title: "carousel_slider"
@@ -59,9 +46,4 @@ related:
 https://www.embla-carousel.com/examples/predefined/
 https://tw-elements.com/docs/standard/components/carousel/
 https://keen-slider.io/examples
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library

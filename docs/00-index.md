@@ -56,10 +56,6 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 
 ---
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 
 ---
 
@@ -193,8 +189,3 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 **Maintained By**: AI Agents Team  
 **Review Cycle**: Every sprint  
 **Next Review**: 2026-04-02
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev

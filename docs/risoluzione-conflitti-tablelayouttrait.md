@@ -63,10 +63,6 @@ Questo trait è strettamente correlato a:
 - `TableLayoutToggleTableAction.php`: L'azione che consente di cambiare il layout nella tabella
 
 ## Conclusione
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 
 La risoluzione dei conflitti in `TableLayoutTrait.php` è stata effettuata mantenendo il namespace corretto allineato con la struttura delle directory e garantendo la coerenza con il resto del codebase. Questa soluzione permette il corretto funzionamento del sistema di layout delle tabelle nel modulo UI, fornendo agli utenti la possibilità di scegliere tra visualizzazioni diverse dei dati.
 # Risoluzione Conflitti in TableLayoutTrait
@@ -111,8 +107,3 @@ Questo trait è strettamente correlato a:
 - `BaseListRecords.php`: La classe base che utilizza il trait
 - `TableLayoutToggleTableAction.php`: L'azione che consente di cambiare il layout nella tabella
 ## Conclusione
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
