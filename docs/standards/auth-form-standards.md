@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 ---
 title: "Standard Form di Autenticazione"
 type: rule
@@ -23,14 +15,6 @@ related:
   - "./performance.md"
   - "./ui-standards.md"
 ---
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 # Standard Form di Autenticazione
 
 ## Principi di Design
@@ -79,13 +63,6 @@ related:
       <input
         type="email"
         type="email" 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
         class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-primary-500 focus:border-primary-500 sm:text-sm"
       >
     </div>
@@ -105,13 +82,6 @@ related:
   
   <div>
     <button
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
       type="submit"
       class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
     >
@@ -170,18 +140,6 @@ related:
 ```scss
 .auth-card {
   @apply shadow-sm;
-<<<<<<< HEAD
-  
-=======
-<<<<<<< HEAD
-  
-=======
-<<<<<<< HEAD
-=======
-  
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
   @screen sm {
     @apply shadow-md;
   }
@@ -420,10 +378,3 @@ related:
 - [Accessibility](./accessibility.md) 
 
 ```
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev

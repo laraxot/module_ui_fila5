@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 ---
 title: "Agent instructions"
 type: reference
@@ -19,14 +11,6 @@ related:
   - "./index.md"
   - "./log.md"
 ---
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 # UI {{TYPE^}} LLM Wiki Agent Instructions
 
 > **Module/Theme:** UI
@@ -165,17 +149,7 @@ Related:
 ## Related Documentation
 
 - [Project Wiki Integration](../../docs/wiki/README.md)
-<<<<<<< HEAD
-- [Project Wiki Agent Instructions](../../docs/wiki/agents.md)
-=======
-<<<<<<< HEAD
-- [Project Wiki Agent Instructions](../../docs/wiki/agents.md)
-=======
-<<<<<<< HEAD
 - [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
-=======
+
 - [Project Wiki Agent Instructions](../../docs/wiki/agents.md)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 - [Module Documentation](../README.md)

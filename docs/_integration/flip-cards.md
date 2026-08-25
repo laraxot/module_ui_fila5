@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 ---
 title: "flip_cards"
 type: concept
@@ -26,12 +18,6 @@ related:
   - "./custom-firm-fields.md"
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 # flip_cards
 
 <!-- Contenuto migrato da _docs/flip_cards.txt -->
@@ -60,11 +46,6 @@ https://dev.to/adetutu/how-to-design-a-css-card-flip-animation-creating-flipping
 https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
 
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 # flip_cards
 
 <!-- Contenuto migrato da _docs/flip_cards.txt -->
@@ -72,8 +53,6 @@ https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create
 https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
 
 
-<<<<<<< HEAD
-=======
 https://codepen.io/desandro/pen/LmWozd
 
 https://codepen.io/riizkyyrmdnn/pen/dyaKgxJ
@@ -86,7 +65,6 @@ https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create
 # flip_cards
 https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
 
->>>>>>> laraxot/dev
 https://codepen.io/desandro/pen/LmWozd
 
 https://codepen.io/riizkyyrmdnn/pen/dyaKgxJ

@@ -31,21 +31,8 @@ return array (
     'actions' =>
     array (
         'create' =>
-<<<<<<< HEAD
     array (
         'create' => 
-=======
-<<<<<<< HEAD
-    array (
-        'create' => 
-=======
-<<<<<<< HEAD
-=======
-    array (
-        'create' => 
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
         array (
             'label' => 'create',
         ),
@@ -84,21 +71,8 @@ return array (
   'actions' =>
   array (
     'create' =>
-<<<<<<< HEAD
   array (
     'create' => 
-=======
-<<<<<<< HEAD
-  array (
-    'create' => 
-=======
-<<<<<<< HEAD
-=======
-  array (
-    'create' => 
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
     array (
       'label' => 'create',
     ),
@@ -278,10 +252,3 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 - **Modulo**: UI
 - **File**: Multipli file di traduzione
 - **Tipo Conflitto**: Dichiarazione PHP e sintassi array
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev

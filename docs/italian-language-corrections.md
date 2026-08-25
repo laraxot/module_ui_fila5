@@ -157,10 +157,6 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 - [Opening Hours Rule](../app/Rules/OpeningHoursRule.php)
 - [Validation Files Multilingua](./validation_files_multilingua.md)
 - [Linee Guida Localizzazione](./localization_guidelines.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 
 *Correzioni completate: gennaio 2025*
 # Correzioni Lingua Italiana - Opening Hours
@@ -265,8 +261,3 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 - [Opening Hours Rule](../app/Rules/OpeningHoursRule.php)
 - [Validation Files Multilingua](./validation_files_multilingua.md)
 - [Linee Guida Localizzazione](./localization_guidelines.md)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
