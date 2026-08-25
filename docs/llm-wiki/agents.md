@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Agent instructions"
 type: reference
@@ -14,7 +12,6 @@ related:
   - "./log.md"
 ---
 
->>>>>>> laraxot/dev
 # UI {{TYPE^}} LLM Wiki Agent Instructions
 
 > **Module/Theme:** UI
@@ -153,9 +150,5 @@ Related:
 ## Related Documentation
 
 - [Project Wiki Integration](../../docs/wiki/README.md)
-<<<<<<< HEAD
-- [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
-=======
 - [Project Wiki Agent Instructions](../../docs/wiki/agents.md)
->>>>>>> laraxot/dev
 - [Module Documentation](../README.md)

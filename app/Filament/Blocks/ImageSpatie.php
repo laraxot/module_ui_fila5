@@ -23,7 +23,11 @@ final class ImageSpatie
             ->schema([
                 Hidden::make('img_uuid')
                     ->default(Str::uuid()->toString(...))
-                    ->formatStateUsing(static fn (mixed $state): mixed => $state ?? Str::uuid()->toString()),
+                    ->formatStateUsing(static function (mixed $state): string {
+                        $value = $state ?? Str::uuid()->toString();
+
+                        return \is_string($value) ? $value : Str::uuid()->toString();
+                    }),
                 // ->live()
                 SpatieMediaLibraryFileUpload::make('image')
                     ->live()

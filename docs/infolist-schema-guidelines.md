@@ -67,11 +67,7 @@ protected function getInfolistSchema(): array
                             ,
                     ]),
             ]),
-<<<<<<< HEAD
-
-=======
         
->>>>>>> laraxot/dev
         'dettagli_account' => Section::make('Dettagli Account')
             ->schema([
                 // Altri componenti...
@@ -202,8 +198,6 @@ return [
 4. **Rispetta la Struttura di Filament**: Segui le convenzioni di Filament per la struttura dei componenti
 
 ## Conclusione
-<<<<<<< HEAD
-=======
 
 Seguendo queste linee guida, garantirai un'implementazione corretta e coerente del metodo `getInfolistSchema()`, facilitando la manutenzione del codice e prevenendo errori di tipo rilevati da PHPStan. Ricorda: usa **sempre** chiavi di tipo stringa per gli array restituiti.
 # Linee Guida per l'Implementazione di getInfolistSchema
@@ -297,4 +291,3 @@ return [
 3. **Nomi Significativi per le Chiavi**: Scegli nomi di chiave che riflettano il contenuto o lo scopo del componente
 4. **Rispetta la Struttura di Filament**: Segui le convenzioni di Filament per la struttura dei componenti
 ## Conclusione
->>>>>>> laraxot/dev

@@ -5,18 +5,11 @@ tags: [models, actions, category, collection, field-option]
 created: 2026-07-20
 updated: 2026-07-20
 qmd: "generic-ui-building-blocks category collection fieldoption"
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-related:
-  - "./table-layout-toggle.md"
-=======
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
   - "./table-layout-toggle.md"
   - "../geo-boundary.md"
->>>>>>> laraxot/dev
 ---
 
 # Generic UI Building Blocks: Category, Collection, FieldOption
@@ -86,16 +79,6 @@ unico entrypoint `execute()`). Azioni presenti, raggruppate per sotto-cartella:
   `Panel` senza modifiche. C'è un file gemello `.disabled` nella stessa cartella da rimuovere
   quando il pacchetto sarà aggiornato.
 
-<<<<<<< HEAD
-## Violazione regola di dipendenza — SOLO SEGNALAZIONE
-
-`app/Filament/Forms/Components/LocationSelector.php` importa `Modules\Geo\Models\Comune`
-(riga 11). La regola del progetto è che `Modules/UI` non deve mai dipendere da `Modules/Geo`
-(la direzione corretta è Geo → UI). Esiste anche un file gemello
-`LocationSelector.php.to_geo` con lo stesso import, che sembra un'indicazione che il file va
-spostato nel modulo Geo ma non è stato ancora fatto. Non corretto in questo task (fuori scope,
-solo documentazione) — richiede intervento separato per spostare/rifattorizzare il componente.
-=======
 ## Violazione regola di dipendenza — chiusa
 
 `LocationSelector` importava `Modules\Geo\Models\Comune`: era una classe **Geo** messa in UI. In questo monorepo Geo è spento: il file attivo **non c’è** più (`test ! -f app/Filament/Forms/Components/LocationSelector.php`). Non ricrearlo, né come null-adapter, né con suffisso `.to_geo`.
@@ -103,7 +86,6 @@ solo documentazione) — richiede intervento separato per spostare/rifattorizzar
 Le Action di questo modulo restano quelle elencate sopra (icone, datetime, blocchi, user header). Niente Action di geocoding/mappe qui: quelle, se un giorno serviranno, sono `QueueableAction` in `Modules/Geo`.
 
 Canon: [../geo-boundary.md](../geo-boundary.md).
->>>>>>> laraxot/dev
 
 ## Config path
 

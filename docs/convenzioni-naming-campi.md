@@ -102,8 +102,6 @@ TextInput::make('full_name')
 
 - [Documentazione Filament Forms](https://filamentphp.com/docs/3.x/forms/fields/text-input)
 - [Best Practices Database](../../../docs/database/best-practices.md)
-<<<<<<< HEAD
-=======
 - [Convenzioni API](../../../docs/api/convenzioni.md)
 ## Collegamenti tra versioni di convenzioni-naming-campi.md
 * [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
@@ -189,4 +187,3 @@ TextInput::make('full_name')
 - [Best Practices Database](../../../project_docs/database/best-practices.md)
 - [Convenzioni API](../../../project_docs/api/convenzioni.md)
 * [convenzioni-naming-campi.md](../../../../project_docs/convenzioni-naming-campi.md)
->>>>>>> laraxot/dev

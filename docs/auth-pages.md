@@ -4,11 +4,8 @@
 
 ### Struttura
 ```php
-<<<<<<< HEAD
-=======
 // Themes/One/resources/views/pages/auth/logout.blade.php
 // Themes/One/resources/views/pages/auth/logout.blade.php
->>>>>>> laraxot/dev
 
 <?php
 
@@ -32,8 +29,6 @@ $logout = function() {
         <div class="text-center">
             <h2 class="text-2xl font-bold mb-4">{{ __('Stai per essere disconnesso') }}</h2>
             <p class="text-gray-600 mb-6">{{ __('Sei sicuro di voler uscire?') }}</p>
-<<<<<<< HEAD
-=======
             
             <div class="flex justify-center space-x-4">
                 <button 
@@ -42,18 +37,14 @@ $logout = function() {
             <div class="flex justify-center space-x-4">
                 <button
                     wire:click="logout"
->>>>>>> laraxot/dev
                     class="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
                 >
                     {{ __('Esci') }}
                 </button>
-<<<<<<< HEAD
-=======
                 <a
                     href="{{ url()->previous() }}"
                 <a 
                     href="{{ url()->previous() }}" 
->>>>>>> laraxot/dev
                     class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
                 >
                     {{ __('Annulla') }}
@@ -122,8 +113,6 @@ $logout = function() {
 2. Fornire feedback chiari all'utente
 3. Garantire la sicurezza del processo di logout
 4. Assicurare la responsività su tutti i dispositivi
-<<<<<<< HEAD
-=======
 5. Utilizzare le traduzioni per il supporto multilingua
 # Pagine di Autenticazione
 ## Pagina di Logout con Folio e Volt
@@ -211,4 +200,3 @@ $logout = function() {
 1. Mantenere il design semplice e intuitivo
 2. Fornire feedback chiari all'utente
 4. Assicurare la responsività su tutti i dispositivi
->>>>>>> laraxot/dev

@@ -61,8 +61,6 @@ Forms\Components\FileUpload::make('certifications')
 
 ## Vedi Anche
 - [Filament FileUpload Documentation](https://filamentphp.com/docs/forms/fields#file-upload)
-<<<<<<< HEAD
-=======
 - [Best Practices](../../Xot/docs/filament-best-practices.md)
 # Componenti FileUpload in Filament
 ## Errore Comune: prefixIcon
@@ -108,7 +106,6 @@ Forms\Components\FileUpload::make('certifications')
    - Gestire correttamente gli errori
    - Fornire feedback di progresso
 ## Collegamenti
->>>>>>> laraxot/dev
 - [README](../../Patient/project_docs/README.md)
 - [Filament Resources](../../Patient/project_docs/filament-resources.md)
 - [Form Components](../../Patient/project_docs/filament-form-components.md)

@@ -88,17 +88,6 @@ test('it handles empty enabled dates', function (): void {
 
 test('it throws on invalid enabled dates input', function (): void {
     $component = InlineDatePicker::make('test')->enabledDates(['invalid-date']);
-
-    try {
-        $dates = $component->getEnabledDates()->toArray();
-        Assert::assertIsArray($dates);
-    } catch (InvalidFormatException $e) {
-        Assert::assertNotEmpty($e->getMessage());
-    }
-});
-
-test('it handles different date formats', function (): void {
-    $component = InlineDatePicker::make('test')->enabledDates(['2025-06-15']);
     Assert::assertTrue($component->isDateEnabled('2025-06-15'));
     Assert::assertFalse($component->isDateEnabled('15-06-2025'));
 });

@@ -61,8 +61,6 @@
 * [filament-components.md](../../Cms/docs/best-practices/filament-components.md)
 * [filament-components.md](../../Cms/docs/filament-components.md)
 * [filament-components.md](../../../docs/rules/filament-components.md)
-<<<<<<< HEAD
-=======
 # Componenti Filament UI
 
 ## Collegamenti Bidirezionali
@@ -124,16 +122,12 @@
 3. Seguire le convenzioni di naming del progetto
 4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
 ## Collegamenti tra versioni di filament-components.md
->>>>>>> laraxot/dev
 * [filament-components.md](../../User/project_docs/best-practices/filament-components.md)
 * [filament-components.md](../../Cms/project_docs/best-practices/filament-components.md)
 * [filament-components.md](../../Cms/project_docs/filament-components.md)
 * [filament-components.md](../../../project_docs/rules/filament-components.md)
-<<<<<<< HEAD
-=======
 
 ||||||| parent of 9a84589 (.):docs/archived/filament-components-1.md
 * [filament-components.md](../../../docs/rules/filament-components.md)
 ||||||| parent of 9a84589 (.):docs/archived/filament-components-1.md
 * [filament-components.md](../../../docs/rules/filament-components.md)
->>>>>>> laraxot/dev

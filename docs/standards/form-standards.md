@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: "Standard Form nei Temi"
 type: rule
@@ -18,7 +16,6 @@ related:
   - "./ui-standards.md"
 ---
 
->>>>>>> laraxot/dev
 # Standard Form nei Temi
 
 ## Principi Generali
@@ -276,8 +273,6 @@ form.addEventListener('submit', async (e) => {
 ## Collegamenti
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md)
-<<<<<<< HEAD
-=======
 - [Performance](./performance.md)
 # Standard Form nei Temi
 ## Principi Generali
@@ -432,4 +427,3 @@ form.addEventListener('submit', async (e) => {
 ## Collegamenti
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md)
->>>>>>> laraxot/dev

@@ -1,19 +1,5 @@
 # List Records in Filament
 
-<<<<<<< HEAD
-## Estensione Corretta
-
-```php
-// ❌ ERRATO: Non estendere ListRecords
-use Filament\Resources\Pages\ListRecords;
-
-class ListMyRecords extends ListRecords
-{
-    // ...
-}
-
-// ✅ CORRETTO: Estendere XotBaseListRecords
-=======
 ## Perché
 
 Le pagine lista delle Resource non estendono `Filament\Resources\Pages\ListRecords`.
@@ -22,7 +8,6 @@ Estendono `XotBaseListRecords`: traduzioni, permessi e colonne restano nel contr
 ## Estensione corretta
 
 ```php
->>>>>>> laraxot/dev
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 
 class ListMyRecords extends XotBaseListRecords
@@ -32,114 +17,30 @@ class ListMyRecords extends XotBaseListRecords
     public function getListTableColumns(): array
     {
         return [
-<<<<<<< HEAD
-            // definizione colonne
-=======
             // colonne
->>>>>>> laraxot/dev
         ];
     }
 }
 ```
 
-<<<<<<< HEAD
-## Metodi Obbligatori
 
-Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti metodi:
+Quando si estende `XotBaseListRecords`:
 
-1. `getListTableColumns()`: Definisce le colonne della tabella
-2. `getListTableActions()`: Definisce le azioni per singola riga
-3. `getListTableBulkActions()`: Definisce le azioni di massa
-4. `getListTableFilters()`: Definisce i filtri della tabella
+1. `getListTableColumns()` — colonne
+2. `getListTableActions()` — azioni riga
+3. `getListTableBulkActions()` — azioni di massa
+4. `getListTableFilters()` — filtri
 
-## Convenzioni Importanti
+Prefisso `List` obbligatorio. Visibilità `public`. Non cambiare la visibilità dei metodi ereditati.
 
-1. **Prefisso List**:
-   - Tutti i metodi relativi alla tabella DEVONO avere il prefisso "List"
-   - Es: `getListTableColumns()` invece di `getTableColumns()`
+## Errori comuni
 
-2. **Visibilità dei Metodi**:
-   - Tutti i metodi devono essere `public`
-   - Non cambiare la visibilità dei metodi ereditati
+- Estendere `ListRecords` Filament direttamente
+- Usare `getTableColumns()` / `getTableActions()` senza prefisso `List`
+- Mettere la tabella sulla Resource invece che sulla pagina List
+- `protected function getListTableColumns()`
 
-3. **Namespace**:
-   ```php
-   use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-   ```
-
-## Errori Comuni da Evitare
-
-1. **❌ Estensione Errata**:
-   ```php
-   // NON estendere mai ListRecords direttamente
-   use Filament\Resources\Pages\ListRecords;
-   ```
-
-2. **❌ Metodi Senza Prefisso List**:
-   ```php
-   // NON usare i metodi senza prefisso List
-   public function getTableColumns(): array
-   public function getTableActions(): array
-   public function getTableBulkActions(): array
-   ```
-
-3. **❌ Visibilità Errata**:
-   ```php
-   // NON cambiare la visibilità dei metodi
-   protected function getListTableColumns(): array
-   ```
-
-## Best Practices
-
-1. **Organizzazione del Codice**:
-   ```php
-   class ListMyRecords extends XotBaseListRecords
-   {
-       protected static string $resource = MyResource::class;
-
-       public function getListTableColumns(): array
-       {
-           return [
-               TextColumn::make('id')->sortable(),
-               TextColumn::make('name')->searchable(),
-           ];
-       }
-
-       public function getListTableActions(): array
-       {
-           return [
-               EditAction::make(),
-               DeleteAction::make(),
-           ];
-       }
-
-       public function getListTableBulkActions(): array
-       {
-           return [
-               DeleteBulkAction::make(),
-           ];
-       }
-   }
-   ```
-
-2. **Traduzioni**:
-   - Usare `static::trans()` per le traduzioni
-   - Definire le traduzioni nel file di lingua del modulo
-
-3. **Permessi**:
-   - Implementare controlli nei mount()
-   - Usare can() per azioni condizionali
-
-## Note Importanti
-
-1. XotBaseListRecords fornisce funzionalità aggiuntive rispetto a ListRecords:
-   - Gestione automatica delle traduzioni
-   - Integrazione con il sistema di permessi
-   - Funzionalità custom del framework
-
-2. La configurazione della tabella deve essere sempre nella classe List, non nel Resource
-
-3. Mantenere la coerenza in tutto il progetto usando sempre XotBaseListRecords
+## Best practices
 
 ```php
 declare(strict_types=1);
@@ -173,7 +74,6 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
         return [
         ];
     }
-=======
 ## Metodi obbligatori
 
 Quando si estende `XotBaseListRecords`:
@@ -198,63 +98,10 @@ Prefisso `List` obbligatorio. Visibilità `public`. Non cambiare la visibilità 
 class ListMyRecords extends XotBaseListRecords
 {
     protected static string $resource = MyResource::class;
->>>>>>> laraxot/dev
 
     public function getListTableColumns(): array
     {
         return [
-<<<<<<< HEAD
-        ];
-    }
-
-    public function getTableFilters(): array
-    {
-        return [
-        ];
-    }
-
-    public function getTableActions(): array
-    {
-        return [
-
-            ViewAction::make()
-                ->label(''),
-            EditAction::make()
-                ->label(''),
-            DeleteAction::make()
-                ->label('')
-                ->requiresConfirmation(),
-        ];
-    }
-
-    public function getTableBulkActions(): array
-    {
-        return [
-            DeleteBulkAction::make(),
-        ];
-    }
-
-    public function table(Table $table): Table
-    {
-        return $table
-            // ->columns($this->getTableColumns())
-            ->columns($this->layoutView->getTableColumns())
-            ->contentGrid($this->layoutView->getTableContentGrid())
-            ->headerActions($this->getTableHeaderActions())
-
-            ->filters($this->getTableFilters())
-            ->filtersLayout(FiltersLayout::AboveContent)
-            ->persistFiltersInSession()
-            ->actions($this->getTableActions())
-            ->bulkActions($this->getTableBulkActions())
-            ->actionsPosition(ActionsPosition::BeforeColumns)
-            ->defaultSort(
-                column: 'created_at',
-                direction: 'DESC',
-            );
-    }
-}
-=======
             TextColumn::make('id')->sortable(),
             TextColumn::make('name')->searchable(),
         ];
@@ -278,4 +125,3 @@ class ListMyRecords extends XotBaseListRecords
 ```
 
 Traduzioni con `static::trans()`, permessi con `can()` nel `mount()`.
->>>>>>> laraxot/dev

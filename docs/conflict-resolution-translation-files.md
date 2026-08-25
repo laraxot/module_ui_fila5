@@ -31,11 +31,8 @@ return array (
     'actions' =>
     array (
         'create' =>
-<<<<<<< HEAD
-=======
     array (
         'create' => 
->>>>>>> laraxot/dev
         array (
             'label' => 'create',
         ),
@@ -74,11 +71,8 @@ return array (
   'actions' =>
   array (
     'create' =>
-<<<<<<< HEAD
-=======
   array (
     'create' => 
->>>>>>> laraxot/dev
     array (
       'label' => 'create',
     ),
@@ -160,8 +154,6 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 - **Modulo**: UI
 - **File**: Multipli file di traduzione
 - **Tipo Conflitto**: Dichiarazione PHP e sintassi array
-<<<<<<< HEAD
-=======
 - **Scelta**: Versione HEAD (con strict types e sintassi moderna)
 # Risoluzione Conflitti File di Traduzione UI
 ## Problema Identificato
@@ -260,4 +252,3 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 - **Modulo**: UI
 - **File**: Multipli file di traduzione
 - **Tipo Conflitto**: Dichiarazione PHP e sintassi array
->>>>>>> laraxot/dev

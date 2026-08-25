@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # Documentation
 
 This directory contains documentation for the module.
@@ -93,7 +91,6 @@ resources/views/components/ui/
 ## AI Workflows
 - [AI Methodologies](./ai-methodologies.md)
 ||||||| parent of 9a84589 (.)
->>>>>>> laraxot/dev
     case LIST = 'list';
     case GRID = 'grid';
 
@@ -101,8 +98,6 @@ resources/views/components/ui/
     {
         return $this->transClass(self::class, $this->value . '.label');
     }
-<<<<<<< HEAD
-=======
 }
 ```
 
@@ -149,7 +144,6 @@ MIT
 - [QMD Setup](./qmd-setup.md) — Configurazione ricerca locale
 - [Performance](./performance-optimization.md) — Metriche e best practice
 - [Project Structure](./project-structure.md) — Directory layout
->>>>>>> laraxot/dev
 
     public function getTableContentGrid(): array
     {
@@ -396,11 +390,8 @@ class DataTableComponent extends Component
             'layout' => $this->layout,
         ]);
 ### ❌ MAI usa match() per traduzioni negli Enum
-<<<<<<< HEAD
-=======
 ```
 
->>>>>>> laraxot/dev
 ```php
 // ❌ ERRORE - Non fare mai questo
 public function getLabel(): string
@@ -578,8 +569,6 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 - **[REGOLA CRITICA: SEMPRE usa transClass()](transclass_rule.md)**
 
 *Ultimo aggiornamento: gennaio 2025*
-<<<<<<< HEAD
-=======
 
 ---
 
@@ -1154,4 +1143,3 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 *Ultimo aggiornamento: gennaio 2025* 
 *Ultimo aggiornamento: gennaio 2025* 
 *Ultimo aggiornamento: gennaio 2025* 
->>>>>>> laraxot/dev

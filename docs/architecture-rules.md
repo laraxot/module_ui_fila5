@@ -146,12 +146,9 @@ class CustomMiddleware
 
 // Non hardcodare percorsi delle risorse
 <img src="public/images/avatar.png">
-<<<<<<< HEAD
-=======
 <img src="public/images/avatar.png">
 <img src="public/images/avatar.png">
 <img src="public/images/avatar.png">
->>>>>>> laraxot/dev
 
 // Non duplicare la registrazione dei componenti
 Blade::component('ui::components.icon', 'ui.icon');
@@ -285,8 +282,6 @@ class UIServiceProvider extends XotBaseServiceProvider
   @volt('component.name')
   <?php
   use function Livewire\Volt\{state, mount};
-<<<<<<< HEAD
-=======
   
   state([
       'property' => null,
@@ -297,15 +292,11 @@ class UIServiceProvider extends XotBaseServiceProvider
       'property' => null,
   ]);
 
->>>>>>> laraxot/dev
   $action = function () {
       // Logica dell'azione
   };
   ?>
-<<<<<<< HEAD
-=======
   
->>>>>>> laraxot/dev
   <div>
       <!-- Template del componente -->
   </div>
@@ -319,8 +310,6 @@ class UIServiceProvider extends XotBaseServiceProvider
   <?php
   use function Laravel\Folio\{middleware, name};
   use function Livewire\Volt\{state, mount};
-<<<<<<< HEAD
-=======
   
   middleware(['auth']);
   name('page.name');
@@ -329,15 +318,11 @@ class UIServiceProvider extends XotBaseServiceProvider
   middleware(['auth']);
   name('page.name');
 
->>>>>>> laraxot/dev
   state([
       'property' => null,
   ]);
   ?>
-<<<<<<< HEAD
-=======
   
->>>>>>> laraxot/dev
   <x-layouts.main>
       <!-- Contenuto della pagina -->
   </x-layouts.main>
@@ -480,8 +465,6 @@ class UIServiceProvider extends XotBaseServiceProvider
 5. **Cosa Fare**:
    - Utilizzare i componenti responsive appropriati
    - Mantenere la coerenza con il tema dark/light
-<<<<<<< HEAD
-=======
    - Gestire correttamente il logout con CSRF
 # Regole Architetturali
 ## Principi Fondamentali
@@ -812,4 +795,3 @@ class UIServiceProvider extends XotBaseServiceProvider
 5. **Cosa Fare**:
    - Utilizzare i componenti responsive appropriati
    - Mantenere la coerenza con il tema dark/light
->>>>>>> laraxot/dev

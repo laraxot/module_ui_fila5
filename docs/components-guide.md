@@ -33,11 +33,7 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
             {{ __('More actions') }}
         </x-filament::button>
     </x-slot>
-<<<<<<< HEAD
-
-=======
     
->>>>>>> laraxot/dev
     <x-filament::dropdown.list>
         <x-filament::dropdown.list.item>
             {{ __('View') }}
@@ -182,8 +178,6 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
   @volt('component.name')
   <?php
   use function Livewire\Volt\{state, mount};
-<<<<<<< HEAD
-=======
   
   state([
       'property' => null,
@@ -194,16 +188,11 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
       'property' => null,
   ]);
 
->>>>>>> laraxot/dev
   $action = function () {
       // Logica dell'azione
   };
   ?>
-<<<<<<< HEAD
-
-=======
   
->>>>>>> laraxot/dev
   <div>
       <!-- Template del componente -->
   </div>
@@ -217,8 +206,6 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
   <?php
   use function Laravel\Folio\{middleware, name};
   use function Livewire\Volt\{state, mount};
-<<<<<<< HEAD
-=======
   
   middleware(['auth']);
   name('page.name');
@@ -227,16 +214,11 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
   middleware(['auth']);
   name('page.name');
 
->>>>>>> laraxot/dev
   state([
       'property' => null,
   ]);
   ?>
-<<<<<<< HEAD
-
-=======
   
->>>>>>> laraxot/dev
   <x-layouts.main>
       <!-- Contenuto della pagina -->
   </x-layouts.main>
@@ -282,11 +264,7 @@ $logout = function () {
     @else
         <!-- Default state -->
     @endif
-<<<<<<< HEAD
-
-=======
     
->>>>>>> laraxot/dev
     @if($isLoggingOut)
         <x-filament::loading-indicator />
     @endif
@@ -334,11 +312,7 @@ $logout = function () {
         @else
             <!-- Default state -->
         @endif
-<<<<<<< HEAD
-
-=======
         
->>>>>>> laraxot/dev
         @if($isLoggingOut)
             <x-filament::loading-indicator />
         @endif
@@ -488,8 +462,6 @@ $logout = function () {
 - ✅ Utilizzare i componenti appropriati
 - ✅ Seguire la struttura standard
 - ✅ Gestire correttamente le traduzioni
-<<<<<<< HEAD
-=======
 - ✅ Testare in entrambi gli stati
 # Guida ai Componenti UI
 ## Layout
@@ -786,4 +758,3 @@ name('auth.logout');
 - ✅ Utilizzare i componenti appropriati
 - ✅ Seguire la struttura standard
 - ✅ Gestire correttamente le traduzioni
->>>>>>> laraxot/dev
