@@ -5,9 +5,24 @@ tags: [custom, theme]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "custom-theme custom theme"
+<<<<<<< .merge_file_LP59Bh
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 
+=======
+<<<<<<< .merge_file_xsO1Qa
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+
+=======
+<<<<<<< HEAD
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_5NSJ3L
+>>>>>>> .merge_file_79cV3n
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:

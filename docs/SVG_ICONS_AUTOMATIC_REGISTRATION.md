@@ -91,8 +91,21 @@ ls -la laravel/Modules/UI/resources/svg/brands/
 php artisan view:clear
 
 # Test in browser
+<<<<<<< .merge_file_ZMgl13
 # http://fixcity.local/it/tests/homepage
 
+=======
+<<<<<<< .merge_file_TaWYyy
+# http://fixcity.local/it/tests/homepage
+
+=======
+<<<<<<< HEAD
+=======
+# http://fixcity.local/it/tests/homepage
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ahdOua
+>>>>>>> .merge_file_3571AS
 # http://<nome progetto>.local/it/tests/homepage
 # http://app.local/it/tests/homepage
 ```

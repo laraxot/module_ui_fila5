@@ -70,6 +70,14 @@ Dettagli: [`docs/dependency-rules.md`](./docs/dependency-rules.md)
 
 ---
 
+<<<<<<< .merge_file_TNa9Uo
+=======
+<<<<<<< .merge_file_QJIDqV
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_F8WTnH
+>>>>>>> .merge_file_G8F41M
 # 🎨 UI Module - Eleva la Tua Interfaccia al Livello Successivo! 🚀
 
 ![GitHub issues](https://img.shields.io/github/issues/laraxot/module_ui_fila5)
@@ -315,4 +323,11 @@ Este proyecto está distribuido bajo la licencia MIT. Ver el archivo [LICENSE](L
 
 ---
 
+<<<<<<< .merge_file_TNa9Uo
+=======
+<<<<<<< .merge_file_QJIDqV
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_F8WTnH
+>>>>>>> .merge_file_G8F41M
 **Modulo** `ui` · **Laraxot** · **Current Platform** · PHPStan 10 · Filament 5
