@@ -6,6 +6,9 @@ namespace Modules\UI\Tests\Unit;
 
 use Illuminate\Translation\PotentiallyTranslatedString;
 use Mockery;
+use Mockery\Expectation;
+use Mockery\LegacyMockInterface;
+use Mockery\MockInterface;
 use Modules\UI\Enums\FieldTypeEnum;
 use Modules\UI\Enums\TableLayout;
 use Modules\UI\Filament\Widgets\StatsOverviewWidget;
@@ -22,11 +25,11 @@ use SplFileInfo;
 /**
  * Narrows Mockery's shouldReceive() union return type for PHPStan.
  *
- * @param  \Mockery\LegacyMockInterface|\Mockery\MockInterface  $mock
+ * @param  LegacyMockInterface|MockInterface  $mock
  */
-function expectMethod($mock, string $method): \Mockery\ExpectationInterface
+function expectMethod($mock, string $method): Expectation
 {
-    /** @var \Mockery\ExpectationInterface $expectation */
+    /** @var Expectation $expectation */
     $expectation = $mock->shouldReceive($method);
 
     return $expectation;
@@ -98,10 +101,10 @@ describe('UI coverage boost — Rules and policies', function (): void {
     });
 
     test('UiBasePolicy before grants super-admin', function (): void {
-        /** @var Mockery\MockInterface&UserContract $superAdmin */
+        /** @var MockInterface&UserContract $superAdmin */
         $superAdmin = Mockery::mock(UserContract::class);
         expectMethod($superAdmin, 'hasRole')->with('super-admin')->andReturn(true);
-        /** @var Mockery\MockInterface&UserContract $regular */
+        /** @var MockInterface&UserContract $regular */
         $regular = Mockery::mock(UserContract::class);
         expectMethod($regular, 'hasRole')->with('super-admin')->andReturn(false);
 
