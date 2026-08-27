@@ -30,6 +30,11 @@ Referenziava `Modules\Geo\Services\MapService` e `Modules\Geo\Services\Geocoding
 
 Esiste anche in:
 - `Modules/Blog/app/Models/Category.php`
+<<<<<<< HEAD
+=======
+- `Modules/Fixcity/app/Models/Category.php`
+
+>>>>>>> laraxot/dev
 - `Modules/<nome progetto>/app/Models/Category.php`
 - `Modules/Project/app/Models/Category.php`
 

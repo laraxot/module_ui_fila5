@@ -16,6 +16,7 @@ related:
 
 > `phpstan analyse Modules` si fermava a **6 errori `phpstan.parse`** senza analizzare
 > nulla: `Syntax error, unexpected T_SL`. `T_SL` è l'operatore `<<`, cioè l'inizio di
+<<<<<<< HEAD
 > `<<<<<<< HEAD`. Nove file del modulo `UI` erano stati committati con i marker di
 > conflitto dentro.
 
@@ -52,6 +53,8 @@ classe base, file gemelli), non con la posizione nel diff.
 ```bash
 cd laravel
 git grep -ln '^<<<<<<< \|^>>>>>>> ' -- 'Modules/**/*.php'   # nessun risultato
+=======
+>>>>>>> laraxot/dev
 git diff --name-only | while read f; do case "$f" in *.php) php -l "$f";; esac; done
 php -d memory_limit=-1 ./vendor/bin/phpstan analyse Modules
 ```
