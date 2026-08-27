@@ -5,18 +5,9 @@ tags: [roadmap]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "q4-roadmap ui module roadmap (2025 q4)"
-<<<<<<< .merge_file_cmiSqX
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 
-=======
-<<<<<<< HEAD
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-
->>>>>>> laraxot/dev
->>>>>>> .merge_file_wTIlBh
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:

@@ -91,24 +91,10 @@ use Livewire\Component;
 class UserStats extends Component
 {
     public $chartData;
-<<<<<<< .merge_file_m3iuqn
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_NTsykt
     public function mount()
     {
         $this->updateChartData();
     }
-<<<<<<< .merge_file_m3iuqn
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_NTsykt
     public function updateChartData()
     {
         $this->chartData = [
@@ -122,13 +108,6 @@ class UserStats extends Component
             ]
         ];
     }
-<<<<<<< .merge_file_m3iuqn
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_NTsykt
     public function render()
     {
         return view('livewire.user-stats');

@@ -5,18 +5,9 @@ tags: [bottlenecks]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "bottlenecks colli di bottiglia - modulo ui"
-<<<<<<< .merge_file_XLCQot
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 
-=======
-<<<<<<< HEAD
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-
->>>>>>> laraxot/dev
->>>>>>> .merge_file_gtEiX1
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:

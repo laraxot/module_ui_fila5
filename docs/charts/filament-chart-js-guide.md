@@ -14,13 +14,6 @@ related:
   - "./server-side-actions.md"
   - "./shared-hosting-strategy.md"
 ---
-<<<<<<< .merge_file_6gcAWT
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_DIF0fg
 # Filament Chart.js Guide
 
 > **Why this guide?**: To standardize how we use Chart.js in Filament, especially regarding advanced features like plugins (Zoom, Annotations) which are not enabled by default.

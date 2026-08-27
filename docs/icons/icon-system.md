@@ -5,18 +5,9 @@ tags: [icon, system]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "icon-system ui module icon system"
-<<<<<<< .merge_file_iCQHXR
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 
-=======
-<<<<<<< HEAD
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-
->>>>>>> laraxot/dev
->>>>>>> .merge_file_wbZnK2
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
@@ -106,16 +97,8 @@ Tables\Columns\IconColumn::make('status')
 ## Cross-Module Icons
 Each module registers its own SVG icons:
 - `Modules/User/resources/svg/` → `user-{name}`
-<<<<<<< .merge_file_iCQHXR
 - `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
 
-=======
-<<<<<<< HEAD
-=======
-- `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
-
->>>>>>> laraxot/dev
->>>>>>> .merge_file_wbZnK2
 - `resources/svg/` → `{name}`
 - etc.
 

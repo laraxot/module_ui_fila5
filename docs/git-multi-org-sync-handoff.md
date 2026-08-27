@@ -9,14 +9,6 @@ issues:
   - "https://github.com/provtv/module_ui_fila5/issues/20"
 discussions:
   - "https://github.com/provtv/<nome repository>/discussions/204"
-<<<<<<< .merge_file_07m6yh
-=======
-=======
-  - "https://github.com/provtv/base_ptv_fila5/discussions/204"
-
-- "https://github.com/provtv/<nome repository>/discussions/204"
->>>>>>> laraxot/dev
->>>>>>> .merge_file_dUfhW6
 ---
 
 # Handoff — multi-org sync (STORY-003)
@@ -34,19 +26,6 @@ Un tree dirty o un remote dietro/avanti **non** è sincronizzato, anche se l’a
 | Tipo | URL |
 |------|-----|
 | Issue owner | https://github.com/provtv/module_ui_fila5/issues/20 |
-<<<<<<< .merge_file_07m6yh
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_dUfhW6
-| Discussion | https://github.com/provtv/base_ptv_fila5/discussions/204 |
-| Hub base issue | https://github.com/provtv/base_ptv_fila5/issues/203 |
-| Hub base discussion | https://github.com/provtv/base_ptv_fila5/discussions/204 |
-
-<<<<<<< .merge_file_07m6yh
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_dUfhW6
 | Discussion | https://github.com/provtv/<nome repository>/discussions/204 |
 | Hub base issue | https://github.com/provtv/<nome repository>/issues/203 |
 | Hub base discussion | https://github.com/provtv/<nome repository>/discussions/204 |
