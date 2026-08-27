@@ -91,12 +91,18 @@ use Livewire\Component;
 class UserStats extends Component
 {
     public $chartData;
+<<<<<<< HEAD
     
+=======
+>>>>>>> laraxot/dev
     public function mount()
     {
         $this->updateChartData();
     }
+<<<<<<< HEAD
     
+=======
+>>>>>>> laraxot/dev
     public function updateChartData()
     {
         $this->chartData = [
@@ -110,7 +116,10 @@ class UserStats extends Component
             ]
         ];
     }
+<<<<<<< HEAD
     
+=======
+>>>>>>> laraxot/dev
     public function render()
     {
         return view('livewire.user-stats');
