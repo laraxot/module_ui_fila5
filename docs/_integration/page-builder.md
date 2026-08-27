@@ -1,16 +1,7 @@
-<<<<<<< .merge_file_flNmDT
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_zLAKub
 # page_builder
 <!-- Contenuto migrato da _docs/page_builder.txt -->
 # page_builder
 <!-- Contenuto migrato da _docs/page_builder.txt -->
-<<<<<<< .merge_file_flNmDT
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_zLAKub
 ---
 title: "page_builder"
 type: concept

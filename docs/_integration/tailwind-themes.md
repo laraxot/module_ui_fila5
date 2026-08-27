@@ -17,16 +17,6 @@ related:
   - "./custom-firm-fields-1.md"
   - "./custom-firm-fields.md"
 ---
-<<<<<<< .merge_file_vtKWAG
-=======
-<<<<<<< .merge_file_rM1xVJ
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_sXc9Vc
->>>>>>> .merge_file_hg7U6E
 # tailwind_themes
 
 <!-- Contenuto migrato da _docs/tailwind_themes.txt -->

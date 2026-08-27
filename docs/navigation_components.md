@@ -68,21 +68,8 @@ I componenti di navigazione devono utilizzare sempre le funzioni di localizzazio
 
 ### Traduzioni Necessarie
 
-<<<<<<< .merge_file_KnbPT1
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/saluteora/laravel/lang/{locale}/auth.php`:
 
-=======
-<<<<<<< .merge_file_SpGTP4
-Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/saluteora/laravel/lang/{locale}/auth.php`:
-
-=======
-<<<<<<< HEAD
-=======
-Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/saluteora/laravel/lang/{locale}/auth.php`:
-
->>>>>>> laraxot/dev
->>>>>>> .merge_file_mbkZMt
->>>>>>> .merge_file_4cZYDC
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `[project-root]/laravel/lang/{locale}/auth.php`:
 
 ```php

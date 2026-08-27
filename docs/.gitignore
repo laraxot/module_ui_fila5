@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 module: theme
 topic: .gitignore
@@ -6,7 +5,6 @@ canonical: ../../../Themes/docs/shared-components/.gitignore-Modules
 
 See canonical documentation: ../../../Themes/docs/shared-components/.gitignore-Modules
 agentdb.rvf
-=======
 # =============================================================================
 # LARAXOT MODULE: UI - .gitignore
 # =============================================================================
@@ -60,7 +58,6 @@ docs/phpstan/
 # -----------------------------------------------------------------------------
 agentdb.rvf
 
->>>>>>> laraxot/dev
 phpstan-corrections-gennaio-2025.md
 translations-update-january-2026.md
 git-push-recovery-2026-07-28.md
@@ -76,17 +73,13 @@ phpstan-fixes-january-2025.md
 notify-user-git-push-resolution-2026-07-28.md
 phpstan-fixes-gennaio-2025.md
 redundancy-audit-2026-05-21.md
-<<<<<<< HEAD
 # No numbered .md duplicates (rule: docs/wiki/rules/no-numbered-filenames.md)
-=======
 
 # No numbered Markdown duplicates
->>>>>>> laraxot/dev
 *-[0-9].md
 *-[0-9][0-9].md
 *_[0-9].md
 *_[0-9][0-9].md
-<<<<<<< HEAD
 # =============================================================================
 # LARAXOT MODULE: UI - .gitignore
 # -----------------------------------------------------------------------------
@@ -148,7 +141,6 @@ public/mix-manifest.json
 config/local.php
 config/development.php
 # IDE
-=======
 
 
 # -----------------------------------------------------------------------------
@@ -210,19 +202,16 @@ config/development.php
 # -----------------------------------------------------------------------------
 # IDE / editors
 # -----------------------------------------------------------------------------
->>>>>>> laraxot/dev
 .idea/
 .vscode/
 .cursor/
 .windsurf/
-<<<<<<< HEAD
 .phpintel
 .phpstorm.meta.php
 /.vagrant
 # Cache
 .php-cs-fixer.cache
 .phpunit.result.cache
-=======
 
 .phpintel
 .phpstorm.meta.php
@@ -235,7 +224,6 @@ config/development.php
 .php-cs-fixer.cache
 .phpunit.result.cache
 
->>>>>>> laraxot/dev
 *.cache
 *.lock
 *.tmp
@@ -244,7 +232,6 @@ config/development.php
 *.swp
 *.swo
 *.stackdump
-<<<<<<< HEAD
 v8-compile-cache-*
 # Logs
 *.log
@@ -257,7 +244,6 @@ lerna-debug.log*
 .git-blame-ignore-revs
 *.orig
 *.rej
-=======
 
 v8-compile-cache-*
 
@@ -284,18 +270,15 @@ lerna-debug.log*
 *.orig
 *.rej
 
->>>>>>> laraxot/dev
 *~HEAD
 *~BASE
 *~LOCAL
 *~REMOTE
 *~head
-<<<<<<< HEAD
 # Backup files
 *.old
 *.old1
 *.old2
-=======
 
 
 # -----------------------------------------------------------------------------
@@ -305,19 +288,16 @@ lerna-debug.log*
 *.old1
 *.old2
 
->>>>>>> laraxot/dev
 *.backup
 *.backup.*
 *.backup-*
 *.backup_*
-<<<<<<< HEAD
 *.bak
 *.new
 # Legacy
 resources/views/Components_old/
 resources/lang/
 lang/lang/
-=======
 
 *.bak
 *.new
@@ -330,30 +310,23 @@ resources/views/Components_old/
 resources/lang/
 lang/lang/
 
->>>>>>> laraxot/dev
 database_old/
 database/Migrations_old/
 database/Seeders_old/
 database/Factories_old/
-<<<<<<< HEAD
-# UI module
-=======
 
 
 # -----------------------------------------------------------------------------
 # UI module
 # -----------------------------------------------------------------------------
->>>>>>> laraxot/dev
 *.fila2
 *.psd
 *.fig
 *.sketch
-<<<<<<< HEAD
 design_notes.txt
 laravel
 public_html
 # System files
-=======
 
 design_notes.txt
 
@@ -364,13 +337,11 @@ public_html/
 # -----------------------------------------------------------------------------
 # System files
 # -----------------------------------------------------------------------------
->>>>>>> laraxot/dev
 .DS_Store
 .DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
-<<<<<<< HEAD
 Thumbs.db
 ehthumbs.db
 *:Zone.Identifier
@@ -378,7 +349,6 @@ ehthumbs.db
 phpstan*
 phpmd*
 rector.php
-=======
 
 Thumbs.db
 ehthumbs.db
@@ -392,7 +362,3 @@ ehthumbs.db
 phpstan*
 phpmd*
 rector.php
-<<<<<<< .merge_file_qDuxwO
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_jF9fVN

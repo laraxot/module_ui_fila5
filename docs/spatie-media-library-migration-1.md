@@ -108,10 +108,6 @@ Ogni tipo di documento dovrà avere la sua collection specifica:
 ```php
 // Patient Documents Collections
 'health_card' => 'tessere_sanitarie'
-<<<<<<< .merge_file_HqRHP2
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_j2EhCR
 'identity_document' => 'documenti_identita'  
 'isee_certificate' => 'certificazioni_isee'
 'pregnancy_certificate' => 'certificati_gravidanza'
@@ -134,11 +130,6 @@ public function registerMediaCollections(): void
     $this->addMediaCollection('tessere_sanitarie')
         ->acceptsMimeTypes(['image/jpeg', 'image/png', 'application/pdf'])
         ->singleFile();
-<<<<<<< .merge_file_HqRHP2
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_j2EhCR
         
     $this->addMediaCollection('documenti_identita')
         ->acceptsMimeTypes(['image/jpeg', 'image/png', 'application/pdf'])
@@ -237,10 +228,6 @@ class SpatieImageUpload
     ->acceptedFileTypes(['image/jpeg', 'image/png', 'application/pdf'])
     ->maxSize(5120),
 
-<<<<<<< .merge_file_HqRHP2
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_j2EhCR
 // DOPO (SpatieMediaLibraryFileUpload)  
 'health_card' => \Modules\UI\Filament\Components\SpatieDocumentUpload::forHealthCard()
     ->label(trans('saluteora::patients.fields.health_card.label'))
@@ -381,11 +368,6 @@ public function getCertificationsAttribute(): array
 <div class="grid grid-cols-2 gap-4">
     @if($patient->hasMedia('tessere_sanitarie'))
         <div class="document-preview">
-<<<<<<< .merge_file_HqRHP2
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_j2EhCR
             <h4>{{ __('saluteora::patients.health_card') }}</h4>
             <img src="{{ $patient->getFirstMediaUrl('tessere_sanitarie', 'thumbnail') }}" 
                  alt="Tessera Sanitaria"

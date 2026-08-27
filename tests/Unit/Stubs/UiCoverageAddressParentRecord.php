@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit\Stubs;
 
 use Illuminate\Database\Eloquent\Model;
-<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Relations\HasOne;
 
 final class UiCoverageAddressChildRecord extends Model
@@ -48,27 +47,15 @@ final class UiCoverageAddressHasOneRelation extends HasOne
     }
 }
 
-=======
-
-/**
- * Record padre per le prove di `AddressField`.
- *
- * Costruisce il figlio in memoria e restituisce sempre `true` da `touch()`: il test
- * riguarda il comportamento del componente, non la persistenza.
- */
->>>>>>> laraxot/dev
 final class UiCoverageAddressParentRecord extends Model
 {
     protected $guarded = [];
 
     public UiCoverageAddressChildRecord $addressModel;
 
-<<<<<<< HEAD
-=======
     /**
      * @param  array<string, mixed>  $attributes
      */
->>>>>>> laraxot/dev
     public function __construct(array $attributes = [])
     {
         parent::__construct($attributes);

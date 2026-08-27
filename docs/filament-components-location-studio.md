@@ -301,11 +301,6 @@ protected function getSearchStepSchema(): array
 protected function getStudioStepSchema(): array
         // Titolo step
         View::make('<nome progetto>::filament.widgets.studio-step-header')
-<<<<<<< .merge_file_JPrUEE
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_4OC0X1
         View::make('<nome progetto>::filament.widgets.studio-step-header')
             ->viewData([
                 'studiosCount' => $this->getStudiosCount(),
@@ -479,7 +474,6 @@ protected function getSearchStepSchema(): array
 protected function getStudioStepSchema(): array
         // Titolo step
         View::make('<nome progetto>::filament.widgets.studio-step-header')
->>>>>>> laraxot/dev
             ->viewData([
                 'studiosCount' => $this->getStudiosCount(),
                 'geographicArea' => $this->getGeographicAreaName(),
@@ -591,15 +585,5 @@ class FindDoctorWidgetStep2Test extends TestCase
 **Approccio**: Pulsanti + TextInput (semplice e diretto) 
 
 ```
-<<<<<<< .merge_file_JPrUEE
 ```
-=======
-<<<<<<< HEAD
-=======
 ```
-<<<<<<< .merge_file_p3iMuz
-```
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_4OC0X1
->>>>>>> .merge_file_8bfiYD

@@ -306,16 +306,6 @@ Prima di usare qualsiasi componente Filament:
 - [ ] Verificare che non ci siano `->label()` nel codice
 - [ ] Controllare che tutte le traduzioni siano implementate
 - [ ] Testare che le traduzioni funzionino correttamente
-<<<<<<< .merge_file_PoB1T7
-=======
-<<<<<<< .merge_file_W4QgrK
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_LsFabg
->>>>>>> .merge_file_6Wp5eh
 ## Verifica Automatica
 
 ### PHPStan Rule (Ideale)
