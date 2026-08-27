@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit;
 
 use Mockery;
-use Mockery\Expectation;
+use Mockery\CompositeExpectation;
 use Mockery\LegacyMockInterface;
 use Mockery\MockInterface;
 use Modules\UI\Tests\Fixtures\UiBasePolicyBehaviorConcretePolicy;
@@ -18,9 +18,9 @@ use PHPUnit\Framework\Assert;
  *
  * @param  LegacyMockInterface|MockInterface  $mock
  */
-function expectMethod($mock, string $method): Expectation
+function expectMethod($mock, string $method): CompositeExpectation
 {
-    /** @var Expectation $expectation */
+    /** @var CompositeExpectation $expectation */
     $expectation = $mock->shouldReceive($method);
 
     return $expectation;

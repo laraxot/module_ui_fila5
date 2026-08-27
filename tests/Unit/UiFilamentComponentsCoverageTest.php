@@ -6,8 +6,6 @@ namespace Modules\UI\Tests\Unit;
 
 use Illuminate\Translation\PotentiallyTranslatedString;
 use Mockery;
-use Mockery\Expectation;
-use Mockery\LegacyMockInterface;
 use Mockery\MockInterface;
 use Modules\UI\Enums\FieldTypeEnum;
 use Modules\UI\Enums\TableLayout;
@@ -21,19 +19,6 @@ use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Tests\FilamentSchemaCoverage;
 use PHPUnit\Framework\Assert;
 use SplFileInfo;
-
-/**
- * Narrows Mockery's shouldReceive() union return type for PHPStan.
- *
- * @param  LegacyMockInterface|MockInterface  $mock
- */
-function expectMethod($mock, string $method): Expectation
-{
-    /** @var Expectation $expectation */
-    $expectation = $mock->shouldReceive($method);
-
-    return $expectation;
-}
 
 uses(TestCase::class);
 
