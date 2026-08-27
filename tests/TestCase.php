@@ -38,13 +38,6 @@ abstract class TestCase extends XotBaseTestCase
             UIServiceProvider::class,
         ];
     }
-<<<<<<< .merge_file_cvYEFJ
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_PWD3KZ
     protected function setUp(): void
     {
         $this->prepareSharedFixcitySqliteForTesting();

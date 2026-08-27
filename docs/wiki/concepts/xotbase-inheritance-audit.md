@@ -9,20 +9,9 @@ issues:
   - "https://github.com/laraxot/module_ui_fila5/issues/27"
 discussions:
   - "https://github.com/laraxot/<nome repository>/discussions/12"
-<<<<<<< .merge_file_LSZI2r
   - "https://github.com/laraxot/base_techplanner_fila5/discussions/12"
 
 - "https://github.com/laraxot/<nome repository>/discussions/12"
-=======
-<<<<<<< .merge_file_pxHTtJ
-=======
-=======
-  - "https://github.com/laraxot/base_techplanner_fila5/discussions/12"
-
-- "https://github.com/laraxot/<nome repository>/discussions/12"
->>>>>>> laraxot/dev
->>>>>>> .merge_file_P54fzD
->>>>>>> .merge_file_wnrcfW
 related:
   - "../../../../Xot/docs/wiki/concepts/xotbase-filament-widget-hierarchy.md"
 ---

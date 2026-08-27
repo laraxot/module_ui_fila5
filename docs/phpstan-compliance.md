@@ -1,30 +1,5 @@
 # PHPStan Compliance - UI Module
 
-<<<<<<< .merge_file_CyITFx
-=======
-<<<<<<< .merge_file_ZhaKHW
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_bYOINs
->>>>>>> .merge_file_FoD0wz
-## Status: ✅ FULLY COMPLIANT
-
-**Analysis Date:** September 22, 2025
-**PHPStan Level:** 9 (Maximum)
-**Files Analyzed:** 237
-**Errors Found:** 0
-
-## Compliance Summary
-
-The UI module is fully compliant with PHPStan level 10 analysis, demonstrating:
-<<<<<<< .merge_file_CyITFx
-=======
-<<<<<<< .merge_file_ZhaKHW
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_bYOINs
->>>>>>> .merge_file_FoD0wz
 ## Stato canonico corrente
 
 **Ultima analisi cold:** 24 agosto 2026  

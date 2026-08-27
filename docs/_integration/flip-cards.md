@@ -52,43 +52,6 @@ https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create
 
 https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
 
-<<<<<<< .merge_file_6hS1ro
-=======
-<<<<<<< .merge_file_FY3dNW
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_tyPMRf
->>>>>>> .merge_file_Dr0MWi
-
-https://codepen.io/desandro/pen/LmWozd
-
-https://codepen.io/riizkyyrmdnn/pen/dyaKgxJ
-
-https://dev.to/adetutu/how-to-design-a-css-card-flip-animation-creating-flipping-cards-on-hover-5ha6
-
-https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
-
-https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
-# flip_cards
-https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
-
-https://codepen.io/desandro/pen/LmWozd
-
-https://codepen.io/riizkyyrmdnn/pen/dyaKgxJ
-
-https://dev.to/adetutu/how-to-design-a-css-card-flip-animation-creating-flipping-cards-on-hover-5ha6
-
-https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
-
-https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
-# flip_cards
-https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
-
-<<<<<<< .merge_file_6hS1ro
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_Dr0MWi
 https://codepen.io/desandro/pen/LmWozd
 
 https://codepen.io/riizkyyrmdnn/pen/dyaKgxJ
@@ -99,11 +62,6 @@ https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
 
 
 
-<<<<<<< .merge_file_6hS1ro
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_Dr0MWi
 
 
 
@@ -114,7 +72,6 @@ https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
 
->>>>>>> laraxot/dev
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
 
