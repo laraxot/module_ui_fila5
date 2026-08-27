@@ -20,10 +20,6 @@ Il `TableLayoutEnum` è un enum PHP che gestisce i layout delle tabelle nei comp
 class ListUsers extends ListRecords
 {
     protected TableLayoutEnum $layout = TableLayoutEnum::LIST;
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
     public function table(Table $table): Table
     {
         return $table
@@ -205,18 +201,10 @@ return [
 class ListUsers extends ListRecords
 {
     protected TableLayoutEnum $layout;
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
     public function mount(): void
     {
         $this->layout = TableLayoutEnum::init();
     }
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
     protected function getHeaderActions(): array
     {
         return [
@@ -253,20 +241,12 @@ protected function getColumnsForLayout(): array
         Tables\Columns\TextColumn::make('email')->searchable(),
         Tables\Columns\TextColumn::make('created_at')->dateTime(),
     ];
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
     $gridColumns = [
         Tables\Columns\Layout\Stack::make([
             Tables\Columns\TextColumn::make('name')->weight(FontWeight::Bold),
             Tables\Columns\TextColumn::make('email'),
         ]),
     ];
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
     return $this->layout->getTableColumns($listColumns, $gridColumns);
 }
 ```
@@ -309,10 +289,6 @@ class TableLayoutEnumTest extends TestCase
     {
         $this->assertEquals(TableLayoutEnum::LIST, TableLayoutEnum::init());
     }
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
     public function test_toggle_switches_layout(): void
     {
         $layout = TableLayoutEnum::LIST;

@@ -33,10 +33,6 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
             {{ __('More actions') }}
         </x-filament::button>
     </x-slot>
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
     <x-filament::dropdown.list>
         <x-filament::dropdown.list.item>
             {{ __('View') }}
@@ -195,10 +191,6 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
       // Logica dell'azione
   };
   ?>
-<<<<<<< HEAD
-  
-=======
->>>>>>> laraxot/dev
   <div>
       <!-- Template del componente -->
   </div>
@@ -224,10 +216,6 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
       'property' => null,
   ]);
   ?>
-<<<<<<< HEAD
-  
-=======
->>>>>>> laraxot/dev
   <x-layouts.main>
       <!-- Contenuto della pagina -->
   </x-layouts.main>
@@ -273,10 +261,6 @@ $logout = function () {
     @else
         <!-- Default state -->
     @endif
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
     @if($isLoggingOut)
         <x-filament::loading-indicator />
     @endif
@@ -324,10 +308,6 @@ $logout = function () {
         @else
             <!-- Default state -->
         @endif
-<<<<<<< HEAD
-        
-=======
->>>>>>> laraxot/dev
         @if($isLoggingOut)
             <x-filament::loading-indicator />
         @endif

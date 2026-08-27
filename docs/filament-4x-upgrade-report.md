@@ -76,10 +76,6 @@ class UserCalendarWidget extends \Filament\Widgets\Widget
 class SimpleCalendarWidget extends \Filament\Widgets\Widget
 {
     protected static ?string $view = 'ui::filament.widgets.simple-calendar';
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
     public function getEvents(): array
     {
         // Logica per recuperare eventi

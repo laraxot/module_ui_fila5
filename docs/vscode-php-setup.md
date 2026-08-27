@@ -165,14 +165,11 @@
 }
 ```
 
-<<<<<<< HEAD
-=======
 ## Tasks Personalizzati
 
 ```json
 // tasks.json
 
->>>>>>> laraxot/dev
 ## Best Practices
 
 ### 1. Organizzazione Workspace
@@ -412,8 +409,6 @@
 ## Vedi Anche
 - [VSCode Documentation](https://code.visualstudio.com/docs)
 - [PHP Intelephense](https://intelephense.com)
-<<<<<<< HEAD
-=======
 - [Filament Documentation](https://filamentphp.com/docs)
 # Configurazione VSCode per PHP e Filament
 ## Estensioni Essenziali
@@ -583,6 +578,5 @@
 - [PHP Intelephense](https://intelephense.com)
 
 ```
->>>>>>> laraxot/dev
 
 ```
