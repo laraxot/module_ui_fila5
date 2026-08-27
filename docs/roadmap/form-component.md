@@ -17,16 +17,6 @@ related:
   - "./02-next.md"
   - "./03-later.md"
 ---
-<<<<<<< .merge_file_hLBTdS
-=======
-<<<<<<< .merge_file_OVOJjw
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_nAdXnR
->>>>>>> .merge_file_hWcH1O
 # Form Component
 
 ## 📊 Stato Implementazione
@@ -76,16 +66,6 @@ class FormBuilder extends XotBaseUIComponent
         $this->fields[$name] = $field;
         return $this;
     }
-<<<<<<< .merge_file_hLBTdS
-=======
-<<<<<<< .merge_file_OVOJjw
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_nAdXnR
->>>>>>> .merge_file_hWcH1O
     public function validate(): ValidationResult
     {
         return $this->validator->validate($this->values);
@@ -102,16 +82,6 @@ abstract class FormField
     protected bool $required = false;
     protected ?string $placeholder = null;
     protected array $validators = [];
-<<<<<<< .merge_file_hLBTdS
-=======
-<<<<<<< .merge_file_OVOJjw
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_nAdXnR
->>>>>>> .merge_file_hWcH1O
     abstract public function render(): View;
     abstract public function validate($value): ValidationResult;
 }
@@ -121,16 +91,6 @@ class InputField extends FormField
     protected string $type = 'text';
     protected ?int $maxLength = null;
     protected ?string $pattern = null;
-<<<<<<< .merge_file_hLBTdS
-=======
-<<<<<<< .merge_file_OVOJjw
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_nAdXnR
->>>>>>> .merge_file_hWcH1O
     public function setType(string $type): self
     {
         $this->type = $type;

@@ -108,28 +108,17 @@ Ogni tipo di documento dovrà avere la sua collection specifica:
 ```php
 // Patient Documents Collections
 'health_card' => 'tessere_sanitarie'
-<<<<<<< .merge_file_5pZPyD
-=======
-<<<<<<< .merge_file_HqRHP2
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_j2EhCR
->>>>>>> .merge_file_mVTVeC
 'identity_document' => 'documenti_identita'  
 'isee_certificate' => 'certificazioni_isee'
 'pregnancy_certificate' => 'certificati_gravidanza'
-
 // Doctor Documents Collections  
 'certifications' => 'certificazioni_professionali'
-
 // UI/Appearance Collections
 'logos' => 'loghi_sistema'
 'backgrounds' => 'sfondi_interfaccia' 
 'headers' => 'intestazioni'
 ```
-
 #### 1.2 Configurazione Media Collections
-
 ```php
 // In ogni modello che usa media
 public function registerMediaCollections(): void
@@ -137,14 +126,6 @@ public function registerMediaCollections(): void
     $this->addMediaCollection('tessere_sanitarie')
         ->acceptsMimeTypes(['image/jpeg', 'image/png', 'application/pdf'])
         ->singleFile();
-<<<<<<< .merge_file_5pZPyD
-=======
-<<<<<<< .merge_file_HqRHP2
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_j2EhCR
->>>>>>> .merge_file_mVTVeC
         
     $this->addMediaCollection('documenti_identita')
         ->acceptsMimeTypes(['image/jpeg', 'image/png', 'application/pdf'])
@@ -243,56 +224,33 @@ class SpatieImageUpload
     ->acceptedFileTypes(['image/jpeg', 'image/png', 'application/pdf'])
     ->maxSize(5120),
 
-<<<<<<< .merge_file_5pZPyD
-=======
-<<<<<<< .merge_file_HqRHP2
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_j2EhCR
->>>>>>> .merge_file_mVTVeC
 // DOPO (SpatieMediaLibraryFileUpload)  
 'health_card' => \Modules\UI\Filament\Components\SpatieDocumentUpload::forHealthCard()
     ->label(trans('saluteora::patients.fields.health_card.label'))
     ->helperText(trans('saluteora::patients.fields.health_card.help')),
 ```
-
 #### 3.2 UI Blocks - Standardizzazione Architettura
-
 ```php
 // Modules/UI/app/Filament/Blocks/Image.php - Refactoring Completo
-
 // PRIMA
 FileUpload::make('image'),
-
 // DOPO  
 \Modules\UI\Filament\Components\SpatieImageUpload::make('image', 'content_images')
     ->imagePreviewHeight('250')
     ->conversion('thumbnail'),
-```
-
 ### **Fase 4: Migrazione Database e Conversioni**
-
 #### 4.1 Migrazione Dati Esistenti
-
-```php
 // Database/Migrations/migrate_file_uploads_to_media_library.php
 public function up(): void
 {
     // Migrazione automatica dei file esistenti
     $patients = Patient::whereNotNull('health_card')->get();
-
     foreach($patients as $patient) {
         if($patient->health_card && Storage::exists($patient->health_card)) {
             $patient->addMediaFromUrl(Storage::url($patient->health_card))
                 ->toMediaCollection('tessere_sanitarie');
         }
-    }
-}
-```
-
 #### 4.2 Rimozione Campi Database Obsoleti
-
-```php
 // Dopo migrazione completa - rimuovere colonne file paths
 Schema::table('users', function (Blueprint $table) {
     $table->dropColumn([
@@ -303,101 +261,50 @@ Schema::table('users', function (Blueprint $table) {
         'certifications'
     ]);
 });
-```
-
 ---
-
 ## 🔧 Implementazione Tecnica Dettagliata
-
 ### **Media Collections Configuration**
-
-```php
 // Modules/SaluteOra/app/Models/User.php - Aggiunta registerMediaCollections
-
 public function registerMediaCollections(): void
-{
     // Documenti paziente
     $this->addMediaCollection('tessere_sanitarie')
         ->acceptsMimeTypes(['image/jpeg', 'image/png', 'application/pdf'])
         ->singleFile()
         ->useDisk('private');
-
     $this->addMediaCollection('documenti_identita')
-        ->acceptsMimeTypes(['image/jpeg', 'image/png', 'application/pdf'])
-        ->singleFile()
-        ->useDisk('private');
-
     $this->addMediaCollection('certificazioni_isee')
         ->acceptsMimeTypes(['application/pdf'])
-        ->singleFile()
-        ->useDisk('private');
-
     $this->addMediaCollection('certificati_gravidanza')
-        ->acceptsMimeTypes(['application/pdf'])
-        ->singleFile()
-        ->useDisk('private');
-
     // Certificazioni dottore (multiple)
     $this->addMediaCollection('certificazioni_professionali')
-        ->acceptsMimeTypes(['application/pdf'])
-        ->useDisk('private');
-}
-
 public function registerMediaConversions(Media $media = null): void
-{
     $this->addMediaConversion('thumbnail')
         ->width(300)
         ->height(300)
         ->sharpen(10)
         ->performOnCollections('tessere_sanitarie', 'documenti_identita');
-
     $this->addMediaConversion('preview')
         ->width(600)
         ->height(400)
-        ->performOnCollections('tessere_sanitarie', 'documenti_identita');
-}
-```
-
 ### **Accessors per Backward Compatibility**
-
-```php
 // Modules/SaluteOra/app/Models/User.php - Accessors di transizione
-
 /**
  * Accessor per compatibilità con codice esistente.
  * Restituisce URL del primo media nella collection health_card.
  */
 public function getHealthCardAttribute(): ?string
-{
     return $this->getFirstMediaUrl('tessere_sanitarie');
-}
-
-/**
  * Accessor per array di certificazioni (dottori).
- */
 public function getCertificationsAttribute(): array
-{
     return $this->getMedia('certificazioni_professionali')
         ->map(fn($media) => $media->getUrl())
         ->toArray();
-}
-```
-
 ### **View Components Integration**
-
 ```blade
 {{-- resources/views/components/patient-documents.blade.php --}}
 <div class="grid grid-cols-2 gap-4">
     @if($patient->hasMedia('tessere_sanitarie'))
         <div class="document-preview">
-<<<<<<< .merge_file_5pZPyD
-=======
-<<<<<<< .merge_file_HqRHP2
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_j2EhCR
->>>>>>> .merge_file_mVTVeC
             <h4>{{ __('saluteora::patients.health_card') }}</h4>
             <img src="{{ $patient->getFirstMediaUrl('tessere_sanitarie', 'thumbnail') }}" 
                  alt="Tessera Sanitaria"

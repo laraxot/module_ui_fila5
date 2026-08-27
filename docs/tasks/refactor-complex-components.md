@@ -5,29 +5,10 @@ tags: [refactor, complex, components]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "refactor-complex-components task: refactoring componenti complessi - ui"
-<<<<<<< .merge_file_N82chN
-=======
-<<<<<<< .merge_file_tSU6T3
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_Bw7yUL
->>>>>>> .merge_file_7ikcnZ
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-
-<<<<<<< .merge_file_N82chN
-=======
-<<<<<<< .merge_file_tSU6T3
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_Bw7yUL
->>>>>>> .merge_file_7ikcnZ
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:

@@ -5,50 +5,6 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit\Stubs;
 
 use Illuminate\Database\Eloquent\Model;
-<<<<<<< HEAD
-use Illuminate\Database\Eloquent\Relations\HasOne;
-
-final class UiCoverageAddressChildRecord extends Model
-{
-    protected $guarded = [];
-
-    public int $updated = 0;
-
-    public function update(array $attributes = [], array $options = []): bool
-    {
-        ++$this->updated;
-
-        return true;
-    }
-}
-
-/**
- * @template TParent of UiCoverageAddressParentRecord
- * @extends HasOne<UiCoverageAddressChildRecord, TParent>
- */
-final class UiCoverageAddressHasOneRelation extends HasOne
-{
-    /** @param TParent $parent */
-    public function __construct(UiCoverageAddressParentRecord $parent)
-    {
-        parent::__construct(UiCoverageAddressChildRecord::query(), $parent, 'id', 'id');
-    }
-
-    /**
-     * @param  array<int, string>|string  $columns
-     */
-    public function first($columns = ['*']): ?Model
-    {
-        $parent = $this->getParent();
-        if ($parent instanceof UiCoverageAddressParentRecord) {
-            return $parent->addressModel;
-        }
-
-        return null;
-    }
-}
-
-=======
 
 /**
  * Record padre per le prove di `AddressField`.
@@ -56,25 +12,15 @@ final class UiCoverageAddressHasOneRelation extends HasOne
  * Costruisce il figlio in memoria e restituisce sempre `true` da `touch()`: il test
  * riguarda il comportamento del componente, non la persistenza.
  */
->>>>>>> laraxot/dev
 final class UiCoverageAddressParentRecord extends Model
 {
     protected $guarded = [];
 
     public UiCoverageAddressChildRecord $addressModel;
 
-<<<<<<< .merge_file_mIGPI7
     /**
      * @param  array<string, mixed>  $attributes
      */
-=======
-<<<<<<< HEAD
-=======
-    /**
-     * @param  array<string, mixed>  $attributes
-     */
->>>>>>> laraxot/dev
->>>>>>> .merge_file_Lnwuho
     public function __construct(array $attributes = [])
     {
         parent::__construct($attributes);

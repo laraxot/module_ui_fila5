@@ -10,16 +10,6 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 
 
 ### Versione Incoming
-<<<<<<< .merge_file_KVWhFO
-=======
-<<<<<<< .merge_file_opp6nO
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_yNASMP
->>>>>>> .merge_file_zEY29K
 ## Collegamenti tra versioni di PROMPT_RULES_LINK.md
 * [PROMPT_RULES_LINK.md](../../../UI/docs/PROMPT_RULES_LINK.md)
 * [PROMPT_RULES_LINK.md](../../../Lang/docs/PROMPT_RULES_LINK.md)

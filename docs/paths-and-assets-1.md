@@ -8,26 +8,14 @@
 >
 > **Soluzione:** Seguire SEMPRE la regola documentata qui sotto e aggiornata anche in README.md e nella root docs/links.md.
 
-<<<<<<< .merge_file_h9kXiI
-=======
-<<<<<<< .merge_file_jzfWNK
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_0RFZYX
->>>>>>> .merge_file_kMARVN
 # Gestione dei Percorsi e degli Asset 
-
 ## Collegamenti correlati
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
 - [Architettura Modulare](/laravel/Modules/UI/docs/architecture.md)
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
-
 ## Percorsi Corretti per gli Asset
-
 ### Struttura delle Directory
-
 , è fondamentale rispettare la struttura corretta delle directory per gli asset pubblici:
-
 ```
 /var/www/html/saluteora/
 ├── laravel/                 # Applicazione Laravel (codice sorgente)
@@ -37,24 +25,12 @@
 └── public_html/             # Directory pubblica (web root)
     ├── images/              # Immagini pubbliche
     │   ├── avatars/         # Avatar utenti
-    │   └── ...
     ├── css/                 # File CSS compilati
     ├── js/                  # File JavaScript compilati
     └── ...
-```
-
 ### Percorsi Corretti vs Percorsi Errati
-
 | Tipo di Asset | ✅ Percorso Corretto | ❌ Percorso Errato |
 |---------------|---------------------|-------------------|
-<<<<<<< .merge_file_h9kXiI
-=======
-<<<<<<< .merge_file_jzfWNK
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_0RFZYX
->>>>>>> .merge_file_kMARVN
 | Immagini | `/var/www/html/saluteora/public_html/images/` | `/var/www/html/saluteora/laravel/public/images/` |
 | CSS | `/var/www/html/saluteora/public_html/css/` | `/var/www/html/saluteora/laravel/public/css/` |
 | JavaScript | `/var/www/html/saluteora/public_html/js/` | `/var/www/html/saluteora/laravel/public/js/` |
@@ -89,29 +65,10 @@ Per garantire una buona esperienza utente, implementare sempre un fallback per l
 Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati come componenti Blade in:
 
 ```
-<<<<<<< .merge_file_h9kXiI
-=======
-<<<<<<< .merge_file_jzfWNK
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_0RFZYX
->>>>>>> .merge_file_kMARVN
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/
 ```
-
 ### SVG come Asset Pubblici
-
 Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizionati in:
-
-```
-<<<<<<< .merge_file_h9kXiI
-=======
-<<<<<<< .merge_file_jzfWNK
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_0RFZYX
->>>>>>> .merge_file_kMARVN
 /var/www/html/saluteora/public_html/images/
 ```
 
@@ -122,27 +79,9 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 Il componente avatar è implementato in:
 
 ```
-<<<<<<< .merge_file_h9kXiI
-=======
-<<<<<<< .merge_file_jzfWNK
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_0RFZYX
->>>>>>> .merge_file_kMARVN
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 ```
-
 E utilizza gli avatar SVG dalla directory pubblica:
-
-```
-<<<<<<< .merge_file_h9kXiI
-=======
-<<<<<<< .merge_file_jzfWNK
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_0RFZYX
->>>>>>> .merge_file_kMARVN
 /var/www/html/saluteora/public_html/images/avatars/
 ```
 
@@ -151,30 +90,12 @@ E utilizza gli avatar SVG dalla directory pubblica:
 Il componente icon è implementato in:
 
 ```
-<<<<<<< .merge_file_h9kXiI
-=======
-<<<<<<< .merge_file_jzfWNK
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_0RFZYX
->>>>>>> .merge_file_kMARVN
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 ```
-
 E include le definizioni SVG direttamente nel componente.
-
 ## Regola sui Componenti Blade UI
-
 > **IMPORTANTE:** Tutti i componenti Blade UI condivisi (es. logo, button, badge, ecc.) devono essere posizionati esclusivamente in:
 >
-<<<<<<< .merge_file_h9kXiI
-=======
-<<<<<<< .merge_file_jzfWNK
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_0RFZYX
->>>>>>> .merge_file_kMARVN
 > `/var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/`
 >
 > **MAI** in `resources/views/components/ui/` della root Laravel.
@@ -189,39 +110,18 @@ E include le definizioni SVG direttamente nel componente.
 
 **❌ Errato:**
 ```
-<<<<<<< .merge_file_h9kXiI
-=======
-<<<<<<< .merge_file_jzfWNK
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_0RFZYX
->>>>>>> .merge_file_kMARVN
 /var/www/html/ptvx/laravel/resources/views/components/ui/logo.blade.php
 ```
 **✅ Corretto:**
-```
 /var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/logo.blade.php
-```
-
 ## Best Practices
-
 1. **MAI utilizzare percorsi assoluti hardcoded** nei componenti Blade
 2. **SEMPRE utilizzare l'helper `asset()`** per riferirsi agli asset pubblici
 3. **Implementare fallback** per le immagini che potrebbero non essere disponibili
 4. **Verificare l'esistenza delle directory** prima di salvare nuovi asset
 5. **Seguire le convenzioni di naming** per mantenere la coerenza
 6. **Documentare i percorsi corretti** per evitare confusione
-
 ## Errori Comuni
-
-<<<<<<< .merge_file_h9kXiI
-=======
-<<<<<<< .merge_file_jzfWNK
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_0RFZYX
->>>>>>> .merge_file_kMARVN
 1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/saluteora/laravel/public/` invece di `/var/www/html/saluteora/public_html/`
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile

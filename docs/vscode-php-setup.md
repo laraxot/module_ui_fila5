@@ -165,26 +165,9 @@
 }
 ```
 
-<<<<<<< .merge_file_dLIjkt
-=======
-<<<<<<< .merge_file_mHmCZa
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_fcAqgN
->>>>>>> .merge_file_V1Z52I
 ## Tasks Personalizzati
-
 ```json
 // tasks.json
-
-<<<<<<< .merge_file_dLIjkt
-=======
-<<<<<<< .merge_file_mHmCZa
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_fcAqgN
->>>>>>> .merge_file_V1Z52I
 ## Best Practices
 
 ### 1. Organizzazione Workspace
@@ -424,14 +407,6 @@
 ## Vedi Anche
 - [VSCode Documentation](https://code.visualstudio.com/docs)
 - [PHP Intelephense](https://intelephense.com)
-<<<<<<< .merge_file_dLIjkt
-=======
-<<<<<<< .merge_file_mHmCZa
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_fcAqgN
->>>>>>> .merge_file_V1Z52I
 - [Filament Documentation](https://filamentphp.com/docs)
 # Configurazione VSCode per PHP e Filament
 ## Estensioni Essenziali
@@ -487,8 +462,6 @@
         "editor.codeActionsOnSave": {
             "source.fixAll.php": true
         }
-    }
-}
 ```
 ## Configurazione Filament
     // Filament Plugin
@@ -530,7 +503,6 @@
 // launch.json
     "version": "0.2.0",
     "configurations": [
-        {
             "name": "Listen for Xdebug",
             "type": "php",
             "request": "launch",
@@ -545,12 +517,9 @@
             "group": {
                 "kind": "test",
                 "isDefault": true
-            },
             "presentation": {
                 "reveal": "always",
                 "panel": "new"
-            }
-    ]
 ## Best Practices
 ### 1. Organizzazione Workspace
 ```plaintext
@@ -564,13 +533,11 @@
 ### 2. Keybindings Consigliati
 // keybindings.json
 [
-    {
         "key": "ctrl+shift+i",
         "command": "namespaceResolver.import",
         "when": "editorTextFocus"
         "key": "ctrl+shift+s",
         "command": "namespaceResolver.sort",
-]
 ### 3. Workspace Esclusioni
     "files.exclude": {
         "vendor/": true,
@@ -599,14 +566,5 @@
 ## Vedi Anche
 - [VSCode Documentation](https://code.visualstudio.com/docs)
 - [PHP Intelephense](https://intelephense.com)
-
-```
-<<<<<<< .merge_file_dLIjkt
-=======
-<<<<<<< .merge_file_mHmCZa
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_fcAqgN
->>>>>>> .merge_file_V1Z52I
 
 ```
