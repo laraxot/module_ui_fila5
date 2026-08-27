@@ -8,6 +8,13 @@
 >
 > **Soluzione:** Seguire SEMPRE la regola documentata qui sotto e aggiornata anche in README.md e nella root docs/links.md.
 
+<<<<<<< .merge_file_h9kXiI
+=======
+<<<<<<< .merge_file_jzfWNK
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_0RFZYX
+>>>>>>> .merge_file_kMARVN
 # Gestione dei Percorsi e degli Asset 
 
 ## Collegamenti correlati
@@ -40,6 +47,14 @@
 
 | Tipo di Asset | ✅ Percorso Corretto | ❌ Percorso Errato |
 |---------------|---------------------|-------------------|
+<<<<<<< .merge_file_h9kXiI
+=======
+<<<<<<< .merge_file_jzfWNK
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_0RFZYX
+>>>>>>> .merge_file_kMARVN
 | Immagini | `/var/www/html/saluteora/public_html/images/` | `/var/www/html/saluteora/laravel/public/images/` |
 | CSS | `/var/www/html/saluteora/public_html/css/` | `/var/www/html/saluteora/laravel/public/css/` |
 | JavaScript | `/var/www/html/saluteora/public_html/js/` | `/var/www/html/saluteora/laravel/public/js/` |
@@ -74,6 +89,13 @@ Per garantire una buona esperienza utente, implementare sempre un fallback per l
 Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati come componenti Blade in:
 
 ```
+<<<<<<< .merge_file_h9kXiI
+=======
+<<<<<<< .merge_file_jzfWNK
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_0RFZYX
+>>>>>>> .merge_file_kMARVN
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/
 ```
 
@@ -82,6 +104,14 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizionati in:
 
 ```
+<<<<<<< .merge_file_h9kXiI
+=======
+<<<<<<< .merge_file_jzfWNK
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_0RFZYX
+>>>>>>> .merge_file_kMARVN
 /var/www/html/saluteora/public_html/images/
 ```
 
@@ -92,12 +122,27 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 Il componente avatar è implementato in:
 
 ```
+<<<<<<< .merge_file_h9kXiI
+=======
+<<<<<<< .merge_file_jzfWNK
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_0RFZYX
+>>>>>>> .merge_file_kMARVN
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 ```
 
 E utilizza gli avatar SVG dalla directory pubblica:
 
 ```
+<<<<<<< .merge_file_h9kXiI
+=======
+<<<<<<< .merge_file_jzfWNK
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_0RFZYX
+>>>>>>> .merge_file_kMARVN
 /var/www/html/saluteora/public_html/images/avatars/
 ```
 
@@ -106,6 +151,13 @@ E utilizza gli avatar SVG dalla directory pubblica:
 Il componente icon è implementato in:
 
 ```
+<<<<<<< .merge_file_h9kXiI
+=======
+<<<<<<< .merge_file_jzfWNK
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_0RFZYX
+>>>>>>> .merge_file_kMARVN
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 ```
 
@@ -115,6 +167,14 @@ E include le definizioni SVG direttamente nel componente.
 
 > **IMPORTANTE:** Tutti i componenti Blade UI condivisi (es. logo, button, badge, ecc.) devono essere posizionati esclusivamente in:
 >
+<<<<<<< .merge_file_h9kXiI
+=======
+<<<<<<< .merge_file_jzfWNK
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_0RFZYX
+>>>>>>> .merge_file_kMARVN
 > `/var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/`
 >
 > **MAI** in `resources/views/components/ui/` della root Laravel.
@@ -129,6 +189,13 @@ E include le definizioni SVG direttamente nel componente.
 
 **❌ Errato:**
 ```
+<<<<<<< .merge_file_h9kXiI
+=======
+<<<<<<< .merge_file_jzfWNK
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_0RFZYX
+>>>>>>> .merge_file_kMARVN
 /var/www/html/ptvx/laravel/resources/views/components/ui/logo.blade.php
 ```
 **✅ Corretto:**
@@ -147,6 +214,14 @@ E include le definizioni SVG direttamente nel componente.
 
 ## Errori Comuni
 
+<<<<<<< .merge_file_h9kXiI
+=======
+<<<<<<< .merge_file_jzfWNK
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_0RFZYX
+>>>>>>> .merge_file_kMARVN
 1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/saluteora/laravel/public/` invece di `/var/www/html/saluteora/public_html/`
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile

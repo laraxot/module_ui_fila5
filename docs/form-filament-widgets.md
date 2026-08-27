@@ -86,6 +86,16 @@ public static function getFormSchema(): array
                 ->required()
                 ->columnSpan(1),
         ]),
+<<<<<<< .merge_file_b74gUy
+=======
+<<<<<<< .merge_file_89OJ8i
+=======
+<<<<<<< HEAD
+        
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ypaMi8
+>>>>>>> .merge_file_Vih04R
         Forms\Components\Section::make('Contenuto della Pagina')->schema([
             PageContent::make('content_blocks')
                 ->label('Blocchi Contenuto')

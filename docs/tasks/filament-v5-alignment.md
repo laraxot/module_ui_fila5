@@ -5,6 +5,14 @@ tags: [filament, alignment]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament-v5-alignment task: filament v5 alignment (ui module)"
+<<<<<<< .merge_file_3ehW2v
+=======
+<<<<<<< .merge_file_EWwBz6
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_Uod3YF
+>>>>>>> .merge_file_Z87Zlw
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
@@ -13,6 +21,13 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 
+<<<<<<< .merge_file_3ehW2v
+=======
+<<<<<<< .merge_file_EWwBz6
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Uod3YF
+>>>>>>> .merge_file_Z87Zlw
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:

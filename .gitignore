@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Auto-generated forbidden paths — do not edit manually
 # Reason: root cleanup policy (see docs/wiki/rules/root-cleanup-policy.md)
 
@@ -151,6 +152,10 @@ docs/legacy/**
 docs/workbench/
 docs/scripts/
 docs/bashscripts/
+<<<<<<< .merge_file_kuzzDy
+=======
+=======
+>>>>>>> .merge_file_lXXxs8
 # =============================================================================
 # LARAXOT MODULE: UI - .gitignore
 # =============================================================================
@@ -194,12 +199,17 @@ docs/workbench/
 docs/scripts/
 docs/bashscripts/
 
+<<<<<<< .merge_file_kuzzDy
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_lXXxs8
 docs/**/archive/
 docs/**/archived/
 docs/**/legacy/
 docs/**/workbench/
 docs/**/scripts/
 docs/**/bashscripts/
+<<<<<<< HEAD
 # PROJECT-SPECIFIC
 # END OF UI .GITIGNORE
 _docs/
@@ -359,6 +369,10 @@ yarn.lock
 phpmd*
 # -----------------------------------------------------------------------------
 # Dependencies
+<<<<<<< .merge_file_kuzzDy
+=======
+=======
+>>>>>>> .merge_file_lXXxs8
 
 docs/cache/
 docs/phpstan/
@@ -373,6 +387,10 @@ docs/**/*_[0-9][0-9].md
 # -----------------------------------------------------------------------------
 # Dependencies
 # -----------------------------------------------------------------------------
+<<<<<<< .merge_file_kuzzDy
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_lXXxs8
 /vendor/
 /node_modules/
 /docs/vendor/
@@ -380,6 +398,7 @@ docs/**/*_[0-9][0-9].md
 composer.lock
 package-lock.json
 yarn.lock
+<<<<<<< HEAD
 # Build artifacts
 /build/
 /dist/
@@ -390,6 +409,10 @@ public/css/compiled/
 public/js/compiled/
 public/mix-manifest.json
 # Laravel
+<<<<<<< .merge_file_kuzzDy
+=======
+=======
+>>>>>>> .merge_file_lXXxs8
 
 
 # -----------------------------------------------------------------------------
@@ -417,11 +440,16 @@ public/mix-manifest.json
 # -----------------------------------------------------------------------------
 # Laravel runtime
 # -----------------------------------------------------------------------------
+<<<<<<< .merge_file_kuzzDy
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_lXXxs8
 /storage/*.key
 /public/storage
 /public/hot
 /public_html/storage
 /public_html/hot
+<<<<<<< HEAD
 # Environment
 .env
 .env.*
@@ -439,6 +467,10 @@ config/development.php
 # Cache
 .php-cs-fixer.cache
 .phpunit.result.cache
+<<<<<<< .merge_file_kuzzDy
+=======
+=======
+>>>>>>> .merge_file_lXXxs8
 
 
 # -----------------------------------------------------------------------------
@@ -474,6 +506,10 @@ Homestead.json
 .php-cs-fixer.cache
 .phpunit.result.cache
 
+<<<<<<< .merge_file_kuzzDy
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_lXXxs8
 *.cache
 *.lock
 *.tmp
@@ -482,6 +518,7 @@ Homestead.json
 *.swp
 *.swo
 *.stackdump
+<<<<<<< HEAD
 v8-compile-cache-*
 # Logs
 *.log
@@ -494,6 +531,10 @@ lerna-debug.log*
 .git-blame-ignore-revs
 *.orig
 *.rej
+<<<<<<< .merge_file_kuzzDy
+=======
+=======
+>>>>>>> .merge_file_lXXxs8
 
 v8-compile-cache-*
 
@@ -520,15 +561,24 @@ lerna-debug.log*
 *.orig
 *.rej
 
+<<<<<<< .merge_file_kuzzDy
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_lXXxs8
 *~HEAD
 *~BASE
 *~LOCAL
 *~REMOTE
 *~head
+<<<<<<< HEAD
 # Backup files
 *.old
 *.old1
 *.old2
+<<<<<<< .merge_file_kuzzDy
+=======
+=======
+>>>>>>> .merge_file_lXXxs8
 
 
 # -----------------------------------------------------------------------------
@@ -538,16 +588,25 @@ lerna-debug.log*
 *.old1
 *.old2
 
+<<<<<<< .merge_file_kuzzDy
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_lXXxs8
 *.backup
 *.backup.*
 *.backup-*
 *.backup_*
+<<<<<<< HEAD
 *.bak
 *.new
 # Legacy
 resources/views/Components_old/
 resources/lang/
 lang/lang/
+<<<<<<< .merge_file_kuzzDy
+=======
+=======
+>>>>>>> .merge_file_lXXxs8
 
 *.bak
 *.new
@@ -560,10 +619,15 @@ resources/views/Components_old/
 resources/lang/
 lang/lang/
 
+<<<<<<< .merge_file_kuzzDy
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_lXXxs8
 database_old/
 database/Migrations_old/
 database/Seeders_old/
 database/Factories_old/
+<<<<<<< HEAD
 # UI module
 *.fila2
 *.psd
@@ -573,6 +637,10 @@ design_notes.txt
 laravel
 public_html
 # System files
+<<<<<<< .merge_file_kuzzDy
+=======
+=======
+>>>>>>> .merge_file_lXXxs8
 
 
 # -----------------------------------------------------------------------------
@@ -593,11 +661,16 @@ design_notes.txt
 # -----------------------------------------------------------------------------
 # System files
 # -----------------------------------------------------------------------------
+<<<<<<< .merge_file_kuzzDy
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_lXXxs8
 .DS_Store
 .DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
+<<<<<<< HEAD
 Thumbs.db
 ehthumbs.db
 agentdb.rvf
@@ -607,6 +680,10 @@ phpstan*
 phpmd*
 rector.php
 *.old
+<<<<<<< .merge_file_kuzzDy
+=======
+=======
+>>>>>>> .merge_file_lXXxs8
 
 Thumbs.db
 ehthumbs.db
@@ -624,3 +701,7 @@ phpmd*
 rector.php
 phpmd.ruleset.xml
 phpmd.ruleset.xml.bak
+<<<<<<< .merge_file_kuzzDy
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_lXXxs8

@@ -17,6 +17,16 @@ related:
   - "./footer.md"
   - "./full-calendar-1.md"
 ---
+<<<<<<< .merge_file_cO2Al4
+=======
+<<<<<<< .merge_file_C7gRFk
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fYLI80
+>>>>>>> .merge_file_2SwCyx
 # FullCalendar Component for Filament
 
 ## Introduction
@@ -107,15 +117,45 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
                 ->placeholder(__('ui::calendar.fields.title.placeholder'))
                 ->helperText(__('ui::calendar.fields.title.help'))
                 ->required(),
+<<<<<<< .merge_file_cO2Al4
+=======
+<<<<<<< .merge_file_C7gRFk
+=======
+<<<<<<< HEAD
+                
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fYLI80
+>>>>>>> .merge_file_2SwCyx
             Forms\Components\Grid::make()
                 ->schema([
                     Forms\Components\DateTimePicker::make('start_date')
                         ->label(__('ui::calendar.fields.start_date.label'))
                         ->required(),
+<<<<<<< .merge_file_cO2Al4
+=======
+<<<<<<< .merge_file_C7gRFk
+=======
+<<<<<<< HEAD
+                        
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fYLI80
+>>>>>>> .merge_file_2SwCyx
                     Forms\Components\DateTimePicker::make('end_date')
                         ->label(__('ui::calendar.fields.end_date.label'))
                         ->required(),
                 ]),
+<<<<<<< .merge_file_cO2Al4
+=======
+<<<<<<< .merge_file_C7gRFk
+=======
+<<<<<<< HEAD
+                
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fYLI80
+>>>>>>> .merge_file_2SwCyx
             Forms\Components\Textarea::make('description')
                 ->label(__('ui::calendar.fields.description.label'))
                 ->placeholder(__('ui::calendar.fields.description.placeholder'))

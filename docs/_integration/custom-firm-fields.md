@@ -17,6 +17,16 @@ related:
   - "./custom-firm-fields-1.md"
   - "./custom-theme-1.md"
 ---
+<<<<<<< .merge_file_EmSAzH
+=======
+<<<<<<< .merge_file_CE58Px
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_DpFq2B
+>>>>>>> .merge_file_cRC1f6
 # custom_firm_fields
 
 <!-- Contenuto migrato da _docs/custom_firm_fields.txt -->

@@ -5,9 +5,24 @@ tags: [opening, hours, field]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "opening-hours-field openinghoursfield component"
+<<<<<<< .merge_file_DE9OmT
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 
+=======
+<<<<<<< .merge_file_kuORGE
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+
+=======
+<<<<<<< HEAD
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Pf3sOy
+>>>>>>> .merge_file_Gb3jdy
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:

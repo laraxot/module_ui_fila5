@@ -5,9 +5,24 @@ tags: [tailwind, themes]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "tailwind-themes tailwind themes"
+<<<<<<< .merge_file_TLV3dg
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 
+=======
+<<<<<<< .merge_file_33tEvX
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+
+=======
+<<<<<<< HEAD
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_NrbXwl
+>>>>>>> .merge_file_YDazhm
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
