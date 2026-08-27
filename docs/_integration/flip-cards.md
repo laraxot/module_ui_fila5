@@ -52,8 +52,6 @@ https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create
 
 https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
 
-<<<<<<< HEAD
-=======
 
 https://codepen.io/desandro/pen/LmWozd
 
@@ -79,7 +77,6 @@ https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create
 # flip_cards
 https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
 
->>>>>>> laraxot/dev
 https://codepen.io/desandro/pen/LmWozd
 
 https://codepen.io/riizkyyrmdnn/pen/dyaKgxJ
@@ -90,8 +87,6 @@ https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
 
 
 
-<<<<<<< HEAD
-=======
 
 
 
@@ -102,7 +97,6 @@ https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
 
->>>>>>> laraxot/dev
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
 

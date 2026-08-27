@@ -307,11 +307,6 @@ class StudioCardSelector extends Field
     protected bool $showSpecializations = false;
     protected bool $showPhone = false;
     protected string $cardLayout = 'default'; // 'default', 'compact', 'detailed'
-<<<<<<< HEAD
-    
-
-=======
->>>>>>> laraxot/dev
 
     // Configure studios data source
     public function studios(Collection|Closure $studios): static
@@ -319,11 +314,6 @@ class StudioCardSelector extends Field
         $this->studios = $studios;
         return $this;
     }
-<<<<<<< HEAD
-    
-
-=======
->>>>>>> laraxot/dev
 
     // Enable/disable features
     public function showDistance(bool $show = true): static
@@ -331,33 +321,18 @@ class StudioCardSelector extends Field
         $this->showDistance = $show;
         return $this;
     }
-<<<<<<< HEAD
-    
-
-=======
->>>>>>> laraxot/dev
 
     public function showSpecializations(bool $show = true): static
     {
         $this->showSpecializations = $show;
         return $this;
     }
-<<<<<<< HEAD
-    
-
-=======
->>>>>>> laraxot/dev
 
     public function showPhone(bool $show = true): static
     {
         $this->showPhone = $show;
         return $this;
     }
-<<<<<<< HEAD
-    
-
-=======
->>>>>>> laraxot/dev
 
     // Layout variants
     public function compact(): static
@@ -365,63 +340,33 @@ class StudioCardSelector extends Field
         $this->cardLayout = 'compact';
         return $this;
     }
-<<<<<<< HEAD
-    
-
-=======
->>>>>>> laraxot/dev
 
     public function detailed(): static
     {
         $this->cardLayout = 'detailed';
         return $this;
     }
-<<<<<<< HEAD
-    
-
-=======
->>>>>>> laraxot/dev
 
     // Data getters for view
     public function getStudios(): Collection
     {
         return $this->evaluate($this->studios) ?? collect();
     }
-<<<<<<< HEAD
-    
-
-=======
->>>>>>> laraxot/dev
 
     public function getCardLayout(): string
     {
         return $this->cardLayout;
     }
-<<<<<<< HEAD
-    
-
-=======
->>>>>>> laraxot/dev
 
     public function shouldShowDistance(): bool
     {
         return $this->showDistance;
     }
-<<<<<<< HEAD
-    
-
-=======
->>>>>>> laraxot/dev
 
     public function shouldShowSpecializations(): bool
     {
         return $this->showSpecializations;
     }
-<<<<<<< HEAD
-    
-
-=======
->>>>>>> laraxot/dev
 
     public function shouldShowPhone(): bool
     {

@@ -15,10 +15,6 @@ related:
   - "./performance.md"
   - "./ui-standards.md"
 ---
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 # Standard Form nei Temi
 
 ## Principi Generali

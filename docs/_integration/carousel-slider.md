@@ -16,8 +16,6 @@ related:
   - "./custom-firm-fields-1.md"
   - "./custom-firm-fields.md"
   - "./custom-theme-1.md"
-<<<<<<< HEAD
-=======
 
 # carousel_slider
 <!-- Contenuto migrato da _docs/carousel_slider.txt -->
@@ -43,7 +41,6 @@ related:
   - "./custom-firm-fields-1.md"
   - "./custom-firm-fields.md"
   - "./custom-theme-1.md"
->>>>>>> laraxot/dev
 # carousel_slider
 <!-- Contenuto migrato da _docs/carousel_slider.txt -->
 https://www.embla-carousel.com/examples/predefined/

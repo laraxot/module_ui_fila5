@@ -34,8 +34,6 @@ Su filesystem case-insensitive (Windows, macOS default), file con nomi che diffe
 
 ```
 ✅ CORRETTO:
-<<<<<<< HEAD
-=======
 - README.md (maiuscolo - convenzione universale)
 - ROADMAP.md (maiuscolo - convenzione universale)
 - CHANGELOG.md (maiuscolo - convenzione universale)
@@ -47,7 +45,6 @@ Su filesystem case-insensitive (Windows, macOS default), file con nomi che diffe
   → file-naming-rules.md
   → phpstan-fixes.md
   → api-integration.md
->>>>>>> laraxot/dev
 - README.md (unica eccezione maiuscola nei docs/)
 - In .github/: CONTRIBUTING.md e SECURITY.md (GitHub li cerca con quel casing)
 - Tutti gli altri markdown: kebab-case minuscolo

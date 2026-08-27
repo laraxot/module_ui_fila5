@@ -14,10 +14,6 @@ related:
   - "./optimizations.md"
   - "./schemaless-attributes-guide.md"
 ---
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 # Gestione degli Asset
 
 ## Struttura delle Directory

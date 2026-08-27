@@ -306,10 +306,6 @@ Prima di usare qualsiasi componente Filament:
 - [ ] Verificare che non ci siano `->label()` nel codice
 - [ ] Controllare che tutte le traduzioni siano implementate
 - [ ] Testare che le traduzioni funzionino correttamente
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 ## Verifica Automatica
 
 ### PHPStan Rule (Ideale)

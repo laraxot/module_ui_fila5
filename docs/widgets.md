@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
-=======
 # UI Widgets
 
 ## Overview
@@ -87,4 +84,3 @@ To create a new widget:
 - Follow the established naming conventions and patterns
 
 https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
->>>>>>> laraxot/dev

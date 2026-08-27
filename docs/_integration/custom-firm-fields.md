@@ -17,10 +17,6 @@ related:
   - "./custom-firm-fields-1.md"
   - "./custom-theme-1.md"
 ---
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 # custom_firm_fields
 
 <!-- Contenuto migrato da _docs/custom_firm_fields.txt -->

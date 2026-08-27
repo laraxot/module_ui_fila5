@@ -14,10 +14,6 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 ❌ **Non Corretto**:
 ```md
 
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 # Design System il progetto
 Il design system di il progetto definisce...
 ```
@@ -93,8 +89,6 @@ I nomi specifici dell'applicazione devono apparire solo:
 
 ## Vedi Anche
 - [Best Practices](../../../docs/standards/best-practices.md) 
-<<<<<<< HEAD
-=======
 - [Documentazione Principale](../../../docs/README.md)
 - [Standard di Codice](../../../docs/standards/coding-standards.md)
 - [Best Practices](../../../docs/standards/best-practices.md)
@@ -103,7 +97,6 @@ I nomi specifici dell'applicazione devono apparire solo:
 - [Standard di Codice](../../../project_docs/standards/coding-standards.md)
 - [Best Practices](../../../project_docs/standards/best-practices.md)
 - [Best Practices](../../../docs/standards/best-practices.md) 
->>>>>>> laraxot/dev
 ||||||| parent of 9a84589 (.):docs/archived/naming-rules-1.md
 - [Documentazione Principale](../../../docs/README.md)
 - [Standard di Codice](../../../docs/standards/coding-standards.md)
