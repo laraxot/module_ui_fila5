@@ -2,6 +2,15 @@
 * [naming-conventions.md](../../../../docs/naming-conventions.md)
  
 ## Collegamenti tra versioni di naming-conventions.md
+<<<<<<< HEAD
+=======
+* [naming-conventions.md](../../../../docs/naming-conventions.md)
+ 
+## Collegamenti tra versioni di naming-conventions.md
+* [naming-conventions.md](../../../../docs/naming-conventions.md)
+ 
+## Collegamenti tra versioni di naming-conventions.md
+>>>>>>> laraxot/dev
 * [naming-conventions.md](../../../../../docs/naming-conventions.md)
 * [naming-conventions.md](../../Xot/docs/naming-conventions.md)
 ## Collegamenti tra versioni di naming-conventions.md

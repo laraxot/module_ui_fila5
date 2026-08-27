@@ -3,6 +3,19 @@ title: "Rimosso InteractiveMap — violava regola "UI non importa Geo""
 type: concept
 tags: [geo, dependency, violation, interactive]
 created: 2026-07-14
+<<<<<<< .merge_file_pxjlQY
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_9cFAWk
+updated: 2026-07-21
+qmd: "geo-dependency-violation-interactive-map rimosso interactivemap — violava regola "ui non importa geo""
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< .merge_file_pxjlQY
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9cFAWk
 updated: 2026-08-18
 qmd: "geo-dependency-violation-interactive-map rimosso interactivemap — violava regola "ui non importa geo""
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
@@ -31,6 +44,23 @@ related:
 
 ## Decisione
 
+<<<<<<< .merge_file_pxjlQY
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_9cFAWk
+Componente completamente inutilizzato + dipendenze mai implementate + violazione di dipendenza = non ha senso costruire 5 Action speculative per una feature che nessuno chiama (YAGNI/ponytail). Archiviato forward-only, non cancellato:
+
+- `Modules/UI/app/Livewire/Components/Map/` → `Modules/UI/docs/archive/Livewire/Map.old/`
+- `Modules/UI/resources/views/livewire/components/map/interactive-map.blade.php{,.old}` → `Modules/UI/docs/archive/views/livewire/components/map/`
+
+## Se in futuro serve una mappa interattiva
+
+Costruirla **dentro `Modules/Geo`** (dominio corretto), con le Action reali (`Spatie\QueueableAction`, `execute()`), e semmai esporre un Blade component/Livewire consumabile da `UI` o dai temi — mai il contrario.
+<<<<<<< .merge_file_pxjlQY
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9cFAWk
 Componente inutilizzato + dipendenze Geo + violazione di direzione = **cancellare**, non archiviare in `docs/archive/` e non inventare Action Geo in UI.
 
 2026-08-18: `InteractiveMap.php`, `.old` e Blade non sono più sotto `app/` / `resources/views`. `git grep Modules\\Geo -- app` è vuoto.
