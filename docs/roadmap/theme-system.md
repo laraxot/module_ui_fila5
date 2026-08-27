@@ -17,13 +17,6 @@ related:
   - "./02-next.md"
   - "./03-later.md"
 ---
-<<<<<<< .merge_file_fTaQiI
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_gqUkMU
 # Sistema di Theming
 
 ## 📊 Stato Implementazione
@@ -72,13 +65,6 @@ class ThemeRegistry
     {
         $this->themes[$theme->getName()] = $theme;
     }
-<<<<<<< .merge_file_fTaQiI
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_gqUkMU
     public function override(string $tenant, array $config): void
     {
         $this->overrides[$tenant] = $config;
@@ -95,24 +81,10 @@ class Theme
         protected array $config,
         protected ?string $parent = null
     ) {}
-<<<<<<< .merge_file_fTaQiI
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_gqUkMU
     public function resolve(string $path, $default = null)
     {
         return Arr::get($this->config, $path, $default);
     }
-<<<<<<< .merge_file_fTaQiI
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_gqUkMU
     public function extend(array $overrides): self
     {
         return new self(

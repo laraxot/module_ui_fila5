@@ -20,15 +20,7 @@ related:
 
 ## AI / second brain
 
-<<<<<<< .merge_file_fAmtkT
 - [hackernoon-ai-coding-tips-ptv-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-ptv-map.md)
-=======
-<<<<<<< HEAD
-- [hackernoon-ai-coding-tips-ptv-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-ptv-map.md)
-=======
-- [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
->>>>>>> laraxot/dev
->>>>>>> .merge_file_13iQJN
 - [bmad/architecture](../../../../docs/wiki/bmad/architecture.md)
 - [frontmatter + GitHub](../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md)
 - [ai-harness-module-discipline](../../docs/wiki/concepts/ai-harness-module-discipline.md)
@@ -126,7 +118,6 @@ related:
 | [enumselect-filament-api-collisions](./concepts/enumselect-filament-api-collisions.md) | Concept | runtime fatals (make/enum/getLabel) | 2026-04-23 |
 | [model-states-module-ownership](./concepts/model-states-module-ownership.md) | Concept | ownership modulare e vincoli runtime | 2026-04-28 |
 | [phpstan-dynamic-array-normalization](./concepts/phpstan-dynamic-array-normalization.md) | Concept | Normalizzazione array dinamici UI per PHPStan senza inline @var/ignore | 2026-05-06 |
-<<<<<<< .merge_file_fAmtkT
 
 
 ---
@@ -172,5 +163,3 @@ related:
 | [enumselect-filament-api-collisions](./concepts/enumselect-filament-api-collisions.md) | Concept | runtime fatals (make/enum/getLabel) | 2026-04-23 |
 | [model-states-module-ownership](./concepts/model-states-module-ownership.md) | Concept | ownership modulare e vincoli runtime | 2026-04-28 |
 | [phpstan-dynamic-array-normalization](./concepts/phpstan-dynamic-array-normalization.md) | Concept | Normalizzazione array dinamici UI per PHPStan senza inline @var/ignore | 2026-05-06 |
-=======
->>>>>>> .merge_file_13iQJN

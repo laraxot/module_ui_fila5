@@ -38,10 +38,7 @@ abstract class TestCase extends XotBaseTestCase
             UIServiceProvider::class,
         ];
     }
-<<<<<<< HEAD
 
-=======
->>>>>>> laraxot/dev
     protected function setUp(): void
     {
         $this->prepareSharedFixcitySqliteForTesting();

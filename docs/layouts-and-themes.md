@@ -724,13 +724,6 @@ use Modules\UI\Layouts\AdminLayout;
 class Dashboard extends Component
 {
     protected static string $layout = AdminLayout::class;
-<<<<<<< .merge_file_8CvFdB
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_6lOaEm
     protected function getLayoutData(): array
     {
         return [
@@ -763,13 +756,6 @@ use Modules\UI\Layouts\PrintLayout;
 class StampaPratica extends Component
 {
     protected static string $layout = PrintLayout::class;
-<<<<<<< .merge_file_8CvFdB
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_6lOaEm
     protected function getLayoutData(): array
     {
         return [
@@ -812,13 +798,6 @@ return [
             'warning' => '#f59e0b',
             'danger' => '#ef4444',
         ],
-<<<<<<< .merge_file_8CvFdB
-=======
-<<<<<<< HEAD
-        
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_6lOaEm
         // Tipografia
         'typography' => [
             'fonts' => [
@@ -831,38 +810,17 @@ return [
                 'xl' => '1.25rem',
             ],
         ],
-<<<<<<< .merge_file_8CvFdB
-=======
-<<<<<<< HEAD
-        
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_6lOaEm
         // Spaziature
         'spacing' => [
             'base' => '1rem',
             'lg' => '1.5rem',
             'xl' => '2rem',
         ],
-<<<<<<< .merge_file_8CvFdB
-=======
-<<<<<<< HEAD
-        
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_6lOaEm
         // Bordi
         'border' => [
             'radius' => '0.375rem',
             'width' => '1px',
         ],
-<<<<<<< .merge_file_8CvFdB
-=======
-<<<<<<< HEAD
-        
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_6lOaEm
         // Ombre
         'shadows' => [
             'sm' => '0 1px 2px 0 rgb(0 0 0 / 0.05)',

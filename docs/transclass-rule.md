@@ -19,13 +19,6 @@ use Modules\Xot\Filament\Traits\TransTrait;
 enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
-<<<<<<< .merge_file_B2aNK1
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_sv0VGj
     case LIST = 'list';
     case GRID = 'grid';
 
@@ -142,13 +135,6 @@ use Modules\Xot\Filament\Traits\TransTrait;
 enum MyEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
-<<<<<<< .merge_file_B2aNK1
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_sv0VGj
     case VALUE1 = 'value1';
     case VALUE2 = 'value2';
 }

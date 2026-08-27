@@ -57,16 +57,8 @@ Report locale (2026-07-17). Metodo: `phpstan analyse` livello max, `phpmd` (rule
 | Notify | - | - | 61% | 21 |
 | Rating | - | - | 7% | 0 |
 | Seo | - | - | 100% | 0 |
-<<<<<<< .merge_file_M86Tcn
 | TechPlanner | - | - | 2% | 0 |
 
-=======
-<<<<<<< HEAD
-=======
-| TechPlanner | - | - | 2% | 0 |
-
->>>>>>> laraxot/dev
->>>>>>> .merge_file_AeRcsQ
 | modulo operativo | - | - | 2% | 0 |
 | Tenant | - | - | 75% | 6 |
 | UI | - | - | 34% | 4 |
@@ -166,10 +158,3 @@ public function resolveType(string $type): string
 ```
 
 Ogni `resolveX()` estratto scende sotto soglia 10 e diventa testabile in isolamento con un test Pest dedicato.
-<<<<<<< .merge_file_M86Tcn
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_AeRcsQ

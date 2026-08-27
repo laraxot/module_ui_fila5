@@ -27,13 +27,6 @@ Il componente Dropdown di Filament è composto da tre parti principali:
     <x-slot name="trigger">
         <!-- Contenuto del trigger -->
     </x-slot>
-<<<<<<< .merge_file_jAOXhn
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_M4cLbt
     <!-- Elementi del dropdown -->
     <x-filament::dropdown.list>
         <x-filament::dropdown.item href="#" icon="heroicon-o-user">
@@ -108,13 +101,6 @@ Opzioni di larghezza:
 ```blade
 <x-filament::dropdown.item>
     Notifiche
-<<<<<<< .merge_file_jAOXhn
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_M4cLbt
     <x-slot name="badge">
         3
     </x-slot>
@@ -211,13 +197,6 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
                 size="md"
                 class="ring-2 ring-white ring-opacity-50 shadow-sm"
             />
-<<<<<<< .merge_file_jAOXhn
-=======
-<<<<<<< HEAD
-            
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_M4cLbt
             <div class="ml-1">
                 <x-filament::icon
                     name="heroicon-o-chevron-down"
@@ -226,13 +205,6 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
             </div>
         </button>
     </x-slot>
-<<<<<<< .merge_file_jAOXhn
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_M4cLbt
     <x-filament::dropdown.list>
         <div class="px-4 py-2 text-xs text-gray-400">
             {{ __('Manage Account') }}
@@ -265,13 +237,6 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
         </x-filament::dropdown.item>
         
         <x-filament::dropdown.separator />
-<<<<<<< .merge_file_jAOXhn
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_M4cLbt
         <form method="POST" action="{{ route('logout') }}">
             @csrf
             <x-filament::dropdown.item

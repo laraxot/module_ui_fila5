@@ -5,18 +5,9 @@ tags: [component, methods, compatibility]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "component-methods-compatibility compatibilità dei metodi nei componenti filament"
-<<<<<<< .merge_file_fZ36TU
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 
-=======
-<<<<<<< HEAD
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-
->>>>>>> laraxot/dev
->>>>>>> .merge_file_drzuc0
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:

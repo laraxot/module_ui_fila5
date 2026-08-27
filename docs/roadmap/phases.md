@@ -5,18 +5,9 @@ tags: [phases]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "phases fasi di sviluppo - ui module"
-<<<<<<< .merge_file_F1xZh6
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 
-=======
-<<<<<<< HEAD
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-
->>>>>>> laraxot/dev
->>>>>>> .merge_file_MU8xxx
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
