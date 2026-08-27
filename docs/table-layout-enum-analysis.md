@@ -20,6 +20,13 @@ Il `TableLayoutEnum` è un enum PHP che gestisce i layout delle tabelle nei comp
 class ListUsers extends ListRecords
 {
     protected TableLayoutEnum $layout = TableLayoutEnum::LIST;
+<<<<<<< .merge_file_DolOx7
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_dq6FUC
     public function table(Table $table): Table
     {
         return $table
@@ -201,10 +208,24 @@ return [
 class ListUsers extends ListRecords
 {
     protected TableLayoutEnum $layout;
+<<<<<<< .merge_file_DolOx7
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_dq6FUC
     public function mount(): void
     {
         $this->layout = TableLayoutEnum::init();
     }
+<<<<<<< .merge_file_DolOx7
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_dq6FUC
     protected function getHeaderActions(): array
     {
         return [
@@ -241,12 +262,26 @@ protected function getColumnsForLayout(): array
         Tables\Columns\TextColumn::make('email')->searchable(),
         Tables\Columns\TextColumn::make('created_at')->dateTime(),
     ];
+<<<<<<< .merge_file_DolOx7
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_dq6FUC
     $gridColumns = [
         Tables\Columns\Layout\Stack::make([
             Tables\Columns\TextColumn::make('name')->weight(FontWeight::Bold),
             Tables\Columns\TextColumn::make('email'),
         ]),
     ];
+<<<<<<< .merge_file_DolOx7
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_dq6FUC
     return $this->layout->getTableColumns($listColumns, $gridColumns);
 }
 ```
@@ -289,6 +324,13 @@ class TableLayoutEnumTest extends TestCase
     {
         $this->assertEquals(TableLayoutEnum::LIST, TableLayoutEnum::init());
     }
+<<<<<<< .merge_file_DolOx7
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_dq6FUC
     public function test_toggle_switches_layout(): void
     {
         $layout = TableLayoutEnum::LIST;

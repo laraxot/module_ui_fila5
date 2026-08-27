@@ -145,8 +145,16 @@ class CustomMiddleware
 }
 
 // Non hardcodare percorsi delle risorse
+<<<<<<< .merge_file_vpbyit
 <img src="/var/www/html/saluteora/laravel/public/images/avatar.png">
 
+=======
+<<<<<<< HEAD
+=======
+<img src="/var/www/html/saluteora/laravel/public/images/avatar.png">
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_I8YfmV
 <img src="[project-root]/laravel/public/images/avatar.png">
 
 // Non duplicare la registrazione dei componenti
