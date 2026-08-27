@@ -15,7 +15,10 @@ related:
   - "./performance.md"
   - "./ui-standards.md"
 ---
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 # Standard Form di Autenticazione
 
 ## Principi di Design
@@ -141,7 +144,10 @@ related:
 ```scss
 .auth-card {
   @apply shadow-sm;
+<<<<<<< HEAD
   
+=======
+>>>>>>> laraxot/dev
   @screen sm {
     @apply shadow-md;
   }

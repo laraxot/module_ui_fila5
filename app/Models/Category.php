@@ -29,6 +29,7 @@ use Modules\Xot\Models\BaseModel;
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  * @property ProfileContract|null $deleter
+<<<<<<< HEAD
  * @method static CategoryFactory          factory                  ($count = null, $state = [])
  * @method static Builder<static>|Category newModelQuery   ()
  * @method static Builder<static>|Category newQuery        ()
@@ -51,6 +52,11 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Category newModelQuery()
  * @method static Builder<static>|Category newQuery()
  * @method static Builder<static>|Category query()
+=======
+ *
+ * @method static CategoryFactory factory($count = null, $state = [])
+ *
+>>>>>>> laraxot/dev
  * @mixin \Eloquent
  */
 class Category extends BaseModel
