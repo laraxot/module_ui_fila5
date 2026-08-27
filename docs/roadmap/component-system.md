@@ -17,6 +17,13 @@ related:
   - "./02-next.md"
   - "./03-later.md"
 ---
+<<<<<<< .merge_file_NDmJpB
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_gvlvfY
 # Sistema Componenti UI
 
 ## 📊 Stato Implementazione

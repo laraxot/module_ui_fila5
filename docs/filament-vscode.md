@@ -77,10 +77,19 @@ Mostra documentazione al passaggio del mouse su:
 
 ```php
 // Digitare 'fil-form' e premere Tab
+<<<<<<< .merge_file_kEE8kl
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_HSDinK
 public static function form(Form $form): Form
 public static function form(Form $form): Form
 public static function form(Form $form): Form
 
+<<<<<<< .merge_file_kEE8kl
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_HSDinK
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 {
     return $form->schema([
@@ -88,6 +97,13 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
         TextInput::make('title')
             ->required()
             ->maxLength(255),
+<<<<<<< .merge_file_kEE8kl
+=======
+<<<<<<< HEAD
+            
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_HSDinK
         // Digitare 'fil-select' e premere Tab
         Select::make('status')
             ->options([
@@ -95,6 +111,13 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
                 'published' => 'Published',
             ])
             ->required(),
+<<<<<<< .merge_file_kEE8kl
+=======
+<<<<<<< HEAD
+            
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_HSDinK
         // Digitare 'fil-rich' e premere Tab
         RichEditor::make('content')
             ->required()
@@ -115,6 +138,13 @@ public static function table(Table $table): Table
             TextColumn::make('title')
                 ->searchable()
                 ->sortable(),
+<<<<<<< .merge_file_kEE8kl
+=======
+<<<<<<< HEAD
+                
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_HSDinK
             // Digitare 'fil-col' e premere Tab
             IconColumn::make('status')
                 ->boolean(),
@@ -154,6 +184,13 @@ Forms\Components\Wizard::make([
                     // Digitare 'fil-text' e premere Tab
                     Forms\Components\TextInput::make('first_name')
                         ->required(),
+<<<<<<< .merge_file_kEE8kl
+=======
+<<<<<<< HEAD
+                        
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_HSDinK
                     Forms\Components\TextInput::make('last_name')
                         ->required(),
                 ]),

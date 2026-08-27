@@ -16,6 +16,10 @@ Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazion
 
 I file SVG delle bandiere sono archiviati in:
 ```
+<<<<<<< .merge_file_PR2pCH
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_3fS4Wy
 /var/www/html/saluteora/laravel/Modules/UI/resources/svg/flags/
 ```
 
@@ -66,6 +70,11 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 ### Esempio con Attributi
 
 ```blade
+<<<<<<< .merge_file_PR2pCH
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_3fS4Wy
 <x-ui-flags.it 
     class="h-6 w-6 rounded-full shadow-sm" 
     title="Italiano" 

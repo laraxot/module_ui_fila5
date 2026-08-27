@@ -3,8 +3,16 @@ title: "Confine UI e Geo"
 type: rule
 module: UI
 created: 2026-07-06
+<<<<<<< .merge_file_pwlG7s
 updated: 2026-07-22
 
+=======
+<<<<<<< HEAD
+=======
+updated: 2026-07-22
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_0pWHK0
 updated: 2026-08-18
 related:
   - "./second-brain.md"
@@ -16,11 +24,20 @@ related:
 
 # Confine UI e Geo
 
+<<<<<<< .merge_file_pwlG7s
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_0pWHK0
 ## Perché (religione)
 
 `UI` = design system: componenti visuali generici e riusabili.
 
 Mappe, geocoding, marker, regioni/province/CAP, export GeoJSON/KML = **dominio geografico**.
+<<<<<<< .merge_file_pwlG7s
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_0pWHK0
 ## Perché
 
 `UI` = design system: componenti visuali generici e riusabili.
@@ -30,10 +47,19 @@ Quel dominio vive in `Modules/Geo` (quando il progetto lo include), **mai** in `
 
 Direzione dipendenze: **Geo → UI** (Geo può usare primitive UI). Mai il contrario.
 
+<<<<<<< .merge_file_pwlG7s
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_0pWHK0
 ## Questo progetto (`base_ptvx_fila5`)
 
 `laravel/Modules/Geo` **non esiste** e **non deve essere reintrodotto** senza decisione esplicita.
 Quindi in UI non devono restare neanche fallback/null-object “per quando Geo manca”: senza Geo non serve il layer.
+<<<<<<< .merge_file_pwlG7s
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_0pWHK0
 ## Ownership della classe (Action / Component)
 
 Una classe PHP appartiene al modulo delle **dipendenze di dominio** che importa, non alla cartella in cui è comoda.
@@ -50,6 +76,11 @@ In questo repo `modules_statuses.json` ha `"Geo": false` e `laravel/Modules/Geo`
 - Namespace `Modules\Geo\*`
 - `app/Adapters/Location/`, `app/Adapters/Map/`
 - Contratti `LocationDataProviderContract`, `MapServiceContract`, `GeocodingServiceContract`
+<<<<<<< .merge_file_pwlG7s
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_0pWHK0
 - `LocationSelector`, `InteractiveMap` (e view correlate)
 - Service/adapter null-object di mappa/geocoding
 
@@ -78,6 +109,10 @@ Rimosso il 2026-07-22 da UI (git history = archivio; **no** `docs/archive/`):
 - `bindIf` in `UIServiceProvider` verso null-adapters
 
 Se in un altro monorepo servirà geografia: implementare in `Modules/Geo`, non ricopiare in UI.
+<<<<<<< .merge_file_pwlG7s
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_0pWHK0
 - `LocationSelector`, `InteractiveMap` (e view/lang correlate)
 - Service/adapter null-object di mappa/geocoding
 - Action UI che chiamano Geo
@@ -102,12 +137,21 @@ Se in un altro monorepo servirà geografia: implementare in `Modules/Geo` (Actio
 ```bash
 cd laravel/Modules/UI
 test ! -d app/Adapters
+<<<<<<< .merge_file_pwlG7s
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_0pWHK0
 test ! -f app/Contracts/LocationDataProviderContract.php
 test ! -f app/Contracts/MapServiceContract.php
 test ! -f app/Contracts/GeocodingServiceContract.php
 test ! -f app/Filament/Forms/Components/LocationSelector.php
 grep -R "Modules\\\\Geo" app/ --include="*.php" || true
 
+<<<<<<< .merge_file_pwlG7s
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_0pWHK0
 test ! -f app/Filament/Forms/Components/LocationSelector.php
 test ! -f app/Livewire/Components/Map/InteractiveMap.php
 git grep -n 'Modules\\Geo' -- app || true

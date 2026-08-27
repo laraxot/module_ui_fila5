@@ -14,6 +14,13 @@ related:
   - "./optimizations.md"
   - "./schemaless-attributes-guide.md"
 ---
+<<<<<<< .merge_file_myJZNw
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_t369qg
 # Gestione degli Asset
 
 ## Struttura delle Directory

@@ -1,5 +1,13 @@
+<<<<<<< .merge_file_l3JWIM
 # Struttura Themes e Folio in SaluteOra
 
+=======
+<<<<<<< HEAD
+=======
+# Struttura Themes e Folio in SaluteOra
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_mxtn2i
 # Struttura Themes e Folio in <nome progetto>corrente
 
 ## ⚠️ ATTENZIONE CRITICA
@@ -10,8 +18,16 @@
 
 ## Struttura del Progetto
 
+<<<<<<< .merge_file_l3JWIM
 Il progetto SaluteOra utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 
+=======
+<<<<<<< HEAD
+=======
+Il progetto SaluteOra utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_mxtn2i
 Il progetto <nome progetto>corrente utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 
 ```
