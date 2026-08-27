@@ -94,6 +94,16 @@ class UserTable extends Component
     public $sortDirection = 'asc';
     public $search = '';
     public $perPage = 10;
+<<<<<<< .merge_file_Ix2pCQ
+=======
+<<<<<<< .merge_file_h5TCY5
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_j6VPhd
+>>>>>>> .merge_file_dF38kK
     public function sortBy($field)
     {
         if ($this->sortField === $field) {
@@ -103,6 +113,16 @@ class UserTable extends Component
             $this->sortDirection = 'asc';
         }
     }
+<<<<<<< .merge_file_Ix2pCQ
+=======
+<<<<<<< .merge_file_h5TCY5
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_j6VPhd
+>>>>>>> .merge_file_dF38kK
     public function render()
     {
         $users = User::query()
@@ -112,6 +132,16 @@ class UserTable extends Component
             })
             ->orderBy($this->sortField, $this->sortDirection)
             ->paginate($this->perPage);
+<<<<<<< .merge_file_Ix2pCQ
+=======
+<<<<<<< .merge_file_h5TCY5
+=======
+<<<<<<< HEAD
+            
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_j6VPhd
+>>>>>>> .merge_file_dF38kK
         return view('livewire.user-table', compact('users'));
     }
 }

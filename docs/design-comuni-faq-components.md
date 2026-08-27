@@ -360,8 +360,21 @@ Render: HTML
 pub_theme:: → Themes/Sixteen/resources/views/
 ```
 
+<<<<<<< .merge_file_Ran35o
 Configurato in `config/local/fixcity/xra.php`:
 
+=======
+<<<<<<< .merge_file_eVq0Vt
+Configurato in `config/local/fixcity/xra.php`:
+
+=======
+<<<<<<< HEAD
+=======
+Configurato in `config/local/fixcity/xra.php`:
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_UxWhP6
+>>>>>>> .merge_file_mbsM1x
 Configurato in `config/local/<nome progetto>/xra.php`:
 Configurato in `config/local/current/xra.php`:
 ```php
