@@ -149,6 +149,13 @@ class ComponentPerformanceMiddleware
                 'duration' => $duration . 'ms'
             ]);
         }
+<<<<<<< .merge_file_NZdvYV
+=======
+<<<<<<< HEAD
+        
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_MqEltx
         return $response;
     }
 }

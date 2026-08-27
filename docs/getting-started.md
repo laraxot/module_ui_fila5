@@ -69,6 +69,13 @@ Now that you’ve edited your configuration variables and know how to customize 
 
 ```bash
 
+<<<<<<< .merge_file_nm1bZI
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_gGPGX0
 # build static files with Jigsaw
 ./vendor/bin/jigsaw build
 

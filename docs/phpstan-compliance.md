@@ -1,5 +1,10 @@
 # PHPStan Compliance - UI Module
 
+<<<<<<< .merge_file_ZhaKHW
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_bYOINs
 ## Status: ✅ FULLY COMPLIANT
 
 **Analysis Date:** September 22, 2025
@@ -10,6 +15,10 @@
 ## Compliance Summary
 
 The UI module is fully compliant with PHPStan level 10 analysis, demonstrating:
+<<<<<<< .merge_file_ZhaKHW
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_bYOINs
 ## Stato canonico corrente
 
 **Ultima analisi cold:** 24 agosto 2026  

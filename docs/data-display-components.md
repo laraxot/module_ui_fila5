@@ -169,6 +169,14 @@ new Chart(ctx, {
 .table-responsive {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+<<<<<<< .merge_file_PWMfRq
+=======
+<<<<<<< HEAD
+  
+  
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jvCQQO
   @media (max-width: 768px) {
     .table {
       min-width: 600px;
@@ -182,6 +190,13 @@ new Chart(ctx, {
 .chart-container {
   position: relative;
   height: 300px;
+<<<<<<< .merge_file_PWMfRq
+=======
+<<<<<<< HEAD
+  
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jvCQQO
   canvas {
     animation: fadeIn 0.5s ease;
   }

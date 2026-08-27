@@ -1,3 +1,9 @@
+<<<<<<< .merge_file_s6pm4T
+=======
+<<<<<<< HEAD
+https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
+=======
+>>>>>>> .merge_file_sMD3BY
 # UI Widgets
 
 ## Overview
@@ -84,3 +90,7 @@ To create a new widget:
 - Follow the established naming conventions and patterns
 
 https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
+<<<<<<< .merge_file_s6pm4T
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_sMD3BY

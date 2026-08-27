@@ -189,6 +189,7 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 **Maintained By**: AI Agents Team  
 **Review Cycle**: Every sprint  
 **Next Review**: 2026-04-02
+<<<<<<< .merge_file_sy0Qn9
 
 
 ---
@@ -321,3 +322,5 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 **Maintained By**: AI Agents Team  
 **Review Cycle**: Every sprint  
 **Next Review**: 2026-04-02
+=======
+>>>>>>> .merge_file_hm9QII

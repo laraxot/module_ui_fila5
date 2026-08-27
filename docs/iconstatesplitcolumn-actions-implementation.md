@@ -121,6 +121,13 @@ public function transitionState($recordId, $stateClass): void
     // Logica per la transizione di stato
     $record = $this->modelClass::find($recordId);
     $record->state->transitionTo($stateClass);
+<<<<<<< .merge_file_yyshND
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RJgLrt
     \Filament\Notifications\Notification::make()
         ->title('Transizione Completata')
         ->success()
