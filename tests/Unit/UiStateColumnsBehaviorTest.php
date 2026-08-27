@@ -9,7 +9,6 @@ use Filament\Actions\Action;
 use Filament\Forms\Components\Select;
 use Filament\Notifications\Notification;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\File;
 use Mockery;
@@ -21,6 +20,9 @@ use Modules\UI\Filament\Tables\Columns\IconStateGroupColumn;
 use Modules\UI\Filament\Tables\Columns\IconStateSplitColumn;
 use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
 use Modules\UI\Tests\TestCase;
+use Modules\UI\Tests\Unit\Stubs\UiCoverageAddressChildRecord;
+use Modules\UI\Tests\Unit\Stubs\UiCoverageAddressHasOneRelation;
+use Modules\UI\Tests\Unit\Stubs\UiCoverageAddressParentRecord;
 use Modules\UI\Tests\Unit\Stubs\UiCoverageDoneState;
 use Modules\UI\Tests\Unit\Stubs\UiCoverageRecord;
 use Modules\UI\Tests\Unit\Stubs\UiCoverageRecordWithThrowingState;
@@ -323,60 +325,4 @@ function uiFirstActionSchemaComponent(Action $action): Select
     }
 
     throw new \RuntimeException('Select component not found in action schema');
-}
-
-final class UiCoverageAddressParentRecord extends Model
-{
-    protected $guarded = [];
-
-    public UiCoverageAddressChildRecord $addressModel;
-
-    public function __construct(array $attributes = [])
-    {
-        parent::__construct($attributes);
-        $this->addressModel = new UiCoverageAddressChildRecord(['id' => 1]);
-    }
-
-    /** @param array<int, string>|string|null $attribute */
-    public function touch($attribute = null): bool
-    {
-        return true;
-    }
-
-    /** @return HasOne<UiCoverageAddressChildRecord, UiCoverageAddressParentRecord> */
-    public function address(): HasOne
-    {
-        return new UiCoverageAddressHasOneRelation($this);
-    }
-}
-
-final class UiCoverageAddressChildRecord extends Model
-{
-    protected $guarded = [];
-
-    public int $updated = 0;
-
-    public function update(array $attributes = [], array $options = []): bool
-    {
-        ++$this->updated;
-
-        return true;
-    }
-}
-
-/** @extends HasOne<UiCoverageAddressChildRecord, UiCoverageAddressParentRecord> */
-final class UiCoverageAddressHasOneRelation extends HasOne
-{
-    public function __construct(UiCoverageAddressParentRecord $parent)
-    {
-        parent::__construct($parent->addressModel->newQuery(), $parent, 'id', 'id');
-    }
-
-    public function first(): UiCoverageAddressChildRecord
-    {
-        /** @var UiCoverageAddressParentRecord $parent */
-        $parent = $this->getParent();
-
-        return $parent->addressModel;
-    }
 }

@@ -38,7 +38,7 @@ cd laravel && git grep -ln '^<<<<<<< ' -- 'Modules/**/*.php'
 | `Models/Category.php` | docblock spezzato in due vs unico | **unico**, con `@property ProfileContract\|null $deleter` una sola volta |
 | `views/components/logo/v1.blade.php`, `views/components/headernav/simple.blade.php` | `assets/predict/img/…` vs `assets/branding/img/…` | **`branding`**: `UI` è un modulo riusabile, non deve nominare un progetto specifico (nessuno dei due asset esiste su disco) |
 | `views/filament/forms/components/inline-date-picker.blade.php` | `$currentValue = $currentValue;` vs `$currentValue ?? null` | **`?? null`**: l'auto-assegnazione è un no-op che lascia la variabile non definita |
-| `tests/TestCase.php` | `fixcity_data.sqlite` vs `database.sqlite` (riga duplicata) | **`fixcity_data.sqlite`**: è il database condiviso usato da `Xot`, `Job` e `Lang` |
+| `tests/TestCase.php` | `ptv_data.sqlite` vs `database.sqlite` (riga duplicata) | **`ptv_data.sqlite`**: è il database condiviso usato da `Xot`, `Job` e `Lang` |
 | `tests/Unit/Models/ComponentModelTest.php` | due test separati vs uno solo | **due test**: `can be instantiated` e `has fillable attributes` verificano cose diverse |
 
 ## Regola
