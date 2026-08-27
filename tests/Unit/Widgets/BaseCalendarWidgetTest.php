@@ -59,7 +59,15 @@ describe('Base Calendar Widget', function (): void {
 
     test('falls back to aminimal schema if action does not exist', function (): void {
         $widget = createTestCalendarWidget();
+<<<<<<< .merge_file_vO5Dkz
         $formSchema = $widget->getFormSchema();
+=======
+<<<<<<< HEAD
+        $formSchema = $widget->getFormSchema();
+=======
+        $formSchema = $widget->getFormSchema(); // @phpstan-ignore method.deprecated (hook di progetto: la deprecazione e ereditata per nome dal prototipo Filament 5, il codice eseguito e il nostro — story 16.12)
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_eoAz98
 
         Assert::assertCount(2, $formSchema);
         Assert::assertInstanceOf(TextInput::class, $formSchema[0]);
@@ -69,7 +77,15 @@ describe('Base Calendar Widget', function (): void {
 
     test('fallback schema contains agrid for datetime pickers', function (): void {
         $widget = createTestCalendarWidget();
+<<<<<<< .merge_file_vO5Dkz
         $formSchema = $widget->getFormSchema();
+=======
+<<<<<<< HEAD
+        $formSchema = $widget->getFormSchema();
+=======
+        $formSchema = $widget->getFormSchema(); // @phpstan-ignore method.deprecated (hook di progetto: la deprecazione e ereditata per nome dal prototipo Filament 5, il codice eseguito e il nostro — story 16.12)
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_eoAz98
 
         $grid = $formSchema[1];
         Assert::assertInstanceOf(Grid::class, $grid);

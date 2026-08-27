@@ -15,6 +15,16 @@ related:
   - "./performance.md"
   - "./ui-standards.md"
 ---
+<<<<<<< .merge_file_ZR1fka
+=======
+<<<<<<< .merge_file_5Nxy34
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_49VvbM
+>>>>>>> .merge_file_wPtDV9
 # Standard Form di Autenticazione
 
 ## Principi di Design
@@ -140,6 +150,16 @@ related:
 ```scss
 .auth-card {
   @apply shadow-sm;
+<<<<<<< .merge_file_ZR1fka
+=======
+<<<<<<< .merge_file_5Nxy34
+=======
+<<<<<<< HEAD
+  
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_49VvbM
+>>>>>>> .merge_file_wPtDV9
   @screen sm {
     @apply shadow-md;
   }

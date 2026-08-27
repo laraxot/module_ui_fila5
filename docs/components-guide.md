@@ -33,6 +33,16 @@ Il componente dropdown di Filament offre una soluzione completa per i menu a ten
             {{ __('More actions') }}
         </x-filament::button>
     </x-slot>
+<<<<<<< .merge_file_UUS5hC
+=======
+<<<<<<< .merge_file_g0RBXS
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_w2Lunj
+>>>>>>> .merge_file_Oz2A5x
     <x-filament::dropdown.list>
         <x-filament::dropdown.list.item>
             {{ __('View') }}
@@ -191,6 +201,16 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
       // Logica dell'azione
   };
   ?>
+<<<<<<< .merge_file_UUS5hC
+=======
+<<<<<<< .merge_file_g0RBXS
+=======
+<<<<<<< HEAD
+  
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_w2Lunj
+>>>>>>> .merge_file_Oz2A5x
   <div>
       <!-- Template del componente -->
   </div>
@@ -216,6 +236,16 @@ Il componente loading indicator di Filament mostra lo stato di caricamento:
       'property' => null,
   ]);
   ?>
+<<<<<<< .merge_file_UUS5hC
+=======
+<<<<<<< .merge_file_g0RBXS
+=======
+<<<<<<< HEAD
+  
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_w2Lunj
+>>>>>>> .merge_file_Oz2A5x
   <x-layouts.main>
       <!-- Contenuto della pagina -->
   </x-layouts.main>
@@ -261,6 +291,16 @@ $logout = function () {
     @else
         <!-- Default state -->
     @endif
+<<<<<<< .merge_file_UUS5hC
+=======
+<<<<<<< .merge_file_g0RBXS
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_w2Lunj
+>>>>>>> .merge_file_Oz2A5x
     @if($isLoggingOut)
         <x-filament::loading-indicator />
     @endif
@@ -308,6 +348,16 @@ $logout = function () {
         @else
             <!-- Default state -->
         @endif
+<<<<<<< .merge_file_UUS5hC
+=======
+<<<<<<< .merge_file_g0RBXS
+=======
+<<<<<<< HEAD
+        
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_w2Lunj
+>>>>>>> .merge_file_Oz2A5x
         @if($isLoggingOut)
             <x-filament::loading-indicator />
         @endif

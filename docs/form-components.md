@@ -141,6 +141,16 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
                         $dates = [];
                         $date = now();
                         $count = 0;
+<<<<<<< .merge_file_t56BpR
+=======
+<<<<<<< .merge_file_51ucVX
+=======
+<<<<<<< HEAD
+                        
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_X8NvMF
+>>>>>>> .merge_file_RVrUbn
                         while ($count < 30) {
                             if (!$date->isWeekend()) {
                                 $dates[] = $date->format('Y-m-d');
@@ -148,6 +158,16 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
                             }
                             $date->addDay();
                         }
+<<<<<<< .merge_file_t56BpR
+=======
+<<<<<<< .merge_file_51ucVX
+=======
+<<<<<<< HEAD
+                        
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_X8NvMF
+>>>>>>> .merge_file_RVrUbn
                         return $dates;
                     })
                     ->calendarConfig([
@@ -276,6 +296,16 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 - Min/Max length
 - Pattern
 - Custom rules
+<<<<<<< .merge_file_t56BpR
+=======
+<<<<<<< .merge_file_51ucVX
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_X8NvMF
+>>>>>>> .merge_file_RVrUbn
 ### Messaggi
 - Personalizzazione messaggi errore
 - Localizzazione
@@ -303,6 +333,16 @@ class UserForm extends Component
         'name' => 'required|min:3',
         'email' => 'required|email',
     ];
+<<<<<<< .merge_file_t56BpR
+=======
+<<<<<<< .merge_file_51ucVX
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_X8NvMF
+>>>>>>> .merge_file_RVrUbn
     public function save()
     {
         $this->validate();
@@ -328,18 +368,51 @@ form.addEventListener('submit', (e) => {
 - Feedback immediato
 - Accessibilità
 - UX ottimizzata
+<<<<<<< .merge_file_t56BpR
+=======
+<<<<<<< .merge_file_51ucVX
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_X8NvMF
+>>>>>>> .merge_file_RVrUbn
 ### Performance
 - Lazy loading
 - Debounce input
 - Cache validazione
 - Ottimizzazione risorse
+<<<<<<< .merge_file_t56BpR
+=======
+<<<<<<< .merge_file_51ucVX
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_X8NvMF
+>>>>>>> .merge_file_RVrUbn
 ## Collegamenti
 - [Componenti Base](./base-components.md)
 - [Componenti Table](./table-components.md)
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
+<<<<<<< .merge_file_t56BpR
 # Componenti Form
 
+=======
+<<<<<<< .merge_file_51ucVX
+# Componenti Form
+
+=======
+<<<<<<< HEAD
+=======
+# Componenti Form
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_X8NvMF
+>>>>>>> .merge_file_RVrUbn
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
 ## Collegamenti tra versioni di form-components.md
 * [form-components.md](../../../UI/project_docs/form-components.md)
@@ -456,8 +529,21 @@ use Filament\Forms\Form;
 use Filament\Forms\Components\Section;
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 
+<<<<<<< .merge_file_t56BpR
 public function form(Form $form): Form
 
+=======
+<<<<<<< .merge_file_51ucVX
+public function form(Form $form): Form
+
+=======
+<<<<<<< HEAD
+=======
+public function form(Form $form): Form
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_X8NvMF
+>>>>>>> .merge_file_RVrUbn
 public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 {
     return $form->schema([
@@ -470,6 +556,16 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
                         $dates = [];
                         $date = now();
                         $count = 0;
+<<<<<<< .merge_file_t56BpR
+=======
+<<<<<<< .merge_file_51ucVX
+=======
+<<<<<<< HEAD
+                        
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_X8NvMF
+>>>>>>> .merge_file_RVrUbn
                         while ($count < 30) {
                             if (!$date->isWeekend()) {
                                 $dates[] = $date->format('Y-m-d');
@@ -477,6 +573,16 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
                             }
                             $date->addDay();
                         }
+<<<<<<< .merge_file_t56BpR
+=======
+<<<<<<< .merge_file_51ucVX
+=======
+<<<<<<< HEAD
+                        
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_X8NvMF
+>>>>>>> .merge_file_RVrUbn
                         return $dates;
                     })
                     ->calendarConfig([
@@ -593,10 +699,30 @@ class UserForm extends Component
 {
     public $name;
     public $email;
+<<<<<<< .merge_file_t56BpR
+=======
+<<<<<<< .merge_file_51ucVX
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_X8NvMF
+>>>>>>> .merge_file_RVrUbn
     protected $rules = [
         'name' => 'required|min:3',
         'email' => 'required|email',
     ];
+<<<<<<< .merge_file_t56BpR
+=======
+<<<<<<< .merge_file_51ucVX
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_X8NvMF
+>>>>>>> .merge_file_RVrUbn
     public function save()
     {
         $this->validate();

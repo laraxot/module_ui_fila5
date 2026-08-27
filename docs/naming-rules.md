@@ -14,6 +14,16 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 ❌ **Non Corretto**:
 ```md
 
+<<<<<<< .merge_file_FEQOay
+=======
+<<<<<<< .merge_file_Hc0hB0
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_l8021m
+>>>>>>> .merge_file_S14i2o
 # Design System il progetto
 Il design system di il progetto definisce...
 ```
@@ -86,3 +96,24 @@ I nomi specifici dell'applicazione devono apparire solo:
 
 ## Vedi Anche
 - [Best Practices](../../../docs/standards/best-practices.md) 
+<<<<<<< .merge_file_FEQOay
+=======
+<<<<<<< .merge_file_Hc0hB0
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_l8021m
+- [Documentazione Principale](../../../docs/README.md)
+- [Standard di Codice](../../../docs/standards/coding-standards.md)
+- [Best Practices](../../../docs/standards/best-practices.md)
+
+- [Documentazione Principale](../../../project_docs/README.md)
+- [Standard di Codice](../../../project_docs/standards/coding-standards.md)
+- [Best Practices](../../../project_docs/standards/best-practices.md)
+- [Best Practices](../../../docs/standards/best-practices.md) 
+>>>>>>> laraxot/dev
+||||||| parent of 9a84589 (.):docs/archived/naming-rules-1.md
+- [Documentazione Principale](../../../docs/README.md)
+- [Standard di Codice](../../../docs/standards/coding-standards.md)
+- [Best Practices](../../../docs/standards/best-practices.md)
+>>>>>>> .merge_file_S14i2o

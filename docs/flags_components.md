@@ -10,16 +10,42 @@
 
 ## Panoramica
 
+<<<<<<< .merge_file_89stCg
 Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
 
+=======
+<<<<<<< .merge_file_ymtOVW
+Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+
+=======
+<<<<<<< HEAD
+=======
+Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_pI07Pg
+>>>>>>> .merge_file_AGJ88v
 Il modulo UI di <nome progetto>corrente include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
 
 ## Struttura dei Componenti Bandiera
 
 I file SVG delle bandiere sono archiviati in:
 ```
+<<<<<<< .merge_file_89stCg
 /var/www/html/saluteora/laravel/Modules/UI/resources/svg/flags/
 
+=======
+<<<<<<< .merge_file_ymtOVW
+/var/www/html/saluteora/laravel/Modules/UI/resources/svg/flags/
+
+=======
+<<<<<<< HEAD
+=======
+/var/www/html/saluteora/laravel/Modules/UI/resources/svg/flags/
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_pI07Pg
+>>>>>>> .merge_file_AGJ88v
 [project-root]/laravel/Modules/UI/resources/svg/flags/
 ```
 
@@ -143,8 +169,21 @@ Le bandiere devono essere utilizzate come icone Filament:
 2. **Personalizzazione**: Facile da personalizzare con classi CSS
 3. **Prestazioni**: Gli SVG sono leggeri e non richiedono richieste HTTP aggiuntive
 4. **Accessibilità**: Possibilità di aggiungere attributi di accessibilità
+<<<<<<< .merge_file_89stCg
 5. **Coerenza**: Utilizzo di componenti nativi di SaluteOra
 
+=======
+<<<<<<< .merge_file_ymtOVW
+5. **Coerenza**: Utilizzo di componenti nativi di SaluteOra
+
+=======
+<<<<<<< HEAD
+=======
+5. **Coerenza**: Utilizzo di componenti nativi di SaluteOra
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_pI07Pg
+>>>>>>> .merge_file_AGJ88v
 5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>corrente
 
 ## Bandiere Disponibili

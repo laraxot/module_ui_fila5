@@ -25,5 +25,13 @@ test('stat with icon widget can be instantiated', function (): void {
 
 test('stat with icon widget returns empty form schema', function (): void {
     $widget = new StatWithIconWidget();
+<<<<<<< .merge_file_2EYuHE
     Assert::assertSame([], $widget->getFormSchema());
+=======
+<<<<<<< HEAD
+    Assert::assertSame([], $widget->getFormSchema());
+=======
+    Assert::assertSame([], $widget->getFormSchema()); // @phpstan-ignore method.deprecated (hook di progetto: la deprecazione e ereditata per nome dal prototipo Filament 5, il codice eseguito e il nostro — story 16.12)
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_NwksMH
 });
