@@ -17,7 +17,10 @@ related:
   - "./full-calendar-1.md"
   - "./full-calendar.md"
 ---
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 # AddressField Component
 
 ## Panoramica
