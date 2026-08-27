@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit\Stubs;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Collection;
 
 /**
  * Record Eloquent in-memory per test colonne stato (no DB).
@@ -38,9 +39,9 @@ class UiCoverageRecord extends Model
     }
 
     /**
-     * @return array<string, string>|\Illuminate\Support\Collection<string, string>
+     * @return array<string, string>|Collection<string, string>
      */
-    public function getStatesFor(string $name): array|\Illuminate\Support\Collection
+    public function getStatesFor(string $name): array|Collection
     {
         return collect([
             'pending' => UiCoverageStateContract::class,

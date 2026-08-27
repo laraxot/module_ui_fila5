@@ -28,32 +28,11 @@ use Modules\Xot\Filament\Resources\XotBaseListRecords;
 class ListUsers extends XotBaseListRecords
 {
     protected TableLayoutEnum $layout;
-<<<<<<< .merge_file_Oqj4Jb
-=======
-<<<<<<< .merge_file_qLmp1H
-=======
-<<<<<<< HEAD
-    
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_7W8K9S
->>>>>>> .merge_file_rr2bmU
     public function mount(): void
     {
         parent::mount();
         $this->layout = TableLayoutEnum::init();
     }
-<<<<<<< .merge_file_Oqj4Jb
-=======
-<<<<<<< .merge_file_qLmp1H
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_7W8K9S
->>>>>>> .merge_file_rr2bmU
     public function table(Table $table): Table
     {
         return $table
@@ -64,16 +43,6 @@ class ListUsers extends XotBaseListRecords
             ->searchable()
             ->filterable();
     }
-<<<<<<< .merge_file_Oqj4Jb
-=======
-<<<<<<< .merge_file_qLmp1H
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_7W8K9S
->>>>>>> .merge_file_rr2bmU
     /**
      * Restituisce le colonne appropriate per il layout corrente
      */
@@ -97,16 +66,6 @@ class ListUsers extends XotBaseListRecords
                     default => 'gray',
                 }),
         ];
-<<<<<<< .merge_file_Oqj4Jb
-=======
-<<<<<<< .merge_file_qLmp1H
-=======
-<<<<<<< HEAD
-        
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_7W8K9S
->>>>>>> .merge_file_rr2bmU
         $gridColumns = [
             Stack::make([
                 TextColumn::make('name')
@@ -148,16 +107,6 @@ class ListUsers extends XotBaseListRecords
             // Altre azioni...
         ];
     }
-<<<<<<< .merge_file_Oqj4Jb
-=======
-<<<<<<< .merge_file_qLmp1H
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_7W8K9S
->>>>>>> .merge_file_rr2bmU
     /**
      * Azioni bulk per il layout corrente
      */
@@ -307,119 +256,39 @@ class TableLayoutEnumTest extends TestCase
     {
         $this->assertEquals(TableLayoutEnum::LIST, TableLayoutEnum::init());
     }
-<<<<<<< .merge_file_Oqj4Jb
-=======
-<<<<<<< .merge_file_qLmp1H
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_7W8K9S
->>>>>>> .merge_file_rr2bmU
     public function test_toggle_switches_layout(): void
     {
         $layout = TableLayoutEnum::LIST;
         $this->assertEquals(TableLayoutEnum::GRID, $layout->toggle());
         $this->assertEquals(TableLayoutEnum::LIST, $layout->toggle()->toggle());
     }
-<<<<<<< .merge_file_Oqj4Jb
-=======
-<<<<<<< .merge_file_qLmp1H
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_7W8K9S
->>>>>>> .merge_file_rr2bmU
     public function test_get_label_returns_translated_string(): void
     {
         $listLabel = TableLayoutEnum::LIST->getLabel();
         $gridLabel = TableLayoutEnum::GRID->getLabel();
-<<<<<<< .merge_file_Oqj4Jb
-=======
-<<<<<<< .merge_file_qLmp1H
-=======
-<<<<<<< HEAD
-        
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_7W8K9S
->>>>>>> .merge_file_rr2bmU
         $this->assertIsString($listLabel);
         $this->assertIsString($gridLabel);
         $this->assertNotEmpty($listLabel);
         $this->assertNotEmpty($gridLabel);
     }
-<<<<<<< .merge_file_Oqj4Jb
-=======
-<<<<<<< .merge_file_qLmp1H
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_7W8K9S
->>>>>>> .merge_file_rr2bmU
     public function test_get_color_returns_valid_color(): void
     {
         $listColor = TableLayoutEnum::LIST->getColor();
         $gridColor = TableLayoutEnum::GRID->getColor();
-<<<<<<< .merge_file_Oqj4Jb
-=======
-<<<<<<< .merge_file_qLmp1H
-=======
-<<<<<<< HEAD
-        
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_7W8K9S
->>>>>>> .merge_file_rr2bmU
         $this->assertIsString($listColor);
         $this->assertIsString($gridColor);
         $this->assertNotEmpty($listColor);
         $this->assertNotEmpty($gridColor);
     }
-<<<<<<< .merge_file_Oqj4Jb
-=======
-<<<<<<< .merge_file_qLmp1H
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_7W8K9S
->>>>>>> .merge_file_rr2bmU
     public function test_get_icon_returns_valid_icon(): void
     {
         $listIcon = TableLayoutEnum::LIST->getIcon();
         $gridIcon = TableLayoutEnum::GRID->getIcon();
-<<<<<<< .merge_file_Oqj4Jb
-=======
-<<<<<<< .merge_file_qLmp1H
-=======
-<<<<<<< HEAD
-        
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_7W8K9S
->>>>>>> .merge_file_rr2bmU
         $this->assertIsString($listIcon);
         $this->assertIsString($gridIcon);
         $this->assertNotEmpty($listIcon);
         $this->assertNotEmpty($gridIcon);
     }
-<<<<<<< .merge_file_Oqj4Jb
-=======
-<<<<<<< .merge_file_qLmp1H
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_7W8K9S
->>>>>>> .merge_file_rr2bmU
     public function test_get_table_content_grid_returns_null_for_list(): void
     {
         $this->assertNull(TableLayoutEnum::LIST->getTableContentGrid());
@@ -441,16 +310,6 @@ class TableLayoutEnumTest extends TestCase
         $this->assertArrayHasKey('xl', $grid);
         $this->assertArrayHasKey('2xl', $grid);
     }
-<<<<<<< .merge_file_Oqj4Jb
-=======
-<<<<<<< .merge_file_qLmp1H
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_7W8K9S
->>>>>>> .merge_file_rr2bmU
     public function test_get_table_columns_returns_correct_columns(): void
     {
         $listColumns = ['name', 'email'];
@@ -480,16 +339,6 @@ class TableLayoutEnumTest extends TestCase
         $this->assertTrue(TableLayoutEnum::GRID->isGridLayout());
         $this->assertFalse(TableLayoutEnum::LIST->isGridLayout());
     }
-<<<<<<< .merge_file_Oqj4Jb
-=======
-<<<<<<< .merge_file_qLmp1H
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_7W8K9S
->>>>>>> .merge_file_rr2bmU
     public function test_is_list_layout_returns_correct_boolean(): void
     {
         $this->assertTrue(TableLayoutEnum::LIST->isListLayout());
@@ -510,30 +359,10 @@ class TableLayoutEnumTest extends TestCase
         $this->assertArrayHasKey('grid', $options);
         $this->assertCount(2, $options);
     }
-<<<<<<< .merge_file_Oqj4Jb
-=======
-<<<<<<< .merge_file_qLmp1H
-=======
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_7W8K9S
->>>>>>> .merge_file_rr2bmU
     public function test_get_container_classes_returns_valid_classes(): void
     {
         $listClasses = TableLayoutEnum::LIST->getContainerClasses();
         $gridClasses = TableLayoutEnum::GRID->getContainerClasses();
-<<<<<<< .merge_file_Oqj4Jb
-=======
-<<<<<<< .merge_file_qLmp1H
-=======
-<<<<<<< HEAD
-        
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_7W8K9S
->>>>>>> .merge_file_rr2bmU
         $this->assertEquals('table-layout-list', $listClasses);
         $this->assertEquals('table-layout-grid', $gridClasses);
     }

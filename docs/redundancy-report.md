@@ -30,21 +30,7 @@ Referenziava `Modules\Geo\Services\MapService` e `Modules\Geo\Services\Geocoding
 
 Esiste anche in:
 - `Modules/Blog/app/Models/Category.php`
-<<<<<<< .merge_file_rjrL6j
 - `Modules/Fixcity/app/Models/Category.php`
-
-=======
-<<<<<<< .merge_file_9ZxNaF
-- `Modules/Fixcity/app/Models/Category.php`
-
-=======
-<<<<<<< HEAD
-=======
-- `Modules/Fixcity/app/Models/Category.php`
-
->>>>>>> laraxot/dev
->>>>>>> .merge_file_c1eHve
->>>>>>> .merge_file_6q6N5w
 - `Modules/<nome progetto>/app/Models/Category.php`
 - `Modules/Project/app/Models/Category.php`
 

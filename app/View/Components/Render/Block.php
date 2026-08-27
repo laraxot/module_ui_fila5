@@ -20,7 +20,7 @@ class Block extends Component
     public ?string $view = null;
 
     /**
-     * @param array<string, mixed> $block
+     * @param  array<string, mixed>  $block
      */
     public function __construct(
         public array $block,
@@ -28,7 +28,7 @@ class Block extends Component
         public string $tpl = '',
     ) {
         $view = Arr::get($this->block, 'data.view', null);
-        if (null === $view) {
+        if ($view === null) {
             $view = 'ui::empty';
         }
         Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));

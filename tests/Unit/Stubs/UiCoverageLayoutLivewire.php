@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit\Stubs;
 
 use Livewire\Component;
-use Modules\UI\Enums\TableLayoutEnum;
 use Modules\UI\Filament\Traits\HasTableLayoutPage;
 
 /**
