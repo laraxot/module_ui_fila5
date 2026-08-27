@@ -724,6 +724,16 @@ use Modules\UI\Layouts\AdminLayout;
 class Dashboard extends Component
 {
     protected static string $layout = AdminLayout::class;
+<<<<<<< .merge_file_jzeSyy
+=======
+<<<<<<< .merge_file_8CvFdB
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_6lOaEm
+>>>>>>> .merge_file_0gapSc
     protected function getLayoutData(): array
     {
         return [
@@ -756,6 +766,16 @@ use Modules\UI\Layouts\PrintLayout;
 class StampaPratica extends Component
 {
     protected static string $layout = PrintLayout::class;
+<<<<<<< .merge_file_jzeSyy
+=======
+<<<<<<< .merge_file_8CvFdB
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_6lOaEm
+>>>>>>> .merge_file_0gapSc
     protected function getLayoutData(): array
     {
         return [
@@ -798,6 +818,16 @@ return [
             'warning' => '#f59e0b',
             'danger' => '#ef4444',
         ],
+<<<<<<< .merge_file_jzeSyy
+=======
+<<<<<<< .merge_file_8CvFdB
+=======
+<<<<<<< HEAD
+        
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_6lOaEm
+>>>>>>> .merge_file_0gapSc
         // Tipografia
         'typography' => [
             'fonts' => [
@@ -810,17 +840,47 @@ return [
                 'xl' => '1.25rem',
             ],
         ],
+<<<<<<< .merge_file_jzeSyy
+=======
+<<<<<<< .merge_file_8CvFdB
+=======
+<<<<<<< HEAD
+        
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_6lOaEm
+>>>>>>> .merge_file_0gapSc
         // Spaziature
         'spacing' => [
             'base' => '1rem',
             'lg' => '1.5rem',
             'xl' => '2rem',
         ],
+<<<<<<< .merge_file_jzeSyy
+=======
+<<<<<<< .merge_file_8CvFdB
+=======
+<<<<<<< HEAD
+        
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_6lOaEm
+>>>>>>> .merge_file_0gapSc
         // Bordi
         'border' => [
             'radius' => '0.375rem',
             'width' => '1px',
         ],
+<<<<<<< .merge_file_jzeSyy
+=======
+<<<<<<< .merge_file_8CvFdB
+=======
+<<<<<<< HEAD
+        
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_6lOaEm
+>>>>>>> .merge_file_0gapSc
         // Ombre
         'shadows' => [
             'sm' => '0 1px 2px 0 rgb(0 0 0 / 0.05)',

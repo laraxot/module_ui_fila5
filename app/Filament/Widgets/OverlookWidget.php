@@ -8,7 +8,14 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Widgets;
 
+<<<<<<< .merge_file_6aZsc6
 use Filament\Schemas\Components\Component;
+=======
+<<<<<<< HEAD
+=======
+use Filament\Schemas\Components\Component;
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KupcAr
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 final class OverlookWidget extends XotBaseSchemaWidget
@@ -36,7 +43,14 @@ final class OverlookWidget extends XotBaseSchemaWidget
     protected int|string|array $columnSpan = 1;
 
     /**
+<<<<<<< .merge_file_6aZsc6
      * @return array<string, Component>
+=======
+<<<<<<< HEAD
+=======
+     * @return array<string, Component>
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KupcAr
      * @return array<string, mixed>
      */
     public function getFormSchema(): array

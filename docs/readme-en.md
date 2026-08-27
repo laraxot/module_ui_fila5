@@ -8,8 +8,21 @@
 [![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue.svg)](https://www.php-fig.org/psr/psr-12/)
 [![Strict Types](https://img.shields.io/badge/PHP-strict__types-1-informational.svg)](#)
 [![Laraxot Modules](https://img.shields.io/badge/Architecture-Modular-purple.svg)](#)
+<<<<<<< .merge_file_GUDXyv
 [![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
 
+=======
+<<<<<<< .merge_file_j6M7k3
+[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
+
+=======
+<<<<<<< HEAD
+=======
+[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KdRw2i
+>>>>>>> .merge_file_uoKKUn
 [![<nome progetto> Platform](https://img.shields.io/badge/Platform-<nome progetto>-008758.svg)](#)
 [![Current Platform](https://img.shields.io/badge/Platform-progetto corrente-008758.svg)](#)
 
@@ -56,7 +69,20 @@ Frontoffice stack: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filamen
 
 ---
 
+<<<<<<< .merge_file_GUDXyv
 **Module** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
 
+=======
+<<<<<<< .merge_file_j6M7k3
+**Module** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+
+=======
+<<<<<<< HEAD
+=======
+**Module** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KdRw2i
+>>>>>>> .merge_file_uoKKUn
 **Module** `ui` · **Laraxot** · **<nome progetto> Platform** · PHPStan 10 · Filament 5
 **Module** `ui` · **Laraxot** · **Current Platform** · PHPStan 10 · Filament 5
