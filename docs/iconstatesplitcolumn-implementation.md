@@ -580,35 +580,19 @@ class IconStateSplitColumn extends Column
     protected string $view = 'ui::filament.tables.columns.icon-state-split';
     protected string $stateClass = '';
     protected string $modelClass = '';
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
     protected function setUp(): void
     {
         parent::setUp();
         $this->label('Stati');
     }
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
     public function stateClass(string $stateClass, string $modelClass): static
     {
         // Configure states and model
     }
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
     public function getRecordStates(): array
     {
         // Return array of available states
     }
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
     public function canTransitionTo($recordId, $stateClass): bool
     {
         // Check if transition is possible
@@ -823,10 +807,6 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
 // Event listener for Livewire integration
 document.addEventListener('state-transition', function(event) {
     const { recordId, stateClass, action } = event.detail;
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
     if (window.Livewire) {
         window.Livewire.find(document.querySelector('[wire\\:id]').getAttribute('wire:id'))
             .call(action, recordId, stateClass);

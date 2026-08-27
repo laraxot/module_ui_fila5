@@ -17,10 +17,6 @@ related:
   - "./footer.md"
   - "./full-calendar-1.md"
 ---
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 # FullCalendar Component for Filament
 
 ## Introduction
@@ -111,27 +107,15 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
                 ->placeholder(__('ui::calendar.fields.title.placeholder'))
                 ->helperText(__('ui::calendar.fields.title.help'))
                 ->required(),
-<<<<<<< HEAD
-                
-=======
->>>>>>> laraxot/dev
             Forms\Components\Grid::make()
                 ->schema([
                     Forms\Components\DateTimePicker::make('start_date')
                         ->label(__('ui::calendar.fields.start_date.label'))
                         ->required(),
-<<<<<<< HEAD
-                        
-=======
->>>>>>> laraxot/dev
                     Forms\Components\DateTimePicker::make('end_date')
                         ->label(__('ui::calendar.fields.end_date.label'))
                         ->required(),
                 ]),
-<<<<<<< HEAD
-                
-=======
->>>>>>> laraxot/dev
             Forms\Components\Textarea::make('description')
                 ->label(__('ui::calendar.fields.description.label'))
                 ->placeholder(__('ui::calendar.fields.description.placeholder'))

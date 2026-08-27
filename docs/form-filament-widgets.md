@@ -86,10 +86,6 @@ public static function getFormSchema(): array
                 ->required()
                 ->columnSpan(1),
         ]),
-<<<<<<< HEAD
-        
-=======
->>>>>>> laraxot/dev
         Forms\Components\Section::make('Contenuto della Pagina')->schema([
             PageContent::make('content_blocks')
                 ->label('Blocchi Contenuto')

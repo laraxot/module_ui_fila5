@@ -5,12 +5,9 @@ tags: [filament, components]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament-components utilizzo dei componenti blade di filament"
-<<<<<<< HEAD
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 
->>>>>>> laraxot/dev
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
@@ -66,11 +63,8 @@ Frontoffice senza Livewire dedicato — pattern [Alpine](https://filamentphp.com
 </x-filament::tabs>
 ```
 
-<<<<<<< HEAD
-=======
 | Tabs | `<x-filament::tabs>` | Tab personalizzati |
 
->>>>>>> laraxot/dev
 Caso <nome progetto> `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
 Caso progetto corrente `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
 
