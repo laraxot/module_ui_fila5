@@ -23,8 +23,7 @@ uses(TestCase::class, DatabaseTransactions::class);
 
 function concreteRowWidget(): RowWidget
 {
-    return new class extends RowWidget {
-    };
+    return new class() extends RowWidget {};
 }
 
 it('widgets instantiate and extend filament base', function (): void {
@@ -55,15 +54,7 @@ it('schema widgets expose empty form schema by default', function (): void {
 
     foreach ($widgets as $widget) {
         Assert::assertInstanceOf(XotBaseSchemaWidget::class, $widget);
-<<<<<<< .merge_file_UkfPcB
         Assert::assertSame([], $widget->getFormSchema());
-=======
-<<<<<<< HEAD
-        Assert::assertSame([], $widget->getFormSchema());
-=======
-        Assert::assertSame([], $widget->getFormSchema()); // @phpstan-ignore method.deprecated, method.deprecated, method.deprecated, method.deprecated (uno per widget del foreach; hook di progetto: la deprecazione e ereditata per nome dal prototipo Filament 5, il codice eseguito e il nostro — story 16.12)
->>>>>>> laraxot/dev
->>>>>>> .merge_file_msRXQX
     }
 });
 

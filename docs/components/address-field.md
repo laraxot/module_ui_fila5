@@ -17,16 +17,6 @@ related:
   - "./full-calendar-1.md"
   - "./full-calendar.md"
 ---
-<<<<<<< .merge_file_hjdeUf
-=======
-<<<<<<< .merge_file_GuAn81
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_iqQfId
->>>>>>> .merge_file_ZzpUIQ
 # AddressField Component
 
 ## Panoramica

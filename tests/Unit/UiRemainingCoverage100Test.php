@@ -28,6 +28,19 @@ use Modules\Xot\Actions\GetViewAction;
 use PHPUnit\Framework\Assert;
 use ReflectionClass;
 
+/**
+ * Narrows Mockery's shouldReceive() union return type for PHPStan.
+ *
+ * @param  \Mockery\LegacyMockInterface|\Mockery\MockInterface  $mock
+ */
+function expectMethod($mock, string $method): \Mockery\ExpectationInterface
+{
+    /** @var \Mockery\ExpectationInterface $expectation */
+    $expectation = $mock->shouldReceive($method);
+
+    return $expectation;
+}
+
 use function Safe\mkdir;
 
 uses(TestCase::class)->group('no-ui-db');
@@ -80,7 +93,7 @@ describe('UI remaining 100 — enum e form', function (): void {
 describe('UI remaining 100 — view e actions', function (): void {
     test('view Std Svg Navbar WithSidebar con GetViewAction mock', function (): void {
         $mock = \Mockery::mock(GetViewAction::class);
-        $mock->shouldReceive('execute')->andReturn('ui::empty');
+        expectMethod($mock, 'execute')->andReturn('ui::empty');
         app()->instance(GetViewAction::class, $mock);
 
         foreach ([

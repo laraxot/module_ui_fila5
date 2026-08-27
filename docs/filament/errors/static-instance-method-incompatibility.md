@@ -5,24 +5,8 @@ tags: [static, instance, method, incompatibility]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "static-instance-method-incompatibility errore di incompatibilità tra metodi statici e di istanza in filament"
-<<<<<<< .merge_file_WmNFSF
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-
-=======
-<<<<<<< .merge_file_cet7t3
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-
-=======
-<<<<<<< HEAD
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-
->>>>>>> laraxot/dev
->>>>>>> .merge_file_YPpJWn
->>>>>>> .merge_file_wtNspE
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:

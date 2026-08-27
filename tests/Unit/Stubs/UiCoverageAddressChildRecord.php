@@ -24,7 +24,7 @@ final class UiCoverageAddressChildRecord extends Model
      */
     public function update(array $attributes = [], array $options = []): bool
     {
-        ++$this->updated;
+        $this->updated++;
 
         return true;
     }

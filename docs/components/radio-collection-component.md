@@ -5,24 +5,8 @@ tags: [radio, collection, component]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "radio-collection-component radiocollection component: analisi ontologica e fenomenologica"
-<<<<<<< .merge_file_r9A9Yn
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-
-=======
-<<<<<<< .merge_file_COTQPU
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-
-=======
-<<<<<<< HEAD
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-
->>>>>>> laraxot/dev
->>>>>>> .merge_file_Y2Elqm
->>>>>>> .merge_file_oQJI3O
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:

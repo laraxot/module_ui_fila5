@@ -19,6 +19,19 @@ use Modules\Xot\Tests\FilamentSchemaCoverage;
 use PHPUnit\Framework\Assert;
 use SplFileInfo;
 
+/**
+ * Narrows Mockery's shouldReceive() union return type for PHPStan.
+ *
+ * @param  \Mockery\LegacyMockInterface|\Mockery\MockInterface  $mock
+ */
+function expectMethod($mock, string $method): \Mockery\ExpectationInterface
+{
+    /** @var \Mockery\ExpectationInterface $expectation */
+    $expectation = $mock->shouldReceive($method);
+
+    return $expectation;
+}
+
 uses(TestCase::class);
 
 afterEach(function (): void {
@@ -34,7 +47,7 @@ describe('UI Filament widgets and components coverage', function (): void {
                 continue;
             }
             Assert::assertInstanceOf($class, new $class());
-            ++$seen;
+            $seen++;
         }
         Assert::assertGreaterThan(0, $seen);
     });
@@ -50,7 +63,7 @@ describe('UI Filament widgets and components coverage', function (): void {
             $class = 'Modules\\UI\\'.str_replace(['/', '.php'], ['\\', ''], substr($file->getPathname(), strlen($appRoot) + 1));
             if (class_exists($class)) {
                 Assert::assertTrue(class_exists($class));
-                ++$count;
+                $count++;
             }
         }
         Assert::assertGreaterThan(0, $count);
@@ -87,12 +100,12 @@ describe('UI coverage boost — Rules and policies', function (): void {
     test('UiBasePolicy before grants super-admin', function (): void {
         /** @var Mockery\MockInterface&UserContract $superAdmin */
         $superAdmin = Mockery::mock(UserContract::class);
-        $superAdmin->shouldReceive('hasRole')->with('super-admin')->andReturn(true);
+        expectMethod($superAdmin, 'hasRole')->with('super-admin')->andReturn(true);
         /** @var Mockery\MockInterface&UserContract $regular */
         $regular = Mockery::mock(UserContract::class);
-        $regular->shouldReceive('hasRole')->with('super-admin')->andReturn(false);
+        expectMethod($regular, 'hasRole')->with('super-admin')->andReturn(false);
 
-        $policy = new class extends UiBasePolicy {};
+        $policy = new class() extends UiBasePolicy {};
         Assert::assertTrue($policy->before($superAdmin, 'viewAny'));
         Assert::assertNull($policy->before($regular, 'viewAny'));
     });

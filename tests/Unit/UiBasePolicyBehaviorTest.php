@@ -5,18 +5,23 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit;
 
 use Mockery;
-<<<<<<< .merge_file_HYBjqh
 use Modules\UI\Tests\Fixtures\UiBasePolicyBehaviorConcretePolicy;
-=======
-<<<<<<< HEAD
-use Modules\UI\Tests\Fixtures\UiBasePolicyBehaviorConcretePolicy;
-=======
-use Modules\UI\Models\Policies\UiBasePolicy;
->>>>>>> laraxot/dev
->>>>>>> .merge_file_1Gk1aU
 use Modules\UI\Tests\TestCase;
 use Modules\Xot\Contracts\UserContract;
 use PHPUnit\Framework\Assert;
+
+/**
+ * Narrows Mockery's shouldReceive() union return type for PHPStan.
+ *
+ * @param  \Mockery\LegacyMockInterface|\Mockery\MockInterface  $mock
+ */
+function expectMethod($mock, string $method): \Mockery\ExpectationInterface
+{
+    /** @var \Mockery\ExpectationInterface $expectation */
+    $expectation = $mock->shouldReceive($method);
+
+    return $expectation;
+}
 
 uses(TestCase::class)->group('no-ui-db');
 
@@ -28,7 +33,7 @@ function uiBehaviorUser(array $roles = []): UserContract
 {
     /** @var Mockery\MockInterface&UserContract $user */
     $user = Mockery::mock(UserContract::class);
-    $user->shouldReceive('hasRole')
+    expectMethod($user, 'hasRole')
         ->andReturnUsing(static function (array|string $richiesti) use ($roles): bool {
             /** @var list<string> $normalizzati */
             $normalizzati = is_array($richiesti) ? $richiesti : [$richiesti];
@@ -50,11 +55,3 @@ test('UiBasePolicy before concede super-admin e ritorna null altrimenti', functi
     Assert::assertTrue($policy->before($super, 'viewAny'));
     Assert::assertNull($policy->before(uiBehaviorUser(), 'viewAny'));
 });
-<<<<<<< .merge_file_HYBjqh
-=======
-<<<<<<< HEAD
-=======
-
-final class UiBasePolicyBehaviorConcretePolicy extends UiBasePolicy {}
->>>>>>> laraxot/dev
->>>>>>> .merge_file_1Gk1aU

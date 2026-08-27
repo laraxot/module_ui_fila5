@@ -5,9 +5,10 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit;
 
 use Modules\UI\Datas\ThemeMetadataData;
+use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-uses(\Modules\UI\Tests\TestCase::class);
+uses(TestCase::class);
 
 it('espone i colori passati al costruttore', function (): void {
     $data = new ThemeMetadataData('#112233', '#445566');
