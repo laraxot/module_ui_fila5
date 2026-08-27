@@ -2,8 +2,16 @@
 module: UI
 topic: table-layout-toggle
 status: open
+<<<<<<< .merge_file_VIkv7n
 related_issue: provtv/base_ptv_fila5_mono
 
+=======
+<<<<<<< HEAD
+=======
+related_issue: provtv/base_ptv_fila5_mono
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_VzpyaO
 related_issue: provtv/<nome repository>
 related_module_repo: laraxot/module_ui_fila5
 ---

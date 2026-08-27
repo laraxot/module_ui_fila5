@@ -60,3 +60,10 @@ UI module for Laraxot platform providing core functionality.
 - PHPStan Level 10 compliance
 - Pest test coverage >90%
 - Integration testing
+<<<<<<< .merge_file_jFvfdw
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YHtV9P

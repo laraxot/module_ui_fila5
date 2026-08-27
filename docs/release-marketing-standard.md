@@ -5,8 +5,16 @@ status: approved
 tags: [release, semantic-versioning, changelog, readme, marketing]
 created: "2026-05-26"
 updated: "2026-05-26"
+<<<<<<< .merge_file_kcAjgE
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/153"
 
+=======
+<<<<<<< HEAD
+=======
+issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/153"
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Zhp6R7
 issue: "https://github.com/provtv/<nome repository>/issues/153"
 ---
 

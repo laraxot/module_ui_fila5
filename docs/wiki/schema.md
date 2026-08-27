@@ -19,8 +19,16 @@ docs/
 ├── wiki/
 │   ├── index.md           # Catalogo
 │   ├── log.md             # Registro
+<<<<<<< .merge_file_OnoyFK
 │   ├── SCHEMA.md          # Questo file
 
+=======
+<<<<<<< HEAD
+=======
+│   ├── SCHEMA.md          # Questo file
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_UutJKS
 │   ├── schema.md          # Questo file
 │   ├── concepts/          # Pattern, architettura
 │   ├── entities/          # Modelli, azioni

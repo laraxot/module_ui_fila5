@@ -28,8 +28,16 @@ Tutti in `Modules/UI/app/Filament/Forms/Components/`:
 
 ### Import Statements da Verificare
 
+<<<<<<< .merge_file_WFtiMd
 **TechPlanner/app/Filament/Resources/ClientResource.php**:
 
+=======
+<<<<<<< HEAD
+=======
+**TechPlanner/app/Filament/Resources/ClientResource.php**:
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_LrANcr
 **modulo operativo/app/Filament/Resources/ClientResource.php**:
 ```php
 Line 13: use Modules\Notify\Filament\Forms\Components\ContactSection;
