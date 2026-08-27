@@ -106,21 +106,10 @@ TextInput::make('full_name')
 ## Collegamenti tra versioni di convenzioni-naming-campi.md
 * [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
 # Convenzioni di Naming dei Campi
-- [Convenzioni API](../../../docs/api/convenzioni.md) 
-||||||| parent of 9a84589 (.):docs/convenzioni-naming-campi-1.md
-- [Best Practices Database](../../../docs/database/best-practices.md)
-- [Convenzioni API](../../../docs/api/convenzioni.md)
 ## Collegamenti tra versioni di convenzioni-naming-campi.md
-* [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
 
-||||||| parent of 9a84589 (.):docs/convenzioni-naming-campi-1.md
-* [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
-- [Convenzioni API](../../../docs/api/convenzioni.md)
 ## Collegamenti tra versioni di convenzioni-naming-campi.md
 ## Collegamenti Bidirezionali
-- [Best Practices UI](../best-practices.md)
-- [Errori Comuni UI](../filament-components-errors.md)
-- [Implementazione Corretta](../examples/correct-implementation.md)
 ## Campi Nome e Cognome
 ### ❌ NON FARE
 ```php
