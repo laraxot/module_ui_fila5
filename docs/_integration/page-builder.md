@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-=======
 # page_builder
 <!-- Contenuto migrato da _docs/page_builder.txt -->
 # page_builder
 <!-- Contenuto migrato da _docs/page_builder.txt -->
->>>>>>> laraxot/dev
 ---
 title: "page_builder"
 type: concept

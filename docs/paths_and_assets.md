@@ -22,11 +22,8 @@
 , è fondamentale rispettare la struttura corretta delle directory per gli asset pubblici:
 
 ```
-<<<<<<< HEAD
-=======
 /var/www/html/saluteora/
 
->>>>>>> laraxot/dev
 [project-root]/
 ├── laravel/                 # Applicazione Laravel (codice sorgente)
 │   ├── Modules/             # Moduli dell'applicazione
@@ -83,11 +80,8 @@ Per garantire una buona esperienza utente, implementare sempre un fallback per l
 Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati come componenti Blade in:
 
 ```
-<<<<<<< HEAD
-=======
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/
 
->>>>>>> laraxot/dev
 [project-root]/laravel/Themes/One/resources/views/components/ui/
 ```
 
@@ -96,11 +90,8 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizionati in:
 
 ```
-<<<<<<< HEAD
-=======
 /var/www/html/saluteora/public_html/images/
 
->>>>>>> laraxot/dev
 [project-root]/public_html/images/
 ```
 
@@ -111,22 +102,16 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 Il componente avatar è implementato in:
 
 ```
-<<<<<<< HEAD
-=======
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 
->>>>>>> laraxot/dev
 [project-root]/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 ```
 
 E utilizza gli avatar SVG dalla directory pubblica:
 
 ```
-<<<<<<< HEAD
-=======
 /var/www/html/saluteora/public_html/images/avatars/
 
->>>>>>> laraxot/dev
 [project-root]/public_html/images/avatars/
 ```
 
@@ -135,11 +120,8 @@ E utilizza gli avatar SVG dalla directory pubblica:
 Il componente icon è implementato in:
 
 ```
-<<<<<<< HEAD
-=======
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 
->>>>>>> laraxot/dev
 [project-root]/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 ```
 
@@ -181,11 +163,8 @@ E include le definizioni SVG direttamente nel componente.
 
 ## Errori Comuni
 
-<<<<<<< HEAD
-=======
 1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/saluteora/laravel/public/` invece di `/var/www/html/saluteora/public_html/`
 
->>>>>>> laraxot/dev
 1. **Utilizzo del percorso Laravel public**: Utilizzare `[project-root]/laravel/public/` invece di `[project-root]/public_html/`
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile

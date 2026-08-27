@@ -9,10 +9,7 @@ use Filament\Actions\Action;
 use Filament\Forms\Components\Select;
 use Filament\Notifications\Notification;
 use Illuminate\Database\Eloquent\Model;
-<<<<<<< HEAD
-=======
 use Illuminate\Database\Eloquent\Relations\HasOne;
->>>>>>> laraxot/dev
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\File;
 use Mockery;
@@ -330,7 +327,3 @@ function uiFirstActionSchemaComponent(Action $action): Select
 
     throw new \RuntimeException('Select component not found in action schema');
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> laraxot/dev

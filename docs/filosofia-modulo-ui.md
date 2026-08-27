@@ -81,13 +81,10 @@ Questo è intenzionale: UI è un **consumer** di Xot, non un base layer.
 Ogni componente è progettato per essere riutilizzato in più moduli senza duplicazione:
 
 ```php
-<<<<<<< HEAD
-=======
 // InlineDatePicker - Usato in modulo operativo, Employee, Cms
 // LocationSelector - Usato in modulo operativo, Employee, Geo
 // InlineDatePicker - Usato in modulo operativo, Employee, Cms
 // LocationSelector - Usato in modulo operativo, Employee, Geo
->>>>>>> laraxot/dev
 // IconStateColumn - Usato in tutti i moduli con Spatie ModelStates
 // RadioCollection - Usato per selezioni complesse multimodulo
 ```

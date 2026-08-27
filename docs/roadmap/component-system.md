@@ -17,10 +17,6 @@ related:
   - "./02-next.md"
   - "./03-later.md"
 ---
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 # Sistema Componenti UI
 
 ## 📊 Stato Implementazione

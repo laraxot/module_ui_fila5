@@ -17,10 +17,6 @@ related:
   - "./02-next.md"
   - "./03-later.md"
 ---
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 # Form Component
 
 ## 📊 Stato Implementazione
@@ -70,10 +66,6 @@ class FormBuilder extends XotBaseUIComponent
         $this->fields[$name] = $field;
         return $this;
     }
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
     public function validate(): ValidationResult
     {
         return $this->validator->validate($this->values);
@@ -90,10 +82,6 @@ abstract class FormField
     protected bool $required = false;
     protected ?string $placeholder = null;
     protected array $validators = [];
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
     abstract public function render(): View;
     abstract public function validate($value): ValidationResult;
 }
@@ -103,10 +91,6 @@ class InputField extends FormField
     protected string $type = 'text';
     protected ?int $maxLength = null;
     protected ?string $pattern = null;
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
     public function setType(string $type): self
     {
         $this->type = $type;

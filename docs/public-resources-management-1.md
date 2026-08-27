@@ -32,7 +32,6 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 
 ### Immagini
 
-<<<<<<< HEAD
 Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/images/` e organizzate in sottocartelle per tipologia:
 
 - `/images/avatars/` - Avatar utenti
@@ -100,8 +99,6 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 ### Avatar Utente
 
 ```blade
-=======
->>>>>>> laraxot/dev
 <img 
     src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}" 
     alt="{{ $user->name }}" 

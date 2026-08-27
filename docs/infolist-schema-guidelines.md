@@ -67,10 +67,6 @@ protected function getInfolistSchema(): array
                             ,
                     ]),
             ]),
-<<<<<<< HEAD
-        
-=======
->>>>>>> laraxot/dev
         'dettagli_account' => Section::make('Dettagli Account')
             ->schema([
                 // Altri componenti...

@@ -70,13 +70,11 @@ Dettagli: [`docs/dependency-rules.md`](./docs/dependency-rules.md)
 
 ---
 
-<<<<<<< HEAD
-=======
 # 🎨 UI Module - Eleva la Tua Interfaccia al Livello Successivo! 🚀
 
-![GitHub issues](https://img.shields.io/github/issues/laraxot/module_ui_fila3)
-![GitHub forks](https://img.shields.io/github/forks/laraxot/module_ui_fila3)
-![GitHub stars](https://img.shields.io/github/stars/laraxot/module_ui_fila3)
+![GitHub issues](https://img.shields.io/github/issues/laraxot/module_ui_fila5)
+![GitHub forks](https://img.shields.io/github/forks/laraxot/module_ui_fila5)
+![GitHub stars](https://img.shields.io/github/stars/laraxot/module_ui_fila5)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 Welcome to the **Fila3 UI Module**! This comprehensive user interface toolkit is designed to streamline the development of visually stunning and user-friendly applications. With a rich set of components and styles, you can create a polished and consistent look for your projects in no time!
@@ -149,12 +147,12 @@ Getting started with the Fila3 UI Module is straightforward! Follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/laraxot/module_ui_fila3.git
+   git clone https://github.com/laraxot/module_ui_fila5.git
 
 Navigate to the project directory:
 bash
 Copia codice
-cd module_ui_fila3
+cd module_ui_fila5
 Install dependencies:
 bash
 Copia codice
@@ -317,5 +315,4 @@ Este proyecto está distribuido bajo la licencia MIT. Ver el archivo [LICENSE](L
 
 ---
 
->>>>>>> laraxot/dev
 **Modulo** `ui` · **Laraxot** · **Current Platform** · PHPStan 10 · Filament 5

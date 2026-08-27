@@ -141,10 +141,6 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
                         $dates = [];
                         $date = now();
                         $count = 0;
-<<<<<<< HEAD
-                        
-=======
->>>>>>> laraxot/dev
                         while ($count < 30) {
                             if (!$date->isWeekend()) {
                                 $dates[] = $date->format('Y-m-d');
@@ -152,10 +148,6 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
                             }
                             $date->addDay();
                         }
-<<<<<<< HEAD
-                        
-=======
->>>>>>> laraxot/dev
                         return $dates;
                     })
                     ->calendarConfig([
@@ -284,10 +276,6 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 - Min/Max length
 - Pattern
 - Custom rules
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 ### Messaggi
 - Personalizzazione messaggi errore
 - Localizzazione
@@ -315,10 +303,6 @@ class UserForm extends Component
         'name' => 'required|min:3',
         'email' => 'required|email',
     ];
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
     public function save()
     {
         $this->validate();
@@ -344,29 +328,18 @@ form.addEventListener('submit', (e) => {
 - Feedback immediato
 - Accessibilità
 - UX ottimizzata
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 ### Performance
 - Lazy loading
 - Debounce input
 - Cache validazione
 - Ottimizzazione risorse
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 ## Collegamenti
 - [Componenti Base](./base-components.md)
 - [Componenti Table](./table-components.md)
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
-<<<<<<< HEAD
-=======
 # Componenti Form
 
->>>>>>> laraxot/dev
 - [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
 ## Collegamenti tra versioni di form-components.md
 * [form-components.md](../../../UI/project_docs/form-components.md)
@@ -483,11 +456,8 @@ use Filament\Forms\Form;
 use Filament\Forms\Components\Section;
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 
-<<<<<<< HEAD
-=======
 public function form(Form $form): Form
 
->>>>>>> laraxot/dev
 public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 {
     return $form->schema([
@@ -500,10 +470,6 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
                         $dates = [];
                         $date = now();
                         $count = 0;
-<<<<<<< HEAD
-                        
-=======
->>>>>>> laraxot/dev
                         while ($count < 30) {
                             if (!$date->isWeekend()) {
                                 $dates[] = $date->format('Y-m-d');
@@ -511,10 +477,6 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
                             }
                             $date->addDay();
                         }
-<<<<<<< HEAD
-                        
-=======
->>>>>>> laraxot/dev
                         return $dates;
                     })
                     ->calendarConfig([
@@ -631,18 +593,10 @@ class UserForm extends Component
 {
     public $name;
     public $email;
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
     protected $rules = [
         'name' => 'required|min:3',
         'email' => 'required|email',
     ];
-<<<<<<< HEAD
-    
-=======
->>>>>>> laraxot/dev
     public function save()
     {
         $this->validate();

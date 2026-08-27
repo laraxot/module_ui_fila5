@@ -5,12 +5,9 @@ tags: [volt]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "volt componenti volt"
-<<<<<<< HEAD
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 
->>>>>>> laraxot/dev
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
@@ -35,7 +32,7 @@ Nel progetto la regola di default per le componenti Volt interattive è la sinta
 - [Documentazione Volt](https://livewire.laravel.com/docs/volt)
 - [Livewire](https://livewire.laravel.com)
 - [Filament](https://filamentphp.com)
-- [Documentazione UI](../readme.md)
+- [Documentazione UI](../README.md)
 - [Best Practices](../best-practices.md)
 - [Layout](../layouts.md)
 - [Temi](../themes.md)

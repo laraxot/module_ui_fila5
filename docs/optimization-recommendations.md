@@ -149,10 +149,6 @@ class ComponentPerformanceMiddleware
                 'duration' => $duration . 'ms'
             ]);
         }
-<<<<<<< HEAD
-        
-=======
->>>>>>> laraxot/dev
         return $response;
     }
 }
