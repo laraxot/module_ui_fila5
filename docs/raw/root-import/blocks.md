@@ -5,9 +5,24 @@ tags: [blocks]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "blocks-1 blocks 1"
+<<<<<<< .merge_file_IMC57P
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 
+=======
+<<<<<<< .merge_file_Kn85Ii
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+
+=======
+<<<<<<< HEAD
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_bbL2DI
+>>>>>>> .merge_file_ksrnZM
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:

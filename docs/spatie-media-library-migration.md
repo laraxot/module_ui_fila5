@@ -1,5 +1,13 @@
 # Migrazione da FileUpload a Spatie Media Library
 
+<<<<<<< .merge_file_YklYAV
+=======
+<<<<<<< .merge_file_8rBVnD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_P0BlC8
+>>>>>>> .merge_file_9iXXLX
 ## 🌍 Analisi Multidimensionale della Migrazione
 
 ### **Filosofia & Spiritualità**
@@ -29,6 +37,13 @@
 ## 📊 Situazione Attuale (Analisi Completa)
 
 ### ✅ **Già Migrati a SpatieMediaLibraryFileUpload**
+<<<<<<< .merge_file_YklYAV
+=======
+<<<<<<< .merge_file_8rBVnD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_P0BlC8
+>>>>>>> .merge_file_9iXXLX
 ```php
 // User Profile
 SpatieMediaLibraryFileUpload::make('photo_profile')
@@ -198,12 +213,32 @@ class SpatieDocumentUpload
             ->maxSize(10240) // 10MB
             ->acceptedFileTypes(['image/jpeg', 'image/png', 'application/pdf']);
     }
+<<<<<<< .merge_file_MiR6G7
+=======
+<<<<<<< .merge_file_8rBVnD
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_P0BlC8
+>>>>>>> .merge_file_OF1QYG
     public static function forHealthCard(): SpatieMediaLibraryFileUpload
     {
         return static::make('health_card', 'tessere_sanitarie')
             ->imagePreviewHeight('150')
             ->maxSize(5120); // 5MB per documenti leggeri
     }
+<<<<<<< .merge_file_MiR6G7
+=======
+<<<<<<< .merge_file_8rBVnD
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_P0BlC8
+>>>>>>> .merge_file_OF1QYG
     public static function forCertifications(): SpatieMediaLibraryFileUpload
     {
         return static::make('certifications', 'certificazioni_professionali')
@@ -232,6 +267,16 @@ class SpatieImageUpload
             ->maxSize(2048) // 2MB
             ->singleFile();
     }
+<<<<<<< .merge_file_MiR6G7
+=======
+<<<<<<< .merge_file_8rBVnD
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_P0BlC8
+>>>>>>> .merge_file_OF1QYG
     public static function forBackground(string $collection = 'backgrounds'): SpatieMediaLibraryFileUpload
     {
         return SpatieMediaLibraryFileUpload::make('background')
@@ -296,6 +341,16 @@ public function up(): void
 {
     // Migrazione automatica dei file esistenti
     $patients = Patient::whereNotNull('health_card')->get();
+<<<<<<< .merge_file_MiR6G7
+=======
+<<<<<<< .merge_file_8rBVnD
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_P0BlC8
+>>>>>>> .merge_file_OF1QYG
     foreach($patients as $patient) {
         if($patient->health_card && Storage::exists($patient->health_card)) {
             $patient->addMediaFromUrl(Storage::url($patient->health_card))
@@ -339,18 +394,58 @@ public function registerMediaCollections(): void
         ->acceptsMimeTypes(['image/jpeg', 'image/png', 'application/pdf'])
         ->singleFile()
         ->useDisk('private');
+<<<<<<< .merge_file_MiR6G7
+=======
+<<<<<<< .merge_file_8rBVnD
+=======
+<<<<<<< HEAD
+        
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_P0BlC8
+>>>>>>> .merge_file_OF1QYG
     $this->addMediaCollection('documenti_identita')
         ->acceptsMimeTypes(['image/jpeg', 'image/png', 'application/pdf'])
         ->singleFile()
         ->useDisk('private');
+<<<<<<< .merge_file_MiR6G7
+=======
+<<<<<<< .merge_file_8rBVnD
+=======
+<<<<<<< HEAD
+        
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_P0BlC8
+>>>>>>> .merge_file_OF1QYG
     $this->addMediaCollection('certificazioni_isee')
         ->acceptsMimeTypes(['application/pdf'])
         ->singleFile()
         ->useDisk('private');
+<<<<<<< .merge_file_MiR6G7
+=======
+<<<<<<< .merge_file_8rBVnD
+=======
+<<<<<<< HEAD
+        
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_P0BlC8
+>>>>>>> .merge_file_OF1QYG
     $this->addMediaCollection('certificati_gravidanza')
         ->acceptsMimeTypes(['application/pdf'])
         ->singleFile()
         ->useDisk('private');
+<<<<<<< .merge_file_MiR6G7
+=======
+<<<<<<< .merge_file_8rBVnD
+=======
+<<<<<<< HEAD
+        
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_P0BlC8
+>>>>>>> .merge_file_OF1QYG
     // Certificazioni dottore (multiple)
     $this->addMediaCollection('certificazioni_professionali')
         ->acceptsMimeTypes(['application/pdf'])
@@ -364,6 +459,16 @@ public function registerMediaConversions(Media $media = null): void
         ->height(300)
         ->sharpen(10)
         ->performOnCollections('tessere_sanitarie', 'documenti_identita');
+<<<<<<< .merge_file_MiR6G7
+=======
+<<<<<<< .merge_file_8rBVnD
+=======
+<<<<<<< HEAD
+        
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_P0BlC8
+>>>>>>> .merge_file_OF1QYG
     $this->addMediaConversion('preview')
         ->width(600)
         ->height(400)
@@ -405,7 +510,18 @@ public function getCertificationsAttribute(): array
 <div class="grid grid-cols-2 gap-4">
     @if($patient->hasMedia('tessere_sanitarie'))
         <div class="document-preview">
+<<<<<<< .merge_file_MiR6G7
             <h4>{{ __('<nome progetto>::patients.health_card') }}</h4>
+=======
+<<<<<<< .merge_file_8rBVnD
+            <h4>{{ __('<nome progetto>::patients.health_card') }}</h4>
+=======
+<<<<<<< HEAD
+=======
+            <h4>{{ __('<nome progetto>::patients.health_card') }}</h4>
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_P0BlC8
+>>>>>>> .merge_file_OF1QYG
             <img src="{{ $patient->getFirstMediaUrl('tessere_sanitarie', 'thumbnail') }}"
                  alt="Tessera Sanitaria"
                  class="w-full h-32 object-cover rounded">
@@ -416,6 +532,16 @@ public function getCertificationsAttribute(): array
             </a>
         </div>
     @endif
+<<<<<<< .merge_file_MiR6G7
+=======
+<<<<<<< .merge_file_8rBVnD
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_P0BlC8
+>>>>>>> .merge_file_OF1QYG
     @if($patient->hasMedia('certificazioni_isee'))
         <div class="document-preview">
             <h4>{{ __('<nome progetto>::patients.isee_certificate') }}</h4>
@@ -503,12 +629,32 @@ public function scopeExpiredDocuments($query)
 public function downloadDocument(Media $media): Response
 {
     $this->authorize('download', $media);
+<<<<<<< .merge_file_MiR6G7
+=======
+<<<<<<< .merge_file_8rBVnD
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_P0BlC8
+>>>>>>> .merge_file_OF1QYG
     if($media->collection_name === 'tessere_sanitarie') {
         // Log accesso a documento sensibile
         activity()
             ->performedOn($media)
             ->log('downloaded_health_card');
     }
+<<<<<<< .merge_file_MiR6G7
+=======
+<<<<<<< .merge_file_8rBVnD
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_P0BlC8
+>>>>>>> .merge_file_OF1QYG
     return response()->download($media->getPath());
 }
 ```

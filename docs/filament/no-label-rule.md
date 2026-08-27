@@ -5,9 +5,24 @@ tags: [label, rule]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "no-label-rule regola critica: mai ->label() nei componenti filament ui"
+<<<<<<< .merge_file_GiiU06
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 
+=======
+<<<<<<< .merge_file_El6OO0
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+
+=======
+<<<<<<< HEAD
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SquiWX
+>>>>>>> .merge_file_WJ78yR
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:

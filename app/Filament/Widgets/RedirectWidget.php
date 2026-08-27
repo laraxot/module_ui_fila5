@@ -4,7 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Widgets;
 
+<<<<<<< .merge_file_s4XsMC
 use Filament\Schemas\Components\Component;
+=======
+<<<<<<< HEAD
+=======
+use Filament\Schemas\Components\Component;
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_MrZKB5
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 /**
@@ -64,7 +71,11 @@ final class RedirectWidget extends XotBaseSchemaWidget
      * Implementazione richiesta da XotBaseWidget.
      * Per questo widget non abbiamo form, quindi restituiamo array vuoto.
      *
+<<<<<<< HEAD
      * @return array<string, mixed>
+=======
+     * @return array<string, Component>
+>>>>>>> laraxot/dev
      */
     public function getFormSchema(): array
     {

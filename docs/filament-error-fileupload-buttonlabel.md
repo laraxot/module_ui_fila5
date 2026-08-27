@@ -57,8 +57,23 @@ Il metodo `buttonLabel()` **NON esiste** sul componente `Filament\Forms\Componen
 Questa doc va sempre consultata e linkata in ogni review e sviluppo che coinvolga FileUpload. Ogni modulo coinvolto deve avere un collegamento bidirezionale a questa doc.
 
 ## Collegamenti tra versioni di filament-error-fileupload-buttonlabel.md
+<<<<<<< .merge_file_5YPwey
+=======
+<<<<<<< .merge_file_4O0XhI
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_ylX5h4
+>>>>>>> .merge_file_9L9E1Z
 * [filament-error-fileupload-buttonlabel.md](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
 * [filament-error-fileupload-buttonlabel.md](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
 * [filament-error-fileupload-buttonlabel.md](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
 
+<<<<<<< .merge_file_5YPwey
+=======
+<<<<<<< .merge_file_4O0XhI
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ylX5h4
+>>>>>>> .merge_file_9L9E1Z
 * [filament-error-fileupload-buttonlabel.md](../../Patient/docs/filament-error-fileupload-buttonlabel.md)

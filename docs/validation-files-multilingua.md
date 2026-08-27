@@ -42,6 +42,16 @@ use Modules\Xot\Filament\Traits\TransTrait;
 class OpeningHoursRule implements ValidationRule
 {
     use TransTrait;
+<<<<<<< .merge_file_MJi0ZL
+=======
+<<<<<<< .merge_file_NYdmV1
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_4e3RTl
+>>>>>>> .merge_file_YIP51Z
     // Utilizzo nelle validazioni
     $fail(static::trans('validation.opening_hours.morning_before_afternoon', params: [
         'day' => $dayLabel

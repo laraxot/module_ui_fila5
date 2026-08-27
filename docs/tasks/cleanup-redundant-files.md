@@ -5,6 +5,14 @@ tags: [cleanup, redundant, files]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "cleanup-redundant-files task: cleanup redundant files (ui module)"
+<<<<<<< .merge_file_4pvulw
+=======
+<<<<<<< .merge_file_WBJavL
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_heiJsQ
+>>>>>>> .merge_file_zfQqsX
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
@@ -13,6 +21,13 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 
+<<<<<<< .merge_file_4pvulw
+=======
+<<<<<<< .merge_file_WBJavL
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_heiJsQ
+>>>>>>> .merge_file_zfQqsX
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:

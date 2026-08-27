@@ -28,6 +28,13 @@ class SelectState extends XotBaseSelect
                             if (! \is_array($statesRaw)) {
                                 $statesRaw = Arr::wrap($statesRaw);
                             }
+<<<<<<< .merge_file_6XXntv
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_tfEGEZ
                             /* @var array<int|string, mixed> $statesRaw */
                             return $this->combineStateOptions($statesRaw);
                         }

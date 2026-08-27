@@ -307,6 +307,17 @@ class StudioCardSelector extends Field
     protected bool $showSpecializations = false;
     protected bool $showPhone = false;
     protected string $cardLayout = 'default'; // 'default', 'compact', 'detailed'
+<<<<<<< .merge_file_WXYAfn
+=======
+<<<<<<< .merge_file_ng7eMR
+=======
+<<<<<<< HEAD
+    
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbtTuD
+>>>>>>> .merge_file_qby1FB
 
     // Configure studios data source
     public function studios(Collection|Closure $studios): static
@@ -314,6 +325,17 @@ class StudioCardSelector extends Field
         $this->studios = $studios;
         return $this;
     }
+<<<<<<< .merge_file_WXYAfn
+=======
+<<<<<<< .merge_file_ng7eMR
+=======
+<<<<<<< HEAD
+    
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbtTuD
+>>>>>>> .merge_file_qby1FB
 
     // Enable/disable features
     public function showDistance(bool $show = true): static
@@ -321,18 +343,51 @@ class StudioCardSelector extends Field
         $this->showDistance = $show;
         return $this;
     }
+<<<<<<< .merge_file_WXYAfn
+=======
+<<<<<<< .merge_file_ng7eMR
+=======
+<<<<<<< HEAD
+    
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbtTuD
+>>>>>>> .merge_file_qby1FB
 
     public function showSpecializations(bool $show = true): static
     {
         $this->showSpecializations = $show;
         return $this;
     }
+<<<<<<< .merge_file_WXYAfn
+=======
+<<<<<<< .merge_file_ng7eMR
+=======
+<<<<<<< HEAD
+    
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbtTuD
+>>>>>>> .merge_file_qby1FB
 
     public function showPhone(bool $show = true): static
     {
         $this->showPhone = $show;
         return $this;
     }
+<<<<<<< .merge_file_WXYAfn
+=======
+<<<<<<< .merge_file_ng7eMR
+=======
+<<<<<<< HEAD
+    
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbtTuD
+>>>>>>> .merge_file_qby1FB
 
     // Layout variants
     public function compact(): static
@@ -340,33 +395,99 @@ class StudioCardSelector extends Field
         $this->cardLayout = 'compact';
         return $this;
     }
+<<<<<<< .merge_file_WXYAfn
+=======
+<<<<<<< .merge_file_ng7eMR
+=======
+<<<<<<< HEAD
+    
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbtTuD
+>>>>>>> .merge_file_qby1FB
 
     public function detailed(): static
     {
         $this->cardLayout = 'detailed';
         return $this;
     }
+<<<<<<< .merge_file_WXYAfn
+=======
+<<<<<<< .merge_file_ng7eMR
+=======
+<<<<<<< HEAD
+    
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbtTuD
+>>>>>>> .merge_file_qby1FB
 
     // Data getters for view
     public function getStudios(): Collection
     {
         return $this->evaluate($this->studios) ?? collect();
     }
+<<<<<<< .merge_file_WXYAfn
+=======
+<<<<<<< .merge_file_ng7eMR
+=======
+<<<<<<< HEAD
+    
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbtTuD
+>>>>>>> .merge_file_qby1FB
 
     public function getCardLayout(): string
     {
         return $this->cardLayout;
     }
+<<<<<<< .merge_file_WXYAfn
+=======
+<<<<<<< .merge_file_ng7eMR
+=======
+<<<<<<< HEAD
+    
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbtTuD
+>>>>>>> .merge_file_qby1FB
 
     public function shouldShowDistance(): bool
     {
         return $this->showDistance;
     }
+<<<<<<< .merge_file_WXYAfn
+=======
+<<<<<<< .merge_file_ng7eMR
+=======
+<<<<<<< HEAD
+    
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbtTuD
+>>>>>>> .merge_file_qby1FB
 
     public function shouldShowSpecializations(): bool
     {
         return $this->showSpecializations;
     }
+<<<<<<< .merge_file_WXYAfn
+=======
+<<<<<<< .merge_file_ng7eMR
+=======
+<<<<<<< HEAD
+    
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbtTuD
+>>>>>>> .merge_file_qby1FB
 
     public function shouldShowPhone(): bool
     {

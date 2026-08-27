@@ -5,6 +5,14 @@ tags: [tasks, index]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "tasks-index indice task - modulo ui"
+<<<<<<< .merge_file_6uCvma
+=======
+<<<<<<< .merge_file_kZwjIV
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_yUYcm4
+>>>>>>> .merge_file_CRcHJx
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
@@ -13,6 +21,13 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 
+<<<<<<< .merge_file_6uCvma
+=======
+<<<<<<< .merge_file_kZwjIV
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_yUYcm4
+>>>>>>> .merge_file_CRcHJx
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:

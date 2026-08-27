@@ -165,11 +165,26 @@
 }
 ```
 
+<<<<<<< .merge_file_dLIjkt
+=======
+<<<<<<< .merge_file_mHmCZa
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_fcAqgN
+>>>>>>> .merge_file_V1Z52I
 ## Tasks Personalizzati
 
 ```json
 // tasks.json
 
+<<<<<<< .merge_file_dLIjkt
+=======
+<<<<<<< .merge_file_mHmCZa
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fcAqgN
+>>>>>>> .merge_file_V1Z52I
 ## Best Practices
 
 ### 1. Organizzazione Workspace
@@ -409,6 +424,14 @@
 ## Vedi Anche
 - [VSCode Documentation](https://code.visualstudio.com/docs)
 - [PHP Intelephense](https://intelephense.com)
+<<<<<<< .merge_file_dLIjkt
+=======
+<<<<<<< .merge_file_mHmCZa
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_fcAqgN
+>>>>>>> .merge_file_V1Z52I
 - [Filament Documentation](https://filamentphp.com/docs)
 # Configurazione VSCode per PHP e Filament
 ## Estensioni Essenziali
@@ -578,5 +601,12 @@
 - [PHP Intelephense](https://intelephense.com)
 
 ```
+<<<<<<< .merge_file_dLIjkt
+=======
+<<<<<<< .merge_file_mHmCZa
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fcAqgN
+>>>>>>> .merge_file_V1Z52I
 
 ```

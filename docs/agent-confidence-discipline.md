@@ -7,8 +7,21 @@ created: "2026-05-26"
 updated: "2026-05-26"
 related:
   - "../../Xot/docs/wiki/concepts/agent-confidence-discipline.md"
+<<<<<<< .merge_file_vv4Vxp
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/152"
 
+=======
+<<<<<<< .merge_file_ApxvNS
+issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/152"
+
+=======
+<<<<<<< HEAD
+=======
+issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/152"
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_yAMAyQ
+>>>>>>> .merge_file_xsmkO7
 issue: "https://github.com/provtv/<nome repository>/issues/152"
 ---
 

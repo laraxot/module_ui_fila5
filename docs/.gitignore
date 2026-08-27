@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 module: theme
 topic: .gitignore
@@ -5,6 +6,10 @@ canonical: ../../../Themes/docs/shared-components/.gitignore-Modules
 
 See canonical documentation: ../../../Themes/docs/shared-components/.gitignore-Modules
 agentdb.rvf
+<<<<<<< .merge_file_RF4m3b
+=======
+=======
+>>>>>>> .merge_file_KZfsbK
 # =============================================================================
 # LARAXOT MODULE: UI - .gitignore
 # =============================================================================
@@ -58,6 +63,10 @@ docs/phpstan/
 # -----------------------------------------------------------------------------
 agentdb.rvf
 
+<<<<<<< .merge_file_RF4m3b
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KZfsbK
 phpstan-corrections-gennaio-2025.md
 translations-update-january-2026.md
 git-push-recovery-2026-07-28.md
@@ -73,13 +82,22 @@ phpstan-fixes-january-2025.md
 notify-user-git-push-resolution-2026-07-28.md
 phpstan-fixes-gennaio-2025.md
 redundancy-audit-2026-05-21.md
+<<<<<<< HEAD
 # No numbered .md duplicates (rule: docs/wiki/rules/no-numbered-filenames.md)
+<<<<<<< .merge_file_RF4m3b
 
 # No numbered Markdown duplicates
+=======
+=======
+
+# No numbered Markdown duplicates
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KZfsbK
 *-[0-9].md
 *-[0-9][0-9].md
 *_[0-9].md
 *_[0-9][0-9].md
+<<<<<<< HEAD
 # =============================================================================
 # LARAXOT MODULE: UI - .gitignore
 # -----------------------------------------------------------------------------
@@ -141,6 +159,10 @@ public/mix-manifest.json
 config/local.php
 config/development.php
 # IDE
+<<<<<<< .merge_file_RF4m3b
+=======
+=======
+>>>>>>> .merge_file_KZfsbK
 
 
 # -----------------------------------------------------------------------------
@@ -202,16 +224,25 @@ config/development.php
 # -----------------------------------------------------------------------------
 # IDE / editors
 # -----------------------------------------------------------------------------
+<<<<<<< .merge_file_RF4m3b
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KZfsbK
 .idea/
 .vscode/
 .cursor/
 .windsurf/
+<<<<<<< HEAD
 .phpintel
 .phpstorm.meta.php
 /.vagrant
 # Cache
 .php-cs-fixer.cache
 .phpunit.result.cache
+<<<<<<< .merge_file_RF4m3b
+=======
+=======
+>>>>>>> .merge_file_KZfsbK
 
 .phpintel
 .phpstorm.meta.php
@@ -224,6 +255,10 @@ config/development.php
 .php-cs-fixer.cache
 .phpunit.result.cache
 
+<<<<<<< .merge_file_RF4m3b
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KZfsbK
 *.cache
 *.lock
 *.tmp
@@ -232,6 +267,7 @@ config/development.php
 *.swp
 *.swo
 *.stackdump
+<<<<<<< HEAD
 v8-compile-cache-*
 # Logs
 *.log
@@ -244,6 +280,10 @@ lerna-debug.log*
 .git-blame-ignore-revs
 *.orig
 *.rej
+<<<<<<< .merge_file_RF4m3b
+=======
+=======
+>>>>>>> .merge_file_KZfsbK
 
 v8-compile-cache-*
 
@@ -270,15 +310,21 @@ lerna-debug.log*
 *.orig
 *.rej
 
+<<<<<<< .merge_file_RF4m3b
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KZfsbK
 *~HEAD
 *~BASE
 *~LOCAL
 *~REMOTE
 *~head
+<<<<<<< HEAD
 # Backup files
 *.old
 *.old1
 *.old2
+=======
 
 
 # -----------------------------------------------------------------------------
@@ -288,16 +334,30 @@ lerna-debug.log*
 *.old1
 *.old2
 
+<<<<<<< .merge_file_RF4m3b
+
+# -----------------------------------------------------------------------------
+# Backup files
+# -----------------------------------------------------------------------------
+*.old
+*.old1
+*.old2
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KZfsbK
 *.backup
 *.backup.*
 *.backup-*
 *.backup_*
+<<<<<<< HEAD
 *.bak
 *.new
 # Legacy
 resources/views/Components_old/
 resources/lang/
 lang/lang/
+=======
 
 *.bak
 *.new
@@ -310,23 +370,55 @@ resources/views/Components_old/
 resources/lang/
 lang/lang/
 
+<<<<<<< .merge_file_RF4m3b
+*.bak
+*.new
+
+
+# -----------------------------------------------------------------------------
+# Legacy
+# -----------------------------------------------------------------------------
+resources/views/Components_old/
+resources/lang/
+lang/lang/
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KZfsbK
 database_old/
 database/Migrations_old/
 database/Seeders_old/
 database/Factories_old/
+<<<<<<< .merge_file_RF4m3b
 
 
 # -----------------------------------------------------------------------------
 # UI module
 # -----------------------------------------------------------------------------
+=======
+<<<<<<< HEAD
+# UI module
+=======
+
+
+# -----------------------------------------------------------------------------
+# UI module
+# -----------------------------------------------------------------------------
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KZfsbK
 *.fila2
 *.psd
 *.fig
 *.sketch
+<<<<<<< HEAD
 design_notes.txt
 laravel
 public_html
 # System files
+<<<<<<< .merge_file_RF4m3b
+=======
+=======
+>>>>>>> .merge_file_KZfsbK
 
 design_notes.txt
 
@@ -337,11 +429,16 @@ public_html/
 # -----------------------------------------------------------------------------
 # System files
 # -----------------------------------------------------------------------------
+<<<<<<< .merge_file_RF4m3b
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KZfsbK
 .DS_Store
 .DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
+<<<<<<< HEAD
 Thumbs.db
 ehthumbs.db
 *:Zone.Identifier
@@ -349,6 +446,10 @@ ehthumbs.db
 phpstan*
 phpmd*
 rector.php
+<<<<<<< .merge_file_RF4m3b
+=======
+=======
+>>>>>>> .merge_file_KZfsbK
 
 Thumbs.db
 ehthumbs.db
@@ -362,3 +463,10 @@ ehthumbs.db
 phpstan*
 phpmd*
 rector.php
+<<<<<<< .merge_file_RF4m3b
+=======
+<<<<<<< .merge_file_qDuxwO
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jF9fVN
+>>>>>>> .merge_file_KZfsbK
