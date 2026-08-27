@@ -296,7 +296,10 @@ class UIServiceProvider extends XotBaseServiceProvider
       // Logica dell'azione
   };
   ?>
+<<<<<<< HEAD
   
+=======
+>>>>>>> laraxot/dev
   <div>
       <!-- Template del componente -->
   </div>
@@ -322,7 +325,10 @@ class UIServiceProvider extends XotBaseServiceProvider
       'property' => null,
   ]);
   ?>
+<<<<<<< HEAD
   
+=======
+>>>>>>> laraxot/dev
   <x-layouts.main>
       <!-- Contenuto della pagina -->
   </x-layouts.main>

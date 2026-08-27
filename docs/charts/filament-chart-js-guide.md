@@ -14,7 +14,10 @@ related:
   - "./server-side-actions.md"
   - "./shared-hosting-strategy.md"
 ---
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 # Filament Chart.js Guide
 
 > **Why this guide?**: To standardize how we use Chart.js in Filament, especially regarding advanced features like plugins (Zoom, Annotations) which are not enabled by default.

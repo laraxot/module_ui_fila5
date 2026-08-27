@@ -41,6 +41,10 @@
     }
   },
   "require": {
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
     "owenvoke/blade-fontawesome": "*",
     "blade-ui-kit/blade-heroicons": "^2.6"
   },

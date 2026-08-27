@@ -17,7 +17,10 @@ related:
   - "./02-next.md"
   - "./03-later.md"
 ---
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 # Sistema di Theming
 
 ## 📊 Stato Implementazione
@@ -66,7 +69,10 @@ class ThemeRegistry
     {
         $this->themes[$theme->getName()] = $theme;
     }
+<<<<<<< HEAD
     
+=======
+>>>>>>> laraxot/dev
     public function override(string $tenant, array $config): void
     {
         $this->overrides[$tenant] = $config;
@@ -83,12 +89,18 @@ class Theme
         protected array $config,
         protected ?string $parent = null
     ) {}
+<<<<<<< HEAD
     
+=======
+>>>>>>> laraxot/dev
     public function resolve(string $path, $default = null)
     {
         return Arr::get($this->config, $path, $default);
     }
+<<<<<<< HEAD
     
+=======
+>>>>>>> laraxot/dev
     public function extend(array $overrides): self
     {
         return new self(

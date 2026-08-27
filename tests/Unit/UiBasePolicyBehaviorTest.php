@@ -5,7 +5,11 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit;
 
 use Mockery;
+<<<<<<< HEAD
 use Modules\UI\Tests\Fixtures\UiBasePolicyBehaviorConcretePolicy;
+=======
+use Modules\UI\Models\Policies\UiBasePolicy;
+>>>>>>> laraxot/dev
 use Modules\UI\Tests\TestCase;
 use Modules\Xot\Contracts\UserContract;
 use PHPUnit\Framework\Assert;
@@ -42,3 +46,8 @@ test('UiBasePolicy before concede super-admin e ritorna null altrimenti', functi
     Assert::assertTrue($policy->before($super, 'viewAny'));
     Assert::assertNull($policy->before(uiBehaviorUser(), 'viewAny'));
 });
+<<<<<<< HEAD
+=======
+
+final class UiBasePolicyBehaviorConcretePolicy extends UiBasePolicy {}
+>>>>>>> laraxot/dev

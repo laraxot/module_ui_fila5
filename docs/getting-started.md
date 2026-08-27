@@ -69,7 +69,10 @@ Now that you’ve edited your configuration variables and know how to customize 
 
 ```bash
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 # build static files with Jigsaw
 ./vendor/bin/jigsaw build
 
