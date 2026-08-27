@@ -128,7 +128,7 @@ describe('UI highest-miss coverage', function (): void {
         $calendar = new UserCalendarWidget();
         $calendar->type = 'master_admin';
         Assert::assertSame([], $calendar->fetchEvents(['start' => now()->toIso8601String()]));
-        Assert::assertNotEmpty($calendar->getFormSchema()); // @phpstan-ignore method.deprecated (hook di progetto: la deprecazione e ereditata per nome dal prototipo Filament 5, il codice eseguito e il nostro — story 16.12)
+        Assert::assertNotEmpty($calendar->getFormSchema());
 
         $chart = new \Modules\UI\Filament\Widgets\TestChartWidget();
         Assert::assertNotSame('', $chart->getDescription());
