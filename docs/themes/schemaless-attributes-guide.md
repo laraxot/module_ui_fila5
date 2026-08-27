@@ -5,24 +5,9 @@ tags: [schemaless, attributes, guide]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "schemaless-attributes-guide schemaless attributes guide for ui themes"
-<<<<<<< .merge_file_zzF3Va
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 
-=======
-<<<<<<< .merge_file_U8zz2O
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-
-=======
-<<<<<<< HEAD
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-
->>>>>>> laraxot/dev
->>>>>>> .merge_file_FtZ9vu
->>>>>>> .merge_file_SCwRsF
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:

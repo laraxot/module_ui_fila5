@@ -67,16 +67,6 @@ protected function getInfolistSchema(): array
                             ,
                     ]),
             ]),
-<<<<<<< .merge_file_73WmyG
-=======
-<<<<<<< .merge_file_9fvA0z
-=======
-<<<<<<< HEAD
-        
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_TRZj9W
->>>>>>> .merge_file_4KkeAQ
         'dettagli_account' => Section::make('Dettagli Account')
             ->schema([
                 // Altri componenti...

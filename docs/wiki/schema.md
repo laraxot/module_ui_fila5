@@ -19,21 +19,8 @@ docs/
 ├── wiki/
 │   ├── index.md           # Catalogo
 │   ├── log.md             # Registro
-<<<<<<< .merge_file_8iG8r2
 │   ├── SCHEMA.md          # Questo file
 
-=======
-<<<<<<< .merge_file_OnoyFK
-│   ├── SCHEMA.md          # Questo file
-
-=======
-<<<<<<< HEAD
-=======
-│   ├── SCHEMA.md          # Questo file
-
->>>>>>> laraxot/dev
->>>>>>> .merge_file_UutJKS
->>>>>>> .merge_file_GLt8pR
 │   ├── schema.md          # Questo file
 │   ├── concepts/          # Pattern, architettura
 │   ├── entities/          # Modelli, azioni

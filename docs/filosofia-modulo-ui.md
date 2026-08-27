@@ -81,25 +81,6 @@ Questo è intenzionale: UI è un **consumer** di Xot, non un base layer.
 Ogni componente è progettato per essere riutilizzato in più moduli senza duplicazione:
 
 ```php
-<<<<<<< .merge_file_MVxiks
-=======
-<<<<<<< .merge_file_BDuFld
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_ehhUPE
->>>>>>> .merge_file_EUh4k1
-// InlineDatePicker - Usato in modulo operativo, Employee, Cms
-// LocationSelector - Usato in modulo operativo, Employee, Geo
-// InlineDatePicker - Usato in modulo operativo, Employee, Cms
-// LocationSelector - Usato in modulo operativo, Employee, Geo
-<<<<<<< .merge_file_MVxiks
-=======
-<<<<<<< .merge_file_BDuFld
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_ehhUPE
->>>>>>> .merge_file_EUh4k1
 // IconStateColumn - Usato in tutti i moduli con Spatie ModelStates
 // RadioCollection - Usato per selezioni complesse multimodulo
 ```
