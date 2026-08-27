@@ -11,7 +11,10 @@ related:
   - "./index.md"
   - "./log.md"
 ---
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 # UI {{TYPE^}} LLM Wiki Agent Instructions
 
 > **Module/Theme:** UI
@@ -150,5 +153,10 @@ Related:
 ## Related Documentation
 
 - [Project Wiki Integration](../../docs/wiki/README.md)
+<<<<<<< HEAD
+=======
+- [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
+
+>>>>>>> laraxot/dev
 - [Project Wiki Agent Instructions](../../docs/wiki/agents.md)
 - [Module Documentation](../README.md)

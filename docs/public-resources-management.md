@@ -18,12 +18,15 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 ```
 [project-root]/
 [project-root]/
+<<<<<<< HEAD
 
 
 
 
 
 
+=======
+>>>>>>> laraxot/dev
 ├── public_html/           # Directory pubblica principale
 │   ├── images/            # Immagini pubbliche
 │   ├── css/               # File CSS

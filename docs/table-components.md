@@ -94,7 +94,10 @@ class UserTable extends Component
     public $sortDirection = 'asc';
     public $search = '';
     public $perPage = 10;
+<<<<<<< HEAD
     
+=======
+>>>>>>> laraxot/dev
     public function sortBy($field)
     {
         if ($this->sortField === $field) {
@@ -104,7 +107,10 @@ class UserTable extends Component
             $this->sortDirection = 'asc';
         }
     }
+<<<<<<< HEAD
     
+=======
+>>>>>>> laraxot/dev
     public function render()
     {
         $users = User::query()
@@ -114,7 +120,10 @@ class UserTable extends Component
             })
             ->orderBy($this->sortField, $this->sortDirection)
             ->paginate($this->perPage);
+<<<<<<< HEAD
             
+=======
+>>>>>>> laraxot/dev
         return view('livewire.user-table', compact('users'));
     }
 }

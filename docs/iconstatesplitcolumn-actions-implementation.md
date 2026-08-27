@@ -121,7 +121,10 @@ public function transitionState($recordId, $stateClass): void
     // Logica per la transizione di stato
     $record = $this->modelClass::find($recordId);
     $record->state->transitionTo($stateClass);
+<<<<<<< HEAD
     
+=======
+>>>>>>> laraxot/dev
     \Filament\Notifications\Notification::make()
         ->title('Transizione Completata')
         ->success()

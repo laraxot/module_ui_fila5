@@ -19,7 +19,10 @@ use Modules\Xot\Filament\Traits\TransTrait;
 enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
+<<<<<<< HEAD
     
+=======
+>>>>>>> laraxot/dev
     case LIST = 'list';
     case GRID = 'grid';
 
@@ -136,7 +139,10 @@ use Modules\Xot\Filament\Traits\TransTrait;
 enum MyEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
+<<<<<<< HEAD
     
+=======
+>>>>>>> laraxot/dev
     case VALUE1 = 'value1';
     case VALUE2 = 'value2';
 }
