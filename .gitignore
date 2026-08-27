@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Auto-generated forbidden paths — do not edit manually
 # Reason: root cleanup policy (see docs/wiki/rules/root-cleanup-policy.md)
 
@@ -152,58 +151,12 @@ docs/legacy/**
 docs/workbench/
 docs/scripts/
 docs/bashscripts/
-=======
-# =============================================================================
-# LARAXOT MODULE: UI - .gitignore
-# =============================================================================
-#
-# Canonical rules:
-# - docs/wiki/rules/root-cleanup-policy.md
-# - docs/wiki/rules/module-theme-root-cleanup.md
-#
-
-
-# -----------------------------------------------------------------------------
-# Forbidden root directories / AI tooling
-# -----------------------------------------------------------------------------
-/bashscripts/
-/_bmad/
-/_bmad-output/
-/_docs/
-/.circleci/
-/.claude-audit/
-/.devcontainer/
-/.kilocode/
-/.kiro/
-/.ralph/
-/scripts/
-/test-results/
-/workbench/
-/legacy/
-
-/.ai*
-tests/.claude-audit/
-tests/AuditCoverage/
-
-
-# -----------------------------------------------------------------------------
-# Documentation cleanup
-# -----------------------------------------------------------------------------
-docs/archive/
-docs/archived/
-docs/legacy/
-docs/workbench/
-docs/scripts/
-docs/bashscripts/
-
->>>>>>> laraxot/dev
 docs/**/archive/
 docs/**/archived/
 docs/**/legacy/
 docs/**/workbench/
 docs/**/scripts/
 docs/**/bashscripts/
-<<<<<<< HEAD
 # PROJECT-SPECIFIC
 # END OF UI .GITIGNORE
 _docs/
@@ -363,22 +316,6 @@ yarn.lock
 phpmd*
 # -----------------------------------------------------------------------------
 # Dependencies
-=======
-
-docs/cache/
-docs/phpstan/
-
-# Numbered markdown duplicates
-docs/**/*-[0-9].md
-docs/**/*-[0-9][0-9].md
-docs/**/*_[0-9].md
-docs/**/*_[0-9][0-9].md
-
-
-# -----------------------------------------------------------------------------
-# Dependencies
-# -----------------------------------------------------------------------------
->>>>>>> laraxot/dev
 /vendor/
 /node_modules/
 /docs/vendor/
@@ -386,7 +323,6 @@ docs/**/*_[0-9][0-9].md
 composer.lock
 package-lock.json
 yarn.lock
-<<<<<<< HEAD
 # Build artifacts
 /build/
 /dist/
@@ -397,41 +333,11 @@ public/css/compiled/
 public/js/compiled/
 public/mix-manifest.json
 # Laravel
-=======
-
-
-# -----------------------------------------------------------------------------
-# Python / virtual environments
-# -----------------------------------------------------------------------------
-.venv/
-venv/
-__pycache__/
-*.py[cod]
-
-
-# -----------------------------------------------------------------------------
-# Build / compiled artifacts
-# -----------------------------------------------------------------------------
-/build/
-/dist/
-
-cache/
-
-public/css/compiled/
-public/js/compiled/
-public/mix-manifest.json
-
-
-# -----------------------------------------------------------------------------
-# Laravel runtime
-# -----------------------------------------------------------------------------
->>>>>>> laraxot/dev
 /storage/*.key
 /public/storage
 /public/hot
 /public_html/storage
 /public_html/hot
-<<<<<<< HEAD
 # Environment
 .env
 .env.*
@@ -449,43 +355,6 @@ config/development.php
 # Cache
 .php-cs-fixer.cache
 .phpunit.result.cache
-=======
-
-
-# -----------------------------------------------------------------------------
-# Environment / local configuration
-# -----------------------------------------------------------------------------
-.env
-.env.*
-!.env.example
-
-config/local.php
-config/development.php
-
-Homestead.yaml
-Homestead.json
-
-
-# -----------------------------------------------------------------------------
-# IDE / editor
-# -----------------------------------------------------------------------------
-/.idea/
-/.vscode/
-/.cursor/
-/.windsurf/
-/.vagrant/
-
-.phpintel
-.phpstorm.meta.php
-
-
-# -----------------------------------------------------------------------------
-# Cache / temporary files
-# -----------------------------------------------------------------------------
-.php-cs-fixer.cache
-.phpunit.result.cache
-
->>>>>>> laraxot/dev
 *.cache
 *.lock
 *.tmp
@@ -494,7 +363,6 @@ Homestead.json
 *.swp
 *.swo
 *.stackdump
-<<<<<<< HEAD
 v8-compile-cache-*
 # Logs
 *.log
@@ -507,85 +375,29 @@ lerna-debug.log*
 .git-blame-ignore-revs
 *.orig
 *.rej
-=======
-
-v8-compile-cache-*
-
-
-# -----------------------------------------------------------------------------
-# Logs
-# -----------------------------------------------------------------------------
-*.log
-error_log
-
-npm-debug.log*
-yarn-error.log*
-lerna-debug.log*
-
-
-# -----------------------------------------------------------------------------
-# Git / merge / rebase leftovers
-# -----------------------------------------------------------------------------
-.git-rewrite/
-.git-blame-ignore-revs
-
-.merge_file_*
-
-*.orig
-*.rej
-
->>>>>>> laraxot/dev
 *~HEAD
 *~BASE
 *~LOCAL
 *~REMOTE
 *~head
-<<<<<<< HEAD
 # Backup files
 *.old
 *.old1
 *.old2
-=======
-
-
-# -----------------------------------------------------------------------------
-# Backup / old files
-# -----------------------------------------------------------------------------
-*.old
-*.old1
-*.old2
-
->>>>>>> laraxot/dev
 *.backup
 *.backup.*
 *.backup-*
 *.backup_*
-<<<<<<< HEAD
 *.bak
 *.new
 # Legacy
 resources/views/Components_old/
 resources/lang/
 lang/lang/
-=======
-
-*.bak
-*.new
-
-
-# -----------------------------------------------------------------------------
-# Legacy directories
-# -----------------------------------------------------------------------------
-resources/views/Components_old/
-resources/lang/
-lang/lang/
-
->>>>>>> laraxot/dev
 database_old/
 database/Migrations_old/
 database/Seeders_old/
 database/Factories_old/
-<<<<<<< HEAD
 # UI module
 *.fila2
 *.psd
@@ -595,34 +407,11 @@ design_notes.txt
 laravel
 public_html
 # System files
-=======
-
-
-# -----------------------------------------------------------------------------
-# UI module specific
-# -----------------------------------------------------------------------------
-*.fila2
-
-*.psd
-*.fig
-*.sketch
-
-design_notes.txt
-
-/laravel/
-/public_html/
-
-
-# -----------------------------------------------------------------------------
-# System files
-# -----------------------------------------------------------------------------
->>>>>>> laraxot/dev
 .DS_Store
 .DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
-<<<<<<< HEAD
 Thumbs.db
 ehthumbs.db
 agentdb.rvf
@@ -632,22 +421,3 @@ phpstan*
 phpmd*
 rector.php
 *.old
-=======
-
-Thumbs.db
-ehthumbs.db
-
-*:Zone.Identifier
-
-agentdb.rvf
-
-
-# -----------------------------------------------------------------------------
-# Root quality tools
-# -----------------------------------------------------------------------------
-phpstan*
-phpmd*
-rector.php
-phpmd.ruleset.xml
-phpmd.ruleset.xml.bak
->>>>>>> laraxot/dev
