@@ -7,14 +7,9 @@ issues:
   - https://github.com/provtv/module_ui_fila5/issues
 discussions:
   - https://github.com/laraxot/<nome repitory>/discussions/273
-<<<<<<< .merge_file_1c1ORl
-=======
-=======
   - https://github.com/laraxot/base_fixcity_fila5/discussions/273
 
 - https://github.com/laraxot/<nome repitory>/discussions/273
->>>>>>> laraxot/dev
->>>>>>> .merge_file_LRwuX9
   - https://github.com/laraxot/platform/discussions/273
 ---
 
@@ -36,24 +31,15 @@ Stub **puntatore**: disciplina globale nella wiki di progetto; qui solo lezioni 
 | Problema | Perché | Fix |
 |----------|--------|-----|
 | Bootstrap `unexpected <<` | Marker merge in PHP UI | Studiare `git show` e riscrivere (no restore) |
-<<<<<<< .merge_file_A68xH7
 | Adapter Map/Location in UI | Dominio geografico, non design system | Eliminare; in `base_ptvx_fila5` Geo non c’è |
 | `phpstan.path` su `Services/Map/Null*` | File rimossi; cache stale | Wipe cache swarm; non ricreare Map in UI |
 | Push unpack / GH008 LFS | thin pack + OID LFS assenti su un org | `--no-thin`; `lfs fetch --all` da sibling sano |
-=======
-<<<<<<< .merge_file_1c1ORl
 | Adapter Map/Location in UI | Dominio geografico, non design system | Eliminare; in `base_ptvx_fila5` Geo non c’è |
 | `phpstan.path` su `Services/Map/Null*` | File rimossi; cache stale | Wipe cache swarm; non ricreare Map in UI |
 | Push unpack / GH008 LFS | thin pack + OID LFS assenti su un org | `--no-thin`; `lfs fetch --all` da sibling sano |
-=======
-<<<<<<< HEAD
-=======
 | Adapter Map/Location in UI | Dominio geografico, non design system | Eliminare; in `base_ptvx_fila5` Geo non c’è |
 | `phpstan.path` su `Services/Map/Null*` | File rimossi; cache stale | Wipe cache swarm; non ricreare Map in UI |
 | Push unpack / GH008 LFS | thin pack + OID LFS assenti su un org | `--no-thin`; `lfs fetch --all` da sibling sano |
->>>>>>> laraxot/dev
->>>>>>> .merge_file_LRwuX9
->>>>>>> .merge_file_VyHKY2
 | Adapter Map/Location in UI | Dominio geografico, non design system | Eliminare; in `<nome repository>` Geo non c’è |
 | `phpstan.path` su `Services/Map/Null*` | File rimossi; cache stale | Wipe cache swarm; non ricreare Map in UI |
 | Push unpack / GH008 LFS | thin pack + OID LFS assenti su un org | `--no-thin`; `lfs fetch --all` da sibling sano |

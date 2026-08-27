@@ -67,21 +67,8 @@ Questo sostituisce la precedente nota speculativa con una configurazione effetti
 qmd query "$1" -c wiki --limit 3 > compressed_result.md
 
 # Estrai keyword principali
-<<<<<<< .merge_file_VzDAaG
 qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
 
-=======
-<<<<<<< .merge_file_qcv24t
-qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
-
-=======
-<<<<<<< HEAD
-=======
-qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
-
->>>>>>> laraxot/dev
->>>>>>> .merge_file_lUsuHN
->>>>>>> .merge_file_nNw7yZ
 qmd search "$1" -c <nome progetto>-docs | head -5 > keywords.txt
 qmd search "$1" -c project-docs | head -5 > keywords.txt
 

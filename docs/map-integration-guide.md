@@ -9,21 +9,12 @@
 
 ## 🎯 PANORAMICA
 
-<<<<<<< .merge_file_ebeYLa
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
 
-=======
-<<<<<<< .merge_file_k9ueD8
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
 
-=======
-<<<<<<< HEAD
-=======
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
 
->>>>>>> laraxot/dev
->>>>>>> .merge_file_n2UzgB
->>>>>>> .merge_file_7LgUTl
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione <nome progetto>.
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione progetto corrente.
 
@@ -445,17 +436,11 @@ class MapService
                     'description' => $ticket->description,
                     'status' => $ticket->status->slug,
                     'priority' => $ticket->priority->slug,
-<<<<<<< .merge_file_k9ueD8
                     'url' => route('<nome progetto>.tickets.show', $ticket)
-=======
-<<<<<<< HEAD
                     'url' => route('<nome progetto>.tickets.show', $ticket)
-=======
                     'url' => route('fixcity.tickets.show', $ticket)
 
 'url' => route('<nome progetto>.tickets.show', $ticket)
->>>>>>> laraxot/dev
->>>>>>> .merge_file_n2UzgB
                     'url' => route('tickets.show', $ticket)
                 ];
             })
@@ -537,14 +522,9 @@ class GeocodingService
         </div>
         <div class="col-md-4">
             <livewire:<nome progetto>::components.ticket-stats />
-<<<<<<< .merge_file_k9ueD8
-=======
-=======
             <livewire:fixcity::components.ticket-stats />
 
 <livewire:<nome progetto>::components.ticket-stats />
->>>>>>> laraxot/dev
->>>>>>> .merge_file_n2UzgB
             <livewire:project::components.ticket-stats />
         </div>
     </div>
@@ -599,21 +579,12 @@ class GeocodingService
 - [ ] GeocodingService implementation
 
 ### 📅 Fase 3: Integrazione (Settimana 3)
-<<<<<<< .merge_file_ebeYLa
 - [ ] Integrazione con modulo Fixcity
 
-=======
-<<<<<<< .merge_file_k9ueD8
 - [ ] Integrazione con modulo Fixcity
 
-=======
-<<<<<<< HEAD
-=======
 - [ ] Integrazione con modulo Fixcity
 
->>>>>>> laraxot/dev
->>>>>>> .merge_file_n2UzgB
->>>>>>> .merge_file_7LgUTl
 - [ ] Integrazione con modulo <nome progetto>
 - [ ] Integrazione con modulo progetto corrente
 - [ ] Integrazione con modulo User

@@ -1,10 +1,5 @@
 # List Records in Filament
 
-<<<<<<< .merge_file_RKjZ0Q
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_L1dcEv
 ## Estensione Corretta
 
 ```php
@@ -17,10 +12,6 @@ class ListMyRecords extends ListRecords
 }
 
 // ✅ CORRETTO: Estendere XotBaseListRecords
-<<<<<<< .merge_file_RKjZ0Q
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_L1dcEv
 ## Perché
 
 Le pagine lista delle Resource non estendono `Filament\Resources\Pages\ListRecords`.
@@ -38,17 +29,9 @@ class ListMyRecords extends XotBaseListRecords
     public function getListTableColumns(): array
     {
         return [
-<<<<<<< .merge_file_RKjZ0Q
-            // colonne
-=======
-<<<<<<< HEAD
-            // colonne
-=======
             // definizione colonne
 
 // colonne
->>>>>>> laraxot/dev
->>>>>>> .merge_file_L1dcEv
         ];
     }
 }
@@ -56,11 +39,6 @@ class ListMyRecords extends XotBaseListRecords
 
 ## Metodi obbligatori
 
-<<<<<<< .merge_file_RKjZ0Q
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_L1dcEv
 ## Metodi Obbligatori
 
 Quando si estende `XotBaseListRecords`:
@@ -115,7 +93,6 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
     }
 ## Metodi obbligatori
 
->>>>>>> laraxot/dev
 Quando si estende `XotBaseListRecords`:
 
 1. `getListTableColumns()` — colonne
@@ -142,11 +119,6 @@ class ListMyRecords extends XotBaseListRecords
     public function getListTableColumns(): array
     {
         return [
-<<<<<<< .merge_file_RKjZ0Q
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_L1dcEv
         ];
     }
 
@@ -197,10 +169,6 @@ class ListMyRecords extends XotBaseListRecords
             );
     }
 }
-<<<<<<< .merge_file_RKjZ0Q
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_L1dcEv
             TextColumn::make('id')->sortable(),
             TextColumn::make('name')->searchable(),
         ];
@@ -224,10 +192,6 @@ class ListMyRecords extends XotBaseListRecords
 ```
 
 Traduzioni con `static::trans()`, permessi con `can()` nel `mount()`.
-<<<<<<< .merge_file_dC5od6
-=======
-<<<<<<< .merge_file_RKjZ0Q
->>>>>>> .merge_file_wPqZHZ
 
 
 ---
@@ -460,8 +424,3 @@ class ListXXX extends XotBaseListRecords
     }
 }
 ```
-<<<<<<< .merge_file_dC5od6
-=======
-=======
->>>>>>> .merge_file_L1dcEv
->>>>>>> .merge_file_wPqZHZ

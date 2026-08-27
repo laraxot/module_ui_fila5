@@ -15,16 +15,6 @@ related:
   - "./performance.md"
   - "./ui-standards.md"
 ---
-<<<<<<< .merge_file_HCJDq3
-=======
-<<<<<<< .merge_file_8lDKjT
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_beTHPh
->>>>>>> .merge_file_Ip44Pb
 # Standard Form nei Temi
 
 ## Principi Generali
