@@ -13,6 +13,10 @@ use Modules\UI\Enums\TableLayout;
 use Modules\UI\Enums\TableLayoutEnum;
 use Modules\UI\Filament\Actions\Header\TableLayoutToggleHeaderAction;
 use Modules\UI\Filament\Actions\Table\TableLayoutToggleTableAction;
+use Modules\UI\Filament\Blocks\Contact;
+use Modules\UI\Filament\Blocks\ImagesGallery;
+use Modules\UI\Filament\Blocks\Post;
+use Modules\UI\Filament\Components\SpatieDocumentUpload;
 use Modules\UI\Filament\Forms\Components\AddressField;
 use Modules\UI\Filament\Forms\Components\IconPicker;
 use Modules\UI\Filament\Forms\Components\OpeningHoursField;
@@ -26,7 +30,9 @@ use Modules\UI\Filament\Tables\Columns\IconStateGroupColumn;
 use Modules\UI\Filament\Tables\Columns\IconStateSplitColumn;
 use Modules\UI\Filament\Tables\Columns\IDColumn;
 use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
+use Modules\UI\Filament\Widgets\TestChartWidget;
 use Modules\UI\Filament\Widgets\UserCalendarWidget;
+use Modules\UI\Forms\Components\RadioCardSelector;
 use Modules\UI\Http\Controllers\LanguageController;
 use Modules\UI\Http\Middleware\SetLocale;
 use Modules\UI\Models\Category;
@@ -70,12 +76,12 @@ describe('UI highest-miss coverage', function (): void {
                 continue;
             }
             Assert::assertInstanceOf(BuilderBlock::class, $class::make());
-            ++$count;
+            $count++;
         }
         Assert::assertGreaterThan(10, $count);
-        Assert::assertArrayHasKey('4-3', \Modules\UI\Filament\Blocks\ImagesGallery::getRatios());
-        Assert::assertSame('aspect-[4/3]', \Modules\UI\Filament\Blocks\ImagesGallery::getRatioClass('4-3'));
-        Assert::assertSame('', \Modules\UI\Filament\Blocks\ImagesGallery::getRatioClass('free'));
+        Assert::assertArrayHasKey('4-3', ImagesGallery::getRatios());
+        Assert::assertSame('aspect-[4/3]', ImagesGallery::getRatioClass('4-3'));
+        Assert::assertSame('', ImagesGallery::getRatioClass('free'));
     });
 
     test('form components instantiate and RadioBadge resolves enums', function (): void {
@@ -128,17 +134,9 @@ describe('UI highest-miss coverage', function (): void {
         $calendar = new UserCalendarWidget();
         $calendar->type = 'master_admin';
         Assert::assertSame([], $calendar->fetchEvents(['start' => now()->toIso8601String()]));
-<<<<<<< .merge_file_P4j4gK
         Assert::assertNotEmpty($calendar->getFormSchema());
-=======
-<<<<<<< HEAD
-        Assert::assertNotEmpty($calendar->getFormSchema());
-=======
-        Assert::assertNotEmpty($calendar->getFormSchema()); // @phpstan-ignore method.deprecated (hook di progetto: la deprecazione e ereditata per nome dal prototipo Filament 5, il codice eseguito e il nostro — story 16.12)
->>>>>>> laraxot/dev
->>>>>>> .merge_file_O7uOol
 
-        $chart = new \Modules\UI\Filament\Widgets\TestChartWidget();
+        $chart = new TestChartWidget();
         Assert::assertNotSame('', $chart->getDescription());
         $icons = (new GetAllIconsAction())->execute();
         Assert::assertSame($icons, (new GetAllIconsAction())->execute());
@@ -165,13 +163,11 @@ describe('UI highest-miss coverage', function (): void {
     });
 
     test('TableLayoutTrait reads and writes session layout', function (): void {
-        $subject = new class
+        $subject = new class()
         {
             use TableLayoutTrait;
 
-            public function dispatch(mixed ...$params): void
-            {
-            }
+            public function dispatch(mixed ...$params): void {}
         };
         $subject->setTableLayout(TableLayoutEnum::LIST);
         Assert::assertSame(TableLayoutEnum::LIST, $subject->getTableLayout());
@@ -181,15 +177,15 @@ describe('UI highest-miss coverage', function (): void {
     });
 
     test('XotBase blocks and document upload factories expose schema', function (): void {
-        Assert::assertNotEmpty(\Modules\UI\Filament\Blocks\Contact::getFormSchema());
+        Assert::assertNotEmpty(Contact::getFormSchema());
         Assert::assertNotEmpty(\Modules\UI\Filament\Blocks\Category::getFormSchema());
-        Assert::assertNotEmpty(\Modules\UI\Filament\Blocks\Post::getFormSchema());
-        Assert::assertNotSame('', \Modules\UI\Filament\Blocks\Contact::getTitle());
+        Assert::assertNotEmpty(Post::getFormSchema());
+        Assert::assertNotSame('', Contact::getTitle());
 
-        Assert::assertSame('identity_document', \Modules\UI\Filament\Components\SpatieDocumentUpload::forIdentityDocument()->getName());
-        Assert::assertSame('isee_certificate', \Modules\UI\Filament\Components\SpatieDocumentUpload::forIseeDocument()->getName());
-        Assert::assertSame('certifications', \Modules\UI\Filament\Components\SpatieDocumentUpload::forCertifications()->getName());
-        Assert::assertSame('custom_doc', \Modules\UI\Filament\Components\SpatieDocumentUpload::custom('custom_doc', 'docs')->getName());
+        Assert::assertSame('identity_document', SpatieDocumentUpload::forIdentityDocument()->getName());
+        Assert::assertSame('isee_certificate', SpatieDocumentUpload::forIseeDocument()->getName());
+        Assert::assertSame('certifications', SpatieDocumentUpload::forCertifications()->getName());
+        Assert::assertSame('custom_doc', SpatieDocumentUpload::custom('custom_doc', 'docs')->getName());
     });
 
     test('RadioCollection YearSelect SelectState and RadioCardSelector configure', function (): void {
@@ -205,7 +201,7 @@ describe('UI highest-miss coverage', function (): void {
         $selectState = SelectState::make('state');
         Assert::assertSame('state', $selectState->getName());
 
-        $card = \Modules\UI\Forms\Components\RadioCardSelector::make('card')
+        $card = RadioCardSelector::make('card')
             ->cards([['id' => 1, 'title' => 'A']])
             ->sectionTitle('Pick')
             ->populatesField('name');
@@ -215,13 +211,11 @@ describe('UI highest-miss coverage', function (): void {
     });
 
     test('TableLayoutToggleTableAction resolves layout from session', function (): void {
-        $subject = new class
+        $subject = new class()
         {
             use \Modules\UI\Filament\Actions\Table\TableLayoutTrait;
 
-            public function resetTable(): void
-            {
-            }
+            public function resetTable(): void {}
         };
         $subject->saveLayout(TableLayoutEnum::LIST, 'table');
         Assert::assertSame(TableLayoutEnum::LIST, $subject->getCurrentLayout('table'));

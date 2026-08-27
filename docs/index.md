@@ -3010,24 +3010,13 @@ laravel/Modules/UI/
 - [phpstan-fixes-1.md](./wiki/troubleshooting/phpstan-fixes-1.md)
 - [phpstan-fixes-2026-05-06.deprecated.md](./wiki/troubleshooting/phpstan-fixes-2026-05-06.deprecated.md)
 - [phpstan-fixes.md](./wiki/troubleshooting/phpstan-fixes.md)
-<<<<<<< .merge_file_6L8k9O
-=======
-<<<<<<< .merge_file_d48JVr
->>>>>>> .merge_file_2F52mC
-
-
 ---
-
 ## Contenuto assorbito da `INDEX.md`
-
-
 - [component-registration.md](./architecture/component-registration.md)
 - [filament-pages-structure.md](./architecture/filament-pages-structure.md)
 - [filament-resources-structure.md](./architecture/filament-resources-structure.md)
 - [structure.md](./architecture/structure.md)
-
 ## archive
-
 - [advanced-form-components.md](./archive/advanced-form-components.md)
 - [algolia-docsearch-1.md](./archive/algolia-docsearch-1.md)
 - [algolia-docsearch.md](./archive/algolia-docsearch.md)
@@ -3173,49 +3162,35 @@ laravel/Modules/UI/
 - [vscode-filament-plugin.md](./archive/vscode-filament-plugin.md)
 - [vscode-php-setup.md](./archive/vscode-php-setup.md)
 - [widget-optimization.md](./archive/widget-optimization.md)
-
 ## best-practices
-
 - [naming-conventions.md](./best-practices/naming-conventions.md)
-
 ## blade
-
 - [component-registration.md](./blade/component-registration.md)
 - [filament-components.md](./blade/filament-components.md)
-
 ## blocks
-
 - [correct-filament-components.md](./blocks/correct-filament-components.md)
 - [filament-component-integration.md](./blocks/filament-component-integration.md)
 - [logo.md](./blocks/logo.md)
 - [navigation.md](./blocks/navigation.md)
 - [user-dropdown.md](./blocks/user-dropdown.md)
-
 ## bugfix
-
 - [groupcolumn-architectural-violations.md](./bugfix/groupcolumn-architectural-violations.md)
 - [iconcolumn-extends-filament-column.md](./bugfix/iconcolumn-extends-filament-column.md)
 - [iconcolumn-view-path-fix.md](./bugfix/iconcolumn-view-path-fix.md)
-
 ## charts
-
 - [chartjs-datalabels-multiple-labels-complete-guide.md](./charts/chartjs-datalabels-multiple-labels-complete-guide.md)
 - [chartjs-plugin-datalabels-filament5.md](./charts/chartjs-plugin-datalabels-filament5.md)
 - [export-strategy.md](./charts/export-strategy.md)
 - [filament-chart-js-guide.md](./charts/filament-chart-js-guide.md)
 - [server-side-actions.md](./charts/server-side-actions.md)
 - [shared-hosting-strategy.md](./charts/shared-hosting-strategy.md)
-
 ## clean-code
-
 - [no-obvious-comments.md](./clean-code/no-obvious-comments.md)
 - [syntax-error-fixes.md](./clean-code/syntax-error-fixes.md)
 - [wizard-schema-aration.md](./clean-code/wizard-schema-aration.md)
 - [wizard-schema-separation.md](./clean-code/wizard-schema-separation.md)
 - [wizard-steps.md](./clean-code/wizard-steps.md)
-
 ## components
-
 - [address-field-1.md](./components/address-field-1.md)
 - [address-field.md](./components/address-field.md)
 - [blade-component-registration.md](./components/blade-component-registration.md)
@@ -3243,44 +3218,28 @@ laravel/Modules/UI/
 - [table-columns.md](./components/table-columns.md)
 - [ui-components.md](./components/ui-components.md)
 - [volt.md](./components/volt.md)
-
 ## components/archive
-
 - [full-calendar-1.md](./components/archive/full-calendar-1.md)
 - [full-calendar.md](./components/archive/full-calendar.md)
-
 ## components/legacy
-
 - [full-calendar-1.md](./components/legacy/full-calendar-1.md)
 - [full-calendar.md](./components/legacy/full-calendar.md)
-
 ## components/ui_components
-
 - [full-calendar.md](./components/ui_components/full-calendar.md)
-
 ## core
-
 - [architecture.md](./core/architecture.md)
-
 ## development
-
 - [roadmap.md](./development/roadmap.md)
-
 ## development/roadmap
-
 - [bottlenecks.md](./development/roadmap/bottlenecks.md)
 - [component-system.md](./development/roadmap/component-system.md)
 - [form-component.md](./development/roadmap/form-component.md)
 - [form-components.md](./development/roadmap/form-components.md)
 - [theme-system.md](./development/roadmap/theme-system.md)
-
 ## examples
-
 - [inline-date-picker-usage.md](./examples/inline-date-picker-usage.md)
 - [table-layout-implementation-example.md](./examples/table-layout-implementation-example.md)
-
 ## filament
-
 - [automatic-translations.md](./filament/automatic-translations.md)
 - [best-practices.md](./filament/best-practices.md)
 - [component-icon-support.md](./filament/component-icon-support.md)
@@ -3305,46 +3264,30 @@ laravel/Modules/UI/
 - [vendor.md](./filament/vendor.md)
 - [wizard-best-practices.md](./filament/wizard-best-practices.md)
 - [wizard-step-naming.md](./filament/wizard-step-naming.md)
-
 ## filament-components
-
 - [file-upload.md](./filament-components/file-upload.md)
-
 ## filament/actions
-
 - [attach.md](./filament/actions/attach.md)
 - [pdf.md](./filament/actions/pdf.md)
-
 ## filament/archive
-
 - [listrecords-1.md](./filament/archive/listrecords-1.md)
 - [listrecords.md](./filament/archive/listrecords.md)
-
 ## filament/errors
-
 - [common-errors.md](./filament/errors/common-errors.md)
 - [dropdown-list-item-tag.md](./filament/errors/dropdown-list-item-tag.md)
 - [static-instance-method-incompatibility.md](./filament/errors/static-instance-method-incompatibility.md)
-
 ## html2pdf
-
 - [advanced.md](./html2pdf/advanced.md)
 - [index.md](./html2pdf/index.md)
 - [laravel.md](./html2pdf/laravel.md)
 - [security.md](./html2pdf/security.md)
 - [styling.md](./html2pdf/styling.md)
 - [usage.md](./html2pdf/usage.md)
-
 ## icons
-
 - [icon-system.md](./icons/icon-system.md)
-
 ## layouts
-
 - [master.md](./layouts/master.md)
-
 ## legacy
-
 - [architecture-rules-1.md](./legacy/architecture-rules-1.md)
 - [architecture-rules.md](./legacy/architecture-rules.md)
 - [bugfix-table-layout-action.md](./legacy/bugfix-table-layout-action.md)
@@ -3356,23 +3299,15 @@ laravel/Modules/UI/
 - [mcp-integration.md](./legacy/mcp-integration.md)
 - [paths-and-assets-1.md](./legacy/paths-and-assets-1.md)
 - [paths-and-assets.md](./legacy/paths-and-assets.md)
-
 ## llm-wiki
-
 - [agents.md](./llm-wiki/AGENTS.md)
 - [index.md](./llm-wiki/index.md)
 - [log.md](./llm-wiki/log.md)
-
 ## quality-analysis
-
 - [ui-module-quality-report.md](./quality-analysis/ui-module-quality-report.md)
-
 ## raw
-
 - [index.md](./raw/index.md)
-
 ## raw/root-import
-
 - [api-1.md](./raw/root-import/api-1.md)
 - [api.md](./raw/root-import/api.md)
 - [blocks-1.md](./raw/root-import/blocks-1.md)
@@ -3424,9 +3359,7 @@ laravel/Modules/UI/
 - [ubuntu.md](./raw/root-import/ubuntu.md)
 - [widgets-1.md](./raw/root-import/widgets-1.md)
 - [widgets.md](./raw/root-import/widgets.md)
-
 ## roadmap
-
 - [00-index-1.md](./roadmap/00-index-1.md)
 - [00-index.md](./roadmap/00-index.md)
 - [00-overview.md](./roadmap/00-overview.md)
@@ -3455,33 +3388,25 @@ laravel/Modules/UI/
 - [theme-system-1.md](./roadmap/theme-system-1.md)
 - [theme-system.md](./roadmap/theme-system.md)
 - [vision.md](./roadmap/vision.md)
-
 ## roadmap/archive
-
 - [component-system-1.md](./roadmap/archive/component-system-1.md)
 - [component-system.md](./roadmap/archive/component-system.md)
 - [form-component-1.md](./roadmap/archive/form-component-1.md)
 - [form-component.md](./roadmap/archive/form-component.md)
 - [theme-system-1.md](./roadmap/archive/theme-system-1.md)
 - [theme-system.md](./roadmap/archive/theme-system.md)
-
 ## roadmap/legacy
-
 - [legacy-roadmap-and-issues.md](./roadmap/legacy/legacy-roadmap-and-issues.md)
 - [legacy-roadmap-conflict.md](./roadmap/legacy/legacy-roadmap-conflict.md)
 - [legacy-roadmap.md](./roadmap/legacy/legacy-roadmap.md)
-
 ## roadmap/prior_cycles
-
 - [component-system-1.md](./roadmap/prior_cycles/component-system-1.md)
 - [component-system.md](./roadmap/prior_cycles/component-system.md)
 - [form-component-1.md](./roadmap/prior_cycles/form-component-1.md)
 - [form-component.md](./roadmap/prior_cycles/form-component.md)
 - [theme-system-1.md](./roadmap/prior_cycles/theme-system-1.md)
 - [theme-system.md](./roadmap/prior_cycles/theme-system.md)
-
 ## root
-
 - [00-index-1.md](./00-index-1.md)
 - [00-index.md](./00-index.md)
 - [04-datas.md](./04-datas.md)
@@ -4041,9 +3966,7 @@ laravel/Modules/UI/
 - [widget-optimization-1.md](./widget-optimization-1.md)
 - [widget-optimization.md](./widget-optimization.md)
 - [widgets.md](./widgets.md)
-
 ## root-md-files
-
 - [api-relocated.md](./root-md-files/api-relocated.md)
 - [api.md](./root-md-files/api.md)
 - [blocks-relocated.md](./root-md-files/blocks-relocated.md)
@@ -4071,9 +3994,7 @@ laravel/Modules/UI/
 - [theme.md](./root-md-files/theme.md)
 - [ubuntu.md](./root-md-files/ubuntu.md)
 - [widgets.md](./root-md-files/widgets.md)
-
 ## standards
-
 - [accessibility.md](./standards/accessibility.md)
 - [auth-form-standards-1.md](./standards/auth-form-standards-1.md)
 - [auth-form-standards.md](./standards/auth-form-standards.md)
@@ -4081,9 +4002,7 @@ laravel/Modules/UI/
 - [form-standards.md](./standards/form-standards.md)
 - [performance.md](./standards/performance.md)
 - [ui-standards.md](./standards/ui-standards.md)
-
 ## tasks
-
 - [001-design-system-components.md](./tasks/001-design-system-components.md)
 - [cleanup-redundant-files.md](./tasks/cleanup-redundant-files.md)
 - [filament-v5-alignment.md](./tasks/filament-v5-alignment.md)
@@ -4092,35 +4011,25 @@ laravel/Modules/UI/
 - [tasks-index.md](./tasks/tasks-index.md)
 - [ui-cleanup-docs.md](./tasks/ui-cleanup-docs.md)
 - [ui-filament-v5.md](./tasks/ui-filament-v5.md)
-
 ## testing
-
 - [pest-testing-guide.md](./testing/pest-testing-guide.md)
-
 ## themes
-
 - [asset-management-1.md](./themes/asset-management-1.md)
 - [asset-management.md](./themes/asset-management.md)
 - [compilation.md](./themes/compilation.md)
 - [components.md](./themes/components.md)
 - [optimizations.md](./themes/optimizations.md)
 - [schemaless-attributes-guide.md](./themes/schemaless-attributes-guide.md)
-
 ## translations
-
 - [lang-service-provider.md](./translations/lang-service-provider.md)
-
 ## wiki
-
 - [agents.md](./wiki/AGENTS.md)
 - [bmad-method.md](./wiki/bmad-method.md)
 - [context-compression.md](./wiki/context-compression.md)
 - [index.md](./wiki/index.md)
 - [log.md](./wiki/log.md)
 - [overview.md](./wiki/overview.md)
-
 ## wiki/concepts
-
 - [auth-register-focus-loss-overlay.md](./wiki/concepts/auth-register-focus-loss-overlay.md)
 - [block-rendering-and-optional-services.md](./wiki/concepts/block-rendering-and-optional-services.md)
 - [claude-audit-static.md](./wiki/concepts/claude-audit-static.md)
@@ -4147,26 +4056,13 @@ laravel/Modules/UI/
 - [ui-operating-model.md](./wiki/concepts/ui-operating-model.md)
 - [ui-services-support-to-actions.md](./wiki/concepts/ui-services-support-to-actions.md)
 - [xotbasefield-no-view-rule.md](./wiki/concepts/xotbasefield-no-view-rule.md)
-
 ## wiki/memories
-
 - [lang-split-ui-claude-audit.md](./wiki/memories/lang-split-ui-claude-audit.md)
-
 ## wiki/overviews
-
 - [ui-module.md](./wiki/overviews/ui-module.md)
-
 ## wiki/sources
-
 - [ui-architecture-sources.md](./wiki/sources/ui-architecture-sources.md)
-
 ## wiki/troubleshooting
-
 - [git-merge-conflict-inventory-1.md](./wiki/troubleshooting/git-merge-conflict-inventory-1.md)
 - [git-merge-conflict-inventory-2026-04-28.deprecated.md](./wiki/troubleshooting/git-merge-conflict-inventory-2026-04-28.deprecated.md)
 - [git-merge-conflict-inventory.md](./wiki/troubleshooting/git-merge-conflict-inventory.md)
-<<<<<<< .merge_file_6L8k9O
-=======
-=======
->>>>>>> .merge_file_S9yVhv
->>>>>>> .merge_file_2F52mC

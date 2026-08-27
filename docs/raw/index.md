@@ -5,24 +5,8 @@ tags: [index]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "index raw sources — ui"
-<<<<<<< .merge_file_BHEcxY
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-
-=======
-<<<<<<< .merge_file_CN9OAt
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-
-=======
-<<<<<<< HEAD
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-
->>>>>>> laraxot/dev
->>>>>>> .merge_file_Qhfp0q
->>>>>>> .merge_file_LHo0S0
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
@@ -57,21 +41,7 @@ Il layer raw per questo modulo/tema è **l'intera cartella `docs/`** (esclusa `d
 
 ## Schema di riferimento
 
-<<<<<<< .merge_file_BHEcxY
 → `docs/.schema/WIKI_SCHEMA.md` (root progetto)
-
-=======
-<<<<<<< .merge_file_CN9OAt
-→ `docs/.schema/WIKI_SCHEMA.md` (root progetto)
-
-=======
-<<<<<<< HEAD
-=======
-→ `docs/.schema/WIKI_SCHEMA.md` (root progetto)
-
->>>>>>> laraxot/dev
->>>>>>> .merge_file_Qhfp0q
->>>>>>> .merge_file_LHo0S0
 → `docs/.schema/wiki-schema.md` (root progetto)
 → `docs/project/llm-wiki-module-adoption.md` (guida per moduli/temi)
 

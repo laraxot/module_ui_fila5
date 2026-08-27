@@ -296,16 +296,6 @@ class UIServiceProvider extends XotBaseServiceProvider
       // Logica dell'azione
   };
   ?>
-<<<<<<< .merge_file_Ka77nr
-=======
-<<<<<<< .merge_file_710h5q
-=======
-<<<<<<< HEAD
-  
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_FS8QRf
->>>>>>> .merge_file_vjYog6
   <div>
       <!-- Template del componente -->
   </div>
@@ -331,16 +321,6 @@ class UIServiceProvider extends XotBaseServiceProvider
       'property' => null,
   ]);
   ?>
-<<<<<<< .merge_file_Ka77nr
-=======
-<<<<<<< .merge_file_710h5q
-=======
-<<<<<<< HEAD
-  
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_FS8QRf
->>>>>>> .merge_file_vjYog6
   <x-layouts.main>
       <!-- Contenuto della pagina -->
   </x-layouts.main>
