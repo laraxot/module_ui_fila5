@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit;
 
 use Mockery;
-use Mockery\CompositeExpectation;
+use Mockery\Expectation;
 use Mockery\LegacyMockInterface;
 use Mockery\MockInterface;
 use Modules\UI\Tests\Fixtures\UiBasePolicyBehaviorConcretePolicy;
@@ -16,22 +16,16 @@ use PHPUnit\Framework\Assert;
 /**
  * Narrows Mockery's shouldReceive() union return type for PHPStan.
  *
-<<<<<<< .merge_file_8Rbn8d
  * @param  LegacyMockInterface|MockInterface  $mock
  */
-function expectMethod($mock, string $method): CompositeExpectation
-{
-    /** @var CompositeExpectation $expectation */
-=======
- * @param  \Mockery\LegacyMockInterface|\Mockery\MockInterface  $mock
- */
-function expectMethod($mock, string $method): \Mockery\ExpectationInterface
-{
-    /** @var \Mockery\ExpectationInterface $expectation */
->>>>>>> .merge_file_pG4XrK
-    $expectation = $mock->shouldReceive($method);
+if (! function_exists('expectMethod')) {
+    function expectMethod(LegacyMockInterface|MockInterface $mock, string $method): Expectation
+    {
+        /** @var Expectation $expectation */
+        $expectation = $mock->shouldReceive($method);
 
-    return $expectation;
+        return $expectation;
+    }
 }
 
 uses(TestCase::class)->group('no-ui-db');
