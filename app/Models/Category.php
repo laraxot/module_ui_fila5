@@ -8,13 +8,21 @@ use Illuminate\Database\Eloquent\Builder;
 use Modules\Xot\Models\BaseModel;
 
 /**
- * @property-read \Modules\WorkOrder\Models\Profile|null $creator
- * @property-read \Modules\WorkOrder\Models\Profile|null $deleter
- * @property-read \Modules\WorkOrder\Models\Profile|null $updater
+ * @property int $id
+ * @property string|null $name
+ * @property string $title
+ * @property string $slug
+ * @property int|null $parent_id
+ * @property string|null $description
+ * @property string|null $icon
+ * @property bool $is_active
+ * @property int $sort_order
+ *
  * @method static \Modules\UI\Database\Factories\CategoryFactory factory($count = null, $state = [])
- * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\UI\Models\Category newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\UI\Models\Category newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\UI\Models\Category query()
+ * @method static Builder<static>|Category newModelQuery()
+ * @method static Builder<static>|Category newQuery()
+ * @method static Builder<static>|Category query()
+ *
  * @mixin \Eloquent
  */
 class Category extends BaseModel
