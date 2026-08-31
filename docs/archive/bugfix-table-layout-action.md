@@ -1,3 +1,7 @@
+---
+created_at: '2025-01-27'
+---
+
 # Bug Fix: TableLayoutToggleTableAction Access Level Error - 27 Gennaio 2025
 
 ## Problema Identificato
