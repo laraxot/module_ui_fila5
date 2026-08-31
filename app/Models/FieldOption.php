@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Models;
 
 use Illuminate\Database\Eloquent\Builder;
-use Modules\TechPlanner\Models\Profile;
+use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Models\BaseModel;
 
 /**
@@ -13,8 +13,8 @@ use Modules\Xot\Models\BaseModel;
  *
  * FormBuilder module not available - extending from XotBaseModel instead.
  *
- * @property-read Profile|null $creator
- * @property-read Profile|null $updater
+ * @property-read ProfileContract|null $creator
+ * @property-read ProfileContract|null $updater
  *
  * @method static \Modules\UI\Database\Factories\FieldOptionFactory factory($count = null, $state = [])
  * @method static Builder<static>|FieldOption newModelQuery()
