@@ -2,6 +2,7 @@
 title: Notify Module Quality Gate Resolution (2026-07-28)
 author: Session J
 date: 2026-07-28
+created_at: '2026-07-28'
 ---
 
 # Notify Module Quality Gate Resolution

@@ -1,6 +1,7 @@
 ---
 title: "Git Push Recovery — Remote Corruption Resolution (2026-07-28)"
 date: 2026-07-28
+created_at: '2026-07-28'
 author: claude-ai
 status: COMPLETE
 ---
