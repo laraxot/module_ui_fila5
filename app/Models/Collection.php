@@ -12,13 +12,19 @@ use Modules\Xot\Models\BaseModel;
  *
  * FormBuilder module not available - extending from XotBaseModel instead.
  *
- * @property-read \Modules\WorkOrder\Models\Profile|null $creator
- * @property-read \Modules\WorkOrder\Models\Profile|null $deleter
- * @property-read \Modules\WorkOrder\Models\Profile|null $updater
+ * @property int $id
+ * @property string $name
+ * @property string|null $description
+ * @property string $type
+ * @property int|null $theme_id
+ * @property bool $is_active
+ * @property int|null $order
+ *
  * @method static \Modules\UI\Database\Factories\CollectionFactory factory($count = null, $state = [])
- * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\UI\Models\Collection newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\UI\Models\Collection newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder<static>|\Modules\UI\Models\Collection query()
+ * @method static Builder<static>|Collection newModelQuery()
+ * @method static Builder<static>|Collection newQuery()
+ * @method static Builder<static>|Collection query()
+ *
  * @mixin \Eloquent
  */
 class Collection extends BaseModel
