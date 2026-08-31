@@ -1,3 +1,7 @@
+---
+created_at: '2025-10-15'
+---
+
 # DRY & KISS Analysis - Modulo UI
 
 **Data:** 15 Ottobre 2025  
