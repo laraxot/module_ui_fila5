@@ -16,18 +16,18 @@ rifare e contestare.
 
 | Metrica | Valore |
 |---|---:|
-| File PHP | 692 |
-| Righe di codice | 46305 |
-| File di test `*Test.php` | 41 |
-| Casi di test | 304 |
-| Casi di test per file PHP | 0.44 |
-| `@phpstan-ignore` nel codice | 48 |
+| File PHP | 689 |
+| Righe di codice | 45971 |
+| File di test `*Test.php` | 38 |
+| Casi di test | 279 |
+| Casi di test per file PHP | 0.40 |
+| `@phpstan-ignore` nel codice | 0 |
 | Rilievi PHPMD su `app/` | 67 |
 | PHPInsights — Code | 92.9 % |
 | PHPInsights — Complexity | 100.0 % |
 | PHPInsights — Architecture | 92.9 % |
 | PHPInsights — Style | 91.4 % |
-| File `.md` sotto `docs/` | 961 |
+| File `.md` sotto `docs/` | 963 |
 | `TODO`/`FIXME`/`HACK` | 2 |
 | Test con casi che non girano (senza suffisso `Test.php`) | 0 |
 | Collisioni di case nel codice | 0 |
@@ -43,19 +43,16 @@ da `ignoreErrors` e non vengono contate da nessun gate.
 
 ## Cosa non va
 
-### 48 soppressioni per tre modelli che non esistono
+### Le 48 soppressioni sono state chiuse
 
-`tests/Unit/Models/ThemeModelTest.php` (24 `@phpstan-ignore`),
-`AssetModelTest.php` (12) e `ComponentModelTest.php` (12) sono scritti contro
-`Modules\UI\Models\Theme`, `Asset` e `Component`. Nessuna delle tre classi esiste:
-`app/Models/` contiene `BaseModel`, `Category`, `Collection`, `FieldOption` e `Policies`.
+Fino al mattino del 1 settembre questo modulo aveva **48** commenti `@phpstan-ignore`,
+il 56 % di tutto il progetto, concentrati in `ThemeModelTest.php`, `AssetModelTest.php` e
+`ComponentModelTest.php`: test scritti contro `Modules\UI\Models\Theme`, `Asset` e
+`Component`, tre classi che non esistono. Ora sono **zero**.
 
-Le soppressioni dicono la verita nel loro stesso commento — «Theme model absent from
-artifact set (test skipped at runtime)» — e sono il 56 % di tutte le
-soppressioni del progetto. Sono test che non testano niente, tenuti verdi da un
-commento. Le due uscite oneste sono: creare i modelli, oppure cancellare i tre file.
-Tenerli cosi e' la sola opzione che non va bene, perche' costa manutenzione e
-mente al gate.
+Vale la pena tenerne memoria: erano test che non testavano niente, tenuti verdi da un
+commento che diceva la verita' — «Theme model absent from artifact set (test skipped at
+runtime)» — senza che nessun gate la contasse.
 
 ## Coverage
 
