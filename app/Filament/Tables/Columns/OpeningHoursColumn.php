@@ -32,27 +32,35 @@ class OpeningHoursColumn extends TextColumn
     {
         $column = parent::make($name ?? static::DEFAULT_NAME);
 
-        return $column->formatStateUsing(static function (mixed $state): string {
-            if (! is_array($state)) {
-                return '—';
-            }
+        return $column->formatStateUsing(static fn (mixed $state): string => self::summarizeOpeningHours($state));
+    }
 
-            /** @var array<string, string> $days */
-            $days = app(GetDaysMappingAction::class)->execute();
-            $parts = [];
+    /**
+     * Riepilogo testuale dello stato — estratto come metodo pubblico e statico,
+     * non solo dentro la closure, cosi' e' testabile senza reflection sugli
+     * interni di Filament.
+     */
+    public static function summarizeOpeningHours(mixed $state): string
+    {
+        if (! is_array($state)) {
+            return '—';
+        }
 
-            foreach ($days as $dayKey => $dayLabel) {
-                $day = $state[$dayKey] ?? null;
-                $slots = is_array($day) ? self::formatSlots($day) : [];
+        /** @var array<string, string> $days */
+        $days = app(GetDaysMappingAction::class)->execute();
+        $parts = [];
 
-                $abbrev = mb_substr($dayLabel, 0, 3);
-                $parts[] = $slots === []
-                    ? "{$abbrev} chiuso"
-                    : $abbrev.' '.implode(', ', $slots);
-            }
+        foreach ($days as $dayKey => $dayLabel) {
+            $day = $state[$dayKey] ?? null;
+            $slots = is_array($day) ? self::formatSlots($day) : [];
 
-            return $parts === [] ? '—' : implode(' · ', $parts);
-        });
+            $abbrev = mb_substr($dayLabel, 0, 3);
+            $parts[] = $slots === []
+                ? "{$abbrev} chiuso"
+                : $abbrev.' '.implode(', ', $slots);
+        }
+
+        return $parts === [] ? '—' : implode(' · ', $parts);
     }
 
     /**
