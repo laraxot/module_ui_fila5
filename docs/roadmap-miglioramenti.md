@@ -1,5 +1,10 @@
 # UI — cosa migliorerei se questo modulo fosse mio per un mese
 
+> I numeri misurati sono in [`docs/cosa-migliorare.md`](cosa-migliorare.md),
+> rilevati da un'altra sessione il 2026-09-01: PHPStan 0, PHPMD `app/` **67**,
+> Code 91.8, Arch 92.9, 290 casi test. Questo file non rimisura: legge quei
+> numeri e ci mette sopra la lente.
+
 107 file in `app/`, due dipendenze runtime (icone: FontAwesome, Heroicons),
 `require-dev` completamente vuoto e **nessun `phpstan.neon` proprio**. UI è
 il modulo "solo presentazione" per definizione architetturale del progetto
