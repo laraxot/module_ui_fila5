@@ -29,5 +29,5 @@ it('language controller validates locale against supported list', function (): v
     );
 
     Assert::assertStringContainsString('supported_locales', $source);
-    Assert::assertStringContainsString("in_array(\$locale, \$supportedLocales", $source);
+    Assert::assertStringContainsString('in_array($locale, $supportedLocales', $source);
 });

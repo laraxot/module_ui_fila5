@@ -8,8 +8,6 @@ issues:
 discussions:
   - https://github.com/laraxot/<nome repitory>/discussions/273
   - https://github.com/laraxot/base_fixcity_fila5/discussions/273
-
-- https://github.com/laraxot/<nome repitory>/discussions/273
   - https://github.com/laraxot/platform/discussions/273
 ---
 

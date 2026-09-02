@@ -9,7 +9,6 @@ use Filament\Actions\Action;
 use Filament\Forms\Components\Select;
 use Filament\Notifications\Notification;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\File;
 use Mockery;
@@ -21,9 +20,6 @@ use Modules\UI\Filament\Tables\Columns\IconStateGroupColumn;
 use Modules\UI\Filament\Tables\Columns\IconStateSplitColumn;
 use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
 use Modules\UI\Tests\TestCase;
-use Modules\UI\Tests\Unit\Stubs\UiCoverageAddressChildRecord;
-use Modules\UI\Tests\Unit\Stubs\UiCoverageAddressHasOneRelation;
-use Modules\UI\Tests\Unit\Stubs\UiCoverageAddressParentRecord;
 use Modules\UI\Tests\Unit\Stubs\UiCoverageDoneState;
 use Modules\UI\Tests\Unit\Stubs\UiCoverageRecord;
 use Modules\UI\Tests\Unit\Stubs\UiCoverageRecordWithThrowingState;
@@ -34,7 +30,7 @@ use ReflectionClass;
 
 use function Safe\mkdir;
 
-uses(TestCase::class)->group('no-ui-db');
+uses(\Modules\UI\Tests\TestCase::class);
 
 afterEach(function (): void {
     UiCoverageRecord::$findMap = [];
@@ -114,8 +110,8 @@ describe('UI state columns — comportamento IconStateColumn', function (): void
         $record = new UiCoverageRecord(['id' => 1]);
         $record->setAttribute('state', new UiCoverageStateContract($record));
 
-        $this->expectException(\Exception::class);
-        $action->call(['record' => $record, 'data' => ['state' => 123]]);
+        expect(static fn () => $action->call(['record' => $record, 'data' => ['state' => 123]]))
+            ->toThrow(\Exception::class);
     });
 });
 
@@ -307,8 +303,6 @@ function uiInvokeBeforeStateUpdated(SelectStateColumn $column, Model $record, mi
     $closure($record, $state);
 }
 
-/**
- */
 function uiFirstActionSchemaComponent(Action $action): Select
 {
     $ref = new ReflectionClass($action);
