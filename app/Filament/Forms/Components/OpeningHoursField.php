@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
-use Filament\Infolists\Components\TextEntry;
 use Filament\Forms\Components\TimePicker;
+use Filament\Infolists\Components\TextEntry;
 use Filament\Schemas\Components\Component;
 use Modules\UI\Actions\Datetime\GetDaysMappingAction;
 use Modules\UI\Rules\OpeningHoursRule;

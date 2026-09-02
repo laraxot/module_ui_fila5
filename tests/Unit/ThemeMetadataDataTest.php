@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit;
 
 use Modules\UI\Datas\ThemeMetadataData;
+use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(\Modules\UI\Tests\TestCase::class);

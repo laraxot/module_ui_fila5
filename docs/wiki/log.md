@@ -7,7 +7,6 @@ updated: 2026-07-14
 qmd: "log ui wiki log"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
@@ -69,7 +68,6 @@ related:
 - Layer raw: tutti i file in `docs/` (eccetto `wiki/`).
 - Layer wiki: `docs/wiki/` — LLM-maintained, sintesi ad alto riuso.
 - Schema: `docs/.schema/WIKI_SCHEMA.md`
-
 - Schema: `docs/.schema/wiki-schema.md`
 - Adozione moduli: `docs/project/llm-wiki-module-adoption.md`
 

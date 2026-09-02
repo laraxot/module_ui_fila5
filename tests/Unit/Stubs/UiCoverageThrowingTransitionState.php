@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit\Stubs;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Collection;
 
 final class UiCoverageThrowingTransitionState extends UiCoverageStateContract
 {
@@ -22,9 +23,9 @@ final class UiCoverageThrowingTransitionState extends UiCoverageStateContract
     }
 
     /**
-     * @return \Illuminate\Support\Collection<string, string>
+     * @return Collection<string, string>
      */
-    public static function getStateMapping(): \Illuminate\Support\Collection
+    public static function getStateMapping(): Collection
     {
         return collect([
             'pending' => self::class,

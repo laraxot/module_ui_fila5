@@ -8,6 +8,7 @@ use BladeUI\Icons\Factory as IconFactory;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\File;
 use Modules\UI\Actions\Icon\GetAllIconsAction;
+use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(\Modules\UI\Tests\TestCase::class);

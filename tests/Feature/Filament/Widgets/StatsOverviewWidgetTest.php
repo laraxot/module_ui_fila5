@@ -12,7 +12,7 @@ use PHPUnit\Framework\Assert;
 
 use function Safe\file_get_contents;
 
-uses(TestCase::class);
+uses(\Modules\UI\Tests\TestCase::class);
 
 test('stats overview widget extends correct base class', function (): void {
     $widget = new StatsOverviewWidget();
@@ -53,7 +53,7 @@ test('stats overview widget has correct strict types declaration', function (): 
     $reflection = new \ReflectionClass(StatsOverviewWidget::class);
     $filename = $reflection->getFileName();
 
-    if (false !== $filename) {
+    if ($filename !== false) {
         $content = file_get_contents($filename);
         Assert::assertStringContainsString('declare(strict_types=1)', $content);
     }
@@ -79,7 +79,7 @@ test('stats overview widget has correct use statements', function (): void {
     $reflection = new \ReflectionClass(StatsOverviewWidget::class);
     $filename = $reflection->getFileName();
 
-    if (false !== $filename) {
+    if ($filename !== false) {
         $content = file_get_contents($filename);
         Assert::assertStringContainsString('use Modules\\Xot\\Filament\\Widgets\\XotBaseStatsOverviewWidget;', $content);
     }

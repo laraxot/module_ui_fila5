@@ -309,8 +309,6 @@ protected function getStudioStepSchema(): array
             ->visible(fn (): bool => $this->hasValidGeographicSelection()),
         // Pulsanti selezione studio
         View::make('<nome progetto>::filament.widgets.studio-selector')
-        View::make('<nome progetto>::filament.widgets.studio-selector')
-            ->viewData([
                 'studios' => $this->getStudiosForSelectedArea(),
                 'selectedStudio' => $this->data['selected_studio'] ?? null,
         // TextInput per mostrare studio selezionato
@@ -413,11 +411,7 @@ class FindDoctorWidgetStep2Test extends TestCase
 **Versione**: 2.0 - Semplificato  
 **Stato**: Implementation Ready  
 **Approccio**: Pulsanti + TextInput (semplice e diretto) 
-
 **Creato**: 26 Giugno 2025
-**Versione**: 2.0 - Semplificato
-**Stato**: Implementation Ready
-**Approccio**: Pulsanti + TextInput (semplice e diretto)
 # Componenti Filament per Location e Studio Selection
 ## Overview
 Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo <nome progetto>.
@@ -460,16 +454,12 @@ Componente Blade per la selezione di studi odontoiatrici tramite pulsanti radio-
 ## Integrazione nel FindDoctorAndAppointmentWidget
 ### Step 1: Search Step (Aggiornato)
 protected function getSearchStepSchema(): array
-{
     return [
-        LocationSelector::make()
             ->regionField('region')
             ->provinceField('province')
             ->capField('cap')
-            ->required()
             ->searchable()
     ];
-}
 ### Step 2: Studio Step (Semplificato)
 protected function getStudioStepSchema(): array
         // Titolo step

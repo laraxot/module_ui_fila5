@@ -6,6 +6,8 @@ namespace Modules\UI\Tests\Unit\Stubs;
 
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
+use Illuminate\Contracts\Support\Htmlable;
+use Illuminate\Support\HtmlString;
 
 enum UiCoverageBadgeEnum: string implements HasColor, HasIcon
 {
@@ -29,13 +31,13 @@ enum UiCoverageBadgeEnum: string implements HasColor, HasIcon
         };
     }
 
-    public function getIcon(): string|\Illuminate\Contracts\Support\Htmlable|null
+    public function getIcon(): string|Htmlable|null
     {
         return match ($this) {
             self::HtmlIcon => '<svg></svg>',
             self::NullIcon => null,
-            self::HtmlableIcon => new \Illuminate\Support\HtmlString('<i>x</i>'),
-            self::BareHtmlableIcon => new class implements \Illuminate\Contracts\Support\Htmlable
+            self::HtmlableIcon => new HtmlString('<i>x</i>'),
+            self::BareHtmlableIcon => new class() implements Htmlable
             {
                 public function toHtml(): string
                 {
