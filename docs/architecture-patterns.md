@@ -438,7 +438,8 @@ IconService
 - **Disabled Components**: [disabled-components.md](./disabled-components.md)
 - **Architecture Overview**: [ARCHITECTURE.md](./architecture.md)
 - **Index**: [INDEX.md](./index.md)
-
+- **Architecture Overview**: [ARCHITECTURE.md](./ARCHITECTURE.md)
+- **Index**: [INDEX.md](./INDEX.md)
 - **Architecture Overview**: [ARCHITECTURE.md](./architecture.md)
 - **Index**: [INDEX.md](./index.md)
 

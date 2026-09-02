@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit;
 
+use Illuminate\Contracts\View\View as ViewContract;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
-use Illuminate\Contracts\View\View as ViewContract;
 use Illuminate\View\View;
 use Modules\UI\Enums\TableLayoutEnum;
 use Modules\UI\Filament\Blocks\Image;
@@ -29,7 +29,7 @@ use Modules\UI\View\Composers\ThemeComposer;
 use PHPUnit\Framework\Assert;
 use ReflectionClass;
 
-uses(TestCase::class)->group('no-ui-db');
+uses(\Modules\UI\Tests\TestCase::class);
 
 describe('UI gap closer 100 — Livewire', function (): void {
     test('DarkModeSwitcher mount toggle and render', function (): void {
@@ -107,7 +107,7 @@ describe('UI gap closer 100 — Filament widgets and forms', function (): void {
         Assert::assertSame('Users', $data['label']);
         Assert::assertSame(42, $data['value']);
 
-        $row = new class extends RowWidget {};
+        $row = new class() extends RowWidget {};
         Assert::assertSame(3, (new ReflectionClass($row))->getMethod('getColumns')->invoke($row));
     });
 
@@ -180,7 +180,7 @@ describe('UI gap closer 100 — middleware trait rules', function (): void {
     });
 
     test('TableLayoutTrait session branches and refresh', function (): void {
-        $subject = new class
+        $subject = new class()
         {
             use TableLayoutTrait;
 
@@ -188,7 +188,7 @@ describe('UI gap closer 100 — middleware trait rules', function (): void {
 
             public function dispatch(mixed ...$params): void
             {
-                ++$this->dispatched;
+                $this->dispatched++;
             }
         };
 

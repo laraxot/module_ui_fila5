@@ -68,7 +68,6 @@ qmd query "$1" -c wiki --limit 3 > compressed_result.md
 
 # Estrai keyword principali
 qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
-
 qmd search "$1" -c <nome progetto>-docs | head -5 > keywords.txt
 qmd search "$1" -c project-docs | head -5 > keywords.txt
 
