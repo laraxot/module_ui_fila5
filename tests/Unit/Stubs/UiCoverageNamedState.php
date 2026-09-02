@@ -6,6 +6,7 @@ namespace Modules\UI\Tests\Unit\Stubs;
 
 use Filament\Schemas\Components\Component;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Collection;
 use Modules\Xot\Contracts\StateContract;
 
 /**
@@ -66,9 +67,7 @@ final class UiCoverageNamedState implements StateContract
     }
 
     /** @param  array<string, mixed>  $data */
-    public function modalActionByRecord(Model $record, array $data): void
-    {
-    }
+    public function modalActionByRecord(Model $record, array $data): void {}
 
     /** @return list<string> */
     public function transitionableStates(): array
@@ -81,12 +80,10 @@ final class UiCoverageNamedState implements StateContract
         return true;
     }
 
-    public function transitionTo(string $state, ?string $message = null): void
-    {
-    }
+    public function transitionTo(string $state, ?string $message = null): void {}
 
-    /** @return \Illuminate\Support\Collection<string, string> */
-    public static function getStateMapping(): \Illuminate\Support\Collection
+    /** @return Collection<string, string> */
+    public static function getStateMapping(): Collection
     {
         return collect(['pending' => self::class, 'done' => UiCoverageDoneState::class]);
     }

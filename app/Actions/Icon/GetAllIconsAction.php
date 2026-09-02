@@ -65,7 +65,7 @@ class GetAllIconsAction
 
                 foreach (File::allFiles($path) as $file) {
                     // Simply ignore files that aren't SVGs
-                    if ('svg' !== $file->getExtension()) {
+                    if ($file->getExtension() !== 'svg') {
                         continue;
                     }
 
@@ -78,7 +78,7 @@ class GetAllIconsAction
 
                     $prefix = $set['prefix'] ?? '';
                     $prefixString = is_string($prefix) ? $prefix : '';
-                    $iconFullName = '' !== $prefixString ? $prefixString.'-'.$iconName : $iconName;
+                    $iconFullName = $prefixString !== '' ? $prefixString.'-'.$iconName : $iconName;
                     $iconsList[] = $iconFullName;
                 }
             }

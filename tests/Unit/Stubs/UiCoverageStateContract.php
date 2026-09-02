@@ -6,6 +6,7 @@ namespace Modules\UI\Tests\Unit\Stubs;
 
 use Filament\Schemas\Components\Component;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Collection;
 use Modules\Xot\Contracts\StateContract;
 
 /**
@@ -99,9 +100,9 @@ class UiCoverageStateContract implements StateContract
     }
 
     /**
-     * @return \Illuminate\Support\Collection<string, string>
+     * @return Collection<string, string>
      */
-    public static function getStateMapping(): \Illuminate\Support\Collection
+    public static function getStateMapping(): Collection
     {
         return collect([
             'pending' => self::class,

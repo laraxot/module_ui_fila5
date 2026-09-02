@@ -7,7 +7,6 @@ namespace Modules\UI\Traits;
 use Illuminate\Support\Facades\Session;
 use Modules\UI\Enums\TableLayoutEnum;
 
-
 trait TableLayoutTrait
 {
     public function getTableLayout(): TableLayoutEnum

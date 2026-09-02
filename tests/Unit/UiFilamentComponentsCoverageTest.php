@@ -6,6 +6,7 @@ namespace Modules\UI\Tests\Unit;
 
 use Illuminate\Translation\PotentiallyTranslatedString;
 use Mockery;
+use Mockery\MockInterface;
 use Modules\UI\Enums\FieldTypeEnum;
 use Modules\UI\Enums\TableLayout;
 use Modules\UI\Filament\Widgets\StatsOverviewWidget;
@@ -34,7 +35,7 @@ describe('UI Filament widgets and components coverage', function (): void {
                 continue;
             }
             Assert::assertInstanceOf($class, new $class());
-            ++$seen;
+            $seen++;
         }
         Assert::assertGreaterThan(0, $seen);
     });
@@ -50,7 +51,7 @@ describe('UI Filament widgets and components coverage', function (): void {
             $class = 'Modules\\UI\\'.str_replace(['/', '.php'], ['\\', ''], substr($file->getPathname(), strlen($appRoot) + 1));
             if (class_exists($class)) {
                 Assert::assertTrue(class_exists($class));
-                ++$count;
+                $count++;
             }
         }
         Assert::assertGreaterThan(0, $count);
@@ -85,14 +86,14 @@ describe('UI coverage boost — Rules and policies', function (): void {
     });
 
     test('UiBasePolicy before grants super-admin', function (): void {
-        /** @var Mockery\MockInterface&UserContract $superAdmin */
+        /** @var MockInterface&UserContract $superAdmin */
         $superAdmin = Mockery::mock(UserContract::class);
-        $superAdmin->shouldReceive('hasRole')->with('super-admin')->andReturn(true);
-        /** @var Mockery\MockInterface&UserContract $regular */
+        TestCase::expectMethod($superAdmin, 'hasRole')->with('super-admin')->andReturn(true);
+        /** @var MockInterface&UserContract $regular */
         $regular = Mockery::mock(UserContract::class);
-        $regular->shouldReceive('hasRole')->with('super-admin')->andReturn(false);
+        TestCase::expectMethod($regular, 'hasRole')->with('super-admin')->andReturn(false);
 
-        $policy = new class extends UiBasePolicy {};
+        $policy = new class() extends UiBasePolicy {};
         Assert::assertTrue($policy->before($superAdmin, 'viewAny'));
         Assert::assertNull($policy->before($regular, 'viewAny'));
     });
