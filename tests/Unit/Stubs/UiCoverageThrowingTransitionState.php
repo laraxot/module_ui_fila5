@@ -5,6 +5,10 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit\Stubs;
 
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Collection;
+>>>>>>> laraxot/dev
 
 final class UiCoverageThrowingTransitionState extends UiCoverageStateContract
 {
@@ -22,9 +26,15 @@ final class UiCoverageThrowingTransitionState extends UiCoverageStateContract
     }
 
     /**
+<<<<<<< HEAD
      * @return \Illuminate\Support\Collection<string, string>
      */
     public static function getStateMapping(): \Illuminate\Support\Collection
+=======
+     * @return Collection<string, string>
+     */
+    public static function getStateMapping(): Collection
+>>>>>>> laraxot/dev
     {
         return collect([
             'pending' => self::class,

@@ -5,8 +5,11 @@ declare(strict_types=1);
 namespace Modules\UI\Models;
 
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
 use Modules\UI\Database\Factories\CollectionFactory;
 use Modules\Xot\Contracts\ProfileContract;
+=======
+>>>>>>> laraxot/dev
 use Modules\Xot\Models\BaseModel;
 
 /**
@@ -14,6 +17,7 @@ use Modules\Xot\Models\BaseModel;
  *
  * FormBuilder module not available - extending from XotBaseModel instead.
  *
+<<<<<<< HEAD
  * @property string|null                     $id
  * @property string|null                     $name
  * @property string|null                     $description
@@ -39,6 +43,21 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Collection newModelQuery()
  * @method static Builder<static>|Collection newQuery()
  * @method static Builder<static>|Collection query()
+=======
+ * @property int $id
+ * @property string $name
+ * @property string|null $description
+ * @property string $type
+ * @property int|null $theme_id
+ * @property bool $is_active
+ * @property int|null $order
+ *
+ * @method static \Modules\UI\Database\Factories\CollectionFactory factory($count = null, $state = [])
+ * @method static Builder<static>|Collection newModelQuery()
+ * @method static Builder<static>|Collection newQuery()
+ * @method static Builder<static>|Collection query()
+ *
+>>>>>>> laraxot/dev
  * @mixin \Eloquent
  */
 class Collection extends BaseModel

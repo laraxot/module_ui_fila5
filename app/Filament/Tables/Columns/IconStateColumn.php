@@ -4,6 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Tables\Columns;
 
+<<<<<<< HEAD
+=======
+use Exception;
+>>>>>>> laraxot/dev
 use Filament\Actions\Action;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
@@ -68,7 +72,11 @@ class IconStateColumn extends XotBaseIconColumn
                             try {
                                 /** @var array<int|string, mixed> $statesArray */
                                 $statesArray = $state->transitionableStates();
+<<<<<<< HEAD
                             } catch (\Exception $e) {
+=======
+                            } catch (Exception $e) {
+>>>>>>> laraxot/dev
                                 if (! method_exists($record, 'getStatesFor')) {
                                     return [];
                                 }
@@ -139,6 +147,7 @@ class IconStateColumn extends XotBaseIconColumn
                         'state' => $stateName,
                     ];
                 })
+<<<<<<< HEAD
                 ->action(function (mixed $record, array $data): void {
                     /** @var array<string, mixed> $data */
                     if (! isset($data['state']) || ! is_string($data['state'])) {
@@ -149,13 +158,25 @@ class IconStateColumn extends XotBaseIconColumn
                     if (! is_object($record)) {
                         throw new \Exception('Record must be an object');
                     }
+=======
+                ->action(function (Model $record, array $data): void {
+                    /** @var array<string, mixed> $data */
+                    if (! isset($data['state']) || ! is_string($data['state'])) {
+                        throw new Exception('State is required and must be a string');
+                    }
+                    $state = $data['state'];
+>>>>>>> laraxot/dev
                     $model = Str::of(class_basename($record))->slug()->toString();
                     /** @var string $label */
                     $label = __('pub_theme::'.$model.'_states.'.$state.'.label');
 
                     $currentState = $record->getAttribute($this->getName());
                     if (! is_object($currentState) || ! method_exists($currentState, 'transitionTo')) {
+<<<<<<< HEAD
                         throw new \Exception('Current state is not a valid State instance');
+=======
+                        throw new Exception('Current state is not a valid State instance');
+>>>>>>> laraxot/dev
                     }
 
                     /** @var string|null $message */

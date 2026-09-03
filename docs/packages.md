@@ -3,7 +3,11 @@
 ## Pacchetti Utilizzati
 
 ### Core
+<<<<<<< HEAD
 - [laraxot/module_xot_fila3](../Xot/docs/packages.md) - Modulo base per funzionalità comuni
+=======
+- [laraxot/module_xot_fila5](../Xot/docs/packages.md) - Modulo base per funzionalità comuni
+>>>>>>> laraxot/dev
 - [filament/filament](https://filamentphp.com) - Admin panel e componenti UI
 - [tailwindcss/tailwindcss](https://tailwindcss.com) - Framework CSS utility-first
 

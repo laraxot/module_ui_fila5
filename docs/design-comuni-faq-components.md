@@ -361,7 +361,10 @@ pub_theme:: → Themes/Sixteen/resources/views/
 ```
 
 Configurato in `config/local/fixcity/xra.php`:
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 Configurato in `config/local/<nome progetto>/xra.php`:
 Configurato in `config/local/current/xra.php`:
 ```php

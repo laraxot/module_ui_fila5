@@ -4,7 +4,10 @@ type: rule
 module: UI
 created: 2026-07-06
 updated: 2026-07-22
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 updated: 2026-08-18
 related:
   - "./second-brain.md"
@@ -17,9 +20,13 @@ related:
 # Confine UI e Geo
 
 ## Perché (religione)
+<<<<<<< HEAD
 
 `UI` = design system: componenti visuali generici e riusabili.
 
+=======
+`UI` = design system: componenti visuali generici e riusabili.
+>>>>>>> laraxot/dev
 Mappe, geocoding, marker, regioni/province/CAP, export GeoJSON/KML = **dominio geografico**.
 ## Perché
 
@@ -31,7 +38,10 @@ Quel dominio vive in `Modules/Geo` (quando il progetto lo include), **mai** in `
 Direzione dipendenze: **Geo → UI** (Geo può usare primitive UI). Mai il contrario.
 
 ## Questo progetto (`base_ptvx_fila5`)
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 `laravel/Modules/Geo` **non esiste** e **non deve essere reintrodotto** senza decisione esplicita.
 Quindi in UI non devono restare neanche fallback/null-object “per quando Geo manca”: senza Geo non serve il layer.
 ## Ownership della classe (Action / Component)
@@ -52,6 +62,7 @@ In questo repo `modules_statuses.json` ha `"Geo": false` e `laravel/Modules/Geo`
 - Contratti `LocationDataProviderContract`, `MapServiceContract`, `GeocodingServiceContract`
 - `LocationSelector`, `InteractiveMap` (e view correlate)
 - Service/adapter null-object di mappa/geocoding
+<<<<<<< HEAD
 
 ## Come è stato corretto (2026-07-22)
 
@@ -59,12 +70,18 @@ In questo repo `modules_statuses.json` ha `"Geo": false` e `laravel/Modules/Geo`
 
 **Fix (forward-only, niente `git restore`):**
 
+=======
+## Come è stato corretto (2026-07-22)
+**Problema:** in UI restavano adapter/contract/selector geografici anche se `Geo` non esiste in questo monorepo — violazione del confine (dominio in design system).
+**Fix (forward-only, niente `git restore`):**
+>>>>>>> laraxot/dev
 1. Eliminati `app/Adapters/Location/` e `app/Adapters/Map/` (e la cartella `app/Adapters/` se vuota).
 2. Eliminati i contratti `LocationDataProviderContract`, `MapServiceContract`, `GeocodingServiceContract`.
 3. Eliminato `LocationSelector.php` attivo (non reintrodurre come “null-adapter”).
 4. Rimosso da `UIServiceProvider` il `bindIf` / registrazione verso null-adapters Geo.
 5. Canon aggiornato qui + [second-brain.md](./second-brain.md) + [wiki/concepts/ui-geo-boundary-contracts.md](./wiki/concepts/ui-geo-boundary-contracts.md).
 6. Push dual-remote (`laraxot` + `provtv`) a tip `b874935` — vedi [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md) e [multi-org-sync-laraxot-provtv.md](./multi-org-sync-laraxot-provtv.md).
+<<<<<<< HEAD
 
 **Anti-pattern:** ricreare contract+null in UI “perché Geo manca”. Senza Geo non serve il layer.
 
@@ -72,11 +89,19 @@ In questo repo `modules_statuses.json` ha `"Geo": false` e `laravel/Modules/Geo`
 
 Rimosso il 2026-07-22 da UI (git history = archivio; **no** `docs/archive/`):
 
+=======
+**Anti-pattern:** ricreare contract+null in UI “perché Geo manca”. Senza Geo non serve il layer.
+## Storia (forward-only)
+Rimosso il 2026-07-22 da UI (git history = archivio; **no** `docs/archive/`):
+>>>>>>> laraxot/dev
 - `app/Adapters/Location/`, `app/Adapters/Map/`
 - contratti Location/Map/Geocoding
 - `LocationSelector.php` attivo
 - `bindIf` in `UIServiceProvider` verso null-adapters
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 Se in un altro monorepo servirà geografia: implementare in `Modules/Geo`, non ricopiare in UI.
 - `LocationSelector`, `InteractiveMap` (e view/lang correlate)
 - Service/adapter null-object di mappa/geocoding
@@ -88,6 +113,16 @@ Se in un altro monorepo servirà geografia: implementare in `Modules/Geo`, non r
 
 2026-08-18: `LocationSelector.php` non era tornato in `app/` (già assente). Era tornato `InteractiveMap.php` con `use Modules\Geo\Services\{MapService,GeocodingService}` — stessa violazione. Cancellati componente, `.old`, Blade e `lang/*/location_selector.php`. Niente `docs/archive/`: la history git basta.
 
+<<<<<<< HEAD
+=======
+2026-08-27: `LocationSelector.php` era ricomparso (merge `c89696dc`, 316 file con marker in UI).
+**Decisione utente (Marco):** il componente è dominio Geo, e Geo in questo progetto non deve
+esserci → il file attivo viene rinominato `.old`, non ricreato. `LocationSelector.php.to_geo`
+rimosso (questo canone: `.to_geo` non è un backup da tenere). Nessun riferimento residuo a
+`LocationSelector` in PHP/Blade/lang. `InteractiveMap.php` attivo con import `Modules\Geo\*`
+è ancora presente: violazione aperta, serve decisione (stesso trattamento `.old`?).
+
+>>>>>>> laraxot/dev
 Se in un altro monorepo servirà geografia: implementare in `Modules/Geo` (Action + Livewire/Filament lì), non ricopiare in UI.
 
 ## Verifica
@@ -100,7 +135,10 @@ test ! -f app/Contracts/MapServiceContract.php
 test ! -f app/Contracts/GeocodingServiceContract.php
 test ! -f app/Filament/Forms/Components/LocationSelector.php
 grep -R "Modules\\\\Geo" app/ --include="*.php" || true
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 test ! -f app/Filament/Forms/Components/LocationSelector.php
 test ! -f app/Livewire/Components/Map/InteractiveMap.php
 git grep -n 'Modules\\Geo' -- app || true

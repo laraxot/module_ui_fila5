@@ -5,9 +5,16 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit;
 
 use Modules\UI\Datas\ThemeMetadataData;
+<<<<<<< HEAD
 use PHPUnit\Framework\Assert;
 
 uses(\Modules\UI\Tests\TestCase::class);
+=======
+use Modules\UI\Tests\TestCase;
+use PHPUnit\Framework\Assert;
+
+uses(TestCase::class);
+>>>>>>> laraxot/dev
 
 it('espone i colori passati al costruttore', function (): void {
     $data = new ThemeMetadataData('#112233', '#445566');

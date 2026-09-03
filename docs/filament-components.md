@@ -66,6 +66,7 @@
 ## Collegamenti Bidirezionali
 
 ### Errori Comuni
+<<<<<<< HEAD
 - [Errori nei Componenti Filament](./filament-components-errors.md)
 - [Best Practices UI](../../best-practices.md)
 - [Implementazione Corretta](../../examples/correct-implementation.md)
@@ -74,6 +75,10 @@
 - [FileUpload](./components/file-upload.md)
 - [TextInput](./components/text-input.md)
 - [Select](./components/select.md)
+=======
+
+### Componenti Specifici
+>>>>>>> laraxot/dev
 
 ## Struttura della Documentazione
 
@@ -126,6 +131,7 @@
 * [filament-components.md](../../Cms/project_docs/best-practices/filament-components.md)
 * [filament-components.md](../../Cms/project_docs/filament-components.md)
 * [filament-components.md](../../../project_docs/rules/filament-components.md)
+<<<<<<< HEAD
 
 * [filament-components.md](../../../docs/rules/filament-components.md)
 * [filament-components.md](../../../docs/rules/filament-components.md)
@@ -134,3 +140,7 @@
 * [filament-components.md](../../../docs/rules/filament-components.md)
 ||||||| parent of 9a84589 (.):docs/archived/filament-components-1.md
 * [filament-components.md](../../../docs/rules/filament-components.md)
+=======
+* [filament-components.md](../../../docs/rules/filament-components.md)
+||||||| parent of 9a84589 (.):docs/archived/filament-components-1.md
+>>>>>>> laraxot/dev

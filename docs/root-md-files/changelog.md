@@ -1,4 +1,16 @@
 # Changelog
+<<<<<<< HEAD
+=======
+
+Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
+
+
+---
+
+## Contenuto assorbito da `changelog.md`
+
+# Changelog
+>>>>>>> laraxot/dev
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
 ---
 title: "Changelog"

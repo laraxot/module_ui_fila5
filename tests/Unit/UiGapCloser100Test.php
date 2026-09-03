@@ -4,9 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit;
 
+<<<<<<< HEAD
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Contracts\View\View as ViewContract;
+=======
+use Illuminate\Contracts\View\View as ViewContract;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
+>>>>>>> laraxot/dev
 use Illuminate\View\View;
 use Modules\UI\Enums\TableLayoutEnum;
 use Modules\UI\Filament\Blocks\Image;
@@ -29,11 +35,19 @@ use Modules\UI\View\Composers\ThemeComposer;
 use PHPUnit\Framework\Assert;
 use ReflectionClass;
 
+<<<<<<< HEAD
 uses(TestCase::class)->group('no-ui-db');
 
 describe('UI gap closer 100 — Livewire', function (): void {
     test('DarkModeSwitcher mount toggle and render', function (): void {
         $component = new DarkModeSwitcher();
+=======
+uses(TestCase::class);
+
+describe('UI gap closer 100 — Livewire', function (): void {
+    test('DarkModeSwitcher mount toggle and render', function (): void {
+        $component = new DarkModeSwitcher;
+>>>>>>> laraxot/dev
         $component->mount();
         Assert::assertFalse($component->darkMode);
         $component->toggleDarkMode();
@@ -42,7 +56,11 @@ describe('UI gap closer 100 — Livewire', function (): void {
     });
 
     test('Toast render exposes view params', function (): void {
+<<<<<<< HEAD
         $component = new Toast();
+=======
+        $component = new Toast;
+>>>>>>> laraxot/dev
         Assert::assertInstanceOf(ViewContract::class, $component->render());
     });
 });
@@ -64,7 +82,11 @@ describe('UI gap closer 100 — View components', function (): void {
     });
 
     test('ThemeComposer metatag and scripts', function (): void {
+<<<<<<< HEAD
         $composer = new ThemeComposer();
+=======
+        $composer = new ThemeComposer;
+>>>>>>> laraxot/dev
         Assert::assertSame('', $composer->showScripts());
         Assert::assertNull($composer->metatag('missing-key'));
         config(['metatag.test_bool' => true]);
@@ -76,7 +98,11 @@ describe('UI gap closer 100 — Filament widgets and forms', function (): void {
     test('RedirectWidget getViewData and canView', function (): void {
         Assert::assertTrue(RedirectWidget::canView());
 
+<<<<<<< HEAD
         $widget = new RedirectWidget();
+=======
+        $widget = new RedirectWidget;
+>>>>>>> laraxot/dev
         $widget->to = '/admin';
         $widget->label = 'Go';
         $widget->icon = 'heroicon-o-link';
@@ -93,7 +119,11 @@ describe('UI gap closer 100 — Filament widgets and forms', function (): void {
     });
 
     test('StatWithIconWidget getData and RowWidget getColumns', function (): void {
+<<<<<<< HEAD
         $stat = new StatWithIconWidget();
+=======
+        $stat = new StatWithIconWidget;
+>>>>>>> laraxot/dev
         $ref = new ReflectionClass($stat);
         $label = $ref->getProperty('label');
         $label->setAccessible(true);
@@ -112,7 +142,11 @@ describe('UI gap closer 100 — Filament widgets and forms', function (): void {
     });
 
     test('HeroWidget getStats and UserCalendarWidget private normalizers', function (): void {
+<<<<<<< HEAD
         $hero = new HeroWidget();
+=======
+        $hero = new HeroWidget;
+>>>>>>> laraxot/dev
         $heroRef = new ReflectionClass($hero);
         foreach (['title' => 'Welcome', 'icon' => 'heroicon-o-star'] as $prop => $val) {
             $p = $heroRef->getProperty($prop);
@@ -123,7 +157,11 @@ describe('UI gap closer 100 — Filament widgets and forms', function (): void {
         Assert::assertIsIterable($stats);
         Assert::assertCount(1, $stats);
 
+<<<<<<< HEAD
         $calendar = new UserCalendarWidget();
+=======
+        $calendar = new UserCalendarWidget;
+>>>>>>> laraxot/dev
         $calendarRef = new ReflectionClass($calendar);
         $normalizeEvents = $calendarRef->getMethod('normalizeEventsArray');
         $normalizeEvents->setAccessible(true);
@@ -174,7 +212,11 @@ describe('UI gap closer 100 — Filament widgets and forms', function (): void {
 describe('UI gap closer 100 — middleware trait rules', function (): void {
     test('SetLocale handles non-string session locale', function (): void {
         Session::put('locale', 123);
+<<<<<<< HEAD
         $middleware = new SetLocale();
+=======
+        $middleware = new SetLocale;
+>>>>>>> laraxot/dev
         $response = $middleware->handle(Request::create('/'), static fn () => response('ok'));
         Assert::assertSame(200, $response->getStatusCode());
     });
@@ -188,7 +230,11 @@ describe('UI gap closer 100 — middleware trait rules', function (): void {
 
             public function dispatch(mixed ...$params): void
             {
+<<<<<<< HEAD
                 ++$this->dispatched;
+=======
+                $this->dispatched++;
+>>>>>>> laraxot/dev
             }
         };
 
@@ -209,7 +255,11 @@ describe('UI gap closer 100 — middleware trait rules', function (): void {
     });
 
     test('OpeningHoursRule cleanTimeValue rejects non-string', function (): void {
+<<<<<<< HEAD
         $rule = new OpeningHoursRule();
+=======
+        $rule = new OpeningHoursRule;
+>>>>>>> laraxot/dev
         $method = (new ReflectionClass($rule))->getMethod('cleanTimeValue');
         $method->setAccessible(true);
 

@@ -7,7 +7,10 @@ updated: 2026-07-14
 qmd: "chartjs-datalabels-multiple-labels-complete-guide guida completa: multiple labels con chartjs-plugin-datalabels in filament 5.x (modulo ui)"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
@@ -601,7 +604,10 @@ protected function getOptions(): array
 - [Guida Completa Chart Module](../../chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
 - [Filament 5.x Installation Guide](../../chart/docs/filament-5-installation-guide.md)
 - [SimpleChartWidget con Sfondi](../../Quaeris/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 - [SimpleChartWidget con Sfondi](../../modulo questionari/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
 
 ### Documentazione Ufficiale
@@ -614,5 +620,8 @@ protected function getOptions(): array
 **Versione:** 1.0  
 **Ultimo Aggiornamento:** Gennaio 2026  
 **Mantenuto da:** Quaeris Development Team
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 **Mantenuto da:** modulo questionari Development Team

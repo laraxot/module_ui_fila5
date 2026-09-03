@@ -90,7 +90,10 @@ resources/views/components/ui/
 
 ## AI Workflows
 - [AI Methodologies](./ai-methodologies.md)
+<<<<<<< HEAD
 ||||||| parent of 9a84589 (.)
+=======
+>>>>>>> laraxot/dev
     case LIST = 'list';
     case GRID = 'grid';
 
@@ -131,7 +134,10 @@ Workflow: `.github/workflows/semantic-versioning.yml`
 ## 📄 License
 MIT
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 ## Standard Rules & Workflow
 
 - [[BMAD Method](../../../../docs/wiki/concepts/bmad-method.md)]
@@ -806,10 +812,13 @@ php artisan ui:test-components
 ## 📚 **Documentazione Completa**
 
 ### 🏗️ **Architettura**
+<<<<<<< HEAD
 - [Components Guide](components.md) - Guida completa componenti
 - [Design System](design-system.md) - Sistema design modulare
 - [Architecture Rules](architecture_rules.md) - Regole architetturali
 - [Best Practices](best-practices.md) - Linee guida sviluppo
+=======
+>>>>>>> laraxot/dev
 
 ### 🔗 **Collegamenti Moduli**
 - **[Xot Module](../Xot/docs/README.md)** - Framework core e convenzioni
@@ -819,6 +828,7 @@ php artisan ui:test-components
 - **[Progressioni Module](../Progressioni/docs/README.md)** - Sistema progressioni
 
 ### 🧩 **Componenti**
+<<<<<<< HEAD
 - [Blade Components](blade-components.md) - Componenti Blade riutilizzabili
 - [Form Components](form-components.md) - Componenti form avanzati
 - [Table Components](table-components.md) - Componenti tabella
@@ -834,6 +844,12 @@ php artisan ui:test-components
 - [PHPStan Fixes](phpstan/README.md) - Log completo correzioni PHPStan
 - [Translation Fixes](theme-translation-sync.md) - Correzioni traduzioni
 - [Clean Code](clean-code/README.md) - Principi clean code
+=======
+
+### 🎨 **Filament Integration**
+
+### 🔧 **Development**
+>>>>>>> laraxot/dev
 
 ## 🎨 **Componenti Principali**
 
@@ -1055,6 +1071,7 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 ## 🤝 **Contributing**
 
 ### 📋 **Checklist Contribuzione**
+<<<<<<< HEAD
 - [ ] Codice passa PHPStan level 10
 - [ ] Codice passa PHPStan Level 9
 - [ ] Codice passa PHPStan Level 9
@@ -1064,6 +1081,8 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 - [ ] Traduzioni complete (IT/EN/DE)
 - [ ] Componenti testati
 - [ ] Responsive design verificato
+=======
+>>>>>>> laraxot/dev
 
 ### 🎯 **Convenzioni**
 - **Component Naming**: Sempre in minuscolo con trattini
@@ -1074,6 +1093,7 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 ## 📊 **Roadmap**
 
 ### 🎯 **Q1 2025**
+<<<<<<< HEAD
 - [ ] **Advanced Components** - Componenti interattivi avanzati
 - [ ] **Theme System** - Sistema temi personalizzabili
 - [ ] **Animation Library** - Libreria animazioni CSS
@@ -1087,6 +1107,12 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 - [ ] **AI Component Generation** - Generazione automatica componenti
 - [ ] **Advanced Layouts** - Layout avanzati e dinamici
 - [ ] **Real-time Collaboration** - Collaborazione in tempo reale
+=======
+
+### 🎯 **Q2 2025**
+
+### 🎯 **Q3 2025**
+>>>>>>> laraxot/dev
 
 ## 📞 **Support & Maintainers**
 
@@ -1131,12 +1157,15 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 **🚀 Performance**: 97/100 score 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [Documentazione Root](../../../docs/translation_standards_links.md)
 - [Regole Traduzioni](translation_rules.md)
 - [Best Practices Filament](filament_best_practices.md)
 - [Componenti UI](components.md)
 - [TableLayoutEnum Analysis](table_layout_enum_analysis.md)
 - [TableLayoutEnum Usage](table-layout-enum-usage.md)
+=======
+>>>>>>> laraxot/dev
 - **[REGOLA CRITICA: MAI usare ->label()](never_use_label_rule.md)**
 - **[REGOLA CRITICA: SEMPRE usa transClass()](transclass_rule.md)**
 

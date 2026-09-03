@@ -81,4 +81,8 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 - [Best Practices](best-practices.md)
 
 ## Note
+<<<<<<< HEAD
 Questa documentazione è collegata bidirezionalmente con la documentazione specifica dei moduli. Per dettagli su resources specifiche, consultare la documentazione del modulo corrispondente.
+=======
+Questa documentazione è collegata bidirezionalmente con la documentazione specifica dei moduli. Per dettagli su resources specifiche, consultare la documentazione del modulo corrispondente. 
+>>>>>>> laraxot/dev
