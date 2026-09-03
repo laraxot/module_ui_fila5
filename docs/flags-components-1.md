@@ -16,6 +16,41 @@ Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazion
 
 I file SVG delle bandiere sono archiviati in:
 ```
+<<<<<<< HEAD
+=======
+/var/www/html/saluteora/laravel/Modules/UI/resources/svg/flags/
+```
+Ogni bandiera è rappresentata da un file SVG con il codice ISO del paese come nome file (ad esempio, `it.svg` per l'Italia, `gb.svg` per il Regno Unito).
+## Registrazione Automatica
+I componenti SVG sono autoregistrati tramite il metodo `registerBladeIcons()` nel `XotBaseServiceProvider`. Questo metodo configura i set di icone Blade con il prefisso del modulo, consentendo di utilizzare i componenti SVG delle bandiere in qualsiasi vista Blade.
+```php
+public function registerBladeIcons(): void
+{
+    // ...
+    $svgPath = module_path($this->name, $relativePath.'/../svg');
+    Config::set('blade-icons.sets.'.$this->nameLower.'.path', $svgPath);
+    Config::set('blade-icons.sets.'.$this->nameLower.'.prefix', $this->nameLower);
+}
+## Utilizzo dei Componenti Bandiera
+### Sintassi Base
+I componenti SVG delle bandiere possono essere utilizzati con la seguente sintassi:
+```blade
+<x-ui-flags.it class="h-5 w-5" />
+<x-ui-flags.gb class="h-5 w-5" />
+<x-ui-flags.fr class="h-5 w-5" />
+Dove:
+- `ui` è il prefisso del modulo (in minuscolo)
+- `flags` è la sottodirectory all'interno della cartella `svg`
+- `it`, `gb`, `fr` sono i codici ISO dei paesi
+### Attributi Supportati
+I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
+- `class`: Per applicare classi CSS
+- `style`: Per applicare stili inline
+- `width` e `height`: Per dimensionare l'SVG
+- `title`: Per aggiungere un titolo accessibile
+- `aria-*`: Per migliorare l'accessibilità
+### Esempio con Attributi
+>>>>>>> laraxot/dev
 <x-ui-flags.it 
     class="h-6 w-6 rounded-full shadow-sm" 
     title="Italiano" 

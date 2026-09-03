@@ -8,7 +8,11 @@ use Modules\UI\Models\Collection;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
+<<<<<<< HEAD
 uses(TestCase::class)->group('no-ui-db');
+=======
+uses(TestCase::class);
+>>>>>>> laraxot/dev
 
 describe('Collection Model', function (): void {
     test('it can hydrate a collection with valid data in memory', function (): void {
@@ -24,7 +28,11 @@ describe('Collection Model', function (): void {
     });
 
     test('it has fillable attributes', function (): void {
+<<<<<<< HEAD
         $collection = new Collection();
+=======
+        $collection = new Collection;
+>>>>>>> laraxot/dev
         $expected = ['name', 'description', 'type'];
 
         foreach ($expected as $field) {
@@ -33,7 +41,11 @@ describe('Collection Model', function (): void {
     });
 
     test('collection has timestamps enabled', function (): void {
+<<<<<<< HEAD
         $collection = new Collection();
+=======
+        $collection = new Collection;
+>>>>>>> laraxot/dev
 
         Assert::assertTrue($collection->timestamps);
     });

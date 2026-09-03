@@ -56,6 +56,7 @@ La strategia adottata per la risoluzione dei conflitti si è basata sui seguenti
 Questa documentazione integra le informazioni sui conflitti risolti, fornendo dettagli sui problemi, le soluzioni adottate e le motivazioni, per mantenere la memoria storica delle scelte e facilitare la comprensione dell'evoluzione del sistema.
 
 ## Sessione 2026-08-25 — marker orfani docs
+<<<<<<< HEAD
 
 **Problema:** 17 file in `Modules/UI/docs/` avevano solo `>>>>>>> laraxot/dev` (risoluzione a metà: apertura già tolta).
 
@@ -65,6 +66,12 @@ Questa documentazione integra le informazioni sui conflitti risolti, fornendo de
 
 **Collegamenti:** [regola progetto](../../../../docs/rules/no-conflict-markers-anywhere.md) · [Xot risoluzione-conflitti](../../Xot/docs/risoluzione-conflitti.md) · [XOT-5.37](../../Xot/docs/stories/5.37.zero-conflict-markers-repo-wide.story.md)
 
+=======
+**Problema:** 17 file in `Modules/UI/docs/` avevano solo `>>>>>>> laraxot/dev` (risoluzione a metà: apertura già tolta).
+**Soluzione:** rimossa la sola riga-etichetta; contenuto HEAD conservato. Nessun conflitto completo rimasto.
+**Verifica:** `/bin/grep` + `verify-no-conflict-markers.sh` → 0 orfani nel modulo.
+**Collegamenti:** [regola progetto](../../../../docs/rules/no-conflict-markers-anywhere.md) · [Xot risoluzione-conflitti](../../Xot/docs/risoluzione-conflitti.md) · [XOT-5.37](../../Xot/docs/stories/5.37.zero-conflict-markers-repo-wide.story.md)
+>>>>>>> laraxot/dev
 ## Backlink
 - [Torna a docs/links.md](../../../../docs/links.md)
 - [Vedi anche: UI/docs/README.md](./README.md)
@@ -72,7 +79,10 @@ Questa documentazione integra le informazioni sui conflitti risolti, fornendo de
 - [Vedi anche: Blog/docs/README.md](../../Blog/docs/README.md)
 - [Vedi anche: Cms/docs/README.md](../../Cms/docs/README.md)
 - [Vedi anche: Comment/docs/README.md](../../Comment/docs/README.md)
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 # Conflitti di Merge Risolti nel Modulo UI
 ## Conflitti Risolti (2025-05-13)
 ### 1. UIServiceProvider.php

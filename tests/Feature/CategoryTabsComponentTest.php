@@ -11,7 +11,11 @@ use PHPUnit\Framework\Assert;
 uses(TestCase::class);
 
 /**
+<<<<<<< HEAD
  * @param array<string, mixed> $data
+=======
+ * @param  array<string, mixed>  $data
+>>>>>>> laraxot/dev
  */
 function renderCategoryTabsHtml(array $data = []): ?string
 {
@@ -27,12 +31,20 @@ function renderCategoryTabsHtml(array $data = []): ?string
 }
 
 /**
+<<<<<<< HEAD
  * @param array<string, mixed> $data
+=======
+ * @param  array<string, mixed>  $data
+>>>>>>> laraxot/dev
  */
 function requireCategoryTabsHtml(array $data = []): string
 {
     $html = renderCategoryTabsHtml($data);
+<<<<<<< HEAD
     if (null === $html) {
+=======
+    if ($html === null) {
+>>>>>>> laraxot/dev
         Assert::markTestSkipped('pub_theme category-tabs view not available in this install.');
     }
 

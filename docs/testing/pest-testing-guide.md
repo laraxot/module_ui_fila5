@@ -7,7 +7,10 @@ updated: 2026-07-14
 qmd: "pest-testing-guide pest testing guide - ui module"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
@@ -344,7 +347,11 @@ Based on existing UI module tests:
 ## 🔗 Related Documentation
 
 ### **Module Documentation**
+<<<<<<< HEAD
 - [UI Module README](../readme.md)
+=======
+- [UI Module README](../README.md)
+>>>>>>> laraxot/dev
 - [Component Architecture](../components.md)
 - [Theme System](../themes.md)
 

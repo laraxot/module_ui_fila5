@@ -1,16 +1,25 @@
 # =============================================================================
 # LARAXOT MODULE: UI - .gitignore
+<<<<<<< HEAD
 # =============================================================================
+=======
+>>>>>>> laraxot/dev
 #
 # Canonical rules:
 # - docs/wiki/rules/root-cleanup-policy.md
 # - docs/wiki/rules/module-theme-root-cleanup.md
+<<<<<<< HEAD
 #
+=======
+>>>>>>> laraxot/dev
 
 
 # -----------------------------------------------------------------------------
 # Forbidden root directories / AI tooling
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
+=======
+>>>>>>> laraxot/dev
 /bashscripts/
 /_bmad/
 /_bmad-output/
@@ -31,9 +40,13 @@ tests/.claude-audit/
 tests/AuditCoverage/
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Documentation cleanup
 # -----------------------------------------------------------------------------
+=======
+# Documentation cleanup
+>>>>>>> laraxot/dev
 docs/archive/
 docs/archived/
 docs/legacy/
@@ -58,9 +71,13 @@ docs/**/*_[0-9].md
 docs/**/*_[0-9][0-9].md
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Dependencies
 # -----------------------------------------------------------------------------
+=======
+# Dependencies
+>>>>>>> laraxot/dev
 /vendor/
 /node_modules/
 /docs/vendor/
@@ -70,18 +87,26 @@ package-lock.json
 yarn.lock
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Python / virtual environments
 # -----------------------------------------------------------------------------
+=======
+# Python / virtual environments
+>>>>>>> laraxot/dev
 .venv/
 venv/
 __pycache__/
 *.py[cod]
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Build / compiled artifacts
 # -----------------------------------------------------------------------------
+=======
+# Build / compiled artifacts
+>>>>>>> laraxot/dev
 /build/
 /dist/
 
@@ -92,9 +117,13 @@ public/js/compiled/
 public/mix-manifest.json
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Laravel runtime
 # -----------------------------------------------------------------------------
+=======
+# Laravel runtime
+>>>>>>> laraxot/dev
 /storage/*.key
 /public/storage
 /public/hot
@@ -102,9 +131,13 @@ public/mix-manifest.json
 /public_html/hot
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Environment / local configuration
 # -----------------------------------------------------------------------------
+=======
+# Environment / local configuration
+>>>>>>> laraxot/dev
 .env
 .env.*
 !.env.example
@@ -116,9 +149,13 @@ Homestead.yaml
 Homestead.json
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # IDE / editor
 # -----------------------------------------------------------------------------
+=======
+# IDE / editor
+>>>>>>> laraxot/dev
 /.idea/
 /.vscode/
 /.cursor/
@@ -129,9 +166,13 @@ Homestead.json
 .phpstorm.meta.php
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Cache / temporary files
 # -----------------------------------------------------------------------------
+=======
+# Cache / temporary files
+>>>>>>> laraxot/dev
 .php-cs-fixer.cache
 .phpunit.result.cache
 
@@ -147,9 +188,13 @@ Homestead.json
 v8-compile-cache-*
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Logs
 # -----------------------------------------------------------------------------
+=======
+# Logs
+>>>>>>> laraxot/dev
 *.log
 error_log
 
@@ -158,9 +203,13 @@ yarn-error.log*
 lerna-debug.log*
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Git / merge / rebase leftovers
 # -----------------------------------------------------------------------------
+=======
+# Git / merge / rebase leftovers
+>>>>>>> laraxot/dev
 .git-rewrite/
 .git-blame-ignore-revs
 
@@ -176,9 +225,13 @@ lerna-debug.log*
 *~head
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Backup / old files
 # -----------------------------------------------------------------------------
+=======
+# Backup / old files
+>>>>>>> laraxot/dev
 *.old
 *.old1
 *.old2
@@ -192,9 +245,13 @@ lerna-debug.log*
 *.new
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Legacy directories
 # -----------------------------------------------------------------------------
+=======
+# Legacy directories
+>>>>>>> laraxot/dev
 resources/views/Components_old/
 resources/lang/
 lang/lang/
@@ -205,9 +262,13 @@ database/Seeders_old/
 database/Factories_old/
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # UI module specific
 # -----------------------------------------------------------------------------
+=======
+# UI module specific
+>>>>>>> laraxot/dev
 *.fila2
 
 *.psd
@@ -220,9 +281,13 @@ design_notes.txt
 /public_html/
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # System files
 # -----------------------------------------------------------------------------
+=======
+# System files
+>>>>>>> laraxot/dev
 .DS_Store
 .DS_Store?
 ._*
@@ -237,9 +302,13 @@ ehthumbs.db
 agentdb.rvf
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Root quality tools
 # -----------------------------------------------------------------------------
+=======
+# Root quality tools
+>>>>>>> laraxot/dev
 phpstan*
 phpmd*
 rector.php

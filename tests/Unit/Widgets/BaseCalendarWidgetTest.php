@@ -17,7 +17,12 @@ uses(TestCase::class);
 
 function createTestCalendarWidget(): UserCalendarWidget
 {
+<<<<<<< HEAD
     $widget = new class extends UserCalendarWidget {
+=======
+    $widget = new class extends UserCalendarWidget
+    {
+>>>>>>> laraxot/dev
         public function getActionName(string $function): string
         {
             unset($function);
@@ -31,12 +36,22 @@ function createTestCalendarWidget(): UserCalendarWidget
 }
 
 beforeEach(function (): void {
+<<<<<<< HEAD
     /* @var \Modules\UI\Tests\TestCase $this */
     $this->mockService(SaveTransAction::class, static function (MockInterface $mock): void {
         /** @var ExpectationInterface $expectation */
         $expectation = $mock->shouldReceive('execute');
         $expectation->andReturn(null);
     });
+=======
+    /** @var MockInterface&SaveTransAction $mock */
+    $mock = \Mockery::mock(SaveTransAction::class);
+    /** @var ExpectationInterface $expectation */
+    $expectation = $mock->shouldReceive('execute');
+    $expectation->andReturn(null);
+
+    app()->instance(SaveTransAction::class, $mock);
+>>>>>>> laraxot/dev
 });
 
 describe('Base Calendar Widget', function (): void {
@@ -59,7 +74,11 @@ describe('Base Calendar Widget', function (): void {
 
     test('falls back to aminimal schema if action does not exist', function (): void {
         $widget = createTestCalendarWidget();
+<<<<<<< HEAD
         $formSchema = $widget->getFormSchema(); // @phpstan-ignore method.deprecated (hook di progetto: la deprecazione e ereditata per nome dal prototipo Filament 5, il codice eseguito e il nostro — story 16.12)
+=======
+        $formSchema = $widget->getFormSchema();
+>>>>>>> laraxot/dev
 
         Assert::assertCount(2, $formSchema);
         Assert::assertInstanceOf(TextInput::class, $formSchema[0]);
@@ -69,7 +88,11 @@ describe('Base Calendar Widget', function (): void {
 
     test('fallback schema contains agrid for datetime pickers', function (): void {
         $widget = createTestCalendarWidget();
+<<<<<<< HEAD
         $formSchema = $widget->getFormSchema(); // @phpstan-ignore method.deprecated (hook di progetto: la deprecazione e ereditata per nome dal prototipo Filament 5, il codice eseguito e il nostro — story 16.12)
+=======
+        $formSchema = $widget->getFormSchema();
+>>>>>>> laraxot/dev
 
         $grid = $formSchema[1];
         Assert::assertInstanceOf(Grid::class, $grid);

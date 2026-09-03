@@ -1,6 +1,9 @@
 # =============================================================================
 # LARAXOT MODULE: UI - .gitignore
+<<<<<<< HEAD
 # =============================================================================
+=======
+>>>>>>> laraxot/dev
 #
 # Canonical documentation:
 # ../../../Themes/docs/shared-components/.gitignore-Modules
@@ -8,7 +11,10 @@
 
 # -----------------------------------------------------------------------------
 # Forbidden directories (root cleanup policy)
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
+=======
+>>>>>>> laraxot/dev
 bashscripts/
 _bmad/
 _bmad-output/
@@ -25,9 +31,13 @@ tests/.claude-audit/
 tests/AuditCoverage/
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Documentation archives / generated content
 # -----------------------------------------------------------------------------
+=======
+# Documentation archives / generated content
+>>>>>>> laraxot/dev
 docs/archive/
 docs/archived/
 docs/legacy/
@@ -46,9 +56,13 @@ docs/cache/
 docs/phpstan/
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Documentation files
 # -----------------------------------------------------------------------------
+=======
+# Documentation files
+>>>>>>> laraxot/dev
 agentdb.rvf
 
 phpstan-corrections-gennaio-2025.md
@@ -74,9 +88,13 @@ redundancy-audit-2026-05-21.md
 *_[0-9][0-9].md
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Dependencies
 # -----------------------------------------------------------------------------
+=======
+# Dependencies
+>>>>>>> laraxot/dev
 /vendor/
 /node_modules/
 /docs/vendor/
@@ -86,18 +104,26 @@ package-lock.json
 yarn.lock
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Python
 # -----------------------------------------------------------------------------
+=======
+# Python
+>>>>>>> laraxot/dev
 .venv/
 venv/
 __pycache__/
 *.py[cod]
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Build artifacts
 # -----------------------------------------------------------------------------
+=======
+# Build artifacts
+>>>>>>> laraxot/dev
 /build/
 /dist/
 
@@ -108,9 +134,13 @@ public/js/compiled/
 public/mix-manifest.json
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Laravel
 # -----------------------------------------------------------------------------
+=======
+# Laravel
+>>>>>>> laraxot/dev
 /storage/*.key
 /public/storage
 /public/hot
@@ -119,9 +149,13 @@ public/mix-manifest.json
 /public_html/hot
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Environment
 # -----------------------------------------------------------------------------
+=======
+# Environment
+>>>>>>> laraxot/dev
 .env
 .env.*
 !.env.example
@@ -130,9 +164,13 @@ config/local.php
 config/development.php
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # IDE / editors
 # -----------------------------------------------------------------------------
+=======
+# IDE / editors
+>>>>>>> laraxot/dev
 .idea/
 .vscode/
 .cursor/
@@ -143,9 +181,13 @@ config/development.php
 /.vagrant
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Cache / temporary files
 # -----------------------------------------------------------------------------
+=======
+# Cache / temporary files
+>>>>>>> laraxot/dev
 .php-cs-fixer.cache
 .phpunit.result.cache
 
@@ -161,9 +203,13 @@ config/development.php
 v8-compile-cache-*
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Logs
 # -----------------------------------------------------------------------------
+=======
+# Logs
+>>>>>>> laraxot/dev
 *.log
 error_log
 
@@ -172,9 +218,13 @@ yarn-error.log*
 lerna-debug.log*
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Git / merge leftovers
 # -----------------------------------------------------------------------------
+=======
+# Git / merge leftovers
+>>>>>>> laraxot/dev
 .git-rewrite/
 .git-blame-ignore-revs
 
@@ -188,11 +238,15 @@ lerna-debug.log*
 *~LOCAL
 *~REMOTE
 *~head
+<<<<<<< HEAD
 
 
 # -----------------------------------------------------------------------------
 # Backup files
 # -----------------------------------------------------------------------------
+=======
+# Backup files
+>>>>>>> laraxot/dev
 *.old
 *.old1
 *.old2
@@ -201,6 +255,7 @@ lerna-debug.log*
 *.backup.*
 *.backup-*
 *.backup_*
+<<<<<<< HEAD
 
 *.bak
 *.new
@@ -209,6 +264,11 @@ lerna-debug.log*
 # -----------------------------------------------------------------------------
 # Legacy
 # -----------------------------------------------------------------------------
+=======
+*.bak
+*.new
+# Legacy
+>>>>>>> laraxot/dev
 resources/views/Components_old/
 resources/lang/
 lang/lang/
@@ -218,10 +278,14 @@ database/Migrations_old/
 database/Seeders_old/
 database/Factories_old/
 
+<<<<<<< HEAD
 
 # -----------------------------------------------------------------------------
 # UI module
 # -----------------------------------------------------------------------------
+=======
+# UI module
+>>>>>>> laraxot/dev
 *.fila2
 *.psd
 *.fig
@@ -233,9 +297,13 @@ laravel/
 public_html/
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # System files
 # -----------------------------------------------------------------------------
+=======
+# System files
+>>>>>>> laraxot/dev
 .DS_Store
 .DS_Store?
 ._*
@@ -248,9 +316,16 @@ ehthumbs.db
 *:Zone.Identifier
 
 
+<<<<<<< HEAD
 # -----------------------------------------------------------------------------
 # Root quality tools
 # -----------------------------------------------------------------------------
 phpstan*
 phpmd*
 rector.php
+=======
+# Root quality tools
+phpstan*
+phpmd*
+rector.php
+>>>>>>> laraxot/dev
