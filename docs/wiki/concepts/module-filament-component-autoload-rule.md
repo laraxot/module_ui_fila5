@@ -7,7 +7,10 @@ updated: 2026-07-14
 qmd: "module-filament-component-autoload-rule module filament component autoload rule"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
@@ -34,7 +37,10 @@ Non usare path paralleli fuori da `app/` per classi namespaced `Modules\UI\...`.
 ## Perche'
 
 L'errore recente su `EnumSelect` non era un problema del widget Fixcity ma di autoload: il file era stato creato nel path sbagliato e Laravel non trovava la classe `Modules\UI\Filament\Forms\Components\EnumSelect`.
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 L'errore recente su `EnumSelect` non era un problema del widget <nome progetto> ma di autoload: il file era stato creato nel path sbagliato e Laravel non trovava la classe `Modules\UI\Filament\Forms\Components\EnumSelect`.
 L'errore recente su `EnumSelect` non era un problema del widget progetto corrente ma di autoload: il file era stato creato nel path sbagliato e Laravel non trovava la classe `Modules\UI\Filament\Forms\Components\EnumSelect`.
 

@@ -67,9 +67,13 @@ final class UiCoverageDoneState implements StateContract
     /**
      * @param  array<string, mixed>  $data
      */
+<<<<<<< HEAD
     public function modalActionByRecord(Model $record, array $data): void
     {
     }
+=======
+    public function modalActionByRecord(Model $record, array $data): void {}
+>>>>>>> laraxot/dev
 
     public function isMessageRequired(): bool
     {

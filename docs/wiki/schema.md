@@ -20,7 +20,10 @@ docs/
 │   ├── index.md           # Catalogo
 │   ├── log.md             # Registro
 │   ├── SCHEMA.md          # Questo file
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 │   ├── schema.md          # Questo file
 │   ├── concepts/          # Pattern, architettura
 │   ├── entities/          # Modelli, azioni
@@ -35,3 +38,15 @@ docs/
 - Frontmatter: title, description, tags, created
 - Cross-ref: `[Link](../concepts/name.md)`
 - NON modificare mai `docs/raw/`
+<<<<<<< HEAD
+=======
+
+
+---
+
+## Contenuto assorbito da `SCHEMA.md`
+
+# Documento unificato
+
+Questo file era un duplicato esatto che differiva solo per maiuscole/minuscole, in violazione della regola no-case-only-variations. Il contenuto canonico si trova in [schema.md](./schema.md).
+>>>>>>> laraxot/dev

@@ -7,12 +7,20 @@ namespace Modules\UI\Tests\Unit;
 use Illuminate\Auth\GenericUser;
 use Illuminate\Support\Facades\Auth;
 use Modules\UI\Actions\GetUserDataAction;
+<<<<<<< HEAD
+=======
+use Modules\UI\Tests\TestCase;
+>>>>>>> laraxot/dev
 use Modules\User\Models\User;
 use PHPUnit\Framework\Assert;
 use Spatie\Permission\Models\Permission;
 use Spatie\Permission\Models\Role;
 
+<<<<<<< HEAD
 uses(\Modules\UI\Tests\TestCase::class);
+=======
+uses(TestCase::class);
+>>>>>>> laraxot/dev
 
 /**
  * Utente in memoria, con le relazioni Spatie già impostate.
