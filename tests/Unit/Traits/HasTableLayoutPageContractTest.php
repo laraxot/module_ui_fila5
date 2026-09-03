@@ -9,15 +9,11 @@ use Modules\UI\Filament\Traits\HasTableLayoutPage;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-uses(\Modules\UI\Tests\TestCase::class);
+uses(TestCase::class);
 
 test('exposes table layout page trait for cross-module consumers', function (): void {
-<<<<<<< .merge_file_0rlgf3
-    $page = new class()
+    $page = new class
     {
-=======
-    $page = new class {
->>>>>>> .merge_file_fx7wgF
         use HasTableLayoutPage;
     };
 
