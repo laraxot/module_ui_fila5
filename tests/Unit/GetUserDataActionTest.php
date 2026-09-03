@@ -13,7 +13,7 @@ use PHPUnit\Framework\Assert;
 use Spatie\Permission\Models\Permission;
 use Spatie\Permission\Models\Role;
 
-uses(\Modules\UI\Tests\TestCase::class);
+uses(TestCase::class);
 
 /**
  * Utente in memoria, con le relazioni Spatie già impostate.
