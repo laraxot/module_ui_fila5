@@ -12,7 +12,7 @@ use PHPUnit\Framework\Assert;
 
 use function Safe\file_get_contents;
 
-uses(\Modules\UI\Tests\TestCase::class);
+uses(TestCase::class);
 
 test('stats overview widget extends correct base class', function (): void {
     $widget = new StatsOverviewWidget();

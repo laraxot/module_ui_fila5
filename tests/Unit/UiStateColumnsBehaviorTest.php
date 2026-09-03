@@ -30,7 +30,7 @@ use ReflectionClass;
 
 use function Safe\mkdir;
 
-uses(\Modules\UI\Tests\TestCase::class);
+uses(TestCase::class);
 
 afterEach(function (): void {
     UiCoverageRecord::$findMap = [];
