@@ -7,7 +7,7 @@ namespace Modules\UI\Tests;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Support\Facades\DB;
-use Mockery\Expectation;
+use Mockery\ExpectationInterface;
 use Mockery\LegacyMockInterface;
 use Mockery\MockInterface;
 use Modules\UI\Providers\UIServiceProvider;
@@ -38,9 +38,9 @@ abstract class TestCase extends XotBaseTestCase
      * Il tipo dichiarato era Expectation, ma shouldReceive() restituisce una
      * CompositeExpectation: entrambe implementano ExpectationInterface.
      */
-    public static function expectMethod(LegacyMockInterface|MockInterface $mock, string $method): Expectation
+    public static function expectMethod(LegacyMockInterface|MockInterface $mock, string $method): ExpectationInterface
     {
-        /** @var Expectation $expectation */
+        /** @var ExpectationInterface $expectation */
         $expectation = $mock->shouldReceive($method);
 
         return $expectation;
