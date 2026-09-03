@@ -8,3 +8,17 @@ https://keen-slider.io/examples
 
 https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
 
+<<<<<<< HEAD
+=======
+
+
+## Appendice — contenuto migrato
+
+---
+module: theme
+topic: carousel-slider
+canonical: ../../../Themes/docs/shared-components/carousel-slider.md
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/carousel-slider.md
+>>>>>>> laraxot/dev

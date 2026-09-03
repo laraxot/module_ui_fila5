@@ -37,7 +37,10 @@ final class OverlookWidget extends XotBaseSchemaWidget
 
     /**
      * @return array<string, Component>
+<<<<<<< HEAD
      * @return array<string, mixed>
+=======
+>>>>>>> laraxot/dev
      */
     public function getFormSchema(): array
     {

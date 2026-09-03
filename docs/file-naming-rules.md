@@ -40,7 +40,10 @@ Su filesystem case-insensitive (Windows, macOS default), file con nomi che diffe
 - LICENSE.md (maiuscolo - convenzione universale)
 - CONTRIBUTING.md (maiuscolo - convenzione universale)
 - SECURITY.md (maiuscolo - convenzione universale)
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 - Tutti gli altri: kebab-case minuscolo
   → file-naming-rules.md
   → phpstan-fixes.md

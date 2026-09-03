@@ -13,6 +13,13 @@ use Modules\UI\Enums\TableLayout;
 use Modules\UI\Enums\TableLayoutEnum;
 use Modules\UI\Filament\Actions\Header\TableLayoutToggleHeaderAction;
 use Modules\UI\Filament\Actions\Table\TableLayoutToggleTableAction;
+<<<<<<< HEAD
+=======
+use Modules\UI\Filament\Blocks\Contact;
+use Modules\UI\Filament\Blocks\ImagesGallery;
+use Modules\UI\Filament\Blocks\Post;
+use Modules\UI\Filament\Components\SpatieDocumentUpload;
+>>>>>>> laraxot/dev
 use Modules\UI\Filament\Forms\Components\AddressField;
 use Modules\UI\Filament\Forms\Components\IconPicker;
 use Modules\UI\Filament\Forms\Components\OpeningHoursField;
@@ -26,7 +33,13 @@ use Modules\UI\Filament\Tables\Columns\IconStateGroupColumn;
 use Modules\UI\Filament\Tables\Columns\IconStateSplitColumn;
 use Modules\UI\Filament\Tables\Columns\IDColumn;
 use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
+<<<<<<< HEAD
 use Modules\UI\Filament\Widgets\UserCalendarWidget;
+=======
+use Modules\UI\Filament\Widgets\TestChartWidget;
+use Modules\UI\Filament\Widgets\UserCalendarWidget;
+use Modules\UI\Forms\Components\RadioCardSelector;
+>>>>>>> laraxot/dev
 use Modules\UI\Http\Controllers\LanguageController;
 use Modules\UI\Http\Middleware\SetLocale;
 use Modules\UI\Models\Category;
@@ -70,12 +83,21 @@ describe('UI highest-miss coverage', function (): void {
                 continue;
             }
             Assert::assertInstanceOf(BuilderBlock::class, $class::make());
+<<<<<<< HEAD
             ++$count;
         }
         Assert::assertGreaterThan(10, $count);
         Assert::assertArrayHasKey('4-3', \Modules\UI\Filament\Blocks\ImagesGallery::getRatios());
         Assert::assertSame('aspect-[4/3]', \Modules\UI\Filament\Blocks\ImagesGallery::getRatioClass('4-3'));
         Assert::assertSame('', \Modules\UI\Filament\Blocks\ImagesGallery::getRatioClass('free'));
+=======
+            $count++;
+        }
+        Assert::assertGreaterThan(10, $count);
+        Assert::assertArrayHasKey('4-3', ImagesGallery::getRatios());
+        Assert::assertSame('aspect-[4/3]', ImagesGallery::getRatioClass('4-3'));
+        Assert::assertSame('', ImagesGallery::getRatioClass('free'));
+>>>>>>> laraxot/dev
     });
 
     test('form components instantiate and RadioBadge resolves enums', function (): void {
@@ -125,6 +147,7 @@ describe('UI highest-miss coverage', function (): void {
         $widgets->setAccessible(true);
         Assert::assertNotEmpty($widgets->invoke($dashboard));
 
+<<<<<<< HEAD
         $calendar = new UserCalendarWidget();
         $calendar->type = 'master_admin';
         Assert::assertSame([], $calendar->fetchEvents(['start' => now()->toIso8601String()]));
@@ -147,11 +170,39 @@ describe('UI highest-miss coverage', function (): void {
         config(['app.supported_locales' => ['it', 'en'], 'app.locale' => 'it']);
         Assert::assertTrue((new LanguageController())->switch('en')->isRedirect());
         Assert::assertTrue((new LanguageController())->switch('xx')->isRedirect());
+=======
+        $calendar = new UserCalendarWidget;
+        $calendar->type = 'master_admin';
+        Assert::assertSame([], $calendar->fetchEvents(['start' => now()->toIso8601String()]));
+        Assert::assertNotEmpty($calendar->getFormSchema());
+
+        $chart = new TestChartWidget;
+        Assert::assertNotSame('', $chart->getDescription());
+        $icons = (new GetAllIconsAction)->execute();
+        Assert::assertSame($icons, (new GetAllIconsAction)->execute());
+    });
+
+    test('models middleware language controller and view helpers', function (): void {
+        Assert::assertNotSame('', (new Category)->getTable());
+        Assert::assertNotSame('', (new Collection)->getTable());
+        Assert::assertNotSame('', (new FieldOption)->getTable());
+
+        $response = (new SetLocale)->handle(Request::create('/'), static fn (): Response => new Response('ok'));
+        Assert::assertSame('ok', $response->getContent());
+
+        config(['app.supported_locales' => ['it', 'en'], 'app.locale' => 'it']);
+        Assert::assertTrue((new LanguageController)->switch('en')->isRedirect());
+        Assert::assertTrue((new LanguageController)->switch('xx')->isRedirect());
+>>>>>>> laraxot/dev
 
         $block = new Block(['data' => ['view' => 'ui::empty']]);
         Assert::assertSame('ui::empty', $block->view);
 
+<<<<<<< HEAD
         $composer = new ThemeComposer();
+=======
+        $composer = new ThemeComposer;
+>>>>>>> laraxot/dev
         Assert::assertSame('', $composer->showScripts());
         Assert::assertNull($composer->metatag('missing-key'));
     });
@@ -161,9 +212,13 @@ describe('UI highest-miss coverage', function (): void {
         {
             use TableLayoutTrait;
 
+<<<<<<< HEAD
             public function dispatch(mixed ...$params): void
             {
             }
+=======
+            public function dispatch(mixed ...$params): void {}
+>>>>>>> laraxot/dev
         };
         $subject->setTableLayout(TableLayoutEnum::LIST);
         Assert::assertSame(TableLayoutEnum::LIST, $subject->getTableLayout());
@@ -173,6 +228,7 @@ describe('UI highest-miss coverage', function (): void {
     });
 
     test('XotBase blocks and document upload factories expose schema', function (): void {
+<<<<<<< HEAD
         Assert::assertNotEmpty(\Modules\UI\Filament\Blocks\Contact::getFormSchema());
         Assert::assertNotEmpty(\Modules\UI\Filament\Blocks\Category::getFormSchema());
         Assert::assertNotEmpty(\Modules\UI\Filament\Blocks\Post::getFormSchema());
@@ -182,6 +238,17 @@ describe('UI highest-miss coverage', function (): void {
         Assert::assertSame('isee_certificate', \Modules\UI\Filament\Components\SpatieDocumentUpload::forIseeDocument()->getName());
         Assert::assertSame('certifications', \Modules\UI\Filament\Components\SpatieDocumentUpload::forCertifications()->getName());
         Assert::assertSame('custom_doc', \Modules\UI\Filament\Components\SpatieDocumentUpload::custom('custom_doc', 'docs')->getName());
+=======
+        Assert::assertNotEmpty(Contact::getFormSchema());
+        Assert::assertNotEmpty(\Modules\UI\Filament\Blocks\Category::getFormSchema());
+        Assert::assertNotEmpty(Post::getFormSchema());
+        Assert::assertNotSame('', Contact::getTitle());
+
+        Assert::assertSame('identity_document', SpatieDocumentUpload::forIdentityDocument()->getName());
+        Assert::assertSame('isee_certificate', SpatieDocumentUpload::forIseeDocument()->getName());
+        Assert::assertSame('certifications', SpatieDocumentUpload::forCertifications()->getName());
+        Assert::assertSame('custom_doc', SpatieDocumentUpload::custom('custom_doc', 'docs')->getName());
+>>>>>>> laraxot/dev
     });
 
     test('RadioCollection YearSelect SelectState and RadioCardSelector configure', function (): void {
@@ -197,7 +264,11 @@ describe('UI highest-miss coverage', function (): void {
         $selectState = SelectState::make('state');
         Assert::assertSame('state', $selectState->getName());
 
+<<<<<<< HEAD
         $card = \Modules\UI\Forms\Components\RadioCardSelector::make('card')
+=======
+        $card = RadioCardSelector::make('card')
+>>>>>>> laraxot/dev
             ->cards([['id' => 1, 'title' => 'A']])
             ->sectionTitle('Pick')
             ->populatesField('name');
@@ -211,9 +282,13 @@ describe('UI highest-miss coverage', function (): void {
         {
             use \Modules\UI\Filament\Actions\Table\TableLayoutTrait;
 
+<<<<<<< HEAD
             public function resetTable(): void
             {
             }
+=======
+            public function resetTable(): void {}
+>>>>>>> laraxot/dev
         };
         $subject->saveLayout(TableLayoutEnum::LIST, 'table');
         Assert::assertSame(TableLayoutEnum::LIST, $subject->getCurrentLayout('table'));

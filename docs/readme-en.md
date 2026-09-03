@@ -9,7 +9,10 @@
 [![Strict Types](https://img.shields.io/badge/PHP-strict__types-1-informational.svg)](#)
 [![Laraxot Modules](https://img.shields.io/badge/Architecture-Modular-purple.svg)](#)
 [![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 [![<nome progetto> Platform](https://img.shields.io/badge/Platform-<nome progetto>-008758.svg)](#)
 [![Current Platform](https://img.shields.io/badge/Platform-progetto corrente-008758.svg)](#)
 
@@ -57,6 +60,9 @@ Frontoffice stack: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filamen
 ---
 
 **Module** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 **Module** `ui` · **Laraxot** · **<nome progetto> Platform** · PHPStan 10 · Filament 5
 **Module** `ui` · **Laraxot** · **Current Platform** · PHPStan 10 · Filament 5

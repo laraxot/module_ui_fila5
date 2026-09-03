@@ -58,7 +58,10 @@ Questa doc va sempre consultata e linkata in ogni review e sviluppo che coinvolg
 
 ## Collegamenti tra versioni di filament-error-fileupload-buttonlabel.md
 * [filament-error-fileupload-buttonlabel.md](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
+<<<<<<< HEAD
 * [filament-error-fileupload-buttonlabel.md](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
 * [filament-error-fileupload-buttonlabel.md](../../Patient/project_docs/filament-error-fileupload-buttonlabel.md)
 
+=======
+>>>>>>> laraxot/dev
 * [filament-error-fileupload-buttonlabel.md](../../Patient/docs/filament-error-fileupload-buttonlabel.md)

@@ -58,7 +58,10 @@ Report locale (2026-07-17). Metodo: `phpstan analyse` livello max, `phpmd` (rule
 | Rating | - | - | 7% | 0 |
 | Seo | - | - | 100% | 0 |
 | TechPlanner | - | - | 2% | 0 |
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 | modulo operativo | - | - | 2% | 0 |
 | Tenant | - | - | 75% | 6 |
 | UI | - | - | 34% | 4 |

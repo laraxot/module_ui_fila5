@@ -737,7 +737,11 @@ Se il troubleshooting non risolve:
    ```
 
 5. **Consulta documentation**:
+<<<<<<< HEAD
    - [INDEX](./INDEX.md) — Complete file listing
+=======
+   - [INDEX](./index.md) — Complete file listing
+>>>>>>> laraxot/dev
    - [PATTERNS](./PATTERNS.md) — Architectural decisions
    - [architecture/component-registration](./architecture/component-registration.md) — Component setup
 
@@ -747,5 +751,9 @@ Se il troubleshooting non risolve:
 
 - [README](./README.md) — Overview modulo
 - [PATTERNS](./PATTERNS.md) — Decisioni architetturali
+<<<<<<< HEAD
 - [INDEX](./INDEX.md) — Indice documentazione completo
+=======
+- [INDEX](./index.md) — Indice documentazione completo
+>>>>>>> laraxot/dev
 - [standards/ui-standards](./standards/ui-standards.md) — Component standards

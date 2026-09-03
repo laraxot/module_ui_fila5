@@ -3,12 +3,18 @@
 Su Linux i file `Foo.md` e `foo.md` coesistono; su Windows/macOS collidono. Una sola variante per coppia.
 
 File duplicati rilevati nel modulo `UI`:
+<<<<<<< HEAD
 
 ## Risolto (2026-08-18)
 
 Uniformare ciascuna coppia scegliendo un'unica versione (in genere `README.md`, `CONTRIBUTING.md`, ecc.) e rimuovere i duplicati.
 Su Linux i file `Foo.md` e `foo.md` coesistono; su Windows/macOS collidono. Una sola variante per coppia.
 
+=======
+## Risolto (2026-08-18)
+Uniformare ciascuna coppia scegliendo un'unica versione (in genere `README.md`, `CONTRIBUTING.md`, ecc.) e rimuovere i duplicati.
+Su Linux i file `Foo.md` e `foo.md` coesistono; su Windows/macOS collidono. Una sola variante per coppia.
+>>>>>>> laraxot/dev
 ## Risolto (2026-08-18)
 
 | Coppia | Tenuto | Perché |

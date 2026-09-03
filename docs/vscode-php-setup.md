@@ -166,10 +166,15 @@
 ```
 
 ## Tasks Personalizzati
+<<<<<<< HEAD
 
 ```json
 // tasks.json
 
+=======
+```json
+// tasks.json
+>>>>>>> laraxot/dev
 ## Best Practices
 
 ### 1. Organizzazione Workspace
@@ -464,8 +469,11 @@
         "editor.codeActionsOnSave": {
             "source.fixAll.php": true
         }
+<<<<<<< HEAD
     }
 }
+=======
+>>>>>>> laraxot/dev
 ```
 ## Configurazione Filament
     // Filament Plugin
@@ -507,7 +515,10 @@
 // launch.json
     "version": "0.2.0",
     "configurations": [
+<<<<<<< HEAD
         {
+=======
+>>>>>>> laraxot/dev
             "name": "Listen for Xdebug",
             "type": "php",
             "request": "launch",
@@ -522,12 +533,18 @@
             "group": {
                 "kind": "test",
                 "isDefault": true
+<<<<<<< HEAD
             },
             "presentation": {
                 "reveal": "always",
                 "panel": "new"
             }
     ]
+=======
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+>>>>>>> laraxot/dev
 ## Best Practices
 ### 1. Organizzazione Workspace
 ```plaintext
@@ -541,13 +558,19 @@
 ### 2. Keybindings Consigliati
 // keybindings.json
 [
+<<<<<<< HEAD
     {
+=======
+>>>>>>> laraxot/dev
         "key": "ctrl+shift+i",
         "command": "namespaceResolver.import",
         "when": "editorTextFocus"
         "key": "ctrl+shift+s",
         "command": "namespaceResolver.sort",
+<<<<<<< HEAD
 ]
+=======
+>>>>>>> laraxot/dev
 ### 3. Workspace Esclusioni
     "files.exclude": {
         "vendor/": true,
@@ -578,5 +601,8 @@
 - [PHP Intelephense](https://intelephense.com)
 
 ```
+<<<<<<< HEAD
 
 ```
+=======
+>>>>>>> laraxot/dev

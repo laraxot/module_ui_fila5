@@ -6,6 +6,11 @@ namespace Modules\UI\Tests\Unit\Stubs;
 
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
+<<<<<<< HEAD
+=======
+use Illuminate\Contracts\Support\Htmlable;
+use Illuminate\Support\HtmlString;
+>>>>>>> laraxot/dev
 
 enum UiCoverageBadgeEnum: string implements HasColor, HasIcon
 {
@@ -29,13 +34,22 @@ enum UiCoverageBadgeEnum: string implements HasColor, HasIcon
         };
     }
 
+<<<<<<< HEAD
     public function getIcon(): string|\Illuminate\Contracts\Support\Htmlable|null
+=======
+    public function getIcon(): string|Htmlable|null
+>>>>>>> laraxot/dev
     {
         return match ($this) {
             self::HtmlIcon => '<svg></svg>',
             self::NullIcon => null,
+<<<<<<< HEAD
             self::HtmlableIcon => new \Illuminate\Support\HtmlString('<i>x</i>'),
             self::BareHtmlableIcon => new class implements \Illuminate\Contracts\Support\Htmlable
+=======
+            self::HtmlableIcon => new HtmlString('<i>x</i>'),
+            self::BareHtmlableIcon => new class implements Htmlable
+>>>>>>> laraxot/dev
             {
                 public function toHtml(): string
                 {

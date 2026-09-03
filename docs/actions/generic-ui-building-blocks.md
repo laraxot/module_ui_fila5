@@ -84,7 +84,10 @@ unico entrypoint `execute()`). Azioni presenti, raggruppate per sotto-cartella:
   quando il pacchetto sarà aggiornato.
 
 ## Violazione regola di dipendenza — SOLO SEGNALAZIONE
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 `app/Filament/Forms/Components/LocationSelector.php` importa `Modules\Geo\Models\Comune`
 (riga 11). La regola del progetto è che `Modules/UI` non deve mai dipendere da `Modules/Geo`
 (la direzione corretta è Geo → UI). Esiste anche un file gemello
