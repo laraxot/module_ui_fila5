@@ -7,7 +7,7 @@ namespace Modules\UI\Actions;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
 use Modules\UI\Datas\UserData;
-use Modules\User\Models\User;
+use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Spatie\Permission\Contracts\Permission;
