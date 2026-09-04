@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit\Stubs;
 
 use Illuminate\Support\Collection;
-use Modules\User\Models\User;
+use Modules\Xot\Contracts\UserContract;
 
 /**
  * User in-memory per GetUserDataAction — evita Mockery property.notFound.
