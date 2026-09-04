@@ -29,6 +29,7 @@ use PHPUnit\Framework\Assert;
 use ReflectionClass;
 
 use function Safe\mkdir;
+use Modules\User\Models\User;
 
 uses(TestCase::class)->group('no-ui-db');
 
