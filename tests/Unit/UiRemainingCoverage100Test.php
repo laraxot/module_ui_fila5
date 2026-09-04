@@ -10,9 +10,6 @@ use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\File;
 use Illuminate\View\View;
-use Mockery\Expectation;
-use Mockery\LegacyMockInterface;
-use Mockery\MockInterface;
 use Modules\UI\Actions\GetUserDataAction;
 use Modules\UI\Actions\Icon\GetAllIconsAction;
 use Modules\UI\Filament\Forms\Components\AddressField;
@@ -30,17 +27,6 @@ use Modules\UI\View\Components\Svg;
 use Modules\Xot\Actions\GetViewAction;
 use PHPUnit\Framework\Assert;
 use ReflectionClass;
-
-/**
- * Narrows Mockery's shouldReceive() union return type for PHPStan.
- */
-function expectMethod(LegacyMockInterface|MockInterface $mock, string $method): Expectation
-{
-    /** @var Expectation $expectation */
-    $expectation = $mock->shouldReceive($method);
-
-    return $expectation;
-}
 
 use function Safe\mkdir;
 
@@ -94,14 +80,14 @@ describe('UI remaining 100 — enum e form', function (): void {
 describe('UI remaining 100 — view e actions', function (): void {
     test('view Std Svg Navbar WithSidebar con GetViewAction mock', function (): void {
         $mock = \Mockery::mock(GetViewAction::class);
-        expectMethod($mock, 'execute')->andReturn('ui::empty');
+        TestCase::expectMethod($mock, 'execute')->andReturn('ui::empty');
         app()->instance(GetViewAction::class, $mock);
 
         foreach ([
             (new Std('tpl'))->render(),
             (new Svg('tpl'))->render(),
-            (new Navbar())->render(),
-            (new WithSidebar())->render(),
+            (new Navbar)->render(),
+            (new WithSidebar)->render(),
         ] as $view) {
             Assert::assertInstanceOf(View::class, $view);
             Assert::assertSame('ui::empty', $view->name());
@@ -129,7 +115,7 @@ describe('UI remaining 100 — altri componenti', function (): void {
     });
 
     test('GetUserDataAction avatar da profile_photo_path', function (): void {
-        $user = new UiCoverageAuthUser();
+        $user = new UiCoverageAuthUser;
         $user->forceFill([
             'id' => 5,
             'name' => 'Path User',
