@@ -4,10 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit\Helpers;
 
-<<<<<<< HEAD
-=======
 use Modules\Cms\Actions\ResolveLocalizedBlockDataAction;
->>>>>>> laraxot/dev
 use ReflectionClass;
 
 /**
@@ -51,11 +48,7 @@ final class UiCoverageMissHelpers
 
     public static function ensureCmsStub(): void
     {
-<<<<<<< HEAD
-        if (class_exists(\Modules\Cms\Actions\ResolveLocalizedBlockDataAction::class, false)) {
-=======
         if (class_exists(ResolveLocalizedBlockDataAction::class, false)) {
->>>>>>> laraxot/dev
             return;
         }
 

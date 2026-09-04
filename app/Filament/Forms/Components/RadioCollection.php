@@ -26,11 +26,7 @@ final class RadioCollection extends XotBaseField
      * Set the options collection for the radio buttons.
      */
     /**
-<<<<<<< HEAD
-     * @param \Closure|Collection<int|string, mixed>|null $options
-=======
      * @param  \Closure|Collection<int|string, mixed>|null  $options
->>>>>>> laraxot/dev
      */
     public function options(\Closure|Collection|null $options): static
     {

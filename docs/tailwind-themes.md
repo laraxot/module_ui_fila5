@@ -4,8 +4,6 @@ https://merakiui.com/
 
 
 
-<<<<<<< HEAD
-=======
 
 
 ## Appendice — contenuto migrato
@@ -17,4 +15,3 @@ canonical: ../../../Themes/docs/shared-components/tailwind-themes.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/tailwind-themes.md
->>>>>>> laraxot/dev

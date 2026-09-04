@@ -80,23 +80,14 @@ describe('UI remaining 100 — enum e form', function (): void {
 describe('UI remaining 100 — view e actions', function (): void {
     test('view Std Svg Navbar WithSidebar con GetViewAction mock', function (): void {
         $mock = \Mockery::mock(GetViewAction::class);
-<<<<<<< HEAD
-        $mock->shouldReceive('execute')->andReturn('ui::empty');
-=======
         TestCase::expectMethod($mock, 'execute')->andReturn('ui::empty');
->>>>>>> laraxot/dev
         app()->instance(GetViewAction::class, $mock);
 
         foreach ([
             (new Std('tpl'))->render(),
             (new Svg('tpl'))->render(),
-<<<<<<< HEAD
-            (new Navbar())->render(),
-            (new WithSidebar())->render(),
-=======
             (new Navbar)->render(),
             (new WithSidebar)->render(),
->>>>>>> laraxot/dev
         ] as $view) {
             Assert::assertInstanceOf(View::class, $view);
             Assert::assertSame('ui::empty', $view->name());
@@ -124,11 +115,7 @@ describe('UI remaining 100 — altri componenti', function (): void {
     });
 
     test('GetUserDataAction avatar da profile_photo_path', function (): void {
-<<<<<<< HEAD
-        $user = new UiCoverageAuthUser();
-=======
         $user = new UiCoverageAuthUser;
->>>>>>> laraxot/dev
         $user->forceFill([
             'id' => 5,
             'name' => 'Path User',

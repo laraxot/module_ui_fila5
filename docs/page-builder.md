@@ -1,6 +1,4 @@
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
-<<<<<<< HEAD
-=======
 
 
 ## Appendice — contenuto migrato
@@ -12,4 +10,3 @@ canonical: ../../../Themes/docs/shared-components/page-builder.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/page-builder.md
->>>>>>> laraxot/dev

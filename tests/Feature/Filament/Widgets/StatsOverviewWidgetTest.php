@@ -15,11 +15,7 @@ use function Safe\file_get_contents;
 uses(TestCase::class);
 
 test('stats overview widget extends correct base class', function (): void {
-<<<<<<< HEAD
-    $widget = new StatsOverviewWidget();
-=======
     $widget = new StatsOverviewWidget;
->>>>>>> laraxot/dev
     Assert::assertInstanceOf(FilamentStatsOverviewWidget::class, $widget);
 });
 
@@ -28,21 +24,13 @@ test('stats overview widget has correct namespace', function (): void {
 });
 
 test('stats overview widget has getStats method', function (): void {
-<<<<<<< HEAD
-    $widget = new StatsOverviewWidget();
-=======
     $widget = new StatsOverviewWidget;
->>>>>>> laraxot/dev
     $reflection = new \ReflectionClass($widget);
     Assert::assertTrue($reflection->hasMethod('getStats'));
 });
 
 test('stats overview widget returns correct stats', function (): void {
-<<<<<<< HEAD
-    $widget = new StatsOverviewWidget();
-=======
     $widget = new StatsOverviewWidget;
->>>>>>> laraxot/dev
     $reflection = new \ReflectionClass($widget);
     $method = $reflection->getMethod('getStats');
     Assert::assertTrue($method->isProtected());
@@ -57,11 +45,7 @@ test('stats overview widget returns correct stats', function (): void {
 });
 
 test('stats overview widget can be instantiated', function (): void {
-<<<<<<< HEAD
-    $widget = new StatsOverviewWidget();
-=======
     $widget = new StatsOverviewWidget;
->>>>>>> laraxot/dev
     Assert::assertInstanceOf(StatsOverviewWidget::class, $widget);
 });
 
@@ -69,11 +53,7 @@ test('stats overview widget has correct strict types declaration', function (): 
     $reflection = new \ReflectionClass(StatsOverviewWidget::class);
     $filename = $reflection->getFileName();
 
-<<<<<<< HEAD
-    if (false !== $filename) {
-=======
     if ($filename !== false) {
->>>>>>> laraxot/dev
         $content = file_get_contents($filename);
         Assert::assertStringContainsString('declare(strict_types=1)', $content);
     }
@@ -99,11 +79,7 @@ test('stats overview widget has correct use statements', function (): void {
     $reflection = new \ReflectionClass(StatsOverviewWidget::class);
     $filename = $reflection->getFileName();
 
-<<<<<<< HEAD
-    if (false !== $filename) {
-=======
     if ($filename !== false) {
->>>>>>> laraxot/dev
         $content = file_get_contents($filename);
         Assert::assertStringContainsString('use Modules\\Xot\\Filament\\Widgets\\XotBaseStatsOverviewWidget;', $content);
     }

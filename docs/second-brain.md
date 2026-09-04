@@ -6,14 +6,8 @@ updated: 2026-07-22
 issues:
   - https://github.com/provtv/module_ui_fila5/issues
 discussions:
-<<<<<<< HEAD
-  - https://github.com/laraxot/base_fixcity_fila5/discussions/273
-
-- https://github.com/laraxot/<nome repitory>/discussions/273
-=======
   - https://github.com/laraxot/<nome repitory>/discussions/273
   - https://github.com/laraxot/base_fixcity_fila5/discussions/273
->>>>>>> laraxot/dev
   - https://github.com/laraxot/platform/discussions/273
 ---
 

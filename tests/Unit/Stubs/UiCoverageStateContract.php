@@ -6,10 +6,7 @@ namespace Modules\UI\Tests\Unit\Stubs;
 
 use Filament\Schemas\Components\Component;
 use Illuminate\Database\Eloquent\Model;
-<<<<<<< HEAD
-=======
 use Illuminate\Support\Collection;
->>>>>>> laraxot/dev
 use Modules\Xot\Contracts\StateContract;
 
 /**
@@ -103,15 +100,9 @@ class UiCoverageStateContract implements StateContract
     }
 
     /**
-<<<<<<< HEAD
-     * @return \Illuminate\Support\Collection<string, string>
-     */
-    public static function getStateMapping(): \Illuminate\Support\Collection
-=======
      * @return Collection<string, string>
      */
     public static function getStateMapping(): Collection
->>>>>>> laraxot/dev
     {
         return collect([
             'pending' => self::class,

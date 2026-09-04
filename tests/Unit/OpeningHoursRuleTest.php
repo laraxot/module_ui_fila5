@@ -7,16 +7,10 @@ namespace Modules\UI\Tests\Unit;
 use Illuminate\Translation\PotentiallyTranslatedString;
 use Modules\UI\Actions\Datetime\GetDaysMappingAction;
 use Modules\UI\Rules\OpeningHoursRule;
-<<<<<<< HEAD
-use PHPUnit\Framework\Assert;
-
-uses(\Modules\UI\Tests\TestCase::class);
-=======
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
->>>>>>> laraxot/dev
 
 /**
  * Applica la regola e restituisce i messaggi di errore raccolti.

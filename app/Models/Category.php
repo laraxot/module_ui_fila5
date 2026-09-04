@@ -5,34 +5,6 @@ declare(strict_types=1);
 namespace Modules\UI\Models;
 
 use Illuminate\Database\Eloquent\Builder;
-<<<<<<< HEAD
-use Illuminate\Support\Carbon;
-use Modules\UI\Database\Factories\CategoryFactory;
-use Modules\Xot\Contracts\ProfileContract;
-use Modules\Xot\Models\BaseModel;
-
-/**
- * @property string               $id
- * @property string|null          $name
- * @property string               $title
- * @property string               $slug
- * @property int|null             $parent_id
- * @property Carbon|null          $created_at
- * @property Carbon|null          $updated_at
- * @property string|null          $description
- * @property string|null          $icon
- * @property string|null          $updated_by
- * @property string|null          $created_by
- * @property Carbon|null          $deleted_at
- * @property string|null          $deleted_by
- * @property int                  $is_active
- * @property int                  $sort_order
- * @property ProfileContract|null $creator
- * @property ProfileContract|null $updater
- * @property ProfileContract|null $deleter
- *
- * @method static CategoryFactory factory($count = null, $state = [])
-=======
 use Modules\Xot\Models\BaseModel;
 
 /**
@@ -45,13 +17,24 @@ use Modules\Xot\Models\BaseModel;
  * @property string|null $icon
  * @property bool $is_active
  * @property int $sort_order
- *
  * @method static \Modules\UI\Database\Factories\CategoryFactory factory($count = null, $state = [])
  * @method static Builder<static>|Category newModelQuery()
  * @method static Builder<static>|Category newQuery()
  * @method static Builder<static>|Category query()
->>>>>>> laraxot/dev
- *
+ * @property string|null $created_by
+ * @property string|null $updated_by
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property-read \Modules\Quaeris\Models\Profile|null $creator
+ * @property-read \Modules\Quaeris\Models\Profile|null $deleter
+ * @property-read \Modules\Quaeris\Models\Profile|null $updater
+ * @method static Builder<static>|Category whereCreatedAt($value)
+ * @method static Builder<static>|Category whereCreatedBy($value)
+ * @method static Builder<static>|Category whereId($value)
+ * @method static Builder<static>|Category whereParentId($value)
+ * @method static Builder<static>|Category whereSlug($value)
+ * @method static Builder<static>|Category whereUpdatedAt($value)
+ * @method static Builder<static>|Category whereUpdatedBy($value)
  * @mixin \Eloquent
  */
 class Category extends BaseModel

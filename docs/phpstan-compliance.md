@@ -1,21 +1,11 @@
 # PHPStan Compliance - UI Module
 
 ## Status: ✅ FULLY COMPLIANT
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 **Analysis Date:** September 22, 2025
 **PHPStan Level:** 9 (Maximum)
 **Files Analyzed:** 237
 **Errors Found:** 0
-<<<<<<< HEAD
-
 ## Compliance Summary
-
-=======
-## Compliance Summary
->>>>>>> laraxot/dev
 The UI module is fully compliant with PHPStan level 10 analysis, demonstrating:
 ## Stato canonico corrente
 

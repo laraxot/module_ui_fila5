@@ -12,12 +12,8 @@ use PHPUnit\Framework\Assert;
 uses(TestCase::class);
 
 test('exposes table layout page trait for cross-module consumers', function (): void {
-<<<<<<< HEAD
-    $page = new class {
-=======
     $page = new class
     {
->>>>>>> laraxot/dev
         use HasTableLayoutPage;
     };
 
