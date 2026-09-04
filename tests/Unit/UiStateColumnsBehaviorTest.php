@@ -9,10 +9,6 @@ use Filament\Actions\Action;
 use Filament\Forms\Components\Select;
 use Filament\Notifications\Notification;
 use Illuminate\Database\Eloquent\Model;
-<<<<<<< HEAD
-use Illuminate\Database\Eloquent\Relations\HasOne;
-=======
->>>>>>> laraxot/dev
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\File;
 use Mockery;
@@ -24,12 +20,6 @@ use Modules\UI\Filament\Tables\Columns\IconStateGroupColumn;
 use Modules\UI\Filament\Tables\Columns\IconStateSplitColumn;
 use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
 use Modules\UI\Tests\TestCase;
-<<<<<<< HEAD
-use Modules\UI\Tests\Unit\Stubs\UiCoverageAddressChildRecord;
-use Modules\UI\Tests\Unit\Stubs\UiCoverageAddressHasOneRelation;
-use Modules\UI\Tests\Unit\Stubs\UiCoverageAddressParentRecord;
-=======
->>>>>>> laraxot/dev
 use Modules\UI\Tests\Unit\Stubs\UiCoverageDoneState;
 use Modules\UI\Tests\Unit\Stubs\UiCoverageRecord;
 use Modules\UI\Tests\Unit\Stubs\UiCoverageRecordWithThrowingState;
@@ -40,11 +30,7 @@ use ReflectionClass;
 
 use function Safe\mkdir;
 
-<<<<<<< HEAD
-uses(TestCase::class)->group('no-ui-db');
-=======
 uses(TestCase::class);
->>>>>>> laraxot/dev
 
 afterEach(function (): void {
     UiCoverageRecord::$findMap = [];
@@ -54,11 +40,7 @@ afterEach(function (): void {
 describe('UI state columns — comportamento IconStateColumn', function (): void {
     test('icon color tooltip rispondono allo StateContract', function (): void {
         $column = IconStateColumn::make('state');
-<<<<<<< HEAD
-        $state = new UiCoverageStateContract();
-=======
         $state = new UiCoverageStateContract;
->>>>>>> laraxot/dev
 
         Assert::assertSame('heroicon-o-clock', $column->getIcon($state));
         Assert::assertSame('warning', $column->getColor($state));
@@ -128,13 +110,8 @@ describe('UI state columns — comportamento IconStateColumn', function (): void
         $record = new UiCoverageRecord(['id' => 1]);
         $record->setAttribute('state', new UiCoverageStateContract($record));
 
-<<<<<<< HEAD
-        $this->expectException(\Exception::class);
-        $action->call(['record' => $record, 'data' => ['state' => 123]]);
-=======
         expect(static fn () => $action->call(['record' => $record, 'data' => ['state' => 123]]))
             ->toThrow(\Exception::class);
->>>>>>> laraxot/dev
     });
 });
 
@@ -326,11 +303,6 @@ function uiInvokeBeforeStateUpdated(SelectStateColumn $column, Model $record, mi
     $closure($record, $state);
 }
 
-<<<<<<< HEAD
-/**
- */
-=======
->>>>>>> laraxot/dev
 function uiFirstActionSchemaComponent(Action $action): Select
 {
     $ref = new ReflectionClass($action);
@@ -349,7 +321,3 @@ function uiFirstActionSchemaComponent(Action $action): Select
 
     throw new \RuntimeException('Select component not found in action schema');
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev

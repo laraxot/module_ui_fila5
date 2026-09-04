@@ -1,25 +1,13 @@
 # List Records in Filament
 
 ## Estensione Corretta
-<<<<<<< HEAD
-
 ```php
 // ❌ ERRATO: Non estendere ListRecords
 use Filament\Resources\Pages\ListRecords;
-
-=======
-```php
-// ❌ ERRATO: Non estendere ListRecords
-use Filament\Resources\Pages\ListRecords;
->>>>>>> laraxot/dev
 class ListMyRecords extends ListRecords
 {
     // ...
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 // ✅ CORRETTO: Estendere XotBaseListRecords
 ## Perché
 
@@ -39,10 +27,6 @@ class ListMyRecords extends XotBaseListRecords
     {
         return [
             // definizione colonne
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 // colonne
         ];
     }
@@ -52,46 +36,21 @@ class ListMyRecords extends XotBaseListRecords
 ## Metodi obbligatori
 
 ## Metodi Obbligatori
-<<<<<<< HEAD
-
 Quando si estende `XotBaseListRecords`:
-
-=======
-Quando si estende `XotBaseListRecords`:
->>>>>>> laraxot/dev
 1. `getListTableColumns()` — colonne
 2. `getListTableActions()` — azioni riga
 3. `getListTableBulkActions()` — azioni di massa
 4. `getListTableFilters()` — filtri
-<<<<<<< HEAD
-
-Prefisso `List` obbligatorio. Visibilità `public`. Non cambiare la visibilità dei metodi ereditati.
-
-## Errori comuni
-
-=======
 Prefisso `List` obbligatorio. Visibilità `public`. Non cambiare la visibilità dei metodi ereditati.
 ## Errori comuni
->>>>>>> laraxot/dev
 - Estendere `ListRecords` Filament direttamente
 - Usare `getTableColumns()` / `getTableActions()` senza prefisso `List`
 - Mettere la tabella sulla Resource invece che sulla pagina List
 - `protected function getListTableColumns()`
-<<<<<<< HEAD
-
-## Best practices
-
-```php
-declare(strict_types=1);
-
-namespace Modules\XXX\Filament\Resources\XXXResource\Pages;
-
-=======
 ## Best practices
 ```php
 declare(strict_types=1);
 namespace Modules\XXX\Filament\Resources\XXXResource\Pages;
->>>>>>> laraxot/dev
 use Exception;
 use Filament\Actions;
 use Filament\Actions\CreateAction;
@@ -113,20 +72,12 @@ use Modules\UI\Filament\Actions\Table\TableLayoutToggleTableAction;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
     public function getGridTableColumns(): array
     {
         return [
         ];
     }
 ## Metodi obbligatori
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 Quando si estende `XotBaseListRecords`:
 
 1. `getListTableColumns()` — colonne
@@ -155,38 +106,6 @@ class ListMyRecords extends XotBaseListRecords
         return [
         ];
     }
-<<<<<<< HEAD
-
-    public function getTableFilters(): array
-    {
-        return [
-        ];
-    }
-
-    public function getTableActions(): array
-    {
-        return [
-
-            ViewAction::make()
-                ->label(''),
-            EditAction::make()
-                ->label(''),
-            DeleteAction::make()
-                ->label('')
-                ->requiresConfirmation(),
-        ];
-    }
-
-    public function getTableBulkActions(): array
-    {
-        return [
-            DeleteBulkAction::make(),
-        ];
-    }
-
-    public function table(Table $table): Table
-    {
-=======
     public function getTableFilters(): array
     {
         return [
@@ -200,16 +119,11 @@ class ListMyRecords extends XotBaseListRecords
     public function getTableBulkActions(): array
             DeleteBulkAction::make(),
     public function table(Table $table): Table
->>>>>>> laraxot/dev
         return $table
             // ->columns($this->getTableColumns())
             ->columns($this->layoutView->getTableColumns())
             ->contentGrid($this->layoutView->getTableContentGrid())
             ->headerActions($this->getTableHeaderActions())
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
             ->filters($this->getTableFilters())
             ->filtersLayout(FiltersLayout::AboveContent)
             ->persistFiltersInSession()
@@ -220,11 +134,6 @@ class ListMyRecords extends XotBaseListRecords
                 column: 'created_at',
                 direction: 'DESC',
             );
-<<<<<<< HEAD
-    }
-}
-=======
->>>>>>> laraxot/dev
             TextColumn::make('id')->sortable(),
             TextColumn::make('name')->searchable(),
         ];
@@ -248,8 +157,6 @@ class ListMyRecords extends XotBaseListRecords
 ```
 
 Traduzioni con `static::trans()`, permessi con `can()` nel `mount()`.
-<<<<<<< HEAD
-=======
 ---
 ## Contenuto assorbito da `ListRecords.md`
 # List Records in Filament
@@ -364,4 +271,3 @@ class ListXXX extends XotBaseListRecords
                 column: 'created_at',
                 direction: 'DESC',
             );
->>>>>>> laraxot/dev

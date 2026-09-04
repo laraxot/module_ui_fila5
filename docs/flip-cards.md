@@ -11,9 +11,6 @@ https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
 
 
 
-<<<<<<< HEAD
-https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
-=======
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
 
 ## Appendice — contenuto migrato
@@ -25,4 +22,3 @@ canonical: ../../../Themes/docs/shared-components/flip-cards.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/flip-cards.md
->>>>>>> laraxot/dev

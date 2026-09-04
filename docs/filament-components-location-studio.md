@@ -309,11 +309,6 @@ protected function getStudioStepSchema(): array
             ->visible(fn (): bool => $this->hasValidGeographicSelection()),
         // Pulsanti selezione studio
         View::make('<nome progetto>::filament.widgets.studio-selector')
-<<<<<<< HEAD
-        View::make('<nome progetto>::filament.widgets.studio-selector')
-            ->viewData([
-=======
->>>>>>> laraxot/dev
                 'studios' => $this->getStudiosForSelectedArea(),
                 'selectedStudio' => $this->data['selected_studio'] ?? null,
         // TextInput per mostrare studio selezionato
@@ -416,15 +411,7 @@ class FindDoctorWidgetStep2Test extends TestCase
 **Versione**: 2.0 - Semplificato  
 **Stato**: Implementation Ready  
 **Approccio**: Pulsanti + TextInput (semplice e diretto) 
-<<<<<<< HEAD
-
 **Creato**: 26 Giugno 2025
-**Versione**: 2.0 - Semplificato
-**Stato**: Implementation Ready
-**Approccio**: Pulsanti + TextInput (semplice e diretto)
-=======
-**Creato**: 26 Giugno 2025
->>>>>>> laraxot/dev
 # Componenti Filament per Location e Studio Selection
 ## Overview
 Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo <nome progetto>.
@@ -467,22 +454,6 @@ Componente Blade per la selezione di studi odontoiatrici tramite pulsanti radio-
 ## Integrazione nel FindDoctorAndAppointmentWidget
 ### Step 1: Search Step (Aggiornato)
 protected function getSearchStepSchema(): array
-<<<<<<< HEAD
-{
-    return [
-        LocationSelector::make()
-            ->regionField('region')
-            ->provinceField('province')
-            ->capField('cap')
-            ->required()
-            ->searchable()
-    ];
-}
-### Step 2: Studio Step (Semplificato)
-protected function getStudioStepSchema(): array
-        // Titolo step
-        View::make('<nome progetto>::filament.widgets.studio-step-header')
-=======
     return [
             ->regionField('region')
             ->provinceField('province')
@@ -492,7 +463,6 @@ protected function getStudioStepSchema(): array
 ### Step 2: Studio Step (Semplificato)
 protected function getStudioStepSchema(): array
         // Titolo step
->>>>>>> laraxot/dev
             ->viewData([
                 'studiosCount' => $this->getStudiosCount(),
                 'geographicArea' => $this->getGeographicAreaName(),

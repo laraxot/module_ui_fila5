@@ -189,8 +189,6 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 **Maintained By**: AI Agents Team  
 **Review Cycle**: Every sprint  
 **Next Review**: 2026-04-02
-<<<<<<< HEAD
-=======
 ---
 ## Contenuto assorbito da `00-INDEX.md`
 # 🧩 UI Components - Documentation Index
@@ -277,4 +275,3 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 **Maintained By**: AI Agents Team  
 **Review Cycle**: Every sprint  
 **Next Review**: 2026-04-02
->>>>>>> laraxot/dev

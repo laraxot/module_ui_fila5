@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
-title: "Root modulo/tema — zero .txt, max 4 .md"
-=======
 title: "Root modulo/tema — zero .txt, max 6 .md"
->>>>>>> laraxot/dev
 type: rule
 module: UI
 tags: [hygiene, modules, themes, txt, markdown]
@@ -26,11 +22,7 @@ related:
 | Root `Modules/*` e `Themes/*` | Consentito |
 |---------------------------------|------------|
 | `*.txt` | **0** |
-<<<<<<< HEAD
-| `*.md` | **max 4**: `README.md`, `CHANGELOG.md`, `LICENSE.md`, `AGENTS.md` |
-=======
 | `*.md` | **max 6**: preferiti `README.md`, `CHANGELOG.md`, `LICENSE.md`, `AGENTS.md`, `CLAUDE.md` +1 |
->>>>>>> laraxot/dev
 | Cartelle | solo **lowercase** (`app`, `config`, `docs`, …) |
 
 ## Perché

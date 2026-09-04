@@ -7,12 +7,9 @@ namespace Modules\UI\Tests;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Support\Facades\DB;
-<<<<<<< HEAD
-=======
 use Mockery\Expectation;
 use Mockery\LegacyMockInterface;
 use Mockery\MockInterface;
->>>>>>> laraxot/dev
 use Modules\UI\Providers\UIServiceProvider;
 use Modules\User\Models\User;
 use Modules\User\Providers\UserServiceProvider;
@@ -30,8 +27,6 @@ abstract class TestCase extends XotBaseTestCase
 {
     use DatabaseTransactions;
 
-<<<<<<< HEAD
-=======
     /**
      * Restringe il tipo di ritorno unione di shouldReceive() per PHPStan.
      *
@@ -52,7 +47,6 @@ abstract class TestCase extends XotBaseTestCase
         return $expectation;
     }
 
->>>>>>> laraxot/dev
     /** @var list<string> */
     protected $connectionsToTransact = ['xot', 'sqlite', 'user'];
 
@@ -67,10 +61,7 @@ abstract class TestCase extends XotBaseTestCase
             UIServiceProvider::class,
         ];
     }
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
     protected function setUp(): void
     {
         $this->prepareSharedFixcitySqliteForTesting();

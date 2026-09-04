@@ -14,10 +14,6 @@ use Modules\UI\Filament\Actions\Table\TableLayoutTrait;
  *
  * Usato da: Modules\Xot\Filament\Traits\HasXotTable (cross-module, PHPStan non rileva il consumer analizzando solo UI)
  */
-<<<<<<< HEAD
-/** @phpstan-ignore trait.unused */
-=======
->>>>>>> laraxot/dev
 trait HasTableLayoutPage
 {
     use TableLayoutTrait;

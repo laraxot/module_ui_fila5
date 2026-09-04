@@ -11,8 +11,6 @@ updated: 2026-08-24
 ---
 
 ----------------------------------------------------------------------------------------------
-<<<<<<< HEAD
-=======
 
 
 ## Appendice — contenuto migrato
@@ -23,4 +21,3 @@ https://codebrisk.com/blog/add-ratings-and-reviews-for-laravel-s-eloquent-models
 composer require mtvs/laravel-reviews
 https://github.com/mtvs/eloquent-aggregate-rating
 -------------------------------------------------------------------------------------------------
->>>>>>> laraxot/dev
