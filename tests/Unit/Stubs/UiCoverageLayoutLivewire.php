@@ -5,10 +5,6 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit\Stubs;
 
 use Livewire\Component;
-<<<<<<< HEAD
-use Modules\UI\Enums\TableLayoutEnum;
-=======
->>>>>>> laraxot/dev
 use Modules\UI\Filament\Traits\HasTableLayoutPage;
 
 /**

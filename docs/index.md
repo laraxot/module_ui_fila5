@@ -2199,11 +2199,7 @@ laravel/Modules/UI/
 
 ## llm-wiki
 
-<<<<<<< HEAD
-- [agents.md](./llm-wiki/agents.md)
-=======
 - [agents.md](./llm-wiki/AGENTS.md)
->>>>>>> laraxot/dev
 - [index.md](./llm-wiki/index.md)
 - [log.md](./llm-wiki/log.md)
 
@@ -2394,11 +2390,7 @@ laravel/Modules/UI/
 - [bugfix-table-layout-toggle-not-working.md](./bugfix-table-layout-toggle-not-working.md)
 - [carousel-slider.md](./carousel-slider.md)
 - [case-conflicts.md](./case-conflicts.md)
-<<<<<<< HEAD
-- [changelog.md](./changelog.md)
-=======
 - [changelog.md](./CHANGELOG.md)
->>>>>>> laraxot/dev
 - [chart-components-1-1.md](./chart-components-1-1.md)
 - [chart-components-1.md](./chart-components-1.md)
 - [chart-components-2.md](./chart-components-2.md)
@@ -2776,11 +2768,7 @@ laravel/Modules/UI/
 - [radio-collection-component.md](./radio-collection-component.md)
 - [ratings.md](./ratings.md)
 - [readme-en.md](./readme-en.md)
-<<<<<<< HEAD
-- [readme.md](./readme.md)
-=======
 - [readme.md](./README.md)
->>>>>>> laraxot/dev
 - [redundancy-analysis.md](./redundancy-analysis.md)
 - [redundancy-audit-1.md](./redundancy-audit-1.md)
 - [redundancy-audit-2026-05-21.deprecated.md](./redundancy-audit-2026-05-21.deprecated.md)
@@ -2898,11 +2886,7 @@ laravel/Modules/UI/
 - [blocks-relocated.md](./root-md-files/blocks-relocated.md)
 - [blocks.md](./root-md-files/blocks.md)
 - [carousel-slider.md](./root-md-files/carousel-slider.md)
-<<<<<<< HEAD
-- [changelog.md](./root-md-files/changelog.md)
-=======
 - [changelog.md](./root-md-files/CHANGELOG.md)
->>>>>>> laraxot/dev
 - [chunk.md](./root-md-files/chunk.md)
 - [ci.md](./root-md-files/ci.md)
 - [custom-firm-fields.md](./root-md-files/custom-firm-fields.md)
@@ -2965,11 +2949,7 @@ laravel/Modules/UI/
 
 ## wiki
 
-<<<<<<< HEAD
-- [agents.md](./wiki/agents.md)
-=======
 - [agents.md](./wiki/AGENTS.md)
->>>>>>> laraxot/dev
 - [bmad-method.md](./wiki/bmad-method.md)
 - [context-compression.md](./wiki/context-compression.md)
 - [index.md](./wiki/index.md)
@@ -3030,8 +3010,6 @@ laravel/Modules/UI/
 - [phpstan-fixes-1.md](./wiki/troubleshooting/phpstan-fixes-1.md)
 - [phpstan-fixes-2026-05-06.deprecated.md](./wiki/troubleshooting/phpstan-fixes-2026-05-06.deprecated.md)
 - [phpstan-fixes.md](./wiki/troubleshooting/phpstan-fixes.md)
-<<<<<<< HEAD
-=======
 ---
 ## Contenuto assorbito da `INDEX.md`
 - [component-registration.md](./architecture/component-registration.md)
@@ -4088,4 +4066,3 @@ laravel/Modules/UI/
 - [git-merge-conflict-inventory-1.md](./wiki/troubleshooting/git-merge-conflict-inventory-1.md)
 - [git-merge-conflict-inventory-2026-04-28.deprecated.md](./wiki/troubleshooting/git-merge-conflict-inventory-2026-04-28.deprecated.md)
 - [git-merge-conflict-inventory.md](./wiki/troubleshooting/git-merge-conflict-inventory.md)
->>>>>>> laraxot/dev

@@ -6,10 +6,7 @@ namespace Modules\UI\Tests\Unit\Stubs;
 
 use Filament\Schemas\Components\Component;
 use Illuminate\Database\Eloquent\Model;
-<<<<<<< HEAD
-=======
 use Illuminate\Support\Collection;
->>>>>>> laraxot/dev
 use Modules\Xot\Contracts\StateContract;
 
 /**
@@ -70,13 +67,7 @@ final class UiCoverageNamedState implements StateContract
     }
 
     /** @param  array<string, mixed>  $data */
-<<<<<<< HEAD
-    public function modalActionByRecord(Model $record, array $data): void
-    {
-    }
-=======
     public function modalActionByRecord(Model $record, array $data): void {}
->>>>>>> laraxot/dev
 
     /** @return list<string> */
     public function transitionableStates(): array
@@ -89,19 +80,10 @@ final class UiCoverageNamedState implements StateContract
         return true;
     }
 
-<<<<<<< HEAD
-    public function transitionTo(string $state, ?string $message = null): void
-    {
-    }
-
-    /** @return \Illuminate\Support\Collection<string, string> */
-    public static function getStateMapping(): \Illuminate\Support\Collection
-=======
     public function transitionTo(string $state, ?string $message = null): void {}
 
     /** @return Collection<string, string> */
     public static function getStateMapping(): Collection
->>>>>>> laraxot/dev
     {
         return collect(['pending' => self::class, 'done' => UiCoverageDoneState::class]);
     }

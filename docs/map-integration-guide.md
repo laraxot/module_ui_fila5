@@ -10,10 +10,6 @@
 ## 🎯 PANORAMICA
 
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione <nome progetto>.
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione progetto corrente.
 
@@ -435,14 +431,8 @@ class MapService
                     'description' => $ticket->description,
                     'status' => $ticket->status->slug,
                     'priority' => $ticket->priority->slug,
-<<<<<<< HEAD
-                    'url' => route('fixcity.tickets.show', $ticket)
-
-'url' => route('<nome progetto>.tickets.show', $ticket)
-=======
                     'url' => route('<nome progetto>.tickets.show', $ticket)
                     'url' => route('fixcity.tickets.show', $ticket)
->>>>>>> laraxot/dev
                     'url' => route('tickets.show', $ticket)
                 ];
             })
@@ -523,14 +513,8 @@ class GeocodingService
             />
         </div>
         <div class="col-md-4">
-<<<<<<< HEAD
-            <livewire:fixcity::components.ticket-stats />
-
-<livewire:<nome progetto>::components.ticket-stats />
-=======
             <livewire:<nome progetto>::components.ticket-stats />
             <livewire:fixcity::components.ticket-stats />
->>>>>>> laraxot/dev
             <livewire:project::components.ticket-stats />
         </div>
     </div>
@@ -586,10 +570,6 @@ class GeocodingService
 
 ### 📅 Fase 3: Integrazione (Settimana 3)
 - [ ] Integrazione con modulo Fixcity
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 - [ ] Integrazione con modulo <nome progetto>
 - [ ] Integrazione con modulo progetto corrente
 - [ ] Integrazione con modulo User

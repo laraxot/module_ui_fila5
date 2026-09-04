@@ -2,11 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-namespace Modules\UI\Tests\Feature;
-
-=======
->>>>>>> laraxot/dev
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\View;
 use Modules\UI\Tests\TestCase;
@@ -123,11 +118,7 @@ describe('Component Rendering Tests', function (): void {
                 'type' => 'text',
                 'value' => 'test-value',
             ])->render();
-<<<<<<< HEAD
-        } catch (\Throwable $e) {
-=======
         } catch (Throwable $e) {
->>>>>>> laraxot/dev
             Assert::markTestSkipped('pub_theme input view not renderable: '.$e->getMessage());
         }
 
@@ -145,11 +136,7 @@ describe('Component Rendering Tests', function (): void {
             $html = view($viewName, [
                 'type' => 'button',
             ])->render();
-<<<<<<< HEAD
-        } catch (\Throwable $e) {
-=======
         } catch (Throwable $e) {
->>>>>>> laraxot/dev
             Assert::markTestSkipped('pub_theme button view not renderable: '.$e->getMessage());
         }
 
@@ -168,11 +155,7 @@ describe('Component Rendering Tests', function (): void {
                 'title' => 'Test Card',
                 'subtitle' => 'Test Subtitle',
             ])->render();
-<<<<<<< HEAD
-        } catch (\Throwable $e) {
-=======
         } catch (Throwable $e) {
->>>>>>> laraxot/dev
             Assert::markTestSkipped('pub_theme card view not renderable: '.$e->getMessage());
         }
 
@@ -208,11 +191,7 @@ describe('Component Integration Tests', function (): void {
 
         try {
             Blade::render($testView);
-<<<<<<< HEAD
-        } catch (\Throwable $e) {
-=======
         } catch (Throwable $e) {
->>>>>>> laraxot/dev
             Assert::markTestSkipped('Blade component integration not renderable in this install: '.$e->getMessage());
         }
     });
