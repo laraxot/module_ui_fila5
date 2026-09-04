@@ -1,5 +1,25 @@
 # Code Coverage: UI
 
+## 2026-09-04 — app/Services to QueueableAction (no-services-rule)
+
+Task: convert every file under `app/Services/` to `Spatie\QueueableAction\QueueableAction` under `app/Actions/`, no exceptions on destination folder.
+
+**Census** (`find Modules/UI/app/Services -name "*.php"`): exactly one active file, `app/Services/UIService.php` (plus pre-existing `.bak` archives from an earlier, never-fully-executed migration attempt on 2026-07-13/07-16 — `ComponentService.php.bak`, `ThemeService.php.bak`, `UIService.php.bak`, `Map/NullMapService.php.bak`, `Map/NullGeocodingService.php.bak` — out of scope, not `.php`, left untouched).
+
+| File | Kind | Classification reasoning | Action taken |
+|---|---|---|---|
+| `app/Services/UIService.php` | A (already-thin-facade) | Single static method `asset(string $asset): string` whose entire body was `return app(AssetAction::class)->execute($asset);` — a 1:1 passthrough to the already-existing `Modules\Xot\Actions\File\AssetAction`. Grep across the whole `Modules/` and `Themes/` trees (`UIService::asset`, `Modules\UI\Services\UIService`, `use Modules\UI\Services`) found **zero call sites** anywhere in production code. Matches the task's own "already thin facade" carve-out (per `Modules/Tenant/app/Services/TenantService.php` precedent): the hard work (real logic already lives in `AssetAction`) was done; there is no logic left to move into a new UI-owned Action, and creating a wrapper Action whose `execute()` body is only `app(AssetAction::class)->execute(...)` would just recreate a redundant pass-through one level down. This exact reasoning had already been reached (but never actually executed — the file was still live) in `Modules/UI/docs/wiki/concepts/ui-services-support-to-actions.md` and `no-app-support-queueable-actions.md`. | Deleted via `git rm app/Services/UIService.php`. No callers to update. Any future caller should use `app(\Modules\Xot\Actions\File\AssetAction::class)->execute($path)` directly. |
+
+Note: `UIServiceProvider` (in `app/Providers/`) is a Laravel `ServiceProvider` subclass, an unrelated framework construct, not an `app/Services/*Service` business-logic class — out of scope for this rule.
+
+- PHPStan (`Modules/UI`, `clear-result-cache` before each run): baseline **0 errors** → final **0 errors**.
+- PHPMD (`./tools/phpmd.sh Modules/UI text ../docs/phpmd.ruleset.xml`): crashes on the whole module with `No node to visit provided for visitAnonymousClass` — pre-existing, documented tooling limitation (see `quality-tooling-real-commands` memory), not caused by this change. No new PHP file was added to scope for a per-file retry (deletion only).
+- Pest (`./vendor/bin/pest Modules/UI/tests -c Modules/UI/phpunit.xml --no-coverage`): 197 passed, 8 failed, 1 risky, 109 skipped. All 8 failures are pre-existing and unrelated to `UIService`/`AssetAction` (`TestCase::expectMethod()` Mockery `CompositeExpectation` type mismatch, a missing `ui::components.render.blocks.ui::empty` view, an `OpeningHoursColumn` assertion) — none reference the removed class.
+
+Story: `docs/stories/ui-services-to-actions.story.md`.
+
+---
+
 **Date:** 2026-01-17
 **Lines Coverage:** N/A (Failed to parse)
 **Test Exit Code:** 2
