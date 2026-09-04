@@ -10,12 +10,20 @@ use Modules\Xot\Contracts\UserContract;
 /**
  * User in-memory per GetUserDataAction — evita Mockery property.notFound.
  */
-final class UiCoverageAuthUser extends User
+final class UiCoverageAuthUser extends \Illuminate\Foundation\Auth\User
 {
-    public ?object $profile = null;
+    public mixed $profile = null;
 
-    public function relationLoaded($key): bool
+    #[\Override]
+    public function relationLoaded(mixed $key): bool
     {
+        if (! is_string($key)) {
+            return false;
+        }
+
+        return $key === 'profile' && $this->profile !== null;
+    }
+
         return $key === 'profile' && $this->profile !== null;
     }
 
