@@ -24,9 +24,6 @@ final class UiCoverageAuthUser extends \Illuminate\Foundation\Auth\User
         return $key === 'profile' && $this->profile !== null;
     }
 
-        return $key === 'profile' && $this->profile !== null;
-    }
-
     /**
      * @return Collection<int, string>
      */
