@@ -15,8 +15,6 @@ Control the Complexity of Php Methods by Checking Arguments
 https://codebrisk.com/blog/control-the-complexity-of-php-methods-by-checking-arguments
 composer require degraciamathieu/php-arguments-detector --dev
 ------------------------------------------------------------------------------------------------------
-<<<<<<< HEAD
-=======
 
 
 ## Appendice — contenuto migrato
@@ -30,4 +28,3 @@ Control the Complexity of Php Methods by Checking Arguments
 https://codebrisk.com/blog/control-the-complexity-of-php-methods-by-checking-arguments
 composer require degraciamathieu/php-arguments-detector --dev
 ------------------------------------------------------------------------------------------------------
->>>>>>> laraxot/dev

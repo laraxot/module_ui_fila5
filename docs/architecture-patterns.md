@@ -436,10 +436,6 @@ IconService
 - **Root README**: [UI Module](./README.md)
 - **Framework Base**: [Xot Architecture Patterns](../../Xot/docs/architecture-patterns.md)
 - **Disabled Components**: [disabled-components.md](./disabled-components.md)
-<<<<<<< HEAD
-- **Architecture Overview**: [ARCHITECTURE.md](./ARCHITECTURE.md)
-- **Index**: [INDEX.md](./INDEX.md)
-=======
 - **Architecture Overview**: [ARCHITECTURE.md](./architecture.md)
 - **Index**: [INDEX.md](./index.md)
 - **Architecture Overview**: [ARCHITECTURE.md](./ARCHITECTURE.md)
@@ -452,7 +448,6 @@ IconService
 
 - **Architecture Overview**: [ARCHITECTURE.md](./architecture.md)
 - **Index**: [INDEX.md](./index.md)
->>>>>>> laraxot/dev
 
 - **Architecture Overview**: [ARCHITECTURE.md](./architecture.md)
 - **Index**: [INDEX.md](./index.md)

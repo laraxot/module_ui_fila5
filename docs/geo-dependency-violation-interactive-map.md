@@ -36,18 +36,9 @@ related:
 ## Decisione
 
 Componente completamente inutilizzato + dipendenze mai implementate + violazione di dipendenza = non ha senso costruire 5 Action speculative per una feature che nessuno chiama (YAGNI/ponytail). Archiviato forward-only, non cancellato:
-<<<<<<< HEAD
-
-- `Modules/UI/app/Livewire/Components/Map/` → `Modules/UI/docs/archive/Livewire/Map.old/`
-- `Modules/UI/resources/views/livewire/components/map/interactive-map.blade.php{,.old}` → `Modules/UI/docs/archive/views/livewire/components/map/`
-
-## Se in futuro serve una mappa interattiva
-
-=======
 - `Modules/UI/app/Livewire/Components/Map/` → `Modules/UI/docs/archive/Livewire/Map.old/`
 - `Modules/UI/resources/views/livewire/components/map/interactive-map.blade.php{,.old}` → `Modules/UI/docs/archive/views/livewire/components/map/`
 ## Se in futuro serve una mappa interattiva
->>>>>>> laraxot/dev
 Costruirla **dentro `Modules/Geo`** (dominio corretto), con le Action reali (`Spatie\QueueableAction`, `execute()`), e semmai esporre un Blade component/Livewire consumabile da `UI` o dai temi — mai il contrario.
 Componente inutilizzato + dipendenze Geo + violazione di direzione = **cancellare**, non archiviare in `docs/archive/` e non inventare Action Geo in UI.
 

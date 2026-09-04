@@ -23,10 +23,6 @@
 
 ```
 /var/www/html/saluteora/
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 [project-root]/
 ├── laravel/                 # Applicazione Laravel (codice sorgente)
 │   ├── Modules/             # Moduli dell'applicazione
@@ -84,10 +80,6 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 
 ```
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 [project-root]/laravel/Themes/One/resources/views/components/ui/
 ```
 
@@ -97,10 +89,6 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 
 ```
 /var/www/html/saluteora/public_html/images/
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 [project-root]/public_html/images/
 ```
 
@@ -112,10 +100,6 @@ Il componente avatar è implementato in:
 
 ```
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 [project-root]/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 ```
 
@@ -123,10 +107,6 @@ E utilizza gli avatar SVG dalla directory pubblica:
 
 ```
 /var/www/html/saluteora/public_html/images/avatars/
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 [project-root]/public_html/images/avatars/
 ```
 
@@ -136,10 +116,6 @@ Il componente icon è implementato in:
 
 ```
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/icon.blade.php
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 [project-root]/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 ```
 
@@ -182,10 +158,6 @@ E include le definizioni SVG direttamente nel componente.
 ## Errori Comuni
 
 1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/saluteora/laravel/public/` invece di `/var/www/html/saluteora/public_html/`
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
 1. **Utilizzo del percorso Laravel public**: Utilizzare `[project-root]/laravel/public/` invece di `[project-root]/public_html/`
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile

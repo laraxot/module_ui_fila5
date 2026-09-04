@@ -33,11 +33,7 @@ describe('UI coverage boost — Enums', function (): void {
 
 describe('UI coverage boost — Models', function (): void {
     test('Category fillable matches domain fields', function (): void {
-<<<<<<< HEAD
-        $fillable = (new Category())->getFillable();
-=======
         $fillable = (new Category)->getFillable();
->>>>>>> laraxot/dev
 
         Assert::assertContains('name', $fillable);
         Assert::assertContains('is_active', $fillable);
@@ -46,11 +42,7 @@ describe('UI coverage boost — Models', function (): void {
 
 describe('UI coverage boost — Filament widgets', function (): void {
     test('StatsOverviewWidget declares heading', function (): void {
-<<<<<<< HEAD
-        $widget = new StatsOverviewWidget();
-=======
         $widget = new StatsOverviewWidget;
->>>>>>> laraxot/dev
         $ref = new \ReflectionClass($widget);
         $prop = $ref->getProperty('heading');
         $prop->setAccessible(true);

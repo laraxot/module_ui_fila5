@@ -77,8 +77,5 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 - [filament-components-location-studio.md](filament-components-location-studio.md)
 - [components.md](components.md)
 - [Modules/UI/docs/](../docs/)
-<<<<<<< HEAD
-=======
 
 *Ultimo aggiornamento: 29 luglio 2025*
->>>>>>> laraxot/dev
