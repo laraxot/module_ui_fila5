@@ -1,5 +1,22 @@
 # Code Coverage: UI
 
+## 2026-09-04 — Concrete models → contracts (UI, User modules)
+
+**Task:** Replace `\Modules\User\Models\Profile` docblock refs with `\Modules\Xot\Contracts\ProfileContract` (12 occurrences in UI).
+
+**Rationale:** Reduce coupling to provider models; enable polymorphism and DI. Contracts are the SSoT for model interfaces.
+
+**Files modified:** `Collection.php`, `FieldOption.php`, `Category.php` (3 files, 9 property-read docblock substitutions).
+
+### Verification
+
+- **PHPStan:** `./vendor/bin/phpstan analyse Modules/UI --no-progress` → **[OK] No errors**.
+- **PHPMD:** `./tools/phpmd.sh "Modules/UI" text cleancode,codesize,design,naming,unusedcode` → exit 0 (clean).
+- **Pest:** `./vendor/bin/pest Modules/UI` → **197 passed, 8 failed, 1 risky** (identical baseline; all failures pre-existing, unrelated to docblock-only changes).
+- **Coverage:** No new tests added (docblock-only refactor, zero behavior change); Xdebug not configured.
+
+---
+
 ## 2026-09-04 — app/Services to QueueableAction (no-services-rule)
 
 Task: convert every file under `app/Services/` to `Spatie\QueueableAction\QueueableAction` under `app/Actions/`, no exceptions on destination folder.
