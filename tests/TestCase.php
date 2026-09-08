@@ -20,7 +20,7 @@ use function Safe\file_get_contents;
 /**
  * Base test case for UI module.
  *
- * Uses shared sqlite from fixcity_data.sqlite (no RefreshDatabase).
+ * Uses the shared sqlite file (no RefreshDatabase).
  * Pattern skip offline: Feature/`ui-db` skip se manca schema; Unit eseguiti.
  */
 abstract class TestCase extends XotBaseTestCase
@@ -64,7 +64,7 @@ abstract class TestCase extends XotBaseTestCase
 
     protected function setUp(): void
     {
-        $this->prepareSharedFixcitySqliteForTesting();
+        $this->prepareSharedSqliteForTesting();
 
         parent::setUp();
 
@@ -122,7 +122,7 @@ abstract class TestCase extends XotBaseTestCase
 
     /**
      * Lo sqlite condiviso non contiene sempre le tabelle themes/categories.
-     * fixcity_data.sqlite = offline anche se somehow le tabelle UI ci sono.
+     * sqlite condiviso = offline anche se somehow le tabelle UI ci sono.
      */
     public static function uiDbUnavailable(): bool
     {
@@ -130,7 +130,7 @@ abstract class TestCase extends XotBaseTestCase
             $connection = DB::connection('xot');
             $connection->getPdo();
             $database = (string) $connection->getDatabaseName();
-            if (str_contains($database, 'fixcity_data.sqlite')) {
+            if (str_contains($database, basename(self::sharedSqlitePath()))) {
                 return true;
             }
 
