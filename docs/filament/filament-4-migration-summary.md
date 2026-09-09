@@ -1,12 +1,12 @@
 ---
-title: "Filament 4 Migration Summary"
+title: "Filament 5 Migration Summary"
 type: concept
 tags: [filament, migration, summary]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "filament-4-migration-summary filament 4 migration summary"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+qmd: "Filament-5-migration-summary Filament 5 migration summary"
+issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
+discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
@@ -14,13 +14,13 @@ related:
   - "./best-practices.md"
   - "./component-icon-support.md"
   - "./component-methods-compatibility.md"
-  - "./filament-4-components-guide.md"
-  - "./filament-4-migration-guide.md"
-  - "./filament-4-migration-sumy.md"
+  - "./Filament-5-components-guide.md"
+  - "./Filament-5-migration-guide.md"
+  - "./Filament-5-migration-sumy.md"
   - "./file-upload-component.md"
 ---
 
-# Filament 4 Migration Summary
+# Filament 5 Migration Summary
 
 ## Completed Tasks ✅
 
@@ -32,16 +32,16 @@ related:
   - `LocationSelector.php` - Fixed namespace and component structure
 
 ### 2. Documentation Updates
-- ✅ Created comprehensive **Filament 4 Migration Guide**
-- ✅ Created detailed **Filament 4 Components Development Guide**
-- ✅ Updated project **CLAUDE.md** rules for Filament 4
-- ✅ Updated version information (PHP 8.3.25, Filament 4.0.19, Laravel 12.30.1)
+- ✅ Created comprehensive **Filament 5 Migration Guide**
+- ✅ Created detailed **Filament 5 Components Development Guide**
+- ✅ Updated project **CLAUDE.md** rules for Filament 5
+- ✅ Updated version information (PHP 8.3.25, Filament 5.0.19, Laravel 13.30.1)
 
 ### 3. Code Updates and Fixes
 
 #### GroupColumn Component (`/Modules/UI/app/Filament/Tables/Columns/GroupColumn.php`)
 **Issues Fixed:**
-- ❌ **Before**: Used deprecated `Column::mount()` method (doesn't exist in Filament 4)
+- ❌ **Before**: Used deprecated `Column::mount()` method (doesn't exist in Filament 5)
 - ✅ **After**: Implemented `setUp()` method for proper initialization
 - ✅ **After**: Maintained proper table assignment logic for child columns
 - ✅ **After**: Removed unnecessary `method_exists()` check
@@ -86,18 +86,18 @@ public function table(?Table $table): static
 - ✅ Updated Filament version from v3 → **v4**
 - ✅ Updated PHP version to **8.3.25**
 - ✅ Updated Laravel version to **v12**
-- ✅ Added Filament 4 breaking changes documentation
+- ✅ Added Filament 5 breaking changes documentation
 - ✅ Added new component development guidelines
 - ✅ Emphasized schema system and `setUp()` method usage
 
 #### New Documentation Files Created
-1. **`filament-4-migration-guide.md`** - Comprehensive migration instructions
-2. **`filament-4-components-guide.md`** - Detailed component development patterns
-3. **`filament-4-migration-summary.md`** - This summary document
+1. **`Filament-5-migration-guide.md`** - Comprehensive migration instructions
+2. **`Filament-5-components-guide.md`** - Detailed component development patterns
+3. **`Filament-5-migration-summary.md`** - This summary document
 
 ## Technical Improvements Made
 
-### 1. Filament 4 Compatibility
+### 1. Filament 5 Compatibility
 - ✅ Removed all deprecated `mount()` method usage
 - ✅ Implemented proper `setUp()` initialization pattern
 - ✅ Updated component inheritance and structure
@@ -112,12 +112,12 @@ public function table(?Table $table): static
 ### 3. Documentation Quality
 - ✅ **Comprehensive Guides**: Step-by-step migration instructions
 - ✅ **Code Examples**: Real-world implementation patterns
-- ✅ **Best Practices**: Filament 4 development guidelines
+- ✅ **Best Practices**: Filament 5 development guidelines
 - ✅ **Troubleshooting**: Common issues and solutions
 
 ## Key Learnings and Patterns
 
-### Filament 4 Breaking Changes Addressed
+### Filament 5 Breaking Changes Addressed
 1. **Schema System**: All components now use unified schema architecture
 2. **Component Setup**: `setUp()` method replaces deprecated `mount()`
 3. **Table Columns**: Custom columns need proper table assignment logic
@@ -157,7 +157,7 @@ vendor/bin/pint --dirty
 - 📚 **Migration Guide**: Step-by-step upgrade instructions
 - 🔧 **Development Guide**: Component development patterns
 - 📋 **Summary**: This comprehensive completion report
-- ⚙️ **Updated Rules**: CLAUDE.md with Filament 4 guidelines
+- ⚙️ **Updated Rules**: CLAUDE.md with Filament 5 guidelines
 
 ---
 

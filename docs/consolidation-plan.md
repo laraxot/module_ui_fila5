@@ -26,8 +26,8 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 ### 3. Filament Components
 - ❌ `filament_4x_upgrade.md` → Eliminare
 - ❌ `filament_4x_upgrade_report.md` → Eliminare
-- ✅ `filament-4x-upgrade.md` → Mantenere
-- ✅ `filament-4x-upgrade-report.md` → Mantenere
+- ✅ `Filament-5x-upgrade.md` → Mantenere
+- ✅ `Filament-5x-upgrade-report.md` → Mantenere
 
 - ❌ `filament_blade_components_usage.md` → Eliminare
 - ✅ `filament-blade-components-usage.md` → Mantenere

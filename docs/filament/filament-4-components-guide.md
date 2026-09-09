@@ -1,12 +1,12 @@
 ---
-title: "Filament 4 Components Development Guide"
+title: "Filament 5 Components Development Guide"
 type: guide
 tags: [filament, components, guide]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "filament-4-components-guide filament 4 components development guide"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+qmd: "Filament-5-components-guide Filament 5 components development guide"
+issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
+discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
@@ -14,17 +14,17 @@ related:
   - "./best-practices.md"
   - "./component-icon-support.md"
   - "./component-methods-compatibility.md"
-  - "./filament-4-migration-guide.md"
-  - "./filament-4-migration-summary.md"
-  - "./filament-4-migration-sumy.md"
+  - "./Filament-5-migration-guide.md"
+  - "./Filament-5-migration-summary.md"
+  - "./Filament-5-migration-sumy.md"
   - "./file-upload-component.md"
 ---
 
-# Filament 4 Components Development Guide
+# Filament 5 Components Development Guide
 
 ## Overview
 
-Comprehensive guide for developing custom components in Filament 4, focusing on forms, tables, and custom components.
+Comprehensive guide for developing custom components in Filament 5, focusing on forms, tables, and custom components.
 
 ## Component Types
 

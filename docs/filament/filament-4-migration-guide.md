@@ -1,12 +1,12 @@
 ---
-title: "Filament 4 Migration Guide"
+title: "Filament 5 Migration Guide"
 type: guide
 tags: [filament, migration, guide]
 created: 2026-07-14
 updated: 2026-07-14
-qmd: "filament-4-migration-guide filament 4 migration guide"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+qmd: "Filament-5-migration-guide Filament 5 migration guide"
+issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
+discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
@@ -14,17 +14,17 @@ related:
   - "./best-practices.md"
   - "./component-icon-support.md"
   - "./component-methods-compatibility.md"
-  - "./filament-4-components-guide.md"
-  - "./filament-4-migration-summary.md"
-  - "./filament-4-migration-sumy.md"
+  - "./Filament-5-components-guide.md"
+  - "./Filament-5-migration-summary.md"
+  - "./Filament-5-migration-sumy.md"
   - "./file-upload-component.md"
 ---
 
-# Filament 4 Migration Guide
+# Filament 5 Migration Guide
 
 ## Overview
 
-This document outlines the migration from Filament 3 to Filament 4, highlighting breaking changes, new patterns, and required updates for the UI module.
+This document outlines the migration from Filament 3 to Filament 5, highlighting breaking changes, new patterns, and required updates for the UI module.
 
 ## Version Information
 
@@ -36,7 +36,7 @@ This document outlines the migration from Filament 3 to Filament 4, highlighting
 
 ### 1. Schema System Introduction
 
-Filament 4 introduces a unified schema system that consolidates forms, tables, and other components under a single architecture.
+Filament 5 introduces a unified schema system that consolidates forms, tables, and other components under a single architecture.
 
 #### New Interfaces and Traits
 - `HasSchemas` interface replaces component-specific interfaces
@@ -56,7 +56,7 @@ class CustomColumn extends Column
 }
 ```
 
-#### Filament 4 Pattern (Current)
+#### Filament 5 Pattern (Current)
 ```php
 class CustomColumn extends Column
 {
@@ -131,7 +131,7 @@ class ListProducts extends Component implements HasTable, HasSchemas
 ### 2. LocationSelector Issues
 - Namespace imports need updating
 - Dependency on missing `Comune` model
-- Schema structure needs alignment with Filament 4
+- Schema structure needs alignment with Filament 5
 
 ## Migration Checklist
 
@@ -176,7 +176,7 @@ class ListProducts extends Component implements HasTable, HasSchemas
 
 ## Resources
 
-- [Filament 4 Documentation](https://filamentphp.com/docs/4.x)
+- [Filament 5 Documentation](https://filamentphp.com/docs/4.x)
 - [Migration Guide](https://filamentphp.com/docs/4.x/upgrade-guide)
 - [Schema System](https://filamentphp.com/docs/4.x/schemas)
 - [Custom Components](https://filamentphp.com/docs/4.x/custom-components)
