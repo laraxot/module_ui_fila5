@@ -6,7 +6,7 @@ tags: [redundancy, components, config, design-system]
 created: 2026-05-21
 related:
   - https://github.com/laraxot/<nome repitory>/issues/89
-  - https://github.com/laraxot/base_fixcity_fila5/issues/89
+  - https://github.com/laraxot/<repo progetto>/issues/89
   - https://github.com/laraxot/platform/issues/89
 ---
 

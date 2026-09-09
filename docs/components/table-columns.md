@@ -5,8 +5,8 @@ tags: [table, columns]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "table-columns table columns components"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
+discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
@@ -190,13 +190,13 @@ use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
 - [Accessibility Guidelines](../accessibility.md)
 ---
 
-**Compatibility**: Filament 4.x, Laravel 11.x
-**Compatibility**: Filament 4.x, Laravel 11.x
+**Compatibility**: Filament 5.x, Laravel 11.x
+**Compatibility**: Filament 5.x, Laravel 11.x
 **Compatibility**: Filament 3.x, Laravel 10.x
-**Compatibility**: Filament 4.x, Laravel 11.x
-**Compatibility**: Filament 4.x, Laravel 11.x
+**Compatibility**: Filament 5.x, Laravel 11.x
+**Compatibility**: Filament 5.x, Laravel 11.x
 **Compatibility**: Filament 3.x, Laravel 10.x
-**Compatibility**: Filament 4.x, Laravel 11.x
+**Compatibility**: Filament 5.x, Laravel 11.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 
 ```
