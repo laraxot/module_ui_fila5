@@ -736,9 +736,9 @@ class UserCalendarWidget extends XotBaseWidget
 
 ## 🎯 MODULE OVERVIEW
 
-Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
-Il modulo **UI** è il sistema di componenti e design system della piattaforma <nome progetto>, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
-Il modulo **UI** è il sistema di componenti e design system della piattaforma progetto corrente, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+Il modulo **UI** è il sistema di componenti e design system della piattaforma <nome progetto>, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 5.x.
+Il modulo **UI** è il sistema di componenti e design system della piattaforma <nome progetto>, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 5.x.
+Il modulo **UI** è il sistema di componenti e design system della piattaforma progetto corrente, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 5.x.
 
 ### 🏗️ Architettura Modulo
 ```
@@ -804,7 +804,7 @@ UI Module
 
 ### 🛠️ Technical Excellence
 - [x] **PHPStan Level 9**: 0 errori
-- [x] **Filament 4.x**: Compatibilità completa
+- [x] **Filament 5.x**: Compatibilità completa
 - [x] **Type Safety**: Type hints completi
 - [x] **Error Handling**: Gestione errori robusta
 - [x] **Testing Setup**: Configurazione test
@@ -932,7 +932,7 @@ UI Module
 
 ### 📊 Technical Metrics
 - [x] **PHPStan Level 9**: 0 errori ✅
-- [x] **Filament 4.x**: Compatibile ✅
+- [x] **Filament 5.x**: Compatibile ✅
 - [ ] **Test Coverage**: 80% (target)
 - [ ] **Response Time**: < 200ms
 - [ ] **Memory Usage**: < 50MB

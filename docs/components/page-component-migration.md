@@ -5,8 +5,8 @@ tags: [page, component, migration]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "page-component-migration migrazione componenti di pagina - modulo ui"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
+discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:

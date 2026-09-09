@@ -27,7 +27,7 @@ Quel dominio vive in `Modules/Geo` (quando il progetto lo include), **mai** in `
 
 Direzione dipendenze: **Geo → UI** (Geo può usare primitive UI). Mai il contrario.
 
-## Questo progetto (`base_ptvx_fila5`)
+## Questo progetto (`<repo progetto>`)
 `laravel/Modules/Geo` **non esiste** e **non deve essere reintrodotto** senza decisione esplicita.
 Quindi in UI non devono restare neanche fallback/null-object “per quando Geo manca”: senza Geo non serve il layer.
 ## Ownership della classe (Action / Component)

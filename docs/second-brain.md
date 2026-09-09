@@ -7,7 +7,7 @@ issues:
   - https://github.com/provtv/module_ui_fila5/issues
 discussions:
   - https://github.com/laraxot/<nome repitory>/discussions/273
-  - https://github.com/laraxot/base_fixcity_fila5/discussions/273
+  - https://github.com/laraxot/<repo progetto>/discussions/273
   - https://github.com/laraxot/platform/discussions/273
 ---
 
@@ -29,7 +29,7 @@ Stub **puntatore**: disciplina globale nella wiki di progetto; qui solo lezioni 
 | Problema | Perché | Fix |
 |----------|--------|-----|
 | Bootstrap `unexpected <<` | Marker merge in PHP UI | Studiare `git show` e riscrivere (no restore) |
-| Adapter Map/Location in UI | Dominio geografico, non design system | Eliminare; in `base_ptvx_fila5` Geo non c’è |
+| Adapter Map/Location in UI | Dominio geografico, non design system | Eliminare; in `<repo progetto>` Geo non c’è |
 | `phpstan.path` su `Services/Map/Null*` | File rimossi; cache stale | Wipe cache swarm; non ricreare Map in UI |
 | Push unpack / GH008 LFS | thin pack + OID LFS assenti su un org | `--no-thin`; `lfs fetch --all` da sibling sano |
 | Adapter Map/Location in UI | Dominio geografico, non design system | Eliminare; in `<nome repository>` Geo non c’è |

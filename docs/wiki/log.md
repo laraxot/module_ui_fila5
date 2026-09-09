@@ -5,8 +5,8 @@ tags: [log]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "log ui wiki log"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
+discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
@@ -19,8 +19,8 @@ related:
 
 ## [2026-06-05] docs | HackerNoon harness — tips 001-022 in wiki locale
 
-- Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
-- GitHub: [#272](https://github.com/laraxot/base_fixcity_fila5/issues/272) / [D#273](https://github.com/laraxot/base_fixcity_fila5/discussions/273)
+- Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
+- GitHub: [#272](https://github.com/laraxot/<repo progetto>/issues/272) / [D#273](https://github.com/laraxot/<repo progetto>/discussions/273)
 - Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
 - GitHub: [#272](https://github.com/laraxot/<nome repitory>/issues/272) / [D#273](https://github.com/laraxot/<nome repitory>/discussions/273)
 - Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-progetto corrente-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
@@ -43,7 +43,7 @@ related:
 ## [2026-04-28] governance | Model States ownership e compatibilita' Laravel 13
 - Nuova pagina: `concepts/model-states-module-ownership.md`.
 - Distinto ownership tecnico (`UI` + `Xot`) da compatibilita' runtime.
-- Verificato che `spatie/laravel-model-states` latest stable richiede `PHP ^8.4`, mentre `2.12.1` si ferma a `Laravel 12`.
+- Verificato che `spatie/laravel-model-states` latest stable richiede `PHP ^8.4`, mentre `2.12.1` si ferma a `Laravel 13`.
 
 ## [2026-04-23] governance | EnumSelect API collisions (Filament v5)
 - Nuova pagina: `concepts/enumselect-filament-api-collisions.md`.

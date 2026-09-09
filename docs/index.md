@@ -16,7 +16,7 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 # UI Module Documentation
 
 ## Overview
-The UI module provides shared user interface components, widgets, and styling for the Laraxot system. It includes specialized components for chart rendering, PDF generation interfaces, and survey data visualization. The module integrates with Chart and Quaeris modules to provide professional UI experiences for survey data analysis and reporting.
+The UI module provides shared user interface components, widgets, and styling for the Laraxot system. It includes specialized components for chart rendering, PDF generation interfaces, and survey data visualization. The module integrates with Chart and <nome progetto> modules to provide professional UI experiences for survey data analysis and reporting.
 
 ## Key Features
 - **Chart Components**: Reusable chart components with multiple visualization options
@@ -715,7 +715,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 ## Integration with Other Modules
 
-### Integration with Quaeris Module
+### Integration with <nome progetto> Module
 ```blade
 {{-- Survey PDF Generation Interface --}}
 <div class="survey-pdf-generator">
@@ -1156,7 +1156,7 @@ Common issues and solutions:
 
 ## Related Modules
 - [Chart Module](../Chart/docs/index.md) - Chart generation and data processing
-- [Quaeris Module](../Quaeris/docs/index.md) - Survey management and question charts
+- [<nome progetto> Module](../<nome progetto>/docs/index.md) - Survey management and question charts
 - [LimeSurvey Module](../Limesurvey/docs/index.md) - Survey data access with dynamic models
 - [Xot Module](../Xot/docs/index.md) - Base UI infrastructure and component patterns
 
@@ -1166,13 +1166,13 @@ Common issues and solutions:
 For question type Y (Yes/No responses), the system provides enhanced statistical analysis capabilities:
 
 ```php
-namespace Modules\Quaeris\Filament\Widgets;
+namespace Modules\<nome progetto>\Filament\Widgets;
 
 use Filament\Tables\Columns\TextColumn;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\DB;
 use Modules\Limesurvey\Models\SurveyResponse;
-use Modules\Quaeris\Models\QuestionChart;
+use Modules\<nome progetto>\Models\QuestionChart;
 use Modules\Xot\Filament\Widgets\XotBaseTableWidget;
 
 class QuestionChartAnswersYTypeWidget extends XotBaseTableWidget
@@ -1910,8 +1910,8 @@ laravel/Modules/UI/
 - [design-system-1.md](./archive/design-system-1.md)
 - [design-system.md](./archive/design-system.md)
 - [feedback-components.md](./archive/feedback-components.md)
-- [filament-4x-upgrade-report.md](./archive/filament-4x-upgrade-report.md)
-- [filament-4x-upgrade.md](./archive/filament-4x-upgrade.md)
+- [Filament-5x-upgrade-report.md](./archive/Filament-5x-upgrade-report.md)
+- [Filament-5x-upgrade.md](./archive/Filament-5x-upgrade.md)
 - [filament-blade-components-usage-1.md](./archive/filament-blade-components-usage-1.md)
 - [filament-blade-components-usage-2.md](./archive/filament-blade-components-usage-2.md)
 - [filament-blade-components-usage.md](./archive/filament-blade-components-usage.md)
@@ -2125,10 +2125,10 @@ laravel/Modules/UI/
 - [best-practices.md](./filament/best-practices.md)
 - [component-icon-support.md](./filament/component-icon-support.md)
 - [component-methods-compatibility.md](./filament/component-methods-compatibility.md)
-- [filament-4-components-guide.md](./filament/filament-4-components-guide.md)
-- [filament-4-migration-guide.md](./filament/filament-4-migration-guide.md)
-- [filament-4-migration-summary.md](./filament/filament-4-migration-summary.md)
-- [filament-4-migration-sumy.md](./filament/filament-4-migration-sumy.md)
+- [Filament-5-components-guide.md](./filament/Filament-5-components-guide.md)
+- [Filament-5-migration-guide.md](./filament/Filament-5-migration-guide.md)
+- [Filament-5-migration-summary.md](./filament/Filament-5-migration-summary.md)
+- [Filament-5-migration-sumy.md](./filament/Filament-5-migration-sumy.md)
 - [file-upload-component.md](./filament/file-upload-component.md)
 - [installation.md](./filament/installation.md)
 - [label-translation-system.md](./filament/label-translation-system.md)
@@ -2475,10 +2475,10 @@ laravel/Modules/UI/
 - [enum-transclass-implementation.md](./enum-transclass-implementation.md)
 - [feedback-components-1.md](./feedback-components-1.md)
 - [feedback-components.md](./feedback-components.md)
-- [filament-4x-upgrade-1.md](./filament-4x-upgrade-1.md)
-- [filament-4x-upgrade-report-1.md](./filament-4x-upgrade-report-1.md)
-- [filament-4x-upgrade-report.md](./filament-4x-upgrade-report.md)
-- [filament-4x-upgrade.md](./filament-4x-upgrade.md)
+- [Filament-5x-upgrade-1.md](./Filament-5x-upgrade-1.md)
+- [Filament-5x-upgrade-report-1.md](./Filament-5x-upgrade-report-1.md)
+- [Filament-5x-upgrade-report.md](./Filament-5x-upgrade-report.md)
+- [Filament-5x-upgrade.md](./Filament-5x-upgrade.md)
 - [filament-5x-compatibility.md](./filament-5x-compatibility.md)
 - [filament-blade-components-usage-1-1.md](./filament-blade-components-usage-1-1.md)
 - [filament-blade-components-usage-1.md](./filament-blade-components-usage-1.md)
@@ -3059,8 +3059,8 @@ laravel/Modules/UI/
 - [design-system-1.md](./archive/design-system-1.md)
 - [design-system.md](./archive/design-system.md)
 - [feedback-components.md](./archive/feedback-components.md)
-- [filament-4x-upgrade-report.md](./archive/filament-4x-upgrade-report.md)
-- [filament-4x-upgrade.md](./archive/filament-4x-upgrade.md)
+- [Filament-5x-upgrade-report.md](./archive/Filament-5x-upgrade-report.md)
+- [Filament-5x-upgrade.md](./archive/Filament-5x-upgrade.md)
 - [filament-blade-components-usage-1.md](./archive/filament-blade-components-usage-1.md)
 - [filament-blade-components-usage-2.md](./archive/filament-blade-components-usage-2.md)
 - [filament-blade-components-usage.md](./archive/filament-blade-components-usage.md)
@@ -3244,10 +3244,10 @@ laravel/Modules/UI/
 - [best-practices.md](./filament/best-practices.md)
 - [component-icon-support.md](./filament/component-icon-support.md)
 - [component-methods-compatibility.md](./filament/component-methods-compatibility.md)
-- [filament-4-components-guide.md](./filament/filament-4-components-guide.md)
-- [filament-4-migration-guide.md](./filament/filament-4-migration-guide.md)
-- [filament-4-migration-summary.md](./filament/filament-4-migration-summary.md)
-- [filament-4-migration-sumy.md](./filament/filament-4-migration-sumy.md)
+- [Filament-5-components-guide.md](./filament/Filament-5-components-guide.md)
+- [Filament-5-migration-guide.md](./filament/Filament-5-migration-guide.md)
+- [Filament-5-migration-summary.md](./filament/Filament-5-migration-summary.md)
+- [Filament-5-migration-sumy.md](./filament/Filament-5-migration-sumy.md)
 - [file-upload-component.md](./filament/file-upload-component.md)
 - [installation.md](./filament/installation.md)
 - [label-translation-system.md](./filament/label-translation-system.md)
@@ -3562,10 +3562,10 @@ laravel/Modules/UI/
 - [enum-transclass-implementation.md](./enum-transclass-implementation.md)
 - [feedback-components-1.md](./feedback-components-1.md)
 - [feedback-components.md](./feedback-components.md)
-- [filament-4x-upgrade-1.md](./filament-4x-upgrade-1.md)
-- [filament-4x-upgrade-report-1.md](./filament-4x-upgrade-report-1.md)
-- [filament-4x-upgrade-report.md](./filament-4x-upgrade-report.md)
-- [filament-4x-upgrade.md](./filament-4x-upgrade.md)
+- [Filament-5x-upgrade-1.md](./Filament-5x-upgrade-1.md)
+- [Filament-5x-upgrade-report-1.md](./Filament-5x-upgrade-report-1.md)
+- [Filament-5x-upgrade-report.md](./Filament-5x-upgrade-report.md)
+- [Filament-5x-upgrade.md](./Filament-5x-upgrade.md)
 - [filament-5x-compatibility.md](./filament-5x-compatibility.md)
 - [filament-blade-components-usage-1-1.md](./filament-blade-components-usage-1-1.md)
 - [filament-blade-components-usage-1.md](./filament-blade-components-usage-1.md)
