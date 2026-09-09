@@ -7,7 +7,7 @@ updated: 2026-07-21
 qmd: "gitmodules sync session module theme note story-003"
 issues:
   - "https://github.com/provtv/<nome repository>/issues/201"
-  - "https://github.com/provtv/base_ptv_fila5/issues/201"
+  - "https://github.com/provtv/<repo progetto>/issues/201"
 discussions: []
 related:
   - "../../../../../../docs/stories/STORY-003-gitmodules-sync-conflict-sweep.md"
@@ -28,5 +28,5 @@ Sessione orchestrata dal prompt `bashscripts/tools/prompts/02-gitmodules-sync.md
 
 - Story: [../../../../../../docs/stories/STORY-003-gitmodules-sync-conflict-sweep.md](../../../../../../docs/stories/STORY-003-gitmodules-sync-conflict-sweep.md)
 - Report: [../../../../../../docs/chat/gitmodules-sync.md](../../../../../../docs/chat/gitmodules-sync.md)
-- Issue base: https://github.com/provtv/base_ptv_fila5/issues/201
+- Issue base: https://github.com/provtv/<repo progetto>/issues/201
 - Issue base: https://github.com/provtv/<nome repository>/issues/201

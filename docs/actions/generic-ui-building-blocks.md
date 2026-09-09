@@ -5,8 +5,8 @@ tags: [models, actions, category, collection, field-option]
 created: 2026-07-20
 updated: 2026-07-20
 qmd: "generic-ui-building-blocks category collection fieldoption"
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
+discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
 related:
   - "./table-layout-toggle.md"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]

@@ -27,7 +27,7 @@ A component born in UI is portable: it can migrate to another project in the eco
 
 **The boundary is reusability, not convenience of the moment.**
 
-Example: A `GroupColumn` Filament component is generic (UI). A button styled as "FixCity primary blue" is specific (Theme). Never extract the second into the first.
+Example: A `GroupColumn` Filament component is generic (UI). A button styled as "<nome progetto> primary blue" is specific (Theme). Never extract the second into the first.
 
 ---
 
@@ -435,7 +435,7 @@ UI is the shared vocabulary of the interface. It is the place where a block of m
 
 ### What Does NOT Belong in UI
 
-1. **Theme and styling specifics.** Move to `Themes/`. (FixCity is blue? That is a theme choice.)
+1. **Theme and styling specifics.** Move to `Themes/`. (<nome progetto> is blue? That is a theme choice.)
 2. **Business logic.** `if ($user->isAdmin)` does not belong in a component.
 3. **Domain models.** `App/Models/Patient`, `App/Models/Card`. These belong in their domain modules.
 4. **Domain-specific form fields.** A field that knows what a `Patient` is: that is `Ptv`, not `UI`.
