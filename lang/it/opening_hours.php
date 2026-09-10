@@ -41,6 +41,7 @@ return [
         'id' => ['label' => 'Identificativo', 'tooltip' => 'Identificativo univoco del record', 'helper_text' => '', 'description' => ''],
         'created_at' => ['label' => 'Data Creazione', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
         'updated_at' => ['label' => 'Ultima Modifica', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
+        'opening_hours' => ['label' => 'opening_hours'],
     ],
     'actions' => [
         'create' => ['label' => 'Crea Opening Hours'],

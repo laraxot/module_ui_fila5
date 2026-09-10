@@ -212,3 +212,5 @@ phpmd*
 rector.php
 phpmd.ruleset.xml
 phpmd.ruleset.xml.bak
+graphify-out
+docs/_archive
