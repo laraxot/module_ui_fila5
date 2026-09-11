@@ -10,26 +10,45 @@ use Modules\UI\Tests\TestCase;
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 use PHPUnit\Framework\Assert;
 
+<<<<<<< HEAD
 uses(TestCase::class);
 
 test('row widget extends filament widget', function (): void {
     $widget = new class extends RowWidget {};
+=======
+uses(\Modules\UI\Tests\TestCase::class);
+
+test('row widget extends filament widget', function (): void {
+    $widget = new class() extends RowWidget {};
+>>>>>>> laraxot/dev
     Assert::assertInstanceOf(Widget::class, $widget);
     Assert::assertInstanceOf(XotBaseSchemaWidget::class, $widget);
 });
 
 test('row widget can be instantiated via concrete subclass', function (): void {
+<<<<<<< HEAD
     $widget = new class extends RowWidget {};
+=======
+    $widget = new class() extends RowWidget {};
+>>>>>>> laraxot/dev
     Assert::assertInstanceOf(RowWidget::class, $widget);
 });
 
 test('row widget returns empty form schema', function (): void {
+<<<<<<< HEAD
     $widget = new class extends RowWidget {};
+=======
+    $widget = new class() extends RowWidget {};
+>>>>>>> laraxot/dev
     Assert::assertSame([], $widget->getFormSchema());
 });
 
 test('row widget exposes grid and widgets arrays', function (): void {
+<<<<<<< HEAD
     $widget = new class extends RowWidget {};
+=======
+    $widget = new class() extends RowWidget {};
+>>>>>>> laraxot/dev
     Assert::assertSame([], $widget->grid);
     Assert::assertSame([], $widget->widgets);
 });

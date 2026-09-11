@@ -21,7 +21,11 @@ related:
 
 **Versione:** 1.0  
 **Data:** Gennaio 2026  
+<<<<<<< HEAD
 **Target:** Filament 5.x, Laravel 12.x, Modulo UI  
+=======
+**Target:** Filament 5.x, Laravel 13.x, Modulo UI  
+>>>>>>> laraxot/dev
 **Livello:** Guida "a prova di stupido" - passo dopo passo
 
 > **Riferimento Ufficiale:** [chartjs-plugin-datalabels - Multiple Labels Sample](https://chartjs-plugin-datalabels.netlify.app/samples/advanced/multiple-labels.html)  

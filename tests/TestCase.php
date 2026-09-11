@@ -8,15 +8,24 @@ use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Support\Facades\DB;
 use Mockery\Expectation;
+<<<<<<< HEAD
 use Mockery\LegacyMockInterface;
 use Mockery\MockInterface;
 use Modules\UI\Providers\UIServiceProvider;
 use Modules\Xot\Contracts\UserContract;
+=======
+use Mockery\MockInterface;
+use Modules\UI\Providers\UIServiceProvider;
+use Modules\User\Models\User;
+>>>>>>> laraxot/dev
 use Modules\User\Providers\UserServiceProvider;
 use Modules\Xot\Tests\XotBaseTestCase;
 
 use function Safe\file_get_contents;
+<<<<<<< HEAD
 use Modules\User\Models\User;
+=======
+>>>>>>> laraxot/dev
 
 /**
  * Base test case for UI module.
@@ -36,6 +45,7 @@ abstract class TestCase extends XotBaseTestCase
      * namespace, e function_exists senza namespace cerca quella globale. Il secondo
      * file caricato faceva fallire l'intera suite con un "Cannot redeclare".
      *
+<<<<<<< HEAD
      * Con un singolo metodo shouldReceive() restituisce una Expectation
      * (il PHPDoc Mockery lo garantisce: `$methodNames is list{} ? HigherOrderMessage : Expectation`),
      * che espone with()/andReturnUsing() ecc. — ExpectationInterface no.
@@ -44,6 +54,26 @@ abstract class TestCase extends XotBaseTestCase
     {
         /** @var Expectation $expectation */
         $expectation = $mock->shouldReceive($method);
+=======
+     * Mockery restituisce una CompositeExpectation anche per un singolo nome, ma
+     * l'ExpectationDirector conserva l'Expectation concreta che espone l'intera
+     * fluent API (`with`, `andReturnUsing`, ...).
+     */
+    public static function expectMethod(MockInterface $mock, string $method): Expectation
+    {
+        $mock->shouldReceive($method);
+
+        $director = $mock->mockery_getExpectationsFor($method);
+        if ($director === null) {
+            throw new \LogicException(sprintf('No expectation director registered for [%s].', $method));
+        }
+
+        $expectations = $director->getExpectations();
+        $expectation = end($expectations);
+        if (! $expectation instanceof Expectation) {
+            throw new \LogicException(sprintf('No concrete expectation registered for [%s].', $method));
+        }
+>>>>>>> laraxot/dev
 
         return $expectation;
     }
@@ -65,7 +95,11 @@ abstract class TestCase extends XotBaseTestCase
 
     protected function setUp(): void
     {
+<<<<<<< HEAD
         $this->prepareSharedFixcitySqliteForTesting();
+=======
+        $this->prepareSharedSqliteForTesting();
+>>>>>>> laraxot/dev
 
         parent::setUp();
 

@@ -30,7 +30,11 @@ use ReflectionClass;
 
 use function Safe\mkdir;
 
+<<<<<<< HEAD
 uses(TestCase::class);
+=======
+uses(\Modules\UI\Tests\TestCase::class);
+>>>>>>> laraxot/dev
 
 afterEach(function (): void {
     UiCoverageRecord::$findMap = [];
@@ -40,7 +44,11 @@ afterEach(function (): void {
 describe('UI state columns — comportamento IconStateColumn', function (): void {
     test('icon color tooltip rispondono allo StateContract', function (): void {
         $column = IconStateColumn::make('state');
+<<<<<<< HEAD
         $state = new UiCoverageStateContract;
+=======
+        $state = new UiCoverageStateContract();
+>>>>>>> laraxot/dev
 
         Assert::assertSame('heroicon-o-clock', $column->getIcon($state));
         Assert::assertSame('warning', $column->getColor($state));

@@ -12,7 +12,11 @@ use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 use Spatie\LaravelData\Data;
 
+<<<<<<< HEAD
 uses(TestCase::class);
+=======
+uses(\Modules\UI\Tests\TestCase::class);
+>>>>>>> laraxot/dev
 
 it('SliderData can be instantiated with all fields', function (): void {
     $data = new SliderData(
@@ -69,13 +73,21 @@ it('SliderData can be instantiated with nulls', function (): void {
 });
 
 it('SliderDataCollection can be instantiated', function (): void {
+<<<<<<< HEAD
     $collection = new SliderDataCollection;
+=======
+    $collection = new SliderDataCollection();
+>>>>>>> laraxot/dev
 
     Assert::assertInstanceOf(SliderDataCollection::class, $collection);
 });
 
 it('SliderDataCollection is a Spatie Data class', function (): void {
+<<<<<<< HEAD
     $collection = new SliderDataCollection;
+=======
+    $collection = new SliderDataCollection();
+>>>>>>> laraxot/dev
 
     Assert::assertInstanceOf(Data::class, $collection);
 });

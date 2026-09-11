@@ -8,7 +8,10 @@ use Carbon\Carbon;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
 use Modules\Xot\Filament\Forms\Components\XotBaseDatePicker;
+<<<<<<< HEAD
 use RuntimeException;
+=======
+>>>>>>> laraxot/dev
 
 use function Safe\preg_match;
 
@@ -273,7 +276,11 @@ class InlineDatePicker extends XotBaseDatePicker
         for ($i = 0; $i < 7; ++$i) {
             $dayCarbon = $monday->copy()->addDays($i)->locale(App::getLocale());
             if (! $dayCarbon instanceof Carbon) {
+<<<<<<< HEAD
                 throw new RuntimeException('Expected Carbon instance');
+=======
+                throw new \RuntimeException('Expected Carbon instance');
+>>>>>>> laraxot/dev
             }
             $shortDay = $dayCarbon->shortLocaleDayOfWeek;
             $weekdays[] = \is_string($shortDay) ? mb_substr($shortDay, 0, 1) : (string) $shortDay;

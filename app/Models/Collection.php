@@ -19,10 +19,15 @@ use Modules\Xot\Models\BaseModel;
  * @property int|null $theme_id
  * @property bool $is_active
  * @property int|null $order
+<<<<<<< HEAD
+=======
+ *
+>>>>>>> laraxot/dev
  * @method static \Modules\UI\Database\Factories\CollectionFactory factory($count = null, $state = [])
  * @method static Builder<static>|Collection newModelQuery()
  * @method static Builder<static>|Collection newQuery()
  * @method static Builder<static>|Collection query()
+<<<<<<< HEAD
  * @property string|null $created_by
  * @property string|null $updated_by
  * @property \Illuminate\Support\Carbon|null $deleted_at
@@ -45,6 +50,9 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Collection whereType($value)
  * @method static Builder<static>|Collection whereUpdatedAt($value)
  * @method static Builder<static>|Collection whereUpdatedBy($value)
+=======
+ *
+>>>>>>> laraxot/dev
  * @mixin \Eloquent
  */
 class Collection extends BaseModel

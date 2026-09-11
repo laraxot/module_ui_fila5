@@ -8,7 +8,11 @@ use Modules\UI\Datas\ThemeMetadataData;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
+<<<<<<< HEAD
 uses(TestCase::class);
+=======
+uses(\Modules\UI\Tests\TestCase::class);
+>>>>>>> laraxot/dev
 
 it('espone i colori passati al costruttore', function (): void {
     $data = new ThemeMetadataData('#112233', '#445566');
