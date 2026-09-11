@@ -4,18 +4,18 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit\Stubs;
 
+use Illuminate\Foundation\Auth\User as AuthenticatableUser;
 use Illuminate\Support\Collection;
-use Modules\Xot\Contracts\UserContract;
 
 /**
  * User in-memory per GetUserDataAction — evita Mockery property.notFound.
  */
-final class UiCoverageAuthUser extends \Illuminate\Foundation\Auth\User
+final class UiCoverageAuthUser extends AuthenticatableUser
 {
     public mixed $profile = null;
 
     #[\Override]
-    public function relationLoaded(mixed $key): bool
+    public function relationLoaded($key): bool
     {
         if (! is_string($key)) {
             return false;
