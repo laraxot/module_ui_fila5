@@ -34,7 +34,11 @@ describe('UI Filament widgets and components coverage', function (): void {
             if (! str_contains($class, 'Filament\\Widgets\\')) {
                 continue;
             }
+<<<<<<< HEAD
             Assert::assertInstanceOf($class, new $class);
+=======
+            Assert::assertInstanceOf($class, new $class());
+>>>>>>> laraxot/dev
             $seen++;
         }
         Assert::assertGreaterThan(0, $seen);
@@ -60,7 +64,11 @@ describe('UI Filament widgets and components coverage', function (): void {
 
 describe('UI coverage boost — Enums', function (): void {
     test('FieldTypeEnum form schema exposes all cases', function (): void {
+<<<<<<< HEAD
         $schema = FieldTypeEnum::getFormSchema();
+=======
+        $schema = FieldTypeEnum::TEXT->getFormSchema();
+>>>>>>> laraxot/dev
         Assert::assertCount(count(FieldTypeEnum::cases()), $schema);
     });
 
@@ -71,7 +79,11 @@ describe('UI coverage boost — Enums', function (): void {
 
 describe('UI coverage boost — Rules and policies', function (): void {
     test('OpeningHoursRule accepts empty array value', function (): void {
+<<<<<<< HEAD
         $rule = new OpeningHoursRule;
+=======
+        $rule = new OpeningHoursRule();
+>>>>>>> laraxot/dev
         $failed = false;
         $rule->validate(
             'hours',
@@ -88,12 +100,26 @@ describe('UI coverage boost — Rules and policies', function (): void {
     test('UiBasePolicy before grants super-admin', function (): void {
         /** @var MockInterface&UserContract $superAdmin */
         $superAdmin = Mockery::mock(UserContract::class);
+<<<<<<< HEAD
         TestCase::expectMethod($superAdmin, 'hasRole')->with('super-admin')->andReturn(true);
         /** @var MockInterface&UserContract $regular */
         $regular = Mockery::mock(UserContract::class);
         TestCase::expectMethod($regular, 'hasRole')->with('super-admin')->andReturn(false);
 
         $policy = new class extends UiBasePolicy {};
+=======
+        $superAdmin->allows([
+            'hasRole' => true,
+        ]);
+
+        /** @var MockInterface&UserContract $regular */
+        $regular = Mockery::mock(UserContract::class);
+        $regular->allows([
+            'hasRole' => false,
+        ]);
+
+        $policy = new class() extends UiBasePolicy {};
+>>>>>>> laraxot/dev
         Assert::assertTrue($policy->before($superAdmin, 'viewAny'));
         Assert::assertNull($policy->before($regular, 'viewAny'));
     });
@@ -101,11 +127,19 @@ describe('UI coverage boost — Rules and policies', function (): void {
 
 describe('UI coverage boost — Models and providers', function (): void {
     test('Category fillable matches domain fields', function (): void {
+<<<<<<< HEAD
         Assert::assertContains('name', (new Category)->getFillable());
     });
 
     test('StatsOverviewWidget declares heading', function (): void {
         $widget = new StatsOverviewWidget;
+=======
+        Assert::assertContains('name', (new Category())->getFillable());
+    });
+
+    test('StatsOverviewWidget declares heading', function (): void {
+        $widget = new StatsOverviewWidget();
+>>>>>>> laraxot/dev
         $ref = new \ReflectionClass($widget);
         $prop = $ref->getProperty('heading');
         $prop->setAccessible(true);

@@ -169,7 +169,11 @@ class UserResource extends XotBaseResource
 
     protected static ?string $navigationIcon = 'heroicon-o-users';
 
+<<<<<<< HEAD
     public static function getFormSchema(): array
+=======
+    public function getFormSchema(): array
+>>>>>>> laraxot/dev
     {
         return [
             Forms\Components\TextInput::make('name')

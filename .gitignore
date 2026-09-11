@@ -212,3 +212,8 @@ phpmd*
 rector.php
 phpmd.ruleset.xml
 phpmd.ruleset.xml.bak
+<<<<<<< HEAD
+=======
+graphify-out
+docs/_archive
+>>>>>>> laraxot/dev

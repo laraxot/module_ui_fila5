@@ -138,7 +138,11 @@ return [
 ];
 
 // Modules/Patient/Filament/Resources/DoctorResource.php
+<<<<<<< HEAD
 public static function getFormSchema(): array
+=======
+public function getFormSchema(): array
+>>>>>>> laraxot/dev
 {
     return [
         Forms\Components\TextInput::make('first_name'),  // La label viene gestita automaticamente

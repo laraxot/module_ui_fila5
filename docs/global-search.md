@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: 'Global search — risorse esterne'
 module: UI
@@ -18,3 +19,18 @@ updated: 2026-08-24
 ## Riferimenti
 
 - <https://github.com/spatie/laravel-searchable>
+=======
+https://github.com/spatie/laravel-searchable
+
+
+
+## Appendice — contenuto migrato
+
+---
+module: theme
+topic: global-search
+canonical: ../../../Themes/docs/shared-components/global-search.md
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/global-search.md
+>>>>>>> laraxot/dev
