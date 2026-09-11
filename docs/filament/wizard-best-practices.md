@@ -30,7 +30,11 @@ Quando si implementa un `Wizard` in Filament, **non inserire mai direttamente** 
 
 ```php
 // ✅ CORRETTO
+<<<<<<< HEAD
 public static function getFormSchemaWidget(): array
+=======
+public function getFormSchemaWidget(): array
+>>>>>>> laraxot/dev
 {
     return [
         Forms\Components\Wizard::make([
@@ -57,7 +61,11 @@ protected static function getPersonalDataStep(): Forms\Components\Wizard\Step
 
 ```php
 // ❌ ERRATO
+<<<<<<< HEAD
 public static function getFormSchemaWidget(): array
+=======
+public function getFormSchemaWidget(): array
+>>>>>>> laraxot/dev
 {
     return [
         Forms\Components\Wizard::make([
@@ -119,7 +127,11 @@ Ogni step di un wizard rappresenta una fase logica distinta del processo. Estrar
 ```php
 class PatientResource extends XotBaseResource
 {
+<<<<<<< HEAD
     public static function getFormSchemaWidget(): array
+=======
+    public function getFormSchemaWidget(): array
+>>>>>>> laraxot/dev
     {
         return [
             Forms\Components\Wizard::make([
@@ -158,7 +170,11 @@ class PatientResource extends XotBaseResource
 L'estrazione in metodi dedicati facilita anche la gestione di step condizionali:
 
 ```php
+<<<<<<< HEAD
 public static function getFormSchemaWidget(): array
+=======
+public function getFormSchemaWidget(): array
+>>>>>>> laraxot/dev
 {
     $steps = [
         self::getPersonalDataStep(),

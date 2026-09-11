@@ -12,11 +12,19 @@ use Modules\UI\Providers\UIServiceProvider;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
+<<<<<<< HEAD
 uses(TestCase::class);
 
 describe('UI coverage boost — Enums', function (): void {
     test('FieldTypeEnum form schema exposes all cases', function (): void {
         $schema = FieldTypeEnum::getFormSchema();
+=======
+uses(\Modules\UI\Tests\TestCase::class);
+
+describe('UI coverage boost — Enums', function (): void {
+    test('FieldTypeEnum form schema exposes all cases', function (): void {
+        $schema = FieldTypeEnum::TEXT->getFormSchema();
+>>>>>>> laraxot/dev
 
         Assert::assertCount(count(FieldTypeEnum::cases()), $schema);
         Assert::assertArrayHasKey(FieldTypeEnum::TEXT->value, $schema);
@@ -33,7 +41,11 @@ describe('UI coverage boost — Enums', function (): void {
 
 describe('UI coverage boost — Models', function (): void {
     test('Category fillable matches domain fields', function (): void {
+<<<<<<< HEAD
         $fillable = (new Category)->getFillable();
+=======
+        $fillable = (new Category())->getFillable();
+>>>>>>> laraxot/dev
 
         Assert::assertContains('name', $fillable);
         Assert::assertContains('is_active', $fillable);
@@ -42,7 +54,11 @@ describe('UI coverage boost — Models', function (): void {
 
 describe('UI coverage boost — Filament widgets', function (): void {
     test('StatsOverviewWidget declares heading', function (): void {
+<<<<<<< HEAD
         $widget = new StatsOverviewWidget;
+=======
+        $widget = new StatsOverviewWidget();
+>>>>>>> laraxot/dev
         $ref = new \ReflectionClass($widget);
         $prop = $ref->getProperty('heading');
         $prop->setAccessible(true);

@@ -14,7 +14,11 @@ final class Post extends XotBaseBlock
     /**
      * @return array<int, \Filament\Schemas\Components\Component>
      */
+<<<<<<< HEAD
     public static function getFormSchema(): array
+=======
+    public function getFormSchema(): array
+>>>>>>> laraxot/dev
     {
         return [
             TextInput::make('title')
