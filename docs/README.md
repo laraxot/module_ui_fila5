@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Documentation
 
 This directory contains documentation for the module.
@@ -1103,7 +1102,6 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 *Ultimo aggiornamento: gennaio 2025* 
 *Ultimo aggiornamento: gennaio 2025* 
 *Ultimo aggiornamento: gennaio 2025* 
-=======
 ---
 title: "UI — Il Design System Sacro"
 description: "Sistema di componenti UI riutilizzabili e design system per interfacce utente coerenti"
@@ -1176,4 +1174,3 @@ L'ecosistema ha 40+ moduli che condividono l'interfaccia admin. Senza un design 
 ---
 
 *Documento generato secondo le convenzioni del progetto — modulo `UI` — data 2026-05-27*
->>>>>>> laraxot/dev

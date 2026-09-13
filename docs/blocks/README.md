@@ -1,6 +1,5 @@
 # Block Components
 
-<<<<<<< HEAD
 This document provides guidelines and documentation for theme block components used in the frontend architecture.
 
 ## Overview
@@ -27,7 +26,6 @@ Block components are modular UI elements used to build sections in the frontend.
 - [Section Architecture](../sections/readme.md)
 - [Theme Components](../components/readme.md)
 - [Data Handling in Blade](../blade-data-handling.md)
-=======
 [![Module](https://img.shields.io/badge/Module-Block Components-8B0000.svg)]()
 [![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
 [![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)
@@ -60,4 +58,3 @@ Core module for the FixCity Platform.
 ---
 
 **Modulo** `UI` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
->>>>>>> laraxot/dev

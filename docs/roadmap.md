@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # UI Module - Complete Roadmap 2026
 
 **Generated**: 2026-01-02
@@ -1026,7 +1025,6 @@ UI Module
 ---
 
 *Questa roadmap è specifica per il modulo UI e viene aggiornata regolarmente in base ai progressi e alle nuove esigenze.*
-=======
 # UI Module Roadmap
 
 "L'interfaccia è l'essenza: rendere l'esperienza indimenticabile."
@@ -1332,4 +1330,3 @@ Completare il modulo UI con tutte le funzionalità mancanti, migliorare qualità
 ---
 
 **Filosofia**: UI fornisce componenti riutilizzabili e design system - nessuna business logic, solo presentazione.
->>>>>>> laraxot/dev

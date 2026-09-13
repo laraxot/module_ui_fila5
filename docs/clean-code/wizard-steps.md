@@ -131,11 +131,8 @@ class DoctorResource extends XotBaseResource
             ]);
     }
 
-<<<<<<< HEAD
     public static function getFormSchemaWidget(): array
-=======
     public function getFormSchemaWidget(): array
->>>>>>> laraxot/dev
     {
         return [
             'wizard' => Forms\Components\Wizard::make([

@@ -652,7 +652,6 @@ The UI module is a **well-architected, feature-rich Filament customization layer
 **Document Version:** 1.0
 **Generated:** 2025-11-19
 **Author:** Claude Code Analysis
-<<<<<<< HEAD
 # UI Module - Architecture Guide (2025)
 
 > **Last Updated:** 2025-11-19
@@ -1307,7 +1306,6 @@ The UI module is a **well-architected, feature-rich Filament customization layer
 **Document Version:** 1.0
 **Generated:** 2025-11-19
 **Author:** Claude Code Analysis
-=======
 
 ---
 
@@ -1361,4 +1359,3 @@ The UI module provides Filament-based admin interface components, themes, and ut
 - Wiki: `docs/wiki/ui/`
 - Components: `docs/wiki/ui/UI-*.md`
 - Filament: `docs/wiki/concepts/UI-filament-patterns.md`
->>>>>>> laraxot/dev

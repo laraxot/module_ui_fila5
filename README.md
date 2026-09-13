@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🎨 UI — il vocabolario visivo, non il vestito
 
 [![Dominio](https://img.shields.io/badge/dominio-design%20system-7B1FA2.svg)](#)
@@ -92,9 +91,7 @@ Confini, misure e le cinque mosse concrete: [`docs/scopo.md`](./docs/scopo.md).
 | Analisi statica | `./vendor/bin/phpstan analyse Modules/UI` | `[OK] No errors` |
 | Versioni | `composer.json` | PHP `^8.3`, Laravel `^13.0`, Filament `^5.0` |
 
-<<<<<<< .merge_file_6FvQzv
 Non ancora misurati in questa revisione: copertura test, PHPMD, PHPInsights.
-=======
 # 🎨 UI Module - Eleva la Tua Interfaccia al Livello Successivo! 🚀
 ![GitHub issues](https://img.shields.io/github/issues/laraxot/module_ui_fila5)
 ![GitHub forks](https://img.shields.io/github/forks/laraxot/module_ui_fila5)
@@ -265,8 +262,6 @@ This project is distributed under the MIT license. See the [LICENSE](LICENSE) fi
 Este proyecto está distribuido bajo la licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
 ---
 **Modulo** `ui` · **Laraxot** · **Current Platform** · PHPStan 10 · Filament 5
->>>>>>> .merge_file_1HTu89
-=======
 # 🎨 UI
 
 [![Stars](https://img.shields.io/github/stars/laraxot/module_ui_fila5?style=plastic&color=yellow)]()
@@ -363,4 +358,3 @@ See [ARCHITECTURE.md](./ARCHITECTURE.md) for design decisions.
 ---
 
 **Modulo** `UI` · **Laraxot** · PHPStan 10 · Filament 5
->>>>>>> laraxot/dev

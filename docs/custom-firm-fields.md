@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: 'Custom firm fields — risorse esterne'
 module: UI
@@ -25,7 +24,6 @@ updated: 2026-08-24
 - <https://github.com/tanthammar/filament-extras>
 - <https://github.com/saade/filament-extra>
 - <https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function>
-=======
 https://github.com/tanthammar/filament-extras
 
 
@@ -46,4 +44,3 @@ canonical: ../../../Themes/docs/shared-components/custom-firm-fields.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/custom-firm-fields.md
->>>>>>> laraxot/dev

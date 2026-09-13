@@ -1,6 +1,5 @@
 # Componenti UI
 
-<<<<<<< HEAD
 Questo documento contiene la documentazione dettagliata dei componenti UI.
 
 ## Struttura dei Componenti
@@ -275,7 +274,6 @@ class ButtonBrowserTest extends DuskTestCase
 * [README.md](../../../cms/docs/components/readme.md)
 * [README.md](../../../../themes/two/docs/readme.md)
 * [README.md](../../../../themes/one/docs/readme.md)
-=======
 [![Module](https://img.shields.io/badge/Module-Componenti UI-8B0000.svg)]()
 [![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
 [![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)
@@ -308,4 +306,3 @@ Core module for the FixCity Platform.
 ---
 
 **Modulo** `UI` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
->>>>>>> laraxot/dev

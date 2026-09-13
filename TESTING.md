@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # UI Module Testing
 
 ## Component Testing
@@ -20,7 +19,6 @@
 ```bash
 ./vendor/bin/pest Modules/UI/tests
 ```
-=======
 # Testing $MOD
 
 ## Quick Start
@@ -37,4 +35,3 @@ Coverage report: docs/coverage.md (auto-generated).
 Target: ≥85% coverage.
 
 See Xot module (TESTING.md) for base test patterns.
->>>>>>> laraxot/dev

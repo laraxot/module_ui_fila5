@@ -229,10 +229,7 @@ php artisan view:clear
 
 # Test in browser
 # http://fixcity.local/it/tests/homepage
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
 # http://<nome progetto>.local/it/tests/homepage
 # http://app.local/it/tests/homepage
 ```

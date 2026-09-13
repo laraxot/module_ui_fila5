@@ -10,11 +10,7 @@ use Modules\UI\Enums\TableLayoutEnum;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-<<<<<<< HEAD
 uses(TestCase::class);
-=======
-uses(\Modules\UI\Tests\TestCase::class);
->>>>>>> laraxot/dev
 
 it('has enum values', function (): void {
     Assert::assertSame('list', TableLayoutEnum::LIST->value);

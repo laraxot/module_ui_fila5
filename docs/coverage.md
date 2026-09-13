@@ -1,6 +1,5 @@
 # Code Coverage: UI
 
-<<<<<<< HEAD
 ## 2026-09-04 — Concrete models → contracts (UI, User modules)
 
 **Task:** Replace `\Modules\User\Models\Profile` docblock refs with `\Modules\Xot\Contracts\ProfileContract` (12 occurrences in UI).
@@ -328,7 +327,6 @@ before/after), so there is no real gap or dead code this pass uncovered to justi
 test per the "no fake tests just to move the number" rule. Coverage baseline stands as
 documented in the entry above (no driver installed — pass/fail counts are the tracked proxy
 in this module, same as prior entries).
-=======
 ## Sessione 2026-09-07 — PHPStan zero (story 01.UI-phpstan-fix)
 
 **PHPStan `Modules/UI` (`--no-progress --memory-limit=-1`, cache pulita):**
@@ -467,4 +465,3 @@ Tests: 6 failed, 1 risky, 109 skipped, 199 passed (654 assertions)
 **Previous:** 76 failed, 42 passed (2026-01-17)
 **Current:** 6 failed, 199 passed (improvement)
 **Action:** Address 6 test failures before final merge
->>>>>>> laraxot/dev

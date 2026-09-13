@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # UI Module Architecture
 
 ## Overview
@@ -20,7 +19,6 @@ The UI module provides Filament-based admin interface components, themes, and ut
 - Wiki: `docs/wiki/ui/`
 - Components: `docs/wiki/ui/UI-*.md`
 - Filament: `docs/wiki/concepts/UI-filament-patterns.md`
-=======
 # $MOD Architecture
 
 Core components and design decisions.
@@ -36,4 +34,3 @@ Core components and design decisions.
 - `lang/` — Translations
 
 See README.md for overview. See CONTRIBUTING.md for development workflow.
->>>>>>> laraxot/dev
