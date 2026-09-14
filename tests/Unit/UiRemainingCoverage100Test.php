@@ -29,7 +29,10 @@ use PHPUnit\Framework\Assert;
 use ReflectionClass;
 
 use function Safe\mkdir;
+<<<<<<< HEAD
 use Modules\User\Models\User;
+=======
+>>>>>>> laraxot/dev
 
 uses(TestCase::class)->group('no-ui-db');
 
@@ -87,8 +90,13 @@ describe('UI remaining 100 — view e actions', function (): void {
         foreach ([
             (new Std('tpl'))->render(),
             (new Svg('tpl'))->render(),
+<<<<<<< HEAD
             (new Navbar)->render(),
             (new WithSidebar)->render(),
+=======
+            (new Navbar())->render(),
+            (new WithSidebar())->render(),
+>>>>>>> laraxot/dev
         ] as $view) {
             Assert::assertInstanceOf(View::class, $view);
             Assert::assertSame('ui::empty', $view->name());
@@ -116,7 +124,11 @@ describe('UI remaining 100 — altri componenti', function (): void {
     });
 
     test('GetUserDataAction avatar da profile_photo_path', function (): void {
+<<<<<<< HEAD
         $user = new UiCoverageAuthUser;
+=======
+        $user = new UiCoverageAuthUser();
+>>>>>>> laraxot/dev
         $user->forceFill([
             'id' => 5,
             'name' => 'Path User',

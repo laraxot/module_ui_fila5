@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # UI Module Testing
 
 ## Component Testing
@@ -19,6 +20,8 @@
 ```bash
 ./vendor/bin/pest Modules/UI/tests
 ```
+=======
+>>>>>>> laraxot/dev
 # Testing $MOD
 
 ## Quick Start
@@ -27,6 +30,20 @@
 ./vendor/bin/pest Modules/$MOD/tests
 ./vendor/bin/pest Modules/$MOD/tests --filter="TestName"
 ```
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Mnb3mf
+=======
+# Testing $MOD
+
+## Quick Start
+
+```bash
+./vendor/bin/pest Modules/$MOD/tests
+./vendor/bin/pest Modules/$MOD/tests --filter="TestName"
+```
+>>>>>>> .merge_file_Mnl6jn
+>>>>>>> laraxot/dev
 
 ## Coverage
 

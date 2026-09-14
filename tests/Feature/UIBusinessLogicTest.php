@@ -10,7 +10,11 @@ use Modules\UI\Models\Collection;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
+<<<<<<< HEAD
 uses(TestCase::class);
+=======
+uses(\Modules\UI\Tests\TestCase::class);
+>>>>>>> laraxot/dev
 
 describe('UI Business Logic Integration', function (): void {
     describe('Category management', function (): void {

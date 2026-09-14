@@ -12,10 +12,15 @@ use Modules\Xot\Models\BaseModel;
  *
  * FormBuilder module not available - extending from XotBaseModel instead.
  *
+<<<<<<< HEAD
+=======
+ *
+>>>>>>> laraxot/dev
  * @method static \Modules\UI\Database\Factories\FieldOptionFactory factory($count = null, $state = [])
  * @method static Builder<static>|FieldOption newModelQuery()
  * @method static Builder<static>|FieldOption newQuery()
  * @method static Builder<static>|FieldOption query()
+<<<<<<< HEAD
  * @property int $id
  * @property string|null $field_id
  * @property string|null $label
@@ -41,6 +46,9 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|FieldOption whereUpdatedAt($value)
  * @method static Builder<static>|FieldOption whereUpdatedBy($value)
  * @method static Builder<static>|FieldOption whereValue($value)
+=======
+ *
+>>>>>>> laraxot/dev
  * @mixin \Eloquent
  */
 class FieldOption extends BaseModel

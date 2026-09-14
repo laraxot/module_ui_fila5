@@ -1,5 +1,6 @@
 # LLM Wiki (module)
 
+<<<<<<< HEAD
 Questa cartella contiene la wiki curata del modulo per uso LLM.
 
 Usa `docs/` come sorgente raw e `docs/wiki/` come livello compilato/sintetico.
@@ -17,6 +18,31 @@ Usa `docs/` come sorgente raw e `docs/wiki/` come livello compilato/sintetico.
 - `docs/wiki/index.md` indice
 - `docs/wiki/log.md` log append-only
 
+=======
+[![Module](https://img.shields.io/badge/Module-LLM Wiki (module)-8B0000.svg)]()
+[![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
+[![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)
+[![PHP](https://img.shields.io/badge/PHP-8.4+-777BB4?style=for-the-badge)](https://php.net/)](https://php.net/)
+[![PHP](https://img.shields.io/badge/PHP-8.4+-777BB4?style=for-the-badge)](https://php.net/)](https://phpstan.org/)
+[![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue?style=for-the-badge)](https://www.php-fig.org/psr/psr-12/)](https://www.php-fig.org/psr/psr-12/)
+[![Architecture](https://img.shields.io/badge/Architecture-Modular-purple?style=for-the-badge)](https://martinfowler.com/articles/paradigm-shifts.html)]()
+]()
+
+> **Core module for the FixCity Platform.**
+
+## Perché esiste
+
+Core module for the FixCity Platform.
+
+## Superpoteri
+
+- Modular component with XotBase patterns
+- Professional-grade implementation
+- Integrated with FixCity Platform
+
+<<<<<<< .merge_file_M9fjH0
+=======
+>>>>>>> laraxot/dev
 QMD: [https://github.com/tobi/qmd](https://github.com/tobi/qmd)
 [![Module](https://img.shields.io/badge/Module-LLM Wiki (module)-8B0000.svg)]()
 [![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
@@ -39,6 +65,10 @@ Core module for the FixCity Platform.
 - Professional-grade implementation
 - Integrated with FixCity Platform
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_FxmJmS
+>>>>>>> laraxot/dev
 ## Documentazione
 
 | Lingua | Link |
