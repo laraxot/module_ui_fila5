@@ -6,7 +6,14 @@ namespace Modules\UI\Filament\Forms\Components;
 
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasLabel;
+<<<<<<< HEAD
 use InvalidArgumentException;
+=======
+<<<<<<< .merge_file_VOa2zL
+=======
+use InvalidArgumentException;
+>>>>>>> .merge_file_dUbFyO
+>>>>>>> laraxot/dev
 use Modules\Xot\Filament\Forms\Components\XotBaseSelect;
 
 /**
@@ -200,11 +207,25 @@ final class EnumSelect extends XotBaseSelect
     protected function validateEnumClass(string $enumClass): void
     {
         if (! enum_exists($enumClass)) {
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_VOa2zL
+            throw new \InvalidArgumentException("Enum class [{$enumClass}] does not exist.");
+        }
+
+        if (! is_subclass_of($enumClass, \BackedEnum::class)) {
+            throw new \InvalidArgumentException("Enum class [{$enumClass}] must be a backed enum.");
+=======
+>>>>>>> laraxot/dev
             throw new InvalidArgumentException("Enum class [{$enumClass}] does not exist.");
         }
 
         if (! is_subclass_of($enumClass, \BackedEnum::class)) {
             throw new InvalidArgumentException("Enum class [{$enumClass}] must be a backed enum.");
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_dUbFyO
+>>>>>>> laraxot/dev
         }
     }
 }

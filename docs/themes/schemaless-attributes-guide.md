@@ -19,7 +19,14 @@ related:
 
 # Schemaless Attributes Guide for UI Themes
 
+<<<<<<< HEAD
 [![Laravel 12.47.0](https://img.shields.io/badge/Laravel-12.47.0-red.svg)](https://laravel.com/)
+=======
+<<<<<<< .merge_file_iJ3Niq
+=======
+[![Laravel 12.47.0](https://img.shields.io/badge/Laravel-12.47.0-red.svg)](https://laravel.com/)
+>>>>>>> .merge_file_knHA83
+>>>>>>> laraxot/dev
 [![Laravel 13.47.0](https://img.shields.io/badge/Laravel-12.47.0-red.svg)](https://laravel.com/)
 [![Filament 5.0.0](https://img.shields.io/badge/Filament-5.0.0-blue.svg)](https://filamentphp.com/)
 [![Spatie Schemaless](https://img.shields.io/badge/Spatie-Schemaless-orange.svg)](https://github.com/spatie/laravel-schemaless-attributes)

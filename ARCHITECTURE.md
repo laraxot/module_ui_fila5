@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # UI Module Architecture
 
 ## Overview
@@ -15,6 +16,24 @@ The UI module provides Filament-based admin interface components, themes, and ut
 - **Components**: Reusable Vue/Blade components
 - **Admin Panel**: Filament admin interface
 
+=======
+# $MOD Architecture
+
+Core components and design decisions.
+
+## Structure
+
+- `app/Models/` — Eloquent models
+- `app/Actions/` — Business logic (QueueableAction)
+- `app/Filament/Resources/` — Admin resources
+- `app/Filament/Pages/` — Admin pages
+- `config/` — Configuration
+- `database/migrations/` — Database schema
+- `lang/` — Translations
+
+<<<<<<< .merge_file_FfAPpt
+=======
+>>>>>>> laraxot/dev
 ## Related Docs
 - Wiki: `docs/wiki/ui/`
 - Components: `docs/wiki/ui/UI-*.md`
@@ -33,4 +52,8 @@ Core components and design decisions.
 - `database/migrations/` — Database schema
 - `lang/` — Translations
 
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_7ssPMy
+>>>>>>> laraxot/dev
 See README.md for overview. See CONTRIBUTING.md for development workflow.

@@ -4,7 +4,14 @@ declare(strict_types=1);
 
 namespace Modules\UI\Datas;
 
+<<<<<<< HEAD
 use InvalidArgumentException;
+=======
+<<<<<<< .merge_file_SBSA1Z
+=======
+use InvalidArgumentException;
+>>>>>>> .merge_file_mfsdl8
+>>>>>>> laraxot/dev
 use Spatie\LaravelData\Data;
 
 /**
@@ -29,12 +36,28 @@ class ThemeMetadataData extends Data
     }
 
     /**
+<<<<<<< HEAD
      * @throws InvalidArgumentException se la chiave non esiste
+=======
+<<<<<<< .merge_file_SBSA1Z
+     * @throws \InvalidArgumentException se la chiave non esiste
+=======
+     * @throws InvalidArgumentException se la chiave non esiste
+>>>>>>> .merge_file_mfsdl8
+>>>>>>> laraxot/dev
      */
     public function getSpacing(string $key): string
     {
         if (! isset($this->spacingUnits[$key])) {
+<<<<<<< HEAD
             throw new InvalidArgumentException("Invalid spacing unit key: {$key}");
+=======
+<<<<<<< .merge_file_SBSA1Z
+            throw new \InvalidArgumentException("Invalid spacing unit key: {$key}");
+=======
+            throw new InvalidArgumentException("Invalid spacing unit key: {$key}");
+>>>>>>> .merge_file_mfsdl8
+>>>>>>> laraxot/dev
         }
 
         return $this->spacingUnits[$key];
