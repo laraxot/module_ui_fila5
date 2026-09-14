@@ -188,11 +188,7 @@ describe('GroupColumn view rendering', function (): void {
         $html = view('ui::filament.tables.columns.group', [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
-<<<<<<< HEAD
             'attributes' => new ComponentAttributeBag,
-=======
-            'attributes' => new ComponentAttributeBag(),
->>>>>>> laraxot/dev
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
             ...groupColumnViewTableBag(),
@@ -225,11 +221,7 @@ describe('GroupColumn view rendering', function (): void {
         $html = view('ui::filament.tables.columns.group', [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
-<<<<<<< HEAD
             'attributes' => new ComponentAttributeBag,
-=======
-            'attributes' => new ComponentAttributeBag(),
->>>>>>> laraxot/dev
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
             ...groupColumnViewTableBag(),
@@ -269,11 +261,7 @@ describe('GroupColumn view rendering', function (): void {
         $html = view('ui::filament.tables.columns.group', [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
-<<<<<<< HEAD
             'attributes' => new ComponentAttributeBag,
-=======
-            'attributes' => new ComponentAttributeBag(),
->>>>>>> laraxot/dev
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
             ...groupColumnViewTableBag(),
@@ -310,11 +298,7 @@ describe('GroupColumn view rendering', function (): void {
         $html = view('ui::filament.tables.columns.group', [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
-<<<<<<< HEAD
             'attributes' => new ComponentAttributeBag,
-=======
-            'attributes' => new ComponentAttributeBag(),
->>>>>>> laraxot/dev
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
             ...groupColumnViewTableBag(),
@@ -334,11 +318,7 @@ describe('GroupColumn view rendering', function (): void {
         $html = view('ui::filament.tables.columns.group', [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
-<<<<<<< HEAD
             'attributes' => new ComponentAttributeBag,
-=======
-            'attributes' => new ComponentAttributeBag(),
->>>>>>> laraxot/dev
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
             ...groupColumnViewTableBag(),

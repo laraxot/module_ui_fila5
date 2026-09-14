@@ -61,15 +61,7 @@ class SelectState extends XotBaseSelect
     private function combineStateOptions(array $states): array
     {
         $statesKeys = array_map(
-<<<<<<< HEAD
             static fn (int|string $key): string => SafeStringCastAction::cast($key),
-=======
-<<<<<<< .merge_file_zHUkrT
-            static fn (mixed $key): string => SafeStringCastAction::cast($key),
-=======
-            static fn (int|string $key): string => SafeStringCastAction::cast($key),
->>>>>>> .merge_file_tNOdL0
->>>>>>> laraxot/dev
             array_keys($states),
         );
         $statesValues = array_map(

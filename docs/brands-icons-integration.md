@@ -228,18 +228,9 @@ $socialLinks = [
 php artisan view:clear
 
 # Test in browser
-<<<<<<< HEAD
 # http://fixcity.local/it/tests/homepage
 
 # http://<nome progetto>.local/it/tests/homepage
-=======
-<<<<<<< .merge_file_8a3ymQ
-=======
-# http://fixcity.local/it/tests/homepage
-
-# http://<nome progetto>.local/it/tests/homepage
->>>>>>> .merge_file_39HbVg
->>>>>>> laraxot/dev
 # http://app.local/it/tests/homepage
 ```
 

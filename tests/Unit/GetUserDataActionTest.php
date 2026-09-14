@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit;
 
 use Illuminate\Auth\GenericUser;
-<<<<<<< HEAD
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Support\Facades\Auth;
 use Modules\UI\Actions\GetUserDataAction;
@@ -17,17 +16,6 @@ use Spatie\Permission\Models\Role;
 use Modules\User\Models\User;
 
 uses(TestCase::class);
-=======
-use Illuminate\Support\Facades\Auth;
-use Modules\UI\Actions\GetUserDataAction;
-use Modules\UI\Tests\TestCase;
-use Modules\User\Models\User;
-use PHPUnit\Framework\Assert;
-use Spatie\Permission\Models\Permission;
-use Spatie\Permission\Models\Role;
-
-uses(\Modules\UI\Tests\TestCase::class);
->>>>>>> laraxot/dev
 
 /**
  * Utente in memoria, con le relazioni Spatie già impostate.
@@ -41,16 +29,8 @@ uses(\Modules\UI\Tests\TestCase::class);
  * @param  array<int, string>  $permissions
  * @param  array<string, mixed>  $attributes
  */
-<<<<<<< HEAD
 function uiAuthUser(array $roles = [], array $permissions = [], array $attributes = []): Authenticatable
 {
-=======
-function uiAuthUser(array $roles = [], array $permissions = [], array $attributes = []): User
-{
-<<<<<<< .merge_file_zxIEPV
-    $user = new User();
-=======
->>>>>>> laraxot/dev
     $user = new class extends \Illuminate\Foundation\Auth\User {
         public ?object $profile = null;
         public function relationLoaded(mixed $key): bool
@@ -62,10 +42,6 @@ function uiAuthUser(array $roles = [], array $permissions = [], array $attribute
             return $key === 'profile' && $this->profile !== null;
         }
     };
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_IY2BEG
->>>>>>> laraxot/dev
     $user->forceFill(array_merge([
         'id' => 42,
         'name' => 'Mario Rossi',
@@ -73,20 +49,12 @@ function uiAuthUser(array $roles = [], array $permissions = [], array $attribute
     ], $attributes));
 
     $user->setRelation('roles', collect(array_map(
-<<<<<<< HEAD
         static fn (string $name): Role => tap(new Role)->forceFill(['name' => $name]),
-=======
-        static fn (string $name): Role => tap(new Role())->forceFill(['name' => $name]),
->>>>>>> laraxot/dev
         $roles,
     )));
 
     $user->setRelation('permissions', collect(array_map(
-<<<<<<< HEAD
         static fn (string $name): Permission => tap(new Permission)->forceFill(['name' => $name]),
-=======
-        static fn (string $name): Permission => tap(new Permission())->forceFill(['name' => $name]),
->>>>>>> laraxot/dev
         $permissions,
     )));
 

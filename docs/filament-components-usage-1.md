@@ -131,21 +131,19 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
             Apri Menu
         </x-filament::button>
     </x-slot>
-<<<<<<< .merge_file_MUh9Ph
-=======
 <<<<<<< HEAD
     
->>>>>>> .merge_file_M6yaXP
     <x-filament::dropdown.item wire:click="action">
         Azione 1
     </x-filament::dropdown.item>
+    
     <x-filament::dropdown.item href="#">
         Azione 2
+    </x-filament::dropdown.item>
 </x-filament::dropdown>
 ```
+
 ## Best Practices
-<<<<<<< .merge_file_MUh9Ph
-=======
 
 =======
     <x-filament::dropdown.item wire:click="action">
@@ -157,16 +155,12 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 ```
 ## Best Practices
 >>>>>>> laraxot/dev
->>>>>>> .merge_file_M6yaXP
 1. **SEMPRE utilizzare i componenti Filament** quando disponibili invece di creare componenti personalizzati
 2. **SEMPRE utilizzare il prefisso corretto** `x-filament::` per accedere ai componenti Filament
 3. **MAI modificare direttamente i componenti Filament**, ma estenderli se necessario
 4. **SEMPRE consultare la documentazione ufficiale** di Filament per le ultime funzionalità e best practices
 5. **SEMPRE utilizzare le classi Tailwind** fornite da Filament per mantenere la coerenza visiva
 6. **SEMPRE verificare il percorso corretto** dei componenti e degli asset
-<<<<<<< .merge_file_MUh9Ph
-## Errori Comuni
-=======
 <<<<<<< HEAD
 
 ## Errori Comuni
@@ -174,7 +168,6 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 =======
 ## Errori Comuni
 >>>>>>> laraxot/dev
->>>>>>> .merge_file_M6yaXP
 1. **Utilizzo del prefisso errato**: Utilizzare `x-ui-icon` invece di `x-filament::icon`
 2. **Percorso errato del provider**: Utilizzare `/var/www/html/saluteora/laravel/Modules/UI/Providers/UIServiceProvider.php` invece di `/var/www/html/saluteora/laravel/Modules/UI/app/Providers/UIServiceProvider.php`
 3. **Creazione di componenti duplicati**: Creare componenti personalizzati che duplicano funzionalità già fornite da Filament

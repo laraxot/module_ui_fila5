@@ -30,14 +30,7 @@ Quando si implementa un `Wizard` in Filament, **non inserire mai direttamente** 
 
 ```php
 // ✅ CORRETTO
-<<<<<<< HEAD
 public static function getFormSchemaWidget(): array
-=======
-<<<<<<< .merge_file_jmjTBs
-=======
-public static function getFormSchemaWidget(): array
->>>>>>> .merge_file_4FOV8O
->>>>>>> laraxot/dev
 public function getFormSchemaWidget(): array
 {
     return [
@@ -65,14 +58,7 @@ protected static function getPersonalDataStep(): Forms\Components\Wizard\Step
 
 ```php
 // ❌ ERRATO
-<<<<<<< HEAD
 public static function getFormSchemaWidget(): array
-=======
-<<<<<<< .merge_file_jmjTBs
-=======
-public static function getFormSchemaWidget(): array
->>>>>>> .merge_file_4FOV8O
->>>>>>> laraxot/dev
 public function getFormSchemaWidget(): array
 {
     return [
@@ -135,14 +121,7 @@ Ogni step di un wizard rappresenta una fase logica distinta del processo. Estrar
 ```php
 class PatientResource extends XotBaseResource
 {
-<<<<<<< HEAD
     public static function getFormSchemaWidget(): array
-=======
-<<<<<<< .merge_file_jmjTBs
-=======
-    public static function getFormSchemaWidget(): array
->>>>>>> .merge_file_4FOV8O
->>>>>>> laraxot/dev
     public function getFormSchemaWidget(): array
     {
         return [
@@ -182,14 +161,7 @@ class PatientResource extends XotBaseResource
 L'estrazione in metodi dedicati facilita anche la gestione di step condizionali:
 
 ```php
-<<<<<<< HEAD
 public static function getFormSchemaWidget(): array
-=======
-<<<<<<< .merge_file_jmjTBs
-=======
-public static function getFormSchemaWidget(): array
->>>>>>> .merge_file_4FOV8O
->>>>>>> laraxot/dev
 public function getFormSchemaWidget(): array
 {
     $steps = [

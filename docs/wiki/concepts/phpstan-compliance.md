@@ -1,71 +1,81 @@
 ---
-<<<<<<< .merge_file_t0TvOy
-title: "UI — Mockery fluente sotto PHPStan"
-=======
 <<<<<<< HEAD
 title: "UI Module - PHPStan Type Compliance"
->>>>>>> .merge_file_E2fQPW
 type: concept
-module: UI
-tags: [ui, phpstan, pest, mockery, testing, static-analysis]
+tags: [ui, phpstan, types, compliance, quality, static-analysis]
 created: 2026-06-10
-updated: 2026-09-02
-qmd: "UI PHPStan Pest Mockery CompositeExpectation ExpectationDirector concrete Expectation with andReturnUsing"
-issues:
-  - "https://github.com/laraxot/module_ui_fila5/issues/6"
-discussions:
-  - "https://github.com/laraxot/module_ui_fila5/discussions/7"
+updated: 2026-06-10
 related:
-  - ../../../../../../docs/wiki/PHPSTAN-INDEX.md
-  - ../../../../Xot/docs/wiki/concepts/phpstan-pest-bridge-discipline.md
-  - ./testing.md
+  - "./auth-register-focus-loss-overlay.md"
+  - "./block-rendering-and-optional-services.md"
+  - "./claude-audit-static.md"
+  - "./code-redundancy-ui.md"
+  - "./context-overflow-prevention.md"
+  - "./enum-select-best-practices.md"
+  - "./enum-select-component.md"
+  - "./enum-select-contract-and-false-friends.md"
 ---
 
-# UI — Mockery fluente sotto PHPStan
+# UI Module — PHPStan Type Compliance
 
-> Contratto verificato per gli helper Mockery usati dai test Pest UI.
+## Status
 
-## Stato
+✅ **COMPLIANT** — 0 errors in PHPStan level: max
 
-Il 2 settembre 2026 il comando completo `./vendor/bin/phpstan analyse Modules`
-ha analizzato **10573 file** con zero errori. I due test UI coinvolti hanno
-prodotto **10 passed / 38 assertions**.
+```
+Module:   UI
+Path:     laravel/Modules/UI/
+Status:   GREEN
+Errors:   0
+Level:    max
+Updated:  2026-06-10
+```
 
-## Causa
+## Module Structure
 
-`Mockery\ExpectationInterface` espone l'API minima e non dichiara `with()` o
-`andReturnUsing()`. Inoltre, in questa versione di Mockery,
-`shouldReceive('metodo')` restituisce a runtime una `CompositeExpectation` anche
-con un singolo nome.
+```
+UI/
+├── Actions/          Type-safe action classes
+├── Dtos/            Data transfer objects with types
+├── Models/          Eloquent models with attributes
+├── Services/        Business logic services
+├── Http/
+│   ├── Controllers/  Request handlers with return types
+│   └── Requests/     Form requests with validation
+├── Filament/        Admin panel integrations
+├── Tests/           Test suite
+└── docs/            Module documentation
+```
 
-Una semplice annotazione `@var Expectation` sarebbe falsa: il valore runtime resta
-composito.
+## Type Compliance
 
-## Contratto dell'helper
+### Models & Attributes
 
-`UI\Tests\TestCase::expectMethod()`:
+✅ All model properties have type declarations.
+✅ All public methods have explicit return types.
+✅ All parameters have type hints.
 
-1. registra l'aspettativa tramite Mockery;
-2. recupera l'`ExpectationDirector` del metodo;
-3. estrae l'ultima `Mockery\Expectation` concreta;
-4. fallisce con `LogicException` se il director o l'aspettativa non esistono;
-5. restituisce `Expectation`, rendendo disponibile la fluent API a PHPStan e a
-   runtime.
+### Services & Business Logic
 
-Il pattern va centralizzato in Xot solo quando almeno un altro modulo presenta lo
-stesso bisogno; fino ad allora l'helper resta owner UI.
+✅ All service methods typed.
+✅ Return types specified.
+✅ Nullable types explicit.
 
-## Gate
+### Controllers & HTTP
+
+✅ All route handlers typed.
+✅ Request validation contracts.
+✅ Response types specified.
+
+## Enforcement
+
+### CI/CD Pipeline
 
 ```bash
-cd laravel
-./vendor/bin/phpstan analyse Modules/UI
-./vendor/bin/pest Modules/UI/tests/Unit/UiBasePolicyBehaviorTest.php \
-  Modules/UI/tests/Unit/UiFilamentComponentsCoverageTest.php
-./vendor/bin/phpstan analyse Modules
+vendor/bin/phpstan analyse laravel/Modules/UI \
+  --level=max \
+  --no-progress
 ```
-<<<<<<< .merge_file_t0TvOy
-=======
 
 ### Pre-commit Hook
 
@@ -188,4 +198,3 @@ cd laravel
 ./vendor/bin/phpstan analyse Modules
 ```
 >>>>>>> laraxot/dev
->>>>>>> .merge_file_E2fQPW

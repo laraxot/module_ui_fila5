@@ -106,14 +106,7 @@
             "{",
             "    protected static ?string \\$model = ${2:Name}::class;",
             "",
-<<<<<<< HEAD
             "    public static function getFormSchema(): array",
-=======
-<<<<<<< .merge_file_XK7fIZ
-=======
-            "    public static function getFormSchema(): array",
->>>>>>> .merge_file_VKEsXf
->>>>>>> laraxot/dev
             "    public function getFormSchema(): array",
             "    {",
             "        return [",
@@ -333,14 +326,7 @@
             "class ${2:Name}Resource extends XotBaseResource",
             "{",
             "    protected static ?string \\$model = ${2:Name}::class;",
-<<<<<<< HEAD
             "    public static function getFormSchema(): array",
-=======
-<<<<<<< .merge_file_XK7fIZ
-=======
-            "    public static function getFormSchema(): array",
->>>>>>> .merge_file_VKEsXf
->>>>>>> laraxot/dev
             "    public function getFormSchema(): array",
             "    {",
             "        return [",
@@ -506,14 +492,7 @@
             "class ${2:Name}Resource extends XotBaseResource",
             "{",
             "    protected static ?string \\$model = ${2:Name}::class;",
-<<<<<<< HEAD
             "    public static function getFormSchema(): array",
-=======
-<<<<<<< .merge_file_XK7fIZ
-=======
-            "    public static function getFormSchema(): array",
->>>>>>> .merge_file_VKEsXf
->>>>>>> laraxot/dev
             "    public function getFormSchema(): array",
             "    {",
             "        return [",

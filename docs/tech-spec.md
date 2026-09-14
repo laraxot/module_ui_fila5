@@ -23,14 +23,7 @@ Technical implementation details for the UI module.
 - PHPMD: 0 violations
 
 ## Dependencies
-<<<<<<< HEAD
 - Laravel 12.x
-=======
-<<<<<<< .merge_file_TK3klk
-=======
-- Laravel 12.x
->>>>>>> .merge_file_ydBlDw
->>>>>>> laraxot/dev
 - Laravel 13.x
 - Filament 5.x
 - Xot Module

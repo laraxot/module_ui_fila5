@@ -11,11 +11,7 @@ use Modules\UI\Actions\Icon\GetAllIconsAction;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-<<<<<<< HEAD
 uses(TestCase::class);
-=======
-uses(\Modules\UI\Tests\TestCase::class);
->>>>>>> laraxot/dev
 
 /**
  * Registra un set di icone vero su una directory temporanea.
