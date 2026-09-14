@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: 'Carousel slider — risorse esterne'
 module: UI
@@ -18,21 +17,6 @@ updated: 2026-08-24
 
 ## Riferimenti
 
-=======
-https://www.embla-carousel.com/examples/predefined/
-
-
-
-https://tw-elements.com/docs/standard/components/carousel/
-
-https://keen-slider.io/examples
-
-https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
-
-
-<<<<<<< .merge_file_doOqVB
-=======
->>>>>>> laraxot/dev
 - <https://www.embla-carousel.com/examples/predefined/>
 - <https://tw-elements.com/docs/standard/components/carousel/>
 - <https://keen-slider.io/examples>
@@ -48,10 +32,6 @@ https://keen-slider.io/examples
 https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
 
 
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_zb9Og6
->>>>>>> laraxot/dev
 
 ## Appendice — contenuto migrato
 

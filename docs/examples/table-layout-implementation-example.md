@@ -169,14 +169,7 @@ class UserResource extends XotBaseResource
 
     protected static ?string $navigationIcon = 'heroicon-o-users';
 
-<<<<<<< HEAD
     public static function getFormSchema(): array
-=======
-<<<<<<< .merge_file_rq7k2W
-=======
-    public static function getFormSchema(): array
->>>>>>> .merge_file_1e4y40
->>>>>>> laraxot/dev
     public function getFormSchema(): array
     {
         return [

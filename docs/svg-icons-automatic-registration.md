@@ -91,18 +91,9 @@ ls -la laravel/Modules/UI/resources/svg/brands/
 php artisan view:clear
 
 # Test in browser
-<<<<<<< HEAD
 # http://fixcity.local/it/tests/homepage
 
 # http://<nome progetto>.local/it/tests/homepage
-=======
-<<<<<<< .merge_file_TONznB
-=======
-# http://fixcity.local/it/tests/homepage
-
-# http://<nome progetto>.local/it/tests/homepage
->>>>>>> .merge_file_fodgiS
->>>>>>> laraxot/dev
 # http://app.local/it/tests/homepage
 ```
 
