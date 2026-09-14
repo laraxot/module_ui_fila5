@@ -29,7 +29,21 @@ uses(\Modules\UI\Tests\TestCase::class);
  */
 function uiAuthUser(array $roles = [], array $permissions = [], array $attributes = []): User
 {
+<<<<<<< .merge_file_zxIEPV
     $user = new User();
+=======
+    $user = new class extends \Illuminate\Foundation\Auth\User {
+        public ?object $profile = null;
+        public function relationLoaded(mixed $key): bool
+        {
+            if (! is_string($key)) {
+                return false;
+            }
+
+            return $key === 'profile' && $this->profile !== null;
+        }
+    };
+>>>>>>> .merge_file_IY2BEG
     $user->forceFill(array_merge([
         'id' => 42,
         'name' => 'Mario Rossi',

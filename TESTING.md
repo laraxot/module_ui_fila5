@@ -6,6 +6,17 @@
 ./vendor/bin/pest Modules/$MOD/tests
 ./vendor/bin/pest Modules/$MOD/tests --filter="TestName"
 ```
+<<<<<<< .merge_file_Mnb3mf
+=======
+# Testing $MOD
+
+## Quick Start
+
+```bash
+./vendor/bin/pest Modules/$MOD/tests
+./vendor/bin/pest Modules/$MOD/tests --filter="TestName"
+```
+>>>>>>> .merge_file_Mnl6jn
 
 ## Coverage
 

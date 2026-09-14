@@ -138,6 +138,10 @@ return [
 ];
 
 // Modules/Patient/Filament/Resources/DoctorResource.php
+<<<<<<< .merge_file_5fRMLw
+=======
+public static function getFormSchema(): array
+>>>>>>> .merge_file_RoXgng
 public function getFormSchema(): array
 {
     return [

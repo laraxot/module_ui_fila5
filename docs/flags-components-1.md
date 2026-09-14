@@ -18,36 +18,99 @@ I file SVG delle bandiere sono archiviati in:
 ```
 /var/www/html/saluteora/laravel/Modules/UI/resources/svg/flags/
 ```
+<<<<<<< .merge_file_W8ehEH
+=======
+<<<<<<< HEAD
+
+>>>>>>> .merge_file_SzqYHg
 Ogni bandiera è rappresentata da un file SVG con il codice ISO del paese come nome file (ad esempio, `it.svg` per l'Italia, `gb.svg` per il Regno Unito).
 ## Registrazione Automatica
 I componenti SVG sono autoregistrati tramite il metodo `registerBladeIcons()` nel `XotBaseServiceProvider`. Questo metodo configura i set di icone Blade con il prefisso del modulo, consentendo di utilizzare i componenti SVG delle bandiere in qualsiasi vista Blade.
+<<<<<<< .merge_file_W8ehEH
+=======
+
+=======
+Ogni bandiera è rappresentata da un file SVG con il codice ISO del paese come nome file (ad esempio, `it.svg` per l'Italia, `gb.svg` per il Regno Unito).
+## Registrazione Automatica
+I componenti SVG sono autoregistrati tramite il metodo `registerBladeIcons()` nel `XotBaseServiceProvider`. Questo metodo configura i set di icone Blade con il prefisso del modulo, consentendo di utilizzare i componenti SVG delle bandiere in qualsiasi vista Blade.
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SzqYHg
 ```php
 public function registerBladeIcons(): void
 {
     // ...
     $svgPath = module_path($this->name, $relativePath.'/../svg');
+<<<<<<< .merge_file_W8ehEH
+=======
+<<<<<<< HEAD
+    // ...
+>>>>>>> .merge_file_SzqYHg
     Config::set('blade-icons.sets.'.$this->nameLower.'.path', $svgPath);
     Config::set('blade-icons.sets.'.$this->nameLower.'.prefix', $this->nameLower);
 }
 ## Utilizzo dei Componenti Bandiera
 ### Sintassi Base
 I componenti SVG delle bandiere possono essere utilizzati con la seguente sintassi:
+<<<<<<< .merge_file_W8ehEH
+=======
+
+=======
+    Config::set('blade-icons.sets.'.$this->nameLower.'.path', $svgPath);
+    Config::set('blade-icons.sets.'.$this->nameLower.'.prefix', $this->nameLower);
+}
+## Utilizzo dei Componenti Bandiera
+### Sintassi Base
+I componenti SVG delle bandiere possono essere utilizzati con la seguente sintassi:
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SzqYHg
 ```blade
 <x-ui-flags.it class="h-5 w-5" />
 <x-ui-flags.gb class="h-5 w-5" />
 <x-ui-flags.fr class="h-5 w-5" />
+<<<<<<< .merge_file_W8ehEH
+=======
+<<<<<<< HEAD
+```
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SzqYHg
 Dove:
 - `ui` è il prefisso del modulo (in minuscolo)
 - `flags` è la sottodirectory all'interno della cartella `svg`
 - `it`, `gb`, `fr` sono i codici ISO dei paesi
+<<<<<<< .merge_file_W8ehEH
+=======
+<<<<<<< HEAD
+
+>>>>>>> .merge_file_SzqYHg
 ### Attributi Supportati
 I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
+<<<<<<< .merge_file_W8ehEH
+=======
+
+=======
+### Attributi Supportati
+I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SzqYHg
 - `class`: Per applicare classi CSS
 - `style`: Per applicare stili inline
 - `width` e `height`: Per dimensionare l'SVG
 - `title`: Per aggiungere un titolo accessibile
 - `aria-*`: Per migliorare l'accessibilità
+<<<<<<< .merge_file_W8ehEH
 ### Esempio con Attributi
+=======
+<<<<<<< HEAD
+
+### Esempio con Attributi
+
+```blade
+=======
+### Esempio con Attributi
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SzqYHg
 <x-ui-flags.it 
     class="h-6 w-6 rounded-full shadow-sm" 
     title="Italiano" 

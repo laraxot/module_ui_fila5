@@ -169,6 +169,10 @@ class UserResource extends XotBaseResource
 
     protected static ?string $navigationIcon = 'heroicon-o-users';
 
+<<<<<<< .merge_file_rq7k2W
+=======
+    public static function getFormSchema(): array
+>>>>>>> .merge_file_1e4y40
     public function getFormSchema(): array
     {
         return [

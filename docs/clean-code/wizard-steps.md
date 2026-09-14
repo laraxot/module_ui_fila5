@@ -131,6 +131,10 @@ class DoctorResource extends XotBaseResource
             ]);
     }
 
+<<<<<<< .merge_file_lZUMEw
+=======
+    public static function getFormSchemaWidget(): array
+>>>>>>> .merge_file_8ShLnn
     public function getFormSchemaWidget(): array
     {
         return [

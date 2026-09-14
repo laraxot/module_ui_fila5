@@ -111,14 +111,36 @@ Ogni tipo di documento dovrà avere la sua collection specifica:
 'identity_document' => 'documenti_identita'  
 'isee_certificate' => 'certificazioni_isee'
 'pregnancy_certificate' => 'certificati_gravidanza'
+<<<<<<< .merge_file_UIVAiI
 // Doctor Documents Collections  
 'certifications' => 'certificazioni_professionali'
+=======
+<<<<<<< HEAD
+
+// Doctor Documents Collections  
+'certifications' => 'certificazioni_professionali'
+
+=======
+// Doctor Documents Collections  
+'certifications' => 'certificazioni_professionali'
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbWYyQ
 // UI/Appearance Collections
 'logos' => 'loghi_sistema'
 'backgrounds' => 'sfondi_interfaccia' 
 'headers' => 'intestazioni'
 ```
+<<<<<<< .merge_file_UIVAiI
 #### 1.2 Configurazione Media Collections
+=======
+<<<<<<< HEAD
+
+#### 1.2 Configurazione Media Collections
+
+=======
+#### 1.2 Configurazione Media Collections
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbWYyQ
 ```php
 // In ogni modello che usa media
 public function registerMediaCollections(): void
@@ -161,14 +183,30 @@ class SpatieDocumentUpload
             ->maxSize(10240) // 10MB
             ->acceptedFileTypes(['image/jpeg', 'image/png', 'application/pdf']);
     }
+<<<<<<< .merge_file_UIVAiI
 
+=======
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbWYyQ
     public static function forHealthCard(): SpatieMediaLibraryFileUpload
     {
         return static::make('health_card', 'tessere_sanitarie')
             ->imagePreviewHeight('150')
             ->maxSize(5120); // 5MB per documenti leggeri
     }
+<<<<<<< .merge_file_UIVAiI
 
+=======
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbWYyQ
     public static function forCertifications(): SpatieMediaLibraryFileUpload
     {
         return static::make('certifications', 'certificazioni_professionali')
@@ -196,7 +234,15 @@ class SpatieImageUpload
             ->maxSize(2048) // 2MB
             ->singleFile();
     }
+<<<<<<< .merge_file_UIVAiI
 
+=======
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbWYyQ
     public static function forBackground(string $collection = 'backgrounds'): SpatieMediaLibraryFileUpload
     {
         return SpatieMediaLibraryFileUpload::make('background')
@@ -229,28 +275,80 @@ class SpatieImageUpload
     ->label(trans('saluteora::patients.fields.health_card.label'))
     ->helperText(trans('saluteora::patients.fields.health_card.help')),
 ```
+<<<<<<< .merge_file_UIVAiI
+=======
+<<<<<<< HEAD
+
+>>>>>>> .merge_file_jbWYyQ
 #### 3.2 UI Blocks - Standardizzazione Architettura
 ```php
 // Modules/UI/app/Filament/Blocks/Image.php - Refactoring Completo
 // PRIMA
 FileUpload::make('image'),
+<<<<<<< .merge_file_UIVAiI
+=======
+
+=======
+#### 3.2 UI Blocks - Standardizzazione Architettura
+```php
+// Modules/UI/app/Filament/Blocks/Image.php - Refactoring Completo
+// PRIMA
+FileUpload::make('image'),
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbWYyQ
 // DOPO  
 \Modules\UI\Filament\Components\SpatieImageUpload::make('image', 'content_images')
     ->imagePreviewHeight('250')
     ->conversion('thumbnail'),
+<<<<<<< .merge_file_UIVAiI
+=======
+<<<<<<< HEAD
+```
+
+>>>>>>> .merge_file_jbWYyQ
 ### **Fase 4: Migrazione Database e Conversioni**
 #### 4.1 Migrazione Dati Esistenti
+<<<<<<< .merge_file_UIVAiI
+=======
+
+```php
+=======
+### **Fase 4: Migrazione Database e Conversioni**
+#### 4.1 Migrazione Dati Esistenti
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbWYyQ
 // Database/Migrations/migrate_file_uploads_to_media_library.php
 public function up(): void
 {
     // Migrazione automatica dei file esistenti
     $patients = Patient::whereNotNull('health_card')->get();
+<<<<<<< .merge_file_UIVAiI
+=======
+<<<<<<< HEAD
+    
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbWYyQ
     foreach($patients as $patient) {
         if($patient->health_card && Storage::exists($patient->health_card)) {
             $patient->addMediaFromUrl(Storage::url($patient->health_card))
                 ->toMediaCollection('tessere_sanitarie');
         }
+<<<<<<< .merge_file_UIVAiI
 #### 4.2 Rimozione Campi Database Obsoleti
+=======
+<<<<<<< HEAD
+    }
+}
+```
+
+#### 4.2 Rimozione Campi Database Obsoleti
+
+```php
+=======
+#### 4.2 Rimozione Campi Database Obsoleti
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbWYyQ
 // Dopo migrazione completa - rimuovere colonne file paths
 Schema::table('users', function (Blueprint $table) {
     $table->dropColumn([
@@ -261,16 +359,38 @@ Schema::table('users', function (Blueprint $table) {
         'certifications'
     ]);
 });
+<<<<<<< .merge_file_UIVAiI
+=======
+<<<<<<< HEAD
+```
+
+>>>>>>> .merge_file_jbWYyQ
 ---
 ## 🔧 Implementazione Tecnica Dettagliata
 ### **Media Collections Configuration**
 // Modules/SaluteOra/app/Models/User.php - Aggiunta registerMediaCollections
 public function registerMediaCollections(): void
+<<<<<<< .merge_file_UIVAiI
+=======
+{
+=======
+---
+## 🔧 Implementazione Tecnica Dettagliata
+### **Media Collections Configuration**
+// Modules/SaluteOra/app/Models/User.php - Aggiunta registerMediaCollections
+public function registerMediaCollections(): void
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbWYyQ
     // Documenti paziente
     $this->addMediaCollection('tessere_sanitarie')
         ->acceptsMimeTypes(['image/jpeg', 'image/png', 'application/pdf'])
         ->singleFile()
         ->useDisk('private');
+<<<<<<< .merge_file_UIVAiI
+=======
+<<<<<<< HEAD
+        
+>>>>>>> .merge_file_jbWYyQ
     $this->addMediaCollection('documenti_identita')
     $this->addMediaCollection('certificazioni_isee')
         ->acceptsMimeTypes(['application/pdf'])
@@ -278,21 +398,55 @@ public function registerMediaCollections(): void
     // Certificazioni dottore (multiple)
     $this->addMediaCollection('certificazioni_professionali')
 public function registerMediaConversions(Media $media = null): void
+<<<<<<< .merge_file_UIVAiI
+=======
+{
+=======
+    $this->addMediaCollection('documenti_identita')
+    $this->addMediaCollection('certificazioni_isee')
+        ->acceptsMimeTypes(['application/pdf'])
+    $this->addMediaCollection('certificati_gravidanza')
+    // Certificazioni dottore (multiple)
+    $this->addMediaCollection('certificazioni_professionali')
+public function registerMediaConversions(Media $media = null): void
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbWYyQ
     $this->addMediaConversion('thumbnail')
         ->width(300)
         ->height(300)
         ->sharpen(10)
         ->performOnCollections('tessere_sanitarie', 'documenti_identita');
+<<<<<<< .merge_file_UIVAiI
+=======
+<<<<<<< HEAD
+        
+>>>>>>> .merge_file_jbWYyQ
     $this->addMediaConversion('preview')
         ->width(600)
         ->height(400)
 ### **Accessors per Backward Compatibility**
 // Modules/SaluteOra/app/Models/User.php - Accessors di transizione
+<<<<<<< .merge_file_UIVAiI
+=======
+
+=======
+    $this->addMediaConversion('preview')
+        ->width(600)
+        ->height(400)
+### **Accessors per Backward Compatibility**
+// Modules/SaluteOra/app/Models/User.php - Accessors di transizione
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbWYyQ
 /**
  * Accessor per compatibilità con codice esistente.
  * Restituisce URL del primo media nella collection health_card.
  */
 public function getHealthCardAttribute(): ?string
+<<<<<<< .merge_file_UIVAiI
+=======
+<<<<<<< HEAD
+{
+>>>>>>> .merge_file_jbWYyQ
     return $this->getFirstMediaUrl('tessere_sanitarie');
  * Accessor per array di certificazioni (dottori).
 public function getCertificationsAttribute(): array
@@ -300,6 +454,19 @@ public function getCertificationsAttribute(): array
         ->map(fn($media) => $media->getUrl())
         ->toArray();
 ### **View Components Integration**
+<<<<<<< .merge_file_UIVAiI
+=======
+
+=======
+    return $this->getFirstMediaUrl('tessere_sanitarie');
+ * Accessor per array di certificazioni (dottori).
+public function getCertificationsAttribute(): array
+    return $this->getMedia('certificazioni_professionali')
+        ->map(fn($media) => $media->getUrl())
+        ->toArray();
+### **View Components Integration**
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbWYyQ
 ```blade
 {{-- resources/views/components/patient-documents.blade.php --}}
 <div class="grid grid-cols-2 gap-4">
@@ -389,14 +556,30 @@ public function scopeExpiredDocuments($query)
 public function downloadDocument(Media $media): Response
 {
     $this->authorize('download', $media);
+<<<<<<< .merge_file_UIVAiI
 
+=======
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbWYyQ
     if($media->collection_name === 'tessere_sanitarie') {
         // Log accesso a documento sensibile
         activity()
             ->performedOn($media)
             ->log('downloaded_health_card');
     }
+<<<<<<< .merge_file_UIVAiI
 
+=======
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbWYyQ
     return response()->download($media->getPath());
 }
 ```
@@ -463,4 +646,12 @@ public function downloadDocument(Media $media): Response
 
 *Ultimo aggiornamento: Dicembre 2024*  
 *Versione: 1.0*  
+<<<<<<< .merge_file_UIVAiI
 *Compatibilità: Laraxot SaluteOra, Spatie Media Library 11.x, Filament 3.x* 
+=======
+<<<<<<< HEAD
+*Compatibilità: Laraxot SaluteOra, Spatie Media Library 11.x, Filament 3.x* 
+=======
+*Compatibilità: Laraxot SaluteOra, Spatie Media Library 11.x, Filament 3.x* 
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jbWYyQ

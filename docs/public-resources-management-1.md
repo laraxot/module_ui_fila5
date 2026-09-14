@@ -33,10 +33,22 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 ### Immagini
 
 Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/images/` e organizzate in sottocartelle per tipologia:
+<<<<<<< .merge_file_xuPfon
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_hjrBGY
 - `/images/avatars/` - Avatar utenti
 - `/images/logos/` - Loghi
 - `/images/icons/` - Icone
 - `/images/backgrounds/` - Sfondi
+<<<<<<< .merge_file_xuPfon
+=======
+<<<<<<< HEAD
+
+>>>>>>> .merge_file_hjrBGY
 ### CSS e JavaScript
 I file CSS e JavaScript compilati devono essere posizionati in:
 - `/public_html/css/` - File CSS
@@ -66,6 +78,42 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
    - Fornire fallback per browser più vecchi
 ## Esempi di Utilizzo
 ### Avatar Utente
+<<<<<<< .merge_file_xuPfon
+=======
+
+```blade
+=======
+### CSS e JavaScript
+I file CSS e JavaScript compilati devono essere posizionati in:
+- `/public_html/css/` - File CSS
+- `/public_html/js/` - File JavaScript
+### Font
+I font devono essere posizionati in `/public_html/fonts/` e organizzati per famiglia.
+## Best Practices
+1. **Utilizzo nei Template Blade**
+   ```blade
+   <img src="{{ asset('images/default-avatar.svg') }}" alt="Avatar utente">
+   ```
+   > **Nota**: La funzione `asset()` punta automaticamente alla directory pubblica corretta.
+2. **Generazione di URL per Risorse Pubbliche**
+   ```php
+   $avatarUrl = asset('images/default-avatar.svg');
+3. **Risorse Localizzate**
+   Per risorse che variano in base alla lingua, utilizzare la struttura:
+   /public_html/images/localized/{locale}/image.svg
+   E accedervi con:
+   $localizedImage = asset('images/localized/' . LaravelLocalization::getCurrentLocale() . '/image.svg');
+4. **Versionamento delle Risorse**
+   Per gestire la cache del browser, aggiungere un parametro di versione:
+   $cssWithVersion = asset('css/app.css') . '?v=' . config('app.version');
+5. **SVG vs Raster**
+   - Preferire SVG per icone, loghi e illustrazioni vettoriali
+   - Utilizzare WebP o JPEG ottimizzati per fotografie
+   - Fornire fallback per browser più vecchi
+## Esempi di Utilizzo
+### Avatar Utente
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_hjrBGY
 <img 
     src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}" 
     alt="{{ $user->name }}" 
