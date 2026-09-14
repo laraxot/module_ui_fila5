@@ -43,6 +43,10 @@ related:
 ## [2026-04-28] governance | Model States ownership e compatibilita' Laravel 13
 - Nuova pagina: `concepts/model-states-module-ownership.md`.
 - Distinto ownership tecnico (`UI` + `Xot`) da compatibilita' runtime.
+<<<<<<< .merge_file_UDTn2q
+=======
+- Verificato che `spatie/laravel-model-states` latest stable richiede `PHP ^8.4`, mentre `2.12.1` si ferma a `Laravel 12`.
+>>>>>>> .merge_file_kTtMfR
 - Verificato che `spatie/laravel-model-states` latest stable richiede `PHP ^8.4`, mentre `2.12.1` si ferma a `Laravel 13`.
 
 ## [2026-04-23] governance | EnumSelect API collisions (Filament v5)

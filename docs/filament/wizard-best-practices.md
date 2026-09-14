@@ -30,6 +30,10 @@ Quando si implementa un `Wizard` in Filament, **non inserire mai direttamente** 
 
 ```php
 // ✅ CORRETTO
+<<<<<<< .merge_file_jmjTBs
+=======
+public static function getFormSchemaWidget(): array
+>>>>>>> .merge_file_4FOV8O
 public function getFormSchemaWidget(): array
 {
     return [
@@ -57,6 +61,10 @@ protected static function getPersonalDataStep(): Forms\Components\Wizard\Step
 
 ```php
 // ❌ ERRATO
+<<<<<<< .merge_file_jmjTBs
+=======
+public static function getFormSchemaWidget(): array
+>>>>>>> .merge_file_4FOV8O
 public function getFormSchemaWidget(): array
 {
     return [
@@ -119,6 +127,10 @@ Ogni step di un wizard rappresenta una fase logica distinta del processo. Estrar
 ```php
 class PatientResource extends XotBaseResource
 {
+<<<<<<< .merge_file_jmjTBs
+=======
+    public static function getFormSchemaWidget(): array
+>>>>>>> .merge_file_4FOV8O
     public function getFormSchemaWidget(): array
     {
         return [
@@ -158,6 +170,10 @@ class PatientResource extends XotBaseResource
 L'estrazione in metodi dedicati facilita anche la gestione di step condizionali:
 
 ```php
+<<<<<<< .merge_file_jmjTBs
+=======
+public static function getFormSchemaWidget(): array
+>>>>>>> .merge_file_4FOV8O
 public function getFormSchemaWidget(): array
 {
     $steps = [

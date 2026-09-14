@@ -106,6 +106,10 @@
             "{",
             "    protected static ?string \\$model = ${2:Name}::class;",
             "",
+<<<<<<< .merge_file_XK7fIZ
+=======
+            "    public static function getFormSchema(): array",
+>>>>>>> .merge_file_VKEsXf
             "    public function getFormSchema(): array",
             "    {",
             "        return [",
@@ -325,6 +329,10 @@
             "class ${2:Name}Resource extends XotBaseResource",
             "{",
             "    protected static ?string \\$model = ${2:Name}::class;",
+<<<<<<< .merge_file_XK7fIZ
+=======
+            "    public static function getFormSchema(): array",
+>>>>>>> .merge_file_VKEsXf
             "    public function getFormSchema(): array",
             "    {",
             "        return [",
@@ -490,6 +498,10 @@
             "class ${2:Name}Resource extends XotBaseResource",
             "{",
             "    protected static ?string \\$model = ${2:Name}::class;",
+<<<<<<< .merge_file_XK7fIZ
+=======
+            "    public static function getFormSchema(): array",
+>>>>>>> .merge_file_VKEsXf
             "    public function getFormSchema(): array",
             "    {",
             "        return [",

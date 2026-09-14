@@ -14,7 +14,6 @@ final class Navigation extends XotBaseBlock
     /**
      * @return array<string, Component>
      */
-    #[\Override]
     public static function getBlockSchema(): array
     {
         return [

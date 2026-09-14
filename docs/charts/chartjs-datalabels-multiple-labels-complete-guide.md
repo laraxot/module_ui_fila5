@@ -21,6 +21,10 @@ related:
 
 **Versione:** 1.0  
 **Data:** Gennaio 2026  
+<<<<<<< .merge_file_AreQ3K
+=======
+**Target:** Filament 5.x, Laravel 12.x, Modulo UI  
+>>>>>>> .merge_file_q1tdjk
 **Target:** Filament 5.x, Laravel 13.x, Modulo UI  
 **Livello:** Guida "a prova di stupido" - passo dopo passo
 

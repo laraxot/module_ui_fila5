@@ -106,6 +106,10 @@
             "{",
             "    protected static ?string \\$model = ${2:Name}::class;",
             "",
+<<<<<<< .merge_file_vvyiOk
+=======
+            "    public static function getFormSchema(): array",
+>>>>>>> .merge_file_0BBoqk
             "    public function getFormSchema(): array",
             "    {",
             "        return [",

@@ -9,6 +9,11 @@
 > **Soluzione:** Seguire SEMPRE la regola documentata qui sotto e aggiornata anche in README.md e nella root docs/links.md.
 
 # Gestione dei Percorsi e degli Asset 
+<<<<<<< .merge_file_35M9Ey
+=======
+<<<<<<< HEAD
+
+>>>>>>> .merge_file_21IWy6
 ## Collegamenti correlati
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
 - [Architettura Modulare](/laravel/Modules/UI/docs/architecture.md)
@@ -16,6 +21,19 @@
 ## Percorsi Corretti per gli Asset
 ### Struttura delle Directory
 , è fondamentale rispettare la struttura corretta delle directory per gli asset pubblici:
+<<<<<<< .merge_file_35M9Ey
+=======
+
+=======
+## Collegamenti correlati
+- [README modulo UI](/laravel/Modules/UI/docs/README.md)
+- [Architettura Modulare](/laravel/Modules/UI/docs/architecture.md)
+- [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
+## Percorsi Corretti per gli Asset
+### Struttura delle Directory
+, è fondamentale rispettare la struttura corretta delle directory per gli asset pubblici:
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_21IWy6
 ```
 /var/www/html/saluteora/
 ├── laravel/                 # Applicazione Laravel (codice sorgente)
@@ -25,10 +43,25 @@
 └── public_html/             # Directory pubblica (web root)
     ├── images/              # Immagini pubbliche
     │   ├── avatars/         # Avatar utenti
+<<<<<<< .merge_file_35M9Ey
+=======
+<<<<<<< HEAD
+    │   └── ...
+>>>>>>> .merge_file_21IWy6
     ├── css/                 # File CSS compilati
     ├── js/                  # File JavaScript compilati
     └── ...
 ### Percorsi Corretti vs Percorsi Errati
+<<<<<<< .merge_file_35M9Ey
+=======
+
+=======
+    ├── css/                 # File CSS compilati
+    ├── js/                  # File JavaScript compilati
+    └── ...
+### Percorsi Corretti vs Percorsi Errati
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_21IWy6
 | Tipo di Asset | ✅ Percorso Corretto | ❌ Percorso Errato |
 |---------------|---------------------|-------------------|
 | Immagini | `/var/www/html/saluteora/public_html/images/` | `/var/www/html/saluteora/laravel/public/images/` |
@@ -67,8 +100,22 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 ```
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/
 ```
+<<<<<<< .merge_file_35M9Ey
+=======
+<<<<<<< HEAD
+
+>>>>>>> .merge_file_21IWy6
 ### SVG come Asset Pubblici
 Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizionati in:
+<<<<<<< .merge_file_35M9Ey
+=======
+
+```
+=======
+### SVG come Asset Pubblici
+Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizionati in:
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_21IWy6
 /var/www/html/saluteora/public_html/images/
 ```
 
@@ -81,7 +128,18 @@ Il componente avatar è implementato in:
 ```
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 ```
+<<<<<<< .merge_file_35M9Ey
 E utilizza gli avatar SVG dalla directory pubblica:
+=======
+<<<<<<< HEAD
+
+E utilizza gli avatar SVG dalla directory pubblica:
+
+```
+=======
+E utilizza gli avatar SVG dalla directory pubblica:
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_21IWy6
 /var/www/html/saluteora/public_html/images/avatars/
 ```
 
@@ -92,8 +150,21 @@ Il componente icon è implementato in:
 ```
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 ```
+<<<<<<< .merge_file_35M9Ey
+=======
+<<<<<<< HEAD
+
+>>>>>>> .merge_file_21IWy6
 E include le definizioni SVG direttamente nel componente.
 ## Regola sui Componenti Blade UI
+<<<<<<< .merge_file_35M9Ey
+=======
+
+=======
+E include le definizioni SVG direttamente nel componente.
+## Regola sui Componenti Blade UI
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_21IWy6
 > **IMPORTANTE:** Tutti i componenti Blade UI condivisi (es. logo, button, badge, ecc.) devono essere posizionati esclusivamente in:
 >
 > `/var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/`
@@ -113,15 +184,38 @@ E include le definizioni SVG direttamente nel componente.
 /var/www/html/ptvx/laravel/resources/views/components/ui/logo.blade.php
 ```
 **✅ Corretto:**
+<<<<<<< .merge_file_35M9Ey
+=======
+<<<<<<< HEAD
+```
+>>>>>>> .merge_file_21IWy6
 /var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/logo.blade.php
 ## Best Practices
+<<<<<<< .merge_file_35M9Ey
+=======
+
+=======
+/var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/logo.blade.php
+## Best Practices
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_21IWy6
 1. **MAI utilizzare percorsi assoluti hardcoded** nei componenti Blade
 2. **SEMPRE utilizzare l'helper `asset()`** per riferirsi agli asset pubblici
 3. **Implementare fallback** per le immagini che potrebbero non essere disponibili
 4. **Verificare l'esistenza delle directory** prima di salvare nuovi asset
 5. **Seguire le convenzioni di naming** per mantenere la coerenza
 6. **Documentare i percorsi corretti** per evitare confusione
+<<<<<<< .merge_file_35M9Ey
 ## Errori Comuni
+=======
+<<<<<<< HEAD
+
+## Errori Comuni
+
+=======
+## Errori Comuni
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_21IWy6
 1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/saluteora/laravel/public/` invece di `/var/www/html/saluteora/public_html/`
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile
