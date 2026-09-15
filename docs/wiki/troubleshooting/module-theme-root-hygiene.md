@@ -1,5 +1,5 @@
 ---
-title: "Root modulo/tema — zero .txt, max 4 .md"
+title: "Root modulo/tema — zero .txt, max 6 .md"
 type: rule
 module: UI
 tags: [hygiene, modules, themes, txt, markdown]
@@ -9,26 +9,8 @@ qmd: "module theme root txt md hygiene audit fix"
 related:
   - "./git-merge-conflict-inventory-1.md"
   - "./git-merge-conflict-inventory.md"
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
   - "./git-push-lfs-missing-objects.md"
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
   - "./git-push-lfs-missing-objects.md"
->>>>>>> laraxot/dev
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
   - "./phpstan-fixes-1.md"
   - "./phpstan-fixes.md"
 ---
@@ -40,7 +22,7 @@ related:
 | Root `Modules/*` e `Themes/*` | Consentito |
 |---------------------------------|------------|
 | `*.txt` | **0** |
-| `*.md` | **max 4**: `README.md`, `CHANGELOG.md`, `LICENSE.md`, `AGENTS.md` |
+| `*.md` | **max 6**: preferiti `README.md`, `CHANGELOG.md`, `LICENSE.md`, `AGENTS.md`, `CLAUDE.md` +1 |
 | Cartelle | solo **lowercase** (`app`, `config`, `docs`, …) |
 
 ## Perché

@@ -11,7 +11,10 @@ use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Contracts\HasTable;
 use Filament\Tables\Table;
 use Illuminate\View\ComponentAttributeBag;
+use Mockery\Expectation;
+use Mockery\MockInterface;
 use Modules\UI\Filament\Tables\Columns\GroupColumn;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use PHPUnit\Framework\Assert;
 
 /**
@@ -19,15 +22,23 @@ use PHPUnit\Framework\Assert;
  */
 function groupColumnViewTableBag(): array
 {
+    /** @var HasTable&MockInterface $livewire */
     $livewire = \Mockery::mock(HasTable::class);
-    $livewire->shouldReceive('getTableRecordKey')->andReturnUsing(
-        static fn (mixed $record): string => is_object($record) && method_exists($record, 'getKey')
-            ? (string) $record->getKey()
-            : '1'
-    );
+    $livewireExpectation = $livewire->shouldReceive('getTableRecordKey');
+    if ($livewireExpectation instanceof Expectation) {
+        $livewireExpectation->andReturnUsing(
+            static fn (mixed $record): string => is_object($record) && method_exists($record, 'getKey')
+                ? SafeStringCastAction::cast($record->getKey())
+                : '1'
+        );
+    }
 
+    /** @var Table&MockInterface $table */
     $table = \Mockery::mock(Table::class);
-    $table->shouldReceive('getLivewire')->andReturn($livewire);
+    $tableExpectation = $table->shouldReceive('getLivewire');
+    if ($tableExpectation instanceof Expectation) {
+        $tableExpectation->andReturn($livewire);
+    }
 
     return [
         'getTable' => static fn (): Table => $table,
@@ -88,6 +99,7 @@ describe('GroupColumn class', function (): void {
         $group = GroupColumn::make('id/motivo')->schema([$child]);
 
         $tableProperty = (new \ReflectionClass(Column::class))->getProperty('table');
+        /** @var Table&MockInterface $fakeTable */
         $fakeTable = \Mockery::mock(Table::class);
 
         $group->table($fakeTable);
@@ -176,7 +188,7 @@ describe('GroupColumn view rendering', function (): void {
         $html = view('ui::filament.tables.columns.group', [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
-            'attributes' => new ComponentAttributeBag(),
+            'attributes' => new ComponentAttributeBag,
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
             ...groupColumnViewTableBag(),
@@ -209,7 +221,7 @@ describe('GroupColumn view rendering', function (): void {
         $html = view('ui::filament.tables.columns.group', [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
-            'attributes' => new ComponentAttributeBag(),
+            'attributes' => new ComponentAttributeBag,
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
             ...groupColumnViewTableBag(),
@@ -231,7 +243,7 @@ describe('GroupColumn view rendering', function (): void {
 
         // The view logic: skip if empty($value) && $value !== 0 && $value !== '0'
         $shouldSkip = static function (mixed $value): bool {
-            return empty($value) && 0 !== $value && '0' !== $value;
+            return empty($value) && $value !== 0 && $value !== '0';
         };
 
         Assert::assertTrue($shouldSkip($record->empty_field));
@@ -241,12 +253,6 @@ describe('GroupColumn view rendering', function (): void {
     });
 
     it('renders IconColumn boolean via toEmbeddedHtml instead of raw 1', function (): void {
-        if (! app()->bound('view')) {
-            Assert::assertTrue(true);
-
-            return;
-        }
-
         $record = ['ha_diritto' => 1];
         $fields = [
             IconColumn::make('ha_diritto')->boolean()->inline(),
@@ -255,7 +261,7 @@ describe('GroupColumn view rendering', function (): void {
         $html = view('ui::filament.tables.columns.group', [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
-            'attributes' => new ComponentAttributeBag(),
+            'attributes' => new ComponentAttributeBag,
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
             ...groupColumnViewTableBag(),
@@ -272,18 +278,12 @@ describe('GroupColumn view rendering', function (): void {
     });
 
     it('applies TextColumn formatState and html for comma-separated motivo', function (): void {
-        if (! app()->bound('view')) {
-            Assert::assertTrue(true);
-
-            return;
-        }
-
         $record = ['motivo' => 'a,b,c'];
         $fields = [
             TextColumn::make('motivo')
                 ->html()
                 ->formatStateUsing(static function (mixed $state): string {
-                    if (! is_string($state) || '' === $state) {
+                    if (! is_string($state) || $state === '') {
                         return '';
                     }
 
@@ -298,7 +298,7 @@ describe('GroupColumn view rendering', function (): void {
         $html = view('ui::filament.tables.columns.group', [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
-            'attributes' => new ComponentAttributeBag(),
+            'attributes' => new ComponentAttributeBag,
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
             ...groupColumnViewTableBag(),
@@ -309,12 +309,6 @@ describe('GroupColumn view rendering', function (): void {
     });
 
     it('renders SelectColumn via toEmbeddedHtml even when state is null', function (): void {
-        if (! app()->bound('view')) {
-            Assert::assertTrue(true);
-
-            return;
-        }
-
         $record = ['valutatore_id' => null];
         $fields = [
             SelectColumn::make('valutatore_id')
@@ -324,7 +318,7 @@ describe('GroupColumn view rendering', function (): void {
         $html = view('ui::filament.tables.columns.group', [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
-            'attributes' => new ComponentAttributeBag(),
+            'attributes' => new ComponentAttributeBag,
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
             ...groupColumnViewTableBag(),

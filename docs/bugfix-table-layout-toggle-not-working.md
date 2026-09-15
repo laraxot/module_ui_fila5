@@ -2,11 +2,8 @@
 module: UI
 topic: table-layout-toggle
 status: open
-<<<<<<< HEAD
-related_issue: provtv/base_ptv_fila5_mono
-=======
+related_issue: provtv/<repo progetto>
 related_issue: provtv/<nome repository>
->>>>>>> 92912795 (.)
 related_module_repo: laraxot/module_ui_fila5
 ---
 

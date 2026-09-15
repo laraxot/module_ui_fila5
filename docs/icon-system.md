@@ -322,7 +322,7 @@ $icon = 'ui-login';
 
 ### Con Filament
 
-Tutte le icone sono compatibili con Filament 4.x e versioni successive.
+Tutte le icone sono compatibili con Filament 5.x e versioni successive.
 
 ## 📝 Changelog
 
@@ -335,7 +335,7 @@ Tutte le icone sono compatibili con Filament 4.x e versioni successive.
 - **🎨 Sistema Icone**: Implementato sistema completo di icone SVG
 - **🔧 Registrazione Automatica**: Icone registrate automaticamente
 - **📚 Documentazione**: Documentazione completa del sistema
-- **🎯 Integrazione Filament**: Compatibilità completa con Filament 4.x
+- **🎯 Integrazione Filament**: Compatibilità completa con Filament 5.x
 
 ## ♻️ Manutenzione 2025-11
 
