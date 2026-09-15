@@ -82,6 +82,18 @@ rimosso (questo canone: `.to_geo` non è un backup da tenere). Nessun riferiment
 `LocationSelector` in PHP/Blade/lang. `InteractiveMap.php` attivo con import `Modules\Geo\*`
 è ancora presente: violazione aperta, serve decisione (stesso trattamento `.old`?).
 
+2026-09-15: `LocationSelector.php` ricomparso una quarta volta (commit `ec907ef1` — mass-import
+da un altro base project via reimport monorepo, insieme a `.old` e `.to_geo` gia' esistenti,
+tipico "5 file-spia" da reimportazione laraxot). Rilevato durante un fix phpstan-swarm mirato
+sui 36 errori `class.notFound`/`method.nonObject` di questo file (report `UI.txt`): prima di
+patchare `Comune` con resolve dinamico + guardie `class_exists()`, verificato `git log -S` sul
+file e trovate 4 delete precedenti + questo canone. **Fix corretto = cancellare, non patchare**:
+rimossi `LocationSelector.php` (attivo) e `LocationSelector.php.to_geo`; `lang/{en,de,it}/location_selector.php`
+rimossi (nessun altro riferimento nel modulo). `.old` lasciato invariato (precedente storico).
+`InteractiveMap.php` attivo con `use Modules\Geo\Services\{MapService,GeocodingService}` e' ancora
+presente — stessa violazione aperta dal 2026-08-27, fuori dallo scope di quel fix (non nel report
+assegnato): segnalato al coordinatore, non toccato qui.
+
 Se in un altro monorepo servirà geografia: implementare in `Modules/Geo` (Action + Livewire/Filament lì), non ricopiare in UI.
 
 ## Verifica
