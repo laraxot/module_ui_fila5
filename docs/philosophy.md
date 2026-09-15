@@ -58,8 +58,6 @@ The `UI` module, as the guardian of the application's user interface, can signif
 5.  **Playwright/Puppeteer (MCP)**: Crucial for end-to-end testing of UI components, visual regression testing, and verifying responsiveness across different devices and browsers, directly supporting a high-quality user experience.
 
 By leveraging these MCPs, the `UI` module can ensure its critical role in delivering an engaging and effective user interface is more efficient, verifiable, and transparent, ultimately contributing to a superior user experience.
-<<<<<<< HEAD
-=======
 # UI Module: Design System & Components
 
 > **Reusable Form/Table Components** — Filament-integrated, consistent styling, multi-module usage.
@@ -158,4 +156,3 @@ Tracked in: `docs/form-column-parity.md`
 
 - **Generated**: 2026-09-06
 
->>>>>>> laraxot/dev

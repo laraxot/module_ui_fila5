@@ -182,11 +182,7 @@ Prima di commit, verifica:
 
 ---
 
-<<<<<<< HEAD
-**Progetto**: base_<nome progetto>_fila5
-=======
 **Progetto**: base_<nome progetto>_fila4_mono
->>>>>>> laraxot/dev
 **PHPStan**: Level 10
 **Status**: ✅ 0 Errors
 **Ultimo aggiornamento**: 2025-01-06

@@ -91,11 +91,7 @@ ls -la laravel/Modules/UI/resources/svg/brands/
 php artisan view:clear
 
 # Test in browser
-<<<<<<< HEAD
-# http://<nome progetto>.local/it/tests/homepage
-=======
 # http://fixcity.local/it/tests/homepage
->>>>>>> laraxot/dev
 # http://<nome progetto>.local/it/tests/homepage
 # http://app.local/it/tests/homepage
 ```

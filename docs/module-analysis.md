@@ -4,12 +4,8 @@
 **Module Name**: UI  
 **Type**: User Interface & Component Library Module  
 **Status**: ✅ Active  
-<<<<<<< HEAD
-**Framework**: Laravel 13.x + Filament 5.x + Tailwind CSS  
-=======
 **Framework**: Laravel 12.x + Filament 4.x + Tailwind CSS  
 **Framework**: Laravel 13.x + Filament 4.x + Tailwind CSS  
->>>>>>> laraxot/dev
 **Component Library**: Custom UI components and styles  
 **Language**: Multi-language (IT/EN/DE)  
 
@@ -65,11 +61,7 @@ The UI module provides comprehensive user interface components and styling:
 ## Integration with Other Modules
 - **User**: Authentication interface components
 - **Cms**: Content display components
-<<<<<<< HEAD
-- **<nome progetto>**: Dashboard UI components
-=======
 - **Quaeris**: Dashboard UI components
->>>>>>> laraxot/dev
 - **modulo questionari**: Dashboard UI components
 - **Xot**: Base UI infrastructure
 - **Filament**: Component compatibility
@@ -78,11 +70,7 @@ The UI module provides comprehensive user interface components and styling:
 - Xot module (for base classes)
 - Tailwind CSS framework
 - Alpine.js for interactive components
-<<<<<<< HEAD
-- Filament 5.x (component compatibility)
-=======
 - Filament 4.x (component compatibility)
->>>>>>> laraxot/dev
 - Laravel frontend stack
 
 ## Key Metrics

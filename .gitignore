@@ -212,9 +212,5 @@ phpmd*
 rector.php
 phpmd.ruleset.xml
 phpmd.ruleset.xml.bak
-<<<<<<< HEAD
-app/Filament/Forms/Components/LocationSelector.php
-=======
 graphify-out
 docs/_archive
->>>>>>> laraxot/dev

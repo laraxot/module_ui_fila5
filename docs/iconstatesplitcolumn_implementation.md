@@ -329,10 +329,6 @@ document.addEventListener('state-transition', function(event) {
 
 **Last Updated**: June 2025
 **Version**: 2.1
-<<<<<<< HEAD
-**Compatibility**: Filament 5.x, Laravel 10.x 
-=======
 **Compatibility**: Filament 4.x, Laravel 10.x 
->>>>>>> laraxot/dev
 ||||||| parent of 9a84589 (.):docs/archived/iconstatesplitcolumn-implementation-1.md
 **Compatibility**: Filament 3.x, Laravel 10.x

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Filament 5.x Upgrade - Modulo UI
-=======
 # Filament 4.x Upgrade - Modulo UI
->>>>>>> laraxot/dev
 
 **Data**: 2025-09-30
 **Status**: ✅ COMPLETATO
@@ -10,11 +6,7 @@
 
 ## 🎯 Panoramica
 
-<<<<<<< HEAD
-Il modulo UI è stato aggiornato con successo a Filament 5.x. Le modifiche principali riguardano il `UserCalendarWidget`.
-=======
 Il modulo UI è stato aggiornato con successo a Filament 4.x. Le modifiche principali riguardano il `UserCalendarWidget`.
->>>>>>> laraxot/dev
 
 ## 🔧 Modifiche Applicate
 
@@ -22,11 +14,7 @@ Il modulo UI è stato aggiornato con successo a Filament 4.x. Le modifiche princ
 
 **File**: `Modules/UI/app/Filament/Widgets/UserCalendarWidget.php`
 
-<<<<<<< HEAD
-**Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 5.x
-=======
 **Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 4.x
->>>>>>> laraxot/dev
 
 **Soluzione**: Disabilitazione temporanea del widget calendario
 
@@ -45,11 +33,7 @@ class UserCalendarWidget extends FullCalendarWidget
     // ...
 }
 
-<<<<<<< HEAD
-// DOPO (Filament 5)
-=======
 // DOPO (Filament 4)
->>>>>>> laraxot/dev
 // use Saade\FilamentFullCalendar\Widgets\FullCalendarWidget;
 // use Saade\FilamentFullCalendar\Widgets\Concerns\InteractsWithEvents;
 
@@ -57,11 +41,7 @@ class UserCalendarWidget extends \Filament\Widgets\Widget
 {
     protected string $view = 'ui::filament.widgets.user-calendar';
 
-<<<<<<< HEAD
-    // Temporaneamente commentato per compatibilità Filament 5.x
-=======
     // Temporaneamente commentato per compatibilità Filament 4.x
->>>>>>> laraxot/dev
     // use InteractsWithEvents;
     // ...
 }
@@ -95,21 +75,13 @@ class UserCalendarWidget extends \Filament\Widgets\Widget
 ### Pacchetto Non Compatibile
 
 **Nome**: `saade/filament-fullcalendar`
-<<<<<<< HEAD
-**Status**: ❌ Non compatibile con Filament 5.x
-=======
 **Status**: ❌ Non compatibile con Filament 4.x
->>>>>>> laraxot/dev
 **Repository**: https://github.com/saade/filament-fullcalendar
 
 ### Piano di Riattivazione
 
 1. **Monitoraggio**: Verificare aggiornamenti del pacchetto
-<<<<<<< HEAD
-2. **Testing**: Testare compatibilità con Filament 5.x
-=======
 2. **Testing**: Testare compatibilità con Filament 4.x
->>>>>>> laraxot/dev
 3. **Riattivazione**: Decommentare codice e ripristinare funzionalità
 
 ```bash
@@ -151,11 +123,7 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 
 ## 🔗 Collegamenti
 
-<<<<<<< HEAD
-- [Filament 5.x Upgrade Guide](https://filamentphp.com/docs/4.x/upgrade-guide)
-=======
 - [Filament 4.x Upgrade Guide](https://filamentphp.com/docs/4.x/upgrade-guide)
->>>>>>> laraxot/dev
 - [Filament Widgets](https://filamentphp.com/docs/4.x/panels/widgets)
 - [saade/filament-fullcalendar](https://github.com/saade/filament-fullcalendar)
 
@@ -172,40 +140,23 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 
 ## 🚨 Note Importanti
 
-<<<<<<< HEAD
-1. **Breaking Change**: La proprietà `$view` in Filament 5 **non è più statica**
-=======
 1. **Breaking Change**: La proprietà `$view` in Filament 4 **non è più statica**
->>>>>>> laraxot/dev
 2. **Compatibilità**: Il widget attuale non renderà il calendario fino all'aggiornamento del pacchetto
 3. **Funzionalità**: Metodi `fetchEvents()`, `getFormSchema()`, `onDateSelect()` sono pronti per la riattivazione
 4. **Testing**: Testare approfonditamente il widget quando il pacchetto sarà aggiornato
 
 *Ultimo aggiornamento: 2025-09-30*
-<<<<<<< HEAD
-*Modulo UI compatibile con Filament 5.0.20*
-# Filament 5.x Upgrade - Modulo UI
-=======
 *Modulo UI compatibile con Filament 4.0.20*
 # Filament 4.x Upgrade - Modulo UI
->>>>>>> laraxot/dev
 **Data**: 2025-09-30
 **Status**: ✅ COMPLETATO
 **Versione Filament**: 4.0.20
 ## 🎯 Panoramica
-<<<<<<< HEAD
-Il modulo UI è stato aggiornato con successo a Filament 5.x. Le modifiche principali riguardano il `UserCalendarWidget`.
-## 🔧 Modifiche Applicate
-### UserCalendarWidget
-**File**: `Modules/UI/app/Filament/Widgets/UserCalendarWidget.php`
-**Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 5.x
-=======
 Il modulo UI è stato aggiornato con successo a Filament 4.x. Le modifiche principali riguardano il `UserCalendarWidget`.
 ## 🔧 Modifiche Applicate
 ### UserCalendarWidget
 **File**: `Modules/UI/app/Filament/Widgets/UserCalendarWidget.php`
 **Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 4.x
->>>>>>> laraxot/dev
 **Soluzione**: Disabilitazione temporanea del widget calendario
 #### Modifiche Specifiche
 ```php
@@ -218,20 +169,12 @@ class UserCalendarWidget extends FullCalendarWidget
     protected static ?string $view = 'ui::filament.widgets.user-calendar';
     // ...
 }
-<<<<<<< HEAD
-// DOPO (Filament 5)
-=======
 // DOPO (Filament 4)
->>>>>>> laraxot/dev
 // use Saade\FilamentFullCalendar\Widgets\FullCalendarWidget;
 // use Saade\FilamentFullCalendar\Widgets\Concerns\InteractsWithEvents;
 class UserCalendarWidget extends \Filament\Widgets\Widget
     protected string $view = 'ui::filament.widgets.user-calendar';
-<<<<<<< HEAD
-    // Temporaneamente commentato per compatibilità Filament 5.x
-=======
     // Temporaneamente commentato per compatibilità Filament 4.x
->>>>>>> laraxot/dev
     // use InteractsWithEvents;
 ```
 #### Dettaglio Cambiamenti
@@ -254,19 +197,11 @@ class UserCalendarWidget extends \Filament\Widgets\Widget
 ## 📦 Dipendenze
 ### Pacchetto Non Compatibile
 **Nome**: `saade/filament-fullcalendar`
-<<<<<<< HEAD
-**Status**: ❌ Non compatibile con Filament 5.x
-**Repository**: https://github.com/saade/filament-fullcalendar
-### Piano di Riattivazione
-1. **Monitoraggio**: Verificare aggiornamenti del pacchetto
-2. **Testing**: Testare compatibilità con Filament 5.x
-=======
 **Status**: ❌ Non compatibile con Filament 4.x
 **Repository**: https://github.com/saade/filament-fullcalendar
 ### Piano di Riattivazione
 1. **Monitoraggio**: Verificare aggiornamenti del pacchetto
 2. **Testing**: Testare compatibilità con Filament 4.x
->>>>>>> laraxot/dev
 3. **Riattivazione**: Decommentare codice e ripristinare funzionalità
 ```bash
 # Verifica versione compatibile
@@ -287,11 +222,7 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 - Link alla documentazione
 - Alternativa manuale (se applicabile)
 ## 🔗 Collegamenti
-<<<<<<< HEAD
-- [Filament 5.x Upgrade Guide](https://filamentphp.com/docs/4.x/upgrade-guide)
-=======
 - [Filament 4.x Upgrade Guide](https://filamentphp.com/docs/4.x/upgrade-guide)
->>>>>>> laraxot/dev
 - [Filament Widgets](https://filamentphp.com/docs/4.x/panels/widgets)
 - [saade/filament-fullcalendar](https://github.com/saade/filament-fullcalendar)
 ## 📋 Checklist
@@ -304,11 +235,7 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 - [ ] View template aggiornato con messaggio temporaneo
 - [ ] Monitoraggio aggiornamenti pacchetto
 ## 🚨 Note Importanti
-<<<<<<< HEAD
-1. **Breaking Change**: La proprietà `$view` in Filament 5 **non è più statica**
-=======
 1. **Breaking Change**: La proprietà `$view` in Filament 4 **non è più statica**
->>>>>>> laraxot/dev
 2. **Compatibilità**: Il widget attuale non renderà il calendario fino all'aggiornamento del pacchetto
 3. **Funzionalità**: Metodi `fetchEvents()`, `getFormSchema()`, `onDateSelect()` sono pronti per la riattivazione
 4. **Testing**: Testare approfonditamente il widget quando il pacchetto sarà aggiornato

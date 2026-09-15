@@ -5,13 +5,8 @@ tags: [geo, dependency, violation, interactive]
 created: 2026-07-14
 updated: 2026-07-21
 qmd: "geo-dependency-violation-interactive-map rimosso interactivemap — violava regola "ui non importa geo""
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 updated: 2026-08-18
 qmd: "geo-dependency-violation-interactive-map rimosso interactivemap — violava regola "ui non importa geo""
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]

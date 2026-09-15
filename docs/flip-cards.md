@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: 'Flip cards — risorse esterne'
 module: UI
@@ -25,7 +23,6 @@ updated: 2026-08-24
 - <https://dev.to/adetutu/how-to-design-a-css-card-flip-animation-creating-flipping-cards-on-hover-5ha6>
 - <https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/>
 - <https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML>
->>>>>>> laraxot/dev
 https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
 
 
@@ -39,9 +36,6 @@ https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
 
 
 
-<<<<<<< HEAD
-https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
-=======
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
 
 ## Appendice — contenuto migrato
@@ -53,4 +47,3 @@ canonical: ../../../Themes/docs/shared-components/flip-cards.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/flip-cards.md
->>>>>>> laraxot/dev

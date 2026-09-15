@@ -10,8 +10,6 @@ use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
 
-<<<<<<< HEAD
-=======
 /** @param array<string, mixed> $data */
 function makeKalshiView(array $data = []): \Illuminate\Contracts\View\View
 {
@@ -22,7 +20,6 @@ function makeKalshiView(array $data = []): \Illuminate\Contracts\View\View
 }
 
 
->>>>>>> laraxot/dev
 beforeEach(function () {
     /* @var \Modules\UI\Tests\TestCase $this */
     if (! View::exists('pub_theme::components.blocks.hero.kalshi-inspired')) {
@@ -49,11 +46,7 @@ test('kalshi inspired hero component renders without errors', function () {
         'show_categories' => true,
     ];
 
-<<<<<<< HEAD
-    $view = View::make('pub_theme::components.blocks.hero.kalshi-inspired', $componentData);
-=======
     $view = makeKalshiView($componentData);
->>>>>>> laraxot/dev
 
     $html = $view->render();
     Assert::assertStringContainsString((string) 'Test <nome progetto>ion Platform', (string) $html);
@@ -63,11 +56,7 @@ test('kalshi inspired hero component renders without errors', function () {
 });
 
 test('kalshi hero shows statistics when enabled', function () {
-<<<<<<< HEAD
-    $view = View::make('pub_theme::components.blocks.hero.kalshi-inspired', [
-=======
     $view = makeKalshiView([
->>>>>>> laraxot/dev
         'show_stats' => true,
     ]);
 
@@ -83,11 +72,7 @@ test('kalshi hero shows statistics when enabled', function () {
 });
 
 test('kalshi hero hides statistics when disabled', function () {
-<<<<<<< HEAD
-    $view = View::make('pub_theme::components.blocks.hero.kalshi-inspired', [
-=======
     $view = makeKalshiView([
->>>>>>> laraxot/dev
         'show_stats' => false,
     ]);
 
@@ -97,11 +82,7 @@ test('kalshi hero hides statistics when disabled', function () {
 });
 
 test('kalshi hero shows categories when enabled', function () {
-<<<<<<< HEAD
-    $view = View::make('pub_theme::components.blocks.hero.kalshi-inspired', [
-=======
     $view = makeKalshiView([
->>>>>>> laraxot/dev
         'show_categories' => true,
     ]);
 
@@ -116,11 +97,7 @@ test('kalshi hero shows categories when enabled', function () {
 });
 
 test('kalshi hero hides categories when disabled', function () {
-<<<<<<< HEAD
-    $view = View::make('pub_theme::components.blocks.hero.kalshi-inspired', [
-=======
     $view = makeKalshiView([
->>>>>>> laraxot/dev
         'show_categories' => false,
     ]);
 
@@ -129,11 +106,7 @@ test('kalshi hero hides categories when disabled', function () {
 });
 
 test('kalshi hero supports custom props', function () {
-<<<<<<< HEAD
-    $view = View::make('pub_theme::components.blocks.hero.kalshi-inspired', [
-=======
     $view = makeKalshiView([
->>>>>>> laraxot/dev
         'title' => 'Custom Market Title',
         'subtitle' => 'Custom trading platform description',
         'cta_text' => 'Join Now',
@@ -152,11 +125,7 @@ test('kalshi hero supports custom props', function () {
 });
 
 test('kalshi hero has proper css classes and styling', function () {
-<<<<<<< HEAD
-    $view = View::make('pub_theme::components.blocks.hero.kalshi-inspired');
-=======
     $view = makeKalshiView();
->>>>>>> laraxot/dev
 
     $html = $view->render();
     Assert::assertStringContainsString((string) 'bg-gradient-to-br from-slate-900', (string) $html);
@@ -166,11 +135,7 @@ test('kalshi hero has proper css classes and styling', function () {
 });
 
 test('kalshi hero includes required css animations', function () {
-<<<<<<< HEAD
-    $view = View::make('pub_theme::components.blocks.hero.kalshi-inspired');
-=======
     $view = makeKalshiView();
->>>>>>> laraxot/dev
 
     $html = $view->render();
     Assert::assertStringContainsString((string) '@keyframes gradient-x', (string) $html);
@@ -179,11 +144,7 @@ test('kalshi hero includes required css animations', function () {
 });
 
 test('kalshi hero has responsive design classes', function () {
-<<<<<<< HEAD
-    $view = View::make('pub_theme::components.blocks.hero.kalshi-inspired');
-=======
     $view = makeKalshiView();
->>>>>>> laraxot/dev
 
     $html = $view->render();
     Assert::assertStringContainsString((string) 'md:text-7xl lg:text-8xl', (string) $html);
