@@ -5,7 +5,11 @@ declare(strict_types=1);
 return [
     'fields' => [
         'newstate' => ['label' => 'newstate', 'tooltip' => '', 'helper_text' => '', 'description' => '', 'placeholder' => 'newstate'],
+<<<<<<< HEAD
         'pack' => ['label' => 'pack', 'description' => 'pack', 'helper_text' => '', 'placeholder' => 'pack', 'tooltip' => ''],
+=======
+        'pack' => ['label' => 'pack', 'description' => 'pack', 'helper_text' => 'pack', 'placeholder' => 'pack', 'tooltip' => ''],
+>>>>>>> laraxot/dev
         'icon' => ['label' => 'icon', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
     ],
     'label' => 'Icon Picker',

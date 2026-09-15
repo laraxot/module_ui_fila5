@@ -56,7 +56,11 @@ class Image
     /**
      * @return array<int, Component>
      */
+<<<<<<< HEAD
     public function getFormSchema(): array
+=======
+    public static function getFormSchema(): array
+>>>>>>> laraxot/dev
     {
         return [
             FileUpload::make('image')

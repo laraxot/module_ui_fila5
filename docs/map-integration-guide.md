@@ -9,7 +9,11 @@
 
 ## 🎯 PANORAMICA
 
+<<<<<<< HEAD
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione <nome progetto>.
+=======
+Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
+>>>>>>> laraxot/dev
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione <nome progetto>.
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione progetto corrente.
 
@@ -432,7 +436,11 @@ class MapService
                     'status' => $ticket->status->slug,
                     'priority' => $ticket->priority->slug,
                     'url' => route('<nome progetto>.tickets.show', $ticket)
+<<<<<<< HEAD
                     'url' => route('<nome progetto>.tickets.show', $ticket)
+=======
+                    'url' => route('fixcity.tickets.show', $ticket)
+>>>>>>> laraxot/dev
                     'url' => route('tickets.show', $ticket)
                 ];
             })
@@ -514,7 +522,11 @@ class GeocodingService
         </div>
         <div class="col-md-4">
             <livewire:<nome progetto>::components.ticket-stats />
+<<<<<<< HEAD
             <livewire:<nome progetto>::components.ticket-stats />
+=======
+            <livewire:fixcity::components.ticket-stats />
+>>>>>>> laraxot/dev
             <livewire:project::components.ticket-stats />
         </div>
     </div>
@@ -569,7 +581,11 @@ class GeocodingService
 - [ ] GeocodingService implementation
 
 ### 📅 Fase 3: Integrazione (Settimana 3)
+<<<<<<< HEAD
 - [ ] Integrazione con modulo <nome progetto>
+=======
+- [ ] Integrazione con modulo Fixcity
+>>>>>>> laraxot/dev
 - [ ] Integrazione con modulo <nome progetto>
 - [ ] Integrazione con modulo progetto corrente
 - [ ] Integrazione con modulo User

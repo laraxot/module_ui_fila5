@@ -177,11 +177,16 @@ describe('UI highest-miss coverage', function (): void {
     });
 
     test('XotBase blocks and document upload factories expose schema', function (): void {
+<<<<<<< HEAD
         # @phpstan-ignore-next-line
         Assert::assertNotEmpty(Contact::getFormSchema());
         # @phpstan-ignore-next-line
         Assert::assertNotEmpty(\Modules\UI\Filament\Blocks\Category::getFormSchema());
         # @phpstan-ignore-next-line
+=======
+        Assert::assertNotEmpty(Contact::getFormSchema());
+        Assert::assertNotEmpty(\Modules\UI\Filament\Blocks\Category::getFormSchema());
+>>>>>>> laraxot/dev
         Assert::assertNotEmpty(Post::getFormSchema());
         Assert::assertNotSame('', Contact::getTitle());
 

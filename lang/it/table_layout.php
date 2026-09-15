@@ -24,7 +24,12 @@ return [
         'id' => ['label' => 'Identificativo', 'tooltip' => 'Identificativo univoco del record', 'helper_text' => '', 'description' => ''],
         'created_at' => ['label' => 'Data Creazione', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
         'updated_at' => ['label' => 'Ultima Modifica', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
+<<<<<<< HEAD
         'list' => ['label' => 'list', 'placeholder' => 'list', 'helper_text' => '', 'description' => 'list'],
         'grid' => ['label' => 'grid', 'placeholder' => 'grid', 'helper_text' => '', 'description' => 'grid'],
+=======
+        'list' => ['label' => 'list', 'placeholder' => 'list', 'helper_text' => 'list', 'description' => 'list'],
+        'grid' => ['label' => 'grid', 'placeholder' => 'grid', 'helper_text' => 'grid', 'description' => 'grid'],
+>>>>>>> laraxot/dev
     ],
 ];

@@ -7,21 +7,33 @@ return [
         'caption' => [
             'label' => 'caption',
             'description' => 'caption',
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'caption',
+>>>>>>> laraxot/dev
             'placeholder' => 'caption',
             'tooltip' => '',
         ],
         'image' => [
             'label' => 'image',
             'description' => 'image',
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'image',
+>>>>>>> laraxot/dev
             'placeholder' => 'image',
             'tooltip' => '',
         ],
         'img_uuid' => [
             'label' => 'img_uuid',
             'description' => 'img_uuid',
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'img_uuid',
+>>>>>>> laraxot/dev
             'placeholder' => 'img_uuid',
             'tooltip' => '',
         ],
