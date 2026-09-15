@@ -1,8 +1,17 @@
+<<<<<<< HEAD
 # =============================================================================
 # LARAXOT MODULE: UI - .gitignore
 #
 # Canonical documentation:
 # ../../../Themes/docs/shared-components/.gitignore-Modules
+=======
+<<<<<<< HEAD
+---
+module: theme
+topic: .gitignore
+canonical: ../../../Themes/docs/shared-components/.gitignore-Modules
+---
+>>>>>>> laraxot/dev
 
 
 # -----------------------------------------------------------------------------
@@ -44,7 +53,12 @@ docs/phpstan/
 
 # Documentation files
 agentdb.rvf
+<<<<<<< HEAD
 
+=======
+=======
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
 phpstan-corrections-gennaio-2025.md
 translations-update-january-2026.md
 git-push-recovery-2026-07-28.md
@@ -61,11 +75,16 @@ notify-user-git-push-resolution-2026-07-28.md
 phpstan-fixes-gennaio-2025.md
 redundancy-audit-2026-05-21.md
 
+<<<<<<< HEAD
 # No numbered Markdown duplicates
+=======
+# No numbered .md duplicates (rule: docs/wiki/rules/no-numbered-filenames.md)
+>>>>>>> laraxot/dev
 *-[0-9].md
 *-[0-9][0-9].md
 *_[0-9].md
 *_[0-9][0-9].md
+<<<<<<< HEAD
 
 
 # Dependencies
@@ -214,3 +233,5 @@ ehthumbs.db
 phpstan*
 phpmd*
 rector.php
+=======
+>>>>>>> laraxot/dev
