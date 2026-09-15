@@ -36,7 +36,7 @@ class GroupColumn extends XotBaseColumn
     }
 
     /**
-     * @param array<int|string, mixed> $form
+     * @param  array<int|string, mixed>  $form
      */
     public function schema(array $form): static
     {
@@ -63,11 +63,8 @@ class GroupColumn extends XotBaseColumn
 
     private function mountChildrenToTable(?Table $table): void
     {
-        if (null === $table) {
-<<<<<<< HEAD
+        if ($table === null) {
             return;
-=======
->>>>>>> 92912795 (.)
         }
 
         foreach ($this->schema as $child) {
