@@ -19,7 +19,6 @@ class OrderColumn extends XotBaseTextColumn
     public static function make(?string $name = null): static
     {
         return parent::make($name ?? 'order_column')
-            ->label('Order')
             ->badge()
             ->color('gray')
             ->sortable()

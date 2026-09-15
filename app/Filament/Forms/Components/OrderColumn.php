@@ -19,7 +19,6 @@ class OrderColumn extends XotBaseViewField
     public static function make(?string $name = null): static
     {
         return parent::make($name ?? 'order_column')
-            ->label('Order')
             ->default(0);
     }
 }

@@ -19,9 +19,11 @@ describe('OrderColumn (Table) — order_column badge display', function (): void
         Assert::assertSame('position', $column->getName());
     });
 
-    it('has a user-friendly label', function (): void {
+    it('lets the label auto-resolve instead of hardcoding one', function (): void {
+        // No ->label() call in make(): Filament/LangServiceProvider auto-resolve
+        // from the field name until a translation exists (see AutoLabelAction).
         $column = OrderColumn::make();
-        Assert::assertSame('Order', $column->getLabel());
+        Assert::assertSame('Order column', $column->getLabel());
     });
 
     it('is sortable', function (): void {
