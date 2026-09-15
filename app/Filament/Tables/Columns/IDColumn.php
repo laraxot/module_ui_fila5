@@ -4,15 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Tables\Columns;
 
-<<<<<<< HEAD
 use Illuminate\Support\HtmlString;
 use Modules\Xot\Filament\Support\RecordAnchor;
 use Modules\Xot\Filament\Tables\Columns\XotBaseTextColumn;
-=======
-use Filament\Tables\Columns\TextColumn;
-use Illuminate\Support\HtmlString;
-use Modules\Xot\Filament\Support\RecordAnchor;
->>>>>>> laraxot/dev
 
 /**
  * Colonna id che funge anche da ancora della riga.
@@ -21,14 +15,8 @@ use Modules\Xot\Filament\Support\RecordAnchor;
  * `#record-1875` porta il browser esattamente su quella riga. I link di ritorno
  * dall'edit lo appendono con {@see RecordAnchor::appendTo()}.
  */
-<<<<<<< HEAD
 class IDColumn extends XotBaseTextColumn
 {
-=======
-class IDColumn extends TextColumn
-{
-    #[\Override]
->>>>>>> laraxot/dev
     public static function make(?string $name = null): static
     {
         return parent::make($name ?? 'id')
@@ -48,11 +36,7 @@ class IDColumn extends TextColumn
     {
         $value = is_scalar($state) ? (string) $state : '';
 
-<<<<<<< HEAD
         if ($value === '') {
-=======
-        if ('' === $value) {
->>>>>>> laraxot/dev
             return new HtmlString('');
         }
 

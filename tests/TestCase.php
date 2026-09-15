@@ -21,16 +21,8 @@ use Modules\User\Models\User;
 /**
  * Base test case for UI module.
  *
-<<<<<<< HEAD
  * Uses shared sqlite from fixcity_data.sqlite (no RefreshDatabase).
-<<<<<<< HEAD
  * Pattern skip offline: Feature/`ui-db` skip se manca schema; Unit eseguiti.
-=======
-=======
- * Uses shared sqlite from database.sqlite (no RefreshDatabase).
- * Uses shared sqlite from database.sqlite (no RefreshDatabase).
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
  */
 abstract class TestCase extends XotBaseTestCase
 {
@@ -77,27 +69,6 @@ abstract class TestCase extends XotBaseTestCase
 
         parent::setUp();
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-        $database = database_path('fixcity_data.sqlite');
-=======
-        $database = database_path('database.sqlite');
->>>>>>> 92912795 (.)
-
-        /** @var array<string, array<string, mixed>> $connections */
-        $connections = config('database.connections', []);
-
-        foreach (array_keys($connections) as $connection) {
-            if ('sqlite' !== config("database.connections.{$connection}.driver")) {
-                continue;
-            }
-
-            $this->app['config']->set("database.connections.{$connection}.database", $database);
-            DB::purge($connection);
-        }
-
->>>>>>> laraxot/dev
         config(['auth.providers.users.model' => User::class]);
 
         if ($this->shouldSkipForMissingUiDb()) {
