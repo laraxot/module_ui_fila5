@@ -7,14 +7,14 @@ return [
         'level' => [
             'label' => 'level',
             'description' => 'level',
-            'helper_text' => 'level',
+            'helper_text' => '',
             'placeholder' => 'level',
             'tooltip' => '',
         ],
         'content' => [
             'label' => 'content',
             'description' => 'content',
-            'helper_text' => 'content',
+            'helper_text' => '',
             'placeholder' => 'content',
             'tooltip' => '',
         ],
