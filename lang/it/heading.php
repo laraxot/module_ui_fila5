@@ -7,22 +7,14 @@ return [
         'level' => [
             'label' => 'level',
             'description' => 'level',
-<<<<<<< HEAD
-            'helper_text' => '',
-=======
             'helper_text' => 'level',
->>>>>>> laraxot/dev
             'placeholder' => 'level',
             'tooltip' => '',
         ],
         'content' => [
             'label' => 'content',
             'description' => 'content',
-<<<<<<< HEAD
-            'helper_text' => '',
-=======
             'helper_text' => 'content',
->>>>>>> laraxot/dev
             'placeholder' => 'content',
             'tooltip' => '',
         ],

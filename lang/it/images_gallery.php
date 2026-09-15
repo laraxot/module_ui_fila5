@@ -7,55 +7,35 @@ return [
         'version' => [
             'label' => 'version',
             'description' => 'version',
-<<<<<<< HEAD
-            'helper_text' => '',
-=======
             'helper_text' => 'version',
->>>>>>> laraxot/dev
             'placeholder' => 'version',
             'tooltip' => '',
         ],
         'subtitle' => [
             'label' => 'subtitle',
             'description' => 'subtitle',
-<<<<<<< HEAD
-            'helper_text' => '',
-=======
             'helper_text' => 'subtitle',
->>>>>>> laraxot/dev
             'placeholder' => 'subtitle',
             'tooltip' => '',
         ],
         'title' => [
             'label' => 'title',
             'description' => 'title',
-<<<<<<< HEAD
-            'helper_text' => '',
-=======
             'helper_text' => 'title',
->>>>>>> laraxot/dev
             'placeholder' => 'title',
             'tooltip' => '',
         ],
         'image' => [
             'label' => 'image',
             'placeholder' => 'image',
-<<<<<<< HEAD
-            'helper_text' => '',
-=======
             'helper_text' => 'image',
->>>>>>> laraxot/dev
             'description' => 'image',
             'tooltip' => '',
         ],
         'gallery' => [
             'label' => 'gallery',
             'placeholder' => 'gallery',
-<<<<<<< HEAD
-            'helper_text' => '',
-=======
             'helper_text' => 'gallery',
->>>>>>> laraxot/dev
             'description' => 'gallery',
             'tooltip' => '',
         ],

@@ -8,21 +8,13 @@ return [
             'label' => 'Testo',
             'description' => 'text',
             'placeholder' => 'text',
-<<<<<<< HEAD
-            'helper_text' => '',
-=======
             'helper_text' => 'text',
->>>>>>> laraxot/dev
             'tooltip' => '',
         ],
         'level' => [
             'label' => 'Grandezza',
             'description' => 'level',
-<<<<<<< HEAD
-            'helper_text' => '',
-=======
             'helper_text' => 'level',
->>>>>>> laraxot/dev
             'placeholder' => 'level',
             'tooltip' => '',
         ],
@@ -35,11 +27,7 @@ return [
         'view' => [
             'label' => 'view',
             'description' => 'view',
-<<<<<<< HEAD
-            'helper_text' => '',
-=======
             'helper_text' => 'view',
->>>>>>> laraxot/dev
             'placeholder' => 'view',
             'tooltip' => '',
         ],
