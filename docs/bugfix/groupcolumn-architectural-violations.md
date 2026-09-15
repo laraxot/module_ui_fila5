@@ -5,13 +5,8 @@ tags: [groupcolumn, architectural, violations]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "groupcolumn-architectural-violations bugfix: groupcolumn architectural violations"
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
+issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
+discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
 related:
   - "./iconcolumn-extends-filament-column.md"
   - "./iconcolumn-view-path-fix.md"
@@ -241,6 +236,8 @@ final class GroupColumn extends XotBaseColumn
 @php
     $fields = $getFields();  // ✅ PSR-12
 **Dopo (18 Nov 2025)**:
+```
+
 ```blade
 @php
     $fields = $getFields();

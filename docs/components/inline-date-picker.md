@@ -5,13 +5,10 @@ tags: [inline, date, picker]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "inline-date-picker inlinedatepicker component"
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-=======
+issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
+discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -421,16 +418,16 @@ public function register(): void
 ---
 **Ultimo aggiornamento**: Dicembre 2024
 **Versione**: 2.0 con Navigazione Temporale Avanzata
-**Compatibilità**: Laraxot , Filament 4.x, Alpine.js 3.x
-**Compatibilità**: Laraxot , Filament 4.x, Alpine.js 3.x
+**Compatibilità**: Laraxot , Filament 5.x, Alpine.js 3.x
+**Compatibilità**: Laraxot , Filament 5.x, Alpine.js 3.x
 **Compatibilità**: Laraxot <nome progetto>, Filament 3.x, Alpine.js 3.x
 **Filosofia**: Fenomenologia Quantistica applicata al Design Temporale
 **Filosofia**: Fenomenologia Quantistica applicata al Design Temporale
-**Compatibilità**: Laraxot , Filament 4.x, Alpine.js 3.x
-**Compatibilità**: Laraxot , Filament 4.x, Alpine.js 3.x
+**Compatibilità**: Laraxot , Filament 5.x, Alpine.js 3.x
+**Compatibilità**: Laraxot , Filament 5.x, Alpine.js 3.x
 **Compatibilità**: Laraxot <nome progetto>, Filament 3.x, Alpine.js 3.x
 **Filosofia**: Fenomenologia Quantistica applicata al Design Temporale
 **Filosofia**: Fenomenologia Quantistica applicata al Design Temporale
-**Compatibilità**: Laraxot , Filament 4.x, Alpine.js 3.x
+**Compatibilità**: Laraxot , Filament 5.x, Alpine.js 3.x
 **Compatibilità**: Laraxot <nome progetto>, Filament 3.x, Alpine.js 3.x
 **Filosofia**: Fenomenologia Quantistica applicata al Design Temporale
