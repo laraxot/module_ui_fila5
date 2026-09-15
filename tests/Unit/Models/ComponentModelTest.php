@@ -34,14 +34,25 @@ beforeEach(function (): void {
 describe('Component Model', function (): void {
     test('can be instantiated', function (): void {
         /** @phpstan-ignore-next-line class.notFound (Component model absent from artifact set) */
+<<<<<<< HEAD
         $component = new Component;
+=======
+        $component = new Component();
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
         /* @phpstan-ignore-next-line class.notFound (Component model absent from artifact set) */
         Assert::assertInstanceOf(Component::class, $component);
     });
 
     test('has fillable attributes', function (): void {
         /** @phpstan-ignore-next-line class.notFound (Component model absent from artifact set) */
+<<<<<<< HEAD
         $component = new Component;
+=======
+        $component = new Component();
+=======
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
         $expected = [
             'name', 'theme_id', 'is_active', 'version', 'dependencies',
             'template', 'is_cacheable', 'cache_ttl', 'validation_rules',
