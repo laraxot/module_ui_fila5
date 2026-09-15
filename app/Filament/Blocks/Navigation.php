@@ -14,7 +14,10 @@ final class Navigation extends XotBaseBlock
     /**
      * @return array<string, Component>
      */
+<<<<<<< HEAD
     #[\Override]
+=======
+>>>>>>> laraxot/dev
     public static function getBlockSchema(): array
     {
         return [
@@ -37,7 +40,11 @@ final class Navigation extends XotBaseBlock
     /**
      * @return array<string, Component>
      */
+<<<<<<< HEAD
     public function getFormSchema(): array
+=======
+    public static function getFormSchema(): array
+>>>>>>> laraxot/dev
     {
         return [
             'items' => Repeater::make('items')

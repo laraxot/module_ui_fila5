@@ -7,21 +7,33 @@ return [
         'to' => [
             'label' => 'to',
             'placeholder' => 'to',
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'to',
+>>>>>>> laraxot/dev
             'description' => 'to',
             'tooltip' => '',
         ],
         'subject' => [
             'label' => 'subject',
             'placeholder' => 'subject',
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'subject',
+>>>>>>> laraxot/dev
             'description' => 'subject',
             'tooltip' => '',
         ],
         'body_html' => [
             'label' => 'body_html',
             'placeholder' => 'body_html',
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'body_html',
+>>>>>>> laraxot/dev
             'description' => 'body_html',
             'tooltip' => '',
         ],

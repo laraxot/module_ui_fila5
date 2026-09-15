@@ -4,11 +4,19 @@ declare(strict_types=1);
 
 return [
     'fields' => [
+<<<<<<< HEAD
         'caption' => ['label' => 'caption', 'description' => 'caption', 'helper_text' => '', 'placeholder' => 'caption', 'tooltip' => ''],
         'alt' => ['label' => 'alt', 'description' => 'alt', 'helper_text' => '', 'placeholder' => 'alt', 'tooltip' => ''],
         'ratio' => ['label' => 'ratio', 'description' => 'ratio', 'tooltip' => '', 'helper_text' => '', 'placeholder' => 'ratio'],
         'url' => ['label' => 'url', 'description' => 'url', 'helper_text' => '', 'placeholder' => 'url', 'tooltip' => ''],
         'image' => ['label' => 'image', 'description' => 'image', 'helper_text' => '', 'placeholder' => 'image', 'tooltip' => ''],
+=======
+        'caption' => ['label' => 'caption', 'description' => 'caption', 'helper_text' => 'caption', 'placeholder' => 'caption', 'tooltip' => ''],
+        'alt' => ['label' => 'alt', 'description' => 'alt', 'helper_text' => 'alt', 'placeholder' => 'alt', 'tooltip' => ''],
+        'ratio' => ['label' => 'ratio', 'description' => 'ratio', 'tooltip' => '', 'helper_text' => '', 'placeholder' => 'ratio'],
+        'url' => ['label' => 'url', 'description' => 'url', 'helper_text' => 'url', 'placeholder' => 'url', 'tooltip' => ''],
+        'image' => ['label' => 'image', 'description' => 'image', 'helper_text' => 'image', 'placeholder' => 'image', 'tooltip' => ''],
+>>>>>>> laraxot/dev
     ],
     'label' => 'Image',
     'plural_label' => 'Image (Plurale)',

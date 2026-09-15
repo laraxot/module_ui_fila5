@@ -7,14 +7,22 @@ return [
         'title' => [
             'label' => 'Titolo',
             'description' => 'title',
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'title',
+>>>>>>> laraxot/dev
             'placeholder' => 'title',
             'tooltip' => '',
         ],
         'text' => [
             'label' => 'Testo',
             'description' => 'text',
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'text',
+>>>>>>> laraxot/dev
             'placeholder' => 'text',
             'tooltip' => '',
         ],
@@ -27,7 +35,11 @@ return [
         'view' => [
             'label' => 'view',
             'description' => 'view',
+<<<<<<< HEAD
             'helper_text' => '',
+=======
+            'helper_text' => 'view',
+>>>>>>> laraxot/dev
             'placeholder' => 'view',
             'tooltip' => '',
         ],

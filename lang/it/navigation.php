@@ -10,7 +10,11 @@ return [
         'items' => ['label' => 'Elementi', 'placeholder' => 'Seleziona elementi menu', 'helper_text' => 'Elementi che compongono la navigazione', 'description' => 'Lista degli elementi di navigazione', 'tooltip' => 'Clicca per aggiungere elementi'],
         'label' => ['label' => 'Etichetta', 'placeholder' => 'Inserisci etichetta menu', 'helper_text' => 'Testo visualizzato nel menu', 'description' => 'Nome dell\'elemento di navigazione', 'tooltip' => 'Descrizione breve dell\'elemento'],
         'url' => ['label' => 'URL', 'placeholder' => 'Inserisci URL destinazione', 'helper_text' => 'Indirizzo web o route name', 'description' => 'Destinazione del link', 'tooltip' => 'URL completo o nome route'],
+<<<<<<< HEAD
         'text' => ['label' => 'text', 'placeholder' => 'text', 'helper_text' => '', 'description' => 'text'],
+=======
+        'text' => ['label' => 'text', 'placeholder' => 'text', 'helper_text' => 'text', 'description' => 'text'],
+>>>>>>> laraxot/dev
     ],
     'actions' => [
         'create' => ['label' => 'Crea Navigazione', 'success' => 'Navigazione creata con successo', 'failure' => 'Errore nella creazione della navigazione'],

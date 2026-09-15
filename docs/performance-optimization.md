@@ -114,6 +114,11 @@ context-mode ctx-stats
 ## Riferimenti
 
 - [Global Performance Guide](../../docs/wiki/concepts/performance-optimization.md)
+<<<<<<< HEAD
+=======
+- [On-Demand Pattern](./ON-DEMAND-PATTERN.md)
+- [QMD Setup](./QMD-SETUP.md)
+>>>>>>> laraxot/dev
 - [On-Demand Pattern](./on-demand-pattern.md)
 - [QMD Setup](./qmd-setup.md)
 

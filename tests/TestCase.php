@@ -11,16 +11,28 @@ use Mockery\Expectation;
 use Mockery\LegacyMockInterface;
 use Mockery\MockInterface;
 use Modules\UI\Providers\UIServiceProvider;
+<<<<<<< HEAD
 use Modules\User\Models\User;
+=======
+use Modules\Xot\Contracts\UserContract;
+>>>>>>> laraxot/dev
 use Modules\User\Providers\UserServiceProvider;
 use Modules\Xot\Tests\XotBaseTestCase;
 
 use function Safe\file_get_contents;
+<<<<<<< HEAD
+=======
+use Modules\User\Models\User;
+>>>>>>> laraxot/dev
 
 /**
  * Base test case for UI module.
  *
+<<<<<<< HEAD
  * Uses the shared sqlite file (no RefreshDatabase).
+=======
+ * Uses shared sqlite from fixcity_data.sqlite (no RefreshDatabase).
+>>>>>>> laraxot/dev
  * Pattern skip offline: Feature/`ui-db` skip se manca schema; Unit eseguiti.
  */
 abstract class TestCase extends XotBaseTestCase
@@ -122,7 +134,11 @@ abstract class TestCase extends XotBaseTestCase
 
     /**
      * Lo sqlite condiviso non contiene sempre le tabelle themes/categories.
+<<<<<<< HEAD
      * sqlite condiviso = offline anche se somehow le tabelle UI ci sono.
+=======
+     * fixcity_data.sqlite = offline anche se somehow le tabelle UI ci sono.
+>>>>>>> laraxot/dev
      */
     public static function uiDbUnavailable(): bool
     {
@@ -130,7 +146,11 @@ abstract class TestCase extends XotBaseTestCase
             $connection = DB::connection('xot');
             $connection->getPdo();
             $database = (string) $connection->getDatabaseName();
+<<<<<<< HEAD
             if (str_contains($database, basename(self::sharedSqlitePath()))) {
+=======
+            if (str_contains($database, 'fixcity_data.sqlite')) {
+>>>>>>> laraxot/dev
                 return true;
             }
 
