@@ -666,12 +666,8 @@ Laravel risolve automaticamente override temi con view namespace precedence.
 
 **Modulo**: UI
 **Versione**: 4.1.0
-<<<<<<< HEAD
-**Framework**: Laravel 13 + Filament 5
-=======
 **Framework**: Laravel 12 + Filament 4
 **Framework**: Laravel 13 + Filament 4
->>>>>>> laraxot/dev
 **PHPStan**: Level 10 ✅
 **Filosofia**: Estendere, Riutilizzare, Tradurre, Adattare
 **Zen**: I componenti si scoprono da soli 禅
@@ -682,9 +678,5 @@ Laravel risolve automaticamente override temi con view namespace precedence.
 
 - [Never Use Label Rule](./never-use-label-rule.md)
 - [Components Guide](./components-guide.md)
-<<<<<<< HEAD
-- [Filament 5 Migration Guide](./filament/Filament-5-migration-guide.md)
-=======
 - [Filament 4 Migration Guide](./filament/filament-4-migration-guide.md)
->>>>>>> laraxot/dev
 - [Architecture Documentation](./architecture.md)

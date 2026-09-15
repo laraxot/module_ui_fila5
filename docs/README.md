@@ -574,22 +574,13 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 
 # 🎨 **UI Module** - Sistema Avanzato Componenti Interfaccia
 
-<<<<<<< HEAD
-[![Laravel 13.x](https://img.shields.io/badge/Laravel-13.x-red.svg)](https://laravel.com/)
-=======
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
->>>>>>> laraxot/dev
 [![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
 [![PHPStan level 10](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 # 🎨 **UI Module** - Sistema Avanzato Componenti Interfaccia
 
-<<<<<<< HEAD
-[![Laravel 13.x](https://img.shields.io/badge/Laravel-13.x-red.svg)](https://laravel.com/)
-[![Filament 5.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
-=======
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 [![Filament 4.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
->>>>>>> laraxot/dev
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
@@ -1111,8 +1102,6 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 *Ultimo aggiornamento: gennaio 2025* 
 *Ultimo aggiornamento: gennaio 2025* 
 *Ultimo aggiornamento: gennaio 2025* 
-<<<<<<< HEAD
-=======
 ---
 title: "UI — Il Design System Sacro"
 description: "Sistema di componenti UI riutilizzabili e design system per interfacce utente coerenti"
@@ -1185,4 +1174,3 @@ L'ecosistema ha 40+ moduli che condividono l'interfaccia admin. Senza un design 
 ---
 
 *Documento generato secondo le convenzioni del progetto — modulo `UI` — data 2026-05-27*
->>>>>>> laraxot/dev

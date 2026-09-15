@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Rapporto Aggiornamento Filament 5.x - Modulo UI
-=======
 # Rapporto Aggiornamento Filament 4.x - Modulo UI
->>>>>>> laraxot/dev
 
 **Data**: 2025-01-27
 **Status**: ✅ COMPLETATO
@@ -13,11 +9,7 @@
 ## 🔧 Correzioni Implementate
 
 ### 1. Widget FullCalendar Disabilitato
-<<<<<<< HEAD
-**Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 5.x
-=======
 **Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 4.x
->>>>>>> laraxot/dev
 **Soluzione**: Disabilitazione temporanea del widget
 
 **File disabilitato**:
@@ -34,19 +26,11 @@ class UserCalendarWidget extends FullCalendarWidget
 }
 
 // DOPO (corretto)
-<<<<<<< HEAD
-// Temporaneamente commentato per compatibilità Filament 5.x
-// use Saade\FilamentFullCalendar\Widgets\FullCalendarWidget;
-class UserCalendarWidget extends \Filament\Widgets\Widget
-{
-    // Temporaneamente commentato per compatibilità Filament 5.x
-=======
 // Temporaneamente commentato per compatibilità Filament 4.x
 // use Saade\FilamentFullCalendar\Widgets\FullCalendarWidget;
 class UserCalendarWidget extends \Filament\Widgets\Widget
 {
     // Temporaneamente commentato per compatibilità Filament 4.x
->>>>>>> laraxot/dev
     // use InteractsWithEvents;
     public string $type;
 }
@@ -67,17 +51,10 @@ class UserCalendarWidget extends \Filament\Widgets\Widget
 
 ### Fase 1: Monitoraggio Pacchetti
 - [ ] Verificare aggiornamenti `saade/filament-fullcalendar`
-<<<<<<< HEAD
-- [ ] Controllare compatibilità con Filament 5.x
-
-### Fase 2: Test di Compatibilità
-- [ ] Testare pacchetto con Filament 5.x
-=======
 - [ ] Controllare compatibilità con Filament 4.x
 
 ### Fase 2: Test di Compatibilità
 - [ ] Testare pacchetto con Filament 4.x
->>>>>>> laraxot/dev
 - [ ] Verificare funzionalità calendario (eventi, drag&drop, modal)
 - [ ] Testare performance e stabilità
 
@@ -109,11 +86,7 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 
 ## 🔗 Collegamenti
 
-<<<<<<< HEAD
-- [Guida Ufficiale Filament 5.x](https://filamentphp.com/docs/4.x/upgrade-guide)
-=======
 - [Guida Ufficiale Filament 4.x](https://filamentphp.com/docs/4.x/upgrade-guide)
->>>>>>> laraxot/dev
 - [Pacchetto FullCalendar](https://github.com/saade/filament-fullcalendar)
 - [Documentazione Modulo UI](../README.md)
 
@@ -125,11 +98,7 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 - [x] Cambiato ereditarietà a \Filament\Widgets\Widget
 - [x] Rimosso proprietà $view conflittuale
 - [x] Creato view placeholder per widget disabilitato
-<<<<<<< HEAD
-- [x] Aggiornamento Filament 5.x completato con successo
-=======
 - [x] Aggiornamento Filament 4.x completato con successo
->>>>>>> laraxot/dev
 
 ## 🎯 Impatto Funzionale
 
@@ -141,29 +110,17 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 
 ### Funzionalità Mantenute
 - Tutte le altre funzionalità del modulo UI
-<<<<<<< HEAD
-- Widget base di Filament 5.x
-- Sistema di autenticazione e autorizzazione
-
-*Ultimo aggiornamento: 2025-01-27*
-# Rapporto Aggiornamento Filament 5.x - Modulo UI
-=======
 - Widget base di Filament 4.x
 - Sistema di autenticazione e autorizzazione
 
 *Ultimo aggiornamento: 2025-01-27*
 # Rapporto Aggiornamento Filament 4.x - Modulo UI
->>>>>>> laraxot/dev
 **Data**: 2025-01-27
 **Status**: ✅ COMPLETATO
 **Versione Filament**: 4.0.17
 ## 🔧 Correzioni Implementate
 ### 1. Widget FullCalendar Disabilitato
-<<<<<<< HEAD
-**Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 5.x
-=======
 **Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 4.x
->>>>>>> laraxot/dev
 **Soluzione**: Disabilitazione temporanea del widget
 **File disabilitato**:
 - `UserCalendarWidget.php` - esteso `FullCalendarWidget` da `saade/filament-fullcalendar`
@@ -177,17 +134,10 @@ class UserCalendarWidget extends FullCalendarWidget
     protected static ?string $view = 'ui::filament.widgets.user-calendar';
 }
 // DOPO (corretto)
-<<<<<<< HEAD
-// Temporaneamente commentato per compatibilità Filament 5.x
-// use Saade\FilamentFullCalendar\Widgets\FullCalendarWidget;
-class UserCalendarWidget extends \Filament\Widgets\Widget
-    // Temporaneamente commentato per compatibilità Filament 5.x
-=======
 // Temporaneamente commentato per compatibilità Filament 4.x
 // use Saade\FilamentFullCalendar\Widgets\FullCalendarWidget;
 class UserCalendarWidget extends \Filament\Widgets\Widget
     // Temporaneamente commentato per compatibilità Filament 4.x
->>>>>>> laraxot/dev
     // use InteractsWithEvents;
     public string $type;
 ```
@@ -201,15 +151,9 @@ class UserCalendarWidget extends \Filament\Widgets\Widget
 ## 🔄 Piano di Riattivazione
 ### Fase 1: Monitoraggio Pacchetti
 - [ ] Verificare aggiornamenti `saade/filament-fullcalendar`
-<<<<<<< HEAD
-- [ ] Controllare compatibilità con Filament 5.x
-### Fase 2: Test di Compatibilità
-- [ ] Testare pacchetto con Filament 5.x
-=======
 - [ ] Controllare compatibilità con Filament 4.x
 ### Fase 2: Test di Compatibilità
 - [ ] Testare pacchetto con Filament 4.x
->>>>>>> laraxot/dev
 - [ ] Verificare funzionalità calendario (eventi, drag&drop, modal)
 - [ ] Testare performance e stabilità
 ### Fase 3: Riattivazione
@@ -231,11 +175,7 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
         return [];
     }
 ## 🔗 Collegamenti
-<<<<<<< HEAD
-- [Guida Ufficiale Filament 5.x](https://filamentphp.com/docs/4.x/upgrade-guide)
-=======
 - [Guida Ufficiale Filament 4.x](https://filamentphp.com/docs/4.x/upgrade-guide)
->>>>>>> laraxot/dev
 - [Pacchetto FullCalendar](https://github.com/saade/filament-fullcalendar)
 - [Documentazione Modulo UI](../README.md)
 ## 📋 Checklist Completata
@@ -245,11 +185,7 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 - [x] Cambiato ereditarietà a \Filament\Widgets\Widget
 - [x] Rimosso proprietà $view conflittuale
 - [x] Creato view placeholder per widget disabilitato
-<<<<<<< HEAD
-- [x] Aggiornamento Filament 5.x completato con successo
-=======
 - [x] Aggiornamento Filament 4.x completato con successo
->>>>>>> laraxot/dev
 ## 🎯 Impatto Funzionale
 ### Funzionalità Temporaneamente Non Disponibili
 - Calendario interattivo con eventi
@@ -258,9 +194,5 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 - Visualizzazione eventi per tipo
 ### Funzionalità Mantenute
 - Tutte le altre funzionalità del modulo UI
-<<<<<<< HEAD
-- Widget base di Filament 5.x
-=======
 - Widget base di Filament 4.x
->>>>>>> laraxot/dev
 - Sistema di autenticazione e autorizzazione

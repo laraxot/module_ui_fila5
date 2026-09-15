@@ -5,13 +5,8 @@ tags: [lang, service, provider]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "lang-service-provider gestione delle traduzioni con langserviceprovider"
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<repo progetto>/issues/124"]
-discussions: ["https://github.com/provtv/<repo progetto>/discussions/1"]
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> laraxot/dev
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
@@ -144,10 +139,7 @@ return [
 
 // Modules/Patient/Filament/Resources/DoctorResource.php
 public static function getFormSchema(): array
-<<<<<<< HEAD
-=======
 public function getFormSchema(): array
->>>>>>> laraxot/dev
 {
     return [
         Forms\Components\TextInput::make('first_name'),  // La label viene gestita automaticamente

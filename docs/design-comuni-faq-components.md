@@ -272,10 +272,7 @@ Componenti UI del modulo UI utilizzati per implementare la pagina FAQ del proget
 ```css
 /* ==========================================================================
    FAQ Components - Bootstrap Italia Exact Replica
-<<<<<<< HEAD
-=======
    ========================================================================== */
->>>>>>> laraxot/dev
 
 /* Breadcrumb */
 .cmp-breadcrumbs { @apply py-4; }
@@ -363,11 +360,7 @@ Render: HTML
 pub_theme:: → Themes/Sixteen/resources/views/
 ```
 
-<<<<<<< HEAD
-Configurato in `config/local/<nome progetto>/xra.php`:
-=======
 Configurato in `config/local/fixcity/xra.php`:
->>>>>>> laraxot/dev
 Configurato in `config/local/<nome progetto>/xra.php`:
 Configurato in `config/local/current/xra.php`:
 ```php
