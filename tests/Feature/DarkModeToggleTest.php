@@ -9,7 +9,11 @@ use PHPUnit\Framework\Assert;
 
 use function Safe\file_get_contents;
 
+<<<<<<< HEAD
 uses(\Modules\UI\Tests\TestCase::class);
+=======
+uses(TestCase::class);
+>>>>>>> laraxot/dev
 
 beforeEach(function (): void {
     /* @var \Modules\UI\Tests\TestCase $this */

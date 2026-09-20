@@ -7,7 +7,11 @@ namespace Modules\UI\Tests\Unit;
 use Modules\UI\Tests\TestCase;
 use Modules\Xot\Tests\ModuleDeepCoverage;
 
+<<<<<<< HEAD
 uses(\Modules\UI\Tests\TestCase::class);
+=======
+uses(TestCase::class);
+>>>>>>> laraxot/dev
 
 /** @return list{string, string} */
 function uiDeepContext(): array
