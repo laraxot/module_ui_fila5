@@ -17,7 +17,10 @@ use Modules\Xot\Filament\Tables\Columns\XotBaseTextColumn;
  */
 class IDColumn extends XotBaseTextColumn
 {
+<<<<<<< HEAD
     #[\Override]
+=======
+>>>>>>> laraxot/dev
     public static function make(?string $name = null): static
     {
         return parent::make($name ?? 'id')

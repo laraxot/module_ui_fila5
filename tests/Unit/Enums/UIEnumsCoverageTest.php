@@ -13,7 +13,11 @@ use Modules\UI\Enums\TableLayout;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
+<<<<<<< HEAD
 uses(\Modules\UI\Tests\TestCase::class);
+=======
+uses(TestCase::class);
+>>>>>>> laraxot/dev
 
 // --- CornerPositionEnum ---
 
