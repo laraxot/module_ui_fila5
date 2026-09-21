@@ -12,11 +12,7 @@ final class Page extends XotBaseBlock
     /**
      * @return array<int, \Filament\Schemas\Components\Component>
      */
-<<<<<<< HEAD
-    public function getFormSchema(): array
-=======
     public static function getFormSchema(): array
->>>>>>> laraxot/dev
     {
         return [
             RichEditor::make('content')

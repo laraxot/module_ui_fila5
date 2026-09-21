@@ -8,11 +8,7 @@ use Mockery;
 use Modules\UI\Tests\TestCase;
 use Modules\Xot\Tests\ModuleBusinessCoverage;
 
-<<<<<<< HEAD
-uses(\Modules\UI\Tests\TestCase::class);
-=======
 uses(TestCase::class);
->>>>>>> laraxot/dev
 
 afterEach(function (): void {
     Mockery::close();

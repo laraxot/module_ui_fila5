@@ -12,11 +12,8 @@ use Modules\Xot\Providers\Filament\XotBasePanelProvider;
 class AdminPanelProvider extends XotBasePanelProvider
 {
     protected string $module = 'UI';
-<<<<<<< HEAD
 
     #[\Override]
-=======
->>>>>>> laraxot/dev
     public function panel(Panel $panel): Panel
     {
         return parent::panel($panel);

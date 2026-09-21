@@ -213,8 +213,6 @@ rector.php
 phpmd.ruleset.xml
 phpmd.ruleset.xml.bak
 graphify-out
-<<<<<<< HEAD
-=======
 docs/_archive
 
 phpinsights.php
@@ -227,4 +225,3 @@ phpinsights.php
 /.vscode
 .cursor~*
 .windsurf~*
->>>>>>> laraxot/dev
