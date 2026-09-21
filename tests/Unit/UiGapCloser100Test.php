@@ -11,13 +11,13 @@ use Illuminate\View\View;
 use Modules\UI\Enums\TableLayoutEnum;
 use Modules\UI\Filament\Blocks\Image;
 use Modules\UI\Filament\Forms\Components\YearSelect;
+use Modules\UI\Filament\Widgets\DarkModeSwitcherWidget;
 use Modules\UI\Filament\Widgets\HeroWidget;
 use Modules\UI\Filament\Widgets\RedirectWidget;
 use Modules\UI\Filament\Widgets\RowWidget;
 use Modules\UI\Filament\Widgets\StatWithIconWidget;
 use Modules\UI\Filament\Widgets\UserCalendarWidget;
 use Modules\UI\Forms\Components\RadioCardSelector;
-use Modules\Ui\Http\Livewire\DarkModeSwitcher;
 use Modules\UI\Http\Livewire\Toast;
 use Modules\UI\Http\Middleware\SetLocale;
 use Modules\UI\Rules\OpeningHoursRule;
@@ -32,8 +32,8 @@ use ReflectionClass;
 uses(TestCase::class);
 
 describe('UI gap closer 100 — Livewire', function (): void {
-    test('DarkModeSwitcher mount toggle and render', function (): void {
-        $component = new DarkModeSwitcher;
+    test('DarkModeSwitcherWidget mount toggle and render', function (): void {
+        $component = new DarkModeSwitcherWidget;
         $component->mount();
         Assert::assertFalse($component->darkMode);
         $component->toggleDarkMode();
