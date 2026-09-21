@@ -66,7 +66,7 @@ final class EnumSelect extends XotBaseSelect
     {
         $enumClass = $this->evaluate($this->enumClass);
 
-        return is_string($enumClass) && '' !== $enumClass ? $enumClass : null;
+        return is_string($enumClass) && $enumClass !== '' ? $enumClass : null;
     }
 
     public function hasIcons(): bool
@@ -90,7 +90,7 @@ final class EnumSelect extends XotBaseSelect
     {
         $enumClass = $this->getEnumClass();
 
-        if (null === $enumClass || null === $value || '' === $value) {
+        if ($enumClass === null || $value === null || $value === '') {
             return null;
         }
 
@@ -112,7 +112,7 @@ final class EnumSelect extends XotBaseSelect
     {
         $enumClass = $this->evaluate($this->enumClass);
 
-        if (! is_string($enumClass) || '' === $enumClass) {
+        if (! is_string($enumClass) || $enumClass === '') {
             return [];
         }
 
@@ -148,14 +148,14 @@ final class EnumSelect extends XotBaseSelect
         if ($case instanceof HasLabel) {
             $label = $case->getLabel();
 
-            if (is_string($label) && '' !== $label) {
+            if (is_string($label) && $label !== '') {
                 return $label;
             }
         }
 
         if (method_exists($case, 'label')) {
             $label = $case->label();
-            if (is_string($label) && '' !== $label) {
+            if (is_string($label) && $label !== '') {
                 return $label;
             }
         }
@@ -172,13 +172,13 @@ final class EnumSelect extends XotBaseSelect
         if ($case instanceof HasIcon) {
             $icon = $case->getIcon();
 
-            return is_string($icon) && '' !== $icon ? $icon : null;
+            return is_string($icon) && $icon !== '' ? $icon : null;
         }
 
         if (method_exists($case, 'icon')) {
             $icon = $case->icon();
 
-            return is_string($icon) && '' !== $icon ? $icon : null;
+            return is_string($icon) && $icon !== '' ? $icon : null;
         }
 
         return null;

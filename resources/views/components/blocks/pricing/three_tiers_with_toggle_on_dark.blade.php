@@ -1,7 +1,6 @@
 <?php
 
 declare(strict_types=1);
-
 ?>
 {{-- Requires js --}}
 <div class="bg-gray-900 py-24 sm:py-32">

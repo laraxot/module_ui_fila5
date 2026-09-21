@@ -1,7 +1,6 @@
 <?php
 
 declare(strict_types=1);
-
 return [
     'previous_month' => 'Mese precedente',
     'next_month' => 'Mese successivo',

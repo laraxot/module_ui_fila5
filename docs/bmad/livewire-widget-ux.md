@@ -8,4 +8,4 @@ related:
 
 # UX
 
-Nessun cambio visivo: il wrapper Blade tema resta. L’utente non deve vedere due toggle.
+Nessun cambio visivo: il wrapper Blade tema resta. L’utente non deve vedere due toggle. `InteractiveMap` non è presente in nessuna interfaccia viva (zero montaggi): nessun impatto UX.

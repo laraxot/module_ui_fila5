@@ -9,4 +9,4 @@ related:
 
 # Context UI
 
-UI è design system. Il chrome (dark mode) nel panel/tema passa dal **widget**, non da un secondo Livewire HTTP. Toast HTTP non è il canale notifiche Filament.
+UI è design system. Il chrome (dark mode) nel panel/tema passa dal **widget**, non da un secondo Livewire HTTP. Toast HTTP non è il canale notifiche Filament ma è infrastruttura di layout FO (resta). `InteractiveMap` è un componente di contenuto sperimentale fuori `Http/Livewire`: non registrato, non montato, dipendenze Geo assenti — fuori dalla campagna widget.

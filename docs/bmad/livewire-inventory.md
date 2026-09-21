@@ -22,11 +22,14 @@ Questo file è la SSoT per il modulo UI sul tema "conversione Livewire → widge
 
 ## Metodo
 
-Dopo il ritiro 12.1, `app/Http/Livewire` contiene solo `Toast.php`:
+Dopo il ritiro 12.1, `app/Http/Livewire` contiene solo `Toast.php`; esiste però anche una classe Livewire **fuori** dal percorso `Http/`, sotto `app/Livewire/Components/Map/`:
 
 ```bash
 find laravel/Modules/UI/app/Http/Livewire -name '*.php'
 # Modules/UI/app/Http/Livewire/Toast.php
+find laravel/Modules/UI/app/Livewire -name '*.php'
+# Modules/UI/app/Livewire/Components/Map/InteractiveMap.php (+ .old)
+grep -rn "InteractiveMap\|interactive-map" --include="*.php" --include="*.blade.php" .
 ```
 
 Per ciascuna sono stati verificati, sul codice e non a memoria: il contenuto integrale della classe, il montaggio (alias `@livewire('...')`, tag `<livewire:.../>` o `Livewire::component()`), l'eventuale hook nel panel provider Filament del modulo, e l'esistenza di un gemello sotto `app/Filament/Widgets`.
@@ -48,6 +51,8 @@ Componente minimo: nessuna property, nessun metodo di business, `render()` (righ
 
 Il montaggio reale non è un hook di panel, ma un tag Blade diretto: `Modules/UI/resources/views/components/layouts/main.blade.php:28` contiene `<livewire:toast />`, dentro il `<body>` del layout HTML di base del modulo. Questo layout è la radice di tutta la catena dei layout front‑office di UI: `Modules/UI/resources/views/components/layouts/guest.blade.php:6`, `marketing.blade.php:6`, `auth-split.blade.php:6` e `app.blade.php:6` avvolgono tutti `<x-layouts.main>`, che Laravel risolve proprio su `Modules/UI/resources/views/components/layouts/main.blade.php`. La stessa risoluzione è condivisa fuori modulo: le pagine Folio di `Themes/Zero/resources/views/pages/home.blade.php:1` e `auth/login.blade.php:1`, e le pagine auth del modulo User (`Modules/User/resources/views/pages/auth/verify.blade.php:35`, `password/reset.blade.php:38`, `password/[token].blade.php:55`, `password/confirm.blade.php:29`) aprono tutte con `<x-layouts.main>`.
 
+Secondo punto di montaggio verificato: `Modules/User/resources/views/components/layouts/main.blade.php:49` ha anch'esso `<livewire:toast />` (accanto a `@livewire('notifications')`, riga 50) — l'alias `toast` risolve su `Modules\UI\Http\Livewire\Toast`, unica classe con quel nome registrata in tutto il repo (`Modules/UI/app/Http/Livewire/_components.json`).
+
 In altre parole: `Toast` non è affatto orfano. È il contenitore delle notifiche toast lato front‑office, montato una volta sola nel layout HTML radice e quindi presente, per costruzione, su ogni pagina pubblica che usa i layout del modulo UI. Non è un caso isolato dimenticato: è infrastruttura di layout.
 
 Il meccanismo che rende disponibile il tag `<livewire:toast />` senza una registrazione manuale per-modulo è `Modules/Xot/app/Actions/Livewire/RegisterLivewireComponentsAction.php:20` (`Livewire::component($comp->name, $comp->ns)`), che scopre e registra automaticamente ogni classe sotto `Http/Livewire` di ciascun modulo. La cache `_components.json` dopo 12.1 contiene solo `toast`.
@@ -62,6 +67,21 @@ Classe e vista rimosse: `app/Http/Livewire/DarkModeSwitcher.php` e `resources/vi
 - `Modules/UI/app/View/Components/DarkModeSwitcher.php` (letta per intero) è un componente Blade che avvolge esplicitamente il widget: il docblock alla riga 14 lo dichiara ("Wrappa il DarkModeSwitcherWidget per l'uso nei temi tramite sintassi Blade"), il costruttore istanzia `new DarkModeSwitcherWidget()` (righe 28-29, con una duplicazione dell'istanziazione che è probabilmente un refuso ma non tocca la classificazione), e `render()` (righe 35-46) verifica `DarkModeSwitcherWidget::canView()` (riga 38) prima di restituire la vista condivisa `ui::filament.widgets.dark-mode-switcher` (riga 45).
 
 **Nessuno dei due gemelli è oggi effettivamente montato**: nessun `<livewire:dark-mode` nel repo, `DarkModeSwitcherWidget::class` non compare in nessun `getWidgets()`/`getHeaderWidgets()`, nessun `<x-dark-mode-switcher` nei template. Il test `UiGapCloser100Test` ora istanzia `DarkModeSwitcherWidget` (`mount`/`toggleDarkMode`/`render`); `Toast` resta invariato. Collegare il widget a un punto di montaggio reale resta fuori da 12.1.
+
+### `Livewire\Components\Map\InteractiveMap` (`Modules/UI/app/Livewire/Components/Map/InteractiveMap.php`, 380 righe, letta per intero)
+
+Terza classe Livewire del modulo, ma **fuori da `Http/Livewire`**: namespace `Modules\UI\Livewire\Components\Map` (riga 5), `final class` (riga 20). È un componente di contenuto completo — mappa interattiva con marker, filtri, ricerca indirizzi, export csv/geojson/kml — non chrome.
+
+Verifica di registrazione e montaggio, tutti i canali a zero:
+
+- **Non auto-registrata**: `RegisterLivewireComponentsAction` scansiona solo `$module_dir/../Http/Livewire` (`Modules/Xot/app/Providers/XotBaseServiceProvider.php:143-144` → `RegisterLivewireComponentsAction.php:17`). `app/Livewire/` non è coperto e non ha un proprio `_components.json`.
+- **Nessuna registrazione manuale**: zero `Livewire::component(...)` attivi in tutto il repo fuori dall'action di discovery.
+- **Zero chiamanti**: `grep -rn "InteractiveMap\|interactive-map" --include="*.php" --include="*.blade.php" .` trova solo la classe stessa, la sua vista e l'artefatto IDE `.phpstorm.meta.php`. Nessun `<livewire:...>`, `@livewire(...)`, rotta o pagina Folio la raggiunge.
+- **Vista esistente**: `Modules/UI/resources/views/livewire/components/map/interactive-map.blade.php` (454 righe) — a differenza di Media `Clip`, qui la vista c'è; manca il montaggio, non la vista.
+- **Dipendenze assenti**: importa `Modules\Geo\Services\GeocodingService` e `MapService` (righe 9-10, usati a righe 140, 169, 201, 249), ma `Modules/Geo/app` non ha alcuna directory `Services` — ogni `app(MapService::class)` è marcato `@phpstan-ignore-next-line class.notFound`. Se montata, `loadMarkers()` (righe 134-152) cadrebbe nel `catch` a runtime. La violazione di confine Geo è già documentata in `../stories/7.15-interactivemap-geo-boundary-violation.story.md`.
+- **Artefatto `.old`**: `InteractiveMap.php.old` (382 righe, diverso dal `.php`) convive nella stessa cartella — ulteriore segno di codice sperimentale non consolidato.
+
+È quindi un componente **non registrato e non montato**: orfano puro, stesso caso di Media `Clip` — con la complicazione ulteriore delle dipendenze mancanti.
 
 ## Classificazione
 
@@ -81,7 +101,8 @@ La storia collegata è `12.1.retire-ui-http-livewire.story.md` (implementata): H
 
 | Classe | Perché è esclusa | Evidenza |
 |---|---|---|
-| `Http\Livewire\Toast` (`Modules/UI/app/Http/Livewire/Toast.php`) | Non è chrome di un panel Filament: è montata con `<livewire:toast />` dentro il layout HTML di base del front‑office (`Modules/UI/resources/views/components/layouts/main.blade.php:28`), ereditato da tutti i layout e da pagine Folio/altri moduli. Nessun panel provider la registra come hook, nessun widget la sostituisce | `main.blade.php:28`; catena `guest.blade.php:6`, `marketing.blade.php:6`, `auth-split.blade.php:6`, `app.blade.php:6`; `Themes/Zero/.../home.blade.php:1`, `.../auth/login.blade.php:1`; `Modules/User/resources/views/pages/auth/*.blade.php` |
+| `Http\Livewire\Toast` (`Modules/UI/app/Http/Livewire/Toast.php`) | Non è chrome di un panel Filament: è montata con `<livewire:toast />` dentro il layout HTML di base del front‑office (`Modules/UI/resources/views/components/layouts/main.blade.php:28`), ereditato da tutti i layout e da pagine Folio/altri moduli, e nel layout `main` del modulo User (`Modules/User/resources/views/components/layouts/main.blade.php:49`). Nessun panel provider la registra come hook, nessun widget la sostituisce | `main.blade.php:28`; catena `guest.blade.php:6`, `marketing.blade.php:6`, `auth-split.blade.php:6`, `app.blade.php:6`; `Themes/Zero/.../home.blade.php:1`, `.../auth/login.blade.php:1`; `Modules/User/resources/views/pages/auth/*.blade.php`; `Modules/User/.../layouts/main.blade.php:49` |
+| `Livewire\Components\Map\InteractiveMap` (`Modules/UI/app/Livewire/Components/Map/InteractiveMap.php`) | Componente di contenuto (mappa full-feature con filtri/export/geocoding), non chrome di panel — e in più **non registrato** (fuori da `Http/Livewire`, nessun `Livewire::component`) e **non montato** (zero hit repo-wide). Dipendenze `Modules\Geo\Services\*` assenti: cadrebbe a runtime. Orfano puro, stesso caso di Media `Clip` | `XotBaseServiceProvider.php:143-144`; `RegisterLivewireComponentsAction.php:17`; grep `InteractiveMap` → solo self+vista+meta; `Modules/Geo/app` senza `Services/`; story 7.15 |
 
 Ritirare `Toast` in questa campagna sarebbe un errore: toglierebbe il contenitore delle notifiche a tutte le pagine pubbliche che passano dai layout di UI. Non è nemmeno un candidato a `XotBaseWidget`, perché i widget Filament vivono dentro un panel, mentre questo componente serve il front‑office indipendentemente da Filament. Nessuna azione richiesta oltre a questa nota.
 
@@ -102,6 +123,7 @@ Prima di scrivere, questo file (nella sua versione precedente) e diversi satelli
 
 ## Riepilogo
 
-- 1 classe Livewire HTTP rimasta: `Toast` (Cluster C, chrome front-office, non ritirare).
+- 1 classe Livewire HTTP rimasta: `Toast` (Cluster C, chrome front-office, non ritirare — montata in `UI main.blade.php:28` e `User main.blade.php:49`).
+- 1 classe Livewire fuori da `Http/` non registrata né montata: `InteractiveMap` (Cluster C / orfano puro; dipendenze `Geo\Services\*` assenti; esclusa, eventuale rimozione in story di pulizia separata).
 - Cluster A: 0. Cluster B: `DarkModeSwitcher` HTTP **ritirato** (12.1); gemello `DarkModeSwitcherWidget` invariato.
 - `UI/resources/views/filament/widgets/{group,row,test-widget}` montano già FQCN via `$widget['class']`: corretti, non toccare.

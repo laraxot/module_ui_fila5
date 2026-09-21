@@ -1,7 +1,6 @@
 <?php
 
 declare(strict_types=1);
-
 ?>
 <section class="bg-white px-6 py-24 sm:py-32 lg:px-8">
     <figure class="mx-auto max-w-2xl">
