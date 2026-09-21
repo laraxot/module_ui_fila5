@@ -4,15 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\UI\Actions;
 
-use Illuminate\Contracts\Auth\Authenticatable;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
 use Modules\UI\Datas\UserData;
 use Modules\User\Models\Profile;
-use Modules\User\Models\User;
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
-use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Contracts\UserContract;
 use Spatie\Permission\Contracts\Permission;
 use Spatie\QueueableAction\QueueableAction;
@@ -25,20 +21,22 @@ class GetUserDataAction
     {
         $user = Auth::user();
 
-        if (! $user instanceof User) {
+        if (! $user instanceof UserContract) {
             return null;
         }
 
-        $avatarValue = null;
+        $avatar = null;
         $profile = $user->relationLoaded('profile') ? $user->profile : null;
         if ($profile instanceof Profile) {
             $avatarUrl = $profile->getAvatarUrl();
-            $avatarValue = $avatarUrl !== '' ? $avatarUrl : null;
+            $avatar = $avatarUrl !== '' ? $avatarUrl : null;
         }
 
-        $profilePhotoPath = property_exists($user, 'profile_photo_path') ? $user->profile_photo_path : null;
-        if (null === $avatarValue && is_string($profilePhotoPath) && $profilePhotoPath !== '') {
-            $avatarValue = $profilePhotoPath;
+        if ($avatar === null) {
+            $profilePhotoPath = $user->getAttribute('profile_photo_path');
+            if (is_string($profilePhotoPath) && $profilePhotoPath !== '') {
+                $avatar = $profilePhotoPath;
+            }
         }
 
         /** @var Collection<int, string> $roleNames */
@@ -69,7 +67,7 @@ class GetUserDataAction
             id: SafeIntCastAction::cast($user->id),
             name: is_string($userName) ? $userName : '',
             email: is_string($userEmail) ? $userEmail : '',
-            avatar: $avatarValue,
+            avatar: is_string($avatar) ? $avatar : null,
             role: $roleValue,
             permissions: $permissions,
             settings: $settingsArray,

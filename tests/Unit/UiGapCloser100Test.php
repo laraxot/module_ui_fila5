@@ -32,13 +32,18 @@ use ReflectionClass;
 uses(TestCase::class);
 
 describe('UI gap closer 100 — Livewire', function (): void {
-    test('DarkModeSwitcherWidget mount toggle and render', function (): void {
-        $component = new DarkModeSwitcherWidget;
-        $component->mount();
-        Assert::assertFalse($component->darkMode);
-        $component->toggleDarkMode();
-        Assert::assertTrue($component->darkMode);
-        Assert::assertInstanceOf(ViewContract::class, $component->render());
+    test('DarkModeSwitcher HTTP ritirato: classe e vista assenti', function (): void {
+        Assert::assertFalse(class_exists('Modules\\Ui\\Http\\Livewire\\DarkModeSwitcher', false));
+        Assert::assertFileDoesNotExist(base_path('Modules/UI/app/Http/Livewire/DarkModeSwitcher.php'));
+    });
+
+    test('DarkModeSwitcherWidget mount toggle and render (gemello Filament)', function (): void {
+        $widget = new DarkModeSwitcherWidget;
+        $widget->mount();
+        Assert::assertFalse($widget->darkMode);
+        $widget->toggleDarkMode();
+        Assert::assertTrue($widget->darkMode);
+        Assert::assertInstanceOf(ViewContract::class, $widget->render());
     });
 
     test('Toast render exposes view params', function (): void {

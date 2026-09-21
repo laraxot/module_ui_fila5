@@ -3,6 +3,7 @@ title: "Architecture — UI widget"
 type: architecture
 module: UI
 related:
+  - ./livewire-inventory.md
   - ./livewire-widget-prd.md
 ---
 
@@ -11,7 +12,8 @@ related:
 ```
 Tema Blade DarkModeSwitcher → DarkModeSwitcherWidget
 Http/Livewire/DarkModeSwitcher → delete
-Toast HTTP → resta: montato in components/layouts/main.blade.php:28, non è orfano
+Toast HTTP → resta: montato in components/layouts/main.blade.php:28 (+ User main.blade.php:49), non è orfano
+Livewire/Components/Map/InteractiveMap → orfano: fuori Http/Livewire (non auto-registrato), zero montaggi, deps Geo\Services assenti
 filament/widgets/group|row → già FQCN
 ```
 
