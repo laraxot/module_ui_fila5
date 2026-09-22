@@ -212,7 +212,7 @@ phpmd*
 rector.php
 phpmd.ruleset.xml
 phpmd.ruleset.xml.bak
-graphify-out
+graphify-out/
 docs/_archive
 
 phpinsights.php
