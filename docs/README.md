@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
 # Documentation
 
 This directory contains documentation for the module.
@@ -14,6 +31,17 @@ Documentation should be:
 - Example-driven
 - Updated with code changes
 - Use Markdown format (.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ---
 title: "UI Module Documentation"
 type: documentation
@@ -22,6 +50,9 @@ created: 2026-06-05
 updated: 2026-06-05
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 # Modulo UI - Componenti Condivisi
 
 ## Overview
@@ -29,6 +60,11 @@ updated: 2026-06-05
 Il modulo **UI** fornisce componenti Blade, widget Filament e asset condivisi per tutti i moduli e temi.
 
 ## Struttura Componenti
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 This directory contains documentation for the module.
 
 ## Structure
@@ -37,6 +73,13 @@ This directory contains documentation for the module.
 - **README.md** - This file
 
 ## Guidelines
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ```
 resources/views/components/ui/
@@ -142,6 +185,7 @@ MIT
 - [QMD Setup](./qmd-setup.md) — Configurazione ricerca locale
 - [Performance](./performance-optimization.md) — Metriche e best practice
 - [Project Structure](./project-structure.md) — Directory layout
+<<<<<<< HEAD
 
     public function getTableContentGrid(): array
     {
@@ -574,13 +618,13 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 
 # 🎨 **UI Module** - Sistema Avanzato Componenti Interfaccia
 
-[![Laravel 13.x](https://img.shields.io/badge/Laravel-13.x-red.svg)](https://laravel.com/)
+[![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 [![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
 [![PHPStan level 10](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 # 🎨 **UI Module** - Sistema Avanzato Componenti Interfaccia
 
-[![Laravel 13.x](https://img.shields.io/badge/Laravel-13.x-red.svg)](https://laravel.com/)
-[![Filament 5.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
+[![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
+[![Filament 4.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
@@ -1102,3 +1146,95 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 *Ultimo aggiornamento: gennaio 2025* 
 *Ultimo aggiornamento: gennaio 2025* 
 *Ultimo aggiornamento: gennaio 2025* 
+>>>>>>> laraxot/dev
+---
+title: "UI — Il Design System Sacro"
+description: "Sistema di componenti UI riutilizzabili e design system per interfacce utente coerenti"
+module: "UI"
+alias: "ui"
+version: "1.0.0"
+priority: 0
+active: true
+status: "core-foundation"
+author: "Team Laraxot"
+license: "Proprietary"
+php_version: "^8.1"
+core_version: "10.0"
+dependencies: ["Xot"]
+extends: []
+extended_by: 40
+documentation_date: "2026-05-27"
+---
+
+# UI — Il Design System Sacro
+
+## Scopo
+
+UI è il sistema di componenti riutilizzabili e design system per interfacce utente coerenti. Fornisce i building block visivi che tutti i moduli condividono: componenti Tailwind, layout, temi, pattern di design per Filament v5. Garantisce che ogni modulo dell'ecosistema abbia la stessa esperienza visiva senza dover reinventare il wheel.
+
+## Religione
+
+- **"Il sistema di componenti è sacro"**: ogni modulo UI che estende Xot deve usare i componenti del sistema
+- **"Tailwind è l'unico linguaggio visivo"**: nessun CSS custom outside Tailwind, nessun framework CSS alternativo
+- **"Filament v5 è il patto admin"**: tutti i componenti admin devono essere costruiti sopra i pattern Filament
+- **"XotBase come fondamento"**: `XotBaseResource`, `XotBasePage`, `XotBaseWidget` sono i punti di ingresso obbligatori
+- **"Design tokens da config"**: `MetatagData` (title, logo, colors) è la fonte unica di verità per il branding
+
+## Filosofia
+
+UI crede che **la coerenza visiva sia un diritto dell'utente, non un optional**. Ogni componente condiviso è un patto: l'utente che naviga tra moduli diversi non dovrebbe mai percepire un cambio di paradigm visivo. Il sistema è progettato per l'**estensione controllata**: i moduli possono specializzare i componenti ma non possono rompere il contratto visivo.
+
+## Politica
+
+- **Design system vs custom components**: ogni modulo che crea un componente deve chiedersi "questo è riutilizzabile in altri moduli?" Se sì, va in UI.
+- **Tailwind config condivisa**: `tailwind.config.js` è la configurazione di sistema
+- **Filament v5 come standard**: l'admin panel non è un design pattern, è il framework di riferimento
+- **Responsive by default**: ogni componente deve essere responsive senza configurazione aggiuntiva
+- **Accessibility come politica**: WCAG 2.1 AA è il livello minimo accettabile
+
+## Zen
+
+> **"Semplicità vince sulla complessità. Il codice chiaro è più potente di mille righe di commenti."**
+
+Lo Zen di UI è la **chiarezza visiva**. Ogni componente deve comunicare il suo scopo senza ambiguità. Se un utente deve chiedersi "cos'è questo?", il componente ha fallito.
+
+## Perché esiste
+
+L'ecosistema ha 40+ moduli che condividono l'interfaccia admin. Senza un design system, ogni modulo avrebbe creato i propri componenti, portando a frammentazione visiva e incoerenza. UI esiste per **centralizzare la decisione visiva** e rendere ogni modulo coerente con il resto.
+
+## Cosa Mancherebbe (Gap Analysis)
+
+| Gap | Severità | Suggerimento |
+|-----|----------|--------------|
+| Nessun sistema di componenti React/Vue separato | Alta | Creare `UI/Components` come package JS separato con storybook |
+| Manca tema dark/light mode nativo | Alta | Aggiungere `ThemeSwitch` component e configurazione `MetatagData` |
+| Nessun component library per pubblico (frontend) | Alta | Creare `UI/PublicComponents` con componenti Folio/Volt esportabili |
+| Manca design tokens per tipografia e spacing | Media | Definire `DesignTokens` con scala tipografica e spacing system |
+| Nessun sistema di componenti iconografici | Media | Aggiungere `IconRegistry` con SVG sprites |
+| Manca documentazione visuale dei componenti | Media | Creare `UI/ComponentCatalogue` con esempi interattivi |
+| Nessun sistema di responsive preview | Bassa | Aggiungere tool per preview dispositivi |
+| Manca componenti per dashboard avanzate | Bassa | Chart widgets avanzati (grafici, mappe, heatmap) |
+| Nessun sistema di a11y testing automatizzato | Bassa | Aggiungere `pa11y` o `axe-core` nella pipeline CI |
+
+---
+
+<<<<<<< HEAD
+*Documento generato secondo le convenzioni del progetto — modulo `UI` — data 2026-05-27*
+=======
+*Documento generato secondo le convenzioni del progetto — modulo `UI` — data 2026-05-27*
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

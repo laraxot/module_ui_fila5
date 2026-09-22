@@ -52,7 +52,8 @@ class Block extends Component
 
             return view('ui::alert', $viewParams);
         }
-        $viewParams = $this->normalizeViewData($this->block['data'] ?? []);
+        $rawData = $this->block['data'] ?? [];
+        $viewParams = \is_array($rawData) ? $this->normalizeViewData($rawData) : [];
         $viewParams = app(ResolveLocalizedBlockDataAction::class)->execute($viewParams);
         $viewParams = $this->normalizeViewData($viewParams);
         Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
@@ -62,14 +63,11 @@ class Block extends Component
     }
 
     /**
+     * @param  array<array-key, mixed>  $data
      * @return array<string, mixed>
      */
-    private function normalizeViewData(mixed $data): array
+    private function normalizeViewData(array $data): array
     {
-        if (! is_array($data)) {
-            return [];
-        }
-
         $viewData = [];
 
         foreach ($data as $key => $value) {
