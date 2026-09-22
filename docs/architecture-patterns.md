@@ -437,6 +437,10 @@ IconService
 - **Framework Base**: [Xot Architecture Patterns](../../Xot/docs/architecture-patterns.md)
 - **Disabled Components**: [disabled-components.md](./disabled-components.md)
 <<<<<<< HEAD
+- **Architecture Overview**: [architecture.md](./architecture.md)
+- **Index**: [index.md](./index.md)
+=======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -465,6 +469,7 @@ IconService
 - **Architecture Overview**: [architecture.md](./architecture.md)
 - **Index**: [index.md](./index.md)
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - **Design System**: [DESIGN_COMUNI_IMPLEMENTATION.md](./DESIGN_COMUNI_IMPLEMENTATION.md)

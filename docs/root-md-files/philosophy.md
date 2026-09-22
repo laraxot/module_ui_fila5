@@ -115,8 +115,8 @@ If you think a rule is wrong:
 ## See Also
 
 <<<<<<< HEAD
-- `architecture.md` — component organization and Filament patterns
-- `root-md-files/testing.md` — component testing strategies
+- `../architecture.md` — component organization and Filament patterns
+- `testing.md` — component testing strategies
 =======
 - `ARCHITECTURE.md` — component organization and Filament patterns
 - `TESTING.md` — component testing strategies
