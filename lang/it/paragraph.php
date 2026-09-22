@@ -7,14 +7,14 @@ return [
         'title' => [
             'label' => 'Titolo',
             'description' => 'title',
-            'helper_text' => '',
+            'helper_text' => 'title',
             'placeholder' => 'title',
             'tooltip' => '',
         ],
         'text' => [
             'label' => 'Testo',
             'description' => 'text',
-            'helper_text' => '',
+            'helper_text' => 'text',
             'placeholder' => 'text',
             'tooltip' => '',
         ],
@@ -27,7 +27,7 @@ return [
         'view' => [
             'label' => 'view',
             'description' => 'view',
-            'helper_text' => '',
+            'helper_text' => 'view',
             'placeholder' => 'view',
             'tooltip' => '',
         ],

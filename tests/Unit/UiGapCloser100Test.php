@@ -11,13 +11,13 @@ use Illuminate\View\View;
 use Modules\UI\Enums\TableLayoutEnum;
 use Modules\UI\Filament\Blocks\Image;
 use Modules\UI\Filament\Forms\Components\YearSelect;
+use Modules\UI\Filament\Widgets\DarkModeSwitcherWidget;
 use Modules\UI\Filament\Widgets\HeroWidget;
 use Modules\UI\Filament\Widgets\RedirectWidget;
 use Modules\UI\Filament\Widgets\RowWidget;
 use Modules\UI\Filament\Widgets\StatWithIconWidget;
 use Modules\UI\Filament\Widgets\UserCalendarWidget;
 use Modules\UI\Forms\Components\RadioCardSelector;
-use Modules\Ui\Http\Livewire\DarkModeSwitcher;
 use Modules\UI\Http\Livewire\Toast;
 use Modules\UI\Http\Middleware\SetLocale;
 use Modules\UI\Rules\OpeningHoursRule;
@@ -32,13 +32,18 @@ use ReflectionClass;
 uses(TestCase::class);
 
 describe('UI gap closer 100 — Livewire', function (): void {
-    test('DarkModeSwitcher mount toggle and render', function (): void {
-        $component = new DarkModeSwitcher;
-        $component->mount();
-        Assert::assertFalse($component->darkMode);
-        $component->toggleDarkMode();
-        Assert::assertTrue($component->darkMode);
-        Assert::assertInstanceOf(ViewContract::class, $component->render());
+    test('DarkModeSwitcher HTTP ritirato: classe e vista assenti', function (): void {
+        Assert::assertFalse(class_exists('Modules\\Ui\\Http\\Livewire\\DarkModeSwitcher', false));
+        Assert::assertFileDoesNotExist(base_path('Modules/UI/app/Http/Livewire/DarkModeSwitcher.php'));
+    });
+
+    test('DarkModeSwitcherWidget mount toggle and render (gemello Filament)', function (): void {
+        $widget = new DarkModeSwitcherWidget;
+        $widget->mount();
+        Assert::assertFalse($widget->darkMode);
+        $widget->toggleDarkMode();
+        Assert::assertTrue($widget->darkMode);
+        Assert::assertInstanceOf(ViewContract::class, $widget->render());
     });
 
     test('Toast render exposes view params', function (): void {
@@ -148,7 +153,6 @@ describe('UI gap closer 100 — Filament widgets and forms', function (): void {
     test('Image block ratio helpers', function (): void {
         Assert::assertSame('aspect-[3/4]', Image::getRatioClass('3-4'));
         Assert::assertSame('', Image::getRatioClass('unknown'));
-        # @phpstan-ignore-next-line
         Assert::assertNotEmpty(Image::getFormSchema());
         Assert::assertArrayHasKey('4-3', Image::getRatios());
     });
