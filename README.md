@@ -1,4 +1,27 @@
 <<<<<<< HEAD
+---
+id: module-ui-readme
+title: "UI — Componenti Visuali Condivisi"
+type: module-readme
+category: module-documentation
+module: UI
+status: active
+tags: [ui, blade, livewire, filament, accessibility]
+created: 2026-09-14
+updated: 2026-09-22
+qmd: "ui blade livewire filament components accessibility module documentation"
+issues:
+  - "https://github.com/laraxot/module_ui_fila5/issues/33"
+discussions:
+  - "https://github.com/laraxot/module_ui_fila5/discussions/34"
+related:
+  - "./docs/"
+sources: []
+---
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 # 🎨 UI
 
 [![Stars](https://img.shields.io/github/stars/laraxot/module_ui_fila5?style=plastic&color=yellow)]()
@@ -11,9 +34,18 @@
 [![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)
 [![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)
 [![Architecture](https://img.shields.io/badge/Architecture-Modular-purple?style=plastic)]()
+<<<<<<< HEAD
+[![PHPStan Level 10](https://img.shields.io/badge/PHPStan-Level%2010-brightgreen.svg)](https://phpstan.org/)
+[![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue.svg)](https://www.php-fig.org/psr/psr-12/)
+[![Strict Types](https://img.shields.io/badge/PHP-strict__types-1-informational.svg)](#)
+
+> **Componenti UI riutilizzabili e design system**
+> Componenti UI, layout, temi e pattern di design per Filament v5, senza logica di dominio.
+=======
 
 > **Componenti UI riutilizzabili e design system**  
 > Componenti UI, layout, temi e pattern di design per Filament v5.
+>>>>>>> laraxot/dev
 
 ## 🎯 La Visione
 
@@ -25,6 +57,20 @@ Crediamo che il software debba essere **chiaro, modulare e potente**. Ogni modul
 
 In un mondo dove la complessità è l'avere, abbiamo scritto codice semplice. Questo modulo non è solo una libreria: è una **promessa di qualità** mantenuta.
 
+<<<<<<< HEAD
+## Cosa offre
+
+- **Blade/Livewire** — componenti riusabili
+- **Filament XotBase** — base per admin
+- **Accessibilità** — a11y conforme
+- **Tailwind/DaisyUI** — design system
+
+## Confini architetturali
+
+Questo modulo pubblica contratti usabili da altri moduli. La logica vive nelle `Actions`; la UI admin segue Laraxot/XotBase. Nessuna logica di dominio: quella resta nei moduli che la possiedono (vedi [docs/purpose.md](./docs/purpose.md)).
+
+=======
+>>>>>>> laraxot/dev
 ## 🧘 I Principi Zen (e la nostra filosofia)
 
 1. **Semplicità vince sulla complessità** - Il codice chiaro è più potente di mille righe di commenti.
@@ -46,6 +92,10 @@ In un mondo dove la complessità è l'avere, abbiamo scritto codice semplice. Qu
 ```bash
 # Installazione modulo
 php artisan module:enable UI
+<<<<<<< HEAD
+php artisan module:list
+=======
+>>>>>>> laraxot/dev
 php artisan migrate
 
 # Sviluppo locale
@@ -55,7 +105,11 @@ composer dev
 ./vendor/bin/phpstan analyse Modules/UI --memory-limit=-1
 ```
 
+<<<<<<< HEAD
+Configuration is in `config/config.php`. Adjust as needed.
+=======
 Configuration is in `config/ui.php`. Adjust as needed.
+>>>>>>> laraxot/dev
 
 ## 🤝 Contributing
 
@@ -72,6 +126,25 @@ composer dev
 - [ ] Code style (Pint) applied
 - [ ] Documentation updated
 
+<<<<<<< HEAD
+See [docs/architecture.md](./docs/architecture.md) for design decisions.
+
+## 📖 Documentazione
+
+| Tipo | Link |
+|--------|------|
+| 🇮🇹 Presentazione | Questo file (`README.md`) |
+| 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
+| 📚 Wiki tecnica | [./docs/](./docs/) |
+| 🗺️ Mappa tecnica docs | [docs/README.md](./docs/README.md) |
+| 🎯 Esempi | [docs/examples/](./docs/examples/) |
+| 📋 Story BMAD | [docs/stories/](./docs/stories/) |
+| 🏗️ Architettura | [docs/architecture.md](./docs/architecture.md) |
+| 🧪 Testing | [docs/root-md-files/testing.md](./docs/root-md-files/testing.md) |
+| 📜 Changelog | [CHANGELOG.md](./CHANGELOG.md) |
+| 📐 Regole del progetto | [../../../docs/wiki/](../../../docs/wiki/) |
+| 🏠 README del progetto | [../../../README.md](../../../README.md) |
+=======
 See [ARCHITECTURE.md](./ARCHITECTURE.md) for design decisions.
 
 ## 📖 Documentazione
@@ -85,6 +158,7 @@ See [ARCHITECTURE.md](./ARCHITECTURE.md) for design decisions.
 | 🏗️ Architettura | [ARCHITECTURE.md](./ARCHITECTURE.md) |
 | 🧪 Testing | [TESTING.md](./TESTING.md) |
 | 📜 Changelog | [CHANGELOG.md](./CHANGELOG.md) |
+>>>>>>> laraxot/dev
 
 ## 🔧 Tecnologie chiave
 
@@ -92,6 +166,15 @@ See [ARCHITECTURE.md](./ARCHITECTURE.md) for design decisions.
 
 **Keywords:** UI, Components, Design System
 
+<<<<<<< HEAD
+## Qualità e manutenzione
+
+Mantenere `declare(strict_types=1);` in PHP, aderire alla configurazione PHPStan del progetto e aggiornare i docs quando i contratti evolvono.
+
+---
+
+**Modulo** `UI` · **Laraxot ecosystem** · **Project-agnostic** · PHPStan 10 · Filament 5
+=======
 ---
 
 **Modulo** `UI` · **Laraxot** · PHPStan 10 · Filament 5
@@ -209,5 +292,6 @@ Maintain `declare(strict_types=1);` in PHP, adhere to project PHPStan config, an
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
