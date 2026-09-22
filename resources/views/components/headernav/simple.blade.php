@@ -1,7 +1,6 @@
 <?php
 
 declare(strict_types=1);
-
 ?>
 <header class="w-full">
     <div class="relative z-20 flex items-center justify-between w-full h-12 px-6 mx-auto">
@@ -57,7 +56,7 @@ declare(strict_types=1);
 
         {{-- Right Menu --}}
         <div class="relative z-50 flex items-stretch space-x-3 text-neutral-800">
-            <livewire:lang.change></livewire:lang.change>
+            @livewire(\Modules\Lang\Filament\Widgets\LanguageSwitcherWidget::class)
             <div x-data class="flex-shrink-0 hidden w-[38px] overflow-hidden rounded-full h-[38px] sm:block" x-cloak>
                 <x-ui.light-dark-switch></x-ui.light-dark-switch>
             </div>

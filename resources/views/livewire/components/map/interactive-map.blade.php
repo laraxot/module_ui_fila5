@@ -1,3 +1,7 @@
+<?php
+
+declare(strict_types=1);
+?>
 <div class="interactive-map-container" wire:ignore.self>
     <!-- Controlli mappa -->
     @if($showControls)
