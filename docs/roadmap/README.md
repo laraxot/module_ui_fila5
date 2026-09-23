@@ -1,7 +1,5 @@
 # UI Module Roadmap
 
-<<<<<<< HEAD
-=======
 > "UI components and design system for the Laraxot ecosystem with reusable components and design tokens."
 
 ## 🎯 Vision
@@ -67,7 +65,6 @@ Provide a **comprehensive UI toolkit** that includes:
 
 ---
 
->>>>>>> laraxot/dev
 [![Module](https://img.shields.io/badge/Module-UI Module Roadmap-8B0000.svg)]()
 [![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
 [![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)

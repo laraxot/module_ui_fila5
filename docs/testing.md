@@ -177,10 +177,6 @@ protected function createApplication()
     $app['config']->set([
 <<<<<<< HEAD
         'database.connections.ui.database' => 'quaeris_data_test',
-        'database.connections.ui.database' => 'modulo questionari_data_test',
-=======
-<<<<<<< HEAD
-        'database.connections.ui.database' => 'quaeris_data_test',
 <<<<<<< HEAD
         'database.connections.ui.database' => 'modulo questionari_data_test',
 =======
@@ -201,7 +197,6 @@ protected function createApplication()
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     ]);
     
@@ -282,10 +277,7 @@ protected function createApplication()
 
 ### External Resources
 
-<<<<<<< HEAD
-=======
 - [Laravel 12.x Testing Documentation](https://laravel.com/docs/12.x/testing)
->>>>>>> laraxot/dev
 - [Laravel 13.x Testing Documentation](https://laravel.com/docs/12.x/testing)
 - [Pest Installation Guide](https://pestphp.com/docs/installation)
 - [PHPStan Documentation](https://phpstan.org/user-guide/getting-started)

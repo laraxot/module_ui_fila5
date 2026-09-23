@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # DRY & KISS Analysis - Modulo UI
 
 **Data:** 15 Ottobre 2025
@@ -36,7 +34,6 @@ Il modulo UI è l'esempio **perfetto** di come dovrebbe essere un BaseModel quan
 ---
 
 **Conclusione:** 🏆 **GOLD STANDARD** per BaseModel minimali!
->>>>>>> laraxot/dev
 # 🐄 DRY & KISS Analysis - UI
 
 **Data:** 2025-10-15 | **Status:** ✅

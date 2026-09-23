@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 title: 'Global search — risorse esterne'
 module: UI
@@ -20,7 +18,6 @@ updated: 2026-08-24
 ## Riferimenti
 
 - <https://github.com/spatie/laravel-searchable>
->>>>>>> laraxot/dev
 https://github.com/spatie/laravel-searchable
 
 
