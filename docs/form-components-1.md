@@ -120,15 +120,7 @@ public function form(Form $form): Form
                         $dates = [];
                         $date = now();
                         $count = 0;
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-                        
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
                         while ($count < 30) {
                             if (!$date->isWeekend()) {
                                 $dates[] = $date->format('Y-m-d');
@@ -136,15 +128,7 @@ public function form(Form $form): Form
                             }
                             $date->addDay();
                         }
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-                        
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
                         return $dates;
                     })
                     ->calendarConfig([
@@ -165,19 +149,10 @@ public function form(Form $form): Form
     name="email" 
     type="email" 
     label="Email" 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 <x-ui::input
     name="email"
     type="email"
     label="Email"
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
     placeholder="Inserisci la tua email"
     :required="true"
     :disabled="false"
@@ -190,18 +165,8 @@ public function form(Form $form): Form
 
 ### Select
 ```blade
-<<<<<<< HEAD
 <x-ui::select
     name="role"
-=======
-<<<<<<< HEAD
-<x-ui::select
-    name="role"
-=======
-<x-ui::select 
-    name="role" 
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
     label="Ruolo"
     :options="[
         'admin' => 'Amministratore',
@@ -218,18 +183,8 @@ public function form(Form $form): Form
 
 ### Checkbox
 ```blade
-<<<<<<< HEAD
 <x-ui::checkbox
     name="terms"
-=======
-<<<<<<< HEAD
-<x-ui::checkbox
-    name="terms"
-=======
-<x-ui::checkbox 
-    name="terms" 
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
     label="Accetto i termini e condizioni"
     :required="true"
     :checked="false"
@@ -240,18 +195,8 @@ public function form(Form $form): Form
 
 ### Radio
 ```blade
-<<<<<<< HEAD
 <x-ui::radio
     name="gender"
-=======
-<<<<<<< HEAD
-<x-ui::radio
-    name="gender"
-=======
-<x-ui::radio 
-    name="gender" 
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
     label="Genere"
     :options="[
         'male' => 'Maschio',
@@ -265,18 +210,8 @@ public function form(Form $form): Form
 
 ### Textarea
 ```blade
-<<<<<<< HEAD
 <x-ui::textarea
     name="message"
-=======
-<<<<<<< HEAD
-<x-ui::textarea
-    name="message"
-=======
-<x-ui::textarea 
-    name="message" 
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
     label="Messaggio"
     placeholder="Inserisci il tuo messaggio"
     :rows="4"
@@ -310,28 +245,12 @@ class UserForm extends Component
 {
     public $name;
     public $email;
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
     protected $rules = [
         'name' => 'required|min:3',
         'email' => 'required|email',
     ];
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
     public function save()
     {
         $this->validate();
@@ -376,16 +295,7 @@ form.addEventListener('submit', (e) => {
 * [form-components.md](../../../UI/docs/form-components.md)
 * [form-components.md](../../../UI/docs/roadmap/form-components.md)
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 - [Documentazione Frontend](../Cms/docs/frontend-architecture.md)
 ## Collegamenti tra versioni di form-components.md
 * [form-components.md](../../../UI/docs/form-components.md)
 * [form-components.md](../../../UI/docs/roadmap/form-components.md)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev

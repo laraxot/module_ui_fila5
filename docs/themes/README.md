@@ -1,7 +1,5 @@
 # Temi
 
-<<<<<<< HEAD
-=======
 Questa cartella contiene la documentazione relativa ai temi e allo styling.
 
 ## File Contenuti
@@ -91,7 +89,6 @@ Questa documentazione descrive come gestire e personalizzare i temi del progetto
 * [README.md](../../../cms/docs/components/readme.md)
 * [README.md](../../../../themes/two/docs/readme.md)
 * [README.md](../../../../themes/one/docs/readme.md)
->>>>>>> laraxot/dev
 [![Module](https://img.shields.io/badge/Module-Temi-8B0000.svg)]()
 [![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
 [![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)
