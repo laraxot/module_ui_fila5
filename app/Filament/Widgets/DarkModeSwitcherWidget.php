@@ -1,0 +1,76 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Modules\UI\Filament\Widgets;
+
+use Filament\Schemas\Components\Component;
+use Illuminate\Contracts\View\View;
+use Illuminate\Support\Facades\Cookie;
+use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
+
+final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
+{
+<<<<<<< HEAD
+    public ?array $data = [];
+=======
+<<<<<<< HEAD
+=======
+    public ?array $data = [];
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+
+    public bool $darkMode = false;
+
+    protected string $view = 'ui::filament.widgets.dark-mode-switcher';
+
+    public function mount(): void
+    {
+        $this->darkMode = filter_var(request()->cookie('dark_mode', 'false'), FILTER_VALIDATE_BOOLEAN);
+    }
+
+    public function toggleDarkMode(): void
+    {
+        $this->darkMode = ! $this->darkMode;
+
+        // Set cookie for persistence
+        Cookie::queue('dark_mode', $this->darkMode ? 'true' : 'false', 60 * 24 * 30);
+
+        // Dispatch event for frontend to handle theme switching
+        $this->dispatch('darkModeUpdated', ['darkMode' => $this->darkMode]);
+    }
+
+    /**
+     * Schema del form per la configurazione del widget.
+     *
+     * @return array<int, Component>
+     */
+    public function getFormSchema(): array
+    {
+        return [];
+    }
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+    /**
+     * Disabilitabile via config per temi/test (default: visibile).
+     */
+    public static function canView(): bool
+    {
+        return (bool) config('ui.dark_mode_switcher.enabled', true);
+    }
+
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+    public function render(): View
+    {
+        return view($this->view, [
+            'darkMode' => $this->darkMode,
+        ]);
+    }
+}
