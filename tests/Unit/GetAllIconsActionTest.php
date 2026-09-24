@@ -21,10 +21,15 @@ uses(TestCase::class);
  * verificare. Qui il set è reale, i file SVG sono reali, e si asserisce il risultato.
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param array<int, string> $relativeFiles
  *
 =======
  * @param  array<int, string>  $relativeFiles
+>>>>>>> laraxot/dev
+=======
+ * @param array<int, string> $relativeFiles
+ *
 >>>>>>> laraxot/dev
  * @return array{dir: string, prefix: string, set: string}
  */

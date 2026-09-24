@@ -2,11 +2,16 @@
 
 declare(strict_types=1);
 <<<<<<< HEAD
+<<<<<<< HEAD
 ?>
 {{-- UI Blade view — see Modules/UI/docs/wiki. --}}
 =======
 
 ?>
+>>>>>>> laraxot/dev
+=======
+?>
+{{-- UI Blade view — see Modules/UI/docs/wiki. --}}
 >>>>>>> laraxot/dev
 <div class="isolate overflow-hidden bg-gray-900">
     <div class="mx-auto max-w-7xl px-6 pb-96 pt-24 text-center sm:pt-32 lg:px-8">

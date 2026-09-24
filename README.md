@@ -21,12 +21,17 @@ sources: []
 # 🎨 UI
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 > **Componenti visuali condivisi.**
 
 =======
 <<<<<<< HEAD
 > **Componenti visuali condivisi.**
 =======
+>>>>>>> laraxot/dev
+=======
+> **Componenti visuali condivisi.**
+
 >>>>>>> laraxot/dev
 [![Domain-UI](https://img.shields.io/badge/Domain-UI%20Kit-7B1FA2.svg)](#)
 [![Laravel 12](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
@@ -36,6 +41,7 @@ sources: []
 [![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue.svg)](https://www.php-fig.org/psr/psr-12/)
 [![Strict Types](https://img.shields.io/badge/PHP-strict__types-1-informational.svg)](#)
 [![Laraxot Modules](https://img.shields.io/badge/Architecture-Modular-purple.svg)](#)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -58,6 +64,8 @@ sources: []
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 Vocabolario riusabile Blade, Livewire e Filament senza logica di dominio.
@@ -98,6 +106,7 @@ Maintain `declare(strict_types=1);` in PHP, adhere to project PHPStan config, an
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Modulo** `ui` · **Laraxot ecosystem** · **Project-agnostic** · PHPStan 10 · Filament 5
 =======
 <<<<<<< HEAD
@@ -123,4 +132,7 @@ Maintain `declare(strict_types=1);` in PHP, adhere to project PHPStan config, an
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+**Modulo** `ui` · **Laraxot ecosystem** · **Project-agnostic** · PHPStan 10 · Filament 5
 >>>>>>> laraxot/dev

@@ -6,10 +6,16 @@ namespace Modules\UI\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Support\Carbon;
 use Modules\UI\Database\Factories\FieldOptionFactory;
 use Modules\Xot\Contracts\ProfileContract;
 =======
+>>>>>>> laraxot/dev
+=======
+use Illuminate\Support\Carbon;
+use Modules\UI\Database\Factories\FieldOptionFactory;
+use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> laraxot/dev
 use Modules\Xot\Models\BaseModel;
 
@@ -19,6 +25,9 @@ use Modules\Xot\Models\BaseModel;
  * FormBuilder module not available - extending from XotBaseModel instead.
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
  * @method static FieldOptionFactory          factory($count = null, $state = [])
  * @method static Builder<static>|FieldOption newModelQuery()
  * @method static Builder<static>|FieldOption newQuery()
@@ -39,6 +48,7 @@ use Modules\Xot\Models\BaseModel;
  * @property-read ProfileContract|null $deleter
  * @property-read ProfileContract|null $updater
  *
+<<<<<<< HEAD
 =======
  * @method static \Modules\UI\Database\Factories\FieldOptionFactory factory($count = null, $state = [])
  * @method static Builder<static>|FieldOption newModelQuery()
@@ -59,6 +69,8 @@ use Modules\Xot\Models\BaseModel;
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $deleter
  * @property-read \Modules\Xot\Contracts\ProfileContract|null $updater
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
  * @method static Builder<static>|FieldOption whereCreatedAt($value)
  * @method static Builder<static>|FieldOption whereCreatedBy($value)
  * @method static Builder<static>|FieldOption whereDeletedAt($value)
@@ -71,8 +83,12 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|FieldOption whereUpdatedBy($value)
  * @method static Builder<static>|FieldOption whereValue($value)
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
+>>>>>>> laraxot/dev
+=======
+ *
 >>>>>>> laraxot/dev
  * @mixin \Eloquent
  */

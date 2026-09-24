@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -16,11 +17,14 @@
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: selectstatecolumn_confirmation_modal
 canonical: ../../../Themes/docs/shared-components/selectstatecolumn-confirmation-modal-1.md
 ---
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -38,6 +42,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/selectstatec
 >>>>>>> laraxot/dev
 # SelectStateColumn - Aggiunta Modal di Conferma
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 See canonical documentation: ../../../Themes/docs/shared-components/selectstatecolumn-confirmation-modal-1.md
@@ -85,6 +91,7 @@ Verificare che:
 5. Gli errori vengano gestiti in modo appropriato
 - [Filament Modals Documentation](https://filamentphp.com/project_docs/3.x/panels/modals)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -119,4 +126,6 @@ See canonical documentation: ../../../Themes/docs/shared-components/selectstatec
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

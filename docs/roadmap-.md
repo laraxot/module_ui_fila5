@@ -392,6 +392,7 @@ class ClosedDays extends Field { /* Focused on day selection */ }
 #### **3.1 AI-Enhanced Components**
 - Smart form validation with ML suggestions
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Auto-complete components with intelligent predictions
 - Auto-complete components with intelligent forecasts
 =======
@@ -418,6 +419,10 @@ class ClosedDays extends Field { /* Focused on day selection */ }
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- Auto-complete components with intelligent predictions
+- Auto-complete components with intelligent forecasts
 >>>>>>> laraxot/dev
 - Dynamic form generation based on data patterns
 - Voice-controlled component interactions
@@ -763,6 +768,7 @@ class UserCalendarWidget extends XotBaseWidget
 ## 🎯 MODULE OVERVIEW
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
 Il modulo **UI** è il sistema di componenti e design system della piattaforma <nome progetto>, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
 Il modulo **UI** è il sistema di componenti e design system della piattaforma progetto corrente, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
@@ -791,6 +797,11 @@ Il modulo **UI** è il sistema di componenti e design system della piattaforma <
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+Il modulo **UI** è il sistema di componenti e design system della piattaforma <nome progetto>, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+Il modulo **UI** è il sistema di componenti e design system della piattaforma progetto corrente, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
 >>>>>>> laraxot/dev
 
 ### 🏗️ Architettura Modulo

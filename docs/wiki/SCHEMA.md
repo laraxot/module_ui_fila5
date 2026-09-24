@@ -8,6 +8,7 @@ tags: [merge, duplicato, case-only]
 # Documento unificato
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questo file era un duplicato esatto che differiva solo per maiuscole/minuscole, in violazione della regola no-case-only-variations. Il contenuto canonico si trova in [schema.md](./schema.md).
 =======
 <<<<<<< HEAD
@@ -41,4 +42,7 @@ docs/
 - Cross-ref: `[Link](../concepts/name.md)`
 - NON modificare mai `docs/raw/`
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+Questo file era un duplicato esatto che differiva solo per maiuscole/minuscole, in violazione della regola no-case-only-variations. Il contenuto canonico si trova in [schema.md](./schema.md).
 >>>>>>> laraxot/dev

@@ -6,9 +6,13 @@ return [
     'name' => 'UI',
     'description' => 'Modulo per la gestione dell\'interfaccia utente e componenti',
 <<<<<<< HEAD
+<<<<<<< HEAD
     'icon' => 'heroicon-o-squares-2x2',
 =======
     'icon' => 'ui-icon',
+>>>>>>> laraxot/dev
+=======
+    'icon' => 'heroicon-o-squares-2x2',
 >>>>>>> laraxot/dev
     'navigation' => [
         'enabled' => true,

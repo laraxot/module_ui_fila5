@@ -48,6 +48,7 @@ class ExampleTransition extends Transition
 ## Related Documentation
 - [State Management](./state-management.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - [SelectStateColumn Documentation](./select-state-column.md)
@@ -65,6 +66,8 @@ class ExampleTransition extends Transition
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [SelectStateColumn Documentation](./select-state-column.md)
 # State Transitions Guide
@@ -107,6 +110,7 @@ class ExampleTransition extends Transition
 ## Related Documentation
 - [State Management](./state-management.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -126,4 +130,6 @@ class ExampleTransition extends Transition
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

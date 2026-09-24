@@ -7,6 +7,7 @@ issues:
   - https://github.com/provtv/module_ui_fila5/issues
 discussions:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - https://github.com/laraxot/<nome repitory>/discussions/273
   - https://github.com/laraxot/base_fixcity_fila5/discussions/273
   - https://github.com/laraxot/platform/discussions/273
@@ -36,6 +37,11 @@ discussions:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+  - https://github.com/laraxot/<nome repitory>/discussions/273
+  - https://github.com/laraxot/base_fixcity_fila5/discussions/273
+  - https://github.com/laraxot/platform/discussions/273
 >>>>>>> laraxot/dev
 ---
 
@@ -50,6 +56,7 @@ Stub **puntatore**: disciplina globale nella wiki di progetto; qui solo lezioni 
 - Git forward-only: [../../../../docs/wiki/rules/git-forward-only.md](../../../../docs/wiki/rules/git-forward-only.md)
 - Board multi-agente: [../../../../docs/chat/multi-agent-standing-coordination.md](../../../../docs/chat/multi-agent-standing-coordination.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Push dual-remote / LFS: [./wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md)
 - Push dual-remote / LFS: [./wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md)
 =======
@@ -77,6 +84,10 @@ Stub **puntatore**: disciplina globale nella wiki di progetto; qui solo lezioni 
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- Push dual-remote / LFS: [./wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md)
+- Push dual-remote / LFS: [./wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md)
 >>>>>>> laraxot/dev
 
 ## Lezioni operative
@@ -85,6 +96,7 @@ Stub **puntatore**: disciplina globale nella wiki di progetto; qui solo lezioni 
 |----------|--------|-----|
 | Bootstrap `unexpected <<` | Marker merge in PHP UI | Studiare `git show` e riscrivere (no restore) |
 <<<<<<< HEAD
+<<<<<<< HEAD
 | Adapter Map/Location in UI | Dominio geografico, non design system | Eliminare; in `base_ptvx_fila5` Geo non c’è |
 | `phpstan.path` su `Services/Map/Null*` | File rimossi; cache stale | Wipe cache swarm; non ricreare Map in UI |
 | Push unpack / GH008 LFS | thin pack + OID LFS assenti su un org | `--no-thin`; `lfs fetch --all` da sibling sano |
@@ -101,10 +113,16 @@ Stub **puntatore**: disciplina globale nella wiki di progetto; qui solo lezioni 
 | Push unpack / GH008 LFS | thin pack + OID LFS assenti su un org | `--no-thin`; `lfs fetch --all` da sibling sano |
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+| Adapter Map/Location in UI | Dominio geografico, non design system | Eliminare; in `base_ptvx_fila5` Geo non c’è |
+| `phpstan.path` su `Services/Map/Null*` | File rimossi; cache stale | Wipe cache swarm; non ricreare Map in UI |
+| Push unpack / GH008 LFS | thin pack + OID LFS assenti su un org | `--no-thin`; `lfs fetch --all` da sibling sano |
+>>>>>>> laraxot/dev
 | Adapter Map/Location in UI | Dominio geografico, non design system | Eliminare; in `<nome repository>` Geo non c’è |
 | `phpstan.path` su `Services/Map/Null*` | File rimossi; cache stale | Wipe cache swarm; non ricreare Map in UI |
 | Push unpack / GH008 LFS | thin pack + OID LFS assenti su un org | `--no-thin`; `lfs fetch --all` da sibling sano |
 | Push unpack / GH008 LFS | thin pack + OID LFS assenti su un org | `--no-thin`; `lfs fetch --all` da sibling sano |
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -123,6 +141,8 @@ Stub **puntatore**: disciplina globale nella wiki di progetto; qui solo lezioni 
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 **Map/Geo:** Nel modulo `UI` non devono esserci elementi legati a mappe, geolocalizzazione o dati geografici. Le cartelle `app/Adapters/Location` e `app/Adapters/Map` sono state rimosse. Il modulo `Geo` è un ambito separato e non fa parte di questo progetto; il modulo `UI` deve mantenere responsabilità esclusiva sui componenti UI generici.

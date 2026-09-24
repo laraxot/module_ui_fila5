@@ -1,9 +1,12 @@
 <<<<<<< HEAD
-=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # UI - Product Roadmap
@@ -48,6 +51,7 @@ Questo roadmap traduce il PRD in sequenza di rilascio per **UI**, che nel proget
 
 ## Dipendenze
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -59,6 +63,8 @@ Questo roadmap traduce il PRD in sequenza di rilascio per **UI**, che nel proget
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # UI Module - Product Roadmap
 
@@ -163,6 +169,7 @@ To create a **unified, beautiful, and accessible design system** that ensures co
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Last Updated: March 12, 2026*
 =======
 <<<<<<< HEAD
@@ -229,11 +236,15 @@ To create a **unified, beautiful, and accessible design system** that ensures co
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+*Last Updated: March 12, 2026*
+>>>>>>> laraxot/dev
 
 - [PRD](prd.md)
 - [Product Strategy](product-strategy.md)
 - [Sprint Planning Meeting](sprint-planning-meeting.md)
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -250,4 +261,6 @@ To create a **unified, beautiful, and accessible design system** that ensures co
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

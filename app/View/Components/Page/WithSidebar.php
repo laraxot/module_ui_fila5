@@ -26,6 +26,7 @@ final class WithSidebar extends Component
         $view = app(GetViewAction::class)->execute($this->tpl);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $view_params = [];
 
         return view($view, $view_params);
@@ -33,6 +34,11 @@ final class WithSidebar extends Component
         $viewParams = [];
 
         return view($view, $viewParams);
+>>>>>>> laraxot/dev
+=======
+        $view_params = [];
+
+        return view($view, $view_params);
 >>>>>>> laraxot/dev
     }
 }

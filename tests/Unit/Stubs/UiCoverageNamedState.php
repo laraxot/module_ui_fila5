@@ -17,6 +17,9 @@ final class UiCoverageNamedState implements StateContract
     public static string $name = 'pending';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
     /**
      * @param Model|array<string, mixed>|string|null $record
      */
@@ -24,6 +27,7 @@ final class UiCoverageNamedState implements StateContract
         public Model|array|string|null $record = null,
     ) {
     }
+<<<<<<< HEAD
 =======
     /** @param array<array-key, mixed>|Model|string|null $record */
     /**
@@ -32,6 +36,8 @@ final class UiCoverageNamedState implements StateContract
     public function __construct(
         public Model|array|string|null $record = null,
     ) {}
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
     public function label(): string
@@ -98,7 +104,11 @@ final class UiCoverageNamedState implements StateContract
         return collect(['pending' => self::class, 'done' => UiCoverageDoneState::class]);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> laraxot/dev
 =======
 }
 >>>>>>> laraxot/dev

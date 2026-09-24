@@ -35,6 +35,7 @@ Durante la digitazione di `<x-filament::`, l'estensione suggerisce i componenti 
 ## Installazione
 - **Marketplace**: Cerca "Filament" su [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=doonfrs.vscode-filament) e installa l'estensione.
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Terminale**:
 =======
 <<<<<<< HEAD
@@ -60,6 +61,9 @@ Durante la digitazione di `<x-filament::`, l'estensione suggerisce i componenti 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+- **Terminale**:
 >>>>>>> laraxot/dev
   ```sh
   code --install-extension doonfrs.vscode-filament
@@ -131,6 +135,7 @@ L'estensione **doonfrs.vscode-filament** migliora notevolmente lo sviluppo Filam
 
 ## Aggiornamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 Per segnalare bug o suggerire miglioramenti, usa la [pagina GitHub dell'estensione](https://github.com/doonfrs/vscode-filament).
@@ -148,6 +153,8 @@ Per segnalare bug o suggerire miglioramenti, usa la [pagina GitHub dell'estensio
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 Per segnalare bug o suggerire miglioramenti, usa la [pagina GitHub dell'estensione](https://github.com/doonfrs/vscode-filament).
 # VSCode Filament Extension (doonfrs.vscode-filament)
@@ -219,6 +226,7 @@ L'estensione **doonfrs.vscode-filament** migliora notevolmente lo sviluppo Filam
 - [Documentazione Filament](https://filamentphp.com/docs)
 ## Aggiornamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ```
 =======
@@ -242,4 +250,8 @@ Per segnalare bug o suggerire miglioramenti, usa la [pagina GitHub dell'estensio
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+```
 >>>>>>> laraxot/dev

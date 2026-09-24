@@ -57,13 +57,17 @@ qmd search "<topic>"
 ./laravel/Modules/UI/docs/
 └── wiki/                    # Knowledge base locale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     ├── rules/INDEX.md      # Indice rules modulo-specifiche
     ├── skills/INDEX.md     # Indice skills modulo-specifiche
     ├── commands/INDEX.md   # Indici commands
     └── memories/INDEX.md   # Indice memories
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -72,6 +76,8 @@ qmd search "<topic>"
     ├── commands/index.md   # Indici commands
     └── memories/index.md   # Indice memories
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 \`\`\`
 
@@ -87,6 +93,7 @@ qmd search "<topic>"
 ## Regole Critiche per Module
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **Nessun bootstrap pesante** — Non elencare rules in AGENTS.md o CLAUDE.md
 =======
 <<<<<<< HEAD
@@ -94,6 +101,9 @@ qmd search "<topic>"
 =======
 1. **Nessun bootstrap pesante** — Non elencare rules in agents.md o CLAUDE.md
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+1. **Nessun bootstrap pesante** — Non elencare rules in AGENTS.md o CLAUDE.md
 >>>>>>> laraxot/dev
 2. **Carica only what you need** — Ogni task carica max 3-5 file
 3. **Mantieni la wiki aggiornata** — Dopo ogni task, aggiorna ./laravel/Modules/UI/docs/wiki/log.md

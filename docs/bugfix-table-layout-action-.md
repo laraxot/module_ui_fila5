@@ -141,6 +141,7 @@ php artisan tinker --execute="TableLayoutToggleTableAction::make('test');"
 
 # Testare l'URL che causava l'errore
 <<<<<<< HEAD
+<<<<<<< HEAD
 curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
 =======
 <<<<<<< HEAD
@@ -167,10 +168,14 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
+>>>>>>> laraxot/dev
 ```
 
 ### Risultati Test
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ✅ **Sintassi PHP**: Nessun errore di sintassi
 ✅ **Istanziazione**: Classe istanziabile correttamente
@@ -179,6 +184,11 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 ✅ **Sintassi PHP**: Nessun errore di sintassi  
 ✅ **Istanziazione**: Classe istanziabile correttamente  
 ✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)  
+>>>>>>> laraxot/dev
+=======
+✅ **Sintassi PHP**: Nessun errore di sintassi
+✅ **Istanziazione**: Classe istanziabile correttamente
+✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)
 >>>>>>> laraxot/dev
 ✅ **PHPStan**: Nessun errore di linting rilevato
 
@@ -206,6 +216,7 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Modulo**: UI
 **Tipo**: Bug Fix
 **Priorità**: Alta
@@ -214,5 +225,10 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 **Modulo**: UI  
 **Tipo**: Bug Fix  
 **Priorità**: Alta  
+>>>>>>> laraxot/dev
+=======
+**Modulo**: UI
+**Tipo**: Bug Fix
+**Priorità**: Alta
 >>>>>>> laraxot/dev
 **Stato**: ✅ Risolto

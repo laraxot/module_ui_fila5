@@ -5,8 +5,11 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Mockery;
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 use Modules\UI\Tests\TestCase;
 use Modules\Xot\Tests\ModuleBusinessCoverage;
@@ -15,9 +18,13 @@ uses(TestCase::class);
 
 afterEach(function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
     \Mockery::close();
 =======
     Mockery::close();
+>>>>>>> laraxot/dev
+=======
+    \Mockery::close();
 >>>>>>> laraxot/dev
 });
 

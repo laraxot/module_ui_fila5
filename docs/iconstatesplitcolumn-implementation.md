@@ -2,6 +2,7 @@
 
 ## Overview
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -542,6 +543,8 @@ document.addEventListener('state-transition', function(event) {
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 The `IconStateSplitColumn` is a custom Filament table column component designed to display state transition icons in a compact, responsive grid layout. It extends Filament's `Column` component to provide an optimized user experience for state management in tables.
 
@@ -576,9 +579,12 @@ The `IconStateSplitColumn` is a custom Filament table column component designed 
 ### Basic Usage
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ```
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ```php
 use Modules\UI\Filament\Tables\Columns\IconStateSplitColumn;
@@ -613,6 +619,7 @@ class IconStateSplitColumn extends Column
     protected string $stateClass = '';
     protected string $modelClass = '';
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -641,6 +648,9 @@ class IconStateSplitColumn extends Column
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     protected function setUp(): void
     {
@@ -648,6 +658,7 @@ class IconStateSplitColumn extends Column
         $this->label('Stati');
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -676,12 +687,16 @@ class IconStateSplitColumn extends Column
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     public function stateClass(string $stateClass, string $modelClass): static
     {
         // Configure states and model
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -710,12 +725,16 @@ class IconStateSplitColumn extends Column
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     public function getRecordStates(): array
     {
         // Return array of available states
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -744,6 +763,9 @@ class IconStateSplitColumn extends Column
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     public function canTransitionTo($recordId, $stateClass): bool
     {
@@ -942,6 +964,7 @@ The main issue was that `wire:click` doesn't work directly in Filament table col
 #### Solution Architecture
 ```javascript
 // Custom event dispatch
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -977,6 +1000,8 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 onclick="window.dispatchEvent(new CustomEvent('state-transition', {
     detail: {
         recordId: {{ $record->id }},
@@ -984,6 +1009,7 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
         action: 'prova'
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -998,6 +1024,8 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 }))"
 
@@ -1005,6 +1033,7 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
 document.addEventListener('state-transition', function(event) {
     const { recordId, stateClass, action } = event.detail;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -1033,6 +1062,9 @@ document.addEventListener('state-transition', function(event) {
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     if (window.Livewire) {
         window.Livewire.find(document.querySelector('[wire\\:id]').getAttribute('wire:id'))
@@ -1072,6 +1104,7 @@ document.addEventListener('state-transition', function(event) {
 **Last Updated**: June 2025
 **Version**: 2.1
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Compatibility**: Filament 4.x, Laravel 10.x
 =======
 <<<<<<< HEAD
@@ -1111,4 +1144,7 @@ document.addEventListener('state-transition', function(event) {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+**Compatibility**: Filament 4.x, Laravel 10.x
 >>>>>>> laraxot/dev

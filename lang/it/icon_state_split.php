@@ -49,12 +49,18 @@ return [
         'name' => 'Icon State Split',
         'plural' => 'Icon State Split',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
         'group' => [
             'name' => 'General',
             'description' => 'General Settings',
         ],
+<<<<<<< HEAD
 =======
         'group' => ['name' => 'General', 'description' => 'General Settings'],
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         'label' => 'Icon State Split',
         'sort' => 1,
@@ -62,6 +68,9 @@ return [
     ],
     'actions' => [
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
         'create' => [
             'label' => 'Crea Icon State Split',
         ],
@@ -76,11 +85,14 @@ return [
             'icon' => 'prova',
             'tooltip' => 'prova',
         ],
+<<<<<<< HEAD
 =======
         'create' => ['label' => 'Crea Icon State Split'],
         'edit' => ['label' => 'Modifica Icon State Split'],
         'delete' => ['label' => 'Elimina Icon State Split'],
         'prova' => ['label' => 'prova', 'icon' => 'prova', 'tooltip' => 'prova'],
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     ],
 ];

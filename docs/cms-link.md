@@ -15,6 +15,7 @@ Secondo le regole di organizzazione della documentazione:
 - [Blocchi di Contenuto](../../Cms/docs/blocks.md) - Documentazione sui blocchi di contenuto
 - [Filament Integration](../../Cms/docs/filament.md) - Integrazione con Filament
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -50,6 +51,8 @@ Secondo le regole di organizzazione della documentazione:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ## Utilizzo dei Componenti UI nel Frontend
@@ -72,6 +75,7 @@ Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/docs/
 * [cms-link.md](../../../UI/docs/cms-link.md)
 * [cms-link.md](../../../Lang/docs/cms-link.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -179,4 +183,6 @@ Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/proje
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

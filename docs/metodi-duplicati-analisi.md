@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -16,11 +17,14 @@
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: METODI_DUPLICATI_ANALISI
 canonical: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 ---
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -38,6 +42,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLI
 >>>>>>> laraxot/dev
 # 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
@@ -111,6 +117,7 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 ## 🔍 PATTERN REALI IDENTIFICATI
 ### Pattern 1: getTableColumns() - ESEMPIO REALE
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### <nome progetto>/TicketResource/ListTickets.php (ECCELLENTE)
 =======
 <<<<<<< HEAD
@@ -128,6 +135,9 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 >>>>>>> laraxot/dev
 ```php
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+#### <nome progetto>/TicketResource/ListTickets.php (ECCELLENTE)
 >>>>>>> laraxot/dev
 protected function getTableColumns(): array
     return [
@@ -333,6 +343,7 @@ public function getTableFilters(): array
 - Test dopo ogni modulo
 - Code review
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Settimana 2**: Moduli Business (<nome progetto>, Blog, Geo)
 =======
 <<<<<<< HEAD
@@ -349,6 +360,9 @@ public function getTableFilters(): array
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+**Settimana 2**: Moduli Business (<nome progetto>, Blog, Geo)
 >>>>>>> laraxot/dev
 - 20 List files
 - Test integrazione
@@ -376,6 +390,7 @@ public function getTableFilters(): array
 3. Refactoring moduli core (Xot, User, Cms)
 #### ⭐⭐⭐⭐ PRIORITÀ ALTA
 <<<<<<< HEAD
+<<<<<<< HEAD
 4. Refactoring moduli business (<nome progetto>, Blog, Geo)
 =======
 <<<<<<< HEAD
@@ -391,6 +406,9 @@ public function getTableFilters(): array
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+4. Refactoring moduli business (<nome progetto>, Blog, Geo)
 >>>>>>> laraxot/dev
 5. ActionPresets per CRUD
 6. Documentazione completa
@@ -425,6 +443,7 @@ canonical: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 =======
 <<<<<<< HEAD
@@ -2026,4 +2045,7 @@ See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLI
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 >>>>>>> laraxot/dev

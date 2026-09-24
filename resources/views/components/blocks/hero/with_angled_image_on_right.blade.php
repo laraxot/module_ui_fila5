@@ -3,8 +3,12 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // UI Blade view — see Modules/UI/docs/wiki.
 =======
+>>>>>>> laraxot/dev
+=======
+// UI Blade view — see Modules/UI/docs/wiki.
 >>>>>>> laraxot/dev
 ?>
 @props([

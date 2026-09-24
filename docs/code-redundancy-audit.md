@@ -7,6 +7,7 @@ created: "2026-05-26"
 updated: "2026-05-26"
 owner: "UI"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/150"
 issue: "https://github.com/provtv/<nome repository>/issues/150"
 =======
@@ -19,6 +20,10 @@ issue: "https://github.com/provtv/<nome repository>/issues/150"
 issue: "https://github.com/provtv/<nome repository>/issues/150"
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/150"
+issue: "https://github.com/provtv/<nome repository>/issues/150"
 >>>>>>> laraxot/dev
 ---
 
@@ -102,6 +107,7 @@ Ridurre rumore, duplicazione e ambiguita' nel codice di questo module, senza per
 
 - Markdown locale + Git restano la base piu' portabile: gli agenti leggono/scrivono file senza database esterni.
 <<<<<<< HEAD
+<<<<<<< HEAD
 - AGENTS.md/SKILL.md devono restare manifest leggeri, con YAML/front matter e routing on-demand.
 =======
 <<<<<<< HEAD
@@ -109,6 +115,9 @@ Ridurre rumore, duplicazione e ambiguita' nel codice di questo module, senza per
 =======
 - agents.md/SKILL.md devono restare manifest leggeri, con YAML/front matter e routing on-demand.
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+- AGENTS.md/SKILL.md devono restare manifest leggeri, con YAML/front matter e routing on-demand.
 >>>>>>> laraxot/dev
 - I descrittori architetturali navigabili riducono i passi di localizzazione: ogni owner dovrebbe avere mappa scopo -> file chiave.
 - AI utile = recupero mirato, non pre-caricamento: report atomici, QMD, issue e log.

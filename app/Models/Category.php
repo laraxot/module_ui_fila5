@@ -6,6 +6,9 @@ namespace Modules\UI\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 use Illuminate\Support\Carbon;
 use Modules\UI\Database\Factories\CategoryFactory;
 use Modules\Xot\Contracts\ProfileContract;
@@ -53,6 +56,7 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Category whereUpdatedAt($value)
  * @method static Builder<static>|Category whereUpdatedBy($value)
  *
+<<<<<<< HEAD
 =======
 use Modules\Xot\Models\BaseModel;
 
@@ -85,6 +89,8 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Category whereUpdatedAt($value)
  * @method static Builder<static>|Category whereUpdatedBy($value)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
  * @mixin \Eloquent
  */
 class Category extends BaseModel
@@ -101,6 +107,9 @@ class Category extends BaseModel
         'sort_order',
     ];
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 
     /**
      * @return array<string, string>
@@ -113,6 +122,9 @@ class Category extends BaseModel
             'sort_order' => 'integer',
         ]);
     }
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 }

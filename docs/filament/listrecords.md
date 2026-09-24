@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -49,6 +50,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # List Records in Filament
 
@@ -125,6 +128,7 @@ use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -177,6 +181,8 @@ class ListXXX extends XotBaseListRecords
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     public function getGridTableColumns(): array
     {
         return [
@@ -216,6 +222,7 @@ class ListMyRecords extends XotBaseListRecords
         return [
     public function getTableActions(): array
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -246,6 +253,8 @@ class ListMyRecords extends XotBaseListRecords
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
             ViewAction::make()
                 ->label(''),
             EditAction::make()
@@ -275,6 +284,7 @@ class ListMyRecords extends XotBaseListRecords
         ];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -298,6 +308,8 @@ class ListMyRecords extends XotBaseListRecords
 ```
 # List Records in Filament
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
     public function getListTableActions(): array
@@ -433,6 +445,7 @@ class ListXXX extends XotBaseListRecords
                 direction: 'DESC',
             );
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -454,4 +467,6 @@ class ListXXX extends XotBaseListRecords
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

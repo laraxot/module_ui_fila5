@@ -146,10 +146,14 @@ class CustomMiddleware
 
 // Non hardcodare percorsi delle risorse
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 <img src="public/images/avatar.png">
 <img src="public/images/avatar.png">
 <img src="public/images/avatar.png">
 <img src="public/images/avatar.png">
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <img src="/var/www/html/saluteora/laravel/public/images/avatar.png">
@@ -181,6 +185,8 @@ class CustomMiddleware
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 // Non duplicare la registrazione dei componenti
@@ -316,6 +322,7 @@ class UIServiceProvider extends XotBaseServiceProvider
   <?php
   use function Livewire\Volt\{state, mount};
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -333,12 +340,15 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
   
   state([
       'property' => null,
   ]);
   
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -351,12 +361,15 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
   state([
       'property' => null,
   ]);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -372,12 +385,15 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
   $action = function () {
       // Logica dell'azione
   };
   ?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -405,6 +421,8 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
   <div>
       <!-- Template del componente -->
@@ -420,6 +438,7 @@ class UIServiceProvider extends XotBaseServiceProvider
   use function Laravel\Folio\{middleware, name};
   use function Livewire\Volt\{state, mount};
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -437,11 +456,14 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
   
   middleware(['auth']);
   name('page.name');
   
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -454,11 +476,14 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
   middleware(['auth']);
   name('page.name');
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -474,12 +499,15 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
   state([
       'property' => null,
   ]);
   ?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -507,6 +535,8 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
   <x-layouts.main>
       <!-- Contenuto della pagina -->
@@ -651,6 +681,7 @@ class UIServiceProvider extends XotBaseServiceProvider
    - Utilizzare i componenti responsive appropriati
    - Mantenere la coerenza con il tema dark/light
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
    - Gestire correttamente il logout con CSRF
@@ -668,6 +699,8 @@ class UIServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
    - Gestire correttamente il logout con CSRF
 # Regole Architetturali
@@ -1000,6 +1033,7 @@ class UIServiceProvider extends XotBaseServiceProvider
    - Utilizzare i componenti responsive appropriati
    - Mantenere la coerenza con il tema dark/light
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1019,4 +1053,6 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

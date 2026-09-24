@@ -147,6 +147,7 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 
 *Ultimo aggiornamento: 2025-09-30*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 *Modulo UI compatibile con Filament 4.0.20*
@@ -164,6 +165,8 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 *Modulo UI compatibile con Filament 4.0.20*
 # Filament 4.x Upgrade - Modulo UI
@@ -260,6 +263,7 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 4. **Testing**: Testare approfonditamente il widget quando il pacchetto sarà aggiornato
 *Ultimo aggiornamento: 2025-09-30*
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ```
 =======
@@ -283,4 +287,8 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+```
 >>>>>>> laraxot/dev

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Struttura Themes e Folio in <nome progetto>corrente
 # Struttura Themes e Folio in <nome progetto>corrente
 =======
@@ -24,12 +25,17 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+# Struttura Themes e Folio in <nome progetto>corrente
+# Struttura Themes e Folio in <nome progetto>corrente
+>>>>>>> laraxot/dev
 # Struttura Themes e Folio in
 # Struttura Themes e Folio in <nome progetto>
 # Struttura Themes e Folio in
 # Struttura Themes e Folio in <nome progetto>
 # Struttura Themes e Folio in
 # Struttura Themes e Folio in <nome progetto>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -46,6 +52,8 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ## ⚠️ ATTENZIONE CRITICA
@@ -57,6 +65,7 @@
 ## Struttura del Progetto
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il progetto <nome progetto>corrente utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 Il progetto <nome progetto>corrente utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 =======
@@ -82,12 +91,17 @@ Il progetto <nome progetto>corrente utilizza un sistema di **Themes** che modifi
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Il progetto <nome progetto>corrente utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
+Il progetto <nome progetto>corrente utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
+>>>>>>> laraxot/dev
 Il progetto  utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 Il progetto  utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 Il progetto  utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -104,6 +118,8 @@ Il progetto SaluteOra utilizza un sistema di **Themes** che modifica la struttur
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ```
@@ -261,6 +277,7 @@ config('theme.views_path') // Output: "Themes/One/resources/views"
 - [Documentazione Laravel Folio](https://laravel.com/docs/folio)
 - [mcamara/laravel-localization](https://github.com/mcamara/laravel-localization)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - Configurazione Theme: `/laravel/config/theme.php`
@@ -278,6 +295,8 @@ config('theme.views_path') // Output: "Themes/One/resources/views"
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - Configurazione Theme: `/laravel/config/theme.php`
 # Struttura Themes e Folio in <nome progetto>
@@ -380,6 +399,7 @@ config('theme.views_path') // Output: "Themes/One/resources/views"
 - [Documentazione Laravel Folio](https://laravel.com/docs/folio)
 - [mcamara/laravel-localization](https://github.com/mcamara/laravel-localization)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ```
 =======
@@ -403,4 +423,8 @@ config('theme.views_path') // Output: "Themes/One/resources/views"
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+```
 >>>>>>> laraxot/dev

@@ -36,9 +36,13 @@ tags: [structure, architecture, module]
 ├── QMD-SETUP.md                  # Configurazione QMD
 ├── PERFORMANCE-OPTIMIZATION.md    # Metriche e best practice
 <<<<<<< HEAD
+<<<<<<< HEAD
 ├── architecture.md                # (opzionale) Architettura modulo
 =======
 ├── ARCHITECTURE.md               # (opzionale) Architettura modulo
+>>>>>>> laraxot/dev
+=======
+├── architecture.md                # (opzionale) Architettura modulo
 >>>>>>> laraxot/dev
 └── README.md                     # (opzionale) Overview modulo
 \`\`\`

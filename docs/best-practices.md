@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -16,6 +17,8 @@
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: best_practices
@@ -23,6 +26,7 @@ canonical: ../../../Themes/docs/shared-components/best-practices_1.md
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 See canonical documentation: ../../../Themes/docs/shared-components/best-practices_1.md
 =======
 <<<<<<< HEAD
@@ -39,6 +43,9 @@ See canonical documentation: ../../../Themes/docs/shared-components/best-practic
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+See canonical documentation: ../../../Themes/docs/shared-components/best-practices_1.md
 >>>>>>> laraxot/dev
 # Best Practices UI
 ## Principi Generali
@@ -201,8 +208,11 @@ class AdvancedForm extends Component
 ### Versione Incoming
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 * [best-practices.md](../../../Xot/project_docs/laraxot/best-practices.md)
 * [best-practices.md](../../../UI/project_docs/best-practices.md)
@@ -210,6 +220,7 @@ class AdvancedForm extends Component
 module: theme
 topic: best_practices
 canonical: ../../../Themes/docs/shared-components/best-practices_1.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -491,4 +502,6 @@ See canonical documentation: ../../../Themes/docs/shared-components/best-practic
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
