@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Feature;
 
+
+use Filament\Schemas\Schema;
 use Carbon\Exceptions\InvalidFormatException;
 use Filament\Forms\Components\Field;
 use Illuminate\Support\Collection;

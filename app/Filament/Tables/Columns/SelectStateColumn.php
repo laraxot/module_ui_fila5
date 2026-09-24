@@ -111,11 +111,7 @@ class SelectStateColumn extends XotBaseSelectColumn
             array_keys($states),
         );
         $statesValues = array_map(
-<<<<<<< HEAD
             SafeStringCastAction::cast(...),
-=======
-            static fn (mixed $value): string => SafeStringCastAction::cast($value),
->>>>>>> laraxot/dev
             array_values($states),
         );
         $combined = array_combine($statesKeys, $statesValues);
