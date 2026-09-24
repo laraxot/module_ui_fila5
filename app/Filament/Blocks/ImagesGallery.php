@@ -22,6 +22,7 @@ final class ImagesGallery
                             // ->image()
                             // ->maxSize(5000)
                             ->multiple()
+<<<<<<< .merge_file_gFx5sY
 <<<<<<< HEAD
                             ->enableReordering()
 =======
@@ -35,6 +36,9 @@ final class ImagesGallery
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+                            ->reorderable()
+>>>>>>> .merge_file_EBBQM2
                             ->openable()
                             ->downloadable()
                             ->columnSpanFull()
@@ -58,6 +62,7 @@ final class ImagesGallery
                 //         // ->image()
                 //         // ->maxSize(5000)
                 //     ->multiple()
+<<<<<<< .merge_file_gFx5sY
 <<<<<<< HEAD
                 //     ->enableReordering()
 =======
@@ -71,6 +76,9 @@ final class ImagesGallery
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+                //     ->reorderable()
+>>>>>>> .merge_file_EBBQM2
                 //     ->openable()
                 //     ->downloadable()
                 //     ->columnSpanFull()

@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_cxgLix
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_rmTtGI
 ---
 title: "effetcts"
 type: concept
@@ -12,6 +15,7 @@ tags: [effetcts]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "effetcts effetcts"
+<<<<<<< .merge_file_cxgLix
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -24,6 +28,12 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_rmTtGI
 related:
   - "./api.md"
   - "./blocks.md"
@@ -35,11 +45,16 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+<<<<<<< .merge_file_cxgLix
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rmTtGI
 # effetcts
 
 <!-- Contenuto migrato da _docs/effetcts.txt -->

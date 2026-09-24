@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
+<<<<<<< .merge_file_yJVpPo
 <<<<<<< HEAD
 use Filament\Forms\Components\Select;
 use Filament\Support\Contracts\HasIcon;
@@ -26,10 +27,16 @@ use Modules\Xot\Filament\Forms\Components\XotBaseSelect;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+use Filament\Support\Contracts\HasIcon;
+use Filament\Support\Contracts\HasLabel;
+use Modules\Xot\Filament\Forms\Components\XotBaseSelect;
+>>>>>>> .merge_file_4kOwDD
 
 /**
  * EnumSelect - Reusable component for PHP-backed enums in Filament v5.
  */
+<<<<<<< .merge_file_yJVpPo
 <<<<<<< HEAD
 final class EnumSelect extends Select
 =======
@@ -43,6 +50,9 @@ final class EnumSelect extends XotBaseSelect
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+final class EnumSelect extends XotBaseSelect
+>>>>>>> .merge_file_4kOwDD
 {
     protected string|\Closure|null $enumClass = null;
 

@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_YM0RWt
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1KhGKn
 ---
 title: "EnumSelect Contract And False Friends"
 type: concept
@@ -12,6 +15,7 @@ tags: [enum, select, contract, false]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "enum-select-contract-and-false-friends enumselect contract and false friends"
+<<<<<<< .merge_file_YM0RWt
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -24,6 +28,12 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_1KhGKn
 related:
   - "./auth-register-focus-loss-overlay.md"
   - "./block-rendering-and-optional-services.md"
@@ -35,11 +45,16 @@ related:
   - "./enum-select-usage.md"
 ---
 
+<<<<<<< .merge_file_YM0RWt
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1KhGKn
 # EnumSelect Contract And False Friends
 
 ## Context
@@ -55,6 +70,7 @@ Questa pagina fissa il contratto minimo del componente.
 ## Best Practices
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_YM0RWt
 - Estendere `Filament\Forms\Components\Select` mantenendo compatibilita' totale con la API parent.
 =======
 <<<<<<< HEAD
@@ -68,6 +84,12 @@ Questa pagina fissa il contratto minimo del componente.
 - In `make(?string $name = null)`, chiamare `parent::make()` nel ramo `null` e `parent::make($name)` solo nel ramo stringa: preserva la risoluzione del nome di default senza passare `null` al contratto statico Xot.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- Estendere `Modules\Xot\Filament\Forms\Components\XotBaseSelect`, mantenendo compatibilita' totale con la API Filament parent.
+- In `make(?string $name = null)`, chiamare `parent::make()` nel ramo `null` e `parent::make($name)` solo nel ramo stringa: preserva la risoluzione del nome di default senza passare `null` al contratto statico Xot.
+=======
+- Estendere `Filament\Forms\Components\Select` mantenendo compatibilita' totale con la API parent.
+>>>>>>> .merge_file_1KhGKn
 >>>>>>> laraxot/dev
 - Dichiarare `public static function make(?string $name = null): static`.
 - Mantenere **identica** la firma di `enum()` al parent Filament: `enum(string|Closure|null $enum): static`.

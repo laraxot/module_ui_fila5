@@ -90,22 +90,34 @@ return [
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< .merge_file_o6y9jC
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+- [Translation System](../../Lang/docs/translation-system.md)
+- [Form Components](../../Patient/docs/filament-form-components.md)
+- [Best Practices](../../Xot/docs/filament-best-practices.md)
+=======
+>>>>>>> .merge_file_71R8j0
 - [Translation System](../../lang/docs/translation-system.md)
 - [Form Components](../../patient/docs/filament-form-components.md)
 - [Best Practices](../../xot/docs/filament-best-practices.md)
+>>>>>>> laraxot/dev
 
 ## Vedi Anche
 - [Filament File Upload](https://filamentphp.com/docs/forms/fields/file-upload)
 - [Laravel File Storage](https://laravel.com/docs/filesystem)
 # FileUpload Component in Filament
+<<<<<<< HEAD
+## Metodi Disponibili
+=======
 
 ## Metodi Disponibili
 
+<<<<<<< .merge_file_o6y9jC
 <<<<<<< HEAD
 =======
 =======
@@ -139,6 +151,8 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_71R8j0
 >>>>>>> laraxot/dev
 ### Configurazione Base
 ```php
@@ -150,22 +164,30 @@ FileUpload::make('document')
     ->maxSize(10240)
 ```
 <<<<<<< HEAD
+<<<<<<< .merge_file_o6y9jC
 =======
 <<<<<<< HEAD
 ### UI/UX
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+### UI/UX
+=======
+>>>>>>> .merge_file_71R8j0
 
 ### UI/UX
 ```php
 FileUpload::make('document')
+<<<<<<< .merge_file_o6y9jC
 <<<<<<< HEAD
 =======
 =======
 ### UI/UX
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_71R8j0
 >>>>>>> laraxot/dev
     ->downloadable()
     ->previewable()
@@ -176,11 +198,23 @@ FileUpload::make('document')
     ->removeUploadedFileButtonPosition('right')
     ->uploadProgressIndicatorPosition('right')
 <<<<<<< HEAD
+<<<<<<< .merge_file_o6y9jC
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+## ⚠️ Errori Comuni
+### 1. Uso di prefixIcon
+❌ **NON FARE**:
+    ->prefixIcon('heroicon-o-document') // Questo metodo non esiste!
+✅ **FARE**:
+    ->buttonIcon('heroicon-o-document') // Usa buttonIcon per l'icona del pulsante
+### 2. Uso di label()
+    ->label('Documento') // Non usare label() direttamente
+=======
+>>>>>>> .merge_file_71R8j0
 ```
 
 ## ⚠️ Errori Comuni
@@ -207,6 +241,7 @@ FileUpload::make('document')
 
 ✅ **FARE**:
 ```php
+<<<<<<< .merge_file_o6y9jC
 <<<<<<< HEAD
 =======
 =======
@@ -223,6 +258,8 @@ FileUpload::make('document')
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_71R8j0
 >>>>>>> laraxot/dev
 // Usa il file di traduzione invece
 // lang/it/resource.php
@@ -236,22 +273,30 @@ return [
     ],
 ];
 <<<<<<< HEAD
+<<<<<<< .merge_file_o6y9jC
 =======
 <<<<<<< HEAD
 ## Best Practices
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+## Best Practices
+=======
+>>>>>>> .merge_file_71R8j0
 ```
 
 ## Best Practices
 
+<<<<<<< .merge_file_o6y9jC
 <<<<<<< HEAD
 =======
 =======
 ## Best Practices
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_71R8j0
 >>>>>>> laraxot/dev
 1. **Sicurezza**
    - Limita sempre i tipi di file accettati
@@ -259,6 +304,7 @@ return [
    - Usa directory specifiche per tipo di file
    - Implementa validazione server-side
 <<<<<<< HEAD
+<<<<<<< .merge_file_o6y9jC
 
 =======
 <<<<<<< HEAD
@@ -268,6 +314,10 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_71R8j0
 >>>>>>> laraxot/dev
 2. **Performance**
    - Ottimizza le dimensioni dei file
@@ -275,6 +325,7 @@ return [
    - Implementa gestione errori
    - Fornisci feedback di progresso
 <<<<<<< HEAD
+<<<<<<< .merge_file_o6y9jC
 
 =======
 <<<<<<< HEAD
@@ -284,6 +335,10 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_71R8j0
 >>>>>>> laraxot/dev
 3. **UX**
    - Usa icone appropriate
@@ -291,6 +346,7 @@ return [
    - Mostra messaggi di errore chiari
    - Implementa drag & drop
 <<<<<<< HEAD
+<<<<<<< .merge_file_o6y9jC
 
 =======
 <<<<<<< HEAD
@@ -300,6 +356,10 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_71R8j0
 >>>>>>> laraxot/dev
 4. **Manutenibilità**
    - Usa costanti per configurazioni comuni
@@ -307,16 +367,25 @@ return [
    - Documenta requisiti specifici
    - Segui le convenzioni di naming
 <<<<<<< HEAD
+<<<<<<< .merge_file_o6y9jC
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+## Collegamenti
+- [Translation System](../../Lang/project_docs/translation-system.md)
+- [Form Components](../../Patient/project_docs/filament-form-components.md)
+- [Best Practices](../../Xot/project_docs/filament-best-practices.md)
+=======
+>>>>>>> .merge_file_71R8j0
 
 ## Collegamenti
 - [Translation System](../../lang/project_docs/translation-system.md)
 - [Form Components](../../patient/project_docs/filament-form-components.md)
 - [Best Practices](../../xot/project_docs/filament-best-practices.md)
+>>>>>>> laraxot/dev
 
 ## Vedi Anche
 - [Filament File Upload](https://filamentphp.com/project_docs/forms/fields/file-upload)

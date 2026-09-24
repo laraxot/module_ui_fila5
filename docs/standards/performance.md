@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_1gGGJz
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ZCqgIR
 ---
 title: "Standard di Performance"
 type: concept
@@ -12,6 +15,7 @@ tags: [performance]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "performance standard di performance"
+<<<<<<< .merge_file_1gGGJz
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -24,6 +28,12 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_ZCqgIR
 related:
   - "./accessibility.md"
   - "./auth-form-standards-1.md"
@@ -33,11 +43,16 @@ related:
   - "./ui-standards.md"
 ---
 
+<<<<<<< .merge_file_1gGGJz
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZCqgIR
 # Standard di Performance
 
 ## 🚀 Metriche Core Web Vitals

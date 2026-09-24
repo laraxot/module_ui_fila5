@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_QgprHQ
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -33,6 +34,9 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+return [
+>>>>>>> .merge_file_x7KnW1
     'page' => [
         'title' => 'S3 and CloudFront Test',
         'heading' => 'AWS Configuration Test',

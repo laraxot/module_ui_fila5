@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_UvqJXZ
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -29,10 +30,11 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_KdEoBy
 <?php
 
 declare(strict_types=1);
-
 ?>
 <div class="bg-white py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">

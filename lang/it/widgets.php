@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_QjfDBC
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -18,6 +19,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_5bWvyw
 return [
     'dark_mode_switcher' => [
         'toggle_aria_label' => 'Cambia tema',
@@ -36,6 +39,7 @@ return [
         ],
         'label' => 'Widgets',
         'sort' => 1,
+<<<<<<< .merge_file_QjfDBC
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
 =======
@@ -49,6 +53,9 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> .merge_file_5bWvyw
     ],
     'fields' => [
         'id' => [

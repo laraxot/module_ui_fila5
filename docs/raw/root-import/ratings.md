@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_hlT8z4
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_8rF3OH
 ---
 title: "Ratings"
 type: concept
@@ -12,6 +15,7 @@ tags: [ratings]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "ratings ratings"
+<<<<<<< .merge_file_hlT8z4
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -24,6 +28,12 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_8rF3OH
 related:
   - "./api-1.md"
   - "./api.md"
@@ -35,11 +45,16 @@ related:
   - "./changelog-2.md"
 ---
 
+<<<<<<< .merge_file_hlT8z4
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_8rF3OH
 -------------------------------------------------------------------------------------------------
 Add Ratings and Reviews for Laravel's Eloquent Models
 https://codebrisk.com/blog/add-ratings-and-reviews-for-laravel-s-eloquent-models

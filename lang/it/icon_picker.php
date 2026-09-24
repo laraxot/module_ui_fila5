@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_nBD9sl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -12,6 +13,8 @@ declare(strict_types=1);
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/it/icon_picker.php
+=======
+>>>>>>> .merge_file_kULYkf
 return [
     'fields' => [
         'newstate' => [
@@ -19,6 +22,7 @@ return [
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
+            'placeholder' => 'newstate',
         ],
         'pack' => [
             'label' => 'pack',
@@ -65,7 +69,7 @@ return [
         ],
         'label' => 'Icon Picker',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
+        'icon' => 'heroicon-o-rectangle-stack',
     ],
     'actions' => [
         'create' => [
@@ -77,6 +81,7 @@ return [
         'delete' => [
             'label' => 'Elimina Icon Picker',
         ],
+<<<<<<< .merge_file_nBD9sl
 <<<<<<< HEAD
 =======
 =======
@@ -96,5 +101,12 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        'icon' => [
+            'label' => 'icon',
+            'icon' => 'icon',
+            'tooltip' => 'icon',
+        ],
+>>>>>>> .merge_file_kULYkf
     ],
 ];

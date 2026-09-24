@@ -14,7 +14,15 @@ final class UiCoverageThrowingTransitionState extends UiCoverageStateContract
      *
      * @param Model|array<string, mixed>|string|null $record
      *                                                       =======
+<<<<<<< .merge_file_tvN701
      * @param Model|array<string, mixed>|string|null $record
+=======
+     *                                                       <<<<<<< HEAD
+     * @param Model|array<string, mixed>|string|null $record
+     *                                                       =======
+     * @param Model|array<string, mixed>|string|null $record
+     *                                                       >>>>>>> laraxot/dev
+>>>>>>> .merge_file_5pNamr
      *                                                       >>>>>>> laraxot/dev
      */
     public function __construct(Model|array|string|null $record = null)

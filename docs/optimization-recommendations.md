@@ -6,6 +6,7 @@
 
 #### Qualità del Codice
 <<<<<<< HEAD
+<<<<<<< .merge_file_DiCZvA
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -36,13 +37,21 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- **PHPStan level 10**: 12/12 file core certificati
+=======
+>>>>>>> .merge_file_MzYzSM
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
+<<<<<<< .merge_file_DiCZvA
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_MzYzSM
 - **PHPStan Level 9**: 12/12 file core certificati
 =======
 <<<<<<< HEAD
@@ -135,6 +144,7 @@
 - **README.md**: 407 righe (troppo denso)
 - **Informazioni duplicate** tra sezioni
 <<<<<<< HEAD
+<<<<<<< .merge_file_DiCZvA
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -167,6 +177,10 @@
 >>>>>>> laraxot/dev
 - **Esempi troppo specifici** per
 - **Esempi troppo specifici** per
+=======
+- **Esempi troppo specifici** per <nome progetto>
+=======
+>>>>>>> .merge_file_MzYzSM
 - **Esempi troppo specifici** per
 - **Esempi troppo specifici** per
 - **Esempi troppo specifici** per
@@ -182,6 +196,7 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - **Esempi troppo specifici** per
+<<<<<<< .merge_file_DiCZvA
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -200,6 +215,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_MzYzSM
 >>>>>>> laraxot/dev
 
 ## 🔧 RACCOMANDAZIONI SPECIFICHE
@@ -210,6 +227,7 @@
 ```php
 // ❌ PROBLEMI ATTUALI (in documentazione)
 <<<<<<< HEAD
+<<<<<<< .merge_file_DiCZvA
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -242,6 +260,10 @@
 >>>>>>> laraxot/dev
 Modules/UI/
 Modules/UI/
+=======
+/var/www/html/<nome progetto>/laravel/Modules/UI/
+=======
+>>>>>>> .merge_file_MzYzSM
 Modules/UI/
 Modules/UI/
 Modules/UI/
@@ -253,8 +275,11 @@ Modules/UI/
 =======
 <<<<<<< HEAD
 Modules/UI/
+<<<<<<< .merge_file_DiCZvA
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_MzYzSM
 >>>>>>> laraxot/dev
 Modules/UI/
 <<<<<<< HEAD
@@ -304,6 +329,7 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 
 ## 🏆 Quality Achievements
 <<<<<<< HEAD
+<<<<<<< .merge_file_DiCZvA
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -334,13 +360,21 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- ✅ PHPStan level 10 (12/12 files)
+=======
+>>>>>>> .merge_file_MzYzSM
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
+<<<<<<< .merge_file_DiCZvA
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_MzYzSM
 - ✅ PHPStan Level 9 (12/12 files)
 =======
 <<<<<<< HEAD
@@ -446,6 +480,7 @@ class ComponentPerformanceMiddleware
         $duration = (microtime(true) - $start) * 1000;
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_DiCZvA
 =======
 <<<<<<< HEAD
 =======
@@ -462,11 +497,14 @@ class ComponentPerformanceMiddleware
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_MzYzSM
         
         $response = $next($request);
         
         $duration = (microtime(true) - $start) * 1000;
         
+<<<<<<< .merge_file_DiCZvA
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -474,11 +512,14 @@ class ComponentPerformanceMiddleware
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_MzYzSM
 
         $response = $next($request);
         
         $duration = (microtime(true) - $start) * 1000;
 
+<<<<<<< .merge_file_DiCZvA
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -495,6 +536,10 @@ class ComponentPerformanceMiddleware
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_MzYzSM
         if ($duration > 50) {
             Log::warning("Slow component detected", [
                 'component' => $request->route()->getName(),
@@ -502,6 +547,7 @@ class ComponentPerformanceMiddleware
             ]);
         }
 <<<<<<< HEAD
+<<<<<<< .merge_file_DiCZvA
 
 =======
 <<<<<<< HEAD
@@ -540,6 +586,10 @@ class ComponentPerformanceMiddleware
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_MzYzSM
 >>>>>>> laraxot/dev
         return $response;
     }
@@ -614,6 +664,7 @@ php artisan ui:accessibility-check
 
 ### Mantenere Eccellenze
 <<<<<<< HEAD
+<<<<<<< .merge_file_DiCZvA
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -646,6 +697,10 @@ php artisan ui:accessibility-check
 >>>>>>> laraxot/dev
 - **NON toccare** l'architettura PHPStan Level 9
 - **NON toccare** l'architettura PHPStan Level 9
+=======
+- **NON toccare** l'architettura PHPStan level 10
+=======
+>>>>>>> .merge_file_MzYzSM
 - **NON toccare** l'architettura PHPStan Level 9
 - **NON toccare** l'architettura PHPStan Level 9
 - **NON toccare** l'architettura PHPStan Level 9
@@ -657,8 +712,11 @@ php artisan ui:accessibility-check
 =======
 <<<<<<< HEAD
 - **NON toccare** l'architettura PHPStan Level 9
+<<<<<<< .merge_file_DiCZvA
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_MzYzSM
 >>>>>>> laraxot/dev
 - **NON toccare** l'architettura PHPStan Level 9
 <<<<<<< HEAD
@@ -697,11 +755,20 @@ php artisan ui:accessibility-check
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_DiCZvA
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+- [Analisi Moduli Globale](../../../docs/modules_analysis_and_optimization.md)
+- [Components Guide](components.md)
+- [TableLayoutEnum Guide](table-layout-enum-complete-guide.md)
+
+*Ultimo aggiornamento: gennaio 2025*
+=======
+>>>>>>> .merge_file_MzYzSM
 - [Analisi Moduli Globale](../../../../docs/modules_analysis_and_optimization.md)
 - [Components Guide](components.md)
 - [TableLayoutEnum Guide](table-layout-enum-complete-guide.md)
@@ -1314,6 +1381,7 @@ php artisan ui:accessibility-check
 - [Components Guide](components.md)
 - [TableLayoutEnum Guide](table-layout-enum-complete-guide.md)
 
+<<<<<<< .merge_file_DiCZvA
 <<<<<<< HEAD
 =======
 =======
@@ -1345,4 +1413,6 @@ php artisan ui:accessibility-check
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_MzYzSM
 >>>>>>> laraxot/dev

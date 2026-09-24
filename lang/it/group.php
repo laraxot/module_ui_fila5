@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_cgB9Pw
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -68,6 +69,10 @@ return [
 >>>>>>> laraxot/dev
 return [
     'fields' => [
+=======
+return [
+    'fields' => [
+>>>>>>> .merge_file_PPJTEo
         'lavoratore' => ['label' => 'lavoratore', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
         'qua' => ['label' => 'qua', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
         'rep' => ['label' => 'rep', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
@@ -76,17 +81,21 @@ return [
         'diritto' => ['label' => 'diritto', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
         'motivo/invio email' => ['label' => 'motivo/invio email', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
         'motivo/invio_email' => ['label' => 'motivo/invio_email', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
+<<<<<<< .merge_file_cgB9Pw
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_PPJTEo
     ],
     'label' => 'Group',
     'plural_label' => 'Group (Plurale)',
     'navigation' => [
         'name' => 'Group',
         'plural' => 'Group',
+<<<<<<< .merge_file_cgB9Pw
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -97,11 +106,15 @@ return [
             'name' => 'General',
             'description' => 'General Settings',
         ],
+=======
+        'group' => ['name' => 'General', 'description' => 'General Settings'],
+>>>>>>> .merge_file_PPJTEo
         'label' => 'Group',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
+        'icon' => 'heroicon-o-rectangle-stack',
     ],
     'actions' => [
+<<<<<<< .merge_file_cgB9Pw
         'create' => [
             'label' => 'Crea Group',
         ],
@@ -121,14 +134,19 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
     ],
     'actions' => [
+=======
+>>>>>>> .merge_file_PPJTEo
         'create' => ['label' => 'Crea Group'],
         'edit' => ['label' => 'Modifica Group'],
         'delete' => ['label' => 'Elimina Group'],
         'save' => ['label' => 'save', 'icon' => 'save', 'tooltip' => 'save'],
+<<<<<<< .merge_file_cgB9Pw
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_PPJTEo
     ],
 ];

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_OXmyUC
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -28,10 +29,11 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_kjsTLm
 <?php
 
 declare(strict_types=1);
-
 ?>
 @props([
     'title' => 'title 1',

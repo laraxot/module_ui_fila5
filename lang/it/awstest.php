@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_vkD52q
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -39,6 +40,9 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+return [
+>>>>>>> .merge_file_0eHKaq
     'page' => [
         'title' => 'Test AWS Diagnostico',
         'heading' => 'Diagnostica Configurazione AWS',
@@ -180,6 +184,7 @@ return [
         ],
         'label' => 'Awstest',
         'sort' => 1,
+<<<<<<< .merge_file_vkD52q
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
 =======
@@ -193,5 +198,8 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> .merge_file_0eHKaq
     ],
 ];

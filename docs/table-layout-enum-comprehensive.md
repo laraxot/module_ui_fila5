@@ -399,15 +399,24 @@ Restituisce il testo di aiuto tradotto per il layout.
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_ercbjm
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+- [TransTrait Documentation](../../Xot/docs/filament/trans-trait.md)
+- [UI Module Architecture](architecture_rules.md)
+- [Filament Best Practices](../../../docs/filament_best_practices.md)
+- [Translation Standards](../../../docs/translation_standards.md)
+=======
+>>>>>>> .merge_file_MkbDTr
 - [TransTrait Documentation](../../xot/docs/filament/trans-trait.md)
 - [UI Module Architecture](architecture_rules.md)
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
 - [Translation Standards](../../../../docs/translation_standards.md)
+<<<<<<< .merge_file_ercbjm
 <<<<<<< HEAD
 =======
 =======
@@ -420,6 +429,8 @@ Restituisce il testo di aiuto tradotto per il layout.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_MkbDTr
 >>>>>>> laraxot/dev
 - [Table Components](table-components.md)
 

@@ -10,6 +10,7 @@ use PHPUnit\Framework\Assert;
 use function Safe\file_get_contents;
 
 uses(TestCase::class);
+<<<<<<< .merge_file_oBfYcd
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -31,6 +32,8 @@ uses(TestCase::class);
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_7cX4SD
 
 function sixteenComponentsBasePath(): string
 {

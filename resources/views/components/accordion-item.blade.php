@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_1YeElu
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -57,6 +58,12 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<?php
+
+declare(strict_types=1);
+?>
+>>>>>>> .merge_file_24Xhsa
 @props([
     'title' => '',
     'id' => 'item-' . uniqid(),

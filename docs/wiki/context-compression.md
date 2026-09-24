@@ -6,6 +6,7 @@ created: "2026-04-29T00:00:00Z"
 updated: "2026-04-29T00:00:00Z"
 related:
 <<<<<<< HEAD
+<<<<<<< .merge_file_wSdQ4s
   - "[[UI Operating Model]]"
 =======
 <<<<<<< HEAD
@@ -23,6 +24,15 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+  - "./agents.md"
+  - "./bmad-method.md"
+  - "./index.md"
+  - "./log.md"
+  - "./overview.md"
+=======
+  - "[[UI Operating Model]]"
+>>>>>>> .merge_file_IkXbEf
 >>>>>>> laraxot/dev
 ---
 
@@ -82,6 +92,7 @@ qmd query "$1" -c wiki --limit 3 > compressed_result.md
 
 # Estrai keyword principali
 <<<<<<< HEAD
+<<<<<<< .merge_file_wSdQ4s
 qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
 =======
 <<<<<<< HEAD
@@ -119,6 +130,13 @@ qmd search "$1" -c <nome progetto>-docs | head -5 > keywords.txt
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+qmd search "$1" -c <nome progetto>-docs | head -5 > keywords.txt
+qmd search "$1" -c project-docs | head -5 > keywords.txt
+=======
+qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_IkXbEf
 
 # Genera sommario
 qmd multi-get $(qmd search "$1" -c main_docs | head -10) | awk '/^# / {print; getline; print; print ""}' > summary.md

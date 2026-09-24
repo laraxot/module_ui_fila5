@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_fAVYA1
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_6n8vFw
 ---
 title: "Utilizzo dei componenti Blade di Filament"
 type: concept
@@ -12,6 +15,7 @@ tags: [filament, components]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament-components utilizzo dei componenti blade di filament"
+<<<<<<< .merge_file_fAVYA1
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -24,15 +28,26 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_6n8vFw
 related:
   - "./component-registration.md"
 ---
 
+<<<<<<< .merge_file_fAVYA1
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_6n8vFw
 # Utilizzo dei componenti Blade di Filament
 
 ## Regola fondamentale (obbligatoria)
@@ -41,22 +56,30 @@ related:
 
 Wiki modulo: [filament-first-blade-canonical.md](../wiki/concepts/filament-first-blade-canonical.md).
 <<<<<<< HEAD
+<<<<<<< .merge_file_fAVYA1
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_6n8vFw
 # Utilizzo dei componenti Blade di Filament
 
 ## Regola fondamentale
 
 Nel progetto <nome progetto>, esiste una regola fondamentale: **utilizzare sempre i componenti Blade forniti da Filament quando disponibili**, invece di creare componenti personalizzati duplicati.
+<<<<<<< .merge_file_fAVYA1
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_6n8vFw
 
 ## Vantaggi dei componenti Filament
 
@@ -95,6 +118,7 @@ Frontoffice senza Livewire dedicato — pattern [Alpine](https://filamentphp.com
 ```
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_fAVYA1
 Caso Fixcity `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
 =======
 <<<<<<< HEAD
@@ -132,6 +156,13 @@ Caso <nome progetto> `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+| Tabs | `<x-filament::tabs>` | Tab personalizzati |
+Caso <nome progetto> `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
+Caso progetto corrente `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
+=======
+Caso Fixcity `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
+>>>>>>> .merge_file_6n8vFw
 >>>>>>> laraxot/dev
 
 ## Esempi di utilizzo
@@ -212,12 +243,15 @@ Per migrare da componenti personalizzati a componenti Filament:
 
 - [User](../../user/docs/blade/using-filament-components.md) - Implementazione dei componenti profilo con Filament
 <<<<<<< HEAD
+<<<<<<< .merge_file_fAVYA1
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_6n8vFw
 - [Documentazione ufficiale Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components)
 - [Dropdown](https://filamentphp.com/docs/3.x/support/blade-components/dropdown)
 - [Button](https://filamentphp.com/docs/3.x/support/blade-components/button)
@@ -228,8 +262,13 @@ Per migrare da componenti personalizzati a componenti Filament:
 ## Moduli correlati
 
 - [User](../../User/docs/blade/using-filament-components.md) - Implementazione dei componenti profilo con Filament
+<<<<<<< .merge_file_fAVYA1
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_6n8vFw

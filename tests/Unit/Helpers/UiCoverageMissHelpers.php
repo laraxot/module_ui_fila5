@@ -5,10 +5,13 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit\Helpers;
 
 use Modules\Cms\Actions\ResolveLocalizedBlockDataAction;
+<<<<<<< .merge_file_cYEeEE
 <<<<<<< HEAD
 use ReflectionClass;
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_P2ECcY
 
 /**
  * Helper condivisi per sweep coverage UI (evita redeclare tra file Pest).
@@ -17,6 +20,7 @@ final class UiCoverageMissHelpers
 {
     public static function prop(object $target, string $name): mixed
     {
+<<<<<<< .merge_file_cYEeEE
 <<<<<<< HEAD
         $ref = new ReflectionClass($target);
         while ($ref !== false) {
@@ -24,6 +28,10 @@ final class UiCoverageMissHelpers
         $ref = new \ReflectionClass($target);
         while (false !== $ref) {
 >>>>>>> laraxot/dev
+=======
+        $ref = new \ReflectionClass($target);
+        while (false !== $ref) {
+>>>>>>> .merge_file_P2ECcY
             if ($ref->hasProperty($name)) {
                 $prop = $ref->getProperty($name);
                 $prop->setAccessible(true);
@@ -38,6 +46,7 @@ final class UiCoverageMissHelpers
 
     public static function set(object $target, string $name, mixed $value): void
     {
+<<<<<<< .merge_file_cYEeEE
 <<<<<<< HEAD
         $ref = new ReflectionClass($target);
         while ($ref !== false) {
@@ -45,6 +54,10 @@ final class UiCoverageMissHelpers
         $ref = new \ReflectionClass($target);
         while (false !== $ref) {
 >>>>>>> laraxot/dev
+=======
+        $ref = new \ReflectionClass($target);
+        while (false !== $ref) {
+>>>>>>> .merge_file_P2ECcY
             if ($ref->hasProperty($name)) {
                 $prop = $ref->getProperty($name);
                 $prop->setAccessible(true);

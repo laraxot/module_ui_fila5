@@ -61,6 +61,7 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 
 ## Rischi
 <<<<<<< HEAD
+<<<<<<< .merge_file_FUOIs1
 =======
 <<<<<<< HEAD
 =======
@@ -77,6 +78,8 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_6lcJHa
 # UI Module - Product Launch Plan
 
 **Module:** UI  
@@ -159,6 +162,7 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 
 ---
 
+<<<<<<< .merge_file_FUOIs1
 <<<<<<< HEAD
 *Last Updated: March 12, 2026*
 =======
@@ -258,6 +262,10 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+*Last Updated: March 12, 2026*
+=======
+>>>>>>> .merge_file_6lcJHa
 >>>>>>> laraxot/dev
 
 - lancio di superfici non ancora supportate dal backend

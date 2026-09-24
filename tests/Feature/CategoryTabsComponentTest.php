@@ -9,6 +9,7 @@ use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
+<<<<<<< .merge_file_tgQFHv
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -19,6 +20,8 @@ uses(TestCase::class);
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 // Laraxot module file — see docs/wiki for domain contract.
+=======
+>>>>>>> .merge_file_ZwS1aL
 
 /**
  * @param array<string, mixed> $data
@@ -39,6 +42,7 @@ function renderCategoryTabsHtml(array $data = []): ?string
     }
 
     try {
+<<<<<<< .merge_file_tgQFHv
 <<<<<<< HEAD
         return View::make('pub_theme::components.blocks.navigation.category-tabs', $data)->render();
 =======
@@ -56,6 +60,12 @@ function renderCategoryTabsHtml(array $data = []): ?string
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        /** @var view-string $viewName */
+        $viewName = 'pub_theme::components.blocks.navigation.category-tabs';
+
+        return View::make($viewName, $data)->render();
+>>>>>>> .merge_file_ZwS1aL
     } catch (\Throwable) {
         return null;
     }

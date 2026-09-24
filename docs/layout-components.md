@@ -150,9 +150,13 @@ $breakpoints: (
 >>>>>>> laraxot/dev
 - [Accessibilità](./standards/accessibility.md)
 # Componenti Layout
+<<<<<<< HEAD
+## 📐 Struttura Base
+=======
 
 ## 📐 Struttura Base
 
+<<<<<<< .merge_file_3zePlE
 <<<<<<< HEAD
 =======
 =======
@@ -180,6 +184,8 @@ $breakpoints: (
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ydSnRx
 >>>>>>> laraxot/dev
 ### Container
 ```html
@@ -187,11 +193,19 @@ $breakpoints: (
   <!-- Contenuto -->
 </div>
 <<<<<<< HEAD
+<<<<<<< .merge_file_3zePlE
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<div class="container-fluid">
+  <!-- Contenuto a larghezza piena -->
+```
+### Grid System
+=======
+>>>>>>> .merge_file_ydSnRx
 
 <div class="container-fluid">
   <!-- Contenuto a larghezza piena -->
@@ -200,6 +214,7 @@ $breakpoints: (
 
 ### Grid System
 ```html
+<<<<<<< .merge_file_3zePlE
 <<<<<<< HEAD
 =======
 =======
@@ -212,20 +227,28 @@ $breakpoints: (
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ydSnRx
 >>>>>>> laraxot/dev
 <div class="row">
   <div class="col-md-6">
     <!-- Colonna 1 -->
   </div>
 <<<<<<< HEAD
+<<<<<<< .merge_file_3zePlE
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> .merge_file_ydSnRx
     <!-- Colonna 2 -->
 ## 🎯 Layout Specifici
 ### Header
 =======
+<<<<<<< .merge_file_3zePlE
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ydSnRx
   <div class="col-md-6">
     <!-- Colonna 2 -->
   </div>
@@ -236,6 +259,7 @@ $breakpoints: (
 
 ### Header
 ```html
+<<<<<<< .merge_file_3zePlE
 <<<<<<< HEAD
 =======
 =======
@@ -244,12 +268,15 @@ $breakpoints: (
 ### Header
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ydSnRx
 >>>>>>> laraxot/dev
 <header class="header">
   <div class="header-brand">
     <img src="logo.png" alt="Logo">
     <h1>Nome Applicazione</h1>
 <<<<<<< HEAD
+<<<<<<< .merge_file_3zePlE
   </div>
 =======
 <<<<<<< HEAD
@@ -259,6 +286,10 @@ $breakpoints: (
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+  </div>
+>>>>>>> .merge_file_ydSnRx
 >>>>>>> laraxot/dev
   <nav class="header-nav">
     <!-- Menu -->
@@ -266,11 +297,20 @@ $breakpoints: (
   <div class="header-actions">
     <!-- Azioni -->
 <<<<<<< HEAD
+<<<<<<< .merge_file_3zePlE
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+</header>
+### Sidebar
+<aside class="sidebar">
+  <div class="sidebar-header">
+    <h2>Menu</h2>
+=======
+>>>>>>> .merge_file_ydSnRx
   </div>
 </header>
 ```
@@ -281,6 +321,7 @@ $breakpoints: (
   <div class="sidebar-header">
     <h2>Menu</h2>
   </div>
+<<<<<<< .merge_file_3zePlE
 <<<<<<< HEAD
 =======
 =======
@@ -294,6 +335,8 @@ $breakpoints: (
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ydSnRx
 >>>>>>> laraxot/dev
   <nav class="sidebar-nav">
     <ul>
@@ -306,6 +349,7 @@ $breakpoints: (
       <!-- Altri elementi menu -->
     </ul>
 <<<<<<< HEAD
+<<<<<<< .merge_file_3zePlE
 =======
 <<<<<<< HEAD
 </aside>
@@ -313,12 +357,18 @@ $breakpoints: (
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+</aside>
+### Footer
+=======
+>>>>>>> .merge_file_ydSnRx
   </nav>
 </aside>
 ```
 
 ### Footer
 ```html
+<<<<<<< .merge_file_3zePlE
 <<<<<<< HEAD
 =======
 =======
@@ -326,6 +376,8 @@ $breakpoints: (
 ### Footer
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ydSnRx
 >>>>>>> laraxot/dev
 <footer class="footer">
   <div class="footer-content">
@@ -334,11 +386,21 @@ $breakpoints: (
       <!-- Contatti -->
     </div>
 <<<<<<< HEAD
+<<<<<<< .merge_file_3zePlE
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+      <h3>Link Utili</h3>
+      <!-- Link -->
+  <div class="footer-bottom">
+    <p>&copy; 2024 Nome Applicazione</p>
+</footer>
+## 📱 Responsive
+=======
+>>>>>>> .merge_file_ydSnRx
     <div class="footer-section">
       <h3>Link Utili</h3>
       <!-- Link -->
@@ -352,6 +414,7 @@ $breakpoints: (
 
 ## 📱 Responsive
 
+<<<<<<< .merge_file_3zePlE
 <<<<<<< HEAD
 =======
 =======
@@ -366,6 +429,8 @@ $breakpoints: (
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ydSnRx
 >>>>>>> laraxot/dev
 ### Breakpoints
 ```scss
@@ -378,22 +443,30 @@ $breakpoints: (
   'xxl': 1400px
 );
 <<<<<<< HEAD
+<<<<<<< .merge_file_3zePlE
 =======
 <<<<<<< HEAD
 ### Media Queries
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+### Media Queries
+=======
+>>>>>>> .merge_file_ydSnRx
 ```
 
 ### Media Queries
 ```scss
+<<<<<<< .merge_file_3zePlE
 <<<<<<< HEAD
 =======
 =======
 ### Media Queries
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ydSnRx
 >>>>>>> laraxot/dev
 @mixin media-up($breakpoint) {
   @if map-has-key($breakpoints, $breakpoint) {
@@ -403,6 +476,7 @@ $breakpoints: (
   }
 }
 <<<<<<< HEAD
+<<<<<<< .merge_file_3zePlE
 
 =======
 <<<<<<< HEAD
@@ -412,17 +486,43 @@ $breakpoints: (
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_ydSnRx
 >>>>>>> laraxot/dev
 // Utilizzo
 .element {
   @include media-up('md') {
     // Stili per schermi md e superiori
 <<<<<<< HEAD
+<<<<<<< .merge_file_3zePlE
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+## 🎨 Utility
+### Spacing
+<div class="m-3 p-3">Margine e padding</div>
+<div class="mt-2 mb-4">Margine top e bottom</div>
+<div class="px-4">Padding orizzontale</div>
+### Display
+<div class="d-flex">Flexbox</div>
+<div class="d-grid">Grid</div>
+<div class="d-none d-md-block">Nascosto su mobile</div>
+### Position
+<div class="position-relative">
+  <div class="position-absolute top-0 end-0">
+    <!-- Elemento posizionato -->
+## 🔗 Collegamenti
+- [Componenti Base](./base-components.md)
+- [Performance](./standards/performance.md)
+
+```
+=======
+>>>>>>> .merge_file_ydSnRx
   }
 }
 ```
@@ -456,6 +556,7 @@ $breakpoints: (
 - [Componenti Base](./base-components.md)
 - [Performance](./standards/performance.md)
 - [Accessibilità](./standards/accessibility.md)
+<<<<<<< .merge_file_3zePlE
 <<<<<<< HEAD
 =======
 =======
@@ -500,4 +601,6 @@ $breakpoints: (
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ydSnRx
 >>>>>>> laraxot/dev

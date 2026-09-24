@@ -2,6 +2,7 @@
 
 ## Data
 <<<<<<< HEAD
+<<<<<<< .merge_file_GaK4SO
 [DATE]
 =======
 <<<<<<< HEAD
@@ -13,6 +14,11 @@
 2025-01-06
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+2025-01-06
+=======
+[DATE]
+>>>>>>> .merge_file_C7lyl1
 >>>>>>> laraxot/dev
 
 ## Strumenti Utilizzati
@@ -63,15 +69,24 @@ Eseguire `./vendor/bin/rector process Modules/UI --dry-run` per vedere le modifi
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_GaK4SO
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+- [Module Analysis Report](../../../docs/module-analysis-report-2025-01-06.md)
+- [PHPStan Level 10 Fixes](../../../docs/phpstan-level10-fixes-2025-01-06.md)
+
+*Ultimo aggiornamento: 2025-01-06*
+=======
+>>>>>>> .merge_file_C7lyl1
 - [Module Analysis Report](../../../../docs/module-analysis-report-[date].md)
 - [PHPStan Level 10 Fixes](../../../../docs/phpstan-level10-fixes-[date].md)
 
 *Ultimo aggiornamento: [DATE]*
+<<<<<<< .merge_file_GaK4SO
 <<<<<<< HEAD
 =======
 =======
@@ -84,4 +99,6 @@ Eseguire `./vendor/bin/rector process Modules/UI --dry-run` per vedere le modifi
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_C7lyl1
 >>>>>>> laraxot/dev

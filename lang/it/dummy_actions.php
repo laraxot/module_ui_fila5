@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_1xNZwf
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -18,6 +19,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Utmv1C
 return [
     'fields' => [
         'azioni' => [
@@ -85,6 +88,7 @@ return [
         ],
         'label' => 'Dummy Actions',
         'sort' => 1,
+<<<<<<< .merge_file_1xNZwf
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
 =======
@@ -98,5 +102,8 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> .merge_file_Utmv1C
     ],
 ];

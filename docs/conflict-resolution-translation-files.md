@@ -32,6 +32,7 @@ return array (
     'actions' =>
     array (
         'create' =>
+<<<<<<< .merge_file_fwUF7T
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84,6 +85,13 @@ return array (
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+    array (
+        'create' => 
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rsME3h
         array (
             'label' => 'create',
         ),
@@ -158,6 +166,7 @@ return array (
   'actions' =>
   array (
     'create' =>
+<<<<<<< .merge_file_fwUF7T
 >>>>>>> laraxot/dev
 =======
   'actions' => 
@@ -175,6 +184,13 @@ return array (
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+  array (
+    'create' => 
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rsME3h
     array (
       'label' => 'create',
     ),
@@ -239,6 +255,7 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 ## Collegamenti Correlati
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_fwUF7T
 - [Translation Standards](../../../../docs/translation-standards.md)
 =======
 <<<<<<< HEAD
@@ -250,6 +267,11 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 - [Translation Standards](../../../docs/translation-standards.md)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- [Translation Standards](../../../docs/translation-standards.md)
+=======
+- [Translation Standards](../../../../docs/translation-standards.md)
+>>>>>>> .merge_file_rsME3h
 >>>>>>> laraxot/dev
 - [PHP Strict Types](./strict_types_implementation.md)
 - [UI Module Structure](./structure.md)
@@ -277,6 +299,14 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 =======
 >>>>>>> laraxot/dev
 # Risoluzione Conflitti File di Traduzione UI
+<<<<<<< HEAD
+## Problema Identificato
+I file di traduzione nel modulo UI presentano conflitti Git relativi a:
+1. **Dichiarazione `declare(strict_types=1);`** - Presenza vs assenza
+2. **Sintassi array** - Sintassi breve `[]` vs sintassi vecchia `array()`
+3. **Struttura traduzioni** - Struttura espansa vs struttura semplificata
+## Analisi dei Conflitti
+=======
 
 ## Problema Identificato
 
@@ -288,6 +318,7 @@ I file di traduzione nel modulo UI presentano conflitti Git relativi a:
 
 ## Analisi dei Conflitti
 
+<<<<<<< .merge_file_fwUF7T
 <<<<<<< HEAD
 =======
 =======
@@ -320,12 +351,15 @@ I file di traduzione nel modulo UI presentano conflitti Git relativi a:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_rsME3h
 >>>>>>> laraxot/dev
 ### Conflitto 1: Dichiarazione Strict Types
 ```php
 declare(strict_types=1);
 ```
 <<<<<<< HEAD
+<<<<<<< .merge_file_fwUF7T
 
 ### Conflitto 2: Sintassi Array
 ```php
@@ -341,6 +375,13 @@ declare(strict_types=1);
 ### Conflitto 2: Sintassi Array
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+### Conflitto 2: Sintassi Array
+=======
+
+### Conflitto 2: Sintassi Array
+```php
+>>>>>>> .merge_file_rsME3h
 >>>>>>> laraxot/dev
 // HEAD (sintassi moderna)
 return [
@@ -351,6 +392,7 @@ return [
     ],
 ];
 <<<<<<< HEAD
+<<<<<<< .merge_file_fwUF7T
 
 =======
 <<<<<<< HEAD
@@ -360,6 +402,10 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_rsME3h
 >>>>>>> laraxot/dev
 // BRANCH (sintassi vecchia)
 return array (
@@ -368,11 +414,20 @@ return array (
         'create' =>
         array (
 <<<<<<< HEAD
+<<<<<<< .merge_file_fwUF7T
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+        ),
+    ),
+);
+## Soluzione Implementata
+### Criteri di Risoluzione
+=======
+>>>>>>> .merge_file_rsME3h
             'label' => 'create',
         ),
     ),
@@ -383,6 +438,7 @@ return array (
 
 ### Criteri di Risoluzione
 
+<<<<<<< .merge_file_fwUF7T
 <<<<<<< HEAD
 =======
 =======
@@ -396,6 +452,8 @@ return array (
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_rsME3h
 >>>>>>> laraxot/dev
 1. **Standard PHP Moderni**: Utilizzare `declare(strict_types=1);` per type safety
 2. **Sintassi Breve**: Utilizzare `[]` invece di `array()` per coerenza
@@ -403,6 +461,7 @@ return array (
 4. **Consistenza**: Seguire le convenzioni Laraxot PTVX
 5. **Manutenibilità**: Migliorare la robustezza del codice
 <<<<<<< HEAD
+<<<<<<< .merge_file_fwUF7T
 
 ### Scelta: Versione HEAD (con miglioramenti)
 
@@ -418,6 +477,13 @@ return array (
 ### Scelta: Versione HEAD (con miglioramenti)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+### Scelta: Versione HEAD (con miglioramenti)
+=======
+
+### Scelta: Versione HEAD (con miglioramenti)
+
+>>>>>>> .merge_file_rsME3h
 >>>>>>> laraxot/dev
 **Motivazione**:
 - `declare(strict_types=1);` è una best practice moderna di PHP
@@ -426,11 +492,27 @@ return array (
 - Migliora la type safety del codice
 - È coerente con gli standard del progetto
 <<<<<<< HEAD
+<<<<<<< .merge_file_fwUF7T
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+### Risoluzione Dettagliata
+#### File: `/Modules/UI/lang/it/field_option.php`
+// PRIMA (conflitto)
+  'actions' =>
+  array (
+    'create' =>
+      'label' => 'create',
+  ),
+// DOPO (risolto)
+<?php
+## Giustificazione Tecnica
+### Perché `declare(strict_types=1);`?
+=======
+>>>>>>> .merge_file_rsME3h
 
 ### Risoluzione Dettagliata
 
@@ -468,6 +550,7 @@ return [
 
 ### Perché `declare(strict_types=1);`?
 
+<<<<<<< .merge_file_fwUF7T
 <<<<<<< HEAD
 =======
 =======
@@ -488,14 +571,21 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_rsME3h
 >>>>>>> laraxot/dev
 1. **Type Safety**: Previene conversioni automatiche di tipo che potrebbero causare bug
 2. **Standard Moderno**: È una best practice raccomandata per PHP 7+
 3. **Consistenza**: Mantiene coerenza con altri file del progetto
 4. **Debugging**: Aiuta a identificare errori di tipo più rapidamente
 <<<<<<< HEAD
+<<<<<<< .merge_file_fwUF7T
 
 ### Perché Sintassi Breve `[]`?
+=======
+### Perché Sintassi Breve `[]`?
+=======
+>>>>>>> .merge_file_rsME3h
 
 =======
 <<<<<<< HEAD
@@ -503,18 +593,22 @@ return [
 =======
 <<<<<<< HEAD
 
+<<<<<<< .merge_file_fwUF7T
 ### Perché Sintassi Breve `[]`?
 
 =======
 ### Perché Sintassi Breve `[]`?
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_rsME3h
 >>>>>>> laraxot/dev
 1. **Leggibilità**: Più concisa e facile da leggere
 2. **Standard Moderno**: Sintassi raccomandata da PHP 5.4+
 3. **Consistenza**: Coerente con il resto del codebase
 4. **Manutenibilità**: Più facile da mantenere e modificare
 <<<<<<< HEAD
+<<<<<<< .merge_file_fwUF7T
 
 ### Struttura Traduzioni Espansa
 
@@ -530,12 +624,20 @@ return [
 ### Struttura Traduzioni Espansa
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+### Struttura Traduzioni Espansa
+=======
+
+### Struttura Traduzioni Espansa
+
+>>>>>>> .merge_file_rsME3h
 >>>>>>> laraxot/dev
 1. **Completezza**: Supporta label, placeholder, help text
 2. **Internazionalizzazione**: Facilita la gestione multilingua
 3. **Standard Laraxot**: Segue le convenzioni del framework
 4. **Manutenibilità**: Struttura chiara e organizzata
 <<<<<<< HEAD
+<<<<<<< .merge_file_fwUF7T
 
 ## Impatto
 
@@ -551,6 +653,13 @@ return [
 ## Impatto
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+## Impatto
+=======
+
+## Impatto
+
+>>>>>>> .merge_file_rsME3h
 >>>>>>> laraxot/dev
 - ✅ Miglioramento della type safety
 - ✅ Conformità agli standard PHP moderni
@@ -559,6 +668,7 @@ return [
 - ✅ Miglioramento della leggibilità del codice
 - ✅ Struttura traduzioni più robusta
 <<<<<<< HEAD
+<<<<<<< .merge_file_fwUF7T
 =======
 <<<<<<< HEAD
 ## Pattern di Risoluzione per Altri File
@@ -566,11 +676,17 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+## Pattern di Risoluzione per Altri File
+Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
+=======
+>>>>>>> .merge_file_rsME3h
 
 ## Pattern di Risoluzione per Altri File
 
 Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 
+<<<<<<< .merge_file_fwUF7T
 <<<<<<< HEAD
 =======
 =======
@@ -578,17 +694,29 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_rsME3h
 >>>>>>> laraxot/dev
 1. **Aggiungere** `declare(strict_types=1);` se mancante
 2. **Convertire** sintassi `array()` in `[]`
 3. **Mantenere** struttura espansa delle traduzioni
 4. **Verificare** coerenza con standard Laraxot PTVX
 <<<<<<< HEAD
+<<<<<<< .merge_file_fwUF7T
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+## Collegamenti Correlati
+- [Translation Standards](../../../project_docs/translation-standards.md)
+- [PHP Strict Types](./strict_types_implementation.md)
+- [UI Module Structure](./structure.md)
+- [Best Practices](./best-practices.md)
+## Note per Sviluppatori Futuri
+=======
+>>>>>>> .merge_file_rsME3h
 
 ## Collegamenti Correlati
 
@@ -599,6 +727,7 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 
 ## Note per Sviluppatori Futuri
 
+<<<<<<< .merge_file_fwUF7T
 <<<<<<< HEAD
 =======
 =======
@@ -613,14 +742,21 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_rsME3h
 >>>>>>> laraxot/dev
 1. **Strict Types**: Utilizzare sempre `declare(strict_types=1);` nei file PHP
 2. **Sintassi Array**: Preferire sempre `[]` a `array()`
 3. **Traduzioni**: Mantenere struttura espansa per completezza
 4. **Consistenza**: Seguire sempre gli standard Laraxot PTVX
 <<<<<<< HEAD
+<<<<<<< .merge_file_fwUF7T
 
 ## Data Risoluzione
+=======
+## Data Risoluzione
+=======
+>>>>>>> .merge_file_rsME3h
 
 =======
 <<<<<<< HEAD
@@ -628,18 +764,22 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 =======
 <<<<<<< HEAD
 
+<<<<<<< .merge_file_fwUF7T
 ## Data Risoluzione
 
 =======
 ## Data Risoluzione
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_rsME3h
 >>>>>>> laraxot/dev
 - **Data**: 29 Luglio 2025
 - **Modulo**: UI
 - **File**: Multipli file di traduzione
 - **Tipo Conflitto**: Dichiarazione PHP e sintassi array
 <<<<<<< HEAD
+<<<<<<< .merge_file_fwUF7T
 - **Scelta**: Versione HEAD (con strict types e sintassi moderna)
 =======
 <<<<<<< HEAD
@@ -670,4 +810,8 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+- **Scelta**: Versione HEAD (con strict types e sintassi moderna)
+>>>>>>> .merge_file_rsME3h
 >>>>>>> laraxot/dev

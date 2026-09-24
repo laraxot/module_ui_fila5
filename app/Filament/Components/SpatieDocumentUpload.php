@@ -100,6 +100,7 @@ final class SpatieDocumentUpload
     {
         return self::make('certifications', 'certificazioni_professionali')
             ->multiple()
+<<<<<<< .merge_file_V5jE6n
 <<<<<<< HEAD
             ->enableReordering()
 =======
@@ -113,6 +114,9 @@ final class SpatieDocumentUpload
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+            ->reorderable()
+>>>>>>> .merge_file_IilNwm
             ->maxFiles(10) // Max 10 certificazioni per dottore
             ->acceptedFileTypes(['application/pdf'])
             ->maxSize(10240); // 10MB per certificazioni multiple

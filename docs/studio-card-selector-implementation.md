@@ -244,6 +244,7 @@ return [
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
 <<<<<<< HEAD
+<<<<<<< .merge_file_bCpari
 
 
 =======
@@ -259,6 +260,13 @@ return [
 **Last Updated**: January 2025
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+=======
+
+
+>>>>>>> .merge_file_7dmUyq
 >>>>>>> laraxot/dev
         ],
 
@@ -266,7 +274,13 @@ return [
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
 <<<<<<< HEAD
+<<<<<<< .merge_file_bCpari
 
+=======
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+=======
+>>>>>>> .merge_file_7dmUyq
 
 =======
 <<<<<<< HEAD
@@ -275,12 +289,15 @@ return [
 =======
 <<<<<<< HEAD
 
+<<<<<<< .merge_file_bCpari
 
 =======
 **Last Updated**: January 2025
 **Last Updated**: January 2025
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_7dmUyq
 >>>>>>> laraxot/dev
         ],
         'phone' => [
@@ -311,18 +328,24 @@ return [
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
 <<<<<<< HEAD
+<<<<<<< .merge_file_bCpari
 
 
 
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> .merge_file_7dmUyq
 **Last Updated**: January 2025
 **Last Updated**: January 2025
 **Last Updated**: January 2025
 =======
+<<<<<<< .merge_file_bCpari
 <<<<<<< HEAD
 
 
+=======
+>>>>>>> .merge_file_7dmUyq
 
 =======
 **Last Updated**: January 2025
@@ -338,12 +361,22 @@ return [
 =======
 <<<<<<< HEAD
 
+>>>>>>> laraxot/dev
 
 >>>>>>> laraxot/dev
 
 ---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
+<<<<<<< HEAD
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+---
+**Component Status**: 📋 Documented - Ready for Implementation
+**Reusability**: 🔄 High - Cross-module compatible
+**Last Updated**: January 2025
+=======
 
 <<<<<<< HEAD
 
@@ -352,6 +385,7 @@ return [
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
 
+<<<<<<< .merge_file_bCpari
 =======
 =======
 >>>>>>> laraxot/dev
@@ -366,6 +400,8 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_7dmUyq
 >>>>>>> laraxot/dev
 # StudioCardSelector Component - Modulo UI
 
@@ -397,6 +433,7 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 ### Classe PHP
+<<<<<<< .merge_file_bCpari
 ```
 
 <<<<<<< HEAD
@@ -404,6 +441,13 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+```
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_7dmUyq
 ```php
 // Modules/UI/app/Forms/Components/StudioCardSelector.php
 <?php
@@ -420,6 +464,7 @@ class StudioCardSelector extends Field
 {
     protected string $view = 'ui::forms.components.studio-card-selector';
 <<<<<<< HEAD
+<<<<<<< .merge_file_bCpari
 =======
 <<<<<<< HEAD
 =======
@@ -441,10 +486,13 @@ class StudioCardSelector extends Field
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_7dmUyq
     
     // Dati studios da visualizzare
     protected Collection|Closure|null $studios = null;
     
+<<<<<<< .merge_file_bCpari
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -461,6 +509,10 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_7dmUyq
 
     // Dati studios da visualizzare
     protected Collection|Closure|null $studios = null;
@@ -984,6 +1036,7 @@ private function getStudiosForLocation(Get $get): Collection
     $province = $get('province');
     $region = $get('region');
 
+<<<<<<< .merge_file_bCpari
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1011,6 +1064,9 @@ private function getStudiosForLocation(Get $get): Collection
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_7dmUyq
     $province = $get('province'); 
     $region = $get('region');
     
@@ -1019,11 +1075,15 @@ private function getStudiosForLocation(Get $get): Collection
     }
     
     return \Modules\<nome progetto>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
+<<<<<<< .merge_file_bCpari
 <<<<<<< HEAD
+=======
+>>>>>>> .merge_file_7dmUyq
     $province = $get('province');
     $region = $get('region');
     
 =======
+<<<<<<< .merge_file_bCpari
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1040,6 +1100,8 @@ private function getStudiosForLocation(Get $get): Collection
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_7dmUyq
 >>>>>>> laraxot/dev
     if (!$cap || !$province || !$region) {
         return collect();
@@ -1125,11 +1187,28 @@ return [
 - [Form Components Guide](./form-components.md)
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_bCpari
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+### Modulo <nome progetto>
+- [Widget Analysis](../<nome progetto>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
+
+---
+
+**Component Status**: 📋 Documented - Ready for Implementation  
+**Reusability**: 🔄 High - Cross-module compatible  
+**Last Updated**: January 2025
+### Modulo Generico
+- [Widget Analysis](../<nome modulo>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
+---
+**Component Status**: 📋 Documented - Ready for Implementation
+**Reusability**: 🔄 High - Cross-module compatible
+=======
+>>>>>>> .merge_file_7dmUyq
 ### Modulo Generico
 - [Widget Analysis](../<nome modulo>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
 ### Modulo Generico
@@ -1144,6 +1223,7 @@ return [
 
 
 
+<<<<<<< .merge_file_bCpari
 <<<<<<< HEAD
 =======
 =======
@@ -1223,4 +1303,6 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_7dmUyq
 >>>>>>> laraxot/dev

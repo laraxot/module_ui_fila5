@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_k3pXoe
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_gvCPQE
 ---
 title: "Form Component"
 type: concept
@@ -12,6 +15,7 @@ tags: [form, component]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "form-component form component"
+<<<<<<< .merge_file_k3pXoe
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -24,6 +28,12 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_gvCPQE
 related:
   - "./bottlenecks.md"
   - "./component-system.md"
@@ -31,11 +41,16 @@ related:
   - "./theme-system.md"
 ---
 
+<<<<<<< .merge_file_k3pXoe
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_gvCPQE
 # Form Component
 
 ## 📊 Stato Implementazione

@@ -64,6 +64,7 @@ Portare **UI** a uno stato in cui il progetto ottiene un vantaggio netto e misur
 
 ## Regola architetturale
 <<<<<<< HEAD
+<<<<<<< .merge_file_QgDfPB
 =======
 <<<<<<< HEAD
 =======
@@ -80,6 +81,8 @@ Portare **UI** a uno stato in cui il progetto ottiene un vantaggio netto e misur
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_UCPrBV
 # UI Module - Product Strategy
 
 **Module:** UI  
@@ -170,6 +173,7 @@ Easy to use and extend.
 
 ---
 
+<<<<<<< .merge_file_QgDfPB
 <<<<<<< HEAD
 *Last Updated: March 12, 2026*
 =======
@@ -232,6 +236,10 @@ Easy to use and extend.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+*Last Updated: March 12, 2026*
+=======
+>>>>>>> .merge_file_UCPrBV
 >>>>>>> laraxot/dev
 
 - Action-first: niente generic `Services` per la business logic

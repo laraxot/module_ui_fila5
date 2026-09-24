@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_oUeQNa
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -30,10 +31,11 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_CwHLdP
 <?php
 
 declare(strict_types=1);
-
 ?>
 {{--
     Service Card Component - Card servizio riutilizzabile per servizi comunali/aziendali

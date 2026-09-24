@@ -56,11 +56,25 @@ Forms\Components\FileUpload::make('certifications')
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< .merge_file_YyxhJ8
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+- [README](../../Patient/docs/README.md)
+- [Filament Resources](../../Patient/docs/filament-resources.md)
+- [Form Components](../../Patient/docs/filament-form-components.md)
+
+## Vedi Anche
+- [Filament FileUpload Documentation](https://filamentphp.com/docs/forms/fields#file-upload)
+- [Best Practices](../../Xot/docs/filament-best-practices.md)
+# Componenti FileUpload in Filament
+## Errore Comune: prefixIcon
+Il metodo `prefixIcon()` non esiste nel componente FileUpload di Filament. Questo è un errore comune quando si confondono i componenti TextInput (che hanno il metodo prefixIcon) con i componenti FileUpload.
+=======
+>>>>>>> .merge_file_5VBj22
 - [README](../../patient/docs/readme.md)
 - [Filament Resources](../../patient/docs/filament-resources.md)
 - [Form Components](../../patient/docs/filament-form-components.md)
@@ -73,6 +87,7 @@ Forms\Components\FileUpload::make('certifications')
 ## Errore Comune: prefixIcon
 Il metodo `prefixIcon()` non esiste nel componente FileUpload di Filament. Questo è un errore comune quando si confondono i componenti TextInput (che hanno il metodo prefixIcon) con i componenti FileUpload.
 
+<<<<<<< .merge_file_YyxhJ8
 <<<<<<< HEAD
 =======
 =======
@@ -107,6 +122,8 @@ Il metodo `prefixIcon()` non esiste nel componente FileUpload di Filament. Quest
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_5VBj22
 >>>>>>> laraxot/dev
 ### ❌ Errato
 ```php
@@ -115,22 +132,30 @@ Forms\Components\FileUpload::make('certifications')
     ->label('Certificazioni');
 ```
 <<<<<<< HEAD
+<<<<<<< .merge_file_YyxhJ8
 =======
 <<<<<<< HEAD
 ### ✅ Corretto
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+### ✅ Corretto
+=======
+>>>>>>> .merge_file_5VBj22
 
 ### ✅ Corretto
 ```php
 Forms\Components\FileUpload::make('certifications')
+<<<<<<< .merge_file_YyxhJ8
 <<<<<<< HEAD
 =======
 =======
 ### ✅ Corretto
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_5VBj22
 >>>>>>> laraxot/dev
     ->label('Certificazioni')
     ->icon('heroicon-o-document-text') // Usare icon() invece di prefixIcon()
@@ -140,22 +165,30 @@ Forms\Components\FileUpload::make('certifications')
     ->acceptedFileTypes(['application/pdf'])
     ->maxSize(10240);
 <<<<<<< HEAD
+<<<<<<< .merge_file_YyxhJ8
 =======
 <<<<<<< HEAD
 ## Metodi Disponibili per FileUpload
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+## Metodi Disponibili per FileUpload
+=======
+>>>>>>> .merge_file_5VBj22
 ```
 
 ## Metodi Disponibili per FileUpload
 
+<<<<<<< .merge_file_YyxhJ8
 <<<<<<< HEAD
 =======
 =======
 ## Metodi Disponibili per FileUpload
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_5VBj22
 >>>>>>> laraxot/dev
 ### Metodi Base
 - `make(string $name)`: Crea una nuova istanza del componente
@@ -167,6 +200,7 @@ Forms\Components\FileUpload::make('certifications')
 - `acceptedFileTypes(array $types)`: Imposta i tipi di file accettati
 - `maxSize(int $size)`: Imposta la dimensione massima del file in KB
 <<<<<<< HEAD
+<<<<<<< .merge_file_YyxhJ8
 
 ### Best Practices
 
@@ -182,6 +216,13 @@ Forms\Components\FileUpload::make('certifications')
 ### Best Practices
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+### Best Practices
+=======
+
+### Best Practices
+
+>>>>>>> .merge_file_5VBj22
 >>>>>>> laraxot/dev
 1. **UI/UX**
    - Usare icone appropriate per il tipo di file
@@ -189,6 +230,7 @@ Forms\Components\FileUpload::make('certifications')
    - Mostrare preview dei file quando possibile
    - Implementare validazione client-side
 <<<<<<< HEAD
+<<<<<<< .merge_file_YyxhJ8
 
 =======
 <<<<<<< HEAD
@@ -198,6 +240,10 @@ Forms\Components\FileUpload::make('certifications')
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_5VBj22
 >>>>>>> laraxot/dev
 2. **Sicurezza**
    - Limitare i tipi di file accettati
@@ -205,6 +251,7 @@ Forms\Components\FileUpload::make('certifications')
    - Validare i file lato server
    - Usare nomi file sicuri
 <<<<<<< HEAD
+<<<<<<< .merge_file_YyxhJ8
 
 =======
 <<<<<<< HEAD
@@ -214,6 +261,10 @@ Forms\Components\FileUpload::make('certifications')
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_5VBj22
 >>>>>>> laraxot/dev
 3. **Performance**
    - Ottimizzare la dimensione dei file
@@ -221,11 +272,23 @@ Forms\Components\FileUpload::make('certifications')
    - Gestire correttamente gli errori
    - Fornire feedback di progresso
 <<<<<<< HEAD
+<<<<<<< .merge_file_YyxhJ8
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+## Collegamenti
+- [README](../../Patient/project_docs/README.md)
+- [Filament Resources](../../Patient/project_docs/filament-resources.md)
+- [Form Components](../../Patient/project_docs/filament-form-components.md)
+
+## Vedi Anche
+- [Filament FileUpload Documentation](https://filamentphp.com/project_docs/forms/fields#file-upload)
+- [Best Practices](../../Xot/project_docs/filament-best-practices.md)
+=======
+>>>>>>> .merge_file_5VBj22
 
 ## Collegamenti
 - [README](../../patient/project_docs/readme.md)
@@ -235,6 +298,7 @@ Forms\Components\FileUpload::make('certifications')
 ## Vedi Anche
 - [Filament FileUpload Documentation](https://filamentphp.com/project_docs/forms/fields#file-upload)
 - [Best Practices](../../xot/project_docs/filament-best-practices.md)
+<<<<<<< .merge_file_YyxhJ8
 <<<<<<< HEAD
 =======
 =======
@@ -287,4 +351,6 @@ Forms\Components\FileUpload::make('certifications')
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_5VBj22
 >>>>>>> laraxot/dev

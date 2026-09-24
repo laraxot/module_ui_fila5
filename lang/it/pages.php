@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_5OiRgZ
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -18,6 +19,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_nvgfIz
 return [
     's3test' => [
         'heading' => 'Test',
@@ -75,6 +78,7 @@ return [
         ],
         'label' => 'Pages',
         'sort' => 1,
+<<<<<<< .merge_file_5OiRgZ
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
 =======
@@ -88,6 +92,9 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> .merge_file_nvgfIz
     ],
     'fields' => [
         'id' => [

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_MUruAX
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -18,6 +19,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_yCScgX
 return [
     'delete' => 'elimina',
     'edit' => 'modifica',
@@ -34,6 +37,7 @@ return [
         ],
         'label' => 'Txt',
         'sort' => 1,
+<<<<<<< .merge_file_MUruAX
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
 =======
@@ -47,6 +51,9 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> .merge_file_yCScgX
     ],
     'fields' => [
         'id' => [

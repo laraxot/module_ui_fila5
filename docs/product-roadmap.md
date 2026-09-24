@@ -56,6 +56,7 @@ Questo roadmap traduce il PRD in sequenza di rilascio per **UI**, che nel proget
 
 ## Dipendenze
 <<<<<<< HEAD
+<<<<<<< .merge_file_2NeNcd
 =======
 <<<<<<< HEAD
 =======
@@ -72,6 +73,8 @@ Questo roadmap traduce il PRD in sequenza di rilascio per **UI**, che nel proget
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_slj7rC
 # UI Module - Product Roadmap
 
 **Module:** UI  
@@ -174,6 +177,7 @@ To create a **unified, beautiful, and accessible design system** that ensures co
 
 ---
 
+<<<<<<< .merge_file_2NeNcd
 <<<<<<< HEAD
 *Last Updated: March 12, 2026*
 =======
@@ -241,6 +245,10 @@ To create a **unified, beautiful, and accessible design system** that ensures co
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+*Last Updated: March 12, 2026*
+=======
+>>>>>>> .merge_file_slj7rC
 >>>>>>> laraxot/dev
 
 - [PRD](prd.md)

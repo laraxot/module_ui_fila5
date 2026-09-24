@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_9reUB9
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -15,6 +16,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_gMbs1u
 return [
     'region' => [
         'label' => 'Region',

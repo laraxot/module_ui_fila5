@@ -39,6 +39,7 @@ Entrambi i temi contengono i seguenti file di traduzione:
 12. `studio.php` - Gestione studi
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_hnMumj
 ## Correzioni Applicate ([DATE])
 =======
 <<<<<<< HEAD
@@ -50,6 +51,11 @@ Entrambi i temi contengono i seguenti file di traduzione:
 ## Correzioni Applicate (2025-01-06)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+## Correzioni Applicate (2025-01-06)
+=======
+## Correzioni Applicate ([DATE])
+>>>>>>> .merge_file_4FpKVe
 >>>>>>> laraxot/dev
 
 ### 1. Problema: Traduzione mancante `pub_theme::appointment.fields.state.label`
@@ -86,6 +92,7 @@ Entrambi i temi contengono i seguenti file di traduzione:
 - `emergency` - Emergenza
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_hnMumj
 ### 4. Problema: Testo hardcoded in italiano per i referti ([DATE])
 =======
 <<<<<<< HEAD
@@ -97,6 +104,11 @@ Entrambi i temi contengono i seguenti file di traduzione:
 ### 4. Problema: Testo hardcoded in italiano per i referti (2025-01-06)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+### 4. Problema: Testo hardcoded in italiano per i referti (2025-01-06)
+=======
+### 4. Problema: Testo hardcoded in italiano per i referti ([DATE])
+>>>>>>> .merge_file_4FpKVe
 >>>>>>> laraxot/dev
 
 **Causa**: Il file `appointment/item.blade.php` conteneva testo hardcoded in italiano per la sezione referti:
@@ -248,11 +260,25 @@ return [
 - [Theme Widget Translations](theme-widget-translations.md)
 - [Translation Helper Text Standards](translation-helper-text-standards.md)
 <<<<<<< HEAD
+<<<<<<< .merge_file_hnMumj
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+- [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/Modules/<nome modulo>/docs/translation_quality_standards.md)
+- [Modules/<nome progetto>/docs/translation_quality_standards.md](../laravel/Modules/<nome progetto>/docs/translation_quality_standards.md)
+- [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/Modules/<nome modulo>/docs/translation_quality_standards.md)
+- [Modules/<nome progetto>/docs/translation_quality_standards.md](../laravel/Modules/<nome progetto>/docs/translation_quality_standards.md)
+- [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/Modules/<nome modulo>/docs/translation_quality_standards.md)
+- [Modules/<nome progetto>/docs/translation_quality_standards.md](../laravel/Modules/<nome progetto>/docs/translation_quality_standards.md)
+
+---
+
+**Ultimo aggiornamento**: 2025-01-06
+=======
+>>>>>>> .merge_file_4FpKVe
 - [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/modules/<nome modulo>/docs/translation_quality_standards.md)
 - [Modules/<nome progetto>/docs/translation_quality_standards.md](../laravel/modules/<nome progetto>/docs/translation_quality_standards.md)
 - [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/modules/<nome modulo>/docs/translation_quality_standards.md)
@@ -263,6 +289,7 @@ return [
 ---
 
 **Ultimo aggiornamento**: [DATE]
+<<<<<<< .merge_file_hnMumj
 <<<<<<< HEAD
 =======
 =======
@@ -281,6 +308,8 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_4FpKVe
 >>>>>>> laraxot/dev
 **Versione**: 2.2
 **Autore**: AI Assistant

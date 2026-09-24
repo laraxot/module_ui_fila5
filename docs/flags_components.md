@@ -11,6 +11,7 @@
 ## Panoramica
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_4xJKkC
 Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
 =======
 <<<<<<< HEAD
@@ -46,6 +47,12 @@ Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazion
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+Il modulo UI di <nome progetto>corrente include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+=======
+Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+>>>>>>> .merge_file_Zmf2xO
 >>>>>>> laraxot/dev
 
 ## Struttura dei Componenti Bandiera
@@ -53,6 +60,7 @@ Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazion
 I file SVG delle bandiere sono archiviati in:
 ```
 <<<<<<< HEAD
+<<<<<<< .merge_file_4xJKkC
 /var/www/html/<nome progetto>/laravel/Modules/UI/resources/svg/flags/
 =======
 <<<<<<< HEAD
@@ -88,6 +96,12 @@ I file SVG delle bandiere sono archiviati in:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+/var/www/html/saluteora/laravel/Modules/UI/resources/svg/flags/
+[project-root]/laravel/Modules/UI/resources/svg/flags/
+=======
+/var/www/html/<nome progetto>/laravel/Modules/UI/resources/svg/flags/
+>>>>>>> .merge_file_Zmf2xO
 >>>>>>> laraxot/dev
 ```
 
@@ -139,6 +153,7 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 
 ```blade
 <<<<<<< HEAD
+<<<<<<< .merge_file_4xJKkC
 =======
 <<<<<<< HEAD
 =======
@@ -156,10 +171,13 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Zmf2xO
 <x-ui-flags.it
     class="h-6 w-6 rounded-full shadow-sm"
     title="Italiano"
     aria-label="Seleziona lingua italiana"
+<<<<<<< .merge_file_4xJKkC
 <<<<<<< HEAD
 =======
 =======
@@ -174,6 +192,10 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Zmf2xO
 <x-ui-flags.it 
     class="h-6 w-6 rounded-full shadow-sm" 
     title="Italiano" 
@@ -267,6 +289,7 @@ Le bandiere devono essere utilizzate come icone Filament:
 3. **Prestazioni**: Gli SVG sono leggeri e non richiedono richieste HTTP aggiuntive
 4. **Accessibilità**: Possibilità di aggiungere attributi di accessibilità
 <<<<<<< HEAD
+<<<<<<< .merge_file_4xJKkC
 5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
 =======
 <<<<<<< HEAD
@@ -302,6 +325,12 @@ Le bandiere devono essere utilizzate come icone Filament:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+5. **Coerenza**: Utilizzo di componenti nativi di SaluteOra
+5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>corrente
+=======
+5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
+>>>>>>> .merge_file_Zmf2xO
 >>>>>>> laraxot/dev
 
 ## Bandiere Disponibili
