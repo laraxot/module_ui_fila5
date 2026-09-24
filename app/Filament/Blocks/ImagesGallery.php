@@ -22,23 +22,7 @@ final class ImagesGallery
                             // ->image()
                             // ->maxSize(5000)
                             ->multiple()
-<<<<<<< .merge_file_gFx5sY
-<<<<<<< HEAD
                             ->enableReordering()
-=======
-<<<<<<< HEAD
-                            ->reorderable()
-=======
-<<<<<<< HEAD
-                            ->enableReordering()
-=======
-                            ->reorderable()
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-                            ->reorderable()
->>>>>>> .merge_file_EBBQM2
                             ->openable()
                             ->downloadable()
                             ->columnSpanFull()
@@ -62,23 +46,7 @@ final class ImagesGallery
                 //         // ->image()
                 //         // ->maxSize(5000)
                 //     ->multiple()
-<<<<<<< .merge_file_gFx5sY
-<<<<<<< HEAD
                 //     ->enableReordering()
-=======
-<<<<<<< HEAD
-                //     ->reorderable()
-=======
-<<<<<<< HEAD
-                //     ->enableReordering()
-=======
-                //     ->reorderable()
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-                //     ->reorderable()
->>>>>>> .merge_file_EBBQM2
                 //     ->openable()
                 //     ->downloadable()
                 //     ->columnSpanFull()
@@ -96,19 +64,7 @@ final class ImagesGallery
                 // TextInput::make('caption')
                 //     ->columnSpanFull(),
             ])
-<<<<<<< HEAD
             ->columns('form' === $context ? 2 : 1);
-=======
-<<<<<<< HEAD
-            ->columns($context === 'form' ? 2 : 1);
-=======
-<<<<<<< HEAD
-            ->columns('form' === $context ? 2 : 1);
-=======
-            ->columns($context === 'form' ? 2 : 1);
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
     }
 
     /**

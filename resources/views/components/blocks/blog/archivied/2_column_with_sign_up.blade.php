@@ -1,10 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< .merge_file_kWkzA4
 
-=======
->>>>>>> .merge_file_eNJU1I
 ?>
 <!--
   This example requires some changes to your config:
