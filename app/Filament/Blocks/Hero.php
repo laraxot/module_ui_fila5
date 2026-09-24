@@ -15,9 +15,32 @@ final class Hero
 {
     public static function make(string $name = 'hero', string $context = 'form'): Block
     {
+<<<<<<< .merge_file_jix7WX
         $options = app(GetViewBlocksOptionsByTypeAction::class)->execute('hero', true);
 
         // ---------------
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_J1jDH7
+=======
+        // ---------------
+>>>>>>> laraxot/dev
+=======
+        $options = app(GetViewBlocksOptionsByTypeAction::class)->execute('hero', true);
+
+        // ---------------
+=======
+<<<<<<< HEAD
+        // ---------------
+=======
+<<<<<<< HEAD
+=======
+        // ---------------
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9seAIt
+>>>>>>> .merge_file_AmAvoL
         return Block::make($name)->schema([
             TextInput::make('title'),
             RichEditor::make('text'),

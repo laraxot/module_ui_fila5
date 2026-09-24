@@ -10,11 +10,23 @@ use Illuminate\Support\Collection;
 final class UiCoverageThrowingTransitionState extends UiCoverageStateContract
 {
     /**
+<<<<<<< .merge_file_2P8DCp
      *
      * @param Model|array<string, mixed>|string|null $record
      *                                                       =======
+=======
+     * <<<<<<< .merge_file_wXFUxy.
+     *
+     * @param Model|array<string, mixed>|string|null $record
+     *                                                       =======
+     *                                                       <<<<<<< HEAD
+     * @param Model|array<string, mixed>|string|null $record
+     *                                                       =======
+     *                                                       <<<<<<< .merge_file_4lu2mV
+>>>>>>> .merge_file_cYSJPO
      * @param Model|array<string, mixed>|string|null $record
      *                                                       >>>>>>> laraxot/dev
+     *                                                       >>>>>>> .merge_file_5uyU9a
      */
     public function __construct(Model|array|string|null $record = null)
     {

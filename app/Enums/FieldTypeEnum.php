@@ -14,7 +14,33 @@ use Filament\Support\Contracts\HasLabel;
 use Modules\Xot\Traits\EnumTrait;
 
 /**
+<<<<<<< .merge_file_cL95Vt
  * Filament form field types supported by the UI module.
+=======
+<<<<<<< .merge_file_PhCfas
+=======
+<<<<<<< .merge_file_k4aE4q
+<<<<<<< HEAD
+ * Filament form field types supported by the UI module.
+=======
+<<<<<<< HEAD
+ * Defines the different types of appointments in the system.
+=======
+>>>>>>> .merge_file_yndxKC
+<<<<<<< HEAD
+ * Filament form field types supported by the UI module.
+=======
+ * Defines the different types of appointments in the system.
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_PhCfas
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+ * Defines the different types of appointments in the system.
+>>>>>>> .merge_file_qCIK1o
+>>>>>>> .merge_file_yndxKC
+>>>>>>> .merge_file_f70qsi
  *
  * @method static self        fromName(string $name)
  * @method static self        fromValue(string $value)
@@ -29,7 +55,31 @@ enum FieldTypeEnum: string implements HasColor, HasIcon, HasLabel
     case TEXT = 'text';
     // case NUMBER   = 'number';
     case EMAIL = 'email';
+<<<<<<< .merge_file_cL95Vt
     // case PASSWORD = 'password';
+=======
+<<<<<<< .merge_file_PhCfas
+=======
+<<<<<<< .merge_file_k4aE4q
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    // case PASSWORD = 'password';
+=======
+>>>>>>> .merge_file_yndxKC
+<<<<<<< HEAD
+=======
+    // case PASSWORD = 'password';
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_PhCfas
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+    // case PASSWORD = 'password';
+>>>>>>> .merge_file_qCIK1o
+>>>>>>> .merge_file_yndxKC
+>>>>>>> .merge_file_f70qsi
     case TEXTAREA = 'textarea';
     case SELECT = 'select';
     case RADIO = 'radio';

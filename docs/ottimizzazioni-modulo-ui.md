@@ -344,11 +344,51 @@ echo "✅ Consolidamento completato!"
 ## Collegamenti Bidirezionali
 
 ### Documentazione Correlata
+<<<<<<< .merge_file_zafci9
 - [README](../README.md) - Panoramica modulo UI
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_tO7Gq4
+- [README](../readme.md) - Panoramica modulo UI
+=======
+- [README](../README.md) - Panoramica modulo UI
+=======
+<<<<<<< .merge_file_IBYfeu
+- [README](../readme.md) - Panoramica modulo UI
+=======
+<<<<<<< HEAD
+- [README](../README.md) - Panoramica modulo UI
+=======
+<<<<<<< HEAD
+- [README](../readme.md) - Panoramica modulo UI
+=======
+- [README](../README.md) - Panoramica modulo UI
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [README](../README.md) - Panoramica modulo UI
+=======
+- [README](../readme.md) - Panoramica modulo UI
+>>>>>>> .merge_file_QzjW4V
+>>>>>>> .merge_file_cRt5DC
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ixbDDY
 - [Architettura](./core/architecture.md) - Architettura modulo
 - [Convenzioni](./core/conventions.md) - Convenzioni unificate
 
 ### Documentazione Root
+<<<<<<< .merge_file_zafci9
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_tO7Gq4
+=======
+<<<<<<< .merge_file_IBYfeu
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 - [docs/ottimizzazioni-sistema.md](../../../docs/ottimizzazioni-sistema.md) - Ottimizzazioni sistema generale
 - [docs/architettura-moduli.md](../../../docs/architettura-moduli.md) - Architettura moduli
 
@@ -359,6 +399,51 @@ echo "✅ Consolidamento completato!"
 ---
 
 **Ultimo aggiornamento:** 2025-01-06
+=======
+>>>>>>> .merge_file_QzjW4V
+>>>>>>> .merge_file_cRt5DC
+- [docs/ottimizzazioni-sistema.md](../../../../docs/ottimizzazioni-sistema.md) - Ottimizzazioni sistema generale
+- [docs/architettura-moduli.md](../../../../docs/architettura-moduli.md) - Architettura moduli
+
+### Documentazione Moduli Correlati
+- [Xot/docs/ottimizzazioni-modulo-xot.md](../../xot/docs/ottimizzazioni-modulo-xot.md) - Ottimizzazioni modulo Xot
+- [User/docs/ottimizzazioni-modulo-user.md](../../user/docs/ottimizzazioni-modulo-user.md) - Ottimizzazioni modulo User
+
+---
+
+<<<<<<< .merge_file_tO7Gq4
+=======
+=======
+<<<<<<< .merge_file_IBYfeu
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_cRt5DC
+>>>>>>> .merge_file_ixbDDY
+- [docs/ottimizzazioni-sistema.md](../../../docs/ottimizzazioni-sistema.md) - Ottimizzazioni sistema generale
+- [docs/architettura-moduli.md](../../../docs/architettura-moduli.md) - Architettura moduli
+
+### Documentazione Moduli Correlati
+- [Xot/docs/ottimizzazioni-modulo-xot.md](../../Xot/docs/ottimizzazioni-modulo-xot.md) - Ottimizzazioni modulo Xot
+- [User/docs/ottimizzazioni-modulo-user.md](../../User/docs/ottimizzazioni-modulo-user.md) - Ottimizzazioni modulo User
+
+---
+
+**Ultimo aggiornamento:** 2025-01-06
+<<<<<<< .merge_file_zafci9
+=======
+<<<<<<< .merge_file_tO7Gq4
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_QzjW4V
+>>>>>>> .merge_file_cRt5DC
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ixbDDY
 **Stato:** In implementazione
 **Responsabile:** Team Sviluppo UI
 **Priorità:** ALTA (duplicazioni massive identificate)

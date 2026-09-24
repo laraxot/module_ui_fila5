@@ -2,10 +2,40 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_M7JhcE
+=======
+<<<<<<< .merge_file_nhYqSw
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_WYdQ43
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_WQAwCx
+>>>>>>> .merge_file_UdKc87
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/en/video_spatie.php
+<<<<<<< .merge_file_M7JhcE
+=======
+<<<<<<< .merge_file_nhYqSw
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_9Bm4CH
+>>>>>>> .merge_file_WQAwCx
+>>>>>>> .merge_file_UdKc87
 return [
     'fields' => [
         'img_uuid' => [

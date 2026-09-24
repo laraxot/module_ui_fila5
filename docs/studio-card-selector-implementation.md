@@ -5,6 +5,40 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 
 ## 🏗️ **Architettura Component**
 
+<<<<<<< .merge_file_Avbc4o
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< .merge_file_fTRuIg
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_RIpYVo
+<<<<<<< HEAD
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_vTOkaA
 ## 🏗️ **Architettura Component**
 
 ## 🏗️ **Architettura Component**
@@ -218,15 +252,88 @@ return [
 ---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
+<<<<<<< .merge_file_Avbc4o
 **Last Updated**: January 2025
 **Last Updated**: January 2025
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_fTRuIg
+
+
+=======
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+=======
+<<<<<<< .merge_file_bCpari
+
+
+=======
+<<<<<<< HEAD
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+=======
+<<<<<<< HEAD
+
+
+=======
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+=======
+
+
+>>>>>>> .merge_file_7dmUyq
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_vTOkaA
         ],
 
 ---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
+<<<<<<< .merge_file_Avbc4o
 **Last Updated**: January 2025
 **Last Updated**: January 2025
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_fTRuIg
+
+
+=======
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+=======
+<<<<<<< .merge_file_bCpari
+
+=======
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+=======
+>>>>>>> .merge_file_7dmUyq
+
+=======
+<<<<<<< HEAD
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+=======
+<<<<<<< HEAD
+
+<<<<<<< .merge_file_bCpari
+
+=======
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_7dmUyq
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_vTOkaA
         ],
         'phone' => [
             'label' => 'Telefono',
@@ -255,13 +362,65 @@ return [
 ---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
+<<<<<<< .merge_file_Avbc4o
 **Last Updated**: January 2025
 **Last Updated**: January 2025
 **Last Updated**: January 2025
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< .merge_file_bCpari
+
+
+
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_7dmUyq
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+=======
+<<<<<<< .merge_file_bCpari
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> .merge_file_7dmUyq
+>>>>>>> .merge_file_RIpYVo
+
+=======
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+<<<<<<< .merge_file_fTRuIg
+=======
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+=======
+>>>>>>> laraxot/dev
+
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+
+---
+**Component Status**: 📋 Documented - Ready for Implementation
+**Reusability**: 🔄 High - Cross-module compatible
+<<<<<<< HEAD
+<<<<<<< .merge_file_fTRuIg
+=======
 **Last Updated**: January 2025
 **Last Updated**: January 2025
 **Last Updated**: January 2025
@@ -269,6 +428,48 @@ return [
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
 **Last Updated**: January 2025
+=======
+>>>>>>> .merge_file_RIpYVo
+
+<<<<<<< HEAD
+
+>>>>>>> .merge_file_vTOkaA
+
+---
+**Component Status**: 📋 Documented - Ready for Implementation
+**Reusability**: 🔄 High - Cross-module compatible
+<<<<<<< .merge_file_Avbc4o
+=======
+
+<<<<<<< .merge_file_fTRuIg
+=======
+=======
+<<<<<<< .merge_file_bCpari
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> .merge_file_vTOkaA
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+---
+**Component Status**: 📋 Documented - Ready for Implementation
+**Reusability**: 🔄 High - Cross-module compatible
+**Last Updated**: January 2025
+<<<<<<< .merge_file_Avbc4o
+=======
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_7dmUyq
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_vTOkaA
 # StudioCardSelector Component - Modulo UI
 
 ## 🎯 **Panoramica**
@@ -276,9 +477,68 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 
 ## 🏗️ **Architettura Component**
 
+<<<<<<< .merge_file_Avbc4o
+=======
+<<<<<<< HEAD
+### Classe PHP
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_fTRuIg
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 ### Classe PHP
 ```
 
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+### Classe PHP
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> .merge_file_vTOkaA
+### Classe PHP
+```
+
+<<<<<<< .merge_file_Avbc4o
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+```
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_7dmUyq
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> .merge_file_vTOkaA
 ```php
 // Modules/UI/app/Forms/Components/StudioCardSelector.php
 <?php
@@ -294,27 +554,221 @@ use Closure;
 class StudioCardSelector extends Field
 {
     protected string $view = 'ui::forms.components.studio-card-selector';
+<<<<<<< .merge_file_Avbc4o
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< .merge_file_bCpari
+>>>>>>> .merge_file_RIpYVo
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_fTRuIg
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_7dmUyq
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> .merge_file_vTOkaA
     
     // Dati studios da visualizzare
     protected Collection|Closure|null $studios = null;
     
+<<<<<<< .merge_file_Avbc4o
+=======
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< .merge_file_bCpari
+>>>>>>> .merge_file_RIpYVo
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_fTRuIg
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_7dmUyq
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> .merge_file_vTOkaA
 
     // Dati studios da visualizzare
     protected Collection|Closure|null $studios = null;
 
+<<<<<<< .merge_file_Avbc4o
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_vTOkaA
     // Personalizzazioni UI
     protected bool $showDistance = false;
     protected bool $showSpecializations = false;
     protected bool $showPhone = false;
     protected string $cardLayout = 'default'; // 'default', 'compact', 'detailed'
+<<<<<<< .merge_file_Avbc4o
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_vTOkaA
     // Configure studios data source
     public function studios(Collection|Closure $studios): static
     {
         $this->studios = $studios;
         return $this;
     }
+<<<<<<< .merge_file_Avbc4o
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_vTOkaA
     // Enable/disable features
     public function showDistance(bool $show = true): static
     {
@@ -322,52 +776,464 @@ class StudioCardSelector extends Field
         return $this;
     }
 
+<<<<<<< .merge_file_Avbc4o
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_vTOkaA
     public function showSpecializations(bool $show = true): static
     {
         $this->showSpecializations = $show;
         return $this;
     }
+<<<<<<< .merge_file_Avbc4o
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_vTOkaA
     public function showPhone(bool $show = true): static
     {
         $this->showPhone = $show;
         return $this;
     }
+<<<<<<< .merge_file_Avbc4o
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_vTOkaA
     // Layout variants
     public function compact(): static
     {
         $this->cardLayout = 'compact';
         return $this;
     }
+<<<<<<< .merge_file_Avbc4o
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_vTOkaA
     public function detailed(): static
     {
         $this->cardLayout = 'detailed';
         return $this;
     }
+<<<<<<< .merge_file_Avbc4o
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_vTOkaA
     // Data getters for view
     public function getStudios(): Collection
     {
         return $this->evaluate($this->studios) ?? collect();
     }
+<<<<<<< .merge_file_Avbc4o
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_vTOkaA
     public function getCardLayout(): string
     {
         return $this->cardLayout;
     }
+<<<<<<< .merge_file_Avbc4o
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_vTOkaA
     public function shouldShowDistance(): bool
     {
         return $this->showDistance;
     }
+<<<<<<< .merge_file_Avbc4o
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_vTOkaA
     public function shouldShowSpecializations(): bool
     {
         return $this->showSpecializations;
     }
+<<<<<<< .merge_file_Avbc4o
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_vTOkaA
     public function shouldShowPhone(): bool
     {
         return $this->showPhone;
@@ -396,9 +1262,56 @@ protected function getStudioStepSchema(): array
 private function getStudiosForLocation(Get $get): Collection
 {
     $cap = $get('cap');
+<<<<<<< .merge_file_Avbc4o
     $province = $get('province');
     $region = $get('region');
 
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_fTRuIg
+=======
+    $province = $get('province');
+    $region = $get('region');
+
+<<<<<<< .merge_file_bCpari
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_RIpYVo
+    $province = $get('province');
+    $region = $get('region');
+
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_fTRuIg
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    $province = $get('province');
+    $region = $get('region');
+
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_fTRuIg
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_7dmUyq
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> .merge_file_vTOkaA
     $province = $get('province'); 
     $region = $get('region');
     
@@ -407,9 +1320,50 @@ private function getStudiosForLocation(Get $get): Collection
     }
     
     return \Modules\<nome progetto>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
+<<<<<<< .merge_file_Avbc4o
     $province = $get('province');
     $region = $get('region');
     
+=======
+<<<<<<< .merge_file_fTRuIg
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_bCpari
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_7dmUyq
+>>>>>>> .merge_file_RIpYVo
+    $province = $get('province');
+    $region = $get('region');
+    
+=======
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< .merge_file_bCpari
+>>>>>>> .merge_file_RIpYVo
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    $province = $get('province');
+    $region = $get('region');
+    
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_7dmUyq
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_vTOkaA
     if (!$cap || !$province || !$region) {
         return collect();
     }
@@ -417,6 +1371,40 @@ private function getStudiosForLocation(Get $get): Collection
     return \Modules\<nome modulo>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
     return \Modules\<nome modulo>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
     return \Modules\<nome modulo>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
+<<<<<<< .merge_file_Avbc4o
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_vTOkaA
         $q->where('postal_code', $cap)
           ->where('administrative_area_level_3', $province)
           ->where('administrative_area_level_2', $region);
@@ -468,6 +1456,18 @@ return [
 - [Components Overview](./components.md)
 - [Form Components Guide](./form-components.md)
 
+<<<<<<< .merge_file_Avbc4o
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< .merge_file_bCpari
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
 ### Modulo <nome progetto>
 - [Widget Analysis](../<nome progetto>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
 
@@ -481,3 +1481,93 @@ return [
 ---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
+=======
+>>>>>>> .merge_file_7dmUyq
+>>>>>>> .merge_file_RIpYVo
+### Modulo Generico
+- [Widget Analysis](../<nome modulo>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
+### Modulo Generico
+- [Widget Analysis](../<nome modulo>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
+### Modulo Generico
+- [Widget Analysis](../<nome modulo>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
+
+---
+
+**Component Status**: 📋 Documented - Ready for Implementation
+**Reusability**: 🔄 High - Cross-module compatible
+
+
+
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_bCpari
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RIpYVo
+### Modulo <nome progetto>
+- [Widget Analysis](../<nome progetto>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> .merge_file_vTOkaA
+### Modulo <nome progetto>
+- [Widget Analysis](../<nome progetto>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
+
+---
+
+**Component Status**: 📋 Documented - Ready for Implementation  
+**Reusability**: 🔄 High - Cross-module compatible  
+**Last Updated**: January 2025
+### Modulo Generico
+- [Widget Analysis](../<nome modulo>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
+---
+**Component Status**: 📋 Documented - Ready for Implementation
+**Reusability**: 🔄 High - Cross-module compatible
+<<<<<<< .merge_file_Avbc4o
+=======
+<<<<<<< HEAD
+=======
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+**Last Updated**: January 2025
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_fTRuIg
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_7dmUyq
+>>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_vTOkaA

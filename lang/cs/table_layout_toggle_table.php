@@ -2,10 +2,40 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_5DZ1CU
+=======
+<<<<<<< .merge_file_gpTiaW
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_jHscti
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Idza4M
+>>>>>>> .merge_file_7v2bjv
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/cs/table_layout_toggle_table.php
+<<<<<<< .merge_file_5DZ1CU
+=======
+<<<<<<< .merge_file_gpTiaW
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_fXnk2x
+>>>>>>> .merge_file_Idza4M
+>>>>>>> .merge_file_7v2bjv
 return [
     'actions' => [
         'toggle' => [

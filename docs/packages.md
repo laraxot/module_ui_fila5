@@ -3,7 +3,35 @@
 ## Pacchetti Utilizzati
 
 ### Core
+<<<<<<< .merge_file_wBjxFf
 - [laraxot/module_xot_fila5](../Xot/docs/packages.md) - Modulo base per funzionalità comuni
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_236Ahi
+- [laraxot/module_xot_fila5](../xot/docs/packages.md) - Modulo base per funzionalità comuni
+=======
+- [laraxot/module_xot_fila5](../Xot/docs/packages.md) - Modulo base per funzionalità comuni
+=======
+<<<<<<< .merge_file_vrjsfC
+- [laraxot/module_xot_fila5](../xot/docs/packages.md) - Modulo base per funzionalità comuni
+=======
+<<<<<<< HEAD
+- [laraxot/module_xot_fila5](../Xot/docs/packages.md) - Modulo base per funzionalità comuni
+=======
+<<<<<<< HEAD
+- [laraxot/module_xot_fila5](../xot/docs/packages.md) - Modulo base per funzionalità comuni
+=======
+- [laraxot/module_xot_fila5](../Xot/docs/packages.md) - Modulo base per funzionalità comuni
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [laraxot/module_xot_fila5](../Xot/docs/packages.md) - Modulo base per funzionalità comuni
+=======
+- [laraxot/module_xot_fila5](../xot/docs/packages.md) - Modulo base per funzionalità comuni
+>>>>>>> .merge_file_aW8dTb
+>>>>>>> .merge_file_OJY3vD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_3pN3Up
 - [filament/filament](https://filamentphp.com) - Admin panel e componenti UI
 - [tailwindcss/tailwindcss](https://tailwindcss.com) - Framework CSS utility-first
 
@@ -55,6 +83,18 @@
 ### Versione HEAD
 
 ## Collegamenti tra versioni di packages.md
+<<<<<<< .merge_file_wBjxFf
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_236Ahi
+=======
+<<<<<<< .merge_file_vrjsfC
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 * [packages.md](../../../Gdpr/docs/packages.md)
 * [packages.md](../../../Notify/docs/packages.md)
 * [packages.md](../../../Xot/docs/packages.md)
@@ -64,6 +104,50 @@
 * [packages.md](../../../Job/docs/packages.md)
 * [packages.md](../../../Media/docs/packages.md)
 * [packages.md](../../../Tenant/docs/packages.md)
+=======
+>>>>>>> .merge_file_aW8dTb
+>>>>>>> .merge_file_OJY3vD
+* [packages.md](../../../gdpr/docs/packages.md)
+* [packages.md](../../../notify/docs/packages.md)
+* [packages.md](../../../xot/docs/packages.md)
+* [packages.md](../../../user/docs/packages.md)
+* [packages.md](../../../ui/docs/packages.md)
+* [packages.md](../../../lang/docs/packages.md)
+* [packages.md](../../../job/docs/packages.md)
+* [packages.md](../../../media/docs/packages.md)
+* [packages.md](../../../tenant/docs/packages.md)
+<<<<<<< .merge_file_236Ahi
+=======
+=======
+<<<<<<< .merge_file_vrjsfC
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_OJY3vD
+>>>>>>> .merge_file_3pN3Up
+* [packages.md](../../../Gdpr/docs/packages.md)
+* [packages.md](../../../Notify/docs/packages.md)
+* [packages.md](../../../Xot/docs/packages.md)
+* [packages.md](../../../User/docs/packages.md)
+* [packages.md](../../../UI/docs/packages.md)
+* [packages.md](../../../Lang/docs/packages.md)
+* [packages.md](../../../Job/docs/packages.md)
+* [packages.md](../../../Media/docs/packages.md)
+* [packages.md](../../../Tenant/docs/packages.md)
+<<<<<<< .merge_file_wBjxFf
+=======
+<<<<<<< .merge_file_236Ahi
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_aW8dTb
+>>>>>>> .merge_file_OJY3vD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_3pN3Up
 
 ### Versione Incoming
 

@@ -1,3 +1,54 @@
+<<<<<<< .merge_file_8bhP4v
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_f3U2sB
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_DieS09
+---
+title: "Megamenu"
+type: concept
+tags: [megamenu]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "megamenu megamenu"
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+related:
+  - "./api-relocated.md"
+  - "./api.md"
+  - "./blocks-relocated.md"
+  - "./blocks.md"
+  - "./carousel-slider.md"
+  - "./changelog.md"
+  - "./chunk.md"
+  - "./ci.md"
+---
+
+<<<<<<< .merge_file_f3U2sB
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_DieS09
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_VSAkjI
 https://www.tailwindtoolbox.com/components/megamenu
 
 

@@ -1,5 +1,20 @@
 # Strategia Correzione Errori PHPStan - RadioBadge.php
 
+<<<<<<< .merge_file_SPGyTg
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_biaHul
+**Data**: 2025-12-23
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+**Data**: 2025-12-23
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_0tgQAX
+>>>>>>> .merge_file_tG8gy1
 **File**: `app/Filament/Forms/Components/RadioBadge.php`
 **Errori**: 3
 

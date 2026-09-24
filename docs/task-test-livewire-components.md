@@ -3,7 +3,32 @@
 **Modulo**: UI
 **Priorita'**: Media
 **Completamento**: 20%
+<<<<<<< .merge_file_Jh1XdW
 **Data**: 2026-01-30
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_h2ESkI
+=======
+**Data**: 2026-01-30
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_ILv7UT
+=======
+<<<<<<< HEAD
+**Data**: 2026-01-30
+=======
+<<<<<<< HEAD
+=======
+**Data**: 2026-01-30
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+**Data**: 2026-01-30
+=======
+>>>>>>> .merge_file_YjfZR8
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_tNYoEx
+>>>>>>> .merge_file_V5lYDG
 
 ---
 

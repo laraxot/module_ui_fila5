@@ -2,10 +2,40 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_yNYxqh
+=======
+<<<<<<< .merge_file_DExYwB
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_OtRcQ9
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_PTB4br
+>>>>>>> .merge_file_tl34Zt
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/en/images_gallery.php
+<<<<<<< .merge_file_yNYxqh
+=======
+<<<<<<< .merge_file_DExYwB
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_6z9sKV
+>>>>>>> .merge_file_PTB4br
+>>>>>>> .merge_file_tl34Zt
 return [
     'fields' => [
         'version' => [

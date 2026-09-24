@@ -2,10 +2,40 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_PpGiNn
+=======
+<<<<<<< .merge_file_ETLxd8
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_nbcQI6
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_kcG9zJ
+>>>>>>> .merge_file_4j8r02
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/de/studio-selector.php
+<<<<<<< .merge_file_PpGiNn
+=======
+<<<<<<< .merge_file_ETLxd8
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_TfyioM
+>>>>>>> .merge_file_kcG9zJ
+>>>>>>> .merge_file_4j8r02
 return [
     'actions' => [
         'select' => [

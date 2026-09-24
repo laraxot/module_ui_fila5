@@ -141,13 +141,87 @@ php artisan tinker --execute="TableLayoutToggleTableAction::make('test');"
 
 # Testare l'URL che causava l'errore
 curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
+<<<<<<< .merge_file_LKiQoF
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_haWD6k
+=======
+<<<<<<< HEAD
+=======
+curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_P07Ixw
+curl -I http://127.0.0.1:8001/modulo questionari/admin/gaia/survey-pdfs
+=======
+<<<<<<< HEAD
+curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+curl -I http://127.0.0.1:8001/modulo questionari/admin/gaia/survey-pdfs
+=======
+curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_haWD6k
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_P07Ixw
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Rx00G4
 ```
 
 ### Risultati Test
 
+<<<<<<< .merge_file_LKiQoF
 ✅ **Sintassi PHP**: Nessun errore di sintassi
 ✅ **Istanziazione**: Classe istanziabile correttamente
 ✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_haWD6k
+=======
+✅ **Sintassi PHP**: Nessun errore di sintassi
+✅ **Istanziazione**: Classe istanziabile correttamente
+✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)
+=======
+<<<<<<< HEAD
+✅ **Sintassi PHP**: Nessun errore di sintassi  
+✅ **Istanziazione**: Classe istanziabile correttamente  
+✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)  
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_P07Ixw
+✅ **Sintassi PHP**: Nessun errore di sintassi
+✅ **Istanziazione**: Classe istanziabile correttamente
+✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)
+=======
+✅ **Sintassi PHP**: Nessun errore di sintassi  
+✅ **Istanziazione**: Classe istanziabile correttamente  
+✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)  
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_haWD6k
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_P07Ixw
+>>>>>>> .merge_file_Rx00G4
 ✅ **PHPStan**: Nessun errore di linting rilevato
 
 ## Impatto
@@ -173,7 +247,41 @@ curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
 
 ---
 
+<<<<<<< .merge_file_LKiQoF
 **Modulo**: UI
 **Tipo**: Bug Fix
 **Priorità**: Alta
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_haWD6k
+=======
+**Modulo**: UI
+**Tipo**: Bug Fix
+**Priorità**: Alta
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_P07Ixw
+**Modulo**: UI
+**Tipo**: Bug Fix
+**Priorità**: Alta
+=======
+<<<<<<< .merge_file_haWD6k
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_P07Ixw
+**Data**: 27 Gennaio 2025  
+**Modulo**: UI  
+**Tipo**: Bug Fix  
+**Priorità**: Alta  
+<<<<<<< .merge_file_haWD6k
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_P07Ixw
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Rx00G4
 **Stato**: ✅ Risolto

@@ -16,6 +16,29 @@ return [
         ],
         'label' => 'Icon State Group',
         'sort' => 1,
+<<<<<<< .merge_file_W4ISiU
+=======
+<<<<<<< .merge_file_oCJe72
+=======
+<<<<<<< .merge_file_lg5QUK
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-rectangle-stack',
+=======
+>>>>>>> .merge_file_ZKFY1y
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-collection',
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_oCJe72
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZKFY1y
+    ],
+];
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_r6A9sj
         'icon' => 'heroicon-o-rectangle-stack',
     ],
 ];
