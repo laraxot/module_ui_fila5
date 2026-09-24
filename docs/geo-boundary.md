@@ -64,6 +64,17 @@ Rimosso il 2026-07-22 da UI (git history = archivio; **no** `docs/archive/`):
 - contratti Location/Map/Geocoding
 - `LocationSelector.php` attivo
 - `bindIf` in `UIServiceProvider` verso null-adapters
+2026-09-24: quinto ritorno con il sync `laraxot/dev` (`LocationSelector.php` untracked nel root,
+36 errori phpstan su `Modules\Geo\Models\Comune`). Il file attivo risultava gia' rimosso dal working
+tree quando il fix phpstan-fleet e' arrivato (rimozione concorrente, stesso canone): nessuna patch
+type-safe tentata perche' `Modules/Geo` non esiste in `laravel/Modules` e nessun file in
+`Modules/`/`Themes/` usa il componente (solo `docs/components.md`). Riapparsi anche, NON rimossi in
+quel giro: `LocationSelector.php.to_geo`, `lang/{en,de,it}/location_selector.php`, `app/Adapters/`,
+`app/Contracts/{MapServiceContract,GeocodingServiceContract}.php`, `app/Services/Map/` (untracked,
+phpstan-clean) — vanno ripuliti con il check di "Verifica" sotto. Nello stesso giro rimosso il trait
+morto `tests/Support/EnsuresUiDatabaseSchema.php` (zero usi, `tests/Support/` vietata da ADR-002,
+creava tabelle `themes`/`components`/`assets` per modelli assenti; gia' cancellato nel root in `e4d16be2d`).
+
 Se in un altro monorepo servirà geografia: implementare in `Modules/Geo`, non ricopiare in UI.
 - `LocationSelector`, `InteractiveMap` (e view/lang correlate)
 - Service/adapter null-object di mappa/geocoding
