@@ -1,5 +1,13 @@
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_kOlKgw
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_UuH4CE
 ---
 title: "Filament"
 type: concept
@@ -30,6 +38,13 @@ related:
   - "./ci.md"
 ---
 
+<<<<<<< .merge_file_kOlKgw
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_UuH4CE
 >>>>>>> laraxot/dev
 https://github.com/savannabits/filament-signature-pad
 

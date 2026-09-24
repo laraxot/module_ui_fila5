@@ -107,9 +107,29 @@ All AWS operations are wrapped in try-catch blocks to handle exceptions graceful
 - [AWS Test Bugfix Documentation](./awstest-bugfix-undefined-variable.md)
 - [Bugfix: Undefined Variable in AWS Test](./bugfix-awstest-undefined-variable.md)
 <<<<<<< HEAD
+<<<<<<< .merge_file_KdxTHD
 - [Root Documentation: AWS Testing](../../../docs/aws-testing.md)
 =======
 - [Root Documentation: AWS Testing](../../docs/aws-testing.md)
+=======
+<<<<<<< .merge_file_By4AP3
+- [Root Documentation: AWS Testing](../../../docs/aws-testing.md)
+=======
+<<<<<<< HEAD
+- [Root Documentation: AWS Testing](../../docs/aws-testing.md)
+=======
+<<<<<<< HEAD
+- [Root Documentation: AWS Testing](../../../docs/aws-testing.md)
+=======
+- [Root Documentation: AWS Testing](../../docs/aws-testing.md)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [Root Documentation: AWS Testing](../../docs/aws-testing.md)
+=======
+- [Root Documentation: AWS Testing](../../../docs/aws-testing.md)
+>>>>>>> .merge_file_MJbYFZ
+>>>>>>> .merge_file_ROY7mQ
 >>>>>>> laraxot/dev
 
 ## PHPStan Compliance
@@ -122,7 +142,27 @@ The component has been updated to comply with PHPStan level 9 requirements:
 - Safe function usage
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_KdxTHD
 *
 =======
 *Last Updated: August 2025*
+=======
+<<<<<<< .merge_file_By4AP3
+*
+=======
+<<<<<<< HEAD
+*Last Updated: August 2025*
+=======
+<<<<<<< HEAD
+*
+=======
+*Last Updated: August 2025*
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+*Last Updated: August 2025*
+=======
+*
+>>>>>>> .merge_file_MJbYFZ
+>>>>>>> .merge_file_ROY7mQ
 >>>>>>> laraxot/dev

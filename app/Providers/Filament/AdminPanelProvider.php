@@ -16,6 +16,17 @@ class AdminPanelProvider extends XotBasePanelProvider
 
     #[\Override]
 =======
+<<<<<<< .merge_file_H0AFQN
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+    #[\Override]
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rYEVTI
 >>>>>>> laraxot/dev
     public function panel(Panel $panel): Panel
     {

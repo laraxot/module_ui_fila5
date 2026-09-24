@@ -1,5 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_vh3CkS
 =======
+=======
+<<<<<<< .merge_file_0nIFPR
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_KWvBpa
+>>>>>>> .merge_file_lePxga
 ---
 title: "Custom Theme"
 type: concept
@@ -7,6 +19,10 @@ tags: [custom, theme]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "custom-theme custom theme"
+<<<<<<< .merge_file_vh3CkS
+=======
+<<<<<<< .merge_file_0nIFPR
+>>>>>>> .merge_file_lePxga
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -19,6 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_vh3CkS
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_KWvBpa
+>>>>>>> .merge_file_lePxga
 related:
   - "./api-1.md"
   - "./api.md"
@@ -30,7 +55,20 @@ related:
   - "./changelog-2.md"
 ---
 
+<<<<<<< .merge_file_vh3CkS
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_0nIFPR
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KWvBpa
+>>>>>>> .merge_file_lePxga
 https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss
 
 

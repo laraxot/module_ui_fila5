@@ -1,7 +1,18 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_Lrglie
 
+=======
+<<<<<<< .merge_file_hqCwSM
+
+=======
+<<<<<<< .merge_file_BIfbJ9
+
+=======
+>>>>>>> .merge_file_1rvfdJ
+>>>>>>> .merge_file_fKSMG3
+>>>>>>> .merge_file_lV1lUI
 use Illuminate\Database\Schema\Blueprint;
 use Modules\UI\Models\Collection;
 use Modules\Xot\Database\Migrations\XotBaseMigration;

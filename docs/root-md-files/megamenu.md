@@ -1,5 +1,13 @@
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_f3U2sB
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_DieS09
 ---
 title: "Megamenu"
 type: concept
@@ -30,6 +38,13 @@ related:
   - "./ci.md"
 ---
 
+<<<<<<< .merge_file_f3U2sB
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_DieS09
 >>>>>>> laraxot/dev
 https://www.tailwindtoolbox.com/components/megamenu
 

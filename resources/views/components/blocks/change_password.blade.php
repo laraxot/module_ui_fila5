@@ -1,4 +1,14 @@
+<<<<<<< .merge_file_ohiQqK
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_yFUJJN
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_OQWGNh
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -14,12 +24,22 @@
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
+<<<<<<< .merge_file_ohiQqK
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_4nzfqK
+>>>>>>> .merge_file_OQWGNh
 <?php
 
 declare(strict_types=1);
-
 ?>
 @props(['title' => 'Cambia Password'])
 

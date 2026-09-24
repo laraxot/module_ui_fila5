@@ -1,4 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_zFLruC
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zKofAq
 ---
 module: theme
 topic: phpstan-corrections-gennaio
@@ -6,6 +12,11 @@ canonical: ../../../Themes/docs/shared-components/phpstan-corrections-.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan-corrections-.md
+<<<<<<< .merge_file_zFLruC
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_zKofAq
 =======
 # PHPStan Corrections - Gennaio 2025
 
@@ -247,3 +258,7 @@ class ViewLocation extends XotBaseViewRecord
 - [PHPStan Patterns](./phpstan-patterns.md)
 - [PHPStan Compliance](./phpstan-compliance.md)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_zFLruC
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zKofAq

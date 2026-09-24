@@ -1,5 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_9GjcrT
 =======
+=======
+<<<<<<< .merge_file_oUFCyc
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_flkkzy
+>>>>>>> .merge_file_e8htnV
 ---
 title: "Componente FileUpload"
 type: concept
@@ -7,6 +19,10 @@ tags: [file, upload]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "file-upload componente fileupload"
+<<<<<<< .merge_file_9GjcrT
+=======
+<<<<<<< .merge_file_oUFCyc
+>>>>>>> .merge_file_e8htnV
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -19,6 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_9GjcrT
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_flkkzy
+>>>>>>> .merge_file_e8htnV
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -30,7 +55,20 @@ related:
   - "./full-calendar.md"
 ---
 
+<<<<<<< .merge_file_9GjcrT
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_oUFCyc
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_flkkzy
+>>>>>>> .merge_file_e8htnV
 # Componente FileUpload
 
 ## Collegamenti Bidirezionali

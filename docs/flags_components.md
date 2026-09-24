@@ -11,9 +11,22 @@
 ## Panoramica
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_V2b0ki
 Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_4xJKkC
+Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_QMXWCa
 Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
 <<<<<<< HEAD
 Il modulo UI di <nome progetto>corrente include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
@@ -36,6 +49,19 @@ Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazion
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_V2b0ki
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+Il modulo UI di <nome progetto>corrente include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+=======
+Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+>>>>>>> .merge_file_Zmf2xO
+>>>>>>> .merge_file_QMXWCa
 >>>>>>> laraxot/dev
 
 ## Struttura dei Componenti Bandiera
@@ -43,9 +69,22 @@ Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazion
 I file SVG delle bandiere sono archiviati in:
 ```
 <<<<<<< HEAD
+<<<<<<< .merge_file_V2b0ki
 /var/www/html/<nome progetto>/laravel/Modules/UI/resources/svg/flags/
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_4xJKkC
+/var/www/html/<nome progetto>/laravel/Modules/UI/resources/svg/flags/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/var/www/html/<nome progetto>/laravel/Modules/UI/resources/svg/flags/
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_QMXWCa
 /var/www/html/saluteora/laravel/Modules/UI/resources/svg/flags/
 <<<<<<< HEAD
 [project-root]/laravel/Modules/UI/resources/svg/flags/
@@ -68,6 +107,19 @@ I file SVG delle bandiere sono archiviati in:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_V2b0ki
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+/var/www/html/saluteora/laravel/Modules/UI/resources/svg/flags/
+[project-root]/laravel/Modules/UI/resources/svg/flags/
+=======
+/var/www/html/<nome progetto>/laravel/Modules/UI/resources/svg/flags/
+>>>>>>> .merge_file_Zmf2xO
+>>>>>>> .merge_file_QMXWCa
 >>>>>>> laraxot/dev
 ```
 
@@ -119,6 +171,10 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 
 ```blade
 <<<<<<< HEAD
+<<<<<<< .merge_file_V2b0ki
+=======
+<<<<<<< .merge_file_4xJKkC
+>>>>>>> .merge_file_QMXWCa
 =======
 <<<<<<< HEAD
 =======
@@ -130,11 +186,26 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_V2b0ki
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Zmf2xO
+>>>>>>> .merge_file_QMXWCa
 <x-ui-flags.it
     class="h-6 w-6 rounded-full shadow-sm"
     title="Italiano"
     aria-label="Seleziona lingua italiana"
+<<<<<<< .merge_file_V2b0ki
+=======
+<<<<<<< .merge_file_4xJKkC
+>>>>>>> .merge_file_QMXWCa
 <<<<<<< HEAD
 =======
 =======
@@ -144,7 +215,19 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_V2b0ki
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Zmf2xO
+>>>>>>> .merge_file_QMXWCa
 <x-ui-flags.it 
     class="h-6 w-6 rounded-full shadow-sm" 
     title="Italiano" 
@@ -154,6 +237,14 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_V2b0ki
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_QMXWCa
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 =======
 <<<<<<< HEAD
@@ -162,6 +253,13 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< .merge_file_V2b0ki
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_QMXWCa
 >>>>>>> laraxot/dev
 />
 ```
@@ -229,6 +327,7 @@ Le bandiere devono essere utilizzate come icone Filament:
 3. **Prestazioni**: Gli SVG sono leggeri e non richiedono richieste HTTP aggiuntive
 4. **Accessibilità**: Possibilità di aggiungere attributi di accessibilità
 <<<<<<< HEAD
+<<<<<<< .merge_file_V2b0ki
 5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
 =======
 <<<<<<< HEAD
@@ -254,6 +353,50 @@ Le bandiere devono essere utilizzate come icone Filament:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_4xJKkC
+5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+5. **Coerenza**: Utilizzo di componenti nativi di SaluteOra
+<<<<<<< HEAD
+5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>corrente
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+5. **Coerenza**: Utilizzo di componenti nativi di SaluteOra
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>corrente
+=======
+5. **Coerenza**: Utilizzo di componenti nativi di SaluteOra
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+5. **Coerenza**: Utilizzo di componenti nativi di SaluteOra
+5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>corrente
+=======
+5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
+>>>>>>> .merge_file_Zmf2xO
+>>>>>>> .merge_file_QMXWCa
 >>>>>>> laraxot/dev
 
 ## Bandiere Disponibili

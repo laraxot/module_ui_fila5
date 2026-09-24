@@ -1,5 +1,13 @@
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_nju9xJ
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_UrnCsU
 ---
 title: "Blocks"
 type: concept
@@ -30,6 +38,13 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+<<<<<<< .merge_file_nju9xJ
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_UrnCsU
 >>>>>>> laraxot/dev
 https://github.com/whitecube/nova-flexible-content
 

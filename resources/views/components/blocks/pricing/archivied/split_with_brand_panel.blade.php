@@ -1,7 +1,14 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_21a06n
 
+=======
+<<<<<<< .merge_file_2OGZpF
+
+=======
+>>>>>>> .merge_file_QZ6Bog
+>>>>>>> .merge_file_ZGZTnS
 ?>
 <div class="relative bg-white">
     <div class="absolute inset-0" aria-hidden="true">

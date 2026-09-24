@@ -149,6 +149,15 @@ class CustomMiddleware
 <img src="/var/www/html/<nome progetto>/laravel/public/images/avatar.png">
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_kOT6YK
+=======
+<<<<<<< HEAD
+=======
+<img src="/var/www/html/<nome progetto>/laravel/public/images/avatar.png">
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_cDbapr
 <img src="/var/www/html/saluteora/laravel/public/images/avatar.png">
 <<<<<<< HEAD
 <img src="[project-root]/laravel/public/images/avatar.png">
@@ -171,6 +180,13 @@ class CustomMiddleware
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_kOT6YK
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_cDbapr
 >>>>>>> laraxot/dev
 
 // Non duplicare la registrazione dei componenti

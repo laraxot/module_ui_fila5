@@ -1,11 +1,32 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_uZZqZx
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_F2WdVv
 # Utilizzo dei Componenti Filament Dropdown e Avatar
 
 ## Collegamenti correlati
+<<<<<<< HEAD
+- [README modulo UI](/laravel/Modules/UI/docs/README.md)
+- [Utilizzo Componenti Filament](/laravel/Modules/UI/docs/FILAMENT_COMPONENTS_USAGE.md)
+=======
 - [README modulo UI](/laravel/modules/ui/docs/readme.md)
 - [Utilizzo Componenti Filament](/laravel/modules/ui/docs/filament_components_usage.md)
+<<<<<<< .merge_file_uZZqZx
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_GSH539
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_F2WdVv
 # Utilizzo dei Componenti Filament Dropdown e Avatar 
 =======
 <<<<<<< HEAD
@@ -32,6 +53,15 @@
 ## Collegamenti correlati
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
 - [Utilizzo Componenti Filament](/laravel/Modules/UI/docs/FILAMENT_COMPONENTS_USAGE.md)
+<<<<<<< .merge_file_uZZqZx
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 >>>>>>> laraxot/dev
 - [Architettura Modulare](/docs/architettura-modulare.md)
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
@@ -102,6 +132,17 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
             @click="open = ! open"
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_uZZqZx
+=======
+<<<<<<< HEAD
+=======
+        <button
+            @click="open = ! open"
+<<<<<<< .merge_file_GSH539
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_F2WdVv
         <button 
             @click="open = ! open" 
 =======
@@ -133,6 +174,18 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_uZZqZx
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+            @click="open = ! open" 
+=======
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 >>>>>>> laraxot/dev
             class="flex items-center text-sm font-medium text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300 focus:outline-none transition duration-150 ease-in-out"
         >
@@ -149,6 +202,7 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
         </button>
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_uZZqZx
         <div
 =======
 <<<<<<< HEAD
@@ -160,6 +214,25 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
         <div
 =======
 <<<<<<< HEAD
+=======
+        <div
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <div
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+        <div 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <div
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_F2WdVv
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
         <div
@@ -174,6 +247,13 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< .merge_file_uZZqZx
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_F2WdVv
 >>>>>>> laraxot/dev
             x-show="open"
             x-transition:enter="transition ease-out duration-200"
@@ -292,8 +372,19 @@ $this->mount(function () {
 ## Gestione delle Traduzioni
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_uZZqZx
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_GSH539
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_F2WdVv
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto>corrente per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto>corrente per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
 =======
@@ -314,6 +405,18 @@ Le traduzioni per il dropdown utente sono definite nei file di traduzione di Lar
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_uZZqZx
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto>corrente per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
+Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto>corrente per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
+=======
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 >>>>>>> laraxot/dev
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di  per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto> per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
@@ -327,6 +430,14 @@ Le traduzioni per il dropdown utente sono definite nei file di traduzione di Lar
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_uZZqZx
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_F2WdVv
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
@@ -337,6 +448,13 @@ Le traduzioni per il dropdown utente sono definite nei file di traduzione di Lar
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< .merge_file_uZZqZx
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_F2WdVv
 >>>>>>> laraxot/dev
 
 ### Struttura delle Traduzioni
@@ -414,8 +532,29 @@ Seguire queste convenzioni per le chiavi di traduzione:
 - [Documentazione Filament - Loading Indicator](https://filamentphp.com/docs/3.x/support/blade-components/loading-indicator)
 - [Heroicons](https://heroicons.com/)
 <<<<<<< HEAD
+<<<<<<< .merge_file_uZZqZx
+=======
 - [Tailwind CSS](https://tailwindcss.com/)
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_F2WdVv
+- [Tailwind CSS](https://tailwindcss.com/)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 # Utilizzo dei Componenti Filament Dropdown e Avatar
+<<<<<<< HEAD
+## Collegamenti correlati
+- [README modulo UI](/laravel/Modules/UI/docs/README.md)
+- [Utilizzo Componenti Filament](/laravel/Modules/UI/docs/FILAMENT_COMPONENTS_USAGE.md)
+- [Architettura Modulare](/docs/architettura-modulare.md)
+- [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
+## Panoramica
+Questo documento descrive l'implementazione e l'utilizzo dei componenti dropdown e avatar di Filament , con particolare attenzione alla gestione degli utenti e alle azioni correlate.
+## Componente Avatar
+Il componente `x-filament::avatar` è utilizzato per visualizzare l'immagine del profilo dell'utente. Questo componente accetta diverse proprietà per personalizzare l'aspetto dell'avatar.
+### Esempio di Utilizzo dell'Avatar
+=======
 
 ## Collegamenti correlati
 - [README modulo UI](/laravel/modules/ui/docs/readme.md)
@@ -433,9 +572,19 @@ Il componente `x-filament::avatar` è utilizzato per visualizzare l'immagine del
 
 ### Esempio di Utilizzo dell'Avatar
 
+<<<<<<< .merge_file_uZZqZx
 =======
 <<<<<<< HEAD
 - [Tailwind CSS](https://tailwindcss.com/)
+=======
+<<<<<<< .merge_file_GSH539
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+- [Tailwind CSS](https://tailwindcss.com/)
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_F2WdVv
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -462,6 +611,15 @@ Questo documento descrive l'implementazione e l'utilizzo dei componenti dropdown
 ## Componente Avatar
 Il componente `x-filament::avatar` è utilizzato per visualizzare l'immagine del profilo dell'utente. Questo componente accetta diverse proprietà per personalizzare l'aspetto dell'avatar.
 ### Esempio di Utilizzo dell'Avatar
+<<<<<<< .merge_file_uZZqZx
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 >>>>>>> laraxot/dev
 ```blade
 <x-filament::avatar
@@ -472,11 +630,36 @@ Il componente `x-filament::avatar` è utilizzato per visualizzare l'immagine del
 />
 ```
 <<<<<<< HEAD
+<<<<<<< .merge_file_uZZqZx
+=======
+<<<<<<< .merge_file_GSH539
+>>>>>>> .merge_file_F2WdVv
+
+### Proprietà dell'Avatar
+
+=======
+<<<<<<< .merge_file_uZZqZx
+### Proprietà dell'Avatar
+=======
+<<<<<<< HEAD
+### Proprietà dell'Avatar
+=======
+<<<<<<< HEAD
 
 ### Proprietà dell'Avatar
 
 =======
 ### Proprietà dell'Avatar
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+### Proprietà dell'Avatar
+=======
+
+### Proprietà dell'Avatar
+
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 >>>>>>> laraxot/dev
 | Proprietà | Descrizione | Valori possibili |
 |-----------|-------------|------------------|
@@ -485,6 +668,26 @@ Il componente `x-filament::avatar` è utilizzato per visualizzare l'immagine del
 | `size` | Dimensione dell'avatar | `xs`, `sm`, `md`, `lg`, `xl` |
 | `class` | Classi CSS aggiuntive | Stringa di classi CSS |
 <<<<<<< HEAD
+<<<<<<< .merge_file_uZZqZx
+=======
+<<<<<<< .merge_file_GSH539
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+## Dropdown Utente con Alpine.js
+, il dropdown utente è implementato utilizzando Alpine.js per la gestione degli stati e delle transizioni. Questo approccio è preferito rispetto all'utilizzo diretto di `x-filament::dropdown` quando si necessita di maggiore controllo sull'interattività e sull'aspetto del dropdown.
+### Gestione degli Utenti Autenticati e Non Autenticati
+Il componente user-dropdown gestisce sia gli utenti autenticati che quelli non autenticati:
+- Per gli utenti autenticati, mostra un dropdown con avatar e opzioni come profilo, impostazioni e logout
+- Per gli utenti non autenticati, mostra i link di login e registrazione
+Questo comportamento è implementato utilizzando la condizione `@if(auth()->check())` che verifica se l'utente è autenticato.
+### Esempio di Implementazione del Dropdown Utente
+=======
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 
 ## Dropdown Utente con Alpine.js
 
@@ -502,7 +705,15 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
 ### Esempio di Implementazione del Dropdown Utente
 
 ```blade
+<<<<<<< .merge_file_uZZqZx
 =======
+=======
+<<<<<<< .merge_file_GSH539
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_F2WdVv
 ## Dropdown Utente con Alpine.js
 , il dropdown utente è implementato utilizzando Alpine.js per la gestione degli stati e delle transizioni. Questo approccio è preferito rispetto all'utilizzo diretto di `x-filament::dropdown` quando si necessita di maggiore controllo sull'interattività e sull'aspetto del dropdown.
 ### Gestione degli Utenti Autenticati e Non Autenticati
@@ -511,17 +722,48 @@ Il componente user-dropdown gestisce sia gli utenti autenticati che quelli non a
 - Per gli utenti non autenticati, mostra i link di login e registrazione
 Questo comportamento è implementato utilizzando la condizione `@if(auth()->check())` che verifica se l'utente è autenticato.
 ### Esempio di Implementazione del Dropdown Utente
+<<<<<<< .merge_file_uZZqZx
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 >>>>>>> laraxot/dev
 @props([
     'user' => null,
 ])
 {{ ... }}
 <<<<<<< HEAD
+<<<<<<< .merge_file_uZZqZx
+=======
+=======
+<<<<<<< .merge_file_GSH539
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 @props([
     'user' => null,
 ])
 
+<<<<<<< .merge_file_uZZqZx
 =======
+=======
+<<<<<<< .merge_file_GSH539
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 >>>>>>> laraxot/dev
 @php
     $user = $user ?? auth()->user();
@@ -529,8 +771,25 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
     $isLoggedIn = auth()->check();
 @endphp
 <<<<<<< HEAD
+<<<<<<< .merge_file_uZZqZx
 
 =======
+=======
+<<<<<<< .merge_file_GSH539
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 >>>>>>> laraxot/dev
 @if($isLoggedIn)
     {{-- Dropdown per utente loggato --}}
@@ -545,8 +804,25 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
                     :alt="$user?->name"
                     size="md"
 <<<<<<< HEAD
+<<<<<<< .merge_file_uZZqZx
 {{ ... }}
 =======
+=======
+<<<<<<< .merge_file_GSH539
+{{ ... }}
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+{{ ... }}
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+{{ ... }}
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 >>>>>>> laraxot/dev
                     name="heroicon-o-chevron-down"
                     class="h-4 w-4"
@@ -554,8 +830,25 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
             </div>
         </button>
 <<<<<<< HEAD
+<<<<<<< .merge_file_uZZqZx
 
 =======
+=======
+<<<<<<< .merge_file_GSH539
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 >>>>>>> laraxot/dev
         <div
             x-show="open"
@@ -568,8 +861,25 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
             class="absolute z-50 mt-2 w-48 rounded-md shadow-lg origin-top-right right-0"
             style="display: none;"
 <<<<<<< HEAD
+<<<<<<< .merge_file_uZZqZx
         >
 =======
+=======
+<<<<<<< .merge_file_GSH539
+        >
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        >
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+        >
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 >>>>>>> laraxot/dev
             <div class="rounded-md ring-1 ring-black ring-opacity-5 py-1 bg-white dark:bg-gray-800">
                 <!-- Account Management -->
@@ -577,8 +887,25 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
                     {{ __('auth.user_dropdown.manage_account') }}
                 </div>
 <<<<<<< HEAD
+<<<<<<< .merge_file_uZZqZx
 
 =======
+=======
+<<<<<<< .merge_file_GSH539
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 >>>>>>> laraxot/dev
                 <a href="/{{ $locale }}/profile" class="block px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:bg-gray-100 dark:focus:bg-gray-700 transition duration-150 ease-in-out">
                     <div class="flex items-center">
@@ -590,6 +917,22 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
                     </div>
                 </a>
 <<<<<<< HEAD
+<<<<<<< .merge_file_uZZqZx
+=======
+<<<<<<< .merge_file_GSH539
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+                <a href="/{{ $locale }}/settings" class="block px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:bg-gray-100 dark:focus:bg-gray-700 transition duration-150 ease-in-out">
+                            name="heroicon-o-cog-6-tooth"
+                        <span>{{ __('auth.user_dropdown.settings') }}</span>
+                <div class="border-t border-gray-200 dark:border-gray-700 my-1"></div>
+=======
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 
                 <a href="/{{ $locale }}/settings" class="block px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:bg-gray-100 dark:focus:bg-gray-700 transition duration-150 ease-in-out">
                     <div class="flex items-center">
@@ -603,11 +946,28 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
 
                 <div class="border-t border-gray-200 dark:border-gray-700 my-1"></div>
 
+<<<<<<< .merge_file_uZZqZx
 =======
+=======
+<<<<<<< .merge_file_GSH539
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_F2WdVv
                 <a href="/{{ $locale }}/settings" class="block px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:bg-gray-100 dark:focus:bg-gray-700 transition duration-150 ease-in-out">
                             name="heroicon-o-cog-6-tooth"
                         <span>{{ __('auth.user_dropdown.settings') }}</span>
                 <div class="border-t border-gray-200 dark:border-gray-700 my-1"></div>
+<<<<<<< .merge_file_uZZqZx
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 >>>>>>> laraxot/dev
                 <!-- Authentication -->
                 <form method="POST" action="/{{ $locale }}/auth/logout">
@@ -623,8 +983,25 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
                     </button>
                 </form>
 <<<<<<< HEAD
+<<<<<<< .merge_file_uZZqZx
             </div>
 =======
+=======
+<<<<<<< .merge_file_GSH539
+            </div>
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            </div>
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+            </div>
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 >>>>>>> laraxot/dev
         </div>
     </div>
@@ -637,6 +1014,38 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
         <a href="/{{ $locale }}/auth/register" class="text-sm font-medium text-primary-600 hover:text-primary-700 dark:text-primary-500 dark:hover:text-primary-400 transition duration-150 ease-in-out">
             {{ __('auth.register.title') }}
 <<<<<<< HEAD
+<<<<<<< .merge_file_uZZqZx
+=======
+<<<<<<< .merge_file_GSH539
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+@endif
+## Pagine Volt e Folio
+Quando si utilizzano Volt e Folio insieme, è importante seguire alcune regole specifiche per evitare errori.
+### Struttura Corretta di una Pagina Volt in Folio
+declare(strict_types=1);
+use Illuminate\Support\Facades\Auth;
+use function Laravel\Folio\{middleware, name};
+use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
+middleware(['auth']);
+name('page-name');
+@volt
+<?php
+$this->layout('layouts.main', [
+    'title' => __('page.title')
+]);
+$this->mount(function () {
+    // Logica di inizializzazione
+});
+// Altre funzioni Volt
+?>
+=======
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
         </a>
     </div>
 @endif
@@ -675,7 +1084,15 @@ $this->mount(function () {
 // Altre funzioni Volt
 ?>
 
+<<<<<<< .merge_file_uZZqZx
 =======
+=======
+<<<<<<< .merge_file_GSH539
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_F2WdVv
 @endif
 ## Pagine Volt e Folio
 Quando si utilizzano Volt e Folio insieme, è importante seguire alcune regole specifiche per evitare errori.
@@ -696,6 +1113,15 @@ $this->mount(function () {
 });
 // Altre funzioni Volt
 ?>
+<<<<<<< .merge_file_uZZqZx
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 >>>>>>> laraxot/dev
 <!-- Contenuto HTML della pagina -->
 <div class="container">
@@ -703,34 +1129,95 @@ $this->mount(function () {
 </div>
 @endvolt
 <<<<<<< HEAD
+<<<<<<< .merge_file_uZZqZx
+=======
+<<<<<<< .merge_file_GSH539
+=======
+<<<<<<< HEAD
+### Regole Importanti per Volt e Folio
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+### Regole Importanti per Volt e Folio
+=======
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 ```
 
 ### Regole Importanti per Volt e Folio
 
+<<<<<<< .merge_file_uZZqZx
 =======
 ### Regole Importanti per Volt e Folio
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_GSH539
+<<<<<<< HEAD
+=======
+=======
+### Regole Importanti per Volt e Folio
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_F2WdVv
 1. **Direttiva @volt obbligatoria**: Quando si utilizzano componenti Volt anonimi in pagine Folio, la direttiva `@volt` è obbligatoria
 2. **Layout tramite $this->layout()**: Utilizzare `$this->layout()` invece di wrappare il contenuto in un componente layout
 3. **Mount tramite $this->mount()**: Utilizzare `$this->mount()` per la logica di inizializzazione
 4. **Separazione delle direttive PHP**: Utilizzare `@php` per le direttive Folio e `<?php` all'interno di `@volt` per la logica Volt
 <<<<<<< HEAD
-
-## Gestione delle Traduzioni
-
-Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto> per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
-
-### Struttura delle Traduzioni
-
-```php
-// /laravel/Modules/Lang/lang/it/auth.php
-
+<<<<<<< .merge_file_uZZqZx
+=======
+<<<<<<< .merge_file_GSH539
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 ## Gestione delle Traduzioni
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto> per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
 ### Struttura delle Traduzioni
 ```php
 // /laravel/Modules/Lang/lang/it/auth.php
+=======
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
+
+## Gestione delle Traduzioni
+
+Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto> per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
+
+### Struttura delle Traduzioni
+
+```php
+// /laravel/Modules/Lang/lang/it/auth.php
+
+<<<<<<< .merge_file_uZZqZx
+=======
+=======
+<<<<<<< .merge_file_GSH539
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_F2WdVv
+## Gestione delle Traduzioni
+Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto> per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
+### Struttura delle Traduzioni
+```php
+// /laravel/Modules/Lang/lang/it/auth.php
+<<<<<<< .merge_file_uZZqZx
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 >>>>>>> laraxot/dev
 // Traduzioni per il dropdown utente
 'user_dropdown' => [
@@ -740,8 +1227,25 @@ Le traduzioni per il dropdown utente sono definite nei file di traduzione di Lar
     'logout' => 'Disconnetti',
 ],
 <<<<<<< HEAD
+<<<<<<< .merge_file_uZZqZx
 
 =======
+=======
+<<<<<<< .merge_file_GSH539
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 >>>>>>> laraxot/dev
 // Traduzioni per login/register utilizzate anche nel dropdown
 'login' => [
@@ -749,6 +1253,24 @@ Le traduzioni per il dropdown utente sono definite nei file di traduzione di Lar
     // ...
     'link' => 'Accedi',  // Utilizzato nel dropdown utente
 <<<<<<< HEAD
+<<<<<<< .merge_file_uZZqZx
+=======
+<<<<<<< .merge_file_GSH539
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+'register' => [
+    'title' => 'Crea un nuovo account',
+    'link' => 'Registrati',  // Utilizzato nel dropdown utente
+### Utilizzo delle Traduzioni nel Componente
+<!-- Per utenti autenticati -->
+<span>{{ __('auth.user_dropdown.profile') }}</span>
+=======
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 ],
 
 'register' => [
@@ -764,40 +1286,113 @@ Le traduzioni per il dropdown utente sono definite nei file di traduzione di Lar
 <!-- Per utenti autenticati -->
 <span>{{ __('auth.user_dropdown.profile') }}</span>
 
+<<<<<<< .merge_file_uZZqZx
 =======
+=======
+<<<<<<< .merge_file_GSH539
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_F2WdVv
 'register' => [
     'title' => 'Crea un nuovo account',
     'link' => 'Registrati',  // Utilizzato nel dropdown utente
 ### Utilizzo delle Traduzioni nel Componente
 <!-- Per utenti autenticati -->
 <span>{{ __('auth.user_dropdown.profile') }}</span>
+<<<<<<< .merge_file_uZZqZx
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 >>>>>>> laraxot/dev
 <!-- Per utenti non autenticati -->
 <a href="/{{ $locale }}/auth/login">
     {{ __('auth.login.link') }}
 </a>
 <<<<<<< HEAD
+<<<<<<< .merge_file_uZZqZx
+=======
+<<<<<<< .merge_file_GSH539
+=======
+<<<<<<< HEAD
+### Convenzioni di Naming
+Seguire queste convenzioni per le chiavi di traduzione:
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+### Convenzioni di Naming
+Seguire queste convenzioni per le chiavi di traduzione:
+=======
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 ```
 
 ### Convenzioni di Naming
 
 Seguire queste convenzioni per le chiavi di traduzione:
 
+<<<<<<< .merge_file_uZZqZx
+=======
+<<<<<<< .merge_file_GSH539
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_F2WdVv
 =======
 ### Convenzioni di Naming
 Seguire queste convenzioni per le chiavi di traduzione:
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_uZZqZx
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_F2WdVv
 1. Utilizzare il namespace appropriato (`auth.user_dropdown` per il dropdown utente)
 2. Utilizzare nomi descrittivi e coerenti per le chiavi
 3. Utilizzare snake_case per le chiavi di traduzione
 4. Mantenere la coerenza tra le diverse lingue
 <<<<<<< HEAD
+<<<<<<< .merge_file_uZZqZx
+=======
+<<<<<<< .merge_file_GSH539
 
+## Best Practices
+=======
+## Best Practices
+=======
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
+
+=======
+<<<<<<< HEAD
+## Best Practices
+=======
+<<<<<<< HEAD
+
+<<<<<<< .merge_file_uZZqZx
+=======
+## Best Practices
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_GSH539
 ## Best Practices
 
 =======
 ## Best Practices
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_F2WdVv
 1. **Utilizzare sempre la localizzazione per i testi**: Utilizzare `{{ __('auth.user_dropdown.profile') }}` invece di `{{ __('Profile') }}`
 2. **Gestire sia gli utenti loggati che non loggati**: Utilizzare `@if(auth()->check())` per mostrare contenuti diversi in base allo stato di autenticazione
 3. **Utilizzare Alpine.js per l'interattività**: Utilizzare `x-data`, `x-show`, `@click` e altre direttive Alpine per gestire l'interattività del dropdown
@@ -806,11 +1401,37 @@ Seguire queste convenzioni per le chiavi di traduzione:
 6. **Evitare componenti non disponibili**: Non utilizzare componenti che non sono disponibili in Filament come `x-filament::dropdown.list.separator` o `filament::layouts.card`
 7. **Utilizzare percorsi assoluti con localizzazione**: Utilizzare `/{{ $locale }}/profile` invece di route named come `{{ route('profile.show') }}` a meno che non siano esplicitamente definite
 <<<<<<< HEAD
+<<<<<<< .merge_file_uZZqZx
 
 ## Errori Comuni da Evitare
 
 =======
 ## Errori Comuni da Evitare
+=======
+<<<<<<< .merge_file_GSH539
+
+## Errori Comuni da Evitare
+
+=======
+<<<<<<< HEAD
+## Errori Comuni da Evitare
+=======
+<<<<<<< HEAD
+
+## Errori Comuni da Evitare
+
+=======
+## Errori Comuni da Evitare
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+## Errori Comuni da Evitare
+=======
+
+## Errori Comuni da Evitare
+
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 >>>>>>> laraxot/dev
 1. **Utilizzo di componenti non esistenti**: `x-filament::dropdown.list.separator` non esiste, utilizzare `<div class="border-t border-gray-200 dark:border-gray-700 my-1"></div>` invece
 2. **Riferimento a route non definite**: Utilizzare percorsi assoluti con la lingua corrente, ad esempio `/{{ $locale }}/profile` invece di `{{ route('profile.show') }}`
@@ -820,20 +1441,58 @@ Seguire queste convenzioni per le chiavi di traduzione:
 6. **Mancanza della direttiva @volt**: Quando si utilizzano componenti Volt anonimi in pagine Folio, la direttiva `@volt` è obbligatoria
 7. **Utilizzo di layout nidificati**: Non utilizzare `<x-layouts.main>` all'interno di una pagina Volt, utilizzare invece `$this->layout('layouts.main')`
 <<<<<<< HEAD
+<<<<<<< .merge_file_uZZqZx
+=======
+<<<<<<< .merge_file_GSH539
+>>>>>>> .merge_file_F2WdVv
+
+## Riferimenti
+
+=======
+<<<<<<< .merge_file_uZZqZx
+## Riferimenti
+=======
+<<<<<<< HEAD
+## Riferimenti
+=======
+<<<<<<< HEAD
 
 ## Riferimenti
 
 =======
 ## Riferimenti
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+## Riferimenti
+=======
+
+## Riferimenti
+
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
+>>>>>>> laraxot/dev
 - [Documentazione Filament - Avatar](https://filamentphp.com/docs/3.x/support/blade-components/avatar)
 - [Documentazione Filament - Dropdown](https://filamentphp.com/docs/3.x/support/blade-components/dropdown)
 - [Documentazione Filament - Loading Indicator](https://filamentphp.com/docs/3.x/support/blade-components/loading-indicator)
 - [Heroicons](https://heroicons.com/)
 <<<<<<< HEAD
+<<<<<<< .merge_file_uZZqZx
 - [Tailwind CSS](https://tailwindcss.com/)
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_GSH539
+- [Tailwind CSS](https://tailwindcss.com/)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Tailwind CSS](https://tailwindcss.com/)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_F2WdVv
 
 ```
 =======
@@ -843,6 +1502,16 @@ Seguire queste convenzioni per le chiavi di traduzione:
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_uZZqZx
+- [Tailwind CSS](https://tailwindcss.com/)
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 =======
 - [Tailwind CSS](https://tailwindcss.com/)
@@ -853,4 +1522,15 @@ Seguire queste convenzioni per le chiavi di traduzione:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+```
+=======
+- [Tailwind CSS](https://tailwindcss.com/)
+>>>>>>> .merge_file_Dhoxtx
+>>>>>>> .merge_file_F2WdVv
 >>>>>>> laraxot/dev

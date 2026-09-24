@@ -1,14 +1,36 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_mzK4lq
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 # List Records in Filament
 
 ## Estensione Corretta
+<<<<<<< HEAD
+```php
+// ❌ ERRATO: Non estendere ListRecords
+use Filament\Resources\Pages\ListRecords;
+=======
 
 ```php
 // ❌ ERRATO: Non estendere ListRecords
 use Filament\Resources\Pages\ListRecords;
 
+<<<<<<< .merge_file_mzK4lq
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_bWV7Sr
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 =======
 <<<<<<< HEAD
 =======
@@ -63,12 +85,22 @@ related:
 ```php
 // ❌ ERRATO: Non estendere ListRecords
 use Filament\Resources\Pages\ListRecords;
+<<<<<<< .merge_file_mzK4lq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_dN6dZC
+>>>>>>> .merge_file_qwilWF
 >>>>>>> laraxot/dev
 class ListMyRecords extends ListRecords
 {
     // ...
 }
 <<<<<<< HEAD
+<<<<<<< .merge_file_mzK4lq
 
 // ✅ CORRETTO: Estendere XotBaseListRecords
 =======
@@ -81,6 +113,46 @@ Estendono `XotBaseListRecords`: traduzioni, permessi e colonne restano nel contr
 ## Estensione corretta
 
 ```php
+=======
+<<<<<<< .merge_file_bWV7Sr
+
+// ✅ CORRETTO: Estendere XotBaseListRecords
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+// ✅ CORRETTO: Estendere XotBaseListRecords
+=======
+>>>>>>> laraxot/dev
+// ✅ CORRETTO: Estendere XotBaseListRecords
+## Perché
+
+Le pagine lista delle Resource non estendono `Filament\Resources\Pages\ListRecords`.
+Estendono `XotBaseListRecords`: traduzioni, permessi e colonne restano nel contratto Laraxot.
+
+## Estensione corretta
+
+```php
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+// ✅ CORRETTO: Estendere XotBaseListRecords
+## Perché
+
+Le pagine lista delle Resource non estendono `Filament\Resources\Pages\ListRecords`.
+Estendono `XotBaseListRecords`: traduzioni, permessi e colonne restano nel contratto Laraxot.
+
+## Estensione corretta
+
+```php
+=======
+
+// ✅ CORRETTO: Estendere XotBaseListRecords
+>>>>>>> .merge_file_dN6dZC
+>>>>>>> .merge_file_qwilWF
 >>>>>>> laraxot/dev
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 
@@ -93,6 +165,7 @@ class ListMyRecords extends XotBaseListRecords
         return [
             // definizione colonne
 <<<<<<< HEAD
+<<<<<<< .merge_file_mzK4lq
 =======
 // colonne
 >>>>>>> laraxot/dev
@@ -102,14 +175,207 @@ class ListMyRecords extends XotBaseListRecords
 ```
 
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_bWV7Sr
+=======
+<<<<<<< HEAD
+// colonne
+=======
+<<<<<<< HEAD
+=======
+// colonne
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+// colonne
+=======
+>>>>>>> .merge_file_dN6dZC
+>>>>>>> laraxot/dev
+        ];
+    }
+}
+```
+
+<<<<<<< HEAD
+<<<<<<< .merge_file_bWV7Sr
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+## Metodi obbligatori
+
+>>>>>>> .merge_file_dN6dZC
+## Metodi Obbligatori
+Quando si estende `XotBaseListRecords`:
+1. `getListTableColumns()` — colonne
+2. `getListTableActions()` — azioni riga
+3. `getListTableBulkActions()` — azioni di massa
+4. `getListTableFilters()` — filtri
+Prefisso `List` obbligatorio. Visibilità `public`. Non cambiare la visibilità dei metodi ereditati.
+## Errori comuni
+- Estendere `ListRecords` Filament direttamente
+- Usare `getTableColumns()` / `getTableActions()` senza prefisso `List`
+- Mettere la tabella sulla Resource invece che sulla pagina List
+- `protected function getListTableColumns()`
+## Best practices
+```php
+declare(strict_types=1);
+namespace Modules\XXX\Filament\Resources\XXXResource\Pages;
+use Exception;
+use Filament\Actions;
+use Filament\Actions\CreateAction;
+use Filament\Resources\Pages\ListRecords;
+use Filament\Tables\Actions\Action;
+use Filament\Tables\Actions\ActionGroup;
+use Filament\Tables\Actions\DeleteAction;
+use Filament\Tables\Actions\DeleteBulkAction;
+use Filament\Tables\Actions\ViewAction;
+use Filament\Tables\Actions\EditAction;
+use Filament\Tables\Columns\ImageColumn;
+use Filament\Tables\Columns\Layout\Stack;
+use Filament\Tables\Columns\TextColumn;
+use Filament\Tables\Enums\ActionsPosition;
+use Filament\Tables\Enums\FiltersLayout;
+use Filament\Tables\Table;
+use Modules\UI\Enums\TableLayoutEnum;
+use Modules\UI\Filament\Actions\Table\TableLayoutToggleTableAction;
+use Modules\Xot\Filament\Traits\TransTrait;
+use Webmozart\Assert\Assert;
+use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+    public function getGridTableColumns(): array
+    {
+        return [
+        ];
+    }
+## Metodi obbligatori
+Quando si estende `XotBaseListRecords`:
+
+1. `getListTableColumns()` — colonne
+2. `getListTableActions()` — azioni riga
+3. `getListTableBulkActions()` — azioni di massa
+4. `getListTableFilters()` — filtri
+
+Prefisso `List` obbligatorio. Visibilità `public`. Non cambiare la visibilità dei metodi ereditati.
+
+## Errori comuni
+
+- Estendere `ListRecords` Filament direttamente
+- Usare `getTableColumns()` / `getTableActions()` senza prefisso `List`
+- Mettere la tabella sulla Resource invece che sulla pagina List
+- `protected function getListTableColumns()`
+
+## Best practices
+
+```php
+class ListMyRecords extends XotBaseListRecords
+{
+    protected static string $resource = MyResource::class;
+
+    public function getListTableColumns(): array
+    {
+        return [
+        ];
+    }
+    public function getTableFilters(): array
+    {
+        return [
+    public function getTableActions(): array
+            ViewAction::make()
+                ->label(''),
+            EditAction::make()
+            DeleteAction::make()
+                ->label('')
+                ->requiresConfirmation(),
+    public function getTableBulkActions(): array
+            DeleteBulkAction::make(),
+    public function table(Table $table): Table
+        return $table
+            // ->columns($this->getTableColumns())
+            ->columns($this->layoutView->getTableColumns())
+            ->contentGrid($this->layoutView->getTableContentGrid())
+            ->headerActions($this->getTableHeaderActions())
+            ->filters($this->getTableFilters())
+            ->filtersLayout(FiltersLayout::AboveContent)
+            ->persistFiltersInSession()
+            ->actions($this->getTableActions())
+            ->bulkActions($this->getTableBulkActions())
+            ->actionsPosition(ActionsPosition::BeforeColumns)
+            ->defaultSort(
+                column: 'created_at',
+                direction: 'DESC',
+            );
+            TextColumn::make('id')->sortable(),
+            TextColumn::make('name')->searchable(),
+        ];
+    }
+
+    public function getListTableActions(): array
+    {
+        return [
+            'edit' => EditAction::make(),
+            'delete' => DeleteAction::make(),
+        ];
+    }
+
+    public function getListTableBulkActions(): array
+    {
+        return [
+            'delete' => DeleteBulkAction::make(),
+        ];
+    }
+}
+```
+
+Traduzioni con `static::trans()`, permessi con `can()` nel `mount()`.
+---
+## Contenuto assorbito da `ListRecords.md`
+# List Records in Filament
+## Estensione Corretta
+```php
+// ❌ ERRATO: Non estendere ListRecords
+use Filament\Resources\Pages\ListRecords;
+class ListMyRecords extends ListRecords
+{
+    // ...
+}
+// ✅ CORRETTO: Estendere XotBaseListRecords
+use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+class ListMyRecords extends XotBaseListRecords
+    protected static string $resource = MyResource::class;
+    public function getListTableColumns(): array
+        return [
+            // definizione colonne
+        ];
+```
+## Metodi Obbligatori
+Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti metodi:
+=======
+>>>>>>> .merge_file_qwilWF
 ## Metodi Obbligatori
 
 Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti metodi:
 
+>>>>>>> laraxot/dev
 1. `getListTableColumns()`: Definisce le colonne della tabella
 2. `getListTableActions()`: Definisce le azioni per singola riga
 3. `getListTableBulkActions()`: Definisce le azioni di massa
 4. `getListTableFilters()`: Definisce i filtri della tabella
+<<<<<<< HEAD
+## Convenzioni Importanti
+1. **Prefisso List**:
+   - Tutti i metodi relativi alla tabella DEVONO avere il prefisso "List"
+   - Es: `getListTableColumns()` invece di `getTableColumns()`
+2. **Visibilità dei Metodi**:
+   - Tutti i metodi devono essere `public`
+   - Non cambiare la visibilità dei metodi ereditati
+3. **Namespace**:
+## Errori Comuni da Evitare
+1. **❌ Estensione Errata**:
+   // NON estendere mai ListRecords direttamente
+2. **❌ Metodi Senza Prefisso List**:
+=======
 
 ## Convenzioni Importanti
 
@@ -136,10 +402,32 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 
 2. **❌ Metodi Senza Prefisso List**:
    ```php
+>>>>>>> laraxot/dev
    // NON usare i metodi senza prefisso List
    public function getTableColumns(): array
    public function getTableActions(): array
    public function getTableBulkActions(): array
+<<<<<<< HEAD
+3. **❌ Visibilità Errata**:
+   // NON cambiare la visibilità dei metodi
+   protected function getListTableColumns(): array
+## Best Practices
+1. **Organizzazione del Codice**:
+               TextColumn::make('id')->sortable(),
+               TextColumn::make('name')->searchable(),
+       public function getListTableActions(): array
+               EditAction::make(),
+               DeleteAction::make(),
+       public function getListTableBulkActions(): array
+               DeleteBulkAction::make(),
+2. **Traduzioni**:
+   - Usare `static::trans()` per le traduzioni
+   - Definire le traduzioni nel file di lingua del modulo
+3. **Permessi**:
+   - Implementare controlli nei mount()
+   - Usare can() per azioni condizionali
+## Note Importanti
+=======
    ```
 
 3. **❌ Visibilità Errata**:
@@ -191,10 +479,20 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 
 ## Note Importanti
 
+>>>>>>> laraxot/dev
 1. XotBaseListRecords fornisce funzionalità aggiuntive rispetto a ListRecords:
    - Gestione automatica delle traduzioni
    - Integrazione con il sistema di permessi
    - Funzionalità custom del framework
+<<<<<<< HEAD
+2. La configurazione della tabella deve essere sempre nella classe List, non nel Resource
+3. Mantenere la coerenza in tutto il progetto usando sempre XotBaseListRecords
+declare(strict_types=1);
+namespace Modules\XXX\Filament\Resources\XXXResource\Pages;
+use Exception;
+use Filament\Actions;
+use Filament\Actions\CreateAction;
+=======
 
 2. La configurazione della tabella deve essere sempre nella classe List, non nel Resource
 
@@ -205,7 +503,14 @@ declare(strict_types=1);
 
 namespace Modules\XXX\Filament\Resources\XXXResource\Pages;
 
+<<<<<<< .merge_file_mzK4lq
 =======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 ## Metodi obbligatori
 
 ## Metodi Obbligatori
@@ -224,11 +529,19 @@ Prefisso `List` obbligatorio. Visibilità `public`. Non cambiare la visibilità 
 ```php
 declare(strict_types=1);
 namespace Modules\XXX\Filament\Resources\XXXResource\Pages;
+<<<<<<< .merge_file_mzK4lq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 >>>>>>> laraxot/dev
 use Exception;
 use Filament\Actions;
 use Filament\Actions\CreateAction;
 use Filament\Resources\Pages\ListRecords;
+>>>>>>> laraxot/dev
 use Filament\Tables\Actions\Action;
 use Filament\Tables\Actions\ActionGroup;
 use Filament\Tables\Actions\DeleteAction;
@@ -245,11 +558,33 @@ use Modules\UI\Enums\TableLayoutEnum;
 use Modules\UI\Filament\Actions\Table\TableLayoutToggleTableAction;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
+class ListXXX extends XotBaseListRecords
+    protected static string $resource = XXXResource::class;
+    public function getGridTableColumns(): array
+    public function getTableFilters(): array
+            ViewAction::make()
+                ->label(''),
+            EditAction::make()
+            DeleteAction::make()
+                ->label('')
+                ->requiresConfirmation(),
+    public function table(Table $table): Table
+=======
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 <<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_mzK4lq
+=======
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 =======
 
 <<<<<<< HEAD
@@ -257,6 +592,13 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_mzK4lq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 >>>>>>> laraxot/dev
 class ListXXX extends XotBaseListRecords
 {
@@ -265,6 +607,14 @@ class ListXXX extends XotBaseListRecords
 
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_mzK4lq
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -302,6 +652,13 @@ class ListXXX extends XotBaseListRecords
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_mzK4lq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 >>>>>>> laraxot/dev
     public function getGridTableColumns(): array
     {
@@ -310,6 +667,14 @@ class ListXXX extends XotBaseListRecords
     }
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_mzK4lq
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 ## Metodi obbligatori
 Quando si estende `XotBaseListRecords`:
 
@@ -333,6 +698,13 @@ Prefisso `List` obbligatorio. Visibilità `public`. Non cambiare la visibilità 
 class ListMyRecords extends XotBaseListRecords
 {
     protected static string $resource = MyResource::class;
+<<<<<<< .merge_file_mzK4lq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 >>>>>>> laraxot/dev
 
     public function getListTableColumns(): array
@@ -341,6 +713,14 @@ class ListMyRecords extends XotBaseListRecords
         ];
     }
 <<<<<<< HEAD
+<<<<<<< .merge_file_mzK4lq
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 
     public function getTableFilters(): array
     {
@@ -371,7 +751,15 @@ class ListMyRecords extends XotBaseListRecords
 
     public function table(Table $table): Table
     {
+<<<<<<< .merge_file_mzK4lq
 =======
+=======
+<<<<<<< .merge_file_bWV7Sr
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
     public function getTableFilters(): array
     {
         return [
@@ -413,6 +801,15 @@ class ListMyRecords extends XotBaseListRecords
     public function getTableBulkActions(): array
             DeleteBulkAction::make(),
     public function table(Table $table): Table
+<<<<<<< .merge_file_mzK4lq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_dN6dZC
+>>>>>>> .merge_file_qwilWF
 >>>>>>> laraxot/dev
         return $table
             // ->columns($this->getTableColumns())
@@ -420,8 +817,25 @@ class ListMyRecords extends XotBaseListRecords
             ->contentGrid($this->layoutView->getTableContentGrid())
             ->headerActions($this->getTableHeaderActions())
 <<<<<<< HEAD
+<<<<<<< .merge_file_mzK4lq
 
 =======
+=======
+<<<<<<< .merge_file_bWV7Sr
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_dN6dZC
+>>>>>>> .merge_file_qwilWF
 >>>>>>> laraxot/dev
             ->filters($this->getTableFilters())
             ->filtersLayout(FiltersLayout::AboveContent)
@@ -434,6 +848,17 @@ class ListMyRecords extends XotBaseListRecords
                 direction: 'DESC',
             );
 <<<<<<< HEAD
+<<<<<<< .merge_file_mzK4lq
+=======
+=======
+<<<<<<< .merge_file_bWV7Sr
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_dN6dZC
+>>>>>>> .merge_file_qwilWF
     }
 }
 ```
@@ -461,7 +886,15 @@ class ListMyRecords extends XotBaseListRecords
     {
         return [
             // definizione colonne
+<<<<<<< .merge_file_mzK4lq
 =======
+            TextColumn::make('id')->sortable(),
+            TextColumn::make('name')->searchable(),
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
             TextColumn::make('id')->sortable(),
             TextColumn::make('name')->searchable(),
         ];
@@ -501,6 +934,50 @@ class ListMyRecords extends XotBaseListRecords
     {
         return [
             'delete' => DeleteBulkAction::make(),
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
+        ];
+    }
+<<<<<<< HEAD
+=======
+}
+<<<<<<< HEAD
+```
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+```
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+```
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+```
+# List Records in Filament
+>>>>>>> laraxot/dev
+
+<<<<<<< .merge_file_mzK4lq
+    public function getListTableActions(): array
+    {
+        return [
+            'edit' => EditAction::make(),
+            'delete' => DeleteAction::make(),
+        ];
+    }
+
+    public function getListTableBulkActions(): array
+    {
+        return [
+            'delete' => DeleteBulkAction::make(),
 >>>>>>> laraxot/dev
         ];
     }
@@ -508,11 +985,26 @@ class ListMyRecords extends XotBaseListRecords
 ```
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 ## Metodi Obbligatori
 
 Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti metodi:
 
+<<<<<<< .merge_file_mzK4lq
 =======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 Traduzioni con `static::trans()`, permessi con `can()` nel `mount()`.
 ---
 ## Contenuto assorbito da `ListRecords.md`
@@ -536,12 +1028,27 @@ class ListMyRecords extends XotBaseListRecords
 ```
 ## Metodi Obbligatori
 Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti metodi:
+<<<<<<< .merge_file_mzK4lq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 >>>>>>> laraxot/dev
 1. `getListTableColumns()`: Definisce le colonne della tabella
 2. `getListTableActions()`: Definisce le azioni per singola riga
 3. `getListTableBulkActions()`: Definisce le azioni di massa
 4. `getListTableFilters()`: Definisce i filtri della tabella
 <<<<<<< HEAD
+<<<<<<< .merge_file_mzK4lq
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 
 ## Convenzioni Importanti
 
@@ -568,7 +1075,14 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 
 2. **❌ Metodi Senza Prefisso List**:
    ```php
+<<<<<<< .merge_file_mzK4lq
 =======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 ## Convenzioni Importanti
 1. **Prefisso List**:
    - Tutti i metodi relativi alla tabella DEVONO avere il prefisso "List"
@@ -581,12 +1095,27 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 1. **❌ Estensione Errata**:
    // NON estendere mai ListRecords direttamente
 2. **❌ Metodi Senza Prefisso List**:
+<<<<<<< .merge_file_mzK4lq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 >>>>>>> laraxot/dev
    // NON usare i metodi senza prefisso List
    public function getTableColumns(): array
    public function getTableActions(): array
    public function getTableBulkActions(): array
 <<<<<<< HEAD
+<<<<<<< .merge_file_mzK4lq
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
    ```
 
 3. **❌ Visibilità Errata**:
@@ -638,7 +1167,14 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 
 ## Note Importanti
 
+<<<<<<< .merge_file_mzK4lq
 =======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 3. **❌ Visibilità Errata**:
    // NON cambiare la visibilità dei metodi
    protected function getListTableColumns(): array
@@ -658,12 +1194,27 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
    - Implementare controlli nei mount()
    - Usare can() per azioni condizionali
 ## Note Importanti
+<<<<<<< .merge_file_mzK4lq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 >>>>>>> laraxot/dev
 1. XotBaseListRecords fornisce funzionalità aggiuntive rispetto a ListRecords:
    - Gestione automatica delle traduzioni
    - Integrazione con il sistema di permessi
    - Funzionalità custom del framework
 <<<<<<< HEAD
+<<<<<<< .merge_file_mzK4lq
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 
 2. La configurazione della tabella deve essere sempre nella classe List, non nel Resource
 
@@ -678,7 +1229,14 @@ use Exception;
 use Filament\Actions;
 use Filament\Actions\CreateAction;
 use Filament\Resources\Pages\ListRecords;
+<<<<<<< .merge_file_mzK4lq
 =======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 2. La configurazione della tabella deve essere sempre nella classe List, non nel Resource
 3. Mantenere la coerenza in tutto il progetto usando sempre XotBaseListRecords
 declare(strict_types=1);
@@ -686,6 +1244,13 @@ namespace Modules\XXX\Filament\Resources\XXXResource\Pages;
 use Exception;
 use Filament\Actions;
 use Filament\Actions\CreateAction;
+<<<<<<< .merge_file_mzK4lq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 >>>>>>> laraxot/dev
 use Filament\Tables\Actions\Action;
 use Filament\Tables\Actions\ActionGroup;
@@ -704,6 +1269,14 @@ use Modules\UI\Filament\Actions\Table\TableLayoutToggleTableAction;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
+<<<<<<< .merge_file_mzK4lq
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 
 class ListXXX extends XotBaseListRecords
@@ -752,7 +1325,14 @@ class ListXXX extends XotBaseListRecords
 
     public function table(Table $table): Table
     {
+<<<<<<< .merge_file_mzK4lq
 =======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 class ListXXX extends XotBaseListRecords
     protected static string $resource = XXXResource::class;
     public function getGridTableColumns(): array
@@ -764,6 +1344,13 @@ class ListXXX extends XotBaseListRecords
                 ->label('')
                 ->requiresConfirmation(),
     public function table(Table $table): Table
+<<<<<<< .merge_file_mzK4lq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 >>>>>>> laraxot/dev
         return $table
             // ->columns($this->getTableColumns())
@@ -771,9 +1358,22 @@ class ListXXX extends XotBaseListRecords
             ->contentGrid($this->layoutView->getTableContentGrid())
             ->headerActions($this->getTableHeaderActions())
 <<<<<<< HEAD
+<<<<<<< .merge_file_mzK4lq
 
 =======
 >>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
             ->filters($this->getTableFilters())
             ->filtersLayout(FiltersLayout::AboveContent)
             ->persistFiltersInSession()
@@ -785,11 +1385,28 @@ class ListXXX extends XotBaseListRecords
                 direction: 'DESC',
             );
 <<<<<<< HEAD
+<<<<<<< .merge_file_mzK4lq
     }
 }
 ```
 =======
 <<<<<<< HEAD
+=======
+    }
+}
+```
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    }
+}
+```
+<<<<<<< .merge_file_bWV7Sr
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwilWF
 =======
     }
 }
@@ -809,4 +1426,13 @@ class ListXXX extends XotBaseListRecords
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_mzK4lq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_dN6dZC
+>>>>>>> .merge_file_qwilWF
 >>>>>>> laraxot/dev

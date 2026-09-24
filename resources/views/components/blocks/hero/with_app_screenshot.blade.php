@@ -1,4 +1,14 @@
+<<<<<<< .merge_file_AJRtq2
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_lRdS8G
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YiGIEW
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -17,12 +27,22 @@
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
+<<<<<<< .merge_file_AJRtq2
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_jj2s7s
+>>>>>>> .merge_file_YiGIEW
 <?php
 
 declare(strict_types=1);
-
 ?>
 @props([
     'title' => 'Data to enrich your online business',

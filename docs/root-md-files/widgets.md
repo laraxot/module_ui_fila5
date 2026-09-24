@@ -1,6 +1,15 @@
 <<<<<<< HEAD
 https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
 =======
+<<<<<<< .merge_file_QqVavU
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_nhgYPj
 ---
 title: "Widgets"
 type: concept
@@ -32,4 +41,11 @@ related:
 ---
 
 https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
+<<<<<<< .merge_file_QqVavU
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_nhgYPj
 >>>>>>> laraxot/dev

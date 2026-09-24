@@ -1,5 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_arGt67
 =======
+=======
+<<<<<<< .merge_file_nhonbr
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Q3VYtG
+>>>>>>> .merge_file_IAsROG
 ---
 title: "theme"
 type: concept
@@ -7,6 +19,10 @@ tags: [theme]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "theme theme"
+<<<<<<< .merge_file_arGt67
+=======
+<<<<<<< .merge_file_nhonbr
+>>>>>>> .merge_file_IAsROG
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -19,6 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_arGt67
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_Q3VYtG
+>>>>>>> .merge_file_IAsROG
 related:
   - "./api.md"
   - "./blocks.md"
@@ -30,7 +55,20 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+<<<<<<< .merge_file_arGt67
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_nhonbr
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Q3VYtG
+>>>>>>> .merge_file_IAsROG
 # theme
 
 <!-- Contenuto migrato da _docs/theme.txt -->

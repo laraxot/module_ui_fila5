@@ -19,7 +19,19 @@ Usa `docs/` come sorgente raw e `docs/wiki/` come livello compilato/sintetico.
 
 QMD: [https://github.com/tobi/qmd](https://github.com/tobi/qmd)
 <<<<<<< HEAD
+<<<<<<< .merge_file_33TJqo
 =======
+=======
+<<<<<<< .merge_file_kKsjmX
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_vHZw4D
+>>>>>>> .merge_file_rskRRq
 [![Module](https://img.shields.io/badge/Module-LLM Wiki (module)-8B0000.svg)]()
 [![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
 [![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)
@@ -52,4 +64,17 @@ Core module for the FixCity Platform.
 ---
 
 **Modulo** `UI` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+<<<<<<< .merge_file_33TJqo
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_kKsjmX
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_vHZw4D
+>>>>>>> .merge_file_rskRRq

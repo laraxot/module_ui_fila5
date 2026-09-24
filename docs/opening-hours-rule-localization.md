@@ -132,6 +132,15 @@ $rule = new OpeningHoursRule();
 // Test inglese
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_CP7A6f
+=======
+<<<<<<< HEAD
+=======
+// Test inglese
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Bn6gLu
 // Test inglese  
 =======
 <<<<<<< HEAD
@@ -154,6 +163,13 @@ $rule = new OpeningHoursRule();
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< .merge_file_CP7A6f
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Bn6gLu
 >>>>>>> laraxot/dev
 App::setLocale('en');
 $rule = new OpeningHoursRule();
@@ -209,8 +225,23 @@ $rule = new OpeningHoursRule();
 - [Localization Guidelines](./localization_guidelines.md)
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_CP7A6f
+=======
 *Correzione completata: gennaio 2025*
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_Bn6gLu
+*Correzione completata: gennaio 2025*
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 # Localizzazione OpeningHoursRule - Modulo UI
+<<<<<<< HEAD
+## Problema Identificato
+La classe `OpeningHoursRule` conteneva stringhe hardcoded in italiano, violando il principio di localizzazione per siti multilingua.
+## Correzioni Applicate
+### 1. Eliminazione Stringhe Hardcoded
+=======
 
 ## Problema Identificato
 
@@ -220,9 +251,19 @@ La classe `OpeningHoursRule` conteneva stringhe hardcoded in italiano, violando 
 
 ### 1. Eliminazione Stringhe Hardcoded
 
+<<<<<<< .merge_file_CP7A6f
 =======
 <<<<<<< HEAD
 *Correzione completata: gennaio 2025*
+=======
+<<<<<<< .merge_file_GyUESK
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+*Correzione completata: gennaio 2025*
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Bn6gLu
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -243,6 +284,15 @@ La classe `OpeningHoursRule` conteneva stringhe hardcoded in italiano, violando 
 La classe `OpeningHoursRule` conteneva stringhe hardcoded in italiano, violando il principio di localizzazione per siti multilingua.
 ## Correzioni Applicate
 ### 1. Eliminazione Stringhe Hardcoded
+<<<<<<< .merge_file_CP7A6f
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> .merge_file_Bn6gLu
 >>>>>>> laraxot/dev
 #### ❌ Prima (Stringhe Italiane Hardcoded)
 ```php
@@ -252,34 +302,111 @@ $fail("L'orario di apertura {$sessionLabel} per {$dayLabel} deve essere preceden
 $sessionLabel = $session === 'morning' ? 'mattina' : 'pomeriggio';
 ```
 <<<<<<< HEAD
+<<<<<<< .merge_file_CP7A6f
+=======
+<<<<<<< .merge_file_GyUESK
+
+#### ✅ Dopo (Traduzioni Localizzate)
+```php
+=======
+<<<<<<< HEAD
+#### ✅ Dopo (Traduzioni Localizzate)
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_Bn6gLu
 
 #### ✅ Dopo (Traduzioni Localizzate)
 ```php
 =======
 #### ✅ Dopo (Traduzioni Localizzate)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_CP7A6f
+=======
+>>>>>>> laraxot/dev
+=======
+#### ✅ Dopo (Traduzioni Localizzate)
+=======
+
+#### ✅ Dopo (Traduzioni Localizzate)
+```php
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Bn6gLu
 $fail(__('ui::validation.opening_hours.morning_before_afternoon', ['day' => $dayLabel]));
 $fail(__('ui::validation.opening_hours.missing_closing_time', ['session' => $sessionLabel, 'day' => $dayLabel]));
 $fail(__('ui::validation.opening_hours.opening_before_closing', ['session' => $sessionLabel, 'day' => $dayLabel]));
 $sessionLabel = $session === 'morning' ? __('ui::validation.opening_hours.morning') : __('ui::validation.opening_hours.afternoon');
 <<<<<<< HEAD
+<<<<<<< .merge_file_CP7A6f
+=======
+<<<<<<< .merge_file_GyUESK
+=======
+<<<<<<< HEAD
+### 2. Aggiornamento File di Traduzione
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+### 2. Aggiornamento File di Traduzione
+=======
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> .merge_file_Bn6gLu
 ```
 
 ### 2. Aggiornamento File di Traduzione
 
+<<<<<<< .merge_file_CP7A6f
 =======
 ### 2. Aggiornamento File di Traduzione
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_GyUESK
+<<<<<<< HEAD
+=======
+=======
+### 2. Aggiornamento File di Traduzione
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Bn6gLu
 #### File Aggiornati
 - `Modules/UI/lang/it/opening_hours.php` - Aggiunte nuove chiavi validation
 - `Modules/UI/lang/en/opening_hours.php` - Aggiunte traduzioni inglesi
 - `Modules/UI/lang/de/opening_hours.php` - Corrette traduzioni tedesche (erano italiane!)
+<<<<<<< HEAD
+<<<<<<< .merge_file_CP7A6f
+
+#### Nuove Chiavi Traduzione Aggiunte
+```php
+=======
+#### Nuove Chiavi Traduzione Aggiunte
+=======
+<<<<<<< .merge_file_GyUESK
+
+#### Nuove Chiavi Traduzione Aggiunte
+```php
+=======
+<<<<<<< HEAD
+#### Nuove Chiavi Traduzione Aggiunte
+=======
 <<<<<<< HEAD
 
 #### Nuove Chiavi Traduzione Aggiunte
 ```php
 =======
 #### Nuove Chiavi Traduzione Aggiunte
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+#### Nuove Chiavi Traduzione Aggiunte
+=======
+
+#### Nuove Chiavi Traduzione Aggiunte
+```php
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> .merge_file_Bn6gLu
 >>>>>>> laraxot/dev
 'validation' => [
     // ... chiavi esistenti ...
@@ -291,58 +418,177 @@ $sessionLabel = $session === 'morning' ? __('ui::validation.opening_hours.mornin
     'afternoon' => 'pomeriggio',
 ],
 <<<<<<< HEAD
+<<<<<<< .merge_file_CP7A6f
+=======
+<<<<<<< .merge_file_GyUESK
+=======
+<<<<<<< HEAD
+### 3. Traduzioni Complete per Tre Lingue
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+### 3. Traduzioni Complete per Tre Lingue
+=======
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> .merge_file_Bn6gLu
 ```
 
 ### 3. Traduzioni Complete per Tre Lingue
 
+<<<<<<< .merge_file_CP7A6f
 =======
 ### 3. Traduzioni Complete per Tre Lingue
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_GyUESK
+<<<<<<< HEAD
+=======
+=======
+### 3. Traduzioni Complete per Tre Lingue
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Bn6gLu
 #### Italiano (it)
 - Linguaggio naturale e formale
 - Uso di terminologia medica appropriata
 - Messaggi chiari per gli utenti
 <<<<<<< HEAD
+<<<<<<< .merge_file_CP7A6f
 
 =======
+=======
+<<<<<<< .merge_file_GyUESK
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> .merge_file_Bn6gLu
 >>>>>>> laraxot/dev
 #### Inglese (en)
 - Traduzione professionale
 - Terminologia medica internazionale
 - Messaggi user-friendly
 <<<<<<< HEAD
+<<<<<<< .merge_file_CP7A6f
 
 =======
+=======
+<<<<<<< .merge_file_GyUESK
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> .merge_file_Bn6gLu
 >>>>>>> laraxot/dev
 #### Tedesco (de)
 - Correzione completa del file (era in italiano)
 - Terminologia medica tedesca appropriata
 - Struttura grammaticale tedesca corretta
 <<<<<<< HEAD
+<<<<<<< .merge_file_CP7A6f
+=======
+<<<<<<< .merge_file_GyUESK
+=======
+<<<<<<< HEAD
+## Pattern di Localizzazione Utilizzato
+### Struttura Messaggi di Validazione
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+## Pattern di Localizzazione Utilizzato
+### Struttura Messaggi di Validazione
+=======
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> .merge_file_Bn6gLu
 
 ## Pattern di Localizzazione Utilizzato
 
 ### Struttura Messaggi di Validazione
 ```php
+<<<<<<< .merge_file_CP7A6f
+=======
+<<<<<<< .merge_file_GyUESK
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_Bn6gLu
 =======
 ## Pattern di Localizzazione Utilizzato
 ### Struttura Messaggi di Validazione
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_CP7A6f
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Bn6gLu
 // Con parametri dinamici
 __('ui::validation.opening_hours.message_key', [
     'session' => $sessionLabel,
     'day' => $dayLabel
 ])
 <<<<<<< HEAD
+<<<<<<< .merge_file_CP7A6f
+=======
+<<<<<<< .merge_file_GyUESK
+=======
+<<<<<<< HEAD
+// Senza parametri
+__('ui::validation.opening_hours.simple_key')
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+// Senza parametri
+__('ui::validation.opening_hours.simple_key')
+=======
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> .merge_file_Bn6gLu
 
 // Senza parametri
 __('ui::validation.opening_hours.simple_key')
 ```
 
+<<<<<<< .merge_file_CP7A6f
+=======
+<<<<<<< .merge_file_GyUESK
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_Bn6gLu
 =======
 // Senza parametri
 __('ui::validation.opening_hours.simple_key')
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_CP7A6f
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Bn6gLu
 ### Vantaggi del Pattern
 1. **Separazione completa** di logica e presentazione
 2. **Supporto parametri dinamici** per messaggi personalizzati
@@ -350,33 +596,95 @@ __('ui::validation.opening_hours.simple_key')
 4. **Consistenza** con il resto dell'applicazione
 5. **Scalabilità** per nuove lingue
 <<<<<<< HEAD
-
-## Correzioni Tecniche
-
-### Rimozione Debug Code
-- Rimossa riga `dddx($time);` dal metodo `isValidTimeFormat()`
-- Pulizia del codice per produzione
-
+<<<<<<< .merge_file_CP7A6f
+=======
+<<<<<<< .merge_file_GyUESK
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 ## Correzioni Tecniche
 ### Rimozione Debug Code
 - Rimossa riga `dddx($time);` dal metodo `isValidTimeFormat()`
 - Pulizia del codice per produzione
+=======
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> .merge_file_Bn6gLu
+
+## Correzioni Tecniche
+
+### Rimozione Debug Code
+- Rimossa riga `dddx($time);` dal metodo `isValidTimeFormat()`
+- Pulizia del codice per produzione
+
+<<<<<<< .merge_file_CP7A6f
+=======
+=======
+<<<<<<< .merge_file_GyUESK
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Bn6gLu
+## Correzioni Tecniche
+### Rimozione Debug Code
+- Rimossa riga `dddx($time);` dal metodo `isValidTimeFormat()`
+- Pulizia del codice per produzione
+<<<<<<< .merge_file_CP7A6f
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> .merge_file_Bn6gLu
 >>>>>>> laraxot/dev
 ### Miglioramenti Code Quality
 - Tutti i messaggi ora localizzati
 - Nessuna stringa hardcoded rimanente
 - Conformità alle best practices Laravel
 <<<<<<< HEAD
+<<<<<<< .merge_file_CP7A6f
+=======
+<<<<<<< .merge_file_GyUESK
+=======
+<<<<<<< HEAD
+## Struttura File di Traduzione
+### Organizzazione Logica
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+## Struttura File di Traduzione
+### Organizzazione Logica
+=======
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> .merge_file_Bn6gLu
 
 ## Struttura File di Traduzione
 
 ### Organizzazione Logica
 ```php
+<<<<<<< .merge_file_CP7A6f
+=======
+<<<<<<< .merge_file_GyUESK
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_Bn6gLu
 =======
 ## Struttura File di Traduzione
 ### Organizzazione Logica
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_CP7A6f
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Bn6gLu
 return [
     'instructions' => [...],    // Istruzioni generali
     'headers' => [...],         // Intestazioni tabelle
@@ -390,16 +698,53 @@ return [
     'validation' => [...],     // Messaggi di validazione
 ];
 <<<<<<< HEAD
+<<<<<<< .merge_file_CP7A6f
+=======
+<<<<<<< .merge_file_GyUESK
+```
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_Bn6gLu
 ```
 
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_CP7A6f
+=======
+>>>>>>> laraxot/dev
+=======
+=======
+```
+
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Bn6gLu
 ### Benefici Organizzazione
 - **Facile navigazione** per traduttori
 - **Raggruppamento logico** per contesto
 - **Manutenzione semplificata**
 - **Riutilizzabilità** delle traduzioni
 <<<<<<< HEAD
+<<<<<<< .merge_file_CP7A6f
+=======
+<<<<<<< .merge_file_GyUESK
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_4ZyRUC
+## Test e Validazione
+### Test Multilingua
+Per testare la corretta localizzazione:
+=======
+<<<<<<< .merge_file_GyUESK
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> .merge_file_Bn6gLu
 
 ## Test e Validazione
 
@@ -407,16 +752,47 @@ return [
 Per testare la corretta localizzazione:
 
 ```php
+<<<<<<< .merge_file_CP7A6f
+=======
+<<<<<<< .merge_file_GyUESK
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_Bn6gLu
 =======
 ## Test e Validazione
 ### Test Multilingua
 Per testare la corretta localizzazione:
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_CP7A6f
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Bn6gLu
 // Test italiano
 App::setLocale('it');
 $rule = new OpeningHoursRule();
 // Verificare messaggi in italiano
 <<<<<<< HEAD
+<<<<<<< .merge_file_CP7A6f
+=======
+<<<<<<< .merge_file_GyUESK
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+// Test inglese
+App::setLocale('en');
+// Verificare messaggi in inglese
+// Test tedesco
+App::setLocale('de');
+// Verificare messaggi in tedesco
+=======
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> .merge_file_Bn6gLu
 
 // Test inglese
 App::setLocale('en');
@@ -429,13 +805,30 @@ $rule = new OpeningHoursRule();
 // Verificare messaggi in tedesco
 ```
 
+<<<<<<< .merge_file_CP7A6f
 =======
+=======
+<<<<<<< .merge_file_GyUESK
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Bn6gLu
 // Test inglese
 App::setLocale('en');
 // Verificare messaggi in inglese
 // Test tedesco
 App::setLocale('de');
 // Verificare messaggi in tedesco
+<<<<<<< .merge_file_CP7A6f
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> .merge_file_Bn6gLu
 >>>>>>> laraxot/dev
 ### Messaggi di Validazione Testati
 1. **Orario mattina prima pomeriggio**
@@ -443,11 +836,37 @@ App::setLocale('de');
 3. **Orario chiusura mancante**
 4. **Apertura prima chiusura**
 <<<<<<< HEAD
+<<<<<<< .merge_file_CP7A6f
+=======
+<<<<<<< .merge_file_GyUESK
 
 ## Best Practices Applicate
 
 =======
+<<<<<<< HEAD
 ## Best Practices Applicate
+=======
+<<<<<<< HEAD
+
+## Best Practices Applicate
+>>>>>>> .merge_file_Bn6gLu
+
+=======
+## Best Practices Applicate
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+## Best Practices Applicate
+=======
+
+<<<<<<< .merge_file_CP7A6f
+=======
+## Best Practices Applicate
+=======
+## Best Practices Applicate
+
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> .merge_file_Bn6gLu
 >>>>>>> laraxot/dev
 ### Localizzazione
 - ✅ Nessuna stringa hardcoded
@@ -455,8 +874,25 @@ App::setLocale('de');
 - ✅ Traduzioni complete per 3 lingue
 - ✅ Struttura espansa per traduzioni
 <<<<<<< HEAD
+<<<<<<< .merge_file_CP7A6f
 
 =======
+=======
+<<<<<<< .merge_file_GyUESK
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> .merge_file_Bn6gLu
 >>>>>>> laraxot/dev
 ### Code Quality
 - ✅ Rimozione debug code
@@ -464,19 +900,62 @@ App::setLocale('de');
 - ✅ Tipizzazione corretta
 - ✅ Conformità PSR-12
 <<<<<<< HEAD
+<<<<<<< .merge_file_CP7A6f
 
 =======
+=======
+<<<<<<< .merge_file_GyUESK
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> .merge_file_Bn6gLu
 >>>>>>> laraxot/dev
 ### User Experience
 - ✅ Messaggi chiari e specifici
 - ✅ Contestualizzazione per giorno e sessione
 - ✅ Terminologia appropriata per dominio medico
 <<<<<<< HEAD
+<<<<<<< .merge_file_CP7A6f
 
 ## Impatti della Correzione
 
 =======
 ## Impatti della Correzione
+=======
+<<<<<<< .merge_file_GyUESK
+
+## Impatti della Correzione
+
+=======
+<<<<<<< HEAD
+## Impatti della Correzione
+=======
+<<<<<<< HEAD
+
+## Impatti della Correzione
+
+=======
+## Impatti della Correzione
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+## Impatti della Correzione
+=======
+
+## Impatti della Correzione
+
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> .merge_file_Bn6gLu
 >>>>>>> laraxot/dev
 ### Positivi
 - **Supporto multilingua completo** per validazione orari
@@ -484,26 +963,65 @@ App::setLocale('de');
 - **Manutenibilità migliorata** delle traduzioni
 - **Conformità** alle best practices Laravel
 <<<<<<< HEAD
+<<<<<<< .merge_file_CP7A6f
 
 =======
+=======
+<<<<<<< .merge_file_GyUESK
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> .merge_file_Bn6gLu
 >>>>>>> laraxot/dev
 ### Prevenzione Problemi
 - **Evitata confusione** per utenti non italiani
 - **Prevenuti errori** di traduzione automatica
 - **Eliminati hardcoded** che causano problemi di manutenzione
 <<<<<<< HEAD
+<<<<<<< .merge_file_CP7A6f
 
 =======
+=======
+<<<<<<< .merge_file_GyUESK
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> .merge_file_Bn6gLu
 >>>>>>> laraxot/dev
 ## Collegamenti
 - [Opening Hours Field](./opening_hours_field.md)
 - [Validation System](./validation_system.md)
 - [Localization Guidelines](./localization_guidelines.md)
 <<<<<<< HEAD
+<<<<<<< .merge_file_CP7A6f
+=======
+<<<<<<< .merge_file_GyUESK
+>>>>>>> .merge_file_Bn6gLu
 
 *Correzione completata: gennaio 2025*
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_CP7A6f
 =======
 
 *Correzione completata: gennaio 2025*
@@ -522,4 +1040,40 @@ App::setLocale('de');
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+
+*Correzione completata: gennaio 2025*
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+
+*Correzione completata: gennaio 2025*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+*Correzione completata: gennaio 2025*
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+*Correzione completata: gennaio 2025*
+>>>>>>> .merge_file_4ZyRUC
+>>>>>>> .merge_file_Bn6gLu
 >>>>>>> laraxot/dev

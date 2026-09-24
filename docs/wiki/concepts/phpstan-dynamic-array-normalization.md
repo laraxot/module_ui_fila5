@@ -1,5 +1,10 @@
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_XqqLF8
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_67PtSP
 ---
 title: "PHPStan Dynamic Array Normalization"
 type: concept
@@ -21,6 +26,10 @@ related:
 ---
 
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_XqqLF8
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_67PtSP
 # PHPStan Dynamic Array Normalization
 
 ## Scopo

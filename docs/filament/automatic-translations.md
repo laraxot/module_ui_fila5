@@ -1,5 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_n2YBuO
 =======
+=======
+<<<<<<< .merge_file_mccYuj
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ae8Ptr
+>>>>>>> .merge_file_q8YVai
 ---
 title: "Traduzioni Automatiche nei Componenti Filament"
 type: concept
@@ -7,6 +19,10 @@ tags: [automatic, translations]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "automatic-translations traduzioni automatiche nei componenti filament"
+<<<<<<< .merge_file_n2YBuO
+=======
+<<<<<<< .merge_file_mccYuj
+>>>>>>> .merge_file_q8YVai
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -19,6 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_n2YBuO
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_ae8Ptr
+>>>>>>> .merge_file_q8YVai
 related:
   - "./best-practices.md"
   - "./component-icon-support.md"
@@ -30,7 +55,20 @@ related:
   - "./file-upload-component.md"
 ---
 
+<<<<<<< .merge_file_n2YBuO
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_mccYuj
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ae8Ptr
+>>>>>>> .merge_file_q8YVai
 # Traduzioni Automatiche nei Componenti Filament
 
 > **NOTA IMPORTANTE**: Questo documento è un riferimento specifico per il modulo UI. La documentazione completa sulle traduzioni automatiche si trova nel [modulo Lang](../../lang/docs/automatic-translations.md).

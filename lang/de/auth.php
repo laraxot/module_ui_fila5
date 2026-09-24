@@ -2,13 +2,34 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_TTd7Mm
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_poivHV
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_GP6xR6
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/de/auth.php
+<<<<<<< .merge_file_TTd7Mm
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_tFxJQo
+>>>>>>> .merge_file_GP6xR6
 return [
     'login' => [
         'title' => 'Anmelden',

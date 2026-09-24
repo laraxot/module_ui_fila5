@@ -259,8 +259,17 @@ class Dashboard extends Component
 <<<<<<< HEAD
 
 =======
+<<<<<<< .merge_file_QEVGqc
     
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rnMhrW
     protected function getLayoutData(): array
     {
         return [
@@ -287,10 +296,20 @@ class Dashboard extends Component
 ```
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_QEVGqc
+=======
+#### PrintLayout
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_rnMhrW
 #### PrintLayout
 =======
 #### PrintLayout 
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_QEVGqc
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rnMhrW
 ```php
 use Modules\UI\Layouts\PrintLayout;
 
@@ -300,8 +319,17 @@ class StampaPratica extends Component
 <<<<<<< HEAD
 
 =======
+<<<<<<< .merge_file_QEVGqc
     
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rnMhrW
     protected function getLayoutData(): array
     {
         return [
@@ -345,10 +373,20 @@ return [
             'danger' => '#ef4444',
         ],
 <<<<<<< HEAD
+<<<<<<< .merge_file_QEVGqc
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_rnMhrW
 
 =======
         
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_QEVGqc
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rnMhrW
         // Tipografia
         'typography' => [
             'fonts' => [
@@ -364,8 +402,17 @@ return [
 <<<<<<< HEAD
 
 =======
+<<<<<<< .merge_file_QEVGqc
         
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rnMhrW
         // Spaziature
         'spacing' => [
             'base' => '1rem',
@@ -373,10 +420,20 @@ return [
             'xl' => '2rem',
         ],
 <<<<<<< HEAD
+<<<<<<< .merge_file_QEVGqc
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_rnMhrW
 
 =======
         
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_QEVGqc
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rnMhrW
         // Bordi
         'border' => [
             'radius' => '0.375rem',
@@ -385,8 +442,17 @@ return [
 <<<<<<< HEAD
 
 =======
+<<<<<<< .merge_file_QEVGqc
         
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rnMhrW
         // Ombre
         'shadows' => [
             'sm' => '0 1px 2px 0 rgb(0 0 0 / 0.05)',
@@ -492,7 +558,17 @@ AdminLayout::make()
    - Documentare personalizzazioni
    - Seguire convenzioni di naming
 <<<<<<< HEAD
+<<<<<<< .merge_file_QEVGqc
+=======
+   - Centralizzare configurazioni
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_rnMhrW
    - Centralizzare configurazioni
 =======
    - Centralizzare configurazioni 
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_QEVGqc
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rnMhrW

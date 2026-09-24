@@ -32,13 +32,32 @@ Esiste anche in:
 - `Modules/Blog/app/Models/Category.php`
 <<<<<<< HEAD
 - `Modules/Fixcity/app/Models/Category.php`
+<<<<<<< .merge_file_DmQOKR
+=======
+<<<<<<< .merge_file_qL1hA9
+>>>>>>> .merge_file_OLxSx6
 =======
 <<<<<<< HEAD
 - `Modules/Fixcity/app/Models/Category.php`
 <<<<<<< HEAD
+<<<<<<< .merge_file_DmQOKR
 - `Modules/<nome progetto>/app/Models/Category.php`
 - `Modules/Project/app/Models/Category.php`
 =======
+=======
+=======
+=======
+<<<<<<< HEAD
+- `Modules/Fixcity/app/Models/Category.php`
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_lqKVtP
+<<<<<<< HEAD
+- `Modules/<nome progetto>/app/Models/Category.php`
+- `Modules/Project/app/Models/Category.php`
+=======
+<<<<<<< .merge_file_qL1hA9
+>>>>>>> .merge_file_OLxSx6
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -57,6 +76,15 @@ Esiste anche in:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_DmQOKR
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_lqKVtP
+>>>>>>> .merge_file_OLxSx6
 >>>>>>> laraxot/dev
 
 Verificare se ciascun modulo ha la propria tabella `categories` o se dovrebbe usare un modello condiviso.

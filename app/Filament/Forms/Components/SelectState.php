@@ -15,12 +15,33 @@ class SelectState extends XotBaseSelect
     {
         parent::setUp();
 
+<<<<<<< .merge_file_eff3XQ
 <<<<<<< HEAD
         $this->options(fn (?Model $record): array => $this->resolveStateOptions($record));
 =======
         $this->options(function (?Model $record): array {
             $name = $this->getName();
             if ($record === null) {
+=======
+<<<<<<< .merge_file_KAanOM
+<<<<<<< HEAD
+        $this->options(fn (?Model $record): array => $this->resolveStateOptions($record));
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        $this->options(fn (?Model $record): array => $this->resolveStateOptions($record));
+=======
+>>>>>>> laraxot/dev
+        $this->options(function (?Model $record): array {
+            $name = $this->getName();
+            if ($record === null) {
+=======
+        $this->options(function (?Model $record): array {
+            $name = $this->getName();
+            if (null === $record) {
+>>>>>>> .merge_file_QR1iE8
+>>>>>>> .merge_file_r17BgJ
                 $model = $this->getModel();
                 if (\is_string($model) && class_exists($model)) {
                     $instance = app($model);
@@ -31,6 +52,10 @@ class SelectState extends XotBaseSelect
                             if (! \is_array($statesRaw)) {
                                 $statesRaw = Arr::wrap($statesRaw);
                             }
+<<<<<<< .merge_file_eff3XQ
+=======
+<<<<<<< .merge_file_KAanOM
+>>>>>>> .merge_file_r17BgJ
 
                             /* @var array<int|string, mixed> $statesRaw */
                             return $this->combineStateOptions($statesRaw);
@@ -54,12 +79,28 @@ class SelectState extends XotBaseSelect
 
             return $this->combineStateOptions($states);
         });
+<<<<<<< .merge_file_eff3XQ
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_r17BgJ
 >>>>>>> laraxot/dev
         $this->required();
     }
 
     /**
 <<<<<<< HEAD
+<<<<<<< .merge_file_eff3XQ
+=======
+=======
+<<<<<<< HEAD
+     * @param  array<int|string, mixed>  $states
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_r17BgJ
      * @return array<int|string, string>
      */
     private function resolveStateOptions(?Model $record): array
@@ -67,21 +108,30 @@ class SelectState extends XotBaseSelect
         if (null === $record) {
             return $this->resolveDefaultStateOptions();
         }
+=======
 
-        if (! method_exists($record, 'getStatesFor')) {
-            return [];
-        }
+                            /* @var array<int|string, mixed> $statesRaw */
+                            return $this->combineStateOptions($statesRaw);
+                        }
+                    }
+                }
+>>>>>>> .merge_file_QR1iE8
 
-        $statesCollection = $record->getStatesFor($this->getName());
-        $statesRaw = \is_object($statesCollection) && method_exists($statesCollection, 'toArray')
-            ? $statesCollection->toArray()
-            : [];
-        /** @var array<int|string, mixed> $states */
-        $states = $statesRaw;
+                return [];
+            }
 
-        return $this->combineStateOptions($states);
-    }
+            if (! method_exists($record, 'getStatesFor')) {
+                return [];
+            }
 
+            $statesCollection = $record->getStatesFor($name);
+            $statesRaw = \is_object($statesCollection) && method_exists($statesCollection, 'toArray')
+                ? $statesCollection->toArray()
+                : [];
+            /** @var array<int|string, mixed> $states */
+            $states = $statesRaw;
+
+<<<<<<< .merge_file_KAanOM
     /**
      * @return array<int|string, string>
      */
@@ -103,34 +153,85 @@ class SelectState extends XotBaseSelect
             $statesRaw = Arr::wrap($statesRaw);
         }
 
+<<<<<<< HEAD
+        /** @var array<int|string, mixed> $statesRaw */
+=======
         /* @var array<int|string, mixed> $statesRaw */
+>>>>>>> laraxot/dev
         return $this->combineStateOptions($statesRaw);
+=======
+            return $this->combineStateOptions($states);
+        });
+        $this->required();
+>>>>>>> .merge_file_QR1iE8
     }
 
     /**
      * @param array<int|string, mixed> $states
      *
+<<<<<<< .merge_file_eff3XQ
 =======
      * @param  array<int|string, mixed>  $states
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+     * @param  array<int|string, mixed>  $states
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_r17BgJ
      * @return array<int|string, string>
      */
     private function combineStateOptions(array $states): array
     {
         $statesKeys = array_map(
+<<<<<<< .merge_file_eff3XQ
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_KAanOM
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_r17BgJ
             static fn ($key) => SafeStringCastAction::cast($key),
             array_keys($states),
         );
         $statesValues = array_map(
             static fn ($value) => SafeStringCastAction::cast($value),
+<<<<<<< .merge_file_eff3XQ
 =======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_r17BgJ
             static fn (int|string $key): string => SafeStringCastAction::cast($key),
             array_keys($states),
         );
         $statesValues = array_map(
             static fn (mixed $value): string => SafeStringCastAction::cast($value),
+<<<<<<< .merge_file_eff3XQ
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+            static fn (int|string $key): string => SafeStringCastAction::cast($key),
+            array_keys($states),
+        );
+        $statesValues = array_map(
+            SafeStringCastAction::cast(...),
+>>>>>>> .merge_file_QR1iE8
+>>>>>>> .merge_file_r17BgJ
             array_values($states),
         );
         $combined = array_combine($statesKeys, $statesValues);

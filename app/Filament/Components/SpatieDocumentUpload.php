@@ -22,8 +22,23 @@ final class SpatieDocumentUpload
      * @param string $name       Nome del campo
      * @param string $collection Nome della media collection
 =======
+<<<<<<< .merge_file_blDACa
      * @param  string  $name  Nome del campo
      * @param  string  $collection  Nome della media collection
+=======
+<<<<<<< HEAD
+     * @param  string  $name  Nome del campo
+     * @param  string  $collection  Nome della media collection
+=======
+<<<<<<< HEAD
+     * @param string $name       Nome del campo
+     * @param string $collection Nome della media collection
+=======
+     * @param  string  $name  Nome del campo
+     * @param  string  $collection  Nome della media collection
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wUQaNQ
 >>>>>>> laraxot/dev
      */
     public static function make(string $name, string $collection): SpatieMediaLibraryFileUpload
@@ -90,11 +105,29 @@ final class SpatieDocumentUpload
     {
         return self::make('certifications', 'certificazioni_professionali')
             ->multiple()
+<<<<<<< .merge_file_blDACa
+=======
+<<<<<<< .merge_file_V5jE6n
+<<<<<<< HEAD
+            ->enableReordering()
+=======
+<<<<<<< HEAD
+            ->reorderable()
+=======
+>>>>>>> .merge_file_wUQaNQ
 <<<<<<< HEAD
             ->enableReordering()
 =======
             ->reorderable()
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_blDACa
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+            ->reorderable()
+>>>>>>> .merge_file_IilNwm
+>>>>>>> .merge_file_wUQaNQ
             ->maxFiles(10) // Max 10 certificazioni per dottore
             ->acceptedFileTypes(['application/pdf'])
             ->maxSize(10240); // 10MB per certificazioni multiple
@@ -104,15 +137,37 @@ final class SpatieDocumentUpload
      * Upload documento generico con collection personalizzata.
      *
 <<<<<<< HEAD
+<<<<<<< .merge_file_blDACa
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wUQaNQ
      * @param string        $name       Nome del campo
      * @param string        $collection Nome della collection
      * @param array<string> $mimeTypes  Tipi MIME accettati
      * @param int           $maxSize    Dimensione massima in KB
+<<<<<<< .merge_file_blDACa
 =======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wUQaNQ
      * @param  string  $name  Nome del campo
      * @param  string  $collection  Nome della collection
      * @param  array<string>  $mimeTypes  Tipi MIME accettati
      * @param  int  $maxSize  Dimensione massima in KB
+<<<<<<< .merge_file_blDACa
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wUQaNQ
 >>>>>>> laraxot/dev
      */
     public static function custom(
