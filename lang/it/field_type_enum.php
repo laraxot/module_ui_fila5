@@ -1,18 +1,6 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-<<<<<<< .merge_file_McTpEW
-
-=======
-<<<<<<< .merge_file_Nxp04V
-
-=======
->>>>>>> .merge_file_Kipwlr
->>>>>>> .merge_file_fK0I06
-=======
-
->>>>>>> 804451c (Lint)
 /*
  * Chiavi lette da Modules\Xot\Traits\EnumTrait tramite TransTrait::transClass():
  * la chiave e' `<modulo>::<snake(NomeClasse)>.values.<valore>.<attributo>`.

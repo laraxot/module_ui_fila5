@@ -19,43 +19,12 @@ final class UiCoverageAddressChildRecord extends Model
     public int $updated = 0;
 
     /**
-<<<<<<< HEAD
-<<<<<<< .merge_file_zowZ0S
-=======
-<<<<<<< .merge_file_ASMkUq
->>>>>>> .merge_file_wwbgq1
-<<<<<<< HEAD
      * @param  array<string, mixed>  $attributes
      * @param  array<string, mixed>  $options
      */
     public function update(array $attributes = [], array $options = []): bool
     {
         $this->updated++;
-=======
-<<<<<<< .merge_file_zowZ0S
-=======
-=======
->>>>>>> .merge_file_JL1TBJ
->>>>>>> .merge_file_wwbgq1
-=======
->>>>>>> 804451c (Lint)
-     * @param array<string, mixed> $attributes
-     * @param array<string, mixed> $options
-     */
-    public function update(array $attributes = [], array $options = []): bool
-    {
-        ++$this->updated;
-<<<<<<< HEAD
-<<<<<<< .merge_file_zowZ0S
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_ASMkUq
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_JL1TBJ
->>>>>>> .merge_file_wwbgq1
-=======
->>>>>>> 804451c (Lint)
 
         return true;
     }
