@@ -6,10 +6,7 @@ namespace Modules\UI\Filament\Forms\Components;
 
 use Filament\Actions\Action;
 use Filament\Forms\Components\Select;
-<<<<<<< HEAD
-=======
 use Filament\Forms\Components\TextInput;
->>>>>>> laraxot/dev
 use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Components\Utilities\Set;
 use Illuminate\Support\Arr;

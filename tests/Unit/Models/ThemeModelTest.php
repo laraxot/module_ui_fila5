@@ -8,7 +8,6 @@ use Modules\UI\Models\Theme;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-<<<<<<< HEAD
 /*
  * Theme is an OPTIONAL model that is NOT part of the UI module artifact set
  * (no Models/Theme.php, no ThemeFactory, no create_themes_table migration).
@@ -22,8 +21,6 @@ use PHPUnit\Framework\Assert;
  * the ignores.
  */
 
-=======
->>>>>>> laraxot/dev
 uses(TestCase::class);
 
 beforeEach(function (): void {

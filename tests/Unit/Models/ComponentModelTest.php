@@ -10,7 +10,6 @@ use PHPUnit\Framework\Assert;
 
 use function Safe\file_get_contents;
 
-<<<<<<< HEAD
 /*
  * Component is an OPTIONAL model that is NOT part of the UI module artifact set
  * (no Models/Component.php, no ComponentFactory, no create_components_table migration).
@@ -23,8 +22,6 @@ use function Safe\file_get_contents;
  * (see CategoryModelTest) and drop the ignores.
  */
 
-=======
->>>>>>> laraxot/dev
 uses(TestCase::class);
 
 beforeEach(function (): void {

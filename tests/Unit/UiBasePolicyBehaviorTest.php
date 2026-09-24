@@ -66,23 +66,17 @@ function uiBehaviorUser(array $roles = []): UserContract
 
 afterEach(function (): void {
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     Mockery::close();
 });
 
 test('UiBasePolicy before concede super-admin e ritorna null altrimenti', function (): void {
     $policy = new UiBasePolicyBehaviorConcretePolicy;
-<<<<<<< HEAD
-=======
 =======
     \Mockery::close();
 });
 
 test('UiBasePolicy before concede super-admin e ritorna null altrimenti', function (): void {
     $policy = new UiBasePolicyBehaviorConcretePolicy();
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     $super = uiBehaviorUser(['super-admin']);
 

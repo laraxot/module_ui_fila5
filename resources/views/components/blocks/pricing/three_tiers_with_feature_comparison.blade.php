@@ -1,10 +1,6 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-=======
-
->>>>>>> laraxot/dev
 ?>
 {{-- Requires Js --}}
 <div class="isolate overflow-hidden">

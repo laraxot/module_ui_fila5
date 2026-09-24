@@ -34,13 +34,10 @@ class TableLayoutToggleHeaderAction extends Action
             // ->icon(trans('setting::database_connection.actions.database-backup.icon'))
             // ->icon($this->listIcon)
             /*
-<<<<<<< HEAD
-=======
              * /*
              * /*
              * /*
              * /*
->>>>>>> laraxot/dev
              * @param object{layoutView?: string|null} $livewire
              */
             ->icon(function (object $livewire): string {

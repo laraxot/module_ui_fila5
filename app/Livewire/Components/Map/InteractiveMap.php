@@ -509,8 +509,6 @@ final class InteractiveMap extends Component
             default => 'application/json',
         };
     }
-<<<<<<< HEAD
-=======
 
     /**
      * @return array<string, mixed>
@@ -529,5 +527,4 @@ final class InteractiveMap extends Component
 
         return $filters;
     }
->>>>>>> laraxot/dev
 }

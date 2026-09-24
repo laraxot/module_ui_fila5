@@ -4,10 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit\Models;
 
-<<<<<<< HEAD
-=======
 use Modules\UI\Database\Factories\CategoryFactory;
->>>>>>> laraxot/dev
 use Modules\UI\Models\Category;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;

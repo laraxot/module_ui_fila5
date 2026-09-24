@@ -4,19 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Tables\Columns;
 
-<<<<<<< HEAD
 use Exception;
-=======
->>>>>>> laraxot/dev
 use Filament\Actions\Action;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
 use Filament\Notifications\Notification;
 use Filament\Schemas\Components\Utilities\Get;
-<<<<<<< HEAD
-=======
 use Filament\Tables\Columns\IconColumn;
->>>>>>> laraxot/dev
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;

@@ -1,10 +1,6 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-=======
-
->>>>>>> laraxot/dev
 /**
  * @see https://filamentphp.com/docs/3.x/forms/fields/types
  * @see https://github.com/Valourite/form-builder/blob/v1.x/src/Filament/Enums/FieldType.php

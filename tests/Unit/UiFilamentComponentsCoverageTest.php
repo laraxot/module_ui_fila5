@@ -144,9 +144,6 @@ describe('UI coverage boost — Rules and policies', function (): void {
     test('UiBasePolicy before grants super-admin', function (): void {
         /** @var MockInterface&UserContract $superAdmin */
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
         $superAdmin = Mockery::mock(UserContract::class);
         TestCase::expectMethod($superAdmin, 'hasRole')->with('super-admin')->andReturn(true);
         /** @var MockInterface&UserContract $regular */
@@ -154,8 +151,6 @@ describe('UI coverage boost — Rules and policies', function (): void {
         TestCase::expectMethod($regular, 'hasRole')->with('super-admin')->andReturn(false);
 
         $policy = new class extends UiBasePolicy {};
-<<<<<<< HEAD
-=======
 =======
         $superAdmin = \Mockery::mock(UserContract::class);
         TestCase::expectMethod($superAdmin, 'hasRole')->with('super-admin')->andReturn(true);
@@ -166,7 +161,6 @@ describe('UI coverage boost — Rules and policies', function (): void {
         $policy = new class extends UiBasePolicy {
         };
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
         Assert::assertTrue($policy->before($superAdmin, 'viewAny'));
         Assert::assertNull($policy->before($regular, 'viewAny'));
     });
@@ -175,23 +169,17 @@ describe('UI coverage boost — Rules and policies', function (): void {
 describe('UI coverage boost — Models and providers', function (): void {
     test('Category fillable matches domain fields', function (): void {
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
         Assert::assertContains('name', (new Category)->getFillable());
     });
 
     test('StatsOverviewWidget declares heading', function (): void {
         $widget = new StatsOverviewWidget;
-<<<<<<< HEAD
-=======
 =======
         Assert::assertContains('name', (new Category())->getFillable());
     });
 
     test('StatsOverviewWidget declares heading', function (): void {
         $widget = new StatsOverviewWidget();
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         $ref = new \ReflectionClass($widget);
         $prop = $ref->getProperty('heading');

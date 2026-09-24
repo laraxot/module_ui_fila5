@@ -8,10 +8,7 @@ use Carbon\Carbon;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
 use Modules\Xot\Filament\Forms\Components\XotBaseDatePicker;
-<<<<<<< HEAD
 use RuntimeException;
-=======
->>>>>>> laraxot/dev
 
 use function Safe\preg_match;
 
@@ -40,14 +37,10 @@ class InlineDatePicker extends XotBaseDatePicker
 
     /**
      * Vista Blade per il rendering.
-<<<<<<< HEAD
-     */
-=======
      *
      * @phpstan-var view-string
      */
     /** @phpstan-ignore property.defaultValue */
->>>>>>> laraxot/dev
     protected string $view = 'ui::filament.forms.components.inline-date-picker';
 
     /**
@@ -76,10 +69,7 @@ class InlineDatePicker extends XotBaseDatePicker
                     $date = Carbon::parse($state);
                     $component->currentViewMonth = $date->format('Y-m');
                 } catch (\Exception $e) {
-<<<<<<< HEAD
-=======
                     // Handle invalid date
->>>>>>> laraxot/dev
                     $component->currentViewMonth = now()->format('Y-m');
                 }
             }
@@ -234,10 +224,7 @@ class InlineDatePicker extends XotBaseDatePicker
      */
     public function generateCalendarData(): array
     {
-<<<<<<< HEAD
-=======
         // ✅ Validazione di sicurezza - assicura che currentViewMonth sia valido
->>>>>>> laraxot/dev
         if (empty($this->currentViewMonth) || ! preg_match('/^\d{4}-\d{2}$/', $this->currentViewMonth)) {
             $this->currentViewMonth = now()->format('Y-m');
         }
@@ -307,12 +294,9 @@ class InlineDatePicker extends XotBaseDatePicker
             'year' => $targetMonth->year,
             'weekdays' => $this->getLocalizedWeekdays(),
         ];
-<<<<<<< HEAD
-=======
 
         /* @var array<string, mixed> $res */
         return $res;
->>>>>>> laraxot/dev
     }
 
     /**
@@ -338,12 +322,9 @@ class InlineDatePicker extends XotBaseDatePicker
             'year' => $calendarData['year'],
             'weekdays' => $calendarData['weekdays'],
         ]);
-<<<<<<< HEAD
-=======
 
         /* @var array<string, mixed> $res */
         return $res;
->>>>>>> laraxot/dev
     }
 
     /**

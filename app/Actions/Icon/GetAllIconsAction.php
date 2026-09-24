@@ -7,10 +7,7 @@ namespace Modules\UI\Actions\Icon;
 use BladeUI\Icons\Factory as IconFactory;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\File;
-<<<<<<< HEAD
 use ReflectionClass;
-=======
->>>>>>> laraxot/dev
 use Spatie\QueueableAction\QueueableAction;
 
 class GetAllIconsAction
@@ -100,14 +97,11 @@ class GetAllIconsAction
                     }
 
                     $pathname = $file->getPathname();
-<<<<<<< HEAD
-=======
                     if (! is_string($pathname)) {
                         continue;
                     }
 
                     // $iconName = $this->getIconName($file, parentPath: $path, prefix: $prefix);
->>>>>>> laraxot/dev
                     $iconName = str($pathname)
                         ->after($path.DIRECTORY_SEPARATOR)
                         ->replace(DIRECTORY_SEPARATOR, '.')

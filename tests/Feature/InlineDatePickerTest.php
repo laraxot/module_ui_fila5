@@ -92,10 +92,6 @@ test('it handles empty enabled dates', function (): void {
 
 test('it throws on invalid enabled dates input', function (): void {
     $component = InlineDatePicker::make('test')->enabledDates(['invalid-date']);
-<<<<<<< HEAD
-=======
-
->>>>>>> laraxot/dev
     try {
         $dates = $component->getEnabledDates()->toArray();
         Assert::assertIsArray($dates);

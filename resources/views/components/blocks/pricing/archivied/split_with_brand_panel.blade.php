@@ -1,10 +1,6 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-=======
-
->>>>>>> laraxot/dev
 ?>
 <div class="relative bg-white">
     <div class="absolute inset-0" aria-hidden="true">

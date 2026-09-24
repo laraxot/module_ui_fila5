@@ -11,20 +11,14 @@ use Illuminate\View\View;
 use Modules\UI\Enums\TableLayoutEnum;
 use Modules\UI\Filament\Blocks\Image;
 use Modules\UI\Filament\Forms\Components\YearSelect;
-<<<<<<< HEAD
 use Modules\UI\Filament\Widgets\DarkModeSwitcherWidget;
-=======
->>>>>>> laraxot/dev
 use Modules\UI\Filament\Widgets\HeroWidget;
 use Modules\UI\Filament\Widgets\RedirectWidget;
 use Modules\UI\Filament\Widgets\RowWidget;
 use Modules\UI\Filament\Widgets\StatWithIconWidget;
 use Modules\UI\Filament\Widgets\UserCalendarWidget;
 use Modules\UI\Forms\Components\RadioCardSelector;
-<<<<<<< HEAD
-=======
 use Modules\Ui\Http\Livewire\DarkModeSwitcher;
->>>>>>> laraxot/dev
 use Modules\UI\Http\Livewire\Toast;
 use Modules\UI\Http\Middleware\SetLocale;
 use Modules\UI\Rules\OpeningHoursRule;
@@ -183,9 +177,6 @@ describe('UI gap closer 100 — Filament widgets and forms', function (): void {
         Assert::assertSame(42, $data['value']);
 
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
         $row = new class extends RowWidget {};
         Assert::assertSame(3, (new ReflectionClass($row))->getMethod('getColumns')->invoke($row));
     });
@@ -193,8 +184,6 @@ describe('UI gap closer 100 — Filament widgets and forms', function (): void {
     test('HeroWidget getStats and UserCalendarWidget private normalizers', function (): void {
         $hero = new HeroWidget;
         $heroRef = new ReflectionClass($hero);
-<<<<<<< HEAD
-=======
 =======
         $row = new class extends RowWidget {
         };
@@ -204,7 +193,6 @@ describe('UI gap closer 100 — Filament widgets and forms', function (): void {
     test('HeroWidget getStats and UserCalendarWidget private normalizers', function (): void {
         $hero = new HeroWidget();
         $heroRef = new \ReflectionClass($hero);
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         foreach (['title' => 'Welcome', 'icon' => 'heroicon-o-star'] as $prop => $val) {
             $p = $heroRef->getProperty($prop);

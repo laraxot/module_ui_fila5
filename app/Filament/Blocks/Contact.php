@@ -6,10 +6,7 @@ namespace Modules\UI\Filament\Blocks;
 
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
-<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
-=======
->>>>>>> laraxot/dev
 use Modules\Xot\Filament\Blocks\XotBaseBlock;
 
 final class Contact extends XotBaseBlock

@@ -1,10 +1,6 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-=======
-
->>>>>>> laraxot/dev
 // app/Rules/OpeningHoursRule.php
 
 namespace Modules\UI\Rules;
