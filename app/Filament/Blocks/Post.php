@@ -13,11 +13,11 @@ use Modules\Xot\Filament\Blocks\XotBaseBlock;
 final class Post extends XotBaseBlock
 {
     /**
-<<<<<<< HEAD
+     * <<<<<<< HEAD
      * <<<<<<< .merge_file_L3eOso.
-=======
+     * =======
      * <<<<<<< HEAD.
->>>>>>> 1b458f2 (refactor: remove conflict markers from multiple PHP files)
+     * >>>>>>> 1b458f2 (refactor: remove conflict markers from multiple PHP files).
      *
      * @return array<int, Component>
      *                               =======
@@ -26,10 +26,10 @@ final class Post extends XotBaseBlock
      *                               =======
      * @return array<int, Component>
      *                               >>>>>>> laraxot/dev
-<<<<<<< HEAD
+     *                               <<<<<<< HEAD
      *                               >>>>>>> .merge_file_Hob6Pm
-=======
->>>>>>> 1b458f2 (refactor: remove conflict markers from multiple PHP files)
+     *                               =======
+     *                               >>>>>>> 1b458f2 (refactor: remove conflict markers from multiple PHP files)
      */
     public static function getFormSchema(): array
     {
