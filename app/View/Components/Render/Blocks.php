@@ -11,11 +11,6 @@ declare(strict_types=1);
  * passes the `$view`, `$blocks`, and `$model` parameters to the view for rendering.
  */
 
-<<<<<<< HEAD
-=======
-declare(strict_types=1);
-
->>>>>>> laraxot/dev
 namespace Modules\UI\View\Components\Render;
 
 use Illuminate\Contracts\View\View;
@@ -26,22 +21,13 @@ use Modules\Xot\Actions\GetViewAction;
 final class Blocks extends Component
 {
     /**
-<<<<<<< HEAD
      * @param  array<int|string, mixed>  $blocks
-=======
-     * @param array<int|string, mixed> $blocks
->>>>>>> laraxot/dev
      */
     public function __construct(
         public string $view,
         public array $blocks = [],
         public ?Model $model = null,
-<<<<<<< HEAD
     ) {}
-=======
-    ) {
-    }
->>>>>>> laraxot/dev
 
     public function render(): View
     {
@@ -49,64 +35,12 @@ final class Blocks extends Component
          * @phpstan-var view-string
          */
         $view = app(GetViewAction::class)->execute($this->view);
-<<<<<<< HEAD
         $viewParams = [
-=======
-<<<<<<< .merge_file_NHwVnj
-=======
-<<<<<<< .merge_file_XmSmpH
-<<<<<<< HEAD
-        $view_params = [
-=======
-<<<<<<< HEAD
-        $viewParams = [
-=======
->>>>>>> .merge_file_MNxlHf
-<<<<<<< HEAD
-        $view_params = [
-=======
-        $viewParams = [
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_NHwVnj
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        $viewParams = [
->>>>>>> .merge_file_PHlHUT
->>>>>>> .merge_file_MNxlHf
->>>>>>> laraxot/dev
             'view' => $view,
             'blocks' => $this->blocks,
             'model' => $this->model,
         ];
 
-<<<<<<< HEAD
         return view($view, $viewParams);
-=======
-<<<<<<< .merge_file_NHwVnj
-=======
-<<<<<<< .merge_file_XmSmpH
-<<<<<<< HEAD
-        return view($view, $view_params);
-=======
-<<<<<<< HEAD
-        return view($view, $viewParams);
-=======
->>>>>>> .merge_file_MNxlHf
-<<<<<<< HEAD
-        return view($view, $view_params);
-=======
-        return view($view, $viewParams);
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_NHwVnj
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        return view($view, $viewParams);
->>>>>>> .merge_file_PHlHUT
->>>>>>> .merge_file_MNxlHf
->>>>>>> laraxot/dev
     }
 }

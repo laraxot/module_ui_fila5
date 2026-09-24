@@ -2,37 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_DJkr6K
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_d6pzHd
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_ddhadQ
-// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/UI/docs/wiki — domain i18n only.
-// File: lang/de/txt.php
-<<<<<<< .merge_file_DJkr6K
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_BmIRlw
->>>>>>> .merge_file_ddhadQ
->>>>>>> laraxot/dev
 return [
     'delete' => 'elimina',
     'edit' => 'modifica',

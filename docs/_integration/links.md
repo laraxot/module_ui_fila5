@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_tVr5kT
-=======
-=======
-<<<<<<< .merge_file_JHV2l1
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_XRwDpd
->>>>>>> .merge_file_RZ0t4C
->>>>>>> laraxot/dev
 ---
 title: "links"
 type: concept
@@ -22,44 +5,10 @@ tags: [links]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "links links"
-<<<<<<< HEAD
-<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-<<<<<<< .merge_file_tVr5kT
-=======
-<<<<<<< .merge_file_JHV2l1
->>>>>>> .merge_file_RZ0t4C
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_tVr5kT
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_XRwDpd
->>>>>>> .merge_file_RZ0t4C
->>>>>>> laraxot/dev
 related:
   - "./api.md"
   - "./blocks.md"
@@ -71,23 +20,6 @@ related:
   - "./custom-firm-fields.md"
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_tVr5kT
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_JHV2l1
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_XRwDpd
->>>>>>> .merge_file_RZ0t4C
->>>>>>> laraxot/dev
 # links
 
 <!-- Contenuto migrato da _docs/links.txt -->

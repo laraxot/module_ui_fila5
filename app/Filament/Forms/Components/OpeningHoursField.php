@@ -4,42 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
-<<<<<<< HEAD
 use Filament\Forms\Components\TimePicker;
 use Filament\Infolists\Components\TextEntry;
-=======
-<<<<<<< .merge_file_93j7Iu
-=======
-<<<<<<< .merge_file_IWqjf6
->>>>>>> .merge_file_s0RIws
-<<<<<<< HEAD
-use Filament\Forms\Components\Placeholder;
-use Filament\Forms\Components\TimePicker;
-=======
-<<<<<<< .merge_file_93j7Iu
-use Filament\Forms\Components\TimePicker;
-use Filament\Infolists\Components\TextEntry;
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-use Filament\Forms\Components\TimePicker;
-use Filament\Infolists\Components\TextEntry;
-=======
-<<<<<<< HEAD
-use Filament\Forms\Components\Placeholder;
-use Filament\Forms\Components\TimePicker;
-=======
-use Filament\Forms\Components\TimePicker;
-use Filament\Infolists\Components\TextEntry;
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-use Filament\Forms\Components\TimePicker;
-use Filament\Infolists\Components\TextEntry;
->>>>>>> .merge_file_eeSXGW
->>>>>>> .merge_file_s0RIws
->>>>>>> laraxot/dev
 use Filament\Schemas\Components\Component;
 use Modules\UI\Actions\Datetime\GetDaysMappingAction;
 use Modules\UI\Rules\OpeningHoursRule;
@@ -68,29 +34,7 @@ final class OpeningHoursField extends XotBaseField
         $this->schema($form)->columns(5);
 
         $this->rules([
-<<<<<<< HEAD
             new OpeningHoursRule,
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_93j7Iu
-=======
-            new OpeningHoursRule(),
-=======
-<<<<<<< HEAD
-            new OpeningHoursRule,
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_s0RIws
-            new OpeningHoursRule(),
-=======
-            new OpeningHoursRule,
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_93j7Iu
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_s0RIws
->>>>>>> laraxot/dev
         ]);
     }
 
@@ -100,39 +44,8 @@ final class OpeningHoursField extends XotBaseField
     private function getDaySchema(string $dayKey, string $dayLabel): array
     {
         return [
-<<<<<<< HEAD
             TextEntry::make($dayKey.'_label')
                 ->state($dayLabel)
-=======
-<<<<<<< .merge_file_93j7Iu
-=======
-<<<<<<< .merge_file_IWqjf6
-<<<<<<< HEAD
-            Placeholder::make($dayKey.'_label')
-                ->content($dayLabel)
-=======
-<<<<<<< HEAD
-            TextEntry::make($dayKey.'_label')
-                ->state($dayLabel)
-=======
->>>>>>> .merge_file_s0RIws
-<<<<<<< HEAD
-            Placeholder::make($dayKey.'_label')
-                ->content($dayLabel)
-=======
-            TextEntry::make($dayKey.'_label')
-                ->state($dayLabel)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_93j7Iu
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-            TextEntry::make($dayKey.'_label')
-                ->state($dayLabel)
->>>>>>> .merge_file_eeSXGW
->>>>>>> .merge_file_s0RIws
->>>>>>> laraxot/dev
                 ->extraAttributes([
                     'class' => 'font-medium text-gray-900 dark:text-gray-100 text-center py-2',
                 ])

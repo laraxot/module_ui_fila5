@@ -1,15 +1,8 @@
 <<<<<<< HEAD
-=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
-<<<<<<< .merge_file_7woW0O
 =======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_k2kuEV
 >>>>>>> laraxot/dev
 ---
 title: "Page Builder"
@@ -22,13 +15,13 @@ qmd: "page-builder page builder"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 <<<<<<< HEAD
+=======
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-=======
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
@@ -40,8 +33,8 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
->>>>>>> laraxot/dev
 =======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 related:
   - "./api-relocated.md"
@@ -55,14 +48,9 @@ related:
 ---
 
 <<<<<<< HEAD
-=======
-<<<<<<< .merge_file_7woW0O
-=======
-<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_k2kuEV
->>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891

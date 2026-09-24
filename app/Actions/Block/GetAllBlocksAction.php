@@ -9,7 +9,6 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
 use Modules\Xot\Actions\File\GetClassNameByPathAction;
 use Modules\Xot\Datas\ComponentFileData;
-<<<<<<< HEAD
 use Spatie\LaravelData\DataCollection;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
@@ -20,34 +19,6 @@ final class GetAllBlocksAction
 {
     use QueueableAction;
 
-=======
-
-use function Safe\realpath;
-
-use Spatie\LaravelData\DataCollection;
-<<<<<<< .merge_file_ZJk7Ui
-<<<<<<< HEAD
-=======
-use Spatie\QueueableAction\QueueableAction;
->>>>>>> laraxot/dev
-=======
-use Spatie\QueueableAction\QueueableAction;
->>>>>>> .merge_file_iMr5aV
-use Webmozart\Assert\Assert;
-
-final class GetAllBlocksAction
-{
-<<<<<<< .merge_file_ZJk7Ui
-<<<<<<< HEAD
-=======
-    use QueueableAction;
-
->>>>>>> laraxot/dev
-=======
-    use QueueableAction;
-
->>>>>>> .merge_file_iMr5aV
->>>>>>> laraxot/dev
     /**
      * @return DataCollection<int, ComponentFileData>
      */

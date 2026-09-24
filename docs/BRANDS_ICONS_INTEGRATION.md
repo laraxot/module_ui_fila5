@@ -229,29 +229,25 @@ php artisan view:clear
 
 # Test in browser
 <<<<<<< HEAD
-# http://fixcity.local/it/tests/homepage
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+# http://fixcity.local/it/tests/homepage
 
 # http://<nome progetto>.local/it/tests/homepage
 # http://app.local/it/tests/homepage
+<<<<<<< HEAD
+# http://<nome progetto>.local/it/tests/homepage
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 # http://fixcity.local/it/tests/homepage
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_5W4HQ7
-=======
-=======
-=======
-<<<<<<< HEAD
-# http://fixcity.local/it/tests/homepage
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> .merge_file_0V4uWm
->>>>>>> laraxot/dev
 
 # http://<nome progetto>.local/it/tests/homepage
 # http://app.local/it/tests/homepage
@@ -274,16 +270,11 @@ php artisan view:clear
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_5W4HQ7
-=======
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_0V4uWm
->>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ```
 

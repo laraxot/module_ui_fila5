@@ -26,32 +26,7 @@ final class UiCoverageAddressHasOneRelation extends HasOne
     }
 
     /**
-<<<<<<< HEAD
      * @param  array<int, string>|string  $columns
-=======
-     * <<<<<<< .merge_file_PFmJXb.
-     *
-     * @param array<int, string>|string $columns
-     *                                           =======
-     *                                           <<<<<<< HEAD
-     * @param array<int, string>|string $columns
-     *                                           =======
-     *                                           <<<<<<< .merge_file_mf6zTc
-     * @param array<int, string>|string $columns
-     *                                           =======
-     *                                           <<<<<<< .merge_file_ChWBZX
-     * @param array<int, string>|string $columns
-     *                                           =======
-     *                                           <<<<<<< HEAD
-     * @param array<int, string>|string $columns
-     *                                           =======
-     * @param array<int, string>|string $columns
-     *                                           >>>>>>> laraxot/dev
-     *                                           >>>>>>> .merge_file_2dyGKP
-     *                                           >>>>>>> .merge_file_py9UGI
-     *                                           >>>>>>> laraxot/dev
-     *                                           >>>>>>> .merge_file_wDEXgh
->>>>>>> laraxot/dev
      */
     public function first($columns = ['*']): ?Model
     {

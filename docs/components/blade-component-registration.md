@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_EPJLui
-=======
-=======
-<<<<<<< .merge_file_SR2GWt
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_MOeYGS
->>>>>>> .merge_file_3A998G
->>>>>>> laraxot/dev
 ---
 title: "Registrazione corretta dei componenti Blade nei moduli"
 type: concept
@@ -22,44 +5,10 @@ tags: [blade, component, registration]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "blade-component-registration registrazione corretta dei componenti blade nei moduli"
-<<<<<<< HEAD
-<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-<<<<<<< .merge_file_EPJLui
-=======
-<<<<<<< .merge_file_SR2GWt
->>>>>>> .merge_file_3A998G
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_EPJLui
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_MOeYGS
->>>>>>> .merge_file_3A998G
->>>>>>> laraxot/dev
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -71,23 +20,6 @@ related:
   - "./full-calendar.md"
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_EPJLui
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_SR2GWt
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_MOeYGS
->>>>>>> .merge_file_3A998G
->>>>>>> laraxot/dev
 # Registrazione corretta dei componenti Blade nei moduli
 
 ## Problema

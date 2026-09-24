@@ -4,21 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Datas;
 
-<<<<<<< HEAD
 use InvalidArgumentException;
-=======
-<<<<<<< .merge_file_8eIawZ
-use InvalidArgumentException;
-=======
-<<<<<<< .merge_file_od9uUC
-<<<<<<< HEAD
-use InvalidArgumentException;
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_5yDYcM
->>>>>>> .merge_file_m5rsjr
->>>>>>> laraxot/dev
 use Spatie\LaravelData\Data;
 
 /**
@@ -27,13 +13,8 @@ use Spatie\LaravelData\Data;
 class ThemeMetadataData extends Data
 {
     /**
-<<<<<<< HEAD
      * @param  array<string, string>  $spacingUnits
      * @param  array<string, string>  $breakpoints
-=======
-     * @param array<string, string> $spacingUnits
-     * @param array<string, string> $breakpoints
->>>>>>> laraxot/dev
      */
     public function __construct(
         public readonly string $primaryColorHex,
@@ -44,51 +25,15 @@ class ThemeMetadataData extends Data
             'md' => '768px',
             'lg' => '1024px',
         ],
-<<<<<<< HEAD
     ) {}
 
     /**
      * @throws InvalidArgumentException se la chiave non esiste
-=======
-    ) {
-    }
-
-    /**
-<<<<<<< .merge_file_8eIawZ
-     * @throws InvalidArgumentException se la chiave non esiste
-=======
-<<<<<<< .merge_file_od9uUC
-<<<<<<< HEAD
-     * @throws InvalidArgumentException se la chiave non esiste
-=======
-     * @throws \InvalidArgumentException se la chiave non esiste
->>>>>>> laraxot/dev
-=======
-     * @throws \InvalidArgumentException se la chiave non esiste
->>>>>>> .merge_file_5yDYcM
->>>>>>> .merge_file_m5rsjr
->>>>>>> laraxot/dev
      */
     public function getSpacing(string $key): string
     {
         if (! isset($this->spacingUnits[$key])) {
-<<<<<<< HEAD
             throw new InvalidArgumentException("Invalid spacing unit key: {$key}");
-=======
-<<<<<<< .merge_file_8eIawZ
-            throw new InvalidArgumentException("Invalid spacing unit key: {$key}");
-=======
-<<<<<<< .merge_file_od9uUC
-<<<<<<< HEAD
-            throw new InvalidArgumentException("Invalid spacing unit key: {$key}");
-=======
-            throw new \InvalidArgumentException("Invalid spacing unit key: {$key}");
->>>>>>> laraxot/dev
-=======
-            throw new \InvalidArgumentException("Invalid spacing unit key: {$key}");
->>>>>>> .merge_file_5yDYcM
->>>>>>> .merge_file_m5rsjr
->>>>>>> laraxot/dev
         }
 
         return $this->spacingUnits[$key];

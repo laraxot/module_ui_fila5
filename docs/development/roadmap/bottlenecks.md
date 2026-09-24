@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_5PT36V
-=======
-=======
-<<<<<<< .merge_file_YtfuAy
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_nYWgnc
->>>>>>> .merge_file_vA6ADs
->>>>>>> laraxot/dev
 ---
 title: "Colli di Bottiglia - Modulo UI"
 type: concept
@@ -22,44 +5,10 @@ tags: [bottlenecks]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "bottlenecks colli di bottiglia - modulo ui"
-<<<<<<< HEAD
-<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-<<<<<<< .merge_file_5PT36V
-=======
-<<<<<<< .merge_file_YtfuAy
->>>>>>> .merge_file_vA6ADs
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_5PT36V
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_nYWgnc
->>>>>>> .merge_file_vA6ADs
->>>>>>> laraxot/dev
 related:
   - "./component-system.md"
   - "./form-component.md"
@@ -67,23 +16,6 @@ related:
   - "./theme-system.md"
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_5PT36V
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_YtfuAy
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_nYWgnc
->>>>>>> .merge_file_vA6ADs
->>>>>>> laraxot/dev
 # Colli di Bottiglia - Modulo UI
 
 ## 1. Performance Componenti [85%]

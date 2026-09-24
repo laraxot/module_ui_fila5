@@ -1,35 +1,7 @@
 # Analisi Qualità Codice - Modulo UI
 
 ## Data
-<<<<<<< HEAD
 2025-01-06
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_B7hL5u
-[DATE]
-=======
-2025-01-06
-=======
-<<<<<<< .merge_file_GaK4SO
-[DATE]
-=======
-<<<<<<< HEAD
-2025-01-06
-=======
-<<<<<<< HEAD
-[DATE]
-=======
-2025-01-06
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-2025-01-06
-=======
-[DATE]
->>>>>>> .merge_file_C7lyl1
->>>>>>> .merge_file_biNVuI
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 
 ## Strumenti Utilizzati
 
@@ -78,53 +50,7 @@ Eseguire `./vendor/bin/rector process Modules/UI --dry-run` per vedere le modifi
 
 ## Collegamenti
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_B7hL5u
-=======
-<<<<<<< .merge_file_GaK4SO
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 - [Module Analysis Report](../../../docs/module-analysis-report-2025-01-06.md)
 - [PHPStan Level 10 Fixes](../../../docs/phpstan-level10-fixes-2025-01-06.md)
 
 *Ultimo aggiornamento: 2025-01-06*
-<<<<<<< HEAD
-=======
-=======
->>>>>>> .merge_file_C7lyl1
->>>>>>> .merge_file_biNVuI
-- [Module Analysis Report](../../../../docs/module-analysis-report-[date].md)
-- [PHPStan Level 10 Fixes](../../../../docs/phpstan-level10-fixes-[date].md)
-
-*Ultimo aggiornamento: [DATE]*
-<<<<<<< .merge_file_B7hL5u
-=======
-=======
-<<<<<<< .merge_file_GaK4SO
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_biNVuI
-- [Module Analysis Report](../../../docs/module-analysis-report-2025-01-06.md)
-- [PHPStan Level 10 Fixes](../../../docs/phpstan-level10-fixes-2025-01-06.md)
-
-*Ultimo aggiornamento: 2025-01-06*
-<<<<<<< .merge_file_B7hL5u
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_C7lyl1
->>>>>>> .merge_file_biNVuI
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev

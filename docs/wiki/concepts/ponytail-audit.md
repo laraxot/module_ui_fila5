@@ -6,19 +6,6 @@ created: 2026-07-01
 updated: 2026-07-01
 qmd: "ponytail audit UI modulo stub config archive root md"
 issues:
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_a86VEB
-=======
-<<<<<<< .merge_file_k7dLh3
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 discussions:
 related:
   - "./auth-register-focus-loss-overlay.md"
@@ -29,47 +16,6 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
-<<<<<<< HEAD
-=======
-=======
->>>>>>> .merge_file_CWNP6q
->>>>>>> .merge_file_wNY1xF
-  - "https://github.com/laraxot/base_predict_fila5/issues/221"
-discussions:
-  - "https://github.com/laraxot/base_predict_fila5/discussions/222"
-related:
-  - ../../ponytail-audit-over-engineering.md
-  - module-root-uppercase-folders-archive.md
-<<<<<<< .merge_file_a86VEB
-=======
-=======
-<<<<<<< .merge_file_k7dLh3
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_wNY1xF
-discussions:
-related:
-  - "./auth-register-focus-loss-overlay.md"
-  - "./block-rendering-and-optional-services.md"
-  - "./claude-audit-static.md"
-  - "./code-redundancy-ui.md"
-  - "./context-overflow-prevention.md"
-  - "./enum-select-best-practices.md"
-  - "./enum-select-component.md"
-  - "./enum-select-contract-and-false-friends.md"
-<<<<<<< .merge_file_a86VEB
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_CWNP6q
->>>>>>> .merge_file_wNY1xF
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 ---
 
 # Ponytail audit — UI

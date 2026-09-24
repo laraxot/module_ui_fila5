@@ -79,37 +79,29 @@ Il design system definisce gli standard visivi e di interazione per garantire co
     <x-slot name="header">
         Titolo Card
     </x-slot>
-<<<<<<< HEAD
 
     Contenuto della card
 
+<<<<<<< .merge_file_VZoWcB
 =======
-<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_uqrYXO
 =======
->>>>>>> laraxot/dev
 <<<<<<< HEAD
 
     Contenuto della card
 
 =======
-<<<<<<< HEAD
-=======
 >>>>>>> .merge_file_8lfGE4
->>>>>>> laraxot/dev
     
     Contenuto della card
     
 >>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
 <<<<<<< .merge_file_uqrYXO
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_8lfGE4
->>>>>>> laraxot/dev
+>>>>>>> .merge_file_AuRhQy
     <x-slot name="footer">
         Footer della card
     </x-slot>

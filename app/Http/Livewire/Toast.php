@@ -15,56 +15,10 @@ final class Toast extends Component
     public function render(): View
     {
         $view = 'ui::livewire.toast';
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_ZGeH2B
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_RFzo3p
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_2nt62T
-        $view_params = [
-            'view' => $view,
-        ];
-
-        return view($view, $view_params);
-<<<<<<< .merge_file_ZGeH2B
-=======
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_2nt62T
->>>>>>> laraxot/dev
         $viewParams = [
             'view' => $view,
         ];
 
         return view($view, $viewParams);
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_ZGeH2B
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        $viewParams = [
-            'view' => $view,
-        ];
-
-        return view($view, $viewParams);
->>>>>>> .merge_file_0dXZFZ
->>>>>>> .merge_file_2nt62T
->>>>>>> laraxot/dev
     }
 }

@@ -27,29 +27,4 @@
 Il modulo UI non dovrebbe avere modelli - è dedicato a componenti di interfaccia.
 
 ---
-<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06*
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_zUXXYX
-=======
-*Ultimo aggiornamento: 2025-01-06*
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_hVZUyf
-=======
-<<<<<<< HEAD
-*Ultimo aggiornamento: 2025-01-06*
-=======
-<<<<<<< HEAD
-=======
-*Ultimo aggiornamento: 2025-01-06*
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-*Ultimo aggiornamento: 2025-01-06*
-=======
->>>>>>> .merge_file_naxY1c
->>>>>>> laraxot/dev
->>>>>>> .merge_file_mnMGaa
->>>>>>> laraxot/dev
