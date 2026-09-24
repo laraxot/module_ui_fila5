@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_HIkPyG
 <<<<<<< HEAD
 <<<<<<< .merge_file_sZdfDy
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_86k4tc
 return [
     'fields' => [
         'title' => [
@@ -71,6 +74,7 @@ return [
         ],
         'label' => 'Paragraph',
         'sort' => 1,
+<<<<<<< .merge_file_HIkPyG
 <<<<<<< HEAD
 <<<<<<< .merge_file_sZdfDy
 <<<<<<< HEAD
@@ -94,6 +98,9 @@ return [
 >>>>>>> .merge_file_bj0UcH
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_86k4tc
     ],
     'actions' => [
         'create' => [

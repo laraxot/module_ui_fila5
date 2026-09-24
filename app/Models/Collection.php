@@ -5,14 +5,15 @@ declare(strict_types=1);
 namespace Modules\UI\Models;
 
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< .merge_file_p2FOzM
 <<<<<<< HEAD
 <<<<<<< .merge_file_iW8GiV
 <<<<<<< HEAD
-use Modules\UI\Database\Factories\CollectionFactory;
 =======
-use Illuminate\Support\Carbon;
->>>>>>> .merge_file_w2hhmu
+>>>>>>> .merge_file_CUJy0h
+use Modules\UI\Database\Factories\CollectionFactory;
 use Modules\Xot\Contracts\ProfileContract;
+<<<<<<< .merge_file_p2FOzM
 =======
 <<<<<<< HEAD
 =======
@@ -28,10 +29,13 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_CUJy0h
 use Modules\Xot\Models\BaseModel;
 
 /**
  * Collection model for UI module.
+<<<<<<< .merge_file_p2FOzM
 <<<<<<< HEAD
 <<<<<<< .merge_file_iW8GiV
 <<<<<<< HEAD
@@ -109,19 +113,24 @@ use Modules\Xot\Models\BaseModel;
 =======
 >>>>>>> 804451c (Lint)
  *
+=======
+>>>>>>> .merge_file_CUJy0h
  * FormBuilder module not available - extending from XotBaseModel instead.
+ */
+/**
+ * @property string|null                     $name
+ * @property string|null                     $description
+ * @property string|null                     $type
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property ProfileContract|null            $creator
+ * @property ProfileContract|null            $updater
  *
- * @property int $id
- * @property string $name
- * @property string|null $description
- * @property string $type
- * @property int|null $theme_id
- * @property bool $is_active
- * @property int|null $order
- * @method static \Modules\UI\Database\Factories\CollectionFactory factory($count = null, $state = [])
+ * @method static CollectionFactory          factory($count = null, $state = [])
  * @method static Builder<static>|Collection newModelQuery()
  * @method static Builder<static>|Collection newQuery()
  * @method static Builder<static>|Collection query()
+<<<<<<< .merge_file_p2FOzM
  * @property string|null $created_by
  * @property string|null $updated_by
  * @property \Illuminate\Support\Carbon|null $deleted_at
@@ -152,6 +161,11 @@ use Modules\Xot\Models\BaseModel;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+ *
+ * @property ProfileContract|null $deleter
+ *
+>>>>>>> .merge_file_CUJy0h
  * @mixin \Eloquent
  */
 class Collection extends BaseModel

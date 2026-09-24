@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_c3okqw
 <<<<<<< HEAD
 <<<<<<< .merge_file_widIHJ
 <<<<<<< HEAD
@@ -27,6 +28,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_C6xYjQ
 return [
     'region' => [
         'label' => 'Region',
@@ -47,6 +50,7 @@ return [
         'region_required_for_province' => 'Sie müssen eine Region auswählen, bevor Sie die Provinz wählen',
         'region_province_required_for_cap' => 'Sie müssen Region und Provinz auswählen, bevor Sie die PLZ wählen',
     ],
+<<<<<<< .merge_file_c3okqw
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -54,6 +58,8 @@ return [
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_C6xYjQ
     'navigation' => [
         'label' => 'Missing Navigation Label',
         'plural_label' => 'Missing Navigation Plural Label',
@@ -67,6 +73,7 @@ return [
     ],
     'actions' => [
     ],
+<<<<<<< .merge_file_c3okqw
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -76,4 +83,6 @@ return [
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_C6xYjQ
 ];

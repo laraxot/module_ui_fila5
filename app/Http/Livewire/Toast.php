@@ -1,10 +1,14 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_jqB5U1
 <<<<<<< HEAD
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_FF9SoW
 /**
  * @see https://github.com/bezhanSalleh/filament-language-switch/blob/main/src/Http/Livewire/FilamentLanguageSwitch.php
  */
@@ -18,7 +22,9 @@ final class Toast extends Component
 {
     public function render(): View
     {
+        /** @var view-string $view */
         $view = 'ui::livewire.toast';
+<<<<<<< .merge_file_jqB5U1
 <<<<<<< HEAD
 <<<<<<< .merge_file_RFzo3p
 <<<<<<< HEAD
@@ -30,11 +36,14 @@ final class Toast extends Component
 =======
 <<<<<<< HEAD
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_FF9SoW
         $view_params = [
             'view' => $view,
         ];
 
         return view($view, $view_params);
+<<<<<<< .merge_file_jqB5U1
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -63,5 +72,7 @@ final class Toast extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_FF9SoW
     }
 }

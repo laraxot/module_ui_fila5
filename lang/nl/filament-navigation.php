@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_GEvaIC
 <<<<<<< HEAD
 <<<<<<< .merge_file_Yh1JSE
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ftNvTc
 return [
     'attributes' => [
         'external-link' => 'Externe link',

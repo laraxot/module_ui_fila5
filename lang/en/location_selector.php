@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_UAOUXr
 <<<<<<< HEAD
 <<<<<<< .merge_file_9reUB9
 <<<<<<< HEAD
@@ -27,6 +28,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_OiGnNs
 return [
     'region' => [
         'label' => 'Region',
@@ -47,6 +50,7 @@ return [
         'region_required_for_province' => 'You must select a region before choosing the province',
         'region_province_required_for_cap' => 'You must select region and province before choosing the postal code',
     ],
+<<<<<<< .merge_file_UAOUXr
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -54,6 +58,8 @@ return [
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_OiGnNs
     'navigation' => [
         'label' => 'Missing Navigation Label',
         'plural_label' => 'Missing Navigation Plural Label',
@@ -67,6 +73,7 @@ return [
     ],
     'actions' => [
     ],
+<<<<<<< .merge_file_UAOUXr
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -76,4 +83,6 @@ return [
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_OiGnNs
 ];

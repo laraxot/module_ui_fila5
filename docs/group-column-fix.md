@@ -1,6 +1,7 @@
 # GroupColumn Fix - Risoluzione Errore "Column not mounted to table"
 
 ## Problema
+<<<<<<< .merge_file_thVly4
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_63Rzcf
@@ -42,6 +43,8 @@ La view ora usa un approccio a due livelli:
 >>>>>>> .merge_file_ilb9LM
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tpiSBH
 L'errore `LogicException - The column [matr] is not mounted to a table` si verificava quando il componente `GroupColumn` veniva utilizzato in una tabella Filament. Il problema era che le colonne figlio non erano correttamente montate alla tabella padre.
 
 ## Causa
@@ -97,6 +100,7 @@ La view è stata aggiornata per:
 - Saltare valori vuoti per risparmiare spazio
 - Aggiungere etichette per migliorare la leggibilità
 - Gestire meglio i valori null
+<<<<<<< .merge_file_thVly4
 <<<<<<< HEAD
 <<<<<<< .merge_file_63Rzcf
 <<<<<<< HEAD
@@ -144,10 +148,13 @@ La view ora usa un approccio a due livelli:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_tpiSBH
 
 ```php
 @php
     $name = $field->getName();
+<<<<<<< .merge_file_thVly4
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_63Rzcf
@@ -199,6 +206,8 @@ Senza eager loading, `data_get()` restituirà `null` perché la relazione non è
 >>>>>>> .merge_file_ilb9LM
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tpiSBH
     $value = $record->getAttribute($name);
 
     // Skip empty values to save space
@@ -220,6 +229,7 @@ Senza eager loading, `data_get()` restituirà `null` perché la relazione non è
 
 ## Utilizzo
 Il `GroupColumn` può essere utilizzato per raggruppare più valori in una singola colonna della tabella, risparmiando spazio:
+<<<<<<< .merge_file_thVly4
 <<<<<<< HEAD
 <<<<<<< .merge_file_63Rzcf
 <<<<<<< HEAD
@@ -277,12 +287,15 @@ Senza eager loading, `data_get()` restituirà `null` perché la relazione non è
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_tpiSBH
 
 ```php
 GroupColumn::make('lavoratore')->schema([
     TextColumn::make('matr'),
     TextColumn::make('cognome'),
     TextColumn::make('nome'),
+<<<<<<< .merge_file_thVly4
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_63Rzcf
@@ -356,6 +369,8 @@ I test verificano:
 >>>>>>> .merge_file_ilb9LM
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tpiSBH
     TextColumn::make('email'),
 ])
 ```
@@ -374,6 +389,7 @@ Sono stati creati test per verificare:
 ## Collegamenti
 - [ProgressioniResource Usage](../../progressioni/docs/progressioni-resource.md)
 - [Filament Tables Documentation](https://filamentphp.com/docs/3.x/tables/columns)
+<<<<<<< .merge_file_thVly4
 <<<<<<< HEAD
 <<<<<<< .merge_file_63Rzcf
 <<<<<<< HEAD
@@ -453,3 +469,5 @@ I test verificano:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_tpiSBH

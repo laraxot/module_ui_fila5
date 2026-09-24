@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_KzvHNX
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_NZYS6R
@@ -66,11 +67,14 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_iVF06I
 # Guida Completa: Multiple Labels con chartjs-plugin-datalabels in Filament 5.x (Modulo UI)
 
 **Versione:** 1.0  
 **Data:** Gennaio 2026  
 **Target:** Filament 5.x, Laravel 12.x, Modulo UI  
+<<<<<<< .merge_file_KzvHNX
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_NZYS6R
@@ -93,6 +97,8 @@ related:
 **Target:** Filament 5.x, Laravel 13.x, Modulo UI  
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_iVF06I
 **Livello:** Guida "a prova di stupido" - passo dopo passo
 
 > **Riferimento Ufficiale:** [chartjs-plugin-datalabels - Multiple Labels Sample](https://chartjs-plugin-datalabels.netlify.app/samples/advanced/multiple-labels.html)  
@@ -670,6 +676,7 @@ protected function getOptions(): array
 
 - [Guida Completa Chart Module](../../chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
 - [Filament 5.x Installation Guide](../../chart/docs/filament-5-installation-guide.md)
+<<<<<<< .merge_file_KzvHNX
 <<<<<<< HEAD
 - [SimpleChartWidget con Sfondi](../../Quaeris/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
 =======
@@ -722,6 +729,9 @@ protected function getOptions(): array
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+- [SimpleChartWidget con Sfondi](../../Quaeris/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
+>>>>>>> .merge_file_iVF06I
 
 ### Documentazione Ufficiale
 
@@ -732,6 +742,7 @@ protected function getOptions(): array
 
 **Versione:** 1.0  
 **Ultimo Aggiornamento:** Gennaio 2026  
+<<<<<<< .merge_file_KzvHNX
 <<<<<<< HEAD
 **Mantenuto da:** Quaeris Development Team
 =======
@@ -786,3 +797,6 @@ protected function getOptions(): array
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+**Mantenuto da:** Quaeris Development Team
+>>>>>>> .merge_file_iVF06I

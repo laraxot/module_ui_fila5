@@ -13,8 +13,8 @@ Il `TableLayoutTrait` è un componente chiave del sistema di layout delle tabell
 
 1. **Conflitto di Namespace**: Esistevano due versioni diverse del namespace:
    - `namespace Modules\UI\Traits;`
-<<<<<<< HEAD
    - `namespace Modules\UI\app\Traits;`
+<<<<<<< .merge_file_nlh2W2
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56,6 +56,8 @@ Il `TableLayoutTrait` è un componente chiave del sistema di layout delle tabell
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_JruMXH
 
 2. **Incoerenza nella Formattazione del Codice**: Presenza di linee vuote e spazi bianchi inconsistenti.
 
@@ -106,6 +108,7 @@ Questo trait è strettamente correlato a:
 
 ## Conclusione
 
+<<<<<<< .merge_file_nlh2W2
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -134,6 +137,10 @@ Il `TableLayoutTrait` è un componente chiave del sistema di layout delle tabell
 La risoluzione dei conflitti in `TableLayoutTrait.php` è stata effettuata mantenendo il namespace corretto allineato con la struttura delle directory e garantendo la coerenza con il resto del codebase. Questa soluzione permette il corretto funzionamento del sistema di layout delle tabelle nel modulo UI, fornendo agli utenti la possibilità di scegliere tra visualizzazioni diverse dei dati.
 # Risoluzione Conflitti in TableLayoutTrait
 >>>>>>> 804451c (Lint)
+=======
+La risoluzione dei conflitti in `TableLayoutTrait.php` è stata effettuata mantenendo il namespace corretto allineato con la struttura delle directory e garantendo la coerenza con il resto del codebase. Questa soluzione permette il corretto funzionamento del sistema di layout delle tabelle nel modulo UI, fornendo agli utenti la possibilità di scegliere tra visualizzazioni diverse dei dati.
+# Risoluzione Conflitti in TableLayoutTrait
+>>>>>>> .merge_file_JruMXH
 
 ## Panoramica
 
@@ -158,6 +165,7 @@ Il `TableLayoutTrait` è un componente chiave del sistema di layout delle tabell
 
 ### 1. Standardizzazione del Namespace
 
+<<<<<<< .merge_file_nlh2W2
 <<<<<<< HEAD
 <<<<<<< .merge_file_EEu8Qb
 <<<<<<< HEAD
@@ -209,11 +217,14 @@ Il `TableLayoutTrait` è un componente chiave del sistema di layout delle tabell
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_JruMXH
 È stata mantenuta la versione `namespace Modules\UI\app\Traits;` per i seguenti motivi:
 - Allineamento con la struttura delle directory (`app/Traits`)
 - Coerenza con i namespace utilizzati in altri moduli
 - Compatibilità con il sistema di autoloading di Laravel e Composer
 - Riferimenti esistenti a questo namespace in altri file, come `BaseListRecords.php`
+<<<<<<< .merge_file_nlh2W2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_EEu8Qb
@@ -245,6 +256,8 @@ Il trait `TableLayoutTrait` lavora in sinergia con:
 >>>>>>> .merge_file_TWcWK5
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_JruMXH
 
 ### 2. Pulizia della Formattazione
 
@@ -274,6 +287,7 @@ Il trait `TableLayoutTrait` lavora in sinergia con:
 
 ## Collegamento con Altri File
 
+<<<<<<< .merge_file_nlh2W2
 <<<<<<< HEAD
 <<<<<<< .merge_file_EEu8Qb
 <<<<<<< HEAD
@@ -311,10 +325,13 @@ Il trait `TableLayoutTrait` lavora in sinergia con:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_JruMXH
 Questo trait è strettamente correlato a:
 - `TableLayout.php`: L'enum che definisce i possibili stati del layout
 - `BaseListRecords.php`: La classe base che utilizza il trait
 - `TableLayoutToggleTableAction.php`: L'azione che consente di cambiare il layout nella tabella
+<<<<<<< .merge_file_nlh2W2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_EEu8Qb
@@ -376,3 +393,9 @@ La risoluzione dei conflitti in `TableLayoutTrait.php` è stata effettuata mante
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+## Conclusione
+
+La risoluzione dei conflitti in `TableLayoutTrait.php` è stata effettuata mantenendo il namespace corretto allineato con la struttura delle directory e garantendo la coerenza con il resto del codebase. Questa soluzione permette il corretto funzionamento del sistema di layout delle tabelle nel modulo UI, fornendo agli utenti la possibilità di scegliere tra visualizzazioni diverse dei dati.
+>>>>>>> .merge_file_JruMXH

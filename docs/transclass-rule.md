@@ -1,5 +1,6 @@
 # REGOLA CRITICA: Usa SEMPRE transClass() negli Enum
 
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
@@ -25,6 +26,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+## Data: [DATE]
+>>>>>>> .merge_file_EJs9UW
 
 ## ✅ CORRETTO - Implementazione Enum con TransTrait
 
@@ -43,6 +47,7 @@ use Modules\Xot\Filament\Traits\TransTrait;
 enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
@@ -97,6 +102,9 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_EJs9UW
     case LIST = 'list';
     case GRID = 'grid';
 
@@ -213,6 +221,7 @@ use Modules\Xot\Filament\Traits\TransTrait;
 enum MyEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
@@ -267,6 +276,9 @@ enum MyEnum: string implements HasColor, HasIcon, HasLabel
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_EJs9UW
     case VALUE1 = 'value1';
     case VALUE2 = 'value2';
 }
@@ -412,6 +424,7 @@ rules:
 
 ## Collegamenti
 
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
@@ -435,10 +448,16 @@ rules:
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
 - [TransTrait Documentation](../../xot/docs/trans_trait_usage.md)
 >>>>>>> 804451c (Lint)
+=======
+- [Translation Standards](../../../../docs/translation_standards.md)
+- [Filament Best Practices](../../../../docs/filament_best_practices.md)
+- [TransTrait Documentation](../../xot/docs/trans_trait_usage.md)
+>>>>>>> .merge_file_EJs9UW
 
 ## Memoria Permanente
 
 **RICORDA SEMPRE**:
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -484,12 +503,15 @@ rules:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_EJs9UW
 - SEMPRE `TransTrait` negli enum
 - SEMPRE `transClass()` per traduzioni
 - MAI `match()` per traduzioni
 - SEMPRE struttura espansa nelle traduzioni
 - SEMPRE sincronizzazione IT/EN/DE
 
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
@@ -511,6 +533,8 @@ namespace Modules\UI\Enums;
 >>>>>>> .merge_file_QDRs0d
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EJs9UW
 # REGOLA CRITICA: Usa SEMPRE transClass() negli Enum
 
 ## Data: [DATE]
@@ -524,6 +548,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Enums;
 
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
 <<<<<<< HEAD
@@ -568,10 +593,13 @@ namespace Modules\UI\Enums;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_EJs9UW
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasLabel;
 use Modules\Xot\Filament\Traits\TransTrait;
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
@@ -590,6 +618,8 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 >>>>>>> .merge_file_QDRs0d
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EJs9UW
 
 enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 {
@@ -598,6 +628,7 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
     case LIST = 'list';
     case GRID = 'grid';
 
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
 <<<<<<< HEAD
@@ -622,10 +653,13 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_EJs9UW
     public function getLabel(): string
     {
         return $this->transClass(self::class, $this->value . '.label');
     }
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
@@ -654,6 +688,8 @@ public function getLabel(): string
 >>>>>>> .merge_file_QDRs0d
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EJs9UW
 
     public function getColor(): string
     {
@@ -688,6 +724,7 @@ public function getLabel(): string
 // ❌ ERRORE - Non usare mai match() per traduzioni
 public function getLabel(): string
 {
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
 <<<<<<< HEAD
@@ -722,10 +759,13 @@ public function getLabel(): string
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_EJs9UW
     return match ($this) {
         self::LIST => __('ui::table-layout.list.label'),
         self::GRID => __('ui::table-layout.grid.label'),
     };
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
@@ -744,6 +784,8 @@ public function getColor(): string
 >>>>>>> .merge_file_QDRs0d
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EJs9UW
 }
 
 // ❌ ERRORE - Non hardcodare valori
@@ -758,6 +800,7 @@ public function getColor(): string
 
 ## Perché questa Regola è Critica
 
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
 <<<<<<< HEAD
@@ -782,10 +825,13 @@ public function getColor(): string
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_EJs9UW
 ### 1. Centralizzazione Traduzioni
 - Tutte le traduzioni sono nei file `lang/`
 - Facile manutenzione e aggiornamento
 - Sincronizzazione automatica tra lingue
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
@@ -807,10 +853,14 @@ public function getColor(): string
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_EJs9UW
 ### 2. Type Safety
 - Il `transClass()` gestisce automaticamente le traduzioni
 - Controllo automatico delle traduzioni mancanti
 - Struttura coerente per tutti gli enum
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
@@ -832,10 +882,14 @@ public function getColor(): string
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_EJs9UW
 ### 3. Performance
 - Cache delle traduzioni ottimizzata
 - Nessun overhead di match() per ogni chiamata
 - Codice più pulito e manutenibile
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
@@ -857,10 +911,14 @@ public function getColor(): string
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_EJs9UW
 ### 4. Estensibilità
 - Facile aggiungere nuove proprietà
 - Struttura scalabile per enum complessi
 - Pattern riutilizzabile
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
@@ -878,6 +936,8 @@ public function getColor(): string
 >>>>>>> .merge_file_QDRs0d
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EJs9UW
 
 ## Struttura Traduzioni Obbligatoria
 
@@ -887,6 +947,7 @@ public function getColor(): string
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
 <<<<<<< HEAD
@@ -904,6 +965,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EJs9UW
 return [
     'list' => [
         'label' => 'Lista',
@@ -920,6 +983,7 @@ return [
         'helper_text' => 'Layout a griglia con card responsive',
         'color' => 'secondary',
         'icon' => 'heroicon-o-squares-2x2',
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
@@ -952,6 +1016,8 @@ public function getHelperText(): string
 >>>>>>> .merge_file_QDRs0d
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EJs9UW
     ],
 ];
 ```
@@ -1008,6 +1074,7 @@ public function getHelperText(): string
 ```php
 // File: Modules/ModuleName/lang/it/enum_name.php
 return [
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
 <<<<<<< HEAD
@@ -1046,11 +1113,14 @@ public function getHelperText(): string
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_EJs9UW
     'value1' => [
         'label' => 'Etichetta 1',
         'description' => 'Descrizione 1',
         'tooltip' => 'Tooltip 1',
         'helper_text' => 'Helper text 1',
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
@@ -1082,11 +1152,17 @@ public function getHelperText(): string
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'color' => 'primary',
+        'icon' => 'heroicon-o-icon1',
+    ],
+>>>>>>> .merge_file_EJs9UW
     'value2' => [
         'label' => 'Etichetta 2',
         'description' => 'Descrizione 2',
         'tooltip' => 'Tooltip 2',
         'helper_text' => 'Helper text 2',
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
@@ -1105,6 +1181,8 @@ Prima di creare un nuovo Enum:
 >>>>>>> .merge_file_QDRs0d
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EJs9UW
         'color' => 'secondary',
         'icon' => 'heroicon-o-icon2',
     ],
@@ -1115,6 +1193,7 @@ Prima di creare un nuovo Enum:
 
 Prima di creare un nuovo Enum:
 
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
 <<<<<<< HEAD
@@ -1133,12 +1212,15 @@ Prima di creare un nuovo Enum:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EJs9UW
 - [ ] Importare `TransTrait`
 - [ ] Implementare tutti i metodi standard con `transClass()`
 - [ ] Creare file traduzioni in `lang/it/`, `lang/en/`, `lang/de/`
 - [ ] Struttura espansa completa per ogni valore
 - [ ] Sincronizzazione IT/EN/DE
 - [ ] Testare traduzioni in ambiente di sviluppo
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
@@ -1158,6 +1240,8 @@ Prima di creare un nuovo Enum:
 >>>>>>> .merge_file_QDRs0d
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EJs9UW
 
 ## Esempi di Errori Comuni
 
@@ -1203,6 +1287,7 @@ public function getColor(): string
 
 ### PHPStan Rule (Ideale)
 ```php
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
 <<<<<<< HEAD
@@ -1228,10 +1313,13 @@ public function getColor(): string
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_EJs9UW
 // Regola PHPStan per rilevare match() in enum
 // Implementare in phpstan.neon
 rules:
     - rule: Never use match() for translations in enums
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
@@ -1257,12 +1345,17 @@ rules:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+```
+
+>>>>>>> .merge_file_EJs9UW
 ### Code Review Checklist
 - [ ] TransTrait importato
 - [ ] Tutti i metodi usano `transClass()`
 - [ ] Nessun `match()` per traduzioni
 - [ ] Traduzioni implementate in tutte le lingue
 - [ ] Struttura espansa completa
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
@@ -1291,6 +1384,8 @@ rules:
 >>>>>>> .merge_file_QDRs0d
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EJs9UW
 
 ## Penalità per Violazioni
 
@@ -1314,6 +1409,7 @@ rules:
 
 ## Memoria Permanente
 
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
 <<<<<<< HEAD
@@ -1348,12 +1444,15 @@ rules:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_EJs9UW
 **RICORDA SEMPRE**:
 - SEMPRE `TransTrait` negli enum
 - SEMPRE `transClass()` per traduzioni
 - MAI `match()` per traduzioni
 - SEMPRE struttura espansa nelle traduzioni
 - SEMPRE sincronizzazione IT/EN/DE
+<<<<<<< .merge_file_sW4LgI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oYWf8k
@@ -1401,3 +1500,6 @@ rules:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_EJs9UW

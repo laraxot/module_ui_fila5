@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_eaFfxO
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_haK1Oe
@@ -744,6 +745,8 @@ class UserCalendarWidget extends XotBaseWidget
 >>>>>>> .merge_file_6jihez
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_2NhMuN
 # 🎨 UI MODULE - ROADMAP 2025
 ||||||| parent of 9a84589 (.)
 # UI Module Roadmap
@@ -753,6 +756,7 @@ class UserCalendarWidget extends XotBaseWidget
 **Priority**: HIGH  
 **PHPStan**: ✅ level 10 (0 errori)  
 **Filament**: ✅ 4.x Compatibile  
+<<<<<<< .merge_file_eaFfxO
 <<<<<<< HEAD
 <<<<<<< .merge_file_haK1Oe
 <<<<<<< HEAD
@@ -1505,12 +1509,15 @@ class UserCalendarWidget extends XotBaseWidget
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_2NhMuN
 
 ---
 
 ## 🎯 MODULE OVERVIEW
 
 Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+<<<<<<< .merge_file_eaFfxO
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_haK1Oe
@@ -1536,6 +1543,8 @@ Il modulo **UI** è il sistema di componenti e design system della piattaforma p
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_2NhMuN
 
 ### 🏗️ Architettura Modulo
 ```
@@ -1600,6 +1609,7 @@ UI Module
 - [x] **Orientation Handling**: Gestione orientamento dispositivo
 
 ### 🛠️ Technical Excellence
+<<<<<<< .merge_file_eaFfxO
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_haK1Oe
@@ -1625,6 +1635,9 @@ UI Module
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [x] **PHPStan level 10**: 0 errori
+>>>>>>> .merge_file_2NhMuN
 - [x] **Filament 4.x**: Compatibilità completa
 - [x] **Type Safety**: Type hints completi
 - [x] **Error Handling**: Gestione errori robusta
@@ -1638,6 +1651,7 @@ UI Module
 ## 🚧 IN PROGRESS FEATURES
 
 ### ♿ AGID Compliance Completion (Priority: CRITICAL)
+<<<<<<< .merge_file_eaFfxO
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_haK1Oe
@@ -1663,6 +1677,9 @@ UI Module
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+**Status**: 85% COMPLETATO  
+>>>>>>> .merge_file_2NhMuN
 **Timeline**: Q1 2025
 
 #### 📋 Tasks
@@ -1697,6 +1714,7 @@ UI Module
 - [ ] Screen reader compatibility verified
 
 ### 📱 Mobile Optimization (Priority: HIGH)
+<<<<<<< .merge_file_eaFfxO
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_haK1Oe
@@ -1722,6 +1740,9 @@ UI Module
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+**Status**: 70% COMPLETATO  
+>>>>>>> .merge_file_2NhMuN
 **Timeline**: Q1 2025
 
 #### 📋 Tasks
@@ -1800,6 +1821,7 @@ UI Module
 ## 🎯 SUCCESS METRICS
 
 ### 📊 Technical Metrics
+<<<<<<< .merge_file_eaFfxO
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_haK1Oe
@@ -1825,6 +1847,9 @@ UI Module
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [x] **PHPStan level 10**: 0 errori ✅
+>>>>>>> .merge_file_2NhMuN
 - [x] **Filament 4.x**: Compatibile ✅
 - [ ] **Test Coverage**: 80% (target)
 - [ ] **Response Time**: < 200ms
@@ -1912,6 +1937,7 @@ UI Module
 
 **Last Updated**: 2025-10-01
 **Next Review**: 2025-11-01
+<<<<<<< .merge_file_eaFfxO
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_haK1Oe
@@ -1943,10 +1969,15 @@ UI Module
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+**Status**: 🚧 ACTIVE DEVELOPMENT  
+**Confidence Level**: 90%  
+>>>>>>> .merge_file_2NhMuN
 
 ---
 
 *Questa roadmap è specifica per il modulo UI e viene aggiornata regolarmente in base ai progressi e alle nuove esigenze.*
+<<<<<<< .merge_file_eaFfxO
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_haK1Oe
@@ -1975,6 +2006,9 @@ UI Module
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+||||||| parent of 9a84589 (.)
+>>>>>>> .merge_file_2NhMuN
 "L'interfaccia è l'essenza: rendere l'esperienza indimenticabile."
 
 ## 🎯 Visione
@@ -1996,6 +2030,7 @@ Creare un ecosistema UI "Headless-first" che permetta di cambiare radicalmente i
 ### Fase 3: AI Design (Future)
 - [ ] **AI Theme Generator**: Generazione automatica di palette colori accessibili da un'immagine di brand.
 - [ ] **Dynamic Layout Optimization**: L'AI suggerisce layout migliori in base al tipo di contenuto visualizzato.
+<<<<<<< .merge_file_eaFfxO
 <<<<<<< HEAD
 - [ ] **Predictive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
 =======
@@ -2048,6 +2083,9 @@ Creare un ecosistema UI "Headless-first" che permetta di cambiare radicalmente i
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+- [ ] **Predictive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
+>>>>>>> .merge_file_2NhMuN
 
 ## ✅ Checklist Qualità
 - [x] PHPStan Level 10.
@@ -2055,6 +2093,7 @@ Creare un ecosistema UI "Headless-first" che permetta di cambiare radicalmente i
 - [ ] Performance Lighthouse > 90 su pagine UI intensive.
 
 ---
+<<<<<<< .merge_file_eaFfxO
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_haK1Oe
@@ -2628,3 +2667,6 @@ Completare il modulo UI con tutte le funzionalità mancanti, migliorare qualità
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+**
+>>>>>>> .merge_file_2NhMuN

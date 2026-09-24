@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_YExRJJ
 <<<<<<< HEAD
 <<<<<<< .merge_file_AZSwzF
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_19RcqR
 return [
     'fields' => [
         'level' => [
@@ -58,6 +61,7 @@ return [
         ],
         'label' => 'Heading',
         'sort' => 1,
+<<<<<<< .merge_file_YExRJJ
 <<<<<<< HEAD
 <<<<<<< .merge_file_AZSwzF
 <<<<<<< HEAD
@@ -81,6 +85,9 @@ return [
 >>>>>>> .merge_file_zTxwIh
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_19RcqR
     ],
     'actions' => [
         'create' => [

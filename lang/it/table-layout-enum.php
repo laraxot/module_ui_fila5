@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_xoWHEe
 <<<<<<< HEAD
 <<<<<<< .merge_file_zNI425
 <<<<<<< HEAD
@@ -42,6 +43,9 @@ return [
 =======
 return [
 >>>>>>> 804451c (Lint)
+=======
+return [
+>>>>>>> .merge_file_ust7Ih
     'list' => [
         'label' => 'Lista',
         'color' => 'primary',
@@ -57,6 +61,7 @@ return [
         'description' => 'Layout a griglia responsive con card',
         'tooltip' => 'Visualizza i dati in formato card responsive',
         'helper_text' => 'Ideale per visualizzare pochi dati con focus visivo',
+<<<<<<< .merge_file_xoWHEe
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -91,6 +96,8 @@ return [
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ust7Ih
     ],
     'label' => 'Table Layout Enum',
     'plural_label' => 'Table Layout Enum (Plurale)',
@@ -103,6 +110,7 @@ return [
         ],
         'label' => 'Table Layout Enum',
         'sort' => 1,
+<<<<<<< .merge_file_xoWHEe
 <<<<<<< HEAD
 <<<<<<< .merge_file_zNI425
 <<<<<<< HEAD
@@ -126,6 +134,9 @@ return [
 >>>>>>> .merge_file_HzcGi2
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_ust7Ih
     ],
     'fields' => [
         'id' => [

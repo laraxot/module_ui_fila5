@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_ReEAF2
 <<<<<<< HEAD
 <<<<<<< .merge_file_IJUq6t
 <<<<<<< HEAD
@@ -42,6 +43,12 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 804451c (Lint)
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> .merge_file_s3ETY1
 ?>
 <div
     x-data="{

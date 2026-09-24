@@ -3,6 +3,7 @@ title: Creazione di una Resource
 description: Creazione di una Resource
 extends: _layouts.documentation
 section: content
+<<<<<<< .merge_file_WJBMz3
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kEiP55
@@ -40,6 +41,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_antTPo
 ---
 
 # Creazione di una Resource {#creazione-resource}

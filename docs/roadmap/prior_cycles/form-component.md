@@ -2,6 +2,7 @@
 module: theme
 topic: form-component
 canonical: ../../../../../Themes/docs/shared-components/form-component.md
+<<<<<<< .merge_file_kVuWeY
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_AdZukH
@@ -36,6 +37,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_6qq6e8
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/form-component.md

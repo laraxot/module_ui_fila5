@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_DhHlpC
 <<<<<<< HEAD
 <<<<<<< .merge_file_MpAaOd
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_OhpO05
 return [
     'fields' => [
         'level' => [

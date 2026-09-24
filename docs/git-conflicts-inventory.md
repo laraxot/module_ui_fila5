@@ -27,6 +27,7 @@
 
 ## Stato
 - ❌ Conflitti da risolvere
+<<<<<<< .merge_file_SX0LG6
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_YmDs4W
@@ -52,4 +53,7 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- 📅 Data rilevamento: [DATE]
+>>>>>>> .merge_file_KdC1zA
 - 🔄 Priorità: ALTA - Componenti UI critici

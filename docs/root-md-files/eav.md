@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_BH8Z9z
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -46,5 +47,7 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_vbTuN7
 https://github.com/yemenpoint/filament-custom-fields
 

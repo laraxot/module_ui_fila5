@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_s4mINk
 <<<<<<< HEAD
 <<<<<<< .merge_file_1YeElu
 <<<<<<< HEAD
@@ -73,6 +74,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_o6O0RM
 @props([
     'title' => '',
     'id' => 'item-' . uniqid(),

@@ -79,10 +79,10 @@ Il design system definisce gli standard visivi e di interazione per garantire co
     <x-slot name="header">
         Titolo Card
     </x-slot>
-<<<<<<< HEAD
 
     Contenuto della card
 
+<<<<<<< .merge_file_00Il2m
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -100,6 +100,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_2scN8w
     <x-slot name="footer">
         Footer della card
     </x-slot>

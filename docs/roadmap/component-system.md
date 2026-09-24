@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
@@ -81,6 +82,8 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_U192yb
 # Sistema Componenti UI
 
 ## 📊 Stato Implementazione
@@ -277,6 +280,7 @@ protected function resolveLazyProp(string $key): mixed
 2. Implementare lazy loading
 3. Migliorare test coverage
 4. Documentare best practices
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -294,10 +298,15 @@ Completamento: 35%
 5. Ottimizzare performance
 # Sistema Componenti UI
 >>>>>>> 804451c (Lint)
+=======
+5. Ottimizzare performance
+# Sistema Componenti UI
+>>>>>>> .merge_file_U192yb
 
 ## 📊 Stato Implementazione
 Completamento: 35%
 
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
 <<<<<<< HEAD
@@ -338,21 +347,23 @@ Completamento: 35%
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_U192yb
 ## 🎯 Obiettivi
 1. Creare un sistema di componenti tipizzato e riutilizzabile
 2. Garantire consistenza visiva e comportamentale
 3. Migliorare la developer experience
 4. Ottimizzare le performance di rendering
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
+=======
+>>>>>>> .merge_file_U192yb
 
 ## 🤔 Sfide di Design
-=======
-## 🤔 Sfide di Design
-=======
->>>>>>> .merge_file_nSVIR3
 
+<<<<<<< .merge_file_K4Cb1Z
 =======
 <<<<<<< HEAD
 ## 🤔 Sfide di Design
@@ -376,10 +387,13 @@ Completamento: 35%
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_U192yb
 ### 1. Tipizzazione Componenti
 - Necessità di mantenere type safety tra props e rendering
 - Gestione stati complessi nei componenti dinamici
 - Validazione props a runtime
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
@@ -401,10 +415,14 @@ Completamento: 35%
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_U192yb
 ### 2. Theming System
 - Integrazione con il sistema di temi
 - Supporto per dark/light mode
 - Customizzazione per tenant specifici
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
@@ -426,10 +444,14 @@ Completamento: 35%
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_U192yb
 ### 3. Performance
 - Lazy loading dei componenti
 - Ottimizzazione del rendering
 - Caching view compilate
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
@@ -461,12 +483,18 @@ Completamento: 35%
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+
+## 💡 Soluzioni Proposte
+
+>>>>>>> .merge_file_U192yb
 ### 1. Component Base Class
 ```php
 abstract class XotBaseUIComponent
 {
     protected array $props = [];
     protected ?View $compiledView = null;
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
@@ -489,19 +517,25 @@ abstract class XotBaseUIComponent
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
-    abstract public function render(): View;
 =======
 
+>>>>>>> .merge_file_U192yb
+    abstract public function render(): View;
+
+<<<<<<< .merge_file_K4Cb1Z
     abstract public function render(): View;
 
 >>>>>>> .merge_file_nSVIR3
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_U192yb
     protected function validateProps(): void
     {
         // Implementazione validazione
     }
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
@@ -533,10 +567,16 @@ abstract class XotBaseUIComponent
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+
+    protected function compileView(): View
+    {
+>>>>>>> .merge_file_U192yb
         if ($this->compiledView === null) {
             $this->compiledView = $this->render();
         }
         return $this->compiledView;
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
@@ -559,6 +599,8 @@ class ComponentRegistry
 >>>>>>> .merge_file_nSVIR3
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_U192yb
     }
 }
 ```
@@ -579,6 +621,7 @@ class ComponentRegistry
 
 ## 📝 Steps Implementazione
 
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
 <<<<<<< HEAD
@@ -607,11 +650,14 @@ class ComponentRegistry
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_U192yb
 ### Fase 1: Foundation (✅ Completato)
 1. ✅ Definire interfacce base
 2. ✅ Implementare component registry
 3. ✅ Setup sistema di build
 4. ✅ Configurare testing environment
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
@@ -633,12 +679,16 @@ class ComponentRegistry
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_U192yb
 ### Fase 2: Core Components (🏗️ In Progress)
 1. ✅ Button component
 2. ✅ Input component
 3. 🏗️ Form component
 4. 📝 Table component
 5. 📝 Modal component
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
@@ -660,12 +710,16 @@ class ComponentRegistry
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_U192yb
 ### Fase 3: Advanced Features
 1. 📝 Lazy loading
 2. 📝 State management
 3. 📝 Animation system
 4. 📝 Accessibility hooks
 5. 📝 Performance monitoring
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
@@ -695,6 +749,8 @@ public function addChild(XotBaseUIComponent $child): void
 >>>>>>> .merge_file_nSVIR3
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_U192yb
 
 ## 🎭 Edge Cases
 
@@ -726,6 +782,7 @@ public function addChild(XotBaseUIComponent $child): void
 
 ## ✅ Code Review Checklist
 
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
 <<<<<<< HEAD
@@ -761,10 +818,13 @@ public function addChild(XotBaseUIComponent $child): void
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_U192yb
 1. Type Safety
    - [ ] Props tipizzate
    - [ ] Return types definiti
    - [ ] Validazioni implementate
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
@@ -786,10 +846,14 @@ public function addChild(XotBaseUIComponent $child): void
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_U192yb
 2. Performance
    - [ ] View caching configurato
    - [ ] Lazy loading dove necessario
    - [ ] Asset optimization
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
@@ -811,10 +875,14 @@ public function addChild(XotBaseUIComponent $child): void
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_U192yb
 3. Testing
    - [ ] Unit tests per ogni componente
    - [ ] Integration tests
    - [ ] Performance benchmarks
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
@@ -833,6 +901,8 @@ protected function getCachedView(): View
 >>>>>>> .merge_file_nSVIR3
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_U192yb
 
 ## 🚀 Performance Considerations
 
@@ -840,6 +910,7 @@ protected function getCachedView(): View
 ```php
 protected function getCachedView(): View
 {
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
 <<<<<<< HEAD
@@ -858,10 +929,13 @@ protected function getCachedView(): View
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_U192yb
     $cacheKey = $this->getCacheKey();
     return Cache::remember($cacheKey, now()->addHour(), function () {
         return $this->render();
     });
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
@@ -881,6 +955,8 @@ protected function resolveLazyProp(string $key): mixed
 >>>>>>> .merge_file_nSVIR3
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_U192yb
 }
 ```
 
@@ -896,6 +972,7 @@ protected function resolveLazyProp(string $key): mixed
 
 ## 📚 Lessons Learned
 
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
 <<<<<<< HEAD
@@ -921,10 +998,13 @@ protected function resolveLazyProp(string $key): mixed
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_U192yb
 1. Importanza della type safety per maintainability
 2. Bilanciamento tra flessibilità e type constraints
 3. Performance impact del view caching
 4. Necessità di documentazione dettagliata
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
@@ -934,13 +1014,12 @@ protected function resolveLazyProp(string $key): mixed
 ## 🔗 Resources
 =======
 >>>>>>> .merge_file_nSVIR3
-
 =======
-<<<<<<< HEAD
+>>>>>>> .merge_file_U192yb
+
 ## 🔗 Resources
-=======
-<<<<<<< HEAD
 
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< .merge_file_JgSU00
 ## 🔗 Resources
 =======
@@ -958,10 +1037,13 @@ protected function resolveLazyProp(string $key): mixed
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_U192yb
 - [Component Architecture](docs/architecture/components.md)
 - [Type System](docs/types/component_types.md)
 - [Performance Guide](docs/performance/view_caching.md)
 - [Testing Strategy](docs/testing/component_testing.md)
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
@@ -993,11 +1075,17 @@ protected function resolveLazyProp(string $key): mixed
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+
+## 🤝 Contributing
+
+>>>>>>> .merge_file_U192yb
 1. Fork il repository
 2. Crea un branch (`feature/component-name`)
 3. Implementa i test
 4. Documenta le modifiche
 5. Submitti una PR
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
@@ -1019,6 +1107,8 @@ protected function resolveLazyProp(string $key): mixed
 >>>>>>> .merge_file_nSVIR3
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_U192yb
 
 ## ⚠️ Known Issues
 
@@ -1032,6 +1122,7 @@ protected function resolveLazyProp(string $key): mixed
 
 ## 🎯 Next Steps
 
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
 <<<<<<< HEAD
@@ -1059,10 +1150,13 @@ protected function resolveLazyProp(string $key): mixed
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_U192yb
 1. Completare form component
 2. Implementare lazy loading
 3. Migliorare test coverage
 4. Documentare best practices
+<<<<<<< .merge_file_K4Cb1Z
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_JgSU00
@@ -1109,3 +1203,6 @@ protected function resolveLazyProp(string $key): mixed
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+5. Ottimizzare performance
+>>>>>>> .merge_file_U192yb

@@ -20,8 +20,8 @@ Gestione interfaccia utente, componenti, asset e frontend.
 ```
 
 ## Note
-<<<<<<< HEAD
 - Personalizza la configurazione per esigenze di frontend avanzato.
+<<<<<<< .merge_file_1BWiTW
 <<<<<<< HEAD
 <<<<<<< .merge_file_CR5TYJ
 =======
@@ -112,3 +112,5 @@ Gestione interfaccia utente, componenti, asset e frontend.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_4SB4yS

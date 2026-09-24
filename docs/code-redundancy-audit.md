@@ -6,8 +6,8 @@ tags: [code-audit, redundancy, dry, second-brain, module]
 created: "2026-05-26"
 updated: "2026-05-26"
 owner: "UI"
-<<<<<<< HEAD
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/150"
+<<<<<<< .merge_file_DPSFhN
 <<<<<<< HEAD
 <<<<<<< .merge_file_8NNkpd
 =======
@@ -44,6 +44,8 @@ issue: "https://github.com/provtv/<nome repository>/issues/150"
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_jtsJ5E
 ---
 
 # Code redundancy audit — UI
@@ -125,6 +127,7 @@ Ridurre rumore, duplicazione e ambiguita' nel codice di questo module, senza per
 ## Second Brain 2026 — note operative
 
 - Markdown locale + Git restano la base piu' portabile: gli agenti leggono/scrivono file senza database esterni.
+<<<<<<< .merge_file_DPSFhN
 <<<<<<< HEAD
 - AGENTS.md/SKILL.md devono restare manifest leggeri, con YAML/front matter e routing on-demand.
 =======
@@ -148,6 +151,9 @@ Ridurre rumore, duplicazione e ambiguita' nel codice di questo module, senza per
 >>>>>>> 92912795 (.)
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+- AGENTS.md/SKILL.md devono restare manifest leggeri, con YAML/front matter e routing on-demand.
+>>>>>>> .merge_file_jtsJ5E
 - I descrittori architetturali navigabili riducono i passi di localizzazione: ogni owner dovrebbe avere mappa scopo -> file chiave.
 - AI utile = recupero mirato, non pre-caricamento: report atomici, QMD, issue e log.
 

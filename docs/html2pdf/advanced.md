@@ -2,6 +2,7 @@
 module: theme
 topic: advanced
 canonical: ../../../../Themes/docs/shared-components/advanced.md
+<<<<<<< .merge_file_CmKRG7
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_aIE6Jf
@@ -36,6 +37,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EXRl0r
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/advanced.md

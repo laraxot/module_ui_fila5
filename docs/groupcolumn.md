@@ -23,6 +23,7 @@ Labels are automatically resolved using:
 Empty values are automatically skipped to save visual space, except for:
 - `0` (zero)
 - `'0'` (string zero)
+<<<<<<< .merge_file_KgAaTk
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_rYnQ1u
@@ -79,6 +80,8 @@ Esempio: `HaDirittoColumn` include `ValutatoreSelectColumn` per modificare `valu
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_LFHCE0
 
 ## Implementation Details
 

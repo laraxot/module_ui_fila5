@@ -5,6 +5,7 @@ type: concept
 created: "2026-04-29T00:00:00Z"
 updated: "2026-04-29T00:00:00Z"
 related:
+<<<<<<< .merge_file_DCVWnn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_wSdQ4s
@@ -42,6 +43,9 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+  - "[[UI Operating Model]]"
+>>>>>>> .merge_file_syMq0R
 ---
 
 # Context Compression Setup
@@ -99,6 +103,7 @@ Questo sostituisce la precedente nota speculativa con una configurazione effetti
 qmd query "$1" -c wiki --limit 3 > compressed_result.md
 
 # Estrai keyword principali
+<<<<<<< .merge_file_DCVWnn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_wSdQ4s
@@ -155,6 +160,9 @@ qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
+>>>>>>> .merge_file_syMq0R
 
 # Genera sommario
 qmd multi-get $(qmd search "$1" -c main_docs | head -10) | awk '/^# / {print; getline; print; print ""}' > summary.md

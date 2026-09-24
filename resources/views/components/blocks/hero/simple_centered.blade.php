@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_oyAhci
 <<<<<<< HEAD
 <<<<<<< .merge_file_Ooyb21
 <<<<<<< HEAD
@@ -47,6 +48,12 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 804451c (Lint)
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> .merge_file_8Tf70h
 ?>
 <div class="relative overflow-hidden bg-gray-50">
     <div class="hidden sm:absolute sm:inset-y-0 sm:block sm:h-full sm:w-full" aria-hidden="true">

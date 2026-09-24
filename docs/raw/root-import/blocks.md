@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_OyObk2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_CkisUp
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ICcB9I
 https://github.com/whitecube/nova-flexible-content
 
 

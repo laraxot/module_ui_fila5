@@ -68,6 +68,7 @@ I componenti di navigazione devono utilizzare sempre le funzioni di localizzazio
 
 ### Traduzioni Necessarie
 
+<<<<<<< .merge_file_ANVlGr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_t6Bp3q
@@ -121,6 +122,9 @@ Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/htm
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/<nome progetto>/laravel/lang/{locale}/auth.php`:
+>>>>>>> .merge_file_XNaEjQ
 
 ```php
 return [

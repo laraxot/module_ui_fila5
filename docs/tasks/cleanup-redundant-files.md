@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_vEc2OD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_66eDjV
@@ -77,6 +78,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_pdmZQe
 # Task: Cleanup Redundant Files (UI Module)
 
 ## 📋 Obiettivo

@@ -1,6 +1,7 @@
 ---
 module: theme
 topic: list-records
+<<<<<<< .merge_file_aoam3G
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_msIX3B
@@ -27,10 +28,13 @@ See canonical documentation: ../../../../Themes/docs/shared-components/listrecor
 >>>>>>> .merge_file_3KP1Be
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_Y0157s
 canonical: ../../../../Themes/docs/shared-components/ListRecords.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/ListRecords.md
+<<<<<<< .merge_file_aoam3G
 <<<<<<< HEAD
 <<<<<<< .merge_file_msIX3B
 <<<<<<< HEAD
@@ -63,3 +67,5 @@ See canonical documentation: ../../../../Themes/docs/shared-components/listrecor
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Y0157s

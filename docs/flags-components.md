@@ -1,6 +1,7 @@
 # Componenti SVG Bandiere nel Modulo UI
 
 ## Collegamenti correlati
+<<<<<<< .merge_file_ltQZqe
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_TI9D6n
@@ -24,6 +25,8 @@ Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere 
 >>>>>>> .merge_file_Rcu61A
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_6DWvy7
 - [Documentazione centrale](/docs/readme.md)
 - [Collegamenti documentazione](/docs/collegamenti-documentazione.md)
 - [Documentazione UI](/laravel/modules/ui/docs/readme.md)
@@ -34,6 +37,7 @@ Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere 
 ## Panoramica
 
 Il modulo UI di Quaeris include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+<<<<<<< .merge_file_ltQZqe
 <<<<<<< HEAD
 <<<<<<< .merge_file_TI9D6n
 <<<<<<< HEAD
@@ -95,11 +99,14 @@ Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazion
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_6DWvy7
 
 ## Struttura dei Componenti Bandiera
 
 I file SVG delle bandiere sono archiviati in:
 ```
+<<<<<<< .merge_file_ltQZqe
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_TI9D6n
@@ -162,6 +169,9 @@ Modules/UI/resources/svg/flags/
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+/var/www/html/Quaeris/laravel/Modules/UI/resources/svg/flags/
+>>>>>>> .merge_file_6DWvy7
 ```
 
 Ogni bandiera è rappresentata da un file SVG con il codice ISO del paese come nome file (ad esempio, `it.svg` per l'Italia, `gb.svg` per il Regno Unito).
@@ -211,6 +221,7 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 ### Esempio con Attributi
 
 ```blade
+<<<<<<< .merge_file_ltQZqe
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_TI9D6n
@@ -285,10 +296,13 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_6DWvy7
 <x-ui-flags.it 
     class="h-6 w-6 rounded-full shadow-sm" 
     title="Italiano" 
     aria-label="Seleziona lingua italiana" 
+<<<<<<< .merge_file_ltQZqe
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -545,6 +559,8 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
     class="h-6 w-6 rounded-full shadow-sm"
     title="Italiano"
     aria-label="Seleziona lingua italiana"
+=======
+>>>>>>> .merge_file_6DWvy7
 />
 ```
 
@@ -610,6 +626,7 @@ Le bandiere devono essere utilizzate come icone Filament:
 2. **Personalizzazione**: Facile da personalizzare con classi CSS
 3. **Prestazioni**: Gli SVG sono leggeri e non richiedono richieste HTTP aggiuntive
 4. **Accessibilità**: Possibilità di aggiungere attributi di accessibilità
+<<<<<<< .merge_file_ltQZqe
 5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
 <<<<<<< HEAD
 =======
@@ -830,6 +847,9 @@ Le bandiere devono essere utilizzate come icone Filament:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+5. **Coerenza**: Utilizzo di componenti nativi di Quaeris
+>>>>>>> .merge_file_6DWvy7
 
 ## Bandiere Disponibili
 
@@ -885,6 +905,7 @@ Per visualizzare correttamente le bandiere, è necessario:
 
 ## Conclusione
 
+<<<<<<< .merge_file_ltQZqe
 <<<<<<< HEAD
 L'utilizzo dei componenti SVG delle bandiere del modulo UI è il modo più efficace per rendere il selettore di lingue nell'header più accattivante e visibile. Questi componenti sono già integrati  e possono essere facilmente utilizzati in qualsiasi parte dell'applicazione.
 =======
@@ -928,3 +949,6 @@ L'utilizzo dei componenti SVG delle bandiere del modulo UI è il modo più effic
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+L'utilizzo dei componenti SVG delle bandiere del modulo UI è il modo più efficace per rendere il selettore di lingue nell'header più accattivante e visibile. Questi componenti sono già integrati  e possono essere facilmente utilizzati in qualsiasi parte dell'applicazione.
+>>>>>>> .merge_file_6DWvy7

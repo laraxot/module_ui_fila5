@@ -28,10 +28,10 @@ return [
 
 // BRANCH (sintassi vecchia)
 return array (
-<<<<<<< HEAD
     'actions' =>
     array (
         'create' =>
+<<<<<<< .merge_file_mjnmap
 <<<<<<< HEAD
 <<<<<<< .merge_file_fwUF7T
 =======
@@ -101,6 +101,8 @@ return array (
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_L2pN1u
         array (
             'label' => 'create',
         ),
@@ -136,6 +138,7 @@ return array (
 declare(strict_types=1);
 
 return array (
+<<<<<<< .merge_file_mjnmap
 <<<<<<< HEAD
   'actions' =>
   array (
@@ -210,6 +213,11 @@ return array (
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+  'actions' =>
+  array (
+    'create' =>
+>>>>>>> .merge_file_L2pN1u
     array (
       'label' => 'create',
     ),
@@ -273,6 +281,7 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 
 ## Collegamenti Correlati
 
+<<<<<<< .merge_file_mjnmap
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fwUF7T
@@ -298,6 +307,9 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [Translation Standards](../../../../docs/translation-standards.md)
+>>>>>>> .merge_file_L2pN1u
 - [PHP Strict Types](./strict_types_implementation.md)
 - [UI Module Structure](./structure.md)
 - [Best Practices](./best-practices.md)
@@ -315,16 +327,17 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 - **Modulo**: UI
 - **File**: Multipli file di traduzione
 - **Tipo Conflitto**: Dichiarazione PHP e sintassi array
+<<<<<<< .merge_file_mjnmap
 <<<<<<< HEAD
 - **Scelta**: Versione HEAD (con strict types e sintassi moderna)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
-- **Scelta**: Versione HEAD (con strict types e sintassi moderna)
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
+>>>>>>> .merge_file_L2pN1u
+- **Scelta**: Versione HEAD (con strict types e sintassi moderna)
 # Risoluzione Conflitti File di Traduzione UI
+<<<<<<< .merge_file_mjnmap
 <<<<<<< HEAD
 ## Problema Identificato
 I file di traduzione nel modulo UI presentano conflitti Git relativi a:
@@ -336,6 +349,8 @@ I file di traduzione nel modulo UI presentano conflitti Git relativi a:
 =======
 # Risoluzione Conflitti File di Traduzione UI
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_L2pN1u
 
 ## Problema Identificato
 
@@ -347,6 +362,7 @@ I file di traduzione nel modulo UI presentano conflitti Git relativi a:
 
 ## Analisi dei Conflitti
 
+<<<<<<< .merge_file_mjnmap
 <<<<<<< HEAD
 <<<<<<< .merge_file_fwUF7T
 <<<<<<< HEAD
@@ -392,10 +408,13 @@ I file di traduzione nel modulo UI presentano conflitti Git relativi a:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_L2pN1u
 ### Conflitto 1: Dichiarazione Strict Types
 ```php
 declare(strict_types=1);
 ```
+<<<<<<< .merge_file_mjnmap
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fwUF7T
@@ -427,6 +446,11 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+
+### Conflitto 2: Sintassi Array
+```php
+>>>>>>> .merge_file_L2pN1u
 // HEAD (sintassi moderna)
 return [
     'actions' => [
@@ -435,6 +459,7 @@ return [
         ],
     ],
 ];
+<<<<<<< .merge_file_mjnmap
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fwUF7T
@@ -456,12 +481,16 @@ return [
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_L2pN1u
 // BRANCH (sintassi vecchia)
 return array (
     'actions' =>
     array (
         'create' =>
         array (
+<<<<<<< .merge_file_mjnmap
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fwUF7T
@@ -480,6 +509,8 @@ return array (
 >>>>>>> .merge_file_rsME3h
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_L2pN1u
             'label' => 'create',
         ),
     ),
@@ -490,6 +521,7 @@ return array (
 
 ### Criteri di Risoluzione
 
+<<<<<<< .merge_file_mjnmap
 <<<<<<< HEAD
 <<<<<<< .merge_file_fwUF7T
 <<<<<<< HEAD
@@ -514,11 +546,14 @@ return array (
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_L2pN1u
 1. **Standard PHP Moderni**: Utilizzare `declare(strict_types=1);` per type safety
 2. **Sintassi Breve**: Utilizzare `[]` invece di `array()` per coerenza
 3. **Struttura Espansa**: Mantenere struttura completa per traduzioni
 4. **Consistenza**: Seguire le convenzioni Laraxot PTVX
 5. **Manutenibilità**: Migliorare la robustezza del codice
+<<<<<<< .merge_file_mjnmap
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fwUF7T
@@ -550,12 +585,18 @@ return array (
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+
+### Scelta: Versione HEAD (con miglioramenti)
+
+>>>>>>> .merge_file_L2pN1u
 **Motivazione**:
 - `declare(strict_types=1);` è una best practice moderna di PHP
 - Sintassi breve `[]` è più leggibile e moderna
 - Struttura espansa delle traduzioni segue gli standard Laraxot
 - Migliora la type safety del codice
 - È coerente con gli standard del progetto
+<<<<<<< .merge_file_mjnmap
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fwUF7T
@@ -581,6 +622,8 @@ return array (
 >>>>>>> .merge_file_rsME3h
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_L2pN1u
 
 ### Risoluzione Dettagliata
 
@@ -618,6 +661,7 @@ return [
 
 ### Perché `declare(strict_types=1);`?
 
+<<<<<<< .merge_file_mjnmap
 <<<<<<< HEAD
 <<<<<<< .merge_file_fwUF7T
 <<<<<<< HEAD
@@ -649,20 +693,22 @@ return [
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_L2pN1u
 1. **Type Safety**: Previene conversioni automatiche di tipo che potrebbero causare bug
 2. **Standard Moderno**: È una best practice raccomandata per PHP 7+
 3. **Consistenza**: Mantiene coerenza con altri file del progetto
 4. **Debugging**: Aiuta a identificare errori di tipo più rapidamente
+<<<<<<< .merge_file_mjnmap
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fwUF7T
+=======
+>>>>>>> .merge_file_L2pN1u
 
 ### Perché Sintassi Breve `[]`?
-=======
-### Perché Sintassi Breve `[]`?
-=======
->>>>>>> .merge_file_rsME3h
 
+<<<<<<< .merge_file_mjnmap
 =======
 <<<<<<< HEAD
 ### Perché Sintassi Breve `[]`?
@@ -686,10 +732,13 @@ return [
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_L2pN1u
 1. **Leggibilità**: Più concisa e facile da leggere
 2. **Standard Moderno**: Sintassi raccomandata da PHP 5.4+
 3. **Consistenza**: Coerente con il resto del codebase
 4. **Manutenibilità**: Più facile da mantenere e modificare
+<<<<<<< .merge_file_mjnmap
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fwUF7T
@@ -721,10 +770,16 @@ return [
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+
+### Struttura Traduzioni Espansa
+
+>>>>>>> .merge_file_L2pN1u
 1. **Completezza**: Supporta label, placeholder, help text
 2. **Internazionalizzazione**: Facilita la gestione multilingua
 3. **Standard Laraxot**: Segue le convenzioni del framework
 4. **Manutenibilità**: Struttura chiara e organizzata
+<<<<<<< .merge_file_mjnmap
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fwUF7T
@@ -756,12 +811,18 @@ return [
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+
+## Impatto
+
+>>>>>>> .merge_file_L2pN1u
 - ✅ Miglioramento della type safety
 - ✅ Conformità agli standard PHP moderni
 - ✅ Consistenza con il resto del progetto
 - ✅ Prevenzione di errori di tipo
 - ✅ Miglioramento della leggibilità del codice
 - ✅ Struttura traduzioni più robusta
+<<<<<<< .merge_file_mjnmap
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fwUF7T
@@ -779,11 +840,14 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 >>>>>>> .merge_file_rsME3h
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_L2pN1u
 
 ## Pattern di Risoluzione per Altri File
 
 Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 
+<<<<<<< .merge_file_mjnmap
 <<<<<<< HEAD
 <<<<<<< .merge_file_fwUF7T
 <<<<<<< HEAD
@@ -801,10 +865,13 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_L2pN1u
 1. **Aggiungere** `declare(strict_types=1);` se mancante
 2. **Convertire** sintassi `array()` in `[]`
 3. **Mantenere** struttura espansa delle traduzioni
 4. **Verificare** coerenza con standard Laraxot PTVX
+<<<<<<< .merge_file_mjnmap
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fwUF7T
@@ -824,6 +891,8 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 >>>>>>> .merge_file_rsME3h
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_L2pN1u
 
 ## Collegamenti Correlati
 
@@ -834,6 +903,7 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 
 ## Note per Sviluppatori Futuri
 
+<<<<<<< .merge_file_mjnmap
 <<<<<<< HEAD
 <<<<<<< .merge_file_fwUF7T
 <<<<<<< HEAD
@@ -859,10 +929,13 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_L2pN1u
 1. **Strict Types**: Utilizzare sempre `declare(strict_types=1);` nei file PHP
 2. **Sintassi Array**: Preferire sempre `[]` a `array()`
 3. **Traduzioni**: Mantenere struttura espansa per completezza
 4. **Consistenza**: Seguire sempre gli standard Laraxot PTVX
+<<<<<<< .merge_file_mjnmap
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fwUF7T
@@ -872,13 +945,12 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 ## Data Risoluzione
 =======
 >>>>>>> .merge_file_rsME3h
-
 =======
-<<<<<<< HEAD
+>>>>>>> .merge_file_L2pN1u
+
 ## Data Risoluzione
-=======
-<<<<<<< HEAD
 
+<<<<<<< .merge_file_mjnmap
 <<<<<<< .merge_file_fwUF7T
 ## Data Risoluzione
 =======
@@ -896,10 +968,13 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_L2pN1u
 - **Data**: 29 Luglio 2025
 - **Modulo**: UI
 - **File**: Multipli file di traduzione
 - **Tipo Conflitto**: Dichiarazione PHP e sintassi array
+<<<<<<< .merge_file_mjnmap
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fwUF7T
@@ -946,3 +1021,6 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+- **Scelta**: Versione HEAD (con strict types e sintassi moderna)
+>>>>>>> .merge_file_L2pN1u

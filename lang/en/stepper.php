@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_sYTmcu
 <<<<<<< HEAD
 <<<<<<< .merge_file_2fiwWO
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_LWk87D
 return [
     'step' => 'Step',
     'step_1' => 'Step 1',

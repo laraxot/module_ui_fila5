@@ -2,6 +2,7 @@
 
 ## Collegamenti
 
+<<<<<<< .merge_file_qU83fv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_jPx1Bc
@@ -33,6 +34,10 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [Modulo Lang](../../lang/docs/module_lang.md) - Documentazione principale sulle traduzioni
+- [Regole Generali Traduzioni](../../xot/docs/translations.md)
+>>>>>>> .merge_file_lwbxfG
 
 ## Struttura
 
@@ -80,6 +85,7 @@ return [
 ];
 ```
 ## Collegamenti tra versioni di translations.md
+<<<<<<< .merge_file_qU83fv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_jPx1Bc
@@ -110,6 +116,8 @@ return [
 >>>>>>> .merge_file_puXwAW
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_lwbxfG
 * [translations.md](../../../chart/docs/translations.md)
 * [translations.md](../../../reporting/docs/translations.md)
 * [translations.md](../../../gdpr/docs/translations.md)
@@ -127,6 +135,7 @@ return [
 * [translations.md](../../../activity/docs/translations.md)
 * [translations.md](../../../patient/docs/translations.md)
 * [translations.md](../../../cms/docs/translations.md)
+<<<<<<< .merge_file_qU83fv
 <<<<<<< HEAD
 <<<<<<< .merge_file_jPx1Bc
 <<<<<<< HEAD
@@ -163,3 +172,5 @@ return [
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_lwbxfG

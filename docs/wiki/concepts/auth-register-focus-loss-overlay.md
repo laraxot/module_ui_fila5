@@ -4,6 +4,7 @@ type: concept
 tags: [ui, auth, register, focus, overlay, alpine]
 created: 2026-05-21
 updated: 2026-05-21
+<<<<<<< .merge_file_KzJfeM
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_deacIi
@@ -41,6 +42,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_gZJHG8
 ---
 
 # Problema

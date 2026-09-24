@@ -78,6 +78,7 @@ For more details, visit the [official Algolia DocSearch documentation.](https://
 * [algolia-docsearch.md](../../../UI/docs/algolia-docsearch.md)
 * [algolia-docsearch.md](../../../Cms/docs/algolia-docsearch.md)
 
+<<<<<<< .merge_file_e0PJVu
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -96,6 +97,8 @@ For more details, visit the [official Algolia DocSearch documentation.](https://
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ni7l9I
 ### Versione Incoming
 
 ---

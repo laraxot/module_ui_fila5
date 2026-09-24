@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_SqBahO
 <<<<<<< HEAD
 <<<<<<< .merge_file_Xxl8Hg
 <<<<<<< HEAD
@@ -58,6 +59,12 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 804451c (Lint)
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> .merge_file_qqkkRe
 ?>
 <div class="relative bg-gray-50">
     <div class="relative bg-white shadow">

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_xGujX7
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_6toagu
@@ -34,6 +35,8 @@ Gestione interfaccia utente, componenti, asset e frontend.
 >>>>>>> .merge_file_tTDqqI
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_BC5YUm
 ---
 module: theme
 topic: mcp_server_recommended
@@ -41,6 +44,7 @@ canonical: ../../../Themes/docs/shared-components/mcp-server-recommended-Modules
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/mcp-server-recommended-Modules.md
+<<<<<<< .merge_file_xGujX7
 <<<<<<< HEAD
 <<<<<<< .merge_file_6toagu
 <<<<<<< HEAD
@@ -83,3 +87,5 @@ Gestione interfaccia utente, componenti, asset e frontend.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_BC5YUm

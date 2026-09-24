@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_54WYNH
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_zbChsk
@@ -69,5 +70,7 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_vB0T1f
 https://github.com/spatie/laravel-searchable
 

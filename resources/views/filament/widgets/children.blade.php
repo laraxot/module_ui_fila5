@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 ?>
 <x-filament::widget class="filament-widgets-tree-widget">
-<<<<<<< HEAD
     {{-- $this->tree --}}
+<<<<<<< .merge_file_OR6W6k
 <<<<<<< HEAD
 <<<<<<< .merge_file_5HPdiW
     {{ dddx($record) }}
@@ -29,4 +29,7 @@ declare(strict_types=1);
 >>>>>>> .merge_file_bTAtOn
 =======
 >>>>>>> 804451c (Lint)
+=======
+    {{ dddx($record) }}
+>>>>>>> .merge_file_vr40AI
 </x-filament::widget>

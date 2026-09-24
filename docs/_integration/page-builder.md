@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_xXkviE
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_1Z7ota
@@ -128,11 +129,18 @@ https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+# page_builder
+
+<!-- Contenuto migrato da _docs/page_builder.txt -->
+
+>>>>>>> .merge_file_HNFXE3
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
 # page_builder
 
 <!-- Contenuto migrato da _docs/page_builder.txt -->
 
+<<<<<<< .merge_file_xXkviE
 <<<<<<< HEAD
 <<<<<<< .merge_file_1Z7ota
 <<<<<<< HEAD
@@ -179,3 +187,6 @@ https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
+>>>>>>> .merge_file_HNFXE3

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_8avcmQ
 <<<<<<< HEAD
 <<<<<<< .merge_file_LBZUha
 =======
@@ -11,6 +12,7 @@
 # Mai: filter=lfs / diff=lfs / merge=lfs
 
 >>>>>>> laraxot/dev
+>>>>>>> .merge_file_HdAp7Z
 * text=auto
 *.css linguist-vendored
 *.scss linguist-vendored

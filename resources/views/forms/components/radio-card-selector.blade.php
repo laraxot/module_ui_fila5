@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_aTM4il
 <<<<<<< HEAD
 <<<<<<< .merge_file_mXqe0b
 <<<<<<< HEAD
@@ -49,6 +50,12 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 804451c (Lint)
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> .merge_file_D7QCqv
 ?>
 {{-- Radio Card Selector Component --}}
 @php

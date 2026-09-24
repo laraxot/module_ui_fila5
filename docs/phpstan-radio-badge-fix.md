@@ -1,8 +1,8 @@
 # Correzione Errori PHPStan - RadioBadge.php
 
 ## Data Aggiornamento
-<<<<<<< HEAD
 [DATE]
+<<<<<<< .merge_file_p3YmsC
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -15,6 +15,8 @@
 2025-01-27
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_uYSAjG
 
 ## File Modificato
 `Modules/UI/app/Filament/Forms/Components/RadioBadge.php`
@@ -160,6 +162,7 @@ class RadioBadge extends Radio
 # Correzione Errori PHPStan - RadioBadge.php
 
 ## Data Aggiornamento
+<<<<<<< .merge_file_p3YmsC
 <<<<<<< HEAD
 [DATE]
 =======
@@ -174,6 +177,9 @@ class RadioBadge extends Radio
 2025-01-27
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+[DATE]
+>>>>>>> .merge_file_uYSAjG
 
 ## File Modificato
 `Modules/UI/app/Filament/Forms/Components/RadioBadge.php`

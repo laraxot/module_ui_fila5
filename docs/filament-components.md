@@ -55,6 +55,7 @@
 1. La documentazione dei componenti UI deve essere in `Modules/UI/docs/`
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
+<<<<<<< .merge_file_ybL3g5
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -74,10 +75,15 @@
 4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
 ## Collegamenti tra versioni di filament-components.md
 >>>>>>> 804451c (Lint)
+=======
+4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
+## Collegamenti tra versioni di filament-components.md
+>>>>>>> .merge_file_Ib9E0E
 * [filament-components.md](../../user/docs/best-practices/filament-components.md)
 * [filament-components.md](../../cms/docs/best-practices/filament-components.md)
 * [filament-components.md](../../cms/docs/filament-components.md)
 * [filament-components.md](../../../../docs/rules/filament-components.md)
+<<<<<<< .merge_file_ybL3g5
 <<<<<<< HEAD
 <<<<<<< .merge_file_CJyVpb
 <<<<<<< HEAD
@@ -139,11 +145,14 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Ib9E0E
 # Componenti Filament UI
 
 ## Collegamenti Bidirezionali
 
 ### Errori Comuni
+<<<<<<< .merge_file_ybL3g5
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -155,6 +164,8 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_Ib9E0E
 - [Errori nei Componenti Filament](./filament-components-errors.md)
 - [Best Practices UI](../../best-practices.md)
 - [Implementazione Corretta](../../examples/correct-implementation.md)
@@ -163,6 +174,7 @@
 - [FileUpload](./components/file-upload.md)
 - [TextInput](./components/text-input.md)
 - [Select](./components/select.md)
+<<<<<<< .merge_file_ybL3g5
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -177,6 +189,8 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_Ib9E0E
 
 ## Struttura della Documentazione
 
@@ -225,6 +239,7 @@
 3. Seguire le convenzioni di naming del progetto
 4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
 ## Collegamenti tra versioni di filament-components.md
+<<<<<<< .merge_file_ybL3g5
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_CJyVpb
@@ -242,10 +257,13 @@
 >>>>>>> .merge_file_IWJTKU
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_Ib9E0E
 * [filament-components.md](../../user/project_docs/best-practices/filament-components.md)
 * [filament-components.md](../../cms/project_docs/best-practices/filament-components.md)
 * [filament-components.md](../../cms/project_docs/filament-components.md)
 * [filament-components.md](../../../../docs/project/rules/filament-components.md)
+<<<<<<< .merge_file_ybL3g5
 <<<<<<< HEAD
 <<<<<<< .merge_file_CJyVpb
 <<<<<<< HEAD
@@ -316,3 +334,5 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Ib9E0E

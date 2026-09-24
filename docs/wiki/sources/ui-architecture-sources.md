@@ -5,6 +5,7 @@ type: source
 created: "2026-04-29T00:00:00Z"
 updated: "2026-04-29T00:00:00Z"
 related:
+<<<<<<< .merge_file_a6ngAO
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Y0yaow
@@ -26,6 +27,9 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+  - "[[UI Operating Model]]"
+>>>>>>> .merge_file_MppbLc
 ---
 
 # UI Architecture Sources
@@ -35,6 +39,7 @@ related:
 ## Source Cluster
 
 - `README.md`
+<<<<<<< .merge_file_a6ngAO
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Y0yaow
@@ -66,6 +71,10 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- `ARCHITECTURE.md`
+- `PRODUCT_STRATEGY.md`
+>>>>>>> .merge_file_MppbLc
 - `architecture/structure.md`
 
 ## Main Signals

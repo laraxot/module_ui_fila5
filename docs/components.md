@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_r2DL8V
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Xs1IYr
@@ -394,6 +395,8 @@ Tutti i componenti UI condivisi devono essere posizionati in `Modules/UI/resourc
 >>>>>>> .merge_file_cquNen
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cu9R92
 ---
 module: theme
 topic: components
@@ -401,6 +404,7 @@ canonical: ../../../Themes/docs/shared-components/components-guide.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/components-guide.md
+<<<<<<< .merge_file_r2DL8V
 <<<<<<< HEAD
 <<<<<<< .merge_file_Xs1IYr
 <<<<<<< HEAD
@@ -803,3 +807,5 @@ Tutti i componenti UI condivisi devono essere posizionati in `Modules/UI/resourc
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_cu9R92

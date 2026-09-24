@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_MDjESL
 <<<<<<< HEAD
 <<<<<<< .merge_file_iGD2Er
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_yegXRm
 return [
     'state_icons' => [
         'no_transitions' => 'Nessuna transizione disponibile',
@@ -45,6 +48,7 @@ return [
         ],
         'label' => 'Components',
         'sort' => 1,
+<<<<<<< .merge_file_MDjESL
 <<<<<<< HEAD
 <<<<<<< .merge_file_iGD2Er
 <<<<<<< HEAD
@@ -68,6 +72,9 @@ return [
 >>>>>>> .merge_file_DpifhY
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_yegXRm
     ],
     'fields' => [
         'id' => [

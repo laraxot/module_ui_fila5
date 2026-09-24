@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_enZIaY
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_MZfsno
@@ -64,6 +65,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_Q1l7HR
 # Registrazione dei Componenti nei Moduli
 
 ## Regola Fondamentale

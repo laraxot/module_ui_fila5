@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_lDwKt4
 <<<<<<< HEAD
 <<<<<<< .merge_file_y39zWo
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_yeuz1X
 return [
     'list' => [
         'label' => 'Liste',

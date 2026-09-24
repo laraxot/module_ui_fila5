@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_XAr9dN
 <<<<<<< HEAD
 https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
 =======
@@ -49,3 +50,6 @@ https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
+>>>>>>> .merge_file_pifQN5

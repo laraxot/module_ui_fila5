@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_RCwdSk
 <<<<<<< HEAD
 <<<<<<< .merge_file_WYdQ43
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_eulQFP
 return [
     'fields' => [
         'img_uuid' => [

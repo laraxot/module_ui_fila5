@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit\Models;
 
+<<<<<<< .merge_file_Pcc7Od
 <<<<<<< HEAD
 <<<<<<< .merge_file_d1W4IT
 <<<<<<< HEAD
@@ -24,6 +25,9 @@ use Modules\UI\Database\Factories\CollectionFactory;
 >>>>>>> .merge_file_tGTR6O
 =======
 >>>>>>> 804451c (Lint)
+=======
+use Modules\UI\Database\Factories\CollectionFactory;
+>>>>>>> .merge_file_M7yAsB
 use Modules\UI\Models\Collection;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
@@ -31,6 +35,7 @@ use PHPUnit\Framework\Assert;
 uses(TestCase::class);
 
 describe('Collection Model', function (): void {
+<<<<<<< .merge_file_Pcc7Od
 <<<<<<< HEAD
 <<<<<<< .merge_file_d1W4IT
 <<<<<<< HEAD
@@ -59,6 +64,10 @@ describe('Collection Model', function (): void {
 >>>>>>> .merge_file_tGTR6O
 =======
 >>>>>>> 804451c (Lint)
+=======
+    test('it can create a collection with valid data', function (): void {
+        $collection = CollectionFactory::new()->createOne([
+>>>>>>> .merge_file_M7yAsB
             'name' => 'Hero Components',
             'type' => 'block',
             'theme_id' => 1,
@@ -66,6 +75,7 @@ describe('Collection Model', function (): void {
 
         Assert::assertSame('block', $collection->type);
         Assert::assertSame('Hero Components', $collection->name);
+<<<<<<< .merge_file_Pcc7Od
 <<<<<<< HEAD
 <<<<<<< .merge_file_d1W4IT
 <<<<<<< HEAD
@@ -80,24 +90,30 @@ describe('Collection Model', function (): void {
 =======
 <<<<<<< HEAD
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_M7yAsB
     });
 
     test('it has fillable attributes', function (): void {
         $collection = new Collection();
+<<<<<<< .merge_file_Pcc7Od
 <<<<<<< HEAD
+=======
+        $collection = new Collection();
+>>>>>>> .merge_file_M7yAsB
         $expected = ['name', 'description', 'type'];
 
         foreach ($expected as $field) {
-            Assert::assertTrue(in_array($field, $collection->getFillable(), true));
+            Assert::assertTrue(in_array($field, $collection->getFillable()));
         }
     });
 
-    test('collection has timestamps enabled', function (): void {
-        $collection = new Collection();
+    test('collection has timestamps', function (): void {
+        $collection = CollectionFactory::new()->createOne();
 
-<<<<<<< .merge_file_d1W4IT
         Assert::assertNotNull($collection->created_at);
         Assert::assertNotNull($collection->updated_at);
+<<<<<<< .merge_file_Pcc7Od
 <<<<<<< HEAD
 =======
 =======
@@ -146,5 +162,7 @@ describe('Collection Model', function (): void {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_M7yAsB
     });
 });

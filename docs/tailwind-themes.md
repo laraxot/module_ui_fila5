@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_XjCXXC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ZcXRNT
@@ -47,12 +48,15 @@ updated: 2026-08-24
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_1Q6C6x
 https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your-next-project-3igo
 
 https://merakiui.com/
 
 
 
+<<<<<<< .merge_file_XjCXXC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ZcXRNT
@@ -92,3 +96,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/tailwind-the
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_1Q6C6x

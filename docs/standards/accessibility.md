@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_29SdqM
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_uWtqtu
@@ -67,6 +68,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_HCZRu0
 # Standard di Accessibilità
 
 ## 🎯 WCAG 2.1

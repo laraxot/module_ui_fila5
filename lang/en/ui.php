@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_tfXIav
 <<<<<<< HEAD
 <<<<<<< .merge_file_vFDmZd
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_SN8SB3
 return [
     'navigation' => [
         'name' => 'Interface',

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_DgRban
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_PSC7QL
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_1S8cSR
 # Compatibilità dei Metodi nei Componenti Filament
 
 ## Panoramica

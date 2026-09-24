@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_zufimd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_uJSer8
@@ -66,6 +67,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_90lahB
 # Server-Side Chart Generation Actions
 
 > **Purpose**: Generate chart images (PNG/SVG) in background jobs (Queueable Actions) for email attachments or PDF reports.

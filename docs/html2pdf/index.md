@@ -2,6 +2,7 @@
 module: theme
 topic: index
 canonical: ../../../../Themes/docs/shared-components/index.md
+<<<<<<< .merge_file_NeJNPi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_XTlR2G
@@ -36,6 +37,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wobhof
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/index.md

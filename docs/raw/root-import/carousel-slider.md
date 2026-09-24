@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_QFbR5U
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_G6uBbs
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_M9fWRJ
 https://www.embla-carousel.com/examples/predefined/
 
 

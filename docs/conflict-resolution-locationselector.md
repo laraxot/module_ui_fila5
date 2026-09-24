@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_krkNBi
 <<<<<<< HEAD
 <<<<<<< .merge_file_QdVD6G
 <<<<<<< HEAD
@@ -20,6 +21,8 @@
 >>>>>>> .merge_file_TkLQGl
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ATSqO8
 # Risoluzione Conflitto LocationSelector.php
 
 ## Problema Identificato
@@ -28,8 +31,8 @@ Il file `Modules/UI/app/Filament/Forms/Components/LocationSelector.php` presenta
 
 1. **Linea 278**: Metodo getCapOptions con logica di gestione errori
 2. **Linea 312**: Metodo validate con logica di validazione
-<<<<<<< HEAD
 3. **Linea 322**: Continuazione metodo validate
+<<<<<<< .merge_file_krkNBi
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -71,6 +74,8 @@ Il file `Modules/UI/app/Filament/Forms/Components/LocationSelector.php` presenta
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ATSqO8
 4. **Linea 342**: Metodo getGeographicData con gestione dati geografici
 5. **Linea 355**: Continuazione metodo getGeographicData
 6. **Linea 364**: Continuazione metodo getGeographicData
@@ -140,6 +145,7 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 
 - [filament-components-location-studio.md](filament-components-location-studio.md)
 - [components.md](components.md)
+<<<<<<< .merge_file_krkNBi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_QdVD6G
@@ -193,6 +199,10 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+- [Modules/UI/docs/](../../docs/)
+
+>>>>>>> .merge_file_ATSqO8
 # Risoluzione Conflitto LocationSelector.php
 
 ## Problema Identificato
@@ -274,6 +284,7 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 - [Modules/UI/project_docs/](../project_docs/)
 - [Modules/UI/project_docs/](../project_docs/)
 - [Modules/UI/project_docs/](../project_docs/)
+<<<<<<< .merge_file_krkNBi
 <<<<<<< HEAD
 <<<<<<< .merge_file_QdVD6G
 <<<<<<< HEAD
@@ -315,3 +326,6 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_ATSqO8

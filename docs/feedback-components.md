@@ -109,6 +109,7 @@
 
 ### Tooltip
 ```html
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
@@ -176,11 +177,14 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0qJv8r
 <button
   type="button"
   class="btn btn-secondary"
   data-bs-toggle="tooltip"
   data-bs-placement="top"
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -212,6 +216,8 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0qJv8r
   title="Tooltip in alto"
 >
   Tooltip
@@ -220,6 +226,7 @@
 
 ### Popover
 ```html
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
@@ -287,11 +294,14 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0qJv8r
 <button
   type="button"
   class="btn btn-secondary"
   data-bs-toggle="popover"
   data-bs-placement="right"
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -323,6 +333,8 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0qJv8r
   data-bs-content="Contenuto del popover"
   title="Titolo Popover"
 >
@@ -335,6 +347,7 @@
 ### Progress Bar
 ```html
 <div class="progress">
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
@@ -403,12 +416,15 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0qJv8r
   <div
     class="progress-bar progress-bar-striped progress-bar-animated"
     role="progressbar"
     style="width: 75%"
     aria-valuenow="75"
     aria-valuemin="0"
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -440,6 +456,8 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0qJv8r
     aria-valuemax="100"
   >
     75%
@@ -501,6 +519,7 @@ $zindex-tooltip: 1070;
 - [Componenti Base](./base-components.md)
 - [Layout](./layout-components.md)
 - [Accessibilità](./standards/accessibility.md)
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -508,14 +527,14 @@ $zindex-tooltip: 1070;
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0qJv8r
 - [Performance](./standards/performance.md)
 # Componenti Feedback e Notifiche
-<<<<<<< HEAD
-## 🚨 Alert e Notifiche
-=======
 
 ## 🚨 Alert e Notifiche
 
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< .merge_file_fC3VkP
 <<<<<<< HEAD
 =======
@@ -559,6 +578,8 @@ $zindex-tooltip: 1070;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0qJv8r
 ### Alert Base
 ```html
 <!-- Successo -->
@@ -566,6 +587,7 @@ $zindex-tooltip: 1070;
   <i class="fas fa-check-circle"></i>
   Operazione completata con successo
 </div>
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
@@ -587,10 +609,14 @@ $zindex-tooltip: 1070;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_0qJv8r
 <!-- Errore -->
 <div class="alert alert-danger" role="alert">
   <i class="fas fa-exclamation-circle"></i>
   Si è verificato un errore
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
@@ -616,10 +642,15 @@ $zindex-tooltip: 1070;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+</div>
+
+>>>>>>> .merge_file_0qJv8r
 <!-- Info -->
 <div class="alert alert-info" role="alert">
   <i class="fas fa-info-circle"></i>
   Informazione importante
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
@@ -645,10 +676,15 @@ $zindex-tooltip: 1070;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+</div>
+
+>>>>>>> .merge_file_0qJv8r
 <!-- Warning -->
 <div class="alert alert-warning" role="alert">
   <i class="fas fa-exclamation-triangle"></i>
   Attenzione: azione richiesta
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
@@ -669,6 +705,8 @@ $zindex-tooltip: 1070;
 >>>>>>> .merge_file_OyVCrs
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0qJv8r
 </div>
 ```
 
@@ -684,6 +722,7 @@ $zindex-tooltip: 1070;
 
 ### Toast
 ```html
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
 <<<<<<< HEAD
@@ -710,6 +749,8 @@ $zindex-tooltip: 1070;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0qJv8r
 <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="toast-header">
     <strong class="me-auto">Notifica</strong>
@@ -718,6 +759,7 @@ $zindex-tooltip: 1070;
   </div>
   <div class="toast-body">
     Operazione completata con successo
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
@@ -733,12 +775,15 @@ $zindex-tooltip: 1070;
 >>>>>>> .merge_file_OyVCrs
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0qJv8r
   </div>
 </div>
 ```
 
 ### Snackbar
 ```html
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
 <<<<<<< HEAD
@@ -755,10 +800,13 @@ $zindex-tooltip: 1070;
 ### Snackbar
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0qJv8r
 <div class="snackbar" role="alert" aria-live="polite">
   <div class="snackbar-content">
     <span class="snackbar-message">Modifiche salvate</span>
     <button class="snackbar-action">Annulla</button>
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
@@ -776,6 +824,8 @@ $zindex-tooltip: 1070;
 >>>>>>> .merge_file_OyVCrs
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0qJv8r
   </div>
 </div>
 ```
@@ -784,6 +834,7 @@ $zindex-tooltip: 1070;
 
 ### Modal Base
 ```html
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
 <<<<<<< HEAD
@@ -801,6 +852,8 @@ $zindex-tooltip: 1070;
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0qJv8r
 <div class="modal" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -810,6 +863,7 @@ $zindex-tooltip: 1070;
       </div>
       <div class="modal-body">
         <p>Contenuto del modale</p>
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
@@ -829,6 +883,8 @@ $zindex-tooltip: 1070;
 >>>>>>> .merge_file_OyVCrs
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0qJv8r
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
@@ -844,6 +900,7 @@ $zindex-tooltip: 1070;
 <div class="modal" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
 <<<<<<< HEAD
@@ -869,10 +926,13 @@ $zindex-tooltip: 1070;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0qJv8r
       <div class="modal-body text-center">
         <i class="fas fa-question-circle fa-3x mb-3"></i>
         <h5 class="modal-title">Sei sicuro?</h5>
         <p>Questa azione non può essere annullata</p>
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
@@ -890,6 +950,8 @@ $zindex-tooltip: 1070;
 >>>>>>> .merge_file_OyVCrs
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0qJv8r
       </div>
       <div class="modal-footer justify-content-center">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
@@ -904,6 +966,7 @@ $zindex-tooltip: 1070;
 
 ### Tooltip
 ```html
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
 <<<<<<< HEAD
@@ -927,6 +990,8 @@ $zindex-tooltip: 1070;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0qJv8r
 <button
   type="button"
   class="btn btn-secondary"
@@ -936,6 +1001,7 @@ $zindex-tooltip: 1070;
 >
   Tooltip
 </button>
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
@@ -951,6 +1017,8 @@ $zindex-tooltip: 1070;
 >>>>>>> .merge_file_OyVCrs
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0qJv8r
 ```
 
 ### Popover
@@ -958,6 +1026,7 @@ $zindex-tooltip: 1070;
 <button
   type="button"
   class="btn btn-secondary"
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
 <<<<<<< HEAD
@@ -974,10 +1043,13 @@ $zindex-tooltip: 1070;
 ### Popover
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0qJv8r
   data-bs-toggle="popover"
   data-bs-placement="right"
   data-bs-content="Contenuto del popover"
   title="Titolo Popover"
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
@@ -996,6 +1068,8 @@ $zindex-tooltip: 1070;
 >>>>>>> .merge_file_OyVCrs
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0qJv8r
 >
   Popover
 </button>
@@ -1005,6 +1079,7 @@ $zindex-tooltip: 1070;
 
 ### Progress Bar
 ```html
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
 <<<<<<< HEAD
@@ -1023,6 +1098,8 @@ $zindex-tooltip: 1070;
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0qJv8r
 <div class="progress">
   <div
     class="progress-bar progress-bar-striped progress-bar-animated"
@@ -1033,6 +1110,7 @@ $zindex-tooltip: 1070;
     aria-valuemax="100"
   >
     75%
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
@@ -1048,12 +1126,15 @@ $zindex-tooltip: 1070;
 >>>>>>> .merge_file_OyVCrs
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0qJv8r
   </div>
 </div>
 ```
 
 ### Skeleton Loading
 ```html
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
 <<<<<<< HEAD
@@ -1070,10 +1151,13 @@ $zindex-tooltip: 1070;
 ### Skeleton Loading
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0qJv8r
 <div class="skeleton">
   <div class="skeleton-header"></div>
   <div class="skeleton-body">
     <div class="skeleton-line"></div>
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
@@ -1089,6 +1173,8 @@ $zindex-tooltip: 1070;
 >>>>>>> .merge_file_OyVCrs
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0qJv8r
     <div class="skeleton-line"></div>
     <div class="skeleton-line"></div>
   </div>
@@ -1097,6 +1183,7 @@ $zindex-tooltip: 1070;
 
 ## 🎨 Stili e Comportamenti
 
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
 <<<<<<< HEAD
@@ -1113,6 +1200,8 @@ $zindex-tooltip: 1070;
 ## 🎨 Stili e Comportamenti
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0qJv8r
 ### Animazioni
 ```scss
 // Fade in/out
@@ -1120,6 +1209,7 @@ $zindex-tooltip: 1070;
   from { opacity: 0; }
   to { opacity: 1; }
 }
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
@@ -1138,12 +1228,15 @@ $zindex-tooltip: 1070;
 >>>>>>> .merge_file_OyVCrs
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0qJv8r
 
 @keyframes fadeOut {
   from { opacity: 1; }
   to { opacity: 0; }
 }
 
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
 <<<<<<< HEAD
@@ -1162,10 +1255,13 @@ $zindex-tooltip: 1070;
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0qJv8r
 // Slide in/out
 @keyframes slideIn {
   from { transform: translateY(100%); }
   to { transform: translateY(0); }
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
@@ -1183,6 +1279,8 @@ $zindex-tooltip: 1070;
 >>>>>>> .merge_file_OyVCrs
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0qJv8r
 }
 
 @keyframes slideOut {
@@ -1193,6 +1291,7 @@ $zindex-tooltip: 1070;
 
 ### Z-index
 ```scss
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
 <<<<<<< HEAD
@@ -1216,6 +1315,8 @@ $zindex-tooltip: 1070;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0qJv8r
 $zindex-dropdown: 1000;
 $zindex-sticky: 1020;
 $zindex-fixed: 1030;
@@ -1223,6 +1324,7 @@ $zindex-modal-backdrop: 1040;
 $zindex-modal: 1050;
 $zindex-popover: 1060;
 $zindex-tooltip: 1070;
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
@@ -1248,10 +1350,15 @@ $zindex-tooltip: 1070;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+```
+
+>>>>>>> .merge_file_0qJv8r
 ## 🔗 Collegamenti
 - [Componenti Base](./base-components.md)
 - [Layout](./layout-components.md)
 - [Accessibilità](./standards/accessibility.md)
+<<<<<<< .merge_file_bLaNLq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fC3VkP
@@ -1304,3 +1411,6 @@ $zindex-tooltip: 1070;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+- [Performance](./standards/performance.md)
+>>>>>>> .merge_file_0qJv8r

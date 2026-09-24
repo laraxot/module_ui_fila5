@@ -10,6 +10,7 @@
 
 ## 🎯 MODULE OVERVIEW
 
+<<<<<<< .merge_file_KZRPl5
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_FSEgFI
@@ -52,6 +53,9 @@ Il modulo **UI** è il sistema di componenti e design system della piattaforma F
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+>>>>>>> .merge_file_EDqwCe
 
 ### 🏗️ Architettura Modulo
 ```
@@ -330,6 +334,7 @@ UI Module
 
 ---
 
+<<<<<<< .merge_file_KZRPl5
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_FSEgFI
@@ -358,6 +363,9 @@ UI Module
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_EDqwCe
 **Status**: 🚧 ACTIVE DEVELOPMENT
 **Confidence Level**: 90%
 

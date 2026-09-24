@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_sAyzQR
 <<<<<<< HEAD
 <?php
 
@@ -5,6 +6,8 @@ declare(strict_types=1);
 ?>
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y10ts4
 @props([
     'title' => null,
     'content' => null,

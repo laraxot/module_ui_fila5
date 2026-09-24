@@ -436,6 +436,7 @@ IconService
 - **Root README**: [UI Module](./README.md)
 - **Framework Base**: [Xot Architecture Patterns](../../Xot/docs/architecture-patterns.md)
 - **Disabled Components**: [disabled-components.md](./disabled-components.md)
+<<<<<<< .merge_file_n2Vc6A
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oQJTGD
@@ -500,6 +501,12 @@ IconService
 - **Design System**: [DESIGN_COMUNI_IMPLEMENTATION.md](./DESIGN_COMUNI_IMPLEMENTATION.md)
 - **Icon Integration**: [BRANDS_ICONS_INTEGRATION.md](./BRANDS_ICONS_INTEGRATION.md)
 >>>>>>> 804451c (Lint)
+=======
+- **Architecture Overview**: [ARCHITECTURE.md](./ARCHITECTURE.md)
+- **Index**: [INDEX.md](./INDEX.md)
+- **Design System**: [DESIGN_COMUNI_IMPLEMENTATION.md](./DESIGN_COMUNI_IMPLEMENTATION.md)
+- **Icon Integration**: [BRANDS_ICONS_INTEGRATION.md](./BRANDS_ICONS_INTEGRATION.md)
+>>>>>>> .merge_file_628c0s
 
 ---
 

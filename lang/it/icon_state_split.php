@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_1jeGpL
 <<<<<<< HEAD
 <<<<<<< .merge_file_czE0BG
 <<<<<<< HEAD
@@ -59,6 +60,9 @@ return [
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+return [
+>>>>>>> .merge_file_g7tdbr
     'fields' => [
         'banned-icon' => [
             'label' => 'banned-icon',
@@ -288,6 +292,7 @@ return [
             'helper_text' => '',
             'description' => '',
         ],
+<<<<<<< .merge_file_1jeGpL
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -354,12 +359,15 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_g7tdbr
     ],
     'label' => 'Icon State Split',
     'plural_label' => 'Icon State Split (Plurale)',
     'navigation' => [
         'name' => 'Icon State Split',
         'plural' => 'Icon State Split',
+<<<<<<< .merge_file_1jeGpL
 <<<<<<< HEAD
 <<<<<<< .merge_file_czE0BG
 <<<<<<< HEAD
@@ -371,19 +379,25 @@ return [
 =======
 <<<<<<< HEAD
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_g7tdbr
         'group' => [
             'name' => 'General',
             'description' => 'General Settings',
         ],
+<<<<<<< .merge_file_1jeGpL
 <<<<<<< HEAD
 =======
         'group' => ['name' => 'General', 'description' => 'General Settings'],
 >>>>>>> .merge_file_QIKtdu
+=======
+>>>>>>> .merge_file_g7tdbr
         'label' => 'Icon State Split',
         'sort' => 1,
-        'icon' => 'heroicon-o-rectangle-stack',
+        'icon' => 'heroicon-o-collection',
     ],
     'actions' => [
+<<<<<<< .merge_file_1jeGpL
 <<<<<<< .merge_file_czE0BG
 =======
         'label' => 'Icon State Split',
@@ -392,6 +406,8 @@ return [
     ],
     'actions' => [
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_g7tdbr
         'create' => [
             'label' => 'Crea Icon State Split',
         ],
@@ -401,6 +417,7 @@ return [
         'delete' => [
             'label' => 'Elimina Icon State Split',
         ],
+<<<<<<< .merge_file_1jeGpL
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -436,5 +453,7 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_g7tdbr
     ],
 ];

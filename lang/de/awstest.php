@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_EyvCdf
 <<<<<<< HEAD
 <<<<<<< .merge_file_4Cmooq
 <<<<<<< HEAD
@@ -53,6 +54,9 @@ return [
 >>>>>>> .merge_file_uVlf3t
 =======
 >>>>>>> 804451c (Lint)
+=======
+return [
+>>>>>>> .merge_file_8I4VKq
     'page' => [
         'title' => 'AWS Diagnose Test',
         'heading' => 'AWS Konfiguration Diagnose',

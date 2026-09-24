@@ -183,6 +183,7 @@ class StatsWidget extends Widget
 2. **Usa un nome descrittivo** (es. `user-profile.svg`)
 3. **L'icona sarà disponibile** come `ui-user-profile`
 
+<<<<<<< .merge_file_NBVC2I
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -195,11 +196,14 @@ class StatsWidget extends Widget
 >>>>>>> .merge_file_d5aZzB
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_QlNghV
 ### Sottocartelle (es. brands)
 
 - `brands/github.svg` → `ui-brands.github` (punto = separatore path)
 - **Vietato** SVG inline nelle Blade: vedi [no-svg-hardcoded-in-blade.md](no-svg-hardcoded-in-blade.md)
 
+<<<<<<< .merge_file_NBVC2I
 <<<<<<< HEAD
 <<<<<<< .merge_file_87Pwjq
 <<<<<<< HEAD
@@ -213,6 +217,8 @@ class StatsWidget extends Widget
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_QlNghV
 ### Esempio di Icona SVG
 
 ```svg
@@ -356,6 +362,7 @@ Tutte le icone sono compatibili con Filament 4.x e versioni successive.
 
 ## 📝 Changelog
 
+<<<<<<< .merge_file_NBVC2I
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_87Pwjq
@@ -381,10 +388,14 @@ Tutte le icone sono compatibili con Filament 4.x e versioni successive.
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+### v1.1.0 - [DATE]
+>>>>>>> .merge_file_QlNghV
 - **🔧 Icone Aggiuntive**: Aggiunte icone mancanti (cancel, save, logout, showPassword, user-main, user-team, user-user-tenant)
 - **🐛 Bug Fix**: Risolto errore "SvgNotFound" per icona "cancel"
 - **📝 Traduzioni**: Aggiornati file di traduzione per utilizzare prefisso "ui-" corretto
 
+<<<<<<< .merge_file_NBVC2I
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_87Pwjq
@@ -410,6 +421,9 @@ Tutte le icone sono compatibili con Filament 4.x e versioni successive.
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+### v1.0.0 - [DATE]
+>>>>>>> .merge_file_QlNghV
 - **🎨 Sistema Icone**: Implementato sistema completo di icone SVG
 - **🔧 Registrazione Automatica**: Icone registrate automaticamente
 - **📚 Documentazione**: Documentazione completa del sistema

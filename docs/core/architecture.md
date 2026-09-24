@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_OVAsc8
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KVUGU7
@@ -58,6 +59,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_GuFE1S
 # Architettura Modulo UI
 
 ## 🏗️ Panoramica Architetturale

@@ -145,6 +145,7 @@ public function form(Form $form): Form
 
 ### Input
 ```blade
+<<<<<<< .merge_file_eSpPgj
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -161,6 +162,8 @@ public function form(Form $form): Form
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_5BOcKV
 <x-ui::input
     name="email"
     type="email"
@@ -302,6 +305,7 @@ form.addEventListener('submit', (e) => {
 - [Componenti Table](./table-components.md)
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
+<<<<<<< .merge_file_eSpPgj
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -319,6 +323,8 @@ form.addEventListener('submit', (e) => {
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_5BOcKV
 - [Documentazione Frontend](../Cms/docs/frontend-architecture.md)
 ## Collegamenti tra versioni di form-components.md
 * [form-components.md](../../../UI/docs/form-components.md)

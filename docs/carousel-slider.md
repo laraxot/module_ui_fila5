@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_SvY6lB
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_jL6YAs
@@ -49,6 +50,8 @@ updated: 2026-08-24
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_A47ugn
 https://www.embla-carousel.com/examples/predefined/
 
 
@@ -59,6 +62,7 @@ https://keen-slider.io/examples
 
 https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
 
+<<<<<<< .merge_file_SvY6lB
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_jL6YAs
@@ -98,3 +102,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/carousel-sli
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_A47ugn

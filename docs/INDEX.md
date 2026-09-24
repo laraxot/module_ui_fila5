@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_hwp7b0
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_MsIi35
@@ -1177,6 +1178,8 @@ Non aggiornare questo file: aggiornare `index.md` o `00-index.md`.
 >>>>>>> .merge_file_tMLiH5
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ZbKsQu
 # Documentation Index
 
 Modulo: UI
@@ -1184,6 +1187,7 @@ Modulo: UI
 ## File disponibili
 
 <!-- auto-generato: elencare i file .md presenti -->
+<<<<<<< .merge_file_hwp7b0
 <<<<<<< HEAD
 <<<<<<< .merge_file_MsIi35
 <<<<<<< HEAD
@@ -2881,3 +2885,5 @@ laravel/Modules/UI/
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ZbKsQu

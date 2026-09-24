@@ -2,6 +2,7 @@
 
 ## Importanza di declare(strict_types=1)
 
+<<<<<<< .merge_file_UJlDj4
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Vg7ktR
@@ -27,6 +28,9 @@ L'utilizzo di `declare(strict_types=1)` è **obbligatorio** in tutti i file PHP 
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+L'utilizzo di `declare(strict_types=1)` è **obbligatorio** in tutti i file PHP del modulo UI che contengono logica di business, in conformità con le [regole generali del progetto](../../xot/docs/php-strict-types.md) e per garantire la compatibilità con PHPStan livello 10.
+>>>>>>> .merge_file_U9l2j4
 
 ### Vantaggi per il Modulo UI
 
@@ -75,6 +79,7 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 
 ## Collegamenti
 
+<<<<<<< .merge_file_UJlDj4
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Vg7ktR
@@ -129,10 +134,13 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 >>>>>>> .merge_file_Xe3HsK
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_U9l2j4
 - [Regole Generali per strict_types](../../xot/docs/php-strict-types.md)
 - [Linee Guida PHPStan Livello 10](../../xot/docs/phpstan/level10_linee_guida.md)
 - [Conflitti Merge Risolti](./conflitti_merge_risolti.md)
 - [README del Modulo UI](./readme.md)
+<<<<<<< .merge_file_UJlDj4
 <<<<<<< HEAD
 <<<<<<< .merge_file_Vg7ktR
 <<<<<<< HEAD
@@ -227,3 +235,5 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_U9l2j4

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_RoN8Qw
@@ -242,19 +243,25 @@ See canonical documentation: ../../../Themes/docs/shared-components/best-practic
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_h1D170
 # Best Practices UI
 
 ## Principi Generali
 
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_h1D170
 ### 1. Consistenza
 - Utilizzare componenti standard
 - Mantenere uno stile uniforme
 - Seguire le convenzioni di naming
 - Riutilizzare pattern comuni
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -263,11 +270,15 @@ See canonical documentation: ../../../Themes/docs/shared-components/best-practic
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_h1D170
 ### 2. Accessibilità
 - Supportare la navigazione da tastiera
 - Utilizzare attributi ARIA
 - Mantenere contrasto adeguato
 - Fornire testi alternativi
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -276,11 +287,15 @@ See canonical documentation: ../../../Themes/docs/shared-components/best-practic
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_h1D170
 ### 3. Performance
 - Ottimizzare il caricamento
 - Minimizzare le dipendenze
 - Utilizzare lazy loading
 - Implementare caching
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -289,11 +304,15 @@ See canonical documentation: ../../../Themes/docs/shared-components/best-practic
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_h1D170
 ### 4. Responsive Design
 - Mobile-first approach
 - Breakpoint standard
 - Layout fluidi
 - Testing multi-device
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 <<<<<<< HEAD
 ## Sviluppo Componenti
@@ -307,6 +326,11 @@ See canonical documentation: ../../../Themes/docs/shared-components/best-practic
 ## Sviluppo Componenti
 
 >>>>>>> 804451c (Lint)
+=======
+
+## Sviluppo Componenti
+
+>>>>>>> .merge_file_h1D170
 ### 1. Struttura
 ```php
 class CustomComponent extends Component
@@ -314,6 +338,7 @@ class CustomComponent extends Component
     // Proprietà pubbliche con type hint
     public string $label;
     public ?string $hint = null;
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 <<<<<<< HEAD
     // Proprietà private per stato interno
@@ -321,14 +346,19 @@ class CustomComponent extends Component
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_h1D170
 
     // Proprietà private per stato interno
     private bool $isLoading = false;
 
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_h1D170
     // Metodi pubblici con return type
     public function render(): View
     {
@@ -336,6 +366,7 @@ class CustomComponent extends Component
     }
 }
 ```
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -344,6 +375,9 @@ class CustomComponent extends Component
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_h1D170
 ### 2. Template
 ```blade
 <div class="custom-component">
@@ -351,6 +385,7 @@ class CustomComponent extends Component
     <div class="header">
         {{ $header ?? '' }}
     </div>
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 <<<<<<< HEAD
     {{-- Gestire stati condizionali --}}
@@ -363,6 +398,8 @@ class CustomComponent extends Component
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_h1D170
 
     {{-- Gestire stati condizionali --}}
     <div class="content {{ $isLoading ? 'loading' : '' }}">
@@ -376,10 +413,13 @@ class CustomComponent extends Component
 </div>
 ```
 
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_h1D170
 ### 3. Stili
 ```scss
 // Utilizzare BEM naming
@@ -387,6 +427,7 @@ class CustomComponent extends Component
     &__header { }
     &__content { }
     &__footer { }
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 <<<<<<< HEAD
     // Stati
@@ -400,6 +441,8 @@ class CustomComponent extends Component
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_h1D170
 
     // Stati
     &--loading { }
@@ -415,15 +458,19 @@ class CustomComponent extends Component
 
 ### 1. Validazione
 ```php
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_h1D170
 // Definire regole di validazione
 public array $rules = [
     'email' => ['required', 'email'],
     'password' => ['required', 'min:8'],
 ];
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 <<<<<<< HEAD
 // Messaggi personalizzati
@@ -449,6 +496,8 @@ protected function getColumns(): array
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_h1D170
 
 // Messaggi personalizzati
 public array $messages = [
@@ -486,14 +535,18 @@ public function save()
 // Definire colonne in modo chiaro
 protected function getColumns(): array
 {
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_h1D170
     return [
         Column::make('name')->sortable()->searchable(),
         Column::make('email')->searchable(),
     ];
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 <<<<<<< HEAD
 // Configurare filtri
@@ -511,6 +564,8 @@ protected function getData(): array
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_h1D170
 }
 
 // Configurare filtri
@@ -542,10 +597,13 @@ protected function getActions(): array
 protected function getData(): array
 {
     return [
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_h1D170
         'labels' => ['Gen', 'Feb', 'Mar'],
         'datasets' => [
             [
@@ -553,6 +611,7 @@ protected function getData(): array
                 'data' => [10, 20, 30],
             ],
         ],
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 <<<<<<< HEAD
 ### 2. Opzioni
@@ -561,6 +620,8 @@ protected function getOptions(): array
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_h1D170
     ];
 }
 ```
@@ -571,15 +632,19 @@ protected function getOptions(): array
 protected function getOptions(): array
 {
     return [
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_h1D170
         'responsive' => true,
         'maintainAspectRatio' => false,
         'plugins' => [
             'legend' => [
                 'position' => 'bottom',
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 <<<<<<< HEAD
 ## Testing
@@ -592,6 +657,8 @@ public function test_component_interaction()
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_h1D170
             ],
         ],
     ];
@@ -613,15 +680,19 @@ public function test_component_renders()
 ```php
 public function test_component_interaction()
 {
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_h1D170
     $this->browse(function (Browser $browser) {
         $browser->visit('/page')
             ->click('@button')
             ->assertSee('Result');
     });
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 <<<<<<< HEAD
 ## Documentazione
@@ -629,6 +700,8 @@ public function test_component_interaction()
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_h1D170
 }
 ```
 
@@ -636,15 +709,19 @@ public function test_component_interaction()
 
 ### 1. PHPDoc
 ```php
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_h1D170
 /**
  * Componente per la gestione di form avanzati.
  *
  * @property string $label Label del componente
  * @property string|null $hint Suggerimento opzionale
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -653,10 +730,14 @@ public function test_component_interaction()
 =======
  *
 >>>>>>> 804451c (Lint)
+=======
+ *
+>>>>>>> .merge_file_h1D170
  * @method void save() Salva i dati del form
  * @method void reset() Resetta il form
  */
 class AdvancedForm extends Component
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -667,11 +748,16 @@ class AdvancedForm extends Component
 ```
 
 >>>>>>> 804451c (Lint)
+=======
+```
+
+>>>>>>> .merge_file_h1D170
 ### 2. README
 - Descrizione chiara
 - Esempi di utilizzo
 - Configurazioni disponibili
 ### Versione HEAD
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 <<<<<<< HEAD
 - Breaking changes
@@ -691,14 +777,16 @@ canonical: ../../../Themes/docs/shared-components/best-practices_1.md
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_h1D170
 
 - Breaking changes
 ## Collegamenti tra versioni di best-practices.md
 * [best-practices.md](docs/tecnico/filament/best-practices.md)
-<<<<<<< HEAD
 * [best-practices.md](../../../xot/docs/laraxot/best-practices.md)
 * [best-practices.md](../../../ui/docs/best-practices.md)
 * [best-practices.md](../../../../themes/one/docs/best-practices.md)
+<<<<<<< .merge_file_x22UEm
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -728,12 +816,15 @@ canonical: ../../../Themes/docs/shared-components/best-practices_1.md
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_h1D170
 
 ### Versione Incoming
 
 - Breaking changes
 
 ---
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -743,6 +834,8 @@ canonical: ../../../Themes/docs/shared-components/best-practices_1.md
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_h1D170
 # Best Practices UI
 
 ## Principi Generali
@@ -1002,6 +1095,7 @@ class AdvancedForm extends Component
 - Breaking changes
 
 ---
+<<<<<<< .merge_file_x22UEm
 <<<<<<< HEAD
 <<<<<<< .merge_file_RoN8Qw
 <<<<<<< HEAD
@@ -1039,3 +1133,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/best-practic
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_h1D170

@@ -5,6 +5,7 @@
 ### ✅ PUNTI DI FORZA ECCELLENTI
 
 #### Qualità del Codice
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_DiCZvA
@@ -50,12 +51,15 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AEu5fH
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< .merge_file_DiCZvA
 <<<<<<< HEAD
@@ -99,6 +103,9 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+- **PHPStan Level 9**: 12/12 file core certificati
+>>>>>>> .merge_file_AEu5fH
 - **Translation Standards**: 100% compliance con struttura espansa
 - **Component Architecture**: 50+ componenti Blade riutilizzabili
 - **Filament Integration**: 20+ widget personalizzati perfettamente integrati
@@ -111,6 +118,7 @@
 
 #### Performance Ottimizzata
 - **Component Rendering**: < 50ms per componente
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 - **Bundle Size**: < 200KB per tutti i componenti
 =======
@@ -154,6 +162,9 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+- **Bundle Size**: < 200KB per tutti i componenti
+>>>>>>> .merge_file_AEu5fH
 - **Mobile Responsive**: 100% componenti responsive
 - **Caching**: Sistema caching componenti attivo
 
@@ -167,6 +178,7 @@
 #### 2. Documentazione Eccessiva
 - **README.md**: 407 righe (troppo denso)
 - **Informazioni duplicate** tra sezioni
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_DiCZvA
@@ -216,22 +228,24 @@
 - **Esempi troppo specifici** per
 - **Esempi troppo specifici** per
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AEu5fH
 - **Esempi troppo specifici** per
 - **Esempi troppo specifici** per
 - **Esempi troppo specifici** per
 - **Esempi troppo specifici** per
-<<<<<<< HEAD
 - **Esempi troppo specifici** per
+<<<<<<< .merge_file_F8RRfV
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
-- **Esempi troppo specifici** per
 =======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
+>>>>>>> .merge_file_AEu5fH
 - **Esempi troppo specifici** per
+- **Esempi troppo specifici** per
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< .merge_file_DiCZvA
 =======
 >>>>>>> laraxot/dev
@@ -261,6 +275,8 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_AEu5fH
 
 ## 🔧 RACCOMANDAZIONI SPECIFICHE
 
@@ -269,6 +285,7 @@
 #### Pattern di Correzione
 ```php
 // ❌ PROBLEMI ATTUALI (in documentazione)
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_DiCZvA
@@ -318,12 +335,14 @@ Modules/UI/
 Modules/UI/
 Modules/UI/
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AEu5fH
 Modules/UI/
 Modules/UI/
 Modules/UI/
 Modules/UI/
-<<<<<<< HEAD
 Modules/UI/
+<<<<<<< .merge_file_F8RRfV
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -361,6 +380,10 @@ Modules/UI/
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+Modules/UI/
+Modules/UI/
+>>>>>>> .merge_file_AEu5fH
 https://api.<nome progetto>.com/
 
 // ✅ SOLUZIONI
@@ -388,6 +411,7 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 - [Widget System](widgets/)
 
 ## 🏆 Quality Achievements
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_DiCZvA
@@ -433,12 +457,15 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AEu5fH
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< .merge_file_DiCZvA
 <<<<<<< HEAD
@@ -482,6 +509,9 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+- ✅ PHPStan Level 9 (12/12 files)
+>>>>>>> .merge_file_AEu5fH
 - ✅ Translation Standards 100%
 - ✅ 50+ Blade Components
 - ✅ Accessibility Score 98/100
@@ -536,6 +566,7 @@ class ComponentPerformanceMiddleware
     public function handle($request, Closure $next)
     {
         $start = microtime(true);
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -556,11 +587,14 @@ class ComponentPerformanceMiddleware
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_AEu5fH
 
         $response = $next($request);
 
         $duration = (microtime(true) - $start) * 1000;
 
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_DiCZvA
@@ -644,12 +678,15 @@ class ComponentPerformanceMiddleware
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AEu5fH
         if ($duration > 50) {
             Log::warning("Slow component detected", [
                 'component' => $request->route()->getName(),
                 'duration' => $duration . 'ms'
             ]);
         }
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_DiCZvA
@@ -704,6 +741,9 @@ class ComponentPerformanceMiddleware
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_AEu5fH
         return $response;
     }
 }
@@ -776,6 +816,7 @@ php artisan ui:accessibility-check
 ## 💡 RACCOMANDAZIONI SPECIFICHE
 
 ### Mantenere Eccellenze
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_DiCZvA
@@ -825,12 +866,14 @@ php artisan ui:accessibility-check
 - **NON toccare** l'architettura PHPStan Level 9
 - **NON toccare** l'architettura PHPStan Level 9
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AEu5fH
 - **NON toccare** l'architettura PHPStan Level 9
 - **NON toccare** l'architettura PHPStan Level 9
 - **NON toccare** l'architettura PHPStan Level 9
 - **NON toccare** l'architettura PHPStan Level 9
-<<<<<<< HEAD
 - **NON toccare** l'architettura PHPStan Level 9
+<<<<<<< .merge_file_F8RRfV
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -868,6 +911,10 @@ php artisan ui:accessibility-check
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+- **NON toccare** l'architettura PHPStan Level 9
+- **NON toccare** l'architettura PHPStan Level 9
+>>>>>>> .merge_file_AEu5fH
 - **NON modificare** il sistema TableLayoutEnum (perfetto)
 - **NON cambiare** il pattern TransTrait (eccellente)
 - **NON alterare** la struttura componenti (ben organizzata)
@@ -884,6 +931,7 @@ php artisan ui:accessibility-check
 
 ## Collegamenti
 
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_DiCZvA
@@ -902,6 +950,8 @@ php artisan ui:accessibility-check
 >>>>>>> .merge_file_MzYzSM
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AEu5fH
 - [Analisi Moduli Globale](../../../../docs/modules_analysis_and_optimization.md)
 - [Components Guide](components.md)
 - [TableLayoutEnum Guide](table-layout-enum-complete-guide.md)
@@ -920,6 +970,7 @@ php artisan ui:accessibility-check
 - **Component Architecture**: 50+ componenti Blade riutilizzabili
 - **Filament Integration**: 20+ widget personalizzati perfettamente integrati
 
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -965,11 +1016,14 @@ php artisan ui:accessibility-check
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_AEu5fH
 #### Design System Maturo
 - **TableLayoutEnum**: Sistema layout responsive completo
 - **TransTrait**: Traduzioni automatiche per enum
 - **Component Prefix**: Namespace `ui::` ben implementato
 - **Accessibility**: Score 98/100 per accessibilità
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 
 =======
@@ -984,11 +1038,15 @@ php artisan ui:accessibility-check
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_AEu5fH
 #### Performance Ottimizzata
 - **Component Rendering**: < 50ms per componente
 - **Bundle Size**: < 200KB per tutti i componenti
 - **Mobile Responsive**: 100% componenti responsive
 - **Caching**: Sistema caching componenti attivo
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -998,6 +1056,8 @@ php artisan ui:accessibility-check
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AEu5fH
 
 ### ⚠️ AREE DI MIGLIORAMENTO
 
@@ -1009,6 +1069,7 @@ php artisan ui:accessibility-check
 - **Path assoluti** in esempi e guide
 - **Link interni** con riferimenti specifici al progetto
 
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1030,10 +1091,13 @@ php artisan ui:accessibility-check
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_AEu5fH
 #### 2. Documentazione Eccessiva
 - **README.md**: 407 righe (troppo denso)
 - **Informazioni duplicate** tra sezioni
 - **Esempi troppo specifici** per <nome progetto>
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1045,6 +1109,8 @@ php artisan ui:accessibility-check
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AEu5fH
 - **Esempi troppo specifici** per <nome progetto>
 - **Esempi troppo specifici** per <nome progetto>
 - **Esempi troppo specifici** per <nome progetto>
@@ -1053,6 +1119,7 @@ php artisan ui:accessibility-check
 
 ### 1. Path Generalization (IMPORTANTE - 1 ora)
 
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1067,11 +1134,14 @@ php artisan ui:accessibility-check
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AEu5fH
 #### Pattern di Correzione
 ```php
 // ❌ PROBLEMI ATTUALI (in documentazione)
 Modules/UI/
 https://api.<nome progetto>.com/
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1081,6 +1151,8 @@ https://api.<nome progetto>.com/
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AEu5fH
 Modules/UI/
 https://api.<nome progetto>.com/
 Modules/UI/
@@ -1088,6 +1160,7 @@ https://api.<nome progetto>.com/
 Modules/UI/
 https://api.<nome progetto>.com/
 
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1098,10 +1171,13 @@ https://api.<nome progetto>.com/
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_AEu5fH
 // ✅ SOLUZIONI
 {{project_path}}/laravel/Modules/UI/
 https://api.{{project_domain}}/
 ```
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 
 =======
@@ -1116,10 +1192,14 @@ https://api.{{project_domain}}/
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_AEu5fH
 #### File da Aggiornare
 1. **docs/filament/label-translation-system.md**
 2. **docs/components/**.md files con path hardcoded
 3. **README.md** esempi con domini specifici
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1129,6 +1209,8 @@ https://api.{{project_domain}}/
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AEu5fH
 
 ### 2. README Optimization (NORMALE - 30 min)
 
@@ -1139,6 +1221,7 @@ https://api.{{project_domain}}/
 ## Overview
 Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1161,10 +1244,13 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_AEu5fH
 ## ⚡ Quick Start
 - [Installation](installation.md)
 - [Components Guide](components/)
 - [Widget System](widgets/)
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1174,6 +1260,8 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AEu5fH
 
 ## 🏆 Quality Achievements
 - ✅ PHPStan Level 9 (12/12 files)
@@ -1183,6 +1271,7 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 - ✅ 50+ Blade Components
 - ✅ Accessibility Score 98/100
 
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1204,13 +1293,15 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_AEu5fH
 ## 📚 Documentation
 - [Components](components/) - 50+ componenti riutilizzabili
 - [Widgets](widgets/) - 20+ widget Filament
 - [Design System](design-system/) - Sistema design completo
 - [Performance](performance/) - Ottimizzazioni e metriche
-<<<<<<< HEAD
 
+<<<<<<< .merge_file_F8RRfV
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1223,10 +1314,13 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_AEu5fH
 ## 🔧 Development
 - [Best Practices](best-practices.md)
 - [Testing](testing/)
 - [Troubleshooting](troubleshooting/)
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1239,6 +1333,8 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AEu5fH
 
 *Modulo riutilizzabile - Pattern project-agnostic*
 ```
@@ -1247,6 +1343,7 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 
 #### Struttura Target per Components
 ```
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1262,6 +1359,8 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AEu5fH
 UI/docs/components/
 ├── README.md (overview componenti)
 ├── data-display/
@@ -1280,6 +1379,7 @@ UI/docs/components/
     ├── modal.md
     ├── calendar.md
     └── charts.md
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1291,12 +1391,15 @@ UI/docs/components/
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AEu5fH
 ```
 
 ### 4. Performance Monitoring (OPZIONALE - 1 ora)
 
 #### Component Performance Tracking
 ```php
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1311,6 +1414,8 @@ UI/docs/components/
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AEu5fH
 /**
  * Component performance middleware
  */
@@ -1319,6 +1424,7 @@ class ComponentPerformanceMiddleware
     public function handle($request, Closure $next)
     {
         $start = microtime(true);
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1330,11 +1436,14 @@ class ComponentPerformanceMiddleware
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AEu5fH
 
         $response = $next($request);
 
         $duration = (microtime(true) - $start) * 1000;
 
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1349,12 +1458,15 @@ class ComponentPerformanceMiddleware
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AEu5fH
         if ($duration > 50) {
             Log::warning("Slow component detected", [
                 'component' => $request->route()->getName(),
                 'duration' => $duration . 'ms'
             ]);
         }
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1364,6 +1476,8 @@ class ComponentPerformanceMiddleware
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AEu5fH
 
         return $response;
     }
@@ -1372,6 +1486,7 @@ class ComponentPerformanceMiddleware
 
 ## 📊 METRICHE DI SUCCESSO
 
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1392,10 +1507,13 @@ class ComponentPerformanceMiddleware
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_AEu5fH
 ### Riusabilità
 - [ ] **0 occorrenze** path hardcoded in documentazione
 - [ ] **100% esempi** project-agnostic
 - [ ] **Script check** passa per modulo UI
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 
 =======
@@ -1410,12 +1528,15 @@ class ComponentPerformanceMiddleware
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_AEu5fH
 ### Documentazione
 - [ ] **README.md** ridotto a max 150 righe
 - [ ] **Componenti** documentati per categorie
 - [ ] **Guide pratiche** per sviluppatori
-<<<<<<< HEAD
 
+<<<<<<< .merge_file_F8RRfV
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1428,10 +1549,13 @@ class ComponentPerformanceMiddleware
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_AEu5fH
 ### Performance
 - [ ] **Component rendering** mantenuto < 50ms
 - [ ] **Bundle size** mantenuto < 200KB
 - [ ] **Accessibility** mantenuto > 95/100
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 
 ## 🚀 PIANO DI IMPLEMENTAZIONE
@@ -1453,10 +1577,16 @@ class ComponentPerformanceMiddleware
 ## 🚀 PIANO DI IMPLEMENTAZIONE
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+## 🚀 PIANO DI IMPLEMENTAZIONE
+
+>>>>>>> .merge_file_AEu5fH
 ### Sprint 1 (1 ora) - IMPORTANTE
 1. **Aggiornare** path hardcoded in documentazione
 2. **Generalizzare** esempi specifici
 3. **Verificare** script check
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 
 =======
@@ -1471,12 +1601,15 @@ class ComponentPerformanceMiddleware
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_AEu5fH
 ### Sprint 2 (30 min) - NORMALE
 1. **Ottimizzare** README.md
 2. **Riorganizzare** informazioni per priorità
 3. **Aggiornare** quick start
-<<<<<<< HEAD
 
+<<<<<<< .merge_file_F8RRfV
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1489,10 +1622,13 @@ class ComponentPerformanceMiddleware
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_AEu5fH
 ### Sprint 3 (2 ore) - OPZIONALE
 1. **Enhancere** documentazione componenti
 2. **Aggiungere** performance monitoring
 3. **Migliorare** developer experience
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 
 ## 🔍 CONTROLLI DI QUALITÀ
@@ -1514,10 +1650,16 @@ class ComponentPerformanceMiddleware
 ## 🔍 CONTROLLI DI QUALITÀ
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+## 🔍 CONTROLLI DI QUALITÀ
+
+>>>>>>> .merge_file_AEu5fH
 ### Pre-Implementazione
 ```bash
 # Verifica path hardcoded
 grep -r "<nome progetto>" Modules/UI/docs/ --include="*.md" | wc -l
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1527,6 +1669,8 @@ grep -r "<nome progetto>" Modules/UI/docs/ --include="*.md" | wc -l
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AEu5fH
 grep -r "<nome progetto>" Modules/UI/docs/ --include="*.md" | wc -l
 grep -r "<nome progetto>" Modules/UI/docs/ --include="*.md" | wc -l
 grep -r "<nome progetto>" Modules/UI/docs/ --include="*.md" | wc -l
@@ -1549,6 +1693,7 @@ php artisan ui:accessibility-check
 
 ## 🎯 PRIORITÀ
 
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1575,10 +1720,13 @@ php artisan ui:accessibility-check
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_AEu5fH
 1. **IMPORTANTE**: Path generalization (migliora riusabilità)
 2. **NORMALE**: README optimization (migliora DX)
 3. **OPZIONALE**: Component documentation (migliora manutenibilità)
 4. **FUTURO**: Performance monitoring (migliora UX)
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1588,6 +1736,8 @@ php artisan ui:accessibility-check
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AEu5fH
 
 ## 💡 RACCOMANDAZIONI SPECIFICHE
 
@@ -1599,6 +1749,7 @@ php artisan ui:accessibility-check
 - **NON cambiare** il pattern TransTrait (eccellente)
 - **NON alterare** la struttura componenti (ben organizzata)
 
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1621,10 +1772,13 @@ php artisan ui:accessibility-check
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_AEu5fH
 ### Focus su Miglioramenti
 - **Generalizzare** solo path e domini hardcoded
 - **Ottimizzare** solo documentazione eccessiva
 - **Aggiungere** solo guide mancanti per sviluppatori
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 
 =======
@@ -1639,10 +1793,14 @@ php artisan ui:accessibility-check
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_AEu5fH
 ### Evitare Over-Engineering
 - Il modulo UI è già **molto maturo**
 - Le modifiche devono essere **minimali e mirate**
 - **Preservare** l'eccellente qualità esistente
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1652,6 +1810,8 @@ php artisan ui:accessibility-check
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AEu5fH
 
 ## Collegamenti
 
@@ -1659,6 +1819,7 @@ php artisan ui:accessibility-check
 - [Components Guide](components.md)
 - [TableLayoutEnum Guide](table-layout-enum-complete-guide.md)
 
+<<<<<<< .merge_file_F8RRfV
 <<<<<<< HEAD
 <<<<<<< .merge_file_DiCZvA
 <<<<<<< HEAD
@@ -1701,3 +1862,5 @@ php artisan ui:accessibility-check
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_AEu5fH

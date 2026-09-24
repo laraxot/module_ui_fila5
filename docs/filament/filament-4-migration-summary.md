@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_DqUMAn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_cIUkiW
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_KW2pdt
 # Filament 4 Migration Summary
 
 ## Completed Tasks ✅
@@ -85,6 +88,7 @@ related:
 - ✅ Created detailed **Filament 4 Components Development Guide**
 - ✅ Updated project **CLAUDE.md** rules for Filament 4
 - ✅ Updated version information (PHP 8.3.25, Filament 4.0.19, Laravel 12.30.1)
+<<<<<<< .merge_file_DqUMAn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_cIUkiW
@@ -107,6 +111,8 @@ related:
 - ✅ Updated version information (PHP 8.3.25, Filament 4.0.19, Laravel 13.30.1)
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_KW2pdt
 
 ### 3. Code Updates and Fixes
 

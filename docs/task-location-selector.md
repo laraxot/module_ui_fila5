@@ -3,6 +3,7 @@
 **Modulo**: UI
 **Priorita'**: Media
 **Completamento**: 30%
+<<<<<<< .merge_file_1zM3Hy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_asfcV2
@@ -25,6 +26,8 @@
 **Data**: 2026-01-30
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_w4D6nH
 
 ---
 

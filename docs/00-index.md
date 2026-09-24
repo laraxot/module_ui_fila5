@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_FDg3pk
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_xV0a3D
@@ -69,10 +70,15 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+# 📚 **Indice Documentazione Modulo UI**
+
+>>>>>>> .merge_file_mng8bG
 **Status**: ✅ PHPStan Level 10 Compliant
 **Module Version**: 2.3.0
 
 ## 🎯 **Lettura Essenziale**
+<<<<<<< .merge_file_FDg3pk
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_xV0a3D
@@ -98,6 +104,9 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+1. [README.md](./readme.md) - Design System e overview componenti.
+>>>>>>> .merge_file_mng8bG
 2. [roadmap.md](./roadmap.md) - Evoluzione 2026: Tailwind v4 e Flux UI integration.
 3. [philosophy.md](./philosophy.md) - "La Bellezza è Funzionale": filosofia del design in Laraxot.
 
@@ -110,6 +119,7 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 - 🧩 **[Blade Components](./blade-components.md)** - Libreria di componenti atomici riutilizzabili.
 - ⚡ **[Filament Components](./filament-components-usage.md)** - Custom columns, fields e widgets per l'Admin Panel.
 - 📍 **[Location Selector](./filament-components-location-studio.md)** - Componente avanzato per la selezione geografica.
+<<<<<<< .merge_file_FDg3pk
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -122,6 +132,8 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 >>>>>>> .merge_file_ZXGrPf
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_mng8bG
 - 🏛️ **[Design Comuni FAQ Components](./design-comuni-faq-components.md)** - Componenti UI per pagina FAQ (Accordion, Hero, Breadcrumb, Search) ✅ 90%
 
 ## 🏛️ **Design Comuni Italia - Replication**
@@ -154,6 +166,7 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 | Hero | ✅ 100% | ✅ 95% | N/A | ✅ 98% |
 | Breadcrumb | ✅ 100% | ✅ 100% | N/A | ✅ 100% |
 | Search | ✅ 100% | ✅ 90% | ⏳ 0% | ⏳ 65% |
+<<<<<<< .merge_file_FDg3pk
 <<<<<<< HEAD
 <<<<<<< .merge_file_xV0a3D
 <<<<<<< HEAD
@@ -167,6 +180,8 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_mng8bG
 
 ## 🛠️ **Integrazioni Tecniche**
 - 🏗️ **[Tailwind v4 Upgrade](./filament-v4-theme-upgrade.md)** - Guida alla migrazione verso l'ultima versione di Tailwind.
@@ -174,6 +189,7 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 - 🧪 **[Table Layout Enum](./table-layout-enum-complete-guide.md)** - Standardizzazione dei layout tabelle.
 
 ## 🧪 **Qualità e Sviluppo**
+<<<<<<< .merge_file_FDg3pk
 <<<<<<< HEAD
 <<<<<<< HEAD
 - ✅ **[PHPStan Analysis](./phpstan-level-10-cleanup.md)** - Report di conformità Level 10.
@@ -187,12 +203,16 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 =======
 - ✅ **[PHPStan Analysis](./phpstan-level-10-cleanup.md)** - Report di conformità Level 10.
 >>>>>>> 804451c (Lint)
+=======
+- ✅ **[PHPStan Analysis](./phpstan-level-10-cleanup.md)** - Report di conformità Level 10.
+>>>>>>> .merge_file_mng8bG
 - 🔬 **[Testing UI](./testing.md)** - Test di regressione visuale e componenti.
 
 ## 🧹 **Manutenzione**
 - 🗑️ **[Cleanup Plan](./consolidation-plan.md)** - Strategia per ridurre i 280+ file di documentazione.
 
 ## 📦 **Pacchetti Composer**
+<<<<<<< .merge_file_FDg3pk
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_xV0a3D
@@ -212,6 +232,8 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 >>>>>>> .merge_file_ZXGrPf
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_mng8bG
 - [Riferimento completo](../../../../docs/composer-packages-reference.md) | [Inventario 312 pacchetti](../../../../docs/architecture/composer-packages-full-inventory.md)
 - `owenvoke/blade-fontawesome` - Icone FontAwesome
 
@@ -245,6 +267,7 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 | Hero | ✅ 100% | ✅ 95% | N/A | ✅ 98% |
 | Breadcrumb | ✅ 100% | ✅ 100% | N/A | ✅ 100% |
 | Search | ✅ 100% | ✅ 90% | ⏳ 0% | ⏳ 65% |
+<<<<<<< .merge_file_FDg3pk
 <<<<<<< HEAD
 <<<<<<< .merge_file_xV0a3D
 <<<<<<< HEAD
@@ -270,10 +293,13 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_mng8bG
 
 ---
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*
 
+<<<<<<< .merge_file_FDg3pk
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_xV0a3D
@@ -744,3 +770,8 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+## Dependency Intelligence
+
+- [Dependency intelligence](dependency-intelligence.md)
+>>>>>>> .merge_file_mng8bG

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_gGnjln
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -18,6 +19,8 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_FEkImv
 # Sprint Planning: UI Kit Polish
 
 ## 🏁 Sprint Goal
@@ -28,6 +31,7 @@ Complete the standardization of UI documentation and fix reported accessibility 
 | :--- | :--- | :--- | :--- |
 | Standardize UI Docs | 1 | @Gemini | ✅ Done |
 | Modal Accessibility Fix | 2 | @CoreTeam | 📥 Todo |
+<<<<<<< .merge_file_gGnjln
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_jH0o5O
@@ -163,10 +167,13 @@ Implement core design system with essential UI components.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_FEkImv
 
 ## ✅ Definition of Done
 - All 6 files exist.
 - Accessibility scores > 95 on Lighthouse for core pages.
+<<<<<<< .merge_file_gGnjln
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -199,3 +206,5 @@ Implement core design system with essential UI components.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_FEkImv

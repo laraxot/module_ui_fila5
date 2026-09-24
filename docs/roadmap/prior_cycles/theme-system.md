@@ -2,6 +2,7 @@
 module: theme
 topic: theme-system
 canonical: ../../../../../Themes/docs/shared-components/theme-system.md
+<<<<<<< .merge_file_Y7e2OY
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_tfXpzC
@@ -36,6 +37,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_Mix5fu
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/theme-system.md

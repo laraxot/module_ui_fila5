@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_vx2bh9
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_4rz7B4
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_SsMszV
 sudo apt-get install jpegoptim
 sudo apt-get install optipng
 sudo apt-get install pngquant // For PNG Image

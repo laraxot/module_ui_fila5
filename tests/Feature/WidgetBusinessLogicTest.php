@@ -23,9 +23,9 @@ uses(TestCase::class, DatabaseTransactions::class);
 
 function concreteRowWidget(): RowWidget
 {
-<<<<<<< HEAD
     return new class extends RowWidget {
     };
+<<<<<<< .merge_file_gyjvd3
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -42,10 +42,13 @@ function concreteRowWidget(): RowWidget
     return new class extends RowWidget {};
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Z39MUu
 }
 
 it('widgets instantiate and extend filament base', function (): void {
     $widgets = [
+<<<<<<< .merge_file_gyjvd3
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -55,6 +58,8 @@ it('widgets instantiate and extend filament base', function (): void {
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_Z39MUu
         new StatWithIconWidget(),
         new OverlookWidget(),
         new HeroWidget(),
@@ -63,6 +68,7 @@ it('widgets instantiate and extend filament base', function (): void {
         new GroupWidget(),
         new RedirectWidget(),
         new UserCalendarWidget(),
+<<<<<<< .merge_file_gyjvd3
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -87,6 +93,8 @@ it('widgets instantiate and extend filament base', function (): void {
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Z39MUu
         concreteRowWidget(),
     ];
 
@@ -97,6 +105,7 @@ it('widgets instantiate and extend filament base', function (): void {
 
 it('schema widgets expose empty form schema by default', function (): void {
     $widgets = [
+<<<<<<< .merge_file_gyjvd3
 <<<<<<< HEAD
         new StatWithIconWidget(),
         new GroupWidget(),
@@ -124,6 +133,11 @@ it('schema widgets expose empty form schema by default', function (): void {
         new RedirectWidget,
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+        new StatWithIconWidget(),
+        new GroupWidget(),
+        new RedirectWidget(),
+>>>>>>> .merge_file_Z39MUu
         concreteRowWidget(),
     ];
 

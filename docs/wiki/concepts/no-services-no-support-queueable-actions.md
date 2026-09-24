@@ -7,6 +7,7 @@ created: 2026-07-13
 updated: 2026-07-13
 qmd: "UI module Services and Support banned use app Actions QueueableAction policy"
 related:
+<<<<<<< .merge_file_Ceesjb
 <<<<<<< HEAD
 <<<<<<< .merge_file_xkVo3q
 =======
@@ -33,6 +34,11 @@ related:
 >>>>>>> .merge_file_5HDbPc
 =======
 >>>>>>> 804451c (Lint)
+=======
+  - no-app-support-queueable-actions.md
+  - ui-services-support-to-actions.md
+  - ../../../Xot/docs/wiki/concepts/queueable-action-trait-mandatory.md
+>>>>>>> .merge_file_WjqhgV
 ---
 
 # UI — Services/Support vietati: solo Actions

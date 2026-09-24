@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_yl0vP7
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -46,6 +47,8 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_o4Wa6T
 https://tw-elements.com/docs/standard/navigation/navbar/
 
 https://flowbite.com/docs/components/navbar/

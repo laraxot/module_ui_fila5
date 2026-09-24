@@ -1,10 +1,14 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_EuF5c2
 <<<<<<< HEAD
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_XbhyLb
 ?>
 <x-filament-widgets::widget>
     <x-filament::section collapsible>

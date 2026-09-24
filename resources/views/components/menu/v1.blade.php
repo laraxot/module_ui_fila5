@@ -1,10 +1,14 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_edDF0f
 <<<<<<< HEAD
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_djsorj
 ?>
 <ul class="ml-auto flex items-center space-x-4">
         @foreach ($menu->items as $item)
