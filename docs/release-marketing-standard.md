@@ -1,0 +1,71 @@
+---
+title: "Release e README marketing — UI"
+type: reference
+status: approved
+tags: [release, semantic-versioning, changelog, readme, marketing]
+created: "2026-05-26"
+updated: "2026-05-26"
+<<<<<<< HEAD
+issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/153"
+<<<<<<< .merge_file_uYR8ko
+=======
+<<<<<<< HEAD
+issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/153"
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/153"
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+issue: "https://github.com/provtv/<nome repository>/issues/153"
+=======
+=======
+issue: "https://github.com/provtv/<nome repository>/issues/153"
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+issue: "https://github.com/provtv/<nome repository>/issues/153"
+=======
+>>>>>>> .merge_file_bPx243
+>>>>>>> laraxot/dev
+---
+
+# Release e README marketing — UI
+
+## Scopo
+
+Ogni modulo/tema deve essere pubblicabile, comprensibile e desiderabile: workflow release, changelog automatico e README vetrina.
+
+## File canonici locali
+
+- `../README.md`
+- `../.github/workflows/semantic-release.yml`
+- `../.releaserc.json`
+<<<<<<< HEAD
+- `../CHANGELOG.md`
+=======
+<<<<<<< HEAD
+- `../CHANGELOG.md`
+=======
+<<<<<<< HEAD
+- `../changelog.md`
+>>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+- `../CHANGELOG.md`
+=======
+- `../changelog.md`
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+
+## Confidenza
+
+La configurazione usa semantic-release con Conventional Commits, changelog, GitHub release e commit automatico del changelog.
