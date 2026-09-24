@@ -67,7 +67,16 @@ final class RedirectWidget extends XotBaseSchemaWidget
      * Implementazione richiesta da XotBaseWidget.
      * Per questo widget non abbiamo form, quindi restituiamo array vuoto.
      *
+<<<<<<< .merge_file_EsgTYQ
      * @return array<string, Component>
+=======
+     * <<<<<<< HEAD
+     *
+     * @return array<string, Component>
+     *                                  =======
+     * @return array<string, mixed>
+     *                                  >>>>>>> laraxot/dev
+>>>>>>> .merge_file_XaJhjJ
      */
     public function getFormSchema(): array
     {
