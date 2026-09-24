@@ -17,10 +17,7 @@ use Illuminate\Database\Eloquent\Model;
 use Livewire\Attributes\On;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Contracts\StateContract;
-<<<<<<< HEAD
 use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
-=======
->>>>>>> laraxot/dev
 
 /**
  * IconStateSplitColumn - Enhanced state transition column with compact grid layout.

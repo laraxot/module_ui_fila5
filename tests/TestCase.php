@@ -20,19 +20,13 @@ use Modules\User\Models\User;
 use Modules\User\Providers\UserServiceProvider;
 use Modules\Xot\Tests\XotBaseTestCase;
 
-<<<<<<< HEAD
 use function Safe\file_get_contents;
 
-=======
->>>>>>> laraxot/dev
 /**
  * Base test case for UI module.
  *
  * Uses shared sqlite from fixcity_data.sqlite (no RefreshDatabase).
-<<<<<<< HEAD
  * Pattern skip offline: Feature/`ui-db` skip se manca schema; Unit eseguiti.
-=======
->>>>>>> laraxot/dev
  */
 abstract class TestCase extends XotBaseTestCase
 {

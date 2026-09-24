@@ -5,10 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Actions\Block;
 
 use Spatie\QueueableAction\QueueableAction;
-<<<<<<< HEAD
 use UnexpectedValueException;
-=======
->>>>>>> laraxot/dev
 
 /**
  * Risolve dati block localizzati; delega al modulo Cms se presente.

@@ -6,10 +6,7 @@ namespace Modules\UI\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Carbon;
-<<<<<<< HEAD
-=======
 use Modules\UI\Database\Factories\CategoryFactory;
->>>>>>> laraxot/dev
 use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Models\BaseModel;
 
