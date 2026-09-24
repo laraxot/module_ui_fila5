@@ -1,3 +1,36 @@
+<<<<<<< HEAD
+=======
+---
+title: "Table Columns Components"
+type: concept
+tags: [table, columns]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "table-columns table columns components"
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+related:
+  - "./address-field-1.md"
+  - "./address-field.md"
+  - "./blade-component-registration.md"
+  - "./filament-usage.md"
+  - "./filament.md"
+  - "./file-upload.md"
+  - "./footer.md"
+  - "./full-calendar-1.md"
+---
+
+>>>>>>> laraxot/dev
 # Table Columns Components
 
 ## Overview
@@ -164,7 +197,11 @@ use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
 ## Related Documentation
 - [State Management](../state-transitions.md)
 - [Filament Components](../filament-components.md)
+<<<<<<< HEAD
 - [UI Architecture](../architecture_rules.md)
+=======
+- [UI Architecture](../architecture-rules-1.md)
+>>>>>>> laraxot/dev
 - [Accessibility Guidelines](../accessibility.md)
 ---
 
@@ -176,3 +213,8 @@ use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 4.x, Laravel 11.x
 **Compatibility**: Filament 3.x, Laravel 10.x
+<<<<<<< HEAD
+=======
+
+```
+>>>>>>> laraxot/dev

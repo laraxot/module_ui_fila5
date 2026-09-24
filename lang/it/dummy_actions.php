@@ -2,10 +2,13 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/it/dummy_actions.php
+=======
+>>>>>>> laraxot/dev
 return [
     'fields' => [
         'azioni' => [
@@ -73,6 +76,10 @@ return [
         ],
         'label' => 'Dummy Actions',
         'sort' => 1,
+<<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> laraxot/dev
     ],
 ];

@@ -5,10 +5,16 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Widgets;
 
 use Filament\Support\RawJs;
+<<<<<<< HEAD
 use Filament\Widgets\ChartWidget;
 use Illuminate\Support\Facades\File;
 
 final class TestChartWidget extends ChartWidget
+=======
+use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
+
+final class TestChartWidget extends XotBaseChartWidget
+>>>>>>> laraxot/dev
 {
     public int $qid = 0;
 
@@ -53,9 +59,23 @@ final class TestChartWidget extends ChartWidget
 
     protected function getOptions(): RawJs
     {
+<<<<<<< HEAD
         $path = module_path('UI', 'resources/js/test-chart-y-tick-options.js');
         $contents = File::exists($path) ? File::get($path) : '{}';
 
         return RawJs::make($contents);
+=======
+        return RawJs::make(<<<'JS'
+            {
+                scales: {
+                    y: {
+                        ticks: {
+                            callback: (value) => '€' + value,
+                        },
+                    },
+                },
+            }
+        JS);
+>>>>>>> laraxot/dev
     }
 }

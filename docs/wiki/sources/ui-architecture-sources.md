@@ -5,7 +5,10 @@ type: source
 created: "2026-04-29T00:00:00Z"
 updated: "2026-04-29T00:00:00Z"
 related:
+<<<<<<< HEAD
   - "[[UI Operating Model]]"
+=======
+>>>>>>> laraxot/dev
 ---
 
 # UI Architecture Sources
@@ -15,8 +18,13 @@ related:
 ## Source Cluster
 
 - `README.md`
+<<<<<<< HEAD
 - `ARCHITECTURE.md`
 - `PRODUCT_STRATEGY.md`
+=======
+- `architecture-1.md`
+- `product-strategy-1.md`
+>>>>>>> laraxot/dev
 - `architecture/structure.md`
 
 ## Main Signals

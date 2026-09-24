@@ -14,6 +14,10 @@ final class Hero
 {
     public static function make(string $name = 'hero', string $context = 'form'): Block
     {
+<<<<<<< HEAD
+=======
+        // ---------------
+>>>>>>> laraxot/dev
         return Block::make($name)->schema([
             TextInput::make('title'),
             RichEditor::make('text'),

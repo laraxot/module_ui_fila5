@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -51,6 +52,8 @@
 @php
 @endphp
 
+=======
+>>>>>>> laraxot/dev
 @props([
     'currentStep' => 1,
     'totalSteps' => 4,

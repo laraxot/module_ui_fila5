@@ -1,3 +1,32 @@
+<<<<<<< HEAD
+=======
+---
+title: "Gestione degli Step nei Wizard Filament"
+type: concept
+tags: [wizard, steps]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "wizard-steps gestione degli step nei wizard filament"
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+related:
+  - "./no-obvious-comments.md"
+  - "./syntax-error-fixes.md"
+  - "./wizard-schema-aration.md"
+  - "./wizard-schema-separation.md"
+---
+
+>>>>>>> laraxot/dev
 # Gestione degli Step nei Wizard Filament
 
 ## Collegamenti Bidirezionali
@@ -114,6 +143,10 @@ class DoctorResource extends XotBaseResource
     }
 
     public static function getFormSchemaWidget(): array
+<<<<<<< HEAD
+=======
+    public function getFormSchemaWidget(): array
+>>>>>>> laraxot/dev
     {
         return [
             'wizard' => Forms\Components\Wizard::make([

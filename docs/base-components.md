@@ -158,11 +158,33 @@ $spacers: (
 ## 🔗 Collegamenti
 - [Performance](./standards/performance.md)
 - [Accessibilità](./standards/accessibility.md)
+<<<<<<< HEAD
 - [UI Standards](./standards/ui-standards.md)
 # Componenti Base
 
 ## 🎨 Design System
 
+=======
+<<<<<<< HEAD
+- [UI Standards](./standards/ui-standards.md) 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [UI Standards](./standards/ui-standards.md) 
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [UI Standards](./standards/ui-standards.md) 
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+- [UI Standards](./standards/ui-standards.md)
+# Componenti Base
+## 🎨 Design System
+>>>>>>> laraxot/dev
 ### Colori
 ```scss
 // Palette principale
@@ -172,11 +194,15 @@ $success: #28a745;
 $danger: #dc3545;
 $warning: #ffc107;
 $info: #17a2b8;
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 // Gradienti
 $gradient-primary: linear-gradient(135deg, $primary, darken($primary, 10%));
 $gradient-success: linear-gradient(135deg, $success, darken($success, 10%));
 ```
+<<<<<<< HEAD
 
 ### Tipografia
 ```scss
@@ -184,20 +210,33 @@ $gradient-success: linear-gradient(135deg, $success, darken($success, 10%));
 $font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 $font-family-heading: 'Montserrat', $font-family-base;
 
+=======
+### Tipografia
+// Font stack
+$font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+$font-family-heading: 'Montserrat', $font-family-base;
+>>>>>>> laraxot/dev
 // Scale
 $font-size-base: 1rem;
 $font-size-sm: 0.875rem;
 $font-size-lg: 1.125rem;
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 // Pesanti
 $font-weight-normal: 400;
 $font-weight-medium: 500;
 $font-weight-bold: 700;
+<<<<<<< HEAD
 ```
 
 ### Spaziatura
 ```scss
 // Scale
+=======
+### Spaziatura
+>>>>>>> laraxot/dev
 $spacer: 1rem;
 $spacers: (
   0: 0,
@@ -207,10 +246,14 @@ $spacers: (
   4: $spacer * 1.5,
   5: $spacer * 3
 );
+<<<<<<< HEAD
 ```
 
 ## 📱 Componenti
 
+=======
+## 📱 Componenti
+>>>>>>> laraxot/dev
 ### Bottoni
 ```html
 <!-- Primario -->
@@ -218,48 +261,67 @@ $spacers: (
   <i class="fas fa-plus"></i>
   Aggiungi
 </button>
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 <!-- Secondario -->
 <button class="btn btn-secondary">
   <i class="fas fa-edit"></i>
   Modifica
+<<<<<<< HEAD
 </button>
 
+=======
+>>>>>>> laraxot/dev
 <!-- Pericolo -->
 <button class="btn btn-danger">
   <i class="fas fa-trash"></i>
   Elimina
+<<<<<<< HEAD
 </button>
 ```
 
 ### Form
 ```html
+=======
+### Form
+>>>>>>> laraxot/dev
 <!-- Input -->
 <div class="form-group">
   <label for="email">Email</label>
   <input type="email" id="email" class="form-control" placeholder="Inserisci email">
   <small class="form-text text-muted">Non condivideremo mai la tua email</small>
 </div>
+<<<<<<< HEAD
 
 <!-- Select -->
 <div class="form-group">
+=======
+<!-- Select -->
+>>>>>>> laraxot/dev
   <label for="role">Ruolo</label>
   <select id="role" class="form-control">
     <option value="">Seleziona un ruolo</option>
     <option value="admin">Amministratore</option>
     <option value="user">Utente</option>
   </select>
+<<<<<<< HEAD
 </div>
 ```
 
 ### Card
 ```html
+=======
+### Card
+>>>>>>> laraxot/dev
 <div class="card">
   <div class="card-header">
     <h5 class="card-title">Titolo Card</h5>
   </div>
   <div class="card-body">
     <p class="card-text">Contenuto della card</p>
+<<<<<<< HEAD
   </div>
   <div class="card-footer">
     <button class="btn btn-primary">Azione</button>
@@ -269,22 +331,34 @@ $spacers: (
 
 ### Alert
 ```html
+=======
+  <div class="card-footer">
+    <button class="btn btn-primary">Azione</button>
+### Alert
+>>>>>>> laraxot/dev
 <!-- Successo -->
 <div class="alert alert-success">
   <i class="fas fa-check-circle"></i>
   Operazione completata con successo
+<<<<<<< HEAD
 </div>
 
+=======
+>>>>>>> laraxot/dev
 <!-- Errore -->
 <div class="alert alert-danger">
   <i class="fas fa-exclamation-circle"></i>
   Si è verificato un errore
+<<<<<<< HEAD
 </div>
 
+=======
+>>>>>>> laraxot/dev
 <!-- Info -->
 <div class="alert alert-info">
   <i class="fas fa-info-circle"></i>
   Informazione importante
+<<<<<<< HEAD
 </div>
 ```
 
@@ -320,3 +394,39 @@ $spacers: (
 - [Performance](./standards/performance.md)
 - [Accessibilità](./standards/accessibility.md)
 - [UI Standards](./standards/ui-standards.md)
+=======
+### Badge
+<span class="badge badge-primary">Nuovo</span>
+<span class="badge badge-success">Completato</span>
+<span class="badge badge-danger">Errore</span>
+### Progress Bar
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    75%
+### Spinner
+<div class="spinner-border text-primary" role="status">
+  <span class="sr-only">Caricamento...</span>
+## 🔗 Collegamenti
+- [Performance](./standards/performance.md)
+- [Accessibilità](./standards/accessibility.md)
+<<<<<<< HEAD
+
+```
+=======
+- [UI Standards](./standards/ui-standards.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [UI Standards](./standards/ui-standards.md) 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

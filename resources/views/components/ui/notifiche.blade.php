@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -45,6 +46,8 @@
 @php
 @endphp
 
+=======
+>>>>>>> laraxot/dev
 @props([
     'notifications' => [],
     'maxCount' => 5,
@@ -175,4 +178,8 @@
             </div>
         @endif
     </div>
+<<<<<<< HEAD
 </div>
+=======
+</div>
+>>>>>>> laraxot/dev
