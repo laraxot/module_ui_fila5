@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Blocks 1"
 type: concept
@@ -20,6 +21,8 @@ related:
   - "./changelog.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 https://github.com/whitecube/nova-flexible-content
 
 

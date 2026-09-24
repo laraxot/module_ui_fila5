@@ -50,6 +50,7 @@ class MyListRecords extends ListRecords
 4. Mantenere la persistenza dello stato
 
 ## Collegamenti alla Documentazione
+<<<<<<< HEAD
 - [Risoluzione Conflitti UI](../CONFLITTI_MERGE_RISOLTI.md): Documentazione dei conflitti risolti
 - [Test di Risoluzione Conflitti](../test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
 
@@ -86,18 +87,40 @@ click → toggleLayout()
 ## Cosa non toccare
 ## Panoramica
 Azione Filament per il toggle del layout delle tabelle tra vista griglia e lista.
+=======
+- [Risoluzione Conflitti UI](../conflitti_merge_risolti.md): Documentazione dei conflitti risolti
+- [Test di Risoluzione Conflitti](../test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
+
+[Torna alla documentazione UI](/docs/modules/module_ui.md#actions)
+# TableLayoutToggleTableAction
+
+## Panoramica
+Azione Filament per il toggle del layout delle tabelle tra vista griglia e lista.
+
+>>>>>>> laraxot/dev
 ## Caratteristiche
 - Supporto per layout griglia e lista
 - Integrazione con Livewire
 - Persistenza dello stato del layout
 - Supporto per tooltip e icone dinamiche
+<<<<<<< HEAD
 ## Miglioramenti PHPStan Livello 9
 Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
+=======
+
+## Miglioramenti PHPStan Livello 9
+Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
+
+>>>>>>> laraxot/dev
 1. Tipizzazione stretta dei parametri
 2. Utilizzo di tipi unione per i componenti Livewire
 3. Implementazione corretta delle interfacce
 4. Gestione type-safe degli enum
 5. Rimozione di type casting non necessari
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 ## Interfaccia HasTableLayout
 ```php
 interface HasTableLayout
@@ -106,20 +129,38 @@ interface HasTableLayout
     public function setLayoutView(TableLayoutEnum $layout): void;
     public function resetTable(): void;
 }
+<<<<<<< HEAD
 ## Utilizzo
 use Modules\UI\app\Filament\Actions\Table\TableLayoutToggleTableAction;
 class MyListRecords extends ListRecords
+=======
+```
+
+## Utilizzo
+```php
+use Modules\UI\app\Filament\Actions\Table\TableLayoutToggleTableAction;
+
+class MyListRecords extends ListRecords
+{
+>>>>>>> laraxot/dev
     protected function getTableActions(): array
     {
         return [
             TableLayoutToggleTableAction::make(),
         ];
     }
+<<<<<<< HEAD
+=======
+}
+```
+
+>>>>>>> laraxot/dev
 ## Best Practices
 1. Implementare l'interfaccia HasTableLayout nei componenti che utilizzano l'azione
 2. Utilizzare gli enum per i tipi di layout
 3. Gestire correttamente gli eventi di refresh
 4. Mantenere la persistenza dello stato
+<<<<<<< HEAD
 ## Collegamenti alla Documentazione
 - [Risoluzione Conflitti UI](../CONFLITTI_MERGE_RISOLTI.md): Documentazione dei conflitti risolti
 - [Test di Risoluzione Conflitti](../test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
@@ -133,3 +174,11 @@ Vedi [bugfix](../bugfix-table-layout-toggle-not-working.md): bastano `resetTable
 - [Disciplina agente](../../../docs/wiki/memories/agent-table-layout-toggle-discipline.md)
 - [Contratto Xot](../../Xot/docs/filament/table-layout-toggle-contract.md)
 - [Tema One — tabelle](../../../Themes/One/docs/filament-resource-schemas-tables.md)
+=======
+
+## Collegamenti alla Documentazione
+- [Risoluzione Conflitti UI](../conflitti_merge_risolti.md): Documentazione dei conflitti risolti
+- [Test di Risoluzione Conflitti](../test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
+
+[Torna alla documentazione UI](/docs/modules/module_ui.md#actions)
+>>>>>>> laraxot/dev

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "filament"
 type: concept
@@ -20,6 +21,8 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # filament
 
 <!-- Contenuto migrato da _docs/filament.txt -->

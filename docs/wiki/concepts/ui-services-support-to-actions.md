@@ -9,6 +9,7 @@ qmd: "UI module services support converted to actions adapters queueable action"
 issues: []
 discussions: []
 related:
+<<<<<<< HEAD
   - "./auth-register-focus-loss-overlay.md"
   - "./block-rendering-and-optional-services.md"
   - "./claude-audit-static.md"
@@ -17,6 +18,10 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
+=======
+  - ../../Xot/docs/wiki/concepts/queueable-action-trait-mandatory.md
+  - ../../Xot/docs/wiki/concepts/no-app-support-queueable-actions.md
+>>>>>>> laraxot/dev
 ---
 
 # UI Services/Support → Actions/Adapters mapping
@@ -44,9 +49,15 @@ invece `Modules\Xot\Services\ThemeService` (archiviato). Nessuna duplicazione tr
 
 | Legacy path | Nuovo path | Tipo | Note |
 |-------------|-----------|------|------|
+<<<<<<< HEAD
 | `Services/ComponentService.php` | *(archiviato `.bak`)* | — | classe vuota, nessun caller, nessuna Action creata |
 | `Services/ThemeService.php` | *(archiviato `.bak`)* | — | classe vuota, nessun caller, nessuna Action creata |
 | `Services/UIService.php` | *(archiviato `.bak`)* | — | `asset()` era solo passthrough di `Xot\Actions\File\AssetAction`; nessun caller in produzione, chiamare direttamente `app(AssetAction::class)->execute($path)` se serve |
+=======
+| `Services/ComponentService.php` | *(eliminato)* | — | classe vuota, nessun caller, nessuna Action creata |
+| `Services/ThemeService.php` | *(eliminato)* | — | classe vuota, nessun caller, nessuna Action creata |
+| `Services/UIService.php` | *(eliminato)* | — | `asset()` era solo passthrough di `Xot\Actions\File\AssetAction`; nessun caller in produzione, chiamare direttamente `app(AssetAction::class)->execute($path)` se serve |
+>>>>>>> laraxot/dev
 | `Services/Map/NullMapService.php` | `Adapters/Map/NullMapServiceAdapter.php` | Adapter | implementa `MapServiceContract` |
 | `Services/Map/NullGeocodingService.php` | `Adapters/Map/NullGeocodingServiceAdapter.php` | Adapter | implementa `GeocodingServiceContract` |
 
@@ -56,6 +67,7 @@ Nessun chiamante PHP in `Modules/*` o `Themes/*` da aggiornare: i Service non av
 consumer in codice produzione, e i loro stub Action (rimossi in questa revisione)
 non avevano a loro volta consumer.
 
+<<<<<<< HEAD
 ## File archiviati (`.bak`, mai `git rm`)
 
 Revisione 2026-07-16: i 5 file `Service` legacy erano ancora fisicamente presenti in
@@ -71,6 +83,11 @@ Sono stati archiviati con estensione `.bak` secondo la golden rule del repo (mai
 
 Nessun `.php` attivo resta in `app/Services/`.
 
+=======
+## File eliminati
+
+- `app/Services/` (directory intera, prima migrazione)
+>>>>>>> laraxot/dev
 - `app/Support/` (non presente nel modulo UI)
 - `app/Actions/ComponentAction.php`, `app/Actions/ThemeAction.php`, `app/Actions/UIAction.php`
   (stub introdotti dalla prima migrazione, eliminati in questa revisione perché privi di

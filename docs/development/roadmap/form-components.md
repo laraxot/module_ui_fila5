@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Form Components - 95% Completato"
 type: concept
@@ -16,6 +17,8 @@ related:
   - "./theme-system.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # Form Components - 95% Completato
 
 ## Descrizione

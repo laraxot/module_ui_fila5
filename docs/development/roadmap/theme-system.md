@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Sistema di Theming"
 type: concept
@@ -16,6 +17,8 @@ related:
   - "./form-components.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # Sistema di Theming
 
 ## 📊 Stato Implementazione

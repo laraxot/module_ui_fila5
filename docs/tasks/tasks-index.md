@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Indice task - Modulo UI"
 type: concept
@@ -21,6 +22,8 @@ related:
   - "./ui-filament-v5.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # Indice task - Modulo UI
 
 Lista dei task del modulo con link ai file .md separati. Ogni task è un file nella cartella `tasks/`. Dettagli dalla [roadmap](../roadmap.md).

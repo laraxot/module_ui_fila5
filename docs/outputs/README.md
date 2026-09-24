@@ -5,6 +5,7 @@ canonical: ../../../../Themes/docs/shared-components/README-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/README-Modules.md
+<<<<<<< HEAD
 # UI
 
 [![Module](https://img.shields.io/badge/Module-UI-8B0000.svg)]()
@@ -39,3 +40,5 @@ Core module for the FixCity Platform.
 ---
 
 **Modulo** `UI` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+=======
+>>>>>>> laraxot/dev

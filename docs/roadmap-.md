@@ -391,8 +391,12 @@ class ClosedDays extends Field { /* Focused on day selection */ }
 
 #### **3.1 AI-Enhanced Components**
 - Smart form validation with ML suggestions
+<<<<<<< HEAD
 - Auto-complete components with intelligent predictions
 - Auto-complete components with intelligent forecasts
+=======
+- Auto-complete components with intelligent <nome progetto>ions
+>>>>>>> laraxot/dev
 - Dynamic form generation based on data patterns
 - Voice-controlled component interactions
 
@@ -729,7 +733,11 @@ class UserCalendarWidget extends XotBaseWidget
 **Modulo**: UI (User Interface Components & Design System)
 **Status**: 85% COMPLETATO
 **Priority**: HIGH
+<<<<<<< HEAD
 **PHPStan**: ✅ Level 9 (0 errori)
+=======
+**PHPStan**: ✅ Level 10 (0 errori)
+>>>>>>> laraxot/dev
 **Filament**: ✅ 4.x Compatibile
 
 ---
@@ -737,8 +745,11 @@ class UserCalendarWidget extends XotBaseWidget
 ## 🎯 MODULE OVERVIEW
 
 Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+<<<<<<< HEAD
 Il modulo **UI** è il sistema di componenti e design system della piattaforma <nome progetto>, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
 Il modulo **UI** è il sistema di componenti e design system della piattaforma progetto corrente, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+=======
+>>>>>>> laraxot/dev
 
 ### 🏗️ Architettura Modulo
 ```
@@ -803,7 +814,11 @@ UI Module
 - [x] **Orientation Handling**: Gestione orientamento dispositivo
 
 ### 🛠️ Technical Excellence
+<<<<<<< HEAD
 - [x] **PHPStan Level 9**: 0 errori
+=======
+- [x] **PHPStan Level 10**: 0 errori
+>>>>>>> laraxot/dev
 - [x] **Filament 4.x**: Compatibilità completa
 - [x] **Type Safety**: Type hints completi
 - [x] **Error Handling**: Gestione errori robusta
@@ -931,7 +946,11 @@ UI Module
 ## 🎯 SUCCESS METRICS
 
 ### 📊 Technical Metrics
+<<<<<<< HEAD
 - [x] **PHPStan Level 9**: 0 errori ✅
+=======
+- [x] **PHPStan Level 10**: 0 errori ✅
+>>>>>>> laraxot/dev
 - [x] **Filament 4.x**: Compatibile ✅
 - [ ] **Test Coverage**: 80% (target)
 - [ ] **Response Time**: < 200ms
@@ -1017,8 +1036,11 @@ UI Module
 
 ---
 
+<<<<<<< HEAD
 **Last Updated**: 2025-10-01
 **Next Review**: 2025-11-01
+=======
+>>>>>>> laraxot/dev
 **Status**: 🚧 ACTIVE DEVELOPMENT
 **Confidence Level**: 90%
 

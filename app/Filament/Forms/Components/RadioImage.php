@@ -8,8 +8,13 @@ use Modules\Xot\Filament\Forms\Components\XotBaseRadio;
 
 final class RadioImage extends XotBaseRadio
 {
+<<<<<<< HEAD
     /**
      * @var view-string
      */
+=======
+    /** @phpstan-var view-string */
+    /** @phpstan-ignore property.defaultValue */
+>>>>>>> laraxot/dev
     protected string $view = 'ui::filament.forms.components.radio-image';
 }

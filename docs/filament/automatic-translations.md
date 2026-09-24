@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Traduzioni Automatiche nei Componenti Filament"
 type: concept
@@ -20,6 +21,8 @@ related:
   - "./file-upload-component.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # Traduzioni Automatiche nei Componenti Filament
 
 > **NOTA IMPORTANTE**: Questo documento è un riferimento specifico per il modulo UI. La documentazione completa sulle traduzioni automatiche si trova nel [modulo Lang](../../lang/docs/automatic-translations.md).

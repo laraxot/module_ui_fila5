@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Filament Components"
 type: concept
@@ -20,6 +21,8 @@ related:
   - "./full-calendar.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # Filament Components
 
 ## Resources

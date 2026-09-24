@@ -6,6 +6,7 @@ Identify usability issues in complex Filament forms and tables.
 ## 💡 Key Findings
 - Users struggle with very long forms without clear sections or tabs.
 - Mobile responsiveness is critical for field workers.
+<<<<<<< HEAD
 # UI Module - User Research
 
 **Module:** UI  
@@ -99,6 +100,8 @@ Some customization capability required.
 ---
 
 *Last Updated: March 12, 2026*
+=======
+>>>>>>> laraxot/dev
 
 ## ✅ Actionable Insights / Next Steps
 - Enforce the use of `Tabs` and `Sections` in all `XotBaseResource` forms.

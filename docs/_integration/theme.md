@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "theme"
 type: concept
@@ -20,6 +21,8 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # theme
 
 <!-- Contenuto migrato da _docs/theme.txt -->

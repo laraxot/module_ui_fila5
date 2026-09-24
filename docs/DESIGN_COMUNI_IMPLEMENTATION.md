@@ -128,9 +128,12 @@ Pages are configured via JSON files:
 
 **Location**: `config/local/fixcity/database/content/pages/`
 
+<<<<<<< HEAD
 **Location**: `config/local/<nome progetto>/database/content/pages/`
 **Location**: `config/local/current/database/content/pages/`
 
+=======
+>>>>>>> laraxot/dev
 **Example**: `tests.homepage.json`
 
 ```json
