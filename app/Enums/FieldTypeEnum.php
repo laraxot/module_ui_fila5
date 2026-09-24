@@ -16,17 +16,18 @@ use Modules\Xot\Traits\EnumTrait;
 /**
  * Defines the different types of appointments in the system.
  *
-<<<<<<< HEAD
- * @method static self fromName(string $name)
- * @method static self fromValue(string $value)
- * @method static self tryFromName(string $name)
- * @method static self tryFromValue(string $value)
-=======
+ * <<<<<<< HEAD
+ *
  * @method static self        fromName(string $name)
  * @method static self        fromValue(string $value)
  * @method static self        tryFromName(string $name)
  * @method static self        tryFromValue(string $value)
->>>>>>> laraxot/dev
+ *                                                        =======
+ * @method static self        fromName(string $name)
+ * @method static self        fromValue(string $value)
+ * @method static self        tryFromName(string $name)
+ * @method static self        tryFromValue(string $value)
+ *                                                        >>>>>>> laraxot/dev
  * @method static array<self> cases()
  */
 enum FieldTypeEnum: string implements HasColor, HasIcon, HasLabel
