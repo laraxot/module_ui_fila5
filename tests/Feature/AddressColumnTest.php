@@ -4,7 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Feature;
 
+<<<<<<< HEAD
 use Filament\Tables\Columns\Column;
+=======
+>>>>>>> laraxot/dev
 use Filament\Tables\Columns\TextColumn;
 use Modules\UI\Filament\Tables\Columns\AddressColumn;
 use PHPUnit\Framework\Assert;
@@ -33,7 +36,11 @@ describe('AddressColumn — controparte di AddressField', function (): void {
 
     it('names each child column with the relationship dot-path', function (): void {
         $column = AddressColumn::make('address');
+<<<<<<< HEAD
         $names = array_map(static fn (Column $field): string => $field->getName(), $column->getFields());
+=======
+        $names = array_map(static fn (\Filament\Tables\Columns\Column $field): string => $field->getName(), $column->getFields());
+>>>>>>> laraxot/dev
 
         Assert::assertSame([
             'address.country',
@@ -46,7 +53,11 @@ describe('AddressColumn — controparte di AddressField', function (): void {
 
     it('restricts the field set via fields()', function (): void {
         $column = AddressColumn::make()->fields(['city', 'zip']);
+<<<<<<< HEAD
         $names = array_map(static fn (Column $field): string => $field->getName(), $column->getFields());
+=======
+        $names = array_map(static fn (\Filament\Tables\Columns\Column $field): string => $field->getName(), $column->getFields());
+>>>>>>> laraxot/dev
 
         Assert::assertSame(['address.city', 'address.zip'], $names);
     });

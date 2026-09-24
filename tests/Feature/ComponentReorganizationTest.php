@@ -1,6 +1,10 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\View;
 use Modules\UI\Tests\TestCase;

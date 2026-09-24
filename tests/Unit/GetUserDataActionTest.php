@@ -6,6 +6,7 @@ namespace Modules\UI\Tests\Unit;
 
 use Illuminate\Auth\GenericUser;
 use Illuminate\Contracts\Auth\Authenticatable;
+<<<<<<< HEAD
 use Illuminate\Foundation\Auth\User;
 use Illuminate\Support\Facades\Auth;
 use Modules\UI\Actions\GetUserDataAction;
@@ -13,6 +14,16 @@ use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 use Spatie\Permission\Models\Permission;
 use Spatie\Permission\Models\Role;
+=======
+use Illuminate\Support\Facades\Auth;
+use Modules\UI\Actions\GetUserDataAction;
+use Modules\UI\Tests\TestCase;
+use Modules\Xot\Contracts\UserContract;
+use PHPUnit\Framework\Assert;
+use Spatie\Permission\Models\Permission;
+use Spatie\Permission\Models\Role;
+use Modules\User\Models\User;
+>>>>>>> laraxot/dev
 
 uses(TestCase::class);
 
@@ -30,10 +41,15 @@ uses(TestCase::class);
  */
 function uiAuthUser(array $roles = [], array $permissions = [], array $attributes = []): Authenticatable
 {
+<<<<<<< HEAD
     $user = new class extends User
     {
         public ?object $profile = null;
 
+=======
+    $user = new class extends \Illuminate\Foundation\Auth\User {
+        public ?object $profile = null;
+>>>>>>> laraxot/dev
         public function relationLoaded(mixed $key): bool
         {
             if (! is_string($key)) {

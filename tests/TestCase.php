@@ -11,11 +11,19 @@ use Mockery\Expectation;
 use Mockery\LegacyMockInterface;
 use Mockery\MockInterface;
 use Modules\UI\Providers\UIServiceProvider;
+<<<<<<< HEAD
 use Modules\User\Models\User;
+=======
+use Modules\Xot\Contracts\UserContract;
+>>>>>>> laraxot/dev
 use Modules\User\Providers\UserServiceProvider;
 use Modules\Xot\Tests\XotBaseTestCase;
 
 use function Safe\file_get_contents;
+<<<<<<< HEAD
+=======
+use Modules\User\Models\User;
+>>>>>>> laraxot/dev
 
 /**
  * Base test case for UI module.

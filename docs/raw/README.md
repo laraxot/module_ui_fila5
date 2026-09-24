@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: README
@@ -5,6 +10,10 @@ canonical: ../../../../Themes/docs/shared-components/README-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/README-Modules.md
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # UI
 
 [![Module](https://img.shields.io/badge/Module-UI-8B0000.svg)]()
