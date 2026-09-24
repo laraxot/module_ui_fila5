@@ -13,13 +13,8 @@ use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 abstract class BaseCalendarWidgetStub extends XotBaseSchemaWidget
 {
     /**
-     * <<<<<<< HEAD.
      *
      * @param array<string, mixed> $fetchInfo
-     *                                        =======
-     * @param array<string, mixed> $fetchInfo
-     *
-     * >>>>>>> laraxot/dev
      *
      * @return array<int, array<string, mixed>>
      */

@@ -18,7 +18,6 @@ class UiCoverageRecord extends Model
     public static array $findMap = [];
 
     /**
-     * <<<<<<< HEAD.
      *
      * @param int|string                $id
      * @param array<int, string>|string $columns
@@ -34,7 +33,6 @@ class UiCoverageRecord extends Model
      *                                           <<<<<<< HEAD
      * @param int|string                $id
      * @param array<int, string>|string $columns
-     *                                           =======
      * @param int|string                $id
      * @param array<int, string>|string $columns
      *                                           >>>>>>> laraxot/dev
