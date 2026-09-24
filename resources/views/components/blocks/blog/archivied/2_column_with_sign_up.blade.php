@@ -1,18 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< .merge_file_TsRfJQ
-<<<<<<< HEAD
-<<<<<<< .merge_file_kWkzA4
 
-=======
->>>>>>> .merge_file_eNJU1I
-=======
-
->>>>>>> 804451c (Lint)
-=======
-
->>>>>>> .merge_file_kLVkmK
 ?>
 <!--
   This example requires some changes to your config:

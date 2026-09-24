@@ -127,35 +127,7 @@
 
 ### Collegamenti Interni
 - [Roadmap](roadmap.md)
-<<<<<<< .merge_file_pCTzIR
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_5FlCXA
 - [Best Practices](best-practices.md)
-=======
-<<<<<<< HEAD
-- [Best Practices](BEST-PRACTICES.md)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-- [Best Practices](best-practices.md)
-=======
-- [Best Practices](BEST-PRACTICES.md)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-- [Best Practices](BEST-PRACTICES.md)
-=======
-- [Best Practices](best-practices.md)
->>>>>>> .merge_file_rlFFcA
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
-- [Best Practices](best-practices.md)
->>>>>>> .merge_file_IdEiIU
 ### Versione HEAD
 
 - [Testing](testing.md)
@@ -165,41 +137,6 @@
 - [Testing](testing.md)
 ## Collegamenti tra versioni di bottlenecks.md
 * [bottlenecks.md](../../../../bashscripts/docs/bottlenecks.md)
-<<<<<<< .merge_file_pCTzIR
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_5FlCXA
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-* [bottlenecks.md](../../Chart/docs/bottlenecks.md)
-* [bottlenecks.md](../../Chart/docs/performance/bottlenecks.md)
-* [bottlenecks.md](../../Gdpr/docs/bottlenecks.md)
-* [bottlenecks.md](../../Gdpr/docs/performance/bottlenecks.md)
-* [bottlenecks.md](../../Xot/docs/bottlenecks.md)
-* [bottlenecks.md](../../Xot/docs/performance/bottlenecks.md)
-* [bottlenecks.md](../../Xot/docs/roadmap/bottlenecks.md)
-* [bottlenecks.md](../../Dental/docs/bottlenecks.md)
-* [bottlenecks.md](../../User/docs/bottlenecks.md)
-* [bottlenecks.md](../../User/docs/roadmap/bottlenecks.md)
-* [bottlenecks.md](roadmap/bottlenecks.md)
-* [bottlenecks.md](../../Lang/docs/bottlenecks.md)
-* [bottlenecks.md](../../Lang/docs/performance/bottlenecks.md)
-* [bottlenecks.md](../../Job/docs/performance/bottlenecks.md)
-* [bottlenecks.md](../../Media/docs/bottlenecks.md)
-* [bottlenecks.md](../../Media/docs/performance/bottlenecks.md)
-* [bottlenecks.md](../../Activity/docs/bottlenecks.md)
-* [bottlenecks.md](../../Patient/docs/roadmap/bottlenecks.md)
-* [bottlenecks.md](../../Cms/docs/bottlenecks.md)
-=======
->>>>>>> .merge_file_rlFFcA
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_IdEiIU
 * [bottlenecks.md](../../chart/docs/bottlenecks.md)
 * [bottlenecks.md](../../chart/docs/performance/bottlenecks.md)
 * [bottlenecks.md](../../gdpr/docs/bottlenecks.md)
@@ -219,46 +156,5 @@
 * [bottlenecks.md](../../activity/docs/bottlenecks.md)
 * [bottlenecks.md](../../patient/docs/roadmap/bottlenecks.md)
 * [bottlenecks.md](../../cms/docs/bottlenecks.md)
-<<<<<<< .merge_file_pCTzIR
-<<<<<<< HEAD
-<<<<<<< .merge_file_5FlCXA
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-* [bottlenecks.md](../../Chart/docs/bottlenecks.md)
-* [bottlenecks.md](../../Chart/docs/performance/bottlenecks.md)
-* [bottlenecks.md](../../Gdpr/docs/bottlenecks.md)
-* [bottlenecks.md](../../Gdpr/docs/performance/bottlenecks.md)
-* [bottlenecks.md](../../Xot/docs/bottlenecks.md)
-* [bottlenecks.md](../../Xot/docs/performance/bottlenecks.md)
-* [bottlenecks.md](../../Xot/docs/roadmap/bottlenecks.md)
-* [bottlenecks.md](../../Dental/docs/bottlenecks.md)
-* [bottlenecks.md](../../User/docs/bottlenecks.md)
-* [bottlenecks.md](../../User/docs/roadmap/bottlenecks.md)
-* [bottlenecks.md](roadmap/bottlenecks.md)
-* [bottlenecks.md](../../Lang/docs/bottlenecks.md)
-* [bottlenecks.md](../../Lang/docs/performance/bottlenecks.md)
-* [bottlenecks.md](../../Job/docs/performance/bottlenecks.md)
-* [bottlenecks.md](../../Media/docs/bottlenecks.md)
-* [bottlenecks.md](../../Media/docs/performance/bottlenecks.md)
-* [bottlenecks.md](../../Activity/docs/bottlenecks.md)
-* [bottlenecks.md](../../Patient/docs/roadmap/bottlenecks.md)
-* [bottlenecks.md](../../Cms/docs/bottlenecks.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_rlFFcA
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_IdEiIU
 
 ---

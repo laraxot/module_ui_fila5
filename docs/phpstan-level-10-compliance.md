@@ -1,44 +1,12 @@
 # PHPStan Level 10 Compliance - UI Module
 
 **Ultimo aggiornamento**: [DATE]
-<<<<<<< .merge_file_uEqLoX
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Ultimo aggiornamento**: [DATE]
-=======
-**Ultimo aggiornamento**: 2025-12-10
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-**Ultimo aggiornamento**: 2025-12-10
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_hDvpM0
 **Status**: ✅ Completamente conforme a PHPStan Level 10
 
 ## 📊 Stato Corrente
 - **Errori PHPStan**: 0
 - **Livello analisi**: Level 10 (massimo)
-<<<<<<< .merge_file_uEqLoX
-<<<<<<< HEAD
 - **Data ultima verifica**: [DATE]
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-- **Data ultima verifica**: [DATE]
-=======
-- **Data ultima verifica**: 2025-12-10
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- **Data ultima verifica**: 2025-12-10
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
-- **Data ultima verifica**: [DATE]
->>>>>>> .merge_file_hDvpM0
 
 ## 🔧 Correzioni Applicate
 

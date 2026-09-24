@@ -5,50 +5,9 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Widgets;
 
 use Filament\Support\RawJs;
-<<<<<<< .merge_file_XAib9R
-<<<<<<< HEAD
-<<<<<<< .merge_file_QfkNcx
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
 
 final class TestChartWidget extends XotBaseChartWidget
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-use Filament\Widgets\ChartWidget;
-use Illuminate\Support\Facades\File;
-
-final class TestChartWidget extends ChartWidget
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
-=======
-use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
-
-final class TestChartWidget extends XotBaseChartWidget
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
-
-final class TestChartWidget extends XotBaseChartWidget
->>>>>>> .merge_file_ZvFKqt
-=======
->>>>>>> 804451c (Lint)
-=======
-use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
-
-final class TestChartWidget extends XotBaseChartWidget
->>>>>>> .merge_file_f1OeqR
 {
     public int $qid = 0;
 
@@ -93,34 +52,6 @@ final class TestChartWidget extends XotBaseChartWidget
 
     protected function getOptions(): RawJs
     {
-<<<<<<< .merge_file_XAib9R
-<<<<<<< HEAD
-<<<<<<< .merge_file_QfkNcx
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-        $path = module_path('UI', 'resources/js/test-chart-y-tick-options.js');
-        $contents = File::exists($path) ? File::get($path) : '{}';
-
-        return RawJs::make($contents);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ZvFKqt
-=======
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_f1OeqR
         return RawJs::make(<<<'JS'
             {
                 scales: {
@@ -132,20 +63,5 @@ final class TestChartWidget extends XotBaseChartWidget
                 },
             }
         JS);
-<<<<<<< .merge_file_XAib9R
-<<<<<<< HEAD
-<<<<<<< .merge_file_QfkNcx
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ZvFKqt
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_f1OeqR
     }
 }

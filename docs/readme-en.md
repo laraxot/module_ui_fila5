@@ -2,31 +2,6 @@
 
 [![Domain-UI](https://img.shields.io/badge/Domain-UI%20Kit-7B1FA2.svg)](#)
 [![Laravel 12](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
-<<<<<<< .merge_file_Z06GD7
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_BHjpKh
-=======
-<<<<<<< HEAD
-[![Laravel 13](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
-=======
-<<<<<<< HEAD
-=======
-[![Laravel 13](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-[![Laravel 13](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
-=======
->>>>>>> .merge_file_FozQMC
->>>>>>> laraxot/dev
-=======
-=======
-[![Laravel 13](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_VNTrvW
 [![Filament 5](https://img.shields.io/badge/Filament-5-ffab00.svg)](https://filamentphp.com/)
 [![PHP 8.4+](https://img.shields.io/badge/PHP-8.4+-777BB4.svg)](https://php.net/)
 [![PHPStan Level 10](https://img.shields.io/badge/PHPStan-Level%2010-brightgreen.svg)](https://phpstan.org/)
@@ -34,63 +9,6 @@
 [![Strict Types](https://img.shields.io/badge/PHP-strict__types-1-informational.svg)](#)
 [![Laraxot Modules](https://img.shields.io/badge/Architecture-Modular-purple.svg)](#)
 [![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
-<<<<<<< .merge_file_Z06GD7
-<<<<<<< HEAD
-<<<<<<< .merge_file_BHjpKh
-=======
->>>>>>> 804451c (Lint)
-=======
-<<<<<<< HEAD
-[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_FozQMC
-<<<<<<< HEAD
-[![<nome progetto> Platform](https://img.shields.io/badge/Platform-<nome progetto>-008758.svg)](#)
-[![Current Platform](https://img.shields.io/badge/Platform-progetto corrente-008758.svg)](#)
-=======
-<<<<<<< .merge_file_BHjpKh
-=======
-[![<nome progetto> Platform](https://img.shields.io/badge/Platform-<nome progetto>-008758.svg)](#)
-[![Current Platform](https://img.shields.io/badge/Platform-progetto corrente-008758.svg)](#)
-=======
->>>>>>> 804451c (Lint)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-[![<nome progetto> Platform](https://img.shields.io/badge/Platform-<nome progetto>-008758.svg)](#)
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-[![Current Platform](https://img.shields.io/badge/Platform-progetto corrente-008758.svg)](#)
-=======
-[![<nome progetto> Platform](https://img.shields.io/badge/Platform-<nome progetto>-008758.svg)](#)
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_FozQMC
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_VNTrvW
 
 > **Components that don't reinvent the wheel.** Shared design system across modules and theme.
 
@@ -135,60 +53,4 @@ Frontoffice stack: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filamen
 
 ---
 
-<<<<<<< .merge_file_Z06GD7
-<<<<<<< HEAD
 **Module** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
-=======
-<<<<<<< HEAD
-**Module** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-**Module** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
-<<<<<<< .merge_file_BHjpKh
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_FozQMC
-<<<<<<< HEAD
-**Module** `ui` · **Laraxot** · **<nome progetto> Platform** · PHPStan 10 · Filament 5
-**Module** `ui` · **Laraxot** · **Current Platform** · PHPStan 10 · Filament 5
-=======
-<<<<<<< .merge_file_BHjpKh
-=======
-**Module** `ui` · **Laraxot** · **<nome progetto> Platform** · PHPStan 10 · Filament 5
-**Module** `ui` · **Laraxot** · **Current Platform** · PHPStan 10 · Filament 5
-=======
->>>>>>> 804451c (Lint)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-**Module** `ui` · **Laraxot** · **<nome progetto> Platform** · PHPStan 10 · Filament 5
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-**Module** `ui` · **Laraxot** · **Current Platform** · PHPStan 10 · Filament 5
-=======
-**Module** `ui` · **Laraxot** · **<nome progetto> Platform** · PHPStan 10 · Filament 5
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_FozQMC
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-**Module** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
->>>>>>> .merge_file_VNTrvW

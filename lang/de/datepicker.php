@@ -2,37 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< .merge_file_4VTQAQ
-<<<<<<< HEAD
-<<<<<<< .merge_file_F2aJ4K
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/UI/docs/wiki — domain i18n only.
-// File: lang/de/datepicker.php
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_EtNKHN
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_MTKib1
 return [
     'previous_month' => 'Mese precedente',
     'next_month' => 'Mese successivo',

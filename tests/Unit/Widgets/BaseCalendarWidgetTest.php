@@ -18,27 +18,6 @@ uses(TestCase::class);
 function createTestCalendarWidget(): UserCalendarWidget
 {
     $widget = new class extends UserCalendarWidget {
-<<<<<<< .merge_file_FK1QgX
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    $widget = new class extends UserCalendarWidget
-    {
-=======
-<<<<<<< HEAD
-    $widget = new class extends UserCalendarWidget {
-=======
-    $widget = new class extends UserCalendarWidget
-    {
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-    $widget = new class extends UserCalendarWidget
-    {
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_qoCwBZ
         public function getActionName(string $function): string
         {
             unset($function);
@@ -52,58 +31,12 @@ function createTestCalendarWidget(): UserCalendarWidget
 }
 
 beforeEach(function (): void {
-<<<<<<< .merge_file_FK1QgX
-<<<<<<< HEAD
-<<<<<<< .merge_file_i1gmqS
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_qoCwBZ
     /* @var \Modules\UI\Tests\TestCase $this */
     $this->mockService(SaveTransAction::class, static function (MockInterface $mock): void {
         /** @var ExpectationInterface $expectation */
         $expectation = $mock->shouldReceive('execute');
         $expectation->andReturn(null);
     });
-<<<<<<< .merge_file_FK1QgX
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_LdQQYX
-=======
-=======
->>>>>>> 804451c (Lint)
-    /** @var MockInterface&SaveTransAction $mock */
-    $mock = \Mockery::mock(SaveTransAction::class);
-    /** @var ExpectationInterface $expectation */
-    $expectation = $mock->shouldReceive('execute');
-    $expectation->andReturn(null);
-
-    app()->instance(SaveTransAction::class, $mock);
-<<<<<<< HEAD
-<<<<<<< .merge_file_i1gmqS
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_LdQQYX
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_qoCwBZ
 });
 
 describe('Base Calendar Widget', function (): void {

@@ -141,87 +141,13 @@ php artisan tinker --execute="TableLayoutToggleTableAction::make('test');"
 
 # Testare l'URL che causava l'errore
 curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
-<<<<<<< .merge_file_o6TsGO
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-curl -I http://127.0.0.1:8001/modulo questionari/admin/gaia/survey-pdfs
-=======
-<<<<<<< HEAD
-curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-curl -I http://127.0.0.1:8001/modulo questionari/admin/gaia/survey-pdfs
-=======
-curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_skgtXD
 ```
 
 ### Risultati Test
 
-<<<<<<< .merge_file_o6TsGO
-<<<<<<< HEAD
 ✅ **Sintassi PHP**: Nessun errore di sintassi
 ✅ **Istanziazione**: Classe istanziabile correttamente
 ✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-✅ **Sintassi PHP**: Nessun errore di sintassi  
-✅ **Istanziazione**: Classe istanziabile correttamente  
-✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)  
-=======
-<<<<<<< HEAD
-✅ **Sintassi PHP**: Nessun errore di sintassi
-✅ **Istanziazione**: Classe istanziabile correttamente
-✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)
-=======
-✅ **Sintassi PHP**: Nessun errore di sintassi  
-✅ **Istanziazione**: Classe istanziabile correttamente  
-✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)  
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-✅ **Sintassi PHP**: Nessun errore di sintassi  
-✅ **Istanziazione**: Classe istanziabile correttamente  
-✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)  
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-✅ **Sintassi PHP**: Nessun errore di sintassi
-✅ **Istanziazione**: Classe istanziabile correttamente
-✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)
->>>>>>> .merge_file_skgtXD
 ✅ **PHPStan**: Nessun errore di linting rilevato
 
 ## Impatto
@@ -247,38 +173,7 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 
 ---
 
-<<<<<<< .merge_file_o6TsGO
-<<<<<<< HEAD
 **Modulo**: UI
 **Tipo**: Bug Fix
 **Priorità**: Alta
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-**Modulo**: UI
-**Tipo**: Bug Fix
-**Priorità**: Alta
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-**Data**: 27 Gennaio 2025  
-**Modulo**: UI  
-**Tipo**: Bug Fix  
-**Priorità**: Alta  
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-**Modulo**: UI
-**Tipo**: Bug Fix
-**Priorità**: Alta
->>>>>>> .merge_file_skgtXD
 **Stato**: ✅ Risolto

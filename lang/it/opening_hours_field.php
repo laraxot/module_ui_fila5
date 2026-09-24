@@ -2,36 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< .merge_file_ZJz2HX
-<<<<<<< HEAD
-<<<<<<< .merge_file_HgWg6k
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: split from opening_hours_field.php for maintainability (<500 LOC).
-// Canon: Modules/UI/docs/wiki/concepts/claude-audit-static.md
-// File: lang/it/opening_hours_field_loader.php
-return merge_translation_files(__DIR__.'/opening_hours_field_fields.php', __DIR__.'/opening_hours_field_sections.php', __DIR__.'/actions.php', __DIR__.'/opening_hours_field_messages.php', __DIR__.'/opening_hours_field_steps.php', __DIR__.'/opening_hours_field_time_pickers.php', __DIR__.'/opening_hours_field_label.php', __DIR__.'/opening_hours_field_plural_label.php', __DIR__.'/navigation.php'
-);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_Xl9S4X
-=======
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_EASdYA
 return [
     'fields' => [
         'monday' => [
@@ -620,18 +590,3 @@ return [
         'icon' => 'heroicon-o-collection',
     ],
 ];
-<<<<<<< .merge_file_ZJz2HX
-<<<<<<< HEAD
-<<<<<<< .merge_file_HgWg6k
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_Xl9S4X
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_EASdYA

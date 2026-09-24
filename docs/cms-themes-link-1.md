@@ -1,25 +1,3 @@
-<<<<<<< .merge_file_ZhU4zo
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
----
-module: theme
-topic: cms-themes-link_1
-canonical: ../../../Themes/docs/shared-components/cms-themes-link-1.md
----
-
-See canonical documentation: ../../../Themes/docs/shared-components/cms-themes-link-1.md
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_ALxkdw
 # Collegamenti ai Temi nel Modulo Cms
 
 Questo documento fornisce collegamenti bidirezionali tra il modulo UI e il modulo Cms per quanto riguarda i temi.

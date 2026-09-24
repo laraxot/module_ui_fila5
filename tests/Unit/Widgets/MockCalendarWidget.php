@@ -17,23 +17,8 @@ class MockCalendarWidget extends BaseCalendarWidgetStub
     public string $model = MockEventModel::class;
 
     /**
-<<<<<<< .merge_file_sDBVcd
-<<<<<<< HEAD
-     * <<<<<<< HEAD.
-     *
-     * @param array<string, mixed> $fetchInfo
-     *                                        =======
      * @param array<string, mixed> $fetchInfo
      *
-     * >>>>>>> laraxot/dev
-=======
-     * @param array<string, mixed> $fetchInfo
->>>>>>> 804451c (Lint)
-     *
-=======
-     * @param array<string, mixed> $fetchInfo
-     *
->>>>>>> .merge_file_pLJhd9
      * @return array<int, array{id:int, title:string, start:string, end:string, color:string}>
      */
     public function fetchEvents(array $fetchInfo): array

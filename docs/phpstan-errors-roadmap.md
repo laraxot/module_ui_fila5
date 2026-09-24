@@ -1,20 +1,5 @@
 # PHPStan Level 10 Errors Roadmap - UI Module
 
-<<<<<<< .merge_file_BNSaRn
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-**Data**: 2026-01-09  
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-**Data**: 2026-01-09  
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_MHx2k2
 **Modulo**: UI  
 **Livello PHPStan**: 10  
 **Status**: 🧘 **IN ANALISI**
@@ -128,18 +113,3 @@
 **Status**: 🧘 **IN ANALISI**
 
 **Ultimo aggiornamento**: [DATE]
-<<<<<<< .merge_file_BNSaRn
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Ultimo aggiornamento**: [DATE]
-=======
-**Ultimo aggiornamento**: 2026-01-09
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-**Ultimo aggiornamento**: 2026-01-09
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_MHx2k2

@@ -4,30 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Widgets;
 
-<<<<<<< .merge_file_u29NY8
-<<<<<<< HEAD
-<<<<<<< .merge_file_hbQ76G
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-use Filament\Schemas\Components\Component;
-=======
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
-=======
-use Filament\Schemas\Components\Component;
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-use Filament\Schemas\Components\Component;
->>>>>>> .merge_file_iGPWtr
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_7n3gry
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 /**
@@ -80,17 +56,9 @@ final class RedirectWidget extends XotBaseSchemaWidget
     /**
      * Vista di default per il widget.
      * Può essere sovrascritta dalla configurazione con la chiave 'view'.
-<<<<<<< HEAD
      *
      * @var view-string
      */
-<<<<<<< .merge_file_u29NY8
-    /** @phpstan-ignore property.defaultValue */
-=======
-     */
->>>>>>> 804451c (Lint)
-    protected string $view = 'ui::filament.widgets.redirect-widget';
-=======
     protected string $view;
 
     public function __construct()
@@ -101,39 +69,12 @@ final class RedirectWidget extends XotBaseSchemaWidget
 
         parent::__construct();
     }
->>>>>>> .merge_file_7n3gry
 
     /**
      * Implementazione richiesta da XotBaseWidget.
      * Per questo widget non abbiamo form, quindi restituiamo array vuoto.
      *
-<<<<<<< .merge_file_u29NY8
-<<<<<<< HEAD
-<<<<<<< .merge_file_hbQ76G
-<<<<<<< HEAD
      * @return array<string, mixed>
-=======
-<<<<<<< HEAD
-     * @return array<string, Component>
-=======
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
-     * @return array<string, mixed>
-=======
-     * @return array<string, Component>
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-     * @return array<string, Component>
->>>>>>> .merge_file_iGPWtr
-=======
->>>>>>> 804451c (Lint)
-=======
-     * @return array<string, mixed>
->>>>>>> .merge_file_7n3gry
      */
     public function getFormSchema(): array
     {

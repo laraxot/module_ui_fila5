@@ -2,46 +2,6 @@
 module: theme
 topic: inline-date-picker-component
 canonical: ../../../../Themes/docs/shared-components/.gitkeep
-<<<<<<< .merge_file_L1SwTR
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_y82GV6
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_6QTBqP
-=======
-=======
->>>>>>> 804451c (Lint)
-related:
-  - "./address-field-1.md"
-  - "./address-field.md"
-  - "./blade-component-registration.md"
-  - "./filament-usage.md"
-  - "./filament.md"
-  - "./file-upload.md"
-  - "./footer.md"
-  - "./full-calendar-1.md"
-<<<<<<< HEAD
-<<<<<<< .merge_file_y82GV6
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_6QTBqP
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_drXNR9
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/.gitkeep

@@ -1,14 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< .merge_file_XZZHsT
-<<<<<<< HEAD
-=======
 
->>>>>>> 804451c (Lint)
-=======
-
->>>>>>> .merge_file_7TSChG
 ?>
 <div class="relative bg-indigo-800">
     <div class="absolute inset-0">

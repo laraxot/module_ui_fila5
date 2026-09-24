@@ -3,46 +3,6 @@ title: Moduli Filament
 description: Moduli Filament
 extends: _layouts.documentation
 section: content
-<<<<<<< .merge_file_xVXVM6
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_NWzAZk
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_BGMBgj
-=======
-=======
->>>>>>> 804451c (Lint)
-related:
-  - "./automatic-translations.md"
-  - "./best-practices.md"
-  - "./component-icon-support.md"
-  - "./component-methods-compatibility.md"
-  - "./filament-4-components-guide.md"
-  - "./filament-4-migration-guide.md"
-  - "./filament-4-migration-summary.md"
-  - "./filament-4-migration-sumy.md"
-<<<<<<< HEAD
-<<<<<<< .merge_file_NWzAZk
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_BGMBgj
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_2A5tIS
 ---
 
 # Moduli Filament {#moduli-filament}
