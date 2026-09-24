@@ -4,6 +4,7 @@ type: concept
 tags: [ui, blocks, livewire, phpstan, geo, cms]
 created: 2026-06-15
 <<<<<<< HEAD
+<<<<<<< HEAD
 updated: 2026-06-15
 =======
 <<<<<<< HEAD
@@ -31,6 +32,15 @@ related:
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+updated: 2026-07-13
+qmd: "UI block render InteractiveMap MapServiceContract ResolveLocalizedBlockDataAction GetAllBlocksAction"
+related:
+  - ./phpstan-dynamic-array-normalization.md
+  - ../../../../../docs/wiki/patterns/phpstan-optional-contracts.md
+  - ../log.md
+=======
+>>>>>>> 804451c (Lint)
 updated: 2026-06-15
 qmd: "UI block render InteractiveMap MapServiceContract ResolveLocalizedBlockDataAction GetAllBlocksAction"
 related:
@@ -43,11 +53,14 @@ related:
   - "./enum-select-contract-and-false-friends.md"
   - "./enum-select-usage.md"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_aFTBdU
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ---
 
@@ -85,6 +98,7 @@ flowchart LR
 ## Catena di utilizzo — Mappa
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SFCuFr
 =======
 =======
@@ -103,6 +117,8 @@ Quando il modulo **Geo** sarà installato, sostituire il binding in `UIServicePr
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 | Artefatto | Ruolo | Consumer noti |
 |-----------|-------|---------------|
 | `InteractiveMap` (Livewire) | Marker, filtri, export, geocoding | `resources/views/livewire/components/map/interactive-map.blade.php`; integrazione documentata in `docs/map-integration-guide.md` |
@@ -114,10 +130,13 @@ Quando il modulo **Geo** sarà installato, sostituire il binding in `UIServicePr
 
 =======
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_aFTBdU
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ## Regola PHPStan
 
 - Non importare `Modules\Geo\*` o `Modules\Cms\*` nel consumer UI.

@@ -43,6 +43,7 @@ I componenti che richiedono funzionalità geografiche **appartengono al modulo G
 | `resources/views/livewire/components/map/interactive-map.blade.php.old`     | View del componente Geo disabilitato            | `Modules/Geo/`     |
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_a4zsjo
 =======
 <<<<<<< HEAD
@@ -63,6 +64,8 @@ Rimossi il 2026-07-22 (vedi [geo-boundary.md](./geo-boundary.md)): anche i contr
 Se serve geografia: modulo `Geo` (quando presente), mai ricopiare in UI.
 =======
 >>>>>>> .merge_file_OvPl19
+=======
+>>>>>>> 804451c (Lint)
 ### Contratti e Null Services (accettabili in UI)
 
 I seguenti file sono **accettabili** nel modulo UI perché definiscono interfacce astratte senza dipendere da classi Geo concrete:
@@ -71,6 +74,7 @@ I seguenti file sono **accettabili** nel modulo UI perché definiscono interfacc
 |-------------------------------------------------|-----------------------------------------------------------|
 | `app/Contracts/GeocodingServiceContract.php`    | Interfaccia astratta — nessuna dipendenza da Geo          |
 | `app/Contracts/MapServiceContract.php`          | Interfaccia astratta — nessuna dipendenza da Geo          |
+<<<<<<< HEAD
 <<<<<<< .merge_file_a4zsjo
 <<<<<<< HEAD
 | `app/Services/Map/NullGeocodingService.php`     | Null Object pattern — fallback quando Geo non è installato |
@@ -83,6 +87,10 @@ I seguenti file sono **accettabili** nel modulo UI perché definiscono interfacc
 | `app/Adapters/Map/NullGeocodingServiceAdapter.php` | Null Object pattern — fallback quando Geo non è installato |
 | `app/Adapters/Map/NullMapServiceAdapter.php`       | Null Object pattern — fallback quando Geo non è installato |
 >>>>>>> .merge_file_OvPl19
+=======
+| `app/Adapters/Map/NullGeocodingServiceAdapter.php` | Null Object pattern — fallback quando Geo non è installato |
+| `app/Adapters/Map/NullMapServiceAdapter.php`       | Null Object pattern — fallback quando Geo non è installato |
+>>>>>>> 804451c (Lint)
 
 ### Documentazione archiviata
 
@@ -98,11 +106,15 @@ I seguenti file sono **accettabili** nel modulo UI perché definiscono interfacc
 È stato rinominato `LocationSelector.php.old` in data 2026-07-06.
 
 Se in futuro si vuole un selettore regione/provincia/CAP nel modulo UI, deve usare **solo contratti astratti** (es. `GeocodingServiceContract`) e ricevere i dati via dependency injection, senza importare classi concrete di Geo.
+<<<<<<< HEAD
 <<<<<<< .merge_file_a4zsjo
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ### Contratti / Adapter Map-Location — **non** accettabili in UI
 
 Rimossi il 2026-07-22 (vedi [geo-boundary.md](./geo-boundary.md)): anche i contratti/null-adapter erano dominio geografico.
@@ -115,11 +127,14 @@ Rimossi il 2026-07-22 (vedi [geo-boundary.md](./geo-boundary.md)): anche i contr
 
 Se serve geografia: modulo `Geo` (quando presente), mai ricopiare in UI.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_OvPl19
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ---

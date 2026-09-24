@@ -9,9 +9,12 @@
 > **Soluzione:** Seguire SEMPRE la regola documentata qui sotto e aggiornata anche in README.md e nella root docs/links.md.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 # Gestione dei Percorsi e degli Asset
 
 ## Collegamenti correlati
@@ -28,7 +31,10 @@
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 # Gestione dei Percorsi e degli Asset 
 ## Collegamenti correlati
@@ -41,7 +47,10 @@
 ```
 /var/www/html/saluteora/
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ├── laravel/                 # Applicazione Laravel (codice sorgente)
 │   ├── Modules/             # Moduli dell'applicazione
 │   ├── resources/           # Risorse non compilate
@@ -50,9 +59,12 @@
     ├── images/              # Immagini pubbliche
     │   ├── avatars/         # Avatar utenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     │   └── ...
     ├── css/                 # File CSS compilati
     ├── js/                  # File JavaScript compilati
@@ -68,7 +80,10 @@
 | JavaScript | `public_html/js/` | `public/js/` |
 | SVG | `public_html/images/` | `public/images/` |
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
     ├── css/                 # File CSS compilati
     ├── js/                  # File JavaScript compilati
@@ -81,7 +96,10 @@
 | JavaScript | `/var/www/html/saluteora/public_html/js/` | `/var/www/html/saluteora/laravel/public/js/` |
 | SVG | `/var/www/html/saluteora/public_html/images/` | `/var/www/html/saluteora/laravel/public/images/` |
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ## Utilizzo degli Asset nei Componenti Blade
 
@@ -102,11 +120,16 @@ Per garantire una buona esperienza utente, implementare sempre un fallback per l
 <img
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 <img
 =======
 <img 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<img 
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
     src="{{ asset('images/avatars/default-' . $avatarNumber . '.svg') }}"
     alt="{{ $user->name ?? 'User' }}"
     onerror="this.src='{{ asset('images/default-avatar.svg') }}'"
@@ -121,9 +144,12 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 Themes/One/resources/views/components/ui/
 ```
 
@@ -134,7 +160,10 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 ```
 public_html/images/
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/
 ```
@@ -142,7 +171,10 @@ public_html/images/
 Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizionati in:
 /var/www/html/saluteora/public_html/images/
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ```
 
 ## Gestione dei Componenti UI
@@ -153,9 +185,12 @@ Il componente avatar è implementato in:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 Themes/One/resources/views/components/ui/avatar.blade.php
 ```
 
@@ -164,14 +199,20 @@ E utilizza gli avatar SVG dalla directory pubblica:
 ```
 public_html/images/avatars/
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 ```
 E utilizza gli avatar SVG dalla directory pubblica:
 /var/www/html/saluteora/public_html/images/avatars/
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ```
 
 ### Componente Icon
@@ -180,9 +221,12 @@ Il componente icon è implementato in:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 Themes/One/resources/views/components/ui/icon.blade.php
 ```
 
@@ -194,7 +238,10 @@ E include le definizioni SVG direttamente nel componente.
 >
 > `Modules/UI/resources/views/components/ui/`
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 ```
@@ -204,7 +251,10 @@ E include le definizioni SVG direttamente nel componente.
 >
 > `/var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/`
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >
 > **MAI** in `resources/views/components/ui/` della root Laravel.
 
@@ -219,9 +269,12 @@ E include le definizioni SVG direttamente nel componente.
 **❌ Errato:**
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 resources/views/components/ui/logo.blade.php
 ```
 **✅ Corretto:**
@@ -232,7 +285,10 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 ## Best Practices
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 /var/www/html/ptvx/laravel/resources/views/components/ui/logo.blade.php
 ```
@@ -240,7 +296,10 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 /var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/logo.blade.php
 ## Best Practices
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 1. **MAI utilizzare percorsi assoluti hardcoded** nei componenti Blade
 2. **SEMPRE utilizzare l'helper `asset()`** per riferirsi agli asset pubblici
 3. **Implementare fallback** per le immagini che potrebbero non essere disponibili
@@ -248,20 +307,29 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 5. **Seguire le convenzioni di naming** per mantenere la coerenza
 6. **Documentare i percorsi corretti** per evitare confusione
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ## Errori Comuni
 
 1. **Utilizzo del percorso Laravel public**: Utilizzare `public/` invece di `public_html/`
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 ## Errori Comuni
 1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/saluteora/laravel/public/` invece di `/var/www/html/saluteora/public_html/`
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile
 4. **Inconsistenza nei nomi dei file**: Utilizzare convenzioni di naming diverse per file simili

@@ -1,10 +1,13 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Ubuntu"
 type: concept
@@ -36,9 +39,12 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 sudo apt-get install jpegoptim
 sudo apt-get install optipng
@@ -50,6 +56,7 @@ sudo apt-get install webp
 sudo apt-get install libavif-bin # minimum 0.9.3
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 sudo apt-get install libavif-bin # minimum 0.9.3
 =======
 <<<<<<< HEAD
@@ -59,3 +66,7 @@ sudo apt-get install libavif-bin # minimum 0.9.3
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+sudo apt-get install libavif-bin # minimum 0.9.3
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

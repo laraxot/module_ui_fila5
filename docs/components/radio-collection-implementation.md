@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_PDJNCJ
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_FNLajK
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "RadioCollection Component - Implementation Guide"
 type: concept
@@ -15,7 +19,10 @@ tags: [radio, collection, implementation]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "radio-collection-implementation radiocollection component - implementation guide"
+<<<<<<< HEAD
 <<<<<<< .merge_file_PDJNCJ
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,12 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_FNLajK
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -45,6 +55,7 @@ related:
   - "./full-calendar-1.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_PDJNCJ
 <<<<<<< HEAD
 =======
@@ -55,6 +66,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_FNLajK
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # RadioCollection Component - Implementation Guide
 
 ## Overview
@@ -280,6 +294,7 @@ RadioCollection::make('studio_id')
 
 - [UI Module Overview](../ui.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_PDJNCJ
 - [Filament Form Components](../filament/filament_components_usage.md)
 =======
@@ -287,10 +302,13 @@ RadioCollection::make('studio_id')
 - [Filament Form Components](../filament/filament-components-usage-1.md)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [Filament Form Components](../filament/filament_components_usage.md)
 =======
 - [Filament Form Components](../filament/filament-components-usage-1.md)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - [Filament Form Components](../filament/filament-components-usage-1.md)
@@ -298,6 +316,8 @@ RadioCollection::make('studio_id')
 - [Filament Form Components](../filament/filament_components_usage.md)
 >>>>>>> .merge_file_FNLajK
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - [Radio Collection Philosophy](./radio-collection-philosophy.md)
 
 ## Change Log

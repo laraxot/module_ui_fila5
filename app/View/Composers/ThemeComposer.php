@@ -7,6 +7,7 @@ namespace Modules\UI\View\Composers;
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Exception;
 =======
 <<<<<<< HEAD
@@ -14,6 +15,9 @@ use Exception;
 use Exception;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+use Exception;
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 use Illuminate\View\View;
 
@@ -29,6 +33,7 @@ final class ThemeComposer
         return view($view);
     }
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_LTtgOH
 <<<<<<< HEAD
     public function metatag(string $index): mixed
@@ -36,20 +41,26 @@ final class ThemeComposer
 <<<<<<< HEAD
     public function metatag(string $index): string|bool|null
 =======
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
     public function metatag(string $index): mixed
 =======
     public function metatag(string $index): string|bool|null
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
     public function metatag(string $index): string|bool|null
 >>>>>>> .merge_file_ISC1he
+=======
+>>>>>>> 804451c (Lint)
     {
         // $ris = self::__getStatic($index);
         // echo '<br/>['.$index.']['.$ris.']';
         // if ('' === $ris || null === $ris) {
+<<<<<<< HEAD
 <<<<<<< .merge_file_LTtgOH
 <<<<<<< HEAD
         return config('metatag.'.$index);
@@ -59,6 +70,8 @@ final class ThemeComposer
 
         return is_string($value) || is_bool($value) ? $value : null;
 =======
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
         return config('metatag.'.$index);
 =======
@@ -66,6 +79,7 @@ final class ThemeComposer
 
         return is_string($value) || is_bool($value) ? $value : null;
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
@@ -73,6 +87,8 @@ final class ThemeComposer
 
         return is_string($value) || is_bool($value) ? $value : null;
 >>>>>>> .merge_file_ISC1he
+=======
+>>>>>>> 804451c (Lint)
     }
 
     public function showScripts(): string
@@ -88,6 +104,7 @@ final class ThemeComposer
             throw new \Exception('view not exits ['.$view.']');
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new Exception('view not exits ['.$view.']');
 =======
 <<<<<<< HEAD
@@ -96,6 +113,9 @@ final class ThemeComposer
             throw new Exception('view not exits ['.$view.']');
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+            throw new Exception('view not exits ['.$view.']');
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
         }
 

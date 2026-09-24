@@ -1,6 +1,7 @@
 # Changelog
 
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
+<<<<<<< HEAD
 <<<<<<< .merge_file_b16Pwb
 <<<<<<< HEAD
 =======
@@ -15,12 +16,23 @@ All notable changes to the $MOD module.
 > Nota (fusa da `changelog.md`, root-hygiene 2026-09-07): tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
 =======
 >>>>>>> .merge_file_X3KfmE
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+All notable changes to the $MOD module.
+
+> Nota (fusa da `changelog.md`, root-hygiene 2026-09-07): tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
+>>>>>>> 804451c (Lint)
 
 ## [0.1.0] — 2026-09-05
 
 ### Added
 - Initial module setup
+<<<<<<< HEAD
 <<<<<<< .merge_file_b16Pwb
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 =======
@@ -42,9 +54,13 @@ Tutte le variazioni importanti di UI saranno generate automaticamente da semanti
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_X3KfmE
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

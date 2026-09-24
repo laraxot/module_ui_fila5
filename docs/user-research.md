@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -13,6 +14,9 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 # User Research: UI Module
 
@@ -22,6 +26,7 @@ Identify usability issues in complex Filament forms and tables.
 ## 💡 Key Findings
 - Users struggle with very long forms without clear sections or tabs.
 - Mobile responsiveness is critical for field workers.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WqoqgJ
 =======
@@ -33,6 +38,11 @@ Identify usability issues in complex Filament forms and tables.
 =======
 >>>>>>> laraxot/dev
 =======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
+=======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
@@ -40,8 +50,11 @@ Identify usability issues in complex Filament forms and tables.
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_Q8BQjU
+=======
+>>>>>>> 804451c (Lint)
 # UI Module - User Research
 
 **Module:** UI  
@@ -134,7 +147,10 @@ Some customization capability required.
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_WqoqgJ
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 *Last Updated: March 12, 2026*
 =======
@@ -158,6 +174,7 @@ Some customization capability required.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -165,6 +182,8 @@ Some customization capability required.
 *Last Updated: March 12, 2026*
 =======
 >>>>>>> .merge_file_Q8BQjU
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ## ✅ Actionable Insights / Next Steps
@@ -177,10 +196,13 @@ Some customization capability required.
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
@@ -192,7 +214,10 @@ Some customization capability required.
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

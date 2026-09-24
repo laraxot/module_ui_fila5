@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_NrGnwl
 =======
 <<<<<<< HEAD
@@ -24,6 +25,8 @@ Analisi **REALE e APPROFONDITA** di **18 moduli** + **2 temi** del framework Lar
 ### Dati Chiave (VERIFICATI)
 =======
 >>>>>>> .merge_file_E5chG2
+=======
+>>>>>>> 804451c (Lint)
 # 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 
 **Powered by**: Super Mucca AI 🐄✨
@@ -38,12 +41,17 @@ Analisi **REALE e APPROFONDITA** di **18 moduli** + **2 temi** del framework Lar
 
 ### Dati Chiave (VERIFICATI)
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_NrGnwl
 <<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 =======
@@ -90,9 +98,12 @@ See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLI
 Analisi **REALE e APPROFONDITA** di **18 moduli** + **2 temi** del framework Laraxot/Filament.
 ### Dati Chiave (VERIFICATI)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 | Metrica | Valore | Fonte |
 |---------|--------|-------|
@@ -105,6 +116,7 @@ Analisi **REALE e APPROFONDITA** di **18 moduli** + **2 temi** del framework Lar
 | **getTableFilters()** | 31 occorrenze | grep analysis |
 | **getTableActions()** | 21 occorrenze | grep analysis |
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 ## 📊 ANALISI QUANTITATIVA REALE
@@ -112,6 +124,8 @@ Analisi **REALE e APPROFONDITA** di **18 moduli** + **2 temi** del framework Lar
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ---
 
@@ -120,13 +134,19 @@ Analisi **REALE e APPROFONDITA** di **18 moduli** + **2 temi** del framework Lar
 ### BaseModel - Confronto Reale
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 ## 📊 ANALISI QUANTITATIVA REALE
 ### BaseModel - Confronto Reale
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 #### Xot BaseModel (RIFERIMENTO)
 ```php
 // File: Modules/Xot/app/Models/BaseModel.php
@@ -137,11 +157,14 @@ abstract class BaseModel extends XotBaseModel
 }
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 #### Blog BaseModel (BEN FATTO)
 ```php
@@ -155,9 +178,13 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
     protected $connection = 'blog';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 #### Blog BaseModel (BEN FATTO)
 // File: Modules/Blog/app/Models/BaseModel.php
 // Linee: 46
@@ -166,9 +193,12 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
     use SoftDeletes;         // ✅ Specifico
     protected $connection = 'blog';
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     protected function casts(): array
     {
@@ -178,11 +208,14 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
         ]);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 }
 ```
 
@@ -210,9 +243,13 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 ### Statistiche BaseModel
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 #### User BaseModel (BEN FATTO)
 // File: Modules/User/app/Models/BaseModel.php
 // Linee: 38
@@ -222,9 +259,12 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
             'verified_at' => 'datetime',
 ### Statistiche BaseModel
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 | Modulo | Linee | Connection | Traits Specifici | Casts Custom | Valutazione |
 |--------|-------|------------|------------------|--------------|-------------|
@@ -239,11 +279,14 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 | Gdpr | ~38 | gdpr | 0 | 2 | ⭐⭐⭐⭐ BUONO |
 | Comment | ~30 | comment | 0 | 1 | ⭐⭐⭐⭐ BUONO |
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 **Media Linee**: 57.8 linee
 **Target Ottimale**: 25-50 linee
@@ -252,9 +295,13 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 **Media Linee**: 57.8 linee
 **Target Ottimale**: 25-50 linee
 **Conformità**: 80% dei moduli sono OTTIMALI ✅
@@ -566,9 +613,12 @@ canonical: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ## 🔍 PATTERN REALI IDENTIFICATI
 
@@ -579,11 +629,14 @@ See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLI
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #### Fixcity/TicketResource/ListTickets.php (ECCELLENTE)
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 #### progetto corrente/TicketResource/ListTickets.php (ECCELLENTE)
 =======
 <<<<<<< HEAD
@@ -593,9 +646,12 @@ See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLI
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```php
 protected function getTableColumns(): array
@@ -962,11 +1018,14 @@ public function getTableFilters(): array
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Settimana 2**: Moduli Business (Fixcity, Blog, Geo)
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 **Settimana 2**: Moduli Business (progetto corrente, Blog, Geo)
 =======
 <<<<<<< HEAD
@@ -976,9 +1035,12 @@ public function getTableFilters(): array
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - 20 List files
 - Test integrazione
@@ -1018,6 +1080,7 @@ public function getTableFilters(): array
 
 #### ⭐⭐⭐⭐ PRIORITÀ ALTA
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1026,6 +1089,11 @@ public function getTableFilters(): array
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+4. Refactoring moduli business (Fixcity, Blog, Geo)
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 4. Refactoring moduli business (progetto corrente, Blog, Geo)
 =======
 <<<<<<< HEAD
@@ -1035,8 +1103,11 @@ public function getTableFilters(): array
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 5. ActionPresets per CRUD
 6. Documentazione completa
@@ -1071,6 +1142,7 @@ public function getTableFilters(): array
 
 **Powered by**: Super Mucca AI 🐄✨
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Data**: 15 Ottobre 2025
 =======
 <<<<<<< HEAD
@@ -1078,6 +1150,11 @@ public function getTableFilters(): array
 **Data**: 15 Ottobre 2025
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+**Data**: 15 Ottobre 2025
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 **Versione**: 2.0 ULTIMATE
 **Confidenza**: 99.9% (Dati Reali dal Codice)
 
@@ -1185,11 +1262,17 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #### Fixcity/TicketResource/ListTickets.php (ECCELLENTE)
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+#### Fixcity/TicketResource/ListTickets.php (ECCELLENTE)
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 #### progetto corrente/TicketResource/ListTickets.php (ECCELLENTE)
 =======
 <<<<<<< HEAD
@@ -1199,8 +1282,11 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```php
 protected function getTableColumns(): array
@@ -1564,11 +1650,17 @@ public function getTableFilters(): array
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Settimana 2**: Moduli Business (Fixcity, Blog, Geo)
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+**Settimana 2**: Moduli Business (Fixcity, Blog, Geo)
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 **Settimana 2**: Moduli Business (progetto corrente, Blog, Geo)
 =======
 <<<<<<< HEAD
@@ -1578,8 +1670,11 @@ public function getTableFilters(): array
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - 20 List files
 - Test integrazione
@@ -1620,11 +1715,17 @@ public function getTableFilters(): array
 #### ⭐⭐⭐⭐ PRIORITÀ ALTA
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 4. Refactoring moduli business (Fixcity, Blog, Geo)
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+4. Refactoring moduli business (Fixcity, Blog, Geo)
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 4. Refactoring moduli business (progetto corrente, Blog, Geo)
 =======
 <<<<<<< HEAD
@@ -1634,8 +1735,11 @@ public function getTableFilters(): array
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 5. ActionPresets per CRUD
 6. Documentazione completa
@@ -1670,6 +1774,7 @@ public function getTableFilters(): array
 
 **Powered by**: Super Mucca AI 🐄✨
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Data**: 15 Ottobre 2025
 =======
 <<<<<<< HEAD
@@ -1677,6 +1782,11 @@ public function getTableFilters(): array
 **Data**: 15 Ottobre 2025
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+**Data**: 15 Ottobre 2025
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 **Versione**: 2.0 ULTIMATE
 **Confidenza**: 99.9% (Dati Reali dal Codice)
 
@@ -1688,9 +1798,12 @@ Analisi **REALE e APPROFONDITA** di **18 moduli** + **2 temi** del framework Lar
 
 ### Dati Chiave (VERIFICATI)
 
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_E5chG2
+=======
+>>>>>>> 804451c (Lint)
 | Metrica | Valore | Fonte |
 |---------|--------|-------|
 | **Moduli Analizzati** | 18 | Directory scan |
@@ -1702,9 +1815,12 @@ Analisi **REALE e APPROFONDITA** di **18 moduli** + **2 temi** del framework Lar
 | **getTableFilters()** | 31 occorrenze | grep analysis |
 | **getTableActions()** | 21 occorrenze | grep analysis |
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## 📊 ANALISI QUANTITATIVA REALE
 ### BaseModel - Confronto Reale
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 ---
 
@@ -1712,7 +1828,10 @@ Analisi **REALE e APPROFONDITA** di **18 moduli** + **2 temi** del framework Lar
 
 ### BaseModel - Confronto Reale
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 #### Xot BaseModel (RIFERIMENTO)
 ```php
 // File: Modules/Xot/app/Models/BaseModel.php
@@ -1723,6 +1842,7 @@ abstract class BaseModel extends XotBaseModel
 }
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### Blog BaseModel (BEN FATTO)
 // File: Modules/Blog/app/Models/BaseModel.php
 // Linee: 46
@@ -1731,6 +1851,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
     use SoftDeletes;         // ✅ Specifico
     protected $connection = 'blog';
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 #### Blog BaseModel (BEN FATTO)
 ```php
@@ -1743,7 +1865,10 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 
     protected $connection = 'blog';
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     protected function casts(): array
     {
         return array_merge(parent::casts(), [  // ✅ CORRETTO
@@ -1751,6 +1876,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
             'uuid' => 'string',
         ]);
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 #### User BaseModel (BEN FATTO)
 // File: Modules/User/app/Models/BaseModel.php
@@ -1761,6 +1887,8 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
             'verified_at' => 'datetime',
 ### Statistiche BaseModel
 =======
+=======
+>>>>>>> 804451c (Lint)
 }
 ```
 
@@ -1787,7 +1915,10 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 
 ### Statistiche BaseModel
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 | Modulo | Linee | Connection | Traits Specifici | Casts Custom | Valutazione |
 |--------|-------|------------|------------------|--------------|-------------|
 | Xot | 24 | xot | 0 | 0 | ⭐⭐⭐⭐⭐ PERFETTO |
@@ -1801,6 +1932,7 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 | Gdpr | ~38 | gdpr | 0 | 2 | ⭐⭐⭐⭐ BUONO |
 | Comment | ~30 | comment | 0 | 1 | ⭐⭐⭐⭐ BUONO |
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Media Linee**: 57.8 linee
 **Target Ottimale**: 25-50 linee
 **Conformità**: 80% dei moduli sono OTTIMALI ✅
@@ -1809,6 +1941,8 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 #### <nome progetto>/TicketResource/ListTickets.php (ECCELLENTE)
 protected function getTableColumns(): array
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 **Media Linee**: 57.8 linee
 **Target Ottimale**: 25-50 linee
@@ -1822,11 +1956,17 @@ protected function getTableColumns(): array
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #### Fixcity/TicketResource/ListTickets.php (ECCELLENTE)
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+#### Fixcity/TicketResource/ListTickets.php (ECCELLENTE)
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 #### progetto corrente/TicketResource/ListTickets.php (ECCELLENTE)
 =======
 <<<<<<< HEAD
@@ -1836,13 +1976,19 @@ protected function getTableColumns(): array
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```php
 protected function getTableColumns(): array
 {
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     return [
         TextColumn::make('id')->sortable(),
         TextColumn::make('title')->searchable(),
@@ -1856,28 +2002,43 @@ protected function getTableColumns(): array
             ]),
         TextColumn::make('priority')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             ->badge()
             ->colors([
 >>>>>>> laraxot/dev
+=======
+            ->badge()
+            ->colors([
+>>>>>>> 804451c (Lint)
                 'secondary' => 'low',
                 'primary' => 'medium',
                 'warning' => 'high',
                 'danger' => 'critical',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             ]),
 >>>>>>> laraxot/dev
+=======
+            ]),
+>>>>>>> 804451c (Lint)
         TextColumn::make('created_at')->dateTime()->sortable(),
         TextColumn::make('updated_at')->dateTime()->sortable()
             ->toggleable(isToggledHiddenByDefault: true),
     ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 }
 ```
 
 >>>>>>> laraxot/dev
+=======
+}
+```
+
+>>>>>>> 804451c (Lint)
 **Analisi**:
 - ✅ Colonne base (id, timestamps)
 - ✅ Badge con colori per status/priority
@@ -1885,25 +2046,35 @@ protected function getTableColumns(): array
 - ✅ Toggleable per colonne opzionali
 - 🎯 **Pattern Comune**: 60% dei file simili
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### Job/JobResource/ListJobs.php (STANDARD)
 public function getTableColumns(): array
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 #### Job/JobResource/ListJobs.php (STANDARD)
 ```php
 public function getTableColumns(): array
 {
     return [
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
         'id' => TextColumn::make('id')->searchable()->sortable(),
         'queue' => TextColumn::make('queue')->searchable()->sortable(),
         'payload' => TextColumn::make('payload')->wrap()->searchable(),
         'attempts' => TextColumn::make('attempts')->numeric()->sortable(),
         'status' => TextColumn::make('status')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             ->badge()
 >>>>>>> laraxot/dev
+=======
+            ->badge()
+>>>>>>> 804451c (Lint)
             ->color(fn (string $state): string => match ($state) {
                 'running' => 'primary',
                 'waiting' => 'warning',
@@ -1913,17 +2084,24 @@ public function getTableColumns(): array
         'available_at' => TextColumn::make('available_at')->dateTime()->sortable(),
         'created_at' => TextColumn::make('created_at')->dateTime()->sortable(),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
     ];
 }
 ```
 
 **Analisi**:
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - ✅ Pattern simile a Ticket
 - ✅ Badge con match expression (PHP 8+)
 - ✅ Colonne specifiche (queue, payload, attempts)
 - 🎯 **Duplicazione**: 70% con altri List
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## 💡 PROPOSTE CONCRETE DI REFACTORING
 ### Proposta 1: ColumnBuilder (IMPLEMENTAZIONE REALE)
@@ -1932,6 +2110,8 @@ namespace Modules\Xot\Filament\Builders;
 use Filament\Tables\Columns\TextColumn;
 class ColumnBuilder
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 ---
 
@@ -1948,19 +2128,27 @@ use Filament\Tables\Columns\TextColumn;
 
 class ColumnBuilder
 {
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     /**
      * Standard ID column
      */
     public static function id(): TextColumn
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     {
 >>>>>>> laraxot/dev
+=======
+    {
+>>>>>>> 804451c (Lint)
         return TextColumn::make('id')
             ->sortable()
             ->searchable()
             ->label('ID');
+<<<<<<< HEAD
 <<<<<<< HEAD
      * Standard name column
     public static function name(bool $searchable = true): TextColumn
@@ -1970,6 +2158,8 @@ class ColumnBuilder
      * Status badge column with standard colors
     public static function statusBadge(array $customColors = []): TextColumn
 =======
+=======
+>>>>>>> 804451c (Lint)
     }
 
     /**
@@ -1987,13 +2177,17 @@ class ColumnBuilder
      */
     public static function statusBadge(array $customColors = []): TextColumn
     {
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
         $defaultColors = [
             'danger' => 'open',
             'warning' => 'in_progress',
             'success' => 'resolved',
             'secondary' => 'closed',
         ];
+<<<<<<< HEAD
 <<<<<<< HEAD
         return TextColumn::make('status')
             ->colors(array_merge($defaultColors, $customColors));
@@ -2004,6 +2198,8 @@ class ColumnBuilder
      * Standard timestamps (created_at, updated_at)
     public static function timestamps(bool $hideUpdated = true): array
 =======
+=======
+>>>>>>> 804451c (Lint)
 
         return TextColumn::make('status')
             ->badge()
@@ -2030,12 +2226,16 @@ class ColumnBuilder
      */
     public static function timestamps(bool $hideUpdated = true): array
     {
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
         return [
             'created_at' => TextColumn::make('created_at')
                 ->dateTime()
                 ->sortable(),
             'updated_at' => TextColumn::make('updated_at')
+<<<<<<< HEAD
 <<<<<<< HEAD
                 ->sortable()
                 ->toggleable(isToggledHiddenByDefault: $hideUpdated),
@@ -2051,6 +2251,8 @@ class ColumnBuilder
 **Utilizzo DOPO**:
 // 7 linee - 53% riduzione
 =======
+=======
+>>>>>>> 804451c (Lint)
                 ->dateTime()
                 ->sortable()
                 ->toggleable(isToggledHiddenByDefault: $hideUpdated),
@@ -2092,27 +2294,39 @@ public function getTableColumns(): array
 public function getTableColumns(): array
 {
     return [
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
         ColumnBuilder::id(),
         ColumnBuilder::name(),
         ColumnBuilder::email(),
         ...ColumnBuilder::timestamps(),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
     ];
 }
 ```
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 **Risparmio**:
 - **Linee**: -53% (15 → 7)
 - **Manutenibilità**: +80%
 - **Consistenza**: +95%
 - **Applicabile a**: 64 file List
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Proposta 2: FilterBuilder (IMPLEMENTAZIONE REALE)
 // File: Modules/Xot/app/Filament/Builders/FilterBuilder.php
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 ---
 
@@ -2123,16 +2337,22 @@ public function getTableColumns(): array
 
 namespace Modules\Xot\Filament\Builders;
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 use Filament\Tables\Filters\Filter;
 use Filament\Tables\Filters\SelectFilter;
 use Filament\Tables\Filters\TernaryFilter;
 use Illuminate\Database\Eloquent\Builder;
 <<<<<<< HEAD
+<<<<<<< HEAD
 class FilterBuilder
      * Active/Inactive toggle filter
     public static function activeToggle(string $column = 'is_active'): TernaryFilter
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 class FilterBuilder
 {
@@ -2141,16 +2361,22 @@ class FilterBuilder
      */
     public static function activeToggle(string $column = 'is_active'): TernaryFilter
     {
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
         return TernaryFilter::make($column)
             ->label('Status')
             ->placeholder('All')
             ->trueLabel('Active')
             ->falseLabel('Inactive');
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Date range filter
     public static function dateRange(string $column = 'created_at'): Filter
 =======
+=======
+>>>>>>> 804451c (Lint)
     }
 
     /**
@@ -2158,7 +2384,10 @@ class FilterBuilder
      */
     public static function dateRange(string $column = 'created_at'): Filter
     {
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
         return Filter::make($column)
             ->form([
                 Forms\Components\DatePicker::make('from'),
@@ -2171,22 +2400,32 @@ class FilterBuilder
                         fn (Builder $query, $date): Builder => $query->whereDate($column, '>=', $date),
                     )
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                     ->when(
 >>>>>>> laraxot/dev
+=======
+                    ->when(
+>>>>>>> 804451c (Lint)
                         $data['until'],
                         fn (Builder $query, $date): Builder => $query->whereDate($column, '<=', $date),
                     );
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
      * Select filter from model
 =======
+=======
+>>>>>>> 804451c (Lint)
     }
 
     /**
      * Select filter from model
      */
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     public static function selectFromModel(
         string $name,
         string $modelClass,
@@ -2197,6 +2436,7 @@ class FilterBuilder
             ->options(
                 $modelClass::pluck($labelColumn, $valueColumn)->toArray()
             );
+<<<<<<< HEAD
 <<<<<<< HEAD
 // 12 linee
 public function getTableFilters(): array
@@ -2209,6 +2449,8 @@ public function getTableFilters(): array
 ## 📈 ROI REALE CALCOLATO
 ### Scenario Conservativo
 =======
+=======
+>>>>>>> 804451c (Lint)
     }
 }
 ```
@@ -2244,7 +2486,10 @@ public function getTableFilters(): array
 
 ### Scenario Conservativo
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 **Investimento Iniziale**:
 - Implementazione ColumnBuilder: 4h × €50 = €200
 - Implementazione FilterBuilder: 4h × €50 = €200
@@ -2252,9 +2497,13 @@ public function getTableFilters(): array
 - Testing: 16h × €50 = €800
 - **TOTALE**: €2,800
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 804451c (Lint)
 **Benefici Anno 1**:
 - Manutenzione ridotta: 60h × €50 = €3,000
 - Bug fixing più veloce: 30h × €50 = €1,500
@@ -2262,12 +2511,15 @@ public function getTableFilters(): array
 - Feature development: 40h × €50 = €2,000
 - **TOTALE**: €7,250
 <<<<<<< HEAD
+<<<<<<< HEAD
 **ROI Anno 1**: +159% (€4,450 netto)
 **Break-Even**: 4.6 mesi
 **ROI 3 Anni**: +675% (€18,950 netto)
 ### Scenario Ottimistico
 **Investimento**: €2,800 (uguale)
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 **ROI Anno 1**: +159% (€4,450 netto)
 **Break-Even**: 4.6 mesi
@@ -2278,12 +2530,16 @@ public function getTableFilters(): array
 **Investimento**: €2,800 (uguale)
 
 **Benefici Anno 1**:
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - Manutenzione ridotta: 100h × €50 = €5,000
 - Bug fixing: 50h × €50 = €2,500
 - Onboarding: 25h × €50 = €1,250
 - Development: 70h × €50 = €3,500
 - **TOTALE**: €12,250
+<<<<<<< HEAD
 <<<<<<< HEAD
 **ROI Anno 1**: +338% (€9,450 netto)
 **Break-Even**: 2.7 mesi
@@ -2291,6 +2547,8 @@ public function getTableFilters(): array
 ## 🎯 PIANO DI IMPLEMENTAZIONE
 ### Fase 1: Foundation (1 settimana)
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 **ROI Anno 1**: +338% (€9,450 netto)
 **Break-Even**: 2.7 mesi
@@ -2302,12 +2560,16 @@ public function getTableFilters(): array
 
 ### Fase 1: Foundation (1 settimana)
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 **Giorno 1-2**: ColumnBuilder
 - ✅ Implementare metodi base (id, name, email, timestamps)
 - ✅ Implementare badge methods (status, priority)
 - ✅ Test unitari
 - ✅ Documentazione
+<<<<<<< HEAD
 <<<<<<< HEAD
 **Giorno 3-4**: FilterBuilder
 - ✅ Implementare filtri comuni (active, dateRange)
@@ -2317,6 +2579,8 @@ public function getTableFilters(): array
 - ✅ Implementare bulk actions
 ### Fase 2: Refactoring Incrementale (3 settimane)
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 **Giorno 3-4**: FilterBuilder
 - ✅ Implementare filtri comuni (active, dateRange)
@@ -2331,11 +2595,15 @@ public function getTableFilters(): array
 
 ### Fase 2: Refactoring Incrementale (3 settimane)
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 **Settimana 1**: Moduli Core (Xot, User, Cms)
 - 15 List files
 - Test dopo ogni modulo
 - Code review
+<<<<<<< HEAD
 <<<<<<< HEAD
 **Settimana 2**: Moduli Business (<nome progetto>, Blog, Geo)
 - 20 List files
@@ -2350,6 +2618,13 @@ public function getTableFilters(): array
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+<<<<<<< HEAD
+**Settimana 2**: Moduli Business (Fixcity, Blog, Geo)
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 **Settimana 2**: Moduli Business (progetto corrente, Blog, Geo)
 =======
 <<<<<<< HEAD
@@ -2359,34 +2634,49 @@ public function getTableFilters(): array
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - 20 List files
 - Test integrazione
 - Performance check
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 **Settimana 3**: Moduli Support (Job, Media, Notify, etc.)
 - 29 List files
 - Test completi
 - Documentazione aggiornata
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Fase 3: Validazione (1 settimana)
 =======
 
 ### Fase 3: Validazione (1 settimana)
 
 >>>>>>> laraxot/dev
+=======
+
+### Fase 3: Validazione (1 settimana)
+
+>>>>>>> 804451c (Lint)
 - ✅ PHPStan level 7 su tutti i moduli
 - ✅ Test coverage >85%
 - ✅ Performance benchmarks
 - ✅ Documentazione finale
 <<<<<<< HEAD
+<<<<<<< HEAD
 **TOTALE**: 5 settimane
 ## 🏆 CONCLUSIONI SUPER MUCCA
 ### Cosa Abbiamo Scoperto
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 **TOTALE**: 5 settimane
 
@@ -2396,11 +2686,15 @@ public function getTableFilters(): array
 
 ### Cosa Abbiamo Scoperto
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 1. **BaseModel**: 80% dei moduli sono GIÀ OTTIMALI ✅
 2. **List Pages**: 64 file con pattern 70% simili
 3. **Potenziale Riduzione**: 40-60% del codice duplicato
 4. **ROI**: Positivo in 2.7-4.6 mesi
+<<<<<<< HEAD
 <<<<<<< HEAD
 ### Raccomandazioni Finali
 =======
@@ -2408,10 +2702,16 @@ public function getTableFilters(): array
 ### Raccomandazioni Finali
 
 >>>>>>> laraxot/dev
+=======
+
+### Raccomandazioni Finali
+
+>>>>>>> 804451c (Lint)
 #### ⭐⭐⭐⭐⭐ PRIORITÀ MASSIMA
 1. Implementare ColumnBuilder
 2. Implementare FilterBuilder
 3. Refactoring moduli core (Xot, User, Cms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 #### ⭐⭐⭐⭐ PRIORITÀ ALTA
 4. Refactoring moduli business (<nome progetto>, Blog, Geo)
@@ -2424,15 +2724,24 @@ public function getTableFilters(): array
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+
+#### ⭐⭐⭐⭐ PRIORITÀ ALTA
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 4. Refactoring moduli business (Fixcity, Blog, Geo)
 5. ActionPresets per CRUD
 6. Documentazione completa
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 #### ⭐⭐⭐ PRIORITÀ MEDIA
 7. Refactoring moduli support
 8. Performance optimization
 9. Test coverage >90%
+<<<<<<< HEAD
 <<<<<<< HEAD
 ### Metriche di Successo
 =======
@@ -2440,6 +2749,11 @@ public function getTableFilters(): array
 ### Metriche di Successo
 
 >>>>>>> laraxot/dev
+=======
+
+### Metriche di Successo
+
+>>>>>>> 804451c (Lint)
 | Metrica | Baseline | Target | Metodo Verifica |
 |---------|----------|--------|-----------------|
 | LOC Duplicato | 7,230 | 4,315 | grep + wc |
@@ -2448,19 +2762,26 @@ public function getTableFilters(): array
 | Build Time | 45s | 30s | CI/CD |
 | Onboarding Time | 2 settimane | 1 settimana | Survey |
 <<<<<<< HEAD
+<<<<<<< HEAD
 **🐄 Super Mucca Approved**: Questo documento è basato su DATI REALI estratti dal codice, non su stime. Confidenza 99.9%.
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 ---
 
 **🐄 Super Mucca Approved**: Questo documento è basato su DATI REALI estratti dal codice, non su stime. Confidenza 99.9%.
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 **Prossimi Passi**:
 1. Review con team
 2. Approvazione budget
 3. Kick-off Fase 1
 4. Implementazione ColumnBuilder
+<<<<<<< HEAD
 <<<<<<< HEAD
 **Domande?** Chiedi alla Super Mucca! 🐄⚡
 
@@ -2476,6 +2797,8 @@ canonical: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 **Domande?** Chiedi alla Super Mucca! 🐄⚡
 # 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
@@ -2987,10 +3310,15 @@ public function getTableFilters(): array
 #### ⭐⭐⭐⭐ PRIORITÀ ALTA
 4. Refactoring moduli business (Fixcity, Blog, Geo)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 4. Refactoring moduli business (progetto corrente, Blog, Geo)
 =======
 <<<<<<< HEAD
@@ -3000,9 +3328,12 @@ public function getTableFilters(): array
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 5. ActionPresets per CRUD
 6. Documentazione completa
@@ -3033,6 +3364,7 @@ public function getTableFilters(): array
 4. Implementazione ColumnBuilder
 
 **Domande?** Chiedi alla Super Mucca! 🐄⚡
+<<<<<<< HEAD
 <<<<<<< HEAD
 # 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 
@@ -4110,15 +4442,20 @@ public function getTableFilters(): array
 **Domande?** Chiedi alla Super Mucca! 🐄⚡
 <<<<<<< .merge_file_NrGnwl
 =======
-<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
@@ -4131,9 +4468,12 @@ See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLI
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_E5chG2
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

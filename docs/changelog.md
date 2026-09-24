@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_2foyPM
 =======
 <<<<<<< HEAD
@@ -11,6 +12,8 @@
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
 =======
 >>>>>>> .merge_file_65l4Zj
+=======
+>>>>>>> 804451c (Lint)
 ---
 module: theme
 topic: changelog
@@ -18,12 +21,17 @@ canonical: ../../../Themes/docs/shared-components/CHANGELOG.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/CHANGELOG.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_2foyPM
 <<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 # Changelog
 
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
@@ -67,9 +75,12 @@ Tutte le variazioni importanti di UI saranno generate automaticamente da semanti
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_65l4Zj
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

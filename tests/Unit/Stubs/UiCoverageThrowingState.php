@@ -16,6 +16,7 @@ final class UiCoverageThrowingState implements StateContract
 {
     /** @param array<array-key, mixed>|Model|string|null $record */
     /**
+<<<<<<< HEAD
 <<<<<<< .merge_file_wafKYE
 =======
 <<<<<<< .merge_file_m54Q9P
@@ -32,12 +33,15 @@ final class UiCoverageThrowingState implements StateContract
 =======
 >>>>>>> .merge_file_8r5QfC
 >>>>>>> .merge_file_Xkzbe0
+=======
+>>>>>>> 804451c (Lint)
      * @param Model|array<string, mixed>|string|null $record
      */
     public function __construct(
         public Model|array|string|null $record = null,
     ) {
     }
+<<<<<<< HEAD
 <<<<<<< .merge_file_wafKYE
 >>>>>>> laraxot/dev
 =======
@@ -46,6 +50,8 @@ final class UiCoverageThrowingState implements StateContract
 =======
 >>>>>>> .merge_file_8r5QfC
 >>>>>>> .merge_file_Xkzbe0
+=======
+>>>>>>> 804451c (Lint)
 
     public function label(): string
     {
@@ -94,6 +100,7 @@ final class UiCoverageThrowingState implements StateContract
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< .merge_file_wafKYE
 =======
 <<<<<<< .merge_file_m54Q9P
@@ -108,11 +115,14 @@ final class UiCoverageThrowingState implements StateContract
 =======
 >>>>>>> .merge_file_8r5QfC
 >>>>>>> .merge_file_Xkzbe0
+=======
+>>>>>>> 804451c (Lint)
      * @param array<string, mixed> $data
      */
     public function modalActionByRecord(Model $record, array $data): void
     {
     }
+<<<<<<< HEAD
 <<<<<<< .merge_file_wafKYE
 >>>>>>> laraxot/dev
 =======
@@ -121,6 +131,8 @@ final class UiCoverageThrowingState implements StateContract
 =======
 >>>>>>> .merge_file_8r5QfC
 >>>>>>> .merge_file_Xkzbe0
+=======
+>>>>>>> 804451c (Lint)
 
     /**
      * @return list<string>
@@ -135,6 +147,7 @@ final class UiCoverageThrowingState implements StateContract
         return false;
     }
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_wafKYE
 =======
 <<<<<<< .merge_file_m54Q9P
@@ -154,6 +167,11 @@ final class UiCoverageThrowingState implements StateContract
     }
 >>>>>>> .merge_file_8r5QfC
 >>>>>>> .merge_file_Xkzbe0
+=======
+    public function transitionTo(string $state, ?string $message = null): void
+    {
+    }
+>>>>>>> 804451c (Lint)
 
     /**
      * @return Collection<string, string>

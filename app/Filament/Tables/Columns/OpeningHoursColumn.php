@@ -6,6 +6,7 @@ namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Tables\Columns\TextColumn;
 use Modules\UI\Actions\Datetime\GetDaysMappingAction;
+<<<<<<< HEAD
 <<<<<<< .merge_file_009P5h
 
 /**
@@ -22,6 +23,11 @@ use Modules\UI\Filament\Forms\Components\OpeningHoursField;
  * Controparte in lista di {@see OpeningHoursField}.
 >>>>>>> .merge_file_TALaJN
 >>>>>>> .merge_file_DkM4kc
+=======
+
+/**
+ * Controparte in lista di {@see \Modules\UI\Filament\Forms\Components\OpeningHoursField}.
+>>>>>>> 804451c (Lint)
  *
  * Stesso fatto di dominio (orari settimanali per fascia mattina/pomeriggio), due
  * superfici diverse per forma: il form edita ogni giorno con `TimePicker` dedicati
@@ -68,6 +74,7 @@ class OpeningHoursColumn extends TextColumn
             $slots = is_array($day) ? self::formatSlots($day) : [];
 
             $abbrev = mb_substr($dayLabel, 0, 3);
+<<<<<<< HEAD
 <<<<<<< .merge_file_009P5h
 =======
 <<<<<<< .merge_file_AiRD6q
@@ -83,10 +90,14 @@ class OpeningHoursColumn extends TextColumn
             $parts[] = [] === $slots
 >>>>>>> .merge_file_TALaJN
 >>>>>>> .merge_file_DkM4kc
+=======
+            $parts[] = [] === $slots
+>>>>>>> 804451c (Lint)
                 ? "{$abbrev} chiuso"
                 : $abbrev.' '.implode(', ', $slots);
         }
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_009P5h
 =======
 <<<<<<< .merge_file_AiRD6q
@@ -102,6 +113,9 @@ class OpeningHoursColumn extends TextColumn
         return [] === $parts ? '—' : implode(' · ', $parts);
 >>>>>>> .merge_file_TALaJN
 >>>>>>> .merge_file_DkM4kc
+=======
+        return [] === $parts ? '—' : implode(' · ', $parts);
+>>>>>>> 804451c (Lint)
     }
 
     /**

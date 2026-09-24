@@ -2,6 +2,7 @@
 
 ## Data
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GaK4SO
 [DATE]
 =======
@@ -9,10 +10,13 @@
 2025-01-06
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 [DATE]
 =======
 2025-01-06
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 2025-01-06
@@ -20,6 +24,8 @@
 [DATE]
 >>>>>>> .merge_file_C7lyl1
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ## Strumenti Utilizzati
 
@@ -69,6 +75,7 @@ Eseguire `./vendor/bin/rector process Modules/UI --dry-run` per vedere le modifi
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GaK4SO
 =======
 <<<<<<< HEAD
@@ -82,23 +89,32 @@ Eseguire `./vendor/bin/rector process Modules/UI --dry-run` per vedere le modifi
 *Ultimo aggiornamento: 2025-01-06*
 =======
 >>>>>>> .merge_file_C7lyl1
+=======
+>>>>>>> 804451c (Lint)
 - [Module Analysis Report](../../../../docs/module-analysis-report-[date].md)
 - [PHPStan Level 10 Fixes](../../../../docs/phpstan-level10-fixes-[date].md)
 
 *Ultimo aggiornamento: [DATE]*
+<<<<<<< HEAD
 <<<<<<< .merge_file_GaK4SO
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 - [Module Analysis Report](../../../docs/module-analysis-report-2025-01-06.md)
 - [PHPStan Level 10 Fixes](../../../docs/phpstan-level10-fixes-2025-01-06.md)
 
 *Ultimo aggiornamento: 2025-01-06*
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_C7lyl1
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

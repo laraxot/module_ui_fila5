@@ -41,6 +41,7 @@ Le Rules progettuali vivono qui, nel wiki del Module **UI**, e vengono caricate 
 - Per Rules globali, consulta il [wiki root](../../docs/wiki/rules/INDEX.md)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Per Rules globali, consulta il [wiki root](../../docs/wiki/rules/index.md)
 >>>>>>> 92912795 (.)
 =======
@@ -51,6 +52,10 @@ Le Rules progettuali vivono qui, nel wiki del Module **UI**, e vengono caricate 
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- Per Rules globali, consulta il [wiki root](../../docs/wiki/rules/index.md)
+>>>>>>> 92912795 (.)
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ## Aggiungere una Nuova RULES

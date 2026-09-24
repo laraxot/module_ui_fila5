@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_IWqjf6
 <<<<<<< HEAD
 use Filament\Forms\Components\Placeholder;
@@ -13,6 +14,8 @@ use Filament\Forms\Components\TimePicker;
 use Filament\Forms\Components\TimePicker;
 use Filament\Infolists\Components\TextEntry;
 =======
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 use Filament\Forms\Components\Placeholder;
 use Filament\Forms\Components\TimePicker;
@@ -20,12 +23,15 @@ use Filament\Forms\Components\TimePicker;
 use Filament\Forms\Components\TimePicker;
 use Filament\Infolists\Components\TextEntry;
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 use Filament\Forms\Components\TimePicker;
 use Filament\Infolists\Components\TextEntry;
 >>>>>>> .merge_file_eeSXGW
+=======
+>>>>>>> 804451c (Lint)
 use Filament\Schemas\Components\Component;
 use Modules\UI\Actions\Datetime\GetDaysMappingAction;
 use Modules\UI\Rules\OpeningHoursRule;
@@ -58,6 +64,7 @@ final class OpeningHoursField extends XotBaseField
             new OpeningHoursRule(),
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
             new OpeningHoursRule,
 =======
 <<<<<<< HEAD
@@ -66,6 +73,9 @@ final class OpeningHoursField extends XotBaseField
             new OpeningHoursRule,
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+            new OpeningHoursRule,
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
         ]);
     }
@@ -76,6 +86,7 @@ final class OpeningHoursField extends XotBaseField
     private function getDaySchema(string $dayKey, string $dayLabel): array
     {
         return [
+<<<<<<< HEAD
 <<<<<<< .merge_file_IWqjf6
 <<<<<<< HEAD
             Placeholder::make($dayKey.'_label')
@@ -85,6 +96,8 @@ final class OpeningHoursField extends XotBaseField
             TextEntry::make($dayKey.'_label')
                 ->state($dayLabel)
 =======
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
             Placeholder::make($dayKey.'_label')
                 ->content($dayLabel)
@@ -92,12 +105,15 @@ final class OpeningHoursField extends XotBaseField
             TextEntry::make($dayKey.'_label')
                 ->state($dayLabel)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
             TextEntry::make($dayKey.'_label')
                 ->state($dayLabel)
 >>>>>>> .merge_file_eeSXGW
+=======
+>>>>>>> 804451c (Lint)
                 ->extraAttributes([
                     'class' => 'font-medium text-gray-900 dark:text-gray-100 text-center py-2',
                 ])

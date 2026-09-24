@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_gz8Vv4
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_54HEeS
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Integrazione dei Componenti Filament nei Blocchi"
 type: concept
@@ -15,7 +19,10 @@ tags: [filament, component, integration]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament-component-integration integrazione dei componenti filament nei blocchi"
+<<<<<<< HEAD
 <<<<<<< .merge_file_gz8Vv4
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,12 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_54HEeS
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./correct-filament-components.md"
   - "./logo.md"
@@ -41,6 +51,7 @@ related:
   - "./user-dropdown.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_gz8Vv4
 <<<<<<< HEAD
 =======
@@ -51,6 +62,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_54HEeS
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Integrazione dei Componenti Filament nei Blocchi
 
 ## Introduzione

@@ -6,6 +6,7 @@ canonical: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_JThjNI
 =======
 <<<<<<< HEAD
@@ -15,6 +16,9 @@ See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Mo
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_zo4Jfn
+=======
+=======
+>>>>>>> 804451c (Lint)
 
 
 ---
@@ -30,6 +34,7 @@ related:
   - "./overview.md"
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_JThjNI
 <<<<<<< HEAD
 =======
@@ -40,3 +45,6 @@ See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Mo
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_zo4Jfn
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

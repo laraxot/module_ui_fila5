@@ -2,11 +2,16 @@
 # Gestione delle Risorse Pubbliche
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Gestione delle Risorse Pubbliche
 =======
 # Gestione delle Risorse Pubbliche 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+# Gestione delle Risorse Pubbliche 
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -28,11 +33,16 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 /var/www/html/saluteora/
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+/var/www/html/saluteora/
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ├── public_html/           # Directory pubblica principale
 │   ├── images/            # Immagini pubbliche
 │   ├── css/               # File CSS
@@ -46,11 +56,16 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 > **IMPORTANTE**: MAI utilizzare `public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>.
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 > **IMPORTANTE**: MAI utilizzare `public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>.
 =======
 > **IMPORTANTE**: MAI utilizzare `/var/www/html/saluteora/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di SaluteOra.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+> **IMPORTANTE**: MAI utilizzare `/var/www/html/saluteora/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di SaluteOra.
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
 ## Tipi di Risorse
 
@@ -61,20 +76,28 @@ Le immagini devono essere posizionate in `public_html/images/` e organizzate in 
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 Le immagini devono essere posizionate in `public_html/images/` e organizzate in sottocartelle per tipologia:
 
 =======
 Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/images/` e organizzate in sottocartelle per tipologia:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/images/` e organizzate in sottocartelle per tipologia:
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 - `/images/avatars/` - Avatar utenti
 - `/images/logos/` - Loghi
 - `/images/icons/` - Icone
 - `/images/backgrounds/` - Sfondi
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ### CSS e JavaScript
 
@@ -140,7 +163,10 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
     src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}"
     alt="{{ $user->name }}"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 ### CSS e JavaScript
 I file CSS e JavaScript compilati devono essere posizionati in:
@@ -175,7 +201,10 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
     src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}" 
     alt="{{ $user->name }}" 
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     class="h-10 w-10 rounded-full"
 >
 ```
@@ -190,15 +219,21 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
         alt="<nome progetto>"
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
     <img
         src="{{ asset('images/logos/<nome progetto>-logo.svg') }}"
         alt="<nome progetto>"
 =======
+=======
+>>>>>>> 804451c (Lint)
     <img 
         src="{{ asset('images/logos/saluteora-logo.svg') }}" 
         alt="SaluteOra" 
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
         class="h-8"
     >
 </a>
@@ -217,8 +252,13 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>.
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>.
 =======
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto SaluteOra.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto SaluteOra.
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

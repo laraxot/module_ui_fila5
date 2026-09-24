@@ -3,6 +3,7 @@ module: theme
 topic: theme-system
 canonical: ../../../../../Themes/docs/shared-components/theme-system.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_tfXpzC
 =======
 <<<<<<< HEAD
@@ -12,12 +13,16 @@ canonical: ../../../../../Themes/docs/shared-components/theme-system.md
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_zEDeXp
+=======
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./component-system-1.md"
   - "./component-system.md"
   - "./form-component-1.md"
   - "./form-component.md"
   - "./theme-system-1.md"
+<<<<<<< HEAD
 <<<<<<< .merge_file_tfXpzC
 <<<<<<< HEAD
 =======
@@ -28,6 +33,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_zEDeXp
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/theme-system.md

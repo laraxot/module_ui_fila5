@@ -4,11 +4,16 @@
 **Ultimo aggiornamento**: [DATE]
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Ultimo aggiornamento**: [DATE]
 =======
 **Ultimo aggiornamento**: 2025-12-10
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+**Ultimo aggiornamento**: 2025-12-10
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 **Status**: ✅ Completamente conforme a PHPStan Level 10
 
 ## 📊 Stato Corrente
@@ -18,11 +23,16 @@
 - **Data ultima verifica**: [DATE]
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Data ultima verifica**: [DATE]
 =======
 - **Data ultima verifica**: 2025-12-10
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- **Data ultima verifica**: 2025-12-10
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
 ## 🔧 Correzioni Applicate
 

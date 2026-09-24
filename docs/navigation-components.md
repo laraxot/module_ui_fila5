@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_C3ZJrS
 =======
 <<<<<<< HEAD
@@ -240,6 +241,8 @@ return [
    - Utilizzare i separatori corretti nei dropdown (div con bordo, non componenti inesistenti)
 =======
 >>>>>>> .merge_file_W3PFRX
+=======
+>>>>>>> 804451c (Lint)
 ---
 module: theme
 topic: navigation-components
@@ -247,12 +250,17 @@ canonical: ../../../Themes/docs/shared-components/navigation-components.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/navigation-components.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_C3ZJrS
 <<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 # Componenti di Navigazione 
 =======
 <<<<<<< HEAD
@@ -567,9 +575,12 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_W3PFRX
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_yOlMta
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_MZEV0E
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "FullCalendar Component"
 type: concept
@@ -15,7 +19,10 @@ tags: [full, calendar]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "full-calendar fullcalendar component"
+<<<<<<< HEAD
 <<<<<<< .merge_file_yOlMta
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -32,6 +39,7 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -47,6 +55,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MZEV0E
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # FullCalendar Component
 
 ## Introduction

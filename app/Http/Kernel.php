@@ -16,6 +16,7 @@ use Illuminate\Cookie\Middleware\EncryptCookies;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 use Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull;
 use Illuminate\Foundation\Http\Middleware\HandlePrecognitiveRequests;
+<<<<<<< HEAD
 <<<<<<< .merge_file_92fbwG
 <<<<<<< HEAD
 =======
@@ -23,11 +24,15 @@ use Illuminate\Foundation\Http\Middleware\HandlePrecognitiveRequests;
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 use Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance;
 use Illuminate\Foundation\Http\Middleware\TrimStrings;
 use Illuminate\Foundation\Http\Middleware\ValidatePostSize;
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
@@ -41,11 +46,17 @@ use Illuminate\Foundation\Http\Middleware\ValidatePostSize;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
+>>>>>>> 804451c (Lint)
+=======
 use Illuminate\Foundation\Http\Middleware\PreventRequestForgery;
 use Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance;
 use Illuminate\Foundation\Http\Middleware\TrimStrings;
 use Illuminate\Foundation\Http\Middleware\ValidatePostSize;
+<<<<<<< HEAD
 >>>>>>> .merge_file_x6vhVk
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 use Illuminate\Http\Middleware\HandleCors;
 use Illuminate\Http\Middleware\SetCacheHeaders;
 use Illuminate\Routing\Middleware\SubstituteBindings;
@@ -86,6 +97,7 @@ class Kernel extends HttpKernel
             AddQueuedCookiesToResponse::class,
             StartSession::class,
             ShareErrorsFromSession::class,
+<<<<<<< HEAD
 <<<<<<< .merge_file_92fbwG
 <<<<<<< HEAD
             VerifyCsrfToken::class,
@@ -93,16 +105,21 @@ class Kernel extends HttpKernel
 <<<<<<< HEAD
             PreventRequestForgery::class,
 =======
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
             VerifyCsrfToken::class,
 =======
             PreventRequestForgery::class,
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
             PreventRequestForgery::class,
 >>>>>>> .merge_file_x6vhVk
+=======
+>>>>>>> 804451c (Lint)
             SubstituteBindings::class,
             SetLocale::class,
         ],

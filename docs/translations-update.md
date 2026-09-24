@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_S6qdnv
 =======
 <<<<<<< HEAD
@@ -156,6 +157,8 @@ Tutte le traduzioni seguono la struttura espansa:
 *Conforme alle regole DRY + KISS*
 =======
 >>>>>>> .merge_file_1iopam
+=======
+>>>>>>> 804451c (Lint)
 ---
 module: theme
 topic: translations-update
@@ -163,11 +166,15 @@ canonical: ../../../Themes/docs/shared-components/translations-update-january.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/translations-update-january.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_S6qdnv
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 # Aggiornamento Traduzioni Modulo UI - Gennaio 2026
 
 ## Data Intervento
@@ -317,9 +324,12 @@ Tutte le traduzioni seguono la struttura espansa:
 *Intervento completato il: 2026-01-22*
 *Conforme alle regole DRY + KISS*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_1iopam
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

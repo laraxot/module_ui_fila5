@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g0whb9
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_GKeq2S
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Sistema Componenti UI"
 type: concept
@@ -15,7 +19,10 @@ tags: [component, system]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "component-system sistema componenti ui"
+<<<<<<< HEAD
 <<<<<<< .merge_file_g0whb9
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,12 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_GKeq2S
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./bottlenecks.md"
   - "./form-component.md"
@@ -41,6 +51,7 @@ related:
   - "./theme-system.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_g0whb9
 <<<<<<< HEAD
 =======
@@ -51,6 +62,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_GKeq2S
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Sistema Componenti UI
 
 ## 📊 Stato Implementazione

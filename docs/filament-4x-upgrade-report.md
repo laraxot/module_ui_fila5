@@ -1,10 +1,14 @@
 # Rapporto Aggiornamento Filament 4.x - Modulo UI
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_z4rVWo
+=======
+>>>>>>> 804451c (Lint)
 **Status**: ✅ COMPLETATO
 **Versione Filament**: 4.0.17
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -13,6 +17,8 @@
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 **Data**: 2025-01-27  
 **Status**: ✅ COMPLETATO  
 **Versione Filament**: 4.0.17  
@@ -50,6 +56,7 @@
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -66,6 +73,9 @@
 **Versione Filament**: 4.0.17
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_2Smj8g
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
 ## 🔧 Correzioni Implementate
 
@@ -75,11 +85,14 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 4.x
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 **Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 4.x  
 =======
 <<<<<<< HEAD
@@ -103,9 +116,12 @@
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 **Soluzione**: Disabilitazione temporanea del widget
 
@@ -174,6 +190,7 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 {
     protected static ?string $view = 'ui::filament.widgets.simple-calendar';
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_z4rVWo
 
 =======
@@ -184,6 +201,11 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
     
@@ -210,6 +232,7 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -217,6 +240,8 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 =======
 
 >>>>>>> .merge_file_2Smj8g
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public function getEvents(): array
     {
@@ -231,6 +256,7 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 - [Guida Ufficiale Filament 4.x](https://filamentphp.com/docs/4.x/upgrade-guide)
 - [Pacchetto FullCalendar](https://github.com/saade/filament-fullcalendar)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_z4rVWo
 - [Documentazione Modulo UI](../readme.md)
 =======
@@ -238,10 +264,13 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 - [Documentazione Modulo UI](../README.md)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [Documentazione Modulo UI](../readme.md)
 =======
 - [Documentazione Modulo UI](../README.md)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - [Documentazione Modulo UI](../README.md)
@@ -249,6 +278,8 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 - [Documentazione Modulo UI](../readme.md)
 >>>>>>> .merge_file_2Smj8g
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ## 📋 Checklist Completata
 
@@ -274,6 +305,7 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 - Sistema di autenticazione e autorizzazione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_z4rVWo
 =======
 <<<<<<< HEAD
@@ -294,6 +326,8 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 - `UserCalendarWidget.php` - esteso `FullCalendarWidget` da `saade/filament-fullcalendar`
 =======
 >>>>>>> .merge_file_2Smj8g
+=======
+>>>>>>> 804451c (Lint)
 *Ultimo aggiornamento: [DATE]*
 # Rapporto Aggiornamento Filament 4.x - Modulo UI
 
@@ -309,12 +343,17 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 **File disabilitato**:
 - `UserCalendarWidget.php` - esteso `FullCalendarWidget` da `saade/filament-fullcalendar`
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_z4rVWo
 <<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 *Ultimo aggiornamento: 2025-01-27*
 =======
 <<<<<<< HEAD
@@ -342,11 +381,14 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 **File disabilitato**:
 - `UserCalendarWidget.php` - esteso `FullCalendarWidget` da `saade/filament-fullcalendar`
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_2Smj8g
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 **Modifiche applicate**:
 ```php
@@ -358,6 +400,7 @@ class UserCalendarWidget extends FullCalendarWidget
     protected static ?string $view = 'ui::filament.widgets.user-calendar';
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_z4rVWo
 
 =======
@@ -372,11 +415,16 @@ class UserCalendarWidget extends FullCalendarWidget
 =======
 
 >>>>>>> .merge_file_2Smj8g
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 // DOPO (corretto)
 // Temporaneamente commentato per compatibilità Filament 4.x
 // use Saade\FilamentFullCalendar\Widgets\FullCalendarWidget;
 class UserCalendarWidget extends \Filament\Widgets\Widget
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_z4rVWo
 =======
@@ -402,6 +450,8 @@ class UserCalendarWidget extends \Filament\Widgets\Widget
 - [ ] Controllare compatibilità con Filament 4.x
 =======
 >>>>>>> .merge_file_2Smj8g
+=======
+>>>>>>> 804451c (Lint)
 {
     // Temporaneamente commentato per compatibilità Filament 4.x
     // use InteractsWithEvents;
@@ -426,11 +476,15 @@ class UserCalendarWidget extends \Filament\Widgets\Widget
 - [ ] Verificare aggiornamenti `saade/filament-fullcalendar`
 - [ ] Controllare compatibilità con Filament 4.x
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_z4rVWo
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
     // Temporaneamente commentato per compatibilità Filament 4.x
     // use InteractsWithEvents;
     public string $type;
@@ -447,17 +501,21 @@ class UserCalendarWidget extends \Filament\Widgets\Widget
 - [ ] Verificare aggiornamenti `saade/filament-fullcalendar`
 - [ ] Controllare compatibilità con Filament 4.x
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_2Smj8g
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### Fase 2: Test di Compatibilità
 - [ ] Testare pacchetto con Filament 4.x
 - [ ] Verificare funzionalità calendario (eventi, drag&drop, modal)
 - [ ] Testare performance e stabilità
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_z4rVWo
 
 =======
@@ -472,12 +530,17 @@ class UserCalendarWidget extends \Filament\Widgets\Widget
 =======
 
 >>>>>>> .merge_file_2Smj8g
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### Fase 3: Riattivazione
 - [ ] Riattivare UserCalendarWidget
 - [ ] Aggiornare codice per nuove API
 - [ ] Testare integrazione completa
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_z4rVWo
 
 ## 🚀 Funzionalità Alternative
@@ -487,12 +550,15 @@ class UserCalendarWidget extends \Filament\Widgets\Widget
 ## 🚀 Funzionalità Alternative
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 
 ## 🚀 Funzionalità Alternative
 
 =======
 ## 🚀 Funzionalità Alternative
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 ## 🚀 Funzionalità Alternative
@@ -502,10 +568,13 @@ class UserCalendarWidget extends \Filament\Widgets\Widget
 
 >>>>>>> .merge_file_2Smj8g
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ### Soluzioni Temporanee
 1. **Calendario Base**: Implementazione calendario semplice con HTML/CSS
 2. **Integrazione Esterna**: Embed di calendario esterno
 3. **API Custom**: Implementazione personalizzata con Livewire
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_z4rVWo
 =======
@@ -520,6 +589,8 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
     protected static ?string $view = 'ui::filament.widgets.simple-calendar';
 =======
 >>>>>>> .merge_file_2Smj8g
+=======
+>>>>>>> 804451c (Lint)
 
 ### Esempio Calendario Base
 ```php
@@ -528,27 +599,35 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 {
     protected static ?string $view = 'ui::filament.widgets.simple-calendar';
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_z4rVWo
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ### Esempio Calendario Base
 // Widget calendario semplice
 class SimpleCalendarWidget extends \Filament\Widgets\Widget
     protected static ?string $view = 'ui::filament.widgets.simple-calendar';
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_2Smj8g
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public function getEvents(): array
     {
         // Logica per recuperare eventi
         return [];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_z4rVWo
 =======
@@ -564,6 +643,8 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 ## 📋 Checklist Completata
 =======
 >>>>>>> .merge_file_2Smj8g
+=======
+>>>>>>> 804451c (Lint)
 }
 ```
 
@@ -575,22 +656,29 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 
 ## 📋 Checklist Completata
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_z4rVWo
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ## 🔗 Collegamenti
 - [Guida Ufficiale Filament 4.x](https://filamentphp.com/docs/4.x/upgrade-guide)
 - [Pacchetto FullCalendar](https://github.com/saade/filament-fullcalendar)
 - [Documentazione Modulo UI](../README.md)
 ## 📋 Checklist Completata
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_2Smj8g
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - [x] Disabilitato UserCalendarWidget
 - [x] Commentato import FullCalendarWidget
@@ -600,6 +688,7 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 - [x] Creato view placeholder per widget disabilitato
 - [x] Aggiornamento Filament 4.x completato con successo
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_z4rVWo
 
 ## 🎯 Impatto Funzionale
@@ -609,12 +698,15 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 ## 🎯 Impatto Funzionale
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 
 ## 🎯 Impatto Funzionale
 
 =======
 ## 🎯 Impatto Funzionale
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 ## 🎯 Impatto Funzionale
@@ -624,12 +716,15 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 
 >>>>>>> .merge_file_2Smj8g
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ### Funzionalità Temporaneamente Non Disponibili
 - Calendario interattivo con eventi
 - Drag & drop per eventi
 - Modal di creazione/modifica eventi
 - Visualizzazione eventi per tipo
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_z4rVWo
 
 =======
@@ -644,16 +739,24 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 =======
 
 >>>>>>> .merge_file_2Smj8g
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### Funzionalità Mantenute
 - Tutte le altre funzionalità del modulo UI
 - Widget base di Filament 4.x
 - Sistema di autenticazione e autorizzazione
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_z4rVWo
+=======
+>>>>>>> 804451c (Lint)
 
 *Ultimo aggiornamento: [DATE]*
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -662,6 +765,8 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 =======
 
 *Ultimo aggiornamento: 2025-01-27*
@@ -681,6 +786,7 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -689,4 +795,6 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 
 *Ultimo aggiornamento: [DATE]*
 >>>>>>> .merge_file_2Smj8g
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

@@ -17,6 +17,7 @@ class AdminPanelProvider extends XotBasePanelProvider
     #[\Override]
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -24,6 +25,8 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public function panel(Panel $panel): Panel
     {

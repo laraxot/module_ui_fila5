@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_KF6tvo
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_3Aozh7
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Api"
 type: concept
@@ -15,7 +19,10 @@ tags: [api]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "api api"
+<<<<<<< HEAD
 <<<<<<< .merge_file_KF6tvo
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,12 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_3Aozh7
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./api-1.md"
   - "./blocks-1.md"
@@ -45,6 +55,7 @@ related:
   - "./changelog.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_KF6tvo
 <<<<<<< HEAD
 =======
@@ -55,6 +66,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_3Aozh7
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 -------------------------------------------------------------------------------------------------
 Render HTTP JSON Responses for API-based Projects in Laravel
 https://codebrisk.com/blog/render-http-json-responses-for-api-based-projects-in-laravel

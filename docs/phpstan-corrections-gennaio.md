@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ---
 module: theme
 topic: phpstan-corrections-gennaio
@@ -10,7 +13,10 @@ canonical: ../../../Themes/docs/shared-components/phpstan-corrections-.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan-corrections-.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 # PHPStan Corrections - Gennaio 2025
 
@@ -252,4 +258,7 @@ class ViewLocation extends XotBaseViewRecord
 - [PHPStan Patterns](./phpstan-patterns.md)
 - [PHPStan Compliance](./phpstan-compliance.md)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)

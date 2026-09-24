@@ -46,13 +46,19 @@ class ListUsers extends ListRecords
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
         
         return $this->layout->getTableColumns($listColumns, $gridColumns);
     }
     
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
         return $this->layout->getTableColumns($listColumns, $gridColumns);
     }

@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Actions\Table;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_jLI7gn
 <<<<<<< HEAD
 =======
@@ -25,6 +26,15 @@ final class TableLayoutToggleTableAction extends Action implements HasTableLayou
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+use Filament\Actions\Action;
+use Filament\Resources\Pages\ListRecords;
+use Modules\UI\Contracts\HasTableLayout;
+
+final class TableLayoutToggleTableAction extends Action implements HasTableLayout
+=======
+>>>>>>> 804451c (Lint)
 use Filament\Resources\Pages\ListRecords;
 use Modules\UI\Enums\TableLayoutEnum;
 use Modules\UI\Filament\Traits\HasTableLayoutPage;
@@ -32,6 +42,7 @@ use Modules\Xot\Filament\Actions\XotBaseAction;
 
 final class TableLayoutToggleTableAction extends XotBaseAction implements HasTableLayout
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -39,6 +50,9 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
 =======
 final class TableLayoutToggleTableAction extends XotBaseAction implements HasTableLayout
 >>>>>>> .merge_file_GrNmvm
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 {
     use TableLayoutTrait;
 
@@ -46,6 +60,7 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
     {
         parent::setUp();
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_jLI7gn
 <<<<<<< HEAD
 =======
@@ -53,6 +68,9 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
         $current = $this->getCurrentLayout();
 
         $this->label(__('ui::table_layout.actions.toggle.label'))
@@ -60,15 +78,20 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
             ->color($current->getColor())
             ->icon($current->getIcon())
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_GrNmvm
+=======
+=======
+>>>>>>> 804451c (Lint)
         $this->iconButton()
             ->label('')
             ->tooltip(fn (): string => $this->resolveTargetLayout()->getLabel())
             ->icon(fn (): string => $this->resolveTargetLayout()->getIcon())
+<<<<<<< HEAD
 <<<<<<< .merge_file_jLI7gn
 <<<<<<< HEAD
 =======
@@ -77,6 +100,9 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_GrNmvm
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
             ->action($this->toggleLayout(...));
     }
 
@@ -85,6 +111,7 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
         return 'table_layout_toggle';
     }
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_jLI7gn
 <<<<<<< HEAD
 =======
@@ -117,6 +144,21 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+    protected function toggleLayout(?ListRecords $livewire): void
+    {
+        $currentLayout = $this->getCurrentLayout();
+        $newLayout = $currentLayout->toggle();
+
+        $this->setTableLayout($newLayout);
+
+        if ($livewire instanceof ListRecords) {
+            $livewire->dispatch('$refresh');
+        }
+    }
+=======
+>>>>>>> 804451c (Lint)
     protected function toggleLayout(): void
     {
         $livewire = $this->getLivewire();
@@ -134,8 +176,11 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
             $livewire->resetTable();
         }
     }
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_GrNmvm
+=======
+>>>>>>> 804451c (Lint)
 
     private function resolveTargetLayout(?object $livewire = null): TableLayoutEnum
     {
@@ -164,6 +209,7 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
 
         return $this->getCurrentLayout();
     }
+<<<<<<< HEAD
 <<<<<<< .merge_file_jLI7gn
 <<<<<<< HEAD
 =======
@@ -172,4 +218,7 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_GrNmvm
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 }

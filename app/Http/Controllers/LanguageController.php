@@ -26,12 +26,15 @@ class LanguageController extends Controller
         app()->setLocale($locale);
 
 <<<<<<< HEAD
-        return redirect()->back();
-=======
 <<<<<<< HEAD
         return redirect()->back();
 =======
 <<<<<<< HEAD
+        return redirect()->back();
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
         $previous = url()->previous();
         $fallback = url('/');
 
@@ -43,7 +46,10 @@ class LanguageController extends Controller
 =======
         return redirect()->back();
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     }
 }

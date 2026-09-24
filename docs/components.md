@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Xs1IYr
 =======
 <<<<<<< HEAD
@@ -391,6 +392,8 @@ Tutti i componenti UI condivisi devono essere posizionati in `Modules/UI/resourc
 *Documentazione aggiornata: Dicembre 2024*
 =======
 >>>>>>> .merge_file_cquNen
+=======
+>>>>>>> 804451c (Lint)
 ---
 module: theme
 topic: components
@@ -398,11 +401,15 @@ canonical: ../../../Themes/docs/shared-components/components-guide.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/components-guide.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_Xs1IYr
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 # Componenti UI
 
 ## Componenti Form Avanzati
@@ -787,9 +794,12 @@ Tutti i componenti UI condivisi devono essere posizionati in `Modules/UI/resourc
 
 *Documentazione aggiornata: Dicembre 2024*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_cquNen
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

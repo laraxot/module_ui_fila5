@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_1xNZwf
 <<<<<<< HEAD
 =======
@@ -9,10 +10,14 @@ declare(strict_types=1);
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/it/dummy_actions.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -21,6 +26,10 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Utmv1C
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 return [
     'fields' => [
         'azioni' => [
@@ -88,6 +97,7 @@ return [
         ],
         'label' => 'Dummy Actions',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_1xNZwf
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -95,15 +105,20 @@ return [
 <<<<<<< HEAD
         'icon' => 'heroicon-o-rectangle-stack',
 =======
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
 =======
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_Utmv1C
+=======
+>>>>>>> 804451c (Lint)
     ],
 ];

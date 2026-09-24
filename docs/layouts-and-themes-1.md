@@ -260,11 +260,16 @@ class Dashboard extends Component
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
     protected function getLayoutData(): array
     {
         return [
@@ -294,11 +299,16 @@ class Dashboard extends Component
 #### PrintLayout
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### PrintLayout
 =======
 #### PrintLayout 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+#### PrintLayout 
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ```php
 use Modules\UI\Layouts\PrintLayout;
 
@@ -309,11 +319,16 @@ class StampaPratica extends Component
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
     protected function getLayoutData(): array
     {
         return [
@@ -360,11 +375,16 @@ return [
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
         // Tipografia
         'typography' => [
             'fonts' => [
@@ -381,11 +401,16 @@ return [
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
         // Spaziature
         'spacing' => [
             'base' => '1rem',
@@ -396,11 +421,16 @@ return [
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
         // Bordi
         'border' => [
             'radius' => '0.375rem',
@@ -410,11 +440,16 @@ return [
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
         
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
         // Ombre
         'shadows' => [
             'sm' => '0 1px 2px 0 rgb(0 0 0 / 0.05)',
@@ -523,8 +558,13 @@ AdminLayout::make()
    - Centralizzare configurazioni
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Centralizzare configurazioni
 =======
    - Centralizzare configurazioni 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+   - Centralizzare configurazioni 
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

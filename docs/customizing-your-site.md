@@ -1,6 +1,9 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zy8dGv
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 =======
@@ -14,6 +17,7 @@
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -24,12 +28,20 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Aft2AC
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 module: theme
 topic: customizing_your_site
 canonical: ../../../Themes/docs/shared-components/customizing-your-site_1.md
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_zy8dGv
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 See canonical documentation: ../../../Themes/docs/shared-components/customizing-your-site_1.md
 =======
@@ -44,6 +56,7 @@ See canonical documentation: ../../../Themes/docs/shared-components/customizing-
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -52,6 +65,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/customizing-
 See canonical documentation: ../../../Themes/docs/shared-components/customizing-your-site_1.md
 =======
 >>>>>>> .merge_file_Aft2AC
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 title: Customizing Your Site
 description: Customizing your Jigsaw docs site
@@ -60,6 +75,7 @@ section: content
 ---
 # Customizing Your Site {#customizing}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zy8dGv
 =======
 <<<<<<< HEAD
@@ -87,6 +103,8 @@ Here’s a quick preview of what some of the basic type styles will look like in
 <div markdown="1" class="example pt-6">
 =======
 >>>>>>> .merge_file_Aft2AC
+=======
+>>>>>>> 804451c (Lint)
 
 ## Styles
 
@@ -119,11 +137,15 @@ Here’s a quick preview of what some of the basic type styles will look like in
 
 <div markdown="1" class="example pt-6">
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_zy8dGv
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ## Styles
 This starter template comes pre-loaded with [Tailwind CSS](https://tailwindcss.com), a utility CSS framework that allows you to customize and build complex designs without touching a line of CSS. There are also a few base Sass files in the `/source/_assets/sass` folder, set up with the expectation that you can add any custom CSS into `_documentation.scss`.
 > You can re-work the architecture of the Sass includes any way you’d like; just make sure to keep the `@tailwind` references in your final files.
@@ -143,11 +165,14 @@ This starter template comes pre-loaded with [Tailwind CSS](https://tailwindcss.c
 Here’s a quick preview of what some of the basic type styles will look like in this starter template:
 <div markdown="1" class="example pt-6">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Aft2AC
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 # h1 Heading
 ## h2 Heading
@@ -155,6 +180,7 @@ Here’s a quick preview of what some of the basic type styles will look like in
 #### h4 Heading
 ##### h5 Heading
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zy8dGv
 =======
 <<<<<<< HEAD
@@ -174,6 +200,8 @@ _The quick brown fox jumps over the lazy dog_
 [The quick brown fox jumps over the lazy dog](#)
 =======
 >>>>>>> .merge_file_Aft2AC
+=======
+>>>>>>> 804451c (Lint)
 
 ## h2 Heading
 
@@ -203,11 +231,15 @@ _The quick brown fox jumps over the lazy dog_
 
 [The quick brown fox jumps over the lazy dog](#)
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_zy8dGv
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ###### h6 Heading
 The quick brown fox jumps over the lazy dog
 <s>The quick brown fox jumps over the lazy dog</s>
@@ -219,11 +251,14 @@ _The quick brown fox jumps over the lazy dog_
 > The quick brown fox jumps over the lazy dog
 [The quick brown fox jumps over the lazy dog](#)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Aft2AC
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```php
 class Foo extends bar
@@ -233,6 +268,7 @@ class Foo extends bar
         //
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_zy8dGv
 =======
@@ -259,6 +295,8 @@ class Foo extends bar
 ```
 =======
 >>>>>>> .merge_file_Aft2AC
+=======
+>>>>>>> 804451c (Lint)
 ```
 
 </div>
@@ -311,9 +349,13 @@ This starter template comes pre-loaded with [Tailwind CSS](https://tailwindcss.c
 @tailwind utilities;
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 </div>
 ### Versione HEAD
 ## Collegamenti tra versioni di customizing-your-site.md
@@ -333,9 +375,12 @@ This starter template comes pre-loaded with [Tailwind CSS](https://tailwindcss.c
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ---
@@ -383,11 +428,14 @@ class Foo extends bar
 
 </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 * [customizing-your-site.md](../../../gdpr/docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../xot/docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../ui/docs/customizing-your-site.md)
@@ -399,9 +447,13 @@ class Foo extends bar
 * [customizing-your-site.md](../../../tenant/project_docs/it/customizing-your-site.md)
 * [customizing-your-site.md](../../../cms/project_docs/customizing-your-site.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 * [customizing-your-site.md](../../../Gdpr/docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../Xot/docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../UI/docs/customizing-your-site.md)
@@ -413,26 +465,35 @@ class Foo extends bar
 * [customizing-your-site.md](../../../Tenant/project_docs/it/customizing-your-site.md)
 * [customizing-your-site.md](../../../Cms/project_docs/customizing-your-site.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ### Versione Incoming
 
 ---
+<<<<<<< HEAD
 <<<<<<< .merge_file_zy8dGv
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
@@ -445,9 +506,12 @@ See canonical documentation: ../../../Themes/docs/shared-components/customizing-
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Aft2AC
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

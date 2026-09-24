@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_hQyAkc
 =======
 <<<<<<< .merge_file_AEw819
@@ -17,12 +18,15 @@ use Mockery;
 =======
 >>>>>>> .merge_file_VvrOHu
 >>>>>>> .merge_file_pRtxZS
+=======
+>>>>>>> 804451c (Lint)
 use Modules\UI\Tests\TestCase;
 use Modules\Xot\Tests\ModuleBusinessCoverage;
 
 uses(TestCase::class);
 
 afterEach(function (): void {
+<<<<<<< HEAD
 <<<<<<< .merge_file_hQyAkc
 =======
 <<<<<<< .merge_file_AEw819
@@ -38,6 +42,9 @@ afterEach(function (): void {
     \Mockery::close();
 >>>>>>> .merge_file_VvrOHu
 >>>>>>> .merge_file_pRtxZS
+=======
+    \Mockery::close();
+>>>>>>> 804451c (Lint)
 });
 
 /** @return list{string, string} */

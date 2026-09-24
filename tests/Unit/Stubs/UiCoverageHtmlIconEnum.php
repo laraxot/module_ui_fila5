@@ -26,6 +26,7 @@ enum UiCoverageHtmlIconEnum: string implements HasColor, HasIcon
     {
         return match ($this) {
             self::HtmlStringIcon => new HtmlString('<i>x</i>'),
+<<<<<<< HEAD
 <<<<<<< .merge_file_vYhYla
 =======
 <<<<<<< .merge_file_m3ZBat
@@ -42,6 +43,9 @@ enum UiCoverageHtmlIconEnum: string implements HasColor, HasIcon
             self::HtmlableOnly => new class implements Htmlable {
 >>>>>>> .merge_file_2ny5Tj
 >>>>>>> .merge_file_0PeElo
+=======
+            self::HtmlableOnly => new class implements Htmlable {
+>>>>>>> 804451c (Lint)
                 public function toHtml(): string
                 {
                     return 'x';

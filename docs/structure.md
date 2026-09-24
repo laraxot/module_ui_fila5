@@ -1,6 +1,7 @@
 # Modulo UI
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_BEhqqt
 Data: [DATE] 19:09:56
 =======
@@ -8,10 +9,13 @@ Data: [DATE] 19:09:56
 Data: 2025-04-23 19:09:56
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 Data: [DATE] 19:09:56
 =======
 Data: 2025-04-23 19:09:56
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 Data: 2025-04-23 19:09:56
@@ -19,6 +23,8 @@ Data: 2025-04-23 19:09:56
 Data: [DATE] 19:09:56
 >>>>>>> .merge_file_5EZSs2
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ## Informazioni generali
 
@@ -520,6 +526,7 @@ tests_old
 ## Collegamenti tra versioni di structure.md
 * [structure.md](bashscripts/docs/structure.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_BEhqqt
 =======
 <<<<<<< HEAD
@@ -544,6 +551,8 @@ tests_old
 * [structure.md](../../../Cms/docs/components/structure.md)
 =======
 >>>>>>> .merge_file_5EZSs2
+=======
+>>>>>>> 804451c (Lint)
 * [structure.md](../../../gdpr/docs/structure.md)
 * [structure.md](../../../notify/docs/structure.md)
 * [structure.md](../../../xot/docs/structure.md)
@@ -559,11 +568,15 @@ tests_old
 * [structure.md](../../../cms/docs/structure.md)
 * [structure.md](../../../cms/docs/themes/structure.md)
 * [structure.md](../../../cms/docs/components/structure.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_BEhqqt
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 * [structure.md](../../../Gdpr/docs/structure.md)
 * [structure.md](../../../Notify/docs/structure.md)
 * [structure.md](../../../Xot/docs/structure.md)
@@ -580,9 +593,12 @@ tests_old
 * [structure.md](../../../Cms/docs/themes/structure.md)
 * [structure.md](../../../Cms/docs/components/structure.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_5EZSs2
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit;
 
 use Illuminate\Translation\PotentiallyTranslatedString;
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 <<<<<<< .merge_file_RJtMwC
@@ -18,6 +19,8 @@ use Mockery;
 =======
 >>>>>>> .merge_file_JKXZzI
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> 804451c (Lint)
 use Mockery\MockInterface;
 use Modules\UI\Enums\FieldTypeEnum;
 use Modules\UI\Enums\TableLayout;
@@ -30,6 +33,7 @@ use Modules\UI\Tests\TestCase;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Tests\FilamentSchemaCoverage;
 use PHPUnit\Framework\Assert;
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 <<<<<<< .merge_file_RJtMwC
@@ -43,10 +47,13 @@ use SplFileInfo;
 =======
 >>>>>>> .merge_file_JKXZzI
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> 804451c (Lint)
 
 uses(TestCase::class);
 
 afterEach(function (): void {
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 <<<<<<< .merge_file_RJtMwC
@@ -62,6 +69,9 @@ afterEach(function (): void {
     \Mockery::close();
 >>>>>>> .merge_file_JKXZzI
 >>>>>>> .merge_file_f1BPAC
+=======
+    \Mockery::close();
+>>>>>>> 804451c (Lint)
 });
 
 describe('UI Filament widgets and components coverage', function (): void {
@@ -72,6 +82,7 @@ describe('UI Filament widgets and components coverage', function (): void {
             if (! str_contains($class, 'Filament\\Widgets\\')) {
                 continue;
             }
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 <<<<<<< .merge_file_RJtMwC
@@ -90,6 +101,10 @@ describe('UI Filament widgets and components coverage', function (): void {
             ++$seen;
 >>>>>>> .merge_file_JKXZzI
 >>>>>>> .merge_file_f1BPAC
+=======
+            Assert::assertInstanceOf($class, new $class());
+            ++$seen;
+>>>>>>> 804451c (Lint)
         }
         Assert::assertGreaterThan(0, $seen);
     });
@@ -99,6 +114,7 @@ describe('UI Filament widgets and components coverage', function (): void {
         $iterator = new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($appRoot.'/Filament/Forms'));
         $count = 0;
         foreach ($iterator as $file) {
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 <<<<<<< .merge_file_RJtMwC
@@ -114,11 +130,15 @@ describe('UI Filament widgets and components coverage', function (): void {
             if (! $file instanceof \SplFileInfo || ! $file->isFile() || ! str_ends_with($file->getFilename(), '.php')) {
 >>>>>>> .merge_file_JKXZzI
 >>>>>>> .merge_file_f1BPAC
+=======
+            if (! $file instanceof \SplFileInfo || ! $file->isFile() || ! str_ends_with($file->getFilename(), '.php')) {
+>>>>>>> 804451c (Lint)
                 continue;
             }
             $class = 'Modules\\UI\\'.str_replace(['/', '.php'], ['\\', ''], substr($file->getPathname(), strlen($appRoot) + 1));
             if (class_exists($class)) {
                 Assert::assertTrue(class_exists($class));
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 <<<<<<< .merge_file_RJtMwC
@@ -134,6 +154,9 @@ describe('UI Filament widgets and components coverage', function (): void {
                 ++$count;
 >>>>>>> .merge_file_JKXZzI
 >>>>>>> .merge_file_f1BPAC
+=======
+                ++$count;
+>>>>>>> 804451c (Lint)
             }
         }
         Assert::assertGreaterThan(0, $count);
@@ -153,6 +176,7 @@ describe('UI coverage boost — Enums', function (): void {
 
 describe('UI coverage boost — Rules and policies', function (): void {
     test('OpeningHoursRule accepts empty array value', function (): void {
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 <<<<<<< .merge_file_RJtMwC
@@ -168,6 +192,9 @@ describe('UI coverage boost — Rules and policies', function (): void {
         $rule = new OpeningHoursRule();
 >>>>>>> .merge_file_JKXZzI
 >>>>>>> .merge_file_f1BPAC
+=======
+        $rule = new OpeningHoursRule();
+>>>>>>> 804451c (Lint)
         $failed = false;
         $rule->validate(
             'hours',
@@ -183,6 +210,7 @@ describe('UI coverage boost — Rules and policies', function (): void {
 
     test('UiBasePolicy before grants super-admin', function (): void {
         /** @var MockInterface&UserContract $superAdmin */
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 <<<<<<< .merge_file_RJtMwC
@@ -201,6 +229,8 @@ describe('UI coverage boost — Rules and policies', function (): void {
 =======
 >>>>>>> .merge_file_JKXZzI
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> 804451c (Lint)
         $superAdmin = \Mockery::mock(UserContract::class);
         TestCase::expectMethod($superAdmin, 'hasRole')->with('super-admin')->andReturn(true);
         /** @var MockInterface&UserContract $regular */
@@ -209,6 +239,7 @@ describe('UI coverage boost — Rules and policies', function (): void {
 
         $policy = new class extends UiBasePolicy {
         };
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 >>>>>>> laraxot/dev
 =======
@@ -217,6 +248,8 @@ describe('UI coverage boost — Rules and policies', function (): void {
 =======
 >>>>>>> .merge_file_JKXZzI
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> 804451c (Lint)
         Assert::assertTrue($policy->before($superAdmin, 'viewAny'));
         Assert::assertNull($policy->before($regular, 'viewAny'));
     });
@@ -224,6 +257,7 @@ describe('UI coverage boost — Rules and policies', function (): void {
 
 describe('UI coverage boost — Models and providers', function (): void {
     test('Category fillable matches domain fields', function (): void {
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 <<<<<<< .merge_file_RJtMwC
@@ -240,11 +274,14 @@ describe('UI coverage boost — Models and providers', function (): void {
 =======
 >>>>>>> .merge_file_JKXZzI
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> 804451c (Lint)
         Assert::assertContains('name', (new Category())->getFillable());
     });
 
     test('StatsOverviewWidget declares heading', function (): void {
         $widget = new StatsOverviewWidget();
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 >>>>>>> laraxot/dev
 =======
@@ -253,6 +290,8 @@ describe('UI coverage boost — Models and providers', function (): void {
 =======
 >>>>>>> .merge_file_JKXZzI
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> 804451c (Lint)
         $ref = new \ReflectionClass($widget);
         $prop = $ref->getProperty('heading');
         $prop->setAccessible(true);

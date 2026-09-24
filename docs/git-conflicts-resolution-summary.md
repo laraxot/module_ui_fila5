@@ -46,6 +46,7 @@ Tutti i file risolti rispettano:
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_s4T8Rp
 - [Documentazione Root UI](../../../../docs/modules/ui.md)
 - [Components Documentation](./components.md)
@@ -57,6 +58,8 @@ Tutti i file risolti rispettano:
 - [Design System Guidelines](../../../docs/design-system.md)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [Documentazione Root UI](../../../../docs/modules/ui.md)
 - [Components Documentation](./components.md)
 - [Design System Guidelines](../../../../docs/design-system.md)
@@ -65,6 +68,7 @@ Tutti i file risolti rispettano:
 - [Components Documentation](./components.md)
 - [Design System Guidelines](../../../docs/design-system.md)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - [Documentazione Root UI](../../../docs/modules/ui.md)
@@ -76,6 +80,8 @@ Tutti i file risolti rispettano:
 - [Design System Guidelines](../../../../docs/design-system.md)
 >>>>>>> .merge_file_PWu1IH
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ---
 *Aggiornato automaticamente dopo risoluzione conflitti Git*

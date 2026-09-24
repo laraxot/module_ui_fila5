@@ -4,6 +4,7 @@ description: Installazione Filament
 extends: _layouts.documentation
 section: content
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Y8nOIY
 =======
 <<<<<<< HEAD
@@ -13,6 +14,9 @@ section: content
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_ppNuZW
+=======
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -22,6 +26,7 @@ related:
   - "./filament-4-migration-guide.md"
   - "./filament-4-migration-summary.md"
   - "./filament-4-migration-sumy.md"
+<<<<<<< HEAD
 <<<<<<< .merge_file_Y8nOIY
 <<<<<<< HEAD
 =======
@@ -32,6 +37,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ppNuZW
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ---
 
 # Installazione Filament {#installazione-filament}

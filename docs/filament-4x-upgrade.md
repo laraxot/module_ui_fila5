@@ -1,6 +1,7 @@
 # Filament 4.x Upgrade - Modulo UI
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MDBNXW
 =======
 <<<<<<< HEAD
@@ -16,6 +17,11 @@
 =======
 >>>>>>> .merge_file_VODkQH
 >>>>>>> laraxot/dev
+=======
+=======
+**Data**: 2025-09-30
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 **Status**: ✅ COMPLETATO
 **Versione Filament**: 4.0.20
 
@@ -161,6 +167,7 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 4. **Testing**: Testare approfonditamente il widget quando il pacchetto sarà aggiornato
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MDBNXW
 =======
 <<<<<<< HEAD
@@ -184,6 +191,8 @@ Il modulo UI è stato aggiornato con successo a Filament 4.x. Le modifiche princ
 #### Modifiche Specifiche
 =======
 >>>>>>> .merge_file_VODkQH
+=======
+>>>>>>> 804451c (Lint)
 *Ultimo aggiornamento: [DATE]*
 *Modulo UI compatibile con Filament 4.0.20*
 # Filament 4.x Upgrade - Modulo UI
@@ -207,11 +216,15 @@ Il modulo UI è stato aggiornato con successo a Filament 4.x. Le modifiche princ
 
 #### Modifiche Specifiche
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_MDBNXW
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 *Ultimo aggiornamento: 2025-09-30*
 <<<<<<< HEAD
 *Modulo UI compatibile con Filament 4.0.20*
@@ -243,17 +256,21 @@ Il modulo UI è stato aggiornato con successo a Filament 4.x. Le modifiche princ
 **Soluzione**: Disabilitazione temporanea del widget calendario
 #### Modifiche Specifiche
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_VODkQH
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```php
 // PRIMA (Filament 3)
 use Saade\FilamentFullCalendar\Widgets\FullCalendarWidget;
 use Saade\FilamentFullCalendar\Widgets\Concerns\InteractsWithEvents;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MDBNXW
 =======
 <<<<<<< HEAD
@@ -289,6 +306,8 @@ class UserCalendarWidget extends \Filament\Widgets\Widget
    - A: `protected string $view`
 =======
 >>>>>>> .merge_file_VODkQH
+=======
+>>>>>>> 804451c (Lint)
 
 class UserCalendarWidget extends FullCalendarWidget
 {
@@ -329,11 +348,15 @@ class UserCalendarWidget extends \Filament\Widgets\Widget
    - Da: `protected static ?string $view`
    - A: `protected string $view`
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_MDBNXW
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 class UserCalendarWidget extends FullCalendarWidget
 {
     use InteractsWithEvents;
@@ -360,12 +383,15 @@ class UserCalendarWidget extends \Filament\Widgets\Widget
 4. **Proprietà $view aggiornata**:
    - Da: `protected static ?string $view`
    - A: `protected string $view`
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_VODkQH
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 5. **Funzionalità mantenute**:
    - `fetchEvents(array $fetchInfo): array` - Per futura riattivazione
@@ -373,6 +399,7 @@ class UserCalendarWidget extends \Filament\Widgets\Widget
    - `onDateSelect()` - Per futura riattivazione
    - `getActionName()` - Logica custom mantenuta
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MDBNXW
 =======
 <<<<<<< HEAD
@@ -405,6 +432,8 @@ Quando il pacchetto sarà compatibile:
 ## 🎨 View Template
 =======
 >>>>>>> .merge_file_VODkQH
+=======
+>>>>>>> 804451c (Lint)
 
 ## 📦 Dipendenze
 
@@ -452,11 +481,15 @@ class UserCalendarWidget extends FullCalendarWidget
 
 ## 🎨 View Template
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_MDBNXW
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ## 📦 Dipendenze
 ### Pacchetto Non Compatibile
 **Nome**: `saade/filament-fullcalendar`
@@ -481,17 +514,21 @@ Quando il pacchetto sarà compatibile:
     // ... resto del codice già presente
 ## 🎨 View Template
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_VODkQH
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare:
 - Messaggio temporaneo di disabilitazione
 - Link alla documentazione
 - Alternativa manuale (se applicabile)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MDBNXW
 =======
 <<<<<<< HEAD
@@ -506,6 +543,8 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 ## 📋 Checklist
 =======
 >>>>>>> .merge_file_VODkQH
+=======
+>>>>>>> 804451c (Lint)
 
 ## 🔗 Collegamenti
 
@@ -515,22 +554,29 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 
 ## 📋 Checklist
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_MDBNXW
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ## 🔗 Collegamenti
 - [Filament 4.x Upgrade Guide](https://filamentphp.com/docs/4.x/upgrade-guide)
 - [Filament Widgets](https://filamentphp.com/docs/4.x/panels/widgets)
 - [saade/filament-fullcalendar](https://github.com/saade/filament-fullcalendar)
 ## 📋 Checklist
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_VODkQH
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - [x] Commentati import da `saade/filament-fullcalendar`
 - [x] Cambiato extends da `FullCalendarWidget` a `Widget`
@@ -541,6 +587,7 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 - [ ] View template aggiornato con messaggio temporaneo
 - [ ] Monitoraggio aggiornamenti pacchetto
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MDBNXW
 
 ## 🚨 Note Importanti
@@ -557,24 +604,35 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 
 <<<<<<< .merge_file_MDBNXW
 ## 🚨 Note Importanti
+=======
+
+## 🚨 Note Importanti
+>>>>>>> 804451c (Lint)
 
 =======
 ## 🚨 Note Importanti
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_VODkQH
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 1. **Breaking Change**: La proprietà `$view` in Filament 4 **non è più statica**
 2. **Compatibilità**: Il widget attuale non renderà il calendario fino all'aggiornamento del pacchetto
 3. **Funzionalità**: Metodi `fetchEvents()`, `getFormSchema()`, `onDateSelect()` sono pronti per la riattivazione
 4. **Testing**: Testare approfonditamente il widget quando il pacchetto sarà aggiornato
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MDBNXW
+=======
+>>>>>>> 804451c (Lint)
 
 *Ultimo aggiornamento: [DATE]*
 *Modulo UI compatibile con Filament 4.0.20*
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -583,6 +641,8 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 *Modulo UI compatibile con Filament 4.0.20*
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 *Ultimo aggiornamento: 2025-09-30*
 <<<<<<< HEAD
 
@@ -605,6 +665,7 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -617,4 +678,6 @@ La view `ui::filament.widgets.user-calendar` deve essere aggiornata per mostrare
 *Ultimo aggiornamento: [DATE]*
 *Modulo UI compatibile con Filament 4.0.20*
 >>>>>>> .merge_file_VODkQH
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

@@ -9,6 +9,7 @@ use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Support\Facades\Auth;
 use Modules\UI\Actions\GetUserDataAction;
 use Modules\UI\Tests\TestCase;
+<<<<<<< HEAD
 <<<<<<< .merge_file_mFSiky
 =======
 <<<<<<< .merge_file_76v5sc
@@ -33,6 +34,11 @@ use Spatie\Permission\Models\Permission;
 use Spatie\Permission\Models\Role;
 >>>>>>> .merge_file_Z4B5Fc
 >>>>>>> .merge_file_0mGykw
+=======
+use PHPUnit\Framework\Assert;
+use Spatie\Permission\Models\Permission;
+use Spatie\Permission\Models\Role;
+>>>>>>> 804451c (Lint)
 
 uses(TestCase::class);
 
@@ -44,6 +50,7 @@ uses(TestCase::class);
  * connessione. Non è una scorciatoia — è il modo di provare la logica dell'azione invece
  * della disponibilità del database.
  *
+<<<<<<< HEAD
 <<<<<<< .merge_file_mFSiky
 =======
 <<<<<<< .merge_file_76v5sc
@@ -57,11 +64,17 @@ uses(TestCase::class);
  * @param array<int, string>   $permissions
  * @param array<string, mixed> $attributes
 >>>>>>> laraxot/dev
+=======
+ * @param array<int, string>   $roles
+ * @param array<int, string>   $permissions
+ * @param array<string, mixed> $attributes
+>>>>>>> 804451c (Lint)
  */
 function uiAuthUser(array $roles = [], array $permissions = [], array $attributes = []): Authenticatable
 {
     $user = new class extends \Illuminate\Foundation\Auth\User {
         public ?object $profile = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -80,12 +93,16 @@ function uiAuthUser(array $roles = [], array $permissions = [], array $attribute
 
 >>>>>>> .merge_file_Z4B5Fc
 >>>>>>> .merge_file_0mGykw
+=======
+
+>>>>>>> 804451c (Lint)
         public function relationLoaded(mixed $key): bool
         {
             if (! is_string($key)) {
                 return false;
             }
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_mFSiky
 =======
 <<<<<<< .merge_file_76v5sc
@@ -101,6 +118,9 @@ function uiAuthUser(array $roles = [], array $permissions = [], array $attribute
             return 'profile' === $key && null !== $this->profile;
 >>>>>>> .merge_file_Z4B5Fc
 >>>>>>> .merge_file_0mGykw
+=======
+            return 'profile' === $key && null !== $this->profile;
+>>>>>>> 804451c (Lint)
         }
     };
     $user->forceFill(array_merge([
@@ -110,6 +130,7 @@ function uiAuthUser(array $roles = [], array $permissions = [], array $attribute
     ], $attributes));
 
     $user->setRelation('roles', collect(array_map(
+<<<<<<< HEAD
 <<<<<<< .merge_file_mFSiky
 =======
 <<<<<<< .merge_file_76v5sc
@@ -125,10 +146,14 @@ function uiAuthUser(array $roles = [], array $permissions = [], array $attribute
         static fn (string $name): Role => tap(new Role())->forceFill(['name' => $name]),
 >>>>>>> .merge_file_Z4B5Fc
 >>>>>>> .merge_file_0mGykw
+=======
+        static fn (string $name): Role => tap(new Role())->forceFill(['name' => $name]),
+>>>>>>> 804451c (Lint)
         $roles,
     )));
 
     $user->setRelation('permissions', collect(array_map(
+<<<<<<< HEAD
 <<<<<<< .merge_file_mFSiky
 =======
 <<<<<<< .merge_file_76v5sc
@@ -144,6 +169,9 @@ function uiAuthUser(array $roles = [], array $permissions = [], array $attribute
         static fn (string $name): Permission => tap(new Permission())->forceFill(['name' => $name]),
 >>>>>>> .merge_file_Z4B5Fc
 >>>>>>> .merge_file_0mGykw
+=======
+        static fn (string $name): Permission => tap(new Permission())->forceFill(['name' => $name]),
+>>>>>>> 804451c (Lint)
         $permissions,
     )));
 

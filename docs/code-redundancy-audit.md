@@ -8,10 +8,14 @@ updated: "2026-05-26"
 owner: "UI"
 <<<<<<< HEAD
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/150"
+<<<<<<< HEAD
 <<<<<<< .merge_file_8NNkpd
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/150"
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -19,12 +23,15 @@ issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/150"
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/150"
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 issue: "https://github.com/provtv/<nome repository>/issues/150"
 =======
 =======
 issue: "https://github.com/provtv/<nome repository>/issues/150"
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -34,6 +41,8 @@ issue: "https://github.com/provtv/<nome repository>/issues/150"
 issue: "https://github.com/provtv/<nome repository>/issues/150"
 =======
 >>>>>>> .merge_file_SbiLuR
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ---
 
@@ -123,6 +132,7 @@ Ridurre rumore, duplicazione e ambiguita' nel codice di questo module, senza per
 - AGENTS.md/SKILL.md devono restare manifest leggeri, con YAML/front matter e routing on-demand.
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 - agents.md/SKILL.md devono restare manifest leggeri, con YAML/front matter e routing on-demand.
 >>>>>>> 92912795 (.)
 =======
@@ -133,6 +143,10 @@ Ridurre rumore, duplicazione e ambiguita' nel codice di questo module, senza per
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- agents.md/SKILL.md devono restare manifest leggeri, con YAML/front matter e routing on-demand.
+>>>>>>> 92912795 (.)
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - I descrittori architetturali navigabili riducono i passi di localizzazione: ogni owner dovrebbe avere mappa scopo -> file chiave.
 - AI utile = recupero mirato, non pre-caricamento: report atomici, QMD, issue e log.

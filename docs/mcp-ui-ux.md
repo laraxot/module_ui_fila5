@@ -1,6 +1,7 @@
 # MCP Servers per UI/UX - Modulo UI
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Xx5PuZ
 =======
 <<<<<<< HEAD
@@ -16,6 +17,11 @@
 =======
 >>>>>>> .merge_file_f2WbPw
 >>>>>>> laraxot/dev
+=======
+=======
+> Ultimo aggiornamento: Febbraio 2026
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
 ## Scopo
 
@@ -51,6 +57,7 @@ Il modulo UI fornisce componenti Blade condivisi in `resources/views/components/
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Xx5PuZ
 - [MCP UI/UX Tema Two](../../themes/two/docs/mcp-ui-ux.md)
 - [Status MCP Progetto](../../../../docs/mcp-servers-status.md)
@@ -60,12 +67,15 @@ Il modulo UI fornisce componenti Blade condivisi in `resources/views/components/
 - [Status MCP Progetto](../../../docs/mcp-servers-status.md)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [MCP UI/UX Tema Two](../../themes/two/docs/mcp-ui-ux.md)
 - [Status MCP Progetto](../../../../docs/mcp-servers-status.md)
 =======
 - [MCP UI/UX Tema Two](../../Themes/Two/docs/mcp-ui-ux.md)
 - [Status MCP Progetto](../../../docs/mcp-servers-status.md)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - [MCP UI/UX Tema Two](../../Themes/Two/docs/mcp-ui-ux.md)
@@ -75,5 +85,7 @@ Il modulo UI fornisce componenti Blade condivisi in `resources/views/components/
 - [Status MCP Progetto](../../../../docs/mcp-servers-status.md)
 >>>>>>> .merge_file_f2WbPw
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - [Skill MCP UI/UX](../../../.windsurf/skills/mcp-ui-ux/skill.md)
 - [Workflow MCP UI/UX](../../../.windsurf/workflows/mcp-ui-ux.md)

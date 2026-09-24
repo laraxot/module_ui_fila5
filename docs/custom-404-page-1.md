@@ -40,7 +40,10 @@ Depending on where your site is hosted, you may need to configure your server to
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 ### Versione Incoming
 
@@ -48,7 +51,10 @@ Depending on where your site is hosted, you may need to configure your server to
 ---
 
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ### Versione Incoming
 
 ---

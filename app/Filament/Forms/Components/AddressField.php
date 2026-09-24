@@ -28,6 +28,7 @@ class AddressField extends XotBaseField
         parent::setUp();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $this->afterStateHydrated(function (AddressField $_component, mixed $record): void {
 <<<<<<< .merge_file_FPAuUE
 =======
@@ -38,6 +39,9 @@ class AddressField extends XotBaseField
 <<<<<<< HEAD
         $this->afterStateHydrated(function (AddressField $component, mixed $record): void {
 >>>>>>> laraxot/dev
+=======
+        $this->afterStateHydrated(function (AddressField $component, mixed $record): void {
+>>>>>>> 804451c (Lint)
             $data = [
                 'country' => null,
                 'street' => null,
@@ -46,25 +50,33 @@ class AddressField extends XotBaseField
                 'zip' => null,
             ];
 
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_YrrHEk
             if (! $record instanceof Model) {
 <<<<<<< HEAD
 =======
+=======
+            if (! $record instanceof Model) {
+>>>>>>> 804451c (Lint)
                 $component->state($data);
 
 =======
         $this->afterStateHydrated(function (AddressField $_component, Model|array|null $record): void {
             if (! $record instanceof Model) {
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
                 return;
             }
 
             $relationship = $this->getRelationship();
             if ($relationship && $record->relationLoaded($relationship)) {
                 $address = $record->getRelationValue($relationship);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -83,10 +95,20 @@ class AddressField extends XotBaseField
             $component->state($data);
 =======
 >>>>>>> laraxot/dev
+=======
+                if (null !== $address && is_object($address) && method_exists($address, 'toArray')) {
+                    $data = $address->toArray();
+                }
+            }
+
+            $component->state($data);
+=======
+>>>>>>> 804451c (Lint)
                 if ($address !== null && is_object($address) && method_exists($address, 'toArray')) {
                     $address->toArray();
                 }
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -94,6 +116,9 @@ class AddressField extends XotBaseField
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_YrrHEk
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
         });
 
         $this->dehydrated(false);

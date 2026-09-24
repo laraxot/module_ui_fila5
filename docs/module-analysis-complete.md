@@ -200,6 +200,7 @@ Il modulo UI è il sistema di componenti e interfacce utente condivisi di <nome 
 - [ ] CHANGELOG.md - Aggiornare con test
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] changelog.md - Aggiornare con test
 >>>>>>> 92912795 (.)
 =======
@@ -210,6 +211,10 @@ Il modulo UI è il sistema di componenti e interfacce utente condivisi di <nome 
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- [ ] changelog.md - Aggiornare con test
+>>>>>>> 92912795 (.)
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - [ ] widget-documentation.md - Documentare widget
 

@@ -4,12 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit\Models;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
+=======
+use Modules\UI\Models\Asset;
+>>>>>>> 804451c (Lint)
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 use function Safe\file_get_contents;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_TYIwra
 <<<<<<< HEAD
 =======
@@ -18,6 +23,10 @@ use function Safe\file_get_contents;
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 /*
  * Asset is an OPTIONAL model that is NOT part of the UI module artifact set
  * (no Models/Asset.php, no AssetFactory, no create_assets_table migration).
@@ -30,6 +39,7 @@ use function Safe\file_get_contents;
  * (see CategoryModelTest) and drop the ignores.
  */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -73,12 +83,21 @@ uses(TestCase::class);
 
 beforeEach(function (): void {
     if (! class_exists(UI_ASSET_MODEL_CLASS)) {
+=======
+>>>>>>> laraxot/dev
+uses(TestCase::class);
+
+beforeEach(function (): void {
+    /* @var \Modules\UI\Tests\TestCase $this */
+    if (! class_exists('Modules\UI\Models\Asset')) {
+>>>>>>> 804451c (Lint)
         Assert::markTestSkipped('Asset model is not part of the UI module artifact set.');
     }
 });
 
 describe('Asset Model', function (): void {
     test('can be instantiated', function (): void {
+<<<<<<< HEAD
 <<<<<<< .merge_file_TYIwra
 <<<<<<< HEAD
         /** @phpstan-ignore-next-line -- Asset model is optional, guarded by setUp */
@@ -90,6 +109,8 @@ describe('Asset Model', function (): void {
         $asset = new Asset;
         /* @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
 =======
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
         /** @phpstan-ignore-next-line -- Asset model is optional, guarded by setUp */
         $asset = new Asset();
@@ -99,17 +120,22 @@ describe('Asset Model', function (): void {
         $asset = new Asset;
         /* @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         Assert::assertInstanceOf(Asset::class, $asset);
 =======
         Assert::assertInstanceOf(uiAssetModelClass(), uiAssetModel());
 >>>>>>> .merge_file_7Icx8h
+=======
+        Assert::assertInstanceOf(Asset::class, $asset);
+>>>>>>> 804451c (Lint)
     });
 
     test('has fillable attributes', function (): void {
         $expected = ['name', 'type', 'path', 'theme_id', 'is_minified', 'is_compressed', 'order', 'should_bundle'];
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_TYIwra
 <<<<<<< HEAD
 =======
@@ -117,18 +143,26 @@ describe('Asset Model', function (): void {
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
         /** @phpstan-ignore-next-line -- Asset model is optional, guarded by setUp */
         $asset = new Asset();
         foreach ($expected as $field) {
             /* @phpstan-ignore-next-line -- Asset model is optional */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
         /** @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
         $asset = new Asset;
         foreach ($expected as $field) {
             /* @phpstan-ignore-next-line class.notFound, argument.type (Asset model absent from artifact set) */
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -140,10 +174,15 @@ describe('Asset Model', function (): void {
         foreach ($expected as $field) {
             Assert::assertContains($field, $fillable);
 >>>>>>> .merge_file_7Icx8h
+=======
+>>>>>>> laraxot/dev
+            Assert::assertTrue(in_array($field, $asset->getFillable()));
+>>>>>>> 804451c (Lint)
         }
     });
 
     test('has casts defined', function (): void {
+<<<<<<< HEAD
 <<<<<<< .merge_file_TYIwra
 <<<<<<< HEAD
 =======
@@ -151,6 +190,9 @@ describe('Asset Model', function (): void {
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
         /** @phpstan-ignore-next-line -- Asset model is optional, guarded by setUp */
         $asset = new Asset();
         $casts = $asset->getCasts(); // @phpstan-ignore-line
@@ -162,9 +204,13 @@ describe('Asset Model', function (): void {
         Assert::assertSame('integer', $casts['order']);
         /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
         /** @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
         $asset = new Asset;
         /**
@@ -177,9 +223,12 @@ describe('Asset Model', function (): void {
         Assert::assertSame('boolean', $casts['is_compressed']);
         Assert::assertSame('integer', $casts['order']);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
         Assert::assertSame('boolean', $casts['should_bundle']);
     });
@@ -188,6 +237,7 @@ describe('Asset Model', function (): void {
 <<<<<<< HEAD
         /** @phpstan-ignore-next-line -- Asset::class resolves to string even if class absent */
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
         /** @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
 =======
@@ -210,10 +260,16 @@ describe('Asset Model', function (): void {
     test('has theme relationship', function (): void {
         $reflection = new \ReflectionClass(uiAssetModelClass());
 >>>>>>> .merge_file_7Icx8h
+=======
+        /** @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
+>>>>>>> laraxot/dev
+        $reflection = new \ReflectionClass(Asset::class);
+>>>>>>> 804451c (Lint)
         Assert::assertTrue($reflection->hasMethod('theme'));
     });
 
     test('has correct table name', function (): void {
+<<<<<<< HEAD
 <<<<<<< .merge_file_TYIwra
 <<<<<<< HEAD
         /** @phpstan-ignore-next-line -- Asset model is optional, guarded by setUp */
@@ -225,6 +281,8 @@ describe('Asset Model', function (): void {
         $asset = new Asset;
         /* @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
 =======
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
         /** @phpstan-ignore-next-line -- Asset model is optional, guarded by setUp */
         $asset = new Asset();
@@ -234,8 +292,11 @@ describe('Asset Model', function (): void {
         $asset = new Asset;
         /* @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
         Assert::assertSame('assets', $asset->getTable());
     });
 
@@ -244,6 +305,7 @@ describe('Asset Model', function (): void {
         /* @phpstan-ignore-next-line -- Asset::class resolves to string even if class absent */
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
         /* @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
 =======
 <<<<<<< HEAD
@@ -252,6 +314,9 @@ describe('Asset Model', function (): void {
         /* @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        /* @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
         Assert::assertTrue(is_a(Asset::class, 'Modules\UI\Models\BaseModel', true));
     });
@@ -260,6 +325,7 @@ describe('Asset Model', function (): void {
 <<<<<<< HEAD
         /** @phpstan-ignore-next-line -- Asset::class resolves to string even if class absent */
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
         /** @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
 =======
@@ -282,6 +348,11 @@ describe('Asset Model', function (): void {
     test('uses strict types', function (): void {
         $reflection = new \ReflectionClass(uiAssetModelClass());
 >>>>>>> .merge_file_7Icx8h
+=======
+        /** @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
+>>>>>>> laraxot/dev
+        $reflection = new \ReflectionClass(Asset::class);
+>>>>>>> 804451c (Lint)
         $fileName = $reflection->getFileName();
         Assert::assertNotFalse($fileName);
         $content = file_get_contents($fileName);
@@ -289,6 +360,7 @@ describe('Asset Model', function (): void {
     });
 
     test('has correct namespace', function (): void {
+<<<<<<< HEAD
 <<<<<<< .merge_file_TYIwra
 <<<<<<< HEAD
         /** @phpstan-ignore-next-line -- Asset::class resolves to string even if class absent */
@@ -296,11 +368,14 @@ describe('Asset Model', function (): void {
 <<<<<<< HEAD
         /** @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
 =======
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
         /** @phpstan-ignore-next-line -- Asset::class resolves to string even if class absent */
 =======
         /** @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         $reflection = new \ReflectionClass(Asset::class);
@@ -309,5 +384,9 @@ describe('Asset Model', function (): void {
         $reflection = new \ReflectionClass(uiAssetModelClass());
         Assert::assertSame('Modules\\UI\\Models', $reflection->getNamespaceName());
 >>>>>>> .merge_file_7Icx8h
+=======
+        $reflection = new \ReflectionClass(Asset::class);
+        Assert::assertSame('Modules\UI\Models', $reflection->getNamespaceName());
+>>>>>>> 804451c (Lint)
     });
 });

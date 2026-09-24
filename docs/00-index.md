@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_xV0a3D
 # 📚 **Indice Documentazione Modulo UI**
 
@@ -37,6 +38,11 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
+=======
+# 📚 **Indice Documentazione Modulo UI**
+
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "UI — indice della documentazione"
 description: "Documentazione del modulo UI: componenti di interfaccia condivisi."
@@ -55,15 +61,19 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 # 📚 **Indice Documentazione Modulo UI**
 
 **Last Update**: 31 Gennaio 2026
+<<<<<<< HEAD
 =======
 # 📚 **Indice Documentazione Modulo UI**
 
 >>>>>>> .merge_file_ZXGrPf
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 **Status**: ✅ PHPStan Level 10 Compliant
 **Module Version**: 2.3.0
 
 ## 🎯 **Lettura Essenziale**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_xV0a3D
 1. [README.md](./readme.md) - Design System e overview componenti.
@@ -72,10 +82,13 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 1. [README.md](./README.md) - Design System e overview componenti.
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 1. [README.md](./readme.md) - Design System e overview componenti.
 =======
 1. [README.md](./README.md) - Design System e overview componenti.
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 1. [README.md](./README.md) - Design System e overview componenti.
@@ -83,6 +96,8 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 1. [README.md](./readme.md) - Design System e overview componenti.
 >>>>>>> .merge_file_ZXGrPf
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 2. [roadmap.md](./roadmap.md) - Evoluzione 2026: Tailwind v4 e Flux UI integration.
 3. [philosophy.md](./philosophy.md) - "La Bellezza è Funzionale": filosofia del design in Laraxot.
 
@@ -96,6 +111,7 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 - ⚡ **[Filament Components](./filament-components-usage.md)** - Custom columns, fields e widgets per l'Admin Panel.
 - 📍 **[Location Selector](./filament-components-location-studio.md)** - Componente avanzato per la selezione geografica.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_xV0a3D
 <<<<<<< HEAD
@@ -104,6 +120,8 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_ZXGrPf
+=======
+>>>>>>> 804451c (Lint)
 - 🏛️ **[Design Comuni FAQ Components](./design-comuni-faq-components.md)** - Componenti UI per pagina FAQ (Accordion, Hero, Breadcrumb, Search) ✅ 90%
 
 ## 🏛️ **Design Comuni Italia - Replication**
@@ -136,6 +154,7 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 | Hero | ✅ 100% | ✅ 95% | N/A | ✅ 98% |
 | Breadcrumb | ✅ 100% | ✅ 100% | N/A | ✅ 100% |
 | Search | ✅ 100% | ✅ 90% | ⏳ 0% | ⏳ 65% |
+<<<<<<< HEAD
 <<<<<<< .merge_file_xV0a3D
 <<<<<<< HEAD
 =======
@@ -144,6 +163,9 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_ZXGrPf
+=======
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ## 🛠️ **Integrazioni Tecniche**
@@ -153,6 +175,7 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 
 ## 🧪 **Qualità e Sviluppo**
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ **[PHPStan Analysis](./phpstan-level-10-cleanup.md)** - Report di conformità Level 10.
 =======
 <<<<<<< HEAD
@@ -161,12 +184,16 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 - ✅ **[PHPStan Analysis](./phpstan-level-10-cleanup.md)** - Report di conformità Level 10.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- ✅ **[PHPStan Analysis](./phpstan-level-10-cleanup.md)** - Report di conformità Level 10.
+>>>>>>> 804451c (Lint)
 - 🔬 **[Testing UI](./testing.md)** - Test di regressione visuale e componenti.
 
 ## 🧹 **Manutenzione**
 - 🗑️ **[Cleanup Plan](./consolidation-plan.md)** - Strategia per ridurre i 280+ file di documentazione.
 
 ## 📦 **Pacchetti Composer**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_xV0a3D
 =======
@@ -183,6 +210,8 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 - [Cms](../../Cms/docs/README.md) - Layout dei contenuti e blocchi.
 =======
 >>>>>>> .merge_file_ZXGrPf
+=======
+>>>>>>> 804451c (Lint)
 - [Riferimento completo](../../../../docs/composer-packages-reference.md) | [Inventario 312 pacchetti](../../../../docs/architecture/composer-packages-full-inventory.md)
 - `owenvoke/blade-fontawesome` - Icone FontAwesome
 
@@ -216,11 +245,15 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 | Hero | ✅ 100% | ✅ 95% | N/A | ✅ 98% |
 | Breadcrumb | ✅ 100% | ✅ 100% | N/A | ✅ 100% |
 | Search | ✅ 100% | ✅ 90% | ⏳ 0% | ⏳ 65% |
+<<<<<<< HEAD
 <<<<<<< .merge_file_xV0a3D
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 - [Riferimento composer packages](../../../../bashscripts/ai/wiki/memories/composer-packages-reference.md)
 - `owenvoke/blade-fontawesome` - Icone FontAwesome
 
@@ -228,22 +261,29 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 - [Xot](../../Xot/docs/README.md) - Base framework per i widget.
 - [Cms](../../Cms/docs/README.md) - Layout dei contenuti e blocchi.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_ZXGrPf
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ---
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_xV0a3D
+=======
+>>>>>>> 804451c (Lint)
 ## Dependency Intelligence
 
 - [Dependency intelligence](dependency-intelligence.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -475,6 +515,8 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
+=======
+>>>>>>> 804451c (Lint)
 ---
 
 <!-- Merged from 00-INDEX.md, which collided with this file on case-insensitive filesystems. -->
@@ -693,9 +735,12 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 **Maintained By**: AI Agents Team  
 **Review Cycle**: Every sprint  
 **Next Review**: 2026-04-02
+<<<<<<< HEAD
 =======
 ## Dependency Intelligence
 
 - [Dependency intelligence](dependency-intelligence.md)
 >>>>>>> .merge_file_ZXGrPf
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

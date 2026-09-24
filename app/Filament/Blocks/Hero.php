@@ -10,14 +10,18 @@ use Filament\Forms\Components\Repeater;
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\TextInput;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 final class Hero
 {
     public static function make(string $name = 'hero', string $context = 'form'): Block
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
         $options = app(GetViewBlocksOptionsByTypeAction::class)->execute('hero', true);
 
@@ -32,6 +36,11 @@ final class Hero
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+        // ---------------
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
         return Block::make($name)->schema([
             TextInput::make('title'),
             RichEditor::make('text'),

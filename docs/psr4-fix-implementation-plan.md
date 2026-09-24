@@ -1,6 +1,7 @@
 # 🔧 PSR-4 Fix Implementation Plan - UI Module
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_763mx7
 =======
 <<<<<<< HEAD
@@ -16,6 +17,11 @@
 =======
 >>>>>>> .merge_file_kFplSF
 >>>>>>> laraxot/dev
+=======
+=======
+**Data**: Dicembre 15, 2025
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 **Modulo**: UI
 **Tipo Fix**: Namespace correction (Modules\Notify → Modules\UI)
 
@@ -45,10 +51,14 @@ Tutti in `Modules/UI/app/Filament/Forms/Components/`:
 
 <<<<<<< HEAD
 **TechPlanner/app/Filament/Resources/ClientResource.php**:
+<<<<<<< HEAD
 <<<<<<< .merge_file_763mx7
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 **TechPlanner/app/Filament/Resources/ClientResource.php**:
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -56,6 +66,8 @@ Tutti in `Modules/UI/app/Filament/Forms/Components/`:
 **TechPlanner/app/Filament/Resources/ClientResource.php**:
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 **modulo operativo/app/Filament/Resources/ClientResource.php**:
 =======
 =======
@@ -77,6 +89,7 @@ Tutti in `Modules/UI/app/Filament/Forms/Components/`:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -85,6 +98,8 @@ Tutti in `Modules/UI/app/Filament/Forms/Components/`:
 **modulo operativo/app/Filament/Resources/ClientResource.php**:
 =======
 >>>>>>> .merge_file_kFplSF
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```php
 Line 13: use Modules\Notify\Filament\Forms\Components\ContactSection;
@@ -207,6 +222,7 @@ Aggiornare:
 - [ ] `Modules/UI/docs/CHANGELOG.md` - Log del fix
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] `Modules/UI/docs/changelog.md` - Log del fix
 >>>>>>> 92912795 (.)
 =======
@@ -217,6 +233,10 @@ Aggiornare:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- [ ] `Modules/UI/docs/changelog.md` - Log del fix
+>>>>>>> 92912795 (.)
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ### Step 8: Git Commit

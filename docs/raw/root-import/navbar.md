@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZncLhk
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_8q3JrM
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Navbar"
 type: concept
@@ -15,7 +19,10 @@ tags: [navbar]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "navbar navbar"
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZncLhk
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,12 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_8q3JrM
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./api-1.md"
   - "./api.md"
@@ -45,6 +55,7 @@ related:
   - "./changelog-2.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZncLhk
 <<<<<<< HEAD
 =======
@@ -55,6 +66,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_8q3JrM
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 https://tw-elements.com/docs/standard/navigation/navbar/
 
 https://flowbite.com/docs/components/navbar/

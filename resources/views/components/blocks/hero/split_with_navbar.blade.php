@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_Xxl8Hg
 <<<<<<< HEAD
 =======
@@ -5,6 +6,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -34,6 +38,7 @@
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -45,6 +50,14 @@
 <?php
 
 declare(strict_types=1);
+=======
+=======
+>>>>>>> laraxot/dev
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> 804451c (Lint)
 ?>
 <div class="relative bg-gray-50">
     <div class="relative bg-white shadow">

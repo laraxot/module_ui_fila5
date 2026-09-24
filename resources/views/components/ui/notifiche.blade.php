@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZP9qdi
 <<<<<<< HEAD
 =======
@@ -5,6 +6,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -52,6 +56,7 @@
 @php
 @endphp
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -64,6 +69,10 @@
 declare(strict_types=1);
 ?>
 >>>>>>> .merge_file_zFtlCi
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 @props([
     'notifications' => [],
     'maxCount' => 5,
@@ -194,6 +203,7 @@ declare(strict_types=1);
             </div>
         @endif
     </div>
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZP9qdi
 <<<<<<< HEAD
 </div>
@@ -201,13 +211,18 @@ declare(strict_types=1);
 <<<<<<< HEAD
 </div>
 =======
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 </div>
 =======
 </div>
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 </div>
 >>>>>>> .merge_file_zFtlCi
+=======
+>>>>>>> 804451c (Lint)

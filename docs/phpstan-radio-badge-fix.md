@@ -5,11 +5,16 @@
 [DATE]
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 [DATE]
 =======
 2025-01-27
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+2025-01-27
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
 ## File Modificato
 `Modules/UI/app/Filament/Forms/Components/RadioBadge.php`
@@ -159,11 +164,16 @@ class RadioBadge extends Radio
 [DATE]
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 [DATE]
 =======
 2025-01-27
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+2025-01-27
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
 ## File Modificato
 `Modules/UI/app/Filament/Forms/Components/RadioBadge.php`

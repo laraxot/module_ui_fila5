@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_lHMgkg
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_63am4Y
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "UI Module Wiki Index"
 type: concept
@@ -15,7 +19,10 @@ tags: [index]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "index ui module wiki index"
+<<<<<<< HEAD
 <<<<<<< .merge_file_lHMgkg
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,17 +35,21 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_63am4Y
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./agents.md"
   - "./log.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_lHMgkg
 <<<<<<< HEAD
 =======
@@ -49,6 +60,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_63am4Y
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # UI Module Wiki Index
 
 > **Module**: UI

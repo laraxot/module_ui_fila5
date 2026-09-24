@@ -3,6 +3,7 @@ module: theme
 topic: filament-4-migration-sumy
 canonical: ../../../../Themes/docs/shared-components/filament-4-migration-summary.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_OInfKb
 =======
 <<<<<<< HEAD
@@ -12,6 +13,9 @@ canonical: ../../../../Themes/docs/shared-components/filament-4-migration-summar
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_MhwvcN
+=======
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -21,6 +25,7 @@ related:
   - "./filament-4-migration-guide.md"
   - "./filament-4-migration-summary.md"
   - "./file-upload-component.md"
+<<<<<<< HEAD
 <<<<<<< .merge_file_OInfKb
 <<<<<<< HEAD
 =======
@@ -31,6 +36,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MhwvcN
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/filament-4-migration-summary.md

@@ -8,6 +8,7 @@ qmd: "gitmodules sync session module theme note story-003"
 issues:
 <<<<<<< HEAD
   - "https://github.com/provtv/<nome repository>/issues/201"
+<<<<<<< HEAD
 <<<<<<< .merge_file_ffeCn5
 =======
 <<<<<<< .merge_file_EB0Auk
@@ -18,6 +19,8 @@ issues:
   - "https://github.com/provtv/<nome repository>/issues/201"
 >>>>>>> .merge_file_CdEFdQ
 >>>>>>> .merge_file_hpiovx
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -25,6 +28,7 @@ issues:
 =======
   - "https://github.com/provtv/<nome repository>/issues/201"
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
 <<<<<<< .merge_file_ffeCn5
 =======
 <<<<<<< .merge_file_EB0Auk
@@ -32,6 +36,8 @@ issues:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_CdEFdQ
 >>>>>>> .merge_file_hpiovx
+=======
+>>>>>>> 804451c (Lint)
 discussions: []
 related:
   - "../../../../../../docs/stories/STORY-003-gitmodules-sync-conflict-sweep.md"
@@ -54,6 +60,7 @@ Sessione orchestrata dal prompt `bashscripts/tools/prompts/02-gitmodules-sync.md
 - Report: [../../../../../../docs/chat/gitmodules-sync.md](../../../../../../docs/chat/gitmodules-sync.md)
 <<<<<<< HEAD
 - Issue base: https://github.com/provtv/base_ptv_fila5/issues/201
+<<<<<<< HEAD
 <<<<<<< .merge_file_ffeCn5
 =======
 <<<<<<< .merge_file_EB0Auk
@@ -64,6 +71,8 @@ Sessione orchestrata dal prompt `bashscripts/tools/prompts/02-gitmodules-sync.md
 - Issue base: https://github.com/provtv/base_ptv_fila5/issues/201
 >>>>>>> .merge_file_CdEFdQ
 >>>>>>> .merge_file_hpiovx
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 - Issue base: https://github.com/provtv/<nome repository>/issues/201
 =======
@@ -71,6 +80,7 @@ Sessione orchestrata dal prompt `bashscripts/tools/prompts/02-gitmodules-sync.md
 - Issue base: https://github.com/provtv/<nome repository>/issues/201
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_ffeCn5
 =======
 <<<<<<< .merge_file_EB0Auk
@@ -78,3 +88,5 @@ Sessione orchestrata dal prompt `bashscripts/tools/prompts/02-gitmodules-sync.md
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_CdEFdQ
 >>>>>>> .merge_file_hpiovx
+=======
+>>>>>>> 804451c (Lint)

@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_5MLC9a
 title: "Root modulo/tema — zero .txt, max 4 .md"
 =======
@@ -7,10 +8,13 @@ title: "Root modulo/tema — zero .txt, max 4 .md"
 title: "Root modulo/tema — zero .txt, max 6 .md"
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 title: "Root modulo/tema — zero .txt, max 4 .md"
 =======
 title: "Root modulo/tema — zero .txt, max 6 .md"
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 title: "Root modulo/tema — zero .txt, max 6 .md"
@@ -18,6 +22,8 @@ title: "Root modulo/tema — zero .txt, max 6 .md"
 title: "Root modulo/tema — zero .txt, max 4 .md"
 >>>>>>> .merge_file_qeFkI5
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 type: rule
 module: UI
 tags: [hygiene, modules, themes, txt, markdown]
@@ -26,6 +32,7 @@ updated: 2026-07-08
 qmd: "module theme root txt md hygiene audit fix"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_5MLC9a
   - ../../../../../../docs/wiki/rules/module-theme-root-no-txt-files.md
   - ../../../../../../docs/wiki/rules/module-theme-root-md-files-limit.md
@@ -37,6 +44,11 @@ related:
   - ../../../../../../docs/wiki/rules/module-theme-root-md-files-limit.md
 =======
 >>>>>>> laraxot/dev
+=======
+  - ../../../../../../docs/wiki/rules/module-theme-root-no-txt-files.md
+  - ../../../../../../docs/wiki/rules/module-theme-root-md-files-limit.md
+=======
+>>>>>>> 804451c (Lint)
   - "./git-merge-conflict-inventory-1.md"
   - "./git-merge-conflict-inventory.md"
 <<<<<<< HEAD
@@ -66,6 +78,7 @@ related:
   - "./phpstan-fixes-1.md"
   - "./phpstan-fixes.md"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -80,6 +93,8 @@ related:
   - ../../../../../../docs/wiki/rules/module-theme-root-no-txt-files.md
   - ../../../../../../docs/wiki/rules/module-theme-root-md-files-limit.md
 >>>>>>> .merge_file_qeFkI5
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ---
 
@@ -91,6 +106,7 @@ related:
 |---------------------------------|------------|
 | `*.txt` | **0** |
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_5MLC9a
 | `*.md` | **max 4**: `README.md`, `CHANGELOG.md`, `LICENSE.md`, `AGENTS.md` |
 =======
@@ -98,10 +114,13 @@ related:
 | `*.md` | **max 6**: preferiti `README.md`, `CHANGELOG.md`, `LICENSE.md`, `AGENTS.md`, `CLAUDE.md` +1 |
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 | `*.md` | **max 4**: `README.md`, `CHANGELOG.md`, `LICENSE.md`, `AGENTS.md` |
 =======
 | `*.md` | **max 6**: preferiti `README.md`, `CHANGELOG.md`, `LICENSE.md`, `AGENTS.md`, `CLAUDE.md` +1 |
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 | `*.md` | **max 6**: preferiti `README.md`, `CHANGELOG.md`, `LICENSE.md`, `AGENTS.md`, `CLAUDE.md` +1 |
@@ -109,6 +128,8 @@ related:
 | `*.md` | **max 4**: `README.md`, `CHANGELOG.md`, `LICENSE.md`, `AGENTS.md` |
 >>>>>>> .merge_file_qeFkI5
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 | Cartelle | solo **lowercase** (`app`, `config`, `docs`, …) |
 
 ## Perché

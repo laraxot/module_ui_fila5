@@ -25,6 +25,7 @@ related:
 - 150+ rules embeddate in AGENTS.md
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 - 150+ rules embeddate in agents.md
 >>>>>>> 92912795 (.)
 =======
@@ -35,6 +36,10 @@ related:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- 150+ rules embeddate in agents.md
+>>>>>>> 92912795 (.)
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 + 0 rules embeddate — tutte on-demand
 \`\`\`
@@ -67,6 +72,7 @@ Ogni modulo ha i propri `rules/skills/commands/memories/INDEX.md`:
 Ogni modulo ha i propri `rules/skills/commands/memories/INDEX.md`:
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 Ogni modulo ha i propri `rules/skills/commands/memories/index.md`:
 >>>>>>> 92912795 (.)
 =======
@@ -77,6 +83,10 @@ Ogni modulo ha i propri `rules/skills/commands/memories/index.md`:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Ogni modulo ha i propri `rules/skills/commands/memories/index.md`:
+>>>>>>> 92912795 (.)
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - Ricerca più rapida (scope limitato)
 - Context rilevante per il modulo

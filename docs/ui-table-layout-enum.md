@@ -160,6 +160,7 @@ Seleziona le colonne appropriate in base al layout corrente.
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_0FRxg7
 - [Documentazione Completa TableLayoutEnum](../../laravel/modules/ui/docs/table-layout-enum-complete-guide.md)
 - [Modulo UI](../../laravel/modules/ui/docs/readme.md)
@@ -169,12 +170,15 @@ Seleziona le colonne appropriate in base al layout corrente.
 - [Modulo UI](../../laravel/Modules/UI/docs/README.md)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [Documentazione Completa TableLayoutEnum](../../laravel/modules/ui/docs/table-layout-enum-complete-guide.md)
 - [Modulo UI](../../laravel/modules/ui/docs/readme.md)
 =======
 - [Documentazione Completa TableLayoutEnum](../../laravel/Modules/UI/docs/table-layout-enum-complete-guide.md)
 - [Modulo UI](../../laravel/Modules/UI/docs/README.md)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - [Documentazione Completa TableLayoutEnum](../../laravel/Modules/UI/docs/table-layout-enum-complete-guide.md)
@@ -184,11 +188,14 @@ Seleziona le colonne appropriate in base al layout corrente.
 - [Modulo UI](../../laravel/modules/ui/docs/readme.md)
 >>>>>>> .merge_file_ncYfVV
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - [Enum Standards](enum_standards.md)
 - [Filament Best Practices](filament-widget-best-practices.md)
 
 ## Ultimo Aggiornamento
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_0FRxg7
 [DATE] - Documentazione TableLayoutEnum nella root docs
 =======
@@ -196,10 +203,13 @@ Seleziona le colonne appropriate in base al layout corrente.
 2025-01-27 - Documentazione TableLayoutEnum nella root docs
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 [DATE] - Documentazione TableLayoutEnum nella root docs
 =======
 2025-01-27 - Documentazione TableLayoutEnum nella root docs
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 2025-01-27 - Documentazione TableLayoutEnum nella root docs
@@ -207,3 +217,5 @@ Seleziona le colonne appropriate in base al layout corrente.
 [DATE] - Documentazione TableLayoutEnum nella root docs
 >>>>>>> .merge_file_ncYfVV
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)

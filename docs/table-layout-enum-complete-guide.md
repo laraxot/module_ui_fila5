@@ -357,6 +357,7 @@ dd($this->layout->getTableContentGrid());
 - [UI Components](../components.md)
 - [Filament Tables](https://filamentphp.com/docs/3.x/tables/overview)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_eSPwEA
 =======
 <<<<<<< HEAD
@@ -371,25 +372,34 @@ dd($this->layout->getTableContentGrid());
 2025-01-27 - Documentazione completa TableLayoutEnum
 =======
 >>>>>>> .merge_file_ugQGLx
+=======
+>>>>>>> 804451c (Lint)
 - [Translation Standards](../../xot/docs/translation-standards.md)
 - [Enum Standards](../../../../docs/enum_standards.md)
 
 ## Ultimo Aggiornamento
 [DATE] - Documentazione completa TableLayoutEnum
+<<<<<<< HEAD
 <<<<<<< .merge_file_eSPwEA
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 - [Translation Standards](../../Xot/docs/translation-standards.md)
 - [Enum Standards](../../../docs/enum_standards.md)
 
 ## Ultimo Aggiornamento
 2025-01-27 - Documentazione completa TableLayoutEnum
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_ugQGLx
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ze81Kd
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_nWLI57
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Sistema di Theming"
 type: concept
@@ -15,7 +19,10 @@ tags: [theme, system]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "theme-system sistema di theming"
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ze81Kd
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,12 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_nWLI57
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./bottlenecks.md"
   - "./component-system.md"
@@ -41,6 +51,7 @@ related:
   - "./form-components.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ze81Kd
 <<<<<<< HEAD
 =======
@@ -51,6 +62,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_nWLI57
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Sistema di Theming
 
 ## 📊 Stato Implementazione

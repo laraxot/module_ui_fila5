@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SvvvVN
 # 🎨 **UI Module** - Sistema Avanzato Componenti Interfaccia
 
@@ -7,10 +8,13 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 # 🎨 **UI Module** - Sistema Avanzato Componenti Interfaccia
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 =======
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 # Documentation
 
@@ -595,6 +599,8 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
+=======
+>>>>>>> 804451c (Lint)
 # Documentation
 
 This directory contains documentation for the module.
@@ -1173,11 +1179,14 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 [![Laravel 13.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
+<<<<<<< HEAD
 =======
 # 🎨 **UI Module** - Sistema Avanzato Componenti Interfaccia
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 >>>>>>> .merge_file_JzGveY
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 [![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
 [![PHPStan level 10](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
@@ -1185,6 +1194,7 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SvvvVN
 =======
 <<<<<<< HEAD
@@ -1200,6 +1210,11 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 =======
 >>>>>>> .merge_file_JzGveY
 >>>>>>> laraxot/dev
+=======
+=======
+[![Laravel 13.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 [![Filament 4.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
@@ -1301,6 +1316,7 @@ Il modulo UI fornisce componenti, widget e funzionalità di interfaccia utente c
 
 ### ❌ MAI usare ->label()
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SvvvVN
 =======
 <<<<<<< HEAD
@@ -1309,9 +1325,12 @@ Il modulo UI fornisce componenti, widget e funzionalità di interfaccia utente c
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> 804451c (Lint)
+=======
 ```
 
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 ```
@@ -1319,6 +1338,8 @@ Il modulo UI fornisce componenti, widget e funzionalità di interfaccia utente c
 =======
 >>>>>>> .merge_file_JzGveY
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ```php
 // ERRORE - Non fare mai questo
 TextColumn::make('name')->label('Nome')
@@ -1442,6 +1463,7 @@ php artisan ui:test-components
 
 ### 🏗️ **Architettura**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_SvvvVN
 <<<<<<< HEAD
@@ -1450,10 +1472,13 @@ php artisan ui:test-components
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_JzGveY
+=======
+>>>>>>> 804451c (Lint)
 - [Components Guide](components.md) - Guida completa componenti
 - [Design System](design-system.md) - Sistema design modulare
 - [Architecture Rules](architecture_rules.md) - Regole architetturali
 - [Best Practices](best-practices.md) - Linee guida sviluppo
+<<<<<<< HEAD
 <<<<<<< .merge_file_SvvvVN
 <<<<<<< HEAD
 =======
@@ -1462,6 +1487,9 @@ php artisan ui:test-components
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_JzGveY
+=======
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ### 🔗 **Collegamenti Moduli**
@@ -1472,6 +1500,7 @@ php artisan ui:test-components
 - **[Progressioni Module](../Progressioni/docs/README.md)** - Sistema progressioni
 
 ### 🧩 **Componenti**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SvvvVN
 =======
@@ -1486,6 +1515,8 @@ php artisan ui:test-components
 ### 🔧 **Development**
 =======
 >>>>>>> .merge_file_JzGveY
+=======
+>>>>>>> 804451c (Lint)
 - [Blade Components](blade-components.md) - Componenti Blade riutilizzabili
 - [Form Components](form-components.md) - Componenti form avanzati
 - [Table Components](table-components.md) - Componenti tabella
@@ -1501,21 +1532,28 @@ php artisan ui:test-components
 - [PHPStan Fixes](phpstan/README.md) - Log completo correzioni PHPStan
 - [Translation Fixes](theme-translation-sync.md) - Correzioni traduzioni
 - [Clean Code](clean-code/README.md) - Principi clean code
+<<<<<<< HEAD
 <<<<<<< .merge_file_SvvvVN
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 
 ### 🎨 **Filament Integration**
 
 ### 🔧 **Development**
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_JzGveY
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ## 🎨 **Componenti Principali**
@@ -1640,6 +1678,7 @@ class DataTableComponent extends Component
         ]);
 ### ❌ MAI usa match() per traduzioni negli Enum
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SvvvVN
 =======
 <<<<<<< HEAD
@@ -1648,9 +1687,12 @@ class DataTableComponent extends Component
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> 804451c (Lint)
+=======
 ```
 
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 ```
@@ -1658,6 +1700,8 @@ class DataTableComponent extends Component
 =======
 >>>>>>> .merge_file_JzGveY
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ```php
 // ❌ ERRORE - Non fare mai questo
 public function getLabel(): string
@@ -1756,6 +1800,7 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 
 ### 📋 **Checklist Contribuzione**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_SvvvVN
 <<<<<<< HEAD
@@ -1764,6 +1809,8 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_JzGveY
+=======
+>>>>>>> 804451c (Lint)
 - [ ] Codice passa PHPStan level 10
 - [ ] Codice passa PHPStan Level 9
 - [ ] Codice passa PHPStan Level 9
@@ -1773,6 +1820,7 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 - [ ] Traduzioni complete (IT/EN/DE)
 - [ ] Componenti testati
 - [ ] Responsive design verificato
+<<<<<<< HEAD
 <<<<<<< .merge_file_SvvvVN
 <<<<<<< HEAD
 =======
@@ -1781,6 +1829,9 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_JzGveY
+=======
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ### 🎯 **Convenzioni**
@@ -1792,6 +1843,7 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 ## 📊 **Roadmap**
 
 ### 🎯 **Q1 2025**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SvvvVN
 =======
@@ -1806,6 +1858,8 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 ### 🎯 **Q3 2025**
 =======
 >>>>>>> .merge_file_JzGveY
+=======
+>>>>>>> 804451c (Lint)
 - [ ] **Advanced Components** - Componenti interattivi avanzati
 - [ ] **Theme System** - Sistema temi personalizzabili
 - [ ] **Animation Library** - Libreria animazioni CSS
@@ -1819,21 +1873,28 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 - [ ] **AI Component Generation** - Generazione automatica componenti
 - [ ] **Advanced Layouts** - Layout avanzati e dinamici
 - [ ] **Real-time Collaboration** - Collaborazione in tempo reale
+<<<<<<< HEAD
 <<<<<<< .merge_file_SvvvVN
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 
 ### 🎯 **Q2 2025**
 
 ### 🎯 **Q3 2025**
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_JzGveY
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ## 📞 **Support & Maintainers**
@@ -1880,6 +1941,7 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_SvvvVN
 <<<<<<< HEAD
@@ -1888,12 +1950,15 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_JzGveY
+=======
+>>>>>>> 804451c (Lint)
 - [Documentazione Root](../../../docs/translation_standards_links.md)
 - [Regole Traduzioni](translation_rules.md)
 - [Best Practices Filament](filament_best_practices.md)
 - [Componenti UI](components.md)
 - [TableLayoutEnum Analysis](table_layout_enum_analysis.md)
 - [TableLayoutEnum Usage](table-layout-enum-usage.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_SvvvVN
 <<<<<<< HEAD
 =======
@@ -1902,6 +1967,9 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_JzGveY
+=======
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - **[REGOLA CRITICA: MAI usare ->label()](never_use_label_rule.md)**
 - **[REGOLA CRITICA: SEMPRE usa transClass()](transclass_rule.md)**

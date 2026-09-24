@@ -196,6 +196,7 @@ class XotBaseStatsOverview extends Widget
 * [README.md](../../../../themes/two/docs/readme.md)
 * [README.md](../../../../themes/one/docs/readme.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dIzXWe
 =======
 <<<<<<< HEAD
@@ -205,6 +206,9 @@ class XotBaseStatsOverview extends Widget
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_LoXVDH
+=======
+=======
+>>>>>>> 804451c (Lint)
 [![Module](https://img.shields.io/badge/Module-Standard UI-8B0000.svg)]()
 [![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
 [![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)
@@ -237,6 +241,7 @@ Core module for the FixCity Platform.
 ---
 
 **Modulo** `UI` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+<<<<<<< HEAD
 <<<<<<< .merge_file_dIzXWe
 <<<<<<< HEAD
 =======
@@ -247,3 +252,6 @@ Core module for the FixCity Platform.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_LoXVDH
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

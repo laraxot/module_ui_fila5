@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_LafVOr
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_gS9xt8
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Footer Component"
 type: concept
@@ -15,7 +19,10 @@ tags: [footer]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "footer footer component"
+<<<<<<< HEAD
 <<<<<<< .merge_file_LafVOr
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,12 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_gS9xt8
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -45,6 +55,7 @@ related:
   - "./full-calendar.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_LafVOr
 <<<<<<< HEAD
 =======
@@ -55,6 +66,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_gS9xt8
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Footer Component
 
 Questo documento serve come punto di riferimento centrale per la documentazione del componente Footer.
@@ -71,6 +85,7 @@ laravel/Themes/One/resources/views/components/layouts/footer.blade.php
 - [Documentazione Dettagliata del Footer](../../../../themes/one/docs/components/layouts/footer.md)
 - [Guida allo Stile del Tema One](../../../../themes/one/docs/style_guide.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_LafVOr
 - [Sistema di Layout](/laravel/Themes/One/docs/design_system.md#layout)
 =======
@@ -78,10 +93,13 @@ laravel/Themes/One/resources/views/components/layouts/footer.blade.php
 - [Sistema di Layout](/laravel/Themes/One/docs/design-system-2.md#layout)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [Sistema di Layout](/laravel/Themes/One/docs/design_system.md#layout)
 =======
 - [Sistema di Layout](/laravel/Themes/One/docs/design-system-2.md#layout)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - [Sistema di Layout](/laravel/Themes/One/docs/design-system-2.md#layout)
@@ -89,6 +107,8 @@ laravel/Themes/One/resources/views/components/layouts/footer.blade.php
 - [Sistema di Layout](/laravel/Themes/One/docs/design_system.md#layout)
 >>>>>>> .merge_file_gS9xt8
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ### Best Practices e Linee Guida
 - [Best Practices Components](../../../cms/docs/best-practices/components.md)

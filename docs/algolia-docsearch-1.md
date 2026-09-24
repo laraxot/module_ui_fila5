@@ -81,7 +81,10 @@ For more details, visit the [official Algolia DocSearch documentation.](https://
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 ### Versione Incoming
 
@@ -89,7 +92,10 @@ For more details, visit the [official Algolia DocSearch documentation.](https://
 ---
 
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ### Versione Incoming
 
 ---

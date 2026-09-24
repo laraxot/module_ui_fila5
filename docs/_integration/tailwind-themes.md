@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SULKup
 =======
+>>>>>>> 804451c (Lint)
+=======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -10,6 +14,8 @@
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 =======
@@ -19,8 +25,11 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_m11fL9
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "tailwind_themes"
 type: concept
@@ -40,7 +49,10 @@ related:
   - "./custom-firm-fields-1.md"
   - "./custom-firm-fields.md"
 ---
+<<<<<<< HEAD
 <<<<<<< .merge_file_SULKup
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 
@@ -59,6 +71,7 @@ related:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -66,6 +79,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_m11fL9
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # tailwind_themes
 
 <!-- Contenuto migrato da _docs/tailwind_themes.txt -->
@@ -74,6 +90,7 @@ https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your
 
 <<<<<<< HEAD
 https://merakiui.com/
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -90,6 +107,8 @@ https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your
 https://merakiui.com/
 <<<<<<< .merge_file_SULKup
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 # tailwind_themes
 
 <!-- Contenuto migrato da _docs/tailwind_themes.txt -->
@@ -98,10 +117,15 @@ https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your
 
 https://merakiui.com/
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 https://merakiui.com/
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+https://merakiui.com/
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -140,9 +164,12 @@ https://merakiui.com/
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_m11fL9
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

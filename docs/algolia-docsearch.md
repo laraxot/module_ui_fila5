@@ -1,6 +1,9 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6uOCr6
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 =======
@@ -14,6 +17,7 @@
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -24,12 +28,20 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_loDZZE
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 module: theme
 topic: algolia_docsearch
 canonical: ../../../Themes/docs/shared-components/algolia-docsearch_1.md
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_6uOCr6
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 See canonical documentation: ../../../Themes/docs/shared-components/algolia-docsearch_1.md
 =======
@@ -44,6 +56,7 @@ See canonical documentation: ../../../Themes/docs/shared-components/algolia-docs
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -52,6 +65,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/algolia-docs
 See canonical documentation: ../../../Themes/docs/shared-components/algolia-docsearch_1.md
 =======
 >>>>>>> .merge_file_loDZZE
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 title: Algolia DocSearch
 description: Configure Algolia DocSearch with the Jigsaw docs starter template
@@ -59,6 +74,7 @@ extends: _layouts.documentation
 section: content
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6uOCr6
 =======
 <<<<<<< HEAD
@@ -73,6 +89,8 @@ This starter template includes support for [DocSearch](https://community.algolia
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_loDZZE
+=======
+>>>>>>> 804451c (Lint)
 
 # Algolia DocSearch {#algolia-docsearch}
 
@@ -80,18 +98,24 @@ This starter template includes support for [DocSearch](https://community.algolia
 
 [Get your DocSearch credentials here.](https://community.algolia.com/docsearch/#join-docsearch-program)
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_6uOCr6
 <<<<<<< HEAD
 =======
 =======
+>>>>>>> 804451c (Lint)
+=======
 # Algolia DocSearch {#algolia-docsearch}
 This starter template includes support for [DocSearch](https://community.algolia.com/docsearch/), a documentation indexing and search tool provided by Algolia for free. To configure this tool, you’ll need to sign up with Algolia and set your API Key and index name in `config.php`. Algolia will then crawl your documentation regularly, and index all your content.
 [Get your DocSearch credentials here.](https://community.algolia.com/docsearch/#join-docsearch-program)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_loDZZE
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ```php
 // config.php
 return [
@@ -100,6 +124,7 @@ return [
 ];
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6uOCr6
 =======
 <<<<<<< HEAD
@@ -114,6 +139,8 @@ To help Algolia index your pages correctly, it's good practice to add a unique `
 If you'd like to customize the styling of the search results, Algolia exposes custom CSS classes that you can modify:
 =======
 >>>>>>> .merge_file_loDZZE
+=======
+>>>>>>> 804451c (Lint)
 
 Once the `docsearchApiKey` and `docsearchIndexName` values are set in `config.php`, the search field at the top of the page is ready to use.
 
@@ -127,22 +154,29 @@ To help Algolia index your pages correctly, it's good practice to add a unique `
 
 If you'd like to customize the styling of the search results, Algolia exposes custom CSS classes that you can modify:
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_6uOCr6
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 Once the `docsearchApiKey` and `docsearchIndexName` values are set in `config.php`, the search field at the top of the page is ready to use.
 <img class="block m-auto" src="/assets/img/docsearch.png" alt="Screenshot of search results" />
 To help Algolia index your pages correctly, it's good practice to add a unique `id` or `name` attribute to each heading tag (`<h1>`, `<h2>`, etc.). By doing so, a user will be taken directly to the appropriate section of the page when they click a search result.
 ## Adding Custom Styles {#algolia-adding-custom-styles}
 If you'd like to customize the styling of the search results, Algolia exposes custom CSS classes that you can modify:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_loDZZE
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```css
 /* Main dropdown wrapper */
@@ -150,6 +184,7 @@ If you'd like to customize the styling of the search results, Algolia exposes cu
   width: 500px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6uOCr6
 
 =======
@@ -164,12 +199,17 @@ If you'd like to customize the styling of the search results, Algolia exposes cu
 =======
 
 >>>>>>> .merge_file_loDZZE
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 /* Main category (eg. Getting Started) */
 .algolia-autocomplete .algolia-docsearch-suggestion--category-header {
   color: darkgray;
   border: 1px solid gray;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6uOCr6
 =======
 <<<<<<< HEAD
@@ -184,6 +224,8 @@ If you'd like to customize the styling of the search results, Algolia exposes cu
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_loDZZE
+=======
+>>>>>>> 804451c (Lint)
 }
 
 /* Category (eg. Downloads) */
@@ -191,22 +233,29 @@ If you'd like to customize the styling of the search results, Algolia exposes cu
   color: gray;
 }
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_6uOCr6
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 /* Category (eg. Downloads) */
 .algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column {
   color: gray;
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_loDZZE
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 /* Title (eg. Bootstrap CDN) */
 .algolia-autocomplete .algolia-docsearch-suggestion--title {
   font-weight: bold;
   color: black;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_6uOCr6
 =======
@@ -239,6 +288,8 @@ For more details, visit the [official Algolia DocSearch documentation.](https://
 ```
 =======
 >>>>>>> .merge_file_loDZZE
+=======
+>>>>>>> 804451c (Lint)
 }
 
 /* Description description (eg. Bootstrap currently works...) */
@@ -351,11 +402,15 @@ For more details, visit the [official Algolia DocSearch documentation.](https://
 ### Versione Incoming
 
 ---
+<<<<<<< HEAD
 <<<<<<< .merge_file_6uOCr6
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 /* Description description (eg. Bootstrap currently works...) */
 .algolia-autocomplete .algolia-docsearch-suggestion--text {
   font-size: 0.8rem;
@@ -399,9 +454,12 @@ See canonical documentation: ../../../Themes/docs/shared-components/algolia-docs
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_loDZZE
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

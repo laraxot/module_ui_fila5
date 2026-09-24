@@ -18,6 +18,7 @@ test('row widget extends filament widget', function (): void {
     };
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
     $widget = new class extends RowWidget {};
 =======
 <<<<<<< HEAD
@@ -27,6 +28,9 @@ test('row widget extends filament widget', function (): void {
     $widget = new class extends RowWidget {};
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    $widget = new class extends RowWidget {};
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     Assert::assertInstanceOf(Widget::class, $widget);
     Assert::assertInstanceOf(XotBaseSchemaWidget::class, $widget);
@@ -38,6 +42,7 @@ test('row widget can be instantiated via concrete subclass', function (): void {
     };
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
     $widget = new class extends RowWidget {};
 =======
 <<<<<<< HEAD
@@ -47,6 +52,9 @@ test('row widget can be instantiated via concrete subclass', function (): void {
     $widget = new class extends RowWidget {};
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    $widget = new class extends RowWidget {};
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     Assert::assertInstanceOf(RowWidget::class, $widget);
 });
@@ -57,6 +65,7 @@ test('row widget returns empty form schema', function (): void {
     };
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
     $widget = new class extends RowWidget {};
 =======
 <<<<<<< HEAD
@@ -66,6 +75,9 @@ test('row widget returns empty form schema', function (): void {
     $widget = new class extends RowWidget {};
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    $widget = new class extends RowWidget {};
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     Assert::assertSame([], $widget->getFormSchema());
 });
@@ -76,6 +88,7 @@ test('row widget exposes grid and widgets arrays', function (): void {
     };
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
     $widget = new class extends RowWidget {};
 =======
 <<<<<<< HEAD
@@ -85,6 +98,9 @@ test('row widget exposes grid and widgets arrays', function (): void {
     $widget = new class extends RowWidget {};
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    $widget = new class extends RowWidget {};
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     Assert::assertSame([], $widget->grid);
     Assert::assertSame([], $widget->widgets);

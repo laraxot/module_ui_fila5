@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_d4I0gD
 https://github.com/spatie/laravel-searchable
 
@@ -48,6 +49,11 @@ See canonical documentation: ../../../Themes/docs/shared-components/global-searc
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
+=======
+https://github.com/spatie/laravel-searchable
+
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: 'Global search — risorse esterne'
 module: UI
@@ -81,8 +87,11 @@ canonical: ../../../Themes/docs/shared-components/global-search.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/global-search.md
+<<<<<<< HEAD
 =======
 https://github.com/spatie/laravel-searchable
 
 >>>>>>> .merge_file_SZ8WSO
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

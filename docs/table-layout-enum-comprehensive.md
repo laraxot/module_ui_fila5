@@ -399,6 +399,7 @@ Restituisce il testo di aiuto tradotto per il layout.
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ercbjm
 =======
 <<<<<<< HEAD
@@ -412,25 +413,34 @@ Restituisce il testo di aiuto tradotto per il layout.
 - [Translation Standards](../../../docs/translation_standards.md)
 =======
 >>>>>>> .merge_file_MkbDTr
+=======
+>>>>>>> 804451c (Lint)
 - [TransTrait Documentation](../../xot/docs/filament/trans-trait.md)
 - [UI Module Architecture](architecture_rules.md)
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
 - [Translation Standards](../../../../docs/translation_standards.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_ercbjm
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 - [TransTrait Documentation](../../Xot/docs/filament/trans-trait.md)
 - [UI Module Architecture](architecture_rules.md)
 - [Filament Best Practices](../../../docs/filament_best_practices.md)
 - [Translation Standards](../../../docs/translation_standards.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_MkbDTr
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - [Table Components](table-components.md)
 

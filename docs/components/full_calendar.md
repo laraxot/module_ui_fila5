@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DvIeri
 =======
 <<<<<<< HEAD
@@ -268,6 +269,8 @@ To use the widget in a Blade view:
 *Last updated: June 2025*
 =======
 >>>>>>> .merge_file_FlebvB
+=======
+>>>>>>> 804451c (Lint)
 ---
 module: theme
 topic: full_calendar
@@ -275,11 +278,15 @@ canonical: ../../../../Themes/docs/shared-components/full_calendar.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/full_calendar.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_DvIeri
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 # FullCalendar Component for Filament
 
 ## Introduction
@@ -541,9 +548,12 @@ To use the widget in a Blade view:
 
 *Last updated: June 2025*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_FlebvB
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

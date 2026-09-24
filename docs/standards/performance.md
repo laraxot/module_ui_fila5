@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1gGGJz
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_ZCqgIR
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Standard di Performance"
 type: concept
@@ -15,7 +19,10 @@ tags: [performance]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "performance standard di performance"
+<<<<<<< HEAD
 <<<<<<< .merge_file_1gGGJz
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,12 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_ZCqgIR
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./accessibility.md"
   - "./auth-form-standards-1.md"
@@ -43,6 +53,7 @@ related:
   - "./ui-standards.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_1gGGJz
 <<<<<<< HEAD
 =======
@@ -53,6 +64,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ZCqgIR
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Standard di Performance
 
 ## 🚀 Metriche Core Web Vitals

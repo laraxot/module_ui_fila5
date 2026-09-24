@@ -230,6 +230,7 @@ Includi sempre esempi pratici:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ADmg3N
 =======
 <<<<<<< HEAD
@@ -245,3 +246,8 @@ Includi sempre esempi pratici:
 =======
 >>>>>>> .merge_file_F5vB1A
 >>>>>>> laraxot/dev
+=======
+=======
+*Ultimo aggiornamento: Dicembre 2024*
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

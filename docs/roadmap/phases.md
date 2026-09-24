@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4y7KzV
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_eUW87D
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Fasi di sviluppo - UI Module"
 type: concept
@@ -15,7 +19,10 @@ tags: [phases]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "phases fasi di sviluppo - ui module"
+<<<<<<< HEAD
 <<<<<<< .merge_file_4y7KzV
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,12 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_eUW87D
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./00-index-1.md"
   - "./00-index.md"
@@ -45,6 +55,7 @@ related:
   - "./03-later.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_4y7KzV
 <<<<<<< HEAD
 =======
@@ -55,6 +66,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_eUW87D
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Fasi di sviluppo - UI Module
 
 ## Fase 1: Modernization (In Progress)

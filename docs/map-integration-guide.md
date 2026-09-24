@@ -2,6 +2,7 @@
 
 **Modulo**: UI (User Interface)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Myq0EY
 =======
 <<<<<<< HEAD
@@ -17,6 +18,11 @@
 =======
 >>>>>>> .merge_file_yrc6ob
 >>>>>>> laraxot/dev
+=======
+=======
+**Data**: 2025-01-27
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 **Versione**: 1.0
 **Stato**: 🚧 IN SVILUPPO
 
@@ -26,10 +32,14 @@
 
 <<<<<<< HEAD
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
+<<<<<<< HEAD
 <<<<<<< .merge_file_Myq0EY
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -43,6 +53,11 @@ Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modu
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione progetto corrente.
 =======
 <<<<<<< .merge_file_Myq0EY
+=======
+Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione <nome progetto>.
+Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione progetto corrente.
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62,11 +77,14 @@ Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modu
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_yrc6ob
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ---
@@ -103,6 +121,7 @@ Modules/UI/
 │   │   │   └── map-popup.js
 │   │   └── components/
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Myq0EY
 │   │       ├── location-picker-lit.js
 =======
@@ -110,10 +129,13 @@ Modules/UI/
 │   │       ├── location-picker.js
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 │   │       ├── location-picker-lit.js
 =======
 │   │       ├── location-picker.js
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 │   │       ├── location-picker.js
@@ -121,6 +143,8 @@ Modules/UI/
 │   │       ├── location-picker-lit.js
 >>>>>>> .merge_file_yrc6ob
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 │   │       └── address-autocomplete.js
 │   ├── css/
 │   │   ├── map/
@@ -506,6 +530,7 @@ class MapService
                     'status' => $ticket->status->slug,
                     'priority' => $ticket->priority->slug,
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Myq0EY
                     'url' => route('fixcity.tickets.show', $ticket)
 =======
@@ -516,6 +541,11 @@ class MapService
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+                    'url' => route('fixcity.tickets.show', $ticket)
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
                     'url' => route('<nome progetto>.tickets.show', $ticket)
                     'url' => route('fixcity.tickets.show', $ticket)
                     'url' => route('tickets.show', $ticket)
@@ -541,6 +571,7 @@ class MapService
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -551,6 +582,8 @@ class MapService
 =======
                     'url' => route('fixcity.tickets.show', $ticket)
 >>>>>>> .merge_file_yrc6ob
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
                 ];
             })
@@ -632,6 +665,7 @@ class GeocodingService
         </div>
         <div class="col-md-4">
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Myq0EY
             <livewire:fixcity::components.ticket-stats />
 =======
@@ -642,6 +676,11 @@ class GeocodingService
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+            <livewire:fixcity::components.ticket-stats />
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
             <livewire:<nome progetto>::components.ticket-stats />
             <livewire:fixcity::components.ticket-stats />
             <livewire:project::components.ticket-stats />
@@ -667,6 +706,7 @@ class GeocodingService
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -677,6 +717,8 @@ class GeocodingService
 =======
             <livewire:fixcity::components.ticket-stats />
 >>>>>>> .merge_file_yrc6ob
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
         </div>
     </div>
@@ -737,6 +779,7 @@ class GeocodingService
 <<<<<<< HEAD
 - [ ] Integrazione con modulo Fixcity
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Myq0EY
 =======
 =======
@@ -744,6 +787,8 @@ class GeocodingService
 - [ ] Integrazione con modulo Fixcity
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [ ] Integrazione con modulo <nome progetto>
 - [ ] Integrazione con modulo progetto corrente
 =======
@@ -766,6 +811,7 @@ class GeocodingService
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -774,6 +820,8 @@ class GeocodingService
 - [ ] Integrazione con modulo progetto corrente
 =======
 >>>>>>> .merge_file_yrc6ob
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - [ ] Integrazione con modulo User
 - [ ] API endpoints per mappa
@@ -797,6 +845,7 @@ class GeocodingService
 
 ### 📖 Documentazione Correlata
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Myq0EY
 - [Farmshops.eu Analysis](../geo/docs/farmshops-analysis.md)
 =======
@@ -804,10 +853,13 @@ class GeocodingService
 - [Farmshops.eu Analysis](../Geo/docs/farmshops-analysis.md)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [Farmshops.eu Analysis](../geo/docs/farmshops-analysis.md)
 =======
 - [Farmshops.eu Analysis](../Geo/docs/farmshops-analysis.md)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - [Farmshops.eu Analysis](../Geo/docs/farmshops-analysis.md)
@@ -815,6 +867,8 @@ class GeocodingService
 - [Farmshops.eu Analysis](../geo/docs/farmshops-analysis.md)
 >>>>>>> .merge_file_yrc6ob
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - [Geo Module Documentation](../Geo/docs/)
 - [UI Component API](component-api.md)
 - [Styling Guide](styling-guide.md)
@@ -822,6 +876,7 @@ class GeocodingService
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Myq0EY
 
 =======
@@ -830,11 +885,14 @@ class GeocodingService
 **Next Review**: 2025-02-27
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 
 =======
 **Last Updated**: 2025-01-27
 **Next Review**: 2025-02-27
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 **Last Updated**: 2025-01-27
@@ -843,6 +901,8 @@ class GeocodingService
 
 >>>>>>> .merge_file_yrc6ob
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 **Status**: 🚧 IN SVILUPPO
 **Confidence Level**: 90%
 

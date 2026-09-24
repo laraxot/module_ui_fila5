@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_c6lcmn
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_qLe0yS
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Errore di incompatibilità tra metodi statici e di istanza in Filament"
 type: concept
@@ -15,7 +19,10 @@ tags: [static, instance, method, incompatibility]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "static-instance-method-incompatibility errore di incompatibilità tra metodi statici e di istanza in filament"
+<<<<<<< HEAD
 <<<<<<< .merge_file_c6lcmn
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,17 +35,21 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_qLe0yS
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./common-errors.md"
   - "./dropdown-list-item-tag.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_c6lcmn
 <<<<<<< HEAD
 =======
@@ -49,6 +60,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_qLe0yS
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Errore di incompatibilità tra metodi statici e di istanza in Filament
 
 ## Problema
