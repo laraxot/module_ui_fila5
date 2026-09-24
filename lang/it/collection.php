@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_ufyMXp
 <<<<<<< HEAD
 =======
@@ -21,6 +22,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_c4aYQ9
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'actions' => [
         'create' => [
@@ -82,6 +85,7 @@ return [
         ],
         'label' => 'Collection',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_ufyMXp
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -99,5 +103,8 @@ return [
 =======
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_c4aYQ9
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> 0dadab4 (Lint)
     ],
 ];

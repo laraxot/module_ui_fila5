@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9F4QIP
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_j5THcc
+=======
+>>>>>>> 0dadab4 (Lint)
 # Sistema di Traduzione Automatica delle Etichette (Label) in Filament
 
 ## Regola Fondamentale

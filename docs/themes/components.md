@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VsgJ5q
 =======
 <<<<<<< HEAD
@@ -52,6 +53,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_n8NIKd
+=======
+>>>>>>> 0dadab4 (Lint)
 # Componenti del Tema
 
 ## Logo

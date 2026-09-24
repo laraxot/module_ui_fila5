@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_f9t7ib
 <<<<<<< HEAD
 =======
@@ -21,6 +22,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_C5IOyw
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'fields' => [
         'items' => [

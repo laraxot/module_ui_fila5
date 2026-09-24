@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4rz7B4
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5XmRqX
+=======
+>>>>>>> 0dadab4 (Lint)
 sudo apt-get install jpegoptim
 sudo apt-get install optipng
 sudo apt-get install pngquant // For PNG Image

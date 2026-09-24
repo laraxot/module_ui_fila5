@@ -39,6 +39,7 @@ Entrambi i temi contengono i seguenti file di traduzione:
 12. `studio.php` - Gestione studi
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_hnMumj
 ## Correzioni Applicate ([DATE])
 =======
@@ -57,6 +58,9 @@ Entrambi i temi contengono i seguenti file di traduzione:
 ## Correzioni Applicate ([DATE])
 >>>>>>> .merge_file_4FpKVe
 >>>>>>> laraxot/dev
+=======
+## Correzioni Applicate ([DATE])
+>>>>>>> 0dadab4 (Lint)
 
 ### 1. Problema: Traduzione mancante `pub_theme::appointment.fields.state.label`
 
@@ -92,6 +96,7 @@ Entrambi i temi contengono i seguenti file di traduzione:
 - `emergency` - Emergenza
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_hnMumj
 ### 4. Problema: Testo hardcoded in italiano per i referti ([DATE])
 =======
@@ -110,6 +115,9 @@ Entrambi i temi contengono i seguenti file di traduzione:
 ### 4. Problema: Testo hardcoded in italiano per i referti ([DATE])
 >>>>>>> .merge_file_4FpKVe
 >>>>>>> laraxot/dev
+=======
+### 4. Problema: Testo hardcoded in italiano per i referti ([DATE])
+>>>>>>> 0dadab4 (Lint)
 
 **Causa**: Il file `appointment/item.blade.php` conteneva testo hardcoded in italiano per la sezione referti:
 - "Il tuo referto è pronto!"
@@ -260,6 +268,7 @@ return [
 - [Theme Widget Translations](theme-widget-translations.md)
 - [Translation Helper Text Standards](translation-helper-text-standards.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_hnMumj
 =======
 <<<<<<< HEAD
@@ -279,6 +288,8 @@ return [
 **Ultimo aggiornamento**: 2025-01-06
 =======
 >>>>>>> .merge_file_4FpKVe
+=======
+>>>>>>> 0dadab4 (Lint)
 - [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/modules/<nome modulo>/docs/translation_quality_standards.md)
 - [Modules/<nome progetto>/docs/translation_quality_standards.md](../laravel/modules/<nome progetto>/docs/translation_quality_standards.md)
 - [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/modules/<nome modulo>/docs/translation_quality_standards.md)
@@ -289,6 +300,7 @@ return [
 ---
 
 **Ultimo aggiornamento**: [DATE]
+<<<<<<< HEAD
 <<<<<<< .merge_file_hnMumj
 <<<<<<< HEAD
 =======
@@ -311,5 +323,7 @@ return [
 =======
 >>>>>>> .merge_file_4FpKVe
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 **Versione**: 2.2
 **Autore**: AI Assistant

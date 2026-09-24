@@ -5,6 +5,7 @@ declare(strict_types=1);
 return [
     'name' => 'UI',
     'description' => 'Modulo per la gestione dell\'interfaccia utente e componenti',
+<<<<<<< HEAD
 <<<<<<< .merge_file_Iusgpd
 <<<<<<< HEAD
     'icon' => 'heroicon-o-squares-2x2',
@@ -22,6 +23,9 @@ return [
 =======
     'icon' => 'ui-icon',
 >>>>>>> .merge_file_fKWbd6
+=======
+    'icon' => 'heroicon-o-squares-2x2',
+>>>>>>> 0dadab4 (Lint)
     'navigation' => [
         'enabled' => true,
         'sort' => 90,

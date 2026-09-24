@@ -27,6 +27,7 @@ final class RadioCollection extends XotBaseField
      */
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param \Closure|Collection<int|string, mixed>|null $options
 =======
 <<<<<<< HEAD
@@ -39,6 +40,9 @@ final class RadioCollection extends XotBaseField
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+     * @param \Closure|Collection<int|string, mixed>|null $options
+>>>>>>> 0dadab4 (Lint)
      */
     public function options(\Closure|Collection|null $options): static
     {
@@ -101,6 +105,7 @@ final class RadioCollection extends XotBaseField
 
     /**
      * Comparazione type-safe per determinare se un'opzione è selezionata.
+<<<<<<< HEAD
 <<<<<<< .merge_file_lwkCNS
 <<<<<<< HEAD
 =======
@@ -138,6 +143,13 @@ final class RadioCollection extends XotBaseField
         $state = $stateOverride ?? $this->getState();
         $currentValue = SafeStringCastAction::cast($state);
 >>>>>>> .merge_file_Zz6H4R
+=======
+     */
+    public function isOptionSelected(mixed $option): bool
+    {
+        $state = SafeStringCastAction::cast($this->getState());
+        $currentValue = (string) $state;
+>>>>>>> 0dadab4 (Lint)
 
         // PHPStan L10: data_get restituisce mixed, SafeStringCastAction accetta mixed
         $optionData = data_get($option, $this->getValueKey());

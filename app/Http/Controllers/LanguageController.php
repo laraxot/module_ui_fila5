@@ -26,6 +26,7 @@ class LanguageController extends Controller
         app()->setLocale($locale);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return redirect()->back();
 =======
 <<<<<<< HEAD
@@ -45,5 +46,8 @@ class LanguageController extends Controller
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        return redirect()->back();
+>>>>>>> 0dadab4 (Lint)
     }
 }

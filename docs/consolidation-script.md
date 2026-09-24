@@ -84,6 +84,7 @@ mkdir -p archive
 
 # Spostare file con date
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1oK3S0
 mv dry-kiss-analysis-[DATE].md archive/dry-kiss-analysis.md 2>/dev/null
 mv phpstan-level-10-cleanup-[DATE].md archive/phpstan-level-10-cleanup.md 2>/dev/null
@@ -108,6 +109,10 @@ mv dry-kiss-analysis-[DATE].md archive/dry-kiss-analysis.md 2>/dev/null
 mv phpstan-level-10-cleanup-[DATE].md archive/phpstan-level-10-cleanup.md 2>/dev/null
 >>>>>>> .merge_file_wWg3mK
 >>>>>>> laraxot/dev
+=======
+mv dry-kiss-analysis-[DATE].md archive/dry-kiss-analysis.md 2>/dev/null
+mv phpstan-level-10-cleanup-[DATE].md archive/phpstan-level-10-cleanup.md 2>/dev/null
+>>>>>>> 0dadab4 (Lint)
 
 # Consolidare file PHPStan con date
 # phpstan-fixes-gennaio-2025.md → consolidare in phpstan-compliance.md
@@ -116,6 +121,7 @@ mv phpstan-level-10-cleanup-[DATE].md archive/phpstan-level-10-cleanup.md 2>/dev
 ## File con Maiuscole da Rinominare
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_1oK3S0
 =======
@@ -137,6 +143,8 @@ for file in *.md; do
 done
 =======
 >>>>>>> .merge_file_wWg3mK
+=======
+>>>>>>> 0dadab4 (Lint)
 # Verificare se METODI_DUPLICATI_ANALISI.md è diverso da metodi-duplicati-analisi.md
 # Se sono identici, eliminare quello con maiuscole
 if [ -f "METODI_DUPLICATI_ANALISI.md" ]; then
@@ -147,6 +155,7 @@ if [ -f "METODI_DUPLICATI_ANALISI.md" ]; then
         mv METODI_DUPLICATI_ANALISI.md metodi-duplicati-analisi-uppercase.md
     fi
 fi
+<<<<<<< HEAD
 <<<<<<< .merge_file_1oK3S0
 <<<<<<< HEAD
 =======
@@ -170,6 +179,8 @@ done
 =======
 >>>>>>> .merge_file_wWg3mK
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ```
 
 ## Verifica Finale

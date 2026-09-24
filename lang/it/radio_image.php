@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ghrsht
 <<<<<<< HEAD
 =======
@@ -21,6 +22,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_uCPaMx
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'fields' => [
         'view' => [
@@ -41,6 +44,7 @@ return [
         ],
         'label' => 'Radio Image',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ghrsht
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -58,6 +62,9 @@ return [
 =======
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_uCPaMx
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> 0dadab4 (Lint)
     ],
     'actions' => [
         'create' => [

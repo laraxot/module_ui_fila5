@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_v9yod4
 =======
 <<<<<<< HEAD
@@ -47,6 +48,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_YQvVjX
+=======
+>>>>>>> 0dadab4 (Lint)
 # Master Layout Documentation
 
 ## Overview

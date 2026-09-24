@@ -4,6 +4,7 @@ description: Installazione Filament
 extends: _layouts.documentation
 section: content
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Y8nOIY
 =======
 <<<<<<< HEAD
@@ -32,6 +33,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ppNuZW
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 
 # Installazione Filament {#installazione-filament}

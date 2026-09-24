@@ -7,6 +7,7 @@ updated: 2026-07-01
 qmd: "ponytail audit UI modulo stub config archive root md"
 issues:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_k7dLh3
 =======
 <<<<<<< HEAD
@@ -26,12 +27,15 @@ related:
   - "./enum-select-contract-and-false-friends.md"
 =======
 >>>>>>> .merge_file_CWNP6q
+=======
+>>>>>>> 0dadab4 (Lint)
   - "https://github.com/laraxot/base_predict_fila5/issues/221"
 discussions:
   - "https://github.com/laraxot/base_predict_fila5/discussions/222"
 related:
   - ../../ponytail-audit-over-engineering.md
   - module-root-uppercase-folders-archive.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_k7dLh3
 <<<<<<< HEAD
 =======
@@ -54,6 +58,8 @@ related:
 =======
 >>>>>>> .merge_file_CWNP6q
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 
 # Ponytail audit — UI

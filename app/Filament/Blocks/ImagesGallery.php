@@ -22,6 +22,7 @@ final class ImagesGallery
                             // ->image()
                             // ->maxSize(5000)
                             ->multiple()
+<<<<<<< HEAD
 <<<<<<< .merge_file_gFx5sY
 <<<<<<< HEAD
                             ->enableReordering()
@@ -39,6 +40,9 @@ final class ImagesGallery
 =======
                             ->reorderable()
 >>>>>>> .merge_file_EBBQM2
+=======
+                            ->enableReordering()
+>>>>>>> 0dadab4 (Lint)
                             ->openable()
                             ->downloadable()
                             ->columnSpanFull()
@@ -62,6 +66,7 @@ final class ImagesGallery
                 //         // ->image()
                 //         // ->maxSize(5000)
                 //     ->multiple()
+<<<<<<< HEAD
 <<<<<<< .merge_file_gFx5sY
 <<<<<<< HEAD
                 //     ->enableReordering()
@@ -79,6 +84,9 @@ final class ImagesGallery
 =======
                 //     ->reorderable()
 >>>>>>> .merge_file_EBBQM2
+=======
+                //     ->enableReordering()
+>>>>>>> 0dadab4 (Lint)
                 //     ->openable()
                 //     ->downloadable()
                 //     ->columnSpanFull()
@@ -97,6 +105,7 @@ final class ImagesGallery
                 //     ->columnSpanFull(),
             ])
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->columns('form' === $context ? 2 : 1);
 =======
 <<<<<<< HEAD
@@ -109,6 +118,9 @@ final class ImagesGallery
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+            ->columns('form' === $context ? 2 : 1);
+>>>>>>> 0dadab4 (Lint)
     }
 
     /**

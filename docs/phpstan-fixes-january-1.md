@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 module: theme
 topic: phpstan-fixes-january-1
@@ -9,6 +12,7 @@ canonical: ../../../Themes/docs/shared-components/phpstan-fixes-january-.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan-fixes-january-.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -69,3 +73,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/phpstan-fixe
 - **Pattern applicati**: Type narrowing, Array safety, Closure hints
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

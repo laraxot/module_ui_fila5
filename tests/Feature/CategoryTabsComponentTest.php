@@ -9,6 +9,7 @@ use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
+<<<<<<< HEAD
 <<<<<<< .merge_file_tgQFHv
 <<<<<<< HEAD
 =======
@@ -34,6 +35,11 @@ uses(TestCase::class);
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+/**
+ * @param array<string, mixed> $data
+>>>>>>> 0dadab4 (Lint)
  */
 function renderCategoryTabsHtml(array $data = []): ?string
 {
@@ -42,6 +48,7 @@ function renderCategoryTabsHtml(array $data = []): ?string
     }
 
     try {
+<<<<<<< HEAD
 <<<<<<< .merge_file_tgQFHv
 <<<<<<< HEAD
         return View::make('pub_theme::components.blocks.navigation.category-tabs', $data)->render();
@@ -66,6 +73,9 @@ function renderCategoryTabsHtml(array $data = []): ?string
 
         return View::make($viewName, $data)->render();
 >>>>>>> .merge_file_ZwS1aL
+=======
+        return View::make('pub_theme::components.blocks.navigation.category-tabs', $data)->render();
+>>>>>>> 0dadab4 (Lint)
     } catch (\Throwable) {
         return null;
     }
@@ -73,6 +83,7 @@ function renderCategoryTabsHtml(array $data = []): ?string
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param array<string, mixed> $data
 =======
 <<<<<<< HEAD
@@ -85,11 +96,15 @@ function renderCategoryTabsHtml(array $data = []): ?string
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+ * @param array<string, mixed> $data
+>>>>>>> 0dadab4 (Lint)
  */
 function requireCategoryTabsHtml(array $data = []): string
 {
     $html = renderCategoryTabsHtml($data);
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (null === $html) {
 =======
 <<<<<<< HEAD
@@ -102,6 +117,9 @@ function requireCategoryTabsHtml(array $data = []): string
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    if (null === $html) {
+>>>>>>> 0dadab4 (Lint)
         Assert::markTestSkipped('pub_theme category-tabs view not available in this install.');
     }
 

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_0BXEju
 =======
 <<<<<<< HEAD
@@ -205,6 +206,8 @@ protected function resolveLazyProp(string $key): mixed
 5. Ottimizzare performance 
 =======
 >>>>>>> .merge_file_PqXyV0
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 module: theme
 topic: component_system
@@ -212,6 +215,7 @@ canonical: ../../../../Themes/docs/shared-components/component-system.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/component-system.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_0BXEju
 <<<<<<< HEAD
 =======
@@ -421,3 +425,5 @@ protected function resolveLazyProp(string $key): mixed
 =======
 >>>>>>> .merge_file_PqXyV0
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

@@ -56,6 +56,7 @@ Forms\Components\FileUpload::make('certifications')
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YyxhJ8
 =======
 <<<<<<< HEAD
@@ -75,6 +76,8 @@ Forms\Components\FileUpload::make('certifications')
 Il metodo `prefixIcon()` non esiste nel componente FileUpload di Filament. Questo è un errore comune quando si confondono i componenti TextInput (che hanno il metodo prefixIcon) con i componenti FileUpload.
 =======
 >>>>>>> .merge_file_5VBj22
+=======
+>>>>>>> 0dadab4 (Lint)
 - [README](../../patient/docs/readme.md)
 - [Filament Resources](../../patient/docs/filament-resources.md)
 - [Form Components](../../patient/docs/filament-form-components.md)
@@ -87,6 +90,7 @@ Il metodo `prefixIcon()` non esiste nel componente FileUpload di Filament. Quest
 ## Errore Comune: prefixIcon
 Il metodo `prefixIcon()` non esiste nel componente FileUpload di Filament. Questo è un errore comune quando si confondono i componenti TextInput (che hanno il metodo prefixIcon) con i componenti FileUpload.
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_YyxhJ8
 <<<<<<< HEAD
 =======
@@ -125,6 +129,8 @@ Il metodo `prefixIcon()` non esiste nel componente FileUpload di Filament. Quest
 =======
 >>>>>>> .merge_file_5VBj22
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ### ❌ Errato
 ```php
 Forms\Components\FileUpload::make('certifications')
@@ -132,6 +138,7 @@ Forms\Components\FileUpload::make('certifications')
     ->label('Certificazioni');
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YyxhJ8
 =======
 <<<<<<< HEAD
@@ -143,10 +150,13 @@ Forms\Components\FileUpload::make('certifications')
 ### ✅ Corretto
 =======
 >>>>>>> .merge_file_5VBj22
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ### ✅ Corretto
 ```php
 Forms\Components\FileUpload::make('certifications')
+<<<<<<< HEAD
 <<<<<<< .merge_file_YyxhJ8
 <<<<<<< HEAD
 =======
@@ -157,6 +167,8 @@ Forms\Components\FileUpload::make('certifications')
 =======
 >>>>>>> .merge_file_5VBj22
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
     ->label('Certificazioni')
     ->icon('heroicon-o-document-text') // Usare icon() invece di prefixIcon()
     ->buttonLabel('Carica certificazioni')
@@ -165,6 +177,7 @@ Forms\Components\FileUpload::make('certifications')
     ->acceptedFileTypes(['application/pdf'])
     ->maxSize(10240);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YyxhJ8
 =======
 <<<<<<< HEAD
@@ -176,10 +189,13 @@ Forms\Components\FileUpload::make('certifications')
 ## Metodi Disponibili per FileUpload
 =======
 >>>>>>> .merge_file_5VBj22
+=======
+>>>>>>> 0dadab4 (Lint)
 ```
 
 ## Metodi Disponibili per FileUpload
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_YyxhJ8
 <<<<<<< HEAD
 =======
@@ -190,6 +206,8 @@ Forms\Components\FileUpload::make('certifications')
 =======
 >>>>>>> .merge_file_5VBj22
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ### Metodi Base
 - `make(string $name)`: Crea una nuova istanza del componente
 - `label(string $label)`: Imposta la label del componente
@@ -200,6 +218,7 @@ Forms\Components\FileUpload::make('certifications')
 - `acceptedFileTypes(array $types)`: Imposta i tipi di file accettati
 - `maxSize(int $size)`: Imposta la dimensione massima del file in KB
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YyxhJ8
 
 ### Best Practices
@@ -224,12 +243,18 @@ Forms\Components\FileUpload::make('certifications')
 
 >>>>>>> .merge_file_5VBj22
 >>>>>>> laraxot/dev
+=======
+
+### Best Practices
+
+>>>>>>> 0dadab4 (Lint)
 1. **UI/UX**
    - Usare icone appropriate per il tipo di file
    - Fornire feedback visivo durante l'upload
    - Mostrare preview dei file quando possibile
    - Implementare validazione client-side
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YyxhJ8
 
 =======
@@ -245,12 +270,16 @@ Forms\Components\FileUpload::make('certifications')
 
 >>>>>>> .merge_file_5VBj22
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 2. **Sicurezza**
    - Limitare i tipi di file accettati
    - Impostare una dimensione massima ragionevole
    - Validare i file lato server
    - Usare nomi file sicuri
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YyxhJ8
 
 =======
@@ -266,11 +295,15 @@ Forms\Components\FileUpload::make('certifications')
 
 >>>>>>> .merge_file_5VBj22
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 3. **Performance**
    - Ottimizzare la dimensione dei file
    - Implementare upload asincroni
    - Gestire correttamente gli errori
    - Fornire feedback di progresso
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_YyxhJ8
 =======
@@ -289,6 +322,8 @@ Forms\Components\FileUpload::make('certifications')
 - [Best Practices](../../Xot/project_docs/filament-best-practices.md)
 =======
 >>>>>>> .merge_file_5VBj22
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Collegamenti
 - [README](../../patient/project_docs/readme.md)
@@ -298,6 +333,7 @@ Forms\Components\FileUpload::make('certifications')
 ## Vedi Anche
 - [Filament FileUpload Documentation](https://filamentphp.com/project_docs/forms/fields#file-upload)
 - [Best Practices](../../xot/project_docs/filament-best-practices.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_YyxhJ8
 <<<<<<< HEAD
 =======
@@ -354,3 +390,5 @@ Forms\Components\FileUpload::make('certifications')
 =======
 >>>>>>> .merge_file_5VBj22
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

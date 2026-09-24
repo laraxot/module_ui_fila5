@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_ck6vTQ
 <<<<<<< HEAD
 =======
@@ -22,11 +23,16 @@ return [
     ],
     'actions' => [
 <<<<<<< .merge_file_ck6vTQ
+=======
+return [
+    'actions' => [
+>>>>>>> 0dadab4 (Lint)
         'toggle' => [
             'label' => 'Cambia Layout',
             'tooltip' => 'Passa da vista a elenco a vista a griglia',
             'helper_text' => 'Cambia il tipo di visualizzazione',
         ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -46,12 +52,15 @@ return [
 =======
         'toggle' => ['label' => 'Cambia Layout', 'tooltip' => 'Passa da vista a elenco a vista a griglia', 'helper_text' => 'Cambia il tipo di visualizzazione'],
 >>>>>>> .merge_file_BLV0cT
+=======
+>>>>>>> 0dadab4 (Lint)
     ],
     'label' => 'Table Layout',
     'plural_label' => 'Table Layout (Plurale)',
     'navigation' => [
         'name' => 'Table Layout',
         'plural' => 'Table Layout',
+<<<<<<< HEAD
 <<<<<<< .merge_file_ck6vTQ
 <<<<<<< HEAD
 =======
@@ -59,10 +68,13 @@ return [
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
         'group' => [
             'name' => 'General',
             'description' => 'General Settings',
         ],
+<<<<<<< HEAD
 =======
         'group' => ['name' => 'General', 'description' => 'General Settings'],
 >>>>>>> .merge_file_BLV0cT
@@ -72,6 +84,13 @@ return [
     ],
     'fields' => [
 <<<<<<< .merge_file_ck6vTQ
+=======
+        'label' => 'Table Layout',
+        'sort' => 1,
+        'icon' => 'heroicon-o-collection',
+    ],
+    'fields' => [
+>>>>>>> 0dadab4 (Lint)
         'id' => [
             'label' => 'Identificativo',
             'tooltip' => 'Identificativo univoco del record',
@@ -90,6 +109,7 @@ return [
             'helper_text' => '',
             'description' => '',
         ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -115,5 +135,7 @@ return [
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_BLV0cT
+=======
+>>>>>>> 0dadab4 (Lint)
     ],
 ];

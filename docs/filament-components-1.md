@@ -56,6 +56,7 @@
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
 <<<<<<< HEAD
+<<<<<<< HEAD
 4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
 =======
 <<<<<<< HEAD
@@ -64,6 +65,9 @@
 4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
+>>>>>>> 0dadab4 (Lint)
 ## Collegamenti tra versioni di filament-components.md
 * [filament-components.md](../../User/docs/best-practices/filament-components.md)
 * [filament-components.md](../../Cms/docs/best-practices/filament-components.md)

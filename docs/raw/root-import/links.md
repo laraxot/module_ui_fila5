@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_fH1hnZ
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_bTIRIu
+=======
+>>>>>>> 0dadab4 (Lint)
 ---------------------------------------------------------------------------------------------------
 Laravel URL Redirects with Optional Protected Url Passwords
 https://codebrisk.com/blog/laravel-url-redirects-with-optional-protected-url-passwords

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -14,6 +15,8 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 # UI - Product Roadmap
 
 > Documento vivente. Modulo.
@@ -55,6 +58,7 @@ Questo roadmap traduce il PRD in sequenza di rilascio per **UI**, che nel proget
 - target completamento: 95%+
 
 ## Dipendenze
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_2NeNcd
 =======
@@ -250,11 +254,14 @@ To create a **unified, beautiful, and accessible design system** that ensures co
 =======
 >>>>>>> .merge_file_slj7rC
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 - [PRD](prd.md)
 - [Product Strategy](product-strategy.md)
 - [Sprint Planning Meeting](sprint-planning-meeting.md)
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -281,3 +288,5 @@ To create a **unified, beautiful, and accessible design system** that ensures co
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

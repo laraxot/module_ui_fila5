@@ -3,6 +3,7 @@ module: theme
 topic: source
 canonical: ../../../../../Themes/docs/shared-components/source.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_CwUeGC
 =======
 <<<<<<< HEAD
@@ -23,6 +24,8 @@ related:
 =======
 >>>>>>> .merge_file_gp9ZFj
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/source.md

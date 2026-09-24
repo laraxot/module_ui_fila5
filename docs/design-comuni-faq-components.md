@@ -361,6 +361,7 @@ pub_theme:: → Themes/Sixteen/resources/views/
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Configurato in `config/local/fixcity/xra.php`:
 <<<<<<< .merge_file_KBJ8SL
 =======
@@ -404,6 +405,9 @@ Configurato in `config/local/<nome progetto>/xra.php`:
 =======
 >>>>>>> .merge_file_xzsWx4
 >>>>>>> laraxot/dev
+=======
+Configurato in `config/local/fixcity/xra.php`:
+>>>>>>> 0dadab4 (Lint)
 ```php
 'pub_theme' => 'Sixteen',
 ```

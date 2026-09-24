@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 module: theme
 topic: phpstan-fixes-november
@@ -9,6 +12,7 @@ canonical: ../../../Themes/docs/shared-components/phpstan-fixes-november-2025.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan-fixes-november-2025.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -211,3 +215,5 @@ Quando serve fare type narrowing di una variabile usata più volte, estrarre il 
 *Ultimo aggiornamento: 11 Novembre 2025*
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

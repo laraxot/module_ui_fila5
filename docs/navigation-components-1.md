@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Componenti di Navigazione
 =======
 <<<<<<< HEAD
@@ -7,6 +8,9 @@
 # Componenti di Navigazione 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+# Componenti di Navigazione
+>>>>>>> 0dadab4 (Lint)
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -77,6 +81,7 @@ I componenti di navigazione devono utilizzare sempre le funzioni di localizzazio
 ### Traduzioni Necessarie
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
 =======
 <<<<<<< HEAD
@@ -85,6 +90,9 @@ Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/saluteora/laravel/lang/{locale}/auth.php`:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
+>>>>>>> 0dadab4 (Lint)
 
 ```php
 return [

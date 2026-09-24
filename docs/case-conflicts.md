@@ -1,6 +1,7 @@
 # Case-Insensitive File Conflicts
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_l1oehm
 =======
 <<<<<<< HEAD
@@ -32,6 +33,8 @@ Su Linux i file `Foo.md` e `foo.md` coesistono; su Windows/macOS collidono. Una 
 Nessun marker di conflitto a inizio riga nel repo (`git grep`). I Feature Pest Filament del modulo User possono contendere il database di testing con altri suite in parallelo.
 =======
 >>>>>>> .merge_file_6tFZlQ
+=======
+>>>>>>> 0dadab4 (Lint)
 File duplicati rilevati nel modulo `UI`:
 
 - `Modules/UI/.github`: `CONTRIBUTING.md`, `contributing.md`
@@ -40,6 +43,7 @@ File duplicati rilevati nel modulo `UI`:
 - `Modules/UI/docs/filament`: `ListRecords.md`, `listrecords.md`
 
 Uniformare ciascuna coppia scegliendo un'unica versione (in genere `README.md`, `CONTRIBUTING.md`, ecc.) e rimuovere i duplicati.
+<<<<<<< HEAD
 <<<<<<< .merge_file_l1oehm
 <<<<<<< HEAD
 =======
@@ -74,3 +78,5 @@ Nessun marker di conflitto a inizio riga nel repo (`git grep`). I Feature Pest F
 =======
 >>>>>>> .merge_file_6tFZlQ
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

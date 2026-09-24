@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_arbVVk
 <<<<<<< HEAD
 =======
@@ -41,6 +42,12 @@
 <?php
 
 declare(strict_types=1);
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> 0dadab4 (Lint)
 ?>
 <div class="bg-white">
     {{--

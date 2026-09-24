@@ -257,6 +257,7 @@ class Dashboard extends Component
 {
     protected static string $layout = AdminLayout::class;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -265,6 +266,9 @@ class Dashboard extends Component
     
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
     protected function getLayoutData(): array
     {
         return [
@@ -291,6 +295,7 @@ class Dashboard extends Component
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### PrintLayout
 =======
 <<<<<<< HEAD
@@ -299,12 +304,16 @@ class Dashboard extends Component
 #### PrintLayout 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+#### PrintLayout
+>>>>>>> 0dadab4 (Lint)
 ```php
 use Modules\UI\Layouts\PrintLayout;
 
 class StampaPratica extends Component
 {
     protected static string $layout = PrintLayout::class;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -314,6 +323,9 @@ class StampaPratica extends Component
     
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
     protected function getLayoutData(): array
     {
         return [
@@ -357,6 +369,7 @@ return [
             'danger' => '#ef4444',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -365,6 +378,9 @@ return [
         
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
         // Tipografia
         'typography' => [
             'fonts' => [
@@ -378,6 +394,7 @@ return [
             ],
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -386,6 +403,9 @@ return [
         
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
         // Spaziature
         'spacing' => [
             'base' => '1rem',
@@ -393,6 +413,7 @@ return [
             'xl' => '2rem',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -401,12 +422,16 @@ return [
         
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
         // Bordi
         'border' => [
             'radius' => '0.375rem',
             'width' => '1px',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -415,6 +440,9 @@ return [
         
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
         // Ombre
         'shadows' => [
             'sm' => '0 1px 2px 0 rgb(0 0 0 / 0.05)',
@@ -520,6 +548,7 @@ AdminLayout::make()
    - Documentare personalizzazioni
    - Seguire convenzioni di naming
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Centralizzare configurazioni
 =======
 <<<<<<< HEAD
@@ -528,3 +557,6 @@ AdminLayout::make()
    - Centralizzare configurazioni 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+   - Centralizzare configurazioni
+>>>>>>> 0dadab4 (Lint)

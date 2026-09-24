@@ -5,19 +5,25 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit;
 
 use Illuminate\Translation\PotentiallyTranslatedString;
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 <<<<<<< .merge_file_RJtMwC
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> 0dadab4 (Lint)
 <<<<<<< HEAD
 use Mockery;
 =======
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 =======
 >>>>>>> .merge_file_JKXZzI
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> 0dadab4 (Lint)
 use Mockery\MockInterface;
 use Modules\UI\Enums\FieldTypeEnum;
 use Modules\UI\Enums\TableLayout;
@@ -30,38 +36,50 @@ use Modules\UI\Tests\TestCase;
 use Modules\Xot\Contracts\UserContract;
 use Modules\Xot\Tests\FilamentSchemaCoverage;
 use PHPUnit\Framework\Assert;
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 <<<<<<< .merge_file_RJtMwC
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> 0dadab4 (Lint)
 <<<<<<< HEAD
 use SplFileInfo;
 =======
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 =======
 >>>>>>> .merge_file_JKXZzI
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> 0dadab4 (Lint)
 
 uses(TestCase::class);
 
 afterEach(function (): void {
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 <<<<<<< .merge_file_RJtMwC
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> 0dadab4 (Lint)
 <<<<<<< HEAD
     Mockery::close();
 =======
     \Mockery::close();
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 =======
     \Mockery::close();
 >>>>>>> .merge_file_JKXZzI
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> 0dadab4 (Lint)
 });
 
 describe('UI Filament widgets and components coverage', function (): void {
@@ -72,10 +90,13 @@ describe('UI Filament widgets and components coverage', function (): void {
             if (! str_contains($class, 'Filament\\Widgets\\')) {
                 continue;
             }
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 <<<<<<< .merge_file_RJtMwC
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> 0dadab4 (Lint)
 <<<<<<< HEAD
             Assert::assertInstanceOf($class, new $class);
             $seen++;
@@ -83,6 +104,7 @@ describe('UI Filament widgets and components coverage', function (): void {
             Assert::assertInstanceOf($class, new $class());
             ++$seen;
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 =======
@@ -90,6 +112,8 @@ describe('UI Filament widgets and components coverage', function (): void {
             ++$seen;
 >>>>>>> .merge_file_JKXZzI
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> 0dadab4 (Lint)
         }
         Assert::assertGreaterThan(0, $seen);
     });
@@ -99,41 +123,53 @@ describe('UI Filament widgets and components coverage', function (): void {
         $iterator = new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($appRoot.'/Filament/Forms'));
         $count = 0;
         foreach ($iterator as $file) {
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 <<<<<<< .merge_file_RJtMwC
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> 0dadab4 (Lint)
 <<<<<<< HEAD
             if (! $file instanceof SplFileInfo || ! $file->isFile() || ! str_ends_with($file->getFilename(), '.php')) {
 =======
             if (! $file instanceof \SplFileInfo || ! $file->isFile() || ! str_ends_with($file->getFilename(), '.php')) {
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 =======
             if (! $file instanceof \SplFileInfo || ! $file->isFile() || ! str_ends_with($file->getFilename(), '.php')) {
 >>>>>>> .merge_file_JKXZzI
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> 0dadab4 (Lint)
                 continue;
             }
             $class = 'Modules\\UI\\'.str_replace(['/', '.php'], ['\\', ''], substr($file->getPathname(), strlen($appRoot) + 1));
             if (class_exists($class)) {
                 Assert::assertTrue(class_exists($class));
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 <<<<<<< .merge_file_RJtMwC
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> 0dadab4 (Lint)
 <<<<<<< HEAD
                 $count++;
 =======
                 ++$count;
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 =======
                 ++$count;
 >>>>>>> .merge_file_JKXZzI
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> 0dadab4 (Lint)
             }
         }
         Assert::assertGreaterThan(0, $count);
@@ -153,21 +189,27 @@ describe('UI coverage boost — Enums', function (): void {
 
 describe('UI coverage boost — Rules and policies', function (): void {
     test('OpeningHoursRule accepts empty array value', function (): void {
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 <<<<<<< .merge_file_RJtMwC
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> 0dadab4 (Lint)
 <<<<<<< HEAD
         $rule = new OpeningHoursRule;
 =======
         $rule = new OpeningHoursRule();
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 =======
         $rule = new OpeningHoursRule();
 >>>>>>> .merge_file_JKXZzI
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> 0dadab4 (Lint)
         $failed = false;
         $rule->validate(
             'hours',
@@ -183,10 +225,13 @@ describe('UI coverage boost — Rules and policies', function (): void {
 
     test('UiBasePolicy before grants super-admin', function (): void {
         /** @var MockInterface&UserContract $superAdmin */
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 <<<<<<< .merge_file_RJtMwC
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> 0dadab4 (Lint)
 <<<<<<< HEAD
         $superAdmin = Mockery::mock(UserContract::class);
         TestCase::expectMethod($superAdmin, 'hasRole')->with('super-admin')->andReturn(true);
@@ -196,11 +241,14 @@ describe('UI coverage boost — Rules and policies', function (): void {
 
         $policy = new class extends UiBasePolicy {};
 =======
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 =======
 >>>>>>> .merge_file_JKXZzI
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> 0dadab4 (Lint)
         $superAdmin = \Mockery::mock(UserContract::class);
         TestCase::expectMethod($superAdmin, 'hasRole')->with('super-admin')->andReturn(true);
         /** @var MockInterface&UserContract $regular */
@@ -209,6 +257,7 @@ describe('UI coverage boost — Rules and policies', function (): void {
 
         $policy = new class extends UiBasePolicy {
         };
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 >>>>>>> laraxot/dev
 =======
@@ -217,6 +266,9 @@ describe('UI coverage boost — Rules and policies', function (): void {
 =======
 >>>>>>> .merge_file_JKXZzI
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 0dadab4 (Lint)
         Assert::assertTrue($policy->before($superAdmin, 'viewAny'));
         Assert::assertNull($policy->before($regular, 'viewAny'));
     });
@@ -224,10 +276,13 @@ describe('UI coverage boost — Rules and policies', function (): void {
 
 describe('UI coverage boost — Models and providers', function (): void {
     test('Category fillable matches domain fields', function (): void {
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 <<<<<<< .merge_file_RJtMwC
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> 0dadab4 (Lint)
 <<<<<<< HEAD
         Assert::assertContains('name', (new Category)->getFillable());
     });
@@ -235,16 +290,20 @@ describe('UI coverage boost — Models and providers', function (): void {
     test('StatsOverviewWidget declares heading', function (): void {
         $widget = new StatsOverviewWidget;
 =======
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 =======
 =======
 >>>>>>> .merge_file_JKXZzI
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> 0dadab4 (Lint)
         Assert::assertContains('name', (new Category())->getFillable());
     });
 
     test('StatsOverviewWidget declares heading', function (): void {
         $widget = new StatsOverviewWidget();
+<<<<<<< HEAD
 <<<<<<< .merge_file_9d9W37
 >>>>>>> laraxot/dev
 =======
@@ -253,6 +312,9 @@ describe('UI coverage boost — Models and providers', function (): void {
 =======
 >>>>>>> .merge_file_JKXZzI
 >>>>>>> .merge_file_f1BPAC
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 0dadab4 (Lint)
         $ref = new \ReflectionClass($widget);
         $prop = $ref->getProperty('heading');
         $prop->setAccessible(true);

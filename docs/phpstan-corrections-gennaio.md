@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 module: theme
 topic: phpstan-corrections-gennaio
@@ -9,6 +12,7 @@ canonical: ../../../Themes/docs/shared-components/phpstan-corrections-.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan-corrections-.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -253,3 +257,5 @@ class ViewLocation extends XotBaseViewRecord
 - [PHPStan Compliance](./phpstan-compliance.md)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

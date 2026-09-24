@@ -137,6 +137,7 @@ Related:
 
 - [Project Wiki Integration](../../docs/wiki/README.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -449,3 +450,7 @@ Related:
 - [Module Documentation](../README.md)
 =======
 >>>>>>> laraxot/dev
+=======
+- [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
+- [Module Documentation](../README.md)
+>>>>>>> 0dadab4 (Lint)

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_0SU3R8
 <<<<<<< HEAD
 =======
@@ -21,6 +22,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_jJ4kCQ
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'navigation' => [
         'group' => '',

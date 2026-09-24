@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Forms\Components;
 
 // use bjeavons\ZxcvbnPhp\Zxcvbn;
+<<<<<<< HEAD
 <<<<<<< .merge_file_LmOuMp
 <<<<<<< HEAD
 use Filament\Forms\Components\TextInput;
@@ -32,6 +33,11 @@ use Modules\Xot\Filament\Forms\Components\XotBaseTextInput;
 
 class PasswordStrengthField extends XotBaseTextInput
 >>>>>>> .merge_file_C6y9B8
+=======
+use Filament\Forms\Components\TextInput;
+
+class PasswordStrengthField extends TextInput
+>>>>>>> 0dadab4 (Lint)
 {
     /**
      * Setup iniziale del componente.
@@ -47,6 +53,7 @@ class PasswordStrengthField extends XotBaseTextInput
 
     public function evaluateStrength(): static
     {
+<<<<<<< HEAD
 <<<<<<< .merge_file_LmOuMp
 <<<<<<< HEAD
         $this->afterStateUpdated(function (string $state): void {
@@ -64,6 +71,9 @@ class PasswordStrengthField extends XotBaseTextInput
 =======
         $this->afterStateUpdated(static function (string $state): void {
 >>>>>>> .merge_file_C6y9B8
+=======
+        $this->afterStateUpdated(function (string $state): void {
+>>>>>>> 0dadab4 (Lint)
             unset($state);
             // $zxcvbn = new Zxcvbn();
             // $result = $zxcvbn->passwordStrength($state);

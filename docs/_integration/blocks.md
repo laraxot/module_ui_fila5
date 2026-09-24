@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_mSwjHS
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5h4XZH
+=======
+>>>>>>> 0dadab4 (Lint)
 # blocks
 
 <!-- Contenuto migrato da _docs/blocks.txt -->

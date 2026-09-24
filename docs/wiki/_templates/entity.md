@@ -3,6 +3,7 @@ module: theme
 topic: entity
 canonical: ../../../../../Themes/docs/shared-components/entity-Modules.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_FNMaBs
 =======
 <<<<<<< HEAD
@@ -23,6 +24,8 @@ related:
 =======
 >>>>>>> .merge_file_ES2Q7A
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/entity-Modules.md

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ftQhwj
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_JnAYCC
+=======
+>>>>>>> 0dadab4 (Lint)
 # Convenzioni di Naming per i Wizard Step in Filament
 
 ## Regola Fondamentale

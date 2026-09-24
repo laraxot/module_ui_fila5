@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ksBlhR
 # Gestione delle Risorse Pubbliche 
 =======
@@ -41,6 +42,9 @@
 # Gestione delle Risorse Pubbliche 
 >>>>>>> .merge_file_utGBGx
 >>>>>>> laraxot/dev
+=======
+# Gestione delle Risorse Pubbliche 
+>>>>>>> 0dadab4 (Lint)
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -59,6 +63,7 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ksBlhR
 /var/www/html/<nome progetto>/
 =======
@@ -102,6 +107,9 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 /var/www/html/<nome progetto>/
 >>>>>>> .merge_file_utGBGx
 >>>>>>> laraxot/dev
+=======
+/var/www/html/<nome progetto>/
+>>>>>>> 0dadab4 (Lint)
 ├── public_html/           # Directory pubblica principale
 │   ├── images/            # Immagini pubbliche
 │   ├── css/               # File CSS
@@ -112,6 +120,7 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ksBlhR
 > **IMPORTANTE**: MAI utilizzare `/var/www/html/<nome progetto>/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>.
 =======
@@ -155,12 +164,16 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 > **IMPORTANTE**: MAI utilizzare `/var/www/html/<nome progetto>/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>.
 >>>>>>> .merge_file_utGBGx
 >>>>>>> laraxot/dev
+=======
+> **IMPORTANTE**: MAI utilizzare `/var/www/html/<nome progetto>/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>.
+>>>>>>> 0dadab4 (Lint)
 
 ## Tipi di Risorse
 
 ### Immagini
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ksBlhR
 Le immagini devono essere posizionate in `/var/www/html/<nome progetto>/public_html/images/` e organizzate in sottocartelle per tipologia:
 =======
@@ -204,6 +217,9 @@ Le immagini devono essere posizionate in `[project-root]/public_html/images/` e 
 Le immagini devono essere posizionate in `/var/www/html/<nome progetto>/public_html/images/` e organizzate in sottocartelle per tipologia:
 >>>>>>> .merge_file_utGBGx
 >>>>>>> laraxot/dev
+=======
+Le immagini devono essere posizionate in `/var/www/html/<nome progetto>/public_html/images/` e organizzate in sottocartelle per tipologia:
+>>>>>>> 0dadab4 (Lint)
 
 - `/images/avatars/` - Avatar utenti
 - `/images/logos/` - Loghi
@@ -271,6 +287,7 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ksBlhR
 <img 
     src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}" 
@@ -327,6 +344,11 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<img 
+    src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}" 
+    alt="{{ $user->name }}" 
+>>>>>>> 0dadab4 (Lint)
     class="h-10 w-10 rounded-full"
 >
 ```
@@ -335,6 +357,7 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 
 ```blade
 <a href="{{ LaravelLocalization::getLocalizedURL(LaravelLocalization::getCurrentLocale(), route('home')) }}">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <img 
 <<<<<<< HEAD
@@ -387,6 +410,11 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 =======
 >>>>>>> .merge_file_utGBGx
 >>>>>>> laraxot/dev
+=======
+    <img 
+        src="{{ asset('images/logos/<nome progetto>-logo.svg') }}" 
+        alt="<nome progetto>" 
+>>>>>>> 0dadab4 (Lint)
         class="h-8"
     >
 </a>
@@ -401,6 +429,7 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 
 ## Conclusione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ksBlhR
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>.
@@ -445,3 +474,6 @@ Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantis
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>.
 >>>>>>> .merge_file_utGBGx
 >>>>>>> laraxot/dev
+=======
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>.
+>>>>>>> 0dadab4 (Lint)

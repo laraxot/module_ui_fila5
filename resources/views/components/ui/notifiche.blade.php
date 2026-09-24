@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZP9qdi
 <<<<<<< HEAD
 =======
@@ -64,6 +65,8 @@
 declare(strict_types=1);
 ?>
 >>>>>>> .merge_file_zFtlCi
+=======
+>>>>>>> 0dadab4 (Lint)
 @props([
     'notifications' => [],
     'maxCount' => 5,
@@ -194,6 +197,7 @@ declare(strict_types=1);
             </div>
         @endif
     </div>
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZP9qdi
 <<<<<<< HEAD
 </div>
@@ -211,3 +215,6 @@ declare(strict_types=1);
 =======
 </div>
 >>>>>>> .merge_file_zFtlCi
+=======
+</div>
+>>>>>>> 0dadab4 (Lint)

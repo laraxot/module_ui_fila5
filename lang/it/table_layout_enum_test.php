@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_fVOq8p
 <<<<<<< HEAD
 =======
@@ -21,6 +22,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_ls57QP
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'fields' => [
         'name' => [
@@ -47,6 +50,7 @@ return [
         ],
         'label' => 'Table Layout Enum Test',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_fVOq8p
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -64,6 +68,9 @@ return [
 =======
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_ls57QP
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> 0dadab4 (Lint)
     ],
     'actions' => [
         'create' => [

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_geuuTd
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_k112hH
+=======
+>>>>>>> 0dadab4 (Lint)
 # UI Module Roadmap (2025 Q4)
 
 ## Vision & Scope
@@ -68,6 +71,7 @@ related:
 ## Milestones
 - [ ] Audit Filament v4 changes in components/pages
 - [ ] Replace labels with translations (expanded structure)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_geuuTd
 - [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
@@ -87,6 +91,9 @@ related:
 - [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
 >>>>>>> .merge_file_k112hH
 >>>>>>> laraxot/dev
+=======
+- [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
+>>>>>>> 0dadab4 (Lint)
 - [ ] Strengthen tests for critical widgets
 
 ## Acceptance Criteria
@@ -107,6 +114,7 @@ related:
 - [ ] Audit Filament v4 changes in components/pages
 - [ ] Replace labels with translations (expanded structure)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_geuuTd
 - [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
 =======
@@ -125,6 +133,9 @@ related:
 - [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
 >>>>>>> .merge_file_k112hH
 >>>>>>> laraxot/dev
+=======
+- [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
+>>>>>>> 0dadab4 (Lint)
 - [ ] Strengthen tests for critical widgets
 
 ## Acceptance Criteria

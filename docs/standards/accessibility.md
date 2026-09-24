@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_uWtqtu
 =======
 <<<<<<< HEAD
@@ -53,6 +54,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_xRBXJs
+=======
+>>>>>>> 0dadab4 (Lint)
 # Standard di Accessibilità
 
 ## 🎯 WCAG 2.1

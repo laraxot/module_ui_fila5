@@ -229,6 +229,7 @@ php artisan view:clear
 
 # Test in browser
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_BXK8lb
 =======
 <<<<<<< .merge_file_OnLVK3
@@ -239,6 +240,8 @@ php artisan view:clear
 <<<<<<< HEAD
 >>>>>>> .merge_file_cZv6UV
 >>>>>>> .merge_file_6pWJPA
+=======
+>>>>>>> 0dadab4 (Lint)
 # http://fixcity.local/it/tests/homepage
 
 # http://<nome progetto>.local/it/tests/homepage
@@ -254,6 +257,7 @@ php artisan view:clear
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_BXK8lb
 =======
 <<<<<<< .merge_file_OnLVK3
@@ -261,6 +265,8 @@ php artisan view:clear
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_cZv6UV
 >>>>>>> .merge_file_6pWJPA
+=======
+>>>>>>> 0dadab4 (Lint)
 ```
 
 ### Verify SVG Files

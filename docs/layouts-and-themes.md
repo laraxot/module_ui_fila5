@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 0dadab4 (Lint)
 ### Versione HEAD
 
 # Struttura dei Temi
@@ -56,6 +59,7 @@ Per correggere questa situazione, è necessario:
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -80,6 +84,8 @@ Per correggere questa situazione, è necessario:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 # Creare la directory Themes se non esiste
 mkdir -p /laravel/Themes
@@ -223,6 +229,7 @@ Nel file GetAllIconsAction.php è stato risolto un conflitto mantenendo una sola
 Questa scelta evita ambiguità e possibili errori runtime nella gestione delle icone dinamiche.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
 =======
 <<<<<<< HEAD
@@ -233,6 +240,9 @@ Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentaz
 >>>>>>> laraxot/dev
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../docs/risoluzione_conflitti_git.md).
 >>>>>>> laraxot/dev
+=======
+Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
+>>>>>>> 0dadab4 (Lint)
 
 In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale:
 - Rimuovere codice commentato o superfluo lasciato da template generici o da sviluppi temporanei.
@@ -242,10 +252,14 @@ In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale
 **Decisione architetturale**: In simple.blade.php è stato rimosso un blocco di codice commentato relativo a header e menu di esempio, mantenendo solo la struttura effettivamente utilizzata e correggendo il titolo. Questa scelta assicura chiarezza, manutenibilità e coerenza visiva.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
 =======
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../docs/risoluzione_conflitti_git.md).
 >>>>>>> laraxot/dev
+=======
+Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
+>>>>>>> 0dadab4 (Lint)
 
 ## Layout System
 
@@ -509,7 +523,10 @@ AdminLayout::make()
    - Centralizzare configurazioni
 ### Versione HEAD
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 # Struttura dei Temi
 
 ## Posizionamento Corretto dei Temi
@@ -564,6 +581,7 @@ Per correggere questa situazione, è necessario:
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -578,6 +596,8 @@ Per correggere questa situazione, è necessario:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+=======
+>>>>>>> 0dadab4 (Lint)
 # Creare la directory Themes se non esiste
 mkdir -p /laravel/Themes
 
@@ -719,6 +739,7 @@ Nel file GetAllIconsAction.php è stato risolto un conflitto mantenendo una sola
 Questa scelta evita ambiguità e possibili errori runtime nella gestione delle icone dinamiche.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
 =======
 <<<<<<< HEAD
@@ -753,6 +774,11 @@ Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentaz
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/project/risoluzione_conflitti_git.md).
+Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/project/risoluzione_conflitti_git.md).
+Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/project/risoluzione_conflitti_git.md).
+>>>>>>> 0dadab4 (Lint)
 
 In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale:
 - Rimuovere codice commentato o superfluo lasciato da template generici o da sviluppi temporanei.
@@ -762,6 +788,7 @@ In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale
 **Decisione architetturale**: In simple.blade.php è stato rimosso un blocco di codice commentato relativo a header e menu di esempio, mantenendo solo la struttura effettivamente utilizzata e correggendo il titolo. Questa scelta assicura chiarezza, manutenibilità e coerenza visiva.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
 =======
 <<<<<<< HEAD
@@ -802,6 +829,11 @@ Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferi
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/project/risoluzione_conflitti_git.md).
+Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/project/risoluzione_conflitti_git.md).
+Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/project/risoluzione_conflitti_git.md).
+>>>>>>> 0dadab4 (Lint)
 
 ## Layout System
 
@@ -857,6 +889,7 @@ class Dashboard extends Component
     protected static string $layout = AdminLayout::class;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -891,6 +924,9 @@ class Dashboard extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
     protected function getLayoutData(): array
     {
         return [
@@ -918,6 +954,7 @@ class Dashboard extends Component
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #### PrintLayout
 =======
@@ -949,6 +986,9 @@ class Dashboard extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+#### PrintLayout
+>>>>>>> 0dadab4 (Lint)
 ```php
 use Modules\UI\Layouts\PrintLayout;
 
@@ -957,6 +997,7 @@ class StampaPratica extends Component
     protected static string $layout = PrintLayout::class;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -991,6 +1032,9 @@ class StampaPratica extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
     protected function getLayoutData(): array
     {
         return [
@@ -1035,6 +1079,7 @@ return [
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -1069,6 +1114,9 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
         // Tipografia
         'typography' => [
             'fonts' => [
@@ -1083,6 +1131,7 @@ return [
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -1117,6 +1166,9 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
         // Spaziature
         'spacing' => [
             'base' => '1rem',
@@ -1125,6 +1177,7 @@ return [
         ],
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -1159,11 +1212,15 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
         // Bordi
         'border' => [
             'radius' => '0.375rem',
             'width' => '1px',
         ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1700,6 +1757,9 @@ return [
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
         // Ombre
         'shadows' => [
             'sm' => '0 1px 2px 0 rgb(0 0 0 / 0.05)',
@@ -1806,6 +1866,7 @@ AdminLayout::make()
    - Seguire convenzioni di naming
    - Centralizzare configurazioni
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -1837,3 +1898,5 @@ AdminLayout::make()
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

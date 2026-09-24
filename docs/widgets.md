@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
 <<<<<<< .merge_file_YgxVH6
 =======
@@ -83,3 +84,6 @@ To create a new widget:
 https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
 >>>>>>> .merge_file_qp9OzE
 >>>>>>> laraxot/dev
+=======
+https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
+>>>>>>> 0dadab4 (Lint)

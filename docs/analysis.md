@@ -62,6 +62,7 @@ Modules/UI/
 
 ## Collegamenti tra versioni di analysis.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DPWtZZ
 =======
 <<<<<<< HEAD
@@ -84,6 +85,8 @@ Modules/UI/
 * [analysis.md](../../../../Themes/One/docs/analysis.md)
 =======
 >>>>>>> .merge_file_eZDgZp
+=======
+>>>>>>> 0dadab4 (Lint)
 * [analysis.md](../../../notify/docs/analysis.md)
 * [analysis.md](../../../notify/docs/phpstan/analysis.md)
 * [analysis.md](../../../xot/docs/analysis.md)
@@ -97,6 +100,7 @@ Modules/UI/
 * [analysis.md](../../../media/docs/analysis.md)
 * [analysis.md](../../../media/docs/phpstan/analysis.md)
 * [analysis.md](../../../../themes/one/docs/analysis.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_DPWtZZ
 <<<<<<< HEAD
 =======
@@ -122,6 +126,8 @@ Modules/UI/
 =======
 >>>>>>> .merge_file_eZDgZp
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ### Versione Incoming
 

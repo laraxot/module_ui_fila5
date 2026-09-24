@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_5S6fGI
 =======
 <<<<<<< HEAD
@@ -47,6 +48,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_1PcMzY
+=======
+>>>>>>> 0dadab4 (Lint)
 # UI Module Icon System
 
 ## How It Works
@@ -132,6 +135,7 @@ Tables\Columns\IconColumn::make('status')
 Each module registers its own SVG icons:
 - `Modules/User/resources/svg/` → `user-{name}`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
 <<<<<<< .merge_file_5S6fGI
 =======
@@ -174,6 +178,9 @@ Each module registers its own SVG icons:
 =======
 >>>>>>> .merge_file_1PcMzY
 >>>>>>> laraxot/dev
+=======
+- `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
+>>>>>>> 0dadab4 (Lint)
 - etc.
 
 The `ui-` prefix is special: contains the global design system icons shared across all modules.

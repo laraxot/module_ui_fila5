@@ -3,6 +3,7 @@ module: theme
 topic: wizard-schema-separation
 canonical: ../../../../Themes/docs/shared-components/wizard-schema-aration.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_E2Zgpx
 =======
 <<<<<<< HEAD
@@ -27,6 +28,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_HosgO3
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/wizard-schema-aration.md

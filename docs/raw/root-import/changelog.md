@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_aLdRW3
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_fV9Di5
+=======
+>>>>>>> 0dadab4 (Lint)
 # Changelog
 
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.

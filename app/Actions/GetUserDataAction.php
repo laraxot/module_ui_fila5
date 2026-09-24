@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Actions;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -39,6 +40,12 @@ use Modules\User\Models\Profile;
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 use Modules\Xot\Contracts\UserContract;
 >>>>>>> .merge_file_C2T0Nu
+=======
+use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\Auth;
+use Modules\UI\Datas\UserData;
+use Modules\User\Models\User;
+>>>>>>> 0dadab4 (Lint)
 use Spatie\Permission\Contracts\Permission;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -50,6 +57,7 @@ class GetUserDataAction
     {
         $user = Auth::user();
 
+<<<<<<< HEAD
         if (! $user instanceof UserContract) {
             return null;
         }
@@ -105,11 +113,36 @@ class GetUserDataAction
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_C2T0Nu
+=======
+        if (! $user instanceof User) {
+            return null;
+        }
+
+        // PHPStan L10: tenancy() è helper function, ma PHPStan non la riconosce
+        // Rimuoviamo questa logica se non è necessaria per GetUserDataAction
+        // Se necessario, usare Filament::getTenant() invece
+
+        // Get avatar from profile_photo_path or profile relation
+        $avatarValue = null;
+        if (isset($user->profile_photo_path) && is_string($user->profile_photo_path)) {
+            $avatarValue = $user->profile_photo_path;
+        } elseif ($user->relationLoaded('profile') && null !== $user->profile) {
+            $profile = $user->profile;
+            if (is_object($profile) && method_exists($profile, 'getAvatarUrl')) {
+                $avatarValue = $profile->getAvatarUrl();
+            } elseif (is_object($profile) && isset($profile->avatar) && is_string($profile->avatar)) {
+                $avatarValue = $profile->avatar;
+            }
+        }
+
+        // PHPStan L10: getRoleNames() restituisce Collection, ma PHPStan non lo riconosce dal trait
+>>>>>>> 0dadab4 (Lint)
         /** @var Collection<int, string> $roleNames */
         $roleNames = $user->getRoleNames();
         $firstRole = $roleNames->isNotEmpty() ? $roleNames->first() : null;
         $roleValue = is_string($firstRole) ? $firstRole : null;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZxcNIN
 <<<<<<< HEAD
 =======
@@ -156,11 +189,31 @@ class GetUserDataAction
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_C2T0Nu
+=======
+        // Get settings - could be in profile or extra attributes
+        /** @var array<string, mixed> $settingsArray */
+        $settingsArray = [];
+        if ($user->relationLoaded('profile') && null !== $user->profile) {
+            $profile = $user->profile;
+            if (is_object($profile) && isset($profile->extra)) {
+                $extra = $profile->extra;
+                if (is_array($extra)) {
+                    /** @var array<string, mixed> $typedExtra */
+                    $typedExtra = $extra;
+                    $settingsArray = $typedExtra;
+                }
+            }
+        }
+
+        // PHPStan L10: getAllPermissions() restituisce Collection, ma PHPStan non lo riconosce dal trait
+        // method_exists() è sempre true perché User ha HasPermissions trait
+>>>>>>> 0dadab4 (Lint)
         /** @var Collection<int, Permission> $allPermissions */
         $allPermissions = $user->getAllPermissions();
         /** @var array<int, string> $permissions */
         $permissions = $allPermissions->pluck('name')->toArray();
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZxcNIN
 <<<<<<< HEAD
 =======
@@ -180,10 +233,20 @@ class GetUserDataAction
             avatar: $avatar,
             role: $roleValue,
             permissions: $permissions,
+=======
+        return new UserData(
+            id: (int) $user->id,
+            name: (string) ($user->name ?? ''),
+            email: (string) ($user->email ?? ''),
+            avatar: null !== $avatarValue ? (string) $avatarValue : null,
+            role: null !== $roleValue ? (string) $roleValue : null,
+            permissions: $permissions ?? [],
+>>>>>>> 0dadab4 (Lint)
             settings: $settingsArray,
         );
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -208,3 +271,5 @@ class GetUserDataAction
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

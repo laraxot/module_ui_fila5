@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_wnVRhO
 <<<<<<< HEAD
 =======
@@ -21,6 +22,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_hcBQNu
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'actions' => [
         'select' => [
@@ -68,6 +71,7 @@ return [
         ],
         'label' => 'Studio Selector',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_wnVRhO
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -85,5 +89,8 @@ return [
 =======
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_hcBQNu
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> 0dadab4 (Lint)
     ],
 ];

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_gzertp
 =======
 <<<<<<< HEAD
@@ -111,6 +112,8 @@ Ogni modulo e tema deve documentare:
 I file di documentazione vanno nelle cartelle `docs/` dentro ogni modulo/tema.
 =======
 >>>>>>> .merge_file_M4hXzK
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 module: theme
 topic: testing-rules
@@ -118,6 +121,7 @@ canonical: ../../../Themes/docs/shared-components/testing-rules-Modules.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/testing-rules-Modules.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_gzertp
 <<<<<<< HEAD
 =======
@@ -233,3 +237,5 @@ I file di documentazione vanno nelle cartelle `docs/` dentro ogni modulo/tema.
 =======
 >>>>>>> .merge_file_M4hXzK
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

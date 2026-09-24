@@ -120,6 +120,7 @@ context-mode ctx-stats
 - [On-Demand Pattern](./on-demand-pattern.md)
 - [QMD Setup](./qmd-setup.md)
 =======
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFmjje
 =======
 <<<<<<< .merge_file_0mDA2X
@@ -131,6 +132,8 @@ context-mode ctx-stats
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_UMtYNh
 >>>>>>> .merge_file_NRyuZu
+=======
+>>>>>>> 0dadab4 (Lint)
 >>>>>>> laraxot/dev
 
 ---

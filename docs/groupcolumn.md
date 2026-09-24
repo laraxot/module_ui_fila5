@@ -24,6 +24,7 @@ Empty values are automatically skipped to save visual space, except for:
 - `0` (zero)
 - `'0'` (string zero)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_rYnQ1u
 =======
 <<<<<<< HEAD
@@ -71,6 +72,8 @@ Esempio: `HaDirittoColumn` include `ValutatoreSelectColumn` per modificare `valu
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ss2wCM
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Implementation Details
 

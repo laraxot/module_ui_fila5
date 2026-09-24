@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_AZSwzF
 <<<<<<< HEAD
 =======
@@ -21,6 +22,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_zTxwIh
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'fields' => [
         'level' => [
@@ -49,6 +52,7 @@ return [
         ],
         'label' => 'Heading',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_AZSwzF
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -66,6 +70,9 @@ return [
 =======
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_zTxwIh
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> 0dadab4 (Lint)
     ],
     'actions' => [
         'create' => [

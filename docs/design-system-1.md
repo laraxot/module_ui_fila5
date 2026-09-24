@@ -80,6 +80,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
         Titolo Card
     </x-slot>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     Contenuto della card
 
@@ -94,6 +95,11 @@ Il design system definisce gli standard visivi e di interazione per garantire co
     
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+    Contenuto della card
+
+>>>>>>> 0dadab4 (Lint)
     <x-slot name="footer">
         Footer della card
     </x-slot>

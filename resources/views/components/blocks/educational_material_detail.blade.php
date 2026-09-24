@@ -1,6 +1,10 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ?>
 @props(['material'])
 
@@ -50,6 +54,7 @@ declare(strict_types=1);
         
         <div class="text-gray-700">
 <<<<<<< HEAD
+<<<<<<< HEAD
             {!! $material->content !!}
 =======
 <<<<<<< HEAD
@@ -62,6 +67,9 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+            {!! $material->content !!}
+>>>>>>> 0dadab4 (Lint)
         </div>
     </div>
     

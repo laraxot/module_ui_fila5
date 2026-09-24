@@ -10,6 +10,7 @@ use PHPUnit\Framework\Assert;
 use function Safe\file_get_contents;
 
 uses(TestCase::class);
+<<<<<<< HEAD
 <<<<<<< .merge_file_99a98D
 <<<<<<< HEAD
 =======
@@ -34,6 +35,8 @@ uses(TestCase::class);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_7veupQ
+=======
+>>>>>>> 0dadab4 (Lint)
 
 beforeEach(function (): void {
     /* @var \Modules\UI\Tests\TestCase $this */

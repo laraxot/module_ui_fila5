@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_0Ebype
 <<<<<<< HEAD
 =======
@@ -21,6 +22,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_AQhpBn
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'fields' => [
         'link' => ['label' => 'link', 'description' => 'link', 'helper_text' => 'link', 'placeholder' => 'link', 'tooltip' => ''],
@@ -34,6 +37,7 @@ return [
         'view' => ['label' => 'view', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
     ],
     'sections' => [
+<<<<<<< HEAD
 <<<<<<< .merge_file_0Ebype
 <<<<<<< HEAD
         'empty' => ['heading' => 'empty'],
@@ -51,6 +55,9 @@ return [
 =======
         'empty' => ['heading' => ''],
 >>>>>>> .merge_file_AQhpBn
+=======
+        'empty' => ['heading' => 'empty'],
+>>>>>>> 0dadab4 (Lint)
     ],
     'label' => 'Hero',
     'plural_label' => 'Hero (Plurale)',
@@ -60,6 +67,7 @@ return [
         'group' => ['name' => 'General', 'description' => 'General Settings'],
         'label' => 'Hero',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_0Ebype
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -77,6 +85,9 @@ return [
 =======
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_AQhpBn
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> 0dadab4 (Lint)
     ],
     'actions' => [
         'create' => ['label' => 'Crea Hero'],

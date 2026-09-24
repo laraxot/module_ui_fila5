@@ -3,6 +3,7 @@
 ## Common Issues
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Smuzp3
 For general troubleshooting, please refer to the [Xot Troubleshooting Guide](../../xot/docs/troubleshooting.md).
 =======
@@ -1515,3 +1516,6 @@ Se il troubleshooting non risolve:
 For general troubleshooting, please refer to the [Xot Troubleshooting Guide](../../xot/docs/troubleshooting.md).
 >>>>>>> .merge_file_AdOWrM
 >>>>>>> laraxot/dev
+=======
+For general troubleshooting, please refer to the [Xot Troubleshooting Guide](../../xot/docs/troubleshooting.md).
+>>>>>>> 0dadab4 (Lint)

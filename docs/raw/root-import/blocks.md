@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_CkisUp
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_69sAKK
+=======
+>>>>>>> 0dadab4 (Lint)
 https://github.com/whitecube/nova-flexible-content
 
 

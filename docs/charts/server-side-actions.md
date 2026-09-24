@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_uJSer8
 =======
 <<<<<<< HEAD
@@ -52,6 +53,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_QVhWMe
+=======
+>>>>>>> 0dadab4 (Lint)
 # Server-Side Chart Generation Actions
 
 > **Purpose**: Generate chart images (PNG/SVG) in background jobs (Queueable Actions) for email attachments or PDF reports.

@@ -392,6 +392,7 @@ class ClosedDays extends Field { /* Focused on day selection */ }
 #### **3.1 AI-Enhanced Components**
 - Smart form validation with ML suggestions
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1RgdIE
 - Auto-complete components with intelligent <nome progetto>ions
 =======
@@ -435,6 +436,9 @@ class ClosedDays extends Field { /* Focused on day selection */ }
 - Auto-complete components with intelligent <nome progetto>ions
 >>>>>>> .merge_file_FuJ5xU
 >>>>>>> laraxot/dev
+=======
+- Auto-complete components with intelligent <nome progetto>ions
+>>>>>>> 0dadab4 (Lint)
 - Dynamic form generation based on data patterns
 - Voice-controlled component interactions
 
@@ -772,6 +776,7 @@ class UserCalendarWidget extends XotBaseWidget
 **Status**: 85% COMPLETATO
 **Priority**: HIGH
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1RgdIE
 **PHPStan**: ✅ Level 10 (0 errori)
 =======
@@ -790,12 +795,16 @@ class UserCalendarWidget extends XotBaseWidget
 **PHPStan**: ✅ Level 10 (0 errori)
 >>>>>>> .merge_file_FuJ5xU
 >>>>>>> laraxot/dev
+=======
+**PHPStan**: ✅ Level 10 (0 errori)
+>>>>>>> 0dadab4 (Lint)
 **Filament**: ✅ 4.x Compatibile
 
 ---
 
 ## 🎯 MODULE OVERVIEW
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
 =======
@@ -840,6 +849,9 @@ Il modulo **UI** è il sistema di componenti e design system della piattaforma p
 =======
 >>>>>>> .merge_file_FuJ5xU
 >>>>>>> laraxot/dev
+=======
+Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+>>>>>>> 0dadab4 (Lint)
 
 ### 🏗️ Architettura Modulo
 ```
@@ -905,6 +917,7 @@ UI Module
 
 ### 🛠️ Technical Excellence
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1RgdIE
 - [x] **PHPStan Level 10**: 0 errori
 =======
@@ -923,6 +936,9 @@ UI Module
 - [x] **PHPStan Level 10**: 0 errori
 >>>>>>> .merge_file_FuJ5xU
 >>>>>>> laraxot/dev
+=======
+- [x] **PHPStan Level 10**: 0 errori
+>>>>>>> 0dadab4 (Lint)
 - [x] **Filament 4.x**: Compatibilità completa
 - [x] **Type Safety**: Type hints completi
 - [x] **Error Handling**: Gestione errori robusta
@@ -1051,6 +1067,7 @@ UI Module
 
 ### 📊 Technical Metrics
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1RgdIE
 - [x] **PHPStan Level 10**: 0 errori ✅
 =======
@@ -1069,6 +1086,9 @@ UI Module
 - [x] **PHPStan Level 10**: 0 errori ✅
 >>>>>>> .merge_file_FuJ5xU
 >>>>>>> laraxot/dev
+=======
+- [x] **PHPStan Level 10**: 0 errori ✅
+>>>>>>> 0dadab4 (Lint)
 - [x] **Filament 4.x**: Compatibile ✅
 - [ ] **Test Coverage**: 80% (target)
 - [ ] **Response Time**: < 200ms
@@ -1155,6 +1175,7 @@ UI Module
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1RgdIE
 =======
 <<<<<<< HEAD
@@ -1173,6 +1194,8 @@ UI Module
 =======
 >>>>>>> .merge_file_FuJ5xU
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 **Status**: 🚧 ACTIVE DEVELOPMENT
 **Confidence Level**: 90%
 

@@ -3,6 +3,7 @@ module: theme
 topic: organizzativa-money
 canonical: ../../../../../Themes/docs/shared-components/organizzativa-money-Modules.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_M5c5SO
 =======
 <<<<<<< HEAD
@@ -31,6 +32,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_rGlaGS
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/organizzativa-money-Modules.md

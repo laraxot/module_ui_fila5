@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_a2RuCa
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_LO4lQ9
+=======
+>>>>>>> 0dadab4 (Lint)
 # Checklist qualità - UI Module
 
 - [x] PHPStan Level 10

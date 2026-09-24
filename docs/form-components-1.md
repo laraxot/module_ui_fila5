@@ -146,6 +146,7 @@ public function form(Form $form): Form
 ### Input
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -155,6 +156,8 @@ public function form(Form $form): Form
     label="Email" 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 <x-ui::input
     name="email"
     type="email"
@@ -297,6 +300,7 @@ form.addEventListener('submit', (e) => {
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -307,6 +311,8 @@ form.addEventListener('submit', (e) => {
 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 - [Documentazione Frontend](../Cms/docs/frontend-architecture.md)
 ## Collegamenti tra versioni di form-components.md
 * [form-components.md](../../../UI/docs/form-components.md)

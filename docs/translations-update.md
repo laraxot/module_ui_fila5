@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_S6qdnv
 =======
 <<<<<<< HEAD
@@ -156,6 +157,8 @@ Tutte le traduzioni seguono la struttura espansa:
 *Conforme alle regole DRY + KISS*
 =======
 >>>>>>> .merge_file_1iopam
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 module: theme
 topic: translations-update
@@ -163,6 +166,7 @@ canonical: ../../../Themes/docs/shared-components/translations-update-january.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/translations-update-january.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_S6qdnv
 <<<<<<< HEAD
 =======
@@ -323,3 +327,5 @@ Tutte le traduzioni seguono la struttura espansa:
 =======
 >>>>>>> .merge_file_1iopam
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

@@ -138,6 +138,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 ## Collegamenti Bidirezionali
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Componenti Filament](../../../../docs/filament/components.md)
 =======
 <<<<<<< HEAD
@@ -178,6 +179,9 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- [Documentazione Componenti Filament](../../../../docs/filament/components.md)
+>>>>>>> 0dadab4 (Lint)
 - [Best Practices UI](../../best-practices.md)
 - [Errori Comuni UI](../../common-errors.md)
 - [Implementazione Corretta](../../examples/correct-implementation.md)
@@ -209,6 +213,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -217,10 +222,14 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 4. Aggiornare la documentazione quando vengono scoperti nuovi errori
 <<<<<<< HEAD
 =======
+=======
+4. Aggiornare la documentazione quando vengono scoperti nuovi errori
+>>>>>>> 0dadab4 (Lint)
 # Errori Comuni nei Componenti Filament UI
 
 ## ⚠️ Errori di Metodi Non Supportati
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -261,6 +270,8 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ### 1. FileUpload: Uso errato di icon()
 ❌ **NON FARE**:
 ```php
@@ -268,11 +279,14 @@ FileUpload::make('document')
     ->icon('heroicon-o-document') // ❌ Questo metodo non esiste per FileUpload
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ✅ **FARE**:
 ```php
@@ -324,6 +338,7 @@ TextInput::make('last_name') // ✅ Usare 'last_name' per il cognome
 ❌ **NON FARE**:
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
@@ -347,6 +362,8 @@ TextInput::make('last_name') // ✅ Usare 'last_name' per il cognome
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 Forms\Components\Wizard::make([
     Forms\Components\Wizard\Step::make('step_one') // ❌ Step definito inline
         ->schema([
@@ -354,11 +371,14 @@ Forms\Components\Wizard::make([
         ]),
 ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ```
 
 ✅ **FARE**:
@@ -404,6 +424,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
    - Mantenere una struttura coerente
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
@@ -429,6 +450,8 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 2. **Struttura del Documento**:
    - Titolo chiaro e descrittivo
    - Esempio dell'errore (❌)
@@ -436,6 +459,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
    - Spiegazione del perché
    - Collegamenti bidirezionali
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -446,11 +470,15 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 3. **Collegamenti Bidirezionali**:
    - Collegare alla documentazione del componente
    - Collegare alla documentazione delle best practices
    - Collegare a esempi di implementazione corretta
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ## Best Practices per la Documentazione
 
@@ -467,11 +495,17 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+## Best Practices per la Documentazione
+
+>>>>>>> 0dadab4 (Lint)
 1. **Organizzazione**:
    - Raggruppare errori per tipo di componente
    - Mantenere una struttura gerarchica
    - Usare markdown per la formattazione
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -482,11 +516,15 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 2. **Contenuto**:
    - Includere sempre esempi di codice
    - Spiegare il perché dell'errore
    - Fornire soluzioni alternative
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -497,11 +535,15 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 3. **Manutenzione**:
    - Aggiornare regolarmente la documentazione
    - Verificare i collegamenti
    - Aggiungere nuovi errori quando scoperti
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 ## Collegamenti Bidirezionali
@@ -509,12 +551,15 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Collegamenti Bidirezionali
 
 - [Documentazione Componenti Filament](../../../../docs/project/filament/components.md)
 - [Documentazione Componenti Filament](../../../../docs/project/filament/components.md)
 - [Documentazione Componenti Filament](../../../../docs/project/filament/components.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -523,6 +568,8 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 - [Best Practices UI](../../best-practices.md)
 - [Errori Comuni UI](../../common-errors.md)
 - [Implementazione Corretta](../../examples/correct-implementation.md)
@@ -531,6 +578,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 - [Gestione delle Traduzioni](./translations/lang-service-provider.md)
 - [Componente FileUpload](./filament-components/file-upload.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ## Processo di Documentazione
 
@@ -547,11 +595,17 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+## Processo di Documentazione
+
+>>>>>>> 0dadab4 (Lint)
 1. **Identificazione**:
    - Riconoscere l'errore come problema UI
    - Categorizzare l'errore
    - Determinare la posizione corretta della documentazione
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -562,16 +616,22 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 2. **Documentazione**:
    - Creare/aggiornare il file nella cartella corretta
    - Includere esempi e spiegazioni
    - Aggiungere collegamenti bidirezionali
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 3. **Verifica**:
    - Controllare la struttura della documentazione
@@ -583,6 +643,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 1. La documentazione degli errori UI deve essere sempre in `Modules/UI/project_docs/`
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -601,11 +662,14 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 4. Aggiornare la documentazione quando vengono scoperti nuovi errori
 1. La documentazione degli errori UI deve essere sempre in `Modules/UI/project_docs/`
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
 4. Aggiornare la documentazione quando vengono scoperti nuovi errori
+<<<<<<< HEAD
 <<<<<<< .merge_file_E8DM1Y
 <<<<<<< HEAD
 =======
@@ -639,3 +703,5 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 =======
 >>>>>>> .merge_file_4QPpIf
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_x3dhF1
 <<<<<<< HEAD
 =======
@@ -21,6 +22,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_JbnXHR
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'fields' => [
         'to' => [
@@ -61,6 +64,7 @@ return [
         ],
         'label' => 'Send Email',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_x3dhF1
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -78,5 +82,8 @@ return [
 =======
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_JbnXHR
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> 0dadab4 (Lint)
     ],
 ];

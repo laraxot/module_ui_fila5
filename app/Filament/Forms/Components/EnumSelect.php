@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_yJVpPo
 <<<<<<< HEAD
 use Filament\Forms\Components\Select;
@@ -32,10 +33,16 @@ use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasLabel;
 use Modules\Xot\Filament\Forms\Components\XotBaseSelect;
 >>>>>>> .merge_file_4kOwDD
+=======
+use Filament\Forms\Components\Select;
+use Filament\Support\Contracts\HasIcon;
+use Filament\Support\Contracts\HasLabel;
+>>>>>>> 0dadab4 (Lint)
 
 /**
  * EnumSelect - Reusable component for PHP-backed enums in Filament v5.
  */
+<<<<<<< HEAD
 <<<<<<< .merge_file_yJVpPo
 <<<<<<< HEAD
 final class EnumSelect extends Select
@@ -53,6 +60,9 @@ final class EnumSelect extends XotBaseSelect
 =======
 final class EnumSelect extends XotBaseSelect
 >>>>>>> .merge_file_4kOwDD
+=======
+final class EnumSelect extends Select
+>>>>>>> 0dadab4 (Lint)
 {
     protected string|\Closure|null $enumClass = null;
 
@@ -241,16 +251,20 @@ final class EnumSelect extends XotBaseSelect
     {
         if (! enum_exists($enumClass)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
             throw new \InvalidArgumentException("Enum class [{$enumClass}] does not exist.");
         }
 
         if (! is_subclass_of($enumClass, \BackedEnum::class)) {
             throw new \InvalidArgumentException("Enum class [{$enumClass}] must be a backed enum.");
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -265,6 +279,8 @@ final class EnumSelect extends XotBaseSelect
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
         }
     }
 }

@@ -5,6 +5,7 @@
 ### Struttura
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Themes/One/resources/views/pages/auth/logout.blade.php
 <<<<<<< .merge_file_UsJiXu
 =======
@@ -52,6 +53,9 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_uj67q4
+=======
+// Themes/One/resources/views/pages/auth/logout.blade.php
+>>>>>>> 0dadab4 (Lint)
 
 <?php
 
@@ -75,6 +79,7 @@ $logout = function() {
         <div class="text-center">
             <h2 class="text-2xl font-bold mb-4">{{ __('Stai per essere disconnesso') }}</h2>
             <p class="text-gray-600 mb-6">{{ __('Sei sicuro di voler uscire?') }}</p>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_UsJiXu
 =======
@@ -125,10 +130,13 @@ $logout = function() {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_uj67q4
+=======
+>>>>>>> 0dadab4 (Lint)
 
             <div class="flex justify-center space-x-4">
                 <button
                     wire:click="logout"
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -154,10 +162,13 @@ $logout = function() {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
                     class="px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
                 >
                     {{ __('Esci') }}
                 </button>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_UsJiXu
 
@@ -227,6 +238,11 @@ $logout = function() {
                     href="{{ url()->previous() }}"
 >>>>>>> .merge_file_uj67q4
 >>>>>>> laraxot/dev
+=======
+
+                <a
+                    href="{{ url()->previous() }}"
+>>>>>>> 0dadab4 (Lint)
                     class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
                 >
                     {{ __('Annulla') }}
@@ -296,6 +312,7 @@ $logout = function() {
 3. Garantire la sicurezza del processo di logout
 4. Assicurare la responsività su tutti i dispositivi
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -314,6 +331,10 @@ state([
     'confirmingLogout' => false,
 ]);
 =======
+=======
+5. Utilizzare le traduzioni per il supporto multilingua
+# Pagine di Autenticazione
+>>>>>>> 0dadab4 (Lint)
 
 ## Pagina di Logout con Folio e Volt
 
@@ -329,6 +350,7 @@ state([
     'confirmingLogout' => false,
 ]);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_UsJiXu
 <<<<<<< HEAD
 =======
@@ -368,6 +390,8 @@ state([
 =======
 >>>>>>> .merge_file_uj67q4
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 $logout = function() {
     auth()->logout();
     session()->invalidate();
@@ -375,6 +399,7 @@ $logout = function() {
     return redirect('/');
 };
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UsJiXu
 
 ?>
@@ -399,12 +424,18 @@ $logout = function() {
 =======
 >>>>>>> .merge_file_uj67q4
 >>>>>>> laraxot/dev
+=======
+
+?>
+
+>>>>>>> 0dadab4 (Lint)
 <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100">
     <div class="w-full sm:max-w-md mt-6 px-6 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg">
         <div class="text-center">
             <h2 class="text-2xl font-bold mb-4">{{ __('Stai per essere disconnesso') }}</h2>
             <p class="text-gray-600 mb-6">{{ __('Sei sicuro di voler uscire?') }}</p>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UsJiXu
 
 =======
@@ -420,6 +451,9 @@ $logout = function() {
 
 >>>>>>> .merge_file_uj67q4
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
             <div class="flex justify-center space-x-4">
                 <button
                     wire:click="logout"
@@ -428,6 +462,7 @@ $logout = function() {
                     {{ __('Esci') }}
                 </button>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UsJiXu
 =======
 <<<<<<< HEAD
@@ -442,11 +477,14 @@ $logout = function() {
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_uj67q4
+=======
+>>>>>>> 0dadab4 (Lint)
 
                 <a
                     href="{{ url()->previous() }}"
                     class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
                 >
+<<<<<<< HEAD
 <<<<<<< .merge_file_UsJiXu
 <<<<<<< HEAD
 =======
@@ -459,6 +497,8 @@ $logout = function() {
 =======
 >>>>>>> .merge_file_uj67q4
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
                     {{ __('Annulla') }}
                 </a>
             </div>
@@ -467,6 +507,7 @@ $logout = function() {
 </div>
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UsJiXu
 
 =======
@@ -482,12 +523,16 @@ $logout = function() {
 
 >>>>>>> .merge_file_uj67q4
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ### Caratteristiche
 1. **Architettura**
    - Utilizzo di Folio per il routing delle pagine
    - Implementazione con Volt per la gestione dello stato
    - Componente Livewire reattivo
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UsJiXu
 
 =======
@@ -503,12 +548,16 @@ $logout = function() {
 
 >>>>>>> .merge_file_uj67q4
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 2. **Funzionalità**
    - Gestione dello stato con Volt
    - Logout sicuro con invalidazione della sessione
    - Redirect automatico dopo il logout
    - Opzione di annullamento con ritorno alla pagina precedente
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UsJiXu
 
 =======
@@ -524,12 +573,16 @@ $logout = function() {
 
 >>>>>>> .merge_file_uj67q4
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 3. **Sicurezza**
    - Invalidazione della sessione
    - Rigenerazione del token CSRF
    - Protezione contro attacchi CSRF
    - Gestione sicura del logout
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UsJiXu
 
 =======
@@ -545,12 +598,16 @@ $logout = function() {
 
 >>>>>>> .merge_file_uj67q4
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 4. **UX/UI**
    - Design responsive con Tailwind
    - Feedback visivo immediato
    - Doppia opzione (conferma/annulla)
    - Animazioni fluide
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UsJiXu
 
 =======
@@ -566,12 +623,16 @@ $logout = function() {
 
 >>>>>>> .merge_file_uj67q4
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 5. **Accessibilità**
    - Testi tradotti
    - Struttura semantica
    - Focus visibile
    - Supporto tastiera
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UsJiXu
 
 =======
@@ -587,6 +648,9 @@ $logout = function() {
 
 >>>>>>> .merge_file_uj67q4
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ### Best Practices
 1. Utilizzare Volt per la gestione dello stato
 2. Implementare feedback visivi per le azioni
@@ -594,6 +658,7 @@ $logout = function() {
 4. Fornire opzioni di annullamento
 5. Mantenere la coerenza con il design system
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UsJiXu
 
 =======
@@ -609,12 +674,16 @@ $logout = function() {
 
 >>>>>>> .merge_file_uj67q4
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ### Note Tecniche
 1. **Folio**
    - La pagina viene automaticamente mappata alla rotta `/logout`
    - Non è necessario definire rotte manualmente
    - Supporto nativo per i middleware
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UsJiXu
 
 =======
@@ -630,11 +699,15 @@ $logout = function() {
 
 >>>>>>> .merge_file_uj67q4
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 2. **Volt**
    - Gestione reattiva dello stato
    - Metodi e proprietà automaticamente disponibili
    - Integrazione nativa con Livewire
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UsJiXu
 
 =======
@@ -650,10 +723,14 @@ $logout = function() {
 
 >>>>>>> .merge_file_uj67q4
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 3. **Livewire**
    - Interazioni reattive senza refresh
    - Gestione automatica degli stati
    - Ottimizzazione delle performance
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_UsJiXu
 =======
@@ -667,6 +744,8 @@ $logout = function() {
 4. Assicurare la responsività su tutti i dispositivi
 =======
 >>>>>>> .merge_file_uj67q4
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ### Best Practices
 1. Mantenere il design semplice e intuitivo
@@ -674,6 +753,7 @@ $logout = function() {
 3. Garantire la sicurezza del processo di logout
 4. Assicurare la responsività su tutti i dispositivi
 5. Utilizzare le traduzioni per il supporto multilingua
+<<<<<<< HEAD
 <<<<<<< .merge_file_UsJiXu
 <<<<<<< HEAD
 =======
@@ -707,3 +787,5 @@ $logout = function() {
 =======
 >>>>>>> .merge_file_uj67q4
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

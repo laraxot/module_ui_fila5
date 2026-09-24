@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_yHBE0U
 <<<<<<< HEAD
 =======
@@ -21,6 +22,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_dNZOIZ
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'label' => 'Fallback',
     'plural_label' => 'Fallback (Plurale)',
@@ -33,6 +36,7 @@ return [
         ],
         'label' => 'Fallback',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_yHBE0U
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -50,6 +54,9 @@ return [
 =======
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_dNZOIZ
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> 0dadab4 (Lint)
     ],
     'fields' => [
         'id' => [

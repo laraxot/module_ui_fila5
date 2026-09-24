@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_jFDnfR
 <<<<<<< HEAD
 =======
@@ -21,6 +22,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_PGHhh3
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'list' => [
         'label' => 'Lista',
@@ -54,6 +57,7 @@ return [
         ],
         'label' => 'Table Layout',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_jFDnfR
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -71,6 +75,9 @@ return [
 =======
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_PGHhh3
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> 0dadab4 (Lint)
     ],
     'fields' => [
         'id' => [

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ak3LqS
 =======
 <<<<<<< HEAD
@@ -33,6 +34,8 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MqYfg2
+=======
+>>>>>>> 0dadab4 (Lint)
 # UI Module Documentation
 
 ## Overview
@@ -1176,6 +1179,7 @@ Common issues and solutions:
 
 ## Related Modules
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ak3LqS
 =======
 <<<<<<< HEAD
@@ -1189,10 +1193,13 @@ Common issues and solutions:
 - [Xot Module](../Xot/docs/index.md) - Base UI infrastructure and component patterns
 =======
 >>>>>>> .merge_file_MqYfg2
+=======
+>>>>>>> 0dadab4 (Lint)
 - [Chart Module](../chart/docs/index.md) - Chart generation and data processing
 - [Quaeris Module](../Quaeris/docs/index.md) - Survey management and question charts
 - [LimeSurvey Module](../limesurvey/docs/index.md) - Survey data access with dynamic models
 - [Xot Module](../xot/docs/index.md) - Base UI infrastructure and component patterns
+<<<<<<< HEAD
 <<<<<<< .merge_file_ak3LqS
 <<<<<<< HEAD
 =======
@@ -1209,6 +1216,8 @@ Common issues and solutions:
 =======
 >>>>>>> .merge_file_MqYfg2
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Statistical Analysis for Question Type Y
 
@@ -1449,6 +1458,7 @@ Specialized UI components for displaying statistics of Y type questions:
 </div>
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ak3LqS
 - [Conflict Resolution](conflict-resolution.md)
 =======
@@ -6803,3 +6813,6 @@ laravel/Modules/UI/
 - [Conflict Resolution](conflict-resolution.md)
 >>>>>>> .merge_file_MqYfg2
 >>>>>>> laraxot/dev
+=======
+- [Conflict Resolution](conflict-resolution.md)
+>>>>>>> 0dadab4 (Lint)

@@ -244,6 +244,7 @@ Modules/UI/
 │   ├── Feature/
 │   └── Unit/
 ├── README.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_QZdJ5M
 =======
 <<<<<<< .merge_file_PxAbOR
@@ -257,10 +258,13 @@ Modules/UI/
 =======
 >>>>>>> .merge_file_jEotks
 >>>>>>> .merge_file_hBcCiW
+=======
+>>>>>>> 0dadab4 (Lint)
 ├── ARCHITECTURE.md
 └── CHANGELOG.md
 ```
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_QZdJ5M
 =======
 <<<<<<< .merge_file_PxAbOR
@@ -268,6 +272,8 @@ Modules/UI/
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_jEotks
 >>>>>>> .merge_file_hBcCiW
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 
 ### Blade Component Naming
@@ -1291,6 +1297,7 @@ Core functionality tests pass:
 ### Core Documentation
 
 - [README.md](./README.md) — Module overview
+<<<<<<< HEAD
 <<<<<<< .merge_file_QZdJ5M
 - [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
 =======
@@ -1304,6 +1311,9 @@ Core functionality tests pass:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_jEotks
 >>>>>>> .merge_file_hBcCiW
+=======
+- [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
+>>>>>>> 0dadab4 (Lint)
 - [patterns.md](./patterns.md) — Design patterns and workflows
 - [icon-system.md](./icon-system.md) — Icon system details
 

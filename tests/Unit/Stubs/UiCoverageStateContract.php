@@ -16,10 +16,13 @@ class UiCoverageStateContract implements StateContract
 {
     public string $name = 'pending';
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_q32wCm
 =======
 <<<<<<< .merge_file_RHxdtB
 >>>>>>> .merge_file_onzDGm
+=======
+>>>>>>> 0dadab4 (Lint)
     /** @param array<array-key, mixed>|Model|string|null $record */
     /**
 <<<<<<< HEAD
@@ -29,18 +32,22 @@ class UiCoverageStateContract implements StateContract
         public Model|array|string|null $record = null,
     ) {}
 =======
+<<<<<<< HEAD
 <<<<<<< .merge_file_q32wCm
 =======
 =======
     /**
 >>>>>>> .merge_file_VBJMIg
 >>>>>>> .merge_file_onzDGm
+=======
+>>>>>>> 0dadab4 (Lint)
      * @param Model|array<string, mixed>|string|null $record
      */
     public function __construct(
         public Model|array|string|null $record = null,
     ) {
     }
+<<<<<<< HEAD
 <<<<<<< .merge_file_q32wCm
 >>>>>>> laraxot/dev
 =======
@@ -49,6 +56,9 @@ class UiCoverageStateContract implements StateContract
 =======
 >>>>>>> .merge_file_VBJMIg
 >>>>>>> .merge_file_onzDGm
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 0dadab4 (Lint)
 
     public function label(): string
     {
@@ -97,21 +107,27 @@ class UiCoverageStateContract implements StateContract
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< .merge_file_q32wCm
 =======
 <<<<<<< .merge_file_RHxdtB
 >>>>>>> .merge_file_onzDGm
+=======
+>>>>>>> 0dadab4 (Lint)
 <<<<<<< HEAD
      * @param  array<string, mixed>  $data
 =======
      * @param array<string, mixed> $data
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_q32wCm
 =======
 =======
      * @param array<string, mixed> $data
 >>>>>>> .merge_file_VBJMIg
 >>>>>>> .merge_file_onzDGm
+=======
+>>>>>>> 0dadab4 (Lint)
      */
     public function modalActionByRecord(Model $record, array $data): void
     {
@@ -128,21 +144,27 @@ class UiCoverageStateContract implements StateContract
 
     public function canTransitionTo(string $stateClass): bool
     {
+<<<<<<< HEAD
 <<<<<<< .merge_file_q32wCm
 =======
 <<<<<<< .merge_file_RHxdtB
 >>>>>>> .merge_file_onzDGm
+=======
+>>>>>>> 0dadab4 (Lint)
 <<<<<<< HEAD
         return $stateClass === UiCoverageDoneState::class;
 =======
         return UiCoverageDoneState::class === $stateClass;
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_q32wCm
 =======
 =======
         return UiCoverageDoneState::class === $stateClass;
 >>>>>>> .merge_file_VBJMIg
 >>>>>>> .merge_file_onzDGm
+=======
+>>>>>>> 0dadab4 (Lint)
     }
 
     public function transitionTo(string $state, ?string $message = null): void

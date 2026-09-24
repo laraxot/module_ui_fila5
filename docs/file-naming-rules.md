@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_93zF1y
 =======
 <<<<<<< HEAD
@@ -131,6 +132,8 @@ Se entrambi i file contengono contenuto diverso:
 - Git Case Sensitivity Issues
 =======
 >>>>>>> .merge_file_vVQXRF
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 module: theme
 topic: file-naming-rules
@@ -138,6 +141,7 @@ canonical: ../../../Themes/docs/shared-components/file-naming-rules.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/file-naming-rules.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_93zF1y
 <<<<<<< HEAD
 =======
@@ -277,3 +281,5 @@ Se entrambi i file contengono contenuto diverso:
 =======
 >>>>>>> .merge_file_vVQXRF
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

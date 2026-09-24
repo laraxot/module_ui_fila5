@@ -9,10 +9,13 @@ use Modules\UI\Models\Policies\UiBasePolicy;
 /**
  * Concrete policy stub for testing UiBasePolicy behavior.
  */
+<<<<<<< HEAD
 <<<<<<< .merge_file_qSpPc4
 =======
 <<<<<<< .merge_file_sXuqIj
 >>>>>>> .merge_file_G7zDYO
+=======
+>>>>>>> 0dadab4 (Lint)
 <<<<<<< HEAD
 final class UiBasePolicyBehaviorConcretePolicy extends UiBasePolicy {}
 =======
@@ -20,6 +23,7 @@ final class UiBasePolicyBehaviorConcretePolicy extends UiBasePolicy
 {
 }
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_qSpPc4
 =======
 =======
@@ -28,3 +32,5 @@ final class UiBasePolicyBehaviorConcretePolicy extends UiBasePolicy
 }
 >>>>>>> .merge_file_NEqjgs
 >>>>>>> .merge_file_G7zDYO
+=======
+>>>>>>> 0dadab4 (Lint)

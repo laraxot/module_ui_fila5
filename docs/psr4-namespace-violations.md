@@ -396,6 +396,7 @@ composer dump-autoload = Manifestation of Truth
 
 **Documentazione Interna**:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_5FJVW2
 - [../../../../docs/modules-index.md](../../../../docs/modules-index.md) - Module Index
 - [../../Xot/docs/README.md](../../xot/docs/readme.md) - XotBase Pattern
@@ -426,6 +427,11 @@ composer dump-autoload = Manifestation of Truth
 - [./README.md](./readme.md) - UI Module Overview
 >>>>>>> .merge_file_kibU16
 >>>>>>> laraxot/dev
+=======
+- [../../../../docs/modules-index.md](../../../../docs/modules-index.md) - Module Index
+- [../../Xot/docs/README.md](../../xot/docs/readme.md) - XotBase Pattern
+- [./README.md](./readme.md) - UI Module Overview
+>>>>>>> 0dadab4 (Lint)
 
 ---
 

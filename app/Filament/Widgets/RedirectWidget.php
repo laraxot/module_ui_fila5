@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Widgets;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_hbQ76G
 <<<<<<< HEAD
 =======
@@ -19,6 +20,8 @@ use Filament\Schemas\Components\Component;
 =======
 use Filament\Schemas\Components\Component;
 >>>>>>> .merge_file_iGPWtr
+=======
+>>>>>>> 0dadab4 (Lint)
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 /**
@@ -81,6 +84,7 @@ final class RedirectWidget extends XotBaseSchemaWidget
      * Implementazione richiesta da XotBaseWidget.
      * Per questo widget non abbiamo form, quindi restituiamo array vuoto.
      *
+<<<<<<< HEAD
 <<<<<<< .merge_file_hbQ76G
 <<<<<<< HEAD
      * @return array<string, mixed>
@@ -98,6 +102,9 @@ final class RedirectWidget extends XotBaseSchemaWidget
 =======
      * @return array<string, Component>
 >>>>>>> .merge_file_iGPWtr
+=======
+     * @return array<string, mixed>
+>>>>>>> 0dadab4 (Lint)
      */
     public function getFormSchema(): array
     {

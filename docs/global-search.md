@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_d4I0gD
 https://github.com/spatie/laravel-searchable
 
@@ -86,3 +87,7 @@ https://github.com/spatie/laravel-searchable
 
 >>>>>>> .merge_file_SZ8WSO
 >>>>>>> laraxot/dev
+=======
+https://github.com/spatie/laravel-searchable
+
+>>>>>>> 0dadab4 (Lint)

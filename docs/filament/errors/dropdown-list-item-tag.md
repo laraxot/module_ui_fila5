@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jmsc8r
 =======
 <<<<<<< HEAD
@@ -49,6 +50,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_EkM5xv
+=======
+>>>>>>> 0dadab4 (Lint)
 # Errore: Tag Mancante nei Dropdown List Items
 
 ## Problema

@@ -1,10 +1,14 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
 <<<<<<< .merge_file_FzOiQN
 
 =======
 >>>>>>> .merge_file_biX8tr
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ?>
 <div class="bg-gray-50">
     <div class="relative bg-indigo-600">

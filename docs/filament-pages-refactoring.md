@@ -139,6 +139,7 @@ class S3Test extends XotBasePage
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_aiHHYB
 =======
 <<<<<<< HEAD
@@ -250,10 +251,13 @@ class S3Test extends XotBasePage
 - [DRY + KISS Principles](../../Xot/docs/dry_kiss_principles.md)
 =======
 >>>>>>> .merge_file_Sc4fyN
+=======
+>>>>>>> 0dadab4 (Lint)
 - [Filament Best Practices](../../xot/docs/filament_best_practices.md)
 - [XotBasePage Implementation](../../xot/docs/xotbasepage_implementation.md)
 - [DRY + KISS Principles](../../xot/docs/dry_kiss_principles.md)
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_aiHHYB
 <<<<<<< HEAD
 =======
@@ -403,3 +407,5 @@ class S3Test extends XotBasePage
 =======
 >>>>>>> .merge_file_Sc4fyN
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

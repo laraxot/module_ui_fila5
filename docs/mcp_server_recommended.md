@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6toagu
 =======
 <<<<<<< HEAD
@@ -31,6 +32,8 @@ Gestione interfaccia utente, componenti, asset e frontend.
 - Personalizza la configurazione per esigenze di frontend avanzato.
 =======
 >>>>>>> .merge_file_tTDqqI
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 module: theme
 topic: mcp_server_recommended
@@ -38,6 +41,7 @@ canonical: ../../../Themes/docs/shared-components/mcp-server-recommended-Modules
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/mcp-server-recommended-Modules.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_6toagu
 <<<<<<< HEAD
 =======
@@ -73,3 +77,5 @@ Gestione interfaccia utente, componenti, asset e frontend.
 =======
 >>>>>>> .merge_file_tTDqqI
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

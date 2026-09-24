@@ -2,6 +2,7 @@
 
 ## Data
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GaK4SO
 [DATE]
 =======
@@ -20,6 +21,9 @@
 [DATE]
 >>>>>>> .merge_file_C7lyl1
 >>>>>>> laraxot/dev
+=======
+[DATE]
+>>>>>>> 0dadab4 (Lint)
 
 ## Strumenti Utilizzati
 
@@ -69,6 +73,7 @@ Eseguire `./vendor/bin/rector process Modules/UI --dry-run` per vedere le modifi
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GaK4SO
 =======
 <<<<<<< HEAD
@@ -82,10 +87,13 @@ Eseguire `./vendor/bin/rector process Modules/UI --dry-run` per vedere le modifi
 *Ultimo aggiornamento: 2025-01-06*
 =======
 >>>>>>> .merge_file_C7lyl1
+=======
+>>>>>>> 0dadab4 (Lint)
 - [Module Analysis Report](../../../../docs/module-analysis-report-[date].md)
 - [PHPStan Level 10 Fixes](../../../../docs/phpstan-level10-fixes-[date].md)
 
 *Ultimo aggiornamento: [DATE]*
+<<<<<<< HEAD
 <<<<<<< .merge_file_GaK4SO
 <<<<<<< HEAD
 =======
@@ -102,3 +110,5 @@ Eseguire `./vendor/bin/rector process Modules/UI --dry-run` per vedere le modifi
 =======
 >>>>>>> .merge_file_C7lyl1
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Session;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use RuntimeException;
@@ -19,6 +20,8 @@ use RuntimeException;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 use Symfony\Component\HttpFoundation\Response;
 
 final class SetLocale
@@ -39,6 +42,7 @@ final class SetLocale
         $response = $next($request);
         if (! $response instanceof Response) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new \RuntimeException('Middleware must return a Response instance');
 =======
 <<<<<<< HEAD
@@ -51,6 +55,9 @@ final class SetLocale
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+            throw new \RuntimeException('Middleware must return a Response instance');
+>>>>>>> 0dadab4 (Lint)
         }
 
         return $response;

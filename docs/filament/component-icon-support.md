@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_gvrmtZ
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_UEj0Rl
+=======
+>>>>>>> 0dadab4 (Lint)
 # Supporto per Icone nei Componenti Filament
 
 ## Riepilogo della Compatibilità

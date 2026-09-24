@@ -3,6 +3,7 @@ module: theme
 topic: component-system
 canonical: ../../../../../Themes/docs/shared-components/component-system.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_hdgaqc
 =======
 <<<<<<< HEAD
@@ -28,6 +29,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_R08HZP
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/component-system.md

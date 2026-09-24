@@ -46,6 +46,7 @@ Tutti i file risolti rispettano:
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_s4T8Rp
 - [Documentazione Root UI](../../../../docs/modules/ui.md)
 - [Components Documentation](./components.md)
@@ -76,6 +77,11 @@ Tutti i file risolti rispettano:
 - [Design System Guidelines](../../../../docs/design-system.md)
 >>>>>>> .merge_file_PWu1IH
 >>>>>>> laraxot/dev
+=======
+- [Documentazione Root UI](../../../../docs/modules/ui.md)
+- [Components Documentation](./components.md)
+- [Design System Guidelines](../../../../docs/design-system.md)
+>>>>>>> 0dadab4 (Lint)
 
 ---
 *Aggiornato automaticamente dopo risoluzione conflitti Git*

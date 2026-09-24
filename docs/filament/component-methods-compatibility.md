@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_PSC7QL
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_h1AdJ4
+=======
+>>>>>>> 0dadab4 (Lint)
 # Compatibilità dei Metodi nei Componenti Filament
 
 ## Panoramica

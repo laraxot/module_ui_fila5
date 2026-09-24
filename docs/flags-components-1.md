@@ -11,6 +11,7 @@
 ## Panoramica
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
 =======
 <<<<<<< HEAD
@@ -19,15 +20,21 @@ Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere 
 Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+>>>>>>> 0dadab4 (Lint)
 
 ## Struttura dei Componenti Bandiera
 
 I file SVG delle bandiere sono archiviati in:
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 Modules/UI/resources/svg/flags/
 ```
 
@@ -38,6 +45,7 @@ Ogni bandiera è rappresentata da un file SVG con il codice ISO del paese come n
 I componenti SVG sono autoregistrati tramite il metodo `registerBladeIcons()` nel `XotBaseServiceProvider`. Questo metodo configura i set di icone Blade con il prefisso del modulo, consentendo di utilizzare i componenti SVG delle bandiere in qualsiasi vista Blade.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 /var/www/html/saluteora/laravel/Modules/UI/resources/svg/flags/
@@ -47,15 +55,20 @@ Ogni bandiera è rappresentata da un file SVG con il codice ISO del paese come n
 I componenti SVG sono autoregistrati tramite il metodo `registerBladeIcons()` nel `XotBaseServiceProvider`. Questo metodo configura i set di icone Blade con il prefisso del modulo, consentendo di utilizzare i componenti SVG delle bandiere in qualsiasi vista Blade.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ```php
 public function registerBladeIcons(): void
 {
     // ...
     $svgPath = module_path($this->name, $relativePath.'/../svg');
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
     // ...
     Config::set('blade-icons.sets.'.$this->nameLower.'.path', $svgPath);
     Config::set('blade-icons.sets.'.$this->nameLower.'.prefix', $this->nameLower);
@@ -69,6 +82,7 @@ public function registerBladeIcons(): void
 I componenti SVG delle bandiere possono essere utilizzati con la seguente sintassi:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
     Config::set('blade-icons.sets.'.$this->nameLower.'.path', $svgPath);
@@ -79,11 +93,14 @@ I componenti SVG delle bandiere possono essere utilizzati con la seguente sintas
 I componenti SVG delle bandiere possono essere utilizzati con la seguente sintassi:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ```blade
 <x-ui-flags.it class="h-5 w-5" />
 <x-ui-flags.gb class="h-5 w-5" />
 <x-ui-flags.fr class="h-5 w-5" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```
 
 =======
@@ -93,35 +110,48 @@ I componenti SVG delle bandiere possono essere utilizzati con la seguente sintas
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+```
+
+>>>>>>> 0dadab4 (Lint)
 Dove:
 - `ui` è il prefisso del modulo (in minuscolo)
 - `flags` è la sottodirectory all'interno della cartella `svg`
 - `it`, `gb`, `fr` sono i codici ISO dei paesi
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ### Attributi Supportati
 
 I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 ### Attributi Supportati
 I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 - `class`: Per applicare classi CSS
 - `style`: Per applicare stili inline
 - `width` e `height`: Per dimensionare l'SVG
 - `title`: Per aggiungere un titolo accessibile
 - `aria-*`: Per migliorare l'accessibilità
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ### Esempio con Attributi
 
@@ -130,6 +160,7 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
     class="h-6 w-6 rounded-full shadow-sm"
     title="Italiano"
     aria-label="Seleziona lingua italiana"
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -140,6 +171,8 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
     aria-label="Seleziona lingua italiana" 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 />
 ```
 
@@ -206,6 +239,7 @@ Le bandiere devono essere utilizzate come icone Filament:
 3. **Prestazioni**: Gli SVG sono leggeri e non richiedono richieste HTTP aggiuntive
 4. **Accessibilità**: Possibilità di aggiungere attributi di accessibilità
 <<<<<<< HEAD
+<<<<<<< HEAD
 5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
 =======
 <<<<<<< HEAD
@@ -214,6 +248,9 @@ Le bandiere devono essere utilizzate come icone Filament:
 5. **Coerenza**: Utilizzo di componenti nativi di SaluteOra
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
+>>>>>>> 0dadab4 (Lint)
 
 ## Bandiere Disponibili
 

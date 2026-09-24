@@ -1,6 +1,10 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0dadab4 (Lint)
 /**
  * @see https://github.com/awcodes/overlook/blob/2.x/src/Widgets/OverlookWidget.php
  */

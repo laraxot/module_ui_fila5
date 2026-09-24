@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Cfx9nI
 =======
 <<<<<<< HEAD
@@ -50,6 +51,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_y1SHOG
+=======
+>>>>>>> 0dadab4 (Lint)
 # Modulo UI
 
 Data: 2025-04-23 19:09:56

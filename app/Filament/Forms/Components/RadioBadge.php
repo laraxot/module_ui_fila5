@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_tAb9DZ
 <<<<<<< HEAD
 =======
@@ -38,6 +39,16 @@ class RadioBadge extends XotBaseRadio
 class RadioBadge extends XotBaseRadio
 >>>>>>> .merge_file_Oxn4QX
 {
+=======
+use Filament\Forms\Components\Radio;
+use Filament\Support\Contracts\HasColor;
+use Filament\Support\Contracts\HasIcon;
+
+class RadioBadge extends Radio
+{
+    /** @phpstan-var view-string */
+    /** @phpstan-ignore property.defaultValue */
+>>>>>>> 0dadab4 (Lint)
     protected string $view = 'ui::filament.forms.components.radio-badge';
 
     protected string $defaultColor = 'gray-200'; // gray-200

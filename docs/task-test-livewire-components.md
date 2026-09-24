@@ -4,6 +4,7 @@
 **Priorita'**: Media
 **Completamento**: 20%
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ILv7UT
 =======
 <<<<<<< HEAD
@@ -19,6 +20,8 @@
 =======
 >>>>>>> .merge_file_YjfZR8
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ---
 

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_0lw0AP
 =======
 <<<<<<< HEAD
@@ -464,6 +465,8 @@ $logout = function () {
 - ✅ Testare in entrambi gli stati
 =======
 >>>>>>> .merge_file_NaRuWI
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 module: theme
 topic: components_guide
@@ -471,6 +474,7 @@ canonical: ../../../Themes/docs/shared-components/components-guide.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/components-guide.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_0lw0AP
 <<<<<<< HEAD
 =======
@@ -939,3 +943,5 @@ $logout = function () {
 =======
 >>>>>>> .merge_file_NaRuWI
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

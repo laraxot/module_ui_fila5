@@ -127,6 +127,7 @@ All Bootstrap Italia classes are mapped to Tailwind via @apply:
 Pages are configured via JSON files:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Location**: `config/local/fixcity/database/content/pages/`
 =======
 <<<<<<< HEAD
@@ -169,6 +170,10 @@ Pages are configured via JSON files:
 
 =======
 >>>>>>> laraxot/dev
+=======
+**Location**: `config/local/fixcity/database/content/pages/`
+
+>>>>>>> 0dadab4 (Lint)
 **Example**: `tests.homepage.json`
 
 ```json

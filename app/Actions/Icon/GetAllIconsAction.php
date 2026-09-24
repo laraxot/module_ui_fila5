@@ -8,6 +8,7 @@ use BladeUI\Icons\Factory as IconFactory;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\File;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use ReflectionClass;
@@ -18,6 +19,8 @@ use ReflectionClass;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 use Spatie\QueueableAction\QueueableAction;
 
 class GetAllIconsAction
@@ -34,6 +37,7 @@ class GetAllIconsAction
         // Uso reflection per accedere alle icone in modo sicuro
         try {
 <<<<<<< HEAD
+<<<<<<< HEAD
             $reflection = new \ReflectionClass($iconsFactory);
 <<<<<<< .merge_file_NeiVhj
             $property = $reflection->getProperty('iconSets');
@@ -54,6 +58,10 @@ class GetAllIconsAction
 =======
             $property = $reflection->getProperty('sets');
 >>>>>>> .merge_file_G45wnI
+=======
+            $reflection = new \ReflectionClass($iconsFactory);
+            $property = $reflection->getProperty('iconSets');
+>>>>>>> 0dadab4 (Lint)
             $property->setAccessible(true);
             $icons = $property->getValue($iconsFactory);
         } catch (\Exception $e) {
@@ -61,6 +69,7 @@ class GetAllIconsAction
             return [];
         }
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_NeiVhj
 <<<<<<< HEAD
         // Verifica che $icons sia un array prima di usare Arr::map()
@@ -80,6 +89,10 @@ class GetAllIconsAction
 =======
         if (! is_iterable($icons)) {
 >>>>>>> .merge_file_G45wnI
+=======
+        // Verifica che $icons sia un array prima di usare Arr::map()
+        if (! is_array($icons)) {
+>>>>>>> 0dadab4 (Lint)
             return [];
         }
 
@@ -111,6 +124,7 @@ class GetAllIconsAction
                     continue;
                 }
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_NeiVhj
 <<<<<<< HEAD
 =======
@@ -134,18 +148,39 @@ class GetAllIconsAction
                     // Simply ignore files that aren't SVGs
                     if ('svg' !== $file->getExtension()) {
 >>>>>>> .merge_file_G45wnI
+=======
+                $files = File::allFiles($path);
+                if (! is_iterable($files)) {
+                    continue;
+                }
+
+                foreach ($files as $file) {
+                    // Type narrowing per SplFileInfo
+                    if (! $file instanceof \SplFileInfo) {
+                        continue;
+                    }
+
+                    // Simply ignore files that aren't SVGs
+                    if ('svg' !== $file->getExtension()) {
+>>>>>>> 0dadab4 (Lint)
                         continue;
                     }
 
                     $pathname = $file->getPathname();
+<<<<<<< HEAD
 <<<<<<< .merge_file_NeiVhj
 =======
+=======
+>>>>>>> 0dadab4 (Lint)
                     if (! is_string($pathname)) {
                         continue;
                     }
 
                     // $iconName = $this->getIconName($file, parentPath: $path, prefix: $prefix);
+<<<<<<< HEAD
 >>>>>>> .merge_file_G45wnI
+=======
+>>>>>>> 0dadab4 (Lint)
                     $iconName = str($pathname)
                         ->after($path.DIRECTORY_SEPARATOR)
                         ->replace(DIRECTORY_SEPARATOR, '.')
@@ -154,6 +189,7 @@ class GetAllIconsAction
 
                     $prefix = $set['prefix'] ?? '';
                     $prefixString = is_string($prefix) ? $prefix : '';
+<<<<<<< HEAD
 <<<<<<< .merge_file_NeiVhj
                     $iconFullName = $prefixString !== '' ? $prefixString.'-'.$iconName : $iconName;
                     $iconsList[] = $iconFullName;
@@ -168,6 +204,11 @@ class GetAllIconsAction
                     $iconsList[] = $iconFullName;
                 }
 >>>>>>> .merge_file_G45wnI
+=======
+                    $iconFullName = '' !== $prefixString ? $prefixString.'-'.$iconName : $iconName;
+                    $iconsList[] = $iconFullName;
+                }
+>>>>>>> 0dadab4 (Lint)
             }
             $set['icons'] = $iconsList;
             $mappedIcons[$name] = $set;
@@ -175,6 +216,7 @@ class GetAllIconsAction
 
         return $mappedIcons;
     }
+<<<<<<< HEAD
 <<<<<<< .merge_file_NeiVhj
 <<<<<<< HEAD
 =======
@@ -225,4 +267,6 @@ class GetAllIconsAction
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_G45wnI
+=======
+>>>>>>> 0dadab4 (Lint)
 }

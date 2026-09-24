@@ -9,6 +9,7 @@ qmd: "generic-ui-building-blocks category collection fieldoption"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 =======
+<<<<<<< HEAD
 <<<<<<< .merge_file_PZg30p
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
@@ -29,6 +30,11 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_lFiAG8
 >>>>>>> .merge_file_j4Cpya
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> 0dadab4 (Lint)
 related:
   - "./table-layout-toggle.md"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]

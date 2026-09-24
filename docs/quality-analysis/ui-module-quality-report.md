@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Z74LW1
 =======
 <<<<<<< HEAD
@@ -47,6 +48,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_4n3ss7
+=======
+>>>>>>> 0dadab4 (Lint)
 # Analisi Qualità - Modulo UI
 
 **Data Analisi**: 2025-01-22
@@ -122,6 +125,7 @@ related:
 
 - [PHPStan Compliance](./phpstan-compliance.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Z74LW1
 - [Optimization Recommendations](./optimization_recommendations.md)
 =======
@@ -140,6 +144,9 @@ related:
 - [Optimization Recommendations](./optimization_recommendations.md)
 >>>>>>> .merge_file_4n3ss7
 >>>>>>> laraxot/dev
+=======
+- [Optimization Recommendations](./optimization_recommendations.md)
+>>>>>>> 0dadab4 (Lint)
 - [Modularity Optimizations](./modularity-optimizations.md)
 - [Xot Quality Analysis](../xot/docs/quality-analysis/current-status.md)
 

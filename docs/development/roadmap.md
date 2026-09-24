@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_gmJdWe
 =======
 <<<<<<< HEAD
@@ -47,6 +48,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_osLjd2
+=======
+>>>>>>> 0dadab4 (Lint)
 ### Versione HEAD
 
 # Roadmap Modulo UI
@@ -343,6 +346,7 @@ Overall Module Completion: 60%
 ### Component System Enhancement [75%]
 - [x] Base Components [docs/roadmap/components_base.md]
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_gmJdWe
 - [x] Form Components [docs/roadmap/form_components.md]
 =======
@@ -361,6 +365,9 @@ Overall Module Completion: 60%
 - [x] Form Components [docs/roadmap/form_components.md]
 >>>>>>> .merge_file_osLjd2
 >>>>>>> laraxot/dev
+=======
+- [x] Form Components [docs/roadmap/form_components.md]
+>>>>>>> 0dadab4 (Lint)
 - [ ] Data Display Components [docs/roadmap/data_display.md]
 - [ ] Navigation Components [docs/roadmap/navigation.md]
 - [x] Layout Components [docs/roadmap/layout.md]

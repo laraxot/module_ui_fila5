@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_a2KPkb
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_jIudas
+=======
+>>>>>>> 0dadab4 (Lint)
 # RadioCollection: Debugging & Risoluzione Problemi di Selezione
 
 ## 🔍 Diagnosi del Problema

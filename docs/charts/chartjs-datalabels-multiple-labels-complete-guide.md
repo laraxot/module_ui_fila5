@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_NZYS6R
 =======
 <<<<<<< HEAD
@@ -52,11 +53,14 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_TMq9Ev
+=======
+>>>>>>> 0dadab4 (Lint)
 # Guida Completa: Multiple Labels con chartjs-plugin-datalabels in Filament 5.x (Modulo UI)
 
 **Versione:** 1.0  
 **Data:** Gennaio 2026  
 **Target:** Filament 5.x, Laravel 12.x, Modulo UI  
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_NZYS6R
 =======
@@ -73,6 +77,8 @@ related:
 =======
 >>>>>>> .merge_file_TMq9Ev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 **Livello:** Guida "a prova di stupido" - passo dopo passo
 
 > **Riferimento Ufficiale:** [chartjs-plugin-datalabels - Multiple Labels Sample](https://chartjs-plugin-datalabels.netlify.app/samples/advanced/multiple-labels.html)  
@@ -651,6 +657,7 @@ protected function getOptions(): array
 - [Guida Completa Chart Module](../../chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
 - [Filament 5.x Installation Guide](../../chart/docs/filament-5-installation-guide.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [SimpleChartWidget con Sfondi](../../Quaeris/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
 =======
 <<<<<<< HEAD
@@ -693,6 +700,9 @@ protected function getOptions(): array
 =======
 >>>>>>> .merge_file_TMq9Ev
 >>>>>>> laraxot/dev
+=======
+- [SimpleChartWidget con Sfondi](../../Quaeris/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
+>>>>>>> 0dadab4 (Lint)
 
 ### Documentazione Ufficiale
 
@@ -704,6 +714,7 @@ protected function getOptions(): array
 **Versione:** 1.0  
 **Ultimo Aggiornamento:** Gennaio 2026  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Mantenuto da:** Quaeris Development Team
 =======
 <<<<<<< HEAD
@@ -747,3 +758,6 @@ protected function getOptions(): array
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_TMq9Ev
+=======
+**Mantenuto da:** Quaeris Development Team
+>>>>>>> 0dadab4 (Lint)

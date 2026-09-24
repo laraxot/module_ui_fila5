@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_rJ2fOn
 =======
 <<<<<<< HEAD
@@ -57,6 +58,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_jCxVWl
+=======
+>>>>>>> 0dadab4 (Lint)
 # Task: UI Docs Cleanup
 
 ## 📋 Obiettivo

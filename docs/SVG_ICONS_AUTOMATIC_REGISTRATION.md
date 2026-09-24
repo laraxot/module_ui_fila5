@@ -92,6 +92,7 @@ php artisan view:clear
 
 # Test in browser
 <<<<<<< HEAD
+<<<<<<< HEAD
 # http://fixcity.local/it/tests/homepage
 =======
 <<<<<<< HEAD
@@ -130,6 +131,9 @@ php artisan view:clear
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+# http://fixcity.local/it/tests/homepage
+>>>>>>> 0dadab4 (Lint)
 ```
 
 ## 📊 Icon Inventory

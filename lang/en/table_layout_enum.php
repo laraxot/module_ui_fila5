@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_4UoYaj
 <<<<<<< HEAD
 =======
@@ -21,6 +22,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_IgHIoS
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'values' => [
         'list' => [
@@ -51,6 +54,7 @@ return [
         ],
         'label' => 'Table Layout Enum',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_4UoYaj
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -68,6 +72,9 @@ return [
 =======
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_IgHIoS
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> 0dadab4 (Lint)
     ],
     'fields' => [
         'id' => [

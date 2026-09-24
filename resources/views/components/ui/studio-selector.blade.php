@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_hZlnvy
 <<<<<<< HEAD
 =======
@@ -35,6 +36,12 @@
 <?php
 
 declare(strict_types=1);
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> 0dadab4 (Lint)
 ?>
 {{--
     Studio Selector Component - Selezione semplice studio con pulsanti

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_IRHPI3
 <<<<<<< HEAD
 =======
@@ -21,6 +22,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_6ddIo7
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'fields' => [
         'caption' => ['label' => 'caption', 'description' => 'caption', 'helper_text' => 'caption', 'placeholder' => 'caption', 'tooltip' => ''],
@@ -37,6 +40,7 @@ return [
         'group' => ['name' => 'General', 'description' => 'General Settings'],
         'label' => 'Image',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_IRHPI3
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -54,6 +58,9 @@ return [
 =======
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_6ddIo7
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> 0dadab4 (Lint)
     ],
     'actions' => [
         'create' => ['label' => 'Crea Image'],

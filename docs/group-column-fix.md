@@ -2,6 +2,7 @@
 
 ## Problema
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_63Rzcf
 =======
 <<<<<<< HEAD
@@ -39,6 +40,8 @@ Con `$name = 'valutatore.nome_diri'`, questo cerca `$record->{'valutatore.nome_d
 La view ora usa un approccio a due livelli:
 =======
 >>>>>>> .merge_file_ilb9LM
+=======
+>>>>>>> 0dadab4 (Lint)
 L'errore `LogicException - The column [matr] is not mounted to a table` si verificava quando il componente `GroupColumn` veniva utilizzato in una tabella Filament. Il problema era che le colonne figlio non erano correttamente montate alla tabella padre.
 
 ## Causa
@@ -94,6 +97,7 @@ La view è stata aggiornata per:
 - Saltare valori vuoti per risparmiare spazio
 - Aggiungere etichette per migliorare la leggibilità
 - Gestire meglio i valori null
+<<<<<<< HEAD
 <<<<<<< .merge_file_63Rzcf
 <<<<<<< HEAD
 =======
@@ -134,10 +138,13 @@ La view ora usa un approccio a due livelli:
 =======
 >>>>>>> .merge_file_ilb9LM
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ```php
 @php
     $name = $field->getName();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_63Rzcf
 =======
@@ -186,6 +193,8 @@ Senza eager loading, `data_get()` restituirà `null` perché la relazione non è
 ### Attributi diretti (sempre funziona)
 =======
 >>>>>>> .merge_file_ilb9LM
+=======
+>>>>>>> 0dadab4 (Lint)
     $value = $record->getAttribute($name);
 
     // Skip empty values to save space
@@ -207,6 +216,7 @@ Senza eager loading, `data_get()` restituirà `null` perché la relazione non è
 
 ## Utilizzo
 Il `GroupColumn` può essere utilizzato per raggruppare più valori in una singola colonna della tabella, risparmiando spazio:
+<<<<<<< HEAD
 <<<<<<< .merge_file_63Rzcf
 <<<<<<< HEAD
 =======
@@ -257,12 +267,15 @@ Senza eager loading, `data_get()` restituirà `null` perché la relazione non è
 =======
 >>>>>>> .merge_file_ilb9LM
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ```php
 GroupColumn::make('lavoratore')->schema([
     TextColumn::make('matr'),
     TextColumn::make('cognome'),
     TextColumn::make('nome'),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_63Rzcf
 =======
@@ -333,6 +346,8 @@ I test verificano:
 - [Common Errors (Theme One)](../../../Themes/One/docs/common-errors.md)
 =======
 >>>>>>> .merge_file_ilb9LM
+=======
+>>>>>>> 0dadab4 (Lint)
     TextColumn::make('email'),
 ])
 ```
@@ -351,6 +366,7 @@ Sono stati creati test per verificare:
 ## Collegamenti
 - [ProgressioniResource Usage](../../progressioni/docs/progressioni-resource.md)
 - [Filament Tables Documentation](https://filamentphp.com/docs/3.x/tables/columns)
+<<<<<<< HEAD
 <<<<<<< .merge_file_63Rzcf
 <<<<<<< HEAD
 =======
@@ -423,3 +439,5 @@ I test verificano:
 =======
 >>>>>>> .merge_file_ilb9LM
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

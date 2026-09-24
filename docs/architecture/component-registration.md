@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MZfsno
 =======
 <<<<<<< HEAD
@@ -50,6 +51,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_OKQVJN
+=======
+>>>>>>> 0dadab4 (Lint)
 # Registrazione dei Componenti nei Moduli
 
 ## Regola Fondamentale

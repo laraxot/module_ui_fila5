@@ -5,17 +5,20 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit\Datas;
 
 <<<<<<< HEAD
-use Modules\UI\Data\UserData as DataUserData;
-=======
 <<<<<<< HEAD
 use Modules\UI\Data\UserData as DataUserData;
 =======
 <<<<<<< HEAD
+use Modules\UI\Data\UserData as DataUserData;
+=======
+<<<<<<< HEAD
 =======
 use Modules\UI\Data\UserData as DataUserData;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 use Modules\UI\Datas\SliderData;
 use Modules\UI\Datas\SliderDataCollection;
 use Modules\UI\Datas\UserData;
@@ -24,6 +27,7 @@ use PHPUnit\Framework\Assert;
 use Spatie\LaravelData\Data;
 
 uses(TestCase::class);
+<<<<<<< HEAD
 <<<<<<< .merge_file_WrnTmc
 <<<<<<< HEAD
 =======
@@ -47,6 +51,8 @@ uses(TestCase::class);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_MU56B3
+=======
+>>>>>>> 0dadab4 (Lint)
 
 it('SliderData can be instantiated with all fields', function (): void {
     $data = new SliderData(
@@ -104,6 +110,7 @@ it('SliderData can be instantiated with nulls', function (): void {
 
 it('SliderDataCollection can be instantiated', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
     $collection = new SliderDataCollection();
 =======
 <<<<<<< HEAD
@@ -116,12 +123,16 @@ it('SliderDataCollection can be instantiated', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    $collection = new SliderDataCollection();
+>>>>>>> 0dadab4 (Lint)
 
     Assert::assertInstanceOf(SliderDataCollection::class, $collection);
 });
 
 it('SliderDataCollection is a Spatie Data class', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
     $collection = new SliderDataCollection();
 =======
 <<<<<<< HEAD
@@ -134,6 +145,9 @@ it('SliderDataCollection is a Spatie Data class', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    $collection = new SliderDataCollection();
+>>>>>>> 0dadab4 (Lint)
 
     Assert::assertInstanceOf(Data::class, $collection);
 });
@@ -164,6 +178,7 @@ it('UI Datas UserData is a Spatie Data class', function (): void {
 
     Assert::assertInstanceOf(Data::class, $data);
 });
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -203,3 +218,5 @@ it('UI Data UserData is a Spatie Data class', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

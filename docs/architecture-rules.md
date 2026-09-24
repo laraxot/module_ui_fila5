@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_u0vq8t
 =======
 <<<<<<< HEAD
@@ -803,6 +804,8 @@ class UIServiceProvider extends XotBaseServiceProvider
    - Mantenere la coerenza con il tema dark/light
 =======
 >>>>>>> .merge_file_zJsofP
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 title: "architecture-rules — puntatore"
 type: reference
@@ -814,6 +817,7 @@ updated: 2026-05-21
 Contenuto in wiki di progetto — non duplicare nei moduli ([#124](https://github.com/provtv/base_ptv_fila5_mono/issues/124)).
 
 → [docs/wiki/rules/00-TRIGGER_MAP.md](../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_u0vq8t
 <<<<<<< HEAD
 =======
@@ -1811,3 +1815,5 @@ class UIServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> .merge_file_zJsofP
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6MsDon
 =======
 <<<<<<< HEAD
@@ -47,6 +48,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Pxz1Gd
+=======
+>>>>>>> 0dadab4 (Lint)
 # Componente FileUpload
 
 ## Collegamenti Bidirezionali

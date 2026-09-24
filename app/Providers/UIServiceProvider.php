@@ -13,6 +13,7 @@ use Modules\Xot\Providers\XotBaseServiceProvider;
  * Nota: la registrazione dei Blade components modulari avviene tramite GetModulePathByGeneratorAction
  * per garantire la corretta risoluzione dei path secondo la struttura dei moduli.
  *
+<<<<<<< HEAD
 <<<<<<< .merge_file_mOdQhK
 <<<<<<< HEAD
 =======
@@ -34,10 +35,13 @@ use Modules\Xot\Providers\XotBaseServiceProvider;
  * (vedi docs/geo-boundary.md). In questo progetto il modulo Geo non è presente.
  *
 >>>>>>> .merge_file_AluPX9
+=======
+>>>>>>> 0dadab4 (Lint)
  * @phpstan-type ModuleConfig array{name: string, alias: string, description: string, keywords: array<int, string>, priority: int, providers: array<int, class-string>}
  */
 class UIServiceProvider extends XotBaseServiceProvider
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -46,6 +50,8 @@ class UIServiceProvider extends XotBaseServiceProvider
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
     /**
      * Nome del modulo.
      */
@@ -55,6 +61,7 @@ class UIServiceProvider extends XotBaseServiceProvider
      * Directory del modulo.
      */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
     public string $name = 'UI';
@@ -62,10 +69,13 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
     protected string $module_dir = __DIR__;
 
     protected string $module_ns = __NAMESPACE__;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -102,6 +112,8 @@ class UIServiceProvider extends XotBaseServiceProvider
         );
     }
 
+=======
+>>>>>>> 0dadab4 (Lint)
     /**
      * Boot del service provider.
      *
@@ -111,6 +123,7 @@ class UIServiceProvider extends XotBaseServiceProvider
      */
 
     /**
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_AluPX9
      * Restituisce il percorso delle viste dei componenti UI.
@@ -121,6 +134,16 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+     * Registra i servizi del provider.
+     *
+     * @return void
+     */
+
+    /**
+     * Restituisce il percorso delle viste dei componenti UI.
+     */
+>>>>>>> 0dadab4 (Lint)
     public function getComponentViewPath(): string
     {
         return app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-view');

@@ -36,6 +36,7 @@ class CustomComponent extends Component
     public string $label;
     public ?string $hint = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -45,6 +46,8 @@ class CustomComponent extends Component
     
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
     // Proprietà private per stato interno
     private bool $isLoading = false;
@@ -85,6 +88,7 @@ class CustomComponent extends Component
     &__content { }
     &__footer { }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -95,6 +99,8 @@ class CustomComponent extends Component
     
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
     // Stati
     &--loading { }
@@ -268,6 +274,7 @@ class AdvancedForm extends Component
 * [best-practices.md](../../../../Themes/One/docs/best-practices.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -280,6 +287,8 @@ class AdvancedForm extends Component
 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ### Versione Incoming
 
 - Breaking changes

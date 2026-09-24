@@ -1,6 +1,7 @@
 # UI Module - Architecture Guide (2025)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_mGQ4oo
 > **
 =======
@@ -19,6 +20,9 @@
 > **
 >>>>>>> .merge_file_iwOKen
 >>>>>>> laraxot/dev
+=======
+> **
+>>>>>>> 0dadab4 (Lint)
 > **PHPStan Level:** 10
 > **Status:** Shared UI Components & Filament Customizations
 
@@ -563,6 +567,7 @@ class MyFormComponent extends Field
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_mGQ4oo
 <<<<<<< HEAD
@@ -571,6 +576,8 @@ class MyFormComponent extends Field
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_iwOKen
+=======
+>>>>>>> 0dadab4 (Lint)
 
 // Non aggiungere route manualmente
 Route::get('/example', [ExampleController::class, 'index']);
@@ -592,6 +599,7 @@ Blade::component('ui::components.icon', 'ui.icon');
 
 // Non creare componenti personalizzati se esiste un equivalente Filament
 <x-ui.button>Click me</x-ui.button>
+<<<<<<< HEAD
 <<<<<<< .merge_file_mGQ4oo
 <<<<<<< HEAD
 =======
@@ -601,6 +609,8 @@ Blade::component('ui::components.icon', 'ui.icon');
 =======
 >>>>>>> .merge_file_iwOKen
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ```
 
 ### Widget Development
@@ -707,6 +717,7 @@ The UI module is a **well-architected, feature-rich Filament customization layer
 ---
 
 **Document Version:** 1.0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_mGQ4oo
 **Author:** Claude Code Analysis
@@ -1440,3 +1451,6 @@ The UI module provides Filament-based admin interface components, themes, and ut
 **Author:** Claude Code Analysis
 >>>>>>> .merge_file_iwOKen
 >>>>>>> laraxot/dev
+=======
+**Author:** Claude Code Analysis
+>>>>>>> 0dadab4 (Lint)

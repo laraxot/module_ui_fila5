@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_XqF9OC
 <<<<<<< HEAD
 =======
@@ -42,5 +43,11 @@ return [
         'enum' => ['label' => 'Valore', 'placeholder' => 'Seleziona un valore', 'helper_text' => 'Seleziona un valore dall\'enumerazione', 'description' => 'Valore enumerato selezionato'],
         'x' => ['label' => 'x', 'placeholder' => 'x', 'helper_text' => 'x', 'description' => 'x'],
 >>>>>>> .merge_file_fvUmpV
+=======
+return [
+    'fields' => [
+        'type_id' => ['label' => 'type_id', 'placeholder' => 'type_id', 'helper_text' => 'type_id', 'description' => 'type_id'],
+        'enum' => ['label' => 'enum', 'placeholder' => 'enum', 'helper_text' => 'enum', 'description' => 'enum'],
+>>>>>>> 0dadab4 (Lint)
     ],
 ];

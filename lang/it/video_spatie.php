@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_Tb5O6X
 <<<<<<< HEAD
 =======
@@ -21,6 +22,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_TuYSOn
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'fields' => [
         'img_uuid' => ['label' => 'img_uuid', 'description' => 'img_uuid', 'helper_text' => 'img_uuid', 'placeholder' => 'img_uuid', 'tooltip' => ''],
@@ -35,6 +38,7 @@ return [
         'group' => ['name' => 'General', 'description' => 'General Settings'],
         'label' => 'Video Spatie',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_Tb5O6X
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -52,6 +56,9 @@ return [
 =======
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_TuYSOn
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> 0dadab4 (Lint)
     ],
     'actions' => [
         'create' => ['label' => 'Crea Video Spatie'],

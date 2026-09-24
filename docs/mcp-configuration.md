@@ -1,6 +1,7 @@
 # MCP Server Configuration - UI Module
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_i5JNqs
 
 =======
@@ -19,6 +20,9 @@
 
 >>>>>>> .merge_file_dIsjtv
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 **Status**: ✅ Configured
 **MCP Servers**: Asana, ClickUp, Filesystem, Database, Redmine (Planned)
 
@@ -55,6 +59,7 @@ The UI module's MCP configuration enables AI assistants to interact with:
     "filesystem": {
       "command": "npx",
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_i5JNqs
       "args": ["-y", "@modelcontextprotocol/server-filesystem", ". progetto>/laravel"],
 ||||||| parent of 9a84589 (.)
@@ -73,6 +78,10 @@ The UI module's MCP configuration enables AI assistants to interact with:
 ||||||| parent of 9a84589 (.)
 >>>>>>> .merge_file_dIsjtv
 >>>>>>> laraxot/dev
+=======
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", ". progetto>/laravel"],
+||||||| parent of 9a84589 (.)
+>>>>>>> 0dadab4 (Lint)
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "/var/www/_bases/base_laravelpizza/laravel"],
       "description": "Access to UI module files"
     },
@@ -81,6 +90,7 @@ The UI module's MCP configuration enables AI assistants to interact with:
       "args": ["-y", "@bytebase/dbhub"],
       "env": {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_i5JNqs
         "DATABASE_URL": "sqlite://. progetto>/laravel/database/database.sqlite"
 ||||||| parent of 9a84589 (.)
@@ -99,6 +109,10 @@ The UI module's MCP configuration enables AI assistants to interact with:
 ||||||| parent of 9a84589 (.)
 >>>>>>> .merge_file_dIsjtv
 >>>>>>> laraxot/dev
+=======
+        "DATABASE_URL": "sqlite://. progetto>/laravel/database/database.sqlite"
+||||||| parent of 9a84589 (.)
+>>>>>>> 0dadab4 (Lint)
         "DATABASE_URL": "sqlite:///var/www/_bases/base_laravelpizza/laravel/database/database.sqlite"
       },
       "description": "SQLite database queries"
@@ -115,6 +129,7 @@ The UI module's MCP configuration enables AI assistants to interact with:
 ```bash
 # Create task
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_i5JNqs
 "Create task in '<nome progetto> - UI Module' project: 'Implement location selector component'"
 =======
@@ -133,6 +148,9 @@ The UI module's MCP configuration enables AI assistants to interact with:
 "Create task in '<nome progetto> - UI Module' project: 'Implement location selector component'"
 >>>>>>> .merge_file_dIsjtv
 >>>>>>> laraxot/dev
+=======
+"Create task in '<nome progetto> - UI Module' project: 'Implement location selector component'"
+>>>>>>> 0dadab4 (Lint)
 
 # Update status
 "Update task 'Create reusable card component' status to 'In Progress'"
@@ -186,6 +204,7 @@ The UI module's MCP configuration enables AI assistants to interact with:
 ## 📚 Related Documentation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_i5JNqs
 =======
 <<<<<<< HEAD
@@ -199,10 +218,13 @@ The UI module's MCP configuration enables AI assistants to interact with:
 - [UI Module Roadmap](./roadmap-2026-01-31.md)
 =======
 >>>>>>> .merge_file_dIsjtv
+=======
+>>>>>>> 0dadab4 (Lint)
 - [Asana MCP Configuration](../../../../docs/mcp-asana-configuration.md)
 - [ClickUp MCP Configuration](../../../../docs/mcp-clickup-configuration.md)
 - [Redmine MCP Configuration](../../../../docs/mcp-redmine-configuration.md)
 - [UI Module Roadmap](./roadmap-[date].md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_i5JNqs
 <<<<<<< HEAD
 =======
@@ -219,12 +241,15 @@ The UI module's MCP configuration enables AI assistants to interact with:
 =======
 >>>>>>> .merge_file_dIsjtv
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ---
 
 ## 🔄 Updates
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_i5JNqs
 - **[DATE]**: Added ClickUp support
 - **[DATE]**: Planned Redmine integration
@@ -249,6 +274,10 @@ The UI module's MCP configuration enables AI assistants to interact with:
 - **[DATE]**: Planned Redmine integration
 >>>>>>> .merge_file_dIsjtv
 >>>>>>> laraxot/dev
+=======
+- **[DATE]**: Added ClickUp support
+- **[DATE]**: Planned Redmine integration
+>>>>>>> 0dadab4 (Lint)
 - **Servers Active**: 4 (Asana, ClickUp, Filesystem, Database)
 
 ---
@@ -256,6 +285,7 @@ The UI module's MCP configuration enables AI assistants to interact with:
 **Module**: UI (User Interface Components)
 **MCP Version**: 2.0.0
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Last Review**: 31 Gennaio 2026
 =======
 <<<<<<< .merge_file_i5JNqs
@@ -272,3 +302,6 @@ The UI module's MCP configuration enables AI assistants to interact with:
 **Last Review**: 31 Gennaio 2026
 >>>>>>> .merge_file_dIsjtv
 >>>>>>> laraxot/dev
+=======
+**Last Review**: 31 Gennaio 2026
+>>>>>>> 0dadab4 (Lint)

@@ -141,6 +141,7 @@ return [
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_e3vpap
 =======
 <<<<<<< HEAD
@@ -155,10 +156,13 @@ return [
 *Ultimo aggiornamento: Agosto 2025*
 =======
 >>>>>>> .merge_file_s8ZSDP
+=======
+>>>>>>> 0dadab4 (Lint)
 - [UI Module Icons](../laravel/modules/ui/docs/icons.md)
 - [Filament Icon Registration](../laravel/modules/xot/docs/filament-assets.md)
 - [Accessibility Guidelines](../../docs/accessibility-standards.md)
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_e3vpap
 <<<<<<< HEAD
 =======
@@ -176,3 +180,5 @@ return [
 =======
 >>>>>>> .merge_file_s8ZSDP
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

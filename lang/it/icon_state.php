@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_3fKg0e
 <<<<<<< HEAD
 =======
@@ -21,6 +22,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_VhKuNB
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'fields' => [
         'name' => [
@@ -93,6 +96,7 @@ return [
         ],
         'label' => 'Icon State',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_3fKg0e
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -110,5 +114,8 @@ return [
 =======
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_VhKuNB
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> 0dadab4 (Lint)
     ],
 ];

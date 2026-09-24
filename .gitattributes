@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_LBZUha
 =======
 <<<<<<< HEAD
@@ -14,11 +15,14 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_kEvjkm
+=======
+>>>>>>> 0dadab4 (Lint)
 * text=auto
 *.css linguist-vendored
 *.scss linguist-vendored
 *.js linguist-vendored
 CHANGELOG.md export-ignore
+<<<<<<< HEAD
 <<<<<<< .merge_file_LBZUha
 =======
 <<<<<<< HEAD
@@ -55,3 +59,6 @@ CHANGELOG.md export-ignore
 *.psd filter=lfs diff=lfs merge=lfs -text
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_kEvjkm
+=======
+*.psd filter=lfs diff=lfs merge=lfs -text
+>>>>>>> 0dadab4 (Lint)

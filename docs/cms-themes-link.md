@@ -12,6 +12,7 @@ Secondo le regole di organizzazione della documentazione:
 ## Collegamenti ai Temi nel Modulo Cms
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_gV6Lxs
 =======
 <<<<<<< HEAD
@@ -25,10 +26,13 @@ Secondo le regole di organizzazione della documentazione:
 - [Frontoffice](../../Cms/docs/frontoffice.md) - Documentazione completa sul frontend
 =======
 >>>>>>> .merge_file_hPhW7m
+=======
+>>>>>>> 0dadab4 (Lint)
 - [Compilazione dei Temi](../../cms/docs/theme_compilation.md) - Processo di compilazione e pubblicazione dei temi
 - [Processo di Build del Tema](../../cms/docs/theme-build-process.md) - Dettagli sul processo di build
 - [Struttura dei Temi](../../cms/docs/themes/structure.md) - Organizzazione dei file nei temi
 - [Frontoffice](../../cms/docs/frontoffice.md) - Documentazione completa sul frontend
+<<<<<<< HEAD
 <<<<<<< .merge_file_gV6Lxs
 <<<<<<< HEAD
 =======
@@ -45,6 +49,8 @@ Secondo le regole di organizzazione della documentazione:
 =======
 >>>>>>> .merge_file_hPhW7m
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Implementazione dei Temi
 
@@ -56,6 +62,7 @@ I componenti UI definiti in questo modulo vengono utilizzati nei temi attraverso
 
 ## Collegamenti ai Temi nella Root
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Compilazione Temi](../../../../docs/compilazione_temi.md) - Collegamento nella root alla documentazione sulla compilazione dei temi
 - [Theme Links](../../../../docs/theme-links.md) - Collegamenti nella root alla documentazione sui temi
@@ -72,6 +79,13 @@ I componenti UI definiti in questo modulo vengono utilizzati nei temi attraverso
 <<<<<<< HEAD
 Questo documento è collegato bidirezionalmente con [themes-ui-link.md](../../Cms/docs/themes-ui-link.md) nel modulo Cms.
 =======
+=======
+- [Compilazione Temi](../../../../docs/compilazione_temi.md) - Collegamento nella root alla documentazione sulla compilazione dei temi
+- [Theme Links](../../../../docs/theme-links.md) - Collegamenti nella root alla documentazione sui temi
+
+## Collegamento Bidirezionale
+
+>>>>>>> 0dadab4 (Lint)
 Questo documento è collegato bidirezionalmente con [themes-ui-link.md](../../cms/docs/themes-ui-link.md) nel modulo Cms.
 
 > Aggiorna entrambi i riferimenti se modifichi la documentazione dei temi o aggiungi nuove sezioni.
@@ -81,6 +95,7 @@ Questo documento fornisce collegamenti bidirezionali tra il modulo UI e il modul
 
 ## Documentazione dei Temi
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -149,16 +164,21 @@ Questo documento fornisce collegamenti bidirezionali tra il modulo UI e il modul
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 Secondo le regole di organizzazione della documentazione:
 - La documentazione dei componenti UI va nel modulo UI
 - La documentazione del frontend va nel modulo Cms
 - La documentazione dei temi è distribuita tra entrambi i moduli
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Collegamenti ai Temi nel Modulo Cms
 
@@ -183,6 +203,7 @@ I componenti UI definiti in questo modulo vengono utilizzati nei temi attraverso
 ## Collegamento Bidirezionale
 
 Questo documento è collegato bidirezionalmente con [themes-ui-link.md](../../cms/project_docs/themes-ui-link.md) nel modulo Cms.
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 
 > Aggiorna entrambi i riferimenti se modifichi la documentazione dei temi o aggiungi nuove sezioni.
@@ -229,3 +250,7 @@ Questo documento è collegato bidirezionalmente con [themes-ui-link.md](../../Cm
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+> Aggiorna entrambi i riferimenti se modifichi la documentazione dei temi o aggiungi nuove sezioni.
+>>>>>>> 0dadab4 (Lint)

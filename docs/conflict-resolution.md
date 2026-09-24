@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SAffAK
 =======
 <<<<<<< HEAD
@@ -49,6 +50,8 @@ Tutte le verifiche hanno avuto esito positivo.
 Ultimo aggiornamento: 2025-01-06
 =======
 >>>>>>> .merge_file_hWHUFi
+=======
+>>>>>>> 0dadab4 (Lint)
 # Conflict Resolution — Module UI
 
 ## Summary
@@ -112,6 +115,7 @@ Ultimo aggiornamento: 2025-01-06
 
 ## Backlinks
 - [Root conflict resolution report](../../../../docs/conflict-resolution-report.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_SAffAK
 <<<<<<< HEAD
 =======
@@ -165,3 +169,5 @@ Ultimo aggiornamento: 2025-01-06
 =======
 >>>>>>> .merge_file_hWHUFi
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

@@ -21,6 +21,7 @@ Gestione interfaccia utente, componenti, asset e frontend.
 
 ## Note
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Personalizza la configurazione per esigenze di frontend avanzato.
 <<<<<<< .merge_file_CR5TYJ
 =======
@@ -96,3 +97,6 @@ Gestione interfaccia utente, componenti, asset e frontend.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Tklubg
+=======
+- Personalizza la configurazione per esigenze di frontend avanzato.
+>>>>>>> 0dadab4 (Lint)

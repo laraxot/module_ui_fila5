@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cIUkiW
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_fifjEe
+=======
+>>>>>>> 0dadab4 (Lint)
 # Filament 4 Migration Summary
 
 ## Completed Tasks ✅
@@ -72,6 +75,7 @@ related:
 - ✅ Updated project **CLAUDE.md** rules for Filament 4
 - ✅ Updated version information (PHP 8.3.25, Filament 4.0.19, Laravel 12.30.1)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cIUkiW
 =======
 <<<<<<< HEAD
@@ -87,6 +91,8 @@ related:
 =======
 >>>>>>> .merge_file_fifjEe
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ### 3. Code Updates and Fixes
 

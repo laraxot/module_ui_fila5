@@ -35,6 +35,7 @@ Durante la digitazione di `<x-filament::`, l'estensione suggerisce i componenti 
 ## Installazione
 - **Marketplace**: Cerca "Filament" su [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=doonfrs.vscode-filament) e installa l'estensione.
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Terminale**:
 =======
 <<<<<<< HEAD
@@ -71,6 +72,9 @@ Durante la digitazione di `<x-filament::`, l'estensione suggerisce i componenti 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- **Terminale**:
+>>>>>>> 0dadab4 (Lint)
   ```sh
   code --install-extension doonfrs.vscode-filament
   ```
@@ -141,6 +145,7 @@ L'estensione **doonfrs.vscode-filament** migliora notevolmente lo sviluppo Filam
 
 ## Aggiornamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per segnalare bug o suggerire miglioramenti, usa la [pagina GitHub dell'estensione](https://github.com/doonfrs/vscode-filament).
 =======
 <<<<<<< HEAD
@@ -193,6 +198,16 @@ Estensione per Visual Studio Code che fornisce **syntax highlighting** e **autoc
 =======
 >>>>>>> .merge_file_uD4oxe
 >>>>>>> laraxot/dev
+=======
+Per segnalare bug o suggerire miglioramenti, usa la [pagina GitHub dell'estensione](https://github.com/doonfrs/vscode-filament).
+# VSCode Filament Extension (doonfrs.vscode-filament)
+
+## Cos'è
+Estensione per Visual Studio Code che fornisce **syntax highlighting** e **autocompletamento intelligente** per i componenti UI di Laravel Filament nei file Blade.
+
+---
+
+>>>>>>> 0dadab4 (Lint)
 ## Funzionalità principali
 - **Autocompletamento dei componenti**: suggerisce tutti i componenti Filament disponibili (UI, Action, Form, Table) mentre si scrive nei file Blade.
 - **Autocompletamento degli attributi**: mostra gli attributi disponibili per ciascun componente.
@@ -200,6 +215,7 @@ Estensione per Visual Studio Code che fornisce **syntax highlighting** e **autoc
 - **Icon System Autocompletion**: suggerisce i nomi delle icone Filament quando si usano attributi relativi alle icone.
 - **Syntax Highlighting**: evidenzia la sintassi Blade specifica dei componenti Filament.
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_LOCb7i
 
 ---
@@ -221,12 +237,18 @@ Estensione per Visual Studio Code che fornisce **syntax highlighting** e **autoc
 
 >>>>>>> .merge_file_uD4oxe
 >>>>>>> laraxot/dev
+=======
+
+---
+
+>>>>>>> 0dadab4 (Lint)
 ## Componenti supportati
 - **UI Components**
 - **Action Components**
 - **Form Components**
 - **Table Components**
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_LOCb7i
 
 ---
@@ -248,12 +270,18 @@ Estensione per Visual Studio Code che fornisce **syntax highlighting** e **autoc
 
 >>>>>>> .merge_file_uD4oxe
 >>>>>>> laraxot/dev
+=======
+
+---
+
+>>>>>>> 0dadab4 (Lint)
 ## Esempi d'uso
 ```blade
 <x-filament::button label="Salva" color="primary" />
 <x-filament::icon name="heroicon-o-user" />
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_LOCb7i
 =======
 <<<<<<< HEAD
@@ -265,11 +293,14 @@ Durante la digitazione di `<x-filament::`, l'estensione suggerisce i componenti 
 Durante la digitazione di `<x-filament::`, l'estensione suggerisce i componenti e completa automaticamente attributi e valori.
 =======
 >>>>>>> .merge_file_uD4oxe
+=======
+>>>>>>> 0dadab4 (Lint)
 
 Durante la digitazione di `<x-filament::`, l'estensione suggerisce i componenti e completa automaticamente attributi e valori.
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_LOCb7i
 <<<<<<< HEAD
 =======
@@ -280,6 +311,8 @@ Durante la digitazione di `<x-filament::`, l'estensione suggerisce i componenti 
 =======
 >>>>>>> .merge_file_uD4oxe
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ## Installazione
 - **Marketplace**: Cerca "Filament" su [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=doonfrs.vscode-filament) e installa l'estensione.
 - **Terminale**:
@@ -287,6 +320,7 @@ Durante la digitazione di `<x-filament::`, l'estensione suggerisce i componenti 
   code --install-extension doonfrs.vscode-filament
   ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_LOCb7i
 =======
 <<<<<<< HEAD
@@ -302,6 +336,8 @@ L'estensione **doonfrs.vscode-filament** migliora notevolmente lo sviluppo Filam
 **Raccomandazioni di configurazione**:
 =======
 >>>>>>> .merge_file_uD4oxe
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ---
 
@@ -315,6 +351,7 @@ L'estensione **doonfrs.vscode-filament** migliora notevolmente lo sviluppo Filam
 
 **Raccomandazioni di configurazione**:
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_LOCb7i
 <<<<<<< HEAD
 =======
@@ -333,6 +370,8 @@ L'estensione **doonfrs.vscode-filament** migliora notevolmente lo sviluppo Filam
 =======
 >>>>>>> .merge_file_uD4oxe
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ```jsonc
 // .vscode/settings.json
 {
@@ -346,6 +385,7 @@ L'estensione **doonfrs.vscode-filament** migliora notevolmente lo sviluppo Filam
   ]
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_LOCb7i
 =======
 <<<<<<< HEAD
@@ -365,6 +405,8 @@ L'estensione **doonfrs.vscode-filament** migliora notevolmente lo sviluppo Filam
 - Richiede una buona configurazione di `searchPaths` per progetti modulati.
 =======
 >>>>>>> .merge_file_uD4oxe
+=======
+>>>>>>> 0dadab4 (Lint)
 ```
 
 - Aggiungere i percorsi dei moduli personalizzati per includere risorse e componenti custom.
@@ -384,6 +426,7 @@ L'estensione **doonfrs.vscode-filament** migliora notevolmente lo sviluppo Filam
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_LOCb7i
 <<<<<<< HEAD
 =======
@@ -406,11 +449,14 @@ L'estensione **doonfrs.vscode-filament** migliora notevolmente lo sviluppo Filam
 =======
 >>>>>>> .merge_file_uD4oxe
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ## Best Practice
 - Consigliata per chi sviluppa UI Blade con Filament: velocizza la scrittura, riduce errori di sintassi e omissioni di attributi.
 - Utile per scoprire rapidamente le opzioni disponibili di ogni componente.
 - Favorisce la standardizzazione dei componenti UI nei progetti Laravel.
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_LOCb7i
 
 ---
@@ -432,11 +478,17 @@ L'estensione **doonfrs.vscode-filament** migliora notevolmente lo sviluppo Filam
 
 >>>>>>> .merge_file_uD4oxe
 >>>>>>> laraxot/dev
+=======
+
+---
+
+>>>>>>> 0dadab4 (Lint)
 ## Limitazioni e note
 - L'autocompletamento è disponibile solo nei file Blade (`.blade.php`).
 - Alcuni componenti personalizzati potrebbero non essere riconosciuti se non seguono la convenzione Filament.
 - Verifica sempre la documentazione ufficiale Filament per API avanzate.
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_LOCb7i
 
 ---
@@ -458,10 +510,16 @@ L'estensione **doonfrs.vscode-filament** migliora notevolmente lo sviluppo Filam
 
 >>>>>>> .merge_file_uD4oxe
 >>>>>>> laraxot/dev
+=======
+
+---
+
+>>>>>>> 0dadab4 (Lint)
 ## Link utili
 - [Estensione su VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=doonfrs.vscode-filament)
 - [Repository GitHub](https://github.com/doonfrs/vscode-filament)
 - [Documentazione Filament](https://filamentphp.com/docs)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_LOCb7i
 =======
@@ -475,11 +533,14 @@ L'estensione **doonfrs.vscode-filament** migliora notevolmente lo sviluppo Filam
 ```
 =======
 >>>>>>> .merge_file_uD4oxe
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ---
 
 ## Aggiornamenti
 Per segnalare bug o suggerire miglioramenti, usa la [pagina GitHub dell'estensione](https://github.com/doonfrs/vscode-filament).
+<<<<<<< HEAD
 <<<<<<< .merge_file_LOCb7i
 <<<<<<< HEAD
 =======
@@ -513,3 +574,5 @@ Per segnalare bug o suggerire miglioramenti, usa la [pagina GitHub dell'estensio
 =======
 >>>>>>> .merge_file_uD4oxe
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

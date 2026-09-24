@@ -3,6 +3,7 @@ module: theme
 topic: AGENTS
 canonical: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
@@ -89,3 +90,8 @@ See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Mo
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_GBWYJe
+=======
+---
+
+See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+>>>>>>> 0dadab4 (Lint)

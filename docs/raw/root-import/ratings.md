@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_hlT8z4
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_8rF3OH
+=======
+>>>>>>> 0dadab4 (Lint)
 -------------------------------------------------------------------------------------------------
 Add Ratings and Reviews for Laravel's Eloquent Models
 https://codebrisk.com/blog/add-ratings-and-reviews-for-laravel-s-eloquent-models

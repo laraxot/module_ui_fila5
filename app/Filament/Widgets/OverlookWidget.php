@@ -1,12 +1,17 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0dadab4 (Lint)
 /**
  * @see https://github.com/awcodes/overlook/blob/2.x/src/Widgets/OverlookWidget.php
  */
 
 namespace Modules\UI\Filament\Widgets;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ppqbpj
 <<<<<<< HEAD
 =======
@@ -22,6 +27,8 @@ use Filament\Schemas\Components\Component;
 =======
 use Filament\Schemas\Components\Component;
 >>>>>>> .merge_file_i5w7yF
+=======
+>>>>>>> 0dadab4 (Lint)
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 final class OverlookWidget extends XotBaseSchemaWidget
@@ -50,6 +57,7 @@ final class OverlookWidget extends XotBaseSchemaWidget
 
     protected int|string|array $columnSpan = 1;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ppqbpj
 <<<<<<< HEAD
 =======
@@ -71,6 +79,8 @@ final class OverlookWidget extends XotBaseSchemaWidget
      * @return array<string, Component>
      */
 >>>>>>> .merge_file_i5w7yF
+=======
+>>>>>>> 0dadab4 (Lint)
     public function getFormSchema(): array
     {
         return [];

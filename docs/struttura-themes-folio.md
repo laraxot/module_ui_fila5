@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_HzcCbU
 =======
 <<<<<<< HEAD
@@ -290,6 +291,8 @@ config('theme.views_path') // Output: "Themes/One/resources/views"
 ```
 =======
 >>>>>>> .merge_file_1ysaew
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 module: theme
 topic: struttura-themes-folio
@@ -297,6 +300,7 @@ canonical: ../../../Themes/docs/shared-components/struttura-themes-folio.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/struttura-themes-folio.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_HzcCbU
 <<<<<<< HEAD
 =======
@@ -691,3 +695,5 @@ config('theme.views_path') // Output: "Themes/One/resources/views"
 =======
 >>>>>>> .merge_file_1ysaew
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

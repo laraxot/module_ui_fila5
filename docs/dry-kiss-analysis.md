@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_pg2P3q
 =======
 <<<<<<< HEAD
@@ -65,6 +66,8 @@ Docs cleanup (1 sett)
 **Status:** 🟢 OTTIMO, docs da consolidare
 =======
 >>>>>>> .merge_file_nCdlIi
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 module: theme
 topic: dry-kiss-analysis
@@ -72,6 +75,7 @@ canonical: ../../../Themes/docs/shared-components/dry-kiss-analysis-2025-10-15-M
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/dry-kiss-analysis-2025-10-15-Modules.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_pg2P3q
 <<<<<<< HEAD
 =======
@@ -141,3 +145,5 @@ Docs cleanup (1 sett)
 =======
 >>>>>>> .merge_file_nCdlIi
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

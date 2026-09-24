@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_Xxl8Hg
 <<<<<<< HEAD
 =======
@@ -45,6 +46,12 @@
 <?php
 
 declare(strict_types=1);
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> 0dadab4 (Lint)
 ?>
 <div class="relative bg-gray-50">
     <div class="relative bg-white shadow">

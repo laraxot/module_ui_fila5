@@ -3,6 +3,7 @@
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jPx1Bc
 - [Modulo Lang](../../lang/docs/module_lang.md) - Documentazione principale sulle traduzioni
 - [Regole Generali Traduzioni](../../xot/docs/translations.md)
@@ -27,6 +28,10 @@
 - [Regole Generali Traduzioni](../../xot/docs/translations.md)
 >>>>>>> .merge_file_puXwAW
 >>>>>>> laraxot/dev
+=======
+- [Modulo Lang](../../lang/docs/module_lang.md) - Documentazione principale sulle traduzioni
+- [Regole Generali Traduzioni](../../xot/docs/translations.md)
+>>>>>>> 0dadab4 (Lint)
 
 ## Struttura
 
@@ -75,6 +80,7 @@ return [
 ```
 ## Collegamenti tra versioni di translations.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jPx1Bc
 =======
 <<<<<<< HEAD
@@ -101,6 +107,8 @@ return [
 * [translations.md](../../../Cms/docs/translations.md)
 =======
 >>>>>>> .merge_file_puXwAW
+=======
+>>>>>>> 0dadab4 (Lint)
 * [translations.md](../../../chart/docs/translations.md)
 * [translations.md](../../../reporting/docs/translations.md)
 * [translations.md](../../../gdpr/docs/translations.md)
@@ -118,6 +126,7 @@ return [
 * [translations.md](../../../activity/docs/translations.md)
 * [translations.md](../../../patient/docs/translations.md)
 * [translations.md](../../../cms/docs/translations.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_jPx1Bc
 <<<<<<< HEAD
 =======
@@ -147,3 +156,5 @@ return [
 =======
 >>>>>>> .merge_file_puXwAW
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
