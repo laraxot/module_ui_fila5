@@ -19,11 +19,6 @@ final class UiCoverageAddressParentRecord extends Model
     public UiCoverageAddressChildRecord $addressModel;
 
     /**
-<<<<<<< .merge_file_o0hRo6
-     *
-     * @param array<string, mixed> $attributes
-     *                                         =======
-=======
      * <<<<<<< .merge_file_qwqWud.
      *
      * @param array<string, mixed> $attributes
@@ -32,7 +27,6 @@ final class UiCoverageAddressParentRecord extends Model
      * @param array<string, mixed> $attributes
      *                                         =======
      *                                         <<<<<<< .merge_file_mMl13T
->>>>>>> .merge_file_MBO7ug
      * @param array<string, mixed> $attributes
      *                                         >>>>>>> laraxot/dev
      *                                         >>>>>>> .merge_file_2aLZzE
@@ -44,11 +38,6 @@ final class UiCoverageAddressParentRecord extends Model
     }
 
     /**
-<<<<<<< .merge_file_o0hRo6
-     *
-     * @param string|array<int, string>|null $attribute
-     *                                                  =======
-=======
      * <<<<<<< .merge_file_qwqWud.
      *
      * @param string|array<int, string>|null $attribute
@@ -57,7 +46,6 @@ final class UiCoverageAddressParentRecord extends Model
      * @param string|array<int, string>|null $attribute
      *                                                  =======
      *                                                  <<<<<<< .merge_file_mMl13T
->>>>>>> .merge_file_MBO7ug
      * @param string|array<int, string>|null $attribute
      *                                                  >>>>>>> laraxot/dev
      *                                                  >>>>>>> .merge_file_2aLZzE

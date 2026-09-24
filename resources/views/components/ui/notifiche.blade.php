@@ -1,86 +1,9 @@
-<<<<<<< .merge_file_BmQaLA
-=======
-<<<<<<< .merge_file_8te21d
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_ZP9qdi
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_CzK3HZ
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-@endphp
-
-@php
-@endphp
-
-@php
-@endphp
-
-@php
-@endphp
-
-<<<<<<< .merge_file_8te21d
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_R6YkbK
 <?php
 
 declare(strict_types=1);
 
 // UI Blade view — see Modules/UI/docs/wiki.
 ?>
-<<<<<<< .merge_file_BmQaLA
-=======
->>>>>>> .merge_file_zFtlCi
->>>>>>> .merge_file_CzK3HZ
->>>>>>> .merge_file_R6YkbK
 @props([
     'notifications' => [],
     'maxCount' => 5,
@@ -211,32 +134,4 @@ declare(strict_types=1);
             </div>
         @endif
     </div>
-<<<<<<< .merge_file_BmQaLA
 </div>
-=======
-<<<<<<< .merge_file_8te21d
-<<<<<<< HEAD
-</div>
-=======
-</div>
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_ZP9qdi
-<<<<<<< HEAD
-</div>
-=======
-<<<<<<< HEAD
-</div>
-=======
-<<<<<<< HEAD
-</div>
-=======
-</div>
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-</div>
->>>>>>> .merge_file_zFtlCi
->>>>>>> .merge_file_CzK3HZ
->>>>>>> .merge_file_R6YkbK

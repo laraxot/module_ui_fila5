@@ -1,58 +1,7 @@
-<<<<<<< .merge_file_OmEbHK
-=======
-<<<<<<< .merge_file_3WXANL
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_Q0HmJs
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_oBt61H
->>>>>>> .merge_file_NQC1Pg
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
-<<<<<<< .merge_file_OmEbHK
-=======
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-<<<<<<< .merge_file_3WXANL
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_NkOnm1
->>>>>>> .merge_file_oBt61H
-<?php
-
-declare(strict_types=1);
-?>
->>>>>>> .merge_file_NQC1Pg
 {{-- Requires js --}}
 <div class="bg-gray-900 py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">

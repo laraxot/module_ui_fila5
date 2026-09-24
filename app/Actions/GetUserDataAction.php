@@ -4,56 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\UI\Actions;
 
-<<<<<<< .merge_file_5ngBxB
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_YM9JS4
-=======
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_jhelL8
-use Illuminate\Support\Collection;
-use Illuminate\Support\Facades\Auth;
-use Modules\UI\Datas\UserData;
-<<<<<<< .merge_file_ZxcNIN
-use Modules\User\Models\User;
-<<<<<<< .merge_file_YM9JS4
-=======
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_jhelL8
-use Illuminate\Contracts\Auth\Authenticatable;
-use Illuminate\Database\Eloquent\Model;
->>>>>>> .merge_file_cQZhBP
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
 use Modules\UI\Datas\UserData;
 use Modules\User\Models\Profile;
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 use Modules\Xot\Contracts\UserContract;
-<<<<<<< .merge_file_5ngBxB
-=======
-<<<<<<< .merge_file_YM9JS4
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-use Modules\User\Models\Profile;
-use Modules\Xot\Actions\Cast\SafeIntCastAction;
-use Modules\Xot\Contracts\UserContract;
->>>>>>> .merge_file_C2T0Nu
->>>>>>> .merge_file_jhelL8
->>>>>>> .merge_file_cQZhBP
 use Spatie\Permission\Contracts\Permission;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -69,24 +25,6 @@ class GetUserDataAction
             return null;
         }
 
-<<<<<<< .merge_file_5ngBxB
-=======
-<<<<<<< .merge_file_YM9JS4
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_ZxcNIN
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_jhelL8
-        // PHPStan L10: tenancy() è helper function, ma PHPStan non la riconosce
-        // Rimuoviamo questa logica se non è necessaria per GetUserDataAction
-        // Se necessario, usare Filament::getTenant() invece
-=======
->>>>>>> .merge_file_cQZhBP
         $avatar = null;
         $profile = $user->relationLoaded('profile') ? $user->profile : null;
         if ($profile instanceof Profile) {
@@ -101,63 +39,11 @@ class GetUserDataAction
             }
         }
 
-<<<<<<< .merge_file_5ngBxB
-=======
-<<<<<<< .merge_file_ZxcNIN
-        // PHPStan L10: getRoleNames() restituisce Collection, ma PHPStan non lo riconosce dal trait
-<<<<<<< .merge_file_YM9JS4
-=======
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_jhelL8
-        $avatarValue = null;
-        $profile = $user->relationLoaded('profile') ? $user->profile : null;
-        if ($profile instanceof Profile) {
-            $avatarUrl = $profile->getAvatarUrl();
-            $avatarValue = $avatarUrl !== '' ? $avatarUrl : null;
-        }
-
-        $profilePhotoPath = property_exists($user, 'profile_photo_path') ? $user->profile_photo_path : null;
-        if (null === $avatarValue && is_string($profilePhotoPath) && $profilePhotoPath !== '') {
-            $avatarValue = $profilePhotoPath;
-        }
-
-<<<<<<< .merge_file_YM9JS4
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_C2T0Nu
->>>>>>> .merge_file_jhelL8
->>>>>>> .merge_file_cQZhBP
         /** @var Collection<int, string> $roleNames */
         $roleNames = $user->getRoleNames();
         $firstRole = $roleNames->isNotEmpty() ? $roleNames->first() : null;
         $roleValue = is_string($firstRole) ? $firstRole : null;
 
-<<<<<<< .merge_file_5ngBxB
-=======
-<<<<<<< .merge_file_YM9JS4
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_ZxcNIN
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_jhelL8
-        // Get settings - could be in profile or extra attributes
-=======
->>>>>>> .merge_file_C2T0Nu
         /** @var array<string, mixed> $settingsArray */
         $settingsArray = [];
         if ($profile instanceof Profile && isset($profile->extra)) {
@@ -169,62 +55,11 @@ class GetUserDataAction
             }
         }
 
-<<<<<<< .merge_file_ZxcNIN
-        // PHPStan L10: getAllPermissions() restituisce Collection, ma PHPStan non lo riconosce dal trait
-        // method_exists() è sempre true perché User ha HasPermissions trait
-<<<<<<< .merge_file_YM9JS4
-=======
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_jhelL8
->>>>>>> .merge_file_cQZhBP
-        /** @var array<string, mixed> $settingsArray */
-        $settingsArray = [];
-        if ($profile instanceof Profile && isset($profile->extra)) {
-            $extra = $profile->extra;
-            if (is_array($extra)) {
-                /** @var array<string, mixed> $typedExtra */
-                $typedExtra = $extra;
-                $settingsArray = $typedExtra;
-            }
-        }
-
-<<<<<<< .merge_file_5ngBxB
-=======
-<<<<<<< .merge_file_YM9JS4
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_C2T0Nu
->>>>>>> .merge_file_jhelL8
->>>>>>> .merge_file_cQZhBP
         /** @var Collection<int, Permission> $allPermissions */
         $allPermissions = $user->getAllPermissions();
         /** @var array<int, string> $permissions */
         $permissions = $allPermissions->pluck('name')->toArray();
 
-<<<<<<< .merge_file_5ngBxB
-=======
-<<<<<<< .merge_file_YM9JS4
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_ZxcNIN
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_cQZhBP
         $userName = $user->name;
         $userEmail = $user->email;
 
@@ -239,49 +74,3 @@ class GetUserDataAction
         );
     }
 }
-<<<<<<< .merge_file_5ngBxB
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-        $userName = property_exists($user, 'name') ? $user->name : null;
-        $userEmail = property_exists($user, 'email') ? $user->email : null;
-
->>>>>>> .merge_file_jhelL8
-        return new UserData(
-            id: SafeIntCastAction::cast($user->id),
-            name: is_string($userName) ? $userName : '',
-            email: is_string($userEmail) ? $userEmail : '',
-            avatar: $avatarValue,
-            role: $roleValue,
-            permissions: $permissions,
-            settings: $settingsArray,
-        );
-    }
-<<<<<<< HEAD
-}
-=======
-}
-<<<<<<< .merge_file_YM9JS4
-=======
-        $userName = property_exists($user, 'name') ? $user->name : null;
-        $userEmail = property_exists($user, 'email') ? $user->email : null;
-
-        return new UserData(
-            id: SafeIntCastAction::cast($user->id),
-            name: is_string($userName) ? $userName : '',
-            email: is_string($userEmail) ? $userEmail : '',
-            avatar: $avatarValue,
-            role: $roleValue,
-            permissions: $permissions,
-            settings: $settingsArray,
-        );
-    }
-}
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_jhelL8
->>>>>>> laraxot/dev
->>>>>>> .merge_file_cQZhBP
