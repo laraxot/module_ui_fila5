@@ -4,8 +4,44 @@ type: analysis
 module: UI
 updated: 2026-06-15
 related:
+<<<<<<< HEAD
+<<<<<<< .merge_file_8QCZQ3
   - ../../../../../../docs/wiki/method-name-homonym-census.md
   - ../../../../../../bashscripts/docs/method-homonym-census.json
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  - ../../../../../../docs/wiki/method-name-homonym-census.md
+  - ../../../../../../bashscripts/docs/method-homonym-census.json
+=======
+>>>>>>> laraxot/dev
+  - "./auth-register-focus-loss-overlay.md"
+  - "./block-rendering-and-optional-services.md"
+  - "./claude-audit-static.md"
+  - "./code-redundancy-ui.md"
+  - "./context-overflow-prevention.md"
+  - "./enum-select-best-practices.md"
+  - "./enum-select-component.md"
+  - "./enum-select-contract-and-false-friends.md"
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+  - "./auth-register-focus-loss-overlay.md"
+  - "./block-rendering-and-optional-services.md"
+  - "./claude-audit-static.md"
+  - "./code-redundancy-ui.md"
+  - "./context-overflow-prevention.md"
+  - "./enum-select-best-practices.md"
+  - "./enum-select-component.md"
+  - "./enum-select-contract-and-false-friends.md"
+=======
+  - ../../../../../../docs/wiki/method-name-homonym-census.md
+  - ../../../../../../bashscripts/docs/method-homonym-census.json
+>>>>>>> .merge_file_IKqDvG
+>>>>>>> laraxot/dev
 ---
 
 # Censimento omonimi metodi — UI

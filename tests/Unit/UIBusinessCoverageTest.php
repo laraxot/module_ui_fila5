@@ -4,21 +4,40 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit;
 
+<<<<<<< .merge_file_hQyAkc
+=======
+<<<<<<< .merge_file_AEw819
+>>>>>>> .merge_file_pRtxZS
 <<<<<<< HEAD
 use Mockery;
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_hQyAkc
+=======
+=======
+>>>>>>> .merge_file_VvrOHu
+>>>>>>> .merge_file_pRtxZS
 use Modules\UI\Tests\TestCase;
 use Modules\Xot\Tests\ModuleBusinessCoverage;
 
 uses(TestCase::class);
 
 afterEach(function (): void {
+<<<<<<< .merge_file_hQyAkc
+=======
+<<<<<<< .merge_file_AEw819
+>>>>>>> .merge_file_pRtxZS
 <<<<<<< HEAD
     Mockery::close();
 =======
     \Mockery::close();
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_hQyAkc
+=======
+=======
+    \Mockery::close();
+>>>>>>> .merge_file_VvrOHu
+>>>>>>> .merge_file_pRtxZS
 });
 
 /** @return list{string, string} */

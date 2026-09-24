@@ -16,6 +16,10 @@ final class UiCoverageNamedState implements StateContract
 {
     public static string $name = 'pending';
 
+<<<<<<< .merge_file_sCC0zr
+=======
+<<<<<<< .merge_file_uVmnNs
+>>>>>>> .merge_file_SBavPe
     /** @param array<array-key, mixed>|Model|string|null $record */
     /**
 <<<<<<< HEAD
@@ -25,13 +29,26 @@ final class UiCoverageNamedState implements StateContract
         public Model|array|string|null $record = null,
     ) {}
 =======
+<<<<<<< .merge_file_sCC0zr
+=======
+=======
+    /**
+>>>>>>> .merge_file_S3isby
+>>>>>>> .merge_file_SBavPe
      * @param Model|array<string, mixed>|string|null $record
      */
     public function __construct(
         public Model|array|string|null $record = null,
     ) {
     }
+<<<<<<< .merge_file_sCC0zr
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_uVmnNs
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_S3isby
+>>>>>>> .merge_file_SBavPe
 
     public function label(): string
     {
@@ -76,6 +93,10 @@ final class UiCoverageNamedState implements StateContract
     }
 
     /** @param  array<string, mixed>  $data */
+<<<<<<< .merge_file_sCC0zr
+=======
+<<<<<<< .merge_file_uVmnNs
+>>>>>>> .merge_file_SBavPe
 <<<<<<< HEAD
     public function modalActionByRecord(Model $record, array $data): void {}
 =======
@@ -83,6 +104,14 @@ final class UiCoverageNamedState implements StateContract
     {
     }
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_sCC0zr
+=======
+=======
+    public function modalActionByRecord(Model $record, array $data): void
+    {
+    }
+>>>>>>> .merge_file_S3isby
+>>>>>>> .merge_file_SBavPe
 
     /** @return list<string> */
     public function transitionableStates(): array
@@ -95,6 +124,10 @@ final class UiCoverageNamedState implements StateContract
         return true;
     }
 
+<<<<<<< .merge_file_sCC0zr
+=======
+<<<<<<< .merge_file_uVmnNs
+>>>>>>> .merge_file_SBavPe
 <<<<<<< HEAD
     public function transitionTo(string $state, ?string $message = null): void {}
 =======
@@ -102,6 +135,14 @@ final class UiCoverageNamedState implements StateContract
     {
     }
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_sCC0zr
+=======
+=======
+    public function transitionTo(string $state, ?string $message = null): void
+    {
+    }
+>>>>>>> .merge_file_S3isby
+>>>>>>> .merge_file_SBavPe
 
     /** @return Collection<string, string> */
     public static function getStateMapping(): Collection
