@@ -31,6 +31,17 @@ Depending on where your site is hosted, you may need to configure your server to
 ### Versione HEAD
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+## Collegamenti tra versioni di custom-404-page.md
+* [custom-404-page.md](../../../gdpr/docs/custom-404-page.md)
+* [custom-404-page.md](../../../xot/docs/custom-404-page.md)
+* [custom-404-page.md](../../../ui/docs/custom-404-page.md)
+* [custom-404-page.md](../../../tenant/docs/it/custom-404-page.md)
+* [custom-404-page.md](../../../cms/docs/custom-404-page.md)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 
 =======
 <<<<<<< HEAD
@@ -66,6 +77,10 @@ Depending on where your site is hosted, you may need to configure your server to
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -112,6 +127,20 @@ Depending on where your site is hosted, you may need to configure your server to
 
 ## Collegamenti tra versioni di custom-404-page.md
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+* [custom-404-page.md](../../../gdpr/project_docs/custom-404-page.md)
+* [custom-404-page.md](../../../xot/project_docs/custom-404-page.md)
+* [custom-404-page.md](../../../ui/project_docs/custom-404-page.md)
+* [custom-404-page.md](../../../tenant/project_docs/it/custom-404-page.md)
+* [custom-404-page.md](../../../cms/project_docs/custom-404-page.md)
+
+### Versione Incoming
+
+---
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -174,4 +203,8 @@ Depending on where your site is hosted, you may need to configure your server to
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

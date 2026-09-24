@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "api"
 type: concept
@@ -28,6 +33,10 @@ related:
   - "./custom-theme-1.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # api
 
 <!-- Contenuto migrato da _docs/api.txt -->

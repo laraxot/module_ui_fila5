@@ -69,6 +69,12 @@ Now that you’ve edited your configuration variables and know how to customize 
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +92,10 @@ Now that you’ve edited your configuration variables and know how to customize 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # build static files with Jigsaw
 ./vendor/bin/jigsaw build
 
@@ -93,6 +103,12 @@ Now that you’ve edited your configuration variables and know how to customize 
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 # options: dev, prod
 npm run dev
@@ -101,6 +117,21 @@ npm run dev
 ### Versione HEAD
 
 ## Collegamenti tra versioni di getting-started.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+* [getting-started.md](../../../gdpr/project_docs/getting-started.md)
+* [getting-started.md](../../../xot/project_docs/getting-started.md)
+* [getting-started.md](../../../ui/project_docs/getting-started.md)
+* [getting-started.md](../../../tenant/project_docs/it/getting-started.md)
+* [getting-started.md](../../../cms/project_docs/getting-started.md)
+* [getting-started.md](../../../gdpr/docs/getting-started.md)
+* [getting-started.md](../../../xot/docs/getting-started.md)
+* [getting-started.md](../../../ui/docs/getting-started.md)
+* [getting-started.md](../../../tenant/docs/it/getting-started.md)
+* [getting-started.md](../../../cms/docs/getting-started.md)
+=======
+>>>>>>> laraxot/dev
 * [getting-started.md](../../../Gdpr/project_docs/getting-started.md)
 * [getting-started.md](../../../Xot/project_docs/getting-started.md)
 * [getting-started.md](../../../UI/project_docs/getting-started.md)
@@ -137,6 +168,10 @@ npm run dev
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ### Versione Incoming
 
@@ -156,8 +191,16 @@ This is a starter template for creating a beautiful, customizable documentation 
 
 As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/project_docs/site-variables/) to learn more.
 
+<<<<<<< HEAD
 ```
 
+=======
+<<<<<<< HEAD
+=======
+```
+
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ```php
 // config.php
 return [
@@ -217,7 +260,14 @@ Files that don't require processing (such as images and fonts) can be added dire
 Now that you’ve edited your configuration variables and know how to customize your styles and content, let’s build the site.
 
 ```bash
+<<<<<<< HEAD
 >>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # build static files with Jigsaw
 ./vendor/bin/jigsaw build
 
@@ -228,6 +278,21 @@ npm run dev
 ### Versione HEAD
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+## Collegamenti tra versioni di getting-started.md
+* [getting-started.md](../../../gdpr/project_docs/getting-started.md)
+* [getting-started.md](../../../xot/project_docs/getting-started.md)
+* [getting-started.md](../../../ui/project_docs/getting-started.md)
+* [getting-started.md](../../../tenant/project_docs/it/getting-started.md)
+* [getting-started.md](../../../cms/project_docs/getting-started.md)
+
+### Versione Incoming
+
+---
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 
 ## Collegamenti tra versioni di getting-started.md
 * [getting-started.md](../../../Gdpr/docs/getting-started.md)
@@ -303,4 +368,8 @@ npm run dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

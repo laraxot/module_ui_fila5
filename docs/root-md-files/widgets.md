@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Widgets"
 type: concept
@@ -29,3 +35,7 @@ related:
 ---
 
 https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

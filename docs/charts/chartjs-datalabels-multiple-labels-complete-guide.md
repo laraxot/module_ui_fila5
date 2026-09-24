@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Guida Completa: Multiple Labels con chartjs-plugin-datalabels in Filament 5.x (Modulo UI)"
 type: guide
@@ -25,12 +30,23 @@ related:
   - "./shared-hosting-strategy.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Guida Completa: Multiple Labels con chartjs-plugin-datalabels in Filament 5.x (Modulo UI)
 
 **Versione:** 1.0  
 **Data:** Gennaio 2026  
 **Target:** Filament 5.x, Laravel 12.x, Modulo UI  
+<<<<<<< HEAD
 **Target:** Filament 5.x, Laravel 13.x, Modulo UI  
+=======
+<<<<<<< HEAD
+=======
+**Target:** Filament 5.x, Laravel 13.x, Modulo UI  
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 **Livello:** Guida "a prova di stupido" - passo dopo passo
 
 > **Riferimento Ufficiale:** [chartjs-plugin-datalabels - Multiple Labels Sample](https://chartjs-plugin-datalabels.netlify.app/samples/advanced/multiple-labels.html)  
@@ -611,6 +627,12 @@ protected function getOptions(): array
 <<<<<<< HEAD
 - [SimpleChartWidget con Sfondi](../../Quaeris/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+- [SimpleChartWidget con Sfondi](../../Quaeris/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 - [SimpleChartWidget con Sfondi](../../modulo questionari/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
 =======
 =======
@@ -630,6 +652,10 @@ protected function getOptions(): array
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 ### Documentazione Ufficiale
@@ -644,6 +670,12 @@ protected function getOptions(): array
 <<<<<<< HEAD
 **Mantenuto da:** Quaeris Development Team
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+**Mantenuto da:** Quaeris Development Team
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 **Mantenuto da:** modulo questionari Development Team
 =======
 =======
@@ -663,4 +695,8 @@ protected function getOptions(): array
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

@@ -1,4 +1,16 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+---
+module: theme
+topic: public-resources-management
+canonical: ../../../Themes/docs/shared-components/public-resources-management.md
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/public-resources-management.md
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 # Gestione delle Risorse Pubbliche 
 =======
 <<<<<<< HEAD
@@ -521,3 +533,7 @@ Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantis
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

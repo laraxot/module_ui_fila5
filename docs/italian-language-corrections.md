@@ -79,6 +79,12 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 'afternoon_hours' => 'Orario pomeridiano',
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+// Dopo
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 // Dopo  
 =======
 <<<<<<< HEAD
@@ -101,6 +107,10 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 'morning_hours' => 'Orari del mattino',
 'afternoon_hours' => 'Orari del pomeriggio',
 ```
@@ -182,6 +192,22 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 <<<<<<< HEAD
 *Correzioni completate: gennaio 2025*
+<<<<<<< HEAD
+=======
+# Correzioni Lingua Italiana - Opening Hours
+
+## Problema Identificato
+
+Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammaticali e espressioni poco naturali che compromettevano la qualità dell'interfaccia utente.
+
+## Correzioni Applicate
+
+### 1. **Terminologia "Mattina" → "Mattino"**
+
+=======
+<<<<<<< HEAD
+*Correzioni completate: gennaio 2025*
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -202,6 +228,10 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammaticali e espressioni poco naturali che compromettevano la qualità dell'interfaccia utente.
 ## Correzioni Applicate
 ### 1. **Terminologia "Mattina" → "Mattino"**
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 #### ❌ Prima (Scorretto)
 ```php
 'morning' => 'Mattina',
@@ -209,11 +239,89 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 'periods' => ['morning' => 'Mattina'],
 'labels' => ['morning' => 'Mattina'],
 ```
+<<<<<<< HEAD
 #### ✅ Dopo (Corretto)
+=======
+<<<<<<< HEAD
+
+#### ✅ Dopo (Corretto)
+```php
+=======
+#### ✅ Dopo (Corretto)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 'morning' => 'Mattino',
 'headers' => ['morning' => 'Mattino'],
 'periods' => ['morning' => 'Mattino'],
 'labels' => ['morning' => 'Mattino'],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+```
+
+**Motivazione**: In italiano corretto si dice "il mattino" e non "la mattina" quando si riferisce a un periodo temporale specifico.
+
+### 2. **Aggiunta Articoli Determinativi**
+
+#### ❌ Prima (Innaturale)
+```php
+'missing_closing_time' => 'Se specifichi l\'orario di apertura :session per :day, devi specificare anche quello di chiusura.',
+'opening_before_closing' => 'L\'orario di apertura :session per :day deve essere precedente a quello di chiusura.',
+```
+
+#### ✅ Dopo (Naturale)
+```php
+'missing_closing_time' => 'Se specifichi l\'orario di apertura del :session per :day, devi specificare anche quello di chiusura.',
+'opening_before_closing' => 'L\'orario di apertura del :session per :day deve essere precedente a quello di chiusura.',
+```
+
+**Motivazione**: L'aggiunta dell'articolo determinativo "del" rende le frasi più naturali e scorrevoli in italiano.
+
+### 3. **Correzione Errore di Battitura**
+
+#### ❌ Prima (Errore)
+```php
+'to_after_from' => 'L\'orario "Alle" deve essere successivo all\'orario "Alle"',
+```
+
+#### ✅ Dopo (Corretto)
+```php
+'to_after_from' => 'L\'orario "Alle" deve essere successivo all\'orario "Dalle"',
+```
+
+**Motivazione**: Errore di copia-incolla che rendeva il messaggio privo di senso.
+
+### 4. **Miglioramento Frasi Complesse**
+
+#### ❌ Prima (Artificioso)
+```php
+'morning_before_afternoon' => 'Per :day, l\'orario di chiusura mattina deve essere precedente all\'apertura pomeridiana.',
+```
+
+#### ✅ Dopo (Naturale)
+```php
+'morning_before_afternoon' => 'Per :day, l\'orario di chiusura del mattino deve essere precedente all\'apertura del pomeriggio.',
+```
+
+**Motivazione**: Aggiunta degli articoli e uso di termini più naturali.
+
+### 5. **Consistenza Terminologica**
+
+#### Placeholder Migliorati
+```php
+// Prima
+'morning_hours' => 'Orario mattutino',
+'afternoon_hours' => 'Orario pomeridiano',
+
+// Dopo
+'morning_hours' => 'Orari del mattino',
+'afternoon_hours' => 'Orari del pomeriggio',
+```
+
+## Principi di Correzione Applicati
+
+=======
+>>>>>>> laraxot/dev
 **Motivazione**: In italiano corretto si dice "il mattino" e non "la mattina" quando si riferisce a un periodo temporale specifico.
 ### 2. **Aggiunta Articoli Determinativi**
 #### ❌ Prima (Innaturale)
@@ -242,64 +350,168 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 'morning_hours' => 'Orari del mattino',
 'afternoon_hours' => 'Orari del pomeriggio',
 ## Principi di Correzione Applicati
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### 1. **Naturalezza**
 - Uso di espressioni che un italiano nativo utilizzerebbe spontaneamente
 - Evitare traduzioni letterali dall'inglese
 - Preferire costruzioni sintattiche italiane
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### 2. **Consistenza**
 - Stesso termine usato in tutto il file ("mattino" vs "mattina")
 - Struttura delle frasi coerente
 - Terminologia uniforme
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### 3. **Chiarezza**
 - Messaggi di errore chiari e comprensibili
 - Istruzioni precise per l'utente
 - Terminologia appropriata per il contesto medico
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### 4. **Professionalità**
 - Linguaggio formale ma accessibile
 - Terminologia tecnica appropriata
 - Tono professionale per ambiente sanitario
+<<<<<<< HEAD
 ## Impatto delle Correzioni
+=======
+<<<<<<< HEAD
+
+## Impatto delle Correzioni
+
+=======
+## Impatto delle Correzioni
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### User Experience
 - **Messaggi più chiari** per gli utenti italiani
 - **Comprensione immediata** degli errori di validazione
 - **Interfaccia più professionale** per ambiente medico
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Qualità del Software
 - **Localizzazione di qualità** per mercato italiano
 - **Coerenza terminologica** in tutta l'applicazione
 - **Standard professionali** per software sanitario
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Manutenibilità
 - **Traduzioni corrette** facilitano future modifiche
 - **Struttura chiara** per traduttori
 - **Esempio di qualità** per altre sezioni
+<<<<<<< HEAD
 ## Best Practices per Traduzioni Italiane
+=======
+<<<<<<< HEAD
+
+## Best Practices per Traduzioni Italiane
+
+=======
+## Best Practices per Traduzioni Italiane
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Grammatica
 1. **Articoli determinativi**: Sempre usare quando appropriato
 2. **Concordanze**: Rispettare genere e numero
 3. **Preposizioni**: Usare quelle corrette ("del", "per", "a")
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Terminologia
 1. **Consistenza**: Stesso termine per stesso concetto
 2. **Naturalezza**: Preferire espressioni italiane native
 3. **Contesto**: Adattare al dominio (medico/sanitario)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Stile
 1. **Formalità**: Linguaggio professionale ma accessibile
 2. **Chiarezza**: Messaggi diretti e comprensibili
 3. **Completezza**: Informazioni sufficienti per l'utente
+<<<<<<< HEAD
 ## Controllo Qualità
+=======
+<<<<<<< HEAD
+
+## Controllo Qualità
+
+=======
+## Controllo Qualità
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Verifica Linguistica
 - ✅ Grammatica italiana corretta
 - ✅ Sintassi naturale e scorrevole
 - ✅ Terminologia appropriata
 - ✅ Consistenza terminologica
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Verifica Tecnica
 - ✅ Parametri `:day` e `:session` corretti
 - ✅ Struttura gerarchica mantenuta
 - ✅ Compatibilità con TransTrait
 - ✅ Nessuna stringa hardcoded
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ## Collegamenti
 - [Opening Hours Rule](../app/Rules/OpeningHoursRule.php)
 - [Validation Files Multilingua](./validation_files_multilingua.md)
 - [Linee Guida Localizzazione](./localization_guidelines.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+*Correzioni completate: gennaio 2025*
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 
 *Correzioni completate: gennaio 2025*
@@ -317,4 +529,8 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

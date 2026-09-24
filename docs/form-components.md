@@ -5,7 +5,15 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 I componenti form forniscono elementi di input e validazione per la creazione di form complessi e interattivi.
 ## Componenti Disponibili
 ### InlineDatePicker
@@ -13,6 +21,13 @@ Un componente avanzato per la selezione di date che mostra un calendario inline 
 ```php
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+InlineDatePicker::make('appointment_date')
+    ->enabledDates(['[DATE]', '[DATE]', '[DATE]'])
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 =======
 <<<<<<< HEAD
@@ -43,6 +58,10 @@ use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 >>>>>>> laraxot/dev
 InlineDatePicker::make('appointment_date')
     ->enabledDates(['2025-06-05', '2025-06-21', '2025-06-25'])
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     ->calendarConfig([
         'locale' => 'it',
         'firstDayOfWeek' => 1, // Lunedì come primo giorno della settimana
@@ -51,6 +70,12 @@ InlineDatePicker::make('appointment_date')
     ->required();
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#### Caratteristiche Principali
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 
 #### Caratteristiche Principali
 
@@ -67,6 +92,10 @@ InlineDatePicker::make('appointment_date')
 #### Caratteristiche Principali
 
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - **Selezione Controllata**: Solo le date specificate in `enabledDates()` sono selezionabili
@@ -77,6 +106,12 @@ InlineDatePicker::make('appointment_date')
 - **Internazionalizzazione**: Supporto integrato per diverse lingue e formati di data
 - **Performance Ottimizzate**: Caricamento lazy dei dati e rendering efficiente
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#### Metodi Disponibili
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 
 #### Metodi Disponibili
 
@@ -93,6 +128,10 @@ InlineDatePicker::make('appointment_date')
 #### Metodi Disponibili
 
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 | Metodo | Parametri | Descrizione |
@@ -103,6 +142,12 @@ InlineDatePicker::make('appointment_date')
 | `isDateEnabled` | `string $date` | Verifica se una data è abilitata |
 | `generateMonthGrid` | `?int $year`, `?int $month` | Genera la griglia del mese per visualizzazione |
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#### Configurazione Avanzata
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 #### Configurazione Avanzata
@@ -120,6 +165,10 @@ InlineDatePicker::make('appointment_date')
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     ->enabledDates(function () {
@@ -131,6 +180,11 @@ InlineDatePicker::make('appointment_date')
         ];
     })
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     ->calendarConfig([
 =======
 <<<<<<< HEAD
@@ -140,6 +194,10 @@ InlineDatePicker::make('appointment_date')
 =======
     ->calendarConfig([
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         'locale' => app()->getLocale(),
@@ -150,12 +208,23 @@ InlineDatePicker::make('appointment_date')
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 #### Personalizzazione dello Stile
 Lo stile del componente può essere personalizzato sovrascrivendo le classi CSS nel file di vista:
 `resources/views/vendor/filament/forms/components/inline-date-picker.blade.php`
 #### Gestione degli Eventi
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -177,6 +246,10 @@ InlineDatePicker::make('appointment_date')
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     ->enabledDates($enabledDates)
     ->live()
     ->afterStateUpdated(function (Set $set, $state) {
@@ -186,10 +259,25 @@ InlineDatePicker::make('appointment_date')
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 #### Accesso ai Dati
 // Ottenere le date abilitate
 $enabledDates = $datePicker->getEnabledDates();
 // Verificare se una data è abilitata
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+$isEnabled = $datePicker->isDateEnabled('[DATE]');
+// Generare la griglia di un mese specifico
+$monthGrid = $datePicker->generateMonthGrid(2025, 6);
+#### Best Practice
+=======
+>>>>>>> laraxot/dev
 $isEnabled = $datePicker->isDateEnabled('2025-06-15');
 // Generare la griglia di un mese specifico
 $monthGrid = $datePicker->generateMonthGrid(2025, 6);
@@ -223,6 +311,10 @@ $monthGrid = $datePicker->generateMonthGrid(2025, 6);
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 1. **Performance**: Per un gran numero di date, utilizzare una closure per generare le date abilitate in modo lazy
 2. **Accessibilità**: Assicurarsi che il componente sia accessibile da tastiera
 3. **Localizzazione**: Configurare correttamente la lingua e il formato della data
@@ -231,6 +323,12 @@ $monthGrid = $datePicker->generateMonthGrid(2025, 6);
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 #### Esempio Completo
 use Filament\Forms\Form;
 use Filament\Forms\Components\Section;
@@ -239,6 +337,11 @@ public function form(Form $form): Form
 public function form(Form $form): Form
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -258,6 +361,10 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 {
     return $form->schema([
         Section::make('Prenotazione Appuntamento')
@@ -270,6 +377,12 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
                         $date = now();
                         $count = 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
                         
@@ -281,6 +394,10 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
                         while ($count < 30) {
                             if (!$date->isWeekend()) {
                                 $dates[] = $date->format('Y-m-d');
@@ -289,11 +406,20 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
                             $date->addDay();
                         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
                         
 =======
 <<<<<<< HEAD
 =======
                         
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
                         return $dates;
@@ -309,6 +435,12 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 }
 ### Input
 ```blade
@@ -318,6 +450,11 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     label="Email"
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -338,6 +475,10 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     placeholder="Inserisci la tua email"
     :required="true"
     :disabled="false"
@@ -347,6 +488,14 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     :error="$errors->first('email')"
 />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+### Select
+<x-ui::select
+    name="role"
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 ### Select
@@ -370,6 +519,10 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     label="Ruolo"
     :options="[
         'admin' => 'Amministratore',
@@ -377,6 +530,11 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
         'guest' => 'Ospite'
     ]"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     :required="true"
 =======
 <<<<<<< HEAD
@@ -386,6 +544,10 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
     :required="true"
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     :multiple="false"
@@ -395,6 +557,12 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Checkbox
 <x-ui::checkbox
     name="terms"
@@ -419,6 +587,11 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 ## Validazione
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -475,17 +648,30 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Regole
 - Required
 - Min/Max length
 - Pattern
 - Custom rules
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 
 =======
 <<<<<<< HEAD
 =======
 
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 ### Messaggi
@@ -495,6 +681,12 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ## Integrazione
 ### Livewire
 use Livewire\Component;
@@ -504,6 +696,11 @@ class UserForm extends Component
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -526,16 +723,29 @@ class UserForm extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     protected $rules = [
         'name' => 'required|min:3',
         'email' => 'required|email',
     ];
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     
 =======
 <<<<<<< HEAD
 =======
     
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function save()
@@ -544,6 +754,11 @@ class UserForm extends Component
         // Salva i dati
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 }
 ```
 
@@ -559,6 +774,10 @@ class UserForm extends Component
 ```
 
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 ### JavaScript
@@ -570,6 +789,13 @@ form.addEventListener('submit', (e) => {
         e.preventDefault();
         // Mostra errori
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+});
+## Best Practices
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 });
@@ -589,6 +815,10 @@ form.addEventListener('submit', (e) => {
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 ### Utilizzo
@@ -597,11 +827,20 @@ form.addEventListener('submit', (e) => {
 - Accessibilità
 - UX ottimizzata
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 
 =======
 <<<<<<< HEAD
 =======
 
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 ### Performance
@@ -610,11 +849,20 @@ form.addEventListener('submit', (e) => {
 - Cache validazione
 - Ottimizzazione risorse
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 
 =======
 <<<<<<< HEAD
 =======
 
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 ## Collegamenti
@@ -623,6 +871,21 @@ form.addEventListener('submit', (e) => {
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
+## Collegamenti tra versioni di form-components.md
+* [form-components.md](../../../ui/project_docs/form-components.md)
+* [form-components.md](../../../ui/project_docs/roadmap/form-components.md)
+- [Documentazione Frontend](../cms/docs/frontend-architecture.md)
+* [form-components.md](../../../ui/docs/form-components.md)
+* [form-components.md](../../../ui/docs/roadmap/form-components.md)
+# Componenti Form
+
+## Introduzione
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 # Componenti Form
 =======
 <<<<<<< HEAD
@@ -650,6 +913,10 @@ form.addEventListener('submit', (e) => {
 # Componenti Form
 ## Introduzione
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 I componenti form forniscono elementi di input e validazione per la creazione di form complessi e interattivi.
 
@@ -663,7 +930,15 @@ Un componente avanzato per la selezione di date che mostra un calendario inline 
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 
 InlineDatePicker::make('appointment_date')
+<<<<<<< HEAD
     ->enabledDates(['2025-06-05', '2025-06-21', '2025-06-25'])
+=======
+<<<<<<< HEAD
+    ->enabledDates(['[DATE]', '[DATE]', '[DATE]'])
+=======
+    ->enabledDates(['2025-06-05', '2025-06-21', '2025-06-25'])
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     ->calendarConfig([
         'locale' => 'it',
         'firstDayOfWeek' => 1, // Lunedì come primo giorno della settimana
@@ -736,7 +1011,15 @@ InlineDatePicker::make('appointment_date')
 $enabledDates = $datePicker->getEnabledDates();
 
 // Verificare se una data è abilitata
+<<<<<<< HEAD
 $isEnabled = $datePicker->isDateEnabled('2025-06-15');
+=======
+<<<<<<< HEAD
+$isEnabled = $datePicker->isDateEnabled('[DATE]');
+=======
+$isEnabled = $datePicker->isDateEnabled('2025-06-15');
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 // Generare la griglia di un mese specifico
 $monthGrid = $datePicker->generateMonthGrid(2025, 6);
@@ -758,6 +1041,14 @@ use Filament\Forms\Components\Section;
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+public function form(Form $form): Form
+public function form(Form $form): Form
+public function form(Form $form): Form
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 public function form(Form $form): Form
@@ -767,6 +1058,10 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 public function form(Form $form): Form
 public function form(Form $form): Form
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 {
     return $form->schema([
@@ -780,12 +1075,22 @@ public function form(Form $form): Form
                         $date = now();
                         $count = 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
                         
 =======
 
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
                         while ($count < 30) {
                             if (!$date->isWeekend()) {
@@ -795,12 +1100,22 @@ public function form(Form $form): Form
                             $date->addDay();
                         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
                         
 =======
 
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
                         return $dates;
                     })
@@ -821,6 +1136,11 @@ public function form(Form $form): Form
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 <x-ui::input 
     name="email" 
@@ -830,11 +1150,22 @@ public function form(Form $form): Form
 =======
 =======
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <x-ui::input
     name="email"
     type="email"
     label="Email"
+<<<<<<< HEAD
 >>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     placeholder="Inserisci la tua email"
     :required="true"
     :disabled="false"
@@ -848,12 +1179,23 @@ public function form(Form $form): Form
 ### Select
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<x-ui::select
+    name="role"
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 <x-ui::select 
     name="role" 
 =======
 <x-ui::select
     name="role"
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     label="Ruolo"
     :options="[
         'admin' => 'Amministratore',
@@ -871,12 +1213,23 @@ public function form(Form $form): Form
 ### Checkbox
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<x-ui::checkbox
+    name="terms"
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 <x-ui::checkbox 
     name="terms" 
 =======
 <x-ui::checkbox
     name="terms"
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     label="Accetto i termini e condizioni"
     :required="true"
     :checked="false"
@@ -888,12 +1241,23 @@ public function form(Form $form): Form
 ### Radio
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<x-ui::radio
+    name="gender"
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 <x-ui::radio 
     name="gender" 
 =======
 <x-ui::radio
     name="gender"
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     label="Genere"
     :options="[
         'male' => 'Maschio',
@@ -908,12 +1272,23 @@ public function form(Form $form): Form
 ### Textarea
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<x-ui::textarea
+    name="message"
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 <x-ui::textarea 
     name="message" 
 =======
 <x-ui::textarea
     name="message"
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     label="Messaggio"
     placeholder="Inserisci il tuo messaggio"
     :rows="4"
@@ -948,6 +1323,12 @@ class UserForm extends Component
     public $name;
     public $email;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
     
@@ -955,17 +1336,31 @@ class UserForm extends Component
 
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     protected $rules = [
         'name' => 'required|min:3',
         'email' => 'required|email',
     ];
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
     
 =======
 
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function save()
     {
@@ -1007,6 +1402,15 @@ form.addEventListener('submit', (e) => {
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
+## Collegamenti tra versioni di form-components.md
+* [form-components.md](../../../ui/project_docs/form-components.md)
+* [form-components.md](../../../ui/project_docs/roadmap/form-components.md)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -1048,4 +1452,8 @@ form.addEventListener('submit', (e) => {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

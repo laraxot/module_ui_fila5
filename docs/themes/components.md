@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Componenti del Tema"
 type: concept
@@ -25,6 +30,10 @@ related:
   - "./schemaless-attributes-guide.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Componenti del Tema
 
 ## Logo

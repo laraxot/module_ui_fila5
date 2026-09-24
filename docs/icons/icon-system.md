@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "UI Module Icon System"
 type: concept
@@ -20,6 +25,10 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # UI Module Icon System
 
 ## How It Works
@@ -107,6 +116,12 @@ Each module registers its own SVG icons:
 <<<<<<< HEAD
 - `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+- `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 - `resources/svg/` → `{name}`
 =======
 =======
@@ -126,6 +141,10 @@ Each module registers its own SVG icons:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - etc.
 

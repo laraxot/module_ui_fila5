@@ -344,11 +344,33 @@ echo "✅ Consolidamento completato!"
 ## Collegamenti Bidirezionali
 
 ### Documentazione Correlata
+<<<<<<< HEAD
 - [README](../README.md) - Panoramica modulo UI
+=======
+<<<<<<< HEAD
+- [README](../readme.md) - Panoramica modulo UI
+=======
+- [README](../README.md) - Panoramica modulo UI
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [Architettura](./core/architecture.md) - Architettura modulo
 - [Convenzioni](./core/conventions.md) - Convenzioni unificate
 
 ### Documentazione Root
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- [docs/ottimizzazioni-sistema.md](../../../../docs/ottimizzazioni-sistema.md) - Ottimizzazioni sistema generale
+- [docs/architettura-moduli.md](../../../../docs/architettura-moduli.md) - Architettura moduli
+
+### Documentazione Moduli Correlati
+- [Xot/docs/ottimizzazioni-modulo-xot.md](../../xot/docs/ottimizzazioni-modulo-xot.md) - Ottimizzazioni modulo Xot
+- [User/docs/ottimizzazioni-modulo-user.md](../../user/docs/ottimizzazioni-modulo-user.md) - Ottimizzazioni modulo User
+
+---
+
+=======
+>>>>>>> laraxot/dev
 - [docs/ottimizzazioni-sistema.md](../../../docs/ottimizzazioni-sistema.md) - Ottimizzazioni sistema generale
 - [docs/architettura-moduli.md](../../../docs/architettura-moduli.md) - Architettura moduli
 
@@ -359,6 +381,10 @@ echo "✅ Consolidamento completato!"
 ---
 
 **Ultimo aggiornamento:** 2025-01-06
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 **Stato:** In implementazione
 **Responsabile:** Team Sviluppo UI
 **Priorità:** ALTA (duplicazioni massive identificate)

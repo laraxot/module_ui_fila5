@@ -7,6 +7,19 @@ created: 2026-07-09
 updated: 2026-07-12
 qmd: "UI claude-audit static 80 score lang split pricing blade partials SelectStateColumn"
 issues:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  - "https://github.com/laraxot/module_ui_fila5/issues/1"
+discussions:
+  - "https://github.com/laraxot/base_fixcity_fila5/discussions/304"
+related:
+  - ../../../../../../bashscripts/tools/run-claude-audit-module-static.sh
+  - ../../../../../../bashscripts/tools/split-module-lang-monolith-for-audit.php
+  - ../../Xot/docs/wiki/concepts/claude-audit-static-all-modules.md
+  - ../memories/lang-split-ui-claude-audit.md
+=======
+>>>>>>> laraxot/dev
 discussions:
 related:
   - "./auth-register-focus-loss-overlay.md"
@@ -17,6 +30,10 @@ related:
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
   - "./enum-select-usage.md"
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ---
 
 # claude-audit static (UI)

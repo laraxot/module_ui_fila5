@@ -80,6 +80,14 @@ Il design system definisce gli standard visivi e di interazione per garantire co
         Titolo Card
     </x-slot>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    Contenuto della card
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     Contenuto della card
     Contenuto della card
     
@@ -117,6 +125,10 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     <x-slot name="footer">
         Footer della card
@@ -160,7 +172,15 @@ Il design system definisce gli standard visivi e di interazione per garantire co
    - Layout fluido
 
 ## Collegamenti Bidirezionali
+<<<<<<< HEAD
 - [README](README.md)
+=======
+<<<<<<< HEAD
+- [README](readme.md)
+=======
+- [README](README.md)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [Componenti](components.md)
 - [Layout](layouts-and-themes.md)
 
@@ -168,6 +188,19 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 - [Tailwind Config](../config/tailwind.config.js)
 - [Theme Config](../config/theme.php)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Filament UI](../../cms/docs/filament-components.md)
+# Design System
+
+## Panoramica
+Il design system definisce gli standard visivi e di interazione per garantire coerenza in tutta l'applicazione.
+
+## Componenti Base
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 - [Filament UI](../../Cms/docs/filament-components.md) 
 =======
 <<<<<<< HEAD
@@ -188,12 +221,23 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ## Panoramica
 Il design system definisce gli standard visivi e di interazione per garantire coerenza in tutta l'applicazione.
 ## Componenti Base
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### 1. Tipografia
 ```css
 /* Font Family */
 --app-font-sans: 'Inter', sans-serif;
 --app-font-serif: 'Merriweather', serif;
 --app-font-mono: 'JetBrains Mono', monospace;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 /* Font Sizes */
 --app-text-xs: 0.75rem;
 --app-text-sm: 0.875rem;
@@ -201,75 +245,223 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 --app-text-lg: 1.125rem;
 --app-text-xl: 1.25rem;
 ```
+<<<<<<< HEAD
 ### 2. Colori
+=======
+<<<<<<< HEAD
+
+### 2. Colori
+```css
+=======
+### 2. Colori
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 /* Brand Colors */
 --app-primary: #0EA5E9;
 --app-secondary: #6366F1;
 --app-accent: #EC4899;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 /* Semantic Colors */
 --app-success: #22C55E;
 --app-warning: #F59E0B;
 --app-error: #EF4444;
 --app-info: #3B82F6;
+<<<<<<< HEAD
 ### 3. Spaziatura
+=======
+<<<<<<< HEAD
+```
+
+### 3. Spaziatura
+```css
+=======
+### 3. Spaziatura
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 /* Spacing Scale */
 --so-spacing-xs: 0.5rem;
 --so-spacing-sm: 0.75rem;
 --so-spacing-md: 1rem;
 --so-spacing-lg: 1.5rem;
 --so-spacing-xl: 2rem;
+<<<<<<< HEAD
 ## Componenti UI
+=======
+<<<<<<< HEAD
+```
+
+## Componenti UI
+
+=======
+## Componenti UI
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### 1. Pulsanti
 ```php
 <x-ui.button variant="primary">
     Azione Primaria
 </x-ui.button>
+<<<<<<< HEAD
 <x-ui.button variant="secondary">
     Azione Secondaria
 ### 2. Form
+=======
+<<<<<<< HEAD
+
+<x-ui.button variant="secondary">
+    Azione Secondaria
+</x-ui.button>
+```
+
+### 2. Form
+```php
+=======
+<x-ui.button variant="secondary">
+    Azione Secondaria
+### 2. Form
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <x-ui.form.input
     type="text"
     name="name"
     label="Nome"
     placeholder="Inserisci il nome"
 />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <x-ui.form.select
     name="type"
     label="Tipo"
     :options="$types"
+<<<<<<< HEAD
 ### 3. Card
+=======
+<<<<<<< HEAD
+/>
+```
+
+### 3. Card
+```php
+=======
+### 3. Card
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <x-ui.card>
     <x-slot name="header">
         Titolo Card
     </x-slot>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+    Contenuto della card
+
+    <x-slot name="footer">
+        Footer della card
+    </x-slot>
+</x-ui.card>
+```
+
+## Layout
+
+### 1. Grid System
+```php
+=======
+>>>>>>> laraxot/dev
     Contenuto della card
     <x-slot name="footer">
         Footer della card
 </x-ui.card>
 ## Layout
 ### 1. Grid System
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <x-ui.grid cols="1 md:2 lg:3" gap="4">
     <div>Colonna 1</div>
     <div>Colonna 2</div>
     <div>Colonna 3</div>
 </x-ui.grid>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+```
+
+### 2. Container
+```php
+<x-ui.container size="md">
+    Contenuto centrato con margini
+</x-ui.container>
+```
+
+## Best Practices
+
+=======
+>>>>>>> laraxot/dev
 ### 2. Container
 <x-ui.container size="md">
     Contenuto centrato con margini
 </x-ui.container>
 ## Best Practices
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 1. **Coerenza**
    - Usare i componenti standard
    - Mantenere la palette colori
    - Seguire la scala tipografica
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 2. **Accessibilità**
    - Contrasto sufficiente
    - Focus visibile
    - Testo alternativo
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 3. **Responsive**
    - Mobile first
    - Breakpoint standard
    - Layout fluido
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+## Collegamenti Bidirezionali
+- [README](readme.md)
+- [Componenti](components.md)
+- [Layout](layouts-and-themes.md)
+
+## Vedi Anche
+- [Tailwind Config](../config/tailwind.config.js)
+- [Theme Config](../config/theme.php)
+- [Filament UI](../../cms/project_docs/filament-components.md)
+- [Filament UI](../../cms/project_docs/filament-components.md)
+- [Filament UI](../../cms/project_docs/filament-components.md)
+=======
+>>>>>>> laraxot/dev
 ## Collegamenti Bidirezionali
 - [README](README.md)
 - [Componenti](components.md)
@@ -298,4 +490,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

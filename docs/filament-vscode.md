@@ -78,6 +78,14 @@ Mostra documentazione al passaggio del mouse su:
 ```php
 // Digitare 'fil-form' e premere Tab
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 <<<<<<< HEAD
@@ -107,6 +115,10 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 {
     return $form->schema([
@@ -115,6 +127,12 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
             ->required()
             ->maxLength(255),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
             
@@ -139,6 +157,10 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         // Digitare 'fil-select' e premere Tab
         Select::make('status')
@@ -148,6 +170,12 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
             ])
             ->required(),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
             
@@ -172,6 +200,10 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         // Digitare 'fil-rich' e premere Tab
         RichEditor::make('content')
@@ -194,6 +226,12 @@ public static function table(Table $table): Table
                 ->searchable()
                 ->sortable(),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
                 
@@ -218,6 +256,10 @@ public static function table(Table $table): Table
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
             // Digitare 'fil-col' e premere Tab
             IconColumn::make('status')
@@ -259,6 +301,12 @@ Forms\Components\Wizard::make([
                     Forms\Components\TextInput::make('first_name')
                         ->required(),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
                         
@@ -283,6 +331,10 @@ Forms\Components\Wizard::make([
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
                     Forms\Components\TextInput::make('last_name')
                         ->required(),
@@ -340,6 +392,22 @@ Forms\Components\Wizard::make([
 - [Filament Documentation](https://filamentphp.com)
 - [VSCode PHP Extension](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack)
+# Filament VSCode Extension
+
+## Panoramica
+
+L'estensione VSCode per Filament fornisce un set completo di strumenti per sviluppare applicazioni Filament in modo più efficiente.
+
+## Caratteristiche
+
+### 1. Snippets
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 - [Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack) 
 =======
 <<<<<<< HEAD
@@ -361,6 +429,10 @@ Forms\Components\Wizard::make([
 L'estensione VSCode per Filament fornisce un set completo di strumenti per sviluppare applicazioni Filament in modo più efficiente.
 ## Caratteristiche
 ### 1. Snippets
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 #### Form Components
 - `fil-text` → TextInput
 - `fil-select` → Select
@@ -371,38 +443,100 @@ L'estensione VSCode per Filament fornisce un set completo di strumenti per svilu
 - `fil-time` → TimePicker
 - `fil-file` → FileUpload
 - `fil-rich` → RichEditor
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 #### Table Components
 - `fil-table` → Table Builder
 - `fil-col` → Table Column
 - `fil-action` → Table Action
 - `fil-bulk` → Bulk Action
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 #### Layout Components
 - `fil-card` → Card
 - `fil-grid` → Grid
 - `fil-section` → Section
 - `fil-tabs` → Tabs
 - `fil-wizard` → Wizard
+<<<<<<< HEAD
 ### 2. Autocompletamento
+=======
+<<<<<<< HEAD
+
+### 2. Autocompletamento
+
+=======
+### 2. Autocompletamento
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - Nomi dei componenti Filament
 - Proprietà dei componenti
 - Metodi disponibili
 - Eventi
 - Slot
+<<<<<<< HEAD
 ### 3. Hover Information
+=======
+<<<<<<< HEAD
+
+### 3. Hover Information
+
+=======
+### 3. Hover Information
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 Mostra documentazione al passaggio del mouse su:
 - Componenti
 - Metodi
 - Proprietà
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+### 4. Diagnostica
+
+- Validazione della sintassi
+- Controllo dei tipi
+- Verifica delle dipendenze
+
+## Installazione
+
+=======
+>>>>>>> laraxot/dev
 ### 4. Diagnostica
 - Validazione della sintassi
 - Controllo dei tipi
 - Verifica delle dipendenze
 ## Installazione
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 1. Aprire VSCode
 2. Premere `Ctrl+P`
 3. Incollare `ext install doonfrs.filament-snippets`
 4. Premere `Enter`
+<<<<<<< HEAD
 ## Configurazione
+=======
+<<<<<<< HEAD
+
+## Configurazione
+
+=======
+## Configurazione
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ```json
 {
     "filament.snippets.enable": true,
@@ -411,16 +545,42 @@ Mostra documentazione al passaggio del mouse su:
     "filament.completion.enable": true
 }
 ```
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+## Esempi di Utilizzo
+
+### Form Builder
+
+```php
+// Digitare 'fil-form' e premere Tab
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+{
+=======
+>>>>>>> laraxot/dev
 ## Esempi di Utilizzo
 ### Form Builder
 ```php
 // Digitare 'fil-form' e premere Tab
 public static function form(Form $form): Form
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     return $form->schema([
         // Digitare 'fil-text' e premere Tab
         TextInput::make('title')
             ->required()
             ->maxLength(255),
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         // Digitare 'fil-select' e premere Tab
         Select::make('status')
             ->options([
@@ -428,6 +588,26 @@ public static function form(Form $form): Form
                 'published' => 'Published',
             ])
             ->required(),
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+        // Digitare 'fil-rich' e premere Tab
+        RichEditor::make('content')
+            ->required()
+            ->columnSpanFull(),
+    ]);
+}
+```
+
+### Table Builder
+
+```php
+// Digitare 'fil-table' e premere Tab
+public static function table(Table $table): Table
+{
+=======
+>>>>>>> laraxot/dev
         // Digitare 'fil-rich' e premere Tab
         RichEditor::make('content')
             ->columnSpanFull(),
@@ -435,12 +615,24 @@ public static function form(Form $form): Form
 ### Table Builder
 // Digitare 'fil-table' e premere Tab
 public static function table(Table $table): Table
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     return $table
         ->columns([
             // Digitare 'fil-col' e premere Tab
             TextColumn::make('title')
                 ->searchable()
                 ->sortable(),
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+            // Digitare 'fil-col' e premere Tab
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             IconColumn::make('status')
                 ->boolean(),
         ])
@@ -451,17 +643,44 @@ public static function table(Table $table): Table
                     'draft' => 'Draft',
                     'published' => 'Published',
                 ]),
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        ])
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         ->actions([
             // Digitare 'fil-action' e premere Tab
             Tables\Actions\EditAction::make(),
             Tables\Actions\DeleteAction::make(),
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        ])
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         ->bulkActions([
             // Digitare 'fil-bulk' e premere Tab
             Tables\Actions\BulkActionGroup::make([
                 Tables\Actions\DeleteBulkAction::make(),
             ]),
         ]);
+<<<<<<< HEAD
 ### Layout Components
+=======
+<<<<<<< HEAD
+}
+```
+
+### Layout Components
+
+```php
+=======
+### Layout Components
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 // Digitare 'fil-wizard' e premere Tab
 Forms\Components\Wizard::make([
     Forms\Components\Wizard\Step::make('Personal Information')
@@ -472,6 +691,22 @@ Forms\Components\Wizard::make([
                     // Digitare 'fil-text' e premere Tab
                     Forms\Components\TextInput::make('first_name')
                         ->required(),
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+                    Forms\Components\TextInput::make('last_name')
+                        ->required(),
+                ]),
+        ]),
+]);
+```
+
+## Best Practices
+
+1. Organizzazione del codice
+=======
+>>>>>>> laraxot/dev
                     Forms\Components\TextInput::make('last_name')
         ]),
 ]);
@@ -495,4 +730,8 @@ Forms\Components\Wizard::make([
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

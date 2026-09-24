@@ -5,6 +5,11 @@ canonical: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 
 ---
 
@@ -17,3 +22,7 @@ canonical: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Filament 4 Migration Summary"
 type: concept
@@ -28,6 +33,10 @@ related:
   - "./file-upload-component.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Filament 4 Migration Summary
 
 ## Completed Tasks ✅
@@ -44,7 +53,14 @@ related:
 - ✅ Created detailed **Filament 4 Components Development Guide**
 - ✅ Updated project **CLAUDE.md** rules for Filament 4
 - ✅ Updated version information (PHP 8.3.25, Filament 4.0.19, Laravel 12.30.1)
+<<<<<<< HEAD
 - ✅ Updated version information (PHP 8.3.25, Filament 4.0.19, Laravel 13.30.1)
+=======
+<<<<<<< HEAD
+=======
+- ✅ Updated version information (PHP 8.3.25, Filament 4.0.19, Laravel 13.30.1)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ### 3. Code Updates and Fixes
 

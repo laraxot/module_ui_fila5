@@ -1,5 +1,14 @@
 <<<<<<< HEAD
 # page_builder
+<<<<<<< HEAD
+=======
+
+<!-- Contenuto migrato da _docs/page_builder.txt -->
+
+=======
+<<<<<<< HEAD
+# page_builder
+>>>>>>> laraxot/dev
 <!-- Contenuto migrato da _docs/page_builder.txt -->
 =======
 <<<<<<< HEAD
@@ -73,11 +82,21 @@ https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
 # page_builder
 
 <!-- Contenuto migrato da _docs/page_builder.txt -->
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
 <<<<<<< HEAD
@@ -94,3 +113,7 @@ https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

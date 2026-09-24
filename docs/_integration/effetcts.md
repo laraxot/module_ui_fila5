@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "effetcts"
 type: concept
@@ -28,6 +33,10 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # effetcts
 
 <!-- Contenuto migrato da _docs/effetcts.txt -->

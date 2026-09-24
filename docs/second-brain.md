@@ -1,4 +1,15 @@
 ---
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+module: theme
+topic: second-brain
+canonical: ../../../Themes/docs/shared-components/second-brain.md
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/second-brain.md
+=======
+>>>>>>> laraxot/dev
 title: second brain — puntatore modulo UI
 type: reference
 qmd: second brain UI phpstan geo-boundary no map adapters Location Map
@@ -108,3 +119,7 @@ Stub **puntatore**: disciplina globale nella wiki di progetto; qui solo lezioni 
 **Map/Geo:** Nel modulo `UI` non devono esserci elementi legati a mappe, geolocalizzazione o dati geografici. Le cartelle `app/Adapters/Location` e `app/Adapters/Map` sono state rimosse. Il modulo `Geo` è un ambito separato e non fa parte di questo progetto; il modulo `UI` deve mantenere responsabilità esclusiva sui componenti UI generici.
 
 Remotes tipici: `provtv` + `laraxot` → `module_ui_fila5` (`git remote -v`).
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

@@ -1,6 +1,13 @@
 # Analisi Metodi Duplicati - Modulo UI
 
+<<<<<<< HEAD
 **Data Generazione**: 2025-10-15 06:41:17
+=======
+<<<<<<< HEAD
+=======
+**Data Generazione**: 2025-10-15 06:41:17
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 **Totale Gruppi di Duplicati**:
 
 ## Sommario Esecutivo
@@ -77,6 +84,13 @@ public function asset(): string
 - `ChangeStatus::execute` - [Modules/Fixcity/app/Actions/ChangeStatus.php:12](Modules/Fixcity/app/Actions/ChangeStatus.php) (Modulo: Fixcity)
 - `GenerateTicketsAction::execute` - [Modules/Fixcity/app/Actions/GenerateTicketsAction.php:24](Modules/Fixcity/app/Actions/GenerateTicketsAction.php) (Modulo: Fixcity)
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+- `ChangeStatus::execute` - [Modules/Fixcity/app/Actions/ChangeStatus.php:12](Modules/Fixcity/app/Actions/ChangeStatus.php) (Modulo: Fixcity)
+- `GenerateTicketsAction::execute` - [Modules/Fixcity/app/Actions/GenerateTicketsAction.php:24](Modules/Fixcity/app/Actions/GenerateTicketsAction.php) (Modulo: Fixcity)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 - `ChangeStatus::execute` - [Modules/<nome progetto>/app/Actions/ChangeStatus.php:12](Modules/<nome progetto>/app/Actions/ChangeStatus.php) (Modulo: <nome progetto>)
 - `GenerateTicketsAction::execute` - [Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php:24](Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php) (Modulo: <nome progetto>)
 - `ChangeStatus::execute` - [Modules/Project/app/Actions/ChangeStatus.php:12](Modules/Project/app/Actions/ChangeStatus.php) (Modulo: progetto corrente)
@@ -103,6 +117,10 @@ public function asset(): string
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - `CalculateDistanceAction::execute` - [Modules/Geo/app/Actions/CalculateDistanceAction.php:47](Modules/Geo/app/Actions/CalculateDistanceAction.php) (Modulo: Geo)
 - `ClusterLocationsAction::execute` - [Modules/Geo/app/Actions/ClusterLocationsAction.php:25](Modules/Geo/app/Actions/ClusterLocationsAction.php) (Modulo: Geo)

@@ -1,4 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Gestione delle Risorse Pubbliche 
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 # Gestione delle Risorse Pubbliche
 =======
 <<<<<<< HEAD
@@ -20,6 +26,10 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 ## Indice
@@ -39,6 +49,12 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/var/www/html/<nome progetto>/
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 /var/www/html/saluteora/
 <<<<<<< HEAD
 [project-root]/
@@ -60,6 +76,10 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 ├── public_html/           # Directory pubblica principale
 │   ├── images/            # Immagini pubbliche
@@ -71,6 +91,12 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+> **IMPORTANTE**: MAI utilizzare `/var/www/html/<nome progetto>/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 > **IMPORTANTE**: MAI utilizzare `/var/www/html/saluteora/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di SaluteOra.
 <<<<<<< HEAD
 > **IMPORTANTE**: MAI utilizzare `[project-root]/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>corrente.
@@ -92,6 +118,10 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 ## Tipi di Risorse
@@ -99,6 +129,12 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 ### Immagini
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Le immagini devono essere posizionate in `/var/www/html/<nome progetto>/public_html/images/` e organizzate in sottocartelle per tipologia:
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/images/` e organizzate in sottocartelle per tipologia:
 <<<<<<< HEAD
 Le immagini devono essere posizionate in `[project-root]/public_html/images/` e organizzate in sottocartelle per tipologia:
@@ -120,6 +156,10 @@ Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/im
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 - `/images/avatars/` - Avatar utenti
@@ -188,6 +228,14 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<img 
+    src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}" 
+    alt="{{ $user->name }}" 
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 <img
     src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}"
     alt="{{ $user->name }}"
@@ -220,6 +268,10 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     class="h-10 w-10 rounded-full"
 >
 ```
@@ -230,6 +282,14 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 <a href="{{ LaravelLocalization::getLocalizedURL(LaravelLocalization::getCurrentLocale(), route('home')) }}">
 <<<<<<< HEAD
     <img 
+<<<<<<< HEAD
+=======
+        src="{{ asset('images/logos/<nome progetto>-logo.svg') }}" 
+        alt="<nome progetto>" 
+=======
+<<<<<<< HEAD
+    <img 
+>>>>>>> laraxot/dev
         src="{{ asset('images/logos/saluteora-logo.svg') }}" 
         alt="SaluteOra" 
 =======
@@ -255,6 +315,10 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         class="h-8"
     >
 </a>
@@ -270,6 +334,12 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 ## Conclusione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto SaluteOra.
 <<<<<<< HEAD
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>corrente.
@@ -291,4 +361,8 @@ Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantis
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

@@ -3,6 +3,12 @@
 ## Panoramica
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_<nome progetto>_fila5_mono.
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_predict_fila3_mono.
 <<<<<<< HEAD
 Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_ptvx_fila5.
@@ -1242,6 +1248,10 @@ Questo documento fornisce linee guida per l'integrazione dei server MCP (Model C
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## Server MCP Consigliati
 
@@ -1389,10 +1399,19 @@ class ThemeFileService
         try {
             $content = $this->mcpService->filesystem()->readFile($fullPath);
             
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 
         try {
             $content = $this->mcpService->filesystem()->readFile($fullPath);
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             return $content ?: null;
         } catch (\Exception $e) {
             Log::error("Failed to read theme file", [
@@ -1453,11 +1472,20 @@ class ThemeFileService
             $fullPath .= '/' . $directory;
         }
         
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 
         if ($directory) {
             $fullPath .= '/' . $directory;
         }
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         try {
             return $this->mcpService->filesystem()->listDirectory($fullPath);
         } catch (\Exception $e) {
@@ -1568,6 +1596,11 @@ class UICacheService
                 return $cached['html'];
             }
             
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 
         try {
             $cached = $this->mcpService->redis()->get($cacheKey);
@@ -1576,6 +1609,10 @@ class UICacheService
                 return $cached['html'];
             }
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             return null;
         } catch (\Exception $e) {
             Log::error("Failed to get cached UI component", [
@@ -1608,6 +1645,11 @@ class UICacheService
                     $this->mcpService->redis()->delete($key);
                 }
                 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 
             try {
                 $keys = $this->mcpService->redis()->keys($pattern);
@@ -1616,6 +1658,10 @@ class UICacheService
                     $this->mcpService->redis()->delete($key);
                 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
                 return true;
             } catch (\Exception $e) {
                 Log::error("Failed to invalidate UI component cache", [
@@ -1726,11 +1772,20 @@ class AnalyzeUIAccessibilityAction
             $accessibilityIssues = $analysis['accessibility']['issues'] ?? [];
             $suggestions = $analysis['accessibility']['suggestions'] ?? [];
             
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 
             $accessibilityScore = $analysis['accessibility']['score'] ?? 0;
             $accessibilityIssues = $analysis['accessibility']['issues'] ?? [];
             $suggestions = $analysis['accessibility']['suggestions'] ?? [];
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             return new UIAnalysisData(
                 score: $accessibilityScore,
                 issues: $accessibilityIssues,
@@ -1843,6 +1898,11 @@ class CachedUIComponent extends Component
             $uiCacheService->cacheComponent($this->componentName, $this->componentProps, $html, $this->cacheTtl);
         }
         
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 
         /** @var UICacheService $uiCacheService */
         $uiCacheService = app(UICacheService::class);
@@ -1861,6 +1921,10 @@ class CachedUIComponent extends Component
             $uiCacheService->cacheComponent($this->componentName, $this->componentProps, $html, $this->cacheTtl);
         }
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         return view('ui::livewire.cached-ui-component', [
             'html' => $html
         ]);
@@ -1894,11 +1958,20 @@ $analyze = function () {
         /** @var AnalyzeUIAccessibilityAction $analyzeAction */
         $analyzeAction = app(AnalyzeUIAccessibilityAction::class);
         
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 
     try {
         /** @var AnalyzeUIAccessibilityAction $analyzeAction */
         $analyzeAction = app(AnalyzeUIAccessibilityAction::class);
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $this->analysisResult = $analyzeAction->execute($this->url);
     } catch (\Exception $e) {
         $this->addError('analysis', $e->getMessage());
@@ -1993,6 +2066,12 @@ $analyze = function () {
 ## Conclusione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_<nome progetto>_fila5_mono.
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_predict_fila3_mono.
@@ -2360,4 +2439,8 @@ L'integrazione dei server MCP con il modulo UI consente di migliorare significat
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

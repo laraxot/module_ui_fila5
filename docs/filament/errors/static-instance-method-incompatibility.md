@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Errore di incompatibilità tra metodi statici e di istanza in Filament"
 type: concept
@@ -22,6 +27,10 @@ related:
   - "./dropdown-list-item-tag.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Errore di incompatibilità tra metodi statici e di istanza in Filament
 
 ## Problema

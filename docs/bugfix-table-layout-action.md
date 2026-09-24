@@ -140,14 +140,34 @@ php -l Modules/UI/app/Filament/Actions/Table/TableLayoutToggleTableAction.php
 php artisan tinker --execute="TableLayoutToggleTableAction::make('test');"
 
 # Testare l'URL che causava l'errore
+<<<<<<< HEAD
 curl -I http://127.0.0.1:8001/<nome progetto>/admin/gaia/survey-pdfs
+=======
+<<<<<<< HEAD
+curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
+=======
+curl -I http://127.0.0.1:8001/<nome progetto>/admin/gaia/survey-pdfs
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ```
 
 ### Risultati Test
 
+<<<<<<< HEAD
 ✅ **Sintassi PHP**: Nessun errore di sintassi
 ✅ **Istanziazione**: Classe istanziabile correttamente
 ✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)
+=======
+<<<<<<< HEAD
+✅ **Sintassi PHP**: Nessun errore di sintassi  
+✅ **Istanziazione**: Classe istanziabile correttamente  
+✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)  
+=======
+✅ **Sintassi PHP**: Nessun errore di sintassi
+✅ **Istanziazione**: Classe istanziabile correttamente
+✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ✅ **PHPStan**: Nessun errore di linting rilevato
 
 ## Impatto
@@ -165,6 +185,11 @@ curl -I http://127.0.0.1:8001/<nome progetto>/admin/gaia/survey-pdfs
 - Supporta il metodo statico `make()` per l'istanziazione
 - Compatibile con il sistema di layout delle tabelle Filament
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ## Aggiornamento PHPStan
 
 - **Problema**: l'azione `TableLayoutToggleHeaderAction` accedeva a `$livewire->layoutView` senza un tipo esplicito, causando l'errore `property.notFound` a livello PHPStan 10.
@@ -172,6 +197,10 @@ curl -I http://127.0.0.1:8001/<nome progetto>/admin/gaia/survey-pdfs
 - **Risultato**: eliminato l'errore statico garantendo type safety sulle azioni di header e allineamento con la regola “fix, don’t ignore”.
 - **Verifica**: `php -d memory_limit=4G ./vendor/bin/phpstan analyse Modules/UI --memory-limit=4G --no-progress`
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ## Riferimenti
 
 - [Interfaccia HasTableLayout](./HasTableLayout.php)
@@ -180,8 +209,21 @@ curl -I http://127.0.0.1:8001/<nome progetto>/admin/gaia/survey-pdfs
 
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+**Data**: 27 Gennaio 2025  
+**Modulo**: UI  
+**Tipo**: Bug Fix  
+**Priorità**: Alta  
+=======
+>>>>>>> laraxot/dev
 **Data**: 27 Gennaio 2025
 **Modulo**: UI
 **Tipo**: Bug Fix
 **Priorità**: Alta
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 **Stato**: ✅ Risolto

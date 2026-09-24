@@ -88,10 +88,24 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
      * This method replaces the old debug_backtrace approach with explicit
      * parameter passing for better type safety and testability.
      *
+<<<<<<< HEAD
      * @param array<Column|ColumnGroup|Component> $listColumns Columns for list layout
      * @param array<Column|ColumnGroup|Component> $gridColumns Columns for grid layout
      *
      * @return array<Column|ColumnGroup|Component>
+=======
+     * <<<<<<< HEAD
+     *
+     * @param array<int|string, Column|ColumnGroup|Component> $listColumns Columns for list layout
+     * @param array<int|string, Column|ColumnGroup|Component> $gridColumns Columns for grid layout
+     * @param array<Column|ColumnGroup|Component>             $listColumns Columns for list layout
+     * @param array<Column|ColumnGroup|Component>             $gridColumns Columns for grid layout
+     *
+     * @return array<int|string, Column|ColumnGroup|Component>
+     *                                                         =======
+     * @return array<Column|ColumnGroup|Component>
+     *                                                         >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
      */
     public function getTableColumns(array $listColumns, array $gridColumns): array
     {

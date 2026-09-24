@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Compatibilità dei Metodi nei Componenti Filament"
 type: concept
@@ -28,6 +33,10 @@ related:
   - "./file-upload-component.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Compatibilità dei Metodi nei Componenti Filament
 
 ## Panoramica

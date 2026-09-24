@@ -41,6 +41,12 @@ Before submitting a pull request:
 If the project maintainer has any additional requirements, you will find them listed here.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- **[PSR-2 Coding Standard](https://github.com/php-fig/fig-standards/blob/master/accepted/psr-2-coding-style-guide.md)** - The standard can be enforced by running the `composer lint` console command.
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 - **[PSR-2 Coding Standard](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)** - The standard can be enforced by running the `composer lint` console command.
 =======
 <<<<<<< HEAD
@@ -63,6 +69,10 @@ If the project maintainer has any additional requirements, you will find them li
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 - **Add tests!** - Your patch won't be accepted if it doesn't have tests.
 
@@ -85,6 +95,12 @@ If the project maintainer has any additional requirements, you will find them li
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+**Happy coding**!
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 **Happy coding**!
 =======
 **Happy coding**!
@@ -97,3 +113,7 @@ If the project maintainer has any additional requirements, you will find them li
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

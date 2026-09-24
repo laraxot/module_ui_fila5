@@ -119,6 +119,12 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 
 =======
 <<<<<<< HEAD
@@ -136,6 +142,10 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     // Configurazioni comuni per tutti i widget di statistiche UI
     protected static function getDefaultStats(): array
@@ -153,6 +163,12 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 
 =======
 <<<<<<< HEAD
@@ -170,6 +186,10 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     // Metodi helper comuni
     protected function formatNumber(int|float $number): string
@@ -185,6 +205,12 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 
 =======
 <<<<<<< HEAD
@@ -202,6 +228,10 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     protected function formatPercentage(int|float $percentage): string
     {
@@ -241,8 +271,17 @@ abstract class UIBaseTestWidget extends XotBaseWidget
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     
     // Configurazioni comuni per tutti i widget di test UI
@@ -256,6 +295,11 @@ abstract class UIBaseTestWidget extends XotBaseWidget
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -276,6 +320,10 @@ abstract class UIBaseTestWidget extends XotBaseWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     // Metodi helper comuni
     protected function getTestData(): array
     {
@@ -316,6 +364,12 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 
 =======
 <<<<<<< HEAD
@@ -333,6 +387,10 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     // Configurazioni comuni per tutti i grafici UI
     protected function getDefaultChartOptions(): array
@@ -356,6 +414,12 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 
 =======
 <<<<<<< HEAD
@@ -373,6 +437,10 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     // Metodi helper comuni
     protected function formatChartData(array $data): array
@@ -465,6 +533,12 @@ class SystemTestWidget extends UIBaseTestWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 
 =======
 <<<<<<< HEAD
@@ -482,6 +556,10 @@ class SystemTestWidget extends UIBaseTestWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function getViewData(): array
     {
@@ -502,6 +580,12 @@ class SystemTestWidget extends UIBaseTestWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 
 =======
 <<<<<<< HEAD
@@ -519,6 +603,10 @@ class SystemTestWidget extends UIBaseTestWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     private function getSystemInfo(): array
     {
@@ -537,6 +625,12 @@ class SystemTestWidget extends UIBaseTestWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 
 =======
 <<<<<<< HEAD
@@ -554,6 +648,10 @@ class SystemTestWidget extends UIBaseTestWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     private function getDatabaseStatus(): array
     {
@@ -586,13 +684,27 @@ class SystemTestWidget extends UIBaseTestWidget
 
 ## 🔗 Collegamenti Correlati
 
+<<<<<<< HEAD
 - [XotBase Patterns](../../Xot/docs/optimization_opportunities.md)
+=======
+<<<<<<< HEAD
+- [XotBase Patterns](../../xot/docs/optimization_opportunities.md)
+=======
+- [XotBase Patterns](../../Xot/docs/optimization_opportunities.md)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [UI Components](components.md)
 - [Development Guidelines](development-guidelines.md)
 - [Testing Strategy](testing-strategy.md)
 
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+*Autore: Analisi Automatica del Progetto*
+=======
+>>>>>>> laraxot/dev
 *Ultimo aggiornamento: Giugno 2025*
 <<<<<<< HEAD
 *Autore: Analisi Automatica del Progetto*
@@ -792,4 +904,8 @@ class SystemTestWidget extends UIBaseTestWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

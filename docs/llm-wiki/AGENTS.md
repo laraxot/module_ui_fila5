@@ -137,6 +137,11 @@ Related:
 
 - [Project Wiki Integration](../../docs/wiki/README.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 - [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
 =======
 - [Project Wiki Agent Instructions](../../docs/wiki/agents.md)
@@ -286,5 +291,9 @@ Related:
 ## Related Documentation
 
 - [Project Wiki Integration](../../docs/wiki/README.md)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
 - [Module Documentation](../README.md)

@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Uso Corretto dei Componenti Filament nei Blocchi"
 type: concept
@@ -24,6 +29,10 @@ related:
   - "./user-dropdown.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Uso Corretto dei Componenti Filament nei Blocchi
 
 ## Componenti Disponibili e Limitazioni

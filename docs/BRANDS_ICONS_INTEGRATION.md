@@ -231,6 +231,12 @@ php artisan view:clear
 <<<<<<< HEAD
 # http://fixcity.local/it/tests/homepage
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+# http://fixcity.local/it/tests/homepage
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 
 # http://<nome progetto>.local/it/tests/homepage
 # http://app.local/it/tests/homepage
@@ -252,6 +258,10 @@ php artisan view:clear
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 ```
 

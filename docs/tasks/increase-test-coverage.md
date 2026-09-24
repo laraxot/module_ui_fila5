@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Task: Incremento Test Coverage (Pest) - UI"
 type: concept
@@ -29,6 +34,10 @@ related:
   - "./ui-filament-v5.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Task: Incremento Test Coverage (Pest) - UI
 
 **Modulo**: UI  

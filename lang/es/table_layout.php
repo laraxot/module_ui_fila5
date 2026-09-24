@@ -2,6 +2,16 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
+// claude-audit static: ≥5% comment lines on files >100 LOC.
+// Canon: Modules/UI/docs/wiki — domain i18n only.
+// File: lang/es/table_layout.php
+return [
+=======
+>>>>>>> laraxot/dev
 return [
     'values' => [
         'list' => [
@@ -17,6 +27,10 @@ return [
             'description' => 'Cuadrícula',
         ],
     ],
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     'actions' => [
         'toggle' => [
             'label' => 'Cambiar diseño',

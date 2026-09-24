@@ -1,5 +1,13 @@
 ---
+<<<<<<< HEAD
 title: "Root modulo/tema — zero .txt, max 6 .md"
+=======
+<<<<<<< HEAD
+title: "Root modulo/tema — zero .txt, max 4 .md"
+=======
+title: "Root modulo/tema — zero .txt, max 6 .md"
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 type: rule
 module: UI
 tags: [hygiene, modules, themes, txt, markdown]
@@ -7,6 +15,13 @@ created: 2026-07-08
 updated: 2026-07-08
 qmd: "module theme root txt md hygiene audit fix"
 related:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  - ../../../../../../docs/wiki/rules/module-theme-root-no-txt-files.md
+  - ../../../../../../docs/wiki/rules/module-theme-root-md-files-limit.md
+=======
+>>>>>>> laraxot/dev
   - "./git-merge-conflict-inventory-1.md"
   - "./git-merge-conflict-inventory.md"
 <<<<<<< HEAD
@@ -35,6 +50,10 @@ related:
 >>>>>>> laraxot/dev
   - "./phpstan-fixes-1.md"
   - "./phpstan-fixes.md"
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ---
 
 # Root modulo/tema — igiene
@@ -44,7 +63,15 @@ related:
 | Root `Modules/*` e `Themes/*` | Consentito |
 |---------------------------------|------------|
 | `*.txt` | **0** |
+<<<<<<< HEAD
 | `*.md` | **max 6**: preferiti `README.md`, `CHANGELOG.md`, `LICENSE.md`, `AGENTS.md`, `CLAUDE.md` +1 |
+=======
+<<<<<<< HEAD
+| `*.md` | **max 4**: `README.md`, `CHANGELOG.md`, `LICENSE.md`, `AGENTS.md` |
+=======
+| `*.md` | **max 6**: preferiti `README.md`, `CHANGELOG.md`, `LICENSE.md`, `AGENTS.md`, `CLAUDE.md` +1 |
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 | Cartelle | solo **lowercase** (`app`, `config`, `docs`, …) |
 
 ## Perché

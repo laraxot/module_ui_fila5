@@ -1,4 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+## Collegamenti tra versioni di naming-conventions.md
+* [naming-conventions.md](../../../../../docs/naming-conventions.md)
+* [naming-conventions.md](../../xot/docs/naming-conventions.md)
+* [naming-conventions.md](../../patient/docs/naming-conventions.md)
+## Collegamenti tra versioni di naming-conventions.md
+* [naming-conventions.md](../../../../../docs/project/naming-conventions.md)
+* [naming-conventions.md](../../xot/project_docs/naming-conventions.md)
+* [naming-conventions.md](../../patient/project_docs/naming-conventions.md)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62,4 +75,8 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

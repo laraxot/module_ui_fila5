@@ -1,4 +1,20 @@
 ---
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+title: Wiki Schema
+description: Schema e convenzioni per la manutenzione della wiki
+tags:
+  - schema
+  - conventions
+  - llm-instructions
+created: 2026-04-15
+---
+
+# Wiki Schema - UI
+
+=======
+>>>>>>> laraxot/dev
 title: "Rimando a schema.md"
 description: "Documento unificato: il contenuto canonico vive in schema.md."
 status: merged
@@ -10,6 +26,10 @@ tags: [merge, duplicato, case-only]
 <<<<<<< HEAD
 Questo file era un duplicato esatto che differiva solo per maiuscole/minuscole, in violazione della regola no-case-only-variations. Il contenuto canonico si trova in [schema.md](./schema.md).
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 Istruzioni per l'LLM su come mantenere questa wiki.
 
 ## Struttura
@@ -22,8 +42,17 @@ docs/
 <<<<<<< HEAD
 │   ├── SCHEMA.md          # Questo file
 =======
+<<<<<<< HEAD
 │   ├── schema.md          # Questo file
 >>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+│   ├── SCHEMA.md          # Questo file
+=======
+│   ├── schema.md          # Questo file
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 │   ├── concepts/          # Pattern, architettura
 │   ├── entities/          # Modelli, azioni
 │   ├── sources/           # Doc esterna
@@ -37,4 +66,10 @@ docs/
 - Frontmatter: title, description, tags, created
 - Cross-ref: `[Link](../concepts/name.md)`
 - NON modificare mai `docs/raw/`
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

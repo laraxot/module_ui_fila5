@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Shared Hosting Chart Strategy (No NPM/Node)"
 type: concept
@@ -25,6 +30,10 @@ related:
   - "./server-side-actions.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Shared Hosting Chart Strategy (No NPM/Node)
 
 > **Purpose**: Generate chart images in background jobs on **Shared Hosting environments** where you cannot install Node.js/Puppeteer (`browsershot` is not an option).

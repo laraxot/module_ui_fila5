@@ -5,11 +5,21 @@ type: concept
 created: "2026-04-29T00:00:00Z"
 updated: "2026-04-29T00:00:00Z"
 related:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  - "[[UI Operating Model]]"
+=======
+>>>>>>> laraxot/dev
   - "./agents.md"
   - "./bmad-method.md"
   - "./index.md"
   - "./log.md"
   - "./overview.md"
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ---
 
 # Context Compression Setup
@@ -70,6 +80,12 @@ qmd query "$1" -c wiki --limit 3 > compressed_result.md
 <<<<<<< HEAD
 qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 qmd search "$1" -c <nome progetto>-docs | head -5 > keywords.txt
 qmd search "$1" -c project-docs | head -5 > keywords.txt
 =======
@@ -90,6 +106,10 @@ qmd search "$1" -c <nome progetto>-docs | head -5 > keywords.txt
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 # Genera sommario

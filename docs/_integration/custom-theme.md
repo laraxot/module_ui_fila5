@@ -2,6 +2,11 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -44,6 +49,10 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # custom_theme
 
 <!-- Contenuto migrato da _docs/custom_theme.txt -->
@@ -54,11 +63,20 @@ https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-li
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -75,6 +93,11 @@ in app/Providers/Filament/AdminPanelProvider.php
 
 https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -87,6 +110,10 @@ https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-li
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 php artisan make:filament-theme admin
 
@@ -104,6 +131,12 @@ in app/Providers/Filament/AdminPanelProvider.php
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+->viteTheme('resources/css/filament/admin/theme.css')
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 ->viteTheme('resources/css/filament/admin/theme.css')
 =======
 ->viteTheme('resources/css/filament/admin/theme.css')
@@ -116,3 +149,7 @@ in app/Providers/Filament/AdminPanelProvider.php
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

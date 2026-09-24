@@ -1,6 +1,13 @@
 # Audit e Correzione Colonne Filament - Modulo UI
 
+<<<<<<< HEAD
 **Data**: 11 Novembre 2025
+=======
+<<<<<<< HEAD
+=======
+**Data**: 11 Novembre 2025
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 **Status**: ✅ COMPLETATO
 
 ## Analisi Completa

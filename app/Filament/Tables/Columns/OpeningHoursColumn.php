@@ -55,12 +55,20 @@ class OpeningHoursColumn extends TextColumn
             $slots = is_array($day) ? self::formatSlots($day) : [];
 
             $abbrev = mb_substr($dayLabel, 0, 3);
+<<<<<<< HEAD
             $parts[] = $slots === []
+=======
+            $parts[] = [] === $slots
+>>>>>>> laraxot/dev
                 ? "{$abbrev} chiuso"
                 : $abbrev.' '.implode(', ', $slots);
         }
 
+<<<<<<< HEAD
         return $parts === [] ? '—' : implode(' · ', $parts);
+=======
+        return [] === $parts ? '—' : implode(' · ', $parts);
+>>>>>>> laraxot/dev
     }
 
     /**

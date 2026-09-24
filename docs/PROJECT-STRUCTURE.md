@@ -19,6 +19,12 @@ tags: [structure, architecture, module]
 │   ├── entities/                 # Organization/person pages
 │   ├── rules/                    # ⚠️ 151+ regole progettuali
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 │   │   ├── 00-INDEX.md          # Indice regole
 │   │   ├── 00-TRIGGER_MAP.md    # Trigger map (link a globale)
 │   │   └── *.md                 # Regole specifiche modulo
@@ -30,6 +36,11 @@ tags: [structure, architecture, module]
 │   │   └── *.md
 │   ├── memories/                 # Memorie progettuali
 │   │   ├── INDEX.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 │   │   ├── 00-index.md          # Indice regole
 │   │   ├── 00-TRIGGER_MAP.md    # Trigger map (link a globale)
@@ -43,6 +54,10 @@ tags: [structure, architecture, module]
 │   ├── memories/                 # Memorie progettuali
 │   │   ├── index.md
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 │   │   └── *.md
 │   ├── decisions/                # Architecture decision records
 │   └── troubleshooting/          # Bug fixes, error resolutions
@@ -52,8 +67,17 @@ tags: [structure, architecture, module]
 <<<<<<< HEAD
 ├── ARCHITECTURE.md               # (opzionale) Architettura modulo
 =======
+<<<<<<< HEAD
 ├── architecture.md               # (opzionale) Architettura modulo
 >>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+├── ARCHITECTURE.md               # (opzionale) Architettura modulo
+=======
+├── architecture.md               # (opzionale) Architettura modulo
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 └── README.md                     # (opzionale) Overview modulo
 \`\`\`
 
@@ -128,8 +152,17 @@ mkdir -p docs/wiki/{rules,skills,commands,memories,concepts,entities,decisions,t
 <<<<<<< HEAD
 cp docs/wiki/rules/INDEX.md docs/wiki/rules/
 =======
+<<<<<<< HEAD
 cp docs/wiki/rules/index.md docs/wiki/rules/
 >>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+cp docs/wiki/rules/INDEX.md docs/wiki/rules/
+=======
+cp docs/wiki/rules/index.md docs/wiki/rules/
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # ... etc
 
 # 3. Aggiungi a QMD collection (opzionale, già incluso global)

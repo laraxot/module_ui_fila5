@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "UI Activity Log"
 type: concept
@@ -22,6 +27,10 @@ related:
   - "./index.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # UI Activity Log
 
 > **Module**: UI
@@ -35,8 +44,17 @@ related:
 <<<<<<< HEAD
 - Created: AGENTS.md (agent instructions)
 =======
+<<<<<<< HEAD
 - Created: agents.md (agent instructions)
 >>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+- Created: AGENTS.md (agent instructions)
+=======
+- Created: agents.md (agent instructions)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - Created: index.md (content catalog)
 - Created: log.md (this file)
 - Directories initialized:

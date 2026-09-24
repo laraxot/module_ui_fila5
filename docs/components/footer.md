@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Footer Component"
 type: concept
@@ -28,6 +33,10 @@ related:
   - "./full-calendar.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Footer Component
 
 Questo documento serve come punto di riferimento centrale per la documentazione del componente Footer.
@@ -43,7 +52,15 @@ laravel/Themes/One/resources/views/components/layouts/footer.blade.php
 ### Documentazione Principale
 - [Documentazione Dettagliata del Footer](../../../../themes/one/docs/components/layouts/footer.md)
 - [Guida allo Stile del Tema One](../../../../themes/one/docs/style_guide.md)
+<<<<<<< HEAD
 - [Sistema di Layout](/laravel/Themes/One/docs/design-system-2.md#layout)
+=======
+<<<<<<< HEAD
+- [Sistema di Layout](/laravel/Themes/One/docs/design_system.md#layout)
+=======
+- [Sistema di Layout](/laravel/Themes/One/docs/design-system-2.md#layout)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ### Best Practices e Linee Guida
 - [Best Practices Components](../../../cms/docs/best-practices/components.md)

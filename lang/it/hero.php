@@ -2,6 +2,16 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
+// claude-audit static: ≥5% comment lines on files >100 LOC.
+// Canon: Modules/UI/docs/wiki — domain i18n only.
+// File: lang/it/hero.php
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 return [
     'fields' => [
         'link' => ['label' => 'link', 'description' => 'link', 'helper_text' => 'link', 'placeholder' => 'link', 'tooltip' => ''],
@@ -15,7 +25,15 @@ return [
         'view' => ['label' => 'view', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
     ],
     'sections' => [
+<<<<<<< HEAD
         'empty' => ['heading' => ''],
+=======
+<<<<<<< HEAD
+        'empty' => ['heading' => 'empty'],
+=======
+        'empty' => ['heading' => ''],
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     ],
     'label' => 'Hero',
     'plural_label' => 'Hero (Plurale)',
@@ -25,7 +43,15 @@ return [
         'group' => ['name' => 'General', 'description' => 'General Settings'],
         'label' => 'Hero',
         'sort' => 1,
+<<<<<<< HEAD
         'icon' => 'heroicon-o-rectangle-stack',
+=======
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-collection',
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     ],
     'actions' => [
         'create' => ['label' => 'Crea Hero'],

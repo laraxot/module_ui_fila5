@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "UI Module Wiki Index"
 type: concept
@@ -22,6 +27,10 @@ related:
   - "./log.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # UI Module Wiki Index
 
 > **Module**: UI

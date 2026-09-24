@@ -2,6 +2,11 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -47,6 +52,10 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # AddressField Component
 
 ## Panoramica
@@ -86,6 +95,17 @@ AddressField::make('address')
 
 <<<<<<< HEAD
 [Torna alla documentazione UI](/docs/modules/module_ui.md#components)
+<<<<<<< HEAD
+=======
+# AddressField Component
+
+## Panoramica
+Il componente AddressField è un campo Filament personalizzato per la gestione degli indirizzi. Integra funzionalità di geocoding e validazione degli indirizzi.
+
+=======
+<<<<<<< HEAD
+[Torna alla documentazione UI](/docs/modules/module_ui.md#components)
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 [Torna alla documentazione UI](/docs/modules/module_ui.md#components) 
@@ -108,33 +128,77 @@ AddressField::make('address')
 # AddressField Component
 ## Panoramica
 Il componente AddressField è un campo Filament personalizzato per la gestione degli indirizzi. Integra funzionalità di geocoding e validazione degli indirizzi.
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ## Caratteristiche
 - Autocompletamento degli indirizzi
 - Validazione dei campi dell'indirizzo
 - Integrazione con servizi di geocoding
 - Supporto per formati di indirizzo internazionali
+<<<<<<< HEAD
 ## Miglioramenti PHPStan Livello 9
 Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
+=======
+<<<<<<< HEAD
+
+## Miglioramenti PHPStan Livello 9
+Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
+
+=======
+## Miglioramenti PHPStan Livello 9
+Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 1. Tipizzazione stretta dei parametri
 2. Gestione null-safe degli oggetti Address
 3. Validazione dei dati di input
 4. Correzione dei type hints per le proprietà
 5. Implementazione delle interfacce corrette
+<<<<<<< HEAD
 ## Utilizzo
 ```php
 use Modules\UI\ment\Forms\Components\AddressField;
+=======
+<<<<<<< HEAD
+
+## Utilizzo
+```php
+use Modules\UI\ment\Forms\Components\AddressField;
+
+=======
+## Utilizzo
+```php
+use Modules\UI\ment\Forms\Components\AddressField;
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 AddressField::make('address')
     ->required()
     ->searchable()
     ->withMap()
     ->withValidation();
 ```
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ## Best Practices
 1. Utilizzare sempre la validazione dei campi
 2. Implementare la gestione degli errori per il geocoding
 3. Configurare correttamente i servizi di geocoding
 4. Testare con diversi formati di indirizzo
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+[Torna alla documentazione UI](/docs/modules/module_ui.md#components)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 
 [Torna alla documentazione UI](/docs/modules/module-ui-1.md#components)
@@ -152,4 +216,8 @@ AddressField::make('address')
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

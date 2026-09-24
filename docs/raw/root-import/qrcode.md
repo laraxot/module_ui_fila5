@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Qrcode"
 type: concept
@@ -28,6 +33,10 @@ related:
   - "./changelog-2.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 https://github.com/tecnickcom/TCPDF
 
 simplesoftwareio/simple-qrcode  

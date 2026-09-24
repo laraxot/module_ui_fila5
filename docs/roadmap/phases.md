@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Fasi di sviluppo - UI Module"
 type: concept
@@ -28,6 +33,10 @@ related:
   - "./03-later.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Fasi di sviluppo - UI Module
 
 ## Fase 1: Modernization (In Progress)

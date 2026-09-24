@@ -2,7 +2,15 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Sprint Planning: UI Kit Polish
 
 ## 🏁 Sprint Goal
@@ -15,6 +23,11 @@ Complete the standardization of UI documentation and fix reported accessibility 
 | Modal Accessibility Fix | 2 | @CoreTeam | 📥 Todo |
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -113,6 +126,10 @@ Implement core design system with essential UI components.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## ✅ Definition of Done
 - All 6 files exist.
@@ -121,6 +138,11 @@ Implement core design system with essential UI components.
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
@@ -131,3 +153,7 @@ Implement core design system with essential UI components.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

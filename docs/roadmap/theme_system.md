@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+---
+module: theme
+topic: theme_system
+canonical: ../../../../Themes/docs/shared-components/theme-system.md
+---
+
+See canonical documentation: ../../../../Themes/docs/shared-components/theme-system.md
+=======
+>>>>>>> laraxot/dev
 # Sistema di Theming
 
 ## 📊 Stato Implementazione
@@ -233,3 +245,7 @@ class ThemeCompiler
 3. Ottimizzare caching
 4. Aggiungere theme builder
 5. Migliorare documentazione 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

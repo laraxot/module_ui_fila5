@@ -7,6 +7,19 @@ created: 2026-06-05
 updated: 2026-06-05
 qmd: "ui second brain stub canonical xot harness hackernoon llm-wiki"
 issues:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  - "https://github.com/laraxot/base_fixcity_fila5/issues/272"
+discussions:
+  - "https://github.com/laraxot/base_fixcity_fila5/discussions/273"
+related:
+  - ../../../../Xot/docs/wiki/concepts/second-brain-local-discipline.md
+  - ../../../../docs/wiki/concepts/ai-harness-module-discipline.md
+  - ../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md
+  - ../../../../../../bashscripts/tools/prompts/llm-wiki.txt
+=======
+>>>>>>> laraxot/dev
 discussions:
 related:
   - "./auth-register-focus-loss-overlay.md"
@@ -17,6 +30,10 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ---
 
 # Contratto wiki locale — stub UI
@@ -27,6 +44,12 @@ related:
 | **Harness moduli** | [ai-harness-module-discipline.md](../../../../docs/wiki/concepts/ai-harness-module-discipline.md) |
 <<<<<<< HEAD
 | **Tips 001–022** | [hackernoon map](../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md) |
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+| **Tips 001–022** | [hackernoon map](../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md) |
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 | **Tips 001–022** | [hackernoon map](../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md) |
 | **Tips 001–022** | [hackernoon map](../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-progetto corrente-map.md) |
@@ -48,6 +71,10 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 | **Prompt router** | [llm-wiki.txt](../../../../../../bashscripts/tools/prompts/llm-wiki.txt) |
 

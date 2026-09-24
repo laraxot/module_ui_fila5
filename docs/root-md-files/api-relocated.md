@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Api Relocated"
 type: concept
@@ -28,6 +33,10 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 -------------------------------------------------------------------------------------------------
 Render HTTP JSON Responses for API-based Projects in Laravel
 https://codebrisk.com/blog/render-http-json-responses-for-api-based-projects-in-laravel

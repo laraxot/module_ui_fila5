@@ -1,7 +1,14 @@
 # 🗺️ GUIDA INTEGRAZIONE MAPPA INTERATTIVA
 
 **Modulo**: UI (User Interface)
+<<<<<<< HEAD
 **Data**: 2025-01-27
+=======
+<<<<<<< HEAD
+=======
+**Data**: 2025-01-27
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 **Versione**: 1.0
 **Stato**: 🚧 IN SVILUPPO
 
@@ -11,6 +18,12 @@
 
 <<<<<<< HEAD
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione <nome progetto>.
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione progetto corrente.
@@ -32,6 +45,10 @@ Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modu
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 ---
@@ -67,7 +84,15 @@ Modules/UI/
 │   │   │   ├── map-markers.js
 │   │   │   └── map-popup.js
 │   │   └── components/
+<<<<<<< HEAD
 │   │       ├── location-picker.js
+=======
+<<<<<<< HEAD
+│   │       ├── location-picker-lit.js
+=======
+│   │       ├── location-picker.js
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 │   │       └── address-autocomplete.js
 │   ├── css/
 │   │   ├── map/
@@ -453,6 +478,12 @@ class MapService
                     'status' => $ticket->status->slug,
                     'priority' => $ticket->priority->slug,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                    'url' => route('fixcity.tickets.show', $ticket)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
                     'url' => route('<nome progetto>.tickets.show', $ticket)
                     'url' => route('fixcity.tickets.show', $ticket)
                     'url' => route('tickets.show', $ticket)
@@ -476,6 +507,10 @@ class MapService
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
                 ];
             })
@@ -557,6 +592,12 @@ class GeocodingService
         </div>
         <div class="col-md-4">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            <livewire:fixcity::components.ticket-stats />
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             <livewire:<nome progetto>::components.ticket-stats />
             <livewire:fixcity::components.ticket-stats />
             <livewire:project::components.ticket-stats />
@@ -580,6 +621,10 @@ class GeocodingService
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         </div>
     </div>
@@ -637,6 +682,12 @@ class GeocodingService
 <<<<<<< HEAD
 - [ ] Integrazione con modulo Fixcity
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+- [ ] Integrazione con modulo Fixcity
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 - [ ] Integrazione con modulo <nome progetto>
 - [ ] Integrazione con modulo progetto corrente
 =======
@@ -657,6 +708,10 @@ class GeocodingService
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - [ ] Integrazione con modulo User
 - [ ] API endpoints per mappa
@@ -679,15 +734,32 @@ class GeocodingService
 - [Livewire Components](https://laravel-livewire.com/docs/2.x/quickstart)
 
 ### 📖 Documentazione Correlata
+<<<<<<< HEAD
 - [Farmshops.eu Analysis](../Geo/docs/farmshops-analysis.md)
+=======
+<<<<<<< HEAD
+- [Farmshops.eu Analysis](../geo/docs/farmshops-analysis.md)
+=======
+- [Farmshops.eu Analysis](../Geo/docs/farmshops-analysis.md)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [Geo Module Documentation](../Geo/docs/)
 - [UI Component API](component-api.md)
 - [Styling Guide](styling-guide.md)
 
 ---
 
+<<<<<<< HEAD
 **Last Updated**: 2025-01-27
 **Next Review**: 2025-02-27
+=======
+<<<<<<< HEAD
+
+=======
+**Last Updated**: 2025-01-27
+**Next Review**: 2025-02-27
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 **Status**: 🚧 IN SVILUPPO
 **Confidence Level**: 90%
 

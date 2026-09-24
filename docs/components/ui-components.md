@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Componenti UI - Modulo UI"
 type: concept
@@ -28,6 +33,10 @@ related:
   - "./full-calendar-1.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Componenti UI - Modulo UI
 
 ## Panoramica
@@ -206,7 +215,15 @@ return [
 
 ## 🔗 Collegamenti
 
+<<<<<<< HEAD
 - [**README Modulo UI**](../README.md)
+=======
+<<<<<<< HEAD
+- [**README Modulo UI**](../readme.md)
+=======
+- [**README Modulo UI**](../README.md)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [**Sistema Layout**](../layout/layout-system.md)
 - [**Gestione Asset**](../assets/asset-management.md)
 - [**Personalizzazioni Filament**](../filament/filament-customizations.md)

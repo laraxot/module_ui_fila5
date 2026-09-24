@@ -2,6 +2,11 @@
 module: theme
 topic: organizzativa-money
 canonical: ../../../../../Themes/docs/shared-components/organizzativa-money-Modules.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 related:
   - "./auth-register-focus-loss-overlay.md"
   - "./block-rendering-and-optional-services.md"
@@ -11,6 +16,10 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/organizzativa-money-Modules.md

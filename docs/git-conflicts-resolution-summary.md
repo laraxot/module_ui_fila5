@@ -45,9 +45,21 @@ Tutti i file risolti rispettano:
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [Documentazione Root UI](../../../docs/modules/ui.md)
 - [Components Documentation](./components.md)
 - [Design System Guidelines](../../../docs/design-system.md)
+=======
+<<<<<<< HEAD
+- [Documentazione Root UI](../../../../docs/modules/ui.md)
+- [Components Documentation](./components.md)
+- [Design System Guidelines](../../../../docs/design-system.md)
+=======
+- [Documentazione Root UI](../../../docs/modules/ui.md)
+- [Components Documentation](./components.md)
+- [Design System Guidelines](../../../docs/design-system.md)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ---
 *Aggiornato automaticamente dopo risoluzione conflitti Git*

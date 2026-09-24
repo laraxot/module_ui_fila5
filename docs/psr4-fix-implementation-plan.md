@@ -1,6 +1,13 @@
 # 🔧 PSR-4 Fix Implementation Plan - UI Module
 
+<<<<<<< HEAD
 **Data**: Dicembre 15, 2025
+=======
+<<<<<<< HEAD
+=======
+**Data**: Dicembre 15, 2025
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 **Modulo**: UI
 **Tipo Fix**: Namespace correction (Modules\Notify → Modules\UI)
 
@@ -31,6 +38,12 @@ Tutti in `Modules/UI/app/Filament/Forms/Components/`:
 <<<<<<< HEAD
 **TechPlanner/app/Filament/Resources/ClientResource.php**:
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+**TechPlanner/app/Filament/Resources/ClientResource.php**:
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 **modulo operativo/app/Filament/Resources/ClientResource.php**:
 =======
 =======
@@ -50,6 +63,10 @@ Tutti in `Modules/UI/app/Filament/Forms/Components/`:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 ```php
 Line 13: use Modules\Notify\Filament\Forms\Components\ContactSection;
@@ -168,8 +185,17 @@ Aggiornare:
 <<<<<<< HEAD
 - [ ] `Modules/UI/docs/CHANGELOG.md` - Log del fix
 =======
+<<<<<<< HEAD
 - [ ] `Modules/UI/docs/changelog.md` - Log del fix
 >>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+- [ ] `Modules/UI/docs/CHANGELOG.md` - Log del fix
+=======
+- [ ] `Modules/UI/docs/changelog.md` - Log del fix
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ### Step 8: Git Commit
 

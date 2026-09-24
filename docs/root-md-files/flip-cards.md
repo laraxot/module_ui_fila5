@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Flip Cards"
 type: concept
@@ -28,6 +33,10 @@ related:
   - "./ci.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
 
 
@@ -41,4 +50,12 @@ https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
 
 
 
+<<<<<<< HEAD
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+=======
+<<<<<<< HEAD
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+=======
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

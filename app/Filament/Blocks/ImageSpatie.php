@@ -23,11 +23,21 @@ final class ImageSpatie
             ->schema([
                 Hidden::make('img_uuid')
                     ->default(Str::uuid()->toString(...))
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+                    ->formatStateUsing(fn ($state) => $state ?? Str::uuid()->toString()),
+=======
+>>>>>>> laraxot/dev
                     ->formatStateUsing(static function (mixed $state): string {
                         $value = $state ?? Str::uuid()->toString();
 
                         return \is_string($value) ? $value : Str::uuid()->toString();
                     }),
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
                 // ->live()
                 SpatieMediaLibraryFileUpload::make('image')
                     ->live()
@@ -43,8 +53,18 @@ final class ImageSpatie
                     ->openable()
                     ->downloadable()
                     // ->rules(Rule::dimensions()->maxWidth(600)->maxHeight(800))
+<<<<<<< HEAD
                     ->collection(static fn (Get $get) => $get('img_uuid'))
                     ->afterStateUpdated(static function (
+=======
+<<<<<<< HEAD
+                    ->collection(fn (Get $get) => $get('img_uuid'))
+                    ->afterStateUpdated(function (
+=======
+                    ->collection(static fn (Get $get) => $get('img_uuid'))
+                    ->afterStateUpdated(static function (
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
                         HasForms $_livewire,
                         SpatieMediaLibraryFileUpload $_component,
                         TemporaryUploadedFile $state,
@@ -54,6 +74,19 @@ final class ImageSpatie
                         // Call to an undefined method Filament\Forms\Contracts\HasForms::validateOnly().
                         // $livewire->validateOnly($component->getStatePath());
                         Assert::string(
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+                            $collection_name = $get('img_uuid'),
+                            '['.__LINE__.']['.class_basename(self::class).']',
+                        );
+                        $record->addMedia($state)->withResponsiveImages()->toMediaCollection($collection_name);
+                    }),
+                TextInput::make('caption'),
+            ])
+            ->columns('form' === $context ? 2 : 1);
+=======
+>>>>>>> laraxot/dev
                             $collectionName = $get('img_uuid'),
                             '['.__LINE__.']['.class_basename(self::class).']',
                         );
@@ -62,5 +95,9 @@ final class ImageSpatie
                 TextInput::make('caption'),
             ])
             ->columns($context === 'form' ? 2 : 1);
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     }
 }

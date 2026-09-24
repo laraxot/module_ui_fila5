@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Task: UI Filament v5 \u0026 Tailwind v4 Alignment"
 type: concept
@@ -29,6 +34,10 @@ related:
   - "./ui-cleanup-docs.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Task: UI Filament v5 \u0026 Tailwind v4 Alignment
 
 ## 📋 Obiettivo

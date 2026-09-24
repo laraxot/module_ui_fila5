@@ -11,6 +11,14 @@ use Modules\Xot\Models\XotBaseModel;
  */
 abstract class BaseModel extends XotBaseModel
 {
+<<<<<<< HEAD
     /** @var string */
     protected $connection = 'u_i';
+=======
+<<<<<<< HEAD
+=======
+    /** @var string */
+    protected $connection = 'u_i';
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 }

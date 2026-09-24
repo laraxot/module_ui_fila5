@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Gestione degli Step nei Wizard Filament"
 type: concept
@@ -24,6 +29,10 @@ related:
   - "./wizard-schema-separation.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Gestione degli Step nei Wizard Filament
 
 ## Collegamenti Bidirezionali
@@ -140,7 +149,14 @@ class DoctorResource extends XotBaseResource
     }
 
     public static function getFormSchemaWidget(): array
+<<<<<<< HEAD
     public function getFormSchemaWidget(): array
+=======
+<<<<<<< HEAD
+=======
+    public function getFormSchemaWidget(): array
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     {
         return [
             'wizard' => Forms\Components\Wizard::make([

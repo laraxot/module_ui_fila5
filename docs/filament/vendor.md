@@ -3,6 +3,11 @@ title: Ripristinare cartella vendor
 description: Ripristinare cartella vendor
 extends: _layouts.documentation
 section: content
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -12,6 +17,10 @@ related:
   - "./filament-4-migration-guide.md"
   - "./filament-4-migration-summary.md"
   - "./filament-4-migration-sumy.md"
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ---
 
 # Ripristinare la cartella vendor
@@ -23,4 +32,12 @@ php artisan vendor:publish
 ```
 digitare il numero 0 e premere invio
 
+<<<<<<< HEAD
 NB: La cartella non la sovrascrive perciò bisogna prima spostarla
+=======
+<<<<<<< HEAD
+NB: La cartella non la sovrascrive perciò bisogna prima spostarla
+=======
+NB: La cartella non la sovrascrive perciò bisogna prima spostarla
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

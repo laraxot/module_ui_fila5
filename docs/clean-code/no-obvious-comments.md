@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "REGOLA CRITICA: NO Commenti Ovvi nel Codice"
 type: concept
@@ -24,6 +29,10 @@ related:
   - "./wizard-steps.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # REGOLA CRITICA: NO Commenti Ovvi nel Codice
 
 ## Principio Fondamentale
