@@ -70,9 +70,13 @@ it('SliderData can be instantiated with nulls', function (): void {
 
 it('SliderDataCollection can be instantiated', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
     $collection = new SliderDataCollection();
 =======
     $collection = new SliderDataCollection;
+>>>>>>> laraxot/dev
+=======
+    $collection = new SliderDataCollection();
 >>>>>>> laraxot/dev
 
     Assert::assertInstanceOf(SliderDataCollection::class, $collection);
@@ -80,9 +84,13 @@ it('SliderDataCollection can be instantiated', function (): void {
 
 it('SliderDataCollection is a Spatie Data class', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
     $collection = new SliderDataCollection();
 =======
     $collection = new SliderDataCollection;
+>>>>>>> laraxot/dev
+=======
+    $collection = new SliderDataCollection();
 >>>>>>> laraxot/dev
 
     Assert::assertInstanceOf(Data::class, $collection);

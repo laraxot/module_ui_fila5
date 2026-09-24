@@ -103,6 +103,7 @@ TextInput::make('full_name')
 - [Documentazione Filament Forms](https://filamentphp.com/docs/3.x/forms/fields/text-input)
 - [Best Practices Database](../../../docs/database/best-practices.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -110,10 +111,13 @@ TextInput::make('full_name')
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 - [Convenzioni API](../../../docs/api/convenzioni.md)
 ## Collegamenti tra versioni di convenzioni-naming-campi.md
 * [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
 # Convenzioni di Naming dei Campi
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## Collegamenti tra versioni di convenzioni-naming-campi.md
 =======
@@ -149,6 +153,9 @@ TextInput::make('full_name')
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+## Collegamenti tra versioni di convenzioni-naming-campi.md
 >>>>>>> laraxot/dev
 
 ## Collegamenti tra versioni di convenzioni-naming-campi.md
@@ -220,6 +227,7 @@ TextInput::make('full_name')
 - [Convenzioni API](../../../project_docs/api/convenzioni.md)
 * [convenzioni-naming-campi.md](../../../../project_docs/convenzioni-naming-campi.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -241,4 +249,6 @@ TextInput::make('full_name')
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

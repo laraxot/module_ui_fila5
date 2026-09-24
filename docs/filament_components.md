@@ -67,7 +67,10 @@
 * [filament-components.md](../../../project_docs/rules/filament-components.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ||||||| parent of 9a84589 (.):docs/archived/filament-components-1.md
 * [filament-components.md](../../../docs/rules/filament-components.md)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

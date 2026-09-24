@@ -1,14 +1,20 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
+<<<<<<< HEAD
 =======
 <?php
 
 declare(strict_types=1);
 
 ?>
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 <div class="bg-white">
     <header class="absolute inset-x-0 top-0 z-50">

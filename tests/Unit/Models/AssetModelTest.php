@@ -5,9 +5,13 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 =======
 use Modules\UI\Models\Asset;
+>>>>>>> laraxot/dev
+=======
+use Illuminate\Database\Eloquent\Model;
 >>>>>>> laraxot/dev
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
@@ -18,6 +22,9 @@ use function Safe\file_get_contents;
  * Asset is an OPTIONAL model that is NOT part of the UI module artifact set
  * (no Models/Asset.php, no AssetFactory, no create_assets_table migration).
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
  * These tests skip at runtime via the class_exists() guard below. The class is
  * referenced by its FQCN string and narrowed with assertions, so PHPStan analyses
  * the body without any ignore annotation. Per docs/wiki/rules/no-phpstan-probe-models.md
@@ -51,6 +58,7 @@ uses(TestCase::class);
 
 beforeEach(function (): void {
     if (! class_exists(UI_ASSET_MODEL_CLASS)) {
+<<<<<<< HEAD
 =======
  * These tests skip at runtime via the class_exists() guard below. The inline
  * phpstan-ignore annotations are required because PHPStan analyses the body
@@ -67,12 +75,15 @@ beforeEach(function (): void {
     /* @var \Modules\UI\Tests\TestCase $this */
     if (! class_exists('Modules\UI\Models\Asset')) {
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         Assert::markTestSkipped('Asset model is not part of the UI module artifact set.');
     }
 });
 
 describe('Asset Model', function (): void {
     test('can be instantiated', function (): void {
+<<<<<<< HEAD
 <<<<<<< HEAD
         Assert::assertInstanceOf(uiAssetModelClass(), uiAssetModel());
 =======
@@ -81,11 +92,15 @@ describe('Asset Model', function (): void {
         /* @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
         Assert::assertInstanceOf(Asset::class, $asset);
 >>>>>>> laraxot/dev
+=======
+        Assert::assertInstanceOf(uiAssetModelClass(), uiAssetModel());
+>>>>>>> laraxot/dev
     });
 
     test('has fillable attributes', function (): void {
         $expected = ['name', 'type', 'path', 'theme_id', 'is_minified', 'is_compressed', 'order', 'should_bundle'];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         $fillable = uiAssetModel()->getFillable();
         foreach ($expected as $field) {
@@ -97,11 +112,19 @@ describe('Asset Model', function (): void {
             /* @phpstan-ignore-next-line class.notFound, argument.type (Asset model absent from artifact set) */
             Assert::assertTrue(in_array($field, $asset->getFillable()));
 >>>>>>> laraxot/dev
+=======
+        $fillable = uiAssetModel()->getFillable();
+        foreach ($expected as $field) {
+            Assert::assertContains($field, $fillable);
+>>>>>>> laraxot/dev
         }
     });
 
     test('has casts defined', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
         $casts = uiAssetModel()->getCasts();
         Assert::assertSame('boolean', $casts['is_minified'] ?? null);
         Assert::assertSame('boolean', $casts['is_compressed'] ?? null);
@@ -111,6 +134,7 @@ describe('Asset Model', function (): void {
 
     test('has theme relationship', function (): void {
         $reflection = new \ReflectionClass(uiAssetModelClass());
+<<<<<<< HEAD
 =======
         /** @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
         $asset = new Asset;
@@ -130,11 +154,16 @@ describe('Asset Model', function (): void {
         /** @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
         $reflection = new \ReflectionClass(Asset::class);
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         Assert::assertTrue($reflection->hasMethod('theme'));
     });
 
     test('has correct table name', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
         Assert::assertSame('assets', uiAssetModel()->getTable());
     });
 
@@ -144,6 +173,7 @@ describe('Asset Model', function (): void {
 
     test('uses strict types', function (): void {
         $reflection = new \ReflectionClass(uiAssetModelClass());
+<<<<<<< HEAD
 =======
         /** @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
         $asset = new Asset;
@@ -160,6 +190,8 @@ describe('Asset Model', function (): void {
         /** @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
         $reflection = new \ReflectionClass(Asset::class);
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         $fileName = $reflection->getFileName();
         Assert::assertNotFalse($fileName);
         $content = file_get_contents($fileName);
@@ -168,12 +200,17 @@ describe('Asset Model', function (): void {
 
     test('has correct namespace', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $reflection = new \ReflectionClass(uiAssetModelClass());
         Assert::assertSame('Modules\\UI\\Models', $reflection->getNamespaceName());
 =======
         /** @phpstan-ignore-next-line class.notFound (Asset model absent from artifact set) */
         $reflection = new \ReflectionClass(Asset::class);
         Assert::assertSame('Modules\UI\Models', $reflection->getNamespaceName());
+>>>>>>> laraxot/dev
+=======
+        $reflection = new \ReflectionClass(uiAssetModelClass());
+        Assert::assertSame('Modules\\UI\\Models', $reflection->getNamespaceName());
 >>>>>>> laraxot/dev
     });
 });

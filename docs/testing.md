@@ -176,6 +176,7 @@ protected function createApplication()
     
     $app['config']->set([
 <<<<<<< HEAD
+<<<<<<< HEAD
         'database.connections.ui.database' => '<nome progetto>_data_test',
 =======
 <<<<<<< HEAD
@@ -201,6 +202,9 @@ protected function createApplication()
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+        'database.connections.ui.database' => '<nome progetto>_data_test',
 >>>>>>> laraxot/dev
     ]);
     

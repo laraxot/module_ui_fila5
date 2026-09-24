@@ -14,8 +14,12 @@ abstract class BaseCalendarWidgetStub extends XotBaseSchemaWidget
 {
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
 =======
+>>>>>>> laraxot/dev
+=======
+     *
 >>>>>>> laraxot/dev
      * @param array<string, mixed> $fetchInfo
      *

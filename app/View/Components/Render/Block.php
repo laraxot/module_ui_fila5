@@ -11,8 +11,11 @@ use Illuminate\View\Component;
 use Illuminate\View\View;
 use Modules\UI\Actions\Block\ResolveLocalizedBlockDataAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use UnexpectedValueException;
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 use Webmozart\Assert\Assert;
 
@@ -25,9 +28,13 @@ class Block extends Component
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<string, mixed> $block
 =======
      * @param  array<string, mixed>  $block
+>>>>>>> laraxot/dev
+=======
+     * @param array<string, mixed> $block
 >>>>>>> laraxot/dev
      */
     public function __construct(
@@ -37,9 +44,13 @@ class Block extends Component
     ) {
         $view = Arr::get($this->block, 'data.view', null);
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (null === $view) {
 =======
         if ($view === null) {
+>>>>>>> laraxot/dev
+=======
+        if (null === $view) {
 >>>>>>> laraxot/dev
             $view = 'ui::empty';
         }
@@ -55,10 +66,15 @@ class Block extends Component
 
         $view = $this->view;
 <<<<<<< HEAD
+<<<<<<< HEAD
         Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
         if (! view()->exists($view)) {
 =======
         if (! view()->exists(is_string($view) ? $view : ((string) $view))) {
+>>>>>>> laraxot/dev
+=======
+        Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        if (! view()->exists($view)) {
 >>>>>>> laraxot/dev
             $message = 'view not exists ['.$view.'] ! <pre>'.print_r($this->block, true).'</pre>';
             $viewParams = [
@@ -69,15 +85,21 @@ class Block extends Component
             return view('ui::alert', $viewParams);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
         $rawData = $this->block['data'] ?? [];
         $viewParams = \is_array($rawData) ? $this->normalizeViewData($rawData) : [];
         $viewParams = app(ResolveLocalizedBlockDataAction::class)->execute($viewParams);
         $viewParams = $this->normalizeViewData($viewParams);
+<<<<<<< HEAD
 =======
         $viewParams = $this->normalizeViewData($this->block['data'] ?? []);
         $viewParams = app(ResolveLocalizedBlockDataAction::class)->execute($viewParams);
         $viewParams = $this->normalizeViewData($viewParams);
         Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
         /** @var view-string $view */
@@ -86,12 +108,16 @@ class Block extends Component
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
      * @param array<array-key, mixed> $data
      *
      * @return array<string, mixed>
      */
     private function normalizeViewData(array $data): array
     {
+<<<<<<< HEAD
 =======
      * @return array<string, mixed>
      */
@@ -102,14 +128,20 @@ class Block extends Component
         }
 
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         $viewData = [];
 
         foreach ($data as $key => $value) {
             if (! is_string($key)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 throw new \UnexpectedValueException('Block view data must have string keys.');
 =======
                 throw new UnexpectedValueException('Block view data must have string keys.');
+>>>>>>> laraxot/dev
+=======
+                throw new \UnexpectedValueException('Block view data must have string keys.');
 >>>>>>> laraxot/dev
             }
 

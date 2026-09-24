@@ -28,6 +28,7 @@ Quel dominio vive in `Modules/Geo` (quando il progetto lo include), **mai** in `
 Direzione dipendenze: **Geo → UI** (Geo può usare primitive UI). Mai il contrario.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Questo progetto (`base_ptvx_fila5`)
 =======
 <<<<<<< HEAD
@@ -39,6 +40,9 @@ Direzione dipendenze: **Geo → UI** (Geo può usare primitive UI). Mai il contr
 >>>>>>> 92912795 (.)
 
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+## Questo progetto (`base_ptvx_fila5`)
 >>>>>>> laraxot/dev
 `laravel/Modules/Geo` **non esiste** e **non deve essere reintrodotto** senza decisione esplicita.
 Quindi in UI non devono restare neanche fallback/null-object “per quando Geo manca”: senza Geo non serve il layer.
@@ -69,6 +73,7 @@ In questo repo `modules_statuses.json` ha `"Geo": false` e `laravel/Modules/Geo`
 4. Rimosso da `UIServiceProvider` il `bindIf` / registrazione verso null-adapters Geo.
 5. Canon aggiornato qui + [second-brain.md](./second-brain.md) + [wiki/concepts/ui-geo-boundary-contracts.md](./wiki/concepts/ui-geo-boundary-contracts.md).
 <<<<<<< HEAD
+<<<<<<< HEAD
 6. Push dual-remote (`laraxot` + `provtv`) a tip `b874935` — vedi [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md) e [multi-org-sync-laraxot-provtv.md](./multi-org-sync-laraxot-provtv.md).
 =======
 <<<<<<< HEAD
@@ -95,6 +100,9 @@ In questo repo `modules_statuses.json` ha `"Geo": false` e `laravel/Modules/Geo`
 >>>>>>> 92912795 (.)
 
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+6. Push dual-remote (`laraxot` + `provtv`) a tip `b874935` — vedi [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md) e [multi-org-sync-laraxot-provtv.md](./multi-org-sync-laraxot-provtv.md).
 >>>>>>> laraxot/dev
 **Anti-pattern:** ricreare contract+null in UI “perché Geo manca”. Senza Geo non serve il layer.
 ## Storia (forward-only)
