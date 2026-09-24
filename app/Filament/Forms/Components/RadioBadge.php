@@ -4,23 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
-<<<<<<< HEAD
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 use Modules\Xot\Filament\Forms\Components\XotBaseRadio;
 
 class RadioBadge extends XotBaseRadio
 {
-=======
-use Filament\Forms\Components\Radio;
-use Filament\Support\Contracts\HasColor;
-use Filament\Support\Contracts\HasIcon;
-
-class RadioBadge extends Radio
-{
-    /** @phpstan-var view-string */
-    /** @phpstan-ignore property.defaultValue */
->>>>>>> laraxot/dev
     protected string $view = 'ui::filament.forms.components.radio-badge';
 
     protected string $defaultColor = 'gray-200'; // gray-200
@@ -62,30 +51,18 @@ class RadioBadge extends Radio
         $enum = $this->getEnumValue($value);
         if ($enum instanceof HasColor) {
             $color = $enum->getColor();
-<<<<<<< HEAD
             if ($color === null) {
-=======
-            if (null === $color) {
->>>>>>> laraxot/dev
                 return $this->selectedColor;
             }
 
             if (is_array($color)) {
                 $first = reset($color);
 
-<<<<<<< HEAD
                 return is_string($first) && $first !== '' ? $first : $this->selectedColor;
             }
 
             // PHPStan L10: $color è già verificato come non-array e non-null, quindi è string
             if ($color !== '') {
-=======
-                return is_string($first) && '' !== $first ? $first : $this->selectedColor;
-            }
-
-            // PHPStan L10: $color è già verificato come non-array e non-null, quindi è string
-            if ('' !== $color) {
->>>>>>> laraxot/dev
                 return $color;
             }
 
@@ -104,11 +81,7 @@ class RadioBadge extends Radio
         $icon = $enum->getIcon();
 
         // getIcon() può restituire Htmlable|string|null, ma dobbiamo restituire solo string|null
-<<<<<<< HEAD
         if ($icon === null) {
-=======
-        if (null === $icon) {
->>>>>>> laraxot/dev
             return null;
         }
 

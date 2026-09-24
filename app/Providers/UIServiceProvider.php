@@ -20,10 +20,6 @@ use Modules\Xot\Providers\XotBaseServiceProvider;
  */
 class UIServiceProvider extends XotBaseServiceProvider
 {
-<<<<<<< HEAD
-    public string $name = 'UI';
-
-=======
     /**
      * Nome del modulo.
      */
@@ -32,24 +28,9 @@ class UIServiceProvider extends XotBaseServiceProvider
     /**
      * Directory del modulo.
      */
->>>>>>> laraxot/dev
     protected string $module_dir = __DIR__;
 
     protected string $module_ns = __NAMESPACE__;
-
-    /**
-     * Boot del service provider.
-     *
-     * Configura i componenti Blade e altre funzionalità del modulo UI.
-     *
-     * @return void
-     */
-
-    /**
-     * Registra i servizi del provider.
-     *
-     * @return void
-     */
 
     /**
      * Restituisce il percorso delle viste dei componenti UI.

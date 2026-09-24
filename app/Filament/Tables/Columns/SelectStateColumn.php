@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Tables\Columns;
 
-<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
@@ -12,25 +11,13 @@ use Modules\Xot\Filament\Tables\Columns\XotBaseSelectColumn;
 use ReflectionClass;
 
 class SelectStateColumn extends XotBaseSelectColumn
-=======
-use Filament\Tables\Columns\SelectColumn;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Arr;
-use Modules\Xot\Actions\Cast\SafeStringCastAction;
-
-class SelectStateColumn extends SelectColumn
->>>>>>> laraxot/dev
 {
     protected function setUp(): void
     {
         parent::setUp();
         $this->options(function (Model $record, mixed $state): array {
             $name = $this->getName();
-<<<<<<< HEAD
             if ($state === null) {
-=======
-            if (null === $state) {
->>>>>>> laraxot/dev
                 if (! method_exists($record, 'getDefaultStateFor')) {
                     return [];
                 }
@@ -67,24 +54,15 @@ class SelectStateColumn extends SelectColumn
                 if (class_exists($stateClass)) {
                     $stateNameProperty = null;
                     try {
-<<<<<<< HEAD
                         $reflection = new ReflectionClass($stateClass);
-=======
-                        $reflection = new \ReflectionClass($stateClass);
->>>>>>> laraxot/dev
                         if ($reflection->hasProperty('name')) {
                             $nameProperty = $reflection->getStaticPropertyValue('name');
                             $stateNameProperty = \is_string($nameProperty) ? $nameProperty : null;
                         }
                     } catch (\ReflectionException) {
-<<<<<<< HEAD
                         // Intentionally ignored: fall back to $stateNameProperty === null below.
                     }
                     if ($stateNameProperty !== null) {
-=======
-                    }
-                    if (null !== $stateNameProperty) {
->>>>>>> laraxot/dev
                         $statesValues = array_values($states);
                         /** @var list<int|string> $statesValuesTyped */
                         $statesValuesTyped = $statesValues;
@@ -123,30 +101,17 @@ class SelectStateColumn extends SelectColumn
     }
 
     /**
-<<<<<<< HEAD
      * @param  array<int|string, mixed>  $states
-=======
-     * @param array<int|string, mixed> $states
-     *
->>>>>>> laraxot/dev
      * @return array<int|string, string>
      */
     private function combineStateOptions(array $states): array
     {
         $statesKeys = array_map(
-<<<<<<< HEAD
             static fn (int|string $key): string => SafeStringCastAction::cast($key),
             array_keys($states),
         );
         $statesValues = array_map(
             SafeStringCastAction::cast(...),
-=======
-            static fn ($key) => SafeStringCastAction::cast($key),
-            array_keys($states),
-        );
-        $statesValues = array_map(
-            static fn ($value) => SafeStringCastAction::cast($value),
->>>>>>> laraxot/dev
             array_values($states),
         );
         $combined = array_combine($statesKeys, $statesValues);

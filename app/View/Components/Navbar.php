@@ -8,28 +8,12 @@ use Illuminate\Contracts\Support\Renderable;
 use Illuminate\View\Component;
 use Modules\Xot\Actions\GetViewAction;
 
-<<<<<<< HEAD
 /**
  * Navbar component.
  */
 final class Navbar extends Component
 {
     public function __construct() {}
-=======
-// use Modules\Xot\View\Components\XotBaseComponent;
-
-/**
- * .
- */
-final class Navbar extends Component
-{
-    /**
-     * Create a new component instance.
-     */
-    public function __construct()
-    {
-    }
->>>>>>> laraxot/dev
 
     public function render(): Renderable
     {
@@ -37,15 +21,8 @@ final class Navbar extends Component
          * @phpstan-var view-string
          */
         $view = app(GetViewAction::class)->execute();
-<<<<<<< HEAD
         $viewParams = [];
 
         return view($view, $viewParams);
-=======
-        dddx($view);
-        $view_params = [];
-
-        return view($view, $view_params);
->>>>>>> laraxot/dev
     }
 }

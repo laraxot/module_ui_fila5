@@ -5,15 +5,9 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Forms\Components;
 
 // use bjeavons\ZxcvbnPhp\Zxcvbn;
-<<<<<<< HEAD
 use Modules\Xot\Filament\Forms\Components\XotBaseTextInput;
 
 class PasswordStrengthField extends XotBaseTextInput
-=======
-use Filament\Forms\Components\TextInput;
-
-class PasswordStrengthField extends TextInput
->>>>>>> laraxot/dev
 {
     /**
      * Setup iniziale del componente.
@@ -29,11 +23,7 @@ class PasswordStrengthField extends TextInput
 
     public function evaluateStrength(): static
     {
-<<<<<<< HEAD
         $this->afterStateUpdated(static function (string $state): void {
-=======
-        $this->afterStateUpdated(function (string $state): void {
->>>>>>> laraxot/dev
             unset($state);
             // $zxcvbn = new Zxcvbn();
             // $result = $zxcvbn->passwordStrength($state);
