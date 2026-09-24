@@ -1,3 +1,60 @@
+<<<<<<< HEAD
+<<<<<<< .merge_file_SR2GWt
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_MOeYGS
+---
+title: "Registrazione corretta dei componenti Blade nei moduli"
+type: concept
+tags: [blade, component, registration]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "blade-component-registration registrazione corretta dei componenti blade nei moduli"
+<<<<<<< .merge_file_SR2GWt
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_MOeYGS
+related:
+  - "./address-field-1.md"
+  - "./address-field.md"
+  - "./filament-usage.md"
+  - "./filament.md"
+  - "./file-upload.md"
+  - "./footer.md"
+  - "./full-calendar-1.md"
+  - "./full-calendar.md"
+---
+
+<<<<<<< .merge_file_SR2GWt
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_MOeYGS
 # Registrazione corretta dei componenti Blade nei moduli
 
 ## Problema

@@ -1,6 +1,14 @@
 # PHPStan Roadmap - UI Module
 
+<<<<<<< HEAD
 > **Date**: [DATE]
+=======
+<<<<<<< HEAD
+> **Date**: [DATE]
+=======
+> **Date**: 2026-01-14
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 > **Status**: ✅ Fully Compliant (Level 10)
 > **Errors**: 0
 

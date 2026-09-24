@@ -1,3 +1,56 @@
+<<<<<<< HEAD
+<<<<<<< .merge_file_03Eys1
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_iDkYSr
+---
+title: "Uso Corretto dei Componenti Filament nei Blocchi"
+type: concept
+tags: [correct, filament, components]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "correct-filament-components uso corretto dei componenti filament nei blocchi"
+<<<<<<< .merge_file_03Eys1
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_iDkYSr
+related:
+  - "./filament-component-integration.md"
+  - "./logo.md"
+  - "./navigation.md"
+  - "./user-dropdown.md"
+---
+
+<<<<<<< .merge_file_03Eys1
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_iDkYSr
 # Uso Corretto dei Componenti Filament nei Blocchi
 
 ## Componenti Disponibili e Limitazioni

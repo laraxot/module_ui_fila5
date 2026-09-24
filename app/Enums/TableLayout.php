@@ -20,4 +20,35 @@ enum TableLayout: string
             self::GRID => self::LIST,
         };
     }
+<<<<<<< .merge_file_DplzmV
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Da0InY
+
+    /**
+     * @return array<string, string>
+     */
+    public static function toArray(): array
+    {
+        $result = [];
+        foreach (self::cases() as $case) {
+            $result[$case->value] = $case->name;
+        }
+
+        return $result;
+    }
+<<<<<<< .merge_file_DplzmV
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Da0InY
 }

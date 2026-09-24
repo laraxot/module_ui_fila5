@@ -1,3 +1,52 @@
+<<<<<<< HEAD
+<<<<<<< .merge_file_YCx88q
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_HKIV4s
+---
+title: "Pest Testing Guide - UI Module"
+type: guide
+tags: [pest, testing, guide]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "pest-testing-guide pest testing guide - ui module"
+<<<<<<< .merge_file_YCx88q
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+related:
+---
+
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
+---
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_HKIV4s
 # Pest Testing Guide - UI Module
 
 ## 🎯 Overview
@@ -329,7 +378,25 @@ Based on existing UI module tests:
 ## 🔗 Related Documentation
 
 ### **Module Documentation**
+<<<<<<< HEAD
+<<<<<<< .merge_file_YCx88q
 - [UI Module README](../readme.md)
+=======
+<<<<<<< HEAD
+- [UI Module README](../README.md)
+=======
+<<<<<<< HEAD
+- [UI Module README](../readme.md)
+=======
+- [UI Module README](../README.md)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [UI Module README](../README.md)
+=======
+- [UI Module README](../readme.md)
+>>>>>>> .merge_file_HKIV4s
+>>>>>>> laraxot/dev
 - [Component Architecture](../components.md)
 - [Theme System](../themes.md)
 

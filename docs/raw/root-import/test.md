@@ -8,6 +8,18 @@ qmd: "test test"
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< .merge_file_Rkgce1
+=======
+<<<<<<< .merge_file_Yzahgz
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> .merge_file_tPN8Uf
+>>>>>>> .merge_file_T7qBJm
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
@@ -17,6 +29,13 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_Rkgce1
+=======
+<<<<<<< .merge_file_Yzahgz
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_tPN8Uf
+>>>>>>> .merge_file_T7qBJm
 related:
   - "./api-1.md"
   - "./api.md"

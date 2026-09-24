@@ -9,6 +9,10 @@ use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Support\Facades\Auth;
 use Modules\UI\Actions\GetUserDataAction;
 use Modules\UI\Tests\TestCase;
+<<<<<<< .merge_file_mFSiky
+=======
+<<<<<<< .merge_file_76v5sc
+>>>>>>> .merge_file_0mGykw
 <<<<<<< HEAD
 use Modules\Xot\Contracts\UserContract;
 use PHPUnit\Framework\Assert;
@@ -20,6 +24,15 @@ use PHPUnit\Framework\Assert;
 use Spatie\Permission\Models\Permission;
 use Spatie\Permission\Models\Role;
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_mFSiky
+=======
+=======
+use Modules\User\Models\User;
+use PHPUnit\Framework\Assert;
+use Spatie\Permission\Models\Permission;
+use Spatie\Permission\Models\Role;
+>>>>>>> .merge_file_Z4B5Fc
+>>>>>>> .merge_file_0mGykw
 
 uses(TestCase::class);
 
@@ -31,6 +44,10 @@ uses(TestCase::class);
  * connessione. Non è una scorciatoia — è il modo di provare la logica dell'azione invece
  * della disponibilità del database.
  *
+<<<<<<< .merge_file_mFSiky
+=======
+<<<<<<< .merge_file_76v5sc
+>>>>>>> .merge_file_0mGykw
 <<<<<<< HEAD
  * @param  array<int, string>  $roles
  * @param  array<int, string>  $permissions
@@ -49,17 +66,41 @@ function uiAuthUser(array $roles = [], array $permissions = [], array $attribute
 =======
 
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_mFSiky
+=======
+=======
+ * @param array<int, string>   $roles
+ * @param array<int, string>   $permissions
+ * @param array<string, mixed> $attributes
+ */
+function uiAuthUser(array $roles = [], array $permissions = [], array $attributes = []): Authenticatable
+{
+    $user = new class extends User {
+        public ?object $profile = null;
+
+>>>>>>> .merge_file_Z4B5Fc
+>>>>>>> .merge_file_0mGykw
         public function relationLoaded(mixed $key): bool
         {
             if (! is_string($key)) {
                 return false;
             }
 
+<<<<<<< .merge_file_mFSiky
+=======
+<<<<<<< .merge_file_76v5sc
+>>>>>>> .merge_file_0mGykw
 <<<<<<< HEAD
             return $key === 'profile' && $this->profile !== null;
 =======
             return 'profile' === $key && null !== $this->profile;
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_mFSiky
+=======
+=======
+            return 'profile' === $key && null !== $this->profile;
+>>>>>>> .merge_file_Z4B5Fc
+>>>>>>> .merge_file_0mGykw
         }
     };
     $user->forceFill(array_merge([
@@ -69,20 +110,40 @@ function uiAuthUser(array $roles = [], array $permissions = [], array $attribute
     ], $attributes));
 
     $user->setRelation('roles', collect(array_map(
+<<<<<<< .merge_file_mFSiky
+=======
+<<<<<<< .merge_file_76v5sc
+>>>>>>> .merge_file_0mGykw
 <<<<<<< HEAD
         static fn (string $name): Role => tap(new Role)->forceFill(['name' => $name]),
 =======
         static fn (string $name): Role => tap(new Role())->forceFill(['name' => $name]),
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_mFSiky
+=======
+=======
+        static fn (string $name): Role => tap(new Role())->forceFill(['name' => $name]),
+>>>>>>> .merge_file_Z4B5Fc
+>>>>>>> .merge_file_0mGykw
         $roles,
     )));
 
     $user->setRelation('permissions', collect(array_map(
+<<<<<<< .merge_file_mFSiky
+=======
+<<<<<<< .merge_file_76v5sc
+>>>>>>> .merge_file_0mGykw
 <<<<<<< HEAD
         static fn (string $name): Permission => tap(new Permission)->forceFill(['name' => $name]),
 =======
         static fn (string $name): Permission => tap(new Permission())->forceFill(['name' => $name]),
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_mFSiky
+=======
+=======
+        static fn (string $name): Permission => tap(new Permission())->forceFill(['name' => $name]),
+>>>>>>> .merge_file_Z4B5Fc
+>>>>>>> .merge_file_0mGykw
         $permissions,
     )));
 

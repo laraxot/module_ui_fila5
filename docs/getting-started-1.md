@@ -84,6 +84,18 @@ npm run dev
 * [getting-started.md](../../../Tenant/docs/it/getting-started.md)
 * [getting-started.md](../../../Cms/docs/getting-started.md)
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+### Versione Incoming
+
+
+---
+
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Versione Incoming
 
 ---

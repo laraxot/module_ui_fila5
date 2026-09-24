@@ -8,6 +8,18 @@ qmd: "03-workstreams workstreams - ui"
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< .merge_file_5UzyiT
+=======
+<<<<<<< .merge_file_cIO98w
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> .merge_file_UKzKnB
+>>>>>>> .merge_file_UmI8tx
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
@@ -17,6 +29,13 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_5UzyiT
+=======
+<<<<<<< .merge_file_cIO98w
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_UKzKnB
+>>>>>>> .merge_file_UmI8tx
 related:
   - "./00-index-1.md"
   - "./00-index.md"

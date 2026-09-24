@@ -3,6 +3,35 @@ title: Installazione Filament
 description: Installazione Filament
 extends: _layouts.documentation
 section: content
+<<<<<<< HEAD
+<<<<<<< .merge_file_Y8nOIY
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ppNuZW
+related:
+  - "./automatic-translations.md"
+  - "./best-practices.md"
+  - "./component-icon-support.md"
+  - "./component-methods-compatibility.md"
+  - "./filament-4-components-guide.md"
+  - "./filament-4-migration-guide.md"
+  - "./filament-4-migration-summary.md"
+  - "./filament-4-migration-sumy.md"
+<<<<<<< .merge_file_Y8nOIY
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ppNuZW
 ---
 
 # Installazione Filament {#installazione-filament}

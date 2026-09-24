@@ -1,7 +1,6 @@
 <?php
 
 declare(strict_types=1);
-
 ?>
 @props(['material'])
 
@@ -50,7 +49,19 @@ declare(strict_types=1);
         @endif
         
         <div class="text-gray-700">
+<<<<<<< HEAD
             {!! $material->content !!}
+=======
+<<<<<<< HEAD
+            {!! $material->content !!}
+=======
+<<<<<<< HEAD
+            {!! strip_tags((string) $material->content, '<p><br><strong><em><ul><ol><li><h1><h2><h3><h4><a><img><blockquote><span>') !!}
+=======
+            {!! $material->content !!}
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         </div>
     </div>
     

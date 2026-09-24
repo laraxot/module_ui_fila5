@@ -1,3 +1,62 @@
+<<<<<<< HEAD
+<<<<<<< .merge_file_SgHAuN
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_p7Y1rN
+---
+title: "Task: Incremento Test Coverage (Pest) - UI"
+type: concept
+tags: [increase, test, coverage]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "increase-test-coverage task: incremento test coverage (pest) - ui"
+<<<<<<< .merge_file_SgHAuN
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> .merge_file_p7Y1rN
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+<<<<<<< .merge_file_SgHAuN
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_p7Y1rN
+related:
+  - "./001-design-system-components.md"
+  - "./cleanup-redundant-files.md"
+  - "./filament-v5-alignment.md"
+  - "./refactor-complex-components.md"
+  - "./tasks-index.md"
+  - "./ui-cleanup-docs.md"
+  - "./ui-filament-v5.md"
+---
+
+<<<<<<< .merge_file_SgHAuN
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_p7Y1rN
 # Task: Incremento Test Coverage (Pest) - UI
 
 **Modulo**: UI  

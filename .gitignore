@@ -1,3 +1,69 @@
+<<<<<<< HEAD
+<<<<<<< .merge_file_GGQcOB
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+# =============================================================================
+# LARAXOT MODULE: UI - .gitignore
+#
+# Canonical rules:
+# - docs/wiki/rules/root-cleanup-policy.md
+# - docs/wiki/rules/module-theme-root-cleanup.md
+
+
+# -----------------------------------------------------------------------------
+# Forbidden root directories / AI tooling
+/bashscripts/
+/_bmad/
+/_bmad-output/
+/_docs/
+/.circleci/
+/.claude-audit/
+/.devcontainer/
+/.kilocode/
+/.kiro/
+/.ralph/
+/scripts/
+/test-results/
+/workbench/
+/legacy/
+
+/.ai*
+tests/.claude-audit/
+tests/AuditCoverage/
+
+
+# Documentation cleanup
+docs/archive/
+docs/archived/
+docs/legacy/
+docs/workbench/
+docs/scripts/
+docs/bashscripts/
+
+docs/**/archive/
+docs/**/archived/
+docs/**/legacy/
+docs/**/workbench/
+docs/**/scripts/
+docs/**/bashscripts/
+
+docs/cache/
+docs/phpstan/
+
+# Numbered markdown duplicates
+docs/**/*-[0-9].md
+docs/**/*-[0-9][0-9].md
+docs/**/*_[0-9].md
+docs/**/*_[0-9][0-9].md
+
+
+# Dependencies
+=======
+>>>>>>> .merge_file_KsA8uT
 # ==============================================
 # LARAXOT MODULE UI - .GITIGNORE
 # ==============================================
@@ -9,6 +75,74 @@
 # ==============================================
 # DEPENDENCIES & PACKAGES
 # ==============================================
+<<<<<<< .merge_file_GGQcOB
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+# =============================================================================
+# LARAXOT MODULE: UI - .gitignore
+#
+# Canonical rules:
+# - docs/wiki/rules/root-cleanup-policy.md
+# - docs/wiki/rules/module-theme-root-cleanup.md
+
+
+# -----------------------------------------------------------------------------
+# Forbidden root directories / AI tooling
+/bashscripts/
+/_bmad/
+/_bmad-output/
+/_docs/
+/.circleci/
+/.claude-audit/
+/.devcontainer/
+/.kilocode/
+/.kiro/
+/.ralph/
+/scripts/
+/test-results/
+/workbench/
+/legacy/
+
+/.ai*
+tests/.claude-audit/
+tests/AuditCoverage/
+
+
+# Documentation cleanup
+docs/archive/
+docs/archived/
+docs/legacy/
+docs/workbench/
+docs/scripts/
+docs/bashscripts/
+
+docs/**/archive/
+docs/**/archived/
+docs/**/legacy/
+docs/**/workbench/
+docs/**/scripts/
+docs/**/bashscripts/
+
+docs/cache/
+docs/phpstan/
+
+# Numbered markdown duplicates
+docs/**/*-[0-9].md
+docs/**/*-[0-9][0-9].md
+docs/**/*_[0-9].md
+docs/**/*_[0-9][0-9].md
+
+
+# Dependencies
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_KsA8uT
+>>>>>>> laraxot/dev
 /vendor/
 /node_modules/
 /docs/vendor/
@@ -16,6 +150,37 @@
 composer.lock
 package-lock.json
 yarn.lock
+<<<<<<< HEAD
+<<<<<<< .merge_file_GGQcOB
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+
+
+# Python / virtual environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+
+# Build / compiled artifacts
+/build/
+/dist/
+
+cache/
+
+public/css/compiled/
+public/js/compiled/
+public/mix-manifest.json
+
+
+# Laravel runtime
+=======
+>>>>>>> .merge_file_KsA8uT
 yarn-error.log
 npm-debug.log
 
@@ -60,16 +225,92 @@ lerna-debug.log*
 # ==============================================
 # LARAVEL SPECIFIC
 # ==============================================
+<<<<<<< .merge_file_GGQcOB
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+
+
+# Python / virtual environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+
+# Build / compiled artifacts
+/build/
+/dist/
+
+cache/
+
+public/css/compiled/
+public/js/compiled/
+public/mix-manifest.json
+
+
+# Laravel runtime
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_KsA8uT
+>>>>>>> laraxot/dev
 /storage/*.key
 /public/storage
 /public/hot
 /public_html/storage
 /public_html/hot
 
+<<<<<<< HEAD
+<<<<<<< .merge_file_GGQcOB
+=======
+<<<<<<< HEAD
+
+# Environment / local configuration
+=======
+<<<<<<< HEAD
+=======
+
+# Environment / local configuration
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+# Environment / local configuration
+=======
+>>>>>>> .merge_file_KsA8uT
+>>>>>>> laraxot/dev
 .env
 .env.*
 !.env.example
 
+<<<<<<< HEAD
+<<<<<<< .merge_file_GGQcOB
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+config/local.php
+config/development.php
+
+Homestead.yaml
+Homestead.json
+
+
+# IDE / editor
+/.idea/
+/.vscode/
+/.cursor/
+/.windsurf/
+/.vagrant/
+
+=======
+>>>>>>> .merge_file_KsA8uT
 
 # ==============================================
 # ENVIRONMENT & IDE
@@ -78,10 +319,126 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 /.idea
+<<<<<<< .merge_file_GGQcOB
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+config/local.php
+config/development.php
+
+Homestead.yaml
+Homestead.json
+
+
+# IDE / editor
+/.idea/
+/.vscode/
+/.cursor/
+/.windsurf/
+/.vagrant/
+
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_KsA8uT
+>>>>>>> laraxot/dev
 .phpintel
 .phpstorm.meta.php
 
 
+<<<<<<< HEAD
+<<<<<<< .merge_file_GGQcOB
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+# Cache / temporary files
+.php-cs-fixer.cache
+.phpunit.result.cache
+
+*.cache
+*.lock
+*.tmp
+*.phar
+*.jar
+*.swp
+*.swo
+*.stackdump
+
+v8-compile-cache-*
+
+
+# Logs
+*.log
+error_log
+
+npm-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+
+# Git / merge / rebase leftovers
+.git-rewrite/
+.git-blame-ignore-revs
+
+.merge_file_*
+
+*.orig
+*.rej
+
+*~HEAD
+*~BASE
+*~LOCAL
+*~REMOTE
+*~head
+
+
+# Backup / old files
+*.old
+*.old1
+*.old2
+
+*.backup
+*.backup.*
+*.backup-*
+*.backup_*
+
+*.bak
+*.new
+
+
+# Legacy directories
+resources/views/Components_old/
+resources/lang/
+lang/lang/
+
+database_old/
+database/Migrations_old/
+database/Seeders_old/
+database/Factories_old/
+
+
+# UI module specific
+*.fila2
+
+*.psd
+*.fig
+*.sketch
+
+design_notes.txt
+
+/laravel/
+/public_html/
+
+
+# System files
+=======
+>>>>>>> .merge_file_KsA8uT
 # ==============================================
 # GIT SPECIFIC
 # ==============================================
@@ -92,11 +449,141 @@ Homestead.json
 # ==============================================
 # SYSTEM FILES
 # ==============================================
+<<<<<<< .merge_file_GGQcOB
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+# Cache / temporary files
+.php-cs-fixer.cache
+.phpunit.result.cache
+
+*.cache
+*.lock
+*.tmp
+*.phar
+*.jar
+*.swp
+*.swo
+*.stackdump
+
+v8-compile-cache-*
+
+
+# Logs
+*.log
+error_log
+
+npm-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+
+# Git / merge / rebase leftovers
+.git-rewrite/
+.git-blame-ignore-revs
+
+.merge_file_*
+
+*.orig
+*.rej
+
+*~HEAD
+*~BASE
+*~LOCAL
+*~REMOTE
+*~head
+
+
+# Backup / old files
+*.old
+*.old1
+*.old2
+
+*.backup
+*.backup.*
+*.backup-*
+*.backup_*
+
+*.bak
+*.new
+
+
+# Legacy directories
+resources/views/Components_old/
+resources/lang/
+lang/lang/
+
+database_old/
+database/Migrations_old/
+database/Seeders_old/
+database/Factories_old/
+
+
+# UI module specific
+*.fila2
+
+*.psd
+*.fig
+*.sketch
+
+design_notes.txt
+
+/laravel/
+/public_html/
+
+
+# System files
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_KsA8uT
+>>>>>>> laraxot/dev
 .DS_Store
 .DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
+<<<<<<< HEAD
+<<<<<<< .merge_file_GGQcOB
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+
+Thumbs.db
+ehthumbs.db
+
+*:Zone.Identifier
+
+agentdb.rvf
+
+
+# Root quality tools
+phpstan*
+phpmd*
+rector.php
+phpmd.ruleset.xml
+phpmd.ruleset.xml.bak
+graphify-out/
+docs/_archive
+
+phpinsights.php
+
+# Laraxot — forbidden at module/theme root (rector.php, phpinsights.php, .cursor, .windsurf, .vscode)
+/rector.php
+/phpinsights.php
+/.cursor
+/.windsurf
+/.vscode
+.cursor~*
+.windsurf~*
+=======
+>>>>>>> .merge_file_KsA8uT
 ehthumbs.db
 Thumbs.db
 
@@ -180,6 +667,26 @@ _docs/
 docs/legacy/
 docs/legacy/**
 
+<<<<<<< .merge_file_GGQcOB
+# Legacy PHPUnit (solo cartella maiuscola Tests/ — non confondere con Pest tests/)
+/Tests/
+
+# Pest + audit-coverage bridge (claude-audit legge .gitignore case-insensitive su WSL)
+!tests/
+!tests/**
+<<<<<<< HEAD
+!audit-coverage/
+!audit-coverage/**
+
+=======
+>>>>>>> laraxot/dev
+# claude-audit static — archived Tailwind UI kit blocks (not FO production)
+resources/views/components/blocks/pricing/archivied/
+resources/views/components/blocks/feature_sections/archivied/
+resources/views/components/blocks/blog/archivied/
+
+=======
+>>>>>>> .merge_file_KsA8uT
 # -----------------------------------------------------------------------------
 # Copie residue da merge/rebase o editor (mai committare — es. `.agent~HEAD`, `*.md~head`)
 # -----------------------------------------------------------------------------
@@ -192,6 +699,50 @@ docs/legacy/**
 *~head
 
 agentdb.rvf
+<<<<<<< .merge_file_GGQcOB
+<<<<<<< HEAD
+=======
+
+# claude-audit bridge — path audit-coverage/tests/ richiesto dal matcher static
+!audit-coverage/
+!audit-coverage/**
+=======
+>>>>>>> laraxot/dev
+
+Thumbs.db
+ehthumbs.db
+
+*:Zone.Identifier
+
+agentdb.rvf
+
+
+# Root quality tools
+phpstan*
+phpmd*
+rector.php
+phpmd.ruleset.xml
+phpmd.ruleset.xml.bak
+graphify-out
+docs/_archive
+
+phpinsights.php
+
+# Laraxot — forbidden at module/theme root (rector.php, phpinsights.php, .cursor, .windsurf, .vscode)
+/rector.php
+/phpinsights.php
+/.cursor
+/.windsurf
+/.vscode
+.cursor~*
+.windsurf~*
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 .vscode/
 .devcontainer/
 .vscode/
+>>>>>>> .merge_file_KsA8uT
+>>>>>>> laraxot/dev

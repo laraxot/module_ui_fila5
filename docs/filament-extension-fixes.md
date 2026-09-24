@@ -80,6 +80,40 @@ class S3Test extends XotBasePage
 
 ## Collegamenti
 - [Regole Estensione Filament](../../../.cursor/rules/filament-extension-rules.mdc)
+<<<<<<< HEAD
+<<<<<<< .merge_file_WZ4Uj1
 - [XotBasePage Implementation](../../xot/project_docs/xotbasepage_implementation.md)
 - [Filament Best Practices](../../../../docs/project/filament-best-practices.md)
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- [XotBasePage Implementation](../../xot/project_docs/xotbasepage_implementation.md)
+- [Filament Best Practices](../../../../docs/project/filament-best-practices.md)
+
+=======
+>>>>>>> laraxot/dev
+*Ultimo aggiornamento: 2025-01-06*
+- [XotBasePage Implementation](../../Xot/project_docs/xotbasepage_implementation.md)
+- [Filament Best Practices](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
+
+*Ultimo aggiornamento: 2025-01-06*
+*Ultimo aggiornamento: 2025-01-06*
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+*Ultimo aggiornamento: 2025-01-06*
+- [XotBasePage Implementation](../../Xot/project_docs/xotbasepage_implementation.md)
+- [Filament Best Practices](../../../project_docs/FILAMENT-BEST-PRACTICES.md)
+
+*Ultimo aggiornamento: 2025-01-06*
+*Ultimo aggiornamento: 2025-01-06*
+=======
+- [XotBasePage Implementation](../../xot/project_docs/xotbasepage_implementation.md)
+- [Filament Best Practices](../../../../docs/project/filament-best-practices.md)
+
+>>>>>>> .merge_file_BV7u58
+>>>>>>> laraxot/dev

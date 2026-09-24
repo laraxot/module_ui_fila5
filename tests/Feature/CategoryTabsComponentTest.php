@@ -9,9 +9,31 @@ use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
+<<<<<<< .merge_file_tgQFHv
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+/**
+ * @param  array<string, mixed>  $data
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+// Laraxot module file — see docs/wiki for domain contract.
+=======
+>>>>>>> .merge_file_ZwS1aL
 
 /**
  * @param array<string, mixed> $data
+<<<<<<< HEAD
+=======
+=======
+
+/**
+ * @param  array<string, mixed>  $data
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
  */
 function renderCategoryTabsHtml(array $data = []): ?string
 {
@@ -20,19 +42,66 @@ function renderCategoryTabsHtml(array $data = []): ?string
     }
 
     try {
+<<<<<<< .merge_file_tgQFHv
+<<<<<<< HEAD
         return View::make('pub_theme::components.blocks.navigation.category-tabs', $data)->render();
+=======
+<<<<<<< HEAD
+        /** @var view-string $viewName */
+        $viewName = 'pub_theme::components.blocks.navigation.category-tabs';
+        return View::make($viewName, $data)->render();
+=======
+<<<<<<< HEAD
+        return View::make('pub_theme::components.blocks.navigation.category-tabs', $data)->render();
+=======
+        /** @var view-string $viewName */
+        $viewName = 'pub_theme::components.blocks.navigation.category-tabs';
+        return View::make($viewName, $data)->render();
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+        /** @var view-string $viewName */
+        $viewName = 'pub_theme::components.blocks.navigation.category-tabs';
+
+        return View::make($viewName, $data)->render();
+>>>>>>> .merge_file_ZwS1aL
     } catch (\Throwable) {
         return null;
     }
 }
 
 /**
+<<<<<<< HEAD
  * @param array<string, mixed> $data
+=======
+<<<<<<< HEAD
+ * @param  array<string, mixed>  $data
+=======
+<<<<<<< HEAD
+ * @param array<string, mixed> $data
+=======
+ * @param  array<string, mixed>  $data
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
  */
 function requireCategoryTabsHtml(array $data = []): string
 {
     $html = renderCategoryTabsHtml($data);
+<<<<<<< HEAD
     if (null === $html) {
+=======
+<<<<<<< HEAD
+    if ($html === null) {
+=======
+<<<<<<< HEAD
+    if (null === $html) {
+=======
+    if ($html === null) {
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         Assert::markTestSkipped('pub_theme category-tabs view not available in this install.');
     }
 
