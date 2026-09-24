@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< .merge_file_4P7SSs
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_fCVKXi
 ---
 title: "OpeningHoursField Component"
 type: concept
@@ -15,25 +5,10 @@ tags: [opening, hours, field]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "opening-hours-field openinghoursfield component"
-<<<<<<< .merge_file_4P7SSs
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_fCVKXi
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -45,16 +20,6 @@ related:
   - "./full-calendar-1.md"
 ---
 
-<<<<<<< .merge_file_4P7SSs
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_fCVKXi
 # OpeningHoursField Component
 
 ## Introduzione

@@ -45,37 +45,9 @@ Tutti i file risolti rispettano:
 
 ## Collegamenti
 
-<<<<<<< HEAD
-<<<<<<< .merge_file_s4T8Rp
-- [Documentazione Root UI](../../../../docs/modules/ui.md)
-- [Components Documentation](./components.md)
-- [Design System Guidelines](../../../../docs/design-system.md)
-=======
-<<<<<<< HEAD
 - [Documentazione Root UI](../../../docs/modules/ui.md)
 - [Components Documentation](./components.md)
 - [Design System Guidelines](../../../docs/design-system.md)
-=======
-<<<<<<< HEAD
-- [Documentazione Root UI](../../../../docs/modules/ui.md)
-- [Components Documentation](./components.md)
-- [Design System Guidelines](../../../../docs/design-system.md)
-=======
-- [Documentazione Root UI](../../../docs/modules/ui.md)
-- [Components Documentation](./components.md)
-- [Design System Guidelines](../../../docs/design-system.md)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- [Documentazione Root UI](../../../docs/modules/ui.md)
-- [Components Documentation](./components.md)
-- [Design System Guidelines](../../../docs/design-system.md)
-=======
-- [Documentazione Root UI](../../../../docs/modules/ui.md)
-- [Components Documentation](./components.md)
-- [Design System Guidelines](../../../../docs/design-system.md)
->>>>>>> .merge_file_PWu1IH
->>>>>>> laraxot/dev
 
 ---
 *Aggiornato automaticamente dopo risoluzione conflitti Git*

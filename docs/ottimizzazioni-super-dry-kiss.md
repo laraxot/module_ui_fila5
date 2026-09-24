@@ -291,40 +291,10 @@ class ExampleComponent extends Component
 
 ## 🔗 Collegamenti
 
-<<<<<<< HEAD
-<<<<<<< .merge_file_KMqVnO
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
 - [Documentazione Core](../../../docs/core/)
 - [Best Practices Filament](../../../docs/core/filament-best-practices.md)
 - [Convenzioni Sistema](../../../docs/core/conventions.md)
 - [Template Modulo](../../../docs/templates/module-template.md)
-=======
->>>>>>> .merge_file_7ysxSq
-- [Documentazione Core](../../../../docs/core/)
-- [Best Practices Filament](../../../../docs/core/filament-best-practices.md)
-- [Convenzioni Sistema](../../../../docs/core/conventions.md)
-- [Template Modulo](../../../../docs/templates/module-template.md)
-<<<<<<< .merge_file_KMqVnO
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-- [Documentazione Core](../../../docs/core/)
-- [Best Practices Filament](../../../docs/core/filament-best-practices.md)
-- [Convenzioni Sistema](../../../docs/core/conventions.md)
-- [Template Modulo](../../../docs/templates/module-template.md)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_7ysxSq
->>>>>>> laraxot/dev
 
 ---
 

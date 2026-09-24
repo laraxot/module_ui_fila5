@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< .merge_file_PEujEY
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_MxfUu7
 ---
 title: "Gestione delle Traduzioni con LangServiceProvider"
 type: concept
@@ -15,28 +5,6 @@ tags: [lang, service, provider]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "lang-service-provider gestione delle traduzioni con langserviceprovider"
-<<<<<<< .merge_file_PEujEY
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-related:
----
-
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
@@ -44,9 +12,6 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 ---
 
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_MxfUu7
 # Gestione delle Traduzioni con LangServiceProvider
 
 ## Collegamenti Bidirezionali
@@ -174,22 +139,7 @@ return [
 
 // Modules/Patient/Filament/Resources/DoctorResource.php
 public static function getFormSchema(): array
-<<<<<<< HEAD
-<<<<<<< .merge_file_PEujEY
-=======
-<<<<<<< HEAD
 public function getFormSchema(): array
-=======
-<<<<<<< HEAD
-=======
-public function getFormSchema(): array
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-public function getFormSchema(): array
-=======
->>>>>>> .merge_file_MxfUu7
->>>>>>> laraxot/dev
 {
     return [
         Forms\Components\TextInput::make('first_name'),  // La label viene gestita automaticamente

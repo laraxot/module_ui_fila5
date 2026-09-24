@@ -1,12 +1,5 @@
 # Strategia Correzione Errori PHPStan - RadioBadge.php
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-**Data**: 2025-12-23
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 **File**: `app/Filament/Forms/Components/RadioBadge.php`
 **Errori**: 3
 

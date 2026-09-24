@@ -265,11 +265,3 @@ php artisan test --filter=Xot
 
 # Check for any new errors
 ./vendor/bin/phpstan analyse Modules
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-
-```
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev

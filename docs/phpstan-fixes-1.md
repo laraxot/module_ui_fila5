@@ -1,15 +1,4 @@
 # Correzioni PHPStan Livello 7 - Modulo UI
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
----
-module: theme
-topic: phpstan_fixes
-canonical: ../../../Themes/docs/shared-components/phpstan-fixes_1.md
-See canonical documentation: ../../../Themes/docs/shared-components/phpstan-fixes_1.md
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 
 Questo documento traccia gli errori PHPStan di livello 7 identificati nel modulo UI e le relative soluzioni implementate.
 

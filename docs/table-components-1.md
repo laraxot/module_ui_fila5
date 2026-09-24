@@ -7,15 +7,7 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 
 ### DataTable
 ```blade
-<<<<<<< HEAD
 <x-ui::datatable
-=======
-<<<<<<< HEAD
-<x-ui::datatable
-=======
-<x-ui::datatable 
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
     :columns="[
         ['name' => 'id', 'label' => 'ID', 'sortable' => true],
         ['name' => 'name', 'label' => 'Nome', 'sortable' => true],
@@ -33,15 +25,7 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 
 ### StatusBadge
 ```blade
-<<<<<<< HEAD
 <x-ui::status-badge
-=======
-<<<<<<< HEAD
-<x-ui::status-badge
-=======
-<x-ui::status-badge 
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
     :status="$user->status"
     :options="[
         'active' => ['label' => 'Attivo', 'color' => 'success'],
@@ -53,15 +37,7 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 
 ### ActionButtons
 ```blade
-<<<<<<< HEAD
 <x-ui::action-buttons
-=======
-<<<<<<< HEAD
-<x-ui::action-buttons
-=======
-<x-ui::action-buttons 
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
     :actions="[
         [
             'type' => 'view',
@@ -118,15 +94,7 @@ class UserTable extends Component
     public $sortDirection = 'asc';
     public $search = '';
     public $perPage = 10;
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
     public function sortBy($field)
     {
         if ($this->sortField === $field) {
@@ -136,15 +104,7 @@ class UserTable extends Component
             $this->sortDirection = 'asc';
         }
     }
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
     public function render()
     {
         $users = User::query()
@@ -154,15 +114,7 @@ class UserTable extends Component
             })
             ->orderBy($this->sortField, $this->sortDirection)
             ->paginate($this->perPage);
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-            
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
         return view('livewire.user-table', compact('users'));
     }
 }
