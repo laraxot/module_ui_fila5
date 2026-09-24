@@ -5,14 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit\Helpers;
 
 use Modules\Cms\Actions\ResolveLocalizedBlockDataAction;
-<<<<<<< HEAD
 use ReflectionClass;
-=======
-<<<<<<< HEAD
-use ReflectionClass;
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 
 /**
  * Helper condivisi per sweep coverage UI (evita redeclare tra file Pest).
@@ -21,18 +14,8 @@ final class UiCoverageMissHelpers
 {
     public static function prop(object $target, string $name): mixed
     {
-<<<<<<< HEAD
         $ref = new ReflectionClass($target);
         while ($ref !== false) {
-=======
-<<<<<<< HEAD
-        $ref = new ReflectionClass($target);
-        while ($ref !== false) {
-=======
-        $ref = new \ReflectionClass($target);
-        while (false !== $ref) {
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
             if ($ref->hasProperty($name)) {
                 $prop = $ref->getProperty($name);
                 $prop->setAccessible(true);
@@ -47,18 +30,8 @@ final class UiCoverageMissHelpers
 
     public static function set(object $target, string $name, mixed $value): void
     {
-<<<<<<< HEAD
         $ref = new ReflectionClass($target);
         while ($ref !== false) {
-=======
-<<<<<<< HEAD
-        $ref = new ReflectionClass($target);
-        while ($ref !== false) {
-=======
-        $ref = new \ReflectionClass($target);
-        while (false !== $ref) {
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
             if ($ref->hasProperty($name)) {
                 $prop = $ref->getProperty($name);
                 $prop->setAccessible(true);

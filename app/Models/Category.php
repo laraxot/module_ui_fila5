@@ -11,7 +11,8 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Models\BaseModel;
 
 /**
-<<<<<<< HEAD
+ * Category model for UI module.
+ *
  * @property int $id
  * @property string|null $name
  * @property string $title
@@ -21,52 +22,17 @@ use Modules\Xot\Models\BaseModel;
  * @property string|null $icon
  * @property bool $is_active
  * @property int $sort_order
- *
- * @method static \Modules\UI\Database\Factories\CategoryFactory factory($count = null, $state = [])
- * @method static Builder<static>|Category newModelQuery()
- * @method static Builder<static>|Category newQuery()
- * @method static Builder<static>|Category query()
- *
  * @property string|null $created_by
  * @property string|null $updated_by
+ * @property string|null $deleted_by
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
+ * @property Carbon|null $deleted_at
  * @property-read ProfileContract|null $creator
  * @property-read ProfileContract|null $deleter
  * @property-read ProfileContract|null $updater
  *
- * @method static Builder<static>|Category whereCreatedAt($value)
- * @method static Builder<static>|Category whereCreatedBy($value)
- * @method static Builder<static>|Category whereId($value)
- * @method static Builder<static>|Category whereParentId($value)
- * @method static Builder<static>|Category whereSlug($value)
- * @method static Builder<static>|Category whereUpdatedAt($value)
- * @method static Builder<static>|Category whereUpdatedBy($value)
- *
-=======
- * Category model for UI module.
- * FormBuilder module not available - extending from XotBaseModel instead.
- */
-/**
- * @property string               $id
- * @property string|null          $name
- * @property string               $title
- * @property string               $slug
- * @property int|null             $parent_id
- * @property Carbon|null          $created_at
- * @property Carbon|null          $updated_at
- * @property string|null          $description
- * @property string|null          $icon
- * @property string|null          $updated_by
- * @property string|null          $created_by
- * @property Carbon|null          $deleted_at
- * @property string|null          $deleted_by
- * @property int                  $is_active
- * @property int                  $sort_order
- * @property ProfileContract|null $creator
- * @property ProfileContract|null $updater
- *
- * @method static CategoryFactory          factory($count = null, $state = [])
+ * @method static CategoryFactory factory($count = null, $state = [])
  * @method static Builder<static>|Category newModelQuery()
  * @method static Builder<static>|Category newQuery()
  * @method static Builder<static>|Category query()
@@ -85,9 +51,6 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Category whereUpdatedAt($value)
  * @method static Builder<static>|Category whereUpdatedBy($value)
  *
- * @property ProfileContract|null $deleter
- *
->>>>>>> laraxot/dev
  * @mixin \Eloquent
  */
 class Category extends BaseModel
@@ -103,4 +66,16 @@ class Category extends BaseModel
         'is_active',
         'sort_order',
     ];
+
+    /**
+     * @return array<string, string>
+     */
+    #[\Override]
+    protected function casts(): array
+    {
+        return array_merge(parent::casts(), [
+            'is_active' => 'boolean',
+            'sort_order' => 'integer',
+        ]);
+    }
 }

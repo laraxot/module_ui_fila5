@@ -23,15 +23,11 @@ final class VideoSpatie
             ->schema([
                 Hidden::make('img_uuid')
                     ->default(Str::uuid()->toString(...))
-<<<<<<< HEAD
                     ->formatStateUsing(static function (mixed $state): string {
                         $value = $state ?? Str::uuid()->toString();
 
                         return \is_string($value) ? $value : Str::uuid()->toString();
                     })
-=======
-                    ->formatStateUsing(fn ($state) => $state ?? Str::uuid()->toString())
->>>>>>> laraxot/dev
                     ->live(),
                 // ->required(),
 
@@ -40,11 +36,7 @@ final class VideoSpatie
                     ->hiddenLabel()
                     // ->imagePreviewHeight('250')
                     // ->panelLayout('integrated')
-<<<<<<< HEAD
                     ->automaticallyResizeImagesMode('cover')
-=======
-                    ->imageResizeMode('cover')
->>>>>>> laraxot/dev
                     ->panelAspectRatio('2:1')
                     ->maxSize(502400)
                     ->disk('local')
@@ -53,13 +45,8 @@ final class VideoSpatie
                     ->previewable()
                     ->downloadable()
                     // ->rules(Rule::dimensions()->maxWidth(600)->maxHeight(800))
-<<<<<<< HEAD
                     ->collection(static fn (Get $get) => $get('img_uuid'))
                     ->afterStateUpdated(static function (
-=======
-                    ->collection(fn (Get $get) => $get('img_uuid'))
-                    ->afterStateUpdated(function (
->>>>>>> laraxot/dev
                         HasForms $_livewire,
                         SpatieMediaLibraryFileUpload $_component,
                         TemporaryUploadedFile $state,
@@ -69,17 +56,10 @@ final class VideoSpatie
                         // Call to an undefined method Filament\Forms\Contracts\HasForms::validateOnly().
                         // $livewire->validateOnly($component->getStatePath());
                         Assert::string(
-<<<<<<< HEAD
                             $collectionName = $get('img_uuid'),
                             '['.__LINE__.']['.class_basename(self::class).']',
                         );
                         $record->addMedia($state)->withResponsiveImages()->toMediaCollection($collectionName);
-=======
-                            $collection_name = $get('img_uuid'),
-                            '['.__LINE__.']['.class_basename(self::class).']',
-                        );
-                        $record->addMedia($state)->withResponsiveImages()->toMediaCollection($collection_name);
->>>>>>> laraxot/dev
                     }),
                 /*
                  * Select::make('ratio')
@@ -96,11 +76,7 @@ final class VideoSpatie
                 // ->customProperties(fn(Forms\Get $get) => ['gallery_id' => $get('gallery_id')]),
                 // Forms\Components\SpatieMediaLibraryFileUpload::make('media_id')
             ])
-<<<<<<< HEAD
             ->columns($context === 'form' ? 2 : 1);
-=======
-            ->columns('form' === $context ? 2 : 1);
->>>>>>> laraxot/dev
     }
 
     /**
