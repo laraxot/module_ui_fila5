@@ -123,29 +123,29 @@ class RadioCardSelector extends XotBaseField
     }
 
     /**
-<<<<<<< .merge_file_SO8J2m
-<<<<<<< HEAD
-     * @param array<mixed, mixed> $item
-=======
-=======
->>>>>>> .merge_file_Zu5Anh
+     * <<<<<<< .merge_file_SO8J2m
      * <<<<<<< HEAD.
      *
+     * @param array<mixed, mixed>     $item
+     *                                      =======
+     *                                      =======
+     *                                      >>>>>>> .merge_file_Zu5Anh
+     *                                      <<<<<<< HEAD.
      * @param array<array-key, mixed> $item
      *                                      =======
-<<<<<<< .merge_file_SO8J2m
+     *                                      <<<<<<< .merge_file_SO8J2m
      *                                      <<<<<<< HEAD
      * @param array<mixed, mixed>     $item
      *                                      =======
      * @param array<array-key, mixed> $item
      *                                      >>>>>>> laraxot/dev
      *                                      >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
+     *                                      >>>>>>> laraxot/dev
+     *                                      =======
      * @param array<mixed, mixed>     $item
      *
      * >>>>>>> laraxot/dev
->>>>>>> .merge_file_Zu5Anh
+     * >>>>>>> .merge_file_Zu5Anh
      *
      * @return array<string, mixed>
      */
