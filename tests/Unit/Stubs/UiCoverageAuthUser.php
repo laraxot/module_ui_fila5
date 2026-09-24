@@ -13,13 +13,14 @@ use Illuminate\Support\Collection;
 final class UiCoverageAuthUser extends AuthenticatableUser
 {
     public mixed $profile = null;
+
     public function relationLoaded($key): bool
     {
         if (! is_string($key)) {
             return false;
         }
 
-        return $key === 'profile' && $this->profile !== null;
+        return 'profile' === $key && null !== $this->profile;
     }
 
     /**
