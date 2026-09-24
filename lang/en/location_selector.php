@@ -2,37 +2,10 @@
 
 declare(strict_types=1);
 
-<<<<<<< .merge_file_qFWRdd
-=======
-<<<<<<< .merge_file_1tY46d
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_9reUB9
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_SPZWsH
->>>>>>> .merge_file_9EuRcg
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/en/location_selector.php
-<<<<<<< .merge_file_qFWRdd
-=======
-<<<<<<< .merge_file_1tY46d
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_gMbs1u
->>>>>>> .merge_file_SPZWsH
->>>>>>> .merge_file_9EuRcg
 return [
     'region' => [
         'label' => 'Region',
@@ -53,16 +26,6 @@ return [
         'region_required_for_province' => 'You must select a region before choosing the province',
         'region_province_required_for_cap' => 'You must select region and province before choosing the postal code',
     ],
-<<<<<<< .merge_file_qFWRdd
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_1tY46d
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_SPZWsH
->>>>>>> .merge_file_9EuRcg
     'navigation' => [
         'label' => 'Missing Navigation Label',
         'plural_label' => 'Missing Navigation Plural Label',
@@ -76,16 +39,4 @@ return [
     ],
     'actions' => [
     ],
-<<<<<<< .merge_file_qFWRdd
-=======
-<<<<<<< .merge_file_1tY46d
-=======
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_SPZWsH
->>>>>>> laraxot/dev
->>>>>>> .merge_file_9EuRcg
 ];

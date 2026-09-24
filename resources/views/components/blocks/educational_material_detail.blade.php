@@ -49,29 +49,7 @@ declare(strict_types=1);
         @endif
         
         <div class="text-gray-700">
-<<<<<<< .merge_file_QBDXyq
             {!! $material->content !!}
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_1Q0An8
-=======
-            {!! $material->content !!}
-=======
-<<<<<<< HEAD
-            {!! $material->content !!}
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_k0TqYe
-            {!! strip_tags((string) $material->content, '<p><br><strong><em><ul><ol><li><h1><h2><h3><h4><a><img><blockquote><span>') !!}
-=======
-            {!! $material->content !!}
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_1Q0An8
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_k0TqYe
->>>>>>> .merge_file_TSGBcV
         </div>
     </div>
     

@@ -2,40 +2,10 @@
 
 declare(strict_types=1);
 
-<<<<<<< .merge_file_n0yMpl
-=======
-<<<<<<< .merge_file_fb25QF
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_0ocd8o
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_iz03bU
->>>>>>> .merge_file_sKTqlC
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/en/corner-position.php
-<<<<<<< .merge_file_n0yMpl
-=======
-<<<<<<< .merge_file_fb25QF
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_G8iHrz
->>>>>>> .merge_file_iz03bU
->>>>>>> .merge_file_sKTqlC
 return [
     'top-left' => [
         'label' => 'alto a sinistra',
