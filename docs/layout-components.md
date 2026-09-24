@@ -142,16 +142,56 @@ $breakpoints: (
 ## 🔗 Collegamenti
 - [Componenti Base](./base-components.md)
 - [Performance](./standards/performance.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 - [Accessibilità](./standards/accessibility.md)
 # Componenti Layout
 
 ## 📐 Struttura Base
 
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+- [Accessibilità](./standards/accessibility.md) 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Accessibilità](./standards/accessibility.md) 
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Accessibilità](./standards/accessibility.md) 
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+- [Accessibilità](./standards/accessibility.md)
+# Componenti Layout
+## 📐 Struttura Base
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Container
 ```html
 <div class="container">
   <!-- Contenuto -->
 </div>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 
 <div class="container-fluid">
   <!-- Contenuto a larghezza piena -->
@@ -160,10 +200,32 @@ $breakpoints: (
 
 ### Grid System
 ```html
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+<div class="container-fluid">
+  <!-- Contenuto a larghezza piena -->
+```
+### Grid System
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <div class="row">
   <div class="col-md-6">
     <!-- Colonna 1 -->
   </div>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    <!-- Colonna 2 -->
+## 🎯 Layout Specifici
+### Header
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
   <div class="col-md-6">
     <!-- Colonna 2 -->
   </div>
@@ -174,16 +236,41 @@ $breakpoints: (
 
 ### Header
 ```html
+<<<<<<< HEAD
+=======
+=======
+    <!-- Colonna 2 -->
+## 🎯 Layout Specifici
+### Header
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <header class="header">
   <div class="header-brand">
     <img src="logo.png" alt="Logo">
     <h1>Nome Applicazione</h1>
+<<<<<<< HEAD
   </div>
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  </div>
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
   <nav class="header-nav">
     <!-- Menu -->
   </nav>
   <div class="header-actions">
     <!-- Azioni -->
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
   </div>
 </header>
 ```
@@ -194,6 +281,20 @@ $breakpoints: (
   <div class="sidebar-header">
     <h2>Menu</h2>
   </div>
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+</header>
+### Sidebar
+<aside class="sidebar">
+  <div class="sidebar-header">
+    <h2>Menu</h2>
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
   <nav class="sidebar-nav">
     <ul>
       <li class="active">
@@ -204,18 +305,40 @@ $breakpoints: (
       </li>
       <!-- Altri elementi menu -->
     </ul>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+</aside>
+### Footer
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
   </nav>
 </aside>
 ```
 
 ### Footer
 ```html
+<<<<<<< HEAD
+=======
+=======
+</aside>
+### Footer
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <footer class="footer">
   <div class="footer-content">
     <div class="footer-section">
       <h3>Contatti</h3>
       <!-- Contatti -->
     </div>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     <div class="footer-section">
       <h3>Link Utili</h3>
       <!-- Link -->
@@ -229,6 +352,21 @@ $breakpoints: (
 
 ## 📱 Responsive
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+      <h3>Link Utili</h3>
+      <!-- Link -->
+  <div class="footer-bottom">
+    <p>&copy; 2024 Nome Applicazione</p>
+</footer>
+## 📱 Responsive
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Breakpoints
 ```scss
 $breakpoints: (
@@ -239,10 +377,24 @@ $breakpoints: (
   'xl': 1200px,
   'xxl': 1400px
 );
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+### Media Queries
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ```
 
 ### Media Queries
 ```scss
+<<<<<<< HEAD
+=======
+=======
+### Media Queries
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 @mixin media-up($breakpoint) {
   @if map-has-key($breakpoints, $breakpoint) {
     @media (min-width: map-get($breakpoints, $breakpoint)) {
@@ -250,11 +402,27 @@ $breakpoints: (
     }
   }
 }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 // Utilizzo
 .element {
   @include media-up('md') {
     // Stili per schermi md e superiori
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
   }
 }
 ```
@@ -288,3 +456,48 @@ $breakpoints: (
 - [Componenti Base](./base-components.md)
 - [Performance](./standards/performance.md)
 - [Accessibilità](./standards/accessibility.md)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+## 🎨 Utility
+### Spacing
+<div class="m-3 p-3">Margine e padding</div>
+<div class="mt-2 mb-4">Margine top e bottom</div>
+<div class="px-4">Padding orizzontale</div>
+### Display
+<div class="d-flex">Flexbox</div>
+<div class="d-grid">Grid</div>
+<div class="d-none d-md-block">Nascosto su mobile</div>
+### Position
+<div class="position-relative">
+  <div class="position-absolute top-0 end-0">
+    <!-- Elemento posizionato -->
+## 🔗 Collegamenti
+- [Componenti Base](./base-components.md)
+- [Performance](./standards/performance.md)
+<<<<<<< HEAD
+
+```
+=======
+- [Accessibilità](./standards/accessibility.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [Accessibilità](./standards/accessibility.md) 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

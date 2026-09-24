@@ -1,3 +1,41 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+---
+title: "Integrazione dei Componenti Filament nei Blocchi"
+type: concept
+tags: [filament, component, integration]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "filament-component-integration integrazione dei componenti filament nei blocchi"
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+related:
+  - "./correct-filament-components.md"
+  - "./logo.md"
+  - "./navigation.md"
+  - "./user-dropdown.md"
+---
+
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Integrazione dei Componenti Filament nei Blocchi
 
 ## Introduzione

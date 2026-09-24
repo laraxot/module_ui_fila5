@@ -356,8 +356,28 @@ dd($this->layout->getTableContentGrid());
 
 - [UI Components](../components.md)
 - [Filament Tables](https://filamentphp.com/docs/3.x/tables/overview)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 - [Translation Standards](../../xot/docs/translation-standards.md)
 - [Enum Standards](../../../../docs/enum_standards.md)
 
 ## Ultimo Aggiornamento
 [DATE] - Documentazione completa TableLayoutEnum
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+- [Translation Standards](../../Xot/docs/translation-standards.md)
+- [Enum Standards](../../../docs/enum_standards.md)
+
+## Ultimo Aggiornamento
+2025-01-27 - Documentazione completa TableLayoutEnum
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

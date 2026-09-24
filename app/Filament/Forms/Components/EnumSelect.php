@@ -4,14 +4,45 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
+<<<<<<< HEAD
 use Filament\Forms\Components\Select;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasLabel;
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Filament\Forms\Components\Select;
+use Filament\Support\Contracts\HasIcon;
+use Filament\Support\Contracts\HasLabel;
+=======
+>>>>>>> laraxot/dev
+use Filament\Support\Contracts\HasIcon;
+use Filament\Support\Contracts\HasLabel;
+use InvalidArgumentException;
+use Modules\Xot\Filament\Forms\Components\XotBaseSelect;
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 /**
  * EnumSelect - Reusable component for PHP-backed enums in Filament v5.
  */
+<<<<<<< HEAD
 final class EnumSelect extends Select
+=======
+<<<<<<< HEAD
+final class EnumSelect extends XotBaseSelect
+=======
+<<<<<<< HEAD
+final class EnumSelect extends Select
+=======
+final class EnumSelect extends XotBaseSelect
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 {
     protected string|\Closure|null $enumClass = null;
 
@@ -199,11 +230,31 @@ final class EnumSelect extends Select
     protected function validateEnumClass(string $enumClass): void
     {
         if (! enum_exists($enumClass)) {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
             throw new \InvalidArgumentException("Enum class [{$enumClass}] does not exist.");
         }
 
         if (! is_subclass_of($enumClass, \BackedEnum::class)) {
             throw new \InvalidArgumentException("Enum class [{$enumClass}] must be a backed enum.");
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+            throw new InvalidArgumentException("Enum class [{$enumClass}] does not exist.");
+        }
+
+        if (! is_subclass_of($enumClass, \BackedEnum::class)) {
+            throw new InvalidArgumentException("Enum class [{$enumClass}] must be a backed enum.");
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         }
     }
 }

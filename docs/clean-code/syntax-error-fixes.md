@@ -1,3 +1,41 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+---
+title: "Correzioni Errori di Sintassi - Modulo UI"
+type: concept
+tags: [syntax, error, fixes]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "syntax-error-fixes correzioni errori di sintassi - modulo ui"
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+related:
+  - "./no-obvious-comments.md"
+  - "./wizard-schema-aration.md"
+  - "./wizard-schema-separation.md"
+  - "./wizard-steps.md"
+---
+
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Correzioni Errori di Sintassi - Modulo UI
 
 ## Problema Risolto: UiBasePolicy.php

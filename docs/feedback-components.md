@@ -109,11 +109,79 @@
 
 ### Tooltip
 ```html
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<button 
+  type="button" 
+  class="btn btn-secondary" 
+  data-bs-toggle="tooltip" 
+  data-bs-placement="top" 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <button
   type="button"
   class="btn btn-secondary"
   data-bs-toggle="tooltip"
   data-bs-placement="top"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
   title="Tooltip in alto"
 >
   Tooltip
@@ -122,11 +190,79 @@
 
 ### Popover
 ```html
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<button 
+  type="button" 
+  class="btn btn-secondary" 
+  data-bs-toggle="popover" 
+  data-bs-placement="right" 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <button
   type="button"
   class="btn btn-secondary"
   data-bs-toggle="popover"
   data-bs-placement="right"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
   data-bs-content="Contenuto del popover"
   title="Titolo Popover"
 >
@@ -139,12 +275,81 @@
 ### Progress Bar
 ```html
 <div class="progress">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+  <div 
+    class="progress-bar progress-bar-striped progress-bar-animated" 
+    role="progressbar" 
+    style="width: 75%" 
+    aria-valuenow="75" 
+    aria-valuemin="0" 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
   <div
     class="progress-bar progress-bar-striped progress-bar-animated"
     role="progressbar"
     style="width: 75%"
     aria-valuenow="75"
     aria-valuemin="0"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     aria-valuemax="100"
   >
     75%
@@ -206,11 +411,45 @@ $zindex-tooltip: 1070;
 - [Componenti Base](./base-components.md)
 - [Layout](./layout-components.md)
 - [Accessibilità](./standards/accessibility.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 - [Performance](./standards/performance.md)
 # Componenti Feedback e Notifiche
 
 ## 🚨 Alert e Notifiche
 
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+- [Performance](./standards/performance.md) 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Performance](./standards/performance.md) 
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Performance](./standards/performance.md) 
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+- [Performance](./standards/performance.md)
+# Componenti Feedback e Notifiche
+## 🚨 Alert e Notifiche
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Alert Base
 ```html
 <!-- Successo -->
@@ -218,23 +457,61 @@ $zindex-tooltip: 1070;
   <i class="fas fa-check-circle"></i>
   Operazione completata con successo
 </div>
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <!-- Errore -->
 <div class="alert alert-danger" role="alert">
   <i class="fas fa-exclamation-circle"></i>
   Si è verificato un errore
+<<<<<<< HEAD
 </div>
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+</div>
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <!-- Info -->
 <div class="alert alert-info" role="alert">
   <i class="fas fa-info-circle"></i>
   Informazione importante
+<<<<<<< HEAD
 </div>
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+</div>
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <!-- Warning -->
 <div class="alert alert-warning" role="alert">
   <i class="fas fa-exclamation-triangle"></i>
   Attenzione: azione richiesta
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 </div>
 ```
 
@@ -250,6 +527,22 @@ $zindex-tooltip: 1070;
 
 ### Toast
 ```html
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+```
+### Alert Dismissible
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Attenzione!</strong> Questa azione non può essere annullata.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Chiudi"></button>
+## 📢 Toast e Snackbar
+### Toast
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="toast-header">
     <strong class="me-auto">Notifica</strong>
@@ -258,16 +551,38 @@ $zindex-tooltip: 1070;
   </div>
   <div class="toast-body">
     Operazione completata con successo
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+### Snackbar
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
   </div>
 </div>
 ```
 
 ### Snackbar
 ```html
+<<<<<<< HEAD
+=======
+=======
+### Snackbar
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <div class="snackbar" role="alert" aria-live="polite">
   <div class="snackbar-content">
     <span class="snackbar-message">Modifiche salvate</span>
     <button class="snackbar-action">Annulla</button>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+## 🗨️ Modali e Dialoghi
+### Modal Base
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
   </div>
 </div>
 ```
@@ -276,6 +591,14 @@ $zindex-tooltip: 1070;
 
 ### Modal Base
 ```html
+<<<<<<< HEAD
+=======
+=======
+## 🗨️ Modali e Dialoghi
+### Modal Base
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <div class="modal" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -285,6 +608,12 @@ $zindex-tooltip: 1070;
       </div>
       <div class="modal-body">
         <p>Contenuto del modale</p>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
@@ -300,10 +629,31 @@ $zindex-tooltip: 1070;
 <div class="modal" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
+        <button type="button" class="btn btn-primary">Conferma</button>
+    </div>
+### Dialogo di Conferma
+  <div class="modal-dialog modal-dialog-centered" role="document">
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
       <div class="modal-body text-center">
         <i class="fas fa-question-circle fa-3x mb-3"></i>
         <h5 class="modal-title">Sei sicuro?</h5>
         <p>Questa azione non può essere annullata</p>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
       </div>
       <div class="modal-footer justify-content-center">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
@@ -318,6 +668,19 @@ $zindex-tooltip: 1070;
 
 ### Tooltip
 ```html
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+      <div class="modal-footer justify-content-center">
+        <button type="button" class="btn btn-danger">Elimina</button>
+## 💡 Tooltip e Popover
+### Tooltip
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <button
   type="button"
   class="btn btn-secondary"
@@ -327,6 +690,13 @@ $zindex-tooltip: 1070;
 >
   Tooltip
 </button>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+### Popover
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ```
 
 ### Popover
@@ -334,10 +704,26 @@ $zindex-tooltip: 1070;
 <button
   type="button"
   class="btn btn-secondary"
+<<<<<<< HEAD
+=======
+=======
+### Popover
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
   data-bs-toggle="popover"
   data-bs-placement="right"
   data-bs-content="Contenuto del popover"
   title="Titolo Popover"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  Popover
+## ⏳ Progress e Loading States
+### Progress Bar
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 >
   Popover
 </button>
@@ -347,6 +733,15 @@ $zindex-tooltip: 1070;
 
 ### Progress Bar
 ```html
+<<<<<<< HEAD
+=======
+=======
+  Popover
+## ⏳ Progress e Loading States
+### Progress Bar
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <div class="progress">
   <div
     class="progress-bar progress-bar-striped progress-bar-animated"
@@ -357,16 +752,37 @@ $zindex-tooltip: 1070;
     aria-valuemax="100"
   >
     75%
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+### Skeleton Loading
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
   </div>
 </div>
 ```
 
 ### Skeleton Loading
 ```html
+<<<<<<< HEAD
+=======
+=======
+### Skeleton Loading
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <div class="skeleton">
   <div class="skeleton-header"></div>
   <div class="skeleton-body">
     <div class="skeleton-line"></div>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+## 🎨 Stili e Comportamenti
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     <div class="skeleton-line"></div>
     <div class="skeleton-line"></div>
   </div>
@@ -375,6 +791,13 @@ $zindex-tooltip: 1070;
 
 ## 🎨 Stili e Comportamenti
 
+<<<<<<< HEAD
+=======
+=======
+## 🎨 Stili e Comportamenti
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Animazioni
 ```scss
 // Fade in/out
@@ -382,16 +805,40 @@ $zindex-tooltip: 1070;
   from { opacity: 0; }
   to { opacity: 1; }
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 
 @keyframes fadeOut {
   from { opacity: 1; }
   to { opacity: 0; }
 }
 
+<<<<<<< HEAD
+=======
+=======
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 // Slide in/out
 @keyframes slideIn {
   from { transform: translateY(100%); }
   to { transform: translateY(0); }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 }
 
 @keyframes slideOut {
@@ -402,6 +849,19 @@ $zindex-tooltip: 1070;
 
 ### Z-index
 ```scss
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+@keyframes slideOut {
+  from { transform: translateY(0); }
+  to { transform: translateY(100%); }
+### Z-index
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 $zindex-dropdown: 1000;
 $zindex-sticky: 1020;
 $zindex-fixed: 1030;
@@ -409,10 +869,54 @@ $zindex-modal-backdrop: 1040;
 $zindex-modal: 1050;
 $zindex-popover: 1060;
 $zindex-tooltip: 1070;
+<<<<<<< HEAD
 ```
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+```
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ## 🔗 Collegamenti
 - [Componenti Base](./base-components.md)
 - [Layout](./layout-components.md)
 - [Accessibilità](./standards/accessibility.md)
+<<<<<<< HEAD
 - [Performance](./standards/performance.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Performance](./standards/performance.md)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+
+```
+=======
+- [Performance](./standards/performance.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [Performance](./standards/performance.md) 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

@@ -5,8 +5,30 @@ type: concept
 created: "2026-04-29T00:00:00Z"
 updated: "2026-04-29T07:22:00Z"
 related:
+<<<<<<< HEAD
   - "[[Theme Integration]]"
   - "[[UI Architecture Sources]]"
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  - "[[Theme Integration]]"
+  - "[[UI Architecture Sources]]"
+=======
+>>>>>>> laraxot/dev
+  - "./auth-register-focus-loss-overlay.md"
+  - "./block-rendering-and-optional-services.md"
+  - "./claude-audit-static.md"
+  - "./code-redundancy-ui.md"
+  - "./context-overflow-prevention.md"
+  - "./enum-select-best-practices.md"
+  - "./enum-select-component.md"
+  - "./enum-select-contract-and-false-friends.md"
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ---
 
 # UI Operating Model
@@ -61,6 +83,21 @@ When a task concerns shared interface behavior:
 
 - [[UI Architecture Sources]]
 - `../../README.md`
+<<<<<<< HEAD
 - `../../ARCHITECTURE.md`
 - `../../PRODUCT_STRATEGY.md`
+=======
+<<<<<<< HEAD
+- `../../architecture-1.md`
+- `../../product-strategy-1.md`
+=======
+<<<<<<< HEAD
+- `../../ARCHITECTURE.md`
+- `../../PRODUCT_STRATEGY.md`
+=======
+- `../../architecture-1.md`
+- `../../product-strategy-1.md`
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - `../../architecture/structure.md`

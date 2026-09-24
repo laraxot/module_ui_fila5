@@ -20,4 +20,29 @@ enum TableLayout: string
             self::GRID => self::LIST,
         };
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+
+    /**
+     * @return array<string, string>
+     */
+    public static function toArray(): array
+    {
+        $result = [];
+        foreach (self::cases() as $case) {
+            $result[$case->value] = $case->name;
+        }
+
+        return $result;
+    }
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 }
