@@ -19,41 +19,8 @@ docs/
 ├── wiki/
 │   ├── index.md           # Catalogo
 │   ├── log.md             # Registro
-<<<<<<< .merge_file_b8UwsS
-│   ├── schema.md          # Questo file
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_9omppo
-=======
-<<<<<<< .merge_file_y6hco3
-=======
-<<<<<<< .merge_file_hFkCy0
-=======
-│   ├── schema.md          # Questo file
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_UvjOtE
->>>>>>> .merge_file_NqlCHx
->>>>>>> .merge_file_TG0MiA
 │   ├── SCHEMA.md          # Questo file
-<<<<<<< HEAD
 │   ├── schema.md          # Questo file
-=======
-=======
-│   ├── schema.md          # Questo file
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_9omppo
-=======
-<<<<<<< .merge_file_y6hco3
-=======
-<<<<<<< .merge_file_hFkCy0
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_UvjOtE
->>>>>>> .merge_file_NqlCHx
->>>>>>> .merge_file_TG0MiA
->>>>>>> .merge_file_FHuEt3
 │   ├── concepts/          # Pattern, architettura
 │   ├── entities/          # Modelli, azioni
 │   ├── sources/           # Doc esterna
@@ -67,7 +34,6 @@ docs/
 - Frontmatter: title, description, tags, created
 - Cross-ref: `[Link](../concepts/name.md)`
 - NON modificare mai `docs/raw/`
-
 
 ---
 

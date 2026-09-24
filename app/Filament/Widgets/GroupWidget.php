@@ -12,7 +12,7 @@ final class GroupWidget extends XotBaseSchemaWidget
     protected static ?string $heading = 'Group Widget';
 
     /**
-     * @return array<string, Component>
+     * @return array<int|string, Component>
      */
     public function getFormSchema(): array
     {
