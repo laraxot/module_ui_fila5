@@ -2,37 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< .merge_file_ltiyHq
-<<<<<<< HEAD
-<<<<<<< .merge_file_5hhCct
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/UI/docs/wiki — domain i18n only.
-// File: lang/it/collection_lang.php
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_6XQvyw
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_i7IdeM
 return [
     'model' => [
         'label' => 'Modello Collezione',
@@ -42,33 +11,7 @@ return [
     'navigation' => [
         'label' => 'Collezioni',
         'group' => 'UI',
-<<<<<<< .merge_file_ltiyHq
-<<<<<<< HEAD
-<<<<<<< .merge_file_5hhCct
-<<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
-=======
-<<<<<<< HEAD
-        'icon' => 'heroicon-o-rectangle-stack',
-=======
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
-        'icon' => 'heroicon-o-collection',
-=======
-        'icon' => 'heroicon-o-rectangle-stack',
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        'icon' => 'heroicon-o-rectangle-stack',
->>>>>>> .merge_file_6XQvyw
-=======
->>>>>>> 804451c (Lint)
-=======
-        'icon' => 'heroicon-o-collection',
->>>>>>> .merge_file_i7IdeM
         'sort' => 68,
     ],
     'fields' => [

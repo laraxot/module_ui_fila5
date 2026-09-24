@@ -8,34 +8,7 @@ use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
-<<<<<<< .merge_file_05DSkM
-<<<<<<< HEAD
-<<<<<<< .merge_file_a0oyY7
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
-use Filament\Schemas\Components\Utilities\Set;
-=======
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
-=======
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Components\Utilities\Set;
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Components\Utilities\Set;
->>>>>>> .merge_file_cYprF7
-=======
->>>>>>> 804451c (Lint)
-=======
-use Filament\Schemas\Components\Component;
->>>>>>> .merge_file_MLhqo0
 
 class Image
 {
@@ -47,101 +20,23 @@ class Image
                 TextInput::make('url'),
                 Select::make('ratio')
                     ->options(static::getRatios())
-<<<<<<< .merge_file_05DSkM
-<<<<<<< HEAD
-<<<<<<< .merge_file_a0oyY7
-<<<<<<< HEAD
                     ->afterStateHydrated(function (mixed $state, mixed $set): void {
                         if (! $state && is_callable($set)) {
-=======
-<<<<<<< HEAD
-                    ->afterStateHydrated(static function (?string $state, Set $set): void {
-                        if (! $state) {
-=======
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
-                    ->afterStateHydrated(function (mixed $state, mixed $set): void {
-                        if (! $state && is_callable($set)) {
-=======
-                    ->afterStateHydrated(static function (?string $state, Set $set): void {
-                        if (! $state) {
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-                    ->afterStateHydrated(static function (?string $state, Set $set): void {
-                        if (! $state) {
->>>>>>> .merge_file_cYprF7
-=======
->>>>>>> 804451c (Lint)
-=======
-                    ->afterStateHydrated(function (mixed $state, mixed $set): void {
-                        if (! $state && is_callable($set)) {
->>>>>>> .merge_file_MLhqo0
                             $set('ratio', '4-3');
                         }
                     }),
                 TextInput::make('alt')->columnSpanFull(),
                 TextInput::make('caption')->columnSpanFull(),
             ])
-<<<<<<< .merge_file_05DSkM
-<<<<<<< HEAD
-            ->columns('form' === $context ? 2 : 1);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
             ->columns($context === 'form' ? 2 : 1);
-=======
-<<<<<<< HEAD
-            ->columns('form' === $context ? 2 : 1);
-=======
-            ->columns($context === 'form' ? 2 : 1);
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-            ->columns($context === 'form' ? 2 : 1);
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-            ->columns($context === 'form' ? 2 : 1);
->>>>>>> .merge_file_MLhqo0
     }
 
     /**
      * @return array<string, string>
      */
-<<<<<<< .merge_file_05DSkM
-<<<<<<< HEAD
-<<<<<<< .merge_file_a0oyY7
-<<<<<<< HEAD
     /**
      * @return array<string, string>
      */
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
-    /**
-     * @return array<string, string>
-     */
-=======
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_cYprF7
-=======
->>>>>>> 804451c (Lint)
-=======
-    /**
-     * @return array<string, string>
-     */
->>>>>>> .merge_file_MLhqo0
     public static function getRatios(): array
     {
         return [
@@ -161,33 +56,7 @@ class Image
     }
 
     /**
-<<<<<<< .merge_file_05DSkM
-<<<<<<< HEAD
-<<<<<<< .merge_file_a0oyY7
-<<<<<<< HEAD
-     * @return array<int, \Filament\Schemas\Components\Component>
-=======
-<<<<<<< HEAD
      * @return array<int, Component>
-=======
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
-     * @return array<int, \Filament\Schemas\Components\Component>
-=======
-     * @return array<int, Component>
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-     * @return array<int, Component>
->>>>>>> .merge_file_cYprF7
-=======
->>>>>>> 804451c (Lint)
-=======
-     * @return array<int, Component>
->>>>>>> .merge_file_MLhqo0
      */
     public function getFormSchema(): array
     {

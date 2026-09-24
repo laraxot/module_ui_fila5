@@ -2,37 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< .merge_file_hzEOjV
-<<<<<<< HEAD
-<<<<<<< .merge_file_QjfDBC
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/UI/docs/wiki — domain i18n only.
-// File: lang/it/widgets.php
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_5bWvyw
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_JmiUgu
 return [
     'dark_mode_switcher' => [
         'toggle_aria_label' => 'Cambia tema',
@@ -51,33 +20,7 @@ return [
         ],
         'label' => 'Widgets',
         'sort' => 1,
-<<<<<<< .merge_file_hzEOjV
-<<<<<<< HEAD
-<<<<<<< .merge_file_QjfDBC
-<<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
-=======
-<<<<<<< HEAD
-        'icon' => 'heroicon-o-rectangle-stack',
-=======
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
-        'icon' => 'heroicon-o-collection',
-=======
-        'icon' => 'heroicon-o-rectangle-stack',
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        'icon' => 'heroicon-o-rectangle-stack',
->>>>>>> .merge_file_5bWvyw
-=======
->>>>>>> 804451c (Lint)
-=======
-        'icon' => 'heroicon-o-collection',
->>>>>>> .merge_file_JmiUgu
     ],
     'fields' => [
         'id' => [

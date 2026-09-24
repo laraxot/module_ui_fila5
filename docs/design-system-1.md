@@ -82,26 +82,6 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 
     Contenuto della card
 
-<<<<<<< .merge_file_00Il2m
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-    Contenuto della card
-
-=======
-=======
->>>>>>> 804451c (Lint)
-    
-    Contenuto della card
-    
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_2scN8w
     <x-slot name="footer">
         Footer della card
     </x-slot>

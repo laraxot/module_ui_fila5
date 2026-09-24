@@ -1,14 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< .merge_file_goLBEY
-<<<<<<< HEAD
-=======
 
->>>>>>> 804451c (Lint)
-=======
-
->>>>>>> .merge_file_YLlpzp
 ?>
 {{-- https://flowbite.com/docs/components/carousel/#default-slider --}}
 

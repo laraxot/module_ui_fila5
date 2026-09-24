@@ -196,44 +196,13 @@ TextInput::make('full_name')
 ## Collegamenti
 - [Form Components](form-components.md)
 - [Naming Conventions](naming-conventions.md)
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-- [Translation System](../../Lang/docs/translation-system.md)
-=======
->>>>>>> .merge_file_CaD30X
 - [Translation System](../../lang/docs/translation-system.md)
->>>>>>> laraxot/dev
-=======
-- [Translation System](../../lang/docs/translation-system.md)
->>>>>>> 804451c (Lint)
-=======
-- [Translation System](../../lang/docs/translation-system.md)
->>>>>>> .merge_file_zihvKB
 
 ## Vedi Anche
 - [VSCode PHP Setup](vscode-php-setup.md)
 - [Development Tools](development-tools.md)
 - [Filament Documentation](https://filamentphp.com/docs)
 # Plugin VSCode per Filament
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< HEAD
-## Overview
-Il plugin VSCode per Filament fornisce funzionalità avanzate per lo sviluppo di interfacce Filament, con snippet, autocompletamento e validazione in tempo reale.
-## Installazione
-=======
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_zihvKB
 
 ## Overview
 
@@ -241,153 +210,26 @@ Il plugin VSCode per Filament fornisce funzionalità avanzate per lo sviluppo di
 
 ## Installazione
 
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-- [Translation System](../../Lang/docs/translation-system.md)
-
-## Vedi Anche
-- [VSCode PHP Setup](vscode-php-setup.md)
-<<<<<<< HEAD
-- [Development Tools](development-tools.md)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Development Tools](development-tools.md)
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Development Tools](development-tools.md)
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-- [Development Tools](development-tools.md)
-- [Filament Documentation](https://filamentphp.com/docs)
-# Plugin VSCode per Filament
-## Overview
-Il plugin VSCode per Filament fornisce funzionalità avanzate per lo sviluppo di interfacce Filament, con snippet, autocompletamento e validazione in tempo reale.
-## Installazione
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_CaD30X
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_zihvKB
 1. Apri VSCode
 2. Vai al pannello Extensions (Ctrl+Shift+X)
 3. Cerca "Filament PHP"
 4. Installa il plugin di doonfrs
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
 
 ## Funzionalità Principali
 
-=======
-<<<<<<< HEAD
-## Funzionalità Principali
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-
-## Funzionalità Principali
-
-=======
-## Funzionalità Principali
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-## Funzionalità Principali
-=======
-
-## Funzionalità Principali
-
->>>>>>> .merge_file_CaD30X
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
-
-## Funzionalità Principali
-
->>>>>>> .merge_file_zihvKB
 ### 1. Snippet per Form Components
 ```php
 // Digita 'fil-text' e premi Tab
 TextInput::make('field_name')
     ->required()
     ->maxLength(255)
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_CaD30X
-=======
-
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-
->>>>>>> .merge_file_zihvKB
 // Digita 'fil-select' e premi Tab
 Select::make('status')
     ->options([
         'draft' => 'Draft',
         'published' => 'Published'
     ])
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-// Digita 'fil-date' e premi Tab
-DatePicker::make('published_at')
-    ->format('Y-m-d')
-```
-### 2. Snippet per Table Columns
-=======
->>>>>>> .merge_file_CaD30X
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_zihvKB
     ->required()
 
 // Digita 'fil-date' e premi Tab
@@ -398,57 +240,10 @@ DatePicker::make('published_at')
 
 ### 2. Snippet per Table Columns
 ```php
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-// Digita 'fil-date' e premi Tab
-DatePicker::make('published_at')
-    ->format('Y-m-d')
-```
-### 2. Snippet per Table Columns
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_CaD30X
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_zihvKB
 // Digita 'fil-col-text' e premi Tab
 TextColumn::make('title')
     ->searchable()
     ->sortable()
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-// Digita 'fil-col-bool' e premi Tab
-IconColumn::make('is_published')
-    ->boolean()
-### 3. Snippet per Actions
-=======
->>>>>>> .merge_file_CaD30X
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_zihvKB
 
 // Digita 'fil-col-bool' e premi Tab
 IconColumn::make('is_published')
@@ -458,59 +253,11 @@ IconColumn::make('is_published')
 
 ### 3. Snippet per Actions
 ```php
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-// Digita 'fil-col-bool' e premi Tab
-IconColumn::make('is_published')
-    ->boolean()
-### 3. Snippet per Actions
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_CaD30X
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_zihvKB
 // Digita 'fil-action' e premi Tab
 Action::make('approve')
     ->label('Approve')
     ->requiresConfirmation()
     ->action(fn () => $this->approve())
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-// Digita 'fil-bulk' e premi Tab
-BulkAction::make('delete')
-    ->label('Delete Selected')
-    ->action(fn (Collection $records) => $records->each->delete())
-## Best Practices
-### 1. Organizzazione Form
-=======
->>>>>>> .merge_file_CaD30X
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_zihvKB
 
 // Digita 'fil-bulk' e premi Tab
 BulkAction::make('delete')
@@ -523,119 +270,20 @@ BulkAction::make('delete')
 
 ### 1. Organizzazione Form
 ```php
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-// Digita 'fil-bulk' e premi Tab
-BulkAction::make('delete')
-    ->label('Delete Selected')
-    ->action(fn (Collection $records) => $records->each->delete())
-## Best Practices
-### 1. Organizzazione Form
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_CaD30X
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_zihvKB
 // Raggruppa campi correlati
 Section::make('Personal Information')
     ->schema([
         $this->getPersonalInfoFields(),    // ✅ Metodo separato
         $this->getContactFields(),         // ✅ Metodo separato
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
-=======
-<<<<<<< HEAD
-// Invece di
-Section::make('Personal Information')      // ❌ Troppi campi inline
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-// Invece di
-Section::make('Personal Information')      // ❌ Troppi campi inline
-=======
->>>>>>> .merge_file_CaD30X
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_zihvKB
     ])
 
 // Invece di
 Section::make('Personal Information')      // ❌ Troppi campi inline
     ->schema([
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
-=======
-// Invece di
-Section::make('Personal Information')      // ❌ Troppi campi inline
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_CaD30X
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_zihvKB
         TextInput::make('name'),
         TextInput::make('email'),
         TextInput::make('phone'),
         // ... altri 10 campi
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-### 2. Validazione
-// Usa i metodi di validazione suggeriti
-TextInput::make('email')
-    ->email()                // ✅ Validazione specifica
-    ->unique(ignoreRecord: true)
-TextInput::make('email')    // ❌ Validazione generica
-    ->rules(['email', 'required', 'unique:users,email'])
-### 3. Relazioni
-// Usa i metodi relationship suggeriti
-Select::make('category_id')
-    ->relationship('category', 'name')  // ✅ Metodo relationship
-    ->preload()
-Select::make('category_id')            // ❌ Query manuale
-    ->options(Category::pluck('name', 'id'))
-## Scorciatoie da Tastiera
-=======
->>>>>>> .merge_file_CaD30X
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_zihvKB
     ])
 ```
 
@@ -667,43 +315,6 @@ Select::make('category_id')            // ❌ Query manuale
 
 ## Scorciatoie da Tastiera
 
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-### 2. Validazione
-// Usa i metodi di validazione suggeriti
-TextInput::make('email')
-    ->email()                // ✅ Validazione specifica
-    ->unique(ignoreRecord: true)
-TextInput::make('email')    // ❌ Validazione generica
-    ->rules(['email', 'required', 'unique:users,email'])
-### 3. Relazioni
-// Usa i metodi relationship suggeriti
-Select::make('category_id')
-    ->relationship('category', 'name')  // ✅ Metodo relationship
-    ->preload()
-Select::make('category_id')            // ❌ Query manuale
-    ->options(Category::pluck('name', 'id'))
-## Scorciatoie da Tastiera
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_CaD30X
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_zihvKB
 | Scorciatoia | Descrizione |
 |-------------|-------------|
 | `fil-text→` | TextInput component |
@@ -715,70 +326,14 @@ Select::make('category_id')            // ❌ Query manuale
 | `fil-section→` | Form Section |
 | `fil-grid→` | Grid Layout |
 | `fil-card→` | Card Layout |
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
 
 ## Validazione in Tempo Reale
 
-=======
-<<<<<<< HEAD
-## Validazione in Tempo Reale
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-
-## Validazione in Tempo Reale
-
-=======
-## Validazione in Tempo Reale
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-## Validazione in Tempo Reale
-=======
-
-## Validazione in Tempo Reale
-
->>>>>>> .merge_file_CaD30X
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
-
-## Validazione in Tempo Reale
-
->>>>>>> .merge_file_zihvKB
 Il plugin fornisce:
 - Evidenziazione errori sintassi
 - Suggerimenti metodi disponibili
 - Validazione tipi di dati
 - Controllo namespace
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-## Integrazione con il Nostro Workflow
-### 1. Convenzioni di Naming
-// Il plugin suggerisce i nostri prefissi standard
-TextInput::make('full_name')    // ✅ Naming convention corretta
-TextInput::make('nome')         // ❌ Non segue convenzioni
-### 2. Struttura Form
-=======
->>>>>>> .merge_file_CaD30X
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_zihvKB
 
 ## Integrazione con il Nostro Workflow
 
@@ -794,126 +349,24 @@ TextInput::make('nome')         // ❌ Non segue convenzioni
 
 ### 2. Struttura Form
 ```php
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-## Integrazione con il Nostro Workflow
-### 1. Convenzioni di Naming
-// Il plugin suggerisce i nostri prefissi standard
-TextInput::make('full_name')    // ✅ Naming convention corretta
-TextInput::make('nome')         // ❌ Non segue convenzioni
-### 2. Struttura Form
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_CaD30X
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_zihvKB
 // Organizzazione suggerita per i nostri form
 Forms\Components\Wizard::make([
     $this->getPersonalInfoStep(),     // ✅ Metodi separati per step
     $this->getContactsStep(),
 ])
 ->skippable(false)
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
-=======
-<<<<<<< HEAD
-### 3. Traduzioni
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-### 3. Traduzioni
-=======
->>>>>>> .merge_file_CaD30X
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_zihvKB
 ```
 
 ### 3. Traduzioni
 ```php
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
-<<<<<<< HEAD
-=======
-=======
-### 3. Traduzioni
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_CaD30X
->>>>>>> laraxot/dev
-=======
-=======
-### 3. Traduzioni
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_zihvKB
 // Supporto per il nostro sistema di traduzioni
 TextInput::make('full_name')
     // Il plugin suggerisce l'uso di trans()
     ->placeholder(trans("$prefix.fields.full_name.placeholder"))
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
-=======
-<<<<<<< HEAD
-## Configurazione Raccomandata
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-## Configurazione Raccomandata
-=======
->>>>>>> .merge_file_CaD30X
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_zihvKB
 ```
 
 ## Configurazione Raccomandata
 
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
-<<<<<<< HEAD
-=======
-=======
-## Configurazione Raccomandata
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_CaD30X
->>>>>>> laraxot/dev
-=======
-=======
-## Configurazione Raccomandata
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_zihvKB
 ```json
 // .vscode/settings.json
 {
@@ -923,138 +376,26 @@ TextInput::make('full_name')
     "filamentphp.format.enabled": true,
     "editor.snippetSuggestions": "top"
 }
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
-=======
-<<<<<<< HEAD
-## Troubleshooting
-### Problemi Comuni
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-## Troubleshooting
-### Problemi Comuni
-=======
->>>>>>> .merge_file_CaD30X
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_zihvKB
 ```
 
 ## Troubleshooting
 
 ### Problemi Comuni
 
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
-=======
-## Troubleshooting
-### Problemi Comuni
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_CaD30X
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_zihvKB
 1. **Snippet non funzionano**
    - Verifica che il file sia riconosciuto come PHP
    - Controlla che i suggerimenti snippet siano abilitati
    - Riavvia VSCode
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_CaD30X
-=======
-
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-
->>>>>>> .merge_file_zihvKB
 2. **Validazione non funziona**
    - Verifica che intelephense sia installato
    - Controlla che il workspace sia trusted
    - Aggiorna il plugin
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_CaD30X
-=======
-
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-
->>>>>>> .merge_file_zihvKB
 3. **Autocompletamento lento**
    - Riduci la dimensione del workspace
    - Aumenta la memoria disponibile per VSCode
    - Disabilita temporaneamente altre estensioni
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-## Collegamenti
-- [Form Components](form-components.md)
-- [Naming Conventions](naming-conventions.md)
-- [Translation System](../../Lang/project_docs/translation-system.md)
-## Vedi Anche
-- [VSCode PHP Setup](vscode-php-setup.md)
-
-```
-=======
->>>>>>> .merge_file_CaD30X
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_zihvKB
 
 ## Collegamenti
 - [Form Components](form-components.md)
@@ -1065,78 +406,7 @@ TextInput::make('full_name')
 
 ## Vedi Anche
 - [VSCode PHP Setup](vscode-php-setup.md)
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-## Collegamenti
-- [Form Components](form-components.md)
-- [Naming Conventions](naming-conventions.md)
-- [Translation System](../../Lang/project_docs/translation-system.md)
-## Vedi Anche
-- [VSCode PHP Setup](vscode-php-setup.md)
-<<<<<<< HEAD
-
-```
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_zihvKB
 - [Development Tools](development-tools.md)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Filament Documentation](https://filamentphp.com/docs)
-<<<<<<< .merge_file_34W6NA
-<<<<<<< HEAD
-<<<<<<< .merge_file_rRaqcH
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- [Development Tools](development-tools.md)
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_CaD30X
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_zihvKB

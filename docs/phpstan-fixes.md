@@ -54,16 +54,6 @@ if (isset($record->attribute)) {
 ---
 
 ## ✅ Checklist di Verifica
-<<<<<<< .merge_file_o0fsxA
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_M6JKT0
 - [x] PHPStan Level 10 (0 errori)
 - [x] PHPMD (Complexity < 10)
 - [x] PHP Insights (Quality > 94%)
@@ -95,31 +85,3 @@ if (isset($record->attribute)) {
 ## Verification
 - UI module is compliant with current PHPStan configuration.
 - PHPInsights quality >94% across all metrics.
-<<<<<<< .merge_file_o0fsxA
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
-=======
-- [x] PHPStan Level 10 (Analisi Modulo: OK)
-- [ ] PHPMD (Complexity < 10)
-- [ ] PHP Insights (Quality > 80%)
-- [ ] Pint formatting (`--dirty`)
-- [ ] Zero TODO/Codice commentato
-# PHPStan Status: Modules/UI
-
-## Analysis
-- **Date**: 2025-12-24
-- **Total Errors**: 0
-- **Status**: Passed
-
-## Verification
-- UI module is compliant with current PHPStan configuration.
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_M6JKT0

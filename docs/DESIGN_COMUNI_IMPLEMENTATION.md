@@ -127,59 +127,7 @@ All Bootstrap Italia classes are mapped to Tailwind via @apply:
 Pages are configured via JSON files:
 
 **Location**: `config/local/fixcity/database/content/pages/`
-<<<<<<< .merge_file_8Wyv8q
-=======
-<<<<<<< HEAD
-**Location**: `config/local/fixcity/database/content/pages/`
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-**Location**: `config/local/fixcity/database/content/pages/`
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
-**Location**: `config/local/<nome progetto>/database/content/pages/`
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-**Location**: `config/local/current/database/content/pages/`
-=======
-**Location**: `config/local/<nome progetto>/database/content/pages/`
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
 
-**Location**: `config/local/<nome progetto>/database/content/pages/`
-**Location**: `config/local/current/database/content/pages/`
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-
-<<<<<<< HEAD
-**Location**: `config/local/<nome progetto>/database/content/pages/`
-**Location**: `config/local/current/database/content/pages/`
-
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
-
->>>>>>> 804451c (Lint)
-=======
-
->>>>>>> .merge_file_BKZLSu
 **Example**: `tests.homepage.json`
 
 ```json

@@ -22,33 +22,7 @@ final class ImagesGallery
                             // ->image()
                             // ->maxSize(5000)
                             ->multiple()
-<<<<<<< .merge_file_wqE0Rv
-<<<<<<< HEAD
-<<<<<<< .merge_file_gFx5sY
-<<<<<<< HEAD
-                            ->enableReordering()
-=======
-<<<<<<< HEAD
                             ->reorderable()
-=======
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
-                            ->enableReordering()
-=======
-                            ->reorderable()
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-                            ->reorderable()
->>>>>>> .merge_file_EBBQM2
-=======
->>>>>>> 804451c (Lint)
-=======
-                            ->reorderable()
->>>>>>> .merge_file_ck5yDP
                             ->openable()
                             ->downloadable()
                             ->columnSpanFull()
@@ -72,33 +46,7 @@ final class ImagesGallery
                 //         // ->image()
                 //         // ->maxSize(5000)
                 //     ->multiple()
-<<<<<<< .merge_file_wqE0Rv
-<<<<<<< HEAD
-<<<<<<< .merge_file_gFx5sY
-<<<<<<< HEAD
                 //     ->enableReordering()
-=======
-<<<<<<< HEAD
-                //     ->reorderable()
-=======
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
-                //     ->enableReordering()
-=======
-                //     ->reorderable()
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-                //     ->reorderable()
->>>>>>> .merge_file_EBBQM2
-=======
->>>>>>> 804451c (Lint)
-=======
-                //     ->enableReordering()
->>>>>>> .merge_file_ck5yDP
                 //     ->openable()
                 //     ->downloadable()
                 //     ->columnSpanFull()
@@ -116,27 +64,7 @@ final class ImagesGallery
                 // TextInput::make('caption')
                 //     ->columnSpanFull(),
             ])
-<<<<<<< .merge_file_wqE0Rv
-<<<<<<< HEAD
-            ->columns('form' === $context ? 2 : 1);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
             ->columns($context === 'form' ? 2 : 1);
-=======
-<<<<<<< HEAD
-            ->columns('form' === $context ? 2 : 1);
-=======
-            ->columns($context === 'form' ? 2 : 1);
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-            ->columns($context === 'form' ? 2 : 1);
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-            ->columns($context === 'form' ? 2 : 1);
->>>>>>> .merge_file_ck5yDP
     }
 
     /**

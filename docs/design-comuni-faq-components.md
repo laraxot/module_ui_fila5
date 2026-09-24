@@ -361,63 +361,6 @@ pub_theme:: → Themes/Sixteen/resources/views/
 ```
 
 Configurato in `config/local/fixcity/xra.php`:
-<<<<<<< .merge_file_uYmh9E
-<<<<<<< HEAD
-<<<<<<< .merge_file_KBJ8SL
-=======
->>>>>>> 804451c (Lint)
-=======
-<<<<<<< HEAD
-Configurato in `config/local/fixcity/xra.php`:
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-Configurato in `config/local/fixcity/xra.php`:
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_xzsWx4
-<<<<<<< HEAD
-Configurato in `config/local/<nome progetto>/xra.php`:
-Configurato in `config/local/current/xra.php`:
-=======
-<<<<<<< .merge_file_KBJ8SL
-=======
-Configurato in `config/local/<nome progetto>/xra.php`:
-Configurato in `config/local/current/xra.php`:
-=======
->>>>>>> 804451c (Lint)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-Configurato in `config/local/<nome progetto>/xra.php`:
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-Configurato in `config/local/current/xra.php`:
-=======
-Configurato in `config/local/<nome progetto>/xra.php`:
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_xzsWx4
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_I3ZsM3
 ```php
 'pub_theme' => 'Sixteen',
 ```

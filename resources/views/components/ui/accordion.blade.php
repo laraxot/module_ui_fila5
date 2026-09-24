@@ -1,13 +1,3 @@
-<<<<<<< .merge_file_rhoYoB
-<<<<<<< HEAD
-<?php
-
-declare(strict_types=1);
-?>
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_OUiXrK
 @props([
     'items' => [],
     'allowMultiple' => false,

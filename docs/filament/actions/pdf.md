@@ -3,34 +3,6 @@ title: Filament Action PDF
 description: Azioni Filament per creare PDF
 extends: _layouts.documentation
 section: content
-<<<<<<< .merge_file_lgduWL
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_QdamCF
-=======
-<<<<<<< HEAD
-related:
-  - "./attach.md"
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-=======
-related:
-  - "./attach.md"
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-related:
-  - "./attach.md"
-=======
->>>>>>> .merge_file_5EjmjC
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_5jOilT
 ---
 
 # Metodo 1

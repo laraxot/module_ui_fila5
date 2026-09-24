@@ -229,52 +229,6 @@ php artisan view:clear
 
 # Test in browser
 # http://fixcity.local/it/tests/homepage
-<<<<<<< .merge_file_aJ3ChQ
-=======
-<<<<<<< HEAD
-# http://fixcity.local/it/tests/homepage
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-# http://fixcity.local/it/tests/homepage
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-
-# http://<nome progetto>.local/it/tests/homepage
-# http://app.local/it/tests/homepage
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-# http://<nome progetto>.local/it/tests/homepage
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-# http://app.local/it/tests/homepage
-=======
-# http://<nome progetto>.local/it/tests/homepage
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_Bi8iNy
 ```
 
 ### Verify SVG Files

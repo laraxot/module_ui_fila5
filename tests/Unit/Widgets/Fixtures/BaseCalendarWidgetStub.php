@@ -13,23 +13,8 @@ use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 abstract class BaseCalendarWidgetStub extends XotBaseSchemaWidget
 {
     /**
-<<<<<<< .merge_file_Jmd9KD
-<<<<<<< HEAD
-     * <<<<<<< HEAD.
-     *
-     * @param array<string, mixed> $fetchInfo
-     *                                        =======
      * @param array<string, mixed> $fetchInfo
      *
-     * >>>>>>> laraxot/dev
-=======
-     * @param array<string, mixed> $fetchInfo
->>>>>>> 804451c (Lint)
-     *
-=======
-     * @param array<string, mixed> $fetchInfo
-     *
->>>>>>> .merge_file_kkJjqz
      * @return array<int, array<string, mixed>>
      */
     abstract public function fetchEvents(array $fetchInfo): array;

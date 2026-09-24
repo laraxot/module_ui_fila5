@@ -2,37 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< .merge_file_Pi3nKE
-<<<<<<< HEAD
-<<<<<<< .merge_file_yHBE0U
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/UI/docs/wiki — domain i18n only.
-// File: lang/it/fallback.php
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_dNZOIZ
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_H0518y
 return [
     'label' => 'Fallback',
     'plural_label' => 'Fallback (Plurale)',
@@ -45,33 +14,7 @@ return [
         ],
         'label' => 'Fallback',
         'sort' => 1,
-<<<<<<< .merge_file_Pi3nKE
-<<<<<<< HEAD
-<<<<<<< .merge_file_yHBE0U
-<<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
-=======
-<<<<<<< HEAD
-        'icon' => 'heroicon-o-rectangle-stack',
-=======
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
-        'icon' => 'heroicon-o-collection',
-=======
-        'icon' => 'heroicon-o-rectangle-stack',
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        'icon' => 'heroicon-o-rectangle-stack',
->>>>>>> .merge_file_dNZOIZ
-=======
->>>>>>> 804451c (Lint)
-=======
-        'icon' => 'heroicon-o-collection',
->>>>>>> .merge_file_H0518y
     ],
     'fields' => [
         'id' => [

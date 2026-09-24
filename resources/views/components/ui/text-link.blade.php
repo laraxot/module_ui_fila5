@@ -1,14 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< .merge_file_rYsBhZ
-<<<<<<< HEAD
-=======
 
->>>>>>> 804451c (Lint)
-=======
-
->>>>>>> .merge_file_lzI5Hj
 ?>
 <x-ui.link
     {{ $attributes->except('wire:navigate') }}

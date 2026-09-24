@@ -2,37 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< .merge_file_LytUOI
-<<<<<<< HEAD
-<<<<<<< .merge_file_6VQINw
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/UI/docs/wiki — domain i18n only.
-// File: lang/it/notifications.php
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_3urFsF
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_MA5wyG
 return [
     'state_transition' => [
         'success' => [
@@ -55,33 +24,7 @@ return [
         ],
         'label' => 'Notifications',
         'sort' => 1,
-<<<<<<< .merge_file_LytUOI
-<<<<<<< HEAD
-<<<<<<< .merge_file_6VQINw
-<<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
-=======
-<<<<<<< HEAD
-        'icon' => 'heroicon-o-rectangle-stack',
-=======
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
-        'icon' => 'heroicon-o-collection',
-=======
-        'icon' => 'heroicon-o-rectangle-stack',
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        'icon' => 'heroicon-o-rectangle-stack',
->>>>>>> .merge_file_3urFsF
-=======
->>>>>>> 804451c (Lint)
-=======
-        'icon' => 'heroicon-o-collection',
->>>>>>> .merge_file_MA5wyG
     ],
     'fields' => [
         'id' => [

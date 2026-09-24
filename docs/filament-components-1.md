@@ -56,21 +56,6 @@
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
 4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
-<<<<<<< .merge_file_kWFFQu
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
-=======
-4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti 
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti 
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_7WPglp
 ## Collegamenti tra versioni di filament-components.md
 * [filament-components.md](../../User/docs/best-practices/filament-components.md)
 * [filament-components.md](../../Cms/docs/best-practices/filament-components.md)

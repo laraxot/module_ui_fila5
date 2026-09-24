@@ -11,28 +11,10 @@ use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
 {
-<<<<<<< .merge_file_O2YyQK
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_OXHRTo
     public ?array $data = [];
 
     public bool $darkMode = false;
 
-<<<<<<< .merge_file_O2YyQK
-    /** @phpstan-var view-string */
-    /** @phpstan-ignore property.defaultValue */
-=======
-=======
-    public ?array $data = [];
->>>>>>> laraxot/dev
-
-    public bool $darkMode = false;
-
->>>>>>> 804451c (Lint)
-    protected string $view = 'ui::filament.widgets.dark-mode-switcher';
-=======
     /** @var view-string */
     protected string $view;
 
@@ -44,7 +26,6 @@ final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
 
         parent::__construct();
     }
->>>>>>> .merge_file_OXHRTo
 
     public function mount(): void
     {
@@ -72,44 +53,6 @@ final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
         return [];
     }
 
-<<<<<<< .merge_file_O2YyQK
-<<<<<<< HEAD
-<<<<<<< .merge_file_XHDFt3
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_4zuboB
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-    /**
-     * Disabilitabile via config per temi/test (default: visibile).
-     */
-    public static function canView(): bool
-    {
-        return (bool) config('ui.dark_mode_switcher.enabled', true);
-    }
-
-<<<<<<< HEAD
-<<<<<<< .merge_file_XHDFt3
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_4zuboB
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_OXHRTo
     public function render(): View
     {
         return view($this->view, [

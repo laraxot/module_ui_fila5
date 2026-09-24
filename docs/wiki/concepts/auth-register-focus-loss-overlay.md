@@ -4,46 +4,6 @@ type: concept
 tags: [ui, auth, register, focus, overlay, alpine]
 created: 2026-05-21
 updated: 2026-05-21
-<<<<<<< .merge_file_KzJfeM
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_deacIi
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_uW2YWC
-=======
-=======
->>>>>>> 804451c (Lint)
-related:
-  - "./block-rendering-and-optional-services.md"
-  - "./claude-audit-static.md"
-  - "./code-redundancy-ui.md"
-  - "./context-overflow-prevention.md"
-  - "./enum-select-best-practices.md"
-  - "./enum-select-component.md"
-  - "./enum-select-contract-and-false-friends.md"
-  - "./enum-select-usage.md"
-<<<<<<< HEAD
-<<<<<<< .merge_file_deacIi
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_uW2YWC
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_gZJHG8
 ---
 
 # Problema

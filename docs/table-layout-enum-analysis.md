@@ -1,34 +1,6 @@
 # Analisi Completa TableLayoutEnum
 
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
 ## Data: [DATE]
-=======
-<<<<<<< HEAD
-## Data: 2025-01-06
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-## Data: [DATE]
-=======
-## Data: 2025-01-06
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-## Data: 2025-01-06
-=======
-## Data: [DATE]
->>>>>>> .merge_file_cHSnL6
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
-## Data: [DATE]
->>>>>>> .merge_file_VMng6d
 
 ## Panoramica
 
@@ -48,64 +20,7 @@ Il `TableLayoutEnum` è un enum PHP che gestisce i layout delle tabelle nei comp
 class ListUsers extends ListRecords
 {
     protected TableLayoutEnum $layout = TableLayoutEnum::LIST;
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-=======
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_cHSnL6
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-
->>>>>>> .merge_file_VMng6d
     public function table(Table $table): Table
     {
         return $table
@@ -287,126 +202,12 @@ return [
 class ListUsers extends ListRecords
 {
     protected TableLayoutEnum $layout;
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-=======
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_cHSnL6
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-
->>>>>>> .merge_file_VMng6d
     public function mount(): void
     {
         $this->layout = TableLayoutEnum::init();
     }
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-=======
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_cHSnL6
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-
->>>>>>> .merge_file_VMng6d
     protected function getHeaderActions(): array
     {
         return [
@@ -443,128 +244,14 @@ protected function getColumnsForLayout(): array
         Tables\Columns\TextColumn::make('email')->searchable(),
         Tables\Columns\TextColumn::make('created_at')->dateTime(),
     ];
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-=======
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_cHSnL6
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-
->>>>>>> .merge_file_VMng6d
     $gridColumns = [
         Tables\Columns\Layout\Stack::make([
             Tables\Columns\TextColumn::make('name')->weight(FontWeight::Bold),
             Tables\Columns\TextColumn::make('email'),
         ]),
     ];
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-=======
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_cHSnL6
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-
->>>>>>> .merge_file_VMng6d
     return $this->layout->getTableColumns($listColumns, $gridColumns);
 }
 ```
@@ -607,64 +294,7 @@ class TableLayoutEnumTest extends TestCase
     {
         $this->assertEquals(TableLayoutEnum::LIST, TableLayoutEnum::init());
     }
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-=======
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_cHSnL6
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-
->>>>>>> .merge_file_VMng6d
     public function test_toggle_switches_layout(): void
     {
         $layout = TableLayoutEnum::LIST;
@@ -700,31 +330,6 @@ class TableLayoutEnumTest extends TestCase
 
 - [Usage Guide](table-layout-enum-usage.md)
 - [Conflict Resolution](conflict-resolution-tablelayoutenum.md)
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-- [Translation Standards](../../../docs/translation_standards.md)
-- [Filament Best Practices](../../../docs/filament_best_practices.md)
-
-*Ultimo aggiornamento: 2025-01-06*
-# Analisi Completa TableLayoutEnum
-## Data: 2025-01-06
-## Panoramica
-Il `TableLayoutEnum` è un enum PHP che gestisce i layout delle tabelle nei componenti Filament UI. Fornisce un sistema standardizzato per alternare tra visualizzazioni a lista e griglia con configurazioni responsive appropriate.
-## Scopo e Funzionalità
-=======
->>>>>>> .merge_file_cHSnL6
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_VMng6d
 - [Translation Standards](../../../../docs/translation_standards.md)
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
 
@@ -738,114 +343,19 @@ Il `TableLayoutEnum` è un enum PHP che gestisce i layout delle tabelle nei comp
 
 ## Scopo e Funzionalità
 
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-- [Translation Standards](../../../docs/translation_standards.md)
-- [Filament Best Practices](../../../docs/filament_best_practices.md)
-
-<<<<<<< HEAD
-*Ultimo aggiornamento: 2025-01-06* 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-*Ultimo aggiornamento: 2025-01-06* 
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-*Ultimo aggiornamento: 2025-01-06* 
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-*Ultimo aggiornamento: 2025-01-06*
-# Analisi Completa TableLayoutEnum
-## Data: 2025-01-06
-## Panoramica
-Il `TableLayoutEnum` è un enum PHP che gestisce i layout delle tabelle nei componenti Filament UI. Fornisce un sistema standardizzato per alternare tra visualizzazioni a lista e griglia con configurazioni responsive appropriate.
-## Scopo e Funzionalità
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_cHSnL6
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_VMng6d
 ### Obiettivo Principale
 - **Gestione Layout**: Alternare tra layout lista e griglia
 - **Responsive Design**: Configurazioni grid per diverse dimensioni schermo
 - **Type Safety**: Implementazione con interfacce Filament per colori, icone e label
 - **UX Consistency**: Esperienza utente coerente attraverso l'applicazione
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_cHSnL6
-=======
-
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-
->>>>>>> .merge_file_VMng6d
 ### Caso d'Uso
 ```php
 // Esempio di utilizzo in ListRecords
 class ListUsers extends ListRecords
 {
     protected TableLayoutEnum $layout = TableLayoutEnum::LIST;
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_cHSnL6
-=======
-
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-
->>>>>>> .merge_file_VMng6d
     public function table(Table $table): Table
     {
         return $table
@@ -854,71 +364,13 @@ class ListUsers extends ListRecords
     }
 }
 ```
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
 
 ## Analisi Tecnica
 
-=======
-<<<<<<< HEAD
-## Analisi Tecnica
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-
-## Analisi Tecnica
-
-=======
-## Analisi Tecnica
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-## Analisi Tecnica
-=======
-
-## Analisi Tecnica
-
->>>>>>> .merge_file_cHSnL6
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
-
-## Analisi Tecnica
-
->>>>>>> .merge_file_VMng6d
 ### Interfacce Implementate
 - `HasColor`: Fornisce colori per UI components
 - `HasIcon`: Fornisce icone Heroicon
 - `HasLabel`: Fornisce label tradotte
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-### Metodi Principali
-#### 1. `init()` - Layout di Default
-public static function init(): self
-    return self::LIST;
-- **Scopo**: Fornisce layout predefinito
-- **Valore**: `LIST` (layout tradizionale)
-#### 2. `getLabel()` - Traduzioni
-public function getLabel(): string
-=======
->>>>>>> .merge_file_cHSnL6
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_VMng6d
 
 ### Metodi Principali
 
@@ -936,78 +388,10 @@ public static function init(): self
 ```php
 public function getLabel(): string
 {
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-### Metodi Principali
-#### 1. `init()` - Layout di Default
-public static function init(): self
-    return self::LIST;
-- **Scopo**: Fornisce layout predefinito
-- **Valore**: `LIST` (layout tradizionale)
-#### 2. `getLabel()` - Traduzioni
-public function getLabel(): string
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_cHSnL6
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_VMng6d
     return match ($this) {
         self::LIST => __('ui::table-layout.list.label'),
         self::GRID => __('ui::table-layout.grid.label'),
     };
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-- **Scopo**: Label tradotte per UI
-- **Dipendenze**: File traduzioni `ui::table-layout.*`
-#### 3. `getColor()` - Colori UI
-public function getColor(): string
-        self::LIST => 'primary',
-        self::GRID => 'secondary',
-- **Scopo**: Colori per componenti UI
-- **Valori**: `primary` per lista, `secondary` per griglia
-#### 4. `getIcon()` - Icone Heroicon
-public function getIcon(): string
-        self::LIST => 'heroicon-o-list-bullet',
-        self::GRID => 'heroicon-o-squares-2x2',
-- **Scopo**: Icone per toggle buttons
-- **Icone**: Lista e griglia con Heroicon
-#### 5. `toggle()` - Alternanza Layout
-public function toggle(): self
-        self::LIST => self::GRID,
-        self::GRID => self::LIST,
-- **Scopo**: Alternare tra layout
-- **Pattern**: Bidirezionale LIST ↔ GRID
-#### 6. `getTableContentGrid()` - Configurazione Responsive
-public function getTableContentGrid(): ?array
-=======
->>>>>>> .merge_file_cHSnL6
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_VMng6d
 }
 ```
 - **Scopo**: Label tradotte per UI
@@ -1056,50 +440,6 @@ public function toggle(): self
 ```php
 public function getTableContentGrid(): ?array
 {
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-- **Scopo**: Label tradotte per UI
-- **Dipendenze**: File traduzioni `ui::table-layout.*`
-#### 3. `getColor()` - Colori UI
-public function getColor(): string
-        self::LIST => 'primary',
-        self::GRID => 'secondary',
-- **Scopo**: Colori per componenti UI
-- **Valori**: `primary` per lista, `secondary` per griglia
-#### 4. `getIcon()` - Icone Heroicon
-public function getIcon(): string
-        self::LIST => 'heroicon-o-list-bullet',
-        self::GRID => 'heroicon-o-squares-2x2',
-- **Scopo**: Icone per toggle buttons
-- **Icone**: Lista e griglia con Heroicon
-#### 5. `toggle()` - Alternanza Layout
-public function toggle(): self
-        self::LIST => self::GRID,
-        self::GRID => self::LIST,
-- **Scopo**: Alternare tra layout
-- **Pattern**: Bidirezionale LIST ↔ GRID
-#### 6. `getTableContentGrid()` - Configurazione Responsive
-public function getTableContentGrid(): ?array
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_cHSnL6
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_VMng6d
     return $this->isGridLayout()
         ? [
             'sm' => 1,
@@ -1109,46 +449,6 @@ public function getTableContentGrid(): ?array
             '2xl' => 5,
         ]
         : null;
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-- **Scopo**: Grid responsive per layout griglia
-- **Breakpoints**: sm, md, lg, xl, 2xl
-- **Colonne**: 1-5 colonne in base alla dimensione
-#### 7. `getTableColumns()` - Colonne Dinamiche
-public function getTableColumns(array $listColumns, array $gridColumns): array
-    return $this->isGridLayout() ? $gridColumns : $listColumns;
-- **Scopo**: Selezionare colonne appropriate per layout
-- **Parametri**: Array espliciti per type safety
-- **Approccio**: Esplicito invece di debug_backtrace
-## Architettura e Design Patterns
-### 1. Enum Pattern
-- **Vantaggi**: Type safety, immutabilità, centralizzazione
-- **Uso**: Gestione stati layout con valori predefiniti
-### 2. Strategy Pattern
-- **Implementazione**: Metodi che cambiano comportamento in base al layout
-- **Esempio**: `getTableColumns()` con strategie diverse per lista/griglia
-### 3. Factory Pattern
-- **Implementazione**: `getOptions()` crea array di opzioni
-- **Uso**: Popolamento dropdown e select
-### 4. Interface Segregation
-- **Interfacce**: `HasColor`, `HasIcon`, `HasLabel`
-- **Vantaggio**: Implementazione selettiva delle funzionalità
-## Dipendenze e Integrazione
-### Traduzioni Richieste
-=======
->>>>>>> .merge_file_cHSnL6
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_VMng6d
 }
 ```
 - **Scopo**: Grid responsive per layout griglia
@@ -1188,52 +488,6 @@ public function getTableColumns(array $listColumns, array $gridColumns): array
 
 ### Traduzioni Richieste
 ```php
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-- **Scopo**: Grid responsive per layout griglia
-- **Breakpoints**: sm, md, lg, xl, 2xl
-- **Colonne**: 1-5 colonne in base alla dimensione
-#### 7. `getTableColumns()` - Colonne Dinamiche
-public function getTableColumns(array $listColumns, array $gridColumns): array
-    return $this->isGridLayout() ? $gridColumns : $listColumns;
-- **Scopo**: Selezionare colonne appropriate per layout
-- **Parametri**: Array espliciti per type safety
-- **Approccio**: Esplicito invece di debug_backtrace
-## Architettura e Design Patterns
-### 1. Enum Pattern
-- **Vantaggi**: Type safety, immutabilità, centralizzazione
-- **Uso**: Gestione stati layout con valori predefiniti
-### 2. Strategy Pattern
-- **Implementazione**: Metodi che cambiano comportamento in base al layout
-- **Esempio**: `getTableColumns()` con strategie diverse per lista/griglia
-### 3. Factory Pattern
-- **Implementazione**: `getOptions()` crea array di opzioni
-- **Uso**: Popolamento dropdown e select
-### 4. Interface Segregation
-- **Interfacce**: `HasColor`, `HasIcon`, `HasLabel`
-- **Vantaggio**: Implementazione selettiva delle funzionalità
-## Dipendenze e Integrazione
-### Traduzioni Richieste
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_cHSnL6
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_VMng6d
 // File: Modules/UI/lang/it/table-layout.php
 return [
     'list' => [
@@ -1245,203 +499,36 @@ return [
         'label' => 'Griglia',
         'description' => 'Visualizzazione a griglia con card',
         'tooltip' => 'Mostra elementi in formato griglia',
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
-=======
-<<<<<<< HEAD
-];
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
     ],
 ];
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-];
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-];
-=======
-    ],
-];
-```
-
->>>>>>> .merge_file_cHSnL6
->>>>>>> laraxot/dev
-=======
-=======
-];
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
-    ],
-];
-```
-
->>>>>>> .merge_file_VMng6d
 ### Integrazione Filament
 - **Table Components**: Integrazione con `Filament\Tables`
 - **Content Grid**: Supporto per `contentGrid()` method
 - **Responsive Design**: Breakpoints Tailwind CSS
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
 
 ## Best Practices Implementate
 
-=======
-<<<<<<< HEAD
-## Best Practices Implementate
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-
-## Best Practices Implementate
-
-=======
-## Best Practices Implementate
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-## Best Practices Implementate
-=======
-
-## Best Practices Implementate
-
->>>>>>> .merge_file_cHSnL6
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
-
-## Best Practices Implementate
-
->>>>>>> .merge_file_VMng6d
 ### 1. Type Safety
 - `declare(strict_types=1);`
 - Type hints espliciti
 - Return types specifici
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_cHSnL6
-=======
-
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-
->>>>>>> .merge_file_VMng6d
 ### 2. PHPDoc Completo
 - Documentazione per ogni metodo
 - Esempi di utilizzo
 - Collegamenti a documentazione correlata
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_cHSnL6
-=======
-
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-
->>>>>>> .merge_file_VMng6d
 ### 3. Naming Conventions
 - Metodi descrittivi (`isGridLayout()`, `isListLayout()`)
 - Costanti chiare (`LIST`, `GRID`)
 - Nomi file in minuscolo
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_cHSnL6
-=======
-
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-
->>>>>>> .merge_file_VMng6d
 ### 4. Error Handling
 - Match expressions per gestione sicura
 - Valori di default appropriati
 - Null safety per grid configuration
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-## Esempi di Utilizzo
-### 1. ListRecords Implementation
-    protected TableLayoutEnum $layout;
-    public function mount(): void
-        $this->layout = TableLayoutEnum::init();
-    protected function getHeaderActions(): array
-=======
->>>>>>> .merge_file_cHSnL6
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_VMng6d
 
 ## Esempi di Utilizzo
 
@@ -1458,34 +545,6 @@ class ListUsers extends ListRecords
 
     protected function getHeaderActions(): array
     {
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-## Esempi di Utilizzo
-### 1. ListRecords Implementation
-    protected TableLayoutEnum $layout;
-    public function mount(): void
-        $this->layout = TableLayoutEnum::init();
-    protected function getHeaderActions(): array
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_cHSnL6
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_VMng6d
         return [
             Action::make('toggleLayout')
                 ->icon($this->layout->getIcon())
@@ -1495,26 +554,6 @@ class ListUsers extends ListRecords
                     $this->layout = $this->layout->toggle();
                 }),
         ];
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
-=======
-<<<<<<< HEAD
-### 2. Table Configuration
-public function table(Table $table): Table
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-### 2. Table Configuration
-public function table(Table $table): Table
-=======
->>>>>>> .merge_file_cHSnL6
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_VMng6d
     }
 }
 ```
@@ -1523,51 +562,11 @@ public function table(Table $table): Table
 ```php
 public function table(Table $table): Table
 {
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
-=======
-### 2. Table Configuration
-public function table(Table $table): Table
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_cHSnL6
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_VMng6d
     return $table
         ->columns($this->getColumnsForLayout())
         ->contentGrid($this->layout->getTableContentGrid())
         ->paginated([10, 25, 50])
         ->defaultSort('created_at', 'desc');
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
-=======
-<<<<<<< HEAD
-### 3. Column Selection
-protected function getColumnsForLayout(): array
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-### 3. Column Selection
-protected function getColumnsForLayout(): array
-=======
->>>>>>> .merge_file_cHSnL6
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_VMng6d
 }
 ```
 
@@ -1575,107 +574,17 @@ protected function getColumnsForLayout(): array
 ```php
 protected function getColumnsForLayout(): array
 {
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
-=======
-### 3. Column Selection
-protected function getColumnsForLayout(): array
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_cHSnL6
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_VMng6d
     $listColumns = [
         Tables\Columns\TextColumn::make('name')->sortable(),
         Tables\Columns\TextColumn::make('email')->searchable(),
         Tables\Columns\TextColumn::make('created_at')->dateTime(),
     ];
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_cHSnL6
-=======
-
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-
->>>>>>> .merge_file_VMng6d
     $gridColumns = [
         Tables\Columns\Layout\Stack::make([
             Tables\Columns\TextColumn::make('name')->weight(FontWeight::Bold),
             Tables\Columns\TextColumn::make('email'),
         ]),
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-    return $this->layout->getTableColumns($listColumns, $gridColumns);
-## Considerazioni di Performance
-### 1. Memory Usage
-- **Enum**: Valori immutabili, memoria efficiente
-- **Match**: Più veloce di switch per enum
-### 2. CPU Usage
-- **Match Expressions**: Ottimizzate dal compilatore PHP
-- **Method Calls**: Minimi overhead
-### 3. Network Impact
-- **Responsive Grid**: CSS nativo, nessun JS aggiuntivo
-- **Icon Loading**: Heroicon già caricato
-## Sicurezza e Validazione
-### 1. Input Validation
-- **Enum Values**: Solo valori predefiniti validi
-- **Type Safety**: Previene errori runtime
-### 2. XSS Prevention
-- **Label Translation**: Escape automatico da Laravel
-- **Icon Names**: Stringhe sicure, non user input
-### 3. CSRF Protection
-- **Toggle Actions**: Protezione CSRF di Filament
-- **Form Submissions**: Token automatici
-## Testing Strategy
-### 1. Unit Tests
-class TableLayoutEnumTest extends TestCase
-    public function test_init_returns_list(): void
-        $this->assertEquals(TableLayoutEnum::LIST, TableLayoutEnum::init());
-    public function test_toggle_switches_layout(): void
-        $layout = TableLayoutEnum::LIST;
-        $this->assertEquals(TableLayoutEnum::GRID, $layout->toggle());
-        $this->assertEquals(TableLayoutEnum::LIST, $layout->toggle()->toggle());
-=======
->>>>>>> .merge_file_cHSnL6
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_VMng6d
     ];
 
     return $this->layout->getTableColumns($listColumns, $gridColumns);
@@ -1730,180 +639,27 @@ class TableLayoutEnumTest extends TestCase
 }
 ```
 
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-    return $this->layout->getTableColumns($listColumns, $gridColumns);
-## Considerazioni di Performance
-### 1. Memory Usage
-- **Enum**: Valori immutabili, memoria efficiente
-- **Match**: Più veloce di switch per enum
-### 2. CPU Usage
-- **Match Expressions**: Ottimizzate dal compilatore PHP
-- **Method Calls**: Minimi overhead
-### 3. Network Impact
-- **Responsive Grid**: CSS nativo, nessun JS aggiuntivo
-- **Icon Loading**: Heroicon già caricato
-## Sicurezza e Validazione
-### 1. Input Validation
-- **Enum Values**: Solo valori predefiniti validi
-- **Type Safety**: Previene errori runtime
-### 2. XSS Prevention
-- **Label Translation**: Escape automatico da Laravel
-- **Icon Names**: Stringhe sicure, non user input
-### 3. CSRF Protection
-- **Toggle Actions**: Protezione CSRF di Filament
-- **Form Submissions**: Token automatici
-## Testing Strategy
-### 1. Unit Tests
-class TableLayoutEnumTest extends TestCase
-    public function test_init_returns_list(): void
-        $this->assertEquals(TableLayoutEnum::LIST, TableLayoutEnum::init());
-    public function test_toggle_switches_layout(): void
-        $layout = TableLayoutEnum::LIST;
-        $this->assertEquals(TableLayoutEnum::GRID, $layout->toggle());
-        $this->assertEquals(TableLayoutEnum::LIST, $layout->toggle()->toggle());
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_cHSnL6
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_VMng6d
 ### 2. Integration Tests
 - Test con componenti Filament reali
 - Verifica responsive behavior
 - Test traduzioni
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
-
-## Roadmap e Miglioramenti
-=======
-## Roadmap e Miglioramenti
-=======
->>>>>>> .merge_file_cHSnL6
-=======
->>>>>>> .merge_file_VMng6d
 
 ## Roadmap e Miglioramenti
 
-<<<<<<< .merge_file_reluTk
-<<<<<<< .merge_file_w3Ylfz
-## Roadmap e Miglioramenti
-=======
-
-## Roadmap e Miglioramenti
->>>>>>> 804451c (Lint)
-
-=======
-## Roadmap e Miglioramenti
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_cHSnL6
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_VMng6d
 ### 1. Short Term
 - [ ] Implementare traduzioni mancanti
 - [ ] Aggiungere test unitari completi
 - [ ] Documentare esempi avanzati
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_cHSnL6
-=======
-
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-
->>>>>>> .merge_file_VMng6d
 ### 2. Medium Term
 - [ ] Supporto per layout personalizzati
 - [ ] Animazioni di transizione
 - [ ] Persistenza preferenze utente
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_cHSnL6
-=======
-
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-
->>>>>>> .merge_file_VMng6d
 ### 3. Long Term
 - [ ] Layout masonry
 - [ ] Layout timeline
 - [ ] Layout calendar
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-## Collegamenti
-- [Usage Guide](table-layout-enum-usage.md)
-- [Conflict Resolution](conflict-resolution-tablelayoutenum.md)
-- [Translation Standards](../../../docs/translation_standards.md)
-- [Filament Best Practices](../../../docs/filament_best_practices.md)
-=======
->>>>>>> .merge_file_cHSnL6
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_VMng6d
 
 ## Collegamenti
 
@@ -1912,49 +668,3 @@ class TableLayoutEnumTest extends TestCase
 - [Translation Standards](../../../../docs/translation_standards.md)
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
 
-<<<<<<< .merge_file_reluTk
-<<<<<<< HEAD
-<<<<<<< .merge_file_w3Ylfz
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-## Collegamenti
-- [Usage Guide](table-layout-enum-usage.md)
-- [Conflict Resolution](conflict-resolution-tablelayoutenum.md)
-- [Translation Standards](../../../docs/translation_standards.md)
-- [Filament Best Practices](../../../docs/filament_best_practices.md)
-<<<<<<< HEAD
-=======
-
-*Ultimo aggiornamento: 2025-01-06*
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-*Ultimo aggiornamento: 2025-01-06* 
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_cHSnL6
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_VMng6d

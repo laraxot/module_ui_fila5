@@ -35,25 +35,6 @@ class CustomComponent extends Component
     // Proprietà pubbliche con type hint
     public string $label;
     public ?string $hint = null;
-<<<<<<< .merge_file_8Ai7Fk
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
-    
-    // Proprietà private per stato interno
-    private bool $isLoading = false;
-    
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_htt29S
 
     // Proprietà private per stato interno
     private bool $isLoading = false;
@@ -93,26 +74,6 @@ class CustomComponent extends Component
     &__header { }
     &__content { }
     &__footer { }
-<<<<<<< .merge_file_8Ai7Fk
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
-    
-    // Stati
-    &--loading { }
-    &--disabled { }
-    
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_htt29S
 
     // Stati
     &--loading { }
@@ -285,28 +246,6 @@ class AdvancedForm extends Component
 * [best-practices.md](../../../UI/docs/best-practices.md)
 * [best-practices.md](../../../../Themes/One/docs/best-practices.md)
 
-<<<<<<< .merge_file_8Ai7Fk
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
-
-### Versione Incoming
-
-- Breaking changes 
-
----
-
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_htt29S
 ### Versione Incoming
 
 - Breaking changes

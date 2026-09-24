@@ -25,16 +25,8 @@ final class DarkModeSwitcher extends Component
      */
     public function __construct()
     {
-<<<<<<< .merge_file_kt07Za
-        $this->widget = new DarkModeSwitcherWidget();
-<<<<<<< HEAD
-=======
-        $this->widget = new DarkModeSwitcherWidget();
->>>>>>> 804451c (Lint)
-=======
         $this->widget = new DarkModeSwitcherWidget;
         $this->widget = new DarkModeSwitcherWidget;
->>>>>>> .merge_file_aRkmAL
     }
 
     /**

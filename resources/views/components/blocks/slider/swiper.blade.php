@@ -1,14 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< .merge_file_dCcofG
-<<<<<<< HEAD
-=======
 
->>>>>>> 804451c (Lint)
-=======
-
->>>>>>> .merge_file_IfrhPd
 ?>
 <section class="container p-6 mx-auto">
 	<div id="heroslider" x-data="heroslider" class="relative w-full">

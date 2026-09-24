@@ -68,31 +68,6 @@ In il progetto, i form Filament sono implementati attraverso la classe base `Xot
 
 ```php
 public static function getFormSchema(): array
-<<<<<<< .merge_file_sqQvsR
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_9SLnFJ
-=======
-<<<<<<< HEAD
-public function getFormSchema(): array
-=======
-<<<<<<< HEAD
-=======
-public function getFormSchema(): array
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-public function getFormSchema(): array
-=======
->>>>>>> .merge_file_ouG0MB
->>>>>>> laraxot/dev
-=======
-=======
-public function getFormSchema(): array
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_rrK1Ak
 {
     return [
         Forms\Components\Grid::make()->columns(2)->schema([
@@ -111,64 +86,7 @@ public function getFormSchema(): array
                 ->required()
                 ->columnSpan(1),
         ]),
-<<<<<<< .merge_file_sqQvsR
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_9SLnFJ
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-=======
-<<<<<<< HEAD
-        
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-        
-=======
-
->>>>>>> laraxot/dev
-=======
-        
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_ouG0MB
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-
->>>>>>> .merge_file_rrK1Ak
         Forms\Components\Section::make('Contenuto della Pagina')->schema([
             PageContent::make('content_blocks')
                 ->label('Blocchi Contenuto')
@@ -185,120 +103,21 @@ Questo approccio dichiarativo permette di definire form complessi in modo chiaro
 
 Per una documentazione più approfondita sull'utilizzo dei widget Filament in il progetto, consulta:
 
-<<<<<<< .merge_file_sqQvsR
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_9SLnFJ
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-- [Utilizzo dei Widget Filament per i Form](../laravel/Modules/Cms/docs/filament_forms.md) - Documentazione tecnica dettagliata
-- [Creazione di Componenti Personalizzati](../laravel/Modules/Cms/docs/custom_filament_components.md) (da creare)
-- [Best Practices per i Form in il progetto](../laravel/Modules/Cms/docs/form_best_practices.md) (da creare)
-=======
->>>>>>> .merge_file_ouG0MB
 - [Utilizzo dei Widget Filament per i Form](../laravel/modules/cms/docs/filament_forms.md) - Documentazione tecnica dettagliata
 - [Creazione di Componenti Personalizzati](../laravel/modules/cms/docs/custom_filament_components.md) (da creare)
 - [Best Practices per i Form in il progetto](../laravel/modules/cms/docs/form_best_practices.md) (da creare)
->>>>>>> laraxot/dev
-=======
-- [Utilizzo dei Widget Filament per i Form](../laravel/modules/cms/docs/filament_forms.md) - Documentazione tecnica dettagliata
-- [Creazione di Componenti Personalizzati](../laravel/modules/cms/docs/custom_filament_components.md) (da creare)
-- [Best Practices per i Form in il progetto](../laravel/modules/cms/docs/form_best_practices.md) (da creare)
->>>>>>> 804451c (Lint)
-=======
-- [Utilizzo dei Widget Filament per i Form](../laravel/modules/cms/docs/filament_forms.md) - Documentazione tecnica dettagliata
-- [Creazione di Componenti Personalizzati](../laravel/modules/cms/docs/custom_filament_components.md) (da creare)
-- [Best Practices per i Form in il progetto](../laravel/modules/cms/docs/form_best_practices.md) (da creare)
->>>>>>> .merge_file_rrK1Ak
 
 ## Conclusione
 
 L'utilizzo esclusivo dei widget Filament per i form in il progetto rappresenta una scelta strategica che ha portato a un'interfaccia utente coerente, robusta e facilmente manutenibile. Questa decisione architetturale supporta gli obiettivi del progetto in termini di qualità del codice, velocità di sviluppo e esperienza utente.
 # Utilizzo dei Widget Filament per i Form in il progetto
-<<<<<<< .merge_file_sqQvsR
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
-<<<<<<< .merge_file_9SLnFJ
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-
-=======
->>>>>>> 804451c (Lint)
-- [Utilizzo dei Widget Filament per i Form](../laravel/Modules/Cms/docs/filament_forms.md) - Documentazione tecnica dettagliata
-- [Creazione di Componenti Personalizzati](../laravel/Modules/Cms/docs/custom_filament_components.md) (da creare)
-- [Best Practices per i Form in il progetto](../laravel/Modules/Cms/docs/form_best_practices.md) (da creare)
-
-## Conclusione
-
-<<<<<<< HEAD
-L'utilizzo esclusivo dei widget Filament per i form in il progetto rappresenta una scelta strategica che ha portato a un'interfaccia utente coerente, robusta e facilmente manutenibile. Questa decisione architetturale supporta gli obiettivi del progetto in termini di qualità del codice, velocità di sviluppo e esperienza utente.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-L'utilizzo esclusivo dei widget Filament per i form in il progetto rappresenta una scelta strategica che ha portato a un'interfaccia utente coerente, robusta e facilmente manutenibile. Questa decisione architetturale supporta gli obiettivi del progetto in termini di qualità del codice, velocità di sviluppo e esperienza utente.
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-L'utilizzo esclusivo dei widget Filament per i form in il progetto rappresenta una scelta strategica che ha portato a un'interfaccia utente coerente, robusta e facilmente manutenibile. Questa decisione architetturale supporta gli obiettivi del progetto in termini di qualità del codice, velocità di sviluppo e esperienza utente.
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-L'utilizzo esclusivo dei widget Filament per i form in il progetto rappresenta una scelta strategica che ha portato a un'interfaccia utente coerente, robusta e facilmente manutenibile. Questa decisione architetturale supporta gli obiettivi del progetto in termini di qualità del codice, velocità di sviluppo e esperienza utente.
-# Utilizzo dei Widget Filament per i Form in il progetto
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ouG0MB
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-
->>>>>>> .merge_file_rrK1Ak
 ## Indice
 - [Introduzione](#introduzione)
 - [Perché Filament per i Form](#perché-filament-per-i-form)
 - [Vantaggi nell'Ecosistema il progetto](#vantaggi-nellecosistema-<nome progetto>)
 - [Esempi di Implementazione](#esempi-di-implementazione)
 - [Documentazione Dettagliata](#documentazione-dettagliata)
-<<<<<<< .merge_file_sqQvsR
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_9SLnFJ
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-## Introduzione
-il progetto utilizza esclusivamente i widget Filament per la creazione e gestione dei form in tutta l'applicazione. Questa scelta architetturale non è casuale, ma il risultato di una valutazione attenta dei vantaggi che questo approccio offre in termini di sviluppo, manutenibilità e coerenza dell'interfaccia utente.
-## Perché Filament per i Form
-La scelta di utilizzare i widget Filament per tutti i form di il progetto è basata su diversi fattori chiave:
-### 1. Consistenza dell'Interfaccia Utente
-Utilizzando lo stesso sistema di componenti per tutti i form, il progetto garantisce una consistenza visiva e funzionale in tutta l'applicazione. Questo migliora l'esperienza utente, riducendo la curva di apprendimento e creando un'interfaccia coerente e professionale.
-### 2. Integrazione con l'Ecosistema Laravel
-=======
->>>>>>> .merge_file_ouG0MB
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_rrK1Ak
 
 ## Introduzione
 
@@ -314,65 +133,11 @@ Utilizzando lo stesso sistema di componenti per tutti i form, il progetto garant
 
 ### 2. Integrazione con l'Ecosistema Laravel
 
-<<<<<<< .merge_file_sqQvsR
-<<<<<<< HEAD
-<<<<<<< .merge_file_9SLnFJ
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-## Introduzione
-il progetto utilizza esclusivamente i widget Filament per la creazione e gestione dei form in tutta l'applicazione. Questa scelta architetturale non è casuale, ma il risultato di una valutazione attenta dei vantaggi che questo approccio offre in termini di sviluppo, manutenibilità e coerenza dell'interfaccia utente.
-## Perché Filament per i Form
-La scelta di utilizzare i widget Filament per tutti i form di il progetto è basata su diversi fattori chiave:
-### 1. Consistenza dell'Interfaccia Utente
-Utilizzando lo stesso sistema di componenti per tutti i form, il progetto garantisce una consistenza visiva e funzionale in tutta l'applicazione. Questo migliora l'esperienza utente, riducendo la curva di apprendimento e creando un'interfaccia coerente e professionale.
-### 2. Integrazione con l'Ecosistema Laravel
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ouG0MB
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_rrK1Ak
 Filament è progettato specificamente per Laravel e si integra perfettamente con tutte le sue funzionalità, inclusi:
 - Sistema di validazione
 - Gestione delle autorizzazioni
 - ORM Eloquent
 - Sistema di localizzazione
-<<<<<<< .merge_file_sqQvsR
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_9SLnFJ
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-### 3. Tipizzazione Forte e Robustezza
-il progetto adotta un approccio fortemente tipizzato in tutto il codice. I widget Filament supportano nativamente la tipizzazione forte, migliorando la robustezza del codice e facilitando il refactoring.
-### 4. Riduzione del Tempo di Sviluppo
-L'utilizzo di componenti predefiniti e ben testati riduce significativamente il tempo necessario per sviluppare nuove funzionalità, permettendo al team di concentrarsi sulla logica di business piuttosto che sull'implementazione dell'interfaccia utente.
-## Vantaggi nell'Ecosistema il progetto
-Nel contesto specifico di il progetto, l'utilizzo dei widget Filament offre ulteriori vantaggi:
-### 1. Modularità e Riutilizzo
-il progetto è strutturato in moduli indipendenti. I widget Filament facilitano la creazione di componenti riutilizzabili che possono essere condivisi tra moduli diversi, riducendo la duplicazione del codice e migliorando la manutenibilità.
-### 2. Gestione Avanzata dei Contenuti
-=======
->>>>>>> .merge_file_ouG0MB
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_rrK1Ak
 
 ### 3. Tipizzazione Forte e Robustezza
 
@@ -392,63 +157,11 @@ il progetto è strutturato in moduli indipendenti. I widget Filament facilitano 
 
 ### 2. Gestione Avanzata dei Contenuti
 
-<<<<<<< .merge_file_sqQvsR
-<<<<<<< HEAD
-<<<<<<< .merge_file_9SLnFJ
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-### 3. Tipizzazione Forte e Robustezza
-il progetto adotta un approccio fortemente tipizzato in tutto il codice. I widget Filament supportano nativamente la tipizzazione forte, migliorando la robustezza del codice e facilitando il refactoring.
-### 4. Riduzione del Tempo di Sviluppo
-L'utilizzo di componenti predefiniti e ben testati riduce significativamente il tempo necessario per sviluppare nuove funzionalità, permettendo al team di concentrarsi sulla logica di business piuttosto che sull'implementazione dell'interfaccia utente.
-## Vantaggi nell'Ecosistema il progetto
-Nel contesto specifico di il progetto, l'utilizzo dei widget Filament offre ulteriori vantaggi:
-### 1. Modularità e Riutilizzo
-il progetto è strutturato in moduli indipendenti. I widget Filament facilitano la creazione di componenti riutilizzabili che possono essere condivisi tra moduli diversi, riducendo la duplicazione del codice e migliorando la manutenibilità.
-### 2. Gestione Avanzata dei Contenuti
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ouG0MB
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_rrK1Ak
 Per un'applicazione come il progetto, che gestisce contenuti complessi come pagine, profili utente e dati medici, i widget Filament offrono funzionalità avanzate come:
 - Editor WYSIWYG
 - Upload di file e immagini
 - Selezione di relazioni
 - Form dinamici basati sulle condizioni
-<<<<<<< .merge_file_sqQvsR
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_9SLnFJ
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_ouG0MB
-### 3. Accessibilità
-il progetto deve essere accessibile a un'ampia gamma di utenti, inclusi quelli con disabilità. I widget Filament sono progettati con l'accessibilità in mente, rispettando gli standard WCAG.
-### 4. Estensibilità
-=======
-<<<<<<< .merge_file_9SLnFJ
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ouG0MB
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_rrK1Ak
 
 ### 3. Accessibilità
 
@@ -456,41 +169,10 @@ il progetto deve essere accessibile a un'ampia gamma di utenti, inclusi quelli c
 
 ### 4. Estensibilità
 
-<<<<<<< .merge_file_sqQvsR
-<<<<<<< HEAD
-<<<<<<< .merge_file_9SLnFJ
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
-=======
-### 3. Accessibilità
-il progetto deve essere accessibile a un'ampia gamma di utenti, inclusi quelli con disabilità. I widget Filament sono progettati con l'accessibilità in mente, rispettando gli standard WCAG.
-### 4. Estensibilità
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ouG0MB
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_rrK1Ak
 Il sistema è stato esteso con componenti personalizzati specifici per il progetto, come:
 - `PageContent` per la gestione dei blocchi di contenuto delle pagine
 - `LeftSidebarContent` per la gestione dei contenuti della sidebar
 - Campi personalizzati per la gestione di dati medici specifici
-<<<<<<< .merge_file_sqQvsR
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_9SLnFJ
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
 
 ## Esempi di Implementazione
 
@@ -498,47 +180,6 @@ In il progetto, i form Filament sono implementati attraverso la classe base `Xot
 
 ```php
 public static function getFormSchema(): array
->>>>>>> 804451c (Lint)
-=======
-## Esempi di Implementazione
-In il progetto, i form Filament sono implementati attraverso la classe base `XotBaseResource` che tutti i Resource estendono. Ecco un esempio semplificato di come viene definito un form per la gestione delle pagine:
-```php
-public static function getFormSchema(): array
-public function getFormSchema(): array
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_ouG0MB
-=======
->>>>>>> .merge_file_rrK1Ak
-
-## Esempi di Implementazione
-
-In il progetto, i form Filament sono implementati attraverso la classe base `XotBaseResource` che tutti i Resource estendono. Ecco un esempio semplificato di come viene definito un form per la gestione delle pagine:
-
-```php
-public static function getFormSchema(): array
-<<<<<<< .merge_file_sqQvsR
-<<<<<<< .merge_file_9SLnFJ
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-## Esempi di Implementazione
-In il progetto, i form Filament sono implementati attraverso la classe base `XotBaseResource` che tutti i Resource estendono. Ecco un esempio semplificato di come viene definito un form per la gestione delle pagine:
-```php
-public static function getFormSchema(): array
-public function getFormSchema(): array
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ouG0MB
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_rrK1Ak
 {
     return [
         Forms\Components\Grid::make()->columns(2)->schema([
@@ -552,39 +193,6 @@ public function getFormSchema(): array
                     }
                     $set('slug', Str::slug($state));
                 }),
-<<<<<<< .merge_file_sqQvsR
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_9SLnFJ
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-            Forms\Components\TextInput::make('slug')
-                ->columnSpan(1),
-        ]),
-        Forms\Components\Section::make('Contenuto della Pagina')->schema([
-            PageContent::make('content_blocks')
-                ->label('Blocchi Contenuto')
-                ->columnSpanFull(),
-    ];
-}
-```
-Questo approccio dichiarativo permette di definire form complessi in modo chiaro e manutenibile.
-## Documentazione Dettagliata
-Per una documentazione più approfondita sull'utilizzo dei widget Filament in il progetto, consulta:
-- [Utilizzo dei Widget Filament per i Form](../laravel/Modules/Cms/docs/filament_forms.md) - Documentazione tecnica dettagliata
-- [Creazione di Componenti Personalizzati](../laravel/Modules/Cms/docs/custom_filament_components.md) (da creare)
-- [Best Practices per i Form in il progetto](../laravel/Modules/Cms/docs/form_best_practices.md) (da creare)
-## Conclusione
-=======
->>>>>>> .merge_file_ouG0MB
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_rrK1Ak
 
             Forms\Components\TextInput::make('slug')
                 ->required()
@@ -614,61 +222,3 @@ Per una documentazione più approfondita sull'utilizzo dei widget Filament in il
 ## Conclusione
 
 L'utilizzo esclusivo dei widget Filament per i form in il progetto rappresenta una scelta strategica che ha portato a un'interfaccia utente coerente, robusta e facilmente manutenibile. Questa decisione architetturale supporta gli obiettivi del progetto in termini di qualità del codice, velocità di sviluppo e esperienza utente.
-<<<<<<< .merge_file_sqQvsR
-<<<<<<< HEAD
-<<<<<<< .merge_file_9SLnFJ
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-            Forms\Components\TextInput::make('slug')
-                ->columnSpan(1),
-        ]),
-        Forms\Components\Section::make('Contenuto della Pagina')->schema([
-            PageContent::make('content_blocks')
-                ->label('Blocchi Contenuto')
-                ->columnSpanFull(),
-    ];
-}
-```
-Questo approccio dichiarativo permette di definire form complessi in modo chiaro e manutenibile.
-## Documentazione Dettagliata
-Per una documentazione più approfondita sull'utilizzo dei widget Filament in il progetto, consulta:
-- [Utilizzo dei Widget Filament per i Form](../laravel/Modules/Cms/docs/filament_forms.md) - Documentazione tecnica dettagliata
-- [Creazione di Componenti Personalizzati](../laravel/Modules/Cms/docs/custom_filament_components.md) (da creare)
-- [Best Practices per i Form in il progetto](../laravel/Modules/Cms/docs/form_best_practices.md) (da creare)
-## Conclusione
-<<<<<<< HEAD
-=======
-
-L'utilizzo esclusivo dei widget Filament per i form in il progetto rappresenta una scelta strategica che ha portato a un'interfaccia utente coerente, robusta e facilmente manutenibile. Questa decisione architetturale supporta gli obiettivi del progetto in termini di qualità del codice, velocità di sviluppo e esperienza utente.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-L'utilizzo esclusivo dei widget Filament per i form in il progetto rappresenta una scelta strategica che ha portato a un'interfaccia utente coerente, robusta e facilmente manutenibile. Questa decisione architetturale supporta gli obiettivi del progetto in termini di qualità del codice, velocità di sviluppo e esperienza utente.
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ouG0MB
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_rrK1Ak

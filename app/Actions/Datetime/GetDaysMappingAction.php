@@ -67,21 +67,6 @@ final class GetDaysMappingAction
      */
     private function createCarbonInstance(): Carbon
     {
-<<<<<<< .merge_file_HjR5aJ
-<<<<<<< HEAD
-<<<<<<< .merge_file_CncqdB
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-        return Carbon::now();
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_LV5zZt
         $carbon = Carbon::create();
 
         if (null === $carbon) {
@@ -89,24 +74,5 @@ final class GetDaysMappingAction
         }
 
         return $carbon;
-<<<<<<< .merge_file_HjR5aJ
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-        return Carbon::now();
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        return Carbon::now();
->>>>>>> .merge_file_2LyRAW
-=======
-=======
-        return Carbon::now();
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_LV5zZt
     }
 }

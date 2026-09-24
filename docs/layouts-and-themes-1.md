@@ -257,21 +257,6 @@ class Dashboard extends Component
 {
     protected static string $layout = AdminLayout::class;
 
-<<<<<<< .merge_file_nRZrIQ
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_Znp796
     protected function getLayoutData(): array
     {
         return [
@@ -297,24 +282,7 @@ class Dashboard extends Component
 }
 ```
 
-<<<<<<< .merge_file_nRZrIQ
-<<<<<<< HEAD
 #### PrintLayout
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-#### PrintLayout
-=======
-#### PrintLayout 
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-#### PrintLayout 
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
-#### PrintLayout
->>>>>>> .merge_file_Znp796
 ```php
 use Modules\UI\Layouts\PrintLayout;
 
@@ -322,21 +290,6 @@ class StampaPratica extends Component
 {
     protected static string $layout = PrintLayout::class;
 
-<<<<<<< .merge_file_nRZrIQ
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_Znp796
     protected function getLayoutData(): array
     {
         return [
@@ -379,24 +332,7 @@ return [
             'warning' => '#f59e0b',
             'danger' => '#ef4444',
         ],
-<<<<<<< .merge_file_nRZrIQ
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
-
->>>>>>> .merge_file_Znp796
         // Tipografia
         'typography' => [
             'fonts' => [
@@ -410,66 +346,19 @@ return [
             ],
         ],
 
-<<<<<<< .merge_file_nRZrIQ
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_Znp796
         // Spaziature
         'spacing' => [
             'base' => '1rem',
             'lg' => '1.5rem',
             'xl' => '2rem',
         ],
-<<<<<<< .merge_file_nRZrIQ
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
-
->>>>>>> .merge_file_Znp796
         // Bordi
         'border' => [
             'radius' => '0.375rem',
             'width' => '1px',
         ],
 
-<<<<<<< .merge_file_nRZrIQ
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_Znp796
         // Ombre
         'shadows' => [
             'sm' => '0 1px 2px 0 rgb(0 0 0 / 0.05)',
@@ -574,21 +463,4 @@ AdminLayout::make()
 4. **Manutenibilità**
    - Documentare personalizzazioni
    - Seguire convenzioni di naming
-<<<<<<< .merge_file_nRZrIQ
-<<<<<<< HEAD
    - Centralizzare configurazioni
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-   - Centralizzare configurazioni
-=======
-   - Centralizzare configurazioni 
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-   - Centralizzare configurazioni 
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
-   - Centralizzare configurazioni
->>>>>>> .merge_file_Znp796

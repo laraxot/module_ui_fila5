@@ -35,31 +35,8 @@ function uiCardViewName(): string
 
 describe('Component', function (): void {
     test('ui components can be rendered', function (): void {
-<<<<<<< .merge_file_o3wgsJ
-<<<<<<< HEAD
-        $component = new class extends Component {
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
         $component = new class extends Component
         {
-=======
-<<<<<<< HEAD
-        $component = new class extends Component {
-=======
-        $component = new class extends Component
-        {
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        $component = new class extends Component
-        {
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-        $component = new class extends Component
-        {
->>>>>>> .merge_file_IzvHJU
             public function render(): View
             {
                 return view(uiButtonViewName());

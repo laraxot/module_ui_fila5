@@ -39,35 +39,7 @@ InlineDatePicker::make('appointment_date')
 Specify which dates should be selectable. Other dates will be disabled.
 
 ```php
-<<<<<<< .merge_file_LYpJd8
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_afoqlP
 ->enabledDates(['[DATE]', '[DATE]', '[DATE]'])
-=======
-<<<<<<< HEAD
-->enabledDates(['2023-06-15', '2023-06-20', '2023-06-25'])
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-->enabledDates(['[DATE]', '[DATE]', '[DATE]'])
-=======
-->enabledDates(['2023-06-15', '2023-06-20', '2023-06-25'])
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-->enabledDates(['2023-06-15', '2023-06-20', '2023-06-25'])
-=======
-->enabledDates(['[DATE]', '[DATE]', '[DATE]'])
->>>>>>> .merge_file_gdc5in
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
-->enabledDates(['[DATE]', '[DATE]', '[DATE]'])
->>>>>>> .merge_file_0Aic6Q
 
 // Or using a closure
 ->enabledDates(fn () => \App\Models\Appointment::pluck('date')->toArray())
@@ -210,42 +182,8 @@ When writing tests for forms that use the InlineDatePicker, you can interact wit
 ```php
 // Select a date
 Livewire::test(YourForm::class)
-<<<<<<< .merge_file_LYpJd8
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_afoqlP
     ->set('appointment_date', '[DATE]')
     ->assertSet('appointment_date', '[DATE]');
-=======
-<<<<<<< HEAD
-    ->set('appointment_date', '2023-06-15')
-    ->assertSet('appointment_date', '2023-06-15');
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-    ->set('appointment_date', '[DATE]')
-    ->assertSet('appointment_date', '[DATE]');
-=======
-    ->set('appointment_date', '2023-06-15')
-    ->assertSet('appointment_date', '2023-06-15');
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-    ->set('appointment_date', '2023-06-15')
-    ->assertSet('appointment_date', '2023-06-15');
-=======
-    ->set('appointment_date', '[DATE]')
-    ->assertSet('appointment_date', '[DATE]');
->>>>>>> .merge_file_gdc5in
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
-    ->set('appointment_date', '[DATE]')
-    ->assertSet('appointment_date', '[DATE]');
->>>>>>> .merge_file_0Aic6Q
 
 // Test validation
 Livewire::test(YourForm::class)
@@ -273,105 +211,16 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## ♻️ Manutenzione
 
-<<<<<<< .merge_file_LYpJd8
-=======
-<<<<<<< HEAD
-Contributions are welcome! Please feel free to submit a Pull Request.
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_afoqlP
-=======
-## ♻️ Manutenzione
->>>>>>> .merge_file_gdc5in
-=======
-
-## ♻️ Manutenzione
-
-<<<<<<< .merge_file_afoqlP
-=======
-<<<<<<< HEAD
-Contributions are welcome! Please feel free to submit a Pull Request.
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Contributions are welcome! Please feel free to submit a Pull Request.
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-Contributions are welcome! Please feel free to submit a Pull Request.
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-Contributions are welcome! Please feel free to submit a Pull Request.
-## ♻️ Manutenzione
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_gdc5in
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_0Aic6Q
 - Rafforzata la tipizzazione delle settimane generate (`array<int, array<int, array<string, mixed>>>`).
 - Annotazioni esplicite sui container `$weeks` e `$week` per coerenza PHPStan L10.
 - Chiusure di dehydratazione rese statiche con gestione esplicita del parametro inutilizzato.
 - Verifiche qualità: PHPStan L10 ✅, PHPMD ✅, PHPInsights ✅ (avvisi legacy su proprietà pubbliche già tracciati).
 # InlineDatePicker Component
-<<<<<<< .merge_file_LYpJd8
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_afoqlP
-=======
-<<<<<<< HEAD
-A customizable inline date picker component for Filament forms with month navigation and enabled/disabled date support.
-## Features
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-A customizable inline date picker component for Filament forms with month navigation and enabled/disabled date support.
-## Features
-=======
->>>>>>> .merge_file_gdc5in
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0Aic6Q
 
 A customizable inline date picker component for Filament forms with month navigation and enabled/disabled date support.
 
 ## Features
 
-<<<<<<< .merge_file_LYpJd8
-<<<<<<< HEAD
-<<<<<<< .merge_file_afoqlP
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
-=======
-A customizable inline date picker component for Filament forms with month navigation and enabled/disabled date support.
-## Features
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_gdc5in
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0Aic6Q
 - **Month Navigation**: Navigate between months with previous/next buttons
 - **Enabled/Disabled Dates**: Specify which dates are selectable
 - **Localization**: Built-in support for multiple languages
@@ -379,27 +228,6 @@ A customizable inline date picker component for Filament forms with month naviga
 - **Customizable Styling**: Easily customize the appearance
 - **Week Numbers**: Optional week number display
 - **First Day of Week**: Configure which day starts the week
-<<<<<<< .merge_file_LYpJd8
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_afoqlP
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-## Installation
-This component is part of the UI module and is available out of the box.
-## Basic Usage
-```php
-use Modules\UI\Filament\Components\InlineDatePicker;
-=======
->>>>>>> .merge_file_gdc5in
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0Aic6Q
 
 ## Installation
 
@@ -410,33 +238,6 @@ This component is part of the UI module and is available out of the box.
 ```php
 use Modules\UI\Filament\Components\InlineDatePicker;
 
-<<<<<<< .merge_file_LYpJd8
-<<<<<<< HEAD
-<<<<<<< .merge_file_afoqlP
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-## Installation
-This component is part of the UI module and is available out of the box.
-## Basic Usage
-```php
-use Modules\UI\Filament\Components\InlineDatePicker;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_gdc5in
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_0Aic6Q
 InlineDatePicker::make('appointment_date')
     ->label('Select Appointment Date')
     ->enabledDates(fn () => [
@@ -447,39 +248,6 @@ InlineDatePicker::make('appointment_date')
     ->default(now()->addDay()->format('Y-m-d'))
     ->required();
 ```
-<<<<<<< .merge_file_LYpJd8
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_afoqlP
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-## Available Methods
-### enabledDates(array|Closure $dates)
-Specify which dates should be selectable. Other dates will be disabled.
-->enabledDates(['2023-06-15', '2023-06-20', '2023-06-25'])
-// Or using a closure
-->enabledDates(fn () => \App\Models\Appointment::pluck('date')->toArray())
-### highlightColor(string $color)
-Set the highlight color for the selected date.
-->highlightColor('bg-blue-600')
-### firstDayOfWeek(string $day)
-Set the first day of the week. Can be 'sunday' or 'monday' (default).
-->firstDayOfWeek('sunday')
-### showWeekNumbers(bool $show = true)
-Show or hide week numbers.
-->showWeekNumbers()
-## Styling
-The component uses Tailwind CSS classes for styling. You can customize the appearance by overriding the following CSS classes in your application's stylesheet:
-=======
->>>>>>> .merge_file_gdc5in
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0Aic6Q
 
 ## Available Methods
 
@@ -522,94 +290,11 @@ Show or hide week numbers.
 
 The component uses Tailwind CSS classes for styling. You can customize the appearance by overriding the following CSS classes in your application's stylesheet:
 
-<<<<<<< .merge_file_LYpJd8
-<<<<<<< HEAD
-<<<<<<< .merge_file_afoqlP
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-## Available Methods
-### enabledDates(array|Closure $dates)
-Specify which dates should be selectable. Other dates will be disabled.
-->enabledDates(['2023-06-15', '2023-06-20', '2023-06-25'])
-// Or using a closure
-->enabledDates(fn () => \App\Models\Appointment::pluck('date')->toArray())
-### highlightColor(string $color)
-Set the highlight color for the selected date.
-->highlightColor('bg-blue-600')
-### firstDayOfWeek(string $day)
-Set the first day of the week. Can be 'sunday' or 'monday' (default).
-->firstDayOfWeek('sunday')
-### showWeekNumbers(bool $show = true)
-Show or hide week numbers.
-->showWeekNumbers()
-## Styling
-The component uses Tailwind CSS classes for styling. You can customize the appearance by overriding the following CSS classes in your application's stylesheet:
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_gdc5in
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_0Aic6Q
 ```css
 /* Container */
 .inline-date-picker {
     @apply bg-white rounded-lg shadow p-4 w-full max-w-md;
 }
-<<<<<<< .merge_file_LYpJd8
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_afoqlP
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-/* Navigation */
-.inline-date-picker-nav {
-    @apply flex items-center justify-between mb-4;
-/* Navigation buttons */
-.inline-date-picker-nav-button {
-    @apply p-1 rounded-full hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
-/* Month/Year display */
-.inline-date-picker-month {
-    @apply text-lg font-semibold text-gray-900;
-/* Weekday headers */
-.inline-date-picker-weekdays {
-    @apply grid grid-cols-7 gap-1 text-xs text-center text-gray-500;
-/* Calendar grid */
-.inline-date-picker-grid {
-    @apply grid grid-cols-7 gap-1 mt-1 text-sm;
-/* Day button */
-.inline-date-picker-day {
-    @apply relative p-2 text-center rounded-full transition-colors;
-/* Today indicator */
-.inline-date-picker-today {
-    @apply absolute bottom-0 left-1/2 w-1 h-1 transform -translate-x-1/2 rounded-full bg-blue-600;
-## Localization
-The component includes English and Italian translations out of the box. To add support for additional languages, create a new translation file in `resources/lang/{locale}/datepicker.php` following the same structure as the existing files.
-## Events
-The component emits the following Livewire events:
-- `inline-date-picker-updated` - When the displayed month changes
-## Accessibility
-The component includes the following accessibility features:
-=======
->>>>>>> .merge_file_gdc5in
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0Aic6Q
 
 /* Navigation */
 .inline-date-picker-nav {
@@ -661,81 +346,10 @@ The component emits the following Livewire events:
 
 The component includes the following accessibility features:
 
-<<<<<<< .merge_file_LYpJd8
-<<<<<<< HEAD
-<<<<<<< .merge_file_afoqlP
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-/* Navigation */
-.inline-date-picker-nav {
-    @apply flex items-center justify-between mb-4;
-/* Navigation buttons */
-.inline-date-picker-nav-button {
-    @apply p-1 rounded-full hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
-/* Month/Year display */
-.inline-date-picker-month {
-    @apply text-lg font-semibold text-gray-900;
-/* Weekday headers */
-.inline-date-picker-weekdays {
-    @apply grid grid-cols-7 gap-1 text-xs text-center text-gray-500;
-/* Calendar grid */
-.inline-date-picker-grid {
-    @apply grid grid-cols-7 gap-1 mt-1 text-sm;
-/* Day button */
-.inline-date-picker-day {
-    @apply relative p-2 text-center rounded-full transition-colors;
-/* Today indicator */
-.inline-date-picker-today {
-    @apply absolute bottom-0 left-1/2 w-1 h-1 transform -translate-x-1/2 rounded-full bg-blue-600;
-## Localization
-The component includes English and Italian translations out of the box. To add support for additional languages, create a new translation file in `resources/lang/{locale}/datepicker.php` following the same structure as the existing files.
-## Events
-The component emits the following Livewire events:
-- `inline-date-picker-updated` - When the displayed month changes
-## Accessibility
-The component includes the following accessibility features:
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_gdc5in
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_0Aic6Q
 - ARIA labels for all interactive elements
 - Keyboard navigation
 - High contrast mode support
 - Screen reader announcements
-<<<<<<< .merge_file_LYpJd8
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_afoqlP
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-## Examples
-### Basic Usage
-    ->label('Select a date')
-### With Enabled Dates
-use Carbon\Carbon;
-=======
->>>>>>> .merge_file_gdc5in
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0Aic6Q
 
 ## Examples
 
@@ -755,78 +369,10 @@ InlineDatePicker::make('appointment_date')
 use Carbon\Carbon;
 use Modules\UI\Filament\Components\InlineDatePicker;
 
-<<<<<<< .merge_file_LYpJd8
-<<<<<<< HEAD
-<<<<<<< .merge_file_afoqlP
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-## Examples
-### Basic Usage
-    ->label('Select a date')
-### With Enabled Dates
-use Carbon\Carbon;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_gdc5in
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_0Aic6Q
 $enabledDates = collect()
     ->range(1, 10)
     ->map(fn ($day) => Carbon::now()->addDays($day)->format('Y-m-d'))
     ->toArray();
-<<<<<<< .merge_file_LYpJd8
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_afoqlP
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-    ->label('Select an available date')
-    ->enabledDates($enabledDates)
-### Custom Styling
-    ->highlightColor('bg-purple-600')
-    ->firstDayOfWeek('sunday')
-    ->showWeekNumbers();
-## Testing
-When writing tests for forms that use the InlineDatePicker, you can interact with it using Livewire test helpers:
-// Select a date
-Livewire::test(YourForm::class)
-    ->set('appointment_date', '2023-06-15')
-    ->assertSet('appointment_date', '2023-06-15');
-// Test validation
-    ->call('submit')
-    ->assertHasErrors(['appointment_date' => 'required']);
-## Troubleshooting
-### Dates not being selected
-Make sure the date format matches the expected format (Y-m-d). The component expects dates in 'YYYY-MM-DD' format.
-### Navigation not working
-Check that you're not overriding the component's JavaScript with custom code. The navigation is handled by Alpine.js and Livewire.
-### Styling issues
-If the component doesn't look right, make sure you have the required Tailwind CSS utilities included in your build. The component uses standard Tailwind classes for styling.
-## Contributing
-
-```
-=======
->>>>>>> .merge_file_gdc5in
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0Aic6Q
 
 InlineDatePicker::make('appointment_date')
     ->label('Select an available date')
@@ -879,68 +425,3 @@ If the component doesn't look right, make sure you have the required Tailwind CS
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-<<<<<<< .merge_file_LYpJd8
-<<<<<<< HEAD
-<<<<<<< .merge_file_afoqlP
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-    ->label('Select an available date')
-    ->enabledDates($enabledDates)
-### Custom Styling
-    ->highlightColor('bg-purple-600')
-    ->firstDayOfWeek('sunday')
-    ->showWeekNumbers();
-## Testing
-When writing tests for forms that use the InlineDatePicker, you can interact with it using Livewire test helpers:
-// Select a date
-Livewire::test(YourForm::class)
-    ->set('appointment_date', '2023-06-15')
-    ->assertSet('appointment_date', '2023-06-15');
-// Test validation
-    ->call('submit')
-    ->assertHasErrors(['appointment_date' => 'required']);
-## Troubleshooting
-### Dates not being selected
-Make sure the date format matches the expected format (Y-m-d). The component expects dates in 'YYYY-MM-DD' format.
-### Navigation not working
-Check that you're not overriding the component's JavaScript with custom code. The navigation is handled by Alpine.js and Livewire.
-### Styling issues
-If the component doesn't look right, make sure you have the required Tailwind CSS utilities included in your build. The component uses standard Tailwind classes for styling.
-## Contributing
-
-<<<<<<< HEAD
-```
-=======
-Contributions are welcome! Please feel free to submit a Pull Request.
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-Contributions are welcome! Please feel free to submit a Pull Request.
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_gdc5in
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_0Aic6Q

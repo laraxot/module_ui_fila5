@@ -5,58 +5,8 @@ status: active
 created: 2026-05-28
 tags: [filament, ui, blade]
 related:
-<<<<<<< .merge_file_BQN6yO
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_p0HGb4
   - ../../../../../../docs/wiki/rules/filament-first-rule.md
   - ../../blade/filament-components.md
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-  - ../../../../../../docs/wiki/rules/filament-first-rule.md
-  - ../../blade/filament-components.md
-=======
->>>>>>> laraxot/dev
-  - "./auth-register-focus-loss-overlay.md"
-  - "./block-rendering-and-optional-services.md"
-  - "./claude-audit-static.md"
-  - "./code-redundancy-ui.md"
-  - "./context-overflow-prevention.md"
-  - "./enum-select-best-practices.md"
-  - "./enum-select-component.md"
-  - "./enum-select-contract-and-false-friends.md"
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-  - ../../../../../../docs/wiki/rules/filament-first-rule.md
-  - ../../blade/filament-components.md
-=======
->>>>>>> 804451c (Lint)
-  - "./auth-register-focus-loss-overlay.md"
-  - "./block-rendering-and-optional-services.md"
-  - "./claude-audit-static.md"
-  - "./code-redundancy-ui.md"
-  - "./context-overflow-prevention.md"
-  - "./enum-select-best-practices.md"
-  - "./enum-select-component.md"
-  - "./enum-select-contract-and-false-friends.md"
-<<<<<<< HEAD
-=======
-  - ../../../../../../docs/wiki/rules/filament-first-rule.md
-  - ../../blade/filament-components.md
->>>>>>> .merge_file_ENtphq
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-  - ../../../../../../docs/wiki/rules/filament-first-rule.md
-  - ../../blade/filament-components.md
->>>>>>> .merge_file_NRcVET
 ---
 
 # UI — Filament Blade canonical

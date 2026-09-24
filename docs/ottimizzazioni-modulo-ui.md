@@ -344,65 +344,11 @@ echo "✅ Consolidamento completato!"
 ## Collegamenti Bidirezionali
 
 ### Documentazione Correlata
-<<<<<<< .merge_file_7jqee1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_IBYfeu
 - [README](../readme.md) - Panoramica modulo UI
-=======
-<<<<<<< HEAD
-- [README](../README.md) - Panoramica modulo UI
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-- [README](../readme.md) - Panoramica modulo UI
-=======
-- [README](../README.md) - Panoramica modulo UI
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-- [README](../README.md) - Panoramica modulo UI
-=======
-- [README](../readme.md) - Panoramica modulo UI
->>>>>>> .merge_file_QzjW4V
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
-- [README](../readme.md) - Panoramica modulo UI
->>>>>>> .merge_file_Y3RFWY
 - [Architettura](./core/architecture.md) - Architettura modulo
 - [Convenzioni](./core/conventions.md) - Convenzioni unificate
 
 ### Documentazione Root
-<<<<<<< .merge_file_7jqee1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_IBYfeu
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-- [docs/ottimizzazioni-sistema.md](../../../docs/ottimizzazioni-sistema.md) - Ottimizzazioni sistema generale
-- [docs/architettura-moduli.md](../../../docs/architettura-moduli.md) - Architettura moduli
-
-### Documentazione Moduli Correlati
-- [Xot/docs/ottimizzazioni-modulo-xot.md](../../Xot/docs/ottimizzazioni-modulo-xot.md) - Ottimizzazioni modulo Xot
-- [User/docs/ottimizzazioni-modulo-user.md](../../User/docs/ottimizzazioni-modulo-user.md) - Ottimizzazioni modulo User
-
----
-
-**Ultimo aggiornamento:** 2025-01-06
-=======
->>>>>>> .merge_file_QzjW4V
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_Y3RFWY
 - [docs/ottimizzazioni-sistema.md](../../../../docs/ottimizzazioni-sistema.md) - Ottimizzazioni sistema generale
 - [docs/architettura-moduli.md](../../../../docs/architettura-moduli.md) - Architettura moduli
 
@@ -412,38 +358,6 @@ echo "✅ Consolidamento completato!"
 
 ---
 
-<<<<<<< .merge_file_7jqee1
-<<<<<<< HEAD
-<<<<<<< .merge_file_IBYfeu
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-- [docs/ottimizzazioni-sistema.md](../../../docs/ottimizzazioni-sistema.md) - Ottimizzazioni sistema generale
-- [docs/architettura-moduli.md](../../../docs/architettura-moduli.md) - Architettura moduli
-
-### Documentazione Moduli Correlati
-- [Xot/docs/ottimizzazioni-modulo-xot.md](../../Xot/docs/ottimizzazioni-modulo-xot.md) - Ottimizzazioni modulo Xot
-- [User/docs/ottimizzazioni-modulo-user.md](../../User/docs/ottimizzazioni-modulo-user.md) - Ottimizzazioni modulo User
-
----
-
-**Ultimo aggiornamento:** 2025-01-06
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_QzjW4V
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_Y3RFWY
 **Stato:** In implementazione
 **Responsabile:** Team Sviluppo UI
 **Priorità:** ALTA (duplicazioni massive identificate)
