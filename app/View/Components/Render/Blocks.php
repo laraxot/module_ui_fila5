@@ -11,7 +11,7 @@ declare(strict_types=1);
  * passes the `$view`, `$blocks`, and `$model` parameters to the view for rendering.
  */
 
-declare(strict_types=1);
+
 
 namespace Modules\UI\View\Components\Render;
 
