@@ -20,6 +20,7 @@ docs/
 │   ├── index.md           # Catalogo
 │   ├── log.md             # Registro
 <<<<<<< HEAD
+<<<<<<< HEAD
 │   ├── SCHEMA.md          # Questo file
 │   ├── schema.md          # Questo file
 =======
@@ -32,6 +33,10 @@ docs/
 │   ├── schema.md          # Questo file
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+│   ├── SCHEMA.md          # Questo file
+│   ├── schema.md          # Questo file
 >>>>>>> laraxot/dev
 │   ├── concepts/          # Pattern, architettura
 │   ├── entities/          # Modelli, azioni
@@ -48,8 +53,11 @@ docs/
 - NON modificare mai `docs/raw/`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ---
 

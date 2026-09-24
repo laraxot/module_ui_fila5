@@ -15,10 +15,15 @@ uses(TestCase::class)->group('no-ui-db');
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param list<string> $roles
  *
 =======
  * @param  list<string>  $roles
+>>>>>>> laraxot/dev
+=======
+ * @param list<string> $roles
+ *
 >>>>>>> laraxot/dev
  * @return MockInterface&UserContract
  */
@@ -32,9 +37,13 @@ function uiBehaviorUser(array $roles = []): UserContract
             $normalizzati = is_array($richiesti) ? $richiesti : [$richiesti];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
             return [] !== array_intersect($normalizzati, $roles);
 =======
             return array_intersect($normalizzati, $roles) !== [];
+>>>>>>> laraxot/dev
+=======
+            return [] !== array_intersect($normalizzati, $roles);
 >>>>>>> laraxot/dev
         });
 
@@ -47,9 +56,13 @@ afterEach(function (): void {
 
 test('UiBasePolicy before concede super-admin e ritorna null altrimenti', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
     $policy = new UiBasePolicyBehaviorConcretePolicy();
 =======
     $policy = new UiBasePolicyBehaviorConcretePolicy;
+>>>>>>> laraxot/dev
+=======
+    $policy = new UiBasePolicyBehaviorConcretePolicy();
 >>>>>>> laraxot/dev
     $super = uiBehaviorUser(['super-admin']);
 

@@ -5,8 +5,12 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\UI\Database\Factories\CollectionFactory;
 =======
+>>>>>>> laraxot/dev
+=======
+use Modules\UI\Database\Factories\CollectionFactory;
 >>>>>>> laraxot/dev
 use Modules\UI\Models\Collection;
 use Modules\UI\Tests\TestCase;
@@ -16,11 +20,16 @@ uses(TestCase::class);
 
 describe('Collection Model', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
     test('it can create a collection with valid data', function (): void {
         $collection = CollectionFactory::new()->createOne([
 =======
     test('it can hydrate a collection with valid data in memory', function (): void {
         $collection = new Collection([
+>>>>>>> laraxot/dev
+=======
+    test('it can create a collection with valid data', function (): void {
+        $collection = CollectionFactory::new()->createOne([
 >>>>>>> laraxot/dev
             'name' => 'Hero Components',
             'type' => 'block',
@@ -30,17 +39,23 @@ describe('Collection Model', function (): void {
         Assert::assertSame('block', $collection->type);
         Assert::assertSame('Hero Components', $collection->name);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
         Assert::assertSame(1, $collection->theme_id);
     });
 
     test('it has fillable attributes', function (): void {
         $collection = new Collection();
+<<<<<<< HEAD
 =======
         Assert::assertSame(1, (int) $collection->theme_id);
     });
 
     test('it has fillable attributes', function (): void {
         $collection = new Collection;
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         $expected = ['name', 'description', 'type'];
 
@@ -51,9 +66,13 @@ describe('Collection Model', function (): void {
 
     test('collection has timestamps enabled', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $collection = new Collection();
 =======
         $collection = new Collection;
+>>>>>>> laraxot/dev
+=======
+        $collection = new Collection();
 >>>>>>> laraxot/dev
 
         Assert::assertTrue($collection->timestamps);

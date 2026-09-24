@@ -31,6 +31,7 @@ Depending on where your site is hosted, you may need to configure your server to
 ### Versione HEAD
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -54,6 +55,8 @@ Depending on where your site is hosted, you may need to configure your server to
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ## Collegamenti tra versioni di custom-404-page.md
 * [custom-404-page.md](../../../Gdpr/docs/custom-404-page.md)
 * [custom-404-page.md](../../../Xot/docs/custom-404-page.md)
@@ -61,6 +64,7 @@ Depending on where your site is hosted, you may need to configure your server to
 * [custom-404-page.md](../../../Tenant/docs/it/custom-404-page.md)
 * [custom-404-page.md](../../../Cms/docs/custom-404-page.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -75,6 +79,8 @@ Depending on where your site is hosted, you may need to configure your server to
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ### Versione Incoming
@@ -118,6 +124,7 @@ Depending on where your site is hosted, you may need to configure your server to
 
 ## Collegamenti tra versioni di custom-404-page.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -132,6 +139,8 @@ Depending on where your site is hosted, you may need to configure your server to
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 * [custom-404-page.md](../../../Gdpr/project_docs/custom-404-page.md)
 * [custom-404-page.md](../../../Xot/project_docs/custom-404-page.md)
@@ -140,6 +149,7 @@ Depending on where your site is hosted, you may need to configure your server to
 * [custom-404-page.md](../../../Cms/project_docs/custom-404-page.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Versione Incoming
 
 ---
@@ -163,10 +173,16 @@ Depending on where your site is hosted, you may need to configure your server to
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+### Versione Incoming
+
+---
+>>>>>>> laraxot/dev
 
 ### Versione Incoming
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ---
 ### Versione Incoming
@@ -194,4 +210,8 @@ Depending on where your site is hosted, you may need to configure your server to
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+---
+### Versione Incoming
 >>>>>>> laraxot/dev

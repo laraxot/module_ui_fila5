@@ -13,6 +13,7 @@
 ## Collegamenti correlati
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Architettura Modulare](/laravel/Modules/UI/docs/ARCHITECTURE.md)
 =======
 <<<<<<< HEAD
@@ -20,6 +21,9 @@
 =======
 - [Architettura Modulare](/laravel/Modules/UI/docs/architecture.md)
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+- [Architettura Modulare](/laravel/Modules/UI/docs/ARCHITECTURE.md)
 >>>>>>> laraxot/dev
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
 
@@ -30,6 +34,7 @@
 , è fondamentale rispettare la struttura corretta delle directory per gli asset pubblici:
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 /var/www/html/saluteora/
 [project-root]/
@@ -57,6 +62,10 @@
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+/var/www/html/saluteora/
+[project-root]/
 >>>>>>> laraxot/dev
 ├── laravel/                 # Applicazione Laravel (codice sorgente)
 │   ├── Modules/             # Moduli dell'applicazione
@@ -76,6 +85,7 @@
 | Tipo di Asset | ✅ Percorso Corretto | ❌ Percorso Errato |
 |---------------|---------------------|-------------------|
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -88,12 +98,15 @@
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 | Immagini | `[project-root]/public_html/images/` | `[project-root]/laravel/public/images/` |
 | CSS | `[project-root]/public_html/css/` | `[project-root]/laravel/public/css/` |
 | JavaScript | `[project-root]/public_html/js/` | `[project-root]/laravel/public/js/` |
 | SVG | `[project-root]/public_html/images/` | `[project-root]/laravel/public/images/` |
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -104,12 +117,15 @@
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 | Immagini | `/var/www/html/saluteora/public_html/images/` | `/var/www/html/saluteora/laravel/public/images/` |
 | CSS | `/var/www/html/saluteora/public_html/css/` | `/var/www/html/saluteora/laravel/public/css/` |
 | JavaScript | `/var/www/html/saluteora/public_html/js/` | `/var/www/html/saluteora/laravel/public/js/` |
 | SVG | `/var/www/html/saluteora/public_html/images/` | `/var/www/html/saluteora/laravel/public/images/` |
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -122,6 +138,8 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ## Utilizzo degli Asset nei Componenti Blade
@@ -154,6 +172,7 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/
 [project-root]/laravel/Themes/One/resources/views/components/ui/
 =======
@@ -180,6 +199,10 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+/var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/
+[project-root]/laravel/Themes/One/resources/views/components/ui/
 >>>>>>> laraxot/dev
 ```
 
@@ -189,6 +212,7 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/saluteora/public_html/images/
 [project-root]/public_html/images/
 =======
@@ -215,6 +239,10 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+/var/www/html/saluteora/public_html/images/
+[project-root]/public_html/images/
 >>>>>>> laraxot/dev
 ```
 
@@ -226,6 +254,7 @@ Il componente avatar è implementato in:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 [project-root]/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 =======
@@ -252,6 +281,10 @@ Il componente avatar è implementato in:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+/var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
+[project-root]/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 >>>>>>> laraxot/dev
 ```
 
@@ -259,6 +292,7 @@ E utilizza gli avatar SVG dalla directory pubblica:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/saluteora/public_html/images/avatars/
 [project-root]/public_html/images/avatars/
 =======
@@ -285,6 +319,10 @@ E utilizza gli avatar SVG dalla directory pubblica:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+/var/www/html/saluteora/public_html/images/avatars/
+[project-root]/public_html/images/avatars/
 >>>>>>> laraxot/dev
 ```
 
@@ -294,6 +332,7 @@ Il componente icon è implementato in:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 [project-root]/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 =======
@@ -320,6 +359,10 @@ Il componente icon è implementato in:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+/var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/icon.blade.php
+[project-root]/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 >>>>>>> laraxot/dev
 ```
 
@@ -362,6 +405,7 @@ E include le definizioni SVG direttamente nel componente.
 ## Errori Comuni
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/saluteora/laravel/public/` invece di `/var/www/html/saluteora/public_html/`
 1. **Utilizzo del percorso Laravel public**: Utilizzare `[project-root]/laravel/public/` invece di `[project-root]/public_html/`
 =======
@@ -388,6 +432,10 @@ E include le definizioni SVG direttamente nel componente.
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/saluteora/laravel/public/` invece di `/var/www/html/saluteora/public_html/`
+1. **Utilizzo del percorso Laravel public**: Utilizzare `[project-root]/laravel/public/` invece di `[project-root]/public_html/`
 >>>>>>> laraxot/dev
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile

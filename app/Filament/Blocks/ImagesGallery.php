@@ -65,9 +65,13 @@ final class ImagesGallery
                 //     ->columnSpanFull(),
             ])
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->columns('form' === $context ? 2 : 1);
 =======
             ->columns($context === 'form' ? 2 : 1);
+>>>>>>> laraxot/dev
+=======
+            ->columns('form' === $context ? 2 : 1);
 >>>>>>> laraxot/dev
     }
 

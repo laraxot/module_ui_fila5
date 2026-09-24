@@ -10,6 +10,7 @@ related:
   - "../../multi-org-sync-laraxot-provtv.md"
   - "../../git-multi-org-sync-handoff.md"
 <<<<<<< HEAD
+<<<<<<< HEAD
   - "./git-push-lfs-missing-objects.md"
   - "./git-push-lfs-missing-objects.md"
 =======
@@ -37,6 +38,10 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+  - "./git-push-lfs-missing-objects.md"
+  - "./git-push-lfs-missing-objects.md"
 >>>>>>> laraxot/dev
   - "../../../../User/docs/wiki/troubleshooting/git-push-dual-remote-unrelated.md"
 ---
@@ -70,6 +75,7 @@ A differenza del caso User (diagnosticato una volta, poi fermo), su UI il ri-mer
 
 - Stesso pattern, altro modulo: [User git-push-dual-remote-unrelated](../../../../User/docs/wiki/troubleshooting/git-push-dual-remote-unrelated.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - LFS / `--no-thin`: [UI git-push-lfs-missing-objects](./git-push-lfs-missing-objects.md)
 - LFS / `--no-thin`: [UI git-push-lfs-missing-objects](./git-push-lfs-missing-objects.md)
 =======
@@ -97,5 +103,9 @@ A differenza del caso User (diagnosticato una volta, poi fermo), su UI il ri-mer
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- LFS / `--no-thin`: [UI git-push-lfs-missing-objects](./git-push-lfs-missing-objects.md)
+- LFS / `--no-thin`: [UI git-push-lfs-missing-objects](./git-push-lfs-missing-objects.md)
 >>>>>>> laraxot/dev
 - Storico risoluzione marker di conflitto (73 file, poi ricorsi): [git-merge-conflict-inventory.md](./git-merge-conflict-inventory.md)

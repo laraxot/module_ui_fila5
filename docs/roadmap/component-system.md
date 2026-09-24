@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -13,6 +14,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ---
 title: "Sistema Componenti UI"
@@ -34,6 +37,7 @@ related:
   - "./03-later.md"
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -52,6 +56,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # Sistema Componenti UI
 
@@ -250,6 +256,7 @@ protected function resolveLazyProp(string $key): mixed
 3. Migliorare test coverage
 4. Documentare best practices
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 5. Ottimizzare performance 
@@ -267,6 +274,8 @@ protected function resolveLazyProp(string $key): mixed
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 5. Ottimizzare performance
 # Sistema Componenti UI
@@ -402,6 +411,7 @@ protected function resolveLazyProp(string $key): mixed
 3. Migliorare test coverage
 4. Documentare best practices
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -421,4 +431,6 @@ protected function resolveLazyProp(string $key): mixed
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

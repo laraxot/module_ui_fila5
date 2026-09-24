@@ -17,11 +17,15 @@
 <div class="form-group">
   <label for="email">Email</label>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
   <input
     type="email"
     id="email"
     type="email" 
     id="email" 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
   <input 
@@ -61,6 +65,8 @@
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     class="form-control is-invalid"
     aria-describedby="email-error"
@@ -76,11 +82,15 @@
 <div class="form-group">
   <label for="search">Cerca</label>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
   <input
     type="text"
     id="search"
     type="text" 
     id="search" 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
   <input 
@@ -120,6 +130,8 @@
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     class="form-control"
     list="suggestions"
@@ -140,11 +152,15 @@
   <label for="date">Data</label>
   <div class="input-group datepicker">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
     <input
       type="text"
       id="date"
       type="text" 
       id="date" 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     <input 
@@ -184,6 +200,8 @@
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
       class="form-control"
       data-date-format="dd/mm/yyyy"
@@ -201,11 +219,15 @@
   <label for="time">Ora</label>
   <div class="input-group timepicker">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
     <input
       type="text"
       id="time"
       type="text" 
       id="time" 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     <input 
@@ -245,6 +267,8 @@
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
       class="form-control"
       data-time-format="HH:mm"
@@ -263,11 +287,15 @@
 <div class="form-group">
   <label for="range">Range</label>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
   <input
     type="range"
     id="range"
     type="range" 
     id="range" 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
   <input 
@@ -307,6 +335,8 @@
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     class="form-range"
     min="0"
@@ -324,11 +354,15 @@
   <div class="input-group">
     <button class="btn btn-outline-secondary" type="button">-</button>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
     <input
       type="number"
       id="quantity"
       type="number" 
       id="quantity" 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     <input 
@@ -368,6 +402,8 @@
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
       class="form-control text-center"
       min="0"
@@ -418,6 +454,7 @@
     box-shadow: 0 0 0 0.2rem rgba($primary, 0.25);
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -434,12 +471,15 @@
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
   
   &.is-invalid {
     border-color: $danger;
     
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -452,11 +492,14 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
   &.is-invalid {
     border-color: $danger;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -472,6 +515,8 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     &:focus {
       box-shadow: 0 0 0 0.2rem rgba($danger, 0.25);
@@ -485,6 +530,7 @@
 .input-group {
   transition: all 0.3s ease;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -513,6 +559,8 @@
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
   &:focus-within {
     transform: translateY(-1px);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -525,6 +573,7 @@
 - [Feedback](./feedback-components.md)
 - [Accessibilità](./standards/accessibility.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - [Performance](./standards/performance.md) 
@@ -542,6 +591,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [Performance](./standards/performance.md)
 # Componenti Form Avanzati
@@ -662,6 +713,7 @@
 - [Feedback](./feedback-components.md)
 - [Accessibilità](./standards/accessibility.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ```
 =======
@@ -685,4 +737,8 @@
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+```
 >>>>>>> laraxot/dev

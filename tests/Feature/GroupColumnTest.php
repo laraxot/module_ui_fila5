@@ -189,9 +189,13 @@ describe('GroupColumn view rendering', function (): void {
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'attributes' => new ComponentAttributeBag(),
 =======
             'attributes' => new ComponentAttributeBag,
+>>>>>>> laraxot/dev
+=======
+            'attributes' => new ComponentAttributeBag(),
 >>>>>>> laraxot/dev
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
@@ -226,9 +230,13 @@ describe('GroupColumn view rendering', function (): void {
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'attributes' => new ComponentAttributeBag(),
 =======
             'attributes' => new ComponentAttributeBag,
+>>>>>>> laraxot/dev
+=======
+            'attributes' => new ComponentAttributeBag(),
 >>>>>>> laraxot/dev
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
@@ -252,9 +260,13 @@ describe('GroupColumn view rendering', function (): void {
         // The view logic: skip if empty($value) && $value !== 0 && $value !== '0'
         $shouldSkip = static function (mixed $value): bool {
 <<<<<<< HEAD
+<<<<<<< HEAD
             return empty($value) && 0 !== $value && '0' !== $value;
 =======
             return empty($value) && $value !== 0 && $value !== '0';
+>>>>>>> laraxot/dev
+=======
+            return empty($value) && 0 !== $value && '0' !== $value;
 >>>>>>> laraxot/dev
         };
 
@@ -274,9 +286,13 @@ describe('GroupColumn view rendering', function (): void {
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'attributes' => new ComponentAttributeBag(),
 =======
             'attributes' => new ComponentAttributeBag,
+>>>>>>> laraxot/dev
+=======
+            'attributes' => new ComponentAttributeBag(),
 >>>>>>> laraxot/dev
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
@@ -315,9 +331,13 @@ describe('GroupColumn view rendering', function (): void {
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'attributes' => new ComponentAttributeBag(),
 =======
             'attributes' => new ComponentAttributeBag,
+>>>>>>> laraxot/dev
+=======
+            'attributes' => new ComponentAttributeBag(),
 >>>>>>> laraxot/dev
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
@@ -339,9 +359,13 @@ describe('GroupColumn view rendering', function (): void {
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'attributes' => new ComponentAttributeBag(),
 =======
             'attributes' => new ComponentAttributeBag,
+>>>>>>> laraxot/dev
+=======
+            'attributes' => new ComponentAttributeBag(),
 >>>>>>> laraxot/dev
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,

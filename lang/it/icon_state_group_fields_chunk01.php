@@ -7,6 +7,9 @@ declare(strict_types=1);
 // Canon: Modules/UI/docs/wiki/concepts/claude-audit-static.md
 // File: lang/it/icon_state_group_fields_chunk01.php
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 return array (
 // UI — translation section (claude-audit doc ratio).
 // UI — translation section (claude-audit doc ratio).
@@ -310,6 +313,7 @@ return array (
     'description' => '',
   ),
 );
+<<<<<<< HEAD
 =======
 return [
     // UI — translation section (claude-audit doc ratio).
@@ -573,4 +577,6 @@ return [
         'description' => '',
     ],
 ];
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

@@ -5,20 +5,27 @@ declare(strict_types=1);
 namespace Modules\UI\Actions;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
 use Modules\UI\Datas\UserData;
 use Modules\User\Models\Profile;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 =======
 use Modules\User\Models\User;
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
+>>>>>>> laraxot/dev
+=======
+use Modules\Xot\Actions\Cast\SafeIntCastAction;
 >>>>>>> laraxot/dev
 use Modules\Xot\Contracts\UserContract;
 use Spatie\Permission\Contracts\Permission;
@@ -33,6 +40,9 @@ class GetUserDataAction
         $user = Auth::user();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
         if (! $user instanceof UserContract) {
             return null;
         }
@@ -49,6 +59,7 @@ class GetUserDataAction
             if (is_string($profilePhotoPath) && '' !== $profilePhotoPath) {
                 $avatar = $profilePhotoPath;
             }
+<<<<<<< HEAD
 =======
         if (! $user instanceof User) {
             return null;
@@ -64,6 +75,8 @@ class GetUserDataAction
         $profilePhotoPath = property_exists($user, 'profile_photo_path') ? $user->profile_photo_path : null;
         if (null === $avatarValue && is_string($profilePhotoPath) && $profilePhotoPath !== '') {
             $avatarValue = $profilePhotoPath;
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         }
 
@@ -89,11 +102,16 @@ class GetUserDataAction
         $permissions = $allPermissions->pluck('name')->toArray();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $userName = $user->name;
         $userEmail = $user->email;
 =======
         $userName = property_exists($user, 'name') ? $user->name : null;
         $userEmail = property_exists($user, 'email') ? $user->email : null;
+>>>>>>> laraxot/dev
+=======
+        $userName = $user->name;
+        $userEmail = $user->email;
 >>>>>>> laraxot/dev
 
         return new UserData(
@@ -101,9 +119,13 @@ class GetUserDataAction
             name: is_string($userName) ? $userName : '',
             email: is_string($userEmail) ? $userEmail : '',
 <<<<<<< HEAD
+<<<<<<< HEAD
             avatar: $avatar,
 =======
             avatar: $avatarValue,
+>>>>>>> laraxot/dev
+=======
+            avatar: $avatar,
 >>>>>>> laraxot/dev
             role: $roleValue,
             permissions: $permissions,
@@ -111,7 +133,11 @@ class GetUserDataAction
         );
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> laraxot/dev
 =======
 }
 >>>>>>> laraxot/dev

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ---
 title: "Blocks"
@@ -30,6 +31,8 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 https://github.com/whitecube/nova-flexible-content
 

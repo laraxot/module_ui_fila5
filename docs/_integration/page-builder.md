@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 # page_builder
@@ -18,6 +19,8 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ---
 title: "page_builder"
@@ -38,11 +41,15 @@ related:
   - "./custom-firm-fields-1.md"
   - "./custom-firm-fields.md"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 
 # page_builder
 <!-- Contenuto migrato da _docs/page_builder.txt -->
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -104,4 +111,6 @@ https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

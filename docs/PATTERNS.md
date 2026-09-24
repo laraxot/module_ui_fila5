@@ -357,6 +357,7 @@ Quando aggiungi feature nuova a UI:
 
 - [README](./README.md) — Overview modulo
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [INDEX](./index.md) — Documentazione index completo
 =======
 <<<<<<< HEAD
@@ -364,6 +365,9 @@ Quando aggiungi feature nuova a UI:
 =======
 - [INDEX](./INDEX.md) — Documentazione index completo
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [INDEX](./index.md) — Documentazione index completo
 >>>>>>> laraxot/dev
 - [TROUBLESHOOTING](./TROUBLESHOOTING.md) — Errori comuni e soluzioni
 - [architecture/component-registration](./architecture/component-registration.md) — Registrazione dettagliata

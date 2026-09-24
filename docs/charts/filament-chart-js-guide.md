@@ -6,6 +6,7 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament-chart-js-guide filament chart.js guide"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
@@ -21,6 +22,10 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> laraxot/dev
 related:
   - "./chartjs-datalabels-multiple-labels-complete-guide.md"
@@ -138,6 +143,7 @@ See the **[LimeSurvey Professional Charts Guide](../../../limesurvey/docs/profes
 
 **Do NOT** use `dompdf` or client-side canvas capture for charts.
 <<<<<<< HEAD
+<<<<<<< HEAD
 The architectural standard for modulo questionari is **Spatie Laravel PDF** (a wrapper around Browsershot).
 =======
 <<<<<<< HEAD
@@ -163,6 +169,9 @@ The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper arou
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+The architectural standard for modulo questionari is **Spatie Laravel PDF** (a wrapper around Browsershot).
 >>>>>>> laraxot/dev
 
 **Pattern:** "Shadow Report Views"

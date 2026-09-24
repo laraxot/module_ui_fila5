@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -13,6 +14,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ---
 title: "FullCalendar Component for Filament"
@@ -34,6 +37,7 @@ related:
   - "./full-calendar-1.md"
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -52,6 +56,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # FullCalendar Component for Filament
 
@@ -103,6 +109,7 @@ use Saade\FilamentFullCalendar\Data\EventData;
 /**
  * Base widget for FullCalendar.
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
 <<<<<<< HEAD
@@ -128,6 +135,9 @@ use Saade\FilamentFullCalendar\Data\EventData;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+ *
 >>>>>>> laraxot/dev
  * Provides core functionality for all calendars in the application.
  */
@@ -170,6 +180,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
                 ->helperText(__('ui::calendar.fields.title.help'))
                 ->required(),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -197,6 +208,8 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             Forms\Components\Grid::make()
                 ->schema([
@@ -204,6 +217,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
                         ->label(__('ui::calendar.fields.start_date.label'))
                         ->required(),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -231,12 +245,15 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
                     Forms\Components\DateTimePicker::make('end_date')
                         ->label(__('ui::calendar.fields.end_date.label'))
                         ->required(),
                 ]),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -264,12 +281,15 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             Forms\Components\Textarea::make('description')
                 ->label(__('ui::calendar.fields.description.label'))
                 ->placeholder(__('ui::calendar.fields.description.placeholder'))
                 ->columnSpanFull(),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -287,12 +307,15 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
                 
             Forms\Components\ColorPicker::make('color')
                 ->label(__('ui::calendar.fields.color.label'))
                 ->rgb(),
                 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -305,12 +328,15 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
             Forms\Components\ColorPicker::make('color')
                 ->label(__('ui::calendar.fields.color.label'))
                 ->rgb(),
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -326,6 +352,8 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             Forms\Components\Toggle::make('is_all_day')
                 ->label(__('ui::calendar.fields.is_all_day.label'))
@@ -472,6 +500,7 @@ To use the widget in a Blade view:
 ## Backlinks and References
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Ptv Module - Calendar Usage](../../Ptv/docs/features/full_calendar.md)
 =======
 <<<<<<< HEAD
@@ -505,6 +534,9 @@ To use the widget in a Blade view:
 >>>>>>> laraxot/dev
 - [Ptv Module - Calendar Usage](../../ptv/docs/features/full-calendar-1.md)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [Ptv Module - Calendar Usage](../../Ptv/docs/features/full_calendar.md)
 >>>>>>> laraxot/dev
 - [Official Saade FullCalendar Documentation](https://github.com/saade/filament-fullcalendar)
 - [FullCalendar.io Documentation](https://fullcalendar.io/docs)
@@ -675,6 +707,7 @@ To use the widget in a Blade view:
 ## Backlinks and References
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```
 =======
 <<<<<<< HEAD
@@ -700,4 +733,7 @@ To use the widget in a Blade view:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+```
 >>>>>>> laraxot/dev

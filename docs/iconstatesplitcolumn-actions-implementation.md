@@ -14,6 +14,7 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 
 <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-1 p-1">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -31,10 +32,13 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     <x-filament::icon-button 
         icon="heroicon-m-plus" 
         wire:click="prova({{ $record->id }})" 
         label="Test Azione" 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -337,6 +341,8 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 
 <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-1 p-1">
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     <x-filament::icon-button
         icon="heroicon-m-plus"
         wire:click="prova({{ $record->id }})"
@@ -400,10 +406,16 @@ public function prova($recordId): void
 ### Nel Template
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 <x-filament::icon-button 
     icon="heroicon-m-plus" 
     wire:click="prova({{ $record->id }})" 
     label="Test Azione" 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 <x-filament::icon-button
@@ -445,8 +457,11 @@ public function transitionState($recordId, $stateClass): void
     $record = $this->modelClass::find($recordId);
     $record->state->transitionTo($stateClass);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     \Filament\Notifications\Notification::make()
         ->title('Transizione Completata')
@@ -458,10 +473,16 @@ public function transitionState($recordId, $stateClass): void
 ### 2. Aggiungere il pulsante nel template
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 <x-filament::icon-button 
     icon="heroicon-o-arrow-right" 
     wire:click="transitionState({{ $record->id }}, '{{ $stateClass }}')" 
     label="Cambia Stato" 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 <x-filament::icon-button
@@ -484,6 +505,7 @@ La soluzione semplice è la migliore perché:
 **Last Updated**: June 2025
 **Version**: 2.3
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Compatibility**: Filament 4.x, Laravel 10.x 
 =======
 **Compatibility**: Filament 3.x, Laravel 10.x
@@ -504,4 +526,7 @@ La soluzione semplice è la migliore perché:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+**Compatibility**: Filament 4.x, Laravel 10.x 
 >>>>>>> laraxot/dev

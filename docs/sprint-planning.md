@@ -1,9 +1,12 @@
 <<<<<<< HEAD
-=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # Sprint Planning: UI Kit Polish
@@ -17,6 +20,7 @@ Complete the standardization of UI documentation and fix reported accessibility 
 | Standardize UI Docs | 1 | @Gemini | ✅ Done |
 | Modal Accessibility Fix | 2 | @CoreTeam | 📥 Todo |
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -28,6 +32,8 @@ Complete the standardization of UI documentation and fix reported accessibility 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # UI Module - Sprint Planning
 
@@ -99,6 +105,7 @@ Implement core design system with essential UI components.
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Last Updated: March 12, 2026*
 =======
 <<<<<<< HEAD
@@ -123,10 +130,14 @@ Implement core design system with essential UI components.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+*Last Updated: March 12, 2026*
+>>>>>>> laraxot/dev
 
 ## ✅ Definition of Done
 - All 6 files exist.
 - Accessibility scores > 95 on Lighthouse for core pages.
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -143,4 +154,6 @@ Implement core design system with essential UI components.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

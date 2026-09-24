@@ -4,11 +4,15 @@ type: concept
 tags: [test]
 created: 2026-07-14
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 updated: 2026-09-24
 qmd: "test ui docs stub"
 ---
 
 Stub di test per la cartella `docs/root-md-files`. Non usare in produzione.
+<<<<<<< HEAD
 =======
 updated: 2026-07-14
 qmd: "test test"
@@ -35,4 +39,6 @@ related:
   - "./ci.md"
 ---
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

@@ -10,6 +10,7 @@
 ## 🎯 PANORAMICA
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione <nome progetto>.
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione progetto corrente.
@@ -38,6 +39,11 @@ Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modu
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
+Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione <nome progetto>.
+Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione progetto corrente.
 >>>>>>> laraxot/dev
 
 ---
@@ -459,6 +465,7 @@ class MapService
                     'status' => $ticket->status->slug,
                     'priority' => $ticket->priority->slug,
 <<<<<<< HEAD
+<<<<<<< HEAD
                     'url' => route('<nome progetto>.tickets.show', $ticket)
                     'url' => route('fixcity.tickets.show', $ticket)
                     'url' => route('tickets.show', $ticket)
@@ -488,6 +495,11 @@ class MapService
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+                    'url' => route('<nome progetto>.tickets.show', $ticket)
+                    'url' => route('fixcity.tickets.show', $ticket)
+                    'url' => route('tickets.show', $ticket)
 >>>>>>> laraxot/dev
                 ];
             })
@@ -569,6 +581,7 @@ class GeocodingService
         </div>
         <div class="col-md-4">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <livewire:<nome progetto>::components.ticket-stats />
             <livewire:fixcity::components.ticket-stats />
             <livewire:project::components.ticket-stats />
@@ -598,6 +611,11 @@ class GeocodingService
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+            <livewire:<nome progetto>::components.ticket-stats />
+            <livewire:fixcity::components.ticket-stats />
+            <livewire:project::components.ticket-stats />
 >>>>>>> laraxot/dev
         </div>
     </div>
@@ -653,6 +671,7 @@ class GeocodingService
 
 ### 📅 Fase 3: Integrazione (Settimana 3)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Integrazione con modulo Fixcity
 - [ ] Integrazione con modulo <nome progetto>
 - [ ] Integrazione con modulo progetto corrente
@@ -681,6 +700,11 @@ class GeocodingService
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [ ] Integrazione con modulo Fixcity
+- [ ] Integrazione con modulo <nome progetto>
+- [ ] Integrazione con modulo progetto corrente
 >>>>>>> laraxot/dev
 - [ ] Integrazione con modulo User
 - [ ] API endpoints per mappa

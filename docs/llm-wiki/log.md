@@ -6,10 +6,14 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "log ui activity log"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
@@ -23,6 +27,8 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 related:
   - "./agents.md"
@@ -40,6 +46,7 @@ related:
 ## [2026-04-15] maintenance | Initial wiki setup
 - Created: llm-wiki/ directory structure
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Created: AGENTS.md (agent instructions)
 =======
 <<<<<<< HEAD
@@ -47,6 +54,9 @@ related:
 =======
 - Created: agents.md (agent instructions)
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+- Created: AGENTS.md (agent instructions)
 >>>>>>> laraxot/dev
 - Created: index.md (content catalog)
 - Created: log.md (this file)

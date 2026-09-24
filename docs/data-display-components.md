@@ -170,6 +170,7 @@ new Chart(ctx, {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -197,6 +198,8 @@ new Chart(ctx, {
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
   @media (max-width: 768px) {
     .table {
@@ -212,6 +215,7 @@ new Chart(ctx, {
   position: relative;
   height: 300px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -240,6 +244,8 @@ new Chart(ctx, {
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
   canvas {
     animation: fadeIn 0.5s ease;
   }
@@ -251,6 +257,7 @@ new Chart(ctx, {
 - [Form Avanzati](./advanced-form-components.md)
 - [Accessibilità](./standards/accessibility.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - [Performance](./standards/performance.md) 
@@ -268,6 +275,8 @@ new Chart(ctx, {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [Performance](./standards/performance.md)
 # Componenti Visualizzazione Dati
@@ -402,6 +411,7 @@ const ctx = document.getElementById('pieChart').getContext('2d');
 - [Form Avanzati](./advanced-form-components.md)
 - [Accessibilità](./standards/accessibility.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ```
 =======
@@ -425,4 +435,8 @@ const ctx = document.getElementById('pieChart').getContext('2d');
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+```
 >>>>>>> laraxot/dev

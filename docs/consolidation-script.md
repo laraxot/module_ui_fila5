@@ -84,6 +84,9 @@ mkdir -p archive
 
 # Spostare file con date
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 mv dry-kiss-analysis-[DATE].md archive/dry-kiss-analysis.md 2>/dev/null
 mv phpstan-level-10-cleanup-[DATE].md archive/phpstan-level-10-cleanup.md 2>/dev/null
 mv dry-kiss-analysis-2025-10-15.md archive/dry-kiss-analysis.md 2>/dev/null
@@ -92,9 +95,12 @@ mv dry-kiss-analysis-2025-10-15.md archive/dry-kiss-analysis.md 2>/dev/null
 mv phpstan-level-10-cleanup-2025-11-06.md archive/phpstan-level-10-cleanup.md 2>/dev/null
 mv dry-kiss-analysis-[DATE].md archive/dry-kiss-analysis.md 2>/dev/null
 mv phpstan-level-10-cleanup-[DATE].md archive/phpstan-level-10-cleanup.md 2>/dev/null
+<<<<<<< HEAD
 =======
 mv dry-kiss-analysis-2025-10-15.md archive/dry-kiss-analysis.md 2>/dev/null
 mv phpstan-level-10-cleanup-2025-11-06.md archive/phpstan-level-10-cleanup.md 2>/dev/null
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 # Consolidare file PHPStan con date
@@ -116,6 +122,9 @@ for file in *.md; do
     fi
 done
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 # Verificare se METODI_DUPLICATI_ANALISI.md è diverso da metodi-duplicati-analisi.md
 # Se sono identici, eliminare quello con maiuscole
 if [ -f "METODI_DUPLICATI_ANALISI.md" ]; then
@@ -137,6 +146,9 @@ for file in *.md; do
         fi
     fi
 done
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ```

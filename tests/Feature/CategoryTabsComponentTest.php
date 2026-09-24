@@ -10,8 +10,12 @@ use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Laraxot module file — see docs/wiki for domain contract.
 =======
+>>>>>>> laraxot/dev
+=======
+// Laraxot module file — see docs/wiki for domain contract.
 >>>>>>> laraxot/dev
 
 /**
@@ -20,21 +24,30 @@ uses(TestCase::class);
 function renderCategoryTabsHtml(array $data = []): ?string
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
     /** @var view-string $viewName pub_theme namespace is registered at runtime only */
     $viewName = 'pub_theme::components.blocks.navigation.category-tabs';
 
     if (! View::exists($viewName)) {
+<<<<<<< HEAD
 =======
     if (! View::exists('pub_theme::components.blocks.navigation.category-tabs')) {
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         return null;
     }
 
     try {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         /** @var view-string $viewName */
         $viewName = 'pub_theme::components.blocks.navigation.category-tabs';
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         return View::make($viewName, $data)->render();
     } catch (\Throwable) {
@@ -44,18 +57,26 @@ function renderCategoryTabsHtml(array $data = []): ?string
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @param array<string, mixed> $data
 =======
  * @param  array<string, mixed>  $data
+>>>>>>> laraxot/dev
+=======
+ * @param array<string, mixed> $data
 >>>>>>> laraxot/dev
  */
 function requireCategoryTabsHtml(array $data = []): string
 {
     $html = renderCategoryTabsHtml($data);
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (null === $html) {
 =======
     if ($html === null) {
+>>>>>>> laraxot/dev
+=======
+    if (null === $html) {
 >>>>>>> laraxot/dev
         Assert::markTestSkipped('pub_theme category-tabs view not available in this install.');
     }

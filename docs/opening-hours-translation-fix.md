@@ -9,6 +9,7 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
 ### Campi per Ogni Giorno
 - `morning` - Sezione mattutina
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `afternoon` - Sezione pomeridiana
 =======
 <<<<<<< HEAD
@@ -34,6 +35,9 @@ Il file `/laravel/Modules/UI/lang/en/opening_hours_field.php` conteneva molte vo
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+- `afternoon` - Sezione pomeridiana
 >>>>>>> laraxot/dev
 - `morning_label` - Etichetta attività mattutine
 - `afternoon_label` - Etichetta attività pomeridiane
@@ -160,6 +164,7 @@ done
 - **REGOLA CRITICA**: Struttura espansa per tutti i campi
 - **REGOLA CRITICA**: Sintassi moderna e tipizzazione stretta
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - **REGOLA CRITICA**: Controllo automatico con script
@@ -177,6 +182,8 @@ done
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - **REGOLA CRITICA**: Controllo automatico con script
 # Fix Traduzioni Opening Hours Field - Modulo UI
@@ -281,6 +288,7 @@ done
 - **REGOLA CRITICA**: Struttura espansa per tutti i campi
 - **REGOLA CRITICA**: Sintassi moderna e tipizzazione stretta
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ```
 =======
@@ -304,4 +312,8 @@ done
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+```
 >>>>>>> laraxot/dev

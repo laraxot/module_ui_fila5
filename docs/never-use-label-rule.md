@@ -1,6 +1,7 @@
 # REGOLA CRITICA: MAI usare ->label()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -15,6 +16,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ## ❌ ERRORE CRITICO - NON FARE MAI QUESTO
 
@@ -185,6 +188,7 @@ rules:
 # REGOLA CRITICA: MAI usare ->label()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -199,6 +203,8 @@ rules:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ## Data: 2025-01-06
 
@@ -313,6 +319,7 @@ TextColumn::make('status')
 ## Checklist Pre-Implementazione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Prima di usare qualsiasi componente Filament:
 ### Prima di usare qualsiasi componente Filament:
 =======
@@ -342,6 +349,10 @@ TextColumn::make('status')
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+### Prima di usare qualsiasi componente Filament:
+### Prima di usare qualsiasi componente Filament:
 >>>>>>> laraxot/dev
 ### Prima di usare un componente Filament:
 - [ ] Implementare traduzioni in `lang/it/fields.php`
@@ -355,6 +366,7 @@ TextColumn::make('status')
 - [ ] Controllare che tutte le traduzioni siano implementate
 - [ ] Testare che le traduzioni funzionino correttamente
 <<<<<<< HEAD
+<<<<<<< HEAD
 Prima di usare qualsiasi componente Filament:
 
 
@@ -389,6 +401,11 @@ Prima di usare qualsiasi componente Filament:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+Prima di usare qualsiasi componente Filament:
+
+
 >>>>>>> laraxot/dev
 - [ ] Implementare traduzioni in `lang/it/fields.php`
 - [ ] Implementare traduzioni in `lang/en/fields.php`
@@ -401,6 +418,7 @@ Prima di usare qualsiasi componente Filament:
 - [ ] Controllare che tutte le traduzioni siano implementate
 - [ ] Testare che le traduzioni funzionino correttamente
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -423,6 +441,8 @@ Prima di usare qualsiasi componente Filament:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ## Verifica Automatica
 
@@ -463,11 +483,14 @@ rules:
 ## Memoria Permanente
 
 <<<<<<< HEAD
-=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 **RICORDA SEMPRE**:
@@ -484,6 +507,7 @@ rules:
 
 *Ultimo aggiornamento: 2025-01-06*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -495,6 +519,8 @@ rules:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 **RICORDA SEMPRE**: 
 **RICORDA SEMPRE**:
@@ -508,6 +534,7 @@ rules:
 *Ultimo aggiornamento: 2025-01-06*
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06*
 =======
 <<<<<<< HEAD
@@ -520,6 +547,9 @@ rules:
 *Ultimo aggiornamento: 2025-01-06*
 =======
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+*Ultimo aggiornamento: 2025-01-06*
 >>>>>>> laraxot/dev
 **RICORDA SEMPRE**:
 - MAI usare `->label()` in componenti Filament
@@ -527,6 +557,7 @@ rules:
 - SEMPRE struttura espansa (label, placeholder, tooltip, helper_text)
 - SEMPRE sincronizzare IT/EN/DE
 - SEMPRE testare le traduzioni prima del commit
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -543,4 +574,6 @@ rules:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

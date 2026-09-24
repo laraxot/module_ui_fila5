@@ -35,6 +35,7 @@ Le Memories progettuali vivono qui, nel wiki del Module **UI**, e vengono carica
 - La sorgente di verita' per le Memories e' sempre il wiki locale
 - Non embeddare Memories nei prompt di avvio
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Per Memories globali, consulta il [wiki root](../../docs/wiki/memories/INDEX.md)
 =======
 <<<<<<< HEAD
@@ -42,6 +43,9 @@ Le Memories progettuali vivono qui, nel wiki del Module **UI**, e vengono carica
 =======
 - Per Memories globali, consulta il [wiki root](../../docs/wiki/memories/index.md)
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+- Per Memories globali, consulta il [wiki root](../../docs/wiki/memories/INDEX.md)
 >>>>>>> laraxot/dev
 
 ## Aggiungere una Nuova MEMORIES

@@ -3,8 +3,11 @@ module: theme
 topic: AGENTS
 canonical: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ---
 
@@ -17,6 +20,7 @@ See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Mo
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -40,6 +44,8 @@ See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Mo
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 related:
   - "./bmad-method.md"
@@ -49,6 +55,7 @@ related:
   - "./overview.md"
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -67,4 +74,6 @@ See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Mo
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

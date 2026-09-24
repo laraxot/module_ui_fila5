@@ -68,6 +68,7 @@ qmd query "$1" -c wiki --limit 3 > compressed_result.md
 
 # Estrai keyword principali
 <<<<<<< HEAD
+<<<<<<< HEAD
 qmd search "$1" -c <nome progetto>-docs | head -5 > keywords.txt
 qmd search "$1" -c project-docs | head -5 > keywords.txt
 =======
@@ -95,6 +96,10 @@ qmd search "$1" -c <nome progetto>-docs | head -5 > keywords.txt
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+qmd search "$1" -c <nome progetto>-docs | head -5 > keywords.txt
+qmd search "$1" -c project-docs | head -5 > keywords.txt
 >>>>>>> laraxot/dev
 
 # Genera sommario

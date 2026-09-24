@@ -1,10 +1,16 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 <?php
 
 declare(strict_types=1);
 
 // UI Blade view — see Modules/UI/docs/wiki.
 ?>
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 @props([
@@ -138,7 +144,11 @@ declare(strict_types=1);
         @endif
     </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 </div>
+=======
+</div>
+>>>>>>> laraxot/dev
 =======
 </div>
 >>>>>>> laraxot/dev

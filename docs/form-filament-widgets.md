@@ -88,6 +88,7 @@ public function getFormSchema(): array
                 ->columnSpan(1),
         ]),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -116,6 +117,8 @@ public function getFormSchema(): array
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         Forms\Components\Section::make('Contenuto della Pagina')->schema([
             PageContent::make('content_blocks')
                 ->label('Blocchi Contenuto')
@@ -139,6 +142,7 @@ Per una documentazione più approfondita sull'utilizzo dei widget Filament in il
 ## Conclusione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 L'utilizzo esclusivo dei widget Filament per i form in il progetto rappresenta una scelta strategica che ha portato a un'interfaccia utente coerente, robusta e facilmente manutenibile. Questa decisione architetturale supporta gli obiettivi del progetto in termini di qualità del codice, velocità di sviluppo e esperienza utente.
@@ -156,6 +160,8 @@ L'utilizzo esclusivo dei widget Filament per i form in il progetto rappresenta u
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 L'utilizzo esclusivo dei widget Filament per i form in il progetto rappresenta una scelta strategica che ha portato a un'interfaccia utente coerente, robusta e facilmente manutenibile. Questa decisione architetturale supporta gli obiettivi del progetto in termini di qualità del codice, velocità di sviluppo e esperienza utente.
 # Utilizzo dei Widget Filament per i Form in il progetto
@@ -234,6 +240,7 @@ Per una documentazione più approfondita sull'utilizzo dei widget Filament in il
 - [Best Practices per i Form in il progetto](../laravel/Modules/Cms/docs/form_best_practices.md) (da creare)
 ## Conclusione
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -254,4 +261,6 @@ L'utilizzo esclusivo dei widget Filament per i form in il progetto rappresenta u
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

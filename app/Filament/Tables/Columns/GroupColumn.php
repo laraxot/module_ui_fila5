@@ -29,6 +29,9 @@ class GroupColumn extends XotBaseColumn
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
      * Initialize the component.
      */
     protected function setUp(): void
@@ -39,6 +42,9 @@ class GroupColumn extends XotBaseColumn
     }
 
     /**
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
      * @return array<Column>
@@ -50,9 +56,13 @@ class GroupColumn extends XotBaseColumn
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<int|string, mixed> $form
 =======
      * @param  array<int|string, mixed>  $form
+>>>>>>> laraxot/dev
+=======
+     * @param array<int|string, mixed> $form
 >>>>>>> laraxot/dev
      */
     public function schema(array $form): static
@@ -81,9 +91,13 @@ class GroupColumn extends XotBaseColumn
     private function mountChildrenToTable(?Table $table): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (null === $table) {
 =======
         if ($table === null) {
+>>>>>>> laraxot/dev
+=======
+        if (null === $table) {
 >>>>>>> laraxot/dev
             return;
         }

@@ -6,10 +6,14 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "index raw sources — ui"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
@@ -23,6 +27,8 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 related:
 ---
@@ -57,6 +63,7 @@ Il layer raw per questo modulo/tema è **l'intera cartella `docs/`** (esclusa `d
 ## Schema di riferimento
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 → `docs/.schema/WIKI_SCHEMA.md` (root progetto)
 → `docs/.schema/wiki-schema.md` (root progetto)
 =======
@@ -69,6 +76,10 @@ Il layer raw per questo modulo/tema è **l'intera cartella `docs/`** (esclusa `d
 → `docs/.schema/wiki-schema.md` (root progetto)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+→ `docs/.schema/WIKI_SCHEMA.md` (root progetto)
+→ `docs/.schema/wiki-schema.md` (root progetto)
 >>>>>>> laraxot/dev
 → `docs/project/llm-wiki-module-adoption.md` (guida per moduli/temi)
 

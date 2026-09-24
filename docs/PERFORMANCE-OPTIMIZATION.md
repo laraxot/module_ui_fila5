@@ -19,6 +19,7 @@ related:
 
 \`\`\`diff
 <<<<<<< HEAD
+<<<<<<< HEAD
 - 150+ rules embeddate in AGENTS.md
 =======
 <<<<<<< HEAD
@@ -26,6 +27,9 @@ related:
 =======
 - 150+ rules embeddate in agents.md
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+- 150+ rules embeddate in AGENTS.md
 >>>>>>> laraxot/dev
 + 0 rules embeddate — tutte on-demand
 \`\`\`
@@ -52,6 +56,7 @@ related:
 ### 4. Wiki Indici Locali
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Ogni modulo ha i propri `rules/skills/commands/memories/INDEX.md`:
 =======
 <<<<<<< HEAD
@@ -59,6 +64,9 @@ Ogni modulo ha i propri `rules/skills/commands/memories/INDEX.md`:
 =======
 Ogni modulo ha i propri `rules/skills/commands/memories/index.md`:
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+Ogni modulo ha i propri `rules/skills/commands/memories/INDEX.md`:
 >>>>>>> laraxot/dev
 - Ricerca più rapida (scope limitato)
 - Context rilevante per il modulo

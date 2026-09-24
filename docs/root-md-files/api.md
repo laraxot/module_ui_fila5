@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ---
 title: "Api"
@@ -30,6 +31,8 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 -------------------------------------------------------------------------------------------------
 Render HTTP JSON Responses for API-based Projects in Laravel

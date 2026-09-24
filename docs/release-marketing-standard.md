@@ -6,6 +6,7 @@ tags: [release, semantic-versioning, changelog, readme, marketing]
 created: "2026-05-26"
 updated: "2026-05-26"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/153"
 issue: "https://github.com/provtv/<nome repository>/issues/153"
 =======
@@ -18,6 +19,10 @@ issue: "https://github.com/provtv/<nome repository>/issues/153"
 issue: "https://github.com/provtv/<nome repository>/issues/153"
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/153"
+issue: "https://github.com/provtv/<nome repository>/issues/153"
 >>>>>>> laraxot/dev
 ---
 
@@ -33,6 +38,7 @@ Ogni modulo/tema deve essere pubblicabile, comprensibile e desiderabile: workflo
 - `../.github/workflows/semantic-release.yml`
 - `../.releaserc.json`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `../CHANGELOG.md`
 =======
 <<<<<<< HEAD
@@ -40,6 +46,9 @@ Ogni modulo/tema deve essere pubblicabile, comprensibile e desiderabile: workflo
 =======
 - `../changelog.md`
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+- `../CHANGELOG.md`
 >>>>>>> laraxot/dev
 
 ## Confidenza

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Componenti Dropdown, Avatar e Loading Indicator di Filament
 =======
 <<<<<<< HEAD
@@ -24,6 +25,9 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+# Componenti Dropdown, Avatar e Loading Indicator di Filament
 >>>>>>> laraxot/dev
 
 ## Indice
@@ -54,6 +58,7 @@ Il componente Dropdown di Filament è composto da tre parti principali:
         <!-- Contenuto del trigger -->
     </x-slot>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -81,6 +86,8 @@ Il componente Dropdown di Filament è composto da tre parti principali:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     <!-- Elementi del dropdown -->
     <x-filament::dropdown.list>
@@ -157,6 +164,7 @@ Opzioni di larghezza:
 <x-filament::dropdown.item>
     Notifiche
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -184,6 +192,8 @@ Opzioni di larghezza:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     <x-slot name="badge">
         3
@@ -282,6 +292,7 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
                 class="ring-2 ring-white ring-opacity-50 shadow-sm"
             />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -309,6 +320,8 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             <div class="ml-1">
                 <x-filament::icon
@@ -319,6 +332,7 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
         </button>
     </x-slot>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -346,12 +360,15 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     <x-filament::dropdown.list>
         <div class="px-4 py-2 text-xs text-gray-400">
             {{ __('Manage Account') }}
         </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -369,6 +386,8 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         
         <x-filament::dropdown.item href="{{ route('profile.show') }}" icon="heroicon-o-user">
             {{ __('Profile') }}
@@ -381,6 +400,7 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
         <x-filament::dropdown.separator />
         
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -393,16 +413,21 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
         <x-filament::dropdown.item href="{{ route('profile.show') }}" icon="heroicon-o-user">
             {{ __('Profile') }}
         </x-filament::dropdown.item>
 <<<<<<< HEAD
-=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
         <x-filament::dropdown.item href="{{ route('profile.show') }}" icon="heroicon-o-cog-6-tooth">
@@ -412,6 +437,7 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
         <x-filament::dropdown.separator />
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -419,12 +445,15 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         
         <x-filament::dropdown.item href="{{ route('profile.show') }}" icon="heroicon-o-cog-6-tooth">
             {{ __('Settings') }}
         </x-filament::dropdown.item>
         
         <x-filament::dropdown.separator />
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -439,6 +468,8 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         <form method="POST" action="{{ route('logout') }}">
             @csrf
@@ -469,6 +500,7 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 - [Documentazione Avatar di Filament](https://filamentphp.com/docs/3.x/support/blade-components/avatar)
 - [Documentazione Loading Indicator di Filament](https://filamentphp.com/docs/3.x/support/blade-components/loading-indicator)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - [Documentazione Icone di Filament](https://filamentphp.com/docs/3.x/support/icons)
@@ -486,6 +518,8 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [Documentazione Icone di Filament](https://filamentphp.com/docs/3.x/support/icons)
 # Componenti Dropdown, Avatar e Loading Indicator di Filament
@@ -636,6 +670,7 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 - [Documentazione Avatar di Filament](https://filamentphp.com/docs/3.x/support/blade-components/avatar)
 - [Documentazione Loading Indicator di Filament](https://filamentphp.com/docs/3.x/support/blade-components/loading-indicator)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -655,4 +690,6 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

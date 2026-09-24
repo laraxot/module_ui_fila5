@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -16,6 +17,8 @@
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: blade_data_handling
@@ -23,6 +26,7 @@ canonical: ../../../Themes/docs/shared-components/blade-data-handling_1.md
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 See canonical documentation: ../../../Themes/docs/shared-components/blade-data-handling_1.md
 =======
 <<<<<<< HEAD
@@ -39,6 +43,9 @@ See canonical documentation: ../../../Themes/docs/shared-components/blade-data-h
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+See canonical documentation: ../../../Themes/docs/shared-components/blade-data-handling_1.md
 >>>>>>> laraxot/dev
 # Data Handling in Blade Components
 This document outlines best practices for data handling in Blade components, particularly in theme blocks used for content sections.
@@ -125,6 +132,7 @@ Components should never rely on variables that haven't been explicitly defined a
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -263,4 +271,6 @@ See canonical documentation: ../../../Themes/docs/shared-components/blade-data-h
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

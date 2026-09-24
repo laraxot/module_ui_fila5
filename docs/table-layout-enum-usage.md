@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -16,6 +17,8 @@
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: table_layout_enum_usage
@@ -23,6 +26,7 @@ canonical: ../../../Themes/docs/shared-components/table-layout-enum-usage_1.md
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 See canonical documentation: ../../../Themes/docs/shared-components/table-layout-enum-usage_1.md
 =======
 <<<<<<< HEAD
@@ -39,6 +43,9 @@ See canonical documentation: ../../../Themes/docs/shared-components/table-layout
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+See canonical documentation: ../../../Themes/docs/shared-components/table-layout-enum-usage_1.md
 >>>>>>> laraxot/dev
 # TableLayoutEnum Usage Guide
 ## Nuovo Approccio (Corretto)
@@ -229,6 +236,7 @@ $columns = $this->layout->getTableColumns($listColumns, $gridColumns);
      * Toggle del layout tramite action
                 ->icon($this->layout->getIcon())
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -267,4 +275,6 @@ See canonical documentation: ../../../Themes/docs/shared-components/table-layout
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

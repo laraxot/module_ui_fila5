@@ -80,6 +80,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
         Titolo Card
     </x-slot>
 <<<<<<< HEAD
+<<<<<<< HEAD
     Contenuto della card
     Contenuto della card
     
@@ -123,6 +124,11 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+    Contenuto della card
+    Contenuto della card
+    
 >>>>>>> laraxot/dev
     <x-slot name="footer">
         Footer della card
@@ -174,6 +180,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 - [Tailwind Config](../config/tailwind.config.js)
 - [Theme Config](../config/theme.php)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - [Filament UI](../../Cms/docs/filament-components.md) 
@@ -191,6 +198,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [Filament UI](../../Cms/docs/filament-components.md)
 # Design System
@@ -287,6 +296,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 - [Tailwind Config](../config/tailwind.config.js)
 - [Theme Config](../config/theme.php)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ```
 =======
@@ -312,4 +322,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+```
 >>>>>>> laraxot/dev
