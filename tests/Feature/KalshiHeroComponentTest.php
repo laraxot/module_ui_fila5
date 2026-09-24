@@ -10,7 +10,6 @@ use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
 
-<<<<<<< HEAD
 /** @param array<string, mixed> $data */
 function makeKalshiView(array $data = []): \Illuminate\Contracts\View\View
 {
@@ -20,8 +19,6 @@ function makeKalshiView(array $data = []): \Illuminate\Contracts\View\View
     return View::make($viewName, $data);
 }
 
-=======
->>>>>>> laraxot/dev
 beforeEach(function () {
     /* @var \Modules\UI\Tests\TestCase $this */
     if (! View::exists('pub_theme::components.blocks.hero.kalshi-inspired')) {

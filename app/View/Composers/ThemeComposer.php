@@ -4,10 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\View\Composers;
 
-<<<<<<< HEAD
 use Exception;
-=======
->>>>>>> laraxot/dev
 use Illuminate\View\View;
 
 final class ThemeComposer

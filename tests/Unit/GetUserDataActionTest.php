@@ -67,10 +67,6 @@ function uiAuthUser(array $roles = [], array $permissions = [], array $attribute
 {
     $user = new class extends \Illuminate\Foundation\Auth\User {
         public ?object $profile = null;
-<<<<<<< HEAD
-=======
-
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         public function relationLoaded(mixed $key): bool
         {

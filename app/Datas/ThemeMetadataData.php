@@ -4,10 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Datas;
 
-<<<<<<< HEAD
 use InvalidArgumentException;
-=======
->>>>>>> laraxot/dev
 use Spatie\LaravelData\Data;
 
 /**

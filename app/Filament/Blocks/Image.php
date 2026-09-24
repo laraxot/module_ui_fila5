@@ -8,11 +8,8 @@ use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
-<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Utilities\Set;
-=======
->>>>>>> laraxot/dev
 
 class Image
 {
@@ -47,12 +44,9 @@ class Image
     /**
      * @return array<string, string>
      */
-<<<<<<< HEAD
-=======
     /**
      * @return array<string, string>
      */
->>>>>>> laraxot/dev
     public static function getRatios(): array
     {
         return [

@@ -101,7 +101,6 @@ describe('GroupColumn class', function (): void {
 
         Assert::assertSame('ui::filament.tables.columns.group', $property->getValue($column));
     });
-<<<<<<< HEAD
 
     it('propagates table mount to schema children', function (): void {
         $child = TextColumn::make('id');
@@ -115,8 +114,6 @@ describe('GroupColumn class', function (): void {
 
         Assert::assertSame($fakeTable, $tableProperty->getValue($child));
     });
-=======
->>>>>>> laraxot/dev
 });
 
 // Test view rendering with data_get() fallback
@@ -278,7 +275,6 @@ describe('GroupColumn view rendering', function (): void {
         Assert::assertFalse($shouldSkip($record->zero_int));
         Assert::assertFalse($shouldSkip($record->zero_string));
     });
-<<<<<<< HEAD
 
     it('renders IconColumn boolean via toEmbeddedHtml instead of raw 1', function (): void {
         $record = ['ha_diritto' => 1];
@@ -358,6 +354,4 @@ describe('GroupColumn view rendering', function (): void {
             'Expected SelectColumn embedded HTML, got: '.$html
         );
     });
-=======
->>>>>>> laraxot/dev
 });

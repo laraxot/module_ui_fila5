@@ -19,16 +19,11 @@ class UiCoverageStateContract implements StateContract
     /** @param array<array-key, mixed>|Model|string|null $record */
     /**
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
      * @param  Model|array<string, mixed>|string|null  $record
      */
     public function __construct(
         public Model|array|string|null $record = null,
     ) {}
-<<<<<<< HEAD
-=======
 =======
      * @param Model|array<string, mixed>|string|null $record
      */
@@ -36,7 +31,6 @@ class UiCoverageStateContract implements StateContract
         public Model|array|string|null $record = null,
     ) {
     }
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
     public function label(): string

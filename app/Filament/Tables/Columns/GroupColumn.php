@@ -33,8 +33,6 @@ class GroupColumn extends Column
     protected string $view = 'ui::filament.tables.columns.group';
 
     /**
-<<<<<<< HEAD
-=======
      * Initialize the component.
      */
     protected function setUp(): void
@@ -45,7 +43,6 @@ class GroupColumn extends Column
     }
 
     /**
->>>>>>> laraxot/dev
      * @return array<Column>
      */
     public function getFields(): array
