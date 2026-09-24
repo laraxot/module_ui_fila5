@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GGQcOB
 =======
 <<<<<<< HEAD
@@ -64,6 +65,8 @@ docs/**/*_[0-9][0-9].md
 # Dependencies
 =======
 >>>>>>> .merge_file_KsA8uT
+=======
+>>>>>>> 804451c (Lint)
 # ==============================================
 # LARAXOT MODULE UI - .GITIGNORE
 # ==============================================
@@ -75,11 +78,15 @@ docs/**/*_[0-9][0-9].md
 # ==============================================
 # DEPENDENCIES & PACKAGES
 # ==============================================
+<<<<<<< HEAD
 <<<<<<< .merge_file_GGQcOB
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 # =============================================================================
 # LARAXOT MODULE: UI - .gitignore
 #
@@ -137,11 +144,14 @@ docs/**/*_[0-9][0-9].md
 
 # Dependencies
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_KsA8uT
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 /vendor/
 /node_modules/
@@ -150,6 +160,7 @@ docs/**/*_[0-9][0-9].md
 composer.lock
 package-lock.json
 yarn.lock
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GGQcOB
 =======
@@ -181,6 +192,8 @@ public/mix-manifest.json
 # Laravel runtime
 =======
 >>>>>>> .merge_file_KsA8uT
+=======
+>>>>>>> 804451c (Lint)
 yarn-error.log
 npm-debug.log
 
@@ -225,11 +238,15 @@ lerna-debug.log*
 # ==============================================
 # LARAVEL SPECIFIC
 # ==============================================
+<<<<<<< HEAD
 <<<<<<< .merge_file_GGQcOB
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 
 
 # Python / virtual environments
@@ -252,11 +269,14 @@ public/mix-manifest.json
 
 # Laravel runtime
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_KsA8uT
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 /storage/*.key
 /public/storage
@@ -265,6 +285,7 @@ public/mix-manifest.json
 /public_html/hot
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GGQcOB
 =======
 <<<<<<< HEAD
@@ -273,9 +294,12 @@ public/mix-manifest.json
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> 804451c (Lint)
+=======
 
 # Environment / local configuration
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 
@@ -283,10 +307,13 @@ public/mix-manifest.json
 =======
 >>>>>>> .merge_file_KsA8uT
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 .env
 .env.*
 !.env.example
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GGQcOB
 =======
@@ -311,6 +338,8 @@ Homestead.json
 
 =======
 >>>>>>> .merge_file_KsA8uT
+=======
+>>>>>>> 804451c (Lint)
 
 # ==============================================
 # ENVIRONMENT & IDE
@@ -319,11 +348,15 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 /.idea
+<<<<<<< HEAD
 <<<<<<< .merge_file_GGQcOB
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 config/local.php
 config/development.php
 
@@ -339,16 +372,20 @@ Homestead.json
 /.vagrant/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_KsA8uT
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 .phpintel
 .phpstorm.meta.php
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GGQcOB
 =======
@@ -439,6 +476,8 @@ design_notes.txt
 # System files
 =======
 >>>>>>> .merge_file_KsA8uT
+=======
+>>>>>>> 804451c (Lint)
 # ==============================================
 # GIT SPECIFIC
 # ==============================================
@@ -449,11 +488,15 @@ design_notes.txt
 # ==============================================
 # SYSTEM FILES
 # ==============================================
+<<<<<<< HEAD
 <<<<<<< .merge_file_GGQcOB
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 # Cache / temporary files
 .php-cs-fixer.cache
 .phpunit.result.cache
@@ -535,17 +578,21 @@ design_notes.txt
 
 # System files
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_KsA8uT
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 .DS_Store
 .DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GGQcOB
 =======
@@ -584,6 +631,8 @@ phpinsights.php
 .windsurf~*
 =======
 >>>>>>> .merge_file_KsA8uT
+=======
+>>>>>>> 804451c (Lint)
 ehthumbs.db
 Thumbs.db
 
@@ -667,7 +716,10 @@ _docs/
 docs/legacy/
 docs/legacy/**
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_GGQcOB
+=======
+>>>>>>> 804451c (Lint)
 # Legacy PHPUnit (solo cartella maiuscola Tests/ — non confondere con Pest tests/)
 /Tests/
 
@@ -675,18 +727,24 @@ docs/legacy/**
 !tests/
 !tests/**
 <<<<<<< HEAD
+<<<<<<< HEAD
 !audit-coverage/
 !audit-coverage/**
 
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 # claude-audit static — archived Tailwind UI kit blocks (not FO production)
 resources/views/components/blocks/pricing/archivied/
 resources/views/components/blocks/feature_sections/archivied/
 resources/views/components/blocks/blog/archivied/
 
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_KsA8uT
+=======
+>>>>>>> 804451c (Lint)
 # -----------------------------------------------------------------------------
 # Copie residue da merge/rebase o editor (mai committare — es. `.agent~HEAD`, `*.md~head`)
 # -----------------------------------------------------------------------------
@@ -699,15 +757,21 @@ resources/views/components/blocks/blog/archivied/
 *~head
 
 agentdb.rvf
+<<<<<<< HEAD
 <<<<<<< .merge_file_GGQcOB
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 # claude-audit bridge — path audit-coverage/tests/ richiesto dal matcher static
 !audit-coverage/
 !audit-coverage/**
 =======
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 Thumbs.db
 ehthumbs.db
@@ -737,6 +801,7 @@ phpinsights.php
 .cursor~*
 .windsurf~*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -745,4 +810,6 @@ phpinsights.php
 .devcontainer/
 .vscode/
 >>>>>>> .merge_file_KsA8uT
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

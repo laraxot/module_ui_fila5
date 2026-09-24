@@ -10,6 +10,7 @@ use PHPUnit\Framework\Assert;
 use function Safe\file_get_contents;
 
 uses(TestCase::class);
+<<<<<<< HEAD
 <<<<<<< .merge_file_oBfYcd
 <<<<<<< HEAD
 =======
@@ -17,6 +18,9 @@ uses(TestCase::class);
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 // Laraxot — see module docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
@@ -27,6 +31,7 @@ uses(TestCase::class);
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
@@ -34,6 +39,10 @@ uses(TestCase::class);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_7cX4SD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
 function sixteenComponentsBasePath(): string
 {
@@ -127,6 +136,7 @@ describe('Component Files Exist', function (): void {
         if ([] !== $legacyPresent) {
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($legacyPresent !== []) {
 =======
 <<<<<<< HEAD
@@ -135,6 +145,9 @@ describe('Component Files Exist', function (): void {
         if ($legacyPresent !== []) {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        if ($legacyPresent !== []) {
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
             Assert::markTestSkipped('Legacy root components still present: '.implode(', ', $legacyPresent));
         }

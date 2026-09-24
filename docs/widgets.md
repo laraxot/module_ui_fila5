@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
+<<<<<<< HEAD
 <<<<<<< .merge_file_YgxVH6
 =======
 <<<<<<< HEAD
@@ -11,6 +12,10 @@ https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
 https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
 =======
 >>>>>>> .merge_file_qp9OzE
+=======
+=======
+https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
+>>>>>>> 804451c (Lint)
 # UI Widgets
 ## Overview
 This document provides an overview of the available UI widgets in the application and how to use them.
@@ -73,6 +78,7 @@ To create a new widget:
 - Use configuration arrays for customization
 - Document all available options and their defaults
 - Follow the established naming conventions and patterns
+<<<<<<< HEAD
 <<<<<<< .merge_file_YgxVH6
 <<<<<<< HEAD
 =======
@@ -82,4 +88,6 @@ To create a new widget:
 =======
 https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
 >>>>>>> .merge_file_qp9OzE
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

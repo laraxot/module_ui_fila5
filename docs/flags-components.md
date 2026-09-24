@@ -2,6 +2,7 @@
 
 ## Collegamenti correlati
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_TI9D6n
 =======
 <<<<<<< HEAD
@@ -21,6 +22,8 @@
 Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
 =======
 >>>>>>> .merge_file_Rcu61A
+=======
+>>>>>>> 804451c (Lint)
 - [Documentazione centrale](/docs/readme.md)
 - [Collegamenti documentazione](/docs/collegamenti-documentazione.md)
 - [Documentazione UI](/laravel/modules/ui/docs/readme.md)
@@ -31,11 +34,15 @@ Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere 
 ## Panoramica
 
 Il modulo UI di Quaeris include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+<<<<<<< HEAD
 <<<<<<< .merge_file_TI9D6n
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 - [Documentazione centrale](/docs/README.md)
 - [Collegamenti documentazione](/docs/collegamenti-documentazione.md)
 - [Documentazione UI](/laravel/Modules/UI/docs/README.md)
@@ -79,17 +86,21 @@ Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazion
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Rcu61A
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ## Struttura dei Componenti Bandiera
 
 I file SVG delle bandiere sono archiviati in:
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_TI9D6n
 /var/www/html/Quaeris/laravel/Modules/UI/resources/svg/flags/
@@ -101,6 +112,11 @@ I file SVG delle bandiere sono archiviati in:
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+/var/www/html/Quaeris/laravel/Modules/UI/resources/svg/flags/
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 /var/www/html/saluteora/laravel/Modules/UI/resources/svg/flags/
 =======
 <<<<<<< HEAD
@@ -134,6 +150,7 @@ Modules/UI/resources/svg/flags/
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -142,6 +159,8 @@ Modules/UI/resources/svg/flags/
 =======
 /var/www/html/Quaeris/laravel/Modules/UI/resources/svg/flags/
 >>>>>>> .merge_file_Rcu61A
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```
 
@@ -193,10 +212,14 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_TI9D6n
 =======
+>>>>>>> 804451c (Lint)
+=======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -204,6 +227,8 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 =======
@@ -211,21 +236,31 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_Rcu61A
+=======
+>>>>>>> 804451c (Lint)
 <x-ui-flags.it
     class="h-6 w-6 rounded-full shadow-sm"
     title="Italiano"
     aria-label="Seleziona lingua italiana"
+<<<<<<< HEAD
 <<<<<<< .merge_file_TI9D6n
 <<<<<<< HEAD
 =======
 >>>>>>> .merge_file_Rcu61A
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
     class="h-6 w-6 rounded-full shadow-sm"
     title="Italiano"
     aria-label="Seleziona lingua italiana"
 =======
+<<<<<<< HEAD
 <<<<<<< .merge_file_TI9D6n
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -241,11 +276,14 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Rcu61A
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 <x-ui-flags.it 
     class="h-6 w-6 rounded-full shadow-sm" 
@@ -258,10 +296,13 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 <<<<<<< HEAD
 =======
@@ -270,9 +311,12 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 />
 ```
@@ -340,6 +384,7 @@ Le bandiere devono essere utilizzate come icone Filament:
 3. **Prestazioni**: Gli SVG sono leggeri e non richiedono richieste HTTP aggiuntive
 4. **Accessibilità**: Possibilità di aggiungere attributi di accessibilità
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_TI9D6n
 5. **Coerenza**: Utilizzo di componenti nativi di Quaeris
 =======
@@ -350,6 +395,11 @@ Le bandiere devono essere utilizzate come icone Filament:
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+5. **Coerenza**: Utilizzo di componenti nativi di Quaeris
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>corrente
 =======
 <<<<<<< HEAD
@@ -575,6 +625,7 @@ Le bandiere devono essere utilizzate come icone Filament:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -776,6 +827,8 @@ Le bandiere devono essere utilizzate come icone Filament:
 =======
 5. **Coerenza**: Utilizzo di componenti nativi di Quaeris
 >>>>>>> .merge_file_Rcu61A
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ## Bandiere Disponibili
@@ -846,12 +899,15 @@ L'utilizzo dei componenti SVG delle bandiere del modulo UI è il modo più effic
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 L'utilizzo dei componenti SVG delle bandiere del modulo UI è il modo più efficace per rendere il selettore di lingue nell'header più accattivante e visibile. Questi componenti sono già integrati  e possono essere facilmente utilizzati in qualsiasi parte dell'applicazione.
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 L'utilizzo dei componenti SVG delle bandiere del modulo UI è il modo più efficace per rendere il selettore di lingue nell'header più accattivante e visibile. Questi componenti sono già integrati  e possono essere facilmente utilizzati in qualsiasi parte dell'applicazione.
 =======
 L'utilizzo dei componenti SVG delle bandiere del modulo UI è il modo più efficace per rendere il selettore di lingue nell'header più accattivante e visibile. Questi componenti sono già integrati  e possono essere facilmente utilizzati in qualsiasi parte dell'applicazione.
@@ -865,7 +921,10 @@ L'utilizzo dei componenti SVG delle bandiere del modulo UI è il modo più effic
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

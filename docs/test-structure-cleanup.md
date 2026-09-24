@@ -106,6 +106,7 @@ Modules/UI/
 - Clear migration path
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qvqaGU
 ### 4. **Autoloader <nome progetto>ability**
 =======
@@ -116,6 +117,11 @@ Modules/UI/
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+### 4. **Autoloader <nome progetto>ability**
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 ### 4. **Autoloader Predictability**
 <<<<<<< HEAD
 ### 4. **Autoloader stability**
@@ -139,6 +145,7 @@ Modules/UI/
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -148,6 +155,8 @@ Modules/UI/
 =======
 ### 4. **Autoloader <nome progetto>ability**
 >>>>>>> .merge_file_OsHfpv
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - Eliminates ambiguous class resolution
 - Consistent namespace-to-directory mapping
@@ -216,6 +225,7 @@ After cleanup:
 
 - ✅ No more PSR-4 autoloading warnings
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qvqaGU
 - ✅ Clear, <nome progetto>able test structure
 =======
@@ -226,6 +236,11 @@ After cleanup:
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+- ✅ Clear, <nome progetto>able test structure
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 - ✅ Clear, predictable test structure
 <<<<<<< HEAD
 - ✅ Clear, stable test structure
@@ -249,6 +264,7 @@ After cleanup:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -258,6 +274,8 @@ After cleanup:
 =======
 - ✅ Clear, <nome progetto>able test structure
 >>>>>>> .merge_file_OsHfpv
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - ✅ Consistent with Laravel conventions
 - ✅ Compatible with module system

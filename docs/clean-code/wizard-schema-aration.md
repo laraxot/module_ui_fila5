@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_wqw9J7
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_6DN232
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Separazione dello Schema dagli Step nei Wizard Filament"
 type: concept
@@ -15,7 +19,10 @@ tags: [wizard, schema, aration]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "wizard-schema-aration separazione dello schema dagli step nei wizard filament"
+<<<<<<< HEAD
 <<<<<<< .merge_file_wqw9J7
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,12 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_6DN232
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./no-obvious-comments.md"
   - "./syntax-error-fixes.md"
@@ -41,6 +51,7 @@ related:
   - "./wizard-steps.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_wqw9J7
 <<<<<<< HEAD
 =======
@@ -51,6 +62,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_6DN232
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Separazione dello Schema dagli Step nei Wizard Filament
 
 ## Regola Fondamentale

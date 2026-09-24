@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_1v2lTy
 <<<<<<< HEAD
 =======
@@ -27,6 +28,17 @@
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+<?php
+
+declare(strict_types=1);
+
+    $fields = $getFields();
+    $record = $getRecord();
+?>
+=======
+>>>>>>> 804451c (Lint)
 @php
     declare(strict_types=1);
 
@@ -42,6 +54,7 @@
     $record = $getRecord();
 @endphp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -49,11 +62,15 @@
 =======
 @endphp
 >>>>>>> .merge_file_iTWqf4
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 <div
     {{
         $attributes
             ->merge($getExtraAttributes(), escape: false)
             ->class([
+<<<<<<< HEAD
 <<<<<<< .merge_file_1v2lTy
 <<<<<<< HEAD
 =======
@@ -63,26 +80,36 @@
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
                 'fi-ta-icon flex flex-wrap gap-1.5',
                 'px-3 py-4' => ! $isInline(),
                 //'flex-col' => $isListWithLineBreaks(),
                 'flex-col' => true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
                 'fi-ta-group flex flex-col gap-1',
                 'px-3 py-4' => ! $isInline(),
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
                 'fi-ta-group flex flex-col gap-1',
                 'px-3 py-4' => ! $isInline(),
 >>>>>>> .merge_file_iTWqf4
+=======
+>>>>>>> 804451c (Lint)
             ])
     }}
 >
     @foreach ($fields as $field)
+<<<<<<< HEAD
 <<<<<<< .merge_file_1v2lTy
 <<<<<<< HEAD
 =======
@@ -140,6 +167,23 @@
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+     
+        @php
+            $name = $field->getName();
+            $value = $record->{$name} ?? null;
+            // Skip empty values to save space
+            if (empty($value) && $value !== 0 && $value !== '0') {
+                continue;
+            }
+
+            // Format the value for display
+            $formattedValue = $value;
+
+            // Resolve the label leveraging LangServiceProvider auto translations
+=======
+>>>>>>> 804451c (Lint)
         @php
             // Children live only in GroupColumn::$schema — mount table + record
             // or getState()/toEmbeddedHtml() throw "column is not mounted to a table".
@@ -182,12 +226,16 @@
             }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_iTWqf4
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
             $rawLabel = $field->getLabel();
 
             if ($rawLabel instanceof \Closure) {
@@ -203,6 +251,7 @@
             }
 
             if ($labelText === '') {
+<<<<<<< HEAD
 <<<<<<< .merge_file_1v2lTy
 <<<<<<< HEAD
 =======
@@ -228,14 +277,30 @@
             }
         @endphp
 <<<<<<< .merge_file_1v2lTy
+=======
+<<<<<<< HEAD
+                $translationKey = 'ui::table.columns.' . $name . '.label';
+                $translated = __($translationKey);
+                $labelText = $translated !== $translationKey
+                    ? $translated
+                    : \Illuminate\Support\Str::of((string) $name)->replace('_', ' ')->headline()->value();
+            }
+
+            $displayText = $labelText . ': ' . $formattedValue;
+        @endphp
+>>>>>>> 804451c (Lint)
         
             {{ $displayText }}<br/>
         
         
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
                 $translationKey = 'ui::table.columns.'.$name.'.label';
                 $translated = __($translationKey);
                 $labelText = $translated !== $translationKey
@@ -250,8 +315,11 @@
                 $isHtmlValue = $field->isHtml();
             }
         @endphp
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_iTWqf4
+=======
+>>>>>>> 804451c (Lint)
 
         @if ($isInteractiveColumn)
             <div class="fi-ta-group-row flex flex-nowrap items-center gap-1.5">
@@ -278,6 +346,7 @@
                 @endif
             </div>
         @endif
+<<<<<<< HEAD
 <<<<<<< .merge_file_1v2lTy
 <<<<<<< HEAD
 =======
@@ -286,5 +355,8 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_iTWqf4
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
     @endforeach
 </div>

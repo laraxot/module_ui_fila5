@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dJ8Ax
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_21uXql
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Best Practices per i Wizard in Filament"
 type: concept
@@ -15,7 +19,10 @@ tags: [wizard, best, practices]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "wizard-best-practices best practices per i wizard in filament"
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dJ8Ax
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,12 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_21uXql
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -45,6 +55,7 @@ related:
   - "./filament-4-migration-sumy.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dJ8Ax
 <<<<<<< HEAD
 =======
@@ -55,6 +66,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_21uXql
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Best Practices per i Wizard in Filament
 
 ## Regola Fondamentale: Estrazione dei Metodi per gli Step
@@ -67,6 +81,7 @@ Quando si implementa un `Wizard` in Filament, **non inserire mai direttamente** 
 // ✅ CORRETTO
 public static function getFormSchemaWidget(): array
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dJ8Ax
 =======
 <<<<<<< HEAD
@@ -82,6 +97,11 @@ public function getFormSchemaWidget(): array
 =======
 >>>>>>> .merge_file_21uXql
 >>>>>>> laraxot/dev
+=======
+=======
+public function getFormSchemaWidget(): array
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 {
     return [
         Forms\Components\Wizard::make([
@@ -110,6 +130,7 @@ protected static function getPersonalDataStep(): Forms\Components\Wizard\Step
 // ❌ ERRATO
 public static function getFormSchemaWidget(): array
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dJ8Ax
 =======
 <<<<<<< HEAD
@@ -125,6 +146,11 @@ public function getFormSchemaWidget(): array
 =======
 >>>>>>> .merge_file_21uXql
 >>>>>>> laraxot/dev
+=======
+=======
+public function getFormSchemaWidget(): array
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 {
     return [
         Forms\Components\Wizard::make([
@@ -188,6 +214,7 @@ class PatientResource extends XotBaseResource
 {
     public static function getFormSchemaWidget(): array
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dJ8Ax
 =======
 <<<<<<< HEAD
@@ -203,6 +230,11 @@ class PatientResource extends XotBaseResource
 =======
 >>>>>>> .merge_file_21uXql
 >>>>>>> laraxot/dev
+=======
+=======
+    public function getFormSchemaWidget(): array
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
     {
         return [
             Forms\Components\Wizard::make([
@@ -243,6 +275,7 @@ L'estrazione in metodi dedicati facilita anche la gestione di step condizionali:
 ```php
 public static function getFormSchemaWidget(): array
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dJ8Ax
 =======
 <<<<<<< HEAD
@@ -258,6 +291,11 @@ public function getFormSchemaWidget(): array
 =======
 >>>>>>> .merge_file_21uXql
 >>>>>>> laraxot/dev
+=======
+=======
+public function getFormSchemaWidget(): array
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 {
     $steps = [
         self::getPersonalDataStep(),

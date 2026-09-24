@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_wBNOws
 # Schemaless Attributes Guide for UI Themes
 
@@ -7,11 +8,16 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 # Schemaless Attributes Guide for UI Themes
 
 [![Laravel 12.47.0](https://img.shields.io/badge/Laravel-12.47.0-red.svg)](https://laravel.com/)
 =======
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Schemaless Attributes Guide for UI Themes"
 type: guide
@@ -43,6 +49,7 @@ related:
 
 [![Laravel 12.47.0](https://img.shields.io/badge/Laravel-12.47.0-red.svg)](https://laravel.com/)
 [![Laravel 13.47.0](https://img.shields.io/badge/Laravel-12.47.0-red.svg)](https://laravel.com/)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -76,6 +83,8 @@ related:
 
 [![Laravel 12.47.0](https://img.shields.io/badge/Laravel-12.47.0-red.svg)](https://laravel.com/)
 >>>>>>> .merge_file_5hGiu2
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 [![Filament 5.0.0](https://img.shields.io/badge/Filament-5.0.0-blue.svg)](https://filamentphp.com/)
 [![Spatie Schemaless](https://img.shields.io/badge/Spatie-Schemaless-orange.svg)](https://github.com/spatie/laravel-schemaless-attributes)

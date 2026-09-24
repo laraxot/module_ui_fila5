@@ -28,6 +28,7 @@ function concreteRowWidget(): RowWidget
     };
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
     return new class extends RowWidget {};
 =======
 <<<<<<< HEAD
@@ -37,17 +38,23 @@ function concreteRowWidget(): RowWidget
     return new class extends RowWidget {};
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    return new class extends RowWidget {};
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 }
 
 it('widgets instantiate and extend filament base', function (): void {
     $widgets = [
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
         new StatWithIconWidget(),
         new OverlookWidget(),
         new HeroWidget(),
@@ -57,9 +64,13 @@ it('widgets instantiate and extend filament base', function (): void {
         new RedirectWidget(),
         new UserCalendarWidget(),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
         new StatWithIconWidget,
         new OverlookWidget,
         new HeroWidget,
@@ -69,9 +80,12 @@ it('widgets instantiate and extend filament base', function (): void {
         new RedirectWidget,
         new UserCalendarWidget,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
         concreteRowWidget(),
     ];
@@ -89,6 +103,7 @@ it('schema widgets expose empty form schema by default', function (): void {
         new RedirectWidget(),
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
         new StatWithIconWidget,
         new GroupWidget,
         new RedirectWidget,
@@ -103,6 +118,11 @@ it('schema widgets expose empty form schema by default', function (): void {
         new RedirectWidget,
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        new StatWithIconWidget,
+        new GroupWidget,
+        new RedirectWidget,
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
         concreteRowWidget(),
     ];

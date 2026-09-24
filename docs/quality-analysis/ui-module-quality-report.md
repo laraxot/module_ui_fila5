@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Z74LW1
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_4n3ss7
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Analisi Qualità - Modulo UI"
 type: concept
@@ -15,7 +19,10 @@ tags: [module, quality, report]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "ui-module-quality-report analisi qualità - modulo ui"
+<<<<<<< HEAD
 <<<<<<< .merge_file_Z74LW1
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -32,6 +39,7 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -47,6 +55,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_4n3ss7
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Analisi Qualità - Modulo UI
 
 **Data Analisi**: 2025-01-22
@@ -122,6 +133,7 @@ related:
 
 - [PHPStan Compliance](./phpstan-compliance.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Z74LW1
 - [Optimization Recommendations](./optimization_recommendations.md)
 =======
@@ -129,10 +141,13 @@ related:
 - [Optimization Recommendations](./optimization-recommendations-1.md)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [Optimization Recommendations](./optimization_recommendations.md)
 =======
 - [Optimization Recommendations](./optimization-recommendations-1.md)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - [Optimization Recommendations](./optimization-recommendations-1.md)
@@ -140,6 +155,8 @@ related:
 - [Optimization Recommendations](./optimization_recommendations.md)
 >>>>>>> .merge_file_4n3ss7
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - [Modularity Optimizations](./modularity-optimizations.md)
 - [Xot Quality Analysis](../xot/docs/quality-analysis/current-status.md)
 

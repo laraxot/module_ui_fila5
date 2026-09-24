@@ -1,8 +1,11 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 title: "UI Module - PHPStan Type Compliance"
 type: concept
 tags: [ui, phpstan, types, compliance, quality, static-analysis]
@@ -134,7 +137,10 @@ vendor/bin/pest laravel/Modules/UI/tests --parallel
 **Last Updated**: 2026-06-10  
 **Status**: GREEN
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 title: "UI — Mockery fluente sotto PHPStan"
 type: concept
@@ -197,4 +203,7 @@ cd laravel
 ./vendor/bin/phpstan analyse Modules
 ```
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)

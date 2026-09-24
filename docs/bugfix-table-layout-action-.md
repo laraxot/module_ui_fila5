@@ -145,11 +145,14 @@ curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 curl -I http://127.0.0.1:8001/modulo questionari/admin/gaia/survey-pdfs
 =======
 <<<<<<< HEAD
@@ -173,9 +176,12 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```
 
@@ -187,6 +193,7 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 ✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 ✅ **Sintassi PHP**: Nessun errore di sintassi  
 ✅ **Istanziazione**: Classe istanziabile correttamente  
 ✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)  
@@ -201,6 +208,11 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 ✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)  
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+✅ **Sintassi PHP**: Nessun errore di sintassi  
+✅ **Istanziazione**: Classe istanziabile correttamente  
+✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)  
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ✅ **PHPStan**: Nessun errore di linting rilevato
 
@@ -233,6 +245,7 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 **Priorità**: Alta
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 **Modulo**: UI
@@ -240,13 +253,18 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 **Priorità**: Alta
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 **Data**: 27 Gennaio 2025  
 **Modulo**: UI  
 **Tipo**: Bug Fix  
 **Priorità**: Alta  
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 **Stato**: ✅ Risolto

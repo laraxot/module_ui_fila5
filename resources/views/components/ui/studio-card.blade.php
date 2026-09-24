@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_3Rdm77
 <<<<<<< HEAD
 =======
@@ -5,6 +6,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -31,6 +35,7 @@
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -42,6 +47,14 @@
 <?php
 
 declare(strict_types=1);
+=======
+=======
+>>>>>>> laraxot/dev
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> 804451c (Lint)
 ?>
 {{--
     Studio Card Component - Visualizzazione informazioni studio odontoiatrico

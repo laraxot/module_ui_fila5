@@ -8,6 +8,7 @@ updated: 2026-07-09
 qmd: "UI icon_state_group opening_hours_field split claude-audit"
 issues:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9F7aKh
 =======
 <<<<<<< HEAD
@@ -21,22 +22,30 @@ discussions:
 related:
 =======
 >>>>>>> .merge_file_psdzOI
+=======
+>>>>>>> 804451c (Lint)
   - "https://github.com/laraxot/module_ui_fila5/issues/1"
 discussions:
   - "https://github.com/laraxot/base_fixcity_fila5/discussions/304"
 related:
   - ./claude-audit-static.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_9F7aKh
 <<<<<<< HEAD
 =======
 =======
+>>>>>>> 804451c (Lint)
+=======
 discussions:
 related:
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_psdzOI
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ---
 
 # Split lang UI (claude-audit)

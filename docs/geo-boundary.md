@@ -4,6 +4,7 @@ type: rule
 module: UI
 created: 2026-07-06
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VHrTUn
 updated: 2026-07-06
 =======
@@ -26,6 +27,10 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
+=======
+updated: 2026-07-06
+=======
+>>>>>>> 804451c (Lint)
 updated: 2026-07-22
 updated: 2026-08-18
 related:
@@ -34,14 +39,18 @@ related:
   - "./filosofia-modulo-ui.md"
   - "./wiki/concepts/ui-geo-boundary-contracts.md"
   - "./actions/generic-ui-building-blocks.md"
+<<<<<<< HEAD
 =======
 updated: 2026-07-06
 >>>>>>> .merge_file_KluykR
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ---
 
 # Confine UI e Geo
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VHrTUn
 =======
@@ -154,6 +163,8 @@ git grep -n 'Modules\\Geo' -- app || true
 - [memoria root](../../../../docs/wiki/memories/ui-no-map-adapters-geo-absent.md)
 =======
 >>>>>>> .merge_file_KluykR
+=======
+>>>>>>> 804451c (Lint)
 ## Regola
 
 Il modulo `UI` non deve dipendere dal modulo `Geo`.
@@ -182,11 +193,15 @@ Non riattivarlo in `UI`. Se in futuro servira' una mappa, crearla nel modulo `Ge
 ## Motivazione
 
 Questa separazione evita dipendenze inverse, classi mancanti e accoppiamento tra design system e dominio geografico.
+<<<<<<< HEAD
 <<<<<<< .merge_file_VHrTUn
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ## Perché (religione)
 `UI` = design system: componenti visuali generici e riusabili.
 Mappe, geocoding, marker, regioni/province/CAP, export GeoJSON/KML = **dominio geografico**.
@@ -321,9 +336,12 @@ git grep -n 'Modules\\Geo' -- app || true
 - [ui-geo-boundary-contracts.md](./wiki/concepts/ui-geo-boundary-contracts.md)
 - [memoria root](../../../../docs/wiki/memories/ui-no-map-adapters-geo-absent.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_KluykR
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

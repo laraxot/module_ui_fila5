@@ -110,10 +110,15 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Data**: 2025-01-06
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+**Data**: 2025-01-06
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 **Status**: ✅ Tutte le correzioni completate
 **PHPStan Level**: 10 ✅
 **Errori totali**: 0 ✅

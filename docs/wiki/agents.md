@@ -6,12 +6,16 @@ canonical: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_TkuqKt
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -23,6 +27,8 @@ See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Mo
 =======
 <<<<<<< HEAD
 >>>>>>> .merge_file_GBWYJe
+=======
+>>>>>>> 804451c (Lint)
 
 
 ---
@@ -30,8 +36,11 @@ See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Mo
 ## Contenuto assorbito da `agents.md`
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_TkuqKt
 =======
+>>>>>>> 804451c (Lint)
+=======
 <<<<<<< HEAD
 ---
 
@@ -53,8 +62,11 @@ See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Mo
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_GBWYJe
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./bmad-method.md"
   - "./context-compression.md"
@@ -63,7 +75,10 @@ related:
   - "./overview.md"
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_TkuqKt
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -81,6 +96,7 @@ See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Mo
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -89,3 +105,6 @@ See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Mo
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_GBWYJe
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

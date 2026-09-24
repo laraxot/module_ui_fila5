@@ -149,12 +149,15 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 - [Documentazione Componenti Filament](../../../../docs/filament/components.md)
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 - [Documentazione Componenti Filament](../../../docs/filament/components.md)
 =======
 <<<<<<< HEAD
@@ -174,9 +177,12 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - [Best Practices UI](../../best-practices.md)
 - [Errori Comuni UI](../../common-errors.md)
@@ -209,6 +215,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -217,15 +224,23 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 4. Aggiornare la documentazione quando vengono scoperti nuovi errori
 <<<<<<< HEAD
 =======
+=======
+4. Aggiornare la documentazione quando vengono scoperti nuovi errori
+>>>>>>> 804451c (Lint)
 # Errori Comuni nei Componenti Filament UI
 
 ## ⚠️ Errori di Metodi Non Supportati
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 1. La documentazione degli errori UI deve essere sempre in `Modules/UI/project_docs/`
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
@@ -257,9 +272,12 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 # Errori Comuni nei Componenti Filament UI
 ## ⚠️ Errori di Metodi Non Supportati
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### 1. FileUpload: Uso errato di icon()
 ❌ **NON FARE**:
@@ -268,11 +286,14 @@ FileUpload::make('document')
     ->icon('heroicon-o-document') // ❌ Questo metodo non esiste per FileUpload
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ✅ **FARE**:
 ```php
@@ -324,9 +345,13 @@ TextInput::make('last_name') // ✅ Usare 'last_name' per il cognome
 ❌ **NON FARE**:
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ✅ **FARE**:
     ->buttonLabel('Upload Document') // ✅ Usare buttonLabel() per personalizzare il testo
     ->helperText('Upload your document here') // ✅ Usare helperText() per aggiungere descrizioni
@@ -343,9 +368,12 @@ TextInput::make('first_name') // ✅ Usare 'first_name' per il nome
 TextInput::make('last_name') // ✅ Usare 'last_name' per il cognome
 ### 5. Wizard: Implementazione errata degli Step
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 Forms\Components\Wizard::make([
     Forms\Components\Wizard\Step::make('step_one') // ❌ Step definito inline
@@ -354,11 +382,14 @@ Forms\Components\Wizard::make([
         ]),
 ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ```
 
 ✅ **FARE**:
@@ -404,9 +435,13 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
    - Mantenere una struttura coerente
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
     self::getStepOne(), // ✅ Step definito in un metodo separato
 protected static function getStepOne(): Forms\Components\Wizard\Step
 {
@@ -425,9 +460,12 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
    - Creare sottocartelle specifiche per tipo di errore
    - Mantenere una struttura coerente
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 2. **Struttura del Documento**:
    - Titolo chiaro e descrittivo
@@ -439,12 +477,15 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 3. **Collegamenti Bidirezionali**:
    - Collegare alla documentazione del componente
@@ -456,6 +497,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Best Practices per la Documentazione
 =======
 <<<<<<< HEAD
@@ -466,6 +508,9 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 ## Best Practices per la Documentazione
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+## Best Practices per la Documentazione
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 1. **Organizzazione**:
    - Raggruppare errori per tipo di componente
@@ -475,12 +520,15 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 2. **Contenuto**:
    - Includere sempre esempi di codice
@@ -490,18 +538,22 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 3. **Manutenzione**:
    - Aggiornare regolarmente la documentazione
    - Verificare i collegamenti
    - Aggiungere nuovi errori quando scoperti
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 ## Collegamenti Bidirezionali
@@ -509,6 +561,8 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ## Collegamenti Bidirezionali
 
@@ -516,13 +570,19 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 - [Documentazione Componenti Filament](../../../../docs/project/filament/components.md)
 - [Documentazione Componenti Filament](../../../../docs/project/filament/components.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 ## Collegamenti Bidirezionali
 - [Documentazione Componenti Filament](../../../project_docs/filament/components.md)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - [Best Practices UI](../../best-practices.md)
 - [Errori Comuni UI](../../common-errors.md)
 - [Implementazione Corretta](../../examples/correct-implementation.md)
@@ -536,6 +596,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Processo di Documentazione
 =======
 <<<<<<< HEAD
@@ -546,6 +607,9 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 ## Processo di Documentazione
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+## Processo di Documentazione
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 1. **Identificazione**:
    - Riconoscere l'errore come problema UI
@@ -555,23 +619,29 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 2. **Documentazione**:
    - Creare/aggiornare il file nella cartella corretta
    - Includere esempi e spiegazioni
    - Aggiungere collegamenti bidirezionali
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 3. **Verifica**:
    - Controllare la struttura della documentazione
@@ -584,9 +654,13 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 3. **Verifica**:
    - Controllare la struttura della documentazione
    - Assicurarsi che sia facilmente trovabile
@@ -597,27 +671,36 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 4. Aggiornare la documentazione quando vengono scoperti nuovi errori 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 4. Aggiornare la documentazione quando vengono scoperti nuovi errori
 1. La documentazione degli errori UI deve essere sempre in `Modules/UI/project_docs/`
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
 4. Aggiornare la documentazione quando vengono scoperti nuovi errori
+<<<<<<< HEAD
 <<<<<<< .merge_file_E8DM1Y
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
@@ -633,9 +716,12 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_4QPpIf
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

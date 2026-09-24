@@ -4,21 +4,27 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Widgets;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_hbQ76G
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 =======
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 use Filament\Schemas\Components\Component;
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 use Filament\Schemas\Components\Component;
 >>>>>>> .merge_file_iGPWtr
+=======
+>>>>>>> 804451c (Lint)
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 /**
@@ -71,16 +77,21 @@ final class RedirectWidget extends XotBaseSchemaWidget
     /**
      * Vista di default per il widget.
      * Può essere sovrascritta dalla configurazione con la chiave 'view'.
+<<<<<<< HEAD
      *
      * @phpstan-var view-string
      */
     /** @phpstan-ignore property.defaultValue */
+=======
+     */
+>>>>>>> 804451c (Lint)
     protected string $view = 'ui::filament.widgets.redirect-widget';
 
     /**
      * Implementazione richiesta da XotBaseWidget.
      * Per questo widget non abbiamo form, quindi restituiamo array vuoto.
      *
+<<<<<<< HEAD
 <<<<<<< .merge_file_hbQ76G
 <<<<<<< HEAD
      * @return array<string, mixed>
@@ -88,16 +99,21 @@ final class RedirectWidget extends XotBaseSchemaWidget
 <<<<<<< HEAD
      * @return array<string, Component>
 =======
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
      * @return array<string, mixed>
 =======
      * @return array<string, Component>
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
      * @return array<string, Component>
 >>>>>>> .merge_file_iGPWtr
+=======
+>>>>>>> 804451c (Lint)
      */
     public function getFormSchema(): array
     {

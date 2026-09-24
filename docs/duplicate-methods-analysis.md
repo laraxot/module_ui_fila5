@@ -1,6 +1,7 @@
 # Analisi Metodi Duplicati - Modulo UI
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4urpSh
 =======
 <<<<<<< HEAD
@@ -16,6 +17,11 @@
 =======
 >>>>>>> .merge_file_kT5q6K
 >>>>>>> laraxot/dev
+=======
+=======
+**Data Generazione**: 2025-10-15 06:41:17
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 **Totale Gruppi di Duplicati**:
 
 ## Sommario Esecutivo
@@ -91,11 +97,15 @@ public function asset(): string
 <<<<<<< HEAD
 - `ChangeStatus::execute` - [Modules/Fixcity/app/Actions/ChangeStatus.php:12](Modules/Fixcity/app/Actions/ChangeStatus.php) (Modulo: Fixcity)
 - `GenerateTicketsAction::execute` - [Modules/Fixcity/app/Actions/GenerateTicketsAction.php:24](Modules/Fixcity/app/Actions/GenerateTicketsAction.php) (Modulo: Fixcity)
+<<<<<<< HEAD
 <<<<<<< .merge_file_4urpSh
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 - `ChangeStatus::execute` - [Modules/Fixcity/app/Actions/ChangeStatus.php:12](Modules/Fixcity/app/Actions/ChangeStatus.php) (Modulo: Fixcity)
 - `GenerateTicketsAction::execute` - [Modules/Fixcity/app/Actions/GenerateTicketsAction.php:24](Modules/Fixcity/app/Actions/GenerateTicketsAction.php) (Modulo: Fixcity)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -104,6 +114,8 @@ public function asset(): string
 - `GenerateTicketsAction::execute` - [Modules/Fixcity/app/Actions/GenerateTicketsAction.php:24](Modules/Fixcity/app/Actions/GenerateTicketsAction.php) (Modulo: Fixcity)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - `ChangeStatus::execute` - [Modules/<nome progetto>/app/Actions/ChangeStatus.php:12](Modules/<nome progetto>/app/Actions/ChangeStatus.php) (Modulo: <nome progetto>)
 - `GenerateTicketsAction::execute` - [Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php:24](Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php) (Modulo: <nome progetto>)
 - `ChangeStatus::execute` - [Modules/Project/app/Actions/ChangeStatus.php:12](Modules/Project/app/Actions/ChangeStatus.php) (Modulo: progetto corrente)
@@ -132,6 +144,7 @@ public function asset(): string
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -146,6 +159,9 @@ public function asset(): string
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_kT5q6K
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 - `CalculateDistanceAction::execute` - [Modules/Geo/app/Actions/CalculateDistanceAction.php:47](Modules/Geo/app/Actions/CalculateDistanceAction.php) (Modulo: Geo)
 - `ClusterLocationsAction::execute` - [Modules/Geo/app/Actions/ClusterLocationsAction.php:25](Modules/Geo/app/Actions/ClusterLocationsAction.php) (Modulo: Geo)
 - `FilterCoordinatesAction::execute` - [Modules/Geo/app/Actions/FilterCoordinatesAction.php:29](Modules/Geo/app/Actions/FilterCoordinatesAction.php) (Modulo: Geo)

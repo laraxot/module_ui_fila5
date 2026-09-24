@@ -97,12 +97,15 @@ php artisan view:clear
 <<<<<<< HEAD
 # http://fixcity.local/it/tests/homepage
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 # http://fixcity.local/it/tests/homepage
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 
 # http://<nome progetto>.local/it/tests/homepage
 # http://app.local/it/tests/homepage
@@ -126,9 +129,12 @@ php artisan view:clear
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```
 

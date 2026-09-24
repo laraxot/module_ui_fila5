@@ -19,6 +19,7 @@
 - [Architettura Modulare](/laravel/Modules/UI/docs/ARCHITECTURE.md)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Architettura Modulare](/laravel/Modules/UI/docs/architecture.md)
 >>>>>>> 92912795 (.)
 =======
@@ -29,6 +30,10 @@
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- [Architettura Modulare](/laravel/Modules/UI/docs/architecture.md)
+>>>>>>> 92912795 (.)
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
 
@@ -40,6 +45,7 @@
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6S5iM5
 /var/www/html/<nome progetto>/
 =======
@@ -50,6 +56,11 @@
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+/var/www/html/<nome progetto>/
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 /var/www/html/saluteora/
 <<<<<<< HEAD
 [project-root]/
@@ -73,6 +84,7 @@
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -82,6 +94,8 @@
 =======
 /var/www/html/<nome progetto>/
 >>>>>>> .merge_file_rOMvW0
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ├── laravel/                 # Applicazione Laravel (codice sorgente)
 │   ├── Modules/             # Moduli dell'applicazione
@@ -101,6 +115,7 @@
 | Tipo di Asset | ✅ Percorso Corretto | ❌ Percorso Errato |
 |---------------|---------------------|-------------------|
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6S5iM5
 =======
 <<<<<<< HEAD
@@ -118,16 +133,23 @@
 | SVG | `/var/www/html/saluteora/public_html/images/` | `/var/www/html/saluteora/laravel/public/images/` |
 =======
 >>>>>>> .merge_file_rOMvW0
+=======
+>>>>>>> 804451c (Lint)
 | Immagini | `/var/www/html/<nome progetto>/public_html/images/` | `/var/www/html/<nome progetto>/laravel/public/images/` |
 | CSS | `/var/www/html/<nome progetto>/public_html/css/` | `/var/www/html/<nome progetto>/laravel/public/css/` |
 | JavaScript | `/var/www/html/<nome progetto>/public_html/js/` | `/var/www/html/<nome progetto>/laravel/public/js/` |
 | SVG | `/var/www/html/<nome progetto>/public_html/images/` | `/var/www/html/<nome progetto>/laravel/public/images/` |
+<<<<<<< HEAD
 <<<<<<< .merge_file_6S5iM5
 <<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 =======
@@ -167,11 +189,14 @@
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_rOMvW0
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ## Utilizzo degli Asset nei Componenti Blade
@@ -204,6 +229,7 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6S5iM5
 /var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/
 =======
@@ -214,6 +240,11 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+/var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/
 <<<<<<< HEAD
 [project-root]/laravel/Themes/One/resources/views/components/ui/
@@ -237,6 +268,7 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -246,6 +278,8 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 =======
 /var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/
 >>>>>>> .merge_file_rOMvW0
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```
 
@@ -255,6 +289,7 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6S5iM5
 /var/www/html/<nome progetto>/public_html/images/
 =======
@@ -265,6 +300,11 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+/var/www/html/<nome progetto>/public_html/images/
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 /var/www/html/saluteora/public_html/images/
 <<<<<<< HEAD
 [project-root]/public_html/images/
@@ -288,6 +328,7 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -297,6 +338,8 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 =======
 /var/www/html/<nome progetto>/public_html/images/
 >>>>>>> .merge_file_rOMvW0
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```
 
@@ -308,6 +351,7 @@ Il componente avatar è implementato in:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6S5iM5
 /var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 =======
@@ -318,6 +362,11 @@ Il componente avatar è implementato in:
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+/var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 <<<<<<< HEAD
 [project-root]/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
@@ -341,6 +390,7 @@ Il componente avatar è implementato in:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -350,6 +400,8 @@ Il componente avatar è implementato in:
 =======
 /var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 >>>>>>> .merge_file_rOMvW0
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```
 
@@ -357,6 +409,7 @@ E utilizza gli avatar SVG dalla directory pubblica:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6S5iM5
 /var/www/html/<nome progetto>/public_html/images/avatars/
 =======
@@ -367,6 +420,11 @@ E utilizza gli avatar SVG dalla directory pubblica:
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+/var/www/html/<nome progetto>/public_html/images/avatars/
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 /var/www/html/saluteora/public_html/images/avatars/
 <<<<<<< HEAD
 [project-root]/public_html/images/avatars/
@@ -390,6 +448,7 @@ E utilizza gli avatar SVG dalla directory pubblica:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -399,6 +458,8 @@ E utilizza gli avatar SVG dalla directory pubblica:
 =======
 /var/www/html/<nome progetto>/public_html/images/avatars/
 >>>>>>> .merge_file_rOMvW0
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```
 
@@ -408,6 +469,7 @@ Il componente icon è implementato in:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6S5iM5
 /var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 =======
@@ -418,6 +480,11 @@ Il componente icon è implementato in:
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+/var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/icon.blade.php
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 <<<<<<< HEAD
 [project-root]/laravel/Themes/One/resources/views/components/ui/icon.blade.php
@@ -441,6 +508,7 @@ Il componente icon è implementato in:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -450,6 +518,8 @@ Il componente icon è implementato in:
 =======
 /var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 >>>>>>> .merge_file_rOMvW0
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```
 
@@ -492,6 +562,7 @@ E include le definizioni SVG direttamente nel componente.
 ## Errori Comuni
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6S5iM5
 1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/<nome progetto>/laravel/public/` invece di `/var/www/html/<nome progetto>/public_html/`
 =======
@@ -502,6 +573,11 @@ E include le definizioni SVG direttamente nel componente.
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/<nome progetto>/laravel/public/` invece di `/var/www/html/<nome progetto>/public_html/`
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/saluteora/laravel/public/` invece di `/var/www/html/saluteora/public_html/`
 <<<<<<< HEAD
 1. **Utilizzo del percorso Laravel public**: Utilizzare `[project-root]/laravel/public/` invece di `[project-root]/public_html/`
@@ -525,6 +601,7 @@ E include le definizioni SVG direttamente nel componente.
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -534,6 +611,8 @@ E include le definizioni SVG direttamente nel componente.
 =======
 1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/<nome progetto>/laravel/public/` invece di `/var/www/html/<nome progetto>/public_html/`
 >>>>>>> .merge_file_rOMvW0
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile

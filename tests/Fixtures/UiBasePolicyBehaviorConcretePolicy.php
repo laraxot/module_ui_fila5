@@ -9,6 +9,7 @@ use Modules\UI\Models\Policies\UiBasePolicy;
 /**
  * Concrete policy stub for testing UiBasePolicy behavior.
  */
+<<<<<<< HEAD
 <<<<<<< .merge_file_qSpPc4
 =======
 <<<<<<< .merge_file_sXuqIj
@@ -28,3 +29,8 @@ final class UiBasePolicyBehaviorConcretePolicy extends UiBasePolicy
 }
 >>>>>>> .merge_file_NEqjgs
 >>>>>>> .merge_file_G7zDYO
+=======
+final class UiBasePolicyBehaviorConcretePolicy extends UiBasePolicy
+{
+}
+>>>>>>> 804451c (Lint)

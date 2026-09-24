@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1Z7ota
 =======
 ---
@@ -25,6 +26,8 @@ related:
 <!-- Contenuto migrato da _docs/page_builder.txt -->
 =======
 >>>>>>> .merge_file_AgT32f
+=======
+>>>>>>> 804451c (Lint)
 # page_builder
 
 <!-- Contenuto migrato da _docs/page_builder.txt -->
@@ -32,6 +35,7 @@ related:
 =======
 <<<<<<< HEAD
 # page_builder
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -41,6 +45,8 @@ related:
 <<<<<<< HEAD
 # page_builder
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 <!-- Contenuto migrato da _docs/page_builder.txt -->
 =======
 <<<<<<< HEAD
@@ -115,15 +121,19 @@ https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
 # page_builder
 
 <!-- Contenuto migrato da _docs/page_builder.txt -->
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_1Z7ota
 <<<<<<< HEAD
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
@@ -134,6 +144,11 @@ https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
 <<<<<<< HEAD
@@ -143,9 +158,12 @@ https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_AgT32f
+=======
+>>>>>>> 804451c (Lint)
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 <<<<<<< HEAD
@@ -154,7 +172,10 @@ https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

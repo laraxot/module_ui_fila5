@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qy058x
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_ZAVJWf
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Task: Refactoring Componenti Complessi - UI"
 type: concept
@@ -15,28 +19,40 @@ tags: [refactor, complex, components]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "refactor-complex-components task: refactoring componenti complessi - ui"
+<<<<<<< HEAD
 <<<<<<< .merge_file_qy058x
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 >>>>>>> .merge_file_ZAVJWf
+=======
+>>>>>>> 804451c (Lint)
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+<<<<<<< HEAD
 <<<<<<< .merge_file_qy058x
+=======
+>>>>>>> 804451c (Lint)
 =======
 =======
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_ZAVJWf
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./001-design-system-components.md"
   - "./cleanup-redundant-files.md"
@@ -47,6 +63,7 @@ related:
   - "./ui-filament-v5.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_qy058x
 <<<<<<< HEAD
 =======
@@ -57,6 +74,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ZAVJWf
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Task: Refactoring Componenti Complessi - UI
 
 **Modulo**: UI  

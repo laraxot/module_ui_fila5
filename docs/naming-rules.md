@@ -18,11 +18,14 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41,9 +44,12 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 # Design System il progetto
 Il design system di il progetto definisce...
@@ -56,21 +62,27 @@ Il design system di il progetto definisce...
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
+>>>>>>> 804451c (Lint)
+=======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 # Design System
 Il design system definisce...
@@ -90,6 +102,7 @@ I nomi specifici dell'applicazione devono apparire solo:
 
 ## Collegamenti Bidirezionali
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bgkTdg
 - [README](readme.md)
 =======
@@ -97,10 +110,13 @@ I nomi specifici dell'applicazione devono apparire solo:
 - [README](README.md)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [README](readme.md)
 =======
 - [README](README.md)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - [README](README.md)
@@ -108,11 +124,14 @@ I nomi specifici dell'applicazione devono apparire solo:
 - [README](readme.md)
 >>>>>>> .merge_file_KimdIS
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - [Design System](design-system.md)
 - [Componenti](components.md)
 
 ## Vedi Anche
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bgkTdg
 - [Documentazione Principale](../../../../docs/readme.md)
 - [Standard di Codice](../../../../docs/standards/coding-standards.md)
@@ -124,6 +143,11 @@ I nomi specifici dell'applicazione devono apparire solo:
 - [Standard di Codice](../../../../docs/standards/coding-standards.md)
 =======
 >>>>>>> laraxot/dev
+=======
+- [Documentazione Principale](../../../../docs/readme.md)
+- [Standard di Codice](../../../../docs/standards/coding-standards.md)
+=======
+>>>>>>> 804451c (Lint)
 - [Documentazione Principale](../../../docs/README.md)
 - [Standard di Codice](../../../docs/standards/coding-standards.md)
 <<<<<<< HEAD
@@ -133,6 +157,7 @@ I nomi specifici dell'applicazione devono apparire solo:
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -144,6 +169,8 @@ I nomi specifici dell'applicazione devono apparire solo:
 - [Documentazione Principale](../../../../docs/readme.md)
 - [Standard di Codice](../../../../docs/standards/coding-standards.md)
 >>>>>>> .merge_file_KimdIS
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 # Regole di Naming nei Moduli
 
@@ -163,6 +190,7 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 92912795 (.)
 =======
 <<<<<<< HEAD
@@ -170,6 +198,9 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 92912795 (.)
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 # Design System il progetto
 Il design system di il progetto definisce...
@@ -195,6 +226,7 @@ I nomi specifici dell'applicazione devono apparire solo:
 
 ## Collegamenti Bidirezionali
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bgkTdg
 =======
 <<<<<<< HEAD
@@ -207,10 +239,14 @@ I nomi specifici dell'applicazione devono apparire solo:
 >>>>>>> .merge_file_KimdIS
 - [README](readme.md)
 >>>>>>> laraxot/dev
+=======
+- [README](readme.md)
+>>>>>>> 804451c (Lint)
 - [Design System](design-system.md)
 - [Componenti](components.md)
 
 ## Vedi Anche
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Documentazione Principale](../../../project_docs/README.md)
 - [Standard di Codice](../../../project_docs/standards/coding-standards.md)
@@ -224,6 +260,12 @@ I nomi specifici dell'applicazione devono apparire solo:
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+- [Documentazione Principale](../../../../docs/project/readme.md)
+- [Standard di Codice](../../../../docs/project/standards/coding-standards.md)
+- [Best Practices](../../../../docs/project/standards/best-practices.md)
+=======
+>>>>>>> 804451c (Lint)
 
 ## Vedi Anche
 <<<<<<< HEAD
@@ -272,9 +314,12 @@ I nomi specifici dell'applicazione devono apparire solo:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_KimdIS
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

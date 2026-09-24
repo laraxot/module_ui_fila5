@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_QTU83L
 =======
 <<<<<<< .merge_file_Mqq86W
@@ -17,6 +18,8 @@ use Mockery;
 =======
 >>>>>>> .merge_file_J3sTzH
 >>>>>>> .merge_file_9HuASr
+=======
+>>>>>>> 804451c (Lint)
 use Mockery\MockInterface;
 use Modules\UI\Tests\Fixtures\UiBasePolicyBehaviorConcretePolicy;
 use Modules\UI\Tests\TestCase;
@@ -26,6 +29,7 @@ use PHPUnit\Framework\Assert;
 uses(TestCase::class)->group('no-ui-db');
 
 /**
+<<<<<<< HEAD
 <<<<<<< .merge_file_QTU83L
 =======
 <<<<<<< .merge_file_Mqq86W
@@ -43,11 +47,16 @@ uses(TestCase::class)->group('no-ui-db');
  *
 >>>>>>> .merge_file_J3sTzH
 >>>>>>> .merge_file_9HuASr
+=======
+ * @param list<string> $roles
+ *
+>>>>>>> 804451c (Lint)
  * @return MockInterface&UserContract
  */
 function uiBehaviorUser(array $roles = []): UserContract
 {
     /** @var MockInterface&UserContract $user */
+<<<<<<< HEAD
 <<<<<<< .merge_file_QTU83L
 =======
 <<<<<<< .merge_file_Mqq86W
@@ -63,11 +72,15 @@ function uiBehaviorUser(array $roles = []): UserContract
     $user = \Mockery::mock(UserContract::class);
 >>>>>>> .merge_file_J3sTzH
 >>>>>>> .merge_file_9HuASr
+=======
+    $user = \Mockery::mock(UserContract::class);
+>>>>>>> 804451c (Lint)
     TestCase::expectMethod($user, 'hasRole')
         ->andReturnUsing(static function (array|string $richiesti) use ($roles): bool {
             /** @var list<string> $normalizzati */
             $normalizzati = is_array($richiesti) ? $richiesti : [$richiesti];
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_QTU83L
 =======
 <<<<<<< .merge_file_Mqq86W
@@ -83,12 +96,16 @@ function uiBehaviorUser(array $roles = []): UserContract
             return [] !== array_intersect($normalizzati, $roles);
 >>>>>>> .merge_file_J3sTzH
 >>>>>>> .merge_file_9HuASr
+=======
+            return [] !== array_intersect($normalizzati, $roles);
+>>>>>>> 804451c (Lint)
         });
 
     return $user;
 }
 
 afterEach(function (): void {
+<<<<<<< HEAD
 <<<<<<< .merge_file_QTU83L
 =======
 <<<<<<< .merge_file_Mqq86W
@@ -105,11 +122,14 @@ test('UiBasePolicy before concede super-admin e ritorna null altrimenti', functi
 =======
 >>>>>>> .merge_file_J3sTzH
 >>>>>>> .merge_file_9HuASr
+=======
+>>>>>>> 804451c (Lint)
     \Mockery::close();
 });
 
 test('UiBasePolicy before concede super-admin e ritorna null altrimenti', function (): void {
     $policy = new UiBasePolicyBehaviorConcretePolicy();
+<<<<<<< HEAD
 <<<<<<< .merge_file_QTU83L
 >>>>>>> laraxot/dev
 =======
@@ -118,6 +138,8 @@ test('UiBasePolicy before concede super-admin e ritorna null altrimenti', functi
 =======
 >>>>>>> .merge_file_J3sTzH
 >>>>>>> .merge_file_9HuASr
+=======
+>>>>>>> 804451c (Lint)
     $super = uiBehaviorUser(['super-admin']);
 
     Assert::assertTrue($policy->before($super, 'viewAny'));

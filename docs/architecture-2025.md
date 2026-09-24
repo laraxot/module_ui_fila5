@@ -4,11 +4,16 @@ module: theme
 topic: architecture-2025
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 topic: architecture-2025
 =======
 topic: ARCHITECTURE_2025
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+topic: ARCHITECTURE_2025
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 canonical: ../../../Themes/docs/shared-components/ARCHITECTURE.md
 ---
 

@@ -1,6 +1,10 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 804451c (Lint)
 ?>
 @props(['material'])
 
@@ -50,18 +54,24 @@ declare(strict_types=1);
         
         <div class="text-gray-700">
 <<<<<<< HEAD
-            {!! $material->content !!}
-=======
 <<<<<<< HEAD
             {!! $material->content !!}
 =======
 <<<<<<< HEAD
+            {!! $material->content !!}
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
             {!! strip_tags((string) $material->content, '<p><br><strong><em><ul><ol><li><h1><h2><h3><h4><a><img><blockquote><span>') !!}
 =======
             {!! $material->content !!}
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
         </div>
     </div>
     

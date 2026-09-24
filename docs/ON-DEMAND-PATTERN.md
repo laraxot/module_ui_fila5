@@ -60,11 +60,14 @@ qmd search "<topic>"
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     ├── rules/INDEX.md      # Indice rules modulo-specifiche
     ├── skills/INDEX.md     # Indice skills modulo-specifiche
@@ -73,10 +76,13 @@ qmd search "<topic>"
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 =======
     ├── rules/index.md      # Indice rules modulo-specifiche
     ├── skills/index.md     # Indice skills modulo-specifiche
@@ -84,9 +90,12 @@ qmd search "<topic>"
     └── memories/index.md   # Indice memories
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 \`\`\`
 
@@ -108,6 +117,7 @@ qmd search "<topic>"
 1. **Nessun bootstrap pesante** — Non elencare rules in AGENTS.md o CLAUDE.md
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 1. **Nessun bootstrap pesante** — Non elencare rules in agents.md o CLAUDE.md
 >>>>>>> 92912795 (.)
 =======
@@ -118,6 +128,10 @@ qmd search "<topic>"
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+1. **Nessun bootstrap pesante** — Non elencare rules in agents.md o CLAUDE.md
+>>>>>>> 92912795 (.)
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 2. **Carica only what you need** — Ogni task carica max 3-5 file
 3. **Mantieni la wiki aggiornata** — Dopo ogni task, aggiorna ./laravel/Modules/UI/docs/wiki/log.md

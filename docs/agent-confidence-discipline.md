@@ -9,10 +9,14 @@ related:
   - "../../Xot/docs/wiki/concepts/agent-confidence-discipline.md"
 <<<<<<< HEAD
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/152"
+<<<<<<< HEAD
 <<<<<<< .merge_file_ml4ocb
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/152"
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -20,12 +24,15 @@ issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/152"
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/152"
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 issue: "https://github.com/provtv/<nome repository>/issues/152"
 =======
 =======
 issue: "https://github.com/provtv/<nome repository>/issues/152"
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -35,6 +42,8 @@ issue: "https://github.com/provtv/<nome repository>/issues/152"
 issue: "https://github.com/provtv/<nome repository>/issues/152"
 =======
 >>>>>>> .merge_file_41njDI
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ---
 

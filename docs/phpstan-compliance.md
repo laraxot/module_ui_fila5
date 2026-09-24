@@ -2,9 +2,12 @@
 
 ## Status: ✅ FULLY COMPLIANT
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 **PHPStan Level:** 9 (Maximum)
 **Files Analyzed:** 237
@@ -14,7 +17,10 @@
 
 The UI module is fully compliant with PHPStan level 10 analysis, demonstrating:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 **Analysis Date:** September 22, 2025
 **PHPStan Level:** 9 (Maximum)
@@ -130,7 +136,10 @@ instance inferita da Eloquent. Il test comportamentale equivalente passa con **1
 
 Lo scope state UI-7.1 dimostra:
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 - ✅ Rigorous type hints implementation
 - ✅ Proper null handling

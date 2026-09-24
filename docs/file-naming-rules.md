@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_93zF1y
 =======
 <<<<<<< HEAD
@@ -131,6 +132,8 @@ Se entrambi i file contengono contenuto diverso:
 - Git Case Sensitivity Issues
 =======
 >>>>>>> .merge_file_vVQXRF
+=======
+>>>>>>> 804451c (Lint)
 ---
 module: theme
 topic: file-naming-rules
@@ -138,11 +141,15 @@ canonical: ../../../Themes/docs/shared-components/file-naming-rules.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/file-naming-rules.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_93zF1y
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 # Regole di Naming per File
 
 ## 🎯 Regola Fondamentale: NO Duplicati Case-Insensitive
@@ -271,9 +278,12 @@ Se entrambi i file contengono contenuto diverso:
 - Filament Best Practices
 - Git Case Sensitivity Issues
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_vVQXRF
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

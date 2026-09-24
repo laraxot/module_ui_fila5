@@ -1,7 +1,8 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_LBZUha
 =======
-<<<<<<< HEAD
 >>>>>>> .merge_file_kEvjkm
+>>>>>>> 804451c (Lint)
 # Prototype: laravel/Modules/* e laravel/Themes/*
 # Canon: docs/wiki/rules/no-git-lfs.md
 # Sync: bash bashscripts/templates/sync-gitattributes-modules.sh

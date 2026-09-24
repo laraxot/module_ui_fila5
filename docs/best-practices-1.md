@@ -38,13 +38,19 @@ class CustomComponent extends Component
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
     
     // Proprietà private per stato interno
     private bool $isLoading = false;
     
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
     // Proprietà private per stato interno
     private bool $isLoading = false;
@@ -87,14 +93,20 @@ class CustomComponent extends Component
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
     
     // Stati
     &--loading { }
     &--disabled { }
     
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
     // Stati
     &--loading { }
@@ -270,7 +282,10 @@ class AdvancedForm extends Component
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 ### Versione Incoming
 
@@ -279,7 +294,10 @@ class AdvancedForm extends Component
 ---
 
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ### Versione Incoming
 
 - Breaking changes

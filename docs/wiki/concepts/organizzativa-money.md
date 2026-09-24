@@ -3,6 +3,7 @@ module: theme
 topic: organizzativa-money
 canonical: ../../../../../Themes/docs/shared-components/organizzativa-money-Modules.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_M5c5SO
 =======
 <<<<<<< HEAD
@@ -12,6 +13,9 @@ canonical: ../../../../../Themes/docs/shared-components/organizzativa-money-Modu
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_rGlaGS
+=======
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./auth-register-focus-loss-overlay.md"
   - "./block-rendering-and-optional-services.md"
@@ -21,6 +25,7 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
+<<<<<<< HEAD
 <<<<<<< .merge_file_M5c5SO
 <<<<<<< HEAD
 =======
@@ -31,6 +36,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_rGlaGS
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/organizzativa-money-Modules.md

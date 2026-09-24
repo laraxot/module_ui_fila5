@@ -41,6 +41,7 @@ Le Memories progettuali vivono qui, nel wiki del Module **UI**, e vengono carica
 - Per Memories globali, consulta il [wiki root](../../docs/wiki/memories/INDEX.md)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Per Memories globali, consulta il [wiki root](../../docs/wiki/memories/index.md)
 >>>>>>> 92912795 (.)
 =======
@@ -51,6 +52,10 @@ Le Memories progettuali vivono qui, nel wiki del Module **UI**, e vengono carica
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- Per Memories globali, consulta il [wiki root](../../docs/wiki/memories/index.md)
+>>>>>>> 92912795 (.)
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ## Aggiungere una Nuova MEMORIES

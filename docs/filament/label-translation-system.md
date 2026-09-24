@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9F4QIP
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_j5THcc
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Sistema di Traduzione Automatica delle Etichette (Label) in Filament"
 type: concept
@@ -15,7 +19,10 @@ tags: [label, translation, system]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "label-translation-system sistema di traduzione automatica delle etichette (label) in filament"
+<<<<<<< HEAD
 <<<<<<< .merge_file_9F4QIP
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,12 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_j5THcc
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -45,6 +55,7 @@ related:
   - "./filament-4-migration-sumy.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_9F4QIP
 <<<<<<< HEAD
 =======
@@ -55,6 +66,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_j5THcc
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Sistema di Traduzione Automatica delle Etichette (Label) in Filament
 
 ## Regola Fondamentale

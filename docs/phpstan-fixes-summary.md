@@ -268,8 +268,14 @@ php artisan test --filter=Xot
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 ```
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+```
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

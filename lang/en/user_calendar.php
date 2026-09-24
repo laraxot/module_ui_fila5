@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_88vPIA
 <<<<<<< HEAD
 =======
@@ -10,11 +11,15 @@ return [
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/en/user_calendar.php
 return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
@@ -25,6 +30,8 @@ return [
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
 =======
+=======
+>>>>>>> 804451c (Lint)
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
@@ -36,11 +43,14 @@ return [
 =======
 return [
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 return [
 >>>>>>> .merge_file_Wm3u4c
+=======
+>>>>>>> 804451c (Lint)
     'months' => [
         'long' => [
             0 => 'January',

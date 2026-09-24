@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_b1rXIs
 <<<<<<< HEAD
 =======
@@ -5,6 +6,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -19,6 +23,7 @@
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -30,6 +35,14 @@
 <?php
 
 declare(strict_types=1);
+=======
+=======
+>>>>>>> laraxot/dev
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> 804451c (Lint)
 ?>
 <x-filament-forms::field-wrapper :id="$getId()" :label="$getLabel()" :label-sr-only="$isLabelHidden()" :helper-text="$getHelperText()"
     :hint="$getHint()" :hint-icon="$getHintIcon()" :required="$isRequired()" :state-path="$getStatePath()">

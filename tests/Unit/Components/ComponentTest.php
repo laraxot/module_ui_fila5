@@ -17,6 +17,7 @@ describe('Component', function (): void {
         $component = new class extends Component {
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
         $component = new class extends Component
         {
 =======
@@ -27,6 +28,10 @@ describe('Component', function (): void {
         {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        $component = new class extends Component
+        {
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
             public function render(): View
             {

@@ -6,6 +6,7 @@
 
 #### Qualità del Codice
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DiCZvA
 =======
 <<<<<<< HEAD
@@ -14,6 +15,10 @@
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 - **PHPStan level 10**: 12/12 file core certificati
 =======
 <<<<<<< HEAD
@@ -32,6 +37,7 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -41,12 +47,16 @@
 - **PHPStan level 10**: 12/12 file core certificati
 =======
 >>>>>>> .merge_file_MzYzSM
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
+<<<<<<< HEAD
 <<<<<<< .merge_file_DiCZvA
 <<<<<<< HEAD
 =======
@@ -56,11 +66,16 @@
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 - **PHPStan Level 9**: 12/12 file core certificati
 =======
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - **PHPStan Level 9**: 12/12 file core certificati
 <<<<<<< HEAD
 =======
@@ -77,9 +92,12 @@
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - **Translation Standards**: 100% compliance con struttura espansa
 - **Component Architecture**: 50+ componenti Blade riutilizzabili
@@ -98,11 +116,14 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 - **Bundle Size**: < 200KB per tutti i componenti
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - **Bundle Size**: < 200KB per tutti i componenti  
 =======
 <<<<<<< HEAD
@@ -126,9 +147,12 @@
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - **Mobile Responsive**: 100% componenti responsive
 - **Caching**: Sistema caching componenti attivo
@@ -144,6 +168,7 @@
 - **README.md**: 407 righe (troppo denso)
 - **Informazioni duplicate** tra sezioni
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DiCZvA
 =======
 <<<<<<< HEAD
@@ -152,6 +177,10 @@
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 - **Esempi troppo specifici** per <nome progetto>
 =======
 <<<<<<< HEAD
@@ -170,6 +199,7 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -181,6 +211,11 @@
 - **Esempi troppo specifici** per <nome progetto>
 =======
 >>>>>>> .merge_file_MzYzSM
+=======
+>>>>>>> laraxot/dev
+- **Esempi troppo specifici** per
+- **Esempi troppo specifici** per
+>>>>>>> 804451c (Lint)
 - **Esempi troppo specifici** per
 - **Esempi troppo specifici** per
 - **Esempi troppo specifici** per
@@ -188,6 +223,7 @@
 <<<<<<< HEAD
 - **Esempi troppo specifici** per
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -197,6 +233,10 @@
 >>>>>>> laraxot/dev
 - **Esempi troppo specifici** per
 <<<<<<< .merge_file_DiCZvA
+=======
+>>>>>>> laraxot/dev
+- **Esempi troppo specifici** per
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -212,11 +252,14 @@
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_MzYzSM
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ## 🔧 RACCOMANDAZIONI SPECIFICHE
@@ -227,6 +270,7 @@
 ```php
 // ❌ PROBLEMI ATTUALI (in documentazione)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DiCZvA
 =======
 <<<<<<< HEAD
@@ -235,6 +279,10 @@
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 /var/www/html/<nome progetto>/laravel/Modules/UI/
 =======
 <<<<<<< HEAD
@@ -253,6 +301,7 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -264,6 +313,11 @@ Modules/UI/
 /var/www/html/<nome progetto>/laravel/Modules/UI/
 =======
 >>>>>>> .merge_file_MzYzSM
+=======
+>>>>>>> laraxot/dev
+Modules/UI/
+Modules/UI/
+>>>>>>> 804451c (Lint)
 Modules/UI/
 Modules/UI/
 Modules/UI/
@@ -271,6 +325,7 @@ Modules/UI/
 <<<<<<< HEAD
 Modules/UI/
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -280,6 +335,8 @@ Modules/UI/
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_MzYzSM
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 Modules/UI/
 <<<<<<< HEAD
@@ -297,9 +354,12 @@ Modules/UI/
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 https://api.<nome progetto>.com/
 
@@ -329,6 +389,7 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 
 ## 🏆 Quality Achievements
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DiCZvA
 =======
 <<<<<<< HEAD
@@ -337,6 +398,10 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 - ✅ PHPStan level 10 (12/12 files)
 =======
 <<<<<<< HEAD
@@ -355,6 +420,7 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -364,12 +430,16 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 - ✅ PHPStan level 10 (12/12 files)
 =======
 >>>>>>> .merge_file_MzYzSM
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
+<<<<<<< HEAD
 <<<<<<< .merge_file_DiCZvA
 <<<<<<< HEAD
 =======
@@ -379,11 +449,16 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 - ✅ PHPStan Level 9 (12/12 files)
 =======
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - ✅ PHPStan Level 9 (12/12 files)
 <<<<<<< HEAD
 =======
@@ -400,9 +475,12 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - ✅ Translation Standards 100%
 - ✅ 50+ Blade Components
@@ -465,6 +543,7 @@ class ComponentPerformanceMiddleware
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -473,12 +552,16 @@ class ComponentPerformanceMiddleware
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
         $response = $next($request);
 
         $duration = (microtime(true) - $start) * 1000;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_DiCZvA
 =======
@@ -489,6 +572,11 @@ class ComponentPerformanceMiddleware
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -497,14 +585,20 @@ class ComponentPerformanceMiddleware
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_MzYzSM
+=======
+>>>>>>> 804451c (Lint)
         
         $response = $next($request);
         
         $duration = (microtime(true) - $start) * 1000;
         
+<<<<<<< HEAD
 <<<<<<< .merge_file_DiCZvA
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -512,14 +606,20 @@ class ComponentPerformanceMiddleware
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_MzYzSM
+=======
+>>>>>>> 804451c (Lint)
 
         $response = $next($request);
         
         $duration = (microtime(true) - $start) * 1000;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_DiCZvA
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -532,6 +632,7 @@ class ComponentPerformanceMiddleware
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -540,6 +641,9 @@ class ComponentPerformanceMiddleware
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MzYzSM
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
         if ($duration > 50) {
             Log::warning("Slow component detected", [
                 'component' => $request->route()->getName(),
@@ -547,6 +651,7 @@ class ComponentPerformanceMiddleware
             ]);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DiCZvA
 
 =======
@@ -557,6 +662,11 @@ class ComponentPerformanceMiddleware
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
         
@@ -583,6 +693,7 @@ class ComponentPerformanceMiddleware
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -590,6 +701,8 @@ class ComponentPerformanceMiddleware
 =======
 
 >>>>>>> .merge_file_MzYzSM
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
         return $response;
     }
@@ -664,6 +777,7 @@ php artisan ui:accessibility-check
 
 ### Mantenere Eccellenze
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DiCZvA
 =======
 <<<<<<< HEAD
@@ -672,6 +786,10 @@ php artisan ui:accessibility-check
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 - **NON toccare** l'architettura PHPStan level 10
 =======
 <<<<<<< HEAD
@@ -690,6 +808,7 @@ php artisan ui:accessibility-check
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -701,6 +820,11 @@ php artisan ui:accessibility-check
 - **NON toccare** l'architettura PHPStan level 10
 =======
 >>>>>>> .merge_file_MzYzSM
+=======
+>>>>>>> laraxot/dev
+- **NON toccare** l'architettura PHPStan Level 9
+- **NON toccare** l'architettura PHPStan Level 9
+>>>>>>> 804451c (Lint)
 - **NON toccare** l'architettura PHPStan Level 9
 - **NON toccare** l'architettura PHPStan Level 9
 - **NON toccare** l'architettura PHPStan Level 9
@@ -708,6 +832,7 @@ php artisan ui:accessibility-check
 <<<<<<< HEAD
 - **NON toccare** l'architettura PHPStan Level 9
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -717,6 +842,8 @@ php artisan ui:accessibility-check
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_MzYzSM
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - **NON toccare** l'architettura PHPStan Level 9
 <<<<<<< HEAD
@@ -734,9 +861,12 @@ php artisan ui:accessibility-check
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - **NON modificare** il sistema TableLayoutEnum (perfetto)
 - **NON cambiare** il pattern TransTrait (eccellente)
@@ -755,6 +885,7 @@ php artisan ui:accessibility-check
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DiCZvA
 =======
 <<<<<<< HEAD
@@ -769,6 +900,8 @@ php artisan ui:accessibility-check
 *Ultimo aggiornamento: gennaio 2025*
 =======
 >>>>>>> .merge_file_MzYzSM
+=======
+>>>>>>> 804451c (Lint)
 - [Analisi Moduli Globale](../../../../docs/modules_analysis_and_optimization.md)
 - [Components Guide](components.md)
 - [TableLayoutEnum Guide](table-layout-enum-complete-guide.md)
@@ -788,9 +921,13 @@ php artisan ui:accessibility-check
 - **Filament Integration**: 20+ widget personalizzati perfettamente integrati
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 - [Analisi Moduli Globale](../../../docs/modules_analysis_and_optimization.md)
 - [Components Guide](components.md)
 - [TableLayoutEnum Guide](table-layout-enum-complete-guide.md)
@@ -821,9 +958,12 @@ php artisan ui:accessibility-check
 - **Component Architecture**: 50+ componenti Blade riutilizzabili
 - **Filament Integration**: 20+ widget personalizzati perfettamente integrati
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 #### Design System Maturo
 - **TableLayoutEnum**: Sistema layout responsive completo
@@ -834,12 +974,15 @@ php artisan ui:accessibility-check
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 #### Performance Ottimizzata
 - **Component Rendering**: < 50ms per componente
@@ -847,11 +990,14 @@ php artisan ui:accessibility-check
 - **Mobile Responsive**: 100% componenti responsive
 - **Caching**: Sistema caching componenti attivo
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ### ⚠️ AREE DI MIGLIORAMENTO
 
@@ -864,24 +1010,32 @@ php artisan ui:accessibility-check
 - **Link interni** con riferimenti specifici al progetto
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ### ⚠️ AREE DI MIGLIORAMENTO
 #### 1. Riusabilità Path (IMPORTANTE)
 - **115+ occorrenze hardcoded** di "<nome progetto>" in documentazione
 - **Path assoluti** in esempi e guide
 - **Link interni** con riferimenti specifici al progetto
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 #### 2. Documentazione Eccessiva
 - **README.md**: 407 righe (troppo denso)
 - **Informazioni duplicate** tra sezioni
 - **Esempi troppo specifici** per <nome progetto>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 ## 🔧 RACCOMANDAZIONI SPECIFICHE
@@ -889,6 +1043,8 @@ php artisan ui:accessibility-check
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - **Esempi troppo specifici** per <nome progetto>
 - **Esempi troppo specifici** per <nome progetto>
 - **Esempi troppo specifici** per <nome progetto>
@@ -898,24 +1054,33 @@ php artisan ui:accessibility-check
 ### 1. Path Generalization (IMPORTANTE - 1 ora)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 ## 🔧 RACCOMANDAZIONI SPECIFICHE
 ### 1. Path Generalization (IMPORTANTE - 1 ora)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 #### Pattern di Correzione
 ```php
 // ❌ PROBLEMI ATTUALI (in documentazione)
 Modules/UI/
 https://api.<nome progetto>.com/
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 Modules/UI/
 https://api.<nome progetto>.com/
 Modules/UI/
@@ -924,10 +1089,14 @@ Modules/UI/
 https://api.<nome progetto>.com/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 // ✅ SOLUZIONI
 {{project_path}}/laravel/Modules/UI/
@@ -937,23 +1106,29 @@ https://api.{{project_domain}}/
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 #### File da Aggiornare
 1. **docs/filament/label-translation-system.md**
 2. **docs/components/**.md files con path hardcoded
 3. **README.md** esempi con domini specifici
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ### 2. README Optimization (NORMALE - 30 min)
 
@@ -965,9 +1140,13 @@ https://api.{{project_domain}}/
 Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ### 2. README Optimization (NORMALE - 30 min)
 #### Struttura Target (max 150 righe)
 ```markdown
@@ -975,20 +1154,26 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 ## Overview
 Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ## ⚡ Quick Start
 - [Installation](installation.md)
 - [Components Guide](components/)
 - [Widget System](widgets/)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ## 🏆 Quality Achievements
 - ✅ PHPStan Level 9 (12/12 files)
@@ -999,18 +1184,25 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 - ✅ Accessibility Score 98/100
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ## 🏆 Quality Achievements
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ Translation Standards 100%
 - ✅ 50+ Blade Components
 - ✅ Accessibility Score 98/100
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ## 📚 Documentation
 - [Components](components/) - 50+ componenti riutilizzabili
@@ -1021,18 +1213,22 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ## 🔧 Development
 - [Best Practices](best-practices.md)
 - [Testing](testing/)
 - [Troubleshooting](troubleshooting/)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 *Modulo riutilizzabile - Pattern project-agnostic*
@@ -1041,6 +1237,8 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 *Modulo riutilizzabile - Pattern project-agnostic*
 ```
@@ -1050,14 +1248,20 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 #### Struttura Target per Components
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 *Modulo riutilizzabile - Pattern project-agnostic*
 ### 3. Component Documentation Enhancement (OPZIONALE - 2 ore)
 #### Struttura Target per Components
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 UI/docs/components/
 ├── README.md (overview componenti)
 ├── data-display/
@@ -1077,6 +1281,7 @@ UI/docs/components/
     ├── calendar.md
     └── charts.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 ### 4. Performance Monitoring (OPZIONALE - 1 ora)
@@ -1084,6 +1289,8 @@ UI/docs/components/
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ```
 
 ### 4. Performance Monitoring (OPZIONALE - 1 ora)
@@ -1091,13 +1298,19 @@ UI/docs/components/
 #### Component Performance Tracking
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 ### 4. Performance Monitoring (OPZIONALE - 1 ora)
 #### Component Performance Tracking
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 /**
  * Component performance middleware
  */
@@ -1107,6 +1320,7 @@ class ComponentPerformanceMiddleware
     {
         $start = microtime(true);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
         $response = $next($request);
@@ -1114,19 +1328,27 @@ class ComponentPerformanceMiddleware
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
         $response = $next($request);
 
         $duration = (microtime(true) - $start) * 1000;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
         $response = $next($request);
         $duration = (microtime(true) - $start) * 1000;
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
         if ($duration > 50) {
             Log::warning("Slow component detected", [
                 'component' => $request->route()->getName(),
@@ -1134,11 +1356,14 @@ class ComponentPerformanceMiddleware
             ]);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
         return $response;
     }
@@ -1148,17 +1373,24 @@ class ComponentPerformanceMiddleware
 ## 📊 METRICHE DI SUCCESSO
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
         return $response;
     }
 }
 ## 📊 METRICHE DI SUCCESSO
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### Riusabilità
 - [ ] **0 occorrenze** path hardcoded in documentazione
@@ -1168,12 +1400,15 @@ class ComponentPerformanceMiddleware
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### Documentazione
 - [ ] **README.md** ridotto a max 150 righe
@@ -1183,12 +1418,15 @@ class ComponentPerformanceMiddleware
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### Performance
 - [ ] **Component rendering** mantenuto < 50ms
@@ -1200,6 +1438,7 @@ class ComponentPerformanceMiddleware
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## 🚀 PIANO DI IMPLEMENTAZIONE
 =======
 <<<<<<< HEAD
@@ -1210,6 +1449,9 @@ class ComponentPerformanceMiddleware
 ## 🚀 PIANO DI IMPLEMENTAZIONE
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+## 🚀 PIANO DI IMPLEMENTAZIONE
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### Sprint 1 (1 ora) - IMPORTANTE
 1. **Aggiornare** path hardcoded in documentazione
@@ -1219,12 +1461,15 @@ class ComponentPerformanceMiddleware
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### Sprint 2 (30 min) - NORMALE
 1. **Ottimizzare** README.md
@@ -1234,12 +1479,15 @@ class ComponentPerformanceMiddleware
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### Sprint 3 (2 ore) - OPZIONALE
 1. **Enhancere** documentazione componenti
@@ -1251,6 +1499,7 @@ class ComponentPerformanceMiddleware
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## 🔍 CONTROLLI DI QUALITÀ
 =======
 <<<<<<< HEAD
@@ -1261,17 +1510,23 @@ class ComponentPerformanceMiddleware
 ## 🔍 CONTROLLI DI QUALITÀ
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+## 🔍 CONTROLLI DI QUALITÀ
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### Pre-Implementazione
 ```bash
 # Verifica path hardcoded
 grep -r "<nome progetto>" Modules/UI/docs/ --include="*.md" | wc -l
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 grep -r "<nome progetto>" Modules/UI/docs/ --include="*.md" | wc -l
 grep -r "<nome progetto>" Modules/UI/docs/ --include="*.md" | wc -l
 grep -r "<nome progetto>" Modules/UI/docs/ --include="*.md" | wc -l
@@ -1295,9 +1550,13 @@ php artisan ui:accessibility-check
 ## 🎯 PRIORITÀ
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 # Verifica lunghezza README
 wc -l Modules/UI/docs/README.md
 ### Post-Implementazione
@@ -1309,20 +1568,26 @@ php artisan ui:benchmark
 php artisan ui:accessibility-check
 ## 🎯 PRIORITÀ
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 1. **IMPORTANTE**: Path generalization (migliora riusabilità)
 2. **NORMALE**: README optimization (migliora DX)
 3. **OPZIONALE**: Component documentation (migliora manutenibilità)
 4. **FUTURO**: Performance monitoring (migliora UX)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ## 💡 RACCOMANDAZIONI SPECIFICHE
 
@@ -1335,9 +1600,13 @@ php artisan ui:accessibility-check
 - **NON alterare** la struttura componenti (ben organizzata)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ## 💡 RACCOMANDAZIONI SPECIFICHE
 ### Mantenere Eccellenze
 - **NON toccare** l'architettura PHPStan Level 9
@@ -1345,9 +1614,12 @@ php artisan ui:accessibility-check
 - **NON cambiare** il pattern TransTrait (eccellente)
 - **NON alterare** la struttura componenti (ben organizzata)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### Focus su Miglioramenti
 - **Generalizzare** solo path e domini hardcoded
@@ -1357,23 +1629,29 @@ php artisan ui:accessibility-check
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### Evitare Over-Engineering
 - Il modulo UI è già **molto maturo**
 - Le modifiche devono essere **minimali e mirate**
 - **Preservare** l'eccellente qualità esistente
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ## Collegamenti
 
@@ -1381,11 +1659,15 @@ php artisan ui:accessibility-check
 - [Components Guide](components.md)
 - [TableLayoutEnum Guide](table-layout-enum-complete-guide.md)
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_DiCZvA
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ## Collegamenti
 - [Analisi Moduli Globale](../../../docs/modules_analysis_and_optimization.md)
 - [Components Guide](components.md)
@@ -1410,9 +1692,12 @@ php artisan ui:accessibility-check
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_MzYzSM
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_vkD52q
 <<<<<<< HEAD
 =======
@@ -10,11 +11,15 @@ return [
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/it/awstest.php
 return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
@@ -26,6 +31,8 @@ return [
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
 =======
+=======
+>>>>>>> 804451c (Lint)
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
@@ -38,11 +45,14 @@ return [
 =======
 return [
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 return [
 >>>>>>> .merge_file_0eHKaq
+=======
+>>>>>>> 804451c (Lint)
     'page' => [
         'title' => 'Test AWS Diagnostico',
         'heading' => 'Diagnostica Configurazione AWS',
@@ -184,6 +194,7 @@ return [
         ],
         'label' => 'Awstest',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_vkD52q
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -191,15 +202,20 @@ return [
 <<<<<<< HEAD
         'icon' => 'heroicon-o-rectangle-stack',
 =======
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
 =======
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_0eHKaq
+=======
+>>>>>>> 804451c (Lint)
     ],
 ];

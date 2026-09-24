@@ -2,11 +2,16 @@
 # Componenti di Navigazione
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Componenti di Navigazione
 =======
 # Componenti di Navigazione 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+# Componenti di Navigazione 
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -80,11 +85,16 @@ I componenti di navigazione devono utilizzare sempre le funzioni di localizzazio
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
 =======
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/saluteora/laravel/lang/{locale}/auth.php`:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/saluteora/laravel/lang/{locale}/auth.php`:
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
 ```php
 return [

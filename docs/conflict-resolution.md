@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SAffAK
 =======
 <<<<<<< HEAD
@@ -49,6 +50,8 @@ Tutte le verifiche hanno avuto esito positivo.
 Ultimo aggiornamento: 2025-01-06
 =======
 >>>>>>> .merge_file_hWHUFi
+=======
+>>>>>>> 804451c (Lint)
 # Conflict Resolution — Module UI
 
 ## Summary
@@ -112,11 +115,15 @@ Ultimo aggiornamento: 2025-01-06
 
 ## Backlinks
 - [Root conflict resolution report](../../../../docs/conflict-resolution-report.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_SAffAK
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 # Git Conflict Resolution Audit
 
 ## Data
@@ -159,9 +166,12 @@ Tutte le verifiche hanno avuto esito positivo.
 ---
 Ultimo aggiornamento: 2025-01-06
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_hWHUFi
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Models;
 
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
 <<<<<<< .merge_file_Nqfmix
 <<<<<<< HEAD
 =======
@@ -15,17 +16,23 @@ use Modules\Xot\Contracts\ProfileContract;
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 use Modules\UI\Database\Factories\FieldOptionFactory;
 use Modules\Xot\Contracts\ProfileContract;
 =======
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 use Modules\Xot\Models\BaseModel;
 
 /**
  * FieldOption model for UI module.
+<<<<<<< HEAD
 <<<<<<< .merge_file_Nqfmix
 <<<<<<< HEAD
 =======
@@ -37,12 +44,21 @@ use Modules\Xot\Models\BaseModel;
  *
 >>>>>>> .merge_file_dtHKms
  * FormBuilder module not available - extending from XotBaseModel instead.
+=======
+<<<<<<< HEAD
+ * FormBuilder module not available - extending from XotBaseModel instead.
+ */
+/**
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+>>>>>>> 804451c (Lint)
  *
  * @method static FieldOptionFactory          factory($count = null, $state = [])
  * @method static Builder<static>|FieldOption newModelQuery()
  * @method static Builder<static>|FieldOption newQuery()
  * @method static Builder<static>|FieldOption query()
  *
+<<<<<<< HEAD
  * @property int                  $id
  * @property string|null          $field_id
  * @property string|null          $label
@@ -74,6 +90,11 @@ use Modules\Xot\Models\BaseModel;
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+ * @property ProfileContract|null $deleter
+ *
+=======
+>>>>>>> 804451c (Lint)
  *
  * FormBuilder module not available - extending from XotBaseModel instead.
  *
@@ -107,9 +128,12 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|FieldOption whereUpdatedBy($value)
  * @method static Builder<static>|FieldOption whereValue($value)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
  * @mixin \Eloquent
  */

@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
 <<<<<<< .merge_file_tmOuwE
 
 <<<<<<< HEAD
@@ -9,11 +10,16 @@ declare(strict_types=1);
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 use Modules\UI\Database\Factories\CategoryFactory;
 use Modules\UI\Database\Factories\CollectionFactory;
 use Modules\UI\Models\Category;
 use Modules\UI\Models\Collection;
 
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_PyKFmt
 /*
@@ -38,14 +44,53 @@ use Modules\UI\Models\Collection;
  * - vietata la cartella `tests/Support/` (ADR-002).
  */
 <<<<<<< .merge_file_tmOuwE
+=======
+/*
+ * Bootstrap Pest — modulo UI.
+ * Ogni file test dichiara uses(\Modules\UI\Tests\TestCase::class).
+ * Vietato expect()->extend() / uses()->in() qui (PHPStan method.internalClass).
+ */
+
+/**
+ * @param array<string, mixed> $attributes
+ */
+function createCategory(array $attributes = []): Category
+{
+    return CategoryFactory::new()->createOne($attributes);
+}
+
+/**
+ * @param array<string, mixed> $attributes
+ */
+function makeCategory(array $attributes = []): Category
+{
+    return CategoryFactory::new()->makeOne($attributes);
+}
+
+/**
+ * @param array<string, mixed> $attributes
+ */
+function createCollection(array $attributes = []): Collection
+{
+    return CollectionFactory::new()->createOne($attributes);
+}
+
+/**
+ * @param array<string, mixed> $attributes
+ */
+>>>>>>> 804451c (Lint)
 function makeCollection(array $attributes = []): Collection
 {
     return CollectionFactory::new()->makeOne($attributes);
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 /*
  * Bootstrap Pest — modulo UI.
  *
@@ -68,9 +113,13 @@ function makeCollection(array $attributes = []): Collection
  * - vietata la cartella `tests/Support/` (ADR-002).
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_PyKFmt
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

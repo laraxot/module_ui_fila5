@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_gmJdWe
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_osLjd2
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Roadmap Modulo UI"
 type: concept
@@ -15,7 +19,10 @@ tags: [roadmap]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "roadmap roadmap modulo ui"
+<<<<<<< HEAD
 <<<<<<< .merge_file_gmJdWe
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -32,6 +39,7 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -47,6 +55,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_osLjd2
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ### Versione HEAD
 
 # Roadmap Modulo UI
@@ -343,6 +354,7 @@ Overall Module Completion: 60%
 ### Component System Enhancement [75%]
 - [x] Base Components [docs/roadmap/components_base.md]
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_gmJdWe
 - [x] Form Components [docs/roadmap/form_components.md]
 =======
@@ -350,10 +362,13 @@ Overall Module Completion: 60%
 - [x] Form Components [docs/roadmap/form-components-2.md]
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [x] Form Components [docs/roadmap/form_components.md]
 =======
 - [x] Form Components [docs/roadmap/form-components-2.md]
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - [x] Form Components [docs/roadmap/form-components-2.md]
@@ -361,6 +376,8 @@ Overall Module Completion: 60%
 - [x] Form Components [docs/roadmap/form_components.md]
 >>>>>>> .merge_file_osLjd2
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - [ ] Data Display Components [docs/roadmap/data_display.md]
 - [ ] Navigation Components [docs/roadmap/navigation.md]
 - [x] Layout Components [docs/roadmap/layout.md]

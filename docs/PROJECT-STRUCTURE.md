@@ -22,11 +22,14 @@ tags: [structure, architecture, module]
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 │   │   ├── 00-INDEX.md          # Indice regole
 │   │   ├── 00-TRIGGER_MAP.md    # Trigger map (link a globale)
@@ -42,10 +45,13 @@ tags: [structure, architecture, module]
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 =======
 │   │   ├── 00-index.md          # Indice regole
 │   │   ├── 00-TRIGGER_MAP.md    # Trigger map (link a globale)
@@ -60,9 +66,12 @@ tags: [structure, architecture, module]
 │   │   ├── index.md
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 │   │   └── *.md
 │   ├── decisions/                # Architecture decision records
@@ -77,6 +86,7 @@ tags: [structure, architecture, module]
 ├── ARCHITECTURE.md               # (opzionale) Architettura modulo
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 ├── architecture.md               # (opzionale) Architettura modulo
 >>>>>>> 92912795 (.)
 =======
@@ -87,6 +97,10 @@ tags: [structure, architecture, module]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+├── architecture.md               # (opzionale) Architettura modulo
+>>>>>>> 92912795 (.)
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 └── README.md                     # (opzionale) Overview modulo
 \`\`\`
@@ -166,6 +180,7 @@ cp docs/wiki/rules/INDEX.md docs/wiki/rules/
 cp docs/wiki/rules/INDEX.md docs/wiki/rules/
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 cp docs/wiki/rules/index.md docs/wiki/rules/
 >>>>>>> 92912795 (.)
 =======
@@ -176,6 +191,10 @@ cp docs/wiki/rules/index.md docs/wiki/rules/
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+cp docs/wiki/rules/index.md docs/wiki/rules/
+>>>>>>> 92912795 (.)
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 # ... etc
 

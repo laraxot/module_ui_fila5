@@ -184,6 +184,7 @@ class StatsWidget extends Widget
 3. **L'icona sarà disponibile** come `ui-user-profile`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_87Pwjq
 <<<<<<< HEAD
@@ -192,11 +193,14 @@ class StatsWidget extends Widget
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_d5aZzB
+=======
+>>>>>>> 804451c (Lint)
 ### Sottocartelle (es. brands)
 
 - `brands/github.svg` → `ui-brands.github` (punto = separatore path)
 - **Vietato** SVG inline nelle Blade: vedi [no-svg-hardcoded-in-blade.md](no-svg-hardcoded-in-blade.md)
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_87Pwjq
 <<<<<<< HEAD
 =======
@@ -205,6 +209,9 @@ class StatsWidget extends Widget
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_d5aZzB
+=======
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### Esempio di Icona SVG
 
@@ -350,6 +357,7 @@ Tutte le icone sono compatibili con Filament 4.x e versioni successive.
 ## 📝 Changelog
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_87Pwjq
 ### v1.1.0 - [DATE]
 =======
@@ -357,10 +365,13 @@ Tutte le icone sono compatibili con Filament 4.x e versioni successive.
 ### v1.1.0 - 2025-01-27
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 ### v1.1.0 - [DATE]
 =======
 ### v1.1.0 - 2025-01-27
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 ### v1.1.0 - 2025-01-27
@@ -368,11 +379,14 @@ Tutte le icone sono compatibili con Filament 4.x e versioni successive.
 ### v1.1.0 - [DATE]
 >>>>>>> .merge_file_d5aZzB
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - **🔧 Icone Aggiuntive**: Aggiunte icone mancanti (cancel, save, logout, showPassword, user-main, user-team, user-user-tenant)
 - **🐛 Bug Fix**: Risolto errore "SvgNotFound" per icona "cancel"
 - **📝 Traduzioni**: Aggiornati file di traduzione per utilizzare prefisso "ui-" corretto
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_87Pwjq
 ### v1.0.0 - [DATE]
 =======
@@ -380,10 +394,13 @@ Tutte le icone sono compatibili con Filament 4.x e versioni successive.
 ### v1.0.0 - 2025-01-27
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 ### v1.0.0 - [DATE]
 =======
 ### v1.0.0 - 2025-01-27
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 ### v1.0.0 - 2025-01-27
@@ -391,6 +408,8 @@ Tutte le icone sono compatibili con Filament 4.x e versioni successive.
 ### v1.0.0 - [DATE]
 >>>>>>> .merge_file_d5aZzB
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - **🎨 Sistema Icone**: Implementato sistema completo di icone SVG
 - **🔧 Registrazione Automatica**: Icone registrate automaticamente
 - **📚 Documentazione**: Documentazione completa del sistema

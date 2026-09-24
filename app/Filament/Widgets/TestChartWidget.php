@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Widgets;
 
 use Filament\Support\RawJs;
+<<<<<<< HEAD
 <<<<<<< .merge_file_QfkNcx
 <<<<<<< HEAD
 =======
@@ -15,17 +16,24 @@ final class TestChartWidget extends XotBaseChartWidget
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 use Filament\Widgets\ChartWidget;
 use Illuminate\Support\Facades\File;
 
 final class TestChartWidget extends ChartWidget
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
 
 final class TestChartWidget extends XotBaseChartWidget
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
@@ -33,6 +41,8 @@ use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
 
 final class TestChartWidget extends XotBaseChartWidget
 >>>>>>> .merge_file_ZvFKqt
+=======
+>>>>>>> 804451c (Lint)
 {
     public int $qid = 0;
 
@@ -77,6 +87,7 @@ final class TestChartWidget extends XotBaseChartWidget
 
     protected function getOptions(): RawJs
     {
+<<<<<<< HEAD
 <<<<<<< .merge_file_QfkNcx
 <<<<<<< HEAD
 =======
@@ -84,16 +95,23 @@ final class TestChartWidget extends XotBaseChartWidget
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
         $path = module_path('UI', 'resources/js/test-chart-y-tick-options.js');
         $contents = File::exists($path) ? File::get($path) : '{}';
 
         return RawJs::make($contents);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_ZvFKqt
+=======
+=======
+>>>>>>> 804451c (Lint)
         return RawJs::make(<<<'JS'
             {
                 scales: {
@@ -105,6 +123,7 @@ final class TestChartWidget extends XotBaseChartWidget
                 },
             }
         JS);
+<<<<<<< HEAD
 <<<<<<< .merge_file_QfkNcx
 <<<<<<< HEAD
 =======
@@ -113,5 +132,8 @@ final class TestChartWidget extends XotBaseChartWidget
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_ZvFKqt
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
     }
 }

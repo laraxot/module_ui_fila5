@@ -20,6 +20,7 @@ enum TableLayout: string
             self::GRID => self::LIST,
         };
     }
+<<<<<<< HEAD
 <<<<<<< .merge_file_DplzmV
 <<<<<<< HEAD
 =======
@@ -30,6 +31,10 @@ enum TableLayout: string
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Da0InY
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 
     /**
      * @return array<string, string>
@@ -43,6 +48,7 @@ enum TableLayout: string
 
         return $result;
     }
+<<<<<<< HEAD
 <<<<<<< .merge_file_DplzmV
 <<<<<<< HEAD
 =======
@@ -51,4 +57,7 @@ enum TableLayout: string
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Da0InY
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 }

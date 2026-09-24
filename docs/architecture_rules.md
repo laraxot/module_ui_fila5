@@ -150,11 +150,14 @@ class CustomMiddleware
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <img src="/var/www/html/<nome progetto>/laravel/public/images/avatar.png">
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 <img src="/var/www/html/saluteora/laravel/public/images/avatar.png">
 <<<<<<< HEAD
 <img src="[project-root]/laravel/public/images/avatar.png">
@@ -178,9 +181,12 @@ class CustomMiddleware
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 // Non duplicare la registrazione dei componenti

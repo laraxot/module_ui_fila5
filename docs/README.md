@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_D2S9oh
 =======
 <<<<<<< HEAD
@@ -96,6 +97,8 @@ Utilizzo tipico:
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> 804451c (Lint)
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -111,8 +114,11 @@ Utilizzo tipico:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_9fLzuH
+=======
+>>>>>>> 804451c (Lint)
 # Documentation
 
 This directory contains documentation for the module.
@@ -129,7 +135,10 @@ Documentation should be:
 - Example-driven
 - Updated with code changes
 - Use Markdown format (.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_D2S9oh
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -142,10 +151,13 @@ Documentation should be:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> .merge_file_9fLzuH
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "UI Module Documentation"
 type: documentation
@@ -159,9 +171,12 @@ updated: 2026-06-05
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 # Modulo UI - Componenti Condivisi
 
@@ -171,17 +186,23 @@ Il modulo **UI** fornisce componenti Blade, widget Filament e asset condivisi pe
 
 ## Struttura Componenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_D2S9oh
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> 804451c (Lint)
+=======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_9fLzuH
+=======
+>>>>>>> 804451c (Lint)
 This directory contains documentation for the module.
 
 ## Structure
@@ -190,7 +211,10 @@ This directory contains documentation for the module.
 - **README.md** - This file
 
 ## Guidelines
+<<<<<<< HEAD
 <<<<<<< .merge_file_D2S9oh
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -199,11 +223,14 @@ This directory contains documentation for the module.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9fLzuH
+=======
+>>>>>>> 804451c (Lint)
 
 ```
 resources/views/components/ui/
@@ -258,6 +285,7 @@ resources/views/components/ui/
 ## AI Workflows
 - [AI Methodologies](./ai-methodologies.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_D2S9oh
 ||||||| parent of 9a84589 (.)
 =======
@@ -269,6 +297,10 @@ resources/views/components/ui/
 =======
 ||||||| parent of 9a84589 (.)
 >>>>>>> .merge_file_9fLzuH
+=======
+||||||| parent of 9a84589 (.)
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     case LIST = 'list';
     case GRID = 'grid';
@@ -311,6 +343,7 @@ Workflow: `.github/workflows/semantic-versioning.yml`
 MIT
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_D2S9oh
 
 =======
@@ -322,6 +355,10 @@ MIT
 =======
 
 >>>>>>> .merge_file_9fLzuH
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ## Standard Rules & Workflow
 
@@ -332,12 +369,16 @@ MIT
 ## Documentation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_D2S9oh
+=======
+>>>>>>> 804451c (Lint)
 - [On-Demand Pattern](./ON-DEMAND-PATTERN.md) — Pattern per caricamento efficiente
 - [QMD Setup](./QMD-SETUP.md) — Configurazione ricerca locale
 - [Performance](./PERFORMANCE-OPTIMIZATION.md) — Metriche e best practice
 - [Project Structure](./PROJECT-STRUCTURE.md) — Directory layout
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 - [On-Demand Pattern](./on-demand-pattern.md) — Pattern per caricamento efficiente
@@ -1384,6 +1425,8 @@ L'ecosistema ha 40+ moduli che condividono l'interfaccia admin. Senza un design 
 - [Project Structure](./PROJECT-STRUCTURE.md) — Directory layout
 <<<<<<< .merge_file_D2S9oh
 =======
+=======
+>>>>>>> 804451c (Lint)
 - [On-Demand Pattern](./on-demand-pattern.md) — Pattern per caricamento efficiente
 - [QMD Setup](./qmd-setup.md) — Configurazione ricerca locale
 - [Performance](./performance-optimization.md) — Metriche e best practice
@@ -2437,7 +2480,10 @@ L'ecosistema ha 40+ moduli che condividono l'interfaccia admin. Senza un design 
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_9fLzuH
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)

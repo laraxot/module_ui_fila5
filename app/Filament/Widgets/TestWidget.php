@@ -4,27 +4,34 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Widgets;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_ExBo9H
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 =======
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 use Filament\Schemas\Components\Component;
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 use Filament\Schemas\Components\Component;
 >>>>>>> .merge_file_cpaCem
+=======
+>>>>>>> 804451c (Lint)
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 final class TestWidget extends XotBaseSchemaWidget
 {
     protected ?string $heading = 'Test Widget';
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_ExBo9H
 <<<<<<< HEAD
 =======
@@ -33,12 +40,15 @@ final class TestWidget extends XotBaseSchemaWidget
      * @return array<string, Component>
      */
 =======
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
     /**
      * @return array<string, Component>
      */
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
@@ -46,6 +56,8 @@ final class TestWidget extends XotBaseSchemaWidget
      * @return array<string, Component>
      */
 >>>>>>> .merge_file_cpaCem
+=======
+>>>>>>> 804451c (Lint)
     public function getFormSchema(): array
     {
         return [];

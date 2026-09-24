@@ -4,10 +4,14 @@ topic: table-layout-toggle
 status: open
 <<<<<<< HEAD
 related_issue: provtv/base_ptv_fila5_mono
+<<<<<<< HEAD
 <<<<<<< .merge_file_aFztwP
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 related_issue: provtv/base_ptv_fila5_mono
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -15,12 +19,15 @@ related_issue: provtv/base_ptv_fila5_mono
 related_issue: provtv/base_ptv_fila5_mono
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 related_issue: provtv/<nome repository>
 =======
 =======
 related_issue: provtv/<nome repository>
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -30,6 +37,8 @@ related_issue: provtv/<nome repository>
 related_issue: provtv/<nome repository>
 =======
 >>>>>>> .merge_file_WB0Igc
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 related_module_repo: laraxot/module_ui_fila5
 ---

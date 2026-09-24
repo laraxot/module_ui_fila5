@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_8uMWvz
 =======
 <<<<<<< HEAD
@@ -243,6 +244,8 @@ class ThemeCompiler
 5. Migliorare documentazione 
 =======
 >>>>>>> .merge_file_hgzFMe
+=======
+>>>>>>> 804451c (Lint)
 ---
 module: theme
 topic: theme_system
@@ -250,11 +253,15 @@ canonical: ../../../../Themes/docs/shared-components/theme-system.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/theme-system.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_8uMWvz
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 # Sistema di Theming
 
 ## 📊 Stato Implementazione
@@ -491,9 +498,12 @@ class ThemeCompiler
 4. Aggiungere theme builder
 5. Migliorare documentazione 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_hgzFMe
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

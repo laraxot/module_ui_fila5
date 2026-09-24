@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MsIi35
 =======
 <<<<<<< HEAD
@@ -1174,6 +1175,8 @@ Non aggiornare questo file: aggiornare `index.md` o `00-index.md`.
 - [git-merge-conflict-inventory.md](./wiki/troubleshooting/git-merge-conflict-inventory.md)
 =======
 >>>>>>> .merge_file_tMLiH5
+=======
+>>>>>>> 804451c (Lint)
 # Documentation Index
 
 Modulo: UI
@@ -1181,9 +1184,12 @@ Modulo: UI
 ## File disponibili
 
 <!-- auto-generato: elencare i file .md presenti -->
+<<<<<<< HEAD
 <<<<<<< .merge_file_MsIi35
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 =======
@@ -2868,7 +2874,10 @@ laravel/Modules/UI/
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_tMLiH5
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)

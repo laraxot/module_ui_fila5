@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Actions\Block;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_xFcrep
 <<<<<<< HEAD
 =======
@@ -22,11 +23,20 @@ use UnexpectedValueException;
 use Spatie\QueueableAction\QueueableAction;
 
 >>>>>>> .merge_file_Rkucwl
+=======
+use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
+=======
+use UnexpectedValueException;
+>>>>>>> laraxot/dev
+
+>>>>>>> 804451c (Lint)
 /**
  * Risolve dati block localizzati; delega al modulo Cms se presente.
  */
 final class ResolveLocalizedBlockDataAction
 {
+<<<<<<< HEAD
 <<<<<<< .merge_file_xFcrep
 <<<<<<< HEAD
     /**
@@ -35,20 +45,28 @@ final class ResolveLocalizedBlockDataAction
 =======
 =======
 >>>>>>> .merge_file_Rkucwl
+=======
+>>>>>>> 804451c (Lint)
     use QueueableAction;
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  array<string, mixed>  $viewParams
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
      * @param array<string, mixed> $viewParams
      *
 =======
      * @param  array<string, mixed>  $viewParams
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
      * @return array<string, mixed>
      */
     public function execute(array $viewParams): array
@@ -70,6 +88,7 @@ final class ResolveLocalizedBlockDataAction
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< .merge_file_xFcrep
 <<<<<<< HEAD
 =======
@@ -86,19 +105,31 @@ final class ResolveLocalizedBlockDataAction
     private function normalizeViewData(array $data): array
     {
 <<<<<<< .merge_file_xFcrep
+=======
+<<<<<<< HEAD
+     * @return array<string, mixed>
+     */
+    private function normalizeViewData(mixed $data): array
+    {
+>>>>>>> 804451c (Lint)
         if (! is_array($data)) {
             return [];
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
      * @param  array<array-key, mixed>  $data
      * @return array<string, mixed>
      */
     private function normalizeViewData(array $data): array
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -106,6 +137,9 @@ final class ResolveLocalizedBlockDataAction
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Rkucwl
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
         $viewData = [];
 
         foreach ($data as $key => $value) {
@@ -114,6 +148,7 @@ final class ResolveLocalizedBlockDataAction
                 throw new \UnexpectedValueException('Block view data must have string keys.');
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
                 throw new UnexpectedValueException('Block view data must have string keys.');
 =======
 <<<<<<< HEAD
@@ -122,6 +157,9 @@ final class ResolveLocalizedBlockDataAction
                 throw new UnexpectedValueException('Block view data must have string keys.');
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+                throw new UnexpectedValueException('Block view data must have string keys.');
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
             }
 

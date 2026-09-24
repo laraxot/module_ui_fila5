@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 =======
 <<<<<<< HEAD
@@ -19,6 +20,8 @@ Il sistema di blocchi di il progetto è un'architettura modulare che permette di
 ## Architettura
 =======
 >>>>>>> .merge_file_B4rhir
+=======
+>>>>>>> 804451c (Lint)
 # Sistema di Blocchi
 
 ## Introduzione
@@ -26,12 +29,17 @@ Il sistema di blocchi di il progetto è un'architettura modulare che permette di
 
 ## Architettura
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 <<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 =======
@@ -73,11 +81,14 @@ See canonical documentation: ../../../Themes/docs/shared-components/blocks-syste
 Il sistema di blocchi di il progetto è un'architettura modulare che permette di costruire pagine e componenti attraverso blocchi riutilizzabili. Ogni blocco è un componente Filament che genera una struttura JSON standardizzata e viene renderizzato attraverso un componente Blade dedicato.
 ## Architettura
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_B4rhir
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### Struttura Base
 ```
@@ -92,6 +103,7 @@ laravel/Modules/Cms/
 └── docs/
     └── blocks/              # Documentazione dei blocchi
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 =======
 <<<<<<< HEAD
@@ -105,27 +117,36 @@ laravel/Modules/Cms/
 1. **[NavigationBlock](../laravel/Modules/Cms/docs/blocks/navigation-block.md)**
 =======
 >>>>>>> .merge_file_B4rhir
+=======
+>>>>>>> 804451c (Lint)
 ```
 
 ### Tipi di Blocchi
 
 1. **[NavigationBlock](../laravel/modules/cms/docs/blocks/navigation-block.md)**
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 <<<<<<< HEAD
 =======
 =======
+>>>>>>> 804451c (Lint)
+=======
 ### Tipi di Blocchi
 1. **[NavigationBlock](../laravel/Modules/Cms/docs/blocks/navigation-block.md)**
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_B4rhir
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
    - Gestione menu di navigazione
    - Header e footer
    - Menu multilivello
    - Supporto mobile
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 
 =======
@@ -140,12 +161,17 @@ laravel/Modules/Cms/
 =======
 
 >>>>>>> .merge_file_B4rhir
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 2. **ContentBlock**
    - Testo formattato
    - Immagini e media
    - Layout flessibile
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 
 =======
@@ -160,12 +186,17 @@ laravel/Modules/Cms/
 =======
 
 >>>>>>> .merge_file_B4rhir
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 3. **FormBlock**
    - Form interattivi
    - Validazione
    - Gestione submit
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 =======
 <<<<<<< HEAD
@@ -173,12 +204,22 @@ laravel/Modules/Cms/
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
+
+## Implementazione
+
+### 1. Definizione Blocco
+```php
+use Filament\Forms\Components\Builder\Block;
+
+>>>>>>> 804451c (Lint)
+=======
 ## Implementazione
 ### 1. Definizione Blocco
 ```
 
 ```php
 use Filament\Forms\Components\Builder\Block;
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_B4rhir
 
@@ -205,6 +246,8 @@ use Filament\Forms\Components\Builder\Block;
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_B4rhir
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 class CustomBlock extends Block
 {
@@ -216,6 +259,7 @@ class CustomBlock extends Block
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 =======
 <<<<<<< HEAD
@@ -239,6 +283,8 @@ public function render()
 ## Best Practices
 =======
 >>>>>>> .merge_file_B4rhir
+=======
+>>>>>>> 804451c (Lint)
 ```
 
 ### 2. Struttura JSON
@@ -264,11 +310,15 @@ public function render()
 
 ## Best Practices
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ### 2. Struttura JSON
 ```
 
@@ -284,11 +334,14 @@ public function render()
     ]);
 ## Best Practices
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_B4rhir
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### 1. Struttura
 - Un blocco per funzionalità
@@ -296,6 +349,7 @@ public function render()
 - Documentazione completa
 - Test automatizzati
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 
 =======
@@ -310,6 +364,10 @@ public function render()
 =======
 
 >>>>>>> .merge_file_B4rhir
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### 2. Performance
 - Ottimizzazione cache
@@ -317,6 +375,7 @@ public function render()
 - Minimizzazione DOM
 - Asset management
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 
 =======
@@ -331,6 +390,10 @@ public function render()
 =======
 
 >>>>>>> .merge_file_B4rhir
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### 3. Manutenibilità
 - Codice pulito
@@ -338,6 +401,7 @@ public function render()
 - Versionamento
 - Backup automatici
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 
 =======
@@ -352,12 +416,17 @@ public function render()
 =======
 
 >>>>>>> .merge_file_B4rhir
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ## Links
 - [Documentazione Blocchi](../laravel/Modules/Cms/docs/blocks/)
 - [Gestione Contenuti](content-management.md)
 - [Best Practices UI](ui-best-practices.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 =======
 <<<<<<< HEAD
@@ -373,6 +442,8 @@ Questa documentazione è parte del sistema di documentazione di il progetto. Per
 ```
 =======
 >>>>>>> .merge_file_B4rhir
+=======
+>>>>>>> 804451c (Lint)
 
 ## Note
 Questa documentazione è parte del sistema di documentazione di il progetto. Per dettagli specifici sui singoli blocchi, consultare la documentazione dei rispettivi moduli.
@@ -484,11 +555,15 @@ public function render()
 
 ## Note
 Questa documentazione è parte del sistema di documentazione di il progetto. Per dettagli specifici sui singoli blocchi, consultare la documentazione dei rispettivi moduli.
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ## Note
 Questa documentazione è parte del sistema di documentazione di il progetto. Per dettagli specifici sui singoli blocchi, consultare la documentazione dei rispettivi moduli.
 1. **[NavigationBlock](../laravel/Modules/Cms/project_docs/blocks/navigation-block.md)**
@@ -515,9 +590,12 @@ See canonical documentation: ../../../Themes/docs/shared-components/blocks-syste
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_B4rhir
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

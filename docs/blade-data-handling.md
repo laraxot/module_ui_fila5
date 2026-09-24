@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_CsKL70
 =======
 <<<<<<< HEAD
@@ -20,6 +21,8 @@ This document outlines best practices for data handling in Blade components, par
 All Blade components should explicitly define their expected properties using the `@props` directive:
 =======
 >>>>>>> .merge_file_bdNrP0
+=======
+>>>>>>> 804451c (Lint)
 # Data Handling in Blade Components
 
 This document outlines best practices for data handling in Blade components, particularly in theme blocks used for content sections.
@@ -30,12 +33,17 @@ This document outlines best practices for data handling in Blade components, par
 
 All Blade components should explicitly define their expected properties using the `@props` directive:
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_CsKL70
 <<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 =======
@@ -76,11 +84,14 @@ This document outlines best practices for data handling in Blade components, par
 ### 1. Explicit Props Definition
 All Blade components should explicitly define their expected properties using the `@props` directive:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_bdNrP0
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```blade
 @props([
@@ -92,6 +103,7 @@ All Blade components should explicitly define their expected properties using th
 ])
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_CsKL70
 =======
 <<<<<<< HEAD
@@ -105,28 +117,37 @@ The standard data flow follows this pattern:
 The standard data flow follows this pattern:
 =======
 >>>>>>> .merge_file_bdNrP0
+=======
+>>>>>>> 804451c (Lint)
 
 ### 2. Data Flow Pattern
 
 The standard data flow follows this pattern:
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_CsKL70
 <<<<<<< HEAD
 =======
 =======
+>>>>>>> 804451c (Lint)
+=======
 ### 2. Data Flow Pattern
 The standard data flow follows this pattern:
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_bdNrP0
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 1. **Storage**: Data is stored in JSON configuration files (`config/local/{tenant}/database/content/sections/{id}.json`)
 2. **Retrieval**: Section controller loads and processes the JSON data
 3. **Passing**: Data is passed to components via `@include($block->view, $block->data)`
 4. **Reception**: Components receive data through explicitly defined props
 5. **Rendering**: Components render the received data according to their template
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_CsKL70
 
 ### 3. No Implicit Variables
@@ -136,12 +157,15 @@ The standard data flow follows this pattern:
 ### 3. No Implicit Variables
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 
 ### 3. No Implicit Variables
 
 =======
 ### 3. No Implicit Variables
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 ### 3. No Implicit Variables
@@ -151,12 +175,15 @@ The standard data flow follows this pattern:
 
 >>>>>>> .merge_file_bdNrP0
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 Components should never rely on variables that haven't been explicitly defined as props. This prevents:
 - Unexpected behavior
 - Hard-to-trace bugs
 - Tight coupling between components and their parent context
 - Difficulty reusing components in different contexts
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_CsKL70
 =======
 <<<<<<< HEAD
@@ -170,27 +197,36 @@ Components should never rely on variables that haven't been explicitly defined a
 ### Section to Block Data Flow
 =======
 >>>>>>> .merge_file_bdNrP0
+=======
+>>>>>>> 804451c (Lint)
 
 ## Common Patterns
 
 ### Section to Block Data Flow
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_CsKL70
 <<<<<<< HEAD
 =======
 =======
+>>>>>>> 804451c (Lint)
+=======
 ## Common Patterns
 ### Section to Block Data Flow
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_bdNrP0
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ```php
 // In sections/header.blade.php
 @foreach($componentsBlocks as $block)
     @include($block->view, $block->data)
 @endforeach
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_CsKL70
 =======
@@ -206,6 +242,8 @@ Components should never rely on variables that haven't been explicitly defined a
     // All expected properties
 =======
 >>>>>>> .merge_file_bdNrP0
+=======
+>>>>>>> 804451c (Lint)
 ```
 
 ### Block Component Structure
@@ -218,27 +256,35 @@ Components should never rely on variables that haven't been explicitly defined a
     // All expected properties
 ])
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_CsKL70
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ### Block Component Structure
 // In components/blocks/example.blade.php
     'prop1' => default1,
     'prop2' => default2,
     // All expected properties
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_bdNrP0
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 <div {{ $attributes->merge(['class' => 'example-component']) }}>
     @if($prop1)
         <h2>{{ $prop1 }}</h2>
     @endif
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_CsKL70
 =======
@@ -254,6 +300,8 @@ Components should never rely on variables that haven't been explicitly defined a
 ### Missing Props Definition
 =======
 >>>>>>> .merge_file_bdNrP0
+=======
+>>>>>>> 804451c (Lint)
 
     @if($prop2)
         <p>{{ $prop2 }}</p>
@@ -266,22 +314,29 @@ Components should never rely on variables that haven't been explicitly defined a
 ### Missing Props Definition
 
 ```blade
+<<<<<<< HEAD
 <<<<<<< .merge_file_CsKL70
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
     @if($prop2)
         <p>{{ $prop2 }}</p>
 </div>
 ## Common Errors
 ### Missing Props Definition
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_bdNrP0
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 <!-- INCORRECT: Missing props definition -->
 <div class="user-menu">
@@ -289,6 +344,7 @@ Components should never rely on variables that haven't been explicitly defined a
         <a href="{{ $item['url'] }}">{{ $item['label'] }}</a>
     @endforeach
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_CsKL70
 =======
 <<<<<<< HEAD
@@ -307,6 +363,8 @@ Components should never rely on variables that haven't been explicitly defined a
 ### Direct Use of Auth System
 =======
 >>>>>>> .merge_file_bdNrP0
+=======
+>>>>>>> 804451c (Lint)
 </div>
 
 <!-- CORRECT: With props definition -->
@@ -332,11 +390,15 @@ Components should never rely on variables that haven't been explicitly defined a
 ### Direct Use of Auth System
 
 ```blade
+<<<<<<< HEAD
 <<<<<<< .merge_file_CsKL70
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 <!-- CORRECT: With props definition -->
 @props(['menu_items' => []])
     @foreach($menu_items as $item)
@@ -347,16 +409,20 @@ Components should never rely on variables that haven't been explicitly defined a
 <div class="title">Welcome to {{ config('app.name') }}</div>
 ### Direct Use of Auth System
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_bdNrP0
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 <!-- INCORRECT: Direct dependency on auth system -->
 @if(auth()->check())
     <!-- Authenticated UI -->
 @endif
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_CsKL70
 =======
@@ -372,6 +438,8 @@ Components should never rely on variables that haven't been explicitly defined a
 ## Best Practices
 =======
 >>>>>>> .merge_file_bdNrP0
+=======
+>>>>>>> 804451c (Lint)
 
 <!-- CORRECT: Parameterized authentication state -->
 @props([
@@ -386,28 +454,36 @@ Components should never rely on variables that haven't been explicitly defined a
 
 ## Best Practices
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_CsKL70
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 <!-- CORRECT: Parameterized authentication state -->
     'is_authenticated' => false,
     'user' => null
 @if($is_authenticated)
 ## Best Practices
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_bdNrP0
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 1. **Validate Props**: Use type checking and conditional logic to validate props
 2. **Provide Defaults**: Always set sensible default values for all props
 3. **Document Expected Format**: Comment complex data structures expected by the component
 4. **Keep Components Focused**: Each component should have a single responsibility
 5. **Test Edge Cases**: Ensure components handle missing or malformed data gracefully
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_CsKL70
 =======
@@ -426,6 +502,8 @@ Components should never rely on variables that haven't been explicitly defined a
 ```
 =======
 >>>>>>> .merge_file_bdNrP0
+=======
+>>>>>>> 804451c (Lint)
 
 ## Related Documentation
 
@@ -455,9 +533,13 @@ All Blade components should explicitly define their expected properties using th
 ])
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ## Related Documentation
 - [Block Components Overview](./blocks/README.md)
 - [Component Architecture](./components/README.md)
@@ -469,9 +551,12 @@ All Blade components should explicitly define their expected properties using th
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ### 2. Data Flow Pattern
@@ -588,22 +673,29 @@ Components should never rely on variables that haven't been explicitly defined a
 ## Related Documentation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - [Block Components Overview](./blocks/readme.md)
 - [Component Architecture](./components/readme.md)
 - [Section Architecture](./sections/readme.md)
 
 > **Note**: This document is the primary reference for Blade data handling patterns across all modules.
 > All module-specific implementations should link back to this document.
+<<<<<<< HEAD
 <<<<<<< .merge_file_CsKL70
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 - [Block Components Overview](./blocks/README.md)
 - [Component Architecture](./components/README.md)
 - [Section Architecture](./sections/README.md)
@@ -626,9 +718,12 @@ See canonical documentation: ../../../Themes/docs/shared-components/blade-data-h
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_bdNrP0
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

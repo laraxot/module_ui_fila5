@@ -19,6 +19,7 @@ Usa `docs/` come sorgente raw e `docs/wiki/` come livello compilato/sintetico.
 
 QMD: [https://github.com/tobi/qmd](https://github.com/tobi/qmd)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kKsjmX
 =======
 <<<<<<< HEAD
@@ -28,6 +29,9 @@ QMD: [https://github.com/tobi/qmd](https://github.com/tobi/qmd)
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_vHZw4D
+=======
+=======
+>>>>>>> 804451c (Lint)
 [![Module](https://img.shields.io/badge/Module-LLM Wiki (module)-8B0000.svg)]()
 [![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
 [![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)
@@ -60,6 +64,7 @@ Core module for the FixCity Platform.
 ---
 
 **Modulo** `UI` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+<<<<<<< HEAD
 <<<<<<< .merge_file_kKsjmX
 <<<<<<< HEAD
 =======
@@ -70,3 +75,6 @@ Core module for the FixCity Platform.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_vHZw4D
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YtfuAy
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_nYWgnc
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Colli di Bottiglia - Modulo UI"
 type: concept
@@ -15,7 +19,10 @@ tags: [bottlenecks]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "bottlenecks colli di bottiglia - modulo ui"
+<<<<<<< HEAD
 <<<<<<< .merge_file_YtfuAy
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,12 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_nYWgnc
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./component-system.md"
   - "./form-component.md"
@@ -41,6 +51,7 @@ related:
   - "./theme-system.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_YtfuAy
 <<<<<<< HEAD
 =======
@@ -51,6 +62,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_nYWgnc
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Colli di Bottiglia - Modulo UI
 
 ## 1. Performance Componenti [85%]

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_u0vq8t
 =======
 <<<<<<< HEAD
@@ -803,6 +804,8 @@ class UIServiceProvider extends XotBaseServiceProvider
    - Mantenere la coerenza con il tema dark/light
 =======
 >>>>>>> .merge_file_zJsofP
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "architecture-rules — puntatore"
 type: reference
@@ -814,11 +817,15 @@ updated: 2026-05-21
 Contenuto in wiki di progetto — non duplicare nei moduli ([#124](https://github.com/provtv/base_ptv_fila5_mono/issues/124)).
 
 → [docs/wiki/rules/00-TRIGGER_MAP.md](../../../../docs/wiki/rules/00-TRIGGER_MAP.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_u0vq8t
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 # Regole Architetturali
 
 ## Principi Fondamentali
@@ -1805,9 +1812,12 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_zJsofP
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

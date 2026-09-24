@@ -2,11 +2,14 @@
 https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Widgets"
 type: concept
@@ -39,7 +42,10 @@ related:
 
 https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

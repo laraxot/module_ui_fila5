@@ -3,14 +3,18 @@ module: theme
 topic: source
 canonical: ../../../../../Themes/docs/shared-components/source.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cpQI7V
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 =======
 related:
   - "./concept.md"
   - "./entity.md"
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 related:
   - "./concept.md"
@@ -18,6 +22,8 @@ related:
 =======
 >>>>>>> .merge_file_Kc7IDN
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/source.md

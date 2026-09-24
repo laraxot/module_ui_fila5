@@ -18,6 +18,7 @@ class UiCoverageRecord extends Model
     public static array $findMap = [];
 
     /**
+<<<<<<< HEAD
      * <<<<<<< HEAD.
      *
      * @param int|string                $id
@@ -41,6 +42,10 @@ class UiCoverageRecord extends Model
      *                                           >>>>>>> .merge_file_37ZtLp
      *                                           >>>>>>> .merge_file_Djbvpg
      *                                           >>>>>>> laraxot/dev
+=======
+     * @param int|string                $id
+     * @param array<int, string>|string $columns
+>>>>>>> 804451c (Lint)
      */
     public static function find($id, $columns = ['*']): ?self
     {

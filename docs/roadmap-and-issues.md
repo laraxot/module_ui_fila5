@@ -198,6 +198,7 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
   - Smart forms
   - Auto-completion
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SYHLca
   - <nome progetto>ive inputs
 =======
@@ -208,6 +209,11 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+  - <nome progetto>ive inputs
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
   - Predictive inputs
 <<<<<<< HEAD
   - forecastive inputs
@@ -231,6 +237,7 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -240,6 +247,8 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
 =======
   - <nome progetto>ive inputs
 >>>>>>> .merge_file_OcNEEX
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 - [ ] **Real-Time Components**
@@ -318,6 +327,7 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
 ## 🔗 Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SYHLca
 - [← UI Module README](../readme.md)
 =======
@@ -325,10 +335,13 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
 - [← UI Module README](../README.md)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [← UI Module README](../readme.md)
 =======
 - [← UI Module README](../README.md)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - [← UI Module README](../README.md)
@@ -336,6 +349,8 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
 - [← UI Module README](../readme.md)
 >>>>>>> .merge_file_OcNEEX
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - [← Components Documentation](./components.md)
 - [← Project Roadmap](../../../docs/project-analysis-and-roadmap.md)
 - [← Root Documentation](../../../docs/index.md)

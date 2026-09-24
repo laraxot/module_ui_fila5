@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_pMJxA6
 =======
 <<<<<<< HEAD
@@ -109,6 +110,8 @@ Quando **nessun** remote/clone ha gli OID LFS (404 ovunque) e i puntatori nello 
 - `git reset --soft` / `git restore` per “aggiustare” il push (forward-only).
 =======
 >>>>>>> .merge_file_DZ2QEZ
+=======
+>>>>>>> 804451c (Lint)
 title: "Git push — oggetti LFS mancanti (module_ui_fila5)"
 type: rule
 tags: [git, lfs, push, troubleshooting, ui]
@@ -194,11 +197,15 @@ Risultato: `laraxot/dev` aggiornato (`f552d26..7a189bb`), branch traccia `laraxo
 
 - `git config lfs.allowincompletepush true` — push incompleto, clone rotti per altri.
 - Force push su `main`/`master` senza coordinamento.
+<<<<<<< HEAD
 <<<<<<< .merge_file_pMJxA6
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 title: "Git push — unpack fallito e oggetti LFS mancanti (module_ui_fila5)"
 type: rule
 tags: [git, lfs, push, troubleshooting, ui, no-thin, dual-remote]
@@ -300,16 +307,20 @@ Quando **nessun** remote/clone ha gli OID LFS (404 ovunque) e i puntatori nello 
 - Force push su branch condivisi.
 - `git reset --soft` / `git restore` per “aggiustare” il push (forward-only).
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_DZ2QEZ
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - Reintrodurre LFS su `*.svg` / `*.png` senza policy e storage affidabile.
 
 ## Prevenzione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_pMJxA6
 =======
@@ -332,6 +343,8 @@ git status --short --branch   # ideale: ## dev...laraxot/dev (0 0)
 grep -r "Modules\\\\Geo" app/ --include="*.php" | grep -v '\.old' | grep -v '\.to_geo' || true
 =======
 >>>>>>> .merge_file_DZ2QEZ
+=======
+>>>>>>> 804451c (Lint)
 1. **LFS solo se necessario** (file >100 MB o binari pesanti). SVG/PNG piccoli → blob Git normali.
 2. `.gitattributes` minimo:
 
@@ -353,11 +366,15 @@ git lfs push laraxot --all
 # oppure copiare .git/lfs/objects/ nel clone rotto, poi
 git lfs fsck
 git push -u laraxot dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_pMJxA6
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 1. SVG/PNG piccoli → blob Git normali; LFS solo se davvero necessario.
 2. Prima di push massivi: `git lfs push --dry-run <remote> dev`.
 3. Dual-remote: push FF a **entrambi**; se uno fallisce, non lasciare i due tip divergenti.
@@ -371,16 +388,20 @@ git status --short --branch   # ideale: ## dev...laraxot/dev (0 0)
 # nessun import Geo attivo
 grep -r "Modules\\\\Geo" app/ --include="*.php" | grep -v '\.old' | grep -v '\.to_geo' || true
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_DZ2QEZ
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```
 
 ## Riferimenti
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_pMJxA6
 =======
@@ -396,6 +417,8 @@ grep -r "Modules\\\\Geo" app/ --include="*.php" | grep -v '\.old' | grep -v '\.t
 - Issue LFS: [laraxot/module_ui_fila5#24](https://github.com/laraxot/module_ui_fila5/issues/24)
 =======
 >>>>>>> .merge_file_DZ2QEZ
+=======
+>>>>>>> 804451c (Lint)
 - Issue: [laraxot/module_ui_fila5#24](https://github.com/laraxot/module_ui_fila5/issues/24)
 - Discussion: [laraxot/module_ui_fila5#25](https://github.com/laraxot/module_ui_fila5/discussions/25)
 - Confine moduli: [geo-boundary.md](../../geo-boundary.md) · [dependency-rules.md](../../dependency-rules.md)
@@ -427,20 +450,27 @@ find . -maxdepth 1 -name '*.txt' -print
 | `LocationSelector.php` / `InteractiveMap.php` attivi | Rimuovi dal repo (`git rm`); backup locale opzionale come `.old` (gitignored) |
 | Marker `<<<<<<<` in `docs/` | Risolvi forward-only, vedi [git-merge-conflict-inventory](./git-merge-conflict-inventory.md) |
 | Root `.txt` duplicati | Rimuovi da root; contenuto in `_docs/` |
+<<<<<<< HEAD
 <<<<<<< .merge_file_pMJxA6
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 - Multi-org UI: [multi-org-sync-laraxot-provtv.md](../../multi-org-sync-laraxot-provtv.md)
 - Handoff: [git-multi-org-sync-handoff.md](../../git-multi-org-sync-handoff.md)
 - Second brain: [second-brain.md](../../second-brain.md)
 - Forward-only progetto: [../../../../../../docs/wiki/rules/git-forward-only.md](../../../../../../docs/wiki/rules/git-forward-only.md)
 - Issue LFS: [laraxot/module_ui_fila5#24](https://github.com/laraxot/module_ui_fila5/issues/24)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_DZ2QEZ
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_0lw0AP
 =======
 <<<<<<< HEAD
@@ -464,6 +465,8 @@ $logout = function () {
 - ✅ Testare in entrambi gli stati
 =======
 >>>>>>> .merge_file_NaRuWI
+=======
+>>>>>>> 804451c (Lint)
 ---
 module: theme
 topic: components_guide
@@ -471,11 +474,15 @@ canonical: ../../../Themes/docs/shared-components/components-guide.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/components-guide.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_0lw0AP
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 # Guida ai Componenti UI
 
 ## Layout
@@ -933,9 +940,12 @@ $logout = function () {
 - ✅ Gestire correttamente le traduzioni
 - ✅ Testare in entrambi gli stati
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_NaRuWI
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

@@ -3,6 +3,7 @@
 ## Importanza di declare(strict_types=1)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Vg7ktR
 L'utilizzo di `declare(strict_types=1)` è **obbligatorio** in tutti i file PHP del modulo UI che contengono logica di business, in conformità con le [regole generali del progetto](../../xot/docs/php-strict-types.md) e per garantire la compatibilità con PHPStan livello 10.
 =======
@@ -10,10 +11,13 @@ L'utilizzo di `declare(strict_types=1)` è **obbligatorio** in tutti i file PHP 
 L'utilizzo di `declare(strict_types=1)` è **obbligatorio** in tutti i file PHP del modulo UI che contengono logica di business, in conformità con le [regole generali del progetto](../../Xot/docs/php-strict-types.md) e per garantire la compatibilità con PHPStan livello 10.
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 L'utilizzo di `declare(strict_types=1)` è **obbligatorio** in tutti i file PHP del modulo UI che contengono logica di business, in conformità con le [regole generali del progetto](../../xot/docs/php-strict-types.md) e per garantire la compatibilità con PHPStan livello 10.
 =======
 L'utilizzo di `declare(strict_types=1)` è **obbligatorio** in tutti i file PHP del modulo UI che contengono logica di business, in conformità con le [regole generali del progetto](../../Xot/docs/php-strict-types.md) e per garantire la compatibilità con PHPStan livello 10.
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 L'utilizzo di `declare(strict_types=1)` è **obbligatorio** in tutti i file PHP del modulo UI che contengono logica di business, in conformità con le [regole generali del progetto](../../Xot/docs/php-strict-types.md) e per garantire la compatibilità con PHPStan livello 10.
@@ -21,6 +25,8 @@ L'utilizzo di `declare(strict_types=1)` è **obbligatorio** in tutti i file PHP 
 L'utilizzo di `declare(strict_types=1)` è **obbligatorio** in tutti i file PHP del modulo UI che contengono logica di business, in conformità con le [regole generali del progetto](../../xot/docs/php-strict-types.md) e per garantire la compatibilità con PHPStan livello 10.
 >>>>>>> .merge_file_Xe3HsK
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ### Vantaggi per il Modulo UI
 
@@ -69,6 +75,7 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 
 ## Collegamenti
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Vg7ktR
 =======
@@ -120,15 +127,21 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 ```
 =======
 >>>>>>> .merge_file_Xe3HsK
+=======
+>>>>>>> 804451c (Lint)
 - [Regole Generali per strict_types](../../xot/docs/php-strict-types.md)
 - [Linee Guida PHPStan Livello 10](../../xot/docs/phpstan/level10_linee_guida.md)
 - [Conflitti Merge Risolti](./conflitti_merge_risolti.md)
 - [README del Modulo UI](./readme.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_Vg7ktR
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 - [Regole Generali per strict_types](../../Xot/docs/php-strict-types.md)
 - [Linee Guida PHPStan Livello 10](../../Xot/docs/PHPStan/LEVEL10_LINEE_GUIDA.md)
 - [Conflitti Merge Risolti](./CONFLITTI_MERGE_RISOLTI.md)
@@ -205,9 +218,12 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Xe3HsK
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

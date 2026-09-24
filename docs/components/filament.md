@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_itopwF
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_PEs0po
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Filament Components"
 type: concept
@@ -15,7 +19,10 @@ tags: [filament]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament filament components"
+<<<<<<< HEAD
 <<<<<<< .merge_file_itopwF
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,12 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_PEs0po
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -45,6 +55,7 @@ related:
   - "./full-calendar.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_itopwF
 <<<<<<< HEAD
 =======
@@ -55,6 +66,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_PEs0po
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Filament Components
 
 ## Resources

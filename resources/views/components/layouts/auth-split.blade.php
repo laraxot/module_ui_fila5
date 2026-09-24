@@ -1,6 +1,10 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 804451c (Lint)
 ?>
 <x-layouts.main>
     <div class="min-h-screen flex text-slate-800 dark:text-gray-200 font-sans">

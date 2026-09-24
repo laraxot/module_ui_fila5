@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ScOFwz
 =======
 <<<<<<< HEAD
@@ -394,6 +395,8 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 ## Conclusione
 =======
 >>>>>>> .merge_file_IYVRDy
+=======
+>>>>>>> 804451c (Lint)
 ---
 module: theme
 topic: filament-blade-components-usage
@@ -401,12 +404,17 @@ canonical: ../../../Themes/docs/shared-components/filament-blade-components-usag
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/filament-blade-components-usage.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_ScOFwz
 <<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 # Utilizzo dei Componenti Blade di Filament 
 =======
 <<<<<<< HEAD
@@ -937,10 +945,13 @@ Utilizzando i componenti Blade nativi di Filament, possiamo garantire una maggio
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_IYVRDy
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

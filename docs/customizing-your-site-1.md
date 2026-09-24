@@ -85,7 +85,10 @@ class Foo extends bar
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 ### Versione Incoming
 
@@ -93,7 +96,10 @@ class Foo extends bar
 ---
 
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ### Versione Incoming
 
 ---

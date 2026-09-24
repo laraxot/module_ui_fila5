@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Jc8J0w
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Wds5Ov
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Navigation Component"
 type: concept
@@ -15,7 +19,10 @@ tags: [navigation]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "navigation navigation component"
+<<<<<<< HEAD
 <<<<<<< .merge_file_Jc8J0w
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,12 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_Wds5Ov
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./correct-filament-components.md"
   - "./filament-component-integration.md"
@@ -41,6 +51,7 @@ related:
   - "./user-dropdown.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_Jc8J0w
 <<<<<<< HEAD
 =======
@@ -51,6 +62,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Wds5Ov
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Navigation Component
 
 This document describes the Navigation component used in section headers and its proper implementation.

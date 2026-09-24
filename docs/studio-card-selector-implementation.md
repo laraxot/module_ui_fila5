@@ -11,11 +11,14 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 =======
@@ -26,9 +29,12 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ## 🏗️ **Architettura Component**
 
@@ -244,6 +250,7 @@ return [
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bCpari
 
 
@@ -253,12 +260,15 @@ return [
 **Last Updated**: January 2025
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 
 
 =======
 **Last Updated**: January 2025
 **Last Updated**: January 2025
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 **Last Updated**: January 2025
@@ -268,17 +278,24 @@ return [
 
 >>>>>>> .merge_file_7dmUyq
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
         ],
 
 ---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bCpari
+=======
+
+>>>>>>> 804451c (Lint)
 
 =======
 **Last Updated**: January 2025
 **Last Updated**: January 2025
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_7dmUyq
 
@@ -298,6 +315,8 @@ return [
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_7dmUyq
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
         ],
         'phone' => [
@@ -328,11 +347,15 @@ return [
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bCpari
+=======
+>>>>>>> 804451c (Lint)
 
 
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> .merge_file_7dmUyq
@@ -352,11 +375,17 @@ return [
 **Last Updated**: January 2025
 **Last Updated**: January 2025
 >>>>>>> laraxot/dev
+=======
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+**Last Updated**: January 2025
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -364,11 +393,20 @@ return [
 >>>>>>> laraxot/dev
 
 >>>>>>> laraxot/dev
+=======
+
+
+>>>>>>> 804451c (Lint)
 
 ---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 **Last Updated**: January 2025
 **Last Updated**: January 2025
 **Last Updated**: January 2025
@@ -376,6 +414,7 @@ return [
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
 **Last Updated**: January 2025
+<<<<<<< HEAD
 =======
 
 <<<<<<< HEAD
@@ -402,6 +441,8 @@ return [
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_7dmUyq
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 # StudioCardSelector Component - Modulo UI
 
@@ -415,11 +456,14 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ### Classe PHP
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -433,6 +477,7 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 ### Classe PHP
+<<<<<<< HEAD
 <<<<<<< .merge_file_bCpari
 ```
 
@@ -448,6 +493,11 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_7dmUyq
+=======
+```
+
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ```php
 // Modules/UI/app/Forms/Components/StudioCardSelector.php
 <?php
@@ -464,7 +514,10 @@ class StudioCardSelector extends Field
 {
     protected string $view = 'ui::forms.components.studio-card-selector';
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bCpari
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 =======
@@ -478,6 +531,7 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -488,11 +542,19 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_7dmUyq
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
     
     // Dati studios da visualizzare
     protected Collection|Closure|null $studios = null;
     
+<<<<<<< HEAD
 <<<<<<< .merge_file_bCpari
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -504,6 +566,7 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -513,6 +576,9 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_7dmUyq
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
     // Dati studios da visualizzare
     protected Collection|Closure|null $studios = null;
@@ -521,10 +587,13 @@ class StudioCardSelector extends Field
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -538,9 +607,12 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     // Personalizzazioni UI
     protected bool $showDistance = false;
@@ -552,11 +624,14 @@ class StudioCardSelector extends Field
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     
 =======
 <<<<<<< HEAD
@@ -580,9 +655,12 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     // Configure studios data source
     public function studios(Collection|Closure $studios): static
@@ -595,11 +673,14 @@ class StudioCardSelector extends Field
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     
 =======
 <<<<<<< HEAD
@@ -623,9 +704,12 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     // Enable/disable features
     public function showDistance(bool $show = true): static
@@ -638,11 +722,14 @@ class StudioCardSelector extends Field
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     
 =======
 <<<<<<< HEAD
@@ -666,9 +753,12 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public function showSpecializations(bool $show = true): static
     {
@@ -680,11 +770,14 @@ class StudioCardSelector extends Field
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     
 =======
 <<<<<<< HEAD
@@ -708,9 +801,12 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public function showPhone(bool $show = true): static
     {
@@ -722,11 +818,14 @@ class StudioCardSelector extends Field
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     
 =======
 <<<<<<< HEAD
@@ -750,9 +849,12 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     // Layout variants
     public function compact(): static
@@ -765,11 +867,14 @@ class StudioCardSelector extends Field
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     
 =======
 <<<<<<< HEAD
@@ -793,9 +898,12 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public function detailed(): static
     {
@@ -807,11 +915,14 @@ class StudioCardSelector extends Field
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     
 =======
 <<<<<<< HEAD
@@ -835,9 +946,12 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     // Data getters for view
     public function getStudios(): Collection
@@ -849,11 +963,14 @@ class StudioCardSelector extends Field
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     
 =======
 <<<<<<< HEAD
@@ -877,9 +994,12 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public function getCardLayout(): string
     {
@@ -890,11 +1010,14 @@ class StudioCardSelector extends Field
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     
 =======
 <<<<<<< HEAD
@@ -918,9 +1041,12 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public function shouldShowDistance(): bool
     {
@@ -931,11 +1057,14 @@ class StudioCardSelector extends Field
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     
 =======
 <<<<<<< HEAD
@@ -959,9 +1088,12 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public function shouldShowSpecializations(): bool
     {
@@ -972,11 +1104,14 @@ class StudioCardSelector extends Field
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     
 =======
 <<<<<<< HEAD
@@ -1000,9 +1135,12 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public function shouldShowPhone(): bool
     {
@@ -1036,6 +1174,7 @@ private function getStudiosForLocation(Get $get): Collection
     $province = $get('province');
     $region = $get('region');
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_bCpari
 =======
 <<<<<<< HEAD
@@ -1047,6 +1186,10 @@ private function getStudiosForLocation(Get $get): Collection
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1064,9 +1207,12 @@ private function getStudiosForLocation(Get $get): Collection
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> .merge_file_7dmUyq
+=======
+>>>>>>> 804451c (Lint)
     $province = $get('province'); 
     $region = $get('region');
     
@@ -1075,15 +1221,22 @@ private function getStudiosForLocation(Get $get): Collection
     }
     
     return \Modules\<nome progetto>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
+<<<<<<< HEAD
 <<<<<<< .merge_file_bCpari
 <<<<<<< HEAD
 =======
 >>>>>>> .merge_file_7dmUyq
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
     $province = $get('province');
     $region = $get('region');
     
 =======
+<<<<<<< HEAD
 <<<<<<< .merge_file_bCpari
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1096,12 +1249,15 @@ private function getStudiosForLocation(Get $get): Collection
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_7dmUyq
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     if (!$cap || !$province || !$region) {
         return collect();
@@ -1114,10 +1270,13 @@ private function getStudiosForLocation(Get $get): Collection
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -1131,9 +1290,12 @@ private function getStudiosForLocation(Get $get): Collection
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
         $q->where('postal_code', $cap)
           ->where('administrative_area_level_3', $province)
@@ -1187,6 +1349,7 @@ return [
 - [Form Components Guide](./form-components.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bCpari
 =======
 <<<<<<< HEAD
@@ -1209,6 +1372,8 @@ return [
 **Reusability**: 🔄 High - Cross-module compatible
 =======
 >>>>>>> .merge_file_7dmUyq
+=======
+>>>>>>> 804451c (Lint)
 ### Modulo Generico
 - [Widget Analysis](../<nome modulo>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
 ### Modulo Generico
@@ -1223,12 +1388,17 @@ return [
 
 
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_bCpari
 <<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 ### Modulo <nome progetto>
 - [Widget Analysis](../<nome progetto>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
 =======
@@ -1300,9 +1470,12 @@ return [
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_7dmUyq
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

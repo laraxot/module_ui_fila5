@@ -41,6 +41,7 @@ Before submitting a pull request:
 If the project maintainer has any additional requirements, you will find them listed here.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_d1wG2R
 - **[PSR-2 Coding Standard](https://github.com/php-fig/fig-standards/blob/master/accepted/psr-2-coding-style-guide.md)** - The standard can be enforced by running the `composer lint` console command.
 =======
@@ -51,6 +52,11 @@ If the project maintainer has any additional requirements, you will find them li
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+- **[PSR-2 Coding Standard](https://github.com/php-fig/fig-standards/blob/master/accepted/psr-2-coding-style-guide.md)** - The standard can be enforced by running the `composer lint` console command.
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 - **[PSR-2 Coding Standard](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)** - The standard can be enforced by running the `composer lint` console command.
 =======
 <<<<<<< HEAD
@@ -74,6 +80,7 @@ If the project maintainer has any additional requirements, you will find them li
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -82,6 +89,8 @@ If the project maintainer has any additional requirements, you will find them li
 =======
 - **[PSR-2 Coding Standard](https://github.com/php-fig/fig-standards/blob/master/accepted/psr-2-coding-style-guide.md)** - The standard can be enforced by running the `composer lint` console command.
 >>>>>>> .merge_file_W22frP
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 - **Add tests!** - Your patch won't be accepted if it doesn't have tests.
@@ -108,12 +117,15 @@ If the project maintainer has any additional requirements, you will find them li
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Happy coding**!
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 **Happy coding**!
 =======
 **Happy coding**!
@@ -127,7 +139,10 @@ If the project maintainer has any additional requirements, you will find them li
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

@@ -3,10 +3,13 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ## 2026-09-04 — Concrete models → contracts (UI, User modules)
 
 **Task:** Replace `\Modules\User\Models\Profile` docblock refs with `\Modules\Xot\Contracts\ProfileContract` (12 occurrences in UI).
@@ -46,9 +49,12 @@ Story: `docs/stories/ui-services-to-actions.story.md`.
 
 **Date:** 2026-01-17
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 **Lines Coverage:** N/A (Failed to parse)
 **Test Exit Code:** 2
@@ -137,10 +143,13 @@ endor/laravel/framework/src/Illuminate/Container/Container.php:1415
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ---
 
@@ -485,7 +494,10 @@ Tests: 6 failed, 1 risky, 109 skipped, 199 passed (654 assertions)
 **Current:** 6 failed, 199 passed (improvement)
 **Action:** Address 6 test failures before final merge
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

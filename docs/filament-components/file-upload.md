@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6MsDon
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Pxz1Gd
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Componente FileUpload"
 type: concept
@@ -15,7 +19,10 @@ tags: [file, upload]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "file-upload componente fileupload"
+<<<<<<< HEAD
 <<<<<<< .merge_file_6MsDon
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -32,6 +39,7 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -47,6 +55,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Pxz1Gd
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Componente FileUpload
 
 ## Collegamenti Bidirezionali

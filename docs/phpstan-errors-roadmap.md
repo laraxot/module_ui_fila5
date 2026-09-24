@@ -3,10 +3,15 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Data**: 2026-01-09  
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+**Data**: 2026-01-09  
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 **Modulo**: UI  
 **Livello PHPStan**: 10  
 **Status**: 🧘 **IN ANALISI**
@@ -123,8 +128,13 @@
 **Ultimo aggiornamento**: [DATE]
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Ultimo aggiornamento**: [DATE]
 =======
 **Ultimo aggiornamento**: 2026-01-09
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+**Ultimo aggiornamento**: 2026-01-09
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

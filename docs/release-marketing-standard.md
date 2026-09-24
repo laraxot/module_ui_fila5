@@ -7,10 +7,14 @@ created: "2026-05-26"
 updated: "2026-05-26"
 <<<<<<< HEAD
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/153"
+<<<<<<< HEAD
 <<<<<<< .merge_file_uYR8ko
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/153"
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -18,12 +22,15 @@ issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/153"
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/153"
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 issue: "https://github.com/provtv/<nome repository>/issues/153"
 =======
 =======
 issue: "https://github.com/provtv/<nome repository>/issues/153"
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -33,6 +40,8 @@ issue: "https://github.com/provtv/<nome repository>/issues/153"
 issue: "https://github.com/provtv/<nome repository>/issues/153"
 =======
 >>>>>>> .merge_file_bPx243
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ---
 
@@ -54,6 +63,7 @@ Ogni modulo/tema deve essere pubblicabile, comprensibile e desiderabile: workflo
 - `../CHANGELOG.md`
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `../changelog.md`
 >>>>>>> 92912795 (.)
 =======
@@ -64,6 +74,10 @@ Ogni modulo/tema deve essere pubblicabile, comprensibile e desiderabile: workflo
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- `../changelog.md`
+>>>>>>> 92912795 (.)
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ## Confidenza

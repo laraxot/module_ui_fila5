@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_7CmaWj
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_0LpHLP
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Indice task - Modulo UI"
 type: concept
@@ -15,28 +19,40 @@ tags: [tasks, index]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "tasks-index indice task - modulo ui"
+<<<<<<< HEAD
 <<<<<<< .merge_file_7CmaWj
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 >>>>>>> .merge_file_0LpHLP
+=======
+>>>>>>> 804451c (Lint)
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+<<<<<<< HEAD
 <<<<<<< .merge_file_7CmaWj
+=======
+>>>>>>> 804451c (Lint)
 =======
 =======
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_0LpHLP
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./001-design-system-components.md"
   - "./cleanup-redundant-files.md"
@@ -47,6 +63,7 @@ related:
   - "./ui-filament-v5.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_7CmaWj
 <<<<<<< HEAD
 =======
@@ -57,6 +74,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_0LpHLP
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Indice task - Modulo UI
 
 Lista dei task del modulo con link ai file .md separati. Ogni task è un file nella cartella `tasks/`. Dettagli dalla [roadmap](../roadmap.md).

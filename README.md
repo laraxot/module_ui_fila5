@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_OrA5GF
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 # 🎨 UI
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -10,6 +14,8 @@
 
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ---
 id: module-ui-readme
 title: "UI — Componenti Visuali Condivisi"
@@ -35,6 +41,7 @@ sources: []
 <<<<<<< HEAD
 > **Componenti visuali condivisi.**
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -66,6 +73,9 @@ sources: []
 > **Componenti visuali condivisi.**
 
 >>>>>>> .merge_file_ox0TQy
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 [![Domain-UI](https://img.shields.io/badge/Domain-UI%20Kit-7B1FA2.svg)](#)
 [![Laravel 12](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
 [![Filament 5](https://img.shields.io/badge/Filament-5-ffab00.svg)](https://filamentphp.com/)
@@ -74,6 +84,7 @@ sources: []
 [![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue.svg)](https://www.php-fig.org/psr/psr-12/)
 [![Strict Types](https://img.shields.io/badge/PHP-strict__types-1-informational.svg)](#)
 [![Laraxot Modules](https://img.shields.io/badge/Architecture-Modular-purple.svg)](#)
+<<<<<<< HEAD
 <<<<<<< .merge_file_OrA5GF
 <<<<<<< HEAD
 [![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
@@ -131,6 +142,58 @@ Maintain `declare(strict_types=1);` in PHP, adhere to project PHPStan config, an
 <<<<<<< HEAD
 [![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
+
+> **Componenti che non reinventano la ruota.** Design system condiviso tra moduli e tema.
+
+---
+
+## Perché esiste
+
+Coerenza visiva e DRY su Blade/Livewire/Filament.
+
+## Superpoteri
+
+- Component library riusabile
+- Token e pattern documentati
+- Integrazione Tailwind/DaisyUI
+- Filament custom components
+
+## Certificazioni
+
+| Certificazione | Stato |
+|----------------|-------|
+| PHPStan livello 10 | Target progetto |
+| `declare(strict_types=1)` | Su nuovo codice PHP |
+| Filament 5 + XotBase | Admin enterprise |
+| Test PHPUnit / Pest | Suite modulo |
+| Documentazione wiki | Cartella `docs/` |
+
+## Vuoi entrare nel team?
+
+UI **consistente** = brand PA forte.
+
+Stack frontoffice: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filament v5** — vedi [STORY-133](../../../docs/stories/STORY-133-frontend-stack-religion-tailwind-alpine-lit.md).
+
+---
+
+## Documentazione
+
+| Lingua | Link |
+|--------|------|
+| 🇮🇹 Presentazione | Questo file (`README.md`) |
+| 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
+| 📚 Wiki tecnica | [./docs/wiki/](./docs/) |
+
+---
+
+**Modulo** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+=======
+<<<<<<< HEAD
+[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -211,6 +274,7 @@ Maintain `declare(strict_types=1);` in PHP, adhere to project PHPStan config, an
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -218,3 +282,6 @@ Maintain `declare(strict_types=1);` in PHP, adhere to project PHPStan config, an
 =======
 **Modulo** `ui` · **Laraxot ecosystem** · **Project-agnostic** · PHPStan 10 · Filament 5
 >>>>>>> .merge_file_ox0TQy
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

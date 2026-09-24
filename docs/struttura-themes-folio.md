@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_HzcCbU
 =======
 <<<<<<< HEAD
@@ -290,6 +291,8 @@ config('theme.views_path') // Output: "Themes/One/resources/views"
 ```
 =======
 >>>>>>> .merge_file_1ysaew
+=======
+>>>>>>> 804451c (Lint)
 ---
 module: theme
 topic: struttura-themes-folio
@@ -297,12 +300,17 @@ canonical: ../../../Themes/docs/shared-components/struttura-themes-folio.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/struttura-themes-folio.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_HzcCbU
 <<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 # Struttura Themes e Folio in <nome progetto>corrente
 # Struttura Themes e Folio in <nome progetto>corrente
 =======
@@ -684,10 +692,13 @@ config('theme.views_path') // Output: "Themes/One/resources/views"
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_1ysaew
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

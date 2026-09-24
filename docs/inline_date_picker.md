@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_wJzvm8
 =======
 <<<<<<< HEAD
@@ -218,6 +219,8 @@ If the component doesn't look right, make sure you have the required Tailwind CS
 Contributions are welcome! Please feel free to submit a Pull Request.
 =======
 >>>>>>> .merge_file_I227OC
+=======
+>>>>>>> 804451c (Lint)
 ---
 module: theme
 topic: inline_date_picker
@@ -225,11 +228,15 @@ canonical: ../../../Themes/docs/shared-components/inline-date-picker-1.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/inline-date-picker-1.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_wJzvm8
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 # InlineDatePicker Component
 
 A customizable inline date picker component for Filament forms with month navigation and enabled/disabled date support.
@@ -441,9 +448,12 @@ If the component doesn't look right, make sure you have the required Tailwind CS
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_I227OC
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

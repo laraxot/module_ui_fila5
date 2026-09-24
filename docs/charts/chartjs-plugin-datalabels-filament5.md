@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4dk9fk
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_p3embN
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "chartjs-plugin-datalabels with Filament 5 ChartWidget (multiple labels)"
 type: concept
@@ -15,7 +19,10 @@ tags: [chartjs, plugin, datalabels, filament5]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "chartjs-plugin-datalabels-filament5 chartjs-plugin-datalabels with filament 5 chartwidget (multiple labels)"
+<<<<<<< HEAD
 <<<<<<< .merge_file_4dk9fk
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,12 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_p3embN
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./chartjs-datalabels-multiple-labels-complete-guide.md"
   - "./export-strategy.md"
@@ -42,6 +52,7 @@ related:
   - "./shared-hosting-strategy.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_4dk9fk
 <<<<<<< HEAD
 =======
@@ -52,6 +63,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_p3embN
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # chartjs-plugin-datalabels with Filament 5 ChartWidget (multiple labels)
 
 ## Goal

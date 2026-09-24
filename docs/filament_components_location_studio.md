@@ -3,6 +3,7 @@
 ## Overview
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_iZtEz0
 Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo SaluteOra.
 =======
@@ -13,6 +14,11 @@ Questi componenti Filament sono stati creati per supportare la selezione geograf
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo SaluteOra.
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo <nome progetto>corrente.
 =======
 <<<<<<< HEAD
@@ -36,6 +42,7 @@ Questi componenti Filament sono stati creati per supportare la selezione geograf
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -44,6 +51,8 @@ Questi componenti Filament sono stati creati per supportare la selezione geograf
 =======
 Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo SaluteOra.
 >>>>>>> .merge_file_WSWey8
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ## Componenti Implementati
@@ -57,6 +66,7 @@ Componente Filament per la selezione gerarchica di Regione → Provincia → CAP
 
 #### Caratteristiche
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_iZtEz0
 - ✅ **Selezione Gerarchica**: Regione → Provincia → CAP  
 =======
@@ -67,6 +77,11 @@ Componente Filament per la selezione gerarchica di Regione → Provincia → CAP
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+- ✅ **Selezione Gerarchica**: Regione → Provincia → CAP  
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 - ✅ **Selezione Gerarchica**: Regione → Provincia → CAP
 =======
 <<<<<<< HEAD
@@ -90,6 +105,7 @@ Componente Filament per la selezione gerarchica di Regione → Provincia → CAP
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -98,6 +114,8 @@ Componente Filament per la selezione gerarchica di Regione → Provincia → CAP
 =======
 - ✅ **Selezione Gerarchica**: Regione → Provincia → CAP  
 >>>>>>> .merge_file_WSWey8
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - ✅ **Live Updates**: I campi si aggiornano automaticamente
 - ✅ **Integrazione Geo**: Utilizza i modelli del modulo Geo
@@ -139,6 +157,7 @@ Componente Blade per la selezione di studi odontoiatrici tramite pulsanti radio-
 
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_iZtEz0
 <x-ui::ui.studio-selector 
 =======
@@ -149,6 +168,11 @@ Componente Blade per la selezione di studi odontoiatrici tramite pulsanti radio-
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<x-ui::ui.studio-selector 
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 <x-ui::ui.studio-selector
 =======
 <<<<<<< HEAD
@@ -172,6 +196,7 @@ Componente Blade per la selezione di studi odontoiatrici tramite pulsanti radio-
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -180,6 +205,8 @@ Componente Blade per la selezione di studi odontoiatrici tramite pulsanti radio-
 =======
 <x-ui::ui.studio-selector 
 >>>>>>> .merge_file_WSWey8
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     :studios="$studios"
     :selected-studio="$selectedStudioId"
@@ -213,6 +240,7 @@ protected function getStudioStepSchema(): array
     return [
         // Titolo step
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_iZtEz0
         View::make('saluteora::filament.widgets.studio-step-header')
 =======
@@ -223,6 +251,11 @@ protected function getStudioStepSchema(): array
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+        View::make('saluteora::filament.widgets.studio-step-header')
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
         View::make('<nome progetto>ilament.widgets.studio-step-header')
 =======
 <<<<<<< HEAD
@@ -246,6 +279,7 @@ protected function getStudioStepSchema(): array
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -254,6 +288,8 @@ protected function getStudioStepSchema(): array
 =======
         View::make('saluteora::filament.widgets.studio-step-header')
 >>>>>>> .merge_file_WSWey8
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
             ->viewData([
                 'studiosCount' => $this->getStudiosCount(),
@@ -263,6 +299,7 @@ protected function getStudioStepSchema(): array
 
         // Pulsanti selezione studio
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_iZtEz0
         View::make('saluteora::filament.widgets.studio-selector')
 =======
@@ -273,6 +310,11 @@ protected function getStudioStepSchema(): array
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+        View::make('saluteora::filament.widgets.studio-selector')
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
         View::make('<nome progetto>ilament.widgets.studio-selector')
 =======
 <<<<<<< HEAD
@@ -296,6 +338,7 @@ protected function getStudioStepSchema(): array
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -304,6 +347,8 @@ protected function getStudioStepSchema(): array
 =======
         View::make('saluteora::filament.widgets.studio-selector')
 >>>>>>> .merge_file_WSWey8
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
             ->viewData([
                 'studios' => $this->getStudiosForSelectedArea(),
@@ -314,10 +359,14 @@ protected function getStudioStepSchema(): array
         // TextInput per mostrare studio selezionato
         TextInput::make('selected_studio_name')
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_iZtEz0
+=======
+>>>>>>> 804451c (Lint)
             ->label(__('saluteora::widgets.find_doctor.fields.selected_studio.label'))
             ->placeholder(__('saluteora::widgets.find_doctor.fields.selected_studio.placeholder'))
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -326,6 +375,8 @@ protected function getStudioStepSchema(): array
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
             ->label(__('<nome progetto>::widgets.find_doctor.fields.selected_studio.label'))
             ->placeholder(__('<nome progetto>::widgets.find_doctor.fields.selected_studio.placeholder'))
 =======
@@ -354,6 +405,7 @@ protected function getStudioStepSchema(): array
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -364,6 +416,8 @@ protected function getStudioStepSchema(): array
             ->label(__('saluteora::widgets.find_doctor.fields.selected_studio.label'))
             ->placeholder(__('saluteora::widgets.find_doctor.fields.selected_studio.placeholder'))
 >>>>>>> .merge_file_WSWey8
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
             ->readonly()
             ->visible(fn (): bool => !empty($this->data['selected_studio']))
@@ -399,11 +453,14 @@ public function selectStudio(int $studioId): void
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 =======
     
@@ -414,9 +471,12 @@ public function selectStudio(int $studioId): void
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     if (!$studio || !$studio->active) {
         $this->addError('selected_studio', 'Studio non disponibile');
@@ -440,11 +500,14 @@ public function selectStudio(int $studioId): void
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 =======
     
@@ -455,9 +518,12 @@ public function selectStudio(int $studioId): void
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     // Notifica il cambio di stato
     $this->dispatch('studio-selected', studioId: $studioId, studioName: $studio->name);
@@ -472,6 +538,7 @@ public function selectStudio(int $studioId): void
 - Validazione cascata
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_iZtEz0
 ### 2. **Step Selezione Studio**  
 =======
@@ -482,6 +549,11 @@ public function selectStudio(int $studioId): void
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+### 2. **Step Selezione Studio**  
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 ### 2. **Step Selezione Studio**
 =======
 <<<<<<< HEAD
@@ -505,6 +577,7 @@ public function selectStudio(int $studioId): void
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -513,6 +586,8 @@ public function selectStudio(int $studioId): void
 =======
 ### 2. **Step Selezione Studio**  
 >>>>>>> .merge_file_WSWey8
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - Visualizzazione pulsanti per ogni studio nell'area
 - Click su pulsante = selezione studio
@@ -548,11 +623,14 @@ protected function getStudiosForSelectedArea(): Collection
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 =======
     
@@ -563,9 +641,12 @@ protected function getStudiosForSelectedArea(): Collection
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     return cache()->remember($cacheKey, 300, function () {
         return Studio::query()
@@ -606,11 +687,14 @@ class FindDoctorWidgetStep2Test extends TestCase
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 =======
         
@@ -621,9 +705,12 @@ class FindDoctorWidgetStep2Test extends TestCase
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
         $widget = Livewire::test(FindDoctorAndAppointmentWidget::class)
             ->set('data.region', '12')
@@ -644,11 +731,14 @@ class FindDoctorWidgetStep2Test extends TestCase
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 =======
             
@@ -659,9 +749,12 @@ class FindDoctorWidgetStep2Test extends TestCase
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
         $widget->assertSet('data.selected_studio', $studio->id)
                ->assertSet('data.selected_studio_name', 'Studio Test');
@@ -703,7 +796,10 @@ class FindDoctorWidgetStep2Test extends TestCase
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_iZtEz0
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 =======
@@ -715,6 +811,7 @@ class FindDoctorWidgetStep2Test extends TestCase
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -723,11 +820,17 @@ class FindDoctorWidgetStep2Test extends TestCase
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_WSWey8
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 **Creato**: 26 Giugno 2025
 **Versione**: 2.0 - Semplificato
 **Stato**: Implementation Ready
 **Approccio**: Pulsanti + TextInput (semplice e diretto)
+<<<<<<< HEAD
 <<<<<<< .merge_file_iZtEz0
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 =======
@@ -738,6 +841,7 @@ class FindDoctorWidgetStep2Test extends TestCase
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -746,6 +850,9 @@ class FindDoctorWidgetStep2Test extends TestCase
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_WSWey8
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 **Creato**: 26 Giugno 2025  
 **Versione**: 2.0 - Semplificato  
 **Stato**: Implementation Ready  
@@ -756,10 +863,13 @@ class FindDoctorWidgetStep2Test extends TestCase
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 =======
 <<<<<<< HEAD
@@ -769,7 +879,10 @@ class FindDoctorWidgetStep2Test extends TestCase
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

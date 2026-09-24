@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vR9G3H
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
 =======
@@ -28,6 +29,8 @@ updated: 2026-08-24
 ## Riferimenti
 
 - <https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891>
+=======
+>>>>>>> 804451c (Lint)
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
 =======
 ---
@@ -51,7 +54,10 @@ updated: 2026-08-24
 
 - <https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891>
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
+<<<<<<< HEAD
 >>>>>>> .merge_file_zbMEqb
+=======
+>>>>>>> 804451c (Lint)
 
 
 ## Appendice — contenuto migrato
@@ -63,6 +69,7 @@ canonical: ../../../Themes/docs/shared-components/page-builder.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/page-builder.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_vR9G3H
 <<<<<<< HEAD
 =======
@@ -72,4 +79,6 @@ See canonical documentation: ../../../Themes/docs/shared-components/page-builder
 =======
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
 >>>>>>> .merge_file_zbMEqb
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

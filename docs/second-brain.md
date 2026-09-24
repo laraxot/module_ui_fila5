@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kjdiip
 =======
 <<<<<<< HEAD
@@ -50,17 +51,23 @@ Stub **puntatore**: disciplina globale nella wiki di progetto; qui solo lezioni 
 Remotes tipici: `provtv` + `laraxot` → `module_ui_fila5` (`git remote -v`).
 =======
 >>>>>>> .merge_file_xiyuwE
+=======
+>>>>>>> 804451c (Lint)
 module: theme
 topic: second-brain
 canonical: ../../../Themes/docs/shared-components/second-brain.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/second-brain.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kjdiip
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 title: second brain — puntatore modulo UI
 type: reference
 qmd: second brain UI phpstan geo-boundary no map adapters Location Map
@@ -171,9 +178,12 @@ Stub **puntatore**: disciplina globale nella wiki di progetto; qui solo lezioni 
 
 Remotes tipici: `provtv` + `laraxot` → `module_ui_fila5` (`git remote -v`).
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_xiyuwE
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

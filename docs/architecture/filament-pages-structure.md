@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_TFDu1u
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_9Fn8Nu
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Struttura Pagine Filament - Modulo UI"
 type: concept
@@ -15,7 +19,10 @@ tags: [filament, pages, structure]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament-pages-structure struttura pagine filament - modulo ui"
+<<<<<<< HEAD
 <<<<<<< .merge_file_TFDu1u
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,18 +35,22 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_9Fn8Nu
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./component-registration.md"
   - "./filament-resources-structure.md"
   - "./structure.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_TFDu1u
 <<<<<<< HEAD
 =======
@@ -50,6 +61,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9Fn8Nu
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Struttura Pagine Filament - Modulo UI
 
 ## Panoramica

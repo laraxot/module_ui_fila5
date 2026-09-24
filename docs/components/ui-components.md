@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_gC4J1C
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_x7j1bX
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Componenti UI - Modulo UI"
 type: concept
@@ -15,7 +19,10 @@ tags: [components]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "ui-components componenti ui - modulo ui"
+<<<<<<< HEAD
 <<<<<<< .merge_file_gC4J1C
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,12 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_x7j1bX
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -45,6 +55,7 @@ related:
   - "./full-calendar-1.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_gC4J1C
 <<<<<<< HEAD
 =======
@@ -55,6 +66,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_x7j1bX
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Componenti UI - Modulo UI
 
 ## Panoramica
@@ -234,6 +248,7 @@ return [
 ## 🔗 Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_gC4J1C
 - [**README Modulo UI**](../readme.md)
 =======
@@ -241,10 +256,13 @@ return [
 - [**README Modulo UI**](../README.md)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [**README Modulo UI**](../readme.md)
 =======
 - [**README Modulo UI**](../README.md)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - [**README Modulo UI**](../README.md)
@@ -252,6 +270,8 @@ return [
 - [**README Modulo UI**](../readme.md)
 >>>>>>> .merge_file_x7j1bX
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - [**Sistema Layout**](../layout/layout-system.md)
 - [**Gestione Asset**](../assets/asset-management.md)
 - [**Personalizzazioni Filament**](../filament/filament-customizations.md)

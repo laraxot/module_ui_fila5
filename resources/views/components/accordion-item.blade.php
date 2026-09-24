@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_1YeElu
 <<<<<<< HEAD
 =======
@@ -5,6 +6,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -52,6 +56,7 @@
 @php
 @endphp
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -64,6 +69,10 @@
 declare(strict_types=1);
 ?>
 >>>>>>> .merge_file_24Xhsa
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 @props([
     'title' => '',
     'id' => 'item-' . uniqid(),

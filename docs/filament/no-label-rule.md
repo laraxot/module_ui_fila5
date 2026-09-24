@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_EPJQdw
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_KTYS9J
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "REGOLA CRITICA: MAI ->label() nei Componenti Filament UI"
 type: rule
@@ -15,7 +19,10 @@ tags: [label, rule]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "no-label-rule regola critica: mai ->label() nei componenti filament ui"
+<<<<<<< HEAD
 <<<<<<< .merge_file_EPJQdw
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,12 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_KTYS9J
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -45,6 +55,7 @@ related:
   - "./filament-4-migration-sumy.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_EPJQdw
 <<<<<<< HEAD
 =======
@@ -55,6 +66,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_KTYS9J
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # REGOLA CRITICA: MAI ->label() nei Componenti Filament UI
 
 ## Principio Fondamentale per il Modulo UI

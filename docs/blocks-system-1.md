@@ -105,8 +105,13 @@ public function render()
 Questa documentazione è parte del sistema di documentazione di il progetto. Per dettagli specifici sui singoli blocchi, consultare la documentazione dei rispettivi moduli.
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questa documentazione è parte del sistema di documentazione di il progetto. Per dettagli specifici sui singoli blocchi, consultare la documentazione dei rispettivi moduli.
 =======
 Questa documentazione è parte del sistema di documentazione di il progetto. Per dettagli specifici sui singoli blocchi, consultare la documentazione dei rispettivi moduli. 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Questa documentazione è parte del sistema di documentazione di il progetto. Per dettagli specifici sui singoli blocchi, consultare la documentazione dei rispettivi moduli. 
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

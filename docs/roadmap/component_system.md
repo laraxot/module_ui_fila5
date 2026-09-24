@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_0BXEju
 =======
 <<<<<<< HEAD
@@ -205,6 +206,8 @@ protected function resolveLazyProp(string $key): mixed
 5. Ottimizzare performance 
 =======
 >>>>>>> .merge_file_PqXyV0
+=======
+>>>>>>> 804451c (Lint)
 ---
 module: theme
 topic: component_system
@@ -212,11 +215,15 @@ canonical: ../../../../Themes/docs/shared-components/component-system.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/component-system.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_0BXEju
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 # Sistema Componenti UI
 
 ## 📊 Stato Implementazione
@@ -415,9 +422,12 @@ protected function resolveLazyProp(string $key): mixed
 4. Documentare best practices
 5. Ottimizzare performance 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_PqXyV0
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

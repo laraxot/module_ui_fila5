@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_aFjAL6
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_ndlDp8
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "User Dropdown Component"
 type: concept
@@ -15,7 +19,10 @@ tags: [user, dropdown]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "user-dropdown user dropdown component"
+<<<<<<< HEAD
 <<<<<<< .merge_file_aFjAL6
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,12 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_ndlDp8
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./correct-filament-components.md"
   - "./filament-component-integration.md"
@@ -41,6 +51,7 @@ related:
   - "./navigation.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_aFjAL6
 <<<<<<< HEAD
 =======
@@ -51,6 +62,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ndlDp8
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # User Dropdown Component
 
 This document describes the User Dropdown component used in the header section and explains proper data handling patterns.

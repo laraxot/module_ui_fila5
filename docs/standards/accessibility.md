@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_uWtqtu
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_xRBXJs
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Standard di Accessibilità"
 type: concept
@@ -15,7 +19,10 @@ tags: [accessibility]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "accessibility standard di accessibilità"
+<<<<<<< HEAD
 <<<<<<< .merge_file_uWtqtu
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,12 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_xRBXJs
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./auth-form-standards-1.md"
   - "./auth-form-standards.md"
@@ -43,6 +53,7 @@ related:
   - "./ui-standards.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_uWtqtu
 <<<<<<< HEAD
 =======
@@ -53,6 +64,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_xRBXJs
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Standard di Accessibilità
 
 ## 🎯 WCAG 2.1

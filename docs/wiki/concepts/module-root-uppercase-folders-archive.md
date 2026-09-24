@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_LiNAn0
 =======
 <<<<<<< HEAD
@@ -24,6 +25,8 @@ related:
 `Config.bak/` duplicava i file già in `config/`:
 =======
 >>>>>>> .merge_file_06SswA
+=======
+>>>>>>> 804451c (Lint)
 title: "Archivio cartelle config duplicate — modulo UI"
 type: concept
 module: UI
@@ -46,11 +49,15 @@ related:
 ## Situazione (risolta 2026-07-01)
 
 `Config/` (maiuscolo) e `Config.bak/` duplicavano i file già in `config/`:
+<<<<<<< HEAD
 <<<<<<< .merge_file_LiNAn0
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 title: "Archivio Config.bak — modulo UI"
 type: concept
 module: UI
@@ -67,11 +74,14 @@ related:
 
 `Config.bak/` duplicava i file già in `config/`:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_06SswA
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 - `config.php`
@@ -81,6 +91,7 @@ related:
 ## Regola
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_LiNAn0
 =======
 <<<<<<< HEAD
@@ -95,25 +106,34 @@ Solo `config/` (minuscolo) alla root.
 `Config` → `Config.bak` (2026-06-30). Merge non necessario: contenuti allineati.
 =======
 >>>>>>> .merge_file_06SswA
+=======
+>>>>>>> 804451c (Lint)
 Solo `config/` (minuscolo) alla root del modulo nwidart.
 
 ## Azione
 
 Rimossi `Config/` e `Config.bak/`; nessun autoload/require li referenziava. Git history conserva le versioni precedenti.
+<<<<<<< HEAD
 <<<<<<< .merge_file_LiNAn0
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 Solo `config/` (minuscolo) alla root.
 
 ## Azione
 
 `Config` → `Config.bak` (2026-06-30). Merge non necessario: contenuti allineati.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_06SswA
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

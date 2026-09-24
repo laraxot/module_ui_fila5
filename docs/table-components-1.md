@@ -11,11 +11,16 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 <x-ui::datatable
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 <x-ui::datatable
 =======
 <x-ui::datatable 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<x-ui::datatable 
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
     :columns="[
         ['name' => 'id', 'label' => 'ID', 'sortable' => true],
         ['name' => 'name', 'label' => 'Nome', 'sortable' => true],
@@ -37,11 +42,16 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 <x-ui::status-badge
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 <x-ui::status-badge
 =======
 <x-ui::status-badge 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<x-ui::status-badge 
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
     :status="$user->status"
     :options="[
         'active' => ['label' => 'Attivo', 'color' => 'success'],
@@ -57,11 +67,16 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 <x-ui::action-buttons
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 <x-ui::action-buttons
 =======
 <x-ui::action-buttons 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<x-ui::action-buttons 
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
     :actions="[
         [
             'type' => 'view',
@@ -122,11 +137,16 @@ class UserTable extends Component
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
     public function sortBy($field)
     {
         if ($this->sortField === $field) {
@@ -140,11 +160,16 @@ class UserTable extends Component
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
     public function render()
     {
         $users = User::query()
@@ -158,11 +183,16 @@ class UserTable extends Component
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+            
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
         return view('livewire.user-table', compact('users'));
     }
 }

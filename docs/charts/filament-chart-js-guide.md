@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_0ODW2h
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_9HkhlY
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Filament Chart.js Guide"
 type: guide
@@ -15,7 +19,10 @@ tags: [filament, chart, guide]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament-chart-js-guide filament chart.js guide"
+<<<<<<< HEAD
 <<<<<<< .merge_file_0ODW2h
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
@@ -28,10 +35,13 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_9HkhlY
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./chartjs-datalabels-multiple-labels-complete-guide.md"
   - "./chartjs-plugin-datalabels-filament5.md"
@@ -39,6 +49,7 @@ related:
   - "./server-side-actions.md"
   - "./shared-hosting-strategy.md"
 ---
+<<<<<<< HEAD
 <<<<<<< .merge_file_0ODW2h
 <<<<<<< HEAD
 =======
@@ -49,6 +60,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9HkhlY
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Filament Chart.js Guide
 
 > **Why this guide?**: To standardize how we use Chart.js in Filament, especially regarding advanced features like plugins (Zoom, Annotations) which are not enabled by default.
@@ -158,6 +172,7 @@ See the **[LimeSurvey Professional Charts Guide](../../../limesurvey/docs/profes
 
 **Do NOT** use `dompdf` or client-side canvas capture for charts.
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_0ODW2h
 The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper around Browsershot).
 =======
@@ -168,6 +183,11 @@ The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper arou
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper around Browsershot).
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 The architectural standard for modulo questionari is **Spatie Laravel PDF** (a wrapper around Browsershot).
 =======
 <<<<<<< HEAD
@@ -191,6 +211,7 @@ The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper arou
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -199,6 +220,8 @@ The architectural standard for modulo questionari is **Spatie Laravel PDF** (a w
 =======
 The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper around Browsershot).
 >>>>>>> .merge_file_9HkhlY
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 **Pattern:** "Shadow Report Views"

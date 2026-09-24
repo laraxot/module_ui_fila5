@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -13,6 +14,9 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 # UI - Product Launch Plan
 
@@ -61,6 +65,7 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 
 ## Rischi
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_FUOIs1
 =======
 <<<<<<< HEAD
@@ -71,6 +76,11 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 =======
 >>>>>>> laraxot/dev
 =======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
+=======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
@@ -78,8 +88,11 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_6lcJHa
+=======
+>>>>>>> 804451c (Lint)
 # UI Module - Product Launch Plan
 
 **Module:** UI  
@@ -162,7 +175,10 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_FUOIs1
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 *Last Updated: March 12, 2026*
 =======
@@ -259,6 +275,7 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -266,6 +283,8 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 *Last Updated: March 12, 2026*
 =======
 >>>>>>> .merge_file_6lcJHa
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 - lancio di superfici non ancora supportate dal backend
@@ -284,10 +303,13 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
@@ -299,7 +321,10 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

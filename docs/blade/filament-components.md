@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_fAVYA1
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_6n8vFw
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Utilizzo dei componenti Blade di Filament"
 type: concept
@@ -15,7 +19,10 @@ tags: [filament, components]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament-components utilizzo dei componenti blade di filament"
+<<<<<<< HEAD
 <<<<<<< .merge_file_fAVYA1
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,16 +35,20 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_6n8vFw
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./component-registration.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_fAVYA1
 <<<<<<< HEAD
 =======
@@ -48,6 +59,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_6n8vFw
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Utilizzo dei componenti Blade di Filament
 
 ## Regola fondamentale (obbligatoria)
@@ -56,6 +70,7 @@ related:
 
 Wiki modulo: [filament-first-blade-canonical.md](../wiki/concepts/filament-first-blade-canonical.md).
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_fAVYA1
 =======
 <<<<<<< HEAD
@@ -65,11 +80,15 @@ Wiki modulo: [filament-first-blade-canonical.md](../wiki/concepts/filament-first
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_6n8vFw
+=======
+=======
+>>>>>>> 804451c (Lint)
 # Utilizzo dei componenti Blade di Filament
 
 ## Regola fondamentale
 
 Nel progetto <nome progetto>, esiste una regola fondamentale: **utilizzare sempre i componenti Blade forniti da Filament quando disponibili**, invece di creare componenti personalizzati duplicati.
+<<<<<<< HEAD
 <<<<<<< .merge_file_fAVYA1
 <<<<<<< HEAD
 =======
@@ -80,6 +99,9 @@ Nel progetto <nome progetto>, esiste una regola fondamentale: **utilizzare sempr
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_6n8vFw
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
 ## Vantaggi dei componenti Filament
 
@@ -118,6 +140,7 @@ Frontoffice senza Livewire dedicato — pattern [Alpine](https://filamentphp.com
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_fAVYA1
 Caso Fixcity `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
 =======
@@ -128,6 +151,11 @@ Caso Fixcity `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnala
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+Caso Fixcity `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 | Tabs | `<x-filament::tabs>` | Tab personalizzati |
 Caso <nome progetto> `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
 Caso progetto corrente `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
@@ -153,6 +181,7 @@ Caso <nome progetto> `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -163,6 +192,8 @@ Caso progetto corrente `/it`: [STORY-065](../../../../../docs/stories/STORY-065-
 =======
 Caso Fixcity `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
 >>>>>>> .merge_file_6n8vFw
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ## Esempi di utilizzo
@@ -243,6 +274,7 @@ Per migrare da componenti personalizzati a componenti Filament:
 
 - [User](../../user/docs/blade/using-filament-components.md) - Implementazione dei componenti profilo con Filament
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_fAVYA1
 =======
 <<<<<<< HEAD
@@ -252,6 +284,9 @@ Per migrare da componenti personalizzati a componenti Filament:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_6n8vFw
+=======
+=======
+>>>>>>> 804451c (Lint)
 - [Documentazione ufficiale Filament Blade Components](https://filamentphp.com/docs/3.x/support/blade-components)
 - [Dropdown](https://filamentphp.com/docs/3.x/support/blade-components/dropdown)
 - [Button](https://filamentphp.com/docs/3.x/support/blade-components/button)
@@ -262,6 +297,7 @@ Per migrare da componenti personalizzati a componenti Filament:
 ## Moduli correlati
 
 - [User](../../User/docs/blade/using-filament-components.md) - Implementazione dei componenti profilo con Filament
+<<<<<<< HEAD
 <<<<<<< .merge_file_fAVYA1
 <<<<<<< HEAD
 =======
@@ -272,3 +308,6 @@ Per migrare da componenti personalizzati a componenti Filament:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_6n8vFw
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

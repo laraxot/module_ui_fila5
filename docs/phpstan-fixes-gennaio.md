@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ---
 module: theme
 topic: phpstan-fixes-gennaio
@@ -10,7 +13,10 @@ canonical: ../../../Themes/docs/shared-components/phpstan-fixes-gennaio-2025-Mod
 
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan-fixes-gennaio-2025-Modules.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 # Correzioni PHPStan - Gennaio 2025
 
@@ -70,4 +76,7 @@ public function canTransitionTo(int|string $recordId, string $stateClass): bool
 - [Filament Tables](./filament-tables.md)
 - [Icon State Split Column](./icon-state-split-column.md)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)

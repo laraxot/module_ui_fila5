@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_haK1Oe
 =======
 <<<<<<< HEAD
@@ -741,6 +742,8 @@ class UserCalendarWidget extends XotBaseWidget
 **Filament**: ✅ 4.x Compatibile
 =======
 >>>>>>> .merge_file_6jihez
+=======
+>>>>>>> 804451c (Lint)
 # 🎨 UI MODULE - ROADMAP 2025
 ||||||| parent of 9a84589 (.)
 # UI Module Roadmap
@@ -750,11 +753,15 @@ class UserCalendarWidget extends XotBaseWidget
 **Priority**: HIGH  
 **PHPStan**: ✅ level 10 (0 errori)  
 **Filament**: ✅ 4.x Compatibile  
+<<<<<<< HEAD
 <<<<<<< .merge_file_haK1Oe
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 # UI Module - Complete Roadmap 2026
 
 **Generated**: 2026-01-02
@@ -1489,11 +1496,14 @@ class UserCalendarWidget extends XotBaseWidget
 **PHPStan**: ✅ Level 9 (0 errori)
 **Filament**: ✅ 4.x Compatibile
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_6jihez
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ---
@@ -1501,6 +1511,7 @@ class UserCalendarWidget extends XotBaseWidget
 ## 🎯 MODULE OVERVIEW
 
 Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_haK1Oe
 =======
@@ -1510,9 +1521,12 @@ Il modulo **UI** è il sistema di componenti e design system della piattaforma p
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> 804451c (Lint)
+=======
 Il modulo **UI** è il sistema di componenti e design system della piattaforma <nome progetto>, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
 Il modulo **UI** è il sistema di componenti e design system della piattaforma progetto corrente, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 Il modulo **UI** è il sistema di componenti e design system della piattaforma <nome progetto>, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
@@ -1520,6 +1534,8 @@ Il modulo **UI** è il sistema di componenti e design system della piattaforma p
 =======
 >>>>>>> .merge_file_6jihez
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ### 🏗️ Architettura Modulo
 ```
@@ -1585,6 +1601,7 @@ UI Module
 
 ### 🛠️ Technical Excellence
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_haK1Oe
 - [x] **PHPStan level 10**: 0 errori
 =======
@@ -1592,10 +1609,13 @@ UI Module
 - [x] **PHPStan Level 9**: 0 errori
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [x] **PHPStan level 10**: 0 errori
 =======
 - [x] **PHPStan Level 9**: 0 errori
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - [x] **PHPStan Level 9**: 0 errori
@@ -1603,6 +1623,8 @@ UI Module
 - [x] **PHPStan level 10**: 0 errori
 >>>>>>> .merge_file_6jihez
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - [x] **Filament 4.x**: Compatibilità completa
 - [x] **Type Safety**: Type hints completi
 - [x] **Error Handling**: Gestione errori robusta
@@ -1617,6 +1639,7 @@ UI Module
 
 ### ♿ AGID Compliance Completion (Priority: CRITICAL)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_haK1Oe
 **Status**: 85% COMPLETATO  
 =======
@@ -1624,10 +1647,13 @@ UI Module
 **Status**: 85% COMPLETATO
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 **Status**: 85% COMPLETATO  
 =======
 **Status**: 85% COMPLETATO
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 **Status**: 85% COMPLETATO
@@ -1635,6 +1661,8 @@ UI Module
 **Status**: 85% COMPLETATO  
 >>>>>>> .merge_file_6jihez
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 **Timeline**: Q1 2025
 
 #### 📋 Tasks
@@ -1670,6 +1698,7 @@ UI Module
 
 ### 📱 Mobile Optimization (Priority: HIGH)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_haK1Oe
 **Status**: 70% COMPLETATO  
 =======
@@ -1677,10 +1706,13 @@ UI Module
 **Status**: 70% COMPLETATO
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 **Status**: 70% COMPLETATO  
 =======
 **Status**: 70% COMPLETATO
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 **Status**: 70% COMPLETATO
@@ -1688,6 +1720,8 @@ UI Module
 **Status**: 70% COMPLETATO  
 >>>>>>> .merge_file_6jihez
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 **Timeline**: Q1 2025
 
 #### 📋 Tasks
@@ -1767,6 +1801,7 @@ UI Module
 
 ### 📊 Technical Metrics
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_haK1Oe
 - [x] **PHPStan level 10**: 0 errori ✅
 =======
@@ -1774,10 +1809,13 @@ UI Module
 - [x] **PHPStan Level 9**: 0 errori ✅
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [x] **PHPStan level 10**: 0 errori ✅
 =======
 - [x] **PHPStan Level 9**: 0 errori ✅
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - [x] **PHPStan Level 9**: 0 errori ✅
@@ -1785,6 +1823,8 @@ UI Module
 - [x] **PHPStan level 10**: 0 errori ✅
 >>>>>>> .merge_file_6jihez
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - [x] **Filament 4.x**: Compatibile ✅
 - [ ] **Test Coverage**: 80% (target)
 - [ ] **Response Time**: < 200ms
@@ -1873,6 +1913,7 @@ UI Module
 **Last Updated**: 2025-10-01
 **Next Review**: 2025-11-01
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_haK1Oe
 **Status**: 🚧 ACTIVE DEVELOPMENT  
 **Confidence Level**: 90%  
@@ -1882,12 +1923,15 @@ UI Module
 **Confidence Level**: 90%
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 **Status**: 🚧 ACTIVE DEVELOPMENT  
 **Confidence Level**: 90%  
 =======
 **Status**: 🚧 ACTIVE DEVELOPMENT
 **Confidence Level**: 90%
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 **Status**: 🚧 ACTIVE DEVELOPMENT
@@ -1897,11 +1941,14 @@ UI Module
 **Confidence Level**: 90%  
 >>>>>>> .merge_file_6jihez
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ---
 
 *Questa roadmap è specifica per il modulo UI e viene aggiornata regolarmente in base ai progressi e alle nuove esigenze.*
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_haK1Oe
 ||||||| parent of 9a84589 (.)
 =======
@@ -1910,11 +1957,14 @@ UI Module
 
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 ||||||| parent of 9a84589 (.)
 =======
 # UI Module Roadmap
 
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 # UI Module Roadmap
@@ -1923,6 +1973,8 @@ UI Module
 ||||||| parent of 9a84589 (.)
 >>>>>>> .merge_file_6jihez
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 "L'interfaccia è l'essenza: rendere l'esperienza indimenticabile."
 
 ## 🎯 Visione
@@ -1950,12 +2002,15 @@ Creare un ecosistema UI "Headless-first" che permetta di cambiare radicalmente i
 <<<<<<< HEAD
 - [ ] **Predictive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 - [ ] **Predictive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [ ] **forecastive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
 =======
 =======
@@ -1963,7 +2018,10 @@ Creare un ecosistema UI "Headless-first" che permetta di cambiare radicalmente i
 <<<<<<< HEAD
 =======
 - [ ] **Predictive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
+<<<<<<< HEAD
 <<<<<<< .merge_file_haK1Oe
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -1978,6 +2036,7 @@ Creare un ecosistema UI "Headless-first" che permetta di cambiare radicalmente i
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -1986,6 +2045,8 @@ Creare un ecosistema UI "Headless-first" che permetta di cambiare radicalmente i
 - [ ] **forecastive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
 =======
 >>>>>>> .merge_file_6jihez
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ## ✅ Checklist Qualità
@@ -1994,6 +2055,7 @@ Creare un ecosistema UI "Headless-first" che permetta di cambiare radicalmente i
 - [ ] Performance Lighthouse > 90 su pagine UI intensive.
 
 ---
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_haK1Oe
 **
@@ -2282,6 +2344,10 @@ Completare il modulo UI con tutte le funzionalità mancanti, migliorare qualità
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
+=======
+**
+=======
+>>>>>>> 804451c (Lint)
 **Ultimo aggiornamento**: 31 Gennaio 2026
 # Roadmap Modulo UI - Completamento e Miglioramenti
 
@@ -2555,7 +2621,10 @@ Completare il modulo UI con tutte le funzionalità mancanti, migliorare qualità
 ---
 
 **Filosofia**: UI fornisce componenti riutilizzabili e design system - nessuna business logic, solo presentazione.
+<<<<<<< HEAD
 =======
 **
 >>>>>>> .merge_file_6jihez
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

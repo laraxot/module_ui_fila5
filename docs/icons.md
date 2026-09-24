@@ -46,6 +46,7 @@ Questa documentazione integra entrambe le versioni emerse dal conflitto per forn
 
 ## Backlink
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4RXTwL
 - [Torna a docs/links.md](../../../../../docs/links.md)
 - [Vedi anche: UI/docs/components.md](./components.md)
@@ -57,6 +58,8 @@ Questa documentazione integra entrambe le versioni emerse dal conflitto per forn
 - [Vedi anche: Xot/docs/README.md](../../Xot/docs/README.md)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [Torna a docs/links.md](../../../../../docs/links.md)
 - [Vedi anche: UI/docs/components.md](./components.md)
 - [Vedi anche: Xot/docs/README.md](../../xot/docs/readme.md)
@@ -65,6 +68,7 @@ Questa documentazione integra entrambe le versioni emerse dal conflitto per forn
 - [Vedi anche: UI/docs/components.md](./components.md)
 - [Vedi anche: Xot/docs/README.md](../../Xot/docs/README.md)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - [Torna a docs/links.md](../../../../docs/links.md)
@@ -76,6 +80,8 @@ Questa documentazione integra entrambe le versioni emerse dal conflitto per forn
 - [Vedi anche: Xot/docs/README.md](../../xot/docs/readme.md)
 >>>>>>> .merge_file_uiDfu4
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ## Esempi
 ```blade
@@ -86,6 +92,7 @@ Questa documentazione integra entrambe le versioni emerse dal conflitto per forn
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4RXTwL
 - [Componenti UI](laravel/modules/ui/docs/components.md)
 - [Documentazione Filament](laravel/modules/ui/docs/filament/readme.md)
@@ -100,6 +107,8 @@ Questa documentazione integra entrambe le versioni emerse dal conflitto per forn
 =======
 <<<<<<< .merge_file_4RXTwL
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [Componenti UI](laravel/modules/ui/docs/components.md)
 - [Documentazione Filament](laravel/modules/ui/docs/filament/readme.md)
 - [Convenzioni di Naming](laravel/modules/ui/docs/naming-conventions.md)
@@ -108,6 +117,7 @@ Questa documentazione integra entrambe le versioni emerse dal conflitto per forn
 - [Documentazione Filament](laravel/Modules/UI/docs/filament/README.md)
 - [Convenzioni di Naming](laravel/Modules/UI/docs/naming-conventions.md)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - [Componenti UI](laravel/modules/ui/docs/components.md)
@@ -115,3 +125,5 @@ Questa documentazione integra entrambe le versioni emerse dal conflitto per forn
 - [Convenzioni di Naming](laravel/modules/ui/docs/naming-conventions.md)
 >>>>>>> .merge_file_uiDfu4
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)

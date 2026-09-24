@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_8M1OQh
 =======
 <<<<<<< HEAD
@@ -27,10 +28,13 @@ related:
 =======
 >>>>>>> .merge_file_EyGpLn
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ## [2026-06-05] docs | HackerNoon harness — tips 001-022 in wiki locale
 
 - Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
 - GitHub: [#272](https://github.com/laraxot/base_fixcity_fila5/issues/272) / [D#273](https://github.com/laraxot/base_fixcity_fila5/discussions/273)
+<<<<<<< HEAD
 <<<<<<< HEAD
 - Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
 - GitHub: [#272](https://github.com/laraxot/<nome repitory>/issues/272) / [D#273](https://github.com/laraxot/<nome repitory>/discussions/273)
@@ -43,6 +47,11 @@ related:
 # UI Wiki Log
 
 <<<<<<< .merge_file_8M1OQh
+=======
+
+# UI Wiki Log
+
+>>>>>>> 804451c (Lint)
 ## [2026-07-08] phpstan | InteractiveMap/LocationSelector — riapplicato pattern contratti opzionali, rimosso LocationSelector morto
 - Un agent concorrente aveva reintrodotto import diretti `Modules\Geo\Services\MapService` / `GeocodingService` in `InteractiveMap.php` e rimosso il binding `register()` da `UIServiceProvider`, contraddicendo la regola documentata in [block-rendering-and-optional-services](concepts/block-rendering-and-optional-services.md) ("non importare `Modules\Geo\*` nel consumer UI").
 - Ripristinato: `InteractiveMap.php` usa `MapServiceContract`/`GeocodingServiceContract`; `UIServiceProvider::register()` lega i contratti a `NullMapService`/`NullGeocodingService` di default.
@@ -50,9 +59,13 @@ related:
 - Verifica: PHPStan pulito su entrambi i file; container resolve corretto (`app(MapServiceContract::class)` → `NullMapService`); `mount()`/`loadMarkers()`/`searchAddress()` verificati via `php artisan tinker` (DB non raggiungibile in sandbox per Livewire::test()).
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "UI Wiki Log"
 type: concept
@@ -117,12 +130,16 @@ related:
 # UI Wiki Log
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_EyGpLn
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ## [2026-05-21] bugfix | auth register focus perso per overlay header mobile
 - Nuova pagina: `concepts/auth-register-focus-loss-overlay.md`.
 - Root cause identificata in `x-ui.marketing.header`: container mobile fullscreen `fixed` che intercettava i click anche a menu chiuso.
@@ -139,6 +156,7 @@ related:
 - Distinto ownership tecnico (`UI` + `Xot`) da compatibilita' runtime.
 - Verificato che `spatie/laravel-model-states` latest stable richiede `PHP ^8.4`, mentre `2.12.1` si ferma a `Laravel 12`.
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_8M1OQh
 =======
 <<<<<<< HEAD
@@ -154,6 +172,11 @@ related:
 =======
 >>>>>>> .merge_file_EyGpLn
 >>>>>>> laraxot/dev
+=======
+=======
+- Verificato che `spatie/laravel-model-states` latest stable richiede `PHP ^8.4`, mentre `2.12.1` si ferma a `Laravel 13`.
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
 ## [2026-04-23] governance | EnumSelect API collisions (Filament v5)
 - Nuova pagina: `concepts/enumselect-filament-api-collisions.md`.
@@ -184,6 +207,7 @@ related:
 <<<<<<< HEAD
 - Schema: `docs/.schema/WIKI_SCHEMA.md`
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_8M1OQh
 =======
 - Adozione moduli: `docs/project/llm-wiki-module-adoption.md`
@@ -192,6 +216,8 @@ related:
 - Schema: `docs/.schema/WIKI_SCHEMA.md`
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - Schema: `docs/.schema/wiki-schema.md`
 =======
 =======
@@ -254,6 +280,7 @@ related:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -276,4 +303,6 @@ related:
 =======
 - Adozione moduli: `docs/project/llm-wiki-module-adoption.md`
 >>>>>>> .merge_file_EyGpLn
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

@@ -27,6 +27,7 @@ Block components are modular UI elements used to build sections in the frontend.
 - [Theme Components](../components/readme.md)
 - [Data Handling in Blade](../blade-data-handling.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Sd3Zcm
 =======
 <<<<<<< HEAD
@@ -36,6 +37,9 @@ Block components are modular UI elements used to build sections in the frontend.
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_lVNf49
+=======
+=======
+>>>>>>> 804451c (Lint)
 [![Module](https://img.shields.io/badge/Module-Block Components-8B0000.svg)]()
 [![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
 [![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)
@@ -68,6 +72,7 @@ Core module for the FixCity Platform.
 ---
 
 **Modulo** `UI` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+<<<<<<< HEAD
 <<<<<<< .merge_file_Sd3Zcm
 <<<<<<< HEAD
 =======
@@ -78,3 +83,6 @@ Core module for the FixCity Platform.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_lVNf49
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

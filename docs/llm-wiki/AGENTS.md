@@ -140,10 +140,13 @@ Related:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
 =======
 - [Project Wiki Agent Instructions](../../docs/wiki/agents.md)
@@ -294,6 +297,7 @@ Related:
 
 - [Project Wiki Integration](../../docs/wiki/README.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -449,3 +453,8 @@ Related:
 - [Module Documentation](../README.md)
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+- [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
+- [Module Documentation](../README.md)
+>>>>>>> 804451c (Lint)

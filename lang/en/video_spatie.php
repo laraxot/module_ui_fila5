@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_WYdQ43
 <<<<<<< HEAD
 =======
@@ -9,10 +10,14 @@ declare(strict_types=1);
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/en/video_spatie.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -21,6 +26,10 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_9Bm4CH
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 return [
     'fields' => [
         'img_uuid' => [

@@ -80,11 +80,15 @@ Il design system definisce gli standard visivi e di interazione per garantire co
         Titolo Card
     </x-slot>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
+=======
+>>>>>>> 804451c (Lint)
 
     Contenuto della card
 
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -94,6 +98,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     Contenuto della card
     Contenuto della card
     
@@ -133,6 +139,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -145,6 +152,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
     Contenuto della card
 
 >>>>>>> .merge_file_RL0BgJ
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     <x-slot name="footer">
         Footer della card
@@ -189,6 +198,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 
 ## Collegamenti Bidirezionali
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 - [README](readme.md)
 =======
@@ -196,10 +206,13 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 - [README](README.md)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [README](readme.md)
 =======
 - [README](README.md)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - [README](README.md)
@@ -207,12 +220,15 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 - [README](readme.md)
 >>>>>>> .merge_file_RL0BgJ
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - [Componenti](components.md)
 - [Layout](layouts-and-themes.md)
 
 ## Vedi Anche
 - [Tailwind Config](../config/tailwind.config.js)
 - [Theme Config](../config/theme.php)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 =======
@@ -228,6 +244,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ## Componenti Base
 =======
 >>>>>>> .merge_file_RL0BgJ
+=======
+>>>>>>> 804451c (Lint)
 - [Filament UI](../../cms/docs/filament-components.md)
 # Design System
 
@@ -236,12 +254,17 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 
 ## Componenti Base
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 <<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 - [Filament UI](../../Cms/docs/filament-components.md) 
 =======
 <<<<<<< HEAD
@@ -263,11 +286,14 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 Il design system definisce gli standard visivi e di interazione per garantire coerenza in tutta l'applicazione.
 ## Componenti Base
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_RL0BgJ
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### 1. Tipografia
 ```css
@@ -275,6 +301,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 --app-font-sans: 'Inter', sans-serif;
 --app-font-serif: 'Merriweather', serif;
 --app-font-mono: 'JetBrains Mono', monospace;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 
@@ -290,6 +317,10 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 
 >>>>>>> .merge_file_RL0BgJ
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 /* Font Sizes */
 --app-text-xs: 0.75rem;
@@ -299,6 +330,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 --app-text-xl: 1.25rem;
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 
 ### 2. Colori
@@ -308,12 +340,15 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ### 2. Colori
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 
 ### 2. Colori
 ```css
 =======
 ### 2. Colori
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 ### 2. Colori
@@ -323,11 +358,14 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ```css
 >>>>>>> .merge_file_RL0BgJ
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 /* Brand Colors */
 --app-primary: #0EA5E9;
 --app-secondary: #6366F1;
 --app-accent: #EC4899;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 
 =======
@@ -342,6 +380,10 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 
 >>>>>>> .merge_file_RL0BgJ
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 /* Semantic Colors */
 --app-success: #22C55E;
@@ -349,6 +391,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 --app-error: #EF4444;
 --app-info: #3B82F6;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 =======
 <<<<<<< HEAD
@@ -360,10 +403,13 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ### 3. Spaziatura
 =======
 >>>>>>> .merge_file_RL0BgJ
+=======
+>>>>>>> 804451c (Lint)
 ```
 
 ### 3. Spaziatura
 ```css
+<<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 <<<<<<< HEAD
 =======
@@ -374,6 +420,11 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> .merge_file_RL0BgJ
 >>>>>>> laraxot/dev
+=======
+=======
+### 3. Spaziatura
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 /* Spacing Scale */
 --so-spacing-xs: 0.5rem;
 --so-spacing-sm: 0.75rem;
@@ -381,6 +432,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 --so-spacing-lg: 1.5rem;
 --so-spacing-xl: 2rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 =======
 <<<<<<< HEAD
@@ -392,10 +444,13 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ## Componenti UI
 =======
 >>>>>>> .merge_file_RL0BgJ
+=======
+>>>>>>> 804451c (Lint)
 ```
 
 ## Componenti UI
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 <<<<<<< HEAD
 =======
@@ -406,12 +461,18 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> .merge_file_RL0BgJ
 >>>>>>> laraxot/dev
+=======
+=======
+## Componenti UI
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ### 1. Pulsanti
 ```php
 <x-ui.button variant="primary">
     Azione Primaria
 </x-ui.button>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 =======
 <<<<<<< HEAD
@@ -426,6 +487,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_RL0BgJ
+=======
+>>>>>>> 804451c (Lint)
 
 <x-ui.button variant="secondary">
     Azione Secondaria
@@ -434,18 +497,24 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 
 ### 2. Form
 ```php
+<<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 <x-ui.button variant="secondary">
     Azione Secondaria
 ### 2. Form
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_RL0BgJ
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 <x-ui.form.input
     type="text"
     name="name"
@@ -453,6 +522,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
     placeholder="Inserisci il nome"
 />
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 
 =======
@@ -467,12 +537,17 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 
 >>>>>>> .merge_file_RL0BgJ
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 <x-ui.form.select
     name="type"
     label="Tipo"
     :options="$types"
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 =======
 <<<<<<< HEAD
@@ -484,11 +559,14 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ### 3. Card
 =======
 >>>>>>> .merge_file_RL0BgJ
+=======
+>>>>>>> 804451c (Lint)
 />
 ```
 
 ### 3. Card
 ```php
+<<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 <<<<<<< HEAD
 =======
@@ -499,10 +577,16 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> .merge_file_RL0BgJ
 >>>>>>> laraxot/dev
+=======
+=======
+### 3. Card
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 <x-ui.card>
     <x-slot name="header">
         Titolo Card
     </x-slot>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 =======
@@ -519,6 +603,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ### 1. Grid System
 =======
 >>>>>>> .merge_file_RL0BgJ
+=======
+>>>>>>> 804451c (Lint)
 
     Contenuto della card
 
@@ -532,11 +618,15 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 
 ### 1. Grid System
 ```php
+<<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
     Contenuto della card
     <x-slot name="footer">
         Footer della card
@@ -544,11 +634,14 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ## Layout
 ### 1. Grid System
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_RL0BgJ
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 <x-ui.grid cols="1 md:2 lg:3" gap="4">
     <div>Colonna 1</div>
@@ -556,6 +649,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
     <div>Colonna 3</div>
 </x-ui.grid>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 =======
 <<<<<<< HEAD
@@ -570,6 +664,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ## Best Practices
 =======
 >>>>>>> .merge_file_RL0BgJ
+=======
+>>>>>>> 804451c (Lint)
 ```
 
 ### 2. Container
@@ -581,28 +677,36 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 
 ## Best Practices
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ### 2. Container
 <x-ui.container size="md">
     Contenuto centrato con margini
 </x-ui.container>
 ## Best Practices
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_RL0BgJ
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 1. **Coerenza**
    - Usare i componenti standard
    - Mantenere la palette colori
    - Seguire la scala tipografica
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 
 =======
@@ -617,12 +721,17 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 
 >>>>>>> .merge_file_RL0BgJ
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 2. **Accessibilità**
    - Contrasto sufficiente
    - Focus visibile
    - Testo alternativo
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 
 =======
@@ -637,11 +746,16 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 
 >>>>>>> .merge_file_RL0BgJ
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 3. **Responsive**
    - Mobile first
    - Breakpoint standard
    - Layout fluido
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 =======
@@ -661,6 +775,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ```
 =======
 >>>>>>> .merge_file_RL0BgJ
+=======
+>>>>>>> 804451c (Lint)
 
 ## Collegamenti Bidirezionali
 - [README](readme.md)
@@ -673,11 +789,15 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 - [Filament UI](../../cms/project_docs/filament-components.md)
 - [Filament UI](../../cms/project_docs/filament-components.md)
 - [Filament UI](../../cms/project_docs/filament-components.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ## Collegamenti Bidirezionali
 - [README](README.md)
 - [Componenti](components.md)
@@ -708,9 +828,12 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_RL0BgJ
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

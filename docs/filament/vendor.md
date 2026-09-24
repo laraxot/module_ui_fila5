@@ -4,6 +4,7 @@ description: Ripristinare cartella vendor
 extends: _layouts.documentation
 section: content
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_abMjZM
 =======
 <<<<<<< HEAD
@@ -13,6 +14,9 @@ section: content
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Liyruh
+=======
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -22,6 +26,7 @@ related:
   - "./filament-4-migration-guide.md"
   - "./filament-4-migration-summary.md"
   - "./filament-4-migration-sumy.md"
+<<<<<<< HEAD
 <<<<<<< .merge_file_abMjZM
 <<<<<<< HEAD
 =======
@@ -32,6 +37,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Liyruh
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ---
 
 # Ripristinare la cartella vendor
@@ -46,6 +54,7 @@ digitare il numero 0 e premere invio
 <<<<<<< HEAD
 NB: La cartella non la sovrascrive perciò bisogna prima spostarla
 =======
+<<<<<<< HEAD
 <<<<<<< .merge_file_abMjZM
 <<<<<<< HEAD
 NB: La cartella non la sovrascrive perciò bisogna prima spostarla
@@ -60,3 +69,7 @@ NB: La cartella non la sovrascrive perciò bisogna prima spostarla
 NB: La cartella non la sovrascrive perciò bisogna prima spostarla
 >>>>>>> .merge_file_Liyruh
 >>>>>>> laraxot/dev
+=======
+NB: La cartella non la sovrascrive perciò bisogna prima spostarla
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

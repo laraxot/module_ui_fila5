@@ -88,11 +88,16 @@ public static function form(Form $form): Form
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+            
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
         // Digitare 'fil-select' e premere Tab
         Select::make('status')
             ->options([
@@ -104,11 +109,16 @@ public static function form(Form $form): Form
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
             
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+            
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
         // Digitare 'fil-rich' e premere Tab
         RichEditor::make('content')
             ->required()
@@ -133,11 +143,16 @@ public static function table(Table $table): Table
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
                 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+                
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
             // Digitare 'fil-col' e premere Tab
             IconColumn::make('status')
                 ->boolean(),
@@ -181,11 +196,16 @@ Forms\Components\Wizard::make([
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
                         
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+                        
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
                     Forms\Components\TextInput::make('last_name')
                         ->required(),
                 ]),

@@ -122,12 +122,15 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
     
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 =======
 <<<<<<< HEAD
@@ -147,9 +150,12 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     // Configurazioni comuni per tutti i widget di statistiche UI
     protected static function getDefaultStats(): array
@@ -170,12 +176,15 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
     
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 =======
 <<<<<<< HEAD
@@ -195,9 +204,12 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     // Metodi helper comuni
     protected function formatNumber(int|float $number): string
@@ -216,12 +228,15 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
     
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 =======
 <<<<<<< HEAD
@@ -241,9 +256,12 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     protected function formatPercentage(int|float $percentage): string
     {
@@ -285,6 +303,7 @@ abstract class UIBaseTestWidget extends XotBaseWidget
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -297,11 +316,17 @@ abstract class UIBaseTestWidget extends XotBaseWidget
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     
     // Configurazioni comuni per tutti i widget di test UI
     public array $widgets = [];
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_7rir5z
 =======
@@ -309,6 +334,8 @@ abstract class UIBaseTestWidget extends XotBaseWidget
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> 804451c (Lint)
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -320,14 +347,20 @@ abstract class UIBaseTestWidget extends XotBaseWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_u41tzd
+=======
+>>>>>>> 804451c (Lint)
 
     // Configurazioni comuni per tutti i widget di test UI
     public array $widgets = [];
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_7rir5z
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
@@ -342,12 +375,15 @@ abstract class UIBaseTestWidget extends XotBaseWidget
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 =======
 >>>>>>> .merge_file_u41tzd
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     // Metodi helper comuni
     protected function getTestData(): array
@@ -392,12 +428,15 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
     
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 =======
 <<<<<<< HEAD
@@ -417,9 +456,12 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     // Configurazioni comuni per tutti i grafici UI
     protected function getDefaultChartOptions(): array
@@ -446,12 +488,15 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
     
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 =======
 <<<<<<< HEAD
@@ -471,9 +516,12 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     // Metodi helper comuni
     protected function formatChartData(array $data): array
@@ -569,12 +617,15 @@ class SystemTestWidget extends UIBaseTestWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
     
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 =======
 <<<<<<< HEAD
@@ -594,9 +645,12 @@ class SystemTestWidget extends UIBaseTestWidget
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public function getViewData(): array
     {
@@ -620,12 +674,15 @@ class SystemTestWidget extends UIBaseTestWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
     
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 =======
 <<<<<<< HEAD
@@ -645,9 +702,12 @@ class SystemTestWidget extends UIBaseTestWidget
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     private function getSystemInfo(): array
     {
@@ -669,12 +729,15 @@ class SystemTestWidget extends UIBaseTestWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
     
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 =======
 <<<<<<< HEAD
@@ -694,9 +757,12 @@ class SystemTestWidget extends UIBaseTestWidget
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     private function getDatabaseStatus(): array
     {
@@ -730,6 +796,7 @@ class SystemTestWidget extends UIBaseTestWidget
 ## 🔗 Collegamenti Correlati
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_7rir5z
 - [XotBase Patterns](../../xot/docs/optimization_opportunities.md)
 =======
@@ -737,10 +804,13 @@ class SystemTestWidget extends UIBaseTestWidget
 - [XotBase Patterns](../../Xot/docs/optimization_opportunities.md)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [XotBase Patterns](../../xot/docs/optimization_opportunities.md)
 =======
 - [XotBase Patterns](../../Xot/docs/optimization_opportunities.md)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - [XotBase Patterns](../../Xot/docs/optimization_opportunities.md)
@@ -748,6 +818,8 @@ class SystemTestWidget extends UIBaseTestWidget
 - [XotBase Patterns](../../xot/docs/optimization_opportunities.md)
 >>>>>>> .merge_file_u41tzd
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - [UI Components](components.md)
 - [Development Guidelines](development-guidelines.md)
 - [Testing Strategy](testing-strategy.md)
@@ -755,6 +827,7 @@ class SystemTestWidget extends UIBaseTestWidget
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_7rir5z
 *Autore: Analisi Automatica del Progetto*
 =======
@@ -764,6 +837,10 @@ class SystemTestWidget extends UIBaseTestWidget
 *Autore: Analisi Automatica del Progetto*
 =======
 >>>>>>> laraxot/dev
+=======
+*Autore: Analisi Automatica del Progetto*
+=======
+>>>>>>> 804451c (Lint)
 *Ultimo aggiornamento: Giugno 2025*
 <<<<<<< HEAD
 *Autore: Analisi Automatica del Progetto*
@@ -781,9 +858,12 @@ class SystemTestWidget extends UIBaseTestWidget
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 *Ultimo aggiornamento: Giugno 2025*
 >>>>>>> .merge_file_u41tzd
+=======
+>>>>>>> 804451c (Lint)
 *Autore: Analisi Automatica del Progetto*
 # Ottimizzazioni Widget - Modulo UI
 ## Panoramica
@@ -949,7 +1029,10 @@ class SystemTestWidget extends UIBaseTestWidget
 - [Testing Strategy](testing-strategy.md)
 ---
 *Ultimo aggiornamento: Giugno 2025*
+<<<<<<< HEAD
 <<<<<<< .merge_file_7rir5z
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 *Autore: Analisi Automatica del Progetto*
@@ -969,6 +1052,7 @@ class SystemTestWidget extends UIBaseTestWidget
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -976,4 +1060,6 @@ class SystemTestWidget extends UIBaseTestWidget
 =======
 *Autore: Analisi Automatica del Progetto*
 >>>>>>> .merge_file_u41tzd
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

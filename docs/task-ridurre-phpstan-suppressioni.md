@@ -4,6 +4,7 @@
 **Priorita'**: Alta
 **Completamento**: 0%
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zpLWqy
 =======
 <<<<<<< HEAD
@@ -19,6 +20,11 @@
 =======
 >>>>>>> .merge_file_p8DBWV
 >>>>>>> laraxot/dev
+=======
+=======
+**Data**: 2026-01-30
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
 ---
 

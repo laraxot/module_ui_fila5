@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ax3sNZ
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_yCj4fd
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Themes - Ottimizzazioni e Correzioni"
 type: concept
@@ -15,7 +19,10 @@ tags: [optimizations]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "optimizations themes - ottimizzazioni e correzioni"
+<<<<<<< HEAD
 <<<<<<< .merge_file_ax3sNZ
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,12 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_yCj4fd
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./asset-management-1.md"
   - "./asset-management.md"
@@ -42,6 +52,7 @@ related:
   - "./schemaless-attributes-guide.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_ax3sNZ
 <<<<<<< HEAD
 =======
@@ -52,6 +63,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_yCj4fd
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Themes - Ottimizzazioni e Correzioni
 
 ## 🎯 Overview

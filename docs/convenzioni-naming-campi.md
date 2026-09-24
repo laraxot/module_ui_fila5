@@ -102,6 +102,7 @@ TextInput::make('full_name')
 
 - [Documentazione Filament Forms](https://filamentphp.com/docs/3.x/forms/fields/text-input)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bxPv9K
 =======
 <<<<<<< HEAD
@@ -121,6 +122,8 @@ TextInput::make('full_name')
 ## Campi Nome e Cognome
 =======
 >>>>>>> .merge_file_Yhade7
+=======
+>>>>>>> 804451c (Lint)
 - [Best Practices Database](../../../../docs/database/best-practices.md)
 - [Convenzioni API](../../../../docs/api/convenzioni.md)
 ## Collegamenti tra versioni di convenzioni-naming-campi.md
@@ -134,11 +137,15 @@ TextInput::make('full_name')
 
 ## Campi Nome e Cognome
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_bxPv9K
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 - [Best Practices Database](../../../docs/database/best-practices.md)
 <<<<<<< HEAD
 =======
@@ -186,11 +193,14 @@ TextInput::make('full_name')
 ## Collegamenti Bidirezionali
 ## Campi Nome e Cognome
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Yhade7
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### ❌ NON FARE
 ```php
@@ -198,6 +208,7 @@ TextInput::make('name')  // ❌ Ambiguo: potrebbe essere solo nome o nome comple
 TextInput::make('surname')
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bxPv9K
 =======
 <<<<<<< HEAD
@@ -213,6 +224,8 @@ TextInput::make('full_name')   // ✅ Chiaro: nome completo (nome + cognome)
 ## Motivazioni
 =======
 >>>>>>> .merge_file_Yhade7
+=======
+>>>>>>> 804451c (Lint)
 
 ### ✅ FARE - Caso 1: Campi Separati
 ```php
@@ -227,23 +240,30 @@ TextInput::make('full_name')   // ✅ Chiaro: nome completo (nome + cognome)
 
 ## Motivazioni
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_bxPv9K
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ### ✅ FARE - Caso 1: Campi Separati
 TextInput::make('first_name')  // ✅ Chiaro: solo nome
 TextInput::make('last_name')   // ✅ Chiaro: solo cognome
 ### ✅ FARE - Caso 2: Campo Unico
 TextInput::make('full_name')   // ✅ Chiaro: nome completo (nome + cognome)
 ## Motivazioni
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Yhade7
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 1. **Standardizzazione**:
    - `first_name` e `last_name` sono standard internazionali per campi separati
@@ -251,6 +271,7 @@ TextInput::make('full_name')   // ✅ Chiaro: nome completo (nome + cognome)
    - Facilita l'integrazione con API esterne
    - Migliora la compatibilità con sistemi di terze parti
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bxPv9K
 
 =======
@@ -265,6 +286,10 @@ TextInput::make('full_name')   // ✅ Chiaro: nome completo (nome + cognome)
 =======
 
 >>>>>>> .merge_file_Yhade7
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 2. **Chiarezza Semantica**:
    - `first_name`: indica chiaramente il nome di battesimo
@@ -272,6 +297,7 @@ TextInput::make('full_name')   // ✅ Chiaro: nome completo (nome + cognome)
    - `full_name`: indica chiaramente che contiene nome e cognome insieme
    - Evita ambiguità in contesti multilingua
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bxPv9K
 
 =======
@@ -286,12 +312,17 @@ TextInput::make('full_name')   // ✅ Chiaro: nome completo (nome + cognome)
 =======
 
 >>>>>>> .merge_file_Yhade7
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 3. **Consistenza del Database**:
    - Facilita le query SQL
    - Migliora la leggibilità del database
    - Standardizza le relazioni tra tabelle
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bxPv9K
 
 =======
@@ -306,12 +337,17 @@ TextInput::make('full_name')   // ✅ Chiaro: nome completo (nome + cognome)
 =======
 
 >>>>>>> .merge_file_Yhade7
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 4. **Validazione e Formattazione**:
    - Permette validazioni specifiche per tipo di nome
    - Facilita la formattazione corretta
    - Migliora la gestione dei casi speciali
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bxPv9K
 
 ## Best Practices
@@ -321,12 +357,15 @@ TextInput::make('full_name')   // ✅ Chiaro: nome completo (nome + cognome)
 ## Best Practices
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 
 ## Best Practices
 
 =======
 ## Best Practices
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 ## Best Practices
@@ -336,12 +375,15 @@ TextInput::make('full_name')   // ✅ Chiaro: nome completo (nome + cognome)
 
 >>>>>>> .merge_file_Yhade7
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 1. **Naming**:
    - Usare `first_name` per il nome quando separato
    - Usare `last_name` per il cognome quando separato
    - Usare `full_name` per nome e cognome insieme
    - Evitare variazioni come `name`, `surname`, `given_name`
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bxPv9K
 =======
 <<<<<<< HEAD
@@ -356,28 +398,37 @@ TextInput::make('full_name')   // ✅ Chiaro: nome completo (nome + cognome)
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Yhade7
+=======
+>>>>>>> 804451c (Lint)
 
 2. **Scelta del Tipo di Campo**:
    - Campi separati (`first_name`/`last_name`): quando serve manipolare nome e cognome separatamente
    - Campo unico (`full_name`): quando il nome completo è sufficiente e non serve separarlo
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_bxPv9K
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 2. **Scelta del Tipo di Campo**:
    - Campi separati (`first_name`/`last_name`): quando serve manipolare nome e cognome separatamente
    - Campo unico (`full_name`): quando il nome completo è sufficiente e non serve separarlo
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Yhade7
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 3. **Validazione**:
    - Implementare regole specifiche per ogni tipo di campo
    - Considerare le regole di formattazione per paese
    - Adattare le validazioni al contesto d'uso
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bxPv9K
 =======
 <<<<<<< HEAD
@@ -391,28 +442,37 @@ TextInput::make('full_name')   // ✅ Chiaro: nome completo (nome + cognome)
 ### Campi Separati
 =======
 >>>>>>> .merge_file_Yhade7
+=======
+>>>>>>> 804451c (Lint)
 
 ## Esempi di Implementazione
 
 ### Campi Separati
 ```php
+<<<<<<< HEAD
 <<<<<<< .merge_file_bxPv9K
 <<<<<<< HEAD
 =======
 =======
+>>>>>>> 804451c (Lint)
+=======
 ## Esempi di Implementazione
 ### Campi Separati
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Yhade7
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 TextInput::make('first_name')
     ->label('Nome')
     ->required()
     ->maxLength(255)
     ->rules(['alpha', 'min:2'])
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bxPv9K
 =======
 <<<<<<< HEAD
@@ -429,6 +489,8 @@ TextInput::make('full_name')
 ## Note Importanti
 =======
 >>>>>>> .merge_file_Yhade7
+=======
+>>>>>>> 804451c (Lint)
 
 TextInput::make('last_name')
     ->label('Cognome')
@@ -448,11 +510,15 @@ TextInput::make('full_name')
 
 ## Note Importanti
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_bxPv9K
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 TextInput::make('last_name')
     ->label('Cognome')
 ### Campo Unico
@@ -461,16 +527,20 @@ TextInput::make('full_name')
     ->rules(['string', 'min:5'])
 ## Note Importanti
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Yhade7
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 1. Questa convenzione è obbligatoria per tutto il progetto
 2. Applicare a tutti i moduli e componenti
 3. Mantenere coerenza in database, API e UI
 4. Considerare le implicazioni per l'internazionalizzazione
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_bxPv9K
 =======
@@ -486,6 +556,8 @@ TextInput::make('full_name')
 * [convenzioni-naming-campi.md](../../../../project_docs/convenzioni-naming-campi.md)
 =======
 >>>>>>> .merge_file_Yhade7
+=======
+>>>>>>> 804451c (Lint)
 
 ## Collegamenti Correlati
 
@@ -497,11 +569,15 @@ TextInput::make('full_name')
 - [Documentazione Filament Forms](https://filamentphp.com/project_docs/3.x/forms/fields/text-input)
 - [Best Practices Database](../../../../docs/project/database/best-practices.md)
 - [Convenzioni API](../../../../docs/project/api/convenzioni.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_bxPv9K
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ## Collegamenti Correlati
 - [Documentazione Filament Forms](https://filamentphp.com/project_docs/3.x/forms/fields/text-input)
 - [Best Practices Database](../../../project_docs/database/best-practices.md)
@@ -528,9 +604,12 @@ TextInput::make('full_name')
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Yhade7
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

@@ -292,6 +292,7 @@ class ExampleComponent extends Component
 ## 🔗 Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_KMqVnO
 =======
 <<<<<<< HEAD
@@ -305,25 +306,34 @@ class ExampleComponent extends Component
 - [Template Modulo](../../../docs/templates/module-template.md)
 =======
 >>>>>>> .merge_file_7ysxSq
+=======
+>>>>>>> 804451c (Lint)
 - [Documentazione Core](../../../../docs/core/)
 - [Best Practices Filament](../../../../docs/core/filament-best-practices.md)
 - [Convenzioni Sistema](../../../../docs/core/conventions.md)
 - [Template Modulo](../../../../docs/templates/module-template.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_KMqVnO
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 - [Documentazione Core](../../../docs/core/)
 - [Best Practices Filament](../../../docs/core/filament-best-practices.md)
 - [Convenzioni Sistema](../../../docs/core/conventions.md)
 - [Template Modulo](../../../docs/templates/module-template.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_7ysxSq
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ---

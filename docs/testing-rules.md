@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_gzertp
 =======
 <<<<<<< HEAD
@@ -111,6 +112,8 @@ Ogni modulo e tema deve documentare:
 I file di documentazione vanno nelle cartelle `docs/` dentro ogni modulo/tema.
 =======
 >>>>>>> .merge_file_M4hXzK
+=======
+>>>>>>> 804451c (Lint)
 ---
 module: theme
 topic: testing-rules
@@ -118,11 +121,15 @@ canonical: ../../../Themes/docs/shared-components/testing-rules-Modules.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/testing-rules-Modules.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_gzertp
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 # Testing Rules Summary
 
 ## Regole Fondamentali dei Test
@@ -227,9 +234,12 @@ Ogni modulo e tema deve documentare:
 
 I file di documentazione vanno nelle cartelle `docs/` dentro ogni modulo/tema.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_M4hXzK
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

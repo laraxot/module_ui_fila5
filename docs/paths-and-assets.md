@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VE5saP
 # AVVISO IMPORTANTE ([DATE])
 =======
@@ -6,10 +7,13 @@
 # AVVISO IMPORTANTE (2025-05-13)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 # AVVISO IMPORTANTE ([DATE])
 =======
 # AVVISO IMPORTANTE (2025-05-13)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 # AVVISO IMPORTANTE (2025-05-13)
@@ -17,6 +21,8 @@
 # AVVISO IMPORTANTE ([DATE])
 >>>>>>> .merge_file_a09box
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 > **ATTENZIONE:** Tutti i componenti UI condivisi (come `logo.blade.php`) devono essere SEMPRE posizionati in `Modules/UI/resources/views/components/ui/` e MAI in `resources/views/components/`. Qualsiasi violazione di questa regola causa errori di rendering, override errati, problemi di modularità e manutenzione.
 >
@@ -27,6 +33,7 @@
 > **Soluzione:** Seguire SEMPRE la regola documentata qui sotto e aggiornata anche in README.md e nella root docs/links.md.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VE5saP
 =======
 <<<<<<< HEAD
@@ -40,17 +47,24 @@
 - [Architettura Modulare](/laravel/Modules/UI/docs/architecture.md)
 =======
 >>>>>>> .merge_file_a09box
+=======
+>>>>>>> 804451c (Lint)
 # Gestione dei Percorsi e degli Asset 
 
 ## Collegamenti correlati
 - [README modulo UI](/laravel/modules/ui/docs/readme.md)
 - [Architettura Modulare](/laravel/modules/ui/docs/architecture.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_VE5saP
 <<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 # Gestione dei Percorsi e degli Asset
 ## Collegamenti correlati
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
@@ -92,11 +106,14 @@
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_a09box
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
 
@@ -105,11 +122,14 @@
 ### Struttura delle Directory
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 In <nome progetto>, è fondamentale rispettare la struttura corretta delle directory per gli asset pubblici:
 
 ```
 [project-root]/
 =======
+=======
+>>>>>>> 804451c (Lint)
 , è fondamentale rispettare la struttura corretta delle directory per gli asset pubblici:
 
 ```
@@ -118,12 +138,15 @@ In <nome progetto>, è fondamentale rispettare la struttura corretta delle direc
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /var/www/html/Quaeris/
 <<<<<<< .merge_file_VE5saP
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 [project-root]/
 [project-root]/
 =======
@@ -165,11 +188,14 @@ In <nome progetto>, è fondamentale rispettare la struttura corretta delle direc
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_a09box
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ├── laravel/                 # Applicazione Laravel (codice sorgente)
 │   ├── Modules/             # Moduli dell'applicazione
@@ -189,6 +215,7 @@ In <nome progetto>, è fondamentale rispettare la struttura corretta delle direc
 | Tipo di Asset | ✅ Percorso Corretto | ❌ Percorso Errato |
 |---------------|---------------------|-------------------|
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VE5saP
 =======
 <<<<<<< HEAD
@@ -202,16 +229,23 @@ In <nome progetto>, è fondamentale rispettare la struttura corretta delle direc
 | SVG | `[project-root]/public_html/images/` | `[project-root]/laravel/public/images/` |
 =======
 >>>>>>> .merge_file_a09box
+=======
+>>>>>>> 804451c (Lint)
 | Immagini | `/var/www/html/Quaeris/public_html/images/` | `/var/www/html/Quaeris/laravel/public/images/` |
 | CSS | `/var/www/html/Quaeris/public_html/css/` | `/var/www/html/Quaeris/laravel/public/css/` |
 | JavaScript | `/var/www/html/Quaeris/public_html/js/` | `/var/www/html/Quaeris/laravel/public/js/` |
 | SVG | `/var/www/html/Quaeris/public_html/images/` | `/var/www/html/Quaeris/laravel/public/images/` |
+<<<<<<< HEAD
 <<<<<<< .merge_file_VE5saP
 <<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 =======
@@ -261,11 +295,14 @@ In <nome progetto>, è fondamentale rispettare la struttura corretta delle direc
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_a09box
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ## Utilizzo degli Asset nei Componenti Blade
@@ -284,7 +321,10 @@ Per garantire una buona esperienza utente, implementare sempre un fallback per l
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VE5saP
+=======
+>>>>>>> 804451c (Lint)
 <img 
 =======
 <<<<<<< HEAD
@@ -293,12 +333,15 @@ Per garantire una buona esperienza utente, implementare sempre un fallback per l
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <img 
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 <img
 =======
 <<<<<<< HEAD
@@ -317,6 +360,7 @@ Per garantire una buona esperienza utente, implementare sempre un fallback per l
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -325,6 +369,8 @@ Per garantire una buona esperienza utente, implementare sempre un fallback per l
 =======
 <img 
 >>>>>>> .merge_file_a09box
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     src="{{ asset('images/avatars/default-' . $avatarNumber . '.svg') }}"
     alt="{{ $user->name ?? 'User' }}"
@@ -340,6 +386,7 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VE5saP
 /var/www/html/Quaeris/laravel/Themes/One/resources/views/components/ui/
 =======
@@ -350,6 +397,11 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+/var/www/html/Quaeris/laravel/Themes/One/resources/views/components/ui/
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 [project-root]/laravel/Themes/One/resources/views/components/ui/
 [project-root]/laravel/Themes/One/resources/views/components/ui/
 =======
@@ -391,6 +443,7 @@ Themes/One/resources/views/components/ui/
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -399,6 +452,8 @@ Themes/One/resources/views/components/ui/
 =======
 /var/www/html/Quaeris/laravel/Themes/One/resources/views/components/ui/
 >>>>>>> .merge_file_a09box
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```
 
@@ -408,6 +463,7 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VE5saP
 /var/www/html/Quaeris/public_html/images/
 =======
@@ -418,6 +474,11 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+/var/www/html/Quaeris/public_html/images/
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 [project-root]/public_html/images/
 [project-root]/public_html/images/
 =======
@@ -459,6 +520,7 @@ public_html/images/
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -467,6 +529,8 @@ public_html/images/
 =======
 /var/www/html/Quaeris/public_html/images/
 >>>>>>> .merge_file_a09box
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```
 
@@ -478,6 +542,7 @@ Il componente avatar è implementato in:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VE5saP
 /var/www/html/Quaeris/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 =======
@@ -488,6 +553,11 @@ Il componente avatar è implementato in:
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+/var/www/html/Quaeris/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 [project-root]/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 [project-root]/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 =======
@@ -529,6 +599,7 @@ Themes/One/resources/views/components/ui/avatar.blade.php
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -537,6 +608,8 @@ Themes/One/resources/views/components/ui/avatar.blade.php
 =======
 /var/www/html/Quaeris/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 >>>>>>> .merge_file_a09box
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```
 
@@ -544,6 +617,7 @@ E utilizza gli avatar SVG dalla directory pubblica:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VE5saP
 /var/www/html/Quaeris/public_html/images/avatars/
 =======
@@ -554,6 +628,11 @@ E utilizza gli avatar SVG dalla directory pubblica:
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+/var/www/html/Quaeris/public_html/images/avatars/
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 [project-root]/public_html/images/avatars/
 [project-root]/public_html/images/avatars/
 =======
@@ -595,6 +674,7 @@ public_html/images/avatars/
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -603,6 +683,8 @@ public_html/images/avatars/
 =======
 /var/www/html/Quaeris/public_html/images/avatars/
 >>>>>>> .merge_file_a09box
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```
 
@@ -612,6 +694,7 @@ Il componente icon è implementato in:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VE5saP
 /var/www/html/Quaeris/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 =======
@@ -622,6 +705,11 @@ Il componente icon è implementato in:
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+/var/www/html/Quaeris/laravel/Themes/One/resources/views/components/ui/icon.blade.php
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 [project-root]/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 [project-root]/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 =======
@@ -663,6 +751,7 @@ Themes/One/resources/views/components/ui/icon.blade.php
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -671,6 +760,8 @@ Themes/One/resources/views/components/ui/icon.blade.php
 =======
 /var/www/html/Quaeris/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 >>>>>>> .merge_file_a09box
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```
 
@@ -681,7 +772,10 @@ E include le definizioni SVG direttamente nel componente.
 > **IMPORTANTE:** Tutti i componenti Blade UI condivisi (es. logo, button, badge, ecc.) devono essere posizionati esclusivamente in:
 >
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VE5saP
+=======
+>>>>>>> 804451c (Lint)
 > `/var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/`
 =======
 <<<<<<< HEAD
@@ -690,12 +784,15 @@ E include le definizioni SVG direttamente nel componente.
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 > `/var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/`
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 > `Modules/UI/resources/views/components/ui/`
 <<<<<<< HEAD
 > `Modules/UI/resources/views/components/ui/`
@@ -718,6 +815,7 @@ E include le definizioni SVG direttamente nel componente.
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -726,6 +824,8 @@ E include le definizioni SVG direttamente nel componente.
 =======
 > `/var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/`
 >>>>>>> .merge_file_a09box
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 >
 > **MAI** in `resources/views/components/ui/` della root Laravel.
@@ -754,6 +854,7 @@ E include le definizioni SVG direttamente nel componente.
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -766,16 +867,25 @@ E include le definizioni SVG direttamente nel componente.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 /var/www/html/ptvx/laravel/resources/views/components/ui/logo.blade.php
 ```
 **✅ Corretto:**
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 Modules/UI/resources/views/components/ui/logo.blade.php
 =======
 /var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/logo.blade.php
 <<<<<<< .merge_file_VE5saP
+=======
+/var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/logo.blade.php
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -786,11 +896,14 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -813,11 +926,14 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_a09box
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```
 
@@ -833,6 +949,7 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 ## Errori Comuni
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VE5saP
 =======
 <<<<<<< HEAD
@@ -847,16 +964,23 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 
 =======
 >>>>>>> .merge_file_a09box
+=======
+>>>>>>> 804451c (Lint)
 1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/Quaeris/laravel/public/` invece di `/var/www/html/Quaeris/public_html/`
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile
 4. **Inconsistenza nei nomi dei file**: Utilizzare convenzioni di naming diverse per file simili
+<<<<<<< HEAD
 <<<<<<< .merge_file_VE5saP
 <<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/saluteora/laravel/public/` invece di `/var/www/html/saluteora/public_html/`
@@ -1154,9 +1278,12 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_a09box
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

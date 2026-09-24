@@ -14,7 +14,10 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 
 <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-1 p-1">
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SEA8j8
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 =======
@@ -28,6 +31,7 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -38,11 +42,19 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_j3kMXb
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
     <x-filament::icon-button 
         icon="heroicon-m-plus" 
         wire:click="prova({{ $record->id }})" 
         label="Test Azione" 
+<<<<<<< HEAD
 <<<<<<< .merge_file_SEA8j8
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -54,6 +66,7 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -63,6 +76,9 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_j3kMXb
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
     <x-filament::icon-button
         icon="heroicon-m-plus"
         wire:click="prova({{ $record->id }})"
@@ -71,10 +87,13 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -88,9 +107,12 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     />
 </div>
@@ -151,7 +173,10 @@ public function prova($recordId): void
 ### Nel Template
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SEA8j8
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 =======
@@ -165,6 +190,7 @@ public function prova($recordId): void
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -175,11 +201,19 @@ public function prova($recordId): void
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_j3kMXb
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 <x-filament::icon-button 
     icon="heroicon-m-plus" 
     wire:click="prova({{ $record->id }})" 
     label="Test Azione" 
+<<<<<<< HEAD
 <<<<<<< .merge_file_SEA8j8
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -191,6 +225,7 @@ public function prova($recordId): void
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -200,6 +235,9 @@ public function prova($recordId): void
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_j3kMXb
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 <x-filament::icon-button
     icon="heroicon-m-plus"
     wire:click="prova({{ $record->id }})"
@@ -208,10 +246,13 @@ public function prova($recordId): void
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -225,9 +266,12 @@ public function prova($recordId): void
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 />
 ```
@@ -264,6 +308,7 @@ public function transitionState($recordId, $stateClass): void
     $record = $this->modelClass::find($recordId);
     $record->state->transitionTo($stateClass);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SEA8j8
 
 =======
@@ -274,6 +319,11 @@ public function transitionState($recordId, $stateClass): void
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
     
@@ -300,6 +350,7 @@ public function transitionState($recordId, $stateClass): void
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -307,6 +358,8 @@ public function transitionState($recordId, $stateClass): void
 =======
 
 >>>>>>> .merge_file_j3kMXb
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     \Filament\Notifications\Notification::make()
         ->title('Transizione Completata')
@@ -318,7 +371,10 @@ public function transitionState($recordId, $stateClass): void
 ### 2. Aggiungere il pulsante nel template
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SEA8j8
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 =======
@@ -332,6 +388,7 @@ public function transitionState($recordId, $stateClass): void
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -342,11 +399,19 @@ public function transitionState($recordId, $stateClass): void
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_j3kMXb
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 <x-filament::icon-button 
     icon="heroicon-o-arrow-right" 
     wire:click="transitionState({{ $record->id }}, '{{ $stateClass }}')" 
     label="Cambia Stato" 
+<<<<<<< HEAD
 <<<<<<< .merge_file_SEA8j8
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -358,6 +423,7 @@ public function transitionState($recordId, $stateClass): void
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -367,6 +433,9 @@ public function transitionState($recordId, $stateClass): void
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_j3kMXb
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 <x-filament::icon-button
     icon="heroicon-o-arrow-right"
     wire:click="transitionState({{ $record->id }}, '{{ $stateClass }}')"
@@ -375,10 +444,13 @@ public function transitionState($recordId, $stateClass): void
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -392,9 +464,12 @@ public function transitionState($recordId, $stateClass): void
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 />
 ```
@@ -410,6 +485,7 @@ La soluzione semplice è la migliore perché:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SEA8j8
 
 =======
@@ -419,6 +495,10 @@ La soluzione semplice è la migliore perché:
 
 =======
 >>>>>>> laraxot/dev
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 **Last Updated**: June 2025
 **Version**: 2.3
 <<<<<<< HEAD
@@ -440,6 +520,7 @@ La soluzione semplice è la migliore perché:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -452,6 +533,9 @@ La soluzione semplice è la migliore perché:
 =======
 
 >>>>>>> .merge_file_j3kMXb
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 **Compatibility**: Filament 3.x, Laravel 10.x
 # IconStateSplitColumn Actions Implementation - Soluzione Semplice
 
@@ -596,20 +680,27 @@ La soluzione semplice è la migliore perché:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
+<<<<<<< HEAD
 <<<<<<< .merge_file_SEA8j8
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 **Last Updated**: June 2025
 **Version**: 2.3
 **Compatibility**: Filament 3.x, Laravel 10.x
@@ -631,9 +722,12 @@ La soluzione semplice è la migliore perché:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_j3kMXb
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

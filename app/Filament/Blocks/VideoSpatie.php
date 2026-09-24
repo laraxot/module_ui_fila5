@@ -23,6 +23,7 @@ final class VideoSpatie
             ->schema([
                 Hidden::make('img_uuid')
                     ->default(Str::uuid()->toString(...))
+<<<<<<< HEAD
 <<<<<<< .merge_file_ug2JQa
 <<<<<<< HEAD
                     ->formatStateUsing(fn ($state) => $state ?? Str::uuid()->toString())
@@ -35,11 +36,17 @@ final class VideoSpatie
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_1oo0iq
+=======
+<<<<<<< HEAD
+                    ->formatStateUsing(fn ($state) => $state ?? Str::uuid()->toString())
+=======
+>>>>>>> 804451c (Lint)
                     ->formatStateUsing(static function (mixed $state): string {
                         $value = $state ?? Str::uuid()->toString();
 
                         return \is_string($value) ? $value : Str::uuid()->toString();
                     })
+<<<<<<< HEAD
 <<<<<<< .merge_file_ug2JQa
 <<<<<<< HEAD
 =======
@@ -48,6 +55,9 @@ final class VideoSpatie
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_1oo0iq
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
                     ->live(),
                 // ->required(),
 
@@ -56,6 +66,7 @@ final class VideoSpatie
                     ->hiddenLabel()
                     // ->imagePreviewHeight('250')
                     // ->panelLayout('integrated')
+<<<<<<< HEAD
 <<<<<<< .merge_file_ug2JQa
 <<<<<<< HEAD
                     ->imageResizeMode('cover')
@@ -63,16 +74,21 @@ final class VideoSpatie
 <<<<<<< HEAD
                     ->automaticallyResizeImagesMode('cover')
 =======
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
                     ->imageResizeMode('cover')
 =======
                     ->automaticallyResizeImagesMode('cover')
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
                     ->automaticallyResizeImagesMode('cover')
 >>>>>>> .merge_file_1oo0iq
+=======
+>>>>>>> 804451c (Lint)
                     ->panelAspectRatio('2:1')
                     ->maxSize(502400)
                     ->disk('local')
@@ -81,6 +97,7 @@ final class VideoSpatie
                     ->previewable()
                     ->downloadable()
                     // ->rules(Rule::dimensions()->maxWidth(600)->maxHeight(800))
+<<<<<<< HEAD
 <<<<<<< .merge_file_ug2JQa
 <<<<<<< HEAD
                     ->collection(fn (Get $get) => $get('img_uuid'))
@@ -90,6 +107,8 @@ final class VideoSpatie
                     ->collection(static fn (Get $get) => $get('img_uuid'))
                     ->afterStateUpdated(static function (
 =======
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
                     ->collection(fn (Get $get) => $get('img_uuid'))
                     ->afterStateUpdated(function (
@@ -97,12 +116,15 @@ final class VideoSpatie
                     ->collection(static fn (Get $get) => $get('img_uuid'))
                     ->afterStateUpdated(static function (
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
                     ->collection(static fn (Get $get) => $get('img_uuid'))
                     ->afterStateUpdated(static function (
 >>>>>>> .merge_file_1oo0iq
+=======
+>>>>>>> 804451c (Lint)
                         HasForms $_livewire,
                         SpatieMediaLibraryFileUpload $_component,
                         TemporaryUploadedFile $state,
@@ -112,6 +134,7 @@ final class VideoSpatie
                         // Call to an undefined method Filament\Forms\Contracts\HasForms::validateOnly().
                         // $livewire->validateOnly($component->getStatePath());
                         Assert::string(
+<<<<<<< HEAD
 <<<<<<< .merge_file_ug2JQa
 <<<<<<< HEAD
 =======
@@ -119,11 +142,15 @@ final class VideoSpatie
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
                             $collection_name = $get('img_uuid'),
                             '['.__LINE__.']['.class_basename(self::class).']',
                         );
                         $record->addMedia($state)->withResponsiveImages()->toMediaCollection($collection_name);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
@@ -137,11 +164,17 @@ final class VideoSpatie
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
+>>>>>>> 804451c (Lint)
+=======
                             $collectionName = $get('img_uuid'),
                             '['.__LINE__.']['.class_basename(self::class).']',
                         );
                         $record->addMedia($state)->withResponsiveImages()->toMediaCollection($collectionName);
+<<<<<<< HEAD
 >>>>>>> .merge_file_1oo0iq
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
                     }),
                 /*
                  * Select::make('ratio')
@@ -162,6 +195,7 @@ final class VideoSpatie
             ->columns('form' === $context ? 2 : 1);
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->columns($context === 'form' ? 2 : 1);
 =======
 <<<<<<< HEAD
@@ -170,6 +204,9 @@ final class VideoSpatie
             ->columns($context === 'form' ? 2 : 1);
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+            ->columns($context === 'form' ? 2 : 1);
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     }
 

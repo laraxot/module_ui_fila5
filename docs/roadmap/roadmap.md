@@ -3,6 +3,7 @@ module: theme
 topic: roadmap
 canonical: ../../../../Themes/docs/shared-components/q4-roadmap.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_gpDCOf
 =======
 <<<<<<< HEAD
@@ -12,6 +13,9 @@ canonical: ../../../../Themes/docs/shared-components/q4-roadmap.md
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_C9Jk4x
+=======
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./00-index-1.md"
   - "./00-index.md"
@@ -21,6 +25,7 @@ related:
   - "./02-goals.md"
   - "./02-next.md"
   - "./03-later.md"
+<<<<<<< HEAD
 <<<<<<< .merge_file_gpDCOf
 <<<<<<< HEAD
 =======
@@ -31,6 +36,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_C9Jk4x
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/q4-roadmap.md
