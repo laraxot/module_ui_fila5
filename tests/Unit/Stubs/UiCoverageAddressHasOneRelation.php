@@ -25,7 +25,9 @@ final class UiCoverageAddressHasOneRelation extends HasOne
         parent::__construct(UiCoverageAddressChildRecord::query(), $parent, 'id', 'id');
     }
 
-    /** @param array<int, string> $columns */
+    /**
+     * @param  array<int, string>|string  $columns
+     */
     public function first($columns = ['*']): ?Model
     {
         $parent = $this->getParent();
