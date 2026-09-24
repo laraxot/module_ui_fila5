@@ -18,13 +18,8 @@ final class SpatieDocumentUpload
     /**
      * Configurazione base per upload documenti con collection specifica.
      *
-<<<<<<< HEAD
      * @param  string  $name  Nome del campo
      * @param  string  $collection  Nome della media collection
-=======
-     * @param string $name       Nome del campo
-     * @param string $collection Nome della media collection
->>>>>>> laraxot/dev
      */
     public static function make(string $name, string $collection): SpatieMediaLibraryFileUpload
     {
@@ -90,11 +85,7 @@ final class SpatieDocumentUpload
     {
         return self::make('certifications', 'certificazioni_professionali')
             ->multiple()
-<<<<<<< HEAD
             ->reorderable()
-=======
-            ->enableReordering()
->>>>>>> laraxot/dev
             ->maxFiles(10) // Max 10 certificazioni per dottore
             ->acceptedFileTypes(['application/pdf'])
             ->maxSize(10240); // 10MB per certificazioni multiple
@@ -103,17 +94,10 @@ final class SpatieDocumentUpload
     /**
      * Upload documento generico con collection personalizzata.
      *
-<<<<<<< HEAD
      * @param  string  $name  Nome del campo
      * @param  string  $collection  Nome della collection
      * @param  array<string>  $mimeTypes  Tipi MIME accettati
      * @param  int  $maxSize  Dimensione massima in KB
-=======
-     * @param string        $name       Nome del campo
-     * @param string        $collection Nome della collection
-     * @param array<string> $mimeTypes  Tipi MIME accettati
-     * @param int           $maxSize    Dimensione massima in KB
->>>>>>> laraxot/dev
      */
     public static function custom(
         string $name,

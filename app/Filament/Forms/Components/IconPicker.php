@@ -6,22 +6,15 @@ namespace Modules\UI\Filament\Forms\Components;
 
 use Filament\Actions\Action;
 use Filament\Forms\Components\Select;
-use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Components\Utilities\Set;
 use Illuminate\Support\Arr;
 use Modules\UI\Actions\Icon\GetAllIconsAction;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
-<<<<<<< HEAD
 use Modules\Xot\Filament\Forms\Components\XotBaseTextInput;
 use Webmozart\Assert\Assert;
 
 class IconPicker extends XotBaseTextInput
-=======
-use Webmozart\Assert\Assert;
-
-class IconPicker extends TextInput
->>>>>>> laraxot/dev
 {
     protected function setUp(): void
     {
@@ -60,20 +53,12 @@ class IconPicker extends TextInput
                             );
                             /** @var array<int|string, mixed> $optsRaw */
                             $optsValues = array_map(
-<<<<<<< HEAD
                                 SafeStringCastAction::cast(...),
-=======
-                                static fn ($v) => SafeStringCastAction::cast($v),
->>>>>>> laraxot/dev
                                 array_values($optsRaw),
                             );
                             /** @var array<int|string> $optsKeys */
                             $optsKeys = array_map(
-<<<<<<< HEAD
                                 static fn (int|string $k): string => SafeStringCastAction::cast($k),
-=======
-                                static fn ($k) => SafeStringCastAction::cast($k),
->>>>>>> laraxot/dev
                                 array_keys($optsRaw),
                             );
                             $optsCombined = array_combine($optsKeys, $optsValues);

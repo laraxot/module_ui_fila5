@@ -12,11 +12,7 @@ use Modules\Xot\Filament\Blocks\XotBaseBlock;
 final class Contact extends XotBaseBlock
 {
     /**
-<<<<<<< HEAD
      * @return array<int, Component>
-=======
-     * @return array<int, \Filament\Schemas\Components\Component>
->>>>>>> laraxot/dev
      */
     public static function getFormSchema(): array
     {

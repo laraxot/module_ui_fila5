@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Feature;
 
-<<<<<<< HEAD
 use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\SelectColumn;
@@ -46,13 +45,6 @@ function groupColumnViewTableBag(): array
     ];
 }
 
-=======
-use Filament\Tables\Columns\TextColumn;
-use Illuminate\View\ComponentAttributeBag;
-use Modules\UI\Filament\Tables\Columns\GroupColumn;
-use PHPUnit\Framework\Assert;
-
->>>>>>> laraxot/dev
 // Test GroupColumn class
 describe('GroupColumn class', function (): void {
     it('can be instantiated with make()', function (): void {
@@ -196,16 +188,10 @@ describe('GroupColumn view rendering', function (): void {
         $html = view('ui::filament.tables.columns.group', [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
-<<<<<<< HEAD
             'attributes' => new ComponentAttributeBag,
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
             ...groupColumnViewTableBag(),
-=======
-            'attributes' => new ComponentAttributeBag(),
-            'getExtraAttributes' => fn () => [],
-            'isInline' => fn () => false,
->>>>>>> laraxot/dev
         ])->render();
 
         Assert::assertStringContainsString((string) 'Mario Rossi', (string) $html);
@@ -235,16 +221,10 @@ describe('GroupColumn view rendering', function (): void {
         $html = view('ui::filament.tables.columns.group', [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
-<<<<<<< HEAD
             'attributes' => new ComponentAttributeBag,
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
             ...groupColumnViewTableBag(),
-=======
-            'attributes' => new ComponentAttributeBag(),
-            'getExtraAttributes' => fn () => [],
-            'isInline' => fn () => false,
->>>>>>> laraxot/dev
         ])->render();
 
         Assert::assertStringContainsString((string) '12345', (string) $html);
@@ -263,11 +243,7 @@ describe('GroupColumn view rendering', function (): void {
 
         // The view logic: skip if empty($value) && $value !== 0 && $value !== '0'
         $shouldSkip = static function (mixed $value): bool {
-<<<<<<< HEAD
             return empty($value) && $value !== 0 && $value !== '0';
-=======
-            return empty($value) && 0 !== $value && '0' !== $value;
->>>>>>> laraxot/dev
         };
 
         Assert::assertTrue($shouldSkip($record->empty_field));

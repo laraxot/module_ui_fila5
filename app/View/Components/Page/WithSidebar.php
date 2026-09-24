@@ -15,12 +15,7 @@ final class WithSidebar extends Component
      */
     public function __construct(
         public string $tpl = '',
-<<<<<<< HEAD
     ) {}
-=======
-    ) {
-    }
->>>>>>> laraxot/dev
 
     public function render(): Renderable
     {
@@ -29,14 +24,8 @@ final class WithSidebar extends Component
          */
         $view = app(GetViewAction::class)->execute($this->tpl);
 
-<<<<<<< HEAD
         $viewParams = [];
 
         return view($view, $viewParams);
-=======
-        $view_params = [];
-
-        return view($view, $view_params);
->>>>>>> laraxot/dev
     }
 }

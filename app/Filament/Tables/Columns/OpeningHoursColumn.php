@@ -6,16 +6,10 @@ namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Tables\Columns\TextColumn;
 use Modules\UI\Actions\Datetime\GetDaysMappingAction;
-<<<<<<< HEAD
 use Modules\UI\Filament\Forms\Components\OpeningHoursField;
 
 /**
  * Controparte in lista di {@see OpeningHoursField}.
-=======
-
-/**
- * Controparte in lista di {@see \Modules\UI\Filament\Forms\Components\OpeningHoursField}.
->>>>>>> laraxot/dev
  *
  * Stesso fatto di dominio (orari settimanali per fascia mattina/pomeriggio), due
  * superfici diverse per forma: il form edita ogni giorno con `TimePicker` dedicati
@@ -62,37 +56,16 @@ class OpeningHoursColumn extends TextColumn
             $slots = is_array($day) ? self::formatSlots($day) : [];
 
             $abbrev = mb_substr($dayLabel, 0, 3);
-<<<<<<< HEAD
             $parts[] = $slots === []
-=======
-<<<<<<< HEAD
-            $parts[] = $slots === []
-=======
-            $parts[] = [] === $slots
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
                 ? "{$abbrev} chiuso"
                 : $abbrev.' '.implode(', ', $slots);
         }
 
-<<<<<<< HEAD
         return $parts === [] ? '—' : implode(' · ', $parts);
     }
 
     /**
      * @param  array<array-key, mixed>  $day
-=======
-<<<<<<< HEAD
-        return $parts === [] ? '—' : implode(' · ', $parts);
-=======
-        return [] === $parts ? '—' : implode(' · ', $parts);
->>>>>>> laraxot/dev
-    }
-
-    /**
-     * @param array<array-key, mixed> $day
-     *
->>>>>>> laraxot/dev
      * @return list<string>
      */
     private static function formatSlots(array $day): array
@@ -101,11 +74,7 @@ class OpeningHoursColumn extends TextColumn
         foreach (['morning', 'afternoon'] as $period) {
             $from = $day["{$period}_from"] ?? null;
             $until = $day["{$period}_to"] ?? null;
-<<<<<<< HEAD
             if (is_string($from) && is_string($until) && $from !== '' && $until !== '') {
-=======
-            if (is_string($from) && is_string($until) && '' !== $from && '' !== $until) {
->>>>>>> laraxot/dev
                 $slots[] = "{$from}-{$until}";
             }
         }

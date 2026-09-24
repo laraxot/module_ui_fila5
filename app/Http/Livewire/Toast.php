@@ -14,21 +14,11 @@ final class Toast extends Component
 {
     public function render(): View
     {
-<<<<<<< HEAD
         $view = 'ui::livewire.toast';
         $viewParams = [
             'view' => $view,
         ];
 
         return view($view, $viewParams);
-=======
-        /** @phpstan-var view-string */
-        $view = 'ui::livewire.toast';
-        $view_params = [
-            'view' => $view,
-        ];
-
-        return view($view, $view_params);
->>>>>>> laraxot/dev
     }
 }

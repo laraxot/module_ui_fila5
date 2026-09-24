@@ -22,11 +22,7 @@ final class ImagesGallery
                             // ->image()
                             // ->maxSize(5000)
                             ->multiple()
-<<<<<<< HEAD
                             ->reorderable()
-=======
-                            ->enableReordering()
->>>>>>> laraxot/dev
                             ->openable()
                             ->downloadable()
                             ->columnSpanFull()
@@ -50,11 +46,7 @@ final class ImagesGallery
                 //         // ->image()
                 //         // ->maxSize(5000)
                 //     ->multiple()
-<<<<<<< HEAD
                 //     ->reorderable()
-=======
-                //     ->enableReordering()
->>>>>>> laraxot/dev
                 //     ->openable()
                 //     ->downloadable()
                 //     ->columnSpanFull()
@@ -72,11 +64,7 @@ final class ImagesGallery
                 // TextInput::make('caption')
                 //     ->columnSpanFull(),
             ])
-<<<<<<< HEAD
             ->columns($context === 'form' ? 2 : 1);
-=======
-            ->columns('form' === $context ? 2 : 1);
->>>>>>> laraxot/dev
     }
 
     /**

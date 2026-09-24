@@ -33,26 +33,15 @@ beforeEach(function (): void {
 
 describe('Component Model', function (): void {
     test('can be instantiated', function (): void {
-<<<<<<< HEAD
         /** @phpstan-ignore-next-line class.notFound (Component model absent from artifact set) */
         $component = new Component;
         /* @phpstan-ignore-next-line class.notFound (Component model absent from artifact set) */
-=======
-        /** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
-        $component = new Component();
-        /* @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
->>>>>>> laraxot/dev
         Assert::assertInstanceOf(Component::class, $component);
     });
 
     test('has fillable attributes', function (): void {
-<<<<<<< HEAD
         /** @phpstan-ignore-next-line class.notFound (Component model absent from artifact set) */
         $component = new Component;
-=======
-        /** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
-        $component = new Component();
->>>>>>> laraxot/dev
         $expected = [
             'name', 'theme_id', 'is_active', 'version', 'dependencies',
             'template', 'is_cacheable', 'cache_ttl', 'validation_rules',
@@ -62,17 +51,12 @@ describe('Component Model', function (): void {
         ];
 
         foreach ($expected as $field) {
-<<<<<<< HEAD
             /* @phpstan-ignore-next-line class.notFound, argument.type (Component model absent from artifact set) */
-=======
-            /* @phpstan-ignore-next-line -- Component model is optional */
->>>>>>> laraxot/dev
             Assert::assertTrue(in_array($field, $component->getFillable()));
         }
     });
 
     test('has casts defined', function (): void {
-<<<<<<< HEAD
         /** @phpstan-ignore-next-line class.notFound (Component model absent from artifact set) */
         $component = new Component;
         /** @phpstan-ignore-next-line class.notFound (Component model absent from artifact set) */
@@ -86,70 +70,30 @@ describe('Component Model', function (): void {
         Assert::assertSame('array', $casts['responsive_breakpoints']);
         Assert::assertSame('boolean', $casts['supports_lazy_loading']);
         Assert::assertSame('integer', $casts['lazy_loading_threshold']);
-=======
-        /** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
-        $component = new Component();
-        $casts = $component->getCasts(); // @phpstan-ignore-line
-        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
-        Assert::assertSame('boolean', $casts['is_active']);
-        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
-        Assert::assertSame('boolean', $casts['is_cacheable']);
-        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
-        Assert::assertSame('array', $casts['dependencies']);
-        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
-        Assert::assertSame('array', $casts['validation_rules']);
-        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
-        Assert::assertSame('array', $casts['data_schema']);
-        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
-        Assert::assertSame('array', $casts['responsive_breakpoints']);
-        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
-        Assert::assertSame('boolean', $casts['supports_lazy_loading']);
-        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
-        Assert::assertSame('integer', $casts['lazy_loading_threshold']);
-        /* @phpstan-ignore-next-line -- $casts is mixed from ignored call */
->>>>>>> laraxot/dev
         Assert::assertSame('integer', $casts['cache_duration']);
     });
 
     test('has theme relationship', function (): void {
-<<<<<<< HEAD
         /** @phpstan-ignore-next-line class.notFound (Component model absent from artifact set) */
-=======
-        /** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
->>>>>>> laraxot/dev
         $reflection = new \ReflectionClass(Component::class);
         Assert::assertTrue($reflection->hasMethod('theme'));
     });
 
     test('has correct table name', function (): void {
-<<<<<<< HEAD
         /** @phpstan-ignore-next-line class.notFound (Component model absent from artifact set) */
         $component = new Component;
         /* @phpstan-ignore-next-line class.notFound (Component model absent from artifact set) */
-=======
-        /** @phpstan-ignore-next-line -- Component model is optional, guarded by setUp */
-        $component = new Component();
-        /* @phpstan-ignore-next-line -- Component model is optional */
->>>>>>> laraxot/dev
         Assert::assertSame('components', $component->getTable());
     });
 
     test('extends base model', function (): void {
-<<<<<<< HEAD
         /** @phpstan-ignore-next-line class.notFound (Component model absent from artifact set) */
-=======
-        /** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
->>>>>>> laraxot/dev
         $reflection = new \ReflectionClass(Component::class);
         Assert::assertTrue($reflection->isSubclassOf('Modules\UI\Models\BaseModel'));
     });
 
     test('uses strict types', function (): void {
-<<<<<<< HEAD
         /** @phpstan-ignore-next-line class.notFound (Component model absent from artifact set) */
-=======
-        /** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
->>>>>>> laraxot/dev
         $reflection = new \ReflectionClass(Component::class);
         $fileName = $reflection->getFileName();
         Assert::assertNotFalse($fileName);
@@ -158,11 +102,7 @@ describe('Component Model', function (): void {
     });
 
     test('has correct namespace', function (): void {
-<<<<<<< HEAD
         /** @phpstan-ignore-next-line class.notFound (Component model absent from artifact set) */
-=======
-        /** @phpstan-ignore-next-line -- Component::class resolves to string even if class absent */
->>>>>>> laraxot/dev
         $reflection = new \ReflectionClass(Component::class);
         Assert::assertSame('Modules\UI\Models', $reflection->getNamespaceName());
     });
