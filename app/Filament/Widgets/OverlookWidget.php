@@ -37,7 +37,7 @@ final class OverlookWidget extends XotBaseSchemaWidget
     protected int|string|array $columnSpan = 1;
 
     /**
-     * @return array<string, Component>
+     * @return array<int|string, Component>
      */
     public function getFormSchema(): array
     {
