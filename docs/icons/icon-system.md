@@ -1,0 +1,179 @@
+<<<<<<< HEAD
+<<<<<<< .merge_file_5S6fGI
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1PcMzY
+---
+title: "UI Module Icon System"
+type: concept
+tags: [icon, system]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "icon-system ui module icon system"
+<<<<<<< .merge_file_5S6fGI
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+related:
+---
+
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
+---
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1PcMzY
+# UI Module Icon System
+
+## How It Works
+
+`XotBaseServiceProvider::registerBladeIcons()` automatically registers each module's SVG directory with BladeUI/Icons using the module's lowercase alias as prefix.
+
+```php
+// XotBaseServiceProvider.php (line 65-76)
+public function registerBladeIcons(): void
+{
+    $this->callAfterResolving(BladeIconsFactory::class, function (BladeIconsFactory $factory): void {
+        $assetsPath = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'assets');
+        $svgPath = $assetsPath.'/../svg';
+        if (File::exists($svgPath)) {
+            $factory->add($this->nameLower, ['path' => $svgPath, 'prefix' => $this->nameLower]);
+        }
+    });
+}
+```
+
+**Result for UI module** (`nameLower = 'ui'`):
+- All SVGs in `Modules/UI/resources/svg/` → prefix `ui-`
+- `google.svg` → `icon="ui-google"`
+- `brands/google.svg` → `icon="ui-brands-google"` (subdirs use dash separator)
+
+## The Rule (MANDATORY)
+
+### NEVER use raw inline SVG in Blade templates
+```blade
+{{-- ❌ WRONG - raw SVG, maintenance nightmare, no theming --}}
+<svg class="w-5 h-5 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M22.56 12.25c0-.78..." fill="#4285F4"/>
+    ...
+</svg>
+
+{{-- ✅ CORRECT - uses icon system, reusable, maintainable --}}
+<x-filament::icon icon="ui-google" class="w-5 h-5 flex-shrink-0" />
+```
+
+### Why?
+1. **DRY**: Define once in SVG file, use everywhere
+2. **Maintainable**: Update SVG in one place
+3. **Consistent**: Same component everywhere
+4. **Accessible**: BladeUI/Icons handles aria attributes
+5. **Theming**: Can be styled via CSS classes
+
+## Available UI Icons (89 total)
+
+### Root icons (prefix: `ui-`)
+Common icons: `ui-ai`, `ui-alert`, `ui-archive-box`, `ui-article`, `ui-authenticate`,
+`ui-bathroom`, `ui-brain`, `ui-cancel`, `ui-categories`, `ui-chatgpt`, `ui-clean`,
+`ui-create`, `ui-dashboard`, `ui-delete`, `ui-document-report`, `ui-google`, ...
+
+### Brands (prefix: `ui-brands-`)
+`ui-brands-apple`, `ui-brands-discord`, `ui-brands-dribbble`, `ui-brands-fb`,
+`ui-brands-github`, `ui-brands-google`, `ui-brands-google-play`, `ui-brands-ig`,
+`ui-brands-linkedin`, `ui-brands-microsoft`, `ui-brands-twitter`, `ui-brands-youtube`, ...
+
+## Usage in Filament
+```php
+// In PHP (Filament resource/widget)
+use Filament\Support\Icons\Icon;
+
+Tables\Columns\IconColumn::make('status')
+    ->icon('ui-google')
+
+// In Blade
+<x-filament::icon icon="ui-google" class="w-5 h-5" />
+
+// Social login buttons
+<x-filament::icon icon="ui-brands-google" class="w-5 h-5 flex-shrink-0" />
+<x-filament::icon icon="ui-brands-microsoft" class="w-5 h-5 flex-shrink-0" />
+<x-filament::icon icon="ui-brands-github" class="w-5 h-5 flex-shrink-0" />
+```
+
+## Adding New Icons
+1. Save SVG file to `Modules/UI/resources/svg/{name}.svg`
+2. For brand icons: `Modules/UI/resources/svg/brands/{name}.svg`
+3. Use as `ui-{name}` or `ui-brands-{name}` immediately (auto-registered)
+4. Clear view cache if not appearing: `php artisan view:clear`
+
+## Cross-Module Icons
+Each module registers its own SVG icons:
+- `Modules/User/resources/svg/` → `user-{name}`
+<<<<<<< HEAD
+- `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
+<<<<<<< .merge_file_5S6fGI
+=======
+<<<<<<< HEAD
+- `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+- `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+- `resources/svg/` → `{name}`
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+- `resources/svg/` → `{name}`
+=======
+- `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+- `resources/svg/` → `{name}`
+=======
+>>>>>>> .merge_file_1PcMzY
+>>>>>>> laraxot/dev
+- etc.
+
+The `ui-` prefix is special: contains the global design system icons shared across all modules.

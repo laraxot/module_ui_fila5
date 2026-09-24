@@ -1,0 +1,1407 @@
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1Er1j0
+---
+title: "Form Component"
+type: concept
+tags: [form, component]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "form-component form component"
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
+  - "./00-index-1.md"
+  - "./00-index.md"
+  - "./00-overview.md"
+  - "./01-current-state.md"
+  - "./01-now.md"
+  - "./02-goals.md"
+  - "./02-next.md"
+  - "./03-later.md"
+---
+<<<<<<< .merge_file_7IN8bV
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> .merge_file_1Er1j0
+>>>>>>> laraxot/dev
+# Form Component
+
+## 📊 Stato Implementazione
+Completamento: 45%
+
+## 🎯 Obiettivi
+1. Creare un form builder tipizzato e flessibile
+2. Integrare validazione lato client e server
+3. Supportare form dinamici e nested
+4. Ottimizzare la UX con feedback immediato
+
+## 🤔 Sfide di Design
+
+### 1. Type Safety
+- Validazione input tipizzata
+- Gestione form nidificati
+- Type inference per campi dinamici
+
+### 2. Validazione
+- Sincronizzazione client/server
+- Validazione real-time
+- Custom validation rules
+
+### 3. State Management
+- Form state tracking
+- Dirty checking
+- Error handling
+
+## 💡 Soluzioni Proposte
+
+### 1. Form Builder
+```php
+class FormBuilder extends XotBaseUIComponent
+{
+    /** @var array<string, FormField> */
+    protected array $fields = [];
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1Er1j0
+    
+    /** @var array<string, mixed> */
+    protected array $values = [];
+    
+<<<<<<< .merge_file_7IN8bV
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1Er1j0
+
+    /** @var array<string, mixed> */
+    protected array $values = [];
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+    public function addField(string $name, FormField $field): self
+    {
+        $this->fields[$name] = $field;
+        return $this;
+    }
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_1Er1j0
+>>>>>>> laraxot/dev
+    public function validate(): ValidationResult
+    {
+        return $this->validator->validate($this->values);
+    }
+}
+```
+
+### 2. Form Field Type System
+```php
+abstract class FormField
+{
+    protected string $name;
+    protected string $label;
+    protected bool $required = false;
+    protected ?string $placeholder = null;
+    protected array $validators = [];
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_1Er1j0
+>>>>>>> laraxot/dev
+    abstract public function render(): View;
+    abstract public function validate($value): ValidationResult;
+}
+
+class InputField extends FormField
+{
+    protected string $type = 'text';
+    protected ?int $maxLength = null;
+    protected ?string $pattern = null;
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_1Er1j0
+>>>>>>> laraxot/dev
+    public function setType(string $type): self
+    {
+        $this->type = $type;
+        return $this;
+    }
+}
+```
+
+## 📝 Steps Implementazione
+
+### Fase 1: Core (✅ Completato)
+1. ✅ Form builder base
+2. ✅ Field type system
+3. ✅ Basic validation
+4. ✅ Event system
+
+### Fase 2: Fields (🏗️ In Progress)
+1. ✅ Text input
+2. ✅ Select
+3. 🏗️ Checkbox/Radio
+4. 🏗️ File upload
+5. 📝 Rich text editor
+
+### Fase 3: Advanced Features
+1. 📝 Dynamic fields
+2. 📝 Nested forms
+3. 📝 Custom validators
+4. 📝 Auto-save
+5. 📝 Multi-step forms
+
+## 🎭 Edge Cases
+
+1. **Nested Data**
+```php
+// Problema: Validazione dati nidificati
+$form->validate(['user' => ['name' => 'John']])
+
+// Soluzione: Dot notation validator
+class NestedValidator implements ValidatorInterface
+{
+    public function validate(array $data): ValidationResult
+    {
+        return $this->validateNested(Arr::dot($data));
+    }
+}
+```
+
+2. **Dynamic Fields**
+```php
+// Problema: Type safety con campi dinamici
+$form->addDynamicField('custom_field')
+
+// Soluzione: Field type registry
+class DynamicField extends FormField
+{
+    public function __construct(
+        protected FieldTypeRegistry $registry,
+        protected string $fieldType
+    ) {
+        $this->validator = $registry->getValidator($fieldType);
+    }
+}
+```
+
+## ✅ Code Review Checklist
+
+1. Type Safety
+   - [ ] Field types definiti
+   - [ ] Validation rules tipizzate
+   - [ ] Event handlers typed
+
+2. Validation
+   - [ ] Client validation
+   - [ ] Server validation
+   - [ ] Custom rules support
+
+3. UX
+   - [ ] Error messages
+   - [ ] Loading states
+   - [ ] Success feedback
+
+## 🚀 Performance Considerations
+
+1. **Lazy Validation**
+```php
+protected function validateField(string $name): void
+{
+    if (!isset($this->dirtyFields[$name])) {
+        return;
+    }
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1Er1j0
+    
+    $result = $this->fields[$name]->validate(
+        $this->values[$name]
+    );
+    
+<<<<<<< .merge_file_7IN8bV
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1Er1j0
+
+    $result = $this->fields[$name]->validate(
+        $this->values[$name]
+    );
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+    $this->errors[$name] = $result->errors();
+}
+```
+
+2. **State Management**
+```php
+class FormState
+{
+    /** @var array<string, mixed> */
+    protected array $initialValues = [];
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+
+    /** @var array<string, mixed> */
+    protected array $currentValues = [];
+
+    public function isDirty(string $field): bool
+    {
+        return $this->initialValues[$field] !==
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1Er1j0
+    
+    /** @var array<string, mixed> */
+    protected array $currentValues = [];
+    
+    public function isDirty(string $field): bool
+    {
+        return $this->initialValues[$field] !== 
+<<<<<<< .merge_file_7IN8bV
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1Er1j0
+
+    /** @var array<string, mixed> */
+    protected array $currentValues = [];
+    
+    public function isDirty(string $field): bool
+    {
+        return $this->initialValues[$field] !==
+<<<<<<< .merge_file_7IN8bV
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1Er1j0
+               $this->currentValues[$field];
+    }
+}
+```
+
+## 📚 Lessons Learned
+
+1. Importanza della validazione incrementale
+2. Necessità di type safety per nested data
+3. UX critical per form complessi
+4. Performance impact della validazione real-time
+
+## 🔗 Resources
+
+- [Form Architecture](docs/architecture/forms.md)
+- [Validation System](docs/validation/rules.md)
+- [Field Types](docs/fields/types.md)
+- [State Management](docs/state/form_state.md)
+
+## 🤝 Contributing
+
+1. Implementa nuovi field types
+2. Aggiungi custom validators
+3. Migliora la documentazione
+4. Scrivi test
+5. Ottimizza performance
+
+## ⚠️ Known Issues
+
+1. **Nested Validation**
+   - Performance con form deeply nested
+   - Solution: Validation caching
+
+2. **Dynamic Fields**
+   - Type safety compromessa
+   - Solution: Typed field registry
+
+## 🎯 Next Steps
+
+1. Completare checkbox/radio components
+2. Implementare file upload
+3. Aggiungere nested form support
+4. Migliorare validation performance
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+5. Documentare best practices
+# Form Component
+<<<<<<< HEAD
+## 📊 Stato Implementazione
+Completamento: 45%
+=======
+
+## 📊 Stato Implementazione
+Completamento: 45%
+
+<<<<<<< .merge_file_7IN8bV
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+5. Documentare best practices 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+5. Documentare best practices 
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+5. Documentare best practices 
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+5. Documentare best practices
+# Form Component
+## 📊 Stato Implementazione
+Completamento: 45%
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1Er1j0
+>>>>>>> laraxot/dev
+## 🎯 Obiettivi
+1. Creare un form builder tipizzato e flessibile
+2. Integrare validazione lato client e server
+3. Supportare form dinamici e nested
+4. Ottimizzare la UX con feedback immediato
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+
+## 🤔 Sfide di Design
+=======
+## 🤔 Sfide di Design
+=======
+>>>>>>> .merge_file_1Er1j0
+
+=======
+<<<<<<< HEAD
+## 🤔 Sfide di Design
+=======
+<<<<<<< HEAD
+
+<<<<<<< .merge_file_7IN8bV
+## 🤔 Sfide di Design
+
+=======
+## 🤔 Sfide di Design
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1Er1j0
+>>>>>>> laraxot/dev
+### 1. Type Safety
+- Validazione input tipizzata
+- Gestione form nidificati
+- Type inference per campi dinamici
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_1Er1j0
+>>>>>>> laraxot/dev
+### 2. Validazione
+- Sincronizzazione client/server
+- Validazione real-time
+- Custom validation rules
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_1Er1j0
+>>>>>>> laraxot/dev
+### 3. State Management
+- Form state tracking
+- Dirty checking
+- Error handling
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+
+## 💡 Soluzioni Proposte
+=======
+## 💡 Soluzioni Proposte
+=======
+>>>>>>> .merge_file_1Er1j0
+
+=======
+<<<<<<< HEAD
+## 💡 Soluzioni Proposte
+=======
+<<<<<<< HEAD
+
+<<<<<<< .merge_file_7IN8bV
+## 💡 Soluzioni Proposte
+
+=======
+## 💡 Soluzioni Proposte
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1Er1j0
+>>>>>>> laraxot/dev
+### 1. Form Builder
+```php
+class FormBuilder extends XotBaseUIComponent
+{
+    /** @var array<string, FormField> */
+    protected array $fields = [];
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+=======
+<<<<<<< HEAD
+    /** @var array<string, mixed> */
+    protected array $values = [];
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+    /** @var array<string, mixed> */
+    protected array $values = [];
+=======
+>>>>>>> .merge_file_1Er1j0
+
+    /** @var array<string, mixed> */
+    protected array $values = [];
+
+<<<<<<< .merge_file_7IN8bV
+<<<<<<< HEAD
+=======
+=======
+    /** @var array<string, mixed> */
+    protected array $values = [];
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1Er1j0
+>>>>>>> laraxot/dev
+    public function addField(string $name, FormField $field): self
+    {
+        $this->fields[$name] = $field;
+        return $this;
+    }
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+    public function validate(): ValidationResult
+        return $this->validator->validate($this->values);
+}
+```
+### 2. Form Field Type System
+abstract class FormField
+=======
+>>>>>>> .merge_file_1Er1j0
+
+    public function validate(): ValidationResult
+    {
+        return $this->validator->validate($this->values);
+    }
+}
+```
+
+### 2. Form Field Type System
+```php
+abstract class FormField
+{
+<<<<<<< .merge_file_7IN8bV
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+    public function validate(): ValidationResult
+        return $this->validator->validate($this->values);
+}
+```
+### 2. Form Field Type System
+abstract class FormField
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1Er1j0
+>>>>>>> laraxot/dev
+    protected string $name;
+    protected string $label;
+    protected bool $required = false;
+    protected ?string $placeholder = null;
+    protected array $validators = [];
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+    abstract public function render(): View;
+    abstract public function validate($value): ValidationResult;
+class InputField extends FormField
+    protected string $type = 'text';
+    protected ?int $maxLength = null;
+    protected ?string $pattern = null;
+    public function setType(string $type): self
+        $this->type = $type;
+## 📝 Steps Implementazione
+=======
+>>>>>>> .merge_file_1Er1j0
+
+    abstract public function render(): View;
+    abstract public function validate($value): ValidationResult;
+}
+
+class InputField extends FormField
+{
+    protected string $type = 'text';
+    protected ?int $maxLength = null;
+    protected ?string $pattern = null;
+
+    public function setType(string $type): self
+    {
+        $this->type = $type;
+        return $this;
+    }
+}
+```
+
+## 📝 Steps Implementazione
+
+<<<<<<< .merge_file_7IN8bV
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+    abstract public function render(): View;
+    abstract public function validate($value): ValidationResult;
+class InputField extends FormField
+    protected string $type = 'text';
+    protected ?int $maxLength = null;
+    protected ?string $pattern = null;
+    public function setType(string $type): self
+        $this->type = $type;
+## 📝 Steps Implementazione
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1Er1j0
+>>>>>>> laraxot/dev
+### Fase 1: Core (✅ Completato)
+1. ✅ Form builder base
+2. ✅ Field type system
+3. ✅ Basic validation
+4. ✅ Event system
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_1Er1j0
+>>>>>>> laraxot/dev
+### Fase 2: Fields (🏗️ In Progress)
+1. ✅ Text input
+2. ✅ Select
+3. 🏗️ Checkbox/Radio
+4. 🏗️ File upload
+5. 📝 Rich text editor
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_1Er1j0
+>>>>>>> laraxot/dev
+### Fase 3: Advanced Features
+1. 📝 Dynamic fields
+2. 📝 Nested forms
+3. 📝 Custom validators
+4. 📝 Auto-save
+5. 📝 Multi-step forms
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+## 🎭 Edge Cases
+1. **Nested Data**
+// Problema: Validazione dati nidificati
+$form->validate(['user' => ['name' => 'John']])
+// Soluzione: Dot notation validator
+class NestedValidator implements ValidatorInterface
+    public function validate(array $data): ValidationResult
+        return $this->validateNested(Arr::dot($data));
+2. **Dynamic Fields**
+// Problema: Type safety con campi dinamici
+$form->addDynamicField('custom_field')
+// Soluzione: Field type registry
+class DynamicField extends FormField
+=======
+>>>>>>> .merge_file_1Er1j0
+
+## 🎭 Edge Cases
+
+1. **Nested Data**
+```php
+// Problema: Validazione dati nidificati
+$form->validate(['user' => ['name' => 'John']])
+
+// Soluzione: Dot notation validator
+class NestedValidator implements ValidatorInterface
+{
+    public function validate(array $data): ValidationResult
+    {
+        return $this->validateNested(Arr::dot($data));
+    }
+}
+```
+
+2. **Dynamic Fields**
+```php
+// Problema: Type safety con campi dinamici
+$form->addDynamicField('custom_field')
+
+// Soluzione: Field type registry
+class DynamicField extends FormField
+{
+<<<<<<< .merge_file_7IN8bV
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+## 🎭 Edge Cases
+1. **Nested Data**
+// Problema: Validazione dati nidificati
+$form->validate(['user' => ['name' => 'John']])
+// Soluzione: Dot notation validator
+class NestedValidator implements ValidatorInterface
+    public function validate(array $data): ValidationResult
+        return $this->validateNested(Arr::dot($data));
+2. **Dynamic Fields**
+// Problema: Type safety con campi dinamici
+$form->addDynamicField('custom_field')
+// Soluzione: Field type registry
+class DynamicField extends FormField
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1Er1j0
+>>>>>>> laraxot/dev
+    public function __construct(
+        protected FieldTypeRegistry $registry,
+        protected string $fieldType
+    ) {
+        $this->validator = $registry->getValidator($fieldType);
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+=======
+<<<<<<< HEAD
+## ✅ Code Review Checklist
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+## ✅ Code Review Checklist
+=======
+>>>>>>> .merge_file_1Er1j0
+    }
+}
+```
+
+## ✅ Code Review Checklist
+
+<<<<<<< .merge_file_7IN8bV
+<<<<<<< HEAD
+=======
+=======
+## ✅ Code Review Checklist
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1Er1j0
+>>>>>>> laraxot/dev
+1. Type Safety
+   - [ ] Field types definiti
+   - [ ] Validation rules tipizzate
+   - [ ] Event handlers typed
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_1Er1j0
+>>>>>>> laraxot/dev
+2. Validation
+   - [ ] Client validation
+   - [ ] Server validation
+   - [ ] Custom rules support
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_1Er1j0
+>>>>>>> laraxot/dev
+3. UX
+   - [ ] Error messages
+   - [ ] Loading states
+   - [ ] Success feedback
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+## 🚀 Performance Considerations
+1. **Lazy Validation**
+protected function validateField(string $name): void
+    if (!isset($this->dirtyFields[$name])) {
+        return;
+    $result = $this->fields[$name]->validate(
+        $this->values[$name]
+    );
+    $this->errors[$name] = $result->errors();
+2. **State Management**
+class FormState
+    protected array $initialValues = [];
+    protected array $currentValues = [];
+    public function isDirty(string $field): bool
+        return $this->initialValues[$field] !==
+               $this->currentValues[$field];
+## 📚 Lessons Learned
+=======
+>>>>>>> .merge_file_1Er1j0
+
+## 🚀 Performance Considerations
+
+1. **Lazy Validation**
+```php
+protected function validateField(string $name): void
+{
+    if (!isset($this->dirtyFields[$name])) {
+        return;
+    }
+
+    $result = $this->fields[$name]->validate(
+        $this->values[$name]
+    );
+
+    $this->errors[$name] = $result->errors();
+}
+```
+
+2. **State Management**
+```php
+class FormState
+{
+    /** @var array<string, mixed> */
+    protected array $initialValues = [];
+
+    /** @var array<string, mixed> */
+    protected array $currentValues = [];
+
+    public function isDirty(string $field): bool
+    {
+        return $this->initialValues[$field] !==
+               $this->currentValues[$field];
+    }
+}
+```
+
+## 📚 Lessons Learned
+
+<<<<<<< .merge_file_7IN8bV
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+## 🚀 Performance Considerations
+1. **Lazy Validation**
+protected function validateField(string $name): void
+    if (!isset($this->dirtyFields[$name])) {
+        return;
+    $result = $this->fields[$name]->validate(
+        $this->values[$name]
+    );
+    $this->errors[$name] = $result->errors();
+2. **State Management**
+class FormState
+    protected array $initialValues = [];
+    protected array $currentValues = [];
+    public function isDirty(string $field): bool
+        return $this->initialValues[$field] !==
+               $this->currentValues[$field];
+## 📚 Lessons Learned
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1Er1j0
+>>>>>>> laraxot/dev
+1. Importanza della validazione incrementale
+2. Necessità di type safety per nested data
+3. UX critical per form complessi
+4. Performance impact della validazione real-time
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+
+## 🔗 Resources
+=======
+## 🔗 Resources
+=======
+>>>>>>> .merge_file_1Er1j0
+
+=======
+<<<<<<< HEAD
+## 🔗 Resources
+=======
+<<<<<<< HEAD
+
+<<<<<<< .merge_file_7IN8bV
+## 🔗 Resources
+
+=======
+## 🔗 Resources
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1Er1j0
+>>>>>>> laraxot/dev
+- [Form Architecture](docs/architecture/forms.md)
+- [Validation System](docs/validation/rules.md)
+- [Field Types](docs/fields/types.md)
+- [State Management](docs/state/form_state.md)
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+
+## 🤝 Contributing
+
+=======
+<<<<<<< HEAD
+## 🤝 Contributing
+=======
+<<<<<<< HEAD
+
+## 🤝 Contributing
+
+=======
+## 🤝 Contributing
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+## 🤝 Contributing
+=======
+
+## 🤝 Contributing
+
+>>>>>>> .merge_file_1Er1j0
+>>>>>>> laraxot/dev
+1. Implementa nuovi field types
+2. Aggiungi custom validators
+3. Migliora la documentazione
+4. Scrivi test
+5. Ottimizza performance
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+## ⚠️ Known Issues
+1. **Nested Validation**
+   - Performance con form deeply nested
+   - Solution: Validation caching
+   - Type safety compromessa
+   - Solution: Typed field registry
+## 🎯 Next Steps
+=======
+>>>>>>> .merge_file_1Er1j0
+
+## ⚠️ Known Issues
+
+1. **Nested Validation**
+   - Performance con form deeply nested
+   - Solution: Validation caching
+
+2. **Dynamic Fields**
+   - Type safety compromessa
+   - Solution: Typed field registry
+
+## 🎯 Next Steps
+
+<<<<<<< .merge_file_7IN8bV
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+## ⚠️ Known Issues
+1. **Nested Validation**
+   - Performance con form deeply nested
+   - Solution: Validation caching
+   - Type safety compromessa
+   - Solution: Typed field registry
+## 🎯 Next Steps
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1Er1j0
+>>>>>>> laraxot/dev
+1. Completare checkbox/radio components
+2. Implementare file upload
+3. Aggiungere nested form support
+4. Migliorare validation performance
+<<<<<<< HEAD
+<<<<<<< .merge_file_7IN8bV
+5. Documentare best practices
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+5. Documentare best practices
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+5. Documentare best practices
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+5. Documentare best practices 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+5. Documentare best practices
+>>>>>>> .merge_file_1Er1j0
+>>>>>>> laraxot/dev
