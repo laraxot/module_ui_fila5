@@ -98,19 +98,10 @@ php artisan config:clear
 
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 **Data**: 27 Gennaio 2025  
 **Modulo**: UI  
 **Tipo**: Bug Fix  
 **Priorità**: Alta  
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 **Data**: 27 Gennaio 2025
 **Modulo**: UI
 **Tipo**: Bug Fix

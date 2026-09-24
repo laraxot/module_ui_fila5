@@ -175,38 +175,7 @@ protected function createApplication()
     $app = parent::createApplication();
     
     $app['config']->set([
-<<<<<<< HEAD
         'database.connections.ui.database' => '<nome progetto>_data_test',
-=======
-<<<<<<< HEAD
-        'database.connections.ui.database' => 'quaeris_data_test',
-        'database.connections.ui.database' => 'modulo questionari_data_test',
-=======
-<<<<<<< HEAD
-        'database.connections.ui.database' => 'quaeris_data_test',
-<<<<<<< HEAD
-        'database.connections.ui.database' => 'modulo questionari_data_test',
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        'database.connections.ui.database' => 'quaeris_data_test',
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-        'database.connections.ui.database' => 'modulo questionari_data_test',
-=======
-        'database.connections.ui.database' => 'quaeris_data_test',
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
     ]);
     
     return $app;
@@ -286,14 +255,7 @@ protected function createApplication()
 
 ### External Resources
 
-<<<<<<< HEAD
 - [Laravel 12.x Testing Documentation](https://laravel.com/docs/12.x/testing)
-=======
-<<<<<<< HEAD
-=======
-- [Laravel 12.x Testing Documentation](https://laravel.com/docs/12.x/testing)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 - [Laravel 13.x Testing Documentation](https://laravel.com/docs/12.x/testing)
 - [Pest Installation Guide](https://pestphp.com/docs/installation)
 - [PHPStan Documentation](https://phpstan.org/user-guide/getting-started)
