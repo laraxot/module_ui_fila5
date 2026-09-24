@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 id: module-ui-readme
 title: "UI — Componenti Visuali Condivisi"
@@ -8,7 +7,7 @@ module: UI
 status: active
 tags: [ui, blade, livewire, filament, accessibility]
 created: 2026-09-14
-updated: 2026-09-22
+updated: 2026-09-14
 qmd: "ui blade livewire filament components accessibility module documentation"
 issues:
   - "https://github.com/laraxot/module_ui_fila5/issues/33"
@@ -21,129 +20,7 @@ sources: []
 
 # 🎨 UI
 
-<<<<<<< HEAD
-[![Stars](https://img.shields.io/github/stars/laraxot/module_ui_fila5?style=plastic&color=yellow)]()
-[![Forks](https://img.shields.io/github/forks/laraxot/module_ui_fila5?style=plastic&color=green)]()
-[![Issues](https://img.shields.io/github/issues/laraxot/module_ui_fila5?style=plastic&color=red)]()
-[![License](https://img.shields.io/github/license/laraxot/module_ui_fila5?style=plastic&color=blue)]()
-[![Last Commit](https://img.shields.io/github/last-commit/laraxot/module_ui_fila5?style=plastic&color=purple)]()
-[![Release](https://img.shields.io/github/v/release/laraxot/module_ui_fila5?style=plastic&color=orange&display_name=release)]()
-[![PHP](https://img.shields.io/badge/PHP-8.4+-777BB4?style=for-the-badge)](https://php.net/)
-[![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)
-[![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)
-[![Architecture](https://img.shields.io/badge/Architecture-Modular-purple?style=plastic)]()
-[![PHPStan Level 10](https://img.shields.io/badge/PHPStan-Level%2010-brightgreen.svg)](https://phpstan.org/)
-[![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue.svg)](https://www.php-fig.org/psr/psr-12/)
-[![Strict Types](https://img.shields.io/badge/PHP-strict__types-1-informational.svg)](#)
-
-> **Componenti UI riutilizzabili e design system**
-> Componenti UI, layout, temi e pattern di design per Filament v5, senza logica di dominio.
-
-## 🎯 La Visione
-
-Crediamo che il software debba essere **chiaro, modulare e potente**. Ogni modulo è stato pensato per risolvere problemi reali con soluzioni eleganti.
-
-## Perché esiste questo modulo?
-
-**Componenti UI, layout, temi e pattern di design per Filament v5.**
-
-In un mondo dove la complessità è l'avere, abbiamo scritto codice semplice. Questo modulo non è solo una libreria: è una **promessa di qualità** mantenuta.
-
-## Cosa offre
-
-- **Blade/Livewire** — componenti riusabili
-- **Filament XotBase** — base per admin
-- **Accessibilità** — a11y conforme
-- **Tailwind/DaisyUI** — design system
-
-## Confini architetturali
-
-Questo modulo pubblica contratti usabili da altri moduli. La logica vive nelle `Actions`; la UI admin segue Laraxot/XotBase. Nessuna logica di dominio: quella resta nei moduli che la possiedono (vedi [docs/purpose.md](./docs/purpose.md)).
-
-## 🧘 I Principi Zen (e la nostra filosofia)
-
-1. **Semplicità vince sulla complessità** - Il codice chiaro è più potente di mille righe di commenti.
-2. **Modulare è dare vita** - Ogni pezzo può vivere da solo, ma insieme diventa un universo.
-3. **Documentare è onniscienza** - La mancanza di documentazione è la paura del futuro.
-4. **Testare è fidarsi** - Non fidarsi del proprio codice è fidarsi del caos.
-5. **Rifattorizzare è crescere** - Lentamente, incrementalmente, diventiamo migliori.
-
-## 💎 Le sue Superpoteri
-
-- **Architettura modulare** - Separazione netta tra logica di business e presentazione
-- **PHPStan Level 10** - Massima sicurezza tipizzazione
-- **PSR-12** - Codice che parla lo stesso linguaggio del mondo
-- **Filament 5** - Admin panel d'eccellenza
-- **XotBase** - Pattern consolidati che funzionano
-
-## 🚀 Quick Start
-
-```bash
-# Installazione modulo
-php artisan module:enable UI
-php artisan module:list
-php artisan migrate
-
-# Sviluppo locale
-cd laravel
-composer dev
-./vendor/bin/pest Modules/UI/tests
-./vendor/bin/phpstan analyse Modules/UI --memory-limit=-1
-```
-
-Configuration is in `config/config.php`. Adjust as needed.
-
-## 🤝 Contributing
-
-```bash
-cd laravel
-composer dev
-./vendor/bin/pest Modules/UI/tests
-./vendor/bin/phpstan analyse Modules/UI --memory-limit=-1
-```
-
-**Before submitting:**
-- [ ] Tests pass
-- [ ] PHPStan L10 passes
-- [ ] Code style (Pint) applied
-- [ ] Documentation updated
-
-See [docs/architecture.md](./docs/architecture.md) for design decisions.
-
-## 📖 Documentazione
-
-| Tipo | Link |
-|--------|------|
-| 🇮🇹 Presentazione | Questo file (`README.md`) |
-| 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
-| 📚 Wiki tecnica | [./docs/](./docs/) |
-| 🗺️ Mappa tecnica docs | [docs/README.md](./docs/README.md) |
-| 🎯 Esempi | [docs/examples/](./docs/examples/) |
-| 📋 Story BMAD | [docs/stories/](./docs/stories/) |
-| 🏗️ Architettura | [docs/architecture.md](./docs/architecture.md) |
-| 🧪 Testing | [docs/root-md-files/testing.md](./docs/root-md-files/testing.md) |
-| 📜 Changelog | [CHANGELOG.md](./CHANGELOG.md) |
-| 📐 Regole del progetto | [../../../docs/wiki/](../../../docs/wiki/) |
-| 🏠 README del progetto | [../../../README.md](../../../README.md) |
-
-## 🔧 Tecnologie chiave
-
-**Stack principale:** Laravel 13, Filament 5, XotBase
-
-**Keywords:** UI, Components, Design System
-
-## Qualità e manutenzione
-
-Mantenere `declare(strict_types=1);` in PHP, aderire alla configurazione PHPStan del progetto e aggiornare i docs quando i contratti evolvono.
-
----
-
-**Modulo** `UI` · **Laraxot ecosystem** · **Project-agnostic** · PHPStan 10 · Filament 5
-=======
-# 🎨 UI
-=======
 > **Componenti visuali condivisi.**
->>>>>>> 4dd69e81 (chore(UI): igiene root: un solo .code-workspace (_module_ui_fila5), .md in root al massimo 6)
 
 [![Domain-UI](https://img.shields.io/badge/Domain-UI%20Kit-7B1FA2.svg)](#)
 [![Laravel 12](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
@@ -153,57 +30,42 @@ Mantenere `declare(strict_types=1);` in PHP, aderire alla configurazione PHPStan
 [![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue.svg)](https://www.php-fig.org/psr/psr-12/)
 [![Strict Types](https://img.shields.io/badge/PHP-strict__types-1-informational.svg)](#)
 [![Laraxot Modules](https://img.shields.io/badge/Architecture-Modular-purple.svg)](#)
-<<<<<<< HEAD
-[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
-=======
->>>>>>> 4dd69e81 (chore(UI): igiene root: un solo .code-workspace (_module_ui_fila5), .md in root al massimo 6)
 
-> **Componenti che non reinventano la ruota.** Design system condiviso tra moduli e tema.
+Vocabolario riusabile Blade, Livewire e Filament senza logica di dominio.
 
----
+## Cosa offre
 
-## Perché esiste
+- **Blade/Livewire** – componenti riusabili
+- **Filament XotBase** – base per admin
+- **Accessibilità** – a11y conforme
+- **Tailwind/DaisyUI** – design system
 
-Coerenza visiva e DRY su Blade/Livewire/Filament.
+## Confini architetturali
 
-## Superpoteri
+This module publishes contracts usable by other modules. Logic lives in `Actions`; admin UI follows Laraxot/XotBase.
 
-- Component library riusabile
-- Token e pattern documentati
-- Integrazione Tailwind/DaisyUI
-- Filament custom components
+## Integrazione rapida
 
-## Certificazioni
+```bash
+cd laravel
+php artisan module:list
+./vendor/bin/phpstan analyse Modules/UI
+```
 
-| Certificazione | Stato |
-|----------------|-------|
-| PHPStan livello 10 | Target progetto |
-| `declare(strict_types=1)` | Su nuovo codice PHP |
-| Filament 5 + XotBase | Admin enterprise |
-| Test PHPUnit / Pest | Suite modulo |
-| Documentazione wiki | Cartella `docs/` |
-
-## Vuoi entrare nel team?
-
-UI **consistente** = brand PA forte.
-
-Stack frontoffice: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filament v5** — vedi [STORY-133](../../../docs/stories/STORY-133-frontend-stack-religion-tailwind-alpine-lit.md).
-
----
+See local docs for integration patterns.
 
 ## Documentazione
 
-| Lingua | Link |
-|--------|------|
-| 🇮🇹 Presentazione | Questo file (`README.md`) |
-| 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
-| 📚 Wiki tecnica | [./docs/wiki/](./docs/) |
+The technical map is in [docs/README.md](./docs/README.md).
+
+- [Story BMAD del modulo](./docs/stories/)
+- [Regole del progetto](../../../docs/wiki/)
+- [README del progetto](../../README.md)
+
+## Qualità e manutenzione
+
+Maintain `declare(strict_types=1);` in PHP, adhere to project PHPStan config, and update docs when contracts evolve.
 
 ---
 
-<<<<<<< HEAD
-**Modulo** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
->>>>>>> laraxot/dev
-=======
 **Modulo** `ui` · **Laraxot ecosystem** · **Project-agnostic** · PHPStan 10 · Filament 5
->>>>>>> 4dd69e81 (chore(UI): igiene root: un solo .code-workspace (_module_ui_fila5), .md in root al massimo 6)
