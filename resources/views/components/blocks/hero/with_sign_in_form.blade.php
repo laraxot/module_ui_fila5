@@ -1,50 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< .merge_file_Wv7keM
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_GrwbCH
 <?php
 
 declare(strict_types=1);
-=======
-<?php
-
-declare(strict_types=1);
-
->>>>>>> 0dadab4 (Lint)
 ?>
 <!--
   This example requires some changes to your config:

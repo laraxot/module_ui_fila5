@@ -93,27 +93,5 @@ Tutti i file del modulo UI sono PHPStan Level 10 compliant usando `isset()`.
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_nQPBnI
-**Ultimo aggiornamento**: [DATE]
-=======
-<<<<<<< HEAD
 **Ultimo aggiornamento**: 2025-01-06
-=======
-<<<<<<< HEAD
-**Ultimo aggiornamento**: [DATE]
-=======
-**Ultimo aggiornamento**: 2025-01-06
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-**Ultimo aggiornamento**: 2025-01-06
-=======
-**Ultimo aggiornamento**: [DATE]
->>>>>>> .merge_file_w4ehkD
->>>>>>> laraxot/dev
-=======
-**Ultimo aggiornamento**: [DATE]
->>>>>>> 0dadab4 (Lint)
 **Status**: ✅ PHPStan Level 10 - 0 Errors

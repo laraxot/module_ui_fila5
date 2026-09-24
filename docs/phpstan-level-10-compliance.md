@@ -1,36 +1,12 @@
 # PHPStan Level 10 Compliance - UI Module
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 **Ultimo aggiornamento**: [DATE]
-=======
-<<<<<<< HEAD
-**Ultimo aggiornamento**: [DATE]
-=======
-**Ultimo aggiornamento**: 2025-12-10
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-**Ultimo aggiornamento**: [DATE]
->>>>>>> 0dadab4 (Lint)
 **Status**: ✅ Completamente conforme a PHPStan Level 10
 
 ## 📊 Stato Corrente
 - **Errori PHPStan**: 0
 - **Livello analisi**: Level 10 (massimo)
-<<<<<<< HEAD
-<<<<<<< HEAD
 - **Data ultima verifica**: [DATE]
-=======
-<<<<<<< HEAD
-- **Data ultima verifica**: [DATE]
-=======
-- **Data ultima verifica**: 2025-12-10
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- **Data ultima verifica**: [DATE]
->>>>>>> 0dadab4 (Lint)
 
 ## 🔧 Correzioni Applicate
 

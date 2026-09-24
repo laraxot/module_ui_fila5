@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_1oTgLx
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_nnUBRl
 ---
 title: "Standard UI"
 type: rule
@@ -16,25 +5,10 @@ tags: [standards]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "ui-standards standard ui"
-<<<<<<< .merge_file_1oTgLx
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_nnUBRl
 related:
   - "./accessibility.md"
   - "./auth-form-standards-1.md"
@@ -44,18 +18,6 @@ related:
   - "./performance.md"
 ---
 
-<<<<<<< .merge_file_1oTgLx
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_nnUBRl
-=======
->>>>>>> 0dadab4 (Lint)
 # Standard UI
 
 ## 🎨 Design System

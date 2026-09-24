@@ -1,19 +1,7 @@
 # Correzione Errori PHPStan - RadioBadge.php
 
 ## Data Aggiornamento
-<<<<<<< HEAD
-<<<<<<< HEAD
 [DATE]
-=======
-<<<<<<< HEAD
-[DATE]
-=======
-2025-01-27
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-[DATE]
->>>>>>> 0dadab4 (Lint)
 
 ## File Modificato
 `Modules/UI/app/Filament/Forms/Components/RadioBadge.php`
@@ -159,19 +147,7 @@ class RadioBadge extends Radio
 # Correzione Errori PHPStan - RadioBadge.php
 
 ## Data Aggiornamento
-<<<<<<< HEAD
-<<<<<<< HEAD
 [DATE]
-=======
-<<<<<<< HEAD
-[DATE]
-=======
-2025-01-27
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-[DATE]
->>>>>>> 0dadab4 (Lint)
 
 ## File Modificato
 `Modules/UI/app/Filament/Forms/Components/RadioBadge.php`

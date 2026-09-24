@@ -6,21 +6,6 @@ tags: [redundancy, ui, filament, traits]
 created: "2026-05-26"
 updated: "2026-05-26"
 related:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_oPq61Y
-  - ../../../../Xot/docs/wiki/concepts/code-redundancy-philosophy.md
-  - ../../../redundancy-audit-2026-05-21.md
-  - ../../../redundancy-report.md
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-  - ../../../../Xot/docs/wiki/concepts/code-redundancy-philosophy.md
-  - ../../../redundancy-audit-2026-05-21.md
-  - ../../../redundancy-report.md
-=======
->>>>>>> laraxot/dev
   - "./auth-register-focus-loss-overlay.md"
   - "./block-rendering-and-optional-services.md"
   - "./claude-audit-static.md"
@@ -29,30 +14,6 @@ related:
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
   - "./enum-select-usage.md"
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-  - "./auth-register-focus-loss-overlay.md"
-  - "./block-rendering-and-optional-services.md"
-  - "./claude-audit-static.md"
-  - "./context-overflow-prevention.md"
-  - "./enum-select-best-practices.md"
-  - "./enum-select-component.md"
-  - "./enum-select-contract-and-false-friends.md"
-  - "./enum-select-usage.md"
-=======
-  - ../../../../Xot/docs/wiki/concepts/code-redundancy-philosophy.md
-  - ../../../redundancy-audit-2026-05-21.md
-  - ../../../redundancy-report.md
->>>>>>> .merge_file_aDrmds
->>>>>>> laraxot/dev
-=======
-  - ../../../../Xot/docs/wiki/concepts/code-redundancy-philosophy.md
-  - ../../../redundancy-audit-2026-05-21.md
-  - ../../../redundancy-report.md
->>>>>>> 0dadab4 (Lint)
 ---
 
 # Ridondanza — UI

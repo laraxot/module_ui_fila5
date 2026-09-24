@@ -67,36 +67,6 @@ final class GetDaysMappingAction
      */
     private function createCarbonInstance(): Carbon
     {
-<<<<<<< HEAD
-<<<<<<< .merge_file_CncqdB
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
         return Carbon::now();
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> 0dadab4 (Lint)
-        $carbon = Carbon::create();
-
-        if (null === $carbon) {
-            throw new \RuntimeException('Failed to create Carbon instance');
-        }
-
-        return $carbon;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-        return Carbon::now();
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        return Carbon::now();
->>>>>>> .merge_file_2LyRAW
-=======
->>>>>>> 0dadab4 (Lint)
     }
 }

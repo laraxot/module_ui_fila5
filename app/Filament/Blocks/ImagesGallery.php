@@ -22,27 +22,7 @@ final class ImagesGallery
                             // ->image()
                             // ->maxSize(5000)
                             ->multiple()
-<<<<<<< HEAD
-<<<<<<< .merge_file_gFx5sY
-<<<<<<< HEAD
-                            ->enableReordering()
-=======
-<<<<<<< HEAD
                             ->reorderable()
-=======
-<<<<<<< HEAD
-                            ->enableReordering()
-=======
-                            ->reorderable()
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-                            ->reorderable()
->>>>>>> .merge_file_EBBQM2
-=======
-                            ->enableReordering()
->>>>>>> 0dadab4 (Lint)
                             ->openable()
                             ->downloadable()
                             ->columnSpanFull()
@@ -66,27 +46,7 @@ final class ImagesGallery
                 //         // ->image()
                 //         // ->maxSize(5000)
                 //     ->multiple()
-<<<<<<< HEAD
-<<<<<<< .merge_file_gFx5sY
-<<<<<<< HEAD
-                //     ->enableReordering()
-=======
-<<<<<<< HEAD
                 //     ->reorderable()
-=======
-<<<<<<< HEAD
-                //     ->enableReordering()
-=======
-                //     ->reorderable()
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-                //     ->reorderable()
->>>>>>> .merge_file_EBBQM2
-=======
-                //     ->enableReordering()
->>>>>>> 0dadab4 (Lint)
                 //     ->openable()
                 //     ->downloadable()
                 //     ->columnSpanFull()
@@ -104,23 +64,7 @@ final class ImagesGallery
                 // TextInput::make('caption')
                 //     ->columnSpanFull(),
             ])
-<<<<<<< HEAD
-<<<<<<< HEAD
-            ->columns('form' === $context ? 2 : 1);
-=======
-<<<<<<< HEAD
             ->columns($context === 'form' ? 2 : 1);
-=======
-<<<<<<< HEAD
-            ->columns('form' === $context ? 2 : 1);
-=======
-            ->columns($context === 'form' ? 2 : 1);
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-            ->columns('form' === $context ? 2 : 1);
->>>>>>> 0dadab4 (Lint)
     }
 
     /**
