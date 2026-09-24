@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -10,6 +16,12 @@
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <?php
 
 declare(strict_types=1);

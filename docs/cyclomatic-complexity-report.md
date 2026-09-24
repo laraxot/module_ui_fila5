@@ -1,5 +1,16 @@
 # Cyclomatic Complexity Report - Module: UI
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+**Generated:** 2025-10-01 19:44:11
+=======
+<<<<<<< HEAD
+=======
+**Generated:** 2025-10-01 19:44:11
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 **Analyzer:** Super Mucca 🐮
 
 ---

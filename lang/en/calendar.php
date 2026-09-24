@@ -2,10 +2,22 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/en/calendar.php
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 return [
     'previous_month' => 'Previous month',
     'next_month' => 'Next month',

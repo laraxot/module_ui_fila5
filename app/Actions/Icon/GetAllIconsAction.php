@@ -7,6 +7,17 @@ namespace Modules\UI\Actions\Icon;
 use BladeUI\Icons\Factory as IconFactory;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\File;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use ReflectionClass;
+=======
+<<<<<<< HEAD
+=======
+use ReflectionClass;
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 use Spatie\QueueableAction\QueueableAction;
 
 class GetAllIconsAction
@@ -22,8 +33,23 @@ class GetAllIconsAction
 
         // Uso reflection per accedere alle icone in modo sicuro
         try {
+<<<<<<< HEAD
             $reflection = new \ReflectionClass($iconsFactory);
             $property = $reflection->getProperty('iconSets');
+=======
+<<<<<<< HEAD
+            $reflection = new ReflectionClass($iconsFactory);
+            $property = $reflection->getProperty('sets');
+=======
+<<<<<<< HEAD
+            $reflection = new \ReflectionClass($iconsFactory);
+            $property = $reflection->getProperty('iconSets');
+=======
+            $reflection = new ReflectionClass($iconsFactory);
+            $property = $reflection->getProperty('sets');
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             $property->setAccessible(true);
             $icons = $property->getValue($iconsFactory);
         } catch (\Exception $e) {
@@ -31,8 +57,21 @@ class GetAllIconsAction
             return [];
         }
 
+<<<<<<< HEAD
         // Verifica che $icons sia un array prima di usare Arr::map()
         if (! is_array($icons)) {
+=======
+<<<<<<< HEAD
+        if (! is_iterable($icons)) {
+=======
+<<<<<<< HEAD
+        // Verifica che $icons sia un array prima di usare Arr::map()
+        if (! is_array($icons)) {
+=======
+        if (! is_iterable($icons)) {
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             return [];
         }
 
@@ -64,10 +103,43 @@ class GetAllIconsAction
                     continue;
                 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
                 $iconsList = array_merge(
                     $iconsList,
                     $this->collectSvgIconNamesFromPath($path, $set['prefix'] ?? ''),
                 );
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+                foreach (File::allFiles($path) as $file) {
+                    // Simply ignore files that aren't SVGs
+                    if ($file->getExtension() !== 'svg') {
+                        continue;
+                    }
+
+                    $pathname = $file->getPathname();
+                    $iconName = str($pathname)
+                        ->after($path.DIRECTORY_SEPARATOR)
+                        ->replace(DIRECTORY_SEPARATOR, '.')
+                        ->basename('.svg')
+                        ->toString();
+
+                    $prefix = $set['prefix'] ?? '';
+                    $prefixString = is_string($prefix) ? $prefix : '';
+                    $iconFullName = $prefixString !== '' ? $prefixString.'-'.$iconName : $iconName;
+                    $iconsList[] = $iconFullName;
+                }
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             }
             $set['icons'] = $iconsList;
             $mappedIcons[$name] = $set;
@@ -75,6 +147,12 @@ class GetAllIconsAction
 
         return $mappedIcons;
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 
     /**
      * @return list<string>
@@ -110,4 +188,10 @@ class GetAllIconsAction
 
         return $iconNames;
     }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 }

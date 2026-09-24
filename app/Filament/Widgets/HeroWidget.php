@@ -4,10 +4,29 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Widgets;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 use Filament\Widgets\StatsOverviewWidget as BaseWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
 
 class HeroWidget extends BaseWidget
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+use Filament\Widgets\StatsOverviewWidget\Stat;
+use Modules\Xot\Filament\Widgets\XotBaseStatsOverviewWidget;
+
+class HeroWidget extends XotBaseStatsOverviewWidget
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 {
     protected ?string $heading = 'Hero Widget';
 

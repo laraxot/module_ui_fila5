@@ -4,6 +4,24 @@ module: "UI"
 type: overview
 created: "2026-04-15T08:28:51Z"
 updated: "2026-04-15T08:28:51Z"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+related:
+  - "./agents.md"
+  - "./bmad-method.md"
+  - "./context-compression.md"
+  - "./index.md"
+  - "./log.md"
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ---
 
 # UI Wiki Overview

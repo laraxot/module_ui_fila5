@@ -1,6 +1,18 @@
 # Esempio Implementazione TableLayoutEnum
 
+<<<<<<< HEAD
 ## Data: [DATE]
+=======
+<<<<<<< HEAD
+## Data: 2025-01-27
+=======
+<<<<<<< HEAD
+## Data: [DATE]
+=======
+## Data: 2025-01-27
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## Scenario
 Implementazione di una lista utenti con toggle tra layout lista e griglia utilizzando il `TableLayoutEnum`.
@@ -28,13 +40,91 @@ use Modules\Xot\Filament\Resources\XotBaseListRecords;
 class ListUsers extends XotBaseListRecords
 {
     protected TableLayoutEnum $layout;
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function mount(): void
     {
         parent::mount();
         $this->layout = TableLayoutEnum::init();
     }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function table(Table $table): Table
     {
         return $table
@@ -45,7 +135,46 @@ class ListUsers extends XotBaseListRecords
             ->searchable()
             ->filterable();
     }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     /**
      * Restituisce le colonne appropriate per il layout corrente
      */
@@ -69,7 +198,46 @@ class ListUsers extends XotBaseListRecords
                     default => 'gray',
                 }),
         ];
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+        
+=======
+
+>>>>>>> laraxot/dev
+=======
+        
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $gridColumns = [
             Stack::make([
                 TextColumn::make('name')
@@ -88,10 +256,77 @@ class ListUsers extends XotBaseListRecords
                     default => 'gray',
                 }),
         ];
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+        
+        return $this->layout->getTableColumns($listColumns, $gridColumns);
+    }
+    
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
         return $this->layout->getTableColumns($listColumns, $gridColumns);
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     /**
      * Azioni header con toggle layout
      */
@@ -107,7 +342,46 @@ class ListUsers extends XotBaseListRecords
             // Altre azioni...
         ];
     }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     /**
      * Azioni bulk per il layout corrente
      */
@@ -257,56 +531,436 @@ class TableLayoutEnumTest extends TestCase
     {
         $this->assertEquals(TableLayoutEnum::LIST, TableLayoutEnum::init());
     }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function test_toggle_switches_layout(): void
     {
         $layout = TableLayoutEnum::LIST;
         $this->assertEquals(TableLayoutEnum::GRID, $layout->toggle());
         $this->assertEquals(TableLayoutEnum::LIST, $layout->toggle()->toggle());
     }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function test_get_label_returns_translated_string(): void
     {
         $listLabel = TableLayoutEnum::LIST->getLabel();
         $gridLabel = TableLayoutEnum::GRID->getLabel();
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+        
+=======
+
+>>>>>>> laraxot/dev
+=======
+        
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $this->assertIsString($listLabel);
         $this->assertIsString($gridLabel);
         $this->assertNotEmpty($listLabel);
         $this->assertNotEmpty($gridLabel);
     }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function test_get_color_returns_valid_color(): void
     {
         $listColor = TableLayoutEnum::LIST->getColor();
         $gridColor = TableLayoutEnum::GRID->getColor();
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+        
+=======
+
+>>>>>>> laraxot/dev
+=======
+        
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $this->assertIsString($listColor);
         $this->assertIsString($gridColor);
         $this->assertNotEmpty($listColor);
         $this->assertNotEmpty($gridColor);
     }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function test_get_icon_returns_valid_icon(): void
     {
         $listIcon = TableLayoutEnum::LIST->getIcon();
         $gridIcon = TableLayoutEnum::GRID->getIcon();
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+        
+=======
+
+>>>>>>> laraxot/dev
+=======
+        
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $this->assertIsString($listIcon);
         $this->assertIsString($gridIcon);
         $this->assertNotEmpty($listIcon);
         $this->assertNotEmpty($gridIcon);
     }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function test_get_table_content_grid_returns_null_for_list(): void
     {
         $this->assertNull(TableLayoutEnum::LIST->getTableContentGrid());
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+    
+    public function test_get_table_content_grid_returns_array_for_grid(): void
+    {
+        $grid = TableLayoutEnum::GRID->getTableContentGrid();
+        
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
     public function test_get_table_content_grid_returns_array_for_grid(): void
     {
         $grid = TableLayoutEnum::GRID->getTableContentGrid();
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $this->assertIsArray($grid);
         $this->assertArrayHasKey('sm', $grid);
         $this->assertArrayHasKey('md', $grid);
@@ -314,46 +968,359 @@ class TableLayoutEnumTest extends TestCase
         $this->assertArrayHasKey('xl', $grid);
         $this->assertArrayHasKey('2xl', $grid);
     }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function test_get_table_columns_returns_correct_columns(): void
     {
         $listColumns = ['name', 'email'];
         $gridColumns = ['stack'];
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
         $result = TableLayoutEnum::LIST->getTableColumns($listColumns, $gridColumns);
         $this->assertEquals($listColumns, $result);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+        
+        $result = TableLayoutEnum::LIST->getTableColumns($listColumns, $gridColumns);
+        $this->assertEquals($listColumns, $result);
+        
+        $result = TableLayoutEnum::GRID->getTableColumns($listColumns, $gridColumns);
+        $this->assertEquals($gridColumns, $result);
+    }
+    
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+
+        $result = TableLayoutEnum::LIST->getTableColumns($listColumns, $gridColumns);
+        $this->assertEquals($listColumns, $result);
+        
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $result = TableLayoutEnum::GRID->getTableColumns($listColumns, $gridColumns);
         $this->assertEquals($gridColumns, $result);
     }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function test_is_grid_layout_returns_correct_boolean(): void
     {
         $this->assertTrue(TableLayoutEnum::GRID->isGridLayout());
         $this->assertFalse(TableLayoutEnum::LIST->isGridLayout());
     }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function test_is_list_layout_returns_correct_boolean(): void
     {
         $this->assertTrue(TableLayoutEnum::LIST->isListLayout());
         $this->assertFalse(TableLayoutEnum::GRID->isListLayout());
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+    
+    public function test_get_options_returns_all_options(): void
+    {
+        $options = TableLayoutEnum::getOptions();
+        
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
     public function test_get_options_returns_all_options(): void
     {
         $options = TableLayoutEnum::getOptions();
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $this->assertIsArray($options);
         $this->assertArrayHasKey('list', $options);
         $this->assertArrayHasKey('grid', $options);
         $this->assertCount(2, $options);
     }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function test_get_container_classes_returns_valid_classes(): void
     {
         $listClasses = TableLayoutEnum::LIST->getContainerClasses();
         $gridClasses = TableLayoutEnum::GRID->getContainerClasses();
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+        
+=======
+
+>>>>>>> laraxot/dev
+=======
+        
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $this->assertEquals('table-layout-list', $listClasses);
         $this->assertEquals('table-layout-grid', $gridClasses);
     }
@@ -408,6 +1375,12 @@ TextColumn::make('name')
 
 - [Analisi TableLayoutEnum](table_layout_enum_analysis.md)
 - [Usage Guide](table-layout-enum-usage.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 - [Translation Standards](../../../../docs/translation_standards.md)
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
 - [Enum Translation Pattern](../../../../docs/enum-translation-pattern.md)
@@ -430,6 +1403,46 @@ declare(strict_types=1);
 
 namespace Modules\User\Filament\Resources\UserResource\Pages;
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+- [Translation Standards](../../../docs/translation_standards.md)
+- [Filament Best Practices](../../../docs/filament_best_practices.md)
+- [Enum Translation Pattern](../../../docs/enum-translation-pattern.md)
+
+<<<<<<< HEAD
+*Ultimo aggiornamento: 2025-01-27* 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Ultimo aggiornamento: 2025-01-27* 
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Ultimo aggiornamento: 2025-01-27* 
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+*Ultimo aggiornamento: 2025-01-27*
+# Esempio Implementazione TableLayoutEnum
+## Data: 2025-01-27
+## Scenario
+Implementazione di una lista utenti con toggle tra layout lista e griglia utilizzando il `TableLayoutEnum`.
+## Implementazione Completa
+### 1. ListRecords Class
+```php
+<?php
+declare(strict_types=1);
+namespace Modules\User\Filament\Resources\UserResource\Pages;
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 use Filament\Actions\Action;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -438,19 +1451,51 @@ use Filament\Tables\Columns\TextColumn;
 use Filament\Support\Enums\FontWeight;
 use Modules\UI\Enums\TableLayoutEnum;
 use Modules\Xot\Filament\Resources\XotBaseListRecords;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+class ListUsers extends XotBaseListRecords
+{
+    protected TableLayoutEnum $layout;
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 
 class ListUsers extends XotBaseListRecords
 {
     protected TableLayoutEnum $layout;
 
+<<<<<<< HEAD
+=======
+=======
+class ListUsers extends XotBaseListRecords
+{
+    protected TableLayoutEnum $layout;
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function mount(): void
     {
         parent::mount();
         $this->layout = TableLayoutEnum::init();
     }
+<<<<<<< HEAD
 
     public function table(Table $table): Table
     {
+=======
+<<<<<<< HEAD
+    public function table(Table $table): Table
+=======
+<<<<<<< HEAD
+
+    public function table(Table $table): Table
+    {
+=======
+    public function table(Table $table): Table
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         return $table
             ->columns($this->getColumnsForLayout())
             ->contentGrid($this->layout->getTableContentGrid())
@@ -458,23 +1503,60 @@ class ListUsers extends XotBaseListRecords
             ->defaultSort('created_at', 'desc')
             ->searchable()
             ->filterable();
+<<<<<<< HEAD
     }
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    }
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     /**
      * Restituisce le colonne appropriate per il layout corrente
      */
     protected function getColumnsForLayout(): array
+<<<<<<< HEAD
     {
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    {
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $listColumns = [
             TextColumn::make('name')
                 ->searchable()
                 ->sortable(),
             TextColumn::make('email')
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            TextColumn::make('created_at')
+                ->dateTime()
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
                 ->searchable()
                 ->sortable(),
             TextColumn::make('created_at')
                 ->dateTime()
                 ->sortable(),
+<<<<<<< HEAD
+=======
+=======
+            TextColumn::make('created_at')
+                ->dateTime()
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             TextColumn::make('status')
                 ->badge()
                 ->color(fn (string $state): string => match ($state) {
@@ -483,13 +1565,29 @@ class ListUsers extends XotBaseListRecords
                     default => 'gray',
                 }),
         ];
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $gridColumns = [
             Stack::make([
                 TextColumn::make('name')
                     ->weight(FontWeight::Bold)
                     ->searchable(),
                 TextColumn::make('email')
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
                     ->searchable(),
                 TextColumn::make('created_at')
                     ->dateTime(),
@@ -511,12 +1609,36 @@ class ListUsers extends XotBaseListRecords
      */
     protected function getHeaderActions(): array
     {
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+                TextColumn::make('created_at')
+                    ->dateTime(),
+            ]),
+        return $this->layout->getTableColumns($listColumns, $gridColumns);
+     * Azioni header con toggle layout
+    protected function getHeaderActions(): array
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         return [
             Action::make('toggleLayout')
                 ->icon($this->layout->getIcon())
                 ->color($this->layout->getColor())
                 ->action(function () {
                     $this->layout = $this->layout->toggle();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            // Altre azioni...
+     * Azioni bulk per il layout corrente
+    protected function getBulkActions(): array
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
                 }),
             // Altre azioni...
         ];
@@ -528,6 +1650,15 @@ class ListUsers extends XotBaseListRecords
     protected function getBulkActions(): array
     {
         return [
+<<<<<<< HEAD
+=======
+=======
+            // Altre azioni...
+     * Azioni bulk per il layout corrente
+    protected function getBulkActions(): array
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             Tables\Actions\BulkAction::make('activate')
                 ->icon('heroicon-o-check-circle')
                 ->action(function ($records) {
@@ -536,6 +1667,12 @@ class ListUsers extends XotBaseListRecords
                 ->visible(fn () => $this->layout->isListLayout()),
             Tables\Actions\BulkAction::make('deactivate')
                 ->icon('heroicon-o-x-circle')
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
                 ->action(function ($records) {
                     // Logica disattivazione
                 })
@@ -553,6 +1690,20 @@ class ListUsers extends XotBaseListRecords
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+                    // Logica disattivazione
+}
+```
+### 2. Traduzioni Richieste
+#### File: `Modules/User/lang/it/fields.php`
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 return [
     'name' => [
         'label' => 'Nome',
@@ -565,12 +1716,28 @@ return [
         'placeholder' => 'Inserisci email',
         'tooltip' => 'Indirizzo email dell\'utente',
         'helper_text' => 'Email valida per le comunicazioni',
+<<<<<<< HEAD
     ],
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    ],
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     'created_at' => [
         'label' => 'Data Creazione',
         'placeholder' => '',
         'tooltip' => 'Data di registrazione dell\'utente',
         'helper_text' => 'Data di creazione dell\'account',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     ],
     'status' => [
         'label' => 'Stato',
@@ -588,15 +1755,47 @@ return [
 declare(strict_types=1);
 
 return [
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+    'status' => [
+        'label' => 'Stato',
+        'tooltip' => 'Stato attuale dell\'utente',
+        'helper_text' => 'Stato attivo o inattivo',
+];
+#### File: `Modules/User/lang/it/actions.php`
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     'activate' => [
         'label' => 'Attiva',
         'tooltip' => 'Attiva gli utenti selezionati',
         'helper_text' => 'Rendi attivi gli utenti selezionati',
+<<<<<<< HEAD
     ],
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    ],
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     'deactivate' => [
         'label' => 'Disattiva',
         'tooltip' => 'Disattiva gli utenti selezionati',
         'helper_text' => 'Rendi inattivi gli utenti selezionati',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+#### File: `Modules/UI/lang/it/table-layout.php` (aggiornato)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     ],
 ];
 ```
@@ -608,6 +1807,13 @@ return [
 declare(strict_types=1);
 
 return [
+<<<<<<< HEAD
+=======
+=======
+#### File: `Modules/UI/lang/it/table-layout.php` (aggiornato)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     'list' => [
         'label' => 'Lista',
         'color' => 'primary',
@@ -615,7 +1821,17 @@ return [
         'description' => 'Visualizzazione a lista tradizionale',
         'tooltip' => 'Mostra elementi in formato lista',
         'helper_text' => 'Layout tradizionale con righe e colonne',
+<<<<<<< HEAD
     ],
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    ],
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     'grid' => [
         'label' => 'Griglia',
         'color' => 'success',
@@ -623,21 +1839,51 @@ return [
         'description' => 'Visualizzazione a griglia con card',
         'tooltip' => 'Mostra elementi in formato griglia',
         'helper_text' => 'Layout a griglia con card responsive',
+<<<<<<< HEAD
     ],
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    ],
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     'toggle' => [
         'label' => 'Cambia Layout',
         'tooltip' => 'Alterna tra visualizzazione lista e griglia',
         'helper_text' => 'Cambia il tipo di visualizzazione',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+### 3. CSS Personalizzato (Opzionale)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     ],
 ];
 ```
 
 ### 3. CSS Personalizzato (Opzionale)
 
+<<<<<<< HEAD
+=======
+=======
+### 3. CSS Personalizzato (Opzionale)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ```css
 /* File: Modules/UI/resources/css/table-layout.css */
 .table-layout-list {
     @apply bg-white rounded-lg shadow-sm;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 }
 
 .table-layout-grid {
@@ -684,10 +1930,47 @@ class TableLayoutEnumTest extends TestCase
         $listLabel = TableLayoutEnum::LIST->getLabel();
         $gridLabel = TableLayoutEnum::GRID->getLabel();
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+.table-layout-grid {
+    @apply bg-gray-50 rounded-lg p-4;
+.table-layout-grid .filament-tables-table {
+    @apply grid gap-4;
+.table-layout-grid .filament-tables-row {
+    @apply bg-white rounded-lg shadow-sm p-4;
+### 4. Test Unitario
+namespace Modules\UI\Tests\Unit\Enums;
+use PHPUnit\Framework\TestCase;
+class TableLayoutEnumTest extends TestCase
+    public function test_init_returns_list(): void
+        $this->assertEquals(TableLayoutEnum::LIST, TableLayoutEnum::init());
+    public function test_toggle_switches_layout(): void
+        $layout = TableLayoutEnum::LIST;
+        $this->assertEquals(TableLayoutEnum::GRID, $layout->toggle());
+        $this->assertEquals(TableLayoutEnum::LIST, $layout->toggle()->toggle());
+    public function test_get_label_returns_translated_string(): void
+        $listLabel = TableLayoutEnum::LIST->getLabel();
+        $gridLabel = TableLayoutEnum::GRID->getLabel();
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $this->assertIsString($listLabel);
         $this->assertIsString($gridLabel);
         $this->assertNotEmpty($listLabel);
         $this->assertNotEmpty($gridLabel);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    public function test_get_color_returns_valid_color(): void
+        $listColor = TableLayoutEnum::LIST->getColor();
+        $gridColor = TableLayoutEnum::GRID->getColor();
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     }
 
     public function test_get_color_returns_valid_color(): void
@@ -695,10 +1978,28 @@ class TableLayoutEnumTest extends TestCase
         $listColor = TableLayoutEnum::LIST->getColor();
         $gridColor = TableLayoutEnum::GRID->getColor();
 
+<<<<<<< HEAD
+=======
+=======
+    public function test_get_color_returns_valid_color(): void
+        $listColor = TableLayoutEnum::LIST->getColor();
+        $gridColor = TableLayoutEnum::GRID->getColor();
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $this->assertIsString($listColor);
         $this->assertIsString($gridColor);
         $this->assertNotEmpty($listColor);
         $this->assertNotEmpty($gridColor);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    public function test_get_icon_returns_valid_icon(): void
+        $listIcon = TableLayoutEnum::LIST->getIcon();
+        $gridIcon = TableLayoutEnum::GRID->getIcon();
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     }
 
     public function test_get_icon_returns_valid_icon(): void
@@ -706,10 +2007,25 @@ class TableLayoutEnumTest extends TestCase
         $listIcon = TableLayoutEnum::LIST->getIcon();
         $gridIcon = TableLayoutEnum::GRID->getIcon();
 
+<<<<<<< HEAD
+=======
+=======
+    public function test_get_icon_returns_valid_icon(): void
+        $listIcon = TableLayoutEnum::LIST->getIcon();
+        $gridIcon = TableLayoutEnum::GRID->getIcon();
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $this->assertIsString($listIcon);
         $this->assertIsString($gridIcon);
         $this->assertNotEmpty($listIcon);
         $this->assertNotEmpty($gridIcon);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     }
 
     public function test_get_table_content_grid_returns_null_for_list(): void
@@ -721,12 +2037,31 @@ class TableLayoutEnumTest extends TestCase
     {
         $grid = TableLayoutEnum::GRID->getTableContentGrid();
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+    public function test_get_table_content_grid_returns_null_for_list(): void
+        $this->assertNull(TableLayoutEnum::LIST->getTableContentGrid());
+    public function test_get_table_content_grid_returns_array_for_grid(): void
+        $grid = TableLayoutEnum::GRID->getTableContentGrid();
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $this->assertIsArray($grid);
         $this->assertArrayHasKey('sm', $grid);
         $this->assertArrayHasKey('md', $grid);
         $this->assertArrayHasKey('lg', $grid);
         $this->assertArrayHasKey('xl', $grid);
         $this->assertArrayHasKey('2xl', $grid);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     }
 
     public function test_get_table_columns_returns_correct_columns(): void
@@ -757,10 +2092,40 @@ class TableLayoutEnumTest extends TestCase
     {
         $options = TableLayoutEnum::getOptions();
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+    public function test_get_table_columns_returns_correct_columns(): void
+        $listColumns = ['name', 'email'];
+        $gridColumns = ['stack'];
+        $result = TableLayoutEnum::LIST->getTableColumns($listColumns, $gridColumns);
+        $this->assertEquals($listColumns, $result);
+        $result = TableLayoutEnum::GRID->getTableColumns($listColumns, $gridColumns);
+        $this->assertEquals($gridColumns, $result);
+    public function test_is_grid_layout_returns_correct_boolean(): void
+        $this->assertTrue(TableLayoutEnum::GRID->isGridLayout());
+        $this->assertFalse(TableLayoutEnum::LIST->isGridLayout());
+    public function test_is_list_layout_returns_correct_boolean(): void
+        $this->assertTrue(TableLayoutEnum::LIST->isListLayout());
+        $this->assertFalse(TableLayoutEnum::GRID->isListLayout());
+    public function test_get_options_returns_all_options(): void
+        $options = TableLayoutEnum::getOptions();
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $this->assertIsArray($options);
         $this->assertArrayHasKey('list', $options);
         $this->assertArrayHasKey('grid', $options);
         $this->assertCount(2, $options);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     }
 
     public function test_get_container_classes_returns_valid_classes(): void
@@ -776,25 +2141,76 @@ class TableLayoutEnumTest extends TestCase
 
 ## Vantaggi dell'Implementazione
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+    public function test_get_container_classes_returns_valid_classes(): void
+        $listClasses = TableLayoutEnum::LIST->getContainerClasses();
+        $gridClasses = TableLayoutEnum::GRID->getContainerClasses();
+        $this->assertEquals('table-layout-list', $listClasses);
+        $this->assertEquals('table-layout-grid', $gridClasses);
+## Vantaggi dell'Implementazione
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### 1. Type Safety
 - Enum garantisce valori validi
 - Type hints espliciti
 - Previene errori runtime
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### 2. Responsive Design
 - Grid configurabile per breakpoints
 - CSS nativo senza JS aggiuntivo
 - Performance ottimizzata
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### 3. UX Consistency
 - Icone e colori coerenti
 - Traduzioni centralizzate
 - Comportamento prevedibile
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### 4. Maintainability
 - Codice DRY e riutilizzabile
 - Separazione responsabilità
 - Testabilità migliorata
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 
 ## Regole Critiche Implementate
 
@@ -807,16 +2223,47 @@ TextColumn::make('name')->label('Nome')
 TextColumn::make('name')
 ```
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+## Regole Critiche Implementate
+### ❌ MAI usare ->label()
+// ERRORE - Non fare mai questo
+TextColumn::make('name')->label('Nome')
+// ✅ CORRETTO - Usa il sistema di traduzioni automatico
+TextColumn::make('name')
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### ✅ Sistema Traduzioni Automatico
 - Il LangServiceProvider gestisce automaticamente le traduzioni
 - Le chiavi vengono generate automaticamente dal nome del campo
 - Struttura: `modulo::risorsa.fields.campo.label`
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### ✅ Enum Translation Pattern
 - **SEMPRE** usare `transClass()` negli enum per le traduzioni
 - **MAI** usare `__()` o `trans()` direttamente negli enum
 - **SEMPRE** struttura espansa nei file di traduzione
 - **SEMPRE** `use TransTrait;` negli enum
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 
 ## Collegamenti
 
@@ -826,3 +2273,38 @@ TextColumn::make('name')
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
 - [Enum Translation Pattern](../../../../docs/enum-translation-pattern.md)
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+## Collegamenti
+- [Analisi TableLayoutEnum](table_layout_enum_analysis.md)
+- [Usage Guide](table-layout-enum-usage.md)
+- [Translation Standards](../../../docs/translation_standards.md)
+- [Filament Best Practices](../../../docs/filament_best_practices.md)
+- [Enum Translation Pattern](../../../docs/enum-translation-pattern.md)
+
+<<<<<<< HEAD
+```
+=======
+*Ultimo aggiornamento: 2025-01-27*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+*Ultimo aggiornamento: 2025-01-27* 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

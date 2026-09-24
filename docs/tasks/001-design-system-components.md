@@ -276,5 +276,22 @@ The UI module needs a robust design system with consistent components, theming c
 
 ---
 
+<<<<<<< HEAD
 **Status**: Pending
 **Assignee**: TBD
+=======
+<<<<<<< HEAD
+**Created**: 2026-01-31
+**Status**: Pending
+**Assignee**: TBD
+=======
+<<<<<<< HEAD
+**Status**: Pending
+**Assignee**: TBD
+=======
+**Created**: 2026-01-31
+**Status**: Pending
+**Assignee**: TBD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

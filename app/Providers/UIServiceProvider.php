@@ -13,10 +13,33 @@ use Modules\Xot\Providers\XotBaseServiceProvider;
  * Nota: la registrazione dei Blade components modulari avviene tramite GetModulePathByGeneratorAction
  * per garantire la corretta risoluzione dei path secondo la struttura dei moduli.
  *
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ * Nessun binding Geo/Map/Location: dominio geografico non appartiene a UI
+ * (vedi docs/geo-boundary.md). In questo progetto il modulo Geo non è presente.
+ *
+=======
+<<<<<<< HEAD
+=======
+ * Nessun binding Geo/Map/Location: dominio geografico non appartiene a UI
+ * (vedi docs/geo-boundary.md). In questo progetto il modulo Geo non è presente.
+ *
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
  * @phpstan-type ModuleConfig array{name: string, alias: string, description: string, keywords: array<int, string>, priority: int, providers: array<int, class-string>}
  */
 class UIServiceProvider extends XotBaseServiceProvider
 {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    public string $name = 'UI';
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     /**
      * Nome del modulo.
      */
@@ -25,10 +48,24 @@ class UIServiceProvider extends XotBaseServiceProvider
     /**
      * Directory del modulo.
      */
+<<<<<<< HEAD
+=======
+=======
+    public string $name = 'UI';
+
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     protected string $module_dir = __DIR__;
 
     protected string $module_ns = __NAMESPACE__;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     /**
      * Registra i servizi del provider.
      *
@@ -42,11 +79,19 @@ class UIServiceProvider extends XotBaseServiceProvider
 
         $this->app->singleton(
             \Modules\UI\Contracts\MapServiceContract::class,
+<<<<<<< HEAD
             \Modules\UI\Services\Map\NullMapService::class,
         );
         $this->app->singleton(
             \Modules\UI\Contracts\GeocodingServiceContract::class,
             \Modules\UI\Services\Map\NullGeocodingService::class,
+=======
+            \Modules\UI\Adapters\Map\NullMapServiceAdapter::class,
+        );
+        $this->app->singleton(
+            \Modules\UI\Contracts\GeocodingServiceContract::class,
+            \Modules\UI\Adapters\Map\NullGeocodingServiceAdapter::class,
+>>>>>>> laraxot/dev
         );
     }
 
@@ -61,6 +106,12 @@ class UIServiceProvider extends XotBaseServiceProvider
     /**
      * Restituisce il percorso delle viste dei componenti UI.
      */
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function getComponentViewPath(): string
     {
         return app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-view');

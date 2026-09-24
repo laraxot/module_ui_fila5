@@ -10,6 +10,12 @@ use PHPUnit\Framework\Assert;
 use function Safe\file_get_contents;
 
 uses(TestCase::class);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 // Laraxot — see module docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
@@ -19,6 +25,12 @@ uses(TestCase::class);
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 function sixteenComponentsBasePath(): string
 {
@@ -108,7 +120,19 @@ describe('Component Files Exist', function (): void {
             static fn (string $relativePath): bool => file_exists($themeBasePath.$relativePath),
         ));
 
+<<<<<<< HEAD
         if ([] !== $legacyPresent) {
+=======
+<<<<<<< HEAD
+        if ($legacyPresent !== []) {
+=======
+<<<<<<< HEAD
+        if ([] !== $legacyPresent) {
+=======
+        if ($legacyPresent !== []) {
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             Assert::markTestSkipped('Legacy root components still present: '.implode(', ', $legacyPresent));
         }
 

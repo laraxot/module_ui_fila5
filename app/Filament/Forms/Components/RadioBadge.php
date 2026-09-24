@@ -4,11 +4,31 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 use Filament\Forms\Components\Radio;
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 
 class RadioBadge extends Radio
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+use Filament\Support\Contracts\HasColor;
+use Filament\Support\Contracts\HasIcon;
+use Modules\Xot\Filament\Forms\Components\XotBaseRadio;
+
+class RadioBadge extends XotBaseRadio
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 {
     protected string $view = 'ui::filament.forms.components.radio-badge';
 

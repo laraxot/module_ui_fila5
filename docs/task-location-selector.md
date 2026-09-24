@@ -3,6 +3,17 @@
 **Modulo**: UI
 **Priorita'**: Media
 **Completamento**: 30%
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+**Data**: 2026-01-30
+=======
+<<<<<<< HEAD
+=======
+**Data**: 2026-01-30
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ---
 

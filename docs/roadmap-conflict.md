@@ -10,7 +10,33 @@
 
 ## 🎯 MODULE OVERVIEW
 
+<<<<<<< HEAD
 Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+Il modulo **UI** è il sistema di componenti e design system della piattaforma <nome progetto>, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+=======
+<<<<<<< HEAD
+Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+=======
+<<<<<<< HEAD
+Il modulo **UI** è il sistema di componenti e design system della piattaforma progetto corrente, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+=======
+Il modulo **UI** è il sistema di componenti e design system della piattaforma <nome progetto>, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ### 🏗️ Architettura Modulo
 ```
@@ -289,7 +315,21 @@ UI Module
 
 ---
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+**Last Updated**: 2025-10-01
+**Next Review**: 2025-11-01
+=======
+<<<<<<< HEAD
+
+=======
+**Last Updated**: 2025-10-01
+**Next Review**: 2025-11-01
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 **Status**: 🚧 ACTIVE DEVELOPMENT
 **Confidence Level**: 90%
 

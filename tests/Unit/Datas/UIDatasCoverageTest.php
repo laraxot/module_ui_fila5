@@ -4,7 +4,18 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit\Datas;
 
+<<<<<<< HEAD
 use Modules\UI\Data\UserData as DataUserData;
+=======
+<<<<<<< HEAD
+use Modules\UI\Data\UserData as DataUserData;
+=======
+<<<<<<< HEAD
+=======
+use Modules\UI\Data\UserData as DataUserData;
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 use Modules\UI\Datas\SliderData;
 use Modules\UI\Datas\SliderDataCollection;
 use Modules\UI\Datas\UserData;
@@ -13,6 +24,12 @@ use PHPUnit\Framework\Assert;
 use Spatie\LaravelData\Data;
 
 uses(TestCase::class);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
@@ -21,6 +38,12 @@ uses(TestCase::class);
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 it('SliderData can be instantiated with all fields', function (): void {
     $data = new SliderData(
@@ -77,13 +100,37 @@ it('SliderData can be instantiated with nulls', function (): void {
 });
 
 it('SliderDataCollection can be instantiated', function (): void {
+<<<<<<< HEAD
     $collection = new SliderDataCollection();
+=======
+<<<<<<< HEAD
+    $collection = new SliderDataCollection;
+=======
+<<<<<<< HEAD
+    $collection = new SliderDataCollection();
+=======
+    $collection = new SliderDataCollection;
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
     Assert::assertInstanceOf(SliderDataCollection::class, $collection);
 });
 
 it('SliderDataCollection is a Spatie Data class', function (): void {
+<<<<<<< HEAD
     $collection = new SliderDataCollection();
+=======
+<<<<<<< HEAD
+    $collection = new SliderDataCollection;
+=======
+<<<<<<< HEAD
+    $collection = new SliderDataCollection();
+=======
+    $collection = new SliderDataCollection;
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
     Assert::assertInstanceOf(Data::class, $collection);
 });
@@ -114,6 +161,14 @@ it('UI Datas UserData is a Spatie Data class', function (): void {
 
     Assert::assertInstanceOf(Data::class, $data);
 });
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 it('UI Data UserData can be instantiated', function (): void {
     $data = new DataUserData(
@@ -138,3 +193,10 @@ it('UI Data UserData is a Spatie Data class', function (): void {
 
     Assert::assertInstanceOf(Data::class, $data);
 });
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
