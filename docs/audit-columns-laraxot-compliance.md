@@ -1,31 +1,6 @@
 # Audit e Correzione Colonne Filament - Modulo UI
 
-<<<<<<< HEAD
 **Data**: 11 Novembre 2025
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_IDSqlO
-=======
-**Data**: 11 Novembre 2025
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_ZDeJF1
-=======
-<<<<<<< HEAD
-**Data**: 11 Novembre 2025
-=======
-<<<<<<< HEAD
-=======
-**Data**: 11 Novembre 2025
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-**Data**: 11 Novembre 2025
-=======
->>>>>>> .merge_file_9leHQi
->>>>>>> laraxot/dev
->>>>>>> .merge_file_Fwx8QC
->>>>>>> laraxot/dev
 **Status**: ✅ COMPLETATO
 
 ## Analisi Completa

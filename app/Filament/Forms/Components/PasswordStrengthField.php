@@ -5,48 +5,9 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Forms\Components;
 
 // use bjeavons\ZxcvbnPhp\Zxcvbn;
-<<<<<<< HEAD
 use Modules\Xot\Filament\Forms\Components\XotBaseTextInput;
 
 class PasswordStrengthField extends XotBaseTextInput
-=======
-<<<<<<< .merge_file_spSOG0
-=======
-<<<<<<< .merge_file_LmOuMp
->>>>>>> .merge_file_rpimZv
-<<<<<<< HEAD
-use Filament\Forms\Components\TextInput;
-
-class PasswordStrengthField extends TextInput
-=======
-<<<<<<< .merge_file_spSOG0
-=======
-<<<<<<< HEAD
-use Modules\Xot\Filament\Forms\Components\XotBaseTextInput;
-
-class PasswordStrengthField extends XotBaseTextInput
-=======
-<<<<<<< HEAD
-use Filament\Forms\Components\TextInput;
-
-class PasswordStrengthField extends TextInput
-=======
->>>>>>> .merge_file_rpimZv
-use Modules\Xot\Filament\Forms\Components\XotBaseTextInput;
-
-class PasswordStrengthField extends XotBaseTextInput
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_spSOG0
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-use Modules\Xot\Filament\Forms\Components\XotBaseTextInput;
-
-class PasswordStrengthField extends XotBaseTextInput
->>>>>>> .merge_file_C6y9B8
->>>>>>> .merge_file_rpimZv
->>>>>>> laraxot/dev
 {
     /**
      * Setup iniziale del componente.
@@ -62,33 +23,7 @@ class PasswordStrengthField extends XotBaseTextInput
 
     public function evaluateStrength(): static
     {
-<<<<<<< HEAD
         $this->afterStateUpdated(static function (string $state): void {
-=======
-<<<<<<< .merge_file_spSOG0
-=======
-<<<<<<< .merge_file_LmOuMp
-<<<<<<< HEAD
-        $this->afterStateUpdated(function (string $state): void {
-=======
-<<<<<<< HEAD
-        $this->afterStateUpdated(static function (string $state): void {
-=======
->>>>>>> .merge_file_rpimZv
-<<<<<<< HEAD
-        $this->afterStateUpdated(function (string $state): void {
-=======
-        $this->afterStateUpdated(static function (string $state): void {
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_spSOG0
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        $this->afterStateUpdated(static function (string $state): void {
->>>>>>> .merge_file_C6y9B8
->>>>>>> .merge_file_rpimZv
->>>>>>> laraxot/dev
             unset($state);
             // $zxcvbn = new Zxcvbn();
             // $result = $zxcvbn->passwordStrength($state);

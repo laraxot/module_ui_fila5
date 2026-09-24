@@ -2,37 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_lowK0Y
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_pOLIQ5
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_8ehHg1
-// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/UI/docs/wiki — domain i18n only.
-// File: lang/de/slider.php
-<<<<<<< .merge_file_lowK0Y
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_JCAvTg
->>>>>>> .merge_file_8ehHg1
->>>>>>> laraxot/dev
 return [
     'fields' => [
         'method' => [

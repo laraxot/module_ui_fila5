@@ -142,23 +142,13 @@ php artisan tinker --execute="TableLayoutToggleTableAction::make('test');"
 # Testare l'URL che causava l'errore
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
+=======
 curl -I http://127.0.0.1:8001/modulo questionari/admin/gaia/survey-pdfs
-=======
-<<<<<<< HEAD
-=======
-curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_haWD6k
-=======
-<<<<<<< HEAD
-=======
-curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
-=======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
->>>>>>> .merge_file_P07Ixw
->>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
 curl -I http://127.0.0.1:8001/modulo questionari/admin/gaia/survey-pdfs
 =======
 <<<<<<< HEAD
@@ -181,40 +171,20 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
-<<<<<<< .merge_file_haWD6k
+curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
+>>>>>>> laraxot/dev
 =======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_P07Ixw
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 ```
 
 ### Risultati Test
 
 <<<<<<< HEAD
-✅ **Sintassi PHP**: Nessun errore di sintassi  
-✅ **Istanziazione**: Classe istanziabile correttamente  
-✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)  
-=======
 <<<<<<< HEAD
-<<<<<<< .merge_file_haWD6k
-=======
-✅ **Sintassi PHP**: Nessun errore di sintassi
-✅ **Istanziazione**: Classe istanziabile correttamente
-✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)
-=======
 <<<<<<< HEAD
-✅ **Sintassi PHP**: Nessun errore di sintassi  
-✅ **Istanziazione**: Classe istanziabile correttamente  
-✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)  
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_P07Ixw
 ✅ **Sintassi PHP**: Nessun errore di sintassi
 ✅ **Istanziazione**: Classe istanziabile correttamente
 ✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)
@@ -223,11 +193,15 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 ✅ **Istanziazione**: Classe istanziabile correttamente  
 ✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)  
 >>>>>>> laraxot/dev
-<<<<<<< .merge_file_haWD6k
 =======
+✅ **Sintassi PHP**: Nessun errore di sintassi
+✅ **Istanziazione**: Classe istanziabile correttamente
+✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_P07Ixw
+=======
+✅ **Sintassi PHP**: Nessun errore di sintassi  
+✅ **Istanziazione**: Classe istanziabile correttamente  
+✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)  
 >>>>>>> laraxot/dev
 ✅ **PHPStan**: Nessun errore di linting rilevato
 
@@ -255,40 +229,25 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 ---
 
 <<<<<<< HEAD
-=======
 <<<<<<< HEAD
-<<<<<<< .merge_file_haWD6k
-=======
+<<<<<<< HEAD
 **Modulo**: UI
 **Tipo**: Bug Fix
 **Priorità**: Alta
 =======
-<<<<<<< HEAD
 =======
-<<<<<<< HEAD
->>>>>>> .merge_file_P07Ixw
-**Modulo**: UI
-**Tipo**: Bug Fix
-**Priorità**: Alta
-=======
-<<<<<<< .merge_file_haWD6k
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_P07Ixw
 >>>>>>> laraxot/dev
 **Data**: 27 Gennaio 2025  
 **Modulo**: UI  
 **Tipo**: Bug Fix  
 **Priorità**: Alta  
 <<<<<<< HEAD
-=======
-<<<<<<< .merge_file_haWD6k
-=======
-<<<<<<< HEAD
-=======
 >>>>>>> laraxot/dev
+=======
+**Modulo**: UI
+**Tipo**: Bug Fix
+**Priorità**: Alta
 >>>>>>> laraxot/dev
->>>>>>> .merge_file_P07Ixw
->>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 **Stato**: ✅ Risolto

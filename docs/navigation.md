@@ -35,62 +35,12 @@ $page->navigation
 ### Versione HEAD
 
 ## Collegamenti tra versioni di navigation.md
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_S3pK67
-=======
-<<<<<<< .merge_file_Zp4XzO
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 * [navigation.md](../../../Gdpr/docs/navigation.md)
 * [navigation.md](../../../Xot/docs/navigation.md)
 * [navigation.md](../../../UI/docs/navigation.md)
 * [navigation.md](../../../Cms/docs/blocks/navigation.md)
 * [navigation.md](../../../Cms/docs/navigation.md)
 * [navigation.md](../../../Cms/docs/components/navigation.md)
-<<<<<<< HEAD
-=======
-=======
->>>>>>> .merge_file_bk0uJy
->>>>>>> .merge_file_ATuMdz
-* [navigation.md](../../../gdpr/docs/navigation.md)
-* [navigation.md](../../../xot/docs/navigation.md)
-* [navigation.md](../../../ui/docs/navigation.md)
-* [navigation.md](../../../cms/docs/blocks/navigation.md)
-* [navigation.md](../../../cms/docs/navigation.md)
-* [navigation.md](../../../cms/docs/components/navigation.md)
-<<<<<<< .merge_file_S3pK67
-=======
-=======
-<<<<<<< .merge_file_Zp4XzO
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_ATuMdz
-* [navigation.md](../../../Gdpr/docs/navigation.md)
-* [navigation.md](../../../Xot/docs/navigation.md)
-* [navigation.md](../../../UI/docs/navigation.md)
-* [navigation.md](../../../Cms/docs/blocks/navigation.md)
-* [navigation.md](../../../Cms/docs/navigation.md)
-* [navigation.md](../../../Cms/docs/components/navigation.md)
-<<<<<<< .merge_file_S3pK67
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_bk0uJy
->>>>>>> .merge_file_ATuMdz
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 
 ### Versione Incoming
 

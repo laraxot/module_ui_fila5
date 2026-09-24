@@ -5,53 +5,10 @@ tags: [overview]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "00-overview roadmap overview (module ui)"
-<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_gDx9Wy
-=======
-<<<<<<< .merge_file_CtsUfS
-=======
-<<<<<<< .merge_file_4XupER
-=======
->>>>>>> laraxot/dev
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_snOMR7
->>>>>>> .merge_file_BpBqu8
->>>>>>> .merge_file_QadDG9
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_gDx9Wy
-=======
-<<<<<<< .merge_file_CtsUfS
-=======
-<<<<<<< .merge_file_4XupER
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_snOMR7
->>>>>>> .merge_file_BpBqu8
->>>>>>> .merge_file_QadDG9
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index.md"

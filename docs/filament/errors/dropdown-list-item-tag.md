@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_orjOnm
-=======
-=======
-<<<<<<< .merge_file_jmsc8r
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_EkM5xv
->>>>>>> .merge_file_H93CHm
->>>>>>> laraxot/dev
 ---
 title: "Errore: Tag Mancante nei Dropdown List Items"
 type: concept
@@ -22,66 +5,15 @@ tags: [dropdown, list, item, tag]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "dropdown-list-item-tag errore: tag mancante nei dropdown list items"
-<<<<<<< HEAD
-<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-<<<<<<< .merge_file_orjOnm
-=======
-<<<<<<< .merge_file_jmsc8r
->>>>>>> .merge_file_H93CHm
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_orjOnm
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_EkM5xv
->>>>>>> .merge_file_H93CHm
->>>>>>> laraxot/dev
 related:
   - "./common-errors.md"
   - "./static-instance-method-incompatibility.md"
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_orjOnm
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_jmsc8r
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_EkM5xv
->>>>>>> .merge_file_H93CHm
->>>>>>> laraxot/dev
 # Errore: Tag Mancante nei Dropdown List Items
 
 ## Problema

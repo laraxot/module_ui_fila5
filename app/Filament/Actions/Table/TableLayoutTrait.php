@@ -22,11 +22,7 @@ trait TableLayoutTrait
         /** @var TableLayoutEnum|string|int|null $layout */
         $layout = Session::get($sessionKey);
 
-<<<<<<< HEAD
         if ($layout !== null && in_array($layout, TableLayoutEnum::cases(), strict: true)) {
-=======
-        if (null !== $layout && in_array($layout, TableLayoutEnum::cases(), strict: true)) {
->>>>>>> laraxot/dev
             // $layout è già un TableLayoutEnum dopo il controllo in_array con strict
             return $layout;
         }
@@ -34,44 +30,12 @@ trait TableLayoutTrait
         // Se $layout è una stringa/int, prova a convertirlo
         if (is_string($layout) || is_int($layout)) {
             $enum = TableLayoutEnum::tryFrom($layout);
-<<<<<<< HEAD
             if ($enum !== null) {
-=======
-            if (null !== $enum) {
->>>>>>> laraxot/dev
                 return $enum;
             }
         }
 
-<<<<<<< HEAD
         return TableLayoutEnum::LIST;
-=======
-<<<<<<< .merge_file_yZ6X2W
-<<<<<<< HEAD
-        return TableLayoutEnum::GRID;
-=======
-        return TableLayoutEnum::LIST;
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_rU3BEL
-<<<<<<< HEAD
-        return TableLayoutEnum::GRID;
-=======
-<<<<<<< HEAD
-        return TableLayoutEnum::LIST;
-=======
-<<<<<<< HEAD
-        return TableLayoutEnum::GRID;
-=======
-        return TableLayoutEnum::LIST;
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        return TableLayoutEnum::LIST;
->>>>>>> .merge_file_o2jZnW
->>>>>>> .merge_file_lccDlw
->>>>>>> laraxot/dev
     }
 
     /**

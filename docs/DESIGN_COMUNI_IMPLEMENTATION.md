@@ -126,68 +126,11 @@ All Bootstrap Italia classes are mapped to Tailwind via @apply:
 
 Pages are configured via JSON files:
 
-<<<<<<< HEAD
 **Location**: `config/local/fixcity/database/content/pages/`
-=======
-<<<<<<< HEAD
-**Location**: `config/local/fixcity/database/content/pages/`
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_rJjCdd
-=======
-**Location**: `config/local/fixcity/database/content/pages/`
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_3dSzk0
->>>>>>> laraxot/dev
-**Location**: `config/local/<nome progetto>/database/content/pages/`
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-**Location**: `config/local/current/database/content/pages/`
-=======
-**Location**: `config/local/<nome progetto>/database/content/pages/`
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 
 **Location**: `config/local/<nome progetto>/database/content/pages/`
 **Location**: `config/local/current/database/content/pages/`
 
-=======
-
-**Location**: `config/local/<nome progetto>/database/content/pages/`
-**Location**: `config/local/current/database/content/pages/`
-<<<<<<< .merge_file_rJjCdd
->>>>>>> laraxot/dev
-
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-
-<<<<<<< HEAD
-**Location**: `config/local/<nome progetto>/database/content/pages/`
-**Location**: `config/local/current/database/content/pages/`
-
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_3dSzk0
->>>>>>> laraxot/dev
 **Example**: `tests.homepage.json`
 
 ```json

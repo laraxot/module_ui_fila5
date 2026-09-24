@@ -55,26 +55,7 @@
 1. La documentazione dei componenti UI deve essere in `Modules/UI/docs/`
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
-<<<<<<< HEAD
 4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_DVrkfZ
-4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti 
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
-=======
-4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti 
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_ODGW6o
->>>>>>> laraxot/dev
 ## Collegamenti tra versioni di filament-components.md
 * [filament-components.md](../../User/docs/best-practices/filament-components.md)
 * [filament-components.md](../../Cms/docs/best-practices/filament-components.md)

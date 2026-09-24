@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_1G9j6h
-=======
-=======
-<<<<<<< .merge_file_dtJn8V
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ISbZQx
->>>>>>> .merge_file_ANav5f
->>>>>>> laraxot/dev
 ---
 title: "Eav"
 type: concept
@@ -22,44 +5,10 @@ tags: [eav]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "eav eav"
-<<<<<<< HEAD
-<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-<<<<<<< .merge_file_1G9j6h
-=======
-<<<<<<< .merge_file_dtJn8V
->>>>>>> .merge_file_ANav5f
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_1G9j6h
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_ISbZQx
->>>>>>> .merge_file_ANav5f
->>>>>>> laraxot/dev
 related:
   - "./api-1.md"
   - "./api.md"
@@ -71,22 +20,5 @@ related:
   - "./changelog-2.md"
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_1G9j6h
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_dtJn8V
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_ISbZQx
->>>>>>> .merge_file_ANav5f
->>>>>>> laraxot/dev
 https://github.com/yemenpoint/filament-custom-fields
 
