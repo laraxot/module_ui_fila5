@@ -1,55 +1,7 @@
-<<<<<<< .merge_file_nFHmMj
-=======
-<<<<<<< .merge_file_ltgiOZ
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_OXmyUC
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_APo6pP
->>>>>>> .merge_file_CvpgH3
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
-<<<<<<< .merge_file_nFHmMj
-=======
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-<<<<<<< .merge_file_ltgiOZ
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_kjsTLm
->>>>>>> .merge_file_APo6pP
-<?php
-
-declare(strict_types=1);
-?>
->>>>>>> .merge_file_CvpgH3
 @props([
     'title' => 'title 1',
     'description' => 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.',

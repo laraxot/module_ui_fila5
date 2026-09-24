@@ -2,41 +2,11 @@
 
 declare(strict_types=1);
 
-<<<<<<< .merge_file_SySAh1
-=======
-<<<<<<< .merge_file_PnHyTe
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_OYBy7W
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_2wmjXb
->>>>>>> .merge_file_16oZmz
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/en/table_layout.php
 return [
-<<<<<<< .merge_file_SySAh1
-=======
-<<<<<<< .merge_file_PnHyTe
-=======
-return [
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-return [
-=======
-return [
->>>>>>> .merge_file_PT3arh
->>>>>>> .merge_file_2wmjXb
->>>>>>> .merge_file_16oZmz
     'values' => [
         'list' => [
             'label' => 'List',
@@ -51,21 +21,6 @@ return [
             'description' => 'Grid',
         ],
     ],
-<<<<<<< .merge_file_SySAh1
-=======
-<<<<<<< .merge_file_PnHyTe
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_OYBy7W
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_PT3arh
->>>>>>> .merge_file_2wmjXb
->>>>>>> .merge_file_16oZmz
     'actions' => [
         'toggle' => [
             'label' => 'Toggle Layout',

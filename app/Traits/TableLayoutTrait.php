@@ -8,21 +8,6 @@ use Illuminate\Support\Facades\Session;
 use Modules\UI\Enums\TableLayoutEnum;
 
 /** @phpstan-ignore trait.unused */
-<<<<<<< .merge_file_thEs88
-=======
-=======
-<<<<<<< .merge_file_SYNS1n
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-/** @phpstan-ignore trait.unused */
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_3nw5NO
->>>>>>> laraxot/dev
->>>>>>> .merge_file_76Zzba
 trait TableLayoutTrait
 {
     public function getTableLayout(): TableLayoutEnum

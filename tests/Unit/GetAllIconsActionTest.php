@@ -20,8 +20,6 @@ uses(TestCase::class);
  * poi cammina il filesystem: mockarla toglierebbe di mezzo esattamente ciò che c'è da
  * verificare. Qui il set è reale, i file SVG sono reali, e si asserisce il risultato.
  *
-<<<<<<< .merge_file_ksL3LW
-=======
  * <<<<<<< .merge_file_xgz9D2
  *
  * @param array<int, string> $relativeFiles
@@ -33,7 +31,6 @@ uses(TestCase::class);
  * @param array<int, string> $relativeFiles
  *                                          =======
  *                                          <<<<<<< .merge_file_SG4ufS
->>>>>>> .merge_file_QmJBPm
  * @param array<int, string> $relativeFiles
  *                                          =======
  * @param array<int, string> $relativeFiles

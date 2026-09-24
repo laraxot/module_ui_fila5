@@ -2,21 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< .merge_file_ykbesx
-=======
-<<<<<<< .merge_file_eHO6fE
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_9UW7cJ
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-return [
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_F0NtDb
->>>>>>> .merge_file_wlxXfi
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
@@ -69,21 +54,7 @@ return [
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
-<<<<<<< .merge_file_ykbesx
 return [
-=======
-=======
-return [
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_eHO6fE
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-return [
->>>>>>> .merge_file_G05atJ
->>>>>>> .merge_file_F0NtDb
->>>>>>> .merge_file_wlxXfi
     'fields' => [
         'monday' => [
             'morning' => [

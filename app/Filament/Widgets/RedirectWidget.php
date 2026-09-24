@@ -4,31 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Widgets;
 
-<<<<<<< .merge_file_YIcdcP
 use Filament\Schemas\Components\Component;
-=======
-<<<<<<< .merge_file_Yli5YI
-=======
-<<<<<<< .merge_file_hbQ76G
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-use Filament\Schemas\Components\Component;
-=======
->>>>>>> .merge_file_PYBKPZ
-<<<<<<< HEAD
-=======
-use Filament\Schemas\Components\Component;
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_Yli5YI
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-use Filament\Schemas\Components\Component;
->>>>>>> .merge_file_iGPWtr
->>>>>>> .merge_file_PYBKPZ
->>>>>>> .merge_file_aIWb7y
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 /**
@@ -91,33 +67,7 @@ final class RedirectWidget extends XotBaseSchemaWidget
      * Implementazione richiesta da XotBaseWidget.
      * Per questo widget non abbiamo form, quindi restituiamo array vuoto.
      *
-<<<<<<< .merge_file_YIcdcP
      * @return array<string, mixed>
-=======
-<<<<<<< .merge_file_Yli5YI
-=======
-<<<<<<< .merge_file_hbQ76G
-<<<<<<< HEAD
-     * @return array<string, mixed>
-=======
-<<<<<<< HEAD
-     * @return array<string, Component>
-=======
->>>>>>> .merge_file_PYBKPZ
-<<<<<<< HEAD
-     * @return array<string, mixed>
-=======
-     * @return array<string, Component>
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_Yli5YI
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-     * @return array<string, Component>
->>>>>>> .merge_file_iGPWtr
->>>>>>> .merge_file_PYBKPZ
->>>>>>> .merge_file_aIWb7y
      */
     public function getFormSchema(): array
     {

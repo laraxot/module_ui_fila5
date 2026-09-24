@@ -2,40 +2,10 @@
 
 declare(strict_types=1);
 
-<<<<<<< .merge_file_fmkAnK
-=======
-<<<<<<< .merge_file_ar5Ieq
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_I5tcWi
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_vGX4UE
->>>>>>> .merge_file_Pp0c3R
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/en/calendar.php
-<<<<<<< .merge_file_fmkAnK
-=======
-<<<<<<< .merge_file_ar5Ieq
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_4ZgvGB
->>>>>>> .merge_file_vGX4UE
->>>>>>> .merge_file_Pp0c3R
 return [
     'previous_month' => 'Previous month',
     'next_month' => 'Next month',

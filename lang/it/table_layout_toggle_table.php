@@ -2,40 +2,10 @@
 
 declare(strict_types=1);
 
-<<<<<<< .merge_file_8WOlsR
-=======
-<<<<<<< .merge_file_KsZ3ny
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_KZM3MK
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_bj1TpY
->>>>>>> .merge_file_X2X6MF
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/it/table_layout_toggle_table.php
-<<<<<<< .merge_file_8WOlsR
-=======
-<<<<<<< .merge_file_KsZ3ny
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_2qx8Fa
->>>>>>> .merge_file_bj1TpY
->>>>>>> .merge_file_X2X6MF
 return [
     'actions' => [
         'toggle' => [
@@ -72,34 +42,11 @@ return [
         ],
         'label' => 'Table Layout Toggle Table',
         'sort' => 1,
-<<<<<<< .merge_file_8WOlsR
         'icon' => 'heroicon-o-collection',
-=======
-<<<<<<< .merge_file_KsZ3ny
-<<<<<<< HEAD
+        'icon' => 'heroicon-o-rectangle-stack',
         'icon' => 'heroicon-o-collection',
-=======
         'icon' => 'heroicon-o-rectangle-stack',
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_KZM3MK
-<<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
-=======
-<<<<<<< HEAD
         'icon' => 'heroicon-o-rectangle-stack',
-=======
-<<<<<<< HEAD
-        'icon' => 'heroicon-o-collection',
-=======
-        'icon' => 'heroicon-o-rectangle-stack',
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        'icon' => 'heroicon-o-rectangle-stack',
->>>>>>> .merge_file_2qx8Fa
->>>>>>> .merge_file_bj1TpY
->>>>>>> .merge_file_X2X6MF
     ],
 ];

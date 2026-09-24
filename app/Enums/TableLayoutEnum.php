@@ -99,48 +99,15 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
      * This method replaces the old debug_backtrace approach with explicit
      * parameter passing for better type safety and testability.
      *
-<<<<<<< .merge_file_rwGAmw
-=======
-<<<<<<< .merge_file_KUPd6T
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_DwC5nL
-     * <<<<<<< HEAD
->>>>>>> .merge_file_vVzznq
      *
      * @param array<Column|ColumnGroup|Component>             $listColumns Columns for list layout
      * @param array<Column|ColumnGroup|Component>             $gridColumns Columns for grid layout
->>>>>>> .merge_file_XNuapC
      * @param array<int|string, Column|ColumnGroup|Component> $listColumns Columns for list layout
      * @param array<int|string, Column|ColumnGroup|Component> $gridColumns Columns for grid layout
      * @param array<Column|ColumnGroup|Component>             $listColumns Columns for list layout
      * @param array<Column|ColumnGroup|Component>             $gridColumns Columns for grid layout
      *
      * @return array<Column|ColumnGroup|Component>
-<<<<<<< .merge_file_rwGAmw
-=======
-     *                                                         =======
-     *                                                         <<<<<<< HEAD
-     * @return array<int|string, Column|ColumnGroup|Component>
-<<<<<<< .merge_file_KUPd6T
-=======
-     *                                                         =======
-     * @return array<Column|ColumnGroup|Component>
-     *                                                         >>>>>>> laraxot/dev
-     *                                                         >>>>>>> laraxot/dev
-     */
->>>>>>> laraxot/dev
->>>>>>> .merge_file_XNuapC
-=======
-     * @param array<Column|ColumnGroup|Component> $listColumns Columns for list layout
-     * @param array<Column|ColumnGroup|Component> $gridColumns Columns for grid layout
-     *
-     * @return array<Column|ColumnGroup|Component>
-<<<<<<< .merge_file_KUPd6T
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_XNuapC
->>>>>>> .merge_file_vVzznq
      */
     public function getTableColumns(array $listColumns, array $gridColumns): array
     {
