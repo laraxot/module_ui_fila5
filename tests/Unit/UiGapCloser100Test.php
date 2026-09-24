@@ -327,17 +327,25 @@ describe('UI gap closer 100 — middleware trait rules', function (): void {
             }
         };
 
-        Session::put('table_layout', TableLayoutEnum::LIST);
-        Assert::assertSame(TableLayoutEnum::LIST, $subject->getTableLayout());
+        $cases = [
+            'enum instance' => [TableLayoutEnum::LIST, TableLayoutEnum::LIST],
+            'valid string' => ['list', TableLayoutEnum::LIST],
+            'invalid string' => ['invalid', TableLayoutEnum::GRID],
+            'missing value' => [null, TableLayoutEnum::GRID],
+        ];
 
-        Session::put('table_layout', 'list');
-        Assert::assertSame(TableLayoutEnum::LIST, $subject->getTableLayout());
+        foreach ($cases as $label => [$sessionValue, $expected]) {
+            if (null === $sessionValue) {
+                Session::forget('table_layout');
+            } else {
+                Session::put('table_layout', $sessionValue);
+            }
 
-        Session::put('table_layout', 'invalid');
-        Assert::assertSame(TableLayoutEnum::GRID, $subject->getTableLayout());
+            Assert::assertSame($expected, $subject->getTableLayout(), $label);
+        }
 
-        Session::forget('table_layout');
-        Assert::assertSame(TableLayoutEnum::GRID, $subject->getTableLayout());
+        $subject->setTableLayout(TableLayoutEnum::GRID);
+        Assert::assertSame('grid', Session::get('table_layout'));
 
         $subject->refreshTable();
         Assert::assertGreaterThan(0, $subject->dispatched);
