@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_AcJ599
-=======
-=======
-<<<<<<< .merge_file_yOlMta
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_MZEV0E
->>>>>>> .merge_file_8HSY6y
->>>>>>> laraxot/dev
 ---
 title: "FullCalendar Component"
 type: concept
@@ -22,49 +5,6 @@ tags: [full, calendar]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "full-calendar fullcalendar component"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-<<<<<<< .merge_file_AcJ599
-=======
-<<<<<<< .merge_file_yOlMta
->>>>>>> .merge_file_8HSY6y
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-related:
----
-
-=======
-related:
----
-
-<<<<<<< .merge_file_AcJ599
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
@@ -72,11 +12,6 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 ---
 
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_MZEV0E
->>>>>>> .merge_file_8HSY6y
->>>>>>> laraxot/dev
 # FullCalendar Component
 
 ## Introduction

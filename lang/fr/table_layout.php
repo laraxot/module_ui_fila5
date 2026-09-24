@@ -2,39 +2,7 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
 return [
-=======
-<<<<<<< .merge_file_bOdjuh
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_JrVSN0
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_d5Auhx
-// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/UI/docs/wiki — domain i18n only.
-// File: lang/fr/table_layout.php
-return [
-<<<<<<< .merge_file_bOdjuh
-=======
-return [
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-return [
-=======
-return [
->>>>>>> .merge_file_h5chLX
->>>>>>> .merge_file_d5Auhx
->>>>>>> laraxot/dev
     'values' => [
         'list' => [
             'label' => 'Liste',
@@ -49,21 +17,6 @@ return [
             'description' => 'Grille',
         ],
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_bOdjuh
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_JrVSN0
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_h5chLX
->>>>>>> .merge_file_d5Auhx
->>>>>>> laraxot/dev
     'actions' => [
         'toggle' => [
             'label' => 'Basculer la disposition',

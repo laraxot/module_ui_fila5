@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_kEehZz
-=======
-=======
-<<<<<<< .merge_file_YVTYaZ
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_mMrz6F
->>>>>>> .merge_file_CGAeD3
->>>>>>> laraxot/dev
 ---
 title: "Filament"
 type: concept
@@ -22,44 +5,10 @@ tags: [filament]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament filament"
-<<<<<<< HEAD
-<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-<<<<<<< .merge_file_kEehZz
-=======
-<<<<<<< .merge_file_YVTYaZ
->>>>>>> .merge_file_CGAeD3
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_kEehZz
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_mMrz6F
->>>>>>> .merge_file_CGAeD3
->>>>>>> laraxot/dev
 related:
   - "./api-1.md"
   - "./api.md"
@@ -71,23 +20,6 @@ related:
   - "./changelog-2.md"
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_kEehZz
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_YVTYaZ
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_mMrz6F
->>>>>>> .merge_file_CGAeD3
->>>>>>> laraxot/dev
 https://github.com/savannabits/filament-signature-pad
 
 

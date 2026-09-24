@@ -145,31 +145,6 @@ public function form(Form $form): Form
 
 ### Input
 ```blade
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< .merge_file_sTdp59
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_d9hs6T
->>>>>>> laraxot/dev
-<x-ui::input 
-    name="email" 
-    type="email" 
-    label="Email" 
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_sTdp59
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_d9hs6T
->>>>>>> laraxot/dev
 <x-ui::input
     name="email"
     type="email"
@@ -311,32 +286,6 @@ form.addEventListener('submit', (e) => {
 - [Componenti Table](./table-components.md)
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< .merge_file_sTdp59
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_d9hs6T
->>>>>>> laraxot/dev
-- [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
-## Collegamenti tra versioni di form-components.md
-* [form-components.md](../../../UI/docs/form-components.md)
-* [form-components.md](../../../UI/docs/roadmap/form-components.md)
-
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_sTdp59
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_d9hs6T
->>>>>>> laraxot/dev
 - [Documentazione Frontend](../Cms/docs/frontend-architecture.md)
 ## Collegamenti tra versioni di form-components.md
 * [form-components.md](../../../UI/docs/form-components.md)

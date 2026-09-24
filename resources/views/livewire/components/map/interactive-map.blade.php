@@ -1,66 +1,7 @@
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_tPlQws
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_0saKrM
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_OWMG8z
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-@endphp
-
-@php
-@endphp
-
-@php
-@endphp
-
-@php
-@endphp
-
-<<<<<<< .merge_file_tPlQws
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 <?php
 
 declare(strict_types=1);
 ?>
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_8eW08b
->>>>>>> .merge_file_OWMG8z
->>>>>>> laraxot/dev
 <div class="interactive-map-container" wire:ignore.self>
     <!-- Controlli mappa -->
     @if($showControls)

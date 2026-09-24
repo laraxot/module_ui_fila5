@@ -37,32 +37,8 @@ enum UiCoverageBadgeEnum: string implements HasColor, HasIcon
             self::HtmlIcon => '<svg></svg>',
             self::NullIcon => null,
             self::HtmlableIcon => new HtmlString('<i>x</i>'),
-<<<<<<< HEAD
             self::BareHtmlableIcon => new class implements Htmlable
             {
-=======
-<<<<<<< .merge_file_tnYTbr
-            self::BareHtmlableIcon => new class implements Htmlable
-            {
-=======
-<<<<<<< .merge_file_utwPIF
-=======
-<<<<<<< .merge_file_9az2qH
->>>>>>> .merge_file_pMfyEA
-<<<<<<< HEAD
-            self::BareHtmlableIcon => new class implements Htmlable
-            {
-=======
-            self::BareHtmlableIcon => new class implements Htmlable {
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_utwPIF
-=======
-=======
-            self::BareHtmlableIcon => new class implements Htmlable {
->>>>>>> .merge_file_hGtRze
->>>>>>> .merge_file_pMfyEA
->>>>>>> .merge_file_ijzP2M
->>>>>>> laraxot/dev
                 public function toHtml(): string
                 {
                     return 'x';

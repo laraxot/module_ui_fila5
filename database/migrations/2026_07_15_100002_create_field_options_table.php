@@ -1,31 +1,12 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_th0mbs
-
-=======
-<<<<<<< .merge_file_0v9yE2
-
-=======
-<<<<<<< .merge_file_5sdRca
-
-=======
->>>>>>> .merge_file_GxRNBQ
->>>>>>> .merge_file_gN1QpW
->>>>>>> .merge_file_krt2Pq
->>>>>>> laraxot/dev
 use Illuminate\Database\Schema\Blueprint;
 use Modules\UI\Models\FieldOption;
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
-<<<<<<< HEAD
 return new class extends XotBaseMigration
 {
-=======
-return new class extends XotBaseMigration {
->>>>>>> laraxot/dev
     protected ?string $model_class = FieldOption::class;
 
     public function up(): void

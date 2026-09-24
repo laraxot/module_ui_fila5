@@ -19,48 +19,7 @@ docs/
 ├── wiki/
 │   ├── index.md           # Catalogo
 │   ├── log.md             # Registro
-<<<<<<< HEAD
-<<<<<<< HEAD
-│   ├── SCHEMA.md          # Questo file
 │   ├── schema.md          # Questo file
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_9omppo
-=======
-<<<<<<< .merge_file_y6hco3
-=======
-<<<<<<< .merge_file_hFkCy0
-=======
-│   ├── schema.md          # Questo file
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_UvjOtE
->>>>>>> .merge_file_NqlCHx
->>>>>>> .merge_file_TG0MiA
->>>>>>> laraxot/dev
-│   ├── SCHEMA.md          # Questo file
-<<<<<<< HEAD
-│   ├── schema.md          # Questo file
-=======
-=======
-│   ├── schema.md          # Questo file
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_9omppo
-=======
-<<<<<<< .merge_file_y6hco3
-=======
-<<<<<<< .merge_file_hFkCy0
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_UvjOtE
->>>>>>> .merge_file_NqlCHx
->>>>>>> .merge_file_TG0MiA
->>>>>>> laraxot/dev
 │   ├── concepts/          # Pattern, architettura
 │   ├── entities/          # Modelli, azioni
 │   ├── sources/           # Doc esterna

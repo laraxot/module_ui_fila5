@@ -1,23 +1,4 @@
-<<<<<<< HEAD
 # Utilizzo dei Componenti Filament Dropdown e Avatar
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_yngXEy
-# Utilizzo dei Componenti Filament Dropdown e Avatar 
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-# Utilizzo dei Componenti Filament Dropdown e Avatar
-=======
-# Utilizzo dei Componenti Filament Dropdown e Avatar 
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_E76B1J
->>>>>>> laraxot/dev
 
 ## Collegamenti correlati
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
@@ -86,34 +67,8 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
 @if($isLoggedIn)
     {{-- Dropdown per utente loggato --}}
     <div class="relative" x-data="{ open: false }" @click.away="open = false">
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_yngXEy
-=======
->>>>>>> laraxot/dev
         <button
             @click="open = ! open"
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_E76B1J
->>>>>>> laraxot/dev
-        <button
-            @click="open = ! open"
-=======
-        <button 
-            @click="open = ! open" 
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_yngXEy
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_E76B1J
->>>>>>> laraxot/dev
             class="flex items-center text-sm font-medium text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300 focus:outline-none transition duration-150 ease-in-out"
         >
             <div>
@@ -128,26 +83,7 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
             </div>
         </button>
 
-<<<<<<< HEAD
         <div
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_yngXEy
-        <div 
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-        <div
-=======
-        <div 
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_E76B1J
->>>>>>> laraxot/dev
             x-show="open"
             x-transition:enter="transition ease-out duration-200"
             x-transition:enter-start="transform opacity-0 scale-95"
@@ -264,31 +200,7 @@ $this->mount(function () {
 
 ## Gestione delle Traduzioni
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto> per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_yngXEy
-=======
-Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto> per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_E76B1J
->>>>>>> laraxot/dev
-Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto> per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
-=======
-Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di SaluteOra per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_yngXEy
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_E76B1J
->>>>>>> laraxot/dev
 
 ### Struttura delle Traduzioni
 

@@ -37,33 +37,6 @@ Depending on where your site is hosted, you may need to configure your server to
 * [custom-404-page.md](../../../Tenant/docs/it/custom-404-page.md)
 * [custom-404-page.md](../../../Cms/docs/custom-404-page.md)
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< .merge_file_Zxk9i3
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_ZwJpHd
->>>>>>> laraxot/dev
-
-### Versione Incoming
-
-
----
-
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_Zxk9i3
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_ZwJpHd
->>>>>>> laraxot/dev
 ### Versione Incoming
 
 ---

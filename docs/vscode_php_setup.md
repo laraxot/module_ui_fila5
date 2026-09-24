@@ -107,29 +107,14 @@
             "    protected static ?string \\$model = ${2:Name}::class;",
             "",
 <<<<<<< HEAD
+            "    public static function getFormSchema(): array",
+=======
 <<<<<<< HEAD
 =======
             "    public static function getFormSchema(): array",
 >>>>>>> laraxot/dev
-            "    public function getFormSchema(): array",
-=======
-            "    public static function getFormSchema(): array",
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_R0WmD8
-            "    public function getFormSchema(): array",
-=======
-<<<<<<< HEAD
-            "    public function getFormSchema(): array",
-=======
-<<<<<<< HEAD
-=======
-            "    public function getFormSchema(): array",
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_bnL6ZL
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
+            "    public function getFormSchema(): array",
             "    {",
             "        return [",
             "            $0",

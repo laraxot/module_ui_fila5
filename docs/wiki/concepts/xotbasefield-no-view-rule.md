@@ -2,23 +2,6 @@
 name: xotbasefield-no-view-rule
 description: XotBaseField subclasses must not declare a protected $view property; view is computed dynamically.
 type: concept
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_0rwitM
-=======
-=======
-<<<<<<< .merge_file_1HdiNM
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_5oV5hV
->>>>>>> .merge_file_0FdoLp
->>>>>>> laraxot/dev
 related:
   - "./auth-register-focus-loss-overlay.md"
   - "./block-rendering-and-optional-services.md"
@@ -28,23 +11,6 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_0rwitM
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_1HdiNM
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_5oV5hV
->>>>>>> .merge_file_0FdoLp
->>>>>>> laraxot/dev
 ---
 
 # XotBaseField – No `$view` Property Rule

@@ -2,37 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_9LB2NT
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_JmUSMD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_tk0ESB
-// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/UI/docs/wiki — domain i18n only.
-// File: lang/de/hero.php
-<<<<<<< .merge_file_9LB2NT
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_jWoDlk
->>>>>>> .merge_file_tk0ESB
->>>>>>> laraxot/dev
 return [
     'fields' => [
         'link' => [

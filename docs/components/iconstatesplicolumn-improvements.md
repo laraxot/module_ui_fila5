@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_5PquhL
-=======
-=======
-<<<<<<< .merge_file_GG8uzB
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_hMNzBe
->>>>>>> .merge_file_KspDeK
->>>>>>> laraxot/dev
 ---
 title: "IconStateSplitColumn - Comprehensive Improvements Summary"
 type: concept
@@ -22,44 +5,10 @@ tags: [iconstatesplicolumn, improvements]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "iconstatesplicolumn-improvements iconstatesplitcolumn - comprehensive improvements summary"
-<<<<<<< HEAD
-<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-<<<<<<< .merge_file_5PquhL
-=======
-<<<<<<< .merge_file_GG8uzB
->>>>>>> .merge_file_KspDeK
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_5PquhL
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_hMNzBe
->>>>>>> .merge_file_KspDeK
->>>>>>> laraxot/dev
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -71,23 +20,6 @@ related:
   - "./full-calendar-1.md"
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_5PquhL
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_GG8uzB
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_hMNzBe
->>>>>>> .merge_file_KspDeK
->>>>>>> laraxot/dev
 # IconStateSplitColumn - Comprehensive Improvements Summary
 
 ## 🎯 **Problem Analysis**

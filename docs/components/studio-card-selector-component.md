@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_CXq9DC
-=======
-=======
-<<<<<<< .merge_file_XIeAaa
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_KHchny
->>>>>>> .merge_file_0HXO9w
->>>>>>> laraxot/dev
 ---
 title: "StudioCardSelector Component - Modulo UI"
 type: concept
@@ -22,44 +5,10 @@ tags: [studio, card, selector, component]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "studio-card-selector-component studiocardselector component - modulo ui"
-<<<<<<< HEAD
-<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-<<<<<<< .merge_file_CXq9DC
-=======
-<<<<<<< .merge_file_XIeAaa
->>>>>>> .merge_file_0HXO9w
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_CXq9DC
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_KHchny
->>>>>>> .merge_file_0HXO9w
->>>>>>> laraxot/dev
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -71,23 +20,6 @@ related:
   - "./full-calendar-1.md"
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_CXq9DC
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_XIeAaa
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_KHchny
->>>>>>> .merge_file_0HXO9w
->>>>>>> laraxot/dev
 # StudioCardSelector Component - Modulo UI
 
 ## 🎯 **Panoramica**
