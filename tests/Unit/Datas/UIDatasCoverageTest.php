@@ -105,4 +105,3 @@ it('UI Datas UserData is a Spatie Data class', function (): void {
 
     Assert::assertInstanceOf(Data::class, $data);
 });
-
