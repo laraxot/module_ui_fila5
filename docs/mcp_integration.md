@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+---
+module: theme
+topic: mcp_integration
+canonical: ../../../Themes/docs/shared-components/mcp-integration.md
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/mcp-integration.md
+=======
+>>>>>>> laraxot/dev
 # Integrazione dei Server MCP con il Modulo UI
 
 ## Panoramica
@@ -744,4 +756,8 @@ L'integrazione dei server MCP con il modulo UI consente di migliorare significat
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

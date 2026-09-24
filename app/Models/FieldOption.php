@@ -5,10 +5,36 @@ declare(strict_types=1);
 namespace Modules\UI\Models;
 
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Modules\UI\Database\Factories\FieldOptionFactory;
+use Modules\Xot\Contracts\ProfileContract;
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 use Modules\Xot\Models\BaseModel;
 
 /**
  * FieldOption model for UI module.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ * FormBuilder module not available - extending from XotBaseModel instead.
+ */
+/**
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+ *
+ * @method static FieldOptionFactory          factory($count = null, $state = [])
+ * @method static Builder<static>|FieldOption newModelQuery()
+ * @method static Builder<static>|FieldOption newQuery()
+ * @method static Builder<static>|FieldOption query()
+ *
+ * @property ProfileContract|null $deleter
+ *
+=======
+>>>>>>> laraxot/dev
  *
  * FormBuilder module not available - extending from XotBaseModel instead.
  *
@@ -41,6 +67,10 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|FieldOption whereUpdatedAt($value)
  * @method static Builder<static>|FieldOption whereUpdatedBy($value)
  * @method static Builder<static>|FieldOption whereValue($value)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
  * @mixin \Eloquent
  */
 class FieldOption extends BaseModel

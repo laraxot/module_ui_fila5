@@ -37,8 +37,17 @@ Le Rules progettuali vivono qui, nel wiki del Module **UI**, e vengono caricate 
 <<<<<<< HEAD
 - Per Rules globali, consulta il [wiki root](../../docs/wiki/rules/INDEX.md)
 =======
+<<<<<<< HEAD
 - Per Rules globali, consulta il [wiki root](../../docs/wiki/rules/index.md)
 >>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+- Per Rules globali, consulta il [wiki root](../../docs/wiki/rules/INDEX.md)
+=======
+- Per Rules globali, consulta il [wiki root](../../docs/wiki/rules/index.md)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## Aggiungere una Nuova RULES
 

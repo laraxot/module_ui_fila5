@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "UI Module Roadmap"
 type: concept
@@ -28,6 +33,10 @@ related:
   - "./03-later.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # UI Module Roadmap
 
 Vedi [roadmap/00-index](roadmap/00-index.md).

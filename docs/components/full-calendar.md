@@ -2,6 +2,11 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -47,6 +52,10 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # FullCalendar Component for Filament
 
 ## Introduction
@@ -97,6 +106,12 @@ use Saade\FilamentFullCalendar\Data\EventData;
 /**
  * Base widget for FullCalendar.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ *
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
  * 
 =======
 <<<<<<< HEAD
@@ -119,6 +134,10 @@ use Saade\FilamentFullCalendar\Data\EventData;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
  * Provides core functionality for all calendars in the application.
  */
 abstract class BaseCalendarWidget extends FullCalendarWidget
@@ -160,6 +179,12 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
                 ->helperText(__('ui::calendar.fields.title.help'))
                 ->required(),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
                 
@@ -184,6 +209,10 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
             Forms\Components\Grid::make()
                 ->schema([
@@ -191,6 +220,12 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
                         ->label(__('ui::calendar.fields.start_date.label'))
                         ->required(),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
                         
@@ -215,12 +250,22 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
                     Forms\Components\DateTimePicker::make('end_date')
                         ->label(__('ui::calendar.fields.end_date.label'))
                         ->required(),
                 ]),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
                 
@@ -245,6 +290,10 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
             Forms\Components\Textarea::make('description')
                 ->label(__('ui::calendar.fields.description.label'))
@@ -262,6 +311,11 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
@@ -281,12 +335,21 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
             Forms\Components\ColorPicker::make('color')
                 ->label(__('ui::calendar.fields.color.label'))
                 ->rgb(),
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -299,6 +362,10 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             Forms\Components\Toggle::make('is_all_day')
                 ->label(__('ui::calendar.fields.is_all_day.label'))
                 ->default(false),
@@ -444,6 +511,38 @@ To use the widget in a Blade view:
 ## Backlinks and References
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Ptv Module - Calendar Usage](../../ptv/docs/features/full_calendar.md)
+- [Official Saade FullCalendar Documentation](https://github.com/saade/filament-fullcalendar)
+- [FullCalendar.io Documentation](https://fullcalendar.io/docs)
+
+*
+# FullCalendar Component for Filament
+
+## Introduction
+This document describes the implementation and usage of Saade's FullCalendar component for Filament within the UI modules of Laraxot PTVX. This component offers complete integration of the popular FullCalendar JavaScript plugin with Filament, allowing users to view and manage events in an intuitive calendar interface.
+
+## Installation
+
+To install the component:
+
+```bash
+composer require saade/filament-fullcalendar:^3.0
+```
+
+## Configuration in UI Module
+
+### 1. Plugin Registration
+
+In the UI module service provider (`Modules/UI/Providers/UIServiceProvider.php`), register the FullCalendar plugin:
+
+```php
+use Saade\FilamentFullCalendar\FilamentFullCalendarPlugin;
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 - [Ptv Module - Calendar Usage](../../Ptv/docs/features/full_calendar.md)
 =======
 <<<<<<< HEAD
@@ -496,6 +595,10 @@ composer require saade/filament-fullcalendar:^3.0
 In the UI module service provider (`Modules/UI/Providers/UIServiceProvider.php`), register the FullCalendar plugin:
 ```php
 use Saade\FilamentFullCalendar\FilamentFullCalendarPlugin;
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 // Inside the boot() or register() method
 $this->app->booted(function () {
     // Register the plugin for all Filament panels
@@ -503,15 +606,44 @@ $this->app->booted(function () {
         FilamentFullCalendarPlugin::make()
     );
 });
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+```
+
+### 2. Base Widget Creation
+
+Create a base widget class in the UI module:
+
+```php
+<?php
+
+declare(strict_types=1);
+
+namespace Modules\UI\Filament\Widgets;
+
+=======
+>>>>>>> laraxot/dev
 ### 2. Base Widget Creation
 Create a base widget class in the UI module:
 <?php
 declare(strict_types=1);
 namespace Modules\UI\Filament\Widgets;
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 use Filament\Forms;
 use Illuminate\Database\Eloquent\Model;
 use Saade\FilamentFullCalendar\Widgets\FullCalendarWidget;
 use Saade\FilamentFullCalendar\Data\EventData;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 /**
  * Base widget for FullCalendar.
  *
@@ -525,45 +657,160 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
      * @var class-string<Model>|null
      */
     protected Model | string | null $model = null;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+    /**
+     * Set up the widget configuration.
+     *
+     * @return void
+     */
+    public function setUp(): void
+    {
+        parent::setUp();
+
+=======
+>>>>>>> laraxot/dev
      * Set up the widget configuration.
      * @return void
     public function setUp(): void
     {
         parent::setUp();
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $this->selectable(true)
             ->editable(true)
             ->timezone(config('app.timezone'))
             ->locale('it')
             ->plugins(['dayGrid', 'timeGrid', 'list', 'interaction']);
     }
+<<<<<<< HEAD
      * Get form schema for event creation/editing.
      * @return array<int, Forms\Components\Component>
     public function getFormSchema(): array
+=======
+<<<<<<< HEAD
+
+    /**
+     * Get form schema for event creation/editing.
+     *
+     * @return array<int, Forms\Components\Component>
+     */
+    public function getFormSchema(): array
+    {
+=======
+     * Get form schema for event creation/editing.
+     * @return array<int, Forms\Components\Component>
+    public function getFormSchema(): array
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         return [
             Forms\Components\TextInput::make('title')
                 ->label(__('ui::calendar.fields.title.label'))
                 ->placeholder(__('ui::calendar.fields.title.placeholder'))
                 ->helperText(__('ui::calendar.fields.title.help'))
                 ->required(),
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             Forms\Components\Grid::make()
                 ->schema([
                     Forms\Components\DateTimePicker::make('start_date')
                         ->label(__('ui::calendar.fields.start_date.label'))
                         ->required(),
+<<<<<<< HEAD
                     Forms\Components\DateTimePicker::make('end_date')
                         ->label(__('ui::calendar.fields.end_date.label'))
                 ]),
+=======
+<<<<<<< HEAD
+
+                    Forms\Components\DateTimePicker::make('end_date')
+                        ->label(__('ui::calendar.fields.end_date.label'))
+                        ->required(),
+                ]),
+
+=======
+                    Forms\Components\DateTimePicker::make('end_date')
+                        ->label(__('ui::calendar.fields.end_date.label'))
+                ]),
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             Forms\Components\Textarea::make('description')
                 ->label(__('ui::calendar.fields.description.label'))
                 ->placeholder(__('ui::calendar.fields.description.placeholder'))
                 ->columnSpanFull(),
+<<<<<<< HEAD
             Forms\Components\ColorPicker::make('color')
                 ->label(__('ui::calendar.fields.color.label'))
                 ->rgb(),
+=======
+<<<<<<< HEAD
+
+            Forms\Components\ColorPicker::make('color')
+                ->label(__('ui::calendar.fields.color.label'))
+                ->rgb(),
+
+=======
+            Forms\Components\ColorPicker::make('color')
+                ->label(__('ui::calendar.fields.color.label'))
+                ->rgb(),
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             Forms\Components\Toggle::make('is_all_day')
                 ->label(__('ui::calendar.fields.is_all_day.label'))
                 ->default(false),
         ];
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    }
+
+    /**
+     * Create a new event from form data.
+     *
+     * @param array<string, mixed> $data
+     * @return Model
+     */
+    public function createEvent(array $data): Model
+    {
+        return $this->model::create($data);
+    }
+
+    /**
+     * Update an existing event with form data.
+     *
+     * @param Model $event
+     * @param array<string, mixed> $data
+     * @return Model
+     */
+    public function updateEvent(Model $event, array $data): Model
+    {
+        $event->update($data);
+        return $event;
+    }
+
+    /**
+     * Fetch events to display in the calendar.
+     *
+     * @param array<string, mixed> $fetchInfo
+     * @return array<int, array<string, mixed>>
+     */
+    public function fetchEvents(array $fetchInfo): array
+    {
+        if (!$this->model) {
+            return [];
+        }
+
+=======
+>>>>>>> laraxot/dev
      * Create a new event from form data.
      * @param array<string, mixed> $data
      * @return Model
@@ -581,13 +828,37 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
         if (!$this->model) {
             return [];
         }
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         return $this->model::query()
             ->get()
             ->map(fn ($event) => $this->mapEventToCalendar($event))
             ->toArray();
+<<<<<<< HEAD
      * Map database event model to calendar event.
      * @return array<string, mixed>
     protected function mapEventToCalendar(Model $event): array
+=======
+<<<<<<< HEAD
+    }
+
+    /**
+     * Map database event model to calendar event.
+     *
+     * @param Model $event
+     * @return array<string, mixed>
+     */
+    protected function mapEventToCalendar(Model $event): array
+    {
+        return [
+=======
+     * Map database event model to calendar event.
+     * @return array<string, mixed>
+    protected function mapEventToCalendar(Model $event): array
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             'id' => $event->id,
             'title' => $event->title,
             'start' => $event->start_date,
@@ -596,6 +867,30 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
             'backgroundColor' => $event->color,
             'borderColor' => $event->color,
             'description' => $event->description,
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        ];
+    }
+}
+```
+
+## Event Handling and Customization
+
+### Custom Event Rendering
+
+To customize event appearance:
+
+```php
+/**
+ * Custom JavaScript for event rendering.
+ *
+ * @return string
+ */
+public function eventDidMount(): string
+{
+=======
+>>>>>>> laraxot/dev
 }
 ## Event Handling and Customization
 ### Custom Event Rendering
@@ -603,16 +898,46 @@ To customize event appearance:
  * Custom JavaScript for event rendering.
  * @return string
 public function eventDidMount(): string
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     return <<<JS
 function({ event, el }) {
     el.setAttribute("x-tooltip", "tooltip");
     el.setAttribute("x-data", "{ tooltip: '"+event.title+"' }");
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+}
+JS;
+}
+```
+
+### Drag & Drop Update
+
+To populate the form with new event data after drag & drop:
+
+```php
+/**
+ * Modal actions.
+ *
+ * @return array<Action>
+ */
+protected function modalActions(): array
+{
+=======
+>>>>>>> laraxot/dev
 JS;
 ### Drag & Drop Update
 To populate the form with new event data after drag & drop:
  * Modal actions.
  * @return array<Action>
 protected function modalActions(): array
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     return [
         Actions\EditAction::make()
             ->mountUsing(
@@ -628,10 +953,32 @@ protected function modalActions(): array
             ),
         Actions\DeleteAction::make(),
     ];
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+}
+```
+
+## Blade Integration
+
+To use the widget in a Blade view:
+
+```php
+@livewire(\Modules\Ptv\Filament\Widgets\PtvEventsCalendarWidget::class)
+```
+
+## Best Practices
+
+=======
+>>>>>>> laraxot/dev
 ## Blade Integration
 To use the widget in a Blade view:
 @livewire(\Modules\Ptv\Filament\Widgets\PtvEventsCalendarWidget::class)
 ## Best Practices
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 1. Always extend `BaseCalendarWidget` to maintain consistency
 2. Always use translation files for all labels
 3. Document every property and method with complete PHPDoc
@@ -640,12 +987,25 @@ To use the widget in a Blade view:
 6. Implement appropriate validation in the form schema
 7. Test on different devices to ensure responsiveness
 8. Always use English for class and attribute names
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+## Backlinks and References
+
+- [Ptv Module - Calendar Usage](../../ptv/docs/features/full_calendar.md)
+=======
+>>>>>>> laraxot/dev
 ## Backlinks and References
 
 <<<<<<< HEAD
 ```
 =======
 - [Ptv Module - Calendar Usage](../../ptv/docs/features/full-calendar-1.md)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [Official Saade FullCalendar Documentation](https://github.com/saade/filament-fullcalendar)
 - [FullCalendar.io Documentation](https://fullcalendar.io/docs)
 
@@ -654,6 +1014,11 @@ To use the widget in a Blade view:
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
@@ -664,4 +1029,8 @@ To use the widget in a Blade view:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

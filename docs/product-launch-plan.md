@@ -2,7 +2,15 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # UI - Product Launch Plan
 
 > Piano di lancio. Modulo.
@@ -51,6 +59,11 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 ## Rischi
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -236,6 +249,10 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 - lancio di superfici non ancora supportate dal backend
 - documentazione non aderente al codice reale
@@ -250,6 +267,11 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
@@ -260,3 +282,7 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

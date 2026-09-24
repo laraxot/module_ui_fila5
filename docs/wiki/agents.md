@@ -6,6 +6,14 @@ canonical: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+---
+
+See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+>>>>>>> laraxot/dev
 
 
 ---
@@ -59,3 +67,7 @@ See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Mo
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

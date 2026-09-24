@@ -12,12 +12,28 @@ use Modules\Xot\Filament\Blocks\XotBaseBlock;
 final class Navigation extends XotBaseBlock
 {
     /**
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+     * @return array<int, Component>
+     */
+    #[\Override]
+    public static function getBlockSchema(): array
+    {
+        return [
+            Repeater::make('items')
+=======
+>>>>>>> laraxot/dev
      * @return array<string, Component>
      */
     public static function getBlockSchema(): array
     {
         return [
             'items' => Repeater::make('items')
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
                 ->label(__('ui::blocks.navigation.fields.items.label'))
                 ->schema([
                     TextInput::make('label')
@@ -36,7 +52,15 @@ final class Navigation extends XotBaseBlock
     /**
      * @return array<string, Component>
      */
+<<<<<<< HEAD
     public static function getFormSchema(): array
+=======
+<<<<<<< HEAD
+    public function getFormSchema(): array
+=======
+    public static function getFormSchema(): array
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     {
         return [
             'items' => Repeater::make('items')

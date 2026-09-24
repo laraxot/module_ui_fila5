@@ -37,8 +37,17 @@ Le Commands progettuali vivono qui, nel wiki del Module **UI**, e vengono carica
 <<<<<<< HEAD
 - Per Commands globali, consulta il [wiki root](../../docs/wiki/commands/INDEX.md)
 =======
+<<<<<<< HEAD
 - Per Commands globali, consulta il [wiki root](../../docs/wiki/commands/index.md)
 >>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+- Per Commands globali, consulta il [wiki root](../../docs/wiki/commands/INDEX.md)
+=======
+- Per Commands globali, consulta il [wiki root](../../docs/wiki/commands/index.md)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## Aggiungere una Nuova COMMANDS
 

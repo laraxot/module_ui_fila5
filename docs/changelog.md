@@ -1,4 +1,16 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+---
+module: theme
+topic: changelog
+canonical: ../../../Themes/docs/shared-components/CHANGELOG.md
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/CHANGELOG.md
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 # Changelog
 
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
@@ -41,3 +53,7 @@ Tutte le variazioni importanti di UI saranno generate automaticamente da semanti
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

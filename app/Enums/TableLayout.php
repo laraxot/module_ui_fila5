@@ -20,6 +20,11 @@ enum TableLayout: string
             self::GRID => self::LIST,
         };
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 
     /**
      * @return array<string, string>
@@ -33,4 +38,8 @@ enum TableLayout: string
 
         return $result;
     }
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 }

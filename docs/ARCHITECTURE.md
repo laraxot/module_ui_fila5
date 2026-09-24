@@ -1,4 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 # UI Module Architecture
 
 ## Overview
@@ -27,6 +32,10 @@ The UI module provides Filament-based admin interface components, themes, and ut
 =======
 <<<<<<< HEAD
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # UI Module - Architecture Guide (2025)
 
 > **Last Updated:** 2025-11-19
@@ -683,6 +692,11 @@ The UI module is a **well-architected, feature-rich Filament customization layer
 **Author:** Claude Code Analysis
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 ---
@@ -709,4 +723,8 @@ UI module for Laraxot platform.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

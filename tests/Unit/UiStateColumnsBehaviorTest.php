@@ -11,7 +11,10 @@ use Filament\Notifications\Notification;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\File;
+<<<<<<< HEAD
 use Mockery;
+=======
+>>>>>>> laraxot/dev
 use Modules\UI\Actions\Icon\GetAllIconsAction;
 use Modules\UI\Filament\Forms\Components\AddressField;
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
@@ -26,7 +29,10 @@ use Modules\UI\Tests\Unit\Stubs\UiCoverageRecordWithThrowingState;
 use Modules\UI\Tests\Unit\Stubs\UiCoverageStateContract;
 use Modules\UI\Tests\Unit\Stubs\UiCoverageThrowingTransitionState;
 use PHPUnit\Framework\Assert;
+<<<<<<< HEAD
 use ReflectionClass;
+=======
+>>>>>>> laraxot/dev
 
 use function Safe\mkdir;
 
@@ -34,13 +40,21 @@ uses(TestCase::class);
 
 afterEach(function (): void {
     UiCoverageRecord::$findMap = [];
+<<<<<<< HEAD
     Mockery::close();
+=======
+    \Mockery::close();
+>>>>>>> laraxot/dev
 });
 
 describe('UI state columns — comportamento IconStateColumn', function (): void {
     test('icon color tooltip rispondono allo StateContract', function (): void {
         $column = IconStateColumn::make('state');
+<<<<<<< HEAD
         $state = new UiCoverageStateContract;
+=======
+        $state = new UiCoverageStateContract();
+>>>>>>> laraxot/dev
 
         Assert::assertSame('heroicon-o-clock', $column->getIcon($state));
         Assert::assertSame('warning', $column->getColor($state));
@@ -236,7 +250,11 @@ describe('UI actions — GetAllIconsAction con factory mock', function (): void 
         File::put($tmp.'/sample.svg', '<svg></svg>');
 
         $factory = App::make(IconFactory::class);
+<<<<<<< HEAD
         $ref = new ReflectionClass($factory);
+=======
+        $ref = new \ReflectionClass($factory);
+>>>>>>> laraxot/dev
         $prop = $ref->getProperty('sets');
         $prop->setAccessible(true);
         $prop->setValue($factory, [
@@ -256,7 +274,11 @@ describe('UI actions — GetAllIconsAction con factory mock', function (): void 
     });
 
     test('ritorna array vuoto se reflection fallisce', function (): void {
+<<<<<<< HEAD
         $factory = Mockery::mock(App::make(IconFactory::class))->makePartial();
+=======
+        $factory = \Mockery::mock(App::make(IconFactory::class))->makePartial();
+>>>>>>> laraxot/dev
         App::instance(IconFactory::class, $factory);
 
         Assert::assertSame([], app(GetAllIconsAction::class)->execute());
@@ -266,14 +288,22 @@ describe('UI actions — GetAllIconsAction con factory mock', function (): void 
 /** @return array<int|string, string> */
 function uiEvaluateSelectOptions(Select $select, Model $record, mixed $state): array
 {
+<<<<<<< HEAD
     $ref = new ReflectionClass($select);
+=======
+    $ref = new \ReflectionClass($select);
+>>>>>>> laraxot/dev
     $prop = $ref->getProperty('options');
     $prop->setAccessible(true);
     $options = $prop->getValue($select);
     Assert::assertInstanceOf(\Closure::class, $options);
 
     /** @var array<int|string, string> $result */
+<<<<<<< HEAD
     $result = ($options)->call($select, $record, $state ?? '');
+=======
+    $result = $options->call($select, $record, $state ?? '');
+>>>>>>> laraxot/dev
 
     return $result;
 }
@@ -281,21 +311,33 @@ function uiEvaluateSelectOptions(Select $select, Model $record, mixed $state): a
 /** @return array<int|string, string> */
 function uiEvaluateColumnOptions(SelectStateColumn $column, Model $record, mixed $state): array
 {
+<<<<<<< HEAD
     $ref = new ReflectionClass($column);
+=======
+    $ref = new \ReflectionClass($column);
+>>>>>>> laraxot/dev
     $prop = $ref->getProperty('options');
     $prop->setAccessible(true);
     $options = $prop->getValue($column);
     Assert::assertInstanceOf(\Closure::class, $options);
 
     /** @var array<int|string, string> $result */
+<<<<<<< HEAD
     $result = ($options)->call($column, $record, $state);
+=======
+    $result = $options->call($column, $record, $state);
+>>>>>>> laraxot/dev
 
     return $result;
 }
 
 function uiInvokeBeforeStateUpdated(SelectStateColumn $column, Model $record, mixed $state): void
 {
+<<<<<<< HEAD
     $ref = new ReflectionClass($column);
+=======
+    $ref = new \ReflectionClass($column);
+>>>>>>> laraxot/dev
     $prop = $ref->getProperty('beforeStateUpdated');
     $prop->setAccessible(true);
     $closure = $prop->getValue($column);
@@ -305,7 +347,11 @@ function uiInvokeBeforeStateUpdated(SelectStateColumn $column, Model $record, mi
 
 function uiFirstActionSchemaComponent(Action $action): Select
 {
+<<<<<<< HEAD
     $ref = new ReflectionClass($action);
+=======
+    $ref = new \ReflectionClass($action);
+>>>>>>> laraxot/dev
     $prop = $ref->getProperty('schema');
     $prop->setAccessible(true);
     /** @var callable|array<int, mixed>|null $schema */

@@ -2,6 +2,11 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -47,6 +52,10 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Sistema di Theming
 
 ## 📊 Stato Implementazione
@@ -95,6 +104,11 @@ class ThemeRegistry
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
@@ -113,11 +127,20 @@ class ThemeRegistry
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
     /** @var array<string, array<string, mixed>> */
     protected array $overrides = [];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -130,11 +153,21 @@ class ThemeRegistry
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function register(Theme $theme): void
     {
         $this->themes[$theme->getName()] = $theme;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
     
@@ -159,6 +192,10 @@ class ThemeRegistry
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function override(string $tenant, array $config): void
     {
@@ -177,6 +214,12 @@ class Theme
         protected ?string $parent = null
     ) {}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
     
@@ -201,12 +244,22 @@ class Theme
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function resolve(string $path, $default = null)
     {
         return Arr::get($this->config, $path, $default);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
     
@@ -231,6 +284,10 @@ class Theme
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function extend(array $overrides): self
     {
@@ -400,6 +457,17 @@ class ThemeCompiler
 3. Ottimizzare caching
 4. Aggiungere theme builder
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+5. Migliorare documentazione
+# Sistema di Theming
+
+## 📊 Stato Implementazione
+Completamento: 40%
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 5. Migliorare documentazione 
 =======
 <<<<<<< HEAD
@@ -419,74 +487,207 @@ class ThemeCompiler
 # Sistema di Theming
 ## 📊 Stato Implementazione
 Completamento: 40%
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ## 🎯 Obiettivi
 1. Sistema di theming flessibile e tipizzato
 2. Supporto per temi multi-tenant
 3. Dark/Light mode automatico
 4. Customizzazione component-level
+<<<<<<< HEAD
 ## 🤔 Sfide di Design
+=======
+<<<<<<< HEAD
+
+## 🤔 Sfide di Design
+
+=======
+## 🤔 Sfide di Design
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### 1. Theme Configuration
 - Gestione gerarchica dei temi
 - Override per tenant specifici
 - Tipizzazione configurazioni
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### 2. Runtime Theming
 - Switch tema dinamico
 - Caching configurazioni
 - Performance ottimizzazione
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### 3. Component Integration
 - Theme props injection
 - Styled components
 - CSS-in-JS solution
+<<<<<<< HEAD
 ## 💡 Soluzioni Proposte
+=======
+<<<<<<< HEAD
+
+## 💡 Soluzioni Proposte
+
+=======
+## 💡 Soluzioni Proposte
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### 1. Theme Registry
 ```php
 class ThemeRegistry
 {
     /** @var array<string, Theme> */
     protected array $themes = [];
+<<<<<<< HEAD
     /** @var array<string, array<string, mixed>> */
     protected array $overrides = [];
+=======
+<<<<<<< HEAD
+
+    /** @var array<string, array<string, mixed>> */
+    protected array $overrides = [];
+
+=======
+    /** @var array<string, array<string, mixed>> */
+    protected array $overrides = [];
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function register(Theme $theme): void
     {
         $this->themes[$theme->getName()] = $theme;
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+    public function override(string $tenant, array $config): void
+    {
+        $this->overrides[$tenant] = $config;
+    }
+}
+```
+
+### 2. Theme Configuration
+```php
+class Theme
+{
+=======
+>>>>>>> laraxot/dev
     public function override(string $tenant, array $config): void
         $this->overrides[$tenant] = $config;
 }
 ```
 ### 2. Theme Configuration
 class Theme
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function __construct(
         protected string $name,
         protected array $config,
         protected ?string $parent = null
     ) {}
+<<<<<<< HEAD
     public function resolve(string $path, $default = null)
         return Arr::get($this->config, $path, $default);
     public function extend(array $overrides): self
+=======
+<<<<<<< HEAD
+
+    public function resolve(string $path, $default = null)
+    {
+        return Arr::get($this->config, $path, $default);
+    }
+
+    public function extend(array $overrides): self
+    {
+=======
+    public function resolve(string $path, $default = null)
+        return Arr::get($this->config, $path, $default);
+    public function extend(array $overrides): self
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         return new self(
             $this->name,
             array_merge($this->config, $overrides),
             $this->parent
         );
+<<<<<<< HEAD
 ## 📝 Steps Implementazione
+=======
+<<<<<<< HEAD
+    }
+}
+```
+
+## 📝 Steps Implementazione
+
+=======
+## 📝 Steps Implementazione
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Fase 1: Core (✅ Completato)
 1. ✅ Theme registry
 2. ✅ Base configuration
 3. ✅ Theme inheritance
 4. ✅ Basic overrides
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Fase 2: Features (🏗️ In Progress)
 1. ✅ Dark/Light mode
 2. ✅ Tenant overrides
 3. 🏗️ Component theming
 4. 🏗️ Runtime switching
 5. 📝 CSS-in-JS
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Fase 3: Advanced
 1. 📝 Theme presets
 2. 📝 Custom schemes
 3. 📝 Theme builder
 4. 📝 Export/Import
 5. 📝 Theme preview
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+## 🎭 Edge Cases
+
+1. **Theme Inheritance**
+```php
+// Problema: Risoluzione conflitti
+$theme->resolve('button.primary.color')
+
+// Soluzione: Cascade resolver
+class ThemeResolver
+{
+    public function resolve(Theme $theme, string $path)
+    {
+=======
+>>>>>>> laraxot/dev
 ## 🎭 Edge Cases
 1. **Theme Inheritance**
 // Problema: Risoluzione conflitti
@@ -494,6 +695,10 @@ $theme->resolve('button.primary.color')
 // Soluzione: Cascade resolver
 class ThemeResolver
     public function resolve(Theme $theme, string $path)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $value = $theme->resolve($path);
         if ($value === null && $theme->hasParent()) {
             return $this->resolve(
@@ -502,31 +707,124 @@ class ThemeResolver
             );
         }
         return $value;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    }
+}
+```
+
+2. **Runtime Changes**
+```php
+// Problema: Cache invalidation
+$theme->updateConfig(['color' => 'blue'])
+
+// Soluzione: Version-based cache
+class ThemeCache
+{
+    public function get(Theme $theme): array
+    {
+=======
+>>>>>>> laraxot/dev
 2. **Runtime Changes**
 // Problema: Cache invalidation
 $theme->updateConfig(['color' => 'blue'])
 // Soluzione: Version-based cache
 class ThemeCache
     public function get(Theme $theme): array
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $version = $theme->getVersion();
         return Cache::tags(['theme'])
             ->remember(
                 "theme:{$theme->getName()}:$version",
                 now()->addDay(),
                 fn() => $theme->all()
+<<<<<<< HEAD
 ## ✅ Code Review Checklist
+=======
+<<<<<<< HEAD
+            );
+    }
+}
+```
+
+## ✅ Code Review Checklist
+
+=======
+## ✅ Code Review Checklist
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 1. Configuration
    - [ ] Theme structure
    - [ ] Inheritance chain
    - [ ] Override system
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 2. Performance
    - [ ] Cache strategy
    - [ ] CSS optimization
    - [ ] Runtime switching
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 3. Integration
    - [ ] Component support
    - [ ] Tenant handling
    - [ ] Mode switching
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+## 🚀 Performance Considerations
+
+1. **Theme Caching**
+```php
+class CachedTheme extends Theme
+{
+    protected function resolveValue(string $path): mixed
+    {
+        return Cache::tags(['theme', $this->name])
+            ->remember(
+                "theme:{$this->name}:$path",
+                now()->addHour(),
+                fn() => parent::resolveValue($path)
+            );
+    }
+}
+```
+
+2. **CSS Generation**
+```php
+class ThemeCompiler
+{
+    public function compile(Theme $theme): string
+    {
+        return Cache::tags(['theme-css'])
+            ->remember(
+                "theme-css:{$theme->getName()}",
+                now()->addDay(),
+                fn() => $this->generateCSS($theme)
+            );
+    }
+}
+```
+
+## 📚 Lessons Learned
+
+=======
+>>>>>>> laraxot/dev
 ## 🚀 Performance Considerations
 1. **Theme Caching**
 class CachedTheme extends Theme
@@ -542,21 +840,63 @@ class ThemeCompiler
                 "theme-css:{$theme->getName()}",
                 fn() => $this->generateCSS($theme)
 ## 📚 Lessons Learned
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 1. Importanza della cache per performance
 2. Necessità di type safety in configurazione
 3. Flessibilità per multi-tenant
 4. Ottimizzazione CSS runtime
+<<<<<<< HEAD
 ## 🔗 Resources
+=======
+<<<<<<< HEAD
+
+## 🔗 Resources
+
+=======
+## 🔗 Resources
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [Theme Architecture](docs/architecture/themes.md)
 - [Configuration Guide](docs/themes/config.md)
 - [Component Theming](docs/themes/components.md)
 - [Performance Tips](docs/themes/performance.md)
+<<<<<<< HEAD
 ## 🤝 Contributing
+=======
+<<<<<<< HEAD
+
+## 🤝 Contributing
+
+=======
+## 🤝 Contributing
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 1. Crea nuovi preset
 2. Migliora performance
 3. Aggiungi features
 4. Documenta uso
 5. Testa compatibilità
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+## ⚠️ Known Issues
+
+1. **CSS Generation**
+   - Memory usage con molti temi
+   - Solution: Chunked compilation
+
+2. **Theme Switching**
+   - Flash of unstyled content
+   - Solution: Critical CSS injection
+
+## 🎯 Next Steps
+
+=======
+>>>>>>> laraxot/dev
 ## ⚠️ Known Issues
 1. **CSS Generation**
    - Memory usage con molti temi
@@ -565,11 +905,21 @@ class ThemeCompiler
    - Flash of unstyled content
    - Solution: Critical CSS injection
 ## 🎯 Next Steps
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 1. Completare component theming
 2. Implementare CSS-in-JS
 3. Ottimizzare caching
 4. Aggiungere theme builder
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+5. Migliorare documentazione
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 5. Migliorare documentazione
 <<<<<<< HEAD
@@ -586,4 +936,8 @@ class ThemeCompiler
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

@@ -1,3 +1,21 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+## [2026-06-05] docs | HackerNoon harness — tips 001-022 in wiki locale
+
+- Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
+- GitHub: [#272](https://github.com/laraxot/base_fixcity_fila5/issues/272) / [D#273](https://github.com/laraxot/base_fixcity_fila5/discussions/273)
+
+# UI Wiki Log
+
+## [2026-07-08] phpstan | InteractiveMap/LocationSelector — riapplicato pattern contratti opzionali, rimosso LocationSelector morto
+- Un agent concorrente aveva reintrodotto import diretti `Modules\Geo\Services\MapService` / `GeocodingService` in `InteractiveMap.php` e rimosso il binding `register()` da `UIServiceProvider`, contraddicendo la regola documentata in [block-rendering-and-optional-services](concepts/block-rendering-and-optional-services.md) ("non importare `Modules\Geo\*` nel consumer UI").
+- Ripristinato: `InteractiveMap.php` usa `MapServiceContract`/`GeocodingServiceContract`; `UIServiceProvider::register()` lega i contratti a `NullMapService`/`NullGeocodingService` di default.
+- `LocationSelector.php` (0 consumer in blade/route/test, importava `Modules\Geo\Models\Comune` direttamente, chiavi lang `ui::location_selector.*` inesistenti) rimosso definitivamente — stessa decisione già presa in un commit precedente (`66f7fc1`) e più volte annullata/ripristinata da agent diversi (vedi `docs/conflict-resolution-locationselector.md`). Nessuna evidenza che i tre simboli mancanti (`MapService`, `GeocodingService`, `Comune` in Geo) fossero un requisito reale per questo componente: erano riferimenti a codice mai esistito.
+- Verifica: PHPStan pulito su entrambi i file; container resolve corretto (`app(MapServiceContract::class)` → `NullMapService`); `mount()`/`loadMarkers()`/`searchAddress()` verificati via `php artisan tinker` (DB non raggiungibile in sandbox per Livewire::test()).
+
+=======
+>>>>>>> laraxot/dev
 ---
 title: "UI Wiki Log"
 type: concept
@@ -61,6 +79,10 @@ related:
 
 # UI Wiki Log
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ## [2026-05-21] bugfix | auth register focus perso per overlay header mobile
 - Nuova pagina: `concepts/auth-register-focus-loss-overlay.md`.
 - Root cause identificata in `x-ui.marketing.header`: container mobile fullscreen `fixed` che intercettava i click anche a menu chiuso.
@@ -76,7 +98,14 @@ related:
 - Nuova pagina: `concepts/model-states-module-ownership.md`.
 - Distinto ownership tecnico (`UI` + `Xot`) da compatibilita' runtime.
 - Verificato che `spatie/laravel-model-states` latest stable richiede `PHP ^8.4`, mentre `2.12.1` si ferma a `Laravel 12`.
+<<<<<<< HEAD
 - Verificato che `spatie/laravel-model-states` latest stable richiede `PHP ^8.4`, mentre `2.12.1` si ferma a `Laravel 13`.
+=======
+<<<<<<< HEAD
+=======
+- Verificato che `spatie/laravel-model-states` latest stable richiede `PHP ^8.4`, mentre `2.12.1` si ferma a `Laravel 13`.
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## [2026-04-23] governance | EnumSelect API collisions (Filament v5)
 - Nuova pagina: `concepts/enumselect-filament-api-collisions.md`.
@@ -102,6 +131,13 @@ related:
 - Layer wiki: `docs/wiki/` — LLM-maintained, sintesi ad alto riuso.
 <<<<<<< HEAD
 - Schema: `docs/.schema/WIKI_SCHEMA.md`
+<<<<<<< HEAD
+=======
+- Adozione moduli: `docs/project/llm-wiki-module-adoption.md`
+=======
+<<<<<<< HEAD
+- Schema: `docs/.schema/WIKI_SCHEMA.md`
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 - Schema: `docs/.schema/wiki-schema.md`
 =======
@@ -163,4 +199,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

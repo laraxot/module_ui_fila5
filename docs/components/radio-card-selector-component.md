@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "RadioCardSelector Component - Modulo UI"
 type: concept
@@ -28,6 +33,10 @@ related:
   - "./full-calendar-1.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # RadioCardSelector Component - Modulo UI
 
 ## 🎯 **Panoramica**

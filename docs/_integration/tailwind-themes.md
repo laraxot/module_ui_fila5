@@ -2,6 +2,11 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -47,6 +52,10 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # tailwind_themes
 
 <!-- Contenuto migrato da _docs/tailwind_themes.txt -->
@@ -55,6 +64,19 @@ https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your
 
 <<<<<<< HEAD
 https://merakiui.com/
+<<<<<<< HEAD
+=======
+# tailwind_themes
+
+<!-- Contenuto migrato da _docs/tailwind_themes.txt -->
+
+https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your-next-project-3igo
+
+https://merakiui.com/
+=======
+<<<<<<< HEAD
+https://merakiui.com/
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -91,4 +113,8 @@ https://merakiui.com/
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

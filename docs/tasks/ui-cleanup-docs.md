@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Task: UI Docs Cleanup"
 type: concept
@@ -29,6 +34,10 @@ related:
   - "./ui-filament-v5.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Task: UI Docs Cleanup
 
 ## 📋 Obiettivo

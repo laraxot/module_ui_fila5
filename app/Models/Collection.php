@@ -5,10 +5,41 @@ declare(strict_types=1);
 namespace Modules\UI\Models;
 
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Modules\UI\Database\Factories\CollectionFactory;
+use Modules\Xot\Contracts\ProfileContract;
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 use Modules\Xot\Models\BaseModel;
 
 /**
  * Collection model for UI module.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ * FormBuilder module not available - extending from XotBaseModel instead.
+ */
+/**
+ * @property string|null                     $name
+ * @property string|null                     $description
+ * @property string|null                     $type
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property ProfileContract|null            $creator
+ * @property ProfileContract|null            $updater
+ *
+ * @method static CollectionFactory          factory($count = null, $state = [])
+ * @method static Builder<static>|Collection newModelQuery()
+ * @method static Builder<static>|Collection newQuery()
+ * @method static Builder<static>|Collection query()
+ *
+ * @property ProfileContract|null $deleter
+ *
+=======
+>>>>>>> laraxot/dev
  *
  * FormBuilder module not available - extending from XotBaseModel instead.
  *
@@ -45,6 +76,10 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Collection whereType($value)
  * @method static Builder<static>|Collection whereUpdatedAt($value)
  * @method static Builder<static>|Collection whereUpdatedBy($value)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
  * @mixin \Eloquent
  */
 class Collection extends BaseModel

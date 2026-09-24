@@ -1,6 +1,15 @@
 ---
 module: theme
 topic: list-records
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+canonical: ../../../../Themes/docs/shared-components/ListRecords.md
+---
+
+See canonical documentation: ../../../../Themes/docs/shared-components/ListRecords.md
+=======
+>>>>>>> laraxot/dev
 canonical: ../../../../Themes/docs/shared-components/listrecords-1.md
 related:
   - "./automatic-translations.md"
@@ -14,3 +23,7 @@ related:
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/listrecords-1.md
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

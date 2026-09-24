@@ -2,7 +2,15 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # UI - Product Roadmap
 
 > Documento vivente. Modulo.
@@ -46,6 +54,11 @@ Questo roadmap traduce il PRD in sequenza di rilascio per **UI**, che nel proget
 ## Dipendenze
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -219,6 +232,10 @@ To create a **unified, beautiful, and accessible design system** that ensures co
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 - [PRD](prd.md)
 - [Product Strategy](product-strategy.md)
@@ -228,6 +245,11 @@ To create a **unified, beautiful, and accessible design system** that ensures co
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
@@ -238,3 +260,7 @@ To create a **unified, beautiful, and accessible design system** that ensures co
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

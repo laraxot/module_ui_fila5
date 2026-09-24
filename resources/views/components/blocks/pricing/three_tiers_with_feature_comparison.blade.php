@@ -1,3 +1,33 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <?php
 
 declare(strict_types=1);
@@ -232,6 +262,12 @@ declare(strict_types=1);
                           <dd class="flex items-center justify-end sm:justify-center sm:px-4">
                             <span class="text-gray-900">3 invoices</span>
                           </dd>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+@include('ui::components.blocks.pricing.partials.three_tiers_with_feature_comparison_tail.blade')
+=======
+>>>>>>> laraxot/dev
                         </div>
                         <div class="flex items-center justify-between px-4 py-3 sm:grid sm:grid-cols-2 sm:px-0">
                           <dt class="pr-4 text-gray-600">Exclusive offers</dt>
@@ -1173,3 +1209,7 @@ declare(strict_types=1);
       </div>
     </div>
   </div>
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

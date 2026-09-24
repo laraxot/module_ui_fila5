@@ -1,4 +1,16 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+---
+module: theme
+topic: filament-blade-components-usage
+canonical: ../../../Themes/docs/shared-components/filament-blade-components-usage.md
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/filament-blade-components-usage.md
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 # Utilizzo dei Componenti Blade di Filament 
 =======
 <<<<<<< HEAD
@@ -528,4 +540,8 @@ Utilizzando i componenti Blade nativi di Filament, possiamo garantire una maggio
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

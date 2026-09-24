@@ -7,6 +7,17 @@ namespace Modules\UI\Tests;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Support\Facades\DB;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Modules\UI\Providers\UIServiceProvider;
+use Modules\UI\Tests\Support\EnsuresUiDatabaseSchema;
+use Modules\User\Models\User;
+use Modules\User\Providers\UserServiceProvider;
+use Modules\Xot\Tests\XotBaseTestCase;
+
+=======
+>>>>>>> laraxot/dev
 use Mockery\Expectation;
 use Mockery\LegacyMockInterface;
 use Mockery\MockInterface;
@@ -18,15 +29,32 @@ use Modules\Xot\Tests\XotBaseTestCase;
 use function Safe\file_get_contents;
 use Modules\User\Models\User;
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 /**
  * Base test case for UI module.
  *
  * Uses shared sqlite from fixcity_data.sqlite (no RefreshDatabase).
+<<<<<<< HEAD
  * Pattern skip offline: Feature/`ui-db` skip se manca schema; Unit eseguiti.
+=======
+<<<<<<< HEAD
+=======
+ * Pattern skip offline: Feature/`ui-db` skip se manca schema; Unit eseguiti.
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
  */
 abstract class TestCase extends XotBaseTestCase
 {
     use DatabaseTransactions;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    use EnsuresUiDatabaseSchema;
+=======
+>>>>>>> laraxot/dev
 
     /**
      * Restringe il tipo di ritorno unione di shouldReceive() per PHPStan.
@@ -47,6 +75,10 @@ abstract class TestCase extends XotBaseTestCase
 
         return $expectation;
     }
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
     /** @var list<string> */
     protected $connectionsToTransact = ['xot', 'sqlite', 'user'];
@@ -65,6 +97,30 @@ abstract class TestCase extends XotBaseTestCase
 
     protected function setUp(): void
     {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        parent::setUp();
+
+        $database = database_path('fixcity_data.sqlite');
+
+        /** @var array<string, array<string, mixed>> $connections */
+        $connections = config('database.connections', []);
+
+        foreach (array_keys($connections) as $connection) {
+            if ('sqlite' !== config("database.connections.{$connection}.driver")) {
+                continue;
+            }
+
+            $this->app['config']->set("database.connections.{$connection}.database", $database);
+            DB::purge($connection);
+        }
+
+        config(['auth.providers.users.model' => User::class]);
+
+        $this->ensureUiSchema();
+=======
+>>>>>>> laraxot/dev
         $this->prepareSharedSqliteForTesting();
 
         parent::setUp();
@@ -147,5 +203,9 @@ abstract class TestCase extends XotBaseTestCase
         } catch (\Throwable) {
             return true;
         }
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     }
 }

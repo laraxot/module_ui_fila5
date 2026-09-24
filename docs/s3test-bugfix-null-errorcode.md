@@ -121,7 +121,15 @@ try {
 - [Best Practices](../best-practices.md)
 
 ## Data Correzione
+<<<<<<< HEAD
 2025-01-06
+=======
+<<<<<<< HEAD
+[DATE]
+=======
+2025-01-06
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## Autore
 AI Assistant

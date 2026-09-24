@@ -14,6 +14,12 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 ❌ **Non Corretto**:
 ```md
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -31,6 +37,10 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Design System il progetto
 Il design system di il progetto definisce...
 ```
@@ -38,9 +48,19 @@ Il design system di il progetto definisce...
 ✅ **Corretto**:
 ```md
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -61,11 +81,26 @@ I nomi specifici dell'applicazione devono apparire solo:
 4. Usare esempi generici nelle spiegazioni
 
 ## Collegamenti Bidirezionali
+<<<<<<< HEAD
 - [README](README.md)
+=======
+<<<<<<< HEAD
+- [README](readme.md)
+=======
+- [README](README.md)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [Design System](design-system.md)
 - [Componenti](components.md)
 
 ## Vedi Anche
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- [Documentazione Principale](../../../../docs/readme.md)
+- [Standard di Codice](../../../../docs/standards/coding-standards.md)
+=======
+>>>>>>> laraxot/dev
 - [Documentazione Principale](../../../docs/README.md)
 - [Standard di Codice](../../../docs/standards/coding-standards.md)
 <<<<<<< HEAD
@@ -73,6 +108,10 @@ I nomi specifici dell'applicazione devono apparire solo:
 =======
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 # Regole di Naming nei Moduli
@@ -90,7 +129,14 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 
 ❌ **Non Corretto**:
 ```md
+<<<<<<< HEAD
 >>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Design System il progetto
 Il design system di il progetto definisce...
 ```
@@ -114,6 +160,19 @@ I nomi specifici dell'applicazione devono apparire solo:
 4. Usare esempi generici nelle spiegazioni
 
 ## Collegamenti Bidirezionali
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- [README](readme.md)
+- [Design System](design-system.md)
+- [Componenti](components.md)
+
+## Vedi Anche
+- [Documentazione Principale](../../../../docs/project/readme.md)
+- [Standard di Codice](../../../../docs/project/standards/coding-standards.md)
+- [Best Practices](../../../../docs/project/standards/best-practices.md)
+=======
+>>>>>>> laraxot/dev
 
 ## Vedi Anche
 <<<<<<< HEAD
@@ -160,4 +219,8 @@ I nomi specifici dell'applicazione devono apparire solo:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

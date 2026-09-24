@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+---
+module: theme
+topic: .gitignore
+canonical: ../../../Themes/docs/shared-components/.gitignore-Modules
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/.gitignore-Modules
+agentdb.rvf
+=======
+>>>>>>> laraxot/dev
 # =============================================================================
 # LARAXOT MODULE: UI - .gitignore
 #
@@ -214,3 +227,7 @@ ehthumbs.db
 phpstan*
 phpmd*
 rector.php
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

@@ -8,6 +8,12 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 ### LineChart
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<x-ui::line-chart
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 <x-ui::line-chart 
 =======
 <<<<<<< HEAD
@@ -30,6 +36,10 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     :title="'Andamento Utenti'"
     :labels="['Gen', 'Feb', 'Mar', 'Apr', 'Mag', 'Giu']"
     :datasets="[
@@ -50,6 +60,12 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 ### PieChart
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<x-ui::pie-chart
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 <x-ui::pie-chart 
 =======
 <<<<<<< HEAD
@@ -72,6 +88,10 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     :title="'Distribuzione Utenti'"
     :labels="['Attivi', 'Inattivi', 'In attesa']"
     :data="[300, 50, 100]"
@@ -86,6 +106,12 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 ### StatsOverview
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<x-ui::stats-overview
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 <x-ui::stats-overview 
 =======
 <<<<<<< HEAD
@@ -108,6 +134,10 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     :stats="[
         [
             'label' => 'Utenti Totali',
@@ -158,6 +188,12 @@ class UserStats extends Component
 {
     public $chartData;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
     
@@ -182,12 +218,22 @@ class UserStats extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function mount()
     {
         $this->updateChartData();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
     
@@ -212,6 +258,10 @@ class UserStats extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function updateChartData()
     {
@@ -227,6 +277,12 @@ class UserStats extends Component
         ];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
     
@@ -251,6 +307,10 @@ class UserStats extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function render()
     {
@@ -279,6 +339,19 @@ class UserStats extends Component
 - [Componenti Table](./table-components.md)
 - [Componenti Layout](./layout-components.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Documentazione Frontend](../cms/docs/frontend-architecture.md)
+# Componenti Chart
+
+## Introduzione
+I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Chart.js come motore di rendering. Supportano vari tipi di grafici e sono altamente personalizzabili.
+
+## Componenti Disponibili
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 - [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
 =======
 <<<<<<< HEAD
@@ -299,6 +372,10 @@ class UserStats extends Component
 ## Introduzione
 I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Chart.js come motore di rendering. Supportano vari tipi di grafici e sono altamente personalizzabili.
 ## Componenti Disponibili
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### LineChart
 ```blade
 <x-ui::line-chart
@@ -318,41 +395,125 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
     :tooltips="true"
 />
 ```
+<<<<<<< HEAD
 ### PieChart
+=======
+<<<<<<< HEAD
+
+### PieChart
+```blade
+=======
+### PieChart
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <x-ui::pie-chart
     :title="'Distribuzione Utenti'"
     :labels="['Attivi', 'Inattivi', 'In attesa']"
     :data="[300, 50, 100]"
     :colors="['#4CAF50', '#F44336', '#FFC107']"
+<<<<<<< HEAD
 ### StatsOverview
 <x-ui::stats-overview
     :stats="[
+=======
+<<<<<<< HEAD
+    :height="300"
+    :responsive="true"
+    :legend="true"
+    :tooltips="true"
+/>
+```
+
+### StatsOverview
+```blade
+<x-ui::stats-overview
+    :stats="[
+        [
+=======
+### StatsOverview
+<x-ui::stats-overview
+    :stats="[
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             'label' => 'Utenti Totali',
             'value' => 1234,
             'icon' => 'users',
             'trend' => '+12%',
             'trendColor' => 'success'
         ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        [
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             'label' => 'Nuovi Oggi',
             'value' => 45,
             'icon' => 'user-plus',
             'trend' => '+5%',
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            'trendColor' => 'success'
+        ],
+        [
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             'label' => 'Conversioni',
             'value' => '78%',
             'icon' => 'chart-line',
             'trend' => '-2%',
             'trendColor' => 'danger'
+<<<<<<< HEAD
 ## Personalizzazione
+=======
+<<<<<<< HEAD
+        ]
+    ]"
+/>
+```
+
+## Personalizzazione
+
+=======
+## Personalizzazione
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Tema
 - Colori personalizzati
 - Stili CSS
 - Animazioni
 - Tooltip
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Dati
 - Formati supportati
 - Aggiornamento in tempo reale
 - Filtri
 - Trasformazioni
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+## Integrazione
+
+### Livewire
+```php
+use Livewire\Component;
+
+class UserStats extends Component
+{
+    public $chartData;
+
+=======
+>>>>>>> laraxot/dev
 ## Integrazione
 ### Livewire
 ```php
@@ -360,11 +521,25 @@ use Livewire\Component;
 class UserStats extends Component
 {
     public $chartData;
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function mount()
     {
         $this->updateChartData();
     }
+<<<<<<< HEAD
     public function updateChartData()
+=======
+<<<<<<< HEAD
+
+    public function updateChartData()
+    {
+=======
+    public function updateChartData()
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $this->chartData = [
             'labels' => ['Gen', 'Feb', 'Mar'],
             'datasets' => [
@@ -375,26 +550,68 @@ class UserStats extends Component
                 ]
             ]
         ];
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    }
+
+    public function render()
+    {
+        return view('livewire.user-stats');
+    }
+}
+```
+
+## Best Practices
+
+=======
+>>>>>>> laraxot/dev
     public function render()
         return view('livewire.user-stats');
 }
 ## Best Practices
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Utilizzo
 - Dati significativi
 - Leggibilità
 - Responsive design
 - Accessibilità
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Performance
 - Ottimizzazione dati
 - Lazy loading
 - Cache risultati
 - Aggiornamento efficiente
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ## Collegamenti
 - [Componenti Base](./base-components.md)
 - [Componenti Form](./form-components.md)
 - [Componenti Table](./table-components.md)
 - [Componenti Layout](./layout-components.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
+- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
+- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 
 ```
 =======
@@ -415,4 +632,8 @@ class UserStats extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

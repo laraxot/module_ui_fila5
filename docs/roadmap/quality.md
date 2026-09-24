@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Checklist qualità - UI Module"
 type: concept
@@ -28,6 +33,10 @@ related:
   - "./03-later.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Checklist qualità - UI Module
 
 - [x] PHPStan Level 10

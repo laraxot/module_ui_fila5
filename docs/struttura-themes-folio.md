@@ -1,4 +1,16 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+---
+module: theme
+topic: struttura-themes-folio
+canonical: ../../../Themes/docs/shared-components/struttura-themes-folio.md
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/struttura-themes-folio.md
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 # Struttura Themes e Folio in <nome progetto>corrente
 # Struttura Themes e Folio in <nome progetto>corrente
 =======
@@ -379,4 +391,8 @@ config('theme.views_path') // Output: "Themes/One/resources/views"
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

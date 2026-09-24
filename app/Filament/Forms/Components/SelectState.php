@@ -15,6 +15,12 @@ class SelectState extends XotBaseSelect
     {
         parent::setUp();
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        $this->options(fn (?Model $record): array => $this->resolveStateOptions($record));
+=======
+>>>>>>> laraxot/dev
         $this->options(function (?Model $record): array {
             $name = $this->getName();
             if ($record === null) {
@@ -51,21 +57,96 @@ class SelectState extends XotBaseSelect
 
             return $this->combineStateOptions($states);
         });
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $this->required();
     }
 
     /**
+<<<<<<< HEAD
      * @param  array<int|string, mixed>  $states
+=======
+<<<<<<< HEAD
+     * @return array<int|string, string>
+     */
+    private function resolveStateOptions(?Model $record): array
+    {
+        if (null === $record) {
+            return $this->resolveDefaultStateOptions();
+        }
+
+        if (! method_exists($record, 'getStatesFor')) {
+            return [];
+        }
+
+        $statesCollection = $record->getStatesFor($this->getName());
+        $statesRaw = \is_object($statesCollection) && method_exists($statesCollection, 'toArray')
+            ? $statesCollection->toArray()
+            : [];
+        /** @var array<int|string, mixed> $states */
+        $states = $statesRaw;
+
+        return $this->combineStateOptions($states);
+    }
+
+    /**
+     * @return array<int|string, string>
+     */
+    private function resolveDefaultStateOptions(): array
+    {
+        $name = $this->getName();
+        $model = $this->getModel();
+        if (! \is_string($model) || ! class_exists($model)) {
+            return [];
+        }
+
+        $instance = app($model);
+        if (! \is_object($instance) || ! method_exists($instance, 'getDefaultStateFor')) {
+            return [];
+        }
+
+        $statesRaw = $instance->getDefaultStateFor($name);
+        if (! \is_array($statesRaw)) {
+            $statesRaw = Arr::wrap($statesRaw);
+        }
+
+        /* @var array<int|string, mixed> $statesRaw */
+        return $this->combineStateOptions($statesRaw);
+    }
+
+    /**
+     * @param array<int|string, mixed> $states
+     *
+=======
+     * @param  array<int|string, mixed>  $states
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
      * @return array<int|string, string>
      */
     private function combineStateOptions(array $states): array
     {
         $statesKeys = array_map(
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            static fn ($key) => SafeStringCastAction::cast($key),
+            array_keys($states),
+        );
+        $statesValues = array_map(
+            static fn ($value) => SafeStringCastAction::cast($value),
+=======
+>>>>>>> laraxot/dev
             static fn (int|string $key): string => SafeStringCastAction::cast($key),
             array_keys($states),
         );
         $statesValues = array_map(
             static fn (mixed $value): string => SafeStringCastAction::cast($value),
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             array_values($states),
         );
         $combined = array_combine($statesKeys, $statesValues);

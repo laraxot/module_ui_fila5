@@ -2,6 +2,11 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -47,6 +52,10 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # custom_firm_fields
 
 <!-- Contenuto migrato da _docs/custom_firm_fields.txt -->
@@ -57,11 +66,20 @@ https://github.com/tanthammar/filament-extras
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -76,6 +94,11 @@ https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-ca
 
 https://github.com/tanthammar/filament-extras
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -88,11 +111,21 @@ https://github.com/tanthammar/filament-extras
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 //--- with nested ?
 https://github.com/saade/filament-extra
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 
 https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
 <<<<<<< HEAD
@@ -121,4 +154,8 @@ https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-ca
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

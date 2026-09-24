@@ -15,8 +15,17 @@
 <<<<<<< HEAD
 - [Architettura Modulare](/laravel/Modules/UI/docs/ARCHITECTURE.md)
 =======
+<<<<<<< HEAD
 - [Architettura Modulare](/laravel/Modules/UI/docs/architecture.md)
 >>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+- [Architettura Modulare](/laravel/Modules/UI/docs/ARCHITECTURE.md)
+=======
+- [Architettura Modulare](/laravel/Modules/UI/docs/architecture.md)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
 
 ## Percorsi Corretti per gli Asset
@@ -27,6 +36,12 @@
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/var/www/html/<nome progetto>/
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 /var/www/html/saluteora/
 <<<<<<< HEAD
 [project-root]/
@@ -49,6 +64,10 @@
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ├── laravel/                 # Applicazione Laravel (codice sorgente)
 │   ├── Modules/             # Moduli dell'applicazione
 │   ├── resources/           # Risorse non compilate
@@ -67,6 +86,15 @@
 | Tipo di Asset | ✅ Percorso Corretto | ❌ Percorso Errato |
 |---------------|---------------------|-------------------|
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+| Immagini | `/var/www/html/<nome progetto>/public_html/images/` | `/var/www/html/<nome progetto>/laravel/public/images/` |
+| CSS | `/var/www/html/<nome progetto>/public_html/css/` | `/var/www/html/<nome progetto>/laravel/public/css/` |
+| JavaScript | `/var/www/html/<nome progetto>/public_html/js/` | `/var/www/html/<nome progetto>/laravel/public/js/` |
+| SVG | `/var/www/html/<nome progetto>/public_html/images/` | `/var/www/html/<nome progetto>/laravel/public/images/` |
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 =======
@@ -105,6 +133,10 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## Utilizzo degli Asset nei Componenti Blade
 
@@ -136,6 +168,12 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/
 <<<<<<< HEAD
 [project-root]/laravel/Themes/One/resources/views/components/ui/
@@ -157,6 +195,10 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 ```
 
@@ -166,6 +208,12 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/var/www/html/<nome progetto>/public_html/images/
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 /var/www/html/saluteora/public_html/images/
 <<<<<<< HEAD
 [project-root]/public_html/images/
@@ -187,6 +235,10 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 ```
 
@@ -198,6 +250,12 @@ Il componente avatar è implementato in:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 <<<<<<< HEAD
 [project-root]/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
@@ -219,6 +277,10 @@ Il componente avatar è implementato in:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 ```
 
@@ -226,6 +288,12 @@ E utilizza gli avatar SVG dalla directory pubblica:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/var/www/html/<nome progetto>/public_html/images/avatars/
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 /var/www/html/saluteora/public_html/images/avatars/
 <<<<<<< HEAD
 [project-root]/public_html/images/avatars/
@@ -247,6 +315,10 @@ E utilizza gli avatar SVG dalla directory pubblica:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 ```
 
@@ -256,6 +328,12 @@ Il componente icon è implementato in:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/icon.blade.php
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 <<<<<<< HEAD
 [project-root]/laravel/Themes/One/resources/views/components/ui/icon.blade.php
@@ -277,6 +355,10 @@ Il componente icon è implementato in:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 ```
 
@@ -319,6 +401,12 @@ E include le definizioni SVG direttamente nel componente.
 ## Errori Comuni
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/<nome progetto>/laravel/public/` invece di `/var/www/html/<nome progetto>/public_html/`
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/saluteora/laravel/public/` invece di `/var/www/html/saluteora/public_html/`
 <<<<<<< HEAD
 1. **Utilizzo del percorso Laravel public**: Utilizzare `[project-root]/laravel/public/` invece di `[project-root]/public_html/`
@@ -340,6 +428,10 @@ E include le definizioni SVG direttamente nel componente.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile

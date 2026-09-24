@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Registrazione corretta dei componenti Blade nei moduli"
 type: concept
@@ -28,6 +33,10 @@ related:
   - "./full-calendar.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Registrazione corretta dei componenti Blade nei moduli
 
 ## Problema

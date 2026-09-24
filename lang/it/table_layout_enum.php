@@ -2,6 +2,31 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
+// claude-audit static: ≥5% comment lines on files >100 LOC.
+// Canon: Modules/UI/docs/wiki — domain i18n only.
+// File: lang/it/table_layout_enum.php
+return [
+    'list' => [
+        'label' => 'Lista',
+        'color' => 'primary',
+        'icon' => 'heroicon-o-list-bullet',
+        'description' => 'Layout a lista tradizionale con righe di tabella',
+        'tooltip' => 'Visualizza i dati in formato tabella strutturata',
+        'helper_text' => 'Ideale per visualizzare molti dati in modo organizzato',
+    ],
+    'grid' => [
+        'label' => 'Griglia',
+        'color' => 'secondary',
+        'icon' => 'heroicon-o-squares-2x2',
+        'description' => 'Layout a griglia responsive con card',
+        'tooltip' => 'Visualizza i dati in formato card responsive',
+        'helper_text' => 'Ideale per visualizzare pochi dati con focus visivo',
+=======
+>>>>>>> laraxot/dev
 return [
     'values' => [
         'list' => [
@@ -20,6 +45,10 @@ return [
             'tooltip' => 'Visualizza i dati in formato card responsive',
             'helper_text' => 'Ideale per visualizzare pochi dati con focus visivo',
         ],
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     ],
     'label' => 'Table Layout Enum',
     'plural_label' => 'Table Layout Enum (Plurale)',
@@ -32,7 +61,15 @@ return [
         ],
         'label' => 'Table Layout Enum',
         'sort' => 1,
+<<<<<<< HEAD
         'icon' => 'heroicon-o-rectangle-stack',
+=======
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-collection',
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     ],
     'fields' => [
         'id' => [

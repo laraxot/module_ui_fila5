@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Struttura delle Filament Resources"
 type: concept
@@ -23,6 +28,10 @@ related:
   - "./structure.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Struttura delle Filament Resources
 
 ## Panoramica

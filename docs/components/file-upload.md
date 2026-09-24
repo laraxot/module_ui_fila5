@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Componente FileUpload"
 type: concept
@@ -28,6 +33,10 @@ related:
   - "./full-calendar.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Componente FileUpload
 
 ## Collegamenti Bidirezionali

@@ -10,11 +10,21 @@ related:
 <<<<<<< HEAD
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/152"
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/152"
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 issue: "https://github.com/provtv/<nome repository>/issues/152"
 =======
 =======
 issue: "https://github.com/provtv/<nome repository>/issues/152"
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 ---
 

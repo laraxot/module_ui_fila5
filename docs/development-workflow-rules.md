@@ -1,6 +1,14 @@
 # Development Workflow Rules - UI Module
 
+<<<<<<< HEAD
 **Date**: 2025-12-15
+=======
+<<<<<<< HEAD
+**Date**: [DATE]
+=======
+**Date**: 2025-12-15
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 **Status**: Active
 **Purpose**: Document the mandatory development workflow for UI module
 
@@ -146,10 +154,23 @@
 
 ## 📚 Related Documentation
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- [Xot Philosophy](../xot/docs/philosophy-complete.md)
+- [PSR-4 Autoloading Error Analysis](./psr4-autoloading-error-analysis.md)
+- [Development Guidelines](../../../../docs/development/readme.md)
+- [Git Workflow](../../../../docs/git-conflict-resolution/readme.md)
+=======
+>>>>>>> laraxot/dev
 - [Xot Philosophy](../Xot/docs/philosophy-complete.md)
 - [PSR-4 Autoloading Error Analysis](./psr4-autoloading-error-analysis.md)
 - [Development Guidelines](../../../docs/development/README.md)
 - [Git Workflow](../../../docs/git-conflict-resolution/README.md)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## ⚠️ Consequences of Skipping Steps
 

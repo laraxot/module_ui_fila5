@@ -25,6 +25,12 @@ Gestione interfaccia utente, componenti, asset e frontend.
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+- Personalizza la configurazione per esigenze di frontend avanzato.
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 - Personalizza la configurazione per esigenze di frontend avanzato.
 =======
@@ -72,4 +78,8 @@ Gestione interfaccia utente, componenti, asset e frontend.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

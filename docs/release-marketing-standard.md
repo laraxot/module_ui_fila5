@@ -8,11 +8,21 @@ updated: "2026-05-26"
 <<<<<<< HEAD
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/153"
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/153"
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 issue: "https://github.com/provtv/<nome repository>/issues/153"
 =======
 =======
 issue: "https://github.com/provtv/<nome repository>/issues/153"
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 ---
 
@@ -30,8 +40,17 @@ Ogni modulo/tema deve essere pubblicabile, comprensibile e desiderabile: workflo
 <<<<<<< HEAD
 - `../CHANGELOG.md`
 =======
+<<<<<<< HEAD
 - `../changelog.md`
 >>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+- `../CHANGELOG.md`
+=======
+- `../changelog.md`
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## Confidenza
 

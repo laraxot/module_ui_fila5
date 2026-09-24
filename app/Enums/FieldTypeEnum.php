@@ -15,7 +15,15 @@ use Filament\Support\Contracts\HasLabel;
 use Modules\Xot\Traits\EnumTrait;
 
 /**
+<<<<<<< HEAD
  * Defines the different types of appointments in the system.
+=======
+<<<<<<< HEAD
+ * Filament form field types supported by the UI module.
+=======
+ * Defines the different types of appointments in the system.
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
  *
  * @method static self        fromName(string $name)
  * @method static self        fromValue(string $value)
@@ -30,7 +38,14 @@ enum FieldTypeEnum: string implements HasColor, HasIcon, HasLabel
     case TEXT = 'text';
     // case NUMBER   = 'number';
     case EMAIL = 'email';
+<<<<<<< HEAD
     // case PASSWORD = 'password';
+=======
+<<<<<<< HEAD
+=======
+    // case PASSWORD = 'password';
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     case TEXTAREA = 'textarea';
     case SELECT = 'select';
     case RADIO = 'radio';

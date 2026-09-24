@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Task: Cleanup Redundant Files (UI Module)"
 type: concept
@@ -29,6 +34,10 @@ related:
   - "./ui-filament-v5.md"
 ---
 
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Task: Cleanup Redundant Files (UI Module)
 
 ## 📋 Obiettivo
