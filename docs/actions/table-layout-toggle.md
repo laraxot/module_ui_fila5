@@ -1,39 +1,3 @@
-<<<<<<< .merge_file_pLaxfH
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ZlRjyJ
 # TableLayoutToggleTableAction
 
 ## Panoramica
@@ -86,58 +50,6 @@ class MyListRecords extends ListRecords
 4. Mantenere la persistenza dello stato
 
 ## Collegamenti alla Documentazione
-<<<<<<< .merge_file_pLaxfH
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_v0m7U7
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-- [Risoluzione Conflitti UI](../CONFLITTI_MERGE_RISOLTI.md): Documentazione dei conflitti risolti
-- [Test di Risoluzione Conflitti](../test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
-
-[Torna alla documentazione UI](/docs/modules/module_ui.md#actions)
----
-title: "TableLayoutToggleTableAction"
-type: concept
-tags: [table, layout, toggle]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "table-layout-toggle tablelayouttoggletableaction"
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./table-layout-toggle-1.md"
-# TableLayoutToggleTableAction
-## Scopo
-Bottone **Cambia layout** (lista ↔ griglia) sulle `XotBaseListRecords` con `HasXotTable`. Solo UX: stessi record, presentazione diversa.
-## Flusso attuale (corretto)
-```
-click → toggleLayout()
-  → getCurrentLayout() + toggle()
-  → setTableLayout()        // sessione
-  → resetTable()            // invalida tabella Filament
-  → js('$wire.$refresh()')  // remount layoutView da sessione
-`HasTableLayoutPage::mountTableLayoutFromSession()` (in `bootHasXotTable`) riallinea `$layoutView` dopo il refresh. `HasXotTable::table()` legge `$layoutView`.
-## Componenti
-| File | Ruolo |
-|------|-------|
-| `TableLayoutToggleTableAction` | Toggle sessione + refresh UI |
-| `TableLayoutTrait` | `getCurrentLayout` / `saveLayout` su sessione |
-| `HasTableLayoutPage` | `$layoutView` + mount da sessione |
-| `HasXotTable` | Render colonne/griglia da `$layoutView` |
-## Cosa non toccare
-## Panoramica
-Azione Filament per il toggle del layout delle tabelle tra vista griglia e lista.
-=======
->>>>>>> .merge_file_d0srQb
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_ZlRjyJ
 - [Risoluzione Conflitti UI](../conflitti_merge_risolti.md): Documentazione dei conflitti risolti
 - [Test di Risoluzione Conflitti](../test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
 
@@ -147,192 +59,21 @@ Azione Filament per il toggle del layout delle tabelle tra vista griglia e lista
 ## Panoramica
 Azione Filament per il toggle del layout delle tabelle tra vista griglia e lista.
 
-<<<<<<< .merge_file_pLaxfH
-<<<<<<< HEAD
-<<<<<<< .merge_file_v0m7U7
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-- [Risoluzione Conflitti UI](../CONFLITTI_MERGE_RISOLTI.md): Documentazione dei conflitti risolti
-- [Test di Risoluzione Conflitti](../test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
-
-<<<<<<< HEAD
-[Torna alla documentazione UI](/docs/modules/module_ui.md#actions)
-=======
-<<<<<<< HEAD
-[Torna alla documentazione UI](/docs/modules/module_ui.md#actions) 
-=======
-<<<<<<< HEAD
-[Torna alla documentazione UI](/docs/modules/module_ui.md#actions) 
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
----
-title: "TableLayoutToggleTableAction"
-type: concept
-tags: [table, layout, toggle]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "table-layout-toggle tablelayouttoggletableaction"
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
-  - "./table-layout-toggle-1.md"
-# TableLayoutToggleTableAction
-<<<<<<< HEAD
-=======
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-## Scopo
-Bottone **Cambia layout** (lista ↔ griglia) sulle `XotBaseListRecords` con `HasXotTable`. Solo UX: stessi record, presentazione diversa.
-## Flusso attuale (corretto)
-```
-click → toggleLayout()
-  → getCurrentLayout() + toggle()
-  → setTableLayout()        // sessione
-  → resetTable()            // invalida tabella Filament
-  → js('$wire.$refresh()')  // remount layoutView da sessione
-`HasTableLayoutPage::mountTableLayoutFromSession()` (in `bootHasXotTable`) riallinea `$layoutView` dopo il refresh. `HasXotTable::table()` legge `$layoutView`.
-## Componenti
-| File | Ruolo |
-|------|-------|
-| `TableLayoutToggleTableAction` | Toggle sessione + refresh UI |
-| `TableLayoutTrait` | `getCurrentLayout` / `saveLayout` su sessione |
-| `HasTableLayoutPage` | `$layoutView` + mount da sessione |
-| `HasXotTable` | Render colonne/griglia da `$layoutView` |
-## Cosa non toccare
-<<<<<<< HEAD
-## Panoramica
-Azione Filament per il toggle del layout delle tabelle tra vista griglia e lista.
-=======
-=======
->>>>>>> laraxot/dev
-## Panoramica
-Azione Filament per il toggle del layout delle tabelle tra vista griglia e lista.
-
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_d0srQb
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ZlRjyJ
 ## Caratteristiche
 - Supporto per layout griglia e lista
 - Integrazione con Livewire
 - Persistenza dello stato del layout
 - Supporto per tooltip e icone dinamiche
-<<<<<<< .merge_file_pLaxfH
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_v0m7U7
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-## Miglioramenti PHPStan Livello 9
-Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
-=======
-=======
-=======
->>>>>>> 804451c (Lint)
-=======
-<<<<<<< HEAD
-## Miglioramenti PHPStan Livello 9
-Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
-=======
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-## Miglioramenti PHPStan Livello 9
-Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
-=======
->>>>>>> .merge_file_d0srQb
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_ZlRjyJ
 
 ## Miglioramenti PHPStan Livello 9
 Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
 
-<<<<<<< .merge_file_pLaxfH
-<<<<<<< HEAD
-<<<<<<< .merge_file_v0m7U7
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_d0srQb
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_ZlRjyJ
 1. Tipizzazione stretta dei parametri
 2. Utilizzo di tipi unione per i componenti Livewire
 3. Implementazione corretta delle interfacce
 4. Gestione type-safe degli enum
 5. Rimozione di type casting non necessari
-<<<<<<< .merge_file_pLaxfH
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_v0m7U7
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-
-=======
-<<<<<<< HEAD
-=======
-
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_d0srQb
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
-
->>>>>>> .merge_file_ZlRjyJ
 ## Interfaccia HasTableLayout
 ```php
 interface HasTableLayout
@@ -341,41 +82,6 @@ interface HasTableLayout
     public function setLayoutView(TableLayoutEnum $layout): void;
     public function resetTable(): void;
 }
-<<<<<<< .merge_file_pLaxfH
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_v0m7U7
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_d0srQb
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-## Utilizzo
-use Modules\UI\app\Filament\Actions\Table\TableLayoutToggleTableAction;
-class MyListRecords extends ListRecords
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_v0m7U7
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_d0srQb
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_ZlRjyJ
 ```
 
 ## Utilizzo
@@ -384,179 +90,23 @@ use Modules\UI\app\Filament\Actions\Table\TableLayoutToggleTableAction;
 
 class MyListRecords extends ListRecords
 {
-<<<<<<< .merge_file_pLaxfH
-<<<<<<< HEAD
-<<<<<<< .merge_file_v0m7U7
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_d0srQb
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_ZlRjyJ
     protected function getTableActions(): array
     {
         return [
             TableLayoutToggleTableAction::make(),
         ];
     }
-<<<<<<< .merge_file_pLaxfH
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_v0m7U7
-=======
->>>>>>> 804451c (Lint)
 }
 ```
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-}
-```
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_d0srQb
-=======
->>>>>>> 804451c (Lint)
-=======
-}
-```
-
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< .merge_file_v0m7U7
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_d0srQb
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
-}
-```
-
->>>>>>> .merge_file_ZlRjyJ
 ## Best Practices
 1. Implementare l'interfaccia HasTableLayout nei componenti che utilizzano l'azione
 2. Utilizzare gli enum per i tipi di layout
 3. Gestire correttamente gli eventi di refresh
 4. Mantenere la persistenza dello stato
-<<<<<<< .merge_file_pLaxfH
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_v0m7U7
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
-## Collegamenti alla Documentazione
-- [Risoluzione Conflitti UI](../CONFLITTI_MERGE_RISOLTI.md): Documentazione dei conflitti risolti
-- [Test di Risoluzione Conflitti](../test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
-- **Non** spostare il toggle in `HasTableLayoutPage` — duplicazione inutile.
-- **Non** rimuovere `TableLayoutTrait` dall’Action — è il punto che scrive sessione al click.
-- **Non** refactorare icona/tooltip in closure se non c’è bug visivo.
-## Fix doppio click
-Vedi [bugfix](../bugfix-table-layout-toggle-not-working.md): bastano `resetTable()` + `$wire.$refresh()` dopo `setTableLayout()`.
-## Collegamenti
-- [Bugfix doppio click](../bugfix-table-layout-toggle-not-working.md)
-- [Disciplina agente](../../../docs/wiki/memories/agent-table-layout-toggle-discipline.md)
-- [Contratto Xot](../../Xot/docs/filament/table-layout-toggle-contract.md)
-- [Tema One — tabelle](../../../Themes/One/docs/filament-resource-schemas-tables.md)
-=======
->>>>>>> .merge_file_d0srQb
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_ZlRjyJ
 
 ## Collegamenti alla Documentazione
 - [Risoluzione Conflitti UI](../conflitti_merge_risolti.md): Documentazione dei conflitti risolti
 - [Test di Risoluzione Conflitti](../test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
 
 [Torna alla documentazione UI](/docs/modules/module_ui.md#actions)
-<<<<<<< .merge_file_pLaxfH
-<<<<<<< HEAD
-<<<<<<< .merge_file_v0m7U7
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-## Collegamenti alla Documentazione
-- [Risoluzione Conflitti UI](../CONFLITTI_MERGE_RISOLTI.md): Documentazione dei conflitti risolti
-- [Test di Risoluzione Conflitti](../test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
-=======
-
-## Collegamenti alla Documentazione
-- [Risoluzione Conflitti UI](../CONFLITTI_MERGE_RISOLTI.md): Documentazione dei conflitti risolti
-- [Test di Risoluzione Conflitti](../test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-
->>>>>>> laraxot/dev
-- **Non** spostare il toggle in `HasTableLayoutPage` — duplicazione inutile.
-- **Non** rimuovere `TableLayoutTrait` dall’Action — è il punto che scrive sessione al click.
-- **Non** refactorare icona/tooltip in closure se non c’è bug visivo.
-## Fix doppio click
-Vedi [bugfix](../bugfix-table-layout-toggle-not-working.md): bastano `resetTable()` + `$wire.$refresh()` dopo `setTableLayout()`.
-## Collegamenti
-- [Bugfix doppio click](../bugfix-table-layout-toggle-not-working.md)
-- [Disciplina agente](../../../docs/wiki/memories/agent-table-layout-toggle-discipline.md)
-- [Contratto Xot](../../Xot/docs/filament/table-layout-toggle-contract.md)
-- [Tema One — tabelle](../../../Themes/One/docs/filament-resource-schemas-tables.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-[Torna alla documentazione UI](/docs/modules/module_ui.md#actions) 
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_d0srQb
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ZlRjyJ

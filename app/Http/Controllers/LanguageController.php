@@ -25,35 +25,6 @@ class LanguageController extends Controller
         session()->put('locale', $locale);
         app()->setLocale($locale);
 
-<<<<<<< .merge_file_RerbXG
-<<<<<<< HEAD
-<<<<<<< HEAD
         return redirect()->back();
-=======
-<<<<<<< HEAD
-        return redirect()->back();
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-        $previous = url()->previous();
-        $fallback = url('/');
-
-        if (! is_string($previous) || ! str_starts_with($previous, $fallback)) {
-            return redirect()->to($fallback);
-        }
-
-        return redirect()->to($previous);
-=======
-        return redirect()->back();
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
-        return redirect()->back();
->>>>>>> .merge_file_7myFPD
     }
 }

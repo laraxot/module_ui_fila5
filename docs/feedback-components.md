@@ -109,115 +109,11 @@
 
 ### Tooltip
 ```html
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-=======
->>>>>>> 804451c (Lint)
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_OyVCrs
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-<button 
-  type="button" 
-  class="btn btn-secondary" 
-  data-bs-toggle="tooltip" 
-  data-bs-placement="top" 
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_OyVCrs
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0qJv8r
 <button
   type="button"
   class="btn btn-secondary"
   data-bs-toggle="tooltip"
   data-bs-placement="top"
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_0qJv8r
   title="Tooltip in alto"
 >
   Tooltip
@@ -226,115 +122,11 @@
 
 ### Popover
 ```html
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-=======
->>>>>>> 804451c (Lint)
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_OyVCrs
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-<button 
-  type="button" 
-  class="btn btn-secondary" 
-  data-bs-toggle="popover" 
-  data-bs-placement="right" 
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_OyVCrs
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0qJv8r
 <button
   type="button"
   class="btn btn-secondary"
   data-bs-toggle="popover"
   data-bs-placement="right"
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_0qJv8r
   data-bs-content="Contenuto del popover"
   title="Titolo Popover"
 >
@@ -347,117 +139,12 @@
 ### Progress Bar
 ```html
 <div class="progress">
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-=======
->>>>>>> 804451c (Lint)
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_OyVCrs
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-  <div 
-    class="progress-bar progress-bar-striped progress-bar-animated" 
-    role="progressbar" 
-    style="width: 75%" 
-    aria-valuenow="75" 
-    aria-valuemin="0" 
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_OyVCrs
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0qJv8r
   <div
     class="progress-bar progress-bar-striped progress-bar-animated"
     role="progressbar"
     style="width: 75%"
     aria-valuenow="75"
     aria-valuemin="0"
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_0qJv8r
     aria-valuemax="100"
   >
     75%
@@ -519,67 +206,11 @@ $zindex-tooltip: 1070;
 - [Componenti Base](./base-components.md)
 - [Layout](./layout-components.md)
 - [Accessibilità](./standards/accessibility.md)
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_0qJv8r
 - [Performance](./standards/performance.md)
 # Componenti Feedback e Notifiche
 
 ## 🚨 Alert e Notifiche
 
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< .merge_file_fC3VkP
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-- [Performance](./standards/performance.md)
-# Componenti Feedback e Notifiche
-
-## 🚨 Alert e Notifiche
-
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-- [Performance](./standards/performance.md) 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Performance](./standards/performance.md) 
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Performance](./standards/performance.md) 
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-- [Performance](./standards/performance.md)
-# Componenti Feedback e Notifiche
-## 🚨 Alert e Notifiche
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_OyVCrs
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_0qJv8r
 ### Alert Base
 ```html
 <!-- Successo -->
@@ -587,126 +218,23 @@ $zindex-tooltip: 1070;
   <i class="fas fa-check-circle"></i>
   Operazione completata con successo
 </div>
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_OyVCrs
-=======
-
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-
->>>>>>> .merge_file_0qJv8r
 <!-- Errore -->
 <div class="alert alert-danger" role="alert">
   <i class="fas fa-exclamation-circle"></i>
   Si è verificato un errore
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
 </div>
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-</div>
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-</div>
-
->>>>>>> .merge_file_OyVCrs
-=======
-</div>
-
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-</div>
-
->>>>>>> .merge_file_0qJv8r
 <!-- Info -->
 <div class="alert alert-info" role="alert">
   <i class="fas fa-info-circle"></i>
   Informazione importante
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
 </div>
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-</div>
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-</div>
-
->>>>>>> .merge_file_OyVCrs
-=======
-</div>
-
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-</div>
-
->>>>>>> .merge_file_0qJv8r
 <!-- Warning -->
 <div class="alert alert-warning" role="alert">
   <i class="fas fa-exclamation-triangle"></i>
   Attenzione: azione richiesta
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-```
-### Alert Dismissible
-<div class="alert alert-warning alert-dismissible fade show" role="alert">
-  <strong>Attenzione!</strong> Questa azione non può essere annullata.
-  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Chiudi"></button>
-## 📢 Toast e Snackbar
-### Toast
-=======
->>>>>>> .merge_file_OyVCrs
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0qJv8r
 </div>
 ```
 
@@ -722,35 +250,6 @@ $zindex-tooltip: 1070;
 
 ### Toast
 ```html
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-```
-### Alert Dismissible
-<div class="alert alert-warning alert-dismissible fade show" role="alert">
-  <strong>Attenzione!</strong> Questa azione non può essere annullata.
-  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Chiudi"></button>
-## 📢 Toast e Snackbar
-### Toast
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_OyVCrs
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_0qJv8r
 <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="toast-header">
     <strong class="me-auto">Notifica</strong>
@@ -759,73 +258,16 @@ $zindex-tooltip: 1070;
   </div>
   <div class="toast-body">
     Operazione completata con successo
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-=======
-<<<<<<< HEAD
-### Snackbar
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-### Snackbar
-=======
->>>>>>> .merge_file_OyVCrs
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0qJv8r
   </div>
 </div>
 ```
 
 ### Snackbar
 ```html
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-<<<<<<< HEAD
-=======
-=======
-### Snackbar
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_OyVCrs
->>>>>>> laraxot/dev
-=======
-=======
-### Snackbar
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0qJv8r
 <div class="snackbar" role="alert" aria-live="polite">
   <div class="snackbar-content">
     <span class="snackbar-message">Modifiche salvate</span>
     <button class="snackbar-action">Annulla</button>
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-=======
-<<<<<<< HEAD
-## 🗨️ Modali e Dialoghi
-### Modal Base
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-## 🗨️ Modali e Dialoghi
-### Modal Base
-=======
->>>>>>> .merge_file_OyVCrs
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0qJv8r
   </div>
 </div>
 ```
@@ -834,26 +276,6 @@ $zindex-tooltip: 1070;
 
 ### Modal Base
 ```html
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
-=======
-## 🗨️ Modali e Dialoghi
-### Modal Base
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_OyVCrs
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0qJv8r
 <div class="modal" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -863,28 +285,6 @@ $zindex-tooltip: 1070;
       </div>
       <div class="modal-body">
         <p>Contenuto del modale</p>
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
-        <button type="button" class="btn btn-primary">Conferma</button>
-    </div>
-### Dialogo di Conferma
-  <div class="modal-dialog modal-dialog-centered" role="document">
-=======
->>>>>>> .merge_file_OyVCrs
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0qJv8r
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
@@ -900,58 +300,10 @@ $zindex-tooltip: 1070;
 <div class="modal" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
-        <button type="button" class="btn btn-primary">Conferma</button>
-    </div>
-### Dialogo di Conferma
-  <div class="modal-dialog modal-dialog-centered" role="document">
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_OyVCrs
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_0qJv8r
       <div class="modal-body text-center">
         <i class="fas fa-question-circle fa-3x mb-3"></i>
         <h5 class="modal-title">Sei sicuro?</h5>
         <p>Questa azione non può essere annullata</p>
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-      <div class="modal-footer justify-content-center">
-        <button type="button" class="btn btn-danger">Elimina</button>
-## 💡 Tooltip e Popover
-### Tooltip
-=======
->>>>>>> .merge_file_OyVCrs
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0qJv8r
       </div>
       <div class="modal-footer justify-content-center">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annulla</button>
@@ -966,32 +318,6 @@ $zindex-tooltip: 1070;
 
 ### Tooltip
 ```html
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-      <div class="modal-footer justify-content-center">
-        <button type="button" class="btn btn-danger">Elimina</button>
-## 💡 Tooltip e Popover
-### Tooltip
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_OyVCrs
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_0qJv8r
 <button
   type="button"
   class="btn btn-secondary"
@@ -1001,24 +327,6 @@ $zindex-tooltip: 1070;
 >
   Tooltip
 </button>
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-=======
-<<<<<<< HEAD
-### Popover
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-### Popover
-=======
->>>>>>> .merge_file_OyVCrs
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0qJv8r
 ```
 
 ### Popover
@@ -1026,50 +334,10 @@ $zindex-tooltip: 1070;
 <button
   type="button"
   class="btn btn-secondary"
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-<<<<<<< HEAD
-=======
-=======
-### Popover
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_OyVCrs
->>>>>>> laraxot/dev
-=======
-=======
-### Popover
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0qJv8r
   data-bs-toggle="popover"
   data-bs-placement="right"
   data-bs-content="Contenuto del popover"
   title="Titolo Popover"
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_OyVCrs
-  Popover
-## ⏳ Progress e Loading States
-### Progress Bar
-=======
-<<<<<<< .merge_file_fC3VkP
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_OyVCrs
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0qJv8r
 >
   Popover
 </button>
@@ -1079,27 +347,6 @@ $zindex-tooltip: 1070;
 
 ### Progress Bar
 ```html
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
-=======
-  Popover
-## ⏳ Progress e Loading States
-### Progress Bar
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_OyVCrs
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0qJv8r
 <div class="progress">
   <div
     class="progress-bar progress-bar-striped progress-bar-animated"
@@ -1110,71 +357,16 @@ $zindex-tooltip: 1070;
     aria-valuemax="100"
   >
     75%
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-=======
-<<<<<<< HEAD
-### Skeleton Loading
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-### Skeleton Loading
-=======
->>>>>>> .merge_file_OyVCrs
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0qJv8r
   </div>
 </div>
 ```
 
 ### Skeleton Loading
 ```html
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-<<<<<<< HEAD
-=======
-=======
-### Skeleton Loading
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_OyVCrs
->>>>>>> laraxot/dev
-=======
-=======
-### Skeleton Loading
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0qJv8r
 <div class="skeleton">
   <div class="skeleton-header"></div>
   <div class="skeleton-body">
     <div class="skeleton-line"></div>
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-=======
-<<<<<<< HEAD
-## 🎨 Stili e Comportamenti
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-## 🎨 Stili e Comportamenti
-=======
->>>>>>> .merge_file_OyVCrs
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0qJv8r
     <div class="skeleton-line"></div>
     <div class="skeleton-line"></div>
   </div>
@@ -1183,25 +375,6 @@ $zindex-tooltip: 1070;
 
 ## 🎨 Stili e Comportamenti
 
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-<<<<<<< HEAD
-=======
-=======
-## 🎨 Stili e Comportamenti
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_OyVCrs
->>>>>>> laraxot/dev
-=======
-=======
-## 🎨 Stili e Comportamenti
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0qJv8r
 ### Animazioni
 ```scss
 // Fade in/out
@@ -1209,78 +382,16 @@ $zindex-tooltip: 1070;
   from { opacity: 0; }
   to { opacity: 1; }
 }
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_OyVCrs
-@keyframes fadeOut {
-  from { opacity: 1; }
-  to { opacity: 0; }
-=======
-<<<<<<< .merge_file_fC3VkP
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_OyVCrs
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0qJv8r
 
 @keyframes fadeOut {
   from { opacity: 1; }
   to { opacity: 0; }
 }
 
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
-=======
-@keyframes fadeOut {
-  from { opacity: 1; }
-  to { opacity: 0; }
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_OyVCrs
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0qJv8r
 // Slide in/out
 @keyframes slideIn {
   from { transform: translateY(100%); }
   to { transform: translateY(0); }
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-@keyframes slideOut {
-  from { transform: translateY(0); }
-  to { transform: translateY(100%); }
-### Z-index
-=======
->>>>>>> .merge_file_OyVCrs
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0qJv8r
 }
 
 @keyframes slideOut {
@@ -1291,32 +402,6 @@ $zindex-tooltip: 1070;
 
 ### Z-index
 ```scss
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-@keyframes slideOut {
-  from { transform: translateY(0); }
-  to { transform: translateY(100%); }
-### Z-index
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_OyVCrs
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_0qJv8r
 $zindex-dropdown: 1000;
 $zindex-sticky: 1020;
 $zindex-fixed: 1030;
@@ -1324,93 +409,10 @@ $zindex-modal-backdrop: 1040;
 $zindex-modal: 1050;
 $zindex-popover: 1060;
 $zindex-tooltip: 1070;
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
 ```
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-```
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-```
-
->>>>>>> .merge_file_OyVCrs
-=======
-```
-
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-```
-
->>>>>>> .merge_file_0qJv8r
 ## 🔗 Collegamenti
 - [Componenti Base](./base-components.md)
 - [Layout](./layout-components.md)
 - [Accessibilità](./standards/accessibility.md)
-<<<<<<< .merge_file_bLaNLq
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
 - [Performance](./standards/performance.md)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-- [Performance](./standards/performance.md)
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_OyVCrs
-=======
-- [Performance](./standards/performance.md)
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-
-```
-=======
-- [Performance](./standards/performance.md)
-<<<<<<< HEAD
-<<<<<<< .merge_file_fC3VkP
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- [Performance](./standards/performance.md) 
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_OyVCrs
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-- [Performance](./standards/performance.md)
->>>>>>> .merge_file_0qJv8r

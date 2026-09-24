@@ -27,24 +27,6 @@ final class RadioCollection extends XotBaseField
      */
     /**
      * @param \Closure|Collection<int|string, mixed>|null $options
-<<<<<<< .merge_file_95Cokg
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param  \Closure|Collection<int|string, mixed>|null  $options
-=======
-<<<<<<< HEAD
-     * @param \Closure|Collection<int|string, mixed>|null $options
-=======
-     * @param  \Closure|Collection<int|string, mixed>|null  $options
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-     * @param  \Closure|Collection<int|string, mixed>|null  $options
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_D5fiA3
      */
     public function options(\Closure|Collection|null $options): static
     {
@@ -107,62 +89,11 @@ final class RadioCollection extends XotBaseField
 
     /**
      * Comparazione type-safe per determinare se un'opzione è selezionata.
-<<<<<<< .merge_file_95Cokg
-<<<<<<< HEAD
-<<<<<<< .merge_file_lwkCNS
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-     *
-     * @param mixed $stateOverride stato esplicito (test/offline senza container Livewire)
->>>>>>> .merge_file_Zz6H4R
-=======
->>>>>>> .merge_file_D5fiA3
      */
     public function isOptionSelected(mixed $option): bool
     {
         $state = SafeStringCastAction::cast($this->getState());
         $currentValue = (string) $state;
-<<<<<<< .merge_file_95Cokg
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-     */
-    public function isOptionSelected(mixed $option): bool
-    {
-        $state = SafeStringCastAction::cast($this->getState());
-        $currentValue = (string) $state;
-=======
->>>>>>> 804451c (Lint)
-     *
-     * @param  mixed  $stateOverride  stato esplicito (test/offline senza container Livewire)
-     */
-    public function isOptionSelected(mixed $option, mixed $stateOverride = null): bool
-    {
-        $state = $stateOverride ?? $this->getState();
-        $currentValue = (string) SafeStringCastAction::cast($state);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        $state = $stateOverride ?? $this->getState();
-        $currentValue = SafeStringCastAction::cast($state);
->>>>>>> .merge_file_Zz6H4R
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_D5fiA3
 
         // PHPStan L10: data_get restituisce mixed, SafeStringCastAction accetta mixed
         $optionData = data_get($option, $this->getValueKey());

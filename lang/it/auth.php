@@ -2,47 +2,7 @@
 
 declare(strict_types=1);
 
-<<<<<<< .merge_file_DC62vi
-<<<<<<< HEAD
-<<<<<<< .merge_file_M1d4FZ
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 return [
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/UI/docs/wiki — domain i18n only.
-// File: lang/it/auth.php
-return [
-<<<<<<< HEAD
-<<<<<<< HEAD
-// UI — translation keys (no business logic).
-// UI — translation keys (no business logic).
-=======
-=======
->>>>>>> 804451c (Lint)
-    // UI — translation keys (no business logic).
-    // UI — translation keys (no business logic).
-=======
-return [
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-return [
->>>>>>> .merge_file_xLSNzf
-=======
->>>>>>> 804451c (Lint)
-=======
-return [
->>>>>>> .merge_file_p1Xxbj
     'login' => [
         'title' => 'Accedi',
         'email' => 'Email',

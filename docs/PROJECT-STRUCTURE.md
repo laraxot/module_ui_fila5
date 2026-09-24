@@ -18,22 +18,6 @@ tags: [structure, architecture, module]
 │   ├── concepts/                 # Topic/theme pages
 │   ├── entities/                 # Organization/person pages
 │   ├── rules/                    # ⚠️ 151+ regole progettuali
-<<<<<<< .merge_file_7Zro0Q
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_WdMo5O
 │   │   ├── 00-INDEX.md          # Indice regole
 │   │   ├── 00-TRIGGER_MAP.md    # Trigger map (link a globale)
 │   │   └── *.md                 # Regole specifiche modulo
@@ -45,73 +29,13 @@ tags: [structure, architecture, module]
 │   │   └── *.md
 │   ├── memories/                 # Memorie progettuali
 │   │   ├── INDEX.md
-<<<<<<< .merge_file_7Zro0Q
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
-│   │   ├── 00-index.md          # Indice regole
-│   │   ├── 00-TRIGGER_MAP.md    # Trigger map (link a globale)
-│   │   └── *.md                 # Regole specifiche modulo
-│   ├── skills/                   # Skill progettuali
-│   │   ├── index.md
-│   │   └── *.md
-│   ├── commands/                 # Comandi progettuali
-│   │   ├── index.md
-│   │   └── *.md
-│   ├── memories/                 # Memorie progettuali
-│   │   ├── index.md
->>>>>>> 92912795 (.)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_WdMo5O
 │   │   └── *.md
 │   ├── decisions/                # Architecture decision records
 │   └── troubleshooting/          # Bug fixes, error resolutions
 ├── ON-DEMAND-PATTERN.md          # 🌟 QUESTO FILE — Pattern on-demand
 ├── QMD-SETUP.md                  # Configurazione QMD
 ├── PERFORMANCE-OPTIMIZATION.md    # Metriche e best practice
-<<<<<<< .merge_file_7Zro0Q
-<<<<<<< HEAD
 ├── ARCHITECTURE.md               # (opzionale) Architettura modulo
-=======
-<<<<<<< HEAD
-├── ARCHITECTURE.md               # (opzionale) Architettura modulo
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-├── architecture.md               # (opzionale) Architettura modulo
->>>>>>> 92912795 (.)
-=======
-<<<<<<< HEAD
-├── ARCHITECTURE.md               # (opzionale) Architettura modulo
-=======
-├── architecture.md               # (opzionale) Architettura modulo
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-├── architecture.md               # (opzionale) Architettura modulo
->>>>>>> 92912795 (.)
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-├── ARCHITECTURE.md               # (opzionale) Architettura modulo
->>>>>>> .merge_file_WdMo5O
 └── README.md                     # (opzionale) Overview modulo
 \`\`\`
 
@@ -183,33 +107,7 @@ graph TD
 mkdir -p docs/wiki/{rules,skills,commands,memories,concepts,entities,decisions,troubleshooting}
 
 # 2. Crea INDEX files (già creati)
-<<<<<<< .merge_file_7Zro0Q
-<<<<<<< HEAD
 cp docs/wiki/rules/INDEX.md docs/wiki/rules/
-=======
-<<<<<<< HEAD
-cp docs/wiki/rules/INDEX.md docs/wiki/rules/
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-cp docs/wiki/rules/index.md docs/wiki/rules/
->>>>>>> 92912795 (.)
-=======
-<<<<<<< HEAD
-cp docs/wiki/rules/INDEX.md docs/wiki/rules/
-=======
-cp docs/wiki/rules/index.md docs/wiki/rules/
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-cp docs/wiki/rules/index.md docs/wiki/rules/
->>>>>>> 92912795 (.)
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-cp docs/wiki/rules/INDEX.md docs/wiki/rules/
->>>>>>> .merge_file_WdMo5O
 # ... etc
 
 # 3. Aggiungi a QMD collection (opzionale, già incluso global)

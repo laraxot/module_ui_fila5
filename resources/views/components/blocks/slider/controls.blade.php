@@ -1,14 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< .merge_file_4jp2nU
-<<<<<<< HEAD
-=======
 
->>>>>>> 804451c (Lint)
-=======
-
->>>>>>> .merge_file_6CrJxw
 ?>
 {{-- https://flowbite.com/docs/components/carousel/#controls --}}
 

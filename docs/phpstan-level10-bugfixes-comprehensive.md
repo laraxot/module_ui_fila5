@@ -154,43 +154,11 @@ cd laravel
 - [S3Test Null ErrorCode Handling](s3test-bugfix-null-errorcode.md)
 - [AwsTest Undefined Variable Fix](awstest-bugfix-undefined-variable.md)
 - [Media Module PHPStan Fixes](../media/project_docs/phpstan_level10_fixes.md)
-<<<<<<< .merge_file_WjJb0q
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Media Module PHPStan Fixes](../media/project_docs/phpstan_level10_fixes.md)
-=======
-- [Media Module PHPStan Fixes](../Media/project_docs/phpstan_level10_fixes.md)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- [Media Module PHPStan Fixes](../Media/project_docs/phpstan_level10_fixes.md)
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_HAx4YA
 
 ## Aggiornamento Continuo
 
 Questo documento deve essere aggiornato ogni volta che vengono rilevati e corretti nuovi errori PHPStan level 9+.
 
-<<<<<<< .merge_file_WjJb0q
-<<<<<<< HEAD
 **Data Ultimo Aggiornamento**: [DATE]
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Data Ultimo Aggiornamento**: [DATE]
-=======
-**Data Ultimo Aggiornamento**: 2025-01-06
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-**Data Ultimo Aggiornamento**: 2025-01-06
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
-**Data Ultimo Aggiornamento**: [DATE]
->>>>>>> .merge_file_HAx4YA
 **PHPStan Version**: 1.12.x
 **Laravel Version**: 12.21.0

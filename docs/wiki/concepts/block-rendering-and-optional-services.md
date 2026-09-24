@@ -3,55 +3,12 @@ title: "Block rendering e servizi opzionali"
 type: concept
 tags: [ui, blocks, livewire, phpstan, geo, cms]
 created: 2026-06-15
-<<<<<<< .merge_file_VccgDj
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_rzQ3dp
 updated: 2026-06-15
 qmd: "UI block render InteractiveMap MapServiceContract ResolveLocalizedBlockDataAction GetAllBlocksAction"
 related:
   - ./phpstan-dynamic-array-normalization.md
   - ../../../../../docs/wiki/patterns/phpstan-optional-contracts.md
   - ../log.md
-<<<<<<< .merge_file_VccgDj
-<<<<<<< .merge_file_SFCuFr
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-updated: 2026-07-13
-qmd: "UI block render InteractiveMap MapServiceContract ResolveLocalizedBlockDataAction GetAllBlocksAction"
-related:
-  - ./phpstan-dynamic-array-normalization.md
-  - ../../../../../docs/wiki/patterns/phpstan-optional-contracts.md
-  - ../log.md
-=======
->>>>>>> 804451c (Lint)
-updated: 2026-06-15
-qmd: "UI block render InteractiveMap MapServiceContract ResolveLocalizedBlockDataAction GetAllBlocksAction"
-related:
-  - "./auth-register-focus-loss-overlay.md"
-  - "./claude-audit-static.md"
-  - "./code-redundancy-ui.md"
-  - "./context-overflow-prevention.md"
-  - "./enum-select-best-practices.md"
-  - "./enum-select-component.md"
-  - "./enum-select-contract-and-false-friends.md"
-  - "./enum-select-usage.md"
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_aFTBdU
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_rzQ3dp
 ---
 
 # Block rendering e servizi opzionali
@@ -87,15 +44,6 @@ flowchart LR
 
 ## Catena di utilizzo — Mappa
 
-<<<<<<< .merge_file_VccgDj
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_SFCuFr
-=======
-=======
->>>>>>> .merge_file_aFTBdU
-=======
->>>>>>> .merge_file_rzQ3dp
 | Artefatto | Ruolo | Consumer noti |
 |-----------|-------|---------------|
 | `InteractiveMap` (Livewire) | Marker, filtri, export, geocoding | `resources/views/livewire/components/map/interactive-map.blade.php`; integrazione documentata in `docs/map-integration-guide.md` |
@@ -105,34 +53,6 @@ flowchart LR
 
 Quando il modulo **Geo** sarà installato, sostituire il binding in `UIServiceProvider` senza toccare `InteractiveMap`.
 
-<<<<<<< .merge_file_VccgDj
-<<<<<<< .merge_file_SFCuFr
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-| Artefatto | Ruolo | Consumer noti |
-|-----------|-------|---------------|
-| `InteractiveMap` (Livewire) | Marker, filtri, export, geocoding | `resources/views/livewire/components/map/interactive-map.blade.php`; integrazione documentata in `docs/map-integration-guide.md` |
-| `MapServiceContract` | Contratto marker/stats/export | Registrato in `UIServiceProvider` → `NullMapServiceAdapter` di default |
-| `GeocodingServiceContract` | Contratto ricerca indirizzi | `NullGeocodingServiceAdapter` di default |
-| `NullMapServiceAdapter` / `NullGeocodingServiceAdapter` | Fallback quando Geo assente | `app/Adapters/Map/` — container singleton |
-
-Quando il modulo **Geo** sarà installato, sostituire il binding in `UIServiceProvider` senza toccare `InteractiveMap`.
-
-=======
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_aFTBdU
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_rzQ3dp
 ## Regola PHPStan
 
 - Non importare `Modules\Geo\*` o `Modules\Cms\*` nel consumer UI.

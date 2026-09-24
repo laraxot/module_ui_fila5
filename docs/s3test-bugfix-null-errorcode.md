@@ -121,35 +121,7 @@ try {
 - [Best Practices](../best-practices.md)
 
 ## Data Correzione
-<<<<<<< .merge_file_0kvYfK
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_cxB5Em
 [DATE]
-=======
-<<<<<<< HEAD
-2025-01-06
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-[DATE]
-=======
-2025-01-06
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-2025-01-06
-=======
-[DATE]
->>>>>>> .merge_file_RQCRqB
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
-[DATE]
->>>>>>> .merge_file_zsrCCq
 
 ## Autore
 AI Assistant

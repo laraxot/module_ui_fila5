@@ -1,14 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< .merge_file_ZEISsl
-<<<<<<< HEAD
-=======
 
->>>>>>> 804451c (Lint)
-=======
-
->>>>>>> .merge_file_MgAf4w
 ?>
 <section class="bg-indigo-800">
     <div class="mx-auto max-w-7xl md:grid md:grid-cols-2 md:px-6 lg:px-8">

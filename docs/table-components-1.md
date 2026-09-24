@@ -8,21 +8,6 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 ### DataTable
 ```blade
 <x-ui::datatable
-<<<<<<< .merge_file_ViAhBf
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<x-ui::datatable
-=======
-<x-ui::datatable 
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-<x-ui::datatable 
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_GWZYnP
     :columns="[
         ['name' => 'id', 'label' => 'ID', 'sortable' => true],
         ['name' => 'name', 'label' => 'Nome', 'sortable' => true],
@@ -40,24 +25,7 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 
 ### StatusBadge
 ```blade
-<<<<<<< .merge_file_ViAhBf
-<<<<<<< HEAD
 <x-ui::status-badge
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<x-ui::status-badge
-=======
-<x-ui::status-badge 
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-<x-ui::status-badge 
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
-<x-ui::status-badge
->>>>>>> .merge_file_GWZYnP
     :status="$user->status"
     :options="[
         'active' => ['label' => 'Attivo', 'color' => 'success'],
@@ -69,24 +37,7 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 
 ### ActionButtons
 ```blade
-<<<<<<< .merge_file_ViAhBf
-<<<<<<< HEAD
 <x-ui::action-buttons
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<x-ui::action-buttons
-=======
-<x-ui::action-buttons 
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-<x-ui::action-buttons 
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
-<x-ui::action-buttons
->>>>>>> .merge_file_GWZYnP
     :actions="[
         [
             'type' => 'view',
@@ -144,21 +95,6 @@ class UserTable extends Component
     public $search = '';
     public $perPage = 10;
 
-<<<<<<< .merge_file_ViAhBf
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_GWZYnP
     public function sortBy($field)
     {
         if ($this->sortField === $field) {
@@ -168,24 +104,7 @@ class UserTable extends Component
             $this->sortDirection = 'asc';
         }
     }
-<<<<<<< .merge_file_ViAhBf
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
-
->>>>>>> .merge_file_GWZYnP
     public function render()
     {
         $users = User::query()
@@ -195,24 +114,7 @@ class UserTable extends Component
             })
             ->orderBy($this->sortField, $this->sortDirection)
             ->paginate($this->perPage);
-<<<<<<< .merge_file_ViAhBf
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-            
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-            
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
-
->>>>>>> .merge_file_GWZYnP
         return view('livewire.user-table', compact('users'));
     }
 }

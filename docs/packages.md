@@ -3,35 +3,7 @@
 ## Pacchetti Utilizzati
 
 ### Core
-<<<<<<< .merge_file_vQR5N1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_vrjsfC
 - [laraxot/module_xot_fila5](../xot/docs/packages.md) - Modulo base per funzionalità comuni
-=======
-<<<<<<< HEAD
-- [laraxot/module_xot_fila5](../Xot/docs/packages.md) - Modulo base per funzionalità comuni
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-- [laraxot/module_xot_fila5](../xot/docs/packages.md) - Modulo base per funzionalità comuni
-=======
-- [laraxot/module_xot_fila5](../Xot/docs/packages.md) - Modulo base per funzionalità comuni
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-- [laraxot/module_xot_fila5](../Xot/docs/packages.md) - Modulo base per funzionalità comuni
-=======
-- [laraxot/module_xot_fila5](../xot/docs/packages.md) - Modulo base per funzionalità comuni
->>>>>>> .merge_file_aW8dTb
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
-- [laraxot/module_xot_fila5](../xot/docs/packages.md) - Modulo base per funzionalità comuni
->>>>>>> .merge_file_ECd5xZ
 - [filament/filament](https://filamentphp.com) - Admin panel e componenti UI
 - [tailwindcss/tailwindcss](https://tailwindcss.com) - Framework CSS utility-first
 
@@ -83,31 +55,6 @@
 ### Versione HEAD
 
 ## Collegamenti tra versioni di packages.md
-<<<<<<< .merge_file_vQR5N1
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_vrjsfC
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-* [packages.md](../../../Gdpr/docs/packages.md)
-* [packages.md](../../../Notify/docs/packages.md)
-* [packages.md](../../../Xot/docs/packages.md)
-* [packages.md](../../../User/docs/packages.md)
-* [packages.md](../../../UI/docs/packages.md)
-* [packages.md](../../../Lang/docs/packages.md)
-* [packages.md](../../../Job/docs/packages.md)
-* [packages.md](../../../Media/docs/packages.md)
-* [packages.md](../../../Tenant/docs/packages.md)
-=======
->>>>>>> .merge_file_aW8dTb
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_ECd5xZ
 * [packages.md](../../../gdpr/docs/packages.md)
 * [packages.md](../../../notify/docs/packages.md)
 * [packages.md](../../../xot/docs/packages.md)
@@ -117,37 +64,6 @@
 * [packages.md](../../../job/docs/packages.md)
 * [packages.md](../../../media/docs/packages.md)
 * [packages.md](../../../tenant/docs/packages.md)
-<<<<<<< .merge_file_vQR5N1
-<<<<<<< HEAD
-<<<<<<< .merge_file_vrjsfC
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-* [packages.md](../../../Gdpr/docs/packages.md)
-* [packages.md](../../../Notify/docs/packages.md)
-* [packages.md](../../../Xot/docs/packages.md)
-* [packages.md](../../../User/docs/packages.md)
-* [packages.md](../../../UI/docs/packages.md)
-* [packages.md](../../../Lang/docs/packages.md)
-* [packages.md](../../../Job/docs/packages.md)
-* [packages.md](../../../Media/docs/packages.md)
-* [packages.md](../../../Tenant/docs/packages.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_aW8dTb
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ECd5xZ
 
 ### Versione Incoming
 

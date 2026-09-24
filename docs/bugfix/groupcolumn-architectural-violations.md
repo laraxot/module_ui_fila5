@@ -1,64 +1,3 @@
-<<<<<<< .merge_file_dzS0Ir
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_uNQnBQ
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_jXBqJp
-=======
-=======
->>>>>>> 804451c (Lint)
----
-title: "Bugfix: GroupColumn Architectural Violations"
-type: concept
-tags: [groupcolumn, architectural, violations]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "groupcolumn-architectural-violations bugfix: groupcolumn architectural violations"
-<<<<<<< HEAD
-<<<<<<< .merge_file_uNQnBQ
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
-<<<<<<< HEAD
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> .merge_file_jXBqJp
-=======
->>>>>>> 804451c (Lint)
-related:
-  - "./iconcolumn-extends-filament-column.md"
-  - "./iconcolumn-view-path-fix.md"
----
-
-<<<<<<< HEAD
-<<<<<<< .merge_file_uNQnBQ
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_jXBqJp
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_9SVNg5
 # Bugfix: GroupColumn Architectural Violations
 
 **Data Fix**: 11 Novembre 2025
@@ -283,34 +222,6 @@ final class GroupColumn extends XotBaseColumn
 @php
     $fields = $getFields();  // ✅ PSR-12
 **Dopo (18 Nov 2025)**:
-<<<<<<< .merge_file_dzS0Ir
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_uNQnBQ
-=======
-<<<<<<< HEAD
-```
-
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-=======
-```
-
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-```
-
-=======
->>>>>>> .merge_file_jXBqJp
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_9SVNg5
 ```blade
 @php
     $fields = $getFields();
@@ -402,42 +313,8 @@ Column (Filament - DO NOT REFERENCE)
 
 ## Riferimenti
 
-<<<<<<< .merge_file_dzS0Ir
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_uNQnBQ
 - [Laraxot Architectural Rules](../../architecture_rules.md)
 - [Never Use Label Rule](../never_use_label_rule.md)
-=======
-<<<<<<< HEAD
-- [Laraxot Architectural Rules](../../architecture-rules-1.md)
-- [Never Use Label Rule](../never-use-label-rule-1.md)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-- [Laraxot Architectural Rules](../../architecture_rules.md)
-- [Never Use Label Rule](../never_use_label_rule.md)
-=======
-- [Laraxot Architectural Rules](../../architecture-rules-1.md)
-- [Never Use Label Rule](../never-use-label-rule-1.md)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-- [Laraxot Architectural Rules](../../architecture-rules-1.md)
-- [Never Use Label Rule](../never-use-label-rule-1.md)
-=======
-- [Laraxot Architectural Rules](../../architecture_rules.md)
-- [Never Use Label Rule](../never_use_label_rule.md)
->>>>>>> .merge_file_jXBqJp
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
-- [Laraxot Architectural Rules](../../architecture_rules.md)
-- [Never Use Label Rule](../never_use_label_rule.md)
->>>>>>> .merge_file_9SVNg5
 - [XotBaseColumn](../../../../Xot/app/Filament/Tables/Columns/XotBaseColumn.php)
 - [Translation Pattern](../../translations/)
 - [docs/blade-components.md](../../../../docs/blade-components.md)

@@ -5,31 +5,7 @@ type: source
 created: "2026-04-29T00:00:00Z"
 updated: "2026-04-29T00:00:00Z"
 related:
-<<<<<<< .merge_file_a6ngAO
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_Y0yaow
   - "[[UI Operating Model]]"
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-  - "[[UI Operating Model]]"
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-  - "[[UI Operating Model]]"
->>>>>>> .merge_file_EZs7SV
-=======
-  - "[[UI Operating Model]]"
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-  - "[[UI Operating Model]]"
->>>>>>> .merge_file_MppbLc
 ---
 
 # UI Architecture Sources
@@ -39,42 +15,8 @@ related:
 ## Source Cluster
 
 - `README.md`
-<<<<<<< .merge_file_a6ngAO
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_Y0yaow
 - `ARCHITECTURE.md`
 - `PRODUCT_STRATEGY.md`
-=======
-<<<<<<< HEAD
-- `architecture-1.md`
-- `product-strategy-1.md`
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-- `ARCHITECTURE.md`
-- `PRODUCT_STRATEGY.md`
-=======
-- `architecture-1.md`
-- `product-strategy-1.md`
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-- `architecture-1.md`
-- `product-strategy-1.md`
-=======
-- `ARCHITECTURE.md`
-- `PRODUCT_STRATEGY.md`
->>>>>>> .merge_file_EZs7SV
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
-- `ARCHITECTURE.md`
-- `PRODUCT_STRATEGY.md`
->>>>>>> .merge_file_MppbLc
 - `architecture/structure.md`
 
 ## Main Signals

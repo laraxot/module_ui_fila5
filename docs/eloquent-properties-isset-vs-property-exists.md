@@ -164,49 +164,9 @@ Prima di commit, verifica:
 
 ## Documentazione Completa
 
-<<<<<<< .merge_file_mUFHnE
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_SDnv61
 - **Guida Master**: [Xot: Eloquent Models Critical Rules](../../xot/docs/eloquent-models-critical-rules.md)
 - **Cast Actions**: [Xot: Cast Actions](../../xot/docs/cast-actions.md)
 - **Best Practices**: [Xot: Eloquent Properties Best Practices](../../xot/docs/eloquent-properties-best-practices.md)
-=======
-<<<<<<< HEAD
-- **Guida Master**: [Xot: Eloquent Models Critical Rules](../../Xot/docs/eloquent-models-critical-rules.md)
-- **Cast Actions**: [Xot: Cast Actions](../../Xot/docs/cast-actions.md)
-- **Best Practices**: [Xot: Eloquent Properties Best Practices](../../Xot/docs/eloquent-properties-best-practices.md)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-- **Guida Master**: [Xot: Eloquent Models Critical Rules](../../xot/docs/eloquent-models-critical-rules.md)
-- **Cast Actions**: [Xot: Cast Actions](../../xot/docs/cast-actions.md)
-- **Best Practices**: [Xot: Eloquent Properties Best Practices](../../xot/docs/eloquent-properties-best-practices.md)
-=======
-- **Guida Master**: [Xot: Eloquent Models Critical Rules](../../Xot/docs/eloquent-models-critical-rules.md)
-- **Cast Actions**: [Xot: Cast Actions](../../Xot/docs/cast-actions.md)
-- **Best Practices**: [Xot: Eloquent Properties Best Practices](../../Xot/docs/eloquent-properties-best-practices.md)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-- **Guida Master**: [Xot: Eloquent Models Critical Rules](../../Xot/docs/eloquent-models-critical-rules.md)
-- **Cast Actions**: [Xot: Cast Actions](../../Xot/docs/cast-actions.md)
-- **Best Practices**: [Xot: Eloquent Properties Best Practices](../../Xot/docs/eloquent-properties-best-practices.md)
-=======
-- **Guida Master**: [Xot: Eloquent Models Critical Rules](../../xot/docs/eloquent-models-critical-rules.md)
-- **Cast Actions**: [Xot: Cast Actions](../../xot/docs/cast-actions.md)
-- **Best Practices**: [Xot: Eloquent Properties Best Practices](../../xot/docs/eloquent-properties-best-practices.md)
->>>>>>> .merge_file_GYmgok
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
-- **Guida Master**: [Xot: Eloquent Models Critical Rules](../../xot/docs/eloquent-models-critical-rules.md)
-- **Cast Actions**: [Xot: Cast Actions](../../xot/docs/cast-actions.md)
-- **Best Practices**: [Xot: Eloquent Properties Best Practices](../../xot/docs/eloquent-properties-best-practices.md)
->>>>>>> .merge_file_Km5C8Q
 
 ## Risorse
 
@@ -222,53 +182,7 @@ Prima di commit, verifica:
 
 ---
 
-<<<<<<< .merge_file_mUFHnE
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_SDnv61
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-**Progetto**: base_<nome progetto>_fila4_mono
-**PHPStan**: Level 10
-**Status**: ✅ 0 Errors
-**Ultimo aggiornamento**: 2025-01-06
-=======
->>>>>>> .merge_file_GYmgok
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_Km5C8Q
 **Progetto**: base_<nome progetto>_fila5_mono
 **PHPStan**: Level 10
 **Status**: ✅ 0 Errors
 **Ultimo aggiornamento**: [DATE]
-<<<<<<< .merge_file_mUFHnE
-<<<<<<< HEAD
-<<<<<<< .merge_file_SDnv61
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-**Progetto**: base_<nome progetto>_fila4_mono
-**PHPStan**: Level 10
-**Status**: ✅ 0 Errors
-**Ultimo aggiornamento**: 2025-01-06
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_GYmgok
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_Km5C8Q

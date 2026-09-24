@@ -1,30 +1,5 @@
 # MCP Servers per UI/UX - Modulo UI
 
-<<<<<<< .merge_file_j5tG4I
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_Xx5PuZ
-=======
-<<<<<<< HEAD
-> Ultimo aggiornamento: Febbraio 2026
-=======
-<<<<<<< HEAD
-=======
-> Ultimo aggiornamento: Febbraio 2026
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-> Ultimo aggiornamento: Febbraio 2026
-=======
->>>>>>> .merge_file_f2WbPw
->>>>>>> laraxot/dev
-=======
-=======
-> Ultimo aggiornamento: Febbraio 2026
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_ycCRXp
 
 ## Scopo
 
@@ -59,41 +34,7 @@ Il modulo UI fornisce componenti Blade condivisi in `resources/views/components/
 
 ## Collegamenti
 
-<<<<<<< .merge_file_j5tG4I
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_Xx5PuZ
 - [MCP UI/UX Tema Two](../../themes/two/docs/mcp-ui-ux.md)
 - [Status MCP Progetto](../../../../docs/mcp-servers-status.md)
-=======
-<<<<<<< HEAD
-- [MCP UI/UX Tema Two](../../Themes/Two/docs/mcp-ui-ux.md)
-- [Status MCP Progetto](../../../docs/mcp-servers-status.md)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-- [MCP UI/UX Tema Two](../../themes/two/docs/mcp-ui-ux.md)
-- [Status MCP Progetto](../../../../docs/mcp-servers-status.md)
-=======
-- [MCP UI/UX Tema Two](../../Themes/Two/docs/mcp-ui-ux.md)
-- [Status MCP Progetto](../../../docs/mcp-servers-status.md)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-- [MCP UI/UX Tema Two](../../Themes/Two/docs/mcp-ui-ux.md)
-- [Status MCP Progetto](../../../docs/mcp-servers-status.md)
-=======
-- [MCP UI/UX Tema Two](../../themes/two/docs/mcp-ui-ux.md)
-- [Status MCP Progetto](../../../../docs/mcp-servers-status.md)
->>>>>>> .merge_file_f2WbPw
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
-- [MCP UI/UX Tema Two](../../themes/two/docs/mcp-ui-ux.md)
-- [Status MCP Progetto](../../../../docs/mcp-servers-status.md)
->>>>>>> .merge_file_ycCRXp
 - [Skill MCP UI/UX](../../../.windsurf/skills/mcp-ui-ux/skill.md)
 - [Workflow MCP UI/UX](../../../.windsurf/workflows/mcp-ui-ux.md)

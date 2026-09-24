@@ -16,14 +16,6 @@ class UserCalendarWidget extends XotBaseSchemaWidget
 {
     public string $type;
 
-<<<<<<< .merge_file_sxG7Ci
-<<<<<<< HEAD
-    /** @phpstan-var view-string */
-    /** @phpstan-ignore property.defaultValue */
-=======
->>>>>>> 804451c (Lint)
-    protected string $view = 'ui::filament.widgets.user-calendar';
-=======
     /** @var view-string */
     protected string $view;
 
@@ -35,7 +27,6 @@ class UserCalendarWidget extends XotBaseSchemaWidget
 
         parent::__construct();
     }
->>>>>>> .merge_file_zxVcl7
 
     public function getActionName(string $function): string
     {
@@ -51,17 +42,8 @@ class UserCalendarWidget extends XotBaseSchemaWidget
     }
 
     /**
-<<<<<<< .merge_file_sxG7Ci
-     * @param array<string, mixed> $fetchInfo
-<<<<<<< HEAD
-=======
-     * @param array<string, mixed> $fetchInfo
->>>>>>> 804451c (Lint)
-     *
-=======
      * @param  array<string, mixed>  $fetchInfo
      * @param  array<string, mixed>  $fetchInfo
->>>>>>> .merge_file_zxVcl7
      * @return array<int, array<string, mixed>>
      */
     public function fetchEvents(array $fetchInfo): array
@@ -106,21 +88,7 @@ class UserCalendarWidget extends XotBaseSchemaWidget
     }
 
     /**
-<<<<<<< .merge_file_sxG7Ci
-<<<<<<< HEAD
-     * @param array<string, mixed>|null $view
-     * @param array<string, mixed>|null $resource
-     *
-=======
->>>>>>> .merge_file_zxVcl7
      * @SuppressWarnings("PHPMD.UnusedFormalParameter")
-=======
-     * @SuppressWarnings("PHPMD.UnusedFormalParameter")
-     */
-    /**
-     * @param array<string, mixed>|null $view
-     * @param array<string, mixed>|null $resource
->>>>>>> 804451c (Lint)
      */
     /**
      * @param  array<string, mixed>|null  $view

@@ -1,14 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< .merge_file_uZqf3a
-<<<<<<< HEAD
-=======
 
->>>>>>> 804451c (Lint)
-=======
-
->>>>>>> .merge_file_Mn9ULN
 ?>
 {{--
     Services Grid Component - Griglia di servizi comunali/aziendali

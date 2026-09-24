@@ -1,20 +1,5 @@
 # Analisi Errori PHPStan - Modulo UI
 
-<<<<<<< .merge_file_AFQ7iA
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-**Data**: 2025-12-23
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-**Data**: 2025-12-23
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_wsIwuw
 **Modulo**: UI
 **Livello PHPStan**: max
 **Status**: ✅ Corretto (0 errori)

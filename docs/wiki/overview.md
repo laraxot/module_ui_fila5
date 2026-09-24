@@ -4,43 +4,6 @@ module: "UI"
 type: overview
 created: "2026-04-15T08:28:51Z"
 updated: "2026-04-15T08:28:51Z"
-<<<<<<< .merge_file_t1Nl67
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_nl9Q65
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_xBiCt9
-=======
-=======
->>>>>>> 804451c (Lint)
-related:
-  - "./agents.md"
-  - "./bmad-method.md"
-  - "./context-compression.md"
-  - "./index.md"
-  - "./log.md"
-<<<<<<< HEAD
-<<<<<<< .merge_file_nl9Q65
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_xBiCt9
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_Pbjxl1
 ---
 
 # UI Wiki Overview

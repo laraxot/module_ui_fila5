@@ -391,63 +391,7 @@ class ClosedDays extends Field { /* Focused on day selection */ }
 
 #### **3.1 AI-Enhanced Components**
 - Smart form validation with ML suggestions
-<<<<<<< .merge_file_mAdoSm
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_1RgdIE
 - Auto-complete components with intelligent <nome progetto>ions
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-- Auto-complete components with intelligent <nome progetto>ions
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-- Auto-complete components with intelligent <nome progetto>ions
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-- Auto-complete components with intelligent predictions
-<<<<<<< HEAD
-- Auto-complete components with intelligent forecasts
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-- Auto-complete components with intelligent predictions
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-- Auto-complete components with intelligent forecasts
-=======
-- Auto-complete components with intelligent predictions
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- Auto-complete components with intelligent predictions
-- Auto-complete components with intelligent forecasts
-=======
-- Auto-complete components with intelligent <nome progetto>ions
->>>>>>> .merge_file_FuJ5xU
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-- Auto-complete components with intelligent <nome progetto>ions
->>>>>>> .merge_file_dknCnn
 - Dynamic form generation based on data patterns
 - Voice-controlled component interactions
 
@@ -784,35 +728,7 @@ class UserCalendarWidget extends XotBaseWidget
 **Modulo**: UI (User Interface Components & Design System)
 **Status**: 85% COMPLETATO
 **Priority**: HIGH
-<<<<<<< .merge_file_mAdoSm
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_1RgdIE
 **PHPStan**: ✅ Level 10 (0 errori)
-=======
-<<<<<<< HEAD
-**PHPStan**: ✅ Level 9 (0 errori)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-**PHPStan**: ✅ Level 10 (0 errori)
-=======
-**PHPStan**: ✅ Level 9 (0 errori)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-**PHPStan**: ✅ Level 9 (0 errori)
-=======
-**PHPStan**: ✅ Level 10 (0 errori)
->>>>>>> .merge_file_FuJ5xU
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
-**PHPStan**: ✅ Level 10 (0 errori)
->>>>>>> .merge_file_dknCnn
 **Filament**: ✅ 4.x Compatibile
 
 ---
@@ -820,54 +736,6 @@ class UserCalendarWidget extends XotBaseWidget
 ## 🎯 MODULE OVERVIEW
 
 Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
-<<<<<<< .merge_file_mAdoSm
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_1RgdIE
-=======
-=======
-<<<<<<< HEAD
-Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-Il modulo **UI** è il sistema di componenti e design system della piattaforma <nome progetto>, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
-Il modulo **UI** è il sistema di componenti e design system della piattaforma progetto corrente, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-Il modulo **UI** è il sistema di componenti e design system della piattaforma <nome progetto>, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-Il modulo **UI** è il sistema di componenti e design system della piattaforma progetto corrente, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
-=======
-Il modulo **UI** è il sistema di componenti e design system della piattaforma <nome progetto>, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-Il modulo **UI** è il sistema di componenti e design system della piattaforma <nome progetto>, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
-Il modulo **UI** è il sistema di componenti e design system della piattaforma progetto corrente, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
-=======
->>>>>>> .merge_file_FuJ5xU
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_dknCnn
 
 ### 🏗️ Architettura Modulo
 ```
@@ -932,35 +800,7 @@ UI Module
 - [x] **Orientation Handling**: Gestione orientamento dispositivo
 
 ### 🛠️ Technical Excellence
-<<<<<<< .merge_file_mAdoSm
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_1RgdIE
 - [x] **PHPStan Level 10**: 0 errori
-=======
-<<<<<<< HEAD
-- [x] **PHPStan Level 9**: 0 errori
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-- [x] **PHPStan Level 10**: 0 errori
-=======
-- [x] **PHPStan Level 9**: 0 errori
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-- [x] **PHPStan Level 9**: 0 errori
-=======
-- [x] **PHPStan Level 10**: 0 errori
->>>>>>> .merge_file_FuJ5xU
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
-- [x] **PHPStan Level 10**: 0 errori
->>>>>>> .merge_file_dknCnn
 - [x] **Filament 4.x**: Compatibilità completa
 - [x] **Type Safety**: Type hints completi
 - [x] **Error Handling**: Gestione errori robusta
@@ -1088,35 +928,7 @@ UI Module
 ## 🎯 SUCCESS METRICS
 
 ### 📊 Technical Metrics
-<<<<<<< .merge_file_mAdoSm
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_1RgdIE
 - [x] **PHPStan Level 10**: 0 errori ✅
-=======
-<<<<<<< HEAD
-- [x] **PHPStan Level 9**: 0 errori ✅
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-- [x] **PHPStan Level 10**: 0 errori ✅
-=======
-- [x] **PHPStan Level 9**: 0 errori ✅
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-- [x] **PHPStan Level 9**: 0 errori ✅
-=======
-- [x] **PHPStan Level 10**: 0 errori ✅
->>>>>>> .merge_file_FuJ5xU
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
-- [x] **PHPStan Level 10**: 0 errori ✅
->>>>>>> .merge_file_dknCnn
 - [x] **Filament 4.x**: Compatibile ✅
 - [ ] **Test Coverage**: 80% (target)
 - [ ] **Response Time**: < 200ms
@@ -1202,34 +1014,6 @@ UI Module
 
 ---
 
-<<<<<<< .merge_file_mAdoSm
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_1RgdIE
-=======
-<<<<<<< HEAD
-**Last Updated**: 2025-10-01
-**Next Review**: 2025-11-01
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-=======
-**Last Updated**: 2025-10-01
-**Next Review**: 2025-11-01
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-**Last Updated**: 2025-10-01
-**Next Review**: 2025-11-01
-=======
->>>>>>> .merge_file_FuJ5xU
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_dknCnn
 **Status**: 🚧 ACTIVE DEVELOPMENT
 **Confidence Level**: 90%
 

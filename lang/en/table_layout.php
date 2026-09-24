@@ -2,65 +2,7 @@
 
 declare(strict_types=1);
 
-<<<<<<< .merge_file_uNp80B
-<<<<<<< HEAD
-<<<<<<< .merge_file_OYBy7W
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/UI/docs/wiki — domain i18n only.
-// File: lang/en/table_layout.php
 return [
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-return [
-=======
-return [
->>>>>>> .merge_file_PT3arh
-=======
-=======
-return [
->>>>>>> 804451c (Lint)
-    'values' => [
-        'list' => [
-            'label' => 'List',
-            'icon' => 'heroicon-o-list-bullet',
-            'color' => 'primary',
-            'description' => 'List',
-        ],
-        'grid' => [
-            'label' => 'Grid',
-            'icon' => 'heroicon-o-squares-2x2',
-            'color' => 'secondary',
-            'description' => 'Grid',
-        ],
-    ],
-<<<<<<< HEAD
-<<<<<<< .merge_file_OYBy7W
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_PT3arh
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
-return [
->>>>>>> .merge_file_FAx8Ai
     'actions' => [
         'toggle' => [
             'label' => 'Toggle Layout',

@@ -1,14 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< .merge_file_I2vJuN
-<<<<<<< HEAD
-=======
 
->>>>>>> 804451c (Lint)
-=======
-
->>>>>>> .merge_file_Kar63D
 ?>
 <div class="bg-white py-24">
     <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">

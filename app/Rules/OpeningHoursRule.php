@@ -1,14 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< .merge_file_IAnGfD
-<<<<<<< HEAD
-=======
 
->>>>>>> 804451c (Lint)
-=======
-
->>>>>>> .merge_file_IfYZRb
 // app/Rules/OpeningHoursRule.php
 
 namespace Modules\UI\Rules;

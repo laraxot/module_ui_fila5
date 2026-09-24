@@ -94,30 +94,6 @@ php artisan config:clear
 
 - [Sistema Icone UI](../icon-system.md)
 - [Blade Icons Documentation](../blade-icons.md)
-<<<<<<< .merge_file_YCuVGe
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_UoxqVO
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-- [XotBaseServiceProvider](../XotBaseServiceProvider.md)
-
----
-
-**Data**: 27 Gennaio 2025  
-**Modulo**: UI  
-**Tipo**: Bug Fix  
-**Priorità**: Alta  
-=======
->>>>>>> .merge_file_5ARnhq
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_0xG82H
 - [XotBaseServiceProvider](../xotbaseserviceprovider.md)
 
 ---
@@ -125,34 +101,4 @@ php artisan config:clear
 **Modulo**: UI
 **Tipo**: Bug Fix
 **Priorità**: Alta
-<<<<<<< .merge_file_YCuVGe
-<<<<<<< HEAD
-<<<<<<< .merge_file_UoxqVO
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-- [XotBaseServiceProvider](../XotBaseServiceProvider.md)
-
----
-
-**Data**: 27 Gennaio 2025  
-**Modulo**: UI  
-**Tipo**: Bug Fix  
-**Priorità**: Alta  
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_5ARnhq
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_0xG82H
 **Stato**: ✅ Risolto

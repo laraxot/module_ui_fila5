@@ -1,13 +1,3 @@
-<<<<<<< .merge_file_Vc1nDb
-<<<<<<< HEAD
-<?php
-
-declare(strict_types=1);
-?>
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_jNmyVr
 @props([
     'number' => 1,
     'title' => '',

@@ -1,24 +1,4 @@
 # Correzioni PHPStan Livello 7 - Modulo UI
-<<<<<<< .merge_file_jKADk6
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
----
-module: theme
-topic: phpstan_fixes
-canonical: ../../../Themes/docs/shared-components/phpstan-fixes_1.md
-See canonical documentation: ../../../Themes/docs/shared-components/phpstan-fixes_1.md
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_xMLyLD
 
 Questo documento traccia gli errori PHPStan di livello 7 identificati nel modulo UI e le relative soluzioni implementate.
 

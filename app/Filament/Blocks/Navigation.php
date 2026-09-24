@@ -12,64 +12,13 @@ use Modules\Xot\Filament\Blocks\XotBaseBlock;
 final class Navigation extends XotBaseBlock
 {
     /**
-<<<<<<< .merge_file_9OnKIf
-<<<<<<< HEAD
-<<<<<<< .merge_file_VfWMxq
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
      * @return array<int, Component>
-=======
-     * @return array<string, Component>
->>>>>>> .merge_file_fdBkUg
-=======
-<<<<<<< HEAD
-     * @return array<int, Component>
->>>>>>> 804451c (Lint)
-=======
-     * @return array<int, Component>
->>>>>>> .merge_file_OsL0QJ
      */
     #[\Override]
     public static function getBlockSchema(): array
     {
         return [
-<<<<<<< .merge_file_9OnKIf
-<<<<<<< HEAD
-<<<<<<< .merge_file_VfWMxq
             Repeater::make('items')
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-            Repeater::make('items')
-=======
->>>>>>> 804451c (Lint)
-     * @return array<string, Component>
-     */
-    public static function getBlockSchema(): array
-    {
-        return [
-            'items' => Repeater::make('items')
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-            'items' => Repeater::make('items')
->>>>>>> .merge_file_fdBkUg
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
-            Repeater::make('items')
->>>>>>> .merge_file_OsL0QJ
                 ->label(__('ui::blocks.navigation.fields.items.label'))
                 ->schema([
                     TextInput::make('label')
@@ -88,33 +37,7 @@ final class Navigation extends XotBaseBlock
     /**
      * @return array<string, Component>
      */
-<<<<<<< .merge_file_9OnKIf
-<<<<<<< HEAD
-<<<<<<< .merge_file_VfWMxq
-<<<<<<< HEAD
     public function getFormSchema(): array
-=======
-<<<<<<< HEAD
-    public static function getFormSchema(): array
-=======
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
-    public function getFormSchema(): array
-=======
-    public static function getFormSchema(): array
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-    public static function getFormSchema(): array
->>>>>>> .merge_file_fdBkUg
-=======
->>>>>>> 804451c (Lint)
-=======
-    public function getFormSchema(): array
->>>>>>> .merge_file_OsL0QJ
     {
         return [
             'items' => Repeater::make('items')

@@ -62,30 +62,6 @@ Components should never rely on variables that haven't been explicitly defined a
         <h2>{{ $prop1 }}</h2>
     @endif
 
-<<<<<<< .merge_file_d3LodB
-=======
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-=======
->>>>>>> 804451c (Lint)
-    
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_UGMog1
     @if($prop2)
         <p>{{ $prop2 }}</p>
     @endif
@@ -118,24 +94,7 @@ Components should never rely on variables that haven't been explicitly defined a
 
 ```blade
 <!-- INCORRECT: Hard-coded project references -->
-<<<<<<< .merge_file_d3LodB
-<<<<<<< HEAD
 <div class="title">Welcome to <nome progetto></div>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<div class="title">Welcome to <nome progetto></div>
-=======
-<div class="title">Welcome to SaluteOra</div>
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-<div class="title">Welcome to SaluteOra</div>
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
-<div class="title">Welcome to <nome progetto></div>
->>>>>>> .merge_file_UGMog1
 
 <!-- CORRECT: Dynamic configuration -->
 <div class="title">Welcome to {{ config('app.name') }}</div>

@@ -34,20 +34,7 @@ class RadioCardSelector extends XotBaseField
     /**
      * Imposta le card disponibili per la selezione.
      *
-<<<<<<< .merge_file_ZlHHoF
-<<<<<<< HEAD
-     * <<<<<<< HEAD
-     *
      * @param array<int, array<string, mixed>>|\Closure $cards
-     *                                                         =======
-     * @param array<int, array<string, mixed>>|\Closure $cards
-     *                                                         >>>>>>> laraxot/dev
-=======
-     * @param array<int, array<string, mixed>>|\Closure $cards
->>>>>>> 804451c (Lint)
-=======
-     * @param array<int, array<string, mixed>>|\Closure $cards
->>>>>>> .merge_file_BBIoKs
      */
     public function cards(array|\Closure $cards): static
     {
@@ -131,41 +118,7 @@ class RadioCardSelector extends XotBaseField
     }
 
     /**
-<<<<<<< .merge_file_ZlHHoF
-<<<<<<< HEAD
-     * <<<<<<< .merge_file_SO8J2m
-=======
->>>>>>> 804451c (Lint)
-     * <<<<<<< HEAD.
-     *
-     * @param array<mixed, mixed>     $item
-     *                                      =======
-<<<<<<< HEAD
-     *                                      =======
-     *                                      >>>>>>> .merge_file_Zu5Anh
-     *                                      <<<<<<< HEAD.
-     * @param array<array-key, mixed> $item
-     *                                      =======
-     *                                      <<<<<<< .merge_file_SO8J2m
-     *                                      <<<<<<< HEAD
-     * @param array<mixed, mixed>     $item
-     *                                      =======
-     * @param array<array-key, mixed> $item
-     *                                      >>>>>>> laraxot/dev
-     *                                      >>>>>>> laraxot/dev
-     *                                      >>>>>>> laraxot/dev
-     *                                      =======
-     * @param array<mixed, mixed>     $item
-     *
-     * >>>>>>> laraxot/dev
-     * >>>>>>> .merge_file_Zu5Anh
-=======
-     * @param array<array-key, mixed> $item
-     *                                      >>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
      * @param array<mixed, mixed> $item
->>>>>>> .merge_file_BBIoKs
      *
      * @return array<string, mixed>
      */

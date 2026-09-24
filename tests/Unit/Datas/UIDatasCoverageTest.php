@@ -4,27 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit\Datas;
 
-<<<<<<< .merge_file_B0NXqx
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\UI\Data\UserData as DataUserData;
-=======
-<<<<<<< HEAD
-use Modules\UI\Data\UserData as DataUserData;
-=======
-<<<<<<< HEAD
-=======
-use Modules\UI\Data\UserData as DataUserData;
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-use Modules\UI\Data\UserData as DataUserData;
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_dYdK9Z
 use Modules\UI\Datas\SliderData;
 use Modules\UI\Datas\SliderDataCollection;
 use Modules\UI\Datas\UserData;
@@ -33,41 +12,6 @@ use PHPUnit\Framework\Assert;
 use Spatie\LaravelData\Data;
 
 uses(TestCase::class);
-<<<<<<< .merge_file_B0NXqx
-<<<<<<< HEAD
-<<<<<<< .merge_file_WrnTmc
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_MU56B3
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_dYdK9Z
 
 it('SliderData can be instantiated with all fields', function (): void {
     $data = new SliderData(
@@ -125,50 +69,12 @@ it('SliderData can be instantiated with nulls', function (): void {
 
 it('SliderDataCollection can be instantiated', function (): void {
     $collection = new SliderDataCollection();
-<<<<<<< .merge_file_B0NXqx
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    $collection = new SliderDataCollection;
-=======
-<<<<<<< HEAD
-    $collection = new SliderDataCollection();
-=======
-    $collection = new SliderDataCollection;
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-    $collection = new SliderDataCollection;
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_dYdK9Z
 
     Assert::assertInstanceOf(SliderDataCollection::class, $collection);
 });
 
 it('SliderDataCollection is a Spatie Data class', function (): void {
-<<<<<<< .merge_file_B0NXqx
-<<<<<<< HEAD
     $collection = new SliderDataCollection();
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    $collection = new SliderDataCollection;
-=======
-<<<<<<< HEAD
-    $collection = new SliderDataCollection();
-=======
-    $collection = new SliderDataCollection;
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-    $collection = new SliderDataCollection;
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-    $collection = new SliderDataCollection();
->>>>>>> .merge_file_dYdK9Z
 
     Assert::assertInstanceOf(Data::class, $collection);
 });
@@ -199,52 +105,4 @@ it('UI Datas UserData is a Spatie Data class', function (): void {
 
     Assert::assertInstanceOf(Data::class, $data);
 });
-<<<<<<< .merge_file_B0NXqx
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
 
-it('UI Data UserData can be instantiated', function (): void {
-    $data = new DataUserData(
-        id: 42,
-        name: 'Luigi Verdi',
-        email: 'luigi@example.com',
-        avatar: 'avatar.png',
-        role: 'user',
-        permissions: [],
-        settings: [],
-    );
-
-    Assert::assertInstanceOf(DataUserData::class, $data);
-    Assert::assertSame(42, $data->id);
-    Assert::assertSame('Luigi Verdi', $data->name);
-    Assert::assertSame('luigi@example.com', $data->email);
-    Assert::assertSame('avatar.png', $data->avatar);
-});
-
-it('UI Data UserData is a Spatie Data class', function (): void {
-    $data = new DataUserData(1, 'Test', 'test@example.com', null, null, [], []);
-
-    Assert::assertInstanceOf(Data::class, $data);
-});
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-
->>>>>>> .merge_file_dYdK9Z

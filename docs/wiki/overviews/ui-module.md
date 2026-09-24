@@ -2,54 +2,12 @@
 type: overview
 module: UI
 sources:
-<<<<<<< .merge_file_QLQ7mT
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_EHkzMv
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_ts9fkp
-confidence: high
-updated: 2026-04-15
-related:
-=======
-<<<<<<< .merge_file_EHkzMv
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ts9fkp
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_UnYrfb
   - ../../../docs/module-ui.md
   - ../../../docs/philosophy.md
   - ../../../docs/design-system.md
   - ../../../docs/table-components.md
 confidence: high
 updated: 2026-04-15
-<<<<<<< .merge_file_QLQ7mT
-<<<<<<< HEAD
-<<<<<<< .merge_file_EHkzMv
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
-=======
-confidence: high
-updated: 2026-04-15
-related:
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ts9fkp
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_UnYrfb
 ---
 
 # UI Module — Overview
