@@ -92,52 +92,10 @@ php artisan view:clear
 
 # Test in browser
 # http://fixcity.local/it/tests/homepage
-<<<<<<< .merge_file_BqJurz
-=======
-=======
-<<<<<<< HEAD
-# http://fixcity.local/it/tests/homepage
-<<<<<<< HEAD
-<<<<<<< .merge_file_1mkAnm
-=======
-=======
-=======
-<<<<<<< HEAD
-# http://fixcity.local/it/tests/homepage
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> .merge_file_9fcLLF
 
 # http://<nome progetto>.local/it/tests/homepage
 # http://app.local/it/tests/homepage
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 # http://<nome progetto>.local/it/tests/homepage
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-# http://app.local/it/tests/homepage
-=======
-# http://<nome progetto>.local/it/tests/homepage
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_1mkAnm
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_9fcLLF
->>>>>>> laraxot/dev
->>>>>>> .merge_file_HXmWsf
 ```
 
 ## 📊 Icon Inventory
