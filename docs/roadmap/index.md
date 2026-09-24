@@ -8,6 +8,18 @@ qmd: "00-index ui module - roadmap"
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< .merge_file_hJf8Ig
+=======
+<<<<<<< .merge_file_5cEuAF
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> .merge_file_ij2QVe
+>>>>>>> .merge_file_N75J2x
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
@@ -17,6 +29,13 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_hJf8Ig
+=======
+<<<<<<< .merge_file_5cEuAF
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ij2QVe
+>>>>>>> .merge_file_N75J2x
 related:
   - "./00-index-1.md"
   - "./00-overview.md"

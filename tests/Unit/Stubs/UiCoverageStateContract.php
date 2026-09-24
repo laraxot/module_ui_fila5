@@ -16,6 +16,10 @@ class UiCoverageStateContract implements StateContract
 {
     public string $name = 'pending';
 
+<<<<<<< .merge_file_q32wCm
+=======
+<<<<<<< .merge_file_RHxdtB
+>>>>>>> .merge_file_onzDGm
     /** @param array<array-key, mixed>|Model|string|null $record */
     /**
 <<<<<<< HEAD
@@ -25,13 +29,26 @@ class UiCoverageStateContract implements StateContract
         public Model|array|string|null $record = null,
     ) {}
 =======
+<<<<<<< .merge_file_q32wCm
+=======
+=======
+    /**
+>>>>>>> .merge_file_VBJMIg
+>>>>>>> .merge_file_onzDGm
      * @param Model|array<string, mixed>|string|null $record
      */
     public function __construct(
         public Model|array|string|null $record = null,
     ) {
     }
+<<<<<<< .merge_file_q32wCm
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_RHxdtB
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_VBJMIg
+>>>>>>> .merge_file_onzDGm
 
     public function label(): string
     {
@@ -80,11 +97,21 @@ class UiCoverageStateContract implements StateContract
     }
 
     /**
+<<<<<<< .merge_file_q32wCm
+=======
+<<<<<<< .merge_file_RHxdtB
+>>>>>>> .merge_file_onzDGm
 <<<<<<< HEAD
      * @param  array<string, mixed>  $data
 =======
      * @param array<string, mixed> $data
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_q32wCm
+=======
+=======
+     * @param array<string, mixed> $data
+>>>>>>> .merge_file_VBJMIg
+>>>>>>> .merge_file_onzDGm
      */
     public function modalActionByRecord(Model $record, array $data): void
     {
@@ -101,11 +128,21 @@ class UiCoverageStateContract implements StateContract
 
     public function canTransitionTo(string $stateClass): bool
     {
+<<<<<<< .merge_file_q32wCm
+=======
+<<<<<<< .merge_file_RHxdtB
+>>>>>>> .merge_file_onzDGm
 <<<<<<< HEAD
         return $stateClass === UiCoverageDoneState::class;
 =======
         return UiCoverageDoneState::class === $stateClass;
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_q32wCm
+=======
+=======
+        return UiCoverageDoneState::class === $stateClass;
+>>>>>>> .merge_file_VBJMIg
+>>>>>>> .merge_file_onzDGm
     }
 
     public function transitionTo(string $state, ?string $message = null): void

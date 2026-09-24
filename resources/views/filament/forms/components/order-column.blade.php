@@ -1,7 +1,14 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_bvZwVd
 
+=======
+<<<<<<< .merge_file_L0TrFb
+
+=======
+>>>>>>> .merge_file_LHobsM
+>>>>>>> .merge_file_IHHAyE
 ?>
 <x-filament-forms::field-wrapper
     :id="$getId()"

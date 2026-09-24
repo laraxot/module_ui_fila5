@@ -38,7 +38,25 @@ Entrambi i temi contengono i seguenti file di traduzione:
 11. `patient.php` - Gestione pazienti
 12. `studio.php` - Gestione studi
 
+<<<<<<< HEAD
+<<<<<<< .merge_file_hnMumj
 ## Correzioni Applicate ([DATE])
+=======
+<<<<<<< HEAD
+## Correzioni Applicate (2025-01-06)
+=======
+<<<<<<< HEAD
+## Correzioni Applicate ([DATE])
+=======
+## Correzioni Applicate (2025-01-06)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+## Correzioni Applicate (2025-01-06)
+=======
+## Correzioni Applicate ([DATE])
+>>>>>>> .merge_file_4FpKVe
+>>>>>>> laraxot/dev
 
 ### 1. Problema: Traduzione mancante `pub_theme::appointment.fields.state.label`
 
@@ -73,7 +91,25 @@ Entrambi i temi contengono i seguenti file di traduzione:
 - `duration` - Durata
 - `emergency` - Emergenza
 
+<<<<<<< HEAD
+<<<<<<< .merge_file_hnMumj
 ### 4. Problema: Testo hardcoded in italiano per i referti ([DATE])
+=======
+<<<<<<< HEAD
+### 4. Problema: Testo hardcoded in italiano per i referti (2025-01-06)
+=======
+<<<<<<< HEAD
+### 4. Problema: Testo hardcoded in italiano per i referti ([DATE])
+=======
+### 4. Problema: Testo hardcoded in italiano per i referti (2025-01-06)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+### 4. Problema: Testo hardcoded in italiano per i referti (2025-01-06)
+=======
+### 4. Problema: Testo hardcoded in italiano per i referti ([DATE])
+>>>>>>> .merge_file_4FpKVe
+>>>>>>> laraxot/dev
 
 **Causa**: Il file `appointment/item.blade.php` conteneva testo hardcoded in italiano per la sezione referti:
 - "Il tuo referto è pronto!"
@@ -223,6 +259,26 @@ return [
 
 - [Theme Widget Translations](theme-widget-translations.md)
 - [Translation Helper Text Standards](translation-helper-text-standards.md)
+<<<<<<< HEAD
+<<<<<<< .merge_file_hnMumj
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+- [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/Modules/<nome modulo>/docs/translation_quality_standards.md)
+- [Modules/<nome progetto>/docs/translation_quality_standards.md](../laravel/Modules/<nome progetto>/docs/translation_quality_standards.md)
+- [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/Modules/<nome modulo>/docs/translation_quality_standards.md)
+- [Modules/<nome progetto>/docs/translation_quality_standards.md](../laravel/Modules/<nome progetto>/docs/translation_quality_standards.md)
+- [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/Modules/<nome modulo>/docs/translation_quality_standards.md)
+- [Modules/<nome progetto>/docs/translation_quality_standards.md](../laravel/Modules/<nome progetto>/docs/translation_quality_standards.md)
+
+---
+
+**Ultimo aggiornamento**: 2025-01-06
+=======
+>>>>>>> .merge_file_4FpKVe
 - [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/modules/<nome modulo>/docs/translation_quality_standards.md)
 - [Modules/<nome progetto>/docs/translation_quality_standards.md](../laravel/modules/<nome progetto>/docs/translation_quality_standards.md)
 - [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/modules/<nome modulo>/docs/translation_quality_standards.md)
@@ -233,5 +289,27 @@ return [
 ---
 
 **Ultimo aggiornamento**: [DATE]
+<<<<<<< .merge_file_hnMumj
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+- [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/Modules/<nome modulo>/docs/translation_quality_standards.md)
+- [Modules/<nome progetto>/docs/translation_quality_standards.md](../laravel/Modules/<nome progetto>/docs/translation_quality_standards.md)
+- [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/Modules/<nome modulo>/docs/translation_quality_standards.md)
+- [Modules/<nome progetto>/docs/translation_quality_standards.md](../laravel/Modules/<nome progetto>/docs/translation_quality_standards.md)
+- [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/Modules/<nome modulo>/docs/translation_quality_standards.md)
+- [Modules/<nome progetto>/docs/translation_quality_standards.md](../laravel/Modules/<nome progetto>/docs/translation_quality_standards.md)
+
+---
+
+**Ultimo aggiornamento**: 2025-01-06
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_4FpKVe
+>>>>>>> laraxot/dev
 **Versione**: 2.2
 **Autore**: AI Assistant

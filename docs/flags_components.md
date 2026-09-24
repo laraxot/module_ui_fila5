@@ -10,13 +10,99 @@
 
 ## Panoramica
 
+<<<<<<< HEAD
+<<<<<<< .merge_file_4xJKkC
 Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+<<<<<<< HEAD
+Il modulo UI di <nome progetto>corrente include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+Il modulo UI di <nome progetto>corrente include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+=======
+Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+Il modulo UI di <nome progetto>corrente include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+=======
+Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+>>>>>>> .merge_file_Zmf2xO
+>>>>>>> laraxot/dev
 
 ## Struttura dei Componenti Bandiera
 
 I file SVG delle bandiere sono archiviati in:
 ```
+<<<<<<< HEAD
+<<<<<<< .merge_file_4xJKkC
 /var/www/html/<nome progetto>/laravel/Modules/UI/resources/svg/flags/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/var/www/html/<nome progetto>/laravel/Modules/UI/resources/svg/flags/
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+/var/www/html/saluteora/laravel/Modules/UI/resources/svg/flags/
+<<<<<<< HEAD
+[project-root]/laravel/Modules/UI/resources/svg/flags/
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/var/www/html/saluteora/laravel/Modules/UI/resources/svg/flags/
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+[project-root]/laravel/Modules/UI/resources/svg/flags/
+=======
+/var/www/html/saluteora/laravel/Modules/UI/resources/svg/flags/
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+/var/www/html/saluteora/laravel/Modules/UI/resources/svg/flags/
+[project-root]/laravel/Modules/UI/resources/svg/flags/
+=======
+/var/www/html/<nome progetto>/laravel/Modules/UI/resources/svg/flags/
+>>>>>>> .merge_file_Zmf2xO
+>>>>>>> laraxot/dev
 ```
 
 Ogni bandiera è rappresentata da un file SVG con il codice ISO del paese come nome file (ad esempio, `it.svg` per l'Italia, `gb.svg` per il Regno Unito).
@@ -66,10 +152,77 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 ### Esempio con Attributi
 
 ```blade
+<<<<<<< HEAD
+<<<<<<< .merge_file_4xJKkC
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Zmf2xO
+<x-ui-flags.it
+    class="h-6 w-6 rounded-full shadow-sm"
+    title="Italiano"
+    aria-label="Seleziona lingua italiana"
+<<<<<<< .merge_file_4xJKkC
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Zmf2xO
 <x-ui-flags.it 
     class="h-6 w-6 rounded-full shadow-sm" 
     title="Italiano" 
     aria-label="Seleziona lingua italiana" 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 />
 ```
 
@@ -135,7 +288,50 @@ Le bandiere devono essere utilizzate come icone Filament:
 2. **Personalizzazione**: Facile da personalizzare con classi CSS
 3. **Prestazioni**: Gli SVG sono leggeri e non richiedono richieste HTTP aggiuntive
 4. **Accessibilità**: Possibilità di aggiungere attributi di accessibilità
+<<<<<<< HEAD
+<<<<<<< .merge_file_4xJKkC
 5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+5. **Coerenza**: Utilizzo di componenti nativi di SaluteOra
+<<<<<<< HEAD
+5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>corrente
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+5. **Coerenza**: Utilizzo di componenti nativi di SaluteOra
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>corrente
+=======
+5. **Coerenza**: Utilizzo di componenti nativi di SaluteOra
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+5. **Coerenza**: Utilizzo di componenti nativi di SaluteOra
+5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>corrente
+=======
+5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
+>>>>>>> .merge_file_Zmf2xO
+>>>>>>> laraxot/dev
 
 ## Bandiere Disponibili
 

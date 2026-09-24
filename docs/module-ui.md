@@ -112,19 +112,84 @@ composer format        # Formatta il codice
 - File upload
 
 ## Changelog
+<<<<<<< HEAD
+Le modifiche vengono tracciate nel repository GitHub.
+# Modulo UI
+<<<<<<< HEAD
+=======
+
+<<<<<<< .merge_file_cS9kDa
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
 Le modifiche vengono tracciate nel repository GitHub.
 # Modulo UI
 
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+Le modifiche vengono tracciate nel repository GitHub. 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Le modifiche vengono tracciate nel repository GitHub. 
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Le modifiche vengono tracciate nel repository GitHub. 
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+Le modifiche vengono tracciate nel repository GitHub.
+# Modulo UI
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_wbEKXH
+>>>>>>> laraxot/dev
 ## Informazioni Generali
 - **Nome**: `laraxot/module_ui_fila5`
 - **Descrizione**: Modulo per la gestione dell'interfaccia utente
 - **Namespace**: `Modules\UI`
 - **Repository**: https://github.com/laraxot/module_ui_fila5.git
+<<<<<<< HEAD
+<<<<<<< .merge_file_cS9kDa
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_wbEKXH
+## Service Providers
+1. `Modules\UI\Providers\UIServiceProvider`
+2. `Modules\UI\Providers\Filament\AdminPanelProvider`
+=======
+<<<<<<< .merge_file_cS9kDa
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_wbEKXH
 
 ## Service Providers
 1. `Modules\UI\Providers\UIServiceProvider`
 2. `Modules\UI\Providers\Filament\AdminPanelProvider`
 
+<<<<<<< .merge_file_cS9kDa
+<<<<<<< HEAD
+=======
+=======
+## Service Providers
+1. `Modules\UI\Providers\UIServiceProvider`
+2. `Modules\UI\Providers\Filament\AdminPanelProvider`
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_wbEKXH
+>>>>>>> laraxot/dev
 ## Struttura
 ```
 app/
@@ -133,16 +198,58 @@ app/
 ├── Models/         # Modelli del dominio
 ├── Providers/      # Service Providers
 └── Services/       # Servizi UI
+<<<<<<< HEAD
+<<<<<<< .merge_file_cS9kDa
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_wbEKXH
+## Dipendenze
+### Pacchetti Required
+- `owenvoke/blade-fontawesome`
+=======
+<<<<<<< .merge_file_cS9kDa
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_wbEKXH
 ```
 
 ## Dipendenze
 ### Pacchetti Required
 - `owenvoke/blade-fontawesome`
 
+<<<<<<< .merge_file_cS9kDa
+<<<<<<< HEAD
+=======
+=======
+## Dipendenze
+### Pacchetti Required
+- `owenvoke/blade-fontawesome`
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_wbEKXH
+>>>>>>> laraxot/dev
 ### Moduli Required
 - User
 - Tenant
 - Xot
+<<<<<<< HEAD
+<<<<<<< .merge_file_cS9kDa
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+## Database
+### Factories
+Namespace: `Modules\UI\Database\Factories`
+### Seeders
+Namespace: `Modules\UI\Database\Seeders`
+=======
+>>>>>>> .merge_file_wbEKXH
 
 ## Database
 ### Factories
@@ -151,6 +258,23 @@ Namespace: `Modules\UI\Database\Factories`
 ### Seeders
 Namespace: `Modules\UI\Database\Seeders`
 
+<<<<<<< .merge_file_cS9kDa
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+## Database
+### Factories
+Namespace: `Modules\UI\Database\Factories`
+### Seeders
+Namespace: `Modules\UI\Database\Seeders`
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_wbEKXH
+>>>>>>> laraxot/dev
 ## Testing
 Comandi disponibili:
 ```bash
@@ -158,8 +282,25 @@ composer test           # Esegue i test
 composer test-coverage  # Genera report di copertura
 composer analyse       # Analisi statica del codice
 composer format        # Formatta il codice
+<<<<<<< HEAD
+<<<<<<< .merge_file_cS9kDa
 ```
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+```
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+```
+
+>>>>>>> .merge_file_wbEKXH
+>>>>>>> laraxot/dev
 ## Funzionalità
 - Componenti UI riutilizzabili
 - Integrazione Font Awesome
@@ -170,16 +311,58 @@ composer format        # Formatta il codice
 - Modali e dialoghi
 - Notifiche UI
 - Tabelle interattive
+<<<<<<< HEAD
+<<<<<<< .merge_file_cS9kDa
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_wbEKXH
+>>>>>>> laraxot/dev
 ## Configurazione
 ### Font Awesome
 - Configurazione in `config/blade-fontawesome.php`
 - Supporto per diverse versioni di FA
+<<<<<<< HEAD
+<<<<<<< .merge_file_cS9kDa
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_wbEKXH
+### Componenti
+- Registrazione in `app/Providers/UIServiceProvider.php`
+- Configurazione view in `resources/views/components`
+=======
+<<<<<<< .merge_file_cS9kDa
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_wbEKXH
 
 ### Componenti
 - Registrazione in `app/Providers/UIServiceProvider.php`
 - Configurazione view in `resources/views/components`
 
+<<<<<<< .merge_file_cS9kDa
+<<<<<<< HEAD
+=======
+=======
+### Componenti
+- Registrazione in `app/Providers/UIServiceProvider.php`
+- Configurazione view in `resources/views/components`
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_wbEKXH
+>>>>>>> laraxot/dev
 ## Best Practices
 1. Seguire le convenzioni di naming Laravel
 2. Documentare tutte le classi e i metodi pubblici
@@ -189,23 +372,82 @@ composer format        # Formatta il codice
 6. Implementare design responsivo
 7. Ottimizzare assets
 8. Mantenere consistenza UI
+<<<<<<< HEAD
+<<<<<<< .merge_file_cS9kDa
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_wbEKXH
+>>>>>>> laraxot/dev
 ## Troubleshooting
 ### Problemi Comuni
 1. **Errori di Compilazione Assets**
    - Verificare dipendenze npm
    - Controllare configurazione webpack/vite
    - Verificare permessi directory
+<<<<<<< HEAD
+<<<<<<< .merge_file_cS9kDa
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_wbEKXH
+>>>>>>> laraxot/dev
 2. **Problemi di Font Awesome**
    - Verificare registrazione provider
    - Controllare sintassi icone
    - Verificare caricamento CSS
+<<<<<<< HEAD
+<<<<<<< .merge_file_cS9kDa
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_wbEKXH
+>>>>>>> laraxot/dev
 3. **Errori di Layout**
    - Controllare responsive breakpoints
    - Verificare conflitti CSS
    - Debug con strumenti browser
+<<<<<<< HEAD
+<<<<<<< .merge_file_cS9kDa
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+## Componenti Disponibili
+### Icons
+- Supporto per icone custom
+- Helper per icone comuni
+=======
+>>>>>>> .merge_file_wbEKXH
 
 ## Componenti Disponibili
 ### Icons
@@ -213,18 +455,91 @@ composer format        # Formatta il codice
 - Supporto per icone custom
 - Helper per icone comuni
 
+<<<<<<< .merge_file_cS9kDa
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+## Componenti Disponibili
+### Icons
+- Supporto per icone custom
+- Helper per icone comuni
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_wbEKXH
+>>>>>>> laraxot/dev
 ### Navigation
 - Menu responsive
 - Breadcrumbs
 - Tabs
 - Sidebar
+<<<<<<< HEAD
+<<<<<<< .merge_file_cS9kDa
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_wbEKXH
+>>>>>>> laraxot/dev
 ### Forms
 - Input fields
 - Select
 - Checkbox/Radio
 - Date pickers
 - File upload
+<<<<<<< HEAD
+<<<<<<< .merge_file_cS9kDa
 
 ## Changelog
 Le modifiche vengono tracciate nel repository GitHub.
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+## Changelog
+Le modifiche vengono tracciate nel repository GitHub.
+=======
+>>>>>>> laraxot/dev
+## Changelog
+<<<<<<< HEAD
+=======
+Le modifiche vengono tracciate nel repository GitHub.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+Le modifiche vengono tracciate nel repository GitHub. 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+## Changelog
+=======
+
+## Changelog
+Le modifiche vengono tracciate nel repository GitHub.
+>>>>>>> .merge_file_wbEKXH
+>>>>>>> laraxot/dev

@@ -13,17 +13,53 @@ use PHPUnit\Framework\Assert;
 uses(TestCase::class);
 
 test('stat with icon widget extends filament widget', function (): void {
+<<<<<<< HEAD
     $widget = new StatWithIconWidget();
+=======
+<<<<<<< HEAD
+    $widget = new StatWithIconWidget;
+=======
+<<<<<<< HEAD
+    $widget = new StatWithIconWidget();
+=======
+    $widget = new StatWithIconWidget;
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     Assert::assertInstanceOf(Widget::class, $widget);
     Assert::assertInstanceOf(XotBaseSchemaWidget::class, $widget);
 });
 
 test('stat with icon widget can be instantiated', function (): void {
+<<<<<<< HEAD
     $widget = new StatWithIconWidget();
+=======
+<<<<<<< HEAD
+    $widget = new StatWithIconWidget;
+=======
+<<<<<<< HEAD
+    $widget = new StatWithIconWidget();
+=======
+    $widget = new StatWithIconWidget;
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     Assert::assertInstanceOf(StatWithIconWidget::class, $widget);
 });
 
 test('stat with icon widget returns empty form schema', function (): void {
+<<<<<<< HEAD
     $widget = new StatWithIconWidget();
+=======
+<<<<<<< HEAD
+    $widget = new StatWithIconWidget;
+=======
+<<<<<<< HEAD
+    $widget = new StatWithIconWidget();
+=======
+    $widget = new StatWithIconWidget;
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     Assert::assertSame([], $widget->getFormSchema());
 });
