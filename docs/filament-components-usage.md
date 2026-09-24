@@ -1,9 +1,9 @@
-# Utilizzo dei Componenti Filament
+# Utilizzo dei Componenti Filament 
 
 ## Collegamenti correlati
-- [README modulo UI](/laravel/Modules/UI/docs/README.md)
+- [README modulo UI](/laravel/modules/ui/docs/readme.md)
 - [Architettura Modulare](/docs/architettura-modulare.md)
-- [Percorsi e Asset](/laravel/Modules/UI/docs/paths-and-assets.md)
+- [Percorsi e Asset](/laravel/modules/ui/docs/paths_and_assets.md)
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
 
 ## Panoramica
@@ -136,11 +136,6 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
         Azione 1
     </x-filament::dropdown.item>
     
-
-    <x-filament::dropdown.item wire:click="action">
-        Azione 1
-    </x-filament::dropdown.item>
-
     <x-filament::dropdown.item href="#">
         Azione 2
     </x-filament::dropdown.item>
@@ -159,7 +154,7 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 ## Errori Comuni
 
 1. **Utilizzo del prefisso errato**: Utilizzare `x-ui-icon` invece di `x-filament::icon`
-2. **Percorso errato del provider**: Utilizzare `Modules/UI/Providers/UIServiceProvider.php` invece di `Modules/UI/app/Providers/UIServiceProvider.php`
+2. **Percorso errato del provider**: Utilizzare `/var/www/html/Quaeris/laravel/Modules/UI/Providers/UIServiceProvider.php` invece di `/var/www/html/Quaeris/laravel/Modules/UI/app/Providers/UIServiceProvider.php`
 3. **Creazione di componenti duplicati**: Creare componenti personalizzati che duplicano funzionalità già fornite da Filament
 4. **Mancata verifica dei componenti esistenti**: Non controllare se un componente è già disponibile in Filament prima di crearne uno personalizzato
 

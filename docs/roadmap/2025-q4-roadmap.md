@@ -11,7 +11,7 @@
 ## Milestones
 - [ ] Audit Filament v4 changes in components/pages
 - [ ] Replace labels with translations (expanded structure)
-- [ ] Optimize icons/assets; document in `docs/paths-and-assets.md`
+- [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
 - [ ] Strengthen tests for critical widgets
 
 ## Acceptance Criteria

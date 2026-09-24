@@ -1,3 +1,7 @@
-# Changelog
+---
+module: theme
+topic: changelog
+canonical: ../../../Themes/docs/shared-components/CHANGELOG.md
+---
 
-Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
+See canonical documentation: ../../../Themes/docs/shared-components/CHANGELOG.md

@@ -25,11 +25,15 @@ class WidgetName extends XotBaseWidget
 ```
 
 ### 3. View Usage in Blade Templates
-
-Headernav FO monta il widget Lang via FQCN. Alias HTTP `lang.switcher` / `lang.change` / `dark-mode-switcher` ritirati.
-
+Replace Livewire components:
 ```blade
-@livewire(\Modules\Lang\Filament\Widgets\LanguageSwitcherWidget::class)
+{{-- OLD: Livewire components --}}
+<livewire:dark-mode-switcher />
+<livewire:lang.switcher />
+
+{{-- NEW: Filament widgets --}}
+<x-filament-widgets::widget :widget="\Modules\UI\Filament\Widgets\DarkModeSwitcherWidget::class" />
+<x-filament-widgets::widget :widget="\Modules\Lang\Filament\Widgets\LanguageSwitcherWidget::class" />
 ```
 
 ## Benefits of Filament Widgets over Livewire
