@@ -8,9 +8,24 @@ updated: "2026-07-29"
 =======
 <<<<<<< HEAD
 updated: "2026-07-29"
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 updated: "2026-07-29"
+=======
+<<<<<<< .merge_file_9j3Rot
+=======
+<<<<<<< .merge_file_Luwm0C
+=======
+<<<<<<< .merge_file_dISztb
+=======
+=======
+<<<<<<< HEAD
+updated: "2026-07-29"
+>>>>>>> .merge_file_1cu6UR
+>>>>>>> .merge_file_GNwaP7
+>>>>>>> .merge_file_FUKheB
+>>>>>>> laraxot/dev
 related:
   - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
 =======
@@ -31,6 +46,19 @@ related:
 >>>>>>> laraxot/dev
 updated: "2026-07-23"
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_9j3Rot
+=======
+<<<<<<< .merge_file_Luwm0C
+=======
+<<<<<<< .merge_file_dISztb
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1cu6UR
+>>>>>>> .merge_file_GNwaP7
+>>>>>>> .merge_file_FUKheB
 >>>>>>> laraxot/dev
 related:
   - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
@@ -41,10 +69,25 @@ related:
   - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_9j3Rot
+=======
+<<<<<<< .merge_file_Luwm0C
+=======
+<<<<<<< .merge_file_dISztb
+=======
+>>>>>>> laraxot/dev
 related:
   - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_1cu6UR
+>>>>>>> .merge_file_GNwaP7
+>>>>>>> .merge_file_FUKheB
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 =======
@@ -61,6 +104,19 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_9j3Rot
+=======
+<<<<<<< .merge_file_Luwm0C
+=======
+<<<<<<< .merge_file_dISztb
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1cu6UR
+>>>>>>> .merge_file_GNwaP7
+>>>>>>> .merge_file_FUKheB
 >>>>>>> laraxot/dev
   - "./git-multi-org-sync-handoff.md"
 ---
@@ -85,12 +141,27 @@ fetch di tutti i remote, quality gates (PHPStan L10, PHPMD), risincronizzazione 
   risolte a mano confrontando i diff).
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_9j3Rot
+=======
+<<<<<<< .merge_file_Luwm0C
+=======
+<<<<<<< .merge_file_dISztb
+=======
+>>>>>>> laraxot/dev
 - **Blocco LFS lato server (provtv)** (storico): in una sessione precedente si era
   riscritta la storia senza tracking LFS. **Non ripetere** rewrite se evitabile.
 - **Blocco LFS lato server (provtv)** (storico): in una sessione precedente si era
   riscritta la storia senza tracking LFS. **Non ripetere** rewrite se evitabile.
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_1cu6UR
+>>>>>>> .merge_file_GNwaP7
+>>>>>>> .merge_file_FUKheB
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -117,6 +188,19 @@ fetch di tutti i remote, quality gates (PHPStan L10, PHPMD), risincronizzazione 
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_9j3Rot
+=======
+<<<<<<< .merge_file_Luwm0C
+=======
+<<<<<<< .merge_file_dISztb
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1cu6UR
+>>>>>>> .merge_file_GNwaP7
+>>>>>>> .merge_file_FUKheB
 >>>>>>> laraxot/dev
 - **Violazione di dipendenza Geo→UI**: `app/Livewire/Components/Map/InteractiveMap.php`
   importava `Modules\\Geo\\Services\\{Geocoding,Map}Service`, un modulo che non fa
@@ -131,6 +215,15 @@ fetch di tutti i remote, quality gates (PHPStan L10, PHPMD), risincronizzazione 
 |---------|-------|-----|
 | `unpack failed` / `did not receive expected object` | pack thin + storia merge laraxot↔provtv | `git push --no-thin` |
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_9j3Rot
+=======
+<<<<<<< .merge_file_Luwm0C
+=======
+<<<<<<< .merge_file_dISztb
+=======
+>>>>>>> laraxot/dev
 | `GH008` / LFS missing su `provtv` | OID LFS non presenti su quel remote | `git lfs fetch laraxot --all` → `git lfs push provtv --all` → push |
 
 Playbook completo: [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md).
@@ -139,6 +232,12 @@ Playbook completo: [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki
 Playbook completo: [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md).
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_1cu6UR
+>>>>>>> .merge_file_GNwaP7
+>>>>>>> .merge_file_FUKheB
+>>>>>>> laraxot/dev
 
 =======
 <<<<<<< HEAD
@@ -171,6 +270,19 @@ Playbook completo: [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_9j3Rot
+=======
+<<<<<<< .merge_file_Luwm0C
+=======
+<<<<<<< .merge_file_dISztb
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1cu6UR
+>>>>>>> .merge_file_GNwaP7
+>>>>>>> .merge_file_FUKheB
 >>>>>>> laraxot/dev
 
 ## Regola per il futuro
@@ -179,10 +291,25 @@ Prima di un merge/rebase su questo repo, controllare sempre `git remote -v` e
 sincronizzare **tutti** i remote elencati, non solo `origin`/`provtv`. Mai forzare
 push distruttivi su storie scollegate: preferire `--allow-unrelated-histories` e
 <<<<<<< HEAD
+<<<<<<< HEAD
 revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sibling sano, non squash/reset.
 revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sibling sano, non squash/reset.
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_9j3Rot
+=======
+<<<<<<< .merge_file_Luwm0C
+=======
+<<<<<<< .merge_file_dISztb
+=======
+revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sibling sano, non squash/reset.
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_1cu6UR
+>>>>>>> .merge_file_GNwaP7
+>>>>>>> .merge_file_FUKheB
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -206,6 +333,19 @@ revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sib
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_9j3Rot
+=======
+<<<<<<< .merge_file_Luwm0C
+=======
+<<<<<<< .merge_file_dISztb
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1cu6UR
+>>>>>>> .merge_file_GNwaP7
+>>>>>>> .merge_file_FUKheB
 >>>>>>> laraxot/dev
 
 ### Caso User 2026-07-23 (unrelated)

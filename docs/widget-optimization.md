@@ -122,6 +122,18 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Jhw6me
+=======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
 
 =======
 <<<<<<< HEAD
@@ -139,6 +151,16 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Jhw6me
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     // Configurazioni comuni per tutti i widget di statistiche UI
@@ -152,12 +174,33 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
     
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Jhw6me
+>>>>>>> laraxot/dev
     
 =======
 <<<<<<< HEAD
     
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 
@@ -177,6 +220,16 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Jhw6me
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     // Metodi helper comuni
@@ -188,12 +241,33 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
     
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Jhw6me
+>>>>>>> laraxot/dev
     
 =======
 <<<<<<< HEAD
     
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 
@@ -213,6 +287,16 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Jhw6me
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     protected function formatPercentage(int|float $percentage): string
@@ -255,8 +339,29 @@ abstract class UIBaseTestWidget extends XotBaseWidget
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_Jhw6me
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     
@@ -264,10 +369,28 @@ abstract class UIBaseTestWidget extends XotBaseWidget
     public array $widgets = [];
     
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Jhw6me
+=======
+<<<<<<< .merge_file_7rir5z
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Jhw6me
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 =======
@@ -276,13 +399,27 @@ abstract class UIBaseTestWidget extends XotBaseWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> .merge_file_u41tzd
+>>>>>>> .merge_file_zeGhgK
 >>>>>>> laraxot/dev
 
     // Configurazioni comuni per tutti i widget di test UI
     public array $widgets = [];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_Jhw6me
+=======
+<<<<<<< .merge_file_7rir5z
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
@@ -296,6 +433,19 @@ abstract class UIBaseTestWidget extends XotBaseWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Jhw6me
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> .merge_file_u41tzd
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     // Metodi helper comuni
     protected function getTestData(): array
@@ -335,6 +485,10 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
     
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Jhw6me
+>>>>>>> laraxot/dev
     
 =======
 <<<<<<< HEAD
@@ -354,9 +508,49 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 <<<<<<< HEAD
 =======
+=======
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_zeGhgK
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_Jhw6me
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_zeGhgK
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     // Configurazioni comuni per tutti i grafici UI
@@ -373,6 +567,10 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
         ];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Jhw6me
+>>>>>>> laraxot/dev
     
 =======
 <<<<<<< HEAD
@@ -391,6 +589,35 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
 <<<<<<< HEAD
     
 =======
+<<<<<<< HEAD
+=======
+=======
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
 
 >>>>>>> laraxot/dev
 =======
@@ -401,6 +628,16 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Jhw6me
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     // Metodi helper comuni
@@ -489,6 +726,10 @@ class SystemTestWidget extends UIBaseTestWidget
     
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Jhw6me
+>>>>>>> laraxot/dev
     
 =======
 <<<<<<< HEAD
@@ -508,12 +749,52 @@ class SystemTestWidget extends UIBaseTestWidget
 >>>>>>> laraxot/dev
 =======
     
+<<<<<<< HEAD
+=======
+=======
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Jhw6me
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function getViewData(): array
@@ -527,6 +808,10 @@ class SystemTestWidget extends UIBaseTestWidget
         );
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Jhw6me
+>>>>>>> laraxot/dev
     
 =======
 <<<<<<< HEAD
@@ -536,6 +821,26 @@ class SystemTestWidget extends UIBaseTestWidget
     
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 
@@ -555,6 +860,16 @@ class SystemTestWidget extends UIBaseTestWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Jhw6me
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     private function getSystemInfo(): array
@@ -569,12 +884,33 @@ class SystemTestWidget extends UIBaseTestWidget
     
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Jhw6me
+>>>>>>> laraxot/dev
     
 =======
 <<<<<<< HEAD
     
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 
@@ -594,6 +930,16 @@ class SystemTestWidget extends UIBaseTestWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Jhw6me
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     private function getDatabaseStatus(): array
@@ -627,17 +973,65 @@ class SystemTestWidget extends UIBaseTestWidget
 
 ## 🔗 Collegamenti Correlati
 
+<<<<<<< HEAD
 - [XotBase Patterns](../../Xot/docs/optimization_opportunities.md)
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_Jhw6me
+=======
+<<<<<<< .merge_file_7rir5z
+- [XotBase Patterns](../../xot/docs/optimization_opportunities.md)
+=======
+<<<<<<< HEAD
+- [XotBase Patterns](../../Xot/docs/optimization_opportunities.md)
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_zeGhgK
+- [XotBase Patterns](../../xot/docs/optimization_opportunities.md)
+=======
+- [XotBase Patterns](../../Xot/docs/optimization_opportunities.md)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_Jhw6me
+=======
+>>>>>>> laraxot/dev
+=======
+- [XotBase Patterns](../../Xot/docs/optimization_opportunities.md)
+=======
+- [XotBase Patterns](../../xot/docs/optimization_opportunities.md)
+>>>>>>> .merge_file_u41tzd
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
 - [UI Components](components.md)
 - [Development Guidelines](development-guidelines.md)
 - [Testing Strategy](testing-strategy.md)
 
 ---
 
+<<<<<<< HEAD
 *Ultimo aggiornamento: Giugno 2025*
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_Jhw6me
+*Autore: Analisi Automatica del Progetto*
+=======
+=======
+<<<<<<< .merge_file_7rir5z
+*Autore: Analisi Automatica del Progetto*
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+*Autore: Analisi Automatica del Progetto*
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
+*Ultimo aggiornamento: Giugno 2025*
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 *Autore: Analisi Automatica del Progetto*
 =======
 <<<<<<< HEAD
@@ -653,6 +1047,15 @@ class SystemTestWidget extends UIBaseTestWidget
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_Jhw6me
+=======
+=======
+*Ultimo aggiornamento: Giugno 2025*
+>>>>>>> .merge_file_u41tzd
+>>>>>>> .merge_file_zeGhgK
 >>>>>>> laraxot/dev
 *Autore: Analisi Automatica del Progetto*
 # Ottimizzazioni Widget - Modulo UI
@@ -820,7 +1223,18 @@ class SystemTestWidget extends UIBaseTestWidget
 ---
 *Ultimo aggiornamento: Giugno 2025*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_Jhw6me
+<<<<<<< HEAD
+=======
+*Autore: Analisi Automatica del Progetto*
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< .merge_file_7rir5z
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 *Autore: Analisi Automatica del Progetto*
@@ -838,5 +1252,28 @@ class SystemTestWidget extends UIBaseTestWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_zeGhgK
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_Jhw6me
+*Autore: Analisi Automatica del Progetto*
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+=======
+*Autore: Analisi Automatica del Progetto*
+>>>>>>> .merge_file_u41tzd
+>>>>>>> .merge_file_zeGhgK
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

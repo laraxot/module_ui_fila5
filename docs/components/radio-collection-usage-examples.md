@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_zrOdQf
+=======
+=======
+<<<<<<< .merge_file_z6Z7Qt
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_KvljMA
+>>>>>>> .merge_file_KtAL87
+>>>>>>> laraxot/dev
 ---
 title: "RadioCollection - Esempi di Utilizzo"
 type: concept
@@ -6,11 +23,18 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "radio-collection-usage-examples radiocollection - esempi di utilizzo"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
+=======
+<<<<<<< .merge_file_zrOdQf
+=======
+<<<<<<< .merge_file_z6Z7Qt
+>>>>>>> .merge_file_KtAL87
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -23,6 +47,18 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_zrOdQf
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_KvljMA
+>>>>>>> .merge_file_KtAL87
 >>>>>>> laraxot/dev
 related:
   - "./address-field-1.md"
@@ -35,6 +71,23 @@ related:
   - "./full-calendar-1.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_zrOdQf
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_z6Z7Qt
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KvljMA
+>>>>>>> .merge_file_KtAL87
+>>>>>>> laraxot/dev
 # RadioCollection - Esempi di Utilizzo
 
 ## Utilizzo Base

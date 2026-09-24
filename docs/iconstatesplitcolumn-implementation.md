@@ -5,8 +5,26 @@
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_zctZxE
+=======
+<<<<<<< .merge_file_ORYKHO
+>>>>>>> .merge_file_eCqTgg
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_zctZxE
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_eCqTgg
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 =======
@@ -16,6 +34,20 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_zctZxE
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Lgwq0R
+>>>>>>> .merge_file_eCqTgg
 >>>>>>> laraxot/dev
 The `IconStateSplitColumn` is a custom Filament table column component designed to display state transition icons in a compact, responsive grid layout. It extends Filament's `Column` component to provide an optimized user experience for state management in tables.
 ## Key Features
@@ -62,8 +94,30 @@ use Modules\<nome progetto>\Models\Appointment;
 
 ## Implementation
 ### Basic Usage
+<<<<<<< HEAD
 ```
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_zctZxE
+```
+
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+```
+
+=======
+<<<<<<< HEAD
+=======
+```
+
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_eCqTgg
+>>>>>>> laraxot/dev
 ```php
 use Modules\UI\Filament\Tables\Columns\IconStateSplitColumn;
 use Modules\<nome modulo>\States\Appointment\AppointmentState;
@@ -440,8 +494,30 @@ The main issue was that `wire:click` doesn't work directly in Filament table col
 #### Problem Analysis
 The main issue was that `wire:click` doesn't work directly in Filament table columns because they are not Livewire components. The solution implements a custom event system:
 #### Solution Architecture
+<<<<<<< HEAD
 ```
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_zctZxE
+```
+
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+```
+
+=======
+<<<<<<< HEAD
+=======
+```
+
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_eCqTgg
+>>>>>>> laraxot/dev
 ```javascript
 // Custom event dispatch
 onclick="window.dispatchEvent(new CustomEvent('state-transition', {
@@ -506,8 +582,31 @@ document.addEventListener('state-transition', function(event) {
 **Compatibility**: Filament 3.x, Laravel 10.x
 
 ---
+<<<<<<< HEAD
 **Last Updated**: June 2025
 **Version**: 2.1
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< .merge_file_zctZxE
+**Last Updated**: June 2025
+**Version**: 2.1
+=======
+<<<<<<< HEAD
+**Last Updated**: June 2025
+**Version**: 2.1
+=======
+<<<<<<< HEAD
+
+=======
+**Last Updated**: June 2025
+**Version**: 2.1
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_eCqTgg
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
@@ -516,22 +615,86 @@ document.addEventListener('state-transition', function(event) {
 **Compatibility**: Filament 3.x, Laravel 10.x
 
 ---
+<<<<<<< HEAD
 **Last Updated**: June 2025
 **Version**: 2.1
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< .merge_file_zctZxE
+**Last Updated**: June 2025
+**Version**: 2.1
+=======
+<<<<<<< HEAD
+**Last Updated**: June 2025
+**Version**: 2.1
+=======
+<<<<<<< HEAD
+
+=======
+**Last Updated**: June 2025
+**Version**: 2.1
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_eCqTgg
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 ---
+<<<<<<< HEAD
 **Last Updated**: June 2025
 **Version**: 2.1
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< .merge_file_zctZxE
+**Last Updated**: June 2025
+**Version**: 2.1
+=======
+<<<<<<< HEAD
+**Last Updated**: June 2025
+**Version**: 2.1
+=======
+<<<<<<< HEAD
+
+=======
+**Last Updated**: June 2025
+**Version**: 2.1
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_eCqTgg
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 **Compatibility**: Filament 3.x, Laravel 10.x
 # IconStateSplitColumn Implementation
 
 ## Overview
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_zctZxE
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ORYKHO
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_eCqTgg
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -544,6 +707,18 @@ document.addEventListener('state-transition', function(event) {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_zctZxE
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Lgwq0R
+>>>>>>> .merge_file_eCqTgg
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 The `IconStateSplitColumn` is a custom Filament table column component designed to display state transition icons in a compact, responsive grid layout. It extends Filament's `Column` component to provide an optimized user experience for state management in tables.
@@ -578,8 +753,30 @@ The `IconStateSplitColumn` is a custom Filament table column component designed 
 
 ### Basic Usage
 
+<<<<<<< HEAD
 ```
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_zctZxE
+```
+
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+```
+
+=======
+<<<<<<< HEAD
+=======
+```
+
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_eCqTgg
+>>>>>>> laraxot/dev
 ```php
 use Modules\UI\Filament\Tables\Columns\IconStateSplitColumn;
 use Modules\<nome progetto>\States\Appointment\AppointmentState;
@@ -613,8 +810,23 @@ class IconStateSplitColumn extends Column
     protected string $stateClass = '';
     protected string $modelClass = '';
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_zctZxE
+=======
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_eCqTgg
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
     
@@ -639,6 +851,16 @@ class IconStateSplitColumn extends Column
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_zctZxE
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_eCqTgg
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     protected function setUp(): void
@@ -647,8 +869,23 @@ class IconStateSplitColumn extends Column
         $this->label('Stati');
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_zctZxE
+=======
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_eCqTgg
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
     
@@ -673,6 +910,16 @@ class IconStateSplitColumn extends Column
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_zctZxE
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_eCqTgg
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function stateClass(string $stateClass, string $modelClass): static
@@ -680,8 +927,23 @@ class IconStateSplitColumn extends Column
         // Configure states and model
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_zctZxE
+=======
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_eCqTgg
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
     
@@ -706,6 +968,16 @@ class IconStateSplitColumn extends Column
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_zctZxE
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_eCqTgg
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function getRecordStates(): array
@@ -713,8 +985,23 @@ class IconStateSplitColumn extends Column
         // Return array of available states
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_zctZxE
+=======
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_eCqTgg
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
     
@@ -739,6 +1026,16 @@ class IconStateSplitColumn extends Column
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_zctZxE
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_eCqTgg
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     public function canTransitionTo($recordId, $stateClass): bool
@@ -952,6 +1249,20 @@ The main issue was that `wire:click` doesn't work directly in Filament table col
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_zctZxE
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_eCqTgg
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
@@ -975,6 +1286,18 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_zctZxE
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_eCqTgg
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 onclick="window.dispatchEvent(new CustomEvent('state-transition', {
     detail: {
@@ -985,6 +1308,17 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_zctZxE
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_eCqTgg
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -997,6 +1331,16 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_zctZxE
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_eCqTgg
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 }))"
 
@@ -1004,8 +1348,23 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
 document.addEventListener('state-transition', function(event) {
     const { recordId, stateClass, action } = event.detail;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_zctZxE
+=======
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_eCqTgg
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
     
@@ -1030,6 +1389,16 @@ document.addEventListener('state-transition', function(event) {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_zctZxE
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_eCqTgg
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     if (window.Livewire) {
@@ -1067,6 +1436,7 @@ document.addEventListener('state-transition', function(event) {
 
 ---
 
+<<<<<<< HEAD
 **Last Updated**: June 2025
 **Version**: 2.1
 <<<<<<< HEAD
@@ -1074,6 +1444,39 @@ document.addEventListener('state-transition', function(event) {
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 =======
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_zctZxE
+=======
+<<<<<<< .merge_file_ORYKHO
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+**Last Updated**: June 2025
+**Version**: 2.1
+**Compatibility**: Filament 4.x, Laravel 10.x
+=======
+>>>>>>> .merge_file_Lgwq0R
+>>>>>>> .merge_file_eCqTgg
+
+**Compatibility**: Filament 3.x, Laravel 10.x
+**Compatibility**: Filament 3.x, Laravel 10.x
+**Compatibility**: Filament 3.x, Laravel 10.x
+<<<<<<< .merge_file_zctZxE
+=======
+=======
+<<<<<<< .merge_file_ORYKHO
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_eCqTgg
+**Last Updated**: June 2025
+**Version**: 2.1
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 **Compatibility**: Filament 4.x, Laravel 10.x
 =======
@@ -1111,4 +1514,16 @@ document.addEventListener('state-transition', function(event) {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_zctZxE
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Lgwq0R
+>>>>>>> .merge_file_eCqTgg
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

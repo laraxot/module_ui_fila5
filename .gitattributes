@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_wBuNG3
+<<<<<<< .merge_file_LBZUha
+>>>>>>> .merge_file_kEvjkm
+>>>>>>> .merge_file_XNUy38
+>>>>>>> laraxot/dev
 # Prototype: laravel/Modules/* e laravel/Themes/*
 # Canon: docs/wiki/rules/no-git-lfs.md
 # Sync: bash bashscripts/templates/sync-gitattributes-modules.sh
@@ -36,3 +43,4 @@ CHANGELOG.md export-ignore
 *.jpeg !text !filter !merge !diff
 *.gif !text !filter !merge !diff
 *.webp !text !filter !merge !diff
+*.psd filter=lfs diff=lfs merge=lfs -text

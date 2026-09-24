@@ -61,6 +61,19 @@ Modules/UI/
 ### Versione HEAD
 
 ## Collegamenti tra versioni di analysis.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_2XoB2k
+=======
+<<<<<<< .merge_file_DPWtZZ
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 * [analysis.md](../../../Notify/docs/analysis.md)
 * [analysis.md](../../../Notify/docs/phpstan/analysis.md)
 * [analysis.md](../../../Xot/docs/analysis.md)
@@ -74,6 +87,57 @@ Modules/UI/
 * [analysis.md](../../../Media/docs/analysis.md)
 * [analysis.md](../../../Media/docs/phpstan/analysis.md)
 * [analysis.md](../../../../Themes/One/docs/analysis.md)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> .merge_file_eZDgZp
+>>>>>>> .merge_file_8BpSc8
+* [analysis.md](../../../notify/docs/analysis.md)
+* [analysis.md](../../../notify/docs/phpstan/analysis.md)
+* [analysis.md](../../../xot/docs/analysis.md)
+* [analysis.md](../../../xot/docs/phpstan/analysis.md)
+* [analysis.md](../../../user/docs/analysis.md)
+* [analysis.md](../../../user/docs/phpstan/analysis.md)
+* [analysis.md](../../../ui/docs/analysis.md)
+* [analysis.md](../../../ui/docs/phpstan/analysis.md)
+* [analysis.md](../../../job/docs/analysis.md)
+* [analysis.md](../../../job/docs/phpstan/analysis.md)
+* [analysis.md](../../../media/docs/analysis.md)
+* [analysis.md](../../../media/docs/phpstan/analysis.md)
+* [analysis.md](../../../../themes/one/docs/analysis.md)
+<<<<<<< .merge_file_2XoB2k
+=======
+=======
+<<<<<<< .merge_file_DPWtZZ
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_8BpSc8
+* [analysis.md](../../../Notify/docs/analysis.md)
+* [analysis.md](../../../Notify/docs/phpstan/analysis.md)
+* [analysis.md](../../../Xot/docs/analysis.md)
+* [analysis.md](../../../Xot/docs/phpstan/analysis.md)
+* [analysis.md](../../../User/docs/analysis.md)
+* [analysis.md](../../../User/docs/phpstan/analysis.md)
+* [analysis.md](../../../UI/docs/analysis.md)
+* [analysis.md](../../../UI/docs/phpstan/analysis.md)
+* [analysis.md](../../../Job/docs/analysis.md)
+* [analysis.md](../../../Job/docs/phpstan/analysis.md)
+* [analysis.md](../../../Media/docs/analysis.md)
+* [analysis.md](../../../Media/docs/phpstan/analysis.md)
+* [analysis.md](../../../../Themes/One/docs/analysis.md)
+<<<<<<< .merge_file_2XoB2k
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_eZDgZp
+>>>>>>> .merge_file_8BpSc8
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ### Versione Incoming
 

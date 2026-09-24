@@ -21,6 +21,18 @@ tags: [structure, architecture, module]
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_nhxYDS
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_yGN60o
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 │   │   ├── 00-INDEX.md          # Indice regole
 │   │   ├── 00-TRIGGER_MAP.md    # Trigger map (link a globale)
@@ -35,6 +47,17 @@ tags: [structure, architecture, module]
 │   │   ├── INDEX.md
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_nhxYDS
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_yGN60o
+>>>>>>> laraxot/dev
 =======
 │   │   ├── 00-index.md          # Indice regole
 │   │   ├── 00-TRIGGER_MAP.md    # Trigger map (link a globale)
@@ -48,6 +71,16 @@ tags: [structure, architecture, module]
 │   ├── memories/                 # Memorie progettuali
 │   │   ├── index.md
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_nhxYDS
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_yGN60o
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 │   │   └── *.md
 │   ├── decisions/                # Architecture decision records
@@ -56,6 +89,10 @@ tags: [structure, architecture, module]
 ├── QMD-SETUP.md                  # Configurazione QMD
 ├── PERFORMANCE-OPTIMIZATION.md    # Metriche e best practice
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_nhxYDS
+>>>>>>> laraxot/dev
 ├── ARCHITECTURE.md               # (opzionale) Architettura modulo
 =======
 <<<<<<< HEAD
@@ -63,6 +100,28 @@ tags: [structure, architecture, module]
 =======
 ├── architecture.md               # (opzionale) Architettura modulo
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+├── ARCHITECTURE.md               # (opzionale) Architettura modulo
+=======
+<<<<<<< HEAD
+├── ARCHITECTURE.md               # (opzionale) Architettura modulo
+=======
+<<<<<<< HEAD
+├── architecture.md               # (opzionale) Architettura modulo
+>>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+├── ARCHITECTURE.md               # (opzionale) Architettura modulo
+=======
+├── architecture.md               # (opzionale) Architettura modulo
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_yGN60o
 >>>>>>> laraxot/dev
 └── README.md                     # (opzionale) Overview modulo
 \`\`\`
@@ -139,10 +198,31 @@ mkdir -p docs/wiki/{rules,skills,commands,memories,concepts,entities,decisions,t
 cp docs/wiki/rules/INDEX.md docs/wiki/rules/
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_nhxYDS
+=======
+cp docs/wiki/rules/INDEX.md docs/wiki/rules/
+=======
+<<<<<<< HEAD
+cp docs/wiki/rules/index.md docs/wiki/rules/
+>>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_yGN60o
+>>>>>>> laraxot/dev
 cp docs/wiki/rules/INDEX.md docs/wiki/rules/
 =======
 cp docs/wiki/rules/index.md docs/wiki/rules/
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_nhxYDS
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_yGN60o
 >>>>>>> laraxot/dev
 # ... etc
 

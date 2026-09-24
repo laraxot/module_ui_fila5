@@ -1,7 +1,10 @@
 # Graphify Knowledge Graph
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/dev
 ## Overview
 
 This directory contains the knowledge graph for the **UI** module, generated using [Graphify](https://graphify.dev/). The graph provides a comprehensive visualization of code dependencies, architecture, and relationships within the module.
@@ -70,6 +73,21 @@ For more information about this module, see:
 - [Module Structure Guidelines](../../../../docs/wiki/rules/module-structure.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_XHnnMb
+=======
+<<<<<<< .merge_file_QNBexX
+=======
+<<<<<<< .merge_file_AVaSlz
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_LW136C
+>>>>>>> .merge_file_YwTn4e
+>>>>>>> .merge_file_ueyAu6
 >>>>>>> laraxot/dev
 [![Module](https://img.shields.io/badge/Module-Graphify Knowledge Graph-8B0000.svg)]()
 [![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
@@ -105,6 +123,27 @@ Core module for the FixCity Platform.
 **Modulo** `UI` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_XHnnMb
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_QNBexX
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_AVaSlz
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_LW136C
+>>>>>>> .merge_file_YwTn4e
+>>>>>>> .merge_file_ueyAu6
 >>>>>>> laraxot/dev

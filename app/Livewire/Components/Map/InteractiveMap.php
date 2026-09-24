@@ -6,9 +6,49 @@ namespace Modules\UI\Livewire\Components\Map;
 
 use Illuminate\Contracts\View\View;
 use Livewire\Component;
+<<<<<<< HEAD
 use Modules\Geo\Services\GeocodingService;
 use Modules\Geo\Services\MapService;
 use Modules\Xot\Actions\Cast\SafeFloatCastAction;
+=======
+<<<<<<< .merge_file_ME21LF
+=======
+<<<<<<< .merge_file_uEvxkh
+>>>>>>> .merge_file_9Jetov
+<<<<<<< HEAD
+use Modules\UI\Contracts\GeocodingServiceContract;
+use Modules\UI\Contracts\MapServiceContract;
+=======
+<<<<<<< .merge_file_ME21LF
+=======
+<<<<<<< HEAD
+use Modules\Geo\Services\GeocodingService;
+use Modules\Geo\Services\MapService;
+use Modules\Xot\Actions\Cast\SafeFloatCastAction;
+=======
+<<<<<<< HEAD
+use Modules\UI\Contracts\GeocodingServiceContract;
+use Modules\UI\Contracts\MapServiceContract;
+=======
+>>>>>>> .merge_file_9Jetov
+use Modules\Geo\Services\GeocodingService;
+use Modules\Geo\Services\MapService;
+use Modules\Xot\Actions\Cast\SafeFloatCastAction;
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_ME21LF
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+use Modules\Geo\Actions\Geocoding\GeocodeAddressAction;
+use Modules\Geo\Actions\Geocoding\GetGeocodingSuggestionsAction;
+use Modules\Geo\Actions\Map\ExportMapDataAction;
+use Modules\Geo\Actions\Map\GetMapMarkersAction;
+use Modules\Geo\Actions\Map\GetMapStatsAction;
+use Modules\Xot\Actions\Cast\SafeFloatCastAction;
+>>>>>>> .merge_file_e736zw
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
 use Webmozart\Assert\Assert;
 
 /**
@@ -19,6 +59,40 @@ use Webmozart\Assert\Assert;
  */
 final class InteractiveMap extends Component
 {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_ME21LF
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+    /** @var array{0: float, 1: float} */
+    public array $center = [45.4642, 9.1900]; // Milano
+
+    public int $zoom = 10;
+
+    /**
+     * Payload dei marker così come arriva da GetMapMarkersAction: struttura decisa
+     * dall'action, non dal componente.
+     *
+     * @var list<array<string, mixed>>
+     */
+    public array $markers = [];
+
+    /** @var array<string, mixed> */
+<<<<<<< .merge_file_ME21LF
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
     /** @var list<float> [lat, lng] — default Milano */
     public array $center = [45.4642, 9.1900];
 
@@ -33,6 +107,17 @@ final class InteractiveMap extends Component
     public array $markers = [];
 
     /** @var array<string, bool|list<string>|array<string, float>> */
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ME21LF
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public array $filters = [
         'tickets' => true,
         'users' => false,
@@ -56,7 +141,38 @@ final class InteractiveMap extends Component
 
     public string $searchQuery = '';
 
+<<<<<<< HEAD
     /** @var array<string, string> */
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_ME21LF
+=======
+=======
+<<<<<<< HEAD
+    /** @var array<string, string> */
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+    /**
+     * Untyped to match HandlesEvents::$listeners.
+     *
+     * @var array<string, string>
+     */
+<<<<<<< .merge_file_ME21LF
+=======
+    /** @var array<string, string> */
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+    /** @var array<string, string> */
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
     protected $listeners = [
         'markerSelected' => 'selectMarker',
         'filtersChanged' => 'updateFilters',
@@ -65,8 +181,33 @@ final class InteractiveMap extends Component
     ];
 
     /**
+<<<<<<< HEAD
      * @param  list<float>|null  $center
      * @param  array<string, bool|list<string>|array<string,float>>  $filters
+=======
+<<<<<<< HEAD
+     * @param array{0: float, 1: float}|null $center
+     * @param array<string, mixed>           $filters
+=======
+<<<<<<< .merge_file_ME21LF
+     * @param  list<float>|null  $center
+     * @param  array<string, bool|list<string>|array<string,float>>  $filters
+=======
+<<<<<<< HEAD
+     * @param  list<float>|null  $center
+     * @param  array<string, bool|list<string>|array<string,float>>  $filters
+=======
+<<<<<<< HEAD
+     * @param array{0: float, 1: float}|null $center
+     * @param array<string, mixed>           $filters
+=======
+     * @param  list<float>|null  $center
+     * @param  array<string, bool|list<string>|array<string,float>>  $filters
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
      */
     public function mount(?array $center = null, ?int $zoom = null, array $filters = []): void
     {
@@ -101,7 +242,33 @@ final class InteractiveMap extends Component
         $marker = collect($this->markers)
             ->firstWhere('id', $markerId);
 
+<<<<<<< HEAD
         $this->selectedMarker = is_array($marker) ? $marker : null;
+=======
+<<<<<<< .merge_file_ME21LF
+=======
+<<<<<<< .merge_file_uEvxkh
+<<<<<<< HEAD
+        $this->selectedMarker = \is_array($marker) ? $marker : null;
+=======
+<<<<<<< HEAD
+        $this->selectedMarker = is_array($marker) ? $marker : null;
+=======
+>>>>>>> .merge_file_9Jetov
+<<<<<<< HEAD
+        $this->selectedMarker = \is_array($marker) ? $marker : null;
+=======
+        $this->selectedMarker = is_array($marker) ? $marker : null;
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_ME21LF
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+        $this->selectedMarker = is_array($marker) ? $marker : null;
+>>>>>>> .merge_file_e736zw
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
 
         $this->dispatch('markerSelected', $this->selectedMarker);
     }
@@ -109,7 +276,34 @@ final class InteractiveMap extends Component
     /**
      * Aggiorna i filtri.
      *
+<<<<<<< HEAD
      * @param  array<string, bool|list<string>|array<string, float>>  $filters
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_ME21LF
+=======
+     * @param array<string, mixed> $filters
+     * @param array<string, mixed> $filters
+<<<<<<< .merge_file_uEvxkh
+=======
+<<<<<<< HEAD
+     * @param  array<string, bool|list<string>|array<string, float>>  $filters
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_9Jetov
+     * @param array<string, mixed> $filters
+     * @param array<string, mixed> $filters
+=======
+     * @param  array<string, bool|list<string>|array<string, float>>  $filters
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_ME21LF
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_e736zw
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
      */
     public function updateFilters(array $filters): void
     {
@@ -119,8 +313,42 @@ final class InteractiveMap extends Component
 
     /**
      * Aggiorna i bounds della mappa.
+<<<<<<< HEAD
      *
      * @param  array<string, float>  $bounds
+=======
+<<<<<<< .merge_file_ME21LF
+=======
+<<<<<<< .merge_file_uEvxkh
+>>>>>>> .merge_file_9Jetov
+<<<<<<< HEAD
+     */
+    /**
+     * @param array<string, float> $bounds
+=======
+<<<<<<< .merge_file_ME21LF
+     *
+     * @param  array<string, float>  $bounds
+=======
+<<<<<<< HEAD
+     *
+     * @param  array<string, float>  $bounds
+=======
+<<<<<<< HEAD
+     */
+    /**
+=======
+     *
+>>>>>>> .merge_file_e736zw
+     * @param array<string, float> $bounds
+=======
+     *
+     * @param  array<string, float>  $bounds
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
      */
     public function updateBounds(array $bounds): void
     {
@@ -136,12 +364,59 @@ final class InteractiveMap extends Component
         $this->isLoading = true;
 
         try {
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ME21LF
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_uEvxkh
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+            $mapService = app(MapServiceContract::class);
+            $filters = $this->getMapFilters();
+            $markers = $mapService->getMarkers($filters);
+            Assert::isArray($markers);
+            $this->markers = $markers;
+            $stats = $mapService->getMapStats($filters);
+            Assert::isArray($stats);
+            $this->stats = $stats;
+<<<<<<< .merge_file_ME21LF
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
             /** @phpstan-ignore-next-line class.notFound */
             $mapService = app(MapService::class);
             /* @phpstan-ignore-next-line class.notFound, assign.propertyType */
             $this->markers = $mapService->getMarkers($this->filters);
             /* @phpstan-ignore-next-line class.notFound, assign.propertyType */
             $this->stats = $mapService->getMapStats($this->filters);
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ME21LF
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+            $filters = $this->getMapFilters();
+            $this->markers = app(GetMapMarkersAction::class)->execute($filters);
+            $this->stats = app(GetMapStatsAction::class)->execute($filters);
+>>>>>>> .merge_file_e736zw
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
         } catch (\Exception $e) {
             $this->addError('map', 'Errore nel caricamento dei marker: '.$e->getMessage());
             $this->markers = [];
@@ -165,10 +440,46 @@ final class InteractiveMap extends Component
     public function exportData(string $format = 'json'): void
     {
         try {
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ME21LF
+=======
+<<<<<<< .merge_file_uEvxkh
+<<<<<<< HEAD
+            $mapService = app(MapServiceContract::class);
+            $data = $mapService->exportData($this->getMapFilters(), $format);
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_9Jetov
+<<<<<<< HEAD
+            $mapService = app(MapServiceContract::class);
+            $data = $mapService->exportData($this->getMapFilters(), $format);
+=======
+<<<<<<< .merge_file_ME21LF
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
             /** @phpstan-ignore-next-line class.notFound */
             $mapService = app(MapService::class);
             /** @phpstan-ignore-next-line class.notFound */
             $data = $mapService->exportData($this->filters, $format);
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ME21LF
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+            $data = app(ExportMapDataAction::class)->execute($this->getMapFilters(), $format);
+>>>>>>> .merge_file_e736zw
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
 
             $filename = 'map_export_'.now()->format('Y_m_d_H_i_s').'.'.$format;
 
@@ -197,29 +508,123 @@ final class InteractiveMap extends Component
         }
 
         try {
+<<<<<<< HEAD
             /** @phpstan-ignore-next-line class.notFound */
             $geocodingService = app(GeocodingService::class);
             /** @phpstan-ignore-next-line class.notFound */
+=======
+<<<<<<< .merge_file_ME21LF
+<<<<<<< HEAD
+            $geocodingService = app(GeocodingServiceContract::class);
+=======
+            /** @phpstan-ignore-next-line class.notFound */
+            $geocodingService = app(GeocodingService::class);
+            /** @phpstan-ignore-next-line class.notFound */
+=======
+<<<<<<< .merge_file_uEvxkh
+<<<<<<< HEAD
+            $geocodingService = app(GeocodingServiceContract::class);
+=======
+<<<<<<< HEAD
+            /** @phpstan-ignore-next-line class.notFound */
+            $geocodingService = app(GeocodingService::class);
+            /** @phpstan-ignore-next-line class.notFound */
+=======
+<<<<<<< HEAD
+            $geocodingService = app(GeocodingServiceContract::class);
+=======
+            /** @phpstan-ignore-next-line class.notFound */
+            $geocodingService = app(GeocodingService::class);
+            /** @phpstan-ignore-next-line class.notFound */
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             $result = $geocodingService->geocodeAddress($this->searchQuery);
             Assert::isArray($result, 'Geocoding result must be array');
 
             $address = $result['address'] ?? '';
             Assert::string($address, 'Address must be string');
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ME21LF
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
             // Il geocoder restituisce un payload non tipizzato: le coordinate vanno
             // validate prima del cast. Senza `Assert::numeric()` un payload non
             // numerico diventerebbe silenziosamente 0.0 (default dell'action) e la
             // mappa finirebbe al largo del Golfo di Guinea invece di segnalare
             // l'errore; l'assert lo fa risalire nel catch come "indirizzo non trovato".
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ME21LF
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             $latitude = $result['latitude'] ?? null;
             $longitude = $result['longitude'] ?? null;
             Assert::numeric($latitude, 'Latitude must be numeric');
             Assert::numeric($longitude, 'Longitude must be numeric');
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_ME21LF
+            $this->center = [(float) $latitude, (float) $longitude];
+=======
+=======
+            $this->center = [(float) $latitude, (float) $longitude];
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            $this->center = [(float) $latitude, (float) $longitude];
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
             $this->center = [
                 SafeFloatCastAction::castWithRange($latitude, -90.0, 90.0),
                 SafeFloatCastAction::castWithRange($longitude, -180.0, 180.0),
             ];
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ME21LF
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+            $result = app(GeocodeAddressAction::class)->execute($this->searchQuery);
+            $address = $result['address'];
+
+            // Le coordinate vengono ricondotte nel range geografico valido: un payload
+            // fuori scala del geocoder non deve spostare la mappa in un punto assurdo.
+            $this->center = [
+                SafeFloatCastAction::castWithRange($result['latitude'], -90.0, 90.0),
+                SafeFloatCastAction::castWithRange($result['longitude'], -180.0, 180.0),
+            ];
+>>>>>>> .merge_file_e736zw
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
             $this->zoom = 15;
 
             $this->dispatch('updateMapCenter', $this->center, $this->zoom);
@@ -236,20 +641,109 @@ final class InteractiveMap extends Component
     /**
      * Ottiene suggerimenti per la ricerca.
      *
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ME21LF
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_uEvxkh
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+     * @return array<int, array<string, mixed>>
+     */
+    public function getSuggestions(): array
+    {
+        if (\strlen($this->searchQuery) < 3) {
+<<<<<<< .merge_file_ME21LF
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
      * @return list<array<string, mixed>>
      */
     public function getSuggestions(): array
     {
         if (strlen($this->searchQuery) < 3) {
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ME21LF
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+     * @return list<array<string, mixed>>
+     */
+    public function getSuggestions(): array
+    {
+        if (strlen($this->searchQuery) < 3) {
+>>>>>>> .merge_file_e736zw
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
             return [];
         }
 
         try {
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ME21LF
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_uEvxkh
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+            $geocodingService = app(GeocodingServiceContract::class);
+
+            /** @var array<int, array<string, mixed>> $suggestions */
+            $suggestions = $geocodingService->getSuggestions($this->searchQuery);
+
+            return $suggestions;
+<<<<<<< .merge_file_ME21LF
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
             /** @phpstan-ignore-next-line class.notFound */
             $geocodingService = app(GeocodingService::class);
 
             /* @phpstan-ignore-next-line class.notFound, return.type */
             return $geocodingService->getSuggestions($this->searchQuery);
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ME21LF
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+            return app(GetGeocodingSuggestionsAction::class)->execute($this->searchQuery);
+>>>>>>> .merge_file_e736zw
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
         } catch (\Exception $e) {
             return [];
         }
@@ -279,17 +773,81 @@ final class InteractiveMap extends Component
     {
         $currentStatus = $this->filters['status'] ?? [];
         Assert::isArray($currentStatus, 'Status filter must be array');
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_ME21LF
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+        $statusList = array_values(array_filter(
+            $currentStatus,
+            static fn (mixed $value): bool => is_string($value),
+        ));
+
+        if ($enabled) {
+            $statusList[] = $status;
+            $this->filters['status'] = array_values(array_unique($statusList));
+<<<<<<< .merge_file_ME21LF
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
 
         if ($enabled) {
             $currentStatus[] = $status;
             $this->filters['status'] = array_unique($currentStatus);
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ME21LF
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             $this->loadMarkers();
 
             return;
         }
 
+<<<<<<< HEAD
         $currentStatus = array_diff($currentStatus, [$status]);
         $this->filters['status'] = array_unique($currentStatus);
+=======
+<<<<<<< HEAD
+        $statusList = array_values(array_diff($statusList, [$status]));
+        $this->filters['status'] = array_values(array_unique($statusList));
+=======
+<<<<<<< .merge_file_ME21LF
+        $currentStatus = array_diff($currentStatus, [$status]);
+        $this->filters['status'] = array_unique($currentStatus);
+=======
+<<<<<<< HEAD
+        $currentStatus = array_diff($currentStatus, [$status]);
+        $this->filters['status'] = array_unique($currentStatus);
+=======
+<<<<<<< HEAD
+        $statusList = array_values(array_diff($statusList, [$status]));
+        $this->filters['status'] = array_values(array_unique($statusList));
+=======
+        $currentStatus = array_diff($currentStatus, [$status]);
+        $this->filters['status'] = array_unique($currentStatus);
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $this->loadMarkers();
     }
 
@@ -300,17 +858,81 @@ final class InteractiveMap extends Component
     {
         $currentPriority = $this->filters['priority'] ?? [];
         Assert::isArray($currentPriority, 'Priority filter must be array');
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_ME21LF
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+        $priorityList = array_values(array_filter(
+            $currentPriority,
+            static fn (mixed $value): bool => is_string($value),
+        ));
+
+        if ($enabled) {
+            $priorityList[] = $priority;
+            $this->filters['priority'] = array_values(array_unique($priorityList));
+<<<<<<< .merge_file_ME21LF
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
 
         if ($enabled) {
             $currentPriority[] = $priority;
             $this->filters['priority'] = array_unique($currentPriority);
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ME21LF
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             $this->loadMarkers();
 
             return;
         }
 
+<<<<<<< HEAD
         $currentPriority = array_diff($currentPriority, [$priority]);
         $this->filters['priority'] = array_unique($currentPriority);
+=======
+<<<<<<< HEAD
+        $priorityList = array_values(array_diff($priorityList, [$priority]));
+        $this->filters['priority'] = array_values(array_unique($priorityList));
+=======
+<<<<<<< .merge_file_ME21LF
+        $currentPriority = array_diff($currentPriority, [$priority]);
+        $this->filters['priority'] = array_unique($currentPriority);
+=======
+<<<<<<< HEAD
+        $currentPriority = array_diff($currentPriority, [$priority]);
+        $this->filters['priority'] = array_unique($currentPriority);
+=======
+<<<<<<< HEAD
+        $priorityList = array_values(array_diff($priorityList, [$priority]));
+        $this->filters['priority'] = array_values(array_unique($priorityList));
+=======
+        $currentPriority = array_diff($currentPriority, [$priority]);
+        $this->filters['priority'] = array_unique($currentPriority);
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $this->loadMarkers();
     }
 
@@ -334,12 +956,69 @@ final class InteractiveMap extends Component
     }
 
     /**
+<<<<<<< HEAD
      * Conteggio dei marker raggruppati per tipo.
+=======
+<<<<<<< .merge_file_ME21LF
+<<<<<<< HEAD
+     * Ottiene le proprietà computate.
+=======
+     * Conteggio dei marker raggruppati per tipo.
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_uEvxkh
+<<<<<<< HEAD
+     * Ottiene le proprietà computate.
+=======
+<<<<<<< HEAD
+     * Conteggio dei marker raggruppati per tipo.
+=======
+<<<<<<< HEAD
+     * Ottiene le proprietà computate.
+=======
+     * Conteggio dei marker raggruppati per tipo.
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+     * Conteggio dei marker raggruppati per tipo.
+>>>>>>> .merge_file_e736zw
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
      *
      * @return array<string, int>
      */
     public function getMarkersByTypeProperty(): array
     {
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ME21LF
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_uEvxkh
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+        /** @var array<string, int> $grouped */
+        $grouped = collect($this->markers)
+            ->groupBy('type')
+            ->map(static fn ($markers) => $markers->count())
+            ->all();
+
+        return $grouped;
+<<<<<<< .merge_file_ME21LF
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
         // `groupBy()->map()->toArray()` perde il tipo della chiave (array-key, non
         // string): il conteggio esplicito mantiene la firma array<string, int> e
         // scarta i marker privi di un tipo utilizzabile come chiave.
@@ -353,16 +1032,95 @@ final class InteractiveMap extends Component
         }
 
         return $counts;
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ME21LF
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+        // `groupBy()->map()->toArray()` perde il tipo della chiave (array-key, non
+        // string): il conteggio esplicito mantiene la firma array<string, int> e
+        // scarta i marker privi di un tipo utilizzabile come chiave.
+        $counts = [];
+        foreach ($this->markers as $marker) {
+            $type = $marker['type'] ?? null;
+            if (! is_string($type) || '' === $type) {
+                continue;
+            }
+            $counts[$type] = ($counts[$type] ?? 0) + 1;
+        }
+
+        return $counts;
+>>>>>>> .merge_file_e736zw
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
     }
 
     public function getVisibleMarkersCountProperty(): int
     {
+<<<<<<< HEAD
         return count($this->markers);
+=======
+<<<<<<< .merge_file_ME21LF
+=======
+<<<<<<< .merge_file_uEvxkh
+<<<<<<< HEAD
+        return \count($this->markers);
+=======
+<<<<<<< HEAD
+        return count($this->markers);
+=======
+>>>>>>> .merge_file_9Jetov
+<<<<<<< HEAD
+        return \count($this->markers);
+=======
+        return count($this->markers);
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_ME21LF
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+        return count($this->markers);
+>>>>>>> .merge_file_e736zw
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
     }
 
     public function getFilteredMarkersCountProperty(): int
     {
+<<<<<<< HEAD
         return count($this->markers);
+=======
+<<<<<<< .merge_file_ME21LF
+=======
+<<<<<<< .merge_file_uEvxkh
+<<<<<<< HEAD
+        return \count($this->markers);
+=======
+<<<<<<< HEAD
+        return count($this->markers);
+=======
+>>>>>>> .merge_file_9Jetov
+<<<<<<< HEAD
+        return \count($this->markers);
+=======
+        return count($this->markers);
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_ME21LF
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+        return count($this->markers);
+>>>>>>> .merge_file_e736zw
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
     }
 
     /**
@@ -377,4 +1135,44 @@ final class InteractiveMap extends Component
             default => 'application/json',
         };
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_ME21LF
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+
+    /**
+     * @return array<string, mixed>
+     */
+    private function getMapFilters(): array
+    {
+        $filters = [];
+
+        foreach ($this->filters as $key => $value) {
+            if (! is_string($key)) {
+                continue;
+            }
+
+            $filters[$key] = $value;
+        }
+
+        return $filters;
+    }
+<<<<<<< .merge_file_ME21LF
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Jetov
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 }

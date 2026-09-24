@@ -229,4 +229,29 @@ Includi sempre esempi pratici:
 
 ---
 
+<<<<<<< HEAD
 *Ultimo aggiornamento: Dicembre 2024*
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_v2BN1M
+=======
+*Ultimo aggiornamento: Dicembre 2024*
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_ADmg3N
+=======
+<<<<<<< HEAD
+*Ultimo aggiornamento: Dicembre 2024*
+=======
+<<<<<<< HEAD
+=======
+*Ultimo aggiornamento: Dicembre 2024*
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+*Ultimo aggiornamento: Dicembre 2024*
+=======
+>>>>>>> .merge_file_F5vB1A
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_gDCsyb
+>>>>>>> laraxot/dev

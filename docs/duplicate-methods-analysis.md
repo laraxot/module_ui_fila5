@@ -1,6 +1,31 @@
 # Analisi Metodi Duplicati - Modulo UI
 
+<<<<<<< HEAD
 **Data Generazione**: 2025-10-15 06:41:17
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_HnEeOK
+=======
+**Data Generazione**: 2025-10-15 06:41:17
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_4urpSh
+=======
+<<<<<<< HEAD
+**Data Generazione**: 2025-10-15 06:41:17
+=======
+<<<<<<< HEAD
+=======
+**Data Generazione**: 2025-10-15 06:41:17
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+**Data Generazione**: 2025-10-15 06:41:17
+=======
+>>>>>>> .merge_file_kT5q6K
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_umHxIC
+>>>>>>> laraxot/dev
 **Totale Gruppi di Duplicati**:
 
 ## Sommario Esecutivo
@@ -76,11 +101,31 @@ public function asset(): string
 <<<<<<< HEAD
 - `ChangeStatus::execute` - [Modules/Fixcity/app/Actions/ChangeStatus.php:12](Modules/Fixcity/app/Actions/ChangeStatus.php) (Modulo: Fixcity)
 - `GenerateTicketsAction::execute` - [Modules/Fixcity/app/Actions/GenerateTicketsAction.php:24](Modules/Fixcity/app/Actions/GenerateTicketsAction.php) (Modulo: Fixcity)
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_HnEeOK
+=======
+<<<<<<< .merge_file_4urpSh
+>>>>>>> .merge_file_umHxIC
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 - `ChangeStatus::execute` - [Modules/Fixcity/app/Actions/ChangeStatus.php:12](Modules/Fixcity/app/Actions/ChangeStatus.php) (Modulo: Fixcity)
 - `GenerateTicketsAction::execute` - [Modules/Fixcity/app/Actions/GenerateTicketsAction.php:24](Modules/Fixcity/app/Actions/GenerateTicketsAction.php) (Modulo: Fixcity)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_HnEeOK
+=======
+=======
+=======
+<<<<<<< HEAD
+- `ChangeStatus::execute` - [Modules/Fixcity/app/Actions/ChangeStatus.php:12](Modules/Fixcity/app/Actions/ChangeStatus.php) (Modulo: Fixcity)
+- `GenerateTicketsAction::execute` - [Modules/Fixcity/app/Actions/GenerateTicketsAction.php:24](Modules/Fixcity/app/Actions/GenerateTicketsAction.php) (Modulo: Fixcity)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_umHxIC
 >>>>>>> laraxot/dev
 - `ChangeStatus::execute` - [Modules/<nome progetto>/app/Actions/ChangeStatus.php:12](Modules/<nome progetto>/app/Actions/ChangeStatus.php) (Modulo: <nome progetto>)
 - `GenerateTicketsAction::execute` - [Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php:24](Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php) (Modulo: <nome progetto>)
@@ -88,7 +133,10 @@ public function asset(): string
 - `GenerateTicketsAction::execute` - [Modules/Project/app/Actions/GenerateTicketsAction.php:24](Modules/Project/app/Actions/GenerateTicketsAction.php) (Modulo: progetto corrente)
 - `GenerateTicketsAction::execute` - [Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php:24](Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php) (Modulo: <nome progetto>)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/dev
 =======
 =======
 <<<<<<< HEAD
@@ -111,6 +159,28 @@ public function asset(): string
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_HnEeOK
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+- `ChangeStatus::execute` - [Modules/<nome progetto>/app/Actions/ChangeStatus.php:12](Modules/<nome progetto>/app/Actions/ChangeStatus.php) (Modulo: <nome progetto>)
+- `GenerateTicketsAction::execute` - [Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php:24](Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php) (Modulo: <nome progetto>)
+- `ChangeStatus::execute` - [Modules/Project/app/Actions/ChangeStatus.php:12](Modules/Project/app/Actions/ChangeStatus.php) (Modulo: progetto corrente)
+- `GenerateTicketsAction::execute` - [Modules/Project/app/Actions/GenerateTicketsAction.php:24](Modules/Project/app/Actions/GenerateTicketsAction.php) (Modulo: progetto corrente)
+- `GenerateTicketsAction::execute` - [Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php:24](Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php) (Modulo: <nome progetto>)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_kT5q6K
+>>>>>>> .merge_file_umHxIC
 >>>>>>> laraxot/dev
 - `CalculateDistanceAction::execute` - [Modules/Geo/app/Actions/CalculateDistanceAction.php:47](Modules/Geo/app/Actions/CalculateDistanceAction.php) (Modulo: Geo)
 - `ClusterLocationsAction::execute` - [Modules/Geo/app/Actions/ClusterLocationsAction.php:25](Modules/Geo/app/Actions/ClusterLocationsAction.php) (Modulo: Geo)

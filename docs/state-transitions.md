@@ -48,9 +48,56 @@ class ExampleTransition extends Transition
 ## Related Documentation
 - [State Management](./state-management.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - [SelectStateColumn Documentation](./select-state-column.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [SelectStateColumn Documentation](./select-state-column.md)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [SelectStateColumn Documentation](./select-state-column.md)
+=======
+>>>>>>> laraxot/dev
+=======
+- [SelectStateColumn Documentation](./select-state-column.md)
+=======
+<<<<<<< HEAD
+- [SelectStateColumn Documentation](./select-state-column.md)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+# State Transitions Guide
+<<<<<<< HEAD
+## Overview
+This document outlines the standards and patterns for implementing state transitions in the application.
+## Transition Class Structure
+=======
+
+## Overview
+This document outlines the standards and patterns for implementing state transitions in the application.
+
+## Transition Class Structure
+
+<<<<<<< .merge_file_dM5P90
+=======
+<<<<<<< HEAD
+- [SelectStateColumn Documentation](./select-state-column.md)
+=======
+<<<<<<< .merge_file_ZLjIU6
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+- [SelectStateColumn Documentation](./select-state-column.md)
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_uxdxAr
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -71,6 +118,19 @@ class ExampleTransition extends Transition
 ## Overview
 This document outlines the standards and patterns for implementing state transitions in the application.
 ## Transition Class Structure
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_dM5P90
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_nei5JC
+>>>>>>> .merge_file_uxdxAr
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Required Structure
 ```php
 class ExampleTransition extends Transition
@@ -79,6 +139,30 @@ class ExampleTransition extends Transition
         public Model $model,
         public ?string $message = ''
     ) {}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_dM5P90
+
+=======
+=======
+<<<<<<< .merge_file_ZLjIU6
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_nei5JC
+>>>>>>> .merge_file_uxdxAr
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function handle(): Model
     {
         // Transition logic here
@@ -86,29 +170,160 @@ class ExampleTransition extends Transition
     }
 }
 ```
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_dM5P90
+
+=======
+=======
+<<<<<<< .merge_file_ZLjIU6
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_nei5JC
+>>>>>>> .merge_file_uxdxAr
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Key Points
 - Always extend `Spatie\ModelStates\Transition`
 - Constructor must accept the model as first parameter
 - Optional message parameter with empty string as default
 - `handle()` must return the updated model
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_dM5P90
+=======
+<<<<<<< .merge_file_ZLjIU6
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ## Implementation Notes
 ### Required Parameters
 1. `$model`: The model instance being transitioned
 2. `$message`: Optional message for the transition (default: empty string)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> .merge_file_nei5JC
+>>>>>>> .merge_file_uxdxAr
+
+## Implementation Notes
+
+### Required Parameters
+1. `$model`: The model instance being transitioned
+2. `$message`: Optional message for the transition (default: empty string)
+
+<<<<<<< .merge_file_dM5P90
+=======
+=======
+<<<<<<< .merge_file_ZLjIU6
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_uxdxAr
+## Implementation Notes
+### Required Parameters
+1. `$model`: The model instance being transitioned
+2. `$message`: Optional message for the transition (default: empty string)
+<<<<<<< .merge_file_dM5P90
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_nei5JC
+>>>>>>> .merge_file_uxdxAr
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### File Naming
 - Use `PascalCase` for transition class names
 - Suffix with `Transition` (e.g., `ActiveToSuspendedTransition`)
 - Place in `app/States/{ModelName}/Transitions/`
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_dM5P90
+
+=======
+=======
+<<<<<<< .merge_file_ZLjIU6
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_nei5JC
+>>>>>>> .merge_file_uxdxAr
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Best Practices
 - Keep transition logic simple and focused
 - Use type hints for all parameters
 - Document complex transitions with PHPDoc blocks
 - Always provide default values for optional parameters
+<<<<<<< HEAD
 ## Related Documentation
 - [State Management](./state-management.md)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_dM5P90
+=======
+<<<<<<< .merge_file_ZLjIU6
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+## Related Documentation
+- [State Management](./state-management.md)
+=======
+>>>>>>> .merge_file_nei5JC
+>>>>>>> .merge_file_uxdxAr
+
+## Related Documentation
+- [State Management](./state-management.md)
+- [SelectStateColumn Documentation](./select-state-column.md)
+<<<<<<< .merge_file_dM5P90
+=======
+=======
+<<<<<<< .merge_file_ZLjIU6
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_uxdxAr
+## Related Documentation
+- [State Management](./state-management.md)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 - [SelectStateColumn Documentation](./select-state-column.md)
 <<<<<<< HEAD
@@ -125,5 +340,17 @@ class ExampleTransition extends Transition
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_dM5P90
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_nei5JC
+>>>>>>> .merge_file_uxdxAr
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

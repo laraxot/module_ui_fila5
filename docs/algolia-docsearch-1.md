@@ -81,7 +81,15 @@ For more details, visit the [official Algolia DocSearch documentation.](https://
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_vA2WMC
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_JnmVFV
+>>>>>>> laraxot/dev
 
 ### Versione Incoming
 
@@ -89,6 +97,13 @@ For more details, visit the [official Algolia DocSearch documentation.](https://
 ---
 
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_vA2WMC
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_JnmVFV
 >>>>>>> laraxot/dev
 ### Versione Incoming
 

@@ -56,9 +56,43 @@
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
 <<<<<<< HEAD
+<<<<<<< HEAD
 4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_rcKTRV
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wKVL9k
+4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
+## Collegamenti tra versioni di filament-components.md
+<<<<<<< HEAD
+* [filament-components.md](../../User/docs/best-practices/filament-components.md)
+* [filament-components.md](../../Cms/docs/best-practices/filament-components.md)
+* [filament-components.md](../../Cms/docs/filament-components.md)
+* [filament-components.md](../../../docs/rules/filament-components.md)
+=======
+* [filament-components.md](../../user/docs/best-practices/filament-components.md)
+* [filament-components.md](../../cms/docs/best-practices/filament-components.md)
+* [filament-components.md](../../cms/docs/filament-components.md)
+* [filament-components.md](../../../../docs/rules/filament-components.md)
+<<<<<<< .merge_file_rcKTRV
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CJyVpb
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wKVL9k
+>>>>>>> laraxot/dev
 4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti 
 =======
 <<<<<<< HEAD
@@ -81,6 +115,9 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ## Collegamenti tra versioni di filament-components.md
 * [filament-components.md](../../User/docs/best-practices/filament-components.md)
@@ -90,8 +127,11 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -101,6 +141,18 @@
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_rcKTRV
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_IWJTKU
+>>>>>>> .merge_file_wKVL9k
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 # Componenti Filament UI
@@ -108,8 +160,44 @@
 ## Collegamenti Bidirezionali
 
 ### Errori Comuni
+<<<<<<< HEAD
 
 ### Componenti Specifici
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_rcKTRV
+=======
+=======
+<<<<<<< HEAD
+
+### Componenti Specifici
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wKVL9k
+- [Errori nei Componenti Filament](./filament-components-errors.md)
+- [Best Practices UI](../../best-practices.md)
+- [Implementazione Corretta](../../examples/correct-implementation.md)
+
+### Componenti Specifici
+- [FileUpload](./components/file-upload.md)
+- [TextInput](./components/text-input.md)
+- [Select](./components/select.md)
+<<<<<<< .merge_file_rcKTRV
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_wKVL9k
+=======
+
+### Componenti Specifici
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_rcKTRV
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wKVL9k
+>>>>>>> laraxot/dev
 
 ## Struttura della Documentazione
 
@@ -159,10 +247,46 @@
 4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
 ## Collegamenti tra versioni di filament-components.md
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_rcKTRV
+=======
+<<<<<<< .merge_file_CJyVpb
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+* [filament-components.md](../../User/project_docs/best-practices/filament-components.md)
+* [filament-components.md](../../Cms/project_docs/best-practices/filament-components.md)
+* [filament-components.md](../../Cms/project_docs/filament-components.md)
+* [filament-components.md](../../../project_docs/rules/filament-components.md)
+=======
+>>>>>>> .merge_file_IWJTKU
+>>>>>>> .merge_file_wKVL9k
+* [filament-components.md](../../user/project_docs/best-practices/filament-components.md)
+* [filament-components.md](../../cms/project_docs/best-practices/filament-components.md)
+* [filament-components.md](../../cms/project_docs/filament-components.md)
+* [filament-components.md](../../../../docs/project/rules/filament-components.md)
+<<<<<<< .merge_file_rcKTRV
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CJyVpb
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wKVL9k
+=======
+>>>>>>> laraxot/dev
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 =======
 <<<<<<< HEAD
@@ -173,6 +297,9 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 * [filament-components.md](../../User/project_docs/best-practices/filament-components.md)
 * [filament-components.md](../../Cms/project_docs/best-practices/filament-components.md)
@@ -183,10 +310,13 @@
 ||||||| parent of 9a84589 (.):docs/archived/filament-components-1.md
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [filament-components.md](../../../docs/rules/filament-components.md)
 ||||||| parent of 9a84589 (.):docs/archived/filament-components-1.md
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 
 ||||||| parent of 9a84589 (.):docs/archived/filament-components-1.md
 * [filament-components.md](../../../docs/rules/filament-components.md)
@@ -213,5 +343,17 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_rcKTRV
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_IWJTKU
+>>>>>>> .merge_file_wKVL9k
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

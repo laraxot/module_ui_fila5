@@ -362,16 +362,44 @@ pub_theme:: → Themes/Sixteen/resources/views/
 
 <<<<<<< HEAD
 Configurato in `config/local/fixcity/xra.php`:
+<<<<<<< HEAD
 Configurato in `config/local/<nome progetto>/xra.php`:
 Configurato in `config/local/current/xra.php`:
+=======
+<<<<<<< .merge_file_Qv79Zd
+=======
+<<<<<<< .merge_file_KBJ8SL
+>>>>>>> .merge_file_0svSw8
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 Configurato in `config/local/fixcity/xra.php`:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Qv79Zd
+>>>>>>> laraxot/dev
 Configurato in `config/local/<nome progetto>/xra.php`:
 Configurato in `config/local/current/xra.php`:
 =======
 =======
+<<<<<<< HEAD
+=======
+=======
+=======
+<<<<<<< HEAD
+Configurato in `config/local/fixcity/xra.php`:
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_xzsWx4
+<<<<<<< HEAD
+Configurato in `config/local/<nome progetto>/xra.php`:
+Configurato in `config/local/current/xra.php`:
+=======
+<<<<<<< .merge_file_KBJ8SL
+>>>>>>> .merge_file_0svSw8
+=======
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -388,6 +416,18 @@ Configurato in `config/local/<nome progetto>/xra.php`:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Qv79Zd
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_xzsWx4
+>>>>>>> .merge_file_0svSw8
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 ```php

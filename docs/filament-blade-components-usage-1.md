@@ -2,10 +2,21 @@
 # Utilizzo dei Componenti Blade di Filament
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_usnSYn
+# Utilizzo dei Componenti Blade di Filament 
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 # Utilizzo dei Componenti Blade di Filament
 =======
 # Utilizzo dei Componenti Blade di Filament 
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_TYyWsi
 >>>>>>> laraxot/dev
 
 ## Indice
@@ -48,13 +59,29 @@ Filament fornisce una serie di componenti Blade pronti all'uso che dovrebbero es
 ⚠️ **ATTENZIONE**: I seguenti layout **NON esistono** in Filament e non devono essere utilizzati:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_usnSYn
+=======
+- ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_TYyWsi
+>>>>>>> laraxot/dev
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>
 =======
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di SaluteOra
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_usnSYn
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_TYyWsi
 >>>>>>> laraxot/dev
 - ❌ `<x-filament::layouts.card>` - Non esiste, utilizzare invece una combinazione di `<x-filament::card>` e altri componenti
 - ❌ `<x-filament::layouts.base>` - Non esiste
@@ -202,10 +229,21 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 ## Gestione delle Rotte
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_usnSYn
+## Gestione delle Rotte 
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 ## Gestione delle Rotte
 =======
 ## Gestione delle Rotte 
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_TYyWsi
 >>>>>>> laraxot/dev
 
 ### Regole Fondamentali
@@ -216,13 +254,29 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 
 2. **Per le pagine frontend**:
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Creare file Blade in `Themes/One/resources/views/pages/`
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_usnSYn
+=======
+   - Creare file Blade in `Themes/One/resources/views/pages/`
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_TYyWsi
+>>>>>>> laraxot/dev
    - Creare file Blade in `Themes/One/resources/views/pages/`
 =======
    - Creare file Blade in `/var/www/html/saluteora/laravel/Themes/One/resources/views/pages/`
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_usnSYn
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_TYyWsi
 >>>>>>> laraxot/dev
    - Utilizzare Folio per il routing automatico
    - Esempio: `/profile/index.blade.php` sarà accessibile come `/it/profile`

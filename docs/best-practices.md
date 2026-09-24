@@ -1,4 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_WKa7sT
+=======
+<<<<<<< .merge_file_RoN8Qw
+>>>>>>> .merge_file_hdYPwT
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 =======
@@ -6,6 +13,22 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_WKa7sT
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
 =======
 =======
 <<<<<<< HEAD
@@ -15,6 +38,9 @@
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1mok7I
+>>>>>>> .merge_file_hdYPwT
 >>>>>>> laraxot/dev
 ---
 module: theme
@@ -23,8 +49,12 @@ canonical: ../../../Themes/docs/shared-components/best-practices_1.md
 ---
 
 <<<<<<< HEAD
-See canonical documentation: ../../../Themes/docs/shared-components/best-practices_1.md
 =======
+<<<<<<< .merge_file_WKa7sT
+=======
+<<<<<<< .merge_file_RoN8Qw
+>>>>>>> .merge_file_hdYPwT
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 See canonical documentation: ../../../Themes/docs/shared-components/best-practices_1.md
 =======
@@ -35,6 +65,13 @@ See canonical documentation: ../../../Themes/docs/shared-components/best-practic
 See canonical documentation: ../../../Themes/docs/shared-components/best-practices_1.md
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+See canonical documentation: ../../../Themes/docs/shared-components/best-practices_1.md
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -201,8 +238,11 @@ class AdvancedForm extends Component
 ### Versione Incoming
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 * [best-practices.md](../../../Xot/project_docs/laraxot/best-practices.md)
 * [best-practices.md](../../../UI/project_docs/best-practices.md)
@@ -211,11 +251,448 @@ module: theme
 topic: best_practices
 canonical: ../../../Themes/docs/shared-components/best-practices_1.md
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
 =======
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_WKa7sT
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+See canonical documentation: ../../../Themes/docs/shared-components/best-practices_1.md
+# Best Practices UI
+## Principi Generali
+=======
+>>>>>>> .merge_file_1mok7I
+>>>>>>> .merge_file_hdYPwT
+# Best Practices UI
+
+## Principi Generali
+
+>>>>>>> laraxot/dev
+### 1. Consistenza
+- Utilizzare componenti standard
+- Mantenere uno stile uniforme
+- Seguire le convenzioni di naming
+- Riutilizzare pattern comuni
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
+### 2. Accessibilità
+- Supportare la navigazione da tastiera
+- Utilizzare attributi ARIA
+- Mantenere contrasto adeguato
+- Fornire testi alternativi
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
+### 3. Performance
+- Ottimizzare il caricamento
+- Minimizzare le dipendenze
+- Utilizzare lazy loading
+- Implementare caching
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
+### 4. Responsive Design
+- Mobile-first approach
+- Breakpoint standard
+- Layout fluidi
+- Testing multi-device
+<<<<<<< HEAD
+## Sviluppo Componenti
+=======
+
+## Sviluppo Componenti
+
+>>>>>>> laraxot/dev
+### 1. Struttura
+```php
+class CustomComponent extends Component
+{
+    // Proprietà pubbliche con type hint
+    public string $label;
+    public ?string $hint = null;
+<<<<<<< HEAD
+    // Proprietà private per stato interno
+    private bool $isLoading = false;
+=======
+
+    // Proprietà private per stato interno
+    private bool $isLoading = false;
+
+>>>>>>> laraxot/dev
+    // Metodi pubblici con return type
+    public function render(): View
+    {
+        return view('ui::components.custom');
+    }
+}
+```
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
+### 2. Template
+```blade
+<div class="custom-component">
+    {{-- Utilizzare slot nominati --}}
+    <div class="header">
+        {{ $header ?? '' }}
+    </div>
+<<<<<<< HEAD
+    {{-- Gestire stati condizionali --}}
+    <div class="content {{ $isLoading ? 'loading' : '' }}">
+        {{ $slot }}
+    {{-- Fornire fallback --}}
+    <div class="footer">
+        {{ $footer ?? 'Default Footer' }}
+</div>
+=======
+
+    {{-- Gestire stati condizionali --}}
+    <div class="content {{ $isLoading ? 'loading' : '' }}">
+        {{ $slot }}
+    </div>
+
+    {{-- Fornire fallback --}}
+    <div class="footer">
+        {{ $footer ?? 'Default Footer' }}
+    </div>
+</div>
+```
+
+>>>>>>> laraxot/dev
+### 3. Stili
+```scss
+// Utilizzare BEM naming
+.custom-component {
+    &__header { }
+    &__content { }
+    &__footer { }
+<<<<<<< HEAD
+    // Stati
+    &--loading { }
+    &--disabled { }
+    // Varianti
+    &--primary { }
+    &--secondary { }
+## Form Components
+### 1. Validazione
+=======
+
+    // Stati
+    &--loading { }
+    &--disabled { }
+
+    // Varianti
+    &--primary { }
+    &--secondary { }
+}
+```
+
+## Form Components
+
+### 1. Validazione
+```php
+>>>>>>> laraxot/dev
+// Definire regole di validazione
+public array $rules = [
+    'email' => ['required', 'email'],
+    'password' => ['required', 'min:8'],
+];
+<<<<<<< HEAD
+// Messaggi personalizzati
+public array $messages = [
+    'email.required' => 'trans.validation.email.required',
+### 2. Eventi
+// Emettere eventi standard
+$this->emit('saved');
+$this->emit('deleted', $id);
+// Ascoltare eventi
+protected $listeners = [
+    'refresh' => '$refresh',
+### 3. Loading States
+// Gestire stati di caricamento
+public function save()
+    $this->loading = true;
+    // ...
+    $this->loading = false;
+## Table Components
+### 1. Configurazione
+// Definire colonne in modo chiaro
+protected function getColumns(): array
+=======
+
+// Messaggi personalizzati
+public array $messages = [
+    'email.required' => 'trans.validation.email.required',
+];
+```
+
+### 2. Eventi
+```php
+// Emettere eventi standard
+$this->emit('saved');
+$this->emit('deleted', $id);
+
+// Ascoltare eventi
+protected $listeners = [
+    'refresh' => '$refresh',
+];
+```
+
+### 3. Loading States
+```php
+// Gestire stati di caricamento
+public function save()
+{
+    $this->loading = true;
+    // ...
+    $this->loading = false;
+}
+```
+
+## Table Components
+
+### 1. Configurazione
+```php
+// Definire colonne in modo chiaro
+protected function getColumns(): array
+{
+>>>>>>> laraxot/dev
+    return [
+        Column::make('name')->sortable()->searchable(),
+        Column::make('email')->searchable(),
+    ];
+<<<<<<< HEAD
+// Configurare filtri
+protected function getFilters(): array
+        Filter::make('active')->query(fn ($query) => $query->where('active', true)),
+### 2. Actions
+// Definire azioni in modo modulare
+protected function getActions(): array
+        Action::make('edit')->visible(fn ($record) => $this->can('edit', $record)),
+        Action::make('delete')->requiresConfirmation(),
+## Chart Components
+### 1. Dati
+// Formattare dati in modo standard
+protected function getData(): array
+=======
+}
+
+// Configurare filtri
+protected function getFilters(): array
+{
+    return [
+        Filter::make('active')->query(fn ($query) => $query->where('active', true)),
+    ];
+}
+```
+
+### 2. Actions
+```php
+// Definire azioni in modo modulare
+protected function getActions(): array
+{
+    return [
+        Action::make('edit')->visible(fn ($record) => $this->can('edit', $record)),
+        Action::make('delete')->requiresConfirmation(),
+    ];
+}
+```
+
+## Chart Components
+
+### 1. Dati
+```php
+// Formattare dati in modo standard
+protected function getData(): array
+{
+    return [
+>>>>>>> laraxot/dev
+        'labels' => ['Gen', 'Feb', 'Mar'],
+        'datasets' => [
+            [
+                'label' => 'Vendite',
+                'data' => [10, 20, 30],
+            ],
+        ],
+<<<<<<< HEAD
+### 2. Opzioni
+// Configurare opzioni in modo chiaro
+protected function getOptions(): array
+=======
+    ];
+}
+```
+
+### 2. Opzioni
+```php
+// Configurare opzioni in modo chiaro
+protected function getOptions(): array
+{
+    return [
+>>>>>>> laraxot/dev
+        'responsive' => true,
+        'maintainAspectRatio' => false,
+        'plugins' => [
+            'legend' => [
+                'position' => 'bottom',
+<<<<<<< HEAD
+## Testing
+### 1. Unit Tests
+public function test_component_renders()
+    $component = Livewire::test(CustomComponent::class);
+    $component->assertSee('Expected Content');
+### 2. Browser Tests
+public function test_component_interaction()
+=======
+            ],
+        ],
+    ];
+}
+```
+
+## Testing
+
+### 1. Unit Tests
+```php
+public function test_component_renders()
+{
+    $component = Livewire::test(CustomComponent::class);
+    $component->assertSee('Expected Content');
+}
+```
+
+### 2. Browser Tests
+```php
+public function test_component_interaction()
+{
+>>>>>>> laraxot/dev
+    $this->browse(function (Browser $browser) {
+        $browser->visit('/page')
+            ->click('@button')
+            ->assertSee('Result');
+    });
+<<<<<<< HEAD
+## Documentazione
+### 1. PHPDoc
+=======
+}
+```
+
+## Documentazione
+
+### 1. PHPDoc
+```php
+>>>>>>> laraxot/dev
+/**
+ * Componente per la gestione di form avanzati.
+ *
+ * @property string $label Label del componente
+ * @property string|null $hint Suggerimento opzionale
+<<<<<<< HEAD
+=======
+ *
+>>>>>>> laraxot/dev
+ * @method void save() Salva i dati del form
+ * @method void reset() Resetta il form
+ */
+class AdvancedForm extends Component
+<<<<<<< HEAD
+=======
+```
+
+>>>>>>> laraxot/dev
+### 2. README
+- Descrizione chiara
+- Esempi di utilizzo
+- Configurazioni disponibili
+### Versione HEAD
+<<<<<<< HEAD
+- Breaking changes
+## Collegamenti tra versioni di best-practices.md
+* [best-practices.md](docs/tecnico/filament/best-practices.md)
+* [best-practices.md](../../../Xot/docs/laraxot/best-practices.md)
+* [best-practices.md](../../../UI/docs/best-practices.md)
+* [best-practices.md](../../../../Themes/One/docs/best-practices.md)
+### Versione Incoming
+---
+* [best-practices.md](../../../Xot/project_docs/laraxot/best-practices.md)
+* [best-practices.md](../../../UI/project_docs/best-practices.md)
+* [best-practices.md](../../../../Themes/One/project_docs/best-practices.md)
+module: theme
+topic: best_practices
+canonical: ../../../Themes/docs/shared-components/best-practices_1.md
+=======
+
+- Breaking changes
+## Collegamenti tra versioni di best-practices.md
+* [best-practices.md](docs/tecnico/filament/best-practices.md)
+<<<<<<< HEAD
+* [best-practices.md](../../../xot/docs/laraxot/best-practices.md)
+* [best-practices.md](../../../ui/docs/best-practices.md)
+* [best-practices.md](../../../../themes/one/docs/best-practices.md)
+=======
+<<<<<<< .merge_file_WKa7sT
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+* [best-practices.md](../../../xot/docs/laraxot/best-practices.md)
+* [best-practices.md](../../../ui/docs/best-practices.md)
+* [best-practices.md](../../../../themes/one/docs/best-practices.md)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_hdYPwT
+* [best-practices.md](../../../Xot/project_docs/laraxot/best-practices.md)
+* [best-practices.md](../../../UI/project_docs/best-practices.md)
+* [best-practices.md](../../../../Themes/One/project_docs/best-practices.md)
+* [best-practices.md](../../../Xot/project_docs/laraxot/best-practices.md)
+* [best-practices.md](../../../UI/project_docs/best-practices.md)
+* [best-practices.md](../../../../Themes/One/project_docs/best-practices.md)
+* [best-practices.md](../../../Xot/project_docs/laraxot/best-practices.md)
+* [best-practices.md](../../../UI/project_docs/best-practices.md)
+* [best-practices.md](../../../../Themes/One/project_docs/best-practices.md)
+<<<<<<< .merge_file_WKa7sT
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_hdYPwT
+>>>>>>> laraxot/dev
+
+### Versione Incoming
+
+- Breaking changes
+
+---
+<<<<<<< HEAD
+<<<<<<< .merge_file_WKa7sT
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_hdYPwT
+>>>>>>> laraxot/dev
 # Best Practices UI
 
 ## Principi Generali
@@ -460,6 +937,7 @@ class AdvancedForm extends Component
 - Breaking changes
 ## Collegamenti tra versioni di best-practices.md
 * [best-practices.md](docs/tecnico/filament/best-practices.md)
+<<<<<<< HEAD
 * [best-practices.md](../../../Xot/project_docs/laraxot/best-practices.md)
 * [best-practices.md](../../../UI/project_docs/best-practices.md)
 * [best-practices.md](../../../../Themes/One/project_docs/best-practices.md)
@@ -469,12 +947,35 @@ class AdvancedForm extends Component
 * [best-practices.md](../../../Xot/project_docs/laraxot/best-practices.md)
 * [best-practices.md](../../../UI/project_docs/best-practices.md)
 * [best-practices.md](../../../../Themes/One/project_docs/best-practices.md)
+=======
+* [best-practices.md](../../../xot/project_docs/laraxot/best-practices.md)
+* [best-practices.md](../../../ui/project_docs/best-practices.md)
+* [best-practices.md](../../../../themes/one/project_docs/best-practices.md)
+* [best-practices.md](../../../xot/project_docs/laraxot/best-practices.md)
+* [best-practices.md](../../../ui/project_docs/best-practices.md)
+* [best-practices.md](../../../../themes/one/project_docs/best-practices.md)
+* [best-practices.md](../../../xot/project_docs/laraxot/best-practices.md)
+* [best-practices.md](../../../ui/project_docs/best-practices.md)
+* [best-practices.md](../../../../themes/one/project_docs/best-practices.md)
+>>>>>>> laraxot/dev
 
 ### Versione Incoming
 
 - Breaking changes
 
 ---
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_WKa7sT
+=======
+=======
+<<<<<<< .merge_file_RoN8Qw
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_hdYPwT
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 module: theme
@@ -490,5 +991,17 @@ See canonical documentation: ../../../Themes/docs/shared-components/best-practic
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_WKa7sT
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1mok7I
+>>>>>>> .merge_file_hdYPwT
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

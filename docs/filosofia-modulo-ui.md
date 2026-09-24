@@ -1,6 +1,34 @@
 # Analisi Approfondita del Modulo UI
 
+<<<<<<< HEAD
 > **Generato**: 2025-12-24
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_9cySTk
+> **Generato**: [DATE]
+=======
+> **Generato**: 2025-12-24
+=======
+<<<<<<< .merge_file_Wz8tm1
+> **Generato**: [DATE]
+=======
+<<<<<<< HEAD
+> **Generato**: 2025-12-24
+=======
+<<<<<<< HEAD
+> **Generato**: [DATE]
+=======
+> **Generato**: 2025-12-24
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+> **Generato**: 2025-12-24
+=======
+> **Generato**: [DATE]
+>>>>>>> .merge_file_7VNOdi
+>>>>>>> .merge_file_RLvjB0
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 > **Scopo**: Documentare la filosofia, logica, business logic e architettura del modulo UI
 
 ---
@@ -82,10 +110,31 @@ Ogni componente è progettato per essere riutilizzato in più moduli senza dupli
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 // InlineDatePicker - Usato in modulo operativo, Employee, Cms
 // LocationSelector - Usato in modulo operativo, Employee, Geo
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_9cySTk
+=======
+<<<<<<< .merge_file_Wz8tm1
+>>>>>>> .merge_file_RLvjB0
+// InlineDatePicker - Usato in TechPlanner, Employee, Cms
+// LocationSelector - Usato in TechPlanner, Employee, Geo
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_9cySTk
+=======
+<<<<<<< HEAD
+=======
+// InlineDatePicker - Usato in TechPlanner, Employee, Cms
+// LocationSelector - Usato in TechPlanner, Employee, Geo
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RLvjB0
+>>>>>>> laraxot/dev
 // InlineDatePicker - Usato in modulo operativo, Employee, Cms
 // LocationSelector - Usato in modulo operativo, Employee, Geo
 =======
@@ -112,6 +161,23 @@ Ogni componente è progettato per essere riutilizzato in più moduli senza dupli
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_9cySTk
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+// InlineDatePicker - Usato in modulo operativo, Employee, Cms
+// LocationSelector - Usato in modulo operativo, Employee, Geo
+=======
+// InlineDatePicker - Usato in TechPlanner, Employee, Cms
+// LocationSelector - Usato in TechPlanner, Employee, Geo
+>>>>>>> .merge_file_7VNOdi
+>>>>>>> .merge_file_RLvjB0
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 // IconStateColumn - Usato in tutti i moduli con Spatie ModelStates
@@ -425,9 +491,28 @@ Altri moduli consumano componenti UI:
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 // In modulo operativo/Filament/Resources/DeviceResource.php
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_9cySTk
+// In TechPlanner/Filament/Resources/DeviceResource.php
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Wz8tm1
+// In TechPlanner/Filament/Resources/DeviceResource.php
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+// In TechPlanner/Filament/Resources/DeviceResource.php
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RLvjB0
+>>>>>>> laraxot/dev
 // In modulo operativo/Filament/Resources/DeviceResource.php
 =======
 <<<<<<< HEAD
@@ -442,6 +527,9 @@ Altri moduli consumano componenti UI:
 >>>>>>> laraxot/dev
 // In modulo operativo/Filament/Resources/DeviceResource.php
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_9cySTk
 // In TechPlanner/Filament/Resources/DeviceResource.php
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 <<<<<<< HEAD
@@ -449,6 +537,29 @@ Altri moduli consumano componenti UI:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+// In TechPlanner/Filament/Resources/DeviceResource.php
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+// In modulo operativo/Filament/Resources/DeviceResource.php
+=======
+// In TechPlanner/Filament/Resources/DeviceResource.php
+>>>>>>> .merge_file_7VNOdi
+>>>>>>> .merge_file_RLvjB0
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
@@ -724,10 +835,36 @@ Laravel risolve automaticamente override temi con view namespace precedence.
 **Modulo**: UI
 **Versione**: 4.1.0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Framework**: Laravel 12 + Filament 4
 >>>>>>> laraxot/dev
 **Framework**: Laravel 13 + Filament 4
+=======
+**Framework**: Laravel 12 + Filament 4
+<<<<<<< HEAD
+<<<<<<< .merge_file_9cySTk
+=======
+**Framework**: Laravel 13 + Filament 4
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_Wz8tm1
+=======
+<<<<<<< HEAD
+**Framework**: Laravel 13 + Filament 4
+=======
+<<<<<<< HEAD
+=======
+**Framework**: Laravel 13 + Filament 4
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+**Framework**: Laravel 13 + Filament 4
+=======
+>>>>>>> .merge_file_7VNOdi
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RLvjB0
+>>>>>>> laraxot/dev
 **PHPStan**: Level 10 ✅
 **Filosofia**: Estendere, Riutilizzare, Tradurre, Adattare
 **Zen**: I componenti si scoprono da soli 禅

@@ -735,15 +735,31 @@ class UserCalendarWidget extends XotBaseWidget
 
 ## 🎯 MODULE OVERVIEW
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_8xygNt
+=======
+<<<<<<< .merge_file_iSo2zC
+=======
+<<<<<<< .merge_file_8xygNt
+>>>>>>> .merge_file_2FIJqM
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
 =======
 Il modulo **UI** è il sistema di componenti e design system della piattaforma progetto corrente, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
 >>>>>>> .merge_file_tJSMli
+=======
+<<<<<<< .merge_file_iSo2zC
+=======
+=======
+Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+>>>>>>> .merge_file_tJSMli
+>>>>>>> .merge_file_2FIJqM
+>>>>>>> laraxot/dev
 
 ### 🏗️ Architettura Modulo
 ```
