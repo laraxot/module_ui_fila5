@@ -1,4 +1,14 @@
+<<<<<<< .merge_file_53T6lo
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Abx3J6
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_uzBFar
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -19,12 +29,22 @@
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
+<<<<<<< .merge_file_53T6lo
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_2MdTH3
+>>>>>>> .merge_file_uzBFar
 <?php
 
 declare(strict_types=1);
-
 ?>
 @props(['title' => 'Verifica Idoneità'])
 

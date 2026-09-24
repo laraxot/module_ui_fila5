@@ -1,4 +1,14 @@
+<<<<<<< .merge_file_0oJ8a6
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_eAIDwC
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_kF94Wm
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -23,12 +33,22 @@
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
+<<<<<<< .merge_file_0oJ8a6
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_idvmGs
+>>>>>>> .merge_file_kF94Wm
 <?php
 
 declare(strict_types=1);
-
 ?>
 @props(['title' => 'Modifica Profilo'])
 

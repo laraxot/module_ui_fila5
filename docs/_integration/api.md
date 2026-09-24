@@ -1,5 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_P3Vdj2
 =======
+=======
+<<<<<<< .merge_file_dJ9gnw
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_YinuIj
+>>>>>>> .merge_file_ihhMPP
 ---
 title: "api"
 type: concept
@@ -7,6 +19,10 @@ tags: [api]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "api api"
+<<<<<<< .merge_file_P3Vdj2
+=======
+<<<<<<< .merge_file_dJ9gnw
+>>>>>>> .merge_file_ihhMPP
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -19,6 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_P3Vdj2
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_YinuIj
+>>>>>>> .merge_file_ihhMPP
 related:
   - "./blocks.md"
   - "./carousel-slider-1.md"
@@ -30,7 +55,20 @@ related:
   - "./custom-theme-1.md"
 ---
 
+<<<<<<< .merge_file_P3Vdj2
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_dJ9gnw
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YinuIj
+>>>>>>> .merge_file_ihhMPP
 # api
 
 <!-- Contenuto migrato da _docs/api.txt -->

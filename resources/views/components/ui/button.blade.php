@@ -1,7 +1,6 @@
 <?php
 
 declare(strict_types=1);
-
 ?>
 @props([
     'type' => 'primary', 
@@ -32,6 +31,13 @@ declare(strict_types=1);
         'danger' => 'bg-red-600 text-white hover:bg-red-600/90 focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:bg-red-700/90 focus:ring-red-700',
     };
 <<<<<<< HEAD
+<<<<<<< .merge_file_m9skSN
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_bZaLOk
     $isLink = ($tag ?? 'button') === 'a';
     $hrefValue = (string) ($href ?? '/');
     $safeHref = $isLink && ! preg_match('#^\s*javascript:#i', $hrefValue) ? $hrefValue : '/';
@@ -48,6 +54,11 @@ declare(strict_types=1);
 </button>
 @endif
 =======
+<<<<<<< .merge_file_m9skSN
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_bZaLOk
 @endphp
 
 @php
@@ -71,4 +82,13 @@ switch ($tag ?? 'button') {
 <{!! $tagAttr !!} {!! $attributes->except(['class']) !!} class="{{ $sizeClasses }} {{ $typeClasses }} cursor-pointer inline-flex items-center w-full justify-center disabled:opacity-50 font-semibold focus:outline-none">
     {{ $slot }}
 </{{ $tagClose }}>
+<<<<<<< .merge_file_m9skSN
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_bZaLOk
 >>>>>>> laraxot/dev

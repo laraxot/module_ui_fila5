@@ -1,5 +1,13 @@
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_3aDCiI
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_EcdAWt
 ---
 title: "Blocks Relocated"
 type: concept
@@ -30,6 +38,13 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+<<<<<<< .merge_file_3aDCiI
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_EcdAWt
 >>>>>>> laraxot/dev
 https://github.com/whitecube/nova-flexible-content
 

@@ -1,8 +1,17 @@
 <<<<<<< HEAD
 # Gestione delle Risorse Pubbliche
 =======
+<<<<<<< .merge_file_K7jxuF
 # Gestione delle Risorse Pubbliche 
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+# Gestione delle Risorse Pubbliche
+=======
+# Gestione delle Risorse Pubbliche 
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_s8SIJp
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -21,10 +30,20 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 
 ```
 <<<<<<< HEAD
+<<<<<<< .merge_file_K7jxuF
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_s8SIJp
 
 =======
 /var/www/html/saluteora/
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_K7jxuF
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_s8SIJp
 ├── public_html/           # Directory pubblica principale
 │   ├── images/            # Immagini pubbliche
 │   ├── css/               # File CSS
@@ -35,26 +54,53 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 ```
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_K7jxuF
+=======
+> **IMPORTANTE**: MAI utilizzare `public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_s8SIJp
 > **IMPORTANTE**: MAI utilizzare `public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>.
 =======
 > **IMPORTANTE**: MAI utilizzare `/var/www/html/saluteora/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di SaluteOra.
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_K7jxuF
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_s8SIJp
 
 ## Tipi di Risorse
 
 ### Immagini
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_K7jxuF
+=======
+Le immagini devono essere posizionate in `public_html/images/` e organizzate in sottocartelle per tipologia:
+
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_s8SIJp
 Le immagini devono essere posizionate in `public_html/images/` e organizzate in sottocartelle per tipologia:
 
 =======
 Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/images/` e organizzate in sottocartelle per tipologia:
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_K7jxuF
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_s8SIJp
 - `/images/avatars/` - Avatar utenti
 - `/images/logos/` - Loghi
 - `/images/icons/` - Icone
 - `/images/backgrounds/` - Sfondi
 <<<<<<< HEAD
+<<<<<<< .merge_file_K7jxuF
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_s8SIJp
 
 ### CSS e JavaScript
 
@@ -119,6 +165,11 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 <img
     src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}"
     alt="{{ $user->name }}"
+<<<<<<< .merge_file_K7jxuF
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_s8SIJp
 =======
 ### CSS e JavaScript
 I file CSS e JavaScript compilati devono essere posizionati in:
@@ -153,6 +204,10 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
     src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}" 
     alt="{{ $user->name }}" 
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_K7jxuF
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_s8SIJp
     class="h-10 w-10 rounded-full"
 >
 ```
@@ -166,10 +221,22 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
         src="{{ asset('images/logos/<nome progetto>-logo.svg') }}"
         alt="<nome progetto>"
 =======
+<<<<<<< .merge_file_K7jxuF
+=======
+<<<<<<< HEAD
+    <img
+        src="{{ asset('images/logos/<nome progetto>-logo.svg') }}"
+        alt="<nome progetto>"
+=======
+>>>>>>> .merge_file_s8SIJp
     <img 
         src="{{ asset('images/logos/saluteora-logo.svg') }}" 
         alt="SaluteOra" 
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_K7jxuF
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_s8SIJp
         class="h-8"
     >
 </a>
@@ -185,7 +252,17 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 ## Conclusione
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_K7jxuF
+=======
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_s8SIJp
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>.
 =======
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto SaluteOra.
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_K7jxuF
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_s8SIJp

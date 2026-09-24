@@ -6,6 +6,14 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_1cE4e9
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_PqdwZJ
 <<<<<<< HEAD
 =======
 =======
@@ -15,6 +23,13 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_1cE4e9
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_PqdwZJ
 >>>>>>> laraxot/dev
 ## ❌ ERRORE CRITICO - NON FARE MAI QUESTO
 
@@ -171,6 +186,25 @@ rules:
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_1cE4e9
+=======
+<<<<<<< .merge_file_o9FR6Q
+>>>>>>> .merge_file_PqdwZJ
+- [Translation Standards](../../../../docs/translation-standards.md)
+- [Filament Best Practices](../../../../docs/filament-best-practices.md)
+- [LangServiceProvider Documentation](../../../../docs/lang-service-provider.md)
+=======
+<<<<<<< .merge_file_1cE4e9
+- [Translation Standards](../../../docs/translation-standards.md)
+- [Filament Best Practices](../../../docs/filament-best-practices.md)
+- [LangServiceProvider Documentation](../../../docs/lang-service-provider.md)
+=======
+<<<<<<< HEAD
+- [Translation Standards](../../../docs/translation-standards.md)
+- [Filament Best Practices](../../../docs/filament-best-practices.md)
+- [LangServiceProvider Documentation](../../../docs/lang-service-provider.md)
+=======
+<<<<<<< HEAD
 - [Translation Standards](../../../../docs/translation-standards.md)
 - [Filament Best Practices](../../../../docs/filament-best-practices.md)
 - [LangServiceProvider Documentation](../../../../docs/lang-service-provider.md)
@@ -178,6 +212,18 @@ rules:
 - [Translation Standards](../../../docs/translation-standards.md)
 - [Filament Best Practices](../../../docs/filament-best-practices.md)
 - [LangServiceProvider Documentation](../../../docs/lang-service-provider.md)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [Translation Standards](../../../docs/translation-standards.md)
+- [Filament Best Practices](../../../docs/filament-best-practices.md)
+- [LangServiceProvider Documentation](../../../docs/lang-service-provider.md)
+=======
+- [Translation Standards](../../../../docs/translation-standards.md)
+- [Filament Best Practices](../../../../docs/filament-best-practices.md)
+- [LangServiceProvider Documentation](../../../../docs/lang-service-provider.md)
+>>>>>>> .merge_file_q6WyYw
+>>>>>>> .merge_file_PqdwZJ
 >>>>>>> laraxot/dev
 
 ## Memoria Permanente
@@ -191,9 +237,22 @@ rules:
 # REGOLA CRITICA: MAI usare ->label()
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_1cE4e9
 ## Data: [DATE]
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_o9FR6Q
+## Data: [DATE]
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+## Data: [DATE]
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_PqdwZJ
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -207,6 +266,18 @@ rules:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 ## Data: 2025-01-06
+<<<<<<< .merge_file_1cE4e9
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+## Data: 2025-01-06
+=======
+## Data: [DATE]
+>>>>>>> .merge_file_q6WyYw
+>>>>>>> .merge_file_PqdwZJ
 >>>>>>> laraxot/dev
 
 ## ❌ ERRORE CRITICO - NON FARE MAI QUESTO
@@ -320,8 +391,19 @@ TextColumn::make('status')
 ## Checklist Pre-Implementazione
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_1cE4e9
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_o9FR6Q
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_PqdwZJ
 ### Prima di usare qualsiasi componente Filament:
 ### Prima di usare qualsiasi componente Filament:
 =======
@@ -347,6 +429,18 @@ TextColumn::make('status')
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_1cE4e9
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+### Prima di usare qualsiasi componente Filament:
+### Prima di usare qualsiasi componente Filament:
+=======
+>>>>>>> .merge_file_q6WyYw
+>>>>>>> .merge_file_PqdwZJ
 >>>>>>> laraxot/dev
 ### Prima di usare un componente Filament:
 - [ ] Implementare traduzioni in `lang/it/fields.php`
@@ -360,8 +454,19 @@ TextColumn::make('status')
 - [ ] Controllare che tutte le traduzioni siano implementate
 - [ ] Testare che le traduzioni funzionino correttamente
 <<<<<<< HEAD
+<<<<<<< .merge_file_1cE4e9
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_o9FR6Q
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_PqdwZJ
 Prima di usare qualsiasi componente Filament:
 
 
@@ -391,7 +496,22 @@ Prima di usare qualsiasi componente Filament:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_1cE4e9
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+Prima di usare qualsiasi componente Filament:
+
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_q6WyYw
+>>>>>>> .merge_file_PqdwZJ
 - [ ] Implementare traduzioni in `lang/it/fields.php`
 - [ ] Implementare traduzioni in `lang/en/fields.php`
 - [ ] Implementare traduzioni in `lang/de/fields.php`
@@ -405,6 +525,14 @@ Prima di usare qualsiasi componente Filament:
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_1cE4e9
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_PqdwZJ
 
 =======
 <<<<<<< HEAD
@@ -425,6 +553,13 @@ Prima di usare qualsiasi componente Filament:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< .merge_file_1cE4e9
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_PqdwZJ
 >>>>>>> laraxot/dev
 ## Verifica Automatica
 
@@ -459,12 +594,39 @@ rules:
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_1cE4e9
+=======
+<<<<<<< .merge_file_o9FR6Q
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+- [Translation Standards](../../../docs/translation-standards.md)
+- [Filament Best Practices](../../../docs/filament-best-practices.md)
+- [LangServiceProvider Documentation](../../../docs/lang-service-provider.md)
+=======
+>>>>>>> .merge_file_q6WyYw
+>>>>>>> .merge_file_PqdwZJ
 - [Translation Standards](../../../../docs/translation-standards.md)
 - [Filament Best Practices](../../../../docs/filament-best-practices.md)
 - [LangServiceProvider Documentation](../../../../docs/lang-service-provider.md)
+>>>>>>> laraxot/dev
 
 ## Memoria Permanente
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+- [Translation Standards](../../../docs/translation-standards.md)
+- [Filament Best Practices](../../../docs/filament-best-practices.md)
+- [LangServiceProvider Documentation](../../../docs/lang-service-provider.md)
+
+## Memoria Permanente
+
+<<<<<<< .merge_file_1cE4e9
 =======
 - [Translation Standards](../../../docs/translation-standards.md)
 - [Filament Best Practices](../../../docs/filament-best-practices.md)
@@ -472,11 +634,20 @@ rules:
 
 ## Memoria Permanente
 
+=======
+>>>>>>> .merge_file_PqdwZJ
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_1cE4e9
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_PqdwZJ
 >>>>>>> laraxot/dev
 **RICORDA SEMPRE**:
 
@@ -491,7 +662,17 @@ rules:
 - SEMPRE testare le traduzioni prima del commit
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_1cE4e9
 =======
+=======
+<<<<<<< .merge_file_o9FR6Q
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_PqdwZJ
 *Ultimo aggiornamento: 2025-01-06*
 <<<<<<< HEAD
 =======
@@ -503,6 +684,12 @@ rules:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_1cE4e9
+=======
+=======
+*Ultimo aggiornamento: 2025-01-06*
+>>>>>>> .merge_file_q6WyYw
+>>>>>>> .merge_file_PqdwZJ
 **RICORDA SEMPRE**: 
 **RICORDA SEMPRE**:
 - MAI usare `->label()` in componenti Filament
@@ -514,6 +701,10 @@ rules:
 *Ultimo aggiornamento: 2025-01-06*
 *Ultimo aggiornamento: 2025-01-06*
 
+<<<<<<< .merge_file_1cE4e9
+=======
+<<<<<<< .merge_file_o9FR6Q
+>>>>>>> .merge_file_PqdwZJ
 <<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06*
 =======
@@ -524,12 +715,22 @@ rules:
 *Ultimo aggiornamento: 2025-01-06*
 =======
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_1cE4e9
+=======
+=======
+*Ultimo aggiornamento: 2025-01-06*
+>>>>>>> .merge_file_q6WyYw
+>>>>>>> .merge_file_PqdwZJ
 **RICORDA SEMPRE**:
 - MAI usare `->label()` in componenti Filament
 - SEMPRE implementare traduzioni nei file `lang/`
 - SEMPRE struttura espansa (label, placeholder, tooltip, helper_text)
 - SEMPRE sincronizzare IT/EN/DE
 - SEMPRE testare le traduzioni prima del commit
+<<<<<<< .merge_file_1cE4e9
+=======
+<<<<<<< .merge_file_o9FR6Q
+>>>>>>> .merge_file_PqdwZJ
 <<<<<<< HEAD
 =======
 
@@ -544,4 +745,14 @@ rules:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_1cE4e9
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> .merge_file_q6WyYw
+>>>>>>> .merge_file_PqdwZJ
 >>>>>>> laraxot/dev

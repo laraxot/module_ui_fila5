@@ -1,5 +1,11 @@
 ---
 <<<<<<< HEAD
+<<<<<<< .merge_file_66zYOD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_7EuwCd
 title: "UI Module - PHPStan Type Compliance"
 type: concept
 tags: [ui, phpstan, types, compliance, quality, static-analysis]
@@ -130,6 +136,11 @@ vendor/bin/pest laravel/Modules/UI/tests --parallel
 **Maintainer**: Dev Agent 3  
 **Last Updated**: 2026-06-10  
 **Status**: GREEN
+<<<<<<< .merge_file_66zYOD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_7EuwCd
 =======
 title: "UI — Mockery fluente sotto PHPStan"
 type: concept
@@ -192,3 +203,7 @@ cd laravel
 ./vendor/bin/phpstan analyse Modules
 ```
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_66zYOD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_7EuwCd

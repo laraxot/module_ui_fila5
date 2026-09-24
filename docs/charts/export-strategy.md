@@ -1,5 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_AbQU7y
 =======
+=======
+<<<<<<< .merge_file_CnQeD4
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ENbuD7
+>>>>>>> .merge_file_eK7Wim
 ---
 title: "Chart Export Strategy (PNG/SVG)"
 type: concept
@@ -7,6 +19,10 @@ tags: [export, strategy]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "export-strategy chart export strategy (png/svg)"
+<<<<<<< .merge_file_AbQU7y
+=======
+<<<<<<< .merge_file_CnQeD4
+>>>>>>> .merge_file_eK7Wim
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -19,6 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_AbQU7y
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_ENbuD7
+>>>>>>> .merge_file_eK7Wim
 related:
   - "./chartjs-datalabels-multiple-labels-complete-guide.md"
   - "./chartjs-plugin-datalabels-filament5.md"
@@ -27,7 +52,20 @@ related:
   - "./shared-hosting-strategy.md"
 ---
 
+<<<<<<< .merge_file_AbQU7y
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_CnQeD4
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ENbuD7
+>>>>>>> .merge_file_eK7Wim
 # Chart Export Strategy (PNG/SVG)
 
 > **Goal**: Allow users to download Filament charts as images (PNG) or vectors (SVG) for reports.

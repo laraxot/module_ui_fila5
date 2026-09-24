@@ -437,10 +437,31 @@ IconService
 - **Framework Base**: [Xot Architecture Patterns](../../Xot/docs/architecture-patterns.md)
 - **Disabled Components**: [disabled-components.md](./disabled-components.md)
 <<<<<<< HEAD
+<<<<<<< .merge_file_Ftiwjk
+=======
+<<<<<<< .merge_file_oQJTGD
+=======
+- **Architecture Overview**: [architecture.md](./architecture.md)
+- **Index**: [index.md](./index.md)
+- **Design System**: [DESIGN_COMUNI_IMPLEMENTATION.md](./design-comuni-implementation.md)
+- **Icon Integration**: [BRANDS_ICONS_INTEGRATION.md](./brands-icons-integration.md)
+=======
+>>>>>>> .merge_file_IgLzej
+>>>>>>> .merge_file_1asNYX
 - **Architecture Overview**: [ARCHITECTURE.md](./ARCHITECTURE.md)
 - **Index**: [INDEX.md](./INDEX.md)
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_Ftiwjk
+=======
+<<<<<<< HEAD
+=======
+- **Architecture Overview**: [ARCHITECTURE.md](./ARCHITECTURE.md)
+- **Index**: [INDEX.md](./INDEX.md)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1asNYX
 - **Architecture Overview**: [ARCHITECTURE.md](./architecture.md)
 - **Index**: [INDEX.md](./index.md)
 - **Architecture Overview**: [ARCHITECTURE.md](./ARCHITECTURE.md)
@@ -465,9 +486,17 @@ IconService
 - **Index**: [index.md](./index.md)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_Ftiwjk
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1asNYX
 >>>>>>> laraxot/dev
 - **Design System**: [DESIGN_COMUNI_IMPLEMENTATION.md](./DESIGN_COMUNI_IMPLEMENTATION.md)
 - **Icon Integration**: [BRANDS_ICONS_INTEGRATION.md](./BRANDS_ICONS_INTEGRATION.md)
+>>>>>>> laraxot/dev
 
 ---
 

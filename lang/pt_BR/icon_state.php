@@ -2,13 +2,34 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_Vrj6A1
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_GS4RNl
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_5ZA2SO
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/pt_BR/icon_state.php
+<<<<<<< .merge_file_Vrj6A1
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_dxu32Z
+>>>>>>> .merge_file_5ZA2SO
 return [
     'fields' => [
         'name' => [

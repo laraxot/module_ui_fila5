@@ -141,14 +141,39 @@ Tutte le traduzioni seguono la struttura espansa:
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_zn9HBw
+=======
+<<<<<<< .merge_file_Z3wc97
+>>>>>>> .merge_file_rNlBiX
 - [Laraxot Translation Philosophy](../../xot/docs/translation-philosophy.md)
 - [Translation Standards](../../xot/docs/translation-standards.md)
 - [UI Module Documentation](../readme.md)
 =======
+<<<<<<< .merge_file_zn9HBw
+=======
+<<<<<<< HEAD
+- [Laraxot Translation Philosophy](../../xot/docs/translation-philosophy.md)
+- [Translation Standards](../../xot/docs/translation-standards.md)
+- [UI Module Documentation](../readme.md)
+=======
+>>>>>>> .merge_file_rNlBiX
 - [Laraxot Translation Philosophy](../../Xot/docs/translation-philosophy.md)
 - [Translation Standards](../../Xot/docs/translation-standards.md)
 - [UI Module Documentation](../README.md)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_zn9HBw
+=======
+=======
+- [Laraxot Translation Philosophy](../../Xot/docs/translation-philosophy.md)
+- [Translation Standards](../../Xot/docs/translation-standards.md)
+- [UI Module Documentation](../README.md)
+=======
+- [Laraxot Translation Philosophy](../../xot/docs/translation-philosophy.md)
+- [Translation Standards](../../xot/docs/translation-standards.md)
+- [UI Module Documentation](../readme.md)
+>>>>>>> .merge_file_BJD0Kx
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rNlBiX
 
 *Intervento completato il: 2026-01-22*
 *Conforme alle regole DRY + KISS*

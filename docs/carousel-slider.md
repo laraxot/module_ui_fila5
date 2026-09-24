@@ -1,5 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_grjXdn
 =======
+=======
+<<<<<<< .merge_file_jL6YAs
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_6l5m5g
+>>>>>>> .merge_file_gzGSXp
 ---
 title: 'Carousel slider — risorse esterne'
 module: UI
@@ -23,7 +35,20 @@ updated: 2026-08-24
 - <https://tw-elements.com/docs/standard/components/carousel/>
 - <https://keen-slider.io/examples>
 - <https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library>
+<<<<<<< .merge_file_grjXdn
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_jL6YAs
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_6l5m5g
+>>>>>>> .merge_file_gzGSXp
 https://www.embla-carousel.com/examples/predefined/
 
 
@@ -35,7 +60,19 @@ https://keen-slider.io/examples
 https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_grjXdn
 =======
+=======
+<<<<<<< .merge_file_jL6YAs
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_6l5m5g
+>>>>>>> .merge_file_gzGSXp
 
 
 ## Appendice — contenuto migrato
@@ -47,4 +84,17 @@ canonical: ../../../Themes/docs/shared-components/carousel-slider.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/carousel-slider.md
+<<<<<<< .merge_file_grjXdn
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_jL6YAs
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_6l5m5g
+>>>>>>> .merge_file_gzGSXp

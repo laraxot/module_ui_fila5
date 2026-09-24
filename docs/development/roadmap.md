@@ -1,5 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_wuVaRm
 =======
+=======
+<<<<<<< .merge_file_gmJdWe
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_osLjd2
+>>>>>>> .merge_file_j8lwjB
 ---
 title: "Roadmap Modulo UI"
 type: concept
@@ -7,6 +19,10 @@ tags: [roadmap]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "roadmap roadmap modulo ui"
+<<<<<<< .merge_file_wuVaRm
+=======
+<<<<<<< .merge_file_gmJdWe
+>>>>>>> .merge_file_j8lwjB
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -22,7 +38,26 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 ---
 
+<<<<<<< .merge_file_wuVaRm
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
+---
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_osLjd2
+>>>>>>> .merge_file_j8lwjB
 ### Versione HEAD
 
 # Roadmap Modulo UI
@@ -319,9 +354,29 @@ Overall Module Completion: 60%
 ### Component System Enhancement [75%]
 - [x] Base Components [docs/roadmap/components_base.md]
 <<<<<<< HEAD
+<<<<<<< .merge_file_wuVaRm
 - [x] Form Components [docs/roadmap/form_components.md]
 =======
 - [x] Form Components [docs/roadmap/form-components-2.md]
+=======
+<<<<<<< .merge_file_gmJdWe
+- [x] Form Components [docs/roadmap/form_components.md]
+=======
+<<<<<<< HEAD
+- [x] Form Components [docs/roadmap/form-components-2.md]
+=======
+<<<<<<< HEAD
+- [x] Form Components [docs/roadmap/form_components.md]
+=======
+- [x] Form Components [docs/roadmap/form-components-2.md]
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [x] Form Components [docs/roadmap/form-components-2.md]
+=======
+- [x] Form Components [docs/roadmap/form_components.md]
+>>>>>>> .merge_file_osLjd2
+>>>>>>> .merge_file_j8lwjB
 >>>>>>> laraxot/dev
 - [ ] Data Display Components [docs/roadmap/data_display.md]
 - [ ] Navigation Components [docs/roadmap/navigation.md]

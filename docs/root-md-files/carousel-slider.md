@@ -1,5 +1,13 @@
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_pAPkO6
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Rk78zW
 ---
 title: "Carousel Slider"
 type: concept
@@ -30,6 +38,13 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+<<<<<<< .merge_file_pAPkO6
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Rk78zW
 >>>>>>> laraxot/dev
 https://www.embla-carousel.com/examples/predefined/
 

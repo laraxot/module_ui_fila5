@@ -22,12 +22,25 @@ Gestione interfaccia utente, componenti, asset e frontend.
 ## Note
 <<<<<<< HEAD
 - Personalizza la configurazione per esigenze di frontend avanzato.
+<<<<<<< .merge_file_GBuj3S
+=======
+<<<<<<< .merge_file_CR5TYJ
+>>>>>>> .merge_file_p28mRl
 =======
 <<<<<<< HEAD
 - Personalizza la configurazione per esigenze di frontend avanzato.
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_GBuj3S
+=======
+=======
+- Personalizza la configurazione per esigenze di frontend avanzato.
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_p28mRl
 <<<<<<< HEAD
 - Personalizza la configurazione per esigenze di frontend avanzato.
 =======
@@ -40,6 +53,12 @@ Gestione interfaccia utente, componenti, asset e frontend.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - Personalizza la configurazione per esigenze di frontend avanzato.
+<<<<<<< .merge_file_GBuj3S
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_Tklubg
+>>>>>>> .merge_file_p28mRl
 # MCP Server Consigliati per il Modulo UI
 ## Scopo del Modulo
 Gestione interfaccia utente, componenti, asset e frontend.
@@ -58,6 +77,10 @@ Gestione interfaccia utente, componenti, asset e frontend.
 }
 ```
 ## Note
+<<<<<<< .merge_file_GBuj3S
+=======
+<<<<<<< .merge_file_CR5TYJ
+>>>>>>> .merge_file_p28mRl
 <<<<<<< HEAD
 =======
 - Personalizza la configurazione per esigenze di frontend avanzato.
@@ -76,4 +99,16 @@ Gestione interfaccia utente, componenti, asset e frontend.
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_GBuj3S
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Tklubg
+>>>>>>> .merge_file_p28mRl

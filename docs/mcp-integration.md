@@ -3,9 +3,22 @@
 ## Panoramica
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
 Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_<nome progetto>_fila5_mono.
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_914Sxr
+Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_<nome progetto>_fila5_mono.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_<nome progetto>_fila5_mono.
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2NOo4D
 Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_predict_fila3_mono.
 <<<<<<< HEAD
 Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_ptvx_fila5.
@@ -24,6 +37,15 @@ Questo documento fornisce linee guida per l'integrazione dei server MCP (Model C
 Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_predict_fila3_mono.
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
+<<<<<<< .merge_file_UWMyVZ
+=======
+=======
+Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_ptvx_fila5.
+=======
+Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_<nome progetto>_fila5_mono.
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ryj9nS
+>>>>>>> .merge_file_2NOo4D
 
 ## Server MCP Consigliati
 
@@ -74,6 +96,7 @@ class GenerateUIScreenshotsAction
     {
         $results = [];
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
         
 =======
 <<<<<<< HEAD
@@ -84,6 +107,18 @@ class GenerateUIScreenshotsAction
 >>>>>>> laraxot/dev
 =======
         
+=======
+        
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        
+=======
+
+>>>>>>> laraxot/dev
+=======
+        
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
         // Assicurati che la directory di output esista
@@ -95,12 +130,21 @@ class GenerateUIScreenshotsAction
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
         
 =======
 
 >>>>>>> laraxot/dev
 =======
         
+=======
+        
+=======
+
+>>>>>>> laraxot/dev
+=======
+        
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
         foreach ($routes as $route) {
@@ -109,6 +153,7 @@ class GenerateUIScreenshotsAction
                 $fileName = Str::slug($route) . '.png';
                 $outputPath = $outputDir . '/' . $fileName;
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
                 
 =======
 <<<<<<< HEAD
@@ -119,6 +164,18 @@ class GenerateUIScreenshotsAction
 >>>>>>> laraxot/dev
 =======
                 
+=======
+                
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                
+=======
+
+>>>>>>> laraxot/dev
+=======
+                
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
                 Log::info("Generating screenshot for route: {$route}", [
@@ -130,12 +187,21 @@ class GenerateUIScreenshotsAction
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
                 
 =======
 
 >>>>>>> laraxot/dev
 =======
                 
+=======
+                
+=======
+
+>>>>>>> laraxot/dev
+=======
+                
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
                 $screenshotPath = $this->mcpService->puppeteer()->captureScreenshot(
@@ -148,6 +214,7 @@ class GenerateUIScreenshotsAction
                     ], $options)
                 );
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
                 
 =======
 <<<<<<< HEAD
@@ -158,6 +225,18 @@ class GenerateUIScreenshotsAction
 >>>>>>> laraxot/dev
 =======
                 
+=======
+                
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                
+=======
+
+>>>>>>> laraxot/dev
+=======
+                
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
                 if ($screenshotPath) {
@@ -184,12 +263,21 @@ class GenerateUIScreenshotsAction
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
         
 =======
 
 >>>>>>> laraxot/dev
 =======
         
+=======
+        
+=======
+
+>>>>>>> laraxot/dev
+=======
+        
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
         return $results;
@@ -251,17 +339,37 @@ class ThemeFileService
             $content = $this->mcpService->filesystem()->readFile($fullPath);
             
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
 =======
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_914Sxr
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> .merge_file_ryj9nS
+>>>>>>> .merge_file_2NOo4D
 
         try {
             $content = $this->mcpService->filesystem()->readFile($fullPath);
 
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< .merge_file_914Sxr
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
+<<<<<<< .merge_file_UWMyVZ
+=======
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ryj9nS
+>>>>>>> .merge_file_2NOo4D
             return $content ?: null;
         } catch (\Exception $e) {
             Log::error("Failed to read theme file", [
@@ -270,6 +378,7 @@ class ThemeFileService
                 'message' => $e->getMessage()
             ]);
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
             
 =======
 <<<<<<< HEAD
@@ -280,6 +389,18 @@ class ThemeFileService
 >>>>>>> laraxot/dev
 =======
             
+=======
+            
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            
+=======
+
+>>>>>>> laraxot/dev
+=======
+            
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
             return null;
@@ -303,12 +424,21 @@ class ThemeFileService
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
         
 =======
 
 >>>>>>> laraxot/dev
 =======
         
+=======
+        
+=======
+
+>>>>>>> laraxot/dev
+=======
+        
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
         try {
@@ -318,6 +448,7 @@ class ThemeFileService
                 mkdir($directory, 0755, true);
             }
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
             
 =======
 <<<<<<< HEAD
@@ -328,6 +459,18 @@ class ThemeFileService
 >>>>>>> laraxot/dev
 =======
             
+=======
+            
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            
+=======
+
+>>>>>>> laraxot/dev
+=======
+            
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
             return $this->mcpService->filesystem()->writeFile($fullPath, $content);
@@ -342,12 +485,21 @@ class ThemeFileService
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
             
 =======
 
 >>>>>>> laraxot/dev
 =======
             
+=======
+            
+=======
+
+>>>>>>> laraxot/dev
+=======
+            
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
             return false;
@@ -378,18 +530,38 @@ class ThemeFileService
         }
         
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
 =======
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_914Sxr
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> .merge_file_ryj9nS
+>>>>>>> .merge_file_2NOo4D
 
         if ($directory) {
             $fullPath .= '/' . $directory;
         }
 
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< .merge_file_914Sxr
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
+<<<<<<< .merge_file_UWMyVZ
+=======
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ryj9nS
+>>>>>>> .merge_file_2NOo4D
         try {
             return $this->mcpService->filesystem()->listDirectory($fullPath);
         } catch (\Exception $e) {
@@ -403,12 +575,21 @@ class ThemeFileService
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
             
 =======
 
 >>>>>>> laraxot/dev
 =======
             
+=======
+            
+=======
+
+>>>>>>> laraxot/dev
+=======
+            
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
             return [];
@@ -474,6 +655,7 @@ class UICacheService
     {
         $cacheKey = $this->generateComponentCacheKey($componentName, $props);
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
         
 =======
 <<<<<<< HEAD
@@ -484,6 +666,18 @@ class UICacheService
 >>>>>>> laraxot/dev
 =======
         
+=======
+        
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        
+=======
+
+>>>>>>> laraxot/dev
+=======
+        
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
         try {
@@ -505,12 +699,21 @@ class UICacheService
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
             
 =======
 
 >>>>>>> laraxot/dev
 =======
             
+=======
+            
+=======
+
+>>>>>>> laraxot/dev
+=======
+            
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
             return false;
@@ -544,9 +747,18 @@ class UICacheService
             }
             
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
 =======
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_914Sxr
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> .merge_file_ryj9nS
+>>>>>>> .merge_file_2NOo4D
 
         try {
             $cached = $this->mcpService->redis()->get($cacheKey);
@@ -555,10 +767,21 @@ class UICacheService
                 return $cached['html'];
             }
 
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< .merge_file_914Sxr
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
+<<<<<<< .merge_file_UWMyVZ
+=======
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ryj9nS
+>>>>>>> .merge_file_2NOo4D
             return null;
         } catch (\Exception $e) {
             Log::error("Failed to get cached UI component", [
@@ -566,6 +789,7 @@ class UICacheService
                 'message' => $e->getMessage()
             ]);
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
             
 =======
 <<<<<<< HEAD
@@ -576,6 +800,18 @@ class UICacheService
 >>>>>>> laraxot/dev
 =======
             
+=======
+            
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            
+=======
+
+>>>>>>> laraxot/dev
+=======
+            
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
             return null;
@@ -611,9 +847,18 @@ class UICacheService
                 }
                 
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
 =======
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_914Sxr
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> .merge_file_ryj9nS
+>>>>>>> .merge_file_2NOo4D
 
             try {
                 $keys = $this->mcpService->redis()->keys($pattern);
@@ -622,10 +867,21 @@ class UICacheService
                     $this->mcpService->redis()->delete($key);
                 }
 
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< .merge_file_914Sxr
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
+<<<<<<< .merge_file_UWMyVZ
+=======
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ryj9nS
+>>>>>>> .merge_file_2NOo4D
                 return true;
             } catch (\Exception $e) {
                 Log::error("Failed to invalidate UI component cache", [
@@ -637,12 +893,21 @@ class UICacheService
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
                 
 =======
 
 >>>>>>> laraxot/dev
 =======
                 
+=======
+                
+=======
+
+>>>>>>> laraxot/dev
+=======
+                
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
                 return false;
@@ -651,6 +916,7 @@ class UICacheService
             // Invalida un componente specifico
             $cacheKey = $this->generateComponentCacheKey($componentName, $props);
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
             
 =======
 <<<<<<< HEAD
@@ -661,6 +927,18 @@ class UICacheService
 >>>>>>> laraxot/dev
 =======
             
+=======
+            
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            
+=======
+
+>>>>>>> laraxot/dev
+=======
+            
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
             try {
@@ -675,12 +953,21 @@ class UICacheService
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
                 
 =======
 
 >>>>>>> laraxot/dev
 =======
                 
+=======
+                
+=======
+
+>>>>>>> laraxot/dev
+=======
+                
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
                 return false;
@@ -700,6 +987,7 @@ class UICacheService
     {
         $propsHash = md5(json_encode($props));
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
         
 =======
 <<<<<<< HEAD
@@ -710,6 +998,18 @@ class UICacheService
 >>>>>>> laraxot/dev
 =======
         
+=======
+        
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        
+=======
+
+>>>>>>> laraxot/dev
+=======
+        
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
         return "ui_component_{$componentName}_{$propsHash}";
@@ -766,12 +1066,21 @@ class AnalyzeUIAccessibilityAction
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
             
 =======
 
 >>>>>>> laraxot/dev
 =======
             
+=======
+            
+=======
+
+>>>>>>> laraxot/dev
+=======
+            
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
             if (!$html) {
@@ -779,6 +1088,7 @@ class AnalyzeUIAccessibilityAction
                     'url' => $url
                 ]);
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
                 
 =======
 <<<<<<< HEAD
@@ -789,6 +1099,18 @@ class AnalyzeUIAccessibilityAction
 >>>>>>> laraxot/dev
 =======
                 
+=======
+                
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+                
+=======
+
+>>>>>>> laraxot/dev
+=======
+                
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
                 return new UIAnalysisData(
@@ -802,12 +1124,21 @@ class AnalyzeUIAccessibilityAction
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
             
 =======
 
 >>>>>>> laraxot/dev
 =======
             
+=======
+            
+=======
+
+>>>>>>> laraxot/dev
+=======
+            
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
             // Analizza l'accessibilità con sequential-thinking
@@ -828,18 +1159,38 @@ class AnalyzeUIAccessibilityAction
             $suggestions = $analysis['accessibility']['suggestions'] ?? [];
             
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
 =======
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_914Sxr
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> .merge_file_ryj9nS
+>>>>>>> .merge_file_2NOo4D
 
             $accessibilityScore = $analysis['accessibility']['score'] ?? 0;
             $accessibilityIssues = $analysis['accessibility']['issues'] ?? [];
             $suggestions = $analysis['accessibility']['suggestions'] ?? [];
 
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< .merge_file_914Sxr
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
+<<<<<<< .merge_file_UWMyVZ
+=======
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ryj9nS
+>>>>>>> .merge_file_2NOo4D
             return new UIAnalysisData(
                 score: $accessibilityScore,
                 issues: $accessibilityIssues,
@@ -856,12 +1207,21 @@ class AnalyzeUIAccessibilityAction
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
             
 =======
 
 >>>>>>> laraxot/dev
 =======
             
+=======
+            
+=======
+
+>>>>>>> laraxot/dev
+=======
+            
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
             return new UIAnalysisData(
@@ -896,6 +1256,7 @@ class CachedUIComponent extends Component
      */
     public string $componentName;
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
     
 =======
 <<<<<<< HEAD
@@ -906,6 +1267,18 @@ class CachedUIComponent extends Component
 >>>>>>> laraxot/dev
 =======
     
+=======
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
     /**
@@ -917,12 +1290,21 @@ class CachedUIComponent extends Component
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
     
 =======
 
 >>>>>>> laraxot/dev
 =======
     
+=======
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
     /**
@@ -930,6 +1312,7 @@ class CachedUIComponent extends Component
      */
     public int $cacheTtl = 3600;
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
     
 =======
 <<<<<<< HEAD
@@ -940,6 +1323,18 @@ class CachedUIComponent extends Component
 >>>>>>> laraxot/dev
 =======
     
+=======
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
     /**
@@ -951,12 +1346,21 @@ class CachedUIComponent extends Component
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
     
 =======
 
 >>>>>>> laraxot/dev
 =======
     
+=======
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
     /**
@@ -975,6 +1379,7 @@ class CachedUIComponent extends Component
         $this->cacheTtl = $cacheTtl;
     }
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
     
 =======
 <<<<<<< HEAD
@@ -985,6 +1390,18 @@ class CachedUIComponent extends Component
 >>>>>>> laraxot/dev
 =======
     
+=======
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
     /**
@@ -1001,12 +1418,21 @@ class CachedUIComponent extends Component
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
     
 =======
 
 >>>>>>> laraxot/dev
 =======
     
+=======
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
     /**
@@ -1044,9 +1470,18 @@ class CachedUIComponent extends Component
         }
         
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
 =======
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_914Sxr
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> .merge_file_ryj9nS
+>>>>>>> .merge_file_2NOo4D
 
         /** @var UICacheService $uiCacheService */
         $uiCacheService = app(UICacheService::class);
@@ -1065,10 +1500,21 @@ class CachedUIComponent extends Component
             $uiCacheService->cacheComponent($this->componentName, $this->componentProps, $html, $this->cacheTtl);
         }
 
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< .merge_file_914Sxr
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
+<<<<<<< .merge_file_UWMyVZ
+=======
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ryj9nS
+>>>>>>> .merge_file_2NOo4D
         return view('ui::livewire.cached-ui-component', [
             'html' => $html
         ]);
@@ -1110,18 +1556,38 @@ $analyze = function () {
         $analyzeAction = app(AnalyzeUIAccessibilityAction::class);
         
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
 =======
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_914Sxr
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> .merge_file_ryj9nS
+>>>>>>> .merge_file_2NOo4D
 
     try {
         /** @var AnalyzeUIAccessibilityAction $analyzeAction */
         $analyzeAction = app(AnalyzeUIAccessibilityAction::class);
 
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< .merge_file_914Sxr
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
+<<<<<<< .merge_file_UWMyVZ
+=======
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ryj9nS
+>>>>>>> .merge_file_2NOo4D
         $this->analysisResult = $analyzeAction->execute($this->url);
     } catch (\Exception $e) {
         $this->addError('analysis', $e->getMessage());
@@ -1149,12 +1615,21 @@ $analyze = function () {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
     
 =======
 
 >>>>>>> laraxot/dev
 =======
     
+=======
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
     @if($analysisResult)
@@ -1228,6 +1703,10 @@ $analyze = function () {
 ## Conclusione
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< .merge_file_914Sxr
+>>>>>>> .merge_file_2NOo4D
 L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_predict_fila3_mono.
 =======
 <<<<<<< HEAD
@@ -1245,6 +1724,13 @@ Questo documento fornisce linee guida per l'integrazione dei server MCP (Model C
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> laraxot/dev
 
 ## Server MCP Consigliati
@@ -1395,10 +1881,25 @@ class ThemeFileService
             
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2NOo4D
 
         try {
             $content = $this->mcpService->filesystem()->readFile($fullPath);
 
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> laraxot/dev
             return $content ?: null;
         } catch (\Exception $e) {
@@ -1462,11 +1963,26 @@ class ThemeFileService
         
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2NOo4D
 
         if ($directory) {
             $fullPath .= '/' . $directory;
         }
 
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> laraxot/dev
         try {
             return $this->mcpService->filesystem()->listDirectory($fullPath);
@@ -1580,6 +2096,14 @@ class UICacheService
             
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2NOo4D
 
         try {
             $cached = $this->mcpService->redis()->get($cacheKey);
@@ -1588,6 +2112,13 @@ class UICacheService
                 return $cached['html'];
             }
 
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> laraxot/dev
             return null;
         } catch (\Exception $e) {
@@ -1623,6 +2154,14 @@ class UICacheService
                 
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2NOo4D
 
             try {
                 $keys = $this->mcpService->redis()->keys($pattern);
@@ -1631,6 +2170,13 @@ class UICacheService
                     $this->mcpService->redis()->delete($key);
                 }
 
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> laraxot/dev
                 return true;
             } catch (\Exception $e) {
@@ -1744,11 +2290,26 @@ class AnalyzeUIAccessibilityAction
             
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2NOo4D
 
             $accessibilityScore = $analysis['accessibility']['score'] ?? 0;
             $accessibilityIssues = $analysis['accessibility']['issues'] ?? [];
             $suggestions = $analysis['accessibility']['suggestions'] ?? [];
 
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> laraxot/dev
             return new UIAnalysisData(
                 score: $accessibilityScore,
@@ -1864,6 +2425,14 @@ class CachedUIComponent extends Component
         
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2NOo4D
 
         /** @var UICacheService $uiCacheService */
         $uiCacheService = app(UICacheService::class);
@@ -1882,6 +2451,13 @@ class CachedUIComponent extends Component
             $uiCacheService->cacheComponent($this->componentName, $this->componentProps, $html, $this->cacheTtl);
         }
 
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> laraxot/dev
         return view('ui::livewire.cached-ui-component', [
             'html' => $html
@@ -1918,11 +2494,26 @@ $analyze = function () {
         
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2NOo4D
 
     try {
         /** @var AnalyzeUIAccessibilityAction $analyzeAction */
         $analyzeAction = app(AnalyzeUIAccessibilityAction::class);
 
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> laraxot/dev
         $this->analysisResult = $analyzeAction->execute($this->url);
     } catch (\Exception $e) {
@@ -2021,6 +2612,15 @@ $analyze = function () {
 L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_<nome progetto>_fila5_mono.
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< HEAD
+=======
+L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_<nome progetto>_fila5_mono.
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2NOo4D
 =======
 <<<<<<< HEAD
 L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_predict_fila3_mono.
@@ -2389,4 +2989,16 @@ L'integrazione dei server MCP con il modulo UI consente di migliorare significat
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_UWMyVZ
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_ptvx_fila5.
+=======
+L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_<nome progetto>_fila5_mono.
+>>>>>>> .merge_file_ryj9nS
+>>>>>>> .merge_file_2NOo4D
 >>>>>>> laraxot/dev

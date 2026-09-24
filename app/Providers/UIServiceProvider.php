@@ -13,17 +13,48 @@ use Modules\Xot\Providers\XotBaseServiceProvider;
  * Nota: la registrazione dei Blade components modulari avviene tramite GetModulePathByGeneratorAction
  * per garantire la corretta risoluzione dei path secondo la struttura dei moduli.
  *
+<<<<<<< .merge_file_tWROep
+=======
+<<<<<<< .merge_file_mOdQhK
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+ * Nessun binding Geo/Map/Location: dominio geografico non appartiene a UI
+ * (vedi docs/geo-boundary.md). In questo progetto il modulo Geo non è presente.
+ *
+=======
+>>>>>>> .merge_file_oAto5c
 <<<<<<< HEAD
 =======
  * Nessun binding Geo/Map/Location: dominio geografico non appartiene a UI
  * (vedi docs/geo-boundary.md). In questo progetto il modulo Geo non è presente.
  *
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_tWROep
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+ * Nessun binding Geo/Map/Location: dominio geografico non appartiene a UI
+ * (vedi docs/geo-boundary.md). In questo progetto il modulo Geo non è presente.
+ *
+>>>>>>> .merge_file_AluPX9
+>>>>>>> .merge_file_oAto5c
  * @phpstan-type ModuleConfig array{name: string, alias: string, description: string, keywords: array<int, string>, priority: int, providers: array<int, class-string>}
  */
 class UIServiceProvider extends XotBaseServiceProvider
 {
 <<<<<<< HEAD
+<<<<<<< .merge_file_tWROep
+=======
+=======
+<<<<<<< HEAD
+    public string $name = 'UI';
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_oAto5c
     /**
      * Nome del modulo.
      */
@@ -32,16 +63,35 @@ class UIServiceProvider extends XotBaseServiceProvider
     /**
      * Directory del modulo.
      */
+<<<<<<< .merge_file_tWROep
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_oAto5c
 =======
     public string $name = 'UI';
 
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_tWROep
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_oAto5c
     protected string $module_dir = __DIR__;
 
     protected string $module_ns = __NAMESPACE__;
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_tWROep
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_oAto5c
     /**
+<<<<<<< .merge_file_mOdQhK
      * Registra i servizi del provider.
      *
      * Lega i contratti mappa/geocoding ai fallback Null di default. Quando il
@@ -54,11 +104,19 @@ class UIServiceProvider extends XotBaseServiceProvider
 
         $this->app->singleton(
             \Modules\UI\Contracts\MapServiceContract::class,
+<<<<<<< HEAD
+            \Modules\UI\Services\Map\NullMapService::class,
+        );
+        $this->app->singleton(
+            \Modules\UI\Contracts\GeocodingServiceContract::class,
+            \Modules\UI\Services\Map\NullGeocodingService::class,
+=======
             \Modules\UI\Adapters\Map\NullMapServiceAdapter::class,
         );
         $this->app->singleton(
             \Modules\UI\Contracts\GeocodingServiceContract::class,
             \Modules\UI\Adapters\Map\NullGeocodingServiceAdapter::class,
+>>>>>>> laraxot/dev
         );
     }
 
@@ -71,9 +129,19 @@ class UIServiceProvider extends XotBaseServiceProvider
      */
 
     /**
+=======
+>>>>>>> .merge_file_AluPX9
      * Restituisce il percorso delle viste dei componenti UI.
      */
+<<<<<<< .merge_file_tWROep
 =======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_oAto5c
 >>>>>>> laraxot/dev
     public function getComponentViewPath(): string
     {

@@ -2,13 +2,34 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_dKWBWF
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_j45KzN
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fPP5Sp
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/en/datepicker.php
+<<<<<<< .merge_file_dKWBWF
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_XEdsd7
+>>>>>>> .merge_file_fPP5Sp
 return [
     'months' => [
         0 => 'January',

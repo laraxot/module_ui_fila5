@@ -4,19 +4,51 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
+<<<<<<< .merge_file_SJ7e4Z
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_tAb9DZ
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9JyND3
 use Filament\Forms\Components\Radio;
+=======
+>>>>>>> .merge_file_Oxn4QX
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
+use Modules\Xot\Filament\Forms\Components\XotBaseRadio;
 
+<<<<<<< .merge_file_tAb9DZ
 class RadioBadge extends Radio
+<<<<<<< .merge_file_SJ7e4Z
 =======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9JyND3
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 use Modules\Xot\Filament\Forms\Components\XotBaseRadio;
 
 class RadioBadge extends XotBaseRadio
+<<<<<<< .merge_file_SJ7e4Z
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+class RadioBadge extends XotBaseRadio
+>>>>>>> .merge_file_Oxn4QX
+>>>>>>> .merge_file_9JyND3
 {
     protected string $view = 'ui::filament.forms.components.radio-badge';
 

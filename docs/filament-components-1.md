@@ -58,8 +58,17 @@
 <<<<<<< HEAD
 4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
 =======
+<<<<<<< .merge_file_DVrkfZ
 4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti 
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
+=======
+4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti 
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ODGW6o
 ## Collegamenti tra versioni di filament-components.md
 * [filament-components.md](../../User/docs/best-practices/filament-components.md)
 * [filament-components.md](../../Cms/docs/best-practices/filament-components.md)

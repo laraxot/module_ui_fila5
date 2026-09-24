@@ -1,4 +1,14 @@
+<<<<<<< .merge_file_ltgiOZ
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_OXmyUC
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_APo6pP
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -17,12 +27,22 @@
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
+<<<<<<< .merge_file_ltgiOZ
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_kjsTLm
+>>>>>>> .merge_file_APo6pP
 <?php
 
 declare(strict_types=1);
-
 ?>
 @props([
     'title' => 'title 1',

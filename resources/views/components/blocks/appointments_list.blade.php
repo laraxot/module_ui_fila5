@@ -1,4 +1,14 @@
+<<<<<<< .merge_file_mmKz5M
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_oGr8rg
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Lxhwew
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -16,12 +26,22 @@
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
+<<<<<<< .merge_file_mmKz5M
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_zD1SAk
+>>>>>>> .merge_file_Lxhwew
 <?php
 
 declare(strict_types=1);
-
 ?>
 @props(['title' => 'Appuntamenti'])
 

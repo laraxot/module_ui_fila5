@@ -1,5 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_9QcUkS
 =======
+=======
+<<<<<<< .merge_file_ZncLhk
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_8q3JrM
+>>>>>>> .merge_file_QnRK6t
 ---
 title: "Navbar"
 type: concept
@@ -7,6 +19,10 @@ tags: [navbar]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "navbar navbar"
+<<<<<<< .merge_file_9QcUkS
+=======
+<<<<<<< .merge_file_ZncLhk
+>>>>>>> .merge_file_QnRK6t
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -19,6 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_9QcUkS
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_8q3JrM
+>>>>>>> .merge_file_QnRK6t
 related:
   - "./api-1.md"
   - "./api.md"
@@ -30,7 +55,20 @@ related:
   - "./changelog-2.md"
 ---
 
+<<<<<<< .merge_file_9QcUkS
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_ZncLhk
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_8q3JrM
+>>>>>>> .merge_file_QnRK6t
 https://tw-elements.com/docs/standard/navigation/navbar/
 
 https://flowbite.com/docs/components/navbar/

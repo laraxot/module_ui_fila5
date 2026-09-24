@@ -6,7 +6,19 @@ canonical: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 <<<<<<< HEAD
+<<<<<<< .merge_file_pBdh1b
 =======
+=======
+<<<<<<< .merge_file_SbkXCl
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_q6ahf0
+>>>>>>> .merge_file_EhyZ4k
 
 ---
 
@@ -19,4 +31,17 @@ canonical: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
+<<<<<<< .merge_file_pBdh1b
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_SbkXCl
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_q6ahf0
+>>>>>>> .merge_file_EhyZ4k
