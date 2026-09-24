@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 return [
+<<<<<<< HEAD
     'values' => [
         'list' => [
             'label' => 'Liste',
@@ -17,6 +18,8 @@ return [
             'description' => 'Grille',
         ],
     ],
+=======
+>>>>>>> laraxot/dev
     'actions' => [
         'toggle' => [
             'label' => 'Basculer la disposition',

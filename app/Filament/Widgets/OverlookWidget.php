@@ -1,13 +1,20 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 /**
  * @see https://github.com/awcodes/overlook/blob/2.x/src/Widgets/OverlookWidget.php
  */
 
 namespace Modules\UI\Filament\Widgets;
 
+<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
+=======
+>>>>>>> laraxot/dev
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 final class OverlookWidget extends XotBaseSchemaWidget
@@ -30,13 +37,21 @@ final class OverlookWidget extends XotBaseSchemaWidget
     /** @var array<int, array<string, mixed>> */
     public array $stats = [];
 
+<<<<<<< HEAD
+=======
+    /** @phpstan-var view-string */
+    /** @phpstan-ignore property.defaultValue */
+>>>>>>> laraxot/dev
     protected string $view = 'ui::filament.widgets.overlook';
 
     protected int|string|array $columnSpan = 1;
 
+<<<<<<< HEAD
     /**
      * @return array<string, Component>
      */
+=======
+>>>>>>> laraxot/dev
     public function getFormSchema(): array
     {
         return [];

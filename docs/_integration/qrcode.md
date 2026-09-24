@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "qrcode"
 type: concept
@@ -20,6 +21,8 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # qrcode
 
 <!-- Contenuto migrato da _docs/qrcode.txt -->

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Custom Firm Fields"
 type: concept
@@ -20,6 +21,8 @@ related:
   - "./changelog-2.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 https://github.com/tanthammar/filament-extras
 
 

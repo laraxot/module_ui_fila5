@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "carousel_slider"
 type: concept
@@ -23,4 +24,27 @@ related:
 https://www.embla-carousel.com/examples/predefined/
 https://tw-elements.com/docs/standard/components/carousel/
 https://keen-slider.io/examples
+=======
+# carousel_slider
+
+<!-- Contenuto migrato da _docs/carousel_slider.txt -->
+
+https://www.embla-carousel.com/examples/predefined/
+
+https://tw-elements.com/docs/standard/components/carousel/
+
+https://keen-slider.io/examples
+
+https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
+# carousel_slider
+
+<!-- Contenuto migrato da _docs/carousel_slider.txt -->
+
+https://www.embla-carousel.com/examples/predefined/
+
+https://tw-elements.com/docs/standard/components/carousel/
+
+https://keen-slider.io/examples
+
+>>>>>>> laraxot/dev
 https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library

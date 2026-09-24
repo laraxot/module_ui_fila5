@@ -5,6 +5,7 @@ canonical: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+<<<<<<< HEAD
 
 
 ---
@@ -20,3 +21,5 @@ related:
   - "./overview.md"
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+=======
+>>>>>>> laraxot/dev

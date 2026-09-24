@@ -197,8 +197,12 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
 - [ ] **AI-Powered Components**
   - Smart forms
   - Auto-completion
+<<<<<<< HEAD
   - Predictive inputs
   - forecastive inputs
+=======
+  - <nome progetto>ive inputs
+>>>>>>> laraxot/dev
 
 - [ ] **Real-Time Components**
   - Live updates
@@ -275,7 +279,11 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
 
 ## 🔗 Collegamenti
 
+<<<<<<< HEAD
 - [← UI Module README](../README.md)
+=======
+- [← UI Module README](../readme.md)
+>>>>>>> laraxot/dev
 - [← Components Documentation](./components.md)
 - [← Project Roadmap](../../../docs/project-analysis-and-roadmap.md)
 - [← Root Documentation](../../../docs/index.md)

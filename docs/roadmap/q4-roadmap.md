@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "UI Module Roadmap (2025 Q4)"
 type: concept
@@ -20,6 +21,8 @@ related:
   - "./03-later.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # UI Module Roadmap (2025 Q4)
 
 ## Vision & Scope
@@ -33,7 +36,11 @@ related:
 ## Milestones
 - [ ] Audit Filament v4 changes in components/pages
 - [ ] Replace labels with translations (expanded structure)
+<<<<<<< HEAD
 - [ ] Optimize icons/assets; document in `docs/paths-and-assets-2.md`
+=======
+- [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
+>>>>>>> laraxot/dev
 - [ ] Strengthen tests for critical widgets
 
 ## Acceptance Criteria
@@ -53,7 +60,11 @@ related:
 ## Milestones
 - [ ] Audit Filament v4 changes in components/pages
 - [ ] Replace labels with translations (expanded structure)
+<<<<<<< HEAD
 - [ ] Optimize icons/assets; document in `docs/paths-and-assets-2.md`
+=======
+- [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
+>>>>>>> laraxot/dev
 - [ ] Strengthen tests for critical widgets
 
 ## Acceptance Criteria

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Widgets"
 type: concept
@@ -20,4 +21,6 @@ related:
   - "./changelog-2.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/

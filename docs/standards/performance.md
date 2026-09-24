@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Standard di Performance"
 type: concept
@@ -18,6 +19,8 @@ related:
   - "./ui-standards.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # Standard di Performance
 
 ## 🚀 Metriche Core Web Vitals

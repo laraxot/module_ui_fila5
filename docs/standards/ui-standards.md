@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Standard UI"
 type: rule
@@ -18,6 +19,8 @@ related:
   - "./performance.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # Standard UI
 
 ## 🎨 Design System

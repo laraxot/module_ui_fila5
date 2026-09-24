@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "widgets"
 type: concept
@@ -20,6 +21,8 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # widgets
 
 <!-- Contenuto migrato da _docs/widgets.txt -->

@@ -18,11 +18,26 @@ final class UiCoverageNamedState implements StateContract
 
     /** @param array<array-key, mixed>|Model|string|null $record */
     /**
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
      * @param  Model|array<string, mixed>|string|null  $record
      */
     public function __construct(
         public Model|array|string|null $record = null,
     ) {}
+<<<<<<< HEAD
+=======
+=======
+     * @param Model|array<string, mixed>|string|null $record
+     */
+    public function __construct(
+        public Model|array|string|null $record = null,
+    ) {
+    }
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
     public function label(): string
     {
@@ -67,7 +82,17 @@ final class UiCoverageNamedState implements StateContract
     }
 
     /** @param  array<string, mixed>  $data */
+<<<<<<< HEAD
     public function modalActionByRecord(Model $record, array $data): void {}
+=======
+<<<<<<< HEAD
+    public function modalActionByRecord(Model $record, array $data): void {}
+=======
+    public function modalActionByRecord(Model $record, array $data): void
+    {
+    }
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
     /** @return list<string> */
     public function transitionableStates(): array
@@ -80,7 +105,17 @@ final class UiCoverageNamedState implements StateContract
         return true;
     }
 
+<<<<<<< HEAD
     public function transitionTo(string $state, ?string $message = null): void {}
+=======
+<<<<<<< HEAD
+    public function transitionTo(string $state, ?string $message = null): void {}
+=======
+    public function transitionTo(string $state, ?string $message = null): void
+    {
+    }
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
     /** @return Collection<string, string> */
     public static function getStateMapping(): Collection

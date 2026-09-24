@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "UI Activity Log"
 type: concept
@@ -14,6 +15,8 @@ related:
   - "./index.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # UI Activity Log
 
 > **Module**: UI

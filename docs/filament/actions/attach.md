@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Attach"
 type: concept
@@ -13,6 +14,8 @@ related:
   - "./pdf.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 ```php
 AttachAction::make()->modifyRecordSelectUsing(
 fn ($select) => $select->getOptionLabelFromRecordUsing(fn ($record) => $record->name . ' ' . $record->organization)

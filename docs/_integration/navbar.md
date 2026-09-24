@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "navbar"
 type: concept
@@ -20,6 +21,8 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # navbar
 
 <!-- Contenuto migrato da _docs/navbar.txt -->

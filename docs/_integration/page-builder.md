@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "page_builder"
 type: concept
@@ -20,4 +21,15 @@ related:
 
 # page_builder
 <!-- Contenuto migrato da _docs/page_builder.txt -->
+=======
+# page_builder
+
+<!-- Contenuto migrato da _docs/page_builder.txt -->
+
+https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
+# page_builder
+
+<!-- Contenuto migrato da _docs/page_builder.txt -->
+
+>>>>>>> laraxot/dev
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891

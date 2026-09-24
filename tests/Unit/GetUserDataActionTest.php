@@ -6,6 +6,7 @@ namespace Modules\UI\Tests\Unit;
 
 use Illuminate\Auth\GenericUser;
 use Illuminate\Contracts\Auth\Authenticatable;
+<<<<<<< HEAD
 use Illuminate\Foundation\Auth\User;
 use Illuminate\Support\Facades\Auth;
 use Modules\UI\Actions\GetUserDataAction;
@@ -13,6 +14,22 @@ use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 use Spatie\Permission\Models\Permission;
 use Spatie\Permission\Models\Role;
+=======
+use Illuminate\Support\Facades\Auth;
+use Modules\UI\Actions\GetUserDataAction;
+use Modules\UI\Tests\TestCase;
+<<<<<<< HEAD
+use Modules\Xot\Contracts\UserContract;
+use PHPUnit\Framework\Assert;
+use Spatie\Permission\Models\Permission;
+use Spatie\Permission\Models\Role;
+use Modules\User\Models\User;
+=======
+use PHPUnit\Framework\Assert;
+use Spatie\Permission\Models\Permission;
+use Spatie\Permission\Models\Role;
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 uses(TestCase::class);
 
@@ -24,6 +41,7 @@ uses(TestCase::class);
  * connessione. Non è una scorciatoia — è il modo di provare la logica dell'azione invece
  * della disponibilità del database.
  *
+<<<<<<< HEAD
  * @param  array<int, string>  $roles
  * @param  array<int, string>  $permissions
  * @param  array<string, mixed>  $attributes
@@ -34,13 +52,41 @@ function uiAuthUser(array $roles = [], array $permissions = [], array $attribute
     {
         public ?object $profile = null;
 
+=======
+<<<<<<< HEAD
+ * @param  array<int, string>  $roles
+ * @param  array<int, string>  $permissions
+ * @param  array<string, mixed>  $attributes
+=======
+ * @param array<int, string>   $roles
+ * @param array<int, string>   $permissions
+ * @param array<string, mixed> $attributes
+>>>>>>> laraxot/dev
+ */
+function uiAuthUser(array $roles = [], array $permissions = [], array $attributes = []): Authenticatable
+{
+    $user = new class extends \Illuminate\Foundation\Auth\User {
+        public ?object $profile = null;
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         public function relationLoaded(mixed $key): bool
         {
             if (! is_string($key)) {
                 return false;
             }
 
+<<<<<<< HEAD
             return $key === 'profile' && $this->profile !== null;
+=======
+<<<<<<< HEAD
+            return $key === 'profile' && $this->profile !== null;
+=======
+            return 'profile' === $key && null !== $this->profile;
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         }
     };
     $user->forceFill(array_merge([
@@ -50,12 +96,28 @@ function uiAuthUser(array $roles = [], array $permissions = [], array $attribute
     ], $attributes));
 
     $user->setRelation('roles', collect(array_map(
+<<<<<<< HEAD
         static fn (string $name): Role => tap(new Role)->forceFill(['name' => $name]),
+=======
+<<<<<<< HEAD
+        static fn (string $name): Role => tap(new Role)->forceFill(['name' => $name]),
+=======
+        static fn (string $name): Role => tap(new Role())->forceFill(['name' => $name]),
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $roles,
     )));
 
     $user->setRelation('permissions', collect(array_map(
+<<<<<<< HEAD
         static fn (string $name): Permission => tap(new Permission)->forceFill(['name' => $name]),
+=======
+<<<<<<< HEAD
+        static fn (string $name): Permission => tap(new Permission)->forceFill(['name' => $name]),
+=======
+        static fn (string $name): Permission => tap(new Permission())->forceFill(['name' => $name]),
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $permissions,
     )));
 

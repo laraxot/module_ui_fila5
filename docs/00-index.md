@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "UI — indice della documentazione"
 description: "Documentazione del modulo UI: componenti di interfaccia condivisi."
@@ -16,11 +17,19 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 # 📚 **Indice Documentazione Modulo UI**
 
 **Last Update**: 31 Gennaio 2026
+=======
+# 📚 **Indice Documentazione Modulo UI**
+
+>>>>>>> laraxot/dev
 **Status**: ✅ PHPStan Level 10 Compliant
 **Module Version**: 2.3.0
 
 ## 🎯 **Lettura Essenziale**
+<<<<<<< HEAD
 1. [README.md](./README.md) - Design System e overview componenti.
+=======
+1. [README.md](./readme.md) - Design System e overview componenti.
+>>>>>>> laraxot/dev
 2. [roadmap.md](./roadmap.md) - Evoluzione 2026: Tailwind v4 e Flux UI integration.
 3. [philosophy.md](./philosophy.md) - "La Bellezza è Funzionale": filosofia del design in Laraxot.
 
@@ -33,6 +42,41 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 - 🧩 **[Blade Components](./blade-components.md)** - Libreria di componenti atomici riutilizzabili.
 - ⚡ **[Filament Components](./filament-components-usage.md)** - Custom columns, fields e widgets per l'Admin Panel.
 - 📍 **[Location Selector](./filament-components-location-studio.md)** - Componente avanzato per la selezione geografica.
+<<<<<<< HEAD
+=======
+- 🏛️ **[Design Comuni FAQ Components](./design-comuni-faq-components.md)** - Componenti UI per pagina FAQ (Accordion, Hero, Breadcrumb, Search) ✅ 90%
+
+## 🏛️ **Design Comuni Italia - Replication**
+
+### Documentazione UI
+- [FAQ Components](./design-comuni-faq-components.md) - Componenti UI per pagina FAQ
+- [Blocks System](./blocks-system.md) - Sistema blocchi universali
+- [Design System](./design-system.md) - Design tokens e pattern
+
+### Link Bidirezionali - Tema Sixteen
+- [All Pages Analysis](../../Themes/Sixteen/docs/design-comuni/ALL_PAGES_ANALYSIS.md) - Analisi 54 pagine
+- [Progress Report](../../Themes/Sixteen/docs/design-comuni/PROGRESS_REPORT.md) - Report progresso
+- [Argomenti Analisi](../../Themes/Sixteen/docs/design-comuni/ARGOMENTI_ANALISI.md) - Analisi argomenti
+- [Risultati Ricerca](../../Themes/Sixteen/docs/design-comuni/RISULTATI_RICERCA_ANALISI.md) - Analisi ricerca
+- [FAQ HTML Analysis](../../Themes/Sixteen/docs/design-comuni/DOMANDE_FREQUENTI_HTML_ANALYSIS.md) - Analisi HTML FAQ
+- [Master Index Tema](../../Themes/Sixteen/docs/design-comuni/00-index.md) - Index tema Sixteen
+
+### Link Bidirezionali - Modulo Cms
+- [Cms Design Comuni Index](../Cms/docs/DESIGN_COMUNI_INDEX.md) - Index completo modulo Cms
+- [Cms FAQ](../Cms/docs/design-comuni-faq.md) - Architettura pagina FAQ
+- [Cms Homepage](../Cms/docs/design-comuni-homepage.md) - Analisi homepage
+
+### Link Bidirezionali - Master Index
+- [Master Index Globale](../../../docs/design-comuni/MASTER_INDEX.md) - Index globale progetto
+
+### Stato Implementazione
+| Componente | HTML | CSS | JS | Totale |
+|-----------|------|-----|----|--------|
+| Accordion | ✅ 95% | ✅ 90% | ✅ 90% | ✅ 92% |
+| Hero | ✅ 100% | ✅ 95% | N/A | ✅ 98% |
+| Breadcrumb | ✅ 100% | ✅ 100% | N/A | ✅ 100% |
+| Search | ✅ 100% | ✅ 90% | ⏳ 0% | ⏳ 65% |
+>>>>>>> laraxot/dev
 
 ## 🛠️ **Integrazioni Tecniche**
 - 🏗️ **[Tailwind v4 Upgrade](./filament-v4-theme-upgrade.md)** - Guida alla migrazione verso l'ultima versione di Tailwind.
@@ -47,16 +91,53 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 - 🗑️ **[Cleanup Plan](./consolidation-plan.md)** - Strategia per ridurre i 280+ file di documentazione.
 
 ## 📦 **Pacchetti Composer**
+<<<<<<< HEAD
 - [Riferimento composer packages](../../../../bashscripts/ai/wiki/memories/composer-packages-reference.md)
 - `owenvoke/blade-fontawesome` - Icone FontAwesome
 
 ## 🔗 **Moduli Correlati**
 - [Xot](../../Xot/docs/README.md) - Base framework per i widget.
 - [Cms](../../Cms/docs/README.md) - Layout dei contenuti e blocchi.
+=======
+- [Riferimento completo](../../../../docs/composer-packages-reference.md) | [Inventario 312 pacchetti](../../../../docs/architecture/composer-packages-full-inventory.md)
+- `owenvoke/blade-fontawesome` - Icone FontAwesome
+
+## 🔗 **Moduli Correlati**
+- [Xot](../../xot/docs/readme.md) - Base framework per i widget.
+- [Cms](../../cms/docs/readme.md) - Layout dei contenuti e blocchi.
+
+---
+
+## 🏛️ **Design Comuni Italia - Replication**
+
+### Documentazione FAQ
+- [FAQ Components](./design-comuni-faq-components.md) - Componenti UI per pagina FAQ (Accordion, Hero, Breadcrumb, Search)
+- [Blocks System](./blocks-system.md) - Sistema blocchi universali
+- [Design System](./design-system.md) - Design tokens e pattern
+
+### Link Bidirezionali
+- **Modulo Cms**: [FAQ Page Architecture](../../Cms/docs/design-comuni-faq.md)
+- **Tema Sixteen**:
+  - [Analisi HTML](../../../Themes/Sixteen/docs/design-comuni/DOMANDE_FREQUENTI_HTML_ANALYSIS.md)
+  - [Implementazione](../../../Themes/Sixteen/docs/design-comuni/DOMANDE_FREQUENTI_IMPLEMENTAZIONE.md)
+  - [Analisi Visiva](../../../Themes/Sixteen/docs/design-comuni/DOMANDE_FREQUENTI_ANALISI_VISIVA.md)
+  - [Report Finale](../../../Themes/Sixteen/docs/design-comuni/DOMANDE_FREQUENTI_REPORT_FINALE.md)
+  - [Design Comuni Index](../../../Themes/Sixteen/docs/design-comuni/00-index.md)
+- **Scripts**: [Screenshot Script](../../../bashscripts/design-comuni/capture-faq-screenshots.js)
+
+### Stato Implementazione
+| Componente | HTML | CSS | JS | Totale |
+|-----------|------|-----|----|--------|
+| Accordion | ✅ 95% | ✅ 90% | ⏳ 0% | ⏳ 62% |
+| Hero | ✅ 100% | ✅ 95% | N/A | ✅ 98% |
+| Breadcrumb | ✅ 100% | ✅ 100% | N/A | ✅ 100% |
+| Search | ✅ 100% | ✅ 90% | ⏳ 0% | ⏳ 65% |
+>>>>>>> laraxot/dev
 
 ---
 *Documentazione conforme agli standard Laraxot - DRY + KISS + SOLID*
 
+<<<<<<< HEAD
 ---
 
 <!-- Merged from 00-INDEX.md, which collided with this file on case-insensitive filesystems. -->
@@ -275,3 +356,8 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 **Maintained By**: AI Agents Team  
 **Review Cycle**: Every sprint  
 **Next Review**: 2026-04-02
+=======
+## Dependency Intelligence
+
+- [Dependency intelligence](dependency-intelligence.md)
+>>>>>>> laraxot/dev

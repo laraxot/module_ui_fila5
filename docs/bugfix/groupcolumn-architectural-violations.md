@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Bugfix: GroupColumn Architectural Violations"
 type: concept
@@ -12,6 +13,8 @@ related:
   - "./iconcolumn-view-path-fix.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # Bugfix: GroupColumn Architectural Violations
 
 **Data Fix**: 11 Novembre 2025
@@ -236,8 +239,11 @@ final class GroupColumn extends XotBaseColumn
 @php
     $fields = $getFields();  // ✅ PSR-12
 **Dopo (18 Nov 2025)**:
+<<<<<<< HEAD
 ```
 
+=======
+>>>>>>> laraxot/dev
 ```blade
 @php
     $fields = $getFields();
@@ -329,8 +335,13 @@ Column (Filament - DO NOT REFERENCE)
 
 ## Riferimenti
 
+<<<<<<< HEAD
 - [Laraxot Architectural Rules](../../architecture-rules-1.md)
 - [Never Use Label Rule](../never-use-label-rule-1.md)
+=======
+- [Laraxot Architectural Rules](../../architecture_rules.md)
+- [Never Use Label Rule](../never_use_label_rule.md)
+>>>>>>> laraxot/dev
 - [XotBaseColumn](../../../../Xot/app/Filament/Tables/Columns/XotBaseColumn.php)
 - [Translation Pattern](../../translations/)
 - [docs/blade-components.md](../../../../docs/blade-components.md)

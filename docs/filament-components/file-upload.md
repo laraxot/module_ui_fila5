@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Componente FileUpload"
 type: concept
@@ -12,6 +13,8 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 ---
 
+=======
+>>>>>>> laraxot/dev
 # Componente FileUpload
 
 ## Collegamenti Bidirezionali
