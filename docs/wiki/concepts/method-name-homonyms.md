@@ -5,6 +5,7 @@ module: UI
 updated: 2026-06-15
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_8QCZQ3
   - ../../../../../../docs/wiki/method-name-homonym-census.md
   - ../../../../../../bashscripts/docs/method-homonym-census.json
@@ -29,6 +30,11 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
+=======
+  - ../../../../../../docs/wiki/method-name-homonym-census.md
+  - ../../../../../../bashscripts/docs/method-homonym-census.json
+=======
+>>>>>>> 804451c (Lint)
   - "./auth-register-focus-loss-overlay.md"
   - "./block-rendering-and-optional-services.md"
   - "./claude-audit-static.md"
@@ -37,10 +43,13 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
+<<<<<<< HEAD
 =======
   - ../../../../../../docs/wiki/method-name-homonym-census.md
   - ../../../../../../bashscripts/docs/method-homonym-census.json
 >>>>>>> .merge_file_IKqDvG
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ---
 

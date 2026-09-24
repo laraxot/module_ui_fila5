@@ -12,11 +12,14 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <x-ui::datatable
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 <x-ui::datatable 
 =======
 <<<<<<< HEAD
@@ -40,9 +43,12 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     :columns="[
         ['name' => 'id', 'label' => 'ID', 'sortable' => true],
@@ -66,11 +72,14 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <x-ui::status-badge
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 <x-ui::status-badge 
 =======
 <<<<<<< HEAD
@@ -94,9 +103,12 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     :status="$user->status"
     :options="[
@@ -114,11 +126,14 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <x-ui::action-buttons
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 <x-ui::action-buttons 
 =======
 <<<<<<< HEAD
@@ -142,9 +157,12 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     :actions="[
         [
@@ -203,6 +221,7 @@ class UserTable extends Component
     public $search = '';
     public $perPage = 10;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_19nahj
 
 =======
@@ -213,6 +232,11 @@ class UserTable extends Component
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
     
@@ -239,6 +263,7 @@ class UserTable extends Component
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -246,6 +271,8 @@ class UserTable extends Component
 =======
 
 >>>>>>> .merge_file_wXDxL6
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public function sortBy($field)
     {
@@ -257,6 +284,7 @@ class UserTable extends Component
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_19nahj
 
 =======
@@ -267,6 +295,11 @@ class UserTable extends Component
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
     
@@ -293,6 +326,7 @@ class UserTable extends Component
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -300,6 +334,8 @@ class UserTable extends Component
 =======
 
 >>>>>>> .merge_file_wXDxL6
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public function render()
     {
@@ -311,6 +347,7 @@ class UserTable extends Component
             ->orderBy($this->sortField, $this->sortDirection)
             ->paginate($this->perPage);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_19nahj
 
 =======
@@ -321,6 +358,11 @@ class UserTable extends Component
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
             
@@ -347,6 +389,7 @@ class UserTable extends Component
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -354,6 +397,8 @@ class UserTable extends Component
 =======
 
 >>>>>>> .merge_file_wXDxL6
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
         return view('livewire.user-table', compact('users'));
     }
@@ -380,6 +425,7 @@ class UserTable extends Component
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_19nahj
 =======
 <<<<<<< HEAD
@@ -394,6 +440,8 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 ## Componenti Disponibili
 =======
 >>>>>>> .merge_file_wXDxL6
+=======
+>>>>>>> 804451c (Lint)
 - [Documentazione Frontend](../cms/docs/frontend-architecture.md)
 # Componenti Table
 
@@ -402,12 +450,17 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 
 ## Componenti Disponibili
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_19nahj
 <<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 - [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
 =======
 <<<<<<< HEAD
@@ -429,11 +482,14 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 I componenti table forniscono una gestione efficiente e personalizzabile dei dati tabulari, con funzionalità avanzate di ordinamento, filtro e paginazione.
 ## Componenti Disponibili
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_wXDxL6
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### DataTable
 ```blade
@@ -453,6 +509,7 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 />
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_19nahj
 
 ### StatusBadge
@@ -462,12 +519,15 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 ### StatusBadge
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 
 ### StatusBadge
 ```blade
 =======
 ### StatusBadge
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 ### StatusBadge
@@ -477,6 +537,8 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 ```blade
 >>>>>>> .merge_file_wXDxL6
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 <x-ui::status-badge
     :status="$user->status"
     :options="[
@@ -484,6 +546,7 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
         'inactive' => ['label' => 'Inattivo', 'color' => 'danger'],
         'pending' => ['label' => 'In attesa', 'color' => 'warning'],
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_19nahj
 =======
 <<<<<<< HEAD
@@ -495,12 +558,15 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 ### ActionButtons
 =======
 >>>>>>> .merge_file_wXDxL6
+=======
+>>>>>>> 804451c (Lint)
     ]"
 />
 ```
 
 ### ActionButtons
 ```blade
+<<<<<<< HEAD
 <<<<<<< .merge_file_19nahj
 <<<<<<< HEAD
 =======
@@ -511,6 +577,11 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 =======
 >>>>>>> .merge_file_wXDxL6
 >>>>>>> laraxot/dev
+=======
+=======
+### ActionButtons
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 <x-ui::action-buttons
     :actions="[
         [
@@ -520,6 +591,7 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
             'label' => 'Visualizza'
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_19nahj
         [
 =======
@@ -534,12 +606,17 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 =======
         [
 >>>>>>> .merge_file_wXDxL6
+=======
+        [
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
             'type' => 'edit',
             'url' => route('users.edit', $user),
             'icon' => 'pencil',
             'label' => 'Modifica'
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_19nahj
         ],
         [
@@ -557,6 +634,11 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
         ],
         [
 >>>>>>> .merge_file_wXDxL6
+=======
+        ],
+        [
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
             'type' => 'delete',
             'url' => route('users.destroy', $user),
@@ -565,6 +647,7 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
             'confirm' => true
         ]
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_19nahj
 =======
 <<<<<<< HEAD
@@ -576,12 +659,15 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 ## Funzionalità
 =======
 >>>>>>> .merge_file_wXDxL6
+=======
+>>>>>>> 804451c (Lint)
     ]"
 />
 ```
 
 ## Funzionalità
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_19nahj
 <<<<<<< HEAD
 =======
@@ -592,11 +678,17 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 =======
 >>>>>>> .merge_file_wXDxL6
 >>>>>>> laraxot/dev
+=======
+=======
+## Funzionalità
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ### Ordinamento
 - Multi-colonna
 - Direzione (asc/desc)
 - Personalizzazione
 - Cache risultati
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_19nahj
 
@@ -612,6 +704,10 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 =======
 
 >>>>>>> .merge_file_wXDxL6
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### Filtri
 - Testo libero
@@ -619,6 +715,7 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 - Date range
 - Custom filters
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_19nahj
 =======
 <<<<<<< HEAD
@@ -636,6 +733,8 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 use Livewire\Component;
 =======
 >>>>>>> .merge_file_wXDxL6
+=======
+>>>>>>> 804451c (Lint)
 
 ### Paginazione
 - Server-side
@@ -649,11 +748,15 @@ use Livewire\Component;
 ```php
 use Livewire\Component;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_19nahj
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ### Paginazione
 - Server-side
 - Client-side
@@ -663,11 +766,14 @@ use Livewire\Component;
 ```php
 use Livewire\Component;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_wXDxL6
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 class UserTable extends Component
 {
@@ -676,6 +782,7 @@ class UserTable extends Component
     public $search = '';
     public $perPage = 10;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_19nahj
 
 =======
@@ -690,6 +797,10 @@ class UserTable extends Component
 =======
 
 >>>>>>> .merge_file_wXDxL6
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public function sortBy($field)
     {
@@ -701,6 +812,7 @@ class UserTable extends Component
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_19nahj
 
     public function render()
@@ -710,12 +822,15 @@ class UserTable extends Component
     public function render()
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 
     public function render()
     {
 =======
     public function render()
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
     public function render()
@@ -725,6 +840,8 @@ class UserTable extends Component
     {
 >>>>>>> .merge_file_wXDxL6
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
         $users = User::query()
             ->when($this->search, function ($query) {
                 $query->where('name', 'like', '%'.$this->search.'%')
@@ -732,6 +849,7 @@ class UserTable extends Component
             })
             ->orderBy($this->sortField, $this->sortDirection)
             ->paginate($this->perPage);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_19nahj
 =======
@@ -749,6 +867,8 @@ class UserTable extends Component
 - Responsive design
 =======
 >>>>>>> .merge_file_wXDxL6
+=======
+>>>>>>> 804451c (Lint)
 
         return view('livewire.user-table', compact('users'));
     }
@@ -763,11 +883,15 @@ class UserTable extends Component
 - Lazy loading
 - Responsive design
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_19nahj
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
         return view('livewire.user-table', compact('users'));
 }
 ## Best Practices
@@ -776,17 +900,21 @@ class UserTable extends Component
 - Lazy loading
 - Responsive design
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_wXDxL6
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### Performance
 - Indici database
 - Query ottimizzate
 - Cache paginazione
 - Lazy loading colonne
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_19nahj
 
@@ -802,12 +930,17 @@ class UserTable extends Component
 =======
 
 >>>>>>> .merge_file_wXDxL6
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ## Collegamenti
 - [Componenti Base](./base-components.md)
 - [Componenti Form](./form-components.md)
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_19nahj
 - [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
@@ -829,6 +962,13 @@ class UserTable extends Component
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
+- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
+- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 
 ```
 =======
@@ -851,9 +991,12 @@ class UserTable extends Component
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_wXDxL6
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

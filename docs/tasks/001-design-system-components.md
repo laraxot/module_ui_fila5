@@ -277,6 +277,7 @@ The UI module needs a robust design system with consistent components, theming c
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AMRBRe
 **Status**: Pending
 **Assignee**: TBD
@@ -287,6 +288,8 @@ The UI module needs a robust design system with consistent components, theming c
 **Assignee**: TBD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 **Status**: Pending
 **Assignee**: TBD
 =======
@@ -294,6 +297,7 @@ The UI module needs a robust design system with consistent components, theming c
 **Status**: Pending
 **Assignee**: TBD
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 **Created**: 2026-01-31
@@ -304,3 +308,5 @@ The UI module needs a robust design system with consistent components, theming c
 **Assignee**: TBD
 >>>>>>> .merge_file_xoDQaa
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)

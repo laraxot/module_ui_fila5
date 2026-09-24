@@ -6,6 +6,7 @@
 **Status**: ✅ Active  
 **Framework**: Laravel 12.x + Filament 4.x + Tailwind CSS  
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOUUBw
 =======
 <<<<<<< HEAD
@@ -21,6 +22,11 @@
 =======
 >>>>>>> .merge_file_TAC8x7
 >>>>>>> laraxot/dev
+=======
+=======
+**Framework**: Laravel 13.x + Filament 4.x + Tailwind CSS  
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 **Component Library**: Custom UI components and styles  
 **Language**: Multi-language (IT/EN/DE)  
 
@@ -78,10 +84,14 @@ The UI module provides comprehensive user interface components and styling:
 - **Cms**: Content display components
 <<<<<<< HEAD
 - **Quaeris**: Dashboard UI components
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOUUBw
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 - **Quaeris**: Dashboard UI components
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -89,6 +99,8 @@ The UI module provides comprehensive user interface components and styling:
 - **Quaeris**: Dashboard UI components
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - **modulo questionari**: Dashboard UI components
 =======
 =======
@@ -110,6 +122,7 @@ The UI module provides comprehensive user interface components and styling:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -118,6 +131,8 @@ The UI module provides comprehensive user interface components and styling:
 - **modulo questionari**: Dashboard UI components
 =======
 >>>>>>> .merge_file_TAC8x7
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - **Xot**: Base UI infrastructure
 - **Filament**: Component compatibility
@@ -152,6 +167,7 @@ The UI module provides comprehensive user interface components and styling:
 <<<<<<< HEAD
 - Performance optimization
 =======
+<<<<<<< HEAD
 <<<<<<< .merge_file_AOUUBw
 <<<<<<< HEAD
 - Performance optimization
@@ -166,3 +182,7 @@ The UI module provides comprehensive user interface components and styling:
 - Performance optimization
 >>>>>>> .merge_file_TAC8x7
 >>>>>>> laraxot/dev
+=======
+- Performance optimization
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

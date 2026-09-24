@@ -4,6 +4,7 @@ module: "UI"
 created: "2026-04-28"
 updated: "2026-04-28"
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_IYnBoD
 =======
 <<<<<<< HEAD
@@ -13,6 +14,9 @@ updated: "2026-04-28"
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_xF4glK
+=======
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./auth-register-focus-loss-overlay.md"
   - "./block-rendering-and-optional-services.md"
@@ -22,6 +26,7 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
+<<<<<<< HEAD
 <<<<<<< .merge_file_IYnBoD
 <<<<<<< HEAD
 =======
@@ -32,6 +37,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_xF4glK
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ---
 
 # Model States Module Ownership
@@ -61,6 +69,7 @@ Fissare la regola di ownership per `spatie/laravel-model-states` nel progetto mo
 
 - latest stable `2.13.1`: supporta `Laravel 12|13` ma richiede `php ^8.4`
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_IYnBoD
 =======
 <<<<<<< HEAD
@@ -76,6 +85,11 @@ Fissare la regola di ownership per `spatie/laravel-model-states` nel progetto mo
 =======
 >>>>>>> .merge_file_xF4glK
 >>>>>>> laraxot/dev
+=======
+=======
+- latest stable `2.13.1`: supporta `Laravel 13|13` ma richiede `php ^8.4`
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 - linea precedente `2.12.1`: supporta `php ^7.4|^8.0` ma solo `Laravel 10|11|12`
 
 ## Regola operativa

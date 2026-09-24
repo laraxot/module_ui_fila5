@@ -1,6 +1,10 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 804451c (Lint)
 ?>
 <div class="bg-white py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_uJSer8
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_QVhWMe
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Server-Side Chart Generation Actions"
 type: concept
@@ -15,7 +19,10 @@ tags: [server, side, actions]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "server-side-actions server-side chart generation actions"
+<<<<<<< HEAD
 <<<<<<< .merge_file_uJSer8
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,12 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_QVhWMe
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./chartjs-datalabels-multiple-labels-complete-guide.md"
   - "./chartjs-plugin-datalabels-filament5.md"
@@ -42,6 +52,7 @@ related:
   - "./shared-hosting-strategy.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_uJSer8
 <<<<<<< HEAD
 =======
@@ -52,6 +63,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_QVhWMe
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Server-Side Chart Generation Actions
 
 > **Purpose**: Generate chart images (PNG/SVG) in background jobs (Queueable Actions) for email attachments or PDF reports.

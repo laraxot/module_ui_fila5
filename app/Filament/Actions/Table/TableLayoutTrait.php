@@ -35,6 +35,7 @@ trait TableLayoutTrait
             }
         }
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_rU3BEL
 <<<<<<< HEAD
         return TableLayoutEnum::GRID;
@@ -42,16 +43,21 @@ trait TableLayoutTrait
 <<<<<<< HEAD
         return TableLayoutEnum::LIST;
 =======
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
         return TableLayoutEnum::GRID;
 =======
         return TableLayoutEnum::LIST;
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
         return TableLayoutEnum::LIST;
 >>>>>>> .merge_file_o2jZnW
+=======
+>>>>>>> 804451c (Lint)
     }
 
     /**

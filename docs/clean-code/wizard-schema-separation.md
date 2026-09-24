@@ -3,6 +3,7 @@ module: theme
 topic: wizard-schema-separation
 canonical: ../../../../Themes/docs/shared-components/wizard-schema-aration.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_E2Zgpx
 =======
 <<<<<<< HEAD
@@ -12,11 +13,15 @@ canonical: ../../../../Themes/docs/shared-components/wizard-schema-aration.md
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_HosgO3
+=======
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./no-obvious-comments.md"
   - "./syntax-error-fixes.md"
   - "./wizard-schema-aration.md"
   - "./wizard-steps.md"
+<<<<<<< HEAD
 <<<<<<< .merge_file_E2Zgpx
 <<<<<<< HEAD
 =======
@@ -27,6 +32,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_HosgO3
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/wizard-schema-aration.md

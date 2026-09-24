@@ -56,6 +56,7 @@
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,16 +70,25 @@
 * [filament-components.md](../../Cms/docs/filament-components.md)
 * [filament-components.md](../../../docs/rules/filament-components.md)
 =======
+=======
+4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
+## Collegamenti tra versioni di filament-components.md
+>>>>>>> 804451c (Lint)
 * [filament-components.md](../../user/docs/best-practices/filament-components.md)
 * [filament-components.md](../../cms/docs/best-practices/filament-components.md)
 * [filament-components.md](../../cms/docs/filament-components.md)
 * [filament-components.md](../../../../docs/rules/filament-components.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_CJyVpb
 <<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti 
 =======
 <<<<<<< HEAD
@@ -120,17 +130,21 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_IWJTKU
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 # Componenti Filament UI
 
 ## Collegamenti Bidirezionali
 
 ### Errori Comuni
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -139,6 +153,8 @@
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - [Errori nei Componenti Filament](./filament-components-errors.md)
 - [Best Practices UI](../../best-practices.md)
 - [Implementazione Corretta](../../examples/correct-implementation.md)
@@ -148,13 +164,19 @@
 - [TextInput](./components/text-input.md)
 - [Select](./components/select.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 
 ### Componenti Specifici
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ## Struttura della Documentazione
 
@@ -204,6 +226,7 @@
 4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
 ## Collegamenti tra versioni di filament-components.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_CJyVpb
 =======
 <<<<<<< HEAD
@@ -217,10 +240,13 @@
 * [filament-components.md](../../../project_docs/rules/filament-components.md)
 =======
 >>>>>>> .merge_file_IWJTKU
+=======
+>>>>>>> 804451c (Lint)
 * [filament-components.md](../../user/project_docs/best-practices/filament-components.md)
 * [filament-components.md](../../cms/project_docs/best-practices/filament-components.md)
 * [filament-components.md](../../cms/project_docs/filament-components.md)
 * [filament-components.md](../../../../docs/project/rules/filament-components.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_CJyVpb
 <<<<<<< HEAD
 =======
@@ -228,6 +254,11 @@
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 =======
@@ -276,9 +307,12 @@
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_IWJTKU
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_KHXzav
 =======
+>>>>>>> 804451c (Lint)
+=======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -10,6 +14,8 @@
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 =======
@@ -19,8 +25,11 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_J6BA9V
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Standard Form di Autenticazione"
 type: rule
@@ -38,7 +47,10 @@ related:
   - "./performance.md"
   - "./ui-standards.md"
 ---
+<<<<<<< HEAD
 <<<<<<< .merge_file_KHXzav
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 
@@ -57,12 +69,15 @@ related:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 =======
 >>>>>>> .merge_file_J6BA9V
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 # Standard Form di Autenticazione
 
@@ -112,6 +127,7 @@ related:
 <<<<<<< HEAD
       <input
         type="email"
+<<<<<<< HEAD
 <<<<<<< .merge_file_KHXzav
 =======
 <<<<<<< HEAD
@@ -122,6 +138,10 @@ related:
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
       <input 
         type="email" 
 =======
@@ -154,6 +174,7 @@ related:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -164,6 +185,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_J6BA9V
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
         class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-primary-500 focus:border-primary-500 sm:text-sm"
       >
     </div>
@@ -175,6 +199,7 @@ related:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -183,12 +208,16 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
   <!-- Altri campi -->
 
   <div>
     <button
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KHXzav
 =======
@@ -200,6 +229,11 @@ related:
 =======
 >>>>>>> laraxot/dev
 =======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
+=======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
@@ -207,14 +241,20 @@ related:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_J6BA9V
+=======
+>>>>>>> 804451c (Lint)
   
   <!-- Altri campi -->
   
   <div>
     <button 
+<<<<<<< HEAD
 <<<<<<< .merge_file_KHXzav
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -222,14 +262,20 @@ related:
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_J6BA9V
+=======
+>>>>>>> 804451c (Lint)
 
   <!-- Altri campi -->
   
   <div>
     <button
+<<<<<<< HEAD
 <<<<<<< .merge_file_KHXzav
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -242,6 +288,7 @@ related:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -250,6 +297,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_J6BA9V
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
       type="submit"
       class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
     >
@@ -309,6 +359,7 @@ related:
 .auth-card {
   @apply shadow-sm;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_KHXzav
 <<<<<<< HEAD
@@ -318,6 +369,11 @@ related:
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
   
@@ -344,8 +400,11 @@ related:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
   @screen sm {
     @apply shadow-md;
@@ -402,11 +461,17 @@ related:
   <label id="email-label">Email</label>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <input
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+  <input
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
   <input 
 =======
 <<<<<<< HEAD
@@ -430,8 +495,11 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     type="email"
     aria-labelledby="email-label"
@@ -479,7 +547,10 @@ related:
 <<<<<<< HEAD
 - [Form Standards](./form_standards.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md)
 # Standard Form di Autenticazione
@@ -489,7 +560,10 @@ related:
 =======
 <<<<<<< HEAD
 - [Form Standards](./form_standards.md)
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 - [Form Standards](./form_standards.md)
@@ -519,20 +593,29 @@ related:
 # Standard Form di Autenticazione
 ## Principi di Design
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### Layout
 - I form di autenticazione devono essere centrati sia orizzontalmente che verticalmente
 - Utilizzare una larghezza massima appropriata per garantire leggibilità
 - Mantenere una gerarchia visiva chiara con spaziatura consistente
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ### Container
 ```html
 <div class="min-h-screen flex flex-col justify-center py-12 sm:px-6 lg:px-8">
@@ -540,22 +623,31 @@ related:
     <!-- Logo o intestazione -->
   </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
   <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
     <div class="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
       <!-- Form -->
     </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 </div>
 ```
 ### Intestazione
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
   </div>
 </div>
 ```
@@ -567,7 +659,10 @@ related:
 ```
 ### Intestazione
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 <div class="sm:mx-auto sm:w-full sm:max-w-md">
   <img class="mx-auto h-12 w-auto" src="logo.svg" alt="Logo">
   <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
@@ -577,9 +672,12 @@ related:
     Sottotitolo o descrizione
   </p>
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Form
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 </div>
 ```
 
@@ -588,7 +686,10 @@ related:
 =======
 ### Form
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 <form class="space-y-6">
   <div>
     <label class="block text-sm font-medium text-gray-700">
@@ -600,9 +701,12 @@ related:
         class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-primary-500 focus:border-primary-500 sm:text-sm"
       >
 <<<<<<< HEAD
+<<<<<<< HEAD
   <!-- Altri campi -->
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
     </div>
   </div>
 
@@ -612,7 +716,10 @@ related:
 =======
   <!-- Altri campi -->
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     <button
       type="submit"
       class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
@@ -620,10 +727,13 @@ related:
       Invia
     </button>
 <<<<<<< HEAD
+<<<<<<< HEAD
 </form>
 ## Responsive Design
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
   </div>
 </form>
 ```
@@ -634,11 +744,15 @@ related:
 </form>
 ## Responsive Design
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ### Mobile
 - Form a larghezza piena
 - Padding ridotto
 - Stack verticale per tutti gli elementi
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -646,16 +760,24 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ```scss
 // Mobile (default)
 .auth-container {
   @apply px-4 py-8;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .auth-form {
   @apply w-full;
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 
 .auth-form {
   @apply w-full;
@@ -666,24 +788,34 @@ related:
 .auth-form {
   @apply w-full;
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ### Tablet e Desktop
 - Form centrato con larghezza massima
 - Padding aumentato
 - Possibile layout a due colonne per alcuni elementi
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 
 ```scss
 =======
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 // Tablet (sm)
 @screen sm {
   .auth-container {
     @apply px-6 py-12;
   }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -910,6 +1042,8 @@ related:
   .auth-container {
     @apply px-6 py-12;
   }
+=======
+>>>>>>> 804451c (Lint)
 
   .auth-form {
     @apply max-w-md mx-auto;
@@ -983,8 +1117,11 @@ related:
 ### ARIA Labels
 ```html
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
   .auth-form {
     @apply max-w-md mx-auto;
 // Desktop (lg)
@@ -1016,9 +1153,12 @@ related:
   @apply outline-none ring-2 ring-offset-2 ring-primary-500;
 ### ARIA Labels
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 <div class="auth-field">
   <label id="email-label">Email</label>
@@ -1028,24 +1168,33 @@ related:
     aria-required="true"
   >
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 ## Best Practices
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 </div>
 ```
 
 ## Best Practices
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 ## Best Practices
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+## Best Practices
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 1. **Centratura e Allineamento**
    - Form sempre centrato nella viewport
    - Elementi interni allineati consistentemente
@@ -1054,12 +1203,15 @@ related:
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 2. **Gerarchia Visiva**
    - Logo/brand in alto
@@ -1070,12 +1222,15 @@ related:
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 3. **Feedback Utente**
    - Validazione in tempo reale
@@ -1086,12 +1241,15 @@ related:
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 4. **Responsive Design**
    - Layout fluido su tutti i dispositivi
@@ -1101,12 +1259,15 @@ related:
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 5. **Performance**
    - Caricamento ottimizzato
@@ -1116,18 +1277,22 @@ related:
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 6. **Sicurezza**
    - CSRF protection
    - Rate limiting
    - Validazione server-side
    - Sanitizzazione input
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1144,6 +1309,14 @@ related:
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+
+## Collegamenti
+- [Form Standards](./form_standards.md)
+- [UI Standards](./ui-standards.md)
+- [Accessibility](./accessibility.md)
+=======
+>>>>>>> 804451c (Lint)
 ## Collegamenti
 - [UI Standards](./ui-standards.md)
 <<<<<<< HEAD
@@ -1170,7 +1343,10 @@ related:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

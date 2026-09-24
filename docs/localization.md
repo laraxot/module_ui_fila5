@@ -126,6 +126,7 @@ Modules/UI/
 - [Documentazione Filament](https://filamentphp.com/docs)
 - [Documentazione Folio](https://laravel.com/docs/folio)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qZOno4
 - [Best Practices UI](./ui_best_practices.md)
 - [Guida Componenti](./components_guide.md)
@@ -135,12 +136,15 @@ Modules/UI/
 - [Guida Componenti](./COMPONENTS_GUIDE.md)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [Best Practices UI](./ui_best_practices.md)
 - [Guida Componenti](./components_guide.md)
 =======
 - [Best Practices UI](./UI_BEST_PRACTICES.md)
 - [Guida Componenti](./COMPONENTS_GUIDE.md)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - [Best Practices UI](./UI_BEST_PRACTICES.md)
@@ -150,3 +154,5 @@ Modules/UI/
 - [Guida Componenti](./components_guide.md)
 >>>>>>> .merge_file_nM8np4
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)

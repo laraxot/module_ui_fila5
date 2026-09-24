@@ -3,9 +3,13 @@
 ## Overview
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< .merge_file_ORYKHO
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -13,6 +17,8 @@
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 =======
@@ -22,6 +28,7 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -29,6 +36,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Lgwq0R
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 The `IconStateSplitColumn` is a custom Filament table column component designed to display state transition icons in a compact, responsive grid layout. It extends Filament's `Column` component to provide an optimized user experience for state management in tables.
 ## Key Features
 # IconStateSplitColumn Implementation
@@ -77,6 +87,7 @@ use Modules\<nome progetto>\Models\Appointment;
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```
 
 =======
@@ -86,6 +97,10 @@ use Modules\<nome progetto>\Models\Appointment;
 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+```
+
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```php
 use Modules\UI\Filament\Tables\Columns\IconStateSplitColumn;
@@ -466,6 +481,7 @@ The main issue was that `wire:click` doesn't work directly in Filament table col
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```
 
 =======
@@ -475,6 +491,10 @@ The main issue was that `wire:click` doesn't work directly in Filament table col
 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+```
+
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```javascript
 // Custom event dispatch
@@ -544,6 +564,7 @@ document.addEventListener('state-transition', function(event) {
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Last Updated**: June 2025
 **Version**: 2.1
 =======
@@ -554,6 +575,10 @@ document.addEventListener('state-transition', function(event) {
 **Version**: 2.1
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+**Last Updated**: June 2025
+**Version**: 2.1
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
@@ -567,6 +592,7 @@ document.addEventListener('state-transition', function(event) {
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Last Updated**: June 2025
 **Version**: 2.1
 =======
@@ -577,6 +603,10 @@ document.addEventListener('state-transition', function(event) {
 **Version**: 2.1
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+**Last Updated**: June 2025
+**Version**: 2.1
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
@@ -587,6 +617,7 @@ document.addEventListener('state-transition', function(event) {
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Last Updated**: June 2025
 **Version**: 2.1
 =======
@@ -597,11 +628,16 @@ document.addEventListener('state-transition', function(event) {
 **Version**: 2.1
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+**Last Updated**: June 2025
+**Version**: 2.1
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 **Compatibility**: Filament 3.x, Laravel 10.x
 # IconStateSplitColumn Implementation
 
 ## Overview
+<<<<<<< HEAD
 <<<<<<< .merge_file_ORYKHO
 <<<<<<< HEAD
 =======
@@ -611,6 +647,11 @@ document.addEventListener('state-transition', function(event) {
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -624,11 +665,14 @@ document.addEventListener('state-transition', function(event) {
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Lgwq0R
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 The `IconStateSplitColumn` is a custom Filament table column component designed to display state transition icons in a compact, responsive grid layout. It extends Filament's `Column` component to provide an optimized user experience for state management in tables.
@@ -666,6 +710,7 @@ The `IconStateSplitColumn` is a custom Filament table column component designed 
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```
 
 =======
@@ -675,6 +720,10 @@ The `IconStateSplitColumn` is a custom Filament table column component designed 
 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+```
+
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```php
 use Modules\UI\Filament\Tables\Columns\IconStateSplitColumn;
@@ -713,11 +762,14 @@ class IconStateSplitColumn extends Column
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
     
@@ -744,9 +796,12 @@ class IconStateSplitColumn extends Column
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     protected function setUp(): void
     {
@@ -758,11 +813,14 @@ class IconStateSplitColumn extends Column
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
     
@@ -789,9 +847,12 @@ class IconStateSplitColumn extends Column
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public function stateClass(string $stateClass, string $modelClass): static
     {
@@ -802,11 +863,14 @@ class IconStateSplitColumn extends Column
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
     
@@ -833,9 +897,12 @@ class IconStateSplitColumn extends Column
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public function getRecordStates(): array
     {
@@ -846,11 +913,14 @@ class IconStateSplitColumn extends Column
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
     
@@ -877,9 +947,12 @@ class IconStateSplitColumn extends Column
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public function canTransitionTo($recordId, $stateClass): bool
     {
@@ -1092,11 +1165,14 @@ The main issue was that `wire:click` doesn't work directly in Filament table col
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
@@ -1118,9 +1194,12 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 onclick="window.dispatchEvent(new CustomEvent('state-transition', {
     detail: {
@@ -1132,10 +1211,13 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -1149,9 +1231,12 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 }))"
 
@@ -1163,11 +1248,14 @@ document.addEventListener('state-transition', function(event) {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
     
@@ -1194,9 +1282,12 @@ document.addEventListener('state-transition', function(event) {
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     if (window.Livewire) {
         window.Livewire.find(document.querySelector('[wire\\:id]').getAttribute('wire:id'))
@@ -1234,6 +1325,7 @@ document.addEventListener('state-transition', function(event) {
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ORYKHO
 =======
 <<<<<<< HEAD
@@ -1246,15 +1338,21 @@ document.addEventListener('state-transition', function(event) {
 **Compatibility**: Filament 4.x, Laravel 10.x
 =======
 >>>>>>> .merge_file_Lgwq0R
+=======
+>>>>>>> 804451c (Lint)
 
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
+<<<<<<< HEAD
 <<<<<<< .merge_file_ORYKHO
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 **Last Updated**: June 2025
 **Version**: 2.1
 <<<<<<< HEAD
@@ -1295,9 +1393,12 @@ document.addEventListener('state-transition', function(event) {
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Lgwq0R
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

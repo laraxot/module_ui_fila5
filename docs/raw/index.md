@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kqkvL7
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_iA1mRg
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Raw Sources — UI"
 type: concept
@@ -15,7 +19,10 @@ tags: [index]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "index raw sources — ui"
+<<<<<<< HEAD
 <<<<<<< .merge_file_kqkvL7
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -32,6 +39,7 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -47,6 +55,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_iA1mRg
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Raw Sources — UI
 
 Questo layer contiene le fonti grezze: documenti immutabili che l'LLM legge ma non modifica.
@@ -82,6 +93,7 @@ Il layer raw per questo modulo/tema è **l'intera cartella `docs/`** (esclusa `d
 <<<<<<< HEAD
 → `docs/.schema/WIKI_SCHEMA.md` (root progetto)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -89,12 +101,15 @@ Il layer raw per questo modulo/tema è **l'intera cartella `docs/`** (esclusa `d
 <<<<<<< .merge_file_kqkvL7
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 → `docs/.schema/wiki-schema.md` (root progetto)
 =======
 =======
 → `docs/.schema/wiki-schema.md` (root progetto)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -104,6 +119,8 @@ Il layer raw per questo modulo/tema è **l'intera cartella `docs/`** (esclusa `d
 → `docs/.schema/wiki-schema.md` (root progetto)
 =======
 >>>>>>> .merge_file_iA1mRg
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 → `docs/project/llm-wiki-module-adoption.md` (guida per moduli/temi)
 

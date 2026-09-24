@@ -4,6 +4,7 @@ type: concept
 updated: 2026-04-23
 tags: [filament, forms, select, enum, tom-select, php, best-practices, false-friends]
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VS9Bun
 =======
 <<<<<<< HEAD
@@ -13,6 +14,9 @@ tags: [filament, forms, select, enum, tom-select, php, best-practices, false-fri
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_r6DucI
+=======
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./auth-register-focus-loss-overlay.md"
   - "./block-rendering-and-optional-services.md"
@@ -22,6 +26,7 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
+<<<<<<< HEAD
 <<<<<<< .merge_file_VS9Bun
 <<<<<<< HEAD
 =======
@@ -32,6 +37,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_r6DucI
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ---
 
 # Problema

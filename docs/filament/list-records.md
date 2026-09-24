@@ -2,6 +2,7 @@
 module: theme
 topic: list-records
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_msIX3B
 =======
 <<<<<<< HEAD
@@ -24,15 +25,21 @@ related:
 See canonical documentation: ../../../../Themes/docs/shared-components/listrecords-1.md
 =======
 >>>>>>> .merge_file_3KP1Be
+=======
+>>>>>>> 804451c (Lint)
 canonical: ../../../../Themes/docs/shared-components/ListRecords.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/ListRecords.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_msIX3B
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 canonical: ../../../../Themes/docs/shared-components/listrecords-1.md
 related:
   - "./automatic-translations.md"
@@ -47,9 +54,12 @@ related:
 
 See canonical documentation: ../../../../Themes/docs/shared-components/listrecords-1.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_3KP1Be
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

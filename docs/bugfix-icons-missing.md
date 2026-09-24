@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_RkhV9c
 =======
 <<<<<<< HEAD
@@ -117,6 +118,8 @@ php artisan config:clear
 **Stato**: ✅ Risolto
 =======
 >>>>>>> .merge_file_I73sIN
+=======
+>>>>>>> 804451c (Lint)
 ---
 module: theme
 topic: bugfix-icons-missing
@@ -124,11 +127,15 @@ canonical: ../../../Themes/docs/shared-components/bugfix-icons-missing.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/bugfix-icons-missing.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_RkhV9c
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 # Bug Fix: Icone Mancanti - 27 Gennaio 2025
 
 ## Problema Identificato
@@ -239,9 +246,12 @@ php artisan config:clear
 **Priorità**: Alta
 **Stato**: ✅ Risolto
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_I73sIN
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

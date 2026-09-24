@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_38jGls
 # Struttura Themes e Folio in <nome progetto>
 =======
@@ -9,6 +10,11 @@
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+# Struttura Themes e Folio in <nome progetto>
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 # Struttura Themes e Folio in SaluteOra
 <<<<<<< HEAD
 # Struttura Themes e Folio in <nome progetto>corrente
@@ -32,6 +38,7 @@
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -41,6 +48,8 @@
 =======
 # Struttura Themes e Folio in <nome progetto>
 >>>>>>> .merge_file_9wocbN
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ## ⚠️ ATTENZIONE CRITICA
@@ -52,6 +61,7 @@
 ## Struttura del Progetto
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_38jGls
 Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 =======
@@ -62,6 +72,11 @@ Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la st
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 Il progetto SaluteOra utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 <<<<<<< HEAD
 Il progetto <nome progetto>corrente utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
@@ -85,6 +100,7 @@ Il progetto SaluteOra utilizza un sistema di **Themes** che modifica la struttur
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -94,6 +110,8 @@ Il progetto <nome progetto>corrente utilizza un sistema di **Themes** che modifi
 =======
 Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 >>>>>>> .merge_file_9wocbN
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ```

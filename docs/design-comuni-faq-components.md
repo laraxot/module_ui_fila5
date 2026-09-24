@@ -362,10 +362,14 @@ pub_theme:: → Themes/Sixteen/resources/views/
 
 <<<<<<< HEAD
 Configurato in `config/local/fixcity/xra.php`:
+<<<<<<< HEAD
 <<<<<<< .merge_file_KBJ8SL
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 Configurato in `config/local/fixcity/xra.php`:
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -379,6 +383,11 @@ Configurato in `config/local/<nome progetto>/xra.php`:
 Configurato in `config/local/current/xra.php`:
 =======
 <<<<<<< .merge_file_KBJ8SL
+=======
+Configurato in `config/local/<nome progetto>/xra.php`:
+Configurato in `config/local/current/xra.php`:
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -398,11 +407,14 @@ Configurato in `config/local/<nome progetto>/xra.php`:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_xzsWx4
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```php
 'pub_theme' => 'Sixteen',

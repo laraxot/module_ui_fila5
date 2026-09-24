@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_pg2P3q
 =======
 <<<<<<< HEAD
@@ -65,6 +66,8 @@ Docs cleanup (1 sett)
 **Status:** 🟢 OTTIMO, docs da consolidare
 =======
 >>>>>>> .merge_file_nCdlIi
+=======
+>>>>>>> 804451c (Lint)
 ---
 module: theme
 topic: dry-kiss-analysis
@@ -72,11 +75,15 @@ canonical: ../../../Themes/docs/shared-components/dry-kiss-analysis-2025-10-15-M
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/dry-kiss-analysis-2025-10-15-Modules.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_pg2P3q
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 # DRY & KISS Analysis - Modulo UI
 
 **Data:** 15 Ottobre 2025
@@ -135,9 +142,12 @@ Docs cleanup (1 sett)
 
 **Status:** 🟢 OTTIMO, docs da consolidare
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_nCdlIi
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

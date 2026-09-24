@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_T424yF
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_mEB7yk
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Task: UI Filament v5 \u0026 Tailwind v4 Alignment"
 type: concept
@@ -15,28 +19,40 @@ tags: [filament]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "ui-filament-v5 task: ui filament v5 \u0026 tailwind v4 alignment"
+<<<<<<< HEAD
 <<<<<<< .merge_file_T424yF
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 >>>>>>> .merge_file_mEB7yk
+=======
+>>>>>>> 804451c (Lint)
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+<<<<<<< HEAD
 <<<<<<< .merge_file_T424yF
+=======
+>>>>>>> 804451c (Lint)
 =======
 =======
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_mEB7yk
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./001-design-system-components.md"
   - "./cleanup-redundant-files.md"
@@ -47,6 +63,7 @@ related:
   - "./ui-cleanup-docs.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_T424yF
 <<<<<<< HEAD
 =======
@@ -57,6 +74,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_mEB7yk
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Task: UI Filament v5 \u0026 Tailwind v4 Alignment
 
 ## 📋 Obiettivo

@@ -3,6 +3,7 @@ module: theme
 topic: laravel
 canonical: ../../../../Themes/docs/shared-components/laravel-Modules.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_m2UGqT
 =======
 <<<<<<< HEAD
@@ -12,12 +13,16 @@ canonical: ../../../../Themes/docs/shared-components/laravel-Modules.md
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_zfaFnm
+=======
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./advanced.md"
   - "./index.md"
   - "./security.md"
   - "./styling.md"
   - "./usage.md"
+<<<<<<< HEAD
 <<<<<<< .merge_file_m2UGqT
 <<<<<<< HEAD
 =======
@@ -28,6 +33,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_zfaFnm
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/laravel-Modules.md

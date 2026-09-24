@@ -87,7 +87,10 @@ npm run dev
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 ### Versione Incoming
 
@@ -95,7 +98,10 @@ npm run dev
 ---
 
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ### Versione Incoming
 
 ---

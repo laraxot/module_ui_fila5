@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ue7IAj
 =======
 <<<<<<< HEAD
@@ -153,6 +154,8 @@ Related:
 ## Contenuto assorbito da `agents.md`
 =======
 >>>>>>> .merge_file_TgaoYF
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Agent instructions"
 type: reference
@@ -165,6 +168,7 @@ discussions: []
 related:
   - ./coding-agent-manifests.md
 ---
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 
 <<<<<<< HEAD
@@ -172,6 +176,11 @@ related:
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 # UI {{TYPE^}} LLM Wiki Agent Instructions
 
 > **Module/Theme:** UI
@@ -347,9 +356,12 @@ Related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 # UI {{TYPE^}} LLM Wiki Agent Instructions
 
@@ -498,12 +510,15 @@ Related:
 - [Module Documentation](../README.md)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
 - [Module Documentation](../README.md)
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - [Project Wiki Agent Instructions](../../docs/wiki/agents.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -526,7 +541,10 @@ Related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

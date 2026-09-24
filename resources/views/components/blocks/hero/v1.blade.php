@@ -1,6 +1,10 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 804451c (Lint)
 ?>
 @props(['title', 'subtitle', 'image', 'cta_text', 'cta_link'])
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_P3rNaW
 <<<<<<< HEAD
 =======
@@ -5,6 +6,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -23,6 +27,7 @@
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -34,6 +39,14 @@
 <?php
 
 declare(strict_types=1);
+=======
+=======
+>>>>>>> laraxot/dev
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> 804451c (Lint)
 ?>
 <div class="isolate overflow-hidden bg-gray-900">
     <div class="mx-auto max-w-7xl px-6 pb-96 pt-24 text-center sm:pt-32 lg:px-8">

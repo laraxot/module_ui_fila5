@@ -10,6 +10,7 @@ related:
   - "../../multi-org-sync-laraxot-provtv.md"
   - "../../git-multi-org-sync-handoff.md"
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_FnILmH
 =======
 <<<<<<< .merge_file_jVCWBa
@@ -20,6 +21,8 @@ related:
 <<<<<<< HEAD
 >>>>>>> .merge_file_Li11im
 >>>>>>> .merge_file_hENJul
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43,6 +46,7 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_FnILmH
 =======
 <<<<<<< .merge_file_jVCWBa
@@ -50,6 +54,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Li11im
 >>>>>>> .merge_file_hENJul
+=======
+>>>>>>> 804451c (Lint)
   - "../../../../User/docs/wiki/troubleshooting/git-push-dual-remote-unrelated.md"
 ---
 
@@ -82,6 +88,7 @@ A differenza del caso User (diagnosticato una volta, poi fermo), su UI il ri-mer
 
 - Stesso pattern, altro modulo: [User git-push-dual-remote-unrelated](../../../../User/docs/wiki/troubleshooting/git-push-dual-remote-unrelated.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_FnILmH
 =======
 <<<<<<< .merge_file_jVCWBa
@@ -92,6 +99,8 @@ A differenza del caso User (diagnosticato una volta, poi fermo), su UI il ri-mer
 <<<<<<< HEAD
 >>>>>>> .merge_file_Li11im
 >>>>>>> .merge_file_hENJul
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -115,6 +124,7 @@ A differenza del caso User (diagnosticato una volta, poi fermo), su UI il ri-mer
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_FnILmH
 =======
 <<<<<<< .merge_file_jVCWBa
@@ -122,4 +132,6 @@ A differenza del caso User (diagnosticato una volta, poi fermo), su UI il ri-mer
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Li11im
 >>>>>>> .merge_file_hENJul
+=======
+>>>>>>> 804451c (Lint)
 - Storico risoluzione marker di conflitto (73 file, poi ricorsi): [git-merge-conflict-inventory.md](./git-merge-conflict-inventory.md)

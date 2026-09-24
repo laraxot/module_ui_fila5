@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9T0YDu
 =======
 <<<<<<< HEAD
@@ -237,6 +238,8 @@ class FormState
 5. Documentare best practices 
 =======
 >>>>>>> .merge_file_5IeAga
+=======
+>>>>>>> 804451c (Lint)
 ---
 module: theme
 topic: form_component
@@ -244,11 +247,15 @@ canonical: ../../../../Themes/docs/shared-components/form-component.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/form-component.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_9T0YDu
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 # Form Component
 
 ## 📊 Stato Implementazione
@@ -479,9 +486,12 @@ class FormState
 4. Migliorare validation performance
 5. Documentare best practices 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_5IeAga
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

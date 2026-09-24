@@ -1,6 +1,10 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 804451c (Lint)
 // app/Rules/OpeningHoursRule.php
 
 namespace Modules\UI\Rules;

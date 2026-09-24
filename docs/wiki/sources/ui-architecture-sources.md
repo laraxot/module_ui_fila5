@@ -6,6 +6,7 @@ created: "2026-04-29T00:00:00Z"
 updated: "2026-04-29T00:00:00Z"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Y0yaow
   - "[[UI Operating Model]]"
 =======
@@ -20,6 +21,10 @@ related:
 =======
   - "[[UI Operating Model]]"
 >>>>>>> .merge_file_EZs7SV
+=======
+  - "[[UI Operating Model]]"
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ---
 
@@ -31,6 +36,7 @@ related:
 
 - `README.md`
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Y0yaow
 - `ARCHITECTURE.md`
 - `PRODUCT_STRATEGY.md`
@@ -40,12 +46,15 @@ related:
 - `product-strategy-1.md`
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - `ARCHITECTURE.md`
 - `PRODUCT_STRATEGY.md`
 =======
 - `architecture-1.md`
 - `product-strategy-1.md`
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - `architecture-1.md`
@@ -55,6 +64,8 @@ related:
 - `PRODUCT_STRATEGY.md`
 >>>>>>> .merge_file_EZs7SV
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - `architecture/structure.md`
 
 ## Main Signals

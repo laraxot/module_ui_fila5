@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_QdVD6G
 <<<<<<< HEAD
 > **[2026-07-08] SUPERATO** — `LocationSelector.php` è stato rimosso definitivamente (0 consumer in blade/route/test, importava `Modules\Geo\Models\Comune` in violazione della regola di decoupling documentata in [block-rendering-and-optional-services](wiki/concepts/block-rendering-and-optional-services.md)). I conflitti Git ricorrenti documentati sotto erano il sintomo: agent diversi continuavano ad aggiungere/rimuovere lo stesso file morto. Vedi [wiki/log.md](wiki/log.md) del 2026-07-08 per i dettagli. Il contenuto storico sotto resta come riferimento del perché il file esisteva.
@@ -5,15 +6,20 @@
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 > **[2026-07-08] SUPERATO** — `LocationSelector.php` è stato rimosso definitivamente (0 consumer in blade/route/test, importava `Modules\Geo\Models\Comune` in violazione della regola di decoupling documentata in [block-rendering-and-optional-services](wiki/concepts/block-rendering-and-optional-services.md)). I conflitti Git ricorrenti documentati sotto erano il sintomo: agent diversi continuavano ad aggiungere/rimuovere lo stesso file morto. Vedi [wiki/log.md](wiki/log.md) del 2026-07-08 per i dettagli. Il contenuto storico sotto resta come riferimento del perché il file esisteva.
 
 =======
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_TkLQGl
+=======
+>>>>>>> 804451c (Lint)
 # Risoluzione Conflitto LocationSelector.php
 
 ## Problema Identificato
@@ -27,11 +33,14 @@ Il file `Modules/UI/app/Filament/Forms/Components/LocationSelector.php` presenta
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 3. **Linea 322**: Continuazione metodo validate
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 3. **Linea 322**: Continuazione metodo validate 
 =======
 <<<<<<< HEAD
@@ -55,9 +64,12 @@ Il file `Modules/UI/app/Filament/Forms/Components/LocationSelector.php` presenta
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 4. **Linea 342**: Metodo getGeographicData con gestione dati geografici
 5. **Linea 355**: Continuazione metodo getGeographicData
@@ -129,6 +141,7 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 - [filament-components-location-studio.md](filament-components-location-studio.md)
 - [components.md](components.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_QdVD6G
 - [Modules/UI/docs/](../../docs/)
 
@@ -146,6 +159,11 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 
 =======
 >>>>>>> laraxot/dev
+=======
+- [Modules/UI/docs/](../../docs/)
+
+=======
+>>>>>>> 804451c (Lint)
 - [Modules/UI/docs/](../docs/)
 
 <<<<<<< HEAD
@@ -168,9 +186,12 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 # Risoluzione Conflitto LocationSelector.php
 
@@ -253,6 +274,7 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 - [Modules/UI/project_docs/](../project_docs/)
 - [Modules/UI/project_docs/](../project_docs/)
 - [Modules/UI/project_docs/](../project_docs/)
+<<<<<<< HEAD
 <<<<<<< .merge_file_QdVD6G
 <<<<<<< HEAD
 =======
@@ -261,6 +283,10 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 
 *Ultimo aggiornamento: 29 luglio 2025*
 <<<<<<< HEAD
@@ -279,10 +305,13 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 
 >>>>>>> .merge_file_TkLQGl
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

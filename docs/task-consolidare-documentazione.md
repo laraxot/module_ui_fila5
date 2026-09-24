@@ -4,6 +4,7 @@
 **Priorita'**: Bassa
 **Completamento**: 15%
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WAInLs
 =======
 <<<<<<< HEAD
@@ -19,6 +20,11 @@
 =======
 >>>>>>> .merge_file_8w8rmQ
 >>>>>>> laraxot/dev
+=======
+=======
+**Data**: 2026-01-30
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
 ---
 

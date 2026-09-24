@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_gOLy4t
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_GLr51b
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Componenti Volt"
 type: concept
@@ -15,7 +19,10 @@ tags: [volt]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "volt componenti volt"
+<<<<<<< HEAD
 <<<<<<< .merge_file_gOLy4t
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,12 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_GLr51b
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -45,6 +55,7 @@ related:
   - "./full-calendar-1.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_gOLy4t
 <<<<<<< HEAD
 =======
@@ -55,6 +66,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_GLr51b
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Componenti Volt
 
 ## Panoramica
@@ -67,6 +81,7 @@ Nel progetto la regola di default per le componenti Volt interattive è la sinta
 - [Livewire](https://livewire.laravel.com)
 - [Filament](https://filamentphp.com)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_gOLy4t
 - [Documentazione UI](../readme.md)
 =======
@@ -74,10 +89,13 @@ Nel progetto la regola di default per le componenti Volt interattive è la sinta
 - [Documentazione UI](../README.md)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [Documentazione UI](../readme.md)
 =======
 - [Documentazione UI](../README.md)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - [Documentazione UI](../README.md)
@@ -85,6 +103,8 @@ Nel progetto la regola di default per le componenti Volt interattive è la sinta
 - [Documentazione UI](../readme.md)
 >>>>>>> .merge_file_GLr51b
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - [Best Practices](../best-practices.md)
 - [Layout](../layouts.md)
 - [Temi](../themes.md)

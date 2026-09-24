@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_czE0BG
 <<<<<<< HEAD
 =======
@@ -9,11 +10,15 @@ declare(strict_types=1);
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/it/icon_state_split.php
 return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 // Laraxot — see module docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
@@ -32,6 +37,8 @@ return [
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
 =======
+=======
+>>>>>>> 804451c (Lint)
     // Laraxot — see module docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
@@ -48,7 +55,10 @@ return [
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     'fields' => [
         'banned-icon' => [
             'label' => 'banned-icon',
@@ -279,6 +289,7 @@ return [
             'description' => '',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
@@ -288,6 +299,11 @@ return [
 return [
     'fields' => [
 >>>>>>> .merge_file_QIKtdu
+=======
+=======
+return [
+    'fields' => [
+>>>>>>> 804451c (Lint)
         'banned-icon' => ['label' => 'banned-icon', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
         'banned-action' => ['label' => 'banned-action', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
         'cancelled-icon' => ['label' => 'cancelled-icon', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
@@ -326,6 +342,7 @@ return [
         'prova' => ['label' => 'prova', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
         'name' => ['label' => 'name', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
         'delete' => ['label' => 'delete', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
+<<<<<<< HEAD
 <<<<<<< .merge_file_czE0BG
 <<<<<<< HEAD
 =======
@@ -334,12 +351,16 @@ return [
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_QIKtdu
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
     ],
     'label' => 'Icon State Split',
     'plural_label' => 'Icon State Split (Plurale)',
     'navigation' => [
         'name' => 'Icon State Split',
         'plural' => 'Icon State Split',
+<<<<<<< HEAD
 <<<<<<< .merge_file_czE0BG
 <<<<<<< HEAD
 =======
@@ -347,10 +368,14 @@ return [
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
         'group' => [
             'name' => 'General',
             'description' => 'General Settings',
         ],
+<<<<<<< HEAD
 =======
         'group' => ['name' => 'General', 'description' => 'General Settings'],
 >>>>>>> .merge_file_QIKtdu
@@ -360,6 +385,13 @@ return [
     ],
     'actions' => [
 <<<<<<< .merge_file_czE0BG
+=======
+        'label' => 'Icon State Split',
+        'sort' => 1,
+        'icon' => 'heroicon-o-collection',
+    ],
+    'actions' => [
+>>>>>>> 804451c (Lint)
         'create' => [
             'label' => 'Crea Icon State Split',
         ],
@@ -370,21 +402,29 @@ return [
             'label' => 'Elimina Icon State Split',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
         'group' => ['name' => 'General', 'description' => 'General Settings'],
         'label' => 'Icon State Split',
         'sort' => 1,
         'icon' => 'heroicon-o-rectangle-stack',
     ],
     'actions' => [
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_QIKtdu
+=======
+>>>>>>> 804451c (Lint)
         'create' => ['label' => 'Crea Icon State Split'],
         'edit' => ['label' => 'Modifica Icon State Split'],
         'delete' => ['label' => 'Elimina Icon State Split'],
         'prova' => ['label' => 'prova', 'icon' => 'prova', 'tooltip' => 'prova'],
+<<<<<<< HEAD
 <<<<<<< .merge_file_czE0BG
 <<<<<<< HEAD
 =======
@@ -393,5 +433,8 @@ return [
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_QIKtdu
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
     ],
 ];

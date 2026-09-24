@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_RZmlos
 =======
 <<<<<<< HEAD
@@ -9,6 +10,10 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_NsglFg
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 # UI Module Architecture
 
 ## Overview
@@ -31,7 +36,10 @@ The UI module provides Filament-based admin interface components, themes, and ut
 - Components: `docs/wiki/ui/UI-*.md`
 - Filament: `docs/wiki/concepts/UI-filament-patterns.md`
 =======
+<<<<<<< HEAD
 <<<<<<< .merge_file_RZmlos
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -39,12 +47,16 @@ The UI module provides Filament-based admin interface components, themes, and ut
 <<<<<<< HEAD
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_NsglFg
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # UI Module - Architecture Guide (2025)
 
 > **Last Updated:** 2025-11-19
@@ -699,16 +711,22 @@ The UI module is a **well-architected, feature-rich Filament customization layer
 **Document Version:** 1.0
 **Generated:** 2025-11-19
 **Author:** Claude Code Analysis
+<<<<<<< HEAD
 <<<<<<< .merge_file_RZmlos
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 =======
 >>>>>>> laraxot/dev
 ---
@@ -737,9 +755,12 @@ UI module for Laraxot platform.
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_NsglFg
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

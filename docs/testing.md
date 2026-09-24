@@ -176,6 +176,7 @@ protected function createApplication()
     
     $app['config']->set([
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_aQNWp0
 'database.connections.ui.database' => 'Quaeris_data_test',
 =======
@@ -186,6 +187,11 @@ protected function createApplication()
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+'database.connections.ui.database' => 'Quaeris_data_test',
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
         'database.connections.ui.database' => 'quaeris_data_test',
 <<<<<<< HEAD
         'database.connections.ui.database' => 'modulo questionari_data_test',
@@ -209,6 +215,7 @@ protected function createApplication()
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -217,6 +224,8 @@ protected function createApplication()
 =======
 'database.connections.ui.database' => 'Quaeris_data_test',
 >>>>>>> .merge_file_WGc67h
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     ]);
     
@@ -299,6 +308,7 @@ protected function createApplication()
 
 - [Laravel 12.x Testing Documentation](https://laravel.com/docs/12.x/testing)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_aQNWp0
 =======
 <<<<<<< HEAD
@@ -314,12 +324,18 @@ protected function createApplication()
 =======
 >>>>>>> .merge_file_WGc67h
 >>>>>>> laraxot/dev
+=======
+=======
+- [Laravel 13.x Testing Documentation](https://laravel.com/docs/12.x/testing)
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 - [Pest Installation Guide](https://pestphp.com/docs/installation)
 - [PHPStan Documentation](https://phpstan.org/user-guide/getting-started)
 
 ### Internal Resources
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_aQNWp0
 - [Testing Setup Guide](../../../docs/testing-setup.md)
 - [Testing Best Practices](../../../docs/testing-best-practices.md)
@@ -334,6 +350,8 @@ protected function createApplication()
 =======
 <<<<<<< .merge_file_aQNWp0
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [Testing Setup Guide](../../../docs/testing-setup.md)
 - [Testing Best Practices](../../../docs/testing-best-practices.md)
 - [Troubleshooting Guide](../../../docs/troubleshooting.md)
@@ -342,6 +360,7 @@ protected function createApplication()
 - [Testing Best Practices](../../docs/testing-best-practices.md)
 - [Troubleshooting Guide](../../docs/troubleshooting.md)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - [Testing Setup Guide](../../../docs/testing-setup.md)
@@ -349,6 +368,8 @@ protected function createApplication()
 - [Troubleshooting Guide](../../../docs/troubleshooting.md)
 >>>>>>> .merge_file_WGc67h
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ## Testing Examples
 
@@ -445,6 +466,7 @@ Remember: Good tests are the foundation of reliable software development.
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_aQNWp0
 *
 =======
@@ -456,6 +478,10 @@ Remember: Good tests are the foundation of reliable software development.
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_WGc67h
+=======
+*
+=======
+>>>>>>> 804451c (Lint)
 *Last updated: January 2025*
 
 ## Story 5.26 — progress verso 100% (2026-08-20)
@@ -510,6 +536,7 @@ Prossimo step: coprire rami residui IconStateColumn (fillForm/textarea required)
 ```bash
 ./vendor/bin/pest Modules/UI/tests
 ```
+<<<<<<< HEAD
 <<<<<<< .merge_file_aQNWp0
 <<<<<<< HEAD
 =======
@@ -519,4 +546,6 @@ Prossimo step: coprire rami residui IconStateColumn (fillForm/textarea required)
 =======
 *
 >>>>>>> .merge_file_WGc67h
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

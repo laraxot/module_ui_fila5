@@ -116,6 +116,7 @@ composer format        # Formatta il codice
 Le modifiche vengono tracciate nel repository GitHub.
 # Modulo UI
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 <<<<<<< .merge_file_cS9kDa
@@ -129,6 +130,11 @@ Le modifiche vengono tracciate nel repository GitHub.
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 Le modifiche vengono tracciate nel repository GitHub. 
 =======
 <<<<<<< HEAD
@@ -147,11 +153,14 @@ Le modifiche vengono tracciate nel repository GitHub.
 Le modifiche vengono tracciate nel repository GitHub.
 # Modulo UI
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_wbEKXH
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ## Informazioni Generali
 - **Nome**: `laraxot/module_ui_fila5`
@@ -159,6 +168,7 @@ Le modifiche vengono tracciate nel repository GitHub.
 - **Namespace**: `Modules\UI`
 - **Repository**: https://github.com/laraxot/module_ui_fila5.git
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 =======
 <<<<<<< HEAD
@@ -173,23 +183,31 @@ Le modifiche vengono tracciate nel repository GitHub.
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_wbEKXH
+=======
+>>>>>>> 804451c (Lint)
 
 ## Service Providers
 1. `Modules\UI\Providers\UIServiceProvider`
 2. `Modules\UI\Providers\Filament\AdminPanelProvider`
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 ## Service Providers
 1. `Modules\UI\Providers\UIServiceProvider`
 2. `Modules\UI\Providers\Filament\AdminPanelProvider`
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ## Struttura
 ```
 app/
@@ -199,6 +217,7 @@ app/
 ├── Providers/      # Service Providers
 └── Services/       # Servizi UI
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 =======
 <<<<<<< HEAD
@@ -213,29 +232,38 @@ app/
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_wbEKXH
+=======
+>>>>>>> 804451c (Lint)
 ```
 
 ## Dipendenze
 ### Pacchetti Required
 - `owenvoke/blade-fontawesome`
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 ## Dipendenze
 ### Pacchetti Required
 - `owenvoke/blade-fontawesome`
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ### Moduli Required
 - User
 - Tenant
 - Xot
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 =======
 <<<<<<< HEAD
@@ -250,6 +278,8 @@ Namespace: `Modules\UI\Database\Factories`
 Namespace: `Modules\UI\Database\Seeders`
 =======
 >>>>>>> .merge_file_wbEKXH
+=======
+>>>>>>> 804451c (Lint)
 
 ## Database
 ### Factories
@@ -258,22 +288,29 @@ Namespace: `Modules\UI\Database\Factories`
 ### Seeders
 Namespace: `Modules\UI\Database\Seeders`
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ## Database
 ### Factories
 Namespace: `Modules\UI\Database\Factories`
 ### Seeders
 Namespace: `Modules\UI\Database\Seeders`
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_wbEKXH
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ## Testing
 Comandi disponibili:
@@ -283,6 +320,7 @@ composer test-coverage  # Genera report di copertura
 composer analyse       # Analisi statica del codice
 composer format        # Formatta il codice
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 ```
 
@@ -300,6 +338,11 @@ composer format        # Formatta il codice
 ```
 
 >>>>>>> .merge_file_wbEKXH
+=======
+```
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ## Funzionalità
 - Componenti UI riutilizzabili
@@ -312,6 +355,7 @@ composer format        # Formatta il codice
 - Notifiche UI
 - Tabelle interattive
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 
 =======
@@ -326,12 +370,17 @@ composer format        # Formatta il codice
 =======
 
 >>>>>>> .merge_file_wbEKXH
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ## Configurazione
 ### Font Awesome
 - Configurazione in `config/blade-fontawesome.php`
 - Supporto per diverse versioni di FA
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 =======
 <<<<<<< HEAD
@@ -346,23 +395,31 @@ composer format        # Formatta il codice
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_wbEKXH
+=======
+>>>>>>> 804451c (Lint)
 
 ### Componenti
 - Registrazione in `app/Providers/UIServiceProvider.php`
 - Configurazione view in `resources/views/components`
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 ### Componenti
 - Registrazione in `app/Providers/UIServiceProvider.php`
 - Configurazione view in `resources/views/components`
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ## Best Practices
 1. Seguire le convenzioni di naming Laravel
 2. Documentare tutte le classi e i metodi pubblici
@@ -373,6 +430,7 @@ composer format        # Formatta il codice
 7. Ottimizzare assets
 8. Mantenere consistenza UI
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 
 =======
@@ -387,6 +445,10 @@ composer format        # Formatta il codice
 =======
 
 >>>>>>> .merge_file_wbEKXH
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ## Troubleshooting
 ### Problemi Comuni
@@ -395,6 +457,7 @@ composer format        # Formatta il codice
    - Controllare configurazione webpack/vite
    - Verificare permessi directory
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 
 =======
@@ -409,12 +472,17 @@ composer format        # Formatta il codice
 =======
 
 >>>>>>> .merge_file_wbEKXH
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 2. **Problemi di Font Awesome**
    - Verificare registrazione provider
    - Controllare sintassi icone
    - Verificare caricamento CSS
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 
 =======
@@ -429,11 +497,16 @@ composer format        # Formatta il codice
 =======
 
 >>>>>>> .merge_file_wbEKXH
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 3. **Errori di Layout**
    - Controllare responsive breakpoints
    - Verificare conflitti CSS
    - Debug con strumenti browser
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 =======
@@ -448,6 +521,8 @@ composer format        # Formatta il codice
 - Helper per icone comuni
 =======
 >>>>>>> .merge_file_wbEKXH
+=======
+>>>>>>> 804451c (Lint)
 
 ## Componenti Disponibili
 ### Icons
@@ -455,21 +530,28 @@ composer format        # Formatta il codice
 - Supporto per icone custom
 - Helper per icone comuni
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ## Componenti Disponibili
 ### Icons
 - Supporto per icone custom
 - Helper per icone comuni
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_wbEKXH
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### Navigation
 - Menu responsive
@@ -477,6 +559,7 @@ composer format        # Formatta il codice
 - Tabs
 - Sidebar
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 
 =======
@@ -491,6 +574,10 @@ composer format        # Formatta il codice
 =======
 
 >>>>>>> .merge_file_wbEKXH
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### Forms
 - Input fields
@@ -499,11 +586,15 @@ composer format        # Formatta il codice
 - Date pickers
 - File upload
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
+=======
+>>>>>>> 804451c (Lint)
 
 ## Changelog
 Le modifiche vengono tracciate nel repository GitHub.
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -512,6 +603,8 @@ Le modifiche vengono tracciate nel repository GitHub.
 Le modifiche vengono tracciate nel repository GitHub.
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ## Changelog
 <<<<<<< HEAD
 =======
@@ -532,6 +625,7 @@ Le modifiche vengono tracciate nel repository GitHub.
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -542,4 +636,6 @@ Le modifiche vengono tracciate nel repository GitHub.
 ## Changelog
 Le modifiche vengono tracciate nel repository GitHub.
 >>>>>>> .merge_file_wbEKXH
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

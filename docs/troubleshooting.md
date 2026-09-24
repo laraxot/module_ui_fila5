@@ -3,6 +3,7 @@
 ## Common Issues
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Smuzp3
 For general troubleshooting, please refer to the [Xot Troubleshooting Guide](../../xot/docs/troubleshooting.md).
 =======
@@ -764,6 +765,10 @@ Se il troubleshooting non risolve:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
+=======
+For general troubleshooting, please refer to the [Xot Troubleshooting Guide](../../xot/docs/troubleshooting.md).
+=======
+>>>>>>> 804451c (Lint)
 For general troubleshooting, please refer to the [Xot Troubleshooting Guide](../../Xot/docs/troubleshooting.md).
 
 ---
@@ -1511,7 +1516,10 @@ Se il troubleshooting non risolve:
 - [PATTERNS](./PATTERNS.md) — Decisioni architetturali
 - [INDEX](./index.md) — Indice documentazione completo
 - [standards/ui-standards](./standards/ui-standards.md) — Component standards
+<<<<<<< HEAD
 =======
 For general troubleshooting, please refer to the [Xot Troubleshooting Guide](../../xot/docs/troubleshooting.md).
 >>>>>>> .merge_file_AdOWrM
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

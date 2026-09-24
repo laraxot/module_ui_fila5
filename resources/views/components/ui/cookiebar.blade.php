@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 ?>
+=======
+>>>>>>> 804451c (Lint)
 @props([
     'showCookieBar' => true,
     'policyUrl' => '#',

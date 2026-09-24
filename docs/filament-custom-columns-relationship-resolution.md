@@ -167,6 +167,7 @@ class ValutatoreColumn extends GroupColumn
 ```php
 // In your Model (e.g., Schede.php)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_fPreRK
 class Scheda extends BaseModel
 =======
@@ -174,10 +175,13 @@ class Scheda extends BaseModel
 class Schede extends BaseModel
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 class Scheda extends BaseModel
 =======
 class Schede extends BaseModel
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 class Schede extends BaseModel
@@ -185,6 +189,8 @@ class Schede extends BaseModel
 class Scheda extends BaseModel
 >>>>>>> .merge_file_HGbJIE
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 {
     protected function valutatoreNomeDiri(): Attribute
     {
@@ -649,6 +655,7 @@ The relationship resolution problem in custom Filament columns stems from the di
 <<<<<<< HEAD
 *This document is part of the PTVX development guide. For related documentation, see the UI module documentation and Laraxot architecture guides.*
 =======
+<<<<<<< HEAD
 <<<<<<< .merge_file_fPreRK
 <<<<<<< HEAD
 *This document is part of the PTVX development guide. For related documentation, see the UI module documentation and Laraxot architecture guides.*
@@ -663,3 +670,7 @@ The relationship resolution problem in custom Filament columns stems from the di
 *This document is part of the PTVX development guide. For related documentation, see the UI module documentation and Laraxot architecture guides.*
 >>>>>>> .merge_file_HGbJIE
 >>>>>>> laraxot/dev
+=======
+*This document is part of the PTVX development guide. For related documentation, see the UI module documentation and Laraxot architecture guides.*
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

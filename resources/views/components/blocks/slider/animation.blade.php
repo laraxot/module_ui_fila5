@@ -1,6 +1,10 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 804451c (Lint)
 ?>
 {{-- https://flowbite.com/docs/components/carousel/#animation --}}
 <div id="animation-carousel" class="relative w-full" data-carousel="static">

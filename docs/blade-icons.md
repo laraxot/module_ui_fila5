@@ -115,6 +115,7 @@ La stessa filosofia di gestione centralizzata dei path tramite action (es. GetMo
 - **Descrizione**: Icona per l'autenticazione e il login degli utenti
 - **Utilizzo**: `@svg('ui-login')` o `ui-login` nei componenti Filament
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ru4Igi
 - **Aggiunta**: [DATE] - Sostituisce `heroicon-o-login` non disponibile
 =======
@@ -122,10 +123,13 @@ La stessa filosofia di gestione centralizzata dei path tramite action (es. GetMo
 - **Aggiunta**: 2025-01-27 - Sostituisce `heroicon-o-login` non disponibile
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - **Aggiunta**: [DATE] - Sostituisce `heroicon-o-login` non disponibile
 =======
 - **Aggiunta**: 2025-01-27 - Sostituisce `heroicon-o-login` non disponibile
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - **Aggiunta**: 2025-01-27 - Sostituisce `heroicon-o-login` non disponibile
@@ -133,6 +137,8 @@ La stessa filosofia di gestione centralizzata dei path tramite action (es. GetMo
 - **Aggiunta**: [DATE] - Sostituisce `heroicon-o-login` non disponibile
 >>>>>>> .merge_file_8lqCJ0
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ### Icona Authenticate
 - **Nome**: `ui-authenticate`
@@ -140,6 +146,7 @@ La stessa filosofia di gestione centralizzata dei path tramite action (es. GetMo
 - **Descrizione**: Icona per l'autenticazione e verifica utenti
 - **Utilizzo**: `@svg('ui-authenticate')` o `ui-authenticate` nei componenti Filament
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ru4Igi
 - **Aggiunta**: [DATE] - Sostituisce `authenticate` non disponibile
 =======
@@ -147,10 +154,13 @@ La stessa filosofia di gestione centralizzata dei path tramite action (es. GetMo
 - **Aggiunta**: 2025-01-27 - Sostituisce `authenticate` non disponibile
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - **Aggiunta**: [DATE] - Sostituisce `authenticate` non disponibile
 =======
 - **Aggiunta**: 2025-01-27 - Sostituisce `authenticate` non disponibile
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - **Aggiunta**: 2025-01-27 - Sostituisce `authenticate` non disponibile
@@ -158,6 +168,8 @@ La stessa filosofia di gestione centralizzata dei path tramite action (es. GetMo
 - **Aggiunta**: [DATE] - Sostituisce `authenticate` non disponibile
 >>>>>>> .merge_file_8lqCJ0
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ## Come Funziona il Sistema
 
@@ -207,6 +219,7 @@ MenuItem::make()
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ru4Igi
 =======
 <<<<<<< HEAD
@@ -223,6 +236,8 @@ MenuItem::make()
 **Collegamento:** Vedi anche [XotBaseServiceProvider.md](./XotBaseServiceProvider.md)
 =======
 >>>>>>> .merge_file_8lqCJ0
+=======
+>>>>>>> 804451c (Lint)
 ## Nota sulla correzione e centralizzazione ([DATE])
 
 - Seguire i pattern e le regole documentate in [XotBaseServiceProvider.md](./xotbaseserviceprovider.md) per la registrazione delle icone Blade.
@@ -230,11 +245,15 @@ MenuItem::make()
 - Documentare ogni estensione o personalizzazione.
 
 **Collegamento:** Vedi anche [XotBaseServiceProvider.md](./xotbaseserviceprovider.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ru4Igi
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ## Nota sulla correzione e centralizzazione (2025-05-13)
 
 - Seguire i pattern e le regole documentate in [XotBaseServiceProvider.md](./XotBaseServiceProvider.md) per la registrazione delle icone Blade.
@@ -243,11 +262,14 @@ MenuItem::make()
 
 **Collegamento:** Vedi anche [XotBaseServiceProvider.md](./XotBaseServiceProvider.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_8lqCJ0
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ## Conclusione

@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qLRLRE
 =======
+>>>>>>> 804451c (Lint)
+=======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -10,6 +14,8 @@
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 =======
@@ -19,8 +25,11 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_7X3x3Z
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Standard Form nei Temi"
 type: rule
@@ -38,7 +47,10 @@ related:
   - "./performance.md"
   - "./ui-standards.md"
 ---
+<<<<<<< HEAD
 <<<<<<< .merge_file_qLRLRE
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 
@@ -57,12 +69,15 @@ related:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 =======
 >>>>>>> .merge_file_7X3x3Z
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 # Standard Form nei Temi
 
@@ -126,11 +141,14 @@ related:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <input
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
   <input 
 =======
 <<<<<<< HEAD
@@ -154,9 +172,12 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     type="text"
     class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500"
@@ -185,11 +206,14 @@ related:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <input
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     <input 
 =======
 <<<<<<< HEAD
@@ -213,9 +237,12 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
       type="checkbox"
       class="h-4 w-4 text-primary-600 border-gray-300 rounded focus:ring-primary-500"
@@ -279,11 +306,14 @@ screens: {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <input
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
   <input 
 =======
 <<<<<<< HEAD
@@ -307,9 +337,12 @@ screens: {
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     type="email"
     class="w-full px-4 py-2 border border-red-300 rounded-md focus:ring-2 focus:ring-red-500"
@@ -329,6 +362,7 @@ screens: {
     Username
   </label>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -337,6 +371,11 @@ screens: {
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+  <input
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
   <input 
 =======
 <<<<<<< HEAD
@@ -360,8 +399,11 @@ screens: {
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     type="text"
     class="w-full px-4 py-2 border border-green-300 rounded-md focus:ring-2 focus:ring-green-500"
@@ -383,11 +425,17 @@ screens: {
   </label>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <input
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+  <input
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
   <input 
 =======
 <<<<<<< HEAD
@@ -411,8 +459,11 @@ screens: {
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     type="email"
     aria-labelledby="email-label"
@@ -441,11 +492,17 @@ screens: {
 ```html
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <button
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<button
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 <button 
 =======
 <<<<<<< HEAD
@@ -469,8 +526,11 @@ screens: {
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
   type="submit"
   class="btn btn-primary"
@@ -529,7 +589,10 @@ form.addEventListener('submit', async (e) => {
 - [Accessibility](./accessibility.md)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 - [Performance](./performance.md)
 # Standard Form nei Temi
 
@@ -537,7 +600,10 @@ form.addEventListener('submit', async (e) => {
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - [Performance](./performance.md) 
 =======
 <<<<<<< HEAD
@@ -557,20 +623,29 @@ form.addEventListener('submit', async (e) => {
 # Standard Form nei Temi
 ## Principi Generali
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### Layout e Allineamento
 - I form devono essere centrati nella pagina con margini appropriati
 - Utilizzare una larghezza massima per garantire leggibilità
 - Mantenere una spaziatura consistente tra gli elementi
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ```html
 <div class="container mx-auto max-w-4xl px-4 py-8">
   <form class="w-full space-y-6">
@@ -579,32 +654,47 @@ form.addEventListener('submit', async (e) => {
 </div>
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ### Grid System
 - Utilizzare il grid system di Tailwind per layout responsivi
 - Su mobile: colonna singola
 - Su tablet e desktop: layout a due colonne dove appropriato
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 
 ```html
 =======
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
   <div class="col-span-1">
     <!-- Campo 1 -->
   </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <!-- Campo 2 -->
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
   <div class="col-span-1">
     <!-- Campo 2 -->
   </div>
@@ -614,7 +704,10 @@ form.addEventListener('submit', async (e) => {
 =======
     <!-- Campo 2 -->
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ### Spaziatura
 ```scss
 // Margini e padding consistenti
@@ -622,8 +715,11 @@ form.addEventListener('submit', async (e) => {
   @apply p-6 md:p-8;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 
 .form-group {
   @apply mb-4 md:mb-6;
@@ -639,7 +735,10 @@ form.addEventListener('submit', async (e) => {
 ### Input Text
 ```html
 =======
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 .form-group {
   @apply mb-4 md:mb-6;
 .form-section {
@@ -647,8 +746,11 @@ form.addEventListener('submit', async (e) => {
 ## Componenti Form
 ### Input Text
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 <div class="form-group">
   <label class="block text-sm font-medium text-gray-700 mb-2">
@@ -659,8 +761,11 @@ form.addEventListener('submit', async (e) => {
     class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500"
   >
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 </div>
 ```
 
@@ -680,7 +785,10 @@ form.addEventListener('submit', async (e) => {
 ```html
 <div class="form-group">
 =======
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ### Select
     Ruolo
   <select class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500">
@@ -688,8 +796,11 @@ form.addEventListener('submit', async (e) => {
   </select>
 ### Checkbox e Radio
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
   <div class="flex items-center">
     <input
@@ -700,8 +811,11 @@ form.addEventListener('submit', async (e) => {
       Accetto i termini
     </label>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
   </div>
 </div>
 ```
@@ -717,15 +831,21 @@ form.addEventListener('submit', async (e) => {
 }
 
 =======
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ## Responsive Design
 ### Mobile First
 // Base styles (mobile)
   width: 100%;
   padding: 1rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 // Tablet (md)
 @screen md {
@@ -735,8 +855,11 @@ form.addEventListener('submit', async (e) => {
     margin: 0 auto;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 }
 
 // Desktop (lg)
@@ -750,14 +873,20 @@ form.addEventListener('submit', async (e) => {
 ### Breakpoints
 ```scss
 =======
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 // Desktop (lg)
 @screen lg {
     max-width: 1024px;
 ### Breakpoints
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 // Tailwind breakpoints
 screens: {
@@ -767,11 +896,14 @@ screens: {
   'xl': '1280px',
   '2xl': '1536px',
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Validazione e Feedback
 ### Errori
     Email
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 }
 ```
 
@@ -789,11 +921,15 @@ screens: {
 ### Errori
     Email
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     type="email"
     class="w-full px-4 py-2 border border-red-300 rounded-md focus:ring-2 focus:ring-red-500"
     aria-invalid="true"
     aria-describedby="email-error"
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1138,6 +1274,8 @@ screens: {
 ## Performance
 ### Loading States
 =======
+=======
+>>>>>>> 804451c (Lint)
   >
   <p id="email-error" class="mt-2 text-sm text-red-600">
     Inserisci un indirizzo email valido
@@ -1196,10 +1334,14 @@ screens: {
 
 ### Loading States
 ```html
+<<<<<<< HEAD
 <<<<<<< .merge_file_qLRLRE
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
   <p id="email-error" class="mt-2 text-sm text-red-600">
     Inserisci un indirizzo email valido
   </p>
@@ -1224,11 +1366,14 @@ screens: {
 ## Performance
 ### Loading States
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_7X3x3Z
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 <button
   type="submit"
@@ -1239,6 +1384,7 @@ screens: {
   <span>Caricamento...</span>
 </button>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qLRLRE
 ```
 
@@ -1256,12 +1402,18 @@ screens: {
 ```
 
 >>>>>>> .merge_file_7X3x3Z
+=======
+```
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### Lazy Loading
 ```javascript
 // Lazy load form validation library
 const loadValidator = () => import('./validator.js');
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qLRLRE
 
 =======
@@ -1276,12 +1428,17 @@ const loadValidator = () => import('./validator.js');
 =======
 
 >>>>>>> .merge_file_7X3x3Z
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 form.addEventListener('submit', async (e) => {
   const validator = await loadValidator();
   // Validate form
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qLRLRE
 =======
 <<<<<<< HEAD
@@ -1293,10 +1450,13 @@ form.addEventListener('submit', async (e) => {
 ## Best Practices
 =======
 >>>>>>> .merge_file_7X3x3Z
+=======
+>>>>>>> 804451c (Lint)
 ```
 
 ## Best Practices
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_qLRLRE
 <<<<<<< HEAD
 =======
@@ -1307,11 +1467,17 @@ form.addEventListener('submit', async (e) => {
 =======
 >>>>>>> .merge_file_7X3x3Z
 >>>>>>> laraxot/dev
+=======
+=======
+## Best Practices
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 1. **Centratura e Allineamento**
    - Tutti i form devono essere centrati nella pagina
    - Utilizzare container con larghezza massima
    - Mantenere margini consistenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qLRLRE
 
 =======
@@ -1326,12 +1492,17 @@ form.addEventListener('submit', async (e) => {
 =======
 
 >>>>>>> .merge_file_7X3x3Z
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 2. **Responsive Design**
    - Layout a colonna singola su mobile
    - Grid system per schermi più grandi
    - Breakpoint standard di Tailwind
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qLRLRE
 
 =======
@@ -1346,12 +1517,17 @@ form.addEventListener('submit', async (e) => {
 =======
 
 >>>>>>> .merge_file_7X3x3Z
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 3. **Spaziatura**
    - Margini verticali consistenti tra gruppi di campi
    - Padding interno consistente per i container
    - Gap appropriato nel grid system
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qLRLRE
 
 =======
@@ -1366,12 +1542,17 @@ form.addEventListener('submit', async (e) => {
 =======
 
 >>>>>>> .merge_file_7X3x3Z
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 4. **Validazione**
    - Feedback visivo immediato
    - Messaggi di errore chiari
    - Stati di successo appropriati
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qLRLRE
 
 =======
@@ -1386,12 +1567,17 @@ form.addEventListener('submit', async (e) => {
 =======
 
 >>>>>>> .merge_file_7X3x3Z
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 5. **Accessibilità**
    - ARIA labels per tutti i campi
    - Focus states visibili
    - Messaggi di errore associati ai campi
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qLRLRE
 
 =======
@@ -1406,12 +1592,17 @@ form.addEventListener('submit', async (e) => {
 =======
 
 >>>>>>> .merge_file_7X3x3Z
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 6. **Performance**
    - Lazy loading di script pesanti
    - Stati di loading appropriati
    - Ottimizzazione delle risorse
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qLRLRE
 =======
 <<<<<<< HEAD
@@ -1424,16 +1615,22 @@ form.addEventListener('submit', async (e) => {
 - [Accessibility](./accessibility.md)
 =======
 >>>>>>> .merge_file_7X3x3Z
+=======
+>>>>>>> 804451c (Lint)
 
 ## Collegamenti
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md)
 - [Performance](./performance.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_qLRLRE
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ## Collegamenti
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md)
@@ -1456,9 +1653,12 @@ form.addEventListener('submit', async (e) => {
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_7X3x3Z
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

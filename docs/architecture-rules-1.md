@@ -4,11 +4,16 @@ module: theme
 topic: architecture-rules-1
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 topic: architecture-rules-1
 =======
 topic: architecture-rules_1
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+topic: architecture-rules_1
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 canonical: ../../../Themes/docs/shared-components/architecture-rules-Modules.md
 ---
 
@@ -16,7 +21,10 @@ See canonical documentation: ../../../Themes/docs/shared-components/architecture
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 # Architectural Rules & Guidelines
 
 This module adheres to the **Laraxot Architecture** and **Super Cow Methodology**.
@@ -33,4 +41,7 @@ For strict coding standards, Filament extension rules, and PHPStan guidelines, p
 3.  **XotBase**: Always extend `XotBase` classes, never Filament classes directly.
 4.  **Translations**: Use `LangServiceProvider` for automatic label resolution.
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)

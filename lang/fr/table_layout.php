@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_JrVSN0
 <<<<<<< HEAD
 =======
@@ -9,11 +10,15 @@ declare(strict_types=1);
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/fr/table_layout.php
 return [
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -22,6 +27,10 @@ return [
 =======
 return [
 >>>>>>> .merge_file_h5chLX
+=======
+=======
+return [
+>>>>>>> 804451c (Lint)
     'values' => [
         'list' => [
             'label' => 'Liste',
@@ -36,6 +45,7 @@ return [
             'description' => 'Grille',
         ],
     ],
+<<<<<<< HEAD
 <<<<<<< .merge_file_JrVSN0
 <<<<<<< HEAD
 =======
@@ -44,6 +54,9 @@ return [
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_h5chLX
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
     'actions' => [
         'toggle' => [
             'label' => 'Basculer la disposition',

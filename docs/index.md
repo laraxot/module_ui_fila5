@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ak3LqS
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_MqYfg2
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "UI — indice della documentazione"
 description: "Documentazione del modulo UI: componenti di interfaccia condivisi."
@@ -23,6 +27,7 @@ issues: https://github.com/laraxot/module_ui_fila5/issues
 discussions: https://github.com/laraxot/module_ui_fila5/discussions
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_ak3LqS
 <<<<<<< HEAD
 =======
@@ -33,6 +38,9 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MqYfg2
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # UI Module Documentation
 
 ## Overview
@@ -1176,6 +1184,7 @@ Common issues and solutions:
 
 ## Related Modules
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ak3LqS
 =======
 <<<<<<< HEAD
@@ -1189,25 +1198,34 @@ Common issues and solutions:
 - [Xot Module](../Xot/docs/index.md) - Base UI infrastructure and component patterns
 =======
 >>>>>>> .merge_file_MqYfg2
+=======
+>>>>>>> 804451c (Lint)
 - [Chart Module](../chart/docs/index.md) - Chart generation and data processing
 - [Quaeris Module](../Quaeris/docs/index.md) - Survey management and question charts
 - [LimeSurvey Module](../limesurvey/docs/index.md) - Survey data access with dynamic models
 - [Xot Module](../xot/docs/index.md) - Base UI infrastructure and component patterns
+<<<<<<< HEAD
 <<<<<<< .merge_file_ak3LqS
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 - [Chart Module](../Chart/docs/index.md) - Chart generation and data processing
 - [Quaeris Module](../Quaeris/docs/index.md) - Survey management and question charts
 - [LimeSurvey Module](../Limesurvey/docs/index.md) - Survey data access with dynamic models
 - [Xot Module](../Xot/docs/index.md) - Base UI infrastructure and component patterns
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_MqYfg2
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ## Statistical Analysis for Question Type Y
@@ -1449,6 +1467,7 @@ Specialized UI components for displaying statistics of Y type questions:
 </div>
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ak3LqS
 - [Conflict Resolution](conflict-resolution.md)
 =======
@@ -4131,6 +4150,10 @@ laravel/Modules/UI/
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
+=======
+- [Conflict Resolution](conflict-resolution.md)
+=======
+>>>>>>> 804451c (Lint)
 
 ---
 
@@ -6799,7 +6822,10 @@ laravel/Modules/UI/
 - [git-merge-conflict-inventory-1.md](./wiki/troubleshooting/git-merge-conflict-inventory-1.md)
 - [git-merge-conflict-inventory-2026-04-28.deprecated.md](./wiki/troubleshooting/git-merge-conflict-inventory-2026-04-28.deprecated.md)
 - [git-merge-conflict-inventory.md](./wiki/troubleshooting/git-merge-conflict-inventory.md)
+<<<<<<< HEAD
 =======
 - [Conflict Resolution](conflict-resolution.md)
 >>>>>>> .merge_file_MqYfg2
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

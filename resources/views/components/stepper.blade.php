@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_ol6Acr
 <<<<<<< HEAD
 =======
@@ -5,6 +6,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -58,6 +62,7 @@
 @php
 @endphp
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -70,6 +75,10 @@
 declare(strict_types=1);
 ?>
 >>>>>>> .merge_file_mCH0S8
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 @props([
     'currentStep' => 1,
     'totalSteps' => 4,

@@ -6,6 +6,7 @@ tags: [redundancy, components, config, design-system]
 created: 2026-05-21
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_0hxF1I
   - https://github.com/laraxot/base_fixcity_fila5/issues/89
 =======
@@ -16,6 +17,11 @@ related:
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+  - https://github.com/laraxot/base_fixcity_fila5/issues/89
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
   - https://github.com/laraxot/<nome repitory>/issues/89
   - https://github.com/laraxot/base_fixcity_fila5/issues/89
   - https://github.com/laraxot/platform/issues/89
@@ -41,6 +47,7 @@ related:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -51,6 +58,8 @@ related:
 =======
   - https://github.com/laraxot/base_fixcity_fila5/issues/89
 >>>>>>> .merge_file_t0x20a
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ---
 

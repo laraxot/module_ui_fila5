@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_8k59rh
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_5t0rdC
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Esempio Pratico: Implementazione TableLayoutEnum"
 type: concept
@@ -15,7 +19,10 @@ tags: [table, layout, implementation, example]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "table-layout-implementation-example esempio pratico: implementazione tablelayoutenum"
+<<<<<<< HEAD
 <<<<<<< .merge_file_8k59rh
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,16 +35,20 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_5t0rdC
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./inline-date-picker-usage.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_8k59rh
 <<<<<<< HEAD
 =======
@@ -48,6 +59,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5t0rdC
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Esempio Pratico: Implementazione TableLayoutEnum
 
 ## Panoramica
@@ -206,6 +220,7 @@ class UserResource extends XotBaseResource
 
     public static function getFormSchema(): array
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_8k59rh
 =======
 <<<<<<< HEAD
@@ -221,6 +236,11 @@ class UserResource extends XotBaseResource
 =======
 >>>>>>> .merge_file_5t0rdC
 >>>>>>> laraxot/dev
+=======
+=======
+    public function getFormSchema(): array
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
     {
         return [
             Forms\Components\TextInput::make('name')
@@ -406,6 +426,7 @@ class ListUsersTest extends TestCase
 
 - [TableLayoutEnum Documentation](../table-layout-enum-comprehensive.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_8k59rh
 - [UI Module Architecture](../architecture_rules.md)
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
@@ -415,12 +436,15 @@ class ListUsersTest extends TestCase
 - [Filament Best Practices](../../../../docs/filament_best-practices-2.md)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [UI Module Architecture](../architecture_rules.md)
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
 =======
 - [UI Module Architecture](../architecture-rules-1.md)
 - [Filament Best Practices](../../../../docs/filament_best-practices-2.md)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - [UI Module Architecture](../architecture-rules-1.md)
@@ -430,4 +454,6 @@ class ListUsersTest extends TestCase
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
 >>>>>>> .merge_file_5t0rdC
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - [Translation Standards](../../../../docs/translation_standards.md)

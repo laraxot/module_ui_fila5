@@ -11,6 +11,7 @@
 ## 🎯 MODULE OVERVIEW
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_FSEgFI
 Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
 =======
@@ -21,6 +22,11 @@ Il modulo **UI** è il sistema di componenti e design system della piattaforma F
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 Il modulo **UI** è il sistema di componenti e design system della piattaforma <nome progetto>, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
 =======
 <<<<<<< HEAD
@@ -34,6 +40,7 @@ Il modulo **UI** è il sistema di componenti e design system della piattaforma <
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -42,6 +49,8 @@ Il modulo **UI** è il sistema di componenti e design system della piattaforma <
 =======
 Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
 >>>>>>> .merge_file_uVwjfc
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ### 🏗️ Architettura Modulo
@@ -322,6 +331,7 @@ UI Module
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_FSEgFI
 
 =======
@@ -330,11 +340,14 @@ UI Module
 **Next Review**: 2025-11-01
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 
 =======
 **Last Updated**: 2025-10-01
 **Next Review**: 2025-11-01
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 **Last Updated**: 2025-10-01
@@ -343,6 +356,8 @@ UI Module
 
 >>>>>>> .merge_file_uVwjfc
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 **Status**: 🚧 ACTIVE DEVELOPMENT
 **Confidence Level**: 90%
 

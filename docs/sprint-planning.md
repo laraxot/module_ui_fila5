@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -13,6 +14,9 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 # Sprint Planning: UI Kit Polish
 
@@ -25,6 +29,7 @@ Complete the standardization of UI documentation and fix reported accessibility 
 | Standardize UI Docs | 1 | @Gemini | ✅ Done |
 | Modal Accessibility Fix | 2 | @CoreTeam | 📥 Todo |
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jH0o5O
 =======
 <<<<<<< HEAD
@@ -35,6 +40,11 @@ Complete the standardization of UI documentation and fix reported accessibility 
 =======
 >>>>>>> laraxot/dev
 =======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
+=======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
@@ -42,8 +52,11 @@ Complete the standardization of UI documentation and fix reported accessibility 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_ORlY8d
+=======
+>>>>>>> 804451c (Lint)
 # UI Module - Sprint Planning
 
 **Module:** UI  
@@ -113,7 +126,10 @@ Implement core design system with essential UI components.
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_jH0o5O
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 *Last Updated: March 12, 2026*
 =======
@@ -136,6 +152,7 @@ Implement core design system with essential UI components.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -143,6 +160,8 @@ Implement core design system with essential UI components.
 *Last Updated: March 12, 2026*
 =======
 >>>>>>> .merge_file_ORlY8d
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ## ✅ Definition of Done
@@ -155,10 +174,13 @@ Implement core design system with essential UI components.
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
@@ -170,7 +192,10 @@ Implement core design system with essential UI components.
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

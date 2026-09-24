@@ -2,6 +2,7 @@
 
 ## 🌍 Analisi Multidimensionale della Migrazione
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 =======
 =======
@@ -17,6 +18,8 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 # Migrazione da FileUpload a Spatie Media Library
 
 ## 🌍 Analisi Multidimensionale della Migrazione
@@ -25,7 +28,10 @@
 ## 🌍 Analisi Multidimensionale della Migrazione
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 =======
@@ -47,18 +53,22 @@
 
 ## 🌍 Analisi Multidimensionale della Migrazione
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### **Filosofia & Spiritualità**
 - **Evoluzione Paradigmatica**: Passaggio da gestione **atomistica** (FileUpload singoli) a gestione **sistemica** (Media Library ecosystem)
 - **Humilitas Technologica**: Riconoscere la superiorità di soluzioni specializzate mature
 - **Zen del Non-Agire**: Wu wei - non combattere contro l'ecosistema, fluire con esso
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 
 =======
@@ -73,6 +83,10 @@
 =======
 
 >>>>>>> .merge_file_H60114
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### **Economia & Sostenibilità**
 - **ROI Esponenziale**: Riduzione drammatica dei costi di manutenzione
@@ -80,6 +94,7 @@
 - **Economia Circolare**: Riuso di componenti testati e ottimizzati
 - **Efficienza Energetica**: Codice più performante = minor consumo server
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 
 =======
@@ -94,6 +109,10 @@
 =======
 
 >>>>>>> .merge_file_H60114
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### **Biologia & Chimica del Codice**
 - **DNA Superiore**: Architettura genetica più robusta con conversioni automatiche
@@ -101,6 +120,7 @@
 - **Metabolismo**: Processamento più efficiente di upload, conversioni, storage
 - **Reazioni Catalitiche**: Conversioni automatiche accelerano workflow
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 
 =======
@@ -115,12 +135,17 @@
 =======
 
 >>>>>>> .merge_file_H60114
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### **Politica & Governance**
 - **Democrazia Tecnologica**: Seguire standard di comunità vs autorità interna
 - **Transparency**: Comportamenti predicibili e documentati
 - **Accountability**: Responsabilità verso utenti finali per soluzioni stabili
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 =======
 <<<<<<< HEAD
@@ -132,6 +157,8 @@
 ## 📊 Situazione Attuale (Analisi Completa)
 =======
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
 
 ---
 ## 📊 Situazione Attuale (Analisi Completa)
@@ -139,10 +166,14 @@
 ---
 ## 📊 Situazione Attuale (Analisi Completa)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ---
 ## 📊 Situazione Attuale (Analisi Completa)
@@ -151,11 +182,14 @@
 // User Profile
 SpatieMediaLibraryFileUpload::make('photo_profile')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 // Notify Themes
 SpatieMediaLibraryFileUpload::make('logo_src')
 // UI Blocks
@@ -170,17 +204,24 @@ SpatieMediaLibraryFileUpload::make('image') // ImagesGallery
 
 // Notify Themes
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 
 // Notify Themes
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 SpatieMediaLibraryFileUpload::make('logo_src')
 // UI Blocks
@@ -843,6 +884,7 @@ public function downloadDocument(Media $media): Response
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: Dicembre 2024*
 =======
 <<<<<<< HEAD
@@ -850,6 +892,9 @@ public function downloadDocument(Media $media): Response
 *Ultimo aggiornamento: Dicembre 2024*
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+*Ultimo aggiornamento: Dicembre 2024*
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 *Versione: 1.0*
 *Compatibilità: Laraxot <nome progetto>, Spatie Media Library 11.x, Filament 3.x*
@@ -858,6 +903,7 @@ public function downloadDocument(Media $media): Response
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Ultimo aggiornamento: Dicembre 2024*
 =======
 <<<<<<< HEAD
@@ -865,6 +911,9 @@ public function downloadDocument(Media $media): Response
 *Ultimo aggiornamento: Dicembre 2024*
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+*Ultimo aggiornamento: Dicembre 2024*
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 *Versione: 1.0*
 *Compatibilità: Laraxot , Spatie Media Library 11.x, Filament 3.x*
@@ -878,6 +927,7 @@ public function downloadDocument(Media $media): Response
 *Compatibilità: Laraxot <nome progetto>, Spatie Media Library 11.x, Filament 3.x*
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 *Versione: 1.0*
@@ -885,15 +935,20 @@ public function downloadDocument(Media $media): Response
 *Compatibilità: Laraxot <nome progetto>, Spatie Media Library 11.x, Filament 3.x*
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 *Ultimo aggiornamento: Dicembre 2024*
 *Versione: 1.0*
 *Compatibilità: Laraxot , Spatie Media Library 11.x, Filament 3.x*
 *Compatibilità: Laraxot <nome progetto>, Spatie Media Library 11.x, Filament 3.x*
 *Ultimo aggiornamento: Dicembre 2024*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 *Versione: 1.0*
 *Compatibilità: Laraxot , Spatie Media Library 11.x, Filament 3.x*
@@ -905,10 +960,13 @@ public function downloadDocument(Media $media): Response
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -922,9 +980,12 @@ public function downloadDocument(Media $media): Response
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ### **Filosofia & Spiritualità**
@@ -953,7 +1014,10 @@ public function downloadDocument(Media $media): Response
 
 ## 📊 Situazione Attuale (Analisi Completa)
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ### ✅ **Già Migrati a SpatieMediaLibraryFileUpload**
 ```php
 // User Profile
@@ -964,11 +1028,14 @@ SpatieMediaLibraryFileUpload::make('photo_profile')
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // Notify Themes
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 // Notify Themes  
 =======
 <<<<<<< HEAD
@@ -993,9 +1060,12 @@ SpatieMediaLibraryFileUpload::make('photo_profile')
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 SpatieMediaLibraryFileUpload::make('logo_src')
 
@@ -1019,11 +1089,14 @@ Forms\Components\FileUpload::make('identity_document')
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Forms\Components\FileUpload::make('identity_document')
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 Forms\Components\FileUpload::make('identity_document') 
 =======
 <<<<<<< HEAD
@@ -1046,7 +1119,10 @@ Forms\Components\FileUpload::make('identity_document')
 Forms\Components\FileUpload::make('identity_document') 
 =======
 Forms\Components\FileUpload::make('identity_document')
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 =======
 Forms\Components\FileUpload::make('identity_document') 
@@ -1057,6 +1133,7 @@ Forms\Components\FileUpload::make('identity_document')
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -1074,6 +1151,9 @@ Forms\Components\FileUpload::make('identity_document')
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 Forms\Components\FileUpload::make('isee_certificate')
 Forms\Components\FileUpload::make('pregnancy_certificate')
 
@@ -1087,11 +1167,14 @@ FileUpload::make('background') // Hero block
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 FileUpload::make('background') // Hero block
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 FileUpload::make('background') // Hero block  
 =======
 <<<<<<< HEAD
@@ -1119,9 +1202,12 @@ FileUpload::make('background') // Hero block
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 FileUpload::make('logo') // InfoBlock, LogoBlock
 
@@ -1137,11 +1223,15 @@ FileUpload::make('logo_header') // Metatag
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
+=======
+>>>>>>> 804451c (Lint)
 // BaseModel  - IMPLEMENTA GIÀ HasMedia + InteractsWithMedia
 // BaseModel  - IMPLEMENTA GIÀ HasMedia + InteractsWithMedia
 // BaseModel  - IMPLEMENTA GIÀ HasMedia + InteractsWithMedia
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1155,6 +1245,8 @@ FileUpload::make('logo_header') // Metatag
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 // BaseModel <nome progetto> - IMPLEMENTA GIÀ HasMedia + InteractsWithMedia
 odel <nome progetto> - IMPLEMENTA GIÀ HasMedia + InteractsWithMedia
 // BaseModel - IMPLEMENTA GIÀ HasMedia + InteractsWithMedia
@@ -1188,11 +1280,14 @@ odel <nome progetto> - IMPLEMENTA GIÀ HasMedia + InteractsWithMedia
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 abstract class BaseModel extends Model implements HasMedia
 {
@@ -1212,11 +1307,14 @@ abstract class BaseProfile extends BaseModel implements ProfileContract
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // BaseTenant - IMPLEMENTA GIÀ
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 // BaseTenant - IMPLEMENTA GIÀ  
 =======
 <<<<<<< HEAD
@@ -1244,9 +1342,12 @@ abstract class BaseProfile extends BaseModel implements ProfileContract
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 abstract class BaseTenant extends BaseModel implements HasAvatar, HasMedia
 {
@@ -1268,7 +1369,10 @@ Ogni tipo di documento dovrà avere la sua collection specifica:
 // Patient Documents Collections
 'health_card' => 'tessere_sanitarie'
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 =======
@@ -1282,6 +1386,7 @@ Ogni tipo di documento dovrà avere la sua collection specifica:
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -1292,12 +1397,20 @@ Ogni tipo di documento dovrà avere la sua collection specifica:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 'identity_document' => 'documenti_identita'  
 'isee_certificate' => 'certificazioni_isee'
 'pregnancy_certificate' => 'certificati_gravidanza'
 
 // Doctor Documents Collections  
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1309,6 +1422,7 @@ Ogni tipo di documento dovrà avere la sua collection specifica:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -1318,6 +1432,9 @@ Ogni tipo di documento dovrà avere la sua collection specifica:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 'identity_document' => 'documenti_identita'
 'isee_certificate' => 'certificazioni_isee'
 'pregnancy_certificate' => 'certificati_gravidanza'
@@ -1327,10 +1444,13 @@ Ogni tipo di documento dovrà avere la sua collection specifica:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -1344,9 +1464,12 @@ Ogni tipo di documento dovrà avere la sua collection specifica:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 'certifications' => 'certificazioni_professionali'
 
@@ -1357,11 +1480,14 @@ Ogni tipo di documento dovrà avere la sua collection specifica:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 'backgrounds' => 'sfondi_interfaccia'
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 'backgrounds' => 'sfondi_interfaccia' 
 =======
 <<<<<<< HEAD
@@ -1389,9 +1515,12 @@ Ogni tipo di documento dovrà avere la sua collection specifica:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 'headers' => 'intestazioni'
 ```
@@ -1406,18 +1535,16 @@ public function registerMediaCollections(): void
         ->acceptsMimeTypes(['image/jpeg', 'image/png', 'application/pdf'])
         ->singleFile();
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 =======
-<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
 =======
 <<<<<<< HEAD
->>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 =======
@@ -1425,6 +1552,14 @@ public function registerMediaCollections(): void
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
@@ -1449,9 +1584,12 @@ public function registerMediaCollections(): void
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
     $this->addMediaCollection('documenti_identita')
@@ -1462,11 +1600,14 @@ public function registerMediaCollections(): void
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
         
 =======
 <<<<<<< HEAD
@@ -1479,6 +1620,7 @@ public function registerMediaCollections(): void
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -1504,11 +1646,14 @@ public function registerMediaCollections(): void
 =======
 
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     $this->addMediaCollection('certificazioni_isee')
         ->acceptsMimeTypes(['application/pdf'])
         ->singleFile();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 =======
@@ -1520,6 +1665,10 @@ public function registerMediaCollections(): void
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_H60114
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
     $this->addMediaCollection('documenti_identita')
         ->acceptsMimeTypes(['image/jpeg', 'image/png', 'application/pdf'])
         ->singleFile();
@@ -1527,7 +1676,10 @@ public function registerMediaCollections(): void
         ->acceptsMimeTypes(['application/pdf'])
         ->singleFile();
 =======
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
@@ -1543,11 +1695,14 @@ public function registerMediaCollections(): void
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     $this->addMediaCollection('certificati_gravidanza')
         ->acceptsMimeTypes(['application/pdf'])
@@ -1576,6 +1731,7 @@ class SpatieDocumentUpload
             ->acceptedFileTypes(['image/jpeg', 'image/png', 'application/pdf']);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 
 =======
@@ -1586,6 +1742,11 @@ class SpatieDocumentUpload
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
     
@@ -1612,6 +1773,7 @@ class SpatieDocumentUpload
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -1619,6 +1781,8 @@ class SpatieDocumentUpload
 =======
 
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public static function forHealthCard(): SpatieMediaLibraryFileUpload
     {
@@ -1627,6 +1791,7 @@ class SpatieDocumentUpload
             ->maxSize(5120); // 5MB per documenti leggeri
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 
 =======
@@ -1637,6 +1802,11 @@ class SpatieDocumentUpload
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
     
@@ -1663,6 +1833,7 @@ class SpatieDocumentUpload
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -1670,6 +1841,8 @@ class SpatieDocumentUpload
 =======
 
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public static function forCertifications(): SpatieMediaLibraryFileUpload
     {
@@ -1690,11 +1863,14 @@ class SpatieDocumentUpload
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // Modules/UI/app/Filament/Components/SpatieImageUpload.php
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 // Modules/UI/app/Filament/Components/SpatieImageUpload.php  
 =======
 <<<<<<< HEAD
@@ -1722,9 +1898,12 @@ class SpatieDocumentUpload
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 class SpatieImageUpload
 {
@@ -1739,6 +1918,7 @@ class SpatieImageUpload
             ->singleFile();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 
 =======
@@ -1749,6 +1929,11 @@ class SpatieImageUpload
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
     
@@ -1775,6 +1960,7 @@ class SpatieImageUpload
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -1782,6 +1968,8 @@ class SpatieImageUpload
 =======
 
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public static function forBackground(string $collection = 'backgrounds'): SpatieMediaLibraryFileUpload
     {
@@ -1802,11 +1990,15 @@ class SpatieImageUpload
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
+=======
+>>>>>>> 804451c (Lint)
 // Modules/<nome modulo>/app/Filament/Resources/PatientResource.php - getFormSchema()
 // Modules/<nome modulo>/app/Filament/Resources/PatientResource.php - getFormSchema()
 // Modules/<nome modulo>/app/Filament/Resources/PatientResource.php - getFormSchema()
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1816,6 +2008,8 @@ class SpatieImageUpload
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 // Modules/<nome progetto>/app/Filament/Resources/PatientResource.php - getFormSchema()
 es/<nome progetto>/app/Filament/Resources/PatientResource.php - getFormSchema()
 // Modules/{ModuleName}/app/Filament/Resources/PatientResource.php - getFormSchema()
@@ -1835,15 +2029,21 @@ es/<nome progetto>/app/Filament/Resources/PatientResource.php - getFormSchema()
 <<<<<<< HEAD
 // Modules/<nome progetto>/app/Filament/Resources/PatientResource.php - getFormSchema()
 =======
+<<<<<<< HEAD
 =======
 // Modules/{ModuleName}/app/Filament/Resources/PatientResource.php - getFormSchema()
 =======
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
 // Modules/<nome modulo>/app/Filament/Resources/PatientResource.php - getFormSchema()
 // Modules/<nome modulo>/app/Filament/Resources/PatientResource.php - getFormSchema()
 // Modules/<nome modulo>/app/Filament/Resources/PatientResource.php - getFormSchema()
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
+=======
+>>>>>>> 804451c (Lint)
 =======
 // Modules/<nome progetto>/app/Filament/Resources/PatientResource.php - getFormSchema()
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -1854,12 +2054,16 @@ es/<nome progetto>/app/Filament/Resources/PatientResource.php - getFormSchema()
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
 // PRIMA (FileUpload standard)
 'health_card' => Forms\Components\FileUpload::make('health_card')
@@ -1869,20 +2073,28 @@ es/<nome progetto>/app/Filament/Resources/PatientResource.php - getFormSchema()
     ->maxSize(5120),
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 // DOPO (SpatieMediaLibraryFileUpload)
 'health_card' => \Modules\UI\Filament\Components\SpatieDocumentUpload::forHealthCard()
     ->label(trans('<nome progetto>::patients.fields.health_card.label'))
     ->helperText(trans('<nome progetto>::patients.fields.health_card.help')),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 // DOPO (SpatieMediaLibraryFileUpload)  
 =======
 <<<<<<< HEAD
@@ -1908,14 +2120,18 @@ es/<nome progetto>/app/Filament/Resources/PatientResource.php - getFormSchema()
 'health_card' => \Modules\UI\Filament\Components\SpatieDocumentUpload::forHealthCard()
     ->label(trans('<nome progetto>::patients.fields.health_card.label'))
     ->helperText(trans('<nome progetto>::patients.fields.health_card.help')),
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 =======
 <<<<<<< HEAD
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
 // DOPO (SpatieMediaLibraryFileUpload)
 'health_card' => \Modules\UI\Filament\Components\SpatieDocumentUpload::forHealthCard()
     ->label(trans('{module}::patients.fields.health_card.label'))
     ->helperText(trans('{module}::patients.fields.health_card.help')),
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 <<<<<<< HEAD
 =======
@@ -1926,6 +2142,9 @@ es/<nome progetto>/app/Filament/Resources/PatientResource.php - getFormSchema()
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ```
 
 #### 3.2 UI Blocks - Standardizzazione Architettura
@@ -1941,11 +2160,14 @@ FileUpload::make('image'),
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // DOPO
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 // DOPO  
 =======
 <<<<<<< HEAD
@@ -1973,9 +2195,12 @@ FileUpload::make('image'),
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 \Modules\UI\Filament\Components\SpatieImageUpload::make('image', 'content_images')
     ->imagePreviewHeight('250')
@@ -1993,6 +2218,7 @@ public function up(): void
     // Migrazione automatica dei file esistenti
     $patients = Patient::whereNotNull('health_card')->get();
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 
 =======
@@ -2003,6 +2229,11 @@ public function up(): void
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
     
@@ -2029,6 +2260,7 @@ public function up(): void
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -2036,6 +2268,8 @@ public function up(): void
 =======
 
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     foreach($patients as $patient) {
         if($patient->health_card && Storage::exists($patient->health_card)) {
@@ -2058,11 +2292,14 @@ Schema::table('users', function (Blueprint $table) {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         'identity_document',
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
         'identity_document', 
 =======
 <<<<<<< HEAD
@@ -2090,9 +2327,12 @@ Schema::table('users', function (Blueprint $table) {
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
         'isee_certificate',
         'pregnancy_certificate',
@@ -2109,11 +2349,15 @@ Schema::table('users', function (Blueprint $table) {
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
+=======
+>>>>>>> 804451c (Lint)
 // Modules/<nome modulo>/app/Models/User.php - Aggiunta registerMediaCollections
 // Modules/<nome modulo>/app/Models/User.php - Aggiunta registerMediaCollections
 // Modules/<nome modulo>/app/Models/User.php - Aggiunta registerMediaCollections
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2123,6 +2367,8 @@ Schema::table('users', function (Blueprint $table) {
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 // Modules/<nome progetto>/app/Models/User.php - Aggiunta registerMediaCollections
 es/<nome progetto>/app/Models/User.php - Aggiunta registerMediaCollections
 // Modules/{ModuleName}/app/Models/User.php - Aggiunta registerMediaCollections
@@ -2142,15 +2388,21 @@ es/<nome progetto>/app/Models/User.php - Aggiunta registerMediaCollections
 <<<<<<< HEAD
 // Modules/<nome progetto>/app/Models/User.php - Aggiunta registerMediaCollections
 =======
+<<<<<<< HEAD
 =======
 // Modules/{ModuleName}/app/Models/User.php - Aggiunta registerMediaCollections
 =======
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
 // Modules/<nome modulo>/app/Models/User.php - Aggiunta registerMediaCollections
 // Modules/<nome modulo>/app/Models/User.php - Aggiunta registerMediaCollections
 // Modules/<nome modulo>/app/Models/User.php - Aggiunta registerMediaCollections
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
+=======
+>>>>>>> 804451c (Lint)
 =======
 // Modules/<nome progetto>/app/Models/User.php - Aggiunta registerMediaCollections
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -2161,12 +2413,16 @@ es/<nome progetto>/app/Models/User.php - Aggiunta registerMediaCollections
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
 public function registerMediaCollections(): void
 {
@@ -2176,6 +2432,7 @@ public function registerMediaCollections(): void
         ->singleFile()
         ->useDisk('private');
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 
 =======
@@ -2186,6 +2443,11 @@ public function registerMediaCollections(): void
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
         
@@ -2212,6 +2474,7 @@ public function registerMediaCollections(): void
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -2219,12 +2482,15 @@ public function registerMediaCollections(): void
 =======
 
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     $this->addMediaCollection('documenti_identita')
         ->acceptsMimeTypes(['image/jpeg', 'image/png', 'application/pdf'])
         ->singleFile()
         ->useDisk('private');
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 
 =======
@@ -2235,6 +2501,11 @@ public function registerMediaCollections(): void
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
         
@@ -2261,6 +2532,7 @@ public function registerMediaCollections(): void
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -2268,12 +2540,15 @@ public function registerMediaCollections(): void
 =======
 
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     $this->addMediaCollection('certificazioni_isee')
         ->acceptsMimeTypes(['application/pdf'])
         ->singleFile()
         ->useDisk('private');
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 
 =======
@@ -2284,6 +2559,11 @@ public function registerMediaCollections(): void
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
         
@@ -2310,6 +2590,7 @@ public function registerMediaCollections(): void
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -2317,12 +2598,15 @@ public function registerMediaCollections(): void
 =======
 
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     $this->addMediaCollection('certificati_gravidanza')
         ->acceptsMimeTypes(['application/pdf'])
         ->singleFile()
         ->useDisk('private');
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 
 =======
@@ -2333,6 +2617,11 @@ public function registerMediaCollections(): void
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
         
@@ -2359,6 +2648,7 @@ public function registerMediaCollections(): void
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -2366,6 +2656,8 @@ public function registerMediaCollections(): void
 =======
 
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     // Certificazioni dottore (multiple)
     $this->addMediaCollection('certificazioni_professionali')
@@ -2381,6 +2673,7 @@ public function registerMediaConversions(Media $media = null): void
         ->sharpen(10)
         ->performOnCollections('tessere_sanitarie', 'documenti_identita');
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 
 =======
@@ -2391,6 +2684,11 @@ public function registerMediaConversions(Media $media = null): void
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
         
@@ -2417,6 +2715,7 @@ public function registerMediaConversions(Media $media = null): void
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -2424,6 +2723,8 @@ public function registerMediaConversions(Media $media = null): void
 =======
 
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     $this->addMediaConversion('preview')
         ->width(600)
@@ -2436,15 +2737,20 @@ public function registerMediaConversions(Media $media = null): void
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 // Modules/<nome modulo>/app/Models/User.php - Accessors di transizione
 =======
 // Modules/{ModuleName}/app/Models/User.php - Accessors di transizione
 =======
 >>>>>>> .merge_file_H60114
+=======
+// Modules/<nome modulo>/app/Models/User.php - Accessors di transizione
+>>>>>>> 804451c (Lint)
 // Modules/<nome modulo>/app/Models/User.php - Accessors di transizione
 // Modules/<nome modulo>/app/Models/User.php - Accessors di transizione
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2455,6 +2761,8 @@ public function registerMediaConversions(Media $media = null): void
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 // Modules/<nome progetto>/app/Models/User.php - Accessors di transizione
 es/<nome progetto>/app/Models/User.php - Accessors di transizione
 // Modules/{ModuleName}/app/Models/User.php - Accessors di transizione
@@ -2488,11 +2796,14 @@ es/<nome progetto>/app/Models/User.php - Accessors di transizione
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 /**
@@ -2535,11 +2846,14 @@ public function getCertificationsAttribute(): array
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
             <img src="{{ $patient->getFirstMediaUrl('tessere_sanitarie', 'thumbnail') }}" 
@@ -2556,9 +2870,12 @@ public function getCertificationsAttribute(): array
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
             <img src="{{ $patient->getFirstMediaUrl('tessere_sanitarie', 'thumbnail') }}"
                  alt="Tessera Sanitaria"
@@ -2569,10 +2886,13 @@ public function getCertificationsAttribute(): array
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -2586,15 +2906,19 @@ public function getCertificationsAttribute(): array
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
                class="text-blue-600 text-sm">
                 {{ __('<nome progetto>::common.view_document') }}
             </a>
         </div>
     @endif
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 
@@ -2607,6 +2931,11 @@ public function getCertificationsAttribute(): array
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
+
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
+=======
 <<<<<<< HEAD
     
 =======
@@ -2632,6 +2961,7 @@ public function getCertificationsAttribute(): array
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -2639,6 +2969,8 @@ public function getCertificationsAttribute(): array
 =======
 
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     @if($patient->hasMedia('certificazioni_isee'))
         <div class="document-preview">
@@ -2647,20 +2979,28 @@ public function getCertificationsAttribute(): array
                 <i class="fas fa-file-pdf text-red-600 text-3xl"></i>
             </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
             <a href="{{ $patient->getFirstMediaUrl('certificazioni_isee') }}"
                target="_blank"
                class="text-blue-600 text-sm">
                 {{ __('<nome progetto>::common.download_pdf') }}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
             <a href="{{ $patient->getFirstMediaUrl('certificazioni_isee') }}" 
 =======
 <<<<<<< HEAD
@@ -2686,10 +3026,13 @@ public function getCertificationsAttribute(): array
                target="_blank"
                class="text-blue-600 text-sm">
                 {{ __('<nome progetto>::common.download_pdf') }}
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 =======
 <<<<<<< HEAD
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
                class="text-blue-600 text-sm">
                 {{ __('{module}::common.view_document') }}
             </a>
@@ -2705,6 +3048,7 @@ public function getCertificationsAttribute(): array
                target="_blank"
                class="text-blue-600 text-sm">
                 {{ __('{module}::common.download_pdf') }}
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 <<<<<<< HEAD
 =======
@@ -2715,6 +3059,9 @@ public function getCertificationsAttribute(): array
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
             </a>
         </div>
     @endif
@@ -2778,6 +3125,7 @@ public function downloadDocument(Media $media): Response
 {
     $this->authorize('download', $media);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 
 =======
@@ -2788,6 +3136,11 @@ public function downloadDocument(Media $media): Response
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
     
@@ -2814,6 +3167,7 @@ public function downloadDocument(Media $media): Response
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -2821,6 +3175,8 @@ public function downloadDocument(Media $media): Response
 =======
 
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     if($media->collection_name === 'tessere_sanitarie') {
         // Log accesso a documento sensibile
@@ -2829,6 +3185,7 @@ public function downloadDocument(Media $media): Response
             ->log('downloaded_health_card');
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 
 =======
@@ -2839,6 +3196,11 @@ public function downloadDocument(Media $media): Response
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
     
@@ -2865,6 +3227,7 @@ public function downloadDocument(Media $media): Response
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -2872,6 +3235,8 @@ public function downloadDocument(Media $media): Response
 =======
 
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     return response()->download($media->getPath());
 }
@@ -2898,11 +3263,14 @@ public function downloadDocument(Media $media): Response
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ### **Post-Migrazione**
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ### **Post-Migrazione**  
 =======
 <<<<<<< HEAD
@@ -2930,9 +3298,12 @@ public function downloadDocument(Media $media): Response
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - [ ] Cleanup file obsoleti
 - [ ] Performance comparison
@@ -2945,7 +3316,10 @@ public function downloadDocument(Media $media): Response
 
 ### **Documentazione Correlata**
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 =======
@@ -2959,6 +3333,7 @@ public function downloadDocument(Media $media): Response
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -2969,11 +3344,19 @@ public function downloadDocument(Media $media): Response
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 - [Spatie Media Library Official Docs](https://spatie.be/docs/laravel-medialibrary)
 - [Filament Plugin Documentation](https://filamentphp.com/plugins/filament-spatie-media-library)
 - [UI Components Docs](./filament-components-rules.md)
 - [<nome progetto> Models Architecture](../<nome progetto>/docs/models-architecture.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -2989,6 +3372,7 @@ public function downloadDocument(Media $media): Response
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -2999,10 +3383,14 @@ public function downloadDocument(Media $media): Response
 - [Xot Models Architecture](../Xot/docs/architecture.md)
 =======
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 - [Spatie Media Library Official Docs](https://spatie.be/project_docs/laravel-medialibrary)
 - [Filament Plugin Documentation](https://filamentphp.com/plugins/filament-spatie-media-library)
 - [UI Components Docs](./filament-components-rules.md)
 - [Modulo Generico Models Architecture](../<nome modulo>/docs/models-architecture.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 <<<<<<< HEAD
 =======
@@ -3011,6 +3399,10 @@ public function downloadDocument(Media $media): Response
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 ## Collegamenti e Riferimenti
 
 ### **Documentazione Correlata**
@@ -3019,11 +3411,14 @@ public function downloadDocument(Media $media): Response
 - [UI Components Docs](./filament-components-rules.md)
 - [Xot Models Architecture](../Xot/docs/architecture.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ### **Repository e Risorse**
@@ -3041,11 +3436,14 @@ public function downloadDocument(Media $media): Response
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 2. **ALTO**: DoctorResource (certificazioni professionali)
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 2. **ALTO**: DoctorResource (certificazioni professionali)  
 =======
 <<<<<<< HEAD
@@ -3077,9 +3475,12 @@ public function downloadDocument(Media $media): Response
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 3. **MEDIO**: UI Blocks (contenuti pubblici)
 4. **BASSO**: Appearance pages (configurazioni admin)
@@ -3099,6 +3500,7 @@ public function downloadDocument(Media $media): Response
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 =======
 <<<<<<< HEAD
@@ -3111,16 +3513,23 @@ public function downloadDocument(Media $media): Response
 *Compatibilità: Laraxot <nome progetto>, Spatie Media Library 11.x, Filament 4.x*
 =======
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
 *Versione: 1.0*
 *Compatibilità: Laraxot , Spatie Media Library 11.x, Filament 3.x*
 *Compatibilità: Laraxot , Spatie Media Library 11.x, Filament 3.x*
 *Compatibilità: Laraxot , Spatie Media Library 11.x, Filament 3.x*
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ewulzc
 <<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 *Ultimo aggiornamento: Dicembre 2024*  
 *Versione: 1.0*  
 *Compatibilità: Laraxot <nome progetto>, Spatie Media Library 11.x, Filament 4.x* 
@@ -3171,9 +3580,12 @@ public function downloadDocument(Media $media): Response
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_H60114
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

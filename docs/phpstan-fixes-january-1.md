@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ---
 module: theme
 topic: phpstan-fixes-january-1
@@ -10,7 +13,10 @@ canonical: ../../../Themes/docs/shared-components/phpstan-fixes-january-.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan-fixes-january-.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 # PHPStan Fixes - Gennaio 2025
 
@@ -68,4 +74,7 @@ See canonical documentation: ../../../Themes/docs/shared-components/phpstan-fixe
 - **File corretti**: 9
 - **Pattern applicati**: Type narrowing, Array safety, Closure hints
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)

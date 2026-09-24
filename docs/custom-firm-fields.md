@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_KVobUF
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_XVXjH5
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: 'Custom firm fields — risorse esterne'
 module: UI
@@ -34,6 +38,7 @@ updated: 2026-08-24
 - <https://github.com/tanthammar/filament-extras>
 - <https://github.com/saade/filament-extra>
 - <https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function>
+<<<<<<< HEAD
 <<<<<<< .merge_file_KVobUF
 <<<<<<< HEAD
 =======
@@ -44,6 +49,9 @@ updated: 2026-08-24
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_XVXjH5
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 https://github.com/tanthammar/filament-extras
 
 
@@ -54,6 +62,7 @@ https://github.com/saade/filament-extra
 https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_KVobUF
 =======
 <<<<<<< HEAD
@@ -63,6 +72,9 @@ https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-ca
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_XVXjH5
+=======
+=======
+>>>>>>> 804451c (Lint)
 
 
 ## Appendice — contenuto migrato
@@ -74,6 +86,7 @@ canonical: ../../../Themes/docs/shared-components/custom-firm-fields.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/custom-firm-fields.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_KVobUF
 <<<<<<< HEAD
 =======
@@ -84,3 +97,6 @@ See canonical documentation: ../../../Themes/docs/shared-components/custom-firm-
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_XVXjH5
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

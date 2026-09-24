@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_feMPGD
 <<<<<<< HEAD
 =======
@@ -9,10 +10,14 @@ declare(strict_types=1);
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/en/pages.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -21,6 +26,10 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_io2JYo
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 return [
     's3test' => [
         'heading' => 'S3 Email Test',

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_v9yod4
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_YQvVjX
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Master Layout Documentation"
 type: concept
@@ -15,7 +19,10 @@ tags: [master]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "master master layout documentation"
+<<<<<<< HEAD
 <<<<<<< .merge_file_v9yod4
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -32,6 +39,7 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -47,6 +55,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_YQvVjX
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Master Layout Documentation
 
 ## Overview

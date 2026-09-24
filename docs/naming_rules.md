@@ -45,9 +45,15 @@ I nomi specifici dell'applicazione devono apparire solo:
 - [Standard di Codice](../../../docs/standards/coding-standards.md)
 - [Best Practices](../../../docs/standards/best-practices.md) 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 ||||||| parent of 9a84589 (.):docs/archived/naming-rules-1.md
 - [Documentazione Principale](../../../docs/README.md)
 - [Standard di Codice](../../../docs/standards/coding-standards.md)
 - [Best Practices](../../../docs/standards/best-practices.md)
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)

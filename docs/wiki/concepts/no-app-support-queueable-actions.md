@@ -4,9 +4,12 @@ type: concept
 tags: [ui, actions, queueable-action, support, refactor, adapter]
 created: 2026-07-12
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Gewcg7
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 updated: 2026-07-13
 qmd: "UI module no app Support NullMap NullGeocoding Adapter"
 issues:
@@ -17,9 +20,12 @@ related:
   - block-rendering-and-optional-services.md
   - ../../../../docs/wiki/rules/queueable-action-trait-mandatory.md
 =======
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_7oi7LE
+=======
+>>>>>>> 804451c (Lint)
 updated: 2026-07-22
 qmd: "UI module no app Support queueable action no map adapters"
 issues:
@@ -33,6 +39,7 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
+<<<<<<< HEAD
 <<<<<<< .merge_file_Gewcg7
 <<<<<<< HEAD
 =======
@@ -49,6 +56,8 @@ related:
   - block-rendering-and-optional-services.md
   - ../../../../docs/wiki/rules/queueable-action-trait-mandatory.md
 >>>>>>> .merge_file_7oi7LE
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ---
 
@@ -58,6 +67,7 @@ related:
 
 Nel modulo UI **non** esiste più `app/Support/`.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Gewcg7
 =======
@@ -74,6 +84,8 @@ Nel modulo UI **non** esiste più `app/Support/`.
 | `ThemeService`, `ComponentService` | Eliminati |
 =======
 >>>>>>> .merge_file_7oi7LE
+=======
+>>>>>>> 804451c (Lint)
 ## Migrazione (2026-07-12)
 
 | Legacy `app/Support/` | Destinazione |
@@ -97,9 +109,13 @@ Rimosso l'intera cartella `app/Services/` — duplicati o wrapper inutili:
 | `ThemeService`, `ComponentService` | Eliminati (classi vuote) |
 | `Map/NullMapService` | Già in `Adapters/Map/NullMapServiceAdapter` |
 | `Map/NullGeocodingService` | Già in `Adapters/Map/NullGeocodingServiceAdapter` |
+<<<<<<< HEAD
 <<<<<<< .merge_file_Gewcg7
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ## Migrazione (2026-07-12 → 2026-07-22)
 
 `app/Support/` e `app/Services/` eliminati. I null-object Map/Location **non** restano in UI: dominio Geo — vedi [geo-boundary.md](../../geo-boundary.md).
@@ -110,10 +126,13 @@ Rimosso l'intera cartella `app/Services/` — duplicati o wrapper inutili:
 | `UIService::asset()` | `AssetAction` (Xot) |
 | `ThemeService`, `ComponentService` | Eliminati |
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_7oi7LE
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ## Collegamenti

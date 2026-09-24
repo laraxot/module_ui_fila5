@@ -4,20 +4,26 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit\Models;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_Coy25G
 <<<<<<< HEAD
 use Modules\UI\Database\Factories\CategoryFactory;
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 use Modules\UI\Database\Factories\CategoryFactory;
 =======
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_nuoiNl
+=======
+>>>>>>> 804451c (Lint)
 use Modules\UI\Models\Category;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
@@ -25,6 +31,7 @@ use PHPUnit\Framework\Assert;
 uses(TestCase::class);
 
 describe('Category Model', function (): void {
+<<<<<<< HEAD
 <<<<<<< .merge_file_Coy25G
 <<<<<<< HEAD
 =======
@@ -48,14 +55,30 @@ describe('Category Model', function (): void {
         Assert::assertSame('Test Category', $category->title);
         Assert::assertSame('test-category', $category->slug);
         Assert::assertSame(1, (int) $category->is_active);
+=======
+<<<<<<< HEAD
+    test('it can create a category with valid data', function (): void {
+        $category = CategoryFactory::new()->createOne([
+            'title' => 'Test Category',
+            'slug' => 'test-category',
+            'is_active' => 1,
+        ]);
+
+        Assert::assertSame('Test Category', $category->title);
+        Assert::assertSame(1, $category->is_active);
+>>>>>>> 804451c (Lint)
     });
 
     test('it has fillable attributes', function (): void {
         $category = new Category();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
     test('it can hydrate a category with valid data in memory', function (): void {
         $category = new Category;
         $category->forceFill([
@@ -73,9 +96,12 @@ describe('Category Model', function (): void {
     test('it has fillable attributes', function (): void {
         $category = new Category;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
         $expected = ['name', 'description', 'icon', 'parent_id', 'is_active', 'sort_order'];
 
@@ -84,6 +110,7 @@ describe('Category Model', function (): void {
         }
     });
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_Coy25G
 <<<<<<< HEAD
 =======
@@ -91,19 +118,27 @@ describe('Category Model', function (): void {
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
     test('category has timestamps', function (): void {
         $category = CategoryFactory::new()->createOne();
 
         Assert::assertNotNull($category->created_at);
         Assert::assertNotNull($category->updated_at);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
     test('category has timestamps enabled', function (): void {
         $category = new Category;
 
         Assert::assertTrue($category->timestamps);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -115,5 +150,8 @@ describe('Category Model', function (): void {
 
         Assert::assertTrue($category->timestamps);
 >>>>>>> .merge_file_nuoiNl
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
     });
 });

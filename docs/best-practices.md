@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_RoN8Qw
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 =======
@@ -13,6 +16,7 @@
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -23,13 +27,21 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_1mok7I
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ---
 module: theme
 topic: best_practices
 canonical: ../../../Themes/docs/shared-components/best-practices_1.md
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_RoN8Qw
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 See canonical documentation: ../../../Themes/docs/shared-components/best-practices_1.md
 =======
@@ -216,6 +228,7 @@ canonical: ../../../Themes/docs/shared-components/best-practices_1.md
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -226,43 +239,62 @@ See canonical documentation: ../../../Themes/docs/shared-components/best-practic
 ## Principi Generali
 =======
 >>>>>>> .merge_file_1mok7I
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Best Practices UI
 
 ## Principi Generali
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ### 1. Consistenza
 - Utilizzare componenti standard
 - Mantenere uno stile uniforme
 - Seguire le convenzioni di naming
 - Riutilizzare pattern comuni
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 804451c (Lint)
 ### 2. Accessibilità
 - Supportare la navigazione da tastiera
 - Utilizzare attributi ARIA
 - Mantenere contrasto adeguato
 - Fornire testi alternativi
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 804451c (Lint)
 ### 3. Performance
 - Ottimizzare il caricamento
 - Minimizzare le dipendenze
 - Utilizzare lazy loading
 - Implementare caching
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 804451c (Lint)
 ### 4. Responsive Design
 - Mobile-first approach
 - Breakpoint standard
 - Layout fluidi
 - Testing multi-device
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## Sviluppo Componenti
 =======
@@ -270,6 +302,11 @@ See canonical documentation: ../../../Themes/docs/shared-components/best-practic
 ## Sviluppo Componenti
 
 >>>>>>> laraxot/dev
+=======
+
+## Sviluppo Componenti
+
+>>>>>>> 804451c (Lint)
 ### 1. Struttura
 ```php
 class CustomComponent extends Component
@@ -278,14 +315,20 @@ class CustomComponent extends Component
     public string $label;
     public ?string $hint = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
     // Proprietà private per stato interno
     private bool $isLoading = false;
 =======
+=======
+>>>>>>> 804451c (Lint)
 
     // Proprietà private per stato interno
     private bool $isLoading = false;
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     // Metodi pubblici con return type
     public function render(): View
     {
@@ -294,9 +337,13 @@ class CustomComponent extends Component
 }
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 804451c (Lint)
 ### 2. Template
 ```blade
 <div class="custom-component">
@@ -305,6 +352,7 @@ class CustomComponent extends Component
         {{ $header ?? '' }}
     </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
     {{-- Gestire stati condizionali --}}
     <div class="content {{ $isLoading ? 'loading' : '' }}">
         {{ $slot }}
@@ -313,6 +361,8 @@ class CustomComponent extends Component
         {{ $footer ?? 'Default Footer' }}
 </div>
 =======
+=======
+>>>>>>> 804451c (Lint)
 
     {{-- Gestire stati condizionali --}}
     <div class="content {{ $isLoading ? 'loading' : '' }}">
@@ -326,7 +376,10 @@ class CustomComponent extends Component
 </div>
 ```
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ### 3. Stili
 ```scss
 // Utilizzare BEM naming
@@ -335,6 +388,7 @@ class CustomComponent extends Component
     &__content { }
     &__footer { }
 <<<<<<< HEAD
+<<<<<<< HEAD
     // Stati
     &--loading { }
     &--disabled { }
@@ -344,6 +398,8 @@ class CustomComponent extends Component
 ## Form Components
 ### 1. Validazione
 =======
+=======
+>>>>>>> 804451c (Lint)
 
     // Stati
     &--loading { }
@@ -359,13 +415,17 @@ class CustomComponent extends Component
 
 ### 1. Validazione
 ```php
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 // Definire regole di validazione
 public array $rules = [
     'email' => ['required', 'email'],
     'password' => ['required', 'min:8'],
 ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Messaggi personalizzati
 public array $messages = [
     'email.required' => 'trans.validation.email.required',
@@ -387,6 +447,8 @@ public function save()
 // Definire colonne in modo chiaro
 protected function getColumns(): array
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 // Messaggi personalizzati
 public array $messages = [
@@ -424,11 +486,15 @@ public function save()
 // Definire colonne in modo chiaro
 protected function getColumns(): array
 {
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     return [
         Column::make('name')->sortable()->searchable(),
         Column::make('email')->searchable(),
     ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 // Configurare filtri
 protected function getFilters(): array
@@ -443,6 +509,8 @@ protected function getActions(): array
 // Formattare dati in modo standard
 protected function getData(): array
 =======
+=======
+>>>>>>> 804451c (Lint)
 }
 
 // Configurare filtri
@@ -474,7 +542,10 @@ protected function getActions(): array
 protected function getData(): array
 {
     return [
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
         'labels' => ['Gen', 'Feb', 'Mar'],
         'datasets' => [
             [
@@ -483,10 +554,13 @@ protected function getData(): array
             ],
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 2. Opzioni
 // Configurare opzioni in modo chiaro
 protected function getOptions(): array
 =======
+=======
+>>>>>>> 804451c (Lint)
     ];
 }
 ```
@@ -497,12 +571,16 @@ protected function getOptions(): array
 protected function getOptions(): array
 {
     return [
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
         'responsive' => true,
         'maintainAspectRatio' => false,
         'plugins' => [
             'legend' => [
                 'position' => 'bottom',
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## Testing
 ### 1. Unit Tests
@@ -512,6 +590,8 @@ public function test_component_renders()
 ### 2. Browser Tests
 public function test_component_interaction()
 =======
+=======
+>>>>>>> 804451c (Lint)
             ],
         ],
     ];
@@ -533,16 +613,22 @@ public function test_component_renders()
 ```php
 public function test_component_interaction()
 {
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     $this->browse(function (Browser $browser) {
         $browser->visit('/page')
             ->click('@button')
             ->assertSee('Result');
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Documentazione
 ### 1. PHPDoc
 =======
+=======
+>>>>>>> 804451c (Lint)
 }
 ```
 
@@ -550,30 +636,43 @@ public function test_component_interaction()
 
 ### 1. PHPDoc
 ```php
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 /**
  * Componente per la gestione di form avanzati.
  *
  * @property string $label Label del componente
  * @property string|null $hint Suggerimento opzionale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  *
 >>>>>>> laraxot/dev
+=======
+ *
+>>>>>>> 804451c (Lint)
  * @method void save() Salva i dati del form
  * @method void reset() Resetta il form
  */
 class AdvancedForm extends Component
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ```
 
 >>>>>>> laraxot/dev
+=======
+```
+
+>>>>>>> 804451c (Lint)
 ### 2. README
 - Descrizione chiara
 - Esempi di utilizzo
 - Configurazioni disponibili
 ### Versione HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 - Breaking changes
 ## Collegamenti tra versioni di best-practices.md
@@ -590,6 +689,8 @@ module: theme
 topic: best_practices
 canonical: ../../../Themes/docs/shared-components/best-practices_1.md
 =======
+=======
+>>>>>>> 804451c (Lint)
 
 - Breaking changes
 ## Collegamenti tra versioni di best-practices.md
@@ -600,6 +701,7 @@ canonical: ../../../Themes/docs/shared-components/best-practices_1.md
 * [best-practices.md](../../../../themes/one/docs/best-practices.md)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 * [best-practices.md](../../../xot/docs/laraxot/best-practices.md)
@@ -607,6 +709,8 @@ canonical: ../../../Themes/docs/shared-components/best-practices_1.md
 * [best-practices.md](../../../../themes/one/docs/best-practices.md)
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 * [best-practices.md](../../../Xot/project_docs/laraxot/best-practices.md)
 * [best-practices.md](../../../UI/project_docs/best-practices.md)
 * [best-practices.md](../../../../Themes/One/project_docs/best-practices.md)
@@ -617,9 +721,12 @@ canonical: ../../../Themes/docs/shared-components/best-practices_1.md
 * [best-practices.md](../../../UI/project_docs/best-practices.md)
 * [best-practices.md](../../../../Themes/One/project_docs/best-practices.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ### Versione Incoming
@@ -628,11 +735,14 @@ canonical: ../../../Themes/docs/shared-components/best-practices_1.md
 
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 # Best Practices UI
 
 ## Principi Generali
@@ -892,6 +1002,7 @@ class AdvancedForm extends Component
 - Breaking changes
 
 ---
+<<<<<<< HEAD
 <<<<<<< .merge_file_RoN8Qw
 <<<<<<< HEAD
 =======
@@ -899,6 +1010,11 @@ class AdvancedForm extends Component
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 module: theme
 topic: best_practices
 canonical: ../../../Themes/docs/shared-components/best-practices_1.md
@@ -914,9 +1030,12 @@ See canonical documentation: ../../../Themes/docs/shared-components/best-practic
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_1mok7I
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

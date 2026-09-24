@@ -3,6 +3,7 @@ module: theme
 topic: advanced
 canonical: ../../../../Themes/docs/shared-components/advanced.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_aIE6Jf
 =======
 <<<<<<< HEAD
@@ -12,12 +13,16 @@ canonical: ../../../../Themes/docs/shared-components/advanced.md
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_7AsJnw
+=======
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./index.md"
   - "./laravel.md"
   - "./security.md"
   - "./styling.md"
   - "./usage.md"
+<<<<<<< HEAD
 <<<<<<< .merge_file_aIE6Jf
 <<<<<<< HEAD
 =======
@@ -28,6 +33,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_7AsJnw
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/advanced.md

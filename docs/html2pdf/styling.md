@@ -3,6 +3,7 @@ module: theme
 topic: styling
 canonical: ../../../../Themes/docs/shared-components/styling.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_eKGVPy
 =======
 <<<<<<< HEAD
@@ -12,12 +13,16 @@ canonical: ../../../../Themes/docs/shared-components/styling.md
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_ZUo9Hv
+=======
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./advanced.md"
   - "./index.md"
   - "./laravel.md"
   - "./security.md"
   - "./usage.md"
+<<<<<<< HEAD
 <<<<<<< .merge_file_eKGVPy
 <<<<<<< HEAD
 =======
@@ -28,6 +33,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ZUo9Hv
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/styling.md

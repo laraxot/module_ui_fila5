@@ -34,6 +34,7 @@ cd laravel
 ## Collegamenti alla Documentazione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_R26vDl
 - [CONFLITTI_MERGE_RISOLTI.md](conflitti_merge_risolti.md): Documentazione dei conflitti risolti nel modulo UI.
 =======
@@ -41,10 +42,13 @@ cd laravel
 - [CONFLITTI_MERGE_RISOLTI.md](CONFLITTI_MERGE_RISOLTI.md): Documentazione dei conflitti risolti nel modulo UI.
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [CONFLITTI_MERGE_RISOLTI.md](conflitti_merge_risolti.md): Documentazione dei conflitti risolti nel modulo UI.
 =======
 - [CONFLITTI_MERGE_RISOLTI.md](CONFLITTI_MERGE_RISOLTI.md): Documentazione dei conflitti risolti nel modulo UI.
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - [CONFLITTI_MERGE_RISOLTI.md](CONFLITTI_MERGE_RISOLTI.md): Documentazione dei conflitti risolti nel modulo UI.
@@ -52,11 +56,14 @@ cd laravel
 - [CONFLITTI_MERGE_RISOLTI.md](conflitti_merge_risolti.md): Documentazione dei conflitti risolti nel modulo UI.
 >>>>>>> .merge_file_g0QjIu
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - [actions/table_layout_toggle.md](actions/table_layout_toggle.md): Documentazione dell'azione TableLayoutToggle.
 - [components.md](components.md): Documentazione dei componenti UI, incluso AddressField.
 
 ## Collegamenti Principali
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_R26vDl
 =======
@@ -84,6 +91,8 @@ Il test `AddressFieldTest` verifica che il componente `AddressField` sia stato c
 Per eseguire i test:
 =======
 >>>>>>> .merge_file_g0QjIu
+=======
+>>>>>>> 804451c (Lint)
 - [Risoluzione Conflitti Git](../../../../../docs/risoluzione_conflitti_git.md): Documentazione principale sulla risoluzione dei conflitti git.
 - [UI Conflict Links](../../../../../docs/ui_conflict_links.md): Collegamenti ai file di risoluzione dei conflitti nel modulo UI.
 # Test di Risoluzione Conflitti nel Modulo UI
@@ -113,11 +122,15 @@ Il test `AddressFieldTest` verifica che il componente `AddressField` sia stato c
 
 Per eseguire i test:
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_R26vDl
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 - [Risoluzione Conflitti Git](../../../../docs/risoluzione_conflitti_git.md): Documentazione principale sulla risoluzione dei conflitti git.
 <<<<<<< HEAD
 - [UI Conflict Links](../../../../docs/ui_conflict_links.md): Collegamenti ai file di risoluzione dei conflitti nel modulo UI. 
@@ -152,11 +165,14 @@ Il test `AddressFieldTest` verifica che il componente `AddressField` sia stato c
 ## Esecuzione dei Test
 Per eseguire i test:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_g0QjIu
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ```bash
 cd laravel
@@ -164,6 +180,7 @@ cd laravel
 ./vendor/bin/pest --filter=AddressFieldTest
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_R26vDl
 =======
 <<<<<<< HEAD
@@ -179,6 +196,8 @@ cd laravel
 - [Risoluzione Conflitti Git](../../../../docs/risoluzione_conflitti_git.md): Documentazione principale sulla risoluzione dei conflitti git.
 =======
 >>>>>>> .merge_file_g0QjIu
+=======
+>>>>>>> 804451c (Lint)
 
 ## Collegamenti alla Documentazione
 
@@ -190,11 +209,15 @@ cd laravel
 
 - [Risoluzione Conflitti Git](../../../../../docs/risoluzione_conflitti_git.md): Documentazione principale sulla risoluzione dei conflitti git.
 - [UI Conflict Links](../../../../../docs/ui_conflict_links.md): Collegamenti ai file di risoluzione dei conflitti nel modulo UI.
+<<<<<<< HEAD
 <<<<<<< .merge_file_R26vDl
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ## Collegamenti alla Documentazione
 - [CONFLITTI_MERGE_RISOLTI.md](CONFLITTI_MERGE_RISOLTI.md): Documentazione dei conflitti risolti nel modulo UI.
 - [actions/table_layout_toggle.md](actions/table_layout_toggle.md): Documentazione dell'azione TableLayoutToggle.
@@ -220,9 +243,12 @@ cd laravel
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_g0QjIu
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

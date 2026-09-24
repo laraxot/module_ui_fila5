@@ -10,6 +10,7 @@ use PHPUnit\Framework\Assert;
 use function Safe\file_get_contents;
 
 uses(TestCase::class);
+<<<<<<< HEAD
 <<<<<<< .merge_file_99a98D
 <<<<<<< HEAD
 =======
@@ -17,6 +18,9 @@ uses(TestCase::class);
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
@@ -26,6 +30,7 @@ uses(TestCase::class);
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -34,6 +39,10 @@ uses(TestCase::class);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_7veupQ
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
 beforeEach(function (): void {
     /* @var \Modules\UI\Tests\TestCase $this */

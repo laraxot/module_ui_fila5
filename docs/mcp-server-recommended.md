@@ -22,11 +22,15 @@ Gestione interfaccia utente, componenti, asset e frontend.
 ## Note
 <<<<<<< HEAD
 - Personalizza la configurazione per esigenze di frontend avanzato.
+<<<<<<< HEAD
 <<<<<<< .merge_file_CR5TYJ
 =======
+>>>>>>> 804451c (Lint)
+=======
 <<<<<<< HEAD
 - Personalizza la configurazione per esigenze di frontend avanzato.
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -35,6 +39,8 @@ Gestione interfaccia utente, componenti, asset e frontend.
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 - Personalizza la configurazione per esigenze di frontend avanzato.
 =======
@@ -47,9 +53,12 @@ Gestione interfaccia utente, componenti, asset e frontend.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - Personalizza la configurazione per esigenze di frontend avanzato.
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> .merge_file_Tklubg
+=======
+>>>>>>> 804451c (Lint)
 # MCP Server Consigliati per il Modulo UI
 ## Scopo del Modulo
 Gestione interfaccia utente, componenti, asset e frontend.
@@ -68,7 +77,10 @@ Gestione interfaccia utente, componenti, asset e frontend.
 }
 ```
 ## Note
+<<<<<<< HEAD
 <<<<<<< .merge_file_CR5TYJ
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 - Personalizza la configurazione per esigenze di frontend avanzato.
@@ -88,6 +100,7 @@ Gestione interfaccia utente, componenti, asset e frontend.
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -96,3 +109,6 @@ Gestione interfaccia utente, componenti, asset e frontend.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Tklubg
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

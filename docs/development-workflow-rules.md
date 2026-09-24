@@ -1,6 +1,7 @@
 # Development Workflow Rules - UI Module
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MRbWq9
 **Date**: [DATE]
 =======
@@ -8,10 +9,13 @@
 **Date**: 2025-12-15
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 **Date**: [DATE]
 =======
 **Date**: 2025-12-15
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 **Date**: 2025-12-15
@@ -19,6 +23,8 @@
 **Date**: [DATE]
 >>>>>>> .merge_file_Vyhk3B
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 **Status**: Active
 **Purpose**: Document the mandatory development workflow for UI module
 
@@ -165,6 +171,7 @@
 ## 📚 Related Documentation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MRbWq9
 =======
 <<<<<<< HEAD
@@ -178,25 +185,34 @@
 - [Git Workflow](../../../docs/git-conflict-resolution/README.md)
 =======
 >>>>>>> .merge_file_Vyhk3B
+=======
+>>>>>>> 804451c (Lint)
 - [Xot Philosophy](../xot/docs/philosophy-complete.md)
 - [PSR-4 Autoloading Error Analysis](./psr4-autoloading-error-analysis.md)
 - [Development Guidelines](../../../../docs/development/readme.md)
 - [Git Workflow](../../../../docs/git-conflict-resolution/readme.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_MRbWq9
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 - [Xot Philosophy](../Xot/docs/philosophy-complete.md)
 - [PSR-4 Autoloading Error Analysis](./psr4-autoloading-error-analysis.md)
 - [Development Guidelines](../../../docs/development/README.md)
 - [Git Workflow](../../../docs/git-conflict-resolution/README.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Vyhk3B
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ## ⚠️ Consequences of Skipping Steps

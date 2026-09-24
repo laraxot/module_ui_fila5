@@ -66,6 +66,7 @@ Provide a **comprehensive UI toolkit** that includes:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_wzKkL0
 =======
 <<<<<<< HEAD
@@ -75,6 +76,9 @@ Provide a **comprehensive UI toolkit** that includes:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_HQ0EdS
+=======
+=======
+>>>>>>> 804451c (Lint)
 [![Module](https://img.shields.io/badge/Module-UI Module Roadmap-8B0000.svg)]()
 [![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
 [![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)
@@ -107,6 +111,7 @@ Provide a **comprehensive UI toolkit** that includes:
 ---
 
 **Modulo** `UI` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+<<<<<<< HEAD
 <<<<<<< .merge_file_wzKkL0
 <<<<<<< HEAD
 =======
@@ -117,3 +122,6 @@ Provide a **comprehensive UI toolkit** that includes:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_HQ0EdS
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

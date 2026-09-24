@@ -8,6 +8,7 @@ Tutte le variazioni importanti di UI saranno generate automaticamente da semanti
 
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -15,6 +16,8 @@ Tutte le variazioni importanti di UI saranno generate automaticamente da semanti
 
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 
 ---
@@ -82,7 +85,10 @@ Tutte le variazioni importanti di UI saranno generate automaticamente da semanti
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_RzeQdm
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_kCQz4x
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Errori Comuni in Filament"
 type: concept
@@ -15,7 +19,10 @@ tags: [common, errors]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "common-errors errori comuni in filament"
+<<<<<<< HEAD
 <<<<<<< .merge_file_RzeQdm
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,17 +35,21 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_kCQz4x
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./dropdown-list-item-tag.md"
   - "./static-instance-method-incompatibility.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_RzeQdm
 <<<<<<< HEAD
 =======
@@ -49,6 +60,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_kCQz4x
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # Errori Comuni in Filament
 
 ## Errori di compatibilità metodi statici/instanza

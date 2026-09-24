@@ -1,7 +1,10 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "PHPStan Dynamic Array Normalization"
 type: concept
@@ -23,7 +26,10 @@ related:
 ---
 
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 # PHPStan Dynamic Array Normalization
 
 ## Scopo

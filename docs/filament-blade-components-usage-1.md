@@ -2,11 +2,16 @@
 # Utilizzo dei Componenti Blade di Filament
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Utilizzo dei Componenti Blade di Filament
 =======
 # Utilizzo dei Componenti Blade di Filament 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+# Utilizzo dei Componenti Blade di Filament 
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -51,11 +56,16 @@ Filament fornisce una serie di componenti Blade pronti all'uso che dovrebbero es
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>
 =======
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di SaluteOra
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di SaluteOra
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 - ❌ `<x-filament::layouts.card>` - Non esiste, utilizzare invece una combinazione di `<x-filament::card>` e altri componenti
 - ❌ `<x-filament::layouts.base>` - Non esiste
 
@@ -202,11 +212,16 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 ## Gestione delle Rotte
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Gestione delle Rotte
 =======
 ## Gestione delle Rotte 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+## Gestione delle Rotte 
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
 ### Regole Fondamentali
 
@@ -219,11 +234,16 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
    - Creare file Blade in `Themes/One/resources/views/pages/`
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Creare file Blade in `Themes/One/resources/views/pages/`
 =======
    - Creare file Blade in `/var/www/html/saluteora/laravel/Themes/One/resources/views/pages/`
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+   - Creare file Blade in `/var/www/html/saluteora/laravel/Themes/One/resources/views/pages/`
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
    - Utilizzare Folio per il routing automatico
    - Esempio: `/profile/index.blade.php` sarà accessibile come `/it/profile`
 

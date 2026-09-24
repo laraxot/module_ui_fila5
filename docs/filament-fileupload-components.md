@@ -56,6 +56,7 @@ Forms\Components\FileUpload::make('certifications')
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YyxhJ8
 =======
 <<<<<<< HEAD
@@ -75,6 +76,8 @@ Forms\Components\FileUpload::make('certifications')
 Il metodo `prefixIcon()` non esiste nel componente FileUpload di Filament. Questo è un errore comune quando si confondono i componenti TextInput (che hanno il metodo prefixIcon) con i componenti FileUpload.
 =======
 >>>>>>> .merge_file_5VBj22
+=======
+>>>>>>> 804451c (Lint)
 - [README](../../patient/docs/readme.md)
 - [Filament Resources](../../patient/docs/filament-resources.md)
 - [Form Components](../../patient/docs/filament-form-components.md)
@@ -87,11 +90,15 @@ Il metodo `prefixIcon()` non esiste nel componente FileUpload di Filament. Quest
 ## Errore Comune: prefixIcon
 Il metodo `prefixIcon()` non esiste nel componente FileUpload di Filament. Questo è un errore comune quando si confondono i componenti TextInput (che hanno il metodo prefixIcon) con i componenti FileUpload.
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_YyxhJ8
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 - [README](../../Patient/docs/README.md)
 - [Filament Resources](../../Patient/docs/filament-resources.md)
 - [Form Components](../../Patient/docs/filament-form-components.md)
@@ -119,11 +126,14 @@ Il metodo `prefixIcon()` non esiste nel componente FileUpload di Filament. Quest
 ## Errore Comune: prefixIcon
 Il metodo `prefixIcon()` non esiste nel componente FileUpload di Filament. Questo è un errore comune quando si confondono i componenti TextInput (che hanno il metodo prefixIcon) con i componenti FileUpload.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_5VBj22
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### ❌ Errato
 ```php
@@ -132,6 +142,7 @@ Forms\Components\FileUpload::make('certifications')
     ->label('Certificazioni');
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YyxhJ8
 =======
 <<<<<<< HEAD
@@ -143,10 +154,13 @@ Forms\Components\FileUpload::make('certifications')
 ### ✅ Corretto
 =======
 >>>>>>> .merge_file_5VBj22
+=======
+>>>>>>> 804451c (Lint)
 
 ### ✅ Corretto
 ```php
 Forms\Components\FileUpload::make('certifications')
+<<<<<<< HEAD
 <<<<<<< .merge_file_YyxhJ8
 <<<<<<< HEAD
 =======
@@ -157,6 +171,11 @@ Forms\Components\FileUpload::make('certifications')
 =======
 >>>>>>> .merge_file_5VBj22
 >>>>>>> laraxot/dev
+=======
+=======
+### ✅ Corretto
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
     ->label('Certificazioni')
     ->icon('heroicon-o-document-text') // Usare icon() invece di prefixIcon()
     ->buttonLabel('Carica certificazioni')
@@ -165,6 +184,7 @@ Forms\Components\FileUpload::make('certifications')
     ->acceptedFileTypes(['application/pdf'])
     ->maxSize(10240);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YyxhJ8
 =======
 <<<<<<< HEAD
@@ -176,10 +196,13 @@ Forms\Components\FileUpload::make('certifications')
 ## Metodi Disponibili per FileUpload
 =======
 >>>>>>> .merge_file_5VBj22
+=======
+>>>>>>> 804451c (Lint)
 ```
 
 ## Metodi Disponibili per FileUpload
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_YyxhJ8
 <<<<<<< HEAD
 =======
@@ -190,6 +213,11 @@ Forms\Components\FileUpload::make('certifications')
 =======
 >>>>>>> .merge_file_5VBj22
 >>>>>>> laraxot/dev
+=======
+=======
+## Metodi Disponibili per FileUpload
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ### Metodi Base
 - `make(string $name)`: Crea una nuova istanza del componente
 - `label(string $label)`: Imposta la label del componente
@@ -200,6 +228,7 @@ Forms\Components\FileUpload::make('certifications')
 - `acceptedFileTypes(array $types)`: Imposta i tipi di file accettati
 - `maxSize(int $size)`: Imposta la dimensione massima del file in KB
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YyxhJ8
 
 ### Best Practices
@@ -209,12 +238,15 @@ Forms\Components\FileUpload::make('certifications')
 ### Best Practices
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 
 ### Best Practices
 
 =======
 ### Best Practices
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 ### Best Practices
@@ -224,12 +256,15 @@ Forms\Components\FileUpload::make('certifications')
 
 >>>>>>> .merge_file_5VBj22
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 1. **UI/UX**
    - Usare icone appropriate per il tipo di file
    - Fornire feedback visivo durante l'upload
    - Mostrare preview dei file quando possibile
    - Implementare validazione client-side
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YyxhJ8
 
 =======
@@ -244,6 +279,10 @@ Forms\Components\FileUpload::make('certifications')
 =======
 
 >>>>>>> .merge_file_5VBj22
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 2. **Sicurezza**
    - Limitare i tipi di file accettati
@@ -251,6 +290,7 @@ Forms\Components\FileUpload::make('certifications')
    - Validare i file lato server
    - Usare nomi file sicuri
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YyxhJ8
 
 =======
@@ -265,12 +305,17 @@ Forms\Components\FileUpload::make('certifications')
 =======
 
 >>>>>>> .merge_file_5VBj22
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 3. **Performance**
    - Ottimizzare la dimensione dei file
    - Implementare upload asincroni
    - Gestire correttamente gli errori
    - Fornire feedback di progresso
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_YyxhJ8
 =======
@@ -289,6 +334,8 @@ Forms\Components\FileUpload::make('certifications')
 - [Best Practices](../../Xot/project_docs/filament-best-practices.md)
 =======
 >>>>>>> .merge_file_5VBj22
+=======
+>>>>>>> 804451c (Lint)
 
 ## Collegamenti
 - [README](../../patient/project_docs/readme.md)
@@ -298,11 +345,15 @@ Forms\Components\FileUpload::make('certifications')
 ## Vedi Anche
 - [Filament FileUpload Documentation](https://filamentphp.com/project_docs/forms/fields#file-upload)
 - [Best Practices](../../xot/project_docs/filament-best-practices.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_YyxhJ8
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ## Collegamenti
 <<<<<<< HEAD
 =======
@@ -348,9 +399,12 @@ Forms\Components\FileUpload::make('certifications')
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_5VBj22
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

@@ -157,6 +157,7 @@ public function eventDidMount(): string
 - [GitHub](https://github.com/saade/filament-fullcalendar)
 - [Esempio Laravel Daily](https://laraveldaily.com/post/filament-show-calendar-of-tasks-with-fullcalendar)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_T79F9Y
 =======
 <<<<<<< HEAD
@@ -171,25 +172,34 @@ public function eventDidMount(): string
 2025-06-04
 =======
 >>>>>>> .merge_file_Ex1uPj
+=======
+>>>>>>> 804451c (Lint)
 - [Modules/UI/docs/full-calendar.md](../modules/ui/docs/full-calendar.md)
 - [Regole .mdc](../.cursor/rules/cursor.mdc), [../.windsurf/rules/windsurf.mdc]
 
 ## Ultimo aggiornamento
 [DATE]
+<<<<<<< HEAD
 <<<<<<< .merge_file_T79F9Y
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 - [Modules/UI/docs/full-calendar.md](../Modules/UI/docs/full-calendar.md)
 - [Regole .mdc](../.cursor/rules/cursor.mdc), [../.windsurf/rules/windsurf.mdc]
 
 ## Ultimo aggiornamento
 2025-06-04
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Ex1uPj
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

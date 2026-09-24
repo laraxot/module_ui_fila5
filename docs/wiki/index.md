@@ -8,6 +8,7 @@ updated: 2026-06-05
 qmd: "ui module wiki index filament second brain"
 issues:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GsUpuG
 =======
 <<<<<<< HEAD
@@ -24,6 +25,8 @@ related:
   - "./overview.md"
 =======
 >>>>>>> .merge_file_PlZEMI
+=======
+>>>>>>> 804451c (Lint)
   - "https://github.com/laraxot/base_fixcity_fila5/issues/272"
 discussions:
   - "https://github.com/laraxot/base_fixcity_fila5/discussions/273"
@@ -32,11 +35,15 @@ related:
   - ../../../../docs/wiki/bmad/architecture.md
   - ../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md
   - ../../docs/wiki/concepts/ai-harness-module-discipline.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_GsUpuG
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 discussions:
 related:
   - "./agents.md"
@@ -45,11 +52,14 @@ related:
   - "./log.md"
   - "./overview.md"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_PlZEMI
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ---
 
@@ -57,6 +67,7 @@ related:
 
 ## AI / second brain
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GsUpuG
 - [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
@@ -73,15 +84,23 @@ related:
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+- [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 - [hackernoon-ai-coding-tips-ptv-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-ptv-map.md)
 - [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
 =======
 - [hackernoon-ai-coding-tips-<nome progetto>-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 - [bmad/architecture](../../../../docs/wiki/bmad/architecture.md)
 - [frontmatter + GitHub](../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md)
@@ -103,6 +122,7 @@ related:
 - [decisions/](./decisions/): ADL (Architectural Decision Log).
 - [troubleshooting/](./troubleshooting/): Known issues and solutions.
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GsUpuG
 =======
 <<<<<<< HEAD
@@ -111,9 +131,12 @@ related:
 =======
 <<<<<<< HEAD
 =======
+>>>>>>> 804451c (Lint)
+=======
   - [git-push-lfs-missing-objects](./troubleshooting/git-push-lfs-missing-objects.md): push rifiutato per LFS mancanti
   - [module-theme-root-hygiene](./troubleshooting/module-theme-root-hygiene.md): zero `.txt`, max 4 `.md` in root moduli/temi
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
   - [git-push-lfs-missing-objects](./troubleshooting/git-push-lfs-missing-objects.md): push rifiutato per LFS mancanti
@@ -121,6 +144,8 @@ related:
 =======
 >>>>>>> .merge_file_PlZEMI
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - [_archive/](./_archive/): Legacy documentation.
 - [_templates/](./_templates/): Standard templates.
 
@@ -136,6 +161,7 @@ related:
 | [model-states-module-ownership](./concepts/model-states-module-ownership.md) | Concept | ownership modulare e vincoli runtime | 2026-04-28 |
 | [phpstan-dynamic-array-normalization](./concepts/phpstan-dynamic-array-normalization.md) | Concept | Normalizzazione array dinamici UI per PHPStan senza inline @var/ignore | 2026-05-06 |
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GsUpuG
 =======
 <<<<<<< HEAD
@@ -145,6 +171,9 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_PlZEMI
+=======
+=======
+>>>>>>> 804451c (Lint)
 
 ---
 
@@ -239,6 +268,7 @@ related:
 | [enumselect-filament-api-collisions](./concepts/enumselect-filament-api-collisions.md) | Concept | runtime fatals (make/enum/getLabel) | 2026-04-23 |
 | [model-states-module-ownership](./concepts/model-states-module-ownership.md) | Concept | ownership modulare e vincoli runtime | 2026-04-28 |
 | [phpstan-dynamic-array-normalization](./concepts/phpstan-dynamic-array-normalization.md) | Concept | Normalizzazione array dinamici UI per PHPStan senza inline @var/ignore | 2026-05-06 |
+<<<<<<< HEAD
 <<<<<<< .merge_file_GsUpuG
 <<<<<<< HEAD
 =======
@@ -249,3 +279,6 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_PlZEMI
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

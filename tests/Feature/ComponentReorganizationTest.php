@@ -7,6 +7,7 @@ namespace Modules\UI\Tests\Feature;
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 namespace Modules\UI\Tests\Feature;
@@ -14,6 +15,8 @@ namespace Modules\UI\Tests\Feature;
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\View;
@@ -21,6 +24,7 @@ use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
+<<<<<<< HEAD
 <<<<<<< .merge_file_AaRYrG
 <<<<<<< HEAD
 =======
@@ -28,12 +32,16 @@ uses(TestCase::class);
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -42,6 +50,10 @@ uses(TestCase::class);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Kp9H6h
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
 function skipUnlessPubThemeViews(): void
 {
@@ -156,6 +168,7 @@ describe('Component Rendering Tests', function (): void {
         } catch (\Throwable $e) {
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
         } catch (Throwable $e) {
 =======
 <<<<<<< HEAD
@@ -164,6 +177,9 @@ describe('Component Rendering Tests', function (): void {
         } catch (Throwable $e) {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        } catch (Throwable $e) {
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
             Assert::markTestSkipped('pub_theme input view not renderable: '.$e->getMessage());
         }
@@ -186,6 +202,7 @@ describe('Component Rendering Tests', function (): void {
         } catch (\Throwable $e) {
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
         } catch (Throwable $e) {
 =======
 <<<<<<< HEAD
@@ -194,6 +211,9 @@ describe('Component Rendering Tests', function (): void {
         } catch (Throwable $e) {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        } catch (Throwable $e) {
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
             Assert::markTestSkipped('pub_theme button view not renderable: '.$e->getMessage());
         }
@@ -217,6 +237,7 @@ describe('Component Rendering Tests', function (): void {
         } catch (\Throwable $e) {
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
         } catch (Throwable $e) {
 =======
 <<<<<<< HEAD
@@ -225,6 +246,9 @@ describe('Component Rendering Tests', function (): void {
         } catch (Throwable $e) {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        } catch (Throwable $e) {
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
             Assert::markTestSkipped('pub_theme card view not renderable: '.$e->getMessage());
         }
@@ -265,6 +289,7 @@ describe('Component Integration Tests', function (): void {
         } catch (\Throwable $e) {
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
         } catch (Throwable $e) {
 =======
 <<<<<<< HEAD
@@ -273,6 +298,9 @@ describe('Component Integration Tests', function (): void {
         } catch (Throwable $e) {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        } catch (Throwable $e) {
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
             Assert::markTestSkipped('Blade component integration not renderable in this install: '.$e->getMessage());
         }

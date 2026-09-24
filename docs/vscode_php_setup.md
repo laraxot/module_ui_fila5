@@ -110,6 +110,7 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
             "    public function getFormSchema(): array",
 =======
 <<<<<<< HEAD
@@ -117,6 +118,9 @@
             "    public function getFormSchema(): array",
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+            "    public function getFormSchema(): array",
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
             "    {",
             "        return [",

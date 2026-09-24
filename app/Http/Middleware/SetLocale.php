@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\Session;
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 use RuntimeException;
 =======
 <<<<<<< HEAD
@@ -18,6 +19,9 @@ use RuntimeException;
 use RuntimeException;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+use RuntimeException;
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 use Symfony\Component\HttpFoundation\Response;
 
@@ -42,6 +46,7 @@ final class SetLocale
             throw new \RuntimeException('Middleware must return a Response instance');
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new RuntimeException('Middleware must return a Response instance');
 =======
 <<<<<<< HEAD
@@ -50,6 +55,9 @@ final class SetLocale
             throw new RuntimeException('Middleware must return a Response instance');
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+            throw new RuntimeException('Middleware must return a Response instance');
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
         }
 

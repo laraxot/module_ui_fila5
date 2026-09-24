@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6toagu
 =======
 <<<<<<< HEAD
@@ -31,6 +32,8 @@ Gestione interfaccia utente, componenti, asset e frontend.
 - Personalizza la configurazione per esigenze di frontend avanzato.
 =======
 >>>>>>> .merge_file_tTDqqI
+=======
+>>>>>>> 804451c (Lint)
 ---
 module: theme
 topic: mcp_server_recommended
@@ -38,11 +41,15 @@ canonical: ../../../Themes/docs/shared-components/mcp-server-recommended-Modules
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/mcp-server-recommended-Modules.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_6toagu
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 # MCP Server Consigliati per il Modulo UI
 
 ## Scopo del Modulo
@@ -67,9 +74,12 @@ Gestione interfaccia utente, componenti, asset e frontend.
 ## Note
 - Personalizza la configurazione per esigenze di frontend avanzato.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_tTDqqI
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

@@ -41,6 +41,7 @@ use Modules\<nome progetto>\States\Appointment\AppointmentState;
 use Modules\<nome progetto>\Models\Appointment;
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\<nome progetto>\States\Appointment\AppointmentState;
 use Modules\<nome progetto>\Models\Appointment;
 =======
@@ -48,6 +49,11 @@ use Modules\SaluteOra\States\Appointment\AppointmentState;
 use Modules\SaluteOra\Models\Appointment;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+use Modules\SaluteOra\States\Appointment\AppointmentState;
+use Modules\SaluteOra\Models\Appointment;
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
 // In your Filament resource table configuration
 'states' => IconStateSplitColumn::make()
@@ -291,9 +297,12 @@ The main issue was that `wire:click` doesn't work directly in Filament table col
 ```javascript
 // Custom event dispatch
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 onclick="window.dispatchEvent(new CustomEvent('state-transition', {
     detail: {
         recordId: {{ $record->id }},
@@ -301,7 +310,10 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
         action: 'prova'
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
 onclick="window.dispatchEvent(new CustomEvent('state-transition', { 
     detail: { 
@@ -310,7 +322,10 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
         action: 'prova'
     } 
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 }))"
 
 // Event listener for Livewire integration
@@ -358,8 +373,13 @@ document.addEventListener('state-transition', function(event) {
 **Compatibility**: Filament 3.x, Laravel 10.x
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Compatibility**: Filament 3.x, Laravel 10.x
 =======
 **Compatibility**: Filament 3.x, Laravel 10.x 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+**Compatibility**: Filament 3.x, Laravel 10.x 
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

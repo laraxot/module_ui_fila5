@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 =======
@@ -13,6 +14,9 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 # UI - Product Strategy
 
@@ -64,6 +68,7 @@ Portare **UI** a uno stato in cui il progetto ottiene un vantaggio netto e misur
 
 ## Regola architetturale
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_QgDfPB
 =======
 <<<<<<< HEAD
@@ -74,6 +79,11 @@ Portare **UI** a uno stato in cui il progetto ottiene un vantaggio netto e misur
 =======
 >>>>>>> laraxot/dev
 =======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
+=======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
@@ -81,8 +91,11 @@ Portare **UI** a uno stato in cui il progetto ottiene un vantaggio netto e misur
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_UCPrBV
+=======
+>>>>>>> 804451c (Lint)
 # UI Module - Product Strategy
 
 **Module:** UI  
@@ -173,7 +186,10 @@ Easy to use and extend.
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_QgDfPB
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 *Last Updated: March 12, 2026*
 =======
@@ -233,6 +249,7 @@ Easy to use and extend.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -240,6 +257,8 @@ Easy to use and extend.
 *Last Updated: March 12, 2026*
 =======
 >>>>>>> .merge_file_UCPrBV
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 - Action-first: niente generic `Services` per la business logic
@@ -252,10 +271,13 @@ Easy to use and extend.
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
@@ -267,7 +289,10 @@ Easy to use and extend.
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

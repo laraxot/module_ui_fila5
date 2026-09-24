@@ -11,12 +11,15 @@ use Modules\UI\Enums\TableLayoutEnum;
 /** @phpstan-ignore trait.unused */
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 /** @phpstan-ignore trait.unused */
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 trait TableLayoutTrait
 {

@@ -4,6 +4,7 @@
 **Priorita'**: Media
 **Completamento**: 20%
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ILv7UT
 =======
 <<<<<<< HEAD
@@ -19,6 +20,11 @@
 =======
 >>>>>>> .merge_file_YjfZR8
 >>>>>>> laraxot/dev
+=======
+=======
+**Data**: 2026-01-30
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
 ---
 

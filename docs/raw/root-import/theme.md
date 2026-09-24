@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_KJVZBQ
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_glxuAS
+=======
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Theme 1"
 type: concept
@@ -15,7 +19,10 @@ tags: [theme]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "theme-1 theme 1"
+<<<<<<< HEAD
 <<<<<<< .merge_file_KJVZBQ
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -28,12 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> .merge_file_glxuAS
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./api-1.md"
   - "./api.md"
@@ -45,6 +55,7 @@ related:
   - "./changelog-2.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_KJVZBQ
 <<<<<<< HEAD
 =======
@@ -55,6 +66,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_glxuAS
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 https://dev.to/themesberg/how-to-build-a-blog-template-with-tailwind-css-and-flowbite-5e4n
 
 

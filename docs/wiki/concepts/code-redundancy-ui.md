@@ -7,11 +7,15 @@ created: "2026-05-26"
 updated: "2026-05-26"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_oPq61Y
+=======
+>>>>>>> 804451c (Lint)
   - ../../../../Xot/docs/wiki/concepts/code-redundancy-philosophy.md
   - ../../../redundancy-audit-2026-05-21.md
   - ../../../redundancy-report.md
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -33,6 +37,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
+=======
+>>>>>>> 804451c (Lint)
   - "./auth-register-focus-loss-overlay.md"
   - "./block-rendering-and-optional-services.md"
   - "./claude-audit-static.md"
@@ -41,11 +47,14 @@ related:
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
   - "./enum-select-usage.md"
+<<<<<<< HEAD
 =======
   - ../../../../Xot/docs/wiki/concepts/code-redundancy-philosophy.md
   - ../../../redundancy-audit-2026-05-21.md
   - ../../../redundancy-report.md
 >>>>>>> .merge_file_aDrmds
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ---
 

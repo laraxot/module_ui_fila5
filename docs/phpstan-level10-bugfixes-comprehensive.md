@@ -157,11 +157,16 @@ cd laravel
 - [Media Module PHPStan Fixes](../media/project_docs/phpstan_level10_fixes.md)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Media Module PHPStan Fixes](../media/project_docs/phpstan_level10_fixes.md)
 =======
 - [Media Module PHPStan Fixes](../Media/project_docs/phpstan_level10_fixes.md)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- [Media Module PHPStan Fixes](../Media/project_docs/phpstan_level10_fixes.md)
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
 ## Aggiornamento Continuo
 
@@ -171,10 +176,15 @@ Questo documento deve essere aggiornato ogni volta che vengono rilevati e corret
 **Data Ultimo Aggiornamento**: [DATE]
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Data Ultimo Aggiornamento**: [DATE]
 =======
 **Data Ultimo Aggiornamento**: 2025-01-06
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+**Data Ultimo Aggiornamento**: 2025-01-06
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 **PHPStan Version**: 1.12.x
 **Laravel Version**: 12.21.0

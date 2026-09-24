@@ -28,6 +28,7 @@
 ## Stato
 - ❌ Conflitti da risolvere
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YmDs4W
 - 📅 Data rilevamento: [DATE]
 =======
@@ -35,10 +36,13 @@
 - 📅 Data rilevamento: 2025-11-12
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - 📅 Data rilevamento: [DATE]
 =======
 - 📅 Data rilevamento: 2025-11-12
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - 📅 Data rilevamento: 2025-11-12
@@ -46,4 +50,6 @@
 - 📅 Data rilevamento: [DATE]
 >>>>>>> .merge_file_uPRrTn
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - 🔄 Priorità: ALTA - Componenti UI critici

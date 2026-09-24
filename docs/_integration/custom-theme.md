@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jqaPDZ
 =======
+>>>>>>> 804451c (Lint)
+=======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -10,6 +14,8 @@
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 =======
@@ -19,8 +25,11 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_SWO1HI
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "custom_theme"
 type: concept
@@ -41,7 +50,10 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_jqaPDZ
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
@@ -55,6 +67,7 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -64,6 +77,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_SWO1HI
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 # custom_theme
 
 <!-- Contenuto migrato da _docs/custom_theme.txt -->
@@ -76,11 +92,14 @@ https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-li
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 =======
@@ -91,9 +110,12 @@ https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-li
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 php artisan make:filament-theme admin
 
@@ -110,10 +132,13 @@ https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-li
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -127,9 +152,12 @@ https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-li
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 php artisan make:filament-theme admin
@@ -151,12 +179,15 @@ in app/Providers/Filament/AdminPanelProvider.php
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ->viteTheme('resources/css/filament/admin/theme.css')
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 ->viteTheme('resources/css/filament/admin/theme.css')
 =======
 ->viteTheme('resources/css/filament/admin/theme.css')
@@ -170,7 +201,10 @@ in app/Providers/Filament/AdminPanelProvider.php
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

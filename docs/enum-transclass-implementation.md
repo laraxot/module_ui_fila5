@@ -134,6 +134,7 @@ grep -r "__(" Modules/UI/app/Enums/
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YJLIwJ
 =======
 <<<<<<< HEAD
@@ -148,24 +149,33 @@ grep -r "__(" Modules/UI/app/Enums/
 *Ultimo aggiornamento: 2025-08-04*
 =======
 >>>>>>> .merge_file_qNoODl
+=======
+>>>>>>> 804451c (Lint)
 - [../../../../../docs/enum-transclass-rule.md](../../../../../docs/enum-transclass-rule.md)
 - [../filament/no-label-rule.md](../filament/no-label-rule.md)
 - [../clean-code/no-obvious-comments.md](../clean-code/no-obvious-comments.md)
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_YJLIwJ
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 - [../../../../docs/enum-transclass-rule.md](../../../../docs/enum-transclass-rule.md)
 - [../filament/no-label-rule.md](../filament/no-label-rule.md)
 - [../clean-code/no-obvious-comments.md](../clean-code/no-obvious-comments.md)
 
 *Ultimo aggiornamento: 2025-08-04*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_qNoODl
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

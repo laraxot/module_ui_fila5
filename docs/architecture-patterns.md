@@ -437,6 +437,7 @@ IconService
 - **Framework Base**: [Xot Architecture Patterns](../../Xot/docs/architecture-patterns.md)
 - **Disabled Components**: [disabled-components.md](./disabled-components.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQJTGD
 =======
 - **Architecture Overview**: [architecture.md](./architecture.md)
@@ -445,9 +446,12 @@ IconService
 - **Icon Integration**: [BRANDS_ICONS_INTEGRATION.md](./brands-icons-integration.md)
 =======
 >>>>>>> .merge_file_IgLzej
+=======
+>>>>>>> 804451c (Lint)
 - **Architecture Overview**: [ARCHITECTURE.md](./ARCHITECTURE.md)
 - **Index**: [INDEX.md](./INDEX.md)
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -456,6 +460,8 @@ IconService
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - **Architecture Overview**: [ARCHITECTURE.md](./architecture.md)
 - **Index**: [INDEX.md](./index.md)
 - **Architecture Overview**: [ARCHITECTURE.md](./ARCHITECTURE.md)
@@ -481,6 +487,7 @@ IconService
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -488,6 +495,11 @@ IconService
 - **Design System**: [DESIGN_COMUNI_IMPLEMENTATION.md](./DESIGN_COMUNI_IMPLEMENTATION.md)
 - **Icon Integration**: [BRANDS_ICONS_INTEGRATION.md](./BRANDS_ICONS_INTEGRATION.md)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+- **Design System**: [DESIGN_COMUNI_IMPLEMENTATION.md](./DESIGN_COMUNI_IMPLEMENTATION.md)
+- **Icon Integration**: [BRANDS_ICONS_INTEGRATION.md](./BRANDS_ICONS_INTEGRATION.md)
+>>>>>>> 804451c (Lint)
 
 ---
 

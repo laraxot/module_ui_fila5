@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_0saKrM
 <<<<<<< HEAD
 =======
@@ -5,6 +6,9 @@
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 // UI Blade view — see Modules/UI/docs/wiki.
@@ -34,6 +38,7 @@
 @php
 @endphp
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -46,6 +51,10 @@
 declare(strict_types=1);
 ?>
 >>>>>>> .merge_file_8eW08b
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 <div class="interactive-map-container" wire:ignore.self>
     <!-- Controlli mappa -->
     @if($showControls)

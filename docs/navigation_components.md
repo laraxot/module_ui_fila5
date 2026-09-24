@@ -69,6 +69,7 @@ I componenti di navigazione devono utilizzare sempre le funzioni di localizzazio
 ### Traduzioni Necessarie
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_t6Bp3q
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/<nome progetto>/laravel/lang/{locale}/auth.php`:
 =======
@@ -79,6 +80,11 @@ Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/htm
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/<nome progetto>/laravel/lang/{locale}/auth.php`:
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/saluteora/laravel/lang/{locale}/auth.php`:
 <<<<<<< HEAD
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `[project-root]/laravel/lang/{locale}/auth.php`:
@@ -102,6 +108,7 @@ Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/htm
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -111,6 +118,8 @@ Assicurarsi che le seguenti chiavi di traduzione siano definite in `[project-roo
 =======
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/<nome progetto>/laravel/lang/{locale}/auth.php`:
 >>>>>>> .merge_file_vqaVnm
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ```php

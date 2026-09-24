@@ -1,6 +1,7 @@
 # Regole per i Prompt
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dDhFiT
 Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../../xot/docs/prompt_rules.md)
 =======
@@ -39,6 +40,11 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../../xot/docs/prompt_rules.md)
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_OBv5Pj
+=======
+Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../../xot/docs/prompt_rules.md)
+=======
+Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../../Xot/docs/PROMPT_RULES.md)
+>>>>>>> 804451c (Lint)
 ### Versione HEAD
 
 <<<<<<< HEAD
@@ -81,15 +87,21 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 ## Collegamenti tra versioni di PROMPT_RULES_LINK.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_dDhFiT
 =======
 <<<<<<< HEAD
 >>>>>>> .merge_file_OBv5Pj
+=======
+>>>>>>> 804451c (Lint)
 * [PROMPT_RULES_LINK.md](../../../UI/docs/PROMPT_RULES_LINK.md)
 * [PROMPT_RULES_LINK.md](../../../Lang/docs/PROMPT_RULES_LINK.md)
 * [PROMPT_RULES_LINK.md](../../../Cms/docs/PROMPT_RULES_LINK.md)
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_dDhFiT
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -103,13 +115,17 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_OBv5Pj
+=======
+>>>>>>> 804451c (Lint)
 ## Collegamenti tra versioni di prompt_rules_link.md
 * [prompt_rules_link.md](../../Lang/docs/prompt_rules_link.md)
 * [prompt_rules_link.md](../../Cms/docs/prompt_rules_link.md)
 
 ---
+<<<<<<< HEAD
 <<<<<<< .merge_file_dDhFiT
 # Regole per i Prompt
 
@@ -118,12 +134,18 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+# Regole per i Prompt
+
+Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../../Xot/docs/PROMPT_RULES.md)
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### Versione HEAD
 
 ### Versione Incoming
 
 ## Collegamenti tra versioni di PROMPT_RULES_LINK.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -133,6 +155,8 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 =======
 =======
 >>>>>>> .merge_file_OBv5Pj
+=======
+>>>>>>> 804451c (Lint)
 * [PROMPT_RULES_LINK.md](../../../ui/docs/prompt_rules_link.md)
 * [PROMPT_RULES_LINK.md](../../../lang/docs/prompt_rules_link.md)
 * [PROMPT_RULES_LINK.md](../../../cms/docs/prompt_rules_link.md)
@@ -158,12 +182,17 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 * [prompt_rules_link.md](../../lang/docs/prompt_rules_link.md)
 * [prompt_rules_link.md](../../cms/docs/prompt_rules_link.md)
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 ---
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+---
+=======
+>>>>>>> 804451c (Lint)
 * [PROMPT_RULES_LINK.md](../../../UI/docs/PROMPT_RULES_LINK.md)
 * [PROMPT_RULES_LINK.md](../../../Lang/docs/PROMPT_RULES_LINK.md)
 * [PROMPT_RULES_LINK.md](../../../Cms/docs/PROMPT_RULES_LINK.md)
@@ -216,7 +245,10 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

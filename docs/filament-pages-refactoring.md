@@ -139,6 +139,7 @@ class S3Test extends XotBasePage
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_aiHHYB
 =======
 <<<<<<< HEAD
@@ -250,15 +251,21 @@ class S3Test extends XotBasePage
 - [DRY + KISS Principles](../../Xot/docs/dry_kiss_principles.md)
 =======
 >>>>>>> .merge_file_Sc4fyN
+=======
+>>>>>>> 804451c (Lint)
 - [Filament Best Practices](../../xot/docs/filament_best_practices.md)
 - [XotBasePage Implementation](../../xot/docs/xotbasepage_implementation.md)
 - [DRY + KISS Principles](../../xot/docs/dry_kiss_principles.md)
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_aiHHYB
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 - [Filament Best Practices](../../Xot/docs/filament_best_practices.md)
 - [XotBasePage Implementation](../../Xot/docs/xotbasepage_implementation.md)
 - [DRY + KISS Principles](../../Xot/docs/dry_kiss_principles.md)
@@ -397,9 +404,12 @@ class S3Test extends XotBasePage
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Sc4fyN
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

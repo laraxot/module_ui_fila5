@@ -1,6 +1,7 @@
 # MCP Server Configuration - UI Module
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_i5JNqs
 
 =======
@@ -8,10 +9,13 @@
 **Last Updated**: 31 Gennaio 2026
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 
 =======
 **Last Updated**: 31 Gennaio 2026
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 **Last Updated**: 31 Gennaio 2026
@@ -19,6 +23,8 @@
 
 >>>>>>> .merge_file_dIsjtv
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 **Status**: ✅ Configured
 **MCP Servers**: Asana, ClickUp, Filesystem, Database, Redmine (Planned)
 
@@ -55,6 +61,7 @@ The UI module's MCP configuration enables AI assistants to interact with:
     "filesystem": {
       "command": "npx",
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_i5JNqs
       "args": ["-y", "@modelcontextprotocol/server-filesystem", ". progetto>/laravel"],
 ||||||| parent of 9a84589 (.)
@@ -72,6 +79,11 @@ The UI module's MCP configuration enables AI assistants to interact with:
       "args": ["-y", "@modelcontextprotocol/server-filesystem", ". progetto>/laravel"],
 ||||||| parent of 9a84589 (.)
 >>>>>>> .merge_file_dIsjtv
+=======
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", ". progetto>/laravel"],
+||||||| parent of 9a84589 (.)
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "/var/www/_bases/base_laravelpizza/laravel"],
       "description": "Access to UI module files"
@@ -81,6 +93,7 @@ The UI module's MCP configuration enables AI assistants to interact with:
       "args": ["-y", "@bytebase/dbhub"],
       "env": {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_i5JNqs
         "DATABASE_URL": "sqlite://. progetto>/laravel/database/database.sqlite"
 ||||||| parent of 9a84589 (.)
@@ -98,6 +111,11 @@ The UI module's MCP configuration enables AI assistants to interact with:
         "DATABASE_URL": "sqlite://. progetto>/laravel/database/database.sqlite"
 ||||||| parent of 9a84589 (.)
 >>>>>>> .merge_file_dIsjtv
+=======
+        "DATABASE_URL": "sqlite://. progetto>/laravel/database/database.sqlite"
+||||||| parent of 9a84589 (.)
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
         "DATABASE_URL": "sqlite:///var/www/_bases/base_laravelpizza/laravel/database/database.sqlite"
       },
@@ -115,6 +133,7 @@ The UI module's MCP configuration enables AI assistants to interact with:
 ```bash
 # Create task
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_i5JNqs
 "Create task in '<nome progetto> - UI Module' project: 'Implement location selector component'"
 =======
@@ -122,10 +141,13 @@ The UI module's MCP configuration enables AI assistants to interact with:
 "Create task in 'LaravelPizza - UI Module' project: 'Implement location selector component'"
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 "Create task in '<nome progetto> - UI Module' project: 'Implement location selector component'"
 =======
 "Create task in 'LaravelPizza - UI Module' project: 'Implement location selector component'"
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 "Create task in 'LaravelPizza - UI Module' project: 'Implement location selector component'"
@@ -133,6 +155,8 @@ The UI module's MCP configuration enables AI assistants to interact with:
 "Create task in '<nome progetto> - UI Module' project: 'Implement location selector component'"
 >>>>>>> .merge_file_dIsjtv
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 # Update status
 "Update task 'Create reusable card component' status to 'In Progress'"
@@ -186,6 +210,7 @@ The UI module's MCP configuration enables AI assistants to interact with:
 ## 📚 Related Documentation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_i5JNqs
 =======
 <<<<<<< HEAD
@@ -199,25 +224,34 @@ The UI module's MCP configuration enables AI assistants to interact with:
 - [UI Module Roadmap](./roadmap-2026-01-31.md)
 =======
 >>>>>>> .merge_file_dIsjtv
+=======
+>>>>>>> 804451c (Lint)
 - [Asana MCP Configuration](../../../../docs/mcp-asana-configuration.md)
 - [ClickUp MCP Configuration](../../../../docs/mcp-clickup-configuration.md)
 - [Redmine MCP Configuration](../../../../docs/mcp-redmine-configuration.md)
 - [UI Module Roadmap](./roadmap-[date].md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_i5JNqs
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 - [Asana MCP Configuration](../../../docs/mcp-asana-configuration.md)
 - [ClickUp MCP Configuration](../../../docs/mcp-clickup-configuration.md)
 - [Redmine MCP Configuration](../../../docs/mcp-redmine-configuration.md)
 - [UI Module Roadmap](./roadmap-2026-01-31.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_dIsjtv
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 
 ---
@@ -225,6 +259,7 @@ The UI module's MCP configuration enables AI assistants to interact with:
 ## 🔄 Updates
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_i5JNqs
 - **[DATE]**: Added ClickUp support
 - **[DATE]**: Planned Redmine integration
@@ -234,12 +269,15 @@ The UI module's MCP configuration enables AI assistants to interact with:
 - **2026-01-31**: Planned Redmine integration
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - **[DATE]**: Added ClickUp support
 - **[DATE]**: Planned Redmine integration
 =======
 - **2026-01-31**: Added ClickUp support
 - **2026-01-31**: Planned Redmine integration
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - **2026-01-31**: Added ClickUp support
@@ -249,6 +287,8 @@ The UI module's MCP configuration enables AI assistants to interact with:
 - **[DATE]**: Planned Redmine integration
 >>>>>>> .merge_file_dIsjtv
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - **Servers Active**: 4 (Asana, ClickUp, Filesystem, Database)
 
 ---
@@ -258,6 +298,7 @@ The UI module's MCP configuration enables AI assistants to interact with:
 <<<<<<< HEAD
 **Last Review**: 31 Gennaio 2026
 =======
+<<<<<<< HEAD
 <<<<<<< .merge_file_i5JNqs
 <<<<<<< HEAD
 **Last Review**: 31 Gennaio 2026
@@ -272,3 +313,7 @@ The UI module's MCP configuration enables AI assistants to interact with:
 **Last Review**: 31 Gennaio 2026
 >>>>>>> .merge_file_dIsjtv
 >>>>>>> laraxot/dev
+=======
+**Last Review**: 31 Gennaio 2026
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)

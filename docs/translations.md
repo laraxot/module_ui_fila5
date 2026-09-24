@@ -3,6 +3,7 @@
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jPx1Bc
 - [Modulo Lang](../../lang/docs/module_lang.md) - Documentazione principale sulle traduzioni
 - [Regole Generali Traduzioni](../../xot/docs/translations.md)
@@ -12,12 +13,15 @@
 - [Regole Generali Traduzioni](../../Xot/docs/translations.md)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 - [Modulo Lang](../../lang/docs/module_lang.md) - Documentazione principale sulle traduzioni
 - [Regole Generali Traduzioni](../../xot/docs/translations.md)
 =======
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale sulle traduzioni
 - [Regole Generali Traduzioni](../../Xot/docs/translations.md)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale sulle traduzioni
@@ -27,6 +31,8 @@
 - [Regole Generali Traduzioni](../../xot/docs/translations.md)
 >>>>>>> .merge_file_puXwAW
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 
 ## Struttura
 
@@ -75,6 +81,7 @@ return [
 ```
 ## Collegamenti tra versioni di translations.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jPx1Bc
 =======
 <<<<<<< HEAD
@@ -101,6 +108,8 @@ return [
 * [translations.md](../../../Cms/docs/translations.md)
 =======
 >>>>>>> .merge_file_puXwAW
+=======
+>>>>>>> 804451c (Lint)
 * [translations.md](../../../chart/docs/translations.md)
 * [translations.md](../../../reporting/docs/translations.md)
 * [translations.md](../../../gdpr/docs/translations.md)
@@ -118,11 +127,15 @@ return [
 * [translations.md](../../../activity/docs/translations.md)
 * [translations.md](../../../patient/docs/translations.md)
 * [translations.md](../../../cms/docs/translations.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_jPx1Bc
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 * [translations.md](../../../Chart/docs/translations.md)
 * [translations.md](../../../Reporting/docs/translations.md)
 * [translations.md](../../../Gdpr/docs/translations.md)
@@ -141,9 +154,12 @@ return [
 * [translations.md](../../../Patient/docs/translations.md)
 * [translations.md](../../../Cms/docs/translations.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_puXwAW
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

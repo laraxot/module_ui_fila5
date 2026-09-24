@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 =======
+>>>>>>> 804451c (Lint)
+=======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -10,6 +14,8 @@
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 =======
@@ -19,8 +25,11 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_jIxECU
+=======
+>>>>>>> 804451c (Lint)
 ---
 title: "Sistema di Theming"
 type: concept
@@ -40,7 +49,10 @@ related:
   - "./02-next.md"
   - "./03-later.md"
 ---
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 
@@ -59,12 +71,15 @@ related:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 =======
 >>>>>>> .merge_file_jIxECU
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 # Sistema di Theming
 
@@ -103,7 +118,10 @@ class ThemeRegistry
     /** @var array<string, Theme> */
     protected array $themes = [];
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
+=======
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
 =======
@@ -117,6 +135,7 @@ class ThemeRegistry
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -127,11 +146,19 @@ class ThemeRegistry
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_jIxECU
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
     
     /** @var array<string, array<string, mixed>> */
     protected array $overrides = [];
     
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -143,6 +170,7 @@ class ThemeRegistry
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -152,6 +180,9 @@ class ThemeRegistry
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_jIxECU
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
     /** @var array<string, array<string, mixed>> */
     protected array $overrides = [];
@@ -160,10 +191,13 @@ class ThemeRegistry
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -177,15 +211,19 @@ class ThemeRegistry
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public function register(Theme $theme): void
     {
         $this->themes[$theme->getName()] = $theme;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 
 =======
@@ -196,6 +234,11 @@ class ThemeRegistry
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
     
@@ -222,6 +265,7 @@ class ThemeRegistry
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -229,6 +273,8 @@ class ThemeRegistry
 =======
 
 >>>>>>> .merge_file_jIxECU
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public function override(string $tenant, array $config): void
     {
@@ -247,6 +293,7 @@ class Theme
         protected ?string $parent = null
     ) {}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 
 =======
@@ -257,6 +304,11 @@ class Theme
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
     
@@ -283,6 +335,7 @@ class Theme
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -290,12 +343,15 @@ class Theme
 =======
 
 >>>>>>> .merge_file_jIxECU
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public function resolve(string $path, $default = null)
     {
         return Arr::get($this->config, $path, $default);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 
 =======
@@ -306,6 +362,11 @@ class Theme
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 <<<<<<< HEAD
     
@@ -332,6 +393,7 @@ class Theme
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -339,6 +401,8 @@ class Theme
 =======
 
 >>>>>>> .merge_file_jIxECU
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public function extend(array $overrides): self
     {
@@ -508,6 +572,7 @@ class ThemeCompiler
 3. Ottimizzare caching
 4. Aggiungere theme builder
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -519,16 +584,25 @@ class ThemeCompiler
 ## 📊 Stato Implementazione
 Completamento: 40%
 =======
+=======
+5. Migliorare documentazione
+# Sistema di Theming
+>>>>>>> 804451c (Lint)
 
 ## 📊 Stato Implementazione
 Completamento: 40%
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 <<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 5. Migliorare documentazione 
 =======
 <<<<<<< HEAD
@@ -549,11 +623,14 @@ Completamento: 40%
 ## 📊 Stato Implementazione
 Completamento: 40%
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_jIxECU
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ## 🎯 Obiettivi
 1. Sistema di theming flessibile e tipizzato
@@ -561,6 +638,7 @@ Completamento: 40%
 3. Dark/Light mode automatico
 4. Customizzazione component-level
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 
 ## 🤔 Sfide di Design
@@ -570,12 +648,15 @@ Completamento: 40%
 ## 🤔 Sfide di Design
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 
 ## 🤔 Sfide di Design
 
 =======
 ## 🤔 Sfide di Design
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 ## 🤔 Sfide di Design
@@ -585,11 +666,14 @@ Completamento: 40%
 
 >>>>>>> .merge_file_jIxECU
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ### 1. Theme Configuration
 - Gestione gerarchica dei temi
 - Override per tenant specifici
 - Tipizzazione configurazioni
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 
 =======
@@ -604,12 +688,17 @@ Completamento: 40%
 =======
 
 >>>>>>> .merge_file_jIxECU
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### 2. Runtime Theming
 - Switch tema dinamico
 - Caching configurazioni
 - Performance ottimizzazione
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 
 =======
@@ -624,12 +713,17 @@ Completamento: 40%
 =======
 
 >>>>>>> .merge_file_jIxECU
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### 3. Component Integration
 - Theme props injection
 - Styled components
 - CSS-in-JS solution
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 
 ## 💡 Soluzioni Proposte
@@ -646,14 +740,21 @@ Completamento: 40%
 
 <<<<<<< .merge_file_oQU1yA
 ## 💡 Soluzioni Proposte
+=======
+
+## 💡 Soluzioni Proposte
+>>>>>>> 804451c (Lint)
 
 =======
 ## 💡 Soluzioni Proposte
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_jIxECU
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 ### 1. Theme Registry
 ```php
 class ThemeRegistry
@@ -661,6 +762,7 @@ class ThemeRegistry
     /** @var array<string, Theme> */
     protected array $themes = [];
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 =======
 <<<<<<< HEAD
@@ -674,25 +776,34 @@ class ThemeRegistry
     protected array $overrides = [];
 =======
 >>>>>>> .merge_file_jIxECU
+=======
+>>>>>>> 804451c (Lint)
 
     /** @var array<string, array<string, mixed>> */
     protected array $overrides = [];
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 <<<<<<< HEAD
 =======
 =======
+>>>>>>> 804451c (Lint)
+=======
     /** @var array<string, array<string, mixed>> */
     protected array $overrides = [];
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_jIxECU
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
     public function register(Theme $theme): void
     {
         $this->themes[$theme->getName()] = $theme;
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 =======
@@ -709,6 +820,8 @@ class ThemeRegistry
 class Theme
 =======
 >>>>>>> .merge_file_jIxECU
+=======
+>>>>>>> 804451c (Lint)
 
     public function override(string $tenant, array $config): void
     {
@@ -721,11 +834,15 @@ class Theme
 ```php
 class Theme
 {
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
     public function override(string $tenant, array $config): void
         $this->overrides[$tenant] = $config;
 }
@@ -733,11 +850,14 @@ class Theme
 ### 2. Theme Configuration
 class Theme
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_jIxECU
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
     public function __construct(
         protected string $name,
@@ -745,6 +865,7 @@ class Theme
         protected ?string $parent = null
     ) {}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 =======
 <<<<<<< HEAD
@@ -759,6 +880,8 @@ class Theme
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_jIxECU
+=======
+>>>>>>> 804451c (Lint)
 
     public function resolve(string $path, $default = null)
     {
@@ -767,24 +890,31 @@ class Theme
 
     public function extend(array $overrides): self
     {
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 804451c (Lint)
 =======
     public function resolve(string $path, $default = null)
         return Arr::get($this->config, $path, $default);
     public function extend(array $overrides): self
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_jIxECU
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
         return new self(
             $this->name,
             array_merge($this->config, $overrides),
             $this->parent
         );
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 =======
 <<<<<<< HEAD
@@ -796,12 +926,15 @@ class Theme
 ## 📝 Steps Implementazione
 =======
 >>>>>>> .merge_file_jIxECU
+=======
+>>>>>>> 804451c (Lint)
     }
 }
 ```
 
 ## 📝 Steps Implementazione
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 <<<<<<< HEAD
 =======
@@ -812,11 +945,17 @@ class Theme
 =======
 >>>>>>> .merge_file_jIxECU
 >>>>>>> laraxot/dev
+=======
+=======
+## 📝 Steps Implementazione
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 ### Fase 1: Core (✅ Completato)
 1. ✅ Theme registry
 2. ✅ Base configuration
 3. ✅ Theme inheritance
 4. ✅ Basic overrides
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 
@@ -832,6 +971,10 @@ class Theme
 =======
 
 >>>>>>> .merge_file_jIxECU
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### Fase 2: Features (🏗️ In Progress)
 1. ✅ Dark/Light mode
@@ -840,6 +983,7 @@ class Theme
 4. 🏗️ Runtime switching
 5. 📝 CSS-in-JS
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 
 =======
@@ -854,6 +998,10 @@ class Theme
 =======
 
 >>>>>>> .merge_file_jIxECU
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 ### Fase 3: Advanced
 1. 📝 Theme presets
@@ -861,6 +1009,7 @@ class Theme
 3. 📝 Theme builder
 4. 📝 Export/Import
 5. 📝 Theme preview
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 =======
@@ -878,6 +1027,8 @@ class ThemeResolver
     public function resolve(Theme $theme, string $path)
 =======
 >>>>>>> .merge_file_jIxECU
+=======
+>>>>>>> 804451c (Lint)
 
 ## 🎭 Edge Cases
 
@@ -891,11 +1042,15 @@ class ThemeResolver
 {
     public function resolve(Theme $theme, string $path)
     {
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ## 🎭 Edge Cases
 1. **Theme Inheritance**
 // Problema: Risoluzione conflitti
@@ -904,11 +1059,14 @@ $theme->resolve('button.primary.color')
 class ThemeResolver
     public function resolve(Theme $theme, string $path)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_jIxECU
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
         $value = $theme->resolve($path);
         if ($value === null && $theme->hasParent()) {
@@ -919,6 +1077,7 @@ class ThemeResolver
         }
         return $value;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 =======
 <<<<<<< HEAD
@@ -934,6 +1093,8 @@ class ThemeCache
     public function get(Theme $theme): array
 =======
 >>>>>>> .merge_file_jIxECU
+=======
+>>>>>>> 804451c (Lint)
     }
 }
 ```
@@ -948,11 +1109,15 @@ class ThemeCache
 {
     public function get(Theme $theme): array
     {
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 2. **Runtime Changes**
 // Problema: Cache invalidation
 $theme->updateConfig(['color' => 'blue'])
@@ -960,11 +1125,14 @@ $theme->updateConfig(['color' => 'blue'])
 class ThemeCache
     public function get(Theme $theme): array
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_jIxECU
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
         $version = $theme->getVersion();
         return Cache::tags(['theme'])
@@ -973,6 +1141,7 @@ class ThemeCache
                 now()->addDay(),
                 fn() => $theme->all()
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 =======
 <<<<<<< HEAD
@@ -984,6 +1153,8 @@ class ThemeCache
 ## ✅ Code Review Checklist
 =======
 >>>>>>> .merge_file_jIxECU
+=======
+>>>>>>> 804451c (Lint)
             );
     }
 }
@@ -991,6 +1162,7 @@ class ThemeCache
 
 ## ✅ Code Review Checklist
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 <<<<<<< HEAD
 =======
@@ -1001,10 +1173,16 @@ class ThemeCache
 =======
 >>>>>>> .merge_file_jIxECU
 >>>>>>> laraxot/dev
+=======
+=======
+## ✅ Code Review Checklist
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 1. Configuration
    - [ ] Theme structure
    - [ ] Inheritance chain
    - [ ] Override system
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 
@@ -1020,12 +1198,17 @@ class ThemeCache
 =======
 
 >>>>>>> .merge_file_jIxECU
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 2. Performance
    - [ ] Cache strategy
    - [ ] CSS optimization
    - [ ] Runtime switching
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 
 =======
@@ -1040,11 +1223,16 @@ class ThemeCache
 =======
 
 >>>>>>> .merge_file_jIxECU
+=======
+
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 3. Integration
    - [ ] Component support
    - [ ] Tenant handling
    - [ ] Mode switching
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 =======
@@ -1070,6 +1258,8 @@ class ThemeCompiler
 ## 📚 Lessons Learned
 =======
 >>>>>>> .merge_file_jIxECU
+=======
+>>>>>>> 804451c (Lint)
 
 ## 🚀 Performance Considerations
 
@@ -1107,11 +1297,15 @@ class ThemeCompiler
 
 ## 📚 Lessons Learned
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ## 🚀 Performance Considerations
 1. **Theme Caching**
 class CachedTheme extends Theme
@@ -1128,17 +1322,21 @@ class ThemeCompiler
                 fn() => $this->generateCSS($theme)
 ## 📚 Lessons Learned
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_jIxECU
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 1. Importanza della cache per performance
 2. Necessità di type safety in configurazione
 3. Flessibilità per multi-tenant
 4. Ottimizzazione CSS runtime
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 
 ## 🔗 Resources
@@ -1148,12 +1346,15 @@ class ThemeCompiler
 ## 🔗 Resources
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 
 ## 🔗 Resources
 
 =======
 ## 🔗 Resources
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 ## 🔗 Resources
@@ -1163,11 +1364,14 @@ class ThemeCompiler
 
 >>>>>>> .merge_file_jIxECU
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 - [Theme Architecture](docs/architecture/themes.md)
 - [Configuration Guide](docs/themes/config.md)
 - [Component Theming](docs/themes/components.md)
 - [Performance Tips](docs/themes/performance.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 
 ## 🤝 Contributing
@@ -1177,12 +1381,15 @@ class ThemeCompiler
 ## 🤝 Contributing
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 804451c (Lint)
 
 ## 🤝 Contributing
 
 =======
 ## 🤝 Contributing
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 ## 🤝 Contributing
@@ -1192,12 +1399,15 @@ class ThemeCompiler
 
 >>>>>>> .merge_file_jIxECU
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 804451c (Lint)
 1. Crea nuovi preset
 2. Migliora performance
 3. Aggiungi features
 4. Documenta uso
 5. Testa compatibilità
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 =======
 <<<<<<< HEAD
@@ -1215,6 +1425,8 @@ class ThemeCompiler
 ## 🎯 Next Steps
 =======
 >>>>>>> .merge_file_jIxECU
+=======
+>>>>>>> 804451c (Lint)
 
 ## ⚠️ Known Issues
 
@@ -1228,11 +1440,15 @@ class ThemeCompiler
 
 ## 🎯 Next Steps
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> 804451c (Lint)
 ## ⚠️ Known Issues
 1. **CSS Generation**
    - Memory usage con molti temi
@@ -1241,18 +1457,22 @@ class ThemeCompiler
    - Flash of unstyled content
    - Solution: Critical CSS injection
 ## 🎯 Next Steps
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_jIxECU
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
 1. Completare component theming
 2. Implementare CSS-in-JS
 3. Ottimizzare caching
 4. Aggiungere theme builder
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_oQU1yA
 5. Migliorare documentazione
 =======
@@ -1263,6 +1483,11 @@ class ThemeCompiler
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+5. Migliorare documentazione
+=======
+<<<<<<< HEAD
+>>>>>>> 804451c (Lint)
 =======
 5. Migliorare documentazione
 <<<<<<< HEAD
@@ -1281,6 +1506,7 @@ class ThemeCompiler
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -1288,4 +1514,6 @@ class ThemeCompiler
 =======
 5. Migliorare documentazione
 >>>>>>> .merge_file_jIxECU
+=======
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev

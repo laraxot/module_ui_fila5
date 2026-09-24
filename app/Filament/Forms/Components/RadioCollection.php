@@ -30,6 +30,7 @@ final class RadioCollection extends XotBaseField
      * @param \Closure|Collection<int|string, mixed>|null $options
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param  \Closure|Collection<int|string, mixed>|null  $options
 =======
 <<<<<<< HEAD
@@ -38,6 +39,9 @@ final class RadioCollection extends XotBaseField
      * @param  \Closure|Collection<int|string, mixed>|null  $options
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+     * @param  \Closure|Collection<int|string, mixed>|null  $options
+>>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
      */
     public function options(\Closure|Collection|null $options): static
@@ -101,6 +105,7 @@ final class RadioCollection extends XotBaseField
 
     /**
      * Comparazione type-safe per determinare se un'opzione è selezionata.
+<<<<<<< HEAD
 <<<<<<< .merge_file_lwkCNS
 <<<<<<< HEAD
 =======
@@ -122,6 +127,15 @@ final class RadioCollection extends XotBaseField
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+     */
+    public function isOptionSelected(mixed $option): bool
+    {
+        $state = SafeStringCastAction::cast($this->getState());
+        $currentValue = (string) $state;
+=======
+>>>>>>> 804451c (Lint)
      *
      * @param  mixed  $stateOverride  stato esplicito (test/offline senza container Livewire)
      */
@@ -129,6 +143,7 @@ final class RadioCollection extends XotBaseField
     {
         $state = $stateOverride ?? $this->getState();
         $currentValue = (string) SafeStringCastAction::cast($state);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
@@ -138,6 +153,9 @@ final class RadioCollection extends XotBaseField
         $state = $stateOverride ?? $this->getState();
         $currentValue = SafeStringCastAction::cast($state);
 >>>>>>> .merge_file_Zz6H4R
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
 
         // PHPStan L10: data_get restituisce mixed, SafeStringCastAction accetta mixed
         $optionData = data_get($option, $this->getValueKey());
