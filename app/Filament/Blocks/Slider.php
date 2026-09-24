@@ -35,16 +35,16 @@ final class Slider
     }
 
     /**
-<<<<<<< .merge_file_PUWXm9
-     * @return array<int|string, Component>
-=======
-     * <<<<<<< HEAD.
+     * <<<<<<< .merge_file_PUWXm9.
      *
+     * @return array<int|string, Component>
+     *                                      =======
+     *                                      <<<<<<< HEAD
      * @return array<int|string, Component>
      *                                      =======
      * @return array<int|string, Component>
      *                                      >>>>>>> laraxot/dev
->>>>>>> .merge_file_0w3Zal
+     *                                      >>>>>>> .merge_file_0w3Zal
      */
     public static function getFormSchema(): array
     {
