@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_QiD1Xj
+=======
+=======
+<<<<<<< .merge_file_AbwGch
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_l5hsO1
+>>>>>>> .merge_file_TquAVK
+>>>>>>> laraxot/dev
 ---
 title: "ubuntu"
 type: concept
@@ -6,11 +23,18 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "ubuntu ubuntu"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
+=======
+<<<<<<< .merge_file_QiD1Xj
+=======
+<<<<<<< .merge_file_AbwGch
+>>>>>>> .merge_file_TquAVK
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -23,6 +47,18 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_QiD1Xj
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_l5hsO1
+>>>>>>> .merge_file_TquAVK
 >>>>>>> laraxot/dev
 related:
   - "./api.md"
@@ -35,6 +71,23 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_QiD1Xj
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_AbwGch
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_l5hsO1
+>>>>>>> .merge_file_TquAVK
+>>>>>>> laraxot/dev
 # ubuntu
 
 <!-- Contenuto migrato da _docs/ubuntu.txt -->

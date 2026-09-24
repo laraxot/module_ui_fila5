@@ -1,6 +1,54 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_MRzirs
+=======
+<<<<<<< .merge_file_CsKL70
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+---
+module: theme
+topic: blade_data_handling
+canonical: ../../../Themes/docs/shared-components/blade-data-handling_1.md
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/blade-data-handling_1.md
+# Data Handling in Blade Components
+This document outlines best practices for data handling in Blade components, particularly in theme blocks used for content sections.
+## Core Principles
+### 1. Explicit Props Definition
+All Blade components should explicitly define their expected properties using the `@props` directive:
+=======
+>>>>>>> .merge_file_bdNrP0
+>>>>>>> .merge_file_krtbvE
+# Data Handling in Blade Components
+
+This document outlines best practices for data handling in Blade components, particularly in theme blocks used for content sections.
+
+## Core Principles
+
+### 1. Explicit Props Definition
+
+All Blade components should explicitly define their expected properties using the `@props` directive:
+
+<<<<<<< .merge_file_MRzirs
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CsKL70
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_krtbvE
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 =======
@@ -15,6 +63,9 @@
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ---
 module: theme
@@ -32,9 +83,13 @@ See canonical documentation: ../../../Themes/docs/shared-components/blade-data-h
 See canonical documentation: ../../../Themes/docs/shared-components/blade-data-handling_1.md
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 See canonical documentation: ../../../Themes/docs/shared-components/blade-data-handling_1.md
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -45,6 +100,19 @@ This document outlines best practices for data handling in Blade components, par
 ## Core Principles
 ### 1. Explicit Props Definition
 All Blade components should explicitly define their expected properties using the `@props` directive:
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_MRzirs
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_bdNrP0
+>>>>>>> .merge_file_krtbvE
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ```blade
 @props([
     'title' => null,
@@ -54,45 +122,288 @@ All Blade components should explicitly define their expected properties using th
     // Additional props with sensible defaults
 ])
 ```
+<<<<<<< HEAD
 ### 2. Data Flow Pattern
 The standard data flow follows this pattern:
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_MRzirs
+=======
+<<<<<<< .merge_file_CsKL70
+=======
+<<<<<<< HEAD
+### 2. Data Flow Pattern
+The standard data flow follows this pattern:
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+### 2. Data Flow Pattern
+The standard data flow follows this pattern:
+=======
+>>>>>>> .merge_file_bdNrP0
+>>>>>>> .merge_file_krtbvE
+
+### 2. Data Flow Pattern
+
+The standard data flow follows this pattern:
+
+<<<<<<< .merge_file_MRzirs
+=======
+<<<<<<< .merge_file_CsKL70
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_krtbvE
+=======
+### 2. Data Flow Pattern
+The standard data flow follows this pattern:
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_MRzirs
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_bdNrP0
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_krtbvE
+>>>>>>> laraxot/dev
 1. **Storage**: Data is stored in JSON configuration files (`config/local/{tenant}/database/content/sections/{id}.json`)
 2. **Retrieval**: Section controller loads and processes the JSON data
 3. **Passing**: Data is passed to components via `@include($block->view, $block->data)`
 4. **Reception**: Components receive data through explicitly defined props
 5. **Rendering**: Components render the received data according to their template
+<<<<<<< HEAD
 ### 3. No Implicit Variables
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_MRzirs
+
+### 3. No Implicit Variables
+
+=======
+### 3. No Implicit Variables
+=======
+<<<<<<< .merge_file_CsKL70
+
+### 3. No Implicit Variables
+
+=======
+<<<<<<< HEAD
+### 3. No Implicit Variables
+=======
+<<<<<<< HEAD
+
+### 3. No Implicit Variables
+
+=======
+### 3. No Implicit Variables
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+### 3. No Implicit Variables
+=======
+
+### 3. No Implicit Variables
+
+>>>>>>> .merge_file_bdNrP0
+>>>>>>> .merge_file_krtbvE
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 Components should never rely on variables that haven't been explicitly defined as props. This prevents:
 - Unexpected behavior
 - Hard-to-trace bugs
 - Tight coupling between components and their parent context
 - Difficulty reusing components in different contexts
+<<<<<<< HEAD
 ## Common Patterns
 ### Section to Block Data Flow
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_MRzirs
+=======
+<<<<<<< .merge_file_CsKL70
+=======
+<<<<<<< HEAD
+## Common Patterns
+### Section to Block Data Flow
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+## Common Patterns
+### Section to Block Data Flow
+=======
+>>>>>>> .merge_file_bdNrP0
+>>>>>>> .merge_file_krtbvE
+
+## Common Patterns
+
+### Section to Block Data Flow
+
+<<<<<<< .merge_file_MRzirs
+=======
+<<<<<<< .merge_file_CsKL70
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_krtbvE
+=======
+## Common Patterns
+### Section to Block Data Flow
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_MRzirs
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_bdNrP0
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_krtbvE
+>>>>>>> laraxot/dev
 ```php
 // In sections/header.blade.php
 @foreach($componentsBlocks as $block)
     @include($block->view, $block->data)
 @endforeach
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_MRzirs
+=======
+<<<<<<< .merge_file_CsKL70
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ### Block Component Structure
 // In components/blocks/example.blade.php
     'prop1' => default1,
     'prop2' => default2,
     // All expected properties
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> .merge_file_bdNrP0
+>>>>>>> .merge_file_krtbvE
+```
+
+### Block Component Structure
+
+```blade
+// In components/blocks/example.blade.php
+@props([
+    'prop1' => default1,
+    'prop2' => default2,
+    // All expected properties
+])
+
+<<<<<<< .merge_file_MRzirs
+=======
+=======
+<<<<<<< .merge_file_CsKL70
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_krtbvE
+### Block Component Structure
+// In components/blocks/example.blade.php
+    'prop1' => default1,
+    'prop2' => default2,
+    // All expected properties
+<<<<<<< .merge_file_MRzirs
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_bdNrP0
+>>>>>>> .merge_file_krtbvE
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <div {{ $attributes->merge(['class' => 'example-component']) }}>
     @if($prop1)
         <h2>{{ $prop1 }}</h2>
     @endif
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_MRzirs
+=======
+<<<<<<< .merge_file_CsKL70
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     @if($prop2)
         <p>{{ $prop2 }}</p>
 </div>
 ## Common Errors
 ### Missing Props Definition
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> .merge_file_bdNrP0
+>>>>>>> .merge_file_krtbvE
+
+    @if($prop2)
+        <p>{{ $prop2 }}</p>
+    @endif
+</div>
+```
+
+## Common Errors
+
+### Missing Props Definition
+
+```blade
+<<<<<<< .merge_file_MRzirs
+=======
+=======
+<<<<<<< .merge_file_CsKL70
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_krtbvE
+    @if($prop2)
+        <p>{{ $prop2 }}</p>
+</div>
+## Common Errors
+### Missing Props Definition
+<<<<<<< .merge_file_MRzirs
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_bdNrP0
+>>>>>>> .merge_file_krtbvE
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <!-- INCORRECT: Missing props definition -->
 <div class="user-menu">
     @foreach($menu_items as $item) <!-- $menu_items undefined! -->
         <a href="{{ $item['url'] }}">{{ $item['label'] }}</a>
     @endforeach
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_MRzirs
+=======
+<<<<<<< .merge_file_CsKL70
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 <!-- CORRECT: With props definition -->
 @props(['menu_items' => []])
     @foreach($menu_items as $item)
@@ -102,20 +413,196 @@ Components should never rely on variables that haven't been explicitly defined a
 <!-- CORRECT: Dynamic configuration -->
 <div class="title">Welcome to {{ config('app.name') }}</div>
 ### Direct Use of Auth System
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> .merge_file_bdNrP0
+>>>>>>> .merge_file_krtbvE
+</div>
+
+<!-- CORRECT: With props definition -->
+@props(['menu_items' => []])
+
+<div class="user-menu">
+    @foreach($menu_items as $item)
+        <a href="{{ $item['url'] }}">{{ $item['label'] }}</a>
+    @endforeach
+</div>
+```
+
+### Hard-coded References
+
+```blade
+<!-- INCORRECT: Hard-coded project references -->
+<div class="title">Welcome to <nome progetto></div>
+
+<!-- CORRECT: Dynamic configuration -->
+<div class="title">Welcome to {{ config('app.name') }}</div>
+```
+
+### Direct Use of Auth System
+
+```blade
+<<<<<<< .merge_file_MRzirs
+=======
+=======
+<<<<<<< .merge_file_CsKL70
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_krtbvE
+<!-- CORRECT: With props definition -->
+@props(['menu_items' => []])
+    @foreach($menu_items as $item)
+### Hard-coded References
+<!-- INCORRECT: Hard-coded project references -->
+<div class="title">Welcome to <nome progetto></div>
+<!-- CORRECT: Dynamic configuration -->
+<div class="title">Welcome to {{ config('app.name') }}</div>
+### Direct Use of Auth System
+<<<<<<< .merge_file_MRzirs
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_bdNrP0
+>>>>>>> .merge_file_krtbvE
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <!-- INCORRECT: Direct dependency on auth system -->
 @if(auth()->check())
     <!-- Authenticated UI -->
 @endif
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_MRzirs
+=======
+<<<<<<< .merge_file_CsKL70
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 <!-- CORRECT: Parameterized authentication state -->
     'is_authenticated' => false,
     'user' => null
 @if($is_authenticated)
 ## Best Practices
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> .merge_file_bdNrP0
+>>>>>>> .merge_file_krtbvE
+
+<!-- CORRECT: Parameterized authentication state -->
+@props([
+    'is_authenticated' => false,
+    'user' => null
+])
+
+@if($is_authenticated)
+    <!-- Authenticated UI -->
+@endif
+```
+
+## Best Practices
+
+<<<<<<< .merge_file_MRzirs
+=======
+=======
+<<<<<<< .merge_file_CsKL70
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_krtbvE
+<!-- CORRECT: Parameterized authentication state -->
+    'is_authenticated' => false,
+    'user' => null
+@if($is_authenticated)
+## Best Practices
+<<<<<<< .merge_file_MRzirs
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_bdNrP0
+>>>>>>> .merge_file_krtbvE
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 1. **Validate Props**: Use type checking and conditional logic to validate props
 2. **Provide Defaults**: Always set sensible default values for all props
 3. **Document Expected Format**: Comment complex data structures expected by the component
 4. **Keep Components Focused**: Each component should have a single responsibility
 5. **Test Edge Cases**: Ensure components handle missing or malformed data gracefully
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_MRzirs
+=======
+<<<<<<< .merge_file_CsKL70
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+## Related Documentation
+- [Block Components Overview](./blocks/README.md)
+- [Component Architecture](./components/README.md)
+- [Section Architecture](./sections/README.md)
+> **Note**: This document is the primary reference for Blade data handling patterns across all modules.
+> All module-specific implementations should link back to this document.
+
+```
+=======
+>>>>>>> .merge_file_bdNrP0
+>>>>>>> .merge_file_krtbvE
+
+## Related Documentation
+
+- [Block Components Overview](./blocks/readme.md)
+- [Component Architecture](./components/readme.md)
+- [Section Architecture](./sections/readme.md)
+
+> **Note**: This document is the primary reference for Blade data handling patterns across all modules.
+> All module-specific implementations should link back to this document.
+# Data Handling in Blade Components
+
+This document outlines best practices for data handling in Blade components, particularly in theme blocks used for content sections.
+
+## Core Principles
+
+### 1. Explicit Props Definition
+
+All Blade components should explicitly define their expected properties using the `@props` directive:
+
+```blade
+@props([
+    'title' => null,
+    'description' => null,
+    'url' => null,
+    'items' => [],
+    // Additional props with sensible defaults
+])
+```
+<<<<<<< .merge_file_MRzirs
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_krtbvE
+>>>>>>> laraxot/dev
 ## Related Documentation
 - [Block Components Overview](./blocks/README.md)
 - [Component Architecture](./components/README.md)
@@ -127,7 +614,18 @@ Components should never rely on variables that haven't been explicitly defined a
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_MRzirs
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_krtbvE
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ### 2. Data Flow Pattern
 
@@ -242,6 +740,33 @@ Components should never rely on variables that haven't been explicitly defined a
 
 ## Related Documentation
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_MRzirs
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_krtbvE
+- [Block Components Overview](./blocks/readme.md)
+- [Component Architecture](./components/readme.md)
+- [Section Architecture](./sections/readme.md)
+
+> **Note**: This document is the primary reference for Blade data handling patterns across all modules.
+> All module-specific implementations should link back to this document.
+<<<<<<< .merge_file_MRzirs
+=======
+=======
+<<<<<<< .merge_file_CsKL70
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_krtbvE
+>>>>>>> laraxot/dev
 - [Block Components Overview](./blocks/README.md)
 - [Component Architecture](./components/README.md)
 - [Section Architecture](./sections/README.md)
@@ -262,5 +787,17 @@ See canonical documentation: ../../../Themes/docs/shared-components/blade-data-h
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_MRzirs
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_bdNrP0
+>>>>>>> .merge_file_krtbvE
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

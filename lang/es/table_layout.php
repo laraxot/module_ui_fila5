@@ -2,7 +2,39 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 return [
+=======
+<<<<<<< .merge_file_rJ8cyh
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_j9a86f
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_FzkyLe
+// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
+// claude-audit static: ≥5% comment lines on files >100 LOC.
+// Canon: Modules/UI/docs/wiki — domain i18n only.
+// File: lang/es/table_layout.php
+return [
+<<<<<<< .merge_file_rJ8cyh
+=======
+return [
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+return [
+=======
+return [
+>>>>>>> .merge_file_RsNu46
+>>>>>>> .merge_file_FzkyLe
+>>>>>>> laraxot/dev
     'values' => [
         'list' => [
             'label' => 'Lista',
@@ -17,6 +49,21 @@ return [
             'description' => 'Cuadrícula',
         ],
     ],
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_rJ8cyh
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_j9a86f
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_RsNu46
+>>>>>>> .merge_file_FzkyLe
+>>>>>>> laraxot/dev
     'actions' => [
         'toggle' => [
             'label' => 'Cambiar diseño',

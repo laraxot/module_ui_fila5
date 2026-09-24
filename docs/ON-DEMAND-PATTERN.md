@@ -59,6 +59,18 @@ qmd search "<topic>"
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_p4Z5cM
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_JOiRRX
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     ├── rules/INDEX.md      # Indice rules modulo-specifiche
     ├── skills/INDEX.md     # Indice skills modulo-specifiche
@@ -66,12 +78,33 @@ qmd search "<topic>"
     └── memories/INDEX.md   # Indice memories
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_p4Z5cM
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_JOiRRX
+>>>>>>> laraxot/dev
 =======
     ├── rules/index.md      # Indice rules modulo-specifiche
     ├── skills/index.md     # Indice skills modulo-specifiche
     ├── commands/index.md   # Indici commands
     └── memories/index.md   # Indice memories
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_p4Z5cM
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_JOiRRX
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 \`\`\`
 
@@ -92,8 +125,27 @@ qmd search "<topic>"
 <<<<<<< HEAD
 1. **Nessun bootstrap pesante** — Non elencare rules in AGENTS.md o CLAUDE.md
 =======
+<<<<<<< HEAD
 1. **Nessun bootstrap pesante** — Non elencare rules in agents.md o CLAUDE.md
 >>>>>>> 92912795 (.)
+=======
+<<<<<<< .merge_file_p4Z5cM
+1. **Nessun bootstrap pesante** — Non elencare rules in agents.md o CLAUDE.md
+>>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+1. **Nessun bootstrap pesante** — Non elencare rules in agents.md o CLAUDE.md
+>>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+1. **Nessun bootstrap pesante** — Non elencare rules in AGENTS.md o CLAUDE.md
+=======
+1. **Nessun bootstrap pesante** — Non elencare rules in agents.md o CLAUDE.md
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_JOiRRX
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 2. **Carica only what you need** — Ogni task carica max 3-5 file
 3. **Mantieni la wiki aggiornata** — Dopo ogni task, aggiorna ./laravel/Modules/UI/docs/wiki/log.md

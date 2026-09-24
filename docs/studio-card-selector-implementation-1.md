@@ -24,12 +24,27 @@ class StudioCardSelector extends Field
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_gQxY7E
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_mbsK20
+>>>>>>> laraxot/dev
     
     // Dati studios da visualizzare
     protected Collection|Closure|null $studios = null;
     
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_gQxY7E
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_mbsK20
 >>>>>>> laraxot/dev
 
     // Dati studios da visualizzare
@@ -132,7 +147,15 @@ private function getStudiosForLocation(Get $get): Collection
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_gQxY7E
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_mbsK20
+>>>>>>> laraxot/dev
     $province = $get('province'); 
     $region = $get('region');
     
@@ -142,6 +165,13 @@ private function getStudiosForLocation(Get $get): Collection
     
     return \Modules\SaluteOra\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_gQxY7E
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_mbsK20
 >>>>>>> laraxot/dev
     $province = $get('province');
     $region = $get('region');
@@ -205,7 +235,15 @@ return [
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_gQxY7E
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_mbsK20
+>>>>>>> laraxot/dev
 ### Modulo SaluteOra
 - [Widget Analysis](../SaluteOra/docs/widgets/find-doctor-widget-studio-step-analysis.md)
 
@@ -215,6 +253,13 @@ return [
 **Reusability**: 🔄 High - Cross-module compatible  
 **Last Updated**: January 2025 
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_gQxY7E
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_mbsK20
 >>>>>>> laraxot/dev
 ### Modulo <nome progetto>
 - [Widget Analysis](../<nome progetto>/docs/widgets/find-doctor-widget-studio-step-analysis.md)

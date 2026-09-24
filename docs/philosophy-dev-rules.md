@@ -115,11 +115,35 @@ If you think a rule is wrong:
 ## See Also
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `architecture.md` — component organization and Filament patterns
 - `root-md-files/testing.md` — component testing strategies
 =======
+<<<<<<< .merge_file_AHsyfP
 - `ARCHITECTURE.md` — component organization and Filament patterns
 - `TESTING.md` — component testing strategies
+=======
+<<<<<<< .merge_file_8r59FB
+- `ARCHITECTURE.md` — component organization and Filament patterns
+- `TESTING.md` — component testing strategies
+=======
+<<<<<<< .merge_file_6PftQO
+- `ARCHITECTURE.md` — component organization and Filament patterns
+- `TESTING.md` — component testing strategies
+=======
+<<<<<<< HEAD
+- `architecture.md` — component organization and Filament patterns
+- `testing.md` — component testing strategies
+>>>>>>> laraxot/dev
+=======
+- `ARCHITECTURE.md` — component organization and Filament patterns
+- `TESTING.md` — component testing strategies
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_TJ0kxz
+>>>>>>> .merge_file_p42x5o
+>>>>>>> .merge_file_UzBDvI
 >>>>>>> laraxot/dev
 - `docs/filament-patterns.md` — Filament resource best practices
 - `docs/folio-volt-integration.md` — Folio+Volt workflow

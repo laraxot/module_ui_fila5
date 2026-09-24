@@ -2,6 +2,37 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_eG5tCy
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_3cpB3z
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jDD7nl
+// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
+// claude-audit static: ≥5% comment lines on files >100 LOC.
+// Canon: Modules/UI/docs/wiki — domain i18n only.
+// File: lang/it/blocks.php
+<<<<<<< .merge_file_eG5tCy
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_vMbA2Q
+>>>>>>> .merge_file_jDD7nl
+>>>>>>> laraxot/dev
 return [
     'navigation' => [
         'fields' => [

@@ -2,6 +2,37 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_fXPj3v
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_k01UaZ
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_QMUpP7
+// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
+// claude-audit static: ≥5% comment lines on files >100 LOC.
+// Canon: Modules/UI/docs/wiki — domain i18n only.
+// File: lang/it/filament-navigation.php
+<<<<<<< .merge_file_fXPj3v
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_LE47An
+>>>>>>> .merge_file_QMUpP7
+>>>>>>> laraxot/dev
 return [
     'attributes' => [
         'external-link' => 'Link esterno',
@@ -45,7 +76,35 @@ return [
         ],
         'label' => 'Filament Navigation',
         'sort' => 1,
+<<<<<<< HEAD
         'icon' => 'heroicon-o-rectangle-stack',
+=======
+<<<<<<< .merge_file_fXPj3v
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-collection',
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_k01UaZ
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-collection',
+=======
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-rectangle-stack',
+=======
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-collection',
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> .merge_file_LE47An
+>>>>>>> .merge_file_QMUpP7
+>>>>>>> laraxot/dev
     ],
     'fields' => [
         'id' => [

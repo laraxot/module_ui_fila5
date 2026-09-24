@@ -1,3 +1,30 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_AT4Lh7
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_JqctW0
+---
+module: theme
+topic: bugfix-table-layout-action-conflict
+canonical: ../../../Themes/docs/shared-components/bugfix-table-layout-action-.md
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/bugfix-table-layout-action-.md
+<<<<<<< .merge_file_AT4Lh7
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_JqctW0
+>>>>>>> laraxot/dev
 # Bug Fix: TableLayoutToggleTableAction Access Level Error - 27 Gennaio 2025
 
 ## Problema Identificato
@@ -144,9 +171,12 @@ php artisan tinker --execute="TableLayoutToggleTableAction::make('test');"
 curl -I http://127.0.0.1:8001/modulo questionari/admin/gaia/survey-pdfs
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 curl -I http://127.0.0.1:8001/modulo questionari/admin/gaia/survey-pdfs
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 =======
 <<<<<<< HEAD
@@ -156,6 +186,9 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ```
 
@@ -194,3 +227,14 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 **Tipo**: Bug Fix
 **Priorità**: Alta
 **Stato**: ✅ Risolto
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_AT4Lh7
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_JqctW0
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

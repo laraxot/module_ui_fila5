@@ -1,7 +1,15 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_Hyscqr
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_ogR1Fb
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: selectstatecolumn-confirmation-modal_1
@@ -10,6 +18,13 @@ canonical: ../../../Themes/docs/shared-components/selectstatecolumn-confirmation
 
 See canonical documentation: ../../../Themes/docs/shared-components/selectstatecolumn-confirmation-modal-1.md
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_Hyscqr
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ogR1Fb
 >>>>>>> laraxot/dev
 # SelectStateColumn - Aggiunta Modal di Conferma
 

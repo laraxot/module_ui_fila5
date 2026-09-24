@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_qjYtMB
+=======
+=======
+<<<<<<< .merge_file_zWUrkK
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_z2Kbf8
+>>>>>>> .merge_file_zsy1Hd
+>>>>>>> laraxot/dev
 ---
 title: "Struttura delle Filament Resources"
 type: concept
@@ -6,11 +23,18 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament-resources-structure struttura delle filament resources"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
+=======
+<<<<<<< .merge_file_qjYtMB
+=======
+<<<<<<< .merge_file_zWUrkK
+>>>>>>> .merge_file_zsy1Hd
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -23,6 +47,18 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_qjYtMB
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_z2Kbf8
+>>>>>>> .merge_file_zsy1Hd
 >>>>>>> laraxot/dev
 related:
   - "./component-registration.md"
@@ -30,6 +66,23 @@ related:
   - "./structure.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_qjYtMB
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_zWUrkK
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_z2Kbf8
+>>>>>>> .merge_file_zsy1Hd
+>>>>>>> laraxot/dev
 # Struttura delle Filament Resources
 
 ## Panoramica

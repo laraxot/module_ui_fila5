@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/dev
 ---
 title: "Headroom - Modulo UI"
 type: how-to
@@ -36,6 +39,21 @@ headroom perf --hours 24
 - Non documentare comandi per-modulo non presenti nel CLI Headroom.
 - Coordinare modifiche su issue #218 e discussion #219.
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_bKhEUL
+=======
+<<<<<<< .merge_file_irkwG5
+=======
+<<<<<<< .merge_file_QUITJZ
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_aurpfE
+>>>>>>> .merge_file_srI0Cr
+>>>>>>> .merge_file_x1dh7Y
 >>>>>>> laraxot/dev
 # UI
 
@@ -73,6 +91,27 @@ Core module for the FixCity Platform.
 **Modulo** `UI` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_bKhEUL
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_irkwG5
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_QUITJZ
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_aurpfE
+>>>>>>> .merge_file_srI0Cr
+>>>>>>> .merge_file_x1dh7Y
 >>>>>>> laraxot/dev

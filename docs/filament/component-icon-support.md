@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_3Te6BX
+=======
+=======
+<<<<<<< .merge_file_gvrmtZ
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_UEj0Rl
+>>>>>>> .merge_file_dfq3tG
+>>>>>>> laraxot/dev
 ---
 title: "Supporto per Icone nei Componenti Filament"
 type: concept
@@ -6,11 +23,18 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "component-icon-support supporto per icone nei componenti filament"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
+=======
+<<<<<<< .merge_file_3Te6BX
+=======
+<<<<<<< .merge_file_gvrmtZ
+>>>>>>> .merge_file_dfq3tG
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -23,6 +47,18 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_3Te6BX
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_UEj0Rl
+>>>>>>> .merge_file_dfq3tG
 >>>>>>> laraxot/dev
 related:
   - "./automatic-translations.md"
@@ -35,6 +71,23 @@ related:
   - "./file-upload-component.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_3Te6BX
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_gvrmtZ
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_UEj0Rl
+>>>>>>> .merge_file_dfq3tG
+>>>>>>> laraxot/dev
 # Supporto per Icone nei Componenti Filament
 
 ## Riepilogo della Compatibilità

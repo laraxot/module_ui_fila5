@@ -2,7 +2,39 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 return [
+=======
+<<<<<<< .merge_file_yigI5H
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_7BdUDy
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_52Ktgn
+// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
+// claude-audit static: ≥5% comment lines on files >100 LOC.
+// Canon: Modules/UI/docs/wiki — domain i18n only.
+// File: lang/pt_PT/table_layout.php
+return [
+<<<<<<< .merge_file_yigI5H
+=======
+return [
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+return [
+=======
+return [
+>>>>>>> .merge_file_1VmIAO
+>>>>>>> .merge_file_52Ktgn
+>>>>>>> laraxot/dev
     'values' => [
         'list' => [
             'label' => 'Lista',
@@ -17,6 +49,21 @@ return [
             'description' => 'Grelha',
         ],
     ],
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_yigI5H
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_7BdUDy
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1VmIAO
+>>>>>>> .merge_file_52Ktgn
+>>>>>>> laraxot/dev
     'actions' => [
         'toggle' => [
             'label' => 'Alternar layout',

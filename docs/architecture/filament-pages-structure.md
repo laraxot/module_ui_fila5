@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_zn6xzl
+=======
+=======
+<<<<<<< .merge_file_TFDu1u
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_9Fn8Nu
+>>>>>>> .merge_file_WA34eN
+>>>>>>> laraxot/dev
 ---
 title: "Struttura Pagine Filament - Modulo UI"
 type: concept
@@ -6,11 +23,18 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament-pages-structure struttura pagine filament - modulo ui"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
+=======
+<<<<<<< .merge_file_zn6xzl
+=======
+<<<<<<< .merge_file_TFDu1u
+>>>>>>> .merge_file_WA34eN
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -23,6 +47,18 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_zn6xzl
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_9Fn8Nu
+>>>>>>> .merge_file_WA34eN
 >>>>>>> laraxot/dev
 related:
   - "./component-registration.md"
@@ -30,6 +66,23 @@ related:
   - "./structure.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_zn6xzl
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_TFDu1u
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9Fn8Nu
+>>>>>>> .merge_file_WA34eN
+>>>>>>> laraxot/dev
 # Struttura Pagine Filament - Modulo UI
 
 ## Panoramica

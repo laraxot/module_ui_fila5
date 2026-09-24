@@ -2,10 +2,36 @@
 
 [![Domain-UI](https://img.shields.io/badge/Domain-UI%20Kit-7B1FA2.svg)](#)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 [![Laravel 12](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
 >>>>>>> laraxot/dev
 [![Laravel 13](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
+=======
+[![Laravel 12](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
+<<<<<<< HEAD
+<<<<<<< .merge_file_aACo6D
+=======
+[![Laravel 13](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_BHjpKh
+=======
+<<<<<<< HEAD
+[![Laravel 13](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
+=======
+<<<<<<< HEAD
+=======
+[![Laravel 13](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+[![Laravel 13](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
+=======
+>>>>>>> .merge_file_FozQMC
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_PoGdBb
+>>>>>>> laraxot/dev
 [![Filament 5](https://img.shields.io/badge/Filament-5-ffab00.svg)](https://filamentphp.com/)
 [![PHP 8.4+](https://img.shields.io/badge/PHP-8.4+-777BB4.svg)](https://php.net/)
 [![PHPStan Level 10](https://img.shields.io/badge/PHPStan-Level%2010-brightgreen.svg)](https://phpstan.org/)
@@ -14,16 +40,44 @@
 [![Laraxot Modules](https://img.shields.io/badge/Architecture-Modular-purple.svg)](#)
 <<<<<<< HEAD
 [![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
+<<<<<<< HEAD
 [![<nome progetto> Platform](https://img.shields.io/badge/Platform-<nome progetto>-008758.svg)](#)
 [![Current Platform](https://img.shields.io/badge/Platform-progetto corrente-008758.svg)](#)
+=======
+<<<<<<< .merge_file_aACo6D
+=======
+<<<<<<< .merge_file_BHjpKh
+>>>>>>> .merge_file_PoGdBb
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 [![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_aACo6D
+>>>>>>> laraxot/dev
 [![<nome progetto> Platform](https://img.shields.io/badge/Platform-<nome progetto>-008758.svg)](#)
 [![Current Platform](https://img.shields.io/badge/Platform-progetto corrente-008758.svg)](#)
 =======
 =======
+<<<<<<< HEAD
+=======
+=======
+=======
+<<<<<<< HEAD
+[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_FozQMC
+<<<<<<< HEAD
+[![<nome progetto> Platform](https://img.shields.io/badge/Platform-<nome progetto>-008758.svg)](#)
+[![Current Platform](https://img.shields.io/badge/Platform-progetto corrente-008758.svg)](#)
+=======
+<<<<<<< .merge_file_BHjpKh
+>>>>>>> .merge_file_PoGdBb
+=======
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -40,6 +94,18 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_aACo6D
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_FozQMC
+>>>>>>> .merge_file_PoGdBb
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
@@ -88,15 +154,41 @@ Frontoffice stack: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filamen
 
 <<<<<<< HEAD
 **Module** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+<<<<<<< HEAD
 **Module** `ui` · **Laraxot** · **<nome progetto> Platform** · PHPStan 10 · Filament 5
 **Module** `ui` · **Laraxot** · **Current Platform** · PHPStan 10 · Filament 5
 =======
 <<<<<<< HEAD
 **Module** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_aACo6D
+**Module** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+=======
+**Module** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+**Module** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+<<<<<<< .merge_file_BHjpKh
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_FozQMC
+>>>>>>> .merge_file_PoGdBb
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 **Module** `ui` · **Laraxot** · **<nome progetto> Platform** · PHPStan 10 · Filament 5
 **Module** `ui` · **Laraxot** · **Current Platform** · PHPStan 10 · Filament 5
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_aACo6D
+=======
+<<<<<<< .merge_file_BHjpKh
+>>>>>>> .merge_file_PoGdBb
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114,5 +206,17 @@ Frontoffice stack: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filamen
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_aACo6D
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_FozQMC
+>>>>>>> .merge_file_PoGdBb
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

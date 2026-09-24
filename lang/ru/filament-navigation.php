@@ -2,6 +2,37 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_TkbpLk
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_yZQkoi
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_VxTbaA
+// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
+// claude-audit static: ≥5% comment lines on files >100 LOC.
+// Canon: Modules/UI/docs/wiki — domain i18n only.
+// File: lang/ru/filament-navigation.php
+<<<<<<< .merge_file_TkbpLk
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_EWNUhI
+>>>>>>> .merge_file_VxTbaA
+>>>>>>> laraxot/dev
 return [
     'attributes' => [
         'external-link' => 'Внешняя ссылка',

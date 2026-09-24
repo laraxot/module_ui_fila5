@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_LvtOuw
+=======
+=======
+<<<<<<< .merge_file_ypz7rk
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_lZirMb
+>>>>>>> .merge_file_P6qP0K
+>>>>>>> laraxot/dev
 ---
 title: "Correzioni Errori di Sintassi - Modulo UI"
 type: concept
@@ -6,11 +23,18 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "syntax-error-fixes correzioni errori di sintassi - modulo ui"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
+=======
+<<<<<<< .merge_file_LvtOuw
+=======
+<<<<<<< .merge_file_ypz7rk
+>>>>>>> .merge_file_P6qP0K
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -23,6 +47,18 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_LvtOuw
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_lZirMb
+>>>>>>> .merge_file_P6qP0K
 >>>>>>> laraxot/dev
 related:
   - "./no-obvious-comments.md"
@@ -31,6 +67,23 @@ related:
   - "./wizard-steps.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_LvtOuw
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_ypz7rk
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_lZirMb
+>>>>>>> .merge_file_P6qP0K
+>>>>>>> laraxot/dev
 # Correzioni Errori di Sintassi - Modulo UI
 
 ## Problema Risolto: UiBasePolicy.php

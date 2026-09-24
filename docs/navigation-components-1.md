@@ -2,10 +2,21 @@
 # Componenti di Navigazione
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_VepfuF
+# Componenti di Navigazione 
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 # Componenti di Navigazione
 =======
 # Componenti di Navigazione 
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_5NlOyJ
 >>>>>>> laraxot/dev
 
 ## Indice
@@ -77,13 +88,29 @@ I componenti di navigazione devono utilizzare sempre le funzioni di localizzazio
 ### Traduzioni Necessarie
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_VepfuF
+=======
+Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_5NlOyJ
+>>>>>>> laraxot/dev
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
 =======
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/saluteora/laravel/lang/{locale}/auth.php`:
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_VepfuF
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_5NlOyJ
 >>>>>>> laraxot/dev
 
 ```php

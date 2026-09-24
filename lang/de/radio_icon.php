@@ -2,6 +2,37 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_A1Tp2a
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_fuM7Zy
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_0pjKwW
+// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
+// claude-audit static: ≥5% comment lines on files >100 LOC.
+// Canon: Modules/UI/docs/wiki — domain i18n only.
+// File: lang/de/radio_icon.php
+<<<<<<< .merge_file_A1Tp2a
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_JfTUbQ
+>>>>>>> .merge_file_0pjKwW
+>>>>>>> laraxot/dev
 return [
     'fields' => [
         'newstate' => [

@@ -93,6 +93,13 @@ foreach ($paths as $path) {
 
 ## ❌ Errori Rimanenti (35)
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_OJopta
+### **Problemi di Larastan (Laravel 13 Compatibility)**
+La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 13.24.0**:
+=======
+>>>>>>> laraxot/dev
 <<<<<<< .merge_file_Kf0tf7
 ### **Problemi di Larastan (Laravel 13 Compatibility)**
 La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 13.24.0**:
@@ -100,6 +107,10 @@ La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Lara
 ### **Problemi di Larastan (Laravel 12 Compatibility)**
 La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 12.24.0**:
 >>>>>>> .merge_file_mrPLN2
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_SVYn5y
+>>>>>>> laraxot/dev
 
 1. **Metodi Str:: non trovati:** `Str::of()`, `Str::uuid()`, `Str::endsWith()`, etc.
 2. **Metodi Collection:: non trovati:** `map()`, `contains()`, `toArray()`  
@@ -119,20 +130,40 @@ La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Lara
 ✅ **Controlli runtime** per prevenire errori  
 
 ### **Prossimi Passi**  
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_OJopta
+1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 13
+=======
+>>>>>>> laraxot/dev
 <<<<<<< .merge_file_Kf0tf7
 1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 13
 =======
 1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 12
 >>>>>>> .merge_file_mrPLN2
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_SVYn5y
+>>>>>>> laraxot/dev
 2. 📝 **Baseline PHPStan** per ignorare errori framework temporanei  
 3. 🔄 **Monitoraggio mensile** aggiornamenti Larastan
 
 ## 🎯 Conclusioni
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_OJopta
+Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 13**.
+=======
+>>>>>>> laraxot/dev
 <<<<<<< .merge_file_Kf0tf7
 Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 13**.
 =======
 Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 12**.
 >>>>>>> .merge_file_mrPLN2
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_SVYn5y
+>>>>>>> laraxot/dev
 
 Il **codice è funzionalmente corretto** e ora rispetta gli standard di tipizzazione PHP per tutti i componenti personalizzati.

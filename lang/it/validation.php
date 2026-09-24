@@ -2,6 +2,37 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_dMq2R9
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_OA6GcF
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_osMRjm
+// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
+// claude-audit static: ≥5% comment lines on files >100 LOC.
+// Canon: Modules/UI/docs/wiki — domain i18n only.
+// File: lang/it/validation.php
+<<<<<<< .merge_file_dMq2R9
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_OBpmNN
+>>>>>>> .merge_file_osMRjm
+>>>>>>> laraxot/dev
 return [
     'opening_hours' => [
         'morning' => 'mattino',
@@ -22,7 +53,35 @@ return [
         ],
         'label' => 'Validation',
         'sort' => 1,
+<<<<<<< HEAD
         'icon' => 'heroicon-o-rectangle-stack',
+=======
+<<<<<<< .merge_file_dMq2R9
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-collection',
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_OA6GcF
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-collection',
+=======
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-rectangle-stack',
+=======
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-collection',
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> .merge_file_OBpmNN
+>>>>>>> .merge_file_osMRjm
+>>>>>>> laraxot/dev
     ],
     'fields' => [
         'id' => [

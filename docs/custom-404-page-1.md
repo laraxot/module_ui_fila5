@@ -40,7 +40,15 @@ Depending on where your site is hosted, you may need to configure your server to
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_Zxk9i3
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_ZwJpHd
+>>>>>>> laraxot/dev
 
 ### Versione Incoming
 
@@ -48,6 +56,13 @@ Depending on where your site is hosted, you may need to configure your server to
 ---
 
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_Zxk9i3
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZwJpHd
 >>>>>>> laraxot/dev
 ### Versione Incoming
 

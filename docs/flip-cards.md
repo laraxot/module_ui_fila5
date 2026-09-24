@@ -1,5 +1,21 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_C0EgRm
+=======
+=======
+<<<<<<< .merge_file_g9Y0Qr
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_2dmY8M
+>>>>>>> .merge_file_G9nPam
+>>>>>>> laraxot/dev
 ---
 title: 'Flip cards — risorse esterne'
 module: UI
@@ -25,6 +41,23 @@ updated: 2026-08-24
 - <https://dev.to/adetutu/how-to-design-a-css-card-flip-animation-creating-flipping-cards-on-hover-5ha6>
 - <https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/>
 - <https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML>
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_C0EgRm
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_g9Y0Qr
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2dmY8M
+>>>>>>> .merge_file_G9nPam
 >>>>>>> laraxot/dev
 https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
 
@@ -39,7 +72,28 @@ https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
 
 
 
+<<<<<<< HEAD
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+=======
+<<<<<<< HEAD
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+<<<<<<< .merge_file_C0EgRm
+=======
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+=======
+<<<<<<< .merge_file_g9Y0Qr
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+=======
+>>>>>>> laraxot/dev
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+=======
+>>>>>>> .merge_file_2dmY8M
+>>>>>>> .merge_file_G9nPam
+>>>>>>> laraxot/dev
 
 ## Appendice — contenuto migrato
 
@@ -50,3 +104,19 @@ canonical: ../../../Themes/docs/shared-components/flip-cards.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/flip-cards.md
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_C0EgRm
+=======
+<<<<<<< .merge_file_g9Y0Qr
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+>>>>>>> .merge_file_2dmY8M
+>>>>>>> .merge_file_G9nPam
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

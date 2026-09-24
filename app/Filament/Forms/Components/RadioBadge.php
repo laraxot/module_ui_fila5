@@ -4,11 +4,57 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_SJ7e4Z
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_tAb9DZ
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9JyND3
+use Filament\Forms\Components\Radio;
+=======
+>>>>>>> .merge_file_Oxn4QX
+use Filament\Support\Contracts\HasColor;
+use Filament\Support\Contracts\HasIcon;
+use Modules\Xot\Filament\Forms\Components\XotBaseRadio;
+
+<<<<<<< .merge_file_tAb9DZ
+class RadioBadge extends Radio
+<<<<<<< .merge_file_SJ7e4Z
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9JyND3
+>>>>>>> laraxot/dev
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
 use Modules\Xot\Filament\Forms\Components\XotBaseRadio;
 
 class RadioBadge extends XotBaseRadio
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_SJ7e4Z
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+class RadioBadge extends XotBaseRadio
+>>>>>>> .merge_file_Oxn4QX
+>>>>>>> .merge_file_9JyND3
+>>>>>>> laraxot/dev
 {
     protected string $view = 'ui::filament.forms.components.radio-badge';
 
@@ -51,18 +97,30 @@ class RadioBadge extends XotBaseRadio
         $enum = $this->getEnumValue($value);
         if ($enum instanceof HasColor) {
             $color = $enum->getColor();
+<<<<<<< HEAD
             if ($color === null) {
+=======
+            if (null === $color) {
+>>>>>>> laraxot/dev
                 return $this->selectedColor;
             }
 
             if (is_array($color)) {
                 $first = reset($color);
 
+<<<<<<< HEAD
                 return is_string($first) && $first !== '' ? $first : $this->selectedColor;
             }
 
             // PHPStan L10: $color è già verificato come non-array e non-null, quindi è string
             if ($color !== '') {
+=======
+                return is_string($first) && '' !== $first ? $first : $this->selectedColor;
+            }
+
+            // PHPStan L10: $color è già verificato come non-array e non-null, quindi è string
+            if ('' !== $color) {
+>>>>>>> laraxot/dev
                 return $color;
             }
 
@@ -81,7 +139,11 @@ class RadioBadge extends XotBaseRadio
         $icon = $enum->getIcon();
 
         // getIcon() può restituire Htmlable|string|null, ma dobbiamo restituire solo string|null
+<<<<<<< HEAD
         if ($icon === null) {
+=======
+        if (null === $icon) {
+>>>>>>> laraxot/dev
             return null;
         }
 

@@ -269,7 +269,19 @@ php artisan test --filter=Xot
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_CtY6Co
 
 ```
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+
+```
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_KmI7XY
 >>>>>>> laraxot/dev

@@ -41,12 +41,24 @@ use Modules\<nome progetto>\States\Appointment\AppointmentState;
 use Modules\<nome progetto>\Models\Appointment;
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_wvyi96
+use Modules\SaluteOra\States\Appointment\AppointmentState;
+use Modules\SaluteOra\Models\Appointment;
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 use Modules\<nome progetto>\States\Appointment\AppointmentState;
 use Modules\<nome progetto>\Models\Appointment;
 =======
 use Modules\SaluteOra\States\Appointment\AppointmentState;
 use Modules\SaluteOra\Models\Appointment;
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_WkkJPA
 >>>>>>> laraxot/dev
 
 // In your Filament resource table configuration
@@ -291,8 +303,17 @@ The main issue was that `wire:click` doesn't work directly in Filament table col
 ```javascript
 // Custom event dispatch
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_wvyi96
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_WkkJPA
 >>>>>>> laraxot/dev
 onclick="window.dispatchEvent(new CustomEvent('state-transition', {
     detail: {
@@ -301,7 +322,15 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
         action: 'prova'
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_wvyi96
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_WkkJPA
+>>>>>>> laraxot/dev
 =======
 onclick="window.dispatchEvent(new CustomEvent('state-transition', { 
     detail: { 
@@ -310,6 +339,13 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
         action: 'prova'
     } 
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_wvyi96
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_WkkJPA
 >>>>>>> laraxot/dev
 }))"
 
@@ -355,11 +391,27 @@ document.addEventListener('state-transition', function(event) {
 **Last Updated**: June 2025
 **Version**: 2.1
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Compatibility**: Filament 3.x, Laravel 10.x
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_wvyi96
+=======
+**Compatibility**: Filament 3.x, Laravel 10.x
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_WkkJPA
+>>>>>>> laraxot/dev
 **Compatibility**: Filament 3.x, Laravel 10.x
 =======
 **Compatibility**: Filament 3.x, Laravel 10.x 
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_wvyi96
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_WkkJPA
 >>>>>>> laraxot/dev

@@ -146,10 +146,25 @@ class CustomMiddleware
 
 // Non hardcodare percorsi delle risorse
 <<<<<<< HEAD
+<<<<<<< HEAD
 <img src="/var/www/html/saluteora/laravel/public/images/avatar.png">
 <img src="[project-root]/laravel/public/images/avatar.png">
 =======
 <<<<<<< HEAD
+=======
+<img src="/var/www/html/<nome progetto>/laravel/public/images/avatar.png">
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_kOT6YK
+=======
+<<<<<<< HEAD
+=======
+<img src="/var/www/html/<nome progetto>/laravel/public/images/avatar.png">
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_cDbapr
+>>>>>>> laraxot/dev
 <img src="/var/www/html/saluteora/laravel/public/images/avatar.png">
 <<<<<<< HEAD
 <img src="[project-root]/laravel/public/images/avatar.png">
@@ -171,6 +186,16 @@ class CustomMiddleware
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_kOT6YK
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_cDbapr
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 

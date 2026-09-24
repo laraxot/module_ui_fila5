@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_p2EJge
+=======
+=======
+<<<<<<< .merge_file_ax3sNZ
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_yCj4fd
+>>>>>>> .merge_file_le4On8
+>>>>>>> laraxot/dev
 ---
 title: "Themes - Ottimizzazioni e Correzioni"
 type: concept
@@ -6,11 +23,18 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "optimizations themes - ottimizzazioni e correzioni"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
+=======
+<<<<<<< .merge_file_p2EJge
+=======
+<<<<<<< .merge_file_ax3sNZ
+>>>>>>> .merge_file_le4On8
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -23,6 +47,18 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_p2EJge
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_yCj4fd
+>>>>>>> .merge_file_le4On8
 >>>>>>> laraxot/dev
 related:
   - "./asset-management-1.md"
@@ -32,6 +68,23 @@ related:
   - "./schemaless-attributes-guide.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_p2EJge
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_ax3sNZ
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_yCj4fd
+>>>>>>> .merge_file_le4On8
+>>>>>>> laraxot/dev
 # Themes - Ottimizzazioni e Correzioni
 
 ## 🎯 Overview

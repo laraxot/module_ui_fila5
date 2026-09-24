@@ -24,8 +24,27 @@ related:
 <<<<<<< HEAD
 - 150+ rules embeddate in AGENTS.md
 =======
+<<<<<<< HEAD
 - 150+ rules embeddate in agents.md
 >>>>>>> 92912795 (.)
+=======
+<<<<<<< .merge_file_YTn2Av
+- 150+ rules embeddate in agents.md
+>>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+- 150+ rules embeddate in agents.md
+>>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+- 150+ rules embeddate in AGENTS.md
+=======
+- 150+ rules embeddate in agents.md
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_IF6aq0
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 + 0 rules embeddate — tutte on-demand
 \`\`\`
@@ -55,10 +74,31 @@ related:
 Ogni modulo ha i propri `rules/skills/commands/memories/INDEX.md`:
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_YTn2Av
+=======
+Ogni modulo ha i propri `rules/skills/commands/memories/INDEX.md`:
+=======
+<<<<<<< HEAD
+Ogni modulo ha i propri `rules/skills/commands/memories/index.md`:
+>>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_IF6aq0
+>>>>>>> laraxot/dev
 Ogni modulo ha i propri `rules/skills/commands/memories/INDEX.md`:
 =======
 Ogni modulo ha i propri `rules/skills/commands/memories/index.md`:
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_YTn2Av
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_IF6aq0
 >>>>>>> laraxot/dev
 - Ricerca più rapida (scope limitato)
 - Context rilevante per il modulo

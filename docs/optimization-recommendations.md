@@ -6,10 +6,26 @@
 
 #### Qualità del Codice
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **PHPStan level 10**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_DiCZvA
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 - **PHPStan level 10**: 12/12 file core certificati
 =======
 <<<<<<< HEAD
@@ -28,12 +44,50 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- **PHPStan level 10**: 12/12 file core certificati
+=======
+>>>>>>> .merge_file_MzYzSM
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
 - **PHPStan Level 9**: 12/12 file core certificati
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+<<<<<<< HEAD
+- **PHPStan Level 9**: 12/12 file core certificati
+=======
+=======
+<<<<<<< .merge_file_DiCZvA
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_MzYzSM
+- **PHPStan Level 9**: 12/12 file core certificati
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- **PHPStan Level 9**: 12/12 file core certificati
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - **PHPStan Level 9**: 12/12 file core certificati
 <<<<<<< HEAD
@@ -50,6 +104,16 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - **Translation Standards**: 100% compliance con struttura espansa
 - **Component Architecture**: 50+ componenti Blade riutilizzabili
@@ -67,6 +131,27 @@
 - **Bundle Size**: < 200KB per tutti i componenti
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+- **Bundle Size**: < 200KB per tutti i componenti  
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_YRY159
+<<<<<<< HEAD
+=======
+- **Bundle Size**: < 200KB per tutti i componenti
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_CZzxTq
+<<<<<<< HEAD
+- **Bundle Size**: < 200KB per tutti i componenti  
+=======
+- **Bundle Size**: < 200KB per tutti i componenti
+=======
+>>>>>>> laraxot/dev
 - **Bundle Size**: < 200KB per tutti i componenti  
 =======
 <<<<<<< HEAD
@@ -80,6 +165,10 @@
 - **Bundle Size**: < 200KB per tutti i componenti  
 =======
 - **Bundle Size**: < 200KB per tutti i componenti
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 - **Bundle Size**: < 200KB per tutti i componenti  
@@ -89,6 +178,16 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - **Mobile Responsive**: 100% componenti responsive
 - **Caching**: Sistema caching componenti attivo
@@ -104,10 +203,26 @@
 - **README.md**: 407 righe (troppo denso)
 - **Informazioni duplicate** tra sezioni
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Esempi troppo specifici** per <nome progetto>
 - **Esempi troppo specifici** per
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_DiCZvA
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 - **Esempi troppo specifici** per <nome progetto>
 =======
 <<<<<<< HEAD
@@ -126,6 +241,7 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 - **Esempi troppo specifici** per
 - **Esempi troppo specifici** per
 - **Esempi troppo specifici** per
@@ -134,6 +250,47 @@
 - **Esempi troppo specifici** per
 >>>>>>> laraxot/dev
 - **Esempi troppo specifici** per
+=======
+<<<<<<< .merge_file_CZzxTq
+>>>>>>> laraxot/dev
+- **Esempi troppo specifici** per
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+- **Esempi troppo specifici** per
+- **Esempi troppo specifici** per
+=======
+- **Esempi troppo specifici** per <nome progetto>
+=======
+>>>>>>> .merge_file_MzYzSM
+>>>>>>> .merge_file_YRY159
+- **Esempi troppo specifici** per
+- **Esempi troppo specifici** per
+- **Esempi troppo specifici** per
+- **Esempi troppo specifici** per
+<<<<<<< HEAD
+- **Esempi troppo specifici** per
+<<<<<<< .merge_file_CZzxTq
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_YRY159
+<<<<<<< HEAD
+- **Esempi troppo specifici** per
+=======
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_CZzxTq
+- **Esempi troppo specifici** per
+=======
+>>>>>>> laraxot/dev
+- **Esempi troppo specifici** per
+<<<<<<< .merge_file_DiCZvA
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -148,6 +305,18 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_MzYzSM
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 ## 🔧 RACCOMANDAZIONI SPECIFICHE
@@ -158,10 +327,26 @@
 ```php
 // ❌ PROBLEMI ATTUALI (in documentazione)
 <<<<<<< HEAD
+<<<<<<< HEAD
 /var/www/html/<nome progetto>/laravel/Modules/UI/
 Modules/UI/
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_DiCZvA
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 /var/www/html/<nome progetto>/laravel/Modules/UI/
 =======
 <<<<<<< HEAD
@@ -180,6 +365,7 @@ Modules/UI/
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 Modules/UI/
 Modules/UI/
 Modules/UI/
@@ -188,6 +374,49 @@ Modules/UI/
 Modules/UI/
 >>>>>>> laraxot/dev
 Modules/UI/
+=======
+<<<<<<< .merge_file_CZzxTq
+>>>>>>> laraxot/dev
+Modules/UI/
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+Modules/UI/
+Modules/UI/
+=======
+/var/www/html/<nome progetto>/laravel/Modules/UI/
+=======
+>>>>>>> .merge_file_MzYzSM
+>>>>>>> .merge_file_YRY159
+Modules/UI/
+Modules/UI/
+Modules/UI/
+Modules/UI/
+<<<<<<< HEAD
+Modules/UI/
+<<<<<<< .merge_file_CZzxTq
+<<<<<<< HEAD
+Modules/UI/
+=======
+>>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+Modules/UI/
+<<<<<<< .merge_file_DiCZvA
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_MzYzSM
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+Modules/UI/
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -202,6 +431,16 @@ Modules/UI/
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 https://api.<nome progetto>.com/
 
@@ -231,10 +470,26 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 
 ## 🏆 Quality Achievements
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ✅ PHPStan level 10 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_DiCZvA
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 - ✅ PHPStan level 10 (12/12 files)
 =======
 <<<<<<< HEAD
@@ -253,12 +508,50 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- ✅ PHPStan level 10 (12/12 files)
+=======
+>>>>>>> .merge_file_MzYzSM
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ PHPStan Level 9 (12/12 files)
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+<<<<<<< HEAD
+- ✅ PHPStan Level 9 (12/12 files)
+=======
+=======
+<<<<<<< .merge_file_DiCZvA
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_MzYzSM
+- ✅ PHPStan Level 9 (12/12 files)
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- ✅ PHPStan Level 9 (12/12 files)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - ✅ PHPStan Level 9 (12/12 files)
 <<<<<<< HEAD
@@ -275,6 +568,16 @@ Modulo riutilizzabile per componenti Blade, widget Filament e design system.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - ✅ Translation Standards 100%
 - ✅ 50+ Blade Components
@@ -336,12 +639,31 @@ class ComponentPerformanceMiddleware
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 
         $response = $next($request);
 
         $duration = (microtime(true) - $start) * 1000;
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 
 <<<<<<< HEAD
 =======
@@ -355,6 +677,9 @@ class ComponentPerformanceMiddleware
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         
         $response = $next($request);
@@ -368,6 +693,9 @@ class ComponentPerformanceMiddleware
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
@@ -377,9 +705,57 @@ class ComponentPerformanceMiddleware
         $duration = (microtime(true) - $start) * 1000;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< .merge_file_DiCZvA
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_MzYzSM
+        
+        $response = $next($request);
+        
+        $duration = (microtime(true) - $start) * 1000;
+        
+<<<<<<< .merge_file_DiCZvA
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_MzYzSM
+
+        $response = $next($request);
+        
+        $duration = (microtime(true) - $start) * 1000;
+
+<<<<<<< .merge_file_DiCZvA
+<<<<<<< HEAD
+>>>>>>> .merge_file_YRY159
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -389,6 +765,22 @@ class ComponentPerformanceMiddleware
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_CZzxTq
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_MzYzSM
+>>>>>>> .merge_file_YRY159
 >>>>>>> laraxot/dev
         if ($duration > 50) {
             Log::warning("Slow component detected", [
@@ -397,9 +789,29 @@ class ComponentPerformanceMiddleware
             ]);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_CZzxTq
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_DiCZvA
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+=======
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
         
 =======
@@ -423,6 +835,20 @@ class ComponentPerformanceMiddleware
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_MzYzSM
+>>>>>>> .merge_file_YRY159
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
         return $response;
@@ -498,10 +924,26 @@ php artisan ui:accessibility-check
 
 ### Mantenere Eccellenze
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **NON toccare** l'architettura PHPStan level 10
 - **NON toccare** l'architettura PHPStan Level 9
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_DiCZvA
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 - **NON toccare** l'architettura PHPStan level 10
 =======
 <<<<<<< HEAD
@@ -520,6 +962,7 @@ php artisan ui:accessibility-check
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 - **NON toccare** l'architettura PHPStan Level 9
 - **NON toccare** l'architettura PHPStan Level 9
 - **NON toccare** l'architettura PHPStan Level 9
@@ -528,6 +971,49 @@ php artisan ui:accessibility-check
 - **NON toccare** l'architettura PHPStan Level 9
 >>>>>>> laraxot/dev
 - **NON toccare** l'architettura PHPStan Level 9
+=======
+<<<<<<< .merge_file_CZzxTq
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+- **NON toccare** l'architettura PHPStan Level 9
+- **NON toccare** l'architettura PHPStan Level 9
+=======
+- **NON toccare** l'architettura PHPStan level 10
+=======
+>>>>>>> .merge_file_MzYzSM
+>>>>>>> .merge_file_YRY159
+- **NON toccare** l'architettura PHPStan Level 9
+- **NON toccare** l'architettura PHPStan Level 9
+- **NON toccare** l'architettura PHPStan Level 9
+- **NON toccare** l'architettura PHPStan Level 9
+<<<<<<< HEAD
+- **NON toccare** l'architettura PHPStan Level 9
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- **NON toccare** l'architettura PHPStan Level 9
+<<<<<<< .merge_file_CZzxTq
+<<<<<<< HEAD
+- **NON toccare** l'architettura PHPStan Level 9
+=======
+>>>>>>> laraxot/dev
+- **NON toccare** l'architettura PHPStan Level 9
+=======
+<<<<<<< .merge_file_DiCZvA
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_MzYzSM
+>>>>>>> laraxot/dev
+- **NON toccare** l'architettura PHPStan Level 9
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -542,6 +1028,16 @@ php artisan ui:accessibility-check
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - **NON modificare** il sistema TableLayoutEnum (perfetto)
 - **NON cambiare** il pattern TransTrait (eccellente)
@@ -559,13 +1055,63 @@ php artisan ui:accessibility-check
 
 ## Collegamenti
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< .merge_file_DiCZvA
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+- [Analisi Moduli Globale](../../../docs/modules_analysis_and_optimization.md)
+- [Components Guide](components.md)
+- [TableLayoutEnum Guide](table-layout-enum-complete-guide.md)
+
+*Ultimo aggiornamento: gennaio 2025*
+=======
+>>>>>>> .merge_file_MzYzSM
+>>>>>>> .merge_file_YRY159
+- [Analisi Moduli Globale](../../../../docs/modules_analysis_and_optimization.md)
+- [Components Guide](components.md)
+- [TableLayoutEnum Guide](table-layout-enum-complete-guide.md)
+
+# Raccomandazioni di Ottimizzazione - Modulo UI
+
+## 🎯 Stato Attuale e Analisi
+
+### ✅ PUNTI DI FORZA ECCELLENTI
+
+#### Qualità del Codice
+- **PHPStan Level 9**: 12/12 file core certificati
+- **PHPStan Level 9**: 12/12 file core certificati
+- **PHPStan Level 9**: 12/12 file core certificati
+- **Translation Standards**: 100% compliance con struttura espansa
+- **Component Architecture**: 50+ componenti Blade riutilizzabili
+- **Filament Integration**: 20+ widget personalizzati perfettamente integrati
+
+<<<<<<< .merge_file_CZzxTq
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 - [Analisi Moduli Globale](../../../docs/modules_analysis_and_optimization.md)
 - [Components Guide](components.md)
 - [TableLayoutEnum Guide](table-layout-enum-complete-guide.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 *Ultimo aggiornamento: gennaio 2025*
 =======
 <<<<<<< HEAD
@@ -581,6 +1127,9 @@ php artisan ui:accessibility-check
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 *Ultimo aggiornamento: gennaio 2025*
 # Raccomandazioni di Ottimizzazione - Modulo UI
@@ -591,67 +1140,361 @@ php artisan ui:accessibility-check
 - **Translation Standards**: 100% compliance con struttura espansa
 - **Component Architecture**: 50+ componenti Blade riutilizzabili
 - **Filament Integration**: 20+ widget personalizzati perfettamente integrati
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 #### Design System Maturo
 - **TableLayoutEnum**: Sistema layout responsive completo
 - **TransTrait**: Traduzioni automatiche per enum
 - **Component Prefix**: Namespace `ui::` ben implementato
 - **Accessibility**: Score 98/100 per accessibilità
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_CZzxTq
+
+=======
+>>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 #### Performance Ottimizzata
 - **Component Rendering**: < 50ms per componente
 - **Bundle Size**: < 200KB per tutti i componenti
 - **Mobile Responsive**: 100% componenti responsive
 - **Caching**: Sistema caching componenti attivo
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_CZzxTq
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+
+### ⚠️ AREE DI MIGLIORAMENTO
+
+#### 1. Riusabilità Path (IMPORTANTE)
+- **115+ occorrenze hardcoded** di "<nome progetto>" in documentazione
+- **115+ occorrenze hardcoded** di "<nome progetto>" in documentazione
+- **115+ occorrenze hardcoded** di "<nome progetto>" in documentazione
+- **115+ occorrenze hardcoded** di "<nome progetto>" in documentazione
+- **Path assoluti** in esempi e guide
+- **Link interni** con riferimenti specifici al progetto
+
+<<<<<<< .merge_file_CZzxTq
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 ### ⚠️ AREE DI MIGLIORAMENTO
 #### 1. Riusabilità Path (IMPORTANTE)
 - **115+ occorrenze hardcoded** di "<nome progetto>" in documentazione
 - **Path assoluti** in esempi e guide
 - **Link interni** con riferimenti specifici al progetto
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 #### 2. Documentazione Eccessiva
 - **README.md**: 407 righe (troppo denso)
 - **Informazioni duplicate** tra sezioni
 - **Esempi troppo specifici** per <nome progetto>
+<<<<<<< HEAD
 ## 🔧 RACCOMANDAZIONI SPECIFICHE
 ### 1. Path Generalization (IMPORTANTE - 1 ora)
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_CZzxTq
+=======
+=======
+<<<<<<< HEAD
+## 🔧 RACCOMANDAZIONI SPECIFICHE
+### 1. Path Generalization (IMPORTANTE - 1 ora)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+- **Esempi troppo specifici** per <nome progetto>
+- **Esempi troppo specifici** per <nome progetto>
+- **Esempi troppo specifici** per <nome progetto>
+
+## 🔧 RACCOMANDAZIONI SPECIFICHE
+
+### 1. Path Generalization (IMPORTANTE - 1 ora)
+
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_YRY159
+=======
+## 🔧 RACCOMANDAZIONI SPECIFICHE
+### 1. Path Generalization (IMPORTANTE - 1 ora)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_CZzxTq
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 #### Pattern di Correzione
 ```php
 // ❌ PROBLEMI ATTUALI (in documentazione)
 Modules/UI/
 https://api.<nome progetto>.com/
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_CZzxTq
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+Modules/UI/
+https://api.<nome progetto>.com/
+Modules/UI/
+https://api.<nome progetto>.com/
+Modules/UI/
+https://api.<nome progetto>.com/
+
+<<<<<<< .merge_file_CZzxTq
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 // ✅ SOLUZIONI
 {{project_path}}/laravel/Modules/UI/
 https://api.{{project_domain}}/
 ```
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_CZzxTq
+
+=======
+>>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 #### File da Aggiornare
 1. **docs/filament/label-translation-system.md**
 2. **docs/components/**.md files con path hardcoded
 3. **README.md** esempi con domini specifici
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_CZzxTq
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+
+### 2. README Optimization (NORMALE - 30 min)
+
+#### Struttura Target (max 150 righe)
+```markdown
+# 🎨 UI Module - Sistema Componenti Avanzato
+
+## Overview
+Modulo riutilizzabile per componenti Blade, widget Filament e design system.
+
+<<<<<<< .merge_file_CZzxTq
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 ### 2. README Optimization (NORMALE - 30 min)
 #### Struttura Target (max 150 righe)
 ```markdown
 # 🎨 UI Module - Sistema Componenti Avanzato
 ## Overview
 Modulo riutilizzabile per componenti Blade, widget Filament e design system.
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ## ⚡ Quick Start
 - [Installation](installation.md)
 - [Components Guide](components/)
 - [Widget System](widgets/)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_CZzxTq
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+
+## 🏆 Quality Achievements
+- ✅ PHPStan Level 9 (12/12 files)
+- ✅ PHPStan Level 9 (12/12 files)
+- ✅ PHPStan Level 9 (12/12 files)
+- ✅ Translation Standards 100%
+- ✅ 50+ Blade Components
+- ✅ Accessibility Score 98/100
+
+<<<<<<< .merge_file_CZzxTq
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 ## 🏆 Quality Achievements
 - ✅ PHPStan Level 9 (12/12 files)
 - ✅ Translation Standards 100%
 - ✅ 50+ Blade Components
 - ✅ Accessibility Score 98/100
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ## 📚 Documentation
 - [Components](components/) - 50+ componenti riutilizzabili
 - [Widgets](widgets/) - 20+ widget Filament
 - [Design System](design-system/) - Sistema design completo
 - [Performance](performance/) - Ottimizzazioni e metriche
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ## 🔧 Development
 - [Best Practices](best-practices.md)
 - [Testing](testing/)
 - [Troubleshooting](troubleshooting/)
+<<<<<<< HEAD
 *Modulo riutilizzabile - Pattern project-agnostic*
 ### 3. Component Documentation Enhancement (OPZIONALE - 2 ore)
 #### Struttura Target per Components
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_CZzxTq
+=======
+=======
+<<<<<<< HEAD
+*Modulo riutilizzabile - Pattern project-agnostic*
+### 3. Component Documentation Enhancement (OPZIONALE - 2 ore)
+#### Struttura Target per Components
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+
+*Modulo riutilizzabile - Pattern project-agnostic*
+```
+
+### 3. Component Documentation Enhancement (OPZIONALE - 2 ore)
+
+#### Struttura Target per Components
+```
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_YRY159
+=======
+*Modulo riutilizzabile - Pattern project-agnostic*
+### 3. Component Documentation Enhancement (OPZIONALE - 2 ore)
+#### Struttura Target per Components
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_CZzxTq
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 UI/docs/components/
 ├── README.md (overview componenti)
 ├── data-display/
@@ -670,8 +1513,42 @@ UI/docs/components/
     ├── modal.md
     ├── calendar.md
     └── charts.md
+<<<<<<< HEAD
 ### 4. Performance Monitoring (OPZIONALE - 1 ora)
 #### Component Performance Tracking
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_CZzxTq
+=======
+=======
+<<<<<<< HEAD
+### 4. Performance Monitoring (OPZIONALE - 1 ora)
+#### Component Performance Tracking
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+```
+
+### 4. Performance Monitoring (OPZIONALE - 1 ora)
+
+#### Component Performance Tracking
+```php
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_YRY159
+=======
+### 4. Performance Monitoring (OPZIONALE - 1 ora)
+#### Component Performance Tracking
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_CZzxTq
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 /**
  * Component performance middleware
  */
@@ -680,48 +1557,288 @@ class ComponentPerformanceMiddleware
     public function handle($request, Closure $next)
     {
         $start = microtime(true);
+<<<<<<< HEAD
         $response = $next($request);
         $duration = (microtime(true) - $start) * 1000;
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_CZzxTq
+=======
+=======
+<<<<<<< HEAD
+        $response = $next($request);
+        $duration = (microtime(true) - $start) * 1000;
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+
+        $response = $next($request);
+
+        $duration = (microtime(true) - $start) * 1000;
+
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_YRY159
+=======
+        $response = $next($request);
+        $duration = (microtime(true) - $start) * 1000;
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_CZzxTq
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
         if ($duration > 50) {
             Log::warning("Slow component detected", [
                 'component' => $request->route()->getName(),
                 'duration' => $duration . 'ms'
             ]);
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_CZzxTq
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+
+        return $response;
+    }
+}
+```
+
+## 📊 METRICHE DI SUCCESSO
+
+<<<<<<< .merge_file_CZzxTq
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
         return $response;
     }
 }
 ## 📊 METRICHE DI SUCCESSO
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Riusabilità
 - [ ] **0 occorrenze** path hardcoded in documentazione
 - [ ] **100% esempi** project-agnostic
 - [ ] **Script check** passa per modulo UI
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_CZzxTq
+
+=======
+>>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 ### Documentazione
 - [ ] **README.md** ridotto a max 150 righe
 - [ ] **Componenti** documentati per categorie
 - [ ] **Guide pratiche** per sviluppatori
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Performance
 - [ ] **Component rendering** mantenuto < 50ms
 - [ ] **Bundle size** mantenuto < 200KB
 - [ ] **Accessibility** mantenuto > 95/100
+<<<<<<< HEAD
 ## 🚀 PIANO DI IMPLEMENTAZIONE
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_CZzxTq
+=======
+
+## 🚀 PIANO DI IMPLEMENTAZIONE
+
+=======
+<<<<<<< HEAD
+## 🚀 PIANO DI IMPLEMENTAZIONE
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_YRY159
+
+## 🚀 PIANO DI IMPLEMENTAZIONE
+
+=======
+## 🚀 PIANO DI IMPLEMENTAZIONE
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_CZzxTq
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 ### Sprint 1 (1 ora) - IMPORTANTE
 1. **Aggiornare** path hardcoded in documentazione
 2. **Generalizzare** esempi specifici
 3. **Verificare** script check
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_CZzxTq
+
+=======
+>>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 ### Sprint 2 (30 min) - NORMALE
 1. **Ottimizzare** README.md
 2. **Riorganizzare** informazioni per priorità
 3. **Aggiornare** quick start
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Sprint 3 (2 ore) - OPZIONALE
 1. **Enhancere** documentazione componenti
 2. **Aggiungere** performance monitoring
 3. **Migliorare** developer experience
+<<<<<<< HEAD
 ## 🔍 CONTROLLI DI QUALITÀ
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_CZzxTq
+=======
+
+## 🔍 CONTROLLI DI QUALITÀ
+
+=======
+<<<<<<< HEAD
+## 🔍 CONTROLLI DI QUALITÀ
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_YRY159
+
+## 🔍 CONTROLLI DI QUALITÀ
+
+=======
+## 🔍 CONTROLLI DI QUALITÀ
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_CZzxTq
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 ### Pre-Implementazione
 ```bash
 # Verifica path hardcoded
 grep -r "<nome progetto>" Modules/UI/docs/ --include="*.md" | wc -l
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_CZzxTq
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+grep -r "<nome progetto>" Modules/UI/docs/ --include="*.md" | wc -l
+grep -r "<nome progetto>" Modules/UI/docs/ --include="*.md" | wc -l
+grep -r "<nome progetto>" Modules/UI/docs/ --include="*.md" | wc -l
+
+# Verifica lunghezza README
+wc -l Modules/UI/docs/README.md
+```
+
+### Post-Implementazione
+```bash
+# Riusabilità
+./bashscripts/check_module_reusability.sh
+
+# Performance componenti
+php artisan ui:benchmark
+
+# Accessibilità
+php artisan ui:accessibility-check
+```
+
+## 🎯 PRIORITÀ
+
+<<<<<<< .merge_file_CZzxTq
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 # Verifica lunghezza README
 wc -l Modules/UI/docs/README.md
 ### Post-Implementazione
@@ -732,24 +1849,125 @@ php artisan ui:benchmark
 # Accessibilità
 php artisan ui:accessibility-check
 ## 🎯 PRIORITÀ
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 1. **IMPORTANTE**: Path generalization (migliora riusabilità)
 2. **NORMALE**: README optimization (migliora DX)
 3. **OPZIONALE**: Component documentation (migliora manutenibilità)
 4. **FUTURO**: Performance monitoring (migliora UX)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_CZzxTq
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+
+## 💡 RACCOMANDAZIONI SPECIFICHE
+
+### Mantenere Eccellenze
+- **NON toccare** l'architettura PHPStan Level 9
+- **NON toccare** l'architettura PHPStan Level 9
+- **NON toccare** l'architettura PHPStan Level 9
+- **NON modificare** il sistema TableLayoutEnum (perfetto)
+- **NON cambiare** il pattern TransTrait (eccellente)
+- **NON alterare** la struttura componenti (ben organizzata)
+
+<<<<<<< .merge_file_CZzxTq
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 ## 💡 RACCOMANDAZIONI SPECIFICHE
 ### Mantenere Eccellenze
 - **NON toccare** l'architettura PHPStan Level 9
 - **NON modificare** il sistema TableLayoutEnum (perfetto)
 - **NON cambiare** il pattern TransTrait (eccellente)
 - **NON alterare** la struttura componenti (ben organizzata)
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Focus su Miglioramenti
 - **Generalizzare** solo path e domini hardcoded
 - **Ottimizzare** solo documentazione eccessiva
 - **Aggiungere** solo guide mancanti per sviluppatori
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_CZzxTq
+
+=======
+>>>>>>> laraxot/dev
+=======
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 ### Evitare Over-Engineering
 - Il modulo UI è già **molto maturo**
 - Le modifiche devono essere **minimali e mirate**
 - **Preservare** l'eccellente qualità esistente
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_CZzxTq
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+
+## Collegamenti
+
+- [Analisi Moduli Globale](../../../../docs/modules_analysis_and_optimization.md)
+- [Components Guide](components.md)
+- [TableLayoutEnum Guide](table-layout-enum-complete-guide.md)
+
+<<<<<<< .merge_file_CZzxTq
+=======
+=======
+<<<<<<< .merge_file_DiCZvA
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRY159
+>>>>>>> laraxot/dev
 ## Collegamenti
 - [Analisi Moduli Globale](../../../docs/modules_analysis_and_optimization.md)
 - [Components Guide](components.md)
@@ -757,7 +1975,10 @@ php artisan ui:accessibility-check
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/dev
 
 *Ultimo aggiornamento: gennaio 2025*
 <<<<<<< HEAD
@@ -774,5 +1995,17 @@ php artisan ui:accessibility-check
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CZzxTq
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_MzYzSM
+>>>>>>> .merge_file_YRY159
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

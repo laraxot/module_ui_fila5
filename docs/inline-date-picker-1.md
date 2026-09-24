@@ -1,7 +1,15 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_5pRQ7d
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_9j8eGR
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: inline-date-picker_1
@@ -10,6 +18,13 @@ canonical: ../../../Themes/docs/shared-components/inline-date-picker-1.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/inline-date-picker-1.md
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_5pRQ7d
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9j8eGR
 >>>>>>> laraxot/dev
 # InlineDatePicker Component
 

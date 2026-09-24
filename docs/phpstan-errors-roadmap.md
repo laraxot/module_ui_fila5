@@ -4,8 +4,19 @@
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_JiE8Dp
 **Data**: 2026-01-09  
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+**Data**: 2026-01-09  
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_lfnKX8
 >>>>>>> laraxot/dev
 **Modulo**: UI  
 **Livello PHPStan**: 10  
@@ -123,8 +134,19 @@
 **Ultimo aggiornamento**: [DATE]
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_JiE8Dp
+**Ultimo aggiornamento**: 2026-01-09
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 **Ultimo aggiornamento**: [DATE]
 =======
 **Ultimo aggiornamento**: 2026-01-09
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_lfnKX8
 >>>>>>> laraxot/dev

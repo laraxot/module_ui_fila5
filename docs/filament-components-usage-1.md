@@ -2,10 +2,21 @@
 # Utilizzo dei Componenti Filament
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Xh5RFe
+# Utilizzo dei Componenti Filament 
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 # Utilizzo dei Componenti Filament
 =======
 # Utilizzo dei Componenti Filament 
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_dSitmn
 >>>>>>> laraxot/dev
 
 ## Collegamenti correlati
@@ -140,8 +151,17 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
         </x-filament::button>
     </x-slot>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_Xh5RFe
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_dSitmn
 >>>>>>> laraxot/dev
 
     <x-filament::dropdown.item wire:click="action">
@@ -157,7 +177,15 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 ## Best Practices
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_Xh5RFe
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_dSitmn
+>>>>>>> laraxot/dev
 =======
     <x-filament::dropdown.item wire:click="action">
         Azione 1
@@ -168,6 +196,13 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 ```
 ## Best Practices
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_Xh5RFe
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_dSitmn
 >>>>>>> laraxot/dev
 1. **SEMPRE utilizzare i componenti Filament** quando disponibili invece di creare componenti personalizzati
 2. **SEMPRE utilizzare il prefisso corretto** `x-filament::` per accedere ai componenti Filament
@@ -176,8 +211,17 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 5. **SEMPRE utilizzare le classi Tailwind** fornite da Filament per mantenere la coerenza visiva
 6. **SEMPRE verificare il percorso corretto** dei componenti e degli asset
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_Xh5RFe
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_dSitmn
 >>>>>>> laraxot/dev
 
 ## Errori Comuni
@@ -185,12 +229,27 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 1. **Utilizzo del prefisso errato**: Utilizzare `x-ui-icon` invece di `x-filament::icon`
 2. **Percorso errato del provider**: Utilizzare `Modules/UI/Providers/UIServiceProvider.php` invece di `Modules/UI/app/Providers/UIServiceProvider.php`
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_Xh5RFe
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_dSitmn
+>>>>>>> laraxot/dev
 =======
 ## Errori Comuni
 1. **Utilizzo del prefisso errato**: Utilizzare `x-ui-icon` invece di `x-filament::icon`
 2. **Percorso errato del provider**: Utilizzare `/var/www/html/saluteora/laravel/Modules/UI/Providers/UIServiceProvider.php` invece di `/var/www/html/saluteora/laravel/Modules/UI/app/Providers/UIServiceProvider.php`
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_Xh5RFe
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_dSitmn
 >>>>>>> laraxot/dev
 3. **Creazione di componenti duplicati**: Creare componenti personalizzati che duplicano funzionalità già fornite da Filament
 4. **Mancata verifica dei componenti esistenti**: Non controllare se un componente è già disponibile in Filament prima di crearne uno personalizzato

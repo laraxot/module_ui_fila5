@@ -55,8 +55,17 @@ if (isset($record->attribute)) {
 
 ## ✅ Checklist di Verifica
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_XlU8xY
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_4VxZUD
 >>>>>>> laraxot/dev
 - [x] PHPStan Level 10 (0 errori)
 - [x] PHPMD (Complexity < 10)
@@ -90,7 +99,15 @@ if (isset($record->attribute)) {
 - UI module is compliant with current PHPStan configuration.
 - PHPInsights quality >94% across all metrics.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_XlU8xY
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_4VxZUD
+>>>>>>> laraxot/dev
 =======
 - [x] PHPStan Level 10 (Analisi Modulo: OK)
 - [ ] PHPMD (Complexity < 10)
@@ -107,4 +124,11 @@ if (isset($record->attribute)) {
 ## Verification
 - UI module is compliant with current PHPStan configuration.
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_XlU8xY
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_4VxZUD
 >>>>>>> laraxot/dev

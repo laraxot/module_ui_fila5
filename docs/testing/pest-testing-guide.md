@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_5hwXmO
+=======
+=======
+<<<<<<< .merge_file_YCx88q
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_HKIV4s
+>>>>>>> .merge_file_Gb8FuR
+>>>>>>> laraxot/dev
 ---
 title: "Pest Testing Guide - UI Module"
 type: guide
@@ -6,11 +23,18 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "pest-testing-guide pest testing guide - ui module"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
+=======
+<<<<<<< .merge_file_5hwXmO
+=======
+<<<<<<< .merge_file_YCx88q
+>>>>>>> .merge_file_Gb8FuR
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -23,10 +47,36 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 related:
 ---
 
+=======
+related:
+---
+
+<<<<<<< .merge_file_5hwXmO
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
+---
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_HKIV4s
+>>>>>>> .merge_file_Gb8FuR
+>>>>>>> laraxot/dev
 # Pest Testing Guide - UI Module
 
 ## 🎯 Overview
@@ -358,7 +408,35 @@ Based on existing UI module tests:
 ## 🔗 Related Documentation
 
 ### **Module Documentation**
+<<<<<<< HEAD
 - [UI Module README](../README.md)
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_5hwXmO
+- [UI Module README](../readme.md)
+=======
+- [UI Module README](../README.md)
+=======
+<<<<<<< .merge_file_YCx88q
+- [UI Module README](../readme.md)
+=======
+<<<<<<< HEAD
+- [UI Module README](../README.md)
+=======
+<<<<<<< HEAD
+- [UI Module README](../readme.md)
+=======
+- [UI Module README](../README.md)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [UI Module README](../README.md)
+=======
+- [UI Module README](../readme.md)
+>>>>>>> .merge_file_HKIV4s
+>>>>>>> .merge_file_Gb8FuR
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [Component Architecture](../components.md)
 - [Theme System](../themes.md)
 

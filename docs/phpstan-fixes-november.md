@@ -1,6 +1,15 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_Afh2Ed
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Tm3C1s
 >>>>>>> laraxot/dev
 ---
 module: theme
@@ -10,7 +19,15 @@ canonical: ../../../Themes/docs/shared-components/phpstan-fixes-november-2025.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan-fixes-november-2025.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_Afh2Ed
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_Tm3C1s
+>>>>>>> laraxot/dev
 =======
 # PHPStan Fixes - November 2025
 
@@ -210,4 +227,11 @@ Quando serve fare type narrowing di una variabile usata più volte, estrarre il 
 
 *Ultimo aggiornamento: 11 Novembre 2025*
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_Afh2Ed
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Tm3C1s
 >>>>>>> laraxot/dev
