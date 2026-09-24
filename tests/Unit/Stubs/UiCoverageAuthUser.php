@@ -12,12 +12,8 @@ use Illuminate\Support\Collection;
  */
 final class UiCoverageAuthUser extends AuthenticatableUser
 {
-<<<<<<< HEAD
     public ?object $profile = null;
 
-=======
-    public mixed $profile = null;
->>>>>>> laraxot/dev
     public function relationLoaded($key): bool
     {
         if (! is_string($key)) {

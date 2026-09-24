@@ -264,11 +264,7 @@ describe('UI actions — GetAllIconsAction con factory mock', function (): void 
 });
 
 /** @return array<int|string, string> */
-<<<<<<< HEAD
 function uiEvaluateSelectOptions(Select $select, Model $record, ?string $state): array
-=======
-function uiEvaluateSelectOptions(Select $select, Model $record, mixed $state): array
->>>>>>> laraxot/dev
 {
     $ref = new ReflectionClass($select);
     $prop = $ref->getProperty('options');
@@ -283,11 +279,7 @@ function uiEvaluateSelectOptions(Select $select, Model $record, mixed $state): a
 }
 
 /** @return array<int|string, string> */
-<<<<<<< HEAD
 function uiEvaluateColumnOptions(SelectStateColumn $column, Model $record, ?object $state): array
-=======
-function uiEvaluateColumnOptions(SelectStateColumn $column, Model $record, mixed $state): array
->>>>>>> laraxot/dev
 {
     $ref = new ReflectionClass($column);
     $prop = $ref->getProperty('options');
@@ -301,11 +293,7 @@ function uiEvaluateColumnOptions(SelectStateColumn $column, Model $record, mixed
     return $result;
 }
 
-<<<<<<< HEAD
 function uiInvokeBeforeStateUpdated(SelectStateColumn $column, Model $record, string $state): void
-=======
-function uiInvokeBeforeStateUpdated(SelectStateColumn $column, Model $record, mixed $state): void
->>>>>>> laraxot/dev
 {
     $ref = new ReflectionClass($column);
     $prop = $ref->getProperty('beforeStateUpdated');
