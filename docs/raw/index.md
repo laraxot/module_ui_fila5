@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kqkvL7
 =======
 <<<<<<< HEAD
@@ -47,6 +48,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_iA1mRg
+=======
+>>>>>>> 0dadab4 (Lint)
 # Raw Sources — UI
 
 Questo layer contiene le fonti grezze: documenti immutabili che l'LLM legge ma non modifica.
@@ -77,6 +80,7 @@ Il layer raw per questo modulo/tema è **l'intera cartella `docs/`** (esclusa `d
 ## Schema di riferimento
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 → `docs/.schema/WIKI_SCHEMA.md` (root progetto)
 =======
 <<<<<<< HEAD
@@ -105,6 +109,9 @@ Il layer raw per questo modulo/tema è **l'intera cartella `docs/`** (esclusa `d
 =======
 >>>>>>> .merge_file_iA1mRg
 >>>>>>> laraxot/dev
+=======
+→ `docs/.schema/WIKI_SCHEMA.md` (root progetto)
+>>>>>>> 0dadab4 (Lint)
 → `docs/project/llm-wiki-module-adoption.md` (guida per moduli/temi)
 
 ---

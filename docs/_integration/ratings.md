@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AVm61K
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_RNywvY
+=======
+>>>>>>> 0dadab4 (Lint)
 # ratings
 
 <!-- Contenuto migrato da _docs/ratings.txt -->

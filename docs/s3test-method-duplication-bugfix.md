@@ -188,6 +188,7 @@ public function testAndReturnData(): array // Viola SRP
 
 ## Data Correzione
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_IIX7zy
 [DATE]
 =======
@@ -206,6 +207,9 @@ public function testAndReturnData(): array // Viola SRP
 [DATE]
 >>>>>>> .merge_file_66JoGq
 >>>>>>> laraxot/dev
+=======
+[DATE]
+>>>>>>> 0dadab4 (Lint)
 
 ## Correzioni Aggiuntive Implementate
 

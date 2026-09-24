@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_KVUGU7
 =======
 <<<<<<< HEAD
@@ -47,6 +48,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_OwHZhX
+=======
+>>>>>>> 0dadab4 (Lint)
 # Architettura Modulo UI
 
 ## 🏗️ Panoramica Architetturale

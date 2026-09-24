@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -40,6 +41,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 sudo apt-get install jpegoptim
 sudo apt-get install optipng
 sudo apt-get install pngquant // For PNG Image
@@ -47,15 +50,19 @@ sudo npm install -g svgo
 sudo apt-get install gifsicle
 sudo apt-get install webp
 <<<<<<< HEAD
-sudo apt-get install libavif-bin # minimum 0.9.3
-=======
 <<<<<<< HEAD
 sudo apt-get install libavif-bin # minimum 0.9.3
 =======
 <<<<<<< HEAD
 sudo apt-get install libavif-bin # minimum 0.9.3
 =======
+<<<<<<< HEAD
+sudo apt-get install libavif-bin # minimum 0.9.3
+=======
 sudo apt-get install libavif-bin # minimum 0.9.3
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+sudo apt-get install libavif-bin # minimum 0.9.3
+>>>>>>> 0dadab4 (Lint)

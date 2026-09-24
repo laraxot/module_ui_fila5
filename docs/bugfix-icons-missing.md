@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_RkhV9c
 =======
 <<<<<<< HEAD
@@ -117,6 +118,8 @@ php artisan config:clear
 **Stato**: ✅ Risolto
 =======
 >>>>>>> .merge_file_I73sIN
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 module: theme
 topic: bugfix-icons-missing
@@ -124,6 +127,7 @@ canonical: ../../../Themes/docs/shared-components/bugfix-icons-missing.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/bugfix-icons-missing.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_RkhV9c
 <<<<<<< HEAD
 =======
@@ -245,3 +249,5 @@ php artisan config:clear
 =======
 >>>>>>> .merge_file_I73sIN
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

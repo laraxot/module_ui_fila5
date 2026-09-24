@@ -3,6 +3,7 @@ module: theme
 topic: index
 canonical: ../../../../Themes/docs/shared-components/index.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_XTlR2G
 =======
 <<<<<<< HEAD
@@ -28,6 +29,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_6I2jNV
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/index.md

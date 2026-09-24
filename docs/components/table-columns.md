@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Xj58oX
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_L5OBZs
+=======
+>>>>>>> 0dadab4 (Lint)
 # Table Columns Components
 
 ## Overview
@@ -222,6 +225,7 @@ use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
 - [State Management](../state-transitions.md)
 - [Filament Components](../filament-components.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Xj58oX
 - [UI Architecture](../architecture_rules.md)
 =======
@@ -240,6 +244,9 @@ use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
 - [UI Architecture](../architecture_rules.md)
 >>>>>>> .merge_file_L5OBZs
 >>>>>>> laraxot/dev
+=======
+- [UI Architecture](../architecture_rules.md)
+>>>>>>> 0dadab4 (Lint)
 - [Accessibility Guidelines](../accessibility.md)
 ---
 
@@ -252,6 +259,7 @@ use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
 **Compatibility**: Filament 4.x, Laravel 11.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Xj58oX
 =======
 <<<<<<< HEAD
@@ -270,3 +278,5 @@ use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
 =======
 >>>>>>> .merge_file_L5OBZs
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_1lmwxG
 <<<<<<< HEAD
 =======
@@ -39,6 +40,9 @@ return [
 =======
 return [
 >>>>>>> .merge_file_c31MPu
+=======
+return [
+>>>>>>> 0dadab4 (Lint)
     'navigation' => [
         'label' => 'Test S3',
         'group' => 'UI',

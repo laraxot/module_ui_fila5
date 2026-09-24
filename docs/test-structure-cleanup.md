@@ -106,6 +106,7 @@ Modules/UI/
 - Clear migration path
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qvqaGU
 ### 4. **Autoloader <nome progetto>ability**
 =======
@@ -149,6 +150,9 @@ Modules/UI/
 ### 4. **Autoloader <nome progetto>ability**
 >>>>>>> .merge_file_OsHfpv
 >>>>>>> laraxot/dev
+=======
+### 4. **Autoloader <nome progetto>ability**
+>>>>>>> 0dadab4 (Lint)
 - Eliminates ambiguous class resolution
 - Consistent namespace-to-directory mapping
 - Reliable test discovery and execution
@@ -216,6 +220,7 @@ After cleanup:
 
 - ✅ No more PSR-4 autoloading warnings
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qvqaGU
 - ✅ Clear, <nome progetto>able test structure
 =======
@@ -259,6 +264,9 @@ After cleanup:
 - ✅ Clear, <nome progetto>able test structure
 >>>>>>> .merge_file_OsHfpv
 >>>>>>> laraxot/dev
+=======
+- ✅ Clear, <nome progetto>able test structure
+>>>>>>> 0dadab4 (Lint)
 - ✅ Consistent with Laravel conventions
 - ✅ Compatible with module system
 - ✅ Maintains all existing test functionality

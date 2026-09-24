@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 module: theme
 topic: phpstan-fixes-january
@@ -9,6 +12,7 @@ canonical: ../../../Themes/docs/shared-components/phpstan-fixes-january-2025-Mod
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan-fixes-january-2025-Modules.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -71,3 +75,5 @@ public function canTransitionTo(int|string $recordId, string $stateClass): bool
 - [Icon State Split Column](./icon-state-split-column.md)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

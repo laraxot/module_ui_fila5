@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_BC03dC
 =======
 <<<<<<< HEAD
@@ -52,6 +53,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9lsBpH
+=======
+>>>>>>> 0dadab4 (Lint)
 # Shared Hosting Chart Strategy (No NPM/Node)
 
 > **Purpose**: Generate chart images in background jobs on **Shared Hosting environments** where you cannot install Node.js/Puppeteer (`browsershot` is not an option).

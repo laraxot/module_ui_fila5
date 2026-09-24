@@ -8,6 +8,7 @@ updated: "2026-07-29"
 =======
 <<<<<<< HEAD
 updated: "2026-07-29"
+<<<<<<< HEAD
 <<<<<<< .merge_file_Luwm0C
 =======
 <<<<<<< .merge_file_dISztb
@@ -17,6 +18,8 @@ updated: "2026-07-29"
 updated: "2026-07-29"
 >>>>>>> .merge_file_1cu6UR
 >>>>>>> .merge_file_GNwaP7
+=======
+>>>>>>> 0dadab4 (Lint)
 related:
   - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
 =======
@@ -37,6 +40,7 @@ related:
 >>>>>>> laraxot/dev
 updated: "2026-07-23"
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_Luwm0C
 =======
 <<<<<<< .merge_file_dISztb
@@ -44,6 +48,8 @@ updated: "2026-07-23"
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_1cu6UR
 >>>>>>> .merge_file_GNwaP7
+=======
+>>>>>>> 0dadab4 (Lint)
 related:
   - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
 updated: "2026-07-23"
@@ -53,6 +59,7 @@ related:
   - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Luwm0C
 =======
 <<<<<<< .merge_file_dISztb
@@ -63,6 +70,8 @@ related:
 <<<<<<< HEAD
 >>>>>>> .merge_file_1cu6UR
 >>>>>>> .merge_file_GNwaP7
+=======
+>>>>>>> 0dadab4 (Lint)
 =======
 <<<<<<< HEAD
 =======
@@ -79,6 +88,7 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_Luwm0C
 =======
 <<<<<<< .merge_file_dISztb
@@ -86,6 +96,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_1cu6UR
 >>>>>>> .merge_file_GNwaP7
+=======
+>>>>>>> 0dadab4 (Lint)
   - "./git-multi-org-sync-handoff.md"
 ---
 
@@ -109,6 +121,7 @@ fetch di tutti i remote, quality gates (PHPStan L10, PHPMD), risincronizzazione 
   risolte a mano confrontando i diff).
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Luwm0C
 =======
 <<<<<<< .merge_file_dISztb
@@ -121,6 +134,8 @@ fetch di tutti i remote, quality gates (PHPStan L10, PHPMD), risincronizzazione 
 <<<<<<< HEAD
 >>>>>>> .merge_file_1cu6UR
 >>>>>>> .merge_file_GNwaP7
+=======
+>>>>>>> 0dadab4 (Lint)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -147,6 +162,7 @@ fetch di tutti i remote, quality gates (PHPStan L10, PHPMD), risincronizzazione 
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_Luwm0C
 =======
 <<<<<<< .merge_file_dISztb
@@ -154,6 +170,8 @@ fetch di tutti i remote, quality gates (PHPStan L10, PHPMD), risincronizzazione 
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_1cu6UR
 >>>>>>> .merge_file_GNwaP7
+=======
+>>>>>>> 0dadab4 (Lint)
 - **Violazione di dipendenza Geo→UI**: `app/Livewire/Components/Map/InteractiveMap.php`
   importava `Modules\\Geo\\Services\\{Geocoding,Map}Service`, un modulo che non fa
   parte di questo progetto e che comunque UI non dovrebbe mai importare
@@ -167,6 +185,7 @@ fetch di tutti i remote, quality gates (PHPStan L10, PHPMD), risincronizzazione 
 |---------|-------|-----|
 | `unpack failed` / `did not receive expected object` | pack thin + storia merge laraxot↔provtv | `git push --no-thin` |
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Luwm0C
 =======
 <<<<<<< .merge_file_dISztb
@@ -181,6 +200,8 @@ Playbook completo: [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki
 <<<<<<< HEAD
 >>>>>>> .merge_file_1cu6UR
 >>>>>>> .merge_file_GNwaP7
+=======
+>>>>>>> 0dadab4 (Lint)
 
 =======
 <<<<<<< HEAD
@@ -213,6 +234,7 @@ Playbook completo: [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_Luwm0C
 =======
 <<<<<<< .merge_file_dISztb
@@ -220,6 +242,8 @@ Playbook completo: [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_1cu6UR
 >>>>>>> .merge_file_GNwaP7
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Regola per il futuro
 
@@ -227,6 +251,7 @@ Prima di un merge/rebase su questo repo, controllare sempre `git remote -v` e
 sincronizzare **tutti** i remote elencati, non solo `origin`/`provtv`. Mai forzare
 push distruttivi su storie scollegate: preferire `--allow-unrelated-histories` e
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Luwm0C
 =======
 <<<<<<< .merge_file_dISztb
@@ -236,6 +261,8 @@ revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sib
 <<<<<<< HEAD
 >>>>>>> .merge_file_1cu6UR
 >>>>>>> .merge_file_GNwaP7
+=======
+>>>>>>> 0dadab4 (Lint)
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -259,6 +286,7 @@ revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sib
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_Luwm0C
 =======
 <<<<<<< .merge_file_dISztb
@@ -266,6 +294,8 @@ revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sib
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_1cu6UR
 >>>>>>> .merge_file_GNwaP7
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ### Caso User 2026-07-23 (unrelated)
 

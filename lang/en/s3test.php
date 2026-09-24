@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_QgprHQ
 <<<<<<< HEAD
 =======
@@ -37,6 +38,9 @@ return [
 =======
 return [
 >>>>>>> .merge_file_x7KnW1
+=======
+return [
+>>>>>>> 0dadab4 (Lint)
     'page' => [
         'title' => 'S3 and CloudFront Test',
         'heading' => 'AWS Configuration Test',

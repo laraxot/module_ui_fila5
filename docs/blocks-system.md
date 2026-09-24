@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 =======
 <<<<<<< HEAD
@@ -19,6 +20,8 @@ Il sistema di blocchi di il progetto è un'architettura modulare che permette di
 ## Architettura
 =======
 >>>>>>> .merge_file_B4rhir
+=======
+>>>>>>> 0dadab4 (Lint)
 # Sistema di Blocchi
 
 ## Introduzione
@@ -26,6 +29,7 @@ Il sistema di blocchi di il progetto è un'architettura modulare che permette di
 
 ## Architettura
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 <<<<<<< HEAD
 =======
@@ -79,6 +83,8 @@ Il sistema di blocchi di il progetto è un'architettura modulare che permette di
 =======
 >>>>>>> .merge_file_B4rhir
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ### Struttura Base
 ```
 laravel/Modules/Cms/
@@ -91,6 +97,7 @@ laravel/Modules/Cms/
 │           └── blocks/       # Componenti Blade per il rendering
 └── docs/
     └── blocks/              # Documentazione dei blocchi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 =======
@@ -105,11 +112,14 @@ laravel/Modules/Cms/
 1. **[NavigationBlock](../laravel/Modules/Cms/docs/blocks/navigation-block.md)**
 =======
 >>>>>>> .merge_file_B4rhir
+=======
+>>>>>>> 0dadab4 (Lint)
 ```
 
 ### Tipi di Blocchi
 
 1. **[NavigationBlock](../laravel/modules/cms/docs/blocks/navigation-block.md)**
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 <<<<<<< HEAD
 =======
@@ -121,11 +131,14 @@ laravel/Modules/Cms/
 =======
 >>>>>>> .merge_file_B4rhir
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
    - Gestione menu di navigazione
    - Header e footer
    - Menu multilivello
    - Supporto mobile
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 
 =======
@@ -141,11 +154,15 @@ laravel/Modules/Cms/
 
 >>>>>>> .merge_file_B4rhir
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 2. **ContentBlock**
    - Testo formattato
    - Immagini e media
    - Layout flessibile
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 
 =======
@@ -161,11 +178,15 @@ laravel/Modules/Cms/
 
 >>>>>>> .merge_file_B4rhir
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 3. **FormBlock**
    - Form interattivi
    - Validazione
    - Gestione submit
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 =======
 <<<<<<< HEAD
@@ -181,6 +202,8 @@ laravel/Modules/Cms/
 use Filament\Forms\Components\Builder\Block;
 =======
 >>>>>>> .merge_file_B4rhir
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Implementazione
 
@@ -188,6 +211,7 @@ use Filament\Forms\Components\Builder\Block;
 ```php
 use Filament\Forms\Components\Builder\Block;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 <<<<<<< HEAD
 =======
@@ -206,6 +230,8 @@ use Filament\Forms\Components\Builder\Block;
 =======
 >>>>>>> .merge_file_B4rhir
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 class CustomBlock extends Block
 {
     public static function getBlockSchema(): array
@@ -216,6 +242,7 @@ class CustomBlock extends Block
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 =======
 <<<<<<< HEAD
@@ -239,6 +266,8 @@ public function render()
 ## Best Practices
 =======
 >>>>>>> .merge_file_B4rhir
+=======
+>>>>>>> 0dadab4 (Lint)
 ```
 
 ### 2. Struttura JSON
@@ -264,6 +293,7 @@ public function render()
 
 ## Best Practices
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 <<<<<<< HEAD
 =======
@@ -290,12 +320,15 @@ public function render()
 =======
 >>>>>>> .merge_file_B4rhir
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ### 1. Struttura
 - Un blocco per funzionalità
 - Schema JSON consistente
 - Documentazione completa
 - Test automatizzati
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 
 =======
@@ -311,12 +344,16 @@ public function render()
 
 >>>>>>> .merge_file_B4rhir
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ### 2. Performance
 - Ottimizzazione cache
 - Lazy loading
 - Minimizzazione DOM
 - Asset management
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 
 =======
@@ -332,12 +369,16 @@ public function render()
 
 >>>>>>> .merge_file_B4rhir
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ### 3. Manutenibilità
 - Codice pulito
 - Dipendenze chiare
 - Versionamento
 - Backup automatici
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 
 =======
@@ -353,10 +394,14 @@ public function render()
 
 >>>>>>> .merge_file_B4rhir
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ## Links
 - [Documentazione Blocchi](../laravel/Modules/Cms/docs/blocks/)
 - [Gestione Contenuti](content-management.md)
 - [Best Practices UI](ui-best-practices.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 =======
@@ -373,6 +418,8 @@ Questa documentazione è parte del sistema di documentazione di il progetto. Per
 ```
 =======
 >>>>>>> .merge_file_B4rhir
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Note
 Questa documentazione è parte del sistema di documentazione di il progetto. Per dettagli specifici sui singoli blocchi, consultare la documentazione dei rispettivi moduli.
@@ -484,6 +531,7 @@ public function render()
 
 ## Note
 Questa documentazione è parte del sistema di documentazione di il progetto. Per dettagli specifici sui singoli blocchi, consultare la documentazione dei rispettivi moduli.
+<<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 <<<<<<< HEAD
 =======
@@ -521,3 +569,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/blocks-syste
 =======
 >>>>>>> .merge_file_B4rhir
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

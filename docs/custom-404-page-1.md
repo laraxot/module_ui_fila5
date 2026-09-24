@@ -38,6 +38,7 @@ Depending on where your site is hosted, you may need to configure your server to
 * [custom-404-page.md](../../../Cms/docs/custom-404-page.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -49,6 +50,8 @@ Depending on where your site is hosted, you may need to configure your server to
 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ### Versione Incoming
 
 ---

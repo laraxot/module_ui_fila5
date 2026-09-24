@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_3Rdm77
 <<<<<<< HEAD
 =======
@@ -42,6 +43,12 @@
 <?php
 
 declare(strict_types=1);
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> 0dadab4 (Lint)
 ?>
 {{--
     Studio Card Component - Visualizzazione informazioni studio odontoiatrico

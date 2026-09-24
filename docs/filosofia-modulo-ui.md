@@ -1,6 +1,7 @@
 # Analisi Approfondita del Modulo UI
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Wz8tm1
 > **Generato**: [DATE]
 =======
@@ -19,6 +20,9 @@
 > **Generato**: [DATE]
 >>>>>>> .merge_file_7VNOdi
 >>>>>>> laraxot/dev
+=======
+> **Generato**: [DATE]
+>>>>>>> 0dadab4 (Lint)
 > **Scopo**: Documentare la filosofia, logica, business logic e architettura del modulo UI
 
 ---
@@ -100,6 +104,7 @@ Ogni componente è progettato per essere riutilizzato in più moduli senza dupli
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Wz8tm1
 // InlineDatePicker - Usato in TechPlanner, Employee, Cms
 // LocationSelector - Usato in TechPlanner, Employee, Geo
@@ -151,6 +156,10 @@ Ogni componente è progettato per essere riutilizzato in più moduli senza dupli
 // LocationSelector - Usato in TechPlanner, Employee, Geo
 >>>>>>> .merge_file_7VNOdi
 >>>>>>> laraxot/dev
+=======
+// InlineDatePicker - Usato in TechPlanner, Employee, Cms
+// LocationSelector - Usato in TechPlanner, Employee, Geo
+>>>>>>> 0dadab4 (Lint)
 // IconStateColumn - Usato in tutti i moduli con Spatie ModelStates
 // RadioCollection - Usato per selezioni complesse multimodulo
 ```
@@ -462,6 +471,7 @@ Altri moduli consumano componenti UI:
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Wz8tm1
 // In TechPlanner/Filament/Resources/DeviceResource.php
 =======
@@ -504,6 +514,9 @@ Altri moduli consumano componenti UI:
 // In TechPlanner/Filament/Resources/DeviceResource.php
 >>>>>>> .merge_file_7VNOdi
 >>>>>>> laraxot/dev
+=======
+// In TechPlanner/Filament/Resources/DeviceResource.php
+>>>>>>> 0dadab4 (Lint)
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 use Modules\UI\Filament\Tables\Columns\IconStateColumn;
 
@@ -778,6 +791,7 @@ Laravel risolve automaticamente override temi con view namespace precedence.
 **Versione**: 4.1.0
 **Framework**: Laravel 12 + Filament 4
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Wz8tm1
 =======
 <<<<<<< HEAD
@@ -793,6 +807,8 @@ Laravel risolve automaticamente override temi con view namespace precedence.
 =======
 >>>>>>> .merge_file_7VNOdi
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 **PHPStan**: Level 10 ✅
 **Filosofia**: Estendere, Riutilizzare, Tradurre, Adattare
 **Zen**: I componenti si scoprono da soli 禅

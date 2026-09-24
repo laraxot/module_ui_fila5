@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Actions\Table;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_jLI7gn
 <<<<<<< HEAD
 =======
@@ -39,6 +40,13 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
 =======
 final class TableLayoutToggleTableAction extends XotBaseAction implements HasTableLayout
 >>>>>>> .merge_file_GrNmvm
+=======
+use Filament\Actions\Action;
+use Filament\Resources\Pages\ListRecords;
+use Modules\UI\Contracts\HasTableLayout;
+
+final class TableLayoutToggleTableAction extends Action implements HasTableLayout
+>>>>>>> 0dadab4 (Lint)
 {
     use TableLayoutTrait;
 
@@ -46,6 +54,7 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
     {
         parent::setUp();
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_jLI7gn
 <<<<<<< HEAD
 =======
@@ -53,12 +62,15 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
         $current = $this->getCurrentLayout();
 
         $this->label(__('ui::table_layout.actions.toggle.label'))
             ->tooltip($current->getLabel())
             ->color($current->getColor())
             ->icon($current->getIcon())
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -77,6 +89,8 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_GrNmvm
+=======
+>>>>>>> 0dadab4 (Lint)
             ->action($this->toggleLayout(...));
     }
 
@@ -85,6 +99,7 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
         return 'table_layout_toggle';
     }
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_jLI7gn
 <<<<<<< HEAD
 =======
@@ -172,4 +187,17 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_GrNmvm
+=======
+    protected function toggleLayout(?ListRecords $livewire): void
+    {
+        $currentLayout = $this->getCurrentLayout();
+        $newLayout = $currentLayout->toggle();
+
+        $this->setTableLayout($newLayout);
+
+        if ($livewire instanceof ListRecords) {
+            $livewire->dispatch('$refresh');
+        }
+    }
+>>>>>>> 0dadab4 (Lint)
 }

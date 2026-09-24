@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -14,6 +15,8 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 # UI - Product Launch Plan
 
 > Piano di lancio. Modulo.
@@ -60,6 +63,7 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 | Documentazione di supporto aggiornata | 100% |
 
 ## Rischi
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_FUOIs1
 =======
@@ -267,6 +271,8 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 =======
 >>>>>>> .merge_file_6lcJHa
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 - lancio di superfici non ancora supportate dal backend
 - documentazione non aderente al codice reale
@@ -277,6 +283,7 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 - [PRD](prd.md)
 - [User Research](user-research.md)
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -303,3 +310,5 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

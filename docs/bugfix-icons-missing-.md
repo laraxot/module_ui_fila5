@@ -95,6 +95,7 @@ php artisan config:clear
 - [Sistema Icone UI](../icon-system.md)
 - [Blade Icons Documentation](../blade-icons.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UoxqVO
 =======
 <<<<<<< HEAD
@@ -112,6 +113,8 @@ php artisan config:clear
 **Priorità**: Alta  
 =======
 >>>>>>> .merge_file_5ARnhq
+=======
+>>>>>>> 0dadab4 (Lint)
 - [XotBaseServiceProvider](../xotbaseserviceprovider.md)
 
 ---
@@ -119,6 +122,7 @@ php artisan config:clear
 **Modulo**: UI
 **Tipo**: Bug Fix
 **Priorità**: Alta
+<<<<<<< HEAD
 <<<<<<< .merge_file_UoxqVO
 <<<<<<< HEAD
 =======
@@ -139,4 +143,6 @@ php artisan config:clear
 =======
 >>>>>>> .merge_file_5ARnhq
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 **Stato**: ✅ Risolto

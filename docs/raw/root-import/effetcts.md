@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_NWKAiy
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_XnLHvh
+=======
+>>>>>>> 0dadab4 (Lint)
 https://mridul2820.github.io/css-js/
 
 https://github.com/Mridul2820/css-js

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Actions\Action;
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ysa4s4
 <<<<<<< HEAD
 =======
@@ -42,6 +43,15 @@ class IconStateGroupColumn extends XotBaseColumnGroup
 =======
 class IconStateGroupColumn extends XotBaseColumnGroup
 >>>>>>> .merge_file_mCNWDg
+=======
+use Filament\Tables\Columns\ColumnGroup;
+use Filament\Tables\Columns\IconColumn;
+use Illuminate\Database\Eloquent\Model;
+use Modules\Xot\Contracts\StateContract;
+use Webmozart\Assert\Assert;
+
+class IconStateGroupColumn extends ColumnGroup
+>>>>>>> 0dadab4 (Lint)
 {
     public string $stateClass = '';
 
@@ -120,6 +130,7 @@ class IconStateGroupColumn extends XotBaseColumnGroup
             $column->action(
                 Action::make($stateKey.'-action')
                     ->requiresConfirmation()
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ysa4s4
 <<<<<<< HEAD
 =======
@@ -161,10 +172,22 @@ class IconStateGroupColumn extends XotBaseColumnGroup
 =======
                     ->schema(static function (Model $record) use ($stateInstance) {
 >>>>>>> .merge_file_mCNWDg
+=======
+                    ->modalHeading(function (Model $record) use ($stateInstance) {
+                        // StateContract provides modalHeading()
+                        return $stateInstance->modalHeading();
+                    })
+                    ->modalDescription(function (Model $record) use ($stateInstance) {
+                        // StateContract provides modalDescription()
+                        return $stateInstance->modalDescription();
+                    })
+                    ->schema(function (Model $record) use ($stateInstance) {
+>>>>>>> 0dadab4 (Lint)
                         // StateContract provides modalFormSchema()
                         return $stateInstance->modalFormSchema();
                     })
                     ->fillForm($stateInstance->modalFillFormByRecord(...))
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ysa4s4
 <<<<<<< HEAD
                     ->action(function (Model $record, array $data) use ($stateInstance): void {
@@ -182,6 +205,9 @@ class IconStateGroupColumn extends XotBaseColumnGroup
 =======
                     ->action(static function (Model $record, array $data) use ($stateInstance): void {
 >>>>>>> .merge_file_mCNWDg
+=======
+                    ->action(function (Model $record, array $data) use ($stateInstance): void {
+>>>>>>> 0dadab4 (Lint)
                         // Ensure data is treated as array<string, mixed> for PHPStan and StateContract
                         /** @var array<string, mixed> $typedData */
                         $typedData = $data;
@@ -190,6 +216,7 @@ class IconStateGroupColumn extends XotBaseColumnGroup
                     })
             );
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_Ysa4s4
 <<<<<<< HEAD
             $column->visible((bool) ($this->data[$visibleKey] ?? false));
@@ -210,6 +237,9 @@ class IconStateGroupColumn extends XotBaseColumnGroup
             $visibleValue = $this->data[$visibleKey] ?? false;
             $column->visible((bool) $visibleValue);
 >>>>>>> .merge_file_mCNWDg
+=======
+            $column->visible((bool) ($this->data[$visibleKey] ?? false));
+>>>>>>> 0dadab4 (Lint)
             $columns[] = $column;
         }
 

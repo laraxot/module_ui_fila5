@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_1v2lTy
 <<<<<<< HEAD
 =======
@@ -49,11 +50,21 @@
 =======
 @endphp
 >>>>>>> .merge_file_iTWqf4
+=======
+<?php
+
+declare(strict_types=1);
+
+    $fields = $getFields();
+    $record = $getRecord();
+?>
+>>>>>>> 0dadab4 (Lint)
 <div
     {{
         $attributes
             ->merge($getExtraAttributes(), escape: false)
             ->class([
+<<<<<<< HEAD
 <<<<<<< .merge_file_1v2lTy
 <<<<<<< HEAD
 =======
@@ -63,10 +74,13 @@
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
                 'fi-ta-icon flex flex-wrap gap-1.5',
                 'px-3 py-4' => ! $isInline(),
                 //'flex-col' => $isListWithLineBreaks(),
                 'flex-col' => true,
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -79,10 +93,13 @@
                 'fi-ta-group flex flex-col gap-1',
                 'px-3 py-4' => ! $isInline(),
 >>>>>>> .merge_file_iTWqf4
+=======
+>>>>>>> 0dadab4 (Lint)
             ])
     }}
 >
     @foreach ($fields as $field)
+<<<<<<< HEAD
 <<<<<<< .merge_file_1v2lTy
 <<<<<<< HEAD
 =======
@@ -188,6 +205,21 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_iTWqf4
+=======
+     
+        @php
+            $name = $field->getName();
+            $value = $record->{$name} ?? null;
+            // Skip empty values to save space
+            if (empty($value) && $value !== 0 && $value !== '0') {
+                continue;
+            }
+
+            // Format the value for display
+            $formattedValue = $value;
+
+            // Resolve the label leveraging LangServiceProvider auto translations
+>>>>>>> 0dadab4 (Lint)
             $rawLabel = $field->getLabel();
 
             if ($rawLabel instanceof \Closure) {
@@ -203,6 +235,7 @@
             }
 
             if ($labelText === '') {
+<<<<<<< HEAD
 <<<<<<< .merge_file_1v2lTy
 <<<<<<< HEAD
 =======
@@ -228,10 +261,22 @@
             }
         @endphp
 <<<<<<< .merge_file_1v2lTy
+=======
+                $translationKey = 'ui::table.columns.' . $name . '.label';
+                $translated = __($translationKey);
+                $labelText = $translated !== $translationKey
+                    ? $translated
+                    : \Illuminate\Support\Str::of((string) $name)->replace('_', ' ')->headline()->value();
+            }
+
+            $displayText = $labelText . ': ' . $formattedValue;
+        @endphp
+>>>>>>> 0dadab4 (Lint)
         
             {{ $displayText }}<br/>
         
         
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -286,5 +331,7 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_iTWqf4
+=======
+>>>>>>> 0dadab4 (Lint)
     @endforeach
 </div>

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 =======
 <<<<<<< HEAD
@@ -24,6 +25,8 @@ The `TableLayoutEnum` provides standardized layout options for Filament tables a
 ## Features
 =======
 >>>>>>> .merge_file_ZgWIXX
+=======
+>>>>>>> 0dadab4 (Lint)
 # TableLayoutEnum Usage Guide
 
 ## Nuovo Approccio (Corretto)
@@ -40,6 +43,7 @@ The `TableLayoutEnum` provides standardized layout options for Filament tables a
 
 ## Features
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 <<<<<<< HEAD
 =======
@@ -96,12 +100,15 @@ The `TableLayoutEnum` provides standardized layout options for Filament tables a
 =======
 >>>>>>> .merge_file_ZgWIXX
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 - **Type Safety**: Complete PHPDoc documentation and explicit parameter types
 - **Translation Support**: Multilingual labels via TransTrait and transClass()
 - **Responsive Design**: Enhanced grid configuration with multiple breakpoints
 - **Clean API**: No more debug_backtrace, explicit parameter passing
 - **Framework Compliance**: Uses TransTrait for all translation methods
 - **Extensible**: Additional utility methods for layout management
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 =======
@@ -121,6 +128,8 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
     case GRID = 'grid';
 =======
 >>>>>>> .merge_file_ZgWIXX
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## CRITICAL RULE: TransTrait Usage
 
@@ -138,6 +147,7 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
     case LIST = 'list';
     case GRID = 'grid';
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 <<<<<<< HEAD
 =======
@@ -159,11 +169,14 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 =======
 >>>>>>> .merge_file_ZgWIXX
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
     public function getLabel(): string
     {
         return $this->transClass(self::class, $this->value.'.label');
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 =======
 <<<<<<< HEAD
@@ -180,6 +193,8 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 ### Why TransTrait is Required
 =======
 >>>>>>> .merge_file_ZgWIXX
+=======
+>>>>>>> 0dadab4 (Lint)
 
     public function getColor(): string
     {
@@ -195,6 +210,7 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 
 ### Why TransTrait is Required
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 <<<<<<< HEAD
 =======
@@ -214,11 +230,14 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 =======
 >>>>>>> .merge_file_ZgWIXX
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 1. **DRY Principle**: Eliminates code duplication
 2. **Framework Consistency**: Uniform approach across all enums
 3. **Automatic Fallbacks**: Built-in translation fallback mechanisms
 4. **Performance**: Optimized translation caching
 5. **Maintainability**: Centralized translation logic
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 =======
@@ -234,6 +253,8 @@ After resolving Git conflicts and removing the deprecated debug_backtrace approa
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_ZgWIXX
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## New Approach (Implemented)
 
@@ -243,6 +264,7 @@ After resolving Git conflicts and removing the deprecated debug_backtrace approa
 
 ```php
 use Modules\UI\Enums\TableLayoutEnum;
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 <<<<<<< HEAD
 =======
@@ -255,10 +277,13 @@ After resolving Git conflicts and removing the deprecated debug_backtrace approa
 =======
 >>>>>>> .merge_file_ZgWIXX
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 use Filament\Tables\Table;
 use Filament\Tables\Actions\Action;
 use Filament\Tables\Columns\Layout\Stack;
 use Filament\Support\Enums\FontWeight;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 =======
@@ -277,6 +302,8 @@ class ListUsers extends ListRecords
             ->contentGrid($this->layout->getTableContentGrid());
 =======
 >>>>>>> .merge_file_ZgWIXX
+=======
+>>>>>>> 0dadab4 (Lint)
 
 class ListUsers extends ListRecords
 {
@@ -294,6 +321,7 @@ class ListUsers extends ListRecords
             ->contentGrid($this->layout->getTableContentGrid());
     }
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 <<<<<<< HEAD
 =======
@@ -314,6 +342,8 @@ class ListUsers extends ListRecords
 =======
 >>>>>>> .merge_file_ZgWIXX
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
     /**
      * Restituisce le colonne appropriate per il layout corrente
             ->contentGrid($this->layout->getTableContentGrid())
@@ -321,6 +351,7 @@ class ListUsers extends ListRecords
                 'class' => $this->layout->getContainerClasses(),
             ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 =======
 <<<<<<< HEAD
@@ -335,6 +366,8 @@ class ListUsers extends ListRecords
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_ZgWIXX
+=======
+>>>>>>> 0dadab4 (Lint)
     }
 
     /**
@@ -342,6 +375,7 @@ class ListUsers extends ListRecords
      */
     protected function getColumnsForLayout(): array
     {
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 <<<<<<< HEAD
 =======
@@ -354,11 +388,14 @@ class ListUsers extends ListRecords
 =======
 >>>>>>> .merge_file_ZgWIXX
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
         $listColumns = [
             Tables\Columns\TextColumn::make('name'),
             Tables\Columns\TextColumn::make('email'),
             Tables\Columns\TextColumn::make('created_at'),
         ];
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 
@@ -375,6 +412,9 @@ class ListUsers extends ListRecords
 
 >>>>>>> .merge_file_ZgWIXX
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
         $gridColumns = [
             Tables\Columns\Layout\Stack::make([
                 Tables\Columns\TextColumn::make('name')
@@ -389,6 +429,7 @@ class ListUsers extends ListRecords
             Tables\Columns\TextColumn::make('created_at')
                 ->dateTime()
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 =======
 <<<<<<< HEAD
@@ -400,12 +441,15 @@ class ListUsers extends ListRecords
             Stack::make([
 =======
 >>>>>>> .merge_file_ZgWIXX
+=======
+>>>>>>> 0dadab4 (Lint)
                 ->sortable(),
         ];
 
         $gridColumns = [
             Stack::make([
                 Tables\Columns\TextColumn::make('name')
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 <<<<<<< HEAD
 =======
@@ -416,6 +460,8 @@ class ListUsers extends ListRecords
 =======
 >>>>>>> .merge_file_ZgWIXX
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
                     ->weight(FontWeight::Bold)
                     ->size('lg'),
                 Tables\Columns\TextColumn::make('email')
@@ -424,6 +470,7 @@ class ListUsers extends ListRecords
                     ->dateTime()
                     ->size('sm'),
             ])->space(2),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 =======
@@ -439,6 +486,8 @@ class ListUsers extends ListRecords
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_ZgWIXX
+=======
+>>>>>>> 0dadab4 (Lint)
         ];
 
         return $this->layout->getTableColumns($listColumns, $gridColumns);
@@ -449,6 +498,7 @@ class ListUsers extends ListRecords
      */
     protected function getHeaderActions(): array
     {
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 <<<<<<< HEAD
 =======
@@ -461,6 +511,8 @@ class ListUsers extends ListRecords
 =======
 >>>>>>> .merge_file_ZgWIXX
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
         return [
             Action::make('toggleLayout')
                 ->action(function () {
@@ -468,6 +520,7 @@ class ListUsers extends ListRecords
                     $this->resetTable();
                 }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 =======
 <<<<<<< HEAD
@@ -479,6 +532,8 @@ class ListUsers extends ListRecords
 ### Vantaggi del nuovo approccio:
 =======
 >>>>>>> .merge_file_ZgWIXX
+=======
+>>>>>>> 0dadab4 (Lint)
         ];
     }
 }
@@ -486,6 +541,7 @@ class ListUsers extends ListRecords
 
 ### Vantaggi del nuovo approccio:
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 <<<<<<< HEAD
 =======
@@ -496,11 +552,14 @@ class ListUsers extends ListRecords
 =======
 >>>>>>> .merge_file_ZgWIXX
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 1. **Type Safety**: Non usa più reflection o debug_backtrace
 2. **Chiarezza**: Esplicito su quali colonne usare per ogni layout
 3. **Testabilità**: Più facile da testare senza dipendenze nascoste
 4. **Performance**: Nessun overhead di debug_backtrace
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 
 ### Breaking Change:
@@ -525,11 +584,17 @@ class ListUsers extends ListRecords
 =======
 >>>>>>> .merge_file_ZgWIXX
 >>>>>>> laraxot/dev
+=======
+
+### Breaking Change:
+
+>>>>>>> 0dadab4 (Lint)
 Il metodo `getTableColumns()` ora richiede due parametri:
 - `$listColumns`: Array delle colonne per layout lista
 - `$gridColumns`: Array delle colonne per layout griglia
 ### Advantages of the New Approach
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 
 =======
@@ -545,6 +610,9 @@ Il metodo `getTableColumns()` ora richiede due parametri:
 
 >>>>>>> .merge_file_ZgWIXX
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 1. **Type Safety**: No longer uses reflection or debug_backtrace
 2. **Clarity**: Explicit about which columns to use for each layout
 3. **Testability**: Easier to test without hidden dependencies
@@ -552,6 +620,7 @@ Il metodo `getTableColumns()` ora richiede due parametri:
 5. **Documentation**: Complete PHPDoc and translations
 6. **Maintainability**: Clean, well-structured code
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 =======
 <<<<<<< HEAD
@@ -566,6 +635,8 @@ The `getTableColumns()` method now requires two parameters:
 ### New Features Added
 =======
 >>>>>>> .merge_file_ZgWIXX
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ### Breaking Change
 
@@ -576,6 +647,7 @@ The `getTableColumns()` method now requires two parameters:
 
 ### New Features Added
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 <<<<<<< HEAD
 =======
@@ -593,11 +665,14 @@ The `getTableColumns()` method now requires two parameters:
 =======
 >>>>>>> .merge_file_ZgWIXX
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 1. **Complete PHPDoc**: All methods now have comprehensive documentation
 2. **Translation Support**: Labels are now translatable via `ui::table-layout.*`
 3. **Additional Methods**: `isListLayout()`, `getOptions()`, `getContainerClasses()`
 4. **Improved Grid Configuration**: Enhanced responsive breakpoints
 5. **Better Color Scheme**: Distinct colors for list (primary) and grid (secondary)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 =======
@@ -614,6 +689,8 @@ The enum now supports multilingual labels through translation files:
 ### Translation Structure
 =======
 >>>>>>> .merge_file_ZgWIXX
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Translation Files
 
@@ -626,6 +703,7 @@ The enum now supports multilingual labels through translation files:
 ### Translation Structure
 
 ```php
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 <<<<<<< HEAD
 =======
@@ -644,6 +722,8 @@ The enum now supports multilingual labels through translation files:
 =======
 >>>>>>> .merge_file_ZgWIXX
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'list' => [
         'label' => 'List',
@@ -654,6 +734,7 @@ return [
         'label' => 'Grid',
         'description' => 'Responsive grid card display',
         'tooltip' => 'Show data in grid format with cards',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 =======
@@ -670,6 +751,8 @@ return [
 ### Methods
 =======
 >>>>>>> .merge_file_ZgWIXX
+=======
+>>>>>>> 0dadab4 (Lint)
     ],
     'toggle' => [
         'label' => 'Toggle Layout',
@@ -682,6 +765,7 @@ return [
 
 ### Methods
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 <<<<<<< HEAD
 =======
@@ -700,6 +784,8 @@ return [
 =======
 >>>>>>> .merge_file_ZgWIXX
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 - `init()`: Returns the default layout (LIST)
 - `getLabel()`: Returns translated label for the layout
 - `getColor()`: Returns color identifier (primary/secondary)
@@ -712,6 +798,7 @@ return [
 - `getOptions()`: Returns all layout options as array
 - `getContainerClasses()`: Returns CSS classes for styling
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 =======
 <<<<<<< HEAD
@@ -725,12 +812,15 @@ The responsive grid configuration includes:
 The responsive grid configuration includes:
 =======
 >>>>>>> .merge_file_ZgWIXX
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ### Grid Configuration
 
 The responsive grid configuration includes:
 
 ```php
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 <<<<<<< HEAD
 =======
@@ -742,6 +832,8 @@ The responsive grid configuration includes:
 =======
 >>>>>>> .merge_file_ZgWIXX
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 [
     'sm' => 1,   // 1 column on small screens
     'md' => 2,   // 2 columns on medium screens
@@ -750,6 +842,7 @@ The responsive grid configuration includes:
     '2xl' => 5,  // 5 columns on 2xl screens
 ]
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 =======
 <<<<<<< HEAD
@@ -766,6 +859,8 @@ $columns = $this->layout->getTableColumns($listColumns, $gridColumns);
 ### Update Your ListRecords Classes
 =======
 >>>>>>> .merge_file_ZgWIXX
+=======
+>>>>>>> 0dadab4 (Lint)
 ```
 
 ## Migration Guide
@@ -782,6 +877,7 @@ $columns = $this->layout->getTableColumns($listColumns, $gridColumns);
 
 ### Update Your ListRecords Classes
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 <<<<<<< HEAD
 =======
@@ -801,10 +897,13 @@ $columns = $this->layout->getTableColumns($listColumns, $gridColumns);
 =======
 >>>>>>> .merge_file_ZgWIXX
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 1. Define separate column arrays for list and grid layouts
 2. Pass both arrays to `getTableColumns()`
 3. Use `getContainerClasses()` for styling
 4. Implement proper toggle actions with new methods
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 
@@ -830,10 +929,16 @@ $columns = $this->layout->getTableColumns($listColumns, $gridColumns);
 
 >>>>>>> .merge_file_ZgWIXX
 >>>>>>> laraxot/dev
+=======
+
+## Related Documentation
+
+>>>>>>> 0dadab4 (Lint)
 - [UI Module Architecture](architecture_rules.md)
 - [Filament Components Guide](components.md)
 - [Translation Standards](translations.md)
 - [Table Components](table-components.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 =======
@@ -848,6 +953,8 @@ $columns = $this->layout->getTableColumns($listColumns, $gridColumns);
                 ->icon($this->layout->getIcon())
 =======
 >>>>>>> .merge_file_ZgWIXX
+=======
+>>>>>>> 0dadab4 (Lint)
 - [HasXotTable Trait](../../xot/docs/has-xot-table.md)
 - [Root Documentation: UI Components](../../../../docs/components/ui-components.md)
 # TableLayoutEnum Usage Guide
@@ -908,6 +1015,7 @@ class ListUsers extends ListRecords
             Action::make('toggleLayout')
                 ->icon($this->layout->getIcon())
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
@@ -922,6 +1030,8 @@ class ListUsers extends ListRecords
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
                 ->action(function () {
                     $this->layout = $this->layout->toggle();
                 }),
@@ -942,6 +1052,7 @@ class ListUsers extends ListRecords
 Il metodo `getTableColumns()` ora richiede due parametri:
 - `$listColumns`: Array delle colonne per layout lista
 - `$gridColumns`: Array delle colonne per layout griglia
+<<<<<<< HEAD
 <<<<<<< .merge_file_1PpiP9
 <<<<<<< HEAD
 =======
@@ -972,3 +1083,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/table-layout
 =======
 >>>>>>> .merge_file_ZgWIXX
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
 <<<<<<< .merge_file_tmOuwE
 
 <<<<<<< HEAD
@@ -9,11 +10,15 @@ declare(strict_types=1);
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 use Modules\UI\Database\Factories\CategoryFactory;
 use Modules\UI\Database\Factories\CollectionFactory;
 use Modules\UI\Models\Category;
 use Modules\UI\Models\Collection;
 
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_PyKFmt
 /*
@@ -38,10 +43,46 @@ use Modules\UI\Models\Collection;
  * - vietata la cartella `tests/Support/` (ADR-002).
  */
 <<<<<<< .merge_file_tmOuwE
+=======
+/*
+ * Bootstrap Pest — modulo UI.
+ * Ogni file test dichiara uses(\Modules\UI\Tests\TestCase::class).
+ * Vietato expect()->extend() / uses()->in() qui (PHPStan method.internalClass).
+ */
+
+/**
+ * @param array<string, mixed> $attributes
+ */
+function createCategory(array $attributes = []): Category
+{
+    return CategoryFactory::new()->createOne($attributes);
+}
+
+/**
+ * @param array<string, mixed> $attributes
+ */
+function makeCategory(array $attributes = []): Category
+{
+    return CategoryFactory::new()->makeOne($attributes);
+}
+
+/**
+ * @param array<string, mixed> $attributes
+ */
+function createCollection(array $attributes = []): Collection
+{
+    return CollectionFactory::new()->createOne($attributes);
+}
+
+/**
+ * @param array<string, mixed> $attributes
+ */
+>>>>>>> 0dadab4 (Lint)
 function makeCollection(array $attributes = []): Collection
 {
     return CollectionFactory::new()->makeOne($attributes);
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -74,3 +115,5 @@ function makeCollection(array $attributes = []): Collection
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_PyKFmt
+=======
+>>>>>>> 0dadab4 (Lint)

@@ -10,6 +10,7 @@ use PHPUnit\Framework\Assert;
 use function Safe\file_get_contents;
 
 uses(TestCase::class);
+<<<<<<< HEAD
 <<<<<<< .merge_file_oBfYcd
 <<<<<<< HEAD
 =======
@@ -34,6 +35,8 @@ uses(TestCase::class);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_7cX4SD
+=======
+>>>>>>> 0dadab4 (Lint)
 
 function sixteenComponentsBasePath(): string
 {
@@ -124,6 +127,7 @@ describe('Component Files Exist', function (): void {
         ));
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ([] !== $legacyPresent) {
 =======
 <<<<<<< HEAD
@@ -136,6 +140,9 @@ describe('Component Files Exist', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        if ([] !== $legacyPresent) {
+>>>>>>> 0dadab4 (Lint)
             Assert::markTestSkipped('Legacy root components still present: '.implode(', ', $legacyPresent));
         }
 

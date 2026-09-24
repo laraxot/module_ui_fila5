@@ -4,6 +4,7 @@ description: Ripristinare cartella vendor
 extends: _layouts.documentation
 section: content
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_abMjZM
 =======
 <<<<<<< HEAD
@@ -32,6 +33,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Liyruh
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 
 # Ripristinare la cartella vendor
@@ -43,6 +46,7 @@ php artisan vendor:publish
 ```
 digitare il numero 0 e premere invio
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 NB: La cartella non la sovrascrive perciò bisogna prima spostarla
 =======
@@ -60,3 +64,6 @@ NB: La cartella non la sovrascrive perciò bisogna prima spostarla
 NB: La cartella non la sovrascrive perciò bisogna prima spostarla
 >>>>>>> .merge_file_Liyruh
 >>>>>>> laraxot/dev
+=======
+NB: La cartella non la sovrascrive perciò bisogna prima spostarla
+>>>>>>> 0dadab4 (Lint)

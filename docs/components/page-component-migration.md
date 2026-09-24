@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_nqsQbu
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_JUl5T0
+=======
+>>>>>>> 0dadab4 (Lint)
 # Migrazione Componenti di Pagina - Modulo UI
 
 ## Panoramica

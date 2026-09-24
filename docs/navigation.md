@@ -36,6 +36,7 @@ $page->navigation
 
 ## Collegamenti tra versioni di navigation.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Zp4XzO
 =======
 <<<<<<< HEAD
@@ -51,12 +52,15 @@ $page->navigation
 * [navigation.md](../../../Cms/docs/components/navigation.md)
 =======
 >>>>>>> .merge_file_bk0uJy
+=======
+>>>>>>> 0dadab4 (Lint)
 * [navigation.md](../../../gdpr/docs/navigation.md)
 * [navigation.md](../../../xot/docs/navigation.md)
 * [navigation.md](../../../ui/docs/navigation.md)
 * [navigation.md](../../../cms/docs/blocks/navigation.md)
 * [navigation.md](../../../cms/docs/navigation.md)
 * [navigation.md](../../../cms/docs/components/navigation.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_Zp4XzO
 <<<<<<< HEAD
 =======
@@ -75,6 +79,8 @@ $page->navigation
 =======
 >>>>>>> .merge_file_bk0uJy
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ### Versione Incoming
 

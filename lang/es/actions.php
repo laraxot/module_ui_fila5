@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_as0K5E
 <<<<<<< HEAD
 =======
@@ -21,6 +22,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_yM88Q0
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'confirm' => 'Confirmar',
     'cancel' => 'Cancelar',

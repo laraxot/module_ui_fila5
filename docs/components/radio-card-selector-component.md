@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jgp3l3
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_xsilmm
+=======
+>>>>>>> 0dadab4 (Lint)
 # RadioCardSelector Component - Modulo UI
 
 ## 🎯 **Panoramica**

@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
 <<<<<<< .merge_file_bvZwVd
 
 =======
@@ -9,6 +10,9 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_LHobsM
 >>>>>>> .merge_file_IHHAyE
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ?>
 <x-filament-forms::field-wrapper
     :id="$getId()"

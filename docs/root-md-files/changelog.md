@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Changelog
 
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
@@ -86,3 +87,8 @@ Tutte le variazioni importanti di UI saranno generate automaticamente da semanti
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+# Changelog
+
+Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
+>>>>>>> 0dadab4 (Lint)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_XpFGMZ
 =======
 <<<<<<< HEAD
@@ -49,6 +50,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_rVyMmv
+=======
+>>>>>>> 0dadab4 (Lint)
 # Bugfix: IconColumn Estende Direttamente Filament Column
 
 **Data Fix**: 11 Novembre 2025

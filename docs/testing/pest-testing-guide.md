@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YCx88q
 =======
 <<<<<<< HEAD
@@ -47,6 +48,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_HKIV4s
+=======
+>>>>>>> 0dadab4 (Lint)
 # Pest Testing Guide - UI Module
 
 ## 🎯 Overview
@@ -379,6 +382,7 @@ Based on existing UI module tests:
 
 ### **Module Documentation**
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YCx88q
 - [UI Module README](../readme.md)
 =======
@@ -397,6 +401,9 @@ Based on existing UI module tests:
 - [UI Module README](../readme.md)
 >>>>>>> .merge_file_HKIV4s
 >>>>>>> laraxot/dev
+=======
+- [UI Module README](../readme.md)
+>>>>>>> 0dadab4 (Lint)
 - [Component Architecture](../components.md)
 - [Theme System](../themes.md)
 

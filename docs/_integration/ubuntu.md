@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AbwGch
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_l5hsO1
+=======
+>>>>>>> 0dadab4 (Lint)
 # ubuntu
 
 <!-- Contenuto migrato da _docs/ubuntu.txt -->

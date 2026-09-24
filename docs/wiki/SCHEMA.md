@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kjrjlB
 =======
 <<<<<<< HEAD
@@ -18,6 +19,8 @@ tags: [merge, duplicato, case-only]
 Questo file era un duplicato esatto che differiva solo per maiuscole/minuscole, in violazione della regola no-case-only-variations. Il contenuto canonico si trova in [schema.md](./schema.md).
 =======
 >>>>>>> .merge_file_ibZbu5
+=======
+>>>>>>> 0dadab4 (Lint)
 title: Wiki Schema
 description: Schema e convenzioni per la manutenzione della wiki
 tags:
@@ -29,6 +32,7 @@ created: 2026-04-15
 
 # Wiki Schema - UI
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -49,6 +53,8 @@ Questo file era un duplicato esatto che differiva solo per maiuscole/minuscole, 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 Istruzioni per l'LLM su come mantenere questa wiki.
 
 ## Struttura
@@ -59,6 +65,7 @@ docs/
 │   ├── index.md           # Catalogo
 │   ├── log.md             # Registro
 <<<<<<< HEAD
+<<<<<<< HEAD
 │   ├── SCHEMA.md          # Questo file
 =======
 <<<<<<< HEAD
@@ -76,6 +83,9 @@ docs/
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+│   ├── SCHEMA.md          # Questo file
+>>>>>>> 0dadab4 (Lint)
 │   ├── concepts/          # Pattern, architettura
 │   ├── entities/          # Modelli, azioni
 │   ├── sources/           # Doc esterna
@@ -89,6 +99,7 @@ docs/
 - Frontmatter: title, description, tags, created
 - Cross-ref: `[Link](../concepts/name.md)`
 - NON modificare mai `docs/raw/`
+<<<<<<< HEAD
 <<<<<<< .merge_file_kjrjlB
 <<<<<<< HEAD
 =======
@@ -102,3 +113,5 @@ docs/
 =======
 >>>>>>> .merge_file_ibZbu5
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_gz8Vv4
 =======
 <<<<<<< HEAD
@@ -51,6 +52,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_54HEeS
+=======
+>>>>>>> 0dadab4 (Lint)
 # Integrazione dei Componenti Filament nei Blocchi
 
 ## Introduzione

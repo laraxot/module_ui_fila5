@@ -6,6 +6,7 @@ canonical: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SbkXCl
 =======
 <<<<<<< HEAD
@@ -37,3 +38,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLI
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_q6ahf0
+=======
+>>>>>>> 0dadab4 (Lint)

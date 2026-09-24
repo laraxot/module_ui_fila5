@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Widgets;
 
 use Filament\Support\RawJs;
+<<<<<<< HEAD
 <<<<<<< .merge_file_QfkNcx
 <<<<<<< HEAD
 =======
@@ -33,6 +34,11 @@ use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
 
 final class TestChartWidget extends XotBaseChartWidget
 >>>>>>> .merge_file_ZvFKqt
+=======
+use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
+
+final class TestChartWidget extends XotBaseChartWidget
+>>>>>>> 0dadab4 (Lint)
 {
     public int $qid = 0;
 
@@ -77,6 +83,7 @@ final class TestChartWidget extends XotBaseChartWidget
 
     protected function getOptions(): RawJs
     {
+<<<<<<< HEAD
 <<<<<<< .merge_file_QfkNcx
 <<<<<<< HEAD
 =======
@@ -94,6 +101,8 @@ final class TestChartWidget extends XotBaseChartWidget
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_ZvFKqt
+=======
+>>>>>>> 0dadab4 (Lint)
         return RawJs::make(<<<'JS'
             {
                 scales: {
@@ -105,6 +114,7 @@ final class TestChartWidget extends XotBaseChartWidget
                 },
             }
         JS);
+<<<<<<< HEAD
 <<<<<<< .merge_file_QfkNcx
 <<<<<<< HEAD
 =======
@@ -113,5 +123,7 @@ final class TestChartWidget extends XotBaseChartWidget
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_ZvFKqt
+=======
+>>>>>>> 0dadab4 (Lint)
     }
 }

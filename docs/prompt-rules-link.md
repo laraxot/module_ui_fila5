@@ -1,6 +1,7 @@
 # Regole per i Prompt
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dDhFiT
 Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../../xot/docs/prompt_rules.md)
 =======
@@ -119,11 +120,15 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../../xot/docs/prompt_rules.md)
+>>>>>>> 0dadab4 (Lint)
 ### Versione HEAD
 
 ### Versione Incoming
 
 ## Collegamenti tra versioni di PROMPT_RULES_LINK.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -133,6 +138,8 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 =======
 =======
 >>>>>>> .merge_file_OBv5Pj
+=======
+>>>>>>> 0dadab4 (Lint)
 * [PROMPT_RULES_LINK.md](../../../ui/docs/prompt_rules_link.md)
 * [PROMPT_RULES_LINK.md](../../../lang/docs/prompt_rules_link.md)
 * [PROMPT_RULES_LINK.md](../../../cms/docs/prompt_rules_link.md)
@@ -158,6 +165,7 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 * [prompt_rules_link.md](../../lang/docs/prompt_rules_link.md)
 * [prompt_rules_link.md](../../cms/docs/prompt_rules_link.md)
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 ---
 <<<<<<< HEAD
@@ -220,3 +228,6 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+---
+>>>>>>> 0dadab4 (Lint)

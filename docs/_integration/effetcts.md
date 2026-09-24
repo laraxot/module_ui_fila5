@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cxgLix
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_rmTtGI
+=======
+>>>>>>> 0dadab4 (Lint)
 # effetcts
 
 <!-- Contenuto migrato da _docs/effetcts.txt -->

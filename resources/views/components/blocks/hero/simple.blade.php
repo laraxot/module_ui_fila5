@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_OXmyUC
 <<<<<<< HEAD
 =======
@@ -34,6 +35,12 @@
 <?php
 
 declare(strict_types=1);
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> 0dadab4 (Lint)
 ?>
 @props([
     'title' => 'title 1',

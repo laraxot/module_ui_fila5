@@ -1,12 +1,15 @@
 # Analisi Errori PHPStan - Modulo UI
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 **Data**: 2025-12-23
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 **Modulo**: UI
 **Livello PHPStan**: max
 **Status**: ✅ Corretto (0 errori)

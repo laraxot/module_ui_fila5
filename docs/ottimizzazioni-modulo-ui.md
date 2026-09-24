@@ -345,6 +345,7 @@ echo "✅ Consolidamento completato!"
 
 ### Documentazione Correlata
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_IBYfeu
 - [README](../readme.md) - Panoramica modulo UI
 =======
@@ -363,10 +364,14 @@ echo "✅ Consolidamento completato!"
 - [README](../readme.md) - Panoramica modulo UI
 >>>>>>> .merge_file_QzjW4V
 >>>>>>> laraxot/dev
+=======
+- [README](../readme.md) - Panoramica modulo UI
+>>>>>>> 0dadab4 (Lint)
 - [Architettura](./core/architecture.md) - Architettura modulo
 - [Convenzioni](./core/conventions.md) - Convenzioni unificate
 
 ### Documentazione Root
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_IBYfeu
 =======
@@ -387,6 +392,8 @@ echo "✅ Consolidamento completato!"
 **Ultimo aggiornamento:** 2025-01-06
 =======
 >>>>>>> .merge_file_QzjW4V
+=======
+>>>>>>> 0dadab4 (Lint)
 - [docs/ottimizzazioni-sistema.md](../../../../docs/ottimizzazioni-sistema.md) - Ottimizzazioni sistema generale
 - [docs/architettura-moduli.md](../../../../docs/architettura-moduli.md) - Architettura moduli
 
@@ -396,6 +403,7 @@ echo "✅ Consolidamento completato!"
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_IBYfeu
 <<<<<<< HEAD
 =======
@@ -418,6 +426,8 @@ echo "✅ Consolidamento completato!"
 =======
 >>>>>>> .merge_file_QzjW4V
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 **Stato:** In implementazione
 **Responsabile:** Team Sviluppo UI
 **Priorità:** ALTA (duplicazioni massive identificate)

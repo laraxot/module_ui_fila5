@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Vg0GXG
 =======
 <<<<<<< HEAD
@@ -21,6 +22,8 @@ Il metodo `icon()` **NON esiste** sul componente `Filament\Forms\Components\File
 - `TextInput`, `Select`, `DatePicker`, `TimePicker` **(supportano)**
 =======
 >>>>>>> .merge_file_MGMUvJ
+=======
+>>>>>>> 0dadab4 (Lint)
 # Errore: Metodo `icon()` su FileUpload di Filament
 
 ## Descrizione
@@ -30,6 +33,7 @@ Il metodo `icon()` **NON esiste** sul componente `Filament\Forms\Components\File
 - `FileUpload` **(non supporta)**
 - `TextInput`, `Select`, `DatePicker`, `TimePicker` **(supportano)**
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_Vg0GXG
 <<<<<<< HEAD
 =======
@@ -85,10 +89,13 @@ Il metodo `icon()` **NON esiste** sul componente `Filament\Forms\Components\File
 =======
 >>>>>>> .merge_file_MGMUvJ
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ## Soluzione
 - **Non usare mai** `->icon()` su FileUpload.
 - Se serve un'icona, implementare una soluzione custom (ad esempio via slot Blade o CSS personalizzato).
 - Per le icone su altri componenti, usare solo dove documentato nell'API ufficiale.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Vg0GXG
 =======
@@ -110,6 +117,8 @@ Il metodo `icon()` **NON esiste** sul componente `Filament\Forms\Components\File
 * [filament-error-fileupload-icon.md](../../Patient/project_docs/filament-error-fileupload-icon.md)
 =======
 >>>>>>> .merge_file_MGMUvJ
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Best Practice
 - Consultare sempre la [documentazione ufficiale Filament](https://filamentphp.com/docs/3.x/forms/fields/file-upload) prima di usare metodi non standard.
@@ -145,6 +154,7 @@ Il metodo `icon()` **NON esiste** sul componente `Filament\Forms\Components\File
 
 ## Collegamenti tra versioni di filament-error-fileupload-icon.md
 * [filament-error-fileupload-icon.md](../../patient/project_docs/filament-error-fileupload-icon.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_Vg0GXG
 <<<<<<< HEAD
 =======
@@ -182,3 +192,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/filament-err
 =======
 >>>>>>> .merge_file_MGMUvJ
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

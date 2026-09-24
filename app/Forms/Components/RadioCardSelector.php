@@ -34,12 +34,16 @@ class RadioCardSelector extends XotBaseField
     /**
      * Imposta le card disponibili per la selezione.
      *
+<<<<<<< HEAD
      * <<<<<<< HEAD
      *
      * @param array<int, array<string, mixed>>|\Closure $cards
      *                                                         =======
      * @param array<int, array<string, mixed>>|\Closure $cards
      *                                                         >>>>>>> laraxot/dev
+=======
+     * @param array<int, array<string, mixed>>|\Closure $cards
+>>>>>>> 0dadab4 (Lint)
      */
     public function cards(array|\Closure $cards): static
     {
@@ -123,6 +127,7 @@ class RadioCardSelector extends XotBaseField
     }
 
     /**
+<<<<<<< HEAD
      * <<<<<<< .merge_file_SO8J2m
      * <<<<<<< HEAD.
      *
@@ -146,6 +151,9 @@ class RadioCardSelector extends XotBaseField
      *
      * >>>>>>> laraxot/dev
      * >>>>>>> .merge_file_Zu5Anh
+=======
+     * @param array<mixed, mixed> $item
+>>>>>>> 0dadab4 (Lint)
      *
      * @return array<string, mixed>
      */

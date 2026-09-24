@@ -28,6 +28,7 @@ Il modulo UI non dovrebbe avere modelli - è dedicato a componenti di interfacci
 
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_hVZUyf
 =======
 <<<<<<< HEAD
@@ -43,3 +44,5 @@ Il modulo UI non dovrebbe avere modelli - è dedicato a componenti di interfacci
 =======
 >>>>>>> .merge_file_naxY1c
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

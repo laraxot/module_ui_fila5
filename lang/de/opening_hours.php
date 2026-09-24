@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_8XunuH
 <<<<<<< HEAD
 =======
@@ -21,6 +22,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Qyf3Ww
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'instructions' => [
         'title' => 'Öffnungszeiten Konfiguration',

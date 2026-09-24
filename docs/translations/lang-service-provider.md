@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_PEujEY
 =======
 <<<<<<< HEAD
@@ -47,6 +48,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MxfUu7
+=======
+>>>>>>> 0dadab4 (Lint)
 # Gestione delle Traduzioni con LangServiceProvider
 
 ## Collegamenti Bidirezionali
@@ -175,6 +178,7 @@ return [
 // Modules/Patient/Filament/Resources/DoctorResource.php
 public static function getFormSchema(): array
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_PEujEY
 =======
 <<<<<<< HEAD
@@ -190,6 +194,8 @@ public function getFormSchema(): array
 =======
 >>>>>>> .merge_file_MxfUu7
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 {
     return [
         Forms\Components\TextInput::make('first_name'),  // La label viene gestita automaticamente

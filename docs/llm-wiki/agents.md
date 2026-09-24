@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ue7IAj
 =======
 <<<<<<< HEAD
@@ -153,6 +154,8 @@ Related:
 ## Contenuto assorbito da `agents.md`
 =======
 >>>>>>> .merge_file_TgaoYF
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 title: "Agent instructions"
 type: reference
@@ -165,6 +168,7 @@ discussions: []
 related:
   - ./coding-agent-manifests.md
 ---
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 
 <<<<<<< HEAD
@@ -351,6 +355,9 @@ Related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 # UI {{TYPE^}} LLM Wiki Agent Instructions
 
 > **Module/Theme:** UI
@@ -490,6 +497,7 @@ Related:
 
 - [Project Wiki Integration](../../docs/wiki/README.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
 - [Module Documentation](../README.md)
 =======
@@ -530,3 +538,7 @@ Related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
+- [Module Documentation](../README.md)
+>>>>>>> 0dadab4 (Lint)

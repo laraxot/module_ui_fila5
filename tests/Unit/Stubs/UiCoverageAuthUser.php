@@ -12,15 +12,19 @@ use Illuminate\Support\Collection;
  */
 final class UiCoverageAuthUser extends AuthenticatableUser
 {
+<<<<<<< HEAD
 <<<<<<< .merge_file_No0RQY
 =======
 <<<<<<< .merge_file_E3LYIR
 >>>>>>> .merge_file_i6sbIH
+=======
+>>>>>>> 0dadab4 (Lint)
     public mixed $profile = null;
 <<<<<<< HEAD
 =======
 
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_No0RQY
 =======
 =======
@@ -28,27 +32,35 @@ final class UiCoverageAuthUser extends AuthenticatableUser
 
 >>>>>>> .merge_file_14fUIj
 >>>>>>> .merge_file_i6sbIH
+=======
+>>>>>>> 0dadab4 (Lint)
     public function relationLoaded($key): bool
     {
         if (! is_string($key)) {
             return false;
         }
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_No0RQY
 =======
 <<<<<<< .merge_file_E3LYIR
 >>>>>>> .merge_file_i6sbIH
+=======
+>>>>>>> 0dadab4 (Lint)
 <<<<<<< HEAD
         return $key === 'profile' && $this->profile !== null;
 =======
         return 'profile' === $key && null !== $this->profile;
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_No0RQY
 =======
 =======
         return 'profile' === $key && null !== $this->profile;
 >>>>>>> .merge_file_14fUIj
 >>>>>>> .merge_file_i6sbIH
+=======
+>>>>>>> 0dadab4 (Lint)
     }
 
     /**
@@ -58,18 +70,24 @@ final class UiCoverageAuthUser extends AuthenticatableUser
     {
         return collect(['admin']);
     }
+<<<<<<< HEAD
 <<<<<<< .merge_file_No0RQY
 =======
 <<<<<<< .merge_file_E3LYIR
 >>>>>>> .merge_file_i6sbIH
+=======
+>>>>>>> 0dadab4 (Lint)
 <<<<<<< HEAD
 }
 =======
 }
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_No0RQY
 =======
 =======
 }
 >>>>>>> .merge_file_14fUIj
 >>>>>>> .merge_file_i6sbIH
+=======
+>>>>>>> 0dadab4 (Lint)

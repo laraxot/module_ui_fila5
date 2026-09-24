@@ -108,6 +108,7 @@
             "",
             "    public static function getFormSchema(): array",
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 =======
 <<<<<<< HEAD
@@ -123,6 +124,8 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
             "    {",
             "        return [",
             "            $0",
@@ -148,6 +151,7 @@
             "request": "launch",
             "port": 9003,
             "pathMappings": {
+<<<<<<< HEAD
 <<<<<<< HEAD
                 "/ tasks.json
 <<<<<<< .merge_file_o7LEDS
@@ -215,6 +219,9 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
+=======
+                "/ tasks.json
+>>>>>>> 0dadab4 (Lint)
 {
     "version": "2.0.0",
     "tasks": [
@@ -236,6 +243,7 @@
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 =======
 <<<<<<< HEAD
@@ -256,6 +264,8 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ## Best Practices
 
 ### 1. Organizzazione Workspace
@@ -329,6 +339,7 @@
 - [VSCode Documentation](https://code.visualstudio.com/docs)
 - [PHP Intelephense](https://intelephense.com)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -373,6 +384,13 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
+=======
+- [Filament Documentation](https://filamentphp.com/docs)
+# Configurazione VSCode per PHP e Filament
+
+## Estensioni Essenziali
+
+>>>>>>> 0dadab4 (Lint)
 ### 1. PHP
 - PHP Intelephense
 - PHP Debug
@@ -381,6 +399,7 @@
 - PHP Constructor
 - Better PHPUnit
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 
 =======
@@ -396,12 +415,16 @@
 
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ### 2. Filament
 - Filament PHP
 - Laravel Blade Formatter
 - Laravel Blade Snippets
 - Laravel Extra Intellisense
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 
 =======
@@ -417,6 +440,9 @@
 
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ### 3. Utilità
 - Git Lens
 - Git History
@@ -424,6 +450,7 @@
 - DotENV
 - Error Lens
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 
 ## Configurazione PHP
@@ -448,6 +475,11 @@
 
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
+=======
+
+## Configurazione PHP
+
+>>>>>>> 0dadab4 (Lint)
 ```json
 // settings.json
 {
@@ -465,6 +497,7 @@
     "intelephense.diagnostics.undefinedProperties": false,
     "intelephense.diagnostics.undefinedVariables": false,
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 
 =======
@@ -480,6 +513,9 @@
 
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
     // PHP DocBlocker
     "php-docblocker.useShortNames": true,
     "php-docblocker.qualifyClassNames": true,
@@ -488,6 +524,7 @@
         "email": "dev@<nome progetto>.com"
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 
 =======
@@ -503,6 +540,9 @@
 
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
     // PHP Format
     "php.suggest.basic": false,
     "php.validate.enable": false,
@@ -517,6 +557,7 @@
 }
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 =======
 <<<<<<< HEAD
@@ -528,12 +569,15 @@
 ## Configurazione Filament
 =======
 >>>>>>> .merge_file_Zi4meD
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Configurazione Filament
 
 ```json
 // settings.json
 {
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 <<<<<<< HEAD
 =======
@@ -544,6 +588,8 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
     // Filament Plugin
     "filamentphp.snippets.enabled": true,
     "filamentphp.validation.enabled": true,
@@ -551,6 +597,7 @@
     "filamentphp.format.enabled": true,
     "editor.snippetSuggestions": "top",
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 
 =======
@@ -566,10 +613,14 @@
 
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
     // Blade
     "[blade]": {
         "editor.defaultFormatter": "shufo.vscode-blade-formatter",
         "editor.formatOnSave": true
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 =======
@@ -584,6 +635,8 @@
 // filament.code-snippets
 =======
 >>>>>>> .merge_file_Zi4meD
+=======
+>>>>>>> 0dadab4 (Lint)
     },
     "bladeFormatter.format.sortTailwindcssClasses": true,
     "bladeFormatter.format.sortHtmlAttributes": "alphabetical"
@@ -595,6 +648,7 @@
 ```json
 // filament.code-snippets
 {
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 <<<<<<< HEAD
 =======
@@ -611,6 +665,8 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
     "Filament Resource": {
         "prefix": "fil-resource",
         "body": [
@@ -618,6 +674,7 @@
             "",
             "namespace ${1:Namespace};",
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 =======
 <<<<<<< HEAD
@@ -635,6 +692,8 @@
             "    public function getFormSchema(): array",
 =======
 >>>>>>> .merge_file_Zi4meD
+=======
+>>>>>>> 0dadab4 (Lint)
             "",
             "use Modules\\\\Xot\\\\Filament\\\\Resources\\\\XotBaseResource;",
             "use Filament\\\\Forms;",
@@ -645,6 +704,7 @@
             "    protected static ?string \\$model = ${2:Name}::class;",
             "",
             "    public static function getFormSchema(): array",
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 <<<<<<< HEAD
 =======
@@ -665,6 +725,8 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
             "    {",
             "        return [",
             "            $0",
@@ -674,6 +736,7 @@
             ""
         ]
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 =======
 <<<<<<< HEAD
@@ -687,6 +750,8 @@
 // launch.json
 =======
 >>>>>>> .merge_file_Zi4meD
+=======
+>>>>>>> 0dadab4 (Lint)
     }
 }
 ```
@@ -696,6 +761,7 @@
 ```json
 // launch.json
 {
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 <<<<<<< HEAD
 =======
@@ -707,6 +773,8 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
     "version": "0.2.0",
     "configurations": [
         {
@@ -717,6 +785,7 @@
             "pathMappings": {
                 "/ tasks.json
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 =======
 <<<<<<< HEAD
@@ -730,10 +799,13 @@
     "tasks": [
 =======
 >>>>>>> .merge_file_Zi4meD
+=======
+>>>>>>> 0dadab4 (Lint)
 {
     "version": "2.0.0",
     "tasks": [
         {
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 <<<<<<< HEAD
 =======
@@ -745,6 +817,8 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
             "label": "Run PHPUnit Test",
             "type": "shell",
             "command": "./vendor/bin/phpunit ${file}",
@@ -757,6 +831,7 @@
                 "panel": "new"
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 =======
 <<<<<<< HEAD
@@ -770,6 +845,8 @@
 ## Best Practices
 =======
 >>>>>>> .merge_file_Zi4meD
+=======
+>>>>>>> 0dadab4 (Lint)
         }
     ]
 }
@@ -777,6 +854,7 @@
 
 ## Best Practices
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 <<<<<<< HEAD
 =======
@@ -788,6 +866,8 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ### 1. Organizzazione Workspace
 ```plaintext
 .vscode/
@@ -798,6 +878,7 @@
     ├── php.code-snippets
     └── filament.code-snippets
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 =======
 <<<<<<< HEAD
@@ -809,10 +890,13 @@
 ### 2. Keybindings Consigliati
 =======
 >>>>>>> .merge_file_Zi4meD
+=======
+>>>>>>> 0dadab4 (Lint)
 ```
 
 ### 2. Keybindings Consigliati
 ```json
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 <<<<<<< HEAD
 =======
@@ -823,12 +907,15 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 // keybindings.json
 [
     {
         "key": "ctrl+shift+i",
         "command": "namespaceResolver.import",
         "when": "editorTextFocus"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 =======
@@ -843,6 +930,8 @@
 ### 3. Workspace Esclusioni
 =======
 >>>>>>> .merge_file_Zi4meD
+=======
+>>>>>>> 0dadab4 (Lint)
     },
     {
         "key": "ctrl+shift+s",
@@ -856,6 +945,7 @@
 ```json
 // settings.json
 {
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 <<<<<<< HEAD
 =======
@@ -872,11 +962,14 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
     "files.exclude": {
         "vendor/": true,
         "node_modules/": true,
         ".phpunit.cache/": true,
         "bootstrap/cache/": true
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 =======
@@ -892,6 +985,8 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Zi4meD
+=======
+>>>>>>> 0dadab4 (Lint)
     },
     "search.exclude": {
         "vendor/": true,
@@ -902,6 +997,7 @@
 
 ## Troubleshooting
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 <<<<<<< HEAD
 =======
@@ -914,11 +1010,14 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ### 1. Performance
 - Disabilita estensioni non necessarie
 - Aumenta memoria disponibile per VSCode
 - Usa workspace esclusioni
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 
 =======
@@ -934,11 +1033,15 @@
 
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ### 2. Debug
 - Verifica configurazione Xdebug
 - Controlla mappatura path
 - Usa Error Lens per debug visuale
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 
 =======
@@ -954,11 +1057,15 @@
 
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ### 3. Intellisense
 - Rigenera index Intelephense
 - Verifica configurazione namespace
 - Controlla file composer.json
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 
 =======
@@ -974,11 +1081,15 @@
 
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ## Collegamenti
 - [VSCode Filament Plugin](vscode-filament-plugin.md)
 - [Development Tools](development-tools.md)
 - [Coding Standards](coding-standards.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 
 =======
@@ -994,10 +1105,14 @@
 
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ## Vedi Anche
 - [VSCode Documentation](https://code.visualstudio.com/docs)
 - [PHP Intelephense](https://intelephense.com)
 - [Filament Documentation](https://filamentphp.com/docs)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_o7LEDS
 =======
@@ -1194,3 +1309,5 @@
 =======
 >>>>>>> .merge_file_Zi4meD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

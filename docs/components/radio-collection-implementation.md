@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_PDJNCJ
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_FNLajK
+=======
+>>>>>>> 0dadab4 (Lint)
 # RadioCollection Component - Implementation Guide
 
 ## Overview
@@ -280,6 +283,7 @@ RadioCollection::make('studio_id')
 
 - [UI Module Overview](../ui.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_PDJNCJ
 - [Filament Form Components](../filament/filament_components_usage.md)
 =======
@@ -298,6 +302,9 @@ RadioCollection::make('studio_id')
 - [Filament Form Components](../filament/filament_components_usage.md)
 >>>>>>> .merge_file_FNLajK
 >>>>>>> laraxot/dev
+=======
+- [Filament Form Components](../filament/filament_components_usage.md)
+>>>>>>> 0dadab4 (Lint)
 - [Radio Collection Philosophy](./radio-collection-philosophy.md)
 
 ## Change Log

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_T424yF
 =======
 <<<<<<< HEAD
@@ -57,6 +58,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_mEB7yk
+=======
+>>>>>>> 0dadab4 (Lint)
 # Task: UI Filament v5 \u0026 Tailwind v4 Alignment
 
 ## 📋 Obiettivo

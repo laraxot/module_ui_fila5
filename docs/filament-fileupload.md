@@ -90,6 +90,7 @@ return [
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o6y9jC
 =======
 <<<<<<< HEAD
@@ -106,11 +107,17 @@ return [
 - [Form Components](../../patient/docs/filament-form-components.md)
 - [Best Practices](../../xot/docs/filament-best-practices.md)
 >>>>>>> laraxot/dev
+=======
+- [Translation System](../../lang/docs/translation-system.md)
+- [Form Components](../../patient/docs/filament-form-components.md)
+- [Best Practices](../../xot/docs/filament-best-practices.md)
+>>>>>>> 0dadab4 (Lint)
 
 ## Vedi Anche
 - [Filament File Upload](https://filamentphp.com/docs/forms/fields/file-upload)
 - [Laravel File Storage](https://laravel.com/docs/filesystem)
 # FileUpload Component in Filament
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## Metodi Disponibili
 =======
@@ -154,6 +161,11 @@ return [
 =======
 >>>>>>> .merge_file_71R8j0
 >>>>>>> laraxot/dev
+=======
+
+## Metodi Disponibili
+
+>>>>>>> 0dadab4 (Lint)
 ### Configurazione Base
 ```php
 FileUpload::make('document')
@@ -164,6 +176,7 @@ FileUpload::make('document')
     ->maxSize(10240)
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o6y9jC
 =======
 <<<<<<< HEAD
@@ -175,10 +188,13 @@ FileUpload::make('document')
 ### UI/UX
 =======
 >>>>>>> .merge_file_71R8j0
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ### UI/UX
 ```php
 FileUpload::make('document')
+<<<<<<< HEAD
 <<<<<<< .merge_file_o6y9jC
 <<<<<<< HEAD
 =======
@@ -189,6 +205,8 @@ FileUpload::make('document')
 =======
 >>>>>>> .merge_file_71R8j0
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
     ->downloadable()
     ->previewable()
     ->imagePreviewHeight('250')
@@ -198,6 +216,7 @@ FileUpload::make('document')
     ->removeUploadedFileButtonPosition('right')
     ->uploadProgressIndicatorPosition('right')
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o6y9jC
 =======
 <<<<<<< HEAD
@@ -215,6 +234,8 @@ FileUpload::make('document')
     ->label('Documento') // Non usare label() direttamente
 =======
 >>>>>>> .merge_file_71R8j0
+=======
+>>>>>>> 0dadab4 (Lint)
 ```
 
 ## ⚠️ Errori Comuni
@@ -241,6 +262,7 @@ FileUpload::make('document')
 
 ✅ **FARE**:
 ```php
+<<<<<<< HEAD
 <<<<<<< .merge_file_o6y9jC
 <<<<<<< HEAD
 =======
@@ -261,6 +283,8 @@ FileUpload::make('document')
 =======
 >>>>>>> .merge_file_71R8j0
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 // Usa il file di traduzione invece
 // lang/it/resource.php
 return [
@@ -273,6 +297,7 @@ return [
     ],
 ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o6y9jC
 =======
 <<<<<<< HEAD
@@ -284,10 +309,13 @@ return [
 ## Best Practices
 =======
 >>>>>>> .merge_file_71R8j0
+=======
+>>>>>>> 0dadab4 (Lint)
 ```
 
 ## Best Practices
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_o6y9jC
 <<<<<<< HEAD
 =======
@@ -298,12 +326,15 @@ return [
 =======
 >>>>>>> .merge_file_71R8j0
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 1. **Sicurezza**
    - Limita sempre i tipi di file accettati
    - Imposta una dimensione massima appropriata
    - Usa directory specifiche per tipo di file
    - Implementa validazione server-side
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o6y9jC
 
 =======
@@ -319,12 +350,16 @@ return [
 
 >>>>>>> .merge_file_71R8j0
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 2. **Performance**
    - Ottimizza le dimensioni dei file
    - Usa disk appropriati per lo storage
    - Implementa gestione errori
    - Fornisci feedback di progresso
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o6y9jC
 
 =======
@@ -340,12 +375,16 @@ return [
 
 >>>>>>> .merge_file_71R8j0
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 3. **UX**
    - Usa icone appropriate
    - Fornisci preview quando possibile
    - Mostra messaggi di errore chiari
    - Implementa drag & drop
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_o6y9jC
 
 =======
@@ -361,11 +400,15 @@ return [
 
 >>>>>>> .merge_file_71R8j0
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 4. **Manutenibilità**
    - Usa costanti per configurazioni comuni
    - Centralizza la logica di upload
    - Documenta requisiti specifici
    - Segui le convenzioni di naming
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_o6y9jC
 =======
@@ -380,16 +423,22 @@ return [
 - [Best Practices](../../Xot/project_docs/filament-best-practices.md)
 =======
 >>>>>>> .merge_file_71R8j0
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Collegamenti
 - [Translation System](../../lang/project_docs/translation-system.md)
 - [Form Components](../../patient/project_docs/filament-form-components.md)
 - [Best Practices](../../xot/project_docs/filament-best-practices.md)
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Vedi Anche
 - [Filament File Upload](https://filamentphp.com/project_docs/forms/fields/file-upload)
 - [Laravel File Storage](https://laravel.com/project_docs/filesystem)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -443,3 +492,5 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

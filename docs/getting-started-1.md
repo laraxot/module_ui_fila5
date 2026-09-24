@@ -85,6 +85,7 @@ npm run dev
 * [getting-started.md](../../../Cms/docs/getting-started.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -96,6 +97,8 @@ npm run dev
 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ### Versione Incoming
 
 ---

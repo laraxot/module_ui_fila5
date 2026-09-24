@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_9rXdKS
 <<<<<<< HEAD
 =======
@@ -21,6 +22,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_RdbH54
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'attributes' => [
         'external-link' => 'Link externo',

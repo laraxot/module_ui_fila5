@@ -6,6 +6,7 @@ created: "2026-04-29T00:00:00Z"
 updated: "2026-04-29T00:00:00Z"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_wSdQ4s
   - "[[UI Operating Model]]"
 =======
@@ -34,6 +35,9 @@ related:
   - "[[UI Operating Model]]"
 >>>>>>> .merge_file_IkXbEf
 >>>>>>> laraxot/dev
+=======
+  - "[[UI Operating Model]]"
+>>>>>>> 0dadab4 (Lint)
 ---
 
 # Context Compression Setup
@@ -92,6 +96,7 @@ qmd query "$1" -c wiki --limit 3 > compressed_result.md
 
 # Estrai keyword principali
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_wSdQ4s
 qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
 =======
@@ -137,6 +142,9 @@ qmd search "$1" -c project-docs | head -5 > keywords.txt
 qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_IkXbEf
+=======
+qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
+>>>>>>> 0dadab4 (Lint)
 
 # Genera sommario
 qmd multi-get $(qmd search "$1" -c main_docs | head -10) | awk '/^# / {print; getline; print; print ""}' > summary.md

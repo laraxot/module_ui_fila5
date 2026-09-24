@@ -266,6 +266,7 @@ php artisan test --filter=Xot
 # Check for any new errors
 ./vendor/bin/phpstan analyse Modules
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -273,3 +274,5 @@ php artisan test --filter=Xot
 ```
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

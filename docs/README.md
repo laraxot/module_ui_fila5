@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_D2S9oh
 =======
 <<<<<<< HEAD
@@ -146,6 +147,8 @@ Documentation should be:
 =======
 >>>>>>> .merge_file_9fLzuH
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 title: "UI Module Documentation"
 type: documentation
@@ -155,6 +158,7 @@ updated: 2026-06-05
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -163,6 +167,8 @@ updated: 2026-06-05
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 # Modulo UI - Componenti Condivisi
 
 ## Overview
@@ -170,6 +176,7 @@ updated: 2026-06-05
 Il modulo **UI** fornisce componenti Blade, widget Filament e asset condivisi per tutti i moduli e temi.
 
 ## Struttura Componenti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_D2S9oh
 =======
@@ -204,6 +211,8 @@ This directory contains documentation for the module.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9fLzuH
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ```
 resources/views/components/ui/
@@ -258,6 +267,7 @@ resources/views/components/ui/
 ## AI Workflows
 - [AI Methodologies](./ai-methodologies.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_D2S9oh
 ||||||| parent of 9a84589 (.)
 =======
@@ -270,6 +280,9 @@ resources/views/components/ui/
 ||||||| parent of 9a84589 (.)
 >>>>>>> .merge_file_9fLzuH
 >>>>>>> laraxot/dev
+=======
+||||||| parent of 9a84589 (.)
+>>>>>>> 0dadab4 (Lint)
     case LIST = 'list';
     case GRID = 'grid';
 
@@ -311,6 +324,7 @@ Workflow: `.github/workflows/semantic-versioning.yml`
 MIT
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_D2S9oh
 
 =======
@@ -323,6 +337,9 @@ MIT
 
 >>>>>>> .merge_file_9fLzuH
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ## Standard Rules & Workflow
 
 - [[BMAD Method](../../../../docs/wiki/concepts/bmad-method.md)]
@@ -331,6 +348,7 @@ MIT
 
 ## Documentation
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_D2S9oh
 - [On-Demand Pattern](./ON-DEMAND-PATTERN.md) — Pattern per caricamento efficiente
@@ -2441,3 +2459,9 @@ L'ecosistema ha 40+ moduli che condividono l'interfaccia admin. Senza un design 
 =======
 >>>>>>> .merge_file_9fLzuH
 >>>>>>> laraxot/dev
+=======
+- [On-Demand Pattern](./ON-DEMAND-PATTERN.md) — Pattern per caricamento efficiente
+- [QMD Setup](./QMD-SETUP.md) — Configurazione ricerca locale
+- [Performance](./PERFORMANCE-OPTIMIZATION.md) — Metriche e best practice
+- [Project Structure](./PROJECT-STRUCTURE.md) — Directory layout
+>>>>>>> 0dadab4 (Lint)

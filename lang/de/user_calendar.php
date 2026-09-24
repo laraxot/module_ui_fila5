@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_6ngweC
 <<<<<<< HEAD
 =======
@@ -41,6 +42,9 @@ return [
 =======
 return [
 >>>>>>> .merge_file_euOjuu
+=======
+return [
+>>>>>>> 0dadab4 (Lint)
     'months' => [
         'long' => [
             0 => 'Gennaio',

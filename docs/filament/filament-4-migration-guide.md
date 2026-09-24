@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_yjDqQv
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_n1EXjg
+=======
+>>>>>>> 0dadab4 (Lint)
 # Filament 4 Migration Guide
 
 ## Overview

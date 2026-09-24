@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4dk9fk
 =======
 <<<<<<< HEAD
@@ -52,6 +53,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_p3embN
+=======
+>>>>>>> 0dadab4 (Lint)
 # chartjs-plugin-datalabels with Filament 5 ChartWidget (multiple labels)
 
 ## Goal

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Models;
 
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
 <<<<<<< .merge_file_Nqfmix
 <<<<<<< HEAD
 =======
@@ -22,10 +23,15 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+use Modules\UI\Database\Factories\FieldOptionFactory;
+use Modules\Xot\Contracts\ProfileContract;
+>>>>>>> 0dadab4 (Lint)
 use Modules\Xot\Models\BaseModel;
 
 /**
  * FieldOption model for UI module.
+<<<<<<< HEAD
 <<<<<<< .merge_file_Nqfmix
 <<<<<<< HEAD
 =======
@@ -37,12 +43,20 @@ use Modules\Xot\Models\BaseModel;
  *
 >>>>>>> .merge_file_dtHKms
  * FormBuilder module not available - extending from XotBaseModel instead.
+=======
+ * FormBuilder module not available - extending from XotBaseModel instead.
+ */
+/**
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
+>>>>>>> 0dadab4 (Lint)
  *
  * @method static FieldOptionFactory          factory($count = null, $state = [])
  * @method static Builder<static>|FieldOption newModelQuery()
  * @method static Builder<static>|FieldOption newQuery()
  * @method static Builder<static>|FieldOption query()
  *
+<<<<<<< HEAD
  * @property int                  $id
  * @property string|null          $field_id
  * @property string|null          $label
@@ -111,6 +125,10 @@ use Modules\Xot\Models\BaseModel;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+ * @property ProfileContract|null $deleter
+ *
+>>>>>>> 0dadab4 (Lint)
  * @mixin \Eloquent
  */
 class FieldOption extends BaseModel

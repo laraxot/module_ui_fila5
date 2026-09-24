@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_vkD52q
 <<<<<<< HEAD
 =======
@@ -43,6 +44,9 @@ return [
 =======
 return [
 >>>>>>> .merge_file_0eHKaq
+=======
+return [
+>>>>>>> 0dadab4 (Lint)
     'page' => [
         'title' => 'Test AWS Diagnostico',
         'heading' => 'Diagnostica Configurazione AWS',
@@ -184,6 +188,7 @@ return [
         ],
         'label' => 'Awstest',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_vkD52q
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -201,5 +206,8 @@ return [
 =======
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_0eHKaq
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> 0dadab4 (Lint)
     ],
 ];

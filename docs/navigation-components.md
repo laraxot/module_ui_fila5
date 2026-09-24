@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_C3ZJrS
 =======
 <<<<<<< HEAD
@@ -240,6 +241,8 @@ return [
    - Utilizzare i separatori corretti nei dropdown (div con bordo, non componenti inesistenti)
 =======
 >>>>>>> .merge_file_W3PFRX
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 module: theme
 topic: navigation-components
@@ -247,6 +250,7 @@ canonical: ../../../Themes/docs/shared-components/navigation-components.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/navigation-components.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_C3ZJrS
 <<<<<<< HEAD
 =======
@@ -573,3 +577,5 @@ return [
 =======
 >>>>>>> .merge_file_W3PFRX
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

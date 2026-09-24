@@ -3,6 +3,7 @@ module: theme
 topic: compilation
 canonical: ../../../../Themes/docs/shared-components/.gitkeep
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZcrP8j
 =======
 <<<<<<< HEAD
@@ -28,6 +29,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_H74PDA
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/.gitkeep

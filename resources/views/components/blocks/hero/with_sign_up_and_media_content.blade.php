@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_6NQjPX
 <<<<<<< HEAD
 =======
@@ -33,6 +34,12 @@
 <?php
 
 declare(strict_types=1);
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> 0dadab4 (Lint)
 ?>
 <!--
   This example requires some changes to your config:

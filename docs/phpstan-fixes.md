@@ -55,9 +55,12 @@ if (isset($record->attribute)) {
 
 ## ✅ Checklist di Verifica
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 - [x] PHPStan Level 10 (0 errori)
 - [x] PHPMD (Complexity < 10)
 - [x] PHP Insights (Quality > 94%)
@@ -90,6 +93,7 @@ if (isset($record->attribute)) {
 - UI module is compliant with current PHPStan configuration.
 - PHPInsights quality >94% across all metrics.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 - [x] PHPStan Level 10 (Analisi Modulo: OK)
@@ -108,3 +112,5 @@ if (isset($record->attribute)) {
 - UI module is compliant with current PHPStan configuration.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

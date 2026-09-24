@@ -19,6 +19,7 @@ tags: [structure, architecture, module]
 │   ├── entities/                 # Organization/person pages
 │   ├── rules/                    # ⚠️ 151+ regole progettuali
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28,6 +29,8 @@ tags: [structure, architecture, module]
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 │   │   ├── 00-INDEX.md          # Indice regole
 │   │   ├── 00-TRIGGER_MAP.md    # Trigger map (link a globale)
 │   │   └── *.md                 # Regole specifiche modulo
@@ -39,6 +42,7 @@ tags: [structure, architecture, module]
 │   │   └── *.md
 │   ├── memories/                 # Memorie progettuali
 │   │   ├── INDEX.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -64,6 +68,8 @@ tags: [structure, architecture, module]
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 │   │   └── *.md
 │   ├── decisions/                # Architecture decision records
 │   └── troubleshooting/          # Bug fixes, error resolutions
@@ -71,6 +77,7 @@ tags: [structure, architecture, module]
 ├── QMD-SETUP.md                  # Configurazione QMD
 ├── PERFORMANCE-OPTIMIZATION.md    # Metriche e best practice
 <<<<<<< HEAD
+<<<<<<< HEAD
 ├── ARCHITECTURE.md               # (opzionale) Architettura modulo
 =======
 <<<<<<< HEAD
@@ -88,6 +95,9 @@ tags: [structure, architecture, module]
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+├── ARCHITECTURE.md               # (opzionale) Architettura modulo
+>>>>>>> 0dadab4 (Lint)
 └── README.md                     # (opzionale) Overview modulo
 \`\`\`
 
@@ -160,6 +170,7 @@ mkdir -p docs/wiki/{rules,skills,commands,memories,concepts,entities,decisions,t
 
 # 2. Crea INDEX files (già creati)
 <<<<<<< HEAD
+<<<<<<< HEAD
 cp docs/wiki/rules/INDEX.md docs/wiki/rules/
 =======
 <<<<<<< HEAD
@@ -177,6 +188,9 @@ cp docs/wiki/rules/index.md docs/wiki/rules/
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+cp docs/wiki/rules/INDEX.md docs/wiki/rules/
+>>>>>>> 0dadab4 (Lint)
 # ... etc
 
 # 3. Aggiungi a QMD collection (opzionale, già incluso global)

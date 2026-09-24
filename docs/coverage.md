@@ -1,6 +1,7 @@
 # Code Coverage: UI
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -50,6 +51,8 @@ Story: `docs/stories/ui-services-to-actions.story.md`.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 **Lines Coverage:** N/A (Failed to parse)
 **Test Exit Code:** 2
 
@@ -134,6 +137,7 @@ endor/laravel/framework/src/Illuminate/Container/Container.php:1415
 
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -489,3 +493,5 @@ Tests: 6 failed, 1 risky, 109 skipped, 199 passed (654 assertions)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

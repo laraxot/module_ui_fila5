@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GGQcOB
 =======
 <<<<<<< HEAD
@@ -64,6 +65,8 @@ docs/**/*_[0-9][0-9].md
 # Dependencies
 =======
 >>>>>>> .merge_file_KsA8uT
+=======
+>>>>>>> 0dadab4 (Lint)
 # ==============================================
 # LARAXOT MODULE UI - .GITIGNORE
 # ==============================================
@@ -75,6 +78,7 @@ docs/**/*_[0-9][0-9].md
 # ==============================================
 # DEPENDENCIES & PACKAGES
 # ==============================================
+<<<<<<< HEAD
 <<<<<<< .merge_file_GGQcOB
 <<<<<<< HEAD
 =======
@@ -143,6 +147,8 @@ docs/**/*_[0-9][0-9].md
 =======
 >>>>>>> .merge_file_KsA8uT
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 /vendor/
 /node_modules/
 /docs/vendor/
@@ -150,6 +156,7 @@ docs/**/*_[0-9][0-9].md
 composer.lock
 package-lock.json
 yarn.lock
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GGQcOB
 =======
@@ -181,6 +188,8 @@ public/mix-manifest.json
 # Laravel runtime
 =======
 >>>>>>> .merge_file_KsA8uT
+=======
+>>>>>>> 0dadab4 (Lint)
 yarn-error.log
 npm-debug.log
 
@@ -225,6 +234,7 @@ lerna-debug.log*
 # ==============================================
 # LARAVEL SPECIFIC
 # ==============================================
+<<<<<<< HEAD
 <<<<<<< .merge_file_GGQcOB
 <<<<<<< HEAD
 =======
@@ -258,12 +268,15 @@ public/mix-manifest.json
 =======
 >>>>>>> .merge_file_KsA8uT
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 /storage/*.key
 /public/storage
 /public/hot
 /public_html/storage
 /public_html/hot
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GGQcOB
 =======
@@ -283,10 +296,13 @@ public/mix-manifest.json
 =======
 >>>>>>> .merge_file_KsA8uT
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 .env
 .env.*
 !.env.example
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GGQcOB
 =======
@@ -311,6 +327,8 @@ Homestead.json
 
 =======
 >>>>>>> .merge_file_KsA8uT
+=======
+>>>>>>> 0dadab4 (Lint)
 
 # ==============================================
 # ENVIRONMENT & IDE
@@ -319,6 +337,7 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 /.idea
+<<<<<<< HEAD
 <<<<<<< .merge_file_GGQcOB
 <<<<<<< HEAD
 =======
@@ -345,10 +364,13 @@ Homestead.json
 =======
 >>>>>>> .merge_file_KsA8uT
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 .phpintel
 .phpstorm.meta.php
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GGQcOB
 =======
@@ -439,6 +461,8 @@ design_notes.txt
 # System files
 =======
 >>>>>>> .merge_file_KsA8uT
+=======
+>>>>>>> 0dadab4 (Lint)
 # ==============================================
 # GIT SPECIFIC
 # ==============================================
@@ -449,6 +473,7 @@ design_notes.txt
 # ==============================================
 # SYSTEM FILES
 # ==============================================
+<<<<<<< HEAD
 <<<<<<< .merge_file_GGQcOB
 <<<<<<< HEAD
 =======
@@ -541,11 +566,14 @@ design_notes.txt
 =======
 >>>>>>> .merge_file_KsA8uT
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 .DS_Store
 .DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GGQcOB
 =======
@@ -584,6 +612,8 @@ phpinsights.php
 .windsurf~*
 =======
 >>>>>>> .merge_file_KsA8uT
+=======
+>>>>>>> 0dadab4 (Lint)
 ehthumbs.db
 Thumbs.db
 
@@ -667,6 +697,7 @@ _docs/
 docs/legacy/
 docs/legacy/**
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_GGQcOB
 # Legacy PHPUnit (solo cartella maiuscola Tests/ — non confondere con Pest tests/)
 /Tests/
@@ -687,6 +718,8 @@ resources/views/components/blocks/blog/archivied/
 
 =======
 >>>>>>> .merge_file_KsA8uT
+=======
+>>>>>>> 0dadab4 (Lint)
 # -----------------------------------------------------------------------------
 # Copie residue da merge/rebase o editor (mai committare — es. `.agent~HEAD`, `*.md~head`)
 # -----------------------------------------------------------------------------
@@ -699,6 +732,7 @@ resources/views/components/blocks/blog/archivied/
 *~head
 
 agentdb.rvf
+<<<<<<< HEAD
 <<<<<<< .merge_file_GGQcOB
 <<<<<<< HEAD
 =======
@@ -746,3 +780,8 @@ phpinsights.php
 .vscode/
 >>>>>>> .merge_file_KsA8uT
 >>>>>>> laraxot/dev
+=======
+.vscode/
+.devcontainer/
+.vscode/
+>>>>>>> 0dadab4 (Lint)

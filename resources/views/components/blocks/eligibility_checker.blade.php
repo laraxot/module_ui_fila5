@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_Abx3J6
 <<<<<<< HEAD
 =======
@@ -36,6 +37,12 @@
 <?php
 
 declare(strict_types=1);
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> 0dadab4 (Lint)
 ?>
 @props(['title' => 'Verifica Idoneità'])
 

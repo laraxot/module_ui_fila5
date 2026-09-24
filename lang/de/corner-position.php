@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_uMOAE0
 <<<<<<< HEAD
 =======
@@ -21,6 +22,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_4liQNB
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'top-left' => [
         'label' => 'alto a sinistra',

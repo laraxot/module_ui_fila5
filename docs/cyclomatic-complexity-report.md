@@ -1,6 +1,7 @@
 # Cyclomatic Complexity Report - Module: UI
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qjQKU2
 =======
 <<<<<<< HEAD
@@ -16,6 +17,8 @@
 =======
 >>>>>>> .merge_file_WRyK3B
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 **Analyzer:** Super Mucca 🐮
 
 ---

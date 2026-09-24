@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Utilizzo dei Componenti Blade di Filament
 =======
 <<<<<<< HEAD
@@ -7,6 +8,9 @@
 # Utilizzo dei Componenti Blade di Filament 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+# Utilizzo dei Componenti Blade di Filament
+>>>>>>> 0dadab4 (Lint)
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -48,6 +52,7 @@ Filament fornisce una serie di componenti Blade pronti all'uso che dovrebbero es
 ⚠️ **ATTENZIONE**: I seguenti layout **NON esistono** in Filament e non devono essere utilizzati:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>
 =======
 <<<<<<< HEAD
@@ -56,6 +61,9 @@ Filament fornisce una serie di componenti Blade pronti all'uso che dovrebbero es
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di SaluteOra
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>
+>>>>>>> 0dadab4 (Lint)
 - ❌ `<x-filament::layouts.card>` - Non esiste, utilizzare invece una combinazione di `<x-filament::card>` e altri componenti
 - ❌ `<x-filament::layouts.base>` - Non esiste
 
@@ -199,6 +207,7 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 3. **NON nidificare** elementi dropdown in modo errato - Rispettare la struttura gerarchica dei componenti Filament.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Gestione delle Rotte
 =======
 <<<<<<< HEAD
@@ -207,6 +216,9 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 ## Gestione delle Rotte 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+## Gestione delle Rotte
+>>>>>>> 0dadab4 (Lint)
 
 ### Regole Fondamentali
 
@@ -216,6 +228,7 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 
 2. **Per le pagine frontend**:
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Creare file Blade in `Themes/One/resources/views/pages/`
 =======
 <<<<<<< HEAD
@@ -224,6 +237,9 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
    - Creare file Blade in `/var/www/html/saluteora/laravel/Themes/One/resources/views/pages/`
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+   - Creare file Blade in `Themes/One/resources/views/pages/`
+>>>>>>> 0dadab4 (Lint)
    - Utilizzare Folio per il routing automatico
    - Esempio: `/profile/index.blade.php` sarà accessibile come `/it/profile`
 

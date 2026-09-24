@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_aWgeZK
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_8bj4mk
+=======
+>>>>>>> 0dadab4 (Lint)
 # Best Practices Filament
 
 ## Regole fondamentali

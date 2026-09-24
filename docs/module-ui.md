@@ -113,6 +113,7 @@ composer format        # Formatta il codice
 
 ## Changelog
 <<<<<<< HEAD
+<<<<<<< HEAD
 Le modifiche vengono tracciate nel repository GitHub.
 # Modulo UI
 <<<<<<< HEAD
@@ -153,12 +154,18 @@ Le modifiche vengono tracciate nel repository GitHub.
 =======
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> laraxot/dev
+=======
+Le modifiche vengono tracciate nel repository GitHub.
+# Modulo UI
+
+>>>>>>> 0dadab4 (Lint)
 ## Informazioni Generali
 - **Nome**: `laraxot/module_ui_fila5`
 - **Descrizione**: Modulo per la gestione dell'interfaccia utente
 - **Namespace**: `Modules\UI`
 - **Repository**: https://github.com/laraxot/module_ui_fila5.git
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 =======
 <<<<<<< HEAD
@@ -173,11 +180,14 @@ Le modifiche vengono tracciate nel repository GitHub.
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_wbEKXH
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Service Providers
 1. `Modules\UI\Providers\UIServiceProvider`
 2. `Modules\UI\Providers\Filament\AdminPanelProvider`
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 <<<<<<< HEAD
 =======
@@ -190,6 +200,8 @@ Le modifiche vengono tracciate nel repository GitHub.
 =======
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ## Struttura
 ```
 app/
@@ -199,6 +211,7 @@ app/
 ├── Providers/      # Service Providers
 └── Services/       # Servizi UI
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 =======
 <<<<<<< HEAD
@@ -213,12 +226,15 @@ app/
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_wbEKXH
+=======
+>>>>>>> 0dadab4 (Lint)
 ```
 
 ## Dipendenze
 ### Pacchetti Required
 - `owenvoke/blade-fontawesome`
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 <<<<<<< HEAD
 =======
@@ -231,11 +247,14 @@ app/
 =======
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ### Moduli Required
 - User
 - Tenant
 - Xot
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 =======
 <<<<<<< HEAD
@@ -250,6 +269,8 @@ Namespace: `Modules\UI\Database\Factories`
 Namespace: `Modules\UI\Database\Seeders`
 =======
 >>>>>>> .merge_file_wbEKXH
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Database
 ### Factories
@@ -258,6 +279,7 @@ Namespace: `Modules\UI\Database\Factories`
 ### Seeders
 Namespace: `Modules\UI\Database\Seeders`
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 <<<<<<< HEAD
 =======
@@ -275,6 +297,8 @@ Namespace: `Modules\UI\Database\Seeders`
 =======
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ## Testing
 Comandi disponibili:
 ```bash
@@ -283,6 +307,7 @@ composer test-coverage  # Genera report di copertura
 composer analyse       # Analisi statica del codice
 composer format        # Formatta il codice
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 ```
 
@@ -301,6 +326,10 @@ composer format        # Formatta il codice
 
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> laraxot/dev
+=======
+```
+
+>>>>>>> 0dadab4 (Lint)
 ## Funzionalità
 - Componenti UI riutilizzabili
 - Integrazione Font Awesome
@@ -312,6 +341,7 @@ composer format        # Formatta il codice
 - Notifiche UI
 - Tabelle interattive
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 
 =======
@@ -327,11 +357,15 @@ composer format        # Formatta il codice
 
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ## Configurazione
 ### Font Awesome
 - Configurazione in `config/blade-fontawesome.php`
 - Supporto per diverse versioni di FA
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 =======
 <<<<<<< HEAD
@@ -346,11 +380,14 @@ composer format        # Formatta il codice
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_wbEKXH
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ### Componenti
 - Registrazione in `app/Providers/UIServiceProvider.php`
 - Configurazione view in `resources/views/components`
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 <<<<<<< HEAD
 =======
@@ -363,6 +400,8 @@ composer format        # Formatta il codice
 =======
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ## Best Practices
 1. Seguire le convenzioni di naming Laravel
 2. Documentare tutte le classi e i metodi pubblici
@@ -373,6 +412,7 @@ composer format        # Formatta il codice
 7. Ottimizzare assets
 8. Mantenere consistenza UI
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 
 =======
@@ -388,6 +428,9 @@ composer format        # Formatta il codice
 
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ## Troubleshooting
 ### Problemi Comuni
 1. **Errori di Compilazione Assets**
@@ -395,6 +438,7 @@ composer format        # Formatta il codice
    - Controllare configurazione webpack/vite
    - Verificare permessi directory
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 
 =======
@@ -410,11 +454,15 @@ composer format        # Formatta il codice
 
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 2. **Problemi di Font Awesome**
    - Verificare registrazione provider
    - Controllare sintassi icone
    - Verificare caricamento CSS
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 
 =======
@@ -430,10 +478,14 @@ composer format        # Formatta il codice
 
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 3. **Errori di Layout**
    - Controllare responsive breakpoints
    - Verificare conflitti CSS
    - Debug con strumenti browser
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 =======
@@ -448,6 +500,8 @@ composer format        # Formatta il codice
 - Helper per icone comuni
 =======
 >>>>>>> .merge_file_wbEKXH
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Componenti Disponibili
 ### Icons
@@ -455,6 +509,7 @@ composer format        # Formatta il codice
 - Supporto per icone custom
 - Helper per icone comuni
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 <<<<<<< HEAD
 =======
@@ -471,11 +526,14 @@ composer format        # Formatta il codice
 =======
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ### Navigation
 - Menu responsive
 - Breadcrumbs
 - Tabs
 - Sidebar
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 
@@ -492,12 +550,16 @@ composer format        # Formatta il codice
 
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ### Forms
 - Input fields
 - Select
 - Checkbox/Radio
 - Date pickers
 - File upload
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_cS9kDa
 
@@ -543,3 +605,8 @@ Le modifiche vengono tracciate nel repository GitHub.
 Le modifiche vengono tracciate nel repository GitHub.
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> laraxot/dev
+=======
+
+## Changelog
+Le modifiche vengono tracciate nel repository GitHub.
+>>>>>>> 0dadab4 (Lint)

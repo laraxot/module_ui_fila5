@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_NbqQYs
 =======
 <<<<<<< HEAD
@@ -288,6 +289,8 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>.
 =======
 >>>>>>> .merge_file_6FcGvo
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 module: theme
 topic: public-resources-management
@@ -295,6 +298,7 @@ canonical: ../../../Themes/docs/shared-components/public-resources-management.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/public-resources-management.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_NbqQYs
 <<<<<<< HEAD
 =======
@@ -830,3 +834,5 @@ Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantis
 =======
 >>>>>>> .merge_file_6FcGvo
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

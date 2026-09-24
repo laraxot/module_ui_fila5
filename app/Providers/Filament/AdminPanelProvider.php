@@ -13,6 +13,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 {
     protected string $module = 'UI';
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     #[\Override]
 =======
@@ -25,6 +26,10 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+    #[\Override]
+>>>>>>> 0dadab4 (Lint)
     public function panel(Panel $panel): Panel
     {
         return parent::panel($panel);

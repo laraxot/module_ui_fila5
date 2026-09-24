@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_jopNuQ
 <<<<<<< HEAD
 =======
@@ -37,6 +38,12 @@
 <?php
 
 declare(strict_types=1);
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> 0dadab4 (Lint)
 ?>
 {{-- Requires js --}}
 <div class="bg-white py-24 sm:py-32">

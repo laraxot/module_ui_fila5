@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_2eZkga
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_zDpobR
+=======
+>>>>>>> 0dadab4 (Lint)
 # Componente FileUpload in Filament
 
 ## Limitazioni e Metodi Disponibili

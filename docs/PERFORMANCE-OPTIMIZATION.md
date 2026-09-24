@@ -19,6 +19,7 @@ related:
 
 \`\`\`diff
 <<<<<<< HEAD
+<<<<<<< HEAD
 - 150+ rules embeddate in AGENTS.md
 =======
 <<<<<<< HEAD
@@ -36,6 +37,9 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- 150+ rules embeddate in AGENTS.md
+>>>>>>> 0dadab4 (Lint)
 + 0 rules embeddate — tutte on-demand
 \`\`\`
 
@@ -61,6 +65,7 @@ related:
 ### 4. Wiki Indici Locali
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Ogni modulo ha i propri `rules/skills/commands/memories/INDEX.md`:
 =======
 <<<<<<< HEAD
@@ -78,6 +83,9 @@ Ogni modulo ha i propri `rules/skills/commands/memories/index.md`:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Ogni modulo ha i propri `rules/skills/commands/memories/INDEX.md`:
+>>>>>>> 0dadab4 (Lint)
 - Ricerca più rapida (scope limitato)
 - Context rilevante per il modulo
 - Non mischia contenuti eterogenei

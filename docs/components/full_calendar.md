@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DvIeri
 =======
 <<<<<<< HEAD
@@ -268,6 +269,8 @@ To use the widget in a Blade view:
 *Last updated: June 2025*
 =======
 >>>>>>> .merge_file_FlebvB
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 module: theme
 topic: full_calendar
@@ -275,6 +278,7 @@ canonical: ../../../../Themes/docs/shared-components/full_calendar.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/full_calendar.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_DvIeri
 <<<<<<< HEAD
 =======
@@ -547,3 +551,5 @@ To use the widget in a Blade view:
 =======
 >>>>>>> .merge_file_FlebvB
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

@@ -3,6 +3,7 @@ module: theme
 topic: bottlenecks
 canonical: ../../../../Themes/docs/shared-components/bottlenecks-Modules.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_z3LR6U
 =======
 <<<<<<< HEAD
@@ -31,6 +32,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_T9fYzx
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/bottlenecks-Modules.md

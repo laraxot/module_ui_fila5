@@ -6,6 +6,7 @@ created: 2026-05-28
 tags: [filament, ui, blade]
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_p0HGb4
   - ../../../../../../docs/wiki/rules/filament-first-rule.md
   - ../../blade/filament-components.md
@@ -43,6 +44,10 @@ related:
   - ../../blade/filament-components.md
 >>>>>>> .merge_file_ENtphq
 >>>>>>> laraxot/dev
+=======
+  - ../../../../../../docs/wiki/rules/filament-first-rule.md
+  - ../../blade/filament-components.md
+>>>>>>> 0dadab4 (Lint)
 ---
 
 # UI — Filament Blade canonical

@@ -4,6 +4,7 @@ description: Azioni Filament per creare PDF
 extends: _layouts.documentation
 section: content
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_QdamCF
 =======
 <<<<<<< HEAD
@@ -22,6 +23,8 @@ related:
 =======
 >>>>>>> .merge_file_5EjmjC
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 
 # Metodo 1

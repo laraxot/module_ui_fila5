@@ -83,6 +83,7 @@ class Foo extends bar
 * [customizing-your-site.md](../../../Cms/docs/customizing-your-site.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -94,6 +95,8 @@ class Foo extends bar
 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ### Versione Incoming
 
 ---

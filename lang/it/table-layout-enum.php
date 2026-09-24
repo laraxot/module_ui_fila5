@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_zNI425
 <<<<<<< HEAD
 =======
@@ -34,6 +35,9 @@ return [
             'helper_text' => 'Ideale per visualizzare pochi dati con focus visivo',
         ],
     ],
+=======
+return [
+>>>>>>> 0dadab4 (Lint)
     'list' => [
         'label' => 'Lista',
         'color' => 'primary',
@@ -49,6 +53,7 @@ return [
         'description' => 'Layout a griglia responsive con card',
         'tooltip' => 'Visualizza i dati in formato card responsive',
         'helper_text' => 'Ideale per visualizzare pochi dati con focus visivo',
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -76,6 +81,8 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
     ],
     'label' => 'Table Layout Enum',
     'plural_label' => 'Table Layout Enum (Plurale)',
@@ -88,6 +95,7 @@ return [
         ],
         'label' => 'Table Layout Enum',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_zNI425
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -105,6 +113,9 @@ return [
 =======
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_HzcGi2
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> 0dadab4 (Lint)
     ],
     'fields' => [
         'id' => [

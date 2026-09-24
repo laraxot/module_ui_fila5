@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6uOCr6
 =======
 <<<<<<< HEAD
@@ -53,12 +54,15 @@ See canonical documentation: ../../../Themes/docs/shared-components/algolia-docs
 =======
 >>>>>>> .merge_file_loDZZE
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 title: Algolia DocSearch
 description: Configure Algolia DocSearch with the Jigsaw docs starter template
 extends: _layouts.documentation
 section: content
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6uOCr6
 =======
 <<<<<<< HEAD
@@ -73,6 +77,8 @@ This starter template includes support for [DocSearch](https://community.algolia
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_loDZZE
+=======
+>>>>>>> 0dadab4 (Lint)
 
 # Algolia DocSearch {#algolia-docsearch}
 
@@ -80,6 +86,7 @@ This starter template includes support for [DocSearch](https://community.algolia
 
 [Get your DocSearch credentials here.](https://community.algolia.com/docsearch/#join-docsearch-program)
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_6uOCr6
 <<<<<<< HEAD
 =======
@@ -92,6 +99,8 @@ This starter template includes support for [DocSearch](https://community.algolia
 =======
 >>>>>>> .merge_file_loDZZE
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ```php
 // config.php
 return [
@@ -100,6 +109,7 @@ return [
 ];
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6uOCr6
 =======
 <<<<<<< HEAD
@@ -114,6 +124,8 @@ To help Algolia index your pages correctly, it's good practice to add a unique `
 If you'd like to customize the styling of the search results, Algolia exposes custom CSS classes that you can modify:
 =======
 >>>>>>> .merge_file_loDZZE
+=======
+>>>>>>> 0dadab4 (Lint)
 
 Once the `docsearchApiKey` and `docsearchIndexName` values are set in `config.php`, the search field at the top of the page is ready to use.
 
@@ -127,6 +139,7 @@ To help Algolia index your pages correctly, it's good practice to add a unique `
 
 If you'd like to customize the styling of the search results, Algolia exposes custom CSS classes that you can modify:
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_6uOCr6
 <<<<<<< HEAD
 =======
@@ -144,12 +157,15 @@ If you'd like to customize the styling of the search results, Algolia exposes cu
 =======
 >>>>>>> .merge_file_loDZZE
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ```css
 /* Main dropdown wrapper */
 .algolia-autocomplete .ds-dropdown-menu {
   width: 500px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6uOCr6
 
 =======
@@ -165,11 +181,15 @@ If you'd like to customize the styling of the search results, Algolia exposes cu
 
 >>>>>>> .merge_file_loDZZE
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 /* Main category (eg. Getting Started) */
 .algolia-autocomplete .algolia-docsearch-suggestion--category-header {
   color: darkgray;
   border: 1px solid gray;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6uOCr6
 =======
 <<<<<<< HEAD
@@ -184,6 +204,8 @@ If you'd like to customize the styling of the search results, Algolia exposes cu
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_loDZZE
+=======
+>>>>>>> 0dadab4 (Lint)
 }
 
 /* Category (eg. Downloads) */
@@ -191,6 +213,7 @@ If you'd like to customize the styling of the search results, Algolia exposes cu
   color: gray;
 }
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_6uOCr6
 <<<<<<< HEAD
 =======
@@ -203,10 +226,13 @@ If you'd like to customize the styling of the search results, Algolia exposes cu
 =======
 >>>>>>> .merge_file_loDZZE
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 /* Title (eg. Bootstrap CDN) */
 .algolia-autocomplete .algolia-docsearch-suggestion--title {
   font-weight: bold;
   color: black;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_6uOCr6
 =======
@@ -239,6 +265,8 @@ For more details, visit the [official Algolia DocSearch documentation.](https://
 ```
 =======
 >>>>>>> .merge_file_loDZZE
+=======
+>>>>>>> 0dadab4 (Lint)
 }
 
 /* Description description (eg. Bootstrap currently works...) */
@@ -351,6 +379,7 @@ For more details, visit the [official Algolia DocSearch documentation.](https://
 ### Versione Incoming
 
 ---
+<<<<<<< HEAD
 <<<<<<< .merge_file_6uOCr6
 <<<<<<< HEAD
 =======
@@ -405,3 +434,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/algolia-docs
 =======
 >>>>>>> .merge_file_loDZZE
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

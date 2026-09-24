@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_6H5lDB
 <<<<<<< HEAD
 =======
@@ -44,6 +45,9 @@ return [
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_f5H5Qm
+=======
+return [
+>>>>>>> 0dadab4 (Lint)
     'actions' => [
         'toggle' => [
             'label' => 'Layout wechseln',

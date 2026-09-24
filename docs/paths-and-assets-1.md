@@ -9,9 +9,12 @@
 > **Soluzione:** Seguire SEMPRE la regola documentata qui sotto e aggiornata anche in README.md e nella root docs/links.md.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 # Gestione dei Percorsi e degli Asset
 
 ## Collegamenti correlati
@@ -28,6 +31,7 @@
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 # Gestione dei Percorsi e degli Asset 
@@ -42,6 +46,8 @@
 /var/www/html/saluteora/
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ├── laravel/                 # Applicazione Laravel (codice sorgente)
 │   ├── Modules/             # Moduli dell'applicazione
 │   ├── resources/           # Risorse non compilate
@@ -50,9 +56,12 @@
     ├── images/              # Immagini pubbliche
     │   ├── avatars/         # Avatar utenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
     │   └── ...
     ├── css/                 # File CSS compilati
     ├── js/                  # File JavaScript compilati
@@ -68,6 +77,7 @@
 | JavaScript | `public_html/js/` | `public/js/` |
 | SVG | `public_html/images/` | `public/images/` |
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
     ├── css/                 # File CSS compilati
@@ -82,6 +92,8 @@
 | SVG | `/var/www/html/saluteora/public_html/images/` | `/var/www/html/saluteora/laravel/public/images/` |
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Utilizzo degli Asset nei Componenti Blade
 
@@ -99,6 +111,7 @@ Per garantire una buona esperienza utente, implementare sempre un fallback per l
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <img
 =======
 <<<<<<< HEAD
@@ -107,6 +120,9 @@ Per garantire una buona esperienza utente, implementare sempre un fallback per l
 <img 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<img
+>>>>>>> 0dadab4 (Lint)
     src="{{ asset('images/avatars/default-' . $avatarNumber . '.svg') }}"
     alt="{{ $user->name ?? 'User' }}"
     onerror="this.src='{{ asset('images/default-avatar.svg') }}'"
@@ -121,9 +137,12 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 Themes/One/resources/views/components/ui/
 ```
 
@@ -134,6 +153,7 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 ```
 public_html/images/
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/
@@ -143,6 +163,8 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 /var/www/html/saluteora/public_html/images/
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ```
 
 ## Gestione dei Componenti UI
@@ -153,9 +175,12 @@ Il componente avatar è implementato in:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 Themes/One/resources/views/components/ui/avatar.blade.php
 ```
 
@@ -163,6 +188,7 @@ E utilizza gli avatar SVG dalla directory pubblica:
 
 ```
 public_html/images/avatars/
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -172,6 +198,8 @@ E utilizza gli avatar SVG dalla directory pubblica:
 /var/www/html/saluteora/public_html/images/avatars/
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ```
 
 ### Componente Icon
@@ -180,9 +208,12 @@ Il componente icon è implementato in:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 Themes/One/resources/views/components/ui/icon.blade.php
 ```
 
@@ -193,6 +224,7 @@ E include le definizioni SVG direttamente nel componente.
 > **IMPORTANTE:** Tutti i componenti Blade UI condivisi (es. logo, button, badge, ecc.) devono essere posizionati esclusivamente in:
 >
 > `Modules/UI/resources/views/components/ui/`
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -205,6 +237,8 @@ E include le definizioni SVG direttamente nel componente.
 > `/var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/`
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 >
 > **MAI** in `resources/views/components/ui/` della root Laravel.
 
@@ -219,9 +253,12 @@ E include le definizioni SVG direttamente nel componente.
 **❌ Errato:**
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 resources/views/components/ui/logo.blade.php
 ```
 **✅ Corretto:**
@@ -232,6 +269,7 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 ## Best Practices
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 /var/www/html/ptvx/laravel/resources/views/components/ui/logo.blade.php
@@ -241,6 +279,8 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 ## Best Practices
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 1. **MAI utilizzare percorsi assoluti hardcoded** nei componenti Blade
 2. **SEMPRE utilizzare l'helper `asset()`** per riferirsi agli asset pubblici
 3. **Implementare fallback** per le immagini che potrebbero non essere disponibili
@@ -248,13 +288,17 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 5. **Seguire le convenzioni di naming** per mantenere la coerenza
 6. **Documentare i percorsi corretti** per evitare confusione
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Errori Comuni
 
 1. **Utilizzo del percorso Laravel public**: Utilizzare `public/` invece di `public_html/`
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -262,6 +306,8 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/saluteora/laravel/public/` invece di `/var/www/html/saluteora/public_html/`
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile
 4. **Inconsistenza nei nomi dei file**: Utilizzare convenzioni di naming diverse per file simili

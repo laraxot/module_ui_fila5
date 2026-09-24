@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_RzeQdm
 =======
 <<<<<<< HEAD
@@ -49,6 +50,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_kCQz4x
+=======
+>>>>>>> 0dadab4 (Lint)
 # Errori Comuni in Filament
 
 ## Errori di compatibilità metodi statici/instanza

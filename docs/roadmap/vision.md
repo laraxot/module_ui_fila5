@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SPYOFA
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_YsvJSZ
+=======
+>>>>>>> 0dadab4 (Lint)
 # Visione - UI Module
 
 Creare un ecosistema UI Headless-first:

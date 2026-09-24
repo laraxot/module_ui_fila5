@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_r1nCMe
 <<<<<<< HEAD
 =======
@@ -35,6 +36,12 @@
 <?php
 
 declare(strict_types=1);
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> 0dadab4 (Lint)
 ?>
 {{-- Studio Selector Component - Card cliccabili per selezione studio --}}
 <div 

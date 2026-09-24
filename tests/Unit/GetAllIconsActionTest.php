@@ -24,6 +24,7 @@ uses(TestCase::class);
  *
  * @param array<int, string> $relativeFiles
  *                                          =======
+<<<<<<< HEAD
  *                                          <<<<<<< .merge_file_7CRb1I
  * @param array<int, string> $relativeFiles
  *                                          =======
@@ -38,6 +39,9 @@ uses(TestCase::class);
  * >>>>>>> laraxot/dev
  * >>>>>>> .merge_file_0fTptt
  * >>>>>>> .merge_file_9v8DDK
+=======
+ * @param array<int, string> $relativeFiles
+>>>>>>> 0dadab4 (Lint)
  *
  * >>>>>>> laraxot/dev
  *

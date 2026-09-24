@@ -16,6 +16,7 @@ use Illuminate\Cookie\Middleware\EncryptCookies;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 use Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull;
 use Illuminate\Foundation\Http\Middleware\HandlePrecognitiveRequests;
+<<<<<<< HEAD
 <<<<<<< .merge_file_92fbwG
 <<<<<<< HEAD
 =======
@@ -23,10 +24,13 @@ use Illuminate\Foundation\Http\Middleware\HandlePrecognitiveRequests;
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 use Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance;
 use Illuminate\Foundation\Http\Middleware\TrimStrings;
 use Illuminate\Foundation\Http\Middleware\ValidatePostSize;
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -46,6 +50,8 @@ use Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance;
 use Illuminate\Foundation\Http\Middleware\TrimStrings;
 use Illuminate\Foundation\Http\Middleware\ValidatePostSize;
 >>>>>>> .merge_file_x6vhVk
+=======
+>>>>>>> 0dadab4 (Lint)
 use Illuminate\Http\Middleware\HandleCors;
 use Illuminate\Http\Middleware\SetCacheHeaders;
 use Illuminate\Routing\Middleware\SubstituteBindings;
@@ -86,6 +92,7 @@ class Kernel extends HttpKernel
             AddQueuedCookiesToResponse::class,
             StartSession::class,
             ShareErrorsFromSession::class,
+<<<<<<< HEAD
 <<<<<<< .merge_file_92fbwG
 <<<<<<< HEAD
             VerifyCsrfToken::class,
@@ -103,6 +110,9 @@ class Kernel extends HttpKernel
 =======
             PreventRequestForgery::class,
 >>>>>>> .merge_file_x6vhVk
+=======
+            VerifyCsrfToken::class,
+>>>>>>> 0dadab4 (Lint)
             SubstituteBindings::class,
             SetLocale::class,
         ],

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YVTYaZ
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_mMrz6F
+=======
+>>>>>>> 0dadab4 (Lint)
 https://github.com/savannabits/filament-signature-pad
 
 

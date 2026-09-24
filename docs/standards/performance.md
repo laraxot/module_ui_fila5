@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1gGGJz
 =======
 <<<<<<< HEAD
@@ -53,6 +54,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ZCqgIR
+=======
+>>>>>>> 0dadab4 (Lint)
 # Standard di Performance
 
 ## 🚀 Metriche Core Web Vitals

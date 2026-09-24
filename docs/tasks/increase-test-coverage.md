@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SgHAuN
 =======
 <<<<<<< HEAD
@@ -57,6 +58,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_p7Y1rN
+=======
+>>>>>>> 0dadab4 (Lint)
 # Task: Incremento Test Coverage (Pest) - UI
 
 **Modulo**: UI  

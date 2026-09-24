@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bQgfTE
 =======
 <<<<<<< HEAD
@@ -49,6 +50,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_1KYqa8
+=======
+>>>>>>> 0dadab4 (Lint)
 # Bugfix: IconColumn View Path Mismatch
 
 **Data Fix**: 11 Novembre 2025
@@ -164,6 +167,7 @@ protected string $view = 'ui::filament.tables.columns.icon';
 ## Riferimenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bQgfTE
 - [Laraxot Architectural Rules](../../architecture_rules.md)
 =======
@@ -182,5 +186,8 @@ protected string $view = 'ui::filament.tables.columns.icon';
 - [Laraxot Architectural Rules](../../architecture_rules.md)
 >>>>>>> .merge_file_1KYqa8
 >>>>>>> laraxot/dev
+=======
+- [Laraxot Architectural Rules](../../architecture_rules.md)
+>>>>>>> 0dadab4 (Lint)
 - [XotBaseIconColumn](../../../../Xot/app/Filament/Tables/Columns/XotBaseIconColumn.php)
 - [Blade Best Practices](https://laravel.com/docs/blade)

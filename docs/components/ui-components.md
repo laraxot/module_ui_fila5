@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_gC4J1C
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_x7j1bX
+=======
+>>>>>>> 0dadab4 (Lint)
 # Componenti UI - Modulo UI
 
 ## Panoramica
@@ -234,6 +237,7 @@ return [
 ## 🔗 Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_gC4J1C
 - [**README Modulo UI**](../readme.md)
 =======
@@ -252,6 +256,9 @@ return [
 - [**README Modulo UI**](../readme.md)
 >>>>>>> .merge_file_x7j1bX
 >>>>>>> laraxot/dev
+=======
+- [**README Modulo UI**](../readme.md)
+>>>>>>> 0dadab4 (Lint)
 - [**Sistema Layout**](../layout/layout-system.md)
 - [**Gestione Asset**](../assets/asset-management.md)
 - [**Personalizzazioni Filament**](../filament/filament-customizations.md)

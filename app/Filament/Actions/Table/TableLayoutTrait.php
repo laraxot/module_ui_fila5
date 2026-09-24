@@ -35,6 +35,7 @@ trait TableLayoutTrait
             }
         }
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_rU3BEL
 <<<<<<< HEAD
         return TableLayoutEnum::GRID;
@@ -52,6 +53,9 @@ trait TableLayoutTrait
 =======
         return TableLayoutEnum::LIST;
 >>>>>>> .merge_file_o2jZnW
+=======
+        return TableLayoutEnum::GRID;
+>>>>>>> 0dadab4 (Lint)
     }
 
     /**
