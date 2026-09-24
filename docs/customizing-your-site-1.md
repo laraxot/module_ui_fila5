@@ -82,6 +82,15 @@ class Foo extends bar
 * [customizing-your-site.md](../../../Tenant/docs/it/customizing-your-site.md)
 * [customizing-your-site.md](../../../Cms/docs/customizing-your-site.md)
 
+<<<<<<< HEAD
+=======
+
+### Versione Incoming
+
+
+---
+
+>>>>>>> laraxot/dev
 ### Versione Incoming
 
 ---

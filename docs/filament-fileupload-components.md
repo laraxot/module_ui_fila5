@@ -55,6 +55,7 @@ Forms\Components\FileUpload::make('certifications')
    - Fornire feedback di progresso
 
 ## Collegamenti
+<<<<<<< HEAD
 - [README](../../patient/docs/readme.md)
 - [Filament Resources](../../patient/docs/filament-resources.md)
 - [Form Components](../../patient/docs/filament-form-components.md)
@@ -67,16 +68,48 @@ Forms\Components\FileUpload::make('certifications')
 ## Errore Comune: prefixIcon
 Il metodo `prefixIcon()` non esiste nel componente FileUpload di Filament. Questo è un errore comune quando si confondono i componenti TextInput (che hanno il metodo prefixIcon) con i componenti FileUpload.
 
+=======
+- [README](../../Patient/docs/README.md)
+- [Filament Resources](../../Patient/docs/filament-resources.md)
+- [Form Components](../../Patient/docs/filament-form-components.md)
+
+## Vedi Anche
+- [Filament FileUpload Documentation](https://filamentphp.com/docs/forms/fields#file-upload)
+<<<<<<< HEAD
+- [Best Practices](../../Xot/docs/filament-best-practices.md) 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Best Practices](../../Xot/docs/filament-best-practices.md) 
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Best Practices](../../Xot/docs/filament-best-practices.md) 
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+- [Best Practices](../../Xot/docs/filament-best-practices.md)
+# Componenti FileUpload in Filament
+## Errore Comune: prefixIcon
+Il metodo `prefixIcon()` non esiste nel componente FileUpload di Filament. Questo è un errore comune quando si confondono i componenti TextInput (che hanno il metodo prefixIcon) con i componenti FileUpload.
+>>>>>>> laraxot/dev
 ### ❌ Errato
 ```php
 Forms\Components\FileUpload::make('certifications')
     ->prefixIcon('heroicon-o-document-text') // Questo metodo non esiste!
     ->label('Certificazioni');
 ```
+<<<<<<< HEAD
 
 ### ✅ Corretto
 ```php
 Forms\Components\FileUpload::make('certifications')
+=======
+### ✅ Corretto
+>>>>>>> laraxot/dev
     ->label('Certificazioni')
     ->icon('heroicon-o-document-text') // Usare icon() invece di prefixIcon()
     ->buttonLabel('Carica certificazioni')
@@ -84,10 +117,14 @@ Forms\Components\FileUpload::make('certifications')
     ->directory('certifications')
     ->acceptedFileTypes(['application/pdf'])
     ->maxSize(10240);
+<<<<<<< HEAD
 ```
 
 ## Metodi Disponibili per FileUpload
 
+=======
+## Metodi Disponibili per FileUpload
+>>>>>>> laraxot/dev
 ### Metodi Base
 - `make(string $name)`: Crea una nuova istanza del componente
 - `label(string $label)`: Imposta la label del componente
@@ -97,26 +134,37 @@ Forms\Components\FileUpload::make('certifications')
 - `directory(string $directory)`: Imposta la directory di destinazione
 - `acceptedFileTypes(array $types)`: Imposta i tipi di file accettati
 - `maxSize(int $size)`: Imposta la dimensione massima del file in KB
+<<<<<<< HEAD
 
 ### Best Practices
 
+=======
+### Best Practices
+>>>>>>> laraxot/dev
 1. **UI/UX**
    - Usare icone appropriate per il tipo di file
    - Fornire feedback visivo durante l'upload
    - Mostrare preview dei file quando possibile
    - Implementare validazione client-side
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 2. **Sicurezza**
    - Limitare i tipi di file accettati
    - Impostare una dimensione massima ragionevole
    - Validare i file lato server
    - Usare nomi file sicuri
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 3. **Performance**
    - Ottimizzare la dimensione dei file
    - Implementare upload asincroni
    - Gestire correttamente gli errori
    - Fornire feedback di progresso
+<<<<<<< HEAD
 
 ## Collegamenti
 - [README](../../patient/project_docs/readme.md)
@@ -126,3 +174,49 @@ Forms\Components\FileUpload::make('certifications')
 ## Vedi Anche
 - [Filament FileUpload Documentation](https://filamentphp.com/project_docs/forms/fields#file-upload)
 - [Best Practices](../../xot/project_docs/filament-best-practices.md)
+=======
+## Collegamenti
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [Best Practices](../../Xot/docs/filament-best-practices.md) 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+- [README](../../Patient/project_docs/README.md)
+- [Filament Resources](../../Patient/project_docs/filament-resources.md)
+- [Form Components](../../Patient/project_docs/filament-form-components.md)
+
+## Vedi Anche
+- [Filament FileUpload Documentation](https://filamentphp.com/project_docs/forms/fields#file-upload)
+<<<<<<< HEAD
+- [Best Practices](../../Xot/project_docs/filament-best-practices.md) 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Best Practices](../../Xot/project_docs/filament-best-practices.md)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+- [Best Practices](../../Xot/project_docs/filament-best-practices.md) 
+=======
+- [Best Practices](../../Xot/project_docs/filament-best-practices.md)
+>>>>>>> laraxot/dev
+=======
+- [Best Practices](../../Xot/project_docs/filament-best-practices.md) 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev

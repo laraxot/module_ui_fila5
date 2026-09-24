@@ -196,6 +196,7 @@ TextInput::make('full_name')
 ## Collegamenti
 - [Form Components](form-components.md)
 - [Naming Conventions](naming-conventions.md)
+<<<<<<< HEAD
 - [Translation System](../../lang/docs/translation-system.md)
 
 ## Vedi Anche
@@ -210,26 +211,62 @@ Il plugin VSCode per Filament fornisce funzionalità avanzate per lo sviluppo di
 
 ## Installazione
 
+=======
+- [Translation System](../../Lang/docs/translation-system.md)
+
+## Vedi Anche
+- [VSCode PHP Setup](vscode-php-setup.md)
+<<<<<<< HEAD
+- [Development Tools](development-tools.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Development Tools](development-tools.md)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Development Tools](development-tools.md)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+- [Development Tools](development-tools.md)
+- [Filament Documentation](https://filamentphp.com/docs)
+# Plugin VSCode per Filament
+## Overview
+Il plugin VSCode per Filament fornisce funzionalità avanzate per lo sviluppo di interfacce Filament, con snippet, autocompletamento e validazione in tempo reale.
+## Installazione
+>>>>>>> laraxot/dev
 1. Apri VSCode
 2. Vai al pannello Extensions (Ctrl+Shift+X)
 3. Cerca "Filament PHP"
 4. Installa il plugin di doonfrs
+<<<<<<< HEAD
 
 ## Funzionalità Principali
 
+=======
+## Funzionalità Principali
+>>>>>>> laraxot/dev
 ### 1. Snippet per Form Components
 ```php
 // Digita 'fil-text' e premi Tab
 TextInput::make('field_name')
     ->required()
     ->maxLength(255)
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 // Digita 'fil-select' e premi Tab
 Select::make('status')
     ->options([
         'draft' => 'Draft',
         'published' => 'Published'
     ])
+<<<<<<< HEAD
     ->required()
 
 // Digita 'fil-date' e premi Tab
@@ -240,10 +277,18 @@ DatePicker::make('published_at')
 
 ### 2. Snippet per Table Columns
 ```php
+=======
+// Digita 'fil-date' e premi Tab
+DatePicker::make('published_at')
+    ->format('Y-m-d')
+```
+### 2. Snippet per Table Columns
+>>>>>>> laraxot/dev
 // Digita 'fil-col-text' e premi Tab
 TextColumn::make('title')
     ->searchable()
     ->sortable()
+<<<<<<< HEAD
 
 // Digita 'fil-col-bool' e premi Tab
 IconColumn::make('is_published')
@@ -253,11 +298,18 @@ IconColumn::make('is_published')
 
 ### 3. Snippet per Actions
 ```php
+=======
+// Digita 'fil-col-bool' e premi Tab
+IconColumn::make('is_published')
+    ->boolean()
+### 3. Snippet per Actions
+>>>>>>> laraxot/dev
 // Digita 'fil-action' e premi Tab
 Action::make('approve')
     ->label('Approve')
     ->requiresConfirmation()
     ->action(fn () => $this->approve())
+<<<<<<< HEAD
 
 // Digita 'fil-bulk' e premi Tab
 BulkAction::make('delete')
@@ -270,20 +322,34 @@ BulkAction::make('delete')
 
 ### 1. Organizzazione Form
 ```php
+=======
+// Digita 'fil-bulk' e premi Tab
+BulkAction::make('delete')
+    ->label('Delete Selected')
+    ->action(fn (Collection $records) => $records->each->delete())
+## Best Practices
+### 1. Organizzazione Form
+>>>>>>> laraxot/dev
 // Raggruppa campi correlati
 Section::make('Personal Information')
     ->schema([
         $this->getPersonalInfoFields(),    // ✅ Metodo separato
         $this->getContactFields(),         // ✅ Metodo separato
+<<<<<<< HEAD
     ])
 
 // Invece di
 Section::make('Personal Information')      // ❌ Troppi campi inline
     ->schema([
+=======
+// Invece di
+Section::make('Personal Information')      // ❌ Troppi campi inline
+>>>>>>> laraxot/dev
         TextInput::make('name'),
         TextInput::make('email'),
         TextInput::make('phone'),
         // ... altri 10 campi
+<<<<<<< HEAD
     ])
 ```
 
@@ -315,6 +381,23 @@ Select::make('category_id')            // ❌ Query manuale
 
 ## Scorciatoie da Tastiera
 
+=======
+### 2. Validazione
+// Usa i metodi di validazione suggeriti
+TextInput::make('email')
+    ->email()                // ✅ Validazione specifica
+    ->unique(ignoreRecord: true)
+TextInput::make('email')    // ❌ Validazione generica
+    ->rules(['email', 'required', 'unique:users,email'])
+### 3. Relazioni
+// Usa i metodi relationship suggeriti
+Select::make('category_id')
+    ->relationship('category', 'name')  // ✅ Metodo relationship
+    ->preload()
+Select::make('category_id')            // ❌ Query manuale
+    ->options(Category::pluck('name', 'id'))
+## Scorciatoie da Tastiera
+>>>>>>> laraxot/dev
 | Scorciatoia | Descrizione |
 |-------------|-------------|
 | `fil-text→` | TextInput component |
@@ -326,14 +409,19 @@ Select::make('category_id')            // ❌ Query manuale
 | `fil-section→` | Form Section |
 | `fil-grid→` | Grid Layout |
 | `fil-card→` | Card Layout |
+<<<<<<< HEAD
 
 ## Validazione in Tempo Reale
 
+=======
+## Validazione in Tempo Reale
+>>>>>>> laraxot/dev
 Il plugin fornisce:
 - Evidenziazione errori sintassi
 - Suggerimenti metodi disponibili
 - Validazione tipi di dati
 - Controllo namespace
+<<<<<<< HEAD
 
 ## Integrazione con il Nostro Workflow
 
@@ -349,24 +437,40 @@ TextInput::make('nome')         // ❌ Non segue convenzioni
 
 ### 2. Struttura Form
 ```php
+=======
+## Integrazione con il Nostro Workflow
+### 1. Convenzioni di Naming
+// Il plugin suggerisce i nostri prefissi standard
+TextInput::make('full_name')    // ✅ Naming convention corretta
+TextInput::make('nome')         // ❌ Non segue convenzioni
+### 2. Struttura Form
+>>>>>>> laraxot/dev
 // Organizzazione suggerita per i nostri form
 Forms\Components\Wizard::make([
     $this->getPersonalInfoStep(),     // ✅ Metodi separati per step
     $this->getContactsStep(),
 ])
 ->skippable(false)
+<<<<<<< HEAD
 ```
 
 ### 3. Traduzioni
 ```php
+=======
+### 3. Traduzioni
+>>>>>>> laraxot/dev
 // Supporto per il nostro sistema di traduzioni
 TextInput::make('full_name')
     // Il plugin suggerisce l'uso di trans()
     ->placeholder(trans("$prefix.fields.full_name.placeholder"))
+<<<<<<< HEAD
 ```
 
 ## Configurazione Raccomandata
 
+=======
+## Configurazione Raccomandata
+>>>>>>> laraxot/dev
 ```json
 // .vscode/settings.json
 {
@@ -376,26 +480,38 @@ TextInput::make('full_name')
     "filamentphp.format.enabled": true,
     "editor.snippetSuggestions": "top"
 }
+<<<<<<< HEAD
 ```
 
 ## Troubleshooting
 
 ### Problemi Comuni
 
+=======
+## Troubleshooting
+### Problemi Comuni
+>>>>>>> laraxot/dev
 1. **Snippet non funzionano**
    - Verifica che il file sia riconosciuto come PHP
    - Controlla che i suggerimenti snippet siano abilitati
    - Riavvia VSCode
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 2. **Validazione non funziona**
    - Verifica che intelephense sia installato
    - Controlla che il workspace sia trusted
    - Aggiorna il plugin
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 3. **Autocompletamento lento**
    - Riduci la dimensione del workspace
    - Aumenta la memoria disponibile per VSCode
    - Disabilita temporaneamente altre estensioni
+<<<<<<< HEAD
 
 ## Collegamenti
 - [Form Components](form-components.md)
@@ -406,7 +522,37 @@ TextInput::make('full_name')
 
 ## Vedi Anche
 - [VSCode PHP Setup](vscode-php-setup.md)
+=======
+## Collegamenti
+- [Form Components](form-components.md)
+- [Naming Conventions](naming-conventions.md)
+- [Translation System](../../Lang/project_docs/translation-system.md)
+## Vedi Anche
+- [VSCode PHP Setup](vscode-php-setup.md)
+<<<<<<< HEAD
+
+```
+=======
+>>>>>>> laraxot/dev
 - [Development Tools](development-tools.md)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Filament Documentation](https://filamentphp.com/docs)
 - [Filament Documentation](https://filamentphp.com/docs)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [Development Tools](development-tools.md)
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
