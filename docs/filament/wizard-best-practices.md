@@ -5,10 +5,31 @@ tags: [wizard, best, practices]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "wizard-best-practices best practices per i wizard in filament"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -30,7 +51,14 @@ Quando si implementa un `Wizard` in Filament, **non inserire mai direttamente** 
 
 ```php
 // ✅ CORRETTO
+<<<<<<< HEAD
 public static function getFormSchemaWidget(): array
+=======
+<<<<<<< HEAD
+=======
+public static function getFormSchemaWidget(): array
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 public function getFormSchemaWidget(): array
 {
     return [
@@ -58,7 +86,14 @@ protected static function getPersonalDataStep(): Forms\Components\Wizard\Step
 
 ```php
 // ❌ ERRATO
+<<<<<<< HEAD
 public static function getFormSchemaWidget(): array
+=======
+<<<<<<< HEAD
+=======
+public static function getFormSchemaWidget(): array
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 public function getFormSchemaWidget(): array
 {
     return [
@@ -121,7 +156,14 @@ Ogni step di un wizard rappresenta una fase logica distinta del processo. Estrar
 ```php
 class PatientResource extends XotBaseResource
 {
+<<<<<<< HEAD
     public static function getFormSchemaWidget(): array
+=======
+<<<<<<< HEAD
+=======
+    public static function getFormSchemaWidget(): array
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function getFormSchemaWidget(): array
     {
         return [
@@ -161,7 +203,14 @@ class PatientResource extends XotBaseResource
 L'estrazione in metodi dedicati facilita anche la gestione di step condizionali:
 
 ```php
+<<<<<<< HEAD
 public static function getFormSchemaWidget(): array
+=======
+<<<<<<< HEAD
+=======
+public static function getFormSchemaWidget(): array
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 public function getFormSchemaWidget(): array
 {
     $steps = [

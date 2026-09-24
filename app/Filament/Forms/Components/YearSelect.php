@@ -60,7 +60,11 @@ class YearSelect extends XotBaseSelect
 
         $years = [];
 
+<<<<<<< HEAD
         for ($year = $start; $year <= $end; $year++) {
+=======
+        for ($year = $start; $year <= $end; ++$year) {
+>>>>>>> laraxot/dev
             $years[$year] = (string) $year;
         }
 

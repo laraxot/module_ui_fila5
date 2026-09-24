@@ -29,6 +29,10 @@ use PHPUnit\Framework\Assert;
 use ReflectionClass;
 
 use function Safe\mkdir;
+<<<<<<< HEAD
+=======
+use Modules\User\Models\User;
+>>>>>>> laraxot/dev
 
 uses(TestCase::class)->group('no-ui-db');
 
