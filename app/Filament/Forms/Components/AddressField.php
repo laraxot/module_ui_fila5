@@ -29,6 +29,7 @@ class AddressField extends XotBaseField
 
 <<<<<<< HEAD
         $this->afterStateHydrated(function (AddressField $_component, mixed $record): void {
+<<<<<<< .merge_file_FPAuUE
 =======
 <<<<<<< HEAD
         $this->afterStateHydrated(function (AddressField $_component, Model|array|null $record): void {
@@ -45,6 +46,8 @@ class AddressField extends XotBaseField
                 'zip' => null,
             ];
 
+=======
+>>>>>>> .merge_file_YrrHEk
             if (! $record instanceof Model) {
 <<<<<<< HEAD
 =======
@@ -69,9 +72,10 @@ class AddressField extends XotBaseField
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
                 if (null !== $address && is_object($address) && method_exists($address, 'toArray')) {
-                    $data = $address->toArray();
+                    $address->toArray();
                 }
             }
+<<<<<<< .merge_file_FPAuUE
 
 <<<<<<< HEAD
             // }
@@ -88,6 +92,8 @@ class AddressField extends XotBaseField
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_YrrHEk
         });
 
         $this->dehydrated(false);

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_654cBr
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -18,6 +19,8 @@ return merge_translation_files(__DIR__.'/icon_state_group_fields.php', __DIR__.'
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0XOgfv
 return [
     'fields' => [
         'name' => ['label' => 'name', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
@@ -121,8 +124,11 @@ return [
         'done-action' => ['label' => 'done-action', 'icon' => 'done-action', 'tooltip' => 'done-action'],
     ],
 ];
+<<<<<<< .merge_file_654cBr
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0XOgfv

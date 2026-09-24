@@ -17,6 +17,7 @@ Il metodo `buttonLabel()` **NON esiste** sul componente `Filament\Forms\Componen
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< .merge_file_3IU5az
 - [Errore e best practice modulo Patient](../../patient/docs/filament-error-fileupload-buttonlabel.md)
 =======
 <<<<<<< HEAD
@@ -43,6 +44,11 @@ Il metodo `buttonLabel()` **NON esiste** sul componente `Filament\Forms\Componen
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- [Errore e best practice modulo Patient](../../Patient/docs/filament-error-fileupload-buttonlabel.md)
+=======
+- [Errore e best practice modulo Patient](../../patient/docs/filament-error-fileupload-buttonlabel.md)
+>>>>>>> .merge_file_w9uZYo
 >>>>>>> laraxot/dev
 - [Tabella metodi supportati](filament-component-methods.md)
 
@@ -55,12 +61,17 @@ Questa doc va sempre consultata e linkata in ogni review e sviluppo che coinvolg
 
 ## Collegamenti tra versioni di filament-error-fileupload-buttonlabel.md
 <<<<<<< HEAD
+<<<<<<< .merge_file_3IU5az
 * [filament-error-fileupload-buttonlabel.md](../../patient/docs/filament-error-fileupload-buttonlabel.md)
 =======
 <<<<<<< HEAD
 * [filament-error-fileupload-buttonlabel.md](../../Patient/docs/filament-error-fileupload-buttonlabel.md)
 =======
 <<<<<<< HEAD
+=======
+* [filament-error-fileupload-buttonlabel.md](../../Patient/docs/filament-error-fileupload-buttonlabel.md)
+=======
+>>>>>>> .merge_file_w9uZYo
 * [filament-error-fileupload-buttonlabel.md](../../patient/docs/filament-error-fileupload-buttonlabel.md)
 =======
 * [filament-error-fileupload-buttonlabel.md](../../Patient/docs/filament-error-fileupload-buttonlabel.md)
@@ -144,6 +155,7 @@ Questa doc va sempre consultata e linkata in ogni review e sviluppo che coinvolg
 * [filament-error-fileupload-buttonlabel.md](../../patient/project_docs/filament-error-fileupload-buttonlabel.md)
 * [filament-error-fileupload-buttonlabel.md](../../patient/project_docs/filament-error-fileupload-buttonlabel.md)
 * [filament-error-fileupload-buttonlabel.md](../../patient/project_docs/filament-error-fileupload-buttonlabel.md)
+<<<<<<< .merge_file_3IU5az
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -181,4 +193,6 @@ Questa doc va sempre consultata e linkata in ogni review e sviluppo che coinvolg
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_w9uZYo
 >>>>>>> laraxot/dev

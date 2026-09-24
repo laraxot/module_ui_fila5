@@ -32,6 +32,7 @@ Esiste anche in:
 - `Modules/Blog/app/Models/Category.php`
 <<<<<<< HEAD
 - `Modules/Fixcity/app/Models/Category.php`
+<<<<<<< .merge_file_qL1hA9
 =======
 <<<<<<< HEAD
 - `Modules/Fixcity/app/Models/Category.php`
@@ -41,10 +42,13 @@ Esiste anche in:
 <<<<<<< HEAD
 - `Modules/Fixcity/app/Models/Category.php`
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_lqKVtP
 <<<<<<< HEAD
 - `Modules/<nome progetto>/app/Models/Category.php`
 - `Modules/Project/app/Models/Category.php`
 =======
+<<<<<<< .merge_file_qL1hA9
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67,6 +71,8 @@ Esiste anche in:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_lqKVtP
 >>>>>>> laraxot/dev
 
 Verificare se ciascun modulo ha la propria tabella `categories` o se dovrebbe usare un modello condiviso.

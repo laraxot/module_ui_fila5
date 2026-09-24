@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_g0whb9
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_GKeq2S
 ---
 title: "Sistema Componenti UI"
 type: concept
@@ -12,6 +15,7 @@ tags: [component, system]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "component-system sistema componenti ui"
+<<<<<<< .merge_file_g0whb9
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -24,6 +28,12 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_GKeq2S
 related:
   - "./bottlenecks.md"
   - "./form-component.md"
@@ -31,11 +41,16 @@ related:
   - "./theme-system.md"
 ---
 
+<<<<<<< .merge_file_g0whb9
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_GKeq2S
 # Sistema Componenti UI
 
 ## 📊 Stato Implementazione

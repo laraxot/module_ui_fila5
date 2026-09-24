@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_FYNprY
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -18,6 +19,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_qRR9A3
 return [
     'columns' => [
         'state_actions' => [
@@ -37,6 +40,7 @@ return [
         ],
         'label' => 'Table',
         'sort' => 1,
+<<<<<<< .merge_file_FYNprY
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
 =======
@@ -50,6 +54,9 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> .merge_file_qRR9A3
     ],
     'fields' => [
         'id' => [

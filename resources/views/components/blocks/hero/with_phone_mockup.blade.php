@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_7HF6V2
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -28,10 +29,11 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_m37ZDH
 <?php
 
 declare(strict_types=1);
-
 ?>
 <div class="bg-white">
     <header class="absolute inset-x-0 top-0 z-50">

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_k01UaZ
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -18,6 +19,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_LE47An
 return [
     'attributes' => [
         'external-link' => 'Link esterno',
@@ -61,6 +64,7 @@ return [
         ],
         'label' => 'Filament Navigation',
         'sort' => 1,
+<<<<<<< .merge_file_k01UaZ
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
 =======
@@ -74,6 +78,9 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> .merge_file_LE47An
     ],
     'fields' => [
         'id' => [

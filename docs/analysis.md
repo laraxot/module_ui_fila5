@@ -62,11 +62,28 @@ Modules/UI/
 
 ## Collegamenti tra versioni di analysis.md
 <<<<<<< HEAD
+<<<<<<< .merge_file_DPWtZZ
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+* [analysis.md](../../../Notify/docs/analysis.md)
+* [analysis.md](../../../Notify/docs/phpstan/analysis.md)
+* [analysis.md](../../../Xot/docs/analysis.md)
+* [analysis.md](../../../Xot/docs/phpstan/analysis.md)
+* [analysis.md](../../../User/docs/analysis.md)
+* [analysis.md](../../../User/docs/phpstan/analysis.md)
+* [analysis.md](../../../UI/docs/analysis.md)
+* [analysis.md](../../../UI/docs/phpstan/analysis.md)
+* [analysis.md](../../../Job/docs/analysis.md)
+* [analysis.md](../../../Job/docs/phpstan/analysis.md)
+* [analysis.md](../../../Media/docs/analysis.md)
+* [analysis.md](../../../Media/docs/phpstan/analysis.md)
+* [analysis.md](../../../../Themes/One/docs/analysis.md)
+=======
+>>>>>>> .merge_file_eZDgZp
 * [analysis.md](../../../notify/docs/analysis.md)
 * [analysis.md](../../../notify/docs/phpstan/analysis.md)
 * [analysis.md](../../../xot/docs/analysis.md)
@@ -80,6 +97,7 @@ Modules/UI/
 * [analysis.md](../../../media/docs/analysis.md)
 * [analysis.md](../../../media/docs/phpstan/analysis.md)
 * [analysis.md](../../../../themes/one/docs/analysis.md)
+<<<<<<< .merge_file_DPWtZZ
 <<<<<<< HEAD
 =======
 =======
@@ -101,6 +119,8 @@ Modules/UI/
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_eZDgZp
 >>>>>>> laraxot/dev
 
 ### Versione Incoming

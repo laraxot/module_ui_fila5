@@ -14,6 +14,7 @@ use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
+<<<<<<< .merge_file_7GNX1X
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -31,6 +32,8 @@ uses(TestCase::class);
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0heBNv
 
 // --- CornerPositionEnum ---
 
@@ -41,6 +44,7 @@ it('CornerPositionEnum has correct values', function (): void {
     Assert::assertSame('bottom-right', CornerPositionEnum::BOTTOM_RIGHT->value);
 });
 
+<<<<<<< .merge_file_7GNX1X
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -48,12 +52,15 @@ it('CornerPositionEnum has correct values', function (): void {
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 it('CornerPositionEnum getColor returns translation keys via EnumTrait', function (): void {
+=======
+it('CornerPositionEnum getColor returns non-empty strings via EnumTrait', function (): void {
+>>>>>>> .merge_file_0heBNv
     foreach (CornerPositionEnum::cases() as $case) {
-        Assert::assertStringContainsString('ui::corner_position_enum.values.', $case->getColor());
-        Assert::assertStringEndsWith('.color', $case->getColor());
+        Assert::assertNotEmpty($case->getColor());
     }
 });
 
+<<<<<<< .merge_file_7GNX1X
 it('CornerPositionEnum getIcon returns translation keys via EnumTrait', function (): void {
     Assert::assertSame('ui::corner_position_enum.values.top-left.icon', CornerPositionEnum::TOP_LEFT->getIcon());
     Assert::assertSame('ui::corner_position_enum.values.top-right.icon', CornerPositionEnum::TOP_RIGHT->getIcon());
@@ -69,15 +76,20 @@ it('CornerPositionEnum getColor returns non-empty strings via EnumTrait', functi
     }
 });
 
+=======
+>>>>>>> .merge_file_0heBNv
 it('CornerPositionEnum getIcon returns non-empty strings via EnumTrait', function (): void {
     foreach (CornerPositionEnum::cases() as $case) {
         Assert::assertNotEmpty($case->getIcon());
     }
+<<<<<<< .merge_file_7GNX1X
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0heBNv
 });
 
 it('CornerPositionEnum getCssClass returns correct CSS classes', function (): void {
@@ -159,6 +171,7 @@ it('TableLayout getLabel returns non-empty strings via EnumTrait', function (): 
     Assert::assertNotEmpty(TableLayout::GRID->getLabel());
 });
 
+<<<<<<< .merge_file_7GNX1X
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -190,6 +203,16 @@ it('TableLayout getIcon returns resolved heroicon names', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+it('TableLayout getColor returns resolved enum colors', function (): void {
+    Assert::assertSame('primary', TableLayout::LIST->getColor());
+    Assert::assertSame('secondary', TableLayout::GRID->getColor());
+});
+
+it('TableLayout getIcon returns resolved heroicon names', function (): void {
+    Assert::assertSame('heroicon-o-list-bullet', TableLayout::LIST->getIcon());
+    Assert::assertSame('heroicon-o-squares-2x2', TableLayout::GRID->getIcon());
+>>>>>>> .merge_file_0heBNv
 });
 
 it('TableLayout toggle switches between layouts', function (): void {

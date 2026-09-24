@@ -20,6 +20,12 @@ docs/
 │   ├── index.md           # Catalogo
 │   ├── log.md             # Registro
 <<<<<<< HEAD
+<<<<<<< .merge_file_hFkCy0
+=======
+│   ├── schema.md          # Questo file
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_UvjOtE
 │   ├── SCHEMA.md          # Questo file
 <<<<<<< HEAD
 │   ├── schema.md          # Questo file
@@ -28,6 +34,10 @@ docs/
 │   ├── schema.md          # Questo file
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_hFkCy0
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_UvjOtE
 │   ├── concepts/          # Pattern, architettura
 │   ├── entities/          # Modelli, azioni
 │   ├── sources/           # Doc esterna

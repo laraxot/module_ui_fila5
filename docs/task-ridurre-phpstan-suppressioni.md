@@ -4,6 +4,7 @@
 **Priorita'**: Alta
 **Completamento**: 0%
 <<<<<<< HEAD
+<<<<<<< .merge_file_zpLWqy
 =======
 <<<<<<< HEAD
 **Data**: 2026-01-30
@@ -13,6 +14,10 @@
 **Data**: 2026-01-30
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+**Data**: 2026-01-30
+=======
+>>>>>>> .merge_file_p8DBWV
 >>>>>>> laraxot/dev
 
 ---

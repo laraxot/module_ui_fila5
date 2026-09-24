@@ -24,6 +24,7 @@ Un componente avanzato per la selezione di date che mostra un calendario inline 
 ```php
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 <<<<<<< HEAD
+<<<<<<< .merge_file_8tM33n
 InlineDatePicker::make('appointment_date')
     ->enabledDates(['[DATE]', '[DATE]', '[DATE]'])
 =======
@@ -69,6 +70,24 @@ InlineDatePicker::make('appointment_date')
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+I componenti form forniscono elementi di input e validazione per la creazione di form complessi e interattivi.
+
+## Componenti Disponibili
+
+### InlineDatePicker
+
+Un componente avanzato per la selezione di date che mostra un calendario inline con la possibilità di abilitare/disabilitare date specifiche.
+
+```php
+use Modules\UI\Filament\Forms\Components\InlineDatePicker;
+
+InlineDatePicker::make('appointment_date')
+    ->enabledDates(['2025-06-05', '2025-06-21', '2025-06-25'])
+=======
+InlineDatePicker::make('appointment_date')
+    ->enabledDates(['[DATE]', '[DATE]', '[DATE]'])
+>>>>>>> .merge_file_ZBrH2F
 >>>>>>> laraxot/dev
     ->calendarConfig([
         'locale' => 'it',
@@ -78,6 +97,7 @@ InlineDatePicker::make('appointment_date')
     ->required();
 ```
 <<<<<<< HEAD
+<<<<<<< .merge_file_8tM33n
 #### Caratteristiche Principali
 =======
 <<<<<<< HEAD
@@ -109,6 +129,13 @@ InlineDatePicker::make('appointment_date')
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+#### Caratteristiche Principali
+
+=======
+#### Caratteristiche Principali
+>>>>>>> .merge_file_ZBrH2F
 >>>>>>> laraxot/dev
 - **Selezione Controllata**: Solo le date specificate in `enabledDates()` sono selezionabili
 - **Interfaccia Intuitiva**: Navigazione tra mesi con frecce e visualizzazione chiara
@@ -118,6 +145,7 @@ InlineDatePicker::make('appointment_date')
 - **Internazionalizzazione**: Supporto integrato per diverse lingue e formati di data
 - **Performance Ottimizzate**: Caricamento lazy dei dati e rendering efficiente
 <<<<<<< HEAD
+<<<<<<< .merge_file_8tM33n
 #### Metodi Disponibili
 =======
 <<<<<<< HEAD
@@ -149,6 +177,13 @@ InlineDatePicker::make('appointment_date')
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+#### Metodi Disponibili
+
+=======
+#### Metodi Disponibili
+>>>>>>> .merge_file_ZBrH2F
 >>>>>>> laraxot/dev
 | Metodo | Parametri | Descrizione |
 |--------|-----------|-------------|
@@ -178,6 +213,7 @@ InlineDatePicker::make('appointment_date')
 >>>>>>> laraxot/dev
 
 #### Configurazione Avanzata
+<<<<<<< .merge_file_8tM33n
 
 ```php
 InlineDatePicker::make('appointment_date')
@@ -191,6 +227,13 @@ InlineDatePicker::make('appointment_date')
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+```php
+InlineDatePicker::make('appointment_date')
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZBrH2F
     ->enabledDates(function () {
         // Logica dinamica per generare le date abilitate
         return [
@@ -200,6 +243,7 @@ InlineDatePicker::make('appointment_date')
         ];
     })
 <<<<<<< HEAD
+<<<<<<< .merge_file_8tM33n
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -222,6 +266,10 @@ InlineDatePicker::make('appointment_date')
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    ->calendarConfig([
+=======
+>>>>>>> .merge_file_ZBrH2F
 >>>>>>> laraxot/dev
         'locale' => app()->getLocale(),
         'firstDayOfWeek' => 1, // Lunedì
@@ -264,6 +312,7 @@ Lo stile del componente può essere personalizzato sovrascrivendo le classi CSS 
 `resources/views/vendor/filament/forms/components/inline-date-picker.blade.php`
 
 #### Gestione degli Eventi
+<<<<<<< .merge_file_8tM33n
 
 ```php
 InlineDatePicker::make('appointment_date')
@@ -279,6 +328,22 @@ InlineDatePicker::make('appointment_date')
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+```
+
+#### Personalizzazione dello Stile
+
+Lo stile del componente può essere personalizzato sovrascrivendo le classi CSS nel file di vista:
+`resources/views/vendor/filament/forms/components/inline-date-picker.blade.php`
+
+#### Gestione degli Eventi
+
+```php
+InlineDatePicker::make('appointment_date')
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZBrH2F
     ->enabledDates($enabledDates)
     ->live()
     ->afterStateUpdated(function (Set $set, $state) {
@@ -302,15 +367,41 @@ InlineDatePicker::make('appointment_date')
 $enabledDates = $datePicker->getEnabledDates();
 // Verificare se una data è abilitata
 <<<<<<< HEAD
+<<<<<<< .merge_file_8tM33n
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+$isEnabled = $datePicker->isDateEnabled('2025-06-15');
+// Generare la griglia di un mese specifico
+$monthGrid = $datePicker->generateMonthGrid(2025, 6);
+#### Best Practice
+```
+
+#### Accesso ai Dati
+
+```php
+// Ottenere le date abilitate
+$enabledDates = $datePicker->getEnabledDates();
+
+// Verificare se una data è abilitata
+$isEnabled = $datePicker->isDateEnabled('2025-06-15');
+
+// Generare la griglia di un mese specifico
+$monthGrid = $datePicker->generateMonthGrid(2025, 6);
+```
+
+#### Best Practice
+
+=======
+>>>>>>> .merge_file_ZBrH2F
 $isEnabled = $datePicker->isDateEnabled('[DATE]');
 // Generare la griglia di un mese specifico
 $monthGrid = $datePicker->generateMonthGrid(2025, 6);
 #### Best Practice
+<<<<<<< .merge_file_8tM33n
 <<<<<<< HEAD
 =======
 =======
@@ -352,6 +443,8 @@ $monthGrid = $datePicker->generateMonthGrid(2025, 6);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ZBrH2F
 >>>>>>> laraxot/dev
 1. **Performance**: Per un gran numero di date, utilizzare una closure per generare le date abilitate in modo lazy
 2. **Accessibilità**: Assicurarsi che il componente sia accessibile da tastiera
@@ -377,6 +470,7 @@ public function form(Form $form): Form
 public function form(Form $form): Form
 public function form(Form $form): Form
 <<<<<<< HEAD
+<<<<<<< .merge_file_8tM33n
 =======
 <<<<<<< HEAD
 =======
@@ -388,6 +482,8 @@ public function form(Form $form): Form
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ZBrH2F
 
 #### Esempio Completo
 
@@ -397,6 +493,7 @@ use Filament\Forms\Components\Section;
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 
 public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
+<<<<<<< .merge_file_8tM33n
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -409,6 +506,10 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZBrH2F
 {
     return $form->schema([
         Section::make('Prenotazione Appuntamento')
@@ -421,6 +522,7 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
                         $date = now();
                         $count = 0;
 <<<<<<< HEAD
+<<<<<<< .merge_file_8tM33n
 
 =======
 <<<<<<< HEAD
@@ -445,6 +547,10 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_ZBrH2F
 >>>>>>> laraxot/dev
                         while ($count < 30) {
                             if (!$date->isWeekend()) {
@@ -503,6 +609,7 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     type="email"
     label="Email"
 <<<<<<< HEAD
+<<<<<<< .merge_file_8tM33n
 =======
 <<<<<<< HEAD
 =======
@@ -514,6 +621,8 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ZBrH2F
     ]);
 }
 ```
@@ -524,6 +633,7 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     name="email" 
     type="email" 
     label="Email" 
+<<<<<<< .merge_file_8tM33n
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -536,6 +646,10 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZBrH2F
     placeholder="Inserisci la tua email"
     :required="true"
     :disabled="false"
@@ -564,16 +678,20 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 <x-ui::select
     name="role"
 <<<<<<< HEAD
+<<<<<<< .merge_file_8tM33n
 =======
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ZBrH2F
 ```
 
 ### Select
 ```blade
 <x-ui::select 
     name="role" 
+<<<<<<< .merge_file_8tM33n
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -586,6 +704,10 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZBrH2F
     label="Ruolo"
     :options="[
         'admin' => 'Amministratore',
@@ -593,6 +715,7 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
         'guest' => 'Ospite'
     ]"
 <<<<<<< HEAD
+<<<<<<< .merge_file_8tM33n
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -615,6 +738,10 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    :required="true"
+=======
+>>>>>>> .merge_file_ZBrH2F
 >>>>>>> laraxot/dev
     :multiple="false"
     :searchable="true"
@@ -655,6 +782,7 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     :error="$errors->first('message')"
 ## Validazione
 <<<<<<< HEAD
+<<<<<<< .merge_file_8tM33n
 =======
 <<<<<<< HEAD
 =======
@@ -666,6 +794,8 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ZBrH2F
 />
 ```
 
@@ -712,6 +842,7 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 
 ## Validazione
 
+<<<<<<< .merge_file_8tM33n
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -724,6 +855,10 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZBrH2F
 ### Regole
 - Required
 - Min/Max length
@@ -773,6 +908,7 @@ class UserForm extends Component
     public $email;
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_8tM33n
 =======
 <<<<<<< HEAD
 =======
@@ -784,6 +920,8 @@ class UserForm extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ZBrH2F
 
 ## Integrazione
 
@@ -796,6 +934,7 @@ class UserForm extends Component
     public $name;
     public $email;
     
+<<<<<<< .merge_file_8tM33n
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -808,6 +947,10 @@ class UserForm extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZBrH2F
     protected $rules = [
         'name' => 'required|min:3',
         'email' => 'required|email',
@@ -838,6 +981,7 @@ class UserForm extends Component
         // Salva i dati
     }
 <<<<<<< HEAD
+<<<<<<< .merge_file_8tM33n
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -866,6 +1010,12 @@ class UserForm extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+}
+```
+
+=======
+>>>>>>> .merge_file_ZBrH2F
 >>>>>>> laraxot/dev
 ### JavaScript
 ```javascript
@@ -878,6 +1028,7 @@ form.addEventListener('submit', (e) => {
 <<<<<<< HEAD
 });
 ## Best Practices
+<<<<<<< .merge_file_8tM33n
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -913,6 +1064,13 @@ form.addEventListener('submit', (e) => {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+    }
+```
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZBrH2F
 ### Utilizzo
 - Validazione lato server e client
 - Feedback immediato
@@ -969,11 +1127,24 @@ form.addEventListener('submit', (e) => {
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
 <<<<<<< HEAD
+<<<<<<< .merge_file_8tM33n
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+# Componenti Form
+- [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
+## Collegamenti tra versioni di form-components.md
+* [form-components.md](../../../UI/project_docs/form-components.md)
+* [form-components.md](../../../UI/project_docs/roadmap/form-components.md)
+- [Documentazione Frontend](../Cms/docs/frontend-architecture.md)
+* [form-components.md](../../../UI/docs/form-components.md)
+* [form-components.md](../../../UI/docs/roadmap/form-components.md)
+# Componenti Form
+=======
+>>>>>>> .merge_file_ZBrH2F
 - [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
 ## Collegamenti tra versioni di form-components.md
 * [form-components.md](../../../ui/project_docs/form-components.md)
@@ -983,6 +1154,7 @@ form.addEventListener('submit', (e) => {
 * [form-components.md](../../../ui/docs/roadmap/form-components.md)
 # Componenti Form
 
+>>>>>>> laraxot/dev
 ## Introduzione
 <<<<<<< HEAD
 =======
@@ -1035,6 +1207,7 @@ use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 
 InlineDatePicker::make('appointment_date')
 <<<<<<< HEAD
+<<<<<<< .merge_file_8tM33n
     ->enabledDates(['[DATE]', '[DATE]', '[DATE]'])
 =======
 <<<<<<< HEAD
@@ -1046,6 +1219,11 @@ InlineDatePicker::make('appointment_date')
     ->enabledDates(['2025-06-05', '2025-06-21', '2025-06-25'])
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    ->enabledDates(['2025-06-05', '2025-06-21', '2025-06-25'])
+=======
+    ->enabledDates(['[DATE]', '[DATE]', '[DATE]'])
+>>>>>>> .merge_file_ZBrH2F
 >>>>>>> laraxot/dev
     ->calendarConfig([
         'locale' => 'it',
@@ -1120,6 +1298,7 @@ $enabledDates = $datePicker->getEnabledDates();
 
 // Verificare se una data è abilitata
 <<<<<<< HEAD
+<<<<<<< .merge_file_8tM33n
 $isEnabled = $datePicker->isDateEnabled('[DATE]');
 =======
 <<<<<<< HEAD
@@ -1131,6 +1310,11 @@ $isEnabled = $datePicker->isDateEnabled('[DATE]');
 $isEnabled = $datePicker->isDateEnabled('2025-06-15');
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+$isEnabled = $datePicker->isDateEnabled('2025-06-15');
+=======
+$isEnabled = $datePicker->isDateEnabled('[DATE]');
+>>>>>>> .merge_file_ZBrH2F
 >>>>>>> laraxot/dev
 
 // Generare la griglia di un mese specifico
@@ -1174,12 +1358,15 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 public function form(Form $form): Form
 public function form(Form $form): Form
+<<<<<<< .merge_file_8tM33n
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ZBrH2F
 >>>>>>> laraxot/dev
 {
     return $form->schema([
@@ -1193,6 +1380,7 @@ public function form(Form $form): Form
                         $date = now();
                         $count = 0;
 <<<<<<< HEAD
+<<<<<<< .merge_file_8tM33n
 
 =======
 <<<<<<< HEAD
@@ -1213,6 +1401,10 @@ public function form(Form $form): Form
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_ZBrH2F
 >>>>>>> laraxot/dev
                         while ($count < 30) {
                             if (!$date->isWeekend()) {
@@ -1222,6 +1414,7 @@ public function form(Form $form): Form
                             $date->addDay();
                         }
 <<<<<<< HEAD
+<<<<<<< .merge_file_8tM33n
 
 =======
 <<<<<<< HEAD
@@ -1242,6 +1435,10 @@ public function form(Form $form): Form
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_ZBrH2F
 >>>>>>> laraxot/dev
                         return $dates;
                     })
@@ -1260,6 +1457,7 @@ public function form(Form $form): Form
 ### Input
 ```blade
 <<<<<<< HEAD
+<<<<<<< .merge_file_8tM33n
 =======
 <<<<<<< HEAD
 =======
@@ -1270,10 +1468,13 @@ public function form(Form $form): Form
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ZBrH2F
 <x-ui::input 
     name="email" 
     type="email" 
     label="Email" 
+<<<<<<< .merge_file_8tM33n
 <<<<<<< HEAD
 =======
 =======
@@ -1283,6 +1484,10 @@ public function form(Form $form): Form
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZBrH2F
 <x-ui::input
     name="email"
     type="email"
@@ -1475,6 +1680,7 @@ class UserForm extends Component
     public $name;
     public $email;
 <<<<<<< HEAD
+<<<<<<< .merge_file_8tM33n
 
 =======
 <<<<<<< HEAD
@@ -1495,12 +1701,17 @@ class UserForm extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_ZBrH2F
 >>>>>>> laraxot/dev
     protected $rules = [
         'name' => 'required|min:3',
         'email' => 'required|email',
     ];
 <<<<<<< HEAD
+<<<<<<< .merge_file_8tM33n
 
 =======
 <<<<<<< HEAD
@@ -1521,6 +1732,10 @@ class UserForm extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_ZBrH2F
 >>>>>>> laraxot/dev
     public function save()
     {
@@ -1562,15 +1777,36 @@ form.addEventListener('submit', (e) => {
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
 <<<<<<< HEAD
+<<<<<<< .merge_file_8tM33n
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+- [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
+## Collegamenti tra versioni di form-components.md
+* [form-components.md](../../../UI/docs/form-components.md)
+* [form-components.md](../../../UI/docs/roadmap/form-components.md)
+- [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md) 
+## Collegamenti tra versioni di form-components.md
+* [form-components.md](../../../UI/project_docs/form-components.md)
+* [form-components.md](../../../UI/project_docs/roadmap/form-components.md)
+- [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
+## Collegamenti tra versioni di form-components.md
+* [form-components.md](../../../UI/project_docs/form-components.md)
+* [form-components.md](../../../UI/project_docs/roadmap/form-components.md)
+- [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md) 
+## Collegamenti tra versioni di form-components.md
+* [form-components.md](../../../UI/project_docs/form-components.md)
+* [form-components.md](../../../UI/project_docs/roadmap/form-components.md)
+=======
+>>>>>>> .merge_file_ZBrH2F
 - [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
 ## Collegamenti tra versioni di form-components.md
 * [form-components.md](../../../ui/project_docs/form-components.md)
 * [form-components.md](../../../ui/project_docs/roadmap/form-components.md)
+<<<<<<< .merge_file_8tM33n
 <<<<<<< HEAD
 =======
 =======
@@ -1622,4 +1858,6 @@ form.addEventListener('submit', (e) => {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ZBrH2F
 >>>>>>> laraxot/dev

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_jqaPDZ
 =======
 <<<<<<< HEAD
 =======
@@ -18,6 +19,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_SWO1HI
 ---
 title: "custom_theme"
 type: concept
@@ -38,6 +41,7 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+<<<<<<< .merge_file_jqaPDZ
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
@@ -56,6 +60,10 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SWO1HI
 # custom_theme
 
 <!-- Contenuto migrato da _docs/custom_theme.txt -->

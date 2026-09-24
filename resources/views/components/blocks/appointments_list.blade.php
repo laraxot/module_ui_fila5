@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_oGr8rg
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -27,10 +28,11 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_zD1SAk
 <?php
 
 declare(strict_types=1);
-
 ?>
 @props(['title' => 'Appuntamenti'])
 

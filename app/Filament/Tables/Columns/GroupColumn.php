@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Tables\Columns\Column;
+<<<<<<< .merge_file_tR081w
 <<<<<<< HEAD
 
 class GroupColumn extends Column
@@ -19,6 +20,11 @@ class GroupColumn extends Column
 use Filament\Tables\Table;
 use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
 
+=======
+use Filament\Tables\Table;
+use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
+
+>>>>>>> .merge_file_qrATa5
 /**
  * Groups multiple Filament columns in one cell.
  *
@@ -27,11 +33,14 @@ use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
  * "The column [x] is not mounted to a table".
  */
 class GroupColumn extends XotBaseColumn
+<<<<<<< .merge_file_tR081w
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_qrATa5
 {
     /** @var array<int|string, mixed> */
     public array $form = [];
@@ -82,8 +91,9 @@ class GroupColumn extends XotBaseColumn
 >>>>>>> laraxot/dev
      * @param array<int|string, mixed> $form
      */
-    public function schema(array $form): self
+    public function schema(array $form): static
     {
+<<<<<<< .merge_file_tR081w
         // Type-check to ensure all elements are Column instances
         $filtered = array_filter($form, function (mixed $item): bool {
 <<<<<<< HEAD
@@ -100,6 +110,9 @@ class GroupColumn extends XotBaseColumn
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        $filtered = array_filter($form, static function (mixed $item): bool {
+>>>>>>> .merge_file_qrATa5
             return $item instanceof Column;
         });
 
@@ -107,6 +120,7 @@ class GroupColumn extends XotBaseColumn
         $filteredValues = array_values($filtered);
         $this->schema = $filteredValues;
 
+<<<<<<< .merge_file_tR081w
 <<<<<<< HEAD
         return $this;
     }
@@ -119,10 +133,22 @@ class GroupColumn extends XotBaseColumn
 =======
 >>>>>>> laraxot/dev
         $this->mountChildrenToTable($this->table);
+=======
+        $this->mountChildrenToTable($this->table);
 
         return $this;
     }
 
+    public function table(?Table $table): static
+    {
+        parent::table($table);
+        $this->mountChildrenToTable($table);
+>>>>>>> .merge_file_qrATa5
+
+        return $this;
+    }
+
+<<<<<<< .merge_file_tR081w
     public function table(?Table $table): static
     {
         parent::table($table);
@@ -134,6 +160,11 @@ class GroupColumn extends XotBaseColumn
     private function mountChildrenToTable(?Table $table): void
     {
         if ($table === null) {
+=======
+    private function mountChildrenToTable(?Table $table): void
+    {
+        if (null === $table) {
+>>>>>>> .merge_file_qrATa5
             return;
         }
 
@@ -141,9 +172,12 @@ class GroupColumn extends XotBaseColumn
             $child->table($table);
         }
     }
+<<<<<<< .merge_file_tR081w
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_qrATa5
 }

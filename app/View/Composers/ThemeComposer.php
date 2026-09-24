@@ -29,6 +29,7 @@ final class ThemeComposer
         return view($view);
     }
 
+<<<<<<< .merge_file_LTtgOH
 <<<<<<< HEAD
     public function metatag(string $index): mixed
 =======
@@ -42,10 +43,14 @@ final class ThemeComposer
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    public function metatag(string $index): string|bool|null
+>>>>>>> .merge_file_ISC1he
     {
         // $ris = self::__getStatic($index);
         // echo '<br/>['.$index.']['.$ris.']';
         // if ('' === $ris || null === $ris) {
+<<<<<<< .merge_file_LTtgOH
 <<<<<<< HEAD
         return config('metatag.'.$index);
 =======
@@ -63,6 +68,11 @@ final class ThemeComposer
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        $value = config('metatag.'.$index);
+
+        return is_string($value) || is_bool($value) ? $value : null;
+>>>>>>> .merge_file_ISC1he
     }
 
     public function showScripts(): string

@@ -134,15 +134,25 @@ grep -r "__(" Modules/UI/app/Enums/
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< .merge_file_YJLIwJ
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+- [../../../../docs/enum-transclass-rule.md](../../../../docs/enum-transclass-rule.md)
+- [../filament/no-label-rule.md](../filament/no-label-rule.md)
+- [../clean-code/no-obvious-comments.md](../clean-code/no-obvious-comments.md)
+
+*Ultimo aggiornamento: 2025-08-04*
+=======
+>>>>>>> .merge_file_qNoODl
 - [../../../../../docs/enum-transclass-rule.md](../../../../../docs/enum-transclass-rule.md)
 - [../filament/no-label-rule.md](../filament/no-label-rule.md)
 - [../clean-code/no-obvious-comments.md](../clean-code/no-obvious-comments.md)
 
+<<<<<<< .merge_file_YJLIwJ
 <<<<<<< HEAD
 =======
 =======
@@ -156,4 +166,6 @@ grep -r "__(" Modules/UI/app/Enums/
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_qNoODl
 >>>>>>> laraxot/dev

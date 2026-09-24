@@ -14,6 +14,7 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 
 <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-1 p-1">
 <<<<<<< HEAD
+<<<<<<< .merge_file_SEA8j8
 =======
 <<<<<<< HEAD
 =======
@@ -35,10 +36,13 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_j3kMXb
     <x-filament::icon-button 
         icon="heroicon-m-plus" 
         wire:click="prova({{ $record->id }})" 
         label="Test Azione" 
+<<<<<<< .merge_file_SEA8j8
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -55,6 +59,10 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_j3kMXb
     <x-filament::icon-button
         icon="heroicon-m-plus"
         wire:click="prova({{ $record->id }})"
@@ -143,6 +151,7 @@ public function prova($recordId): void
 ### Nel Template
 ```blade
 <<<<<<< HEAD
+<<<<<<< .merge_file_SEA8j8
 =======
 <<<<<<< HEAD
 =======
@@ -164,10 +173,13 @@ public function prova($recordId): void
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_j3kMXb
 <x-filament::icon-button 
     icon="heroicon-m-plus" 
     wire:click="prova({{ $record->id }})" 
     label="Test Azione" 
+<<<<<<< .merge_file_SEA8j8
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -184,6 +196,10 @@ public function prova($recordId): void
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_j3kMXb
 <x-filament::icon-button
     icon="heroicon-m-plus"
     wire:click="prova({{ $record->id }})"
@@ -248,6 +264,7 @@ public function transitionState($recordId, $stateClass): void
     $record = $this->modelClass::find($recordId);
     $record->state->transitionTo($stateClass);
 <<<<<<< HEAD
+<<<<<<< .merge_file_SEA8j8
 
 =======
 <<<<<<< HEAD
@@ -286,6 +303,10 @@ public function transitionState($recordId, $stateClass): void
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_j3kMXb
 >>>>>>> laraxot/dev
     \Filament\Notifications\Notification::make()
         ->title('Transizione Completata')
@@ -297,6 +318,7 @@ public function transitionState($recordId, $stateClass): void
 ### 2. Aggiungere il pulsante nel template
 ```blade
 <<<<<<< HEAD
+<<<<<<< .merge_file_SEA8j8
 =======
 <<<<<<< HEAD
 =======
@@ -318,10 +340,13 @@ public function transitionState($recordId, $stateClass): void
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_j3kMXb
 <x-filament::icon-button 
     icon="heroicon-o-arrow-right" 
     wire:click="transitionState({{ $record->id }}, '{{ $stateClass }}')" 
     label="Cambia Stato" 
+<<<<<<< .merge_file_SEA8j8
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -338,6 +363,10 @@ public function transitionState($recordId, $stateClass): void
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_j3kMXb
 <x-filament::icon-button
     icon="heroicon-o-arrow-right"
     wire:click="transitionState({{ $record->id }}, '{{ $stateClass }}')"
@@ -381,6 +410,7 @@ La soluzione semplice è la migliore perché:
 ---
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_SEA8j8
 
 =======
 <<<<<<< HEAD
@@ -415,6 +445,13 @@ La soluzione semplice è la migliore perché:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+**Last Updated**: June 2025
+**Version**: 2.3
+**Compatibility**: Filament 4.x, Laravel 10.x 
+=======
+
+>>>>>>> .merge_file_j3kMXb
 **Compatibility**: Filament 3.x, Laravel 10.x
 # IconStateSplitColumn Actions Implementation - Soluzione Semplice
 
@@ -568,6 +605,7 @@ La soluzione semplice è la migliore perché:
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
+<<<<<<< .merge_file_SEA8j8
 <<<<<<< HEAD
 =======
 =======
@@ -596,4 +634,6 @@ La soluzione semplice è la migliore perché:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_j3kMXb
 >>>>>>> laraxot/dev

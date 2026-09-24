@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_WW8XOe
 =======
 <<<<<<< HEAD
 =======
@@ -18,6 +19,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_izYozF
 ---
 title: "flip_cards"
 type: concept
@@ -38,6 +41,7 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+<<<<<<< .merge_file_WW8XOe
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
@@ -141,6 +145,8 @@ https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
 <<<<<<< HEAD
 =======
+>>>>>>> .merge_file_izYozF
+=======
 # flip_cards
 
 <!-- Contenuto migrato da _docs/flip_cards.txt -->
@@ -167,6 +173,7 @@ https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
 <<<<<<< HEAD
 =======
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+>>>>>>> laraxot/dev
 # flip_cards
 
 =======

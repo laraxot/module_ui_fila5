@@ -7,6 +7,7 @@ namespace Modules\UI\Filament\Tables\Columns;
 <<<<<<< HEAD
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
+<<<<<<< .merge_file_1u1WPg
 use Filament\Tables\Columns\Column;
 =======
 <<<<<<< HEAD
@@ -25,10 +26,13 @@ use Filament\Notifications\Notification;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_wQHvmM
 use Illuminate\Database\Eloquent\Model;
 use Livewire\Attributes\On;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Contracts\StateContract;
+<<<<<<< .merge_file_1u1WPg
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -40,6 +44,9 @@ use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
+>>>>>>> .merge_file_wQHvmM
 
 /**
  * IconStateSplitColumn - Enhanced state transition column with compact grid layout.
@@ -51,6 +58,7 @@ use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
  * - Proper error handling and notifications
  * - Mobile-friendly design
  */
+<<<<<<< .merge_file_1u1WPg
 <<<<<<< HEAD
 final class IconStateSplitColumn extends Column
 =======
@@ -64,6 +72,9 @@ final class IconStateSplitColumn extends XotBaseColumn
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+final class IconStateSplitColumn extends XotBaseColumn
+>>>>>>> .merge_file_wQHvmM
 {
     protected string $view = 'ui::filament.tables.columns.icon-state-split';
 
@@ -84,6 +95,7 @@ final class IconStateSplitColumn extends XotBaseColumn
 >>>>>>> laraxot/dev
      * @param string $stateClass The state machine class (e.g., AppointmentState::class)
      * @param string $modelClass The model class (e.g., Appointment::class)
+<<<<<<< .merge_file_1u1WPg
      * @param string $stateClass The state machine class (e.g., AppointmentState::class)
      * @param string $modelClass The model class (e.g., Appointment::class)
 <<<<<<< HEAD
@@ -94,6 +106,8 @@ final class IconStateSplitColumn extends XotBaseColumn
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_wQHvmM
      */
     public function stateClass(string $stateClass, string $modelClass): static
     {
@@ -281,6 +295,7 @@ final class IconStateSplitColumn extends XotBaseColumn
         return [];
     }
 
+<<<<<<< .merge_file_1u1WPg
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -307,6 +322,15 @@ final class IconStateSplitColumn extends XotBaseColumn
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    /**
+     * @param array<array-key, mixed>|Model|null $record
+     */
+    private function getStateInstance(string $stateClassItem, Model|array|null $record): ?StateContract
+    {
+        try {
+            if (! class_exists($stateClassItem)) {
+>>>>>>> .merge_file_wQHvmM
                 return null;
             }
 
@@ -365,6 +389,7 @@ final class IconStateSplitColumn extends XotBaseColumn
 <<<<<<< HEAD
      * @param array{class: StateContract, icon: string, label: string, color: string, tooltip: string} $stateData
      * @param array{class: StateContract, icon: string, label: string, color: string, tooltip: string} $stateData
+<<<<<<< .merge_file_1u1WPg
 =======
 <<<<<<< HEAD
      * @param  array{class: StateContract, icon: string, label: string, color: string, tooltip: string}  $stateData
@@ -377,6 +402,8 @@ final class IconStateSplitColumn extends XotBaseColumn
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_wQHvmM
      */
     private function getTransitionAction(string $stateKey, array $stateData): ?Action
     {

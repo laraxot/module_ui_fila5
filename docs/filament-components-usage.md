@@ -1,4 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_VqyrF1
+=======
+# Utilizzo dei Componenti Filament
+
+## Collegamenti correlati
+- [README modulo UI](/laravel/Modules/UI/docs/README.md)
+- [Architettura Modulare](/docs/architettura-modulare.md)
+- [Percorsi e Asset](/laravel/Modules/UI/docs/paths-and-assets.md)
+=======
+>>>>>>> .merge_file_FWKTBa
 # Utilizzo dei Componenti Filament 
 =======
 <<<<<<< HEAD
@@ -11,6 +21,7 @@
 - [README modulo UI](/laravel/modules/ui/docs/readme.md)
 - [Architettura Modulare](/docs/architettura-modulare.md)
 - [Percorsi e Asset](/laravel/modules/ui/docs/paths_and_assets.md)
+<<<<<<< .merge_file_VqyrF1
 <<<<<<< HEAD
 =======
 =======
@@ -47,6 +58,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_FWKTBa
 >>>>>>> laraxot/dev
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
 
@@ -208,6 +221,7 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
     </x-filament::dropdown.item>
     
 <<<<<<< HEAD
+<<<<<<< .merge_file_VqyrF1
 =======
 <<<<<<< HEAD
 =======
@@ -225,11 +239,14 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_FWKTBa
 
     <x-filament::dropdown.item wire:click="action">
         Azione 1
     </x-filament::dropdown.item>
 
+<<<<<<< .merge_file_VqyrF1
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
@@ -247,6 +264,9 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> .merge_file_FWKTBa
 >>>>>>> laraxot/dev
     <x-filament::dropdown.item href="#">
         Azione 2
@@ -267,6 +287,7 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 
 1. **Utilizzo del prefisso errato**: Utilizzare `x-ui-icon` invece di `x-filament::icon`
 <<<<<<< HEAD
+<<<<<<< .merge_file_VqyrF1
 2. **Percorso errato del provider**: Utilizzare `/var/www/html/Quaeris/laravel/Modules/UI/Providers/UIServiceProvider.php` invece di `/var/www/html/Quaeris/laravel/Modules/UI/app/Providers/UIServiceProvider.php`
 =======
 <<<<<<< HEAD
@@ -312,6 +333,11 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+2. **Percorso errato del provider**: Utilizzare `Modules/UI/Providers/UIServiceProvider.php` invece di `Modules/UI/app/Providers/UIServiceProvider.php`
+=======
+2. **Percorso errato del provider**: Utilizzare `/var/www/html/Quaeris/laravel/Modules/UI/Providers/UIServiceProvider.php` invece di `/var/www/html/Quaeris/laravel/Modules/UI/app/Providers/UIServiceProvider.php`
+>>>>>>> .merge_file_FWKTBa
 >>>>>>> laraxot/dev
 3. **Creazione di componenti duplicati**: Creare componenti personalizzati che duplicano funzionalità già fornite da Filament
 4. **Mancata verifica dei componenti esistenti**: Non controllare se un componente è già disponibile in Filament prima di crearne uno personalizzato

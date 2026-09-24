@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_OA6GcF
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -18,6 +19,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_OBpmNN
 return [
     'opening_hours' => [
         'morning' => 'mattino',
@@ -38,6 +41,7 @@ return [
         ],
         'label' => 'Validation',
         'sort' => 1,
+<<<<<<< .merge_file_OA6GcF
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
 =======
@@ -51,6 +55,9 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> .merge_file_OBpmNN
     ],
     'fields' => [
         'id' => [

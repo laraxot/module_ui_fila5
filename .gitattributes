@@ -1,3 +1,7 @@
+<<<<<<< .merge_file_LBZUha
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_kEvjkm
 # Prototype: laravel/Modules/* e laravel/Themes/*
 # Canon: docs/wiki/rules/no-git-lfs.md
 # Sync: bash bashscripts/templates/sync-gitattributes-modules.sh
@@ -5,11 +9,20 @@
 # Git LFS VIETATO. Binari = blob git normali.
 # Mai: filter=lfs / diff=lfs / merge=lfs
 
+<<<<<<< .merge_file_LBZUha
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_kEvjkm
 * text=auto
 *.css linguist-vendored
 *.scss linguist-vendored
 *.js linguist-vendored
 CHANGELOG.md export-ignore
+<<<<<<< .merge_file_LBZUha
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_kEvjkm
 # Binary files (regular git blobs — NO git-lfs)
 # `binary` + `!filter` azzera eventuali filtri LFS ereditati
 *.png binary !filter
@@ -36,3 +49,9 @@ CHANGELOG.md export-ignore
 *.jpeg !text !filter !merge !diff
 *.gif !text !filter !merge !diff
 *.webp !text !filter !merge !diff
+<<<<<<< .merge_file_LBZUha
+=======
+=======
+*.psd filter=lfs diff=lfs merge=lfs -text
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_kEvjkm

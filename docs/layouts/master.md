@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_v9yod4
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_YQvVjX
 ---
 title: "Master Layout Documentation"
 type: concept
@@ -12,6 +15,7 @@ tags: [master]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "master master layout documentation"
+<<<<<<< .merge_file_v9yod4
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -32,6 +36,17 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
+---
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YQvVjX
 # Master Layout Documentation
 
 ## Overview

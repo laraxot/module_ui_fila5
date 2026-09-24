@@ -20,6 +20,7 @@ use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
 use Filament\Notifications\Notification;
 use Filament\Schemas\Components\Utilities\Get;
+<<<<<<< .merge_file_tjAhRw
 <<<<<<< HEAD
 use Filament\Tables\Columns\IconColumn;
 =======
@@ -31,11 +32,14 @@ use Filament\Tables\Columns\IconColumn;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_TiXTrx
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Contracts\StateContract as XotStateContract;
+<<<<<<< .merge_file_tjAhRw
 <<<<<<< HEAD
 
 class IconStateColumn extends IconColumn
@@ -55,12 +59,18 @@ class IconStateColumn extends XotBaseIconColumn
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+use Modules\Xot\Filament\Tables\Columns\XotBaseIconColumn;
+
+class IconStateColumn extends XotBaseIconColumn
+>>>>>>> .merge_file_TiXTrx
 {
     protected function setUp(): void
     {
         parent::setUp();
         // $this->getStateUsing(fn() => true); // the column requires a state to be passed to it
 
+<<<<<<< .merge_file_tjAhRw
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -68,13 +78,17 @@ class IconStateColumn extends XotBaseIconColumn
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
         $this->icon(function (XotStateContract $state) {
+=======
+        $this->icon(static function (XotStateContract $state) {
+>>>>>>> .merge_file_TiXTrx
             return $state->icon();
         });
 
-        $this->color(function (XotStateContract $state) {
+        $this->color(static function (XotStateContract $state) {
             return $state->color();
         });
 
+<<<<<<< .merge_file_tjAhRw
         $this->tooltip(function (XotStateContract $state) {
 <<<<<<< HEAD
 =======
@@ -94,6 +108,9 @@ class IconStateColumn extends XotBaseIconColumn
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        $this->tooltip(static function (XotStateContract $state) {
+>>>>>>> .merge_file_TiXTrx
             return $state->label();
         });
         // $this->label('aaa');
@@ -102,6 +119,7 @@ class IconStateColumn extends XotBaseIconColumn
             Action::make('change-state')
                 ->schema([
                     Select::make('state')
+<<<<<<< .merge_file_tjAhRw
 <<<<<<< HEAD
                         ->options(fn (Model $record, string $_state): array => $this->resolveTransitionableStateOptions($record))
 =======
@@ -115,6 +133,12 @@ class IconStateColumn extends XotBaseIconColumn
                             $name = $this->getName();
                             $state = $record->getAttribute($name);
                             if ($state === null) {
+=======
+                        ->options(function (Model $record, string $_state): array {
+                            $name = $this->getName();
+                            $state = $record->getAttribute($name);
+                            if (null === $state) {
+>>>>>>> .merge_file_TiXTrx
                                 if (! method_exists($record, 'getDefaultStateFor')) {
                                     return [];
                                 }
@@ -139,7 +163,11 @@ class IconStateColumn extends XotBaseIconColumn
                             try {
                                 /** @var array<int|string, mixed> $statesArray */
                                 $statesArray = $state->transitionableStates();
+<<<<<<< .merge_file_tjAhRw
                             } catch (Exception $e) {
+=======
+                            } catch (\Exception $e) {
+>>>>>>> .merge_file_TiXTrx
                                 if (! method_exists($record, 'getStatesFor')) {
                                     return [];
                                 }
@@ -164,11 +192,14 @@ class IconStateColumn extends XotBaseIconColumn
                                 return [$stateItem => $label];
                             });
                         })
+<<<<<<< .merge_file_tjAhRw
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_TiXTrx
                         ->required()
                         ->reactive(),
                     Textarea::make('message')->required(function (Get $get, Model $record): bool {
@@ -215,6 +246,7 @@ class IconStateColumn extends XotBaseIconColumn
                         'state' => $stateName,
                     ];
                 })
+<<<<<<< .merge_file_tjAhRw
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -222,11 +254,15 @@ class IconStateColumn extends XotBaseIconColumn
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
                 ->action(function ($record, $data): void {
+=======
+                ->action(function (Model $record, array $data): void {
+>>>>>>> .merge_file_TiXTrx
                     /** @var array<string, mixed> $data */
                     if (! isset($data['state']) || ! is_string($data['state'])) {
                         throw new \Exception('State is required and must be a string');
                     }
                     $state = $data['state'];
+<<<<<<< .merge_file_tjAhRw
                     /** @var Model $record */
                     if (! is_object($record)) {
                         throw new \Exception('Record must be an object');
@@ -246,6 +282,8 @@ class IconStateColumn extends XotBaseIconColumn
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_TiXTrx
                     $model = Str::of(class_basename($record))->slug()->toString();
                     /** @var string $label */
                     $label = __('pub_theme::'.$model.'_states.'.$state.'.label');
@@ -278,6 +316,7 @@ class IconStateColumn extends XotBaseIconColumn
                 }),
         );
     }
+<<<<<<< .merge_file_tjAhRw
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -368,4 +407,6 @@ class IconStateColumn extends XotBaseIconColumn
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_TiXTrx
 }

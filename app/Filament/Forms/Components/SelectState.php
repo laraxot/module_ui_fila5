@@ -15,6 +15,7 @@ class SelectState extends XotBaseSelect
     {
         parent::setUp();
 
+<<<<<<< .merge_file_KAanOM
 <<<<<<< HEAD
         $this->options(fn (?Model $record): array => $this->resolveStateOptions($record));
 =======
@@ -27,6 +28,11 @@ class SelectState extends XotBaseSelect
         $this->options(function (?Model $record): array {
             $name = $this->getName();
             if ($record === null) {
+=======
+        $this->options(function (?Model $record): array {
+            $name = $this->getName();
+            if (null === $record) {
+>>>>>>> .merge_file_QR1iE8
                 $model = $this->getModel();
                 if (\is_string($model) && class_exists($model)) {
                     $instance = app($model);
@@ -37,6 +43,7 @@ class SelectState extends XotBaseSelect
                             if (! \is_array($statesRaw)) {
                                 $statesRaw = Arr::wrap($statesRaw);
                             }
+<<<<<<< .merge_file_KAanOM
 
                             /* @var array<int|string, mixed> $statesRaw */
                             return $this->combineStateOptions($statesRaw);
@@ -83,21 +90,30 @@ class SelectState extends XotBaseSelect
         if (null === $record) {
             return $this->resolveDefaultStateOptions();
         }
+=======
 
-        if (! method_exists($record, 'getStatesFor')) {
-            return [];
-        }
+                            /* @var array<int|string, mixed> $statesRaw */
+                            return $this->combineStateOptions($statesRaw);
+                        }
+                    }
+                }
+>>>>>>> .merge_file_QR1iE8
 
-        $statesCollection = $record->getStatesFor($this->getName());
-        $statesRaw = \is_object($statesCollection) && method_exists($statesCollection, 'toArray')
-            ? $statesCollection->toArray()
-            : [];
-        /** @var array<int|string, mixed> $states */
-        $states = $statesRaw;
+                return [];
+            }
 
-        return $this->combineStateOptions($states);
-    }
+            if (! method_exists($record, 'getStatesFor')) {
+                return [];
+            }
 
+            $statesCollection = $record->getStatesFor($name);
+            $statesRaw = \is_object($statesCollection) && method_exists($statesCollection, 'toArray')
+                ? $statesCollection->toArray()
+                : [];
+            /** @var array<int|string, mixed> $states */
+            $states = $statesRaw;
+
+<<<<<<< .merge_file_KAanOM
     /**
      * @return array<int|string, string>
      */
@@ -125,6 +141,11 @@ class SelectState extends XotBaseSelect
         /* @var array<int|string, mixed> $statesRaw */
 >>>>>>> laraxot/dev
         return $this->combineStateOptions($statesRaw);
+=======
+            return $this->combineStateOptions($states);
+        });
+        $this->required();
+>>>>>>> .merge_file_QR1iE8
     }
 
     /**
@@ -142,6 +163,7 @@ class SelectState extends XotBaseSelect
     private function combineStateOptions(array $states): array
     {
         $statesKeys = array_map(
+<<<<<<< .merge_file_KAanOM
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -167,6 +189,13 @@ class SelectState extends XotBaseSelect
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+            static fn (int|string $key): string => SafeStringCastAction::cast($key),
+            array_keys($states),
+        );
+        $statesValues = array_map(
+            SafeStringCastAction::cast(...),
+>>>>>>> .merge_file_QR1iE8
             array_values($states),
         );
         $combined = array_combine($statesKeys, $statesValues);

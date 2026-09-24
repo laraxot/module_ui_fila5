@@ -68,6 +68,13 @@ qmd search "form" -c ui  # Solo questo modulo
 <<<<<<< HEAD
 - [On-Demand Pattern](./on-demand-pattern.md)
 =======
+<<<<<<< .merge_file_2qPibG
+=======
+<<<<<<< HEAD
+- [On-Demand Pattern](./on-demand-pattern.md)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_DXJqBQ
 >>>>>>> laraxot/dev
 
 ---

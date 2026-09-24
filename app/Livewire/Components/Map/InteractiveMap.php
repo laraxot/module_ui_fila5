@@ -6,6 +6,7 @@ namespace Modules\UI\Livewire\Components\Map;
 
 use Illuminate\Contracts\View\View;
 use Livewire\Component;
+<<<<<<< .merge_file_uEvxkh
 <<<<<<< HEAD
 use Modules\UI\Contracts\GeocodingServiceContract;
 use Modules\UI\Contracts\MapServiceContract;
@@ -25,6 +26,14 @@ use Modules\Xot\Actions\Cast\SafeFloatCastAction;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+use Modules\Geo\Actions\Geocoding\GeocodeAddressAction;
+use Modules\Geo\Actions\Geocoding\GetGeocodingSuggestionsAction;
+use Modules\Geo\Actions\Map\ExportMapDataAction;
+use Modules\Geo\Actions\Map\GetMapMarkersAction;
+use Modules\Geo\Actions\Map\GetMapStatsAction;
+use Modules\Xot\Actions\Cast\SafeFloatCastAction;
+>>>>>>> .merge_file_e736zw
 use Webmozart\Assert\Assert;
 
 /**
@@ -46,7 +55,12 @@ final class InteractiveMap extends Component
 
     public int $zoom = 10;
 
-    /** @var array<int, array<string, mixed>> */
+    /**
+     * Payload dei marker così come arriva da GetMapMarkersAction: struttura decisa
+     * dall'action, non dal componente.
+     *
+     * @var list<array<string, mixed>>
+     */
     public array $markers = [];
 
     /** @var array<string, mixed> */
@@ -174,6 +188,7 @@ final class InteractiveMap extends Component
         $marker = collect($this->markers)
             ->firstWhere('id', $markerId);
 
+<<<<<<< .merge_file_uEvxkh
 <<<<<<< HEAD
         $this->selectedMarker = \is_array($marker) ? $marker : null;
 =======
@@ -187,6 +202,9 @@ final class InteractiveMap extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        $this->selectedMarker = is_array($marker) ? $marker : null;
+>>>>>>> .merge_file_e736zw
 
         $this->dispatch('markerSelected', $this->selectedMarker);
     }
@@ -197,6 +215,7 @@ final class InteractiveMap extends Component
 <<<<<<< HEAD
      * @param array<string, mixed> $filters
      * @param array<string, mixed> $filters
+<<<<<<< .merge_file_uEvxkh
 =======
 <<<<<<< HEAD
      * @param  array<string, bool|list<string>|array<string, float>>  $filters
@@ -209,6 +228,8 @@ final class InteractiveMap extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_e736zw
      */
     public function updateFilters(array $filters): void
     {
@@ -218,6 +239,7 @@ final class InteractiveMap extends Component
 
     /**
      * Aggiorna i bounds della mappa.
+<<<<<<< .merge_file_uEvxkh
 <<<<<<< HEAD
      */
     /**
@@ -230,6 +252,9 @@ final class InteractiveMap extends Component
 <<<<<<< HEAD
      */
     /**
+=======
+     *
+>>>>>>> .merge_file_e736zw
      * @param array<string, float> $bounds
 =======
      *
@@ -252,6 +277,7 @@ final class InteractiveMap extends Component
         $this->isLoading = true;
 
         try {
+<<<<<<< .merge_file_uEvxkh
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -281,6 +307,11 @@ final class InteractiveMap extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+            $filters = $this->getMapFilters();
+            $this->markers = app(GetMapMarkersAction::class)->execute($filters);
+            $this->stats = app(GetMapStatsAction::class)->execute($filters);
+>>>>>>> .merge_file_e736zw
         } catch (\Exception $e) {
             $this->addError('map', 'Errore nel caricamento dei marker: '.$e->getMessage());
             $this->markers = [];
@@ -304,6 +335,7 @@ final class InteractiveMap extends Component
     public function exportData(string $format = 'json'): void
     {
         try {
+<<<<<<< .merge_file_uEvxkh
 <<<<<<< HEAD
             $mapService = app(MapServiceContract::class);
             $data = $mapService->exportData($this->getMapFilters(), $format);
@@ -324,6 +356,9 @@ final class InteractiveMap extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+            $data = app(ExportMapDataAction::class)->execute($this->getMapFilters(), $format);
+>>>>>>> .merge_file_e736zw
 
             $filename = 'map_export_'.now()->format('Y_m_d_H_i_s').'.'.$format;
 
@@ -352,6 +387,7 @@ final class InteractiveMap extends Component
         }
 
         try {
+<<<<<<< .merge_file_uEvxkh
 <<<<<<< HEAD
             $geocodingService = app(GeocodingServiceContract::class);
 =======
@@ -415,6 +451,17 @@ final class InteractiveMap extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+            $result = app(GeocodeAddressAction::class)->execute($this->searchQuery);
+            $address = $result['address'];
+
+            // Le coordinate vengono ricondotte nel range geografico valido: un payload
+            // fuori scala del geocoder non deve spostare la mappa in un punto assurdo.
+            $this->center = [
+                SafeFloatCastAction::castWithRange($result['latitude'], -90.0, 90.0),
+                SafeFloatCastAction::castWithRange($result['longitude'], -180.0, 180.0),
+            ];
+>>>>>>> .merge_file_e736zw
             $this->zoom = 15;
 
             $this->dispatch('updateMapCenter', $this->center, $this->zoom);
@@ -431,6 +478,7 @@ final class InteractiveMap extends Component
     /**
      * Ottiene suggerimenti per la ricerca.
      *
+<<<<<<< .merge_file_uEvxkh
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -456,10 +504,18 @@ final class InteractiveMap extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+     * @return list<array<string, mixed>>
+     */
+    public function getSuggestions(): array
+    {
+        if (strlen($this->searchQuery) < 3) {
+>>>>>>> .merge_file_e736zw
             return [];
         }
 
         try {
+<<<<<<< .merge_file_uEvxkh
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -486,6 +542,9 @@ final class InteractiveMap extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+            return app(GetGeocodingSuggestionsAction::class)->execute($this->searchQuery);
+>>>>>>> .merge_file_e736zw
         } catch (\Exception $e) {
             return [];
         }
@@ -523,7 +582,7 @@ final class InteractiveMap extends Component
 >>>>>>> laraxot/dev
         $statusList = array_values(array_filter(
             $currentStatus,
-            static fn (mixed $value): bool => \is_string($value),
+            static fn (mixed $value): bool => is_string($value),
         ));
 
         if ($enabled) {
@@ -582,7 +641,7 @@ final class InteractiveMap extends Component
 >>>>>>> laraxot/dev
         $priorityList = array_values(array_filter(
             $currentPriority,
-            static fn (mixed $value): bool => \is_string($value),
+            static fn (mixed $value): bool => is_string($value),
         ));
 
         if ($enabled) {
@@ -646,6 +705,7 @@ final class InteractiveMap extends Component
     }
 
     /**
+<<<<<<< .merge_file_uEvxkh
 <<<<<<< HEAD
      * Ottiene le proprietà computate.
 =======
@@ -659,11 +719,15 @@ final class InteractiveMap extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+     * Conteggio dei marker raggruppati per tipo.
+>>>>>>> .merge_file_e736zw
      *
      * @return array<string, int>
      */
     public function getMarkersByTypeProperty(): array
     {
+<<<<<<< .merge_file_uEvxkh
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -699,10 +763,26 @@ final class InteractiveMap extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        // `groupBy()->map()->toArray()` perde il tipo della chiave (array-key, non
+        // string): il conteggio esplicito mantiene la firma array<string, int> e
+        // scarta i marker privi di un tipo utilizzabile come chiave.
+        $counts = [];
+        foreach ($this->markers as $marker) {
+            $type = $marker['type'] ?? null;
+            if (! is_string($type) || '' === $type) {
+                continue;
+            }
+            $counts[$type] = ($counts[$type] ?? 0) + 1;
+        }
+
+        return $counts;
+>>>>>>> .merge_file_e736zw
     }
 
     public function getVisibleMarkersCountProperty(): int
     {
+<<<<<<< .merge_file_uEvxkh
 <<<<<<< HEAD
         return \count($this->markers);
 =======
@@ -716,10 +796,14 @@ final class InteractiveMap extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        return count($this->markers);
+>>>>>>> .merge_file_e736zw
     }
 
     public function getFilteredMarkersCountProperty(): int
     {
+<<<<<<< .merge_file_uEvxkh
 <<<<<<< HEAD
         return \count($this->markers);
 =======
@@ -733,6 +817,9 @@ final class InteractiveMap extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        return count($this->markers);
+>>>>>>> .merge_file_e736zw
     }
 
     /**
@@ -762,7 +849,7 @@ final class InteractiveMap extends Component
         $filters = [];
 
         foreach ($this->filters as $key => $value) {
-            if (! \is_string($key)) {
+            if (! is_string($key)) {
                 continue;
             }
 

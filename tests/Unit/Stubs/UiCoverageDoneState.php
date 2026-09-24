@@ -12,6 +12,7 @@ final class UiCoverageDoneState implements StateContract
 {
     /** @param array<array-key, mixed>|Model|string|null $record */
     /**
+<<<<<<< .merge_file_YKhn1N
 <<<<<<< HEAD
      * @param  Model|array<string, mixed>|string|null  $record
      */
@@ -19,13 +20,18 @@ final class UiCoverageDoneState implements StateContract
         public Model|array|string|null $record = null,
     ) {}
 =======
+=======
+>>>>>>> .merge_file_XmNcVH
      * @param Model|array<string, mixed>|string|null $record
      */
     public function __construct(
         public Model|array|string|null $record = null,
     ) {
     }
+<<<<<<< .merge_file_YKhn1N
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_XmNcVH
 
     public function label(): string
     {
@@ -74,17 +80,23 @@ final class UiCoverageDoneState implements StateContract
     }
 
     /**
+<<<<<<< .merge_file_YKhn1N
 <<<<<<< HEAD
      * @param  array<string, mixed>  $data
      */
     public function modalActionByRecord(Model $record, array $data): void {}
 =======
+=======
+>>>>>>> .merge_file_XmNcVH
      * @param array<string, mixed> $data
      */
     public function modalActionByRecord(Model $record, array $data): void
     {
     }
+<<<<<<< .merge_file_YKhn1N
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_XmNcVH
 
     public function isMessageRequired(): bool
     {

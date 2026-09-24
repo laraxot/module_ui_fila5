@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_1m16kd
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -39,6 +40,9 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+return [
+>>>>>>> .merge_file_0JLVlz
     'page' => [
         'title' => 'AWS Diagnostic Test',
         'heading' => 'AWS Configuration Diagnostics',

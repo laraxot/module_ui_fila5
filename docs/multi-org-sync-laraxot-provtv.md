@@ -8,6 +8,12 @@ updated: "2026-07-29"
 =======
 <<<<<<< HEAD
 updated: "2026-07-29"
+<<<<<<< .merge_file_dISztb
+=======
+=======
+<<<<<<< HEAD
+updated: "2026-07-29"
+>>>>>>> .merge_file_1cu6UR
 related:
   - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
 =======
@@ -28,6 +34,10 @@ related:
 >>>>>>> laraxot/dev
 updated: "2026-07-23"
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_dISztb
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1cu6UR
 related:
   - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
 updated: "2026-07-23"
@@ -37,6 +47,13 @@ related:
   - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_dISztb
+=======
+related:
+  - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_1cu6UR
 =======
 <<<<<<< HEAD
 =======
@@ -53,6 +70,10 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_dISztb
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1cu6UR
   - "./git-multi-org-sync-handoff.md"
 ---
 
@@ -76,6 +97,15 @@ fetch di tutti i remote, quality gates (PHPStan L10, PHPMD), risincronizzazione 
   risolte a mano confrontando i diff).
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_dISztb
+=======
+- **Blocco LFS lato server (provtv)** (storico): in una sessione precedente si era
+  riscritta la storia senza tracking LFS. **Non ripetere** rewrite se evitabile.
+- **Blocco LFS lato server (provtv)** (storico): in una sessione precedente si era
+  riscritta la storia senza tracking LFS. **Non ripetere** rewrite se evitabile.
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_1cu6UR
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -102,6 +132,10 @@ fetch di tutti i remote, quality gates (PHPStan L10, PHPMD), risincronizzazione 
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_dISztb
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1cu6UR
 - **Violazione di dipendenza Geo→UI**: `app/Livewire/Components/Map/InteractiveMap.php`
   importava `Modules\\Geo\\Services\\{Geocoding,Map}Service`, un modulo che non fa
   parte di questo progetto e che comunque UI non dovrebbe mai importare
@@ -115,6 +149,17 @@ fetch di tutti i remote, quality gates (PHPStan L10, PHPMD), risincronizzazione 
 |---------|-------|-----|
 | `unpack failed` / `did not receive expected object` | pack thin + storia merge laraxot↔provtv | `git push --no-thin` |
 <<<<<<< HEAD
+<<<<<<< .merge_file_dISztb
+=======
+| `GH008` / LFS missing su `provtv` | OID LFS non presenti su quel remote | `git lfs fetch laraxot --all` → `git lfs push provtv --all` → push |
+
+Playbook completo: [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md).
+| `GH008` / LFS missing su `provtv` | OID LFS non presenti su quel remote | `git lfs fetch laraxot --all` → `git lfs push provtv --all` → push |
+
+Playbook completo: [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md).
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_1cu6UR
 
 =======
 <<<<<<< HEAD
@@ -147,6 +192,10 @@ Playbook completo: [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_dISztb
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1cu6UR
 
 ## Regola per il futuro
 
@@ -154,6 +203,12 @@ Prima di un merge/rebase su questo repo, controllare sempre `git remote -v` e
 sincronizzare **tutti** i remote elencati, non solo `origin`/`provtv`. Mai forzare
 push distruttivi su storie scollegate: preferire `--allow-unrelated-histories` e
 <<<<<<< HEAD
+<<<<<<< .merge_file_dISztb
+=======
+revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sibling sano, non squash/reset.
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_1cu6UR
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -177,6 +232,10 @@ revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sib
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_dISztb
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1cu6UR
 
 ### Caso User 2026-07-23 (unrelated)
 

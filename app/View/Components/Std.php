@@ -30,6 +30,7 @@ final class Std extends Component
          */
         $view = app(GetViewAction::class)->execute($this->tpl);
 
+<<<<<<< .merge_file_Ez2SeL
 <<<<<<< HEAD
         $view_params = [];
 
@@ -51,5 +52,10 @@ final class Std extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        $viewParams = [];
+
+        return view($view, $viewParams);
+>>>>>>> .merge_file_zChN0o
     }
 }

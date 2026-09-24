@@ -8,6 +8,7 @@ use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
+<<<<<<< .merge_file_a0oyY7
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -21,6 +22,10 @@ use Filament\Schemas\Components\Utilities\Set;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+use Filament\Schemas\Components\Component;
+use Filament\Schemas\Components\Utilities\Set;
+>>>>>>> .merge_file_cYprF7
 
 class Image
 {
@@ -32,6 +37,7 @@ class Image
                 TextInput::make('url'),
                 Select::make('ratio')
                     ->options(static::getRatios())
+<<<<<<< .merge_file_a0oyY7
 <<<<<<< HEAD
                     ->afterStateHydrated(function (mixed $state, mixed $set): void {
                         if (! $state && is_callable($set)) {
@@ -49,6 +55,10 @@ class Image
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+                    ->afterStateHydrated(static function (?string $state, Set $set): void {
+                        if (! $state) {
+>>>>>>> .merge_file_cYprF7
                             $set('ratio', '4-3');
                         }
                     }),
@@ -73,6 +83,7 @@ class Image
     /**
      * @return array<string, string>
      */
+<<<<<<< .merge_file_a0oyY7
 <<<<<<< HEAD
     /**
      * @return array<string, string>
@@ -88,6 +99,8 @@ class Image
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_cYprF7
     public static function getRatios(): array
     {
         return [
@@ -107,6 +120,7 @@ class Image
     }
 
     /**
+<<<<<<< .merge_file_a0oyY7
 <<<<<<< HEAD
      * @return array<int, \Filament\Schemas\Components\Component>
 =======
@@ -120,6 +134,9 @@ class Image
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+     * @return array<int, Component>
+>>>>>>> .merge_file_cYprF7
      */
     public static function getFormSchema(): array
     {

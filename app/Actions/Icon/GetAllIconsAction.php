@@ -35,6 +35,7 @@ class GetAllIconsAction
         try {
 <<<<<<< HEAD
             $reflection = new \ReflectionClass($iconsFactory);
+<<<<<<< .merge_file_NeiVhj
             $property = $reflection->getProperty('iconSets');
 =======
 <<<<<<< HEAD
@@ -50,6 +51,9 @@ class GetAllIconsAction
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+            $property = $reflection->getProperty('sets');
+>>>>>>> .merge_file_G45wnI
             $property->setAccessible(true);
             $icons = $property->getValue($iconsFactory);
         } catch (\Exception $e) {
@@ -57,6 +61,7 @@ class GetAllIconsAction
             return [];
         }
 
+<<<<<<< .merge_file_NeiVhj
 <<<<<<< HEAD
         // Verifica che $icons sia un array prima di usare Arr::map()
         if (! is_array($icons)) {
@@ -72,6 +77,9 @@ class GetAllIconsAction
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        if (! is_iterable($icons)) {
+>>>>>>> .merge_file_G45wnI
             return [];
         }
 
@@ -103,6 +111,7 @@ class GetAllIconsAction
                     continue;
                 }
 
+<<<<<<< .merge_file_NeiVhj
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -120,10 +129,23 @@ class GetAllIconsAction
                 foreach (File::allFiles($path) as $file) {
                     // Simply ignore files that aren't SVGs
                     if ($file->getExtension() !== 'svg') {
+=======
+                foreach (File::allFiles($path) as $file) {
+                    // Simply ignore files that aren't SVGs
+                    if ('svg' !== $file->getExtension()) {
+>>>>>>> .merge_file_G45wnI
                         continue;
                     }
 
                     $pathname = $file->getPathname();
+<<<<<<< .merge_file_NeiVhj
+=======
+                    if (! is_string($pathname)) {
+                        continue;
+                    }
+
+                    // $iconName = $this->getIconName($file, parentPath: $path, prefix: $prefix);
+>>>>>>> .merge_file_G45wnI
                     $iconName = str($pathname)
                         ->after($path.DIRECTORY_SEPARATOR)
                         ->replace(DIRECTORY_SEPARATOR, '.')
@@ -132,6 +154,7 @@ class GetAllIconsAction
 
                     $prefix = $set['prefix'] ?? '';
                     $prefixString = is_string($prefix) ? $prefix : '';
+<<<<<<< .merge_file_NeiVhj
                     $iconFullName = $prefixString !== '' ? $prefixString.'-'.$iconName : $iconName;
                     $iconsList[] = $iconFullName;
                 }
@@ -140,6 +163,11 @@ class GetAllIconsAction
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+                    $iconFullName = '' !== $prefixString ? $prefixString.'-'.$iconName : $iconName;
+                    $iconsList[] = $iconFullName;
+                }
+>>>>>>> .merge_file_G45wnI
             }
             $set['icons'] = $iconsList;
             $mappedIcons[$name] = $set;
@@ -147,6 +175,7 @@ class GetAllIconsAction
 
         return $mappedIcons;
     }
+<<<<<<< .merge_file_NeiVhj
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -194,4 +223,6 @@ class GetAllIconsAction
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_G45wnI
 }

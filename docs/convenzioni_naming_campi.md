@@ -104,6 +104,7 @@ TextInput::make('full_name')
 - [Best Practices Database](../../../docs/database/best-practices.md)
 - [Convenzioni API](../../../docs/api/convenzioni.md) 
 <<<<<<< HEAD
+<<<<<<< .merge_file_DWzm5o
 ||||||| parent of 9a84589 (.):docs/convenzioni-naming-campi-1.md
 =======
 <<<<<<< HEAD
@@ -113,6 +114,10 @@ TextInput::make('full_name')
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+||||||| parent of 9a84589 (.):docs/convenzioni-naming-campi-1.md
+>>>>>>> .merge_file_u1gHo9
 >>>>>>> laraxot/dev
 - [Best Practices Database](../../../docs/database/best-practices.md)
 - [Convenzioni API](../../../docs/api/convenzioni.md)
@@ -120,6 +125,7 @@ TextInput::make('full_name')
 * [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_DWzm5o
 ||||||| parent of 9a84589 (.):docs/convenzioni-naming-campi-1.md
 =======
 <<<<<<< HEAD
@@ -129,5 +135,9 @@ TextInput::make('full_name')
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+||||||| parent of 9a84589 (.):docs/convenzioni-naming-campi-1.md
+>>>>>>> .merge_file_u1gHo9
 >>>>>>> laraxot/dev
 * [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)

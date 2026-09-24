@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_8DCzYF
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_vccF0q
 ---
 title: "Enum Select Component"
 type: concept
@@ -12,6 +15,7 @@ tags: [enum, select, component]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "enum-select-component enum select component"
+<<<<<<< .merge_file_8DCzYF
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -24,6 +28,12 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_vccF0q
 related:
   - "./auth-register-focus-loss-overlay.md"
   - "./block-rendering-and-optional-services.md"
@@ -35,11 +45,16 @@ related:
   - "./enum-select-usage.md"
 ---
 
+<<<<<<< .merge_file_8DCzYF
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_vccF0q
 ## EnumSelect Component Specification
 
 A reusable Iron Select for PHP-backed enums in Filament v5.

@@ -46,6 +46,7 @@ Questa documentazione integra entrambe le versioni emerse dal conflitto per forn
 
 ## Backlink
 <<<<<<< HEAD
+<<<<<<< .merge_file_4RXTwL
 - [Torna a docs/links.md](../../../../../docs/links.md)
 - [Vedi anche: UI/docs/components.md](./components.md)
 - [Vedi anche: Xot/docs/README.md](../../xot/docs/readme.md)
@@ -65,6 +66,15 @@ Questa documentazione integra entrambe le versioni emerse dal conflitto per forn
 - [Vedi anche: Xot/docs/README.md](../../Xot/docs/README.md)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- [Torna a docs/links.md](../../../../docs/links.md)
+- [Vedi anche: UI/docs/components.md](./components.md)
+- [Vedi anche: Xot/docs/README.md](../../Xot/docs/README.md)
+=======
+- [Torna a docs/links.md](../../../../../docs/links.md)
+- [Vedi anche: UI/docs/components.md](./components.md)
+- [Vedi anche: Xot/docs/README.md](../../xot/docs/readme.md)
+>>>>>>> .merge_file_uiDfu4
 >>>>>>> laraxot/dev
 
 ## Esempi
@@ -76,15 +86,19 @@ Questa documentazione integra entrambe le versioni emerse dal conflitto per forn
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< .merge_file_4RXTwL
 - [Componenti UI](laravel/modules/ui/docs/components.md)
 - [Documentazione Filament](laravel/modules/ui/docs/filament/readme.md)
 - [Convenzioni di Naming](laravel/modules/ui/docs/naming-conventions.md)
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> .merge_file_uiDfu4
 - [Componenti UI](laravel/Modules/UI/docs/components.md)
 - [Documentazione Filament](laravel/Modules/UI/docs/filament/README.md)
 - [Convenzioni di Naming](laravel/Modules/UI/docs/naming-conventions.md)
 =======
+<<<<<<< .merge_file_4RXTwL
 <<<<<<< HEAD
 - [Componenti UI](laravel/modules/ui/docs/components.md)
 - [Documentazione Filament](laravel/modules/ui/docs/filament/readme.md)
@@ -95,4 +109,9 @@ Questa documentazione integra entrambe le versioni emerse dal conflitto per forn
 - [Convenzioni di Naming](laravel/Modules/UI/docs/naming-conventions.md)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- [Componenti UI](laravel/modules/ui/docs/components.md)
+- [Documentazione Filament](laravel/modules/ui/docs/filament/readme.md)
+- [Convenzioni di Naming](laravel/modules/ui/docs/naming-conventions.md)
+>>>>>>> .merge_file_uiDfu4
 >>>>>>> laraxot/dev
