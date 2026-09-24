@@ -23,16 +23,3 @@ return array (
     ),
   ),
 );
-return [
-    'actions' => [
-        'create' => [
-            'label' => 'Crea Icon State Group',
-        ],
-        'edit' => [
-            'label' => 'Modifica Icon State Group',
-        ],
-        'delete' => [
-            'label' => 'Elimina Icon State Group',
-        ],
-    ],
-];

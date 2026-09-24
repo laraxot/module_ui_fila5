@@ -14,10 +14,3 @@ return array (
     'invalid_time_range' => 'Orario non valido: l\'ora di fine deve essere successiva all\'ora di inizio',
   ),
 );
-return [
-    'messages' => [
-        'no_availability' => 'Nessuna disponibilità configurata',
-        'schedule_saved' => 'Orari salvati correttamente',
-        'invalid_time_range' => 'Orario non valido: l\'ora di fine deve essere successiva all\'ora di inizio',
-    ],
-];
