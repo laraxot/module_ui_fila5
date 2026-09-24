@@ -12,11 +12,12 @@ use Modules\Xot\Filament\Blocks\XotBaseBlock;
 final class Category extends XotBaseBlock
 {
     /**
-<<<<<<< HEAD
+     * <<<<<<< HEAD.
+     *
      * @return array<int, Component>
-=======
-     * @return array<int, \Filament\Schemas\Components\Component>
->>>>>>> laraxot/dev
+     *                               =======
+     * @return array<int, Component>
+     *                               >>>>>>> laraxot/dev
      */
     public static function getFormSchema(): array
     {
