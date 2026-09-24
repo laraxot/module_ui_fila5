@@ -84,27 +84,6 @@ npm run dev
 * [getting-started.md](../../../Tenant/docs/it/getting-started.md)
 * [getting-started.md](../../../Cms/docs/getting-started.md)
 
-<<<<<<< .merge_file_MdPGR4
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_QHGESJ
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_jPhzfA
-
-### Versione Incoming
-
-
----
-
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_QHGESJ
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_jPhzfA
->>>>>>> .merge_file_cUw5nv
 ### Versione Incoming
 
 ---

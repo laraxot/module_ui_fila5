@@ -1,20 +1,3 @@
-<<<<<<< .merge_file_pcFMRB
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_zn6xzl
-=======
-=======
-<<<<<<< .merge_file_TFDu1u
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_9Fn8Nu
->>>>>>> .merge_file_WA34eN
->>>>>>> .merge_file_8njEVb
 ---
 title: "Struttura Pagine Filament - Modulo UI"
 type: concept
@@ -22,59 +5,16 @@ tags: [filament, pages, structure]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament-pages-structure struttura pagine filament - modulo ui"
-<<<<<<< .merge_file_pcFMRB
-=======
-<<<<<<< .merge_file_zn6xzl
-=======
-<<<<<<< .merge_file_TFDu1u
->>>>>>> .merge_file_WA34eN
-<<<<<<< HEAD
->>>>>>> .merge_file_8njEVb
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-<<<<<<< .merge_file_pcFMRB
-=======
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_zn6xzl
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_9Fn8Nu
->>>>>>> .merge_file_WA34eN
->>>>>>> .merge_file_8njEVb
 related:
   - "./component-registration.md"
   - "./filament-resources-structure.md"
   - "./structure.md"
 ---
 
-<<<<<<< .merge_file_pcFMRB
-=======
-<<<<<<< .merge_file_zn6xzl
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_TFDu1u
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_9Fn8Nu
->>>>>>> .merge_file_WA34eN
->>>>>>> .merge_file_8njEVb
 # Struttura Pagine Filament - Modulo UI
 
 ## Panoramica

@@ -1,34 +1,6 @@
 # Test Fix Philosophy: Fix Tests, Not Production Code
 
-<<<<<<< .merge_file_fLEyyj
 **Date**: 2025-12-15
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_NZR8OI
-**Date**: [DATE]
-=======
-**Date**: 2025-12-15
-=======
-<<<<<<< .merge_file_uNJ3vb
-**Date**: [DATE]
-=======
-<<<<<<< HEAD
-**Date**: 2025-12-15
-=======
-<<<<<<< HEAD
-**Date**: [DATE]
-=======
-**Date**: 2025-12-15
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-**Date**: 2025-12-15
-=======
-**Date**: [DATE]
->>>>>>> .merge_file_bG1rmV
->>>>>>> .merge_file_XAsL9b
->>>>>>> laraxot/dev
->>>>>>> .merge_file_jj2Y7d
 **Context**: Understanding the correct approach to fixing test failures
 
 ## 🎯 Core Principle
