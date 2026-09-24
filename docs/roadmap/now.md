@@ -8,6 +8,21 @@ qmd: "01-now now (module ui)"
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< .merge_file_l7y8Pn
+=======
+<<<<<<< .merge_file_35jeSK
+=======
+<<<<<<< .merge_file_eOPWY0
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> .merge_file_4SEkRW
+>>>>>>> .merge_file_f0onrK
+>>>>>>> .merge_file_lGLTGd
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
@@ -17,6 +32,16 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_l7y8Pn
+=======
+<<<<<<< .merge_file_35jeSK
+=======
+<<<<<<< .merge_file_eOPWY0
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_4SEkRW
+>>>>>>> .merge_file_f0onrK
+>>>>>>> .merge_file_lGLTGd
 related:
   - "./00-index-1.md"
   - "./00-index.md"

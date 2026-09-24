@@ -1,5 +1,13 @@
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_bBR66t
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_inhtJu
 ---
 title: "Api Relocated"
 type: concept
@@ -30,6 +38,13 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+<<<<<<< .merge_file_bBR66t
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_inhtJu
 >>>>>>> laraxot/dev
 -------------------------------------------------------------------------------------------------
 Render HTTP JSON Responses for API-based Projects in Laravel

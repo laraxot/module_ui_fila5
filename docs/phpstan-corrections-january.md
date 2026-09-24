@@ -237,7 +237,16 @@ class ViewLocation extends XotBaseViewRecord
 <<<<<<< HEAD
 - [Regole Architetturali Critiche](../../xot/docs/critical-architecture-rules.md)
 =======
+<<<<<<< .merge_file_SELAD7
 - [Regole Architetturali Critiche](../../Xot/docs/critical-architecture-rules.md)
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+- [Regole Architetturali Critiche](../../xot/docs/critical-architecture-rules.md)
+=======
+- [Regole Architetturali Critiche](../../Xot/docs/critical-architecture-rules.md)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_T62bjj
 - [PHPStan Patterns](./phpstan-patterns.md)
 - [PHPStan Compliance](./phpstan-compliance.md)

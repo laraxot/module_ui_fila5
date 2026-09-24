@@ -1,5 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_F0I3gM
 =======
+=======
+<<<<<<< .merge_file_KVUGU7
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_OwHZhX
+>>>>>>> .merge_file_ZY8Gx8
 ---
 title: "Architettura Modulo UI"
 type: concept
@@ -7,6 +19,10 @@ tags: [architecture]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "architecture architettura modulo ui"
+<<<<<<< .merge_file_F0I3gM
+=======
+<<<<<<< .merge_file_KVUGU7
+>>>>>>> .merge_file_ZY8Gx8
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -22,7 +38,26 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 ---
 
+<<<<<<< .merge_file_F0I3gM
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
+---
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_OwHZhX
+>>>>>>> .merge_file_ZY8Gx8
 # Architettura Modulo UI
 
 ## 🏗️ Panoramica Architetturale

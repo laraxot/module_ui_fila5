@@ -70,10 +70,20 @@ Components should never rely on variables that haven't been explicitly defined a
 <<<<<<< HEAD
 
 =======
+<<<<<<< .merge_file_2erFGI
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> .merge_file_7ugBYl
     
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_2erFGI
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_7ugBYl
     @if($prop2)
         <p>{{ $prop2 }}</p>
     @endif
@@ -107,10 +117,20 @@ Components should never rely on variables that haven't been explicitly defined a
 ```blade
 <!-- INCORRECT: Hard-coded project references -->
 <<<<<<< HEAD
+<<<<<<< .merge_file_2erFGI
+=======
+<div class="title">Welcome to <nome progetto></div>
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_7ugBYl
 <div class="title">Welcome to <nome progetto></div>
 =======
 <div class="title">Welcome to SaluteOra</div>
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_2erFGI
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_7ugBYl
 
 <!-- CORRECT: Dynamic configuration -->
 <div class="title">Welcome to {{ config('app.name') }}</div>

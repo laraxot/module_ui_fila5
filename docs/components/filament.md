@@ -1,5 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_40Bhcs
 =======
+=======
+<<<<<<< .merge_file_itopwF
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_PEs0po
+>>>>>>> .merge_file_9ACInC
 ---
 title: "Filament Components"
 type: concept
@@ -7,6 +19,10 @@ tags: [filament]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament filament components"
+<<<<<<< .merge_file_40Bhcs
+=======
+<<<<<<< .merge_file_itopwF
+>>>>>>> .merge_file_9ACInC
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -19,6 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_40Bhcs
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_PEs0po
+>>>>>>> .merge_file_9ACInC
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -30,7 +55,20 @@ related:
   - "./full-calendar.md"
 ---
 
+<<<<<<< .merge_file_40Bhcs
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_itopwF
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_PEs0po
+>>>>>>> .merge_file_9ACInC
 # Filament Components
 
 ## Resources

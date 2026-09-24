@@ -45,11 +45,20 @@ class ListUsers extends ListRecords
         ];
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_OQamav
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_aVXKHy
         
         return $this->layout->getTableColumns($listColumns, $gridColumns);
     }
     
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_OQamav
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_aVXKHy
 
         return $this->layout->getTableColumns($listColumns, $gridColumns);
     }

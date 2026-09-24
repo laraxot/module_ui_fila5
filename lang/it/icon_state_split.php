@@ -2,12 +2,40 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_sHCBt9
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_czE0BG
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_o2Btpe
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/it/icon_state_split.php
 return [
+<<<<<<< HEAD
+// Laraxot — see module docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+=======
     // Laraxot — see module docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
@@ -24,6 +52,7 @@ return [
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
+>>>>>>> laraxot/dev
     'fields' => [
         'banned-icon' => [
             'label' => 'banned-icon',
@@ -253,9 +282,22 @@ return [
             'helper_text' => '',
             'description' => '',
         ],
+<<<<<<< .merge_file_sHCBt9
 =======
 return [
     'fields' => [
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+return [
+    'fields' => [
+=======
+return [
+    'fields' => [
+>>>>>>> .merge_file_QIKtdu
+>>>>>>> .merge_file_o2Btpe
         'banned-icon' => ['label' => 'banned-icon', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
         'banned-action' => ['label' => 'banned-action', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
         'cancelled-icon' => ['label' => 'cancelled-icon', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
@@ -294,23 +336,48 @@ return [
         'prova' => ['label' => 'prova', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
         'name' => ['label' => 'name', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
         'delete' => ['label' => 'delete', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
+<<<<<<< .merge_file_sHCBt9
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_czE0BG
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_QIKtdu
+>>>>>>> .merge_file_o2Btpe
     ],
     'label' => 'Icon State Split',
     'plural_label' => 'Icon State Split (Plurale)',
     'navigation' => [
         'name' => 'Icon State Split',
         'plural' => 'Icon State Split',
+<<<<<<< .merge_file_sHCBt9
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_czE0BG
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_o2Btpe
         'group' => [
             'name' => 'General',
             'description' => 'General Settings',
         ],
+=======
+        'group' => ['name' => 'General', 'description' => 'General Settings'],
+>>>>>>> .merge_file_QIKtdu
         'label' => 'Icon State Split',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
+        'icon' => 'heroicon-o-rectangle-stack',
     ],
     'actions' => [
+<<<<<<< .merge_file_czE0BG
         'create' => [
             'label' => 'Crea Icon State Split',
         ],
@@ -320,17 +387,40 @@ return [
         'delete' => [
             'label' => 'Elimina Icon State Split',
         ],
+<<<<<<< .merge_file_sHCBt9
 =======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_o2Btpe
         'group' => ['name' => 'General', 'description' => 'General Settings'],
         'label' => 'Icon State Split',
         'sort' => 1,
         'icon' => 'heroicon-o-rectangle-stack',
     ],
     'actions' => [
+<<<<<<< .merge_file_sHCBt9
+=======
+=======
+>>>>>>> .merge_file_QIKtdu
+>>>>>>> .merge_file_o2Btpe
         'create' => ['label' => 'Crea Icon State Split'],
         'edit' => ['label' => 'Modifica Icon State Split'],
         'delete' => ['label' => 'Elimina Icon State Split'],
         'prova' => ['label' => 'prova', 'icon' => 'prova', 'tooltip' => 'prova'],
+<<<<<<< .merge_file_sHCBt9
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_czE0BG
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_QIKtdu
+>>>>>>> .merge_file_o2Btpe
     ],
 ];

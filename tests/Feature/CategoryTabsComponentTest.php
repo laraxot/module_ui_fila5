@@ -9,16 +9,41 @@ use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
+<<<<<<< .merge_file_Dp6MR9
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_tgQFHv
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+/**
+ * @param  array<string, mixed>  $data
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ywTZ5b
 // Laraxot module file — see docs/wiki for domain contract.
+=======
+>>>>>>> .merge_file_ZwS1aL
 
 /**
  * @param array<string, mixed> $data
+<<<<<<< .merge_file_Dp6MR9
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_ywTZ5b
 =======
 
 /**
  * @param  array<string, mixed>  $data
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_Dp6MR9
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ywTZ5b
  */
 function renderCategoryTabsHtml(array $data = []): ?string
 {
@@ -27,6 +52,7 @@ function renderCategoryTabsHtml(array $data = []): ?string
     }
 
     try {
+<<<<<<< .merge_file_Dp6MR9
 <<<<<<< HEAD
         return View::make('pub_theme::components.blocks.navigation.category-tabs', $data)->render();
 =======
@@ -34,6 +60,32 @@ function renderCategoryTabsHtml(array $data = []): ?string
         $viewName = 'pub_theme::components.blocks.navigation.category-tabs';
         return View::make($viewName, $data)->render();
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_tgQFHv
+<<<<<<< HEAD
+        return View::make('pub_theme::components.blocks.navigation.category-tabs', $data)->render();
+=======
+<<<<<<< HEAD
+        /** @var view-string $viewName */
+        $viewName = 'pub_theme::components.blocks.navigation.category-tabs';
+        return View::make($viewName, $data)->render();
+=======
+<<<<<<< HEAD
+        return View::make('pub_theme::components.blocks.navigation.category-tabs', $data)->render();
+=======
+        /** @var view-string $viewName */
+        $viewName = 'pub_theme::components.blocks.navigation.category-tabs';
+        return View::make($viewName, $data)->render();
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+        /** @var view-string $viewName */
+        $viewName = 'pub_theme::components.blocks.navigation.category-tabs';
+
+        return View::make($viewName, $data)->render();
+>>>>>>> .merge_file_ZwS1aL
+>>>>>>> .merge_file_ywTZ5b
     } catch (\Throwable) {
         return null;
     }
@@ -41,19 +93,47 @@ function renderCategoryTabsHtml(array $data = []): ?string
 
 /**
 <<<<<<< HEAD
+<<<<<<< .merge_file_Dp6MR9
+=======
+ * @param array<string, mixed> $data
+=======
+<<<<<<< HEAD
+ * @param  array<string, mixed>  $data
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_ywTZ5b
  * @param array<string, mixed> $data
 =======
  * @param  array<string, mixed>  $data
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_Dp6MR9
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ywTZ5b
  */
 function requireCategoryTabsHtml(array $data = []): string
 {
     $html = renderCategoryTabsHtml($data);
 <<<<<<< HEAD
+<<<<<<< .merge_file_Dp6MR9
+=======
+    if (null === $html) {
+=======
+<<<<<<< HEAD
+    if ($html === null) {
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_ywTZ5b
     if (null === $html) {
 =======
     if ($html === null) {
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_Dp6MR9
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ywTZ5b
         Assert::markTestSkipped('pub_theme category-tabs view not available in this install.');
     }
 

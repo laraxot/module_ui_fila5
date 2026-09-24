@@ -1,4 +1,14 @@
+<<<<<<< .merge_file_grHv5B
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ol6Acr
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wOdVbY
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -52,8 +62,23 @@
 @php
 @endphp
 
+<<<<<<< .merge_file_grHv5B
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+<?php
+
+declare(strict_types=1);
+?>
+>>>>>>> .merge_file_mCH0S8
+>>>>>>> .merge_file_wOdVbY
 @props([
     'currentStep' => 1,
     'totalSteps' => 4,

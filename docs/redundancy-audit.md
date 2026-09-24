@@ -6,9 +6,22 @@ tags: [redundancy, components, config, design-system]
 created: 2026-05-21
 related:
 <<<<<<< HEAD
+<<<<<<< .merge_file_pd2KWc
   - https://github.com/laraxot/base_fixcity_fila5/issues/89
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_0hxF1I
+  - https://github.com/laraxot/base_fixcity_fila5/issues/89
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  - https://github.com/laraxot/base_fixcity_fila5/issues/89
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_unS2Rj
   - https://github.com/laraxot/<nome repitory>/issues/89
   - https://github.com/laraxot/base_fixcity_fila5/issues/89
   - https://github.com/laraxot/platform/issues/89
@@ -33,6 +46,20 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_pd2KWc
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+  - https://github.com/laraxot/<nome repitory>/issues/89
+  - https://github.com/laraxot/base_fixcity_fila5/issues/89
+  - https://github.com/laraxot/platform/issues/89
+=======
+  - https://github.com/laraxot/base_fixcity_fila5/issues/89
+>>>>>>> .merge_file_t0x20a
+>>>>>>> .merge_file_unS2Rj
 >>>>>>> laraxot/dev
 ---
 

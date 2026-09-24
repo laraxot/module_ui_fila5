@@ -28,7 +28,19 @@ class AddressField extends XotBaseField
         parent::setUp();
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_Gq1sNc
+=======
+        $this->afterStateHydrated(function (AddressField $_component, mixed $record): void {
+<<<<<<< .merge_file_FPAuUE
+=======
+<<<<<<< HEAD
+        $this->afterStateHydrated(function (AddressField $_component, Model|array|null $record): void {
+            if (! $record instanceof Model) {
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_5vTT8R
         $this->afterStateHydrated(function (AddressField $component, mixed $record): void {
+>>>>>>> laraxot/dev
             $data = [
                 'country' => null,
                 'street' => null,
@@ -37,13 +49,22 @@ class AddressField extends XotBaseField
                 'zip' => null,
             ];
 
+=======
+>>>>>>> .merge_file_YrrHEk
             if (! $record instanceof Model) {
+<<<<<<< HEAD
+=======
                 $component->state($data);
 
 =======
         $this->afterStateHydrated(function (AddressField $_component, Model|array|null $record): void {
             if (! $record instanceof Model) {
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_Gq1sNc
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_5vTT8R
                 return;
             }
 
@@ -51,18 +72,44 @@ class AddressField extends XotBaseField
             if ($relationship && $record->relationLoaded($relationship)) {
                 $address = $record->getRelationValue($relationship);
 <<<<<<< HEAD
+<<<<<<< .merge_file_Gq1sNc
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_5vTT8R
                 if (null !== $address && is_object($address) && method_exists($address, 'toArray')) {
-                    $data = $address->toArray();
+                    $address->toArray();
                 }
             }
+<<<<<<< .merge_file_FPAuUE
 
+<<<<<<< HEAD
+            // }
+=======
             $component->state($data);
 =======
+<<<<<<< .merge_file_Gq1sNc
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_5vTT8R
                 if ($address !== null && is_object($address) && method_exists($address, 'toArray')) {
                     $address->toArray();
                 }
             }
+<<<<<<< .merge_file_Gq1sNc
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_YrrHEk
+>>>>>>> .merge_file_5vTT8R
         });
 
         $this->dehydrated(false);

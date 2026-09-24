@@ -2,13 +2,34 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_AEmCVI
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_QU3APD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_DJ8iDD
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/de/calendar.php
+<<<<<<< .merge_file_AEmCVI
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_InaJj2
+>>>>>>> .merge_file_DJ8iDD
 return [
     'months' => [
         0 => 'Gennaio',

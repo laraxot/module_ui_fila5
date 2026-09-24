@@ -1,4 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_XMBR73
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_MBpmbs
 ---
 module: theme
 topic: phpstan-fixes-january-1
@@ -6,6 +12,11 @@ canonical: ../../../Themes/docs/shared-components/phpstan-fixes-january-.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan-fixes-january-.md
+<<<<<<< .merge_file_XMBR73
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_MBpmbs
 =======
 # PHPStan Fixes - Gennaio 2025
 
@@ -63,3 +74,7 @@ See canonical documentation: ../../../Themes/docs/shared-components/phpstan-fixe
 - **File corretti**: 9
 - **Pattern applicati**: Type narrowing, Array safety, Closure hints
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_XMBR73
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_MBpmbs

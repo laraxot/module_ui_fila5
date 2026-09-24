@@ -1,4 +1,14 @@
+<<<<<<< .merge_file_mQG0bS
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_m824Jj
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fp3C4a
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -21,12 +31,22 @@
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
+<<<<<<< .merge_file_mQG0bS
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_mo2jK9
+>>>>>>> .merge_file_fp3C4a
 <?php
 
 declare(strict_types=1);
-
 ?>
 {{-- Requires js --}}
 <div class="bg-white py-24 sm:py-32">

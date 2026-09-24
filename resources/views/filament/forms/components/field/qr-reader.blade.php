@@ -1,4 +1,14 @@
+<<<<<<< .merge_file_t0SWtH
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_b1rXIs
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_gKNj4f
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -13,12 +23,22 @@
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
+<<<<<<< .merge_file_t0SWtH
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Lni2o1
+>>>>>>> .merge_file_gKNj4f
 <?php
 
 declare(strict_types=1);
-
 ?>
 <x-filament-forms::field-wrapper :id="$getId()" :label="$getLabel()" :label-sr-only="$isLabelHidden()" :helper-text="$getHelperText()"
     :hint="$getHint()" :hint-icon="$getHintIcon()" :required="$isRequired()" :state-path="$getStatePath()">

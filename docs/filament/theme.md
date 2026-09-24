@@ -1,5 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_anBZVn
 =======
+=======
+<<<<<<< .merge_file_uSYtTx
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_JWoMS0
+>>>>>>> .merge_file_QTErwO
 ---
 title: "Theme"
 type: concept
@@ -7,6 +19,10 @@ tags: [theme]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "theme theme"
+<<<<<<< .merge_file_anBZVn
+=======
+<<<<<<< .merge_file_uSYtTx
+>>>>>>> .merge_file_QTErwO
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -19,6 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_anBZVn
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_JWoMS0
+>>>>>>> .merge_file_QTErwO
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -30,5 +55,18 @@ related:
   - "./filament-4-migration-sumy.md"
 ---
 
+<<<<<<< .merge_file_anBZVn
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_uSYtTx
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_JWoMS0
+>>>>>>> .merge_file_QTErwO
 https://fly.io/laravel-bytes/filamentphp-adding-some-style/

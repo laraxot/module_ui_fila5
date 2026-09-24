@@ -2,13 +2,34 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_zZIzKJ
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_2GsjhR
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_FKGyoQ
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/ru/actions.php
+<<<<<<< .merge_file_zZIzKJ
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_gEfcUV
+>>>>>>> .merge_file_FKGyoQ
 return [
     'confirm' => 'Подтвердить',
     'cancel' => 'Отмена',

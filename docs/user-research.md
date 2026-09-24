@@ -4,8 +4,21 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_FIeeua
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ABIgjq
 # User Research: UI Module
 
 ## 🔬 Research Goals
@@ -15,9 +28,21 @@ Identify usability issues in complex Filament forms and tables.
 - Users struggle with very long forms without clear sections or tabs.
 - Mobile responsiveness is critical for field workers.
 <<<<<<< HEAD
+<<<<<<< .merge_file_FIeeua
 =======
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_WqoqgJ
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ABIgjq
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -26,6 +51,11 @@ Identify usability issues in complex Filament forms and tables.
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_FIeeua
+=======
+=======
+>>>>>>> .merge_file_Q8BQjU
+>>>>>>> .merge_file_ABIgjq
 # UI Module - User Research
 
 **Module:** UI  
@@ -118,6 +148,10 @@ Some customization capability required.
 
 ---
 
+<<<<<<< .merge_file_FIeeua
+=======
+<<<<<<< .merge_file_WqoqgJ
+>>>>>>> .merge_file_ABIgjq
 <<<<<<< HEAD
 *Last Updated: March 12, 2026*
 =======
@@ -140,6 +174,17 @@ Some customization capability required.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_FIeeua
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+*Last Updated: March 12, 2026*
+=======
+>>>>>>> .merge_file_Q8BQjU
+>>>>>>> .merge_file_ABIgjq
 >>>>>>> laraxot/dev
 
 ## ✅ Actionable Insights / Next Steps
@@ -151,6 +196,14 @@ Some customization capability required.
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_FIeeua
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ABIgjq
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
@@ -161,4 +214,11 @@ Some customization capability required.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< .merge_file_FIeeua
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ABIgjq
 >>>>>>> laraxot/dev

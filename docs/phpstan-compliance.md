@@ -2,6 +2,12 @@
 
 ## Status: ✅ FULLY COMPLIANT
 <<<<<<< HEAD
+<<<<<<< .merge_file_K7wkpg
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ynRf7l
 
 **PHPStan Level:** 9 (Maximum)
 **Files Analyzed:** 237
@@ -10,6 +16,11 @@
 ## Compliance Summary
 
 The UI module is fully compliant with PHPStan level 10 analysis, demonstrating:
+<<<<<<< .merge_file_K7wkpg
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_ynRf7l
 =======
 **Analysis Date:** September 22, 2025
 **PHPStan Level:** 9 (Maximum)
@@ -125,6 +136,10 @@ instance inferita da Eloquent. Il test comportamentale equivalente passa con **1
 
 Lo scope state UI-7.1 dimostra:
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_K7wkpg
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ynRf7l
 
 - ✅ Rigorous type hints implementation
 - ✅ Proper null handling

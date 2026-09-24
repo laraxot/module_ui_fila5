@@ -155,9 +155,22 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 
 1. **Utilizzo del prefisso errato**: Utilizzare `x-ui-icon` invece di `x-filament::icon`
 <<<<<<< HEAD
+<<<<<<< .merge_file_wV1Y65
 2. **Percorso errato del provider**: Utilizzare `/var/www/html/<nome progetto>/laravel/Modules/UI/Providers/UIServiceProvider.php` invece di `/var/www/html/<nome progetto>/laravel/Modules/UI/app/Providers/UIServiceProvider.php`
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_2eiEa2
+2. **Percorso errato del provider**: Utilizzare `/var/www/html/<nome progetto>/laravel/Modules/UI/Providers/UIServiceProvider.php` invece di `/var/www/html/<nome progetto>/laravel/Modules/UI/app/Providers/UIServiceProvider.php`
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+2. **Percorso errato del provider**: Utilizzare `/var/www/html/<nome progetto>/laravel/Modules/UI/Providers/UIServiceProvider.php` invece di `/var/www/html/<nome progetto>/laravel/Modules/UI/app/Providers/UIServiceProvider.php`
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_aD3Wnh
 2. **Percorso errato del provider**: Utilizzare `/var/www/html/saluteora/laravel/Modules/UI/Providers/UIServiceProvider.php` invece di `/var/www/html/saluteora/laravel/Modules/UI/app/Providers/UIServiceProvider.php`
 <<<<<<< HEAD
 2. **Percorso errato del provider**: Utilizzare `[project-root]/laravel/Modules/UI/Providers/UIServiceProvider.php` invece di `[project-root]/laravel/Modules/UI/app/Providers/UIServiceProvider.php`
@@ -180,6 +193,19 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_wV1Y65
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+2. **Percorso errato del provider**: Utilizzare `/var/www/html/saluteora/laravel/Modules/UI/Providers/UIServiceProvider.php` invece di `/var/www/html/saluteora/laravel/Modules/UI/app/Providers/UIServiceProvider.php`
+2. **Percorso errato del provider**: Utilizzare `[project-root]/laravel/Modules/UI/Providers/UIServiceProvider.php` invece di `[project-root]/laravel/Modules/UI/app/Providers/UIServiceProvider.php`
+=======
+2. **Percorso errato del provider**: Utilizzare `/var/www/html/<nome progetto>/laravel/Modules/UI/Providers/UIServiceProvider.php` invece di `/var/www/html/<nome progetto>/laravel/Modules/UI/app/Providers/UIServiceProvider.php`
+>>>>>>> .merge_file_ZAC9PJ
+>>>>>>> .merge_file_aD3Wnh
 >>>>>>> laraxot/dev
 3. **Creazione di componenti duplicati**: Creare componenti personalizzati che duplicano funzionalità già fornite da Filament
 4. **Mancata verifica dei componenti esistenti**: Non controllare se un componente è già disponibile in Filament prima di crearne uno personalizzato

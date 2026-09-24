@@ -396,6 +396,25 @@ composer dump-autoload = Manifestation of Truth
 
 **Documentazione Interna**:
 <<<<<<< HEAD
+<<<<<<< .merge_file_VfsI6a
+=======
+<<<<<<< .merge_file_5FJVW2
+>>>>>>> .merge_file_96kWfR
+- [../../../../docs/modules-index.md](../../../../docs/modules-index.md) - Module Index
+- [../../Xot/docs/README.md](../../xot/docs/readme.md) - XotBase Pattern
+- [./README.md](./readme.md) - UI Module Overview
+=======
+<<<<<<< .merge_file_VfsI6a
+- [../../../docs/modules-index.md](../../../docs/modules-index.md) - Module Index
+- [../../Xot/docs/README.md](../../Xot/docs/README.md) - XotBase Pattern
+- [./README.md](./README.md) - UI Module Overview
+=======
+<<<<<<< HEAD
+- [../../../docs/modules-index.md](../../../docs/modules-index.md) - Module Index
+- [../../Xot/docs/README.md](../../Xot/docs/README.md) - XotBase Pattern
+- [./README.md](./README.md) - UI Module Overview
+=======
+<<<<<<< HEAD
 - [../../../../docs/modules-index.md](../../../../docs/modules-index.md) - Module Index
 - [../../Xot/docs/README.md](../../xot/docs/readme.md) - XotBase Pattern
 - [./README.md](./readme.md) - UI Module Overview
@@ -403,6 +422,18 @@ composer dump-autoload = Manifestation of Truth
 - [../../../docs/modules-index.md](../../../docs/modules-index.md) - Module Index
 - [../../Xot/docs/README.md](../../Xot/docs/README.md) - XotBase Pattern
 - [./README.md](./README.md) - UI Module Overview
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [../../../docs/modules-index.md](../../../docs/modules-index.md) - Module Index
+- [../../Xot/docs/README.md](../../Xot/docs/README.md) - XotBase Pattern
+- [./README.md](./README.md) - UI Module Overview
+=======
+- [../../../../docs/modules-index.md](../../../../docs/modules-index.md) - Module Index
+- [../../Xot/docs/README.md](../../xot/docs/readme.md) - XotBase Pattern
+- [./README.md](./readme.md) - UI Module Overview
+>>>>>>> .merge_file_kibU16
+>>>>>>> .merge_file_96kWfR
 >>>>>>> laraxot/dev
 
 ---

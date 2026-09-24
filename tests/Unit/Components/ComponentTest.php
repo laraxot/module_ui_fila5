@@ -16,8 +16,22 @@ describe('Component', function (): void {
 <<<<<<< HEAD
         $component = new class extends Component {
 =======
+<<<<<<< .merge_file_cPcJny
         $component = new class extends Component
         {
+=======
+<<<<<<< HEAD
+        $component = new class extends Component
+        {
+=======
+<<<<<<< HEAD
+        $component = new class extends Component {
+=======
+        $component = new class extends Component
+        {
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RLYbwL
 >>>>>>> laraxot/dev
             public function render(): View
             {

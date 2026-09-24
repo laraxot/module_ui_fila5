@@ -1,4 +1,14 @@
+<<<<<<< .merge_file_MDUGew
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ZEW5bq
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_yND03u
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -16,12 +26,22 @@
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
+<<<<<<< .merge_file_MDUGew
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_HBWb0x
+>>>>>>> .merge_file_yND03u
 <?php
 
 declare(strict_types=1);
-
 ?>
 @props(['title' => 'Documenti'])
 

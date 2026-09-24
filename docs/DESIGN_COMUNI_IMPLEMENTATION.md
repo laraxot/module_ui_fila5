@@ -135,6 +135,15 @@ Pages are configured via JSON files:
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_rJjCdd
+=======
+**Location**: `config/local/fixcity/database/content/pages/`
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_3dSzk0
 **Location**: `config/local/<nome progetto>/database/content/pages/`
 =======
 <<<<<<< HEAD
@@ -151,8 +160,23 @@ Pages are configured via JSON files:
 
 **Location**: `config/local/<nome progetto>/database/content/pages/`
 **Location**: `config/local/current/database/content/pages/`
+<<<<<<< .merge_file_rJjCdd
 >>>>>>> laraxot/dev
 
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+
+<<<<<<< HEAD
+**Location**: `config/local/<nome progetto>/database/content/pages/`
+**Location**: `config/local/current/database/content/pages/`
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_3dSzk0
 **Example**: `tests.homepage.json`
 
 ```json

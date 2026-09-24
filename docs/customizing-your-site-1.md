@@ -84,6 +84,11 @@ class Foo extends bar
 
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_lMLzvU
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_wFfa7M
 
 ### Versione Incoming
 
@@ -91,6 +96,10 @@ class Foo extends bar
 ---
 
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_lMLzvU
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wFfa7M
 ### Versione Incoming
 
 ---

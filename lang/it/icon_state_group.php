@@ -2,14 +2,33 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_Ge4NPR
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_654cBr
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_nEDNaI
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: split from icon_state_group.php for maintainability (<500 LOC).
 // Canon: Modules/UI/docs/wiki/concepts/claude-audit-static.md
 // File: lang/it/icon_state_group_loader.php
 return merge_translation_files(__DIR__.'/icon_state_group_fields.php', __DIR__.'/icon_state_group_label.php', __DIR__.'/icon_state_group_plural_label.php', __DIR__.'/navigation.php', __DIR__.'/actions.php'
 );
+<<<<<<< .merge_file_Ge4NPR
 =======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0XOgfv
+>>>>>>> .merge_file_nEDNaI
 return [
     'fields' => [
         'name' => ['label' => 'name', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
@@ -113,4 +132,15 @@ return [
         'done-action' => ['label' => 'done-action', 'icon' => 'done-action', 'tooltip' => 'done-action'],
     ],
 ];
+<<<<<<< .merge_file_Ge4NPR
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_654cBr
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0XOgfv
+>>>>>>> .merge_file_nEDNaI

@@ -4,8 +4,21 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_nJIbIs
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ooYRZr
 # UI - Product Roadmap
 
 > Documento vivente. Modulo.
@@ -48,9 +61,21 @@ Questo roadmap traduce il PRD in sequenza di rilascio per **UI**, che nel proget
 
 ## Dipendenze
 <<<<<<< HEAD
+<<<<<<< .merge_file_nJIbIs
 =======
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_2NeNcd
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ooYRZr
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -59,6 +84,11 @@ Questo roadmap traduce il PRD in sequenza di rilascio per **UI**, che nel proget
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_nJIbIs
+=======
+=======
+>>>>>>> .merge_file_slj7rC
+>>>>>>> .merge_file_ooYRZr
 # UI Module - Product Roadmap
 
 **Module:** UI  
@@ -161,6 +191,10 @@ To create a **unified, beautiful, and accessible design system** that ensures co
 
 ---
 
+<<<<<<< .merge_file_nJIbIs
+=======
+<<<<<<< .merge_file_2NeNcd
+>>>>>>> .merge_file_ooYRZr
 <<<<<<< HEAD
 *Last Updated: March 12, 2026*
 =======
@@ -224,6 +258,17 @@ To create a **unified, beautiful, and accessible design system** that ensures co
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_nJIbIs
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+*Last Updated: March 12, 2026*
+=======
+>>>>>>> .merge_file_slj7rC
+>>>>>>> .merge_file_ooYRZr
 >>>>>>> laraxot/dev
 
 - [PRD](prd.md)
@@ -236,6 +281,14 @@ To create a **unified, beautiful, and accessible design system** that ensures co
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_nJIbIs
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ooYRZr
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
@@ -246,4 +299,11 @@ To create a **unified, beautiful, and accessible design system** that ensures co
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< .merge_file_nJIbIs
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ooYRZr
 >>>>>>> laraxot/dev

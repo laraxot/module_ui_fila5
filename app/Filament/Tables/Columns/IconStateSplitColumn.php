@@ -7,20 +7,59 @@ namespace Modules\UI\Filament\Tables\Columns;
 <<<<<<< HEAD
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
+<<<<<<< .merge_file_1u1WPg
+use Filament\Tables\Columns\Column;
+=======
+<<<<<<< .merge_file_63Oa9T
+use Exception;
+use Filament\Actions\Action;
+use Filament\Notifications\Notification;
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+use Exception;
+use Filament\Actions\Action;
+use Filament\Notifications\Notification;
+=======
+<<<<<<< HEAD
+use Filament\Actions\Action;
+use Filament\Notifications\Notification;
 use Filament\Tables\Columns\Column;
 =======
 use Exception;
 use Filament\Actions\Action;
 use Filament\Notifications\Notification;
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_wQHvmM
+>>>>>>> .merge_file_ReFILM
 use Illuminate\Database\Eloquent\Model;
 use Livewire\Attributes\On;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Contracts\StateContract;
+<<<<<<< .merge_file_63Oa9T
+=======
+<<<<<<< .merge_file_1u1WPg
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
+=======
+>>>>>>> .merge_file_ReFILM
 <<<<<<< HEAD
 =======
 use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_63Oa9T
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
+>>>>>>> .merge_file_wQHvmM
+>>>>>>> .merge_file_ReFILM
 
 /**
  * IconStateSplitColumn - Enhanced state transition column with compact grid layout.
@@ -32,11 +71,31 @@ use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
  * - Proper error handling and notifications
  * - Mobile-friendly design
  */
+<<<<<<< .merge_file_63Oa9T
 <<<<<<< HEAD
 final class IconStateSplitColumn extends Column
 =======
 final class IconStateSplitColumn extends XotBaseColumn
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_1u1WPg
+<<<<<<< HEAD
+final class IconStateSplitColumn extends Column
+=======
+<<<<<<< HEAD
+final class IconStateSplitColumn extends XotBaseColumn
+=======
+<<<<<<< HEAD
+final class IconStateSplitColumn extends Column
+=======
+final class IconStateSplitColumn extends XotBaseColumn
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+final class IconStateSplitColumn extends XotBaseColumn
+>>>>>>> .merge_file_wQHvmM
+>>>>>>> .merge_file_ReFILM
 {
     protected string $view = 'ui::filament.tables.columns.icon-state-split';
 
@@ -48,14 +107,37 @@ final class IconStateSplitColumn extends XotBaseColumn
      * Configure the state class and model class for this column.
      *
 <<<<<<< HEAD
+<<<<<<< .merge_file_63Oa9T
+=======
+=======
+<<<<<<< HEAD
+     * @param  string  $stateClass  The state machine class (e.g., AppointmentState::class)
+     * @param  string  $modelClass  The model class (e.g., Appointment::class)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ReFILM
      * @param string $stateClass The state machine class (e.g., AppointmentState::class)
      * @param string $modelClass The model class (e.g., Appointment::class)
+<<<<<<< .merge_file_1u1WPg
      * @param string $stateClass The state machine class (e.g., AppointmentState::class)
      * @param string $modelClass The model class (e.g., Appointment::class)
+<<<<<<< .merge_file_63Oa9T
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_ReFILM
 =======
      * @param  string  $stateClass  The state machine class (e.g., AppointmentState::class)
      * @param  string  $modelClass  The model class (e.g., Appointment::class)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_63Oa9T
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_wQHvmM
+>>>>>>> .merge_file_ReFILM
      */
     public function stateClass(string $stateClass, string $modelClass): static
     {
@@ -106,10 +188,24 @@ final class IconStateSplitColumn extends XotBaseColumn
                 ? (bool) $recordState->canTransitionTo($stateClass)
                 : false;
 <<<<<<< HEAD
+<<<<<<< .merge_file_63Oa9T
+=======
+        } catch (\Exception) {
+=======
+<<<<<<< HEAD
+        } catch (Exception) {
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_ReFILM
         } catch (\Exception) {
 =======
         } catch (Exception) {
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_63Oa9T
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ReFILM
             return false;
         }
     }
@@ -157,7 +253,19 @@ final class IconStateSplitColumn extends XotBaseColumn
 <<<<<<< HEAD
         if ('prova' === $action) {
 =======
+<<<<<<< .merge_file_63Oa9T
         if ($action === 'prova') {
+=======
+<<<<<<< HEAD
+        if ($action === 'prova') {
+=======
+<<<<<<< HEAD
+        if ('prova' === $action) {
+=======
+        if ($action === 'prova') {
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ReFILM
 >>>>>>> laraxot/dev
             $this->prova($recordId);
         }
@@ -173,10 +281,24 @@ final class IconStateSplitColumn extends XotBaseColumn
             $state = $record->getAttribute('state');
             if (! \is_object($state) || ! method_exists($state, 'transitionTo')) {
 <<<<<<< HEAD
+<<<<<<< .merge_file_63Oa9T
+=======
+                throw new \Exception(__('ui::icon_state.messages.invalid_state_instance'));
+=======
+<<<<<<< HEAD
+                throw new Exception(__('ui::icon_state.messages.invalid_state_instance'));
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_ReFILM
                 throw new \Exception(__('ui::icon_state.messages.invalid_state_instance'));
 =======
                 throw new Exception(__('ui::icon_state.messages.invalid_state_instance'));
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_63Oa9T
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ReFILM
             }
             $state->transitionTo($stateClass);
 
@@ -184,7 +306,19 @@ final class IconStateSplitColumn extends XotBaseColumn
 <<<<<<< HEAD
         } catch (\Exception $e) {
 =======
+<<<<<<< .merge_file_63Oa9T
         } catch (Exception $e) {
+=======
+<<<<<<< HEAD
+        } catch (Exception $e) {
+=======
+<<<<<<< HEAD
+        } catch (\Exception $e) {
+=======
+        } catch (Exception $e) {
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ReFILM
 >>>>>>> laraxot/dev
             $this->notifyTransitionError($e->getMessage());
         }
@@ -211,12 +345,29 @@ final class IconStateSplitColumn extends XotBaseColumn
         return [];
     }
 
+<<<<<<< .merge_file_63Oa9T
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_1u1WPg
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ReFILM
     private function getStateInstance(mixed $stateClassItem, mixed $record): ?StateContract
     {
         try {
             if (! \is_string($stateClassItem) || ! class_exists($stateClassItem)) {
+<<<<<<< .merge_file_63Oa9T
 =======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ReFILM
     /**
      * @param  array<array-key, mixed>|Model|null  $record
      */
@@ -224,7 +375,24 @@ final class IconStateSplitColumn extends XotBaseColumn
     {
         try {
             if (! class_exists($stateClassItem)) {
+<<<<<<< .merge_file_63Oa9T
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+    /**
+     * @param array<array-key, mixed>|Model|null $record
+     */
+    private function getStateInstance(string $stateClassItem, Model|array|null $record): ?StateContract
+    {
+        try {
+            if (! class_exists($stateClassItem)) {
+>>>>>>> .merge_file_wQHvmM
+>>>>>>> .merge_file_ReFILM
                 return null;
             }
 
@@ -235,10 +403,24 @@ final class IconStateSplitColumn extends XotBaseColumn
 
             return $stateInstance;
 <<<<<<< HEAD
+<<<<<<< .merge_file_63Oa9T
+=======
+        } catch (\Exception) {
+=======
+<<<<<<< HEAD
+        } catch (Exception) {
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_ReFILM
         } catch (\Exception) {
 =======
         } catch (Exception) {
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_63Oa9T
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ReFILM
             return null;
         }
     }
@@ -275,9 +457,27 @@ final class IconStateSplitColumn extends XotBaseColumn
 <<<<<<< HEAD
      * @param array{class: StateContract, icon: string, label: string, color: string, tooltip: string} $stateData
      * @param array{class: StateContract, icon: string, label: string, color: string, tooltip: string} $stateData
+<<<<<<< .merge_file_63Oa9T
 =======
      * @param  array{class: StateContract, icon: string, label: string, color: string, tooltip: string}  $stateData
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_1u1WPg
+=======
+<<<<<<< HEAD
+     * @param  array{class: StateContract, icon: string, label: string, color: string, tooltip: string}  $stateData
+=======
+<<<<<<< HEAD
+     * @param array{class: StateContract, icon: string, label: string, color: string, tooltip: string} $stateData
+     * @param array{class: StateContract, icon: string, label: string, color: string, tooltip: string} $stateData
+=======
+     * @param  array{class: StateContract, icon: string, label: string, color: string, tooltip: string}  $stateData
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_wQHvmM
+>>>>>>> .merge_file_ReFILM
      */
     private function getTransitionAction(string $stateKey, array $stateData): ?Action
     {
@@ -285,10 +485,24 @@ final class IconStateSplitColumn extends XotBaseColumn
         $recordIdRaw = \is_object($record) && isset($record->id) ? $record->id : null;
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_63Oa9T
+=======
+        if (null === $recordIdRaw || (! \is_int($recordIdRaw) && ! \is_string($recordIdRaw))) {
+=======
+<<<<<<< HEAD
+        if ($recordIdRaw === null || (! \is_int($recordIdRaw) && ! \is_string($recordIdRaw))) {
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_ReFILM
         if (null === $recordIdRaw || (! \is_int($recordIdRaw) && ! \is_string($recordIdRaw))) {
 =======
         if ($recordIdRaw === null || (! \is_int($recordIdRaw) && ! \is_string($recordIdRaw))) {
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_63Oa9T
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ReFILM
             return null;
         }
 
@@ -314,7 +528,19 @@ final class IconStateSplitColumn extends XotBaseColumn
 <<<<<<< HEAD
             throw new \Exception('Model class not found or invalid');
 =======
+<<<<<<< .merge_file_63Oa9T
             throw new Exception('Model class not found or invalid');
+=======
+<<<<<<< HEAD
+            throw new Exception('Model class not found or invalid');
+=======
+<<<<<<< HEAD
+            throw new \Exception('Model class not found or invalid');
+=======
+            throw new Exception('Model class not found or invalid');
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ReFILM
 >>>>>>> laraxot/dev
         }
 
@@ -322,19 +548,47 @@ final class IconStateSplitColumn extends XotBaseColumn
 
         if (! \is_object($recordRaw) || ! ($recordRaw instanceof Model)) {
 <<<<<<< HEAD
+<<<<<<< .merge_file_63Oa9T
+=======
+            throw new \Exception(__('ui::icon_state.messages.record_not_found'));
+=======
+<<<<<<< HEAD
+            throw new Exception(__('ui::icon_state.messages.record_not_found'));
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_ReFILM
             throw new \Exception(__('ui::icon_state.messages.record_not_found'));
 =======
             throw new Exception(__('ui::icon_state.messages.record_not_found'));
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_63Oa9T
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ReFILM
         }
 
         $recordState = $recordRaw->getAttribute('state');
         if (! \is_object($recordState) || ! method_exists($recordState, 'transitionTo')) {
 <<<<<<< HEAD
+<<<<<<< .merge_file_63Oa9T
+=======
+            throw new \Exception(__('ui::icon_state.messages.invalid_state_instance'));
+=======
+<<<<<<< HEAD
+            throw new Exception(__('ui::icon_state.messages.invalid_state_instance'));
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_ReFILM
             throw new \Exception(__('ui::icon_state.messages.invalid_state_instance'));
 =======
             throw new Exception(__('ui::icon_state.messages.invalid_state_instance'));
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_63Oa9T
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ReFILM
         }
 
         return $recordRaw;

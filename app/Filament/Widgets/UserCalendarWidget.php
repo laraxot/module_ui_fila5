@@ -16,6 +16,8 @@ class UserCalendarWidget extends XotBaseSchemaWidget
 {
     public string $type;
 
+    /** @phpstan-var view-string */
+    /** @phpstan-ignore property.defaultValue */
     protected string $view = 'ui::filament.widgets.user-calendar';
 
     public function getActionName(string $function): string
@@ -32,7 +34,6 @@ class UserCalendarWidget extends XotBaseSchemaWidget
     }
 
     /**
-     * @param array<string, mixed> $fetchInfo
      * @param array<string, mixed> $fetchInfo
      *
      * @return array<int, array<string, mixed>>
@@ -79,11 +80,10 @@ class UserCalendarWidget extends XotBaseSchemaWidget
     }
 
     /**
-     * @SuppressWarnings("PHPMD.UnusedFormalParameter")
-     */
-    /**
      * @param array<string, mixed>|null $view
      * @param array<string, mixed>|null $resource
+     *
+     * @SuppressWarnings("PHPMD.UnusedFormalParameter")
      */
     public function onDateSelect(string $start, ?string $end, bool $allDay, ?array $view, ?array $resource): void
     {

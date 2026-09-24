@@ -6,9 +6,27 @@
 **Status**: ✅ Active  
 **Framework**: Laravel 12.x + Filament 4.x + Tailwind CSS  
 <<<<<<< HEAD
+<<<<<<< .merge_file_0SO506
 =======
 **Framework**: Laravel 13.x + Filament 4.x + Tailwind CSS  
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_AOUUBw
+=======
+<<<<<<< HEAD
+**Framework**: Laravel 13.x + Filament 4.x + Tailwind CSS  
+=======
+<<<<<<< HEAD
+=======
+**Framework**: Laravel 13.x + Filament 4.x + Tailwind CSS  
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+**Framework**: Laravel 13.x + Filament 4.x + Tailwind CSS  
+=======
+>>>>>>> .merge_file_TAC8x7
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_kB2GrT
 **Component Library**: Custom UI components and styles  
 **Language**: Multi-language (IT/EN/DE)  
 
@@ -66,10 +84,23 @@ The UI module provides comprehensive user interface components and styling:
 - **Cms**: Content display components
 <<<<<<< HEAD
 - **Quaeris**: Dashboard UI components
+<<<<<<< .merge_file_0SO506
+=======
+<<<<<<< .merge_file_AOUUBw
+>>>>>>> .merge_file_kB2GrT
 =======
 <<<<<<< HEAD
 - **Quaeris**: Dashboard UI components
 <<<<<<< HEAD
+<<<<<<< .merge_file_0SO506
+=======
+=======
+=======
+<<<<<<< HEAD
+- **Quaeris**: Dashboard UI components
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_kB2GrT
 - **modulo questionari**: Dashboard UI components
 =======
 =======
@@ -90,6 +121,18 @@ The UI module provides comprehensive user interface components and styling:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_0SO506
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+- **modulo questionari**: Dashboard UI components
+=======
+>>>>>>> .merge_file_TAC8x7
+>>>>>>> .merge_file_kB2GrT
 >>>>>>> laraxot/dev
 - **Xot**: Base UI infrastructure
 - **Filament**: Component compatibility
@@ -124,5 +167,21 @@ The UI module provides comprehensive user interface components and styling:
 <<<<<<< HEAD
 - Performance optimization
 =======
+<<<<<<< .merge_file_0SO506
 - Performance optimization
+=======
+<<<<<<< .merge_file_AOUUBw
+<<<<<<< HEAD
+- Performance optimization
+=======
+<<<<<<< HEAD
+- Performance optimization
+=======
+- Performance optimization
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- Performance optimization
+>>>>>>> .merge_file_TAC8x7
+>>>>>>> .merge_file_kB2GrT
 >>>>>>> laraxot/dev

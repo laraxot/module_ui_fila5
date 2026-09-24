@@ -31,14 +31,38 @@ Depending on where your site is hosted, you may need to configure your server to
 ### Versione HEAD
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_yDddZo
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_mCUCwZ
 ## Collegamenti tra versioni di custom-404-page.md
+<<<<<<< HEAD
+* [custom-404-page.md](../../../Gdpr/docs/custom-404-page.md)
+* [custom-404-page.md](../../../Xot/docs/custom-404-page.md)
+* [custom-404-page.md](../../../UI/docs/custom-404-page.md)
+* [custom-404-page.md](../../../Tenant/docs/it/custom-404-page.md)
+* [custom-404-page.md](../../../Cms/docs/custom-404-page.md)
+=======
 * [custom-404-page.md](../../../gdpr/docs/custom-404-page.md)
 * [custom-404-page.md](../../../xot/docs/custom-404-page.md)
 * [custom-404-page.md](../../../ui/docs/custom-404-page.md)
 * [custom-404-page.md](../../../tenant/docs/it/custom-404-page.md)
 * [custom-404-page.md](../../../cms/docs/custom-404-page.md)
+<<<<<<< .merge_file_yDddZo
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_pI9XLN
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_mCUCwZ
 
 =======
 <<<<<<< HEAD
@@ -78,6 +102,15 @@ Depending on where your site is hosted, you may need to configure your server to
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_yDddZo
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_RLn9K0
+>>>>>>> .merge_file_mCUCwZ
 >>>>>>> laraxot/dev
 
 ### Versione Incoming
@@ -121,15 +154,96 @@ Depending on where your site is hosted, you may need to configure your server to
 
 ## Collegamenti tra versioni di custom-404-page.md
 <<<<<<< HEAD
+<<<<<<< .merge_file_yDddZo
+=======
+<<<<<<< .merge_file_pI9XLN
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+* [custom-404-page.md](../../../Gdpr/project_docs/custom-404-page.md)
+* [custom-404-page.md](../../../Xot/project_docs/custom-404-page.md)
+* [custom-404-page.md](../../../UI/project_docs/custom-404-page.md)
+* [custom-404-page.md](../../../Tenant/project_docs/it/custom-404-page.md)
+* [custom-404-page.md](../../../Cms/project_docs/custom-404-page.md)
+=======
+>>>>>>> .merge_file_RLn9K0
+>>>>>>> .merge_file_mCUCwZ
 * [custom-404-page.md](../../../gdpr/project_docs/custom-404-page.md)
 * [custom-404-page.md](../../../xot/project_docs/custom-404-page.md)
 * [custom-404-page.md](../../../ui/project_docs/custom-404-page.md)
 * [custom-404-page.md](../../../tenant/project_docs/it/custom-404-page.md)
 * [custom-404-page.md](../../../cms/project_docs/custom-404-page.md)
+>>>>>>> laraxot/dev
 
 ### Versione Incoming
 
 ---
+<<<<<<< HEAD
+<<<<<<< .merge_file_pI9XLN
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+* [custom-404-page.md](../../../Gdpr/project_docs/custom-404-page.md)
+* [custom-404-page.md](../../../Xot/project_docs/custom-404-page.md)
+* [custom-404-page.md](../../../UI/project_docs/custom-404-page.md)
+* [custom-404-page.md](../../../Tenant/project_docs/it/custom-404-page.md)
+* [custom-404-page.md](../../../Cms/project_docs/custom-404-page.md)
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+### Versione Incoming
+
+---
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_RLn9K0
+
+### Versione Incoming
+
+
+<<<<<<< .merge_file_pI9XLN
+<<<<<<< HEAD
+---
+### Versione Incoming
+=======
+<<<<<<< HEAD
+---
+=======
+<<<<<<< HEAD
+---
+=======
+### Versione Incoming
+
+---
+<<<<<<< .merge_file_yDddZo
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -195,4 +309,25 @@ Depending on where your site is hosted, you may need to configure your server to
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+=======
+---
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+---
+### Versione Incoming
+=======
+>>>>>>> .merge_file_RLn9K0
+>>>>>>> .merge_file_mCUCwZ
 >>>>>>> laraxot/dev

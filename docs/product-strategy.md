@@ -4,8 +4,21 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_K8jQws
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwxbZt
 # UI - Product Strategy
 
 > Strategia prodotto. Modulo.
@@ -56,9 +69,21 @@ Portare **UI** a uno stato in cui il progetto ottiene un vantaggio netto e misur
 
 ## Regola architetturale
 <<<<<<< HEAD
+<<<<<<< .merge_file_K8jQws
 =======
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_QgDfPB
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwxbZt
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -67,6 +92,11 @@ Portare **UI** a uno stato in cui il progetto ottiene un vantaggio netto e misur
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_K8jQws
+=======
+=======
+>>>>>>> .merge_file_UCPrBV
+>>>>>>> .merge_file_qwxbZt
 # UI Module - Product Strategy
 
 **Module:** UI  
@@ -157,6 +187,10 @@ Easy to use and extend.
 
 ---
 
+<<<<<<< .merge_file_K8jQws
+=======
+<<<<<<< .merge_file_QgDfPB
+>>>>>>> .merge_file_qwxbZt
 <<<<<<< HEAD
 *Last Updated: March 12, 2026*
 =======
@@ -215,6 +249,17 @@ Easy to use and extend.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_K8jQws
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+*Last Updated: March 12, 2026*
+=======
+>>>>>>> .merge_file_UCPrBV
+>>>>>>> .merge_file_qwxbZt
 >>>>>>> laraxot/dev
 
 - Action-first: niente generic `Services` per la business logic
@@ -226,6 +271,14 @@ Easy to use and extend.
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_K8jQws
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwxbZt
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
@@ -236,4 +289,11 @@ Easy to use and extend.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< .merge_file_K8jQws
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qwxbZt
 >>>>>>> laraxot/dev

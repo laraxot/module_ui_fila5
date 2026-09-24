@@ -8,14 +8,14 @@ updated: 2026-06-05
 qmd: "ui second brain stub canonical xot harness hackernoon llm-wiki"
 issues:
 <<<<<<< HEAD
-  - "https://github.com/laraxot/base_fixcity_fila5/issues/272"
-discussions:
-  - "https://github.com/laraxot/base_fixcity_fila5/discussions/273"
-related:
-  - ../../../../Xot/docs/wiki/concepts/second-brain-local-discipline.md
-  - ../../../../docs/wiki/concepts/ai-harness-module-discipline.md
-  - ../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md
-  - ../../../../../../bashscripts/tools/prompts/llm-wiki.txt
+<<<<<<< .merge_file_8FuFEy
+=======
+<<<<<<< .merge_file_yVVffE
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 discussions:
 related:
@@ -27,6 +27,45 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
+=======
+>>>>>>> .merge_file_0YqcNW
+>>>>>>> .merge_file_IJxMhx
+  - "https://github.com/laraxot/base_fixcity_fila5/issues/272"
+discussions:
+  - "https://github.com/laraxot/base_fixcity_fila5/discussions/273"
+related:
+  - ../../../../Xot/docs/wiki/concepts/second-brain-local-discipline.md
+  - ../../../../docs/wiki/concepts/ai-harness-module-discipline.md
+  - ../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md
+  - ../../../../../../bashscripts/tools/prompts/llm-wiki.txt
+<<<<<<< .merge_file_8FuFEy
+=======
+=======
+<<<<<<< .merge_file_yVVffE
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_IJxMhx
+discussions:
+related:
+  - "./auth-register-focus-loss-overlay.md"
+  - "./block-rendering-and-optional-services.md"
+  - "./claude-audit-static.md"
+  - "./code-redundancy-ui.md"
+  - "./context-overflow-prevention.md"
+  - "./enum-select-best-practices.md"
+  - "./enum-select-component.md"
+  - "./enum-select-contract-and-false-friends.md"
+<<<<<<< .merge_file_8FuFEy
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0YqcNW
+>>>>>>> .merge_file_IJxMhx
 >>>>>>> laraxot/dev
 ---
 
@@ -40,11 +79,28 @@ related:
 | **Tips 001–022** | [hackernoon map](../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md) |
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_8FuFEy
 | **Tips 001–022** | [hackernoon map](../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md) |
+=======
+| **Tips 001–022** | [hackernoon map](../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md) |
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+| **Tips 001–022** | [hackernoon map](../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md) |
+<<<<<<< .merge_file_yVVffE
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0YqcNW
+>>>>>>> .merge_file_IJxMhx
 <<<<<<< HEAD
 | **Tips 001–022** | [hackernoon map](../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md) |
 | **Tips 001–022** | [hackernoon map](../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-progetto corrente-map.md) |
 =======
+<<<<<<< .merge_file_8FuFEy
+=======
+<<<<<<< .merge_file_yVVffE
+>>>>>>> .merge_file_IJxMhx
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -63,6 +119,15 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_8FuFEy
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0YqcNW
+>>>>>>> .merge_file_IJxMhx
 >>>>>>> laraxot/dev
 | **Prompt router** | [llm-wiki.txt](../../../../../../bashscripts/tools/prompts/llm-wiki.txt) |
 

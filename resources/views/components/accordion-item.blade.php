@@ -1,4 +1,14 @@
+<<<<<<< .merge_file_VVI6Y9
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_1YeElu
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_TNW67C
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -46,8 +56,23 @@
 @php
 @endphp
 
+<<<<<<< .merge_file_VVI6Y9
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+<?php
+
+declare(strict_types=1);
+?>
+>>>>>>> .merge_file_24Xhsa
+>>>>>>> .merge_file_TNW67C
 @props([
     'title' => '',
     'id' => 'item-' . uniqid(),

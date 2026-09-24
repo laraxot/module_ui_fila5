@@ -1,6 +1,17 @@
 # Guida all'utilizzo di GroupColumn e Colonne Custom
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_QHwvhS
+=======
+=======
+<<<<<<< .merge_file_wHpuPW
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_IKMwec
+>>>>>>> .merge_file_y7eXwb
 > **REGOLA IMPORTANTE**: Quando esiste una colonna personalizzata come `WorkerColumn`, `ValutatoreColumn`, ecc., USARLA invece di creare TextColumns separati. Le colonne personalizzate encapsulano la logica e mantengono DRY.
 
 ## Esempio: Usare WorkerColumn
@@ -22,7 +33,18 @@ Le colonne personalizzate come `WorkerColumn` sono pre-configurate con:
 
 ---
 
+<<<<<<< .merge_file_QHwvhS
 =======
+=======
+<<<<<<< .merge_file_wHpuPW
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_IKMwec
+>>>>>>> .merge_file_y7eXwb
 >>>>>>> laraxot/dev
 Questo documento spiega le cause e le soluzioni per un problema comune riscontrato con il componente custom `GroupColumn`: la mancata visualizzazione di dati provenienti da relazioni Eloquent (campi con notazione "dot notation").
 

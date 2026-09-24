@@ -1,9 +1,27 @@
 # 🔧 PSR-4 Fix Implementation Plan - UI Module
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_Suw1JJ
 =======
 **Data**: Dicembre 15, 2025
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_763mx7
+=======
+<<<<<<< HEAD
+**Data**: Dicembre 15, 2025
+=======
+<<<<<<< HEAD
+=======
+**Data**: Dicembre 15, 2025
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+**Data**: Dicembre 15, 2025
+=======
+>>>>>>> .merge_file_kFplSF
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_A2pbFK
 **Modulo**: UI
 **Tipo Fix**: Namespace correction (Modules\Notify → Modules\UI)
 
@@ -33,10 +51,23 @@ Tutti in `Modules/UI/app/Filament/Forms/Components/`:
 
 <<<<<<< HEAD
 **TechPlanner/app/Filament/Resources/ClientResource.php**:
+<<<<<<< .merge_file_Suw1JJ
+=======
+<<<<<<< .merge_file_763mx7
+>>>>>>> .merge_file_A2pbFK
 =======
 <<<<<<< HEAD
 **TechPlanner/app/Filament/Resources/ClientResource.php**:
 <<<<<<< HEAD
+<<<<<<< .merge_file_Suw1JJ
+=======
+=======
+=======
+<<<<<<< HEAD
+**TechPlanner/app/Filament/Resources/ClientResource.php**:
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_A2pbFK
 **modulo operativo/app/Filament/Resources/ClientResource.php**:
 =======
 =======
@@ -57,6 +88,18 @@ Tutti in `Modules/UI/app/Filament/Forms/Components/`:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_Suw1JJ
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+**modulo operativo/app/Filament/Resources/ClientResource.php**:
+=======
+>>>>>>> .merge_file_kFplSF
+>>>>>>> .merge_file_A2pbFK
 >>>>>>> laraxot/dev
 ```php
 Line 13: use Modules\Notify\Filament\Forms\Components\ContactSection;
@@ -176,11 +219,26 @@ Aggiornare:
 - [ ] `Modules/UI/docs/CHANGELOG.md` - Log del fix
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_Suw1JJ
+=======
+- [ ] `Modules/UI/docs/CHANGELOG.md` - Log del fix
+=======
+<<<<<<< HEAD
+- [ ] `Modules/UI/docs/changelog.md` - Log del fix
+>>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_A2pbFK
 - [ ] `Modules/UI/docs/CHANGELOG.md` - Log del fix
 =======
 - [ ] `Modules/UI/docs/changelog.md` - Log del fix
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_Suw1JJ
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_A2pbFK
 
 ### Step 8: Git Commit
 

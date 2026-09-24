@@ -1,4 +1,14 @@
+<<<<<<< .merge_file_l1zrkw
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_W8rSjt
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_8tmsao
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -17,12 +27,22 @@
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
+<<<<<<< .merge_file_l1zrkw
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_d1CZJv
+>>>>>>> .merge_file_8tmsao
 <?php
 
 declare(strict_types=1);
-
 ?>
 <div class="bg-white">
     <header class="absolute inset-x-0 top-0 z-50">

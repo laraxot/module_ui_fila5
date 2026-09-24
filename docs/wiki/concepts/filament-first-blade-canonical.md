@@ -6,9 +6,22 @@ created: 2026-05-28
 tags: [filament, ui, blade]
 related:
 <<<<<<< HEAD
+<<<<<<< .merge_file_8VcBFJ
   - ../../../../../../docs/wiki/rules/filament-first-rule.md
   - ../../blade/filament-components.md
 =======
+=======
+<<<<<<< .merge_file_p0HGb4
+  - ../../../../../../docs/wiki/rules/filament-first-rule.md
+  - ../../blade/filament-components.md
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  - ../../../../../../docs/wiki/rules/filament-first-rule.md
+  - ../../blade/filament-components.md
+=======
+>>>>>>> laraxot/dev
   - "./auth-register-focus-loss-overlay.md"
   - "./block-rendering-and-optional-services.md"
   - "./claude-audit-static.md"
@@ -17,6 +30,27 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_DAJCiC
+  - "./auth-register-focus-loss-overlay.md"
+  - "./block-rendering-and-optional-services.md"
+  - "./claude-audit-static.md"
+  - "./code-redundancy-ui.md"
+  - "./context-overflow-prevention.md"
+  - "./enum-select-best-practices.md"
+  - "./enum-select-component.md"
+  - "./enum-select-contract-and-false-friends.md"
+<<<<<<< .merge_file_8VcBFJ
+=======
+=======
+  - ../../../../../../docs/wiki/rules/filament-first-rule.md
+  - ../../blade/filament-components.md
+>>>>>>> .merge_file_ENtphq
+>>>>>>> .merge_file_DAJCiC
 >>>>>>> laraxot/dev
 ---
 

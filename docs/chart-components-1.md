@@ -10,8 +10,17 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 <<<<<<< HEAD
 <x-ui::line-chart
 =======
+<<<<<<< .merge_file_YqTr01
 <x-ui::line-chart 
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+<x-ui::line-chart
+=======
+<x-ui::line-chart 
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2VA6er
     :title="'Andamento Utenti'"
     :labels="['Gen', 'Feb', 'Mar', 'Apr', 'Mag', 'Giu']"
     :datasets="[
@@ -32,10 +41,20 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 ### PieChart
 ```blade
 <<<<<<< HEAD
+<<<<<<< .merge_file_YqTr01
+=======
+<x-ui::pie-chart
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_2VA6er
 <x-ui::pie-chart
 =======
 <x-ui::pie-chart 
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_YqTr01
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2VA6er
     :title="'Distribuzione Utenti'"
     :labels="['Attivi', 'Inattivi', 'In attesa']"
     :data="[300, 50, 100]"
@@ -50,10 +69,20 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 ### StatsOverview
 ```blade
 <<<<<<< HEAD
+<<<<<<< .merge_file_YqTr01
+=======
+<x-ui::stats-overview
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_2VA6er
 <x-ui::stats-overview
 =======
 <x-ui::stats-overview 
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_YqTr01
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2VA6er
     :stats="[
         [
             'label' => 'Utenti Totali',
@@ -106,17 +135,36 @@ class UserStats extends Component
 <<<<<<< HEAD
 
 =======
+<<<<<<< .merge_file_YqTr01
     
 >>>>>>> laraxot/dev
-    public function mount()
-    {
-        $this->updateChartData();
-    }
+=======
 <<<<<<< HEAD
 
 =======
     
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2VA6er
+    public function mount()
+    {
+        $this->updateChartData();
+    }
+<<<<<<< HEAD
+<<<<<<< .merge_file_YqTr01
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_2VA6er
+
+=======
+    
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_YqTr01
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2VA6er
     public function updateChartData()
     {
         $this->chartData = [
@@ -131,10 +179,20 @@ class UserStats extends Component
         ];
     }
 <<<<<<< HEAD
+<<<<<<< .merge_file_YqTr01
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_2VA6er
 
 =======
     
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_YqTr01
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2VA6er
     public function render()
     {
         return view('livewire.user-stats');

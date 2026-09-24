@@ -2,12 +2,32 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_Qo9KFl
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_1lmwxG
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+return [
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_WA3LCZ
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/it/s3_test.php
 return [
+<<<<<<< HEAD
+// Laraxot — see module docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+=======
     // Laraxot — see module docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
@@ -18,6 +38,14 @@ return [
 =======
 return [
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_Qo9KFl
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+return [
+>>>>>>> .merge_file_c31MPu
+>>>>>>> .merge_file_WA3LCZ
     'navigation' => [
         'label' => 'Test S3',
         'group' => 'UI',

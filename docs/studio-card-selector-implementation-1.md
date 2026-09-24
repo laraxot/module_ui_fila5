@@ -23,11 +23,20 @@ class StudioCardSelector extends Field
     protected string $view = 'ui::forms.components.studio-card-selector';
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_gQxY7E
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_mbsK20
     
     // Dati studios da visualizzare
     protected Collection|Closure|null $studios = null;
     
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_gQxY7E
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_mbsK20
 
     // Dati studios da visualizzare
     protected Collection|Closure|null $studios = null;
@@ -128,6 +137,11 @@ private function getStudiosForLocation(Get $get): Collection
     $cap = $get('cap');
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_gQxY7E
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_mbsK20
     $province = $get('province'); 
     $region = $get('region');
     
@@ -137,6 +151,10 @@ private function getStudiosForLocation(Get $get): Collection
     
     return \Modules\SaluteOra\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_gQxY7E
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_mbsK20
     $province = $get('province');
     $region = $get('region');
 
@@ -198,6 +216,11 @@ return [
 
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_gQxY7E
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_mbsK20
 ### Modulo SaluteOra
 - [Widget Analysis](../SaluteOra/docs/widgets/find-doctor-widget-studio-step-analysis.md)
 
@@ -207,6 +230,10 @@ return [
 **Reusability**: 🔄 High - Cross-module compatible  
 **Last Updated**: January 2025 
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_gQxY7E
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_mbsK20
 ### Modulo <nome progetto>
 - [Widget Analysis](../<nome progetto>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
 

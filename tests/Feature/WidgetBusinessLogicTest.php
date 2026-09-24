@@ -27,13 +27,34 @@ function concreteRowWidget(): RowWidget
     return new class extends RowWidget {
     };
 =======
+<<<<<<< .merge_file_OO9MQP
     return new class extends RowWidget {};
+=======
+<<<<<<< HEAD
+    return new class extends RowWidget {};
+=======
+<<<<<<< HEAD
+    return new class extends RowWidget {
+    };
+=======
+    return new class extends RowWidget {};
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qIXDLQ
 >>>>>>> laraxot/dev
 }
 
 it('widgets instantiate and extend filament base', function (): void {
     $widgets = [
 <<<<<<< HEAD
+<<<<<<< .merge_file_OO9MQP
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qIXDLQ
         new StatWithIconWidget(),
         new OverlookWidget(),
         new HeroWidget(),
@@ -42,7 +63,14 @@ it('widgets instantiate and extend filament base', function (): void {
         new GroupWidget(),
         new RedirectWidget(),
         new UserCalendarWidget(),
+<<<<<<< .merge_file_OO9MQP
 =======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qIXDLQ
         new StatWithIconWidget,
         new OverlookWidget,
         new HeroWidget,
@@ -51,6 +79,13 @@ it('widgets instantiate and extend filament base', function (): void {
         new GroupWidget,
         new RedirectWidget,
         new UserCalendarWidget,
+<<<<<<< .merge_file_OO9MQP
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qIXDLQ
 >>>>>>> laraxot/dev
         concreteRowWidget(),
     ];
@@ -63,6 +98,19 @@ it('widgets instantiate and extend filament base', function (): void {
 it('schema widgets expose empty form schema by default', function (): void {
     $widgets = [
 <<<<<<< HEAD
+<<<<<<< .merge_file_OO9MQP
+=======
+        new StatWithIconWidget(),
+        new GroupWidget(),
+        new RedirectWidget(),
+=======
+<<<<<<< HEAD
+        new StatWithIconWidget,
+        new GroupWidget,
+        new RedirectWidget,
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_qIXDLQ
         new StatWithIconWidget(),
         new GroupWidget(),
         new RedirectWidget(),
@@ -71,6 +119,11 @@ it('schema widgets expose empty form schema by default', function (): void {
         new GroupWidget,
         new RedirectWidget,
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_OO9MQP
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_qIXDLQ
         concreteRowWidget(),
     ];
 

@@ -1,9 +1,21 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_WRX9Ed
+=======
+<<<<<<< .merge_file_bCcFqi
+>>>>>>> .merge_file_F6Mnqn
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_WRX9Ed
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_F6Mnqn
 <<<<<<< HEAD
 =======
 =======
@@ -13,6 +25,11 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_WRX9Ed
+=======
+=======
+>>>>>>> .merge_file_yN6fUW
+>>>>>>> .merge_file_F6Mnqn
 ---
 title: "custom_firm_fields"
 type: concept
@@ -32,6 +49,10 @@ related:
   - "./custom-firm-fields-1.md"
   - "./custom-theme-1.md"
 ---
+<<<<<<< .merge_file_WRX9Ed
+=======
+<<<<<<< .merge_file_bCcFqi
+>>>>>>> .merge_file_F6Mnqn
 <<<<<<< HEAD
 =======
 
@@ -49,6 +70,16 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_WRX9Ed
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> .merge_file_yN6fUW
+>>>>>>> .merge_file_F6Mnqn
 >>>>>>> laraxot/dev
 # custom_firm_fields
 
@@ -62,6 +93,14 @@ https://github.com/tanthammar/filament-extras
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_WRX9Ed
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_F6Mnqn
 <<<<<<< HEAD
 =======
 =======
@@ -71,6 +110,13 @@ https://github.com/tanthammar/filament-extras
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_WRX9Ed
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_F6Mnqn
 >>>>>>> laraxot/dev
 //--- with nested ?
 https://github.com/saade/filament-extra
@@ -84,6 +130,14 @@ https://github.com/tanthammar/filament-extras
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_WRX9Ed
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_F6Mnqn
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -96,6 +150,13 @@ https://github.com/tanthammar/filament-extras
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< .merge_file_WRX9Ed
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_F6Mnqn
 >>>>>>> laraxot/dev
 
 //--- with nested ?
@@ -105,6 +166,15 @@ https://github.com/saade/filament-extra
 https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_WRX9Ed
+=======
+<<<<<<< HEAD
+=======
+https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_F6Mnqn
 
 https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
 <<<<<<< HEAD
@@ -126,6 +196,7 @@ https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-ca
 >>>>>>> laraxot/dev
 =======
 
+<<<<<<< .merge_file_WRX9Ed
 https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 <<<<<<< HEAD
@@ -135,3 +206,25 @@ https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-ca
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
+<<<<<<< .merge_file_bCcFqi
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_yN6fUW
+>>>>>>> .merge_file_F6Mnqn

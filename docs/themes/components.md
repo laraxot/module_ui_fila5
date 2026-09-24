@@ -1,5 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_PZuUs0
 =======
+=======
+<<<<<<< .merge_file_VsgJ5q
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_n8NIKd
+>>>>>>> .merge_file_Ol57Y4
 ---
 title: "Componenti del Tema"
 type: concept
@@ -7,6 +19,10 @@ tags: [components]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "components componenti del tema"
+<<<<<<< .merge_file_PZuUs0
+=======
+<<<<<<< .merge_file_VsgJ5q
+>>>>>>> .merge_file_Ol57Y4
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -19,6 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_PZuUs0
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_n8NIKd
+>>>>>>> .merge_file_Ol57Y4
 related:
   - "./asset-management-1.md"
   - "./asset-management.md"
@@ -27,7 +52,20 @@ related:
   - "./schemaless-attributes-guide.md"
 ---
 
+<<<<<<< .merge_file_PZuUs0
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_VsgJ5q
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_n8NIKd
+>>>>>>> .merge_file_Ol57Y4
 # Componenti del Tema
 
 ## Logo

@@ -176,9 +176,22 @@ protected function createApplication()
     
     $app['config']->set([
 <<<<<<< HEAD
+<<<<<<< .merge_file_XMfVcj
 'database.connections.ui.database' => 'Quaeris_data_test',
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_aQNWp0
+'database.connections.ui.database' => 'Quaeris_data_test',
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+'database.connections.ui.database' => 'Quaeris_data_test',
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_aKhw6q
         'database.connections.ui.database' => 'quaeris_data_test',
 <<<<<<< HEAD
         'database.connections.ui.database' => 'modulo questionari_data_test',
@@ -201,6 +214,18 @@ protected function createApplication()
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_XMfVcj
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+        'database.connections.ui.database' => '<nome progetto>_data_test',
+=======
+'database.connections.ui.database' => 'Quaeris_data_test',
+>>>>>>> .merge_file_WGc67h
+>>>>>>> .merge_file_aKhw6q
 >>>>>>> laraxot/dev
     ]);
     
@@ -283,14 +308,54 @@ protected function createApplication()
 
 - [Laravel 12.x Testing Documentation](https://laravel.com/docs/12.x/testing)
 <<<<<<< HEAD
+<<<<<<< .merge_file_XMfVcj
 =======
 - [Laravel 13.x Testing Documentation](https://laravel.com/docs/12.x/testing)
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_aQNWp0
+=======
+<<<<<<< HEAD
+- [Laravel 13.x Testing Documentation](https://laravel.com/docs/12.x/testing)
+=======
+<<<<<<< HEAD
+=======
+- [Laravel 13.x Testing Documentation](https://laravel.com/docs/12.x/testing)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [Laravel 13.x Testing Documentation](https://laravel.com/docs/12.x/testing)
+=======
+>>>>>>> .merge_file_WGc67h
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_aKhw6q
 - [Pest Installation Guide](https://pestphp.com/docs/installation)
 - [PHPStan Documentation](https://phpstan.org/user-guide/getting-started)
 
 ### Internal Resources
 
+<<<<<<< HEAD
+<<<<<<< .merge_file_XMfVcj
+=======
+<<<<<<< .merge_file_aQNWp0
+>>>>>>> .merge_file_aKhw6q
+- [Testing Setup Guide](../../../docs/testing-setup.md)
+- [Testing Best Practices](../../../docs/testing-best-practices.md)
+- [Troubleshooting Guide](../../../docs/troubleshooting.md)
+=======
+<<<<<<< .merge_file_XMfVcj
+- [Testing Setup Guide](../../docs/testing-setup.md)
+- [Testing Best Practices](../../docs/testing-best-practices.md)
+- [Troubleshooting Guide](../../docs/troubleshooting.md)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_WGc67h
+- [Testing Setup Guide](../../docs/testing-setup.md)
+- [Testing Best Practices](../../docs/testing-best-practices.md)
+- [Troubleshooting Guide](../../docs/troubleshooting.md)
+=======
+<<<<<<< .merge_file_aQNWp0
 <<<<<<< HEAD
 - [Testing Setup Guide](../../../docs/testing-setup.md)
 - [Testing Best Practices](../../../docs/testing-best-practices.md)
@@ -299,6 +364,14 @@ protected function createApplication()
 - [Testing Setup Guide](../../docs/testing-setup.md)
 - [Testing Best Practices](../../docs/testing-best-practices.md)
 - [Troubleshooting Guide](../../docs/troubleshooting.md)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [Testing Setup Guide](../../../docs/testing-setup.md)
+- [Testing Best Practices](../../../docs/testing-best-practices.md)
+- [Troubleshooting Guide](../../../docs/troubleshooting.md)
+>>>>>>> .merge_file_WGc67h
+>>>>>>> .merge_file_aKhw6q
 >>>>>>> laraxot/dev
 
 ## Testing Examples
@@ -396,8 +469,22 @@ Remember: Good tests are the foundation of reliable software development.
 ---
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_XMfVcj
 *
 =======
+=======
+<<<<<<< .merge_file_aQNWp0
+*
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+*
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_WGc67h
+>>>>>>> .merge_file_aKhw6q
 *Last updated: January 2025*
 
 ## Story 5.26 — progress verso 100% (2026-08-20)
@@ -452,4 +539,16 @@ Prossimo step: coprire rami residui IconStateColumn (fillForm/textarea required)
 ```bash
 ./vendor/bin/pest Modules/UI/tests
 ```
+<<<<<<< .merge_file_XMfVcj
+=======
+<<<<<<< .merge_file_aQNWp0
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+*
+>>>>>>> .merge_file_WGc67h
+>>>>>>> .merge_file_aKhw6q
 >>>>>>> laraxot/dev

@@ -1,5 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_P6XiF3
 =======
+=======
+<<<<<<< .merge_file_XuZllW
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_DwiEcb
+>>>>>>> .merge_file_NouPxt
 ---
 title: "RadioCollection: Riassunto Correzione & Risultati FINALI"
 type: concept
@@ -7,6 +19,10 @@ tags: [radio, collection, fix, sumy]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "radio-collection-fix-sumy radiocollection: riassunto correzione & risultati finali"
+<<<<<<< .merge_file_P6XiF3
+=======
+<<<<<<< .merge_file_XuZllW
+>>>>>>> .merge_file_NouPxt
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -19,6 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_P6XiF3
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_DwiEcb
+>>>>>>> .merge_file_NouPxt
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -30,7 +55,20 @@ related:
   - "./full-calendar-1.md"
 ---
 
+<<<<<<< .merge_file_P6XiF3
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_XuZllW
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_DwiEcb
+>>>>>>> .merge_file_NouPxt
 # RadioCollection: Riassunto Correzione & Risultati FINALI
 
 ## 🎯 Problema Identificato

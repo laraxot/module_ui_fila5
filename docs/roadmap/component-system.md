@@ -1,9 +1,21 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_ZXrMIK
+=======
+<<<<<<< .merge_file_JgSU00
+>>>>>>> .merge_file_3IKeyh
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_ZXrMIK
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_3IKeyh
 <<<<<<< HEAD
 =======
 =======
@@ -13,6 +25,11 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_ZXrMIK
+=======
+=======
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> .merge_file_3IKeyh
 ---
 title: "Sistema Componenti UI"
 type: concept
@@ -32,6 +49,10 @@ related:
   - "./02-next.md"
   - "./03-later.md"
 ---
+<<<<<<< .merge_file_ZXrMIK
+=======
+<<<<<<< .merge_file_JgSU00
+>>>>>>> .merge_file_3IKeyh
 <<<<<<< HEAD
 =======
 
@@ -49,6 +70,16 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_ZXrMIK
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> .merge_file_3IKeyh
 >>>>>>> laraxot/dev
 # Sistema Componenti UI
 
@@ -247,14 +278,35 @@ protected function resolveLazyProp(string $key): mixed
 3. Migliorare test coverage
 4. Documentare best practices
 <<<<<<< HEAD
+<<<<<<< .merge_file_ZXrMIK
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_3IKeyh
 5. Ottimizzare performance
 # Sistema Componenti UI
+<<<<<<< HEAD
+## 📊 Stato Implementazione
+Completamento: 35%
+=======
 
 ## 📊 Stato Implementazione
 Completamento: 35%
 
+<<<<<<< .merge_file_ZXrMIK
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_JgSU00
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_3IKeyh
 5. Ottimizzare performance 
 =======
 <<<<<<< HEAD
@@ -274,6 +326,15 @@ Completamento: 35%
 # Sistema Componenti UI
 ## 📊 Stato Implementazione
 Completamento: 35%
+<<<<<<< .merge_file_ZXrMIK
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> .merge_file_3IKeyh
 >>>>>>> laraxot/dev
 ## 🎯 Obiettivi
 1. Creare un sistema di componenti tipizzato e riutilizzabile
@@ -281,38 +342,122 @@ Completamento: 35%
 3. Migliorare la developer experience
 4. Ottimizzare le performance di rendering
 <<<<<<< HEAD
+<<<<<<< .merge_file_ZXrMIK
+=======
+<<<<<<< .merge_file_JgSU00
+>>>>>>> .merge_file_3IKeyh
 
+## 🤔 Sfide di Design
+=======
+## 🤔 Sfide di Design
+=======
+>>>>>>> .merge_file_nSVIR3
+
+=======
+<<<<<<< .merge_file_ZXrMIK
+## 🤔 Sfide di Design
+=======
+<<<<<<< HEAD
+## 🤔 Sfide di Design
+=======
+<<<<<<< HEAD
+
+<<<<<<< .merge_file_JgSU00
 ## 🤔 Sfide di Design
 
 =======
 ## 🤔 Sfide di Design
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> .merge_file_3IKeyh
 >>>>>>> laraxot/dev
 ### 1. Tipizzazione Componenti
 - Necessità di mantenere type safety tra props e rendering
 - Gestione stati complessi nei componenti dinamici
 - Validazione props a runtime
 <<<<<<< HEAD
+<<<<<<< .merge_file_ZXrMIK
 
 =======
+=======
+<<<<<<< .merge_file_JgSU00
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> .merge_file_3IKeyh
 >>>>>>> laraxot/dev
 ### 2. Theming System
 - Integrazione con il sistema di temi
 - Supporto per dark/light mode
 - Customizzazione per tenant specifici
 <<<<<<< HEAD
+<<<<<<< .merge_file_ZXrMIK
 
 =======
+=======
+<<<<<<< .merge_file_JgSU00
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> .merge_file_3IKeyh
 >>>>>>> laraxot/dev
 ### 3. Performance
 - Lazy loading dei componenti
 - Ottimizzazione del rendering
 - Caching view compilate
 <<<<<<< HEAD
+<<<<<<< .merge_file_ZXrMIK
+=======
+<<<<<<< .merge_file_JgSU00
+>>>>>>> .merge_file_3IKeyh
+
+## 💡 Soluzioni Proposte
+
+=======
+<<<<<<< .merge_file_ZXrMIK
+## 💡 Soluzioni Proposte
+=======
+<<<<<<< HEAD
+## 💡 Soluzioni Proposte
+=======
+<<<<<<< HEAD
 
 ## 💡 Soluzioni Proposte
 
 =======
 ## 💡 Soluzioni Proposte
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+## 💡 Soluzioni Proposte
+=======
+
+## 💡 Soluzioni Proposte
+
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> .merge_file_3IKeyh
 >>>>>>> laraxot/dev
 ### 1. Component Base Class
 ```php
@@ -321,28 +466,101 @@ abstract class XotBaseUIComponent
     protected array $props = [];
     protected ?View $compiledView = null;
 <<<<<<< HEAD
+<<<<<<< .merge_file_ZXrMIK
+=======
+<<<<<<< .merge_file_JgSU00
 
     abstract public function render(): View;
 
 =======
+<<<<<<< HEAD
     abstract public function render(): View;
+=======
+<<<<<<< HEAD
+
+    abstract public function render(): View;
+>>>>>>> .merge_file_3IKeyh
+
+=======
+    abstract public function render(): View;
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+    abstract public function render(): View;
+=======
+
+<<<<<<< .merge_file_ZXrMIK
+=======
+    abstract public function render(): View;
+=======
+    abstract public function render(): View;
+
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> .merge_file_3IKeyh
 >>>>>>> laraxot/dev
     protected function validateProps(): void
     {
         // Implementazione validazione
     }
 <<<<<<< HEAD
+<<<<<<< .merge_file_ZXrMIK
+
+    protected function compileView(): View
+    {
+=======
+    protected function compileView(): View
+=======
+<<<<<<< .merge_file_JgSU00
+
+    protected function compileView(): View
+    {
+=======
+<<<<<<< HEAD
+    protected function compileView(): View
+=======
+<<<<<<< HEAD
 
     protected function compileView(): View
     {
 =======
     protected function compileView(): View
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+    protected function compileView(): View
+=======
+
+    protected function compileView(): View
+    {
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> .merge_file_3IKeyh
+>>>>>>> laraxot/dev
         if ($this->compiledView === null) {
             $this->compiledView = $this->render();
         }
         return $this->compiledView;
 <<<<<<< HEAD
+<<<<<<< .merge_file_ZXrMIK
+=======
+<<<<<<< .merge_file_JgSU00
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+}
+```
+### 2. Component Registry
+class ComponentRegistry
+    /** @var array<string, class-string<XotBaseUIComponent>> */
+    protected array $components = [];
+    public function register(string $name, string $componentClass): void
+        $this->components[$name] = $componentClass;
+## 📝 Steps Implementazione
+=======
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> .merge_file_3IKeyh
     }
 }
 ```
@@ -363,7 +581,15 @@ class ComponentRegistry
 
 ## 📝 Steps Implementazione
 
+<<<<<<< .merge_file_ZXrMIK
 =======
+=======
+<<<<<<< .merge_file_JgSU00
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_3IKeyh
 }
 ```
 ### 2. Component Registry
@@ -373,6 +599,15 @@ class ComponentRegistry
     public function register(string $name, string $componentClass): void
         $this->components[$name] = $componentClass;
 ## 📝 Steps Implementazione
+<<<<<<< .merge_file_ZXrMIK
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> .merge_file_3IKeyh
 >>>>>>> laraxot/dev
 ### Fase 1: Foundation (✅ Completato)
 1. ✅ Definire interfacce base
@@ -380,8 +615,25 @@ class ComponentRegistry
 3. ✅ Setup sistema di build
 4. ✅ Configurare testing environment
 <<<<<<< HEAD
+<<<<<<< .merge_file_ZXrMIK
 
 =======
+=======
+<<<<<<< .merge_file_JgSU00
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> .merge_file_3IKeyh
 >>>>>>> laraxot/dev
 ### Fase 2: Core Components (🏗️ In Progress)
 1. ✅ Button component
@@ -390,8 +642,25 @@ class ComponentRegistry
 4. 📝 Table component
 5. 📝 Modal component
 <<<<<<< HEAD
+<<<<<<< .merge_file_ZXrMIK
 
 =======
+=======
+<<<<<<< .merge_file_JgSU00
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> .merge_file_3IKeyh
 >>>>>>> laraxot/dev
 ### Fase 3: Advanced Features
 1. 📝 Lazy loading
@@ -400,37 +669,14 @@ class ComponentRegistry
 4. 📝 Accessibility hooks
 5. 📝 Performance monitoring
 <<<<<<< HEAD
-
-## 🎭 Edge Cases
-
-1. **Dynamic Props**
-```php
-// Problema: Props dinamiche non tipizzate
-public function setProps(array $props)
-
-// Soluzione: Type guard con validazione
-public function setProps(ComponentProps $props): void
-{
-    $this->validateProps($props);
-    $this->props = $props->toArray();
-}
-```
-
-2. **Nested Components**
-```php
-// Problema: Perdita type safety in nesting
-$component->addChild($child)
-
-// Soluzione: Type constraints
-public function addChild(XotBaseUIComponent $child): void
-{
-    $this->validateChildComponent($child);
-    $this->children[] = $child;
-}
-```
-
-## ✅ Code Review Checklist
-
+<<<<<<< .merge_file_ZXrMIK
+=======
+<<<<<<< .merge_file_JgSU00
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 ## 🎭 Edge Cases
 1. **Dynamic Props**
@@ -448,28 +694,147 @@ public function addChild(XotBaseUIComponent $child): void
     $this->validateChildComponent($child);
     $this->children[] = $child;
 ## ✅ Code Review Checklist
+=======
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> .merge_file_3IKeyh
+
+## 🎭 Edge Cases
+
+1. **Dynamic Props**
+```php
+// Problema: Props dinamiche non tipizzate
+public function setProps(array $props)
+
+// Soluzione: Type guard con validazione
+public function setProps(ComponentProps $props): void
+{
+    $this->validateProps($props);
+    $this->props = $props->toArray();
+}
+```
+
+2. **Nested Components**
+```php
+// Problema: Perdita type safety in nesting
+$component->addChild($child)
+
+// Soluzione: Type constraints
+public function addChild(XotBaseUIComponent $child): void
+{
+    $this->validateChildComponent($child);
+    $this->children[] = $child;
+}
+```
+
+## ✅ Code Review Checklist
+
+<<<<<<< .merge_file_ZXrMIK
+=======
+=======
+<<<<<<< .merge_file_JgSU00
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_3IKeyh
+## 🎭 Edge Cases
+1. **Dynamic Props**
+// Problema: Props dinamiche non tipizzate
+public function setProps(array $props)
+// Soluzione: Type guard con validazione
+public function setProps(ComponentProps $props): void
+    $this->validateProps($props);
+    $this->props = $props->toArray();
+2. **Nested Components**
+// Problema: Perdita type safety in nesting
+$component->addChild($child)
+// Soluzione: Type constraints
+public function addChild(XotBaseUIComponent $child): void
+    $this->validateChildComponent($child);
+    $this->children[] = $child;
+## ✅ Code Review Checklist
+<<<<<<< .merge_file_ZXrMIK
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> .merge_file_3IKeyh
 >>>>>>> laraxot/dev
 1. Type Safety
    - [ ] Props tipizzate
    - [ ] Return types definiti
    - [ ] Validazioni implementate
 <<<<<<< HEAD
+<<<<<<< .merge_file_ZXrMIK
 
 =======
+=======
+<<<<<<< .merge_file_JgSU00
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> .merge_file_3IKeyh
 >>>>>>> laraxot/dev
 2. Performance
    - [ ] View caching configurato
    - [ ] Lazy loading dove necessario
    - [ ] Asset optimization
 <<<<<<< HEAD
+<<<<<<< .merge_file_ZXrMIK
 
 =======
+=======
+<<<<<<< .merge_file_JgSU00
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> .merge_file_3IKeyh
 >>>>>>> laraxot/dev
 3. Testing
    - [ ] Unit tests per ogni componente
    - [ ] Integration tests
    - [ ] Performance benchmarks
 <<<<<<< HEAD
+<<<<<<< .merge_file_ZXrMIK
+=======
+<<<<<<< .merge_file_JgSU00
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_nSVIR3
+## 🚀 Performance Considerations
+1. **View Caching**
+protected function getCachedView(): View
+=======
+<<<<<<< .merge_file_JgSU00
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> .merge_file_3IKeyh
 
 ## 🚀 Performance Considerations
 
@@ -477,16 +842,47 @@ public function addChild(XotBaseUIComponent $child): void
 ```php
 protected function getCachedView(): View
 {
+<<<<<<< .merge_file_ZXrMIK
+=======
+<<<<<<< .merge_file_JgSU00
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_3IKeyh
 =======
 ## 🚀 Performance Considerations
 1. **View Caching**
 protected function getCachedView(): View
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_ZXrMIK
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_3IKeyh
     $cacheKey = $this->getCacheKey();
     return Cache::remember($cacheKey, now()->addHour(), function () {
         return $this->render();
     });
 <<<<<<< HEAD
+<<<<<<< .merge_file_ZXrMIK
+=======
+<<<<<<< .merge_file_JgSU00
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+2. **Lazy Props**
+protected function resolveLazyProp(string $key): mixed
+    return $this->props[$key] instanceof Closure
+        ? ($this->props[$key])()
+        : $this->props[$key];
+## 📚 Lessons Learned
+=======
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> .merge_file_3IKeyh
 }
 ```
 
@@ -502,55 +898,118 @@ protected function resolveLazyProp(string $key): mixed
 
 ## 📚 Lessons Learned
 
+<<<<<<< .merge_file_ZXrMIK
 =======
+=======
+<<<<<<< .merge_file_JgSU00
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_3IKeyh
 2. **Lazy Props**
 protected function resolveLazyProp(string $key): mixed
     return $this->props[$key] instanceof Closure
         ? ($this->props[$key])()
         : $this->props[$key];
 ## 📚 Lessons Learned
+<<<<<<< .merge_file_ZXrMIK
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> .merge_file_3IKeyh
 >>>>>>> laraxot/dev
 1. Importanza della type safety per maintainability
 2. Bilanciamento tra flessibilità e type constraints
 3. Performance impact del view caching
 4. Necessità di documentazione dettagliata
 <<<<<<< HEAD
+<<<<<<< .merge_file_ZXrMIK
+=======
+<<<<<<< .merge_file_JgSU00
 
+## 🔗 Resources
+=======
+## 🔗 Resources
+=======
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> .merge_file_3IKeyh
+
+=======
+<<<<<<< HEAD
+## 🔗 Resources
+=======
+<<<<<<< HEAD
+
+<<<<<<< .merge_file_ZXrMIK
+=======
+## 🔗 Resources
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_JgSU00
 ## 🔗 Resources
 
 =======
 ## 🔗 Resources
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_3IKeyh
 - [Component Architecture](docs/architecture/components.md)
 - [Type System](docs/types/component_types.md)
 - [Performance Guide](docs/performance/view_caching.md)
 - [Testing Strategy](docs/testing/component_testing.md)
 <<<<<<< HEAD
+<<<<<<< .merge_file_ZXrMIK
+=======
+<<<<<<< .merge_file_JgSU00
+
+## 🤝 Contributing
+
+=======
+<<<<<<< HEAD
+## 🤝 Contributing
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_3IKeyh
 
 ## 🤝 Contributing
 
 =======
 ## 🤝 Contributing
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_ZXrMIK
+=======
+>>>>>>> laraxot/dev
+=======
+## 🤝 Contributing
+=======
+
+## 🤝 Contributing
+
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_3IKeyh
 1. Fork il repository
 2. Crea un branch (`feature/component-name`)
 3. Implementa i test
 4. Documenta le modifiche
 5. Submitti una PR
 <<<<<<< HEAD
-
-## ⚠️ Known Issues
-
-1. **View Compilation**
-   - Memory leak in nested components
-   - Solution: Implement view garbage collection
-
-2. **Prop Validation**
-   - Performance impact con molti props
-   - Solution: Lazy validation strategy
-
-## 🎯 Next Steps
-
+<<<<<<< .merge_file_ZXrMIK
+=======
+<<<<<<< .merge_file_JgSU00
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 ## ⚠️ Known Issues
 1. **View Compilation**
@@ -560,12 +1019,55 @@ protected function resolveLazyProp(string $key): mixed
    - Performance impact con molti props
    - Solution: Lazy validation strategy
 ## 🎯 Next Steps
+=======
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> .merge_file_3IKeyh
+
+## ⚠️ Known Issues
+
+1. **View Compilation**
+   - Memory leak in nested components
+   - Solution: Implement view garbage collection
+
+2. **Prop Validation**
+   - Performance impact con molti props
+   - Solution: Lazy validation strategy
+
+## 🎯 Next Steps
+
+<<<<<<< .merge_file_ZXrMIK
+=======
+=======
+<<<<<<< .merge_file_JgSU00
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_3IKeyh
+## ⚠️ Known Issues
+1. **View Compilation**
+   - Memory leak in nested components
+   - Solution: Implement view garbage collection
+2. **Prop Validation**
+   - Performance impact con molti props
+   - Solution: Lazy validation strategy
+## 🎯 Next Steps
+<<<<<<< .merge_file_ZXrMIK
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> .merge_file_3IKeyh
 >>>>>>> laraxot/dev
 1. Completare form component
 2. Implementare lazy loading
 3. Migliorare test coverage
 4. Documentare best practices
 <<<<<<< HEAD
+<<<<<<< .merge_file_ZXrMIK
 5. Ottimizzare performance
 =======
 <<<<<<< HEAD
@@ -586,4 +1088,41 @@ protected function resolveLazyProp(string $key): mixed
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_JgSU00
+5. Ottimizzare performance
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+5. Ottimizzare performance
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+5. Ottimizzare performance
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+5. Ottimizzare performance 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+5. Ottimizzare performance
+>>>>>>> .merge_file_nSVIR3
+>>>>>>> .merge_file_3IKeyh
 >>>>>>> laraxot/dev

@@ -37,11 +37,20 @@ class CustomComponent extends Component
     public ?string $hint = null;
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_oaxtFH
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_KH9kIJ
     
     // Proprietà private per stato interno
     private bool $isLoading = false;
     
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_oaxtFH
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KH9kIJ
 
     // Proprietà private per stato interno
     private bool $isLoading = false;
@@ -83,12 +92,21 @@ class CustomComponent extends Component
     &__footer { }
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_oaxtFH
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_KH9kIJ
     
     // Stati
     &--loading { }
     &--disabled { }
     
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_oaxtFH
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KH9kIJ
 
     // Stati
     &--loading { }
@@ -263,6 +281,11 @@ class AdvancedForm extends Component
 
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_oaxtFH
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_KH9kIJ
 
 ### Versione Incoming
 
@@ -271,6 +294,10 @@ class AdvancedForm extends Component
 ---
 
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_oaxtFH
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KH9kIJ
 ### Versione Incoming
 
 - Breaking changes

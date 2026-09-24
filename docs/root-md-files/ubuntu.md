@@ -1,5 +1,13 @@
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_tGrrPN
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_yME9xA
 ---
 title: "Ubuntu"
 type: concept
@@ -30,6 +38,13 @@ related:
   - "./ci.md"
 ---
 
+<<<<<<< .merge_file_tGrrPN
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_yME9xA
 >>>>>>> laraxot/dev
 sudo apt-get install jpegoptim
 sudo apt-get install optipng
@@ -40,5 +55,17 @@ sudo apt-get install webp
 <<<<<<< HEAD
 sudo apt-get install libavif-bin # minimum 0.9.3
 =======
+<<<<<<< .merge_file_tGrrPN
 sudo apt-get install libavif-bin # minimum 0.9.3
+=======
+<<<<<<< HEAD
+sudo apt-get install libavif-bin # minimum 0.9.3
+=======
+<<<<<<< HEAD
+sudo apt-get install libavif-bin # minimum 0.9.3
+=======
+sudo apt-get install libavif-bin # minimum 0.9.3
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_yME9xA
 >>>>>>> laraxot/dev

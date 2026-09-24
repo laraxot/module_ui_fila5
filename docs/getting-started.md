@@ -72,6 +72,15 @@ Now that you’ve edited your configuration variables and know how to customize 
 
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_9tc7vA
+=======
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Az5GNX
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89,6 +98,13 @@ Now that you’ve edited your configuration variables and know how to customize 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_9tc7vA
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Az5GNX
 >>>>>>> laraxot/dev
 # build static files with Jigsaw
 ./vendor/bin/jigsaw build
@@ -99,6 +115,15 @@ Now that you’ve edited your configuration variables and know how to customize 
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_9tc7vA
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Az5GNX
 >>>>>>> laraxot/dev
 
 # options: dev, prod
@@ -109,6 +134,35 @@ npm run dev
 
 ## Collegamenti tra versioni di getting-started.md
 <<<<<<< HEAD
+<<<<<<< .merge_file_9tc7vA
+=======
+<<<<<<< .merge_file_MaCa13
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+* [getting-started.md](../../../Gdpr/project_docs/getting-started.md)
+* [getting-started.md](../../../Xot/project_docs/getting-started.md)
+* [getting-started.md](../../../UI/project_docs/getting-started.md)
+* [getting-started.md](../../../Tenant/project_docs/it/getting-started.md)
+* [getting-started.md](../../../Cms/project_docs/getting-started.md)
+# options: dev, prod
+npm run dev
+```
+### Versione HEAD
+
+
+## Collegamenti tra versioni di getting-started.md
+* [getting-started.md](../../../Gdpr/docs/getting-started.md)
+* [getting-started.md](../../../Xot/docs/getting-started.md)
+* [getting-started.md](../../../UI/docs/getting-started.md)
+* [getting-started.md](../../../Tenant/docs/it/getting-started.md)
+* [getting-started.md](../../../Cms/docs/getting-started.md)
+=======
+>>>>>>> .merge_file_iHCEop
+>>>>>>> .merge_file_Az5GNX
 * [getting-started.md](../../../gdpr/project_docs/getting-started.md)
 * [getting-started.md](../../../xot/project_docs/getting-started.md)
 * [getting-started.md](../../../ui/project_docs/getting-started.md)
@@ -119,7 +173,15 @@ npm run dev
 * [getting-started.md](../../../ui/docs/getting-started.md)
 * [getting-started.md](../../../tenant/docs/it/getting-started.md)
 * [getting-started.md](../../../cms/docs/getting-started.md)
+<<<<<<< .merge_file_9tc7vA
 =======
+=======
+<<<<<<< .merge_file_MaCa13
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Az5GNX
 * [getting-started.md](../../../Gdpr/project_docs/getting-started.md)
 * [getting-started.md](../../../Xot/project_docs/getting-started.md)
 * [getting-started.md](../../../UI/project_docs/getting-started.md)
@@ -156,6 +218,15 @@ npm run dev
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_9tc7vA
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_iHCEop
+>>>>>>> .merge_file_Az5GNX
 >>>>>>> laraxot/dev
 
 ### Versione Incoming
@@ -177,10 +248,30 @@ This is a starter template for creating a beautiful, customizable documentation 
 As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/project_docs/site-variables/) to learn more.
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_9tc7vA
+=======
+<<<<<<< .merge_file_MaCa13
+=======
+<<<<<<< HEAD
+```
+
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_Az5GNX
 =======
 ```
 
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_9tc7vA
+=======
+>>>>>>> laraxot/dev
+=======
+```
+
+=======
+>>>>>>> .merge_file_iHCEop
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Az5GNX
 ```php
 // config.php
 return [
@@ -242,7 +333,18 @@ Now that you’ve edited your configuration variables and know how to customize 
 ```bash
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_9tc7vA
 >>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Az5GNX
 >>>>>>> laraxot/dev
 # build static files with Jigsaw
 ./vendor/bin/jigsaw build
@@ -254,18 +356,48 @@ npm run dev
 ### Versione HEAD
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_9tc7vA
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Az5GNX
 ## Collegamenti tra versioni di getting-started.md
+<<<<<<< HEAD
+* [getting-started.md](../../../Gdpr/docs/getting-started.md)
+* [getting-started.md](../../../Xot/docs/getting-started.md)
+* [getting-started.md](../../../UI/docs/getting-started.md)
+* [getting-started.md](../../../Tenant/docs/it/getting-started.md)
+* [getting-started.md](../../../Cms/docs/getting-started.md)
+* [getting-started.md](../../../Gdpr/project_docs/getting-started.md)
+* [getting-started.md](../../../Xot/project_docs/getting-started.md)
+* [getting-started.md](../../../UI/project_docs/getting-started.md)
+* [getting-started.md](../../../Tenant/project_docs/it/getting-started.md)
+* [getting-started.md](../../../Cms/project_docs/getting-started.md)
+=======
 * [getting-started.md](../../../gdpr/project_docs/getting-started.md)
 * [getting-started.md](../../../xot/project_docs/getting-started.md)
 * [getting-started.md](../../../ui/project_docs/getting-started.md)
 * [getting-started.md](../../../tenant/project_docs/it/getting-started.md)
 * [getting-started.md](../../../cms/project_docs/getting-started.md)
+>>>>>>> laraxot/dev
 
 ### Versione Incoming
 
 ---
+<<<<<<< .merge_file_9tc7vA
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_MaCa13
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Az5GNX
 
 ## Collegamenti tra versioni di getting-started.md
 * [getting-started.md](../../../Gdpr/docs/getting-started.md)
@@ -315,10 +447,19 @@ npm run dev
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_9tc7vA
+=======
+=======
+>>>>>>> .merge_file_iHCEop
+>>>>>>> .merge_file_Az5GNX
 
 ### Versione Incoming
 
 
+<<<<<<< .merge_file_9tc7vA
+=======
+<<<<<<< .merge_file_MaCa13
+>>>>>>> .merge_file_Az5GNX
 <<<<<<< HEAD
 ---
 ### Versione Incoming
@@ -342,4 +483,16 @@ npm run dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_9tc7vA
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+---
+### Versione Incoming
+=======
+>>>>>>> .merge_file_iHCEop
+>>>>>>> .merge_file_Az5GNX
 >>>>>>> laraxot/dev

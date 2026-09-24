@@ -1,5 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_NCHCoj
 =======
+=======
+<<<<<<< .merge_file_PDJNCJ
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_FNLajK
+>>>>>>> .merge_file_A8aY2r
 ---
 title: "RadioCollection Component - Implementation Guide"
 type: concept
@@ -7,6 +19,10 @@ tags: [radio, collection, implementation]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "radio-collection-implementation radiocollection component - implementation guide"
+<<<<<<< .merge_file_NCHCoj
+=======
+<<<<<<< .merge_file_PDJNCJ
+>>>>>>> .merge_file_A8aY2r
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -19,6 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_NCHCoj
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_FNLajK
+>>>>>>> .merge_file_A8aY2r
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -30,7 +55,20 @@ related:
   - "./full-calendar-1.md"
 ---
 
+<<<<<<< .merge_file_NCHCoj
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_PDJNCJ
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_FNLajK
+>>>>>>> .merge_file_A8aY2r
 # RadioCollection Component - Implementation Guide
 
 ## Overview
@@ -256,9 +294,29 @@ RadioCollection::make('studio_id')
 
 - [UI Module Overview](../ui.md)
 <<<<<<< HEAD
+<<<<<<< .merge_file_NCHCoj
 - [Filament Form Components](../filament/filament_components_usage.md)
 =======
 - [Filament Form Components](../filament/filament-components-usage-1.md)
+=======
+<<<<<<< .merge_file_PDJNCJ
+- [Filament Form Components](../filament/filament_components_usage.md)
+=======
+<<<<<<< HEAD
+- [Filament Form Components](../filament/filament-components-usage-1.md)
+=======
+<<<<<<< HEAD
+- [Filament Form Components](../filament/filament_components_usage.md)
+=======
+- [Filament Form Components](../filament/filament-components-usage-1.md)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [Filament Form Components](../filament/filament-components-usage-1.md)
+=======
+- [Filament Form Components](../filament/filament_components_usage.md)
+>>>>>>> .merge_file_FNLajK
+>>>>>>> .merge_file_A8aY2r
 >>>>>>> laraxot/dev
 - [Radio Collection Philosophy](./radio-collection-philosophy.md)
 

@@ -3,14 +3,28 @@ module: theme
 <<<<<<< HEAD
 topic: architecture-rules-1
 =======
+<<<<<<< .merge_file_xSsDYm
 topic: architecture-rules_1
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+topic: architecture-rules-1
+=======
+topic: architecture-rules_1
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Po6KNO
 canonical: ../../../Themes/docs/shared-components/architecture-rules-Modules.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/architecture-rules-Modules.md
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_xSsDYm
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_Po6KNO
 # Architectural Rules & Guidelines
 
 This module adheres to the **Laraxot Architecture** and **Super Cow Methodology**.
@@ -27,3 +41,7 @@ For strict coding standards, Filament extension rules, and PHPStan guidelines, p
 3.  **XotBase**: Always extend `XotBase` classes, never Filament classes directly.
 4.  **Translations**: Use `LangServiceProvider` for automatic label resolution.
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_xSsDYm
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Po6KNO

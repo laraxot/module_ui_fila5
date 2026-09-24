@@ -8,16 +8,41 @@ updated: "2026-05-26"
 owner: "UI"
 <<<<<<< HEAD
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/150"
+<<<<<<< .merge_file_LFVXG3
+=======
+<<<<<<< .merge_file_8NNkpd
+>>>>>>> .merge_file_N4XaS6
 =======
 <<<<<<< HEAD
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/150"
 <<<<<<< HEAD
+<<<<<<< .merge_file_LFVXG3
+=======
+=======
+=======
+<<<<<<< HEAD
+issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/150"
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_N4XaS6
 issue: "https://github.com/provtv/<nome repository>/issues/150"
 =======
 =======
 issue: "https://github.com/provtv/<nome repository>/issues/150"
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_LFVXG3
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+issue: "https://github.com/provtv/<nome repository>/issues/150"
+=======
+>>>>>>> .merge_file_SbiLuR
+>>>>>>> .merge_file_N4XaS6
 >>>>>>> laraxot/dev
 ---
 
@@ -104,11 +129,26 @@ Ridurre rumore, duplicazione e ambiguita' nel codice di questo module, senza per
 - AGENTS.md/SKILL.md devono restare manifest leggeri, con YAML/front matter e routing on-demand.
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_LFVXG3
+=======
+- AGENTS.md/SKILL.md devono restare manifest leggeri, con YAML/front matter e routing on-demand.
+=======
+<<<<<<< HEAD
+- agents.md/SKILL.md devono restare manifest leggeri, con YAML/front matter e routing on-demand.
+>>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_N4XaS6
 - AGENTS.md/SKILL.md devono restare manifest leggeri, con YAML/front matter e routing on-demand.
 =======
 - agents.md/SKILL.md devono restare manifest leggeri, con YAML/front matter e routing on-demand.
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_LFVXG3
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_N4XaS6
 - I descrittori architetturali navigabili riducono i passi di localizzazione: ogni owner dovrebbe avere mappa scopo -> file chiave.
 - AI utile = recupero mirato, non pre-caricamento: report atomici, QMD, issue e log.
 

@@ -4,8 +4,21 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_CuSxHy
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_5SA5Lj
 # UI - Product Launch Plan
 
 > Piano di lancio. Modulo.
@@ -53,9 +66,21 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 
 ## Rischi
 <<<<<<< HEAD
+<<<<<<< .merge_file_CuSxHy
 =======
 <<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_FUOIs1
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_5SA5Lj
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -64,6 +89,11 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_CuSxHy
+=======
+=======
+>>>>>>> .merge_file_6lcJHa
+>>>>>>> .merge_file_5SA5Lj
 # UI Module - Product Launch Plan
 
 **Module:** UI  
@@ -146,6 +176,10 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 
 ---
 
+<<<<<<< .merge_file_CuSxHy
+=======
+<<<<<<< .merge_file_FUOIs1
+>>>>>>> .merge_file_5SA5Lj
 <<<<<<< HEAD
 *Last Updated: March 12, 2026*
 =======
@@ -241,6 +275,17 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_CuSxHy
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+*Last Updated: March 12, 2026*
+=======
+>>>>>>> .merge_file_6lcJHa
+>>>>>>> .merge_file_5SA5Lj
 >>>>>>> laraxot/dev
 
 - lancio di superfici non ancora supportate dal backend
@@ -258,6 +303,14 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_CuSxHy
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_5SA5Lj
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
@@ -268,4 +321,11 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< .merge_file_CuSxHy
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_5SA5Lj
 >>>>>>> laraxot/dev

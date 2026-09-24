@@ -1,4 +1,14 @@
+<<<<<<< .merge_file_hwkFqI
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_FPAsx8
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Z3g1c5
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -16,12 +26,22 @@
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
+<<<<<<< .merge_file_hwkFqI
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_AhLxre
+>>>>>>> .merge_file_Z3g1c5
 <?php
 
 declare(strict_types=1);
-
 ?>
 <div class="relative isolate bg-white pb-32 pt-24 sm:pt-32">
     <div class="absolute inset-x-0 top-1/2 -z-10 -translate-y-1/2 transform-gpu overflow-hidden opacity-30 blur-3xl" aria-hidden="true">

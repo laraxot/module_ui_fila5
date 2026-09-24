@@ -4,7 +4,19 @@ type: concept
 updated: 2026-04-23
 tags: [filament, forms, select, enum, tom-select, php, best-practices, false-friends]
 <<<<<<< HEAD
+<<<<<<< .merge_file_hghmDH
 =======
+=======
+<<<<<<< .merge_file_VS9Bun
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_r6DucI
+>>>>>>> .merge_file_1huQZu
 related:
   - "./auth-register-focus-loss-overlay.md"
   - "./block-rendering-and-optional-services.md"
@@ -14,7 +26,20 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
+<<<<<<< .merge_file_hghmDH
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_VS9Bun
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_r6DucI
+>>>>>>> .merge_file_1huQZu
 ---
 
 # Problema

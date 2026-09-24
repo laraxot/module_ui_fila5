@@ -1,9 +1,21 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_cXulWa
+=======
+<<<<<<< .merge_file_SULKup
+>>>>>>> .merge_file_hFiZmA
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< .merge_file_cXulWa
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_hFiZmA
 <<<<<<< HEAD
 =======
 =======
@@ -13,6 +25,11 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_cXulWa
+=======
+=======
+>>>>>>> .merge_file_m11fL9
+>>>>>>> .merge_file_hFiZmA
 ---
 title: "tailwind_themes"
 type: concept
@@ -32,6 +49,10 @@ related:
   - "./custom-firm-fields-1.md"
   - "./custom-firm-fields.md"
 ---
+<<<<<<< .merge_file_cXulWa
+=======
+<<<<<<< .merge_file_SULKup
+>>>>>>> .merge_file_hFiZmA
 <<<<<<< HEAD
 =======
 
@@ -49,7 +70,16 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_cXulWa
+=======
+<<<<<<< HEAD
+=======
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_m11fL9
 # tailwind_themes
 
 <!-- Contenuto migrato da _docs/tailwind_themes.txt -->
@@ -58,6 +88,24 @@ https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your
 
 <<<<<<< HEAD
 https://merakiui.com/
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_hFiZmA
+>>>>>>> laraxot/dev
+# tailwind_themes
+<<<<<<< HEAD
+<!-- Contenuto migrato da _docs/tailwind_themes.txt -->
+https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your-next-project-3igo
+=======
+
+<!-- Contenuto migrato da _docs/tailwind_themes.txt -->
+
+https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your-next-project-3igo
+
+<<<<<<< HEAD
+https://merakiui.com/
+<<<<<<< .merge_file_SULKup
+<<<<<<< HEAD
 # tailwind_themes
 
 <!-- Contenuto migrato da _docs/tailwind_themes.txt -->
@@ -66,8 +114,15 @@ https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your
 
 https://merakiui.com/
 =======
+<<<<<<< .merge_file_cXulWa
 <<<<<<< HEAD
 https://merakiui.com/
+=======
+=======
+<<<<<<< HEAD
+https://merakiui.com/
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_hFiZmA
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105,4 +160,13 @@ https://merakiui.com/
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_cXulWa
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_m11fL9
+>>>>>>> .merge_file_hFiZmA
 >>>>>>> laraxot/dev

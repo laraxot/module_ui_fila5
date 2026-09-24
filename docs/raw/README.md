@@ -6,7 +6,16 @@ canonical: ../../../../Themes/docs/shared-components/README-Modules.md
 
 See canonical documentation: ../../../../Themes/docs/shared-components/README-Modules.md
 <<<<<<< HEAD
+<<<<<<< .merge_file_8Tuxqe
 =======
+=======
+<<<<<<< .merge_file_Uv12gq
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> .merge_file_gYFiJW
+>>>>>>> .merge_file_DxPtmw
 # UI
 
 [![Module](https://img.shields.io/badge/Module-UI-8B0000.svg)]()
@@ -41,4 +50,12 @@ Core module for the FixCity Platform.
 ---
 
 **Modulo** `UI` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+<<<<<<< .merge_file_8Tuxqe
+=======
+<<<<<<< .merge_file_Uv12gq
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> .merge_file_gYFiJW
+>>>>>>> .merge_file_DxPtmw
 >>>>>>> laraxot/dev

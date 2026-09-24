@@ -4,7 +4,19 @@ description: Creazione di una Resource
 extends: _layouts.documentation
 section: content
 <<<<<<< HEAD
+<<<<<<< .merge_file_xSyy8M
 =======
+=======
+<<<<<<< .merge_file_kEiP55
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_GTEEHj
+>>>>>>> .merge_file_gEJr4a
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -14,7 +26,20 @@ related:
   - "./filament-4-migration-guide.md"
   - "./filament-4-migration-summary.md"
   - "./filament-4-migration-sumy.md"
+<<<<<<< .merge_file_xSyy8M
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_kEiP55
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_GTEEHj
+>>>>>>> .merge_file_gEJr4a
 ---
 
 # Creazione di una Resource {#creazione-resource}

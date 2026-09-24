@@ -134,14 +134,48 @@ grep -r "__(" Modules/UI/app/Enums/
 
 ## Collegamenti
 <<<<<<< HEAD
-- [../../../../../docs/enum-transclass-rule.md](../../../../../docs/enum-transclass-rule.md)
-- [../filament/no-label-rule.md](../filament/no-label-rule.md)
-- [../clean-code/no-obvious-comments.md](../clean-code/no-obvious-comments.md)
-
+<<<<<<< .merge_file_O5MlLm
+=======
+<<<<<<< .merge_file_YJLIwJ
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 - [../../../../docs/enum-transclass-rule.md](../../../../docs/enum-transclass-rule.md)
 - [../filament/no-label-rule.md](../filament/no-label-rule.md)
 - [../clean-code/no-obvious-comments.md](../clean-code/no-obvious-comments.md)
 
 *Ultimo aggiornamento: 2025-08-04*
+=======
+>>>>>>> .merge_file_qNoODl
+>>>>>>> .merge_file_KYZStx
+- [../../../../../docs/enum-transclass-rule.md](../../../../../docs/enum-transclass-rule.md)
+- [../filament/no-label-rule.md](../filament/no-label-rule.md)
+- [../clean-code/no-obvious-comments.md](../clean-code/no-obvious-comments.md)
+
+<<<<<<< .merge_file_O5MlLm
+=======
+=======
+<<<<<<< .merge_file_YJLIwJ
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KYZStx
+- [../../../../docs/enum-transclass-rule.md](../../../../docs/enum-transclass-rule.md)
+- [../filament/no-label-rule.md](../filament/no-label-rule.md)
+- [../clean-code/no-obvious-comments.md](../clean-code/no-obvious-comments.md)
+
+*Ultimo aggiornamento: 2025-08-04*
+<<<<<<< .merge_file_O5MlLm
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_qNoODl
+>>>>>>> .merge_file_KYZStx
 >>>>>>> laraxot/dev

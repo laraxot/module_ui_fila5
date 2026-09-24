@@ -97,6 +97,15 @@ php artisan view:clear
 <<<<<<< HEAD
 # http://fixcity.local/it/tests/homepage
 <<<<<<< HEAD
+<<<<<<< .merge_file_1mkAnm
+=======
+=======
+=======
+<<<<<<< HEAD
+# http://fixcity.local/it/tests/homepage
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_9fcLLF
 
 # http://<nome progetto>.local/it/tests/homepage
 # http://app.local/it/tests/homepage
@@ -119,6 +128,13 @@ php artisan view:clear
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_1mkAnm
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9fcLLF
 >>>>>>> laraxot/dev
 ```
 

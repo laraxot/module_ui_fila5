@@ -2,12 +2,33 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_KebHW4
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_6ngweC
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+return [
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_cOp1A6
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/de/user_calendar.php
 return [
+<<<<<<< HEAD
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+=======
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
@@ -19,6 +40,14 @@ return [
 =======
 return [
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_KebHW4
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+return [
+>>>>>>> .merge_file_euOjuu
+>>>>>>> .merge_file_cOp1A6
     'months' => [
         'long' => [
             0 => 'Gennaio',
