@@ -1,5 +1,5 @@
-<<<<<<< HEAD
 # Componenti Dropdown, Avatar e Loading Indicator di Filament
+<<<<<<< .merge_file_5b3hmc
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -41,6 +41,8 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_tHqY9W
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -69,6 +71,7 @@ Il componente Dropdown di Filament è composto da tre parti principali:
     <x-slot name="trigger">
         <!-- Contenuto del trigger -->
     </x-slot>
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
@@ -123,6 +126,9 @@ Il componente Dropdown di Filament è composto da tre parti principali:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_tHqY9W
     <!-- Elementi del dropdown -->
     <x-filament::dropdown.list>
         <x-filament::dropdown.item href="#" icon="heroicon-o-user">
@@ -197,6 +203,7 @@ Opzioni di larghezza:
 ```blade
 <x-filament::dropdown.item>
     Notifiche
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
@@ -251,6 +258,9 @@ Opzioni di larghezza:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_tHqY9W
     <x-slot name="badge">
         3
     </x-slot>
@@ -347,6 +357,7 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
                 size="md"
                 class="ring-2 ring-white ring-opacity-50 shadow-sm"
             />
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
@@ -401,6 +412,9 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_tHqY9W
             <div class="ml-1">
                 <x-filament::icon
                     name="heroicon-o-chevron-down"
@@ -409,6 +423,7 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
             </div>
         </button>
     </x-slot>
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
@@ -463,10 +478,14 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_tHqY9W
     <x-filament::dropdown.list>
         <div class="px-4 py-2 text-xs text-gray-400">
             {{ __('Manage Account') }}
         </div>
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
@@ -540,10 +559,13 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tHqY9W
 
         <x-filament::dropdown.item href="{{ route('profile.show') }}" icon="heroicon-o-user">
             {{ __('Profile') }}
         </x-filament::dropdown.item>
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -559,6 +581,8 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_tHqY9W
 
         <x-filament::dropdown.item href="{{ route('profile.show') }}" icon="heroicon-o-cog-6-tooth">
             {{ __('Settings') }}
@@ -566,6 +590,7 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 
         <x-filament::dropdown.separator />
 
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
@@ -623,6 +648,8 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_tHqY9W
         <form method="POST" action="{{ route('logout') }}">
             @csrf
             <x-filament::dropdown.item
@@ -651,9 +678,9 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 - [Documentazione Dropdown di Filament](https://filamentphp.com/docs/3.x/support/blade-components/dropdown)
 - [Documentazione Avatar di Filament](https://filamentphp.com/docs/3.x/support/blade-components/avatar)
 - [Documentazione Loading Indicator di Filament](https://filamentphp.com/docs/3.x/support/blade-components/loading-indicator)
-<<<<<<< HEAD
 - [Documentazione Icone di Filament](https://filamentphp.com/docs/3.x/support/icons)
 # Componenti Dropdown, Avatar e Loading Indicator di Filament
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -701,6 +728,9 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_tHqY9W
 ## Indice
 - [Panoramica](#panoramica)
 - [Componente Dropdown](#componente-dropdown)
@@ -708,6 +738,7 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 - [Componente Loading Indicator](#componente-loading-indicator)
 - [Implementazione nel Dropdown Utente](#implementazione-nel-dropdown-utente)
 - [Best Practices](#best-practices)
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
@@ -729,6 +760,8 @@ Il componente Dropdown di Filament è composto da tre parti principali:
 >>>>>>> .merge_file_KKgkZk
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tHqY9W
 
 ## Panoramica
 
@@ -744,6 +777,7 @@ Il componente Dropdown di Filament è composto da tre parti principali:
 2. **List** - Il contenitore degli elementi del dropdown
 3. **Item** - Gli elementi individuali all'interno del dropdown
 
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
 <<<<<<< HEAD
@@ -771,11 +805,14 @@ Il componente Dropdown di Filament è composto da tre parti principali:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_tHqY9W
 ```blade
 <x-filament::dropdown>
     <x-slot name="trigger">
         <!-- Contenuto del trigger -->
     </x-slot>
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
@@ -797,6 +834,9 @@ Il componente Dropdown di Filament è composto da tre parti principali:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_tHqY9W
     <!-- Elementi del dropdown -->
     <x-filament::dropdown.list>
         <x-filament::dropdown.item href="#" icon="heroicon-o-user">
@@ -805,6 +845,7 @@ Il componente Dropdown di Filament è composto da tre parti principali:
     </x-filament::dropdown.list>
 </x-filament::dropdown>
 ```
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
@@ -822,6 +863,8 @@ Il componente Dropdown di Filament è composto da tre parti principali:
 >>>>>>> .merge_file_KKgkZk
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tHqY9W
 
 ### Posizionamento
 
@@ -833,6 +876,7 @@ Il componente Dropdown di Filament è composto da tre parti principali:
 </x-filament::dropdown>
 ```
 
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
 <<<<<<< HEAD
@@ -856,6 +900,8 @@ Il componente Dropdown di Filament è composto da tre parti principali:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_tHqY9W
 Opzioni di posizionamento:
 - `top`
 - `top-start`
@@ -869,6 +915,7 @@ Opzioni di posizionamento:
 - `left`
 - `left-start`
 - `left-end`
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
@@ -887,6 +934,8 @@ Opzioni di posizionamento:
 >>>>>>> .merge_file_KKgkZk
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tHqY9W
 
 ### Larghezza
 
@@ -898,6 +947,7 @@ Opzioni di posizionamento:
 </x-filament::dropdown>
 ```
 
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
 <<<<<<< HEAD
@@ -916,6 +966,8 @@ Opzioni di posizionamento:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tHqY9W
 Opzioni di larghezza:
 - `xs` - 20rem
 - `sm` - 24rem
@@ -933,6 +985,7 @@ Opzioni di larghezza:
 - `screen-lg` - 1024px
 - `screen-xl` - 1280px
 - `screen-2xl` - 1536px
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
@@ -960,6 +1013,8 @@ Opzioni di larghezza:
 >>>>>>> .merge_file_KKgkZk
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tHqY9W
 
 ### Elementi con Icone
 
@@ -994,6 +1049,7 @@ Opzioni di larghezza:
 ### Utilizzo Base
 
 ```blade
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
 <<<<<<< HEAD
@@ -1027,10 +1083,13 @@ Opzioni di larghezza:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_tHqY9W
 <x-filament::avatar
     src="https://example.com/avatar.jpg"
     alt="John Doe"
 />
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
@@ -1048,6 +1107,8 @@ Opzioni di larghezza:
 >>>>>>> .merge_file_KKgkZk
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tHqY9W
 ```
 
 ### Dimensioni
@@ -1060,6 +1121,7 @@ Opzioni di larghezza:
 />
 ```
 
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
 <<<<<<< HEAD
@@ -1077,12 +1139,15 @@ Opzioni di larghezza:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tHqY9W
 Opzioni di dimensione:
 - `xs` - 1.5rem (24px)
 - `sm` - 2rem (32px)
 - `md` (predefinito) - 2.5rem (40px)
 - `lg` - 3rem (48px)
 - `xl` - 4rem (64px)
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
@@ -1108,6 +1173,8 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 >>>>>>> .merge_file_KKgkZk
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tHqY9W
 
 ### Arrotondamento
 
@@ -1156,6 +1223,7 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 ```blade
 <x-filament::dropdown placement="bottom-end" width="xs">
     <x-slot name="trigger">
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
 <<<<<<< HEAD
@@ -1187,6 +1255,8 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_tHqY9W
         <button class="flex items-center text-sm font-medium text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300 focus:outline-none transition duration-150 ease-in-out">
             <x-filament::avatar
                 :src="$user?->profile_photo_url"
@@ -1194,6 +1264,7 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
                 size="md"
                 class="ring-2 ring-white ring-opacity-50 shadow-sm"
             />
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
@@ -1215,6 +1286,9 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_tHqY9W
             <div class="ml-1">
                 <x-filament::icon
                     name="heroicon-o-chevron-down"
@@ -1222,6 +1296,7 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
                 />
             </div>
         </button>
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
@@ -1243,6 +1318,8 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 >>>>>>> .merge_file_KKgkZk
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tHqY9W
     </x-slot>
 
     <x-filament::dropdown.list>
@@ -1260,6 +1337,7 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 
         <x-filament::dropdown.separator />
 
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
 <<<<<<< HEAD
@@ -1287,6 +1365,8 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_tHqY9W
         <form method="POST" action="{{ route('logout') }}">
             @csrf
             <x-filament::dropdown.item
@@ -1298,6 +1378,7 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
                 {{ __('Log Out') }}
             </x-filament::dropdown.item>
         </form>
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
@@ -1313,12 +1394,15 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 >>>>>>> .merge_file_KKgkZk
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tHqY9W
     </x-filament::dropdown.list>
 </x-filament::dropdown>
 ```
 
 ## Best Practices
 
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
 <<<<<<< HEAD
@@ -1335,11 +1419,14 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 ## Best Practices
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tHqY9W
 1. **Utilizzare sempre i componenti nativi di Filament** per mantenere la coerenza visiva
 2. **Evitare di personalizzare eccessivamente i componenti** per mantenere l'esperienza utente coerente
 3. **Utilizzare le proprietà fornite dai componenti** invece di aggiungere classi CSS personalizzate
 4. **Seguire le convenzioni di Filament** per i nomi delle icone e i colori
 5. **Utilizzare i componenti in modo semantico** (ad esempio, utilizzare il colore `danger` per le azioni distruttive)
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
@@ -1357,6 +1444,8 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 >>>>>>> .merge_file_KKgkZk
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tHqY9W
 
 ## Risorse Utili
 
@@ -1364,6 +1453,7 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 - [Documentazione Avatar di Filament](https://filamentphp.com/docs/3.x/support/blade-components/avatar)
 - [Documentazione Loading Indicator di Filament](https://filamentphp.com/docs/3.x/support/blade-components/loading-indicator)
 - [Documentazione Icone di Filament](https://filamentphp.com/docs/3.x/support/icons)
+<<<<<<< .merge_file_5b3hmc
 <<<<<<< HEAD
 <<<<<<< .merge_file_lrHhLB
 <<<<<<< HEAD
@@ -1405,3 +1495,5 @@ Ecco un esempio completo di implementazione del dropdown utente utilizzando i co
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_tHqY9W

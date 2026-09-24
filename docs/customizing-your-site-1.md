@@ -82,6 +82,7 @@ class Foo extends bar
 * [customizing-your-site.md](../../../Tenant/docs/it/customizing-your-site.md)
 * [customizing-your-site.md](../../../Cms/docs/customizing-your-site.md)
 
+<<<<<<< .merge_file_IDwPJC
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -100,6 +101,8 @@ class Foo extends bar
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_n7C0OA
 ### Versione Incoming
 
 ---

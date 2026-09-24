@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_bC9kUf
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_iKILfS
@@ -61,6 +62,8 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 >>>>>>> .merge_file_raOHgc
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_rA4ozU
 # Collegamento alle Traduzioni del Modulo UI
 
 Questo modulo utilizza le traduzioni centralizzate nella cartella [Lang](../../Lang/docs/).
@@ -121,6 +124,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 * [lang-link.md](../../../activity/project_docs/lang-link.md)
 * [lang-link.md](../../../patient/project_docs/lang-link.md)
 * [lang-link.md](../../../cms/project_docs/lang-link.md)
+<<<<<<< .merge_file_bC9kUf
 <<<<<<< HEAD
 <<<<<<< .merge_file_iKILfS
 <<<<<<< HEAD
@@ -233,3 +237,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/lang-link_1.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_rA4ozU

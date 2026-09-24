@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_wSPmJj
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_FXkjod
@@ -50,6 +51,9 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+# Utilizzo dei Componenti Filament Dropdown e Avatar 
+>>>>>>> .merge_file_OE94rc
 
 ## Collegamenti correlati
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
@@ -118,6 +122,7 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
 @if($isLoggedIn)
     {{-- Dropdown per utente loggato --}}
     <div class="relative" x-data="{ open: false }" @click.away="open = false">
+<<<<<<< .merge_file_wSPmJj
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_FXkjod
@@ -178,6 +183,10 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+        <button 
+            @click="open = ! open" 
+>>>>>>> .merge_file_OE94rc
             class="flex items-center text-sm font-medium text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300 focus:outline-none transition duration-150 ease-in-out"
         >
             <div>
@@ -192,6 +201,7 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
             </div>
         </button>
 
+<<<<<<< .merge_file_wSPmJj
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_FXkjod
@@ -244,6 +254,9 @@ Questo comportamento è implementato utilizzando la condizione `@if(auth()->chec
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+        <div 
+>>>>>>> .merge_file_OE94rc
             x-show="open"
             x-transition:enter="transition ease-out duration-200"
             x-transition:enter-start="transform opacity-0 scale-95"
@@ -360,6 +373,7 @@ $this->mount(function () {
 
 ## Gestione delle Traduzioni
 
+<<<<<<< .merge_file_wSPmJj
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_FXkjod
@@ -413,6 +427,9 @@ Le traduzioni per il dropdown utente sono definite nei file di traduzione di Lar
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di <nome progetto> per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
+>>>>>>> .merge_file_OE94rc
 
 ### Struttura delle Traduzioni
 

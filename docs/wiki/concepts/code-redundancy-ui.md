@@ -6,6 +6,7 @@ tags: [redundancy, ui, filament, traits]
 created: "2026-05-26"
 updated: "2026-05-26"
 related:
+<<<<<<< .merge_file_Ky6uhg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_oPq61Y
@@ -56,6 +57,11 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+  - ../../../../Xot/docs/wiki/concepts/code-redundancy-philosophy.md
+  - ../../../redundancy-audit-2026-05-21.md
+  - ../../../redundancy-report.md
+>>>>>>> .merge_file_lbRWrU
 ---
 
 # Ridondanza — UI

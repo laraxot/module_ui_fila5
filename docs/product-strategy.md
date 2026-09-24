@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_TCIRiH
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -18,6 +19,8 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_JSB525
 # UI - Product Strategy
 
 > Strategia prodotto. Modulo.
@@ -67,6 +70,7 @@ Portare **UI** a uno stato in cui il progetto ottiene un vantaggio netto e misur
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
 
 ## Regola architetturale
+<<<<<<< .merge_file_TCIRiH
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_QgDfPB
@@ -260,10 +264,13 @@ Easy to use and extend.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_JSB525
 
 - Action-first: niente generic `Services` per la business logic
 - Standard operativo: `spatie/laravel-queueable-action`
 - Convenzione: Action con metodo `execute()` e dispatch tramite container
+<<<<<<< .merge_file_TCIRiH
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -296,3 +303,5 @@ Easy to use and extend.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_JSB525

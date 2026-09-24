@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_vmhMlm
 <<<<<<< HEAD
 <<<<<<< .merge_file_0jvcOk
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_lS7dlu
 return [
     'opening_hours' => [
         'morning' => 'Vormittag',

@@ -68,6 +68,7 @@ Files that don't require processing (such as images and fonts) can be added dire
 Now that you’ve edited your configuration variables and know how to customize your styles and content, let’s build the site.
 
 ```bash
+<<<<<<< .merge_file_Ztub3B
 <<<<<<< HEAD
 
 =======
@@ -106,10 +107,14 @@ Now that you’ve edited your configuration variables and know how to customize 
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_7Hs28K
 # build static files with Jigsaw
 ./vendor/bin/jigsaw build
 
 # compile assets with Laravel Mix
+<<<<<<< .merge_file_Ztub3B
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -125,6 +130,8 @@ Now that you’ve edited your configuration variables and know how to customize 
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_7Hs28K
 
 # options: dev, prod
 npm run dev
@@ -133,6 +140,7 @@ npm run dev
 ### Versione HEAD
 
 ## Collegamenti tra versioni di getting-started.md
+<<<<<<< .merge_file_Ztub3B
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_MaCa13
@@ -163,6 +171,8 @@ npm run dev
 >>>>>>> .merge_file_iHCEop
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_7Hs28K
 * [getting-started.md](../../../gdpr/project_docs/getting-started.md)
 * [getting-started.md](../../../xot/project_docs/getting-started.md)
 * [getting-started.md](../../../ui/project_docs/getting-started.md)
@@ -173,6 +183,7 @@ npm run dev
 * [getting-started.md](../../../ui/docs/getting-started.md)
 * [getting-started.md](../../../tenant/docs/it/getting-started.md)
 * [getting-started.md](../../../cms/docs/getting-started.md)
+<<<<<<< .merge_file_Ztub3B
 <<<<<<< HEAD
 <<<<<<< .merge_file_MaCa13
 <<<<<<< HEAD
@@ -228,6 +239,8 @@ npm run dev
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_7Hs28K
 
 ### Versione Incoming
 
@@ -247,6 +260,7 @@ This is a starter template for creating a beautiful, customizable documentation 
 
 As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/project_docs/site-variables/) to learn more.
 
+<<<<<<< .merge_file_Ztub3B
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_MaCa13
@@ -272,6 +286,8 @@ As with all Jigsaw sites, configuration settings can be found in `config.php`; y
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_7Hs28K
 ```php
 // config.php
 return [
@@ -331,6 +347,7 @@ Files that don't require processing (such as images and fonts) can be added dire
 Now that you’ve edited your configuration variables and know how to customize your styles and content, let’s build the site.
 
 ```bash
+<<<<<<< .merge_file_Ztub3B
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -346,6 +363,8 @@ Now that you’ve edited your configuration variables and know how to customize 
 >>>>>>> 92912795 (.)
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_7Hs28K
 # build static files with Jigsaw
 ./vendor/bin/jigsaw build
 
@@ -355,6 +374,7 @@ npm run dev
 ```
 ### Versione HEAD
 
+<<<<<<< .merge_file_Ztub3B
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -378,19 +398,26 @@ npm run dev
 =======
 ## Collegamenti tra versioni di getting-started.md
 >>>>>>> 804451c (Lint)
+=======
+## Collegamenti tra versioni di getting-started.md
+>>>>>>> .merge_file_7Hs28K
 * [getting-started.md](../../../gdpr/project_docs/getting-started.md)
 * [getting-started.md](../../../xot/project_docs/getting-started.md)
 * [getting-started.md](../../../ui/project_docs/getting-started.md)
 * [getting-started.md](../../../tenant/project_docs/it/getting-started.md)
 * [getting-started.md](../../../cms/project_docs/getting-started.md)
+<<<<<<< .merge_file_Ztub3B
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_7Hs28K
 
 ### Versione Incoming
 
 ---
+<<<<<<< .merge_file_Ztub3B
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_MaCa13
@@ -500,3 +527,5 @@ npm run dev
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_7Hs28K

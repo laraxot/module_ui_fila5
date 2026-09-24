@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_7nG7IJ
 <<<<<<< HEAD
 <<<<<<< .merge_file_k01UaZ
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_6cmDZ7
 return [
     'attributes' => [
         'external-link' => 'Link esterno',
@@ -73,6 +76,7 @@ return [
         ],
         'label' => 'Filament Navigation',
         'sort' => 1,
+<<<<<<< .merge_file_7nG7IJ
 <<<<<<< HEAD
 <<<<<<< .merge_file_k01UaZ
 <<<<<<< HEAD
@@ -96,6 +100,9 @@ return [
 >>>>>>> .merge_file_LE47An
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_6cmDZ7
     ],
     'fields' => [
         'id' => [

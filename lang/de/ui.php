@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_lnILUW
 <<<<<<< HEAD
 <<<<<<< .merge_file_PPowQy
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_dcCk10
 return [
     'navigation' => [
         'name' => 'Oberfläche',

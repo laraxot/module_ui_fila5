@@ -7,6 +7,7 @@ created: 2026-04-15
 updated: 2026-06-05
 qmd: "ui module wiki index filament second brain"
 issues:
+<<<<<<< .merge_file_ka40gN
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GsUpuG
@@ -27,6 +28,8 @@ related:
 >>>>>>> .merge_file_PlZEMI
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_kgFc7C
   - "https://github.com/laraxot/base_fixcity_fila5/issues/272"
 discussions:
   - "https://github.com/laraxot/base_fixcity_fila5/discussions/273"
@@ -35,6 +38,7 @@ related:
   - ../../../../docs/wiki/bmad/architecture.md
   - ../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md
   - ../../docs/wiki/concepts/ai-harness-module-discipline.md
+<<<<<<< .merge_file_ka40gN
 <<<<<<< HEAD
 <<<<<<< .merge_file_GsUpuG
 <<<<<<< HEAD
@@ -61,12 +65,15 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_kgFc7C
 ---
 
 # Wiki Locale Index
 
 ## AI / second brain
 
+<<<<<<< .merge_file_ka40gN
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GsUpuG
@@ -102,6 +109,9 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+- [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
+>>>>>>> .merge_file_kgFc7C
 - [bmad/architecture](../../../../docs/wiki/bmad/architecture.md)
 - [frontmatter + GitHub](../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md)
 - [ai-harness-module-discipline](../../docs/wiki/concepts/ai-harness-module-discipline.md)
@@ -121,6 +131,7 @@ related:
 - [comparisons/](./comparisons/): Alternative implementations.
 - [decisions/](./decisions/): ADL (Architectural Decision Log).
 - [troubleshooting/](./troubleshooting/): Known issues and solutions.
+<<<<<<< .merge_file_ka40gN
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GsUpuG
@@ -146,6 +157,8 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_kgFc7C
 - [_archive/](./_archive/): Legacy documentation.
 - [_templates/](./_templates/): Standard templates.
 
@@ -160,6 +173,7 @@ related:
 | [enumselect-filament-api-collisions](./concepts/enumselect-filament-api-collisions.md) | Concept | runtime fatals (make/enum/getLabel) | 2026-04-23 |
 | [model-states-module-ownership](./concepts/model-states-module-ownership.md) | Concept | ownership modulare e vincoli runtime | 2026-04-28 |
 | [phpstan-dynamic-array-normalization](./concepts/phpstan-dynamic-array-normalization.md) | Concept | Normalizzazione array dinamici UI per PHPStan senza inline @var/ignore | 2026-05-06 |
+<<<<<<< .merge_file_ka40gN
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GsUpuG
@@ -282,3 +296,5 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_kgFc7C

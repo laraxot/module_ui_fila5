@@ -1,4 +1,5 @@
 ---
+<<<<<<< .merge_file_15rjlS
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_LiNAn0
@@ -27,6 +28,8 @@ related:
 >>>>>>> .merge_file_06SswA
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_r12qB6
 title: "Archivio cartelle config duplicate — modulo UI"
 type: concept
 module: UI
@@ -49,6 +52,7 @@ related:
 ## Situazione (risolta 2026-07-01)
 
 `Config/` (maiuscolo) e `Config.bak/` duplicavano i file già in `config/`:
+<<<<<<< .merge_file_15rjlS
 <<<<<<< HEAD
 <<<<<<< .merge_file_LiNAn0
 <<<<<<< HEAD
@@ -83,6 +87,8 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_r12qB6
 
 - `config.php`
 - `laravel-localization.php`
@@ -90,6 +96,7 @@ related:
 
 ## Regola
 
+<<<<<<< .merge_file_15rjlS
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_LiNAn0
@@ -108,11 +115,14 @@ Solo `config/` (minuscolo) alla root.
 >>>>>>> .merge_file_06SswA
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_r12qB6
 Solo `config/` (minuscolo) alla root del modulo nwidart.
 
 ## Azione
 
 Rimossi `Config/` e `Config.bak/`; nessun autoload/require li referenziava. Git history conserva le versioni precedenti.
+<<<<<<< .merge_file_15rjlS
 <<<<<<< HEAD
 <<<<<<< .merge_file_LiNAn0
 <<<<<<< HEAD
@@ -137,3 +147,5 @@ Solo `config/` (minuscolo) alla root.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_r12qB6

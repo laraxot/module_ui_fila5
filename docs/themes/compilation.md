@@ -2,6 +2,7 @@
 module: theme
 topic: compilation
 canonical: ../../../../Themes/docs/shared-components/.gitkeep
+<<<<<<< .merge_file_4vEvgw
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ZcrP8j
@@ -36,6 +37,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_mijQRM
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/.gitkeep

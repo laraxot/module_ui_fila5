@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_k84cB3
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_iVcV27
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_CxIgm4
 # UI Module Roadmap
 
 Vedi [roadmap/00-index](roadmap/00-index.md).

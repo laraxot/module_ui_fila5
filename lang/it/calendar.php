@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_l2xK4Y
 <<<<<<< HEAD
 <<<<<<< .merge_file_D3rz5B
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_MX45IT
 return [
     'months' => [
         0 => 'Gennaio',

@@ -7,6 +7,7 @@ namespace Modules\UI\Tests;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Support\Facades\DB;
+<<<<<<< .merge_file_OLTjJh
 <<<<<<< HEAD
 <<<<<<< .merge_file_1H3Ijs
 <<<<<<< HEAD
@@ -26,10 +27,15 @@ use Modules\UI\Providers\UIServiceProvider;
 use Modules\UI\Providers\UIServiceProvider;
 use Modules\UI\Tests\Support\EnsuresUiDatabaseSchema;
 >>>>>>> 804451c (Lint)
+=======
+use Modules\UI\Providers\UIServiceProvider;
+use Modules\UI\Tests\Support\EnsuresUiDatabaseSchema;
+>>>>>>> .merge_file_oo1k4i
 use Modules\User\Models\User;
 use Modules\User\Providers\UserServiceProvider;
 use Modules\Xot\Tests\XotBaseTestCase;
 
+<<<<<<< .merge_file_OLTjJh
 <<<<<<< HEAD
 <<<<<<< .merge_file_1H3Ijs
 <<<<<<< HEAD
@@ -63,10 +69,13 @@ use function Safe\file_get_contents;
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_oo1k4i
 /**
  * Base test case for UI module.
  *
  * Uses shared sqlite from fixcity_data.sqlite (no RefreshDatabase).
+<<<<<<< .merge_file_OLTjJh
 <<<<<<< HEAD
 <<<<<<< .merge_file_1H3Ijs
 <<<<<<< HEAD
@@ -88,10 +97,13 @@ use function Safe\file_get_contents;
 >>>>>>> .merge_file_X6Dpj0
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_oo1k4i
  */
 abstract class TestCase extends XotBaseTestCase
 {
     use DatabaseTransactions;
+<<<<<<< .merge_file_OLTjJh
 <<<<<<< HEAD
 <<<<<<< .merge_file_1H3Ijs
 <<<<<<< HEAD
@@ -142,6 +154,9 @@ abstract class TestCase extends XotBaseTestCase
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+    use EnsuresUiDatabaseSchema;
+>>>>>>> .merge_file_oo1k4i
 
     /** @var list<string> */
     protected $connectionsToTransact = ['xot', 'sqlite', 'user'];
@@ -160,6 +175,7 @@ abstract class TestCase extends XotBaseTestCase
 
     protected function setUp(): void
     {
+<<<<<<< .merge_file_OLTjJh
 <<<<<<< HEAD
 <<<<<<< .merge_file_1H3Ijs
 <<<<<<< HEAD
@@ -172,41 +188,25 @@ abstract class TestCase extends XotBaseTestCase
         $this->prepareSharedSqliteForTesting();
 
 >>>>>>> .merge_file_X6Dpj0
+=======
+>>>>>>> .merge_file_oo1k4i
         parent::setUp();
 
-        config(['auth.providers.users.model' => User::class]);
+        $database = database_path('fixcity_data.sqlite');
 
-        if ($this->shouldSkipForMissingUiDb()) {
-            $this->markTestSkipped('DB `ui` (themes/categories) non disponibile in ambiente test condiviso.');
-        }
-    }
+        /** @var array<string, array<string, mixed>> $connections */
+        $connections = config('database.connections', []);
 
-    /**
-     * Salta quando manca lo schema UI, salvo test Unit o marcati `no-ui-db`.
-     * I test DB-dependent in Unit usano gruppo `ui-db`.
-     */
-    protected function shouldSkipForMissingUiDb(): bool
-    {
-        if (! static::uiDbUnavailable()) {
-            return false;
-        }
-
-        $testFile = $this->resolvePestTestFile();
-
-        if (null !== $testFile && is_file($testFile)) {
-            $source = file_get_contents($testFile);
-            if (str_contains($source, "group('no-ui-db')")) {
-                return false;
+        foreach (array_keys($connections) as $connection) {
+            if ('sqlite' !== config("database.connections.{$connection}.driver")) {
+                continue;
             }
-            if (str_contains($source, "group('ui-db')")) {
-                return true;
-            }
+
+            $this->app['config']->set("database.connections.{$connection}.database", $database);
+            DB::purge($connection);
         }
 
-        if (null !== $testFile && str_contains($testFile, '/tests/Unit/')) {
-            return false;
-        }
-
+<<<<<<< .merge_file_OLTjJh
         return true;
     }
 
@@ -354,5 +354,10 @@ abstract class TestCase extends XotBaseTestCase
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+        config(['auth.providers.users.model' => User::class]);
+
+        $this->ensureUiSchema();
+>>>>>>> .merge_file_oo1k4i
     }
 }

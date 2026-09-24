@@ -9,6 +9,7 @@ use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
+<<<<<<< .merge_file_Bc103y
 <<<<<<< HEAD
 <<<<<<< .merge_file_tgQFHv
 <<<<<<< HEAD
@@ -45,14 +46,23 @@ uses(TestCase::class);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+
+/**
+ * @param  array<string, mixed>  $data
+>>>>>>> .merge_file_EvY3MJ
  */
 function renderCategoryTabsHtml(array $data = []): ?string
 {
-    if (! View::exists('pub_theme::components.blocks.navigation.category-tabs')) {
+    /** @var view-string $viewName */
+    $viewName = 'pub_theme::components.blocks.navigation.category-tabs';
+
+    if (! View::exists($viewName)) {
         return null;
     }
 
     try {
+<<<<<<< .merge_file_Bc103y
 <<<<<<< HEAD
 <<<<<<< .merge_file_tgQFHv
 <<<<<<< HEAD
@@ -83,12 +93,16 @@ function renderCategoryTabsHtml(array $data = []): ?string
 >>>>>>> .merge_file_ZwS1aL
 =======
 >>>>>>> 804451c (Lint)
+=======
+        return View::make($viewName, $data)->render();
+>>>>>>> .merge_file_EvY3MJ
     } catch (\Throwable) {
         return null;
     }
 }
 
 /**
+<<<<<<< .merge_file_Bc103y
 <<<<<<< HEAD
  * @param array<string, mixed> $data
 =======
@@ -106,10 +120,14 @@ function renderCategoryTabsHtml(array $data = []): ?string
  * @param  array<string, mixed>  $data
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+ * @param  array<string, mixed>  $data
+>>>>>>> .merge_file_EvY3MJ
  */
 function requireCategoryTabsHtml(array $data = []): string
 {
     $html = renderCategoryTabsHtml($data);
+<<<<<<< .merge_file_Bc103y
 <<<<<<< HEAD
     if (null === $html) {
 =======
@@ -127,6 +145,9 @@ function requireCategoryTabsHtml(array $data = []): string
     if ($html === null) {
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+    if ($html === null) {
+>>>>>>> .merge_file_EvY3MJ
         Assert::markTestSkipped('pub_theme category-tabs view not available in this install.');
     }
 

@@ -1,4 +1,5 @@
 ---
+<<<<<<< .merge_file_075grI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kjrjlB
@@ -21,6 +22,8 @@ Questo file era un duplicato esatto che differiva solo per maiuscole/minuscole, 
 >>>>>>> .merge_file_ibZbu5
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8iTwk
 title: Wiki Schema
 description: Schema e convenzioni per la manutenzione della wiki
 tags:
@@ -32,6 +35,7 @@ created: 2026-04-15
 
 # Wiki Schema - UI
 
+<<<<<<< .merge_file_075grI
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -59,6 +63,8 @@ Questo file era un duplicato esatto che differiva solo per maiuscole/minuscole, 
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_y8iTwk
 Istruzioni per l'LLM su come mantenere questa wiki.
 
 ## Struttura
@@ -68,6 +74,7 @@ docs/
 ├── wiki/
 │   ├── index.md           # Catalogo
 │   ├── log.md             # Registro
+<<<<<<< .merge_file_075grI
 <<<<<<< HEAD
 │   ├── SCHEMA.md          # Questo file
 =======
@@ -91,6 +98,9 @@ docs/
 >>>>>>> 92912795 (.)
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+│   ├── SCHEMA.md          # Questo file
+>>>>>>> .merge_file_y8iTwk
 │   ├── concepts/          # Pattern, architettura
 │   ├── entities/          # Modelli, azioni
 │   ├── sources/           # Doc esterna
@@ -104,6 +114,7 @@ docs/
 - Frontmatter: title, description, tags, created
 - Cross-ref: `[Link](../concepts/name.md)`
 - NON modificare mai `docs/raw/`
+<<<<<<< .merge_file_075grI
 <<<<<<< HEAD
 <<<<<<< .merge_file_kjrjlB
 <<<<<<< HEAD
@@ -123,3 +134,5 @@ docs/
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8iTwk

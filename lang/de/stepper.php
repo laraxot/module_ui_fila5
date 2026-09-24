@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_CkOgsl
 <<<<<<< HEAD
 <<<<<<< .merge_file_EG3Lz0
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_JNHyEl
 return [
     'step' => 'Schritt',
     'step_1' => 'Schritt 1',

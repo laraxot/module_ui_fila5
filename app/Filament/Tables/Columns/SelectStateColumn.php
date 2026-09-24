@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Tables\Columns;
 
+<<<<<<< .merge_file_HlHP8S
 <<<<<<< HEAD
 <<<<<<< .merge_file_UdVLlO
 <<<<<<< HEAD
@@ -12,16 +13,15 @@ namespace Modules\UI\Filament\Tables\Columns;
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
-use Filament\Tables\Columns\SelectColumn;
 =======
->>>>>>> .merge_file_nNmEYW
+>>>>>>> .merge_file_3P0MtT
+use Filament\Tables\Columns\SelectColumn;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
-use Modules\Xot\Filament\Tables\Columns\XotBaseSelectColumn;
 
-<<<<<<< .merge_file_UdVLlO
 class SelectStateColumn extends SelectColumn
+<<<<<<< .merge_file_HlHP8S
 <<<<<<< HEAD
 =======
 =======
@@ -55,10 +55,13 @@ class SelectStateColumn extends XotBaseSelectColumn
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_3P0MtT
 {
     protected function setUp(): void
     {
         parent::setUp();
+<<<<<<< .merge_file_HlHP8S
 <<<<<<< HEAD
 <<<<<<< .merge_file_UdVLlO
 <<<<<<< HEAD
@@ -96,6 +99,8 @@ class SelectStateColumn extends XotBaseSelectColumn
         }
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> .merge_file_3P0MtT
         $this->options(function (Model $record, mixed $state): array {
             $name = $this->getName();
             if (null === $state) {
@@ -109,7 +114,6 @@ class SelectStateColumn extends XotBaseSelectColumn
 
                 return $this->combineStateOptions($states);
             }
->>>>>>> .merge_file_nNmEYW
 
             $states = [];
             try {
@@ -142,7 +146,6 @@ class SelectStateColumn extends XotBaseSelectColumn
                             $stateNameProperty = \is_string($nameProperty) ? $nameProperty : null;
                         }
                     } catch (\ReflectionException) {
-                        // Intentionally ignored: fall back to $stateNameProperty === null below.
                     }
                     if (null !== $stateNameProperty) {
                         $statesValues = array_values($states);
@@ -161,6 +164,7 @@ class SelectStateColumn extends XotBaseSelectColumn
             return $this->combineStateOptions($statesFiltered);
         });
 
+<<<<<<< .merge_file_HlHP8S
 <<<<<<< .merge_file_UdVLlO
 <<<<<<< HEAD
         /** @var array<int|string, mixed> $statesFiltered */
@@ -278,6 +282,8 @@ class SelectStateColumn extends XotBaseSelectColumn
         }
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> .merge_file_3P0MtT
         $this->beforeStateUpdated(static function (Model $record, mixed $stateRaw): void {
             if (! \is_string($stateRaw)) {
                 return;
@@ -285,7 +291,6 @@ class SelectStateColumn extends XotBaseSelectColumn
 
             $state = $stateRaw;
             $message = '';
->>>>>>> .merge_file_nNmEYW
 
             $recordState = $record->getAttribute('state');
             if (! \is_object($recordState)) {
@@ -331,6 +336,7 @@ class SelectStateColumn extends XotBaseSelectColumn
     /**
      * @param array<int|string, mixed> $states
      *
+<<<<<<< .merge_file_HlHP8S
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -434,11 +440,14 @@ class SelectStateColumn extends XotBaseSelectColumn
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_3P0MtT
      * @return array<int|string, string>
      */
     private function combineStateOptions(array $states): array
     {
         $statesKeys = array_map(
+<<<<<<< .merge_file_HlHP8S
 <<<<<<< HEAD
 <<<<<<< .merge_file_UdVLlO
 <<<<<<< HEAD
@@ -450,11 +459,14 @@ class SelectStateColumn extends XotBaseSelectColumn
 =======
 <<<<<<< HEAD
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_3P0MtT
             static fn ($key) => SafeStringCastAction::cast($key),
             array_keys($states),
         );
         $statesValues = array_map(
             static fn ($value) => SafeStringCastAction::cast($value),
+<<<<<<< .merge_file_HlHP8S
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -484,6 +496,8 @@ class SelectStateColumn extends XotBaseSelectColumn
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_3P0MtT
             array_values($states),
         );
         $combined = array_combine($statesKeys, $statesValues);

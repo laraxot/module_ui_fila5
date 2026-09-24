@@ -395,6 +395,7 @@ composer dump-autoload = Manifestation of Truth
 - [Wikimedia Composer Merge Plugin](https://github.com/wikimedia/composer-merge-plugin)
 
 **Documentazione Interna**:
+<<<<<<< .merge_file_uBtJpK
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_5FJVW2
@@ -432,6 +433,11 @@ composer dump-autoload = Manifestation of Truth
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [../../../../docs/modules-index.md](../../../../docs/modules-index.md) - Module Index
+- [../../Xot/docs/README.md](../../xot/docs/readme.md) - XotBase Pattern
+- [./README.md](./readme.md) - UI Module Overview
+>>>>>>> .merge_file_tyV5Bc
 
 ---
 

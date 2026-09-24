@@ -1,6 +1,7 @@
 # Componenti Form
 
 ## Introduzione
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -21,12 +22,15 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hKpICT
 I componenti form forniscono elementi di input e validazione per la creazione di form complessi e interattivi.
 ## Componenti Disponibili
 ### InlineDatePicker
 Un componente avanzato per la selezione di date che mostra un calendario inline con la possibilità di abilitare/disabilitare date specifiche.
 ```php
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8tM33n
@@ -102,6 +106,10 @@ InlineDatePicker::make('appointment_date')
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+InlineDatePicker::make('appointment_date')
+    ->enabledDates(['[DATE]', '[DATE]', '[DATE]'])
+>>>>>>> .merge_file_hKpICT
     ->calendarConfig([
         'locale' => 'it',
         'firstDayOfWeek' => 1, // Lunedì come primo giorno della settimana
@@ -109,6 +117,7 @@ InlineDatePicker::make('appointment_date')
     ])
     ->required();
 ```
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8tM33n
@@ -159,6 +168,9 @@ InlineDatePicker::make('appointment_date')
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+#### Caratteristiche Principali
+>>>>>>> .merge_file_hKpICT
 - **Selezione Controllata**: Solo le date specificate in `enabledDates()` sono selezionabili
 - **Interfaccia Intuitiva**: Navigazione tra mesi con frecce e visualizzazione chiara
 - **Accessibilità Completa**: Supporto per screen reader e navigazione da tastiera
@@ -166,6 +178,7 @@ InlineDatePicker::make('appointment_date')
 - **Personalizzabile**: Aspetto e comportamento completamente personalizzabili
 - **Internazionalizzazione**: Supporto integrato per diverse lingue e formati di data
 - **Performance Ottimizzate**: Caricamento lazy dei dati e rendering efficiente
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8tM33n
@@ -216,6 +229,9 @@ InlineDatePicker::make('appointment_date')
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+#### Metodi Disponibili
+>>>>>>> .merge_file_hKpICT
 | Metodo | Parametri | Descrizione |
 |--------|-----------|-------------|
 | `enabledDates` | `array|Closure $dates` | Imposta le date selezionabili (formato Y-m-d) |
@@ -223,6 +239,7 @@ InlineDatePicker::make('appointment_date')
 | `getEnabledDates` | - | Restituisce l'array delle date abilitate |
 | `isDateEnabled` | `string $date` | Verifica se una data è abilitata |
 | `generateMonthGrid` | `?int $year`, `?int $month` | Genera la griglia del mese per visualizzazione |
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 #### Configurazione Avanzata
 =======
@@ -275,6 +292,9 @@ InlineDatePicker::make('appointment_date')
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+#### Configurazione Avanzata
+>>>>>>> .merge_file_hKpICT
     ->enabledDates(function () {
         // Logica dinamica per generare le date abilitate
         return [
@@ -283,6 +303,7 @@ InlineDatePicker::make('appointment_date')
             now()->addWeek()->format('Y-m-d'),
         ];
     })
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8tM33n
@@ -320,11 +341,14 @@ InlineDatePicker::make('appointment_date')
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hKpICT
         'locale' => app()->getLocale(),
         'firstDayOfWeek' => 1, // Lunedì
         'numberOfMonths' => 2,  // Mostra 2 mesi affiancati
         'inline' => true,       // Mostra sempre il calendario
     ]);
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -340,10 +364,13 @@ InlineDatePicker::make('appointment_date')
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hKpICT
 #### Personalizzazione dello Stile
 Lo stile del componente può essere personalizzato sovrascrivendo le classi CSS nel file di vista:
 `resources/views/vendor/filament/forms/components/inline-date-picker.blade.php`
 #### Gestione degli Eventi
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -406,12 +433,15 @@ InlineDatePicker::make('appointment_date')
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_hKpICT
     ->enabledDates($enabledDates)
     ->live()
     ->afterStateUpdated(function (Set $set, $state) {
         // Azioni da eseguire quando viene selezionata una data
         $set('related_field', $state);
     });
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -427,10 +457,13 @@ InlineDatePicker::make('appointment_date')
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hKpICT
 #### Accesso ai Dati
 // Ottenere le date abilitate
 $enabledDates = $datePicker->getEnabledDates();
 // Verificare se una data è abilitata
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8tM33n
@@ -465,10 +498,13 @@ $monthGrid = $datePicker->generateMonthGrid(2025, 6);
 >>>>>>> .merge_file_ZBrH2F
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_hKpICT
 $isEnabled = $datePicker->isDateEnabled('[DATE]');
 // Generare la griglia di un mese specifico
 $monthGrid = $datePicker->generateMonthGrid(2025, 6);
 #### Best Practice
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <<<<<<< .merge_file_8tM33n
 <<<<<<< HEAD
@@ -521,11 +557,14 @@ $monthGrid = $datePicker->generateMonthGrid(2025, 6);
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hKpICT
 1. **Performance**: Per un gran numero di date, utilizzare una closure per generare le date abilitate in modo lazy
 2. **Accessibilità**: Assicurarsi che il componente sia accessibile da tastiera
 3. **Localizzazione**: Configurare correttamente la lingua e il formato della data
 4. **Validazione**: Aggiungere sempre la validazione appropriata per il campo data
 5. **Stati di Caricamento**: Implementare indicatori di caricamento per operazioni asincrone
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -541,12 +580,15 @@ $monthGrid = $datePicker->generateMonthGrid(2025, 6);
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hKpICT
 #### Esempio Completo
 use Filament\Forms\Form;
 use Filament\Forms\Components\Section;
 public function form(Form $form): Form
 public function form(Form $form): Form
 public function form(Form $form): Form
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8tM33n
@@ -604,6 +646,8 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_hKpICT
 {
     return $form->schema([
         Section::make('Prenotazione Appuntamento')
@@ -615,6 +659,7 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
                         $dates = [];
                         $date = now();
                         $count = 0;
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8tM33n
@@ -655,6 +700,9 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_hKpICT
                         while ($count < 30) {
                             if (!$date->isWeekend()) {
                                 $dates[] = $date->format('Y-m-d');
@@ -662,6 +710,7 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
                             }
                             $date->addDay();
                         }
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -688,6 +737,8 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hKpICT
                         return $dates;
                     })
                     ->calendarConfig([
@@ -698,6 +749,7 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
                     ->required()
                     ->columnSpanFull(),
             ])
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -713,6 +765,8 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hKpICT
 }
 ### Input
 ```blade
@@ -720,6 +774,7 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     name="email"
     type="email"
     label="Email"
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8tM33n
@@ -778,6 +833,8 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_hKpICT
     placeholder="Inserisci la tua email"
     :required="true"
     :disabled="false"
@@ -786,10 +843,10 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     :autocomplete="true"
     :error="$errors->first('email')"
 />
-<<<<<<< HEAD
 ### Select
 <x-ui::select
     name="role"
+<<<<<<< .merge_file_BooSsd
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -852,12 +909,15 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_hKpICT
     label="Ruolo"
     :options="[
         'admin' => 'Amministratore',
         'user' => 'Utente',
         'guest' => 'Ospite'
     ]"
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8tM33n
@@ -895,10 +955,13 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hKpICT
     :multiple="false"
     :searchable="true"
     :clearable="true"
     :error="$errors->first('role')"
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -914,6 +977,8 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hKpICT
 ### Checkbox
 <x-ui::checkbox
     name="terms"
@@ -936,6 +1001,7 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
     :rows="4"
     :error="$errors->first('message')"
 ## Validazione
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8tM33n
@@ -1030,11 +1096,14 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_hKpICT
 ### Regole
 - Required
 - Min/Max length
 - Pattern
 - Custom rules
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1061,10 +1130,13 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hKpICT
 ### Messaggi
 - Personalizzazione messaggi errore
 - Localizzazione
 - Tooltip di aiuto
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1080,6 +1152,8 @@ public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hKpICT
 ## Integrazione
 ### Livewire
 use Livewire\Component;
@@ -1087,6 +1161,7 @@ class UserForm extends Component
     public $name;
     public $email;
 
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8tM33n
@@ -1147,10 +1222,13 @@ class UserForm extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_hKpICT
     protected $rules = [
         'name' => 'required|min:3',
         'email' => 'required|email',
     ];
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1177,11 +1255,14 @@ class UserForm extends Component
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hKpICT
     public function save()
     {
         $this->validate();
         // Salva i dati
     }
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8tM33n
@@ -1227,6 +1308,8 @@ class UserForm extends Component
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hKpICT
 ### JavaScript
 ```javascript
 // Validazione lato client
@@ -1235,6 +1318,7 @@ form.addEventListener('submit', (e) => {
     if (!form.checkValidity()) {
         e.preventDefault();
         // Mostra errori
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 });
 ## Best Practices
@@ -1290,11 +1374,16 @@ form.addEventListener('submit', (e) => {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+});
+## Best Practices
+>>>>>>> .merge_file_hKpICT
 ### Utilizzo
 - Validazione lato server e client
 - Feedback immediato
 - Accessibilità
 - UX ottimizzata
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1321,11 +1410,14 @@ form.addEventListener('submit', (e) => {
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hKpICT
 ### Performance
 - Lazy loading
 - Debounce input
 - Cache validazione
 - Ottimizzazione risorse
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1352,11 +1444,14 @@ form.addEventListener('submit', (e) => {
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hKpICT
 ## Collegamenti
 - [Componenti Base](./base-components.md)
 - [Componenti Table](./table-components.md)
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8tM33n
@@ -1379,6 +1474,8 @@ form.addEventListener('submit', (e) => {
 >>>>>>> .merge_file_ZBrH2F
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_hKpICT
 - [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
 ## Collegamenti tra versioni di form-components.md
 * [form-components.md](../../../ui/project_docs/form-components.md)
@@ -1388,6 +1485,7 @@ form.addEventListener('submit', (e) => {
 * [form-components.md](../../../ui/docs/roadmap/form-components.md)
 # Componenti Form
 
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 ## Introduzione
@@ -1436,6 +1534,9 @@ form.addEventListener('submit', (e) => {
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+## Introduzione
+>>>>>>> .merge_file_hKpICT
 
 I componenti form forniscono elementi di input e validazione per la creazione di form complessi e interattivi.
 
@@ -1449,6 +1550,7 @@ Un componente avanzato per la selezione di date che mostra un calendario inline 
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 
 InlineDatePicker::make('appointment_date')
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8tM33n
@@ -1474,6 +1576,9 @@ InlineDatePicker::make('appointment_date')
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+    ->enabledDates(['[DATE]', '[DATE]', '[DATE]'])
+>>>>>>> .merge_file_hKpICT
     ->calendarConfig([
         'locale' => 'it',
         'firstDayOfWeek' => 1, // Lunedì come primo giorno della settimana
@@ -1546,6 +1651,7 @@ InlineDatePicker::make('appointment_date')
 $enabledDates = $datePicker->getEnabledDates();
 
 // Verificare se una data è abilitata
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8tM33n
@@ -1571,6 +1677,9 @@ $isEnabled = $datePicker->isDateEnabled('[DATE]');
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+$isEnabled = $datePicker->isDateEnabled('[DATE]');
+>>>>>>> .merge_file_hKpICT
 
 // Generare la griglia di un mese specifico
 $monthGrid = $datePicker->generateMonthGrid(2025, 6);
@@ -1591,6 +1700,7 @@ use Filament\Forms\Form;
 use Filament\Forms\Components\Section;
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 public function form(Form $form): Form
 public function form(Form $form): Form
@@ -1610,11 +1720,12 @@ public function form(Form $form): Form
 >>>>>>> 804451c (Lint)
 public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
-public function form(Form $form): Form
-<<<<<<< HEAD
-public function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
 =======
 public function form(Form $form): Form
+>>>>>>> .merge_file_hKpICT
+public function form(Form $form): Form
+public function form(Form $form): Form
+<<<<<<< .merge_file_BooSsd
 public function form(Form $form): Form
 <<<<<<< HEAD
 <<<<<<< .merge_file_8tM33n
@@ -1631,6 +1742,8 @@ public function form(Form $form): Form
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hKpICT
 {
     return $form->schema([
         Section::make('Prenotazione Appuntamento')
@@ -1642,6 +1755,7 @@ public function form(Form $form): Form
                         $dates = [];
                         $date = now();
                         $count = 0;
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8tM33n
@@ -1678,6 +1792,9 @@ public function form(Form $form): Form
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_hKpICT
                         while ($count < 30) {
                             if (!$date->isWeekend()) {
                                 $dates[] = $date->format('Y-m-d');
@@ -1685,6 +1802,7 @@ public function form(Form $form): Form
                             }
                             $date->addDay();
                         }
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8tM33n
@@ -1721,6 +1839,9 @@ public function form(Form $form): Form
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_hKpICT
                         return $dates;
                     })
                     ->calendarConfig([
@@ -1737,6 +1858,7 @@ public function form(Form $form): Form
 
 ### Input
 ```blade
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8tM33n
@@ -1783,10 +1905,13 @@ public function form(Form $form): Form
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_hKpICT
 <x-ui::input
     name="email"
     type="email"
     label="Email"
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1802,6 +1927,8 @@ public function form(Form $form): Form
 >>>>>>> 92912795 (.)
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hKpICT
     placeholder="Inserisci la tua email"
     :required="true"
     :disabled="false"
@@ -1814,9 +1941,9 @@ public function form(Form $form): Form
 
 ### Select
 ```blade
-<<<<<<< HEAD
 <x-ui::select
     name="role"
+<<<<<<< .merge_file_BooSsd
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1843,6 +1970,8 @@ public function form(Form $form): Form
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hKpICT
     label="Ruolo"
     :options="[
         'admin' => 'Amministratore',
@@ -1859,6 +1988,7 @@ public function form(Form $form): Form
 
 ### Checkbox
 ```blade
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <x-ui::checkbox
     name="terms"
@@ -1888,6 +2018,10 @@ public function form(Form $form): Form
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+<x-ui::checkbox
+    name="terms"
+>>>>>>> .merge_file_hKpICT
     label="Accetto i termini e condizioni"
     :required="true"
     :checked="false"
@@ -1898,6 +2032,7 @@ public function form(Form $form): Form
 
 ### Radio
 ```blade
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <x-ui::radio
     name="gender"
@@ -1927,6 +2062,10 @@ public function form(Form $form): Form
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+<x-ui::radio
+    name="gender"
+>>>>>>> .merge_file_hKpICT
     label="Genere"
     :options="[
         'male' => 'Maschio',
@@ -1940,9 +2079,9 @@ public function form(Form $form): Form
 
 ### Textarea
 ```blade
-<<<<<<< HEAD
 <x-ui::textarea
     name="message"
+<<<<<<< .merge_file_BooSsd
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1969,6 +2108,8 @@ public function form(Form $form): Form
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hKpICT
     label="Messaggio"
     placeholder="Inserisci il tuo messaggio"
     :rows="4"
@@ -2002,6 +2143,7 @@ class UserForm extends Component
 {
     public $name;
     public $email;
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8tM33n
@@ -2038,10 +2180,14 @@ class UserForm extends Component
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_hKpICT
     protected $rules = [
         'name' => 'required|min:3',
         'email' => 'required|email',
     ];
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8tM33n
@@ -2078,6 +2224,9 @@ class UserForm extends Component
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_hKpICT
     public function save()
     {
         $this->validate();
@@ -2117,6 +2266,7 @@ form.addEventListener('submit', (e) => {
 - [Componenti Table](./table-components.md)
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8tM33n
@@ -2146,10 +2296,13 @@ form.addEventListener('submit', (e) => {
 >>>>>>> .merge_file_ZBrH2F
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_hKpICT
 - [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
 ## Collegamenti tra versioni di form-components.md
 * [form-components.md](../../../ui/project_docs/form-components.md)
 * [form-components.md](../../../ui/project_docs/roadmap/form-components.md)
+<<<<<<< .merge_file_BooSsd
 <<<<<<< HEAD
 <<<<<<< .merge_file_8tM33n
 <<<<<<< HEAD
@@ -2213,3 +2366,5 @@ form.addEventListener('submit', (e) => {
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hKpICT

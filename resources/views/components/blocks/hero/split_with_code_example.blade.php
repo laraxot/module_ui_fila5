@@ -1,10 +1,14 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_3r5Xlh
 <<<<<<< HEAD
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_DzfZHI
 ?>
 <div class="bg-white">
     <div class="relative isolate overflow-hidden bg-gradient-to-b from-indigo-100/20">

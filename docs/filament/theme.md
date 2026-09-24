@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_qpILLL
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_uSYtTx
@@ -69,4 +70,6 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ibekG5
 https://fly.io/laravel-bytes/filamentphp-adding-some-style/

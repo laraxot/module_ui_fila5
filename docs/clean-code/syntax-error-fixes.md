@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_qOqBnW
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ypz7rk
@@ -65,6 +66,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_CJPg6X
 # Correzioni Errori di Sintassi - Modulo UI
 
 ## Problema Risolto: UiBasePolicy.php

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_WDaA97
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -5,6 +6,8 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_DWU6O9
 ---
 module: theme
 topic: phpstan-fixes-november
@@ -12,6 +15,7 @@ canonical: ../../../Themes/docs/shared-components/phpstan-fixes-november-2025.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan-fixes-november-2025.md
+<<<<<<< .merge_file_WDaA97
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -220,3 +224,5 @@ Quando serve fare type narrowing di una variabile usata più volte, estrarre il 
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_DWU6O9

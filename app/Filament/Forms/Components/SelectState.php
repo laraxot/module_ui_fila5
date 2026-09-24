@@ -15,6 +15,7 @@ class SelectState extends XotBaseSelect
     {
         parent::setUp();
 
+<<<<<<< .merge_file_HKoehf
 <<<<<<< HEAD
 <<<<<<< .merge_file_KAanOM
 <<<<<<< HEAD
@@ -42,6 +43,11 @@ class SelectState extends XotBaseSelect
             $name = $this->getName();
             if ($record === null) {
 >>>>>>> 804451c (Lint)
+=======
+        $this->options(function (?Model $record): array {
+            $name = $this->getName();
+            if (null === $record) {
+>>>>>>> .merge_file_50LRpY
                 $model = $this->getModel();
                 if (\is_string($model) && class_exists($model)) {
                     $instance = app($model);
@@ -52,10 +58,13 @@ class SelectState extends XotBaseSelect
                             if (! \is_array($statesRaw)) {
                                 $statesRaw = Arr::wrap($statesRaw);
                             }
+<<<<<<< .merge_file_HKoehf
 <<<<<<< HEAD
 <<<<<<< .merge_file_KAanOM
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_50LRpY
 
                             /* @var array<int|string, mixed> $statesRaw */
                             return $this->combineStateOptions($statesRaw);
@@ -79,6 +88,7 @@ class SelectState extends XotBaseSelect
 
             return $this->combineStateOptions($states);
         });
+<<<<<<< .merge_file_HKoehf
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -87,10 +97,13 @@ class SelectState extends XotBaseSelect
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_50LRpY
         $this->required();
     }
 
     /**
+<<<<<<< .merge_file_HKoehf
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -205,11 +218,16 @@ class SelectState extends XotBaseSelect
      * @param  array<int|string, mixed>  $states
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+     * @param array<int|string, mixed> $states
+     *
+>>>>>>> .merge_file_50LRpY
      * @return array<int|string, string>
      */
     private function combineStateOptions(array $states): array
     {
         $statesKeys = array_map(
+<<<<<<< .merge_file_HKoehf
 <<<<<<< HEAD
 <<<<<<< .merge_file_KAanOM
 <<<<<<< HEAD
@@ -221,11 +239,14 @@ class SelectState extends XotBaseSelect
 =======
 <<<<<<< HEAD
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_50LRpY
             static fn ($key) => SafeStringCastAction::cast($key),
             array_keys($states),
         );
         $statesValues = array_map(
             static fn ($value) => SafeStringCastAction::cast($value),
+<<<<<<< .merge_file_HKoehf
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -255,6 +276,8 @@ class SelectState extends XotBaseSelect
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_50LRpY
             array_values($states),
         );
         $combined = array_combine($statesKeys, $statesValues);

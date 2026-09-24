@@ -2,6 +2,7 @@
 module: theme
 topic: context-overflow-prevention
 canonical: ../../../../../Themes/docs/shared-components/context-overflow-prevention-Modules.md
+<<<<<<< .merge_file_II6g6C
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_dVmFhE
@@ -39,6 +40,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_dMAHpJ
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/context-overflow-prevention-Modules.md

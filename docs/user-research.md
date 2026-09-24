@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_9GQA1o
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -18,6 +19,8 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_tKbC57
 # User Research: UI Module
 
 ## 🔬 Research Goals
@@ -26,6 +29,7 @@ Identify usability issues in complex Filament forms and tables.
 ## 💡 Key Findings
 - Users struggle with very long forms without clear sections or tabs.
 - Mobile responsiveness is critical for field workers.
+<<<<<<< .merge_file_9GQA1o
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WqoqgJ
@@ -185,10 +189,13 @@ Some customization capability required.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_tKbC57
 
 ## ✅ Actionable Insights / Next Steps
 - Enforce the use of `Tabs` and `Sections` in all `XotBaseResource` forms.
 - Optimize table columns for narrow viewports using `WorkerColumn` patterns.
+<<<<<<< .merge_file_9GQA1o
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -221,3 +228,5 @@ Some customization capability required.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_tKbC57

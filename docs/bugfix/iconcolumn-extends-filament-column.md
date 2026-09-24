@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_bcU5gz
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_XpFGMZ
@@ -63,6 +64,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_bowuKe
 # Bugfix: IconColumn Estende Direttamente Filament Column
 
 **Data Fix**: 11 Novembre 2025

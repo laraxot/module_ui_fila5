@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Widgets;
 
+<<<<<<< .merge_file_RKoPRI
 <<<<<<< HEAD
 <<<<<<< .merge_file_SnCqVf
 <<<<<<< HEAD
@@ -37,6 +38,11 @@ final class StatsOverviewWidget extends XotBaseStatsOverviewWidget
 >>>>>>> .merge_file_eJ1nPQ
 =======
 >>>>>>> 804451c (Lint)
+=======
+use Modules\Xot\Filament\Widgets\XotBaseStatsOverviewWidget as BaseWidget;
+
+final class StatsOverviewWidget extends BaseWidget
+>>>>>>> .merge_file_5NTEjd
 {
     protected ?string $heading = 'Stats Overview';
 }

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_OLcLwW
 <<<<<<< HEAD
 <<<<<<< .merge_file_d6pzHd
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_X7trSE
 return [
     'delete' => 'elimina',
     'edit' => 'modifica',

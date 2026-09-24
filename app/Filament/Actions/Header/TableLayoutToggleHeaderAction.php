@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Actions\Header;
 
+<<<<<<< .merge_file_GFgNQR
 <<<<<<< HEAD
 <<<<<<< .merge_file_LyDJcY
 <<<<<<< HEAD
@@ -27,10 +28,14 @@ use Modules\Xot\Filament\Actions\XotBaseAction;
 >>>>>>> .merge_file_DmZjB7
 =======
 >>>>>>> 804451c (Lint)
+=======
+use Filament\Actions\Action;
+>>>>>>> .merge_file_ecJyx8
 
 /**
  * @see https://filamentphp.com/plugins/tgeorgel-table-layout-toggle
  */
+<<<<<<< .merge_file_GFgNQR
 <<<<<<< HEAD
 <<<<<<< .merge_file_LyDJcY
 <<<<<<< HEAD
@@ -54,6 +59,9 @@ class TableLayoutToggleHeaderAction extends XotBaseAction
 >>>>>>> .merge_file_DmZjB7
 =======
 >>>>>>> 804451c (Lint)
+=======
+class TableLayoutToggleHeaderAction extends Action
+>>>>>>> .merge_file_ecJyx8
 {
     // use NavigationActionLabelTrait;
     public string $listIcon = 'heroicon-o-list-bullet';
@@ -70,6 +78,7 @@ class TableLayoutToggleHeaderAction extends XotBaseAction
             // ->icon(trans('setting::database_connection.actions.database-backup.icon'))
             // ->icon($this->listIcon)
             /*
+<<<<<<< .merge_file_GFgNQR
 <<<<<<< HEAD
 <<<<<<< .merge_file_LyDJcY
 <<<<<<< HEAD
@@ -98,6 +107,12 @@ class TableLayoutToggleHeaderAction extends XotBaseAction
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+             * /*
+             * /*
+             * /*
+             * /*
+>>>>>>> .merge_file_ecJyx8
              * @param object{layoutView?: string|null} $livewire
              */
             ->icon(function (object $livewire): string {
@@ -112,6 +127,7 @@ class TableLayoutToggleHeaderAction extends XotBaseAction
                 return $this->listIcon; // default icon
             })
             /*
+<<<<<<< .merge_file_GFgNQR
 <<<<<<< HEAD
 <<<<<<< .merge_file_LyDJcY
 <<<<<<< HEAD
@@ -126,6 +142,8 @@ class TableLayoutToggleHeaderAction extends XotBaseAction
 =======
 <<<<<<< HEAD
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ecJyx8
              * /*
              * /*
              * /*
@@ -133,6 +151,7 @@ class TableLayoutToggleHeaderAction extends XotBaseAction
              * @param object{layoutView?: string|null} $livewire
              */
             ->action(function (object $livewire): void {
+<<<<<<< .merge_file_GFgNQR
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -153,6 +172,8 @@ class TableLayoutToggleHeaderAction extends XotBaseAction
 >>>>>>> .merge_file_DmZjB7
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ecJyx8
                 // ✅ isset() invece di property_exists() - funziona con magic properties Livewire
                 if (! isset($livewire->layoutView)) {
                     return;

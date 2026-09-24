@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_N8aAmi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_LafVOr
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_aobXYv
 # Footer Component
 
 Questo documento serve come punto di riferimento centrale per la documentazione del componente Footer.
@@ -84,6 +87,7 @@ laravel/Themes/One/resources/views/components/layouts/footer.blade.php
 ### Documentazione Principale
 - [Documentazione Dettagliata del Footer](../../../../themes/one/docs/components/layouts/footer.md)
 - [Guida allo Stile del Tema One](../../../../themes/one/docs/style_guide.md)
+<<<<<<< .merge_file_N8aAmi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_LafVOr
@@ -109,6 +113,9 @@ laravel/Themes/One/resources/views/components/layouts/footer.blade.php
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [Sistema di Layout](/laravel/Themes/One/docs/design_system.md#layout)
+>>>>>>> .merge_file_aobXYv
 
 ### Best Practices e Linee Guida
 - [Best Practices Components](../../../cms/docs/best-practices/components.md)

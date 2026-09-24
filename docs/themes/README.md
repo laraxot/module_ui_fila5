@@ -89,6 +89,7 @@ Questa documentazione descrive come gestire e personalizzare i temi del progetto
 * [README.md](../../../cms/docs/components/readme.md)
 * [README.md](../../../../themes/two/docs/readme.md)
 * [README.md](../../../../themes/one/docs/readme.md)
+<<<<<<< .merge_file_REVPUu
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Qg8e4J
@@ -149,3 +150,5 @@ Core module for the FixCity Platform.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_3vbJRc

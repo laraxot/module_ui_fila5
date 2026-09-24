@@ -18,6 +18,7 @@ trait EnsuresUiDatabaseSchema
         }
 
         $schema = Schema::connection('xot');
+<<<<<<< .merge_file_xqUcJ2
 <<<<<<< HEAD
 <<<<<<< .merge_file_AYwb9c
 <<<<<<< HEAD
@@ -46,6 +47,8 @@ trait EnsuresUiDatabaseSchema
 >>>>>>> .merge_file_GIHi4F
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_96KvZm
 
         if (! $schema->hasTable('themes')) {
             $schema->create('themes', function (Blueprint $table): void {

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_Wuvgml
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_0ODW2h
@@ -63,6 +64,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_In6K6L
 # Filament Chart.js Guide
 
 > **Why this guide?**: To standardize how we use Chart.js in Filament, especially regarding advanced features like plugins (Zoom, Annotations) which are not enabled by default.
@@ -171,6 +174,7 @@ See the **[LimeSurvey Professional Charts Guide](../../../limesurvey/docs/profes
 ## 5. PDF Reporting Strategy
 
 **Do NOT** use `dompdf` or client-side canvas capture for charts.
+<<<<<<< .merge_file_Wuvgml
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_0ODW2h
@@ -223,6 +227,9 @@ The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper arou
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper around Browsershot).
+>>>>>>> .merge_file_In6K6L
 
 **Pattern:** "Shadow Report Views"
 1.  Create a dedicated Blade view for the report (linear layout).

@@ -127,6 +127,7 @@
 
 ### Collegamenti Interni
 - [Roadmap](roadmap.md)
+<<<<<<< .merge_file_pCTzIR
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_5FlCXA
@@ -152,6 +153,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [Best Practices](best-practices.md)
+>>>>>>> .merge_file_IdEiIU
 ### Versione HEAD
 
 - [Testing](testing.md)
@@ -161,6 +165,7 @@
 - [Testing](testing.md)
 ## Collegamenti tra versioni di bottlenecks.md
 * [bottlenecks.md](../../../../bashscripts/docs/bottlenecks.md)
+<<<<<<< .merge_file_pCTzIR
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_5FlCXA
@@ -193,6 +198,8 @@
 >>>>>>> .merge_file_rlFFcA
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_IdEiIU
 * [bottlenecks.md](../../chart/docs/bottlenecks.md)
 * [bottlenecks.md](../../chart/docs/performance/bottlenecks.md)
 * [bottlenecks.md](../../gdpr/docs/bottlenecks.md)
@@ -212,6 +219,7 @@
 * [bottlenecks.md](../../activity/docs/bottlenecks.md)
 * [bottlenecks.md](../../patient/docs/roadmap/bottlenecks.md)
 * [bottlenecks.md](../../cms/docs/bottlenecks.md)
+<<<<<<< .merge_file_pCTzIR
 <<<<<<< HEAD
 <<<<<<< .merge_file_5FlCXA
 <<<<<<< HEAD
@@ -250,5 +258,7 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_IdEiIU
 
 ---

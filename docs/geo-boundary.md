@@ -3,6 +3,7 @@ title: "Confine UI e Geo"
 type: rule
 module: UI
 created: 2026-07-06
+<<<<<<< .merge_file_r5pjvI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VHrTUn
@@ -46,10 +47,14 @@ updated: 2026-07-06
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+updated: 2026-07-06
+>>>>>>> .merge_file_L4nm0V
 ---
 
 # Confine UI e Geo
 
+<<<<<<< .merge_file_r5pjvI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VHrTUn
@@ -165,6 +170,8 @@ git grep -n 'Modules\\Geo' -- app || true
 >>>>>>> .merge_file_KluykR
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_L4nm0V
 ## Regola
 
 Il modulo `UI` non deve dipendere dal modulo `Geo`.
@@ -193,6 +200,7 @@ Non riattivarlo in `UI`. Se in futuro servira' una mappa, crearla nel modulo `Ge
 ## Motivazione
 
 Questa separazione evita dipendenze inverse, classi mancanti e accoppiamento tra design system e dominio geografico.
+<<<<<<< .merge_file_r5pjvI
 <<<<<<< HEAD
 <<<<<<< .merge_file_VHrTUn
 <<<<<<< HEAD
@@ -345,3 +353,5 @@ git grep -n 'Modules\\Geo' -- app || true
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_L4nm0V

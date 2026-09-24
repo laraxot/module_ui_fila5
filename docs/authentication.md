@@ -143,6 +143,7 @@ new class extends Component
 - [Documentazione Folio](https://laravel.com/docs/folio)
 - [Documentazione Livewire Volt](https://livewire.laravel.com/docs/volt)
 - [Documentazione Laravel Localization](https://github.com/mcamara/laravel-localization)
+<<<<<<< .merge_file_V8IhXn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_40inqP
@@ -174,3 +175,7 @@ new class extends Component
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [Best Practices UI](./ui_best_practices.md)
+- [Regole Architetturali](./architecture_rules.md)
+>>>>>>> .merge_file_BuLSdl

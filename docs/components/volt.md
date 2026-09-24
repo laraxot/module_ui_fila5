@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_VvuCFZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_gOLy4t
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_eLd7p0
 # Componenti Volt
 
 ## Panoramica
@@ -80,6 +83,7 @@ Nel progetto la regola di default per le componenti Volt interattive è la sinta
 - [Documentazione Volt](https://livewire.laravel.com/docs/volt)
 - [Livewire](https://livewire.laravel.com)
 - [Filament](https://filamentphp.com)
+<<<<<<< .merge_file_VvuCFZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_gOLy4t
@@ -105,6 +109,9 @@ Nel progetto la regola di default per le componenti Volt interattive è la sinta
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [Documentazione UI](../readme.md)
+>>>>>>> .merge_file_eLd7p0
 - [Best Practices](../best-practices.md)
 - [Layout](../layouts.md)
 - [Temi](../themes.md)

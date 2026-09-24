@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_MkBVgb
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_gvrmtZ
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_UtziRW
 # Supporto per Icone nei Componenti Filament
 
 ## Riepilogo della Compatibilità

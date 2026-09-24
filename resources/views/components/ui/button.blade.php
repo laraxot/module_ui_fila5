@@ -1,10 +1,14 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_IxO4Bv
 <<<<<<< HEAD
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_UHGIJg
 ?>
 @props([
     'type' => 'primary', 
@@ -34,6 +38,7 @@ declare(strict_types=1);
         'warning' => 'bg-amber-500 text-white hover:bg-amber-500/90 focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:bg-amber-600/90 focus:ring-amber-600',
         'danger' => 'bg-red-600 text-white hover:bg-red-600/90 focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:bg-red-700/90 focus:ring-red-700',
     };
+<<<<<<< .merge_file_IxO4Bv
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -63,6 +68,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_UHGIJg
 @endphp
 
 @php
@@ -86,6 +93,7 @@ switch ($tag ?? 'button') {
 <{!! $tagAttr !!} {!! $attributes->except(['class']) !!} class="{{ $sizeClasses }} {{ $typeClasses }} cursor-pointer inline-flex items-center w-full justify-center disabled:opacity-50 font-semibold focus:outline-none">
     {{ $slot }}
 </{{ $tagClose }}>
+<<<<<<< .merge_file_IxO4Bv
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -96,3 +104,5 @@ switch ($tag ?? 'button') {
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_UHGIJg

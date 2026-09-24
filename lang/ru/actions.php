@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_jR0Pj4
 <<<<<<< HEAD
 <<<<<<< .merge_file_2GsjhR
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_HjOOLq
 return [
     'confirm' => 'Подтвердить',
     'cancel' => 'Отмена',

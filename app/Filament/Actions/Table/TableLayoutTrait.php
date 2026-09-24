@@ -35,6 +35,7 @@ trait TableLayoutTrait
             }
         }
 
+<<<<<<< .merge_file_MHvIKI
 <<<<<<< HEAD
 <<<<<<< .merge_file_rU3BEL
 <<<<<<< HEAD
@@ -58,6 +59,9 @@ trait TableLayoutTrait
 >>>>>>> .merge_file_o2jZnW
 =======
 >>>>>>> 804451c (Lint)
+=======
+        return TableLayoutEnum::GRID;
+>>>>>>> .merge_file_ecHSQc
     }
 
     /**

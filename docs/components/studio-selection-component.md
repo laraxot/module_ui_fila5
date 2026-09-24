@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_IgVemR
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_bUBENV
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_uQhPte
 # Studio Selection Component con Pulsanti
 
 ## Descrizione

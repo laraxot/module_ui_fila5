@@ -23,6 +23,7 @@ final class ImageSpatie
             ->schema([
                 Hidden::make('img_uuid')
                     ->default(Str::uuid()->toString(...))
+<<<<<<< .merge_file_9U56AN
 <<<<<<< HEAD
 <<<<<<< .merge_file_zTSv5Q
 <<<<<<< HEAD
@@ -58,6 +59,9 @@ final class ImageSpatie
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+                    ->formatStateUsing(fn ($state) => $state ?? Str::uuid()->toString()),
+>>>>>>> .merge_file_V9WbbQ
                 // ->live()
                 SpatieMediaLibraryFileUpload::make('image')
                     ->live()
@@ -73,6 +77,7 @@ final class ImageSpatie
                     ->openable()
                     ->downloadable()
                     // ->rules(Rule::dimensions()->maxWidth(600)->maxHeight(800))
+<<<<<<< .merge_file_9U56AN
 <<<<<<< HEAD
 <<<<<<< .merge_file_zTSv5Q
 <<<<<<< HEAD
@@ -101,6 +106,10 @@ final class ImageSpatie
 >>>>>>> .merge_file_Pj0Hqc
 =======
 >>>>>>> 804451c (Lint)
+=======
+                    ->collection(fn (Get $get) => $get('img_uuid'))
+                    ->afterStateUpdated(function (
+>>>>>>> .merge_file_V9WbbQ
                         HasForms $_livewire,
                         SpatieMediaLibraryFileUpload $_component,
                         TemporaryUploadedFile $state,
@@ -110,13 +119,17 @@ final class ImageSpatie
                         // Call to an undefined method Filament\Forms\Contracts\HasForms::validateOnly().
                         // $livewire->validateOnly($component->getStatePath());
                         Assert::string(
+<<<<<<< .merge_file_9U56AN
 <<<<<<< HEAD
 <<<<<<< .merge_file_zTSv5Q
 <<<<<<< HEAD
+=======
+>>>>>>> .merge_file_V9WbbQ
                             $collection_name = $get('img_uuid'),
                             '['.__LINE__.']['.class_basename(self::class).']',
                         );
                         $res = $record->addMedia($state)->withResponsiveImages()->toMediaCollection($collection_name);
+<<<<<<< .merge_file_9U56AN
 =======
 <<<<<<< HEAD
 =======
@@ -137,10 +150,13 @@ final class ImageSpatie
 >>>>>>> .merge_file_Pj0Hqc
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_V9WbbQ
                     }),
                 TextInput::make('caption'),
             ])
             ->columns('form' === $context ? 2 : 1);
+<<<<<<< .merge_file_9U56AN
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -165,5 +181,7 @@ final class ImageSpatie
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_V9WbbQ
     }
 }

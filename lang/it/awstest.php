@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_0tMuRo
 <<<<<<< HEAD
 <<<<<<< .merge_file_vkD52q
 <<<<<<< HEAD
@@ -53,6 +54,9 @@ return [
 >>>>>>> .merge_file_0eHKaq
 =======
 >>>>>>> 804451c (Lint)
+=======
+return [
+>>>>>>> .merge_file_HL7gIf
     'page' => [
         'title' => 'Test AWS Diagnostico',
         'heading' => 'Diagnostica Configurazione AWS',
@@ -194,6 +198,7 @@ return [
         ],
         'label' => 'Awstest',
         'sort' => 1,
+<<<<<<< .merge_file_0tMuRo
 <<<<<<< HEAD
 <<<<<<< .merge_file_vkD52q
 <<<<<<< HEAD
@@ -217,5 +222,8 @@ return [
 >>>>>>> .merge_file_0eHKaq
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_HL7gIf
     ],
 ];

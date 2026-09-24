@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_6ElTHX
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_2foyPM
@@ -14,6 +15,8 @@ Tutte le variazioni importanti di UI saranno generate automaticamente da semanti
 >>>>>>> .merge_file_65l4Zj
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_a2VsEw
 ---
 module: theme
 topic: changelog
@@ -21,6 +24,7 @@ canonical: ../../../Themes/docs/shared-components/CHANGELOG.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/CHANGELOG.md
+<<<<<<< .merge_file_6ElTHX
 <<<<<<< HEAD
 <<<<<<< .merge_file_2foyPM
 <<<<<<< HEAD
@@ -84,3 +88,5 @@ Tutte le variazioni importanti di UI saranno generate automaticamente da semanti
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_a2VsEw

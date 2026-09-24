@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_LBKMOy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_zWUrkK
@@ -64,6 +65,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_Rddb0x
 # Struttura delle Filament Resources
 
 ## Panoramica

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_nXwRgn
 <<<<<<< HEAD
 <<<<<<< .merge_file_Cvezuo
 <<<<<<< HEAD
@@ -56,6 +57,12 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 804451c (Lint)
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> .merge_file_McgTjq
 ?>
 <div class="bg-gray-900 py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
@@ -330,6 +337,7 @@ declare(strict_types=1);
                   <div class="flex items-baseline gap-x-1 text-white">
                     <span class="text-4xl font-bold">$9</span>
                     <span class="text-sm font-semibold leading-6">/month</span>
+<<<<<<< .merge_file_nXwRgn
 <<<<<<< HEAD
 <<<<<<< .merge_file_Cvezuo
 <<<<<<< HEAD
@@ -348,6 +356,8 @@ declare(strict_types=1);
 @include('ui::components.blocks.pricing.partials.with_comparison_table_on_dark.blade_body')
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_McgTjq
                   </div>
                   <a href="#" class="mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 bg-white/10 hover:bg-white/20 focus-visible:outline-white">Buy plan</a>
                 </td>
@@ -674,6 +684,7 @@ declare(strict_types=1);
       </div>
     </div>
   </div>
+<<<<<<< .merge_file_nXwRgn
 <<<<<<< HEAD
 <<<<<<< .merge_file_Cvezuo
 <<<<<<< HEAD
@@ -686,3 +697,5 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_McgTjq

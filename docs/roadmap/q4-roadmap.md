@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_jDA0I3
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_geuuTd
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_aGRU7g
 # UI Module Roadmap (2025 Q4)
 
 ## Vision & Scope
@@ -82,6 +85,7 @@ related:
 ## Milestones
 - [ ] Audit Filament v4 changes in components/pages
 - [ ] Replace labels with translations (expanded structure)
+<<<<<<< .merge_file_jDA0I3
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_geuuTd
@@ -107,6 +111,9 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
+>>>>>>> .merge_file_aGRU7g
 - [ ] Strengthen tests for critical widgets
 
 ## Acceptance Criteria
@@ -126,6 +133,7 @@ related:
 ## Milestones
 - [ ] Audit Filament v4 changes in components/pages
 - [ ] Replace labels with translations (expanded structure)
+<<<<<<< .merge_file_jDA0I3
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_geuuTd
@@ -151,6 +159,9 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
+>>>>>>> .merge_file_aGRU7g
 - [ ] Strengthen tests for critical widgets
 
 ## Acceptance Criteria

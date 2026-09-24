@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_91aGcs
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_C3ZJrS
@@ -243,6 +244,8 @@ return [
 >>>>>>> .merge_file_W3PFRX
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_zv85kK
 ---
 module: theme
 topic: navigation-components
@@ -250,6 +253,7 @@ canonical: ../../../Themes/docs/shared-components/navigation-components.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/navigation-components.md
+<<<<<<< .merge_file_91aGcs
 <<<<<<< HEAD
 <<<<<<< .merge_file_C3ZJrS
 <<<<<<< HEAD
@@ -584,3 +588,5 @@ return [
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_zv85kK

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_xUD2rs
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_AVm61K
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_6s6wSt
 # ratings
 
 <!-- Contenuto migrato da _docs/ratings.txt -->

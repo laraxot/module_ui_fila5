@@ -1,10 +1,14 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_p1ohvn
 <<<<<<< HEAD
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_8h7Hg3
 /**
  * @see https://filamentphp.com/docs/3.x/forms/fields/types
  * @see https://github.com/Valourite/form-builder/blob/v1.x/src/Filament/Enums/FieldType.php
@@ -18,6 +22,7 @@ use Filament\Support\Contracts\HasLabel;
 use Modules\Xot\Traits\EnumTrait;
 
 /**
+<<<<<<< .merge_file_p1ohvn
 <<<<<<< HEAD
 <<<<<<< .merge_file_k4aE4q
 <<<<<<< HEAD
@@ -41,6 +46,9 @@ use Modules\Xot\Traits\EnumTrait;
 >>>>>>> .merge_file_qCIK1o
 =======
 >>>>>>> 804451c (Lint)
+=======
+ * Defines the different types of appointments in the system.
+>>>>>>> .merge_file_8h7Hg3
  *
  * @method static self        fromName(string $name)
  * @method static self        fromValue(string $value)
@@ -55,6 +63,7 @@ enum FieldTypeEnum: string implements HasColor, HasIcon, HasLabel
     case TEXT = 'text';
     // case NUMBER   = 'number';
     case EMAIL = 'email';
+<<<<<<< .merge_file_p1ohvn
 <<<<<<< HEAD
 <<<<<<< .merge_file_k4aE4q
 <<<<<<< HEAD
@@ -76,6 +85,9 @@ enum FieldTypeEnum: string implements HasColor, HasIcon, HasLabel
 >>>>>>> .merge_file_qCIK1o
 =======
 >>>>>>> 804451c (Lint)
+=======
+    // case PASSWORD = 'password';
+>>>>>>> .merge_file_8h7Hg3
     case TEXTAREA = 'textarea';
     case SELECT = 'select';
     case RADIO = 'radio';

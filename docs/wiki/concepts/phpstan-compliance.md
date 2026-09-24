@@ -1,4 +1,5 @@
 ---
+<<<<<<< .merge_file_Q2MI4e
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -6,6 +7,8 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_2gD8co
 title: "UI Module - PHPStan Type Compliance"
 type: concept
 tags: [ui, phpstan, types, compliance, quality, static-analysis]
@@ -136,6 +139,7 @@ vendor/bin/pest laravel/Modules/UI/tests --parallel
 **Maintainer**: Dev Agent 3  
 **Last Updated**: 2026-06-10  
 **Status**: GREEN
+<<<<<<< .merge_file_Q2MI4e
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -207,3 +211,5 @@ cd laravel
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_2gD8co

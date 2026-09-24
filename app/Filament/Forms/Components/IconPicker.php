@@ -6,6 +6,7 @@ namespace Modules\UI\Filament\Forms\Components;
 
 use Filament\Actions\Action;
 use Filament\Forms\Components\Select;
+<<<<<<< .merge_file_twhPHk
 <<<<<<< HEAD
 <<<<<<< .merge_file_dSsC7Z
 <<<<<<< HEAD
@@ -26,11 +27,15 @@ use Filament\Forms\Components\TextInput;
 >>>>>>> .merge_file_3Qh3hN
 =======
 >>>>>>> 804451c (Lint)
+=======
+use Filament\Forms\Components\TextInput;
+>>>>>>> .merge_file_Un1RLy
 use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Components\Utilities\Set;
 use Illuminate\Support\Arr;
 use Modules\UI\Actions\Icon\GetAllIconsAction;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
+<<<<<<< .merge_file_twhPHk
 <<<<<<< HEAD
 <<<<<<< .merge_file_dSsC7Z
 =======
@@ -70,6 +75,11 @@ class IconPicker extends XotBaseTextInput
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+use Webmozart\Assert\Assert;
+
+class IconPicker extends TextInput
+>>>>>>> .merge_file_Un1RLy
 {
     protected function setUp(): void
     {
@@ -108,6 +118,7 @@ class IconPicker extends XotBaseTextInput
                             );
                             /** @var array<int|string, mixed> $optsRaw */
                             $optsValues = array_map(
+<<<<<<< .merge_file_twhPHk
 <<<<<<< HEAD
 <<<<<<< .merge_file_dSsC7Z
 <<<<<<< HEAD
@@ -131,10 +142,14 @@ class IconPicker extends XotBaseTextInput
 >>>>>>> .merge_file_3Qh3hN
 =======
 >>>>>>> 804451c (Lint)
+=======
+                                static fn ($v) => SafeStringCastAction::cast($v),
+>>>>>>> .merge_file_Un1RLy
                                 array_values($optsRaw),
                             );
                             /** @var array<int|string> $optsKeys */
                             $optsKeys = array_map(
+<<<<<<< .merge_file_twhPHk
 <<<<<<< HEAD
 <<<<<<< .merge_file_dSsC7Z
 <<<<<<< HEAD
@@ -158,6 +173,9 @@ class IconPicker extends XotBaseTextInput
 >>>>>>> .merge_file_3Qh3hN
 =======
 >>>>>>> 804451c (Lint)
+=======
+                                static fn ($k) => SafeStringCastAction::cast($k),
+>>>>>>> .merge_file_Un1RLy
                                 array_keys($optsRaw),
                             );
                             $optsCombined = array_combine($optsKeys, $optsValues);

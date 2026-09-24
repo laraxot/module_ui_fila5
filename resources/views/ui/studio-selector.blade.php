@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_vIdRnD
 <<<<<<< HEAD
 <<<<<<< .merge_file_r1nCMe
 <<<<<<< HEAD
@@ -48,6 +49,12 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 804451c (Lint)
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> .merge_file_A99bLR
 ?>
 {{-- Studio Selector Component - Card cliccabili per selezione studio --}}
 <div 

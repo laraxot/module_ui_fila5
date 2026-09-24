@@ -45,6 +45,7 @@ Il modulo UI utilizza un sistema di icone standardizzato basato su:
 Questa documentazione integra entrambe le versioni emerse dal conflitto per fornire sia una panoramica rapida sia una guida dettagliata, facilitando la consultazione a diversi livelli di approfondimento.
 
 ## Backlink
+<<<<<<< .merge_file_IMRmgS
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_4RXTwL
@@ -82,6 +83,11 @@ Questa documentazione integra entrambe le versioni emerse dal conflitto per forn
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [Torna a docs/links.md](../../../../../docs/links.md)
+- [Vedi anche: UI/docs/components.md](./components.md)
+- [Vedi anche: Xot/docs/README.md](../../xot/docs/readme.md)
+>>>>>>> .merge_file_uXO876
 
 ## Esempi
 ```blade
@@ -91,6 +97,7 @@ Questa documentazione integra entrambe le versioni emerse dal conflitto per forn
 ```
 
 ## Collegamenti
+<<<<<<< .merge_file_IMRmgS
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_4RXTwL
@@ -127,3 +134,8 @@ Questa documentazione integra entrambe le versioni emerse dal conflitto per forn
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [Componenti UI](laravel/modules/ui/docs/components.md)
+- [Documentazione Filament](laravel/modules/ui/docs/filament/readme.md)
+- [Convenzioni di Naming](laravel/modules/ui/docs/naming-conventions.md)
+>>>>>>> .merge_file_uXO876

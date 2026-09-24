@@ -3,6 +3,7 @@ title: Installazione Filament
 description: Installazione Filament
 extends: _layouts.documentation
 section: content
+<<<<<<< .merge_file_eya58p
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Y8nOIY
@@ -40,6 +41,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_TYsjJD
 ---
 
 # Installazione Filament {#installazione-filament}

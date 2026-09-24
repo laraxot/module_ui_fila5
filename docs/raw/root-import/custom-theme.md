@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_EKwDeF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_0nIFPR
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_3I9nAE
 https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss
 
 

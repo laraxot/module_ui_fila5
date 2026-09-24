@@ -20,7 +20,7 @@ final class Page extends XotBaseBlock
      * @return array<int, \Filament\Schemas\Components\Component>
 >>>>>>> 804451c (Lint)
      */
-    public static function getFormSchema(): array
+    public function getFormSchema(): array
     {
         return [
             RichEditor::make('content')

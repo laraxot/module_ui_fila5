@@ -110,8 +110,8 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
     protected static ?int $sort = 0;
     protected static ?string $pollingInterval = null;
     protected static bool $isLazy = true;
-<<<<<<< HEAD
     
+<<<<<<< .merge_file_ZP819j
 =======
 <<<<<<< HEAD
     
@@ -157,6 +157,8 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Mhl0Dy
     // Configurazioni comuni per tutti i widget di statistiche UI
     protected static function getDefaultStats(): array
     {
@@ -164,11 +166,8 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
             // Statistiche di default
         ];
     }
-<<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-    
+<<<<<<< .merge_file_ZP819j
 =======
 <<<<<<< HEAD
     
@@ -211,19 +210,15 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Mhl0Dy
     // Metodi helper comuni
     protected function formatNumber(int|float $number): string
     {
         return number_format($number);
     }
-<<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-    
+<<<<<<< .merge_file_ZP819j
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -263,6 +258,8 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Mhl0Dy
     protected function formatPercentage(int|float $percentage): string
     {
         return number_format($percentage, 1) . '%';
@@ -289,6 +286,7 @@ abstract class UIBaseTestWidget extends XotBaseWidget
     protected static string $view = 'ui::filament.widgets.base-test';
     protected static bool $isLazy = true;
     protected static ?string $pollingInterval = null;
+<<<<<<< .merge_file_ZP819j
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -322,10 +320,13 @@ abstract class UIBaseTestWidget extends XotBaseWidget
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Mhl0Dy
     
     // Configurazioni comuni per tutti i widget di test UI
     public array $widgets = [];
     
+<<<<<<< .merge_file_ZP819j
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_7rir5z
@@ -385,6 +386,8 @@ abstract class UIBaseTestWidget extends XotBaseWidget
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Mhl0Dy
     // Metodi helper comuni
     protected function getTestData(): array
     {
@@ -416,6 +419,7 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
     protected static ?string $heading = null;
     protected static ?string $description = null;
     protected static ?string $pollingInterval = null;
+<<<<<<< .merge_file_ZP819j
 <<<<<<< HEAD
     
 =======
@@ -463,6 +467,9 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+    
+>>>>>>> .merge_file_Mhl0Dy
     // Configurazioni comuni per tutti i grafici UI
     protected function getDefaultChartOptions(): array
     {
@@ -476,8 +483,8 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
             ],
         ];
     }
-<<<<<<< HEAD
     
+<<<<<<< .merge_file_ZP819j
 =======
 <<<<<<< HEAD
     
@@ -523,6 +530,8 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Mhl0Dy
     // Metodi helper comuni
     protected function formatChartData(array $data): array
     {
@@ -605,11 +614,8 @@ namespace Modules\UI\Filament\Widgets;
 class SystemTestWidget extends UIBaseTestWidget
 {
     protected static string $view = 'ui::filament.widgets.system-test';
-<<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-    
+<<<<<<< .merge_file_ZP819j
 =======
 <<<<<<< HEAD
     
@@ -652,6 +658,8 @@ class SystemTestWidget extends UIBaseTestWidget
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Mhl0Dy
     public function getViewData(): array
     {
         return array_merge(
@@ -662,14 +670,8 @@ class SystemTestWidget extends UIBaseTestWidget
             ]
         );
     }
-<<<<<<< HEAD
     
-=======
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-    
+<<<<<<< .merge_file_ZP819j
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -709,6 +711,8 @@ class SystemTestWidget extends UIBaseTestWidget
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Mhl0Dy
     private function getSystemInfo(): array
     {
         return [
@@ -717,6 +721,7 @@ class SystemTestWidget extends UIBaseTestWidget
             'memory_usage' => memory_get_usage(true),
         ];
     }
+<<<<<<< .merge_file_ZP819j
 <<<<<<< HEAD
     
 =======
@@ -764,6 +769,9 @@ class SystemTestWidget extends UIBaseTestWidget
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+    
+>>>>>>> .merge_file_Mhl0Dy
     private function getDatabaseStatus(): array
     {
         try {
@@ -795,6 +803,7 @@ class SystemTestWidget extends UIBaseTestWidget
 
 ## 🔗 Collegamenti Correlati
 
+<<<<<<< .merge_file_ZP819j
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_7rir5z
@@ -820,12 +829,16 @@ class SystemTestWidget extends UIBaseTestWidget
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [XotBase Patterns](../../xot/docs/optimization_opportunities.md)
+>>>>>>> .merge_file_Mhl0Dy
 - [UI Components](components.md)
 - [Development Guidelines](development-guidelines.md)
 - [Testing Strategy](testing-strategy.md)
 
 ---
 
+<<<<<<< .merge_file_ZP819j
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_7rir5z
@@ -1063,3 +1076,6 @@ class SystemTestWidget extends UIBaseTestWidget
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+*Autore: Analisi Automatica del Progetto*
+>>>>>>> .merge_file_Mhl0Dy

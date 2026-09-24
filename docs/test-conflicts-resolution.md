@@ -33,6 +33,7 @@ cd laravel
 
 ## Collegamenti alla Documentazione
 
+<<<<<<< .merge_file_U9kQ0G
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_R26vDl
@@ -58,11 +59,15 @@ cd laravel
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [CONFLITTI_MERGE_RISOLTI.md](conflitti_merge_risolti.md): Documentazione dei conflitti risolti nel modulo UI.
+>>>>>>> .merge_file_sFBpm9
 - [actions/table_layout_toggle.md](actions/table_layout_toggle.md): Documentazione dell'azione TableLayoutToggle.
 - [components.md](components.md): Documentazione dei componenti UI, incluso AddressField.
 
 ## Collegamenti Principali
 
+<<<<<<< .merge_file_U9kQ0G
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_R26vDl
@@ -93,6 +98,8 @@ Per eseguire i test:
 >>>>>>> .merge_file_g0QjIu
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_sFBpm9
 - [Risoluzione Conflitti Git](../../../../../docs/risoluzione_conflitti_git.md): Documentazione principale sulla risoluzione dei conflitti git.
 - [UI Conflict Links](../../../../../docs/ui_conflict_links.md): Collegamenti ai file di risoluzione dei conflitti nel modulo UI.
 # Test di Risoluzione Conflitti nel Modulo UI
@@ -122,6 +129,7 @@ Il test `AddressFieldTest` verifica che il componente `AddressField` sia stato c
 
 Per eseguire i test:
 
+<<<<<<< .merge_file_U9kQ0G
 <<<<<<< HEAD
 <<<<<<< .merge_file_R26vDl
 <<<<<<< HEAD
@@ -174,11 +182,14 @@ Per eseguire i test:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_sFBpm9
 ```bash
 cd laravel
 ./vendor/bin/pest --filter=TableLayoutToggleTest
 ./vendor/bin/pest --filter=AddressFieldTest
 ```
+<<<<<<< .merge_file_U9kQ0G
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_R26vDl
@@ -198,6 +209,8 @@ cd laravel
 >>>>>>> .merge_file_g0QjIu
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_sFBpm9
 
 ## Collegamenti alla Documentazione
 
@@ -209,6 +222,7 @@ cd laravel
 
 - [Risoluzione Conflitti Git](../../../../../docs/risoluzione_conflitti_git.md): Documentazione principale sulla risoluzione dei conflitti git.
 - [UI Conflict Links](../../../../../docs/ui_conflict_links.md): Collegamenti ai file di risoluzione dei conflitti nel modulo UI.
+<<<<<<< .merge_file_U9kQ0G
 <<<<<<< HEAD
 <<<<<<< .merge_file_R26vDl
 <<<<<<< HEAD
@@ -252,3 +266,5 @@ cd laravel
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_sFBpm9

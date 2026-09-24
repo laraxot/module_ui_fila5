@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_uHrst7
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_dUx3lO
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_gJT5pR
 # Module Filament Component Autoload Rule
 
 ## Regola
@@ -81,6 +84,7 @@ Non usare path paralleli fuori da `app/` per classi namespaced `Modules\UI\...`.
 
 ## Perche'
 
+<<<<<<< .merge_file_uHrst7
 <<<<<<< HEAD
 L'errore recente su `EnumSelect` non era un problema del widget Fixcity ma di autoload: il file era stato creato nel path sbagliato e Laravel non trovava la classe `Modules\UI\Filament\Forms\Components\EnumSelect`.
 =======
@@ -134,6 +138,9 @@ L'errore recente su `EnumSelect` non era un problema del widget <nome progetto> 
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+L'errore recente su `EnumSelect` non era un problema del widget Fixcity ma di autoload: il file era stato creato nel path sbagliato e Laravel non trovava la classe `Modules\UI\Filament\Forms\Components\EnumSelect`.
+>>>>>>> .merge_file_gJT5pR
 
 ## Best Practices
 

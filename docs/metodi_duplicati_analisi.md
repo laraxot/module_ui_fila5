@@ -5,6 +5,7 @@ canonical: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLICATI_ANALISI.md
+<<<<<<< .merge_file_e4S4Bz
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SbkXCl
@@ -45,3 +46,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLI
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_qW3uMQ

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_tMM5jp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_d99dFU
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_hWlTdS
 # Filament 4 Components Development Guide
 
 ## Overview

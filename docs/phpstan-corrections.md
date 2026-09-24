@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_Lh7rzd
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -5,6 +6,8 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cSst4O
 # PHPStan Corrections - Modulo UI
 
 **Data:** 17 Agosto 2025  
@@ -129,6 +132,7 @@ La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Lara
 
 Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 12**.
 
+<<<<<<< .merge_file_Lh7rzd
 <<<<<<< HEAD
 <<<<<<< HEAD
 Il **codice è funzionalmente corretto** e ora rispetta gli standard di tipizzazione PHP per tutti i componenti personalizzati.
@@ -284,3 +288,6 @@ return view($this->view, $viewParamsArray);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+Il **codice è funzionalmente corretto** e ora rispetta gli standard di tipizzazione PHP per tutti i componenti personalizzati.
+>>>>>>> .merge_file_cSst4O

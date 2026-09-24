@@ -40,6 +40,7 @@ Before submitting a pull request:
 
 If the project maintainer has any additional requirements, you will find them listed here.
 
+<<<<<<< .merge_file_vNlZDw
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_d1wG2R
@@ -92,6 +93,9 @@ If the project maintainer has any additional requirements, you will find them li
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+- **[PSR-2 Coding Standard](https://github.com/php-fig/fig-standards/blob/master/accepted/psr-2-coding-style-guide.md)** - The standard can be enforced by running the `composer lint` console command.
+>>>>>>> .merge_file_AV9Ni9
 
 - **Add tests!** - Your patch won't be accepted if it doesn't have tests.
 
@@ -103,6 +107,7 @@ If the project maintainer has any additional requirements, you will find them li
 
 - **Send coherent history** - Make sure each individual commit in your pull request is meaningful. If you had to make multiple intermediate commits while developing, please [squash them](https://www.git-scm.com/book/en/v2/Git-Tools-Rewriting-History#Changing-Multiple-Commit-Messages) before submitting.
 
+<<<<<<< .merge_file_vNlZDw
 <<<<<<< HEAD
 **Happy coding**!
 =======
@@ -146,3 +151,6 @@ If the project maintainer has any additional requirements, you will find them li
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+**Happy coding**!
+>>>>>>> .merge_file_AV9Ni9

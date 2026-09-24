@@ -25,6 +25,7 @@ class LanguageController extends Controller
         session()->put('locale', $locale);
         app()->setLocale($locale);
 
+<<<<<<< .merge_file_RerbXG
 <<<<<<< HEAD
 <<<<<<< HEAD
         return redirect()->back();
@@ -51,5 +52,8 @@ class LanguageController extends Controller
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+        return redirect()->back();
+>>>>>>> .merge_file_7myFPD
     }
 }

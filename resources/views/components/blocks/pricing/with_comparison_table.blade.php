@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_RDJTod
 <<<<<<< HEAD
 <<<<<<< .merge_file_poixNH
 <<<<<<< HEAD
@@ -56,6 +57,12 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 804451c (Lint)
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> .merge_file_Jr86TO
 ?>
 <div class="bg-white py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
@@ -330,6 +337,7 @@ declare(strict_types=1);
                   <div class="flex items-baseline gap-x-1 text-gray-900">
                     <span class="text-4xl font-bold">$9</span>
                     <span class="text-sm font-semibold leading-6">/month</span>
+<<<<<<< .merge_file_RDJTod
 <<<<<<< HEAD
 <<<<<<< .merge_file_poixNH
 <<<<<<< HEAD
@@ -348,6 +356,8 @@ declare(strict_types=1);
 @include('ui::components.blocks.pricing.partials.with_comparison_table.blade_body')
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_Jr86TO
                   </div>
                   <a href="#" class="mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300">Buy plan</a>
                 </td>
@@ -674,6 +684,7 @@ declare(strict_types=1);
       </div>
     </div>
   </div>
+<<<<<<< .merge_file_RDJTod
 <<<<<<< HEAD
 <<<<<<< .merge_file_poixNH
 <<<<<<< HEAD
@@ -686,3 +697,5 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_Jr86TO

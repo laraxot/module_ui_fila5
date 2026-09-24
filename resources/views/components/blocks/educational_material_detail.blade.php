@@ -1,10 +1,14 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_T9Ypuq
 <<<<<<< HEAD
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_haPK4h
 ?>
 @props(['material'])
 
@@ -53,6 +57,7 @@ declare(strict_types=1);
         @endif
         
         <div class="text-gray-700">
+<<<<<<< .merge_file_T9Ypuq
 <<<<<<< HEAD
 <<<<<<< HEAD
             {!! $material->content !!}
@@ -72,6 +77,9 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+            {!! $material->content !!}
+>>>>>>> .merge_file_haPK4h
         </div>
     </div>
     

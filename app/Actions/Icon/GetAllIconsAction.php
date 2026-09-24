@@ -7,6 +7,7 @@ namespace Modules\UI\Actions\Icon;
 use BladeUI\Icons\Factory as IconFactory;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\File;
+<<<<<<< .merge_file_AYRZcJ
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -22,6 +23,8 @@ use ReflectionClass;
 use ReflectionClass;
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_LvhvXl
 use Spatie\QueueableAction\QueueableAction;
 
 class GetAllIconsAction
@@ -37,8 +40,8 @@ class GetAllIconsAction
 
         // Uso reflection per accedere alle icone in modo sicuro
         try {
-<<<<<<< HEAD
             $reflection = new \ReflectionClass($iconsFactory);
+<<<<<<< .merge_file_AYRZcJ
 <<<<<<< HEAD
 <<<<<<< .merge_file_NeiVhj
             $property = $reflection->getProperty('iconSets');
@@ -64,6 +67,9 @@ class GetAllIconsAction
 >>>>>>> .merge_file_G45wnI
 =======
 >>>>>>> 804451c (Lint)
+=======
+            $property = $reflection->getProperty('iconSets');
+>>>>>>> .merge_file_LvhvXl
             $property->setAccessible(true);
             $icons = $property->getValue($iconsFactory);
         } catch (\Exception $e) {
@@ -71,6 +77,7 @@ class GetAllIconsAction
             return [];
         }
 
+<<<<<<< .merge_file_AYRZcJ
 <<<<<<< HEAD
 <<<<<<< .merge_file_NeiVhj
 <<<<<<< HEAD
@@ -96,6 +103,10 @@ class GetAllIconsAction
 >>>>>>> .merge_file_G45wnI
 =======
 >>>>>>> 804451c (Lint)
+=======
+        // Verifica che $icons sia un array prima di usare Arr::map()
+        if (! is_array($icons)) {
+>>>>>>> .merge_file_LvhvXl
             return [];
         }
 
@@ -127,6 +138,7 @@ class GetAllIconsAction
                     continue;
                 }
 
+<<<<<<< .merge_file_AYRZcJ
 <<<<<<< HEAD
 <<<<<<< .merge_file_NeiVhj
 <<<<<<< HEAD
@@ -161,21 +173,42 @@ class GetAllIconsAction
                     // Simply ignore files that aren't SVGs
                     if ($file->getExtension() !== 'svg') {
 >>>>>>> 804451c (Lint)
+=======
+                $files = File::allFiles($path);
+                if (! is_iterable($files)) {
+                    continue;
+                }
+
+                foreach ($files as $file) {
+                    // Type narrowing per SplFileInfo
+                    if (! $file instanceof \SplFileInfo) {
+                        continue;
+                    }
+
+                    // Simply ignore files that aren't SVGs
+                    if ('svg' !== $file->getExtension()) {
+>>>>>>> .merge_file_LvhvXl
                         continue;
                     }
 
                     $pathname = $file->getPathname();
+<<<<<<< .merge_file_AYRZcJ
 <<<<<<< HEAD
 <<<<<<< .merge_file_NeiVhj
 =======
+=======
+>>>>>>> .merge_file_LvhvXl
                     if (! is_string($pathname)) {
                         continue;
                     }
 
                     // $iconName = $this->getIconName($file, parentPath: $path, prefix: $prefix);
+<<<<<<< .merge_file_AYRZcJ
 >>>>>>> .merge_file_G45wnI
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_LvhvXl
                     $iconName = str($pathname)
                         ->after($path.DIRECTORY_SEPARATOR)
                         ->replace(DIRECTORY_SEPARATOR, '.')
@@ -184,6 +217,7 @@ class GetAllIconsAction
 
                     $prefix = $set['prefix'] ?? '';
                     $prefixString = is_string($prefix) ? $prefix : '';
+<<<<<<< .merge_file_AYRZcJ
 <<<<<<< HEAD
 <<<<<<< .merge_file_NeiVhj
                     $iconFullName = $prefixString !== '' ? $prefixString.'-'.$iconName : $iconName;
@@ -205,6 +239,11 @@ class GetAllIconsAction
                 }
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+                    $iconFullName = '' !== $prefixString ? $prefixString.'-'.$iconName : $iconName;
+                    $iconsList[] = $iconFullName;
+                }
+>>>>>>> .merge_file_LvhvXl
             }
             $set['icons'] = $iconsList;
             $mappedIcons[$name] = $set;
@@ -212,6 +251,7 @@ class GetAllIconsAction
 
         return $mappedIcons;
     }
+<<<<<<< .merge_file_AYRZcJ
 <<<<<<< HEAD
 <<<<<<< .merge_file_NeiVhj
 <<<<<<< HEAD
@@ -271,4 +311,6 @@ class GetAllIconsAction
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_LvhvXl
 }

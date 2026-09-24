@@ -2,6 +2,7 @@
 module: theme
 topic: laravel
 canonical: ../../../../Themes/docs/shared-components/laravel-Modules.md
+<<<<<<< .merge_file_JrsX8z
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_m2UGqT
@@ -36,6 +37,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_CowAWp
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/laravel-Modules.md

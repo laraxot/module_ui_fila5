@@ -25,6 +25,7 @@ class WidgetName extends XotBaseWidget
 ```
 
 ### 3. View Usage in Blade Templates
+<<<<<<< .merge_file_kSODBm
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -35,6 +36,8 @@ Headernav FO monta il widget Lang via FQCN. Alias HTTP `lang.switcher` / `lang.c
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_dGdLj9
 Replace Livewire components:
 ```blade
 {{-- OLD: Livewire components --}}
@@ -44,10 +47,13 @@ Replace Livewire components:
 {{-- NEW: Filament widgets --}}
 <x-filament-widgets::widget :widget="\Modules\UI\Filament\Widgets\DarkModeSwitcherWidget::class" />
 <x-filament-widgets::widget :widget="\Modules\Lang\Filament\Widgets\LanguageSwitcherWidget::class" />
+<<<<<<< .merge_file_kSODBm
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_dGdLj9
 ```
 
 ## Benefits of Filament Widgets over Livewire

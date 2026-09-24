@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_52OREW
 <<<<<<< HEAD
 <<<<<<< .merge_file_cgB9Pw
 <<<<<<< HEAD
@@ -17,6 +18,8 @@ declare(strict_types=1);
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/it/group.php
+=======
+>>>>>>> .merge_file_X9yFvf
 return [
     'fields' => [
         'lavoratore' => [
@@ -67,6 +70,7 @@ return [
             'helper_text' => '',
             'description' => '',
         ],
+<<<<<<< .merge_file_52OREW
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -103,12 +107,15 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_X9yFvf
     ],
     'label' => 'Group',
     'plural_label' => 'Group (Plurale)',
     'navigation' => [
         'name' => 'Group',
         'plural' => 'Group',
+<<<<<<< .merge_file_52OREW
 <<<<<<< HEAD
 <<<<<<< .merge_file_cgB9Pw
 <<<<<<< HEAD
@@ -120,19 +127,25 @@ return [
 =======
 <<<<<<< HEAD
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_X9yFvf
         'group' => [
             'name' => 'General',
             'description' => 'General Settings',
         ],
+<<<<<<< .merge_file_52OREW
 <<<<<<< HEAD
 =======
         'group' => ['name' => 'General', 'description' => 'General Settings'],
 >>>>>>> .merge_file_PPJTEo
+=======
+>>>>>>> .merge_file_X9yFvf
         'label' => 'Group',
         'sort' => 1,
-        'icon' => 'heroicon-o-rectangle-stack',
+        'icon' => 'heroicon-o-collection',
     ],
     'actions' => [
+<<<<<<< .merge_file_52OREW
 <<<<<<< .merge_file_cgB9Pw
 =======
         'label' => 'Group',
@@ -141,6 +154,8 @@ return [
     ],
     'actions' => [
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_X9yFvf
         'create' => [
             'label' => 'Crea Group',
         ],
@@ -150,6 +165,7 @@ return [
         'delete' => [
             'label' => 'Elimina Group',
         ],
+<<<<<<< .merge_file_52OREW
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -185,5 +201,7 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_X9yFvf
     ],
 ];

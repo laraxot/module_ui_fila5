@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_TyFyM2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8M1OQh
@@ -30,10 +31,13 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_PK33UF
 ## [2026-06-05] docs | HackerNoon harness — tips 001-022 in wiki locale
 
 - Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
 - GitHub: [#272](https://github.com/laraxot/base_fixcity_fila5/issues/272) / [D#273](https://github.com/laraxot/base_fixcity_fila5/discussions/273)
+<<<<<<< .merge_file_TyFyM2
 <<<<<<< HEAD
 <<<<<<< HEAD
 - Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
@@ -140,6 +144,11 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+
+# UI Wiki Log
+
+>>>>>>> .merge_file_PK33UF
 ## [2026-05-21] bugfix | auth register focus perso per overlay header mobile
 - Nuova pagina: `concepts/auth-register-focus-loss-overlay.md`.
 - Root cause identificata in `x-ui.marketing.header`: container mobile fullscreen `fixed` che intercettava i click anche a menu chiuso.
@@ -155,6 +164,7 @@ related:
 - Nuova pagina: `concepts/model-states-module-ownership.md`.
 - Distinto ownership tecnico (`UI` + `Xot`) da compatibilita' runtime.
 - Verificato che `spatie/laravel-model-states` latest stable richiede `PHP ^8.4`, mentre `2.12.1` si ferma a `Laravel 12`.
+<<<<<<< .merge_file_TyFyM2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8M1OQh
@@ -177,6 +187,8 @@ related:
 - Verificato che `spatie/laravel-model-states` latest stable richiede `PHP ^8.4`, mentre `2.12.1` si ferma a `Laravel 13`.
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_PK33UF
 
 ## [2026-04-23] governance | EnumSelect API collisions (Filament v5)
 - Nuova pagina: `concepts/enumselect-filament-api-collisions.md`.
@@ -200,6 +212,7 @@ related:
 - Struttura wiki/log.md inizializzata.
 - Layer raw: tutti i file in `docs/` (eccetto `wiki/`).
 - Layer wiki: `docs/wiki/` — LLM-maintained, sintesi ad alto riuso.
+<<<<<<< .merge_file_TyFyM2
 <<<<<<< HEAD
 - Schema: `docs/.schema/WIKI_SCHEMA.md`
 - Adozione moduli: `docs/project/llm-wiki-module-adoption.md`
@@ -306,3 +319,7 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+- Schema: `docs/.schema/WIKI_SCHEMA.md`
+- Adozione moduli: `docs/project/llm-wiki-module-adoption.md`
+>>>>>>> .merge_file_PK33UF

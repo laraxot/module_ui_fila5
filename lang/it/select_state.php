@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_gpmZRJ
 <<<<<<< HEAD
 <<<<<<< .merge_file_dUMb2P
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_iD2vPO
 return [
     'fields' => [
         'state' => [
@@ -60,6 +63,7 @@ return [
         ],
         'label' => 'Select State',
         'sort' => 1,
+<<<<<<< .merge_file_gpmZRJ
 <<<<<<< HEAD
 <<<<<<< .merge_file_dUMb2P
 <<<<<<< HEAD
@@ -83,6 +87,9 @@ return [
 >>>>>>> .merge_file_KKX2Xc
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_iD2vPO
     ],
     'actions' => [
         'create' => [

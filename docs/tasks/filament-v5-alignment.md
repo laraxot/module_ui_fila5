@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_nblQaA
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_7I81In
@@ -77,6 +78,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AdkFeL
 # Task: Filament v5 Alignment (UI Module)
 
 ## 📋 Obiettivo

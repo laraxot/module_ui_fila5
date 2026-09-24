@@ -35,6 +35,7 @@ $page->navigation
 ### Versione HEAD
 
 ## Collegamenti tra versioni di navigation.md
+<<<<<<< .merge_file_Sxdxri
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Zp4XzO
@@ -54,12 +55,15 @@ $page->navigation
 >>>>>>> .merge_file_bk0uJy
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_D0RWAo
 * [navigation.md](../../../gdpr/docs/navigation.md)
 * [navigation.md](../../../xot/docs/navigation.md)
 * [navigation.md](../../../ui/docs/navigation.md)
 * [navigation.md](../../../cms/docs/blocks/navigation.md)
 * [navigation.md](../../../cms/docs/navigation.md)
 * [navigation.md](../../../cms/docs/components/navigation.md)
+<<<<<<< .merge_file_Sxdxri
 <<<<<<< HEAD
 <<<<<<< .merge_file_Zp4XzO
 <<<<<<< HEAD
@@ -85,6 +89,8 @@ $page->navigation
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_D0RWAo
 
 ### Versione Incoming
 

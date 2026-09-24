@@ -3,6 +3,7 @@
 **Modulo**: UI
 **Priorita'**: Bassa
 **Completamento**: 15%
+<<<<<<< .merge_file_iITiS2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WAInLs
@@ -25,6 +26,8 @@
 **Data**: 2026-01-30
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ChDqbR
 
 ---
 

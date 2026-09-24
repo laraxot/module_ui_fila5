@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_KwIYGg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_wJzvm8
@@ -221,6 +222,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 >>>>>>> .merge_file_I227OC
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_F4tMiA
 ---
 module: theme
 topic: inline_date_picker
@@ -228,6 +231,7 @@ canonical: ../../../Themes/docs/shared-components/inline-date-picker-1.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/inline-date-picker-1.md
+<<<<<<< .merge_file_KwIYGg
 <<<<<<< HEAD
 <<<<<<< .merge_file_wJzvm8
 <<<<<<< HEAD
@@ -457,3 +461,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_F4tMiA

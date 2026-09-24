@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_DUL9uN
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_0lw0AP
@@ -467,6 +468,8 @@ $logout = function () {
 >>>>>>> .merge_file_NaRuWI
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_VNyfcK
 ---
 module: theme
 topic: components_guide
@@ -474,6 +477,7 @@ canonical: ../../../Themes/docs/shared-components/components-guide.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/components-guide.md
+<<<<<<< .merge_file_DUL9uN
 <<<<<<< HEAD
 <<<<<<< .merge_file_0lw0AP
 <<<<<<< HEAD
@@ -949,3 +953,5 @@ $logout = function () {
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_VNyfcK

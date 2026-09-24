@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Tables\Columns;
 
+<<<<<<< .merge_file_eG4D1N
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -19,11 +20,14 @@ use Exception;
 use Exception;
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_it08ua
 use Filament\Actions\Action;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
 use Filament\Notifications\Notification;
 use Filament\Schemas\Components\Utilities\Get;
+<<<<<<< .merge_file_eG4D1N
 <<<<<<< HEAD
 <<<<<<< .merge_file_tjAhRw
 <<<<<<< HEAD
@@ -44,11 +48,15 @@ use Filament\Tables\Columns\IconColumn;
 >>>>>>> .merge_file_TiXTrx
 =======
 >>>>>>> 804451c (Lint)
+=======
+use Filament\Tables\Columns\IconColumn;
+>>>>>>> .merge_file_it08ua
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Contracts\StateContract as XotStateContract;
+<<<<<<< .merge_file_eG4D1N
 <<<<<<< HEAD
 <<<<<<< .merge_file_tjAhRw
 <<<<<<< HEAD
@@ -80,12 +88,17 @@ class IconStateColumn extends XotBaseIconColumn
 >>>>>>> .merge_file_TiXTrx
 =======
 >>>>>>> 804451c (Lint)
+=======
+
+class IconStateColumn extends IconColumn
+>>>>>>> .merge_file_it08ua
 {
     protected function setUp(): void
     {
         parent::setUp();
         // $this->getStateUsing(fn() => true); // the column requires a state to be passed to it
 
+<<<<<<< .merge_file_eG4D1N
 <<<<<<< HEAD
 <<<<<<< .merge_file_tjAhRw
 <<<<<<< HEAD
@@ -94,19 +107,18 @@ class IconStateColumn extends XotBaseIconColumn
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
-        $this->icon(function (XotStateContract $state) {
 =======
-        $this->icon(static function (XotStateContract $state) {
->>>>>>> .merge_file_TiXTrx
+>>>>>>> .merge_file_it08ua
+        $this->icon(function (XotStateContract $state) {
             return $state->icon();
         });
 
-        $this->color(static function (XotStateContract $state) {
+        $this->color(function (XotStateContract $state) {
             return $state->color();
         });
 
-<<<<<<< .merge_file_tjAhRw
         $this->tooltip(function (XotStateContract $state) {
+<<<<<<< .merge_file_eG4D1N
 <<<<<<< HEAD
 =======
 =======
@@ -145,6 +157,8 @@ class IconStateColumn extends XotBaseIconColumn
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_it08ua
             return $state->label();
         });
         // $this->label('aaa');
@@ -153,6 +167,7 @@ class IconStateColumn extends XotBaseIconColumn
             Action::make('change-state')
                 ->schema([
                     Select::make('state')
+<<<<<<< .merge_file_eG4D1N
 <<<<<<< HEAD
 <<<<<<< .merge_file_tjAhRw
 <<<<<<< HEAD
@@ -175,13 +190,18 @@ class IconStateColumn extends XotBaseIconColumn
                             if ($state === null) {
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> .merge_file_it08ua
                         ->options(function (Model $record, string $_state): array {
                             $name = $this->getName();
                             $state = $record->getAttribute($name);
                             if (null === $state) {
+<<<<<<< .merge_file_eG4D1N
 >>>>>>> .merge_file_TiXTrx
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_it08ua
                                 if (! method_exists($record, 'getDefaultStateFor')) {
                                     return [];
                                 }
@@ -206,6 +226,7 @@ class IconStateColumn extends XotBaseIconColumn
                             try {
                                 /** @var array<int|string, mixed> $statesArray */
                                 $statesArray = $state->transitionableStates();
+<<<<<<< .merge_file_eG4D1N
 <<<<<<< HEAD
 <<<<<<< .merge_file_tjAhRw
                             } catch (Exception $e) {
@@ -215,6 +236,9 @@ class IconStateColumn extends XotBaseIconColumn
 =======
                             } catch (Exception $e) {
 >>>>>>> 804451c (Lint)
+=======
+                            } catch (\Exception $e) {
+>>>>>>> .merge_file_it08ua
                                 if (! method_exists($record, 'getStatesFor')) {
                                     return [];
                                 }
@@ -228,7 +252,7 @@ class IconStateColumn extends XotBaseIconColumn
                                 return [];
                             }
 
-                            return Arr::mapWithKeys($statesArray, static function (mixed $stateItem) use ($record): array {
+                            return Arr::mapWithKeys($statesArray, function (mixed $stateItem) use ($record): array {
                                 if (! is_string($stateItem)) {
                                     return [];
                                 }
@@ -239,6 +263,7 @@ class IconStateColumn extends XotBaseIconColumn
                                 return [$stateItem => $label];
                             });
                         })
+<<<<<<< .merge_file_eG4D1N
 <<<<<<< HEAD
 <<<<<<< .merge_file_tjAhRw
 <<<<<<< HEAD
@@ -251,6 +276,8 @@ class IconStateColumn extends XotBaseIconColumn
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_it08ua
                         ->required()
                         ->reactive(),
                     Textarea::make('message')->required(function (Get $get, Model $record): bool {
@@ -297,6 +324,7 @@ class IconStateColumn extends XotBaseIconColumn
                         'state' => $stateName,
                     ];
                 })
+<<<<<<< .merge_file_eG4D1N
 <<<<<<< HEAD
 <<<<<<< .merge_file_tjAhRw
 <<<<<<< HEAD
@@ -313,19 +341,26 @@ class IconStateColumn extends XotBaseIconColumn
 <<<<<<< HEAD
                 ->action(function ($record, $data): void {
 >>>>>>> 804451c (Lint)
+=======
+                ->action(function ($record, $data): void {
+>>>>>>> .merge_file_it08ua
                     /** @var array<string, mixed> $data */
                     if (! isset($data['state']) || ! is_string($data['state'])) {
                         throw new \Exception('State is required and must be a string');
                     }
                     $state = $data['state'];
+<<<<<<< .merge_file_eG4D1N
 <<<<<<< HEAD
 <<<<<<< .merge_file_tjAhRw
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_it08ua
                     /** @var Model $record */
                     if (! is_object($record)) {
                         throw new \Exception('Record must be an object');
                     }
+<<<<<<< .merge_file_eG4D1N
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -351,14 +386,16 @@ class IconStateColumn extends XotBaseIconColumn
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_it08ua
                     $model = Str::of(class_basename($record))->slug()->toString();
                     /** @var string $label */
                     $label = __('pub_theme::'.$model.'_states.'.$state.'.label');
 
                     $currentState = $record->getAttribute($this->getName());
                     if (! is_object($currentState) || ! method_exists($currentState, 'transitionTo')) {
-<<<<<<< HEAD
                         throw new \Exception('Current state is not a valid State instance');
+<<<<<<< .merge_file_eG4D1N
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -374,6 +411,8 @@ class IconStateColumn extends XotBaseIconColumn
                         throw new Exception('Current state is not a valid State instance');
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_it08ua
                     }
 
                     /** @var string|null $message */
@@ -387,6 +426,7 @@ class IconStateColumn extends XotBaseIconColumn
                 }),
         );
     }
+<<<<<<< .merge_file_eG4D1N
 <<<<<<< HEAD
 <<<<<<< .merge_file_tjAhRw
 <<<<<<< HEAD
@@ -493,4 +533,6 @@ class IconStateColumn extends XotBaseIconColumn
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_it08ua
 }

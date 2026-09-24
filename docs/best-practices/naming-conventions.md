@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_u4FzMX
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_LSX55r
@@ -58,6 +59,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_lpCxAq
 ## Collegamenti tra versioni di naming-conventions.md
 * [naming-conventions.md](../../../../../docs/naming-conventions.md)
 * [naming-conventions.md](../../xot/docs/naming-conventions.md)

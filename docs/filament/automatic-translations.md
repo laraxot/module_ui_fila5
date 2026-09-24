@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_QdPF7g
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_mccYuj
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_iSW8fR
 # Traduzioni Automatiche nei Componenti Filament
 
 > **NOTA IMPORTANTE**: Questo documento è un riferimento specifico per il modulo UI. La documentazione completa sulle traduzioni automatiche si trova nel [modulo Lang](../../lang/docs/automatic-translations.md).

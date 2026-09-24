@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_Kiz46g
 <<<<<<< HEAD
 <<<<<<< .merge_file_u93Eg4
 <<<<<<< HEAD
@@ -41,6 +42,12 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 804451c (Lint)
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> .merge_file_zmupzb
 ?>
 {{--
 /**

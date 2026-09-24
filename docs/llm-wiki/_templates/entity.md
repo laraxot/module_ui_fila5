@@ -2,6 +2,7 @@
 module: theme
 topic: entity
 canonical: ../../../../../Themes/docs/shared-components/entity-Modules.md
+<<<<<<< .merge_file_pYVNaI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_xAbREX
@@ -24,6 +25,8 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_KUvrIr
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/entity-Modules.md

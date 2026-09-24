@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_MqbpKx
 ---
 title: "Test"
 type: concept
@@ -53,3 +54,5 @@ related:
   - "./changelog-2.md"
 ---
 
+=======
+>>>>>>> .merge_file_Vb6Ctn

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_DC62vi
 <<<<<<< HEAD
 <<<<<<< .merge_file_M1d4FZ
 <<<<<<< HEAD
@@ -39,6 +40,9 @@ return [
 >>>>>>> .merge_file_xLSNzf
 =======
 >>>>>>> 804451c (Lint)
+=======
+return [
+>>>>>>> .merge_file_p1Xxbj
     'login' => [
         'title' => 'Accedi',
         'email' => 'Email',

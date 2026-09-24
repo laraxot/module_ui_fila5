@@ -17,8 +17,8 @@ uses(TestCase::class);
 
 function createTestCalendarWidget(): UserCalendarWidget
 {
-<<<<<<< HEAD
     $widget = new class extends UserCalendarWidget {
+<<<<<<< .merge_file_FK1QgX
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -37,6 +37,8 @@ function createTestCalendarWidget(): UserCalendarWidget
     {
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_qoCwBZ
         public function getActionName(string $function): string
         {
             unset($function);
@@ -50,6 +52,7 @@ function createTestCalendarWidget(): UserCalendarWidget
 }
 
 beforeEach(function (): void {
+<<<<<<< .merge_file_FK1QgX
 <<<<<<< HEAD
 <<<<<<< .merge_file_i1gmqS
 <<<<<<< HEAD
@@ -61,12 +64,15 @@ beforeEach(function (): void {
 =======
 <<<<<<< HEAD
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_qoCwBZ
     /* @var \Modules\UI\Tests\TestCase $this */
     $this->mockService(SaveTransAction::class, static function (MockInterface $mock): void {
         /** @var ExpectationInterface $expectation */
         $expectation = $mock->shouldReceive('execute');
         $expectation->andReturn(null);
     });
+<<<<<<< .merge_file_FK1QgX
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -96,6 +102,8 @@ beforeEach(function (): void {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_qoCwBZ
 });
 
 describe('Base Calendar Widget', function (): void {

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_exrrrL
 <<<<<<< HEAD
 <<<<<<< .merge_file_eS4wy6
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EbeOEO
 return [
     'dark_mode_switcher' => [
         'toggle_aria_label' => 'Design wechseln',

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_Jy8eFZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_774vV7
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_fH7vGs
 # qrcode
 
 <!-- Contenuto migrato da _docs/qrcode.txt -->

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_PJxR7b
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8G9UZ4
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_rNJ6Fr
 # widgets
 
 <!-- Contenuto migrato da _docs/widgets.txt -->

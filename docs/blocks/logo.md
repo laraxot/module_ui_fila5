@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_X443ld
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8JJYIZ
@@ -65,6 +66,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_2C3iSd
 # Logo Component
 
 This document describes the Logo component used in section headers and its proper implementation.

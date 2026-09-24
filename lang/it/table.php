@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_eZn4ID
 <<<<<<< HEAD
 <<<<<<< .merge_file_FYNprY
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_k0u8uv
 return [
     'columns' => [
         'state_actions' => [
@@ -49,6 +52,7 @@ return [
         ],
         'label' => 'Table',
         'sort' => 1,
+<<<<<<< .merge_file_eZn4ID
 <<<<<<< HEAD
 <<<<<<< .merge_file_FYNprY
 <<<<<<< HEAD
@@ -72,6 +76,9 @@ return [
 >>>>>>> .merge_file_qRR9A3
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_k0u8uv
     ],
     'fields' => [
         'id' => [

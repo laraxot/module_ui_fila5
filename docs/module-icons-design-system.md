@@ -140,6 +140,7 @@ return [
 - **Colori sbagliati**: Verificare uso di `currentColor` invece di colori fissi
 
 ## Collegamenti
+<<<<<<< .merge_file_c4WIh3
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_e3vpap
@@ -158,10 +159,13 @@ return [
 >>>>>>> .merge_file_s8ZSDP
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_gzYmbc
 - [UI Module Icons](../laravel/modules/ui/docs/icons.md)
 - [Filament Icon Registration](../laravel/modules/xot/docs/filament-assets.md)
 - [Accessibility Guidelines](../../docs/accessibility-standards.md)
 
+<<<<<<< .merge_file_c4WIh3
 <<<<<<< HEAD
 <<<<<<< .merge_file_e3vpap
 <<<<<<< HEAD
@@ -186,3 +190,5 @@ return [
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_gzYmbc

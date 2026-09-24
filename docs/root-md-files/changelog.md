@@ -1,7 +1,7 @@
-<<<<<<< HEAD
 # Changelog
 
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
+<<<<<<< .merge_file_kDc7tJ
 =======
 <<<<<<< HEAD
 # Changelog
@@ -92,3 +92,5 @@ Tutte le variazioni importanti di UI saranno generate automaticamente da semanti
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_H6Zjgt

@@ -6,6 +6,7 @@ declare(strict_types=1);
 // claude-audit static: split from opening_hours_field.php for maintainability (<500 LOC).
 // Canon: Modules/UI/docs/wiki/concepts/claude-audit-static.md
 // File: lang/it/opening_hours_field_fields.php
+<<<<<<< .merge_file_j7NUlZ
 <<<<<<< HEAD
 <<<<<<< .merge_file_rQWtCQ
 <<<<<<< HEAD
@@ -466,6 +467,8 @@ return array (
 >>>>>>> .merge_file_SCuzec
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_vRWWMJ
 return [
     // UI — translation section (claude-audit doc ratio).
     // UI — translation section (claude-audit doc ratio).
@@ -852,6 +855,7 @@ return [
         ],
     ],
 ];
+<<<<<<< .merge_file_j7NUlZ
 <<<<<<< HEAD
 <<<<<<< .merge_file_rQWtCQ
 >>>>>>> laraxot/dev
@@ -859,3 +863,5 @@ return [
 >>>>>>> .merge_file_SCuzec
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_vRWWMJ

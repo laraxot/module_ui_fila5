@@ -7,8 +7,8 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 
 ### LineChart
 ```blade
-<<<<<<< HEAD
 <x-ui::line-chart
+<<<<<<< .merge_file_am7obF
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21,6 +21,8 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 <x-ui::line-chart 
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_yw9I2v
     :title="'Andamento Utenti'"
     :labels="['Gen', 'Feb', 'Mar', 'Apr', 'Mag', 'Giu']"
     :datasets="[
@@ -40,6 +42,7 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 
 ### PieChart
 ```blade
+<<<<<<< .merge_file_am7obF
 <<<<<<< HEAD
 <x-ui::pie-chart
 =======
@@ -54,6 +57,9 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 <x-ui::pie-chart 
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+<x-ui::pie-chart
+>>>>>>> .merge_file_yw9I2v
     :title="'Distribuzione Utenti'"
     :labels="['Attivi', 'Inattivi', 'In attesa']"
     :data="[300, 50, 100]"
@@ -67,6 +73,7 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 
 ### StatsOverview
 ```blade
+<<<<<<< .merge_file_am7obF
 <<<<<<< HEAD
 <x-ui::stats-overview
 =======
@@ -81,6 +88,9 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 <x-ui::stats-overview 
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+<x-ui::stats-overview
+>>>>>>> .merge_file_yw9I2v
     :stats="[
         [
             'label' => 'Utenti Totali',
@@ -130,8 +140,8 @@ use Livewire\Component;
 class UserStats extends Component
 {
     public $chartData;
-<<<<<<< HEAD
 
+<<<<<<< .merge_file_am7obF
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -144,10 +154,13 @@ class UserStats extends Component
     
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_yw9I2v
     public function mount()
     {
         $this->updateChartData();
     }
+<<<<<<< .merge_file_am7obF
 <<<<<<< HEAD
 
 =======
@@ -162,6 +175,9 @@ class UserStats extends Component
     
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_yw9I2v
     public function updateChartData()
     {
         $this->chartData = [
@@ -175,6 +191,7 @@ class UserStats extends Component
             ]
         ];
     }
+<<<<<<< .merge_file_am7obF
 <<<<<<< HEAD
 
 =======
@@ -189,6 +206,9 @@ class UserStats extends Component
     
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_yw9I2v
     public function render()
     {
         return view('livewire.user-stats');

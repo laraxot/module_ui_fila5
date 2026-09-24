@@ -1,10 +1,14 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_GAO7GF
 <<<<<<< HEAD
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_0tDvWg
 ?>
 <x-filament-panels::page>
     <form wire:submit="submit" class="space-y-6">

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_vNRnWK
 <<<<<<< HEAD
 <<<<<<< .merge_file_88vPIA
 <<<<<<< HEAD
@@ -51,6 +52,9 @@ return [
 >>>>>>> .merge_file_Wm3u4c
 =======
 >>>>>>> 804451c (Lint)
+=======
+return [
+>>>>>>> .merge_file_TSdTrE
     'months' => [
         'long' => [
             0 => 'January',

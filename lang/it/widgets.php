@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_hzEOjV
 <<<<<<< HEAD
 <<<<<<< .merge_file_QjfDBC
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_JmiUgu
 return [
     'dark_mode_switcher' => [
         'toggle_aria_label' => 'Cambia tema',
@@ -48,6 +51,7 @@ return [
         ],
         'label' => 'Widgets',
         'sort' => 1,
+<<<<<<< .merge_file_hzEOjV
 <<<<<<< HEAD
 <<<<<<< .merge_file_QjfDBC
 <<<<<<< HEAD
@@ -71,6 +75,9 @@ return [
 >>>>>>> .merge_file_5bWvyw
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_JmiUgu
     ],
     'fields' => [
         'id' => [

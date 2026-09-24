@@ -2,6 +2,7 @@
 module: theme
 topic: styling
 canonical: ../../../../Themes/docs/shared-components/styling.md
+<<<<<<< .merge_file_zOdByR
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_eKGVPy
@@ -36,6 +37,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_Wwi0TG
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/styling.md

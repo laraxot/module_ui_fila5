@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_8HgeoK
 <<<<<<< HEAD
 <<<<<<< .merge_file_0ocd8o
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_qftfQ7
 return [
     'top-left' => [
         'label' => 'alto a sinistra',

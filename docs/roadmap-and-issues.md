@@ -197,6 +197,7 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
 - [ ] **AI-Powered Components**
   - Smart forms
   - Auto-completion
+<<<<<<< .merge_file_FJao4I
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SYHLca
@@ -250,6 +251,9 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+  - <nome progetto>ive inputs
+>>>>>>> .merge_file_yDMkdg
 
 - [ ] **Real-Time Components**
   - Live updates
@@ -326,6 +330,7 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
 
 ## 🔗 Collegamenti
 
+<<<<<<< .merge_file_FJao4I
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SYHLca
@@ -351,6 +356,9 @@ php phpmd.phar Modules/UI/database/factories text cleancode,codesize,controversi
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [← UI Module README](../readme.md)
+>>>>>>> .merge_file_yDMkdg
 - [← Components Documentation](./components.md)
 - [← Project Roadmap](../../../docs/project-analysis-and-roadmap.md)
 - [← Root Documentation](../../../docs/index.md)

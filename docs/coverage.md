@@ -1,5 +1,6 @@
 # Code Coverage: UI
 
+<<<<<<< .merge_file_MAFNFI
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -56,6 +57,8 @@ Story: `docs/stories/ui-services-to-actions.story.md`.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Rx8ojN
 **Lines Coverage:** N/A (Failed to parse)
 **Test Exit Code:** 2
 
@@ -140,6 +143,7 @@ endor/laravel/framework/src/Illuminate/Container/Container.php:1415
 
 
 ```
+<<<<<<< .merge_file_MAFNFI
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -501,3 +505,5 @@ Tests: 6 failed, 1 risky, 109 skipped, 199 passed (654 assertions)
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Rx8ojN

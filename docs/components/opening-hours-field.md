@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_HLEPky
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_4P7SSs
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_FNNIuN
 # OpeningHoursField Component
 
 ## Introduzione

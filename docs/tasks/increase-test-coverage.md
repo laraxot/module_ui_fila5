@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_Y32bJG
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SgHAuN
@@ -77,6 +78,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_J814Ut
 # Task: Incremento Test Coverage (Pest) - UI
 
 **Modulo**: UI  

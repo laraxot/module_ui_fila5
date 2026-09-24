@@ -105,6 +105,7 @@ Modules/UI/
 - Minimal disruption to existing code
 - Clear migration path
 
+<<<<<<< .merge_file_3Rmkbd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_qvqaGU
@@ -158,6 +159,9 @@ Modules/UI/
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+### 4. **Autoloader <nome progetto>ability**
+>>>>>>> .merge_file_odcDPB
 - Eliminates ambiguous class resolution
 - Consistent namespace-to-directory mapping
 - Reliable test discovery and execution
@@ -224,6 +228,7 @@ composer dump-autoload 2>&1 | grep -i "ui"
 After cleanup:
 
 - ✅ No more PSR-4 autoloading warnings
+<<<<<<< .merge_file_3Rmkbd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_qvqaGU
@@ -277,6 +282,9 @@ After cleanup:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+- ✅ Clear, <nome progetto>able test structure
+>>>>>>> .merge_file_odcDPB
 - ✅ Consistent with Laravel conventions
 - ✅ Compatible with module system
 - ✅ Maintains all existing test functionality

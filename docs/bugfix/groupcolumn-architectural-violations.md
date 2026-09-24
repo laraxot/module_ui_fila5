@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_dzS0Ir
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_uNQnBQ
@@ -56,6 +57,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_9SVNg5
 # Bugfix: GroupColumn Architectural Violations
 
 **Data Fix**: 11 Novembre 2025
@@ -280,6 +283,7 @@ final class GroupColumn extends XotBaseColumn
 @php
     $fields = $getFields();  // ✅ PSR-12
 **Dopo (18 Nov 2025)**:
+<<<<<<< .merge_file_dzS0Ir
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_uNQnBQ
@@ -305,6 +309,8 @@ final class GroupColumn extends XotBaseColumn
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_9SVNg5
 ```blade
 @php
     $fields = $getFields();
@@ -396,6 +402,7 @@ Column (Filament - DO NOT REFERENCE)
 
 ## Riferimenti
 
+<<<<<<< .merge_file_dzS0Ir
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_uNQnBQ
@@ -427,6 +434,10 @@ Column (Filament - DO NOT REFERENCE)
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [Laraxot Architectural Rules](../../architecture_rules.md)
+- [Never Use Label Rule](../never_use_label_rule.md)
+>>>>>>> .merge_file_9SVNg5
 - [XotBaseColumn](../../../../Xot/app/Filament/Tables/Columns/XotBaseColumn.php)
 - [Translation Pattern](../../translations/)
 - [docs/blade-components.md](../../../../docs/blade-components.md)

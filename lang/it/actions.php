@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_nFQtSQ
 <<<<<<< HEAD
 <<<<<<< .merge_file_168bB9
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_p6cIie
 return [
     'confirm' => 'Conferma',
     'cancel' => 'Annulla',
@@ -52,6 +55,7 @@ return [
         ],
         'label' => 'Actions',
         'sort' => 1,
+<<<<<<< .merge_file_nFQtSQ
 <<<<<<< HEAD
 <<<<<<< .merge_file_168bB9
 <<<<<<< HEAD
@@ -75,6 +79,9 @@ return [
 >>>>>>> .merge_file_gBJgDR
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_p6cIie
     ],
     'fields' => [
         'id' => [

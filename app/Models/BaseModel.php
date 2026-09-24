@@ -11,6 +11,7 @@ use Modules\Xot\Models\XotBaseModel;
  */
 abstract class BaseModel extends XotBaseModel
 {
+<<<<<<< .merge_file_HCn79H
 <<<<<<< HEAD
 <<<<<<< .merge_file_MDcu1L
 <<<<<<< HEAD
@@ -35,4 +36,6 @@ abstract class BaseModel extends XotBaseModel
 >>>>>>> .merge_file_sTQhhx
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_b9W9ki
 }

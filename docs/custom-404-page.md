@@ -30,6 +30,7 @@ This starter template includes a custom __404 Not Found__ error page, located at
 Depending on where your site is hosted, you may need to configure your server to use the custom 404 page. For more details, visit the [Jigsaw documentation about configuring a custom 404 page.](https://jigsaw.tighten.co/docs/custom-404-page/)
 ### Versione HEAD
 
+<<<<<<< .merge_file_Fht7fc
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -48,11 +49,15 @@ Depending on where your site is hosted, you may need to configure your server to
 =======
 ## Collegamenti tra versioni di custom-404-page.md
 >>>>>>> 804451c (Lint)
+=======
+## Collegamenti tra versioni di custom-404-page.md
+>>>>>>> .merge_file_SrNqbB
 * [custom-404-page.md](../../../gdpr/docs/custom-404-page.md)
 * [custom-404-page.md](../../../xot/docs/custom-404-page.md)
 * [custom-404-page.md](../../../ui/docs/custom-404-page.md)
 * [custom-404-page.md](../../../tenant/docs/it/custom-404-page.md)
 * [custom-404-page.md](../../../cms/docs/custom-404-page.md)
+<<<<<<< .merge_file_Fht7fc
 <<<<<<< HEAD
 <<<<<<< .merge_file_pI9XLN
 <<<<<<< HEAD
@@ -113,6 +118,8 @@ Depending on where your site is hosted, you may need to configure your server to
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_SrNqbB
 
 ### Versione Incoming
 
@@ -154,6 +161,7 @@ Depending on where your site is hosted, you may need to configure your server to
 ### Versione HEAD
 
 ## Collegamenti tra versioni di custom-404-page.md
+<<<<<<< .merge_file_Fht7fc
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_pI9XLN
@@ -172,11 +180,14 @@ Depending on where your site is hosted, you may need to configure your server to
 >>>>>>> .merge_file_RLn9K0
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_SrNqbB
 * [custom-404-page.md](../../../gdpr/project_docs/custom-404-page.md)
 * [custom-404-page.md](../../../xot/project_docs/custom-404-page.md)
 * [custom-404-page.md](../../../ui/project_docs/custom-404-page.md)
 * [custom-404-page.md](../../../tenant/project_docs/it/custom-404-page.md)
 * [custom-404-page.md](../../../cms/project_docs/custom-404-page.md)
+<<<<<<< .merge_file_Fht7fc
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
@@ -282,3 +293,9 @@ Depending on where your site is hosted, you may need to configure your server to
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+### Versione Incoming
+
+---
+>>>>>>> .merge_file_SrNqbB

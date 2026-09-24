@@ -8,6 +8,7 @@ use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
+<<<<<<< .merge_file_05DSkM
 <<<<<<< HEAD
 <<<<<<< .merge_file_a0oyY7
 <<<<<<< HEAD
@@ -32,6 +33,9 @@ use Filament\Schemas\Components\Utilities\Set;
 >>>>>>> .merge_file_cYprF7
 =======
 >>>>>>> 804451c (Lint)
+=======
+use Filament\Schemas\Components\Component;
+>>>>>>> .merge_file_MLhqo0
 
 class Image
 {
@@ -43,6 +47,7 @@ class Image
                 TextInput::make('url'),
                 Select::make('ratio')
                     ->options(static::getRatios())
+<<<<<<< .merge_file_05DSkM
 <<<<<<< HEAD
 <<<<<<< .merge_file_a0oyY7
 <<<<<<< HEAD
@@ -71,12 +76,17 @@ class Image
 >>>>>>> .merge_file_cYprF7
 =======
 >>>>>>> 804451c (Lint)
+=======
+                    ->afterStateHydrated(function (mixed $state, mixed $set): void {
+                        if (! $state && is_callable($set)) {
+>>>>>>> .merge_file_MLhqo0
                             $set('ratio', '4-3');
                         }
                     }),
                 TextInput::make('alt')->columnSpanFull(),
                 TextInput::make('caption')->columnSpanFull(),
             ])
+<<<<<<< .merge_file_05DSkM
 <<<<<<< HEAD
             ->columns('form' === $context ? 2 : 1);
 =======
@@ -94,11 +104,15 @@ class Image
             ->columns($context === 'form' ? 2 : 1);
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+            ->columns($context === 'form' ? 2 : 1);
+>>>>>>> .merge_file_MLhqo0
     }
 
     /**
      * @return array<string, string>
      */
+<<<<<<< .merge_file_05DSkM
 <<<<<<< HEAD
 <<<<<<< .merge_file_a0oyY7
 <<<<<<< HEAD
@@ -123,6 +137,11 @@ class Image
 >>>>>>> .merge_file_cYprF7
 =======
 >>>>>>> 804451c (Lint)
+=======
+    /**
+     * @return array<string, string>
+     */
+>>>>>>> .merge_file_MLhqo0
     public static function getRatios(): array
     {
         return [
@@ -142,6 +161,7 @@ class Image
     }
 
     /**
+<<<<<<< .merge_file_05DSkM
 <<<<<<< HEAD
 <<<<<<< .merge_file_a0oyY7
 <<<<<<< HEAD
@@ -165,8 +185,11 @@ class Image
 >>>>>>> .merge_file_cYprF7
 =======
 >>>>>>> 804451c (Lint)
+=======
+     * @return array<int, Component>
+>>>>>>> .merge_file_MLhqo0
      */
-    public static function getFormSchema(): array
+    public function getFormSchema(): array
     {
         return [
             FileUpload::make('image')

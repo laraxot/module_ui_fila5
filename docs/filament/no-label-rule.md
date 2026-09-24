@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_VRYg7y
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_EPJQdw
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cb79JO
 # REGOLA CRITICA: MAI ->label() nei Componenti Filament UI
 
 ## Principio Fondamentale per il Modulo UI

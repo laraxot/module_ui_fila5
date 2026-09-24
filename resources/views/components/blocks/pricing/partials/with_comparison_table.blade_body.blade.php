@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_gLceky
 <<<<<<< HEAD
 <?php
 
@@ -5,6 +6,8 @@ declare(strict_types=1);
 ?>
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_TyB0Wb
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp

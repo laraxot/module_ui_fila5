@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_KF2i0J
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_c7mWzI
@@ -38,6 +39,8 @@ updated: 2026-08-24
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_WAEg4W
 https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss
 
 
@@ -47,6 +50,7 @@ add resources/css/filament/admin/theme.css entry to vite.config.js
 
 in app/Providers/Filament/AdminPanelProvider.php
 ->viteTheme('resources/css/filament/admin/theme.css')
+<<<<<<< .merge_file_KF2i0J
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_c7mWzI
@@ -72,3 +76,7 @@ in app/Providers/Filament/AdminPanelProvider.php
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+
+
+>>>>>>> .merge_file_WAEg4W

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_Q4yXsE
 <<<<<<< HEAD
 <<<<<<< .merge_file_Abx3J6
 <<<<<<< HEAD
@@ -49,6 +50,12 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 804451c (Lint)
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> .merge_file_hLIY26
 ?>
 @props(['title' => 'Verifica Idoneità'])
 

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_9NJTd2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_v9yod4
@@ -58,6 +59,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_kaHyNo
 # Master Layout Documentation
 
 ## Overview

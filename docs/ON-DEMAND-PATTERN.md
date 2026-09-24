@@ -56,6 +56,7 @@ qmd search "<topic>"
 \`\`\`
 ./laravel/Modules/UI/docs/
 └── wiki/                    # Knowledge base locale
+<<<<<<< .merge_file_mojG3s
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -69,10 +70,13 @@ qmd search "<topic>"
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_wTmdkj
     ├── rules/INDEX.md      # Indice rules modulo-specifiche
     ├── skills/INDEX.md     # Indice skills modulo-specifiche
     ├── commands/INDEX.md   # Indici commands
     └── memories/INDEX.md   # Indice memories
+<<<<<<< .merge_file_mojG3s
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -97,6 +101,8 @@ qmd search "<topic>"
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_wTmdkj
 \`\`\`
 
 ## Quick Reference
@@ -110,8 +116,8 @@ qmd search "<topic>"
 
 ## Regole Critiche per Module
 
-<<<<<<< HEAD
 1. **Nessun bootstrap pesante** — Non elencare rules in AGENTS.md o CLAUDE.md
+<<<<<<< .merge_file_mojG3s
 =======
 <<<<<<< HEAD
 1. **Nessun bootstrap pesante** — Non elencare rules in AGENTS.md o CLAUDE.md
@@ -133,6 +139,8 @@ qmd search "<topic>"
 >>>>>>> 92912795 (.)
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_wTmdkj
 2. **Carica only what you need** — Ogni task carica max 3-5 file
 3. **Mantieni la wiki aggiornata** — Dopo ogni task, aggiorna ./laravel/Modules/UI/docs/wiki/log.md
 4. **Rispetta la trigger map** — Se esiste, usala; altrimenti usa qmd search

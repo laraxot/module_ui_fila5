@@ -145,8 +145,8 @@ class CustomMiddleware
 }
 
 // Non hardcodare percorsi delle risorse
-<<<<<<< HEAD
 <img src="/var/www/html/<nome progetto>/laravel/public/images/avatar.png">
+<<<<<<< .merge_file_IISJXC
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -188,6 +188,8 @@ class CustomMiddleware
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_teO8QB
 
 // Non duplicare la registrazione dei componenti
 Blade::component('ui::components.icon', 'ui.icon');

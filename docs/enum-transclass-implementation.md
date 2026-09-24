@@ -133,6 +133,7 @@ grep -r "__(" Modules/UI/app/Enums/
 **"Ogni enum del modulo UI DEVE utilizzare transClass() per TUTTE le sue proprietà traducibili."**
 
 ## Collegamenti
+<<<<<<< .merge_file_Sgu79K
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_YJLIwJ
@@ -151,10 +152,13 @@ grep -r "__(" Modules/UI/app/Enums/
 >>>>>>> .merge_file_qNoODl
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_zj0LFS
 - [../../../../../docs/enum-transclass-rule.md](../../../../../docs/enum-transclass-rule.md)
 - [../filament/no-label-rule.md](../filament/no-label-rule.md)
 - [../clean-code/no-obvious-comments.md](../clean-code/no-obvious-comments.md)
 
+<<<<<<< .merge_file_Sgu79K
 <<<<<<< HEAD
 <<<<<<< .merge_file_YJLIwJ
 <<<<<<< HEAD
@@ -179,3 +183,5 @@ grep -r "__(" Modules/UI/app/Enums/
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_zj0LFS

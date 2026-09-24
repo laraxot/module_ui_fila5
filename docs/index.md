@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_wWA6Rf
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ak3LqS
@@ -41,6 +42,8 @@ discussions: https://github.com/laraxot/module_ui_fila5/discussions
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_lVJlC2
 # UI Module Documentation
 
 ## Overview
@@ -1183,6 +1186,7 @@ Common issues and solutions:
 7. **Testing**: Test components with various data types and edge cases
 
 ## Related Modules
+<<<<<<< .merge_file_wWA6Rf
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ak3LqS
@@ -1200,10 +1204,13 @@ Common issues and solutions:
 >>>>>>> .merge_file_MqYfg2
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_lVJlC2
 - [Chart Module](../chart/docs/index.md) - Chart generation and data processing
 - [Quaeris Module](../Quaeris/docs/index.md) - Survey management and question charts
 - [LimeSurvey Module](../limesurvey/docs/index.md) - Survey data access with dynamic models
 - [Xot Module](../xot/docs/index.md) - Base UI infrastructure and component patterns
+<<<<<<< .merge_file_wWA6Rf
 <<<<<<< HEAD
 <<<<<<< .merge_file_ak3LqS
 <<<<<<< HEAD
@@ -1227,6 +1234,8 @@ Common issues and solutions:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_lVJlC2
 
 ## Statistical Analysis for Question Type Y
 
@@ -1466,6 +1475,7 @@ Specialized UI components for displaying statistics of Y type questions:
     </script>
 </div>
 ```
+<<<<<<< .merge_file_wWA6Rf
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ak3LqS
@@ -6829,3 +6839,6 @@ laravel/Modules/UI/
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+- [Conflict Resolution](conflict-resolution.md)
+>>>>>>> .merge_file_lVJlC2

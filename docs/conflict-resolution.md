@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_apiMoa
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SAffAK
@@ -52,6 +53,8 @@ Ultimo aggiornamento: 2025-01-06
 >>>>>>> .merge_file_hWHUFi
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_6MpZyR
 # Conflict Resolution — Module UI
 
 ## Summary
@@ -115,6 +118,7 @@ Ultimo aggiornamento: 2025-01-06
 
 ## Backlinks
 - [Root conflict resolution report](../../../../docs/conflict-resolution-report.md)
+<<<<<<< .merge_file_apiMoa
 <<<<<<< HEAD
 <<<<<<< .merge_file_SAffAK
 <<<<<<< HEAD
@@ -175,3 +179,5 @@ Ultimo aggiornamento: 2025-01-06
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_6MpZyR

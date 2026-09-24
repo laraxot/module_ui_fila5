@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_hJYNCH
 <<<<<<< HEAD
 <<<<<<< .merge_file_FD9bGr
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_qOdKre
 return [
     'page' => [
         'title' => 'S3 und CloudFront Test',

@@ -398,6 +398,7 @@ Restituisce il testo di aiuto tradotto per il layout.
 
 ## Collegamenti
 
+<<<<<<< .merge_file_W3Rn9X
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ercbjm
@@ -415,10 +416,13 @@ Restituisce il testo di aiuto tradotto per il layout.
 >>>>>>> .merge_file_MkbDTr
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_PHCtRQ
 - [TransTrait Documentation](../../xot/docs/filament/trans-trait.md)
 - [UI Module Architecture](architecture_rules.md)
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
 - [Translation Standards](../../../../docs/translation_standards.md)
+<<<<<<< .merge_file_W3Rn9X
 <<<<<<< HEAD
 <<<<<<< .merge_file_ercbjm
 <<<<<<< HEAD
@@ -442,6 +446,8 @@ Restituisce il testo di aiuto tradotto per il layout.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_PHCtRQ
 - [Table Components](table-components.md)
 
 ---

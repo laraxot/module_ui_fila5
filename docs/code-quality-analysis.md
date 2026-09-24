@@ -1,6 +1,7 @@
 # Analisi Qualità Codice - Modulo UI
 
 ## Data
+<<<<<<< .merge_file_oOkGir
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GaK4SO
@@ -26,6 +27,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+[DATE]
+>>>>>>> .merge_file_yCM0FL
 
 ## Strumenti Utilizzati
 
@@ -74,6 +78,7 @@ Eseguire `./vendor/bin/rector process Modules/UI --dry-run` per vedere le modifi
 
 ## Collegamenti
 
+<<<<<<< .merge_file_oOkGir
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GaK4SO
@@ -91,10 +96,13 @@ Eseguire `./vendor/bin/rector process Modules/UI --dry-run` per vedere le modifi
 >>>>>>> .merge_file_C7lyl1
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_yCM0FL
 - [Module Analysis Report](../../../../docs/module-analysis-report-[date].md)
 - [PHPStan Level 10 Fixes](../../../../docs/phpstan-level10-fixes-[date].md)
 
 *Ultimo aggiornamento: [DATE]*
+<<<<<<< .merge_file_oOkGir
 <<<<<<< HEAD
 <<<<<<< .merge_file_GaK4SO
 <<<<<<< HEAD
@@ -118,3 +126,5 @@ Eseguire `./vendor/bin/rector process Modules/UI --dry-run` per vedere le modifi
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_yCM0FL

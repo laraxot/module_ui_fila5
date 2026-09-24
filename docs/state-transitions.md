@@ -47,8 +47,8 @@ class ExampleTransition extends Transition
 
 ## Related Documentation
 - [State Management](./state-management.md)
-<<<<<<< HEAD
 - [SelectStateColumn Documentation](./select-state-column.md)
+<<<<<<< .merge_file_GGBz52
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -65,12 +65,16 @@ This document outlines the standards and patterns for implementing state transit
 =======
 # State Transitions Guide
 >>>>>>> 804451c (Lint)
+=======
+# State Transitions Guide
+>>>>>>> .merge_file_zMlsxQ
 
 ## Overview
 This document outlines the standards and patterns for implementing state transitions in the application.
 
 ## Transition Class Structure
 
+<<<<<<< .merge_file_GGBz52
 <<<<<<< HEAD
 <<<<<<< .merge_file_ZLjIU6
 <<<<<<< HEAD
@@ -113,6 +117,8 @@ This document outlines the standards and patterns for implementing state transit
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_zMlsxQ
 ### Required Structure
 ```php
 class ExampleTransition extends Transition
@@ -121,6 +127,7 @@ class ExampleTransition extends Transition
         public Model $model,
         public ?string $message = ''
     ) {}
+<<<<<<< .merge_file_GGBz52
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ZLjIU6
@@ -142,6 +149,9 @@ class ExampleTransition extends Transition
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_zMlsxQ
     public function handle(): Model
     {
         // Transition logic here
@@ -149,6 +159,7 @@ class ExampleTransition extends Transition
     }
 }
 ```
+<<<<<<< .merge_file_GGBz52
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ZLjIU6
@@ -170,11 +181,15 @@ class ExampleTransition extends Transition
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_zMlsxQ
 ### Key Points
 - Always extend `Spatie\ModelStates\Transition`
 - Constructor must accept the model as first parameter
 - Optional message parameter with empty string as default
 - `handle()` must return the updated model
+<<<<<<< .merge_file_GGBz52
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ZLjIU6
@@ -192,6 +207,8 @@ class ExampleTransition extends Transition
 >>>>>>> .merge_file_nei5JC
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_zMlsxQ
 
 ## Implementation Notes
 
@@ -199,6 +216,7 @@ class ExampleTransition extends Transition
 1. `$model`: The model instance being transitioned
 2. `$message`: Optional message for the transition (default: empty string)
 
+<<<<<<< .merge_file_GGBz52
 <<<<<<< HEAD
 <<<<<<< .merge_file_ZLjIU6
 <<<<<<< HEAD
@@ -222,10 +240,13 @@ class ExampleTransition extends Transition
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_zMlsxQ
 ### File Naming
 - Use `PascalCase` for transition class names
 - Suffix with `Transition` (e.g., `ActiveToSuspendedTransition`)
 - Place in `app/States/{ModelName}/Transitions/`
+<<<<<<< .merge_file_GGBz52
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ZLjIU6
@@ -247,11 +268,15 @@ class ExampleTransition extends Transition
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_zMlsxQ
 ### Best Practices
 - Keep transition logic simple and focused
 - Use type hints for all parameters
 - Document complex transitions with PHPDoc blocks
 - Always provide default values for optional parameters
+<<<<<<< .merge_file_GGBz52
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ZLjIU6
@@ -267,10 +292,13 @@ class ExampleTransition extends Transition
 >>>>>>> .merge_file_nei5JC
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_zMlsxQ
 
 ## Related Documentation
 - [State Management](./state-management.md)
 - [SelectStateColumn Documentation](./select-state-column.md)
+<<<<<<< .merge_file_GGBz52
 <<<<<<< HEAD
 <<<<<<< .merge_file_ZLjIU6
 <<<<<<< HEAD
@@ -310,3 +338,5 @@ class ExampleTransition extends Transition
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_zMlsxQ

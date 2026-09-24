@@ -151,6 +151,7 @@ Per tutti i widget che utilizzano AWS SDK:
 ## Collegamenti
 
 - [S3Test Bugfix](s3test-bugfix-null-errorcode.md) - Problema simile risolto
+<<<<<<< .merge_file_BWPGCf
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WrJpAP
@@ -176,6 +177,9 @@ Per tutti i widget che utilizzano AWS SDK:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [PHPStan Level 9 Guidelines](../../../docs/phpstan-level9-guidelines.md)
+>>>>>>> .merge_file_PLPZqW
 - [Filament ViewField Documentation](https://filamentphp.com/docs/3.x/forms/fields/view)
 
 ## Verifica dello Status

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_l9EOEF
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_7CmaWj
@@ -77,6 +78,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_soBpVo
 # Indice task - Modulo UI
 
 Lista dei task del modulo con link ai file .md separati. Ogni task è un file nella cartella `tasks/`. Dettagli dalla [roadmap](../roadmap.md).

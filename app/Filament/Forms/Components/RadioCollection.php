@@ -26,8 +26,8 @@ final class RadioCollection extends XotBaseField
      * Set the options collection for the radio buttons.
      */
     /**
-<<<<<<< HEAD
      * @param \Closure|Collection<int|string, mixed>|null $options
+<<<<<<< .merge_file_95Cokg
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43,6 +43,8 @@ final class RadioCollection extends XotBaseField
      * @param  \Closure|Collection<int|string, mixed>|null  $options
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_D5fiA3
      */
     public function options(\Closure|Collection|null $options): static
     {
@@ -105,6 +107,7 @@ final class RadioCollection extends XotBaseField
 
     /**
      * Comparazione type-safe per determinare se un'opzione è selezionata.
+<<<<<<< .merge_file_95Cokg
 <<<<<<< HEAD
 <<<<<<< .merge_file_lwkCNS
 <<<<<<< HEAD
@@ -117,12 +120,14 @@ final class RadioCollection extends XotBaseField
      *
      * @param mixed $stateOverride stato esplicito (test/offline senza container Livewire)
 >>>>>>> .merge_file_Zz6H4R
+=======
+>>>>>>> .merge_file_D5fiA3
      */
-    public function isOptionSelected(mixed $option, mixed $stateOverride = null): bool
+    public function isOptionSelected(mixed $option): bool
     {
-<<<<<<< .merge_file_lwkCNS
         $state = SafeStringCastAction::cast($this->getState());
         $currentValue = (string) $state;
+<<<<<<< .merge_file_95Cokg
 <<<<<<< HEAD
 =======
 =======
@@ -156,6 +161,8 @@ final class RadioCollection extends XotBaseField
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_D5fiA3
 
         // PHPStan L10: data_get restituisce mixed, SafeStringCastAction accetta mixed
         $optionData = data_get($option, $this->getValueKey());

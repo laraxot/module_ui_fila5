@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_GlEg3s
 <<<<<<< HEAD
 <<<<<<< .merge_file_T1q4FE
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ZD3tCO
 return [
     'instructions' => [
         'title' => 'Opening Hours Configuration',

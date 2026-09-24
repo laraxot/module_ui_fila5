@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_weo8kl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_CnQeD4
@@ -66,6 +67,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_5UHZOj
 # Chart Export Strategy (PNG/SVG)
 
 > **Goal**: Allow users to download Filament charts as images (PNG) or vectors (SVG) for reports.

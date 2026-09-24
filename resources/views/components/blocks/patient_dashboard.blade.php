@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_qhRuus
 <<<<<<< HEAD
 <<<<<<< .merge_file_aTbhbU
 <<<<<<< HEAD
@@ -47,6 +48,12 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 804451c (Lint)
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> .merge_file_u4Q195
 ?>
 @props(['title' => 'Area Personale'])
 

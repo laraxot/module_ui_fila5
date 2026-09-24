@@ -2,6 +2,7 @@
 module: theme
 topic: component-system
 canonical: ../../../../../Themes/docs/shared-components/component-system.md
+<<<<<<< .merge_file_qFml16
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hdgaqc
@@ -36,6 +37,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_FHNGPU
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/component-system.md

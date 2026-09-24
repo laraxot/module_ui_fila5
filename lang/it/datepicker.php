@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_CvgF7f
 <<<<<<< HEAD
 <<<<<<< .merge_file_WdiH6C
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_VHcmXD
 return [
     'previous_month' => 'Mese precedente',
     'next_month' => 'Mese successivo',
@@ -77,6 +80,7 @@ return [
         ],
         'label' => 'Datepicker',
         'sort' => 1,
+<<<<<<< .merge_file_CvgF7f
 <<<<<<< HEAD
 <<<<<<< .merge_file_WdiH6C
 <<<<<<< HEAD
@@ -100,6 +104,9 @@ return [
 >>>>>>> .merge_file_gRJLaE
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_VHcmXD
     ],
     'fields' => [
         'id' => [

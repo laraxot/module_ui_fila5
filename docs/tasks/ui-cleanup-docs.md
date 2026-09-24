@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_jWIUzj
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_rJ2fOn
@@ -77,6 +78,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_8rCbB2
 # Task: UI Docs Cleanup
 
 ## 📋 Obiettivo

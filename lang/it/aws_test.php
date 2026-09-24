@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_ol5DJs
 <<<<<<< HEAD
 <<<<<<< .merge_file_0SU3R8
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_aFelNu
 return [
     'navigation' => [
         'group' => '',

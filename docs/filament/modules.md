@@ -3,6 +3,7 @@ title: Moduli Filament
 description: Moduli Filament
 extends: _layouts.documentation
 section: content
+<<<<<<< .merge_file_xVXVM6
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_NWzAZk
@@ -40,6 +41,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_2A5tIS
 ---
 
 # Moduli Filament {#moduli-filament}

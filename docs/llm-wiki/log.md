@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_GpaUYV
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GQ8NP4
@@ -63,6 +64,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_LCU3mi
 # UI Activity Log
 
 > **Module**: UI
@@ -73,6 +76,7 @@ related:
 
 ## [2026-04-15] maintenance | Initial wiki setup
 - Created: llm-wiki/ directory structure
+<<<<<<< .merge_file_GpaUYV
 <<<<<<< HEAD
 - Created: AGENTS.md (agent instructions)
 =======
@@ -96,6 +100,9 @@ related:
 >>>>>>> 92912795 (.)
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+- Created: AGENTS.md (agent instructions)
+>>>>>>> .merge_file_LCU3mi
 - Created: index.md (content catalog)
 - Created: log.md (this file)
 - Directories initialized:

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_02THiO
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_HwP9nM
@@ -65,6 +66,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_IdBQsN
 # REGOLA CRITICA: NO Commenti Ovvi nel Codice
 
 ## Principio Fondamentale

@@ -6,6 +6,7 @@ declare(strict_types=1);
 // claude-audit static: split from opening_hours_field.php for maintainability (<500 LOC).
 // Canon: Modules/UI/docs/wiki/concepts/claude-audit-static.md
 // File: lang/it/opening_hours_field_label.php
+<<<<<<< .merge_file_gxORiL
 <<<<<<< HEAD
 <<<<<<< .merge_file_lDpAqC
 <<<<<<< HEAD
@@ -27,3 +28,8 @@ return [
     'label' => 'Opening Hours Field',
 ];
 >>>>>>> 804451c (Lint)
+=======
+return [
+    'label' => 'Opening Hours Field',
+];
+>>>>>>> .merge_file_GJmM5F

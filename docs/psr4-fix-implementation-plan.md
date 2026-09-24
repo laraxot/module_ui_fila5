@@ -1,5 +1,6 @@
 # 🔧 PSR-4 Fix Implementation Plan - UI Module
 
+<<<<<<< .merge_file_YC4wkv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_763mx7
@@ -22,6 +23,8 @@
 **Data**: Dicembre 15, 2025
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_u0YDyI
 **Modulo**: UI
 **Tipo Fix**: Namespace correction (Modules\Notify → Modules\UI)
 
@@ -49,8 +52,8 @@ Tutti in `Modules/UI/app/Filament/Forms/Components/`:
 
 ### Import Statements da Verificare
 
-<<<<<<< HEAD
 **TechPlanner/app/Filament/Resources/ClientResource.php**:
+<<<<<<< .merge_file_YC4wkv
 <<<<<<< HEAD
 <<<<<<< .merge_file_763mx7
 =======
@@ -101,6 +104,8 @@ Tutti in `Modules/UI/app/Filament/Forms/Components/`:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_u0YDyI
 ```php
 Line 13: use Modules\Notify\Filament\Forms\Components\ContactSection;
 ```
@@ -215,6 +220,7 @@ Aggiornare:
 - [x] `Modules/UI/docs/psr4-namespace-violations.md` - Aggiungere sezione "Fix Implemented"
 - [x] `Modules/UI/docs/psr4-fix-implementation-plan.md` - Questo file (status update)
 - [ ] `Modules/UI/docs/README.md` - Aggiungere reference a PSR-4 fix
+<<<<<<< .merge_file_YC4wkv
 <<<<<<< HEAD
 - [ ] `Modules/UI/docs/CHANGELOG.md` - Log del fix
 =======
@@ -238,6 +244,9 @@ Aggiornare:
 >>>>>>> 92912795 (.)
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+- [ ] `Modules/UI/docs/CHANGELOG.md` - Log del fix
+>>>>>>> .merge_file_u0YDyI
 
 ### Step 8: Git Commit
 

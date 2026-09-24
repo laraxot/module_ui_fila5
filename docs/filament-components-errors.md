@@ -137,8 +137,8 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 
 ## Collegamenti Bidirezionali
 
-<<<<<<< HEAD
 - [Documentazione Componenti Filament](../../../../docs/filament/components.md)
+<<<<<<< .merge_file_Sj9eS2
 =======
 <<<<<<< HEAD
 - [Documentazione Componenti Filament](../../../../docs/filament/components.md)
@@ -184,6 +184,8 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_eOwEDI
 - [Best Practices UI](../../best-practices.md)
 - [Errori Comuni UI](../../common-errors.md)
 - [Implementazione Corretta](../../examples/correct-implementation.md)
@@ -214,6 +216,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 1. La documentazione degli errori UI deve essere sempre in `Modules/UI/docs/`
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
+<<<<<<< .merge_file_Sj9eS2
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -227,10 +230,14 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 =======
 4. Aggiornare la documentazione quando vengono scoperti nuovi errori
 >>>>>>> 804451c (Lint)
+=======
+4. Aggiornare la documentazione quando vengono scoperti nuovi errori
+>>>>>>> .merge_file_eOwEDI
 # Errori Comuni nei Componenti Filament UI
 
 ## ⚠️ Errori di Metodi Non Supportati
 
+<<<<<<< .merge_file_Sj9eS2
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -279,12 +286,15 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_eOwEDI
 ### 1. FileUpload: Uso errato di icon()
 ❌ **NON FARE**:
 ```php
 FileUpload::make('document')
     ->icon('heroicon-o-document') // ❌ Questo metodo non esiste per FileUpload
 ```
+<<<<<<< .merge_file_Sj9eS2
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -294,6 +304,8 @@ FileUpload::make('document')
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_eOwEDI
 
 ✅ **FARE**:
 ```php
@@ -344,6 +356,7 @@ TextInput::make('last_name') // ✅ Usare 'last_name' per il cognome
 ### 5. Wizard: Implementazione errata degli Step
 ❌ **NON FARE**:
 ```php
+<<<<<<< .merge_file_Sj9eS2
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -375,12 +388,15 @@ TextInput::make('last_name') // ✅ Usare 'last_name' per il cognome
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_eOwEDI
 Forms\Components\Wizard::make([
     Forms\Components\Wizard\Step::make('step_one') // ❌ Step definito inline
         ->schema([
             // ... schema ...
         ]),
 ]);
+<<<<<<< .merge_file_Sj9eS2
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -390,6 +406,8 @@ Forms\Components\Wizard::make([
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_eOwEDI
 ```
 
 ✅ **FARE**:
@@ -434,6 +452,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
    - Creare sottocartelle specifiche per tipo di errore
    - Mantenere una struttura coerente
 
+<<<<<<< .merge_file_Sj9eS2
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -467,12 +486,15 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_eOwEDI
 2. **Struttura del Documento**:
    - Titolo chiaro e descrittivo
    - Esempio dell'errore (❌)
    - Esempio della correzione (✅)
    - Spiegazione del perché
    - Collegamenti bidirezionali
+<<<<<<< .merge_file_Sj9eS2
 <<<<<<< HEAD
 
 =======
@@ -487,21 +509,23 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_eOwEDI
 3. **Collegamenti Bidirezionali**:
    - Collegare alla documentazione del componente
    - Collegare alla documentazione delle best practices
    - Collegare a esempi di implementazione corretta
-<<<<<<< HEAD
 
-## Best Practices per la Documentazione
-
+<<<<<<< .merge_file_Sj9eS2
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-## Best Practices per la Documentazione
 =======
-<<<<<<< HEAD
+>>>>>>> .merge_file_eOwEDI
+## Best Practices per la Documentazione
 
+<<<<<<< .merge_file_Sj9eS2
 ## Best Practices per la Documentazione
 
 =======
@@ -512,10 +536,13 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 ## Best Practices per la Documentazione
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_eOwEDI
 1. **Organizzazione**:
    - Raggruppare errori per tipo di componente
    - Mantenere una struttura gerarchica
    - Usare markdown per la formattazione
+<<<<<<< .merge_file_Sj9eS2
 <<<<<<< HEAD
 
 =======
@@ -530,12 +557,15 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_eOwEDI
 2. **Contenuto**:
    - Includere sempre esempi di codice
    - Spiegare il perché dell'errore
    - Fornire soluzioni alternative
-<<<<<<< HEAD
 
+<<<<<<< .merge_file_Sj9eS2
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -548,10 +578,13 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_eOwEDI
 3. **Manutenzione**:
    - Aggiornare regolarmente la documentazione
    - Verificare i collegamenti
    - Aggiungere nuovi errori quando scoperti
+<<<<<<< .merge_file_Sj9eS2
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -563,12 +596,15 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_eOwEDI
 
 ## Collegamenti Bidirezionali
 
 - [Documentazione Componenti Filament](../../../../docs/project/filament/components.md)
 - [Documentazione Componenti Filament](../../../../docs/project/filament/components.md)
 - [Documentazione Componenti Filament](../../../../docs/project/filament/components.md)
+<<<<<<< .merge_file_Sj9eS2
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -583,6 +619,8 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_eOwEDI
 - [Best Practices UI](../../best-practices.md)
 - [Errori Comuni UI](../../common-errors.md)
 - [Implementazione Corretta](../../examples/correct-implementation.md)
@@ -590,17 +628,16 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 - [Gestione degli Step nei Wizard](./clean-code/wizard-steps.md)
 - [Gestione delle Traduzioni](./translations/lang-service-provider.md)
 - [Componente FileUpload](./filament-components/file-upload.md)
-<<<<<<< HEAD
 
-## Processo di Documentazione
-
+<<<<<<< .merge_file_Sj9eS2
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-## Processo di Documentazione
 =======
-<<<<<<< HEAD
+>>>>>>> .merge_file_eOwEDI
+## Processo di Documentazione
 
+<<<<<<< .merge_file_Sj9eS2
 ## Processo di Documentazione
 
 =======
@@ -611,10 +648,13 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 ## Processo di Documentazione
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_eOwEDI
 1. **Identificazione**:
    - Riconoscere l'errore come problema UI
    - Categorizzare l'errore
    - Determinare la posizione corretta della documentazione
+<<<<<<< .merge_file_Sj9eS2
 <<<<<<< HEAD
 
 =======
@@ -629,10 +669,14 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_eOwEDI
 2. **Documentazione**:
    - Creare/aggiornare il file nella cartella corretta
    - Includere esempi e spiegazioni
    - Aggiungere collegamenti bidirezionali
+<<<<<<< .merge_file_Sj9eS2
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -642,6 +686,8 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_eOwEDI
 
 3. **Verifica**:
    - Controllare la struttura della documentazione
@@ -653,6 +699,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 1. La documentazione degli errori UI deve essere sempre in `Modules/UI/project_docs/`
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
+<<<<<<< .merge_file_Sj9eS2
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -678,11 +725,14 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_eOwEDI
 4. Aggiornare la documentazione quando vengono scoperti nuovi errori
 1. La documentazione degli errori UI deve essere sempre in `Modules/UI/project_docs/`
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
 4. Aggiornare la documentazione quando vengono scoperti nuovi errori
+<<<<<<< .merge_file_Sj9eS2
 <<<<<<< HEAD
 <<<<<<< .merge_file_E8DM1Y
 =======
@@ -725,3 +775,5 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_eOwEDI

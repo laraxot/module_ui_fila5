@@ -79,6 +79,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
     <x-slot name="header">
         Titolo Card
     </x-slot>
+<<<<<<< .merge_file_Tid1Q2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
@@ -155,6 +156,11 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+    Contenuto della card
+
+>>>>>>> .merge_file_EODI2J
     <x-slot name="footer">
         Footer della card
     </x-slot>
@@ -197,6 +203,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
    - Layout fluido
 
 ## Collegamenti Bidirezionali
+<<<<<<< .merge_file_Tid1Q2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
@@ -222,12 +229,16 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [README](readme.md)
+>>>>>>> .merge_file_EODI2J
 - [Componenti](components.md)
 - [Layout](layouts-and-themes.md)
 
 ## Vedi Anche
 - [Tailwind Config](../config/tailwind.config.js)
 - [Theme Config](../config/theme.php)
+<<<<<<< .merge_file_Tid1Q2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
@@ -246,6 +257,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> .merge_file_RL0BgJ
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EODI2J
 - [Filament UI](../../cms/docs/filament-components.md)
 # Design System
 
@@ -254,6 +267,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 
 ## Componenti Base
 
+<<<<<<< .merge_file_Tid1Q2
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 <<<<<<< HEAD
@@ -295,12 +309,15 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_EODI2J
 ### 1. Tipografia
 ```css
 /* Font Family */
 --app-font-sans: 'Inter', sans-serif;
 --app-font-serif: 'Merriweather', serif;
 --app-font-mono: 'JetBrains Mono', monospace;
+<<<<<<< .merge_file_Tid1Q2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
@@ -322,6 +339,9 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_EODI2J
 /* Font Sizes */
 --app-text-xs: 0.75rem;
 --app-text-sm: 0.875rem;
@@ -329,6 +349,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 --app-text-lg: 1.125rem;
 --app-text-xl: 1.25rem;
 ```
+<<<<<<< .merge_file_Tid1Q2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
@@ -360,10 +381,16 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+
+### 2. Colori
+```css
+>>>>>>> .merge_file_EODI2J
 /* Brand Colors */
 --app-primary: #0EA5E9;
 --app-secondary: #6366F1;
 --app-accent: #EC4899;
+<<<<<<< .merge_file_Tid1Q2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
@@ -385,11 +412,15 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_EODI2J
 /* Semantic Colors */
 --app-success: #22C55E;
 --app-warning: #F59E0B;
 --app-error: #EF4444;
 --app-info: #3B82F6;
+<<<<<<< .merge_file_Tid1Q2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
@@ -405,10 +436,13 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> .merge_file_RL0BgJ
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EODI2J
 ```
 
 ### 3. Spaziatura
 ```css
+<<<<<<< .merge_file_Tid1Q2
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 <<<<<<< HEAD
@@ -425,12 +459,15 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ### 3. Spaziatura
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EODI2J
 /* Spacing Scale */
 --so-spacing-xs: 0.5rem;
 --so-spacing-sm: 0.75rem;
 --so-spacing-md: 1rem;
 --so-spacing-lg: 1.5rem;
 --so-spacing-xl: 2rem;
+<<<<<<< .merge_file_Tid1Q2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
@@ -446,10 +483,13 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> .merge_file_RL0BgJ
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EODI2J
 ```
 
 ## Componenti UI
 
+<<<<<<< .merge_file_Tid1Q2
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 <<<<<<< HEAD
@@ -466,11 +506,14 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ## Componenti UI
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EODI2J
 ### 1. Pulsanti
 ```php
 <x-ui.button variant="primary">
     Azione Primaria
 </x-ui.button>
+<<<<<<< .merge_file_Tid1Q2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
@@ -489,6 +532,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> .merge_file_RL0BgJ
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EODI2J
 
 <x-ui.button variant="secondary">
     Azione Secondaria
@@ -497,6 +542,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 
 ### 2. Form
 ```php
+<<<<<<< .merge_file_Tid1Q2
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 <<<<<<< HEAD
@@ -515,12 +561,15 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EODI2J
 <x-ui.form.input
     type="text"
     name="name"
     label="Nome"
     placeholder="Inserisci il nome"
 />
+<<<<<<< .merge_file_Tid1Q2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
@@ -542,10 +591,14 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_EODI2J
 <x-ui.form.select
     name="type"
     label="Tipo"
     :options="$types"
+<<<<<<< .merge_file_Tid1Q2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
@@ -561,11 +614,14 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> .merge_file_RL0BgJ
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EODI2J
 />
 ```
 
 ### 3. Card
 ```php
+<<<<<<< .merge_file_Tid1Q2
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 <<<<<<< HEAD
@@ -582,10 +638,13 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 ### 3. Card
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EODI2J
 <x-ui.card>
     <x-slot name="header">
         Titolo Card
     </x-slot>
+<<<<<<< .merge_file_Tid1Q2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
@@ -605,6 +664,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> .merge_file_RL0BgJ
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EODI2J
 
     Contenuto della card
 
@@ -618,6 +679,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 
 ### 1. Grid System
 ```php
+<<<<<<< .merge_file_Tid1Q2
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 <<<<<<< HEAD
@@ -643,11 +705,14 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_EODI2J
 <x-ui.grid cols="1 md:2 lg:3" gap="4">
     <div>Colonna 1</div>
     <div>Colonna 2</div>
     <div>Colonna 3</div>
 </x-ui.grid>
+<<<<<<< .merge_file_Tid1Q2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
@@ -666,6 +731,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> .merge_file_RL0BgJ
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EODI2J
 ```
 
 ### 2. Container
@@ -677,6 +744,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 
 ## Best Practices
 
+<<<<<<< .merge_file_Tid1Q2
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 <<<<<<< HEAD
@@ -701,10 +769,13 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_EODI2J
 1. **Coerenza**
    - Usare i componenti standard
    - Mantenere la palette colori
    - Seguire la scala tipografica
+<<<<<<< .merge_file_Tid1Q2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
@@ -726,10 +797,14 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_EODI2J
 2. **Accessibilità**
    - Contrasto sufficiente
    - Focus visibile
    - Testo alternativo
+<<<<<<< .merge_file_Tid1Q2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
@@ -751,10 +826,14 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_EODI2J
 3. **Responsive**
    - Mobile first
    - Breakpoint standard
    - Layout fluido
+<<<<<<< .merge_file_Tid1Q2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
@@ -777,6 +856,8 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 >>>>>>> .merge_file_RL0BgJ
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_EODI2J
 
 ## Collegamenti Bidirezionali
 - [README](readme.md)
@@ -789,6 +870,7 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 - [Filament UI](../../cms/project_docs/filament-components.md)
 - [Filament UI](../../cms/project_docs/filament-components.md)
 - [Filament UI](../../cms/project_docs/filament-components.md)
+<<<<<<< .merge_file_Tid1Q2
 <<<<<<< HEAD
 <<<<<<< .merge_file_VZusAK
 <<<<<<< HEAD
@@ -837,3 +919,5 @@ Il design system definisce gli standard visivi e di interazione per garantire co
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_EODI2J

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_nsxTxj
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_HzcCbU
@@ -293,6 +294,8 @@ config('theme.views_path') // Output: "Themes/One/resources/views"
 >>>>>>> .merge_file_1ysaew
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_8F6CJG
 ---
 module: theme
 topic: struttura-themes-folio
@@ -300,6 +303,7 @@ canonical: ../../../Themes/docs/shared-components/struttura-themes-folio.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/struttura-themes-folio.md
+<<<<<<< .merge_file_nsxTxj
 <<<<<<< HEAD
 <<<<<<< .merge_file_HzcCbU
 <<<<<<< HEAD
@@ -702,3 +706,5 @@ config('theme.views_path') // Output: "Themes/One/resources/views"
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_8F6CJG

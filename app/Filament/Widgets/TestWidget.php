@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Widgets;
 
+<<<<<<< .merge_file_oCUIQ7
 <<<<<<< HEAD
 <<<<<<< .merge_file_ExBo9H
 <<<<<<< HEAD
@@ -25,12 +26,15 @@ use Filament\Schemas\Components\Component;
 >>>>>>> .merge_file_cpaCem
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_qNYqOR
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 final class TestWidget extends XotBaseSchemaWidget
 {
     protected ?string $heading = 'Test Widget';
 
+<<<<<<< .merge_file_oCUIQ7
 <<<<<<< HEAD
 <<<<<<< .merge_file_ExBo9H
 <<<<<<< HEAD
@@ -58,6 +62,8 @@ final class TestWidget extends XotBaseSchemaWidget
 >>>>>>> .merge_file_cpaCem
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_qNYqOR
     public function getFormSchema(): array
     {
         return [];

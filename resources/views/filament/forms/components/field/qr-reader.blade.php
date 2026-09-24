@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_sYSGXA
 <<<<<<< HEAD
 <<<<<<< .merge_file_b1rXIs
 <<<<<<< HEAD
@@ -43,6 +44,12 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 804451c (Lint)
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> .merge_file_x05NTb
 ?>
 <x-filament-forms::field-wrapper :id="$getId()" :label="$getLabel()" :label-sr-only="$isLabelHidden()" :helper-text="$getHelperText()"
     :hint="$getHint()" :hint-icon="$getHintIcon()" :required="$isRequired()" :state-path="$getStatePath()">
