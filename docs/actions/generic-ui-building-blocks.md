@@ -7,6 +7,36 @@ updated: 2026-07-20
 qmd: "generic-ui-building-blocks category collection fieldoption"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< .merge_file_37jSQf
+=======
+=======
+<<<<<<< .merge_file_jfVaqd
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+=======
+<<<<<<< .merge_file_PZg30p
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+=======
+<<<<<<< .merge_file_RmCyQf
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_lFiAG8
+>>>>>>> .merge_file_j4Cpya
+>>>>>>> .merge_file_xfKnll
+>>>>>>> .merge_file_FISizy
 related:
   - "./table-layout-toggle.md"
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]

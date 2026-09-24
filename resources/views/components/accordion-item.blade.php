@@ -1,7 +1,84 @@
+<<<<<<< .merge_file_TccdgQ
+=======
+<<<<<<< .merge_file_VVI6Y9
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_1YeElu
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_TNW67C
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+@endphp
+
+@php
+@endphp
+
+@php
+@endphp
+
+@php
+@endphp
+
+<<<<<<< .merge_file_VVI6Y9
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ybYkOT
 <?php
 
 declare(strict_types=1);
 ?>
+<<<<<<< .merge_file_TccdgQ
+=======
+>>>>>>> .merge_file_24Xhsa
+>>>>>>> .merge_file_TNW67C
+>>>>>>> .merge_file_ybYkOT
 @props([
     'title' => '',
     'id' => 'item-' . uniqid(),

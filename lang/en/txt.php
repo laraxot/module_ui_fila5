@@ -2,10 +2,40 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_WphV3d
+=======
+<<<<<<< .merge_file_gwgiUh
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_B8Hoeu
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_bBamid
+>>>>>>> .merge_file_frEHjD
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/en/txt.php
+<<<<<<< .merge_file_WphV3d
+=======
+<<<<<<< .merge_file_gwgiUh
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_CvorNx
+>>>>>>> .merge_file_bBamid
+>>>>>>> .merge_file_frEHjD
 return [
     'delete' => 'elimina',
     'edit' => 'modifica',

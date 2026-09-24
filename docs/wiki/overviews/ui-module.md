@@ -2,9 +2,54 @@
 type: overview
 module: UI
 sources:
+<<<<<<< .merge_file_fYY2MI
 confidence: high
 updated: 2026-04-15
 related:
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_eLe64h
+=======
+<<<<<<< .merge_file_EHkzMv
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_ts9fkp
+confidence: high
+updated: 2026-04-15
+related:
+=======
+<<<<<<< .merge_file_EHkzMv
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ts9fkp
+>>>>>>> .merge_file_awtHaV
+  - ../../../docs/module-ui.md
+  - ../../../docs/philosophy.md
+  - ../../../docs/design-system.md
+  - ../../../docs/table-components.md
+confidence: high
+updated: 2026-04-15
+<<<<<<< .merge_file_eLe64h
+=======
+<<<<<<< .merge_file_EHkzMv
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_awtHaV
+=======
+confidence: high
+updated: 2026-04-15
+related:
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_eLe64h
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ts9fkp
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_awtHaV
+>>>>>>> .merge_file_mOfYkB
 ---
 
 # UI Module — Overview

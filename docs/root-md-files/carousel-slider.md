@@ -1,3 +1,54 @@
+<<<<<<< .merge_file_Az8t5f
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_pAPkO6
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Rk78zW
+---
+title: "Carousel Slider"
+type: concept
+tags: [carousel, slider]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "carousel-slider carousel slider"
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+related:
+  - "./api-relocated.md"
+  - "./api.md"
+  - "./blocks-relocated.md"
+  - "./blocks.md"
+  - "./changelog.md"
+  - "./chunk.md"
+  - "./ci.md"
+  - "./custom-firm-fields.md"
+---
+
+<<<<<<< .merge_file_pAPkO6
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Rk78zW
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_dlM341
 https://www.embla-carousel.com/examples/predefined/
 
 

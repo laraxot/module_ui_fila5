@@ -1,7 +1,52 @@
+<<<<<<< .merge_file_r572Aq
+=======
+<<<<<<< .merge_file_ohiQqK
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_yFUJJN
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_OQWGNh
+>>>>>>> .merge_file_3onNZz
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
+<<<<<<< .merge_file_r572Aq
+=======
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+<<<<<<< .merge_file_ohiQqK
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_4nzfqK
+>>>>>>> .merge_file_OQWGNh
+<?php
+
+declare(strict_types=1);
+?>
+>>>>>>> .merge_file_3onNZz
 @props(['title' => 'Cambia Password'])
 
 <div class="bg-white p-6 rounded-lg shadow-md">

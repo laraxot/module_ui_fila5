@@ -3,13 +3,109 @@ title: "Sincronizzazione multi-organizzazione (laraxot + provtv)"
 type: concept
 tags: [git, sync, multi-org, laraxot, provtv, quality-gates]
 created: "2026-07-21"
+<<<<<<< .merge_file_O8mfhY
 updated: "2026-07-29"
 related:
   - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
+=======
+<<<<<<< HEAD
+updated: "2026-07-29"
+=======
+<<<<<<< HEAD
+updated: "2026-07-29"
+<<<<<<< .merge_file_9j3Rot
+=======
+<<<<<<< .merge_file_Luwm0C
+=======
+<<<<<<< .merge_file_dISztb
+=======
+=======
+<<<<<<< HEAD
+updated: "2026-07-29"
+>>>>>>> .merge_file_1cu6UR
+>>>>>>> .merge_file_GNwaP7
+>>>>>>> .merge_file_FUKheB
+related:
+  - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+updated: "2026-07-29"
+related:
+  - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+updated: "2026-07-23"
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_9j3Rot
+=======
+<<<<<<< .merge_file_Luwm0C
+=======
+<<<<<<< .merge_file_dISztb
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1cu6UR
+>>>>>>> .merge_file_GNwaP7
+>>>>>>> .merge_file_FUKheB
+related:
+  - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
+>>>>>>> .merge_file_8AJrw2
 updated: "2026-07-23"
   - "./wiki/troubleshooting/git-push-lfs-missing-objects.md"
 related:
   - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
+<<<<<<< .merge_file_O8mfhY
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_9j3Rot
+=======
+<<<<<<< .merge_file_Luwm0C
+=======
+<<<<<<< .merge_file_dISztb
+=======
+related:
+  - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_1cu6UR
+>>>>>>> .merge_file_GNwaP7
+>>>>>>> .merge_file_FUKheB
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+updated: "2026-07-29"
+related:
+  - "../../../bashscripts/tools/prompts/02-gitmodules-sync.md"
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_9j3Rot
+=======
+<<<<<<< .merge_file_Luwm0C
+=======
+<<<<<<< .merge_file_dISztb
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1cu6UR
+>>>>>>> .merge_file_GNwaP7
+>>>>>>> .merge_file_FUKheB
+>>>>>>> .merge_file_8AJrw2
   - "./git-multi-org-sync-handoff.md"
 ---
 
@@ -32,10 +128,63 @@ fetch di tutti i remote, quality gates (PHPStan L10, PHPMD), risincronizzazione 
   "add/add" (nella maggior parte dei casi contenuto identico, differenze reali
   risolte a mano confrontando i diff).
 
+<<<<<<< .merge_file_O8mfhY
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_9j3Rot
+=======
+<<<<<<< .merge_file_Luwm0C
+=======
+<<<<<<< .merge_file_dISztb
+=======
 - **Blocco LFS lato server (provtv)** (storico): in una sessione precedente si era
   riscritta la storia senza tracking LFS. **Non ripetere** rewrite se evitabile.
 - **Blocco LFS lato server (provtv)** (storico): in una sessione precedente si era
   riscritta la storia senza tracking LFS. **Non ripetere** rewrite se evitabile.
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_1cu6UR
+>>>>>>> .merge_file_GNwaP7
+>>>>>>> .merge_file_FUKheB
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_8AJrw2
+- **Blocco LFS lato server (provtv)** (storico): in una sessione precedente si era
+  riscritta la storia senza tracking LFS. **Non ripetere** rewrite se evitabile.
+- **Blocco LFS lato server (provtv)** (storico): in una sessione precedente si era
+  riscritta la storia senza tracking LFS. **Non ripetere** rewrite se evitabile.
+<<<<<<< .merge_file_O8mfhY
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+- **Blocco LFS lato server (provtv)** (storico): in una sessione precedente si era
+  riscritta la storia senza tracking LFS. **Non ripetere** rewrite se evitabile.
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_9j3Rot
+=======
+<<<<<<< .merge_file_Luwm0C
+=======
+<<<<<<< .merge_file_dISztb
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1cu6UR
+>>>>>>> .merge_file_GNwaP7
+>>>>>>> .merge_file_FUKheB
+>>>>>>> .merge_file_8AJrw2
 - **Violazione di dipendenza Geo→UI**: `app/Livewire/Components/Map/InteractiveMap.php`
   importava `Modules\\Geo\\Services\\{Geocoding,Map}Service`, un modulo che non fa
   parte di questo progetto e che comunque UI non dovrebbe mai importare
@@ -48,19 +197,127 @@ fetch di tutti i remote, quality gates (PHPStan L10, PHPMD), risincronizzazione 
 | Sintomo | Causa | Fix |
 |---------|-------|-----|
 | `unpack failed` / `did not receive expected object` | pack thin + storia merge laraxot↔provtv | `git push --no-thin` |
+<<<<<<< .merge_file_O8mfhY
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_9j3Rot
+=======
+<<<<<<< .merge_file_Luwm0C
+=======
+<<<<<<< .merge_file_dISztb
+=======
 | `GH008` / LFS missing su `provtv` | OID LFS non presenti su quel remote | `git lfs fetch laraxot --all` → `git lfs push provtv --all` → push |
 
 Playbook completo: [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md).
 | `GH008` / LFS missing su `provtv` | OID LFS non presenti su quel remote | `git lfs fetch laraxot --all` → `git lfs push provtv --all` → push |
 
 Playbook completo: [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md).
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_1cu6UR
+>>>>>>> .merge_file_GNwaP7
+>>>>>>> .merge_file_FUKheB
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_8AJrw2
+| `GH008` / LFS missing su `provtv` | OID LFS non presenti su quel remote | `git lfs fetch laraxot --all` → `git lfs push provtv --all` → push |
+
+Playbook completo: [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md).
+| `GH008` / LFS missing su `provtv` | OID LFS non presenti su quel remote | `git lfs fetch laraxot --all` → `git lfs push provtv --all` → push |
+
+Playbook completo: [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md).
+<<<<<<< .merge_file_O8mfhY
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+
+=======
+| `GH008` / LFS missing su `provtv` | OID LFS non presenti su quel remote | `git lfs fetch laraxot --all` → `git lfs push provtv --all` → push |
+
+Playbook completo: [wiki/troubleshooting/git-push-lfs-missing-objects.md](./wiki/troubleshooting/git-push-lfs-missing-objects.md).
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_9j3Rot
+=======
+<<<<<<< .merge_file_Luwm0C
+=======
+<<<<<<< .merge_file_dISztb
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1cu6UR
+>>>>>>> .merge_file_GNwaP7
+>>>>>>> .merge_file_FUKheB
+>>>>>>> .merge_file_8AJrw2
 
 ## Regola per il futuro
 
 Prima di un merge/rebase su questo repo, controllare sempre `git remote -v` e
 sincronizzare **tutti** i remote elencati, non solo `origin`/`provtv`. Mai forzare
 push distruttivi su storie scollegate: preferire `--allow-unrelated-histories` e
+<<<<<<< .merge_file_O8mfhY
 revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sibling sano, non squash/reset.
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_9j3Rot
+=======
+<<<<<<< .merge_file_Luwm0C
+=======
+<<<<<<< .merge_file_dISztb
+=======
+revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sibling sano, non squash/reset.
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_1cu6UR
+>>>>>>> .merge_file_GNwaP7
+>>>>>>> .merge_file_FUKheB
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sibling sano, non squash/reset.
+<<<<<<< HEAD
+revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sibling sano, non squash/reset.
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+revisione manuale dei conflitti reali. In push: **FF + `--no-thin`**; LFS da sibling sano, non squash/reset.
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_9j3Rot
+=======
+<<<<<<< .merge_file_Luwm0C
+=======
+<<<<<<< .merge_file_dISztb
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1cu6UR
+>>>>>>> .merge_file_GNwaP7
+>>>>>>> .merge_file_FUKheB
+>>>>>>> .merge_file_8AJrw2
 
 ### Caso User 2026-07-23 (unrelated)
 

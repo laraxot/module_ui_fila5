@@ -53,6 +53,23 @@ If the project maintainer has any additional requirements, you will find them li
 - **Send coherent history** - Make sure each individual commit in your pull request is meaningful. If you had to make multiple intermediate commits while developing, please [squash them](https://www.git-scm.com/book/en/v2/Git-Tools-Rewriting-History#Changing-Multiple-Commit-Messages) before submitting.
 
 **Happy coding**!
+<<<<<<< .merge_file_Sy3jp6
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_4YngCU
+=======
+=======
+<<<<<<< .merge_file_lBFmQz
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_s8RbEM
+>>>>>>> .merge_file_OXdFhS
+>>>>>>> .merge_file_SUaebD
 
 
 ---
@@ -114,3 +131,20 @@ If the project maintainer has any additional requirements, you will find them li
 - **Send coherent history** - Make sure each individual commit in your pull request is meaningful. If you had to make multiple intermediate commits while developing, please [squash them](https://www.git-scm.com/book/en/v2/Git-Tools-Rewriting-History#Changing-Multiple-Commit-Messages) before submitting.
 
 **Happy coding**!
+<<<<<<< .merge_file_Sy3jp6
+=======
+<<<<<<< .merge_file_4YngCU
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_lBFmQz
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_s8RbEM
+>>>>>>> .merge_file_OXdFhS
+>>>>>>> .merge_file_SUaebD

@@ -68,6 +68,24 @@ In il progetto, i form Filament sono implementati attraverso la classe base `Xot
 
 ```php
 public static function getFormSchema(): array
+<<<<<<< .merge_file_PRiRP7
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Y7cJtp
+public function getFormSchema(): array
+=======
+<<<<<<< HEAD
+public function getFormSchema(): array
+=======
+<<<<<<< HEAD
+=======
+public function getFormSchema(): array
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_PyYs06
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_mQNmRe
 {
     return [
         Forms\Components\Grid::make()->columns(2)->schema([

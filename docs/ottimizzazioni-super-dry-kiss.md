@@ -291,10 +291,56 @@ class ExampleComponent extends Component
 
 ## 🔗 Collegamenti
 
+<<<<<<< .merge_file_WbmJxn
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_JaDrH5
+=======
+<<<<<<< .merge_file_KMqVnO
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_rh70At
 - [Documentazione Core](../../../docs/core/)
 - [Best Practices Filament](../../../docs/core/filament-best-practices.md)
 - [Convenzioni Sistema](../../../docs/core/conventions.md)
 - [Template Modulo](../../../docs/templates/module-template.md)
+<<<<<<< .merge_file_WbmJxn
+=======
+=======
+>>>>>>> .merge_file_7ysxSq
+>>>>>>> .merge_file_SR3J6U
+- [Documentazione Core](../../../../docs/core/)
+- [Best Practices Filament](../../../../docs/core/filament-best-practices.md)
+- [Convenzioni Sistema](../../../../docs/core/conventions.md)
+- [Template Modulo](../../../../docs/templates/module-template.md)
+<<<<<<< .merge_file_JaDrH5
+=======
+=======
+<<<<<<< .merge_file_KMqVnO
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SR3J6U
+- [Documentazione Core](../../../docs/core/)
+- [Best Practices Filament](../../../docs/core/filament-best-practices.md)
+- [Convenzioni Sistema](../../../docs/core/conventions.md)
+- [Template Modulo](../../../docs/templates/module-template.md)
+<<<<<<< .merge_file_JaDrH5
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_7ysxSq
+>>>>>>> .merge_file_SR3J6U
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rh70At
 
 ---
 

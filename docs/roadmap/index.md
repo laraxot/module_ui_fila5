@@ -7,8 +7,45 @@ updated: 2026-07-14
 qmd: "00-index ui module - roadmap"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< .merge_file_osCQuO
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+<<<<<<< .merge_file_XMKdXl
+=======
+<<<<<<< .merge_file_hJf8Ig
+=======
+<<<<<<< .merge_file_5cEuAF
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> .merge_file_ij2QVe
+>>>>>>> .merge_file_N75J2x
+>>>>>>> .merge_file_Up8Iyg
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_XMKdXl
+=======
+<<<<<<< .merge_file_hJf8Ig
+=======
+<<<<<<< .merge_file_5cEuAF
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ij2QVe
+>>>>>>> .merge_file_N75J2x
+>>>>>>> .merge_file_Up8Iyg
+>>>>>>> .merge_file_ivh24g
 related:
   - "./00-index-1.md"
   - "./00-overview.md"

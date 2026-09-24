@@ -142,39 +142,273 @@ $breakpoints: (
 ## 🔗 Collegamenti
 - [Componenti Base](./base-components.md)
 - [Performance](./standards/performance.md)
+<<<<<<< .merge_file_wzulJk
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_srebSp
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_8LYICu
+>>>>>>> .merge_file_1NBCDj
 - [Accessibilità](./standards/accessibility.md)
 # Componenti Layout
 ## 📐 Struttura Base
+<<<<<<< .merge_file_wzulJk
+=======
+=======
+
+## 📐 Struttura Base
+
+<<<<<<< .merge_file_srebSp
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_3zePlE
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_8LYICu
+- [Accessibilità](./standards/accessibility.md) 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Accessibilità](./standards/accessibility.md) 
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Accessibilità](./standards/accessibility.md) 
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+- [Accessibilità](./standards/accessibility.md)
+# Componenti Layout
+## 📐 Struttura Base
+<<<<<<< .merge_file_srebSp
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ydSnRx
+>>>>>>> .merge_file_8LYICu
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1NBCDj
 ### Container
 ```html
 <div class="container">
   <!-- Contenuto -->
 </div>
+<<<<<<< .merge_file_wzulJk
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_srebSp
+=======
+<<<<<<< .merge_file_3zePlE
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 <div class="container-fluid">
   <!-- Contenuto a larghezza piena -->
 ```
 ### Grid System
+=======
+>>>>>>> .merge_file_ydSnRx
+>>>>>>> .merge_file_8LYICu
+
+<div class="container-fluid">
+  <!-- Contenuto a larghezza piena -->
+</div>
+```
+
+### Grid System
+```html
+<<<<<<< .merge_file_srebSp
+=======
+=======
+<<<<<<< .merge_file_3zePlE
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_8LYICu
+>>>>>>> .merge_file_1NBCDj
+<div class="container-fluid">
+  <!-- Contenuto a larghezza piena -->
+```
+### Grid System
+<<<<<<< .merge_file_wzulJk
+=======
+<<<<<<< .merge_file_srebSp
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ydSnRx
+>>>>>>> .merge_file_8LYICu
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1NBCDj
 <div class="row">
   <div class="col-md-6">
     <!-- Colonna 1 -->
   </div>
+<<<<<<< .merge_file_wzulJk
     <!-- Colonna 2 -->
 ## 🎯 Layout Specifici
 ### Header
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_srebSp
+=======
+<<<<<<< .merge_file_3zePlE
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_ydSnRx
+    <!-- Colonna 2 -->
+## 🎯 Layout Specifici
+### Header
+=======
+<<<<<<< .merge_file_3zePlE
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ydSnRx
+>>>>>>> .merge_file_8LYICu
+  <div class="col-md-6">
+    <!-- Colonna 2 -->
+  </div>
+</div>
+```
+
+## 🎯 Layout Specifici
+
+### Header
+```html
+<<<<<<< .merge_file_srebSp
+=======
+<<<<<<< .merge_file_3zePlE
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_8LYICu
+=======
+    <!-- Colonna 2 -->
+## 🎯 Layout Specifici
+### Header
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_srebSp
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ydSnRx
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_8LYICu
+>>>>>>> .merge_file_1NBCDj
 <header class="header">
   <div class="header-brand">
     <img src="logo.png" alt="Logo">
     <h1>Nome Applicazione</h1>
+<<<<<<< .merge_file_wzulJk
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_srebSp
+  </div>
+=======
+=======
+<<<<<<< .merge_file_3zePlE
+  </div>
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  </div>
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+  </div>
+>>>>>>> .merge_file_ydSnRx
+>>>>>>> .merge_file_8LYICu
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1NBCDj
   <nav class="header-nav">
     <!-- Menu -->
   </nav>
   <div class="header-actions">
     <!-- Azioni -->
+<<<<<<< .merge_file_wzulJk
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_srebSp
+=======
+<<<<<<< .merge_file_3zePlE
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 </header>
 ### Sidebar
 <aside class="sidebar">
   <div class="sidebar-header">
     <h2>Menu</h2>
+=======
+>>>>>>> .merge_file_ydSnRx
+>>>>>>> .merge_file_8LYICu
+  </div>
+</header>
+```
+
+### Sidebar
+```html
+<aside class="sidebar">
+  <div class="sidebar-header">
+    <h2>Menu</h2>
+  </div>
+<<<<<<< .merge_file_srebSp
+=======
+=======
+<<<<<<< .merge_file_3zePlE
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_8LYICu
+>>>>>>> .merge_file_1NBCDj
+</header>
+### Sidebar
+<aside class="sidebar">
+  <div class="sidebar-header">
+    <h2>Menu</h2>
+<<<<<<< .merge_file_wzulJk
+=======
+<<<<<<< .merge_file_srebSp
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ydSnRx
+>>>>>>> .merge_file_8LYICu
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1NBCDj
   <nav class="sidebar-nav">
     <ul>
       <li class="active">
@@ -185,20 +419,120 @@ $breakpoints: (
       </li>
       <!-- Altri elementi menu -->
     </ul>
+<<<<<<< .merge_file_wzulJk
 </aside>
 ### Footer
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_srebSp
+=======
+<<<<<<< .merge_file_3zePlE
+=======
+<<<<<<< HEAD
+</aside>
+### Footer
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+</aside>
+### Footer
+=======
+>>>>>>> .merge_file_ydSnRx
+>>>>>>> .merge_file_8LYICu
+  </nav>
+</aside>
+```
+
+### Footer
+```html
+<<<<<<< .merge_file_srebSp
+=======
+<<<<<<< .merge_file_3zePlE
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_8LYICu
+=======
+</aside>
+### Footer
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_srebSp
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ydSnRx
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_8LYICu
+>>>>>>> .merge_file_1NBCDj
 <footer class="footer">
   <div class="footer-content">
     <div class="footer-section">
       <h3>Contatti</h3>
       <!-- Contatti -->
     </div>
+<<<<<<< .merge_file_wzulJk
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_srebSp
+=======
+<<<<<<< .merge_file_3zePlE
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1NBCDj
       <h3>Link Utili</h3>
       <!-- Link -->
   <div class="footer-bottom">
     <p>&copy; 2024 Nome Applicazione</p>
 </footer>
 ## 📱 Responsive
+<<<<<<< .merge_file_wzulJk
+=======
+=======
+>>>>>>> .merge_file_ydSnRx
+>>>>>>> .merge_file_8LYICu
+    <div class="footer-section">
+      <h3>Link Utili</h3>
+      <!-- Link -->
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2024 Nome Applicazione</p>
+  </div>
+</footer>
+```
+
+## 📱 Responsive
+
+<<<<<<< .merge_file_srebSp
+=======
+=======
+<<<<<<< .merge_file_3zePlE
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_8LYICu
+      <h3>Link Utili</h3>
+      <!-- Link -->
+  <div class="footer-bottom">
+    <p>&copy; 2024 Nome Applicazione</p>
+</footer>
+## 📱 Responsive
+<<<<<<< .merge_file_srebSp
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ydSnRx
+>>>>>>> .merge_file_8LYICu
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1NBCDj
 ### Breakpoints
 ```scss
 $breakpoints: (
@@ -209,7 +543,45 @@ $breakpoints: (
   'xl': 1200px,
   'xxl': 1400px
 );
+<<<<<<< .merge_file_wzulJk
 ### Media Queries
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_srebSp
+=======
+<<<<<<< .merge_file_3zePlE
+=======
+<<<<<<< HEAD
+### Media Queries
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+### Media Queries
+=======
+>>>>>>> .merge_file_ydSnRx
+>>>>>>> .merge_file_8LYICu
+```
+
+### Media Queries
+```scss
+<<<<<<< .merge_file_srebSp
+=======
+### Media Queries
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_3zePlE
+<<<<<<< HEAD
+=======
+=======
+### Media Queries
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ydSnRx
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_8LYICu
+>>>>>>> .merge_file_1NBCDj
 @mixin media-up($breakpoint) {
   @if map-has-key($breakpoints, $breakpoint) {
     @media (min-width: map-get($breakpoints, $breakpoint)) {
@@ -217,10 +589,47 @@ $breakpoints: (
     }
   }
 }
+<<<<<<< .merge_file_wzulJk
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_srebSp
+
+=======
+=======
+<<<<<<< .merge_file_3zePlE
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_ydSnRx
+>>>>>>> .merge_file_8LYICu
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1NBCDj
 // Utilizzo
 .element {
   @include media-up('md') {
     // Stili per schermi md e superiori
+<<<<<<< .merge_file_wzulJk
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_srebSp
+=======
+<<<<<<< .merge_file_3zePlE
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1NBCDj
 ## 🎨 Utility
 ### Spacing
 <div class="m-3 p-3">Margine e padding</div>
@@ -239,3 +648,97 @@ $breakpoints: (
 - [Performance](./standards/performance.md)
 
 ```
+<<<<<<< .merge_file_wzulJk
+=======
+=======
+>>>>>>> .merge_file_ydSnRx
+>>>>>>> .merge_file_8LYICu
+  }
+}
+```
+
+## 🎨 Utility
+
+### Spacing
+```html
+<div class="m-3 p-3">Margine e padding</div>
+<div class="mt-2 mb-4">Margine top e bottom</div>
+<div class="px-4">Padding orizzontale</div>
+```
+
+### Display
+```html
+<div class="d-flex">Flexbox</div>
+<div class="d-grid">Grid</div>
+<div class="d-none d-md-block">Nascosto su mobile</div>
+```
+
+### Position
+```html
+<div class="position-relative">
+  <div class="position-absolute top-0 end-0">
+    <!-- Elemento posizionato -->
+  </div>
+</div>
+```
+
+## 🔗 Collegamenti
+- [Componenti Base](./base-components.md)
+- [Performance](./standards/performance.md)
+- [Accessibilità](./standards/accessibility.md)
+<<<<<<< .merge_file_srebSp
+=======
+=======
+<<<<<<< .merge_file_3zePlE
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_8LYICu
+## 🎨 Utility
+### Spacing
+<div class="m-3 p-3">Margine e padding</div>
+<div class="mt-2 mb-4">Margine top e bottom</div>
+<div class="px-4">Padding orizzontale</div>
+### Display
+<div class="d-flex">Flexbox</div>
+<div class="d-grid">Grid</div>
+<div class="d-none d-md-block">Nascosto su mobile</div>
+### Position
+<div class="position-relative">
+  <div class="position-absolute top-0 end-0">
+    <!-- Elemento posizionato -->
+## 🔗 Collegamenti
+- [Componenti Base](./base-components.md)
+- [Performance](./standards/performance.md)
+<<<<<<< HEAD
+
+```
+=======
+- [Accessibilità](./standards/accessibility.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [Accessibilità](./standards/accessibility.md) 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_srebSp
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ydSnRx
+>>>>>>> .merge_file_8LYICu
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1NBCDj

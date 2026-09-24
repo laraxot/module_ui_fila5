@@ -111,6 +111,54 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
     protected static ?string $pollingInterval = null;
     protected static bool $isLazy = true;
     
+<<<<<<< .merge_file_kkJHNo
+=======
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Jhw6me
+=======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_zeGhgK
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_Jhw6me
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_GfD47w
     // Configurazioni comuni per tutti i widget di statistiche UI
     protected static function getDefaultStats(): array
     {
@@ -118,13 +166,125 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
             // Statistiche di default
         ];
     }
+<<<<<<< .merge_file_kkJHNo
     
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_Jhw6me
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_Jhw6me
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_GfD47w
     // Metodi helper comuni
     protected function formatNumber(int|float $number): string
     {
         return number_format($number);
     }
+<<<<<<< .merge_file_kkJHNo
     
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_Jhw6me
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_Jhw6me
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_GfD47w
     protected function formatPercentage(int|float $percentage): string
     {
         return number_format($percentage, 1) . '%';
@@ -151,14 +311,114 @@ abstract class UIBaseTestWidget extends XotBaseWidget
     protected static string $view = 'ui::filament.widgets.base-test';
     protected static bool $isLazy = true;
     protected static ?string $pollingInterval = null;
+<<<<<<< .merge_file_kkJHNo
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Jhw6me
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_GfD47w
     
     // Configurazioni comuni per tutti i widget di test UI
     public array $widgets = [];
     
+<<<<<<< .merge_file_kkJHNo
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_Jhw6me
+=======
+<<<<<<< .merge_file_7rir5z
+>>>>>>> .merge_file_zeGhgK
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Jhw6me
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_u41tzd
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> .merge_file_GfD47w
 
     // Configurazioni comuni per tutti i widget di test UI
     public array $widgets = [];
 
+<<<<<<< .merge_file_kkJHNo
+=======
+<<<<<<< .merge_file_Jhw6me
+=======
+<<<<<<< .merge_file_7rir5z
+>>>>>>> .merge_file_zeGhgK
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< .merge_file_Jhw6me
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> .merge_file_u41tzd
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_GfD47w
     // Metodi helper comuni
     protected function getTestData(): array
     {
@@ -191,6 +451,70 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
     protected static ?string $description = null;
     protected static ?string $pollingInterval = null;
     
+<<<<<<< .merge_file_kkJHNo
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_Jhw6me
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_Jhw6me
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_GfD47w
     // Configurazioni comuni per tutti i grafici UI
     protected function getDefaultChartOptions(): array
     {
@@ -204,7 +528,75 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
             ],
         ];
     }
+<<<<<<< .merge_file_kkJHNo
     
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_Jhw6me
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+=======
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+>>>>>>> .merge_file_zeGhgK
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_Jhw6me
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_GfD47w
     // Metodi helper comuni
     protected function formatChartData(array $data): array
     {
@@ -288,6 +680,73 @@ class SystemTestWidget extends UIBaseTestWidget
 {
     protected static string $view = 'ui::filament.widgets.system-test';
     
+<<<<<<< .merge_file_kkJHNo
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_Jhw6me
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+=======
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_Jhw6me
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_GfD47w
     public function getViewData(): array
     {
         return array_merge(
@@ -298,7 +757,66 @@ class SystemTestWidget extends UIBaseTestWidget
             ]
         );
     }
+<<<<<<< .merge_file_kkJHNo
     
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_Jhw6me
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_Jhw6me
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_GfD47w
     private function getSystemInfo(): array
     {
         return [
@@ -307,7 +825,63 @@ class SystemTestWidget extends UIBaseTestWidget
             'memory_usage' => memory_get_usage(true),
         ];
     }
+<<<<<<< .merge_file_kkJHNo
     
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_Jhw6me
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_Jhw6me
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_GfD47w
     private function getDatabaseStatus(): array
     {
         try {
@@ -339,14 +913,83 @@ class SystemTestWidget extends UIBaseTestWidget
 
 ## 🔗 Collegamenti Correlati
 
+<<<<<<< .merge_file_kkJHNo
 - [XotBase Patterns](../../Xot/docs/optimization_opportunities.md)
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_Jhw6me
+=======
+<<<<<<< .merge_file_7rir5z
+- [XotBase Patterns](../../xot/docs/optimization_opportunities.md)
+=======
+<<<<<<< HEAD
+- [XotBase Patterns](../../Xot/docs/optimization_opportunities.md)
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_zeGhgK
+- [XotBase Patterns](../../xot/docs/optimization_opportunities.md)
+=======
+- [XotBase Patterns](../../Xot/docs/optimization_opportunities.md)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_Jhw6me
+=======
+>>>>>>> laraxot/dev
+=======
+- [XotBase Patterns](../../Xot/docs/optimization_opportunities.md)
+=======
+- [XotBase Patterns](../../xot/docs/optimization_opportunities.md)
+>>>>>>> .merge_file_u41tzd
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> .merge_file_GfD47w
 - [UI Components](components.md)
 - [Development Guidelines](development-guidelines.md)
 - [Testing Strategy](testing-strategy.md)
 
 ---
 
+<<<<<<< .merge_file_kkJHNo
 *Ultimo aggiornamento: Giugno 2025*
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_Jhw6me
+*Autore: Analisi Automatica del Progetto*
+=======
+=======
+<<<<<<< .merge_file_7rir5z
+*Autore: Analisi Automatica del Progetto*
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+*Autore: Analisi Automatica del Progetto*
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
+*Ultimo aggiornamento: Giugno 2025*
+<<<<<<< HEAD
+*Autore: Analisi Automatica del Progetto*
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Autore: Analisi Automatica del Progetto*
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Autore: Analisi Automatica del Progetto*
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_Jhw6me
+=======
+=======
+*Ultimo aggiornamento: Giugno 2025*
+>>>>>>> .merge_file_u41tzd
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> .merge_file_GfD47w
 *Autore: Analisi Automatica del Progetto*
 # Ottimizzazioni Widget - Modulo UI
 ## Panoramica
@@ -512,3 +1155,53 @@ class SystemTestWidget extends UIBaseTestWidget
 - [Testing Strategy](testing-strategy.md)
 ---
 *Ultimo aggiornamento: Giugno 2025*
+<<<<<<< .merge_file_kkJHNo
+=======
+<<<<<<< .merge_file_Jhw6me
+<<<<<<< HEAD
+=======
+*Autore: Analisi Automatica del Progetto*
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< .merge_file_7rir5z
+<<<<<<< HEAD
+=======
+*Autore: Analisi Automatica del Progetto*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+*Autore: Analisi Automatica del Progetto*
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zeGhgK
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_Jhw6me
+*Autore: Analisi Automatica del Progetto*
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+=======
+*Autore: Analisi Automatica del Progetto*
+>>>>>>> .merge_file_u41tzd
+>>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_GfD47w
