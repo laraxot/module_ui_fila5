@@ -1,10 +1,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Changelog
 
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
 =======
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # Changelog
 
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
@@ -16,6 +22,11 @@ Tutte le variazioni importanti di UI saranno generate automaticamente da semanti
 
 # Changelog
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 # Changelog
@@ -36,6 +47,10 @@ Tutte le variazioni importanti di UI saranno generate automaticamente da semanti
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 ---
@@ -62,6 +77,11 @@ Tutte le variazioni importanti di UI saranno generate automaticamente da semanti
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
@@ -75,8 +95,11 @@ Tutte le variazioni importanti di UI saranno generate automaticamente da semanti
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 =======
 # Changelog
 
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
