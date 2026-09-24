@@ -2,22 +2,10 @@
 
 declare(strict_types=1);
 
-<<<<<<< .merge_file_9reUB9
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/en/location_selector.php
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_gMbs1u
 return [
     'region' => [
         'label' => 'Region',
@@ -38,10 +26,6 @@ return [
         'region_required_for_province' => 'You must select a region before choosing the province',
         'region_province_required_for_cap' => 'You must select region and province before choosing the postal code',
     ],
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     'navigation' => [
         'label' => 'Missing Navigation Label',
         'plural_label' => 'Missing Navigation Plural Label',
@@ -55,9 +39,4 @@ return [
     ],
     'actions' => [
     ],
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 ];
