@@ -8,7 +8,46 @@ updated: "2026-05-26"
 related:
   - "../../Xot/docs/wiki/concepts/agent-confidence-discipline.md"
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/152"
+<<<<<<< .merge_file_1Gw0JP
 issue: "https://github.com/provtv/<nome repository>/issues/152"
+=======
+<<<<<<< .merge_file_1Ly1Nm
+=======
+<<<<<<< .merge_file_ml4ocb
+>>>>>>> .merge_file_IHiI5y
+=======
+<<<<<<< HEAD
+issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/152"
+<<<<<<< HEAD
+<<<<<<< .merge_file_1Ly1Nm
+=======
+=======
+=======
+<<<<<<< HEAD
+issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/152"
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_IHiI5y
+issue: "https://github.com/provtv/<nome repository>/issues/152"
+=======
+=======
+issue: "https://github.com/provtv/<nome repository>/issues/152"
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_1Ly1Nm
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+issue: "https://github.com/provtv/<nome repository>/issues/152"
+=======
+>>>>>>> .merge_file_41njDI
+>>>>>>> .merge_file_IHiI5y
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_J0lvgS
 ---
 
 # Disciplina agenti per massimizzare la confidenza

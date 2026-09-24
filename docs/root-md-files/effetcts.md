@@ -1,3 +1,54 @@
+<<<<<<< .merge_file_6HEZBC
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_L8JO15
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_3Lqeif
+---
+title: "Effetcts"
+type: concept
+tags: [effetcts]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "effetcts effetcts"
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+related:
+  - "./api-relocated.md"
+  - "./api.md"
+  - "./blocks-relocated.md"
+  - "./blocks.md"
+  - "./carousel-slider.md"
+  - "./changelog.md"
+  - "./chunk.md"
+  - "./ci.md"
+---
+
+<<<<<<< .merge_file_L8JO15
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_3Lqeif
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_oEJZ9x
 https://mridul2820.github.io/css-js/
 
 https://github.com/Mridul2820/css-js

@@ -257,6 +257,21 @@ class Dashboard extends Component
 {
     protected static string $layout = AdminLayout::class;
 
+<<<<<<< .merge_file_LzCg5Z
+=======
+=======
+<<<<<<< .merge_file_QEVGqc
+    
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rnMhrW
+>>>>>>> .merge_file_YRqlnG
     protected function getLayoutData(): array
     {
         return [
@@ -282,7 +297,25 @@ class Dashboard extends Component
 }
 ```
 
+<<<<<<< .merge_file_LzCg5Z
 #### PrintLayout
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_QEVGqc
+=======
+#### PrintLayout
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_rnMhrW
+#### PrintLayout
+=======
+#### PrintLayout 
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_QEVGqc
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rnMhrW
+>>>>>>> .merge_file_YRqlnG
 ```php
 use Modules\UI\Layouts\PrintLayout;
 
@@ -290,6 +323,21 @@ class StampaPratica extends Component
 {
     protected static string $layout = PrintLayout::class;
 
+<<<<<<< .merge_file_LzCg5Z
+=======
+=======
+<<<<<<< .merge_file_QEVGqc
+    
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+
+=======
+    
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rnMhrW
+>>>>>>> .merge_file_YRqlnG
     protected function getLayoutData(): array
     {
         return [
@@ -332,7 +380,25 @@ return [
             'warning' => '#f59e0b',
             'danger' => '#ef4444',
         ],
+<<<<<<< .merge_file_LzCg5Z
 
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_QEVGqc
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_rnMhrW
+
+=======
+        
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_QEVGqc
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rnMhrW
+>>>>>>> .merge_file_YRqlnG
         // Tipografia
         'typography' => [
             'fonts' => [
@@ -346,19 +412,67 @@ return [
             ],
         ],
 
+<<<<<<< .merge_file_LzCg5Z
+=======
+=======
+<<<<<<< .merge_file_QEVGqc
+        
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rnMhrW
+>>>>>>> .merge_file_YRqlnG
         // Spaziature
         'spacing' => [
             'base' => '1rem',
             'lg' => '1.5rem',
             'xl' => '2rem',
         ],
+<<<<<<< .merge_file_LzCg5Z
 
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_QEVGqc
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_rnMhrW
+
+=======
+        
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_QEVGqc
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rnMhrW
+>>>>>>> .merge_file_YRqlnG
         // Bordi
         'border' => [
             'radius' => '0.375rem',
             'width' => '1px',
         ],
 
+<<<<<<< .merge_file_LzCg5Z
+=======
+=======
+<<<<<<< .merge_file_QEVGqc
+        
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+
+=======
+        
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rnMhrW
+>>>>>>> .merge_file_YRqlnG
         // Ombre
         'shadows' => [
             'sm' => '0 1px 2px 0 rgb(0 0 0 / 0.05)',
@@ -463,4 +577,22 @@ AdminLayout::make()
 4. **Manutenibilità**
    - Documentare personalizzazioni
    - Seguire convenzioni di naming
+<<<<<<< .merge_file_LzCg5Z
    - Centralizzare configurazioni
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_QEVGqc
+=======
+   - Centralizzare configurazioni
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_rnMhrW
+   - Centralizzare configurazioni
+=======
+   - Centralizzare configurazioni 
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_QEVGqc
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rnMhrW
+>>>>>>> .merge_file_YRqlnG

@@ -56,10 +56,53 @@ qmd search "<topic>"
 \`\`\`
 ./laravel/Modules/UI/docs/
 └── wiki/                    # Knowledge base locale
+<<<<<<< .merge_file_wSt4RR
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_p4Z5cM
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_JOiRRX
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_t5KhOU
     ├── rules/INDEX.md      # Indice rules modulo-specifiche
     ├── skills/INDEX.md     # Indice skills modulo-specifiche
     ├── commands/INDEX.md   # Indici commands
     └── memories/INDEX.md   # Indice memories
+<<<<<<< .merge_file_wSt4RR
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_p4Z5cM
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_JOiRRX
+=======
+    ├── rules/index.md      # Indice rules modulo-specifiche
+    ├── skills/index.md     # Indice skills modulo-specifiche
+    ├── commands/index.md   # Indici commands
+    └── memories/index.md   # Indice memories
+>>>>>>> 92912795 (.)
+<<<<<<< .merge_file_p4Z5cM
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_JOiRRX
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_t5KhOU
 \`\`\`
 
 ## Quick Reference
@@ -74,6 +117,30 @@ qmd search "<topic>"
 ## Regole Critiche per Module
 
 1. **Nessun bootstrap pesante** — Non elencare rules in AGENTS.md o CLAUDE.md
+<<<<<<< .merge_file_wSt4RR
+=======
+=======
+<<<<<<< HEAD
+1. **Nessun bootstrap pesante** — Non elencare rules in AGENTS.md o CLAUDE.md
+=======
+<<<<<<< .merge_file_p4Z5cM
+1. **Nessun bootstrap pesante** — Non elencare rules in agents.md o CLAUDE.md
+>>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+1. **Nessun bootstrap pesante** — Non elencare rules in agents.md o CLAUDE.md
+>>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+1. **Nessun bootstrap pesante** — Non elencare rules in AGENTS.md o CLAUDE.md
+=======
+1. **Nessun bootstrap pesante** — Non elencare rules in agents.md o CLAUDE.md
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_JOiRRX
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_t5KhOU
 2. **Carica only what you need** — Ogni task carica max 3-5 file
 3. **Mantieni la wiki aggiornata** — Dopo ogni task, aggiorna ./laravel/Modules/UI/docs/wiki/log.md
 4. **Rispetta la trigger map** — Se esiste, usala; altrimenti usa qmd search

@@ -2,6 +2,21 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_tedp2P
+=======
+<<<<<<< .merge_file_0Chidh
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_QgprHQ
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+return [
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_n7t8qi
+>>>>>>> .merge_file_eA0FLl
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
@@ -18,7 +33,21 @@ declare(strict_types=1);
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
+<<<<<<< .merge_file_tedp2P
 return [
+=======
+=======
+return [
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_0Chidh
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+return [
+>>>>>>> .merge_file_x7KnW1
+>>>>>>> .merge_file_n7t8qi
+>>>>>>> .merge_file_eA0FLl
     'page' => [
         'title' => 'S3 and CloudFront Test',
         'heading' => 'AWS Configuration Test',

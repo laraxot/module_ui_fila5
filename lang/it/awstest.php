@@ -2,6 +2,21 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_rzVpBW
+=======
+<<<<<<< .merge_file_aO7CD3
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_vkD52q
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+return [
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ztLYet
+>>>>>>> .merge_file_JSLbEp
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
@@ -25,6 +40,18 @@ declare(strict_types=1);
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
 return [
+<<<<<<< .merge_file_rzVpBW
+=======
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_aO7CD3
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+return [
+>>>>>>> .merge_file_0eHKaq
+>>>>>>> .merge_file_ztLYet
+>>>>>>> .merge_file_JSLbEp
     'page' => [
         'title' => 'Test AWS Diagnostico',
         'heading' => 'Diagnostica Configurazione AWS',
@@ -166,6 +193,32 @@ return [
         ],
         'label' => 'Awstest',
         'sort' => 1,
+<<<<<<< .merge_file_rzVpBW
         'icon' => 'heroicon-o-collection',
+=======
+<<<<<<< .merge_file_aO7CD3
+=======
+<<<<<<< .merge_file_vkD52q
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-collection',
+=======
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-rectangle-stack',
+=======
+>>>>>>> .merge_file_ztLYet
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-collection',
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_aO7CD3
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> .merge_file_0eHKaq
+>>>>>>> .merge_file_ztLYet
+>>>>>>> .merge_file_JSLbEp
     ],
 ];

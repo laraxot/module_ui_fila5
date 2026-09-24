@@ -6,6 +6,28 @@ tags: [redundancy, ui, filament, traits]
 created: "2026-05-26"
 updated: "2026-05-26"
 related:
+<<<<<<< .merge_file_nXlHN5
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_v2DNwD
+=======
+<<<<<<< .merge_file_oPq61Y
+>>>>>>> .merge_file_1PRaEZ
+  - ../../../../Xot/docs/wiki/concepts/code-redundancy-philosophy.md
+  - ../../../redundancy-audit-2026-05-21.md
+  - ../../../redundancy-report.md
+=======
+<<<<<<< .merge_file_v2DNwD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  - ../../../../Xot/docs/wiki/concepts/code-redundancy-philosophy.md
+  - ../../../redundancy-audit-2026-05-21.md
+  - ../../../redundancy-report.md
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KTtigT
   - "./auth-register-focus-loss-overlay.md"
   - "./block-rendering-and-optional-services.md"
   - "./claude-audit-static.md"
@@ -14,6 +36,32 @@ related:
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
   - "./enum-select-usage.md"
+<<<<<<< .merge_file_nXlHN5
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1PRaEZ
+  - "./auth-register-focus-loss-overlay.md"
+  - "./block-rendering-and-optional-services.md"
+  - "./claude-audit-static.md"
+  - "./context-overflow-prevention.md"
+  - "./enum-select-best-practices.md"
+  - "./enum-select-component.md"
+  - "./enum-select-contract-and-false-friends.md"
+  - "./enum-select-usage.md"
+<<<<<<< .merge_file_v2DNwD
+=======
+=======
+  - ../../../../Xot/docs/wiki/concepts/code-redundancy-philosophy.md
+  - ../../../redundancy-audit-2026-05-21.md
+  - ../../../redundancy-report.md
+>>>>>>> .merge_file_aDrmds
+>>>>>>> .merge_file_1PRaEZ
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KTtigT
 ---
 
 # Ridondanza — UI

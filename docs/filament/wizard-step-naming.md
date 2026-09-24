@@ -1,3 +1,20 @@
+<<<<<<< .merge_file_CpUATC
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_FX8sPE
+=======
+=======
+<<<<<<< .merge_file_ftQhwj
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_JnAYCC
+>>>>>>> .merge_file_A6GHvX
+>>>>>>> .merge_file_OdaEgn
 ---
 title: "Convenzioni di Naming per i Wizard Step in Filament"
 type: concept
@@ -5,10 +22,36 @@ tags: [wizard, step, naming]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "wizard-step-naming convenzioni di naming per i wizard step in filament"
+<<<<<<< .merge_file_CpUATC
+=======
+<<<<<<< .merge_file_FX8sPE
+=======
+<<<<<<< .merge_file_ftQhwj
+>>>>>>> .merge_file_A6GHvX
+<<<<<<< HEAD
+>>>>>>> .merge_file_OdaEgn
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+<<<<<<< .merge_file_CpUATC
+=======
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_FX8sPE
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_JnAYCC
+>>>>>>> .merge_file_A6GHvX
+>>>>>>> .merge_file_OdaEgn
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -20,6 +63,23 @@ related:
   - "./filament-4-migration-sumy.md"
 ---
 
+<<<<<<< .merge_file_CpUATC
+=======
+<<<<<<< .merge_file_FX8sPE
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_ftQhwj
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_JnAYCC
+>>>>>>> .merge_file_A6GHvX
+>>>>>>> .merge_file_OdaEgn
 # Convenzioni di Naming per i Wizard Step in Filament
 
 ## Regola Fondamentale

@@ -5,9 +5,41 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Tables\Columns\Column;
+<<<<<<< .merge_file_nsY1OI
 use Filament\Tables\Table;
 use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
 
+=======
+<<<<<<< .merge_file_a3CE68
+=======
+<<<<<<< .merge_file_tR081w
+>>>>>>> .merge_file_6jBa4s
+<<<<<<< HEAD
+
+class GroupColumn extends Column
+=======
+<<<<<<< .merge_file_a3CE68
+use Filament\Tables\Table;
+use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+class GroupColumn extends Column
+=======
+>>>>>>> laraxot/dev
+use Filament\Tables\Table;
+use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
+
+=======
+use Filament\Tables\Table;
+use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
+
+>>>>>>> .merge_file_qrATa5
+>>>>>>> .merge_file_6jBa4s
+>>>>>>> .merge_file_hkKQOa
 /**
  * Groups multiple Filament columns in one cell.
  *
@@ -16,6 +48,21 @@ use Modules\Xot\Filament\Tables\Columns\XotBaseColumn;
  * "The column [x] is not mounted to a table".
  */
 class GroupColumn extends XotBaseColumn
+<<<<<<< .merge_file_nsY1OI
+=======
+<<<<<<< .merge_file_a3CE68
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_tR081w
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_qrATa5
+>>>>>>> .merge_file_6jBa4s
+>>>>>>> .merge_file_hkKQOa
 {
     /** @var array<int|string, mixed> */
     public array $form = [];
@@ -28,6 +75,18 @@ class GroupColumn extends XotBaseColumn
     protected string $view = 'ui::filament.tables.columns.group';
 
     /**
+<<<<<<< .merge_file_nsY1OI
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_a3CE68
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_6jBa4s
+>>>>>>> .merge_file_hkKQOa
      * Initialize the component.
      */
     protected function setUp(): void
@@ -38,6 +97,19 @@ class GroupColumn extends XotBaseColumn
     }
 
     /**
+<<<<<<< .merge_file_nsY1OI
+=======
+<<<<<<< .merge_file_a3CE68
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_6jBa4s
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_hkKQOa
      * @return array<Column>
      */
     public function getFields(): array
@@ -46,11 +118,54 @@ class GroupColumn extends XotBaseColumn
     }
 
     /**
+<<<<<<< .merge_file_nsY1OI
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_a3CE68
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_6jBa4s
+>>>>>>> .merge_file_hkKQOa
      * @param array<int|string, mixed> $form
      */
     public function schema(array $form): static
     {
+<<<<<<< .merge_file_nsY1OI
         $filtered = array_filter($form, static function (mixed $item): bool {
+=======
+<<<<<<< .merge_file_tR081w
+        // Type-check to ensure all elements are Column instances
+        $filtered = array_filter($form, function (mixed $item): bool {
+<<<<<<< .merge_file_a3CE68
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_6jBa4s
+     * @param  array<int|string, mixed>  $form
+     */
+    public function schema(array $form): static
+    {
+        $filtered = array_filter($form, static function (mixed $item): bool {
+<<<<<<< .merge_file_a3CE68
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+        $filtered = array_filter($form, static function (mixed $item): bool {
+>>>>>>> .merge_file_qrATa5
+>>>>>>> .merge_file_6jBa4s
+>>>>>>> .merge_file_hkKQOa
             return $item instanceof Column;
         });
 
@@ -58,11 +173,56 @@ class GroupColumn extends XotBaseColumn
         $filteredValues = array_values($filtered);
         $this->schema = $filteredValues;
 
+<<<<<<< .merge_file_nsY1OI
+=======
+<<<<<<< .merge_file_a3CE68
+=======
+<<<<<<< .merge_file_tR081w
+>>>>>>> .merge_file_6jBa4s
+<<<<<<< HEAD
+        return $this;
+    }
+=======
+<<<<<<< .merge_file_a3CE68
+        $this->mountChildrenToTable($this->table);
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        return $this;
+    }
+=======
+>>>>>>> laraxot/dev
+        $this->mountChildrenToTable($this->table);
+=======
+>>>>>>> .merge_file_hkKQOa
         $this->mountChildrenToTable($this->table);
 
         return $this;
     }
 
+    public function table(?Table $table): static
+    {
+        parent::table($table);
+        $this->mountChildrenToTable($table);
+<<<<<<< .merge_file_nsY1OI
+=======
+>>>>>>> .merge_file_qrATa5
+>>>>>>> .merge_file_6jBa4s
+>>>>>>> .merge_file_hkKQOa
+
+        return $this;
+    }
+
+<<<<<<< .merge_file_nsY1OI
+    private function mountChildrenToTable(?Table $table): void
+    {
+        if (null === $table) {
+=======
+<<<<<<< .merge_file_a3CE68
+=======
+<<<<<<< .merge_file_tR081w
+>>>>>>> .merge_file_6jBa4s
     public function table(?Table $table): static
     {
         parent::table($table);
@@ -73,7 +233,16 @@ class GroupColumn extends XotBaseColumn
 
     private function mountChildrenToTable(?Table $table): void
     {
+        if ($table === null) {
+<<<<<<< .merge_file_a3CE68
+=======
+=======
+    private function mountChildrenToTable(?Table $table): void
+    {
         if (null === $table) {
+>>>>>>> .merge_file_qrATa5
+>>>>>>> .merge_file_6jBa4s
+>>>>>>> .merge_file_hkKQOa
             return;
         }
 
@@ -81,4 +250,19 @@ class GroupColumn extends XotBaseColumn
             $child->table($table);
         }
     }
+<<<<<<< .merge_file_nsY1OI
+=======
+<<<<<<< .merge_file_a3CE68
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_tR081w
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_qrATa5
+>>>>>>> .merge_file_6jBa4s
+>>>>>>> .merge_file_hkKQOa
 }

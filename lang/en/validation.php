@@ -2,10 +2,40 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_V5iOIX
+=======
+<<<<<<< .merge_file_CEUX4N
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_twosKH
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ADAS5j
+>>>>>>> .merge_file_0DZ292
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/en/validation.php
+<<<<<<< .merge_file_V5iOIX
+=======
+<<<<<<< .merge_file_CEUX4N
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_fHlJtI
+>>>>>>> .merge_file_ADAS5j
+>>>>>>> .merge_file_0DZ292
 return [
     'opening_hours' => [
         'morning' => 'morning',

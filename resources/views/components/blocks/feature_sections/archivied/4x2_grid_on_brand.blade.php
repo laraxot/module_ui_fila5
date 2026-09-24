@@ -1,7 +1,18 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_A9Q7JI
 
+=======
+<<<<<<< .merge_file_hfPxQM
+
+=======
+<<<<<<< .merge_file_WfSYxO
+
+=======
+>>>>>>> .merge_file_cb56LK
+>>>>>>> .merge_file_J3YODJ
+>>>>>>> .merge_file_luKt8A
 ?>
 <div class="bg-indigo-700">
     <div class="mx-auto max-w-4xl px-6 py-24 sm:py-32 lg:max-w-7xl lg:px-8 lg:py-40">

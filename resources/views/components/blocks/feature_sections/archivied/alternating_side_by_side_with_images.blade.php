@@ -1,7 +1,18 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_e3j9m0
 
+=======
+<<<<<<< .merge_file_HmTcHw
+
+=======
+<<<<<<< .merge_file_NlMyqR
+
+=======
+>>>>>>> .merge_file_W9KEoN
+>>>>>>> .merge_file_N5GYep
+>>>>>>> .merge_file_6OZNs2
 ?>
 <div class="overflow-hidden bg-gray-50 py-16 lg:py-24">
     <div class="relative mx-auto max-w-xl px-6 lg:max-w-7xl lg:px-8">

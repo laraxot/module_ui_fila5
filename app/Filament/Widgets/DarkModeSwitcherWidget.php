@@ -11,7 +11,28 @@ use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
 {
+<<<<<<< .merge_file_gqp9Oc
     public ?array $data = [];
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_pWUNYF
+=======
+    public ?array $data = [];
+>>>>>>> laraxot/dev
+=======
+    public ?array $data = [];
+=======
+<<<<<<< HEAD
+    public ?array $data = [];
+=======
+<<<<<<< HEAD
+=======
+    public ?array $data = [];
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SaihbT
+>>>>>>> .merge_file_w9m0Nw
 
     public bool $darkMode = false;
 
@@ -45,6 +66,24 @@ final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
         return [];
     }
 
+<<<<<<< .merge_file_gqp9Oc
+=======
+<<<<<<< .merge_file_pWUNYF
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< .merge_file_XHDFt3
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_4zuboB
+>>>>>>> .merge_file_SaihbT
+>>>>>>> .merge_file_w9m0Nw
     /**
      * Disabilitabile via config per temi/test (default: visibile).
      */
@@ -53,6 +92,21 @@ final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
         return (bool) config('ui.dark_mode_switcher.enabled', true);
     }
 
+<<<<<<< .merge_file_gqp9Oc
+=======
+<<<<<<< .merge_file_pWUNYF
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_XHDFt3
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_4zuboB
+>>>>>>> .merge_file_SaihbT
+>>>>>>> .merge_file_w9m0Nw
     public function render(): View
     {
         return view($this->view, [

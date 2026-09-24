@@ -1,3 +1,20 @@
+<<<<<<< .merge_file_Cyk9ni
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_GVVrTj
+=======
+=======
+<<<<<<< .merge_file_v9yod4
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_YQvVjX
+>>>>>>> .merge_file_FZnHVe
+>>>>>>> .merge_file_g6Q6fe
 ---
 title: "Master Layout Documentation"
 type: concept
@@ -5,6 +22,37 @@ tags: [master]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "master master layout documentation"
+<<<<<<< .merge_file_Cyk9ni
+=======
+<<<<<<< .merge_file_GVVrTj
+=======
+<<<<<<< .merge_file_v9yod4
+>>>>>>> .merge_file_FZnHVe
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+related:
+---
+
+<<<<<<< .merge_file_GVVrTj
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_g6Q6fe
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
@@ -12,6 +60,13 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 ---
 
+<<<<<<< .merge_file_Cyk9ni
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YQvVjX
+>>>>>>> .merge_file_FZnHVe
+>>>>>>> .merge_file_g6Q6fe
 # Master Layout Documentation
 
 ## Overview

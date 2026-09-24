@@ -265,3 +265,20 @@ php artisan test --filter=Xot
 
 # Check for any new errors
 ./vendor/bin/phpstan analyse Modules
+<<<<<<< .merge_file_iv7Xsn
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CtY6Co
+
+```
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+
+```
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KmI7XY
+>>>>>>> .merge_file_VwX7Al

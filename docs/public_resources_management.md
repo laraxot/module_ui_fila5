@@ -1,4 +1,59 @@
+<<<<<<< .merge_file_XSDiba
 # Gestione delle Risorse Pubbliche
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_F4WqLa
+# Gestione delle Risorse Pubbliche 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ksBlhR
+# Gestione delle Risorse Pubbliche 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Gestione delle Risorse Pubbliche 
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fDusGs
+# Gestione delle Risorse Pubbliche
+=======
+<<<<<<< HEAD
+# Gestione delle Risorse Pubbliche 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Gestione delle Risorse Pubbliche 
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+# Gestione delle Risorse Pubbliche
+=======
+# Gestione delle Risorse Pubbliche 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_F4WqLa
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+# Gestione delle Risorse Pubbliche
+=======
+# Gestione delle Risorse Pubbliche 
+>>>>>>> .merge_file_utGBGx
+>>>>>>> .merge_file_fDusGs
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Lz9ESD
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -16,8 +71,62 @@ Questo documento descrive la corretta gestione delle risorse pubbliche (immagini
 La struttura corretta per le risorse pubbliche  è la seguente:
 
 ```
+<<<<<<< .merge_file_XSDiba
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_F4WqLa
+/var/www/html/<nome progetto>/
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ksBlhR
+/var/www/html/<nome progetto>/
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/var/www/html/<nome progetto>/
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fDusGs
+/var/www/html/saluteora/
+<<<<<<< HEAD
+[project-root]/
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_Lz9ESD
 /var/www/html/saluteora/
 [project-root]/
+<<<<<<< .merge_file_XSDiba
+=======
+=======
+/var/www/html/saluteora/
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_F4WqLa
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+/var/www/html/saluteora/
+[project-root]/
+=======
+/var/www/html/<nome progetto>/
+>>>>>>> .merge_file_utGBGx
+>>>>>>> .merge_file_fDusGs
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Lz9ESD
 ├── public_html/           # Directory pubblica principale
 │   ├── images/            # Immagini pubbliche
 │   ├── css/               # File CSS
@@ -27,15 +136,127 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 └── laravel/               # Applicazione Laravel (NON contiene file pubblici)
 ```
 
+<<<<<<< .merge_file_XSDiba
 > **IMPORTANTE**: MAI utilizzare `/var/www/html/saluteora/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di SaluteOra.
 > **IMPORTANTE**: MAI utilizzare `[project-root]/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>corrente.
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_F4WqLa
+> **IMPORTANTE**: MAI utilizzare `/var/www/html/<nome progetto>/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>.
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ksBlhR
+> **IMPORTANTE**: MAI utilizzare `/var/www/html/<nome progetto>/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+> **IMPORTANTE**: MAI utilizzare `/var/www/html/<nome progetto>/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fDusGs
+> **IMPORTANTE**: MAI utilizzare `/var/www/html/saluteora/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di SaluteOra.
+<<<<<<< HEAD
+> **IMPORTANTE**: MAI utilizzare `[project-root]/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>corrente.
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+> **IMPORTANTE**: MAI utilizzare `/var/www/html/saluteora/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di SaluteOra.
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+> **IMPORTANTE**: MAI utilizzare `[project-root]/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>corrente.
+=======
+> **IMPORTANTE**: MAI utilizzare `/var/www/html/saluteora/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di SaluteOra.
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_F4WqLa
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+> **IMPORTANTE**: MAI utilizzare `/var/www/html/saluteora/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di SaluteOra.
+> **IMPORTANTE**: MAI utilizzare `[project-root]/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>corrente.
+=======
+> **IMPORTANTE**: MAI utilizzare `/var/www/html/<nome progetto>/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>.
+>>>>>>> .merge_file_utGBGx
+>>>>>>> .merge_file_fDusGs
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Lz9ESD
 
 ## Tipi di Risorse
 
 ### Immagini
 
+<<<<<<< .merge_file_XSDiba
 Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/images/` e organizzate in sottocartelle per tipologia:
 Le immagini devono essere posizionate in `[project-root]/public_html/images/` e organizzate in sottocartelle per tipologia:
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_F4WqLa
+Le immagini devono essere posizionate in `/var/www/html/<nome progetto>/public_html/images/` e organizzate in sottocartelle per tipologia:
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ksBlhR
+Le immagini devono essere posizionate in `/var/www/html/<nome progetto>/public_html/images/` e organizzate in sottocartelle per tipologia:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Le immagini devono essere posizionate in `/var/www/html/<nome progetto>/public_html/images/` e organizzate in sottocartelle per tipologia:
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fDusGs
+Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/images/` e organizzate in sottocartelle per tipologia:
+<<<<<<< HEAD
+Le immagini devono essere posizionate in `[project-root]/public_html/images/` e organizzate in sottocartelle per tipologia:
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/images/` e organizzate in sottocartelle per tipologia:
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+Le immagini devono essere posizionate in `[project-root]/public_html/images/` e organizzate in sottocartelle per tipologia:
+=======
+Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/images/` e organizzate in sottocartelle per tipologia:
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_F4WqLa
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/images/` e organizzate in sottocartelle per tipologia:
+Le immagini devono essere posizionate in `[project-root]/public_html/images/` e organizzate in sottocartelle per tipologia:
+=======
+Le immagini devono essere posizionate in `/var/www/html/<nome progetto>/public_html/images/` e organizzate in sottocartelle per tipologia:
+>>>>>>> .merge_file_utGBGx
+>>>>>>> .merge_file_fDusGs
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Lz9ESD
 
 - `/images/avatars/` - Avatar utenti
 - `/images/logos/` - Loghi
@@ -102,11 +323,80 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 ### Avatar Utente
 
 ```blade
+<<<<<<< .merge_file_XSDiba
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_F4WqLa
+=======
+<<<<<<< .merge_file_ksBlhR
+>>>>>>> .merge_file_fDusGs
+<img 
+    src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}" 
+    alt="{{ $user->name }}" 
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_F4WqLa
+<img
+    src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}"
+    alt="{{ $user->name }}"
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_fDusGs
+<img 
+>>>>>>> laraxot/dev
+    src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}" 
+    alt="{{ $user->name }}" 
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_F4WqLa
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_utGBGx
+>>>>>>> .merge_file_Lz9ESD
 <img
     src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}"
     alt="{{ $user->name }}"
     src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}" 
     alt="{{ $user->name }}" 
+<<<<<<< .merge_file_XSDiba
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_fDusGs
+<<<<<<< HEAD
+=======
+<img 
+    src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}" 
+    alt="{{ $user->name }}" 
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<img
+    src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}"
+    alt="{{ $user->name }}"
+=======
+<img 
+    src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}" 
+    alt="{{ $user->name }}" 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< .merge_file_F4WqLa
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fDusGs
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Lz9ESD
     class="h-10 w-10 rounded-full"
 >
 ```
@@ -118,6 +408,65 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
     <img 
         src="{{ asset('images/logos/saluteora-logo.svg') }}" 
         alt="SaluteOra" 
+<<<<<<< .merge_file_XSDiba
+=======
+=======
+        src="{{ asset('images/logos/<nome progetto>-logo.svg') }}" 
+        alt="<nome progetto>" 
+<<<<<<< .merge_file_F4WqLa
+=======
+<<<<<<< HEAD
+    <img 
+=======
+<<<<<<< .merge_file_ksBlhR
+=======
+<<<<<<< HEAD
+    <img 
+<<<<<<< HEAD
+=======
+        src="{{ asset('images/logos/<nome progetto>-logo.svg') }}" 
+        alt="<nome progetto>" 
+=======
+<<<<<<< HEAD
+    <img 
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_fDusGs
+        src="{{ asset('images/logos/saluteora-logo.svg') }}" 
+        alt="SaluteOra" 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    <img 
+        src="{{ asset('images/logos/saluteora-logo.svg') }}" 
+        alt="SaluteOra" 
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+    <img
+        src="{{ asset('images/logos/<nome progetto>ogo.svg') }}"
+        alt="<nome progetto>corrente"
+=======
+    <img 
+        src="{{ asset('images/logos/saluteora-logo.svg') }}" 
+        alt="SaluteOra" 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< .merge_file_F4WqLa
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_utGBGx
+>>>>>>> .merge_file_fDusGs
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Lz9ESD
         class="h-8"
     >
 </a>
@@ -132,5 +481,80 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 
 ## Conclusione
 
+<<<<<<< .merge_file_XSDiba
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto SaluteOra.
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>corrente.
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_F4WqLa
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>.
+=======
+<<<<<<< HEAD
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto SaluteOra.
+<<<<<<< HEAD
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>corrente.
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto SaluteOra.
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>corrente.
+=======
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto SaluteOra.
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_ksBlhR
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>.
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto SaluteOra.
+<<<<<<< HEAD
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>corrente.
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto SaluteOra.
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>corrente.
+=======
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto SaluteOra.
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto SaluteOra.
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>corrente.
+=======
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>.
+>>>>>>> .merge_file_utGBGx
+>>>>>>> .merge_file_fDusGs
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Lz9ESD

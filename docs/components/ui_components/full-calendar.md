@@ -1,3 +1,20 @@
+<<<<<<< .merge_file_6ZT384
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_AcJ599
+=======
+=======
+<<<<<<< .merge_file_yOlMta
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_MZEV0E
+>>>>>>> .merge_file_8HSY6y
+>>>>>>> .merge_file_W4OouG
 ---
 title: "FullCalendar Component"
 type: concept
@@ -5,6 +22,37 @@ tags: [full, calendar]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "full-calendar fullcalendar component"
+<<<<<<< .merge_file_6ZT384
+=======
+<<<<<<< .merge_file_AcJ599
+=======
+<<<<<<< .merge_file_yOlMta
+>>>>>>> .merge_file_8HSY6y
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+related:
+---
+
+<<<<<<< .merge_file_AcJ599
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_W4OouG
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
@@ -12,6 +60,13 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 ---
 
+<<<<<<< .merge_file_6ZT384
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_MZEV0E
+>>>>>>> .merge_file_8HSY6y
+>>>>>>> .merge_file_W4OouG
 # FullCalendar Component
 
 ## Introduction
