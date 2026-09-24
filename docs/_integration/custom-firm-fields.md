@@ -1,26 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< .merge_file_bCcFqi
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_yN6fUW
 ---
 title: "custom_firm_fields"
 type: concept
@@ -40,63 +17,12 @@ related:
   - "./custom-firm-fields-1.md"
   - "./custom-theme-1.md"
 ---
-<<<<<<< .merge_file_bCcFqi
-<<<<<<< HEAD
-=======
-
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> .merge_file_yN6fUW
->>>>>>> laraxot/dev
 # custom_firm_fields
 
 <!-- Contenuto migrato da _docs/custom_firm_fields.txt -->
 
 https://github.com/tanthammar/filament-extras
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 //--- with nested ?
 https://github.com/saade/filament-extra
 
@@ -106,83 +32,9 @@ https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-ca
 <!-- Contenuto migrato da _docs/custom_firm_fields.txt -->
 
 https://github.com/tanthammar/filament-extras
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 
 //--- with nested ?
 https://github.com/saade/filament-extra
 
-<<<<<<< HEAD
 https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-
-https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
-<<<<<<< HEAD
-https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-
-https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
-=======
-https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
->>>>>>> laraxot/dev
-=======
-
-https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
-<<<<<<< .merge_file_bCcFqi
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_yN6fUW

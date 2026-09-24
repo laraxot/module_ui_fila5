@@ -2,39 +2,9 @@
 type: overview
 module: UI
 sources:
-<<<<<<< HEAD
-<<<<<<< .merge_file_EHkzMv
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_ts9fkp
 confidence: high
 updated: 2026-04-15
 related:
-=======
-<<<<<<< .merge_file_EHkzMv
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ts9fkp
-  - ../../../docs/module-ui.md
-  - ../../../docs/philosophy.md
-  - ../../../docs/design-system.md
-  - ../../../docs/table-components.md
-confidence: high
-updated: 2026-04-15
-<<<<<<< .merge_file_EHkzMv
-<<<<<<< HEAD
-=======
-=======
-confidence: high
-updated: 2026-04-15
-related:
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ts9fkp
->>>>>>> laraxot/dev
 ---
 
 # UI Module — Overview

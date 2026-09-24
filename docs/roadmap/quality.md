@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< .merge_file_a2RuCa
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_LO4lQ9
 ---
 title: "Checklist qualità - UI Module"
 type: concept
@@ -15,25 +5,10 @@ tags: [quality]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "quality checklist qualità - ui module"
-<<<<<<< .merge_file_a2RuCa
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_LO4lQ9
 related:
   - "./00-index-1.md"
   - "./00-index.md"
@@ -45,16 +20,6 @@ related:
   - "./03-later.md"
 ---
 
-<<<<<<< .merge_file_a2RuCa
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_LO4lQ9
 # Checklist qualità - UI Module
 
 - [x] PHPStan Level 10

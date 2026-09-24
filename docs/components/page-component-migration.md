@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< .merge_file_nqsQbu
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_JUl5T0
 ---
 title: "Migrazione Componenti di Pagina - Modulo UI"
 type: concept
@@ -15,25 +5,10 @@ tags: [page, component, migration]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "page-component-migration migrazione componenti di pagina - modulo ui"
-<<<<<<< .merge_file_nqsQbu
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_JUl5T0
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -45,16 +20,6 @@ related:
   - "./full-calendar-1.md"
 ---
 
-<<<<<<< .merge_file_nqsQbu
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_JUl5T0
 # Migrazione Componenti di Pagina - Modulo UI
 
 ## Panoramica
