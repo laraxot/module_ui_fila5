@@ -6,10 +6,16 @@ namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\TextColumn;
+<<<<<<< HEAD
 use Modules\UI\Filament\Forms\Components\PersonSection;
 
 /**
  * Controparte in lista di {@see PersonSection}.
+=======
+
+/**
+ * Controparte in lista di {@see \Modules\UI\Filament\Forms\Components\PersonSection}.
+>>>>>>> laraxot/dev
  *
  * Campi diretti sul record (nessuna dot-notation di relazione, a differenza di
  * {@see AddressColumn}): la persona e' il record stesso, non un suo correlato.

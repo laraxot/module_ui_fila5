@@ -45,6 +45,11 @@ discriminante.
   cella, non nello schema.
 
 Test: `tests/Feature/AddressColumnTest.php`, `tests/Feature/OpeningHoursColumnTest.php`.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 - **`PersonColumn`** (`app/Filament/Tables/Columns/PersonColumn.php`) — estende
   `GroupColumn` come `UserColumn` in User: un `TextColumn` per campo, nome diretto
   (`first_name`, non `person.first_name`) perche' la persona e' il record stesso, non
@@ -70,3 +75,7 @@ Test: `tests/Feature/AddressColumnTest.php`, `tests/Feature/OpeningHoursColumnTe
 Test: `tests/Feature/AddressColumnTest.php`, `tests/Feature/OpeningHoursColumnTest.php`,
 `tests/Feature/PersonColumnTest.php`, `tests/Feature/SortableIdColumnTest.php`,
 `tests/Feature/TimestampColumnTest.php`.
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

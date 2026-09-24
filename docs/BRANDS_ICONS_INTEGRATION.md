@@ -230,14 +230,20 @@ php artisan view:clear
 # Test in browser
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # http://fixcity.local/it/tests/homepage
 
 # http://<nome progetto>.local/it/tests/homepage
 # http://app.local/it/tests/homepage
+<<<<<<< HEAD
 # http://<nome progetto>.local/it/tests/homepage
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 # http://fixcity.local/it/tests/homepage
@@ -264,6 +270,9 @@ php artisan view:clear
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
