@@ -98,7 +98,7 @@ describe('Component Model', function (): void {
         $fileName = $reflection->getFileName();
         Assert::assertNotFalse($fileName);
         $content = file_get_contents($fileName);
-        Assert::assertStringContainsString('', $content);
+        Assert::assertStringContainsString('declare(strict_types=1);', $content);
     });
 
     test('has correct namespace', function (): void {
