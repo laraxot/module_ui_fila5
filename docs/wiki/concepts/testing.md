@@ -38,6 +38,12 @@ Contratto: [theme-component-test-contract](../../../../Themes/Sixteen/docs/wiki/
 | `createStub` + `willReturn(null)` | `BaseCalendarWidgetTest.php` |
 | `assertInstanceOf` diretto su `view()` | `ComponentTest.php` |
 
+## Schema DB UI nei test
+
+Niente bootstrap DDL in-test. Skip offline: `TestCase::uiDbUnavailable()` +
+gruppi Pest `ui-db` / `no-ui-db`. Il trait `EnsuresUiDatabaseSchema`
+(`tests/Support/`) è **rimosso** — non reintrodurre (`tests/Support/` vietata).
+
 ## Quality gate
 
 ```bash
