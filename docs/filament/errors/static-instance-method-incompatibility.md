@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_3SNpWT
-=======
-=======
-<<<<<<< .merge_file_c6lcmn
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_qLe0yS
->>>>>>> .merge_file_s09ygx
->>>>>>> laraxot/dev
 ---
 title: "Errore di incompatibilità tra metodi statici e di istanza in Filament"
 type: concept
@@ -22,66 +5,15 @@ tags: [static, instance, method, incompatibility]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "static-instance-method-incompatibility errore di incompatibilità tra metodi statici e di istanza in filament"
-<<<<<<< HEAD
-<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-<<<<<<< .merge_file_3SNpWT
-=======
-<<<<<<< .merge_file_c6lcmn
->>>>>>> .merge_file_s09ygx
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_3SNpWT
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_qLe0yS
->>>>>>> .merge_file_s09ygx
->>>>>>> laraxot/dev
 related:
   - "./common-errors.md"
   - "./dropdown-list-item-tag.md"
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_3SNpWT
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_c6lcmn
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_qLe0yS
->>>>>>> .merge_file_s09ygx
->>>>>>> laraxot/dev
 # Errore di incompatibilità tra metodi statici e di istanza in Filament
 
 ## Problema

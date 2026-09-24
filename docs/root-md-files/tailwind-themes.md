@@ -1,15 +1,8 @@
 <<<<<<< HEAD
-=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
-<<<<<<< .merge_file_rUYW1W
 =======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_gh43H2
 >>>>>>> laraxot/dev
 ---
 title: "Tailwind Themes"
@@ -22,13 +15,13 @@ qmd: "tailwind-themes tailwind themes"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 <<<<<<< HEAD
+=======
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-=======
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
@@ -40,8 +33,8 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
->>>>>>> laraxot/dev
 =======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 related:
   - "./api-relocated.md"
@@ -55,15 +48,10 @@ related:
 ---
 
 <<<<<<< HEAD
-=======
-<<<<<<< .merge_file_rUYW1W
-=======
-<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_gh43H2
->>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your-next-project-3igo
 

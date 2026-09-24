@@ -23,23 +23,6 @@ Labels are automatically resolved using:
 Empty values are automatically skipped to save visual space, except for:
 - `0` (zero)
 - `'0'` (string zero)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_h6AVnh
-=======
-=======
-<<<<<<< .merge_file_rYnQ1u
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ss2wCM
->>>>>>> .merge_file_CLUPXD
->>>>>>> laraxot/dev
 - Visual columns (`IconColumn`, `ColorColumn`, `ImageColumn`): only `null` is skipped — `false` / `0` still render (es. icona boolean false)
 
 ### 4. **Child columns mounted to Table** (obbligatorio)
@@ -68,23 +51,6 @@ GroupColumn::make('id/motivo')->schema([
 Esempio: `HaDirittoColumn` include `ValutatoreSelectColumn` per modificare `valutatore_id` nella stessa cella di ha_diritto/motivo (visibile solo super-admin).
 
 **Motivo lungo** (CSV da `implode(',', $motivi)`): in lista usare `->html()->formatStateUsing(… explode → <br> …)`.
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_h6AVnh
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_rYnQ1u
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_ss2wCM
->>>>>>> .merge_file_CLUPXD
->>>>>>> laraxot/dev
 
 ## Implementation Details
 

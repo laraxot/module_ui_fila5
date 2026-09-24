@@ -1,48 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_SfNl26
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_aJgP8s
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_NhkGBv
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-<<<<<<< .merge_file_SfNl26
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_yQr11U
->>>>>>> .merge_file_NhkGBv
->>>>>>> laraxot/dev
 <?php
 
 declare(strict_types=1);
@@ -52,33 +7,7 @@ declare(strict_types=1);
         <div x-data="{ mobileMenuOpen: false }" class="relative flex items-center md:space-x-2 text-neutral-800">
             <div class="relative z-50 flex items-center w-auto h-full">
                 <a href="{{ route('home') }}" class="flex items-center mr-0 md:mr-5 shrink-0">
-<<<<<<< HEAD
                     <img src="{{ asset('assets/branding/img/logo-ft.svg') }}" alt="{{ config('app.name') }}" class="h-8 w-auto" />
-=======
-<<<<<<< .merge_file_SfNl26
-=======
-<<<<<<< .merge_file_aJgP8s
-<<<<<<< HEAD
-                    <img src="{{ asset('assets/predict/img/logo-ft.svg') }}" alt="{{ config('app.name') }}" class="h-8 w-auto" />
-=======
-<<<<<<< HEAD
-                    <img src="{{ asset('assets/branding/img/logo-ft.svg') }}" alt="{{ config('app.name') }}" class="h-8 w-auto" />
-=======
->>>>>>> .merge_file_NhkGBv
-<<<<<<< HEAD
-                    <img src="{{ asset('assets/predict/img/logo-ft.svg') }}" alt="{{ config('app.name') }}" class="h-8 w-auto" />
-=======
-                    <img src="{{ asset('assets/branding/img/logo-ft.svg') }}" alt="{{ config('app.name') }}" class="h-8 w-auto" />
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_SfNl26
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-                    <img src="{{ asset('assets/branding/img/logo-ft.svg') }}" alt="{{ config('app.name') }}" class="h-8 w-auto" />
->>>>>>> .merge_file_yQr11U
->>>>>>> .merge_file_NhkGBv
->>>>>>> laraxot/dev
                 </a>
 
                 {{-- Hamburger Menu Button --}}

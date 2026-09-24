@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_9Kq8jx
-=======
-=======
-<<<<<<< .merge_file_kqkvL7
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_iA1mRg
->>>>>>> .merge_file_du6gAS
->>>>>>> laraxot/dev
 ---
 title: "Raw Sources — UI"
 type: concept
@@ -22,49 +5,6 @@ tags: [index]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "index raw sources — ui"
-<<<<<<< HEAD
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-<<<<<<< .merge_file_9Kq8jx
-=======
-<<<<<<< .merge_file_kqkvL7
->>>>>>> .merge_file_du6gAS
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-related:
----
-
-=======
-related:
----
-
-<<<<<<< .merge_file_9Kq8jx
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
@@ -72,11 +12,6 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 ---
 
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_iA1mRg
->>>>>>> .merge_file_du6gAS
->>>>>>> laraxot/dev
 # Raw Sources — UI
 
 Questo layer contiene le fonti grezze: documenti immutabili che l'LLM legge ma non modifica.
@@ -106,52 +41,8 @@ Il layer raw per questo modulo/tema è **l'intera cartella `docs/`** (esclusa `d
 
 ## Schema di riferimento
 
-<<<<<<< HEAD
 → `docs/.schema/WIKI_SCHEMA.md` (root progetto)
-<<<<<<< HEAD
 → `docs/.schema/wiki-schema.md` (root progetto)
-=======
-<<<<<<< HEAD
-→ `docs/.schema/WIKI_SCHEMA.md` (root progetto)
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_9Kq8jx
-→ `docs/.schema/WIKI_SCHEMA.md` (root progetto)
-=======
-→ `docs/.schema/WIKI_SCHEMA.md` (root progetto)
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-→ `docs/.schema/WIKI_SCHEMA.md` (root progetto)
-<<<<<<< .merge_file_kqkvL7
->>>>>>> laraxot/dev
->>>>>>> .merge_file_du6gAS
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-→ `docs/.schema/wiki-schema.md` (root progetto)
-=======
-=======
-→ `docs/.schema/wiki-schema.md` (root progetto)
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_9Kq8jx
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-→ `docs/.schema/wiki-schema.md` (root progetto)
-=======
->>>>>>> .merge_file_iA1mRg
->>>>>>> .merge_file_du6gAS
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 → `docs/project/llm-wiki-module-adoption.md` (guida per moduli/temi)
 
 ---

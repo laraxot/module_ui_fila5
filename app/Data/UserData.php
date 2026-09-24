@@ -9,13 +9,8 @@ use Spatie\LaravelData\Data;
 final class UserData extends Data
 {
     /**
-<<<<<<< HEAD
      * @param  array<int, string>  $permissions
      * @param  array<string, mixed>  $settings
-=======
-     * @param array<int, string>   $permissions
-     * @param array<string, mixed> $settings
->>>>>>> laraxot/dev
      */
     public function __construct(
         public int $id,
@@ -25,10 +20,5 @@ final class UserData extends Data
         public ?string $role,
         public array $permissions,
         public array $settings,
-<<<<<<< HEAD
     ) {}
-=======
-    ) {
-    }
->>>>>>> laraxot/dev
 }

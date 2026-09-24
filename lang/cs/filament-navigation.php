@@ -2,37 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_rMpNc7
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_gOcJgC
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_lhLYzb
-// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/UI/docs/wiki — domain i18n only.
-// File: lang/cs/filament-navigation.php
-<<<<<<< .merge_file_rMpNc7
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_MNPPLw
->>>>>>> .merge_file_lhLYzb
->>>>>>> laraxot/dev
 return [
     'attributes' => [
         'external-link' => 'Odkaz',

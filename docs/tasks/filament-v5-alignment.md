@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_D3iw4W
-=======
-=======
-<<<<<<< .merge_file_7I81In
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_vuOejH
->>>>>>> .merge_file_5sgJ46
->>>>>>> laraxot/dev
 ---
 title: "Task: Filament v5 Alignment (UI Module)"
 type: concept
@@ -22,62 +5,12 @@ tags: [filament, alignment]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament-v5-alignment task: filament v5 alignment (ui module)"
-<<<<<<< HEAD
-<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-=======
-=======
-<<<<<<< .merge_file_D3iw4W
-=======
-<<<<<<< .merge_file_7I81In
->>>>>>> .merge_file_5sgJ46
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-<<<<<<< HEAD
-=======
-=======
-=======
-<<<<<<< .merge_file_D3iw4W
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> .merge_file_vuOejH
->>>>>>> .merge_file_5sgJ46
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-<<<<<<< .merge_file_D3iw4W
-=======
-<<<<<<< .merge_file_7I81In
->>>>>>> .merge_file_5sgJ46
-=======
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_D3iw4W
-=======
-=======
->>>>>>> .merge_file_vuOejH
->>>>>>> .merge_file_5sgJ46
->>>>>>> laraxot/dev
 related:
   - "./001-design-system-components.md"
   - "./cleanup-redundant-files.md"
@@ -88,23 +21,6 @@ related:
   - "./ui-filament-v5.md"
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_D3iw4W
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_7I81In
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_vuOejH
->>>>>>> .merge_file_5sgJ46
->>>>>>> laraxot/dev
 # Task: Filament v5 Alignment (UI Module)
 
 ## 📋 Obiettivo

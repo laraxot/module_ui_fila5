@@ -1,15 +1,8 @@
 <<<<<<< HEAD
-=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
-<<<<<<< .merge_file_3aDCiI
 =======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_EcdAWt
 >>>>>>> laraxot/dev
 ---
 title: "Blocks Relocated"
@@ -22,13 +15,13 @@ qmd: "blocks-relocated blocks relocated"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 <<<<<<< HEAD
+=======
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-=======
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
@@ -40,8 +33,8 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
->>>>>>> laraxot/dev
 =======
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 related:
   - "./api-relocated.md"
@@ -55,15 +48,10 @@ related:
 ---
 
 <<<<<<< HEAD
-=======
-<<<<<<< .merge_file_3aDCiI
-=======
-<<<<<<< HEAD
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_EcdAWt
->>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 https://github.com/whitecube/nova-flexible-content
 

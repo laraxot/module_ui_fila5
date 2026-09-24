@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
 ---
 module: theme
 topic: README
@@ -10,24 +5,6 @@ canonical: ../../../../Themes/docs/shared-components/README-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/README-Modules.md
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_FhbkCq
-=======
-=======
-<<<<<<< .merge_file_U5hqtH
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_U91hfS
->>>>>>> .merge_file_FhEfIZ
->>>>>>> laraxot/dev
 # UI
 
 [![Module](https://img.shields.io/badge/Module-UI-8B0000.svg)]()
@@ -62,20 +39,3 @@ Core module for the FixCity Platform.
 ---
 
 **Modulo** `UI` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_FhbkCq
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_U5hqtH
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_U91hfS
->>>>>>> .merge_file_FhEfIZ
->>>>>>> laraxot/dev

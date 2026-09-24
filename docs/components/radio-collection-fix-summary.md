@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_F2AoiV
-=======
-=======
-<<<<<<< .merge_file_rUj3In
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_5Yimor
->>>>>>> .merge_file_UjAuwJ
->>>>>>> laraxot/dev
 ---
 title: "RadioCollection: Riassunto Correzione & Risultati FINALI"
 type: concept
@@ -22,44 +5,10 @@ tags: [radio, collection, fix, summary]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "radio-collection-fix-summary radiocollection: riassunto correzione & risultati finali"
-<<<<<<< HEAD
-<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-<<<<<<< .merge_file_F2AoiV
-=======
-<<<<<<< .merge_file_rUj3In
->>>>>>> .merge_file_UjAuwJ
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_F2AoiV
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_5Yimor
->>>>>>> .merge_file_UjAuwJ
->>>>>>> laraxot/dev
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -71,23 +20,6 @@ related:
   - "./full-calendar-1.md"
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_F2AoiV
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_rUj3In
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_5Yimor
->>>>>>> .merge_file_UjAuwJ
->>>>>>> laraxot/dev
 # RadioCollection: Riassunto Correzione & Risultati FINALI
 
 ## 🎯 Problema Identificato

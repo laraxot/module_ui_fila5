@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_NUh9bj
-=======
-=======
-<<<<<<< .merge_file_mSwjHS
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_5h4XZH
->>>>>>> .merge_file_1lJk36
->>>>>>> laraxot/dev
 ---
 title: "blocks"
 type: concept
@@ -22,44 +5,10 @@ tags: [blocks]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "blocks blocks"
-<<<<<<< HEAD
-<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-<<<<<<< .merge_file_NUh9bj
-=======
-<<<<<<< .merge_file_mSwjHS
->>>>>>> .merge_file_1lJk36
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_NUh9bj
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_5h4XZH
->>>>>>> .merge_file_1lJk36
->>>>>>> laraxot/dev
 related:
   - "./api.md"
   - "./carousel-slider-1.md"
@@ -71,23 +20,6 @@ related:
   - "./custom-theme-1.md"
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_NUh9bj
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_mSwjHS
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_5h4XZH
->>>>>>> .merge_file_1lJk36
->>>>>>> laraxot/dev
 # blocks
 
 <!-- Contenuto migrato da _docs/blocks.txt -->

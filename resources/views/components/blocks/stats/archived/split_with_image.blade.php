@@ -1,13 +1,6 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_s119N1
-
-=======
->>>>>>> .merge_file_vAa5gv
->>>>>>> laraxot/dev
 ?>
 <div class="relative bg-white">
     <div class="h-56 bg-indigo-600 sm:h-72 lg:absolute lg:left-0 lg:h-full lg:w-1/2">

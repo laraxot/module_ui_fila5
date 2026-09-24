@@ -1,10 +1,5 @@
 # Temi
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
 Questa cartella contiene la documentazione relativa ai temi e allo styling.
 
 ## File Contenuti
@@ -94,24 +89,6 @@ Questa documentazione descrive come gestire e personalizzare i temi del progetto
 * [README.md](../../../cms/docs/components/readme.md)
 * [README.md](../../../../themes/two/docs/readme.md)
 * [README.md](../../../../themes/one/docs/readme.md)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_F3dlv0
-=======
-=======
-<<<<<<< .merge_file_Qg8e4J
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_h7sQrS
->>>>>>> .merge_file_bdvAhe
->>>>>>> laraxot/dev
 [![Module](https://img.shields.io/badge/Module-Temi-8B0000.svg)]()
 [![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
 [![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)
@@ -144,20 +121,3 @@ Core module for the FixCity Platform.
 ---
 
 **Modulo** `UI` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_F3dlv0
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_Qg8e4J
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_h7sQrS
->>>>>>> .merge_file_bdvAhe
->>>>>>> laraxot/dev
