@@ -34,7 +34,7 @@ class UserCalendarWidget extends XotBaseSchemaWidget
     }
 
     /**
-     * @param  array<string, mixed>  $fetchInfo
+     * @param array<string, mixed> $fetchInfo
      *
      * @return array<int, array<string, mixed>>
      */
@@ -80,8 +80,8 @@ class UserCalendarWidget extends XotBaseSchemaWidget
     }
 
     /**
-     * @param  array<string, mixed>|null  $view
-     * @param  array<string, mixed>|null  $resource
+     * @param array<string, mixed>|null $view
+     * @param array<string, mixed>|null $resource
      *
      * @SuppressWarnings("PHPMD.UnusedFormalParameter")
      */
