@@ -28,11 +28,58 @@ return [
 
 // BRANCH (sintassi vecchia)
 return array (
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     'actions' =>
     array (
         'create' =>
     array (
         'create' => 
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+    'actions' => 
+    array (
+        'create' => 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'actions' =>
+    array (
+        'create' =>
+<<<<<<< HEAD
+    array (
+        'create' => 
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    'actions' => 
+    array (
+        'create' => 
+=======
+    'actions' =>
+    array (
+        'create' =>
+>>>>>>> laraxot/dev
+=======
+    'actions' => 
+    array (
+        'create' => 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         array (
             'label' => 'create',
         ),
@@ -68,11 +115,58 @@ return array (
 declare(strict_types=1);
 
 return array (
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
   'actions' =>
   array (
     'create' =>
   array (
     'create' => 
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+  'actions' => 
+  array (
+    'create' => 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  'actions' =>
+  array (
+    'create' =>
+<<<<<<< HEAD
+  array (
+    'create' => 
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+  'actions' => 
+  array (
+    'create' => 
+=======
+  'actions' =>
+  array (
+    'create' =>
+>>>>>>> laraxot/dev
+=======
+  'actions' => 
+  array (
+    'create' => 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     array (
       'label' => 'create',
     ),
@@ -154,6 +248,28 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 - **Modulo**: UI
 - **File**: Multipli file di traduzione
 - **Tipo Conflitto**: Dichiarazione PHP e sintassi array
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+- **Scelta**: Versione HEAD (con strict types e sintassi moderna)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- **Scelta**: Versione HEAD (con strict types e sintassi moderna)
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- **Scelta**: Versione HEAD (con strict types e sintassi moderna)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - **Scelta**: Versione HEAD (con strict types e sintassi moderna)
 # Risoluzione Conflitti File di Traduzione UI
 ## Problema Identificato
@@ -252,3 +368,27 @@ Applicare la stessa logica a tutti i file di traduzione con conflitti simili:
 - **Modulo**: UI
 - **File**: Multipli file di traduzione
 - **Tipo Conflitto**: Dichiarazione PHP e sintassi array
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+- **Scelta**: Versione HEAD (con strict types e sintassi moderna)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- **Scelta**: Versione HEAD (con strict types e sintassi moderna)
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

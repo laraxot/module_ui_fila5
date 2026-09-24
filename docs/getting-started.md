@@ -68,11 +68,45 @@ Files that don't require processing (such as images and fonts) can be added dire
 Now that you’ve edited your configuration variables and know how to customize your styles and content, let’s build the site.
 
 ```bash
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # build static files with Jigsaw
 ./vendor/bin/jigsaw build
 
 # compile assets with Laravel Mix
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 # options: dev, prod
 npm run dev
@@ -86,6 +120,17 @@ npm run dev
 * [getting-started.md](../../../UI/project_docs/getting-started.md)
 * [getting-started.md](../../../Tenant/project_docs/it/getting-started.md)
 * [getting-started.md](../../../Cms/project_docs/getting-started.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # options: dev, prod
 npm run dev
 ```
@@ -93,11 +138,37 @@ npm run dev
 
 
 ## Collegamenti tra versioni di getting-started.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 * [getting-started.md](../../../Gdpr/docs/getting-started.md)
 * [getting-started.md](../../../Xot/docs/getting-started.md)
 * [getting-started.md](../../../UI/docs/getting-started.md)
 * [getting-started.md](../../../Tenant/docs/it/getting-started.md)
 * [getting-started.md](../../../Cms/docs/getting-started.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ### Versione Incoming
 
@@ -178,6 +249,13 @@ Files that don't require processing (such as images and fonts) can be added dire
 Now that you’ve edited your configuration variables and know how to customize your styles and content, let’s build the site.
 
 ```bash
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 # build static files with Jigsaw
 ./vendor/bin/jigsaw build
 
@@ -187,18 +265,51 @@ npm run dev
 ```
 ### Versione HEAD
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ## Collegamenti tra versioni di getting-started.md
 * [getting-started.md](../../../Gdpr/docs/getting-started.md)
 * [getting-started.md](../../../Xot/docs/getting-started.md)
 * [getting-started.md](../../../UI/docs/getting-started.md)
 * [getting-started.md](../../../Tenant/docs/it/getting-started.md)
 * [getting-started.md](../../../Cms/docs/getting-started.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+## Collegamenti tra versioni di getting-started.md
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 * [getting-started.md](../../../Gdpr/project_docs/getting-started.md)
 * [getting-started.md](../../../Xot/project_docs/getting-started.md)
 * [getting-started.md](../../../UI/project_docs/getting-started.md)
 * [getting-started.md](../../../Tenant/project_docs/it/getting-started.md)
 * [getting-started.md](../../../Cms/project_docs/getting-started.md)
 
+<<<<<<< HEAD
 ### Versione Incoming
 
 ---
@@ -208,3 +319,61 @@ npm run dev
 
 ---
 ### Versione Incoming
+=======
+<<<<<<< HEAD
+### Versione Incoming
+
+---
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+### Versione Incoming
+
+---
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+
+### Versione Incoming
+
+
+<<<<<<< HEAD
+---
+### Versione Incoming
+=======
+<<<<<<< HEAD
+---
+### Versione Incoming
+=======
+<<<<<<< HEAD
+---
+=======
+<<<<<<< HEAD
+---
+=======
+### Versione Incoming
+
+---
+>>>>>>> laraxot/dev
+=======
+---
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

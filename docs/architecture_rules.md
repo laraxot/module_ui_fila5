@@ -147,6 +147,7 @@ class CustomMiddleware
 // Non hardcodare percorsi delle risorse
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 <img src="/var/www/html/<nome progetto>/laravel/public/images/avatar.png">
@@ -154,6 +155,10 @@ class CustomMiddleware
 <img src="[project-root]/laravel/public/images/avatar.png">
 <img src="/var/www/html/saluteora/laravel/public/images/avatar.png">
 <<<<<<< HEAD
+=======
+<img src="/var/www/html/saluteora/laravel/public/images/avatar.png">
+<img src="[project-root]/laravel/public/images/avatar.png">
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 <img src="/var/www/html/saluteora/laravel/public/images/avatar.png">
@@ -178,6 +183,9 @@ class CustomMiddleware
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev

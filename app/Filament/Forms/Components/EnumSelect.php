@@ -66,7 +66,11 @@ final class EnumSelect extends XotBaseSelect
     {
         $enumClass = $this->evaluate($this->enumClass);
 
+<<<<<<< HEAD
         return is_string($enumClass) && $enumClass !== '' ? $enumClass : null;
+=======
+        return is_string($enumClass) && '' !== $enumClass ? $enumClass : null;
+>>>>>>> laraxot/dev
     }
 
     public function hasIcons(): bool
@@ -90,7 +94,11 @@ final class EnumSelect extends XotBaseSelect
     {
         $enumClass = $this->getEnumClass();
 
+<<<<<<< HEAD
         if ($enumClass === null || $value === null || $value === '') {
+=======
+        if (null === $enumClass || null === $value || '' === $value) {
+>>>>>>> laraxot/dev
             return null;
         }
 
@@ -112,7 +120,11 @@ final class EnumSelect extends XotBaseSelect
     {
         $enumClass = $this->evaluate($this->enumClass);
 
+<<<<<<< HEAD
         if (! is_string($enumClass) || $enumClass === '') {
+=======
+        if (! is_string($enumClass) || '' === $enumClass) {
+>>>>>>> laraxot/dev
             return [];
         }
 
@@ -148,14 +160,22 @@ final class EnumSelect extends XotBaseSelect
         if ($case instanceof HasLabel) {
             $label = $case->getLabel();
 
+<<<<<<< HEAD
             if (is_string($label) && $label !== '') {
+=======
+            if (is_string($label) && '' !== $label) {
+>>>>>>> laraxot/dev
                 return $label;
             }
         }
 
         if (method_exists($case, 'label')) {
             $label = $case->label();
+<<<<<<< HEAD
             if (is_string($label) && $label !== '') {
+=======
+            if (is_string($label) && '' !== $label) {
+>>>>>>> laraxot/dev
                 return $label;
             }
         }
@@ -172,13 +192,21 @@ final class EnumSelect extends XotBaseSelect
         if ($case instanceof HasIcon) {
             $icon = $case->getIcon();
 
+<<<<<<< HEAD
             return is_string($icon) && $icon !== '' ? $icon : null;
+=======
+            return is_string($icon) && '' !== $icon ? $icon : null;
+>>>>>>> laraxot/dev
         }
 
         if (method_exists($case, 'icon')) {
             $icon = $case->icon();
 
+<<<<<<< HEAD
             return is_string($icon) && $icon !== '' ? $icon : null;
+=======
+            return is_string($icon) && '' !== $icon ? $icon : null;
+>>>>>>> laraxot/dev
         }
 
         return null;
