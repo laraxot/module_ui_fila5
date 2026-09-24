@@ -6,4 +6,10 @@ namespace Modules\UI\Filament\Forms\Components;
 
 use Modules\Xot\Filament\Forms\Components\XotBaseSelect;
 
+<<<<<<< HEAD
 class ParentSelect extends XotBaseSelect {}
+=======
+class ParentSelect extends XotBaseSelect
+{
+}
+>>>>>>> laraxot/dev

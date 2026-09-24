@@ -1,6 +1,10 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 /**
  * @see https://filamentphp.com/docs/3.x/forms/fields/types
  * @see https://github.com/Valourite/form-builder/blob/v1.x/src/Filament/Enums/FieldType.php
@@ -16,10 +20,17 @@ use Modules\Xot\Traits\EnumTrait;
 /**
  * Defines the different types of appointments in the system.
  *
+<<<<<<< HEAD
  * @method static self fromName(string $name)
  * @method static self fromValue(string $value)
  * @method static self tryFromName(string $name)
  * @method static self tryFromValue(string $value)
+=======
+ * @method static self        fromName(string $name)
+ * @method static self        fromValue(string $value)
+ * @method static self        tryFromName(string $name)
+ * @method static self        tryFromValue(string $value)
+>>>>>>> laraxot/dev
  * @method static array<self> cases()
  */
 enum FieldTypeEnum: string implements HasColor, HasIcon, HasLabel

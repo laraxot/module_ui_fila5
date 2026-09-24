@@ -6,6 +6,7 @@ created: 2026-07-01
 updated: 2026-07-01
 qmd: "ponytail audit UI modulo stub config archive root md"
 issues:
+<<<<<<< HEAD
 discussions:
 related:
   - "./auth-register-focus-loss-overlay.md"
@@ -16,6 +17,14 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
+=======
+  - "https://github.com/laraxot/base_predict_fila5/issues/221"
+discussions:
+  - "https://github.com/laraxot/base_predict_fila5/discussions/222"
+related:
+  - ../../ponytail-audit-over-engineering.md
+  - module-root-uppercase-folders-archive.md
+>>>>>>> laraxot/dev
 ---
 
 # Ponytail audit — UI

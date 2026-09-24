@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "RadioCollection Component - Implementation Guide"
 type: concept
@@ -20,6 +21,8 @@ related:
   - "./full-calendar-1.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # RadioCollection Component - Implementation Guide
 
 ## Overview
@@ -244,7 +247,11 @@ RadioCollection::make('studio_id')
 ## Related Documentation
 
 - [UI Module Overview](../ui.md)
+<<<<<<< HEAD
 - [Filament Form Components](../filament/filament-components-usage-1.md)
+=======
+- [Filament Form Components](../filament/filament_components_usage.md)
+>>>>>>> laraxot/dev
 - [Radio Collection Philosophy](./radio-collection-philosophy.md)
 
 ## Change Log

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Media"
 type: concept
@@ -20,6 +21,8 @@ related:
   - "./changelog-2.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 https://naxon.dev/blog/laravel-media-library-load-only-1st-picture-efficiently
 
 https://www.answeroverflow.com/m/1158821463168659496

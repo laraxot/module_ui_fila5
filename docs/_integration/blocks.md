@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "blocks"
 type: concept
@@ -20,6 +21,8 @@ related:
   - "./custom-theme-1.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # blocks
 
 <!-- Contenuto migrato da _docs/blocks.txt -->

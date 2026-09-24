@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Esempio Pratico: Implementazione TableLayoutEnum"
 type: concept
@@ -13,6 +14,8 @@ related:
   - "./inline-date-picker-usage.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # Esempio Pratico: Implementazione TableLayoutEnum
 
 ## Panoramica
@@ -170,7 +173,10 @@ class UserResource extends XotBaseResource
     protected static ?string $navigationIcon = 'heroicon-o-users';
 
     public static function getFormSchema(): array
+<<<<<<< HEAD
     public function getFormSchema(): array
+=======
+>>>>>>> laraxot/dev
     {
         return [
             Forms\Components\TextInput::make('name')
@@ -355,6 +361,11 @@ class ListUsersTest extends TestCase
 ## Collegamenti
 
 - [TableLayoutEnum Documentation](../table-layout-enum-comprehensive.md)
+<<<<<<< HEAD
 - [UI Module Architecture](../architecture-rules-1.md)
 - [Filament Best Practices](../../../../docs/filament_best-practices-2.md)
+=======
+- [UI Module Architecture](../architecture_rules.md)
+- [Filament Best Practices](../../../../docs/filament_best_practices.md)
+>>>>>>> laraxot/dev
 - [Translation Standards](../../../../docs/translation_standards.md)

@@ -1,6 +1,9 @@
 # 🔧 PSR-4 Fix Implementation Plan - UI Module
 
+<<<<<<< HEAD
 **Data**: Dicembre 15, 2025
+=======
+>>>>>>> laraxot/dev
 **Modulo**: UI
 **Tipo Fix**: Namespace correction (Modules\Notify → Modules\UI)
 
@@ -29,7 +32,10 @@ Tutti in `Modules/UI/app/Filament/Forms/Components/`:
 ### Import Statements da Verificare
 
 **TechPlanner/app/Filament/Resources/ClientResource.php**:
+<<<<<<< HEAD
 **modulo operativo/app/Filament/Resources/ClientResource.php**:
+=======
+>>>>>>> laraxot/dev
 ```php
 Line 13: use Modules\Notify\Filament\Forms\Components\ContactSection;
 ```

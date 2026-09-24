@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "ubuntu"
 type: concept
@@ -20,6 +21,8 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # ubuntu
 
 <!-- Contenuto migrato da _docs/ubuntu.txt -->

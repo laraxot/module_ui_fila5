@@ -6,9 +6,17 @@ namespace Modules\UI\Livewire\Components\Map;
 
 use Illuminate\Contracts\View\View;
 use Livewire\Component;
+<<<<<<< HEAD
 use Modules\Geo\Services\GeocodingService;
 use Modules\Geo\Services\MapService;
 use Modules\Xot\Actions\Cast\SafeFloatCastAction;
+=======
+use Modules\Geo\Actions\Geocoding\GeocodeAddressAction;
+use Modules\Geo\Actions\Geocoding\GetGeocodingSuggestionsAction;
+use Modules\Geo\Actions\Map\ExportMapDataAction;
+use Modules\Geo\Actions\Map\GetMapMarkersAction;
+use Modules\Geo\Actions\Map\GetMapStatsAction;
+>>>>>>> laraxot/dev
 use Webmozart\Assert\Assert;
 
 /**
@@ -19,6 +27,7 @@ use Webmozart\Assert\Assert;
  */
 final class InteractiveMap extends Component
 {
+<<<<<<< HEAD
     /** @var list<float> [lat, lng] — default Milano */
     public array $center = [45.4642, 9.1900];
 
@@ -33,6 +42,17 @@ final class InteractiveMap extends Component
     public array $markers = [];
 
     /** @var array<string, bool|list<string>|array<string, float>> */
+=======
+    /** @var array{0: float, 1: float} */
+    public array $center = [45.4642, 9.1900]; // Milano
+
+    public int $zoom = 10;
+
+    /** @var array<int, array<string, mixed>> */
+    public array $markers = [];
+
+    /** @var array<string, mixed> */
+>>>>>>> laraxot/dev
     public array $filters = [
         'tickets' => true,
         'users' => false,
@@ -56,7 +76,15 @@ final class InteractiveMap extends Component
 
     public string $searchQuery = '';
 
+<<<<<<< HEAD
     /** @var array<string, string> */
+=======
+    /**
+     * Untyped to match HandlesEvents::$listeners.
+     *
+     * @var array<string, string>
+     */
+>>>>>>> laraxot/dev
     protected $listeners = [
         'markerSelected' => 'selectMarker',
         'filtersChanged' => 'updateFilters',
@@ -65,8 +93,13 @@ final class InteractiveMap extends Component
     ];
 
     /**
+<<<<<<< HEAD
      * @param  list<float>|null  $center
      * @param  array<string, bool|list<string>|array<string,float>>  $filters
+=======
+     * @param array{0: float, 1: float}|null $center
+     * @param array<string, mixed>           $filters
+>>>>>>> laraxot/dev
      */
     public function mount(?array $center = null, ?int $zoom = null, array $filters = []): void
     {
@@ -101,7 +134,11 @@ final class InteractiveMap extends Component
         $marker = collect($this->markers)
             ->firstWhere('id', $markerId);
 
+<<<<<<< HEAD
         $this->selectedMarker = is_array($marker) ? $marker : null;
+=======
+        $this->selectedMarker = \is_array($marker) ? $marker : null;
+>>>>>>> laraxot/dev
 
         $this->dispatch('markerSelected', $this->selectedMarker);
     }
@@ -109,7 +146,12 @@ final class InteractiveMap extends Component
     /**
      * Aggiorna i filtri.
      *
+<<<<<<< HEAD
      * @param  array<string, bool|list<string>|array<string, float>>  $filters
+=======
+     * @param array<string, mixed> $filters
+     * @param array<string, mixed> $filters
+>>>>>>> laraxot/dev
      */
     public function updateFilters(array $filters): void
     {
@@ -119,8 +161,14 @@ final class InteractiveMap extends Component
 
     /**
      * Aggiorna i bounds della mappa.
+<<<<<<< HEAD
      *
      * @param  array<string, float>  $bounds
+=======
+     */
+    /**
+     * @param array<string, float> $bounds
+>>>>>>> laraxot/dev
      */
     public function updateBounds(array $bounds): void
     {
@@ -136,12 +184,18 @@ final class InteractiveMap extends Component
         $this->isLoading = true;
 
         try {
+<<<<<<< HEAD
             /** @phpstan-ignore-next-line class.notFound */
             $mapService = app(MapService::class);
             /* @phpstan-ignore-next-line class.notFound, assign.propertyType */
             $this->markers = $mapService->getMarkers($this->filters);
             /* @phpstan-ignore-next-line class.notFound, assign.propertyType */
             $this->stats = $mapService->getMapStats($this->filters);
+=======
+            $filters = $this->getMapFilters();
+            $this->markers = app(GetMapMarkersAction::class)->execute($filters);
+            $this->stats = app(GetMapStatsAction::class)->execute($filters);
+>>>>>>> laraxot/dev
         } catch (\Exception $e) {
             $this->addError('map', 'Errore nel caricamento dei marker: '.$e->getMessage());
             $this->markers = [];
@@ -165,10 +219,14 @@ final class InteractiveMap extends Component
     public function exportData(string $format = 'json'): void
     {
         try {
+<<<<<<< HEAD
             /** @phpstan-ignore-next-line class.notFound */
             $mapService = app(MapService::class);
             /** @phpstan-ignore-next-line class.notFound */
             $data = $mapService->exportData($this->filters, $format);
+=======
+            $data = app(ExportMapDataAction::class)->execute($this->getMapFilters(), $format);
+>>>>>>> laraxot/dev
 
             $filename = 'map_export_'.now()->format('Y_m_d_H_i_s').'.'.$format;
 
@@ -197,15 +255,20 @@ final class InteractiveMap extends Component
         }
 
         try {
+<<<<<<< HEAD
             /** @phpstan-ignore-next-line class.notFound */
             $geocodingService = app(GeocodingService::class);
             /** @phpstan-ignore-next-line class.notFound */
             $result = $geocodingService->geocodeAddress($this->searchQuery);
+=======
+            $result = app(GeocodeAddressAction::class)->execute($this->searchQuery);
+>>>>>>> laraxot/dev
             Assert::isArray($result, 'Geocoding result must be array');
 
             $address = $result['address'] ?? '';
             Assert::string($address, 'Address must be string');
 
+<<<<<<< HEAD
             // Il geocoder restituisce un payload non tipizzato: le coordinate vanno
             // validate prima del cast. Senza `Assert::numeric()` un payload non
             // numerico diventerebbe silenziosamente 0.0 (default dell'action) e la
@@ -220,6 +283,9 @@ final class InteractiveMap extends Component
                 SafeFloatCastAction::castWithRange($latitude, -90.0, 90.0),
                 SafeFloatCastAction::castWithRange($longitude, -180.0, 180.0),
             ];
+=======
+            $this->center = [$result['latitude'], $result['longitude']];
+>>>>>>> laraxot/dev
             $this->zoom = 15;
 
             $this->dispatch('updateMapCenter', $this->center, $this->zoom);
@@ -236,20 +302,32 @@ final class InteractiveMap extends Component
     /**
      * Ottiene suggerimenti per la ricerca.
      *
+<<<<<<< HEAD
      * @return list<array<string, mixed>>
      */
     public function getSuggestions(): array
     {
         if (strlen($this->searchQuery) < 3) {
+=======
+     * @return array<int, array<string, mixed>>
+     */
+    public function getSuggestions(): array
+    {
+        if (\strlen($this->searchQuery) < 3) {
+>>>>>>> laraxot/dev
             return [];
         }
 
         try {
+<<<<<<< HEAD
             /** @phpstan-ignore-next-line class.notFound */
             $geocodingService = app(GeocodingService::class);
 
             /* @phpstan-ignore-next-line class.notFound, return.type */
             return $geocodingService->getSuggestions($this->searchQuery);
+=======
+            return app(GetGeocodingSuggestionsAction::class)->execute($this->searchQuery);
+>>>>>>> laraxot/dev
         } catch (\Exception $e) {
             return [];
         }
@@ -279,17 +357,33 @@ final class InteractiveMap extends Component
     {
         $currentStatus = $this->filters['status'] ?? [];
         Assert::isArray($currentStatus, 'Status filter must be array');
+<<<<<<< HEAD
 
         if ($enabled) {
             $currentStatus[] = $status;
             $this->filters['status'] = array_unique($currentStatus);
+=======
+        $statusList = array_values(array_filter(
+            $currentStatus,
+            static fn (mixed $value): bool => \is_string($value),
+        ));
+
+        if ($enabled) {
+            $statusList[] = $status;
+            $this->filters['status'] = array_values(array_unique($statusList));
+>>>>>>> laraxot/dev
             $this->loadMarkers();
 
             return;
         }
 
+<<<<<<< HEAD
         $currentStatus = array_diff($currentStatus, [$status]);
         $this->filters['status'] = array_unique($currentStatus);
+=======
+        $statusList = array_values(array_diff($statusList, [$status]));
+        $this->filters['status'] = array_values(array_unique($statusList));
+>>>>>>> laraxot/dev
         $this->loadMarkers();
     }
 
@@ -300,17 +394,33 @@ final class InteractiveMap extends Component
     {
         $currentPriority = $this->filters['priority'] ?? [];
         Assert::isArray($currentPriority, 'Priority filter must be array');
+<<<<<<< HEAD
 
         if ($enabled) {
             $currentPriority[] = $priority;
             $this->filters['priority'] = array_unique($currentPriority);
+=======
+        $priorityList = array_values(array_filter(
+            $currentPriority,
+            static fn (mixed $value): bool => \is_string($value),
+        ));
+
+        if ($enabled) {
+            $priorityList[] = $priority;
+            $this->filters['priority'] = array_values(array_unique($priorityList));
+>>>>>>> laraxot/dev
             $this->loadMarkers();
 
             return;
         }
 
+<<<<<<< HEAD
         $currentPriority = array_diff($currentPriority, [$priority]);
         $this->filters['priority'] = array_unique($currentPriority);
+=======
+        $priorityList = array_values(array_diff($priorityList, [$priority]));
+        $this->filters['priority'] = array_values(array_unique($priorityList));
+>>>>>>> laraxot/dev
         $this->loadMarkers();
     }
 
@@ -334,12 +444,17 @@ final class InteractiveMap extends Component
     }
 
     /**
+<<<<<<< HEAD
      * Conteggio dei marker raggruppati per tipo.
+=======
+     * Ottiene le proprietà computate.
+>>>>>>> laraxot/dev
      *
      * @return array<string, int>
      */
     public function getMarkersByTypeProperty(): array
     {
+<<<<<<< HEAD
         // `groupBy()->map()->toArray()` perde il tipo della chiave (array-key, non
         // string): il conteggio esplicito mantiene la firma array<string, int> e
         // scarta i marker privi di un tipo utilizzabile come chiave.
@@ -353,16 +468,33 @@ final class InteractiveMap extends Component
         }
 
         return $counts;
+=======
+        /** @var array<string, int> $grouped */
+        $grouped = collect($this->markers)
+            ->groupBy('type')
+            ->map(static fn ($markers) => $markers->count())
+            ->all();
+
+        return $grouped;
+>>>>>>> laraxot/dev
     }
 
     public function getVisibleMarkersCountProperty(): int
     {
+<<<<<<< HEAD
         return count($this->markers);
+=======
+        return \count($this->markers);
+>>>>>>> laraxot/dev
     }
 
     public function getFilteredMarkersCountProperty(): int
     {
+<<<<<<< HEAD
         return count($this->markers);
+=======
+        return \count($this->markers);
+>>>>>>> laraxot/dev
     }
 
     /**
@@ -377,4 +509,25 @@ final class InteractiveMap extends Component
             default => 'application/json',
         };
     }
+<<<<<<< HEAD
+=======
+
+    /**
+     * @return array<string, mixed>
+     */
+    private function getMapFilters(): array
+    {
+        $filters = [];
+
+        foreach ($this->filters as $key => $value) {
+            if (! \is_string($key)) {
+                continue;
+            }
+
+            $filters[$key] = $value;
+        }
+
+        return $filters;
+    }
+>>>>>>> laraxot/dev
 }

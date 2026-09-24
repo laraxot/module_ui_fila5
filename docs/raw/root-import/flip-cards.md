@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Flip Cards"
 type: concept
@@ -20,6 +21,8 @@ related:
   - "./changelog-2.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
 
 

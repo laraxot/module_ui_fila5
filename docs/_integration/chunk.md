@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "chunk"
 type: concept
@@ -20,6 +21,8 @@ related:
   - "./custom-theme-1.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # chunk
 
 <!-- Contenuto migrato da _docs/chunk.txt -->

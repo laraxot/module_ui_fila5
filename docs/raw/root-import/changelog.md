@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Changelog"
 type: concept
@@ -20,6 +21,8 @@ related:
   - "./changelog-2.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # Changelog
 
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.

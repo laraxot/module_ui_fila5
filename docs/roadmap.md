@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # UI Module - Complete Roadmap 2026
 
 **Generated**: 2026-01-02
@@ -731,14 +732,28 @@ class UserCalendarWidget extends XotBaseWidget
 **Priority**: HIGH
 **PHPStan**: ✅ Level 9 (0 errori)
 **Filament**: ✅ 4.x Compatibile
+=======
+# 🎨 UI MODULE - ROADMAP 2025
+||||||| parent of 9a84589 (.)
+# UI Module Roadmap
+
+**Modulo**: UI (User Interface Components & Design System)  
+**Status**: 85% COMPLETATO  
+**Priority**: HIGH  
+**PHPStan**: ✅ level 10 (0 errori)  
+**Filament**: ✅ 4.x Compatibile  
+>>>>>>> laraxot/dev
 
 ---
 
 ## 🎯 MODULE OVERVIEW
 
 Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+<<<<<<< HEAD
 Il modulo **UI** è il sistema di componenti e design system della piattaforma <nome progetto>, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
 Il modulo **UI** è il sistema di componenti e design system della piattaforma progetto corrente, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+=======
+>>>>>>> laraxot/dev
 
 ### 🏗️ Architettura Modulo
 ```
@@ -803,7 +818,11 @@ UI Module
 - [x] **Orientation Handling**: Gestione orientamento dispositivo
 
 ### 🛠️ Technical Excellence
+<<<<<<< HEAD
 - [x] **PHPStan Level 9**: 0 errori
+=======
+- [x] **PHPStan level 10**: 0 errori
+>>>>>>> laraxot/dev
 - [x] **Filament 4.x**: Compatibilità completa
 - [x] **Type Safety**: Type hints completi
 - [x] **Error Handling**: Gestione errori robusta
@@ -817,7 +836,11 @@ UI Module
 ## 🚧 IN PROGRESS FEATURES
 
 ### ♿ AGID Compliance Completion (Priority: CRITICAL)
+<<<<<<< HEAD
 **Status**: 85% COMPLETATO
+=======
+**Status**: 85% COMPLETATO  
+>>>>>>> laraxot/dev
 **Timeline**: Q1 2025
 
 #### 📋 Tasks
@@ -852,7 +875,11 @@ UI Module
 - [ ] Screen reader compatibility verified
 
 ### 📱 Mobile Optimization (Priority: HIGH)
+<<<<<<< HEAD
 **Status**: 70% COMPLETATO
+=======
+**Status**: 70% COMPLETATO  
+>>>>>>> laraxot/dev
 **Timeline**: Q1 2025
 
 #### 📋 Tasks
@@ -931,7 +958,11 @@ UI Module
 ## 🎯 SUCCESS METRICS
 
 ### 📊 Technical Metrics
+<<<<<<< HEAD
 - [x] **PHPStan Level 9**: 0 errori ✅
+=======
+- [x] **PHPStan level 10**: 0 errori ✅
+>>>>>>> laraxot/dev
 - [x] **Filament 4.x**: Compatibile ✅
 - [ ] **Test Coverage**: 80% (target)
 - [ ] **Response Time**: < 200ms
@@ -1019,14 +1050,23 @@ UI Module
 
 **Last Updated**: 2025-10-01
 **Next Review**: 2025-11-01
+<<<<<<< HEAD
 **Status**: 🚧 ACTIVE DEVELOPMENT
 **Confidence Level**: 90%
+=======
+**Status**: 🚧 ACTIVE DEVELOPMENT  
+**Confidence Level**: 90%  
+>>>>>>> laraxot/dev
 
 ---
 
 *Questa roadmap è specifica per il modulo UI e viene aggiornata regolarmente in base ai progressi e alle nuove esigenze.*
+<<<<<<< HEAD
 # UI Module Roadmap
 
+=======
+||||||| parent of 9a84589 (.)
+>>>>>>> laraxot/dev
 "L'interfaccia è l'essenza: rendere l'esperienza indimenticabile."
 
 ## 🎯 Visione
@@ -1049,7 +1089,10 @@ Creare un ecosistema UI "Headless-first" che permetta di cambiare radicalmente i
 - [ ] **AI Theme Generator**: Generazione automatica di palette colori accessibili da un'immagine di brand.
 - [ ] **Dynamic Layout Optimization**: L'AI suggerisce layout migliori in base al tipo di contenuto visualizzato.
 - [ ] **Predictive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
+<<<<<<< HEAD
 - [ ] **forecastive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
+=======
+>>>>>>> laraxot/dev
 
 ## ✅ Checklist Qualità
 - [x] PHPStan Level 10.
@@ -1057,6 +1100,7 @@ Creare un ecosistema UI "Headless-first" che permetta di cambiare radicalmente i
 - [ ] Performance Lighthouse > 90 su pagine UI intensive.
 
 ---
+<<<<<<< HEAD
 **Ultimo aggiornamento**: 31 Gennaio 2026
 # Roadmap Modulo UI - Completamento e Miglioramenti
 
@@ -1330,3 +1374,6 @@ Completare il modulo UI con tutte le funzionalità mancanti, migliorare qualità
 ---
 
 **Filosofia**: UI fornisce componenti riutilizzabili e design system - nessuna business logic, solo presentazione.
+=======
+**
+>>>>>>> laraxot/dev

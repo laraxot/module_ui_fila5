@@ -18,11 +18,26 @@ class UiCoverageStateContract implements StateContract
 
     /** @param array<array-key, mixed>|Model|string|null $record */
     /**
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
      * @param  Model|array<string, mixed>|string|null  $record
      */
     public function __construct(
         public Model|array|string|null $record = null,
     ) {}
+<<<<<<< HEAD
+=======
+=======
+     * @param Model|array<string, mixed>|string|null $record
+     */
+    public function __construct(
+        public Model|array|string|null $record = null,
+    ) {
+    }
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
     public function label(): string
     {
@@ -71,7 +86,15 @@ class UiCoverageStateContract implements StateContract
     }
 
     /**
+<<<<<<< HEAD
      * @param  array<string, mixed>  $data
+=======
+<<<<<<< HEAD
+     * @param  array<string, mixed>  $data
+=======
+     * @param array<string, mixed> $data
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
      */
     public function modalActionByRecord(Model $record, array $data): void
     {
@@ -88,7 +111,15 @@ class UiCoverageStateContract implements StateContract
 
     public function canTransitionTo(string $stateClass): bool
     {
+<<<<<<< HEAD
         return $stateClass === UiCoverageDoneState::class;
+=======
+<<<<<<< HEAD
+        return $stateClass === UiCoverageDoneState::class;
+=======
+        return UiCoverageDoneState::class === $stateClass;
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     }
 
     public function transitionTo(string $state, ?string $message = null): void

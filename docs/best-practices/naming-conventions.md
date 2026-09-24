@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Naming Conventions"
 type: concept
@@ -12,6 +13,8 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 ---
 
+=======
+>>>>>>> laraxot/dev
 ## Collegamenti tra versioni di naming-conventions.md
 * [naming-conventions.md](../../../../../docs/naming-conventions.md)
 * [naming-conventions.md](../../xot/docs/naming-conventions.md)

@@ -5,9 +5,15 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Widgets;
 
 use Filament\Widgets\StatsOverviewWidget\Stat;
+<<<<<<< HEAD
 use Modules\Xot\Filament\Widgets\XotBaseStatsOverviewWidget;
 
 class HeroWidget extends XotBaseStatsOverviewWidget
+=======
+use Modules\Xot\Filament\Widgets\XotBaseStatsOverviewWidget as BaseWidget;
+
+class HeroWidget extends BaseWidget
+>>>>>>> laraxot/dev
 {
     protected ?string $heading = 'Hero Widget';
 

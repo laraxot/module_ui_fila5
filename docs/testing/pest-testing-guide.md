@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Pest Testing Guide - UI Module"
 type: guide
@@ -12,6 +13,8 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 ---
 
+=======
+>>>>>>> laraxot/dev
 # Pest Testing Guide - UI Module
 
 ## 🎯 Overview
@@ -343,7 +346,11 @@ Based on existing UI module tests:
 ## 🔗 Related Documentation
 
 ### **Module Documentation**
+<<<<<<< HEAD
 - [UI Module README](../README.md)
+=======
+- [UI Module README](../readme.md)
+>>>>>>> laraxot/dev
 - [Component Architecture](../components.md)
 - [Theme System](../themes.md)
 

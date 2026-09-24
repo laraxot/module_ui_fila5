@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "InlineDatePicker Component"
 type: concept
@@ -20,6 +21,8 @@ related:
   - "./full-calendar-1.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # InlineDatePicker Component
 
 ## Overview

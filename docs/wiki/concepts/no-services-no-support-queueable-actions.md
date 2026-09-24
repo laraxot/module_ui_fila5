@@ -7,6 +7,7 @@ created: 2026-07-13
 updated: 2026-07-13
 qmd: "UI module Services and Support banned use app Actions QueueableAction policy"
 related:
+<<<<<<< HEAD
   - "./auth-register-focus-loss-overlay.md"
   - "./block-rendering-and-optional-services.md"
   - "./claude-audit-static.md"
@@ -15,6 +16,11 @@ related:
   - "./enum-select-best-practices.md"
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
+=======
+  - no-app-support-queueable-actions.md
+  - ui-services-support-to-actions.md
+  - ../../../Xot/docs/wiki/concepts/queueable-action-trait-mandatory.md
+>>>>>>> laraxot/dev
 ---
 
 # UI — Services/Support vietati: solo Actions

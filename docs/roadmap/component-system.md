@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Sistema Componenti UI"
 type: concept
@@ -17,6 +18,8 @@ related:
   - "./02-next.md"
   - "./03-later.md"
 ---
+=======
+>>>>>>> laraxot/dev
 # Sistema Componenti UI
 
 ## 📊 Stato Implementazione
@@ -215,43 +218,83 @@ protected function resolveLazyProp(string $key): mixed
 4. Documentare best practices
 5. Ottimizzare performance
 # Sistema Componenti UI
+<<<<<<< HEAD
 ## 📊 Stato Implementazione
 Completamento: 35%
+=======
+
+## 📊 Stato Implementazione
+Completamento: 35%
+
+>>>>>>> laraxot/dev
 ## 🎯 Obiettivi
 1. Creare un sistema di componenti tipizzato e riutilizzabile
 2. Garantire consistenza visiva e comportamentale
 3. Migliorare la developer experience
 4. Ottimizzare le performance di rendering
+<<<<<<< HEAD
 ## 🤔 Sfide di Design
+=======
+
+## 🤔 Sfide di Design
+
+>>>>>>> laraxot/dev
 ### 1. Tipizzazione Componenti
 - Necessità di mantenere type safety tra props e rendering
 - Gestione stati complessi nei componenti dinamici
 - Validazione props a runtime
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 ### 2. Theming System
 - Integrazione con il sistema di temi
 - Supporto per dark/light mode
 - Customizzazione per tenant specifici
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 ### 3. Performance
 - Lazy loading dei componenti
 - Ottimizzazione del rendering
 - Caching view compilate
+<<<<<<< HEAD
 ## 💡 Soluzioni Proposte
+=======
+
+## 💡 Soluzioni Proposte
+
+>>>>>>> laraxot/dev
 ### 1. Component Base Class
 ```php
 abstract class XotBaseUIComponent
 {
     protected array $props = [];
     protected ?View $compiledView = null;
+<<<<<<< HEAD
     abstract public function render(): View;
+=======
+
+    abstract public function render(): View;
+
+>>>>>>> laraxot/dev
     protected function validateProps(): void
     {
         // Implementazione validazione
     }
+<<<<<<< HEAD
     protected function compileView(): View
+=======
+
+    protected function compileView(): View
+    {
+>>>>>>> laraxot/dev
         if ($this->compiledView === null) {
             $this->compiledView = $this->render();
         }
         return $this->compiledView;
+<<<<<<< HEAD
 }
 ```
 ### 2. Component Registry
@@ -261,23 +304,54 @@ class ComponentRegistry
     public function register(string $name, string $componentClass): void
         $this->components[$name] = $componentClass;
 ## 📝 Steps Implementazione
+=======
+    }
+}
+```
+
+### 2. Component Registry
+```php
+class ComponentRegistry
+{
+    /** @var array<string, class-string<XotBaseUIComponent>> */
+    protected array $components = [];
+
+    public function register(string $name, string $componentClass): void
+    {
+        $this->components[$name] = $componentClass;
+    }
+}
+```
+
+## 📝 Steps Implementazione
+
+>>>>>>> laraxot/dev
 ### Fase 1: Foundation (✅ Completato)
 1. ✅ Definire interfacce base
 2. ✅ Implementare component registry
 3. ✅ Setup sistema di build
 4. ✅ Configurare testing environment
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 ### Fase 2: Core Components (🏗️ In Progress)
 1. ✅ Button component
 2. ✅ Input component
 3. 🏗️ Form component
 4. 📝 Table component
 5. 📝 Modal component
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 ### Fase 3: Advanced Features
 1. 📝 Lazy loading
 2. 📝 State management
 3. 📝 Animation system
 4. 📝 Accessibility hooks
 5. 📝 Performance monitoring
+<<<<<<< HEAD
 ## 🎭 Edge Cases
 1. **Dynamic Props**
 // Problema: Props dinamiche non tipizzate
@@ -294,46 +368,128 @@ public function addChild(XotBaseUIComponent $child): void
     $this->validateChildComponent($child);
     $this->children[] = $child;
 ## ✅ Code Review Checklist
+=======
+
+## 🎭 Edge Cases
+
+1. **Dynamic Props**
+```php
+// Problema: Props dinamiche non tipizzate
+public function setProps(array $props)
+
+// Soluzione: Type guard con validazione
+public function setProps(ComponentProps $props): void
+{
+    $this->validateProps($props);
+    $this->props = $props->toArray();
+}
+```
+
+2. **Nested Components**
+```php
+// Problema: Perdita type safety in nesting
+$component->addChild($child)
+
+// Soluzione: Type constraints
+public function addChild(XotBaseUIComponent $child): void
+{
+    $this->validateChildComponent($child);
+    $this->children[] = $child;
+}
+```
+
+## ✅ Code Review Checklist
+
+>>>>>>> laraxot/dev
 1. Type Safety
    - [ ] Props tipizzate
    - [ ] Return types definiti
    - [ ] Validazioni implementate
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 2. Performance
    - [ ] View caching configurato
    - [ ] Lazy loading dove necessario
    - [ ] Asset optimization
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 3. Testing
    - [ ] Unit tests per ogni componente
    - [ ] Integration tests
    - [ ] Performance benchmarks
+<<<<<<< HEAD
 ## 🚀 Performance Considerations
 1. **View Caching**
 protected function getCachedView(): View
+=======
+
+## 🚀 Performance Considerations
+
+1. **View Caching**
+```php
+protected function getCachedView(): View
+{
+>>>>>>> laraxot/dev
     $cacheKey = $this->getCacheKey();
     return Cache::remember($cacheKey, now()->addHour(), function () {
         return $this->render();
     });
+<<<<<<< HEAD
 2. **Lazy Props**
 protected function resolveLazyProp(string $key): mixed
     return $this->props[$key] instanceof Closure
         ? ($this->props[$key])()
         : $this->props[$key];
 ## 📚 Lessons Learned
+=======
+}
+```
+
+2. **Lazy Props**
+```php
+protected function resolveLazyProp(string $key): mixed
+{
+    return $this->props[$key] instanceof Closure
+        ? ($this->props[$key])()
+        : $this->props[$key];
+}
+```
+
+## 📚 Lessons Learned
+
+>>>>>>> laraxot/dev
 1. Importanza della type safety per maintainability
 2. Bilanciamento tra flessibilità e type constraints
 3. Performance impact del view caching
 4. Necessità di documentazione dettagliata
+<<<<<<< HEAD
 ## 🔗 Resources
+=======
+
+## 🔗 Resources
+
+>>>>>>> laraxot/dev
 - [Component Architecture](docs/architecture/components.md)
 - [Type System](docs/types/component_types.md)
 - [Performance Guide](docs/performance/view_caching.md)
 - [Testing Strategy](docs/testing/component_testing.md)
+<<<<<<< HEAD
 ## 🤝 Contributing
+=======
+
+## 🤝 Contributing
+
+>>>>>>> laraxot/dev
 1. Fork il repository
 2. Crea un branch (`feature/component-name`)
 3. Implementa i test
 4. Documenta le modifiche
 5. Submitti una PR
+<<<<<<< HEAD
 ## ⚠️ Known Issues
 1. **View Compilation**
    - Memory leak in nested components
@@ -342,7 +498,26 @@ protected function resolveLazyProp(string $key): mixed
    - Performance impact con molti props
    - Solution: Lazy validation strategy
 ## 🎯 Next Steps
+=======
+
+## ⚠️ Known Issues
+
+1. **View Compilation**
+   - Memory leak in nested components
+   - Solution: Implement view garbage collection
+
+2. **Prop Validation**
+   - Performance impact con molti props
+   - Solution: Lazy validation strategy
+
+## 🎯 Next Steps
+
+>>>>>>> laraxot/dev
 1. Completare form component
 2. Implementare lazy loading
 3. Migliorare test coverage
 4. Documentare best practices
+<<<<<<< HEAD
+=======
+5. Ottimizzare performance
+>>>>>>> laraxot/dev

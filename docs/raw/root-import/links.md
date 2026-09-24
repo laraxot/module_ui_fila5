@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Links"
 type: concept
@@ -20,6 +21,8 @@ related:
   - "./changelog-2.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 ---------------------------------------------------------------------------------------------------
 Laravel URL Redirects with Optional Protected Url Passwords
 https://codebrisk.com/blog/laravel-url-redirects-with-optional-protected-url-passwords

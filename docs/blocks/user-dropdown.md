@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "User Dropdown Component"
 type: concept
@@ -16,6 +17,8 @@ related:
   - "./navigation.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # User Dropdown Component
 
 This document describes the User Dropdown component used in the header section and explains proper data handling patterns.

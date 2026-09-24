@@ -8,6 +8,7 @@ Complete the standardization of UI documentation and fix reported accessibility 
 | :--- | :--- | :--- | :--- |
 | Standardize UI Docs | 1 | @Gemini | ✅ Done |
 | Modal Accessibility Fix | 2 | @CoreTeam | 📥 Todo |
+<<<<<<< HEAD
 # UI Module - Sprint Planning
 
 **Module:** UI  
@@ -78,6 +79,8 @@ Implement core design system with essential UI components.
 ---
 
 *Last Updated: March 12, 2026*
+=======
+>>>>>>> laraxot/dev
 
 ## ✅ Definition of Done
 - All 6 files exist.

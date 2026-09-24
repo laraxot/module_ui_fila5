@@ -7,7 +7,10 @@ namespace Modules\UI\Actions\Icon;
 use BladeUI\Icons\Factory as IconFactory;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\File;
+<<<<<<< HEAD
 use ReflectionClass;
+=======
+>>>>>>> laraxot/dev
 use Spatie\QueueableAction\QueueableAction;
 
 class GetAllIconsAction
@@ -23,8 +26,13 @@ class GetAllIconsAction
 
         // Uso reflection per accedere alle icone in modo sicuro
         try {
+<<<<<<< HEAD
             $reflection = new ReflectionClass($iconsFactory);
             $property = $reflection->getProperty('sets');
+=======
+            $reflection = new \ReflectionClass($iconsFactory);
+            $property = $reflection->getProperty('iconSets');
+>>>>>>> laraxot/dev
             $property->setAccessible(true);
             $icons = $property->getValue($iconsFactory);
         } catch (\Exception $e) {
@@ -32,7 +40,12 @@ class GetAllIconsAction
             return [];
         }
 
+<<<<<<< HEAD
         if (! is_iterable($icons)) {
+=======
+        // Verifica che $icons sia un array prima di usare Arr::map()
+        if (! is_array($icons)) {
+>>>>>>> laraxot/dev
             return [];
         }
 
@@ -64,13 +77,37 @@ class GetAllIconsAction
                     continue;
                 }
 
+<<<<<<< HEAD
                 foreach (File::allFiles($path) as $file) {
                     // Simply ignore files that aren't SVGs
                     if ($file->getExtension() !== 'svg') {
+=======
+                $files = File::allFiles($path);
+                if (! is_iterable($files)) {
+                    continue;
+                }
+
+                foreach ($files as $file) {
+                    // Type narrowing per SplFileInfo
+                    if (! $file instanceof \SplFileInfo) {
+                        continue;
+                    }
+
+                    // Simply ignore files that aren't SVGs
+                    if ('svg' !== $file->getExtension()) {
+>>>>>>> laraxot/dev
                         continue;
                     }
 
                     $pathname = $file->getPathname();
+<<<<<<< HEAD
+=======
+                    if (! is_string($pathname)) {
+                        continue;
+                    }
+
+                    // $iconName = $this->getIconName($file, parentPath: $path, prefix: $prefix);
+>>>>>>> laraxot/dev
                     $iconName = str($pathname)
                         ->after($path.DIRECTORY_SEPARATOR)
                         ->replace(DIRECTORY_SEPARATOR, '.')
@@ -79,7 +116,11 @@ class GetAllIconsAction
 
                     $prefix = $set['prefix'] ?? '';
                     $prefixString = is_string($prefix) ? $prefix : '';
+<<<<<<< HEAD
                     $iconFullName = $prefixString !== '' ? $prefixString.'-'.$iconName : $iconName;
+=======
+                    $iconFullName = '' !== $prefixString ? $prefixString.'-'.$iconName : $iconName;
+>>>>>>> laraxot/dev
                     $iconsList[] = $iconFullName;
                 }
             }

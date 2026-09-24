@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Schemaless Attributes Guide for UI Themes"
 type: guide
@@ -21,6 +22,11 @@ related:
 
 [![Laravel 12.47.0](https://img.shields.io/badge/Laravel-12.47.0-red.svg)](https://laravel.com/)
 [![Laravel 13.47.0](https://img.shields.io/badge/Laravel-12.47.0-red.svg)](https://laravel.com/)
+=======
+# Schemaless Attributes Guide for UI Themes
+
+[![Laravel 12.47.0](https://img.shields.io/badge/Laravel-12.47.0-red.svg)](https://laravel.com/)
+>>>>>>> laraxot/dev
 [![Filament 5.0.0](https://img.shields.io/badge/Filament-5.0.0-blue.svg)](https://filamentphp.com/)
 [![Spatie Schemaless](https://img.shields.io/badge/Spatie-Schemaless-orange.svg)](https://github.com/spatie/laravel-schemaless-attributes)
 [![PHPStan Level 10](https://img.shields.io/badge/PHPStan-Level%2010-brightgreen.svg)](https://phpstan.org/)

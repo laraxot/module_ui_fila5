@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "Task: Refactoring Componenti Complessi - UI"
 type: concept
@@ -21,6 +22,8 @@ related:
   - "./ui-filament-v5.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # Task: Refactoring Componenti Complessi - UI
 
 **Modulo**: UI  

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "StudioCardSelector Component - Modulo UI"
 type: concept
@@ -20,6 +21,8 @@ related:
   - "./full-calendar-1.md"
 ---
 
+=======
+>>>>>>> laraxot/dev
 # StudioCardSelector Component - Modulo UI
 
 ## 🎯 **Panoramica**

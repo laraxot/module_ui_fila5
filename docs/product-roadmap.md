@@ -39,6 +39,7 @@ Questo roadmap traduce il PRD in sequenza di rilascio per **UI**, che nel proget
 - target completamento: 95%+
 
 ## Dipendenze
+<<<<<<< HEAD
 # UI Module - Product Roadmap
 
 **Module:** UI  
@@ -142,6 +143,8 @@ To create a **unified, beautiful, and accessible design system** that ensures co
 ---
 
 *Last Updated: March 12, 2026*
+=======
+>>>>>>> laraxot/dev
 
 - [PRD](prd.md)
 - [Product Strategy](product-strategy.md)
