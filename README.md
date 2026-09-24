@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 id: module-ui-readme
 title: "UI — Componenti Visuali Condivisi"
@@ -19,9 +18,6 @@ related:
 sources: []
 ---
 
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 # 🎨 UI
 
 [![Stars](https://img.shields.io/github/stars/laraxot/module_ui_fila5?style=plastic&color=yellow)]()
@@ -34,18 +30,12 @@ sources: []
 [![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)
 [![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)
 [![Architecture](https://img.shields.io/badge/Architecture-Modular-purple?style=plastic)]()
-<<<<<<< HEAD
 [![PHPStan Level 10](https://img.shields.io/badge/PHPStan-Level%2010-brightgreen.svg)](https://phpstan.org/)
 [![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue.svg)](https://www.php-fig.org/psr/psr-12/)
 [![Strict Types](https://img.shields.io/badge/PHP-strict__types-1-informational.svg)](#)
 
 > **Componenti UI riutilizzabili e design system**
 > Componenti UI, layout, temi e pattern di design per Filament v5, senza logica di dominio.
-=======
-
-> **Componenti UI riutilizzabili e design system**  
-> Componenti UI, layout, temi e pattern di design per Filament v5.
->>>>>>> laraxot/dev
 
 ## 🎯 La Visione
 
@@ -57,7 +47,6 @@ Crediamo che il software debba essere **chiaro, modulare e potente**. Ogni modul
 
 In un mondo dove la complessità è l'avere, abbiamo scritto codice semplice. Questo modulo non è solo una libreria: è una **promessa di qualità** mantenuta.
 
-<<<<<<< HEAD
 ## Cosa offre
 
 - **Blade/Livewire** — componenti riusabili
@@ -69,8 +58,6 @@ In un mondo dove la complessità è l'avere, abbiamo scritto codice semplice. Qu
 
 Questo modulo pubblica contratti usabili da altri moduli. La logica vive nelle `Actions`; la UI admin segue Laraxot/XotBase. Nessuna logica di dominio: quella resta nei moduli che la possiedono (vedi [docs/purpose.md](./docs/purpose.md)).
 
-=======
->>>>>>> laraxot/dev
 ## 🧘 I Principi Zen (e la nostra filosofia)
 
 1. **Semplicità vince sulla complessità** - Il codice chiaro è più potente di mille righe di commenti.
@@ -92,10 +79,7 @@ Questo modulo pubblica contratti usabili da altri moduli. La logica vive nelle `
 ```bash
 # Installazione modulo
 php artisan module:enable UI
-<<<<<<< HEAD
 php artisan module:list
-=======
->>>>>>> laraxot/dev
 php artisan migrate
 
 # Sviluppo locale
@@ -105,11 +89,7 @@ composer dev
 ./vendor/bin/phpstan analyse Modules/UI --memory-limit=-1
 ```
 
-<<<<<<< HEAD
 Configuration is in `config/config.php`. Adjust as needed.
-=======
-Configuration is in `config/ui.php`. Adjust as needed.
->>>>>>> laraxot/dev
 
 ## 🤝 Contributing
 
@@ -126,7 +106,6 @@ composer dev
 - [ ] Code style (Pint) applied
 - [ ] Documentation updated
 
-<<<<<<< HEAD
 See [docs/architecture.md](./docs/architecture.md) for design decisions.
 
 ## 📖 Documentazione
@@ -144,21 +123,6 @@ See [docs/architecture.md](./docs/architecture.md) for design decisions.
 | 📜 Changelog | [CHANGELOG.md](./CHANGELOG.md) |
 | 📐 Regole del progetto | [../../../docs/wiki/](../../../docs/wiki/) |
 | 🏠 README del progetto | [../../../README.md](../../../README.md) |
-=======
-See [ARCHITECTURE.md](./ARCHITECTURE.md) for design decisions.
-
-## 📖 Documentazione
-
-| Lingua | Link |
-|--------|------|
-| 🇮🇹 Presentazione | Questo file (`README.md`) |
-| 🇬🇧 Business card | [docs/readme-en.md](./docs/readme-en.md) |
-| 📚 Wiki tecnica | [./docs/wiki/](./docs/) |
-| 🎯 Esempi | [docs/examples/](./docs/examples/) |
-| 🏗️ Architettura | [ARCHITECTURE.md](./ARCHITECTURE.md) |
-| 🧪 Testing | [TESTING.md](./TESTING.md) |
-| 📜 Changelog | [CHANGELOG.md](./CHANGELOG.md) |
->>>>>>> laraxot/dev
 
 ## 🔧 Tecnologie chiave
 
@@ -166,7 +130,6 @@ See [ARCHITECTURE.md](./ARCHITECTURE.md) for design decisions.
 
 **Keywords:** UI, Components, Design System
 
-<<<<<<< HEAD
 ## Qualità e manutenzione
 
 Mantenere `declare(strict_types=1);` in PHP, aderire alla configurazione PHPStan del progetto e aggiornare i docs quando i contratti evolvono.
@@ -174,124 +137,3 @@ Mantenere `declare(strict_types=1);` in PHP, aderire alla configurazione PHPStan
 ---
 
 **Modulo** `UI` · **Laraxot ecosystem** · **Project-agnostic** · PHPStan 10 · Filament 5
-=======
----
-
-**Modulo** `UI` · **Laraxot** · PHPStan 10 · Filament 5
-=======
----
-id: module-ui-readme
-title: "UI — Componenti Visuali Condivisi"
-type: module-readme
-category: module-documentation
-module: UI
-status: active
-tags: [ui, blade, livewire, filament, accessibility]
-created: 2026-09-14
-updated: 2026-09-14
-qmd: "ui blade livewire filament components accessibility module documentation"
-issues:
-  - "https://github.com/laraxot/module_ui_fila5/issues/33"
-discussions:
-  - "https://github.com/laraxot/module_ui_fila5/discussions/34"
-related:
-  - "./docs/"
-sources: []
----
-
-# 🎨 UI
-
-<<<<<<< HEAD
-> **Componenti visuali condivisi.**
-=======
-[![Domain-UI](https://img.shields.io/badge/Domain-UI%20Kit-7B1FA2.svg)](#)
-[![Laravel 12](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
-[![Filament 5](https://img.shields.io/badge/Filament-5-ffab00.svg)](https://filamentphp.com/)
-[![PHP 8.4+](https://img.shields.io/badge/PHP-8.4+-777BB4.svg)](https://php.net/)
-[![PHPStan Level 10](https://img.shields.io/badge/PHPStan-Level%2010-brightgreen.svg)](https://phpstan.org/)
-[![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue.svg)](https://www.php-fig.org/psr/psr-12/)
-[![Strict Types](https://img.shields.io/badge/PHP-strict__types-1-informational.svg)](#)
-[![Laraxot Modules](https://img.shields.io/badge/Architecture-Modular-purple.svg)](#)
-<<<<<<< HEAD
-[![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-[![<nome progetto> Platform](https://img.shields.io/badge/Platform-<nome progetto>-008758.svg)](#)
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-[![Current Platform](https://img.shields.io/badge/Platform-progetto corrente-008758.svg)](#)
-=======
-[![<nome progetto> Platform](https://img.shields.io/badge/Platform-<nome progetto>-008758.svg)](#)
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-
-Vocabolario riusabile Blade, Livewire e Filament senza logica di dominio.
-
-## Cosa offre
-
-- **Blade/Livewire** – componenti riusabili
-- **Filament XotBase** – base per admin
-- **Accessibilità** – a11y conforme
-- **Tailwind/DaisyUI** – design system
-
-## Confini architetturali
-
-This module publishes contracts usable by other modules. Logic lives in `Actions`; admin UI follows Laraxot/XotBase.
-
-## Integrazione rapida
-
-```bash
-cd laravel
-php artisan module:list
-./vendor/bin/phpstan analyse Modules/UI
-```
-
-See local docs for integration patterns.
-
-## Documentazione
-
-The technical map is in [docs/README.md](./docs/README.md).
-
-- [Story BMAD del modulo](./docs/stories/)
-- [Regole del progetto](../../../docs/wiki/)
-- [README del progetto](../../README.md)
-
-## Qualità e manutenzione
-
-Maintain `declare(strict_types=1);` in PHP, adhere to project PHPStan config, and update docs when contracts evolve.
-
----
-
-<<<<<<< HEAD
-**Modulo** `ui` · **Laraxot ecosystem** · **Project-agnostic**
-=======
-<<<<<<< HEAD
-**Modulo** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-**Modulo** `ui` · **Laraxot** · **<nome progetto> Platform** · PHPStan 10 · Filament 5
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-**Modulo** `ui` · **Laraxot** · **Current Platform** · PHPStan 10 · Filament 5
-=======
-**Modulo** `ui` · **Laraxot** · **<nome progetto> Platform** · PHPStan 10 · Filament 5
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
