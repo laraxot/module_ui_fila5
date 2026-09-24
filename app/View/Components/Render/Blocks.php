@@ -1,9 +1,6 @@
 <?php
 
-<<<<<<< HEAD
 declare(strict_types=1);
-=======
->>>>>>> laraxot/dev
 /**
  * The `Blocks` component is responsible for rendering a set of blocks on a view.
  *
@@ -14,11 +11,6 @@ declare(strict_types=1);
  * passes the `$view`, `$blocks`, and `$model` parameters to the view for rendering.
  */
 
-<<<<<<< HEAD
-=======
-declare(strict_types=1);
-
->>>>>>> laraxot/dev
 namespace Modules\UI\View\Components\Render;
 
 use Illuminate\Contracts\View\View;
@@ -29,22 +21,13 @@ use Modules\Xot\Actions\GetViewAction;
 final class Blocks extends Component
 {
     /**
-<<<<<<< HEAD
      * @param  array<int|string, mixed>  $blocks
-=======
-     * @param array<int|string, mixed> $blocks
->>>>>>> laraxot/dev
      */
     public function __construct(
         public string $view,
         public array $blocks = [],
         public ?Model $model = null,
-<<<<<<< HEAD
     ) {}
-=======
-    ) {
-    }
->>>>>>> laraxot/dev
 
     public function render(): View
     {
