@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ---
 title: "Navbar"
@@ -30,6 +31,8 @@ related:
   - "./ci.md"
 ---
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 https://tw-elements.com/docs/standard/navigation/navbar/
 

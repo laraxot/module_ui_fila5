@@ -37,6 +37,7 @@ Su filesystem case-insensitive (Windows, macOS default), file con nomi che diffe
 - README.md (maiuscolo - convenzione universale)
 - ROADMAP.md (maiuscolo - convenzione universale)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - CHANGELOG.md (maiuscolo - convenzione universale)
 =======
 <<<<<<< HEAD
@@ -44,6 +45,9 @@ Su filesystem case-insensitive (Windows, macOS default), file con nomi che diffe
 =======
 - changelog.md (maiuscolo - convenzione universale)
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+- CHANGELOG.md (maiuscolo - convenzione universale)
 >>>>>>> laraxot/dev
 - LICENSE.md (maiuscolo - convenzione universale)
 - CONTRIBUTING.md (maiuscolo - convenzione universale)

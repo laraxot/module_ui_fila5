@@ -1,11 +1,15 @@
 # Rapporto Aggiornamento Filament 4.x - Modulo UI
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 **Data**: 2025-01-27
 **Status**: ✅ COMPLETATO
 **Versione Filament**: 4.0.17
 **Status**: ✅ COMPLETATO  
 **Versione Filament**: 4.0.17  
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 **Data**: 2025-01-27  
@@ -45,12 +49,15 @@
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ## 🔧 Correzioni Implementate
 
 ### 1. Widget FullCalendar Disabilitato
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 4.x
 =======
 <<<<<<< HEAD
@@ -76,6 +83,9 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+**Problema**: Dipendenza da `saade/filament-fullcalendar` non compatibile con Filament 4.x
 >>>>>>> laraxot/dev
 **Soluzione**: Disabilitazione temporanea del widget
 
@@ -144,6 +154,7 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 {
     protected static ?string $view = 'ui::filament.widgets.simple-calendar';
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -171,6 +182,8 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     public function getEvents(): array
     {
@@ -210,6 +223,7 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 - Sistema di autenticazione e autorizzazione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-27*
@@ -227,6 +241,8 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 *Ultimo aggiornamento: 2025-01-27*
 # Rapporto Aggiornamento Filament 4.x - Modulo UI
@@ -312,6 +328,7 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 - Widget base di Filament 4.x
 - Sistema di autenticazione e autorizzazione
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -332,4 +349,6 @@ class SimpleCalendarWidget extends \Filament\Widgets\Widget
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

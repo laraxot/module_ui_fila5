@@ -7,6 +7,7 @@ declare(strict_types=1);
 // Canon: Modules/UI/docs/wiki/concepts/claude-audit-static.md
 // File: lang/it/opening_hours_field_plural_label.php
 <<<<<<< HEAD
+<<<<<<< HEAD
 return array (
   'plural_label' => 'Opening Hours Field (Plurale)',
 );
@@ -14,4 +15,9 @@ return array (
 return [
     'plural_label' => 'Opening Hours Field (Plurale)',
 ];
+>>>>>>> laraxot/dev
+=======
+return array (
+  'plural_label' => 'Opening Hours Field (Plurale)',
+);
 >>>>>>> laraxot/dev

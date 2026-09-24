@@ -18,8 +18,12 @@ class MockCalendarWidget extends BaseCalendarWidgetStub
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      *
 =======
+>>>>>>> laraxot/dev
+=======
+     *
 >>>>>>> laraxot/dev
      * @param array<string, mixed> $fetchInfo
      *
