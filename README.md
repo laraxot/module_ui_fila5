@@ -21,6 +21,7 @@ sources: []
 
 # 🎨 UI
 
+<<<<<<< HEAD
 [![Stars](https://img.shields.io/github/stars/laraxot/module_ui_fila5?style=plastic&color=yellow)]()
 [![Forks](https://img.shields.io/github/forks/laraxot/module_ui_fila5?style=plastic&color=green)]()
 [![Issues](https://img.shields.io/github/issues/laraxot/module_ui_fila5?style=plastic&color=red)]()
@@ -140,6 +141,9 @@ Mantenere `declare(strict_types=1);` in PHP, aderire alla configurazione PHPStan
 **Modulo** `UI` · **Laraxot ecosystem** · **Project-agnostic** · PHPStan 10 · Filament 5
 =======
 # 🎨 UI
+=======
+> **Componenti visuali condivisi.**
+>>>>>>> 4dd69e81 (chore(UI): igiene root: un solo .code-workspace (_module_ui_fila5), .md in root al massimo 6)
 
 [![Domain-UI](https://img.shields.io/badge/Domain-UI%20Kit-7B1FA2.svg)](#)
 [![Laravel 12](https://img.shields.io/badge/Laravel-12-red.svg)](https://laravel.com/)
@@ -149,7 +153,10 @@ Mantenere `declare(strict_types=1);` in PHP, aderire alla configurazione PHPStan
 [![PSR-12](https://img.shields.io/badge/Code-PSR--12-blue.svg)](https://www.php-fig.org/psr/psr-12/)
 [![Strict Types](https://img.shields.io/badge/PHP-strict__types-1-informational.svg)](#)
 [![Laraxot Modules](https://img.shields.io/badge/Architecture-Modular-purple.svg)](#)
+<<<<<<< HEAD
 [![FixCity Platform](https://img.shields.io/badge/Platform-FixCity-008758.svg)](#)
+=======
+>>>>>>> 4dd69e81 (chore(UI): igiene root: un solo .code-workspace (_module_ui_fila5), .md in root al massimo 6)
 
 > **Componenti che non reinventano la ruota.** Design system condiviso tra moduli e tema.
 
@@ -194,5 +201,9 @@ Stack frontoffice: **Tailwind · Alpine · Lit · DaisyUI · Flowbite · Filamen
 
 ---
 
+<<<<<<< HEAD
 **Modulo** `ui` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
 >>>>>>> laraxot/dev
+=======
+**Modulo** `ui` · **Laraxot ecosystem** · **Project-agnostic** · PHPStan 10 · Filament 5
+>>>>>>> 4dd69e81 (chore(UI): igiene root: un solo .code-workspace (_module_ui_fila5), .md in root al massimo 6)
