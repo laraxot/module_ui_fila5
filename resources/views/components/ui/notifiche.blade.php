@@ -1,4 +1,14 @@
+<<<<<<< .merge_file_8te21d
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ZP9qdi
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_CzK3HZ
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -46,8 +56,23 @@
 @php
 @endphp
 
+<<<<<<< .merge_file_8te21d
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+<?php
+
+declare(strict_types=1);
+?>
+>>>>>>> .merge_file_zFtlCi
+>>>>>>> .merge_file_CzK3HZ
 @props([
     'notifications' => [],
     'maxCount' => 5,
@@ -178,8 +203,28 @@
             </div>
         @endif
     </div>
+<<<<<<< .merge_file_8te21d
 <<<<<<< HEAD
 </div>
 =======
 </div>
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_ZP9qdi
+<<<<<<< HEAD
+</div>
+=======
+<<<<<<< HEAD
+</div>
+=======
+<<<<<<< HEAD
+</div>
+=======
+</div>
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+</div>
+>>>>>>> .merge_file_zFtlCi
+>>>>>>> .merge_file_CzK3HZ

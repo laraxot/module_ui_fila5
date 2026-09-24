@@ -4,7 +4,19 @@ description: Moduli Filament
 extends: _layouts.documentation
 section: content
 <<<<<<< HEAD
+<<<<<<< .merge_file_4tavdw
 =======
+=======
+<<<<<<< .merge_file_NWzAZk
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_BGMBgj
+>>>>>>> .merge_file_recmyA
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -14,7 +26,20 @@ related:
   - "./filament-4-migration-guide.md"
   - "./filament-4-migration-summary.md"
   - "./filament-4-migration-sumy.md"
+<<<<<<< .merge_file_4tavdw
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_NWzAZk
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_BGMBgj
+>>>>>>> .merge_file_recmyA
 ---
 
 # Moduli Filament {#moduli-filament}

@@ -1,4 +1,14 @@
+<<<<<<< .merge_file_4YS1wx
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_K99tnf
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_0tNnz9
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -17,12 +27,22 @@
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
+<<<<<<< .merge_file_4YS1wx
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_nmwwss
+>>>>>>> .merge_file_0tNnz9
 <?php
 
 declare(strict_types=1);
-
 ?>
 @props(['title' => 'Profilo Utente'])
 

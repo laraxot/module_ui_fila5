@@ -1,4 +1,14 @@
+<<<<<<< .merge_file_OJfddZ
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_mIxTiM
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_19f5GW
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -11,12 +21,22 @@
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
+<<<<<<< .merge_file_OJfddZ
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_AFGusZ
+>>>>>>> .merge_file_19f5GW
 <?php
 
 declare(strict_types=1);
-
 ?>
 {{--
 /**

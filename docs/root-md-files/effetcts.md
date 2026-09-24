@@ -1,5 +1,13 @@
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_L8JO15
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_3Lqeif
 ---
 title: "Effetcts"
 type: concept
@@ -30,6 +38,13 @@ related:
   - "./ci.md"
 ---
 
+<<<<<<< .merge_file_L8JO15
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_3Lqeif
 >>>>>>> laraxot/dev
 https://mridul2820.github.io/css-js/
 

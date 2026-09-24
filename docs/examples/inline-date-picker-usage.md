@@ -1,5 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_v49C7N
 =======
+=======
+<<<<<<< .merge_file_1Cbr7T
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_oW2Nj5
+>>>>>>> .merge_file_7la15n
 ---
 title: "Esempi di Utilizzo di InlineDatePicker"
 type: concept
@@ -7,6 +19,10 @@ tags: [inline, date, picker, usage]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "inline-date-picker-usage esempi di utilizzo di inlinedatepicker"
+<<<<<<< .merge_file_v49C7N
+=======
+<<<<<<< .merge_file_1Cbr7T
+>>>>>>> .merge_file_7la15n
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -19,11 +35,33 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_v49C7N
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_oW2Nj5
+>>>>>>> .merge_file_7la15n
 related:
   - "./table-layout-implementation-example.md"
 ---
 
+<<<<<<< .merge_file_v49C7N
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_1Cbr7T
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_oW2Nj5
+>>>>>>> .merge_file_7la15n
 # Esempi di Utilizzo di InlineDatePicker
 
 ## Esempio 1: Prenotazione Appuntamenti Medici

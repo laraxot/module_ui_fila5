@@ -1,4 +1,14 @@
+<<<<<<< .merge_file_l0k6Qa
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_kc6Q6H
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_unNQnk
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -16,12 +26,22 @@
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
+<<<<<<< .merge_file_l0k6Qa
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_aeWASr
+>>>>>>> .merge_file_unNQnk
 <?php
 
 declare(strict_types=1);
-
 ?>
 <!--
   This example requires some changes to your config:

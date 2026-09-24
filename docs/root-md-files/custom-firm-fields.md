@@ -1,5 +1,13 @@
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_v1HiwF
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wahArr
 ---
 title: "Custom Firm Fields"
 type: concept
@@ -30,6 +38,13 @@ related:
   - "./ci.md"
 ---
 
+<<<<<<< .merge_file_v1HiwF
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wahArr
 >>>>>>> laraxot/dev
 https://github.com/tanthammar/filament-extras
 

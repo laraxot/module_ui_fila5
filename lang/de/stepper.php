@@ -2,13 +2,34 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_Yke2iO
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_EG3Lz0
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ixfqWE
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/de/stepper.php
+<<<<<<< .merge_file_Yke2iO
 =======
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_WkfJgN
+>>>>>>> .merge_file_ixfqWE
 return [
     'step' => 'Schritt',
     'step_1' => 'Schritt 1',

@@ -1,8 +1,17 @@
 <<<<<<< HEAD
 # Utilizzo dei Componenti Blade di Filament
 =======
+<<<<<<< .merge_file_usnSYn
 # Utilizzo dei Componenti Blade di Filament 
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+# Utilizzo dei Componenti Blade di Filament
+=======
+# Utilizzo dei Componenti Blade di Filament 
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_TYyWsi
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -44,10 +53,20 @@ Filament fornisce una serie di componenti Blade pronti all'uso che dovrebbero es
 ⚠️ **ATTENZIONE**: I seguenti layout **NON esistono** in Filament e non devono essere utilizzati:
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_usnSYn
+=======
+- ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_TYyWsi
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>
 =======
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di SaluteOra
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_usnSYn
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_TYyWsi
 - ❌ `<x-filament::layouts.card>` - Non esiste, utilizzare invece una combinazione di `<x-filament::card>` e altri componenti
 - ❌ `<x-filament::layouts.base>` - Non esiste
 
@@ -193,8 +212,17 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 <<<<<<< HEAD
 ## Gestione delle Rotte
 =======
+<<<<<<< .merge_file_usnSYn
 ## Gestione delle Rotte 
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+## Gestione delle Rotte
+=======
+## Gestione delle Rotte 
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_TYyWsi
 
 ### Regole Fondamentali
 
@@ -204,10 +232,20 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 
 2. **Per le pagine frontend**:
 <<<<<<< HEAD
+<<<<<<< .merge_file_usnSYn
+=======
+   - Creare file Blade in `Themes/One/resources/views/pages/`
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_TYyWsi
    - Creare file Blade in `Themes/One/resources/views/pages/`
 =======
    - Creare file Blade in `/var/www/html/saluteora/laravel/Themes/One/resources/views/pages/`
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_usnSYn
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_TYyWsi
    - Utilizzare Folio per il routing automatico
    - Esempio: `/profile/index.blade.php` sarà accessibile come `/it/profile`
 

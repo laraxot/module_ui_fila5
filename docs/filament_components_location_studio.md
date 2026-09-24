@@ -3,9 +3,22 @@
 ## Overview
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_Owakmv
 Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo SaluteOra.
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_iZtEz0
+Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo SaluteOra.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo SaluteOra.
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Iiv6AA
 Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo <nome progetto>corrente.
 =======
 <<<<<<< HEAD
@@ -28,6 +41,18 @@ Questi componenti Filament sono stati creati per supportare la selezione geograf
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_Owakmv
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo <nome progetto>corrente.
+=======
+Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo SaluteOra.
+>>>>>>> .merge_file_WSWey8
+>>>>>>> .merge_file_Iiv6AA
 >>>>>>> laraxot/dev
 
 ## Componenti Implementati
@@ -41,9 +66,22 @@ Componente Filament per la selezione gerarchica di Regione → Provincia → CAP
 
 #### Caratteristiche
 <<<<<<< HEAD
+<<<<<<< .merge_file_Owakmv
 - ✅ **Selezione Gerarchica**: Regione → Provincia → CAP  
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_iZtEz0
+- ✅ **Selezione Gerarchica**: Regione → Provincia → CAP  
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- ✅ **Selezione Gerarchica**: Regione → Provincia → CAP  
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Iiv6AA
 - ✅ **Selezione Gerarchica**: Regione → Provincia → CAP
 =======
 <<<<<<< HEAD
@@ -66,6 +104,18 @@ Componente Filament per la selezione gerarchica di Regione → Provincia → CAP
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_Owakmv
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- ✅ **Selezione Gerarchica**: Regione → Provincia → CAP
+=======
+- ✅ **Selezione Gerarchica**: Regione → Provincia → CAP  
+>>>>>>> .merge_file_WSWey8
+>>>>>>> .merge_file_Iiv6AA
 >>>>>>> laraxot/dev
 - ✅ **Live Updates**: I campi si aggiornano automaticamente
 - ✅ **Integrazione Geo**: Utilizza i modelli del modulo Geo
@@ -107,6 +157,7 @@ Componente Blade per la selezione di studi odontoiatrici tramite pulsanti radio-
 
 ```blade
 <<<<<<< HEAD
+<<<<<<< .merge_file_Owakmv
 <x-ui::ui.studio-selector 
 =======
 <<<<<<< HEAD
@@ -121,6 +172,29 @@ Componente Blade per la selezione di studi odontoiatrici tramite pulsanti radio-
 <x-ui::ui.studio-selector 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_iZtEz0
+<x-ui::ui.studio-selector 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<x-ui::ui.studio-selector 
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<x-ui::ui.studio-selector
+=======
+<<<<<<< HEAD
+<x-ui::ui.studio-selector 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<x-ui::ui.studio-selector 
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_Iiv6AA
 >>>>>>> laraxot/dev
 <x-ui::ui.studio-selector
 =======
@@ -132,6 +206,18 @@ Componente Blade per la selezione di studi odontoiatrici tramite pulsanti radio-
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_Owakmv
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+<x-ui::ui.studio-selector
+=======
+<x-ui::ui.studio-selector 
+>>>>>>> .merge_file_WSWey8
+>>>>>>> .merge_file_Iiv6AA
 >>>>>>> laraxot/dev
     :studios="$studios"
     :selected-studio="$selectedStudioId"
@@ -165,6 +251,7 @@ protected function getStudioStepSchema(): array
     return [
         // Titolo step
 <<<<<<< HEAD
+<<<<<<< .merge_file_Owakmv
         View::make('saluteora::filament.widgets.studio-step-header')
 =======
 <<<<<<< HEAD
@@ -179,6 +266,29 @@ protected function getStudioStepSchema(): array
         View::make('saluteora::filament.widgets.studio-step-header')
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_iZtEz0
+        View::make('saluteora::filament.widgets.studio-step-header')
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        View::make('saluteora::filament.widgets.studio-step-header')
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+        View::make('<nome progetto>ilament.widgets.studio-step-header')
+=======
+<<<<<<< HEAD
+        View::make('saluteora::filament.widgets.studio-step-header')
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        View::make('saluteora::filament.widgets.studio-step-header')
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_Iiv6AA
 >>>>>>> laraxot/dev
         View::make('<nome progetto>ilament.widgets.studio-step-header')
 =======
@@ -190,6 +300,18 @@ protected function getStudioStepSchema(): array
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_Owakmv
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+        View::make('<nome progetto>ilament.widgets.studio-step-header')
+=======
+        View::make('saluteora::filament.widgets.studio-step-header')
+>>>>>>> .merge_file_WSWey8
+>>>>>>> .merge_file_Iiv6AA
 >>>>>>> laraxot/dev
             ->viewData([
                 'studiosCount' => $this->getStudiosCount(),
@@ -199,9 +321,22 @@ protected function getStudioStepSchema(): array
 
         // Pulsanti selezione studio
 <<<<<<< HEAD
+<<<<<<< .merge_file_Owakmv
         View::make('saluteora::filament.widgets.studio-selector')
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_iZtEz0
+        View::make('saluteora::filament.widgets.studio-selector')
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        View::make('saluteora::filament.widgets.studio-selector')
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Iiv6AA
         View::make('<nome progetto>ilament.widgets.studio-selector')
 =======
 <<<<<<< HEAD
@@ -209,6 +344,22 @@ protected function getStudioStepSchema(): array
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Owakmv
+        View::make('saluteora::filament.widgets.studio-selector')
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+        View::make('<nome progetto>ilament.widgets.studio-selector')
+=======
+        View::make('saluteora::filament.widgets.studio-selector')
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
 =======
         View::make('saluteora::filament.widgets.studio-selector')
 =======
@@ -224,6 +375,16 @@ protected function getStudioStepSchema(): array
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+        View::make('<nome progetto>ilament.widgets.studio-selector')
+=======
+        View::make('saluteora::filament.widgets.studio-selector')
+>>>>>>> .merge_file_WSWey8
+>>>>>>> .merge_file_Iiv6AA
 >>>>>>> laraxot/dev
             ->viewData([
                 'studios' => $this->getStudiosForSelectedArea(),
@@ -234,14 +395,29 @@ protected function getStudioStepSchema(): array
         // TextInput per mostrare studio selezionato
         TextInput::make('selected_studio_name')
 <<<<<<< HEAD
+<<<<<<< .merge_file_Owakmv
+=======
+<<<<<<< .merge_file_iZtEz0
+>>>>>>> .merge_file_Iiv6AA
             ->label(__('saluteora::widgets.find_doctor.fields.selected_studio.label'))
             ->placeholder(__('saluteora::widgets.find_doctor.fields.selected_studio.placeholder'))
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_Owakmv
+=======
+<<<<<<< HEAD
+=======
+            ->label(__('saluteora::widgets.find_doctor.fields.selected_studio.label'))
+            ->placeholder(__('saluteora::widgets.find_doctor.fields.selected_studio.placeholder'))
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Iiv6AA
             ->label(__('<nome progetto>::widgets.find_doctor.fields.selected_studio.label'))
             ->placeholder(__('<nome progetto>::widgets.find_doctor.fields.selected_studio.placeholder'))
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_Owakmv
             ->label(__('saluteora::widgets.find_doctor.fields.selected_studio.label'))
             ->placeholder(__('saluteora::widgets.find_doctor.fields.selected_studio.placeholder'))
 =======
@@ -258,6 +434,24 @@ protected function getStudioStepSchema(): array
 =======
             ->label(__('saluteora::widgets.find_doctor.fields.selected_studio.label'))
             ->placeholder(__('saluteora::widgets.find_doctor.fields.selected_studio.placeholder'))
+=======
+            ->label(__('saluteora::widgets.find_doctor.fields.selected_studio.label'))
+            ->placeholder(__('saluteora::widgets.find_doctor.fields.selected_studio.placeholder'))
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            ->label(__('saluteora::widgets.find_doctor.fields.selected_studio.label'))
+            ->placeholder(__('saluteora::widgets.find_doctor.fields.selected_studio.placeholder'))
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+            ->label(__('<nome progetto>idgets.find_doctor.fields.selected_studio.label'))
+            ->placeholder(__('<nome progetto>idgets.find_doctor.fields.selected_studio.placeholder'))
+=======
+            ->label(__('saluteora::widgets.find_doctor.fields.selected_studio.label'))
+            ->placeholder(__('saluteora::widgets.find_doctor.fields.selected_studio.placeholder'))
+>>>>>>> .merge_file_Iiv6AA
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 <<<<<<< HEAD
 =======
@@ -265,6 +459,20 @@ protected function getStudioStepSchema(): array
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_Owakmv
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+            ->label(__('<nome progetto>::widgets.find_doctor.fields.selected_studio.label'))
+            ->placeholder(__('<nome progetto>::widgets.find_doctor.fields.selected_studio.placeholder'))
+=======
+            ->label(__('saluteora::widgets.find_doctor.fields.selected_studio.label'))
+            ->placeholder(__('saluteora::widgets.find_doctor.fields.selected_studio.placeholder'))
+>>>>>>> .merge_file_WSWey8
+>>>>>>> .merge_file_Iiv6AA
 >>>>>>> laraxot/dev
             ->readonly()
             ->visible(fn (): bool => !empty($this->data['selected_studio']))
@@ -290,9 +498,21 @@ public function selectStudio(int $studioId): void
     
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_Owakmv
     
 =======
 <<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Iiv6AA
 <<<<<<< HEAD
 =======
     
@@ -308,6 +528,13 @@ public function selectStudio(int $studioId): void
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< .merge_file_Owakmv
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Iiv6AA
 >>>>>>> laraxot/dev
     if (!$studio || !$studio->active) {
         $this->addError('selected_studio', 'Studio non disponibile');
@@ -318,12 +545,27 @@ public function selectStudio(int $studioId): void
     $this->data['selected_studio'] = $studioId;
     $this->data['selected_studio_name'] = $studio->name;
 <<<<<<< HEAD
+<<<<<<< .merge_file_Owakmv
     
 =======
 <<<<<<< HEAD
     
 =======
 <<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Iiv6AA
 <<<<<<< HEAD
 =======
     
@@ -339,6 +581,13 @@ public function selectStudio(int $studioId): void
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< .merge_file_Owakmv
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Iiv6AA
 >>>>>>> laraxot/dev
     // Notifica il cambio di stato
     $this->dispatch('studio-selected', studioId: $studioId, studioName: $studio->name);
@@ -353,12 +602,12 @@ public function selectStudio(int $studioId): void
 - Validazione cascata
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_Owakmv
 ### 2. **Step Selezione Studio**  
 =======
 <<<<<<< HEAD
-### 2. **Step Selezione Studio**
 =======
-<<<<<<< HEAD
+<<<<<<< .merge_file_iZtEz0
 ### 2. **Step Selezione Studio**  
 =======
 <<<<<<< HEAD
@@ -368,9 +617,32 @@ public function selectStudio(int $studioId): void
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+>>>>>>> .merge_file_Iiv6AA
+### 2. **Step Selezione Studio**
+=======
+<<<<<<< HEAD
+### 2. **Step Selezione Studio**  
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Owakmv
+### 2. **Step Selezione Studio**  
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ### 2. **Step Selezione Studio**
 =======
 ### 2. **Step Selezione Studio**  
+=======
+### 2. **Step Selezione Studio**  
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+### 2. **Step Selezione Studio**
+=======
+### 2. **Step Selezione Studio**  
+>>>>>>> .merge_file_Iiv6AA
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 <<<<<<< HEAD
 =======
@@ -378,6 +650,18 @@ public function selectStudio(int $studioId): void
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_Owakmv
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+### 2. **Step Selezione Studio**
+=======
+### 2. **Step Selezione Studio**  
+>>>>>>> .merge_file_WSWey8
+>>>>>>> .merge_file_Iiv6AA
 >>>>>>> laraxot/dev
 - Visualizzazione pulsanti per ogni studio nell'area
 - Click su pulsante = selezione studio
@@ -403,6 +687,7 @@ protected function getStudiosForSelectedArea(): Collection
     
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_Owakmv
     
 =======
 <<<<<<< HEAD
@@ -411,6 +696,22 @@ protected function getStudiosForSelectedArea(): Collection
     
 =======
 <<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+    
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_Iiv6AA
 >>>>>>> laraxot/dev
 
 =======
@@ -421,6 +722,13 @@ protected function getStudiosForSelectedArea(): Collection
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< .merge_file_Owakmv
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Iiv6AA
 >>>>>>> laraxot/dev
     return cache()->remember($cacheKey, 300, function () {
         return Studio::query()
@@ -448,12 +756,27 @@ class FindDoctorWidgetStep2Test extends TestCase
     {
         $studio = Studio::factory()->create(['name' => 'Studio Test']);
 <<<<<<< HEAD
+<<<<<<< .merge_file_Owakmv
         
 =======
 <<<<<<< HEAD
         
 =======
 <<<<<<< HEAD
+=======
+        
+=======
+<<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Iiv6AA
 <<<<<<< HEAD
 =======
         
@@ -469,6 +792,13 @@ class FindDoctorWidgetStep2Test extends TestCase
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< .merge_file_Owakmv
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Iiv6AA
 >>>>>>> laraxot/dev
         $widget = Livewire::test(FindDoctorAndAppointmentWidget::class)
             ->set('data.region', '12')
@@ -488,6 +818,15 @@ class FindDoctorWidgetStep2Test extends TestCase
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_Owakmv
+=======
+<<<<<<< HEAD
+=======
+            
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Iiv6AA
 
 =======
             
@@ -497,6 +836,13 @@ class FindDoctorWidgetStep2Test extends TestCase
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< .merge_file_Owakmv
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Iiv6AA
 >>>>>>> laraxot/dev
         $widget->assertSet('data.selected_studio', $studio->id)
                ->assertSet('data.selected_studio_name', 'Studio Test');
@@ -538,6 +884,10 @@ class FindDoctorWidgetStep2Test extends TestCase
 ---
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_Owakmv
+=======
+<<<<<<< .merge_file_iZtEz0
+>>>>>>> .merge_file_Iiv6AA
 =======
 <<<<<<< HEAD
 =======
@@ -549,11 +899,26 @@ class FindDoctorWidgetStep2Test extends TestCase
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_Owakmv
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_WSWey8
+>>>>>>> .merge_file_Iiv6AA
 **Creato**: 26 Giugno 2025
 **Versione**: 2.0 - Semplificato
 **Stato**: Implementation Ready
 **Approccio**: Pulsanti + TextInput (semplice e diretto)
+<<<<<<< .merge_file_Owakmv
+=======
+<<<<<<< .merge_file_iZtEz0
+>>>>>>> .merge_file_Iiv6AA
 <<<<<<< HEAD
 =======
 =======
@@ -563,7 +928,19 @@ class FindDoctorWidgetStep2Test extends TestCase
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_Owakmv
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_WSWey8
+>>>>>>> .merge_file_Iiv6AA
 **Creato**: 26 Giugno 2025  
 **Versione**: 2.0 - Semplificato  
 **Stato**: Implementation Ready  
@@ -573,6 +950,14 @@ class FindDoctorWidgetStep2Test extends TestCase
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_Owakmv
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Iiv6AA
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 =======
 <<<<<<< HEAD
@@ -581,4 +966,11 @@ class FindDoctorWidgetStep2Test extends TestCase
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< .merge_file_Owakmv
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Iiv6AA
 >>>>>>> laraxot/dev

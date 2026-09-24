@@ -56,14 +56,37 @@
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
 <<<<<<< HEAD
+<<<<<<< .merge_file_rcKTRV
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wKVL9k
 4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
 ## Collegamenti tra versioni di filament-components.md
+<<<<<<< HEAD
+* [filament-components.md](../../User/docs/best-practices/filament-components.md)
+* [filament-components.md](../../Cms/docs/best-practices/filament-components.md)
+* [filament-components.md](../../Cms/docs/filament-components.md)
+* [filament-components.md](../../../docs/rules/filament-components.md)
+=======
 * [filament-components.md](../../user/docs/best-practices/filament-components.md)
 * [filament-components.md](../../cms/docs/best-practices/filament-components.md)
 * [filament-components.md](../../cms/docs/filament-components.md)
 * [filament-components.md](../../../../docs/rules/filament-components.md)
+<<<<<<< .merge_file_rcKTRV
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_CJyVpb
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wKVL9k
 4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti 
 =======
 <<<<<<< HEAD
@@ -104,6 +127,15 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_rcKTRV
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_IWJTKU
+>>>>>>> .merge_file_wKVL9k
 >>>>>>> laraxot/dev
 # Componenti Filament UI
 
@@ -111,6 +143,16 @@
 
 ### Errori Comuni
 <<<<<<< HEAD
+<<<<<<< .merge_file_rcKTRV
+=======
+=======
+<<<<<<< HEAD
+
+### Componenti Specifici
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wKVL9k
 - [Errori nei Componenti Filament](./filament-components-errors.md)
 - [Best Practices UI](../../best-practices.md)
 - [Implementazione Corretta](../../examples/correct-implementation.md)
@@ -119,10 +161,20 @@
 - [FileUpload](./components/file-upload.md)
 - [TextInput](./components/text-input.md)
 - [Select](./components/select.md)
+<<<<<<< .merge_file_rcKTRV
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_wKVL9k
 =======
 
 ### Componenti Specifici
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_rcKTRV
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wKVL9k
 
 ## Struttura della Documentazione
 
@@ -172,13 +224,39 @@
 4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
 ## Collegamenti tra versioni di filament-components.md
 <<<<<<< HEAD
+<<<<<<< .merge_file_rcKTRV
+=======
+<<<<<<< .merge_file_CJyVpb
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+* [filament-components.md](../../User/project_docs/best-practices/filament-components.md)
+* [filament-components.md](../../Cms/project_docs/best-practices/filament-components.md)
+* [filament-components.md](../../Cms/project_docs/filament-components.md)
+* [filament-components.md](../../../project_docs/rules/filament-components.md)
+=======
+>>>>>>> .merge_file_IWJTKU
+>>>>>>> .merge_file_wKVL9k
 * [filament-components.md](../../user/project_docs/best-practices/filament-components.md)
 * [filament-components.md](../../cms/project_docs/best-practices/filament-components.md)
 * [filament-components.md](../../cms/project_docs/filament-components.md)
 * [filament-components.md](../../../../docs/project/rules/filament-components.md)
+<<<<<<< .merge_file_rcKTRV
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_CJyVpb
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wKVL9k
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 =======
@@ -226,4 +304,13 @@
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_rcKTRV
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_IWJTKU
+>>>>>>> .merge_file_wKVL9k
 >>>>>>> laraxot/dev

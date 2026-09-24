@@ -1,5 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_X8cXry
 =======
+=======
+<<<<<<< .merge_file_6MsDon
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Pxz1Gd
+>>>>>>> .merge_file_4zwLtl
 ---
 title: "Componente FileUpload"
 type: concept
@@ -7,6 +19,10 @@ tags: [file, upload]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "file-upload componente fileupload"
+<<<<<<< .merge_file_X8cXry
+=======
+<<<<<<< .merge_file_6MsDon
+>>>>>>> .merge_file_4zwLtl
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -22,7 +38,26 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 ---
 
+<<<<<<< .merge_file_X8cXry
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
+---
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Pxz1Gd
+>>>>>>> .merge_file_4zwLtl
 # Componente FileUpload
 
 ## Collegamenti Bidirezionali

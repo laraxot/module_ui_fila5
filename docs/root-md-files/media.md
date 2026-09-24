@@ -1,5 +1,13 @@
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_fmqTJd
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wRexC1
 ---
 title: "Media"
 type: concept
@@ -30,6 +38,13 @@ related:
   - "./ci.md"
 ---
 
+<<<<<<< .merge_file_fmqTJd
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wRexC1
 >>>>>>> laraxot/dev
 https://naxon.dev/blog/laravel-media-library-load-only-1st-picture-efficiently
 

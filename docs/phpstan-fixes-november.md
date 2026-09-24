@@ -1,4 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_Afh2Ed
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Tm3C1s
 ---
 module: theme
 topic: phpstan-fixes-november
@@ -6,6 +12,11 @@ canonical: ../../../Themes/docs/shared-components/phpstan-fixes-november-2025.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan-fixes-november-2025.md
+<<<<<<< .merge_file_Afh2Ed
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_Tm3C1s
 =======
 # PHPStan Fixes - November 2025
 
@@ -205,3 +216,7 @@ Quando serve fare type narrowing di una variabile usata più volte, estrarre il 
 
 *Ultimo aggiornamento: 11 Novembre 2025*
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_Afh2Ed
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Tm3C1s

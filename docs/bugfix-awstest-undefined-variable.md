@@ -127,7 +127,25 @@ Ogni metodo di test implementa:
 6. **Documentazione**: File markdown nella cartella docs del modulo
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_zt8JZo
 =======
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_tNYi77
+=======
+<<<<<<< HEAD
+*Ultimo aggiornamento: Gennaio 2025*
+=======
+<<<<<<< HEAD
+=======
+*Ultimo aggiornamento: Gennaio 2025*
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+*Ultimo aggiornamento: Gennaio 2025*
+=======
+>>>>>>> .merge_file_sqfIti
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_uTQL39
 *Errore risolto: ErrorException Undefined variable $results*

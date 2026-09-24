@@ -1,5 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_q9BUHA
 =======
+=======
+<<<<<<< .merge_file_gC4J1C
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_x7j1bX
+>>>>>>> .merge_file_Q3NnWS
 ---
 title: "Componenti UI - Modulo UI"
 type: concept
@@ -7,6 +19,10 @@ tags: [components]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "ui-components componenti ui - modulo ui"
+<<<<<<< .merge_file_q9BUHA
+=======
+<<<<<<< .merge_file_gC4J1C
+>>>>>>> .merge_file_Q3NnWS
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -19,6 +35,15 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_q9BUHA
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_x7j1bX
+>>>>>>> .merge_file_Q3NnWS
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -30,7 +55,20 @@ related:
   - "./full-calendar-1.md"
 ---
 
+<<<<<<< .merge_file_q9BUHA
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_gC4J1C
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_x7j1bX
+>>>>>>> .merge_file_Q3NnWS
 # Componenti UI - Modulo UI
 
 ## Panoramica
@@ -210,9 +248,29 @@ return [
 ## 🔗 Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_q9BUHA
 - [**README Modulo UI**](../readme.md)
 =======
 - [**README Modulo UI**](../README.md)
+=======
+<<<<<<< .merge_file_gC4J1C
+- [**README Modulo UI**](../readme.md)
+=======
+<<<<<<< HEAD
+- [**README Modulo UI**](../README.md)
+=======
+<<<<<<< HEAD
+- [**README Modulo UI**](../readme.md)
+=======
+- [**README Modulo UI**](../README.md)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [**README Modulo UI**](../README.md)
+=======
+- [**README Modulo UI**](../readme.md)
+>>>>>>> .merge_file_x7j1bX
+>>>>>>> .merge_file_Q3NnWS
 >>>>>>> laraxot/dev
 - [**Sistema Layout**](../layout/layout-system.md)
 - [**Gestione Asset**](../assets/asset-management.md)

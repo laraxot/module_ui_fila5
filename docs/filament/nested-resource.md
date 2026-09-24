@@ -4,7 +4,19 @@ description: Nested Resource
 extends: _layouts.documentation
 section: content
 <<<<<<< HEAD
+<<<<<<< .merge_file_zH872U
 =======
+=======
+<<<<<<< .merge_file_rnNvTh
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_h6zArK
+>>>>>>> .merge_file_RvfPLW
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -14,7 +26,20 @@ related:
   - "./filament-4-migration-guide.md"
   - "./filament-4-migration-summary.md"
   - "./filament-4-migration-sumy.md"
+<<<<<<< .merge_file_zH872U
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_rnNvTh
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_h6zArK
+>>>>>>> .merge_file_RvfPLW
 ---
 
 # Nested Resource {#nested-resource}

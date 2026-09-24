@@ -159,13 +159,33 @@ $spacers: (
 - [Performance](./standards/performance.md)
 - [Accessibilità](./standards/accessibility.md)
 <<<<<<< HEAD
+<<<<<<< .merge_file_EPWVWP
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_UgxxGE
 - [UI Standards](./standards/ui-standards.md)
 # Componenti Base
+<<<<<<< HEAD
+## 🎨 Design System
+=======
 
 ## 🎨 Design System
 
+<<<<<<< .merge_file_EPWVWP
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_kilHaH
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_UgxxGE
 - [UI Standards](./standards/ui-standards.md) 
 =======
 <<<<<<< HEAD
@@ -184,6 +204,15 @@ $spacers: (
 - [UI Standards](./standards/ui-standards.md)
 # Componenti Base
 ## 🎨 Design System
+<<<<<<< .merge_file_EPWVWP
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hDejEA
+>>>>>>> .merge_file_UgxxGE
 >>>>>>> laraxot/dev
 ### Colori
 ```scss
@@ -195,14 +224,47 @@ $danger: #dc3545;
 $warning: #ffc107;
 $info: #17a2b8;
 <<<<<<< HEAD
+<<<<<<< .merge_file_EPWVWP
 
 =======
+=======
+<<<<<<< .merge_file_kilHaH
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_hDejEA
+>>>>>>> .merge_file_UgxxGE
 >>>>>>> laraxot/dev
 // Gradienti
 $gradient-primary: linear-gradient(135deg, $primary, darken($primary, 10%));
 $gradient-success: linear-gradient(135deg, $success, darken($success, 10%));
 ```
 <<<<<<< HEAD
+<<<<<<< .merge_file_EPWVWP
+=======
+<<<<<<< .merge_file_kilHaH
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+### Tipografia
+// Font stack
+$font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+$font-family-heading: 'Montserrat', $font-family-base;
+=======
+>>>>>>> .merge_file_hDejEA
+>>>>>>> .merge_file_UgxxGE
 
 ### Tipografia
 ```scss
@@ -210,33 +272,94 @@ $gradient-success: linear-gradient(135deg, $success, darken($success, 10%));
 $font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 $font-family-heading: 'Montserrat', $font-family-base;
 
+<<<<<<< .merge_file_EPWVWP
 =======
+=======
+<<<<<<< .merge_file_kilHaH
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_UgxxGE
 ### Tipografia
 // Font stack
 $font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 $font-family-heading: 'Montserrat', $font-family-base;
+<<<<<<< .merge_file_EPWVWP
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hDejEA
+>>>>>>> .merge_file_UgxxGE
 >>>>>>> laraxot/dev
 // Scale
 $font-size-base: 1rem;
 $font-size-sm: 0.875rem;
 $font-size-lg: 1.125rem;
 <<<<<<< HEAD
+<<<<<<< .merge_file_EPWVWP
 
 =======
+=======
+<<<<<<< .merge_file_kilHaH
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_hDejEA
+>>>>>>> .merge_file_UgxxGE
 >>>>>>> laraxot/dev
 // Pesanti
 $font-weight-normal: 400;
 $font-weight-medium: 500;
 $font-weight-bold: 700;
 <<<<<<< HEAD
+<<<<<<< .merge_file_EPWVWP
+=======
+<<<<<<< .merge_file_kilHaH
+=======
+<<<<<<< HEAD
+### Spaziatura
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+### Spaziatura
+=======
+>>>>>>> .merge_file_hDejEA
+>>>>>>> .merge_file_UgxxGE
 ```
 
 ### Spaziatura
 ```scss
 // Scale
+<<<<<<< .merge_file_EPWVWP
 =======
 ### Spaziatura
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_kilHaH
+<<<<<<< HEAD
+=======
+=======
+### Spaziatura
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hDejEA
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_UgxxGE
 $spacer: 1rem;
 $spacers: (
   0: 0,
@@ -247,13 +370,40 @@ $spacers: (
   5: $spacer * 3
 );
 <<<<<<< HEAD
+<<<<<<< .merge_file_EPWVWP
+=======
+<<<<<<< .merge_file_kilHaH
+=======
+<<<<<<< HEAD
+## 📱 Componenti
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+## 📱 Componenti
+=======
+>>>>>>> .merge_file_hDejEA
+>>>>>>> .merge_file_UgxxGE
 ```
 
 ## 📱 Componenti
 
+<<<<<<< .merge_file_EPWVWP
 =======
 ## 📱 Componenti
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_kilHaH
+<<<<<<< HEAD
+=======
+=======
+## 📱 Componenti
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hDejEA
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_UgxxGE
 ### Bottoni
 ```html
 <!-- Primario -->
@@ -262,31 +412,95 @@ $spacers: (
   Aggiungi
 </button>
 <<<<<<< HEAD
+<<<<<<< .merge_file_EPWVWP
 
 =======
+=======
+<<<<<<< .merge_file_kilHaH
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_hDejEA
+>>>>>>> .merge_file_UgxxGE
 >>>>>>> laraxot/dev
 <!-- Secondario -->
 <button class="btn btn-secondary">
   <i class="fas fa-edit"></i>
   Modifica
 <<<<<<< HEAD
+<<<<<<< .merge_file_EPWVWP
 </button>
 
 =======
+=======
+<<<<<<< .merge_file_kilHaH
+</button>
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+</button>
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+</button>
+
+>>>>>>> .merge_file_hDejEA
+>>>>>>> .merge_file_UgxxGE
 >>>>>>> laraxot/dev
 <!-- Pericolo -->
 <button class="btn btn-danger">
   <i class="fas fa-trash"></i>
   Elimina
 <<<<<<< HEAD
+<<<<<<< .merge_file_EPWVWP
+=======
+<<<<<<< .merge_file_kilHaH
+=======
+<<<<<<< HEAD
+### Form
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+### Form
+=======
+>>>>>>> .merge_file_hDejEA
+>>>>>>> .merge_file_UgxxGE
 </button>
 ```
 
 ### Form
 ```html
+<<<<<<< .merge_file_EPWVWP
 =======
 ### Form
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_kilHaH
+<<<<<<< HEAD
+=======
+=======
+### Form
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hDejEA
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_UgxxGE
 <!-- Input -->
 <div class="form-group">
   <label for="email">Email</label>
@@ -294,11 +508,37 @@ $spacers: (
   <small class="form-text text-muted">Non condivideremo mai la tua email</small>
 </div>
 <<<<<<< HEAD
+<<<<<<< .merge_file_EPWVWP
 
 <!-- Select -->
 <div class="form-group">
 =======
 <!-- Select -->
+=======
+<<<<<<< .merge_file_kilHaH
+
+<!-- Select -->
+<div class="form-group">
+=======
+<<<<<<< HEAD
+<!-- Select -->
+=======
+<<<<<<< HEAD
+
+<!-- Select -->
+<div class="form-group">
+=======
+<!-- Select -->
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+<!-- Select -->
+=======
+
+<!-- Select -->
+<div class="form-group">
+>>>>>>> .merge_file_hDejEA
+>>>>>>> .merge_file_UgxxGE
 >>>>>>> laraxot/dev
   <label for="role">Ruolo</label>
   <select id="role" class="form-control">
@@ -307,14 +547,41 @@ $spacers: (
     <option value="user">Utente</option>
   </select>
 <<<<<<< HEAD
+<<<<<<< .merge_file_EPWVWP
+=======
+<<<<<<< .merge_file_kilHaH
+=======
+<<<<<<< HEAD
+### Card
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+### Card
+=======
+>>>>>>> .merge_file_hDejEA
+>>>>>>> .merge_file_UgxxGE
 </div>
 ```
 
 ### Card
 ```html
+<<<<<<< .merge_file_EPWVWP
 =======
 ### Card
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_kilHaH
+<<<<<<< HEAD
+=======
+=======
+### Card
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hDejEA
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_UgxxGE
 <div class="card">
   <div class="card-header">
     <h5 class="card-title">Titolo Card</h5>
@@ -322,6 +589,23 @@ $spacers: (
   <div class="card-body">
     <p class="card-text">Contenuto della card</p>
 <<<<<<< HEAD
+<<<<<<< .merge_file_EPWVWP
+=======
+<<<<<<< .merge_file_kilHaH
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_hDejEA
+  <div class="card-footer">
+    <button class="btn btn-primary">Azione</button>
+### Alert
+=======
+<<<<<<< .merge_file_kilHaH
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hDejEA
+>>>>>>> .merge_file_UgxxGE
   </div>
   <div class="card-footer">
     <button class="btn btn-primary">Azione</button>
@@ -331,34 +615,115 @@ $spacers: (
 
 ### Alert
 ```html
+<<<<<<< .merge_file_EPWVWP
+=======
+<<<<<<< .merge_file_kilHaH
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_UgxxGE
 =======
   <div class="card-footer">
     <button class="btn btn-primary">Azione</button>
 ### Alert
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_EPWVWP
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hDejEA
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_UgxxGE
 <!-- Successo -->
 <div class="alert alert-success">
   <i class="fas fa-check-circle"></i>
   Operazione completata con successo
 <<<<<<< HEAD
+<<<<<<< .merge_file_EPWVWP
 </div>
 
 =======
+=======
+<<<<<<< .merge_file_kilHaH
+</div>
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+</div>
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+</div>
+
+>>>>>>> .merge_file_hDejEA
+>>>>>>> .merge_file_UgxxGE
 >>>>>>> laraxot/dev
 <!-- Errore -->
 <div class="alert alert-danger">
   <i class="fas fa-exclamation-circle"></i>
   Si è verificato un errore
 <<<<<<< HEAD
+<<<<<<< .merge_file_EPWVWP
 </div>
 
 =======
+=======
+<<<<<<< .merge_file_kilHaH
+</div>
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+</div>
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+</div>
+
+>>>>>>> .merge_file_hDejEA
+>>>>>>> .merge_file_UgxxGE
 >>>>>>> laraxot/dev
 <!-- Info -->
 <div class="alert alert-info">
   <i class="fas fa-info-circle"></i>
   Informazione importante
 <<<<<<< HEAD
+<<<<<<< .merge_file_EPWVWP
+=======
+<<<<<<< .merge_file_kilHaH
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+### Badge
+<span class="badge badge-primary">Nuovo</span>
+<span class="badge badge-success">Completato</span>
+<span class="badge badge-danger">Errore</span>
+### Progress Bar
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    75%
+### Spinner
+<div class="spinner-border text-primary" role="status">
+  <span class="sr-only">Caricamento...</span>
+## 🔗 Collegamenti
+- [Performance](./standards/performance.md)
+- [Accessibilità](./standards/accessibility.md)
+
+```
+=======
+>>>>>>> .merge_file_hDejEA
+>>>>>>> .merge_file_UgxxGE
 </div>
 ```
 
@@ -394,7 +759,15 @@ $spacers: (
 - [Performance](./standards/performance.md)
 - [Accessibilità](./standards/accessibility.md)
 - [UI Standards](./standards/ui-standards.md)
+<<<<<<< .merge_file_EPWVWP
 =======
+=======
+<<<<<<< .merge_file_kilHaH
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_UgxxGE
 ### Badge
 <span class="badge badge-primary">Nuovo</span>
 <span class="badge badge-success">Completato</span>
@@ -429,4 +802,13 @@ $spacers: (
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_EPWVWP
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hDejEA
+>>>>>>> .merge_file_UgxxGE
 >>>>>>> laraxot/dev

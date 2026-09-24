@@ -202,10 +202,23 @@ $this->mount(function () {
 
 <<<<<<< HEAD
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di Quaeris per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
+<<<<<<< .merge_file_Wnu62O
+=======
+<<<<<<< .merge_file_esVbl1
+>>>>>>> .merge_file_9QxpRw
 =======
 <<<<<<< HEAD
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di Quaeris per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
 <<<<<<< HEAD
+<<<<<<< .merge_file_Wnu62O
+=======
+=======
+=======
+<<<<<<< HEAD
+Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di Quaeris per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_9QxpRw
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di modulo questionari per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
 =======
 =======
@@ -226,6 +239,18 @@ Le traduzioni per il dropdown utente sono definite nei file di traduzione di Lar
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_Wnu62O
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di modulo questionari per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
+=======
+>>>>>>> .merge_file_WHsDkx
+>>>>>>> .merge_file_9QxpRw
 >>>>>>> laraxot/dev
 
 ### Struttura delle Traduzioni

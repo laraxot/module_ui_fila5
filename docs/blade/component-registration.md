@@ -1,5 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_xdnXKM
 =======
+=======
+<<<<<<< .merge_file_dKJ4DC
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_WqahEz
+>>>>>>> .merge_file_zHCaaL
 ---
 title: "Registrazione Componenti Blade nei Moduli"
 type: concept
@@ -7,6 +19,10 @@ tags: [component, registration]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "component-registration registrazione componenti blade nei moduli"
+<<<<<<< .merge_file_xdnXKM
+=======
+<<<<<<< .merge_file_dKJ4DC
+>>>>>>> .merge_file_zHCaaL
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -19,11 +35,33 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_xdnXKM
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_WqahEz
+>>>>>>> .merge_file_zHCaaL
 related:
   - "./filament-components.md"
 ---
 
+<<<<<<< .merge_file_xdnXKM
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_dKJ4DC
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_WqahEz
+>>>>>>> .merge_file_zHCaaL
 # Registrazione Componenti Blade nei Moduli
 
 ## Architettura dei componenti Blade

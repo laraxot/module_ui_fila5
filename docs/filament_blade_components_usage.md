@@ -1,7 +1,20 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_fHxfYW
 # Utilizzo dei Componenti Blade di Filament 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_RI2Ycj
+# Utilizzo dei Componenti Blade di Filament 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Utilizzo dei Componenti Blade di Filament 
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rZwsnS
 # Utilizzo dei Componenti Blade di Filament
 =======
 <<<<<<< HEAD
@@ -24,6 +37,18 @@
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_fHxfYW
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+# Utilizzo dei Componenti Blade di Filament
+=======
+# Utilizzo dei Componenti Blade di Filament 
+>>>>>>> .merge_file_y7jHbn
+>>>>>>> .merge_file_rZwsnS
 >>>>>>> laraxot/dev
 
 ## Indice
@@ -66,6 +91,7 @@ Filament fornisce una serie di componenti Blade pronti all'uso che dovrebbero es
 ⚠️ **ATTENZIONE**: I seguenti layout **NON esistono** in Filament e non devono essere utilizzati:
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_fHxfYW
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>
 =======
 <<<<<<< HEAD
@@ -91,6 +117,50 @@ Filament fornisce una serie di componenti Blade pronti all'uso che dovrebbero es
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_RI2Ycj
+- ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+- ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di SaluteOra
+<<<<<<< HEAD
+- ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>corrente
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di SaluteOra
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+- ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>corrente
+=======
+- ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di SaluteOra
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di SaluteOra
+- ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>corrente
+=======
+- ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>
+>>>>>>> .merge_file_y7jHbn
+>>>>>>> .merge_file_rZwsnS
 >>>>>>> laraxot/dev
 - ❌ `<x-filament::layouts.card>` - Non esiste, utilizzare invece una combinazione di `<x-filament::card>` e altri componenti
 - ❌ `<x-filament::layouts.base>` - Non esiste
@@ -235,6 +305,7 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 3. **NON nidificare** elementi dropdown in modo errato - Rispettare la struttura gerarchica dei componenti Filament.
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_fHxfYW
 ## Gestione delle Rotte 
 =======
 <<<<<<< HEAD
@@ -253,6 +324,33 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 ## Gestione delle Rotte
 =======
 ## Gestione delle Rotte 
+=======
+<<<<<<< .merge_file_RI2Ycj
+## Gestione delle Rotte 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+## Gestione delle Rotte 
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+## Gestione delle Rotte
+=======
+<<<<<<< HEAD
+## Gestione delle Rotte 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+## Gestione delle Rotte 
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+## Gestione delle Rotte
+=======
+## Gestione delle Rotte 
+>>>>>>> .merge_file_rZwsnS
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 <<<<<<< HEAD
 =======
@@ -260,6 +358,18 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_fHxfYW
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+## Gestione delle Rotte
+=======
+## Gestione delle Rotte 
+>>>>>>> .merge_file_y7jHbn
+>>>>>>> .merge_file_rZwsnS
 >>>>>>> laraxot/dev
 
 ### Regole Fondamentali
@@ -270,6 +380,7 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 
 2. **Per le pagine frontend**:
 <<<<<<< HEAD
+<<<<<<< .merge_file_fHxfYW
    - Creare file Blade in `/var/www/html/<nome progetto>/laravel/Themes/One/resources/views/pages/`
 =======
 <<<<<<< HEAD
@@ -295,6 +406,50 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_RI2Ycj
+   - Creare file Blade in `/var/www/html/<nome progetto>/laravel/Themes/One/resources/views/pages/`
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   - Creare file Blade in `/var/www/html/<nome progetto>/laravel/Themes/One/resources/views/pages/`
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+   - Creare file Blade in `/var/www/html/saluteora/laravel/Themes/One/resources/views/pages/`
+<<<<<<< HEAD
+- Creare file Blade in `[project-root]/laravel/Themes/One/resources/views/pages/`
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+   - Creare file Blade in `/var/www/html/saluteora/laravel/Themes/One/resources/views/pages/`
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+   - Creare file Blade in `[project-root]/laravel/Themes/One/resources/views/pages/`
+=======
+   - Creare file Blade in `/var/www/html/saluteora/laravel/Themes/One/resources/views/pages/`
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+   - Creare file Blade in `/var/www/html/saluteora/laravel/Themes/One/resources/views/pages/`
+- Creare file Blade in `[project-root]/laravel/Themes/One/resources/views/pages/`
+=======
+   - Creare file Blade in `/var/www/html/<nome progetto>/laravel/Themes/One/resources/views/pages/`
+>>>>>>> .merge_file_y7jHbn
+>>>>>>> .merge_file_rZwsnS
 >>>>>>> laraxot/dev
    - Utilizzare Folio per il routing automatico
    - Esempio: `/profile/index.blade.php` sarà accessibile come `/it/profile`
