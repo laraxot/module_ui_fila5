@@ -1,18 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< .merge_file_n3CLDD
 
-=======
-<<<<<<< .merge_file_ExBi1R
-
-=======
-<<<<<<< .merge_file_xjUfC9
-
-=======
->>>>>>> .merge_file_9SN9Dt
->>>>>>> .merge_file_FijO9F
->>>>>>> .merge_file_zG0K7r
 ?>
 <div class="bg-gray-900">
     <div class="pt-12 sm:pt-16 lg:pt-24">

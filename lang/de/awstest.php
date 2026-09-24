@@ -2,21 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< .merge_file_Uah5xt
-=======
-<<<<<<< .merge_file_v1mFb9
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_4Cmooq
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-return [
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_RZKAZh
->>>>>>> .merge_file_sRCXvK
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
@@ -39,21 +24,7 @@ return [
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
-<<<<<<< .merge_file_Uah5xt
 return [
-=======
-=======
-return [
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_v1mFb9
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-return [
->>>>>>> .merge_file_uVlf3t
->>>>>>> .merge_file_RZKAZh
->>>>>>> .merge_file_sRCXvK
     'page' => [
         'title' => 'AWS Diagnose Test',
         'heading' => 'AWS Konfiguration Diagnose',

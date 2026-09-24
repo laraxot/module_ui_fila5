@@ -38,64 +38,12 @@ final class Blocks extends Component
          * @phpstan-var view-string
          */
         $view = app(GetViewAction::class)->execute($this->view);
-<<<<<<< .merge_file_gbjKxu
         $view_params = [
-=======
-<<<<<<< .merge_file_NHwVnj
-=======
-<<<<<<< .merge_file_XmSmpH
-<<<<<<< HEAD
-        $view_params = [
-=======
-<<<<<<< HEAD
-        $viewParams = [
-=======
->>>>>>> .merge_file_MNxlHf
-<<<<<<< HEAD
-        $view_params = [
-=======
-        $viewParams = [
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_NHwVnj
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        $viewParams = [
->>>>>>> .merge_file_PHlHUT
->>>>>>> .merge_file_MNxlHf
->>>>>>> .merge_file_4f2Fkl
             'view' => $view,
             'blocks' => $this->blocks,
             'model' => $this->model,
         ];
 
-<<<<<<< .merge_file_gbjKxu
         return view($view, $view_params);
-=======
-<<<<<<< .merge_file_NHwVnj
-=======
-<<<<<<< .merge_file_XmSmpH
-<<<<<<< HEAD
-        return view($view, $view_params);
-=======
-<<<<<<< HEAD
-        return view($view, $viewParams);
-=======
->>>>>>> .merge_file_MNxlHf
-<<<<<<< HEAD
-        return view($view, $view_params);
-=======
-        return view($view, $viewParams);
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_NHwVnj
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        return view($view, $viewParams);
->>>>>>> .merge_file_PHlHUT
->>>>>>> .merge_file_MNxlHf
->>>>>>> .merge_file_4f2Fkl
     }
 }

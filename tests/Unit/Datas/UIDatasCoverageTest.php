@@ -4,28 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit\Datas;
 
-<<<<<<< .merge_file_njIHeM
 use Modules\UI\Data\UserData as DataUserData;
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_wUCVKj
-=======
-use Modules\UI\Data\UserData as DataUserData;
->>>>>>> laraxot/dev
-=======
-use Modules\UI\Data\UserData as DataUserData;
-=======
-<<<<<<< HEAD
-use Modules\UI\Data\UserData as DataUserData;
-=======
-<<<<<<< HEAD
-=======
-use Modules\UI\Data\UserData as DataUserData;
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_qQDzbD
->>>>>>> .merge_file_rEwlaO
 use Modules\UI\Datas\SliderData;
 use Modules\UI\Datas\SliderDataCollection;
 use Modules\UI\Datas\UserData;
@@ -34,41 +13,6 @@ use PHPUnit\Framework\Assert;
 use Spatie\LaravelData\Data;
 
 uses(TestCase::class);
-<<<<<<< .merge_file_njIHeM
-=======
-<<<<<<< .merge_file_wUCVKj
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_WrnTmc
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_qQDzbD
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-<<<<<<< .merge_file_wUCVKj
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_MU56B3
->>>>>>> .merge_file_qQDzbD
->>>>>>> .merge_file_rEwlaO
 
 it('SliderData can be instantiated with all fields', function (): void {
     $data = new SliderData(
@@ -126,52 +70,12 @@ it('SliderData can be instantiated with nulls', function (): void {
 
 it('SliderDataCollection can be instantiated', function (): void {
     $collection = new SliderDataCollection();
-<<<<<<< .merge_file_njIHeM
-=======
-=======
-<<<<<<< .merge_file_wUCVKj
-    $collection = new SliderDataCollection;
-=======
-<<<<<<< HEAD
-    $collection = new SliderDataCollection;
-=======
-<<<<<<< HEAD
-    $collection = new SliderDataCollection();
-=======
-    $collection = new SliderDataCollection;
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_qQDzbD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_rEwlaO
 
     Assert::assertInstanceOf(SliderDataCollection::class, $collection);
 });
 
 it('SliderDataCollection is a Spatie Data class', function (): void {
-<<<<<<< .merge_file_njIHeM
     $collection = new SliderDataCollection();
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_wUCVKj
-=======
-    $collection = new SliderDataCollection();
-=======
-<<<<<<< HEAD
-    $collection = new SliderDataCollection;
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_qQDzbD
-    $collection = new SliderDataCollection();
-=======
-    $collection = new SliderDataCollection;
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_wUCVKj
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_qQDzbD
->>>>>>> .merge_file_rEwlaO
 
     Assert::assertInstanceOf(Data::class, $collection);
 });
@@ -202,20 +106,6 @@ it('UI Datas UserData is a Spatie Data class', function (): void {
 
     Assert::assertInstanceOf(Data::class, $data);
 });
-<<<<<<< .merge_file_njIHeM
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_wUCVKj
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_qQDzbD
->>>>>>> .merge_file_rEwlaO
 
 it('UI Data UserData can be instantiated', function (): void {
     $data = new DataUserData(
@@ -240,16 +130,3 @@ it('UI Data UserData is a Spatie Data class', function (): void {
 
     Assert::assertInstanceOf(Data::class, $data);
 });
-<<<<<<< .merge_file_njIHeM
-=======
-<<<<<<< .merge_file_wUCVKj
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_qQDzbD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_rEwlaO
