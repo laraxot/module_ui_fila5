@@ -398,10 +398,29 @@ Restituisce il testo di aiuto tradotto per il layout.
 
 ## Collegamenti
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 - [TransTrait Documentation](../../xot/docs/filament/trans-trait.md)
 - [UI Module Architecture](architecture_rules.md)
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
 - [Translation Standards](../../../../docs/translation_standards.md)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+- [TransTrait Documentation](../../Xot/docs/filament/trans-trait.md)
+- [UI Module Architecture](architecture_rules.md)
+- [Filament Best Practices](../../../docs/filament_best_practices.md)
+- [Translation Standards](../../../docs/translation_standards.md)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [Table Components](table-components.md)
 
 ---

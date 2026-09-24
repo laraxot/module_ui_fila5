@@ -1,5 +1,16 @@
 # MCP Servers per UI/UX - Modulo UI
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+> Ultimo aggiornamento: Febbraio 2026
+=======
+<<<<<<< HEAD
+=======
+> Ultimo aggiornamento: Febbraio 2026
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## Scopo
 
@@ -34,7 +45,22 @@ Il modulo UI fornisce componenti Blade condivisi in `resources/views/components/
 
 ## Collegamenti
 
+<<<<<<< HEAD
 - [MCP UI/UX Tema Two](../../themes/two/docs/mcp-ui-ux.md)
 - [Status MCP Progetto](../../../../docs/mcp-servers-status.md)
+=======
+<<<<<<< HEAD
+- [MCP UI/UX Tema Two](../../Themes/Two/docs/mcp-ui-ux.md)
+- [Status MCP Progetto](../../../docs/mcp-servers-status.md)
+=======
+<<<<<<< HEAD
+- [MCP UI/UX Tema Two](../../themes/two/docs/mcp-ui-ux.md)
+- [Status MCP Progetto](../../../../docs/mcp-servers-status.md)
+=======
+- [MCP UI/UX Tema Two](../../Themes/Two/docs/mcp-ui-ux.md)
+- [Status MCP Progetto](../../../docs/mcp-servers-status.md)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [Skill MCP UI/UX](../../../.windsurf/skills/mcp-ui-ux/skill.md)
 - [Workflow MCP UI/UX](../../../.windsurf/workflows/mcp-ui-ux.md)

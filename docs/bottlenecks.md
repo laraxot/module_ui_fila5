@@ -127,7 +127,19 @@
 
 ### Collegamenti Interni
 - [Roadmap](roadmap.md)
+<<<<<<< HEAD
 - [Best Practices](best-practices.md)
+=======
+<<<<<<< HEAD
+- [Best Practices](BEST-PRACTICES.md)
+=======
+<<<<<<< HEAD
+- [Best Practices](best-practices.md)
+=======
+- [Best Practices](BEST-PRACTICES.md)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Versione HEAD
 
 - [Testing](testing.md)
@@ -137,6 +149,12 @@
 - [Testing](testing.md)
 ## Collegamenti tra versioni di bottlenecks.md
 * [bottlenecks.md](../../../../bashscripts/docs/bottlenecks.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 * [bottlenecks.md](../../chart/docs/bottlenecks.md)
 * [bottlenecks.md](../../chart/docs/performance/bottlenecks.md)
 * [bottlenecks.md](../../gdpr/docs/bottlenecks.md)
@@ -156,5 +174,33 @@
 * [bottlenecks.md](../../activity/docs/bottlenecks.md)
 * [bottlenecks.md](../../patient/docs/roadmap/bottlenecks.md)
 * [bottlenecks.md](../../cms/docs/bottlenecks.md)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+* [bottlenecks.md](../../Chart/docs/bottlenecks.md)
+* [bottlenecks.md](../../Chart/docs/performance/bottlenecks.md)
+* [bottlenecks.md](../../Gdpr/docs/bottlenecks.md)
+* [bottlenecks.md](../../Gdpr/docs/performance/bottlenecks.md)
+* [bottlenecks.md](../../Xot/docs/bottlenecks.md)
+* [bottlenecks.md](../../Xot/docs/performance/bottlenecks.md)
+* [bottlenecks.md](../../Xot/docs/roadmap/bottlenecks.md)
+* [bottlenecks.md](../../Dental/docs/bottlenecks.md)
+* [bottlenecks.md](../../User/docs/bottlenecks.md)
+* [bottlenecks.md](../../User/docs/roadmap/bottlenecks.md)
+* [bottlenecks.md](roadmap/bottlenecks.md)
+* [bottlenecks.md](../../Lang/docs/bottlenecks.md)
+* [bottlenecks.md](../../Lang/docs/performance/bottlenecks.md)
+* [bottlenecks.md](../../Job/docs/performance/bottlenecks.md)
+* [bottlenecks.md](../../Media/docs/bottlenecks.md)
+* [bottlenecks.md](../../Media/docs/performance/bottlenecks.md)
+* [bottlenecks.md](../../Activity/docs/bottlenecks.md)
+* [bottlenecks.md](../../Patient/docs/roadmap/bottlenecks.md)
+* [bottlenecks.md](../../Cms/docs/bottlenecks.md)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ---

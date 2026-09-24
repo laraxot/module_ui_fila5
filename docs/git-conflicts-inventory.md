@@ -27,5 +27,17 @@
 
 ## Stato
 - ❌ Conflitti da risolvere
+<<<<<<< HEAD
 - 📅 Data rilevamento: [DATE]
+=======
+<<<<<<< HEAD
+- 📅 Data rilevamento: 2025-11-12
+=======
+<<<<<<< HEAD
+- 📅 Data rilevamento: [DATE]
+=======
+- 📅 Data rilevamento: 2025-11-12
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - 🔄 Priorità: ALTA - Componenti UI critici

@@ -1,6 +1,18 @@
 # Internal Debate: PSR-4 Autoloading Resolution Strategy
 
+<<<<<<< HEAD
 **Date**: [DATE]
+=======
+<<<<<<< HEAD
+**Date**: 2025-12-15
+=======
+<<<<<<< HEAD
+**Date**: [DATE]
+=======
+**Date**: 2025-12-15
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 **Context**: Resolving `composer dumpautoload -o` PSR-4 compliance errors
 **Debate Format**: Pro/Con analysis of different approaches
 

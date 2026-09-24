@@ -30,8 +30,26 @@ final class Std extends Component
          */
         $view = app(GetViewAction::class)->execute($this->tpl);
 
+<<<<<<< HEAD
         $view_params = [];
 
         return view($view, $view_params);
+=======
+<<<<<<< HEAD
+        $viewParams = [];
+
+        return view($view, $viewParams);
+=======
+<<<<<<< HEAD
+        $view_params = [];
+
+        return view($view, $view_params);
+=======
+        $viewParams = [];
+
+        return view($view, $viewParams);
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     }
 }

@@ -67,7 +67,46 @@ protected function getInfolistSchema(): array
                             ,
                     ]),
             ]),
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+        
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+        
+=======
+
+>>>>>>> laraxot/dev
+=======
+        
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         'dettagli_account' => Section::make('Dettagli Account')
             ->schema([
                 // Altri componenti...
@@ -199,6 +238,12 @@ return [
 
 ## Conclusione
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 Seguendo queste linee guida, garantirai un'implementazione corretta e coerente del metodo `getInfolistSchema()`, facilitando la manutenzione del codice e prevenendo errori di tipo rilevati da PHPStan. Ricorda: usa **sempre** chiavi di tipo stringa per gli array restituiti.
 # Linee Guida per l'Implementazione di getInfolistSchema
 
@@ -212,6 +257,38 @@ La funzione `getInfolistSchema()` deve **sempre** restituire un array con chiavi
 
 L'unico approccio corretto per implementare `getInfolistSchema()` è utilizzare array associativi con chiavi di tipo stringa:
 
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+Seguendo queste linee guida, garantirai un'implementazione corretta e coerente del metodo `getInfolistSchema()`, facilitando la manutenzione del codice e prevenendo errori di tipo rilevati da PHPStan. Ricorda: usa **sempre** chiavi di tipo stringa per gli array restituiti. 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Seguendo queste linee guida, garantirai un'implementazione corretta e coerente del metodo `getInfolistSchema()`, facilitando la manutenzione del codice e prevenendo errori di tipo rilevati da PHPStan. Ricorda: usa **sempre** chiavi di tipo stringa per gli array restituiti. 
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Seguendo queste linee guida, garantirai un'implementazione corretta e coerente del metodo `getInfolistSchema()`, facilitando la manutenzione del codice e prevenendo errori di tipo rilevati da PHPStan. Ricorda: usa **sempre** chiavi di tipo stringa per gli array restituiti. 
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+Seguendo queste linee guida, garantirai un'implementazione corretta e coerente del metodo `getInfolistSchema()`, facilitando la manutenzione del codice e prevenendo errori di tipo rilevati da PHPStan. Ricorda: usa **sempre** chiavi di tipo stringa per gli array restituiti.
+# Linee Guida per l'Implementazione di getInfolistSchema
+## Requisiti Fondamentali
+La funzione `getInfolistSchema()` deve **sempre** restituire un array con chiavi di tipo stringa. Questo documento fornisce le linee guida per garantire un'implementazione corretta e coerente in tutto il progetto.
+## Implementazione Corretta
+### Struttura Base
+L'unico approccio corretto per implementare `getInfolistSchema()` è utilizzare array associativi con chiavi di tipo stringa:
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ```php
 /**
  * Restituisce lo schema dell'infolist per la visualizzazione dei dettagli del record.
@@ -228,6 +305,12 @@ protected function getInfolistSchema(): array
     ];
 }
 ```
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 
 ### Documentazione PHPDoc Corretta
 
@@ -255,6 +338,19 @@ protected function getInfolistSchema(): array
 protected function getInfolistSchema(): array
 {
     return [
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+### Documentazione PHPDoc Corretta
+Per PHPStan livello 9 e superiore, è fondamentale documentare correttamente il tipo di array restituito:
+## Esempi Pratici
+### Struttura con Sezioni e Griglie
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         'informazioni_personali' => Section::make('Informazioni Personali')
             ->schema([
                 'grid0'=>Grid::make(['default' => 2])
@@ -262,6 +358,12 @@ protected function getInfolistSchema(): array
                         'nome'=>TextEntry::make('nome')
                             ,
                         'cognome'=>TextEntry::make('cognome')
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
                             ,
                         'email'=>TextEntry::make('email')
                             ,
@@ -307,10 +409,38 @@ protected function getInfolistSchema(): array
 
 ## Vantaggi dell'Uso di Chiavi di Tipo Stringa
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+                        'email'=>TextEntry::make('email')
+                        'telefono'=>TextEntry::make('telefono')
+                    ]),
+            ]),
+        'dettagli_account' => Section::make('Dettagli Account')
+                // Altri componenti...
+### Struttura con Componenti Personalizzati
+        'info_personali' => Section::make('Informazioni Personali')
+                // Componenti per informazioni personali...
+                // Componenti per dettagli account...
+        'preferenze' => Section::make('Preferenze')
+                // Componenti per preferenze...
+## Vantaggi dell'Uso di Chiavi di Tipo Stringa
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 1. **Accesso Diretto ai Componenti**: Le chiavi di tipo stringa consentono di accedere direttamente ai componenti dell'array
 2. **Maggiore Leggibilità**: Il codice è più chiaro e facile da comprendere
 3. **Prevenzione di Errori**: Evita problemi quando si accede ai componenti tramite chiave
 4. **Compatibilità con PHPStan**: Aiuta a superare le verifiche di PHPStan di livello 9 e 10
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 
 ## Casi Speciali
 
@@ -350,11 +480,36 @@ public function getInfolistSchema(): array
 {
     $sections = [];
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+## Casi Speciali
+### Combinazione di Components e Layouts
+Quando si utilizzano sia componenti di visualizzazione che componenti di layout (Section, Grid, etc.), è importante mantenere sempre chiavi di tipo stringa:
+        'identificativo' => TextEntry::make('id'),
+        'informazioni' => Section::make('Informazioni')
+                // Componenti all'interno della sezione...
+### Array con Sezioni Generate Dinamicamente
+Quando si generano sezioni dinamicamente, è importante assegnare chiavi stringa significative:
+public function getInfolistSchema(): array
+    $sections = [];
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     // Aggiungiamo dinamicamente le sezioni con chiavi stringa
     $sections['informazioni_base'] = Section::make('Informazioni Base')
         ->schema([
             // Componenti...
         ]);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 
     if ($this->record->hasDocuments()) {
         $sections['documenti'] = Section::make('Documenti')
@@ -371,17 +526,54 @@ public function getInfolistSchema(): array
 
 Se hai implementazioni esistenti che utilizzano array numerici, segui questi passaggi per correggerle:
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+    if ($this->record->hasDocuments()) {
+        $sections['documenti'] = Section::make('Documenti')
+                // Componenti per documenti...
+            ]);
+    }
+    return $sections;
+## Migrando da Array Numerici ad Array Associativi
+Se hai implementazioni esistenti che utilizzano array numerici, segui questi passaggi per correggerle:
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 1. Identifica tutti i componenti nell'array
 2. Assegna a ciascun componente una chiave stringa significativa
 3. Aggiorna il PHPDoc per specificare `@return array<string, \Filament\Infolists\Components\Component>`
 4. Testa la vista per assicurarti che funzioni correttamente
+<<<<<<< HEAD
 
 ### Prima:
 ```php
+=======
+<<<<<<< HEAD
+### Prima:
+=======
+<<<<<<< HEAD
+
+### Prima:
+```php
+=======
+### Prima:
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 return [
     TextEntry::make('id'),
     TextEntry::make('nome'),
 ];
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 ```
 
 ### Dopo:
@@ -394,11 +586,59 @@ return [
 
 ## Migliori Pratiche
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+### Dopo:
+    'id_entry' => TextEntry::make('id'),
+    'nome_entry' => TextEntry::make('nome'),
+## Migliori Pratiche
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 1. **Usa SEMPRE Chiavi di Tipo Stringa**: Non utilizzare mai array sequenziali con indici numerici impliciti
 2. **Documentazione PHPDoc Accurata**: Specifica sempre `@return array<string, \Filament\Infolists\Components\Component>`
 3. **Nomi Significativi per le Chiavi**: Scegli nomi di chiave che riflettano il contenuto o lo scopo del componente
 4. **Rispetta la Struttura di Filament**: Segui le convenzioni di Filament per la struttura dei componenti
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 
 ## Conclusione
 
 Seguendo queste linee guida, garantirai un'implementazione corretta e coerente del metodo `getInfolistSchema()`, facilitando la manutenzione del codice e prevenendo errori di tipo rilevati da PHPStan. Ricorda: usa **sempre** chiavi di tipo stringa per gli array restituiti.
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+## Conclusione
+<<<<<<< HEAD
+=======
+
+Seguendo queste linee guida, garantirai un'implementazione corretta e coerente del metodo `getInfolistSchema()`, facilitando la manutenzione del codice e prevenendo errori di tipo rilevati da PHPStan. Ricorda: usa **sempre** chiavi di tipo stringa per gli array restituiti.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+Seguendo queste linee guida, garantirai un'implementazione corretta e coerente del metodo `getInfolistSchema()`, facilitando la manutenzione del codice e prevenendo errori di tipo rilevati da PHPStan. Ricorda: usa **sempre** chiavi di tipo stringa per gli array restituiti. 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

@@ -1,5 +1,12 @@
 # PHPStan Level 10 Errors Roadmap - UI Module
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+**Data**: 2026-01-09  
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 **Modulo**: UI  
 **Livello PHPStan**: 10  
 **Status**: 🧘 **IN ANALISI**
@@ -112,4 +119,12 @@
 
 **Status**: 🧘 **IN ANALISI**
 
+<<<<<<< HEAD
 **Ultimo aggiornamento**: [DATE]
+=======
+<<<<<<< HEAD
+**Ultimo aggiornamento**: [DATE]
+=======
+**Ultimo aggiornamento**: 2026-01-09
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

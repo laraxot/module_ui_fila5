@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 // UI Blade view — see Modules/UI/docs/wiki.
@@ -27,6 +33,12 @@
 @php
 @endphp
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <div class="interactive-map-container" wire:ignore.self>
     <!-- Controlli mappa -->
     @if($showControls)

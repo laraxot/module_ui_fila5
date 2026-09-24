@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
@@ -44,6 +50,12 @@
 @php
 @endphp
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 @props([
     'title' => '',
     'subtitle' => '',
@@ -158,4 +170,16 @@
     <!-- Decorative Elements -->
     <div class="absolute top-0 right-0 -mt-20 -mr-20 w-80 h-80 bg-white/10 rounded-full blur-3xl"></div>
     <div class="absolute bottom-0 left-0 -mb-20 -ml-20 w-80 h-80 bg-white/10 rounded-full blur-3xl"></div>
+<<<<<<< HEAD
 </section>
+=======
+<<<<<<< HEAD
+</section>
+=======
+<<<<<<< HEAD
+</section>
+=======
+</section>
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

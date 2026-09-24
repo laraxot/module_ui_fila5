@@ -229,3 +229,14 @@ Includi sempre esempi pratici:
 
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+*Ultimo aggiornamento: Dicembre 2024*
+=======
+<<<<<<< HEAD
+=======
+*Ultimo aggiornamento: Dicembre 2024*
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

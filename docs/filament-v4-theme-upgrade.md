@@ -1,4 +1,15 @@
 # Filament v4 Theme Upgrade Guide - Modulo UI
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+**Data**: 10 Dicembre 2025
+=======
+<<<<<<< HEAD
+=======
+**Data**: 10 Dicembre 2025
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 **Modulo**: UI (Theme Components)
 **Versione**: 4.0
 **Stato**: Ready for Implementation

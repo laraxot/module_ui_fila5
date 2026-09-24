@@ -2,10 +2,22 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/it/txt.php
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 return [
     'delete' => 'elimina',
     'edit' => 'modifica',
@@ -22,7 +34,19 @@ return [
         ],
         'label' => 'Txt',
         'sort' => 1,
+<<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
+=======
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-rectangle-stack',
+=======
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-collection',
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     ],
     'fields' => [
         'id' => [
