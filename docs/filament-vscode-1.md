@@ -85,21 +85,6 @@ public static function form(Form $form): Form
             ->required()
             ->maxLength(255),
 
-<<<<<<< .merge_file_hrCX5Y
-=======
-=======
-<<<<<<< .merge_file_ZUZfV8
-            
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-
-=======
-            
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_IwJLcL
->>>>>>> .merge_file_TS6kRJ
         // Digitare 'fil-select' e premere Tab
         Select::make('status')
             ->options([
@@ -107,25 +92,7 @@ public static function form(Form $form): Form
                 'published' => 'Published',
             ])
             ->required(),
-<<<<<<< .merge_file_hrCX5Y
 
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_ZUZfV8
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_IwJLcL
-
-=======
-            
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_ZUZfV8
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_IwJLcL
->>>>>>> .merge_file_TS6kRJ
         // Digitare 'fil-rich' e premere Tab
         RichEditor::make('content')
             ->required()
@@ -147,21 +114,6 @@ public static function table(Table $table): Table
                 ->searchable()
                 ->sortable(),
 
-<<<<<<< .merge_file_hrCX5Y
-=======
-=======
-<<<<<<< .merge_file_ZUZfV8
-                
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-
-=======
-                
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_IwJLcL
->>>>>>> .merge_file_TS6kRJ
             // Digitare 'fil-col' e premere Tab
             IconColumn::make('status')
                 ->boolean(),
@@ -201,25 +153,7 @@ Forms\Components\Wizard::make([
                     // Digitare 'fil-text' e premere Tab
                     Forms\Components\TextInput::make('first_name')
                         ->required(),
-<<<<<<< .merge_file_hrCX5Y
 
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_ZUZfV8
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_IwJLcL
-
-=======
-                        
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_ZUZfV8
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_IwJLcL
->>>>>>> .merge_file_TS6kRJ
                     Forms\Components\TextInput::make('last_name')
                         ->required(),
                 ]),

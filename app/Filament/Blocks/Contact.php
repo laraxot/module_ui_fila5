@@ -14,7 +14,7 @@ final class Contact extends XotBaseBlock
     /**
      * @return array<int, Component>
      */
-    public static function getFormSchema(): array
+    public function getFormSchema(): array
     {
         return [
             TextInput::make('name')
