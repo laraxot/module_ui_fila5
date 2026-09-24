@@ -23,9 +23,9 @@ final class UiCoverageAddressParentRecord extends Model
      *
      * @param array<string, mixed> $attributes
      *                                         =======
-<<<<<<< .merge_file_mMl13T
+     *                                         <<<<<<< .merge_file_mMl13T
      * @param array<string, mixed> $attributes
-=======
+     *                                         =======
      *                                         <<<<<<< .merge_file_NNdsVp
      * @param array<string, mixed> $attributes
      *                                         =======
@@ -35,7 +35,7 @@ final class UiCoverageAddressParentRecord extends Model
      * @param array<string, mixed> $attributes
      *                                         >>>>>>> laraxot/dev
      *                                         >>>>>>> .merge_file_0b23s3
->>>>>>> .merge_file_onnvsy
+     *                                         >>>>>>> .merge_file_onnvsy
      *                                         >>>>>>> laraxot/dev
      */
     public function __construct(array $attributes = [])
@@ -49,9 +49,9 @@ final class UiCoverageAddressParentRecord extends Model
      *
      * @param string|array<int, string>|null $attribute
      *                                                  =======
-<<<<<<< .merge_file_mMl13T
+     *                                                  <<<<<<< .merge_file_mMl13T
      * @param string|array<int, string>|null $attribute
-=======
+     *                                                  =======
      *                                                  <<<<<<< .merge_file_NNdsVp
      * @param string|array<int, string>|null $attribute
      *                                                  =======
@@ -61,7 +61,7 @@ final class UiCoverageAddressParentRecord extends Model
      * @param string|array<int, string>|null $attribute
      *                                                  >>>>>>> laraxot/dev
      *                                                  >>>>>>> .merge_file_0b23s3
->>>>>>> .merge_file_onnvsy
+     *                                                  >>>>>>> .merge_file_onnvsy
      *                                                  >>>>>>> laraxot/dev
      */
     public function touch($attribute = null): bool
