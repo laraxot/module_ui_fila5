@@ -3,7 +3,19 @@
 ## Pacchetti Utilizzati
 
 ### Core
+<<<<<<< HEAD
 - [laraxot/module_xot_fila5](../xot/docs/packages.md) - Modulo base per funzionalità comuni
+=======
+<<<<<<< HEAD
+- [laraxot/module_xot_fila5](../Xot/docs/packages.md) - Modulo base per funzionalità comuni
+=======
+<<<<<<< HEAD
+- [laraxot/module_xot_fila5](../xot/docs/packages.md) - Modulo base per funzionalità comuni
+=======
+- [laraxot/module_xot_fila5](../Xot/docs/packages.md) - Modulo base per funzionalità comuni
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [filament/filament](https://filamentphp.com) - Admin panel e componenti UI
 - [tailwindcss/tailwindcss](https://tailwindcss.com) - Framework CSS utility-first
 
@@ -55,6 +67,12 @@
 ### Versione HEAD
 
 ## Collegamenti tra versioni di packages.md
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 * [packages.md](../../../gdpr/docs/packages.md)
 * [packages.md](../../../notify/docs/packages.md)
 * [packages.md](../../../xot/docs/packages.md)
@@ -64,6 +82,24 @@
 * [packages.md](../../../job/docs/packages.md)
 * [packages.md](../../../media/docs/packages.md)
 * [packages.md](../../../tenant/docs/packages.md)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+* [packages.md](../../../Gdpr/docs/packages.md)
+* [packages.md](../../../Notify/docs/packages.md)
+* [packages.md](../../../Xot/docs/packages.md)
+* [packages.md](../../../User/docs/packages.md)
+* [packages.md](../../../UI/docs/packages.md)
+* [packages.md](../../../Lang/docs/packages.md)
+* [packages.md](../../../Job/docs/packages.md)
+* [packages.md](../../../Media/docs/packages.md)
+* [packages.md](../../../Tenant/docs/packages.md)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ### Versione Incoming
 

@@ -6,15 +6,44 @@ namespace Modules\UI\Filament\Forms\Components;
 
 use Filament\Actions\Action;
 use Filament\Forms\Components\Select;
+<<<<<<< HEAD
 use Filament\Forms\Components\TextInput;
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Filament\Forms\Components\TextInput;
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Components\Utilities\Set;
 use Illuminate\Support\Arr;
 use Modules\UI\Actions\Icon\GetAllIconsAction;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
+<<<<<<< HEAD
 use Webmozart\Assert\Assert;
 
 class IconPicker extends TextInput
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Webmozart\Assert\Assert;
+
+class IconPicker extends TextInput
+=======
+>>>>>>> laraxot/dev
+use Modules\Xot\Filament\Forms\Components\XotBaseTextInput;
+use Webmozart\Assert\Assert;
+
+class IconPicker extends XotBaseTextInput
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 {
     protected function setUp(): void
     {
@@ -53,12 +82,36 @@ class IconPicker extends TextInput
                             );
                             /** @var array<int|string, mixed> $optsRaw */
                             $optsValues = array_map(
+<<<<<<< HEAD
                                 static fn ($v) => SafeStringCastAction::cast($v),
+=======
+<<<<<<< HEAD
+                                static fn (mixed $v): string => SafeStringCastAction::cast($v),
+=======
+<<<<<<< HEAD
+                                static fn ($v) => SafeStringCastAction::cast($v),
+=======
+                                static fn (mixed $v): string => SafeStringCastAction::cast($v),
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
                                 array_values($optsRaw),
                             );
                             /** @var array<int|string> $optsKeys */
                             $optsKeys = array_map(
+<<<<<<< HEAD
                                 static fn ($k) => SafeStringCastAction::cast($k),
+=======
+<<<<<<< HEAD
+                                static fn (int|string $k): string => SafeStringCastAction::cast($k),
+=======
+<<<<<<< HEAD
+                                static fn ($k) => SafeStringCastAction::cast($k),
+=======
+                                static fn (int|string $k): string => SafeStringCastAction::cast($k),
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
                                 array_keys($optsRaw),
                             );
                             $optsCombined = array_combine($optsKeys, $optsValues);

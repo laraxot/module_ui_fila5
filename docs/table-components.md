@@ -7,7 +7,43 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 
 ### DataTable
 ```blade
+<<<<<<< HEAD
 <x-ui::datatable
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<x-ui::datatable
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<x-ui::datatable 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<x-ui::datatable
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+<x-ui::datatable 
+=======
+<x-ui::datatable
+>>>>>>> laraxot/dev
+=======
+<x-ui::datatable 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     :columns="[
         ['name' => 'id', 'label' => 'ID', 'sortable' => true],
         ['name' => 'name', 'label' => 'Nome', 'sortable' => true],
@@ -25,7 +61,43 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 
 ### StatusBadge
 ```blade
+<<<<<<< HEAD
 <x-ui::status-badge
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<x-ui::status-badge
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<x-ui::status-badge 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<x-ui::status-badge
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+<x-ui::status-badge 
+=======
+<x-ui::status-badge
+>>>>>>> laraxot/dev
+=======
+<x-ui::status-badge 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     :status="$user->status"
     :options="[
         'active' => ['label' => 'Attivo', 'color' => 'success'],
@@ -37,7 +109,43 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 
 ### ActionButtons
 ```blade
+<<<<<<< HEAD
 <x-ui::action-buttons
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<x-ui::action-buttons
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<x-ui::action-buttons 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<x-ui::action-buttons
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+<x-ui::action-buttons 
+=======
+<x-ui::action-buttons
+>>>>>>> laraxot/dev
+=======
+<x-ui::action-buttons 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     :actions="[
         [
             'type' => 'view',
@@ -94,7 +202,46 @@ class UserTable extends Component
     public $sortDirection = 'asc';
     public $search = '';
     public $perPage = 10;
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function sortBy($field)
     {
         if ($this->sortField === $field) {
@@ -104,7 +251,46 @@ class UserTable extends Component
             $this->sortDirection = 'asc';
         }
     }
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function render()
     {
         $users = User::query()
@@ -114,7 +300,46 @@ class UserTable extends Component
             })
             ->orderBy($this->sortField, $this->sortDirection)
             ->paginate($this->perPage);
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+            
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+            
+=======
+
+>>>>>>> laraxot/dev
+=======
+            
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         return view('livewire.user-table', compact('users'));
     }
 }
@@ -139,6 +364,12 @@ class UserTable extends Component
 - [Componenti Form](./form-components.md)
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 - [Documentazione Frontend](../cms/docs/frontend-architecture.md)
 # Componenti Table
 
@@ -147,6 +378,36 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 
 ## Componenti Disponibili
 
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+- [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+- [Documentazione Frontend](../Cms/docs/frontend-architecture.md)
+# Componenti Table
+## Introduzione
+I componenti table forniscono una gestione efficiente e personalizzabile dei dati tabulari, con funzionalità avanzate di ordinamento, filtro e paginazione.
+## Componenti Disponibili
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### DataTable
 ```blade
 <x-ui::datatable
@@ -164,21 +425,49 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
     :exportable="true"
 />
 ```
+<<<<<<< HEAD
 
 ### StatusBadge
 ```blade
+=======
+<<<<<<< HEAD
+### StatusBadge
+=======
+<<<<<<< HEAD
+
+### StatusBadge
+```blade
+=======
+### StatusBadge
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <x-ui::status-badge
     :status="$user->status"
     :options="[
         'active' => ['label' => 'Attivo', 'color' => 'success'],
         'inactive' => ['label' => 'Inattivo', 'color' => 'danger'],
         'pending' => ['label' => 'In attesa', 'color' => 'warning'],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+### ActionButtons
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     ]"
 />
 ```
 
 ### ActionButtons
 ```blade
+<<<<<<< HEAD
+=======
+=======
+### ActionButtons
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <x-ui::action-buttons
     :actions="[
         [
@@ -187,36 +476,87 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
             'icon' => 'eye',
             'label' => 'Visualizza'
         ],
+<<<<<<< HEAD
         [
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        [
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             'type' => 'edit',
             'url' => route('users.edit', $user),
             'icon' => 'pencil',
             'label' => 'Modifica'
+<<<<<<< HEAD
         ],
         [
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        ],
+        [
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             'type' => 'delete',
             'url' => route('users.destroy', $user),
             'icon' => 'trash',
             'label' => 'Elimina',
             'confirm' => true
         ]
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+## Funzionalità
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
     ]"
 />
 ```
 
 ## Funzionalità
 
+<<<<<<< HEAD
+=======
+=======
+## Funzionalità
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Ordinamento
 - Multi-colonna
 - Direzione (asc/desc)
 - Personalizzazione
 - Cache risultati
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Filtri
 - Testo libero
 - Select multipli
 - Date range
 - Custom filters
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 
 ### Paginazione
 - Server-side
@@ -230,13 +570,40 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 ```php
 use Livewire\Component;
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+### Paginazione
+- Server-side
+- Client-side
+- Cache pagine
+## Integrazione
+### Livewire
+```php
+use Livewire\Component;
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 class UserTable extends Component
 {
     public $sortField = 'name';
     public $sortDirection = 'asc';
     public $search = '';
     public $perPage = 10;
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
     public function sortBy($field)
     {
         if ($this->sortField === $field) {
@@ -246,9 +613,23 @@ class UserTable extends Component
             $this->sortDirection = 'asc';
         }
     }
+<<<<<<< HEAD
 
     public function render()
     {
+=======
+<<<<<<< HEAD
+    public function render()
+=======
+<<<<<<< HEAD
+
+    public function render()
+    {
+=======
+    public function render()
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         $users = User::query()
             ->when($this->search, function ($query) {
                 $query->where('name', 'like', '%'.$this->search.'%')
@@ -256,6 +637,12 @@ class UserTable extends Component
             })
             ->orderBy($this->sortField, $this->sortDirection)
             ->paginate($this->perPage);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 
         return view('livewire.user-table', compact('users'));
     }
@@ -270,17 +657,80 @@ class UserTable extends Component
 - Lazy loading
 - Responsive design
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+        return view('livewire.user-table', compact('users'));
+}
+## Best Practices
+### Utilizzo
+- Ottimizzazione query
+- Lazy loading
+- Responsive design
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ### Performance
 - Indici database
 - Query ottimizzate
 - Cache paginazione
 - Lazy loading colonne
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ## Collegamenti
 - [Componenti Base](./base-components.md)
 - [Componenti Form](./form-components.md)
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
+<<<<<<< HEAD
 - [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
 - [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
 - [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
+- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
+- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+
+```
+=======
+- [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
+- [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
+- [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

@@ -4,25 +4,69 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Tables\Columns;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Exception;
+=======
+<<<<<<< HEAD
+=======
+use Exception;
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 use Filament\Actions\Action;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
 use Filament\Notifications\Notification;
 use Filament\Schemas\Components\Utilities\Get;
+<<<<<<< HEAD
 use Filament\Tables\Columns\IconColumn;
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Filament\Tables\Columns\IconColumn;
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Contracts\StateContract as XotStateContract;
+<<<<<<< HEAD
 
 class IconStateColumn extends IconColumn
+=======
+<<<<<<< HEAD
+use Modules\Xot\Filament\Tables\Columns\XotBaseIconColumn;
+
+class IconStateColumn extends XotBaseIconColumn
+=======
+<<<<<<< HEAD
+
+class IconStateColumn extends IconColumn
+=======
+use Modules\Xot\Filament\Tables\Columns\XotBaseIconColumn;
+
+class IconStateColumn extends XotBaseIconColumn
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 {
     protected function setUp(): void
     {
         parent::setUp();
         // $this->getStateUsing(fn() => true); // the column requires a state to be passed to it
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
         $this->icon(function (XotStateContract $state) {
             return $state->icon();
         });
@@ -32,6 +76,24 @@ class IconStateColumn extends IconColumn
         });
 
         $this->tooltip(function (XotStateContract $state) {
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+        $this->icon(static function (XotStateContract $state) {
+            return $state->icon();
+        });
+
+        $this->color(static function (XotStateContract $state) {
+            return $state->color();
+        });
+
+        $this->tooltip(static function (XotStateContract $state) {
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             return $state->label();
         });
         // $this->label('aaa');
@@ -40,7 +102,73 @@ class IconStateColumn extends IconColumn
             Action::make('change-state')
                 ->schema([
                     Select::make('state')
+<<<<<<< HEAD
                         ->options(fn (Model $record, string $_state): array => $this->resolveTransitionableStateOptions($record))
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+                        ->options(fn (Model $record, string $_state): array => $this->resolveTransitionableStateOptions($record))
+=======
+>>>>>>> laraxot/dev
+                        ->options(function (Model $record, string $_state): array {
+                            $name = $this->getName();
+                            $state = $record->getAttribute($name);
+                            if ($state === null) {
+                                if (! method_exists($record, 'getDefaultStateFor')) {
+                                    return [];
+                                }
+                                $defaultStates = Arr::wrap($record->getDefaultStateFor($name));
+
+                                /** @var array<string, string> $options */
+                                $options = [];
+                                foreach ($defaultStates as $defaultState) {
+                                    if (! is_string($defaultState)) {
+                                        continue;
+                                    }
+
+                                    $options[$defaultState] = $defaultState;
+                                }
+
+                                return $options;
+                            }
+                            if (! is_object($state) || ! method_exists($state, 'transitionableStates')) {
+                                return [];
+                            }
+
+                            try {
+                                /** @var array<int|string, mixed> $statesArray */
+                                $statesArray = $state->transitionableStates();
+                            } catch (Exception $e) {
+                                if (! method_exists($record, 'getStatesFor')) {
+                                    return [];
+                                }
+                                $fetchedStates = $record->getStatesFor($name);
+                                $statesArray = \is_object($fetchedStates) && method_exists($fetchedStates, 'toArray')
+                                    ? $fetchedStates->toArray()
+                                    : [];
+                            }
+
+                            if (! is_array($statesArray)) {
+                                return [];
+                            }
+
+                            return Arr::mapWithKeys($statesArray, static function (mixed $stateItem) use ($record): array {
+                                if (! is_string($stateItem)) {
+                                    return [];
+                                }
+                                $model = Str::of(class_basename($record))->slug()->toString();
+                                /** @var string $label */
+                                $label = __('pub_theme::'.$model.'_states.'.$stateItem.'.label');
+
+                                return [$stateItem => $label];
+                            });
+                        })
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
                         ->required()
                         ->reactive(),
                     Textarea::make('message')->required(function (Get $get, Model $record): bool {
@@ -87,6 +215,12 @@ class IconStateColumn extends IconColumn
                         'state' => $stateName,
                     ];
                 })
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
                 ->action(function ($record, $data): void {
                     /** @var array<string, mixed> $data */
                     if (! isset($data['state']) || ! is_string($data['state'])) {
@@ -97,13 +231,40 @@ class IconStateColumn extends IconColumn
                     if (! is_object($record)) {
                         throw new \Exception('Record must be an object');
                     }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+                ->action(function (Model $record, array $data): void {
+                    /** @var array<string, mixed> $data */
+                    if (! isset($data['state']) || ! is_string($data['state'])) {
+                        throw new Exception('State is required and must be a string');
+                    }
+                    $state = $data['state'];
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
                     $model = Str::of(class_basename($record))->slug()->toString();
                     /** @var string $label */
                     $label = __('pub_theme::'.$model.'_states.'.$state.'.label');
 
                     $currentState = $record->getAttribute($this->getName());
                     if (! is_object($currentState) || ! method_exists($currentState, 'transitionTo')) {
+<<<<<<< HEAD
                         throw new \Exception('Current state is not a valid State instance');
+=======
+<<<<<<< HEAD
+                        throw new Exception('Current state is not a valid State instance');
+=======
+<<<<<<< HEAD
+                        throw new \Exception('Current state is not a valid State instance');
+=======
+                        throw new Exception('Current state is not a valid State instance');
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
                     }
 
                     /** @var string|null $message */
@@ -117,6 +278,12 @@ class IconStateColumn extends IconColumn
                 }),
         );
     }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 
     /**
      * @return array<string, string>
@@ -150,7 +317,11 @@ class IconStateColumn extends IconColumn
             $statesArray = \is_array($fallback) ? $fallback : [];
         }
 
+<<<<<<< HEAD
         if ($statesArray === []) {
+=======
+        if ([] === $statesArray) {
+>>>>>>> laraxot/dev
             return [];
         }
 
@@ -191,4 +362,10 @@ class IconStateColumn extends IconColumn
 
         return $options;
     }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 }

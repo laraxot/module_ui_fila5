@@ -291,10 +291,29 @@ class ExampleComponent extends Component
 
 ## 🔗 Collegamenti
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 - [Documentazione Core](../../../../docs/core/)
 - [Best Practices Filament](../../../../docs/core/filament-best-practices.md)
 - [Convenzioni Sistema](../../../../docs/core/conventions.md)
 - [Template Modulo](../../../../docs/templates/module-template.md)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+- [Documentazione Core](../../../docs/core/)
+- [Best Practices Filament](../../../docs/core/filament-best-practices.md)
+- [Convenzioni Sistema](../../../docs/core/conventions.md)
+- [Template Modulo](../../../docs/templates/module-template.md)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ---
 

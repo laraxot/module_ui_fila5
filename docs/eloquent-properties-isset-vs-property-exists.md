@@ -164,9 +164,27 @@ Prima di commit, verifica:
 
 ## Documentazione Completa
 
+<<<<<<< HEAD
 - **Guida Master**: [Xot: Eloquent Models Critical Rules](../../xot/docs/eloquent-models-critical-rules.md)
 - **Cast Actions**: [Xot: Cast Actions](../../xot/docs/cast-actions.md)
 - **Best Practices**: [Xot: Eloquent Properties Best Practices](../../xot/docs/eloquent-properties-best-practices.md)
+=======
+<<<<<<< HEAD
+- **Guida Master**: [Xot: Eloquent Models Critical Rules](../../Xot/docs/eloquent-models-critical-rules.md)
+- **Cast Actions**: [Xot: Cast Actions](../../Xot/docs/cast-actions.md)
+- **Best Practices**: [Xot: Eloquent Properties Best Practices](../../Xot/docs/eloquent-properties-best-practices.md)
+=======
+<<<<<<< HEAD
+- **Guida Master**: [Xot: Eloquent Models Critical Rules](../../xot/docs/eloquent-models-critical-rules.md)
+- **Cast Actions**: [Xot: Cast Actions](../../xot/docs/cast-actions.md)
+- **Best Practices**: [Xot: Eloquent Properties Best Practices](../../xot/docs/eloquent-properties-best-practices.md)
+=======
+- **Guida Master**: [Xot: Eloquent Models Critical Rules](../../Xot/docs/eloquent-models-critical-rules.md)
+- **Cast Actions**: [Xot: Cast Actions](../../Xot/docs/cast-actions.md)
+- **Best Practices**: [Xot: Eloquent Properties Best Practices](../../Xot/docs/eloquent-properties-best-practices.md)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ## Risorse
 
@@ -182,7 +200,26 @@ Prima di commit, verifica:
 
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 **Progetto**: base_<nome progetto>_fila5_mono
 **PHPStan**: Level 10
 **Status**: ✅ 0 Errors
 **Ultimo aggiornamento**: [DATE]
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+**Progetto**: base_<nome progetto>_fila4_mono
+**PHPStan**: Level 10
+**Status**: ✅ 0 Errors
+**Ultimo aggiornamento**: 2025-01-06
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

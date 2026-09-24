@@ -1,6 +1,18 @@
 # MCP Server Configuration - UI Module
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+**Last Updated**: 31 Gennaio 2026
+=======
+<<<<<<< HEAD
+
+=======
+**Last Updated**: 31 Gennaio 2026
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 **Status**: ✅ Configured
 **MCP Servers**: Asana, ClickUp, Filesystem, Database, Redmine (Planned)
 
@@ -36,8 +48,19 @@ The UI module's MCP configuration enables AI assistants to interact with:
     },
     "filesystem": {
       "command": "npx",
+<<<<<<< HEAD
       "args": ["-y", "@modelcontextprotocol/server-filesystem", ". progetto>/laravel"],
 ||||||| parent of 9a84589 (.)
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", ". progetto>/laravel"],
+||||||| parent of 9a84589 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "/var/www/_bases/base_laravelpizza/laravel"],
       "description": "Access to UI module files"
     },
@@ -45,8 +68,19 @@ The UI module's MCP configuration enables AI assistants to interact with:
       "command": "npx",
       "args": ["-y", "@bytebase/dbhub"],
       "env": {
+<<<<<<< HEAD
         "DATABASE_URL": "sqlite://. progetto>/laravel/database/database.sqlite"
 ||||||| parent of 9a84589 (.)
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        "DATABASE_URL": "sqlite://. progetto>/laravel/database/database.sqlite"
+||||||| parent of 9a84589 (.)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
         "DATABASE_URL": "sqlite:///var/www/_bases/base_laravelpizza/laravel/database/database.sqlite"
       },
       "description": "SQLite database queries"
@@ -62,7 +96,19 @@ The UI module's MCP configuration enables AI assistants to interact with:
 ### Asana Integration
 ```bash
 # Create task
+<<<<<<< HEAD
 "Create task in '<nome progetto> - UI Module' project: 'Implement location selector component'"
+=======
+<<<<<<< HEAD
+"Create task in 'LaravelPizza - UI Module' project: 'Implement location selector component'"
+=======
+<<<<<<< HEAD
+"Create task in '<nome progetto> - UI Module' project: 'Implement location selector component'"
+=======
+"Create task in 'LaravelPizza - UI Module' project: 'Implement location selector component'"
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 # Update status
 "Update task 'Create reusable card component' status to 'In Progress'"
@@ -115,21 +161,67 @@ The UI module's MCP configuration enables AI assistants to interact with:
 
 ## 📚 Related Documentation
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 - [Asana MCP Configuration](../../../../docs/mcp-asana-configuration.md)
 - [ClickUp MCP Configuration](../../../../docs/mcp-clickup-configuration.md)
 - [Redmine MCP Configuration](../../../../docs/mcp-redmine-configuration.md)
 - [UI Module Roadmap](./roadmap-[date].md)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+- [Asana MCP Configuration](../../../docs/mcp-asana-configuration.md)
+- [ClickUp MCP Configuration](../../../docs/mcp-clickup-configuration.md)
+- [Redmine MCP Configuration](../../../docs/mcp-redmine-configuration.md)
+- [UI Module Roadmap](./roadmap-2026-01-31.md)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 ---
 
 ## 🔄 Updates
 
+<<<<<<< HEAD
 - **[DATE]**: Added ClickUp support
 - **[DATE]**: Planned Redmine integration
+=======
+<<<<<<< HEAD
+- **2026-01-31**: Added ClickUp support
+- **2026-01-31**: Planned Redmine integration
+=======
+<<<<<<< HEAD
+- **[DATE]**: Added ClickUp support
+- **[DATE]**: Planned Redmine integration
+=======
+- **2026-01-31**: Added ClickUp support
+- **2026-01-31**: Planned Redmine integration
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - **Servers Active**: 4 (Asana, ClickUp, Filesystem, Database)
 
 ---
 
 **Module**: UI (User Interface Components)
 **MCP Version**: 2.0.0
+<<<<<<< HEAD
 **Last Review**: 31 Gennaio 2026
+=======
+<<<<<<< HEAD
+**Last Review**: 31 Gennaio 2026
+=======
+<<<<<<< HEAD
+**Last Review**: 31 Gennaio 2026
+=======
+**Last Review**: 31 Gennaio 2026
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

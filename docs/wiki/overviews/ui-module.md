@@ -2,12 +2,30 @@
 type: overview
 module: UI
 sources:
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+confidence: high
+updated: 2026-04-15
+related:
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
   - ../../../docs/module-ui.md
   - ../../../docs/philosophy.md
   - ../../../docs/design-system.md
   - ../../../docs/table-components.md
 confidence: high
 updated: 2026-04-15
+<<<<<<< HEAD
+=======
+=======
+confidence: high
+updated: 2026-04-15
+related:
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ---
 
 # UI Module — Overview

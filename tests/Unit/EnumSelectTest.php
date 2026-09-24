@@ -8,6 +8,12 @@ use Modules\UI\Filament\Forms\Components\EnumSelect;
 use PHPUnit\Framework\Assert;
 
 uses(\Modules\UI\Tests\TestCase::class);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
@@ -15,6 +21,12 @@ uses(\Modules\UI\Tests\TestCase::class);
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 it('generates options from enum class', function (): void {
     $select = EnumSelect::make('enum');
