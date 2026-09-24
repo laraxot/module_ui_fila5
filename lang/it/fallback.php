@@ -2,28 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< .merge_file_yHBE0U
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/UI/docs/wiki — domain i18n only.
-// File: lang/it/fallback.php
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_dNZOIZ
-=======
->>>>>>> 0dadab4 (Lint)
 return [
     'label' => 'Fallback',
     'plural_label' => 'Fallback (Plurale)',
@@ -36,27 +14,7 @@ return [
         ],
         'label' => 'Fallback',
         'sort' => 1,
-<<<<<<< HEAD
-<<<<<<< .merge_file_yHBE0U
-<<<<<<< HEAD
-        'icon' => 'heroicon-o-collection',
-=======
-<<<<<<< HEAD
         'icon' => 'heroicon-o-rectangle-stack',
-=======
-<<<<<<< HEAD
-        'icon' => 'heroicon-o-collection',
-=======
-        'icon' => 'heroicon-o-rectangle-stack',
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        'icon' => 'heroicon-o-rectangle-stack',
->>>>>>> .merge_file_dNZOIZ
-=======
-        'icon' => 'heroicon-o-collection',
->>>>>>> 0dadab4 (Lint)
     ],
     'fields' => [
         'id' => [

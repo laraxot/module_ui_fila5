@@ -140,45 +140,8 @@ return [
 - **Colori sbagliati**: Verificare uso di `currentColor` invece di colori fissi
 
 ## Collegamenti
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_e3vpap
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
 - [UI Module Icons](../laravel/Modules/UI/docs/icons.md)
 - [Filament Icon Registration](../laravel/Modules/Xot/docs/filament-assets.md)
 - [Accessibility Guidelines](../docs/accessibility-standards.md)
 
 *Ultimo aggiornamento: Agosto 2025*
-=======
->>>>>>> .merge_file_s8ZSDP
-=======
->>>>>>> 0dadab4 (Lint)
-- [UI Module Icons](../laravel/modules/ui/docs/icons.md)
-- [Filament Icon Registration](../laravel/modules/xot/docs/filament-assets.md)
-- [Accessibility Guidelines](../../docs/accessibility-standards.md)
-
-<<<<<<< HEAD
-<<<<<<< .merge_file_e3vpap
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-- [UI Module Icons](../laravel/Modules/UI/docs/icons.md)
-- [Filament Icon Registration](../laravel/Modules/Xot/docs/filament-assets.md)
-- [Accessibility Guidelines](../docs/accessibility-standards.md)
-
-*Ultimo aggiornamento: Agosto 2025*
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_s8ZSDP
->>>>>>> laraxot/dev
-=======
->>>>>>> 0dadab4 (Lint)

@@ -1,18 +1,6 @@
 # PHPStan Level 10 Compliance Status
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-
-=======
-**Last Updated**: 2025-12-10
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-
->>>>>>> 0dadab4 (Lint)
 **Status**: ✅ FULLY COMPLIANT (0 errors)
 
 ## Summary

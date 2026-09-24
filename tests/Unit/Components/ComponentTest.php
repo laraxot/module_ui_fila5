@@ -13,25 +13,8 @@ uses(TestCase::class);
 
 describe('Component', function (): void {
     test('ui components can be rendered', function (): void {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $component = new class extends Component {
-=======
-<<<<<<< HEAD
         $component = new class extends Component
         {
-=======
-<<<<<<< HEAD
-        $component = new class extends Component {
-=======
-        $component = new class extends Component
-        {
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        $component = new class extends Component {
->>>>>>> 0dadab4 (Lint)
             public function render(): View
             {
                 return view('ui::components.ui.button');

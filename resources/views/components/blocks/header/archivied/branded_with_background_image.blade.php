@@ -1,10 +1,6 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-=======
-
->>>>>>> 0dadab4 (Lint)
 ?>
 <div class="relative bg-indigo-800">
     <div class="absolute inset-0">

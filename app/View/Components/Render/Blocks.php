@@ -1,9 +1,6 @@
 <?php
 
-<<<<<<< HEAD
 declare(strict_types=1);
-=======
->>>>>>> 0dadab4 (Lint)
 /**
  * The `Blocks` component is responsible for rendering a set of blocks on a view.
  *
@@ -13,8 +10,6 @@ declare(strict_types=1);
  * The `render()` method retrieves the appropriate view based on the `$tpl` parameter, and then
  * passes the `$view`, `$blocks`, and `$model` parameters to the view for rendering.
  */
-
-declare(strict_types=1);
 
 namespace Modules\UI\View\Components\Render;
 
@@ -26,14 +21,13 @@ use Modules\Xot\Actions\GetViewAction;
 final class Blocks extends Component
 {
     /**
-     * @param array<int|string, mixed> $blocks
+     * @param  array<int|string, mixed>  $blocks
      */
     public function __construct(
         public string $view,
         public array $blocks = [],
         public ?Model $model = null,
-    ) {
-    }
+    ) {}
 
     public function render(): View
     {
@@ -41,52 +35,12 @@ final class Blocks extends Component
          * @phpstan-var view-string
          */
         $view = app(GetViewAction::class)->execute($this->view);
-<<<<<<< HEAD
-<<<<<<< .merge_file_XmSmpH
-<<<<<<< HEAD
-        $view_params = [
-=======
-<<<<<<< HEAD
         $viewParams = [
-=======
-<<<<<<< HEAD
-        $view_params = [
-=======
-        $viewParams = [
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        $viewParams = [
->>>>>>> .merge_file_PHlHUT
-=======
-        $view_params = [
->>>>>>> 0dadab4 (Lint)
             'view' => $view,
             'blocks' => $this->blocks,
             'model' => $this->model,
         ];
 
-<<<<<<< HEAD
-<<<<<<< .merge_file_XmSmpH
-<<<<<<< HEAD
-        return view($view, $view_params);
-=======
-<<<<<<< HEAD
         return view($view, $viewParams);
-=======
-<<<<<<< HEAD
-        return view($view, $view_params);
-=======
-        return view($view, $viewParams);
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        return view($view, $viewParams);
->>>>>>> .merge_file_PHlHUT
-=======
-        return view($view, $view_params);
->>>>>>> 0dadab4 (Lint)
     }
 }

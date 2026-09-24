@@ -1,10 +1,6 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-=======
-
->>>>>>> 0dadab4 (Lint)
 ?>
 {{-- Componente per la selezione di studi odontoiatrici tramite pulsanti --}}
 <x-dynamic-component

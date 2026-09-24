@@ -106,21 +106,15 @@
             "{",
             "    protected static ?string \\$model = ${2:Name}::class;",
             "",
+<<<<<<< HEAD
             "    public static function getFormSchema(): array",
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+            "    public static function getFormSchema(): array",
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             "    public function getFormSchema(): array",
-=======
-<<<<<<< HEAD
-=======
-            "    public function getFormSchema(): array",
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> 0dadab4 (Lint)
             "    {",
             "        return [",
             "            $0",

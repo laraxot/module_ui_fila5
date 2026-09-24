@@ -7,9 +7,13 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 
 ### DataTable
 ```blade
-<<<<<<< HEAD
-<<<<<<< HEAD
 <x-ui::datatable
+<<<<<<< .merge_file_GDTDLq
+=======
+=======
+<<<<<<< .merge_file_qMSLfv
+<x-ui::datatable 
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 <x-ui::datatable
@@ -17,9 +21,8 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 <x-ui::datatable 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
-=======
-<x-ui::datatable
->>>>>>> 0dadab4 (Lint)
+>>>>>>> .merge_file_ZA3BUQ
+>>>>>>> .merge_file_DPkIBW
     :columns="[
         ['name' => 'id', 'label' => 'ID', 'sortable' => true],
         ['name' => 'name', 'label' => 'Nome', 'sortable' => true],
@@ -37,19 +40,25 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 
 ### StatusBadge
 ```blade
-<<<<<<< HEAD
-<<<<<<< HEAD
+<<<<<<< .merge_file_GDTDLq
 <x-ui::status-badge
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_qMSLfv
+=======
+<x-ui::status-badge
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_ZA3BUQ
 <x-ui::status-badge
 =======
 <x-ui::status-badge 
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
+<<<<<<< .merge_file_qMSLfv
 =======
-<x-ui::status-badge
->>>>>>> 0dadab4 (Lint)
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZA3BUQ
+>>>>>>> .merge_file_DPkIBW
     :status="$user->status"
     :options="[
         'active' => ['label' => 'Attivo', 'color' => 'success'],
@@ -61,19 +70,25 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 
 ### ActionButtons
 ```blade
-<<<<<<< HEAD
-<<<<<<< HEAD
+<<<<<<< .merge_file_GDTDLq
 <x-ui::action-buttons
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_qMSLfv
+=======
+<x-ui::action-buttons
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_ZA3BUQ
 <x-ui::action-buttons
 =======
 <x-ui::action-buttons 
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
+<<<<<<< .merge_file_qMSLfv
 =======
-<x-ui::action-buttons
->>>>>>> 0dadab4 (Lint)
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZA3BUQ
+>>>>>>> .merge_file_DPkIBW
     :actions="[
         [
             'type' => 'view',
@@ -130,9 +145,13 @@ class UserTable extends Component
     public $sortDirection = 'asc';
     public $search = '';
     public $perPage = 10;
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< .merge_file_GDTDLq
+=======
+=======
+<<<<<<< .merge_file_qMSLfv
+    
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 
@@ -140,9 +159,8 @@ class UserTable extends Component
     
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
-=======
-
->>>>>>> 0dadab4 (Lint)
+>>>>>>> .merge_file_ZA3BUQ
+>>>>>>> .merge_file_DPkIBW
     public function sortBy($field)
     {
         if ($this->sortField === $field) {
@@ -152,19 +170,25 @@ class UserTable extends Component
             $this->sortDirection = 'asc';
         }
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
+<<<<<<< .merge_file_GDTDLq
 
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_qMSLfv
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_ZA3BUQ
 
 =======
     
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
+<<<<<<< .merge_file_qMSLfv
 =======
-
->>>>>>> 0dadab4 (Lint)
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZA3BUQ
+>>>>>>> .merge_file_DPkIBW
     public function render()
     {
         $users = User::query()
@@ -174,19 +198,25 @@ class UserTable extends Component
             })
             ->orderBy($this->sortField, $this->sortDirection)
             ->paginate($this->perPage);
-<<<<<<< HEAD
-<<<<<<< HEAD
+<<<<<<< .merge_file_GDTDLq
 
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_qMSLfv
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_ZA3BUQ
 
 =======
             
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
+<<<<<<< .merge_file_qMSLfv
 =======
-
->>>>>>> 0dadab4 (Lint)
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZA3BUQ
+>>>>>>> .merge_file_DPkIBW
         return view('livewire.user-table', compact('users'));
     }
 }

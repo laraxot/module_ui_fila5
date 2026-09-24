@@ -3,19 +3,7 @@
 ## Current Status: ✅ PASSED
 - **PHPStan Level**: 10
 - **Errors**: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
 - **Last Checked**: [DATE]
-=======
-<<<<<<< HEAD
-- **Last Checked**: [DATE]
-=======
-- **Last Checked**: 2025-11-17
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- **Last Checked**: [DATE]
->>>>>>> 0dadab4 (Lint)
 
 ## Module Overview
 The UI module provides user interface components, themes, and frontend utilities for the application.
@@ -82,16 +70,4 @@ The UI module integrates with:
 ---
 
 *Status: ✅ PHPStan Level 10 Compliant*
-<<<<<<< HEAD
-<<<<<<< HEAD
 *
-=======
-<<<<<<< HEAD
-*
-=======
-*Last Updated: 2025-11-17*
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-*
->>>>>>> 0dadab4 (Lint)

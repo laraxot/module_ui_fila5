@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_kqkvL7
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_iA1mRg
 ---
 title: "Raw Sources — UI"
 type: concept
@@ -16,28 +5,6 @@ tags: [index]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "index raw sources — ui"
-<<<<<<< .merge_file_kqkvL7
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-related:
----
-
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
@@ -45,11 +12,6 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 ---
 
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_iA1mRg
-=======
->>>>>>> 0dadab4 (Lint)
 # Raw Sources — UI
 
 Questo layer contiene le fonti grezze: documenti immutabili che l'LLM legge ma non modifica.
@@ -79,39 +41,8 @@ Il layer raw per questo modulo/tema è **l'intera cartella `docs/`** (esclusa `d
 
 ## Schema di riferimento
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 → `docs/.schema/WIKI_SCHEMA.md` (root progetto)
-=======
-<<<<<<< HEAD
-→ `docs/.schema/WIKI_SCHEMA.md` (root progetto)
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-→ `docs/.schema/WIKI_SCHEMA.md` (root progetto)
-<<<<<<< .merge_file_kqkvL7
->>>>>>> laraxot/dev
-<<<<<<< HEAD
 → `docs/.schema/wiki-schema.md` (root progetto)
-=======
-=======
-→ `docs/.schema/wiki-schema.md` (root progetto)
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-→ `docs/.schema/wiki-schema.md` (root progetto)
-=======
->>>>>>> .merge_file_iA1mRg
->>>>>>> laraxot/dev
-=======
-→ `docs/.schema/WIKI_SCHEMA.md` (root progetto)
->>>>>>> 0dadab4 (Lint)
 → `docs/project/llm-wiki-module-adoption.md` (guida per moduli/temi)
 
 ---

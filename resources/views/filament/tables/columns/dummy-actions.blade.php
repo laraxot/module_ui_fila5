@@ -1,10 +1,6 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-=======
-
->>>>>>> 0dadab4 (Lint)
 ?>
 <div class="flex gap-2 justify-center">
     @foreach($getActions() as $action)
