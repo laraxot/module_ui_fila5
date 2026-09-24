@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+
 ?>
 {{--
     Studio Selector Component - Selezione semplice studio con pulsanti

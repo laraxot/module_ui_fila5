@@ -17,7 +17,7 @@ class SelectState extends XotBaseSelect
 
         $this->options(function (?Model $record): array {
             $name = $this->getName();
-            if ($record === null) {
+            if (null === $record) {
                 $model = $this->getModel();
                 if (\is_string($model) && class_exists($model)) {
                     $instance = app($model);
@@ -55,17 +55,18 @@ class SelectState extends XotBaseSelect
     }
 
     /**
-     * @param  array<int|string, mixed>  $states
+     * @param array<int|string, mixed> $states
+     *
      * @return array<int|string, string>
      */
     private function combineStateOptions(array $states): array
     {
         $statesKeys = array_map(
-            static fn (int|string $key): string => SafeStringCastAction::cast($key),
+            static fn ($key) => SafeStringCastAction::cast($key),
             array_keys($states),
         );
         $statesValues = array_map(
-            SafeStringCastAction::cast(...),
+            static fn ($value) => SafeStringCastAction::cast($value),
             array_values($states),
         );
         $combined = array_combine($statesKeys, $statesValues);

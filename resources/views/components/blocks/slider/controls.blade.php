@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+
 ?>
 {{-- https://flowbite.com/docs/components/carousel/#controls --}}
 

@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+
 ?>
 @props([
     'title' => 'Data to enrich your online business',

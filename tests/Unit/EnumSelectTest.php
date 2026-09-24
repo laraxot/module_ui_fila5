@@ -5,10 +5,9 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit;
 
 use Modules\UI\Filament\Forms\Components\EnumSelect;
-use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-uses(TestCase::class);
+uses(\Modules\UI\Tests\TestCase::class);
 
 it('generates options from enum class', function (): void {
     $select = EnumSelect::make('enum');

@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+
 ?>
 <div class="bg-white">
     <div class="relative isolate overflow-hidden bg-gradient-to-b from-indigo-100/20">

@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+
 ?>
 {{-- 
     Componente separatore per la lista dropdown di Filament 

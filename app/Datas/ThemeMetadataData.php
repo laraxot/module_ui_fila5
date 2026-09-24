@@ -13,8 +13,8 @@ use Spatie\LaravelData\Data;
 class ThemeMetadataData extends Data
 {
     /**
-     * @param  array<string, string>  $spacingUnits
-     * @param  array<string, string>  $breakpoints
+     * @param array<string, string> $spacingUnits
+     * @param array<string, string> $breakpoints
      */
     public function __construct(
         public readonly string $primaryColorHex,
@@ -25,10 +25,11 @@ class ThemeMetadataData extends Data
             'md' => '768px',
             'lg' => '1024px',
         ],
-    ) {}
+    ) {
+    }
 
     /**
-     * @throws InvalidArgumentException se la chiave non esiste
+     * @throws \InvalidArgumentException se la chiave non esiste.
      */
     public function getSpacing(string $key): string
     {
