@@ -15,25 +15,25 @@ use Modules\Xot\Models\BaseModel;
  *
  * FormBuilder module not available - extending from XotBaseModel instead.
  *
- * @method static FieldOptionFactory factory($count = null, $state = [])
+ * @method static FieldOptionFactory          factory($count = null, $state = [])
  * @method static Builder<static>|FieldOption newModelQuery()
  * @method static Builder<static>|FieldOption newQuery()
  * @method static Builder<static>|FieldOption query()
  *
- * @property int $id
- * @property string|null $field_id
- * @property string|null $label
- * @property string|null $value
- * @property int $order
- * @property string|null $created_by
- * @property string|null $updated_by
- * @property Carbon|null $deleted_at
- * @property string|null $deleted_by
- * @property Carbon|null $created_at
- * @property Carbon|null $updated_at
- * @property-read ProfileContract|null $creator
- * @property-read ProfileContract|null $deleter
- * @property-read ProfileContract|null $updater
+ * @property int                  $id
+ * @property string|null          $field_id
+ * @property string|null          $label
+ * @property string|null          $value
+ * @property int                  $order
+ * @property string|null          $created_by
+ * @property string|null          $updated_by
+ * @property Carbon|null          $deleted_at
+ * @property string|null          $deleted_by
+ * @property Carbon|null          $created_at
+ * @property Carbon|null          $updated_at
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $deleter
+ * @property ProfileContract|null $updater
  *
  * @method static Builder<static>|FieldOption whereCreatedAt($value)
  * @method static Builder<static>|FieldOption whereCreatedBy($value)

@@ -11,38 +11,38 @@ use Modules\Xot\Contracts\ProfileContract;
 use Modules\Xot\Models\BaseModel;
 
 /**
-<<<<<<< .merge_file_JtRO47
+ * <<<<<<< .merge_file_JtRO47
  * Category model for UI module.
  *
- * @property int $id
-=======
- * <<<<<<< HEAD.
- *
- * @property int         $id
->>>>>>> .merge_file_dAyym1
- * @property string|null $name
- * @property string      $title
- * @property string      $slug
- * @property int|null    $parent_id
- * @property string|null $description
- * @property string|null $icon
-<<<<<<< .merge_file_JtRO47
- * @property bool $is_active
- * @property int $sort_order
- * @property string|null $created_by
- * @property string|null $updated_by
- * @property string|null $deleted_by
- * @property Carbon|null $created_at
- * @property Carbon|null $updated_at
- * @property Carbon|null $deleted_at
- * @property-read ProfileContract|null $creator
- * @property-read ProfileContract|null $deleter
- * @property-read ProfileContract|null $updater
+ * @property int                  $id
+ *                                             =======
+ *                                             <<<<<<< HEAD.
+ * @property int                  $id
+ *                                             >>>>>>> .merge_file_dAyym1
+ * @property string|null          $name
+ * @property string               $title
+ * @property string               $slug
+ * @property int|null             $parent_id
+ * @property string|null          $description
+ * @property string|null          $icon
+ *                                             <<<<<<< .merge_file_JtRO47
+ * @property bool                 $is_active
+ * @property int                  $sort_order
+ * @property string|null          $created_by
+ * @property string|null          $updated_by
+ * @property string|null          $deleted_by
+ * @property Carbon|null          $created_at
+ * @property Carbon|null          $updated_at
+ * @property Carbon|null          $deleted_at
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $deleter
+ * @property ProfileContract|null $updater
  *
  * @method static CategoryFactory factory($count = null, $state = [])
-=======
- * @property bool        $is_active
- * @property int         $sort_order
+ *                                                                    =======
+ *
+ * @property bool $is_active
+ * @property int  $sort_order
  *
  * @method static \Modules\UI\Database\Factories\CategoryFactory factory($count = null, $state = [])
  * @method static Builder<static>|Category                       newModelQuery()
@@ -89,7 +89,7 @@ use Modules\Xot\Models\BaseModel;
  * @property ProfileContract|null $updater
  *
  * @method static CategoryFactory          factory($count = null, $state = [])
->>>>>>> .merge_file_dAyym1
+ *                                                                             >>>>>>> .merge_file_dAyym1
  * @method static Builder<static>|Category newModelQuery()
  * @method static Builder<static>|Category newQuery()
  * @method static Builder<static>|Category query()
@@ -108,13 +108,15 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Category whereUpdatedAt($value)
  * @method static Builder<static>|Category whereUpdatedBy($value)
  *
-<<<<<<< .merge_file_JtRO47
-=======
+ * <<<<<<< .merge_file_JtRO47
+ * =======
+ *
  * @property ProfileContract|null $deleter
  *
  * >>>>>>> laraxot/dev
  *
->>>>>>> .merge_file_dAyym1
+ * >>>>>>> .merge_file_dAyym1
+ *
  * @mixin \Eloquent
  */
 class Category extends BaseModel

@@ -8,7 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Filament\Tables\Columns\XotBaseSelectColumn;
-use ReflectionClass;
 
 class SelectStateColumn extends XotBaseSelectColumn
 {
@@ -17,7 +16,7 @@ class SelectStateColumn extends XotBaseSelectColumn
         parent::setUp();
         $this->options(function (Model $record, mixed $state): array {
             $name = $this->getName();
-            if ($state === null) {
+            if (null === $state) {
                 if (! method_exists($record, 'getDefaultStateFor')) {
                     return [];
                 }
@@ -54,7 +53,7 @@ class SelectStateColumn extends XotBaseSelectColumn
                 if (class_exists($stateClass)) {
                     $stateNameProperty = null;
                     try {
-                        $reflection = new ReflectionClass($stateClass);
+                        $reflection = new \ReflectionClass($stateClass);
                         if ($reflection->hasProperty('name')) {
                             $nameProperty = $reflection->getStaticPropertyValue('name');
                             $stateNameProperty = \is_string($nameProperty) ? $nameProperty : null;
@@ -62,7 +61,7 @@ class SelectStateColumn extends XotBaseSelectColumn
                     } catch (\ReflectionException) {
                         // Intentionally ignored: fall back to $stateNameProperty === null below.
                     }
-                    if ($stateNameProperty !== null) {
+                    if (null !== $stateNameProperty) {
                         $statesValues = array_values($states);
                         /** @var list<int|string> $statesValuesTyped */
                         $statesValuesTyped = $statesValues;
@@ -101,7 +100,8 @@ class SelectStateColumn extends XotBaseSelectColumn
     }
 
     /**
-     * @param  array<int|string, mixed>  $states
+     * @param array<int|string, mixed> $states
+     *
      * @return array<int|string, string>
      */
     private function combineStateOptions(array $states): array
