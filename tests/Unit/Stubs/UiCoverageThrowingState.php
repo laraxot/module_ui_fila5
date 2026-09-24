@@ -14,13 +14,7 @@ use Modules\Xot\Contracts\StateContract;
  */
 final class UiCoverageThrowingState implements StateContract
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     /** @param array<array-key, mixed>|Model|string|null $record */
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     /**
      * @param  Model|array<string, mixed>|string|null  $record
      */

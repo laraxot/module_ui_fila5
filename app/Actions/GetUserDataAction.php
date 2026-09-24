@@ -4,29 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\UI\Actions;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-use Illuminate\Contracts\Auth\Authenticatable;
-use Illuminate\Database\Eloquent\Model;
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
 use Modules\UI\Datas\UserData;
 use Modules\User\Models\Profile;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
-=======
-use Modules\User\Models\User;
-use Modules\Xot\Actions\Cast\SafeIntCastAction;
-use Modules\Xot\Actions\Cast\SafeStringCastAction;
->>>>>>> laraxot/dev
-=======
-use Modules\Xot\Actions\Cast\SafeIntCastAction;
->>>>>>> laraxot/dev
 use Modules\Xot\Contracts\UserContract;
 use Spatie\Permission\Contracts\Permission;
 use Spatie\QueueableAction\QueueableAction;
@@ -39,10 +21,6 @@ class GetUserDataAction
     {
         $user = Auth::user();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
         if (! $user instanceof UserContract) {
             return null;
         }
@@ -51,33 +29,14 @@ class GetUserDataAction
         $profile = $user->relationLoaded('profile') ? $user->profile : null;
         if ($profile instanceof Profile) {
             $avatarUrl = $profile->getAvatarUrl();
-            $avatar = '' !== $avatarUrl ? $avatarUrl : null;
+            $avatar = $avatarUrl !== '' ? $avatarUrl : null;
         }
 
-        if (null === $avatar) {
+        if ($avatar === null) {
             $profilePhotoPath = $user->getAttribute('profile_photo_path');
-            if (is_string($profilePhotoPath) && '' !== $profilePhotoPath) {
+            if (is_string($profilePhotoPath) && $profilePhotoPath !== '') {
                 $avatar = $profilePhotoPath;
             }
-<<<<<<< HEAD
-=======
-        if (! $user instanceof User) {
-            return null;
-        }
-
-        $avatarValue = null;
-        $profile = $user->relationLoaded('profile') ? $user->profile : null;
-        if ($profile instanceof Profile) {
-            $avatarUrl = $profile->getAvatarUrl();
-            $avatarValue = $avatarUrl !== '' ? $avatarUrl : null;
-        }
-
-        $profilePhotoPath = property_exists($user, 'profile_photo_path') ? $user->profile_photo_path : null;
-        if (null === $avatarValue && is_string($profilePhotoPath) && $profilePhotoPath !== '') {
-            $avatarValue = $profilePhotoPath;
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
         }
 
         /** @var Collection<int, string> $roleNames */
@@ -101,43 +60,17 @@ class GetUserDataAction
         /** @var array<int, string> $permissions */
         $permissions = $allPermissions->pluck('name')->toArray();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $userName = $user->name;
-        $userEmail = $user->email;
-=======
         $userName = property_exists($user, 'name') ? $user->name : null;
         $userEmail = property_exists($user, 'email') ? $user->email : null;
->>>>>>> laraxot/dev
-=======
-        $userName = $user->name;
-        $userEmail = $user->email;
->>>>>>> laraxot/dev
 
         return new UserData(
             id: SafeIntCastAction::cast($user->id),
             name: is_string($userName) ? $userName : '',
             email: is_string($userEmail) ? $userEmail : '',
-<<<<<<< HEAD
-<<<<<<< HEAD
-            avatar: $avatar,
-=======
-            avatar: $avatarValue,
->>>>>>> laraxot/dev
-=======
-            avatar: $avatar,
->>>>>>> laraxot/dev
+            avatar: is_string($avatar) ? $avatar : null,
             role: $roleValue,
             permissions: $permissions,
             settings: $settingsArray,
         );
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> laraxot/dev
-=======
-}
->>>>>>> laraxot/dev

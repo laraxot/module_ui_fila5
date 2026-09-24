@@ -19,15 +19,7 @@ final class UiCoverageAddressParentRecord extends Model
     public UiCoverageAddressChildRecord $addressModel;
 
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param array<string, mixed> $attributes
-=======
      * @param  array<string, mixed>  $attributes
->>>>>>> laraxot/dev
-=======
-     * @param array<string, mixed> $attributes
->>>>>>> laraxot/dev
      */
     public function __construct(array $attributes = [])
     {
@@ -36,15 +28,7 @@ final class UiCoverageAddressParentRecord extends Model
     }
 
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param string|array<int, string>|null $attribute
-=======
      * @param  string|array<int, string>|null  $attribute
->>>>>>> laraxot/dev
-=======
-     * @param string|array<int, string>|null $attribute
->>>>>>> laraxot/dev
      */
     public function touch($attribute = null): bool
     {

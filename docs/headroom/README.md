@@ -33,13 +33,6 @@ headroom perf --hours 24
 - Guida root: `../../../../../docs/HEADROOM-INTEGRATION.md`.
 - Non documentare comandi per-modulo non presenti nel CLI Headroom.
 - Coordinare modifiche su issue #218 e discussion #219.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 # UI
 
 [![Module](https://img.shields.io/badge/Module-UI-8B0000.svg)]()
@@ -74,11 +67,3 @@ Core module for the FixCity Platform.
 ---
 
 **Modulo** `UI` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev

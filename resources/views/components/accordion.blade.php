@@ -1,16 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 <?php
 
 declare(strict_types=1);
 ?>
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 @props([
     'id' => 'accordion-' . uniqid(),
     'flush' => false,

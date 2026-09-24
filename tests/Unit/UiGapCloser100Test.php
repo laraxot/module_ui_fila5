@@ -11,14 +11,7 @@ use Illuminate\View\View;
 use Modules\UI\Enums\TableLayoutEnum;
 use Modules\UI\Filament\Blocks\Image;
 use Modules\UI\Filament\Forms\Components\YearSelect;
-<<<<<<< HEAD
-<<<<<<< HEAD
 use Modules\UI\Filament\Widgets\DarkModeSwitcherWidget;
-=======
->>>>>>> laraxot/dev
-=======
-use Modules\UI\Filament\Widgets\DarkModeSwitcherWidget;
->>>>>>> laraxot/dev
 use Modules\UI\Filament\Widgets\HeroWidget;
 use Modules\UI\Filament\Widgets\RedirectWidget;
 use Modules\UI\Filament\Widgets\RowWidget;
@@ -49,10 +42,6 @@ describe('UI gap closer 100 — Livewire', function (): void {
         Assert::assertInstanceOf(ViewContract::class, $component->render());
     });
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
     test('DarkModeSwitcherWidget mount toggle and render (gemello Filament)', function (): void {
         $widget = new DarkModeSwitcherWidget;
         $widget->mount();
@@ -62,11 +51,6 @@ describe('UI gap closer 100 — Livewire', function (): void {
         Assert::assertInstanceOf(ViewContract::class, $widget->render());
     });
 
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     test('Toast render exposes view params', function (): void {
         $component = new Toast;
         Assert::assertInstanceOf(ViewContract::class, $component->render());
@@ -218,10 +202,6 @@ describe('UI gap closer 100 — middleware trait rules', function (): void {
             }
         };
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
         $cases = [
             'enum instance' => [TableLayoutEnum::LIST, TableLayoutEnum::LIST],
             'valid string' => ['list', TableLayoutEnum::LIST],
@@ -241,22 +221,6 @@ describe('UI gap closer 100 — middleware trait rules', function (): void {
 
         $subject->setTableLayout(TableLayoutEnum::GRID);
         Assert::assertSame('grid', Session::get('table_layout'));
-<<<<<<< HEAD
-=======
-        Session::put('table_layout', TableLayoutEnum::LIST);
-        Assert::assertSame(TableLayoutEnum::LIST, $subject->getTableLayout());
-
-        Session::put('table_layout', 'list');
-        Assert::assertSame(TableLayoutEnum::LIST, $subject->getTableLayout());
-
-        Session::put('table_layout', 'invalid');
-        Assert::assertSame(TableLayoutEnum::GRID, $subject->getTableLayout());
-
-        Session::forget('table_layout');
-        Assert::assertSame(TableLayoutEnum::GRID, $subject->getTableLayout());
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
         $subject->refreshTable();
         Assert::assertGreaterThan(0, $subject->dispatched);

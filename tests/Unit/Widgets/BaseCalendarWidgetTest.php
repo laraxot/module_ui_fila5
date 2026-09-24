@@ -17,16 +17,8 @@ uses(TestCase::class);
 
 function createTestCalendarWidget(): UserCalendarWidget
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    $widget = new class extends UserCalendarWidget {
-=======
     $widget = new class extends UserCalendarWidget
     {
->>>>>>> laraxot/dev
-=======
-    $widget = new class extends UserCalendarWidget {
->>>>>>> laraxot/dev
         public function getActionName(string $function): string
         {
             unset($function);

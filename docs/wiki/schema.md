@@ -19,25 +19,7 @@ docs/
 ├── wiki/
 │   ├── index.md           # Catalogo
 │   ├── log.md             # Registro
-<<<<<<< HEAD
-<<<<<<< HEAD
-│   ├── SCHEMA.md          # Questo file
 │   ├── schema.md          # Questo file
-=======
-<<<<<<< HEAD
-│   ├── SCHEMA.md          # Questo file
-<<<<<<< HEAD
-│   ├── schema.md          # Questo file
-=======
-=======
-│   ├── schema.md          # Questo file
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-│   ├── SCHEMA.md          # Questo file
-│   ├── schema.md          # Questo file
->>>>>>> laraxot/dev
 │   ├── concepts/          # Pattern, architettura
 │   ├── entities/          # Modelli, azioni
 │   ├── sources/           # Doc esterna
@@ -52,13 +34,7 @@ docs/
 - Cross-ref: `[Link](../concepts/name.md)`
 - NON modificare mai `docs/raw/`
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ---
 
 ## Contenuto assorbito da `SCHEMA.md`

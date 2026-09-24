@@ -6,23 +6,11 @@ namespace Modules\UI\Filament\Forms\Components;
 
 use Filament\Forms\Components\TextInput;
 use Filament\Schemas\Components\Grid;
+use Modules\UI\Filament\Tables\Columns\PersonColumn;
 use Modules\Xot\Filament\Schemas\Components\XotBaseSection;
 
 /**
- * Controparte in form di {@see \Modules\UI\Filament\Tables\Columns\PersonColumn}.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-use Modules\UI\Filament\Tables\Columns\PersonColumn;
-
-/**
  * Controparte in form di {@see PersonColumn}.
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
  *
  * Stessi campi anagrafici + contatto (`first_name`, `last_name`, `email`,
  * `mobile_phone`, `language`), due superfici: qui li edita, la colonna li mostra

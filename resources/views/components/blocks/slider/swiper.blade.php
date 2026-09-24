@@ -1,13 +1,6 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ?>
 <section class="container p-6 mx-auto">
 	<div id="heroslider" x-data="heroslider" class="relative w-full">

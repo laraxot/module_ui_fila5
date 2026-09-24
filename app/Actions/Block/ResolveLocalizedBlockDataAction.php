@@ -15,17 +15,7 @@ final class ResolveLocalizedBlockDataAction
     use QueueableAction;
 
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param array<string, mixed> $viewParams
-     *
-=======
      * @param  array<string, mixed>  $viewParams
->>>>>>> laraxot/dev
-=======
-     * @param array<string, mixed> $viewParams
-     *
->>>>>>> laraxot/dev
      * @return array<string, mixed>
      */
     public function execute(array $viewParams): array
@@ -47,17 +37,7 @@ final class ResolveLocalizedBlockDataAction
     }
 
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param array<array-key, mixed> $data
-     *
-=======
      * @param  array<array-key, mixed>  $data
->>>>>>> laraxot/dev
-=======
-     * @param array<array-key, mixed> $data
-     *
->>>>>>> laraxot/dev
      * @return array<string, mixed>
      */
     private function normalizeViewData(array $data): array

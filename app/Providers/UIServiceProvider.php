@@ -14,15 +14,7 @@ use Modules\Xot\Providers\XotBaseServiceProvider;
  * per garantire la corretta risoluzione dei path secondo la struttura dei moduli.
  *
  * Nessun binding Geo/Map/Location: dominio geografico non appartiene a UI
-<<<<<<< HEAD
-<<<<<<< HEAD
- * (vedi docs/geo-boundary.md).
-=======
  * (vedi docs/geo-boundary.md). In questo progetto il modulo Geo non è presente.
->>>>>>> laraxot/dev
-=======
- * (vedi docs/geo-boundary.md).
->>>>>>> laraxot/dev
  *
  * @phpstan-type ModuleConfig array{name: string, alias: string, description: string, keywords: array<int, string>, priority: int, providers: array<int, class-string>}
  */
@@ -34,18 +26,6 @@ class UIServiceProvider extends XotBaseServiceProvider
 
     protected string $module_ns = __NAMESPACE__;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    /**
-     * Restituisce il percorso delle viste dei componenti UI.
-     */
-=======
->>>>>>> laraxot/dev
-=======
-    /**
-     * Restituisce il percorso delle viste dei componenti UI.
-     */
->>>>>>> laraxot/dev
     public function getComponentViewPath(): string
     {
         return app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-view');

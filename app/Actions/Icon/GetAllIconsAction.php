@@ -7,13 +7,7 @@ namespace Modules\UI\Actions\Icon;
 use BladeUI\Icons\Factory as IconFactory;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\File;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 use ReflectionClass;
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 use Spatie\QueueableAction\QueueableAction;
 
 class GetAllIconsAction
@@ -29,15 +23,7 @@ class GetAllIconsAction
 
         // Uso reflection per accedere alle icone in modo sicuro
         try {
-<<<<<<< HEAD
-<<<<<<< HEAD
-            $reflection = new \ReflectionClass($iconsFactory);
-=======
             $reflection = new ReflectionClass($iconsFactory);
->>>>>>> laraxot/dev
-=======
-            $reflection = new \ReflectionClass($iconsFactory);
->>>>>>> laraxot/dev
             $property = $reflection->getProperty('sets');
             $property->setAccessible(true);
             $icons = $property->getValue($iconsFactory);
@@ -78,16 +64,6 @@ class GetAllIconsAction
                     continue;
                 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-                $iconsList = array_merge(
-                    $iconsList,
-                    $this->collectSvgIconNamesFromPath($path, $set['prefix'] ?? ''),
-                );
-<<<<<<< HEAD
-=======
                 foreach (File::allFiles($path) as $file) {
                     // Simply ignore files that aren't SVGs
                     if ($file->getExtension() !== 'svg') {
@@ -106,9 +82,6 @@ class GetAllIconsAction
                     $iconFullName = $prefixString !== '' ? $prefixString.'-'.$iconName : $iconName;
                     $iconsList[] = $iconFullName;
                 }
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
             }
             $set['icons'] = $iconsList;
             $mappedIcons[$name] = $set;
@@ -116,39 +89,4 @@ class GetAllIconsAction
 
         return $mappedIcons;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-
-    /**
-     * @return list<string>
-     */
-    private function collectSvgIconNamesFromPath(string $path, mixed $prefix): array
-    {
-        $prefixString = is_string($prefix) ? $prefix : '';
-        $iconNames = [];
-
-        foreach (File::allFiles($path) as $file) {
-            // Simply ignore files that aren't SVGs
-            if ('svg' !== $file->getExtension()) {
-                continue;
-            }
-
-            $iconName = str($file->getPathname())
-                ->after($path.DIRECTORY_SEPARATOR)
-                ->replace(DIRECTORY_SEPARATOR, '.')
-                ->basename('.svg')
-                ->toString();
-
-            $iconNames[] = '' !== $prefixString ? $prefixString.'-'.$iconName : $iconName;
-        }
-
-        return $iconNames;
-    }
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 }

@@ -40,15 +40,7 @@ afterEach(function (): void {
 describe('UI state columns — comportamento IconStateColumn', function (): void {
     test('icon color tooltip rispondono allo StateContract', function (): void {
         $column = IconStateColumn::make('state');
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $state = new UiCoverageStateContract();
-=======
         $state = new UiCoverageStateContract;
->>>>>>> laraxot/dev
-=======
-        $state = new UiCoverageStateContract();
->>>>>>> laraxot/dev
 
         Assert::assertSame('heroicon-o-clock', $column->getIcon($state));
         Assert::assertSame('warning', $column->getColor($state));
@@ -272,15 +264,7 @@ describe('UI actions — GetAllIconsAction con factory mock', function (): void 
 });
 
 /** @return array<int|string, string> */
-<<<<<<< HEAD
-<<<<<<< HEAD
 function uiEvaluateSelectOptions(Select $select, Model $record, ?string $state): array
-=======
-function uiEvaluateSelectOptions(Select $select, Model $record, mixed $state): array
->>>>>>> laraxot/dev
-=======
-function uiEvaluateSelectOptions(Select $select, Model $record, ?string $state): array
->>>>>>> laraxot/dev
 {
     $ref = new ReflectionClass($select);
     $prop = $ref->getProperty('options');
@@ -289,29 +273,13 @@ function uiEvaluateSelectOptions(Select $select, Model $record, ?string $state):
     Assert::assertInstanceOf(\Closure::class, $options);
 
     /** @var array<int|string, string> $result */
-<<<<<<< HEAD
-<<<<<<< HEAD
-    $result = $options->call($select, $record, $state ?? '');
-=======
     $result = ($options)->call($select, $record, $state ?? '');
->>>>>>> laraxot/dev
-=======
-    $result = $options->call($select, $record, $state ?? '');
->>>>>>> laraxot/dev
 
     return $result;
 }
 
 /** @return array<int|string, string> */
-<<<<<<< HEAD
-<<<<<<< HEAD
 function uiEvaluateColumnOptions(SelectStateColumn $column, Model $record, ?object $state): array
-=======
-function uiEvaluateColumnOptions(SelectStateColumn $column, Model $record, mixed $state): array
->>>>>>> laraxot/dev
-=======
-function uiEvaluateColumnOptions(SelectStateColumn $column, Model $record, ?object $state): array
->>>>>>> laraxot/dev
 {
     $ref = new ReflectionClass($column);
     $prop = $ref->getProperty('options');
@@ -320,28 +288,12 @@ function uiEvaluateColumnOptions(SelectStateColumn $column, Model $record, ?obje
     Assert::assertInstanceOf(\Closure::class, $options);
 
     /** @var array<int|string, string> $result */
-<<<<<<< HEAD
-<<<<<<< HEAD
-    $result = $options->call($column, $record, $state);
-=======
     $result = ($options)->call($column, $record, $state);
->>>>>>> laraxot/dev
-=======
-    $result = $options->call($column, $record, $state);
->>>>>>> laraxot/dev
 
     return $result;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 function uiInvokeBeforeStateUpdated(SelectStateColumn $column, Model $record, string $state): void
-=======
-function uiInvokeBeforeStateUpdated(SelectStateColumn $column, Model $record, mixed $state): void
->>>>>>> laraxot/dev
-=======
-function uiInvokeBeforeStateUpdated(SelectStateColumn $column, Model $record, string $state): void
->>>>>>> laraxot/dev
 {
     $ref = new ReflectionClass($column);
     $prop = $ref->getProperty('beforeStateUpdated');

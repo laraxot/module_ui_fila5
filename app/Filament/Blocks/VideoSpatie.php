@@ -76,15 +76,7 @@ final class VideoSpatie
                 // ->customProperties(fn(Forms\Get $get) => ['gallery_id' => $get('gallery_id')]),
                 // Forms\Components\SpatieMediaLibraryFileUpload::make('media_id')
             ])
-<<<<<<< HEAD
-<<<<<<< HEAD
-            ->columns('form' === $context ? 2 : 1);
-=======
             ->columns($context === 'form' ? 2 : 1);
->>>>>>> laraxot/dev
-=======
-            ->columns('form' === $context ? 2 : 1);
->>>>>>> laraxot/dev
     }
 
     /**

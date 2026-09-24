@@ -2,19 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/UI/docs/wiki — domain i18n only.
-// File: lang/it/navigation.php
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 return [
     'navigation' => ['label' => 'Navigazione', 'plural_label' => 'Navigazioni', 'group' => 'Gestione Contenuti', 'icon' => 'heroicon-o-rectangle-stack', 'sort' => 1],
     'label' => 'Navigazione',
@@ -26,33 +13,8 @@ return [
         'text' => ['label' => 'text', 'placeholder' => 'text', 'helper_text' => 'text', 'description' => 'text'],
     ],
     'actions' => [
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-        'create' => [
-            'label' => 'Crea Navigazione',
-            'success' => 'Navigazione creata con successo',
-            'failure' => 'Errore nella creazione della navigazione',
-        ],
-        'edit' => [
-            'label' => 'Modifica Navigazione',
-            'success' => 'Navigazione aggiornata con successo',
-            'failure' => 'Errore nell\'aggiornamento della navigazione',
-        ],
-        'delete' => [
-            'label' => 'Elimina Navigazione',
-            'success' => 'Navigazione eliminata con successo',
-            'failure' => 'Errore nell\'eliminazione della navigazione',
-            'confirm' => 'Sei sicuro di voler eliminare questa navigazione?',
-        ],
-<<<<<<< HEAD
-=======
         'create' => ['label' => 'Crea Navigazione', 'success' => 'Navigazione creata con successo', 'failure' => 'Errore nella creazione della navigazione'],
         'edit' => ['label' => 'Modifica Navigazione', 'success' => 'Navigazione aggiornata con successo', 'failure' => 'Errore nell\'aggiornamento della navigazione'],
         'delete' => ['label' => 'Elimina Navigazione', 'success' => 'Navigazione eliminata con successo', 'failure' => 'Errore nell\'eliminazione della navigazione', 'confirm' => 'Sei sicuro di voler eliminare questa navigazione?'],
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     ],
 ];

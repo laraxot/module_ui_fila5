@@ -1,16 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 <?php
 
 declare(strict_types=1);
 ?>
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 {{--
   Scroll reveal: anima il contenuto quando entra in viewport.
   Rispetta prefers-reduced-motion (nessuna animazione se ridotta).

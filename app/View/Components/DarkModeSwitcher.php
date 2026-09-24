@@ -25,14 +25,7 @@ final class DarkModeSwitcher extends Component
      */
     public function __construct()
     {
-        $this->widget = new DarkModeSwitcherWidget();
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        $this->widget = new DarkModeSwitcherWidget();
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
+        $this->widget = new DarkModeSwitcherWidget;
     }
 
     /**

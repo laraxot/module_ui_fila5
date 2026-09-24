@@ -24,18 +24,7 @@ Technical implementation details for the UI module.
 
 ## Dependencies
 - Laravel 12.x
-<<<<<<< HEAD
-<<<<<<< HEAD
 - Laravel 13.x
-=======
-<<<<<<< HEAD
-- Laravel 13.x
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- Laravel 13.x
->>>>>>> laraxot/dev
 - Filament 5.x
 - Xot Module
 

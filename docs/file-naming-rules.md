@@ -36,19 +36,7 @@ Su filesystem case-insensitive (Windows, macOS default), file con nomi che diffe
 ✅ CORRETTO:
 - README.md (maiuscolo - convenzione universale)
 - ROADMAP.md (maiuscolo - convenzione universale)
-<<<<<<< HEAD
-<<<<<<< HEAD
 - CHANGELOG.md (maiuscolo - convenzione universale)
-=======
-<<<<<<< HEAD
-- CHANGELOG.md (maiuscolo - convenzione universale)
-=======
-- changelog.md (maiuscolo - convenzione universale)
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-=======
-- CHANGELOG.md (maiuscolo - convenzione universale)
->>>>>>> laraxot/dev
 - LICENSE.md (maiuscolo - convenzione universale)
 - CONTRIBUTING.md (maiuscolo - convenzione universale)
 - SECURITY.md (maiuscolo - convenzione universale)

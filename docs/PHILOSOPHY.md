@@ -244,24 +244,11 @@ Modules/UI/
 │   ├── Feature/
 │   └── Unit/
 ├── README.md
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
 └── CHANGELOG.md
 ```
 
 (`ARCHITECTURE.md`, `TESTING.md`, `GETTING_STARTED.md` and `PHILOSOPHY.md` were moved from the module root into `docs/root-md-files/` and `docs/` proper; they are inside the collapsed `docs/` entry above.)
 
-<<<<<<< HEAD
-=======
-├── ARCHITECTURE.md
-└── CHANGELOG.md
-```
-
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ---
 
 ### Blade Component Naming
@@ -1285,15 +1272,7 @@ Core functionality tests pass:
 ### Core Documentation
 
 - [README.md](./README.md) — Module overview
-<<<<<<< HEAD
-<<<<<<< HEAD
 - [architecture.md](./architecture.md) — System architecture
-=======
-- [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
->>>>>>> laraxot/dev
-=======
-- [architecture.md](./architecture.md) — System architecture
->>>>>>> laraxot/dev
 - [patterns.md](./patterns.md) — Design patterns and workflows
 - [icon-system.md](./icon-system.md) — Icon system details
 

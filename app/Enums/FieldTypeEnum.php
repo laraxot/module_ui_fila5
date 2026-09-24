@@ -1,13 +1,6 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 /**
  * @see https://filamentphp.com/docs/3.x/forms/fields/types
  * @see https://github.com/Valourite/form-builder/blob/v1.x/src/Filament/Enums/FieldType.php
@@ -21,20 +14,12 @@ use Filament\Support\Contracts\HasLabel;
 use Modules\Xot\Traits\EnumTrait;
 
 /**
-<<<<<<< HEAD
-<<<<<<< HEAD
- * Filament form field types supported by the UI module.
-=======
  * Defines the different types of appointments in the system.
->>>>>>> laraxot/dev
-=======
- * Filament form field types supported by the UI module.
->>>>>>> laraxot/dev
  *
- * @method static self        fromName(string $name)
- * @method static self        fromValue(string $value)
- * @method static self        tryFromName(string $name)
- * @method static self        tryFromValue(string $value)
+ * @method static self fromName(string $name)
+ * @method static self fromValue(string $value)
+ * @method static self tryFromName(string $name)
+ * @method static self tryFromValue(string $value)
  * @method static array<self> cases()
  */
 enum FieldTypeEnum: string implements HasColor, HasIcon, HasLabel

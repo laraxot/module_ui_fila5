@@ -1,13 +1,6 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 /**
  * @see https://github.com/awcodes/overlook/blob/2.x/src/Widgets/OverlookWidget.php
  */
@@ -25,16 +18,6 @@ abstract class RowWidget extends XotBaseSchemaWidget
     /** @var array<int, class-string> */
     public array $widgets = [];
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    /** @phpstan-var view-string */
-    /** @phpstan-ignore property.defaultValue */
-=======
->>>>>>> laraxot/dev
-=======
-    /** @phpstan-var view-string */
-    /** @phpstan-ignore property.defaultValue */
->>>>>>> laraxot/dev
     protected string $view = 'ui::filament.widgets.row';
 
     protected int|string|array $columnSpan = 'full';

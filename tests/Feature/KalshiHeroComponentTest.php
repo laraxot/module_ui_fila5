@@ -19,13 +19,6 @@ function makeKalshiView(array $data = []): \Illuminate\Contracts\View\View
     return View::make($viewName, $data);
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 beforeEach(function () {
     /* @var \Modules\UI\Tests\TestCase $this */
     if (! View::exists('pub_theme::components.blocks.hero.kalshi-inspired')) {

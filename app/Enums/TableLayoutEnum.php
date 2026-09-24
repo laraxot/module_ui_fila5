@@ -53,12 +53,12 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 
     public function isGridLayout(): bool
     {
-        return self::GRID === $this;
+        return $this === self::GRID;
     }
 
     public function isListLayout(): bool
     {
-        return self::LIST === $this;
+        return $this === self::LIST;
     }
 
     /**
@@ -82,51 +82,14 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
             : null;
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-/**
-      * Get the appropriate table columns for this layout type.
-      *
-      * This method replaces the old debug_backtrace approach with explicit
-      * parameter passing for better type safety and testability.
-      *
-      * @param array<int|string, Column|ColumnGroup|Component> $listColumns Columns for list layout
-      * @param array<int|string, Column|ColumnGroup|Component> $gridColumns Columns for grid layout
-      *
-      * @return array<int|string, Column|ColumnGroup|Component>
-      */
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     /**
      * Get the appropriate table columns for this layout type.
      *
      * This method replaces the old debug_backtrace approach with explicit
      * parameter passing for better type safety and testability.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-     *
-     * @param array<Column|ColumnGroup|Component>             $listColumns Columns for list layout
-     * @param array<Column|ColumnGroup|Component>             $gridColumns Columns for grid layout
-     * @param array<int|string, Column|ColumnGroup|Component> $listColumns Columns for list layout
-     * @param array<int|string, Column|ColumnGroup|Component> $gridColumns Columns for grid layout
-     * @param array<Column|ColumnGroup|Component>             $listColumns Columns for list layout
-     * @param array<Column|ColumnGroup|Component>             $gridColumns Columns for grid layout
-<<<<<<< HEAD
-=======
-     * @param array<Column|ColumnGroup|Component> $listColumns Columns for list layout
-     * @param array<Column|ColumnGroup|Component> $gridColumns Columns for grid layout
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
-     *
+     * @param  array<Column|ColumnGroup|Component>  $listColumns  Columns for list layout
+     * @param  array<Column|ColumnGroup|Component>  $gridColumns  Columns for grid layout
      * @return array<Column|ColumnGroup|Component>
      */
     public function getTableColumns(array $listColumns, array $gridColumns): array

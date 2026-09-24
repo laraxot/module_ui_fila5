@@ -1,16 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
+<?php
 
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
+declare(strict_types=1);
+?>
 @props([
     'currentStep' => 1,
     'totalSteps' => 4,
