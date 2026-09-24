@@ -35,23 +35,7 @@ final class Slider
     }
 
     /**
-     * <<<<<<< HEAD
-     * <<<<<<< .merge_file_PUWXm9.
-     * =======
-     * <<<<<<< HEAD.
-     * >>>>>>> 1b458f2 (refactor: remove conflict markers from multiple PHP files).
-     *
      * @return array<int|string, Component>
-     *                                      =======
-     *                                      <<<<<<< HEAD
-     * @return array<int|string, Component>
-     *                                      =======
-     * @return array<int|string, Component>
-     *                                      >>>>>>> laraxot/dev
-     *                                      <<<<<<< HEAD
-     *                                      >>>>>>> .merge_file_0w3Zal
-     *                                      =======
-     *                                      >>>>>>> 1b458f2 (refactor: remove conflict markers from multiple PHP files)
      */
     public static function getFormSchema(): array
     {
