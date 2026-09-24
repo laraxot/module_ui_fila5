@@ -21,15 +21,3 @@ return array (
     ),
   ),
 );
-return [
-    'sections' => [
-        'week_schedule' => [
-            'label' => 'Orari Settimanali',
-            'description' => 'Configura gli orari di apertura per ogni giorno della settimana',
-        ],
-        'availability_settings' => [
-            'label' => 'Impostazioni Disponibilità',
-            'description' => 'Gestisci le tue fasce orarie di disponibilità',
-        ],
-    ],
-];

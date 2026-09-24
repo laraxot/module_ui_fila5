@@ -23,17 +23,3 @@ return array (
     ),
   ),
 );
-return [
-    'actions' => [
-        'copy_schedule' => [
-            'label' => 'Copia Orari',
-            'success' => 'Orari copiati con successo',
-            'error' => 'Errore durante la copia degli orari',
-        ],
-        'clear_schedule' => [
-            'label' => 'Cancella Orari',
-            'success' => 'Orari cancellati con successo',
-            'confirmation' => 'Sei sicuro di voler cancellare tutti gli orari?',
-        ],
-    ],
-];
