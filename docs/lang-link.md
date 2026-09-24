@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -16,6 +17,8 @@
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: lang_link
@@ -23,6 +26,7 @@ canonical: ../../../Themes/docs/shared-components/lang-link_1.md
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 See canonical documentation: ../../../Themes/docs/shared-components/lang-link_1.md
 =======
 <<<<<<< HEAD
@@ -39,6 +43,9 @@ See canonical documentation: ../../../Themes/docs/shared-components/lang-link_1.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+See canonical documentation: ../../../Themes/docs/shared-components/lang-link_1.md
 >>>>>>> laraxot/dev
 # Collegamento alle Traduzioni del Modulo UI
 Questo modulo utilizza le traduzioni centralizzate nella cartella [Lang](../../Lang/docs/).
@@ -84,6 +91,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 * [lang-link.md](../../../Patient/project_docs/lang-link.md)
 * [lang-link.md](../../../Cms/project_docs/lang-link.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -99,4 +107,6 @@ See canonical documentation: ../../../Themes/docs/shared-components/lang-link_1.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

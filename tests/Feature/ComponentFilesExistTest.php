@@ -100,9 +100,13 @@ describe('Component Files Exist', function (): void {
         ));
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ([] !== $legacyPresent) {
 =======
         if ($legacyPresent !== []) {
+>>>>>>> laraxot/dev
+=======
+        if ([] !== $legacyPresent) {
 >>>>>>> laraxot/dev
             Assert::markTestSkipped('Legacy root components still present: '.implode(', ', $legacyPresent));
         }

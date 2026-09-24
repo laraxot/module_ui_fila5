@@ -14,6 +14,7 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 ❌ **Non Corretto**:
 ```md
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -35,6 +36,9 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
 # Design System il progetto
 Il design system di il progetto definisce...
 ```
@@ -42,6 +46,7 @@ Il design system di il progetto definisce...
 ✅ **Corretto**:
 ```md
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -51,6 +56,9 @@ Il design system di il progetto definisce...
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 # Design System
 Il design system definisce...
@@ -77,6 +85,7 @@ I nomi specifici dell'applicazione devono apparire solo:
 - [Documentazione Principale](../../../docs/README.md)
 - [Standard di Codice](../../../docs/standards/coding-standards.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85,6 +94,8 @@ I nomi specifici dell'applicazione devono apparire solo:
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # Regole di Naming nei Moduli
 
@@ -102,8 +113,11 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 ❌ **Non Corretto**:
 ```md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # Design System il progetto
 Il design system di il progetto definisce...
@@ -129,6 +143,9 @@ I nomi specifici dell'applicazione devono apparire solo:
 
 ## Collegamenti Bidirezionali
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 - [README](README.md)
 - [Design System](design-system.md)
 - [Componenti](components.md)
@@ -137,6 +154,7 @@ I nomi specifici dell'applicazione devono apparire solo:
 - [Documentazione Principale](../../../project_docs/README.md)
 - [Standard di Codice](../../../project_docs/standards/coding-standards.md)
 - [Best Practices](../../../project_docs/standards/best-practices.md)
+<<<<<<< HEAD
 =======
 
 ## Vedi Anche
@@ -185,4 +203,6 @@ I nomi specifici dell'applicazione devono apparire solo:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

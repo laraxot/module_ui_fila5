@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -16,11 +17,14 @@
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: filament_resources_structure
 canonical: ../../../Themes/docs/shared-components/filament-resources-structure_1.md
 ---
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -38,6 +42,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/filament-res
 >>>>>>> laraxot/dev
 # Struttura delle Filament Resources
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 See canonical documentation: ../../../Themes/docs/shared-components/filament-resources-structure_1.md
@@ -108,6 +114,7 @@ Questa documentazione è collegata bidirezionalmente con la documentazione speci
 - [Documentazione CMS Module](../laravel/Modules/Cms/project_docs/filament-resources.md)
 - [Documentazione Xot Module](../laravel/Modules/Xot/project_docs/filament-resources.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -159,4 +166,6 @@ See canonical documentation: ../../../Themes/docs/shared-components/filament-res
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -15,6 +16,8 @@
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # TableLayoutToggleTableAction
 
@@ -72,6 +75,7 @@ class MyListRecords extends ListRecords
 - [Test di Risoluzione Conflitti](../test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [Torna alla documentazione UI](/docs/modules/module_ui.md#actions)
 =======
 <<<<<<< HEAD
@@ -88,6 +92,9 @@ class MyListRecords extends ListRecords
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+[Torna alla documentazione UI](/docs/modules/module_ui.md#actions)
 >>>>>>> laraxot/dev
 ---
 title: "TableLayoutToggleTableAction"
@@ -102,6 +109,7 @@ related:
   - "./table-layout-toggle-1.md"
 # TableLayoutToggleTableAction
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -110,6 +118,8 @@ related:
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ## Scopo
 Bottone **Cambia layout** (lista ↔ griglia) sulle `XotBaseListRecords` con `HasXotTable`. Solo UX: stessi record, presentazione diversa.
@@ -130,6 +140,7 @@ click → toggleLayout()
 | `HasXotTable` | Render colonne/griglia da `$layoutView` |
 ## Cosa non toccare
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Panoramica
 Azione Filament per il toggle del layout delle tabelle tra vista griglia e lista.
 =======
@@ -143,6 +154,10 @@ Azione Filament per il toggle del layout delle tabelle tra vista griglia e lista
 Azione Filament per il toggle del layout delle tabelle tra vista griglia e lista.
 
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+## Panoramica
+Azione Filament per il toggle del layout delle tabelle tra vista griglia e lista.
 >>>>>>> laraxot/dev
 ## Caratteristiche
 - Supporto per layout griglia e lista
@@ -150,6 +165,7 @@ Azione Filament per il toggle del layout delle tabelle tra vista griglia e lista
 - Persistenza dello stato del layout
 - Supporto per tooltip e icone dinamiche
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Miglioramenti PHPStan Livello 9
 Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
 =======
@@ -162,6 +178,10 @@ Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
 Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
 
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+## Miglioramenti PHPStan Livello 9
+Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
 >>>>>>> laraxot/dev
 1. Tipizzazione stretta dei parametri
 2. Utilizzo di tipi unione per i componenti Livewire
@@ -169,11 +189,14 @@ Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
 4. Gestione type-safe degli enum
 5. Rimozione di type casting non necessari
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ## Interfaccia HasTableLayout
 ```php
@@ -184,6 +207,7 @@ interface HasTableLayout
     public function resetTable(): void;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Utilizzo
 use Modules\UI\app\Filament\Actions\Table\TableLayoutToggleTableAction;
 class MyListRecords extends ListRecords
@@ -203,12 +227,18 @@ class MyListRecords extends ListRecords
 {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+## Utilizzo
+use Modules\UI\app\Filament\Actions\Table\TableLayoutToggleTableAction;
+class MyListRecords extends ListRecords
+>>>>>>> laraxot/dev
     protected function getTableActions(): array
     {
         return [
             TableLayoutToggleTableAction::make(),
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -218,12 +248,15 @@ class MyListRecords extends ListRecords
 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ## Best Practices
 1. Implementare l'interfaccia HasTableLayout nei componenti che utilizzano l'azione
 2. Utilizzare gli enum per i tipi di layout
 3. Gestire correttamente gli eventi di refresh
 4. Mantenere la persistenza dello stato
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Collegamenti alla Documentazione
 - [Risoluzione Conflitti UI](../CONFLITTI_MERGE_RISOLTI.md): Documentazione dei conflitti risolti
 - [Test di Risoluzione Conflitti](../test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
@@ -243,6 +276,11 @@ class MyListRecords extends ListRecords
 >>>>>>> laraxot/dev
 
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+## Collegamenti alla Documentazione
+- [Risoluzione Conflitti UI](../CONFLITTI_MERGE_RISOLTI.md): Documentazione dei conflitti risolti
+- [Test di Risoluzione Conflitti](../test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
 >>>>>>> laraxot/dev
 - **Non** spostare il toggle in `HasTableLayoutPage` — duplicazione inutile.
 - **Non** rimuovere `TableLayoutTrait` dall’Action — è il punto che scrive sessione al click.
@@ -254,6 +292,7 @@ Vedi [bugfix](../bugfix-table-layout-toggle-not-working.md): bastano `resetTable
 - [Disciplina agente](../../../docs/wiki/memories/agent-table-layout-toggle-discipline.md)
 - [Contratto Xot](../../Xot/docs/filament/table-layout-toggle-contract.md)
 - [Tema One — tabelle](../../../Themes/One/docs/filament-resource-schemas-tables.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -270,4 +309,6 @@ Vedi [bugfix](../bugfix-table-layout-toggle-not-working.md): bastano `resetTable
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

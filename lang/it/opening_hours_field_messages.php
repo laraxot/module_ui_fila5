@@ -7,6 +7,9 @@ declare(strict_types=1);
 // Canon: Modules/UI/docs/wiki/concepts/claude-audit-static.md
 // File: lang/it/opening_hours_field_messages.php
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 return array (
   'messages' => 
   array (
@@ -15,6 +18,7 @@ return array (
     'invalid_time_range' => 'Orario non valido: l\'ora di fine deve essere successiva all\'ora di inizio',
   ),
 );
+<<<<<<< HEAD
 =======
 return [
     'messages' => [
@@ -23,4 +27,6 @@ return [
         'invalid_time_range' => 'Orario non valido: l\'ora di fine deve essere successiva all\'ora di inizio',
     ],
 ];
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

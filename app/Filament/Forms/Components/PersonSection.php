@@ -11,10 +11,16 @@ use Modules\Xot\Filament\Schemas\Components\XotBaseSection;
 /**
  * Controparte in form di {@see \Modules\UI\Filament\Tables\Columns\PersonColumn}.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 use Modules\UI\Filament\Tables\Columns\PersonColumn;
 
 /**
  * Controparte in form di {@see PersonColumn}.
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
  *

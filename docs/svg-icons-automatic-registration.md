@@ -92,6 +92,7 @@ php artisan view:clear
 
 # Test in browser
 <<<<<<< HEAD
+<<<<<<< HEAD
 # http://<nome progetto>.local/it/tests/homepage
 # http://app.local/it/tests/homepage
 =======
@@ -111,6 +112,10 @@ php artisan view:clear
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+# http://<nome progetto>.local/it/tests/homepage
+# http://app.local/it/tests/homepage
 >>>>>>> laraxot/dev
 ```
 
@@ -147,9 +152,13 @@ php artisan view:clear
 
 ### Project Documentation
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [BRANDS_ICONS_INTEGRATION.md](brands-icons-integration.md) - Old (with mistakes)
 =======
 - [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
+>>>>>>> laraxot/dev
+=======
+- [BRANDS_ICONS_INTEGRATION.md](brands-icons-integration.md) - Old (with mistakes)
 >>>>>>> laraxot/dev
 - [BUG_FIX_SOCIAL_ICONS.md](BUG_FIX_SOCIAL_ICONS.md) - Bug fix report
 

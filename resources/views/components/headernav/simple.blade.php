@@ -2,8 +2,11 @@
 
 declare(strict_types=1);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ?>
 <header class="w-full">
@@ -12,9 +15,13 @@ declare(strict_types=1);
             <div class="relative z-50 flex items-center w-auto h-full">
                 <a href="{{ route('home') }}" class="flex items-center mr-0 md:mr-5 shrink-0">
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <img src="{{ asset('assets/predict/img/logo-ft.svg') }}" alt="{{ config('app.name') }}" class="h-8 w-auto" />
 =======
                     <img src="{{ asset('assets/branding/img/logo-ft.svg') }}" alt="{{ config('app.name') }}" class="h-8 w-auto" />
+>>>>>>> laraxot/dev
+=======
+                    <img src="{{ asset('assets/predict/img/logo-ft.svg') }}" alt="{{ config('app.name') }}" class="h-8 w-auto" />
 >>>>>>> laraxot/dev
                 </a>
 
@@ -65,9 +72,13 @@ declare(strict_types=1);
         {{-- Right Menu --}}
         <div class="relative z-50 flex items-stretch space-x-3 text-neutral-800">
 <<<<<<< HEAD
+<<<<<<< HEAD
             @livewire(\Modules\Lang\Filament\Widgets\LanguageSwitcherWidget::class)
 =======
             <livewire:lang.change></livewire:lang.change>
+>>>>>>> laraxot/dev
+=======
+            @livewire(\Modules\Lang\Filament\Widgets\LanguageSwitcherWidget::class)
 >>>>>>> laraxot/dev
             <div x-data class="flex-shrink-0 hidden w-[38px] overflow-hidden rounded-full h-[38px] sm:block" x-cloak>
                 <x-ui.light-dark-switch></x-ui.light-dark-switch>

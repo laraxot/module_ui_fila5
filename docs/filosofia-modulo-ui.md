@@ -82,6 +82,7 @@ Ogni componente è progettato per essere riutilizzato in più moduli senza dupli
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 // InlineDatePicker - Usato in modulo operativo, Employee, Cms
 // LocationSelector - Usato in modulo operativo, Employee, Geo
 =======
@@ -113,6 +114,10 @@ Ogni componente è progettato per essere riutilizzato in più moduli senza dupli
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+// InlineDatePicker - Usato in modulo operativo, Employee, Cms
+// LocationSelector - Usato in modulo operativo, Employee, Geo
 >>>>>>> laraxot/dev
 // IconStateColumn - Usato in tutti i moduli con Spatie ModelStates
 // RadioCollection - Usato per selezioni complesse multimodulo
@@ -425,6 +430,7 @@ Altri moduli consumano componenti UI:
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 // In modulo operativo/Filament/Resources/DeviceResource.php
 =======
 <<<<<<< HEAD
@@ -450,6 +456,9 @@ Altri moduli consumano componenti UI:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+// In modulo operativo/Filament/Resources/DeviceResource.php
 >>>>>>> laraxot/dev
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 use Modules\UI\Filament\Tables\Columns\IconStateColumn;

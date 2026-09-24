@@ -1,14 +1,20 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
+<<<<<<< HEAD
 =======
 <?php
 
 declare(strict_types=1);
 
 ?>
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 @props(['title' => 'Area Personale'])
 

@@ -11,6 +11,7 @@
 ## 🎯 MODULE OVERVIEW
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il modulo **UI** è il sistema di componenti e design system della piattaforma <nome progetto>, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
 =======
 <<<<<<< HEAD
@@ -26,6 +27,9 @@ Il modulo **UI** è il sistema di componenti e design system della piattaforma <
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+Il modulo **UI** è il sistema di componenti e design system della piattaforma <nome progetto>, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
 >>>>>>> laraxot/dev
 
 ### 🏗️ Architettura Modulo

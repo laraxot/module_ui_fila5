@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -17,12 +18,15 @@
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 module: theme
 topic: customizing_your_site
 canonical: ../../../Themes/docs/shared-components/customizing-your-site_1.md
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 See canonical documentation: ../../../Themes/docs/shared-components/customizing-your-site_1.md
 =======
 <<<<<<< HEAD
@@ -39,6 +43,9 @@ See canonical documentation: ../../../Themes/docs/shared-components/customizing-
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+See canonical documentation: ../../../Themes/docs/shared-components/customizing-your-site_1.md
 >>>>>>> laraxot/dev
 title: Customizing Your Site
 description: Customizing your Jigsaw docs site
@@ -104,6 +111,7 @@ class Foo extends bar
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -181,4 +189,6 @@ See canonical documentation: ../../../Themes/docs/shared-components/customizing-
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

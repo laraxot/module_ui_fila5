@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ---
 title: "Chunk"
@@ -30,5 +31,7 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 https://github.com/owainjones74/filament-chunked-file-uploads/tree/main

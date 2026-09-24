@@ -3,6 +3,7 @@
 ## Overview
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo SaluteOra.
@@ -546,6 +547,8 @@ Questi componenti Filament sono stati creati per supportare la selezione geograf
 Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo <nome progetto>.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo <nome progetto>.
 
 ## Componenti Implementati
@@ -632,8 +635,11 @@ protected function getStudioStepSchema(): array
         // Titolo step
         View::make('<nome progetto>::filament.widgets.studio-step-header')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         View::make('<nome progetto>::filament.widgets.studio-step-header')
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             ->viewData([
                 'studiosCount' => $this->getStudiosCount(),
@@ -644,8 +650,11 @@ protected function getStudioStepSchema(): array
         // Pulsanti selezione studio
         View::make('<nome progetto>::filament.widgets.studio-selector')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         View::make('<nome progetto>::filament.widgets.studio-selector')
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             ->viewData([
                 'studios' => $this->getStudiosForSelectedArea(),
@@ -795,8 +804,11 @@ class FindDoctorWidgetStep2Test extends TestCase
 **Stato**: Implementation Ready
 **Approccio**: Pulsanti + TextInput (semplice e diretto)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # Componenti Filament per Location e Studio Selection
 ## Overview
@@ -855,8 +867,11 @@ protected function getStudioStepSchema(): array
         // Titolo step
         View::make('<nome progetto>::filament.widgets.studio-step-header')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         View::make('<nome progetto>::filament.widgets.studio-step-header')
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             ->viewData([
                 'studiosCount' => $this->getStudiosCount(),
@@ -1129,6 +1144,7 @@ class FindDoctorWidgetStep2Test extends TestCase
 **Stato**: Implementation Ready  
 **Approccio**: Pulsanti + TextInput (semplice e diretto) 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 ```
@@ -1152,4 +1168,6 @@ class FindDoctorWidgetStep2Test extends TestCase
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

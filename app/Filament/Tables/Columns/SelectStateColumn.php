@@ -9,8 +9,11 @@ use Illuminate\Support\Arr;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Filament\Tables\Columns\XotBaseSelectColumn;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use ReflectionClass;
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 class SelectStateColumn extends XotBaseSelectColumn
@@ -21,9 +24,13 @@ class SelectStateColumn extends XotBaseSelectColumn
         $this->options(function (Model $record, mixed $state): array {
             $name = $this->getName();
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (null === $state) {
 =======
             if ($state === null) {
+>>>>>>> laraxot/dev
+=======
+            if (null === $state) {
 >>>>>>> laraxot/dev
                 if (! method_exists($record, 'getDefaultStateFor')) {
                     return [];
@@ -62,9 +69,13 @@ class SelectStateColumn extends XotBaseSelectColumn
                     $stateNameProperty = null;
                     try {
 <<<<<<< HEAD
+<<<<<<< HEAD
                         $reflection = new \ReflectionClass($stateClass);
 =======
                         $reflection = new ReflectionClass($stateClass);
+>>>>>>> laraxot/dev
+=======
+                        $reflection = new \ReflectionClass($stateClass);
 >>>>>>> laraxot/dev
                         if ($reflection->hasProperty('name')) {
                             $nameProperty = $reflection->getStaticPropertyValue('name');
@@ -74,9 +85,13 @@ class SelectStateColumn extends XotBaseSelectColumn
                         // Intentionally ignored: fall back to $stateNameProperty === null below.
                     }
 <<<<<<< HEAD
+<<<<<<< HEAD
                     if (null !== $stateNameProperty) {
 =======
                     if ($stateNameProperty !== null) {
+>>>>>>> laraxot/dev
+=======
+                    if (null !== $stateNameProperty) {
 >>>>>>> laraxot/dev
                         $statesValues = array_values($states);
                         /** @var list<int|string> $statesValuesTyped */
@@ -117,10 +132,15 @@ class SelectStateColumn extends XotBaseSelectColumn
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<int|string, mixed> $states
      *
 =======
      * @param  array<int|string, mixed>  $states
+>>>>>>> laraxot/dev
+=======
+     * @param array<int|string, mixed> $states
+     *
 >>>>>>> laraxot/dev
      * @return array<int|string, string>
      */
@@ -132,9 +152,13 @@ class SelectStateColumn extends XotBaseSelectColumn
         );
         $statesValues = array_map(
 <<<<<<< HEAD
+<<<<<<< HEAD
             SafeStringCastAction::cast(...),
 =======
             static fn (mixed $value): string => SafeStringCastAction::cast($value),
+>>>>>>> laraxot/dev
+=======
+            SafeStringCastAction::cast(...),
 >>>>>>> laraxot/dev
             array_values($states),
         );

@@ -9,8 +9,11 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
 use Modules\Xot\Filament\Forms\Components\XotBaseDatePicker;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use RuntimeException;
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 use function Safe\preg_match;
@@ -41,12 +44,18 @@ class InlineDatePicker extends XotBaseDatePicker
     /**
      * Vista Blade per il rendering.
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
      *
      * @phpstan-var view-string
      */
     /** @phpstan-ignore property.defaultValue */
+<<<<<<< HEAD
 =======
      */
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     protected string $view = 'ui::filament.forms.components.inline-date-picker';
 
@@ -67,8 +76,12 @@ class InlineDatePicker extends XotBaseDatePicker
                     $component->currentViewMonth = $date->format('Y-m');
                 } catch (\Exception $e) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     // Handle invalid date
 =======
+>>>>>>> laraxot/dev
+=======
+                    // Handle invalid date
 >>>>>>> laraxot/dev
                     $component->currentViewMonth = now()->format('Y-m');
                 }
@@ -195,8 +208,12 @@ class InlineDatePicker extends XotBaseDatePicker
     public function generateCalendarData(): array
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         // ✅ Validazione di sicurezza - assicura che currentViewMonth sia valido
 =======
+>>>>>>> laraxot/dev
+=======
+        // ✅ Validazione di sicurezza - assicura che currentViewMonth sia valido
 >>>>>>> laraxot/dev
         if (empty($this->currentViewMonth) || ! preg_match('/^\d{4}-\d{2}$/', $this->currentViewMonth)) {
             $this->currentViewMonth = now()->format('Y-m');
@@ -249,9 +266,13 @@ class InlineDatePicker extends XotBaseDatePicker
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $res = [
 =======
         return [
+>>>>>>> laraxot/dev
+=======
+        $res = [
 >>>>>>> laraxot/dev
             'weeks' => $weeks->toArray(),
             'month' => $targetMonth,
@@ -260,10 +281,16 @@ class InlineDatePicker extends XotBaseDatePicker
             'weekdays' => $this->getLocalizedWeekdays(),
         ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         /* @var array<string, mixed> $res */
         return $res;
 =======
+>>>>>>> laraxot/dev
+=======
+
+        /* @var array<string, mixed> $res */
+        return $res;
 >>>>>>> laraxot/dev
     }
 
@@ -277,9 +304,13 @@ class InlineDatePicker extends XotBaseDatePicker
         $calendarData = $this->generateCalendarData();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $res = array_merge(parent::getViewData(), [
 =======
         return array_merge(parent::getViewData(), [
+>>>>>>> laraxot/dev
+=======
+        $res = array_merge(parent::getViewData(), [
 >>>>>>> laraxot/dev
             'calendarData' => $calendarData,
             'currentViewMonth' => $this->currentViewMonth,
@@ -291,10 +322,16 @@ class InlineDatePicker extends XotBaseDatePicker
             'weekdays' => $calendarData['weekdays'],
         ]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         /* @var array<string, mixed> $res */
         return $res;
 =======
+>>>>>>> laraxot/dev
+=======
+
+        /* @var array<string, mixed> $res */
+        return $res;
 >>>>>>> laraxot/dev
     }
 
@@ -312,9 +349,13 @@ class InlineDatePicker extends XotBaseDatePicker
             $dayCarbon = $monday->copy()->addDays($i)->locale(App::getLocale());
             if (! $dayCarbon instanceof Carbon) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 throw new \RuntimeException('Expected Carbon instance');
 =======
                 throw new RuntimeException('Expected Carbon instance');
+>>>>>>> laraxot/dev
+=======
+                throw new \RuntimeException('Expected Carbon instance');
 >>>>>>> laraxot/dev
             }
             $shortDay = $dayCarbon->shortLocaleDayOfWeek;

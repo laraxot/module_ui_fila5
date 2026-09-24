@@ -119,9 +119,13 @@ class RadioCardSelector extends XotBaseField
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @param array<mixed, mixed>     $item
 =======
      * @param array<array-key, mixed> $item
+>>>>>>> laraxot/dev
+=======
+     * @param array<mixed, mixed>     $item
 >>>>>>> laraxot/dev
      *
      * @return array<string, mixed>

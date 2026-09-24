@@ -2,8 +2,11 @@
 
 declare(strict_types=1);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 /**
  * @see https://filamentphp.com/docs/3.x/forms/fields/types
@@ -19,9 +22,13 @@ use Modules\Xot\Traits\EnumTrait;
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
  * Filament form field types supported by the UI module.
 =======
  * Defines the different types of appointments in the system.
+>>>>>>> laraxot/dev
+=======
+ * Filament form field types supported by the UI module.
 >>>>>>> laraxot/dev
  *
  * @method static self        fromName(string $name)

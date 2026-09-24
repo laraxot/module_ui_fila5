@@ -7,6 +7,9 @@ declare(strict_types=1);
 // Canon: Modules/UI/docs/wiki/concepts/claude-audit-static.md
 // File: lang/it/opening_hours_field_sections.php
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 return array (
   'sections' => 
   array (
@@ -22,6 +25,7 @@ return array (
     ),
   ),
 );
+<<<<<<< HEAD
 =======
 return [
     'sections' => [
@@ -35,4 +39,6 @@ return [
         ],
     ],
 ];
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

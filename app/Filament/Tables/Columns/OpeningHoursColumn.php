@@ -7,14 +7,20 @@ namespace Modules\UI\Filament\Tables\Columns;
 use Filament\Tables\Columns\TextColumn;
 use Modules\UI\Actions\Datetime\GetDaysMappingAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 use Modules\UI\Filament\Forms\Components\OpeningHoursField;
 
 /**
  * Controparte in lista di {@see OpeningHoursField}.
+<<<<<<< HEAD
 =======
 
 /**
  * Controparte in lista di {@see \Modules\UI\Filament\Forms\Components\OpeningHoursField}.
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
  *
  * Stesso fatto di dominio (orari settimanali per fascia mattina/pomeriggio), due
@@ -63,18 +69,26 @@ class OpeningHoursColumn extends TextColumn
 
             $abbrev = mb_substr($dayLabel, 0, 3);
 <<<<<<< HEAD
+<<<<<<< HEAD
             $parts[] = [] === $slots
 =======
             $parts[] = $slots === []
+>>>>>>> laraxot/dev
+=======
+            $parts[] = [] === $slots
 >>>>>>> laraxot/dev
                 ? "{$abbrev} chiuso"
                 : $abbrev.' '.implode(', ', $slots);
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return [] === $parts ? '—' : implode(' · ', $parts);
 =======
         return $parts === [] ? '—' : implode(' · ', $parts);
+>>>>>>> laraxot/dev
+=======
+        return [] === $parts ? '—' : implode(' · ', $parts);
 >>>>>>> laraxot/dev
     }
 

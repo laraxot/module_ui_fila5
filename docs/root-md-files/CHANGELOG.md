@@ -2,6 +2,7 @@
 
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
@@ -31,4 +32,6 @@ related:
   - "./custom-firm-fields.md"
 
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

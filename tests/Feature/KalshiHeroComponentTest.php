@@ -20,8 +20,11 @@ function makeKalshiView(array $data = []): \Illuminate\Contracts\View\View
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 beforeEach(function () {
     /* @var \Modules\UI\Tests\TestCase $this */

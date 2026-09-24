@@ -2,8 +2,11 @@
 
 declare(strict_types=1);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ?>
 <div class="flex gap-2 justify-center">

@@ -14,10 +14,14 @@ uses(TestCase::class);
 describe('Component', function (): void {
     test('ui components can be rendered', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $component = new class extends Component {
 =======
         $component = new class extends Component
         {
+>>>>>>> laraxot/dev
+=======
+        $component = new class extends Component {
 >>>>>>> laraxot/dev
             public function render(): View
             {

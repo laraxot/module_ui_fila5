@@ -24,9 +24,13 @@ uses(TestCase::class);
 
 afterEach(function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
     \Mockery::close();
 =======
     Mockery::close();
+>>>>>>> laraxot/dev
+=======
+    \Mockery::close();
 >>>>>>> laraxot/dev
 });
 

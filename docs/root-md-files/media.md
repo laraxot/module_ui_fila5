@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ---
 title: "Media"
@@ -30,6 +31,8 @@ related:
   - "./ci.md"
 ---
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 https://naxon.dev/blog/laravel-media-library-load-only-1st-picture-efficiently
 

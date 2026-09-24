@@ -6,10 +6,14 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "icon-system ui module icon system"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
@@ -23,6 +27,8 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 related:
 ---
@@ -112,6 +118,7 @@ Tables\Columns\IconColumn::make('status')
 Each module registers its own SVG icons:
 - `Modules/User/resources/svg/` → `user-{name}`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
 - `resources/svg/` → `{name}`
 =======
@@ -138,6 +145,10 @@ Each module registers its own SVG icons:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
+- `resources/svg/` → `{name}`
 >>>>>>> laraxot/dev
 - etc.
 

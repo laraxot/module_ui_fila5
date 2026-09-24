@@ -11,6 +11,7 @@
 ## Panoramica
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
 =======
 <<<<<<< HEAD
@@ -47,11 +48,15 @@ Il modulo UI di SaluteOra include una vasta collezione di SVG di bandiere nazion
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Il modulo UI di <nome progetto> include una vasta collezione di SVG di bandiere nazionali che possono essere utilizzati come componenti Blade. Questi componenti sono autoregistrati e possono essere facilmente integrati in qualsiasi parte dell'applicazione, incluso il selettore di lingue nell'header.
+>>>>>>> laraxot/dev
 
 ## Struttura dei Componenti Bandiera
 
 I file SVG delle bandiere sono archiviati in:
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 Modules/UI/resources/svg/flags/
 =======
@@ -88,6 +93,9 @@ Modules/UI/resources/svg/flags/
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+Modules/UI/resources/svg/flags/
 >>>>>>> laraxot/dev
 ```
 
@@ -139,6 +147,7 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -151,11 +160,14 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 <x-ui-flags.it
     class="h-6 w-6 rounded-full shadow-sm"
     title="Italiano"
     aria-label="Seleziona lingua italiana"
+<<<<<<< HEAD
 <<<<<<< HEAD
     class="h-6 w-6 rounded-full shadow-sm"
     title="Italiano"
@@ -181,10 +193,16 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    class="h-6 w-6 rounded-full shadow-sm"
+    title="Italiano"
+    aria-label="Seleziona lingua italiana"
+>>>>>>> laraxot/dev
 <x-ui-flags.it 
     class="h-6 w-6 rounded-full shadow-sm" 
     title="Italiano" 
     aria-label="Seleziona lingua italiana" 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -198,6 +216,8 @@ I componenti SVG supportano tutti gli attributi HTML standard, inclusi:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 />
 ```
@@ -265,6 +285,7 @@ Le bandiere devono essere utilizzate come icone Filament:
 3. **Prestazioni**: Gli SVG sono leggeri e non richiedono richieste HTTP aggiuntive
 4. **Accessibilità**: Possibilità di aggiungere attributi di accessibilità
 <<<<<<< HEAD
+<<<<<<< HEAD
 5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>corrente
 =======
 <<<<<<< HEAD
@@ -287,6 +308,9 @@ Le bandiere devono essere utilizzate come icone Filament:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>corrente
 >>>>>>> laraxot/dev
 5. **Coerenza**: Utilizzo di componenti nativi di
 5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
@@ -481,6 +505,7 @@ Le bandiere devono essere utilizzate come icone Filament:
 4. **Accessibilità**: Possibilità di aggiungere attributi di accessibilità
 5. **Coerenza**: Utilizzo di componenti nativi di <nome progetto>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -496,6 +521,8 @@ Le bandiere devono essere utilizzate come icone Filament:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ## Bandiere Disponibili
@@ -553,6 +580,7 @@ Per visualizzare correttamente le bandiere, è necessario:
 ## Conclusione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 L'utilizzo dei componenti SVG delle bandiere del modulo UI è il modo più efficace per rendere il selettore di lingue nell'header più accattivante e visibile. Questi componenti sono già integrati  e possono essere facilmente utilizzati in qualsiasi parte dell'applicazione.
 =======
 <<<<<<< HEAD
@@ -578,4 +606,7 @@ L'utilizzo dei componenti SVG delle bandiere del modulo UI è il modo più effic
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+L'utilizzo dei componenti SVG delle bandiere del modulo UI è il modo più efficace per rendere il selettore di lingue nell'header più accattivante e visibile. Questi componenti sono già integrati  e possono essere facilmente utilizzati in qualsiasi parte dell'applicazione.
 >>>>>>> laraxot/dev

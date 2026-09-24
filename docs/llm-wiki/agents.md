@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # UI {{TYPE^}} LLM Wiki Agent Instructions
 
@@ -26,6 +29,7 @@ You are the **UI Wiki Maintainer**. Your job is to:
 
 ```yaml
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 <<<<<<< HEAD
@@ -42,6 +46,8 @@ You are the **UI Wiki Maintainer**. Your job is to:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ---
 title: "Page Title"
@@ -167,6 +173,7 @@ Related:
 ## Contenuto assorbito da `agents.md`
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -181,6 +188,8 @@ Related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # UI {{TYPE^}} LLM Wiki Agent Instructions
 
@@ -321,6 +330,7 @@ Related:
 
 - [Project Wiki Integration](../../docs/wiki/README.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
 - [Module Documentation](../README.md)
 =======
@@ -349,4 +359,8 @@ Related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+- [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
+- [Module Documentation](../README.md)
 >>>>>>> laraxot/dev

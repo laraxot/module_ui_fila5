@@ -20,6 +20,7 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -47,6 +48,8 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     case LIST = 'list';
     case GRID = 'grid';
@@ -165,6 +168,7 @@ enum MyEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -192,6 +196,8 @@ enum MyEnum: string implements HasColor, HasIcon, HasLabel
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     case VALUE1 = 'value1';
     case VALUE2 = 'value2';
@@ -345,6 +351,7 @@ rules:
 ## Memoria Permanente
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **RICORDA SEMPRE**:
 =======
 <<<<<<< HEAD
@@ -371,6 +378,9 @@ rules:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+**RICORDA SEMPRE**:
+>>>>>>> laraxot/dev
 - SEMPRE `TransTrait` negli enum
 - SEMPRE `transClass()` per traduzioni
 - MAI `match()` per traduzioni
@@ -378,6 +388,7 @@ rules:
 - SEMPRE sincronizzazione IT/EN/DE
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 *Ultimo aggiornamento: 2025-01-06* 
@@ -395,6 +406,8 @@ rules:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 *Ultimo aggiornamento: 2025-01-06*
 # REGOLA CRITICA: Usa SEMPRE transClass() negli Enum
@@ -552,6 +565,7 @@ rules:
 - SEMPRE struttura espansa nelle traduzioni
 - SEMPRE sincronizzazione IT/EN/DE
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -572,4 +586,6 @@ rules:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

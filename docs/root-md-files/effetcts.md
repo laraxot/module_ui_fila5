@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ---
 title: "Effetcts"
@@ -30,6 +31,8 @@ related:
   - "./ci.md"
 ---
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 https://mridul2820.github.io/css-js/
 

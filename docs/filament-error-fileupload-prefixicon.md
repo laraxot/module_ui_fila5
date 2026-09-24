@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -16,11 +17,14 @@
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: filament_error_fileupload_prefixicon
 canonical: ../../../Themes/docs/shared-components/filament-error-fileupload-prefixicon_1.md
 ---
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -38,6 +42,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/filament-err
 >>>>>>> laraxot/dev
 # Errore UI: Uso di `prefixIcon` su FileUpload di Filament
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 See canonical documentation: ../../../Themes/docs/shared-components/filament-error-fileupload-prefixicon_1.md
@@ -67,6 +73,7 @@ Se serve un’icona, usare solo i metodi previsti dalla documentazione Filament.
 - Questo errore si è manifestato nel modulo Patient: vedere [Patient/project_docs/filament-error-fileupload-prefixicon.md](../../Patient/project_docs/filament-error-fileupload-prefixicon.md)
 * [filament-error-fileupload-prefixicon.md](../../Patient/project_docs/filament-error-fileupload-prefixicon.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -82,4 +89,6 @@ See canonical documentation: ../../../Themes/docs/shared-components/filament-err
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

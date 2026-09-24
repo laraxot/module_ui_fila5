@@ -6,8 +6,11 @@ namespace Modules\UI\Tests\Unit\Helpers;
 
 use Modules\Cms\Actions\ResolveLocalizedBlockDataAction;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use ReflectionClass;
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 /**
@@ -18,11 +21,16 @@ final class UiCoverageMissHelpers
     public static function prop(object $target, string $name): mixed
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $ref = new \ReflectionClass($target);
         while (false !== $ref) {
 =======
         $ref = new ReflectionClass($target);
         while ($ref !== false) {
+>>>>>>> laraxot/dev
+=======
+        $ref = new \ReflectionClass($target);
+        while (false !== $ref) {
 >>>>>>> laraxot/dev
             if ($ref->hasProperty($name)) {
                 $prop = $ref->getProperty($name);
@@ -39,11 +47,16 @@ final class UiCoverageMissHelpers
     public static function set(object $target, string $name, mixed $value): void
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
         $ref = new \ReflectionClass($target);
         while (false !== $ref) {
 =======
         $ref = new ReflectionClass($target);
         while ($ref !== false) {
+>>>>>>> laraxot/dev
+=======
+        $ref = new \ReflectionClass($target);
+        while (false !== $ref) {
 >>>>>>> laraxot/dev
             if ($ref->hasProperty($name)) {
                 $prop = $ref->getProperty($name);
@@ -83,7 +96,11 @@ class ResolveLocalizedBlockDataAction
 PHP);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> laraxot/dev
 =======
 }
 >>>>>>> laraxot/dev

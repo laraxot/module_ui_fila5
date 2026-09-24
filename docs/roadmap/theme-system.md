@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -13,6 +14,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ---
 title: "Sistema di Theming"
@@ -34,6 +37,7 @@ related:
   - "./03-later.md"
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -52,6 +56,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # Sistema di Theming
 
@@ -90,6 +96,7 @@ class ThemeRegistry
     /** @var array<string, Theme> */
     protected array $themes = [];
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -107,11 +114,14 @@ class ThemeRegistry
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     
     /** @var array<string, array<string, mixed>> */
     protected array $overrides = [];
     
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -124,11 +134,14 @@ class ThemeRegistry
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
     /** @var array<string, array<string, mixed>> */
     protected array $overrides = [];
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -144,12 +157,15 @@ class ThemeRegistry
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     public function register(Theme $theme): void
     {
         $this->themes[$theme->getName()] = $theme;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -177,6 +193,8 @@ class ThemeRegistry
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     public function override(string $tenant, array $config): void
     {
@@ -195,6 +213,7 @@ class Theme
         protected ?string $parent = null
     ) {}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -222,12 +241,15 @@ class Theme
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     public function resolve(string $path, $default = null)
     {
         return Arr::get($this->config, $path, $default);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -255,6 +277,8 @@ class Theme
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     public function extend(array $overrides): self
     {
@@ -424,6 +448,7 @@ class ThemeCompiler
 3. Ottimizzare caching
 4. Aggiungere theme builder
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 5. Migliorare documentazione 
@@ -441,6 +466,8 @@ class ThemeCompiler
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 5. Migliorare documentazione
 # Sistema di Theming
@@ -597,6 +624,7 @@ class ThemeCompiler
 3. Ottimizzare caching
 4. Aggiungere theme builder
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -616,4 +644,6 @@ class ThemeCompiler
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

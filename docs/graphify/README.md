@@ -68,8 +68,11 @@ For more information about this module, see:
 - [Module Structure Guidelines](../../../../docs/wiki/rules/module-structure.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 [![Module](https://img.shields.io/badge/Module-Graphify Knowledge Graph-8B0000.svg)]()
 [![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
@@ -104,7 +107,10 @@ Core module for the FixCity Platform.
 
 **Modulo** `UI` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

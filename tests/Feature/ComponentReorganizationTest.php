@@ -3,9 +3,14 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\UI\Tests\Feature;
 
 =======
+>>>>>>> laraxot/dev
+=======
+namespace Modules\UI\Tests\Feature;
+
 >>>>>>> laraxot/dev
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\View;
@@ -124,9 +129,13 @@ describe('Component Rendering Tests', function (): void {
                 'value' => 'test-value',
             ])->render();
 <<<<<<< HEAD
+<<<<<<< HEAD
         } catch (\Throwable $e) {
 =======
         } catch (Throwable $e) {
+>>>>>>> laraxot/dev
+=======
+        } catch (\Throwable $e) {
 >>>>>>> laraxot/dev
             Assert::markTestSkipped('pub_theme input view not renderable: '.$e->getMessage());
         }
@@ -146,9 +155,13 @@ describe('Component Rendering Tests', function (): void {
                 'type' => 'button',
             ])->render();
 <<<<<<< HEAD
+<<<<<<< HEAD
         } catch (\Throwable $e) {
 =======
         } catch (Throwable $e) {
+>>>>>>> laraxot/dev
+=======
+        } catch (\Throwable $e) {
 >>>>>>> laraxot/dev
             Assert::markTestSkipped('pub_theme button view not renderable: '.$e->getMessage());
         }
@@ -169,9 +182,13 @@ describe('Component Rendering Tests', function (): void {
                 'subtitle' => 'Test Subtitle',
             ])->render();
 <<<<<<< HEAD
+<<<<<<< HEAD
         } catch (\Throwable $e) {
 =======
         } catch (Throwable $e) {
+>>>>>>> laraxot/dev
+=======
+        } catch (\Throwable $e) {
 >>>>>>> laraxot/dev
             Assert::markTestSkipped('pub_theme card view not renderable: '.$e->getMessage());
         }
@@ -209,9 +226,13 @@ describe('Component Integration Tests', function (): void {
         try {
             Blade::render($testView);
 <<<<<<< HEAD
+<<<<<<< HEAD
         } catch (\Throwable $e) {
 =======
         } catch (Throwable $e) {
+>>>>>>> laraxot/dev
+=======
+        } catch (\Throwable $e) {
 >>>>>>> laraxot/dev
             Assert::markTestSkipped('Blade component integration not renderable in this install: '.$e->getMessage());
         }

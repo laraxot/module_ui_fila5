@@ -62,6 +62,7 @@ Forms\Components\FileUpload::make('certifications')
 ## Vedi Anche
 - [Filament FileUpload Documentation](https://filamentphp.com/docs/forms/fields#file-upload)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - [Best Practices](../../Xot/docs/filament-best-practices.md) 
@@ -79,6 +80,8 @@ Forms\Components\FileUpload::make('certifications')
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [Best Practices](../../Xot/docs/filament-best-practices.md)
 # Componenti FileUpload in Filament
@@ -126,6 +129,7 @@ Forms\Components\FileUpload::make('certifications')
    - Fornire feedback di progresso
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -142,12 +146,15 @@ Forms\Components\FileUpload::make('certifications')
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 - [README](../../Patient/project_docs/README.md)
 - [Filament Resources](../../Patient/project_docs/filament-resources.md)
 - [Form Components](../../Patient/project_docs/filament-form-components.md)
 
 ## Vedi Anche
 - [Filament FileUpload Documentation](https://filamentphp.com/project_docs/forms/fields#file-upload)
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Best Practices](../../Xot/project_docs/filament-best-practices.md)
 =======
@@ -174,4 +181,7 @@ Forms\Components\FileUpload::make('certifications')
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+- [Best Practices](../../Xot/project_docs/filament-best-practices.md)
 >>>>>>> laraxot/dev

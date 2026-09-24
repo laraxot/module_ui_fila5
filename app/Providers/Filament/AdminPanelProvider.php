@@ -8,6 +8,9 @@ use Filament\Panel;
 use Modules\Xot\Providers\Filament\XotBasePanelProvider;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 class AdminPanelProvider extends XotBasePanelProvider
 {
     protected string $module = 'UI';
@@ -15,6 +18,7 @@ class AdminPanelProvider extends XotBasePanelProvider
     public function panel(Panel $panel): Panel
     {
         return parent::panel($panel);
+<<<<<<< HEAD
 =======
 // use LaraZeus\Bolt\BoltPlugin;
 
@@ -45,6 +49,8 @@ class AdminPanelProvider extends XotBasePanelProvider
          *
          * $panel->plugins($plugins);
          */
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     }
 }

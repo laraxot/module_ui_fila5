@@ -7,8 +7,11 @@ namespace Modules\UI\Filament\Forms\Components;
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasLabel;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use InvalidArgumentException;
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 use Modules\Xot\Filament\Forms\Components\XotBaseSelect;
 
@@ -204,17 +207,23 @@ final class EnumSelect extends XotBaseSelect
     {
         if (! enum_exists($enumClass)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
             throw new \InvalidArgumentException("Enum class [{$enumClass}] does not exist.");
         }
 
         if (! is_subclass_of($enumClass, \BackedEnum::class)) {
             throw new \InvalidArgumentException("Enum class [{$enumClass}] must be a backed enum.");
+<<<<<<< HEAD
 =======
             throw new InvalidArgumentException("Enum class [{$enumClass}] does not exist.");
         }
 
         if (! is_subclass_of($enumClass, \BackedEnum::class)) {
             throw new InvalidArgumentException("Enum class [{$enumClass}] must be a backed enum.");
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         }
     }

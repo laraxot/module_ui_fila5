@@ -138,6 +138,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 ## Collegamenti Bidirezionali
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Documentazione Componenti Filament](../../../../docs/filament/components.md)
 =======
 <<<<<<< HEAD
@@ -167,6 +168,9 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [Documentazione Componenti Filament](../../../../docs/filament/components.md)
 >>>>>>> laraxot/dev
 - [Best Practices UI](../../best-practices.md)
 - [Errori Comuni UI](../../common-errors.md)
@@ -198,6 +202,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 1. La documentazione degli errori UI deve essere sempre in `Modules/UI/docs/`
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
+<<<<<<< HEAD
 <<<<<<< HEAD
 4. Aggiornare la documentazione quando vengono scoperti nuovi errori
 =======
@@ -349,4 +354,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+4. Aggiornare la documentazione quando vengono scoperti nuovi errori
 >>>>>>> laraxot/dev

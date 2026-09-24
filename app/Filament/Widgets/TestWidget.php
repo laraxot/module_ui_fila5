@@ -13,9 +13,13 @@ final class TestWidget extends XotBaseSchemaWidget
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<int|string, Component>
 =======
      * @return array<string, Component>
+>>>>>>> laraxot/dev
+=======
+     * @return array<int|string, Component>
 >>>>>>> laraxot/dev
      */
     public function getFormSchema(): array

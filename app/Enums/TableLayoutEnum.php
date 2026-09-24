@@ -83,6 +83,9 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 /**
       * Get the appropriate table columns for this layout type.
       *
@@ -94,6 +97,9 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
       *
       * @return array<int|string, Column|ColumnGroup|Component>
       */
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
     /**
@@ -103,6 +109,9 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
      * parameter passing for better type safety and testability.
      *
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
      *
      * @param array<Column|ColumnGroup|Component>             $listColumns Columns for list layout
      * @param array<Column|ColumnGroup|Component>             $gridColumns Columns for grid layout
@@ -110,9 +119,12 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
      * @param array<int|string, Column|ColumnGroup|Component> $gridColumns Columns for grid layout
      * @param array<Column|ColumnGroup|Component>             $listColumns Columns for list layout
      * @param array<Column|ColumnGroup|Component>             $gridColumns Columns for grid layout
+<<<<<<< HEAD
 =======
      * @param array<Column|ColumnGroup|Component> $listColumns Columns for list layout
      * @param array<Column|ColumnGroup|Component> $gridColumns Columns for grid layout
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
      *
      * @return array<Column|ColumnGroup|Component>

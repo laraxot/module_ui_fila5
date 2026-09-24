@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ---
 title: "Qrcode"
@@ -30,6 +31,8 @@ related:
   - "./ci.md"
 ---
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 https://github.com/tecnickcom/TCPDF
 

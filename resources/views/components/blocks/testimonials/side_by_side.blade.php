@@ -2,8 +2,11 @@
 
 declare(strict_types=1);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ?>
 <section class="bg-white py-24 sm:py-32">

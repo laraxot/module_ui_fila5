@@ -4,6 +4,7 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 ### Versione HEAD
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Versione Incoming
 
 =======
@@ -25,10 +26,15 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+### Versione Incoming
+
+>>>>>>> laraxot/dev
 
 ### Versione Incoming
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ### Versione Incoming
 =======
@@ -50,6 +56,9 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+### Versione Incoming
 >>>>>>> laraxot/dev
 ## Collegamenti tra versioni di PROMPT_RULES_LINK.md
 * [PROMPT_RULES_LINK.md](../../../UI/docs/PROMPT_RULES_LINK.md)
@@ -57,6 +66,7 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 * [PROMPT_RULES_LINK.md](../../../Cms/docs/PROMPT_RULES_LINK.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -71,6 +81,8 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ## Collegamenti tra versioni di prompt_rules_link.md
 * [prompt_rules_link.md](../../Lang/docs/prompt_rules_link.md)
@@ -89,6 +101,7 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 * [PROMPT_RULES_LINK.md](../../../Lang/docs/PROMPT_RULES_LINK.md)
 * [PROMPT_RULES_LINK.md](../../../Cms/docs/PROMPT_RULES_LINK.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -103,6 +116,8 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ## Collegamenti tra versioni di prompt_rules_link.md
@@ -110,6 +125,7 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 * [prompt_rules_link.md](../../Cms/docs/prompt_rules_link.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ---
 ---
 =======
@@ -143,4 +159,8 @@ Per le regole sui prompt, fare riferimento a [Regole Prompt nel modulo Xot](../.
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+---
+---
 >>>>>>> laraxot/dev
