@@ -35,25 +35,6 @@ class CustomComponent extends Component
     // Proprietà pubbliche con type hint
     public string $label;
     public ?string $hint = null;
-<<<<<<< .merge_file_0OO1Dp
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_oaxtFH
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_KH9kIJ
-    
-    // Proprietà private per stato interno
-    private bool $isLoading = false;
-    
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_oaxtFH
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_KH9kIJ
->>>>>>> .merge_file_i1iGAn
 
     // Proprietà private per stato interno
     private bool $isLoading = false;
@@ -93,26 +74,6 @@ class CustomComponent extends Component
     &__header { }
     &__content { }
     &__footer { }
-<<<<<<< .merge_file_0OO1Dp
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_oaxtFH
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_KH9kIJ
-    
-    // Stati
-    &--loading { }
-    &--disabled { }
-    
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_oaxtFH
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_KH9kIJ
->>>>>>> .merge_file_i1iGAn
 
     // Stati
     &--loading { }
@@ -285,28 +246,6 @@ class AdvancedForm extends Component
 * [best-practices.md](../../../UI/docs/best-practices.md)
 * [best-practices.md](../../../../Themes/One/docs/best-practices.md)
 
-<<<<<<< .merge_file_0OO1Dp
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_oaxtFH
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_KH9kIJ
-
-### Versione Incoming
-
-- Breaking changes 
-
----
-
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_oaxtFH
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_KH9kIJ
->>>>>>> .merge_file_i1iGAn
 ### Versione Incoming
 
 - Breaking changes

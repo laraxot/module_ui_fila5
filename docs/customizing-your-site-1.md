@@ -82,27 +82,6 @@ class Foo extends bar
 * [customizing-your-site.md](../../../Tenant/docs/it/customizing-your-site.md)
 * [customizing-your-site.md](../../../Cms/docs/customizing-your-site.md)
 
-<<<<<<< .merge_file_0jSiXl
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_lMLzvU
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_wFfa7M
-
-### Versione Incoming
-
-
----
-
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_lMLzvU
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_wFfa7M
->>>>>>> .merge_file_PwhdB5
 ### Versione Incoming
 
 ---

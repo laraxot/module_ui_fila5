@@ -1,20 +1,5 @@
 # PHPStan Level 10 Errors Roadmap - UI Module
 
-<<<<<<< .merge_file_Z3ICXf
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_JiE8Dp
-**Data**: 2026-01-09  
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
-**Data**: 2026-01-09  
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_lfnKX8
->>>>>>> .merge_file_cknncY
 **Modulo**: UI  
 **Livello PHPStan**: 10  
 **Status**: 🧘 **IN ANALISI**
@@ -128,18 +113,3 @@
 **Status**: 🧘 **IN ANALISI**
 
 **Ultimo aggiornamento**: [DATE]
-<<<<<<< .merge_file_Z3ICXf
-=======
-=======
-<<<<<<< .merge_file_JiE8Dp
-**Ultimo aggiornamento**: 2026-01-09
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-**Ultimo aggiornamento**: [DATE]
-=======
-**Ultimo aggiornamento**: 2026-01-09
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_lfnKX8
->>>>>>> .merge_file_cknncY

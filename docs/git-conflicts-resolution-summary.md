@@ -45,52 +45,9 @@ Tutti i file risolti rispettano:
 
 ## Collegamenti
 
-<<<<<<< .merge_file_Wl0IGK
 - [Documentazione Root UI](../../../docs/modules/ui.md)
 - [Components Documentation](./components.md)
 - [Design System Guidelines](../../../docs/design-system.md)
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_ZWFJuS
-=======
-<<<<<<< .merge_file_s4T8Rp
->>>>>>> .merge_file_uk1LgX
-- [Documentazione Root UI](../../../../docs/modules/ui.md)
-- [Components Documentation](./components.md)
-- [Design System Guidelines](../../../../docs/design-system.md)
-=======
-<<<<<<< .merge_file_ZWFJuS
-- [Documentazione Root UI](../../../docs/modules/ui.md)
-- [Components Documentation](./components.md)
-- [Design System Guidelines](../../../docs/design-system.md)
-=======
-<<<<<<< HEAD
-- [Documentazione Root UI](../../../docs/modules/ui.md)
-- [Components Documentation](./components.md)
-- [Design System Guidelines](../../../docs/design-system.md)
-=======
-<<<<<<< HEAD
-- [Documentazione Root UI](../../../../docs/modules/ui.md)
-- [Components Documentation](./components.md)
-- [Design System Guidelines](../../../../docs/design-system.md)
-=======
-- [Documentazione Root UI](../../../docs/modules/ui.md)
-- [Components Documentation](./components.md)
-- [Design System Guidelines](../../../docs/design-system.md)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- [Documentazione Root UI](../../../docs/modules/ui.md)
-- [Components Documentation](./components.md)
-- [Design System Guidelines](../../../docs/design-system.md)
-=======
-- [Documentazione Root UI](../../../../docs/modules/ui.md)
-- [Components Documentation](./components.md)
-- [Design System Guidelines](../../../../docs/design-system.md)
->>>>>>> .merge_file_PWu1IH
->>>>>>> .merge_file_uk1LgX
->>>>>>> laraxot/dev
->>>>>>> .merge_file_hLoY8V
 
 ---
 *Aggiornato automaticamente dopo risoluzione conflitti Git*

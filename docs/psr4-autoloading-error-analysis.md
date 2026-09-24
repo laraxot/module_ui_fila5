@@ -1,34 +1,6 @@
 # PSR-4 Autoloading Error Analysis and Resolution Plan
 
-<<<<<<< .merge_file_dWGBvy
 **Date**: 2025-12-15
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_PI2Vtq
-**Date**: [DATE]
-=======
-**Date**: 2025-12-15
-=======
-<<<<<<< .merge_file_zxG6Ix
-**Date**: [DATE]
-=======
-<<<<<<< HEAD
-**Date**: 2025-12-15
-=======
-<<<<<<< HEAD
-**Date**: [DATE]
-=======
-**Date**: 2025-12-15
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-**Date**: 2025-12-15
-=======
-**Date**: [DATE]
->>>>>>> .merge_file_RPcte6
->>>>>>> .merge_file_FMXEQm
->>>>>>> laraxot/dev
->>>>>>> .merge_file_Ixzfk6
 **Status**: Analysis Complete, Implementation Pending
 **Related Errors**: `composer dumpautoload -o` PSR-4 compliance warnings
 

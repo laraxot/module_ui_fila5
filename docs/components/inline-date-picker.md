@@ -1,20 +1,3 @@
-<<<<<<< .merge_file_R6jL5S
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_tfywSx
-=======
-=======
-<<<<<<< .merge_file_HKSI0J
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_7kxXlI
->>>>>>> .merge_file_7ASB4r
->>>>>>> .merge_file_iv1uQQ
 ---
 title: "InlineDatePicker Component"
 type: concept
@@ -22,36 +5,10 @@ tags: [inline, date, picker]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "inline-date-picker inlinedatepicker component"
-<<<<<<< .merge_file_R6jL5S
-=======
-<<<<<<< .merge_file_tfywSx
-=======
-<<<<<<< .merge_file_HKSI0J
->>>>>>> .merge_file_7ASB4r
-<<<<<<< HEAD
->>>>>>> .merge_file_iv1uQQ
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-<<<<<<< .merge_file_R6jL5S
-=======
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_tfywSx
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_7kxXlI
->>>>>>> .merge_file_7ASB4r
->>>>>>> .merge_file_iv1uQQ
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -63,23 +20,6 @@ related:
   - "./full-calendar-1.md"
 ---
 
-<<<<<<< .merge_file_R6jL5S
-=======
-<<<<<<< .merge_file_tfywSx
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_HKSI0J
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_7kxXlI
->>>>>>> .merge_file_7ASB4r
->>>>>>> .merge_file_iv1uQQ
 # InlineDatePicker Component
 
 ## Overview

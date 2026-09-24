@@ -1,20 +1,3 @@
-<<<<<<< .merge_file_tXdAl3
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_ftO6ZR
-=======
-=======
-<<<<<<< .merge_file_jsgvya
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_mvC1gy
->>>>>>> .merge_file_QU5G0C
->>>>>>> .merge_file_uFUa5V
 ---
 title: "RadioCollection Component: Analisi Ontologica e Fenomenologica"
 type: concept
@@ -22,36 +5,10 @@ tags: [radio, collection, component]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "radio-collection-component radiocollection component: analisi ontologica e fenomenologica"
-<<<<<<< .merge_file_tXdAl3
-=======
-<<<<<<< .merge_file_ftO6ZR
-=======
-<<<<<<< .merge_file_jsgvya
->>>>>>> .merge_file_QU5G0C
-<<<<<<< HEAD
->>>>>>> .merge_file_uFUa5V
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-<<<<<<< .merge_file_tXdAl3
-=======
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_ftO6ZR
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_mvC1gy
->>>>>>> .merge_file_QU5G0C
->>>>>>> .merge_file_uFUa5V
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -63,23 +20,6 @@ related:
   - "./full-calendar-1.md"
 ---
 
-<<<<<<< .merge_file_tXdAl3
-=======
-<<<<<<< .merge_file_ftO6ZR
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_jsgvya
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_mvC1gy
->>>>>>> .merge_file_QU5G0C
->>>>>>> .merge_file_uFUa5V
 # RadioCollection Component: Analisi Ontologica e Fenomenologica
 
 ## 🎭 Filosofia & Epistemologia del Componente
