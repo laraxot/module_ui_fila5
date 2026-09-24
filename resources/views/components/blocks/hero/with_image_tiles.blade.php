@@ -1,40 +1,7 @@
-<<<<<<< .merge_file_W8rSjt
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_d1CZJv
-<?php
-
-declare(strict_types=1);
-?>
 <div class="bg-white">
     <header class="absolute inset-x-0 top-0 z-50">
       <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">

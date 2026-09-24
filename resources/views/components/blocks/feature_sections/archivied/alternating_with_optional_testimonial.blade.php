@@ -1,10 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< .merge_file_OpXEVE
 
-=======
->>>>>>> .merge_file_BWDrkG
 ?>
 <div class="relative overflow-hidden bg-white pb-32 pt-16">
     <div class="relative">

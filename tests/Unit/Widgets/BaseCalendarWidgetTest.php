@@ -17,21 +17,7 @@ uses(TestCase::class);
 
 function createTestCalendarWidget(): UserCalendarWidget
 {
-<<<<<<< HEAD
     $widget = new class extends UserCalendarWidget {
-=======
-<<<<<<< HEAD
-    $widget = new class extends UserCalendarWidget
-    {
-=======
-<<<<<<< HEAD
-    $widget = new class extends UserCalendarWidget {
-=======
-    $widget = new class extends UserCalendarWidget
-    {
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
         public function getActionName(string $function): string
         {
             unset($function);
@@ -45,25 +31,6 @@ function createTestCalendarWidget(): UserCalendarWidget
 }
 
 beforeEach(function (): void {
-<<<<<<< .merge_file_i1gmqS
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-    /* @var \Modules\UI\Tests\TestCase $this */
-    $this->mockService(SaveTransAction::class, static function (MockInterface $mock): void {
-        /** @var ExpectationInterface $expectation */
-        $expectation = $mock->shouldReceive('execute');
-        $expectation->andReturn(null);
-    });
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_LdQQYX
     /** @var MockInterface&SaveTransAction $mock */
     $mock = \Mockery::mock(SaveTransAction::class);
     /** @var ExpectationInterface $expectation */
@@ -71,14 +38,6 @@ beforeEach(function (): void {
     $expectation->andReturn(null);
 
     app()->instance(SaveTransAction::class, $mock);
-<<<<<<< .merge_file_i1gmqS
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_LdQQYX
 });
 
 describe('Base Calendar Widget', function (): void {

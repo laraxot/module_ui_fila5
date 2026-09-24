@@ -11,19 +11,7 @@ use Filament\Notifications\Notification;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\File;
-<<<<<<< .merge_file_RXGzdD
-=======
-<<<<<<< .merge_file_BNlvNd
->>>>>>> .merge_file_jDZBic
-<<<<<<< HEAD
 use Mockery;
-=======
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_RXGzdD
-=======
-=======
->>>>>>> .merge_file_z5w5wn
->>>>>>> .merge_file_jDZBic
 use Modules\UI\Actions\Icon\GetAllIconsAction;
 use Modules\UI\Filament\Forms\Components\AddressField;
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
@@ -38,19 +26,7 @@ use Modules\UI\Tests\Unit\Stubs\UiCoverageRecordWithThrowingState;
 use Modules\UI\Tests\Unit\Stubs\UiCoverageStateContract;
 use Modules\UI\Tests\Unit\Stubs\UiCoverageThrowingTransitionState;
 use PHPUnit\Framework\Assert;
-<<<<<<< .merge_file_RXGzdD
-=======
-<<<<<<< .merge_file_BNlvNd
->>>>>>> .merge_file_jDZBic
-<<<<<<< HEAD
 use ReflectionClass;
-=======
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_RXGzdD
-=======
-=======
->>>>>>> .merge_file_z5w5wn
->>>>>>> .merge_file_jDZBic
 
 use function Safe\mkdir;
 
@@ -58,41 +34,13 @@ uses(TestCase::class);
 
 afterEach(function (): void {
     UiCoverageRecord::$findMap = [];
-<<<<<<< .merge_file_RXGzdD
-=======
-<<<<<<< .merge_file_BNlvNd
->>>>>>> .merge_file_jDZBic
-<<<<<<< HEAD
     Mockery::close();
-=======
-    \Mockery::close();
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_RXGzdD
-=======
-=======
-    \Mockery::close();
->>>>>>> .merge_file_z5w5wn
->>>>>>> .merge_file_jDZBic
 });
 
 describe('UI state columns — comportamento IconStateColumn', function (): void {
     test('icon color tooltip rispondono allo StateContract', function (): void {
         $column = IconStateColumn::make('state');
-<<<<<<< .merge_file_RXGzdD
-=======
-<<<<<<< .merge_file_BNlvNd
->>>>>>> .merge_file_jDZBic
-<<<<<<< HEAD
-        $state = new UiCoverageStateContract;
-=======
         $state = new UiCoverageStateContract();
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_RXGzdD
-=======
-=======
-        $state = new UiCoverageStateContract();
->>>>>>> .merge_file_z5w5wn
->>>>>>> .merge_file_jDZBic
 
         Assert::assertSame('heroicon-o-clock', $column->getIcon($state));
         Assert::assertSame('warning', $column->getColor($state));
@@ -288,21 +236,7 @@ describe('UI actions — GetAllIconsAction con factory mock', function (): void 
         File::put($tmp.'/sample.svg', '<svg></svg>');
 
         $factory = App::make(IconFactory::class);
-<<<<<<< .merge_file_RXGzdD
-=======
-<<<<<<< .merge_file_BNlvNd
->>>>>>> .merge_file_jDZBic
-<<<<<<< HEAD
         $ref = new ReflectionClass($factory);
-=======
-        $ref = new \ReflectionClass($factory);
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_RXGzdD
-=======
-=======
-        $ref = new \ReflectionClass($factory);
->>>>>>> .merge_file_z5w5wn
->>>>>>> .merge_file_jDZBic
         $prop = $ref->getProperty('sets');
         $prop->setAccessible(true);
         $prop->setValue($factory, [
@@ -322,21 +256,7 @@ describe('UI actions — GetAllIconsAction con factory mock', function (): void 
     });
 
     test('ritorna array vuoto se reflection fallisce', function (): void {
-<<<<<<< .merge_file_RXGzdD
-=======
-<<<<<<< .merge_file_BNlvNd
->>>>>>> .merge_file_jDZBic
-<<<<<<< HEAD
         $factory = Mockery::mock(App::make(IconFactory::class))->makePartial();
-=======
-        $factory = \Mockery::mock(App::make(IconFactory::class))->makePartial();
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_RXGzdD
-=======
-=======
-        $factory = \Mockery::mock(App::make(IconFactory::class))->makePartial();
->>>>>>> .merge_file_z5w5wn
->>>>>>> .merge_file_jDZBic
         App::instance(IconFactory::class, $factory);
 
         Assert::assertSame([], app(GetAllIconsAction::class)->execute());
@@ -344,114 +264,38 @@ describe('UI actions — GetAllIconsAction con factory mock', function (): void 
 });
 
 /** @return array<int|string, string> */
-<<<<<<< .merge_file_RXGzdD
-=======
-<<<<<<< .merge_file_BNlvNd
->>>>>>> .merge_file_jDZBic
-function uiEvaluateSelectOptions(Select $select, Model $record, mixed $state): array
-{
-<<<<<<< HEAD
-    $ref = new ReflectionClass($select);
-=======
-    $ref = new \ReflectionClass($select);
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_RXGzdD
-=======
-=======
 function uiEvaluateSelectOptions(Select $select, Model $record, ?string $state): array
 {
-    $ref = new \ReflectionClass($select);
->>>>>>> .merge_file_z5w5wn
->>>>>>> .merge_file_jDZBic
+    $ref = new ReflectionClass($select);
     $prop = $ref->getProperty('options');
     $prop->setAccessible(true);
     $options = $prop->getValue($select);
     Assert::assertInstanceOf(\Closure::class, $options);
 
     /** @var array<int|string, string> $result */
-<<<<<<< .merge_file_RXGzdD
-=======
-<<<<<<< .merge_file_BNlvNd
->>>>>>> .merge_file_jDZBic
-<<<<<<< HEAD
-    $result = ($options)->call($select, $record, $state ?? '');
-=======
     $result = $options->call($select, $record, $state ?? '');
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_RXGzdD
-=======
-=======
-    $result = $options->call($select, $record, $state ?? '');
->>>>>>> .merge_file_z5w5wn
->>>>>>> .merge_file_jDZBic
 
     return $result;
 }
 
 /** @return array<int|string, string> */
-<<<<<<< .merge_file_RXGzdD
-=======
-<<<<<<< .merge_file_BNlvNd
->>>>>>> .merge_file_jDZBic
-function uiEvaluateColumnOptions(SelectStateColumn $column, Model $record, mixed $state): array
-{
-<<<<<<< HEAD
-    $ref = new ReflectionClass($column);
-=======
-    $ref = new \ReflectionClass($column);
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_RXGzdD
-=======
-=======
 function uiEvaluateColumnOptions(SelectStateColumn $column, Model $record, ?object $state): array
 {
-    $ref = new \ReflectionClass($column);
->>>>>>> .merge_file_z5w5wn
->>>>>>> .merge_file_jDZBic
+    $ref = new ReflectionClass($column);
     $prop = $ref->getProperty('options');
     $prop->setAccessible(true);
     $options = $prop->getValue($column);
     Assert::assertInstanceOf(\Closure::class, $options);
 
     /** @var array<int|string, string> $result */
-<<<<<<< .merge_file_RXGzdD
-=======
-<<<<<<< .merge_file_BNlvNd
->>>>>>> .merge_file_jDZBic
-<<<<<<< HEAD
-    $result = ($options)->call($column, $record, $state);
-=======
     $result = $options->call($column, $record, $state);
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_RXGzdD
-=======
-=======
-    $result = $options->call($column, $record, $state);
->>>>>>> .merge_file_z5w5wn
->>>>>>> .merge_file_jDZBic
 
     return $result;
 }
 
-<<<<<<< .merge_file_RXGzdD
-=======
-<<<<<<< .merge_file_BNlvNd
->>>>>>> .merge_file_jDZBic
-function uiInvokeBeforeStateUpdated(SelectStateColumn $column, Model $record, mixed $state): void
-{
-<<<<<<< HEAD
-    $ref = new ReflectionClass($column);
-=======
-    $ref = new \ReflectionClass($column);
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_RXGzdD
-=======
-=======
 function uiInvokeBeforeStateUpdated(SelectStateColumn $column, Model $record, string $state): void
 {
-    $ref = new \ReflectionClass($column);
->>>>>>> .merge_file_z5w5wn
->>>>>>> .merge_file_jDZBic
+    $ref = new ReflectionClass($column);
     $prop = $ref->getProperty('beforeStateUpdated');
     $prop->setAccessible(true);
     $closure = $prop->getValue($column);
@@ -461,21 +305,7 @@ function uiInvokeBeforeStateUpdated(SelectStateColumn $column, Model $record, st
 
 function uiFirstActionSchemaComponent(Action $action): Select
 {
-<<<<<<< .merge_file_RXGzdD
-=======
-<<<<<<< .merge_file_BNlvNd
->>>>>>> .merge_file_jDZBic
-<<<<<<< HEAD
     $ref = new ReflectionClass($action);
-=======
-    $ref = new \ReflectionClass($action);
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_RXGzdD
-=======
-=======
-    $ref = new \ReflectionClass($action);
->>>>>>> .merge_file_z5w5wn
->>>>>>> .merge_file_jDZBic
     $prop = $ref->getProperty('schema');
     $prop->setAccessible(true);
     /** @var callable|array<int, mixed>|null $schema */

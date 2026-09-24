@@ -13,114 +13,22 @@ use Modules\Xot\Providers\XotBaseServiceProvider;
  * Nota: la registrazione dei Blade components modulari avviene tramite GetModulePathByGeneratorAction
  * per garantire la corretta risoluzione dei path secondo la struttura dei moduli.
  *
-<<<<<<< .merge_file_mOdQhK
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
  * Nessun binding Geo/Map/Location: dominio geografico non appartiene a UI
- * (vedi docs/geo-boundary.md). In questo progetto il modulo Geo non è presente.
+ * (vedi docs/geo-boundary.md).
  *
-=======
-<<<<<<< HEAD
-=======
- * Nessun binding Geo/Map/Location: dominio geografico non appartiene a UI
- * (vedi docs/geo-boundary.md). In questo progetto il modulo Geo non è presente.
- *
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
- * Nessun binding Geo/Map/Location: dominio geografico non appartiene a UI
- * (vedi docs/geo-boundary.md). In questo progetto il modulo Geo non è presente.
- *
->>>>>>> .merge_file_AluPX9
  * @phpstan-type ModuleConfig array{name: string, alias: string, description: string, keywords: array<int, string>, priority: int, providers: array<int, class-string>}
  */
 class UIServiceProvider extends XotBaseServiceProvider
 {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
     public string $name = 'UI';
 
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-    /**
-     * Nome del modulo.
-     */
-    public string $name = 'UI';
-
-    /**
-     * Directory del modulo.
-     */
-<<<<<<< HEAD
-=======
-=======
-    public string $name = 'UI';
-
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
     protected string $module_dir = __DIR__;
 
     protected string $module_ns = __NAMESPACE__;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
     /**
-<<<<<<< .merge_file_mOdQhK
-     * Registra i servizi del provider.
-     *
-     * Lega i contratti mappa/geocoding ai fallback Null di default. Quando il
-     * modulo Geo sarà installato, sostituire il binding qui senza toccare
-     * InteractiveMap (vedi docs/wiki/concepts/block-rendering-and-optional-services.md).
-     */
-    public function register(): void
-    {
-        parent::register();
-
-        $this->app->singleton(
-            \Modules\UI\Contracts\MapServiceContract::class,
-<<<<<<< HEAD
-            \Modules\UI\Services\Map\NullMapService::class,
-        );
-        $this->app->singleton(
-            \Modules\UI\Contracts\GeocodingServiceContract::class,
-            \Modules\UI\Services\Map\NullGeocodingService::class,
-=======
-            \Modules\UI\Adapters\Map\NullMapServiceAdapter::class,
-        );
-        $this->app->singleton(
-            \Modules\UI\Contracts\GeocodingServiceContract::class,
-            \Modules\UI\Adapters\Map\NullGeocodingServiceAdapter::class,
->>>>>>> laraxot/dev
-        );
-    }
-
-    /**
-     * Boot del service provider.
-     *
-     * Configura i componenti Blade e altre funzionalità del modulo UI.
-     *
-     * @return void
-     */
-
-    /**
-=======
->>>>>>> .merge_file_AluPX9
      * Restituisce il percorso delle viste dei componenti UI.
      */
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
     public function getComponentViewPath(): string
     {
         return app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-view');

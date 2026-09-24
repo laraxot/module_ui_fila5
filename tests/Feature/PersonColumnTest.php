@@ -4,13 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Feature;
 
-<<<<<<< .merge_file_46fMKE
-=======
-<<<<<<< .merge_file_eGpiAq
-=======
 use Filament\Tables\Columns\Column;
->>>>>>> .merge_file_OqUqfT
->>>>>>> .merge_file_bRWqlC
 use Filament\Tables\Columns\TextColumn;
 use Modules\UI\Filament\Tables\Columns\PersonColumn;
 use PHPUnit\Framework\Assert;
@@ -29,15 +23,7 @@ describe('PersonColumn — controparte di PersonSection', function (): void {
 
     it('exposes the default field set, one TextColumn per field, directly on the record', function (): void {
         $column = PersonColumn::make();
-<<<<<<< .merge_file_46fMKE
         $names = array_map(static fn (\Filament\Tables\Columns\Column $field): string => $field->getName(), $column->getFields());
-=======
-<<<<<<< .merge_file_eGpiAq
-        $names = array_map(static fn (\Filament\Tables\Columns\Column $field): string => $field->getName(), $column->getFields());
-=======
-        $names = array_map(static fn (Column $field): string => $field->getName(), $column->getFields());
->>>>>>> .merge_file_OqUqfT
->>>>>>> .merge_file_bRWqlC
 
         Assert::assertSame([
             'first_name',
@@ -53,15 +39,7 @@ describe('PersonColumn — controparte di PersonSection', function (): void {
 
     it('restricts the field set via fields()', function (): void {
         $column = PersonColumn::make()->fields(['first_name', 'last_name']);
-<<<<<<< .merge_file_46fMKE
         $names = array_map(static fn (\Filament\Tables\Columns\Column $field): string => $field->getName(), $column->getFields());
-=======
-<<<<<<< .merge_file_eGpiAq
-        $names = array_map(static fn (\Filament\Tables\Columns\Column $field): string => $field->getName(), $column->getFields());
-=======
-        $names = array_map(static fn (Column $field): string => $field->getName(), $column->getFields());
->>>>>>> .merge_file_OqUqfT
->>>>>>> .merge_file_bRWqlC
 
         Assert::assertSame(['first_name', 'last_name'], $names);
     });

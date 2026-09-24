@@ -2,47 +2,29 @@
 
 declare(strict_types=1);
 
-<<<<<<< .merge_file_vkD52q
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-return [
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/it/awstest.php
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+    // Laraxot module file — see docs/wiki for domain contract.
+    // Laraxot module file — see docs/wiki for domain contract.
+    // Laraxot module file — see docs/wiki for domain contract.
+    // Laraxot module file — see docs/wiki for domain contract.
+    // Laraxot module file — see docs/wiki for domain contract.
+    // Laraxot module file — see docs/wiki for domain contract.
+    // Laraxot module file — see docs/wiki for domain contract.
+    // Laraxot module file — see docs/wiki for domain contract.
+    // Laraxot module file — see docs/wiki for domain contract.
 return [
-<<<<<<< HEAD
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-=======
-    // Laraxot module file — see docs/wiki for domain contract.
-    // Laraxot module file — see docs/wiki for domain contract.
-    // Laraxot module file — see docs/wiki for domain contract.
-    // Laraxot module file — see docs/wiki for domain contract.
-    // Laraxot module file — see docs/wiki for domain contract.
-    // Laraxot module file — see docs/wiki for domain contract.
-    // Laraxot module file — see docs/wiki for domain contract.
-    // Laraxot module file — see docs/wiki for domain contract.
-    // Laraxot module file — see docs/wiki for domain contract.
-=======
-return [
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-return [
->>>>>>> .merge_file_0eHKaq
     'page' => [
         'title' => 'Test AWS Diagnostico',
         'heading' => 'Diagnostica Configurazione AWS',
@@ -184,22 +166,6 @@ return [
         ],
         'label' => 'Awstest',
         'sort' => 1,
-<<<<<<< .merge_file_vkD52q
-<<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
-=======
-<<<<<<< HEAD
-        'icon' => 'heroicon-o-rectangle-stack',
-=======
-<<<<<<< HEAD
-        'icon' => 'heroicon-o-collection',
-=======
-        'icon' => 'heroicon-o-rectangle-stack',
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        'icon' => 'heroicon-o-rectangle-stack',
->>>>>>> .merge_file_0eHKaq
     ],
 ];

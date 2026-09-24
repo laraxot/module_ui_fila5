@@ -18,23 +18,8 @@ final class SpatieDocumentUpload
     /**
      * Configurazione base per upload documenti con collection specifica.
      *
-<<<<<<< HEAD
      * @param string $name       Nome del campo
      * @param string $collection Nome della media collection
-=======
-<<<<<<< HEAD
-     * @param  string  $name  Nome del campo
-     * @param  string  $collection  Nome della media collection
-=======
-<<<<<<< HEAD
-     * @param string $name       Nome del campo
-     * @param string $collection Nome della media collection
-=======
-     * @param  string  $name  Nome del campo
-     * @param  string  $collection  Nome della media collection
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
      */
     public static function make(string $name, string $collection): SpatieMediaLibraryFileUpload
     {
@@ -100,23 +85,7 @@ final class SpatieDocumentUpload
     {
         return self::make('certifications', 'certificazioni_professionali')
             ->multiple()
-<<<<<<< .merge_file_V5jE6n
-<<<<<<< HEAD
-            ->enableReordering()
-=======
-<<<<<<< HEAD
             ->reorderable()
-=======
-<<<<<<< HEAD
-            ->enableReordering()
-=======
-            ->reorderable()
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-            ->reorderable()
->>>>>>> .merge_file_IilNwm
             ->maxFiles(10) // Max 10 certificazioni per dottore
             ->acceptedFileTypes(['application/pdf'])
             ->maxSize(10240); // 10MB per certificazioni multiple
@@ -125,29 +94,10 @@ final class SpatieDocumentUpload
     /**
      * Upload documento generico con collection personalizzata.
      *
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
      * @param string        $name       Nome del campo
      * @param string        $collection Nome della collection
      * @param array<string> $mimeTypes  Tipi MIME accettati
      * @param int           $maxSize    Dimensione massima in KB
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-     * @param  string  $name  Nome del campo
-     * @param  string  $collection  Nome della collection
-     * @param  array<string>  $mimeTypes  Tipi MIME accettati
-     * @param  int  $maxSize  Dimensione massima in KB
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
      */
     public static function custom(
         string $name,
