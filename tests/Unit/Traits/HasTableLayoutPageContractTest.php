@@ -13,6 +13,7 @@ uses(TestCase::class);
 
 test('exposes table layout page trait for cross-module consumers', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -43,6 +44,14 @@ test('exposes table layout page trait for cross-module consumers', function (): 
     $page->applyLayoutView(TableLayoutEnum::GRID);
 
 >>>>>>> .merge_file_2bq0Tb
+=======
+    $page = new class {
+        use HasTableLayoutPage;
+
+        public TableLayoutEnum $layoutView = TableLayoutEnum::GRID;
+    };
+
+>>>>>>> 0dadab4 (Lint)
     Assert::assertTrue(HasTableLayoutPage::isLayoutCapable($page));
     Assert::assertSame(TableLayoutEnum::GRID, HasTableLayoutPage::readLayoutFrom($page));
 

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_k3pXoe
 =======
 <<<<<<< HEAD
@@ -51,6 +52,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_gvCPQE
+=======
+>>>>>>> 0dadab4 (Lint)
 # Form Component
 
 ## 📊 Stato Implementazione

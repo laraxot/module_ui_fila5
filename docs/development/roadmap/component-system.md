@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_g0whb9
 =======
 <<<<<<< HEAD
@@ -51,6 +52,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_GKeq2S
+=======
+>>>>>>> 0dadab4 (Lint)
 # Sistema Componenti UI
 
 ## 📊 Stato Implementazione

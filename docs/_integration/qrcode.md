@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_774vV7
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_rMJbix
+=======
+>>>>>>> 0dadab4 (Lint)
 # qrcode
 
 <!-- Contenuto migrato da _docs/qrcode.txt -->

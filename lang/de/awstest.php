@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_4Cmooq
 <<<<<<< HEAD
 =======
@@ -43,6 +44,9 @@ return [
 =======
 return [
 >>>>>>> .merge_file_uVlf3t
+=======
+return [
+>>>>>>> 0dadab4 (Lint)
     'page' => [
         'title' => 'AWS Diagnose Test',
         'heading' => 'AWS Konfiguration Diagnose',

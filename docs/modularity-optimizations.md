@@ -211,6 +211,7 @@ Dopo l'ottimizzazione completa, i comandi devono restituire **0 occorrenze**.
 ## Documentazione Correlata
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_LsNnWM
 =======
 <<<<<<< HEAD
@@ -224,10 +225,13 @@ Dopo l'ottimizzazione completa, i comandi devono restituire **0 occorrenze**.
 - [UI Best Practices](./best-practices/README.md)
 =======
 >>>>>>> .merge_file_zKNuKa
+=======
+>>>>>>> 0dadab4 (Lint)
 - [Root Docs: Modularity Hardcoded Names](../../../../docs/modularity-hardcoded-names.md)
 - [Regole Cursor: Modularity Rules](../../../.cursor/rules/modularity-hardcoded-names.mdc)
 - [UI Architecture Overview](./architecture-overview.md)
 - [UI Best Practices](./best-practices/readme.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_LsNnWM
 <<<<<<< HEAD
 =======
@@ -244,6 +248,8 @@ Dopo l'ottimizzazione completa, i comandi devono restituire **0 occorrenze**.
 =======
 >>>>>>> .merge_file_zKNuKa
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Note di Implementazione
 

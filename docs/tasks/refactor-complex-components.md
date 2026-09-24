@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qy058x
 =======
 <<<<<<< HEAD
@@ -57,6 +58,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ZAVJWf
+=======
+>>>>>>> 0dadab4 (Lint)
 # Task: Refactoring Componenti Complessi - UI
 
 **Modulo**: UI  

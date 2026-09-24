@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_XIeAaa
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_KHchny
+=======
+>>>>>>> 0dadab4 (Lint)
 # StudioCardSelector Component - Modulo UI
 
 ## 🎯 **Panoramica**

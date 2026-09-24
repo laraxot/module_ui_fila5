@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9T0YDu
 =======
 <<<<<<< HEAD
@@ -237,6 +238,8 @@ class FormState
 5. Documentare best practices 
 =======
 >>>>>>> .merge_file_5IeAga
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 module: theme
 topic: form_component
@@ -244,6 +247,7 @@ canonical: ../../../../Themes/docs/shared-components/form-component.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/form-component.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_9T0YDu
 <<<<<<< HEAD
 =======
@@ -485,3 +489,5 @@ class FormState
 =======
 >>>>>>> .merge_file_5IeAga
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

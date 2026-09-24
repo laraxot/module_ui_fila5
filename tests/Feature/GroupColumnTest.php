@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Feature;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_HP6cbB
 <<<<<<< HEAD
 =======
@@ -82,6 +83,13 @@ function groupColumnViewTableBag(): array
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_cKfg58
+=======
+use Filament\Tables\Columns\TextColumn;
+use Illuminate\View\ComponentAttributeBag;
+use Modules\UI\Filament\Tables\Columns\GroupColumn;
+use PHPUnit\Framework\Assert;
+
+>>>>>>> 0dadab4 (Lint)
 // Test GroupColumn class
 describe('GroupColumn class', function (): void {
     it('can be instantiated with make()', function (): void {
@@ -91,6 +99,7 @@ describe('GroupColumn class', function (): void {
     });
 
     it('accepts schema with TextColumn instances', function (): void {
+<<<<<<< HEAD
 <<<<<<< .merge_file_HP6cbB
 <<<<<<< HEAD
 // Laraxot module file — see docs/wiki for domain contract.
@@ -119,6 +128,8 @@ describe('GroupColumn class', function (): void {
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_cKfg58
+=======
+>>>>>>> 0dadab4 (Lint)
         $column = GroupColumn::make('worker')
             ->schema([
                 TextColumn::make('matr'),
@@ -158,6 +169,7 @@ describe('GroupColumn class', function (): void {
 
         Assert::assertSame('ui::filament.tables.columns.group', $property->getValue($column));
     });
+<<<<<<< HEAD
 <<<<<<< .merge_file_HP6cbB
 <<<<<<< HEAD
 =======
@@ -189,6 +201,8 @@ describe('GroupColumn class', function (): void {
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_cKfg58
+=======
+>>>>>>> 0dadab4 (Lint)
 });
 
 // Test view rendering with data_get() fallback
@@ -272,6 +286,7 @@ describe('GroupColumn view rendering', function (): void {
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'attributes' => new ComponentAttributeBag(),
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
@@ -297,6 +312,11 @@ describe('GroupColumn view rendering', function (): void {
 =======
             ...groupColumnViewTableBag(),
 >>>>>>> .merge_file_cKfg58
+=======
+            'attributes' => new ComponentAttributeBag(),
+            'getExtraAttributes' => fn () => [],
+            'isInline' => fn () => false,
+>>>>>>> 0dadab4 (Lint)
         ])->render();
 
         Assert::assertStringContainsString((string) 'Mario Rossi', (string) $html);
@@ -327,6 +347,7 @@ describe('GroupColumn view rendering', function (): void {
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
 <<<<<<< HEAD
+<<<<<<< HEAD
             'attributes' => new ComponentAttributeBag(),
             'getExtraAttributes' => fn () => [],
             'isInline' => fn () => false,
@@ -352,6 +373,11 @@ describe('GroupColumn view rendering', function (): void {
 =======
             ...groupColumnViewTableBag(),
 >>>>>>> .merge_file_cKfg58
+=======
+            'attributes' => new ComponentAttributeBag(),
+            'getExtraAttributes' => fn () => [],
+            'isInline' => fn () => false,
+>>>>>>> 0dadab4 (Lint)
         ])->render();
 
         Assert::assertStringContainsString((string) '12345', (string) $html);
@@ -371,6 +397,7 @@ describe('GroupColumn view rendering', function (): void {
         // The view logic: skip if empty($value) && $value !== 0 && $value !== '0'
         $shouldSkip = static function (mixed $value): bool {
 <<<<<<< HEAD
+<<<<<<< HEAD
             return empty($value) && 0 !== $value && '0' !== $value;
 =======
 <<<<<<< HEAD
@@ -383,6 +410,9 @@ describe('GroupColumn view rendering', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+            return empty($value) && 0 !== $value && '0' !== $value;
+>>>>>>> 0dadab4 (Lint)
         };
 
         Assert::assertTrue($shouldSkip($record->empty_field));
@@ -390,6 +420,7 @@ describe('GroupColumn view rendering', function (): void {
         Assert::assertFalse($shouldSkip($record->zero_int));
         Assert::assertFalse($shouldSkip($record->zero_string));
     });
+<<<<<<< HEAD
 <<<<<<< .merge_file_HP6cbB
 <<<<<<< HEAD
 =======
@@ -503,4 +534,6 @@ describe('GroupColumn view rendering', function (): void {
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_cKfg58
+=======
+>>>>>>> 0dadab4 (Lint)
 });

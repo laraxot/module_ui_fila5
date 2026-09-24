@@ -4,9 +4,12 @@ type: concept
 tags: [ui, actions, queueable-action, support, refactor, adapter]
 created: 2026-07-12
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Gewcg7
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 0dadab4 (Lint)
 updated: 2026-07-13
 qmd: "UI module no app Support NullMap NullGeocoding Adapter"
 issues:
@@ -16,6 +19,7 @@ discussions:
 related:
   - block-rendering-and-optional-services.md
   - ../../../../docs/wiki/rules/queueable-action-trait-mandatory.md
+<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 =======
@@ -50,6 +54,8 @@ related:
   - ../../../../docs/wiki/rules/queueable-action-trait-mandatory.md
 >>>>>>> .merge_file_7oi7LE
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 
 # no `app/Support/` — business logic in QueueableAction
@@ -58,6 +64,7 @@ related:
 
 Nel modulo UI **non** esiste più `app/Support/`.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Gewcg7
 =======
@@ -74,6 +81,8 @@ Nel modulo UI **non** esiste più `app/Support/`.
 | `ThemeService`, `ComponentService` | Eliminati |
 =======
 >>>>>>> .merge_file_7oi7LE
+=======
+>>>>>>> 0dadab4 (Lint)
 ## Migrazione (2026-07-12)
 
 | Legacy `app/Support/` | Destinazione |
@@ -97,6 +106,7 @@ Rimosso l'intera cartella `app/Services/` — duplicati o wrapper inutili:
 | `ThemeService`, `ComponentService` | Eliminati (classi vuote) |
 | `Map/NullMapService` | Già in `Adapters/Map/NullMapServiceAdapter` |
 | `Map/NullGeocodingService` | Già in `Adapters/Map/NullGeocodingServiceAdapter` |
+<<<<<<< HEAD
 <<<<<<< .merge_file_Gewcg7
 =======
 >>>>>>> laraxot/dev
@@ -115,6 +125,8 @@ Rimosso l'intera cartella `app/Services/` — duplicati o wrapper inutili:
 =======
 >>>>>>> .merge_file_7oi7LE
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Collegamenti
 

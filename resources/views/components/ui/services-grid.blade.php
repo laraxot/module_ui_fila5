@@ -1,6 +1,10 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ?>
 {{--
     Services Grid Component - Griglia di servizi comunali/aziendali

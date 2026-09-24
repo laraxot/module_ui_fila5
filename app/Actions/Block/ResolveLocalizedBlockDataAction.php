@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Actions\Block;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_xFcrep
 <<<<<<< HEAD
 =======
@@ -22,11 +23,16 @@ use UnexpectedValueException;
 use Spatie\QueueableAction\QueueableAction;
 
 >>>>>>> .merge_file_Rkucwl
+=======
+use Spatie\QueueableAction\QueueableAction;
+
+>>>>>>> 0dadab4 (Lint)
 /**
  * Risolve dati block localizzati; delega al modulo Cms se presente.
  */
 final class ResolveLocalizedBlockDataAction
 {
+<<<<<<< HEAD
 <<<<<<< .merge_file_xFcrep
 <<<<<<< HEAD
     /**
@@ -49,6 +55,13 @@ final class ResolveLocalizedBlockDataAction
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    use QueueableAction;
+
+    /**
+     * @param array<string, mixed> $viewParams
+     *
+>>>>>>> 0dadab4 (Lint)
      * @return array<string, mixed>
      */
     public function execute(array $viewParams): array
@@ -70,6 +83,7 @@ final class ResolveLocalizedBlockDataAction
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< .merge_file_xFcrep
 <<<<<<< HEAD
 =======
@@ -86,10 +100,17 @@ final class ResolveLocalizedBlockDataAction
     private function normalizeViewData(array $data): array
     {
 <<<<<<< .merge_file_xFcrep
+=======
+     * @return array<string, mixed>
+     */
+    private function normalizeViewData(mixed $data): array
+    {
+>>>>>>> 0dadab4 (Lint)
         if (! is_array($data)) {
             return [];
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -106,11 +127,14 @@ final class ResolveLocalizedBlockDataAction
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_Rkucwl
+=======
+>>>>>>> 0dadab4 (Lint)
         $viewData = [];
 
         foreach ($data as $key => $value) {
             if (! is_string($key)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 throw new \UnexpectedValueException('Block view data must have string keys.');
 =======
 <<<<<<< HEAD
@@ -123,6 +147,9 @@ final class ResolveLocalizedBlockDataAction
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+                throw new \UnexpectedValueException('Block view data must have string keys.');
+>>>>>>> 0dadab4 (Lint)
             }
 
             $viewData[$key] = $value;

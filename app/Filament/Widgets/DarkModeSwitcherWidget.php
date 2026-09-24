@@ -12,17 +12,21 @@ use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
 {
 <<<<<<< HEAD
-    public ?array $data = [];
-=======
 <<<<<<< HEAD
     public ?array $data = [];
 =======
 <<<<<<< HEAD
+    public ?array $data = [];
+=======
+<<<<<<< HEAD
 =======
     public ?array $data = [];
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    public ?array $data = [];
+>>>>>>> 0dadab4 (Lint)
 
     public bool $darkMode = false;
 
@@ -56,6 +60,7 @@ final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
         return [];
     }
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_XHDFt3
 <<<<<<< HEAD
 =======
@@ -82,6 +87,8 @@ final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_4zuboB
+=======
+>>>>>>> 0dadab4 (Lint)
     public function render(): View
     {
         return view($this->view, [

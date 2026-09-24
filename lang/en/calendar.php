@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_I5tcWi
 <<<<<<< HEAD
 =======
@@ -21,6 +22,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_4ZgvGB
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'previous_month' => 'Previous month',
     'next_month' => 'Next month',

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bUBENV
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_P6mR8M
+=======
+>>>>>>> 0dadab4 (Lint)
 # Studio Selection Component con Pulsanti
 
 ## Descrizione

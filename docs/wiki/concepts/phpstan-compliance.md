@@ -1,8 +1,11 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 title: "UI Module - PHPStan Type Compliance"
 type: concept
 tags: [ui, phpstan, types, compliance, quality, static-analysis]
@@ -134,6 +137,7 @@ vendor/bin/pest laravel/Modules/UI/tests --parallel
 **Last Updated**: 2026-06-10  
 **Status**: GREEN
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 title: "UI — Mockery fluente sotto PHPStan"
@@ -198,3 +202,5 @@ cd laravel
 ```
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

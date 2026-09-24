@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YtfuAy
 =======
 <<<<<<< HEAD
@@ -51,6 +52,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_nYWgnc
+=======
+>>>>>>> 0dadab4 (Lint)
 # Colli di Bottiglia - Modulo UI
 
 ## 1. Performance Componenti [85%]

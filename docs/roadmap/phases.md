@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4y7KzV
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_eUW87D
+=======
+>>>>>>> 0dadab4 (Lint)
 # Fasi di sviluppo - UI Module
 
 ## Fase 1: Modernization (In Progress)

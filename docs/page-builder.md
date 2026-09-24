@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vR9G3H
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
 =======
@@ -73,3 +74,6 @@ See canonical documentation: ../../../Themes/docs/shared-components/page-builder
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
 >>>>>>> .merge_file_zbMEqb
 >>>>>>> laraxot/dev
+=======
+https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
+>>>>>>> 0dadab4 (Lint)

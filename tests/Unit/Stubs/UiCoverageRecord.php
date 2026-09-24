@@ -23,6 +23,7 @@ class UiCoverageRecord extends Model
      * @param int|string                $id
      * @param array<int, string>|string $columns
      *                                           =======
+<<<<<<< HEAD
      *                                           <<<<<<< .merge_file_L3CkgX
      * @param int|string                $id
      * @param array<int, string>|string $columns
@@ -40,6 +41,10 @@ class UiCoverageRecord extends Model
      *                                           >>>>>>> laraxot/dev
      *                                           >>>>>>> .merge_file_37ZtLp
      *                                           >>>>>>> .merge_file_Djbvpg
+=======
+     * @param int|string                $id
+     * @param array<int, string>|string $columns
+>>>>>>> 0dadab4 (Lint)
      *                                           >>>>>>> laraxot/dev
      */
     public static function find($id, $columns = ['*']): ?self

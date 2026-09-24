@@ -1,5 +1,6 @@
 # Filament v4 Theme Upgrade Guide - Modulo UI
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_fPZYEX
 =======
 <<<<<<< HEAD
@@ -15,6 +16,8 @@
 =======
 >>>>>>> .merge_file_n5JwUR
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 **Modulo**: UI (Theme Components)
 **Versione**: 4.0
 **Stato**: Ready for Implementation

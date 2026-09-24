@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_iKILfS
 =======
 <<<<<<< HEAD
@@ -58,6 +59,8 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 * [lang-link.md](../../../Cms/project_docs/lang-link.md)
 =======
 >>>>>>> .merge_file_raOHgc
+=======
+>>>>>>> 0dadab4 (Lint)
 # Collegamento alle Traduzioni del Modulo UI
 
 Questo modulo utilizza le traduzioni centralizzate nella cartella [Lang](../../Lang/docs/).
@@ -118,6 +121,7 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 * [lang-link.md](../../../activity/project_docs/lang-link.md)
 * [lang-link.md](../../../patient/project_docs/lang-link.md)
 * [lang-link.md](../../../cms/project_docs/lang-link.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_iKILfS
 <<<<<<< HEAD
 =======
@@ -222,3 +226,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/lang-link_1.
 =======
 >>>>>>> .merge_file_raOHgc
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

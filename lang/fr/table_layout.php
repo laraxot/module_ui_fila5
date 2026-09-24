@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_JrVSN0
 <<<<<<< HEAD
 =======
@@ -44,6 +45,9 @@ return [
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_h5chLX
+=======
+return [
+>>>>>>> 0dadab4 (Lint)
     'actions' => [
         'toggle' => [
             'label' => 'Basculer la disposition',

@@ -1,6 +1,9 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
+=======
+>>>>>>> 0dadab4 (Lint)
 /**
  * The `Blocks` component is responsible for rendering a set of blocks on a view.
  *
@@ -38,6 +41,7 @@ final class Blocks extends Component
          * @phpstan-var view-string
          */
         $view = app(GetViewAction::class)->execute($this->view);
+<<<<<<< HEAD
 <<<<<<< .merge_file_XmSmpH
 <<<<<<< HEAD
         $view_params = [
@@ -55,11 +59,15 @@ final class Blocks extends Component
 =======
         $viewParams = [
 >>>>>>> .merge_file_PHlHUT
+=======
+        $view_params = [
+>>>>>>> 0dadab4 (Lint)
             'view' => $view,
             'blocks' => $this->blocks,
             'model' => $this->model,
         ];
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_XmSmpH
 <<<<<<< HEAD
         return view($view, $view_params);
@@ -77,5 +85,8 @@ final class Blocks extends Component
 =======
         return view($view, $viewParams);
 >>>>>>> .merge_file_PHlHUT
+=======
+        return view($view, $view_params);
+>>>>>>> 0dadab4 (Lint)
     }
 }

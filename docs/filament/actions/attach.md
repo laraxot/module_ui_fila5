@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_DJRJIg
 =======
 <<<<<<< HEAD
@@ -48,6 +49,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_1JpCnW
+=======
+>>>>>>> 0dadab4 (Lint)
 ```php
 AttachAction::make()->modifyRecordSelectUsing(
 fn ($select) => $select->getOptionLabelFromRecordUsing(fn ($record) => $record->name . ' ' . $record->organization)

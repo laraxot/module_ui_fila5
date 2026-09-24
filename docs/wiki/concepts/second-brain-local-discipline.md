@@ -8,6 +8,7 @@ updated: 2026-06-05
 qmd: "ui second brain stub canonical xot harness hackernoon llm-wiki"
 issues:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_yVVffE
 =======
 <<<<<<< HEAD
@@ -27,6 +28,8 @@ related:
   - "./enum-select-contract-and-false-friends.md"
 =======
 >>>>>>> .merge_file_0YqcNW
+=======
+>>>>>>> 0dadab4 (Lint)
   - "https://github.com/laraxot/base_fixcity_fila5/issues/272"
 discussions:
   - "https://github.com/laraxot/base_fixcity_fila5/discussions/273"
@@ -35,6 +38,7 @@ related:
   - ../../../../docs/wiki/concepts/ai-harness-module-discipline.md
   - ../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md
   - ../../../../../../bashscripts/tools/prompts/llm-wiki.txt
+<<<<<<< HEAD
 <<<<<<< .merge_file_yVVffE
 <<<<<<< HEAD
 =======
@@ -57,6 +61,8 @@ related:
 =======
 >>>>>>> .merge_file_0YqcNW
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 
 # Contratto wiki locale — stub UI
@@ -65,6 +71,7 @@ related:
 |---------|------|
 | **Canon** | [Xot second-brain-local-discipline.md](../../../../Xot/docs/wiki/concepts/second-brain-local-discipline.md) |
 | **Harness moduli** | [ai-harness-module-discipline.md](../../../../docs/wiki/concepts/ai-harness-module-discipline.md) |
+<<<<<<< HEAD
 <<<<<<< HEAD
 | **Tips 001–022** | [hackernoon map](../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md) |
 =======
@@ -109,6 +116,9 @@ related:
 =======
 >>>>>>> .merge_file_0YqcNW
 >>>>>>> laraxot/dev
+=======
+| **Tips 001–022** | [hackernoon map](../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md) |
+>>>>>>> 0dadab4 (Lint)
 | **Prompt router** | [llm-wiki.txt](../../../../../../bashscripts/tools/prompts/llm-wiki.txt) |
 
 Solo decisioni specifiche di **UI** in `docs/wiki/`; contratto generico in Xot.

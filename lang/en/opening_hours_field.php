@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_9UW7cJ
 <<<<<<< HEAD
 =======
@@ -73,6 +74,9 @@ return [
 =======
 return [
 >>>>>>> .merge_file_G05atJ
+=======
+return [
+>>>>>>> 0dadab4 (Lint)
     'fields' => [
         'monday' => [
             'morning' => [

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_OA6GcF
 <<<<<<< HEAD
 =======
@@ -21,6 +22,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_OBpmNN
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'opening_hours' => [
         'morning' => 'mattino',
@@ -41,6 +44,7 @@ return [
         ],
         'label' => 'Validation',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_OA6GcF
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -58,6 +62,9 @@ return [
 =======
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_OBpmNN
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> 0dadab4 (Lint)
     ],
     'fields' => [
         'id' => [

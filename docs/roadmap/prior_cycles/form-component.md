@@ -3,6 +3,7 @@ module: theme
 topic: form-component
 canonical: ../../../../../Themes/docs/shared-components/form-component.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AdZukH
 =======
 <<<<<<< HEAD
@@ -28,6 +29,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_sXB6vb
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/form-component.md

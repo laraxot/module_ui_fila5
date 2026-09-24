@@ -23,6 +23,7 @@ final class UiCoverageAddressParentRecord extends Model
      *
      * @param array<string, mixed> $attributes
      *                                         =======
+<<<<<<< HEAD
      *                                         <<<<<<< .merge_file_mMl13T
      * @param array<string, mixed> $attributes
      *                                         =======
@@ -36,6 +37,9 @@ final class UiCoverageAddressParentRecord extends Model
      *                                         >>>>>>> laraxot/dev
      *                                         >>>>>>> .merge_file_0b23s3
      *                                         >>>>>>> .merge_file_onnvsy
+=======
+     * @param array<string, mixed> $attributes
+>>>>>>> 0dadab4 (Lint)
      *                                         >>>>>>> laraxot/dev
      */
     public function __construct(array $attributes = [])
@@ -49,6 +53,7 @@ final class UiCoverageAddressParentRecord extends Model
      *
      * @param string|array<int, string>|null $attribute
      *                                                  =======
+<<<<<<< HEAD
      *                                                  <<<<<<< .merge_file_mMl13T
      * @param string|array<int, string>|null $attribute
      *                                                  =======
@@ -62,6 +67,9 @@ final class UiCoverageAddressParentRecord extends Model
      *                                                  >>>>>>> laraxot/dev
      *                                                  >>>>>>> .merge_file_0b23s3
      *                                                  >>>>>>> .merge_file_onnvsy
+=======
+     * @param string|array<int, string>|null $attribute
+>>>>>>> 0dadab4 (Lint)
      *                                                  >>>>>>> laraxot/dev
      */
     public function touch($attribute = null): bool

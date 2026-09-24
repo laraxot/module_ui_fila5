@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_8uMWvz
 =======
 <<<<<<< HEAD
@@ -243,6 +244,8 @@ class ThemeCompiler
 5. Migliorare documentazione 
 =======
 >>>>>>> .merge_file_hgzFMe
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 module: theme
 topic: theme_system
@@ -250,6 +253,7 @@ canonical: ../../../../Themes/docs/shared-components/theme-system.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/theme-system.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_8uMWvz
 <<<<<<< HEAD
 =======
@@ -497,3 +501,5 @@ class ThemeCompiler
 =======
 >>>>>>> .merge_file_hgzFMe
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

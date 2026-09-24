@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_fSehmM
 =======
 <<<<<<< HEAD
@@ -191,6 +192,8 @@ class S3Test extends XotBasePage
 *Ultimo aggiornamento: 2025-01-06*
 =======
 >>>>>>> .merge_file_uUmhey
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 module: theme
 topic: filament-pages-structure
@@ -198,6 +201,7 @@ canonical: ../../../Themes/docs/shared-components/filament-pages-structure.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/filament-pages-structure.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_fSehmM
 <<<<<<< HEAD
 =======
@@ -393,3 +397,5 @@ class S3Test extends XotBasePage
 =======
 >>>>>>> .merge_file_uUmhey
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

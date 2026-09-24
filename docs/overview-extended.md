@@ -2,6 +2,7 @@
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ACCED8
 =======
 <<<<<<< HEAD
@@ -17,12 +18,15 @@
 =======
 >>>>>>> .merge_file_Qk3Ana
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 [![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
 [![PHPStan level 10](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 # 🎨 **UI Module** - Sistema Avanzato Componenti Interfaccia
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ACCED8
 =======
 <<<<<<< HEAD
@@ -38,6 +42,8 @@
 =======
 >>>>>>> .merge_file_Qk3Ana
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 [![Filament 4.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
@@ -281,6 +287,7 @@ php artisan ui:test-components
 ### 🎨 **Filament Integration**
 - [Filament Components](filament-components.md) - Componenti Filament
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ACCED8
 - [Widget System](widget-optimization.md) - Sistema widget personalizzati
 =======
@@ -299,6 +306,9 @@ php artisan ui:test-components
 - [Widget System](widget-optimization.md) - Sistema widget personalizzati
 >>>>>>> .merge_file_Qk3Ana
 >>>>>>> laraxot/dev
+=======
+- [Widget System](widget-optimization.md) - Sistema widget personalizzati
+>>>>>>> 0dadab4 (Lint)
 - [TableLayoutEnum](table-layout-enum-complete-guide.md) - Guida completa enum layout
 - [File Upload Components](filament-fileupload.md) - Componenti upload file
 

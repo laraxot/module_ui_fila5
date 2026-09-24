@@ -30,6 +30,7 @@ final class UiCoverageAddressHasOneRelation extends HasOne
      *
      * @param array<int, string>|string $columns
      *                                           =======
+<<<<<<< HEAD
      *                                           <<<<<<< .merge_file_mf6zTc
      * @param array<int, string>|string $columns
      *                                           =======
@@ -43,6 +44,9 @@ final class UiCoverageAddressHasOneRelation extends HasOne
      *                                           >>>>>>> laraxot/dev
      *                                           >>>>>>> .merge_file_2dyGKP
      *                                           >>>>>>> .merge_file_py9UGI
+=======
+     * @param array<int, string>|string $columns
+>>>>>>> 0dadab4 (Lint)
      *                                           >>>>>>> laraxot/dev
      */
     public function first($columns = ['*']): ?Model

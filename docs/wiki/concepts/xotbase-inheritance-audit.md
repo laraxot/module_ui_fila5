@@ -10,6 +10,7 @@ issues:
 discussions:
 <<<<<<< HEAD
   - "https://github.com/laraxot/<nome repository>/discussions/12"
+<<<<<<< HEAD
 <<<<<<< .merge_file_LTqm3n
 =======
 <<<<<<< .merge_file_o5AmDa
@@ -20,6 +21,8 @@ discussions:
   - "https://github.com/laraxot/<nome repository>/discussions/12"
 >>>>>>> .merge_file_OreUDZ
 >>>>>>> .merge_file_VC6wYo
+=======
+>>>>>>> 0dadab4 (Lint)
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -41,6 +44,7 @@ discussions:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
 <<<<<<< .merge_file_LTqm3n
 =======
 <<<<<<< .merge_file_o5AmDa
@@ -48,6 +52,8 @@ discussions:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_OreUDZ
 >>>>>>> .merge_file_VC6wYo
+=======
+>>>>>>> 0dadab4 (Lint)
 related:
   - "../../../../Xot/docs/wiki/concepts/xotbase-filament-widget-hierarchy.md"
 ---

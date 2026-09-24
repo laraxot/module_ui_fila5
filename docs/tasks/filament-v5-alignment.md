@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_7I81In
 =======
 <<<<<<< HEAD
@@ -57,6 +58,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_vuOejH
+=======
+>>>>>>> 0dadab4 (Lint)
 # Task: Filament v5 Alignment (UI Module)
 
 ## 📋 Obiettivo

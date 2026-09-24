@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_wJzvm8
 =======
 <<<<<<< HEAD
@@ -218,6 +219,8 @@ If the component doesn't look right, make sure you have the required Tailwind CS
 Contributions are welcome! Please feel free to submit a Pull Request.
 =======
 >>>>>>> .merge_file_I227OC
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 module: theme
 topic: inline_date_picker
@@ -225,6 +228,7 @@ canonical: ../../../Themes/docs/shared-components/inline-date-picker-1.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/inline-date-picker-1.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_wJzvm8
 <<<<<<< HEAD
 =======
@@ -447,3 +451,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 =======
 >>>>>>> .merge_file_I227OC
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

@@ -1,6 +1,7 @@
 # MCP Servers per UI/UX - Modulo UI
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Xx5PuZ
 =======
 <<<<<<< HEAD
@@ -16,6 +17,8 @@
 =======
 >>>>>>> .merge_file_f2WbPw
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Scopo
 
@@ -51,6 +54,7 @@ Il modulo UI fornisce componenti Blade condivisi in `resources/views/components/
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Xx5PuZ
 - [MCP UI/UX Tema Two](../../themes/two/docs/mcp-ui-ux.md)
 - [Status MCP Progetto](../../../../docs/mcp-servers-status.md)
@@ -75,5 +79,9 @@ Il modulo UI fornisce componenti Blade condivisi in `resources/views/components/
 - [Status MCP Progetto](../../../../docs/mcp-servers-status.md)
 >>>>>>> .merge_file_f2WbPw
 >>>>>>> laraxot/dev
+=======
+- [MCP UI/UX Tema Two](../../themes/two/docs/mcp-ui-ux.md)
+- [Status MCP Progetto](../../../../docs/mcp-servers-status.md)
+>>>>>>> 0dadab4 (Lint)
 - [Skill MCP UI/UX](../../../.windsurf/skills/mcp-ui-ux/skill.md)
 - [Workflow MCP UI/UX](../../../.windsurf/workflows/mcp-ui-ux.md)

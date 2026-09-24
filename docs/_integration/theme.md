@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_nhonbr
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Q3VYtG
+=======
+>>>>>>> 0dadab4 (Lint)
 # theme
 
 <!-- Contenuto migrato da _docs/theme.txt -->

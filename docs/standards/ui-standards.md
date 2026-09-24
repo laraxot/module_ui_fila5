@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1oTgLx
 =======
 <<<<<<< HEAD
@@ -53,6 +54,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_nnUBRl
+=======
+>>>>>>> 0dadab4 (Lint)
 # Standard UI
 
 ## 🎨 Design System

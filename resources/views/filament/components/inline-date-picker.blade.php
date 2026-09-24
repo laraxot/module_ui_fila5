@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_IJUq6t
 <<<<<<< HEAD
 =======
@@ -29,6 +30,12 @@
 <?php
 
 declare(strict_types=1);
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> 0dadab4 (Lint)
 ?>
 <div
     x-data="{

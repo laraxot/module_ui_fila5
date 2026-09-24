@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_nBD9sl
 <<<<<<< HEAD
 =======
@@ -15,6 +16,8 @@ declare(strict_types=1);
 // File: lang/it/icon_picker.php
 =======
 >>>>>>> .merge_file_kULYkf
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'fields' => [
         'newstate' => [
@@ -22,7 +25,10 @@ return [
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
+<<<<<<< HEAD
             'placeholder' => 'newstate',
+=======
+>>>>>>> 0dadab4 (Lint)
         ],
         'pack' => [
             'label' => 'pack',
@@ -38,6 +44,7 @@ return [
             'description' => '',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
@@ -51,6 +58,8 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
     ],
     'label' => 'Icon Picker',
     'plural_label' => 'Icon Picker (Plurale)',
@@ -58,18 +67,25 @@ return [
         'name' => 'Icon Picker',
         'plural' => 'Icon Picker',
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
         'group' => [
             'name' => 'General',
             'description' => 'General Settings',
         ],
         'label' => 'Icon Picker',
         'sort' => 1,
+<<<<<<< HEAD
         'icon' => 'heroicon-o-rectangle-stack',
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> 0dadab4 (Lint)
     ],
     'actions' => [
         'create' => [
@@ -81,6 +97,7 @@ return [
         'delete' => [
             'label' => 'Elimina Icon Picker',
         ],
+<<<<<<< HEAD
 <<<<<<< .merge_file_nBD9sl
 <<<<<<< HEAD
 =======
@@ -108,5 +125,7 @@ return [
             'tooltip' => 'icon',
         ],
 >>>>>>> .merge_file_kULYkf
+=======
+>>>>>>> 0dadab4 (Lint)
     ],
 ];

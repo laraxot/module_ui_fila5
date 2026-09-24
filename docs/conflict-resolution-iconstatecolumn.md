@@ -69,6 +69,7 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 - [selectstatecolumn.md](selectstatecolumn.md)
 - [table-components.md](table-components.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Tkne80
 =======
 <<<<<<< HEAD
@@ -88,6 +89,8 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 ### Conflitto 1 (Linea 29-37) - Gestione Tipi Nullable
 =======
 >>>>>>> .merge_file_e6kGlU
+=======
+>>>>>>> 0dadab4 (Lint)
 - [Modules/UI/docs/](../../docs/)
 
 # Risoluzione Conflitto IconStateColumn.php
@@ -103,6 +106,7 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 
 ### Conflitto 1 (Linea 29-37) - Gestione Tipi Nullable
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_Tkne80
 <<<<<<< HEAD
 =======
@@ -141,12 +145,15 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 =======
 >>>>>>> .merge_file_e6kGlU
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ```php
         $this->icon(fn($state): ?string => $state?->icon());
         $this->color(fn($state): ?string => $state?->color());
         $this->tooltip(fn($state): ?string => $state?->label());
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Tkne80
 =======
 <<<<<<< HEAD
@@ -161,6 +168,8 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_e6kGlU
+=======
+>>>>>>> 0dadab4 (Lint)
 
 **Problema**: Differenza nella gestione dei tipi nullable e nell'uso dell'operatore nullsafe `?->`
 
@@ -168,6 +177,7 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 
 ### Criteri di Risoluzione
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_Tkne80
 <<<<<<< HEAD
 =======
@@ -180,12 +190,15 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 =======
 >>>>>>> .merge_file_e6kGlU
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 1. **Robustezza**: Preferire gestione nullable per evitare errori runtime
 2. **Type Safety**: Utilizzare operatore nullsafe per sicurezza
 3. **Defensive Programming**: Gestire casi edge dove state potrebbe essere null
 4. **Consistenza**: Mantenere coerenza con pattern del modulo UI
 5. **PHPStan Compliance**: Mantenere tipi corretti per analisi statica
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Tkne80
 =======
 <<<<<<< HEAD
@@ -199,11 +212,14 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 #### ✅ DECISIONE FINALE: Versione HEAD (Gestione nullable con operatore nullsafe)
 =======
 >>>>>>> .merge_file_e6kGlU
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ### Risoluzione Applicata
 
 #### ✅ DECISIONE FINALE: Versione HEAD (Gestione nullable con operatore nullsafe)
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_Tkne80
 <<<<<<< HEAD
 =======
@@ -215,6 +231,8 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 =======
 >>>>>>> .merge_file_e6kGlU
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 **Motivazione**:
 - La versione HEAD usa l'operatore nullsafe `?->` che previene errori quando state è null
 - I tipi di ritorno nullable `?string` sono più sicuri e realistici
@@ -222,6 +240,7 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 - È più robusta e meno soggetta a errori runtime
 - Mantiene compatibilità con diversi scenari d'uso
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Tkne80
 
 =======
@@ -237,11 +256,15 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 
 >>>>>>> .merge_file_e6kGlU
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 #### Strategia di Risoluzione per tutti i conflitti:
 1. **Conflitto tipi nullable**: Mantenere versione HEAD con `?string` e `?->`
 2. **Conflitto operatore nullsafe**: Mantenere `?->` per sicurezza
 3. **Conflitto gestione state**: Mantenere approccio difensivo HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Tkne80
 =======
 <<<<<<< HEAD
@@ -255,11 +278,14 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 ### Perché la versione HEAD?
 =======
 >>>>>>> .merge_file_e6kGlU
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Giustificazione Tecnica
 
 ### Perché la versione HEAD?
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_Tkne80
 <<<<<<< HEAD
 =======
@@ -271,6 +297,8 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 =======
 >>>>>>> .merge_file_e6kGlU
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 1. **Null Safety**: L'operatore `?->` previene errori quando state è null
 2. **Type Correctness**: `?string` riflette la realtà che questi metodi possono restituire null
 3. **Defensive Programming**: Gestisce meglio scenari imprevisti
@@ -278,6 +306,7 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 5. **Maintainability**: Codice più robusto e manutenibile
 6. **User Experience**: Evita crash dell'interfaccia utente
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Tkne80
 
 ### Impatto
@@ -302,12 +331,18 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 
 >>>>>>> .merge_file_e6kGlU
 >>>>>>> laraxot/dev
+=======
+
+### Impatto
+
+>>>>>>> 0dadab4 (Lint)
 - ✅ Migliora robustezza del componente
 - ✅ Previene errori runtime
 - ✅ Migliora sicurezza del tipo
 - ✅ Mantiene compatibilità
 - ✅ Migliora user experience
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Tkne80
 =======
 <<<<<<< HEAD
@@ -321,6 +356,8 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 - [Modules/UI/project_docs/](../project_docs/)
 =======
 >>>>>>> .merge_file_e6kGlU
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Collegamenti
 
@@ -330,6 +367,7 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 - [Modules/UI/project_docs/](../project_docs/)
 - [Modules/UI/project_docs/](../project_docs/)
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_Tkne80
 <<<<<<< HEAD
 =======
@@ -367,3 +405,5 @@ Il file `Modules/UI/app/Filament/Tables/Columns/IconStateColumn.php` presenta co
 =======
 >>>>>>> .merge_file_e6kGlU
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

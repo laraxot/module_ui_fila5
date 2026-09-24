@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dKJ4DC
 =======
 <<<<<<< HEAD
@@ -48,6 +49,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_WqahEz
+=======
+>>>>>>> 0dadab4 (Lint)
 # Registrazione Componenti Blade nei Moduli
 
 ## Architettura dei componenti Blade

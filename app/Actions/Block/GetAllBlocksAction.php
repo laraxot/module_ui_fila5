@@ -13,6 +13,7 @@ use Modules\Xot\Datas\ComponentFileData;
 use function Safe\realpath;
 
 use Spatie\LaravelData\DataCollection;
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZJk7Ui
 <<<<<<< HEAD
 =======
@@ -21,10 +22,14 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 use Spatie\QueueableAction\QueueableAction;
 >>>>>>> .merge_file_iMr5aV
+=======
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> 0dadab4 (Lint)
 use Webmozart\Assert\Assert;
 
 final class GetAllBlocksAction
 {
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZJk7Ui
 <<<<<<< HEAD
 =======
@@ -35,6 +40,10 @@ final class GetAllBlocksAction
     use QueueableAction;
 
 >>>>>>> .merge_file_iMr5aV
+=======
+    use QueueableAction;
+
+>>>>>>> 0dadab4 (Lint)
     /**
      * @return DataCollection<int, ComponentFileData>
      */

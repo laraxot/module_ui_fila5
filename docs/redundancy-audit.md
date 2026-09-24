@@ -6,6 +6,7 @@ tags: [redundancy, components, config, design-system]
 created: 2026-05-21
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_0hxF1I
   - https://github.com/laraxot/base_fixcity_fila5/issues/89
 =======
@@ -52,6 +53,9 @@ related:
   - https://github.com/laraxot/base_fixcity_fila5/issues/89
 >>>>>>> .merge_file_t0x20a
 >>>>>>> laraxot/dev
+=======
+  - https://github.com/laraxot/base_fixcity_fila5/issues/89
+>>>>>>> 0dadab4 (Lint)
 ---
 
 # UI redundancy audit 2026-05-21

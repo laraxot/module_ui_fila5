@@ -2,9 +2,12 @@
 
 ## Status: ✅ FULLY COMPLIANT
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 **PHPStan Level:** 9 (Maximum)
 **Files Analyzed:** 237
@@ -13,6 +16,7 @@
 ## Compliance Summary
 
 The UI module is fully compliant with PHPStan level 10 analysis, demonstrating:
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -131,6 +135,8 @@ instance inferita da Eloquent. Il test comportamentale equivalente passa con **1
 Lo scope state UI-7.1 dimostra:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 - ✅ Rigorous type hints implementation
 - ✅ Proper null handling

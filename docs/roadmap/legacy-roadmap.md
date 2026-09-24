@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_iVcV27
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_d5QvFd
+=======
+>>>>>>> 0dadab4 (Lint)
 # UI Module Roadmap
 
 Vedi [roadmap/00-index](roadmap/00-index.md).

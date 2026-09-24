@@ -2,6 +2,7 @@
 module: theme
 topic: ARCHITECTURE_2025
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11,10 +12,13 @@ topic: ARCHITECTURE_2025
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 canonical: ../../../Themes/docs/shared-components/ARCHITECTURE.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/ARCHITECTURE.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_eacapi
 =======
@@ -47,3 +51,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/architecture
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_EyTxJq
+=======
+>>>>>>> 0dadab4 (Lint)

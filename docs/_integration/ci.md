@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zTBNhd
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_af09oO
+=======
+>>>>>>> 0dadab4 (Lint)
 # ci
 
 <!-- Contenuto migrato da _docs/ci.txt -->

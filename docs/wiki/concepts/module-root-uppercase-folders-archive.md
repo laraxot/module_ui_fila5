@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_LiNAn0
 =======
 <<<<<<< HEAD
@@ -24,6 +25,8 @@ related:
 `Config.bak/` duplicava i file già in `config/`:
 =======
 >>>>>>> .merge_file_06SswA
+=======
+>>>>>>> 0dadab4 (Lint)
 title: "Archivio cartelle config duplicate — modulo UI"
 type: concept
 module: UI
@@ -46,6 +49,7 @@ related:
 ## Situazione (risolta 2026-07-01)
 
 `Config/` (maiuscolo) e `Config.bak/` duplicavano i file già in `config/`:
+<<<<<<< HEAD
 <<<<<<< .merge_file_LiNAn0
 <<<<<<< HEAD
 =======
@@ -73,6 +77,8 @@ related:
 =======
 >>>>>>> .merge_file_06SswA
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 - `config.php`
 - `laravel-localization.php`
@@ -81,6 +87,7 @@ related:
 ## Regola
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_LiNAn0
 =======
 <<<<<<< HEAD
@@ -95,11 +102,14 @@ Solo `config/` (minuscolo) alla root.
 `Config` → `Config.bak` (2026-06-30). Merge non necessario: contenuti allineati.
 =======
 >>>>>>> .merge_file_06SswA
+=======
+>>>>>>> 0dadab4 (Lint)
 Solo `config/` (minuscolo) alla root del modulo nwidart.
 
 ## Azione
 
 Rimossi `Config/` e `Config.bak/`; nessun autoload/require li referenziava. Git history conserva le versioni precedenti.
+<<<<<<< HEAD
 <<<<<<< .merge_file_LiNAn0
 <<<<<<< HEAD
 =======
@@ -117,3 +127,5 @@ Solo `config/` (minuscolo) alla root.
 =======
 >>>>>>> .merge_file_06SswA
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

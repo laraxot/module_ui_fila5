@@ -3,6 +3,7 @@ module: theme
 topic: usage
 canonical: ../../../../Themes/docs/shared-components/usage-Modules.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YKd2wj
 =======
 <<<<<<< HEAD
@@ -28,6 +29,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_qlzrLR
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/usage-Modules.md

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_1n31WL
 ---
 module: theme
@@ -8,6 +9,8 @@ canonical: ../../../Themes/docs/shared-components/bugfix-icons-missing.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/bugfix-icons-missing.md
 =======
+=======
+>>>>>>> 0dadab4 (Lint)
 # Bug Fix: Icone Mancanti - 27 Gennaio 2025
 
 ## Problema Identificato
@@ -113,4 +116,7 @@ php artisan config:clear
 **Tipo**: Bug Fix  
 **Priorità**: Alta  
 **Stato**: ✅ Risolto
+<<<<<<< HEAD
 >>>>>>> .merge_file_jPUkvW
+=======
+>>>>>>> 0dadab4 (Lint)

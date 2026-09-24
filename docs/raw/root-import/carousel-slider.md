@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_G6uBbs
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Gg5tqR
+=======
+>>>>>>> 0dadab4 (Lint)
 https://www.embla-carousel.com/examples/predefined/
 
 

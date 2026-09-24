@@ -8,6 +8,7 @@ use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
+<<<<<<< HEAD
 <<<<<<< .merge_file_a0oyY7
 <<<<<<< HEAD
 =======
@@ -26,6 +27,8 @@ use Filament\Schemas\Components\Utilities\Set;
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Utilities\Set;
 >>>>>>> .merge_file_cYprF7
+=======
+>>>>>>> 0dadab4 (Lint)
 
 class Image
 {
@@ -37,6 +40,7 @@ class Image
                 TextInput::make('url'),
                 Select::make('ratio')
                     ->options(static::getRatios())
+<<<<<<< HEAD
 <<<<<<< .merge_file_a0oyY7
 <<<<<<< HEAD
                     ->afterStateHydrated(function (mixed $state, mixed $set): void {
@@ -59,6 +63,10 @@ class Image
                     ->afterStateHydrated(static function (?string $state, Set $set): void {
                         if (! $state) {
 >>>>>>> .merge_file_cYprF7
+=======
+                    ->afterStateHydrated(function (mixed $state, mixed $set): void {
+                        if (! $state && is_callable($set)) {
+>>>>>>> 0dadab4 (Lint)
                             $set('ratio', '4-3');
                         }
                     }),
@@ -66,6 +74,7 @@ class Image
                 TextInput::make('caption')->columnSpanFull(),
             ])
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->columns('form' === $context ? 2 : 1);
 =======
 <<<<<<< HEAD
@@ -78,11 +87,15 @@ class Image
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+            ->columns('form' === $context ? 2 : 1);
+>>>>>>> 0dadab4 (Lint)
     }
 
     /**
      * @return array<string, string>
      */
+<<<<<<< HEAD
 <<<<<<< .merge_file_a0oyY7
 <<<<<<< HEAD
     /**
@@ -101,6 +114,11 @@ class Image
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_cYprF7
+=======
+    /**
+     * @return array<string, string>
+     */
+>>>>>>> 0dadab4 (Lint)
     public static function getRatios(): array
     {
         return [
@@ -120,6 +138,7 @@ class Image
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< .merge_file_a0oyY7
 <<<<<<< HEAD
      * @return array<int, \Filament\Schemas\Components\Component>
@@ -137,6 +156,9 @@ class Image
 =======
      * @return array<int, Component>
 >>>>>>> .merge_file_cYprF7
+=======
+     * @return array<int, \Filament\Schemas\Components\Component>
+>>>>>>> 0dadab4 (Lint)
      */
     public static function getFormSchema(): array
     {

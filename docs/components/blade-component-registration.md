@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SR2GWt
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MOeYGS
+=======
+>>>>>>> 0dadab4 (Lint)
 # Registrazione corretta dei componenti Blade nei moduli
 
 ## Problema

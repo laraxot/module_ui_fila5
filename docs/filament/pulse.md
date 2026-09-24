@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_41Id0M
 =======
 <<<<<<< HEAD
@@ -55,4 +56,6 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_jTKcFK
+=======
+>>>>>>> 0dadab4 (Lint)
 https://bitbucket.org/modcreative/wayble-pulse/src/main/filament/Widgets/Charts/SignalHitsByCategory.php

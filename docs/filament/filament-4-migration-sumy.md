@@ -3,6 +3,7 @@ module: theme
 topic: filament-4-migration-sumy
 canonical: ../../../../Themes/docs/shared-components/filament-4-migration-summary.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_OInfKb
 =======
 <<<<<<< HEAD
@@ -31,6 +32,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MhwvcN
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/filament-4-migration-summary.md

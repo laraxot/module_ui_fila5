@@ -126,6 +126,7 @@ Modules/UI/
 - [Documentazione Filament](https://filamentphp.com/docs)
 - [Documentazione Folio](https://laravel.com/docs/folio)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qZOno4
 - [Best Practices UI](./ui_best_practices.md)
 - [Guida Componenti](./components_guide.md)
@@ -150,3 +151,7 @@ Modules/UI/
 - [Guida Componenti](./components_guide.md)
 >>>>>>> .merge_file_nM8np4
 >>>>>>> laraxot/dev
+=======
+- [Best Practices UI](./ui_best_practices.md)
+- [Guida Componenti](./components_guide.md)
+>>>>>>> 0dadab4 (Lint)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1MPspm
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_x7VHw5
+=======
+>>>>>>> 0dadab4 (Lint)
 # filament
 
 <!-- Contenuto migrato da _docs/filament.txt -->

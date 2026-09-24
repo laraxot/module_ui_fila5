@@ -3,6 +3,7 @@
 ## Importanza di declare(strict_types=1)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Vg7ktR
 L'utilizzo di `declare(strict_types=1)` è **obbligatorio** in tutti i file PHP del modulo UI che contengono logica di business, in conformità con le [regole generali del progetto](../../xot/docs/php-strict-types.md) e per garantire la compatibilità con PHPStan livello 10.
 =======
@@ -21,6 +22,9 @@ L'utilizzo di `declare(strict_types=1)` è **obbligatorio** in tutti i file PHP 
 L'utilizzo di `declare(strict_types=1)` è **obbligatorio** in tutti i file PHP del modulo UI che contengono logica di business, in conformità con le [regole generali del progetto](../../xot/docs/php-strict-types.md) e per garantire la compatibilità con PHPStan livello 10.
 >>>>>>> .merge_file_Xe3HsK
 >>>>>>> laraxot/dev
+=======
+L'utilizzo di `declare(strict_types=1)` è **obbligatorio** in tutti i file PHP del modulo UI che contengono logica di business, in conformità con le [regole generali del progetto](../../xot/docs/php-strict-types.md) e per garantire la compatibilità con PHPStan livello 10.
+>>>>>>> 0dadab4 (Lint)
 
 ### Vantaggi per il Modulo UI
 
@@ -69,6 +73,7 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 
 ## Collegamenti
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Vg7ktR
 =======
@@ -120,10 +125,13 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 ```
 =======
 >>>>>>> .merge_file_Xe3HsK
+=======
+>>>>>>> 0dadab4 (Lint)
 - [Regole Generali per strict_types](../../xot/docs/php-strict-types.md)
 - [Linee Guida PHPStan Livello 10](../../xot/docs/phpstan/level10_linee_guida.md)
 - [Conflitti Merge Risolti](./conflitti_merge_risolti.md)
 - [README del Modulo UI](./readme.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_Vg7ktR
 <<<<<<< HEAD
 =======
@@ -211,3 +219,5 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 =======
 >>>>>>> .merge_file_Xe3HsK
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

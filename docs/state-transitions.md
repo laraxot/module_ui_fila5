@@ -48,6 +48,7 @@ class ExampleTransition extends Transition
 ## Related Documentation
 - [State Management](./state-management.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [SelectStateColumn Documentation](./select-state-column.md)
 =======
 <<<<<<< HEAD
@@ -100,6 +101,16 @@ This document outlines the standards and patterns for implementing state transit
 =======
 >>>>>>> .merge_file_nei5JC
 >>>>>>> laraxot/dev
+=======
+- [SelectStateColumn Documentation](./select-state-column.md)
+# State Transitions Guide
+
+## Overview
+This document outlines the standards and patterns for implementing state transitions in the application.
+
+## Transition Class Structure
+
+>>>>>>> 0dadab4 (Lint)
 ### Required Structure
 ```php
 class ExampleTransition extends Transition
@@ -109,6 +120,7 @@ class ExampleTransition extends Transition
         public ?string $message = ''
     ) {}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZLjIU6
 
 =======
@@ -124,6 +136,9 @@ class ExampleTransition extends Transition
 
 >>>>>>> .merge_file_nei5JC
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
     public function handle(): Model
     {
         // Transition logic here
@@ -132,6 +147,7 @@ class ExampleTransition extends Transition
 }
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZLjIU6
 
 =======
@@ -147,12 +163,16 @@ class ExampleTransition extends Transition
 
 >>>>>>> .merge_file_nei5JC
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ### Key Points
 - Always extend `Spatie\ModelStates\Transition`
 - Constructor must accept the model as first parameter
 - Optional message parameter with empty string as default
 - `handle()` must return the updated model
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZLjIU6
 =======
 <<<<<<< HEAD
@@ -166,6 +186,8 @@ class ExampleTransition extends Transition
 2. `$message`: Optional message for the transition (default: empty string)
 =======
 >>>>>>> .merge_file_nei5JC
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Implementation Notes
 
@@ -173,6 +195,7 @@ class ExampleTransition extends Transition
 1. `$model`: The model instance being transitioned
 2. `$message`: Optional message for the transition (default: empty string)
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZLjIU6
 <<<<<<< HEAD
 =======
@@ -189,11 +212,14 @@ class ExampleTransition extends Transition
 =======
 >>>>>>> .merge_file_nei5JC
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ### File Naming
 - Use `PascalCase` for transition class names
 - Suffix with `Transition` (e.g., `ActiveToSuspendedTransition`)
 - Place in `app/States/{ModelName}/Transitions/`
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZLjIU6
 
 =======
@@ -209,12 +235,16 @@ class ExampleTransition extends Transition
 
 >>>>>>> .merge_file_nei5JC
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ### Best Practices
 - Keep transition logic simple and focused
 - Use type hints for all parameters
 - Document complex transitions with PHPDoc blocks
 - Always provide default values for optional parameters
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZLjIU6
 =======
 <<<<<<< HEAD
@@ -226,10 +256,13 @@ class ExampleTransition extends Transition
 - [State Management](./state-management.md)
 =======
 >>>>>>> .merge_file_nei5JC
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Related Documentation
 - [State Management](./state-management.md)
 - [SelectStateColumn Documentation](./select-state-column.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZLjIU6
 <<<<<<< HEAD
 =======
@@ -262,3 +295,5 @@ class ExampleTransition extends Transition
 =======
 >>>>>>> .merge_file_nei5JC
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

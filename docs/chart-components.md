@@ -8,6 +8,7 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 ### LineChart
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 <x-ui::line-chart
 =======
 <<<<<<< HEAD
@@ -44,6 +45,9 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<x-ui::line-chart
+>>>>>>> 0dadab4 (Lint)
     :title="'Andamento Utenti'"
     :labels="['Gen', 'Feb', 'Mar', 'Apr', 'Mag', 'Giu']"
     :datasets="[
@@ -64,6 +68,7 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 ### PieChart
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 <x-ui::pie-chart
 =======
 <<<<<<< HEAD
@@ -100,6 +105,9 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<x-ui::pie-chart
+>>>>>>> 0dadab4 (Lint)
     :title="'Distribuzione Utenti'"
     :labels="['Attivi', 'Inattivi', 'In attesa']"
     :data="[300, 50, 100]"
@@ -114,6 +122,7 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 ### StatsOverview
 ```blade
 <<<<<<< HEAD
+<<<<<<< HEAD
 <x-ui::stats-overview
 =======
 <<<<<<< HEAD
@@ -150,6 +159,9 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<x-ui::stats-overview
+>>>>>>> 0dadab4 (Lint)
     :stats="[
         [
             'label' => 'Utenti Totali',
@@ -200,6 +212,7 @@ class UserStats extends Component
 {
     public $chartData;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kcPP9s
 
 =======
@@ -244,11 +257,15 @@ class UserStats extends Component
 
 >>>>>>> .merge_file_U4QHdZ
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
     public function mount()
     {
         $this->updateChartData();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kcPP9s
 
 =======
@@ -293,6 +310,9 @@ class UserStats extends Component
 
 >>>>>>> .merge_file_U4QHdZ
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
     public function updateChartData()
     {
         $this->chartData = [
@@ -307,6 +327,7 @@ class UserStats extends Component
         ];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kcPP9s
 
 =======
@@ -351,6 +372,9 @@ class UserStats extends Component
 
 >>>>>>> .merge_file_U4QHdZ
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
     public function render()
     {
         return view('livewire.user-stats');
@@ -378,6 +402,7 @@ class UserStats extends Component
 - [Componenti Table](./table-components.md)
 - [Componenti Layout](./layout-components.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kcPP9s
 =======
 <<<<<<< HEAD
@@ -392,6 +417,8 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 ## Componenti Disponibili
 =======
 >>>>>>> .merge_file_U4QHdZ
+=======
+>>>>>>> 0dadab4 (Lint)
 - [Documentazione Frontend](../cms/docs/frontend-architecture.md)
 # Componenti Chart
 
@@ -400,6 +427,7 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 
 ## Componenti Disponibili
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_kcPP9s
 <<<<<<< HEAD
 =======
@@ -433,6 +461,8 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 =======
 >>>>>>> .merge_file_U4QHdZ
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ### LineChart
 ```blade
 <x-ui::line-chart
@@ -453,6 +483,7 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 />
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kcPP9s
 
 ### PieChart
@@ -477,11 +508,17 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 ```blade
 >>>>>>> .merge_file_U4QHdZ
 >>>>>>> laraxot/dev
+=======
+
+### PieChart
+```blade
+>>>>>>> 0dadab4 (Lint)
 <x-ui::pie-chart
     :title="'Distribuzione Utenti'"
     :labels="['Attivi', 'Inattivi', 'In attesa']"
     :data="[300, 50, 100]"
     :colors="['#4CAF50', '#F44336', '#FFC107']"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kcPP9s
 =======
@@ -497,6 +534,8 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_U4QHdZ
+=======
+>>>>>>> 0dadab4 (Lint)
     :height="300"
     :responsive="true"
     :legend="true"
@@ -509,6 +548,7 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 <x-ui::stats-overview
     :stats="[
         [
+<<<<<<< HEAD
 <<<<<<< .merge_file_kcPP9s
 <<<<<<< HEAD
 =======
@@ -521,6 +561,8 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 =======
 >>>>>>> .merge_file_U4QHdZ
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
             'label' => 'Utenti Totali',
             'value' => 1234,
             'icon' => 'users',
@@ -528,6 +570,7 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
             'trendColor' => 'success'
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kcPP9s
         [
 =======
@@ -543,11 +586,15 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
         [
 >>>>>>> .merge_file_U4QHdZ
 >>>>>>> laraxot/dev
+=======
+        [
+>>>>>>> 0dadab4 (Lint)
             'label' => 'Nuovi Oggi',
             'value' => 45,
             'icon' => 'user-plus',
             'trend' => '+5%',
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kcPP9s
             'trendColor' => 'success'
         ],
@@ -569,12 +616,18 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
         [
 >>>>>>> .merge_file_U4QHdZ
 >>>>>>> laraxot/dev
+=======
+            'trendColor' => 'success'
+        ],
+        [
+>>>>>>> 0dadab4 (Lint)
             'label' => 'Conversioni',
             'value' => '78%',
             'icon' => 'chart-line',
             'trend' => '-2%',
             'trendColor' => 'danger'
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kcPP9s
 =======
 <<<<<<< HEAD
@@ -586,6 +639,8 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 ## Personalizzazione
 =======
 >>>>>>> .merge_file_U4QHdZ
+=======
+>>>>>>> 0dadab4 (Lint)
         ]
     ]"
 />
@@ -593,6 +648,7 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 
 ## Personalizzazione
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_kcPP9s
 <<<<<<< HEAD
 =======
@@ -603,12 +659,15 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 =======
 >>>>>>> .merge_file_U4QHdZ
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ### Tema
 - Colori personalizzati
 - Stili CSS
 - Animazioni
 - Tooltip
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kcPP9s
 
 =======
@@ -624,12 +683,16 @@ I componenti chart forniscono visualizzazioni grafiche dei dati, utilizzando Cha
 
 >>>>>>> .merge_file_U4QHdZ
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ### Dati
 - Formati supportati
 - Aggiornamento in tempo reale
 - Filtri
 - Trasformazioni
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kcPP9s
 =======
 <<<<<<< HEAD
@@ -646,6 +709,8 @@ class UserStats extends Component
     public $chartData;
 =======
 >>>>>>> .merge_file_U4QHdZ
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Integrazione
 
@@ -657,6 +722,7 @@ class UserStats extends Component
 {
     public $chartData;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_kcPP9s
 <<<<<<< HEAD
 =======
@@ -676,11 +742,14 @@ class UserStats extends Component
 =======
 >>>>>>> .merge_file_U4QHdZ
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
     public function mount()
     {
         $this->updateChartData();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kcPP9s
 
     public function updateChartData()
@@ -705,6 +774,11 @@ class UserStats extends Component
     {
 >>>>>>> .merge_file_U4QHdZ
 >>>>>>> laraxot/dev
+=======
+
+    public function updateChartData()
+    {
+>>>>>>> 0dadab4 (Lint)
         $this->chartData = [
             'labels' => ['Gen', 'Feb', 'Mar'],
             'datasets' => [
@@ -716,6 +790,7 @@ class UserStats extends Component
             ]
         ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kcPP9s
 =======
 <<<<<<< HEAD
@@ -729,6 +804,8 @@ class UserStats extends Component
 ## Best Practices
 =======
 >>>>>>> .merge_file_U4QHdZ
+=======
+>>>>>>> 0dadab4 (Lint)
     }
 
     public function render()
@@ -740,6 +817,7 @@ class UserStats extends Component
 
 ## Best Practices
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_kcPP9s
 <<<<<<< HEAD
 =======
@@ -756,12 +834,15 @@ class UserStats extends Component
 =======
 >>>>>>> .merge_file_U4QHdZ
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ### Utilizzo
 - Dati significativi
 - Leggibilità
 - Responsive design
 - Accessibilità
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kcPP9s
 
 =======
@@ -777,12 +858,16 @@ class UserStats extends Component
 
 >>>>>>> .merge_file_U4QHdZ
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ### Performance
 - Ottimizzazione dati
 - Lazy loading
 - Cache risultati
 - Aggiornamento efficiente
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kcPP9s
 
 =======
@@ -798,11 +883,15 @@ class UserStats extends Component
 
 >>>>>>> .merge_file_U4QHdZ
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ## Collegamenti
 - [Componenti Base](./base-components.md)
 - [Componenti Form](./form-components.md)
 - [Componenti Table](./table-components.md)
 - [Componenti Layout](./layout-components.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kcPP9s
 - [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
@@ -852,3 +941,8 @@ class UserStats extends Component
 =======
 >>>>>>> .merge_file_U4QHdZ
 >>>>>>> laraxot/dev
+=======
+- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
+- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
+- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
+>>>>>>> 0dadab4 (Lint)

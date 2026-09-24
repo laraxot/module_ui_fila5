@@ -23,6 +23,7 @@ Example of a Volt component in a Folio page:
 <?php
 use App\Models\Event;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vr0SfW
 =======
 <<<<<<< HEAD
@@ -37,6 +38,8 @@ $events = computed(fn () => Event::upcoming()->get());
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_wzNGkO
+=======
+>>>>>>> 0dadab4 (Lint)
 use Livewire\Volt\Component;
 
 new class extends Component {
@@ -48,6 +51,7 @@ new class extends Component {
         $this->events = Event::upcoming()->get()->all();
     }
 };
+<<<<<<< HEAD
 <<<<<<< .merge_file_vr0SfW
 <<<<<<< HEAD
 =======
@@ -60,6 +64,8 @@ $events = computed(fn () => Event::upcoming()->get());
 =======
 >>>>>>> .merge_file_wzNGkO
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ?>
 
 <x-layout>
@@ -89,6 +95,7 @@ $events = computed(fn () => Event::upcoming()->get());
 
 ### 5. Data Handling
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vr0SfW
 - In class-based components, keep state in `public` properties and initialize in `mount()`
 - For derived values, prefer methods/getters in the class (functional `computed()` / `state()` is legacy/mantenimento)
@@ -116,6 +123,10 @@ $events = computed(fn () => Event::upcoming()->get());
 - For derived values, prefer methods/getters in the class (functional `computed()` / `state()` is legacy/mantenimento)
 >>>>>>> .merge_file_wzNGkO
 >>>>>>> laraxot/dev
+=======
+- In class-based components, keep state in `public` properties and initialize in `mount()`
+- For derived values, prefer methods/getters in the class (functional `computed()` / `state()` is legacy/mantenimento)
+>>>>>>> 0dadab4 (Lint)
 - Sushi package can be used for dummy data in development
 
 ### 6. Middleware Application
@@ -161,6 +172,7 @@ middleware(['auth', 'verified']);
 
 ## Date
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vr0SfW
 [DATE]
 =======
@@ -179,3 +191,6 @@ middleware(['auth', 'verified']);
 [DATE]
 >>>>>>> .merge_file_wzNGkO
 >>>>>>> laraxot/dev
+=======
+[DATE]
+>>>>>>> 0dadab4 (Lint)

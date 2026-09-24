@@ -79,6 +79,7 @@ For more details, visit the [official Algolia DocSearch documentation.](https://
 * [algolia-docsearch.md](../../../Cms/docs/algolia-docsearch.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -90,6 +91,8 @@ For more details, visit the [official Algolia DocSearch documentation.](https://
 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ### Versione Incoming
 
 ---

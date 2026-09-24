@@ -13,6 +13,7 @@
 ## Collegamenti correlati
 - [README modulo UI](/laravel/Modules/UI/docs/README.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Architettura Modulare](/laravel/Modules/UI/docs/ARCHITECTURE.md)
 =======
 <<<<<<< HEAD
@@ -30,6 +31,9 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- [Architettura Modulare](/laravel/Modules/UI/docs/ARCHITECTURE.md)
+>>>>>>> 0dadab4 (Lint)
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
 
 ## Percorsi Corretti per gli Asset
@@ -39,6 +43,7 @@
 , è fondamentale rispettare la struttura corretta delle directory per gli asset pubblici:
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_6S5iM5
 /var/www/html/<nome progetto>/
@@ -83,6 +88,9 @@
 /var/www/html/<nome progetto>/
 >>>>>>> .merge_file_rOMvW0
 >>>>>>> laraxot/dev
+=======
+/var/www/html/<nome progetto>/
+>>>>>>> 0dadab4 (Lint)
 ├── laravel/                 # Applicazione Laravel (codice sorgente)
 │   ├── Modules/             # Moduli dell'applicazione
 │   ├── resources/           # Risorse non compilate
@@ -101,6 +109,7 @@
 | Tipo di Asset | ✅ Percorso Corretto | ❌ Percorso Errato |
 |---------------|---------------------|-------------------|
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6S5iM5
 =======
 <<<<<<< HEAD
@@ -118,10 +127,13 @@
 | SVG | `/var/www/html/saluteora/public_html/images/` | `/var/www/html/saluteora/laravel/public/images/` |
 =======
 >>>>>>> .merge_file_rOMvW0
+=======
+>>>>>>> 0dadab4 (Lint)
 | Immagini | `/var/www/html/<nome progetto>/public_html/images/` | `/var/www/html/<nome progetto>/laravel/public/images/` |
 | CSS | `/var/www/html/<nome progetto>/public_html/css/` | `/var/www/html/<nome progetto>/laravel/public/css/` |
 | JavaScript | `/var/www/html/<nome progetto>/public_html/js/` | `/var/www/html/<nome progetto>/laravel/public/js/` |
 | SVG | `/var/www/html/<nome progetto>/public_html/images/` | `/var/www/html/<nome progetto>/laravel/public/images/` |
+<<<<<<< HEAD
 <<<<<<< .merge_file_6S5iM5
 <<<<<<< HEAD
 =======
@@ -173,6 +185,8 @@
 =======
 >>>>>>> .merge_file_rOMvW0
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Utilizzo degli Asset nei Componenti Blade
 
@@ -204,6 +218,7 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6S5iM5
 /var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/
 =======
@@ -247,6 +262,9 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 /var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/
 >>>>>>> .merge_file_rOMvW0
 >>>>>>> laraxot/dev
+=======
+/var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/
+>>>>>>> 0dadab4 (Lint)
 ```
 
 ### SVG come Asset Pubblici
@@ -255,6 +273,7 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6S5iM5
 /var/www/html/<nome progetto>/public_html/images/
 =======
@@ -298,6 +317,9 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 /var/www/html/<nome progetto>/public_html/images/
 >>>>>>> .merge_file_rOMvW0
 >>>>>>> laraxot/dev
+=======
+/var/www/html/<nome progetto>/public_html/images/
+>>>>>>> 0dadab4 (Lint)
 ```
 
 ## Gestione dei Componenti UI
@@ -308,6 +330,7 @@ Il componente avatar è implementato in:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6S5iM5
 /var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 =======
@@ -351,12 +374,16 @@ Il componente avatar è implementato in:
 /var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 >>>>>>> .merge_file_rOMvW0
 >>>>>>> laraxot/dev
+=======
+/var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
+>>>>>>> 0dadab4 (Lint)
 ```
 
 E utilizza gli avatar SVG dalla directory pubblica:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6S5iM5
 /var/www/html/<nome progetto>/public_html/images/avatars/
 =======
@@ -400,6 +427,9 @@ E utilizza gli avatar SVG dalla directory pubblica:
 /var/www/html/<nome progetto>/public_html/images/avatars/
 >>>>>>> .merge_file_rOMvW0
 >>>>>>> laraxot/dev
+=======
+/var/www/html/<nome progetto>/public_html/images/avatars/
+>>>>>>> 0dadab4 (Lint)
 ```
 
 ### Componente Icon
@@ -408,6 +438,7 @@ Il componente icon è implementato in:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6S5iM5
 /var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 =======
@@ -451,6 +482,9 @@ Il componente icon è implementato in:
 /var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 >>>>>>> .merge_file_rOMvW0
 >>>>>>> laraxot/dev
+=======
+/var/www/html/<nome progetto>/laravel/Themes/One/resources/views/components/ui/icon.blade.php
+>>>>>>> 0dadab4 (Lint)
 ```
 
 E include le definizioni SVG direttamente nel componente.
@@ -492,6 +526,7 @@ E include le definizioni SVG direttamente nel componente.
 ## Errori Comuni
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6S5iM5
 1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/<nome progetto>/laravel/public/` invece di `/var/www/html/<nome progetto>/public_html/`
 =======
@@ -535,6 +570,9 @@ E include le definizioni SVG direttamente nel componente.
 1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/<nome progetto>/laravel/public/` invece di `/var/www/html/<nome progetto>/public_html/`
 >>>>>>> .merge_file_rOMvW0
 >>>>>>> laraxot/dev
+=======
+1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/<nome progetto>/laravel/public/` invece di `/var/www/html/<nome progetto>/public_html/`
+>>>>>>> 0dadab4 (Lint)
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile
 4. **Inconsistenza nei nomi dei file**: Utilizzare convenzioni di naming diverse per file simili

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_OYBy7W
 <<<<<<< HEAD
 =======
@@ -44,6 +45,9 @@ return [
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_PT3arh
+=======
+return [
+>>>>>>> 0dadab4 (Lint)
     'actions' => [
         'toggle' => [
             'label' => 'Toggle Layout',

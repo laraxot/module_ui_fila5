@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zWUrkK
 =======
 <<<<<<< HEAD
@@ -50,6 +51,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_z2Kbf8
+=======
+>>>>>>> 0dadab4 (Lint)
 # Struttura delle Filament Resources
 
 ## Panoramica

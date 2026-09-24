@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_EG3Lz0
 <<<<<<< HEAD
 =======
@@ -21,6 +22,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_WkfJgN
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'step' => 'Schritt',
     'step_1' => 'Schritt 1',

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dJ9gnw
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_YinuIj
+=======
+>>>>>>> 0dadab4 (Lint)
 # api
 
 <!-- Contenuto migrato da _docs/api.txt -->

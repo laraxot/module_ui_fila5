@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_pu5N2D
 =======
 <<<<<<< HEAD
@@ -153,6 +154,8 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 **Next Review**: 2026-04-02
 =======
 >>>>>>> .merge_file_nqacJU
+=======
+>>>>>>> 0dadab4 (Lint)
 # 📚 **Indice Documentazione Modulo UI**
 
 **Status**: ✅ PHPStan Level 10 Compliant
@@ -263,6 +266,7 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 ## Dependency Intelligence
 
 - [Dependency intelligence](dependency-intelligence.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_pu5N2D
 <<<<<<< HEAD
 =======
@@ -435,3 +439,5 @@ Componenti UI riutilizzabili per tutti i temi e moduli.
 =======
 >>>>>>> .merge_file_nqacJU
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

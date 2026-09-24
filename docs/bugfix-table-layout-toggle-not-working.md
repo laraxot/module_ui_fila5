@@ -3,6 +3,7 @@ module: UI
 topic: table-layout-toggle
 status: open
 <<<<<<< HEAD
+<<<<<<< HEAD
 related_issue: provtv/base_ptv_fila5_mono
 <<<<<<< .merge_file_aFztwP
 =======
@@ -31,6 +32,9 @@ related_issue: provtv/<nome repository>
 =======
 >>>>>>> .merge_file_WB0Igc
 >>>>>>> laraxot/dev
+=======
+related_issue: provtv/base_ptv_fila5_mono
+>>>>>>> 0dadab4 (Lint)
 related_module_repo: laraxot/module_ui_fila5
 ---
 

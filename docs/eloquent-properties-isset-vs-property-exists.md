@@ -165,6 +165,7 @@ Prima di commit, verifica:
 ## Documentazione Completa
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SDnv61
 - **Guida Master**: [Xot: Eloquent Models Critical Rules](../../xot/docs/eloquent-models-critical-rules.md)
 - **Cast Actions**: [Xot: Cast Actions](../../xot/docs/cast-actions.md)
@@ -195,6 +196,11 @@ Prima di commit, verifica:
 - **Best Practices**: [Xot: Eloquent Properties Best Practices](../../xot/docs/eloquent-properties-best-practices.md)
 >>>>>>> .merge_file_GYmgok
 >>>>>>> laraxot/dev
+=======
+- **Guida Master**: [Xot: Eloquent Models Critical Rules](../../xot/docs/eloquent-models-critical-rules.md)
+- **Cast Actions**: [Xot: Cast Actions](../../xot/docs/cast-actions.md)
+- **Best Practices**: [Xot: Eloquent Properties Best Practices](../../xot/docs/eloquent-properties-best-practices.md)
+>>>>>>> 0dadab4 (Lint)
 
 ## Risorse
 
@@ -211,6 +217,7 @@ Prima di commit, verifica:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SDnv61
 =======
 <<<<<<< HEAD
@@ -224,10 +231,13 @@ Prima di commit, verifica:
 **Ultimo aggiornamento**: 2025-01-06
 =======
 >>>>>>> .merge_file_GYmgok
+=======
+>>>>>>> 0dadab4 (Lint)
 **Progetto**: base_<nome progetto>_fila5_mono
 **PHPStan**: Level 10
 **Status**: ✅ 0 Errors
 **Ultimo aggiornamento**: [DATE]
+<<<<<<< HEAD
 <<<<<<< .merge_file_SDnv61
 <<<<<<< HEAD
 =======
@@ -244,3 +254,5 @@ Prima di commit, verifica:
 =======
 >>>>>>> .merge_file_GYmgok
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

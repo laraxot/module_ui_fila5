@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_8M1OQh
 =======
 <<<<<<< HEAD
@@ -27,10 +28,13 @@ related:
 =======
 >>>>>>> .merge_file_EyGpLn
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ## [2026-06-05] docs | HackerNoon harness — tips 001-022 in wiki locale
 
 - Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
 - GitHub: [#272](https://github.com/laraxot/base_fixcity_fila5/issues/272) / [D#273](https://github.com/laraxot/base_fixcity_fila5/discussions/273)
+<<<<<<< HEAD
 <<<<<<< HEAD
 - Stub/checklist: second-brain → canon Xot, ai-harness, [hackernoon map](../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-<nome progetto>-map.md), [llm-wiki.txt](../../../../../bashscripts/tools/prompts/llm-wiki.txt)
 - GitHub: [#272](https://github.com/laraxot/<nome repitory>/issues/272) / [D#273](https://github.com/laraxot/<nome repitory>/discussions/273)
@@ -123,6 +127,11 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_EyGpLn
+=======
+
+# UI Wiki Log
+
+>>>>>>> 0dadab4 (Lint)
 ## [2026-05-21] bugfix | auth register focus perso per overlay header mobile
 - Nuova pagina: `concepts/auth-register-focus-loss-overlay.md`.
 - Root cause identificata in `x-ui.marketing.header`: container mobile fullscreen `fixed` che intercettava i click anche a menu chiuso.
@@ -139,6 +148,7 @@ related:
 - Distinto ownership tecnico (`UI` + `Xot`) da compatibilita' runtime.
 - Verificato che `spatie/laravel-model-states` latest stable richiede `PHP ^8.4`, mentre `2.12.1` si ferma a `Laravel 12`.
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_8M1OQh
 =======
 <<<<<<< HEAD
@@ -154,6 +164,8 @@ related:
 =======
 >>>>>>> .merge_file_EyGpLn
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## [2026-04-23] governance | EnumSelect API collisions (Filament v5)
 - Nuova pagina: `concepts/enumselect-filament-api-collisions.md`.
@@ -177,6 +189,7 @@ related:
 - Struttura wiki/log.md inizializzata.
 - Layer raw: tutti i file in `docs/` (eccetto `wiki/`).
 - Layer wiki: `docs/wiki/` — LLM-maintained, sintesi ad alto riuso.
+<<<<<<< HEAD
 <<<<<<< HEAD
 - Schema: `docs/.schema/WIKI_SCHEMA.md`
 - Adozione moduli: `docs/project/llm-wiki-module-adoption.md`
@@ -277,3 +290,7 @@ related:
 - Adozione moduli: `docs/project/llm-wiki-module-adoption.md`
 >>>>>>> .merge_file_EyGpLn
 >>>>>>> laraxot/dev
+=======
+- Schema: `docs/.schema/WIKI_SCHEMA.md`
+- Adozione moduli: `docs/project/llm-wiki-module-adoption.md`
+>>>>>>> 0dadab4 (Lint)

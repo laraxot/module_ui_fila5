@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_8k59rh
 =======
 <<<<<<< HEAD
@@ -48,6 +49,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5t0rdC
+=======
+>>>>>>> 0dadab4 (Lint)
 # Esempio Pratico: Implementazione TableLayoutEnum
 
 ## Panoramica
@@ -206,6 +209,7 @@ class UserResource extends XotBaseResource
 
     public static function getFormSchema(): array
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_8k59rh
 =======
 <<<<<<< HEAD
@@ -221,6 +225,8 @@ class UserResource extends XotBaseResource
 =======
 >>>>>>> .merge_file_5t0rdC
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
     {
         return [
             Forms\Components\TextInput::make('name')
@@ -406,6 +412,7 @@ class ListUsersTest extends TestCase
 
 - [TableLayoutEnum Documentation](../table-layout-enum-comprehensive.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_8k59rh
 - [UI Module Architecture](../architecture_rules.md)
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
@@ -430,4 +437,8 @@ class ListUsersTest extends TestCase
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
 >>>>>>> .merge_file_5t0rdC
 >>>>>>> laraxot/dev
+=======
+- [UI Module Architecture](../architecture_rules.md)
+- [Filament Best Practices](../../../../docs/filament_best_practices.md)
+>>>>>>> 0dadab4 (Lint)
 - [Translation Standards](../../../../docs/translation_standards.md)

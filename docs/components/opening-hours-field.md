@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4P7SSs
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_fCVKXi
+=======
+>>>>>>> 0dadab4 (Lint)
 # OpeningHoursField Component
 
 ## Introduzione

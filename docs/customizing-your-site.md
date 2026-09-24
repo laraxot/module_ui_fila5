@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zy8dGv
 =======
 <<<<<<< HEAD
@@ -53,6 +54,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/customizing-
 =======
 >>>>>>> .merge_file_Aft2AC
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 title: Customizing Your Site
 description: Customizing your Jigsaw docs site
 extends: _layouts.documentation
@@ -60,6 +63,7 @@ section: content
 ---
 # Customizing Your Site {#customizing}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zy8dGv
 =======
 <<<<<<< HEAD
@@ -87,6 +91,8 @@ Here’s a quick preview of what some of the basic type styles will look like in
 <div markdown="1" class="example pt-6">
 =======
 >>>>>>> .merge_file_Aft2AC
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Styles
 
@@ -119,6 +125,7 @@ Here’s a quick preview of what some of the basic type styles will look like in
 
 <div markdown="1" class="example pt-6">
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_zy8dGv
 <<<<<<< HEAD
 =======
@@ -149,12 +156,15 @@ Here’s a quick preview of what some of the basic type styles will look like in
 =======
 >>>>>>> .merge_file_Aft2AC
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 # h1 Heading
 ## h2 Heading
 ### h3 Heading
 #### h4 Heading
 ##### h5 Heading
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zy8dGv
 =======
 <<<<<<< HEAD
@@ -174,6 +184,8 @@ _The quick brown fox jumps over the lazy dog_
 [The quick brown fox jumps over the lazy dog](#)
 =======
 >>>>>>> .merge_file_Aft2AC
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## h2 Heading
 
@@ -203,6 +215,7 @@ _The quick brown fox jumps over the lazy dog_
 
 [The quick brown fox jumps over the lazy dog](#)
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_zy8dGv
 <<<<<<< HEAD
 =======
@@ -225,6 +238,8 @@ _The quick brown fox jumps over the lazy dog_
 =======
 >>>>>>> .merge_file_Aft2AC
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ```php
 class Foo extends bar
 {
@@ -233,6 +248,7 @@ class Foo extends bar
         //
     }
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_zy8dGv
 =======
@@ -259,6 +275,8 @@ class Foo extends bar
 ```
 =======
 >>>>>>> .merge_file_Aft2AC
+=======
+>>>>>>> 0dadab4 (Lint)
 ```
 
 </div>
@@ -311,6 +329,7 @@ This starter template comes pre-loaded with [Tailwind CSS](https://tailwindcss.c
 @tailwind utilities;
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
@@ -337,6 +356,8 @@ This starter template comes pre-loaded with [Tailwind CSS](https://tailwindcss.c
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ---
 
@@ -383,11 +404,14 @@ class Foo extends bar
 
 </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 * [customizing-your-site.md](../../../gdpr/docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../xot/docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../ui/docs/customizing-your-site.md)
@@ -398,6 +422,7 @@ class Foo extends bar
 * [customizing-your-site.md](../../../ui/project_docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../tenant/project_docs/it/customizing-your-site.md)
 * [customizing-your-site.md](../../../cms/project_docs/customizing-your-site.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -417,10 +442,13 @@ class Foo extends bar
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ### Versione Incoming
 
 ---
+<<<<<<< HEAD
 <<<<<<< .merge_file_zy8dGv
 <<<<<<< HEAD
 =======
@@ -451,3 +479,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/customizing-
 =======
 >>>>>>> .merge_file_Aft2AC
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

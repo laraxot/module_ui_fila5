@@ -1,6 +1,7 @@
 ---
 module: theme
 <<<<<<< HEAD
+<<<<<<< HEAD
 topic: architecture-rules-1
 =======
 <<<<<<< HEAD
@@ -9,10 +10,14 @@ topic: architecture-rules-1
 topic: architecture-rules_1
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+topic: architecture-rules-1
+>>>>>>> 0dadab4 (Lint)
 canonical: ../../../Themes/docs/shared-components/architecture-rules-Modules.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/architecture-rules-Modules.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -34,3 +39,5 @@ For strict coding standards, Filament extension rules, and PHPStan guidelines, p
 4.  **Translations**: Use `LangServiceProvider` for automatic label resolution.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

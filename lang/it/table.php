@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_FYNprY
 <<<<<<< HEAD
 =======
@@ -21,6 +22,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_qRR9A3
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'columns' => [
         'state_actions' => [
@@ -40,6 +43,7 @@ return [
         ],
         'label' => 'Table',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_FYNprY
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -57,6 +61,9 @@ return [
 =======
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_qRR9A3
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> 0dadab4 (Lint)
     ],
     'fields' => [
         'id' => [

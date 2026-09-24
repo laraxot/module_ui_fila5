@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_yOlMta
 =======
 <<<<<<< HEAD
@@ -47,6 +48,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MZEV0E
+=======
+>>>>>>> 0dadab4 (Lint)
 # FullCalendar Component
 
 ## Introduction

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_M1d4FZ
 <<<<<<< HEAD
 =======
@@ -29,6 +30,9 @@ return [
 =======
 return [
 >>>>>>> .merge_file_xLSNzf
+=======
+return [
+>>>>>>> 0dadab4 (Lint)
     'login' => [
         'title' => 'Accedi',
         'email' => 'Email',

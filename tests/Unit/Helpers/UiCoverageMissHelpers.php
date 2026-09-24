@@ -5,19 +5,25 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit\Helpers;
 
 use Modules\Cms\Actions\ResolveLocalizedBlockDataAction;
+<<<<<<< HEAD
 <<<<<<< .merge_file_d6ygPZ
 =======
 <<<<<<< .merge_file_cYEeEE
 >>>>>>> .merge_file_YXs1IW
+=======
+>>>>>>> 0dadab4 (Lint)
 <<<<<<< HEAD
 use ReflectionClass;
 =======
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_d6ygPZ
 =======
 =======
 >>>>>>> .merge_file_P2ECcY
 >>>>>>> .merge_file_YXs1IW
+=======
+>>>>>>> 0dadab4 (Lint)
 
 /**
  * Helper condivisi per sweep coverage UI (evita redeclare tra file Pest).
@@ -26,10 +32,13 @@ final class UiCoverageMissHelpers
 {
     public static function prop(object $target, string $name): mixed
     {
+<<<<<<< HEAD
 <<<<<<< .merge_file_d6ygPZ
 =======
 <<<<<<< .merge_file_cYEeEE
 >>>>>>> .merge_file_YXs1IW
+=======
+>>>>>>> 0dadab4 (Lint)
 <<<<<<< HEAD
         $ref = new ReflectionClass($target);
         while ($ref !== false) {
@@ -37,6 +46,7 @@ final class UiCoverageMissHelpers
         $ref = new \ReflectionClass($target);
         while (false !== $ref) {
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_d6ygPZ
 =======
 =======
@@ -44,6 +54,8 @@ final class UiCoverageMissHelpers
         while (false !== $ref) {
 >>>>>>> .merge_file_P2ECcY
 >>>>>>> .merge_file_YXs1IW
+=======
+>>>>>>> 0dadab4 (Lint)
             if ($ref->hasProperty($name)) {
                 $prop = $ref->getProperty($name);
                 $prop->setAccessible(true);
@@ -58,10 +70,13 @@ final class UiCoverageMissHelpers
 
     public static function set(object $target, string $name, mixed $value): void
     {
+<<<<<<< HEAD
 <<<<<<< .merge_file_d6ygPZ
 =======
 <<<<<<< .merge_file_cYEeEE
 >>>>>>> .merge_file_YXs1IW
+=======
+>>>>>>> 0dadab4 (Lint)
 <<<<<<< HEAD
         $ref = new ReflectionClass($target);
         while ($ref !== false) {
@@ -69,6 +84,7 @@ final class UiCoverageMissHelpers
         $ref = new \ReflectionClass($target);
         while (false !== $ref) {
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_d6ygPZ
 =======
 =======
@@ -76,6 +92,8 @@ final class UiCoverageMissHelpers
         while (false !== $ref) {
 >>>>>>> .merge_file_P2ECcY
 >>>>>>> .merge_file_YXs1IW
+=======
+>>>>>>> 0dadab4 (Lint)
             if ($ref->hasProperty($name)) {
                 $prop = $ref->getProperty($name);
                 $prop->setAccessible(true);

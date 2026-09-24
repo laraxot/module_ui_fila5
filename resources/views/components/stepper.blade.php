@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_ol6Acr
 <<<<<<< HEAD
 =======
@@ -70,6 +71,8 @@
 declare(strict_types=1);
 ?>
 >>>>>>> .merge_file_mCH0S8
+=======
+>>>>>>> 0dadab4 (Lint)
 @props([
     'currentStep' => 1,
     'totalSteps' => 4,

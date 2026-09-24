@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_z6Z7Qt
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_KvljMA
+=======
+>>>>>>> 0dadab4 (Lint)
 # RadioCollection - Esempi di Utilizzo
 
 ## Utilizzo Base

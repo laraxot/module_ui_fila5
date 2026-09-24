@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_hv4tsL
 =======
 <<<<<<< HEAD
@@ -66,6 +67,8 @@ related:
 =======
 >>>>>>> .merge_file_nY17UK
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 # AddressField Component
 
 ## Panoramica
@@ -104,6 +107,7 @@ AddressField::make('address')
 4. Testare con diversi formati di indirizzo
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [Torna alla documentazione UI](/docs/modules/module_ui.md#components)
 <<<<<<< .merge_file_hv4tsL
 =======
@@ -120,11 +124,15 @@ AddressField::make('address')
 Il componente AddressField è un campo Filament personalizzato per la gestione degli indirizzi. Integra funzionalità di geocoding e validazione degli indirizzi.
 =======
 >>>>>>> .merge_file_nY17UK
+=======
+[Torna alla documentazione UI](/docs/modules/module_ui.md#components)
+>>>>>>> 0dadab4 (Lint)
 # AddressField Component
 
 ## Panoramica
 Il componente AddressField è un campo Filament personalizzato per la gestione degli indirizzi. Integra funzionalità di geocoding e validazione degli indirizzi.
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_hv4tsL
 <<<<<<< HEAD
 =======
@@ -161,12 +169,15 @@ Il componente AddressField è un campo Filament personalizzato per la gestione d
 =======
 >>>>>>> .merge_file_nY17UK
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ## Caratteristiche
 - Autocompletamento degli indirizzi
 - Validazione dei campi dell'indirizzo
 - Integrazione con servizi di geocoding
 - Supporto per formati di indirizzo internazionali
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_hv4tsL
 =======
 <<<<<<< HEAD
@@ -180,10 +191,13 @@ Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
 Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
 =======
 >>>>>>> .merge_file_nY17UK
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Miglioramenti PHPStan Livello 9
 Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_hv4tsL
 <<<<<<< HEAD
 =======
@@ -195,12 +209,15 @@ Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
 =======
 >>>>>>> .merge_file_nY17UK
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 1. Tipizzazione stretta dei parametri
 2. Gestione null-safe degli oggetti Address
 3. Validazione dei dati di input
 4. Correzione dei type hints per le proprietà
 5. Implementazione delle interfacce corrette
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_hv4tsL
 =======
 <<<<<<< HEAD
@@ -215,11 +232,14 @@ use Modules\UI\ment\Forms\Components\AddressField;
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_nY17UK
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Utilizzo
 ```php
 use Modules\UI\ment\Forms\Components\AddressField;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_hv4tsL
 <<<<<<< HEAD
 =======
@@ -232,6 +252,8 @@ use Modules\UI\ment\Forms\Components\AddressField;
 =======
 >>>>>>> .merge_file_nY17UK
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 AddressField::make('address')
     ->required()
     ->searchable()
@@ -239,6 +261,7 @@ AddressField::make('address')
     ->withValidation();
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_hv4tsL
 
 =======
@@ -254,11 +277,15 @@ AddressField::make('address')
 
 >>>>>>> .merge_file_nY17UK
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 ## Best Practices
 1. Utilizzare sempre la validazione dei campi
 2. Implementare la gestione degli errori per il geocoding
 3. Configurare correttamente i servizi di geocoding
 4. Testare con diversi formati di indirizzo
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hv4tsL
 
@@ -300,3 +327,7 @@ AddressField::make('address')
 [Torna alla documentazione UI](/docs/modules/module_ui.md#components)
 >>>>>>> .merge_file_nY17UK
 >>>>>>> laraxot/dev
+=======
+
+[Torna alla documentazione UI](/docs/modules/module_ui.md#components)
+>>>>>>> 0dadab4 (Lint)

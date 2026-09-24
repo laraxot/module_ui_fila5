@@ -7,6 +7,7 @@ Questo file contiene i collegamenti alla documentazione UI che si trova nel modu
 ## Temi e Stili
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_V8hDdk
 =======
 <<<<<<< HEAD
@@ -20,10 +21,13 @@ Questo file contiene i collegamenti alla documentazione UI che si trova nel modu
 * [ui.md](../../../UI/docs/ui.md)
 =======
 >>>>>>> .merge_file_ZwTNkX
+=======
+>>>>>>> 0dadab4 (Lint)
 - [Compilazione Temi](../laravel/modules/ui/docs/compilazione_temi.md)
 ## Collegamenti tra versioni di ui.md
 * [ui.md](../../../xot/docs/roadmap/bottlenecks/ui.md)
 * [ui.md](../../../ui/docs/ui.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_V8hDdk
 <<<<<<< HEAD
 =======
@@ -40,3 +44,5 @@ Questo file contiene i collegamenti alla documentazione UI che si trova nel modu
 =======
 >>>>>>> .merge_file_ZwTNkX
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

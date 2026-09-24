@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_iGD2Er
 <<<<<<< HEAD
 =======
@@ -21,6 +22,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_DpifhY
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'state_icons' => [
         'no_transitions' => 'Nessuna transizione disponibile',
@@ -36,6 +39,7 @@ return [
         ],
         'label' => 'Components',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_iGD2Er
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -53,6 +57,9 @@ return [
 =======
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_DpifhY
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> 0dadab4 (Lint)
     ],
     'fields' => [
         'id' => [

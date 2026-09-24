@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_KdmMcq
 =======
 <<<<<<< HEAD
@@ -713,6 +714,8 @@ L'integrazione dei server MCP con il modulo UI consente di migliorare significat
 L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_ptvx_fila3_mono.
 =======
 >>>>>>> .merge_file_1RmOGR
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 module: theme
 topic: mcp_integration
@@ -720,6 +723,7 @@ canonical: ../../../Themes/docs/shared-components/mcp-integration.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/mcp-integration.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_KdmMcq
 <<<<<<< HEAD
 =======
@@ -1479,3 +1483,5 @@ L'integrazione dei server MCP con il modulo UI consente di migliorare significat
 =======
 >>>>>>> .merge_file_1RmOGR
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

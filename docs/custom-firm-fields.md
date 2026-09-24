@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_KVobUF
 =======
 <<<<<<< HEAD
@@ -44,6 +45,8 @@ updated: 2026-08-24
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_XVXjH5
+=======
+>>>>>>> 0dadab4 (Lint)
 https://github.com/tanthammar/filament-extras
 
 
@@ -53,6 +56,7 @@ https://github.com/saade/filament-extra
 
 https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KVobUF
 =======
@@ -84,3 +88,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/custom-firm-
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_XVXjH5
+=======
+>>>>>>> 0dadab4 (Lint)

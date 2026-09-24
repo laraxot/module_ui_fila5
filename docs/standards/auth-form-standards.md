@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_KHXzav
 =======
 <<<<<<< HEAD
@@ -64,6 +65,8 @@ related:
 =======
 >>>>>>> .merge_file_J6BA9V
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 # Standard Form di Autenticazione
 
 ## Principi di Design
@@ -109,6 +112,7 @@ related:
       Email
     </label>
     <div class="mt-1">
+<<<<<<< HEAD
 <<<<<<< HEAD
       <input
         type="email"
@@ -164,11 +168,16 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_J6BA9V
+=======
+      <input
+        type="email"
+>>>>>>> 0dadab4 (Lint)
         class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-primary-500 focus:border-primary-500 sm:text-sm"
       >
     </div>
   </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -184,11 +193,14 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
   <!-- Altri campi -->
 
   <div>
     <button
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KHXzav
 =======
@@ -250,6 +262,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_J6BA9V
+=======
+>>>>>>> 0dadab4 (Lint)
       type="submit"
       class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
     >
@@ -309,6 +323,7 @@ related:
 .auth-card {
   @apply shadow-sm;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_KHXzav
 <<<<<<< HEAD
@@ -347,6 +362,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
   @screen sm {
     @apply shadow-md;
   }
@@ -400,6 +418,7 @@ related:
 ```html
 <div class="auth-field">
   <label id="email-label">Email</label>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -766,6 +785,8 @@ related:
 <<<<<<< HEAD
 <div class="auth-field">
   <label id="email-label">Email</label>
+=======
+>>>>>>> 0dadab4 (Lint)
   <input
     type="email"
     aria-labelledby="email-label"
@@ -811,8 +832,11 @@ related:
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Form Standards](./form-standards.md)
 =======
+=======
+>>>>>>> 0dadab4 (Lint)
 - [Form Standards](./form_standards.md)
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md)
@@ -982,6 +1006,7 @@ related:
 
 ### ARIA Labels
 ```html
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
@@ -1020,6 +1045,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 <div class="auth-field">
   <label id="email-label">Email</label>
   <input
@@ -1028,29 +1055,36 @@ related:
     aria-required="true"
   >
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 ## Best Practices
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 </div>
 ```
 
 ## Best Practices
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 ## Best Practices
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 1. **Centratura e Allineamento**
    - Form sempre centrato nella viewport
    - Elementi interni allineati consistentemente
    - Larghezza massima appropriata per la leggibilità
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -1061,12 +1095,16 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 2. **Gerarchia Visiva**
    - Logo/brand in alto
    - Titolo chiaro e descrittivo
    - Campi form ben spaziati
    - Call to action prominente
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -1077,12 +1115,16 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 3. **Feedback Utente**
    - Validazione in tempo reale
    - Messaggi di errore chiari
    - Indicatori di stato (loading, success, error)
    - Focus states visibili
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -1093,11 +1135,15 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 4. **Responsive Design**
    - Layout fluido su tutti i dispositivi
    - Spaziatura adattiva
    - Touch targets appropriati su mobile
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -1108,11 +1154,15 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 5. **Performance**
    - Caricamento ottimizzato
    - Transizioni fluide
    - Gestione efficiente degli stati
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -1123,11 +1173,15 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
 6. **Sicurezza**
    - CSRF protection
    - Rate limiting
    - Validazione server-side
    - Sanitizzazione input
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1174,3 +1228,10 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+## Collegamenti
+- [Form Standards](./form_standards.md)
+- [UI Standards](./ui-standards.md)
+- [Accessibility](./accessibility.md)
+>>>>>>> 0dadab4 (Lint)

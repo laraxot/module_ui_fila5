@@ -6,6 +6,7 @@ declare(strict_types=1);
 // claude-audit static: split from icon_state_group.php for maintainability (<500 LOC).
 // Canon: Modules/UI/docs/wiki/concepts/claude-audit-static.md
 // File: lang/it/icon_state_group_navigation.php
+<<<<<<< HEAD
 <<<<<<< .merge_file_lg5QUK
 <<<<<<< HEAD
 return array (
@@ -26,6 +27,8 @@ return array (
 =======
 =======
 >>>>>>> .merge_file_CfXVOw
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'navigation' => [
         'name' => 'Icon State Group',
@@ -36,6 +39,7 @@ return [
         ],
         'label' => 'Icon State Group',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_lg5QUK
 <<<<<<< HEAD
         'icon' => 'heroicon-o-rectangle-stack',
@@ -54,3 +58,8 @@ return [
     ],
 ];
 >>>>>>> .merge_file_CfXVOw
+=======
+        'icon' => 'heroicon-o-collection',
+    ],
+];
+>>>>>>> 0dadab4 (Lint)

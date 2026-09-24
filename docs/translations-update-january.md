@@ -141,6 +141,7 @@ Tutte le traduzioni seguono la struttura espansa:
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Z3wc97
 - [Laraxot Translation Philosophy](../../xot/docs/translation-philosophy.md)
 - [Translation Standards](../../xot/docs/translation-standards.md)
@@ -165,6 +166,11 @@ Tutte le traduzioni seguono la struttura espansa:
 - [UI Module Documentation](../readme.md)
 >>>>>>> .merge_file_BJD0Kx
 >>>>>>> laraxot/dev
+=======
+- [Laraxot Translation Philosophy](../../xot/docs/translation-philosophy.md)
+- [Translation Standards](../../xot/docs/translation-standards.md)
+- [UI Module Documentation](../readme.md)
+>>>>>>> 0dadab4 (Lint)
 
 *Intervento completato il: 2026-01-22*
 *Conforme alle regole DRY + KISS*

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_1YeElu
 <<<<<<< HEAD
 =======
@@ -64,6 +65,8 @@
 declare(strict_types=1);
 ?>
 >>>>>>> .merge_file_24Xhsa
+=======
+>>>>>>> 0dadab4 (Lint)
 @props([
     'title' => '',
     'id' => 'item-' . uniqid(),

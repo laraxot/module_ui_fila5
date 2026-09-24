@@ -5,6 +5,7 @@ module: UI
 updated: 2026-06-15
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_8QCZQ3
   - ../../../../../../docs/wiki/method-name-homonym-census.md
   - ../../../../../../bashscripts/docs/method-homonym-census.json
@@ -42,6 +43,10 @@ related:
   - ../../../../../../bashscripts/docs/method-homonym-census.json
 >>>>>>> .merge_file_IKqDvG
 >>>>>>> laraxot/dev
+=======
+  - ../../../../../../docs/wiki/method-name-homonym-census.md
+  - ../../../../../../bashscripts/docs/method-homonym-census.json
+>>>>>>> 0dadab4 (Lint)
 ---
 
 # Censimento omonimi metodi — UI

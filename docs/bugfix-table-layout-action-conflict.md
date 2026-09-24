@@ -1,9 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 module: theme
 topic: bugfix-table-layout-action-conflict
@@ -11,6 +14,7 @@ canonical: ../../../Themes/docs/shared-components/bugfix-table-layout-action-.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/bugfix-table-layout-action-.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -212,3 +216,5 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

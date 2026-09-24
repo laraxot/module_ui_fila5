@@ -67,6 +67,7 @@ app/
 
 **Guide da consolidare:**
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_xfcjQe
 =======
 <<<<<<< HEAD
@@ -80,10 +81,13 @@ app/
 - **Code Quality:** Fare riferimento a `../../docs/core/code-quality-guide.md`
 =======
 >>>>>>> .merge_file_5CKuv3
+=======
+>>>>>>> 0dadab4 (Lint)
 - **PHPStan:** Fare riferimento a `../../../docs/core/phpstan-guide.md`
 - **Filament:** Fare riferimento a `../../../docs/core/filament-best-practices.md`
 - **Testing:** Fare riferimento a `../../../docs/core/testing-guide.md`
 - **Code Quality:** Fare riferimento a `../../../docs/core/code-quality-guide.md`
+<<<<<<< HEAD
 <<<<<<< .merge_file_xfcjQe
 <<<<<<< HEAD
 =======
@@ -100,6 +104,8 @@ app/
 =======
 >>>>>>> .merge_file_5CKuv3
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ### 2. Standardizzazione Naming File
 **Azione:** Rinominare tutti i file seguendo convenzioni corrette
@@ -307,6 +313,7 @@ php artisan test --testsuite=UI
 ## 🔗 Collegamenti Sistema
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_xfcjQe
 =======
 <<<<<<< HEAD
@@ -321,11 +328,14 @@ php artisan test --testsuite=UI
 - [**Template Moduli**](../../docs/templates/)
 =======
 >>>>>>> .merge_file_5CKuv3
+=======
+>>>>>>> 0dadab4 (Lint)
 - [**Documentazione Core Sistema**](../../../docs/core/)
 - [**PHPStan Guide**](../../../docs/core/phpstan-guide.md)
 - [**Filament Best Practices**](../../../docs/core/filament-best-practices.md)
 - [**Convenzioni Sistema**](../../../docs/core/conventions.md)
 - [**Template Moduli**](../../../docs/templates/)
+<<<<<<< HEAD
 <<<<<<< .merge_file_xfcjQe
 <<<<<<< HEAD
 =======
@@ -343,6 +353,8 @@ php artisan test --testsuite=UI
 =======
 >>>>>>> .merge_file_5CKuv3
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ---
 

@@ -6,6 +6,7 @@ declare(strict_types=1);
 // claude-audit static: split from icon_state_group.php for maintainability (<500 LOC).
 // Canon: Modules/UI/docs/wiki/concepts/claude-audit-static.md
 // File: lang/it/icon_state_group_actions.php
+<<<<<<< HEAD
 <<<<<<< .merge_file_fd3BCf
 <<<<<<< HEAD
 return array (
@@ -28,6 +29,8 @@ return array (
 =======
 =======
 >>>>>>> .merge_file_FxMgBO
+=======
+>>>>>>> 0dadab4 (Lint)
 return [
     'actions' => [
         'create' => [
@@ -41,7 +44,10 @@ return [
         ],
     ],
 ];
+<<<<<<< HEAD
 <<<<<<< .merge_file_fd3BCf
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_FxMgBO
+=======
+>>>>>>> 0dadab4 (Lint)

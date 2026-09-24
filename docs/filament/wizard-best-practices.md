@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dJ8Ax
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_21uXql
+=======
+>>>>>>> 0dadab4 (Lint)
 # Best Practices per i Wizard in Filament
 
 ## Regola Fondamentale: Estrazione dei Metodi per gli Step
@@ -66,6 +69,7 @@ Quando si implementa un `Wizard` in Filament, **non inserire mai direttamente** 
 ```php
 // ✅ CORRETTO
 public static function getFormSchemaWidget(): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_6dJ8Ax
 =======
@@ -82,6 +86,8 @@ public function getFormSchemaWidget(): array
 =======
 >>>>>>> .merge_file_21uXql
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 {
     return [
         Forms\Components\Wizard::make([
@@ -110,6 +116,7 @@ protected static function getPersonalDataStep(): Forms\Components\Wizard\Step
 // ❌ ERRATO
 public static function getFormSchemaWidget(): array
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dJ8Ax
 =======
 <<<<<<< HEAD
@@ -125,6 +132,8 @@ public function getFormSchemaWidget(): array
 =======
 >>>>>>> .merge_file_21uXql
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 {
     return [
         Forms\Components\Wizard::make([
@@ -188,6 +197,7 @@ class PatientResource extends XotBaseResource
 {
     public static function getFormSchemaWidget(): array
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dJ8Ax
 =======
 <<<<<<< HEAD
@@ -203,6 +213,8 @@ class PatientResource extends XotBaseResource
 =======
 >>>>>>> .merge_file_21uXql
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
     {
         return [
             Forms\Components\Wizard::make([
@@ -243,6 +255,7 @@ L'estrazione in metodi dedicati facilita anche la gestione di step condizionali:
 ```php
 public static function getFormSchemaWidget(): array
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dJ8Ax
 =======
 <<<<<<< HEAD
@@ -258,6 +271,8 @@ public function getFormSchemaWidget(): array
 =======
 >>>>>>> .merge_file_21uXql
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 {
     $steps = [
         self::getPersonalDataStep(),

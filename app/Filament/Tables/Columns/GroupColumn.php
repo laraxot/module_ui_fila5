@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Tables\Columns\Column;
+<<<<<<< HEAD
 <<<<<<< .merge_file_tR081w
 <<<<<<< HEAD
 
@@ -41,6 +42,10 @@ class GroupColumn extends XotBaseColumn
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_qrATa5
+=======
+
+class GroupColumn extends Column
+>>>>>>> 0dadab4 (Lint)
 {
     /** @var array<int|string, mixed> */
     public array $form = [];
@@ -54,11 +59,14 @@ class GroupColumn extends XotBaseColumn
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
      * Initialize the component.
      */
     protected function setUp(): void
@@ -70,11 +78,14 @@ class GroupColumn extends XotBaseColumn
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
      * @return array<Column>
      */
     public function getFields(): array
@@ -83,6 +94,7 @@ class GroupColumn extends XotBaseColumn
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -113,6 +125,14 @@ class GroupColumn extends XotBaseColumn
 =======
         $filtered = array_filter($form, static function (mixed $item): bool {
 >>>>>>> .merge_file_qrATa5
+=======
+     * @param array<int|string, mixed> $form
+     */
+    public function schema(array $form): self
+    {
+        // Type-check to ensure all elements are Column instances
+        $filtered = array_filter($form, function (mixed $item): bool {
+>>>>>>> 0dadab4 (Lint)
             return $item instanceof Column;
         });
 
@@ -120,6 +140,7 @@ class GroupColumn extends XotBaseColumn
         $filteredValues = array_values($filtered);
         $this->schema = $filteredValues;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_tR081w
 <<<<<<< HEAD
         return $this;
@@ -180,4 +201,8 @@ class GroupColumn extends XotBaseColumn
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_qrATa5
+=======
+        return $this;
+    }
+>>>>>>> 0dadab4 (Lint)
 }

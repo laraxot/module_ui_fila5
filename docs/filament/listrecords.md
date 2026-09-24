@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12,11 +13,17 @@
 // ❌ ERRATO: Non estendere ListRecords
 use Filament\Resources\Pages\ListRecords;
 =======
+=======
+# List Records in Filament
+
+## Estensione Corretta
+>>>>>>> 0dadab4 (Lint)
 
 ```php
 // ❌ ERRATO: Non estendere ListRecords
 use Filament\Resources\Pages\ListRecords;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_bWV7Sr
 <<<<<<< HEAD
 =======
@@ -84,10 +91,13 @@ use Filament\Resources\Pages\ListRecords;
 =======
 >>>>>>> .merge_file_dN6dZC
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 class ListMyRecords extends ListRecords
 {
     // ...
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_bWV7Sr
 
@@ -128,6 +138,10 @@ Estendono `XotBaseListRecords`: traduzioni, permessi e colonne restano nel contr
 // ✅ CORRETTO: Estendere XotBaseListRecords
 >>>>>>> .merge_file_dN6dZC
 >>>>>>> laraxot/dev
+=======
+
+// ✅ CORRETTO: Estendere XotBaseListRecords
+>>>>>>> 0dadab4 (Lint)
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 
 class ListMyRecords extends XotBaseListRecords
@@ -139,6 +153,7 @@ class ListMyRecords extends XotBaseListRecords
         return [
             // definizione colonne
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bWV7Sr
 =======
 <<<<<<< HEAD
@@ -154,11 +169,14 @@ class ListMyRecords extends XotBaseListRecords
 =======
 >>>>>>> .merge_file_dN6dZC
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
         ];
     }
 }
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_bWV7Sr
 =======
@@ -315,15 +333,21 @@ class ListMyRecords extends XotBaseListRecords
 ## Metodi Obbligatori
 Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti metodi:
 =======
+=======
+>>>>>>> 0dadab4 (Lint)
 ## Metodi Obbligatori
 
 Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti metodi:
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 1. `getListTableColumns()`: Definisce le colonne della tabella
 2. `getListTableActions()`: Definisce le azioni per singola riga
 3. `getListTableBulkActions()`: Definisce le azioni di massa
 4. `getListTableFilters()`: Definisce i filtri della tabella
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## Convenzioni Importanti
 1. **Prefisso List**:
@@ -338,6 +362,8 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
    // NON estendere mai ListRecords direttamente
 2. **❌ Metodi Senza Prefisso List**:
 =======
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Convenzioni Importanti
 
@@ -364,11 +390,15 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 
 2. **❌ Metodi Senza Prefisso List**:
    ```php
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
    // NON usare i metodi senza prefisso List
    public function getTableColumns(): array
    public function getTableActions(): array
    public function getTableBulkActions(): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 3. **❌ Visibilità Errata**:
    // NON cambiare la visibilità dei metodi
@@ -390,6 +420,8 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
    - Usare can() per azioni condizionali
 ## Note Importanti
 =======
+=======
+>>>>>>> 0dadab4 (Lint)
    ```
 
 3. **❌ Visibilità Errata**:
@@ -441,11 +473,15 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 
 ## Note Importanti
 
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 1. XotBaseListRecords fornisce funzionalità aggiuntive rispetto a ListRecords:
    - Gestione automatica delle traduzioni
    - Integrazione con il sistema di permessi
    - Funzionalità custom del framework
+<<<<<<< HEAD
 <<<<<<< HEAD
 2. La configurazione della tabella deve essere sempre nella classe List, non nel Resource
 3. Mantenere la coerenza in tutto il progetto usando sempre XotBaseListRecords
@@ -455,6 +491,8 @@ use Exception;
 use Filament\Actions;
 use Filament\Actions\CreateAction;
 =======
+=======
+>>>>>>> 0dadab4 (Lint)
 
 2. La configurazione della tabella deve essere sempre nella classe List, non nel Resource
 
@@ -465,6 +503,7 @@ declare(strict_types=1);
 
 namespace Modules\XXX\Filament\Resources\XXXResource\Pages;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -492,11 +531,16 @@ namespace Modules\XXX\Filament\Resources\XXXResource\Pages;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 use Exception;
 use Filament\Actions;
 use Filament\Actions\CreateAction;
 use Filament\Resources\Pages\ListRecords;
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 use Filament\Tables\Actions\Action;
 use Filament\Tables\Actions\ActionGroup;
 use Filament\Tables\Actions\DeleteAction;
@@ -513,6 +557,7 @@ use Modules\UI\Enums\TableLayoutEnum;
 use Modules\UI\Filament\Actions\Table\TableLayoutToggleTableAction;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
+<<<<<<< HEAD
 <<<<<<< HEAD
 class ListXXX extends XotBaseListRecords
     protected static string $resource = XXXResource::class;
@@ -549,11 +594,16 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+
+>>>>>>> 0dadab4 (Lint)
 class ListXXX extends XotBaseListRecords
 {
 
     protected static string $resource = XXXResource::class;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -603,11 +653,14 @@ class ListXXX extends XotBaseListRecords
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
     public function getGridTableColumns(): array
     {
         return [
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -643,6 +696,8 @@ class ListMyRecords extends XotBaseListRecords
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
     public function getListTableColumns(): array
     {
@@ -650,11 +705,14 @@ class ListMyRecords extends XotBaseListRecords
         ];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
     public function getTableFilters(): array
     {
@@ -685,6 +743,7 @@ class ListMyRecords extends XotBaseListRecords
 
     public function table(Table $table): Table
     {
+<<<<<<< HEAD
 <<<<<<< .merge_file_bWV7Sr
 <<<<<<< HEAD
 =======
@@ -738,11 +797,14 @@ class ListMyRecords extends XotBaseListRecords
 =======
 >>>>>>> .merge_file_dN6dZC
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
         return $table
             // ->columns($this->getTableColumns())
             ->columns($this->layoutView->getTableColumns())
             ->contentGrid($this->layoutView->getTableContentGrid())
             ->headerActions($this->getTableHeaderActions())
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_bWV7Sr
 
@@ -759,6 +821,9 @@ class ListMyRecords extends XotBaseListRecords
 
 >>>>>>> .merge_file_dN6dZC
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
             ->filters($this->getTableFilters())
             ->filtersLayout(FiltersLayout::AboveContent)
             ->persistFiltersInSession()
@@ -770,6 +835,7 @@ class ListMyRecords extends XotBaseListRecords
                 direction: 'DESC',
             );
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_bWV7Sr
 <<<<<<< HEAD
@@ -778,6 +844,8 @@ class ListMyRecords extends XotBaseListRecords
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_dN6dZC
+=======
+>>>>>>> 0dadab4 (Lint)
     }
 }
 ```
@@ -805,6 +873,7 @@ class ListMyRecords extends XotBaseListRecords
     {
         return [
             // definizione colonne
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -853,21 +922,27 @@ class ListMyRecords extends XotBaseListRecords
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
         ];
     }
 }
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ## Metodi Obbligatori
 
 Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti metodi:
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -900,16 +975,21 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 1. `getListTableColumns()`: Definisce le colonne della tabella
 2. `getListTableActions()`: Definisce le azioni per singola riga
 3. `getListTableBulkActions()`: Definisce le azioni di massa
 4. `getListTableFilters()`: Definisce i filtri della tabella
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 ## Convenzioni Importanti
 
@@ -937,6 +1017,7 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 2. **❌ Metodi Senza Prefisso List**:
    ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
@@ -957,16 +1038,21 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
    // NON usare i metodi senza prefisso List
    public function getTableColumns(): array
    public function getTableActions(): array
    public function getTableBulkActions(): array
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
    ```
 
 3. **❌ Visibilità Errata**:
@@ -1019,6 +1105,7 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 ## Note Importanti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
@@ -1046,16 +1133,21 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 1. XotBaseListRecords fornisce funzionalità aggiuntive rispetto a ListRecords:
    - Gestione automatica delle traduzioni
    - Integrazione con il sistema di permessi
    - Funzionalità custom del framework
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 
 2. La configurazione della tabella deve essere sempre nella classe List, non nel Resource
 
@@ -1071,6 +1163,7 @@ use Filament\Actions;
 use Filament\Actions\CreateAction;
 use Filament\Resources\Pages\ListRecords;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
@@ -1086,6 +1179,8 @@ use Filament\Actions\CreateAction;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 use Filament\Tables\Actions\Action;
 use Filament\Tables\Actions\ActionGroup;
 use Filament\Tables\Actions\DeleteAction;
@@ -1103,11 +1198,14 @@ use Modules\UI\Filament\Actions\Table\TableLayoutToggleTableAction;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 
 class ListXXX extends XotBaseListRecords
@@ -1157,6 +1255,7 @@ class ListXXX extends XotBaseListRecords
     public function table(Table $table): Table
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> laraxot/dev
@@ -1176,12 +1275,15 @@ class ListXXX extends XotBaseListRecords
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
         return $table
             // ->columns($this->getTableColumns())
             ->columns($this->layoutView->getTableColumns())
             ->contentGrid($this->layoutView->getTableContentGrid())
             ->headerActions($this->getTableHeaderActions())
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -1192,6 +1294,9 @@ class ListXXX extends XotBaseListRecords
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> 0dadab4 (Lint)
             ->filters($this->getTableFilters())
             ->filtersLayout(FiltersLayout::AboveContent)
             ->persistFiltersInSession()
@@ -1202,6 +1307,7 @@ class ListXXX extends XotBaseListRecords
                 column: 'created_at',
                 direction: 'DESC',
             );
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 }
@@ -1243,3 +1349,8 @@ class ListXXX extends XotBaseListRecords
 =======
 >>>>>>> .merge_file_dN6dZC
 >>>>>>> laraxot/dev
+=======
+    }
+}
+```
+>>>>>>> 0dadab4 (Lint)

@@ -3,6 +3,7 @@ module: theme
 topic: concept
 canonical: ../../../../../Themes/docs/shared-components/concept.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_XyYfLT
 =======
 <<<<<<< HEAD
@@ -23,6 +24,8 @@ related:
 =======
 >>>>>>> .merge_file_Zxe3oI
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/concept.md

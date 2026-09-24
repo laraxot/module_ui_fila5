@@ -275,6 +275,7 @@ class ButtonBrowserTest extends DuskTestCase
 * [README.md](../../../../themes/two/docs/readme.md)
 * [README.md](../../../../themes/one/docs/readme.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Us126A
 =======
 <<<<<<< HEAD
@@ -326,3 +327,5 @@ Core module for the FixCity Platform.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_P29yfi
+=======
+>>>>>>> 0dadab4 (Lint)

@@ -4,6 +4,7 @@ type: rule
 module: UI
 created: 2026-07-06
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VHrTUn
 updated: 2026-07-06
 =======
@@ -38,10 +39,14 @@ related:
 updated: 2026-07-06
 >>>>>>> .merge_file_KluykR
 >>>>>>> laraxot/dev
+=======
+updated: 2026-07-06
+>>>>>>> 0dadab4 (Lint)
 ---
 
 # Confine UI e Geo
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VHrTUn
 =======
@@ -154,6 +159,8 @@ git grep -n 'Modules\\Geo' -- app || true
 - [memoria root](../../../../docs/wiki/memories/ui-no-map-adapters-geo-absent.md)
 =======
 >>>>>>> .merge_file_KluykR
+=======
+>>>>>>> 0dadab4 (Lint)
 ## Regola
 
 Il modulo `UI` non deve dipendere dal modulo `Geo`.
@@ -182,6 +189,7 @@ Non riattivarlo in `UI`. Se in futuro servira' una mappa, crearla nel modulo `Ge
 ## Motivazione
 
 Questa separazione evita dipendenze inverse, classi mancanti e accoppiamento tra design system e dominio geografico.
+<<<<<<< HEAD
 <<<<<<< .merge_file_VHrTUn
 <<<<<<< HEAD
 =======
@@ -327,3 +335,5 @@ git grep -n 'Modules\\Geo' -- app || true
 =======
 >>>>>>> .merge_file_KluykR
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

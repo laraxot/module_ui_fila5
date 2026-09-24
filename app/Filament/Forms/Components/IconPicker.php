@@ -6,6 +6,7 @@ namespace Modules\UI\Filament\Forms\Components;
 
 use Filament\Actions\Action;
 use Filament\Forms\Components\Select;
+<<<<<<< HEAD
 <<<<<<< .merge_file_dSsC7Z
 <<<<<<< HEAD
 use Filament\Forms\Components\TextInput;
@@ -20,11 +21,15 @@ use Filament\Forms\Components\TextInput;
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_3Qh3hN
+=======
+use Filament\Forms\Components\TextInput;
+>>>>>>> 0dadab4 (Lint)
 use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Components\Utilities\Set;
 use Illuminate\Support\Arr;
 use Modules\UI\Actions\Icon\GetAllIconsAction;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
+<<<<<<< HEAD
 <<<<<<< .merge_file_dSsC7Z
 <<<<<<< HEAD
 use Webmozart\Assert\Assert;
@@ -54,6 +59,11 @@ use Webmozart\Assert\Assert;
 
 class IconPicker extends XotBaseTextInput
 >>>>>>> .merge_file_3Qh3hN
+=======
+use Webmozart\Assert\Assert;
+
+class IconPicker extends TextInput
+>>>>>>> 0dadab4 (Lint)
 {
     protected function setUp(): void
     {
@@ -92,6 +102,7 @@ class IconPicker extends XotBaseTextInput
                             );
                             /** @var array<int|string, mixed> $optsRaw */
                             $optsValues = array_map(
+<<<<<<< HEAD
 <<<<<<< .merge_file_dSsC7Z
 <<<<<<< HEAD
                                 static fn ($v) => SafeStringCastAction::cast($v),
@@ -109,10 +120,14 @@ class IconPicker extends XotBaseTextInput
 =======
                                 SafeStringCastAction::cast(...),
 >>>>>>> .merge_file_3Qh3hN
+=======
+                                static fn ($v) => SafeStringCastAction::cast($v),
+>>>>>>> 0dadab4 (Lint)
                                 array_values($optsRaw),
                             );
                             /** @var array<int|string> $optsKeys */
                             $optsKeys = array_map(
+<<<<<<< HEAD
 <<<<<<< .merge_file_dSsC7Z
 <<<<<<< HEAD
                                 static fn ($k) => SafeStringCastAction::cast($k),
@@ -130,6 +145,9 @@ class IconPicker extends XotBaseTextInput
 =======
                                 static fn (int|string $k): string => SafeStringCastAction::cast($k),
 >>>>>>> .merge_file_3Qh3hN
+=======
+                                static fn ($k) => SafeStringCastAction::cast($k),
+>>>>>>> 0dadab4 (Lint)
                                 array_keys($optsRaw),
                             );
                             $optsCombined = array_combine($optsKeys, $optsValues);

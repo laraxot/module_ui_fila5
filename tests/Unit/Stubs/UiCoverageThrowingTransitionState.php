@@ -14,6 +14,7 @@ final class UiCoverageThrowingTransitionState extends UiCoverageStateContract
      *
      * @param Model|array<string, mixed>|string|null $record
      *                                                       =======
+<<<<<<< HEAD
      *                                                       <<<<<<< .merge_file_4lu2mV
      * @param Model|array<string, mixed>|string|null $record
      *                                                       =======
@@ -27,6 +28,9 @@ final class UiCoverageThrowingTransitionState extends UiCoverageStateContract
      *                                                       >>>>>>> laraxot/dev
      *                                                       >>>>>>> .merge_file_5pNamr
      *                                                       >>>>>>> .merge_file_fSpVtB
+=======
+     * @param Model|array<string, mixed>|string|null $record
+>>>>>>> 0dadab4 (Lint)
      *                                                       >>>>>>> laraxot/dev
      */
     public function __construct(Model|array|string|null $record = null)

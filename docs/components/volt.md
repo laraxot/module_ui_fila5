@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_gOLy4t
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_GLr51b
+=======
+>>>>>>> 0dadab4 (Lint)
 # Componenti Volt
 
 ## Panoramica
@@ -66,6 +69,7 @@ Nel progetto la regola di default per le componenti Volt interattive è la sinta
 - [Documentazione Volt](https://livewire.laravel.com/docs/volt)
 - [Livewire](https://livewire.laravel.com)
 - [Filament](https://filamentphp.com)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_gOLy4t
 - [Documentazione UI](../readme.md)
@@ -85,6 +89,9 @@ Nel progetto la regola di default per le componenti Volt interattive è la sinta
 - [Documentazione UI](../readme.md)
 >>>>>>> .merge_file_GLr51b
 >>>>>>> laraxot/dev
+=======
+- [Documentazione UI](../readme.md)
+>>>>>>> 0dadab4 (Lint)
 - [Best Practices](../best-practices.md)
 - [Layout](../layouts.md)
 - [Temi](../themes.md)

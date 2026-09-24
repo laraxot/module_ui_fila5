@@ -2,6 +2,7 @@
 module: theme
 topic: list-records
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_msIX3B
 =======
 <<<<<<< HEAD
@@ -24,10 +25,13 @@ related:
 See canonical documentation: ../../../../Themes/docs/shared-components/listrecords-1.md
 =======
 >>>>>>> .merge_file_3KP1Be
+=======
+>>>>>>> 0dadab4 (Lint)
 canonical: ../../../../Themes/docs/shared-components/ListRecords.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/ListRecords.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_msIX3B
 <<<<<<< HEAD
 =======
@@ -53,3 +57,5 @@ See canonical documentation: ../../../../Themes/docs/shared-components/listrecor
 =======
 >>>>>>> .merge_file_3KP1Be
 >>>>>>> laraxot/dev
+=======
+>>>>>>> 0dadab4 (Lint)

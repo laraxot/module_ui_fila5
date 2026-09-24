@@ -30,6 +30,7 @@ Il modulo UI è l'esempio **perfetto** di come dovrebbe essere un BaseModel quan
 
 ## 🔗 Collegamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_geLNmp
 [DRY/KISS Global](../../../docs/dry_kiss_analysis_2025-10-15.md)
 =======
@@ -48,6 +49,9 @@ Il modulo UI è l'esempio **perfetto** di come dovrebbe essere un BaseModel quan
 [DRY/KISS Global](../../../docs/dry_kiss_analysis_2025-10-15.md)
 >>>>>>> .merge_file_Fzx1GO
 >>>>>>> laraxot/dev
+=======
+[DRY/KISS Global](../../../docs/dry_kiss_analysis_2025-10-15.md)
+>>>>>>> 0dadab4 (Lint)
 
 ---
 
