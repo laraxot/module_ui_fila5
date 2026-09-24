@@ -5,22 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit\Helpers;
 
 use Modules\Cms\Actions\ResolveLocalizedBlockDataAction;
-<<<<<<< HEAD
-<<<<<<< .merge_file_d6ygPZ
-=======
-<<<<<<< .merge_file_cYEeEE
->>>>>>> .merge_file_YXs1IW
-<<<<<<< HEAD
 use ReflectionClass;
-=======
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_d6ygPZ
-=======
-=======
->>>>>>> .merge_file_P2ECcY
->>>>>>> .merge_file_YXs1IW
-=======
->>>>>>> 804451c (Lint)
 
 /**
  * Helper condivisi per sweep coverage UI (evita redeclare tra file Pest).
@@ -29,29 +14,8 @@ final class UiCoverageMissHelpers
 {
     public static function prop(object $target, string $name): mixed
     {
-<<<<<<< HEAD
-<<<<<<< .merge_file_d6ygPZ
-=======
-<<<<<<< .merge_file_cYEeEE
->>>>>>> .merge_file_YXs1IW
-<<<<<<< HEAD
         $ref = new ReflectionClass($target);
         while ($ref !== false) {
-=======
-        $ref = new \ReflectionClass($target);
-        while (false !== $ref) {
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_d6ygPZ
-=======
-=======
-        $ref = new \ReflectionClass($target);
-        while (false !== $ref) {
->>>>>>> .merge_file_P2ECcY
->>>>>>> .merge_file_YXs1IW
-=======
-        $ref = new \ReflectionClass($target);
-        while (false !== $ref) {
->>>>>>> 804451c (Lint)
             if ($ref->hasProperty($name)) {
                 $prop = $ref->getProperty($name);
                 $prop->setAccessible(true);
@@ -66,29 +30,8 @@ final class UiCoverageMissHelpers
 
     public static function set(object $target, string $name, mixed $value): void
     {
-<<<<<<< HEAD
-<<<<<<< .merge_file_d6ygPZ
-=======
-<<<<<<< .merge_file_cYEeEE
->>>>>>> .merge_file_YXs1IW
-<<<<<<< HEAD
         $ref = new ReflectionClass($target);
         while ($ref !== false) {
-=======
-        $ref = new \ReflectionClass($target);
-        while (false !== $ref) {
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_d6ygPZ
-=======
-=======
-        $ref = new \ReflectionClass($target);
-        while (false !== $ref) {
->>>>>>> .merge_file_P2ECcY
->>>>>>> .merge_file_YXs1IW
-=======
-        $ref = new \ReflectionClass($target);
-        while (false !== $ref) {
->>>>>>> 804451c (Lint)
             if ($ref->hasProperty($name)) {
                 $prop = $ref->getProperty($name);
                 $prop->setAccessible(true);

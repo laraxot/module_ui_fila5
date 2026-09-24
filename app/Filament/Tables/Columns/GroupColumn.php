@@ -39,7 +39,7 @@ class GroupColumn extends Column
     /**
      * @param array<int|string, mixed> $form
      */
-    public function schema(array $form): self
+    public function schema(array $form): static
     {
         // Type-check to ensure all elements are Column instances
         $filtered = array_filter($form, function (mixed $item): bool {
