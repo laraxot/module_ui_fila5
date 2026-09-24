@@ -2,6 +2,23 @@
 module: theme
 topic: filament-4-migration-sumy
 canonical: ../../../../Themes/docs/shared-components/filament-4-migration-summary.md
+<<<<<<< .merge_file_bqn1XH
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_zotoLk
+=======
+=======
+<<<<<<< .merge_file_OInfKb
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_MhwvcN
+>>>>>>> .merge_file_DhIRMm
+>>>>>>> .merge_file_WVfAmh
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -11,6 +28,23 @@ related:
   - "./filament-4-migration-guide.md"
   - "./filament-4-migration-summary.md"
   - "./file-upload-component.md"
+<<<<<<< .merge_file_bqn1XH
+=======
+<<<<<<< .merge_file_zotoLk
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_OInfKb
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_MhwvcN
+>>>>>>> .merge_file_DhIRMm
+>>>>>>> .merge_file_WVfAmh
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/filament-4-migration-summary.md

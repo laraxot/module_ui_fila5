@@ -1,3 +1,27 @@
+<<<<<<< .merge_file_pNsxGn
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< .merge_file_FRU0tV
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YdyC4r
+>>>>>>> .merge_file_8fKkqk
 # Sprint Planning: UI Kit Polish
 
 ## 🏁 Sprint Goal
@@ -8,6 +32,38 @@ Complete the standardization of UI documentation and fix reported accessibility 
 | :--- | :--- | :--- | :--- |
 | Standardize UI Docs | 1 | @Gemini | ✅ Done |
 | Modal Accessibility Fix | 2 | @CoreTeam | 📥 Todo |
+<<<<<<< .merge_file_pNsxGn
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_FRU0tV
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< .merge_file_jH0o5O
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YdyC4r
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_FRU0tV
+=======
+=======
+>>>>>>> .merge_file_ORlY8d
+>>>>>>> .merge_file_YdyC4r
+>>>>>>> .merge_file_8fKkqk
 # UI Module - Sprint Planning
 
 **Module:** UI  
@@ -77,8 +133,83 @@ Implement core design system with essential UI components.
 
 ---
 
+<<<<<<< .merge_file_pNsxGn
 *Last Updated: March 12, 2026*
+=======
+<<<<<<< .merge_file_FRU0tV
+=======
+<<<<<<< .merge_file_jH0o5O
+>>>>>>> .merge_file_YdyC4r
+<<<<<<< HEAD
+*Last Updated: March 12, 2026*
+=======
+<<<<<<< HEAD
+*Last Updated: March 12, 2026*
+=======
+<<<<<<< HEAD
+*Last Updated: March 12, 2026*
+=======
+# Sprint Planning: UI Kit Polish
+
+**Module:** UI  
+**Sprint:** Sprint 1 (March 12-25, 2026)  
+**Version:** 1.0.0
+
+---
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_FRU0tV
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+*Last Updated: March 12, 2026*
+=======
+>>>>>>> .merge_file_ORlY8d
+>>>>>>> .merge_file_YdyC4r
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_8fKkqk
 
 ## ✅ Definition of Done
 - All 6 files exist.
 - Accessibility scores > 95 on Lighthouse for core pages.
+<<<<<<< .merge_file_pNsxGn
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_FRU0tV
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YdyC4r
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+*Last Updated: March 12, 2026*
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< .merge_file_FRU0tV
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YdyC4r
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_8fKkqk

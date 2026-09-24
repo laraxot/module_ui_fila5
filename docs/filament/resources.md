@@ -1,3 +1,20 @@
+<<<<<<< .merge_file_CxL99Q
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_vxYgym
+=======
+=======
+<<<<<<< .merge_file_R6vNFy
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Cjwu9t
+>>>>>>> .merge_file_YpnLwH
+>>>>>>> .merge_file_mbPPsp
 ---
 title: "Risorse Filament"
 type: concept
@@ -5,10 +22,36 @@ tags: [resources]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "resources risorse filament"
+<<<<<<< .merge_file_CxL99Q
+=======
+<<<<<<< .merge_file_vxYgym
+=======
+<<<<<<< .merge_file_R6vNFy
+>>>>>>> .merge_file_YpnLwH
+<<<<<<< HEAD
+>>>>>>> .merge_file_mbPPsp
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+<<<<<<< .merge_file_CxL99Q
+=======
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_vxYgym
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_Cjwu9t
+>>>>>>> .merge_file_YpnLwH
+>>>>>>> .merge_file_mbPPsp
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -20,6 +63,23 @@ related:
   - "./filament-4-migration-sumy.md"
 ---
 
+<<<<<<< .merge_file_CxL99Q
+=======
+<<<<<<< .merge_file_vxYgym
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_R6vNFy
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Cjwu9t
+>>>>>>> .merge_file_YpnLwH
+>>>>>>> .merge_file_mbPPsp
 # Risorse Filament
 
 ## Documentazione Dettagliata

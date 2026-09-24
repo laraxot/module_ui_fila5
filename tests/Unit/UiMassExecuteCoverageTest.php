@@ -4,6 +4,26 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit;
 
+<<<<<<< .merge_file_x4QOx1
+=======
+<<<<<<< .merge_file_jgmN8I
+use Mockery;
+=======
+<<<<<<< .merge_file_Oa4G3V
+=======
+<<<<<<< .merge_file_aRVYIQ
+>>>>>>> .merge_file_Ys31NH
+<<<<<<< HEAD
+use Mockery;
+=======
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_Oa4G3V
+=======
+=======
+>>>>>>> .merge_file_k9RV5l
+>>>>>>> .merge_file_Ys31NH
+>>>>>>> .merge_file_SM9qoS
+>>>>>>> .merge_file_yH4aSu
 use Modules\UI\Tests\TestCase;
 use Modules\Xot\Tests\ModuleExecuteCoverage;
 use PHPUnit\Framework\Assert;
@@ -11,7 +31,29 @@ use PHPUnit\Framework\Assert;
 uses(TestCase::class);
 
 afterEach(function (): void {
+<<<<<<< .merge_file_x4QOx1
     \Mockery::close();
+=======
+<<<<<<< .merge_file_jgmN8I
+    Mockery::close();
+=======
+<<<<<<< .merge_file_Oa4G3V
+=======
+<<<<<<< .merge_file_aRVYIQ
+>>>>>>> .merge_file_Ys31NH
+<<<<<<< HEAD
+    Mockery::close();
+=======
+    \Mockery::close();
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_Oa4G3V
+=======
+=======
+    \Mockery::close();
+>>>>>>> .merge_file_k9RV5l
+>>>>>>> .merge_file_Ys31NH
+>>>>>>> .merge_file_SM9qoS
+>>>>>>> .merge_file_yH4aSu
 });
 
 describe('UI ModuleExecuteCoverage floor sweep', function (): void {

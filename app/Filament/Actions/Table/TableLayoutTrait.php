@@ -35,7 +35,35 @@ trait TableLayoutTrait
             }
         }
 
+<<<<<<< .merge_file_dWTZxi
         return TableLayoutEnum::GRID;
+=======
+<<<<<<< .merge_file_yZ6X2W
+<<<<<<< HEAD
+        return TableLayoutEnum::GRID;
+=======
+        return TableLayoutEnum::LIST;
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_rU3BEL
+<<<<<<< HEAD
+        return TableLayoutEnum::GRID;
+=======
+<<<<<<< HEAD
+        return TableLayoutEnum::LIST;
+=======
+<<<<<<< HEAD
+        return TableLayoutEnum::GRID;
+=======
+        return TableLayoutEnum::LIST;
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+        return TableLayoutEnum::LIST;
+>>>>>>> .merge_file_o2jZnW
+>>>>>>> .merge_file_lccDlw
+>>>>>>> .merge_file_fo4ihi
     }
 
     /**

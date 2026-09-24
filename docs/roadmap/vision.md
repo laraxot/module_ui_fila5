@@ -1,3 +1,20 @@
+<<<<<<< .merge_file_aSCZPn
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_jDDOAm
+=======
+=======
+<<<<<<< .merge_file_SPYOFA
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_YsvJSZ
+>>>>>>> .merge_file_WpiN74
+>>>>>>> .merge_file_OPMCSV
 ---
 title: "Visione - UI Module"
 type: concept
@@ -5,10 +22,36 @@ tags: [vision]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "vision visione - ui module"
+<<<<<<< .merge_file_aSCZPn
+=======
+<<<<<<< .merge_file_jDDOAm
+=======
+<<<<<<< .merge_file_SPYOFA
+>>>>>>> .merge_file_WpiN74
+<<<<<<< HEAD
+>>>>>>> .merge_file_OPMCSV
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+<<<<<<< .merge_file_aSCZPn
+=======
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_jDDOAm
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_YsvJSZ
+>>>>>>> .merge_file_WpiN74
+>>>>>>> .merge_file_OPMCSV
 related:
   - "./00-index-1.md"
   - "./00-index.md"
@@ -20,6 +63,23 @@ related:
   - "./03-later.md"
 ---
 
+<<<<<<< .merge_file_aSCZPn
+=======
+<<<<<<< .merge_file_jDDOAm
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_SPYOFA
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YsvJSZ
+>>>>>>> .merge_file_WpiN74
+>>>>>>> .merge_file_OPMCSV
 # Visione - UI Module
 
 Creare un ecosistema UI Headless-first:

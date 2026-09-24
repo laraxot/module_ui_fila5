@@ -1,3 +1,54 @@
+<<<<<<< .merge_file_pL2JX8
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_H2ugyY
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_q4kUfD
+---
+title: "Ci"
+type: concept
+tags: [docs]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "ci ci"
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+related:
+  - "./api-relocated.md"
+  - "./api.md"
+  - "./blocks-relocated.md"
+  - "./blocks.md"
+  - "./carousel-slider.md"
+  - "./changelog.md"
+  - "./chunk.md"
+  - "./custom-firm-fields.md"
+---
+
+<<<<<<< .merge_file_H2ugyY
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_q4kUfD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zEgTaF
 ---------------------------------------------------------------------------------------------------
 Automatic Code formatting for Apps with Laravel Code Style
 https://codebrisk.com/blog/automatic-code-formatting-for-apps-with-laravel-code-style

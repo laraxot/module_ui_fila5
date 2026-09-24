@@ -1,3 +1,20 @@
+<<<<<<< .merge_file_7X9VTg
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_w5JAxp
+=======
+=======
+<<<<<<< .merge_file_YmPWMw
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_bHx9Fg
+>>>>>>> .merge_file_uM7P4C
+>>>>>>> .merge_file_7hJwBX
 ---
 title: "UI Module Roadmap (2025 Q4)"
 type: concept
@@ -5,10 +22,36 @@ tags: [roadmap]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "roadmap-q4 ui module roadmap (2025 q4)"
+<<<<<<< .merge_file_7X9VTg
+=======
+<<<<<<< .merge_file_w5JAxp
+=======
+<<<<<<< .merge_file_YmPWMw
+>>>>>>> .merge_file_uM7P4C
+<<<<<<< HEAD
+>>>>>>> .merge_file_7hJwBX
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+<<<<<<< .merge_file_7X9VTg
+=======
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_w5JAxp
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_bHx9Fg
+>>>>>>> .merge_file_uM7P4C
+>>>>>>> .merge_file_7hJwBX
 related:
   - "./00-index-1.md"
   - "./00-index.md"
@@ -20,6 +63,23 @@ related:
   - "./03-later.md"
 ---
 
+<<<<<<< .merge_file_7X9VTg
+=======
+<<<<<<< .merge_file_w5JAxp
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_YmPWMw
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_bHx9Fg
+>>>>>>> .merge_file_uM7P4C
+>>>>>>> .merge_file_7hJwBX
 # UI Module Roadmap (2025 Q4)
 
 ## Vision & Scope
@@ -33,7 +93,35 @@ related:
 ## Milestones
 - [ ] Audit Filament v4 changes in components/pages
 - [ ] Replace labels with translations (expanded structure)
+<<<<<<< .merge_file_7X9VTg
 - [ ] Optimize icons/assets; document in `docs/paths-and-assets-2.md`
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_w5JAxp
+- [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
+=======
+- [ ] Optimize icons/assets; document in `docs/paths-and-assets-2.md`
+=======
+<<<<<<< .merge_file_YmPWMw
+- [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
+=======
+<<<<<<< HEAD
+- [ ] Optimize icons/assets; document in `docs/paths-and-assets-2.md`
+=======
+<<<<<<< HEAD
+- [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
+=======
+- [ ] Optimize icons/assets; document in `docs/paths-and-assets-2.md`
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [ ] Optimize icons/assets; document in `docs/paths-and-assets-2.md`
+=======
+- [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
+>>>>>>> .merge_file_bHx9Fg
+>>>>>>> .merge_file_uM7P4C
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_7hJwBX
 - [ ] Strengthen tests for critical widgets
 
 ## Acceptance Criteria

@@ -16,13 +16,54 @@ final class UiCoverageNamedState implements StateContract
 {
     public static string $name = 'pending';
 
+<<<<<<< .merge_file_GAiPeZ
     /**
+=======
+<<<<<<< .merge_file_M8u3Yx
+    /** @param array<array-key, mixed>|Model|string|null $record */
+    /**
+=======
+<<<<<<< .merge_file_sCC0zr
+=======
+<<<<<<< .merge_file_uVmnNs
+>>>>>>> .merge_file_SBavPe
+    /** @param array<array-key, mixed>|Model|string|null $record */
+    /**
+<<<<<<< HEAD
+>>>>>>> .merge_file_yImIAw
+     * @param  Model|array<string, mixed>|string|null  $record
+     */
+    public function __construct(
+        public Model|array|string|null $record = null,
+    ) {}
+<<<<<<< .merge_file_M8u3Yx
+=======
+=======
+<<<<<<< .merge_file_sCC0zr
+=======
+=======
+    /**
+>>>>>>> .merge_file_S3isby
+>>>>>>> .merge_file_SBavPe
+>>>>>>> .merge_file_f2Q0wj
      * @param Model|array<string, mixed>|string|null $record
      */
     public function __construct(
         public Model|array|string|null $record = null,
     ) {
     }
+<<<<<<< .merge_file_GAiPeZ
+=======
+<<<<<<< .merge_file_sCC0zr
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_uVmnNs
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_S3isby
+>>>>>>> .merge_file_SBavPe
+>>>>>>> .merge_file_yImIAw
+>>>>>>> .merge_file_f2Q0wj
 
     public function label(): string
     {
@@ -67,7 +108,33 @@ final class UiCoverageNamedState implements StateContract
     }
 
     /** @param  array<string, mixed>  $data */
+<<<<<<< .merge_file_GAiPeZ
     public function modalActionByRecord(Model $record, array $data): void {}
+=======
+<<<<<<< .merge_file_M8u3Yx
+    public function modalActionByRecord(Model $record, array $data): void {}
+=======
+<<<<<<< .merge_file_sCC0zr
+=======
+<<<<<<< .merge_file_uVmnNs
+>>>>>>> .merge_file_SBavPe
+<<<<<<< HEAD
+    public function modalActionByRecord(Model $record, array $data): void {}
+=======
+    public function modalActionByRecord(Model $record, array $data): void
+    {
+    }
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_sCC0zr
+=======
+=======
+    public function modalActionByRecord(Model $record, array $data): void
+    {
+    }
+>>>>>>> .merge_file_S3isby
+>>>>>>> .merge_file_SBavPe
+>>>>>>> .merge_file_yImIAw
+>>>>>>> .merge_file_f2Q0wj
 
     /** @return list<string> */
     public function transitionableStates(): array
@@ -80,7 +147,33 @@ final class UiCoverageNamedState implements StateContract
         return true;
     }
 
+<<<<<<< .merge_file_GAiPeZ
     public function transitionTo(string $state, ?string $message = null): void {}
+=======
+<<<<<<< .merge_file_M8u3Yx
+    public function transitionTo(string $state, ?string $message = null): void {}
+=======
+<<<<<<< .merge_file_sCC0zr
+=======
+<<<<<<< .merge_file_uVmnNs
+>>>>>>> .merge_file_SBavPe
+<<<<<<< HEAD
+    public function transitionTo(string $state, ?string $message = null): void {}
+=======
+    public function transitionTo(string $state, ?string $message = null): void
+    {
+    }
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_sCC0zr
+=======
+=======
+    public function transitionTo(string $state, ?string $message = null): void
+    {
+    }
+>>>>>>> .merge_file_S3isby
+>>>>>>> .merge_file_SBavPe
+>>>>>>> .merge_file_yImIAw
+>>>>>>> .merge_file_f2Q0wj
 
     /** @return Collection<string, string> */
     public static function getStateMapping(): Collection

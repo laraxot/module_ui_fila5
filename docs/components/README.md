@@ -274,6 +274,23 @@ class ButtonBrowserTest extends DuskTestCase
 * [README.md](../../../cms/docs/components/readme.md)
 * [README.md](../../../../themes/two/docs/readme.md)
 * [README.md](../../../../themes/one/docs/readme.md)
+<<<<<<< .merge_file_Mwi8SG
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_rYyhVU
+=======
+=======
+<<<<<<< .merge_file_Us126A
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_P29yfi
+>>>>>>> .merge_file_hsQHGq
+>>>>>>> .merge_file_2hi2as
 [![Module](https://img.shields.io/badge/Module-Componenti UI-8B0000.svg)]()
 [![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
 [![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)
@@ -306,3 +323,20 @@ Core module for the FixCity Platform.
 ---
 
 **Modulo** `UI` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+<<<<<<< .merge_file_Mwi8SG
+=======
+<<<<<<< .merge_file_rYyhVU
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_Us126A
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_P29yfi
+>>>>>>> .merge_file_hsQHGq
+>>>>>>> .merge_file_2hi2as

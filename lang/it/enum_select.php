@@ -2,6 +2,20 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_4a6l2j
+=======
+<<<<<<< .merge_file_rXNPX7
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_XqF9OC
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_7Z0zcc
+>>>>>>> .merge_file_PrP3a3
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
@@ -26,5 +40,37 @@ return [
             'helper_text' => 'x',
             'description' => 'x',
         ],
+<<<<<<< .merge_file_4a6l2j
+=======
+<<<<<<< .merge_file_rXNPX7
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_7Z0zcc
+return [
+    'fields' => [
+        'type_id' => ['label' => 'Tipo', 'placeholder' => 'Seleziona un tipo', 'helper_text' => 'Seleziona il tipo dall\'elenco disponibile', 'description' => 'Tipo associato all\'elemento'],
+        'enum' => ['label' => 'Valore', 'placeholder' => 'Seleziona un valore', 'helper_text' => 'Seleziona un valore dall\'enumerazione', 'description' => 'Valore enumerato selezionato'],
+        'x' => ['label' => 'x', 'placeholder' => 'x', 'helper_text' => 'x', 'description' => 'x'],
+<<<<<<< .merge_file_rXNPX7
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+return [
+    'fields' => [
+        'type_id' => ['label' => 'Tipo', 'placeholder' => 'Seleziona un tipo', 'helper_text' => 'Seleziona il tipo dall\'elenco disponibile', 'description' => 'Tipo associato all\'elemento'],
+        'enum' => ['label' => 'Valore', 'placeholder' => 'Seleziona un valore', 'helper_text' => 'Seleziona un valore dall\'enumerazione', 'description' => 'Valore enumerato selezionato'],
+        'x' => ['label' => 'x', 'placeholder' => 'x', 'helper_text' => 'x', 'description' => 'x'],
+>>>>>>> .merge_file_fvUmpV
+>>>>>>> .merge_file_7Z0zcc
+>>>>>>> .merge_file_PrP3a3
     ],
 ];

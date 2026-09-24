@@ -7,7 +7,31 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Widgets;
 
+<<<<<<< .merge_file_mgG4rT
 use Filament\Schemas\Components\Component;
+=======
+<<<<<<< .merge_file_pS5m0R
+=======
+<<<<<<< .merge_file_Ppqbpj
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Filament\Schemas\Components\Component;
+=======
+>>>>>>> .merge_file_JpxdKA
+<<<<<<< HEAD
+=======
+use Filament\Schemas\Components\Component;
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_pS5m0R
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+use Filament\Schemas\Components\Component;
+>>>>>>> .merge_file_i5w7yF
+>>>>>>> .merge_file_JpxdKA
+>>>>>>> .merge_file_1hABty
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 final class OverlookWidget extends XotBaseSchemaWidget
@@ -36,9 +60,39 @@ final class OverlookWidget extends XotBaseSchemaWidget
 
     protected int|string|array $columnSpan = 1;
 
+<<<<<<< .merge_file_mgG4rT
     /**
      * @return array<string, Component>
      */
+=======
+<<<<<<< .merge_file_pS5m0R
+=======
+<<<<<<< .merge_file_Ppqbpj
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    /**
+     * @return array<string, Component>
+     */
+=======
+>>>>>>> .merge_file_JpxdKA
+<<<<<<< HEAD
+=======
+    /**
+     * @return array<string, Component>
+     */
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_pS5m0R
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+    /**
+     * @return array<string, Component>
+     */
+>>>>>>> .merge_file_i5w7yF
+>>>>>>> .merge_file_JpxdKA
+>>>>>>> .merge_file_1hABty
     public function getFormSchema(): array
     {
         return [];

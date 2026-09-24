@@ -156,8 +156,56 @@ public function eventDidMount(): string
 - [Documentazione ufficiale](https://filamentphp.com/plugins/saade-fullcalendar)
 - [GitHub](https://github.com/saade/filament-fullcalendar)
 - [Esempio Laravel Daily](https://laraveldaily.com/post/filament-show-calendar-of-tasks-with-fullcalendar)
+<<<<<<< .merge_file_wy02PJ
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_Lvp57A
+=======
+<<<<<<< .merge_file_T79F9Y
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_9GtQ6A
 - [Modules/UI/docs/full-calendar.md](../Modules/UI/docs/full-calendar.md)
 - [Regole .mdc](../.cursor/rules/cursor.mdc), [../.windsurf/rules/windsurf.mdc]
 
 ## Ultimo aggiornamento
 2025-06-04
+<<<<<<< .merge_file_wy02PJ
+=======
+=======
+>>>>>>> .merge_file_Ex1uPj
+>>>>>>> .merge_file_yOvWeh
+- [Modules/UI/docs/full-calendar.md](../modules/ui/docs/full-calendar.md)
+- [Regole .mdc](../.cursor/rules/cursor.mdc), [../.windsurf/rules/windsurf.mdc]
+
+## Ultimo aggiornamento
+[DATE]
+<<<<<<< .merge_file_Lvp57A
+=======
+=======
+<<<<<<< .merge_file_T79F9Y
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_yOvWeh
+- [Modules/UI/docs/full-calendar.md](../Modules/UI/docs/full-calendar.md)
+- [Regole .mdc](../.cursor/rules/cursor.mdc), [../.windsurf/rules/windsurf.mdc]
+
+## Ultimo aggiornamento
+2025-06-04
+<<<<<<< .merge_file_Lvp57A
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Ex1uPj
+>>>>>>> .merge_file_yOvWeh
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9GtQ6A

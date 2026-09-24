@@ -1,3 +1,20 @@
+<<<<<<< .merge_file_2bEK0r
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_hweUg9
+=======
+=======
+<<<<<<< .merge_file_uJSer8
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_QVhWMe
+>>>>>>> .merge_file_KudRZr
+>>>>>>> .merge_file_N6rw96
 ---
 title: "Server-Side Chart Generation Actions"
 type: concept
@@ -5,10 +22,36 @@ tags: [server, side, actions]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "server-side-actions server-side chart generation actions"
+<<<<<<< .merge_file_2bEK0r
+=======
+<<<<<<< .merge_file_hweUg9
+=======
+<<<<<<< .merge_file_uJSer8
+>>>>>>> .merge_file_KudRZr
+<<<<<<< HEAD
+>>>>>>> .merge_file_N6rw96
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+<<<<<<< .merge_file_2bEK0r
+=======
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_hweUg9
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_QVhWMe
+>>>>>>> .merge_file_KudRZr
+>>>>>>> .merge_file_N6rw96
 related:
   - "./chartjs-datalabels-multiple-labels-complete-guide.md"
   - "./chartjs-plugin-datalabels-filament5.md"
@@ -17,6 +60,23 @@ related:
   - "./shared-hosting-strategy.md"
 ---
 
+<<<<<<< .merge_file_2bEK0r
+=======
+<<<<<<< .merge_file_hweUg9
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_uJSer8
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_QVhWMe
+>>>>>>> .merge_file_KudRZr
+>>>>>>> .merge_file_N6rw96
 # Server-Side Chart Generation Actions
 
 > **Purpose**: Generate chart images (PNG/SVG) in background jobs (Queueable Actions) for email attachments or PDF reports.

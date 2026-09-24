@@ -125,5 +125,41 @@ Modules/UI/
 - [Documentazione Laravel Localization](https://github.com/mcamara/laravel-localization)
 - [Documentazione Filament](https://filamentphp.com/docs)
 - [Documentazione Folio](https://laravel.com/docs/folio)
+<<<<<<< .merge_file_9wwGaB
 - [Best Practices UI](./UI_BEST_PRACTICES.md)
 - [Guida Componenti](./COMPONENTS_GUIDE.md)
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_O7aWi1
+- [Best Practices UI](./ui_best_practices.md)
+- [Guida Componenti](./components_guide.md)
+=======
+- [Best Practices UI](./UI_BEST_PRACTICES.md)
+- [Guida Componenti](./COMPONENTS_GUIDE.md)
+=======
+<<<<<<< .merge_file_qZOno4
+- [Best Practices UI](./ui_best_practices.md)
+- [Guida Componenti](./components_guide.md)
+=======
+<<<<<<< HEAD
+- [Best Practices UI](./UI_BEST_PRACTICES.md)
+- [Guida Componenti](./COMPONENTS_GUIDE.md)
+=======
+<<<<<<< HEAD
+- [Best Practices UI](./ui_best_practices.md)
+- [Guida Componenti](./components_guide.md)
+=======
+- [Best Practices UI](./UI_BEST_PRACTICES.md)
+- [Guida Componenti](./COMPONENTS_GUIDE.md)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [Best Practices UI](./UI_BEST_PRACTICES.md)
+- [Guida Componenti](./COMPONENTS_GUIDE.md)
+=======
+- [Best Practices UI](./ui_best_practices.md)
+- [Guida Componenti](./components_guide.md)
+>>>>>>> .merge_file_nM8np4
+>>>>>>> .merge_file_UfM0CS
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_mQH7eG

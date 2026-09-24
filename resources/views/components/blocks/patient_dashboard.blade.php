@@ -1,7 +1,55 @@
+<<<<<<< .merge_file_3V7cJc
+=======
+<<<<<<< .merge_file_D6XFTt
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_aTbhbU
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rPqwUN
+>>>>>>> .merge_file_Xwa8M4
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp
 
+<<<<<<< .merge_file_3V7cJc
+=======
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+<<<<<<< .merge_file_D6XFTt
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hUAv4R
+>>>>>>> .merge_file_rPqwUN
+<?php
+
+declare(strict_types=1);
+?>
+>>>>>>> .merge_file_Xwa8M4
 @props(['title' => 'Area Personale'])
 
 <div class="bg-white p-6 rounded-lg shadow-md">

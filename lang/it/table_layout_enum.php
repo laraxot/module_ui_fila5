@@ -2,6 +2,20 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_iNw700
+=======
+<<<<<<< .merge_file_BA3U2W
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_kBobsZ
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_4ZRdCn
+>>>>>>> .merge_file_MJJQMH
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
@@ -41,6 +55,43 @@ return [
         'description' => 'Layout a griglia responsive con card',
         'tooltip' => 'Visualizza i dati in formato card responsive',
         'helper_text' => 'Ideale per visualizzare pochi dati con focus visivo',
+<<<<<<< .merge_file_iNw700
+=======
+<<<<<<< .merge_file_BA3U2W
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_4ZRdCn
+return [
+    'values' => [
+        'list' => [
+            'label' => 'Lista',
+            'color' => 'primary',
+            'icon' => 'heroicon-o-list-bullet',
+            'description' => 'Layout a lista tradizionale con righe di tabella',
+            'tooltip' => 'Visualizza i dati in formato tabella strutturata',
+            'helper_text' => 'Ideale per visualizzare molti dati in modo organizzato',
+        ],
+        'grid' => [
+            'label' => 'Griglia',
+            'color' => 'secondary',
+            'icon' => 'heroicon-o-squares-2x2',
+            'description' => 'Layout a griglia responsive con card',
+            'tooltip' => 'Visualizza i dati in formato card responsive',
+            'helper_text' => 'Ideale per visualizzare pochi dati con focus visivo',
+        ],
+<<<<<<< .merge_file_BA3U2W
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_4ZRdCn
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_MJJQMH
     ],
     'label' => 'Table Layout Enum',
     'plural_label' => 'Table Layout Enum (Plurale)',
@@ -53,7 +104,33 @@ return [
         ],
         'label' => 'Table Layout Enum',
         'sort' => 1,
+<<<<<<< .merge_file_iNw700
         'icon' => 'heroicon-o-collection',
+=======
+<<<<<<< .merge_file_BA3U2W
+=======
+<<<<<<< .merge_file_kBobsZ
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-collection',
+=======
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-rectangle-stack',
+=======
+>>>>>>> .merge_file_4ZRdCn
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-collection',
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_BA3U2W
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> .merge_file_wyyyJH
+>>>>>>> .merge_file_4ZRdCn
+>>>>>>> .merge_file_MJJQMH
     ],
     'fields' => [
         'id' => [

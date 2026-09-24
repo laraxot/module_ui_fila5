@@ -7,10 +7,61 @@ updated: 2026-07-21
 qmd: "geo-dependency-violation-interactive-map rimosso interactivemap — violava regola "ui non importa geo""
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< .merge_file_akZgjV
+=======
+<<<<<<< .merge_file_On3dMq
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_m7hylc
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_XitwYC
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wAdwxv
+>>>>>>> .merge_file_SiCzrU
+>>>>>>> .merge_file_3NQR6a
+>>>>>>> .merge_file_mN3N8M
 updated: 2026-08-18
 qmd: "geo-dependency-violation-interactive-map rimosso interactivemap — violava regola "ui non importa geo""
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+<<<<<<< .merge_file_akZgjV
+=======
+<<<<<<< .merge_file_On3dMq
+=======
+<<<<<<< .merge_file_m7hylc
+=======
+<<<<<<< .merge_file_XitwYC
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_wAdwxv
+>>>>>>> .merge_file_SiCzrU
+>>>>>>> .merge_file_3NQR6a
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_On3dMq
+=======
+<<<<<<< .merge_file_m7hylc
+=======
+<<<<<<< .merge_file_XitwYC
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_wAdwxv
+>>>>>>> .merge_file_SiCzrU
+>>>>>>> .merge_file_3NQR6a
+>>>>>>> .merge_file_mN3N8M
 related:
   - "./00-index-1.md"
   - "./00-index.md"

@@ -2,10 +2,40 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_n2oLeo
+=======
+<<<<<<< .merge_file_SDgGLn
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_sutI0O
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ioQhi8
+>>>>>>> .merge_file_615Uwg
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/fr/filament-navigation.php
+<<<<<<< .merge_file_n2oLeo
+=======
+<<<<<<< .merge_file_SDgGLn
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_klnQfH
+>>>>>>> .merge_file_ioQhi8
+>>>>>>> .merge_file_615Uwg
 return [
     'attributes' => [
         'external-link' => 'Lien externe',

@@ -2,6 +2,21 @@
 
 ## Data Aggiornamento
 [DATE]
+<<<<<<< .merge_file_75Q9j0
+=======
+=======
+<<<<<<< .merge_file_LvfIgt
+2025-01-27
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+[DATE]
+=======
+2025-01-27
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_4l6dsQ
+>>>>>>> .merge_file_jvUlms
 
 ## File Modificato
 `Modules/UI/app/Filament/Forms/Components/RadioBadge.php`
@@ -147,7 +162,25 @@ class RadioBadge extends Radio
 # Correzione Errori PHPStan - RadioBadge.php
 
 ## Data Aggiornamento
+<<<<<<< .merge_file_75Q9j0
 [DATE]
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_LvfIgt
+=======
+[DATE]
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_4l6dsQ
+[DATE]
+=======
+2025-01-27
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_LvfIgt
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_4l6dsQ
+>>>>>>> .merge_file_jvUlms
 
 ## File Modificato
 `Modules/UI/app/Filament/Forms/Components/RadioBadge.php`

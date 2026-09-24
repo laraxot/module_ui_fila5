@@ -7,6 +7,11 @@ created: 2026-07-09
 updated: 2026-07-12
 qmd: "UI claude-audit static 80 score lang split pricing blade partials SelectStateColumn"
 issues:
+<<<<<<< .merge_file_jMZtNe
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_s6j7GK
+=======
 discussions:
 related:
   - "./auth-register-focus-loss-overlay.md"
@@ -17,6 +22,50 @@ related:
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
   - "./enum-select-usage.md"
+=======
+>>>>>>> .merge_file_CgjQpH
+>>>>>>> .merge_file_X5bAsW
+  - "https://github.com/laraxot/module_ui_fila5/issues/1"
+discussions:
+  - "https://github.com/laraxot/base_fixcity_fila5/discussions/304"
+related:
+  - ../../../../../../bashscripts/tools/run-claude-audit-module-static.sh
+  - ../../../../../../bashscripts/tools/split-module-lang-monolith-for-audit.php
+  - ../../Xot/docs/wiki/concepts/claude-audit-static-all-modules.md
+  - ../memories/lang-split-ui-claude-audit.md
+<<<<<<< .merge_file_s6j7GK
+=======
+=======
+<<<<<<< .merge_file_aLhg7c
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_X5bAsW
+>>>>>>> .merge_file_2YHn7h
+discussions:
+related:
+  - "./auth-register-focus-loss-overlay.md"
+  - "./block-rendering-and-optional-services.md"
+  - "./code-redundancy-ui.md"
+  - "./context-overflow-prevention.md"
+  - "./enum-select-best-practices.md"
+  - "./enum-select-component.md"
+  - "./enum-select-contract-and-false-friends.md"
+  - "./enum-select-usage.md"
+<<<<<<< .merge_file_jMZtNe
+=======
+<<<<<<< .merge_file_s6j7GK
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_CgjQpH
+>>>>>>> .merge_file_X5bAsW
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2YHn7h
 ---
 
 # claude-audit static (UI)

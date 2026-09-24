@@ -1,6 +1,34 @@
 # REGOLA CRITICA: Usa SEMPRE transClass() negli Enum
 
+<<<<<<< .merge_file_QkDnXh
 ## Data: 2025-01-06
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_yYE3vy
+## Data: [DATE]
+=======
+## Data: 2025-01-06
+=======
+<<<<<<< .merge_file_oYWf8k
+## Data: [DATE]
+=======
+<<<<<<< HEAD
+## Data: 2025-01-06
+=======
+<<<<<<< HEAD
+## Data: [DATE]
+=======
+## Data: 2025-01-06
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+## Data: 2025-01-06
+=======
+## Data: [DATE]
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2Dt1WV
 
 ## ✅ CORRETTO - Implementazione Enum con TransTrait
 
@@ -19,6 +47,63 @@ use Modules\Xot\Filament\Traits\TransTrait;
 enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
+<<<<<<< .merge_file_QkDnXh
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_yYE3vy
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_oYWf8k
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_sAAPzI
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2Dt1WV
     case LIST = 'list';
     case GRID = 'grid';
 
@@ -135,6 +220,63 @@ use Modules\Xot\Filament\Traits\TransTrait;
 enum MyEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
+<<<<<<< .merge_file_QkDnXh
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_yYE3vy
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_oYWf8k
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_sAAPzI
+=======
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+    
+=======
+
+>>>>>>> laraxot/dev
+=======
+    
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2Dt1WV
     case VALUE1 = 'value1';
     case VALUE2 = 'value2';
 }
@@ -280,19 +422,103 @@ rules:
 
 ## Collegamenti
 
+<<<<<<< .merge_file_QkDnXh
+- [Translation Standards](../../../docs/translation_standards.md)
+- [Filament Best Practices](../../../docs/filament_best_practices.md)
+- [TransTrait Documentation](../../Xot/docs/trans_trait_usage.md)
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< .merge_file_oYWf8k
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+- [Translation Standards](../../../docs/translation_standards.md)
+- [Filament Best Practices](../../../docs/filament_best_practices.md)
+- [TransTrait Documentation](../../Xot/docs/trans_trait_usage.md)
+=======
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+- [Translation Standards](../../../../docs/translation_standards.md)
+- [Filament Best Practices](../../../../docs/filament_best_practices.md)
+- [TransTrait Documentation](../../xot/docs/trans_trait_usage.md)
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2Dt1WV
+
+## Memoria Permanente
+
+**RICORDA SEMPRE**:
+<<<<<<< .merge_file_QkDnXh
+=======
+<<<<<<< .merge_file_yYE3vy
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_sAAPzI
 - [Translation Standards](../../../docs/translation_standards.md)
 - [Filament Best Practices](../../../docs/filament_best_practices.md)
 - [TransTrait Documentation](../../Xot/docs/trans_trait_usage.md)
 
 ## Memoria Permanente
 
+<<<<<<< HEAD
+**RICORDA SEMPRE**: 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
 **RICORDA SEMPRE**:
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+**RICORDA SEMPRE**: 
+=======
+**RICORDA SEMPRE**:
+>>>>>>> laraxot/dev
+=======
+**RICORDA SEMPRE**: 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_sAAPzI
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2Dt1WV
 - SEMPRE `TransTrait` negli enum
 - SEMPRE `transClass()` per traduzioni
 - MAI `match()` per traduzioni
 - SEMPRE struttura espansa nelle traduzioni
 - SEMPRE sincronizzazione IT/EN/DE
 
+<<<<<<< .merge_file_QkDnXh
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< .merge_file_oYWf8k
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_2Dt1WV
 *Ultimo aggiornamento: 2025-01-06*
 # REGOLA CRITICA: Usa SEMPRE transClass() negli Enum
 ## Data: 2025-01-06
@@ -301,19 +527,145 @@ rules:
 <?php
 declare(strict_types=1);
 namespace Modules\UI\Enums;
+<<<<<<< .merge_file_QkDnXh
+=======
+=======
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+# REGOLA CRITICA: Usa SEMPRE transClass() negli Enum
+
+## Data: [DATE]
+
+## ✅ CORRETTO - Implementazione Enum con TransTrait
+
+```php
+<?php
+
+declare(strict_types=1);
+
+namespace Modules\UI\Enums;
+
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_oYWf8k
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_sAAPzI
+*Ultimo aggiornamento: 2025-01-06* 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Ultimo aggiornamento: 2025-01-06* 
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+*Ultimo aggiornamento: 2025-01-06* 
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+*Ultimo aggiornamento: 2025-01-06*
+# REGOLA CRITICA: Usa SEMPRE transClass() negli Enum
+## Data: 2025-01-06
+## ✅ CORRETTO - Implementazione Enum con TransTrait
+```php
+<?php
+declare(strict_types=1);
+namespace Modules\UI\Enums;
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2Dt1WV
 use Filament\Support\Contracts\HasIcon;
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasLabel;
 use Modules\Xot\Filament\Traits\TransTrait;
+<<<<<<< .merge_file_QkDnXh
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< .merge_file_oYWf8k
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_2Dt1WV
 enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 {
     use TransTrait;
     case LIST = 'list';
     case GRID = 'grid';
+<<<<<<< .merge_file_QkDnXh
+=======
+=======
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+
+enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
+{
+    use TransTrait;
+
+    case LIST = 'list';
+    case GRID = 'grid';
+
+<<<<<<< .merge_file_yYE3vy
+=======
+=======
+<<<<<<< .merge_file_oYWf8k
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_sAAPzI
+enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
+{
+    use TransTrait;
+    case LIST = 'list';
+    case GRID = 'grid';
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2Dt1WV
     public function getLabel(): string
     {
         return $this->transClass(self::class, $this->value . '.label');
     }
+<<<<<<< .merge_file_QkDnXh
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< .merge_file_oYWf8k
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
     public function getColor(): string
         return $this->transClass(self::class, $this->value . '.color');
     public function getIcon(): string
@@ -329,33 +681,283 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 ## ❌ ERRORE - Non fare mai questo
 // ❌ ERRORE - Non usare mai match() per traduzioni
 public function getLabel(): string
+=======
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+
+    public function getColor(): string
+    {
+        return $this->transClass(self::class, $this->value . '.color');
+    }
+
+    public function getIcon(): string
+    {
+        return $this->transClass(self::class, $this->value . '.icon');
+    }
+
+    public function getDescription(): string
+    {
+        return $this->transClass(self::class, $this->value . '.description');
+    }
+
+    public function getTooltip(): string
+    {
+        return $this->transClass(self::class, $this->value . '.tooltip');
+    }
+
+    public function getHelperText(): string
+    {
+        return $this->transClass(self::class, $this->value . '.helper_text');
+    }
+}
+```
+
+## ❌ ERRORE - Non fare mai questo
+
+```php
+// ❌ ERRORE - Non usare mai match() per traduzioni
+public function getLabel(): string
+{
+<<<<<<< .merge_file_yYE3vy
+=======
+=======
+<<<<<<< .merge_file_oYWf8k
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_sAAPzI
+>>>>>>> .merge_file_2Dt1WV
+    public function getColor(): string
+        return $this->transClass(self::class, $this->value . '.color');
+    public function getIcon(): string
+        return $this->transClass(self::class, $this->value . '.icon');
+    public function getDescription(): string
+        return $this->transClass(self::class, $this->value . '.description');
+    public function getTooltip(): string
+        return $this->transClass(self::class, $this->value . '.tooltip');
+    public function getHelperText(): string
+        return $this->transClass(self::class, $this->value . '.helper_text');
+}
+```
+## ❌ ERRORE - Non fare mai questo
+// ❌ ERRORE - Non usare mai match() per traduzioni
+public function getLabel(): string
+<<<<<<< .merge_file_QkDnXh
+=======
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2Dt1WV
     return match ($this) {
         self::LIST => __('ui::table-layout.list.label'),
         self::GRID => __('ui::table-layout.grid.label'),
     };
+<<<<<<< .merge_file_QkDnXh
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< .merge_file_oYWf8k
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_2Dt1WV
 // ❌ ERRORE - Non hardcodare valori
 public function getColor(): string
         self::LIST => 'primary',
         self::GRID => 'secondary',
 ## Perché questa Regola è Critica
+<<<<<<< .merge_file_QkDnXh
+=======
+=======
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+}
+
+// ❌ ERRORE - Non hardcodare valori
+public function getColor(): string
+{
+    return match ($this) {
+        self::LIST => 'primary',
+        self::GRID => 'secondary',
+    };
+}
+```
+
+## Perché questa Regola è Critica
+
+<<<<<<< .merge_file_yYE3vy
+=======
+=======
+<<<<<<< .merge_file_oYWf8k
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_sAAPzI
+// ❌ ERRORE - Non hardcodare valori
+public function getColor(): string
+        self::LIST => 'primary',
+        self::GRID => 'secondary',
+## Perché questa Regola è Critica
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2Dt1WV
 ### 1. Centralizzazione Traduzioni
 - Tutte le traduzioni sono nei file `lang/`
 - Facile manutenzione e aggiornamento
 - Sincronizzazione automatica tra lingue
+<<<<<<< .merge_file_QkDnXh
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_yYE3vy
+
+=======
+=======
+<<<<<<< .merge_file_oYWf8k
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2Dt1WV
 ### 2. Type Safety
 - Il `transClass()` gestisce automaticamente le traduzioni
 - Controllo automatico delle traduzioni mancanti
 - Struttura coerente per tutti gli enum
+<<<<<<< .merge_file_QkDnXh
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_yYE3vy
+
+=======
+=======
+<<<<<<< .merge_file_oYWf8k
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2Dt1WV
 ### 3. Performance
 - Cache delle traduzioni ottimizzata
 - Nessun overhead di match() per ogni chiamata
 - Codice più pulito e manutenibile
+<<<<<<< .merge_file_QkDnXh
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_yYE3vy
+
+=======
+=======
+<<<<<<< .merge_file_oYWf8k
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2Dt1WV
 ### 4. Estensibilità
 - Facile aggiungere nuove proprietà
 - Struttura scalabile per enum complessi
 - Pattern riutilizzabile
+<<<<<<< .merge_file_QkDnXh
 ## Struttura Traduzioni Obbligatoria
 ### File: `Modules/UI/lang/it/table-layout.php`
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< .merge_file_oYWf8k
+=======
+<<<<<<< HEAD
+## Struttura Traduzioni Obbligatoria
+### File: `Modules/UI/lang/it/table-layout.php`
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+## Struttura Traduzioni Obbligatoria
+### File: `Modules/UI/lang/it/table-layout.php`
+=======
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+
+## Struttura Traduzioni Obbligatoria
+
+### File: `Modules/UI/lang/it/table-layout.php`
+```php
+<?php
+
+declare(strict_types=1);
+
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< .merge_file_oYWf8k
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_sAAPzI
+=======
+## Struttura Traduzioni Obbligatoria
+### File: `Modules/UI/lang/it/table-layout.php`
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_yYE3vy
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_sAAPzI
+>>>>>>> .merge_file_2Dt1WV
 return [
     'list' => [
         'label' => 'Lista',
@@ -372,6 +974,19 @@ return [
         'helper_text' => 'Layout a griglia con card responsive',
         'color' => 'secondary',
         'icon' => 'heroicon-o-squares-2x2',
+<<<<<<< .merge_file_QkDnXh
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< .merge_file_oYWf8k
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_2Dt1WV
 ];
 ## Pattern Standard per Enum
 ### 1. Import TransTrait
@@ -391,42 +1006,354 @@ public function getHelperText(): string
     return $this->transClass(self::class, $this->value . '.helper_text');
 ### 3. Struttura Traduzioni
 // File: Modules/ModuleName/lang/it/enum_name.php
+<<<<<<< .merge_file_QkDnXh
+=======
+=======
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+    ],
+];
+```
+
+## Pattern Standard per Enum
+
+### 1. Import TransTrait
+```php
+use Modules\Xot\Filament\Traits\TransTrait;
+
+enum MyEnum: string implements HasColor, HasIcon, HasLabel
+{
+    use TransTrait;
+
+    case VALUE1 = 'value1';
+    case VALUE2 = 'value2';
+}
+```
+
+### 2. Metodi Standard
+```php
+public function getLabel(): string
+{
+    return $this->transClass(self::class, $this->value . '.label');
+}
+
+public function getColor(): string
+{
+    return $this->transClass(self::class, $this->value . '.color');
+}
+
+public function getIcon(): string
+{
+    return $this->transClass(self::class, $this->value . '.icon');
+}
+
+public function getDescription(): string
+{
+    return $this->transClass(self::class, $this->value . '.description');
+}
+
+public function getTooltip(): string
+{
+    return $this->transClass(self::class, $this->value . '.tooltip');
+}
+
+public function getHelperText(): string
+{
+    return $this->transClass(self::class, $this->value . '.helper_text');
+}
+```
+
+### 3. Struttura Traduzioni
+```php
+// File: Modules/ModuleName/lang/it/enum_name.php
+return [
+<<<<<<< .merge_file_yYE3vy
+=======
+=======
+<<<<<<< .merge_file_oYWf8k
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_sAAPzI
+];
+## Pattern Standard per Enum
+### 1. Import TransTrait
+enum MyEnum: string implements HasColor, HasIcon, HasLabel
+    case VALUE1 = 'value1';
+    case VALUE2 = 'value2';
+### 2. Metodi Standard
+    return $this->transClass(self::class, $this->value . '.label');
+    return $this->transClass(self::class, $this->value . '.color');
+public function getIcon(): string
+    return $this->transClass(self::class, $this->value . '.icon');
+public function getDescription(): string
+    return $this->transClass(self::class, $this->value . '.description');
+public function getTooltip(): string
+    return $this->transClass(self::class, $this->value . '.tooltip');
+public function getHelperText(): string
+    return $this->transClass(self::class, $this->value . '.helper_text');
+### 3. Struttura Traduzioni
+// File: Modules/ModuleName/lang/it/enum_name.php
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2Dt1WV
     'value1' => [
         'label' => 'Etichetta 1',
         'description' => 'Descrizione 1',
         'tooltip' => 'Tooltip 1',
         'helper_text' => 'Helper text 1',
+<<<<<<< .merge_file_QkDnXh
         'icon' => 'heroicon-o-icon1',
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< .merge_file_oYWf8k
+        'color' => 'primary',
+        'icon' => 'heroicon-o-icon1',
+    ],
+=======
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-icon1',
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_sAAPzI
+        'color' => 'primary',
+        'icon' => 'heroicon-o-icon1',
+    ],
+=======
+        'icon' => 'heroicon-o-icon1',
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_yYE3vy
+=======
+>>>>>>> laraxot/dev
+=======
+        'icon' => 'heroicon-o-icon1',
+=======
+        'color' => 'primary',
+        'icon' => 'heroicon-o-icon1',
+    ],
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_sAAPzI
+>>>>>>> .merge_file_2Dt1WV
     'value2' => [
         'label' => 'Etichetta 2',
         'description' => 'Descrizione 2',
         'tooltip' => 'Tooltip 2',
         'helper_text' => 'Helper text 2',
+<<<<<<< .merge_file_QkDnXh
         'icon' => 'heroicon-o-icon2',
 ## Checklist Pre-Implementazione
 Prima di creare un nuovo Enum:
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< .merge_file_oYWf8k
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_QDRs0d
+        'icon' => 'heroicon-o-icon2',
+## Checklist Pre-Implementazione
+Prima di creare un nuovo Enum:
+=======
+<<<<<<< .merge_file_oYWf8k
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+        'color' => 'secondary',
+        'icon' => 'heroicon-o-icon2',
+    ],
+];
+```
+
+## Checklist Pre-Implementazione
+
+Prima di creare un nuovo Enum:
+
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< .merge_file_oYWf8k
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_sAAPzI
+=======
+        'icon' => 'heroicon-o-icon2',
+## Checklist Pre-Implementazione
+Prima di creare un nuovo Enum:
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_yYE3vy
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_sAAPzI
+>>>>>>> .merge_file_2Dt1WV
 - [ ] Importare `TransTrait`
 - [ ] Implementare tutti i metodi standard con `transClass()`
 - [ ] Creare file traduzioni in `lang/it/`, `lang/en/`, `lang/de/`
 - [ ] Struttura espansa completa per ogni valore
 - [ ] Sincronizzazione IT/EN/DE
 - [ ] Testare traduzioni in ambiente di sviluppo
+<<<<<<< .merge_file_QkDnXh
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< .merge_file_oYWf8k
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_2Dt1WV
 ## Esempi di Errori Comuni
 ### ❌ ERRORE - Match per traduzioni
 ### ✅ CORRETTO - transClass()
 ### ❌ ERRORE - Valori hardcoded
 ## Verifica Automatica
 ### PHPStan Rule (Ideale)
+<<<<<<< .merge_file_QkDnXh
+=======
+=======
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+
+## Esempi di Errori Comuni
+
+### ❌ ERRORE - Match per traduzioni
+```php
+public function getLabel(): string
+{
+    return match ($this) {
+        self::LIST => __('ui::table-layout.list.label'),
+        self::GRID => __('ui::table-layout.grid.label'),
+    };
+}
+```
+
+### ✅ CORRETTO - transClass()
+```php
+public function getLabel(): string
+{
+    return $this->transClass(self::class, $this->value . '.label');
+}
+```
+
+### ❌ ERRORE - Valori hardcoded
+```php
+public function getColor(): string
+{
+    return match ($this) {
+        self::LIST => 'primary',
+        self::GRID => 'secondary',
+    };
+}
+```
+
+### ✅ CORRETTO - transClass()
+```php
+public function getColor(): string
+{
+    return $this->transClass(self::class, $this->value . '.color');
+}
+```
+
+## Verifica Automatica
+
+### PHPStan Rule (Ideale)
+```php
+<<<<<<< .merge_file_yYE3vy
+=======
+=======
+<<<<<<< .merge_file_oYWf8k
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_sAAPzI
+## Esempi di Errori Comuni
+### ❌ ERRORE - Match per traduzioni
+### ✅ CORRETTO - transClass()
+### ❌ ERRORE - Valori hardcoded
+## Verifica Automatica
+### PHPStan Rule (Ideale)
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2Dt1WV
 // Regola PHPStan per rilevare match() in enum
 // Implementare in phpstan.neon
 rules:
     - rule: Never use match() for translations in enums
+<<<<<<< .merge_file_QkDnXh
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_yYE3vy
+```
+
+=======
+=======
+<<<<<<< .merge_file_oYWf8k
+```
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+```
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+```
+
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2Dt1WV
 ### Code Review Checklist
 - [ ] TransTrait importato
 - [ ] Tutti i metodi usano `transClass()`
 - [ ] Nessun `match()` per traduzioni
 - [ ] Traduzioni implementate in tutte le lingue
 - [ ] Struttura espansa completa
+<<<<<<< .merge_file_QkDnXh
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< .merge_file_oYWf8k
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 ## Penalità per Violazioni
 ### Livello 1 - Warning
 - Commento nel code review
@@ -442,9 +1369,123 @@ rules:
 - [Filament Best Practices](../../../docs/filament_best_practices.md)
 - [TransTrait Documentation](../../Xot/docs/trans_trait_usage.md)
 ## Memoria Permanente
+=======
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+
+## Penalità per Violazioni
+
+### Livello 1 - Warning
+- Commento nel code review
+- Richiesta di correzione
+
+### Livello 2 - Blocco
+- Blocco del merge
+- Correzione obbligatoria
+
+### Livello 3 - Sanzione
+- Documentazione della violazione
+- Training obbligatorio
+
+## Collegamenti
+
+- [Translation Standards](../../../../docs/translation_standards.md)
+- [Filament Best Practices](../../../../docs/filament_best_practices.md)
+- [TransTrait Documentation](../../xot/docs/trans_trait_usage.md)
+
+## Memoria Permanente
+
+<<<<<<< .merge_file_yYE3vy
+=======
+=======
+<<<<<<< .merge_file_oYWf8k
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_sAAPzI
+>>>>>>> .merge_file_2Dt1WV
+## Penalità per Violazioni
+### Livello 1 - Warning
+- Commento nel code review
+- Richiesta di correzione
+### Livello 2 - Blocco
+- Blocco del merge
+- Correzione obbligatoria
+### Livello 3 - Sanzione
+- Documentazione della violazione
+- Training obbligatorio
+## Collegamenti
+- [Translation Standards](../../../docs/translation_standards.md)
+- [Filament Best Practices](../../../docs/filament_best_practices.md)
+- [TransTrait Documentation](../../Xot/docs/trans_trait_usage.md)
+## Memoria Permanente
+<<<<<<< .merge_file_QkDnXh
+=======
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2Dt1WV
 **RICORDA SEMPRE**:
 - SEMPRE `TransTrait` negli enum
 - SEMPRE `transClass()` per traduzioni
 - MAI `match()` per traduzioni
 - SEMPRE struttura espansa nelle traduzioni
 - SEMPRE sincronizzazione IT/EN/DE
+<<<<<<< .merge_file_QkDnXh
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_yYE3vy
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_oYWf8k
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_sAAPzI
+=======
+
+*Ultimo aggiornamento: 2025-01-06*
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+*Ultimo aggiornamento: 2025-01-06* 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_yYE3vy
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_QDRs0d
+>>>>>>> .merge_file_sAAPzI
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2Dt1WV
