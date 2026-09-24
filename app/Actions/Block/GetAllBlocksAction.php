@@ -10,12 +10,8 @@ use Illuminate\Support\Str;
 use Modules\Xot\Actions\File\GetClassNameByPathAction;
 use Modules\Xot\Datas\ComponentFileData;
 
-<<<<<<< .merge_file_tU9y4l
-=======
-use function Safe\realpath;
 use function Safe\realpath;
 
->>>>>>> .merge_file_EDdluD
 use Spatie\LaravelData\DataCollection;
 use Spatie\QueueableAction\QueueableAction;
 use Webmozart\Assert\Assert;
