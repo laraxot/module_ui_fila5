@@ -16,16 +16,7 @@ class UserCalendarWidget extends XotBaseSchemaWidget
 {
     public string $type;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     /** @phpstan-var view-string */
-    /** @phpstan-ignore property.defaultValue */
-=======
->>>>>>> laraxot/dev
-=======
-    /** @phpstan-var view-string */
-    /** @phpstan-ignore property.defaultValue */
->>>>>>> laraxot/dev
     protected string $view = 'ui::filament.widgets.user-calendar';
 
     public function getActionName(string $function): string
@@ -43,13 +34,6 @@ class UserCalendarWidget extends XotBaseSchemaWidget
 
     /**
      * @param array<string, mixed> $fetchInfo
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-     * @param array<string, mixed> $fetchInfo
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
      *
      * @return array<int, array<string, mixed>>
      */
@@ -95,24 +79,10 @@ class UserCalendarWidget extends XotBaseSchemaWidget
     }
 
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
      * @param array<string, mixed>|null $view
      * @param array<string, mixed>|null $resource
      *
      * @SuppressWarnings("PHPMD.UnusedFormalParameter")
-<<<<<<< HEAD
-=======
-     * @SuppressWarnings("PHPMD.UnusedFormalParameter")
-     */
-    /**
-     * @param array<string, mixed>|null $view
-     * @param array<string, mixed>|null $resource
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
      */
     public function onDateSelect(string $start, ?string $end, bool $allDay, ?array $view, ?array $resource): void
     {
