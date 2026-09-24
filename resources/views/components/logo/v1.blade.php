@@ -1,10 +1,6 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-=======
-
->>>>>>> laraxot/dev
 ?>
 {{--  
 <svg {{ $attributes }} viewBox="0 0 50 52" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
