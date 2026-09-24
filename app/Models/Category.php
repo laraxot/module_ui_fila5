@@ -108,15 +108,21 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Category whereUpdatedAt($value)
  * @method static Builder<static>|Category whereUpdatedBy($value)
  *
+<<<<<<< HEAD
  * <<<<<<< .merge_file_JtRO47
  * =======
  *
+=======
+>>>>>>> 1b458f2 (refactor: remove conflict markers from multiple PHP files)
  * @property ProfileContract|null $deleter
  *
  * >>>>>>> laraxot/dev
  *
+<<<<<<< HEAD
  * >>>>>>> .merge_file_dAyym1
  *
+=======
+>>>>>>> 1b458f2 (refactor: remove conflict markers from multiple PHP files)
  * @mixin \Eloquent
  */
 class Category extends BaseModel
