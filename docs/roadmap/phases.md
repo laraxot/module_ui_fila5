@@ -1,20 +1,3 @@
-<<<<<<< .merge_file_I8lp38
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_WQ4ccr
-=======
-=======
-<<<<<<< .merge_file_4y7KzV
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_eUW87D
->>>>>>> .merge_file_EIEd8n
->>>>>>> .merge_file_JeQuus
 ---
 title: "Fasi di sviluppo - UI Module"
 type: concept
@@ -22,36 +5,10 @@ tags: [phases]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "phases fasi di sviluppo - ui module"
-<<<<<<< .merge_file_I8lp38
-=======
-<<<<<<< .merge_file_WQ4ccr
-=======
-<<<<<<< .merge_file_4y7KzV
->>>>>>> .merge_file_EIEd8n
-<<<<<<< HEAD
->>>>>>> .merge_file_JeQuus
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-<<<<<<< .merge_file_I8lp38
-=======
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_WQ4ccr
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_eUW87D
->>>>>>> .merge_file_EIEd8n
->>>>>>> .merge_file_JeQuus
 related:
   - "./00-index-1.md"
   - "./00-index.md"
@@ -63,23 +20,6 @@ related:
   - "./03-later.md"
 ---
 
-<<<<<<< .merge_file_I8lp38
-=======
-<<<<<<< .merge_file_WQ4ccr
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_4y7KzV
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_eUW87D
->>>>>>> .merge_file_EIEd8n
->>>>>>> .merge_file_JeQuus
 # Fasi di sviluppo - UI Module
 
 ## Fase 1: Modernization (In Progress)

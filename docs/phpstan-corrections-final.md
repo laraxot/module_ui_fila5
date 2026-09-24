@@ -107,21 +107,6 @@
 
 ---
 
-<<<<<<< .merge_file_gxjUTN
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_bIXahW
-**Data**: 2025-01-06
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
-**Data**: 2025-01-06
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_K0Amsh
->>>>>>> .merge_file_MW7pIH
 **Status**: ✅ Tutte le correzioni completate
 **PHPStan Level**: 10 ✅
 **Errori totali**: 0 ✅

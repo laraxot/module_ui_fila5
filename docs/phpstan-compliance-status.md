@@ -1,21 +1,6 @@
 # PHPStan Level 10 Compliance Status
 
 
-<<<<<<< .merge_file_mMvQxr
-=======
-=======
-<<<<<<< .merge_file_pGATxE
-**Last Updated**: 2025-12-10
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-
-=======
-**Last Updated**: 2025-12-10
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_kdluAo
->>>>>>> .merge_file_wPRdRr
 **Status**: ✅ FULLY COMPLIANT (0 errors)
 
 ## Summary

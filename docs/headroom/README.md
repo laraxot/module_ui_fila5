@@ -33,22 +33,6 @@ headroom perf --hours 24
 - Guida root: `../../../../../docs/HEADROOM-INTEGRATION.md`.
 - Non documentare comandi per-modulo non presenti nel CLI Headroom.
 - Coordinare modifiche su issue #218 e discussion #219.
-<<<<<<< .merge_file_0veLy2
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_bKhEUL
-=======
-<<<<<<< .merge_file_irkwG5
-=======
-<<<<<<< .merge_file_QUITJZ
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_aurpfE
->>>>>>> .merge_file_srI0Cr
->>>>>>> .merge_file_x1dh7Y
->>>>>>> .merge_file_yw5Pae
 # UI
 
 [![Module](https://img.shields.io/badge/Module-UI-8B0000.svg)]()
@@ -83,26 +67,3 @@ Core module for the FixCity Platform.
 ---
 
 **Modulo** `UI` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
-<<<<<<< .merge_file_0veLy2
-=======
-<<<<<<< .merge_file_bKhEUL
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_irkwG5
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_QUITJZ
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_aurpfE
->>>>>>> .merge_file_srI0Cr
->>>>>>> .merge_file_x1dh7Y
->>>>>>> .merge_file_yw5Pae

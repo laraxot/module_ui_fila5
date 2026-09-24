@@ -1,20 +1,3 @@
-<<<<<<< .merge_file_s3Bkxe
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_jYSGlR
-=======
-=======
-<<<<<<< .merge_file_4rz7B4
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_5XmRqX
->>>>>>> .merge_file_BRYbFm
->>>>>>> .merge_file_YO8o2m
 ---
 title: "Ubuntu"
 type: concept
@@ -22,36 +5,10 @@ tags: [ubuntu]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "ubuntu ubuntu"
-<<<<<<< .merge_file_s3Bkxe
-=======
-<<<<<<< .merge_file_jYSGlR
-=======
-<<<<<<< .merge_file_4rz7B4
->>>>>>> .merge_file_BRYbFm
-<<<<<<< HEAD
->>>>>>> .merge_file_YO8o2m
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-<<<<<<< .merge_file_s3Bkxe
-=======
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_jYSGlR
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_5XmRqX
->>>>>>> .merge_file_BRYbFm
->>>>>>> .merge_file_YO8o2m
 related:
   - "./api-1.md"
   - "./api.md"
@@ -63,23 +20,6 @@ related:
   - "./changelog-2.md"
 ---
 
-<<<<<<< .merge_file_s3Bkxe
-=======
-<<<<<<< .merge_file_jYSGlR
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_4rz7B4
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_5XmRqX
->>>>>>> .merge_file_BRYbFm
->>>>>>> .merge_file_YO8o2m
 sudo apt-get install jpegoptim
 sudo apt-get install optipng
 sudo apt-get install pngquant // For PNG Image

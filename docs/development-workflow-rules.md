@@ -1,34 +1,6 @@
 # Development Workflow Rules - UI Module
 
-<<<<<<< .merge_file_WTirGs
 **Date**: 2025-12-15
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_UFnOE5
-**Date**: [DATE]
-=======
-**Date**: 2025-12-15
-=======
-<<<<<<< .merge_file_MRbWq9
-**Date**: [DATE]
-=======
-<<<<<<< HEAD
-**Date**: 2025-12-15
-=======
-<<<<<<< HEAD
-**Date**: [DATE]
-=======
-**Date**: 2025-12-15
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-**Date**: 2025-12-15
-=======
-**Date**: [DATE]
->>>>>>> .merge_file_Vyhk3B
->>>>>>> .merge_file_F8rPmF
->>>>>>> laraxot/dev
->>>>>>> .merge_file_osFPpm
 **Status**: Active
 **Purpose**: Document the mandatory development workflow for UI module
 
@@ -174,56 +146,10 @@
 
 ## 📚 Related Documentation
 
-<<<<<<< .merge_file_WTirGs
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_UFnOE5
-=======
-<<<<<<< .merge_file_MRbWq9
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
 - [Xot Philosophy](../Xot/docs/philosophy-complete.md)
 - [PSR-4 Autoloading Error Analysis](./psr4-autoloading-error-analysis.md)
 - [Development Guidelines](../../../docs/development/README.md)
 - [Git Workflow](../../../docs/git-conflict-resolution/README.md)
-=======
->>>>>>> .merge_file_Vyhk3B
->>>>>>> .merge_file_F8rPmF
-- [Xot Philosophy](../xot/docs/philosophy-complete.md)
-- [PSR-4 Autoloading Error Analysis](./psr4-autoloading-error-analysis.md)
-- [Development Guidelines](../../../../docs/development/readme.md)
-- [Git Workflow](../../../../docs/git-conflict-resolution/readme.md)
-<<<<<<< .merge_file_UFnOE5
-=======
-=======
-<<<<<<< .merge_file_MRbWq9
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_F8rPmF
->>>>>>> .merge_file_osFPpm
-- [Xot Philosophy](../Xot/docs/philosophy-complete.md)
-- [PSR-4 Autoloading Error Analysis](./psr4-autoloading-error-analysis.md)
-- [Development Guidelines](../../../docs/development/README.md)
-- [Git Workflow](../../../docs/git-conflict-resolution/README.md)
-<<<<<<< .merge_file_WTirGs
-=======
-<<<<<<< .merge_file_UFnOE5
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_Vyhk3B
->>>>>>> .merge_file_F8rPmF
->>>>>>> laraxot/dev
->>>>>>> .merge_file_osFPpm
 
 ## ⚠️ Consequences of Skipping Steps
 

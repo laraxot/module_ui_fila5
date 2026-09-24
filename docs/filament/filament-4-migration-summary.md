@@ -1,20 +1,3 @@
-<<<<<<< .merge_file_h1Rv6A
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_6mgWbp
-=======
-=======
-<<<<<<< .merge_file_cIUkiW
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_fifjEe
->>>>>>> .merge_file_b3UBOR
->>>>>>> .merge_file_ACTnnL
 ---
 title: "Filament 4 Migration Summary"
 type: concept
@@ -22,36 +5,10 @@ tags: [filament, migration, summary]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament-4-migration-summary filament 4 migration summary"
-<<<<<<< .merge_file_h1Rv6A
-=======
-<<<<<<< .merge_file_6mgWbp
-=======
-<<<<<<< .merge_file_cIUkiW
->>>>>>> .merge_file_b3UBOR
-<<<<<<< HEAD
->>>>>>> .merge_file_ACTnnL
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-<<<<<<< .merge_file_h1Rv6A
-=======
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_6mgWbp
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_fifjEe
->>>>>>> .merge_file_b3UBOR
->>>>>>> .merge_file_ACTnnL
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -63,23 +20,6 @@ related:
   - "./file-upload-component.md"
 ---
 
-<<<<<<< .merge_file_h1Rv6A
-=======
-<<<<<<< .merge_file_6mgWbp
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_cIUkiW
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_fifjEe
->>>>>>> .merge_file_b3UBOR
->>>>>>> .merge_file_ACTnnL
 # Filament 4 Migration Summary
 
 ## Completed Tasks ✅
@@ -96,32 +36,7 @@ related:
 - ✅ Created detailed **Filament 4 Components Development Guide**
 - ✅ Updated project **CLAUDE.md** rules for Filament 4
 - ✅ Updated version information (PHP 8.3.25, Filament 4.0.19, Laravel 12.30.1)
-<<<<<<< .merge_file_h1Rv6A
 - ✅ Updated version information (PHP 8.3.25, Filament 4.0.19, Laravel 13.30.1)
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_6mgWbp
-=======
-- ✅ Updated version information (PHP 8.3.25, Filament 4.0.19, Laravel 13.30.1)
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_cIUkiW
-=======
-<<<<<<< HEAD
-- ✅ Updated version information (PHP 8.3.25, Filament 4.0.19, Laravel 13.30.1)
-=======
-<<<<<<< HEAD
-=======
-- ✅ Updated version information (PHP 8.3.25, Filament 4.0.19, Laravel 13.30.1)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- ✅ Updated version information (PHP 8.3.25, Filament 4.0.19, Laravel 13.30.1)
-=======
->>>>>>> .merge_file_fifjEe
->>>>>>> laraxot/dev
->>>>>>> .merge_file_b3UBOR
->>>>>>> .merge_file_ACTnnL
 
 ### 3. Code Updates and Fixes
 

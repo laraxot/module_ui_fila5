@@ -1,20 +1,3 @@
-<<<<<<< .merge_file_yqRiOn
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_OeJonJ
-=======
-=======
-<<<<<<< .merge_file_bUBENV
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_P6mR8M
->>>>>>> .merge_file_9rMFFb
->>>>>>> .merge_file_a2EB6G
 ---
 title: "Studio Selection Component con Pulsanti"
 type: concept
@@ -22,36 +5,10 @@ tags: [studio, selection, component]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "studio-selection-component studio selection component con pulsanti"
-<<<<<<< .merge_file_yqRiOn
-=======
-<<<<<<< .merge_file_OeJonJ
-=======
-<<<<<<< .merge_file_bUBENV
->>>>>>> .merge_file_9rMFFb
-<<<<<<< HEAD
->>>>>>> .merge_file_a2EB6G
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-<<<<<<< .merge_file_yqRiOn
-=======
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_OeJonJ
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_P6mR8M
->>>>>>> .merge_file_9rMFFb
->>>>>>> .merge_file_a2EB6G
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -63,23 +20,6 @@ related:
   - "./full-calendar-1.md"
 ---
 
-<<<<<<< .merge_file_yqRiOn
-=======
-<<<<<<< .merge_file_OeJonJ
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_bUBENV
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_P6mR8M
->>>>>>> .merge_file_9rMFFb
->>>>>>> .merge_file_a2EB6G
 # Studio Selection Component con Pulsanti
 
 ## Descrizione

@@ -2,46 +2,12 @@
 module: theme
 topic: index
 canonical: ../../../../Themes/docs/shared-components/index.md
-<<<<<<< .merge_file_SykiRp
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_HgVgTl
-=======
-=======
-<<<<<<< .merge_file_XTlR2G
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_6I2jNV
->>>>>>> .merge_file_Sbih7Y
->>>>>>> .merge_file_SX6GRn
 related:
   - "./advanced.md"
   - "./laravel.md"
   - "./security.md"
   - "./styling.md"
   - "./usage.md"
-<<<<<<< .merge_file_SykiRp
-=======
-<<<<<<< .merge_file_HgVgTl
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_XTlR2G
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_6I2jNV
->>>>>>> .merge_file_Sbih7Y
->>>>>>> .merge_file_SX6GRn
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/index.md

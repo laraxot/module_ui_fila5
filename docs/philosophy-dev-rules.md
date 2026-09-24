@@ -114,33 +114,8 @@ If you think a rule is wrong:
 
 ## See Also
 
-<<<<<<< .merge_file_AHKKd3
 - `architecture.md` — component organization and Filament patterns
 - `testing.md` — component testing strategies
-=======
-<<<<<<< .merge_file_AHsyfP
-- `ARCHITECTURE.md` — component organization and Filament patterns
-- `TESTING.md` — component testing strategies
-=======
-<<<<<<< .merge_file_8r59FB
-- `ARCHITECTURE.md` — component organization and Filament patterns
-- `TESTING.md` — component testing strategies
-=======
-<<<<<<< .merge_file_6PftQO
-- `ARCHITECTURE.md` — component organization and Filament patterns
-- `TESTING.md` — component testing strategies
-=======
-<<<<<<< HEAD
-- `architecture.md` — component organization and Filament patterns
-- `testing.md` — component testing strategies
-=======
-- `ARCHITECTURE.md` — component organization and Filament patterns
-- `TESTING.md` — component testing strategies
->>>>>>> laraxot/dev
->>>>>>> .merge_file_TJ0kxz
->>>>>>> .merge_file_p42x5o
->>>>>>> .merge_file_UzBDvI
->>>>>>> .merge_file_QJpPvb
 - `docs/filament-patterns.md` — Filament resource best practices
 - `docs/folio-volt-integration.md` — Folio+Volt workflow
 - `docs/theme-system.md` — multi-tenant theming

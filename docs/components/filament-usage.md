@@ -1,20 +1,3 @@
-<<<<<<< .merge_file_XBE1yz
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_Rq3oaU
-=======
-=======
-<<<<<<< .merge_file_6OResA
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_3vtsd7
->>>>>>> .merge_file_oc2QFj
->>>>>>> .merge_file_Quw0er
 ---
 title: "Utilizzo dei Componenti Filament nel Progetto"
 type: concept
@@ -22,36 +5,10 @@ tags: [filament, usage]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament-usage utilizzo dei componenti filament nel progetto"
-<<<<<<< .merge_file_XBE1yz
-=======
-<<<<<<< .merge_file_Rq3oaU
-=======
-<<<<<<< .merge_file_6OResA
->>>>>>> .merge_file_oc2QFj
-<<<<<<< HEAD
->>>>>>> .merge_file_Quw0er
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-<<<<<<< .merge_file_XBE1yz
-=======
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_Rq3oaU
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_3vtsd7
->>>>>>> .merge_file_oc2QFj
->>>>>>> .merge_file_Quw0er
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -63,23 +20,6 @@ related:
   - "./full-calendar.md"
 ---
 
-<<<<<<< .merge_file_XBE1yz
-=======
-<<<<<<< .merge_file_Rq3oaU
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_6OResA
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_3vtsd7
->>>>>>> .merge_file_oc2QFj
->>>>>>> .merge_file_Quw0er
 # Utilizzo dei Componenti Filament nel Progetto
 
 Questo documento serve come punto di riferimento centrale per l'utilizzo dei componenti Filament in tutto il progetto.

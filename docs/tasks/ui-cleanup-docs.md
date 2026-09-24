@@ -1,20 +1,3 @@
-<<<<<<< .merge_file_W1O02U
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_vbNop7
-=======
-=======
-<<<<<<< .merge_file_rJ2fOn
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_jCxVWl
->>>>>>> .merge_file_EX67E6
->>>>>>> .merge_file_AGlrK2
 ---
 title: "Task: UI Docs Cleanup"
 type: concept
@@ -22,49 +5,12 @@ tags: [cleanup, docs]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "ui-cleanup-docs task: ui docs cleanup"
-<<<<<<< .merge_file_W1O02U
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-<<<<<<< .merge_file_vbNop7
-=======
-<<<<<<< .merge_file_rJ2fOn
->>>>>>> .merge_file_EX67E6
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-<<<<<<< .merge_file_vbNop7
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> .merge_file_jCxVWl
->>>>>>> .merge_file_EX67E6
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-<<<<<<< .merge_file_vbNop7
-=======
-<<<<<<< .merge_file_rJ2fOn
->>>>>>> .merge_file_EX67E6
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_vbNop7
-=======
-=======
->>>>>>> .merge_file_jCxVWl
->>>>>>> .merge_file_EX67E6
->>>>>>> .merge_file_AGlrK2
 related:
   - "./001-design-system-components.md"
   - "./cleanup-redundant-files.md"
@@ -75,23 +21,6 @@ related:
   - "./ui-filament-v5.md"
 ---
 
-<<<<<<< .merge_file_W1O02U
-=======
-<<<<<<< .merge_file_vbNop7
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_rJ2fOn
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_jCxVWl
->>>>>>> .merge_file_EX67E6
->>>>>>> .merge_file_AGlrK2
 # Task: UI Docs Cleanup
 
 ## 📋 Obiettivo

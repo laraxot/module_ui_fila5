@@ -29,32 +29,7 @@ Il modulo UI è l'esempio **perfetto** di come dovrebbe essere un BaseModel quan
 - ✅ Connection automatica da XotBaseModel
 
 ## 🔗 Collegamenti
-<<<<<<< .merge_file_vFCWpf
 [DRY/KISS Global](../../docs/DRY_KISS_ANALYSIS_2025-10-15.md)
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_RhaTNR
-[DRY/KISS Global](../../../docs/dry_kiss_analysis_[date].md)
-=======
-[DRY/KISS Global](../../docs/DRY_KISS_ANALYSIS_2025-10-15.md)
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_qSI3kH
-[DRY/KISS Global](../../../docs/dry_kiss_analysis_[date].md)
-=======
-<<<<<<< HEAD
-[DRY/KISS Global](../../../docs/dry_kiss_analysis_[date].md)
-=======
-[DRY/KISS Global](../../docs/DRY_KISS_ANALYSIS_2025-10-15.md)
->>>>>>> laraxot/dev
-=======
-[DRY/KISS Global](../../docs/DRY_KISS_ANALYSIS_2025-10-15.md)
-=======
-[DRY/KISS Global](../../../docs/dry_kiss_analysis_[date].md)
->>>>>>> .merge_file_jWwajc
->>>>>>> laraxot/dev
->>>>>>> .merge_file_ccJ8k5
->>>>>>> .merge_file_AqsDuH
 
 ---
 

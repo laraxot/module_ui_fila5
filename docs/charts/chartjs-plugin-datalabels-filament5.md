@@ -1,20 +1,3 @@
-<<<<<<< .merge_file_VQNUi9
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_UGB8Yp
-=======
-=======
-<<<<<<< .merge_file_4dk9fk
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_p3embN
->>>>>>> .merge_file_Rk2opQ
->>>>>>> .merge_file_ItzGJV
 ---
 title: "chartjs-plugin-datalabels with Filament 5 ChartWidget (multiple labels)"
 type: concept
@@ -22,36 +5,10 @@ tags: [chartjs, plugin, datalabels, filament5]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "chartjs-plugin-datalabels-filament5 chartjs-plugin-datalabels with filament 5 chartwidget (multiple labels)"
-<<<<<<< .merge_file_VQNUi9
-=======
-<<<<<<< .merge_file_UGB8Yp
-=======
-<<<<<<< .merge_file_4dk9fk
->>>>>>> .merge_file_Rk2opQ
-<<<<<<< HEAD
->>>>>>> .merge_file_ItzGJV
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-<<<<<<< .merge_file_VQNUi9
-=======
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_UGB8Yp
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_p3embN
->>>>>>> .merge_file_Rk2opQ
->>>>>>> .merge_file_ItzGJV
 related:
   - "./chartjs-datalabels-multiple-labels-complete-guide.md"
   - "./export-strategy.md"
@@ -60,23 +17,6 @@ related:
   - "./shared-hosting-strategy.md"
 ---
 
-<<<<<<< .merge_file_VQNUi9
-=======
-<<<<<<< .merge_file_UGB8Yp
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_4dk9fk
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_p3embN
->>>>>>> .merge_file_Rk2opQ
->>>>>>> .merge_file_ItzGJV
 # chartjs-plugin-datalabels with Filament 5 ChartWidget (multiple labels)
 
 ## Goal

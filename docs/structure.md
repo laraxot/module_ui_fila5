@@ -1,34 +1,6 @@
 # Modulo UI
 
-<<<<<<< .merge_file_QSUEFu
 Data: 2025-04-23 19:09:56
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_tX6dO6
-Data: [DATE] 19:09:56
-=======
-Data: 2025-04-23 19:09:56
-=======
-<<<<<<< .merge_file_BEhqqt
-Data: [DATE] 19:09:56
-=======
-<<<<<<< HEAD
-Data: 2025-04-23 19:09:56
-=======
-<<<<<<< HEAD
-Data: [DATE] 19:09:56
-=======
-Data: 2025-04-23 19:09:56
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-Data: 2025-04-23 19:09:56
-=======
-Data: [DATE] 19:09:56
->>>>>>> .merge_file_5EZSs2
->>>>>>> .merge_file_GSK6uD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_1U6rAC
 
 ## Informazioni generali
 
@@ -529,18 +501,6 @@ tests_old
 
 ## Collegamenti tra versioni di structure.md
 * [structure.md](bashscripts/docs/structure.md)
-<<<<<<< .merge_file_QSUEFu
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_tX6dO6
-=======
-<<<<<<< .merge_file_BEhqqt
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
 * [structure.md](../../../Gdpr/docs/structure.md)
 * [structure.md](../../../Notify/docs/structure.md)
 * [structure.md](../../../Xot/docs/structure.md)
@@ -556,59 +516,3 @@ tests_old
 * [structure.md](../../../Cms/docs/structure.md)
 * [structure.md](../../../Cms/docs/themes/structure.md)
 * [structure.md](../../../Cms/docs/components/structure.md)
-=======
->>>>>>> .merge_file_5EZSs2
->>>>>>> .merge_file_GSK6uD
-* [structure.md](../../../gdpr/docs/structure.md)
-* [structure.md](../../../notify/docs/structure.md)
-* [structure.md](../../../xot/docs/structure.md)
-* [structure.md](../../../xot/docs/base/structure.md)
-* [structure.md](../../../xot/docs/config/structure.md)
-* [structure.md](../../../user/docs/structure.md)
-* [structure.md](../../../ui/docs/structure.md)
-* [structure.md](../../../lang/docs/structure.md)
-* [structure.md](../../../job/docs/structure.md)
-* [structure.md](../../../media/docs/structure.md)
-* [structure.md](../../../tenant/docs/structure.md)
-* [structure.md](../../../activity/docs/structure.md)
-* [structure.md](../../../cms/docs/structure.md)
-* [structure.md](../../../cms/docs/themes/structure.md)
-* [structure.md](../../../cms/docs/components/structure.md)
-<<<<<<< .merge_file_tX6dO6
-=======
-=======
-<<<<<<< .merge_file_BEhqqt
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_GSK6uD
->>>>>>> .merge_file_1U6rAC
-* [structure.md](../../../Gdpr/docs/structure.md)
-* [structure.md](../../../Notify/docs/structure.md)
-* [structure.md](../../../Xot/docs/structure.md)
-* [structure.md](../../../Xot/docs/base/structure.md)
-* [structure.md](../../../Xot/docs/config/structure.md)
-* [structure.md](../../../User/docs/structure.md)
-* [structure.md](../../../UI/docs/structure.md)
-* [structure.md](../../../Lang/docs/structure.md)
-* [structure.md](../../../Job/docs/structure.md)
-* [structure.md](../../../Media/docs/structure.md)
-* [structure.md](../../../Tenant/docs/structure.md)
-* [structure.md](../../../Activity/docs/structure.md)
-* [structure.md](../../../Cms/docs/structure.md)
-* [structure.md](../../../Cms/docs/themes/structure.md)
-* [structure.md](../../../Cms/docs/components/structure.md)
-<<<<<<< .merge_file_QSUEFu
-=======
-<<<<<<< .merge_file_tX6dO6
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_5EZSs2
->>>>>>> .merge_file_GSK6uD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_1U6rAC

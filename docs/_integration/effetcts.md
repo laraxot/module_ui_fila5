@@ -1,20 +1,3 @@
-<<<<<<< .merge_file_PTazn6
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_mICuVn
-=======
-=======
-<<<<<<< .merge_file_cxgLix
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_rmTtGI
->>>>>>> .merge_file_JuKdlI
->>>>>>> .merge_file_qp0JIu
 ---
 title: "effetcts"
 type: concept
@@ -22,36 +5,10 @@ tags: [effetcts]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "effetcts effetcts"
-<<<<<<< .merge_file_PTazn6
-=======
-<<<<<<< .merge_file_mICuVn
-=======
-<<<<<<< .merge_file_cxgLix
->>>>>>> .merge_file_JuKdlI
-<<<<<<< HEAD
->>>>>>> .merge_file_qp0JIu
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-<<<<<<< .merge_file_PTazn6
-=======
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_mICuVn
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_rmTtGI
->>>>>>> .merge_file_JuKdlI
->>>>>>> .merge_file_qp0JIu
 related:
   - "./api.md"
   - "./blocks.md"
@@ -63,23 +20,6 @@ related:
   - "./custom-firm-fields.md"
 ---
 
-<<<<<<< .merge_file_PTazn6
-=======
-<<<<<<< .merge_file_mICuVn
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_cxgLix
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_rmTtGI
->>>>>>> .merge_file_JuKdlI
->>>>>>> .merge_file_qp0JIu
 # effetcts
 
 <!-- Contenuto migrato da _docs/effetcts.txt -->

@@ -1,20 +1,3 @@
-<<<<<<< .merge_file_HIYFyR
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_flbeAe
-=======
-=======
-<<<<<<< .merge_file_jgp3l3
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_xsilmm
->>>>>>> .merge_file_cLLQd9
->>>>>>> .merge_file_KrR6b7
 ---
 title: "RadioCardSelector Component - Modulo UI"
 type: concept
@@ -22,36 +5,10 @@ tags: [radio, card, selector, component]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "radio-card-selector-component radiocardselector component - modulo ui"
-<<<<<<< .merge_file_HIYFyR
-=======
-<<<<<<< .merge_file_flbeAe
-=======
-<<<<<<< .merge_file_jgp3l3
->>>>>>> .merge_file_cLLQd9
-<<<<<<< HEAD
->>>>>>> .merge_file_KrR6b7
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-<<<<<<< .merge_file_HIYFyR
-=======
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_flbeAe
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_xsilmm
->>>>>>> .merge_file_cLLQd9
->>>>>>> .merge_file_KrR6b7
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -63,23 +20,6 @@ related:
   - "./full-calendar-1.md"
 ---
 
-<<<<<<< .merge_file_HIYFyR
-=======
-<<<<<<< .merge_file_flbeAe
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_jgp3l3
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_xsilmm
->>>>>>> .merge_file_cLLQd9
->>>>>>> .merge_file_KrR6b7
 # RadioCardSelector Component - Modulo UI
 
 ## 🎯 **Panoramica**

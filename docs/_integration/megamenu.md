@@ -1,20 +1,3 @@
-<<<<<<< .merge_file_aKcRcM
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_cUfovb
-=======
-=======
-<<<<<<< .merge_file_aXEs49
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_RXIjGq
->>>>>>> .merge_file_Vaf3DC
->>>>>>> .merge_file_A0f0zi
 ---
 title: "megamenu"
 type: concept
@@ -22,36 +5,10 @@ tags: [megamenu]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "megamenu megamenu"
-<<<<<<< .merge_file_aKcRcM
-=======
-<<<<<<< .merge_file_cUfovb
-=======
-<<<<<<< .merge_file_aXEs49
->>>>>>> .merge_file_Vaf3DC
-<<<<<<< HEAD
->>>>>>> .merge_file_A0f0zi
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-<<<<<<< .merge_file_aKcRcM
-=======
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_cUfovb
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_RXIjGq
->>>>>>> .merge_file_Vaf3DC
->>>>>>> .merge_file_A0f0zi
 related:
   - "./api.md"
   - "./blocks.md"
@@ -63,23 +20,6 @@ related:
   - "./custom-firm-fields.md"
 ---
 
-<<<<<<< .merge_file_aKcRcM
-=======
-<<<<<<< .merge_file_cUfovb
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_aXEs49
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_RXIjGq
->>>>>>> .merge_file_Vaf3DC
->>>>>>> .merge_file_A0f0zi
 # megamenu
 
 <!-- Contenuto migrato da _docs/megamenu.txt -->
