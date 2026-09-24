@@ -1,0 +1,59 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Modules\UI\Filament\Blocks;
+
+use Filament\Forms\Components\Textarea;
+use Filament\Forms\Components\TextInput;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Filament\Schemas\Components\Component;
+=======
+>>>>>>> laraxot/dev
+=======
+use Filament\Schemas\Components\Component;
+>>>>>>> laraxot/dev
+use Modules\Xot\Filament\Blocks\XotBaseBlock;
+
+final class Contact extends XotBaseBlock
+{
+    /**
+<<<<<<< HEAD
+<<<<<<< HEAD
+     * @return array<int, Component>
+=======
+     * @return array<int, \Filament\Schemas\Components\Component>
+>>>>>>> laraxot/dev
+=======
+     * @return array<int, Component>
+>>>>>>> laraxot/dev
+     */
+    public static function getFormSchema(): array
+    {
+        return [
+            TextInput::make('name')
+                ->required()
+                ->label(__('ui::blocks.contact.fields.name.label'))
+                ->helperText(__('ui::blocks.contact.fields.name.helper_text')),
+            TextInput::make('email')
+                ->email()
+                ->required()
+                ->label(__('ui::blocks.contact.fields.email.label'))
+                ->helperText(__('ui::blocks.contact.fields.email.helper_text')),
+            TextInput::make('phone')
+                ->tel()
+                ->label(__('ui::blocks.contact.fields.phone.label'))
+                ->helperText(__('ui::blocks.contact.fields.phone.helper_text')),
+            Textarea::make('message')
+                ->required()
+                ->label(__('ui::blocks.contact.fields.message.label'))
+                ->helperText(__('ui::blocks.contact.fields.message.helper_text')),
+        ];
+    }
+
+    public static function getTitle(): string
+    {
+        return __('ui::blocks.contact.title');
+    }
+}

@@ -1,0 +1,217 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Modules\UI\Tests;
+
+use Illuminate\Foundation\Application;
+use Illuminate\Foundation\Testing\DatabaseTransactions;
+use Illuminate\Support\Facades\DB;
+use Mockery\Expectation;
+use Mockery\LegacyMockInterface;
+use Mockery\MockInterface;
+use Modules\UI\Providers\UIServiceProvider;
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Modules\UI\Tests\Support\EnsuresUiDatabaseSchema;
+use Modules\User\Models\User;
+=======
+use Modules\Xot\Contracts\UserContract;
+>>>>>>> laraxot/dev
+=======
+use Modules\UI\Tests\Support\EnsuresUiDatabaseSchema;
+use Modules\User\Models\User;
+>>>>>>> laraxot/dev
+use Modules\User\Providers\UserServiceProvider;
+use Modules\Xot\Tests\XotBaseTestCase;
+
+use function Safe\file_get_contents;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+use Modules\User\Models\User;
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+
+/**
+ * Base test case for UI module.
+ *
+ * Uses shared sqlite from fixcity_data.sqlite (no RefreshDatabase).
+ * Pattern skip offline: Feature/`ui-db` skip se manca schema; Unit eseguiti.
+ */
+abstract class TestCase extends XotBaseTestCase
+{
+    use DatabaseTransactions;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    use EnsuresUiDatabaseSchema;
+=======
+>>>>>>> laraxot/dev
+=======
+    use EnsuresUiDatabaseSchema;
+>>>>>>> laraxot/dev
+
+    /**
+     * Restringe il tipo di ritorno unione di shouldReceive() per PHPStan.
+     *
+     * Viveva come funzione libera in tre file di test, ognuno con una guardia
+     * function_exists('expectMethod') che non funzionava: la funzione stava in un
+     * namespace, e function_exists senza namespace cerca quella globale. Il secondo
+     * file caricato faceva fallire l'intera suite con un "Cannot redeclare".
+     *
+     * Con un singolo metodo shouldReceive() restituisce una Expectation
+     * (il PHPDoc Mockery lo garantisce: `$methodNames is list{} ? HigherOrderMessage : Expectation`),
+     * che espone with()/andReturnUsing() ecc. — ExpectationInterface no.
+     */
+    public static function expectMethod(LegacyMockInterface|MockInterface $mock, string $method): Expectation
+    {
+        /** @var Expectation $expectation */
+        $expectation = $mock->shouldReceive($method);
+
+        return $expectation;
+    }
+
+    /** @var list<string> */
+    protected $connectionsToTransact = ['xot', 'sqlite', 'user'];
+
+    /**
+     * @return array<int, class-string>
+     */
+    protected function getPackageProviders(Application $app): array
+    {
+        return [
+            ...parent::getPackageProviders($app),
+            UserServiceProvider::class,
+            UIServiceProvider::class,
+        ];
+    }
+
+    protected function setUp(): void
+    {
+        $this->prepareSharedSqliteForTesting();
+
+        parent::setUp();
+
+        config(['auth.providers.users.model' => User::class]);
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+        $this->ensureUiSchema();
+
+=======
+>>>>>>> laraxot/dev
+=======
+        $this->ensureUiSchema();
+
+>>>>>>> laraxot/dev
+        if ($this->shouldSkipForMissingUiDb()) {
+            $this->markTestSkipped('DB `ui` (themes/categories) non disponibile in ambiente test condiviso.');
+        }
+    }
+
+    /**
+     * Salta quando manca lo schema UI, salvo test Unit o marcati `no-ui-db`.
+     * I test DB-dependent in Unit usano gruppo `ui-db`.
+     */
+    protected function shouldSkipForMissingUiDb(): bool
+    {
+        if (! static::uiDbUnavailable()) {
+            return false;
+        }
+
+        $testFile = $this->resolvePestTestFile();
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (null !== $testFile && is_file($testFile)) {
+=======
+        if ($testFile !== null && is_file($testFile)) {
+>>>>>>> laraxot/dev
+=======
+        if (null !== $testFile && is_file($testFile)) {
+>>>>>>> laraxot/dev
+            $source = file_get_contents($testFile);
+            if (str_contains($source, "group('no-ui-db')")) {
+                return false;
+            }
+            if (str_contains($source, "group('ui-db')")) {
+                return true;
+            }
+        }
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if (null !== $testFile && str_contains($testFile, '/tests/Unit/')) {
+=======
+        if ($testFile !== null && str_contains($testFile, '/tests/Unit/')) {
+>>>>>>> laraxot/dev
+=======
+        if (null !== $testFile && str_contains($testFile, '/tests/Unit/')) {
+>>>>>>> laraxot/dev
+            return false;
+        }
+
+        return true;
+    }
+
+    private function resolvePestTestFile(): ?string
+    {
+        $class = static::class;
+
+        if (property_exists($class, '__filename')) {
+            /** @var string $filename */
+            $filename = $class::$__filename;
+
+            return $filename;
+        }
+
+        $file = (new \ReflectionClass($this))->getFileName();
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+        return false !== $file ? $file : null;
+=======
+        return $file !== false ? $file : null;
+>>>>>>> laraxot/dev
+=======
+        return false !== $file ? $file : null;
+>>>>>>> laraxot/dev
+    }
+
+    /**
+     * Lo sqlite condiviso non contiene sempre le tabelle themes/categories.
+     * fixcity_data.sqlite = offline anche se somehow le tabelle UI ci sono.
+     */
+    public static function uiDbUnavailable(): bool
+    {
+        try {
+            $connection = DB::connection('xot');
+            $connection->getPdo();
+            $database = (string) $connection->getDatabaseName();
+            if (str_contains($database, 'fixcity_data.sqlite')) {
+                return true;
+            }
+
+            $schema = $connection->getSchemaBuilder();
+
+            foreach (['themes', 'categories', 'collections'] as $table) {
+                if (! $schema->hasTable($table)) {
+                    return true;
+                }
+            }
+
+            return false;
+        } catch (\Throwable) {
+            return true;
+        }
+    }
+<<<<<<< HEAD
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> laraxot/dev
+=======
+}
+>>>>>>> laraxot/dev

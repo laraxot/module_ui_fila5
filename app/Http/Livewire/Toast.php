@@ -1,0 +1,31 @@
+<?php
+
+declare(strict_types=1);
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+/**
+ * @see https://github.com/bezhanSalleh/filament-language-switch/blob/main/src/Http/Livewire/FilamentLanguageSwitch.php
+ */
+
+namespace Modules\UI\Http\Livewire;
+
+use Illuminate\Contracts\View\View;
+use Livewire\Component;
+
+final class Toast extends Component
+{
+    public function render(): View
+    {
+        $view = 'ui::livewire.toast';
+        $viewParams = [
+            'view' => $view,
+        ];
+
+        return view($view, $viewParams);
+    }
+}
