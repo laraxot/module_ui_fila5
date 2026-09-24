@@ -67,11 +67,11 @@ final class RedirectWidget extends XotBaseSchemaWidget
      * Implementazione richiesta da XotBaseWidget.
      * Per questo widget non abbiamo form, quindi restituiamo array vuoto.
      *
-<<<<<<< HEAD
-     * <<<<<<< .merge_file_EsgTYQ
-=======
      * <<<<<<< HEAD
->>>>>>> 1b458f2 (refactor: remove conflict markers from multiple PHP files)
+     * <<<<<<< .merge_file_EsgTYQ
+     * =======
+     * <<<<<<< HEAD
+     * >>>>>>> 1b458f2 (refactor: remove conflict markers from multiple PHP files)
      *
      * @return array<string, Component>
      *                                  =======
@@ -80,10 +80,10 @@ final class RedirectWidget extends XotBaseSchemaWidget
      *                                  =======
      * @return array<string, mixed>
      *                                  >>>>>>> laraxot/dev
-<<<<<<< HEAD
+     *                                  <<<<<<< HEAD
      *                                  >>>>>>> .merge_file_XaJhjJ
-=======
->>>>>>> 1b458f2 (refactor: remove conflict markers from multiple PHP files)
+     *                                  =======
+     *                                  >>>>>>> 1b458f2 (refactor: remove conflict markers from multiple PHP files)
      */
     public function getFormSchema(): array
     {
