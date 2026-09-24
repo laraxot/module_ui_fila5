@@ -119,7 +119,8 @@ See [docs/architecture.md](./docs/architecture.md) for design decisions.
 | 🎯 Esempi | [docs/examples/](./docs/examples/) |
 | 📋 Story BMAD | [docs/stories/](./docs/stories/) |
 | 🏗️ Architettura | [docs/architecture.md](./docs/architecture.md) |
-| 🧪 Testing | [docs/root-md-files/testing.md](./docs/root-md-files/testing.md) |
+| 🧪 Testing | [docs/testing.md](./docs/testing.md) |
+| 🧭 Filosofia | [docs/philosophy.md](./docs/philosophy.md) |
 | 📜 Changelog | [CHANGELOG.md](./CHANGELOG.md) |
 | 📐 Regole del progetto | [../../../docs/wiki/](../../../docs/wiki/) |
 | 🏠 README del progetto | [../../../README.md](../../../README.md) |
