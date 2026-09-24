@@ -34,14 +34,16 @@ class UserCalendarWidget extends XotBaseSchemaWidget
     }
 
     /**
-<<<<<<< HEAD
-     * @param  array<string, mixed>  $fetchInfo
-     * @param  array<string, mixed>  $fetchInfo
-=======
+     * <<<<<<< HEAD.
+     *
+     * @param array<string, mixed> $fetchInfo
+     * @param array<string, mixed> $fetchInfo
+     *                                        =======
      * @param array<string, mixed> $fetchInfo
      * @param array<string, mixed> $fetchInfo
      *
->>>>>>> laraxot/dev
+     * >>>>>>> laraxot/dev
+     *
      * @return array<int, array<string, mixed>>
      */
     public function fetchEvents(array $fetchInfo): array
@@ -89,13 +91,14 @@ class UserCalendarWidget extends XotBaseSchemaWidget
      * @SuppressWarnings("PHPMD.UnusedFormalParameter")
      */
     /**
-<<<<<<< HEAD
-     * @param  array<string, mixed>|null  $view
-     * @param  array<string, mixed>|null  $resource
-=======
+     * <<<<<<< HEAD.
+     *
      * @param array<string, mixed>|null $view
      * @param array<string, mixed>|null $resource
->>>>>>> laraxot/dev
+     *                                            =======
+     * @param array<string, mixed>|null $view
+     * @param array<string, mixed>|null $resource
+     *                                            >>>>>>> laraxot/dev
      */
     public function onDateSelect(string $start, ?string $end, bool $allDay, ?array $view, ?array $resource): void
     {

@@ -35,11 +35,12 @@ final class Slider
     }
 
     /**
-<<<<<<< HEAD
+     * <<<<<<< HEAD.
+     *
      * @return array<int|string, Component>
-=======
-     * @return array<int|string, \Filament\Schemas\Components\Component>
->>>>>>> laraxot/dev
+     *                                      =======
+     * @return array<int|string, Component>
+     *                                      >>>>>>> laraxot/dev
      */
     public static function getFormSchema(): array
     {
