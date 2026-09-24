@@ -1,28 +1,6 @@
 # Internal Debate: PSR-4 Autoloading Resolution Strategy
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_R4ss0K
-**Date**: [DATE]
-=======
-<<<<<<< HEAD
 **Date**: 2025-12-15
-=======
-<<<<<<< HEAD
-**Date**: [DATE]
-=======
-**Date**: 2025-12-15
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-**Date**: 2025-12-15
-=======
-**Date**: [DATE]
->>>>>>> .merge_file_E4ZBkT
->>>>>>> laraxot/dev
-=======
-**Date**: [DATE]
->>>>>>> 0dadab4 (Lint)
 **Context**: Resolving `composer dumpautoload -o` PSR-4 compliance errors
 **Debate Format**: Pro/Con analysis of different approaches
 

@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_Z74LW1
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_4n3ss7
 ---
 title: "Analisi Qualità - Modulo UI"
 type: concept
@@ -16,28 +5,6 @@ tags: [module, quality, report]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "ui-module-quality-report analisi qualità - modulo ui"
-<<<<<<< .merge_file_Z74LW1
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-related:
----
-
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
@@ -45,11 +12,6 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 ---
 
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_4n3ss7
-=======
->>>>>>> 0dadab4 (Lint)
 # Analisi Qualità - Modulo UI
 
 **Data Analisi**: 2025-01-22
@@ -124,29 +86,7 @@ related:
 ## 🔗 Collegamenti
 
 - [PHPStan Compliance](./phpstan-compliance.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_Z74LW1
-- [Optimization Recommendations](./optimization_recommendations.md)
-=======
-<<<<<<< HEAD
 - [Optimization Recommendations](./optimization-recommendations-1.md)
-=======
-<<<<<<< HEAD
-- [Optimization Recommendations](./optimization_recommendations.md)
-=======
-- [Optimization Recommendations](./optimization-recommendations-1.md)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- [Optimization Recommendations](./optimization-recommendations-1.md)
-=======
-- [Optimization Recommendations](./optimization_recommendations.md)
->>>>>>> .merge_file_4n3ss7
->>>>>>> laraxot/dev
-=======
-- [Optimization Recommendations](./optimization_recommendations.md)
->>>>>>> 0dadab4 (Lint)
 - [Modularity Optimizations](./modularity-optimizations.md)
 - [Xot Quality Analysis](../xot/docs/quality-analysis/current-status.md)
 

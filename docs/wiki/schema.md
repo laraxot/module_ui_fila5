@@ -19,37 +19,7 @@ docs/
 ├── wiki/
 │   ├── index.md           # Catalogo
 │   ├── log.md             # Registro
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_y6hco3
-=======
-<<<<<<< .merge_file_hFkCy0
-=======
 │   ├── schema.md          # Questo file
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_UvjOtE
->>>>>>> .merge_file_NqlCHx
-=======
->>>>>>> 0dadab4 (Lint)
-│   ├── SCHEMA.md          # Questo file
-<<<<<<< HEAD
-│   ├── schema.md          # Questo file
-=======
-=======
-│   ├── schema.md          # Questo file
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< .merge_file_y6hco3
-=======
-<<<<<<< .merge_file_hFkCy0
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_UvjOtE
->>>>>>> .merge_file_NqlCHx
-=======
->>>>>>> 0dadab4 (Lint)
 │   ├── concepts/          # Pattern, architettura
 │   ├── entities/          # Modelli, azioni
 │   ├── sources/           # Doc esterna

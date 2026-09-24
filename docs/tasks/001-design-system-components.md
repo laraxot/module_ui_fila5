@@ -276,36 +276,6 @@ The UI module needs a robust design system with consistent components, theming c
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_AMRBRe
-**Status**: Pending
-**Assignee**: TBD
-=======
-<<<<<<< HEAD
 **Created**: 2026-01-31
 **Status**: Pending
 **Assignee**: TBD
-=======
-<<<<<<< HEAD
-**Status**: Pending
-**Assignee**: TBD
-=======
-**Created**: 2026-01-31
-**Status**: Pending
-**Assignee**: TBD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-**Created**: 2026-01-31
-**Status**: Pending
-**Assignee**: TBD
-=======
-**Status**: Pending
-**Assignee**: TBD
->>>>>>> .merge_file_xoDQaa
->>>>>>> laraxot/dev
-=======
-**Status**: Pending
-**Assignee**: TBD
->>>>>>> 0dadab4 (Lint)

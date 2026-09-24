@@ -3,10 +3,8 @@
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
 <<<<<<< HEAD
 <<<<<<< HEAD
-=======
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 
@@ -38,9 +36,8 @@ related:
 
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
 <<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
->>>>>>> 0dadab4 (Lint)
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev

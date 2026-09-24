@@ -1,23 +1,12 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-<<<<<<< .merge_file_hqCwSM
-
-=======
-<<<<<<< .merge_file_BIfbJ9
-
-=======
->>>>>>> .merge_file_1rvfdJ
->>>>>>> .merge_file_fKSMG3
-=======
-
->>>>>>> 0dadab4 (Lint)
 use Illuminate\Database\Schema\Blueprint;
 use Modules\UI\Models\Collection;
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
-return new class extends XotBaseMigration {
+return new class extends XotBaseMigration
+{
     protected ?string $model_class = Collection::class;
 
     public function up(): void

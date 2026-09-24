@@ -43,19 +43,25 @@ class ListUsers extends ListRecords
                 Tables\Columns\TextColumn::make('email'),
             ]),
         ];
-<<<<<<< HEAD
-<<<<<<< HEAD
+<<<<<<< .merge_file_wJzR5N
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_OQamav
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_aVXKHy
         
         return $this->layout->getTableColumns($listColumns, $gridColumns);
     }
     
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
+<<<<<<< .merge_file_OQamav
 =======
->>>>>>> 0dadab4 (Lint)
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_aVXKHy
+>>>>>>> .merge_file_Az7P0S
 
         return $this->layout->getTableColumns($listColumns, $gridColumns);
     }

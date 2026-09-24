@@ -84,9 +84,13 @@ public static function form(Form $form): Form
         TextInput::make('title')
             ->required()
             ->maxLength(255),
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< .merge_file_hrCX5Y
+=======
+=======
+<<<<<<< .merge_file_ZUZfV8
+            
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 
@@ -94,9 +98,8 @@ public static function form(Form $form): Form
             
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
-=======
-
->>>>>>> 0dadab4 (Lint)
+>>>>>>> .merge_file_IwJLcL
+>>>>>>> .merge_file_TS6kRJ
         // Digitare 'fil-select' e premere Tab
         Select::make('status')
             ->options([
@@ -104,19 +107,25 @@ public static function form(Form $form): Form
                 'published' => 'Published',
             ])
             ->required(),
-<<<<<<< HEAD
-<<<<<<< HEAD
+<<<<<<< .merge_file_hrCX5Y
 
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_ZUZfV8
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_IwJLcL
 
 =======
             
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
+<<<<<<< .merge_file_ZUZfV8
 =======
-
->>>>>>> 0dadab4 (Lint)
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_IwJLcL
+>>>>>>> .merge_file_TS6kRJ
         // Digitare 'fil-rich' e premere Tab
         RichEditor::make('content')
             ->required()
@@ -137,9 +146,13 @@ public static function table(Table $table): Table
             TextColumn::make('title')
                 ->searchable()
                 ->sortable(),
-<<<<<<< HEAD
-<<<<<<< HEAD
 
+<<<<<<< .merge_file_hrCX5Y
+=======
+=======
+<<<<<<< .merge_file_ZUZfV8
+                
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 
@@ -147,9 +160,8 @@ public static function table(Table $table): Table
                 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
-=======
-
->>>>>>> 0dadab4 (Lint)
+>>>>>>> .merge_file_IwJLcL
+>>>>>>> .merge_file_TS6kRJ
             // Digitare 'fil-col' e premere Tab
             IconColumn::make('status')
                 ->boolean(),
@@ -189,19 +201,25 @@ Forms\Components\Wizard::make([
                     // Digitare 'fil-text' e premere Tab
                     Forms\Components\TextInput::make('first_name')
                         ->required(),
-<<<<<<< HEAD
-<<<<<<< HEAD
+<<<<<<< .merge_file_hrCX5Y
 
 =======
 <<<<<<< HEAD
+<<<<<<< .merge_file_ZUZfV8
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_IwJLcL
 
 =======
                         
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
+<<<<<<< .merge_file_ZUZfV8
 =======
-
->>>>>>> 0dadab4 (Lint)
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_IwJLcL
+>>>>>>> .merge_file_TS6kRJ
                     Forms\Components\TextInput::make('last_name')
                         ->required(),
                 ]),
