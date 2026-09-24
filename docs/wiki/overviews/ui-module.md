@@ -2,6 +2,7 @@
 type: overview
 module: UI
 sources:
+<<<<<<< .merge_file_QLQ7mT
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_EHkzMv
@@ -20,12 +21,15 @@ related:
 >>>>>>> .merge_file_ts9fkp
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_UnYrfb
   - ../../../docs/module-ui.md
   - ../../../docs/philosophy.md
   - ../../../docs/design-system.md
   - ../../../docs/table-components.md
 confidence: high
 updated: 2026-04-15
+<<<<<<< .merge_file_QLQ7mT
 <<<<<<< HEAD
 <<<<<<< .merge_file_EHkzMv
 <<<<<<< HEAD
@@ -44,6 +48,8 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_UnYrfb
 ---
 
 # UI Module — Overview

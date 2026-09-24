@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_GefmZK
 <<<<<<< HEAD
 <<<<<<< .merge_file_zrayk9
 <<<<<<< HEAD
@@ -83,6 +84,9 @@ return [
 >>>>>>> .merge_file_EmvImP
 =======
 >>>>>>> 804451c (Lint)
+=======
+return [
+>>>>>>> .merge_file_4gWB4Y
     'fields' => [
         'monday' => [
             'morning' => [

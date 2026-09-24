@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_F95ee5
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_g0whb9
@@ -65,6 +66,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_DM2LTr
 # Sistema Componenti UI
 
 ## 📊 Stato Implementazione

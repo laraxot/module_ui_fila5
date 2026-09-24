@@ -1,10 +1,14 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_f0zQWy
 <<<<<<< HEAD
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_9F8hsn
 ?>
 <x-dynamic-component :component="$getFieldWrapperView()" :field="$field">
     @php

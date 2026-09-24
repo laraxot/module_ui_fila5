@@ -2,6 +2,7 @@
 module: theme
 topic: wizard-schema-separation
 canonical: ../../../../Themes/docs/shared-components/wizard-schema-aration.md
+<<<<<<< .merge_file_OWYtiX
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_E2Zgpx
@@ -35,6 +36,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_WxLrxs
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/wizard-schema-aration.md

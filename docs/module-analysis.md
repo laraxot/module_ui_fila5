@@ -5,6 +5,7 @@
 **Type**: User Interface & Component Library Module  
 **Status**: ✅ Active  
 **Framework**: Laravel 12.x + Filament 4.x + Tailwind CSS  
+<<<<<<< .merge_file_9Vm25Z
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_AOUUBw
@@ -27,6 +28,8 @@
 **Framework**: Laravel 13.x + Filament 4.x + Tailwind CSS  
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_gk3WLq
 **Component Library**: Custom UI components and styles  
 **Language**: Multi-language (IT/EN/DE)  
 
@@ -82,8 +85,8 @@ The UI module provides comprehensive user interface components and styling:
 ## Integration with Other Modules
 - **User**: Authentication interface components
 - **Cms**: Content display components
-<<<<<<< HEAD
 - **Quaeris**: Dashboard UI components
+<<<<<<< .merge_file_9Vm25Z
 <<<<<<< HEAD
 <<<<<<< .merge_file_AOUUBw
 =======
@@ -134,6 +137,8 @@ The UI module provides comprehensive user interface components and styling:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_gk3WLq
 - **Xot**: Base UI infrastructure
 - **Filament**: Component compatibility
 
@@ -164,6 +169,7 @@ The UI module provides comprehensive user interface components and styling:
 - Version management
 - Styling system
 - Accessibility tools
+<<<<<<< .merge_file_9Vm25Z
 <<<<<<< HEAD
 - Performance optimization
 =======
@@ -186,3 +192,6 @@ The UI module provides comprehensive user interface components and styling:
 - Performance optimization
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+- Performance optimization
+>>>>>>> .merge_file_gk3WLq

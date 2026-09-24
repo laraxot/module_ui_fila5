@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_K4Wkes
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Xj58oX
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_pMIUlL
 # Table Columns Components
 
 ## Overview
@@ -235,6 +238,7 @@ use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
 ## Related Documentation
 - [State Management](../state-transitions.md)
 - [Filament Components](../filament-components.md)
+<<<<<<< .merge_file_K4Wkes
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Xj58oX
@@ -260,6 +264,9 @@ use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [UI Architecture](../architecture_rules.md)
+>>>>>>> .merge_file_pMIUlL
 - [Accessibility Guidelines](../accessibility.md)
 ---
 
@@ -271,6 +278,7 @@ use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 4.x, Laravel 11.x
 **Compatibility**: Filament 3.x, Laravel 10.x
+<<<<<<< .merge_file_K4Wkes
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Xj58oX
@@ -296,3 +304,5 @@ use Modules\UI\Filament\Tables\Columns\SelectStateColumn;
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_pMIUlL

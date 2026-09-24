@@ -107,6 +107,7 @@
             "    protected static ?string \\$model = ${2:Name}::class;",
             "",
             "    public static function getFormSchema(): array",
+<<<<<<< .merge_file_9rwFku
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -122,6 +123,8 @@
             "    public function getFormSchema(): array",
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_w6NVST
             "    {",
             "        return [",
             "            $0",

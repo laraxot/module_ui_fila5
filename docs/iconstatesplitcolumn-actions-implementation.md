@@ -13,6 +13,7 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 @endphp
 
 <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-1 p-1">
+<<<<<<< .merge_file_raamqB
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SEA8j8
@@ -79,10 +80,13 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AQyZ3n
     <x-filament::icon-button
         icon="heroicon-m-plus"
         wire:click="prova({{ $record->id }})"
         label="Test Azione"
+<<<<<<< .merge_file_raamqB
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -114,6 +118,8 @@ Il problema era che il `wire:click` non funziona direttamente nelle colonne di F
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_AQyZ3n
     />
 </div>
 ```
@@ -172,6 +178,7 @@ public function prova($recordId): void
 
 ### Nel Template
 ```blade
+<<<<<<< .merge_file_raamqB
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SEA8j8
@@ -238,10 +245,13 @@ public function prova($recordId): void
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AQyZ3n
 <x-filament::icon-button
     icon="heroicon-m-plus"
     wire:click="prova({{ $record->id }})"
     label="Test Azione"
+<<<<<<< .merge_file_raamqB
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -273,6 +283,8 @@ public function prova($recordId): void
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_AQyZ3n
 />
 ```
 
@@ -307,6 +319,7 @@ public function transitionState($recordId, $stateClass): void
     // Logica per la transizione di stato
     $record = $this->modelClass::find($recordId);
     $record->state->transitionTo($stateClass);
+<<<<<<< .merge_file_raamqB
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SEA8j8
@@ -361,6 +374,9 @@ public function transitionState($recordId, $stateClass): void
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_AQyZ3n
     \Filament\Notifications\Notification::make()
         ->title('Transizione Completata')
         ->success()
@@ -370,6 +386,7 @@ public function transitionState($recordId, $stateClass): void
 
 ### 2. Aggiungere il pulsante nel template
 ```blade
+<<<<<<< .merge_file_raamqB
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SEA8j8
@@ -436,10 +453,13 @@ public function transitionState($recordId, $stateClass): void
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AQyZ3n
 <x-filament::icon-button
     icon="heroicon-o-arrow-right"
     wire:click="transitionState({{ $record->id }}, '{{ $stateClass }}')"
     label="Cambia Stato"
+<<<<<<< .merge_file_raamqB
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -471,6 +491,8 @@ public function transitionState($recordId, $stateClass): void
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_AQyZ3n
 />
 ```
 
@@ -484,6 +506,7 @@ La soluzione semplice è la migliore perché:
 
 ---
 
+<<<<<<< .merge_file_raamqB
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SEA8j8
@@ -536,6 +559,9 @@ La soluzione semplice è la migliore perché:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_AQyZ3n
 **Compatibility**: Filament 3.x, Laravel 10.x
 # IconStateSplitColumn Actions Implementation - Soluzione Semplice
 
@@ -679,6 +705,7 @@ La soluzione semplice è la migliore perché:
 
 ---
 
+<<<<<<< .merge_file_raamqB
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -688,10 +715,13 @@ La soluzione semplice è la migliore perché:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AQyZ3n
 
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
+<<<<<<< .merge_file_raamqB
 <<<<<<< HEAD
 <<<<<<< .merge_file_SEA8j8
 <<<<<<< HEAD
@@ -731,3 +761,5 @@ La soluzione semplice è la migliore perché:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_AQyZ3n

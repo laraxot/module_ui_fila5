@@ -1,5 +1,6 @@
 # REGOLA CRITICA: MAI usare ->label()
 
+<<<<<<< .merge_file_LoWDWu
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -31,6 +32,8 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_zdwQE2
 ## ❌ ERRORE CRITICO - NON FARE MAI QUESTO
 
 ```php
@@ -185,6 +188,7 @@ rules:
 
 ## Collegamenti
 
+<<<<<<< .merge_file_LoWDWu
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_o9FR6Q
@@ -222,6 +226,11 @@ rules:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [Translation Standards](../../../../docs/translation-standards.md)
+- [Filament Best Practices](../../../../docs/filament-best-practices.md)
+- [LangServiceProvider Documentation](../../../../docs/lang-service-provider.md)
+>>>>>>> .merge_file_zdwQE2
 
 ## Memoria Permanente
 
@@ -233,6 +242,7 @@ rules:
 - SEMPRE testare le traduzioni prima del commit
 # REGOLA CRITICA: MAI usare ->label()
 
+<<<<<<< .merge_file_LoWDWu
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_o9FR6Q
@@ -276,6 +286,9 @@ rules:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+## Data: [DATE]
+>>>>>>> .merge_file_zdwQE2
 
 ## ❌ ERRORE CRITICO - NON FARE MAI QUESTO
 
@@ -387,6 +400,7 @@ TextColumn::make('status')
 
 ## Checklist Pre-Implementazione
 
+<<<<<<< .merge_file_LoWDWu
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_o9FR6Q
@@ -439,6 +453,8 @@ TextColumn::make('status')
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_zdwQE2
 ### Prima di usare un componente Filament:
 - [ ] Implementare traduzioni in `lang/it/fields.php`
 - [ ] Implementare traduzioni in `lang/en/fields.php`
@@ -450,6 +466,7 @@ TextColumn::make('status')
 - [ ] Verificare che non ci siano `->label()` nel codice
 - [ ] Controllare che tutte le traduzioni siano implementate
 - [ ] Testare che le traduzioni funzionino correttamente
+<<<<<<< .merge_file_LoWDWu
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_o9FR6Q
@@ -509,6 +526,8 @@ Prima di usare qualsiasi componente Filament:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_zdwQE2
 - [ ] Implementare traduzioni in `lang/it/fields.php`
 - [ ] Implementare traduzioni in `lang/en/fields.php`
 - [ ] Implementare traduzioni in `lang/de/fields.php`
@@ -519,6 +538,7 @@ Prima di usare qualsiasi componente Filament:
 - [ ] Verificare che non ci siano `->label()` nel codice
 - [ ] Controllare che tutte le traduzioni siano implementate
 - [ ] Testare che le traduzioni funzionino correttamente
+<<<<<<< .merge_file_LoWDWu
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -558,6 +578,8 @@ Prima di usare qualsiasi componente Filament:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_zdwQE2
 ## Verifica Automatica
 
 ### PHPStan Rule (Ideale)
@@ -590,6 +612,7 @@ rules:
 
 ## Collegamenti
 
+<<<<<<< .merge_file_LoWDWu
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_o9FR6Q
@@ -643,6 +666,14 @@ rules:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+- [Translation Standards](../../../../docs/translation-standards.md)
+- [Filament Best Practices](../../../../docs/filament-best-practices.md)
+- [LangServiceProvider Documentation](../../../../docs/lang-service-provider.md)
+
+## Memoria Permanente
+
+>>>>>>> .merge_file_zdwQE2
 **RICORDA SEMPRE**:
 
 - MAI usare `->label()` in componenti Filament
@@ -655,6 +686,7 @@ rules:
 
 - SEMPRE testare le traduzioni prima del commit
 
+<<<<<<< .merge_file_LoWDWu
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_o9FR6Q
@@ -750,3 +782,5 @@ rules:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_zdwQE2

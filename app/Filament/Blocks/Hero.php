@@ -9,6 +9,7 @@ use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Repeater;
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\TextInput;
+<<<<<<< .merge_file_7alSIt
 <<<<<<< HEAD
 <<<<<<< HEAD
 use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
@@ -16,11 +17,15 @@ use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
+>>>>>>> .merge_file_xBumjC
 
 final class Hero
 {
     public static function make(string $name = 'hero', string $context = 'form'): Block
     {
+<<<<<<< .merge_file_7alSIt
 <<<<<<< HEAD
 <<<<<<< HEAD
         $options = app(GetViewBlocksOptionsByTypeAction::class)->execute('hero', true);
@@ -41,6 +46,11 @@ final class Hero
         // ---------------
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+        $options = app(GetViewBlocksOptionsByTypeAction::class)->execute('hero', true);
+
+        // ---------------
+>>>>>>> .merge_file_xBumjC
         return Block::make($name)->schema([
             TextInput::make('title'),
             RichEditor::make('text'),

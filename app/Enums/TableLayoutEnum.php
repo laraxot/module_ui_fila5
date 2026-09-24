@@ -82,6 +82,7 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
             : null;
     }
 
+<<<<<<< .merge_file_w5dBp2
 <<<<<<< HEAD
 <<<<<<< .merge_file_DwC5nL
 <<<<<<< HEAD
@@ -101,12 +102,15 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
 >>>>>>> .merge_file_NUhrBN
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AaQUet
     /**
      * Get the appropriate table columns for this layout type.
      *
      * This method replaces the old debug_backtrace approach with explicit
      * parameter passing for better type safety and testability.
      *
+<<<<<<< .merge_file_w5dBp2
 <<<<<<< HEAD
 <<<<<<< .merge_file_DwC5nL
      * <<<<<<< HEAD
@@ -137,15 +141,20 @@ enum TableLayoutEnum: string implements HasColor, HasIcon, HasLabel
      */
 >>>>>>> laraxot/dev
 =======
+=======
+>>>>>>> .merge_file_AaQUet
      * @param array<Column|ColumnGroup|Component> $listColumns Columns for list layout
      * @param array<Column|ColumnGroup|Component> $gridColumns Columns for grid layout
      *
      * @return array<Column|ColumnGroup|Component>
      */
+<<<<<<< .merge_file_w5dBp2
 >>>>>>> .merge_file_NUhrBN
 =======
      */
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AaQUet
     public function getTableColumns(array $listColumns, array $gridColumns): array
     {
         return $this->isGridLayout() ? $gridColumns : $listColumns;

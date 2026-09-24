@@ -1,5 +1,6 @@
 # Modulo UI
 
+<<<<<<< .merge_file_XOMABV
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_BEhqqt
@@ -25,6 +26,9 @@ Data: [DATE] 19:09:56
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+Data: [DATE] 19:09:56
+>>>>>>> .merge_file_rntG3z
 
 ## Informazioni generali
 
@@ -525,6 +529,7 @@ tests_old
 
 ## Collegamenti tra versioni di structure.md
 * [structure.md](bashscripts/docs/structure.md)
+<<<<<<< .merge_file_XOMABV
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_BEhqqt
@@ -553,6 +558,8 @@ tests_old
 >>>>>>> .merge_file_5EZSs2
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_rntG3z
 * [structure.md](../../../gdpr/docs/structure.md)
 * [structure.md](../../../notify/docs/structure.md)
 * [structure.md](../../../xot/docs/structure.md)
@@ -568,6 +575,7 @@ tests_old
 * [structure.md](../../../cms/docs/structure.md)
 * [structure.md](../../../cms/docs/themes/structure.md)
 * [structure.md](../../../cms/docs/components/structure.md)
+<<<<<<< .merge_file_XOMABV
 <<<<<<< HEAD
 <<<<<<< .merge_file_BEhqqt
 <<<<<<< HEAD
@@ -602,3 +610,5 @@ tests_old
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_rntG3z

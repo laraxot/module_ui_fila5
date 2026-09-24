@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_4wSbXi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fAVYA1
@@ -62,6 +63,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AjMivi
 # Utilizzo dei componenti Blade di Filament
 
 ## Regola fondamentale (obbligatoria)
@@ -69,6 +72,7 @@ related:
 **Se esiste una soluzione Filament, usare sempre quella.** Canon progetto: [filament-first-rule.md](../../../../../docs/wiki/rules/filament-first-rule.md) (Rule 019). Memoria agenti: [filament-first-mandatory-agents.md](../../../../../docs/wiki/memories/filament-first-mandatory-agents.md).
 
 Wiki modulo: [filament-first-blade-canonical.md](../wiki/concepts/filament-first-blade-canonical.md).
+<<<<<<< .merge_file_4wSbXi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fAVYA1
@@ -102,6 +106,8 @@ Nel progetto <nome progetto>, esiste una regola fondamentale: **utilizzare sempr
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AjMivi
 
 ## Vantaggi dei componenti Filament
 
@@ -139,6 +145,7 @@ Frontoffice senza Livewire dedicato — pattern [Alpine](https://filamentphp.com
 </x-filament::tabs>
 ```
 
+<<<<<<< .merge_file_4wSbXi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fAVYA1
@@ -195,6 +202,9 @@ Caso Fixcity `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnala
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+Caso Fixcity `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
+>>>>>>> .merge_file_AjMivi
 
 ## Esempi di utilizzo
 
@@ -273,6 +283,7 @@ Per migrare da componenti personalizzati a componenti Filament:
 ## Moduli correlati
 
 - [User](../../user/docs/blade/using-filament-components.md) - Implementazione dei componenti profilo con Filament
+<<<<<<< .merge_file_4wSbXi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fAVYA1
@@ -311,3 +322,5 @@ Per migrare da componenti personalizzati a componenti Filament:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AjMivi

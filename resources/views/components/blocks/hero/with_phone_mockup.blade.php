@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_cJMnlm
 <<<<<<< HEAD
 <<<<<<< .merge_file_7HF6V2
 <<<<<<< HEAD
@@ -47,6 +48,12 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 804451c (Lint)
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> .merge_file_Za1kQ4
 ?>
 <div class="bg-white">
     <header class="absolute inset-x-0 top-0 z-50">

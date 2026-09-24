@@ -13,9 +13,9 @@ use PHPUnit\Framework\Assert;
 uses(TestCase::class);
 
 test('row widget extends filament widget', function (): void {
-<<<<<<< HEAD
     $widget = new class extends RowWidget {
     };
+<<<<<<< .merge_file_95KcTU
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32,11 +32,14 @@ test('row widget extends filament widget', function (): void {
     $widget = new class extends RowWidget {};
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_MwwqDo
     Assert::assertInstanceOf(Widget::class, $widget);
     Assert::assertInstanceOf(XotBaseSchemaWidget::class, $widget);
 });
 
 test('row widget can be instantiated via concrete subclass', function (): void {
+<<<<<<< .merge_file_95KcTU
 <<<<<<< HEAD
     $widget = new class extends RowWidget {
     };
@@ -56,13 +59,17 @@ test('row widget can be instantiated via concrete subclass', function (): void {
     $widget = new class extends RowWidget {};
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+    $widget = new class extends RowWidget {
+    };
+>>>>>>> .merge_file_MwwqDo
     Assert::assertInstanceOf(RowWidget::class, $widget);
 });
 
 test('row widget returns empty form schema', function (): void {
-<<<<<<< HEAD
     $widget = new class extends RowWidget {
     };
+<<<<<<< .merge_file_95KcTU
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -79,10 +86,13 @@ test('row widget returns empty form schema', function (): void {
     $widget = new class extends RowWidget {};
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_MwwqDo
     Assert::assertSame([], $widget->getFormSchema());
 });
 
 test('row widget exposes grid and widgets arrays', function (): void {
+<<<<<<< .merge_file_95KcTU
 <<<<<<< HEAD
     $widget = new class extends RowWidget {
     };
@@ -102,6 +112,10 @@ test('row widget exposes grid and widgets arrays', function (): void {
     $widget = new class extends RowWidget {};
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+    $widget = new class extends RowWidget {
+    };
+>>>>>>> .merge_file_MwwqDo
     Assert::assertSame([], $widget->grid);
     Assert::assertSame([], $widget->widgets);
 });

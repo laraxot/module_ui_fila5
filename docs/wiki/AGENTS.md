@@ -5,6 +5,7 @@ canonical: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+<<<<<<< .merge_file_aB3Pri
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_JThjNI
@@ -48,3 +49,5 @@ See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Mo
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_xW1GmJ

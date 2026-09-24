@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_E6zZsJ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SULKup
@@ -94,21 +95,22 @@ https://merakiui.com/
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
-# tailwind_themes
-<<<<<<< HEAD
-<!-- Contenuto migrato da _docs/tailwind_themes.txt -->
-https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your-next-project-3igo
 =======
+>>>>>>> .merge_file_Xm0TvP
+# tailwind_themes
 
 <!-- Contenuto migrato da _docs/tailwind_themes.txt -->
 
 https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your-next-project-3igo
 
 https://merakiui.com/
+<<<<<<< .merge_file_E6zZsJ
 <<<<<<< .merge_file_SULKup
 <<<<<<< HEAD
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_Xm0TvP
 # tailwind_themes
 
 <!-- Contenuto migrato da _docs/tailwind_themes.txt -->
@@ -116,6 +118,7 @@ https://merakiui.com/
 https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your-next-project-3igo
 
 https://merakiui.com/
+<<<<<<< .merge_file_E6zZsJ
 =======
 <<<<<<< HEAD
 =======
@@ -173,3 +176,5 @@ https://merakiui.com/
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Xm0TvP

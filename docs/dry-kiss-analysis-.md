@@ -29,6 +29,7 @@ Il modulo UI è l'esempio **perfetto** di come dovrebbe essere un BaseModel quan
 - ✅ Connection automatica da XotBaseModel
 
 ## 🔗 Collegamenti
+<<<<<<< .merge_file_0lrjGX
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_geLNmp
@@ -54,6 +55,9 @@ Il modulo UI è l'esempio **perfetto** di come dovrebbe essere un BaseModel quan
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+[DRY/KISS Global](../../../docs/dry_kiss_analysis_2025-10-15.md)
+>>>>>>> .merge_file_qhZq01
 
 ---
 

@@ -77,8 +77,8 @@ Mostra documentazione al passaggio del mouse su:
 
 ```php
 // Digitare 'fil-form' e premere Tab
-<<<<<<< HEAD
 public static function form(Form $form): Form
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< HEAD
 public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\Schema
@@ -141,12 +141,17 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+public static function form(Form $form): Form
+public static function form(Form $form): Form
+>>>>>>> .merge_file_GV5qt7
 {
     return $form->schema([
         // Digitare 'fil-text' e premere Tab
         TextInput::make('title')
             ->required()
             ->maxLength(255),
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0x5RC
@@ -201,6 +206,9 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_GV5qt7
         // Digitare 'fil-select' e premere Tab
         Select::make('status')
             ->options([
@@ -208,6 +216,7 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
                 'published' => 'Published',
             ])
             ->required(),
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0x5RC
@@ -262,6 +271,9 @@ public static function form(\Filament\Schemas\Schema $form): \Filament\Schemas\S
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_GV5qt7
         // Digitare 'fil-rich' e premere Tab
         RichEditor::make('content')
             ->required()
@@ -282,6 +294,7 @@ public static function table(Table $table): Table
             TextColumn::make('title')
                 ->searchable()
                 ->sortable(),
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0x5RC
@@ -336,6 +349,9 @@ public static function table(Table $table): Table
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_GV5qt7
             // Digitare 'fil-col' e premere Tab
             IconColumn::make('status')
                 ->boolean(),
@@ -375,6 +391,7 @@ Forms\Components\Wizard::make([
                     // Digitare 'fil-text' e premere Tab
                     Forms\Components\TextInput::make('first_name')
                         ->required(),
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0x5RC
@@ -429,6 +446,9 @@ Forms\Components\Wizard::make([
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_GV5qt7
                     Forms\Components\TextInput::make('last_name')
                         ->required(),
                 ]),
@@ -484,6 +504,7 @@ Forms\Components\Wizard::make([
 
 - [Filament Documentation](https://filamentphp.com)
 - [VSCode PHP Extension](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -503,6 +524,10 @@ L'estensione VSCode per Filament fornisce un set completo di strumenti per svilu
 - [Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack)
 # Filament VSCode Extension
 >>>>>>> 804451c (Lint)
+=======
+- [Laravel Extension Pack](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-extension-pack)
+# Filament VSCode Extension
+>>>>>>> .merge_file_GV5qt7
 
 ## Panoramica
 
@@ -512,6 +537,7 @@ L'estensione VSCode per Filament fornisce un set completo di strumenti per svilu
 
 ### 1. Snippets
 
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0x5RC
 <<<<<<< HEAD
@@ -554,6 +580,8 @@ L'estensione VSCode per Filament fornisce un set completo di strumenti per svilu
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_GV5qt7
 #### Form Components
 - `fil-text` → TextInput
 - `fil-select` → Select
@@ -564,6 +592,7 @@ L'estensione VSCode per Filament fornisce un set completo di strumenti per svilu
 - `fil-time` → TimePicker
 - `fil-file` → FileUpload
 - `fil-rich` → RichEditor
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0x5RC
@@ -585,11 +614,15 @@ L'estensione VSCode per Filament fornisce un set completo di strumenti per svilu
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_GV5qt7
 #### Table Components
 - `fil-table` → Table Builder
 - `fil-col` → Table Column
 - `fil-action` → Table Action
 - `fil-bulk` → Bulk Action
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0x5RC
@@ -611,12 +644,16 @@ L'estensione VSCode per Filament fornisce un set completo di strumenti per svilu
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_GV5qt7
 #### Layout Components
 - `fil-card` → Card
 - `fil-grid` → Grid
 - `fil-section` → Section
 - `fil-tabs` → Tabs
 - `fil-wizard` → Wizard
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0x5RC
@@ -639,20 +676,26 @@ L'estensione VSCode per Filament fornisce un set completo di strumenti per svilu
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
-### 2. Autocompletamento
 =======
 
+>>>>>>> .merge_file_GV5qt7
+### 2. Autocompletamento
+
+<<<<<<< .merge_file_K3dGxW
 ### 2. Autocompletamento
 
 >>>>>>> .merge_file_zeM30w
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_GV5qt7
 - Nomi dei componenti Filament
 - Proprietà dei componenti
 - Metodi disponibili
 - Eventi
 - Slot
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0x5RC
@@ -684,10 +727,16 @@ L'estensione VSCode per Filament fornisce un set completo di strumenti per svilu
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+
+### 3. Hover Information
+
+>>>>>>> .merge_file_GV5qt7
 Mostra documentazione al passaggio del mouse su:
 - Componenti
 - Metodi
 - Proprietà
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0x5RC
@@ -706,6 +755,8 @@ Mostra documentazione al passaggio del mouse su:
 >>>>>>> .merge_file_zeM30w
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_GV5qt7
 
 ### 4. Diagnostica
 
@@ -715,6 +766,7 @@ Mostra documentazione al passaggio del mouse su:
 
 ## Installazione
 
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0x5RC
 <<<<<<< HEAD
@@ -739,10 +791,13 @@ Mostra documentazione al passaggio del mouse su:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_GV5qt7
 1. Aprire VSCode
 2. Premere `Ctrl+P`
 3. Incollare `ext install doonfrs.filament-snippets`
 4. Premere `Enter`
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0x5RC
@@ -765,15 +820,20 @@ Mostra documentazione al passaggio del mouse su:
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
-## Configurazione
 =======
 
+>>>>>>> .merge_file_GV5qt7
+## Configurazione
+
+<<<<<<< .merge_file_K3dGxW
 ## Configurazione
 
 >>>>>>> .merge_file_zeM30w
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_GV5qt7
 ```json
 {
     "filament.snippets.enable": true,
@@ -782,6 +842,7 @@ Mostra documentazione al passaggio del mouse su:
     "filament.completion.enable": true
 }
 ```
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0x5RC
@@ -800,6 +861,8 @@ public static function form(Form $form): Form
 >>>>>>> .merge_file_zeM30w
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_GV5qt7
 
 ## Esempi di Utilizzo
 
@@ -810,6 +873,7 @@ public static function form(Form $form): Form
 public static function form(Form $form): Form
 public static function form(Form $form): Form
 {
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0x5RC
 <<<<<<< HEAD
@@ -834,11 +898,14 @@ public static function form(Form $form): Form
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_GV5qt7
     return $form->schema([
         // Digitare 'fil-text' e premere Tab
         TextInput::make('title')
             ->required()
             ->maxLength(255),
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0x5RC
@@ -860,6 +927,9 @@ public static function form(Form $form): Form
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_GV5qt7
         // Digitare 'fil-select' e premere Tab
         Select::make('status')
             ->options([
@@ -867,6 +937,7 @@ public static function form(Form $form): Form
                 'published' => 'Published',
             ])
             ->required(),
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0x5RC
@@ -887,6 +958,8 @@ public static function table(Table $table): Table
 >>>>>>> .merge_file_zeM30w
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_GV5qt7
 
         // Digitare 'fil-rich' e premere Tab
         RichEditor::make('content')
@@ -902,6 +975,7 @@ public static function table(Table $table): Table
 // Digitare 'fil-table' e premere Tab
 public static function table(Table $table): Table
 {
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0x5RC
 <<<<<<< HEAD
@@ -928,12 +1002,15 @@ public static function table(Table $table): Table
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_GV5qt7
     return $table
         ->columns([
             // Digitare 'fil-col' e premere Tab
             TextColumn::make('title')
                 ->searchable()
                 ->sortable(),
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0x5RC
@@ -959,6 +1036,10 @@ public static function table(Table $table): Table
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+            // Digitare 'fil-col' e premere Tab
+>>>>>>> .merge_file_GV5qt7
             IconColumn::make('status')
                 ->boolean(),
         ])
@@ -969,6 +1050,7 @@ public static function table(Table $table): Table
                     'draft' => 'Draft',
                     'published' => 'Published',
                 ]),
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0x5RC
@@ -990,10 +1072,14 @@ public static function table(Table $table): Table
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+        ])
+>>>>>>> .merge_file_GV5qt7
         ->actions([
             // Digitare 'fil-action' e premere Tab
             Tables\Actions\EditAction::make(),
             Tables\Actions\DeleteAction::make(),
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0x5RC
@@ -1015,12 +1101,16 @@ public static function table(Table $table): Table
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+        ])
+>>>>>>> .merge_file_GV5qt7
         ->bulkActions([
             // Digitare 'fil-bulk' e premere Tab
             Tables\Actions\BulkActionGroup::make([
                 Tables\Actions\DeleteBulkAction::make(),
             ]),
         ]);
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0x5RC
@@ -1036,12 +1126,15 @@ public static function table(Table $table): Table
 >>>>>>> .merge_file_zeM30w
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_GV5qt7
 }
 ```
 
 ### Layout Components
 
 ```php
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0x5RC
 <<<<<<< HEAD
@@ -1058,6 +1151,8 @@ public static function table(Table $table): Table
 ### Layout Components
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_GV5qt7
 // Digitare 'fil-wizard' e premere Tab
 Forms\Components\Wizard::make([
     Forms\Components\Wizard\Step::make('Personal Information')
@@ -1068,6 +1163,7 @@ Forms\Components\Wizard::make([
                     // Digitare 'fil-text' e premere Tab
                     Forms\Components\TextInput::make('first_name')
                         ->required(),
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0x5RC
@@ -1088,6 +1184,8 @@ Forms\Components\Wizard::make([
 >>>>>>> .merge_file_zeM30w
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_GV5qt7
 
                     Forms\Components\TextInput::make('last_name')
                         ->required(),
@@ -1099,6 +1197,7 @@ Forms\Components\Wizard::make([
 ## Best Practices
 
 1. Organizzazione del codice
+<<<<<<< .merge_file_K3dGxW
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0x5RC
 <<<<<<< HEAD
@@ -1142,3 +1241,5 @@ Forms\Components\Wizard::make([
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_GV5qt7

@@ -27,6 +27,7 @@ class AddressField extends XotBaseField
     {
         parent::setUp();
 
+<<<<<<< .merge_file_Yhiydv
 <<<<<<< HEAD
 <<<<<<< HEAD
         $this->afterStateHydrated(function (AddressField $_component, mixed $record): void {
@@ -42,6 +43,9 @@ class AddressField extends XotBaseField
 =======
         $this->afterStateHydrated(function (AddressField $component, mixed $record): void {
 >>>>>>> 804451c (Lint)
+=======
+        $this->afterStateHydrated(function (AddressField $_component, mixed $record): void {
+>>>>>>> .merge_file_XVgYEi
             $data = [
                 'country' => null,
                 'street' => null,
@@ -50,6 +54,7 @@ class AddressField extends XotBaseField
                 'zip' => null,
             ];
 
+<<<<<<< .merge_file_Yhiydv
 <<<<<<< HEAD
 =======
 >>>>>>> .merge_file_YrrHEk
@@ -70,12 +75,16 @@ class AddressField extends XotBaseField
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+            if (! $record instanceof Model) {
+>>>>>>> .merge_file_XVgYEi
                 return;
             }
 
             $relationship = $this->getRelationship();
             if ($relationship && $record->relationLoaded($relationship)) {
                 $address = $record->getRelationValue($relationship);
+<<<<<<< .merge_file_Yhiydv
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -83,14 +92,15 @@ class AddressField extends XotBaseField
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_XVgYEi
                 if (null !== $address && is_object($address) && method_exists($address, 'toArray')) {
-                    $address->toArray();
+                    $data = $address->toArray();
                 }
             }
-<<<<<<< .merge_file_FPAuUE
 
-<<<<<<< HEAD
             // }
+<<<<<<< .merge_file_Yhiydv
 =======
             $component->state($data);
 =======
@@ -119,6 +129,8 @@ class AddressField extends XotBaseField
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_XVgYEi
         });
 
         $this->dehydrated(false);

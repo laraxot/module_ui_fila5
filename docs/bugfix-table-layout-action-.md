@@ -140,8 +140,8 @@ php -l Modules/UI/app/Filament/Actions/Table/TableLayoutToggleTableAction.php
 php artisan tinker --execute="TableLayoutToggleTableAction::make('test');"
 
 # Testare l'URL che causava l'errore
-<<<<<<< HEAD
 curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
+<<<<<<< .merge_file_o6TsGO
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -183,10 +183,13 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_skgtXD
 ```
 
 ### Risultati Test
 
+<<<<<<< .merge_file_o6TsGO
 <<<<<<< HEAD
 ✅ **Sintassi PHP**: Nessun errore di sintassi
 ✅ **Istanziazione**: Classe istanziabile correttamente
@@ -214,6 +217,11 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 ✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)  
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+✅ **Sintassi PHP**: Nessun errore di sintassi
+✅ **Istanziazione**: Classe istanziabile correttamente
+✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)
+>>>>>>> .merge_file_skgtXD
 ✅ **PHPStan**: Nessun errore di linting rilevato
 
 ## Impatto
@@ -239,6 +247,7 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 
 ---
 
+<<<<<<< .merge_file_o6TsGO
 <<<<<<< HEAD
 **Modulo**: UI
 **Tipo**: Bug Fix
@@ -267,4 +276,9 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+**Modulo**: UI
+**Tipo**: Bug Fix
+**Priorità**: Alta
+>>>>>>> .merge_file_skgtXD
 **Stato**: ✅ Risolto

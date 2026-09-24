@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_SWAaMt
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -46,6 +47,8 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_qftkvl
 https://github.com/tanthammar/filament-extras
 
 

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_oBi5m4
 <<<<<<< HEAD
 <<<<<<< .merge_file_XqF9OC
 <<<<<<< HEAD
@@ -53,5 +54,11 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+return [
+    'fields' => [
+        'type_id' => ['label' => 'type_id', 'placeholder' => 'type_id', 'helper_text' => 'type_id', 'description' => 'type_id'],
+        'enum' => ['label' => 'enum', 'placeholder' => 'enum', 'helper_text' => 'enum', 'description' => 'enum'],
+>>>>>>> .merge_file_owNPAv
     ],
 ];

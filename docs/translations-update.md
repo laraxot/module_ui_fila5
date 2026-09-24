@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_REaISf
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_S6qdnv
@@ -159,6 +160,8 @@ Tutte le traduzioni seguono la struttura espansa:
 >>>>>>> .merge_file_1iopam
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_fDfC14
 ---
 module: theme
 topic: translations-update
@@ -166,6 +169,7 @@ canonical: ../../../Themes/docs/shared-components/translations-update-january.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/translations-update-january.md
+<<<<<<< .merge_file_REaISf
 <<<<<<< HEAD
 <<<<<<< .merge_file_S6qdnv
 <<<<<<< HEAD
@@ -333,3 +337,5 @@ Tutte le traduzioni seguono la struttura espansa:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_fDfC14

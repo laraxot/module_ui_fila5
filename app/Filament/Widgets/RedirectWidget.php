@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Widgets;
 
+<<<<<<< .merge_file_u29NY8
 <<<<<<< HEAD
 <<<<<<< .merge_file_hbQ76G
 <<<<<<< HEAD
@@ -25,6 +26,8 @@ use Filament\Schemas\Components\Component;
 >>>>>>> .merge_file_iGPWtr
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_7n3gry
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 /**
@@ -79,18 +82,32 @@ final class RedirectWidget extends XotBaseSchemaWidget
      * Può essere sovrascritta dalla configurazione con la chiave 'view'.
 <<<<<<< HEAD
      *
-     * @phpstan-var view-string
+     * @var view-string
      */
+<<<<<<< .merge_file_u29NY8
     /** @phpstan-ignore property.defaultValue */
 =======
      */
 >>>>>>> 804451c (Lint)
     protected string $view = 'ui::filament.widgets.redirect-widget';
+=======
+    protected string $view;
+
+    public function __construct()
+    {
+        /** @var view-string $view */
+        $view = 'ui::filament.widgets.redirect-widget';
+        $this->view = $view;
+
+        parent::__construct();
+    }
+>>>>>>> .merge_file_7n3gry
 
     /**
      * Implementazione richiesta da XotBaseWidget.
      * Per questo widget non abbiamo form, quindi restituiamo array vuoto.
      *
+<<<<<<< .merge_file_u29NY8
 <<<<<<< HEAD
 <<<<<<< .merge_file_hbQ76G
 <<<<<<< HEAD
@@ -114,6 +131,9 @@ final class RedirectWidget extends XotBaseSchemaWidget
 >>>>>>> .merge_file_iGPWtr
 =======
 >>>>>>> 804451c (Lint)
+=======
+     * @return array<string, mixed>
+>>>>>>> .merge_file_7n3gry
      */
     public function getFormSchema(): array
     {

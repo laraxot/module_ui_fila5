@@ -1,5 +1,6 @@
 ---
 title: EnumSelect Best Practices
+<<<<<<< .merge_file_9Wyt9t
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_0WTTlV
@@ -37,6 +38,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_QRpv5i
 ---
 
 ## Overview

@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_ZDEkPl
 <<<<<<< HEAD
 <<<<<<< .merge_file_OpXEVE
 
@@ -9,6 +10,9 @@ declare(strict_types=1);
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_ND1CSr
 ?>
 <div class="relative overflow-hidden bg-white pb-32 pt-16">
     <div class="relative">

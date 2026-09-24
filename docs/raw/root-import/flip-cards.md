@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_P8daV0
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_eLcUKE
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_yIR1VJ
 https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
 
 

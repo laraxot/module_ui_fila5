@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_W5roSS
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -46,6 +47,8 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_29x2Ii
 https://github.com/savannabits/filament-signature-pad
 
 

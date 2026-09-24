@@ -42,6 +42,7 @@ use Modules\Xot\Filament\Traits\TransTrait;
 class OpeningHoursRule implements ValidationRule
 {
     use TransTrait;
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
@@ -96,6 +97,9 @@ class OpeningHoursRule implements ValidationRule
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_cs3dcR
     // Utilizzo nelle validazioni
     $fail(static::trans('validation.opening_hours.morning_before_afternoon', params: [
         'day' => $dayLabel
@@ -243,6 +247,7 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 
 ## Collegamenti
 - [Opening Hours Rule](../app/Rules/OpeningHoursRule.php)
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
@@ -260,11 +265,15 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 =======
 - [TransTrait Documentation](../../xot/docs/trans_trait.md)
 >>>>>>> 804451c (Lint)
+=======
+- [TransTrait Documentation](../../xot/docs/trans_trait.md)
+>>>>>>> .merge_file_cs3dcR
 - [Opening Hours Field](./opening_hours_field.md)
 - [Localization Guidelines](./localization_guidelines.md)
 
 *Implementazione completata: gennaio 2025*
 # File Validation Multilingua - Modulo UI
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< HEAD
 ## Panoramica
@@ -273,6 +282,8 @@ I file `validation.php` contengono i messaggi di validazione specifici del modul
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cs3dcR
 
 ## Panoramica
 
@@ -280,6 +291,7 @@ I file `validation.php` contengono i messaggi di validazione specifici del modul
 
 ## Struttura File Validation
 
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
 <<<<<<< HEAD
@@ -324,6 +336,8 @@ I file `validation.php` contengono i messaggi di validazione specifici del modul
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_cs3dcR
 ### File Creati/Aggiornati
 - `Modules/UI/lang/it/validation.php` ✅ (esistente, aggiornato)
 - `Modules/UI/lang/en/validation.php` ✅ (creato)
@@ -331,6 +345,7 @@ I file `validation.php` contengono i messaggi di validazione specifici del modul
 - `Modules/UI/lang/it/opening_hours.php` ✅ (aggiornato con sezione validation.opening_hours)
 - `Modules/UI/lang/en/opening_hours.php` ✅ (aggiornato con sezione validation.opening_hours)
 - `Modules/UI/lang/de/opening_hours.php` ✅ (aggiornato con sezione validation.opening_hours)
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
@@ -348,11 +363,14 @@ Ogni file contiene la sezione `opening_hours` con:
 >>>>>>> .merge_file_uVeUUU
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cs3dcR
 
 ### Contenuto Standardizzato
 
 Ogni file contiene la sezione `opening_hours` con:
 
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
 <<<<<<< HEAD
@@ -370,6 +388,8 @@ Ogni file contiene la sezione `opening_hours` con:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cs3dcR
 ```php
 return [
     'opening_hours' => [
@@ -382,6 +402,7 @@ return [
     ],
 ];
 ```
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
@@ -402,6 +423,8 @@ class OpeningHoursRule implements ValidationRule
 >>>>>>> .merge_file_uVeUUU
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cs3dcR
 
 ## Integrazione con TransTrait
 
@@ -415,6 +438,7 @@ class OpeningHoursRule implements ValidationRule
 {
     use TransTrait;
 
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
 <<<<<<< HEAD
@@ -441,11 +465,14 @@ class OpeningHoursRule implements ValidationRule
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_cs3dcR
     // Utilizzo nelle validazioni
     $fail(static::trans('validation.opening_hours.morning_before_afternoon', params: [
         'day' => $dayLabel
     ]));
 }
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
@@ -471,12 +498,17 @@ class OpeningHoursRule implements ValidationRule
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+```
+
+>>>>>>> .merge_file_cs3dcR
 ### Vantaggi del TransTrait
 1. **Namespace automatico** del modulo corrente
 2. **Sintassi semplificata** rispetto a `__('ui::...')`
 3. **Supporto parametri** tramite `params:`
 4. **Fallback automatico** alle traduzioni di base
 5. **Performance ottimizzate** per traduzioni frequenti
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
@@ -494,11 +526,14 @@ class OpeningHoursRule implements ValidationRule
 >>>>>>> .merge_file_uVeUUU
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cs3dcR
 
 ## Traduzioni per Lingua
 
 ### Italiano (it/validation.php)
 ```php
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
 <<<<<<< HEAD
@@ -516,6 +551,8 @@ class OpeningHoursRule implements ValidationRule
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cs3dcR
 'opening_hours' => [
     'morning' => 'Mattina',
     'afternoon' => 'Pomeriggio',
@@ -524,6 +561,7 @@ class OpeningHoursRule implements ValidationRule
     'missing_opening_time' => 'Se specifichi l\'orario di chiusura :day :session, devi specificare anche quello di apertura.',
     'opening_before_closing' => 'L\'orario di apertura :day :session deve essere precedente a quello di chiusura.',
 ],
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
@@ -539,11 +577,14 @@ class OpeningHoursRule implements ValidationRule
 >>>>>>> .merge_file_uVeUUU
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cs3dcR
 ```
 
 ### Inglese (en/validation.php)
 ```php
 'opening_hours' => [
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
 <<<<<<< HEAD
@@ -560,12 +601,15 @@ class OpeningHoursRule implements ValidationRule
 ### Inglese (en/validation.php)
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cs3dcR
     'morning' => 'Morning',
     'afternoon' => 'Afternoon',
     'morning_before_afternoon' => 'For :day, morning closing time must be before afternoon opening time.',
     'missing_closing_time' => 'If you specify :day :session opening time, you must also specify closing time.',
     'missing_opening_time' => 'If you specify :day :session closing time, you must also specify opening time.',
     'opening_before_closing' => 'The :day :session opening time must be before closing time.',
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
@@ -581,12 +625,15 @@ class OpeningHoursRule implements ValidationRule
 >>>>>>> .merge_file_uVeUUU
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cs3dcR
 ],
 ```
 
 ### Tedesco (de/validation.php)
 ```php
 'opening_hours' => [
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
 <<<<<<< HEAD
@@ -603,12 +650,15 @@ class OpeningHoursRule implements ValidationRule
 ### Tedesco (de/validation.php)
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cs3dcR
     'morning' => 'Vormittag',
     'afternoon' => 'Nachmittag',
     'morning_before_afternoon' => 'Für :day muss die Vormittags-Schließzeit vor der Nachmittags-Öffnungszeit liegen.',
     'missing_closing_time' => 'Wenn Sie :day :session Öffnungszeit angeben, müssen Sie auch die Schließzeit angeben.',
     'missing_opening_time' => 'Wenn Sie :day :session Schließzeit angeben, müssen Sie auch die Öffnungszeit angeben.',
     'opening_before_closing' => 'Die :day :session Öffnungszeit muss vor der Schließzeit liegen.',
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
@@ -627,6 +677,8 @@ class OpeningHoursRule implements ValidationRule
 >>>>>>> .merge_file_uVeUUU
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cs3dcR
 ],
 ```
 
@@ -638,6 +690,7 @@ class OpeningHoursRule implements ValidationRule
 
 ### Esempio di Utilizzo
 ```php
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
 <<<<<<< HEAD
@@ -662,10 +715,13 @@ class OpeningHoursRule implements ValidationRule
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_cs3dcR
 // Input: day = "Monday", session = "morning"
 // Output IT: "Per Monday, l'orario di chiusura mattina deve essere..."
 // Output EN: "For Monday, morning closing time must be..."
 // Output DE: "Für Monday muss die Vormittags-Schließzeit..."
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
@@ -681,10 +737,13 @@ class OpeningHoursRule implements ValidationRule
 >>>>>>> .merge_file_uVeUUU
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cs3dcR
 ```
 
 ## Best Practices Implementate
 
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
 <<<<<<< HEAD
@@ -701,11 +760,14 @@ class OpeningHoursRule implements ValidationRule
 ## Best Practices Implementate
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cs3dcR
 ### Struttura File
 1. **Strict types** declaration in tutti i file
 2. **Array syntax breve** `[]` invece di `array()`
 3. **Struttura gerarchica** con sezioni logiche
 4. **Naming consistente** tra le lingue
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
@@ -727,11 +789,15 @@ class OpeningHoursRule implements ValidationRule
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_cs3dcR
 ### Localizzazione
 1. **Nessuna stringa hardcoded** nel codice PHP
 2. **Traduzioni complete** per tutte le lingue supportate
 3. **Parametri dinamici** per personalizzazione messaggi
 4. **Terminologia appropriata** per dominio medico
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
@@ -753,11 +819,15 @@ class OpeningHoursRule implements ValidationRule
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_cs3dcR
 ### Code Quality
 1. **TransTrait** per performance e consistenza
 2. **Parametri tipizzati** per sicurezza
 3. **Messaggi user-friendly** e informativi
 4. **Struttura scalabile** per nuove validazioni
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
@@ -776,12 +846,15 @@ Per aggiungere nuove validazioni agli orari di apertura:
 >>>>>>> .merge_file_uVeUUU
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cs3dcR
 
 ## Estensibilità
 
 ### Aggiunta Nuove Validazioni
 Per aggiungere nuove validazioni agli orari di apertura:
 
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
 <<<<<<< HEAD
@@ -800,10 +873,13 @@ Per aggiungere nuove validazioni agli orari di apertura:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cs3dcR
 1. **Aggiungere chiave** in tutti e tre i file validation.php
 2. **Implementare logica** in OpeningHoursRule.php
 3. **Utilizzare TransTrait** per accedere alle traduzioni
 4. **Testare** in tutte le lingue
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
@@ -821,10 +897,13 @@ Per supportare una nuova lingua (es: francese):
 >>>>>>> .merge_file_uVeUUU
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cs3dcR
 
 ### Aggiunta Nuove Lingue
 Per supportare una nuova lingua (es: francese):
 
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
 <<<<<<< HEAD
@@ -842,10 +921,13 @@ Per supportare una nuova lingua (es: francese):
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cs3dcR
 1. **Creare** `Modules/UI/lang/fr/validation.php`
 2. **Tradurre** tutti i messaggi appropriatamente
 3. **Testare** la validazione nella nuova lingua
 4. **Aggiornare** documentazione
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
@@ -863,11 +945,14 @@ Per supportare una nuova lingua (es: francese):
 >>>>>>> .merge_file_uVeUUU
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cs3dcR
 
 ## Testing Multilingua
 
 ### Test per Ogni Lingua
 ```php
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
 <<<<<<< HEAD
@@ -885,10 +970,13 @@ Per supportare una nuova lingua (es: francese):
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cs3dcR
 // Test italiano
 App::setLocale('it');
 $rule = new OpeningHoursRule();
 // Verificare messaggi in italiano
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
@@ -911,6 +999,8 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 >>>>>>> .merge_file_uVeUUU
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cs3dcR
 
 // Test inglese
 App::setLocale('en');
@@ -928,6 +1018,7 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 
 ## Benefici della Implementazione
 
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
 <<<<<<< HEAD
@@ -956,10 +1047,13 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_cs3dcR
 ### Per gli Utenti
 - **Messaggi nella lingua nativa** per migliore comprensione
 - **Terminologia medica appropriata** per ogni cultura
 - **User experience coerente** in tutte le lingue
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
@@ -981,11 +1075,15 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_cs3dcR
 ### Per il Team di Sviluppo
 - **Codice pulito** senza stringhe hardcoded
 - **Manutenibilità migliorata** delle traduzioni
 - **Scalabilità** per nuove lingue
 - **Conformità** alle best practices Laravel
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
@@ -1007,10 +1105,14 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_cs3dcR
 ### Per il Progetto
 - **Supporto internazionale** completo
 - **Professionalità** nell'approccio multilingua
 - **Facilità di espansione** in nuovi mercati
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
@@ -1029,6 +1131,8 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 >>>>>>> .merge_file_uVeUUU
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cs3dcR
 
 ## Collegamenti
 - [Opening Hours Rule](../app/Rules/OpeningHoursRule.php)
@@ -1037,6 +1141,7 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 - [Localization Guidelines](./localization_guidelines.md)
 
 *Implementazione completata: gennaio 2025*
+<<<<<<< .merge_file_Kb5KHg
 <<<<<<< HEAD
 <<<<<<< .merge_file_hmOCFx
 <<<<<<< HEAD
@@ -1080,3 +1185,5 @@ Verificare che i parametri `:day` e `:session` vengano sostituiti correttamente 
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_cs3dcR

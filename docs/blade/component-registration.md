@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_yme8VD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_dKJ4DC
@@ -62,6 +63,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_78YWvL
 # Registrazione Componenti Blade nei Moduli
 
 ## Architettura dei componenti Blade

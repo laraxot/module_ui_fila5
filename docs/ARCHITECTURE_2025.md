@@ -1,6 +1,7 @@
 ---
 module: theme
 topic: ARCHITECTURE_2025
+<<<<<<< .merge_file_8U9pdu
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -14,10 +15,13 @@ topic: ARCHITECTURE_2025
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_C0yzDo
 canonical: ../../../Themes/docs/shared-components/ARCHITECTURE.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/ARCHITECTURE.md
+<<<<<<< .merge_file_8U9pdu
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_eacapi
@@ -65,3 +69,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/architecture
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_C0yzDo

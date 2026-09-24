@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_2iC0Iy
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -46,4 +47,6 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_rxev7v
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891

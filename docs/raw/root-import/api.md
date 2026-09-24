@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_OgZYub
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KF6tvo
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_PvT2YB
 -------------------------------------------------------------------------------------------------
 Render HTTP JSON Responses for API-based Projects in Laravel
 https://codebrisk.com/blog/render-http-json-responses-for-api-based-projects-in-laravel

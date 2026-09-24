@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_E7Exlo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_z6Z7Qt
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_Sxc5eI
 # RadioCollection - Esempi di Utilizzo
 
 ## Utilizzo Base

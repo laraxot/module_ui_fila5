@@ -1,10 +1,14 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_Ef4drC
 <<<<<<< HEAD
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_tqcanF
 ?>
 {{-- Componente per la selezione di studi odontoiatrici tramite pulsanti --}}
 <x-dynamic-component

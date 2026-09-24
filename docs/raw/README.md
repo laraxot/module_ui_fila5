@@ -5,6 +5,7 @@ canonical: ../../../../Themes/docs/shared-components/README-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/README-Modules.md
+<<<<<<< .merge_file_iuHSwQ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Uv12gq
@@ -59,3 +60,5 @@ Core module for the FixCity Platform.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_edX2Uz

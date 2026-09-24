@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_1fS0Rp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_1gGGJz
@@ -67,6 +68,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_euayH9
 # Standard di Performance
 
 ## 🚀 Metriche Core Web Vitals

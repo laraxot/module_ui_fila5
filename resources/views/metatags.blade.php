@@ -1,10 +1,14 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_4slg9y
 <<<<<<< HEAD
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_hb4XKW
 ?>
 <meta charset="utf-8">
 <meta name="application-name" content="{{ $_theme->metatag('sitename') }}">

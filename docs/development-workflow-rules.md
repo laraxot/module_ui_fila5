@@ -1,5 +1,6 @@
 # Development Workflow Rules - UI Module
 
+<<<<<<< .merge_file_ibIh8u
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_MRbWq9
@@ -25,6 +26,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+**Date**: [DATE]
+>>>>>>> .merge_file_Zq1Rua
 **Status**: Active
 **Purpose**: Document the mandatory development workflow for UI module
 
@@ -170,6 +174,7 @@
 
 ## 📚 Related Documentation
 
+<<<<<<< .merge_file_ibIh8u
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_MRbWq9
@@ -187,10 +192,13 @@
 >>>>>>> .merge_file_Vyhk3B
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_Zq1Rua
 - [Xot Philosophy](../xot/docs/philosophy-complete.md)
 - [PSR-4 Autoloading Error Analysis](./psr4-autoloading-error-analysis.md)
 - [Development Guidelines](../../../../docs/development/readme.md)
 - [Git Workflow](../../../../docs/git-conflict-resolution/readme.md)
+<<<<<<< .merge_file_ibIh8u
 <<<<<<< HEAD
 <<<<<<< .merge_file_MRbWq9
 <<<<<<< HEAD
@@ -214,6 +222,8 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Zq1Rua
 
 ## ⚠️ Consequences of Skipping Steps
 

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_dJoXDX
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_AbwGch
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_N72zzZ
 # ubuntu
 
 <!-- Contenuto migrato da _docs/ubuntu.txt -->

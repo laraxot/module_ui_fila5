@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_ky2s5L
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -17,6 +18,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/selectstatec
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_qpubuj
 # SelectStateColumn - Aggiunta Modal di Conferma
 
 ## Panoramica

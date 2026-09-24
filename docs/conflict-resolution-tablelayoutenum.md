@@ -65,6 +65,7 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 ## Collegamenti Correlati
 
 - [UI Components](../components/volt.md)
+<<<<<<< .merge_file_wU1mLG
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GPoTc2
@@ -102,6 +103,11 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [PHPStan Level 10 Fixes](../../xot/docs/phpstan-level10-fixes.md)
+- [Translation Standards](../../lang/docs/translation-standards.md)
+- [Best Practices](../../xot/docs/translation-keys-best-practices.md)
+>>>>>>> .merge_file_tvfYIT
 
 ## Note per Sviluppatori Futuri
 
@@ -115,17 +121,18 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 - **Data**: Gennaio 2025
 - **Modulo**: UI
 - **File**: `app/Enums/TableLayoutEnum.php`
+<<<<<<< .merge_file_wU1mLG
 <<<<<<< HEAD
 - **Tipo Conflitto**: Sintassi PHPStan
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
-- **Tipo Conflitto**: Sintassi PHPStan
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
+>>>>>>> .merge_file_tvfYIT
+- **Tipo Conflitto**: Sintassi PHPStan
 - **Scelta**: Versione Branch 988693e (sintassi moderna)
 # Risoluzione Conflitto TableLayoutEnum
+<<<<<<< .merge_file_wU1mLG
 <<<<<<< HEAD
 ## Problema Identificato
 Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nella linea 96:
@@ -136,6 +143,8 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 - **Scelta**: Versione Branch 988693e (sintassi moderna)
 # Risoluzione Conflitto TableLayoutEnum
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tvfYIT
 
 ## Problema Identificato
 
@@ -145,6 +154,7 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 
 ## Analisi del Conflitto
 
+<<<<<<< .merge_file_wU1mLG
 <<<<<<< HEAD
 <<<<<<< .merge_file_GPoTc2
 <<<<<<< HEAD
@@ -189,11 +199,14 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_tvfYIT
 ### Conflitto (Linea 96) - Commento PHPStan
 ```php
             /** @phpstan-ignore method.protected */
             /** @phpstan-ignore-next-line */
 ```
+<<<<<<< .merge_file_wU1mLG
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GPoTc2
@@ -212,6 +225,8 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 >>>>>>> .merge_file_6U1kOf
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tvfYIT
 
 **Problema**: Differenza nella sintassi del commento PHPStan
 
@@ -219,6 +234,7 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 
 ### Criteri di Risoluzione
 
+<<<<<<< .merge_file_wU1mLG
 <<<<<<< HEAD
 <<<<<<< .merge_file_GPoTc2
 <<<<<<< HEAD
@@ -237,10 +253,13 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tvfYIT
 1. **Standard PHPStan**: Utilizzare la sintassi moderna `/** @phpstan-ignore-next-line */`
 2. **Precisione**: Indicare esattamente quale linea ignorare
 3. **Manutenibilità**: Utilizzare la sintassi più chiara e comprensibile
 4. **Consistenza**: Seguire le convenzioni del progetto
+<<<<<<< .merge_file_wU1mLG
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GPoTc2
@@ -258,11 +277,14 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 >>>>>>> .merge_file_6U1kOf
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tvfYIT
 
 ### Risoluzione Applicata
 
 #### Scelta: Versione Branch 988693e (Sintassi moderna)
 
+<<<<<<< .merge_file_wU1mLG
 <<<<<<< HEAD
 <<<<<<< .merge_file_GPoTc2
 <<<<<<< HEAD
@@ -280,11 +302,14 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tvfYIT
 **Motivazione**:
 - `/** @phpstan-ignore-next-line */` è la sintassi raccomandata da PHPStan
 - È più precisa e indica esattamente quale linea ignorare
 - È più facile da comprendere e mantenere
 - Mantiene coerenza con gli standard moderni
+<<<<<<< .merge_file_wU1mLG
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GPoTc2
@@ -303,6 +328,8 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 >>>>>>> .merge_file_6U1kOf
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tvfYIT
 
 #### Risoluzione Dettagliata
 
@@ -319,6 +346,7 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 
 ### Perché la sintassi moderna?
 
+<<<<<<< .merge_file_wU1mLG
 <<<<<<< HEAD
 <<<<<<< .merge_file_GPoTc2
 <<<<<<< HEAD
@@ -343,10 +371,13 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_tvfYIT
 1. **Standard Attuale**: `/** @phpstan-ignore-next-line */` è la sintassi raccomandata
 2. **Precisione**: Indica esattamente quale linea ignorare
 3. **Leggibilità**: È più chiara e comprensibile
 4. **Manutenibilità**: Più facile da gestire e aggiornare
+<<<<<<< .merge_file_wU1mLG
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GPoTc2
@@ -378,10 +409,16 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+
+### Impatto
+
+>>>>>>> .merge_file_tvfYIT
 - ✅ Conformità agli standard PHPStan moderni
 - ✅ Miglioramento della precisione del commento
 - ✅ Aumento della leggibilità del codice
 - ✅ Mantenimento della funzionalità
+<<<<<<< .merge_file_wU1mLG
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GPoTc2
@@ -418,6 +455,8 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 <<<<<<< HEAD
 =======
 >>>>>>> .merge_file_6U1kOf
+=======
+>>>>>>> .merge_file_tvfYIT
 
 ## Collegamenti Correlati
 
@@ -434,6 +473,7 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 
 ## Note per Sviluppatori Futuri
 
+<<<<<<< .merge_file_wU1mLG
 <<<<<<< .merge_file_GPoTc2
 <<<<<<< HEAD
 =======
@@ -454,10 +494,13 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_tvfYIT
 1. **PHPStan**: Utilizzare sempre `/** @phpstan-ignore-next-line */`
 2. **Precisione**: Specificare esattamente quale linea ignorare
 3. **Leggibilità**: Mantenere commenti chiari e comprensibili
 4. **Consistenza**: Seguire gli standard moderni del progetto
+<<<<<<< .merge_file_wU1mLG
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GPoTc2
@@ -475,12 +518,15 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 >>>>>>> .merge_file_6U1kOf
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tvfYIT
 
 ## Data Risoluzione
 
 - **Data**: Gennaio 2025
 - **Modulo**: UI
 - **File**: `app/Enums/TableLayoutEnum.php`
+<<<<<<< .merge_file_wU1mLG
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -503,10 +549,13 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_tvfYIT
 - **Tipo Conflitto**: Sintassi PHPStan
 - **Scelta**: Versione Branch 988693e (sintassi moderna)
 - **Scelta**: Versione Branch 988693e (sintassi moderna)
 - **Scelta**: Versione Branch 988693e (sintassi moderna)
+<<<<<<< .merge_file_wU1mLG
 <<<<<<< HEAD
 <<<<<<< .merge_file_GPoTc2
 =======
@@ -546,3 +595,5 @@ Il file `Modules/UI/app/Enums/TableLayoutEnum.php` presenta un conflitto Git nel
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_tvfYIT

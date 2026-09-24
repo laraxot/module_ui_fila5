@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_jVaQ8e
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_6MsDon
@@ -58,6 +59,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_rbgYGM
 # Componente FileUpload
 
 ## Collegamenti Bidirezionali

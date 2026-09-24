@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_QcoWVA
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_DvIeri
@@ -271,6 +272,8 @@ To use the widget in a Blade view:
 >>>>>>> .merge_file_FlebvB
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0p7cqG
 ---
 module: theme
 topic: full_calendar
@@ -278,6 +281,7 @@ canonical: ../../../../Themes/docs/shared-components/full_calendar.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/full_calendar.md
+<<<<<<< .merge_file_QcoWVA
 <<<<<<< HEAD
 <<<<<<< .merge_file_DvIeri
 <<<<<<< HEAD
@@ -557,3 +561,5 @@ To use the widget in a Blade view:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0p7cqG

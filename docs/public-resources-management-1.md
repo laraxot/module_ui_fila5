@@ -1,5 +1,5 @@
-<<<<<<< HEAD
 # Gestione delle Risorse Pubbliche
+<<<<<<< .merge_file_28VolI
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -12,6 +12,8 @@
 # Gestione delle Risorse Pubbliche 
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_vjNo7k
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -29,6 +31,7 @@ Questo documento descrive la corretta gestione delle risorse pubbliche (immagini
 La struttura corretta per le risorse pubbliche  è la seguente:
 
 ```
+<<<<<<< .merge_file_28VolI
 <<<<<<< HEAD
 
 =======
@@ -43,6 +46,9 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 /var/www/html/saluteora/
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_vjNo7k
 ├── public_html/           # Directory pubblica principale
 │   ├── images/            # Immagini pubbliche
 │   ├── css/               # File CSS
@@ -52,6 +58,7 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 └── laravel/               # Applicazione Laravel (NON contiene file pubblici)
 ```
 
+<<<<<<< .merge_file_28VolI
 <<<<<<< HEAD
 > **IMPORTANTE**: MAI utilizzare `public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>.
 =======
@@ -66,11 +73,15 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 > **IMPORTANTE**: MAI utilizzare `/var/www/html/saluteora/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di SaluteOra.
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+> **IMPORTANTE**: MAI utilizzare `public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>.
+>>>>>>> .merge_file_vjNo7k
 
 ## Tipi di Risorse
 
 ### Immagini
 
+<<<<<<< .merge_file_28VolI
 <<<<<<< HEAD
 Le immagini devono essere posizionate in `public_html/images/` e organizzate in sottocartelle per tipologia:
 
@@ -87,10 +98,15 @@ Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/im
 Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/images/` e organizzate in sottocartelle per tipologia:
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+Le immagini devono essere posizionate in `public_html/images/` e organizzate in sottocartelle per tipologia:
+
+>>>>>>> .merge_file_vjNo7k
 - `/images/avatars/` - Avatar utenti
 - `/images/logos/` - Loghi
 - `/images/icons/` - Icone
 - `/images/backgrounds/` - Sfondi
+<<<<<<< .merge_file_28VolI
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -98,6 +114,8 @@ Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/im
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_vjNo7k
 
 ### CSS e JavaScript
 
@@ -162,6 +180,7 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 <img
     src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}"
     alt="{{ $user->name }}"
+<<<<<<< .merge_file_28VolI
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -205,6 +224,8 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_vjNo7k
     class="h-10 w-10 rounded-full"
 >
 ```
@@ -213,10 +234,10 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 
 ```blade
 <a href="{{ LaravelLocalization::getLocalizedURL(LaravelLocalization::getCurrentLocale(), route('home')) }}">
-<<<<<<< HEAD
     <img
         src="{{ asset('images/logos/<nome progetto>-logo.svg') }}"
         alt="<nome progetto>"
+<<<<<<< .merge_file_28VolI
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -234,6 +255,8 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_vjNo7k
         class="h-8"
     >
 </a>
@@ -248,6 +271,7 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 
 ## Conclusione
 
+<<<<<<< .merge_file_28VolI
 <<<<<<< HEAD
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>.
 =======
@@ -262,3 +286,6 @@ Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantis
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto SaluteOra.
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>.
+>>>>>>> .merge_file_vjNo7k

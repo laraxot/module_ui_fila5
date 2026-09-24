@@ -200,8 +200,8 @@ $this->mount(function () {
 
 ## Gestione delle Traduzioni
 
-<<<<<<< HEAD
 Le traduzioni per il dropdown utente sono definite nei file di traduzione di Laravel sotto il namespace `auth.user_dropdown`. È importante seguire lo standard di Quaeris per le traduzioni, utilizzando sempre le chiavi di traduzione appropriate e mantenendo la coerenza tra le diverse lingue.
+<<<<<<< .merge_file_oNrgxo
 <<<<<<< HEAD
 <<<<<<< .merge_file_esVbl1
 =======
@@ -252,6 +252,8 @@ Le traduzioni per il dropdown utente sono definite nei file di traduzione di Lar
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_uxS4a0
 
 ### Struttura delle Traduzioni
 

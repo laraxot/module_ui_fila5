@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_eIrkT7
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8k59rh
@@ -62,6 +63,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_b0YORS
 # Esempio Pratico: Implementazione TableLayoutEnum
 
 ## Panoramica
@@ -219,6 +222,7 @@ class UserResource extends XotBaseResource
     protected static ?string $navigationIcon = 'heroicon-o-users';
 
     public static function getFormSchema(): array
+<<<<<<< .merge_file_eIrkT7
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8k59rh
@@ -241,6 +245,8 @@ class UserResource extends XotBaseResource
     public function getFormSchema(): array
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_b0YORS
     {
         return [
             Forms\Components\TextInput::make('name')
@@ -425,6 +431,7 @@ class ListUsersTest extends TestCase
 ## Collegamenti
 
 - [TableLayoutEnum Documentation](../table-layout-enum-comprehensive.md)
+<<<<<<< .merge_file_eIrkT7
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8k59rh
@@ -456,4 +463,8 @@ class ListUsersTest extends TestCase
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [UI Module Architecture](../architecture_rules.md)
+- [Filament Best Practices](../../../../docs/filament_best_practices.md)
+>>>>>>> .merge_file_b0YORS
 - [Translation Standards](../../../../docs/translation_standards.md)

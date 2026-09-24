@@ -1,10 +1,14 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_6V7FmB
 <<<<<<< HEAD
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_05kgOj
 ?>
 <x-filament-widgets::widget id="overlook-widget">
 

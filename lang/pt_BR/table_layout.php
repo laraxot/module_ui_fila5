@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_1YObX6
 <<<<<<< HEAD
 <<<<<<< .merge_file_hCHtGY
 <<<<<<< HEAD
@@ -57,6 +58,9 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+return [
+>>>>>>> .merge_file_HTZWBM
     'actions' => [
         'toggle' => [
             'label' => 'Alternar layout',

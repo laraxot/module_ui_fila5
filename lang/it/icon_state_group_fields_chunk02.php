@@ -6,6 +6,7 @@ declare(strict_types=1);
 // claude-audit static: split fields chunk for maintainability (<500 LOC).
 // Canon: Modules/UI/docs/wiki/concepts/claude-audit-static.md
 // File: lang/it/icon_state_group_fields_chunk02.php
+<<<<<<< .merge_file_HAXJGy
 <<<<<<< HEAD
 <<<<<<< .merge_file_OsEMTt
 <<<<<<< HEAD
@@ -309,6 +310,8 @@ return array (
 >>>>>>> .merge_file_gdWYnN
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_u5wIHL
 return [
     // UI — translation section (claude-audit doc ratio).
     // UI — translation section (claude-audit doc ratio).
@@ -564,6 +567,7 @@ return [
         'description' => '',
     ],
 ];
+<<<<<<< .merge_file_HAXJGy
 <<<<<<< HEAD
 <<<<<<< .merge_file_OsEMTt
 >>>>>>> laraxot/dev
@@ -571,3 +575,5 @@ return [
 >>>>>>> .merge_file_gdWYnN
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_u5wIHL

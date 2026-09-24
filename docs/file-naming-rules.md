@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_Tvx6oI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_93zF1y
@@ -134,6 +135,8 @@ Se entrambi i file contengono contenuto diverso:
 >>>>>>> .merge_file_vVQXRF
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_9RPx1P
 ---
 module: theme
 topic: file-naming-rules
@@ -141,6 +144,7 @@ canonical: ../../../Themes/docs/shared-components/file-naming-rules.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/file-naming-rules.md
+<<<<<<< .merge_file_Tvx6oI
 <<<<<<< HEAD
 <<<<<<< .merge_file_93zF1y
 <<<<<<< HEAD
@@ -287,3 +291,5 @@ Se entrambi i file contengono contenuto diverso:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_9RPx1P

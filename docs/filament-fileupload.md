@@ -89,6 +89,7 @@ return [
    - Segui le convenzioni di naming
 
 ## Collegamenti
+<<<<<<< .merge_file_kX49Lv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_o6y9jC
@@ -112,11 +113,17 @@ return [
 - [Form Components](../../patient/docs/filament-form-components.md)
 - [Best Practices](../../xot/docs/filament-best-practices.md)
 >>>>>>> 804451c (Lint)
+=======
+- [Translation System](../../lang/docs/translation-system.md)
+- [Form Components](../../patient/docs/filament-form-components.md)
+- [Best Practices](../../xot/docs/filament-best-practices.md)
+>>>>>>> .merge_file_SbGInX
 
 ## Vedi Anche
 - [Filament File Upload](https://filamentphp.com/docs/forms/fields/file-upload)
 - [Laravel File Storage](https://laravel.com/docs/filesystem)
 # FileUpload Component in Filament
+<<<<<<< .merge_file_kX49Lv
 <<<<<<< HEAD
 <<<<<<< HEAD
 ## Metodi Disponibili
@@ -170,6 +177,11 @@ return [
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+## Metodi Disponibili
+
+>>>>>>> .merge_file_SbGInX
 ### Configurazione Base
 ```php
 FileUpload::make('document')
@@ -179,6 +191,7 @@ FileUpload::make('document')
     ->acceptedFileTypes(['application/pdf'])
     ->maxSize(10240)
 ```
+<<<<<<< .merge_file_kX49Lv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_o6y9jC
@@ -194,10 +207,13 @@ FileUpload::make('document')
 >>>>>>> .merge_file_71R8j0
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_SbGInX
 
 ### UI/UX
 ```php
 FileUpload::make('document')
+<<<<<<< .merge_file_kX49Lv
 <<<<<<< HEAD
 <<<<<<< .merge_file_o6y9jC
 <<<<<<< HEAD
@@ -214,6 +230,8 @@ FileUpload::make('document')
 ### UI/UX
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_SbGInX
     ->downloadable()
     ->previewable()
     ->imagePreviewHeight('250')
@@ -222,6 +240,7 @@ FileUpload::make('document')
     ->loadingIndicatorPosition('right')
     ->removeUploadedFileButtonPosition('right')
     ->uploadProgressIndicatorPosition('right')
+<<<<<<< .merge_file_kX49Lv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_o6y9jC
@@ -243,6 +262,8 @@ FileUpload::make('document')
 >>>>>>> .merge_file_71R8j0
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_SbGInX
 ```
 
 ## ⚠️ Errori Comuni
@@ -269,6 +290,7 @@ FileUpload::make('document')
 
 ✅ **FARE**:
 ```php
+<<<<<<< .merge_file_kX49Lv
 <<<<<<< HEAD
 <<<<<<< .merge_file_o6y9jC
 <<<<<<< HEAD
@@ -296,6 +318,8 @@ FileUpload::make('document')
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_SbGInX
 // Usa il file di traduzione invece
 // lang/it/resource.php
 return [
@@ -307,6 +331,7 @@ return [
         ],
     ],
 ];
+<<<<<<< .merge_file_kX49Lv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_o6y9jC
@@ -322,10 +347,13 @@ return [
 >>>>>>> .merge_file_71R8j0
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_SbGInX
 ```
 
 ## Best Practices
 
+<<<<<<< .merge_file_kX49Lv
 <<<<<<< HEAD
 <<<<<<< .merge_file_o6y9jC
 <<<<<<< HEAD
@@ -342,11 +370,14 @@ return [
 ## Best Practices
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_SbGInX
 1. **Sicurezza**
    - Limita sempre i tipi di file accettati
    - Imposta una dimensione massima appropriata
    - Usa directory specifiche per tipo di file
    - Implementa validazione server-side
+<<<<<<< .merge_file_kX49Lv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_o6y9jC
@@ -368,11 +399,15 @@ return [
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_SbGInX
 2. **Performance**
    - Ottimizza le dimensioni dei file
    - Usa disk appropriati per lo storage
    - Implementa gestione errori
    - Fornisci feedback di progresso
+<<<<<<< .merge_file_kX49Lv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_o6y9jC
@@ -394,11 +429,15 @@ return [
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_SbGInX
 3. **UX**
    - Usa icone appropriate
    - Fornisci preview quando possibile
    - Mostra messaggi di errore chiari
    - Implementa drag & drop
+<<<<<<< .merge_file_kX49Lv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_o6y9jC
@@ -420,11 +459,15 @@ return [
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_SbGInX
 4. **Manutenibilità**
    - Usa costanti per configurazioni comuni
    - Centralizza la logica di upload
    - Documenta requisiti specifici
    - Segui le convenzioni di naming
+<<<<<<< .merge_file_kX49Lv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_o6y9jC
@@ -442,11 +485,14 @@ return [
 >>>>>>> .merge_file_71R8j0
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_SbGInX
 
 ## Collegamenti
 - [Translation System](../../lang/project_docs/translation-system.md)
 - [Form Components](../../patient/project_docs/filament-form-components.md)
 - [Best Practices](../../xot/project_docs/filament-best-practices.md)
+<<<<<<< .merge_file_kX49Lv
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
@@ -481,23 +527,13 @@ return [
 - [Translation System](../../Lang/project_docs/translation-system.md)
 - [Form Components](../../Patient/project_docs/filament-form-components.md)
 - [Best Practices](../../Xot/project_docs/filament-best-practices.md)
+=======
+>>>>>>> .merge_file_SbGInX
 
 ## Vedi Anche
 - [Filament File Upload](https://filamentphp.com/project_docs/forms/fields/file-upload)
-<<<<<<< HEAD
-- [Laravel File Storage](https://laravel.com/project_docs/filesystem) 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 - [Laravel File Storage](https://laravel.com/project_docs/filesystem)
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-- [Laravel File Storage](https://laravel.com/project_docs/filesystem) 
-=======
-- [Laravel File Storage](https://laravel.com/project_docs/filesystem)
+<<<<<<< .merge_file_kX49Lv
 >>>>>>> laraxot/dev
 =======
 - [Laravel File Storage](https://laravel.com/project_docs/filesystem) 
@@ -515,3 +551,5 @@ return [
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_SbGInX

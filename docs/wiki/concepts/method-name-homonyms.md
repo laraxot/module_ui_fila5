@@ -4,6 +4,7 @@ type: analysis
 module: UI
 updated: 2026-06-15
 related:
+<<<<<<< .merge_file_eIv3cq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8QCZQ3
@@ -51,6 +52,10 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+  - ../../../../../../docs/wiki/method-name-homonym-census.md
+  - ../../../../../../bashscripts/docs/method-homonym-census.json
+>>>>>>> .merge_file_Xhs93Z
 ---
 
 # Censimento omonimi metodi — UI

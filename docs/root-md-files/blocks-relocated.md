@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_MlbEbs
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -46,6 +47,8 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_JJNYv8
 https://github.com/whitecube/nova-flexible-content
 
 

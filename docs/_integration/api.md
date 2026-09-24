@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_8N47Td
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_dJ9gnw
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_LHSc2N
 # api
 
 <!-- Contenuto migrato da _docs/api.txt -->

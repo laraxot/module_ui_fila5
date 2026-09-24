@@ -84,6 +84,7 @@ npm run dev
 * [getting-started.md](../../../Tenant/docs/it/getting-started.md)
 * [getting-started.md](../../../Cms/docs/getting-started.md)
 
+<<<<<<< .merge_file_PExcLJ
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -102,6 +103,8 @@ npm run dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_91kIH2
 ### Versione Incoming
 
 ---

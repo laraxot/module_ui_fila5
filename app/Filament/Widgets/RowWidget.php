@@ -1,10 +1,14 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_8SWEfx
 <<<<<<< HEAD
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_50pMS6
 /**
  * @see https://github.com/awcodes/overlook/blob/2.x/src/Widgets/OverlookWidget.php
  */
@@ -22,12 +26,26 @@ abstract class RowWidget extends XotBaseSchemaWidget
     /** @var array<int, class-string> */
     public array $widgets = [];
 
+<<<<<<< .merge_file_8SWEfx
 <<<<<<< HEAD
     /** @phpstan-var view-string */
     /** @phpstan-ignore property.defaultValue */
 =======
 >>>>>>> 804451c (Lint)
     protected string $view = 'ui::filament.widgets.row';
+=======
+    /** @var view-string */
+    protected string $view;
+
+    public function __construct()
+    {
+        /** @var view-string $view */
+        $view = 'ui::filament.widgets.row';
+        $this->view = $view;
+
+        parent::__construct();
+    }
+>>>>>>> .merge_file_50pMS6
 
     protected int|string|array $columnSpan = 'full';
 

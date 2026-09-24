@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_GZVMZw
 <<<<<<< HEAD
 <<<<<<< .merge_file_6H5lDB
 <<<<<<< HEAD
@@ -57,6 +58,9 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+return [
+>>>>>>> .merge_file_A9TH3R
     'actions' => [
         'toggle' => [
             'label' => 'Layout wechseln',

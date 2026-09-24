@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_MoKYeT
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_gmJdWe
@@ -58,6 +59,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_bdw4YD
 ### Versione HEAD
 
 # Roadmap Modulo UI
@@ -353,6 +356,7 @@ Overall Module Completion: 60%
 
 ### Component System Enhancement [75%]
 - [x] Base Components [docs/roadmap/components_base.md]
+<<<<<<< .merge_file_MoKYeT
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_gmJdWe
@@ -378,6 +382,9 @@ Overall Module Completion: 60%
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [x] Form Components [docs/roadmap/form_components.md]
+>>>>>>> .merge_file_bdw4YD
 - [ ] Data Display Components [docs/roadmap/data_display.md]
 - [ ] Navigation Components [docs/roadmap/navigation.md]
 - [x] Layout Components [docs/roadmap/layout.md]

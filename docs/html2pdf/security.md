@@ -2,6 +2,7 @@
 module: theme
 topic: security
 canonical: ../../../../Themes/docs/shared-components/security-Modules.md
+<<<<<<< .merge_file_qxwfif
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_wZv42y
@@ -36,6 +37,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ZOf0WT
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/security-Modules.md

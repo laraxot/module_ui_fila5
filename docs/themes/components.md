@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_8VWlRw
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VsgJ5q
@@ -66,6 +67,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_AtfNhD
 # Componenti del Tema
 
 ## Logo

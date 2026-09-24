@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_C5JgL6
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_yjDqQv
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_gKVe38
 # Filament 4 Migration Guide
 
 ## Overview

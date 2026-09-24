@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_n813bt
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_qy058x
@@ -77,6 +78,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_cShZv1
 # Task: Refactoring Componenti Complessi - UI
 
 **Modulo**: UI  

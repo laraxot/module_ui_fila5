@@ -5,6 +5,7 @@ module: UI
 tags: [redundancy, components, config, design-system]
 created: 2026-05-21
 related:
+<<<<<<< .merge_file_RVfBT0
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_0hxF1I
@@ -61,6 +62,9 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+  - https://github.com/laraxot/base_fixcity_fila5/issues/89
+>>>>>>> .merge_file_55qRzg
 ---
 
 # UI redundancy audit 2026-05-21

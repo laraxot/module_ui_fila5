@@ -2,10 +2,10 @@
 module: theme
 topic: AGENTS
 canonical: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
-<<<<<<< HEAD
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+<<<<<<< .merge_file_UkIke6
 <<<<<<< HEAD
 <<<<<<< .merge_file_TkuqKt
 =======
@@ -108,3 +108,5 @@ See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Mo
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_vbxi8Q

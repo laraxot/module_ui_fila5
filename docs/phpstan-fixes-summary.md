@@ -265,6 +265,7 @@ php artisan test --filter=Xot
 
 # Check for any new errors
 ./vendor/bin/phpstan analyse Modules
+<<<<<<< .merge_file_E1BB6I
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -279,3 +280,5 @@ php artisan test --filter=Xot
 ```
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_8JeD6Y

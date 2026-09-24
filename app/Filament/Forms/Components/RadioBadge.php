@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
+<<<<<<< .merge_file_AAbN6h
 <<<<<<< HEAD
 <<<<<<< .merge_file_tAb9DZ
 <<<<<<< HEAD
@@ -12,15 +13,14 @@ namespace Modules\UI\Filament\Forms\Components;
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
-use Filament\Forms\Components\Radio;
 =======
->>>>>>> .merge_file_Oxn4QX
+>>>>>>> .merge_file_JHIpM1
+use Filament\Forms\Components\Radio;
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
-use Modules\Xot\Filament\Forms\Components\XotBaseRadio;
 
-<<<<<<< .merge_file_tAb9DZ
 class RadioBadge extends Radio
+<<<<<<< .merge_file_AAbN6h
 <<<<<<< HEAD
 =======
 =======
@@ -51,6 +51,8 @@ class RadioBadge extends XotBaseRadio
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_JHIpM1
 {
     protected string $view = 'ui::filament.forms.components.radio-badge';
 
@@ -93,18 +95,18 @@ class RadioBadge extends XotBaseRadio
         $enum = $this->getEnumValue($value);
         if ($enum instanceof HasColor) {
             $color = $enum->getColor();
-            if (null === $color) {
+            if ($color === null) {
                 return $this->selectedColor;
             }
 
             if (is_array($color)) {
                 $first = reset($color);
 
-                return is_string($first) && '' !== $first ? $first : $this->selectedColor;
+                return is_string($first) && $first !== '' ? $first : $this->selectedColor;
             }
 
             // PHPStan L10: $color è già verificato come non-array e non-null, quindi è string
-            if ('' !== $color) {
+            if ($color !== '') {
                 return $color;
             }
 
@@ -123,7 +125,7 @@ class RadioBadge extends XotBaseRadio
         $icon = $enum->getIcon();
 
         // getIcon() può restituire Htmlable|string|null, ma dobbiamo restituire solo string|null
-        if (null === $icon) {
+        if ($icon === null) {
             return null;
         }
 

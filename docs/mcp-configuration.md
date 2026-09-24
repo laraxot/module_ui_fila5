@@ -1,5 +1,6 @@
 # MCP Server Configuration - UI Module
 
+<<<<<<< .merge_file_Z3DeMA
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_i5JNqs
@@ -25,6 +26,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_lyS71V
 **Status**: ✅ Configured
 **MCP Servers**: Asana, ClickUp, Filesystem, Database, Redmine (Planned)
 
@@ -60,6 +64,7 @@ The UI module's MCP configuration enables AI assistants to interact with:
     },
     "filesystem": {
       "command": "npx",
+<<<<<<< .merge_file_Z3DeMA
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_i5JNqs
@@ -85,6 +90,10 @@ The UI module's MCP configuration enables AI assistants to interact with:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", ". progetto>/laravel"],
+||||||| parent of 9a84589 (.)
+>>>>>>> .merge_file_lyS71V
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "/var/www/_bases/base_laravelpizza/laravel"],
       "description": "Access to UI module files"
     },
@@ -92,6 +101,7 @@ The UI module's MCP configuration enables AI assistants to interact with:
       "command": "npx",
       "args": ["-y", "@bytebase/dbhub"],
       "env": {
+<<<<<<< .merge_file_Z3DeMA
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_i5JNqs
@@ -117,6 +127,10 @@ The UI module's MCP configuration enables AI assistants to interact with:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+        "DATABASE_URL": "sqlite://. progetto>/laravel/database/database.sqlite"
+||||||| parent of 9a84589 (.)
+>>>>>>> .merge_file_lyS71V
         "DATABASE_URL": "sqlite:///var/www/_bases/base_laravelpizza/laravel/database/database.sqlite"
       },
       "description": "SQLite database queries"
@@ -132,6 +146,7 @@ The UI module's MCP configuration enables AI assistants to interact with:
 ### Asana Integration
 ```bash
 # Create task
+<<<<<<< .merge_file_Z3DeMA
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_i5JNqs
@@ -157,6 +172,9 @@ The UI module's MCP configuration enables AI assistants to interact with:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+"Create task in '<nome progetto> - UI Module' project: 'Implement location selector component'"
+>>>>>>> .merge_file_lyS71V
 
 # Update status
 "Update task 'Create reusable card component' status to 'In Progress'"
@@ -209,6 +227,7 @@ The UI module's MCP configuration enables AI assistants to interact with:
 
 ## 📚 Related Documentation
 
+<<<<<<< .merge_file_Z3DeMA
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_i5JNqs
@@ -226,10 +245,13 @@ The UI module's MCP configuration enables AI assistants to interact with:
 >>>>>>> .merge_file_dIsjtv
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_lyS71V
 - [Asana MCP Configuration](../../../../docs/mcp-asana-configuration.md)
 - [ClickUp MCP Configuration](../../../../docs/mcp-clickup-configuration.md)
 - [Redmine MCP Configuration](../../../../docs/mcp-redmine-configuration.md)
 - [UI Module Roadmap](./roadmap-[date].md)
+<<<<<<< .merge_file_Z3DeMA
 <<<<<<< HEAD
 <<<<<<< .merge_file_i5JNqs
 <<<<<<< HEAD
@@ -253,11 +275,14 @@ The UI module's MCP configuration enables AI assistants to interact with:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_lyS71V
 
 ---
 
 ## 🔄 Updates
 
+<<<<<<< .merge_file_Z3DeMA
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_i5JNqs
@@ -289,12 +314,17 @@ The UI module's MCP configuration enables AI assistants to interact with:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- **[DATE]**: Added ClickUp support
+- **[DATE]**: Planned Redmine integration
+>>>>>>> .merge_file_lyS71V
 - **Servers Active**: 4 (Asana, ClickUp, Filesystem, Database)
 
 ---
 
 **Module**: UI (User Interface Components)
 **MCP Version**: 2.0.0
+<<<<<<< .merge_file_Z3DeMA
 <<<<<<< HEAD
 **Last Review**: 31 Gennaio 2026
 =======
@@ -317,3 +347,6 @@ The UI module's MCP configuration enables AI assistants to interact with:
 **Last Review**: 31 Gennaio 2026
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+**Last Review**: 31 Gennaio 2026
+>>>>>>> .merge_file_lyS71V

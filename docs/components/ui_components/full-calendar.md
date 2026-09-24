@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_uG2RFn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_yOlMta
@@ -58,6 +59,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_SLMc10
 # FullCalendar Component
 
 ## Introduction

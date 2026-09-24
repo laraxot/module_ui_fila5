@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Actions\Action;
+<<<<<<< .merge_file_bdULlL
 <<<<<<< HEAD
 <<<<<<< .merge_file_Ysa4s4
 <<<<<<< HEAD
@@ -13,17 +14,16 @@ use Filament\Actions\Action;
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
-use Filament\Tables\Columns\ColumnGroup;
 =======
->>>>>>> .merge_file_mCNWDg
+>>>>>>> .merge_file_hNVzBl
+use Filament\Tables\Columns\ColumnGroup;
 use Filament\Tables\Columns\IconColumn;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Xot\Contracts\StateContract;
-use Modules\Xot\Filament\Tables\Columns\XotBaseColumnGroup;
 use Webmozart\Assert\Assert;
 
-<<<<<<< .merge_file_Ysa4s4
 class IconStateGroupColumn extends ColumnGroup
+<<<<<<< .merge_file_bdULlL
 <<<<<<< HEAD
 =======
 =======
@@ -58,6 +58,8 @@ class IconStateGroupColumn extends XotBaseColumnGroup
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_hNVzBl
 {
     public string $stateClass = '';
 
@@ -136,6 +138,7 @@ class IconStateGroupColumn extends XotBaseColumnGroup
             $column->action(
                 Action::make($stateKey.'-action')
                     ->requiresConfirmation()
+<<<<<<< .merge_file_bdULlL
 <<<<<<< HEAD
 <<<<<<< .merge_file_Ysa4s4
 <<<<<<< HEAD
@@ -144,19 +147,18 @@ class IconStateGroupColumn extends XotBaseColumnGroup
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
-                    ->modalHeading(function (Model $record) use ($stateInstance) {
 =======
-                    ->modalHeading(static function (Model $record) use ($stateInstance) {
->>>>>>> .merge_file_mCNWDg
+>>>>>>> .merge_file_hNVzBl
+                    ->modalHeading(function (Model $record) use ($stateInstance) {
                         // StateContract provides modalHeading()
                         return $stateInstance->modalHeading();
                     })
-                    ->modalDescription(static function (Model $record) use ($stateInstance) {
+                    ->modalDescription(function (Model $record) use ($stateInstance) {
                         // StateContract provides modalDescription()
                         return $stateInstance->modalDescription();
                     })
-<<<<<<< .merge_file_Ysa4s4
                     ->schema(function (Model $record) use ($stateInstance) {
+<<<<<<< .merge_file_bdULlL
 <<<<<<< HEAD
 =======
 =======
@@ -195,10 +197,13 @@ class IconStateGroupColumn extends XotBaseColumnGroup
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_hNVzBl
                         // StateContract provides modalFormSchema()
                         return $stateInstance->modalFormSchema();
                     })
                     ->fillForm($stateInstance->modalFillFormByRecord(...))
+<<<<<<< .merge_file_bdULlL
 <<<<<<< HEAD
 <<<<<<< .merge_file_Ysa4s4
 <<<<<<< HEAD
@@ -222,6 +227,9 @@ class IconStateGroupColumn extends XotBaseColumnGroup
 >>>>>>> .merge_file_mCNWDg
 =======
 >>>>>>> 804451c (Lint)
+=======
+                    ->action(function (Model $record, array $data) use ($stateInstance): void {
+>>>>>>> .merge_file_hNVzBl
                         // Ensure data is treated as array<string, mixed> for PHPStan and StateContract
                         /** @var array<string, mixed> $typedData */
                         $typedData = $data;
@@ -230,6 +238,7 @@ class IconStateGroupColumn extends XotBaseColumnGroup
                     })
             );
 
+<<<<<<< .merge_file_bdULlL
 <<<<<<< HEAD
 <<<<<<< .merge_file_Ysa4s4
 <<<<<<< HEAD
@@ -256,6 +265,9 @@ class IconStateGroupColumn extends XotBaseColumnGroup
 >>>>>>> .merge_file_mCNWDg
 =======
 >>>>>>> 804451c (Lint)
+=======
+            $column->visible((bool) ($this->data[$visibleKey] ?? false));
+>>>>>>> .merge_file_hNVzBl
             $columns[] = $column;
         }
 

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_JoSCFO
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -7,6 +8,8 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_a9Zw4A
 ---
 module: theme
 topic: bugfix-table-layout-action-conflict
@@ -14,6 +17,7 @@ canonical: ../../../Themes/docs/shared-components/bugfix-table-layout-action-.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/bugfix-table-layout-action-.md
+<<<<<<< .merge_file_JoSCFO
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -222,3 +226,5 @@ curl -I http://127.0.0.1:8001/quaeris/admin/gaia/survey-pdfs
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_a9Zw4A

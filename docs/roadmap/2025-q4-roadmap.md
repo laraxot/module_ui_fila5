@@ -11,6 +11,7 @@
 ## Milestones
 - [ ] Audit Filament v4 changes in components/pages
 - [ ] Replace labels with translations (expanded structure)
+<<<<<<< .merge_file_T9gP07
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [ ] Optimize icons/assets; document in `docs/paths-and-assets.md`
@@ -20,6 +21,9 @@
 =======
 - [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
 >>>>>>> 804451c (Lint)
+=======
+- [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
+>>>>>>> .merge_file_VbfnNT
 - [ ] Strengthen tests for critical widgets
 
 ## Acceptance Criteria

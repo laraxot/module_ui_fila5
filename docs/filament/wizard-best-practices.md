@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_jO9XxR
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_6dJ8Ax
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_jstIP5
 # Best Practices per i Wizard in Filament
 
 ## Regola Fondamentale: Estrazione dei Metodi per gli Step
@@ -80,6 +83,7 @@ Quando si implementa un `Wizard` in Filament, **non inserire mai direttamente** 
 ```php
 // ✅ CORRETTO
 public static function getFormSchemaWidget(): array
+<<<<<<< .merge_file_jO9XxR
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_6dJ8Ax
@@ -102,6 +106,8 @@ public function getFormSchemaWidget(): array
 public function getFormSchemaWidget(): array
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_jstIP5
 {
     return [
         Forms\Components\Wizard::make([
@@ -129,6 +135,7 @@ protected static function getPersonalDataStep(): Forms\Components\Wizard\Step
 ```php
 // ❌ ERRATO
 public static function getFormSchemaWidget(): array
+<<<<<<< .merge_file_jO9XxR
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_6dJ8Ax
@@ -151,6 +158,8 @@ public function getFormSchemaWidget(): array
 public function getFormSchemaWidget(): array
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_jstIP5
 {
     return [
         Forms\Components\Wizard::make([
@@ -213,6 +222,7 @@ Ogni step di un wizard rappresenta una fase logica distinta del processo. Estrar
 class PatientResource extends XotBaseResource
 {
     public static function getFormSchemaWidget(): array
+<<<<<<< .merge_file_jO9XxR
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_6dJ8Ax
@@ -235,6 +245,8 @@ class PatientResource extends XotBaseResource
     public function getFormSchemaWidget(): array
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_jstIP5
     {
         return [
             Forms\Components\Wizard::make([
@@ -274,6 +286,7 @@ L'estrazione in metodi dedicati facilita anche la gestione di step condizionali:
 
 ```php
 public static function getFormSchemaWidget(): array
+<<<<<<< .merge_file_jO9XxR
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_6dJ8Ax
@@ -296,6 +309,8 @@ public function getFormSchemaWidget(): array
 public function getFormSchemaWidget(): array
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_jstIP5
 {
     $steps = [
         self::getPersonalDataStep(),

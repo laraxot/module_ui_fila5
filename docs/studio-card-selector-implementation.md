@@ -5,6 +5,7 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 
 ## 🏗️ **Architettura Component**
 
+<<<<<<< .merge_file_d5N5vE
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -36,6 +37,8 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_lgMoeh
 ## 🏗️ **Architettura Component**
 
 ## 🏗️ **Architettura Component**
@@ -249,6 +252,7 @@ return [
 ---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
+<<<<<<< .merge_file_d5N5vE
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_bCpari
@@ -280,11 +284,16 @@ return [
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+
+
+>>>>>>> .merge_file_lgMoeh
         ],
 
 ---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
+<<<<<<< .merge_file_d5N5vE
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_bCpari
@@ -318,6 +327,10 @@ return [
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+
+>>>>>>> .merge_file_lgMoeh
         ],
         'phone' => [
             'label' => 'Telefono',
@@ -346,6 +359,7 @@ return [
 ---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
+<<<<<<< .merge_file_d5N5vE
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_bCpari
@@ -397,10 +411,16 @@ return [
 
 
 >>>>>>> 804451c (Lint)
+=======
+
+
+
+>>>>>>> .merge_file_lgMoeh
 
 ---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
+<<<<<<< .merge_file_d5N5vE
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -416,14 +436,16 @@ return [
 **Last Updated**: January 2025
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> .merge_file_lgMoeh
 
-<<<<<<< HEAD
 
 
 ---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
 
+<<<<<<< .merge_file_d5N5vE
 <<<<<<< .merge_file_bCpari
 =======
 =======
@@ -444,6 +466,8 @@ return [
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_lgMoeh
 # StudioCardSelector Component - Modulo UI
 
 ## 🎯 **Panoramica**
@@ -451,6 +475,7 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 
 ## 🏗️ **Architettura Component**
 
+<<<<<<< .merge_file_d5N5vE
 <<<<<<< HEAD
 ### Classe PHP
 =======
@@ -498,6 +523,9 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+### Classe PHP
+>>>>>>> .merge_file_lgMoeh
 ```php
 // Modules/UI/app/Forms/Components/StudioCardSelector.php
 <?php
@@ -513,6 +541,7 @@ use Closure;
 class StudioCardSelector extends Field
 {
     protected string $view = 'ui::forms.components.studio-card-selector';
+<<<<<<< .merge_file_d5N5vE
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_bCpari
@@ -579,10 +608,13 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_lgMoeh
 
     // Dati studios da visualizzare
     protected Collection|Closure|null $studios = null;
 
+<<<<<<< .merge_file_d5N5vE
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -614,11 +646,14 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_lgMoeh
     // Personalizzazioni UI
     protected bool $showDistance = false;
     protected bool $showSpecializations = false;
     protected bool $showPhone = false;
     protected string $cardLayout = 'default'; // 'default', 'compact', 'detailed'
+<<<<<<< .merge_file_d5N5vE
 <<<<<<< HEAD
 
 =======
@@ -662,12 +697,16 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_lgMoeh
     // Configure studios data source
     public function studios(Collection|Closure $studios): static
     {
         $this->studios = $studios;
         return $this;
     }
+<<<<<<< .merge_file_d5N5vE
 <<<<<<< HEAD
 
 =======
@@ -711,12 +750,16 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_lgMoeh
     // Enable/disable features
     public function showDistance(bool $show = true): static
     {
         $this->showDistance = $show;
         return $this;
     }
+<<<<<<< .merge_file_d5N5vE
 <<<<<<< HEAD
 
 =======
@@ -760,11 +803,15 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_lgMoeh
     public function showSpecializations(bool $show = true): static
     {
         $this->showSpecializations = $show;
         return $this;
     }
+<<<<<<< .merge_file_d5N5vE
 <<<<<<< HEAD
 
 =======
@@ -808,11 +855,15 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_lgMoeh
     public function showPhone(bool $show = true): static
     {
         $this->showPhone = $show;
         return $this;
     }
+<<<<<<< .merge_file_d5N5vE
 <<<<<<< HEAD
 
 =======
@@ -856,12 +907,16 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_lgMoeh
     // Layout variants
     public function compact(): static
     {
         $this->cardLayout = 'compact';
         return $this;
     }
+<<<<<<< .merge_file_d5N5vE
 <<<<<<< HEAD
 
 =======
@@ -905,11 +960,15 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_lgMoeh
     public function detailed(): static
     {
         $this->cardLayout = 'detailed';
         return $this;
     }
+<<<<<<< .merge_file_d5N5vE
 <<<<<<< HEAD
 
 =======
@@ -953,11 +1012,15 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_lgMoeh
     // Data getters for view
     public function getStudios(): Collection
     {
         return $this->evaluate($this->studios) ?? collect();
     }
+<<<<<<< .merge_file_d5N5vE
 <<<<<<< HEAD
 
 =======
@@ -1001,10 +1064,14 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_lgMoeh
     public function getCardLayout(): string
     {
         return $this->cardLayout;
     }
+<<<<<<< .merge_file_d5N5vE
 <<<<<<< HEAD
 
 =======
@@ -1048,10 +1115,14 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_lgMoeh
     public function shouldShowDistance(): bool
     {
         return $this->showDistance;
     }
+<<<<<<< .merge_file_d5N5vE
 <<<<<<< HEAD
 
 =======
@@ -1095,10 +1166,14 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_lgMoeh
     public function shouldShowSpecializations(): bool
     {
         return $this->showSpecializations;
     }
+<<<<<<< .merge_file_d5N5vE
 <<<<<<< HEAD
 
 =======
@@ -1142,6 +1217,9 @@ class StudioCardSelector extends Field
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_lgMoeh
     public function shouldShowPhone(): bool
     {
         return $this->showPhone;
@@ -1170,6 +1248,7 @@ protected function getStudioStepSchema(): array
 private function getStudiosForLocation(Get $get): Collection
 {
     $cap = $get('cap');
+<<<<<<< .merge_file_d5N5vE
 <<<<<<< HEAD
     $province = $get('province');
     $region = $get('region');
@@ -1259,6 +1338,11 @@ private function getStudiosForLocation(Get $get): Collection
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+    $province = $get('province');
+    $region = $get('region');
+
+>>>>>>> .merge_file_lgMoeh
     if (!$cap || !$province || !$region) {
         return collect();
     }
@@ -1266,6 +1350,7 @@ private function getStudiosForLocation(Get $get): Collection
     return \Modules\<nome modulo>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
     return \Modules\<nome modulo>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
     return \Modules\<nome modulo>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
+<<<<<<< .merge_file_d5N5vE
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1297,6 +1382,8 @@ private function getStudiosForLocation(Get $get): Collection
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_lgMoeh
         $q->where('postal_code', $cap)
           ->where('administrative_area_level_3', $province)
           ->where('administrative_area_level_2', $region);
@@ -1348,6 +1435,7 @@ return [
 - [Components Overview](./components.md)
 - [Form Components Guide](./form-components.md)
 
+<<<<<<< .merge_file_d5N5vE
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_bCpari
@@ -1374,6 +1462,8 @@ return [
 >>>>>>> .merge_file_7dmUyq
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_lgMoeh
 ### Modulo Generico
 - [Widget Analysis](../<nome modulo>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
 ### Modulo Generico
@@ -1388,6 +1478,7 @@ return [
 
 
 
+<<<<<<< .merge_file_d5N5vE
 <<<<<<< HEAD
 <<<<<<< .merge_file_bCpari
 <<<<<<< HEAD
@@ -1479,3 +1570,5 @@ return [
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_lgMoeh

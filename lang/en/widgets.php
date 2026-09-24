@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_ayVy34
 <<<<<<< HEAD
 <<<<<<< .merge_file_E6zwSx
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_VnedRq
 return [
     'dark_mode_switcher' => [
         'toggle_aria_label' => 'Toggle theme',

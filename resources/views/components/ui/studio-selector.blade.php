@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_KrFUuZ
 <<<<<<< HEAD
 <<<<<<< .merge_file_hZlnvy
 <<<<<<< HEAD
@@ -48,6 +49,12 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 804451c (Lint)
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> .merge_file_eh5W4W
 ?>
 {{--
     Studio Selector Component - Selezione semplice studio con pulsanti

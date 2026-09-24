@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_u2VgXE
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SPYOFA
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_VgBbnJ
 # Visione - UI Module
 
 Creare un ecosistema UI Headless-first:

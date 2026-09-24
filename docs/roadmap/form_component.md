@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_cR62YI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_9T0YDu
@@ -240,6 +241,8 @@ class FormState
 >>>>>>> .merge_file_5IeAga
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_J7XHwL
 ---
 module: theme
 topic: form_component
@@ -247,6 +250,7 @@ canonical: ../../../../Themes/docs/shared-components/form-component.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/form-component.md
+<<<<<<< .merge_file_cR62YI
 <<<<<<< HEAD
 <<<<<<< .merge_file_9T0YDu
 <<<<<<< HEAD
@@ -495,3 +499,5 @@ class FormState
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_J7XHwL

@@ -18,6 +18,7 @@ Usa `docs/` come sorgente raw e `docs/wiki/` come livello compilato/sintetico.
 - `docs/wiki/log.md` log append-only
 
 QMD: [https://github.com/tobi/qmd](https://github.com/tobi/qmd)
+<<<<<<< .merge_file_5aZKzK
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kKsjmX
@@ -78,3 +79,5 @@ Core module for the FixCity Platform.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_8EGTGB

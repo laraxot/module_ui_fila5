@@ -77,6 +77,7 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 - ✅ `phpstan-fixes.md` → Mantenere
 - ✅ `phpstan-fixes-summary.md` → Mantenere
 
+<<<<<<< .merge_file_QGpQP2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SSrxkw
@@ -102,6 +103,9 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+**Nota**: File con date nei nomi (`phpstan-level-10-cleanup-[DATE].md`, `dry-kiss-analysis-[DATE].md`) dovrebbero essere spostati in `archive/` o consolidati.
+>>>>>>> .merge_file_W2oRLe
 
 ### 7. VSCode Documentation
 - ❌ `vscode_filament_extension.md` → Eliminare
@@ -144,6 +148,7 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 
 ## File con Date nei Nomi (da Spostare in Archive)
 
+<<<<<<< .merge_file_QGpQP2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SSrxkw
@@ -175,10 +180,15 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+1. `dry-kiss-analysis-[DATE].md` → `archive/dry-kiss-analysis.md`
+2. `phpstan-level-10-cleanup-[DATE].md` → `archive/phpstan-level-10-cleanup.md`
+>>>>>>> .merge_file_W2oRLe
 3. `phpstan-fixes-gennaio-2025.md` → Consolidare in `phpstan-compliance.md`
 
 ## File con Maiuscole (da Rinominare)
 
+<<<<<<< .merge_file_QGpQP2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SSrxkw
@@ -204,6 +214,9 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+1. `METODI_DUPLICATI_ANALISI.md` → `metodi-duplicati-analisi.md` (già esiste `metodi-duplicati-analisi.md`)
+>>>>>>> .merge_file_W2oRLe
 
 ## Processo di Consolidamento
 
@@ -258,6 +271,7 @@ Per ogni coppia di file duplicati:
 
 ---
 
+<<<<<<< .merge_file_QGpQP2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SSrxkw
@@ -283,5 +297,8 @@ Per ogni coppia di file duplicati:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+**Data creazione**: [DATE]
+>>>>>>> .merge_file_W2oRLe
 **Status**: Piano da implementare
 **Priorità**: Alta

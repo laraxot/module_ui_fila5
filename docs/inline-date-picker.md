@@ -39,6 +39,7 @@ InlineDatePicker::make('appointment_date')
 Specify which dates should be selectable. Other dates will be disabled.
 
 ```php
+<<<<<<< .merge_file_LYpJd8
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_afoqlP
@@ -64,6 +65,9 @@ Specify which dates should be selectable. Other dates will be disabled.
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+->enabledDates(['[DATE]', '[DATE]', '[DATE]'])
+>>>>>>> .merge_file_0Aic6Q
 
 // Or using a closure
 ->enabledDates(fn () => \App\Models\Appointment::pluck('date')->toArray())
@@ -206,6 +210,7 @@ When writing tests for forms that use the InlineDatePicker, you can interact wit
 ```php
 // Select a date
 Livewire::test(YourForm::class)
+<<<<<<< .merge_file_LYpJd8
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_afoqlP
@@ -237,6 +242,10 @@ Livewire::test(YourForm::class)
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+    ->set('appointment_date', '[DATE]')
+    ->assertSet('appointment_date', '[DATE]');
+>>>>>>> .merge_file_0Aic6Q
 
 // Test validation
 Livewire::test(YourForm::class)
@@ -260,11 +269,11 @@ If the component doesn't look right, make sure you have the required Tailwind CS
 
 ## Contributing
 
-<<<<<<< HEAD
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## ♻️ Manutenzione
 
+<<<<<<< .merge_file_LYpJd8
 =======
 <<<<<<< HEAD
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -311,11 +320,14 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0Aic6Q
 - Rafforzata la tipizzazione delle settimane generate (`array<int, array<int, array<string, mixed>>>`).
 - Annotazioni esplicite sui container `$weeks` e `$week` per coerenza PHPStan L10.
 - Chiusure di dehydratazione rese statiche con gestione esplicita del parametro inutilizzato.
 - Verifiche qualità: PHPStan L10 ✅, PHPMD ✅, PHPInsights ✅ (avvisi legacy su proprietà pubbliche già tracciati).
 # InlineDatePicker Component
+<<<<<<< .merge_file_LYpJd8
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_afoqlP
@@ -333,11 +345,14 @@ A customizable inline date picker component for Filament forms with month naviga
 >>>>>>> .merge_file_gdc5in
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0Aic6Q
 
 A customizable inline date picker component for Filament forms with month navigation and enabled/disabled date support.
 
 ## Features
 
+<<<<<<< .merge_file_LYpJd8
 <<<<<<< HEAD
 <<<<<<< .merge_file_afoqlP
 <<<<<<< HEAD
@@ -355,6 +370,8 @@ A customizable inline date picker component for Filament forms with month naviga
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0Aic6Q
 - **Month Navigation**: Navigate between months with previous/next buttons
 - **Enabled/Disabled Dates**: Specify which dates are selectable
 - **Localization**: Built-in support for multiple languages
@@ -362,6 +379,7 @@ A customizable inline date picker component for Filament forms with month naviga
 - **Customizable Styling**: Easily customize the appearance
 - **Week Numbers**: Optional week number display
 - **First Day of Week**: Configure which day starts the week
+<<<<<<< .merge_file_LYpJd8
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_afoqlP
@@ -380,6 +398,8 @@ use Modules\UI\Filament\Components\InlineDatePicker;
 >>>>>>> .merge_file_gdc5in
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0Aic6Q
 
 ## Installation
 
@@ -390,6 +410,7 @@ This component is part of the UI module and is available out of the box.
 ```php
 use Modules\UI\Filament\Components\InlineDatePicker;
 
+<<<<<<< .merge_file_LYpJd8
 <<<<<<< HEAD
 <<<<<<< .merge_file_afoqlP
 <<<<<<< HEAD
@@ -414,6 +435,8 @@ use Modules\UI\Filament\Components\InlineDatePicker;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0Aic6Q
 InlineDatePicker::make('appointment_date')
     ->label('Select Appointment Date')
     ->enabledDates(fn () => [
@@ -424,6 +447,7 @@ InlineDatePicker::make('appointment_date')
     ->default(now()->addDay()->format('Y-m-d'))
     ->required();
 ```
+<<<<<<< .merge_file_LYpJd8
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_afoqlP
@@ -454,6 +478,8 @@ The component uses Tailwind CSS classes for styling. You can customize the appea
 >>>>>>> .merge_file_gdc5in
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0Aic6Q
 
 ## Available Methods
 
@@ -496,6 +522,7 @@ Show or hide week numbers.
 
 The component uses Tailwind CSS classes for styling. You can customize the appearance by overriding the following CSS classes in your application's stylesheet:
 
+<<<<<<< .merge_file_LYpJd8
 <<<<<<< HEAD
 <<<<<<< .merge_file_afoqlP
 <<<<<<< HEAD
@@ -532,11 +559,14 @@ The component uses Tailwind CSS classes for styling. You can customize the appea
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0Aic6Q
 ```css
 /* Container */
 .inline-date-picker {
     @apply bg-white rounded-lg shadow p-4 w-full max-w-md;
 }
+<<<<<<< .merge_file_LYpJd8
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_afoqlP
@@ -578,6 +608,8 @@ The component includes the following accessibility features:
 >>>>>>> .merge_file_gdc5in
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0Aic6Q
 
 /* Navigation */
 .inline-date-picker-nav {
@@ -629,6 +661,7 @@ The component emits the following Livewire events:
 
 The component includes the following accessibility features:
 
+<<<<<<< .merge_file_LYpJd8
 <<<<<<< HEAD
 <<<<<<< .merge_file_afoqlP
 <<<<<<< HEAD
@@ -676,10 +709,13 @@ The component includes the following accessibility features:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0Aic6Q
 - ARIA labels for all interactive elements
 - Keyboard navigation
 - High contrast mode support
 - Screen reader announcements
+<<<<<<< .merge_file_LYpJd8
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_afoqlP
@@ -698,6 +734,8 @@ use Carbon\Carbon;
 >>>>>>> .merge_file_gdc5in
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0Aic6Q
 
 ## Examples
 
@@ -717,6 +755,7 @@ InlineDatePicker::make('appointment_date')
 use Carbon\Carbon;
 use Modules\UI\Filament\Components\InlineDatePicker;
 
+<<<<<<< .merge_file_LYpJd8
 <<<<<<< HEAD
 <<<<<<< .merge_file_afoqlP
 <<<<<<< HEAD
@@ -741,10 +780,13 @@ use Carbon\Carbon;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0Aic6Q
 $enabledDates = collect()
     ->range(1, 10)
     ->map(fn ($day) => Carbon::now()->addDays($day)->format('Y-m-d'))
     ->toArray();
+<<<<<<< .merge_file_LYpJd8
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_afoqlP
@@ -783,6 +825,8 @@ If the component doesn't look right, make sure you have the required Tailwind CS
 >>>>>>> .merge_file_gdc5in
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0Aic6Q
 
 InlineDatePicker::make('appointment_date')
     ->label('Select an available date')
@@ -835,6 +879,7 @@ If the component doesn't look right, make sure you have the required Tailwind CS
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+<<<<<<< .merge_file_LYpJd8
 <<<<<<< HEAD
 <<<<<<< .merge_file_afoqlP
 <<<<<<< HEAD
@@ -897,3 +942,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0Aic6Q

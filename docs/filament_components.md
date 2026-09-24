@@ -66,6 +66,7 @@
 * [filament-components.md](../../Cms/project_docs/filament-components.md)
 * [filament-components.md](../../../project_docs/rules/filament-components.md)
 
+<<<<<<< .merge_file_mi8ePc
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -76,3 +77,7 @@
 ||||||| parent of 9a84589 (.):docs/archived/filament-components-1.md
 * [filament-components.md](../../../docs/rules/filament-components.md)
 >>>>>>> 804451c (Lint)
+=======
+||||||| parent of 9a84589 (.):docs/archived/filament-components-1.md
+* [filament-components.md](../../../docs/rules/filament-components.md)
+>>>>>>> .merge_file_2CAmCO

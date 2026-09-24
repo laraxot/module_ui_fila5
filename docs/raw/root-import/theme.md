@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_2mDEXS
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KJVZBQ
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_iXOcvv
 https://dev.to/themesberg/how-to-build-a-blog-template-with-tailwind-css-and-flowbite-5e4n
 
 

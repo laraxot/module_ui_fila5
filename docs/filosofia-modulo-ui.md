@@ -1,5 +1,6 @@
 # Analisi Approfondita del Modulo UI
 
+<<<<<<< .merge_file_TRNxit
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Wz8tm1
@@ -25,6 +26,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+> **Generato**: [DATE]
+>>>>>>> .merge_file_NTDwsi
 > **Scopo**: Documentare la filosofia, logica, business logic e architettura del modulo UI
 
 ---
@@ -105,6 +109,7 @@ Questo è intenzionale: UI è un **consumer** di Xot, non un base layer.
 Ogni componente è progettato per essere riutilizzato in più moduli senza duplicazione:
 
 ```php
+<<<<<<< .merge_file_TRNxit
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Wz8tm1
@@ -166,6 +171,10 @@ Ogni componente è progettato per essere riutilizzato in più moduli senza dupli
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+// InlineDatePicker - Usato in TechPlanner, Employee, Cms
+// LocationSelector - Usato in TechPlanner, Employee, Geo
+>>>>>>> .merge_file_NTDwsi
 // IconStateColumn - Usato in tutti i moduli con Spatie ModelStates
 // RadioCollection - Usato per selezioni complesse multimodulo
 ```
@@ -476,6 +485,7 @@ namespace Modules\UI\...;
 Altri moduli consumano componenti UI:
 
 ```php
+<<<<<<< .merge_file_TRNxit
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Wz8tm1
@@ -528,6 +538,9 @@ Altri moduli consumano componenti UI:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+// In TechPlanner/Filament/Resources/DeviceResource.php
+>>>>>>> .merge_file_NTDwsi
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 use Modules\UI\Filament\Tables\Columns\IconStateColumn;
 
@@ -801,6 +814,7 @@ Laravel risolve automaticamente override temi con view namespace precedence.
 **Modulo**: UI
 **Versione**: 4.1.0
 **Framework**: Laravel 12 + Filament 4
+<<<<<<< .merge_file_TRNxit
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Wz8tm1
@@ -823,6 +837,8 @@ Laravel risolve automaticamente override temi con view namespace precedence.
 **Framework**: Laravel 13 + Filament 4
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_NTDwsi
 **PHPStan**: Level 10 ✅
 **Filosofia**: Estendere, Riutilizzare, Tradurre, Adattare
 **Zen**: I componenti si scoprono da soli 禅

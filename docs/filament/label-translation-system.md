@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_60hUay
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_9F4QIP
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_94eUGi
 # Sistema di Traduzione Automatica delle Etichette (Label) in Filament
 
 ## Regola Fondamentale

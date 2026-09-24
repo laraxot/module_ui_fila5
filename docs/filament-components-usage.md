@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_Ka1j3t
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VqyrF1
@@ -20,11 +21,15 @@
 =======
 # Utilizzo dei Componenti Filament 
 >>>>>>> 804451c (Lint)
+=======
+# Utilizzo dei Componenti Filament 
+>>>>>>> .merge_file_eenkJs
 
 ## Collegamenti correlati
 - [README modulo UI](/laravel/modules/ui/docs/readme.md)
 - [Architettura Modulare](/docs/architettura-modulare.md)
 - [Percorsi e Asset](/laravel/modules/ui/docs/paths_and_assets.md)
+<<<<<<< .merge_file_Ka1j3t
 <<<<<<< HEAD
 <<<<<<< .merge_file_VqyrF1
 <<<<<<< HEAD
@@ -74,6 +79,8 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_eenkJs
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
 
 ## Panoramica
@@ -201,6 +208,7 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
             Apri Menu
         </x-filament::button>
     </x-slot>
+<<<<<<< .merge_file_Ka1j3t
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -234,11 +242,14 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_eenkJs
     
     <x-filament::dropdown.item wire:click="action">
         Azione 1
     </x-filament::dropdown.item>
     
+<<<<<<< .merge_file_Ka1j3t
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VqyrF1
@@ -299,6 +310,8 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_eenkJs
     <x-filament::dropdown.item href="#">
         Azione 2
     </x-filament::dropdown.item>
@@ -317,6 +330,7 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 ## Errori Comuni
 
 1. **Utilizzo del prefisso errato**: Utilizzare `x-ui-icon` invece di `x-filament::icon`
+<<<<<<< .merge_file_Ka1j3t
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_VqyrF1
@@ -379,6 +393,9 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+2. **Percorso errato del provider**: Utilizzare `/var/www/html/Quaeris/laravel/Modules/UI/Providers/UIServiceProvider.php` invece di `/var/www/html/Quaeris/laravel/Modules/UI/app/Providers/UIServiceProvider.php`
+>>>>>>> .merge_file_eenkJs
 3. **Creazione di componenti duplicati**: Creare componenti personalizzati che duplicano funzionalità già fornite da Filament
 4. **Mancata verifica dei componenti esistenti**: Non controllare se un componente è già disponibile in Filament prima di crearne uno personalizzato
 
@@ -387,6 +404,7 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 - [Documentazione Filament](https://filamentphp.com/docs/3.x/support/blade-components/overview)
 - [Heroicons](https://heroicons.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
+<<<<<<< .merge_file_Ka1j3t
 <<<<<<< HEAD
 - [Laravel Blade](https://laravel.com/docs/10.x/blade)
 =======
@@ -552,3 +570,6 @@ Filament fornisce un componente `x-filament::dropdown` che può essere utilizzat
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+- [Laravel Blade](https://laravel.com/docs/10.x/blade)
+>>>>>>> .merge_file_eenkJs

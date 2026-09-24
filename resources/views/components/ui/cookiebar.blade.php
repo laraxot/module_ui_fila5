@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_QqTWX1
 <<<<<<< HEAD
 <?php
 
@@ -5,6 +6,8 @@ declare(strict_types=1);
 ?>
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_00ux3X
 @props([
     'showCookieBar' => true,
     'policyUrl' => '#',

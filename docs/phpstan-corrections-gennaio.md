@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_ZgsNrW
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -5,6 +6,8 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_Twyzkv
 ---
 module: theme
 topic: phpstan-corrections-gennaio
@@ -12,6 +15,7 @@ canonical: ../../../Themes/docs/shared-components/phpstan-corrections-.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan-corrections-.md
+<<<<<<< .merge_file_ZgsNrW
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -262,3 +266,5 @@ class ViewLocation extends XotBaseViewRecord
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_Twyzkv

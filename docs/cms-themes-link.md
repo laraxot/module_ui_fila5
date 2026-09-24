@@ -11,6 +11,7 @@ Secondo le regole di organizzazione della documentazione:
 
 ## Collegamenti ai Temi nel Modulo Cms
 
+<<<<<<< .merge_file_2fkK3j
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_gV6Lxs
@@ -28,10 +29,13 @@ Secondo le regole di organizzazione della documentazione:
 >>>>>>> .merge_file_hPhW7m
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_TNha9P
 - [Compilazione dei Temi](../../cms/docs/theme_compilation.md) - Processo di compilazione e pubblicazione dei temi
 - [Processo di Build del Tema](../../cms/docs/theme-build-process.md) - Dettagli sul processo di build
 - [Struttura dei Temi](../../cms/docs/themes/structure.md) - Organizzazione dei file nei temi
 - [Frontoffice](../../cms/docs/frontoffice.md) - Documentazione completa sul frontend
+<<<<<<< .merge_file_2fkK3j
 <<<<<<< HEAD
 <<<<<<< .merge_file_gV6Lxs
 <<<<<<< HEAD
@@ -55,6 +59,8 @@ Secondo le regole di organizzazione della documentazione:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_TNha9P
 
 ## Implementazione dei Temi
 
@@ -66,9 +72,9 @@ I componenti UI definiti in questo modulo vengono utilizzati nei temi attraverso
 
 ## Collegamenti ai Temi nella Root
 
-<<<<<<< HEAD
 - [Compilazione Temi](../../../../docs/compilazione_temi.md) - Collegamento nella root alla documentazione sulla compilazione dei temi
 - [Theme Links](../../../../docs/theme-links.md) - Collegamenti nella root alla documentazione sui temi
+<<<<<<< .merge_file_2fkK3j
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -88,6 +94,11 @@ Questo documento è collegato bidirezionalmente con [themes-ui-link.md](../../Cm
 ## Collegamento Bidirezionale
 
 >>>>>>> 804451c (Lint)
+=======
+
+## Collegamento Bidirezionale
+
+>>>>>>> .merge_file_TNha9P
 Questo documento è collegato bidirezionalmente con [themes-ui-link.md](../../cms/docs/themes-ui-link.md) nel modulo Cms.
 
 > Aggiorna entrambi i riferimenti se modifichi la documentazione dei temi o aggiungi nuove sezioni.
@@ -97,6 +108,7 @@ Questo documento fornisce collegamenti bidirezionali tra il modulo UI e il modul
 
 ## Documentazione dei Temi
 
+<<<<<<< .merge_file_2fkK3j
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -174,10 +186,13 @@ Questo documento fornisce collegamenti bidirezionali tra il modulo UI e il modul
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_TNha9P
 Secondo le regole di organizzazione della documentazione:
 - La documentazione dei componenti UI va nel modulo UI
 - La documentazione del frontend va nel modulo Cms
 - La documentazione dei temi è distribuita tra entrambi i moduli
+<<<<<<< .merge_file_2fkK3j
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -187,6 +202,8 @@ Secondo le regole di organizzazione della documentazione:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_TNha9P
 
 ## Collegamenti ai Temi nel Modulo Cms
 
@@ -211,6 +228,7 @@ I componenti UI definiti in questo modulo vengono utilizzati nei temi attraverso
 ## Collegamento Bidirezionale
 
 Questo documento è collegato bidirezionalmente con [themes-ui-link.md](../../cms/project_docs/themes-ui-link.md) nel modulo Cms.
+<<<<<<< .merge_file_2fkK3j
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 
@@ -266,3 +284,7 @@ Questo documento è collegato bidirezionalmente con [themes-ui-link.md](../../Cm
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+> Aggiorna entrambi i riferimenti se modifichi la documentazione dei temi o aggiungi nuove sezioni.
+>>>>>>> .merge_file_TNha9P

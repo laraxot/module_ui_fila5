@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_9AQEmW
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ue7IAj
@@ -156,6 +157,8 @@ Related:
 >>>>>>> .merge_file_TgaoYF
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_fFYn2Z
 ---
 title: "Agent instructions"
 type: reference
@@ -168,6 +171,7 @@ discussions: []
 related:
   - ./coding-agent-manifests.md
 ---
+<<<<<<< .merge_file_9AQEmW
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 
@@ -363,6 +367,9 @@ Related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_fFYn2Z
 # UI {{TYPE^}} LLM Wiki Agent Instructions
 
 > **Module/Theme:** UI
@@ -501,6 +508,7 @@ Related:
 ## Related Documentation
 
 - [Project Wiki Integration](../../docs/wiki/README.md)
+<<<<<<< .merge_file_9AQEmW
 <<<<<<< HEAD
 - [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
 - [Module Documentation](../README.md)
@@ -548,3 +556,7 @@ Related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+- [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
+- [Module Documentation](../README.md)
+>>>>>>> .merge_file_fFYn2Z

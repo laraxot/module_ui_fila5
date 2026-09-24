@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_6xjFz7
 <<<<<<< HEAD
 <<<<<<< .merge_file_mN4Tc3
 <<<<<<< HEAD
@@ -51,6 +52,9 @@ return [
 >>>>>>> .merge_file_VINoGM
 =======
 >>>>>>> 804451c (Lint)
+=======
+return [
+>>>>>>> .merge_file_BoczOQ
     'page' => [
         'title' => 'Test S3 e CloudFront',
         'heading' => 'Test Configurazione AWS',
@@ -87,6 +91,7 @@ return [
         ],
         'testPermissions' => [
             'label' => '🔒 Test Permessi',
+<<<<<<< .merge_file_6xjFz7
 <<<<<<< HEAD
 <<<<<<< .merge_file_mN4Tc3
 <<<<<<< HEAD
@@ -110,6 +115,9 @@ return [
 >>>>>>> .merge_file_VINoGM
 =======
 >>>>>>> 804451c (Lint)
+=======
+            'tooltip' => 'Testa i permessi S3 (ListBucket, PutObject, GetObject, DeleteObject]',
+>>>>>>> .merge_file_BoczOQ
             'success' => 'Permessi S3 testati con successo',
             'error' => 'Errore nel test dei permessi S3',
         ],
@@ -200,6 +208,7 @@ return [
         ],
         'label' => 'S3test',
         'sort' => 1,
+<<<<<<< .merge_file_6xjFz7
 <<<<<<< HEAD
 <<<<<<< .merge_file_mN4Tc3
 <<<<<<< HEAD
@@ -223,5 +232,8 @@ return [
 >>>>>>> .merge_file_VINoGM
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_BoczOQ
     ],
 ];

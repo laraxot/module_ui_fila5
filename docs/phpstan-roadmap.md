@@ -1,7 +1,7 @@
 # PHPStan Roadmap - UI Module
 
-<<<<<<< HEAD
 > **Date**: [DATE]
+<<<<<<< .merge_file_sYcccv
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14,6 +14,8 @@
 > **Date**: 2026-01-14
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ZXV0Jb
 > **Status**: ✅ Fully Compliant (Level 10)
 > **Errors**: 0
 

@@ -15,6 +15,7 @@ use PHPUnit\Framework\Assert;
 use function Safe\file_get_contents;
 
 uses(TestCase::class);
+<<<<<<< .merge_file_vccB6N
 <<<<<<< HEAD
 <<<<<<< .merge_file_Jzc5Mw
 <<<<<<< HEAD
@@ -47,6 +48,8 @@ uses(TestCase::class);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_sRiHWF
 
 test('it can be instantiated', function (): void {
     $component = InlineDatePicker::make('test');
@@ -92,8 +95,8 @@ test('it generates calendar data and marks enabled dates', function (): void {
                 continue;
             }
             $dateValue = $day['datetime'] ?? $day['dateString'] ?? null;
-<<<<<<< HEAD
             if ('2025-06-15' === $dateValue) {
+<<<<<<< .merge_file_vccB6N
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109,6 +112,8 @@ test('it generates calendar data and marks enabled dates', function (): void {
             if ($dateValue === '2025-06-15') {
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_sRiHWF
                 $found = true;
                 Assert::assertTrue((bool) ($day['isEnabled'] ?? false));
             }
@@ -136,6 +141,7 @@ test('it handles empty enabled dates', function (): void {
 
 test('it throws on invalid enabled dates input', function (): void {
     $component = InlineDatePicker::make('test')->enabledDates(['invalid-date']);
+<<<<<<< .merge_file_vccB6N
 <<<<<<< HEAD
 <<<<<<< .merge_file_Jzc5Mw
 <<<<<<< HEAD
@@ -156,6 +162,9 @@ test('it throws on invalid enabled dates input', function (): void {
 >>>>>>> .merge_file_tUiCag
 =======
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_sRiHWF
     try {
         $dates = $component->getEnabledDates()->toArray();
         Assert::assertIsArray($dates);
@@ -236,6 +245,7 @@ test('it is kiss simple and clear', function (): void {
 });
 
 /**
+<<<<<<< .merge_file_vccB6N
 <<<<<<< HEAD
  * @param array<int, mixed> $parameters
 =======
@@ -253,6 +263,9 @@ test('it is kiss simple and clear', function (): void {
  * @param  array<int, mixed>  $parameters
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+ * @param array<int, mixed> $parameters
+>>>>>>> .merge_file_sRiHWF
  */
 function invokeInlineDatePickerMethod(object $object, string $methodName, array $parameters = []): mixed
 {

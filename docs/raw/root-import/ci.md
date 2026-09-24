@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_FMK3Yk
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_iWEWbQ
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_YrJYli
 ---------------------------------------------------------------------------------------------------
 Automatic Code formatting for Apps with Laravel Code Style
 https://codebrisk.com/blog/automatic-code-formatting-for-apps-with-laravel-code-style

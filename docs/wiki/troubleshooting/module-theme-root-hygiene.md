@@ -1,4 +1,5 @@
 ---
+<<<<<<< .merge_file_cIWCTR
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_5MLC9a
@@ -24,6 +25,9 @@ title: "Root modulo/tema — zero .txt, max 4 .md"
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+title: "Root modulo/tema — zero .txt, max 4 .md"
+>>>>>>> .merge_file_PuDcC4
 type: rule
 module: UI
 tags: [hygiene, modules, themes, txt, markdown]
@@ -31,6 +35,7 @@ created: 2026-07-08
 updated: 2026-07-08
 qmd: "module theme root txt md hygiene audit fix"
 related:
+<<<<<<< .merge_file_cIWCTR
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_5MLC9a
@@ -96,6 +101,10 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+  - ../../../../../../docs/wiki/rules/module-theme-root-no-txt-files.md
+  - ../../../../../../docs/wiki/rules/module-theme-root-md-files-limit.md
+>>>>>>> .merge_file_PuDcC4
 ---
 
 # Root modulo/tema — igiene
@@ -105,6 +114,7 @@ related:
 | Root `Modules/*` e `Themes/*` | Consentito |
 |---------------------------------|------------|
 | `*.txt` | **0** |
+<<<<<<< .merge_file_cIWCTR
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_5MLC9a
@@ -130,6 +140,9 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+| `*.md` | **max 4**: `README.md`, `CHANGELOG.md`, `LICENSE.md`, `AGENTS.md` |
+>>>>>>> .merge_file_PuDcC4
 | Cartelle | solo **lowercase** (`app`, `config`, `docs`, …) |
 
 ## Perché

@@ -1,6 +1,7 @@
 # 🗺️ GUIDA INTEGRAZIONE MAPPA INTERATTIVA
 
 **Modulo**: UI (User Interface)
+<<<<<<< .merge_file_jw8NmD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Myq0EY
@@ -23,6 +24,8 @@
 **Data**: 2025-01-27
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_Bd082V
 **Versione**: 1.0
 **Stato**: 🚧 IN SVILUPPO
 
@@ -30,8 +33,8 @@
 
 ## 🎯 PANORAMICA
 
-<<<<<<< HEAD
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
+<<<<<<< .merge_file_jw8NmD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Myq0EY
 =======
@@ -86,6 +89,8 @@ Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modu
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Bd082V
 
 ---
 
@@ -120,6 +125,7 @@ Modules/UI/
 │   │   │   ├── map-markers.js
 │   │   │   └── map-popup.js
 │   │   └── components/
+<<<<<<< .merge_file_jw8NmD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Myq0EY
@@ -145,6 +151,9 @@ Modules/UI/
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+│   │       ├── location-picker-lit.js
+>>>>>>> .merge_file_Bd082V
 │   │       └── address-autocomplete.js
 │   ├── css/
 │   │   ├── map/
@@ -529,6 +538,7 @@ class MapService
                     'description' => $ticket->description,
                     'status' => $ticket->status->slug,
                     'priority' => $ticket->priority->slug,
+<<<<<<< .merge_file_jw8NmD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Myq0EY
@@ -585,6 +595,9 @@ class MapService
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+                    'url' => route('fixcity.tickets.show', $ticket)
+>>>>>>> .merge_file_Bd082V
                 ];
             })
             ->toArray();
@@ -664,6 +677,7 @@ class GeocodingService
             />
         </div>
         <div class="col-md-4">
+<<<<<<< .merge_file_jw8NmD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Myq0EY
@@ -720,6 +734,9 @@ class GeocodingService
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+            <livewire:fixcity::components.ticket-stats />
+>>>>>>> .merge_file_Bd082V
         </div>
     </div>
 </div>
@@ -773,11 +790,8 @@ class GeocodingService
 - [ ] GeocodingService implementation
 
 ### 📅 Fase 3: Integrazione (Settimana 3)
-<<<<<<< HEAD
 - [ ] Integrazione con modulo Fixcity
-=======
-<<<<<<< HEAD
-- [ ] Integrazione con modulo Fixcity
+<<<<<<< .merge_file_jw8NmD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Myq0EY
@@ -823,6 +837,8 @@ class GeocodingService
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Bd082V
 - [ ] Integrazione con modulo User
 - [ ] API endpoints per mappa
 - [ ] Testing componenti
@@ -844,6 +860,7 @@ class GeocodingService
 - [Livewire Components](https://laravel-livewire.com/docs/2.x/quickstart)
 
 ### 📖 Documentazione Correlata
+<<<<<<< .merge_file_jw8NmD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Myq0EY
@@ -869,12 +886,16 @@ class GeocodingService
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [Farmshops.eu Analysis](../geo/docs/farmshops-analysis.md)
+>>>>>>> .merge_file_Bd082V
 - [Geo Module Documentation](../Geo/docs/)
 - [UI Component API](component-api.md)
 - [Styling Guide](styling-guide.md)
 
 ---
 
+<<<<<<< .merge_file_jw8NmD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Myq0EY
@@ -903,6 +924,9 @@ class GeocodingService
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_Bd082V
 **Status**: 🚧 IN SVILUPPO
 **Confidence Level**: 90%
 

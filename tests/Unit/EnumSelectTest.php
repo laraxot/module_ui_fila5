@@ -5,12 +5,15 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit;
 
 use Modules\UI\Filament\Forms\Components\EnumSelect;
+<<<<<<< .merge_file_BC7BUd
 <<<<<<< HEAD
 use Modules\UI\Tests\TestCase;
+=======
+>>>>>>> .merge_file_reQZQX
 use PHPUnit\Framework\Assert;
 
-<<<<<<< .merge_file_08hZMq
 uses(\Modules\UI\Tests\TestCase::class);
+<<<<<<< .merge_file_BC7BUd
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -44,6 +47,8 @@ uses(TestCase::class);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_reQZQX
 
 it('generates options from enum class', function (): void {
     $select = EnumSelect::make('enum');

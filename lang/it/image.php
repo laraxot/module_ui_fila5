@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_jLFB5O
 <<<<<<< HEAD
 <<<<<<< .merge_file_IRHPI3
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_PNobcz
 return [
     'fields' => [
         'caption' => ['label' => 'caption', 'description' => 'caption', 'helper_text' => 'caption', 'placeholder' => 'caption', 'tooltip' => ''],
@@ -46,6 +49,7 @@ return [
         'group' => ['name' => 'General', 'description' => 'General Settings'],
         'label' => 'Image',
         'sort' => 1,
+<<<<<<< .merge_file_jLFB5O
 <<<<<<< HEAD
 <<<<<<< .merge_file_IRHPI3
 <<<<<<< HEAD
@@ -69,6 +73,9 @@ return [
 >>>>>>> .merge_file_6ddIo7
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_PNobcz
     ],
     'actions' => [
         'create' => ['label' => 'Crea Image'],

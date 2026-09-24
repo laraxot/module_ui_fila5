@@ -84,8 +84,8 @@ public static function form(Form $form): Form
         TextInput::make('title')
             ->required()
             ->maxLength(255),
-<<<<<<< HEAD
 
+<<<<<<< .merge_file_W9PCP1
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -98,6 +98,8 @@ public static function form(Form $form): Form
             
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_IekGmu
         // Digitare 'fil-select' e premere Tab
         Select::make('status')
             ->options([
@@ -105,6 +107,7 @@ public static function form(Form $form): Form
                 'published' => 'Published',
             ])
             ->required(),
+<<<<<<< .merge_file_W9PCP1
 <<<<<<< HEAD
 
 =======
@@ -119,6 +122,9 @@ public static function form(Form $form): Form
             
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_IekGmu
         // Digitare 'fil-rich' e premere Tab
         RichEditor::make('content')
             ->required()
@@ -139,8 +145,8 @@ public static function table(Table $table): Table
             TextColumn::make('title')
                 ->searchable()
                 ->sortable(),
-<<<<<<< HEAD
 
+<<<<<<< .merge_file_W9PCP1
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -153,6 +159,8 @@ public static function table(Table $table): Table
                 
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_IekGmu
             // Digitare 'fil-col' e premere Tab
             IconColumn::make('status')
                 ->boolean(),
@@ -192,6 +200,7 @@ Forms\Components\Wizard::make([
                     // Digitare 'fil-text' e premere Tab
                     Forms\Components\TextInput::make('first_name')
                         ->required(),
+<<<<<<< .merge_file_W9PCP1
 <<<<<<< HEAD
 
 =======
@@ -206,6 +215,9 @@ Forms\Components\Wizard::make([
                         
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_IekGmu
                     Forms\Components\TextInput::make('last_name')
                         ->required(),
                 ]),

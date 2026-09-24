@@ -67,6 +67,7 @@ protected function getInfolistSchema(): array
                             ,
                     ]),
             ]),
+<<<<<<< .merge_file_9fDLjZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_93b4qz
@@ -121,6 +122,9 @@ protected function getInfolistSchema(): array
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_y8qP58
         'dettagli_account' => Section::make('Dettagli Account')
             ->schema([
                 // Altri componenti...
@@ -252,6 +256,7 @@ return [
 
 ## Conclusione
 
+<<<<<<< .merge_file_9fDLjZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -272,6 +277,10 @@ L'unico approccio corretto per implementare `getInfolistSchema()` è utilizzare 
 Seguendo queste linee guida, garantirai un'implementazione corretta e coerente del metodo `getInfolistSchema()`, facilitando la manutenzione del codice e prevenendo errori di tipo rilevati da PHPStan. Ricorda: usa **sempre** chiavi di tipo stringa per gli array restituiti.
 # Linee Guida per l'Implementazione di getInfolistSchema
 >>>>>>> 804451c (Lint)
+=======
+Seguendo queste linee guida, garantirai un'implementazione corretta e coerente del metodo `getInfolistSchema()`, facilitando la manutenzione del codice e prevenendo errori di tipo rilevati da PHPStan. Ricorda: usa **sempre** chiavi di tipo stringa per gli array restituiti.
+# Linee Guida per l'Implementazione di getInfolistSchema
+>>>>>>> .merge_file_y8qP58
 
 ## Requisiti Fondamentali
 
@@ -283,6 +292,7 @@ La funzione `getInfolistSchema()` deve **sempre** restituire un array con chiavi
 
 L'unico approccio corretto per implementare `getInfolistSchema()` è utilizzare array associativi con chiavi di tipo stringa:
 
+<<<<<<< .merge_file_9fDLjZ
 <<<<<<< HEAD
 <<<<<<< .merge_file_93b4qz
 <<<<<<< HEAD
@@ -326,6 +336,8 @@ L'unico approccio corretto per implementare `getInfolistSchema()` è utilizzare 
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_y8qP58
 ```php
 /**
  * Restituisce lo schema dell'infolist per la visualizzazione dei dettagli del record.
@@ -342,6 +354,7 @@ protected function getInfolistSchema(): array
     ];
 }
 ```
+<<<<<<< .merge_file_9fDLjZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_93b4qz
@@ -359,6 +372,8 @@ Per PHPStan livello 9 e superiore, è fondamentale documentare correttamente il 
 >>>>>>> .merge_file_J6rhlR
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8qP58
 
 ### Documentazione PHPDoc Corretta
 
@@ -386,6 +401,7 @@ protected function getInfolistSchema(): array
 protected function getInfolistSchema(): array
 {
     return [
+<<<<<<< .merge_file_9fDLjZ
 <<<<<<< HEAD
 <<<<<<< .merge_file_93b4qz
 <<<<<<< HEAD
@@ -409,6 +425,8 @@ Per PHPStan livello 9 e superiore, è fondamentale documentare correttamente il 
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_y8qP58
         'informazioni_personali' => Section::make('Informazioni Personali')
             ->schema([
                 'grid0'=>Grid::make(['default' => 2])
@@ -416,6 +434,7 @@ Per PHPStan livello 9 e superiore, è fondamentale documentare correttamente il 
                         'nome'=>TextEntry::make('nome')
                             ,
                         'cognome'=>TextEntry::make('cognome')
+<<<<<<< .merge_file_9fDLjZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_93b4qz
@@ -442,6 +461,8 @@ Per PHPStan livello 9 e superiore, è fondamentale documentare correttamente il 
 >>>>>>> .merge_file_J6rhlR
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8qP58
                             ,
                         'email'=>TextEntry::make('email')
                             ,
@@ -487,6 +508,7 @@ protected function getInfolistSchema(): array
 
 ## Vantaggi dell'Uso di Chiavi di Tipo Stringa
 
+<<<<<<< .merge_file_9fDLjZ
 <<<<<<< HEAD
 <<<<<<< .merge_file_93b4qz
 <<<<<<< HEAD
@@ -519,10 +541,13 @@ protected function getInfolistSchema(): array
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_y8qP58
 1. **Accesso Diretto ai Componenti**: Le chiavi di tipo stringa consentono di accedere direttamente ai componenti dell'array
 2. **Maggiore Leggibilità**: Il codice è più chiaro e facile da comprendere
 3. **Prevenzione di Errori**: Evita problemi quando si accede ai componenti tramite chiave
 4. **Compatibilità con PHPStan**: Aiuta a superare le verifiche di PHPStan di livello 9 e 10
+<<<<<<< .merge_file_9fDLjZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_93b4qz
@@ -546,6 +571,8 @@ public function getInfolistSchema(): array
 >>>>>>> .merge_file_J6rhlR
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8qP58
 
 ## Casi Speciali
 
@@ -585,6 +612,7 @@ public function getInfolistSchema(): array
 {
     $sections = [];
 
+<<<<<<< .merge_file_9fDLjZ
 <<<<<<< HEAD
 <<<<<<< .merge_file_93b4qz
 <<<<<<< HEAD
@@ -614,11 +642,14 @@ public function getInfolistSchema(): array
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_y8qP58
     // Aggiungiamo dinamicamente le sezioni con chiavi stringa
     $sections['informazioni_base'] = Section::make('Informazioni Base')
         ->schema([
             // Componenti...
         ]);
+<<<<<<< .merge_file_9fDLjZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_93b4qz
@@ -640,6 +671,8 @@ Se hai implementazioni esistenti che utilizzano array numerici, segui questi pas
 >>>>>>> .merge_file_J6rhlR
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8qP58
 
     if ($this->record->hasDocuments()) {
         $sections['documenti'] = Section::make('Documenti')
@@ -656,6 +689,7 @@ Se hai implementazioni esistenti che utilizzano array numerici, segui questi pas
 
 Se hai implementazioni esistenti che utilizzano array numerici, segui questi passaggi per correggerle:
 
+<<<<<<< .merge_file_9fDLjZ
 <<<<<<< HEAD
 <<<<<<< .merge_file_93b4qz
 <<<<<<< HEAD
@@ -683,10 +717,13 @@ Se hai implementazioni esistenti che utilizzano array numerici, segui questi pas
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_y8qP58
 1. Identifica tutti i componenti nell'array
 2. Assegna a ciascun componente una chiave stringa significativa
 3. Aggiorna il PHPDoc per specificare `@return array<string, \Filament\Infolists\Components\Component>`
 4. Testa la vista per assicurarti che funzioni correttamente
+<<<<<<< .merge_file_9fDLjZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_93b4qz
@@ -718,10 +755,16 @@ Se hai implementazioni esistenti che utilizzano array numerici, segui questi pas
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+
+### Prima:
+```php
+>>>>>>> .merge_file_y8qP58
 return [
     TextEntry::make('id'),
     TextEntry::make('nome'),
 ];
+<<<<<<< .merge_file_9fDLjZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_93b4qz
@@ -739,6 +782,8 @@ return [
 >>>>>>> .merge_file_J6rhlR
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8qP58
 ```
 
 ### Dopo:
@@ -751,6 +796,7 @@ return [
 
 ## Migliori Pratiche
 
+<<<<<<< .merge_file_9fDLjZ
 <<<<<<< HEAD
 <<<<<<< .merge_file_93b4qz
 <<<<<<< HEAD
@@ -774,10 +820,13 @@ return [
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_y8qP58
 1. **Usa SEMPRE Chiavi di Tipo Stringa**: Non utilizzare mai array sequenziali con indici numerici impliciti
 2. **Documentazione PHPDoc Accurata**: Specifica sempre `@return array<string, \Filament\Infolists\Components\Component>`
 3. **Nomi Significativi per le Chiavi**: Scegli nomi di chiave che riflettano il contenuto o lo scopo del componente
 4. **Rispetta la Struttura di Filament**: Segui le convenzioni di Filament per la struttura dei componenti
+<<<<<<< .merge_file_9fDLjZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_93b4qz
@@ -792,10 +841,13 @@ return [
 >>>>>>> .merge_file_J6rhlR
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8qP58
 
 ## Conclusione
 
 Seguendo queste linee guida, garantirai un'implementazione corretta e coerente del metodo `getInfolistSchema()`, facilitando la manutenzione del codice e prevenendo errori di tipo rilevati da PHPStan. Ricorda: usa **sempre** chiavi di tipo stringa per gli array restituiti.
+<<<<<<< .merge_file_9fDLjZ
 <<<<<<< HEAD
 <<<<<<< .merge_file_93b4qz
 <<<<<<< HEAD
@@ -835,3 +887,5 @@ Seguendo queste linee guida, garantirai un'implementazione corretta e coerente d
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_y8qP58

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_aLKGZS
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KVobUF
@@ -52,6 +53,8 @@ updated: 2026-08-24
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_NlDWSr
 https://github.com/tanthammar/filament-extras
 
 
@@ -61,6 +64,7 @@ https://github.com/saade/filament-extra
 
 https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
 
+<<<<<<< .merge_file_aLKGZS
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KVobUF
@@ -100,3 +104,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/custom-firm-
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_NlDWSr

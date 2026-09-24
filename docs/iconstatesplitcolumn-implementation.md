@@ -1,6 +1,7 @@
 # IconStateSplitColumn Implementation
 
 ## Overview
+<<<<<<< .merge_file_sxhUSy
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -39,6 +40,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_poUJ9F
 The `IconStateSplitColumn` is a custom Filament table column component designed to display state transition icons in a compact, responsive grid layout. It extends Filament's `Column` component to provide an optimized user experience for state management in tables.
 ## Key Features
 # IconStateSplitColumn Implementation
@@ -84,6 +87,7 @@ use Modules\<nome progetto>\Models\Appointment;
 
 ## Implementation
 ### Basic Usage
+<<<<<<< .merge_file_sxhUSy
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -102,6 +106,8 @@ use Modules\<nome progetto>\Models\Appointment;
 
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_poUJ9F
 ```php
 use Modules\UI\Filament\Tables\Columns\IconStateSplitColumn;
 use Modules\<nome modulo>\States\Appointment\AppointmentState;
@@ -478,6 +484,7 @@ The main issue was that `wire:click` doesn't work directly in Filament table col
 #### Problem Analysis
 The main issue was that `wire:click` doesn't work directly in Filament table columns because they are not Livewire components. The solution implements a custom event system:
 #### Solution Architecture
+<<<<<<< .merge_file_sxhUSy
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -496,6 +503,8 @@ The main issue was that `wire:click` doesn't work directly in Filament table col
 
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_poUJ9F
 ```javascript
 // Custom event dispatch
 onclick="window.dispatchEvent(new CustomEvent('state-transition', {
@@ -560,6 +569,7 @@ document.addEventListener('state-transition', function(event) {
 **Compatibility**: Filament 3.x, Laravel 10.x
 
 ---
+<<<<<<< .merge_file_sxhUSy
 <<<<<<< HEAD
 
 =======
@@ -580,6 +590,9 @@ document.addEventListener('state-transition', function(event) {
 **Version**: 2.1
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_poUJ9F
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
@@ -588,6 +601,7 @@ document.addEventListener('state-transition', function(event) {
 **Compatibility**: Filament 3.x, Laravel 10.x
 
 ---
+<<<<<<< .merge_file_sxhUSy
 <<<<<<< HEAD
 
 =======
@@ -608,11 +622,15 @@ document.addEventListener('state-transition', function(event) {
 **Version**: 2.1
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_poUJ9F
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 ---
+<<<<<<< .merge_file_sxhUSy
 <<<<<<< HEAD
 
 =======
@@ -633,10 +651,14 @@ document.addEventListener('state-transition', function(event) {
 **Version**: 2.1
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_poUJ9F
 **Compatibility**: Filament 3.x, Laravel 10.x
 # IconStateSplitColumn Implementation
 
 ## Overview
+<<<<<<< .merge_file_sxhUSy
 <<<<<<< HEAD
 <<<<<<< .merge_file_ORYKHO
 <<<<<<< HEAD
@@ -674,6 +696,8 @@ document.addEventListener('state-transition', function(event) {
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_poUJ9F
 
 The `IconStateSplitColumn` is a custom Filament table column component designed to display state transition icons in a compact, responsive grid layout. It extends Filament's `Column` component to provide an optimized user experience for state management in tables.
 
@@ -707,6 +731,7 @@ The `IconStateSplitColumn` is a custom Filament table column component designed 
 
 ### Basic Usage
 
+<<<<<<< .merge_file_sxhUSy
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -725,6 +750,8 @@ The `IconStateSplitColumn` is a custom Filament table column component designed 
 
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_poUJ9F
 ```php
 use Modules\UI\Filament\Tables\Columns\IconStateSplitColumn;
 use Modules\<nome progetto>\States\Appointment\AppointmentState;
@@ -757,6 +784,7 @@ class IconStateSplitColumn extends Column
     protected string $view = 'ui::filament.tables.columns.icon-state-split';
     protected string $stateClass = '';
     protected string $modelClass = '';
+<<<<<<< .merge_file_sxhUSy
 <<<<<<< HEAD
 
 =======
@@ -803,11 +831,15 @@ class IconStateSplitColumn extends Column
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_poUJ9F
     protected function setUp(): void
     {
         parent::setUp();
         $this->label('Stati');
     }
+<<<<<<< .merge_file_sxhUSy
 <<<<<<< HEAD
 
 =======
@@ -854,10 +886,14 @@ class IconStateSplitColumn extends Column
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_poUJ9F
     public function stateClass(string $stateClass, string $modelClass): static
     {
         // Configure states and model
     }
+<<<<<<< .merge_file_sxhUSy
 <<<<<<< HEAD
 
 =======
@@ -904,10 +940,14 @@ class IconStateSplitColumn extends Column
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_poUJ9F
     public function getRecordStates(): array
     {
         // Return array of available states
     }
+<<<<<<< .merge_file_sxhUSy
 <<<<<<< HEAD
 
 =======
@@ -954,6 +994,9 @@ class IconStateSplitColumn extends Column
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_poUJ9F
     public function canTransitionTo($recordId, $stateClass): bool
     {
         // Check if transition is possible
@@ -1151,6 +1194,7 @@ The main issue was that `wire:click` doesn't work directly in Filament table col
 #### Solution Architecture
 ```javascript
 // Custom event dispatch
+<<<<<<< .merge_file_sxhUSy
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1201,12 +1245,15 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_poUJ9F
 onclick="window.dispatchEvent(new CustomEvent('state-transition', {
     detail: {
         recordId: {{ $record->id }},
         stateClass: '{{ $state['class']::class }}',
         action: 'prova'
     }
+<<<<<<< .merge_file_sxhUSy
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1238,11 +1285,14 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_poUJ9F
 }))"
 
 // Event listener for Livewire integration
 document.addEventListener('state-transition', function(event) {
     const { recordId, stateClass, action } = event.detail;
+<<<<<<< .merge_file_sxhUSy
 <<<<<<< HEAD
 
 =======
@@ -1289,6 +1339,9 @@ document.addEventListener('state-transition', function(event) {
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_poUJ9F
     if (window.Livewire) {
         window.Livewire.find(document.querySelector('[wire\\:id]').getAttribute('wire:id'))
             .call(action, recordId, stateClass);
@@ -1324,6 +1377,7 @@ document.addEventListener('state-transition', function(event) {
 
 ---
 
+<<<<<<< .merge_file_sxhUSy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ORYKHO
@@ -1340,10 +1394,13 @@ document.addEventListener('state-transition', function(event) {
 >>>>>>> .merge_file_Lgwq0R
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_poUJ9F
 
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
 **Compatibility**: Filament 3.x, Laravel 10.x
+<<<<<<< .merge_file_sxhUSy
 <<<<<<< HEAD
 <<<<<<< .merge_file_ORYKHO
 <<<<<<< HEAD
@@ -1402,3 +1459,5 @@ document.addEventListener('state-transition', function(event) {
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_poUJ9F

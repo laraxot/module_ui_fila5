@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_kTbxUV
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -46,6 +47,8 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_P0SWHU
 https://naxon.dev/blog/laravel-media-library-load-only-1st-picture-efficiently
 
 https://www.answeroverflow.com/m/1158821463168659496

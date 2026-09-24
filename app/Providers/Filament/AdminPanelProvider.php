@@ -12,9 +12,9 @@ use Modules\Xot\Providers\Filament\XotBasePanelProvider;
 class AdminPanelProvider extends XotBasePanelProvider
 {
     protected string $module = 'UI';
-<<<<<<< HEAD
 
     #[\Override]
+<<<<<<< .merge_file_nDINWs
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -28,6 +28,8 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_D6U7RI
     public function panel(Panel $panel): Panel
     {
         return parent::panel($panel);

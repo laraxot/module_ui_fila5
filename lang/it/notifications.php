@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_LytUOI
 <<<<<<< HEAD
 <<<<<<< .merge_file_6VQINw
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_MA5wyG
 return [
     'state_transition' => [
         'success' => [
@@ -52,6 +55,7 @@ return [
         ],
         'label' => 'Notifications',
         'sort' => 1,
+<<<<<<< .merge_file_LytUOI
 <<<<<<< HEAD
 <<<<<<< .merge_file_6VQINw
 <<<<<<< HEAD
@@ -75,6 +79,9 @@ return [
 >>>>>>> .merge_file_3urFsF
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_MA5wyG
     ],
     'fields' => [
         'id' => [

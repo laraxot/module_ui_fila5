@@ -38,6 +38,7 @@ Entrambi i temi contengono i seguenti file di traduzione:
 11. `patient.php` - Gestione pazienti
 12. `studio.php` - Gestione studi
 
+<<<<<<< .merge_file_ik3kpI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hnMumj
@@ -63,6 +64,9 @@ Entrambi i temi contengono i seguenti file di traduzione:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+## Correzioni Applicate ([DATE])
+>>>>>>> .merge_file_yuxigM
 
 ### 1. Problema: Traduzione mancante `pub_theme::appointment.fields.state.label`
 
@@ -97,6 +101,7 @@ Entrambi i temi contengono i seguenti file di traduzione:
 - `duration` - Durata
 - `emergency` - Emergenza
 
+<<<<<<< .merge_file_ik3kpI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hnMumj
@@ -122,6 +127,9 @@ Entrambi i temi contengono i seguenti file di traduzione:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+### 4. Problema: Testo hardcoded in italiano per i referti ([DATE])
+>>>>>>> .merge_file_yuxigM
 
 **Causa**: Il file `appointment/item.blade.php` conteneva testo hardcoded in italiano per la sezione referti:
 - "Il tuo referto è pronto!"
@@ -271,6 +279,7 @@ return [
 
 - [Theme Widget Translations](theme-widget-translations.md)
 - [Translation Helper Text Standards](translation-helper-text-standards.md)
+<<<<<<< .merge_file_ik3kpI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hnMumj
@@ -294,6 +303,8 @@ return [
 >>>>>>> .merge_file_4FpKVe
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_yuxigM
 - [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/modules/<nome modulo>/docs/translation_quality_standards.md)
 - [Modules/<nome progetto>/docs/translation_quality_standards.md](../laravel/modules/<nome progetto>/docs/translation_quality_standards.md)
 - [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/modules/<nome modulo>/docs/translation_quality_standards.md)
@@ -304,6 +315,7 @@ return [
 ---
 
 **Ultimo aggiornamento**: [DATE]
+<<<<<<< .merge_file_ik3kpI
 <<<<<<< HEAD
 <<<<<<< .merge_file_hnMumj
 <<<<<<< HEAD
@@ -333,5 +345,7 @@ return [
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_yuxigM
 **Versione**: 2.2
 **Autore**: AI Assistant

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_JiDw4v
 <<<<<<< HEAD
 <<<<<<< .merge_file_JfRWGD
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_jNfr4N
 return [
     'actions' => [
         'create' => [

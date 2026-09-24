@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_ZBiK5f
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_XIeAaa
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_FBuqDe
 # StudioCardSelector Component - Modulo UI
 
 ## 🎯 **Panoramica**

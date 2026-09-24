@@ -228,8 +228,8 @@ $socialLinks = [
 php artisan view:clear
 
 # Test in browser
-<<<<<<< HEAD
 # http://fixcity.local/it/tests/homepage
+<<<<<<< .merge_file_aJ3ChQ
 =======
 <<<<<<< HEAD
 # http://fixcity.local/it/tests/homepage
@@ -273,6 +273,8 @@ php artisan view:clear
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Bi8iNy
 ```
 
 ### Verify SVG Files

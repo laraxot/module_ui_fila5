@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_ltiyHq
 <<<<<<< HEAD
 <<<<<<< .merge_file_5hhCct
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_i7IdeM
 return [
     'model' => [
         'label' => 'Modello Collezione',
@@ -39,6 +42,7 @@ return [
     'navigation' => [
         'label' => 'Collezioni',
         'group' => 'UI',
+<<<<<<< .merge_file_ltiyHq
 <<<<<<< HEAD
 <<<<<<< .merge_file_5hhCct
 <<<<<<< HEAD
@@ -62,6 +66,9 @@ return [
 >>>>>>> .merge_file_6XQvyw
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_i7IdeM
         'sort' => 68,
     ],
     'fields' => [

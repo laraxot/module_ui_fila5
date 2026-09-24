@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_V0fSUP
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_DJRJIg
@@ -62,6 +63,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_TcYaWS
 ```php
 AttachAction::make()->modifyRecordSelectUsing(
 fn ($select) => $select->getOptionLabelFromRecordUsing(fn ($record) => $record->name . ' ' . $record->organization)

@@ -9,6 +9,7 @@ qmd: "UI module services support converted to actions adapters queueable action"
 issues: []
 discussions: []
 related:
+<<<<<<< .merge_file_FZTRu1
 <<<<<<< HEAD
 <<<<<<< .merge_file_GNmMUS
 =======
@@ -34,6 +35,10 @@ related:
 >>>>>>> .merge_file_jMoTUM
 =======
 >>>>>>> 804451c (Lint)
+=======
+  - ../../Xot/docs/wiki/concepts/queueable-action-trait-mandatory.md
+  - ../../Xot/docs/wiki/concepts/no-app-support-queueable-actions.md
+>>>>>>> .merge_file_IitNxC
 ---
 
 # UI Services/Support → Actions/Adapters mapping
@@ -61,6 +66,7 @@ invece `Modules\Xot\Services\ThemeService` (archiviato). Nessuna duplicazione tr
 
 | Legacy path | Nuovo path | Tipo | Note |
 |-------------|-----------|------|------|
+<<<<<<< .merge_file_FZTRu1
 <<<<<<< HEAD
 <<<<<<< .merge_file_GNmMUS
 | `Services/ComponentService.php` | *(archiviato `.bak`)* | — | classe vuota, nessun caller, nessuna Action creata |
@@ -82,6 +88,11 @@ invece `Modules\Xot\Services\ThemeService` (archiviato). Nessuna duplicazione tr
 | `Services/ThemeService.php` | *(archiviato `.bak`)* | — | classe vuota, nessun caller, nessuna Action creata |
 | `Services/UIService.php` | *(archiviato `.bak`)* | — | `asset()` era solo passthrough di `Xot\Actions\File\AssetAction`; nessun caller in produzione, chiamare direttamente `app(AssetAction::class)->execute($path)` se serve |
 >>>>>>> 804451c (Lint)
+=======
+| `Services/ComponentService.php` | *(eliminato)* | — | classe vuota, nessun caller, nessuna Action creata |
+| `Services/ThemeService.php` | *(eliminato)* | — | classe vuota, nessun caller, nessuna Action creata |
+| `Services/UIService.php` | *(eliminato)* | — | `asset()` era solo passthrough di `Xot\Actions\File\AssetAction`; nessun caller in produzione, chiamare direttamente `app(AssetAction::class)->execute($path)` se serve |
+>>>>>>> .merge_file_IitNxC
 | `Services/Map/NullMapService.php` | `Adapters/Map/NullMapServiceAdapter.php` | Adapter | implementa `MapServiceContract` |
 | `Services/Map/NullGeocodingService.php` | `Adapters/Map/NullGeocodingServiceAdapter.php` | Adapter | implementa `GeocodingServiceContract` |
 
@@ -91,6 +102,7 @@ Nessun chiamante PHP in `Modules/*` o `Themes/*` da aggiornare: i Service non av
 consumer in codice produzione, e i loro stub Action (rimossi in questa revisione)
 non avevano a loro volta consumer.
 
+<<<<<<< .merge_file_FZTRu1
 <<<<<<< HEAD
 <<<<<<< .merge_file_GNmMUS
 =======
@@ -124,6 +136,11 @@ Nessun `.php` attivo resta in `app/Services/`.
 >>>>>>> .merge_file_jMoTUM
 =======
 >>>>>>> 804451c (Lint)
+=======
+## File eliminati
+
+- `app/Services/` (directory intera, prima migrazione)
+>>>>>>> .merge_file_IitNxC
 - `app/Support/` (non presente nel modulo UI)
 - `app/Actions/ComponentAction.php`, `app/Actions/ThemeAction.php`, `app/Actions/UIAction.php`
   (stub introdotti dalla prima migrazione, eliminati in questa revisione perché privi di

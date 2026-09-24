@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_4gJOPI
 <<<<<<< HEAD
 <<<<<<< .merge_file_3Rdm77
 <<<<<<< HEAD
@@ -55,6 +56,12 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 804451c (Lint)
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> .merge_file_EIOF8T
 ?>
 {{--
     Studio Card Component - Visualizzazione informazioni studio odontoiatrico

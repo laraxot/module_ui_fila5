@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_VxTWmz
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_TFDu1u
@@ -64,6 +65,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_Ek55cV
 # Struttura Pagine Filament - Modulo UI
 
 ## Panoramica

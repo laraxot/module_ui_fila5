@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_j7JvEY
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_xhakHG
 # PHPStan Dynamic Array Normalization
 
 ## Scopo

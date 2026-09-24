@@ -2,6 +2,7 @@
 module: theme
 topic: bottlenecks
 canonical: ../../../../Themes/docs/shared-components/bottlenecks-Modules.md
+<<<<<<< .merge_file_XkGwO2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_z3LR6U
@@ -39,6 +40,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_RSgNLM
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/bottlenecks-Modules.md

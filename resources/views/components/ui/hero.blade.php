@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_xDMYSM
 <<<<<<< HEAD
 <<<<<<< .merge_file_uBk03S
 <<<<<<< HEAD
@@ -72,6 +73,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_9N4nfP
 @props([
     'title' => '',
     'subtitle' => '',
@@ -186,6 +189,7 @@ declare(strict_types=1);
     <!-- Decorative Elements -->
     <div class="absolute top-0 right-0 -mt-20 -mr-20 w-80 h-80 bg-white/10 rounded-full blur-3xl"></div>
     <div class="absolute bottom-0 left-0 -mb-20 -ml-20 w-80 h-80 bg-white/10 rounded-full blur-3xl"></div>
+<<<<<<< .merge_file_xDMYSM
 <<<<<<< HEAD
 <<<<<<< .merge_file_uBk03S
 <<<<<<< HEAD
@@ -209,3 +213,6 @@ declare(strict_types=1);
 >>>>>>> .merge_file_oPpEZE
 =======
 >>>>>>> 804451c (Lint)
+=======
+</section>
+>>>>>>> .merge_file_9N4nfP

@@ -5,6 +5,7 @@ status: active
 created: 2026-05-28
 tags: [filament, ui, blade]
 related:
+<<<<<<< .merge_file_BQN6yO
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_p0HGb4
@@ -52,6 +53,10 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+  - ../../../../../../docs/wiki/rules/filament-first-rule.md
+  - ../../blade/filament-components.md
+>>>>>>> .merge_file_NRcVET
 ---
 
 # UI — Filament Blade canonical

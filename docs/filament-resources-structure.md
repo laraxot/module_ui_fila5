@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_Sz5LVv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_i7XovI
@@ -23,6 +24,8 @@ Le Filament Resources seguono una struttura gerarchica standardizzata:
 >>>>>>> .merge_file_agUjWu
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0f9Lav
 # Struttura delle Filament Resources
 
 ## Panoramica
@@ -31,6 +34,7 @@ Questo documento descrive la struttura e l'organizzazione delle Filament Resourc
 ## Struttura Base
 Le Filament Resources seguono una struttura gerarchica standardizzata:
 
+<<<<<<< .merge_file_Sz5LVv
 <<<<<<< HEAD
 <<<<<<< .merge_file_i7XovI
 <<<<<<< HEAD
@@ -93,6 +97,8 @@ Le Filament Resources seguono una struttura gerarchica standardizzata:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0f9Lav
 ```
 laravel/
 └── Modules/
@@ -109,6 +115,7 @@ laravel/
             └── Filament/
                 └── Resources/
                     └── {Model}Resource.php
+<<<<<<< .merge_file_Sz5LVv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_i7XovI
@@ -126,11 +133,14 @@ Le classi base di Xot forniscono funzionalità comuni a tutte le resources:
 >>>>>>> .merge_file_agUjWu
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0f9Lav
 ```
 
 ## Classi Base di Xot
 Le classi base di Xot forniscono funzionalità comuni a tutte le resources:
 
+<<<<<<< .merge_file_Sz5LVv
 <<<<<<< HEAD
 <<<<<<< .merge_file_i7XovI
 <<<<<<< HEAD
@@ -148,10 +158,13 @@ Le classi base di Xot forniscono funzionalità comuni a tutte le resources:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0f9Lav
 1. **XotBaseListRecords**
    - Gestione della lista dei record
    - Filtri e ordinamento
    - Azioni di massa
+<<<<<<< .merge_file_Sz5LVv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_i7XovI
@@ -173,10 +186,14 @@ Le classi base di Xot forniscono funzionalità comuni a tutte le resources:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_0f9Lav
 2. **XotBaseCreateRecord**
    - Creazione di nuovi record
    - Validazione dei dati
    - Gestione delle traduzioni
+<<<<<<< .merge_file_Sz5LVv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_i7XovI
@@ -194,12 +211,15 @@ Le classi base di Xot forniscono funzionalità comuni a tutte le resources:
 >>>>>>> .merge_file_agUjWu
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0f9Lav
 
 3. **XotBaseEditRecord**
    - Modifica dei record esistenti
    - Validazione dei dati
    - Gestione delle traduzioni
 
+<<<<<<< .merge_file_Sz5LVv
 <<<<<<< HEAD
 <<<<<<< .merge_file_i7XovI
 <<<<<<< HEAD
@@ -217,12 +237,15 @@ Le classi base di Xot forniscono funzionalità comuni a tutte le resources:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0f9Lav
 ## Namespace e Import
 Le classi base devono essere importate dal namespace corretto:
 ```php
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
+<<<<<<< .merge_file_Sz5LVv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_i7XovI
@@ -238,21 +261,27 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 >>>>>>> .merge_file_agUjWu
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0f9Lav
 ```
 
 ## Documentazione Correlata
 
 - [Filament class extension rules (Xot)](../xot/docs/filament-class-extension-rules.md)
 
+<<<<<<< .merge_file_Sz5LVv
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0f9Lav
 ## Best Practices
 1. **Namespace**
    - Usa sempre il namespace completo
    - Importa le classi base dal percorso corretto
    - Mantieni la coerenza tra i moduli
+<<<<<<< .merge_file_Sz5LVv
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -261,10 +290,14 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_0f9Lav
 2. **Ereditarietà**
    - Estendi sempre le classi base di Xot
    - Usa il prefisso "Base" per le classi base
    - Implementa solo le funzionalità specifiche del modulo
+<<<<<<< .merge_file_Sz5LVv
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -273,10 +306,14 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_0f9Lav
 3. **Documentazione**
    - Mantieni aggiornata la documentazione
    - Crea collegamenti bidirezionali
    - Documenta le dipendenze
+<<<<<<< .merge_file_Sz5LVv
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -285,10 +322,14 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_0f9Lav
 ## Note Importanti
 - Le classi base sono nel namespace `Modules\Xot\Filament\Resources\Pages\`
 - Non esistono classi senza il prefisso "Base"
 - La documentazione deve essere mantenuta sincronizzata
+<<<<<<< .merge_file_Sz5LVv
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -297,10 +338,14 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_0f9Lav
 ## Links
 - [Documentazione Filament](https://filamentphp.com/)
 - [Laravel Modules](module-structure.md)
 - [Best Practices](best-practices.md)
+<<<<<<< .merge_file_Sz5LVv
 <<<<<<< HEAD
 <<<<<<< HEAD
 ## Note
@@ -310,6 +355,8 @@ Questa documentazione è collegata bidirezionalmente con la documentazione speci
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0f9Lav
 
 ## Note
 Questa documentazione è collegata bidirezionalmente con la documentazione specifica dei moduli. Per dettagli su resources specifiche, consultare la documentazione del modulo corrispondente.
@@ -372,6 +419,7 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 - [Documentazione Xot Module](../laravel/modules/xot/project_docs/filament-resources.md)
 - [Documentazione CMS Module](../laravel/modules/cms/project_docs/filament-resources.md)
 - [Documentazione Xot Module](../laravel/modules/xot/project_docs/filament-resources.md)
+<<<<<<< .merge_file_Sz5LVv
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -421,6 +469,8 @@ Questa documentazione è collegata bidirezionalmente con la documentazione speci
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0f9Lav
 
 ## Best Practices
 1. **Namespace**
@@ -450,6 +500,7 @@ Questa documentazione è collegata bidirezionalmente con la documentazione speci
 
 ## Note
 Questa documentazione è collegata bidirezionalmente con la documentazione specifica dei moduli. Per dettagli su resources specifiche, consultare la documentazione del modulo corrispondente.
+<<<<<<< .merge_file_Sz5LVv
 <<<<<<< HEAD
 <<<<<<< .merge_file_i7XovI
 =======
@@ -489,3 +540,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/filament-res
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0f9Lav

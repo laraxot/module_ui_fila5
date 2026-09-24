@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_Lr6VHz
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_gC4J1C
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_d50JdE
 # Componenti UI - Modulo UI
 
 ## Panoramica
@@ -247,6 +250,7 @@ return [
 
 ## 🔗 Collegamenti
 
+<<<<<<< .merge_file_Lr6VHz
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_gC4J1C
@@ -272,6 +276,9 @@ return [
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [**README Modulo UI**](../readme.md)
+>>>>>>> .merge_file_d50JdE
 - [**Sistema Layout**](../layout/layout-system.md)
 - [**Gestione Asset**](../assets/asset-management.md)
 - [**Personalizzazioni Filament**](../filament/filament-customizations.md)

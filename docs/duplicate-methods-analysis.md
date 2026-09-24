@@ -1,5 +1,6 @@
 # Analisi Metodi Duplicati - Modulo UI
 
+<<<<<<< .merge_file_Yj9dh7
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_4urpSh
@@ -22,6 +23,8 @@
 **Data Generazione**: 2025-10-15 06:41:17
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_DsL1me
 **Totale Gruppi di Duplicati**:
 
 ## Sommario Esecutivo
@@ -94,9 +97,9 @@ public function asset(): string
 - `GetViewThemeByViewAction::execute` - [Modules/Cms/app/Actions/GetViewThemeByViewAction.php:13](Modules/Cms/app/Actions/GetViewThemeByViewAction.php) (Modulo: Cms)
 - `SaveFooterConfigAction::execute` - [Modules/Cms/app/Actions/SaveFooterConfigAction.php:14](Modules/Cms/app/Actions/SaveFooterConfigAction.php) (Modulo: Cms)
 - `SaveHeadernavConfigAction::execute` - [Modules/Cms/app/Actions/SaveHeadernavConfigAction.php:12](Modules/Cms/app/Actions/SaveHeadernavConfigAction.php) (Modulo: Cms)
-<<<<<<< HEAD
 - `ChangeStatus::execute` - [Modules/Fixcity/app/Actions/ChangeStatus.php:12](Modules/Fixcity/app/Actions/ChangeStatus.php) (Modulo: Fixcity)
 - `GenerateTicketsAction::execute` - [Modules/Fixcity/app/Actions/GenerateTicketsAction.php:24](Modules/Fixcity/app/Actions/GenerateTicketsAction.php) (Modulo: Fixcity)
+<<<<<<< .merge_file_Yj9dh7
 <<<<<<< HEAD
 <<<<<<< .merge_file_4urpSh
 =======
@@ -162,6 +165,8 @@ public function asset(): string
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_DsL1me
 - `CalculateDistanceAction::execute` - [Modules/Geo/app/Actions/CalculateDistanceAction.php:47](Modules/Geo/app/Actions/CalculateDistanceAction.php) (Modulo: Geo)
 - `ClusterLocationsAction::execute` - [Modules/Geo/app/Actions/ClusterLocationsAction.php:25](Modules/Geo/app/Actions/ClusterLocationsAction.php) (Modulo: Geo)
 - `FilterCoordinatesAction::execute` - [Modules/Geo/app/Actions/FilterCoordinatesAction.php:29](Modules/Geo/app/Actions/FilterCoordinatesAction.php) (Modulo: Geo)

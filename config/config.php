@@ -5,6 +5,7 @@ declare(strict_types=1);
 return [
     'name' => 'UI',
     'description' => 'Modulo per la gestione dell\'interfaccia utente e componenti',
+<<<<<<< .merge_file_X5uNHy
 <<<<<<< HEAD
 <<<<<<< .merge_file_Iusgpd
 <<<<<<< HEAD
@@ -28,6 +29,9 @@ return [
 >>>>>>> .merge_file_fKWbd6
 =======
 >>>>>>> 804451c (Lint)
+=======
+    'icon' => 'heroicon-o-squares-2x2',
+>>>>>>> .merge_file_IogdaZ
     'navigation' => [
         'enabled' => true,
         'sort' => 90,

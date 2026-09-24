@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_fVlCw0
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_YtfuAy
@@ -65,6 +66,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_InSBkO
 # Colli di Bottiglia - Modulo UI
 
 ## 1. Performance Componenti [85%]

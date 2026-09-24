@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_0Bweyv
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_gzertp
@@ -114,6 +115,8 @@ I file di documentazione vanno nelle cartelle `docs/` dentro ogni modulo/tema.
 >>>>>>> .merge_file_M4hXzK
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ZQOQp3
 ---
 module: theme
 topic: testing-rules
@@ -121,6 +124,7 @@ canonical: ../../../Themes/docs/shared-components/testing-rules-Modules.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/testing-rules-Modules.md
+<<<<<<< .merge_file_0Bweyv
 <<<<<<< HEAD
 <<<<<<< .merge_file_gzertp
 <<<<<<< HEAD
@@ -243,3 +247,5 @@ I file di documentazione vanno nelle cartelle `docs/` dentro ogni modulo/tema.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ZQOQp3

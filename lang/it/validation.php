@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_emePh8
 <<<<<<< HEAD
 <<<<<<< .merge_file_OA6GcF
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_LFyTEj
 return [
     'opening_hours' => [
         'morning' => 'mattino',
@@ -50,6 +53,7 @@ return [
         ],
         'label' => 'Validation',
         'sort' => 1,
+<<<<<<< .merge_file_emePh8
 <<<<<<< HEAD
 <<<<<<< .merge_file_OA6GcF
 <<<<<<< HEAD
@@ -73,6 +77,9 @@ return [
 >>>>>>> .merge_file_OBpmNN
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_LFyTEj
     ],
     'fields' => [
         'id' => [

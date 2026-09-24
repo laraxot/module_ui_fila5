@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_Mv4Icg
 <<<<<<< HEAD
 <<<<<<< .merge_file_K0janf
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_NW19nA
 return [
     'fields' => [
         'caption' => [
@@ -65,6 +68,7 @@ return [
         ],
         'label' => 'Image Spatie',
         'sort' => 1,
+<<<<<<< .merge_file_Mv4Icg
 <<<<<<< HEAD
 <<<<<<< .merge_file_K0janf
 <<<<<<< HEAD
@@ -88,6 +92,9 @@ return [
 >>>>>>> .merge_file_noK0Z6
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_NW19nA
     ],
     'actions' => [
         'create' => [

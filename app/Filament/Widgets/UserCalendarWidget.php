@@ -16,12 +16,26 @@ class UserCalendarWidget extends XotBaseSchemaWidget
 {
     public string $type;
 
+<<<<<<< .merge_file_sxG7Ci
 <<<<<<< HEAD
     /** @phpstan-var view-string */
     /** @phpstan-ignore property.defaultValue */
 =======
 >>>>>>> 804451c (Lint)
     protected string $view = 'ui::filament.widgets.user-calendar';
+=======
+    /** @var view-string */
+    protected string $view;
+
+    public function __construct()
+    {
+        /** @var view-string $view */
+        $view = 'ui::filament.widgets.user-calendar';
+        $this->view = $view;
+
+        parent::__construct();
+    }
+>>>>>>> .merge_file_zxVcl7
 
     public function getActionName(string $function): string
     {
@@ -37,12 +51,17 @@ class UserCalendarWidget extends XotBaseSchemaWidget
     }
 
     /**
+<<<<<<< .merge_file_sxG7Ci
      * @param array<string, mixed> $fetchInfo
 <<<<<<< HEAD
 =======
      * @param array<string, mixed> $fetchInfo
 >>>>>>> 804451c (Lint)
      *
+=======
+     * @param  array<string, mixed>  $fetchInfo
+     * @param  array<string, mixed>  $fetchInfo
+>>>>>>> .merge_file_zxVcl7
      * @return array<int, array<string, mixed>>
      */
     public function fetchEvents(array $fetchInfo): array
@@ -87,10 +106,13 @@ class UserCalendarWidget extends XotBaseSchemaWidget
     }
 
     /**
+<<<<<<< .merge_file_sxG7Ci
 <<<<<<< HEAD
      * @param array<string, mixed>|null $view
      * @param array<string, mixed>|null $resource
      *
+=======
+>>>>>>> .merge_file_zxVcl7
      * @SuppressWarnings("PHPMD.UnusedFormalParameter")
 =======
      * @SuppressWarnings("PHPMD.UnusedFormalParameter")
@@ -99,6 +121,10 @@ class UserCalendarWidget extends XotBaseSchemaWidget
      * @param array<string, mixed>|null $view
      * @param array<string, mixed>|null $resource
 >>>>>>> 804451c (Lint)
+     */
+    /**
+     * @param  array<string, mixed>|null  $view
+     * @param  array<string, mixed>|null  $resource
      */
     public function onDateSelect(string $start, ?string $end, bool $allDay, ?array $view, ?array $resource): void
     {

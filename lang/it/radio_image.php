@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_ZFEAJ4
 <<<<<<< HEAD
 <<<<<<< .merge_file_Ghrsht
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_FGbbXD
 return [
     'fields' => [
         'view' => [
@@ -50,6 +53,7 @@ return [
         ],
         'label' => 'Radio Image',
         'sort' => 1,
+<<<<<<< .merge_file_ZFEAJ4
 <<<<<<< HEAD
 <<<<<<< .merge_file_Ghrsht
 <<<<<<< HEAD
@@ -73,6 +77,9 @@ return [
 >>>>>>> .merge_file_uCPaMx
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_FGbbXD
     ],
     'actions' => [
         'create' => [

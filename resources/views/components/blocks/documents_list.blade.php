@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_e0zTxs
 <<<<<<< HEAD
 <<<<<<< .merge_file_ZEW5bq
 <<<<<<< HEAD
@@ -46,6 +47,12 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 804451c (Lint)
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> .merge_file_noexV1
 ?>
 @props(['title' => 'Documenti'])
 

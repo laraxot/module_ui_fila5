@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_CyY6eM
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_aWgeZK
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_B5wPcM
 # Best Practices Filament
 
 ## Regole fondamentali

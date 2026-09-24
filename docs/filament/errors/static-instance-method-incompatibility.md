@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_Gk2Sem
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_c6lcmn
@@ -63,6 +64,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_MWpCmt
 # Errore di incompatibilità tra metodi statici e di istanza in Filament
 
 ## Problema

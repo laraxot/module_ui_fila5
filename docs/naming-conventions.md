@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_kXGxz7
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -28,12 +29,17 @@
 ## Collegamenti tra versioni di naming-conventions.md
 >>>>>>> 804451c (Lint)
 * [naming-conventions.md](../../../../../docs/naming-conventions.md)
+=======
+## Collegamenti tra versioni di naming-conventions.md
+* [naming-conventions.md](../../../../../docs/naming-conventions.md)
+>>>>>>> .merge_file_eyOgOb
 * [naming-conventions.md](../../xot/docs/naming-conventions.md)
 * [naming-conventions.md](../../patient/docs/naming-conventions.md)
 ## Collegamenti tra versioni di naming-conventions.md
 * [naming-conventions.md](../../../../../docs/project/naming-conventions.md)
 * [naming-conventions.md](../../xot/project_docs/naming-conventions.md)
 * [naming-conventions.md](../../patient/project_docs/naming-conventions.md)
+<<<<<<< .merge_file_kXGxz7
 <<<<<<< HEAD
 <<<<<<< .merge_file_Zs88HI
 <<<<<<< HEAD
@@ -119,3 +125,5 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_eyOgOb

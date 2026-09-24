@@ -1,7 +1,7 @@
 # PHPStan Level 10 Compliance Status
 
-<<<<<<< HEAD
 
+<<<<<<< .merge_file_3cDkKl
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14,6 +14,8 @@
 **Last Updated**: 2025-12-10
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_RJPqEe
 **Status**: ✅ FULLY COMPLIANT (0 errors)
 
 ## Summary

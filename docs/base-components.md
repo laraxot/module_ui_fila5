@@ -158,6 +158,7 @@ $spacers: (
 ## 🔗 Collegamenti
 - [Performance](./standards/performance.md)
 - [Accessibilità](./standards/accessibility.md)
+<<<<<<< .merge_file_owe2UD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -165,14 +166,14 @@ $spacers: (
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ljNyf8
 - [UI Standards](./standards/ui-standards.md)
 # Componenti Base
-<<<<<<< HEAD
-## 🎨 Design System
-=======
 
 ## 🎨 Design System
 
+<<<<<<< .merge_file_owe2UD
 <<<<<<< .merge_file_kilHaH
 <<<<<<< HEAD
 =======
@@ -216,6 +217,8 @@ $spacers: (
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ljNyf8
 ### Colori
 ```scss
 // Palette principale
@@ -225,6 +228,7 @@ $success: #28a745;
 $danger: #dc3545;
 $warning: #ffc107;
 $info: #17a2b8;
+<<<<<<< .merge_file_owe2UD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kilHaH
@@ -246,10 +250,14 @@ $info: #17a2b8;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_ljNyf8
 // Gradienti
 $gradient-primary: linear-gradient(135deg, $primary, darken($primary, 10%));
 $gradient-success: linear-gradient(135deg, $success, darken($success, 10%));
 ```
+<<<<<<< .merge_file_owe2UD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kilHaH
@@ -267,6 +275,8 @@ $font-family-heading: 'Montserrat', $font-family-base;
 >>>>>>> .merge_file_hDejEA
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ljNyf8
 
 ### Tipografia
 ```scss
@@ -274,6 +284,7 @@ $font-family-heading: 'Montserrat', $font-family-base;
 $font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 $font-family-heading: 'Montserrat', $font-family-base;
 
+<<<<<<< .merge_file_owe2UD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kilHaH
 <<<<<<< HEAD
@@ -297,10 +308,13 @@ $font-family-heading: 'Montserrat', $font-family-base;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ljNyf8
 // Scale
 $font-size-base: 1rem;
 $font-size-sm: 0.875rem;
 $font-size-lg: 1.125rem;
+<<<<<<< .merge_file_owe2UD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kilHaH
@@ -322,10 +336,14 @@ $font-size-lg: 1.125rem;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_ljNyf8
 // Pesanti
 $font-weight-normal: 400;
 $font-weight-medium: 500;
 $font-weight-bold: 700;
+<<<<<<< .merge_file_owe2UD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kilHaH
@@ -341,11 +359,14 @@ $font-weight-bold: 700;
 >>>>>>> .merge_file_hDejEA
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ljNyf8
 ```
 
 ### Spaziatura
 ```scss
 // Scale
+<<<<<<< .merge_file_owe2UD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kilHaH
 <<<<<<< HEAD
@@ -362,6 +383,8 @@ $font-weight-bold: 700;
 ### Spaziatura
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ljNyf8
 $spacer: 1rem;
 $spacers: (
   0: 0,
@@ -371,6 +394,7 @@ $spacers: (
   4: $spacer * 1.5,
   5: $spacer * 3
 );
+<<<<<<< .merge_file_owe2UD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kilHaH
@@ -386,10 +410,13 @@ $spacers: (
 >>>>>>> .merge_file_hDejEA
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ljNyf8
 ```
 
 ## 📱 Componenti
 
+<<<<<<< .merge_file_owe2UD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kilHaH
 <<<<<<< HEAD
@@ -406,6 +433,8 @@ $spacers: (
 ## 📱 Componenti
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ljNyf8
 ### Bottoni
 ```html
 <!-- Primario -->
@@ -413,6 +442,7 @@ $spacers: (
   <i class="fas fa-plus"></i>
   Aggiungi
 </button>
+<<<<<<< .merge_file_owe2UD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kilHaH
@@ -434,10 +464,14 @@ $spacers: (
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_ljNyf8
 <!-- Secondario -->
 <button class="btn btn-secondary">
   <i class="fas fa-edit"></i>
   Modifica
+<<<<<<< .merge_file_owe2UD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kilHaH
@@ -463,10 +497,15 @@ $spacers: (
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+</button>
+
+>>>>>>> .merge_file_ljNyf8
 <!-- Pericolo -->
 <button class="btn btn-danger">
   <i class="fas fa-trash"></i>
   Elimina
+<<<<<<< .merge_file_owe2UD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kilHaH
@@ -482,11 +521,14 @@ $spacers: (
 >>>>>>> .merge_file_hDejEA
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ljNyf8
 </button>
 ```
 
 ### Form
 ```html
+<<<<<<< .merge_file_owe2UD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kilHaH
 <<<<<<< HEAD
@@ -503,12 +545,15 @@ $spacers: (
 ### Form
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ljNyf8
 <!-- Input -->
 <div class="form-group">
   <label for="email">Email</label>
   <input type="email" id="email" class="form-control" placeholder="Inserisci email">
   <small class="form-text text-muted">Non condivideremo mai la tua email</small>
 </div>
+<<<<<<< .merge_file_owe2UD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kilHaH
@@ -540,12 +585,18 @@ $spacers: (
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+
+<!-- Select -->
+<div class="form-group">
+>>>>>>> .merge_file_ljNyf8
   <label for="role">Ruolo</label>
   <select id="role" class="form-control">
     <option value="">Seleziona un ruolo</option>
     <option value="admin">Amministratore</option>
     <option value="user">Utente</option>
   </select>
+<<<<<<< .merge_file_owe2UD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kilHaH
@@ -561,11 +612,14 @@ $spacers: (
 >>>>>>> .merge_file_hDejEA
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ljNyf8
 </div>
 ```
 
 ### Card
 ```html
+<<<<<<< .merge_file_owe2UD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kilHaH
 <<<<<<< HEAD
@@ -582,12 +636,15 @@ $spacers: (
 ### Card
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ljNyf8
 <div class="card">
   <div class="card-header">
     <h5 class="card-title">Titolo Card</h5>
   </div>
   <div class="card-body">
     <p class="card-text">Contenuto della card</p>
+<<<<<<< .merge_file_owe2UD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kilHaH
@@ -606,6 +663,8 @@ $spacers: (
 >>>>>>> .merge_file_hDejEA
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ljNyf8
   </div>
   <div class="card-footer">
     <button class="btn btn-primary">Azione</button>
@@ -615,6 +674,7 @@ $spacers: (
 
 ### Alert
 ```html
+<<<<<<< .merge_file_owe2UD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kilHaH
 <<<<<<< HEAD
@@ -633,10 +693,13 @@ $spacers: (
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ljNyf8
 <!-- Successo -->
 <div class="alert alert-success">
   <i class="fas fa-check-circle"></i>
   Operazione completata con successo
+<<<<<<< .merge_file_owe2UD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kilHaH
@@ -662,10 +725,15 @@ $spacers: (
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+</div>
+
+>>>>>>> .merge_file_ljNyf8
 <!-- Errore -->
 <div class="alert alert-danger">
   <i class="fas fa-exclamation-circle"></i>
   Si è verificato un errore
+<<<<<<< .merge_file_owe2UD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kilHaH
@@ -691,10 +759,15 @@ $spacers: (
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+</div>
+
+>>>>>>> .merge_file_ljNyf8
 <!-- Info -->
 <div class="alert alert-info">
   <i class="fas fa-info-circle"></i>
   Informazione importante
+<<<<<<< .merge_file_owe2UD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kilHaH
@@ -724,6 +797,8 @@ $spacers: (
 >>>>>>> .merge_file_hDejEA
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ljNyf8
 </div>
 ```
 
@@ -759,6 +834,7 @@ $spacers: (
 - [Performance](./standards/performance.md)
 - [Accessibilità](./standards/accessibility.md)
 - [UI Standards](./standards/ui-standards.md)
+<<<<<<< .merge_file_owe2UD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kilHaH
 <<<<<<< HEAD
@@ -812,3 +888,5 @@ $spacers: (
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ljNyf8

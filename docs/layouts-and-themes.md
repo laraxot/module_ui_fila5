@@ -1,8 +1,11 @@
+<<<<<<< .merge_file_kDXoBT
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_rqW6Tc
 ### Versione HEAD
 
 # Struttura dei Temi
@@ -58,6 +61,7 @@ Per correggere questa situazione, è necessario:
 4. Rigenerare l'autoloader
 
 ```bash
+<<<<<<< .merge_file_kDXoBT
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -89,6 +93,8 @@ Per correggere questa situazione, è necessario:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_rqW6Tc
 
 # Creare la directory Themes se non esiste
 mkdir -p /laravel/Themes
@@ -231,8 +237,8 @@ Nel file GetAllIconsAction.php è stato risolto un conflitto mantenendo una sola
 
 Questa scelta evita ambiguità e possibili errori runtime nella gestione delle icone dinamiche.
 
-<<<<<<< HEAD
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
+<<<<<<< .merge_file_kDXoBT
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -246,6 +252,8 @@ Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentaz
 =======
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../docs/risoluzione_conflitti_git.md).
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_rqW6Tc
 
 In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale:
 - Rimuovere codice commentato o superfluo lasciato da template generici o da sviluppi temporanei.
@@ -254,6 +262,7 @@ In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale
 
 **Decisione architetturale**: In simple.blade.php è stato rimosso un blocco di codice commentato relativo a header e menu di esempio, mantenendo solo la struttura effettivamente utilizzata e correggendo il titolo. Questa scelta assicura chiarezza, manutenibilità e coerenza visiva.
 
+<<<<<<< .merge_file_kDXoBT
 <<<<<<< HEAD
 <<<<<<< HEAD
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
@@ -263,6 +272,9 @@ Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferi
 =======
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../docs/risoluzione_conflitti_git.md).
 >>>>>>> 804451c (Lint)
+=======
+Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/risoluzione_conflitti_git.md).
+>>>>>>> .merge_file_rqW6Tc
 
 ## Layout System
 
@@ -526,6 +538,7 @@ AdminLayout::make()
    - Centralizzare configurazioni
 ### Versione HEAD
 
+<<<<<<< .merge_file_kDXoBT
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
@@ -1411,6 +1424,8 @@ AdminLayout::make()
    - Centralizzare configurazioni
 ### Versione HEAD
 
+=======
+>>>>>>> .merge_file_rqW6Tc
 # Struttura dei Temi
 
 ## Posizionamento Corretto dei Temi
@@ -1464,10 +1479,13 @@ Per correggere questa situazione, è necessario:
 4. Rigenerare l'autoloader
 
 ```bash
+<<<<<<< .merge_file_kDXoBT
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_rqW6Tc
 # Creare la directory Themes se non esiste
 mkdir -p /laravel/Themes
 
@@ -1608,6 +1626,7 @@ Nel file GetAllIconsAction.php è stato risolto un conflitto mantenendo una sola
 
 Questa scelta evita ambiguità e possibili errori runtime nella gestione delle icone dinamiche.
 
+<<<<<<< .merge_file_kDXoBT
 <<<<<<< HEAD
 <<<<<<< HEAD
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../docs/risoluzione_conflitti_git.md).
@@ -1621,6 +1640,11 @@ Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentaz
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/project/risoluzione_conflitti_git.md).
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/project/risoluzione_conflitti_git.md).
 >>>>>>> 804451c (Lint)
+=======
+Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/project/risoluzione_conflitti_git.md).
+Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/project/risoluzione_conflitti_git.md).
+Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../../../../docs/project/risoluzione_conflitti_git.md).
+>>>>>>> .merge_file_rqW6Tc
 
 In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale:
 - Rimuovere codice commentato o superfluo lasciato da template generici o da sviluppi temporanei.
@@ -1629,6 +1653,7 @@ In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale
 
 **Decisione architetturale**: In simple.blade.php è stato rimosso un blocco di codice commentato relativo a header e menu di esempio, mantenendo solo la struttura effettivamente utilizzata e correggendo il titolo. Questa scelta assicura chiarezza, manutenibilità e coerenza visiva.
 
+<<<<<<< .merge_file_kDXoBT
 <<<<<<< HEAD
 <<<<<<< HEAD
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../docs/risoluzione_conflitti_git.md).
@@ -1642,6 +1667,11 @@ Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferi
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/project/risoluzione_conflitti_git.md).
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/project/risoluzione_conflitti_git.md).
 >>>>>>> 804451c (Lint)
+=======
+Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/project/risoluzione_conflitti_git.md).
+Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/project/risoluzione_conflitti_git.md).
+Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../../../../docs/project/risoluzione_conflitti_git.md).
+>>>>>>> .merge_file_rqW6Tc
 
 ## Layout System
 
@@ -1695,6 +1725,7 @@ use Modules\UI\Layouts\AdminLayout;
 class Dashboard extends Component
 {
     protected static string $layout = AdminLayout::class;
+<<<<<<< .merge_file_kDXoBT
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1703,6 +1734,9 @@ class Dashboard extends Component
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_rqW6Tc
     protected function getLayoutData(): array
     {
         return [
@@ -1735,6 +1769,7 @@ use Modules\UI\Layouts\PrintLayout;
 class StampaPratica extends Component
 {
     protected static string $layout = PrintLayout::class;
+<<<<<<< .merge_file_kDXoBT
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1743,6 +1778,9 @@ class StampaPratica extends Component
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_rqW6Tc
     protected function getLayoutData(): array
     {
         return [
@@ -1785,6 +1823,7 @@ return [
             'warning' => '#f59e0b',
             'danger' => '#ef4444',
         ],
+<<<<<<< .merge_file_kDXoBT
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1793,6 +1832,9 @@ return [
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_rqW6Tc
         // Tipografia
         'typography' => [
             'fonts' => [
@@ -1805,6 +1847,7 @@ return [
                 'xl' => '1.25rem',
             ],
         ],
+<<<<<<< .merge_file_kDXoBT
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1813,12 +1856,16 @@ return [
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_rqW6Tc
         // Spaziature
         'spacing' => [
             'base' => '1rem',
             'lg' => '1.5rem',
             'xl' => '2rem',
         ],
+<<<<<<< .merge_file_kDXoBT
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1827,11 +1874,15 @@ return [
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_rqW6Tc
         // Bordi
         'border' => [
             'radius' => '0.375rem',
             'width' => '1px',
         ],
+<<<<<<< .merge_file_kDXoBT
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1840,6 +1891,9 @@ return [
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_rqW6Tc
         // Ombre
         'shadows' => [
             'sm' => '0 1px 2px 0 rgb(0 0 0 / 0.05)',
@@ -1945,6 +1999,7 @@ AdminLayout::make()
    - Documentare personalizzazioni
    - Seguire convenzioni di naming
    - Centralizzare configurazioni
+<<<<<<< .merge_file_kDXoBT
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1985,3 +2040,5 @@ AdminLayout::make()
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_rqW6Tc

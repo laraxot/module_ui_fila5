@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_VejwyX
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -18,6 +19,8 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_fNVeMK
 # UI - Product Launch Plan
 
 > Piano di lancio. Modulo.
@@ -64,6 +67,7 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 | Documentazione di supporto aggiornata | 100% |
 
 ## Rischi
+<<<<<<< .merge_file_VejwyX
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_FUOIs1
@@ -286,6 +290,8 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_fNVeMK
 
 - lancio di superfici non ancora supportate dal backend
 - documentazione non aderente al codice reale
@@ -296,6 +302,7 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 - [PRD](prd.md)
 - [User Research](user-research.md)
 - [Indice centrale](../../../../docs/project/PRODUCT_DOCS_INDEX_2026_03_12.md)
+<<<<<<< .merge_file_VejwyX
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -328,3 +335,5 @@ Rilasciare **UI** in modo controllato, misurabile e coerente con il suo ruolo: d
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_fNVeMK

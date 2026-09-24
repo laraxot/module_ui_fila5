@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_hBvTFs
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_j53JdT
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_vhEtfZ
 https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your-next-project-3igo
 
 https://merakiui.com/

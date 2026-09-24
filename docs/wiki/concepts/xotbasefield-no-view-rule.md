@@ -2,6 +2,7 @@
 name: xotbasefield-no-view-rule
 description: XotBaseField subclasses must not declare a protected $view property; view is computed dynamically.
 type: concept
+<<<<<<< .merge_file_d45O8G
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_1HdiNM
@@ -39,6 +40,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_FRtItj
 ---
 
 # XotBaseField – No `$view` Property Rule

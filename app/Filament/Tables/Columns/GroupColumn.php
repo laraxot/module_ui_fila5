@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Tables\Columns\Column;
+<<<<<<< .merge_file_ypO48G
 <<<<<<< HEAD
 <<<<<<< .merge_file_tR081w
 =======
@@ -54,6 +55,10 @@ class GroupColumn extends XotBaseColumn
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+
+class GroupColumn extends Column
+>>>>>>> .merge_file_SRGAjS
 {
     /** @var array<int|string, mixed> */
     public array $form = [];
@@ -66,6 +71,7 @@ class GroupColumn extends XotBaseColumn
     protected string $view = 'ui::filament.tables.columns.group';
 
     /**
+<<<<<<< .merge_file_ypO48G
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -75,6 +81,8 @@ class GroupColumn extends XotBaseColumn
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_SRGAjS
      * Initialize the component.
      */
     protected function setUp(): void
@@ -85,6 +93,7 @@ class GroupColumn extends XotBaseColumn
     }
 
     /**
+<<<<<<< .merge_file_ypO48G
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -95,6 +104,8 @@ class GroupColumn extends XotBaseColumn
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_SRGAjS
      * @return array<Column>
      */
     public function getFields(): array
@@ -103,6 +114,7 @@ class GroupColumn extends XotBaseColumn
     }
 
     /**
+<<<<<<< .merge_file_ypO48G
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -110,13 +122,15 @@ class GroupColumn extends XotBaseColumn
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_SRGAjS
      * @param array<int|string, mixed> $form
      */
-    public function schema(array $form): static
+    public function schema(array $form): self
     {
-<<<<<<< .merge_file_tR081w
         // Type-check to ensure all elements are Column instances
         $filtered = array_filter($form, function (mixed $item): bool {
+<<<<<<< .merge_file_ypO48G
 <<<<<<< HEAD
 =======
 =======
@@ -147,6 +161,8 @@ class GroupColumn extends XotBaseColumn
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_SRGAjS
             return $item instanceof Column;
         });
 
@@ -154,6 +170,7 @@ class GroupColumn extends XotBaseColumn
         $filteredValues = array_values($filtered);
         $this->schema = $filteredValues;
 
+<<<<<<< .merge_file_ypO48G
 <<<<<<< HEAD
 <<<<<<< .merge_file_tR081w
 =======
@@ -230,4 +247,8 @@ class GroupColumn extends XotBaseColumn
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+        return $this;
+    }
+>>>>>>> .merge_file_SRGAjS
 }

@@ -16,10 +16,10 @@
 ```html
 <div class="form-group">
   <label for="email">Email</label>
-<<<<<<< HEAD
   <input
     type="email"
     id="email"
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
 <<<<<<< .merge_file_WHmd7R
 =======
@@ -87,6 +87,8 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_DFfI7P
     class="form-control is-invalid"
     aria-describedby="email-error"
   >
@@ -100,6 +102,7 @@
 ```html
 <div class="form-group">
   <label for="search">Cerca</label>
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
   <input
     type="text"
@@ -168,6 +171,11 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+  <input
+    type="text"
+    id="search"
+>>>>>>> .merge_file_DFfI7P
     class="form-control"
     list="suggestions"
     autocomplete="off"
@@ -186,10 +194,10 @@
 <div class="form-group">
   <label for="date">Data</label>
   <div class="input-group datepicker">
-<<<<<<< HEAD
     <input
       type="text"
       id="date"
+<<<<<<< .merge_file_4txp3o
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -254,6 +262,8 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_DFfI7P
       class="form-control"
       data-date-format="dd/mm/yyyy"
     >
@@ -269,6 +279,7 @@
 <div class="form-group">
   <label for="time">Ora</label>
   <div class="input-group timepicker">
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
     <input
       type="text"
@@ -337,6 +348,11 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+    <input
+      type="text"
+      id="time"
+>>>>>>> .merge_file_DFfI7P
       class="form-control"
       data-time-format="HH:mm"
     >
@@ -353,6 +369,7 @@
 ```html
 <div class="form-group">
   <label for="range">Range</label>
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
   <input
     type="range"
@@ -424,6 +441,11 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+  <input
+    type="range"
+    id="range"
+>>>>>>> .merge_file_DFfI7P
     class="form-range"
     min="0"
     max="100"
@@ -439,6 +461,7 @@
   <label for="quantity">Quantità</label>
   <div class="input-group">
     <button class="btn btn-outline-secondary" type="button">-</button>
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
     <input
       type="number"
@@ -507,6 +530,11 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+    <input
+      type="number"
+      id="quantity"
+>>>>>>> .merge_file_DFfI7P
       class="form-control text-center"
       min="0"
       max="100"
@@ -555,6 +583,7 @@
     border-color: $primary;
     box-shadow: 0 0 0 0.2rem rgba($primary, 0.25);
   }
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WHmd7R
@@ -621,10 +650,13 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_DFfI7P
 
   &.is-invalid {
     border-color: $danger;
 
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -656,6 +688,8 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_DFfI7P
     &:focus {
       box-shadow: 0 0 0 0.2rem rgba($danger, 0.25);
     }
@@ -667,6 +701,7 @@
 ```scss
 .input-group {
   transition: all 0.3s ease;
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WHmd7R
@@ -721,6 +756,9 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_DFfI7P
   &:focus-within {
     transform: translateY(-1px);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -732,6 +770,7 @@
 - [Componenti Base](./base-components.md)
 - [Feedback](./feedback-components.md)
 - [Accessibilità](./standards/accessibility.md)
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -739,14 +778,14 @@
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_DFfI7P
 - [Performance](./standards/performance.md)
 # Componenti Form Avanzati
-<<<<<<< HEAD
-## 📝 Input Avanzati
-=======
 
 ## 📝 Input Avanzati
 
+<<<<<<< .merge_file_4txp3o
 <<<<<<< .merge_file_WHmd7R
 <<<<<<< HEAD
 =======
@@ -790,6 +829,8 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_DFfI7P
 ### Input con Icona
 ```html
 <div class="input-group">
@@ -799,6 +840,7 @@
   <input type="text" class="form-control" placeholder="Username">
 </div>
 ```
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WHmd7R
@@ -830,6 +872,11 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+
+### Input con Validazione
+```html
+>>>>>>> .merge_file_DFfI7P
 <div class="form-group">
   <label for="email">Email</label>
   <input
@@ -841,6 +888,7 @@
   <div id="email-error" class="invalid-feedback">
     Inserisci un indirizzo email valido
   </div>
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WHmd7R
@@ -858,6 +906,8 @@
 >>>>>>> .merge_file_KMvH8u
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_DFfI7P
 </div>
 ```
 
@@ -866,6 +916,7 @@
 <div class="form-group">
   <label for="search">Cerca</label>
   <input
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
 <<<<<<< .merge_file_WHmd7R
 <<<<<<< HEAD
@@ -883,11 +934,14 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_DFfI7P
     type="text"
     id="search"
     class="form-control"
     list="suggestions"
     autocomplete="off"
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WHmd7R
@@ -909,10 +963,14 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+  >
+>>>>>>> .merge_file_DFfI7P
   <datalist id="suggestions">
     <option value="Suggerimento 1">
     <option value="Suggerimento 2">
   </datalist>
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WHmd7R
@@ -930,6 +988,8 @@
 >>>>>>> .merge_file_KMvH8u
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_DFfI7P
 </div>
 ```
 
@@ -938,6 +998,7 @@
 ### DatePicker
 ```html
 <div class="form-group">
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
 <<<<<<< .merge_file_WHmd7R
 <<<<<<< HEAD
@@ -955,6 +1016,8 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_DFfI7P
   <label for="date">Data</label>
   <div class="input-group datepicker">
     <input
@@ -966,6 +1029,7 @@
     <span class="input-group-text">
       <i class="fas fa-calendar"></i>
     </span>
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WHmd7R
@@ -988,6 +1052,8 @@
 >>>>>>> .merge_file_KMvH8u
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_DFfI7P
   </div>
 </div>
 ```
@@ -1017,6 +1083,7 @@
 <div class="form-group">
   <label for="range">Range</label>
   <input
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
 <<<<<<< .merge_file_WHmd7R
 <<<<<<< HEAD
@@ -1045,12 +1112,15 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_DFfI7P
     type="range"
     id="range"
     class="form-range"
     min="0"
     max="100"
     step="1"
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WHmd7R
@@ -1069,6 +1139,8 @@
 >>>>>>> .merge_file_KMvH8u
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_DFfI7P
   >
   <div class="range-value">50</div>
 </div>
@@ -1081,6 +1153,7 @@
   <div class="input-group">
     <button class="btn btn-outline-secondary" type="button">-</button>
     <input
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
 <<<<<<< .merge_file_WHmd7R
 <<<<<<< HEAD
@@ -1105,6 +1178,8 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_DFfI7P
       type="number"
       id="quantity"
       class="form-control text-center"
@@ -1112,6 +1187,7 @@
       max="100"
       step="1"
       value="1"
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WHmd7R
@@ -1130,6 +1206,8 @@
 >>>>>>> .merge_file_KMvH8u
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_DFfI7P
     >
     <button class="btn btn-outline-secondary" type="button">+</button>
   </div>
@@ -1140,6 +1218,7 @@
 
 ### Drag & Drop
 ```html
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
 <<<<<<< .merge_file_WHmd7R
 <<<<<<< HEAD
@@ -1158,6 +1237,8 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_DFfI7P
 <div class="upload-area">
   <input type="file" id="file" class="d-none">
   <label for="file" class="upload-label">
@@ -1165,6 +1246,7 @@
     <span>Trascina i file qui o clicca per selezionare</span>
   </label>
   <div class="upload-preview"></div>
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WHmd7R
@@ -1180,11 +1262,14 @@
 >>>>>>> .merge_file_KMvH8u
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_DFfI7P
 </div>
 ```
 
 ### Preview Immagini
 ```html
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
 <<<<<<< .merge_file_WHmd7R
 <<<<<<< HEAD
@@ -1201,6 +1286,8 @@
 ### Preview Immagini
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_DFfI7P
 <div class="image-upload">
   <input type="file" id="image" accept="image/*" class="d-none">
   <label for="image" class="image-preview">
@@ -1209,6 +1296,7 @@
       <i class="fas fa-camera"></i>
       <span>Cambia immagine</span>
     </div>
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WHmd7R
@@ -1224,12 +1312,15 @@
 >>>>>>> .merge_file_KMvH8u
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_DFfI7P
   </label>
 </div>
 ```
 
 ## 🎨 Stili e Comportamenti
 
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
 <<<<<<< .merge_file_WHmd7R
 <<<<<<< HEAD
@@ -1246,6 +1337,8 @@
 ## 🎨 Stili e Comportamenti
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_DFfI7P
 ### Focus States
 ```scss
 .form-control {
@@ -1253,6 +1346,7 @@
     border-color: $primary;
     box-shadow: 0 0 0 0.2rem rgba($primary, 0.25);
   }
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WHmd7R
@@ -1278,6 +1372,8 @@
 >>>>>>> .merge_file_KMvH8u
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_DFfI7P
 
   &.is-invalid {
     border-color: $danger;
@@ -1301,6 +1397,7 @@
 }
 ```
 
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
 <<<<<<< .merge_file_WHmd7R
 <<<<<<< HEAD
@@ -1332,10 +1429,13 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_DFfI7P
 ## 🔗 Collegamenti
 - [Componenti Base](./base-components.md)
 - [Feedback](./feedback-components.md)
 - [Accessibilità](./standards/accessibility.md)
+<<<<<<< .merge_file_4txp3o
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WHmd7R
@@ -1388,3 +1488,6 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+- [Performance](./standards/performance.md)
+>>>>>>> .merge_file_DFfI7P

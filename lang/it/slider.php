@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_gz5XFR
 <<<<<<< HEAD
 <<<<<<< .merge_file_XztUqd
 <<<<<<< HEAD
@@ -30,11 +31,14 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_8Po8cD
 return [
     'fields' => [
         'method' => ['label' => 'method', 'description' => 'method', 'helper_text' => 'method', 'placeholder' => 'method', 'tooltip' => ''],
         '_tpl' => ['label' => '_tpl', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
         'view' => ['label' => 'view', 'tooltip' => '', 'helper_text' => '', 'description' => '', 'placeholder' => 'view'],
+<<<<<<< .merge_file_gz5XFR
 <<<<<<< HEAD
 <<<<<<< .merge_file_XztUqd
 <<<<<<< HEAD
@@ -56,6 +60,8 @@ return [
 >>>>>>> .merge_file_mTAnhJ
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_8Po8cD
     ],
     'label' => 'Slider',
     'plural_label' => 'Slider (Plurale)',
@@ -65,6 +71,7 @@ return [
         'group' => ['name' => 'General', 'description' => 'General Settings'],
         'label' => 'Slider',
         'sort' => 1,
+<<<<<<< .merge_file_gz5XFR
 <<<<<<< HEAD
 <<<<<<< .merge_file_XztUqd
 <<<<<<< HEAD
@@ -88,6 +95,9 @@ return [
 >>>>>>> .merge_file_mTAnhJ
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_8Po8cD
     ],
     'actions' => [
         'create' => ['label' => 'Crea Slider'],

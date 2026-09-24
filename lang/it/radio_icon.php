@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_s1bHcm
 <<<<<<< HEAD
 <<<<<<< .merge_file_irllZ2
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0sJO3q
 return [
     'fields' => [
         'newstate' => [
@@ -50,6 +53,7 @@ return [
         ],
         'label' => 'Radio Icon',
         'sort' => 1,
+<<<<<<< .merge_file_s1bHcm
 <<<<<<< HEAD
 <<<<<<< .merge_file_irllZ2
 <<<<<<< HEAD
@@ -73,6 +77,9 @@ return [
 >>>>>>> .merge_file_eUB6b3
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_0sJO3q
     ],
     'actions' => [
         'create' => [

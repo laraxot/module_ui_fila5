@@ -2,6 +2,7 @@
 module: theme
 topic: usage
 canonical: ../../../../Themes/docs/shared-components/usage-Modules.md
+<<<<<<< .merge_file_dJnmng
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_YKd2wj
@@ -36,6 +37,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tFOKRQ
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/usage-Modules.md

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_Fnv8jq
 <<<<<<< HEAD
 <?php
 
@@ -5,6 +6,8 @@ declare(strict_types=1);
 ?>
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_8ifanR
 @props([
     'id' => null,
     'name' => 'toggle',

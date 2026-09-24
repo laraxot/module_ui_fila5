@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_33XUrE
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_RkhV9c
@@ -120,6 +121,8 @@ php artisan config:clear
 >>>>>>> .merge_file_I73sIN
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_MYolyl
 ---
 module: theme
 topic: bugfix-icons-missing
@@ -127,6 +130,7 @@ canonical: ../../../Themes/docs/shared-components/bugfix-icons-missing.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/bugfix-icons-missing.md
+<<<<<<< .merge_file_33XUrE
 <<<<<<< HEAD
 <<<<<<< .merge_file_RkhV9c
 <<<<<<< HEAD
@@ -255,3 +259,5 @@ php artisan config:clear
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_MYolyl

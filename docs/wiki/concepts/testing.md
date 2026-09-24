@@ -6,6 +6,7 @@ created: 2026-06-05
 updated: 2026-06-13
 qmd: "UI module testing Pest PHPStan Sixteen components mockService createStub"
 issues:
+<<<<<<< .merge_file_lLUdmn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_O021b8
@@ -29,12 +30,15 @@ related:
 >>>>>>> .merge_file_E3NDq0
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_faPWRx
   - "https://github.com/laraxot/base_fixcity_fila5/issues/52"
 discussions:
   - "https://github.com/laraxot/module_fixcity_fila5/discussions/53"
 related:
   - ../../../../Themes/Sixteen/docs/wiki/concepts/theme-component-test-contract.md
   - ../../../Xot/docs/wiki/concepts/phpstan-pest-bridge-discipline.md
+<<<<<<< .merge_file_lLUdmn
 <<<<<<< HEAD
 <<<<<<< .merge_file_O021b8
 <<<<<<< HEAD
@@ -64,6 +68,8 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_faPWRx
 ---
 
 # Testing in UI

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_jmPRGh
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KdmMcq
@@ -716,6 +717,8 @@ L'integrazione dei server MCP con il modulo UI consente di migliorare significat
 >>>>>>> .merge_file_1RmOGR
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_39CUsN
 ---
 module: theme
 topic: mcp_integration
@@ -723,6 +726,7 @@ canonical: ../../../Themes/docs/shared-components/mcp-integration.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/mcp-integration.md
+<<<<<<< .merge_file_jmPRGh
 <<<<<<< HEAD
 <<<<<<< .merge_file_KdmMcq
 <<<<<<< HEAD
@@ -1489,3 +1493,5 @@ L'integrazione dei server MCP con il modulo UI consente di migliorare significat
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_39CUsN

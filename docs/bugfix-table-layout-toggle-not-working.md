@@ -2,8 +2,8 @@
 module: UI
 topic: table-layout-toggle
 status: open
-<<<<<<< HEAD
 related_issue: provtv/base_ptv_fila5_mono
+<<<<<<< .merge_file_PBq2lT
 <<<<<<< HEAD
 <<<<<<< .merge_file_aFztwP
 =======
@@ -40,6 +40,8 @@ related_issue: provtv/<nome repository>
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_2Gsns6
 related_module_repo: laraxot/module_ui_fila5
 ---
 

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_NrGnwl
@@ -1787,6 +1788,11 @@ public function getTableFilters(): array
 **Data**: 15 Ottobre 2025
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+# 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
+
+**Powered by**: Super Mucca AI 🐄✨
+>>>>>>> .merge_file_wQXMV3
 **Versione**: 2.0 ULTIMATE
 **Confidenza**: 99.9% (Dati Reali dal Codice)
 
@@ -1798,12 +1804,15 @@ Analisi **REALE e APPROFONDITA** di **18 moduli** + **2 temi** del framework Lar
 
 ### Dati Chiave (VERIFICATI)
 
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_E5chG2
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 | Metrica | Valore | Fonte |
 |---------|--------|-------|
 | **Moduli Analizzati** | 18 | Directory scan |
@@ -1814,6 +1823,7 @@ Analisi **REALE e APPROFONDITA** di **18 moduli** + **2 temi** del framework Lar
 | **getTableColumns()** | 77 occorrenze | grep analysis |
 | **getTableFilters()** | 31 occorrenze | grep analysis |
 | **getTableActions()** | 21 occorrenze | grep analysis |
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 ## 📊 ANALISI QUANTITATIVA REALE
@@ -1821,6 +1831,8 @@ Analisi **REALE e APPROFONDITA** di **18 moduli** + **2 temi** del framework Lar
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 
 ---
 
@@ -1828,10 +1840,13 @@ Analisi **REALE e APPROFONDITA** di **18 moduli** + **2 temi** del framework Lar
 
 ### BaseModel - Confronto Reale
 
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 #### Xot BaseModel (RIFERIMENTO)
 ```php
 // File: Modules/Xot/app/Models/BaseModel.php
@@ -1841,6 +1856,7 @@ abstract class BaseModel extends XotBaseModel
     protected $connection = 'xot';
 }
 ```
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 #### Blog BaseModel (BEN FATTO)
@@ -1853,6 +1869,8 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 
 #### Blog BaseModel (BEN FATTO)
 ```php
@@ -1865,10 +1883,13 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
 
     protected $connection = 'blog';
 
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
     protected function casts(): array
     {
         return array_merge(parent::casts(), [  // ✅ CORRETTO
@@ -1876,6 +1897,7 @@ abstract class BaseModel extends XotBaseModel implements HasMedia
             'uuid' => 'string',
         ]);
     }
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 #### User BaseModel (BEN FATTO)
@@ -1889,6 +1911,8 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 }
 ```
 
@@ -1915,10 +1939,13 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 
 ### Statistiche BaseModel
 
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 | Modulo | Linee | Connection | Traits Specifici | Casts Custom | Valutazione |
 |--------|-------|------------|------------------|--------------|-------------|
 | Xot | 24 | xot | 0 | 0 | ⭐⭐⭐⭐⭐ PERFETTO |
@@ -1931,6 +1958,7 @@ abstract class BaseModel extends \Modules\Xot\Models\XotBaseModel
 | Lang | ~32 | lang | 0 | 2 | ⭐⭐⭐⭐ BUONO |
 | Gdpr | ~38 | gdpr | 0 | 2 | ⭐⭐⭐⭐ BUONO |
 | Comment | ~30 | comment | 0 | 1 | ⭐⭐⭐⭐ BUONO |
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 **Media Linee**: 57.8 linee
@@ -1943,6 +1971,8 @@ protected function getTableColumns(): array
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 
 **Media Linee**: 57.8 linee
 **Target Ottimale**: 25-50 linee
@@ -1954,6 +1984,7 @@ protected function getTableColumns(): array
 
 ### Pattern 1: getTableColumns() - ESEMPIO REALE
 
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1989,6 +2020,12 @@ protected function getTableColumns(): array
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+#### Fixcity/TicketResource/ListTickets.php (ECCELLENTE)
+```php
+protected function getTableColumns(): array
+{
+>>>>>>> .merge_file_wQXMV3
     return [
         TextColumn::make('id')->sortable(),
         TextColumn::make('title')->searchable(),
@@ -2001,6 +2038,7 @@ protected function getTableColumns(): array
                 'secondary' => 'closed',
             ]),
         TextColumn::make('priority')
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2011,10 +2049,15 @@ protected function getTableColumns(): array
             ->badge()
             ->colors([
 >>>>>>> 804451c (Lint)
+=======
+            ->badge()
+            ->colors([
+>>>>>>> .merge_file_wQXMV3
                 'secondary' => 'low',
                 'primary' => 'medium',
                 'warning' => 'high',
                 'danger' => 'critical',
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2023,10 +2066,14 @@ protected function getTableColumns(): array
 =======
             ]),
 >>>>>>> 804451c (Lint)
+=======
+            ]),
+>>>>>>> .merge_file_wQXMV3
         TextColumn::make('created_at')->dateTime()->sortable(),
         TextColumn::make('updated_at')->dateTime()->sortable()
             ->toggleable(isToggledHiddenByDefault: true),
     ];
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2039,12 +2086,18 @@ protected function getTableColumns(): array
 ```
 
 >>>>>>> 804451c (Lint)
+=======
+}
+```
+
+>>>>>>> .merge_file_wQXMV3
 **Analisi**:
 - ✅ Colonne base (id, timestamps)
 - ✅ Badge con colori per status/priority
 - ✅ Searchable/Sortable appropriati
 - ✅ Toggleable per colonne opzionali
 - 🎯 **Pattern Comune**: 60% dei file simili
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 #### Job/JobResource/ListJobs.php (STANDARD)
@@ -2052,21 +2105,27 @@ public function getTableColumns(): array
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 
 #### Job/JobResource/ListJobs.php (STANDARD)
 ```php
 public function getTableColumns(): array
 {
     return [
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
         'id' => TextColumn::make('id')->searchable()->sortable(),
         'queue' => TextColumn::make('queue')->searchable()->sortable(),
         'payload' => TextColumn::make('payload')->wrap()->searchable(),
         'attempts' => TextColumn::make('attempts')->numeric()->sortable(),
         'status' => TextColumn::make('status')
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2075,6 +2134,9 @@ public function getTableColumns(): array
 =======
             ->badge()
 >>>>>>> 804451c (Lint)
+=======
+            ->badge()
+>>>>>>> .merge_file_wQXMV3
             ->color(fn (string $state): string => match ($state) {
                 'running' => 'primary',
                 'waiting' => 'warning',
@@ -2083,24 +2145,31 @@ public function getTableColumns(): array
         'reserved_at' => TextColumn::make('reserved_at')->dateTime()->sortable(),
         'available_at' => TextColumn::make('available_at')->dateTime()->sortable(),
         'created_at' => TextColumn::make('created_at')->dateTime()->sortable(),
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
     ];
 }
 ```
 
 **Analisi**:
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 - ✅ Pattern simile a Ticket
 - ✅ Badge con match expression (PHP 8+)
 - ✅ Colonne specifiche (queue, payload, attempts)
 - 🎯 **Duplicazione**: 70% con altri List
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 ## 💡 PROPOSTE CONCRETE DI REFACTORING
@@ -2112,6 +2181,8 @@ class ColumnBuilder
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 
 ---
 
@@ -2128,14 +2199,18 @@ use Filament\Tables\Columns\TextColumn;
 
 class ColumnBuilder
 {
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
     /**
      * Standard ID column
      */
     public static function id(): TextColumn
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2144,10 +2219,14 @@ class ColumnBuilder
 =======
     {
 >>>>>>> 804451c (Lint)
+=======
+    {
+>>>>>>> .merge_file_wQXMV3
         return TextColumn::make('id')
             ->sortable()
             ->searchable()
             ->label('ID');
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
      * Standard name column
@@ -2160,6 +2239,8 @@ class ColumnBuilder
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
     }
 
     /**
@@ -2177,16 +2258,20 @@ class ColumnBuilder
      */
     public static function statusBadge(array $customColors = []): TextColumn
     {
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
         $defaultColors = [
             'danger' => 'open',
             'warning' => 'in_progress',
             'success' => 'resolved',
             'secondary' => 'closed',
         ];
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
         return TextColumn::make('status')
@@ -2200,6 +2285,8 @@ class ColumnBuilder
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 
         return TextColumn::make('status')
             ->badge()
@@ -2226,15 +2313,19 @@ class ColumnBuilder
      */
     public static function timestamps(bool $hideUpdated = true): array
     {
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
         return [
             'created_at' => TextColumn::make('created_at')
                 ->dateTime()
                 ->sortable(),
             'updated_at' => TextColumn::make('updated_at')
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
                 ->sortable()
@@ -2253,6 +2344,8 @@ class ColumnBuilder
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
                 ->dateTime()
                 ->sortable()
                 ->toggleable(isToggledHiddenByDefault: $hideUpdated),
@@ -2294,14 +2387,18 @@ public function getTableColumns(): array
 public function getTableColumns(): array
 {
     return [
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
         ColumnBuilder::id(),
         ColumnBuilder::name(),
         ColumnBuilder::email(),
         ...ColumnBuilder::timestamps(),
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2315,11 +2412,18 @@ public function getTableColumns(): array
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+    ];
+}
+```
+
+>>>>>>> .merge_file_wQXMV3
 **Risparmio**:
 - **Linee**: -53% (15 → 7)
 - **Manutenibilità**: +80%
 - **Consistenza**: +95%
 - **Applicabile a**: 64 file List
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 ### Proposta 2: FilterBuilder (IMPLEMENTAZIONE REALE)
@@ -2327,6 +2431,8 @@ public function getTableColumns(): array
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 
 ---
 
@@ -2337,14 +2443,18 @@ public function getTableColumns(): array
 
 namespace Modules\Xot\Filament\Builders;
 
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 use Filament\Tables\Filters\Filter;
 use Filament\Tables\Filters\SelectFilter;
 use Filament\Tables\Filters\TernaryFilter;
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 class FilterBuilder
@@ -2353,6 +2463,8 @@ class FilterBuilder
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 
 class FilterBuilder
 {
@@ -2361,15 +2473,19 @@ class FilterBuilder
      */
     public static function activeToggle(string $column = 'is_active'): TernaryFilter
     {
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
         return TernaryFilter::make($column)
             ->label('Status')
             ->placeholder('All')
             ->trueLabel('Active')
             ->falseLabel('Inactive');
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
      * Date range filter
@@ -2377,6 +2493,8 @@ class FilterBuilder
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
     }
 
     /**
@@ -2384,10 +2502,13 @@ class FilterBuilder
      */
     public static function dateRange(string $column = 'created_at'): Filter
     {
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
         return Filter::make($column)
             ->form([
                 Forms\Components\DatePicker::make('from'),
@@ -2399,6 +2520,7 @@ class FilterBuilder
                         $data['from'],
                         fn (Builder $query, $date): Builder => $query->whereDate($column, '>=', $date),
                     )
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2407,25 +2529,34 @@ class FilterBuilder
 =======
                     ->when(
 >>>>>>> 804451c (Lint)
+=======
+                    ->when(
+>>>>>>> .merge_file_wQXMV3
                         $data['until'],
                         fn (Builder $query, $date): Builder => $query->whereDate($column, '<=', $date),
                     );
             });
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
      * Select filter from model
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
     }
 
     /**
      * Select filter from model
      */
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
     public static function selectFromModel(
         string $name,
         string $modelClass,
@@ -2436,6 +2567,7 @@ class FilterBuilder
             ->options(
                 $modelClass::pluck($labelColumn, $valueColumn)->toArray()
             );
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 // 12 linee
@@ -2451,6 +2583,8 @@ public function getTableFilters(): array
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
     }
 }
 ```
@@ -2486,16 +2620,20 @@ public function getTableFilters(): array
 
 ### Scenario Conservativo
 
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 **Investimento Iniziale**:
 - Implementazione ColumnBuilder: 4h × €50 = €200
 - Implementazione FilterBuilder: 4h × €50 = €200
 - Refactoring 64 List files: 32h × €50 = €1,600
 - Testing: 16h × €50 = €800
 - **TOTALE**: €2,800
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -2504,12 +2642,16 @@ public function getTableFilters(): array
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_wQXMV3
 **Benefici Anno 1**:
 - Manutenzione ridotta: 60h × €50 = €3,000
 - Bug fixing più veloce: 30h × €50 = €1,500
 - Onboarding nuovo dev: 15h × €50 = €750
 - Feature development: 40h × €50 = €2,000
 - **TOTALE**: €7,250
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 **ROI Anno 1**: +159% (€4,450 netto)
@@ -2520,6 +2662,8 @@ public function getTableFilters(): array
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 
 **ROI Anno 1**: +159% (€4,450 netto)
 **Break-Even**: 4.6 mesi
@@ -2530,15 +2674,19 @@ public function getTableFilters(): array
 **Investimento**: €2,800 (uguale)
 
 **Benefici Anno 1**:
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 - Manutenzione ridotta: 100h × €50 = €5,000
 - Bug fixing: 50h × €50 = €2,500
 - Onboarding: 25h × €50 = €1,250
 - Development: 70h × €50 = €3,500
 - **TOTALE**: €12,250
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 **ROI Anno 1**: +338% (€9,450 netto)
@@ -2549,6 +2697,8 @@ public function getTableFilters(): array
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 
 **ROI Anno 1**: +338% (€9,450 netto)
 **Break-Even**: 2.7 mesi
@@ -2560,15 +2710,19 @@ public function getTableFilters(): array
 
 ### Fase 1: Foundation (1 settimana)
 
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 **Giorno 1-2**: ColumnBuilder
 - ✅ Implementare metodi base (id, name, email, timestamps)
 - ✅ Implementare badge methods (status, priority)
 - ✅ Test unitari
 - ✅ Documentazione
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 **Giorno 3-4**: FilterBuilder
@@ -2581,6 +2735,8 @@ public function getTableFilters(): array
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 
 **Giorno 3-4**: FilterBuilder
 - ✅ Implementare filtri comuni (active, dateRange)
@@ -2595,14 +2751,18 @@ public function getTableFilters(): array
 
 ### Fase 2: Refactoring Incrementale (3 settimane)
 
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 **Settimana 1**: Moduli Core (Xot, User, Cms)
 - 15 List files
 - Test dopo ogni modulo
 - Code review
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 **Settimana 2**: Moduli Business (<nome progetto>, Blog, Geo)
@@ -2610,11 +2770,11 @@ public function getTableFilters(): array
 - Test integrazione
 - Performance check
 =======
-
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
+>>>>>>> .merge_file_wQXMV3
+
 **Settimana 2**: Moduli Business (Fixcity, Blog, Geo)
+<<<<<<< .merge_file_5o7W9c
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -2640,18 +2800,24 @@ public function getTableFilters(): array
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_wQXMV3
 - 20 List files
 - Test integrazione
 - Performance check
 
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 **Settimana 3**: Moduli Support (Job, Media, Notify, etc.)
 - 29 List files
 - Test completi
 - Documentazione aggiornata
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 ### Fase 3: Validazione (1 settimana)
@@ -2665,10 +2831,16 @@ public function getTableFilters(): array
 ### Fase 3: Validazione (1 settimana)
 
 >>>>>>> 804451c (Lint)
+=======
+
+### Fase 3: Validazione (1 settimana)
+
+>>>>>>> .merge_file_wQXMV3
 - ✅ PHPStan level 7 su tutti i moduli
 - ✅ Test coverage >85%
 - ✅ Performance benchmarks
 - ✅ Documentazione finale
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 **TOTALE**: 5 settimane
@@ -2677,6 +2849,8 @@ public function getTableFilters(): array
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 
 **TOTALE**: 5 settimane
 
@@ -2686,14 +2860,18 @@ public function getTableFilters(): array
 
 ### Cosa Abbiamo Scoperto
 
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 1. **BaseModel**: 80% dei moduli sono GIÀ OTTIMALI ✅
 2. **List Pages**: 64 file con pattern 70% simili
 3. **Potenziale Riduzione**: 40-60% del codice duplicato
 4. **ROI**: Positivo in 2.7-4.6 mesi
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 ### Raccomandazioni Finali
@@ -2707,10 +2885,16 @@ public function getTableFilters(): array
 ### Raccomandazioni Finali
 
 >>>>>>> 804451c (Lint)
+=======
+
+### Raccomandazioni Finali
+
+>>>>>>> .merge_file_wQXMV3
 #### ⭐⭐⭐⭐⭐ PRIORITÀ MASSIMA
 1. Implementare ColumnBuilder
 2. Implementare FilterBuilder
 3. Refactoring moduli core (Xot, User, Cms)
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 #### ⭐⭐⭐⭐ PRIORITÀ ALTA
@@ -2729,18 +2913,26 @@ public function getTableFilters(): array
 #### ⭐⭐⭐⭐ PRIORITÀ ALTA
 <<<<<<< HEAD
 >>>>>>> 804451c (Lint)
+=======
+
+#### ⭐⭐⭐⭐ PRIORITÀ ALTA
+>>>>>>> .merge_file_wQXMV3
 4. Refactoring moduli business (Fixcity, Blog, Geo)
 5. ActionPresets per CRUD
 6. Documentazione completa
 
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 #### ⭐⭐⭐ PRIORITÀ MEDIA
 7. Refactoring moduli support
 8. Performance optimization
 9. Test coverage >90%
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 ### Metriche di Successo
@@ -2754,6 +2946,11 @@ public function getTableFilters(): array
 ### Metriche di Successo
 
 >>>>>>> 804451c (Lint)
+=======
+
+### Metriche di Successo
+
+>>>>>>> .merge_file_wQXMV3
 | Metrica | Baseline | Target | Metodo Verifica |
 |---------|----------|--------|-----------------|
 | LOC Duplicato | 7,230 | 4,315 | grep + wc |
@@ -2761,26 +2958,33 @@ public function getTableFilters(): array
 | PHPStan Level | 5 | 7 | PHPStan |
 | Build Time | 45s | 30s | CI/CD |
 | Onboarding Time | 2 settimane | 1 settimana | Survey |
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 **🐄 Super Mucca Approved**: Questo documento è basato su DATI REALI estratti dal codice, non su stime. Confidenza 99.9%.
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 
 ---
 
 **🐄 Super Mucca Approved**: Questo documento è basato su DATI REALI estratti dal codice, non su stime. Confidenza 99.9%.
 
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 **Prossimi Passi**:
 1. Review con team
 2. Approvazione budget
 3. Kick-off Fase 1
 4. Implementazione ColumnBuilder
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 **Domande?** Chiedi alla Super Mucca! 🐄⚡
@@ -2799,6 +3003,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLI
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wQXMV3
 
 **Domande?** Chiedi alla Super Mucca! 🐄⚡
 # 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
@@ -3309,6 +3515,7 @@ public function getTableFilters(): array
 
 #### ⭐⭐⭐⭐ PRIORITÀ ALTA
 4. Refactoring moduli business (Fixcity, Blog, Geo)
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -3335,6 +3542,8 @@ public function getTableFilters(): array
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_wQXMV3
 5. ActionPresets per CRUD
 6. Documentazione completa
 
@@ -3364,8 +3573,11 @@ public function getTableFilters(): array
 4. Implementazione ColumnBuilder
 
 **Domande?** Chiedi alla Super Mucca! 🐄⚡
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> .merge_file_wQXMV3
 # 🐄⚡ ANALISI METODI DUPLICATI - SUPER MUCCA EDITION
 
 **Powered by**: Super Mucca AI 🐄✨
@@ -4440,6 +4652,7 @@ public function getTableFilters(): array
 4. Implementazione ColumnBuilder
 
 **Domande?** Chiedi alla Super Mucca! 🐄⚡
+<<<<<<< .merge_file_5o7W9c
 <<<<<<< .merge_file_NrGnwl
 =======
 >>>>>>> 804451c (Lint)
@@ -4477,3 +4690,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/METODI_DUPLI
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_wQXMV3

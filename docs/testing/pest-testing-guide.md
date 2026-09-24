@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_IS7sM9
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_YCx88q
@@ -58,6 +59,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_oZdSXH
 # Pest Testing Guide - UI Module
 
 ## 🎯 Overview
@@ -389,6 +392,7 @@ Based on existing UI module tests:
 ## 🔗 Related Documentation
 
 ### **Module Documentation**
+<<<<<<< .merge_file_IS7sM9
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_YCx88q
@@ -414,6 +418,9 @@ Based on existing UI module tests:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [UI Module README](../readme.md)
+>>>>>>> .merge_file_oZdSXH
 - [Component Architecture](../components.md)
 - [Theme System](../themes.md)
 

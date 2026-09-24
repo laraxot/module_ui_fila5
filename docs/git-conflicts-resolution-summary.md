@@ -45,6 +45,7 @@ Tutti i file risolti rispettano:
 
 ## Collegamenti
 
+<<<<<<< .merge_file_Zi7HeR
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_s4T8Rp
@@ -82,6 +83,11 @@ Tutti i file risolti rispettano:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [Documentazione Root UI](../../../../docs/modules/ui.md)
+- [Components Documentation](./components.md)
+- [Design System Guidelines](../../../../docs/design-system.md)
+>>>>>>> .merge_file_yWD2r8
 
 ---
 *Aggiornato automaticamente dopo risoluzione conflitti Git*

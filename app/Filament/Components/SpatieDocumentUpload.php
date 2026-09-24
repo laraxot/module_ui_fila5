@@ -18,6 +18,7 @@ final class SpatieDocumentUpload
     /**
      * Configurazione base per upload documenti con collection specifica.
      *
+<<<<<<< .merge_file_UAmTol
 <<<<<<< HEAD
      * @param string $name       Nome del campo
      * @param string $collection Nome della media collection
@@ -40,6 +41,10 @@ final class SpatieDocumentUpload
      * @param  string  $collection  Nome della media collection
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+     * @param  string  $name  Nome del campo
+     * @param  string  $collection  Nome della media collection
+>>>>>>> .merge_file_dYGu00
      */
     public static function make(string $name, string $collection): SpatieMediaLibraryFileUpload
     {
@@ -105,6 +110,7 @@ final class SpatieDocumentUpload
     {
         return self::make('certifications', 'certificazioni_professionali')
             ->multiple()
+<<<<<<< .merge_file_UAmTol
 <<<<<<< HEAD
 <<<<<<< .merge_file_V5jE6n
 <<<<<<< HEAD
@@ -128,6 +134,9 @@ final class SpatieDocumentUpload
 >>>>>>> .merge_file_IilNwm
 =======
 >>>>>>> 804451c (Lint)
+=======
+            ->reorderable()
+>>>>>>> .merge_file_dYGu00
             ->maxFiles(10) // Max 10 certificazioni per dottore
             ->acceptedFileTypes(['application/pdf'])
             ->maxSize(10240); // 10MB per certificazioni multiple
@@ -136,6 +145,7 @@ final class SpatieDocumentUpload
     /**
      * Upload documento generico con collection personalizzata.
      *
+<<<<<<< .merge_file_UAmTol
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -157,10 +167,13 @@ final class SpatieDocumentUpload
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_dYGu00
      * @param  string  $name  Nome del campo
      * @param  string  $collection  Nome della collection
      * @param  array<string>  $mimeTypes  Tipi MIME accettati
      * @param  int  $maxSize  Dimensione massima in KB
+<<<<<<< .merge_file_UAmTol
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -169,6 +182,8 @@ final class SpatieDocumentUpload
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_dYGu00
      */
     public static function custom(
         string $name,

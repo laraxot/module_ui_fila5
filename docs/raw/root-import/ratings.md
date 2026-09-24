@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_B308mZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hlT8z4
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_dPyJCH
 -------------------------------------------------------------------------------------------------
 Add Ratings and Reviews for Laravel's Eloquent Models
 https://codebrisk.com/blog/add-ratings-and-reviews-for-laravel-s-eloquent-models

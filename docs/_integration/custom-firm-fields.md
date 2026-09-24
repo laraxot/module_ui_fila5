@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_BY3xNU
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_bCcFqi
@@ -81,12 +82,15 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_pWt9H6
 # custom_firm_fields
 
 <!-- Contenuto migrato da _docs/custom_firm_fields.txt -->
 
 https://github.com/tanthammar/filament-extras
 
+<<<<<<< .merge_file_BY3xNU
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -118,6 +122,8 @@ https://github.com/tanthammar/filament-extras
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_pWt9H6
 //--- with nested ?
 https://github.com/saade/filament-extra
 
@@ -127,6 +133,7 @@ https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-ca
 <!-- Contenuto migrato da _docs/custom_firm_fields.txt -->
 
 https://github.com/tanthammar/filament-extras
+<<<<<<< .merge_file_BY3xNU
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -158,10 +165,13 @@ https://github.com/tanthammar/filament-extras
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_pWt9H6
 
 //--- with nested ?
 https://github.com/saade/filament-extra
 
+<<<<<<< .merge_file_BY3xNU
 <<<<<<< HEAD
 https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
 =======
@@ -223,3 +233,6 @@ https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-ca
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
+>>>>>>> .merge_file_pWt9H6

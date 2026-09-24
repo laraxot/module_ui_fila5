@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_mbuaFL
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -46,6 +47,8 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_6bsrup
 https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
 
 
@@ -59,6 +62,7 @@ https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
 
 
 
+<<<<<<< .merge_file_mbuaFL
 <<<<<<< HEAD
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
 =======
@@ -77,3 +81,6 @@ https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+>>>>>>> .merge_file_6bsrup

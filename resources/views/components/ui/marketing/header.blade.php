@@ -1,10 +1,14 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_MCHYpW
 <<<<<<< HEAD
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_F5wzyX
 ?>
 <header class="w-full">
     <div class="relative z-20 flex items-center justify-between w-full h-20 max-w-6xl px-6 mx-auto">

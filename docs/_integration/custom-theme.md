@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_L9liOK
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_jqaPDZ
@@ -80,12 +81,15 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_99rF1q
 # custom_theme
 
 <!-- Contenuto migrato da _docs/custom_theme.txt -->
 
 https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss
 
+<<<<<<< .merge_file_L9liOK
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -117,6 +121,8 @@ https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-li
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_99rF1q
 php artisan make:filament-theme admin
 
 add resources/css/filament/admin/theme.css entry to vite.config.js
@@ -128,6 +134,7 @@ in app/Providers/Filament/AdminPanelProvider.php
 <!-- Contenuto migrato da _docs/custom_theme.txt -->
 
 https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss
+<<<<<<< .merge_file_L9liOK
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -159,12 +166,15 @@ https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-li
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_99rF1q
 
 php artisan make:filament-theme admin
 
 add resources/css/filament/admin/theme.css entry to vite.config.js
 
 in app/Providers/Filament/AdminPanelProvider.php
+<<<<<<< .merge_file_L9liOK
 <<<<<<< HEAD
 ->viteTheme('resources/css/filament/admin/theme.css')
 =======
@@ -208,3 +218,6 @@ in app/Providers/Filament/AdminPanelProvider.php
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+->viteTheme('resources/css/filament/admin/theme.css')
+>>>>>>> .merge_file_99rF1q

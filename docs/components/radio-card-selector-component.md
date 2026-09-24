@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_WsbVxH
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_jgp3l3
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_Sw2IaU
 # RadioCardSelector Component - Modulo UI
 
 ## 🎯 **Panoramica**

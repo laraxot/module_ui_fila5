@@ -136,6 +136,7 @@ Related:
 ## Related Documentation
 
 - [Project Wiki Integration](../../docs/wiki/README.md)
+<<<<<<< .merge_file_QoCceT
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -147,11 +148,11 @@ Related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
-- [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
 =======
-- [Project Wiki Agent Instructions](../../docs/wiki/agents.md)
->>>>>>> 92912795 (.)
+>>>>>>> .merge_file_Hnnunm
+- [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
 - [Module Documentation](../README.md)
+<<<<<<< .merge_file_QoCceT
 
 
 ---
@@ -458,3 +459,5 @@ Related:
 - [Project Wiki Agent Instructions](../../docs/wiki/AGENTS.md)
 - [Module Documentation](../README.md)
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_Hnnunm

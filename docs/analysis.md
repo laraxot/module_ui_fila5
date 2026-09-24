@@ -61,6 +61,7 @@ Modules/UI/
 ### Versione HEAD
 
 ## Collegamenti tra versioni di analysis.md
+<<<<<<< .merge_file_YZ6ogC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_DPWtZZ
@@ -87,6 +88,8 @@ Modules/UI/
 >>>>>>> .merge_file_eZDgZp
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_t69F9p
 * [analysis.md](../../../notify/docs/analysis.md)
 * [analysis.md](../../../notify/docs/phpstan/analysis.md)
 * [analysis.md](../../../xot/docs/analysis.md)
@@ -100,6 +103,7 @@ Modules/UI/
 * [analysis.md](../../../media/docs/analysis.md)
 * [analysis.md](../../../media/docs/phpstan/analysis.md)
 * [analysis.md](../../../../themes/one/docs/analysis.md)
+<<<<<<< .merge_file_YZ6ogC
 <<<<<<< HEAD
 <<<<<<< .merge_file_DPWtZZ
 <<<<<<< HEAD
@@ -132,6 +136,8 @@ Modules/UI/
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_t69F9p
 
 ### Versione Incoming
 

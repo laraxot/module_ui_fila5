@@ -1,7 +1,7 @@
 ---
 module: theme
-<<<<<<< HEAD
 topic: architecture-rules-1
+<<<<<<< .merge_file_PAgnEr
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14,10 +14,13 @@ topic: architecture-rules_1
 topic: architecture-rules_1
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_qRN8eG
 canonical: ../../../Themes/docs/shared-components/architecture-rules-Modules.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/architecture-rules-Modules.md
+<<<<<<< .merge_file_PAgnEr
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -45,3 +48,5 @@ For strict coding standards, Filament extension rules, and PHPStan guidelines, p
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_qRN8eG

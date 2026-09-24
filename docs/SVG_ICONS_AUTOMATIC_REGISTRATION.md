@@ -91,8 +91,8 @@ ls -la laravel/Modules/UI/resources/svg/brands/
 php artisan view:clear
 
 # Test in browser
-<<<<<<< HEAD
 # http://fixcity.local/it/tests/homepage
+<<<<<<< .merge_file_4CSlFn
 =======
 <<<<<<< HEAD
 # http://fixcity.local/it/tests/homepage
@@ -136,6 +136,8 @@ php artisan view:clear
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_F1oLKo
 ```
 
 ## 📊 Icon Inventory

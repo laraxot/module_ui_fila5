@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_7FBHDD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8uMWvz
@@ -246,6 +247,8 @@ class ThemeCompiler
 >>>>>>> .merge_file_hgzFMe
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_HQI9Xm
 ---
 module: theme
 topic: theme_system
@@ -253,6 +256,7 @@ canonical: ../../../../Themes/docs/shared-components/theme-system.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/theme-system.md
+<<<<<<< .merge_file_7FBHDD
 <<<<<<< HEAD
 <<<<<<< .merge_file_8uMWvz
 <<<<<<< HEAD
@@ -507,3 +511,5 @@ class ThemeCompiler
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_HQI9Xm

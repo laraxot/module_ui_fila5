@@ -3,6 +3,7 @@
 ## Pacchetti Utilizzati
 
 ### Core
+<<<<<<< .merge_file_vQR5N1
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_vrjsfC
@@ -28,6 +29,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [laraxot/module_xot_fila5](../xot/docs/packages.md) - Modulo base per funzionalità comuni
+>>>>>>> .merge_file_ECd5xZ
 - [filament/filament](https://filamentphp.com) - Admin panel e componenti UI
 - [tailwindcss/tailwindcss](https://tailwindcss.com) - Framework CSS utility-first
 
@@ -79,6 +83,7 @@
 ### Versione HEAD
 
 ## Collegamenti tra versioni di packages.md
+<<<<<<< .merge_file_vQR5N1
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_vrjsfC
@@ -101,6 +106,8 @@
 >>>>>>> .merge_file_aW8dTb
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ECd5xZ
 * [packages.md](../../../gdpr/docs/packages.md)
 * [packages.md](../../../notify/docs/packages.md)
 * [packages.md](../../../xot/docs/packages.md)
@@ -110,6 +117,7 @@
 * [packages.md](../../../job/docs/packages.md)
 * [packages.md](../../../media/docs/packages.md)
 * [packages.md](../../../tenant/docs/packages.md)
+<<<<<<< .merge_file_vQR5N1
 <<<<<<< HEAD
 <<<<<<< .merge_file_vrjsfC
 <<<<<<< HEAD
@@ -138,6 +146,8 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ECd5xZ
 
 ### Versione Incoming
 

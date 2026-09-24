@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_vWCE2j
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
@@ -22,6 +23,8 @@ Il sistema di blocchi di il progetto è un'architettura modulare che permette di
 >>>>>>> .merge_file_B4rhir
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_qZG7JW
 # Sistema di Blocchi
 
 ## Introduzione
@@ -29,6 +32,7 @@ Il sistema di blocchi di il progetto è un'architettura modulare che permette di
 
 ## Architettura
 
+<<<<<<< .merge_file_vWCE2j
 <<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 <<<<<<< HEAD
@@ -90,6 +94,8 @@ Il sistema di blocchi di il progetto è un'architettura modulare che permette di
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_qZG7JW
 ### Struttura Base
 ```
 laravel/Modules/Cms/
@@ -102,6 +108,7 @@ laravel/Modules/Cms/
 │           └── blocks/       # Componenti Blade per il rendering
 └── docs/
     └── blocks/              # Documentazione dei blocchi
+<<<<<<< .merge_file_vWCE2j
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
@@ -119,11 +126,14 @@ laravel/Modules/Cms/
 >>>>>>> .merge_file_B4rhir
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_qZG7JW
 ```
 
 ### Tipi di Blocchi
 
 1. **[NavigationBlock](../laravel/modules/cms/docs/blocks/navigation-block.md)**
+<<<<<<< .merge_file_vWCE2j
 <<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 <<<<<<< HEAD
@@ -141,10 +151,13 @@ laravel/Modules/Cms/
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_qZG7JW
    - Gestione menu di navigazione
    - Header e footer
    - Menu multilivello
    - Supporto mobile
+<<<<<<< .merge_file_vWCE2j
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
@@ -166,10 +179,14 @@ laravel/Modules/Cms/
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_qZG7JW
 2. **ContentBlock**
    - Testo formattato
    - Immagini e media
    - Layout flessibile
+<<<<<<< .merge_file_vWCE2j
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
@@ -191,10 +208,14 @@ laravel/Modules/Cms/
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_qZG7JW
 3. **FormBlock**
    - Form interattivi
    - Validazione
    - Gestione submit
+<<<<<<< .merge_file_vWCE2j
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
@@ -222,6 +243,8 @@ use Filament\Forms\Components\Builder\Block;
 <<<<<<< HEAD
 =======
 >>>>>>> .merge_file_B4rhir
+=======
+>>>>>>> .merge_file_qZG7JW
 
 ## Implementazione
 
@@ -229,6 +252,7 @@ use Filament\Forms\Components\Builder\Block;
 ```php
 use Filament\Forms\Components\Builder\Block;
 
+<<<<<<< .merge_file_vWCE2j
 <<<<<<< .merge_file_zLbaKL
 <<<<<<< HEAD
 =======
@@ -249,6 +273,8 @@ use Filament\Forms\Components\Builder\Block;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_qZG7JW
 class CustomBlock extends Block
 {
     public static function getBlockSchema(): array
@@ -258,6 +284,7 @@ class CustomBlock extends Block
         ];
     }
 }
+<<<<<<< .merge_file_vWCE2j
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
@@ -285,6 +312,8 @@ public function render()
 >>>>>>> .merge_file_B4rhir
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_qZG7JW
 ```
 
 ### 2. Struttura JSON
@@ -310,6 +339,7 @@ public function render()
 
 ## Best Practices
 
+<<<<<<< .merge_file_vWCE2j
 <<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 <<<<<<< HEAD
@@ -343,11 +373,14 @@ public function render()
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_qZG7JW
 ### 1. Struttura
 - Un blocco per funzionalità
 - Schema JSON consistente
 - Documentazione completa
 - Test automatizzati
+<<<<<<< .merge_file_vWCE2j
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
@@ -369,11 +402,15 @@ public function render()
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_qZG7JW
 ### 2. Performance
 - Ottimizzazione cache
 - Lazy loading
 - Minimizzazione DOM
 - Asset management
+<<<<<<< .merge_file_vWCE2j
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
@@ -395,11 +432,15 @@ public function render()
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_qZG7JW
 ### 3. Manutenibilità
 - Codice pulito
 - Dipendenze chiare
 - Versionamento
 - Backup automatici
+<<<<<<< .merge_file_vWCE2j
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
@@ -421,10 +462,14 @@ public function render()
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_qZG7JW
 ## Links
 - [Documentazione Blocchi](../laravel/Modules/Cms/docs/blocks/)
 - [Gestione Contenuti](content-management.md)
 - [Best Practices UI](ui-best-practices.md)
+<<<<<<< .merge_file_vWCE2j
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
@@ -444,6 +489,8 @@ Questa documentazione è parte del sistema di documentazione di il progetto. Per
 >>>>>>> .merge_file_B4rhir
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_qZG7JW
 
 ## Note
 Questa documentazione è parte del sistema di documentazione di il progetto. Per dettagli specifici sui singoli blocchi, consultare la documentazione dei rispettivi moduli.
@@ -555,6 +602,7 @@ public function render()
 
 ## Note
 Questa documentazione è parte del sistema di documentazione di il progetto. Per dettagli specifici sui singoli blocchi, consultare la documentazione dei rispettivi moduli.
+<<<<<<< .merge_file_vWCE2j
 <<<<<<< HEAD
 <<<<<<< .merge_file_zLbaKL
 <<<<<<< HEAD
@@ -599,3 +647,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/blocks-syste
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_qZG7JW

@@ -37,6 +37,7 @@ Depending on where your site is hosted, you may need to configure your server to
 * [custom-404-page.md](../../../Tenant/docs/it/custom-404-page.md)
 * [custom-404-page.md](../../../Cms/docs/custom-404-page.md)
 
+<<<<<<< .merge_file_FFSTiY
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -55,6 +56,8 @@ Depending on where your site is hosted, you may need to configure your server to
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_kTOmC4
 ### Versione Incoming
 
 ---

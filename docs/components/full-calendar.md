@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
@@ -81,6 +82,8 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_y8JiMw
 # FullCalendar Component for Filament
 
 ## Introduction
@@ -130,8 +133,8 @@ use Saade\FilamentFullCalendar\Data\EventData;
 
 /**
  * Base widget for FullCalendar.
-<<<<<<< HEAD
  *
+<<<<<<< .merge_file_0qGlRC
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -173,6 +176,8 @@ use Saade\FilamentFullCalendar\Data\EventData;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_y8JiMw
  * Provides core functionality for all calendars in the application.
  */
 abstract class BaseCalendarWidget extends FullCalendarWidget
@@ -213,6 +218,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
                 ->placeholder(__('ui::calendar.fields.title.placeholder'))
                 ->helperText(__('ui::calendar.fields.title.help'))
                 ->required(),
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
@@ -267,11 +273,15 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_y8JiMw
             Forms\Components\Grid::make()
                 ->schema([
                     Forms\Components\DateTimePicker::make('start_date')
                         ->label(__('ui::calendar.fields.start_date.label'))
                         ->required(),
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
@@ -326,10 +336,14 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_y8JiMw
                     Forms\Components\DateTimePicker::make('end_date')
                         ->label(__('ui::calendar.fields.end_date.label'))
                         ->required(),
                 ]),
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
@@ -384,10 +398,14 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_y8JiMw
             Forms\Components\Textarea::make('description')
                 ->label(__('ui::calendar.fields.description.label'))
                 ->placeholder(__('ui::calendar.fields.description.placeholder'))
                 ->columnSpanFull(),
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
@@ -455,11 +473,14 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8JiMw
 
             Forms\Components\ColorPicker::make('color')
                 ->label(__('ui::calendar.fields.color.label'))
                 ->rgb(),
 
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -491,6 +512,8 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_y8JiMw
             Forms\Components\Toggle::make('is_all_day')
                 ->label(__('ui::calendar.fields.is_all_day.label'))
                 ->default(false),
@@ -635,6 +658,7 @@ To use the widget in a Blade view:
 
 ## Backlinks and References
 
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
@@ -671,6 +695,8 @@ use Saade\FilamentFullCalendar\FilamentFullCalendarPlugin;
 >>>>>>> .merge_file_cVtnME
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8JiMw
 - [Ptv Module - Calendar Usage](../../ptv/docs/features/full_calendar.md)
 - [Official Saade FullCalendar Documentation](https://github.com/saade/filament-fullcalendar)
 - [FullCalendar.io Documentation](https://fullcalendar.io/docs)
@@ -698,6 +724,7 @@ In the UI module service provider (`Modules/UI/Providers/UIServiceProvider.php`)
 ```php
 use Saade\FilamentFullCalendar\FilamentFullCalendarPlugin;
 
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
 <<<<<<< HEAD
@@ -771,6 +798,8 @@ use Saade\FilamentFullCalendar\FilamentFullCalendarPlugin;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_y8JiMw
 // Inside the boot() or register() method
 $this->app->booted(function () {
     // Register the plugin for all Filament panels
@@ -778,6 +807,7 @@ $this->app->booted(function () {
         FilamentFullCalendarPlugin::make()
     );
 });
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
@@ -796,6 +826,8 @@ namespace Modules\UI\Filament\Widgets;
 >>>>>>> .merge_file_cVtnME
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8JiMw
 ```
 
 ### 2. Base Widget Creation
@@ -809,6 +841,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Widgets;
 
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
 <<<<<<< HEAD
@@ -833,10 +866,13 @@ namespace Modules\UI\Filament\Widgets;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_y8JiMw
 use Filament\Forms;
 use Illuminate\Database\Eloquent\Model;
 use Saade\FilamentFullCalendar\Widgets\FullCalendarWidget;
 use Saade\FilamentFullCalendar\Data\EventData;
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
@@ -858,6 +894,9 @@ use Saade\FilamentFullCalendar\Data\EventData;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_y8JiMw
 /**
  * Base widget for FullCalendar.
  *
@@ -871,6 +910,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
      * @var class-string<Model>|null
      */
     protected Model | string | null $model = null;
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
@@ -889,6 +929,8 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> .merge_file_cVtnME
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8JiMw
 
     /**
      * Set up the widget configuration.
@@ -899,6 +941,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
     {
         parent::setUp();
 
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
 <<<<<<< HEAD
@@ -923,12 +966,15 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_y8JiMw
         $this->selectable(true)
             ->editable(true)
             ->timezone(config('app.timezone'))
             ->locale('it')
             ->plugins(['dayGrid', 'timeGrid', 'list', 'interaction']);
     }
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
@@ -947,6 +993,8 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> .merge_file_cVtnME
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8JiMw
 
     /**
      * Get form schema for event creation/editing.
@@ -955,6 +1003,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
      */
     public function getFormSchema(): array
     {
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
 <<<<<<< HEAD
@@ -973,12 +1022,15 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8JiMw
         return [
             Forms\Components\TextInput::make('title')
                 ->label(__('ui::calendar.fields.title.label'))
                 ->placeholder(__('ui::calendar.fields.title.placeholder'))
                 ->helperText(__('ui::calendar.fields.title.help'))
                 ->required(),
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
@@ -1000,11 +1052,15 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_y8JiMw
             Forms\Components\Grid::make()
                 ->schema([
                     Forms\Components\DateTimePicker::make('start_date')
                         ->label(__('ui::calendar.fields.start_date.label'))
                         ->required(),
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
@@ -1023,12 +1079,15 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> .merge_file_cVtnME
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8JiMw
 
                     Forms\Components\DateTimePicker::make('end_date')
                         ->label(__('ui::calendar.fields.end_date.label'))
                         ->required(),
                 ]),
 
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
 <<<<<<< HEAD
@@ -1047,10 +1106,13 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8JiMw
             Forms\Components\Textarea::make('description')
                 ->label(__('ui::calendar.fields.description.label'))
                 ->placeholder(__('ui::calendar.fields.description.placeholder'))
                 ->columnSpanFull(),
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
@@ -1069,11 +1131,14 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> .merge_file_cVtnME
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8JiMw
 
             Forms\Components\ColorPicker::make('color')
                 ->label(__('ui::calendar.fields.color.label'))
                 ->rgb(),
 
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
 <<<<<<< HEAD
@@ -1092,10 +1157,13 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8JiMw
             Forms\Components\Toggle::make('is_all_day')
                 ->label(__('ui::calendar.fields.is_all_day.label'))
                 ->default(false),
         ];
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
@@ -1126,6 +1194,8 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> .merge_file_cVtnME
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8JiMw
     }
 
     /**
@@ -1164,6 +1234,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
             return [];
         }
 
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
 <<<<<<< HEAD
@@ -1200,10 +1271,13 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_y8JiMw
         return $this->model::query()
             ->get()
             ->map(fn ($event) => $this->mapEventToCalendar($event))
             ->toArray();
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
@@ -1222,6 +1296,8 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> .merge_file_cVtnME
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8JiMw
     }
 
     /**
@@ -1233,6 +1309,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
     protected function mapEventToCalendar(Model $event): array
     {
         return [
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
 <<<<<<< HEAD
@@ -1251,6 +1328,8 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8JiMw
             'id' => $event->id,
             'title' => $event->title,
             'start' => $event->start_date,
@@ -1259,6 +1338,7 @@ abstract class BaseCalendarWidget extends FullCalendarWidget
             'backgroundColor' => $event->color,
             'borderColor' => $event->color,
             'description' => $event->description,
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
@@ -1279,6 +1359,8 @@ public function eventDidMount(): string
 >>>>>>> .merge_file_cVtnME
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8JiMw
         ];
     }
 }
@@ -1298,6 +1380,7 @@ To customize event appearance:
  */
 public function eventDidMount(): string
 {
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
 <<<<<<< HEAD
@@ -1324,10 +1407,13 @@ public function eventDidMount(): string
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_y8JiMw
     return <<<JS
 function({ event, el }) {
     el.setAttribute("x-tooltip", "tooltip");
     el.setAttribute("x-data", "{ tooltip: '"+event.title+"' }");
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
@@ -1347,6 +1433,8 @@ protected function modalActions(): array
 >>>>>>> .merge_file_cVtnME
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8JiMw
 }
 JS;
 }
@@ -1364,6 +1452,7 @@ To populate the form with new event data after drag & drop:
  */
 protected function modalActions(): array
 {
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
 <<<<<<< HEAD
@@ -1389,6 +1478,8 @@ protected function modalActions(): array
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_y8JiMw
     return [
         Actions\EditAction::make()
             ->mountUsing(
@@ -1404,6 +1495,7 @@ protected function modalActions(): array
             ),
         Actions\DeleteAction::make(),
     ];
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
@@ -1421,6 +1513,8 @@ To use the widget in a Blade view:
 >>>>>>> .merge_file_cVtnME
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8JiMw
 }
 ```
 
@@ -1434,6 +1528,7 @@ To use the widget in a Blade view:
 
 ## Best Practices
 
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
 <<<<<<< HEAD
@@ -1457,6 +1552,8 @@ To use the widget in a Blade view:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_y8JiMw
 1. Always extend `BaseCalendarWidget` to maintain consistency
 2. Always use translation files for all labels
 3. Document every property and method with complete PHPDoc
@@ -1465,6 +1562,7 @@ To use the widget in a Blade view:
 6. Implement appropriate validation in the form schema
 7. Test on different devices to ensure responsiveness
 8. Always use English for class and attribute names
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
@@ -1481,10 +1579,13 @@ To use the widget in a Blade view:
 >>>>>>> .merge_file_cVtnME
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_y8JiMw
 
 ## Backlinks and References
 
 - [Ptv Module - Calendar Usage](../../ptv/docs/features/full_calendar.md)
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1507,10 +1608,13 @@ To use the widget in a Blade view:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_y8JiMw
 - [Official Saade FullCalendar Documentation](https://github.com/saade/filament-fullcalendar)
 - [FullCalendar.io Documentation](https://fullcalendar.io/docs)
 
 *
+<<<<<<< .merge_file_0qGlRC
 <<<<<<< HEAD
 <<<<<<< .merge_file_KSEKzW
 =======
@@ -1550,3 +1654,5 @@ To use the widget in a Blade view:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_y8JiMw

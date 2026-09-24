@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_ROtb42
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_41Id0M
@@ -69,4 +70,6 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_2HTauP
 https://bitbucket.org/modcreative/wayble-pulse/src/main/filament/Widgets/Charts/SignalHitsByCategory.php

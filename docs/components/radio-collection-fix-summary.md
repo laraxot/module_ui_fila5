@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_I6oomN
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_rUj3In
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0YeMle
 # RadioCollection: Riassunto Correzione & Risultati FINALI
 
 ## 🎯 Problema Identificato

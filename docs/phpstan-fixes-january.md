@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_7hbtiM
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -5,6 +6,8 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_HHqdvL
 ---
 module: theme
 topic: phpstan-fixes-january
@@ -12,6 +15,7 @@ canonical: ../../../Themes/docs/shared-components/phpstan-fixes-january-2025-Mod
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan-fixes-january-2025-Modules.md
+<<<<<<< .merge_file_7hbtiM
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -80,3 +84,5 @@ public function canTransitionTo(int|string $recordId, string $stateClass): bool
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_HHqdvL

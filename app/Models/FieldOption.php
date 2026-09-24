@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Models;
 
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< .merge_file_f78m3M
 <<<<<<< HEAD
 <<<<<<< .merge_file_Nqfmix
 <<<<<<< HEAD
@@ -28,10 +29,15 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+use Modules\UI\Database\Factories\FieldOptionFactory;
+use Modules\Xot\Contracts\ProfileContract;
+>>>>>>> .merge_file_qfzYmB
 use Modules\Xot\Models\BaseModel;
 
 /**
  * FieldOption model for UI module.
+<<<<<<< .merge_file_f78m3M
 <<<<<<< HEAD
 <<<<<<< .merge_file_Nqfmix
 <<<<<<< HEAD
@@ -47,17 +53,24 @@ use Modules\Xot\Models\BaseModel;
 =======
 <<<<<<< HEAD
  * FormBuilder module not available - extending from XotBaseModel instead.
+=======
+ * FormBuilder module not available - extending from XotBaseModel instead.
+>>>>>>> .merge_file_qfzYmB
  */
 /**
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+<<<<<<< .merge_file_f78m3M
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_qfzYmB
  *
  * @method static FieldOptionFactory          factory($count = null, $state = [])
  * @method static Builder<static>|FieldOption newModelQuery()
  * @method static Builder<static>|FieldOption newQuery()
  * @method static Builder<static>|FieldOption query()
  *
+<<<<<<< .merge_file_f78m3M
 <<<<<<< HEAD
  * @property int                  $id
  * @property string|null          $field_id
@@ -135,6 +148,10 @@ use Modules\Xot\Models\BaseModel;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+ * @property ProfileContract|null $deleter
+ *
+>>>>>>> .merge_file_qfzYmB
  * @mixin \Eloquent
  */
 class FieldOption extends BaseModel

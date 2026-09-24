@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_pL8jMP
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WgaXdo
@@ -65,6 +66,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_VmIpeW
 # Gestione degli Step nei Wizard Filament
 
 ## Collegamenti Bidirezionali
@@ -181,6 +184,7 @@ class DoctorResource extends XotBaseResource
     }
 
     public static function getFormSchemaWidget(): array
+<<<<<<< .merge_file_pL8jMP
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WgaXdo
@@ -203,6 +207,8 @@ class DoctorResource extends XotBaseResource
     public function getFormSchemaWidget(): array
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_VmIpeW
     {
         return [
             'wizard' => Forms\Components\Wizard::make([

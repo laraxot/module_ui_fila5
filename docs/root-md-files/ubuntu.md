@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_ia1Zfj
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -46,12 +47,15 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_901WS0
 sudo apt-get install jpegoptim
 sudo apt-get install optipng
 sudo apt-get install pngquant // For PNG Image
 sudo npm install -g svgo
 sudo apt-get install gifsicle
 sudo apt-get install webp
+<<<<<<< .merge_file_ia1Zfj
 <<<<<<< HEAD
 sudo apt-get install libavif-bin # minimum 0.9.3
 =======
@@ -70,3 +74,6 @@ sudo apt-get install libavif-bin # minimum 0.9.3
 sudo apt-get install libavif-bin # minimum 0.9.3
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+sudo apt-get install libavif-bin # minimum 0.9.3
+>>>>>>> .merge_file_901WS0

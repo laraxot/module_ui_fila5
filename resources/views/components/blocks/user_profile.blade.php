@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_J8yKow
 <<<<<<< HEAD
 <<<<<<< .merge_file_K99tnf
 <<<<<<< HEAD
@@ -47,6 +48,12 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 804451c (Lint)
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> .merge_file_QibLu6
 ?>
 @props(['title' => 'Profilo Utente'])
 

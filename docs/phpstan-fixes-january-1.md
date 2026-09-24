@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_ZELoLD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -5,6 +6,8 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_W27IQv
 ---
 module: theme
 topic: phpstan-fixes-january-1
@@ -12,6 +15,7 @@ canonical: ../../../Themes/docs/shared-components/phpstan-fixes-january-.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan-fixes-january-.md
+<<<<<<< .merge_file_ZELoLD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -78,3 +82,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/phpstan-fixe
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_W27IQv

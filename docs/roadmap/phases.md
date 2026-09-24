@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_6FK5Ng
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_4y7KzV
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_mDqYBO
 # Fasi di sviluppo - UI Module
 
 ## Fase 1: Modernization (In Progress)

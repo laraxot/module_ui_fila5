@@ -8,6 +8,7 @@ use Illuminate\Contracts\Support\Renderable;
 use Illuminate\View\Component;
 use Modules\Xot\Actions\GetViewAction;
 
+<<<<<<< .merge_file_Lw5gME
 <<<<<<< HEAD
 <<<<<<< .merge_file_Mx5aGh
 <<<<<<< HEAD
@@ -16,19 +17,19 @@ use Modules\Xot\Actions\GetViewAction;
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0LQq2X
 // use Modules\Xot\View\Components\XotBaseComponent;
 
-=======
->>>>>>> .merge_file_xQs5Og
 /**
- * Navbar component.
+ * .
  */
 final class Navbar extends Component
 {
-<<<<<<< .merge_file_Mx5aGh
     /**
      * Create a new component instance.
      */
+<<<<<<< .merge_file_Lw5gME
 <<<<<<< HEAD
 =======
 =======
@@ -63,6 +64,8 @@ final class Navbar extends Component
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0LQq2X
     public function __construct()
     {
     }
@@ -73,6 +76,7 @@ final class Navbar extends Component
          * @phpstan-var view-string
          */
         $view = app(GetViewAction::class)->execute();
+<<<<<<< .merge_file_Lw5gME
 <<<<<<< HEAD
 <<<<<<< .merge_file_Mx5aGh
 <<<<<<< HEAD
@@ -87,10 +91,13 @@ final class Navbar extends Component
 =======
 <<<<<<< HEAD
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0LQq2X
         dddx($view);
         $view_params = [];
 
         return view($view, $view_params);
+<<<<<<< .merge_file_Lw5gME
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -111,5 +118,7 @@ final class Navbar extends Component
 >>>>>>> .merge_file_xQs5Og
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_0LQq2X
     }
 }

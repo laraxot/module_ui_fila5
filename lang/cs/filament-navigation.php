@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_3acvm5
 <<<<<<< HEAD
 <<<<<<< .merge_file_gOcJgC
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_SKLBHa
 return [
     'attributes' => [
         'external-link' => 'Odkaz',

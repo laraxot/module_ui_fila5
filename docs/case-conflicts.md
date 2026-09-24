@@ -1,5 +1,6 @@
 # Case-Insensitive File Conflicts
 
+<<<<<<< .merge_file_lbm8Fd
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_l1oehm
@@ -35,6 +36,8 @@ Nessun marker di conflitto a inizio riga nel repo (`git grep`). I Feature Pest F
 >>>>>>> .merge_file_6tFZlQ
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_Kaye6I
 File duplicati rilevati nel modulo `UI`:
 
 - `Modules/UI/.github`: `CONTRIBUTING.md`, `contributing.md`
@@ -43,6 +46,7 @@ File duplicati rilevati nel modulo `UI`:
 - `Modules/UI/docs/filament`: `ListRecords.md`, `listrecords.md`
 
 Uniformare ciascuna coppia scegliendo un'unica versione (in genere `README.md`, `CONTRIBUTING.md`, ecc.) e rimuovere i duplicati.
+<<<<<<< .merge_file_lbm8Fd
 <<<<<<< HEAD
 <<<<<<< .merge_file_l1oehm
 <<<<<<< HEAD
@@ -84,3 +88,5 @@ Nessun marker di conflitto a inizio riga nel repo (`git grep`). I Feature Pest F
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Kaye6I

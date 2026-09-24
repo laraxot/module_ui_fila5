@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_koWFny
 <<<<<<< HEAD
 <<<<<<< .merge_file_oUeQNa
 <<<<<<< HEAD
@@ -49,6 +50,12 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 804451c (Lint)
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> .merge_file_8NyqNp
 ?>
 {{--
     Service Card Component - Card servizio riutilizzabile per servizi comunali/aziendali

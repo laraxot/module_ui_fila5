@@ -195,6 +195,7 @@ class XotBaseStatsOverview extends Widget
 * [README.md](../../../cms/docs/components/readme.md)
 * [README.md](../../../../themes/two/docs/readme.md)
 * [README.md](../../../../themes/one/docs/readme.md)
+<<<<<<< .merge_file_jbc0cX
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_dIzXWe
@@ -255,3 +256,5 @@ Core module for the FixCity Platform.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_2hCdUS

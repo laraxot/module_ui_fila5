@@ -1,10 +1,14 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_07hNar
 <<<<<<< HEAD
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_QaShG7
 ?>
 <x-layouts.main>
     <div class="min-h-screen flex text-slate-800 dark:text-gray-200 font-sans">

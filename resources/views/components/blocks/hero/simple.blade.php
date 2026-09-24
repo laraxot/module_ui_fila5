@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_HrX8m9
 <<<<<<< HEAD
 <<<<<<< .merge_file_OXmyUC
 <<<<<<< HEAD
@@ -47,6 +48,12 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 804451c (Lint)
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> .merge_file_mTS7bN
 ?>
 @props([
     'title' => 'title 1',

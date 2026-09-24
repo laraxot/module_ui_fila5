@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_hw6i5v
 <<<<<<< HEAD
 <<<<<<< .merge_file_Tb5O6X
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_8jzYk9
 return [
     'fields' => [
         'img_uuid' => ['label' => 'img_uuid', 'description' => 'img_uuid', 'helper_text' => 'img_uuid', 'placeholder' => 'img_uuid', 'tooltip' => ''],
@@ -44,6 +47,7 @@ return [
         'group' => ['name' => 'General', 'description' => 'General Settings'],
         'label' => 'Video Spatie',
         'sort' => 1,
+<<<<<<< .merge_file_hw6i5v
 <<<<<<< HEAD
 <<<<<<< .merge_file_Tb5O6X
 <<<<<<< HEAD
@@ -67,6 +71,9 @@ return [
 >>>>>>> .merge_file_TuYSOn
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_8jzYk9
     ],
     'actions' => [
         'create' => ['label' => 'Crea Video Spatie'],

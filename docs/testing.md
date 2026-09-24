@@ -175,6 +175,7 @@ protected function createApplication()
     $app = parent::createApplication();
     
     $app['config']->set([
+<<<<<<< .merge_file_kyiGxJ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_aQNWp0
@@ -227,6 +228,9 @@ protected function createApplication()
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+'database.connections.ui.database' => 'Quaeris_data_test',
+>>>>>>> .merge_file_i6gPgu
     ]);
     
     return $app;
@@ -307,6 +311,7 @@ protected function createApplication()
 ### External Resources
 
 - [Laravel 12.x Testing Documentation](https://laravel.com/docs/12.x/testing)
+<<<<<<< .merge_file_kyiGxJ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_aQNWp0
@@ -329,11 +334,14 @@ protected function createApplication()
 - [Laravel 13.x Testing Documentation](https://laravel.com/docs/12.x/testing)
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_i6gPgu
 - [Pest Installation Guide](https://pestphp.com/docs/installation)
 - [PHPStan Documentation](https://phpstan.org/user-guide/getting-started)
 
 ### Internal Resources
 
+<<<<<<< .merge_file_kyiGxJ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_aQNWp0
@@ -370,6 +378,11 @@ protected function createApplication()
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [Testing Setup Guide](../../../docs/testing-setup.md)
+- [Testing Best Practices](../../../docs/testing-best-practices.md)
+- [Troubleshooting Guide](../../../docs/troubleshooting.md)
+>>>>>>> .merge_file_i6gPgu
 
 ## Testing Examples
 
@@ -465,6 +478,7 @@ Remember: Good tests are the foundation of reliable software development.
 
 ---
 
+<<<<<<< .merge_file_kyiGxJ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_aQNWp0
@@ -549,3 +563,6 @@ Prossimo step: coprire rami residui IconStateColumn (fillForm/textarea required)
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+*
+>>>>>>> .merge_file_i6gPgu

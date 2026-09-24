@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_5VFGNI
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_aFjAL6
@@ -65,6 +66,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_oiPhDW
 # User Dropdown Component
 
 This document describes the User Dropdown component used in the header section and explains proper data handling patterns.

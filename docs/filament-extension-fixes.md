@@ -80,6 +80,7 @@ class S3Test extends XotBasePage
 
 ## Collegamenti
 - [Regole Estensione Filament](../../../.cursor/rules/filament-extension-rules.mdc)
+<<<<<<< .merge_file_2b90Rk
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_WZ4Uj1
@@ -126,3 +127,8 @@ class S3Test extends XotBasePage
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+- [XotBasePage Implementation](../../xot/project_docs/xotbasepage_implementation.md)
+- [Filament Best Practices](../../../../docs/project/filament-best-practices.md)
+
+>>>>>>> .merge_file_XY06nC

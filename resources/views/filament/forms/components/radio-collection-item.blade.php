@@ -1,10 +1,14 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_4zkOwu
 <<<<<<< HEAD
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_ZiUrf9
 ?>
 {{-- resources/views/forms/components/radio-collection-item.blade.php --}}
 {{-- Template di esempio per un item - personalizzalo secondo le tue esigenze --}}

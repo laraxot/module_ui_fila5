@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_FksaxO
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_2eZkga
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_KyEpa6
 # Componente FileUpload in Filament
 
 ## Limitazioni e Metodi Disponibili

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_W0cVMY
 <<<<<<< HEAD
 <<<<<<< .merge_file_kBobsZ
 <<<<<<< HEAD
@@ -43,6 +44,9 @@ return [
 =======
 return [
 >>>>>>> 804451c (Lint)
+=======
+return [
+>>>>>>> .merge_file_1ycre9
     'list' => [
         'label' => 'Lista',
         'color' => 'primary',
@@ -58,6 +62,7 @@ return [
         'description' => 'Layout a griglia responsive con card',
         'tooltip' => 'Visualizza i dati in formato card responsive',
         'helper_text' => 'Ideale per visualizzare pochi dati con focus visivo',
+<<<<<<< .merge_file_W0cVMY
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -92,6 +97,8 @@ return [
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1ycre9
     ],
     'label' => 'Table Layout Enum',
     'plural_label' => 'Table Layout Enum (Plurale)',
@@ -104,6 +111,7 @@ return [
         ],
         'label' => 'Table Layout Enum',
         'sort' => 1,
+<<<<<<< .merge_file_W0cVMY
 <<<<<<< HEAD
 <<<<<<< .merge_file_kBobsZ
 <<<<<<< HEAD
@@ -127,6 +135,9 @@ return [
 >>>>>>> .merge_file_wyyyJH
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_1ycre9
     ],
     'fields' => [
         'id' => [

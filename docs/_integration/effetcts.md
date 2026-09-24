@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_r4ss53
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_cxgLix
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_xqwFtX
 # effetcts
 
 <!-- Contenuto migrato da _docs/effetcts.txt -->

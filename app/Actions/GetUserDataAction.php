@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Actions;
 
+<<<<<<< .merge_file_Svnuck
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -11,11 +12,13 @@ namespace Modules\UI\Actions;
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_5YAMv9
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
 use Modules\UI\Datas\UserData;
-<<<<<<< .merge_file_ZxcNIN
 use Modules\User\Models\User;
+<<<<<<< .merge_file_Svnuck
 <<<<<<< HEAD
 =======
 =======
@@ -51,6 +54,8 @@ use Modules\Xot\Contracts\UserContract;
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_5YAMv9
 use Spatie\Permission\Contracts\Permission;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -62,39 +67,34 @@ class GetUserDataAction
     {
         $user = Auth::user();
 
+<<<<<<< .merge_file_Svnuck
 <<<<<<< HEAD
         if (! $user instanceof UserContract) {
+=======
+        if (! $user instanceof User) {
+>>>>>>> .merge_file_5YAMv9
             return null;
         }
 
-<<<<<<< .merge_file_ZxcNIN
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
         // PHPStan L10: tenancy() è helper function, ma PHPStan non la riconosce
         // Rimuoviamo questa logica se non è necessaria per GetUserDataAction
         // Se necessario, usare Filament::getTenant() invece
-=======
-        $avatar = null;
-        $profile = $user->relationLoaded('profile') ? $user->profile : null;
-        if ($profile instanceof Profile) {
-            $avatarUrl = $profile->getAvatarUrl();
-            $avatar = '' !== $avatarUrl ? $avatarUrl : null;
-        }
->>>>>>> .merge_file_C2T0Nu
 
-        if (null === $avatar) {
-            $profilePhotoPath = $user->getAttribute('profile_photo_path');
-            if (is_string($profilePhotoPath) && '' !== $profilePhotoPath) {
-                $avatar = $profilePhotoPath;
+        // Get avatar from profile_photo_path or profile relation
+        $avatarValue = null;
+        if (isset($user->profile_photo_path) && is_string($user->profile_photo_path)) {
+            $avatarValue = $user->profile_photo_path;
+        } elseif ($user->relationLoaded('profile') && null !== $user->profile) {
+            $profile = $user->profile;
+            if (is_object($profile) && method_exists($profile, 'getAvatarUrl')) {
+                $avatarValue = $profile->getAvatarUrl();
+            } elseif (is_object($profile) && isset($profile->avatar) && is_string($profile->avatar)) {
+                $avatarValue = $profile->avatar;
             }
         }
 
-<<<<<<< .merge_file_ZxcNIN
         // PHPStan L10: getRoleNames() restituisce Collection, ma PHPStan non lo riconosce dal trait
+<<<<<<< .merge_file_Svnuck
 <<<<<<< HEAD
 =======
 =======
@@ -148,11 +148,14 @@ class GetUserDataAction
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_5YAMv9
         /** @var Collection<int, string> $roleNames */
         $roleNames = $user->getRoleNames();
         $firstRole = $roleNames->isNotEmpty() ? $roleNames->first() : null;
         $roleValue = is_string($firstRole) ? $firstRole : null;
 
+<<<<<<< .merge_file_Svnuck
 <<<<<<< HEAD
 <<<<<<< .merge_file_ZxcNIN
 <<<<<<< HEAD
@@ -161,23 +164,26 @@ class GetUserDataAction
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
-        // Get settings - could be in profile or extra attributes
 =======
->>>>>>> .merge_file_C2T0Nu
+>>>>>>> .merge_file_5YAMv9
+        // Get settings - could be in profile or extra attributes
         /** @var array<string, mixed> $settingsArray */
         $settingsArray = [];
-        if ($profile instanceof Profile && isset($profile->extra)) {
-            $extra = $profile->extra;
-            if (is_array($extra)) {
-                /** @var array<string, mixed> $typedExtra */
-                $typedExtra = $extra;
-                $settingsArray = $typedExtra;
+        if ($user->relationLoaded('profile') && null !== $user->profile) {
+            $profile = $user->profile;
+            if (is_object($profile) && isset($profile->extra)) {
+                $extra = $profile->extra;
+                if (is_array($extra)) {
+                    /** @var array<string, mixed> $typedExtra */
+                    $typedExtra = $extra;
+                    $settingsArray = $typedExtra;
+                }
             }
         }
 
-<<<<<<< .merge_file_ZxcNIN
         // PHPStan L10: getAllPermissions() restituisce Collection, ma PHPStan non lo riconosce dal trait
         // method_exists() è sempre true perché User ha HasPermissions trait
+<<<<<<< .merge_file_Svnuck
 <<<<<<< HEAD
 =======
 =======
@@ -225,11 +231,14 @@ class GetUserDataAction
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_5YAMv9
         /** @var Collection<int, Permission> $allPermissions */
         $allPermissions = $user->getAllPermissions();
         /** @var array<int, string> $permissions */
         $permissions = $allPermissions->pluck('name')->toArray();
 
+<<<<<<< .merge_file_Svnuck
 <<<<<<< HEAD
 <<<<<<< .merge_file_ZxcNIN
 <<<<<<< HEAD
@@ -275,16 +284,19 @@ class GetUserDataAction
         $userName = property_exists($user, 'name') ? $user->name : null;
         $userEmail = property_exists($user, 'email') ? $user->email : null;
 
+=======
+>>>>>>> .merge_file_5YAMv9
         return new UserData(
-            id: SafeIntCastAction::cast($user->id),
-            name: is_string($userName) ? $userName : '',
-            email: is_string($userEmail) ? $userEmail : '',
-            avatar: $avatarValue,
-            role: $roleValue,
-            permissions: $permissions,
+            id: (int) $user->id,
+            name: (string) ($user->name ?? ''),
+            email: (string) ($user->email ?? ''),
+            avatar: null !== $avatarValue ? (string) $avatarValue : null,
+            role: null !== $roleValue ? (string) $roleValue : null,
+            permissions: $permissions ?? [],
             settings: $settingsArray,
         );
     }
+<<<<<<< .merge_file_Svnuck
 <<<<<<< HEAD
 <<<<<<< HEAD
 }
@@ -297,3 +309,6 @@ class GetUserDataAction
 }
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+}
+>>>>>>> .merge_file_5YAMv9
