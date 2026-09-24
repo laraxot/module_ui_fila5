@@ -7,6 +7,10 @@ namespace Modules\UI\Actions\Icon;
 use BladeUI\Icons\Factory as IconFactory;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\File;
+<<<<<<< HEAD
+=======
+use ReflectionClass;
+>>>>>>> laraxot/dev
 use Spatie\QueueableAction\QueueableAction;
 
 class GetAllIconsAction
@@ -22,8 +26,13 @@ class GetAllIconsAction
 
         // Uso reflection per accedere alle icone in modo sicuro
         try {
+<<<<<<< HEAD
             $reflection = new \ReflectionClass($iconsFactory);
             $property = $reflection->getProperty('iconSets');
+=======
+            $reflection = new ReflectionClass($iconsFactory);
+            $property = $reflection->getProperty('sets');
+>>>>>>> laraxot/dev
             $property->setAccessible(true);
             $icons = $property->getValue($iconsFactory);
         } catch (\Exception $e) {
@@ -31,8 +40,12 @@ class GetAllIconsAction
             return [];
         }
 
+<<<<<<< HEAD
         // Verifica che $icons sia un array prima di usare Arr::map()
         if (! is_array($icons)) {
+=======
+        if (! is_iterable($icons)) {
+>>>>>>> laraxot/dev
             return [];
         }
 
@@ -64,10 +77,31 @@ class GetAllIconsAction
                     continue;
                 }
 
+<<<<<<< HEAD
                 $iconsList = array_merge(
                     $iconsList,
                     $this->collectSvgIconNamesFromPath($path, $set['prefix'] ?? ''),
                 );
+=======
+                foreach (File::allFiles($path) as $file) {
+                    // Simply ignore files that aren't SVGs
+                    if ($file->getExtension() !== 'svg') {
+                        continue;
+                    }
+
+                    $pathname = $file->getPathname();
+                    $iconName = str($pathname)
+                        ->after($path.DIRECTORY_SEPARATOR)
+                        ->replace(DIRECTORY_SEPARATOR, '.')
+                        ->basename('.svg')
+                        ->toString();
+
+                    $prefix = $set['prefix'] ?? '';
+                    $prefixString = is_string($prefix) ? $prefix : '';
+                    $iconFullName = $prefixString !== '' ? $prefixString.'-'.$iconName : $iconName;
+                    $iconsList[] = $iconFullName;
+                }
+>>>>>>> laraxot/dev
             }
             $set['icons'] = $iconsList;
             $mappedIcons[$name] = $set;
@@ -75,6 +109,7 @@ class GetAllIconsAction
 
         return $mappedIcons;
     }
+<<<<<<< HEAD
 
     /**
      * @return list<string>
@@ -110,4 +145,6 @@ class GetAllIconsAction
 
         return $iconNames;
     }
+=======
+>>>>>>> laraxot/dev
 }

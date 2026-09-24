@@ -2,10 +2,13 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/it/location_selector.php
+=======
+>>>>>>> laraxot/dev
 return [
     'region' => [
         'label' => 'Regione',
@@ -44,6 +47,7 @@ return [
         'region_required_for_province' => 'Devi selezionare una regione prima di scegliere la provincia',
         'region_province_required_for_cap' => 'Devi selezionare regione e provincia prima di scegliere il CAP',
     ],
+<<<<<<< HEAD
     'label' => 'Location Selector',
     'plural_label' => 'Location Selector (Plurale)',
     'navigation' => [
@@ -88,4 +92,6 @@ return [
             'label' => 'Elimina Location Selector',
         ],
     ],
+=======
+>>>>>>> laraxot/dev
 ];

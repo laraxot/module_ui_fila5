@@ -1,3 +1,25 @@
+<<<<<<< HEAD
+=======
+---
+title: "Bugfix: GroupColumn Architectural Violations"
+type: concept
+tags: [groupcolumn, architectural, violations]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "groupcolumn-architectural-violations bugfix: groupcolumn architectural violations"
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+related:
+  - "./iconcolumn-extends-filament-column.md"
+  - "./iconcolumn-view-path-fix.md"
+---
+
+>>>>>>> laraxot/dev
 # Bugfix: GroupColumn Architectural Violations
 
 **Data Fix**: 11 Novembre 2025
@@ -222,6 +244,11 @@ final class GroupColumn extends XotBaseColumn
 @php
     $fields = $getFields();  // ✅ PSR-12
 **Dopo (18 Nov 2025)**:
+<<<<<<< HEAD
+=======
+```
+
+>>>>>>> laraxot/dev
 ```blade
 @php
     $fields = $getFields();
@@ -313,8 +340,13 @@ Column (Filament - DO NOT REFERENCE)
 
 ## Riferimenti
 
+<<<<<<< HEAD
 - [Laraxot Architectural Rules](../../architecture_rules.md)
 - [Never Use Label Rule](../never_use_label_rule.md)
+=======
+- [Laraxot Architectural Rules](../../architecture-rules-1.md)
+- [Never Use Label Rule](../never-use-label-rule-1.md)
+>>>>>>> laraxot/dev
 - [XotBaseColumn](../../../../Xot/app/Filament/Tables/Columns/XotBaseColumn.php)
 - [Translation Pattern](../../translations/)
 - [docs/blade-components.md](../../../../docs/blade-components.md)

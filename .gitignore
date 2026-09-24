@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ==============================================
 # LARAXOT MODULE UI - .GITIGNORE
 # ==============================================
@@ -9,6 +10,64 @@
 # ==============================================
 # DEPENDENCIES & PACKAGES
 # ==============================================
+=======
+# =============================================================================
+# LARAXOT MODULE: UI - .gitignore
+#
+# Canonical rules:
+# - docs/wiki/rules/root-cleanup-policy.md
+# - docs/wiki/rules/module-theme-root-cleanup.md
+
+
+# -----------------------------------------------------------------------------
+# Forbidden root directories / AI tooling
+/bashscripts/
+/_bmad/
+/_bmad-output/
+/_docs/
+/.circleci/
+/.claude-audit/
+/.devcontainer/
+/.kilocode/
+/.kiro/
+/.ralph/
+/scripts/
+/test-results/
+/workbench/
+/legacy/
+
+/.ai*
+tests/.claude-audit/
+tests/AuditCoverage/
+
+
+# Documentation cleanup
+docs/archive/
+docs/archived/
+docs/legacy/
+docs/workbench/
+docs/scripts/
+docs/bashscripts/
+
+docs/**/archive/
+docs/**/archived/
+docs/**/legacy/
+docs/**/workbench/
+docs/**/scripts/
+docs/**/bashscripts/
+
+docs/cache/
+docs/phpstan/
+
+# Numbered markdown duplicates
+docs/**/*-[0-9].md
+docs/**/*-[0-9][0-9].md
+docs/**/*_[0-9].md
+docs/**/*_[0-9][0-9].md
+
+
+# Dependencies
+>>>>>>> laraxot/dev
 /vendor/
 /node_modules/
 /docs/vendor/
@@ -16,6 +75,7 @@
 composer.lock
 package-lock.json
 yarn.lock
+<<<<<<< HEAD
 yarn-error.log
 npm-debug.log
 
@@ -60,16 +120,45 @@ lerna-debug.log*
 # ==============================================
 # LARAVEL SPECIFIC
 # ==============================================
+=======
+
+
+# Python / virtual environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+
+# Build / compiled artifacts
+/build/
+/dist/
+
+cache/
+
+public/css/compiled/
+public/js/compiled/
+public/mix-manifest.json
+
+
+# Laravel runtime
+>>>>>>> laraxot/dev
 /storage/*.key
 /public/storage
 /public/hot
 /public_html/storage
 /public_html/hot
 
+<<<<<<< HEAD
+=======
+
+# Environment / local configuration
+>>>>>>> laraxot/dev
 .env
 .env.*
 !.env.example
 
+<<<<<<< HEAD
 
 # ==============================================
 # ENVIRONMENT & IDE
@@ -78,10 +167,27 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 /.idea
+=======
+config/local.php
+config/development.php
+
+Homestead.yaml
+Homestead.json
+
+
+# IDE / editor
+/.idea/
+/.vscode/
+/.cursor/
+/.windsurf/
+/.vagrant/
+
+>>>>>>> laraxot/dev
 .phpintel
 .phpstorm.meta.php
 
 
+<<<<<<< HEAD
 # ==============================================
 # GIT SPECIFIC
 # ==============================================
@@ -92,11 +198,94 @@ Homestead.json
 # ==============================================
 # SYSTEM FILES
 # ==============================================
+=======
+# Cache / temporary files
+.php-cs-fixer.cache
+.phpunit.result.cache
+
+*.cache
+*.lock
+*.tmp
+*.phar
+*.jar
+*.swp
+*.swo
+*.stackdump
+
+v8-compile-cache-*
+
+
+# Logs
+*.log
+error_log
+
+npm-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+
+# Git / merge / rebase leftovers
+.git-rewrite/
+.git-blame-ignore-revs
+
+.merge_file_*
+
+*.orig
+*.rej
+
+*~HEAD
+*~BASE
+*~LOCAL
+*~REMOTE
+*~head
+
+
+# Backup / old files
+*.old
+*.old1
+*.old2
+
+*.backup
+*.backup.*
+*.backup-*
+*.backup_*
+
+*.bak
+*.new
+
+
+# Legacy directories
+resources/views/Components_old/
+resources/lang/
+lang/lang/
+
+database_old/
+database/Migrations_old/
+database/Seeders_old/
+database/Factories_old/
+
+
+# UI module specific
+*.fila2
+
+*.psd
+*.fig
+*.sketch
+
+design_notes.txt
+
+/laravel/
+/public_html/
+
+
+# System files
+>>>>>>> laraxot/dev
 .DS_Store
 .DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
+<<<<<<< HEAD
 ehthumbs.db
 Thumbs.db
 
@@ -207,3 +396,33 @@ agentdb.rvf
 # claude-audit bridge — path audit-coverage/tests/ richiesto dal matcher static
 !audit-coverage/
 !audit-coverage/**
+=======
+
+Thumbs.db
+ehthumbs.db
+
+*:Zone.Identifier
+
+agentdb.rvf
+
+
+# Root quality tools
+phpstan*
+phpmd*
+rector.php
+phpmd.ruleset.xml
+phpmd.ruleset.xml.bak
+graphify-out
+docs/_archive
+
+phpinsights.php
+
+# Laraxot — forbidden at module/theme root (rector.php, phpinsights.php, .cursor, .windsurf, .vscode)
+/rector.php
+/phpinsights.php
+/.cursor
+/.windsurf
+/.vscode
+.cursor~*
+.windsurf~*
+>>>>>>> laraxot/dev
