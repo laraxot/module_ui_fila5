@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< .merge_file_zWUrkK
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_z2Kbf8
 ---
 title: "Struttura delle Filament Resources"
 type: concept
@@ -15,41 +5,16 @@ tags: [filament, resources, structure]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament-resources-structure struttura delle filament resources"
-<<<<<<< .merge_file_zWUrkK
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_z2Kbf8
 related:
   - "./component-registration.md"
   - "./filament-pages-structure.md"
   - "./structure.md"
 ---
 
-<<<<<<< .merge_file_zWUrkK
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_z2Kbf8
 # Struttura delle Filament Resources
 
 ## Panoramica

@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< .merge_file_c7mWzI
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_8cZvMM
 ---
 title: 'Custom theme'
 module: UI
@@ -20,16 +10,6 @@ created: 2026-08-24
 updated: 2026-08-24
 ---
 
-<<<<<<< .merge_file_c7mWzI
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_8cZvMM
 https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss
 
 
@@ -39,22 +19,3 @@ add resources/css/filament/admin/theme.css entry to vite.config.js
 
 in app/Providers/Filament/AdminPanelProvider.php
 ->viteTheme('resources/css/filament/admin/theme.css')
-<<<<<<< HEAD
-<<<<<<< .merge_file_c7mWzI
-
-
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
-
->>>>>>> .merge_file_8cZvMM
->>>>>>> laraxot/dev

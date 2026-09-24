@@ -107,13 +107,6 @@
 
 ---
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-**Data**: 2025-01-06
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 **Status**: ✅ Tutte le correzioni completate
 **PHPStan Level**: 10 ✅
 **Errori totali**: 0 ✅

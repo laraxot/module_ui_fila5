@@ -1,22 +1,7 @@
 # 🗺️ GUIDA INTEGRAZIONE MAPPA INTERATTIVA
 
 **Modulo**: UI (User Interface)
-<<<<<<< HEAD
-<<<<<<< .merge_file_Myq0EY
-=======
-<<<<<<< HEAD
 **Data**: 2025-01-27
-=======
-<<<<<<< HEAD
-=======
-**Data**: 2025-01-27
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-**Data**: 2025-01-27
-=======
->>>>>>> .merge_file_yrc6ob
->>>>>>> laraxot/dev
 **Versione**: 1.0
 **Stato**: 🚧 IN SVILUPPO
 
@@ -24,50 +9,9 @@
 
 ## 🎯 PANORAMICA
 
-<<<<<<< HEAD
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
-<<<<<<< .merge_file_Myq0EY
-=======
-<<<<<<< HEAD
-Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_yrc6ob
-<<<<<<< HEAD
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione <nome progetto>.
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione progetto corrente.
-=======
-<<<<<<< .merge_file_Myq0EY
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione <nome progetto>.
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione progetto corrente.
-=======
-Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione <nome progetto>.
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_yrc6ob
->>>>>>> laraxot/dev
 
 ---
 
@@ -102,25 +46,7 @@ Modules/UI/
 │   │   │   ├── map-markers.js
 │   │   │   └── map-popup.js
 │   │   └── components/
-<<<<<<< HEAD
-<<<<<<< .merge_file_Myq0EY
-│   │       ├── location-picker-lit.js
-=======
-<<<<<<< HEAD
 │   │       ├── location-picker.js
-=======
-<<<<<<< HEAD
-│   │       ├── location-picker-lit.js
-=======
-│   │       ├── location-picker.js
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-│   │       ├── location-picker.js
-=======
-│   │       ├── location-picker-lit.js
->>>>>>> .merge_file_yrc6ob
->>>>>>> laraxot/dev
 │   │       └── address-autocomplete.js
 │   ├── css/
 │   │   ├── map/
@@ -505,53 +431,9 @@ class MapService
                     'description' => $ticket->description,
                     'status' => $ticket->status->slug,
                     'priority' => $ticket->priority->slug,
-<<<<<<< HEAD
-<<<<<<< .merge_file_Myq0EY
-                    'url' => route('fixcity.tickets.show', $ticket)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-                    'url' => route('fixcity.tickets.show', $ticket)
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
                     'url' => route('<nome progetto>.tickets.show', $ticket)
                     'url' => route('fixcity.tickets.show', $ticket)
                     'url' => route('tickets.show', $ticket)
-=======
-<<<<<<< HEAD
-                    'url' => route('fixcity.tickets.show', $ticket)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-                    'url' => route('<nome progetto>.tickets.show', $ticket)
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-                    'url' => route('tickets.show', $ticket)
-=======
-                    'url' => route('<nome progetto>.tickets.show', $ticket)
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-                    'url' => route('<nome progetto>.tickets.show', $ticket)
-                    'url' => route('fixcity.tickets.show', $ticket)
-                    'url' => route('tickets.show', $ticket)
-=======
-                    'url' => route('fixcity.tickets.show', $ticket)
->>>>>>> .merge_file_yrc6ob
->>>>>>> laraxot/dev
                 ];
             })
             ->toArray();
@@ -631,53 +513,9 @@ class GeocodingService
             />
         </div>
         <div class="col-md-4">
-<<<<<<< HEAD
-<<<<<<< .merge_file_Myq0EY
-            <livewire:fixcity::components.ticket-stats />
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-            <livewire:fixcity::components.ticket-stats />
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
             <livewire:<nome progetto>::components.ticket-stats />
             <livewire:fixcity::components.ticket-stats />
             <livewire:project::components.ticket-stats />
-=======
-<<<<<<< HEAD
-            <livewire:fixcity::components.ticket-stats />
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-            <livewire:<nome progetto>::components.ticket-stats />
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-            <livewire:project::components.ticket-stats />
-=======
-            <livewire:<nome progetto>::components.ticket-stats />
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-            <livewire:<nome progetto>::components.ticket-stats />
-            <livewire:fixcity::components.ticket-stats />
-            <livewire:project::components.ticket-stats />
-=======
-            <livewire:fixcity::components.ticket-stats />
->>>>>>> .merge_file_yrc6ob
->>>>>>> laraxot/dev
         </div>
     </div>
 </div>
@@ -731,50 +569,9 @@ class GeocodingService
 - [ ] GeocodingService implementation
 
 ### 📅 Fase 3: Integrazione (Settimana 3)
-<<<<<<< HEAD
 - [ ] Integrazione con modulo Fixcity
-=======
-<<<<<<< HEAD
-- [ ] Integrazione con modulo Fixcity
-<<<<<<< HEAD
-<<<<<<< .merge_file_Myq0EY
-=======
-=======
-<<<<<<< HEAD
-- [ ] Integrazione con modulo Fixcity
->>>>>>> laraxot/dev
-<<<<<<< HEAD
 - [ ] Integrazione con modulo <nome progetto>
 - [ ] Integrazione con modulo progetto corrente
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-- [ ] Integrazione con modulo <nome progetto>
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-- [ ] Integrazione con modulo progetto corrente
-=======
-- [ ] Integrazione con modulo <nome progetto>
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- [ ] Integrazione con modulo <nome progetto>
-- [ ] Integrazione con modulo progetto corrente
-=======
->>>>>>> .merge_file_yrc6ob
->>>>>>> laraxot/dev
 - [ ] Integrazione con modulo User
 - [ ] API endpoints per mappa
 - [ ] Testing componenti
@@ -796,53 +593,15 @@ class GeocodingService
 - [Livewire Components](https://laravel-livewire.com/docs/2.x/quickstart)
 
 ### 📖 Documentazione Correlata
-<<<<<<< HEAD
-<<<<<<< .merge_file_Myq0EY
-- [Farmshops.eu Analysis](../geo/docs/farmshops-analysis.md)
-=======
-<<<<<<< HEAD
 - [Farmshops.eu Analysis](../Geo/docs/farmshops-analysis.md)
-=======
-<<<<<<< HEAD
-- [Farmshops.eu Analysis](../geo/docs/farmshops-analysis.md)
-=======
-- [Farmshops.eu Analysis](../Geo/docs/farmshops-analysis.md)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- [Farmshops.eu Analysis](../Geo/docs/farmshops-analysis.md)
-=======
-- [Farmshops.eu Analysis](../geo/docs/farmshops-analysis.md)
->>>>>>> .merge_file_yrc6ob
->>>>>>> laraxot/dev
 - [Geo Module Documentation](../Geo/docs/)
 - [UI Component API](component-api.md)
 - [Styling Guide](styling-guide.md)
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< .merge_file_Myq0EY
-
-=======
-<<<<<<< HEAD
 **Last Updated**: 2025-01-27
 **Next Review**: 2025-02-27
-=======
-<<<<<<< HEAD
-
-=======
-**Last Updated**: 2025-01-27
-**Next Review**: 2025-02-27
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-**Last Updated**: 2025-01-27
-**Next Review**: 2025-02-27
-=======
-
->>>>>>> .merge_file_yrc6ob
->>>>>>> laraxot/dev
 **Status**: 🚧 IN SVILUPPO
 **Confidence Level**: 90%
 

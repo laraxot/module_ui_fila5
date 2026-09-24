@@ -1,24 +1,6 @@
 # UI Module - Architecture Guide (2025)
 
-<<<<<<< HEAD
-<<<<<<< .merge_file_mGQ4oo
-> **
-=======
-<<<<<<< HEAD
 > **Last Updated:** 2025-11-19
-=======
-<<<<<<< HEAD
-> **
-=======
-> **Last Updated:** 2025-11-19
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-> **Last Updated:** 2025-11-19
-=======
-> **
->>>>>>> .merge_file_iwOKen
->>>>>>> laraxot/dev
 > **PHPStan Level:** 10
 > **Status:** Shared UI Components & Filament Customizations
 
@@ -562,45 +544,6 @@ class MyFormComponent extends Field
         $this->validateUsing([/* validation rules */]);
     }
 }
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_mGQ4oo
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_iwOKen
-
-// Non aggiungere route manualmente
-Route::get('/example', [ExampleController::class, 'index']);
-
-// Non creare middleware personalizzati
-class CustomMiddleware
-{
-    public function handle($request, Closure $next)
-    {
-        // ...
-    }
-}
-
-// Non hardcodare percorsi delle risorse
-<img src="/var/www/html/Quaeris/laravel/public/images/avatar.png">
-
-// Non duplicare la registrazione dei componenti
-Blade::component('ui::components.icon', 'ui.icon');
-
-// Non creare componenti personalizzati se esiste un equivalente Filament
-<x-ui.button>Click me</x-ui.button>
-<<<<<<< .merge_file_mGQ4oo
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_iwOKen
->>>>>>> laraxot/dev
 ```
 
 ### Widget Development
@@ -707,22 +650,8 @@ The UI module is a **well-architected, feature-rich Filament customization layer
 ---
 
 **Document Version:** 1.0
-<<<<<<< HEAD
-<<<<<<< .merge_file_mGQ4oo
-**Author:** Claude Code Analysis
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-**Author:** Claude Code Analysis
-=======
->>>>>>> laraxot/dev
 **Generated:** 2025-11-19
 **Author:** Claude Code Analysis
-=======
-**Generated:** 2025-11-19
-**Author:** Claude Code Analysis
->>>>>>> .merge_file_iwOKen
 # UI Module - Architecture Guide (2025)
 
 > **Last Updated:** 2025-11-19
@@ -1430,13 +1359,3 @@ The UI module provides Filament-based admin interface components, themes, and ut
 - Wiki: `docs/wiki/ui/`
 - Components: `docs/wiki/ui/UI-*.md`
 - Filament: `docs/wiki/concepts/UI-filament-patterns.md`
-<<<<<<< .merge_file_mGQ4oo
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-**Author:** Claude Code Analysis
->>>>>>> .merge_file_iwOKen
->>>>>>> laraxot/dev

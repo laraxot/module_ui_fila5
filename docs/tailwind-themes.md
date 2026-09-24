@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< .merge_file_ZcXRNT
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_qiGkPP
 ---
 title: 'Tailwind themes — risorse esterne'
 module: UI
@@ -29,32 +19,12 @@ updated: 2026-08-24
 
 - <https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your-next-project-3igo>
 - <https://merakiui.com/>
-<<<<<<< .merge_file_ZcXRNT
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_qiGkPP
 https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your-next-project-3igo
 
 https://merakiui.com/
 
 
 
-<<<<<<< HEAD
-<<<<<<< .merge_file_ZcXRNT
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_qiGkPP
 
 
 ## Appendice — contenuto migrato
@@ -66,13 +36,3 @@ canonical: ../../../Themes/docs/shared-components/tailwind-themes.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/tailwind-themes.md
-<<<<<<< .merge_file_ZcXRNT
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_qiGkPP

@@ -2,16 +2,6 @@
 module: theme
 topic: form-components
 canonical: ../../../../Themes/docs/shared-components/form-components.md
-<<<<<<< HEAD
-<<<<<<< .merge_file_h9XMyO
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_RtJfDP
 related:
   - "./00-index-1.md"
   - "./00-index.md"
@@ -21,16 +11,6 @@ related:
   - "./02-goals.md"
   - "./02-next.md"
   - "./03-later.md"
-<<<<<<< .merge_file_h9XMyO
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_RtJfDP
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/form-components.md
