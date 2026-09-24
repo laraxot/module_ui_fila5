@@ -12,23 +12,7 @@ use Modules\Xot\Filament\Blocks\XotBaseBlock;
 final class Category extends XotBaseBlock
 {
     /**
-     * <<<<<<< HEAD
-     * <<<<<<< .merge_file_S2WyyE.
-     * =======
-     * <<<<<<< HEAD.
-     * >>>>>>> 1b458f2 (refactor: remove conflict markers from multiple PHP files).
-     *
      * @return array<int, Component>
-     *                               =======
-     *                               <<<<<<< HEAD
-     * @return array<int, Component>
-     *                               =======
-     * @return array<int, Component>
-     *                               >>>>>>> laraxot/dev
-     *                               <<<<<<< HEAD
-     *                               >>>>>>> .merge_file_xgBAlu
-     *                               =======
-     *                               >>>>>>> 1b458f2 (refactor: remove conflict markers from multiple PHP files)
      */
     public static function getFormSchema(): array
     {
