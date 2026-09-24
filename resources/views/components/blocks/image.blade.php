@@ -1,14 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< .merge_file_vbw97b
-<<<<<<< HEAD
-=======
 
->>>>>>> 804451c (Lint)
-=======
-
->>>>>>> .merge_file_jhW5NH
 ?>
 @props([
     'image' => false,

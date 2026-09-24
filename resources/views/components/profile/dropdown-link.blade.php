@@ -1,14 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< .merge_file_Ptugp7
-<<<<<<< HEAD
-=======
 
->>>>>>> 804451c (Lint)
-=======
-
->>>>>>> .merge_file_6MiCcv
 ?>
 @props(['href' => '#', 'active' => false])
 

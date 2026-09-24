@@ -95,24 +95,6 @@ foreach ($paths as $path) {
 
 ### **Problemi di Larastan (Laravel 12 Compatibility)**
 La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 12.24.0**:
-<<<<<<< .merge_file_qTrogp
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-### **Problemi di Larastan (Laravel 12 Compatibility)**
-La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 12.24.0**:
-=======
-### **Problemi di Larastan (Laravel 13 Compatibility)**
-La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 13.24.0**:
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-### **Problemi di Larastan (Laravel 13 Compatibility)**
-La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 13.24.0**:
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_R3mdTF
 
 1. **Metodi Str:: non trovati:** `Str::of()`, `Str::uuid()`, `Str::endsWith()`, etc.
 2. **Metodi Collection:: non trovati:** `map()`, `contains()`, `toArray()`
@@ -133,44 +115,12 @@ La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Lara
 
 ### **Prossimi Passi**
 1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 12
-<<<<<<< .merge_file_qTrogp
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 12
-=======
-1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 13
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 13
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_R3mdTF
 2. 📝 **Baseline PHPStan** per ignorare errori framework temporanei
 3. 🔄 **Monitoraggio mensile** aggiornamenti Larastan
 
 ## 🎯 Conclusioni
 
-<<<<<<< .merge_file_qTrogp
-<<<<<<< HEAD
 Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 12**.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 12**.
-=======
-Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 13**.
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 13**.
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
-Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 12**.
->>>>>>> .merge_file_R3mdTF
 
 Il **codice è funzionalmente corretto** e ora rispetta gli standard di tipizzazione PHP per tutti i componenti personalizzati.
 # PHPStan Corrections - Modulo UI
@@ -270,24 +220,6 @@ foreach ($paths as $path) {
 
 ### **Problemi di Larastan (Laravel 12 Compatibility)**
 La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 12.24.0**:
-<<<<<<< .merge_file_qTrogp
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-### **Problemi di Larastan (Laravel 12 Compatibility)**
-La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 12.24.0**:
-=======
-### **Problemi di Larastan (Laravel 13 Compatibility)**
-La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 13.24.0**:
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-### **Problemi di Larastan (Laravel 13 Compatibility)**
-La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 13.24.0**:
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_R3mdTF
 
 1. **Metodi Str:: non trovati:** `Str::of()`, `Str::uuid()`, `Str::endsWith()`, etc.
 2. **Metodi Collection:: non trovati:** `map()`, `contains()`, `toArray()`
@@ -308,43 +240,11 @@ La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Lara
 
 ### **Prossimi Passi**
 1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 12
-<<<<<<< .merge_file_qTrogp
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 12
-=======
-1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 13
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 13
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_R3mdTF
 2. 📝 **Baseline PHPStan** per ignorare errori framework temporanei
 3. 🔄 **Monitoraggio mensile** aggiornamenti Larastan
 
 ## 🎯 Conclusioni
 
-<<<<<<< .merge_file_qTrogp
-<<<<<<< HEAD
 Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 12**.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 12**.
-=======
-Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 13**.
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 13**.
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
-Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 12**.
->>>>>>> .merge_file_R3mdTF
 
 Il **codice è funzionalmente corretto** e ora rispetta gli standard di tipizzazione PHP per tutti i componenti personalizzati.

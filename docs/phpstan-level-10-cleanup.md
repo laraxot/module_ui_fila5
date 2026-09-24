@@ -1,39 +1,9 @@
-<<<<<<< .merge_file_tnEXDi
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_xWOOc5
 # PHPStan Level 10 Cleanup Session - [DATE]
 
 ## Executive Summary
 
 - Session precedente ([DATE]): ✅ zero errori PHPStan Level 10.
 - Nuova esecuzione ([DATE]): ⚠️ rilevato 1 parse error in `UI/app/Filament/Blocks/Title.php` (`unexpected EOF`).
-<<<<<<< .merge_file_tnEXDi
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
-=======
-# PHPStan Level 10 Cleanup Session - 2025-11-06
-
-## Executive Summary
-
-- Session precedente (2025-11-06): ✅ zero errori PHPStan Level 10.
-- Nuova esecuzione (2025-11-15): ⚠️ rilevato 1 parse error in `UI/app/Filament/Blocks/Title.php` (`unexpected EOF`).
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_xWOOc5
 - Obiettivo attuale: ripristinare il blocco Title seguendo le specifiche documentate in `./index.md` e `./core/architecture.md`, quindi rilanciare `phpstan`.
 
 **Metriche aggiornate**:

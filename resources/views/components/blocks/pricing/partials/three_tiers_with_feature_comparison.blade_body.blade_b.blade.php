@@ -1,13 +1,3 @@
-<<<<<<< .merge_file_WNEMwx
-<<<<<<< HEAD
-<?php
-
-declare(strict_types=1);
-?>
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_OktN7A
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp

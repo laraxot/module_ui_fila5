@@ -1,14 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< .merge_file_c0oqoH
-<<<<<<< HEAD
-=======
 
->>>>>>> 804451c (Lint)
-=======
-
->>>>>>> .merge_file_G7BBxB
 ?>
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">

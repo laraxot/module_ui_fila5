@@ -1,14 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< .merge_file_92YS2G
-<<<<<<< HEAD
-=======
 
->>>>>>> 804451c (Lint)
-=======
-
->>>>>>> .merge_file_3oOXj5
 ?>
 @props(['title', 'subtitle', 'image', 'cta_text', 'cta_link'])
 

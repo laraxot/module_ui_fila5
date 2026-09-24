@@ -1,14 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< .merge_file_9qA7EX
-<<<<<<< HEAD
-=======
 
->>>>>>> 804451c (Lint)
-=======
-
->>>>>>> .merge_file_c5WYa1
 ?>
 <!--
   This example requires some changes to your config:

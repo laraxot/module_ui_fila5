@@ -38,24 +38,6 @@ The `IconStateSplitColumn` is a custom Filament table column component designed 
 use Modules\UI\Filament\Tables\Columns\IconStateSplitColumn;
 use Modules\<nome progetto>\States\Appointment\AppointmentState;
 use Modules\<nome progetto>\Models\Appointment;
-<<<<<<< .merge_file_BxQzc5
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-use Modules\<nome progetto>\States\Appointment\AppointmentState;
-use Modules\<nome progetto>\Models\Appointment;
-=======
-use Modules\SaluteOra\States\Appointment\AppointmentState;
-use Modules\SaluteOra\Models\Appointment;
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-use Modules\SaluteOra\States\Appointment\AppointmentState;
-use Modules\SaluteOra\Models\Appointment;
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_kiRiAd
 
 // In your Filament resource table configuration
 'states' => IconStateSplitColumn::make()
@@ -298,42 +280,12 @@ The main issue was that `wire:click` doesn't work directly in Filament table col
 #### Solution Architecture
 ```javascript
 // Custom event dispatch
-<<<<<<< .merge_file_BxQzc5
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_kiRiAd
 onclick="window.dispatchEvent(new CustomEvent('state-transition', {
     detail: {
         recordId: {{ $record->id }},
         stateClass: '{{ $state['class']::class }}',
         action: 'prova'
     }
-<<<<<<< .merge_file_BxQzc5
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
-=======
-onclick="window.dispatchEvent(new CustomEvent('state-transition', { 
-    detail: { 
-        recordId: {{ $record->id }}, 
-        stateClass: '{{ $state['class']::class }}',
-        action: 'prova'
-    } 
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_kiRiAd
 }))"
 
 // Event listener for Livewire integration
@@ -377,21 +329,4 @@ document.addEventListener('state-transition', function(event) {
 
 **Last Updated**: June 2025
 **Version**: 2.1
-<<<<<<< .merge_file_BxQzc5
-<<<<<<< HEAD
 **Compatibility**: Filament 3.x, Laravel 10.x
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-**Compatibility**: Filament 3.x, Laravel 10.x
-=======
-**Compatibility**: Filament 3.x, Laravel 10.x 
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-**Compatibility**: Filament 3.x, Laravel 10.x 
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
-**Compatibility**: Filament 3.x, Laravel 10.x
->>>>>>> .merge_file_kiRiAd

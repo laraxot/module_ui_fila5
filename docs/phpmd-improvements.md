@@ -85,21 +85,6 @@ Questi metodi sono già stati refactorizzati e la complessità è al limite acce
 
 ---
 
-<<<<<<< .merge_file_zgOLgH
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-**Data**: 2025-01-06
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-**Data**: 2025-01-06
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_1BQ3jg
 **Status**: Correzioni completate per modulo UI
 **Problemi critici rimanenti**: 0
 **Problemi al limite soglia**: ~4 (non critici)

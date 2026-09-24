@@ -1,14 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< .merge_file_NMtw8i
-<<<<<<< HEAD
-=======
 
->>>>>>> 804451c (Lint)
-=======
-
->>>>>>> .merge_file_a4g1S1
 ?>
 <x-filament-widgets::widget>
     <x-filament::section collapsible icon="{{ $icon }}">

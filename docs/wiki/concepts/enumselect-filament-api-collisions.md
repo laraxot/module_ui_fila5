@@ -3,46 +3,6 @@ title: EnumSelect - Filament API collisions (make/enum/getLabel)
 type: concept
 updated: 2026-04-23
 tags: [filament, forms, select, enum, tom-select, php, best-practices, false-friends]
-<<<<<<< .merge_file_dn0ZPX
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_VS9Bun
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_r6DucI
-=======
-=======
->>>>>>> 804451c (Lint)
-related:
-  - "./auth-register-focus-loss-overlay.md"
-  - "./block-rendering-and-optional-services.md"
-  - "./claude-audit-static.md"
-  - "./code-redundancy-ui.md"
-  - "./context-overflow-prevention.md"
-  - "./enum-select-best-practices.md"
-  - "./enum-select-component.md"
-  - "./enum-select-contract-and-false-friends.md"
-<<<<<<< HEAD
-<<<<<<< .merge_file_VS9Bun
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_r6DucI
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_6X6kMc
 ---
 
 # Problema

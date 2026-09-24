@@ -23,45 +23,7 @@ final class VideoSpatie
             ->schema([
                 Hidden::make('img_uuid')
                     ->default(Str::uuid()->toString(...))
-<<<<<<< .merge_file_3tYrj8
-<<<<<<< HEAD
-<<<<<<< .merge_file_ug2JQa
-<<<<<<< HEAD
                     ->formatStateUsing(fn ($state) => $state ?? Str::uuid()->toString())
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-                    ->formatStateUsing(fn ($state) => $state ?? Str::uuid()->toString())
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_1oo0iq
-=======
-<<<<<<< HEAD
-                    ->formatStateUsing(fn ($state) => $state ?? Str::uuid()->toString())
-=======
->>>>>>> 804451c (Lint)
-                    ->formatStateUsing(static function (mixed $state): string {
-                        $value = $state ?? Str::uuid()->toString();
-
-                        return \is_string($value) ? $value : Str::uuid()->toString();
-                    })
-<<<<<<< HEAD
-<<<<<<< .merge_file_ug2JQa
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_1oo0iq
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
-                    ->formatStateUsing(fn ($state) => $state ?? Str::uuid()->toString())
->>>>>>> .merge_file_Fv5yYv
                     ->live(),
                 // ->required(),
 
@@ -70,33 +32,7 @@ final class VideoSpatie
                     ->hiddenLabel()
                     // ->imagePreviewHeight('250')
                     // ->panelLayout('integrated')
-<<<<<<< .merge_file_3tYrj8
-<<<<<<< HEAD
-<<<<<<< .merge_file_ug2JQa
-<<<<<<< HEAD
-                    ->imageResizeMode('cover')
-=======
-<<<<<<< HEAD
                     ->automaticallyResizeImagesMode('cover')
-=======
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
-                    ->imageResizeMode('cover')
-=======
-                    ->automaticallyResizeImagesMode('cover')
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-                    ->automaticallyResizeImagesMode('cover')
->>>>>>> .merge_file_1oo0iq
-=======
->>>>>>> 804451c (Lint)
-=======
-                    ->automaticallyResizeImagesMode('cover')
->>>>>>> .merge_file_Fv5yYv
                     ->panelAspectRatio('2:1')
                     ->maxSize(502400)
                     ->disk('local')
@@ -105,39 +41,8 @@ final class VideoSpatie
                     ->previewable()
                     ->downloadable()
                     // ->rules(Rule::dimensions()->maxWidth(600)->maxHeight(800))
-<<<<<<< .merge_file_3tYrj8
-<<<<<<< HEAD
-<<<<<<< .merge_file_ug2JQa
-<<<<<<< HEAD
                     ->collection(fn (Get $get) => $get('img_uuid'))
                     ->afterStateUpdated(function (
-=======
-<<<<<<< HEAD
-                    ->collection(static fn (Get $get) => $get('img_uuid'))
-                    ->afterStateUpdated(static function (
-=======
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
-                    ->collection(fn (Get $get) => $get('img_uuid'))
-                    ->afterStateUpdated(function (
-=======
-                    ->collection(static fn (Get $get) => $get('img_uuid'))
-                    ->afterStateUpdated(static function (
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-                    ->collection(static fn (Get $get) => $get('img_uuid'))
-                    ->afterStateUpdated(static function (
->>>>>>> .merge_file_1oo0iq
-=======
->>>>>>> 804451c (Lint)
-=======
-                    ->collection(fn (Get $get) => $get('img_uuid'))
-                    ->afterStateUpdated(function (
->>>>>>> .merge_file_Fv5yYv
                         HasForms $_livewire,
                         SpatieMediaLibraryFileUpload $_component,
                         TemporaryUploadedFile $state,
@@ -147,53 +52,10 @@ final class VideoSpatie
                         // Call to an undefined method Filament\Forms\Contracts\HasForms::validateOnly().
                         // $livewire->validateOnly($component->getStatePath());
                         Assert::string(
-<<<<<<< .merge_file_3tYrj8
-<<<<<<< HEAD
-<<<<<<< .merge_file_ug2JQa
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_Fv5yYv
                             $collection_name = $get('img_uuid'),
                             '['.__LINE__.']['.class_basename(self::class).']',
                         );
                         $record->addMedia($state)->withResponsiveImages()->toMediaCollection($collection_name);
-<<<<<<< .merge_file_3tYrj8
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-                            $collectionName = $get('img_uuid'),
-                            '['.__LINE__.']['.class_basename(self::class).']',
-                        );
-                        $record->addMedia($state)->withResponsiveImages()->toMediaCollection($collectionName);
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
-                            $collectionName = $get('img_uuid'),
-                            '['.__LINE__.']['.class_basename(self::class).']',
-                        );
-                        $record->addMedia($state)->withResponsiveImages()->toMediaCollection($collectionName);
-<<<<<<< HEAD
->>>>>>> .merge_file_1oo0iq
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_Fv5yYv
                     }),
                 /*
                  * Select::make('ratio')
@@ -210,27 +72,7 @@ final class VideoSpatie
                 // ->customProperties(fn(Forms\Get $get) => ['gallery_id' => $get('gallery_id')]),
                 // Forms\Components\SpatieMediaLibraryFileUpload::make('media_id')
             ])
-<<<<<<< .merge_file_3tYrj8
-<<<<<<< HEAD
-            ->columns('form' === $context ? 2 : 1);
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
             ->columns($context === 'form' ? 2 : 1);
-=======
-<<<<<<< HEAD
-            ->columns('form' === $context ? 2 : 1);
-=======
-            ->columns($context === 'form' ? 2 : 1);
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-            ->columns($context === 'form' ? 2 : 1);
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-            ->columns($context === 'form' ? 2 : 1);
->>>>>>> .merge_file_Fv5yYv
     }
 
     /**

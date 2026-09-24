@@ -1,14 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< .merge_file_gtorJA
-<<<<<<< HEAD
-=======
 
->>>>>>> 804451c (Lint)
-=======
-
->>>>>>> .merge_file_5QTyJu
 ?>
 <x-filament::widget>
     <x-filament::section collapsible collapsed wire:key="section-{{ $guid }}">

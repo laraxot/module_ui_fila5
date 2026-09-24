@@ -103,59 +103,11 @@ TextInput::make('full_name')
 - [Documentazione Filament Forms](https://filamentphp.com/docs/3.x/forms/fields/text-input)
 - [Best Practices Database](../../../docs/database/best-practices.md)
 - [Convenzioni API](../../../docs/api/convenzioni.md) 
-<<<<<<< .merge_file_KNTznF
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_DWzm5o
 ||||||| parent of 9a84589 (.):docs/convenzioni-naming-campi-1.md
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-||||||| parent of 9a84589 (.):docs/convenzioni-naming-campi-1.md
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-||||||| parent of 9a84589 (.):docs/convenzioni-naming-campi-1.md
->>>>>>> .merge_file_u1gHo9
-=======
-||||||| parent of 9a84589 (.):docs/convenzioni-naming-campi-1.md
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-||||||| parent of 9a84589 (.):docs/convenzioni-naming-campi-1.md
->>>>>>> .merge_file_uWsHGE
 - [Best Practices Database](../../../docs/database/best-practices.md)
 - [Convenzioni API](../../../docs/api/convenzioni.md)
 ## Collegamenti tra versioni di convenzioni-naming-campi.md
 * [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
 
-<<<<<<< .merge_file_KNTznF
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_DWzm5o
 ||||||| parent of 9a84589 (.):docs/convenzioni-naming-campi-1.md
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-||||||| parent of 9a84589 (.):docs/convenzioni-naming-campi-1.md
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-||||||| parent of 9a84589 (.):docs/convenzioni-naming-campi-1.md
->>>>>>> .merge_file_u1gHo9
-=======
-||||||| parent of 9a84589 (.):docs/convenzioni-naming-campi-1.md
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-||||||| parent of 9a84589 (.):docs/convenzioni-naming-campi-1.md
->>>>>>> .merge_file_uWsHGE
 * [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)

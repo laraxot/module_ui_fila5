@@ -3,46 +3,6 @@ title: Creazione di una Resource
 description: Creazione di una Resource
 extends: _layouts.documentation
 section: content
-<<<<<<< .merge_file_WJBMz3
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_kEiP55
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_GTEEHj
-=======
-=======
->>>>>>> 804451c (Lint)
-related:
-  - "./automatic-translations.md"
-  - "./best-practices.md"
-  - "./component-icon-support.md"
-  - "./component-methods-compatibility.md"
-  - "./filament-4-components-guide.md"
-  - "./filament-4-migration-guide.md"
-  - "./filament-4-migration-summary.md"
-  - "./filament-4-migration-sumy.md"
-<<<<<<< HEAD
-<<<<<<< .merge_file_kEiP55
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_GTEEHj
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_antTPo
 ---
 
 # Creazione di una Resource {#creazione-resource}

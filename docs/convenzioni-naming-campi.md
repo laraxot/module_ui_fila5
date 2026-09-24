@@ -101,32 +101,6 @@ TextInput::make('full_name')
 ## Collegamenti Correlati
 
 - [Documentazione Filament Forms](https://filamentphp.com/docs/3.x/forms/fields/text-input)
-<<<<<<< .merge_file_44Tdww
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bxPv9K
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-- [Best Practices Database](../../../docs/database/best-practices.md)
-- [Convenzioni API](../../../docs/api/convenzioni.md)
-## Collegamenti tra versioni di convenzioni-naming-campi.md
-* [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
-# Convenzioni di Naming dei Campi
-## Collegamenti tra versioni di convenzioni-naming-campi.md
-
-## Collegamenti tra versioni di convenzioni-naming-campi.md
-## Collegamenti Bidirezionali
-## Campi Nome e Cognome
-=======
->>>>>>> .merge_file_Yhade7
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_2vx151
 - [Best Practices Database](../../../../docs/database/best-practices.md)
 - [Convenzioni API](../../../../docs/api/convenzioni.md)
 ## Collegamenti tra versioni di convenzioni-naming-campi.md
@@ -140,101 +114,11 @@ TextInput::make('full_name')
 
 ## Campi Nome e Cognome
 
-<<<<<<< .merge_file_44Tdww
-<<<<<<< HEAD
-<<<<<<< .merge_file_bxPv9K
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-- [Best Practices Database](../../../docs/database/best-practices.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-- [Convenzioni API](../../../docs/api/convenzioni.md)
-## Collegamenti tra versioni di convenzioni-naming-campi.md
-* [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
-# Convenzioni di Naming dei Campi
-<<<<<<< HEAD
-## Collegamenti tra versioni di convenzioni-naming-campi.md
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> 92912795 (.)
-- [Convenzioni API](../../../docs/api/convenzioni.md) 
-||||||| parent of 9a84589 (.):docs/convenzioni-naming-campi-1.md
-- [Best Practices Database](../../../docs/database/best-practices.md)
-- [Convenzioni API](../../../docs/api/convenzioni.md)
-## Collegamenti tra versioni di convenzioni-naming-campi.md
-* [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
-
-||||||| parent of 9a84589 (.):docs/convenzioni-naming-campi-1.md
-<<<<<<< HEAD
-* [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
-=======
-<<<<<<< HEAD
-* [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
-=======
-- [Convenzioni API](../../../docs/api/convenzioni.md)
-## Collegamenti tra versioni di convenzioni-naming-campi.md
-* [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-
-## Collegamenti tra versioni di convenzioni-naming-campi.md
-## Collegamenti Bidirezionali
-## Campi Nome e Cognome
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_Yhade7
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_2vx151
 ### ❌ NON FARE
 ```php
 TextInput::make('name')  // ❌ Ambiguo: potrebbe essere solo nome o nome completo
 TextInput::make('surname')
 ```
-<<<<<<< .merge_file_44Tdww
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bxPv9K
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-### ✅ FARE - Caso 1: Campi Separati
-TextInput::make('first_name')  // ✅ Chiaro: solo nome
-TextInput::make('last_name')   // ✅ Chiaro: solo cognome
-### ✅ FARE - Caso 2: Campo Unico
-TextInput::make('full_name')   // ✅ Chiaro: nome completo (nome + cognome)
-## Motivazioni
-=======
->>>>>>> .merge_file_Yhade7
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_2vx151
 
 ### ✅ FARE - Caso 1: Campi Separati
 ```php
@@ -249,293 +133,54 @@ TextInput::make('full_name')   // ✅ Chiaro: nome completo (nome + cognome)
 
 ## Motivazioni
 
-<<<<<<< .merge_file_44Tdww
-<<<<<<< HEAD
-<<<<<<< .merge_file_bxPv9K
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-### ✅ FARE - Caso 1: Campi Separati
-TextInput::make('first_name')  // ✅ Chiaro: solo nome
-TextInput::make('last_name')   // ✅ Chiaro: solo cognome
-### ✅ FARE - Caso 2: Campo Unico
-TextInput::make('full_name')   // ✅ Chiaro: nome completo (nome + cognome)
-## Motivazioni
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_Yhade7
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_2vx151
 1. **Standardizzazione**:
    - `first_name` e `last_name` sono standard internazionali per campi separati
    - `full_name` è lo standard per il nome completo in un unico campo
    - Facilita l'integrazione con API esterne
    - Migliora la compatibilità con sistemi di terze parti
-<<<<<<< .merge_file_44Tdww
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bxPv9K
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_Yhade7
-=======
-
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-
->>>>>>> .merge_file_2vx151
 2. **Chiarezza Semantica**:
    - `first_name`: indica chiaramente il nome di battesimo
    - `last_name`: indica chiaramente il cognome
    - `full_name`: indica chiaramente che contiene nome e cognome insieme
    - Evita ambiguità in contesti multilingua
-<<<<<<< .merge_file_44Tdww
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bxPv9K
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_Yhade7
-=======
-
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-
->>>>>>> .merge_file_2vx151
 3. **Consistenza del Database**:
    - Facilita le query SQL
    - Migliora la leggibilità del database
    - Standardizza le relazioni tra tabelle
-<<<<<<< .merge_file_44Tdww
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bxPv9K
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_Yhade7
-=======
-
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
-
->>>>>>> .merge_file_2vx151
 4. **Validazione e Formattazione**:
    - Permette validazioni specifiche per tipo di nome
    - Facilita la formattazione corretta
    - Migliora la gestione dei casi speciali
-<<<<<<< .merge_file_44Tdww
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bxPv9K
 
 ## Best Practices
 
-=======
-<<<<<<< HEAD
-## Best Practices
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 804451c (Lint)
-
-## Best Practices
-
-=======
-## Best Practices
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-## Best Practices
-=======
-
-## Best Practices
-
->>>>>>> .merge_file_Yhade7
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
-
-## Best Practices
-
->>>>>>> .merge_file_2vx151
 1. **Naming**:
    - Usare `first_name` per il nome quando separato
    - Usare `last_name` per il cognome quando separato
    - Usare `full_name` per nome e cognome insieme
    - Evitare variazioni come `name`, `surname`, `given_name`
-<<<<<<< .merge_file_44Tdww
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bxPv9K
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_Yhade7
-2. **Scelta del Tipo di Campo**:
-   - Campi separati (`first_name`/`last_name`): quando serve manipolare nome e cognome separatamente
-   - Campo unico (`full_name`): quando il nome completo è sufficiente e non serve separarlo
-=======
-<<<<<<< .merge_file_bxPv9K
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_Yhade7
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_2vx151
 
 2. **Scelta del Tipo di Campo**:
    - Campi separati (`first_name`/`last_name`): quando serve manipolare nome e cognome separatamente
    - Campo unico (`full_name`): quando il nome completo è sufficiente e non serve separarlo
 
-<<<<<<< .merge_file_44Tdww
-<<<<<<< HEAD
-<<<<<<< .merge_file_bxPv9K
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
-=======
-2. **Scelta del Tipo di Campo**:
-   - Campi separati (`first_name`/`last_name`): quando serve manipolare nome e cognome separatamente
-   - Campo unico (`full_name`): quando il nome completo è sufficiente e non serve separarlo
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_Yhade7
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_2vx151
 3. **Validazione**:
    - Implementare regole specifiche per ogni tipo di campo
    - Considerare le regole di formattazione per paese
    - Adattare le validazioni al contesto d'uso
-<<<<<<< .merge_file_44Tdww
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bxPv9K
-=======
-<<<<<<< HEAD
-## Esempi di Implementazione
-### Campi Separati
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-## Esempi di Implementazione
-### Campi Separati
-=======
->>>>>>> .merge_file_Yhade7
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_2vx151
 
 ## Esempi di Implementazione
 
 ### Campi Separati
 ```php
-<<<<<<< .merge_file_44Tdww
-<<<<<<< HEAD
-<<<<<<< .merge_file_bxPv9K
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 804451c (Lint)
-=======
-## Esempi di Implementazione
-### Campi Separati
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_Yhade7
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_2vx151
 TextInput::make('first_name')
     ->label('Nome')
     ->required()
     ->maxLength(255)
     ->rules(['alpha', 'min:2'])
-<<<<<<< .merge_file_44Tdww
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bxPv9K
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-TextInput::make('last_name')
-    ->label('Cognome')
-### Campo Unico
-TextInput::make('full_name')
-    ->label('Nome e Cognome')
-    ->rules(['string', 'min:5'])
-## Note Importanti
-=======
->>>>>>> .merge_file_Yhade7
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_2vx151
 
 TextInput::make('last_name')
     ->label('Cognome')
@@ -555,60 +200,10 @@ TextInput::make('full_name')
 
 ## Note Importanti
 
-<<<<<<< .merge_file_44Tdww
-<<<<<<< HEAD
-<<<<<<< .merge_file_bxPv9K
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-TextInput::make('last_name')
-    ->label('Cognome')
-### Campo Unico
-TextInput::make('full_name')
-    ->label('Nome e Cognome')
-    ->rules(['string', 'min:5'])
-## Note Importanti
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_Yhade7
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_2vx151
 1. Questa convenzione è obbligatoria per tutto il progetto
 2. Applicare a tutti i moduli e componenti
 3. Mantenere coerenza in database, API e UI
 4. Considerare le implicazioni per l'internazionalizzazione
-<<<<<<< .merge_file_44Tdww
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bxPv9K
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-## Collegamenti Correlati
-- [Documentazione Filament Forms](https://filamentphp.com/project_docs/3.x/forms/fields/text-input)
-- [Best Practices Database](../../../project_docs/database/best-practices.md)
-- [Convenzioni API](../../../project_docs/api/convenzioni.md)
-* [convenzioni-naming-campi.md](../../../../project_docs/convenzioni-naming-campi.md)
-=======
->>>>>>> .merge_file_Yhade7
-=======
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_2vx151
 
 ## Collegamenti Correlati
 
@@ -620,50 +215,3 @@ TextInput::make('full_name')
 - [Documentazione Filament Forms](https://filamentphp.com/project_docs/3.x/forms/fields/text-input)
 - [Best Practices Database](../../../../docs/project/database/best-practices.md)
 - [Convenzioni API](../../../../docs/project/api/convenzioni.md)
-<<<<<<< .merge_file_44Tdww
-<<<<<<< HEAD
-<<<<<<< .merge_file_bxPv9K
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> 804451c (Lint)
-## Collegamenti Correlati
-- [Documentazione Filament Forms](https://filamentphp.com/project_docs/3.x/forms/fields/text-input)
-- [Best Practices Database](../../../project_docs/database/best-practices.md)
-- [Convenzioni API](../../../project_docs/api/convenzioni.md)
-* [convenzioni-naming-campi.md](../../../../project_docs/convenzioni-naming-campi.md)
-<<<<<<< HEAD
-=======
-- [Documentazione Filament Forms](https://filamentphp.com/project_docs/3.x/forms/fields/text-input)
-- [Best Practices Database](../../../project_docs/database/best-practices.md)
-- [Convenzioni API](../../../project_docs/api/convenzioni.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-* [convenzioni-naming-campi.md](../../../../docs/convenzioni-naming-campi.md)
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_Yhade7
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_2vx151

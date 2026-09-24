@@ -25,49 +25,8 @@ final class StatWithIconWidget extends XotBaseSchemaWidget
      */
     protected function getData(): array
     {
-<<<<<<< .merge_file_53wUJS
-<<<<<<< HEAD
-<<<<<<< .merge_file_dL3wYL
-=======
->>>>>>> 804451c (Lint)
-<<<<<<< HEAD
         dddx($this->label);
 
         return [];
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-        dddx($this->label);
-
-        return [];
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_uIMbAH
-=======
->>>>>>> 804451c (Lint)
-        return [
-            'label' => $this->label,
-            'value' => $this->value,
-        ];
-<<<<<<< HEAD
-<<<<<<< .merge_file_dL3wYL
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_uIMbAH
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
-        dddx($this->label);
-
-        return [];
->>>>>>> .merge_file_cOt9xE
     }
 }

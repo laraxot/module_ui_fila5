@@ -14,22 +14,6 @@ class AdminPanelProvider extends XotBasePanelProvider
     protected string $module = 'UI';
 
     #[\Override]
-<<<<<<< .merge_file_nDINWs
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-    #[\Override]
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_D6U7RI
     public function panel(Panel $panel): Panel
     {
         return parent::panel($panel);

@@ -3,46 +3,6 @@ title: Installazione Filament
 description: Installazione Filament
 extends: _layouts.documentation
 section: content
-<<<<<<< .merge_file_eya58p
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_Y8nOIY
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ppNuZW
-=======
-=======
->>>>>>> 804451c (Lint)
-related:
-  - "./automatic-translations.md"
-  - "./best-practices.md"
-  - "./component-icon-support.md"
-  - "./component-methods-compatibility.md"
-  - "./filament-4-components-guide.md"
-  - "./filament-4-migration-guide.md"
-  - "./filament-4-migration-summary.md"
-  - "./filament-4-migration-sumy.md"
-<<<<<<< HEAD
-<<<<<<< .merge_file_Y8nOIY
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_ppNuZW
-=======
->>>>>>> laraxot/dev
->>>>>>> 804451c (Lint)
-=======
->>>>>>> .merge_file_TYsjJD
 ---
 
 # Installazione Filament {#installazione-filament}

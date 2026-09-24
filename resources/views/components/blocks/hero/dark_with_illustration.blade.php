@@ -1,58 +1,7 @@
-<<<<<<< .merge_file_J52Hmg
-<<<<<<< HEAD
-<<<<<<< .merge_file_kc6Q6H
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_aeWASr
-<?php
-
-declare(strict_types=1);
-=======
-=======
->>>>>>> laraxot/dev
 <?php
 
 declare(strict_types=1);
 
->>>>>>> 804451c (Lint)
-=======
-<?php
-
-declare(strict_types=1);
-
->>>>>>> .merge_file_4gE1LS
 ?>
 <!--
   This example requires some changes to your config:

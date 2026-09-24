@@ -1,61 +1,7 @@
-<<<<<<< .merge_file_Q4yXsE
-<<<<<<< HEAD
-<<<<<<< .merge_file_Abx3J6
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
->>>>>>> 804451c (Lint)
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_2MdTH3
-<?php
-
-declare(strict_types=1);
-=======
-=======
->>>>>>> laraxot/dev
 <?php
 
 declare(strict_types=1);
 
->>>>>>> 804451c (Lint)
-=======
-<?php
-
-declare(strict_types=1);
-
->>>>>>> .merge_file_hLIY26
 ?>
 @props(['title' => 'Verifica Idoneità'])
 
