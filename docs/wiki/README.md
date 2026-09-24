@@ -1,7 +1,10 @@
 # LLM Wiki (module)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/dev
 Questa cartella contiene la wiki curata del modulo per uso LLM.
 
 Usa `docs/` come sorgente raw e `docs/wiki/` come livello compilato/sintetico.
@@ -20,6 +23,23 @@ Usa `docs/` come sorgente raw e `docs/wiki/` come livello compilato/sintetico.
 - `docs/wiki/log.md` log append-only
 
 QMD: [https://github.com/tobi/qmd](https://github.com/tobi/qmd)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_33TJqo
+=======
+=======
+<<<<<<< .merge_file_kKsjmX
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_vHZw4D
+>>>>>>> .merge_file_rskRRq
 >>>>>>> laraxot/dev
 [![Module](https://img.shields.io/badge/Module-LLM Wiki (module)-8B0000.svg)]()
 [![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
@@ -53,3 +73,20 @@ Core module for the FixCity Platform.
 ---
 
 **Modulo** `UI` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_33TJqo
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_kKsjmX
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_vHZw4D
+>>>>>>> .merge_file_rskRRq
+>>>>>>> laraxot/dev

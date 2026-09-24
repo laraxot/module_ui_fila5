@@ -6,6 +6,10 @@ slug: custom-theme
 description: 'https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss'
 tags: [migrato-da-txt, ui]
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+converted_from: custom_theme.txt
+>>>>>>> laraxot/dev
 =======
 converted_from: custom_theme.txt
 >>>>>>> laraxot/dev

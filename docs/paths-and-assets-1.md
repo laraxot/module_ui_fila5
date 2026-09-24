@@ -9,8 +9,17 @@
 > **Soluzione:** Seguire SEMPRE la regola documentata qui sotto e aggiornata anche in README.md e nella root docs/links.md.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_9UBLYa
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SXFEuN
 >>>>>>> laraxot/dev
 # Gestione dei Percorsi e degli Asset
 
@@ -28,7 +37,15 @@
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_9UBLYa
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_SXFEuN
+>>>>>>> laraxot/dev
 =======
 # Gestione dei Percorsi e degli Asset 
 ## Collegamenti correlati
@@ -41,6 +58,13 @@
 ```
 /var/www/html/saluteora/
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_9UBLYa
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SXFEuN
 >>>>>>> laraxot/dev
 ├── laravel/                 # Applicazione Laravel (codice sorgente)
 │   ├── Modules/             # Moduli dell'applicazione
@@ -50,8 +74,17 @@
     ├── images/              # Immagini pubbliche
     │   ├── avatars/         # Avatar utenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_9UBLYa
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SXFEuN
 >>>>>>> laraxot/dev
     │   └── ...
     ├── css/                 # File CSS compilati
@@ -68,7 +101,15 @@
 | JavaScript | `public_html/js/` | `public/js/` |
 | SVG | `public_html/images/` | `public/images/` |
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_9UBLYa
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_SXFEuN
+>>>>>>> laraxot/dev
 =======
     ├── css/                 # File CSS compilati
     ├── js/                  # File JavaScript compilati
@@ -81,6 +122,13 @@
 | JavaScript | `/var/www/html/saluteora/public_html/js/` | `/var/www/html/saluteora/laravel/public/js/` |
 | SVG | `/var/www/html/saluteora/public_html/images/` | `/var/www/html/saluteora/laravel/public/images/` |
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_9UBLYa
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SXFEuN
 >>>>>>> laraxot/dev
 
 ## Utilizzo degli Asset nei Componenti Blade
@@ -99,13 +147,29 @@ Per garantire una buona esperienza utente, implementare sempre un fallback per l
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <img
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_9UBLYa
+=======
+<img
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_SXFEuN
+>>>>>>> laraxot/dev
 <img
 =======
 <img 
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_9UBLYa
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SXFEuN
 >>>>>>> laraxot/dev
     src="{{ asset('images/avatars/default-' . $avatarNumber . '.svg') }}"
     alt="{{ $user->name ?? 'User' }}"
@@ -121,8 +185,17 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_9UBLYa
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SXFEuN
 >>>>>>> laraxot/dev
 Themes/One/resources/views/components/ui/
 ```
@@ -134,7 +207,15 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 ```
 public_html/images/
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_9UBLYa
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_SXFEuN
+>>>>>>> laraxot/dev
 =======
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/
 ```
@@ -142,6 +223,13 @@ public_html/images/
 Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizionati in:
 /var/www/html/saluteora/public_html/images/
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_9UBLYa
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SXFEuN
 >>>>>>> laraxot/dev
 ```
 
@@ -153,8 +241,17 @@ Il componente avatar è implementato in:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_9UBLYa
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SXFEuN
 >>>>>>> laraxot/dev
 Themes/One/resources/views/components/ui/avatar.blade.php
 ```
@@ -164,13 +261,28 @@ E utilizza gli avatar SVG dalla directory pubblica:
 ```
 public_html/images/avatars/
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_9UBLYa
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_SXFEuN
+>>>>>>> laraxot/dev
 =======
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 ```
 E utilizza gli avatar SVG dalla directory pubblica:
 /var/www/html/saluteora/public_html/images/avatars/
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_9UBLYa
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SXFEuN
 >>>>>>> laraxot/dev
 ```
 
@@ -180,8 +292,17 @@ Il componente icon è implementato in:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_9UBLYa
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SXFEuN
 >>>>>>> laraxot/dev
 Themes/One/resources/views/components/ui/icon.blade.php
 ```
@@ -194,7 +315,15 @@ E include le definizioni SVG direttamente nel componente.
 >
 > `Modules/UI/resources/views/components/ui/`
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_9UBLYa
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_SXFEuN
+>>>>>>> laraxot/dev
 =======
 /var/www/html/saluteora/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 ```
@@ -204,6 +333,13 @@ E include le definizioni SVG direttamente nel componente.
 >
 > `/var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/`
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_9UBLYa
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SXFEuN
 >>>>>>> laraxot/dev
 >
 > **MAI** in `resources/views/components/ui/` della root Laravel.
@@ -219,8 +355,17 @@ E include le definizioni SVG direttamente nel componente.
 **❌ Errato:**
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_9UBLYa
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SXFEuN
 >>>>>>> laraxot/dev
 resources/views/components/ui/logo.blade.php
 ```
@@ -232,7 +377,15 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 ## Best Practices
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_9UBLYa
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_SXFEuN
+>>>>>>> laraxot/dev
 =======
 /var/www/html/ptvx/laravel/resources/views/components/ui/logo.blade.php
 ```
@@ -240,6 +393,13 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 /var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/logo.blade.php
 ## Best Practices
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_9UBLYa
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SXFEuN
 >>>>>>> laraxot/dev
 1. **MAI utilizzare percorsi assoluti hardcoded** nei componenti Blade
 2. **SEMPRE utilizzare l'helper `asset()`** per riferirsi agli asset pubblici
@@ -248,19 +408,43 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 5. **Seguire le convenzioni di naming** per mantenere la coerenza
 6. **Documentare i percorsi corretti** per evitare confusione
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_9UBLYa
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SXFEuN
 >>>>>>> laraxot/dev
 
 ## Errori Comuni
 
 1. **Utilizzo del percorso Laravel public**: Utilizzare `public/` invece di `public_html/`
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_9UBLYa
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_SXFEuN
+>>>>>>> laraxot/dev
 =======
 ## Errori Comuni
 1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/saluteora/laravel/public/` invece di `/var/www/html/saluteora/public_html/`
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_9UBLYa
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SXFEuN
 >>>>>>> laraxot/dev
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile

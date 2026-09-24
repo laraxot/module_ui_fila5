@@ -37,10 +37,21 @@ SpatieMediaLibraryFileUpload::make('photo_profile')
 // Notify Themes
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_fdMq7r
+// Notify Themes  
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 // Notify Themes
 =======
 // Notify Themes  
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
 SpatieMediaLibraryFileUpload::make('logo_src')
 
@@ -60,13 +71,29 @@ SpatieMediaLibraryFileUpload::make('image') // ImagesGallery
 // PatientResource (4 documenti)
 Forms\Components\FileUpload::make('health_card')
 <<<<<<< HEAD
+<<<<<<< HEAD
 Forms\Components\FileUpload::make('identity_document')
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+Forms\Components\FileUpload::make('identity_document')
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_g2ZHY8
+>>>>>>> laraxot/dev
 Forms\Components\FileUpload::make('identity_document')
 =======
 Forms\Components\FileUpload::make('identity_document') 
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
 Forms\Components\FileUpload::make('isee_certificate')
 Forms\Components\FileUpload::make('pregnancy_certificate')
@@ -77,13 +104,29 @@ Forms\Components\FileUpload::make('certifications')
 // UI Blocks Standard
 FileUpload::make('image') // Image block
 <<<<<<< HEAD
+<<<<<<< HEAD
 FileUpload::make('background') // Hero block
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+FileUpload::make('background') // Hero block
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_g2ZHY8
+>>>>>>> laraxot/dev
 FileUpload::make('background') // Hero block
 =======
 FileUpload::make('background') // Hero block  
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
 FileUpload::make('logo') // InfoBlock, LogoBlock
 
@@ -102,10 +145,21 @@ FileUpload::make('logo_header') // Metatag
 // BaseModel <nome progetto> - IMPLEMENTA GIÀ HasMedia + InteractsWithMedia
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_fdMq7r
+// BaseModel SaluteOra - IMPLEMENTA GIÀ HasMedia + InteractsWithMedia
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 // BaseModel <nome progetto> - IMPLEMENTA GIÀ HasMedia + InteractsWithMedia
 =======
 // BaseModel SaluteOra - IMPLEMENTA GIÀ HasMedia + InteractsWithMedia
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
 abstract class BaseModel extends Model implements HasMedia
 {
@@ -121,13 +175,29 @@ abstract class BaseProfile extends BaseModel implements ProfileContract
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // BaseTenant - IMPLEMENTA GIÀ
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+// BaseTenant - IMPLEMENTA GIÀ
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_g2ZHY8
+>>>>>>> laraxot/dev
 // BaseTenant - IMPLEMENTA GIÀ
 =======
 // BaseTenant - IMPLEMENTA GIÀ  
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
 abstract class BaseTenant extends BaseModel implements HasAvatar, HasMedia
 {
@@ -149,8 +219,17 @@ Ogni tipo di documento dovrà avere la sua collection specifica:
 // Patient Documents Collections
 'health_card' => 'tessere_sanitarie'
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
 'identity_document' => 'documenti_identita'
 'isee_certificate' => 'certificazioni_isee'
@@ -168,7 +247,15 @@ Ogni tipo di documento dovrà avere la sua collection specifica:
 #### 1.2 Configurazione Media Collections
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_g2ZHY8
+>>>>>>> laraxot/dev
 =======
 'identity_document' => 'documenti_identita'  
 'isee_certificate' => 'certificazioni_isee'
@@ -182,6 +269,13 @@ Ogni tipo di documento dovrà avere la sua collection specifica:
 ```
 #### 1.2 Configurazione Media Collections
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
 ```php
 // In ogni modello che usa media
@@ -191,8 +285,17 @@ public function registerMediaCollections(): void
         ->acceptsMimeTypes(['image/jpeg', 'image/png', 'application/pdf'])
         ->singleFile();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
 
     $this->addMediaCollection('documenti_identita')
@@ -204,7 +307,15 @@ public function registerMediaCollections(): void
         ->singleFile();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_g2ZHY8
+>>>>>>> laraxot/dev
 =======
         
     $this->addMediaCollection('documenti_identita')
@@ -216,6 +327,13 @@ public function registerMediaCollections(): void
         ->singleFile();
         
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
     $this->addMediaCollection('certificati_gravidanza')
         ->acceptsMimeTypes(['application/pdf'])
@@ -266,13 +384,29 @@ class SpatieDocumentUpload
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Modules/UI/app/Filament/Components/SpatieImageUpload.php
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+// Modules/UI/app/Filament/Components/SpatieImageUpload.php
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_g2ZHY8
+>>>>>>> laraxot/dev
 // Modules/UI/app/Filament/Components/SpatieImageUpload.php
 =======
 // Modules/UI/app/Filament/Components/SpatieImageUpload.php  
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
 class SpatieImageUpload
 {
@@ -309,10 +443,21 @@ class SpatieImageUpload
 // Modules/<nome progetto>/app/Filament/Resources/PatientResource.php - getFormSchema()
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_fdMq7r
+// Modules/SaluteOra/app/Filament/Resources/PatientResource.php - getFormSchema()
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 // Modules/<nome progetto>/app/Filament/Resources/PatientResource.php - getFormSchema()
 =======
 // Modules/SaluteOra/app/Filament/Resources/PatientResource.php - getFormSchema()
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
 
 // PRIMA (FileUpload standard)
@@ -323,8 +468,17 @@ class SpatieImageUpload
     ->maxSize(5120),
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
 // DOPO (SpatieMediaLibraryFileUpload)
 'health_card' => \Modules\UI\Filament\Components\SpatieDocumentUpload::forHealthCard()
@@ -352,7 +506,15 @@ FileUpload::make('image'),
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_g2ZHY8
+>>>>>>> laraxot/dev
 =======
 // DOPO (SpatieMediaLibraryFileUpload)  
 'health_card' => \Modules\UI\Filament\Components\SpatieDocumentUpload::forHealthCard()
@@ -371,6 +533,13 @@ FileUpload::make('image'),
 ### **Fase 4: Migrazione Database e Conversioni**
 #### 4.1 Migrazione Dati Esistenti
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
 // Database/Migrations/migrate_file_uploads_to_media_library.php
 public function up(): void
@@ -381,8 +550,17 @@ public function up(): void
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 
 =======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
     foreach($patients as $patient) {
@@ -391,8 +569,17 @@ public function up(): void
                 ->toMediaCollection('tessere_sanitarie');
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
     }
 }
@@ -403,9 +590,21 @@ public function up(): void
 ```php
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_fdMq7r
 =======
 #### 4.2 Rimozione Campi Database Obsoleti
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+=======
+#### 4.2 Rimozione Campi Database Obsoleti
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
 // Dopo migrazione completa - rimuovere colonne file paths
 Schema::table('users', function (Blueprint $table) {
@@ -415,10 +614,21 @@ Schema::table('users', function (Blueprint $table) {
         'identity_document',
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_fdMq7r
+        'identity_document', 
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
         'identity_document',
 =======
         'identity_document', 
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
         'isee_certificate',
         'pregnancy_certificate',
@@ -426,8 +636,17 @@ Schema::table('users', function (Blueprint $table) {
     ]);
 });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
 ```
 
@@ -443,7 +662,15 @@ Schema::table('users', function (Blueprint $table) {
 public function registerMediaCollections(): void
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_g2ZHY8
+>>>>>>> laraxot/dev
 =======
 ---
 ## 🔧 Implementazione Tecnica Dettagliata
@@ -451,6 +678,13 @@ public function registerMediaCollections(): void
 // Modules/SaluteOra/app/Models/User.php - Aggiunta registerMediaCollections
 public function registerMediaCollections(): void
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
     // Documenti paziente
     $this->addMediaCollection('tessere_sanitarie')
@@ -458,8 +692,17 @@ public function registerMediaCollections(): void
         ->singleFile()
         ->useDisk('private');
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
 
     $this->addMediaCollection('documenti_identita')
@@ -486,7 +729,15 @@ public function registerMediaCollections(): void
 public function registerMediaConversions(Media $media = null): void
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_g2ZHY8
+>>>>>>> laraxot/dev
 =======
     $this->addMediaCollection('documenti_identita')
     $this->addMediaCollection('certificazioni_isee')
@@ -496,6 +747,13 @@ public function registerMediaConversions(Media $media = null): void
     $this->addMediaCollection('certificazioni_professionali')
 public function registerMediaConversions(Media $media = null): void
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
     $this->addMediaConversion('thumbnail')
         ->width(300)
@@ -503,8 +761,17 @@ public function registerMediaConversions(Media $media = null): void
         ->sharpen(10)
         ->performOnCollections('tessere_sanitarie', 'documenti_identita');
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
 
     $this->addMediaConversion('preview')
@@ -520,7 +787,15 @@ public function registerMediaConversions(Media $media = null): void
 // Modules/<nome progetto>/app/Models/User.php - Accessors di transizione
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_g2ZHY8
+>>>>>>> laraxot/dev
 =======
     $this->addMediaConversion('preview')
         ->width(600)
@@ -528,6 +803,13 @@ public function registerMediaConversions(Media $media = null): void
 ### **Accessors per Backward Compatibility**
 // Modules/SaluteOra/app/Models/User.php - Accessors di transizione
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
 /**
  * Accessor per compatibilità con codice esistente.
@@ -535,8 +817,17 @@ public function registerMediaConversions(Media $media = null): void
  */
 public function getHealthCardAttribute(): ?string
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
 {
     return $this->getFirstMediaUrl('tessere_sanitarie');
@@ -556,7 +847,15 @@ public function getCertificationsAttribute(): array
 ### **View Components Integration**
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_g2ZHY8
+>>>>>>> laraxot/dev
 =======
     return $this->getFirstMediaUrl('tessere_sanitarie');
  * Accessor per array di certificazioni (dottori).
@@ -566,6 +865,13 @@ public function getCertificationsAttribute(): array
         ->toArray();
 ### **View Components Integration**
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
 ```blade
 {{-- resources/views/components/patient-documents.blade.php --}}
@@ -573,8 +879,17 @@ public function getCertificationsAttribute(): array
     @if($patient->hasMedia('tessere_sanitarie'))
         <div class="document-preview">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
             <h4>{{ __('<nome progetto>::patients.health_card') }}</h4>
             <img src="{{ $patient->getFirstMediaUrl('tessere_sanitarie', 'thumbnail') }}"
@@ -599,7 +914,15 @@ public function getCertificationsAttribute(): array
                class="text-blue-600 text-sm">
                 {{ __('<nome progetto>::common.download_pdf') }}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_g2ZHY8
+>>>>>>> laraxot/dev
 =======
             <h4>{{ __('saluteora::patients.health_card') }}</h4>
             <img src="{{ $patient->getFirstMediaUrl('tessere_sanitarie', 'thumbnail') }}" 
@@ -624,6 +947,13 @@ public function getCertificationsAttribute(): array
                class="text-blue-600 text-sm">
                 {{ __('saluteora::common.download_pdf') }}
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
             </a>
         </div>
@@ -719,10 +1049,21 @@ public function downloadDocument(Media $media): Response
 ### **Post-Migrazione**
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_fdMq7r
+### **Post-Migrazione**  
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 ### **Post-Migrazione**
 =======
 ### **Post-Migrazione**  
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
 - [ ] Cleanup file obsoleti
 - [ ] Performance comparison
@@ -738,13 +1079,29 @@ public function downloadDocument(Media $media): Response
 - [Filament Plugin Documentation](https://filamentphp.com/plugins/filament-spatie-media-library)
 - [UI Components Docs](./filament-components-rules.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [<nome progetto> Models Architecture](../<nome progetto>/docs/models-architecture.md)
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+- [<nome progetto> Models Architecture](../<nome progetto>/docs/models-architecture.md)
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_g2ZHY8
+>>>>>>> laraxot/dev
 - [<nome progetto> Models Architecture](../<nome progetto>/docs/models-architecture.md)
 =======
 - [SaluteOra Models Architecture](../SaluteOra/docs/models-architecture.md)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
 
 ### **Repository e Risorse**
@@ -761,10 +1118,21 @@ public function downloadDocument(Media $media): Response
 2. **ALTO**: DoctorResource (certificazioni professionali)
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_fdMq7r
+2. **ALTO**: DoctorResource (certificazioni professionali)  
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 2. **ALTO**: DoctorResource (certificazioni professionali)
 =======
 2. **ALTO**: DoctorResource (certificazioni professionali)  
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev
 3. **MEDIO**: UI Blocks (contenuti pubblici)
 4. **BASSO**: Appearance pages (configurazioni admin)
@@ -784,11 +1152,20 @@ public function downloadDocument(Media $media): Response
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+>>>>>>> laraxot/dev
 *Ultimo aggiornamento: Dicembre 2024*
 *Versione: 1.0*
 *Compatibilità: Laraxot <nome progetto>, Spatie Media Library 11.x, Filament 3.x*
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_g2ZHY8
+>>>>>>> laraxot/dev
 *Ultimo aggiornamento: Dicembre 2024*
 *Versione: 1.0*
 *Compatibilità: Laraxot <nome progetto>, Spatie Media Library 11.x, Filament 3.x*
@@ -797,4 +1174,11 @@ public function downloadDocument(Media $media): Response
 *Versione: 1.0*  
 *Compatibilità: Laraxot SaluteOra, Spatie Media Library 11.x, Filament 3.x* 
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_fdMq7r
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_g2ZHY8
 >>>>>>> laraxot/dev

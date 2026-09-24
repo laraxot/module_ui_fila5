@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_mhuaes
+=======
+=======
+<<<<<<< .merge_file_SgHAuN
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_p7Y1rN
+>>>>>>> .merge_file_Nwjd6a
+>>>>>>> laraxot/dev
 ---
 title: "Task: Incremento Test Coverage (Pest) - UI"
 type: concept
@@ -6,12 +23,20 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "increase-test-coverage task: incremento test coverage (pest) - ui"
 <<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-=======
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+=======
+=======
+<<<<<<< .merge_file_mhuaes
+=======
+<<<<<<< .merge_file_SgHAuN
+>>>>>>> .merge_file_Nwjd6a
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
@@ -21,11 +46,37 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 <<<<<<< HEAD
 =======
 =======
+=======
+<<<<<<< .merge_file_mhuaes
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> .merge_file_p7Y1rN
+>>>>>>> .merge_file_Nwjd6a
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+<<<<<<< .merge_file_mhuaes
+=======
+<<<<<<< .merge_file_SgHAuN
+>>>>>>> .merge_file_Nwjd6a
+=======
+>>>>>>> laraxot/dev
 =======
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_mhuaes
+=======
+=======
+>>>>>>> .merge_file_p7Y1rN
+>>>>>>> .merge_file_Nwjd6a
 >>>>>>> laraxot/dev
 related:
   - "./001-design-system-components.md"
@@ -37,6 +88,23 @@ related:
   - "./ui-filament-v5.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_mhuaes
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_SgHAuN
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_p7Y1rN
+>>>>>>> .merge_file_Nwjd6a
+>>>>>>> laraxot/dev
 # Task: Incremento Test Coverage (Pest) - UI
 
 **Modulo**: UI  

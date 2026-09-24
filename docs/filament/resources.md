@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_vxYgym
+=======
+=======
+<<<<<<< .merge_file_R6vNFy
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Cjwu9t
+>>>>>>> .merge_file_YpnLwH
+>>>>>>> laraxot/dev
 ---
 title: "Risorse Filament"
 type: concept
@@ -6,11 +23,18 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "resources risorse filament"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
+=======
+<<<<<<< .merge_file_vxYgym
+=======
+<<<<<<< .merge_file_R6vNFy
+>>>>>>> .merge_file_YpnLwH
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -23,6 +47,18 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_vxYgym
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_Cjwu9t
+>>>>>>> .merge_file_YpnLwH
 >>>>>>> laraxot/dev
 related:
   - "./automatic-translations.md"
@@ -35,6 +71,23 @@ related:
   - "./filament-4-migration-sumy.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_vxYgym
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_R6vNFy
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Cjwu9t
+>>>>>>> .merge_file_YpnLwH
+>>>>>>> laraxot/dev
 # Risorse Filament
 
 ## Documentazione Dettagliata

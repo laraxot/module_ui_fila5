@@ -360,10 +360,31 @@ Quando aggiungi feature nuova a UI:
 - [INDEX](./index.md) — Documentazione index completo
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_K6eNXF
+- [INDEX](./INDEX.md) — Documentazione index completo
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_KyuCMa
+- [INDEX](./INDEX.md) — Documentazione index completo
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_LHqPXO
+- [INDEX](./INDEX.md) — Documentazione index completo
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 - [INDEX](./index.md) — Documentazione index completo
 =======
 - [INDEX](./INDEX.md) — Documentazione index completo
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_Z1KmJv
+>>>>>>> .merge_file_xRFpUK
+>>>>>>> .merge_file_6jSg57
 >>>>>>> laraxot/dev
 - [TROUBLESHOOTING](./TROUBLESHOOTING.md) — Errori comuni e soluzioni
 - [architecture/component-registration](./architecture/component-registration.md) — Registrazione dettagliata

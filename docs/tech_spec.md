@@ -24,6 +24,10 @@ Technical implementation details for the UI module.
 
 ## Dependencies
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- Laravel 12.x
+>>>>>>> laraxot/dev
 =======
 - Laravel 12.x
 >>>>>>> laraxot/dev

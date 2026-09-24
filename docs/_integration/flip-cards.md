@@ -1,9 +1,27 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_wLiGbx
+=======
+<<<<<<< .merge_file_WW8XOe
+>>>>>>> .merge_file_V3HFtC
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_wLiGbx
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_V3HFtC
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 =======
@@ -13,6 +31,14 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_wLiGbx
+=======
+=======
+>>>>>>> .merge_file_izYozF
+>>>>>>> .merge_file_V3HFtC
 >>>>>>> laraxot/dev
 ---
 title: "flip_cards"
@@ -35,7 +61,14 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_wLiGbx
+=======
+<<<<<<< .merge_file_WW8XOe
+>>>>>>> .merge_file_V3HFtC
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
@@ -49,6 +82,16 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_wLiGbx
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 # flip_cards
 
@@ -57,9 +100,19 @@ related:
 https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 =======
 <<<<<<< HEAD
@@ -87,7 +140,15 @@ https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
 <<<<<<< HEAD
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
 # flip_cards
+<<<<<<< HEAD
 https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
+=======
+
+<!-- Contenuto migrato da _docs/flip_cards.txt -->
+
+https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
+
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
@@ -111,6 +172,10 @@ https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 https://codepen.io/desandro/pen/LmWozd
 
 https://codepen.io/riizkyyrmdnn/pen/dyaKgxJ
@@ -122,7 +187,18 @@ https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
 <<<<<<< HEAD
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+=======
+<<<<<<< HEAD
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_izYozF
+=======
+>>>>>>> .merge_file_V3HFtC
+>>>>>>> laraxot/dev
 # flip_cards
 
 <!-- Contenuto migrato da _docs/flip_cards.txt -->
@@ -130,8 +206,31 @@ https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create
 https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 
+=======
+
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_wLiGbx
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 https://codepen.io/desandro/pen/LmWozd
 
 https://codepen.io/riizkyyrmdnn/pen/dyaKgxJ
@@ -143,6 +242,119 @@ https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
 <<<<<<< HEAD
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
 # flip_cards
+<<<<<<< HEAD
+=======
+https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
+=======
+<<<<<<< HEAD
+
+
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+=======
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+# flip_cards
+
+
+https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
+=======
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> .merge_file_V3HFtC
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+https://codepen.io/desandro/pen/LmWozd
+
+https://codepen.io/riizkyyrmdnn/pen/dyaKgxJ
+
+https://dev.to/adetutu/how-to-design-a-css-card-flip-animation-creating-flipping-cards-on-hover-5ha6
+
+https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
+
+<<<<<<< HEAD
+<<<<<<< .merge_file_wLiGbx
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+=======
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_V3HFtC
+# flip_cards
+
+=======
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<!-- Contenuto migrato da _docs/flip_cards.txt -->
+
+https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+
+>>>>>>> laraxot/dev
+https://codepen.io/desandro/pen/LmWozd
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+https://codepen.io/riizkyyrmdnn/pen/dyaKgxJ
+https://dev.to/adetutu/how-to-design-a-css-card-flip-animation-creating-flipping-cards-on-hover-5ha6
+https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+# flip_cards
+https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
+https://codepen.io/desandro/pen/LmWozd
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+
+https://codepen.io/riizkyyrmdnn/pen/dyaKgxJ
+
+https://dev.to/adetutu/how-to-design-a-css-card-flip-animation-creating-flipping-cards-on-hover-5ha6
+
+https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+
+
+
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+=======
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+=======
+<<<<<<< HEAD
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+
+<<<<<<< HEAD
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
+# flip_cards
+>>>>>>> laraxot/dev
 
 =======
 <<<<<<< HEAD
@@ -154,6 +366,11 @@ https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create
 https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
 
 https://codepen.io/desandro/pen/LmWozd
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 https://codepen.io/riizkyyrmdnn/pen/dyaKgxJ
 https://dev.to/adetutu/how-to-design-a-css-card-flip-animation-creating-flipping-cards-on-hover-5ha6
 https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
@@ -161,6 +378,10 @@ https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create
 # flip_cards
 https://github.com/Mridul2820/css-js/tree/master/CSS-Projects/3d-responsive-flip-card-effect
 https://codepen.io/desandro/pen/LmWozd
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 https://codepen.io/riizkyyrmdnn/pen/dyaKgxJ
 
@@ -168,6 +389,14 @@ https://dev.to/adetutu/how-to-design-a-css-card-flip-animation-creating-flipping
 
 https://www.smashingmagazine.com/2020/02/magic-flip-cards-common-sizing-problem/
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
 =======
 =======
 >>>>>>> laraxot/dev
@@ -181,7 +410,10 @@ https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create
 
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> laraxot/dev
 =======
 https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create-flip-cards-with-custom-HTML
 =======
@@ -199,4 +431,14 @@ https://helpcenter.flourish.studio/hc/en-us/articles/8761537838095-How-to-create
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_wLiGbx
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_V3HFtC
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

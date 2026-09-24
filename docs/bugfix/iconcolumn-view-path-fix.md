@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_Rmbcaz
+=======
+=======
+<<<<<<< .merge_file_bQgfTE
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1KYqa8
+>>>>>>> .merge_file_rM1jKw
+>>>>>>> laraxot/dev
 ---
 title: "Bugfix: IconColumn View Path Mismatch"
 type: concept
@@ -6,11 +23,18 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "iconcolumn-view-path-fix bugfix: iconcolumn view path mismatch"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
+=======
+<<<<<<< .merge_file_Rmbcaz
+=======
+<<<<<<< .merge_file_bQgfTE
+>>>>>>> .merge_file_rM1jKw
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -23,12 +47,41 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_Rmbcaz
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_1KYqa8
+>>>>>>> .merge_file_rM1jKw
 >>>>>>> laraxot/dev
 related:
   - "./groupcolumn-architectural-violations.md"
   - "./iconcolumn-extends-filament-column.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Rmbcaz
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_bQgfTE
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1KYqa8
+>>>>>>> .merge_file_rM1jKw
+>>>>>>> laraxot/dev
 # Bugfix: IconColumn View Path Mismatch
 
 **Data Fix**: 11 Novembre 2025
@@ -143,6 +196,34 @@ protected string $view = 'ui::filament.tables.columns.icon';
 
 ## Riferimenti
 
+<<<<<<< HEAD
 - [Laraxot Architectural Rules](../../architecture-rules-1.md)
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_Rmbcaz
+- [Laraxot Architectural Rules](../../architecture_rules.md)
+=======
+- [Laraxot Architectural Rules](../../architecture-rules-1.md)
+=======
+<<<<<<< .merge_file_bQgfTE
+- [Laraxot Architectural Rules](../../architecture_rules.md)
+=======
+<<<<<<< HEAD
+- [Laraxot Architectural Rules](../../architecture-rules-1.md)
+=======
+<<<<<<< HEAD
+- [Laraxot Architectural Rules](../../architecture_rules.md)
+=======
+- [Laraxot Architectural Rules](../../architecture-rules-1.md)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [Laraxot Architectural Rules](../../architecture-rules-1.md)
+=======
+- [Laraxot Architectural Rules](../../architecture_rules.md)
+>>>>>>> .merge_file_1KYqa8
+>>>>>>> .merge_file_rM1jKw
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [XotBaseIconColumn](../../../../Xot/app/Filament/Tables/Columns/XotBaseIconColumn.php)
 - [Blade Best Practices](https://laravel.com/docs/blade)

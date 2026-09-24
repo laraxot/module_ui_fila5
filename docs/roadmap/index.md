@@ -8,12 +8,27 @@ qmd: "00-index ui module - roadmap"
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_XMKdXl
+=======
+<<<<<<< .merge_file_hJf8Ig
+=======
+<<<<<<< .merge_file_5cEuAF
+=======
+>>>>>>> laraxot/dev
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_ij2QVe
+>>>>>>> .merge_file_N75J2x
+>>>>>>> .merge_file_Up8Iyg
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
@@ -23,6 +38,19 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_XMKdXl
+=======
+<<<<<<< .merge_file_hJf8Ig
+=======
+<<<<<<< .merge_file_5cEuAF
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ij2QVe
+>>>>>>> .merge_file_N75J2x
+>>>>>>> .merge_file_Up8Iyg
 >>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"

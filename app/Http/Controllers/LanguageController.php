@@ -25,6 +25,35 @@ class LanguageController extends Controller
         session()->put('locale', $locale);
         app()->setLocale($locale);
 
+<<<<<<< HEAD
         return redirect()->back();
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_631qhw
+=======
+        return redirect()->back();
+=======
+<<<<<<< HEAD
+        return redirect()->back();
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_JZHS2A
+        $previous = url()->previous();
+        $fallback = url('/');
+
+        if (! is_string($previous) || ! str_starts_with($previous, $fallback)) {
+            return redirect()->to($fallback);
+        }
+
+        return redirect()->to($previous);
+=======
+        return redirect()->back();
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_631qhw
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_JZHS2A
+>>>>>>> laraxot/dev
     }
 }

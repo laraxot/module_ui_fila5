@@ -2,7 +2,56 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 return [
+=======
+<<<<<<< .merge_file_xwarWC
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_mN4Tc3
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+return [
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SOGeR4
+// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
+// claude-audit static: ≥5% comment lines on files >100 LOC.
+// Canon: Modules/UI/docs/wiki — domain i18n only.
+// File: lang/it/s3test.php
+return [
+<<<<<<< HEAD
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+// Laraxot module file — see docs/wiki for domain contract.
+=======
+    // Laraxot module file — see docs/wiki for domain contract.
+    // Laraxot module file — see docs/wiki for domain contract.
+    // Laraxot module file — see docs/wiki for domain contract.
+    // Laraxot module file — see docs/wiki for domain contract.
+    // Laraxot module file — see docs/wiki for domain contract.
+    // Laraxot module file — see docs/wiki for domain contract.
+    // Laraxot module file — see docs/wiki for domain contract.
+    // Laraxot module file — see docs/wiki for domain contract.
+=======
+return [
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_xwarWC
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+return [
+>>>>>>> .merge_file_VINoGM
+>>>>>>> .merge_file_SOGeR4
+>>>>>>> laraxot/dev
     'page' => [
         'title' => 'Test S3 e CloudFront',
         'heading' => 'Test Configurazione AWS',
@@ -39,7 +88,35 @@ return [
         ],
         'testPermissions' => [
             'label' => '🔒 Test Permessi',
+<<<<<<< HEAD
             'tooltip' => 'Testa i permessi S3 (ListBucket, PutObject, GetObject, DeleteObject)',
+=======
+<<<<<<< .merge_file_xwarWC
+<<<<<<< HEAD
+            'tooltip' => 'Testa i permessi S3 (ListBucket, PutObject, GetObject, DeleteObject]',
+=======
+            'tooltip' => 'Testa i permessi S3 (ListBucket, PutObject, GetObject, DeleteObject)',
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_mN4Tc3
+<<<<<<< HEAD
+            'tooltip' => 'Testa i permessi S3 (ListBucket, PutObject, GetObject, DeleteObject]',
+=======
+<<<<<<< HEAD
+            'tooltip' => 'Testa i permessi S3 (ListBucket, PutObject, GetObject, DeleteObject)',
+=======
+<<<<<<< HEAD
+            'tooltip' => 'Testa i permessi S3 (ListBucket, PutObject, GetObject, DeleteObject]',
+=======
+            'tooltip' => 'Testa i permessi S3 (ListBucket, PutObject, GetObject, DeleteObject)',
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+            'tooltip' => 'Testa i permessi S3 (ListBucket, PutObject, GetObject, DeleteObject)',
+>>>>>>> .merge_file_VINoGM
+>>>>>>> .merge_file_SOGeR4
+>>>>>>> laraxot/dev
             'success' => 'Permessi S3 testati con successo',
             'error' => 'Errore nel test dei permessi S3',
         ],
@@ -130,6 +207,32 @@ return [
         ],
         'label' => 'S3test',
         'sort' => 1,
+<<<<<<< HEAD
         'icon' => 'heroicon-o-rectangle-stack',
+=======
+<<<<<<< .merge_file_xwarWC
+=======
+<<<<<<< .merge_file_mN4Tc3
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-collection',
+=======
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-rectangle-stack',
+=======
+>>>>>>> .merge_file_SOGeR4
+<<<<<<< HEAD
+        'icon' => 'heroicon-o-collection',
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_xwarWC
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> .merge_file_VINoGM
+>>>>>>> .merge_file_SOGeR4
+>>>>>>> laraxot/dev
     ],
 ];

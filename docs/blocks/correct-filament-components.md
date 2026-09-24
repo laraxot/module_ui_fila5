@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_ooSaKa
+=======
+=======
+<<<<<<< .merge_file_03Eys1
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_iDkYSr
+>>>>>>> .merge_file_76TSDw
+>>>>>>> laraxot/dev
 ---
 title: "Uso Corretto dei Componenti Filament nei Blocchi"
 type: concept
@@ -6,11 +23,18 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "correct-filament-components uso corretto dei componenti filament nei blocchi"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
+=======
+<<<<<<< .merge_file_ooSaKa
+=======
+<<<<<<< .merge_file_03Eys1
+>>>>>>> .merge_file_76TSDw
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -23,6 +47,18 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_ooSaKa
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_iDkYSr
+>>>>>>> .merge_file_76TSDw
 >>>>>>> laraxot/dev
 related:
   - "./filament-component-integration.md"
@@ -31,6 +67,23 @@ related:
   - "./user-dropdown.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ooSaKa
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_03Eys1
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_iDkYSr
+>>>>>>> .merge_file_76TSDw
+>>>>>>> laraxot/dev
 # Uso Corretto dei Componenti Filament nei Blocchi
 
 ## Componenti Disponibili e Limitazioni

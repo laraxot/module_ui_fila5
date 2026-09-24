@@ -245,16 +245,44 @@ Modules/UI/
 │   └── Unit/
 ├── README.md
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ei21pR
+=======
+<<<<<<< .merge_file_QZdJ5M
+=======
+<<<<<<< .merge_file_PxAbOR
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 └── CHANGELOG.md
 ```
 
 (`ARCHITECTURE.md`, `TESTING.md`, `GETTING_STARTED.md` and `PHILOSOPHY.md` were moved from the module root into `docs/root-md-files/` and `docs/` proper; they are inside the collapsed `docs/` entry above.)
 
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_jEotks
+>>>>>>> .merge_file_hBcCiW
+>>>>>>> .merge_file_G8CbqT
+>>>>>>> laraxot/dev
 ├── ARCHITECTURE.md
 └── CHANGELOG.md
 ```
 
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_ei21pR
+=======
+<<<<<<< .merge_file_QZdJ5M
+=======
+<<<<<<< .merge_file_PxAbOR
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jEotks
+>>>>>>> .merge_file_hBcCiW
+>>>>>>> .merge_file_G8CbqT
 >>>>>>> laraxot/dev
 ---
 
@@ -1280,9 +1308,27 @@ Core functionality tests pass:
 
 - [README.md](./README.md) — Module overview
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ei21pR
+- [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
+=======
+<<<<<<< .merge_file_QZdJ5M
+- [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
+=======
+<<<<<<< .merge_file_PxAbOR
+- [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 - [architecture.md](./architecture.md) — System architecture
 =======
 - [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_jEotks
+>>>>>>> .merge_file_hBcCiW
+>>>>>>> .merge_file_G8CbqT
 >>>>>>> laraxot/dev
 - [patterns.md](./patterns.md) — Design patterns and workflows
 - [icon-system.md](./icon-system.md) — Icon system details

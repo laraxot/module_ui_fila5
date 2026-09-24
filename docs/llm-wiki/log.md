@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_kRRjHD
+=======
+=======
+<<<<<<< .merge_file_GQ8NP4
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hcnEnb
+>>>>>>> .merge_file_09wmuF
+>>>>>>> laraxot/dev
 ---
 title: "UI Activity Log"
 type: concept
@@ -6,11 +23,18 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "log ui activity log"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
+=======
+<<<<<<< .merge_file_kRRjHD
+=======
+<<<<<<< .merge_file_GQ8NP4
+>>>>>>> .merge_file_09wmuF
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -23,12 +47,41 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_kRRjHD
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_hcnEnb
+>>>>>>> .merge_file_09wmuF
 >>>>>>> laraxot/dev
 related:
   - "./agents.md"
   - "./index.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_kRRjHD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_GQ8NP4
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_hcnEnb
+>>>>>>> .merge_file_09wmuF
+>>>>>>> laraxot/dev
 # UI Activity Log
 
 > **Module**: UI
@@ -43,10 +96,31 @@ related:
 - Created: AGENTS.md (agent instructions)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_kRRjHD
+=======
+- Created: AGENTS.md (agent instructions)
+=======
+<<<<<<< HEAD
+- Created: agents.md (agent instructions)
+>>>>>>> 92912795 (.)
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_09wmuF
+>>>>>>> laraxot/dev
 - Created: AGENTS.md (agent instructions)
 =======
 - Created: agents.md (agent instructions)
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_kRRjHD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_09wmuF
 >>>>>>> laraxot/dev
 - Created: index.md (content catalog)
 - Created: log.md (this file)

@@ -88,10 +88,21 @@ public static function form(Form $form): Form
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ZUZfV8
+            
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 
 =======
             
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_IwJLcL
 >>>>>>> laraxot/dev
         // Digitare 'fil-select' e premere Tab
         Select::make('status')
@@ -101,13 +112,29 @@ public static function form(Form $form): Form
             ])
             ->required(),
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ZUZfV8
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_IwJLcL
+>>>>>>> laraxot/dev
 
 =======
             
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_ZUZfV8
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_IwJLcL
 >>>>>>> laraxot/dev
         // Digitare 'fil-rich' e premere Tab
         RichEditor::make('content')
@@ -133,10 +160,21 @@ public static function table(Table $table): Table
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ZUZfV8
+                
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 
 =======
                 
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_IwJLcL
 >>>>>>> laraxot/dev
             // Digitare 'fil-col' e premere Tab
             IconColumn::make('status')
@@ -178,13 +216,29 @@ Forms\Components\Wizard::make([
                     Forms\Components\TextInput::make('first_name')
                         ->required(),
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ZUZfV8
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_IwJLcL
+>>>>>>> laraxot/dev
 
 =======
                         
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_ZUZfV8
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_IwJLcL
 >>>>>>> laraxot/dev
                     Forms\Components\TextInput::make('last_name')
                         ->required(),

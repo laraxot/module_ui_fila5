@@ -4,8 +4,17 @@
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_CZYfnV
+=======
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_MAtuxB
 >>>>>>> laraxot/dev
 ## 2026-09-04 — Concrete models → contracts (UI, User modules)
 
@@ -47,7 +56,16 @@ Story: `docs/stories/ui-services-to-actions.story.md`.
 **Date:** 2026-01-17
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_CZYfnV
+=======
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_MAtuxB
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 **Lines Coverage:** N/A (Failed to parse)
@@ -138,8 +156,17 @@ endor/laravel/framework/src/Illuminate/Container/Container.php:1415
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_CZYfnV
+=======
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_MAtuxB
 >>>>>>> laraxot/dev
 
 ---
@@ -486,6 +513,15 @@ Tests: 6 failed, 1 risky, 109 skipped, 199 passed (654 assertions)
 **Action:** Address 6 test failures before final merge
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_CZYfnV
+=======
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_MAtuxB
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

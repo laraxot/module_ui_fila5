@@ -13,8 +13,31 @@ uses(TestCase::class);
 
 describe('Component', function (): void {
     test('ui components can be rendered', function (): void {
+<<<<<<< HEAD
         $component = new class extends Component
         {
+=======
+<<<<<<< HEAD
+        $component = new class extends Component {
+=======
+<<<<<<< .merge_file_cPcJny
+        $component = new class extends Component
+        {
+=======
+<<<<<<< HEAD
+        $component = new class extends Component
+        {
+=======
+<<<<<<< HEAD
+        $component = new class extends Component {
+=======
+        $component = new class extends Component
+        {
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_RLYbwL
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
             public function render(): View
             {
                 return view('ui::components.ui.button');

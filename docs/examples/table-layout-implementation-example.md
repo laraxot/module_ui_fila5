@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_nEBIIy
+=======
+=======
+<<<<<<< .merge_file_8k59rh
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_5t0rdC
+>>>>>>> .merge_file_EmuiVJ
+>>>>>>> laraxot/dev
 ---
 title: "Esempio Pratico: Implementazione TableLayoutEnum"
 type: concept
@@ -6,11 +23,18 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "table-layout-implementation-example esempio pratico: implementazione tablelayoutenum"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
+=======
+<<<<<<< .merge_file_nEBIIy
+=======
+<<<<<<< .merge_file_8k59rh
+>>>>>>> .merge_file_EmuiVJ
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -23,11 +47,40 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_nEBIIy
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_5t0rdC
+>>>>>>> .merge_file_EmuiVJ
 >>>>>>> laraxot/dev
 related:
   - "./inline-date-picker-usage.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_nEBIIy
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_8k59rh
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_5t0rdC
+>>>>>>> .merge_file_EmuiVJ
+>>>>>>> laraxot/dev
 # Esempio Pratico: Implementazione TableLayoutEnum
 
 ## Panoramica
@@ -185,10 +238,36 @@ class UserResource extends XotBaseResource
     protected static ?string $navigationIcon = 'heroicon-o-users';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public static function getFormSchema(): array
 >>>>>>> laraxot/dev
     public function getFormSchema(): array
+=======
+    public static function getFormSchema(): array
+<<<<<<< HEAD
+<<<<<<< .merge_file_nEBIIy
+=======
+    public function getFormSchema(): array
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_8k59rh
+=======
+<<<<<<< HEAD
+    public function getFormSchema(): array
+=======
+<<<<<<< HEAD
+=======
+    public function getFormSchema(): array
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+    public function getFormSchema(): array
+=======
+>>>>>>> .merge_file_5t0rdC
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_EmuiVJ
+>>>>>>> laraxot/dev
     {
         return [
             Forms\Components\TextInput::make('name')
@@ -373,6 +452,42 @@ class ListUsersTest extends TestCase
 ## Collegamenti
 
 - [TableLayoutEnum Documentation](../table-layout-enum-comprehensive.md)
+<<<<<<< HEAD
 - [UI Module Architecture](../architecture-rules-1.md)
 - [Filament Best Practices](../../../../docs/filament_best-practices-2.md)
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_nEBIIy
+- [UI Module Architecture](../architecture_rules.md)
+- [Filament Best Practices](../../../../docs/filament_best_practices.md)
+=======
+- [UI Module Architecture](../architecture-rules-1.md)
+- [Filament Best Practices](../../../../docs/filament_best-practices-2.md)
+=======
+<<<<<<< .merge_file_8k59rh
+- [UI Module Architecture](../architecture_rules.md)
+- [Filament Best Practices](../../../../docs/filament_best_practices.md)
+=======
+<<<<<<< HEAD
+- [UI Module Architecture](../architecture-rules-1.md)
+- [Filament Best Practices](../../../../docs/filament_best-practices-2.md)
+=======
+<<<<<<< HEAD
+- [UI Module Architecture](../architecture_rules.md)
+- [Filament Best Practices](../../../../docs/filament_best_practices.md)
+=======
+- [UI Module Architecture](../architecture-rules-1.md)
+- [Filament Best Practices](../../../../docs/filament_best-practices-2.md)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [UI Module Architecture](../architecture-rules-1.md)
+- [Filament Best Practices](../../../../docs/filament_best-practices-2.md)
+=======
+- [UI Module Architecture](../architecture_rules.md)
+- [Filament Best Practices](../../../../docs/filament_best_practices.md)
+>>>>>>> .merge_file_5t0rdC
+>>>>>>> .merge_file_EmuiVJ
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [Translation Standards](../../../../docs/translation_standards.md)

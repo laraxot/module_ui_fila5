@@ -4,8 +4,19 @@
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_rOMtlI
 **Data**: 2025-12-23
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+**Data**: 2025-12-23
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_5vUgVO
 >>>>>>> laraxot/dev
 **Modulo**: UI
 **Livello PHPStan**: max

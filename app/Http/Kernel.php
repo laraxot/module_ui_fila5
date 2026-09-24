@@ -16,10 +16,54 @@ use Illuminate\Cookie\Middleware\EncryptCookies;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 use Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull;
 use Illuminate\Foundation\Http\Middleware\HandlePrecognitiveRequests;
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_KzH2HH
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_92fbwG
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_cdvgyV
+use Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance;
+use Illuminate\Foundation\Http\Middleware\TrimStrings;
+use Illuminate\Foundation\Http\Middleware\ValidatePostSize;
+use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
+<<<<<<< .merge_file_KzH2HH
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_cdvgyV
+>>>>>>> laraxot/dev
 use Illuminate\Foundation\Http\Middleware\PreventRequestForgery;
 use Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance;
 use Illuminate\Foundation\Http\Middleware\TrimStrings;
 use Illuminate\Foundation\Http\Middleware\ValidatePostSize;
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_KzH2HH
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+use Illuminate\Foundation\Http\Middleware\PreventRequestForgery;
+use Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance;
+use Illuminate\Foundation\Http\Middleware\TrimStrings;
+use Illuminate\Foundation\Http\Middleware\ValidatePostSize;
+>>>>>>> .merge_file_x6vhVk
+>>>>>>> .merge_file_cdvgyV
+>>>>>>> laraxot/dev
 use Illuminate\Http\Middleware\HandleCors;
 use Illuminate\Http\Middleware\SetCacheHeaders;
 use Illuminate\Routing\Middleware\SubstituteBindings;
@@ -60,7 +104,33 @@ class Kernel extends HttpKernel
             AddQueuedCookiesToResponse::class,
             StartSession::class,
             ShareErrorsFromSession::class,
+<<<<<<< HEAD
             PreventRequestForgery::class,
+=======
+<<<<<<< .merge_file_KzH2HH
+=======
+<<<<<<< .merge_file_92fbwG
+<<<<<<< HEAD
+            VerifyCsrfToken::class,
+=======
+<<<<<<< HEAD
+            PreventRequestForgery::class,
+=======
+>>>>>>> .merge_file_cdvgyV
+<<<<<<< HEAD
+            VerifyCsrfToken::class,
+=======
+            PreventRequestForgery::class,
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_KzH2HH
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+            PreventRequestForgery::class,
+>>>>>>> .merge_file_x6vhVk
+>>>>>>> .merge_file_cdvgyV
+>>>>>>> laraxot/dev
             SubstituteBindings::class,
             SetLocale::class,
         ],

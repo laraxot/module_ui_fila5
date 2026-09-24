@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_g8i0mf
+=======
+=======
+<<<<<<< .merge_file_7I6pPD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_tlCd9t
+>>>>>>> .merge_file_coqdmo
+>>>>>>> laraxot/dev
 ---
 title: "Qrcode"
 type: concept
@@ -6,11 +23,18 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "qrcode qrcode"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
+=======
+<<<<<<< .merge_file_g8i0mf
+=======
+<<<<<<< .merge_file_7I6pPD
+>>>>>>> .merge_file_coqdmo
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -23,6 +47,18 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_g8i0mf
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_tlCd9t
+>>>>>>> .merge_file_coqdmo
 >>>>>>> laraxot/dev
 related:
   - "./api-1.md"
@@ -35,6 +71,23 @@ related:
   - "./changelog-2.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_g8i0mf
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_7I6pPD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_tlCd9t
+>>>>>>> .merge_file_coqdmo
+>>>>>>> laraxot/dev
 https://github.com/tecnickcom/TCPDF
 
 simplesoftwareio/simple-qrcode  

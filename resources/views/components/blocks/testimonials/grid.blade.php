@@ -1,3 +1,47 @@
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_hwkFqI
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_FPAsx8
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_Z3g1c5
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+@php
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+// UI Blade view — see Modules/UI/docs/wiki.
+@endphp
+
+<<<<<<< .merge_file_hwkFqI
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_AhLxre
+>>>>>>> .merge_file_Z3g1c5
+>>>>>>> laraxot/dev
 <?php
 
 declare(strict_types=1);

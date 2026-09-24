@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_gT9mFu
+=======
+=======
+<<<<<<< .merge_file_k3pXoe
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_gvCPQE
+>>>>>>> .merge_file_LTwDyt
+>>>>>>> laraxot/dev
 ---
 title: "Form Component"
 type: concept
@@ -6,11 +23,18 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "form-component form component"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
+=======
+<<<<<<< .merge_file_gT9mFu
+=======
+<<<<<<< .merge_file_k3pXoe
+>>>>>>> .merge_file_LTwDyt
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -23,6 +47,18 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_gT9mFu
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_gvCPQE
+>>>>>>> .merge_file_LTwDyt
 >>>>>>> laraxot/dev
 related:
   - "./bottlenecks.md"
@@ -31,6 +67,23 @@ related:
   - "./theme-system.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_gT9mFu
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_k3pXoe
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_gvCPQE
+>>>>>>> .merge_file_LTwDyt
+>>>>>>> laraxot/dev
 # Form Component
 
 ## 📊 Stato Implementazione

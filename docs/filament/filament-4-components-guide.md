@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_zi9dGk
+=======
+=======
+<<<<<<< .merge_file_d99dFU
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_B1uWfi
+>>>>>>> .merge_file_fIZIaD
+>>>>>>> laraxot/dev
 ---
 title: "Filament 4 Components Development Guide"
 type: guide
@@ -6,11 +23,18 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament-4-components-guide filament 4 components development guide"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
+=======
+<<<<<<< .merge_file_zi9dGk
+=======
+<<<<<<< .merge_file_d99dFU
+>>>>>>> .merge_file_fIZIaD
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -23,6 +47,18 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_zi9dGk
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_B1uWfi
+>>>>>>> .merge_file_fIZIaD
 >>>>>>> laraxot/dev
 related:
   - "./automatic-translations.md"
@@ -35,6 +71,23 @@ related:
   - "./file-upload-component.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_zi9dGk
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_d99dFU
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_B1uWfi
+>>>>>>> .merge_file_fIZIaD
+>>>>>>> laraxot/dev
 # Filament 4 Components Development Guide
 
 ## Overview

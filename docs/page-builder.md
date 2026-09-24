@@ -1,5 +1,21 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_NTr116
+https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
+=======
+=======
+<<<<<<< .merge_file_vR9G3H
+https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ---
 title: 'Page builder — risorse esterne'
 module: UI
@@ -20,8 +36,39 @@ updated: 2026-08-24
 ## Riferimenti
 
 - <https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891>
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
+=======
+https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
+=======
+>>>>>>> .merge_file_JKICjj
+---
+title: 'Page builder — risorse esterne'
+module: UI
+type: reference
+slug: page-builder
+description: 'Elenco di 1 riferimenti esterni raccolti per page builder, deduplicati e convertiti da un dump di link.'
+tags: [migrato-da-txt, ui]
+converted_from: page_builder.txt
+created: 2026-08-24
+updated: 2026-08-24
+---
+
+# Page builder — risorse esterne
+
+> Fonti raccolte durante lo studio dell'argomento. Una fonte vale quando la si
+> collega a un punto del codice: leggila, poi trova dove è già applicata.
+
+## Riferimenti
+
+- <https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891>
+https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
+<<<<<<< .merge_file_NTr116
+=======
+>>>>>>> .merge_file_zbMEqb
+>>>>>>> .merge_file_JKICjj
+>>>>>>> laraxot/dev
 
 
 ## Appendice — contenuto migrato
@@ -33,3 +80,19 @@ canonical: ../../../Themes/docs/shared-components/page-builder.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/page-builder.md
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_NTr116
+=======
+<<<<<<< .merge_file_vR9G3H
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
+>>>>>>> .merge_file_zbMEqb
+>>>>>>> .merge_file_JKICjj
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

@@ -4,10 +4,21 @@
 **Ultimo aggiornamento**: [DATE]
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_RejssP
+**Ultimo aggiornamento**: 2025-12-10
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 **Ultimo aggiornamento**: [DATE]
 =======
 **Ultimo aggiornamento**: 2025-12-10
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_7l4dlM
 >>>>>>> laraxot/dev
 **Status**: ✅ Completamente conforme a PHPStan Level 10
 
@@ -15,13 +26,29 @@
 - **Errori PHPStan**: 0
 - **Livello analisi**: Level 10 (massimo)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Data ultima verifica**: [DATE]
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_RejssP
+=======
+- **Data ultima verifica**: [DATE]
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_7l4dlM
+>>>>>>> laraxot/dev
 - **Data ultima verifica**: [DATE]
 =======
 - **Data ultima verifica**: 2025-12-10
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_RejssP
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_7l4dlM
 >>>>>>> laraxot/dev
 
 ## 🔧 Correzioni Applicate

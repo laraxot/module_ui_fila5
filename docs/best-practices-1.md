@@ -38,12 +38,27 @@ class CustomComponent extends Component
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_oaxtFH
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_KH9kIJ
+>>>>>>> laraxot/dev
     
     // Proprietà private per stato interno
     private bool $isLoading = false;
     
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_oaxtFH
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KH9kIJ
 >>>>>>> laraxot/dev
 
     // Proprietà private per stato interno
@@ -87,13 +102,28 @@ class CustomComponent extends Component
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_oaxtFH
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_KH9kIJ
+>>>>>>> laraxot/dev
     
     // Stati
     &--loading { }
     &--disabled { }
     
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_oaxtFH
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KH9kIJ
 >>>>>>> laraxot/dev
 
     // Stati
@@ -270,7 +300,15 @@ class AdvancedForm extends Component
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_oaxtFH
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_KH9kIJ
+>>>>>>> laraxot/dev
 
 ### Versione Incoming
 
@@ -279,6 +317,13 @@ class AdvancedForm extends Component
 ---
 
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_oaxtFH
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_KH9kIJ
 >>>>>>> laraxot/dev
 ### Versione Incoming
 

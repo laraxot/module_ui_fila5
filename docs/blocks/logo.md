@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_ZwsOkZ
+=======
+=======
+<<<<<<< .merge_file_8JJYIZ
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_YRmqoB
+>>>>>>> .merge_file_CDorOV
+>>>>>>> laraxot/dev
 ---
 title: "Logo Component"
 type: concept
@@ -6,11 +23,18 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "logo logo component"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
+=======
+<<<<<<< .merge_file_ZwsOkZ
+=======
+<<<<<<< .merge_file_8JJYIZ
+>>>>>>> .merge_file_CDorOV
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -23,6 +47,18 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_ZwsOkZ
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_YRmqoB
+>>>>>>> .merge_file_CDorOV
 >>>>>>> laraxot/dev
 related:
   - "./correct-filament-components.md"
@@ -31,6 +67,23 @@ related:
   - "./user-dropdown.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_ZwsOkZ
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_8JJYIZ
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_YRmqoB
+>>>>>>> .merge_file_CDorOV
+>>>>>>> laraxot/dev
 # Logo Component
 
 This document describes the Logo component used in section headers and its proper implementation.

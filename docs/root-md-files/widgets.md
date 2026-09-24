@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
+=======
+<<<<<<< .merge_file_QqVavU
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_nhgYPj
+>>>>>>> laraxot/dev
 ---
 title: "Widgets"
 type: concept
@@ -8,12 +23,15 @@ qmd: "widgets widgets"
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+=======
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
@@ -23,6 +41,9 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 related:
   - "./api-relocated.md"
@@ -36,3 +57,14 @@ related:
 ---
 
 https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_QqVavU
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_nhgYPj
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

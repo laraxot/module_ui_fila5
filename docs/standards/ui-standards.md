@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_aKPPXR
+=======
+=======
+<<<<<<< .merge_file_1oTgLx
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_nnUBRl
+>>>>>>> .merge_file_Z1ZBUC
+>>>>>>> laraxot/dev
 ---
 title: "Standard UI"
 type: rule
@@ -6,11 +23,18 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "ui-standards standard ui"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
+=======
+<<<<<<< .merge_file_aKPPXR
+=======
+<<<<<<< .merge_file_1oTgLx
+>>>>>>> .merge_file_Z1ZBUC
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -23,6 +47,18 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_aKPPXR
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_nnUBRl
+>>>>>>> .merge_file_Z1ZBUC
 >>>>>>> laraxot/dev
 related:
   - "./accessibility.md"
@@ -33,6 +69,23 @@ related:
   - "./performance.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_aKPPXR
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_1oTgLx
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_nnUBRl
+>>>>>>> .merge_file_Z1ZBUC
+>>>>>>> laraxot/dev
 # Standard UI
 
 ## 🎨 Design System

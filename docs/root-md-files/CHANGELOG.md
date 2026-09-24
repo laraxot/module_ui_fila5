@@ -1,6 +1,19 @@
 # Changelog
 
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_A63pmP
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_UNKxAL
+>>>>>>> laraxot/dev
 
 
 ---
@@ -29,3 +42,14 @@ related:
   - "./custom-firm-fields.md"
 
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_A63pmP
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_UNKxAL
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

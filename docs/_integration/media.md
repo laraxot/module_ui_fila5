@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_1LVQZc
+=======
+=======
+<<<<<<< .merge_file_kCIunU
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_pehJ6m
+>>>>>>> .merge_file_2pD2YX
+>>>>>>> laraxot/dev
 ---
 title: "media"
 type: concept
@@ -6,11 +23,18 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "media media"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
+=======
+<<<<<<< .merge_file_1LVQZc
+=======
+<<<<<<< .merge_file_kCIunU
+>>>>>>> .merge_file_2pD2YX
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -23,6 +47,18 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_1LVQZc
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_pehJ6m
+>>>>>>> .merge_file_2pD2YX
 >>>>>>> laraxot/dev
 related:
   - "./api.md"
@@ -35,6 +71,23 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_1LVQZc
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_kCIunU
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_pehJ6m
+>>>>>>> .merge_file_2pD2YX
+>>>>>>> laraxot/dev
 # media
 
 <!-- Contenuto migrato da _docs/media.txt -->

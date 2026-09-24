@@ -157,10 +157,21 @@ cd laravel
 - [Media Module PHPStan Fixes](../media/project_docs/phpstan_level10_fixes.md)
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_1sKUyn
+- [Media Module PHPStan Fixes](../Media/project_docs/phpstan_level10_fixes.md)
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 - [Media Module PHPStan Fixes](../media/project_docs/phpstan_level10_fixes.md)
 =======
 - [Media Module PHPStan Fixes](../Media/project_docs/phpstan_level10_fixes.md)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_C1i6fU
 >>>>>>> laraxot/dev
 
 ## Aggiornamento Continuo
@@ -168,13 +179,29 @@ cd laravel
 Questo documento deve essere aggiornato ogni volta che vengono rilevati e corretti nuovi errori PHPStan level 9+.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Data Ultimo Aggiornamento**: [DATE]
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_1sKUyn
+=======
+**Data Ultimo Aggiornamento**: [DATE]
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_C1i6fU
+>>>>>>> laraxot/dev
 **Data Ultimo Aggiornamento**: [DATE]
 =======
 **Data Ultimo Aggiornamento**: 2025-01-06
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_1sKUyn
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_C1i6fU
 >>>>>>> laraxot/dev
 **PHPStan Version**: 1.12.x
 **Laravel Version**: 12.21.0

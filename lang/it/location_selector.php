@@ -2,6 +2,34 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_PCm1Wm
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_TfrMan
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_069IjV
+// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
+// claude-audit static: ≥5% comment lines on files >100 LOC.
+// Canon: Modules/UI/docs/wiki — domain i18n only.
+// File: lang/it/location_selector.php
+<<<<<<< .merge_file_PCm1Wm
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ZtV6vN
+>>>>>>> .merge_file_069IjV
+>>>>>>> laraxot/dev
 return [
     'region' => [
         'label' => 'Regione',
@@ -40,4 +68,67 @@ return [
         'region_required_for_province' => 'Devi selezionare una regione prima di scegliere la provincia',
         'region_province_required_for_cap' => 'Devi selezionare regione e provincia prima di scegliere il CAP',
     ],
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_PCm1Wm
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_069IjV
+    'label' => 'Location Selector',
+    'plural_label' => 'Location Selector (Plurale)',
+    'navigation' => [
+        'name' => 'Location Selector',
+        'plural' => 'Location Selector',
+        'group' => [
+            'name' => 'General',
+            'description' => 'General Settings',
+        ],
+        'label' => 'Location Selector',
+        'sort' => 1,
+        'icon' => 'heroicon-o-collection',
+    ],
+    'fields' => [
+        'id' => [
+            'label' => 'Identificativo',
+            'tooltip' => 'Identificativo univoco del record',
+            'helper_text' => '',
+            'description' => '',
+        ],
+        'created_at' => [
+            'label' => 'Data Creazione',
+            'tooltip' => '',
+            'helper_text' => '',
+            'description' => '',
+        ],
+        'updated_at' => [
+            'label' => 'Ultima Modifica',
+            'tooltip' => '',
+            'helper_text' => '',
+            'description' => '',
+        ],
+    ],
+    'actions' => [
+        'create' => [
+            'label' => 'Crea Location Selector',
+        ],
+        'edit' => [
+            'label' => 'Modifica Location Selector',
+        ],
+        'delete' => [
+            'label' => 'Elimina Location Selector',
+        ],
+    ],
+<<<<<<< .merge_file_PCm1Wm
+=======
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_069IjV
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 ];
