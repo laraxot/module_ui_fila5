@@ -29,6 +29,14 @@ related:
 
 # UI Wiki Log
 
+## [2026-09-24] phpstan | UI 192 → 0 dopo il sync 2e8f0820
+- Story: [01.UI-phpstan-fix](../stories/01.UI-phpstan-fix.story.md), sezione «Aggiornamento 2026-09-24».
+- `tests/AuditCoverage/` (184 file dummy) eliminata: vietata, vedi [Xot: tests-audit-coverage-forbidden](../../../Xot/docs/wiki/concepts/tests-audit-coverage-forbidden.md).
+- 6 `@phpstan-ignore property.defaultValue` orfani rimossi (widget + `InlineDatePicker`).
+- `GetUserDataAction`: `instanceof Modules\User\Models\Profile` era sempre falso per `Quaeris\Models\Profile` (auth model reale ≠ User del modulo `User`); ora narrowing su `ProfileContract`.
+- `StatsOverviewWidgetTest`: niente `(string) ReflectionType` (deprecato).
+- Pest mirato e PHPMD non eseguiti in sessione (comando rifiutato dall'ambiente): da lanciare a mano.
+
 ## [2026-05-21] bugfix | auth register focus perso per overlay header mobile
 - Nuova pagina: `concepts/auth-register-focus-loss-overlay.md`.
 - Root cause identificata in `x-ui.marketing.header`: container mobile fullscreen `fixed` che intercettava i click anche a menu chiuso.
