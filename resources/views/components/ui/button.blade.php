@@ -1,10 +1,6 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-=======
-
->>>>>>> 0dadab4 (Lint)
 ?>
 @props([
     'type' => 'primary', 
@@ -34,32 +30,6 @@ declare(strict_types=1);
         'warning' => 'bg-amber-500 text-white hover:bg-amber-500/90 focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:bg-amber-600/90 focus:ring-amber-600',
         'danger' => 'bg-red-600 text-white hover:bg-red-600/90 focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:bg-red-700/90 focus:ring-red-700',
     };
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-    $isLink = ($tag ?? 'button') === 'a';
-    $hrefValue = (string) ($href ?? '/');
-    $safeHref = $isLink && ! preg_match('#^\s*javascript:#i', $hrefValue) ? $hrefValue : '/';
-    $buttonClasses = $sizeClasses . ' ' . $typeClasses . ' cursor-pointer inline-flex items-center w-full justify-center disabled:opacity-50 font-semibold focus:outline-none';
-@endphp
-
-@if ($isLink)
-<a href="{{ $safeHref }}" {{ $attributes->except(['class']) }} class="{{ $buttonClasses }}">
-    {{ $slot }}
-</a>
-@else
-<button type="{{ $submit ? 'submit' : 'button' }}" {{ $attributes->except(['class']) }} class="{{ $buttonClasses }}">
-    {{ $slot }}
-</button>
-@endif
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> 0dadab4 (Lint)
 @endphp
 
 @php
@@ -83,13 +53,3 @@ switch ($tag ?? 'button') {
 <{!! $tagAttr !!} {!! $attributes->except(['class']) !!} class="{{ $sizeClasses }} {{ $typeClasses }} cursor-pointer inline-flex items-center w-full justify-center disabled:opacity-50 font-semibold focus:outline-none">
     {{ $slot }}
 </{{ $tagClose }}>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> 0dadab4 (Lint)

@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_WgaXdo
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_Qpb78c
 ---
 title: "Gestione degli Step nei Wizard Filament"
 type: concept
@@ -16,25 +5,10 @@ tags: [wizard, steps]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "wizard-steps gestione degli step nei wizard filament"
-<<<<<<< .merge_file_WgaXdo
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_Qpb78c
 related:
   - "./no-obvious-comments.md"
   - "./syntax-error-fixes.md"
@@ -42,18 +16,6 @@ related:
   - "./wizard-schema-separation.md"
 ---
 
-<<<<<<< .merge_file_WgaXdo
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_Qpb78c
-=======
->>>>>>> 0dadab4 (Lint)
 # Gestione degli Step nei Wizard Filament
 
 ## Collegamenti Bidirezionali
@@ -170,25 +132,7 @@ class DoctorResource extends XotBaseResource
     }
 
     public static function getFormSchemaWidget(): array
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_WgaXdo
-=======
-<<<<<<< HEAD
     public function getFormSchemaWidget(): array
-=======
-<<<<<<< HEAD
-=======
-    public function getFormSchemaWidget(): array
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-    public function getFormSchemaWidget(): array
-=======
->>>>>>> .merge_file_Qpb78c
->>>>>>> laraxot/dev
-=======
->>>>>>> 0dadab4 (Lint)
     {
         return [
             'wizard' => Forms\Components\Wizard::make([

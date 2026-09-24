@@ -7,95 +7,25 @@ namespace Modules\UI\Tests;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Support\Facades\DB;
-<<<<<<< HEAD
-<<<<<<< .merge_file_1H3Ijs
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-use Mockery\Expectation;
-use Mockery\LegacyMockInterface;
-use Mockery\MockInterface;
->>>>>>> .merge_file_X6Dpj0
-use Modules\UI\Providers\UIServiceProvider;
-=======
-use Modules\UI\Providers\UIServiceProvider;
-use Modules\UI\Tests\Support\EnsuresUiDatabaseSchema;
->>>>>>> 0dadab4 (Lint)
-use Modules\User\Models\User;
-use Modules\User\Providers\UserServiceProvider;
-use Modules\Xot\Tests\XotBaseTestCase;
-
-<<<<<<< HEAD
-<<<<<<< .merge_file_1H3Ijs
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
 use Mockery\Expectation;
 use Mockery\LegacyMockInterface;
 use Mockery\MockInterface;
 use Modules\UI\Providers\UIServiceProvider;
-use Modules\Xot\Contracts\UserContract;
+use Modules\User\Models\User;
 use Modules\User\Providers\UserServiceProvider;
 use Modules\Xot\Tests\XotBaseTestCase;
 
 use function Safe\file_get_contents;
-use Modules\User\Models\User;
 
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-use function Safe\file_get_contents;
-
->>>>>>> .merge_file_X6Dpj0
-=======
->>>>>>> 0dadab4 (Lint)
 /**
  * Base test case for UI module.
  *
  * Uses shared sqlite from fixcity_data.sqlite (no RefreshDatabase).
-<<<<<<< HEAD
-<<<<<<< .merge_file_1H3Ijs
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
  * Pattern skip offline: Feature/`ui-db` skip se manca schema; Unit eseguiti.
-=======
-<<<<<<< HEAD
-=======
- * Pattern skip offline: Feature/`ui-db` skip se manca schema; Unit eseguiti.
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
- * Pattern skip offline: Feature/`ui-db` skip se manca schema; Unit eseguiti.
->>>>>>> .merge_file_X6Dpj0
-=======
->>>>>>> 0dadab4 (Lint)
  */
 abstract class TestCase extends XotBaseTestCase
 {
     use DatabaseTransactions;
-<<<<<<< HEAD
-<<<<<<< .merge_file_1H3Ijs
-<<<<<<< HEAD
-    use EnsuresUiDatabaseSchema;
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-    use EnsuresUiDatabaseSchema;
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_X6Dpj0
 
     /**
      * Restringe il tipo di ritorno unione di shouldReceive() per PHPStan.
@@ -116,17 +46,6 @@ abstract class TestCase extends XotBaseTestCase
 
         return $expectation;
     }
-<<<<<<< .merge_file_1H3Ijs
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_X6Dpj0
-=======
-    use EnsuresUiDatabaseSchema;
->>>>>>> 0dadab4 (Lint)
 
     /** @var list<string> */
     protected $connectionsToTransact = ['xot', 'sqlite', 'user'];
@@ -145,78 +64,6 @@ abstract class TestCase extends XotBaseTestCase
 
     protected function setUp(): void
     {
-<<<<<<< HEAD
-<<<<<<< .merge_file_1H3Ijs
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-        $this->prepareSharedSqliteForTesting();
-
->>>>>>> .merge_file_X6Dpj0
-        parent::setUp();
-
-        config(['auth.providers.users.model' => User::class]);
-
-        if ($this->shouldSkipForMissingUiDb()) {
-            $this->markTestSkipped('DB `ui` (themes/categories) non disponibile in ambiente test condiviso.');
-        }
-    }
-
-    /**
-     * Salta quando manca lo schema UI, salvo test Unit o marcati `no-ui-db`.
-     * I test DB-dependent in Unit usano gruppo `ui-db`.
-     */
-    protected function shouldSkipForMissingUiDb(): bool
-    {
-        if (! static::uiDbUnavailable()) {
-            return false;
-        }
-
-        $testFile = $this->resolvePestTestFile();
-
-        if (null !== $testFile && is_file($testFile)) {
-            $source = file_get_contents($testFile);
-            if (str_contains($source, "group('no-ui-db')")) {
-                return false;
-            }
-            if (str_contains($source, "group('ui-db')")) {
-                return true;
-            }
-        }
-
-        if (null !== $testFile && str_contains($testFile, '/tests/Unit/')) {
-            return false;
-        }
-
-        return true;
-    }
-
-    private function resolvePestTestFile(): ?string
-    {
-        $class = static::class;
-
-        if (property_exists($class, '__filename')) {
-            /** @var string $filename */
-            $filename = $class::$__filename;
-
-            return $filename;
-        }
-
-        $file = (new \ReflectionClass($this))->getFileName();
-
-        return false !== $file ? $file : null;
-    }
-
-<<<<<<< .merge_file_1H3Ijs
-        $this->ensureUiSchema();
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
         $this->prepareSharedSqliteForTesting();
 
         parent::setUp();
@@ -273,8 +120,6 @@ abstract class TestCase extends XotBaseTestCase
         return $file !== false ? $file : null;
     }
 
-=======
->>>>>>> .merge_file_X6Dpj0
     /**
      * Lo sqlite condiviso non contiene sempre le tabelle themes/categories.
      * fixcity_data.sqlite = offline anche se somehow le tabelle UI ci sono.
@@ -301,34 +146,5 @@ abstract class TestCase extends XotBaseTestCase
         } catch (\Throwable) {
             return true;
         }
-<<<<<<< .merge_file_1H3Ijs
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_X6Dpj0
-=======
-        parent::setUp();
-
-        $database = database_path('fixcity_data.sqlite');
-
-        /** @var array<string, array<string, mixed>> $connections */
-        $connections = config('database.connections', []);
-
-        foreach (array_keys($connections) as $connection) {
-            if ('sqlite' !== config("database.connections.{$connection}.driver")) {
-                continue;
-            }
-
-            $this->app['config']->set("database.connections.{$connection}.database", $database);
-            DB::purge($connection);
-        }
-
-        config(['auth.providers.users.model' => User::class]);
-
-        $this->ensureUiSchema();
->>>>>>> 0dadab4 (Lint)
     }
 }

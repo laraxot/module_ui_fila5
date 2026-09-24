@@ -34,28 +34,7 @@ Le Commands progettuali vivono qui, nel wiki del Module **UI**, e vengono carica
 
 - La sorgente di verita' per le Commands e' sempre il wiki locale
 - Non embeddare Commands nei prompt di avvio
-<<<<<<< HEAD
-<<<<<<< HEAD
 - Per Commands globali, consulta il [wiki root](../../docs/wiki/commands/INDEX.md)
-=======
-<<<<<<< HEAD
-- Per Commands globali, consulta il [wiki root](../../docs/wiki/commands/INDEX.md)
-=======
-<<<<<<< HEAD
-- Per Commands globali, consulta il [wiki root](../../docs/wiki/commands/index.md)
->>>>>>> 92912795 (.)
-=======
-<<<<<<< HEAD
-- Per Commands globali, consulta il [wiki root](../../docs/wiki/commands/INDEX.md)
-=======
-- Per Commands globali, consulta il [wiki root](../../docs/wiki/commands/index.md)
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- Per Commands globali, consulta il [wiki root](../../docs/wiki/commands/INDEX.md)
->>>>>>> 0dadab4 (Lint)
 
 ## Aggiungere una Nuova COMMANDS
 

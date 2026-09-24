@@ -11,25 +11,6 @@ use Modules\Xot\Models\XotBaseModel;
  */
 abstract class BaseModel extends XotBaseModel
 {
-<<<<<<< HEAD
-<<<<<<< .merge_file_MDcu1L
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
     /** @var string */
     protected $connection = 'u_i';
-=======
-<<<<<<< HEAD
-=======
-    /** @var string */
-    protected $connection = 'u_i';
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-    /** @var string */
-    protected $connection = 'u_i';
->>>>>>> .merge_file_sTQhhx
-=======
->>>>>>> 0dadab4 (Lint)
 }

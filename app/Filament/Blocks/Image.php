@@ -8,27 +8,8 @@ use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
-<<<<<<< HEAD
-<<<<<<< .merge_file_a0oyY7
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Utilities\Set;
-=======
-<<<<<<< HEAD
-=======
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Components\Utilities\Set;
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-use Filament\Schemas\Components\Component;
-use Filament\Schemas\Components\Utilities\Set;
->>>>>>> .merge_file_cYprF7
-=======
->>>>>>> 0dadab4 (Lint)
 
 class Image
 {
@@ -40,85 +21,20 @@ class Image
                 TextInput::make('url'),
                 Select::make('ratio')
                     ->options(static::getRatios())
-<<<<<<< HEAD
-<<<<<<< .merge_file_a0oyY7
-<<<<<<< HEAD
-                    ->afterStateHydrated(function (mixed $state, mixed $set): void {
-                        if (! $state && is_callable($set)) {
-=======
-<<<<<<< HEAD
                     ->afterStateHydrated(static function (?string $state, Set $set): void {
                         if (! $state) {
-=======
-<<<<<<< HEAD
-                    ->afterStateHydrated(function (mixed $state, mixed $set): void {
-                        if (! $state && is_callable($set)) {
-=======
-                    ->afterStateHydrated(static function (?string $state, Set $set): void {
-                        if (! $state) {
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-                    ->afterStateHydrated(static function (?string $state, Set $set): void {
-                        if (! $state) {
->>>>>>> .merge_file_cYprF7
-=======
-                    ->afterStateHydrated(function (mixed $state, mixed $set): void {
-                        if (! $state && is_callable($set)) {
->>>>>>> 0dadab4 (Lint)
                             $set('ratio', '4-3');
                         }
                     }),
                 TextInput::make('alt')->columnSpanFull(),
                 TextInput::make('caption')->columnSpanFull(),
             ])
-<<<<<<< HEAD
-<<<<<<< HEAD
-            ->columns('form' === $context ? 2 : 1);
-=======
-<<<<<<< HEAD
             ->columns($context === 'form' ? 2 : 1);
-=======
-<<<<<<< HEAD
-            ->columns('form' === $context ? 2 : 1);
-=======
-            ->columns($context === 'form' ? 2 : 1);
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-            ->columns('form' === $context ? 2 : 1);
->>>>>>> 0dadab4 (Lint)
     }
 
     /**
      * @return array<string, string>
      */
-<<<<<<< HEAD
-<<<<<<< .merge_file_a0oyY7
-<<<<<<< HEAD
-    /**
-     * @return array<string, string>
-     */
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-    /**
-     * @return array<string, string>
-     */
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_cYprF7
-=======
-    /**
-     * @return array<string, string>
-     */
->>>>>>> 0dadab4 (Lint)
     public static function getRatios(): array
     {
         return [
@@ -138,27 +54,7 @@ class Image
     }
 
     /**
-<<<<<<< HEAD
-<<<<<<< .merge_file_a0oyY7
-<<<<<<< HEAD
-     * @return array<int, \Filament\Schemas\Components\Component>
-=======
-<<<<<<< HEAD
      * @return array<int, Component>
-=======
-<<<<<<< HEAD
-     * @return array<int, \Filament\Schemas\Components\Component>
-=======
-     * @return array<int, Component>
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-     * @return array<int, Component>
->>>>>>> .merge_file_cYprF7
-=======
-     * @return array<int, \Filament\Schemas\Components\Component>
->>>>>>> 0dadab4 (Lint)
      */
     public static function getFormSchema(): array
     {

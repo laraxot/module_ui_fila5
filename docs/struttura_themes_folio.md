@@ -1,51 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_38jGls
-# Struttura Themes e Folio in <nome progetto>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-# Struttura Themes e Folio in <nome progetto>
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-# Struttura Themes e Folio in SaluteOra
-<<<<<<< HEAD
-# Struttura Themes e Folio in <nome progetto>corrente
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-# Struttura Themes e Folio in SaluteOra
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-# Struttura Themes e Folio in <nome progetto>corrente
-=======
-# Struttura Themes e Folio in SaluteOra
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
 # Struttura Themes e Folio in SaluteOra
 # Struttura Themes e Folio in <nome progetto>corrente
-=======
-# Struttura Themes e Folio in <nome progetto>
->>>>>>> .merge_file_9wocbN
->>>>>>> laraxot/dev
-=======
-# Struttura Themes e Folio in <nome progetto>
->>>>>>> 0dadab4 (Lint)
 
 ## ⚠️ ATTENZIONE CRITICA
 
@@ -55,54 +9,8 @@
 
 ## Struttura del Progetto
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_38jGls
-Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-Il progetto SaluteOra utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
-<<<<<<< HEAD
-Il progetto <nome progetto>corrente utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-Il progetto SaluteOra utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-Il progetto <nome progetto>corrente utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
-=======
-Il progetto SaluteOra utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
 Il progetto SaluteOra utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 Il progetto <nome progetto>corrente utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
-=======
-Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
->>>>>>> .merge_file_9wocbN
->>>>>>> laraxot/dev
-=======
-Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
->>>>>>> 0dadab4 (Lint)
 
 ```
 /laravel/

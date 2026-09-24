@@ -4,16 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Feature;
 
-<<<<<<< HEAD
-<<<<<<< .merge_file_jsMIrW
-=======
-<<<<<<< .merge_file_ImHoyi
-=======
 use Filament\Tables\Columns\Column;
->>>>>>> .merge_file_nhLGjv
->>>>>>> .merge_file_96v8ik
-=======
->>>>>>> 0dadab4 (Lint)
 use Filament\Tables\Columns\TextColumn;
 use Modules\UI\Filament\Tables\Columns\AddressColumn;
 use PHPUnit\Framework\Assert;
@@ -42,19 +33,7 @@ describe('AddressColumn — controparte di AddressField', function (): void {
 
     it('names each child column with the relationship dot-path', function (): void {
         $column = AddressColumn::make('address');
-<<<<<<< HEAD
-<<<<<<< .merge_file_jsMIrW
-        $names = array_map(static fn (\Filament\Tables\Columns\Column $field): string => $field->getName(), $column->getFields());
-=======
-<<<<<<< .merge_file_ImHoyi
-        $names = array_map(static fn (\Filament\Tables\Columns\Column $field): string => $field->getName(), $column->getFields());
-=======
         $names = array_map(static fn (Column $field): string => $field->getName(), $column->getFields());
->>>>>>> .merge_file_nhLGjv
->>>>>>> .merge_file_96v8ik
-=======
-        $names = array_map(static fn (\Filament\Tables\Columns\Column $field): string => $field->getName(), $column->getFields());
->>>>>>> 0dadab4 (Lint)
 
         Assert::assertSame([
             'address.country',
@@ -67,19 +46,7 @@ describe('AddressColumn — controparte di AddressField', function (): void {
 
     it('restricts the field set via fields()', function (): void {
         $column = AddressColumn::make()->fields(['city', 'zip']);
-<<<<<<< HEAD
-<<<<<<< .merge_file_jsMIrW
-        $names = array_map(static fn (\Filament\Tables\Columns\Column $field): string => $field->getName(), $column->getFields());
-=======
-<<<<<<< .merge_file_ImHoyi
-        $names = array_map(static fn (\Filament\Tables\Columns\Column $field): string => $field->getName(), $column->getFields());
-=======
         $names = array_map(static fn (Column $field): string => $field->getName(), $column->getFields());
->>>>>>> .merge_file_nhLGjv
->>>>>>> .merge_file_96v8ik
-=======
-        $names = array_map(static fn (\Filament\Tables\Columns\Column $field): string => $field->getName(), $column->getFields());
->>>>>>> 0dadab4 (Lint)
 
         Assert::assertSame(['address.city', 'address.zip'], $names);
     });

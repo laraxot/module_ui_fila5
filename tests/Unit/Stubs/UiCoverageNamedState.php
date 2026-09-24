@@ -16,49 +16,13 @@ final class UiCoverageNamedState implements StateContract
 {
     public static string $name = 'pending';
 
-<<<<<<< HEAD
-<<<<<<< .merge_file_sCC0zr
-=======
-<<<<<<< .merge_file_uVmnNs
->>>>>>> .merge_file_SBavPe
-=======
->>>>>>> 0dadab4 (Lint)
     /** @param array<array-key, mixed>|Model|string|null $record */
     /**
-<<<<<<< HEAD
      * @param  Model|array<string, mixed>|string|null  $record
      */
     public function __construct(
         public Model|array|string|null $record = null,
     ) {}
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_sCC0zr
-=======
-=======
-    /**
->>>>>>> .merge_file_S3isby
->>>>>>> .merge_file_SBavPe
-=======
->>>>>>> 0dadab4 (Lint)
-     * @param Model|array<string, mixed>|string|null $record
-     */
-    public function __construct(
-        public Model|array|string|null $record = null,
-    ) {
-    }
-<<<<<<< HEAD
-<<<<<<< .merge_file_sCC0zr
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_uVmnNs
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_S3isby
->>>>>>> .merge_file_SBavPe
-=======
->>>>>>> laraxot/dev
->>>>>>> 0dadab4 (Lint)
 
     public function label(): string
     {
@@ -103,31 +67,7 @@ final class UiCoverageNamedState implements StateContract
     }
 
     /** @param  array<string, mixed>  $data */
-<<<<<<< HEAD
-<<<<<<< .merge_file_sCC0zr
-=======
-<<<<<<< .merge_file_uVmnNs
->>>>>>> .merge_file_SBavPe
-=======
->>>>>>> 0dadab4 (Lint)
-<<<<<<< HEAD
     public function modalActionByRecord(Model $record, array $data): void {}
-=======
-    public function modalActionByRecord(Model $record, array $data): void
-    {
-    }
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< .merge_file_sCC0zr
-=======
-=======
-    public function modalActionByRecord(Model $record, array $data): void
-    {
-    }
->>>>>>> .merge_file_S3isby
->>>>>>> .merge_file_SBavPe
-=======
->>>>>>> 0dadab4 (Lint)
 
     /** @return list<string> */
     public function transitionableStates(): array
@@ -140,31 +80,7 @@ final class UiCoverageNamedState implements StateContract
         return true;
     }
 
-<<<<<<< HEAD
-<<<<<<< .merge_file_sCC0zr
-=======
-<<<<<<< .merge_file_uVmnNs
->>>>>>> .merge_file_SBavPe
-=======
->>>>>>> 0dadab4 (Lint)
-<<<<<<< HEAD
     public function transitionTo(string $state, ?string $message = null): void {}
-=======
-    public function transitionTo(string $state, ?string $message = null): void
-    {
-    }
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< .merge_file_sCC0zr
-=======
-=======
-    public function transitionTo(string $state, ?string $message = null): void
-    {
-    }
->>>>>>> .merge_file_S3isby
->>>>>>> .merge_file_SBavPe
-=======
->>>>>>> 0dadab4 (Lint)
 
     /** @return Collection<string, string> */
     public static function getStateMapping(): Collection

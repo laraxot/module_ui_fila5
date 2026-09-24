@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_66eDjV
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_Dz3ozl
 ---
 title: "Task: Cleanup Redundant Files (UI Module)"
 type: concept
@@ -16,28 +5,12 @@ tags: [cleanup, redundant, files]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "cleanup-redundant-files task: cleanup redundant files (ui module)"
-<<<<<<< .merge_file_66eDjV
-<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> .merge_file_Dz3ozl
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-<<<<<<< .merge_file_66eDjV
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_Dz3ozl
 related:
   - "./001-design-system-components.md"
   - "./filament-v5-alignment.md"
@@ -48,18 +21,6 @@ related:
   - "./ui-filament-v5.md"
 ---
 
-<<<<<<< .merge_file_66eDjV
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_Dz3ozl
-=======
->>>>>>> 0dadab4 (Lint)
 # Task: Cleanup Redundant Files (UI Module)
 
 ## 📋 Obiettivo

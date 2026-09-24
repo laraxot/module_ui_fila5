@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_2eZkga
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_zDpobR
 ---
 title: "Componente FileUpload in Filament"
 type: concept
@@ -16,25 +5,10 @@ tags: [file, upload, component]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "file-upload-component componente fileupload in filament"
-<<<<<<< .merge_file_2eZkga
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_zDpobR
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -46,18 +20,6 @@ related:
   - "./filament-4-migration-sumy.md"
 ---
 
-<<<<<<< .merge_file_2eZkga
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_zDpobR
-=======
->>>>>>> 0dadab4 (Lint)
 # Componente FileUpload in Filament
 
 ## Limitazioni e Metodi Disponibili

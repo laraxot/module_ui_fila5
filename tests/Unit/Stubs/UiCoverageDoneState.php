@@ -12,46 +12,11 @@ final class UiCoverageDoneState implements StateContract
 {
     /** @param array<array-key, mixed>|Model|string|null $record */
     /**
-<<<<<<< HEAD
-<<<<<<< .merge_file_Z9OQSM
-=======
-<<<<<<< .merge_file_YKhn1N
->>>>>>> .merge_file_KHZZK2
-=======
->>>>>>> 0dadab4 (Lint)
-<<<<<<< HEAD
      * @param  Model|array<string, mixed>|string|null  $record
      */
     public function __construct(
         public Model|array|string|null $record = null,
     ) {}
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_Z9OQSM
-=======
-=======
->>>>>>> .merge_file_XmNcVH
->>>>>>> .merge_file_KHZZK2
-=======
->>>>>>> 0dadab4 (Lint)
-     * @param Model|array<string, mixed>|string|null $record
-     */
-    public function __construct(
-        public Model|array|string|null $record = null,
-    ) {
-    }
-<<<<<<< HEAD
-<<<<<<< .merge_file_Z9OQSM
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_YKhn1N
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_XmNcVH
->>>>>>> .merge_file_KHZZK2
-=======
->>>>>>> laraxot/dev
->>>>>>> 0dadab4 (Lint)
 
     public function label(): string
     {
@@ -100,43 +65,9 @@ final class UiCoverageDoneState implements StateContract
     }
 
     /**
-<<<<<<< HEAD
-<<<<<<< .merge_file_Z9OQSM
-=======
-<<<<<<< .merge_file_YKhn1N
->>>>>>> .merge_file_KHZZK2
-=======
->>>>>>> 0dadab4 (Lint)
-<<<<<<< HEAD
      * @param  array<string, mixed>  $data
      */
     public function modalActionByRecord(Model $record, array $data): void {}
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_Z9OQSM
-=======
-=======
->>>>>>> .merge_file_XmNcVH
->>>>>>> .merge_file_KHZZK2
-=======
->>>>>>> 0dadab4 (Lint)
-     * @param array<string, mixed> $data
-     */
-    public function modalActionByRecord(Model $record, array $data): void
-    {
-    }
-<<<<<<< HEAD
-<<<<<<< .merge_file_Z9OQSM
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_YKhn1N
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_XmNcVH
->>>>>>> .merge_file_KHZZK2
-=======
->>>>>>> laraxot/dev
->>>>>>> 0dadab4 (Lint)
 
     public function isMessageRequired(): bool
     {

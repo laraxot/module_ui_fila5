@@ -11,27 +11,10 @@ use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
     public ?array $data = [];
-=======
-<<<<<<< HEAD
-    public ?array $data = [];
-=======
-<<<<<<< HEAD
-=======
-    public ?array $data = [];
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-    public ?array $data = [];
->>>>>>> 0dadab4 (Lint)
 
     public bool $darkMode = false;
 
-    /** @phpstan-var view-string */
-    /** @phpstan-ignore property.defaultValue */
     protected string $view = 'ui::filament.widgets.dark-mode-switcher';
 
     public function mount(): void
@@ -60,17 +43,6 @@ final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
         return [];
     }
 
-<<<<<<< HEAD
-<<<<<<< .merge_file_XHDFt3
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_4zuboB
     /**
      * Disabilitabile via config per temi/test (default: visibile).
      */
@@ -79,16 +51,6 @@ final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
         return (bool) config('ui.dark_mode_switcher.enabled', true);
     }
 
-<<<<<<< .merge_file_XHDFt3
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_4zuboB
-=======
->>>>>>> 0dadab4 (Lint)
     public function render(): View
     {
         return view($this->view, [

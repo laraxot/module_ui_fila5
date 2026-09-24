@@ -5,39 +5,10 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit;
 
 use Modules\UI\Filament\Forms\Components\EnumSelect;
-<<<<<<< HEAD
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
-<<<<<<< .merge_file_08hZMq
-uses(\Modules\UI\Tests\TestCase::class);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
 uses(TestCase::class);
->>>>>>> .merge_file_4e7Ndv
-=======
-use PHPUnit\Framework\Assert;
-
-uses(\Modules\UI\Tests\TestCase::class);
->>>>>>> 0dadab4 (Lint)
 
 it('generates options from enum class', function (): void {
     $select = EnumSelect::make('enum');

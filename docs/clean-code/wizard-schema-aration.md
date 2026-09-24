@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_wqw9J7
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_6DN232
 ---
 title: "Separazione dello Schema dagli Step nei Wizard Filament"
 type: concept
@@ -16,25 +5,10 @@ tags: [wizard, schema, aration]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "wizard-schema-aration separazione dello schema dagli step nei wizard filament"
-<<<<<<< .merge_file_wqw9J7
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_6DN232
 related:
   - "./no-obvious-comments.md"
   - "./syntax-error-fixes.md"
@@ -42,18 +16,6 @@ related:
   - "./wizard-steps.md"
 ---
 
-<<<<<<< .merge_file_wqw9J7
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_6DN232
-=======
->>>>>>> 0dadab4 (Lint)
 # Separazione dello Schema dagli Step nei Wizard Filament
 
 ## Regola Fondamentale

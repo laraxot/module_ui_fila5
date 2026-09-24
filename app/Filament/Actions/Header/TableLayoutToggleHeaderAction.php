@@ -4,52 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Actions\Header;
 
-<<<<<<< HEAD
-<<<<<<< .merge_file_LyDJcY
-<<<<<<< HEAD
-use Filament\Actions\Action;
-=======
-<<<<<<< HEAD
 use Modules\Xot\Filament\Actions\XotBaseAction;
-=======
-<<<<<<< HEAD
-use Filament\Actions\Action;
-=======
-use Modules\Xot\Filament\Actions\XotBaseAction;
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-use Modules\Xot\Filament\Actions\XotBaseAction;
->>>>>>> .merge_file_DmZjB7
-=======
-use Filament\Actions\Action;
->>>>>>> 0dadab4 (Lint)
 
 /**
  * @see https://filamentphp.com/plugins/tgeorgel-table-layout-toggle
  */
-<<<<<<< HEAD
-<<<<<<< .merge_file_LyDJcY
-<<<<<<< HEAD
-class TableLayoutToggleHeaderAction extends Action
-=======
-<<<<<<< HEAD
 class TableLayoutToggleHeaderAction extends XotBaseAction
-=======
-<<<<<<< HEAD
-class TableLayoutToggleHeaderAction extends Action
-=======
-class TableLayoutToggleHeaderAction extends XotBaseAction
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-class TableLayoutToggleHeaderAction extends XotBaseAction
->>>>>>> .merge_file_DmZjB7
-=======
-class TableLayoutToggleHeaderAction extends Action
->>>>>>> 0dadab4 (Lint)
 {
     // use NavigationActionLabelTrait;
     public string $listIcon = 'heroicon-o-list-bullet';
@@ -66,31 +26,6 @@ class TableLayoutToggleHeaderAction extends Action
             // ->icon(trans('setting::database_connection.actions.database-backup.icon'))
             // ->icon($this->listIcon)
             /*
-<<<<<<< HEAD
-<<<<<<< .merge_file_LyDJcY
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> 0dadab4 (Lint)
-             * /*
-             * /*
-             * /*
-             * /*
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_DmZjB7
-=======
->>>>>>> 0dadab4 (Lint)
              * @param object{layoutView?: string|null} $livewire
              */
             ->icon(function (object $livewire): string {
@@ -99,49 +34,15 @@ class TableLayoutToggleHeaderAction extends Action
                     $layoutViewRaw = $livewire->layoutView;
                     $layoutView = is_string($layoutViewRaw) ? $layoutViewRaw : '';
 
-                    return 'list' === $layoutView ? $this->listIcon : $this->gridIcon;
+                    return $layoutView === 'list' ? $this->listIcon : $this->gridIcon;
                 }
 
                 return $this->listIcon; // default icon
             })
             /*
-<<<<<<< HEAD
-<<<<<<< .merge_file_LyDJcY
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
              * @param object{layoutView?: string|null} $livewire
              */
             ->action(static function (object $livewire): void {
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> 0dadab4 (Lint)
-             * /*
-             * /*
-             * /*
-             * /*
-             * @param object{layoutView?: string|null} $livewire
-             */
-            ->action(function (object $livewire): void {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-             * @param object{layoutView?: string|null} $livewire
-             */
-            ->action(static function (object $livewire): void {
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-             * @param object{layoutView?: string|null} $livewire
-             */
-            ->action(static function (object $livewire): void {
->>>>>>> .merge_file_DmZjB7
-=======
->>>>>>> 0dadab4 (Lint)
                 // ✅ isset() invece di property_exists() - funziona con magic properties Livewire
                 if (! isset($livewire->layoutView)) {
                     return;
@@ -150,7 +51,7 @@ class TableLayoutToggleHeaderAction extends Action
                 $layoutViewRaw = $livewire->layoutView;
                 $layoutView = is_string($layoutViewRaw) ? $layoutViewRaw : '';
 
-                $livewire->layoutView = 'grid' === $layoutView ? 'list' : 'grid';
+                $livewire->layoutView = $layoutView === 'grid' ? 'list' : 'grid';
             });
     }
 

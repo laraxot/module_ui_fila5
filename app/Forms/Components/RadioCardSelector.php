@@ -34,16 +34,7 @@ class RadioCardSelector extends XotBaseField
     /**
      * Imposta le card disponibili per la selezione.
      *
-<<<<<<< HEAD
-     * <<<<<<< HEAD
-     *
-     * @param array<int, array<string, mixed>>|\Closure $cards
-     *                                                         =======
-     * @param array<int, array<string, mixed>>|\Closure $cards
-     *                                                         >>>>>>> laraxot/dev
-=======
-     * @param array<int, array<string, mixed>>|\Closure $cards
->>>>>>> 0dadab4 (Lint)
+     * @param  array<int, array<string, mixed>>|\Closure  $cards
      */
     public function cards(array|\Closure $cards): static
     {
@@ -127,34 +118,7 @@ class RadioCardSelector extends XotBaseField
     }
 
     /**
-<<<<<<< HEAD
-     * <<<<<<< .merge_file_SO8J2m
-     * <<<<<<< HEAD.
-     *
-     * @param array<mixed, mixed>     $item
-     *                                      =======
-     *                                      =======
-     *                                      >>>>>>> .merge_file_Zu5Anh
-     *                                      <<<<<<< HEAD.
-     * @param array<array-key, mixed> $item
-     *                                      =======
-     *                                      <<<<<<< .merge_file_SO8J2m
-     *                                      <<<<<<< HEAD
-     * @param array<mixed, mixed>     $item
-     *                                      =======
-     * @param array<array-key, mixed> $item
-     *                                      >>>>>>> laraxot/dev
-     *                                      >>>>>>> laraxot/dev
-     *                                      >>>>>>> laraxot/dev
-     *                                      =======
-     * @param array<mixed, mixed>     $item
-     *
-     * >>>>>>> laraxot/dev
-     * >>>>>>> .merge_file_Zu5Anh
-=======
-     * @param array<mixed, mixed> $item
->>>>>>> 0dadab4 (Lint)
-     *
+     * @param  array<array-key, mixed>  $item
      * @return array<string, mixed>
      */
     private static function normalizeCardRow(array $item): array

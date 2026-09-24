@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_gz8Vv4
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_54HEeS
 ---
 title: "Integrazione dei Componenti Filament nei Blocchi"
 type: concept
@@ -16,25 +5,10 @@ tags: [filament, component, integration]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "filament-component-integration integrazione dei componenti filament nei blocchi"
-<<<<<<< .merge_file_gz8Vv4
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_54HEeS
 related:
   - "./correct-filament-components.md"
   - "./logo.md"
@@ -42,18 +16,6 @@ related:
   - "./user-dropdown.md"
 ---
 
-<<<<<<< .merge_file_gz8Vv4
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_54HEeS
-=======
->>>>>>> 0dadab4 (Lint)
 # Integrazione dei Componenti Filament nei Blocchi
 
 ## Introduzione

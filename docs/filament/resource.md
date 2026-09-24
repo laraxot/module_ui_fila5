@@ -3,17 +3,6 @@ title: Creazione di una Resource
 description: Creazione di una Resource
 extends: _layouts.documentation
 section: content
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_kEiP55
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_GTEEHj
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -23,18 +12,6 @@ related:
   - "./filament-4-migration-guide.md"
   - "./filament-4-migration-summary.md"
   - "./filament-4-migration-sumy.md"
-<<<<<<< .merge_file_kEiP55
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_GTEEHj
-=======
->>>>>>> 0dadab4 (Lint)
 ---
 
 # Creazione di una Resource {#creazione-resource}

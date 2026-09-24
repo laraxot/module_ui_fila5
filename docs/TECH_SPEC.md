@@ -24,23 +24,7 @@ Technical implementation details for the UI module.
 
 ## Dependencies
 - Laravel 12.x
-<<<<<<< HEAD
 - Laravel 13.x
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_5PBEki
-=======
-<<<<<<< .merge_file_hR63da
-=======
-<<<<<<< HEAD
-- Laravel 13.x
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_NKQxBc
->>>>>>> .merge_file_11xZl7
-=======
->>>>>>> 0dadab4 (Lint)
->>>>>>> laraxot/dev
 - Filament 5.x
 - Xot Module
 
