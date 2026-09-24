@@ -113,6 +113,7 @@ composer format        # Formatta il codice
 
 ## Changelog
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 Le modifiche vengono tracciate nel repository GitHub. 
@@ -130,6 +131,8 @@ Le modifiche vengono tracciate nel repository GitHub.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 Le modifiche vengono tracciate nel repository GitHub.
 # Modulo UI
@@ -225,6 +228,7 @@ composer format        # Formatta il codice
 - File upload
 ## Changelog
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -244,4 +248,6 @@ Le modifiche vengono tracciate nel repository GitHub.
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

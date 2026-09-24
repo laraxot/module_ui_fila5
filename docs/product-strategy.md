@@ -1,9 +1,12 @@
 <<<<<<< HEAD
-=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
 # UI - Product Strategy
@@ -56,6 +59,7 @@ Portare **UI** a uno stato in cui il progetto ottiene un vantaggio netto e misur
 
 ## Regola architetturale
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -67,6 +71,8 @@ Portare **UI** a uno stato in cui il progetto ottiene un vantaggio netto e misur
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # UI Module - Product Strategy
 
@@ -159,6 +165,7 @@ Easy to use and extend.
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 *Last Updated: March 12, 2026*
 =======
 <<<<<<< HEAD
@@ -220,10 +227,14 @@ Easy to use and extend.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+*Last Updated: March 12, 2026*
+>>>>>>> laraxot/dev
 
 - Action-first: niente generic `Services` per la business logic
 - Standard operativo: `spatie/laravel-queueable-action`
 - Convenzione: Action con metodo `execute()` e dispatch tramite container
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -240,4 +251,6 @@ Easy to use and extend.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

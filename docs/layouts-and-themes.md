@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ### Versione HEAD
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # Struttura dei Temi
 
@@ -56,6 +59,7 @@ Per correggere questa situazione, è necessario:
 4. Rigenerare l'autoloader
 
 ```bash
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -553,6 +557,8 @@ Per correggere questa situazione, è necessario:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 # Creare la directory Themes se non esiste
 mkdir -p /laravel/Themes
 
@@ -694,6 +700,7 @@ Nel file GetAllIconsAction.php è stato risolto un conflitto mantenendo una sola
 Questa scelta evita ambiguità e possibili errori runtime nella gestione delle icone dinamiche.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../docs/risoluzione_conflitti_git.md).
 =======
 <<<<<<< HEAD
@@ -728,6 +735,9 @@ Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentaz
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Per il ragionamento generale sulle strategie di risoluzione, vedi la [documentazione centrale](../../../../docs/risoluzione_conflitti_git.md).
+>>>>>>> laraxot/dev
 
 In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale:
 - Rimuovere codice commentato o superfluo lasciato da template generici o da sviluppi temporanei.
@@ -736,6 +746,7 @@ In caso di conflitti nei componenti hero (es. simple.blade.php), è fondamentale
 
 **Decisione architetturale**: In simple.blade.php è stato rimosso un blocco di codice commentato relativo a header e menu di esempio, mantenendo solo la struttura effettivamente utilizzata e correggendo il titolo. Questa scelta assicura chiarezza, manutenibilità e coerenza visiva.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../docs/risoluzione_conflitti_git.md).
 =======
@@ -770,6 +781,9 @@ Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferi
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+Per ulteriori dettagli sulle strategie di risoluzione dei conflitti, fare riferimento alla [documentazione centrale](../../../../docs/risoluzione_conflitti_git.md).
 >>>>>>> laraxot/dev
 
 ## Layout System
@@ -825,6 +839,7 @@ class Dashboard extends Component
 {
     protected static string $layout = AdminLayout::class;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -852,6 +867,8 @@ class Dashboard extends Component
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     protected function getLayoutData(): array
     {
@@ -879,6 +896,7 @@ class Dashboard extends Component
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### PrintLayout
 =======
 <<<<<<< HEAD
@@ -904,6 +922,9 @@ class Dashboard extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+#### PrintLayout
 >>>>>>> laraxot/dev
 ```php
 use Modules\UI\Layouts\PrintLayout;
@@ -912,6 +933,7 @@ class StampaPratica extends Component
 {
     protected static string $layout = PrintLayout::class;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -939,6 +961,8 @@ class StampaPratica extends Component
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     protected function getLayoutData(): array
     {
@@ -983,6 +1007,7 @@ return [
             'danger' => '#ef4444',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1010,6 +1035,8 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         // Tipografia
         'typography' => [
@@ -1024,6 +1051,7 @@ return [
             ],
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1051,6 +1079,8 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         // Spaziature
         'spacing' => [
@@ -1059,6 +1089,7 @@ return [
             'xl' => '2rem',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1086,6 +1117,8 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         // Bordi
         'border' => [
@@ -1093,6 +1126,7 @@ return [
             'width' => '1px',
         ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1120,6 +1154,8 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         // Ombre
         'shadows' => [
@@ -1226,6 +1262,7 @@ AdminLayout::make()
    - Documentare personalizzazioni
    - Seguire convenzioni di naming
 <<<<<<< HEAD
+<<<<<<< HEAD
    - Centralizzare configurazioni
 =======
 <<<<<<< HEAD
@@ -1251,4 +1288,7 @@ AdminLayout::make()
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+   - Centralizzare configurazioni
 >>>>>>> laraxot/dev

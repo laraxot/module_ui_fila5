@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
 =======
 ---
@@ -31,5 +32,8 @@ related:
   - "./ci.md"
 ---
 
+https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
+>>>>>>> laraxot/dev
+=======
 https://ahmedash.dev/blog/laravel-core-bits/volt-live-users-stats/
 >>>>>>> laraxot/dev

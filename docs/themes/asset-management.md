@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -13,6 +14,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ---
 title: "Gestione degli Asset"
@@ -31,6 +34,7 @@ related:
   - "./schemaless-attributes-guide.md"
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -49,6 +53,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # Gestione degli Asset
 
@@ -109,6 +115,7 @@ Gli script di automazione si trovano nella directory `bashscripts/`:
 - Monitorare lo spazio disponibile
 - Verificare periodicamente l'integrità degli asset
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - Utilizzare lo script di verifica prima di ogni deploy 
@@ -126,6 +133,8 @@ Gli script di automazione si trovano nella directory `bashscripts/`:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - Utilizzare lo script di verifica prima di ogni deploy
 # Gestione degli Asset
@@ -172,6 +181,7 @@ Gli script di automazione si trovano nella directory `bashscripts/`:
 - Monitorare lo spazio disponibile
 - Verificare periodicamente l'integrità degli asset
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ```
 =======
@@ -195,4 +205,8 @@ Gli script di automazione si trovano nella directory `bashscripts/`:
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+```
 >>>>>>> laraxot/dev

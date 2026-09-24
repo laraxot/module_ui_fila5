@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ---
 title: "Carousel Slider"
@@ -30,6 +31,8 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 https://www.embla-carousel.com/examples/predefined/
 

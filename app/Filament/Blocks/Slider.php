@@ -9,8 +9,12 @@ use Filament\Forms\Components\Radio;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Filament\Schemas\Components\Component;
 =======
+>>>>>>> laraxot/dev
+=======
+use Filament\Schemas\Components\Component;
 >>>>>>> laraxot/dev
 use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
 
@@ -39,9 +43,13 @@ final class Slider
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
      * @return array<int|string, Component>
 =======
      * @return array<int|string, \Filament\Schemas\Components\Component>
+>>>>>>> laraxot/dev
+=======
+     * @return array<int|string, Component>
 >>>>>>> laraxot/dev
      */
     public static function getFormSchema(): array

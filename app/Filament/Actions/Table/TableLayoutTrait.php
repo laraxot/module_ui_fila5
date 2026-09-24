@@ -36,9 +36,13 @@ trait TableLayoutTrait
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return TableLayoutEnum::GRID;
 =======
         return TableLayoutEnum::LIST;
+>>>>>>> laraxot/dev
+=======
+        return TableLayoutEnum::GRID;
 >>>>>>> laraxot/dev
     }
 

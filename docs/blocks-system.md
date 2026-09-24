@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -16,11 +17,14 @@
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: blocks_system
 canonical: ../../../Themes/docs/shared-components/blocks-system_1.md
 ---
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -38,6 +42,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/blocks-syste
 >>>>>>> laraxot/dev
 # Sistema di Blocchi
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 See canonical documentation: ../../../Themes/docs/shared-components/blocks-system_1.md
@@ -125,6 +131,7 @@ Questa documentazione è parte del sistema di documentazione di il progetto. Per
 - [Documentazione Blocchi](../laravel/Modules/Cms/project_docs/blocks/)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```
 =======
 <<<<<<< HEAD
@@ -147,4 +154,7 @@ See canonical documentation: ../../../Themes/docs/shared-components/blocks-syste
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+```
 >>>>>>> laraxot/dev

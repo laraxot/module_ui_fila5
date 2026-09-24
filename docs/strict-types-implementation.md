@@ -55,6 +55,7 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 - [Linee Guida PHPStan Livello 10](../../Xot/docs/PHPStan/LEVEL10_LINEE_GUIDA.md)
 - [Conflitti Merge Risolti](./CONFLITTI_MERGE_RISOLTI.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - [README del Modulo UI](./README.md)
@@ -72,6 +73,8 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [README del Modulo UI](./README.md)
 # Implementazione di strict_types nel Modulo UI
@@ -110,6 +113,7 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 - [Linee Guida PHPStan Livello 10](../../Xot/docs/PHPStan/LEVEL10_LINEE_GUIDA.md)
 - [Conflitti Merge Risolti](./CONFLITTI_MERGE_RISOLTI.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ```
 =======
@@ -133,4 +137,8 @@ Durante la risoluzione dei conflitti Git, è fondamentale assicurarsi che la dic
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
+```
 >>>>>>> laraxot/dev
