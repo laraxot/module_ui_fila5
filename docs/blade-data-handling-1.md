@@ -71,12 +71,28 @@ Components should never rely on variables that haven't been explicitly defined a
 
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+<<<<<<< .merge_file_2erFGI
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> .merge_file_7ugBYl
+>>>>>>> laraxot/dev
     
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_2erFGI
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_7ugBYl
 >>>>>>> laraxot/dev
     @if($prop2)
         <p>{{ $prop2 }}</p>
@@ -111,13 +127,29 @@ Components should never rely on variables that haven't been explicitly defined a
 ```blade
 <!-- INCORRECT: Hard-coded project references -->
 <<<<<<< HEAD
+<<<<<<< HEAD
 <div class="title">Welcome to <nome progetto></div>
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_2erFGI
+=======
+<div class="title">Welcome to <nome progetto></div>
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_7ugBYl
+>>>>>>> laraxot/dev
 <div class="title">Welcome to <nome progetto></div>
 =======
 <div class="title">Welcome to SaluteOra</div>
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_2erFGI
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_7ugBYl
 >>>>>>> laraxot/dev
 
 <!-- CORRECT: Dynamic configuration -->

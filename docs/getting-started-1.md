@@ -87,7 +87,15 @@ npm run dev
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_QHGESJ
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_jPhzfA
+>>>>>>> laraxot/dev
 
 ### Versione Incoming
 
@@ -95,6 +103,13 @@ npm run dev
 ---
 
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_QHGESJ
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jPhzfA
 >>>>>>> laraxot/dev
 ### Versione Incoming
 

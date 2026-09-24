@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_t8iLPr
+=======
+=======
+<<<<<<< .merge_file_gOLy4t
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_GLr51b
+>>>>>>> .merge_file_QG9KVp
+>>>>>>> laraxot/dev
 ---
 title: "Componenti Volt"
 type: concept
@@ -6,11 +23,18 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "volt componenti volt"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
+=======
+<<<<<<< .merge_file_t8iLPr
+=======
+<<<<<<< .merge_file_gOLy4t
+>>>>>>> .merge_file_QG9KVp
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -23,6 +47,18 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_t8iLPr
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_GLr51b
+>>>>>>> .merge_file_QG9KVp
 >>>>>>> laraxot/dev
 related:
   - "./address-field-1.md"
@@ -35,6 +71,23 @@ related:
   - "./full-calendar-1.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_t8iLPr
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_gOLy4t
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_GLr51b
+>>>>>>> .merge_file_QG9KVp
+>>>>>>> laraxot/dev
 # Componenti Volt
 
 ## Panoramica
@@ -46,7 +99,35 @@ Nel progetto la regola di default per le componenti Volt interattive è la sinta
 - [Documentazione Volt](https://livewire.laravel.com/docs/volt)
 - [Livewire](https://livewire.laravel.com)
 - [Filament](https://filamentphp.com)
+<<<<<<< HEAD
 - [Documentazione UI](../README.md)
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_t8iLPr
+- [Documentazione UI](../readme.md)
+=======
+- [Documentazione UI](../README.md)
+=======
+<<<<<<< .merge_file_gOLy4t
+- [Documentazione UI](../readme.md)
+=======
+<<<<<<< HEAD
+- [Documentazione UI](../README.md)
+=======
+<<<<<<< HEAD
+- [Documentazione UI](../readme.md)
+=======
+- [Documentazione UI](../README.md)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [Documentazione UI](../README.md)
+=======
+- [Documentazione UI](../readme.md)
+>>>>>>> .merge_file_GLr51b
+>>>>>>> .merge_file_QG9KVp
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [Best Practices](../best-practices.md)
 - [Layout](../layouts.md)
 - [Temi](../themes.md)

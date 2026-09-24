@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_Tt8NUf
+=======
+=======
+<<<<<<< .merge_file_XpFGMZ
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_rVyMmv
+>>>>>>> .merge_file_xYoiJI
+>>>>>>> laraxot/dev
 ---
 title: "Bugfix: IconColumn Estende Direttamente Filament Column"
 type: concept
@@ -6,11 +23,18 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "iconcolumn-extends-filament-column bugfix: iconcolumn estende direttamente filament column"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
+=======
+<<<<<<< .merge_file_Tt8NUf
+=======
+<<<<<<< .merge_file_XpFGMZ
+>>>>>>> .merge_file_xYoiJI
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -23,12 +47,41 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_Tt8NUf
+=======
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_rVyMmv
+>>>>>>> .merge_file_xYoiJI
 >>>>>>> laraxot/dev
 related:
   - "./groupcolumn-architectural-violations.md"
   - "./iconcolumn-view-path-fix.md"
 ---
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_Tt8NUf
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_XpFGMZ
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_rVyMmv
+>>>>>>> .merge_file_xYoiJI
+>>>>>>> laraxot/dev
 # Bugfix: IconColumn Estende Direttamente Filament Column
 
 **Data Fix**: 11 Novembre 2025

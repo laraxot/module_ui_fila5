@@ -3,12 +3,41 @@ module: theme
 topic: AGENTS
 canonical: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+=======
+---
+
+See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+<<<<<<< .merge_file_5PWqlN
+=======
+<<<<<<< .merge_file_TkuqKt
+>>>>>>> .merge_file_d7tJiN
+=======
+<<<<<<< HEAD
+---
+
+See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+<<<<<<< .merge_file_5PWqlN
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+---
+
+See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_GBWYJe
+>>>>>>> .merge_file_d7tJiN
+>>>>>>> laraxot/dev
 
 
 ---
@@ -17,7 +46,14 @@ See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Mo
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_5PWqlN
+=======
+<<<<<<< .merge_file_TkuqKt
+>>>>>>> .merge_file_d7tJiN
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 ---
@@ -40,6 +76,14 @@ See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Mo
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_5PWqlN
+=======
+=======
+>>>>>>> .merge_file_GBWYJe
+>>>>>>> .merge_file_d7tJiN
 >>>>>>> laraxot/dev
 related:
   - "./bmad-method.md"
@@ -50,7 +94,14 @@ related:
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_5PWqlN
+=======
+<<<<<<< .merge_file_TkuqKt
+>>>>>>> .merge_file_d7tJiN
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -67,4 +118,20 @@ See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Mo
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_5PWqlN
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_GBWYJe
+>>>>>>> .merge_file_d7tJiN
 >>>>>>> laraxot/dev

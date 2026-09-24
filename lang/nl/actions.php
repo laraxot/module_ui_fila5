@@ -2,6 +2,37 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_NV69vh
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_G9zRkz
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jy2Z9b
+// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
+// claude-audit static: ≥5% comment lines on files >100 LOC.
+// Canon: Modules/UI/docs/wiki — domain i18n only.
+// File: lang/nl/actions.php
+<<<<<<< .merge_file_NV69vh
+=======
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_slzdGt
+>>>>>>> .merge_file_jy2Z9b
+>>>>>>> laraxot/dev
 return [
     'confirm' => 'Bevestigen',
     'cancel' => 'Annuleren',

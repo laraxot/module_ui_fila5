@@ -14,12 +14,43 @@ use Filament\Support\Contracts\HasLabel;
 use Modules\Xot\Traits\EnumTrait;
 
 /**
+<<<<<<< HEAD
  * Defines the different types of appointments in the system.
  *
  * @method static self fromName(string $name)
  * @method static self fromValue(string $value)
  * @method static self tryFromName(string $name)
  * @method static self tryFromValue(string $value)
+=======
+<<<<<<< .merge_file_PhCfas
+=======
+<<<<<<< .merge_file_k4aE4q
+<<<<<<< HEAD
+ * Filament form field types supported by the UI module.
+=======
+<<<<<<< HEAD
+ * Defines the different types of appointments in the system.
+=======
+>>>>>>> .merge_file_yndxKC
+<<<<<<< HEAD
+ * Filament form field types supported by the UI module.
+=======
+ * Defines the different types of appointments in the system.
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_PhCfas
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+ * Defines the different types of appointments in the system.
+>>>>>>> .merge_file_qCIK1o
+>>>>>>> .merge_file_yndxKC
+ *
+ * @method static self        fromName(string $name)
+ * @method static self        fromValue(string $value)
+ * @method static self        tryFromName(string $name)
+ * @method static self        tryFromValue(string $value)
+>>>>>>> laraxot/dev
  * @method static array<self> cases()
  */
 enum FieldTypeEnum: string implements HasColor, HasIcon, HasLabel
@@ -29,7 +60,31 @@ enum FieldTypeEnum: string implements HasColor, HasIcon, HasLabel
     case TEXT = 'text';
     // case NUMBER   = 'number';
     case EMAIL = 'email';
+<<<<<<< HEAD
     // case PASSWORD = 'password';
+=======
+<<<<<<< .merge_file_PhCfas
+=======
+<<<<<<< .merge_file_k4aE4q
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    // case PASSWORD = 'password';
+=======
+>>>>>>> .merge_file_yndxKC
+<<<<<<< HEAD
+=======
+    // case PASSWORD = 'password';
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_PhCfas
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+    // case PASSWORD = 'password';
+>>>>>>> .merge_file_qCIK1o
+>>>>>>> .merge_file_yndxKC
+>>>>>>> laraxot/dev
     case TEXTAREA = 'textarea';
     case SELECT = 'select';
     case RADIO = 'radio';

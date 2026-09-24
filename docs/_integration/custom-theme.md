@@ -1,9 +1,27 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_IcSuJx
+=======
+<<<<<<< .merge_file_jqaPDZ
+>>>>>>> .merge_file_xxy1Xl
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_IcSuJx
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_xxy1Xl
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 =======
@@ -13,6 +31,14 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_IcSuJx
+=======
+=======
+>>>>>>> .merge_file_SWO1HI
+>>>>>>> .merge_file_xxy1Xl
 >>>>>>> laraxot/dev
 ---
 title: "custom_theme"
@@ -35,7 +61,14 @@ related:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+<<<<<<< .merge_file_IcSuJx
+=======
+<<<<<<< .merge_file_jqaPDZ
+>>>>>>> .merge_file_xxy1Xl
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
@@ -49,6 +82,22 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_IcSuJx
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_SWO1HI
+>>>>>>> .merge_file_xxy1Xl
 >>>>>>> laraxot/dev
 # custom_theme
 
@@ -64,12 +113,33 @@ https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-li
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
+<<<<<<< .merge_file_IcSuJx
+=======
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_xxy1Xl
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
 =======
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_IcSuJx
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_xxy1Xl
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 php artisan make:filament-theme admin
@@ -86,6 +156,17 @@ https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-li
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_IcSuJx
+=======
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_xxy1Xl
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -98,6 +179,16 @@ https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-li
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_IcSuJx
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_xxy1Xl
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 php artisan make:filament-theme admin
@@ -119,6 +210,18 @@ in app/Providers/Filament/AdminPanelProvider.php
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_IcSuJx
+=======
+=======
+->viteTheme('resources/css/filament/admin/theme.css')
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_xxy1Xl
+>>>>>>> laraxot/dev
 ->viteTheme('resources/css/filament/admin/theme.css')
 =======
 ->viteTheme('resources/css/filament/admin/theme.css')
@@ -131,4 +234,14 @@ in app/Providers/Filament/AdminPanelProvider.php
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_IcSuJx
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_xxy1Xl
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev

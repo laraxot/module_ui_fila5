@@ -9,12 +9,42 @@ use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Repeater;
 use Filament\Forms\Components\RichEditor;
 use Filament\Forms\Components\TextInput;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+use Modules\Xot\Actions\Filament\Block\GetViewBlocksOptionsByTypeAction;
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 
 final class Hero
 {
     public static function make(string $name = 'hero', string $context = 'form'): Block
     {
+<<<<<<< HEAD
         // ---------------
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_J1jDH7
+=======
+        // ---------------
+>>>>>>> laraxot/dev
+=======
+        $options = app(GetViewBlocksOptionsByTypeAction::class)->execute('hero', true);
+
+        // ---------------
+=======
+<<<<<<< HEAD
+        // ---------------
+=======
+<<<<<<< HEAD
+=======
+        // ---------------
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_9seAIt
+>>>>>>> laraxot/dev
         return Block::make($name)->schema([
             TextInput::make('title'),
             RichEditor::make('text'),

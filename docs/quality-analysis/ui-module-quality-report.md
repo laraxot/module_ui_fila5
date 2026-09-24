@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_qCzYS8
+=======
+=======
+<<<<<<< .merge_file_Z74LW1
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_4n3ss7
+>>>>>>> .merge_file_LuAUDg
+>>>>>>> laraxot/dev
 ---
 title: "Analisi Qualità - Modulo UI"
 type: concept
@@ -6,11 +23,18 @@ created: 2026-07-14
 updated: 2026-07-14
 qmd: "ui-module-quality-report analisi qualità - modulo ui"
 <<<<<<< HEAD
+<<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
+=======
+<<<<<<< .merge_file_qCzYS8
+=======
+<<<<<<< .merge_file_Z74LW1
+>>>>>>> .merge_file_LuAUDg
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -23,10 +47,36 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 related:
 ---
 
+=======
+related:
+---
+
+<<<<<<< .merge_file_qCzYS8
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
+---
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_4n3ss7
+>>>>>>> .merge_file_LuAUDg
+>>>>>>> laraxot/dev
 # Analisi Qualità - Modulo UI
 
 **Data Analisi**: 2025-01-22
@@ -101,7 +151,35 @@ related:
 ## 🔗 Collegamenti
 
 - [PHPStan Compliance](./phpstan-compliance.md)
+<<<<<<< HEAD
 - [Optimization Recommendations](./optimization-recommendations-1.md)
+=======
+<<<<<<< HEAD
+<<<<<<< .merge_file_qCzYS8
+- [Optimization Recommendations](./optimization_recommendations.md)
+=======
+- [Optimization Recommendations](./optimization-recommendations-1.md)
+=======
+<<<<<<< .merge_file_Z74LW1
+- [Optimization Recommendations](./optimization_recommendations.md)
+=======
+<<<<<<< HEAD
+- [Optimization Recommendations](./optimization-recommendations-1.md)
+=======
+<<<<<<< HEAD
+- [Optimization Recommendations](./optimization_recommendations.md)
+=======
+- [Optimization Recommendations](./optimization-recommendations-1.md)
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [Optimization Recommendations](./optimization-recommendations-1.md)
+=======
+- [Optimization Recommendations](./optimization_recommendations.md)
+>>>>>>> .merge_file_4n3ss7
+>>>>>>> .merge_file_LuAUDg
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 - [Modularity Optimizations](./modularity-optimizations.md)
 - [Xot Quality Analysis](../xot/docs/quality-analysis/current-status.md)
 

@@ -115,15 +115,35 @@ context-mode ctx-stats
 
 - [Global Performance Guide](../../docs/wiki/concepts/performance-optimization.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [On-Demand Pattern](./on-demand-pattern.md)
 - [QMD Setup](./qmd-setup.md)
 =======
+=======
+>>>>>>> laraxot/dev
 - [On-Demand Pattern](./ON-DEMAND-PATTERN.md)
 - [QMD Setup](./QMD-SETUP.md)
 <<<<<<< HEAD
 - [On-Demand Pattern](./on-demand-pattern.md)
 - [QMD Setup](./qmd-setup.md)
 =======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_E6Nir4
+=======
+<<<<<<< .merge_file_kFmjje
+=======
+<<<<<<< .merge_file_0mDA2X
+=======
+<<<<<<< HEAD
+- [On-Demand Pattern](./on-demand-pattern.md)
+- [QMD Setup](./qmd-setup.md)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_UMtYNh
+>>>>>>> .merge_file_NRyuZu
+>>>>>>> .merge_file_lo30M8
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 

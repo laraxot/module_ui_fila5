@@ -5,10 +5,36 @@
 **Type**: User Interface & Component Library Module  
 **Status**: ✅ Active  
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 **Framework**: Laravel 12.x + Filament 4.x + Tailwind CSS  
 >>>>>>> laraxot/dev
 **Framework**: Laravel 13.x + Filament 4.x + Tailwind CSS  
+=======
+**Framework**: Laravel 12.x + Filament 4.x + Tailwind CSS  
+<<<<<<< HEAD
+<<<<<<< .merge_file_0SO506
+=======
+**Framework**: Laravel 13.x + Filament 4.x + Tailwind CSS  
+>>>>>>> laraxot/dev
+=======
+<<<<<<< .merge_file_AOUUBw
+=======
+<<<<<<< HEAD
+**Framework**: Laravel 13.x + Filament 4.x + Tailwind CSS  
+=======
+<<<<<<< HEAD
+=======
+**Framework**: Laravel 13.x + Filament 4.x + Tailwind CSS  
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+**Framework**: Laravel 13.x + Filament 4.x + Tailwind CSS  
+=======
+>>>>>>> .merge_file_TAC8x7
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_kB2GrT
+>>>>>>> laraxot/dev
 **Component Library**: Custom UI components and styles  
 **Language**: Multi-language (IT/EN/DE)  
 
@@ -66,11 +92,30 @@ The UI module provides comprehensive user interface components and styling:
 - **Cms**: Content display components
 <<<<<<< HEAD
 - **Quaeris**: Dashboard UI components
+<<<<<<< HEAD
 - **modulo questionari**: Dashboard UI components
+=======
+<<<<<<< .merge_file_0SO506
+=======
+<<<<<<< .merge_file_AOUUBw
+>>>>>>> .merge_file_kB2GrT
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 - **Quaeris**: Dashboard UI components
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_0SO506
+=======
+=======
+=======
+<<<<<<< HEAD
+- **Quaeris**: Dashboard UI components
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+>>>>>>> .merge_file_kB2GrT
+>>>>>>> laraxot/dev
 - **modulo questionari**: Dashboard UI components
 =======
 =======
@@ -90,6 +135,21 @@ The UI module provides comprehensive user interface components and styling:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_0SO506
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+- **modulo questionari**: Dashboard UI components
+=======
+>>>>>>> .merge_file_TAC8x7
+>>>>>>> .merge_file_kB2GrT
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 - **Xot**: Base UI infrastructure
@@ -122,4 +182,28 @@ The UI module provides comprehensive user interface components and styling:
 - Version management
 - Styling system
 - Accessibility tools
+<<<<<<< HEAD
 - Performance optimization
+=======
+<<<<<<< HEAD
+- Performance optimization
+=======
+<<<<<<< .merge_file_0SO506
+- Performance optimization
+=======
+<<<<<<< .merge_file_AOUUBw
+<<<<<<< HEAD
+- Performance optimization
+=======
+<<<<<<< HEAD
+- Performance optimization
+=======
+- Performance optimization
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- Performance optimization
+>>>>>>> .merge_file_TAC8x7
+>>>>>>> .merge_file_kB2GrT
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev

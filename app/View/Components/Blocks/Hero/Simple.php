@@ -12,7 +12,13 @@ class Simple extends ViewComponent
     /**
      * Create a new component instance.
      */
+<<<<<<< HEAD
     public function __construct() {}
+=======
+    public function __construct()
+    {
+    }
+>>>>>>> laraxot/dev
 
     public function render(): View
     {

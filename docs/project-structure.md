@@ -36,9 +36,27 @@ tags: [structure, architecture, module]
 ├── QMD-SETUP.md                  # Configurazione QMD
 ├── PERFORMANCE-OPTIMIZATION.md    # Metriche e best practice
 <<<<<<< HEAD
+=======
+<<<<<<< .merge_file_9hEdH2
+├── ARCHITECTURE.md               # (opzionale) Architettura modulo
+=======
+<<<<<<< .merge_file_CF4qaa
+├── ARCHITECTURE.md               # (opzionale) Architettura modulo
+=======
+<<<<<<< .merge_file_7vOCMA
+├── ARCHITECTURE.md               # (opzionale) Architettura modulo
+=======
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
 ├── architecture.md                # (opzionale) Architettura modulo
 =======
 ├── ARCHITECTURE.md               # (opzionale) Architettura modulo
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+=======
+>>>>>>> .merge_file_zaiyXj
+>>>>>>> .merge_file_k2VWGC
+>>>>>>> .merge_file_eymqgb
 >>>>>>> laraxot/dev
 └── README.md                     # (opzionale) Overview modulo
 \`\`\`
