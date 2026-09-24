@@ -10,38 +10,12 @@ use Modules\Xot\Contracts\StateContract;
 
 final class UiCoverageDoneState implements StateContract
 {
-    /** @param array<array-key, mixed>|Model|string|null $record */
     /**
-<<<<<<< .merge_file_Z9OQSM
-=======
-<<<<<<< .merge_file_YKhn1N
->>>>>>> .merge_file_KHZZK2
-<<<<<<< HEAD
-     * @param  Model|array<string, mixed>|string|null  $record
+     * @param  Model|array<array-key, mixed>|string|null  $record
      */
     public function __construct(
         public Model|array|string|null $record = null,
     ) {}
-=======
-<<<<<<< .merge_file_Z9OQSM
-=======
-=======
->>>>>>> .merge_file_XmNcVH
->>>>>>> .merge_file_KHZZK2
-     * @param Model|array<string, mixed>|string|null $record
-     */
-    public function __construct(
-        public Model|array|string|null $record = null,
-    ) {
-    }
-<<<<<<< .merge_file_Z9OQSM
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_YKhn1N
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_XmNcVH
->>>>>>> .merge_file_KHZZK2
 
     public function label(): string
     {
@@ -90,33 +64,9 @@ final class UiCoverageDoneState implements StateContract
     }
 
     /**
-<<<<<<< .merge_file_Z9OQSM
-=======
-<<<<<<< .merge_file_YKhn1N
->>>>>>> .merge_file_KHZZK2
-<<<<<<< HEAD
      * @param  array<string, mixed>  $data
      */
     public function modalActionByRecord(Model $record, array $data): void {}
-=======
-<<<<<<< .merge_file_Z9OQSM
-=======
-=======
->>>>>>> .merge_file_XmNcVH
->>>>>>> .merge_file_KHZZK2
-     * @param array<string, mixed> $data
-     */
-    public function modalActionByRecord(Model $record, array $data): void
-    {
-    }
-<<<<<<< .merge_file_Z9OQSM
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_YKhn1N
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_XmNcVH
->>>>>>> .merge_file_KHZZK2
 
     public function isMessageRequired(): bool
     {

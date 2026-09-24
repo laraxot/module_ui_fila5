@@ -15,29 +15,6 @@ use PHPUnit\Framework\Assert;
 use function Safe\file_get_contents;
 
 uses(TestCase::class);
-<<<<<<< .merge_file_Jzc5Mw
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-// Laraxot — see module docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-// Laraxot module file — see docs/wiki for domain contract.
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_tUiCag
 
 test('it can be instantiated', function (): void {
     $component = InlineDatePicker::make('test');
@@ -83,19 +60,7 @@ test('it generates calendar data and marks enabled dates', function (): void {
                 continue;
             }
             $dateValue = $day['datetime'] ?? $day['dateString'] ?? null;
-<<<<<<< HEAD
             if ('2025-06-15' === $dateValue) {
-=======
-<<<<<<< HEAD
-            if ($dateValue === '2025-06-15') {
-=======
-<<<<<<< HEAD
-            if ('2025-06-15' === $dateValue) {
-=======
-            if ($dateValue === '2025-06-15') {
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
                 $found = true;
                 Assert::assertTrue((bool) ($day['isEnabled'] ?? false));
             }
@@ -123,20 +88,7 @@ test('it handles empty enabled dates', function (): void {
 
 test('it throws on invalid enabled dates input', function (): void {
     $component = InlineDatePicker::make('test')->enabledDates(['invalid-date']);
-<<<<<<< .merge_file_Jzc5Mw
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_tUiCag
     try {
         $dates = $component->getEnabledDates()->toArray();
         Assert::assertIsArray($dates);
@@ -217,19 +169,7 @@ test('it is kiss simple and clear', function (): void {
 });
 
 /**
-<<<<<<< HEAD
  * @param array<int, mixed> $parameters
-=======
-<<<<<<< HEAD
- * @param  array<int, mixed>  $parameters
-=======
-<<<<<<< HEAD
- * @param array<int, mixed> $parameters
-=======
- * @param  array<int, mixed>  $parameters
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
  */
 function invokeInlineDatePickerMethod(object $object, string $methodName, array $parameters = []): mixed
 {
