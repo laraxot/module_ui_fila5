@@ -52,6 +52,26 @@ use Modules\Xot\Models\BaseModel;
  * @method static Builder<static>|Category whereUpdatedAt($value)
  * @method static Builder<static>|Category whereUpdatedBy($value)
  *
+<<<<<<< .merge_file_rEaqym
+=======
+ * <<<<<<< HEAD
+ * <<<<<<< .merge_file_JtRO47
+ * =======
+ *
+ * =======
+ * >>>>>>> 1b458f2 (refactor: remove conflict markers from multiple PHP files)
+ *
+ * @property ProfileContract|null $deleter
+ *
+ * >>>>>>> laraxot/dev
+ *
+ * <<<<<<< HEAD
+ * >>>>>>> .merge_file_dAyym1
+ *
+ * =======
+ * >>>>>>> 1b458f2 (refactor: remove conflict markers from multiple PHP files)
+ *
+>>>>>>> .merge_file_P0vnaw
  * @mixin \Eloquent
  */
 class Category extends BaseModel
