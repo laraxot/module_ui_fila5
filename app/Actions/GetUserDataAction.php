@@ -4,10 +4,23 @@ declare(strict_types=1);
 
 namespace Modules\UI\Actions;
 
+<<<<<<< HEAD
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
 use Modules\UI\Datas\UserData;
 use Modules\User\Models\User;
+=======
+use Illuminate\Contracts\Auth\Authenticatable;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\Auth;
+use Modules\UI\Datas\UserData;
+use Modules\User\Models\Profile;
+use Modules\User\Models\User;
+use Modules\Xot\Actions\Cast\SafeIntCastAction;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
+use Modules\Xot\Contracts\UserContract;
+>>>>>>> laraxot/dev
 use Spatie\Permission\Contracts\Permission;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -23,6 +36,7 @@ class GetUserDataAction
             return null;
         }
 
+<<<<<<< HEAD
         // PHPStan L10: tenancy() è helper function, ma PHPStan non la riconosce
         // Rimuoviamo questa logica se non è necessaria per GetUserDataAction
         // Se necessario, usare Filament::getTenant() invece
@@ -41,11 +55,26 @@ class GetUserDataAction
         }
 
         // PHPStan L10: getRoleNames() restituisce Collection, ma PHPStan non lo riconosce dal trait
+=======
+        $avatarValue = null;
+        $profile = $user->relationLoaded('profile') ? $user->profile : null;
+        if ($profile instanceof Profile) {
+            $avatarUrl = $profile->getAvatarUrl();
+            $avatarValue = $avatarUrl !== '' ? $avatarUrl : null;
+        }
+
+        $profilePhotoPath = property_exists($user, 'profile_photo_path') ? $user->profile_photo_path : null;
+        if (null === $avatarValue && is_string($profilePhotoPath) && $profilePhotoPath !== '') {
+            $avatarValue = $profilePhotoPath;
+        }
+
+>>>>>>> laraxot/dev
         /** @var Collection<int, string> $roleNames */
         $roleNames = $user->getRoleNames();
         $firstRole = $roleNames->isNotEmpty() ? $roleNames->first() : null;
         $roleValue = is_string($firstRole) ? $firstRole : null;
 
+<<<<<<< HEAD
         // Get settings - could be in profile or extra attributes
         /** @var array<string, mixed> $settingsArray */
         $settingsArray = [];
@@ -63,11 +92,25 @@ class GetUserDataAction
 
         // PHPStan L10: getAllPermissions() restituisce Collection, ma PHPStan non lo riconosce dal trait
         // method_exists() è sempre true perché User ha HasPermissions trait
+=======
+        /** @var array<string, mixed> $settingsArray */
+        $settingsArray = [];
+        if ($profile instanceof Profile && isset($profile->extra)) {
+            $extra = $profile->extra;
+            if (is_array($extra)) {
+                /** @var array<string, mixed> $typedExtra */
+                $typedExtra = $extra;
+                $settingsArray = $typedExtra;
+            }
+        }
+
+>>>>>>> laraxot/dev
         /** @var Collection<int, Permission> $allPermissions */
         $allPermissions = $user->getAllPermissions();
         /** @var array<int, string> $permissions */
         $permissions = $allPermissions->pluck('name')->toArray();
 
+<<<<<<< HEAD
         return new UserData(
             id: (int) $user->id,
             name: (string) ($user->name ?? ''),
@@ -79,3 +122,19 @@ class GetUserDataAction
         );
     }
 }
+=======
+        $userName = property_exists($user, 'name') ? $user->name : null;
+        $userEmail = property_exists($user, 'email') ? $user->email : null;
+
+        return new UserData(
+            id: SafeIntCastAction::cast($user->id),
+            name: is_string($userName) ? $userName : '',
+            email: is_string($userEmail) ? $userEmail : '',
+            avatar: $avatarValue,
+            role: $roleValue,
+            permissions: $permissions,
+            settings: $settingsArray,
+        );
+    }
+}
+>>>>>>> laraxot/dev

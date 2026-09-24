@@ -2,10 +2,13 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/it/studio-selector.php
+=======
+>>>>>>> laraxot/dev
 return [
     'actions' => [
         'select' => [
@@ -53,6 +56,10 @@ return [
         ],
         'label' => 'Studio Selector',
         'sort' => 1,
+<<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> laraxot/dev
     ],
 ];

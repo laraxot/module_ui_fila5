@@ -1,3 +1,29 @@
+<<<<<<< HEAD
+=======
+---
+title: "Esempio Pratico: Implementazione TableLayoutEnum"
+type: concept
+tags: [table, layout, implementation, example]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "table-layout-implementation-example esempio pratico: implementazione tablelayoutenum"
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+related:
+  - "./inline-date-picker-usage.md"
+---
+
+>>>>>>> laraxot/dev
 # Esempio Pratico: Implementazione TableLayoutEnum
 
 ## Panoramica
@@ -155,6 +181,10 @@ class UserResource extends XotBaseResource
     protected static ?string $navigationIcon = 'heroicon-o-users';
 
     public static function getFormSchema(): array
+<<<<<<< HEAD
+=======
+    public function getFormSchema(): array
+>>>>>>> laraxot/dev
     {
         return [
             Forms\Components\TextInput::make('name')
@@ -339,6 +369,11 @@ class ListUsersTest extends TestCase
 ## Collegamenti
 
 - [TableLayoutEnum Documentation](../table-layout-enum-comprehensive.md)
+<<<<<<< HEAD
 - [UI Module Architecture](../architecture_rules.md)
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
+=======
+- [UI Module Architecture](../architecture-rules-1.md)
+- [Filament Best Practices](../../../../docs/filament_best-practices-2.md)
+>>>>>>> laraxot/dev
 - [Translation Standards](../../../../docs/translation_standards.md)

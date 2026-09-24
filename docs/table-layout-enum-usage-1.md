@@ -43,6 +43,13 @@ class ListUsers extends ListRecords
                 Tables\Columns\TextColumn::make('email'),
             ]),
         ];
+<<<<<<< HEAD
+=======
+        
+        return $this->layout->getTableColumns($listColumns, $gridColumns);
+    }
+    
+>>>>>>> laraxot/dev
 
         return $this->layout->getTableColumns($listColumns, $gridColumns);
     }

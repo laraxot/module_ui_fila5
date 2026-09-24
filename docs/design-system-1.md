@@ -79,9 +79,15 @@ Il design system definisce gli standard visivi e di interazione per garantire co
     <x-slot name="header">
         Titolo Card
     </x-slot>
+<<<<<<< HEAD
 
     Contenuto della card
 
+=======
+    
+    Contenuto della card
+    
+>>>>>>> laraxot/dev
     <x-slot name="footer">
         Footer della card
     </x-slot>

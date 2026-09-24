@@ -9,10 +9,16 @@ use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
+<<<<<<< HEAD
 // Laraxot module file — see docs/wiki for domain contract.
 
 /**
  * @param array<string, mixed> $data
+=======
+
+/**
+ * @param  array<string, mixed>  $data
+>>>>>>> laraxot/dev
  */
 function renderCategoryTabsHtml(array $data = []): ?string
 {
@@ -21,19 +27,33 @@ function renderCategoryTabsHtml(array $data = []): ?string
     }
 
     try {
+<<<<<<< HEAD
         return View::make('pub_theme::components.blocks.navigation.category-tabs', $data)->render();
+=======
+        /** @var view-string $viewName */
+        $viewName = 'pub_theme::components.blocks.navigation.category-tabs';
+        return View::make($viewName, $data)->render();
+>>>>>>> laraxot/dev
     } catch (\Throwable) {
         return null;
     }
 }
 
 /**
+<<<<<<< HEAD
  * @param array<string, mixed> $data
+=======
+ * @param  array<string, mixed>  $data
+>>>>>>> laraxot/dev
  */
 function requireCategoryTabsHtml(array $data = []): string
 {
     $html = renderCategoryTabsHtml($data);
+<<<<<<< HEAD
     if (null === $html) {
+=======
+    if ($html === null) {
+>>>>>>> laraxot/dev
         Assert::markTestSkipped('pub_theme category-tabs view not available in this install.');
     }
 

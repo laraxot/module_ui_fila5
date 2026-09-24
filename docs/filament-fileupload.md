@@ -89,6 +89,7 @@ return [
    - Segui le convenzioni di naming
 
 ## Collegamenti
+<<<<<<< HEAD
 - [Translation System](../../lang/docs/translation-system.md)
 - [Form Components](../../patient/docs/filament-form-components.md)
 - [Best Practices](../../xot/docs/filament-best-practices.md)
@@ -100,6 +101,33 @@ return [
 
 ## Metodi Disponibili
 
+=======
+- [Translation System](../../Lang/docs/translation-system.md)
+- [Form Components](../../Patient/docs/filament-form-components.md)
+- [Best Practices](../../Xot/docs/filament-best-practices.md)
+
+## Vedi Anche
+- [Filament File Upload](https://filamentphp.com/docs/forms/fields/file-upload)
+<<<<<<< HEAD
+- [Laravel File Storage](https://laravel.com/docs/filesystem) 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Laravel File Storage](https://laravel.com/docs/filesystem) 
+=======
+=======
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+- [Laravel File Storage](https://laravel.com/docs/filesystem) 
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+- [Laravel File Storage](https://laravel.com/docs/filesystem)
+# FileUpload Component in Filament
+## Metodi Disponibili
+>>>>>>> laraxot/dev
 ### Configurazione Base
 ```php
 FileUpload::make('document')
@@ -109,10 +137,14 @@ FileUpload::make('document')
     ->acceptedFileTypes(['application/pdf'])
     ->maxSize(10240)
 ```
+<<<<<<< HEAD
 
 ### UI/UX
 ```php
 FileUpload::make('document')
+=======
+### UI/UX
+>>>>>>> laraxot/dev
     ->downloadable()
     ->previewable()
     ->imagePreviewHeight('250')
@@ -121,6 +153,7 @@ FileUpload::make('document')
     ->loadingIndicatorPosition('right')
     ->removeUploadedFileButtonPosition('right')
     ->uploadProgressIndicatorPosition('right')
+<<<<<<< HEAD
 ```
 
 ## ⚠️ Errori Comuni
@@ -147,6 +180,16 @@ FileUpload::make('document')
 
 ✅ **FARE**:
 ```php
+=======
+## ⚠️ Errori Comuni
+### 1. Uso di prefixIcon
+❌ **NON FARE**:
+    ->prefixIcon('heroicon-o-document') // Questo metodo non esiste!
+✅ **FARE**:
+    ->buttonIcon('heroicon-o-document') // Usa buttonIcon per l'icona del pulsante
+### 2. Uso di label()
+    ->label('Documento') // Non usare label() direttamente
+>>>>>>> laraxot/dev
 // Usa il file di traduzione invece
 // lang/it/resource.php
 return [
@@ -158,33 +201,47 @@ return [
         ],
     ],
 ];
+<<<<<<< HEAD
 ```
 
 ## Best Practices
 
+=======
+## Best Practices
+>>>>>>> laraxot/dev
 1. **Sicurezza**
    - Limita sempre i tipi di file accettati
    - Imposta una dimensione massima appropriata
    - Usa directory specifiche per tipo di file
    - Implementa validazione server-side
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 2. **Performance**
    - Ottimizza le dimensioni dei file
    - Usa disk appropriati per lo storage
    - Implementa gestione errori
    - Fornisci feedback di progresso
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 3. **UX**
    - Usa icone appropriate
    - Fornisci preview quando possibile
    - Mostra messaggi di errore chiari
    - Implementa drag & drop
+<<<<<<< HEAD
 
+=======
+>>>>>>> laraxot/dev
 4. **Manutenibilità**
    - Usa costanti per configurazioni comuni
    - Centralizza la logica di upload
    - Documenta requisiti specifici
    - Segui le convenzioni di naming
+<<<<<<< HEAD
 
 ## Collegamenti
 - [Translation System](../../lang/project_docs/translation-system.md)
@@ -194,3 +251,49 @@ return [
 ## Vedi Anche
 - [Filament File Upload](https://filamentphp.com/project_docs/forms/fields/file-upload)
 - [Laravel File Storage](https://laravel.com/project_docs/filesystem)
+=======
+## Collegamenti
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+- [Laravel File Storage](https://laravel.com/docs/filesystem) 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+- [Translation System](../../Lang/project_docs/translation-system.md)
+- [Form Components](../../Patient/project_docs/filament-form-components.md)
+- [Best Practices](../../Xot/project_docs/filament-best-practices.md)
+
+## Vedi Anche
+- [Filament File Upload](https://filamentphp.com/project_docs/forms/fields/file-upload)
+<<<<<<< HEAD
+- [Laravel File Storage](https://laravel.com/project_docs/filesystem) 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+- [Laravel File Storage](https://laravel.com/project_docs/filesystem)
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+<<<<<<< HEAD
+- [Laravel File Storage](https://laravel.com/project_docs/filesystem) 
+=======
+- [Laravel File Storage](https://laravel.com/project_docs/filesystem)
+>>>>>>> laraxot/dev
+=======
+- [Laravel File Storage](https://laravel.com/project_docs/filesystem) 
+>>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev

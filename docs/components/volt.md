@@ -1,3 +1,36 @@
+<<<<<<< HEAD
+=======
+---
+title: "Componenti Volt"
+type: concept
+tags: [volt]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "volt componenti volt"
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+related:
+  - "./address-field-1.md"
+  - "./address-field.md"
+  - "./blade-component-registration.md"
+  - "./filament-usage.md"
+  - "./filament.md"
+  - "./file-upload.md"
+  - "./footer.md"
+  - "./full-calendar-1.md"
+---
+
+>>>>>>> laraxot/dev
 # Componenti Volt
 
 ## Panoramica
@@ -9,7 +42,11 @@ Nel progetto la regola di default per le componenti Volt interattive è la sinta
 - [Documentazione Volt](https://livewire.laravel.com/docs/volt)
 - [Livewire](https://livewire.laravel.com)
 - [Filament](https://filamentphp.com)
+<<<<<<< HEAD
 - [Documentazione UI](../readme.md)
+=======
+- [Documentazione UI](../README.md)
+>>>>>>> laraxot/dev
 - [Best Practices](../best-practices.md)
 - [Layout](../layouts.md)
 - [Temi](../themes.md)
