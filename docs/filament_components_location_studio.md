@@ -3,6 +3,7 @@
 ## Overview
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_iZtEz0
 Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo SaluteOra.
 =======
 <<<<<<< HEAD
@@ -38,6 +39,11 @@ Questi componenti Filament sono stati creati per supportare la selezione geograf
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo <nome progetto>corrente.
+=======
+Questi componenti Filament sono stati creati per supportare la selezione geografica e la gestione degli studi odontoiatrici nel widget `FindDoctorAndAppointmentWidget` del modulo SaluteOra.
+>>>>>>> .merge_file_WSWey8
 >>>>>>> laraxot/dev
 
 ## Componenti Implementati
@@ -51,6 +57,7 @@ Componente Filament per la selezione gerarchica di Regione → Provincia → CAP
 
 #### Caratteristiche
 <<<<<<< HEAD
+<<<<<<< .merge_file_iZtEz0
 - ✅ **Selezione Gerarchica**: Regione → Provincia → CAP  
 =======
 <<<<<<< HEAD
@@ -86,6 +93,11 @@ Componente Filament per la selezione gerarchica di Regione → Provincia → CAP
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- ✅ **Selezione Gerarchica**: Regione → Provincia → CAP
+=======
+- ✅ **Selezione Gerarchica**: Regione → Provincia → CAP  
+>>>>>>> .merge_file_WSWey8
 >>>>>>> laraxot/dev
 - ✅ **Live Updates**: I campi si aggiornano automaticamente
 - ✅ **Integrazione Geo**: Utilizza i modelli del modulo Geo
@@ -127,6 +139,7 @@ Componente Blade per la selezione di studi odontoiatrici tramite pulsanti radio-
 
 ```blade
 <<<<<<< HEAD
+<<<<<<< .merge_file_iZtEz0
 <x-ui::ui.studio-selector 
 =======
 <<<<<<< HEAD
@@ -162,6 +175,11 @@ Componente Blade per la selezione di studi odontoiatrici tramite pulsanti radio-
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<x-ui::ui.studio-selector
+=======
+<x-ui::ui.studio-selector 
+>>>>>>> .merge_file_WSWey8
 >>>>>>> laraxot/dev
     :studios="$studios"
     :selected-studio="$selectedStudioId"
@@ -195,6 +213,7 @@ protected function getStudioStepSchema(): array
     return [
         // Titolo step
 <<<<<<< HEAD
+<<<<<<< .merge_file_iZtEz0
         View::make('saluteora::filament.widgets.studio-step-header')
 =======
 <<<<<<< HEAD
@@ -230,6 +249,11 @@ protected function getStudioStepSchema(): array
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        View::make('<nome progetto>ilament.widgets.studio-step-header')
+=======
+        View::make('saluteora::filament.widgets.studio-step-header')
+>>>>>>> .merge_file_WSWey8
 >>>>>>> laraxot/dev
             ->viewData([
                 'studiosCount' => $this->getStudiosCount(),
@@ -239,6 +263,7 @@ protected function getStudioStepSchema(): array
 
         // Pulsanti selezione studio
 <<<<<<< HEAD
+<<<<<<< .merge_file_iZtEz0
         View::make('saluteora::filament.widgets.studio-selector')
 =======
 <<<<<<< HEAD
@@ -274,6 +299,11 @@ protected function getStudioStepSchema(): array
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        View::make('<nome progetto>ilament.widgets.studio-selector')
+=======
+        View::make('saluteora::filament.widgets.studio-selector')
+>>>>>>> .merge_file_WSWey8
 >>>>>>> laraxot/dev
             ->viewData([
                 'studios' => $this->getStudiosForSelectedArea(),
@@ -284,6 +314,7 @@ protected function getStudioStepSchema(): array
         // TextInput per mostrare studio selezionato
         TextInput::make('selected_studio_name')
 <<<<<<< HEAD
+<<<<<<< .merge_file_iZtEz0
             ->label(__('saluteora::widgets.find_doctor.fields.selected_studio.label'))
             ->placeholder(__('saluteora::widgets.find_doctor.fields.selected_studio.placeholder'))
 =======
@@ -326,6 +357,13 @@ protected function getStudioStepSchema(): array
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+            ->label(__('<nome progetto>::widgets.find_doctor.fields.selected_studio.label'))
+            ->placeholder(__('<nome progetto>::widgets.find_doctor.fields.selected_studio.placeholder'))
+=======
+            ->label(__('saluteora::widgets.find_doctor.fields.selected_studio.label'))
+            ->placeholder(__('saluteora::widgets.find_doctor.fields.selected_studio.placeholder'))
+>>>>>>> .merge_file_WSWey8
 >>>>>>> laraxot/dev
             ->readonly()
             ->visible(fn (): bool => !empty($this->data['selected_studio']))
@@ -434,6 +472,7 @@ public function selectStudio(int $studioId): void
 - Validazione cascata
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_iZtEz0
 ### 2. **Step Selezione Studio**  
 =======
 <<<<<<< HEAD
@@ -469,6 +508,11 @@ public function selectStudio(int $studioId): void
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+### 2. **Step Selezione Studio**
+=======
+### 2. **Step Selezione Studio**  
+>>>>>>> .merge_file_WSWey8
 >>>>>>> laraxot/dev
 - Visualizzazione pulsanti per ogni studio nell'area
 - Click su pulsante = selezione studio
@@ -659,6 +703,7 @@ class FindDoctorWidgetStep2Test extends TestCase
 ---
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_iZtEz0
 =======
 <<<<<<< HEAD
 =======
@@ -676,10 +721,13 @@ class FindDoctorWidgetStep2Test extends TestCase
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_WSWey8
 **Creato**: 26 Giugno 2025
 **Versione**: 2.0 - Semplificato
 **Stato**: Implementation Ready
 **Approccio**: Pulsanti + TextInput (semplice e diretto)
+<<<<<<< .merge_file_iZtEz0
 <<<<<<< HEAD
 =======
 =======
@@ -694,6 +742,10 @@ class FindDoctorWidgetStep2Test extends TestCase
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_WSWey8
 **Creato**: 26 Giugno 2025  
 **Versione**: 2.0 - Semplificato  
 **Stato**: Implementation Ready  

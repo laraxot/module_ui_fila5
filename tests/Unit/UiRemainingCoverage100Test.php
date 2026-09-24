@@ -26,6 +26,7 @@ use Modules\UI\View\Components\Std;
 use Modules\UI\View\Components\Svg;
 use Modules\Xot\Actions\GetViewAction;
 use PHPUnit\Framework\Assert;
+<<<<<<< .merge_file_KDFoZT
 <<<<<<< HEAD
 use ReflectionClass;
 
@@ -35,6 +36,10 @@ use Modules\User\Models\User;
 
 use function Safe\mkdir;
 >>>>>>> laraxot/dev
+=======
+
+use function Safe\mkdir;
+>>>>>>> .merge_file_Jl7nrE
 
 uses(TestCase::class)->group('no-ui-db');
 
@@ -92,6 +97,7 @@ describe('UI remaining 100 — view e actions', function (): void {
         foreach ([
             (new Std('tpl'))->render(),
             (new Svg('tpl'))->render(),
+<<<<<<< .merge_file_KDFoZT
 <<<<<<< HEAD
             (new Navbar)->render(),
             (new WithSidebar)->render(),
@@ -99,6 +105,10 @@ describe('UI remaining 100 — view e actions', function (): void {
             (new Navbar())->render(),
             (new WithSidebar())->render(),
 >>>>>>> laraxot/dev
+=======
+            (new Navbar())->render(),
+            (new WithSidebar())->render(),
+>>>>>>> .merge_file_Jl7nrE
         ] as $view) {
             Assert::assertInstanceOf(View::class, $view);
             Assert::assertSame('ui::empty', $view->name());
@@ -113,11 +123,15 @@ describe('UI remaining 100 — altri componenti', function (): void {
         File::put($tmp.'/sample.svg', '<svg></svg>');
 
         $factory = App::make(IconFactory::class);
+<<<<<<< .merge_file_KDFoZT
 <<<<<<< HEAD
         $prop = (new ReflectionClass($factory))->getProperty('sets');
 =======
         $prop = (new \ReflectionClass($factory))->getProperty('sets');
 >>>>>>> laraxot/dev
+=======
+        $prop = (new \ReflectionClass($factory))->getProperty('sets');
+>>>>>>> .merge_file_Jl7nrE
         $prop->setAccessible(true);
         $prop->setValue($factory, [
             'test' => ['paths' => [$tmp], 'prefix' => 't'],
@@ -130,11 +144,15 @@ describe('UI remaining 100 — altri componenti', function (): void {
     });
 
     test('GetUserDataAction avatar da profile_photo_path', function (): void {
+<<<<<<< .merge_file_KDFoZT
 <<<<<<< HEAD
         $user = new UiCoverageAuthUser;
 =======
         $user = new UiCoverageAuthUser();
 >>>>>>> laraxot/dev
+=======
+        $user = new UiCoverageAuthUser();
+>>>>>>> .merge_file_Jl7nrE
         $user->forceFill([
             'id' => 5,
             'name' => 'Path User',
@@ -151,6 +169,7 @@ describe('UI remaining 100 — altri componenti', function (): void {
 
 function uiRemainingSetProperty(object $target, string $name, mixed $value): void
 {
+<<<<<<< .merge_file_KDFoZT
 <<<<<<< HEAD
     $ref = new ReflectionClass($target);
 
@@ -160,6 +179,11 @@ function uiRemainingSetProperty(object $target, string $name, mixed $value): voi
 
     while (false !== $ref) {
 >>>>>>> laraxot/dev
+=======
+    $ref = new \ReflectionClass($target);
+
+    while (false !== $ref) {
+>>>>>>> .merge_file_Jl7nrE
         if ($ref->hasProperty($name)) {
             $prop = $ref->getProperty($name);
             $prop->setAccessible(true);
@@ -176,6 +200,7 @@ function uiRemainingSetProperty(object $target, string $name, mixed $value): voi
 
 function uiRemainingGetProperty(object $target, string $name): mixed
 {
+<<<<<<< .merge_file_KDFoZT
 <<<<<<< HEAD
     $ref = new ReflectionClass($target);
 
@@ -185,6 +210,11 @@ function uiRemainingGetProperty(object $target, string $name): mixed
 
     while (false !== $ref) {
 >>>>>>> laraxot/dev
+=======
+    $ref = new \ReflectionClass($target);
+
+    while (false !== $ref) {
+>>>>>>> .merge_file_Jl7nrE
         if ($ref->hasProperty($name)) {
             $prop = $ref->getProperty($name);
             $prop->setAccessible(true);

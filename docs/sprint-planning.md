@@ -25,6 +25,7 @@ Complete the standardization of UI documentation and fix reported accessibility 
 | Standardize UI Docs | 1 | @Gemini | ✅ Done |
 | Modal Accessibility Fix | 2 | @CoreTeam | 📥 Todo |
 <<<<<<< HEAD
+<<<<<<< .merge_file_jH0o5O
 =======
 <<<<<<< HEAD
 =======
@@ -41,6 +42,8 @@ Complete the standardization of UI documentation and fix reported accessibility 
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ORlY8d
 # UI Module - Sprint Planning
 
 **Module:** UI  
@@ -110,6 +113,7 @@ Implement core design system with essential UI components.
 
 ---
 
+<<<<<<< .merge_file_jH0o5O
 <<<<<<< HEAD
 *Last Updated: March 12, 2026*
 =======
@@ -135,6 +139,10 @@ Implement core design system with essential UI components.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+*Last Updated: March 12, 2026*
+=======
+>>>>>>> .merge_file_ORlY8d
 >>>>>>> laraxot/dev
 
 ## ✅ Definition of Done

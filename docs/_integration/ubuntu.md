@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_AbwGch
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_l5hsO1
 ---
 title: "ubuntu"
 type: concept
@@ -12,6 +15,7 @@ tags: [ubuntu]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "ubuntu ubuntu"
+<<<<<<< .merge_file_AbwGch
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -24,6 +28,12 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_l5hsO1
 related:
   - "./api.md"
   - "./blocks.md"
@@ -35,11 +45,16 @@ related:
   - "./custom-firm-fields.md"
 ---
 
+<<<<<<< .merge_file_AbwGch
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_l5hsO1
 # ubuntu
 
 <!-- Contenuto migrato da _docs/ubuntu.txt -->

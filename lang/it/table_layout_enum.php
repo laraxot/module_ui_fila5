@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_kBobsZ
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -12,7 +13,28 @@ declare(strict_types=1);
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/it/table_layout_enum.php
+=======
+>>>>>>> .merge_file_wyyyJH
 return [
+    'values' => [
+        'list' => [
+            'label' => 'Lista',
+            'color' => 'primary',
+            'icon' => 'heroicon-o-list-bullet',
+            'description' => 'Layout a lista tradizionale con righe di tabella',
+            'tooltip' => 'Visualizza i dati in formato tabella strutturata',
+            'helper_text' => 'Ideale per visualizzare molti dati in modo organizzato',
+        ],
+        'grid' => [
+            'label' => 'Griglia',
+            'color' => 'secondary',
+            'icon' => 'heroicon-o-squares-2x2',
+            'description' => 'Layout a griglia responsive con card',
+            'tooltip' => 'Visualizza i dati in formato card responsive',
+            'helper_text' => 'Ideale per visualizzare pochi dati con focus visivo',
+        ],
+    ],
+    // Chiavi flat lette da TableLayoutEnum::getTooltip()/getHelperText() ("{value}.tooltip").
     'list' => [
         'label' => 'Lista',
         'color' => 'primary',
@@ -67,6 +89,7 @@ return [
         ],
         'label' => 'Table Layout Enum',
         'sort' => 1,
+<<<<<<< .merge_file_kBobsZ
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
 =======
@@ -80,6 +103,9 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> .merge_file_wyyyJH
     ],
     'fields' => [
         'id' => [

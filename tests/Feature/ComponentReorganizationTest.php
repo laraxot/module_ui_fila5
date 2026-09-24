@@ -21,6 +21,7 @@ use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
+<<<<<<< .merge_file_AaRYrG
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -39,6 +40,8 @@ uses(TestCase::class);
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Kp9H6h
 
 function skipUnlessPubThemeViews(): void
 {

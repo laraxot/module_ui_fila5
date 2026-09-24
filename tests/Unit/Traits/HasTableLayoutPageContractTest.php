@@ -20,10 +20,9 @@ test('exposes table layout page trait for cross-module consumers', function (): 
 >>>>>>> laraxot/dev
     $page = new class {
         use HasTableLayoutPage;
-
-        public TableLayoutEnum $layoutView = TableLayoutEnum::GRID;
     };
 
+<<<<<<< .merge_file_GNy8c1
 <<<<<<< HEAD
 =======
 =======
@@ -40,6 +39,10 @@ test('exposes table layout page trait for cross-module consumers', function (): 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    $page->applyLayoutView(TableLayoutEnum::GRID);
+
+>>>>>>> .merge_file_2bq0Tb
     Assert::assertTrue(HasTableLayoutPage::isLayoutCapable($page));
     Assert::assertSame(TableLayoutEnum::GRID, HasTableLayoutPage::readLayoutFrom($page));
 

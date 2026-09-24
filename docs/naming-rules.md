@@ -90,6 +90,7 @@ I nomi specifici dell'applicazione devono apparire solo:
 
 ## Collegamenti Bidirezionali
 <<<<<<< HEAD
+<<<<<<< .merge_file_bgkTdg
 - [README](readme.md)
 =======
 <<<<<<< HEAD
@@ -101,12 +102,18 @@ I nomi specifici dell'applicazione devono apparire solo:
 - [README](README.md)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- [README](README.md)
+=======
+- [README](readme.md)
+>>>>>>> .merge_file_KimdIS
 >>>>>>> laraxot/dev
 - [Design System](design-system.md)
 - [Componenti](components.md)
 
 ## Vedi Anche
 <<<<<<< HEAD
+<<<<<<< .merge_file_bgkTdg
 - [Documentazione Principale](../../../../docs/readme.md)
 - [Standard di Codice](../../../../docs/standards/coding-standards.md)
 =======
@@ -130,6 +137,13 @@ I nomi specifici dell'applicazione devono apparire solo:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- [Documentazione Principale](../../../docs/README.md)
+- [Standard di Codice](../../../docs/standards/coding-standards.md)
+=======
+- [Documentazione Principale](../../../../docs/readme.md)
+- [Standard di Codice](../../../../docs/standards/coding-standards.md)
+>>>>>>> .merge_file_KimdIS
 >>>>>>> laraxot/dev
 # Regole di Naming nei Moduli
 
@@ -181,19 +195,31 @@ I nomi specifici dell'applicazione devono apparire solo:
 
 ## Collegamenti Bidirezionali
 <<<<<<< HEAD
+<<<<<<< .merge_file_bgkTdg
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+- [README](README.md)
+=======
+>>>>>>> .merge_file_KimdIS
 - [README](readme.md)
+>>>>>>> laraxot/dev
 - [Design System](design-system.md)
 - [Componenti](components.md)
 
 ## Vedi Anche
+<<<<<<< HEAD
+- [Documentazione Principale](../../../project_docs/README.md)
+- [Standard di Codice](../../../project_docs/standards/coding-standards.md)
+- [Best Practices](../../../project_docs/standards/best-practices.md)
+=======
 - [Documentazione Principale](../../../../docs/project/readme.md)
 - [Standard di Codice](../../../../docs/project/standards/coding-standards.md)
 - [Best Practices](../../../../docs/project/standards/best-practices.md)
+<<<<<<< .merge_file_bgkTdg
 <<<<<<< HEAD
 =======
 =======
@@ -249,4 +275,6 @@ I nomi specifici dell'applicazione devono apparire solo:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_KimdIS
 >>>>>>> laraxot/dev

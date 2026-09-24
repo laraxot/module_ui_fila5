@@ -1,9 +1,38 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_hcJM4E
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+---
+title: "carousel_slider"
+type: concept
+tags: [carousel, slider]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "carousel-slider carousel_slider"
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
+  - "./api.md"
+  - "./blocks.md"
+  - "./carousel-slider-1.md"
+  - "./chunk.md"
+  - "./ci.md"
+  - "./custom-firm-fields-1.md"
+  - "./custom-firm-fields.md"
+  - "./custom-theme-1.md"
+---
+
+# carousel_slider
+<!-- Contenuto migrato da _docs/carousel_slider.txt -->
+https://www.embla-carousel.com/examples/predefined/
+https://tw-elements.com/docs/standard/components/carousel/
+https://keen-slider.io/examples
+=======
+>>>>>>> .merge_file_lzXGnj
 # carousel_slider
 
 <!-- Contenuto migrato da _docs/carousel_slider.txt -->
@@ -158,6 +187,7 @@ https://tw-elements.com/docs/standard/components/carousel/
 
 https://keen-slider.io/examples
 
+<<<<<<< .merge_file_hcJM4E
 <<<<<<< HEAD
 https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
 =======
@@ -184,6 +214,9 @@ https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider
 https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
 >>>>>>> laraxot/dev
 =======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_lzXGnj
 https://thefullstack.network/u/MananTank/project/blaze-slider-the-fastest-slider-library
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 <<<<<<< HEAD

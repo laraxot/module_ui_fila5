@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Actions\Table;
 
+<<<<<<< .merge_file_jLI7gn
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -11,9 +12,14 @@ namespace Modules\UI\Filament\Actions\Table;
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 use Filament\Actions\Action;
+=======
+>>>>>>> .merge_file_GrNmvm
 use Filament\Resources\Pages\ListRecords;
-use Modules\UI\Contracts\HasTableLayout;
+use Modules\UI\Enums\TableLayoutEnum;
+use Modules\UI\Filament\Traits\HasTableLayoutPage;
+use Modules\Xot\Filament\Actions\XotBaseAction;
 
+<<<<<<< .merge_file_jLI7gn
 final class TableLayoutToggleTableAction extends Action implements HasTableLayout
 <<<<<<< HEAD
 =======
@@ -30,6 +36,9 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+final class TableLayoutToggleTableAction extends XotBaseAction implements HasTableLayout
+>>>>>>> .merge_file_GrNmvm
 {
     use TableLayoutTrait;
 
@@ -37,6 +46,7 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
     {
         parent::setUp();
 
+<<<<<<< .merge_file_jLI7gn
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -53,15 +63,20 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_GrNmvm
         $this->iconButton()
             ->label('')
             ->tooltip(fn (): string => $this->resolveTargetLayout()->getLabel())
             ->icon(fn (): string => $this->resolveTargetLayout()->getIcon())
+<<<<<<< .merge_file_jLI7gn
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_GrNmvm
             ->action($this->toggleLayout(...));
     }
 
@@ -70,6 +85,7 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
         return 'table_layout_toggle';
     }
 
+<<<<<<< .merge_file_jLI7gn
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -77,16 +93,26 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
     protected function toggleLayout(?ListRecords $livewire): void
+=======
+    protected function toggleLayout(): void
+>>>>>>> .merge_file_GrNmvm
     {
-        $currentLayout = $this->getCurrentLayout();
-        $newLayout = $currentLayout->toggle();
+        $livewire = $this->getLivewire();
+
+        if (! is_object($livewire) || ! HasTableLayoutPage::isLayoutCapable($livewire)) {
+            return;
+        }
+
+        $newLayout = $this->resolveLayout($livewire)->toggle();
 
         $this->setTableLayout($newLayout);
+        HasTableLayoutPage::applyLayoutTo($livewire, $newLayout);
 
         if ($livewire instanceof ListRecords) {
-            $livewire->dispatch('$refresh');
+            $livewire->resetTable();
         }
     }
+<<<<<<< .merge_file_jLI7gn
 <<<<<<< HEAD
 =======
 =======
@@ -108,6 +134,8 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
             $livewire->resetTable();
         }
     }
+=======
+>>>>>>> .merge_file_GrNmvm
 
     private function resolveTargetLayout(?object $livewire = null): TableLayoutEnum
     {
@@ -136,9 +164,12 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
 
         return $this->getCurrentLayout();
     }
+<<<<<<< .merge_file_jLI7gn
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_GrNmvm
 }

@@ -35,7 +35,15 @@ tags: [structure, architecture, module]
 ├── ON-DEMAND-PATTERN.md          # 🌟 QUESTO FILE — Pattern on-demand
 ├── QMD-SETUP.md                  # Configurazione QMD
 ├── PERFORMANCE-OPTIMIZATION.md    # Metriche e best practice
+<<<<<<< .merge_file_7vOCMA
 ├── ARCHITECTURE.md               # (opzionale) Architettura modulo
+=======
+<<<<<<< HEAD
+├── architecture.md                # (opzionale) Architettura modulo
+=======
+├── ARCHITECTURE.md               # (opzionale) Architettura modulo
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_zaiyXj
 └── README.md                     # (opzionale) Overview modulo
 \`\`\`
 

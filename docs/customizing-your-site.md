@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< .merge_file_zy8dGv
 =======
 <<<<<<< HEAD
 =======
@@ -21,11 +22,14 @@
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Aft2AC
 module: theme
 topic: customizing_your_site
 canonical: ../../../Themes/docs/shared-components/customizing-your-site_1.md
 ---
 
+<<<<<<< .merge_file_zy8dGv
 <<<<<<< HEAD
 See canonical documentation: ../../../Themes/docs/shared-components/customizing-your-site_1.md
 =======
@@ -44,6 +48,10 @@ See canonical documentation: ../../../Themes/docs/shared-components/customizing-
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+See canonical documentation: ../../../Themes/docs/shared-components/customizing-your-site_1.md
+=======
+>>>>>>> .merge_file_Aft2AC
 >>>>>>> laraxot/dev
 title: Customizing Your Site
 description: Customizing your Jigsaw docs site
@@ -52,11 +60,33 @@ section: content
 ---
 # Customizing Your Site {#customizing}
 <<<<<<< HEAD
+<<<<<<< .merge_file_zy8dGv
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+## Styles
+This starter template comes pre-loaded with [Tailwind CSS](https://tailwindcss.com), a utility CSS framework that allows you to customize and build complex designs without touching a line of CSS. There are also a few base Sass files in the `/source/_assets/sass` folder, set up with the expectation that you can add any custom CSS into `_documentation.scss`.
+> You can re-work the architecture of the Sass includes any way you’d like; just make sure to keep the `@tailwind` references in your final files.
+```scss
+// source/_assets/sass/main.scss
+@tailwind preflight;
+@tailwind components;
+// Code syntax highlighting,
+// powered by https://highlightjs.org
+@import '~highlight.js/styles/a11y-light.css';
+@import 'base';
+@import 'navigation';
+@import 'documentation';
+@tailwind utilities;
+```
+## Typography Styles {#customizing-typography}
+Here’s a quick preview of what some of the basic type styles will look like in this starter template:
+<div markdown="1" class="example pt-6">
+=======
+>>>>>>> .merge_file_Aft2AC
 
 ## Styles
 
@@ -89,6 +119,7 @@ Here’s a quick preview of what some of the basic type styles will look like in
 
 <div markdown="1" class="example pt-6">
 
+<<<<<<< .merge_file_zy8dGv
 <<<<<<< HEAD
 =======
 =======
@@ -115,6 +146,8 @@ Here’s a quick preview of what some of the basic type styles will look like in
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Aft2AC
 >>>>>>> laraxot/dev
 # h1 Heading
 ## h2 Heading
@@ -122,11 +155,25 @@ Here’s a quick preview of what some of the basic type styles will look like in
 #### h4 Heading
 ##### h5 Heading
 <<<<<<< HEAD
+<<<<<<< .merge_file_zy8dGv
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+###### h6 Heading
+The quick brown fox jumps over the lazy dog
+<s>The quick brown fox jumps over the lazy dog</s>
+<u>The quick brown fox jumps over the lazy dog</u>
+_The quick brown fox jumps over the lazy dog_
+**The quick brown fox jumps over the lazy dog**
+`The quick brown fox jumps over the lazy dog`
+<small>The quick brown fox jumps over the lazy dog</small>
+> The quick brown fox jumps over the lazy dog
+[The quick brown fox jumps over the lazy dog](#)
+=======
+>>>>>>> .merge_file_Aft2AC
 
 ## h2 Heading
 
@@ -156,6 +203,7 @@ _The quick brown fox jumps over the lazy dog_
 
 [The quick brown fox jumps over the lazy dog](#)
 
+<<<<<<< .merge_file_zy8dGv
 <<<<<<< HEAD
 =======
 =======
@@ -174,6 +222,8 @@ _The quick brown fox jumps over the lazy dog_
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Aft2AC
 >>>>>>> laraxot/dev
 ```php
 class Foo extends bar
@@ -184,11 +234,31 @@ class Foo extends bar
     }
 }
 <<<<<<< HEAD
+<<<<<<< .merge_file_zy8dGv
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+</div>
+### Versione HEAD
+## Collegamenti tra versioni di customizing-your-site.md
+* [customizing-your-site.md](../../../Gdpr/project_docs/customizing-your-site.md)
+* [customizing-your-site.md](../../../Xot/project_docs/customizing-your-site.md)
+* [customizing-your-site.md](../../../UI/project_docs/customizing-your-site.md)
+* [customizing-your-site.md](../../../Tenant/project_docs/it/customizing-your-site.md)
+* [customizing-your-site.md](../../../Cms/project_docs/customizing-your-site.md)
+* [customizing-your-site.md](../../../Gdpr/docs/customizing-your-site.md)
+* [customizing-your-site.md](../../../Xot/docs/customizing-your-site.md)
+* [customizing-your-site.md](../../../UI/docs/customizing-your-site.md)
+* [customizing-your-site.md](../../../Tenant/docs/it/customizing-your-site.md)
+* [customizing-your-site.md](../../../Cms/docs/customizing-your-site.md)
+### Versione Incoming
+
+```
+=======
+>>>>>>> .merge_file_Aft2AC
 ```
 
 </div>
@@ -351,6 +421,7 @@ class Foo extends bar
 ### Versione Incoming
 
 ---
+<<<<<<< .merge_file_zy8dGv
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -377,4 +448,6 @@ See canonical documentation: ../../../Themes/docs/shared-components/customizing-
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Aft2AC
 >>>>>>> laraxot/dev

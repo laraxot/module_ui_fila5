@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_u93Eg4
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -22,10 +23,11 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0MGWIV
 <?php
 
 declare(strict_types=1);
-
 ?>
 {{--
 /**

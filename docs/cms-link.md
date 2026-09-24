@@ -11,15 +11,24 @@ Secondo le regole di organizzazione della documentazione:
 ## Collegamenti Principali
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_OQFKQc
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+- [Documentazione Frontend](../../Cms/docs/frontoffice.md) - Documentazione completa sul frontend
+- [Componenti Blade](../../Cms/docs/components.md) - Documentazione sui componenti Blade nel frontend
+- [Blocchi di Contenuto](../../Cms/docs/blocks.md) - Documentazione sui blocchi di contenuto
+- [Filament Integration](../../Cms/docs/filament.md) - Integrazione con Filament
+=======
+>>>>>>> .merge_file_KLGgDn
 - [Documentazione Frontend](../../cms/docs/frontoffice.md) - Documentazione completa sul frontend
 - [Componenti Blade](../../cms/docs/components.md) - Documentazione sui componenti Blade nel frontend
 - [Blocchi di Contenuto](../../cms/docs/blocks.md) - Documentazione sui blocchi di contenuto
 - [Filament Integration](../../cms/docs/filament.md) - Integrazione con Filament
+<<<<<<< .merge_file_OQFKQc
 <<<<<<< HEAD
 =======
 =======
@@ -66,6 +75,8 @@ Secondo le regole di organizzazione della documentazione:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_KLGgDn
 >>>>>>> laraxot/dev
 
 ## Utilizzo dei Componenti UI nel Frontend
@@ -79,6 +90,7 @@ I componenti UI definiti in questo modulo vengono utilizzati nel frontend attrav
 ## Collegamento Bidirezionale
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_OQFKQc
 Questo documento è collegato bidirezionalmente con [ui-link.md](../../cms/docs/ui-link.md) nel modulo Cms.
 =======
 <<<<<<< HEAD
@@ -90,17 +102,30 @@ Questo documento è collegato bidirezionalmente con [ui-link.md](../../cms/docs/
 Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/docs/ui-link.md) nel modulo Cms.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/docs/ui-link.md) nel modulo Cms.
+=======
+Questo documento è collegato bidirezionalmente con [ui-link.md](../../cms/docs/ui-link.md) nel modulo Cms.
+>>>>>>> .merge_file_KLGgDn
 >>>>>>> laraxot/dev
 
 > Aggiorna entrambi i riferimenti se modifichi la struttura dei componenti UI o aggiungi nuovi componenti utilizzati nel frontend.
 
 ## Collegamenti tra versioni di cms-link.md
 <<<<<<< HEAD
+<<<<<<< .merge_file_OQFKQc
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+* [cms-link.md](../../../Xot/docs/cms-link.md)
+* [cms-link.md](../../../User/docs/cms-link.md)
+* [cms-link.md](../../../UI/docs/cms-link.md)
+* [cms-link.md](../../../Lang/docs/cms-link.md)
+=======
+>>>>>>> .merge_file_KLGgDn
 * [cms-link.md](../../../xot/docs/cms-link.md)
 * [cms-link.md](../../../user/docs/cms-link.md)
 * [cms-link.md](../../../ui/docs/cms-link.md)
@@ -223,6 +248,7 @@ Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/proje
 * [cms-link.md](../../../user/project_docs/cms-link.md)
 * [cms-link.md](../../../ui/project_docs/cms-link.md)
 * [cms-link.md](../../../lang/project_docs/cms-link.md)
+<<<<<<< .merge_file_OQFKQc
 <<<<<<< HEAD
 =======
 =======
@@ -279,4 +305,6 @@ Questo documento è collegato bidirezionalmente con [ui-link.md](../../Cms/proje
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_KLGgDn
 >>>>>>> laraxot/dev

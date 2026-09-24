@@ -23,6 +23,7 @@ Identify usability issues in complex Filament forms and tables.
 - Users struggle with very long forms without clear sections or tabs.
 - Mobile responsiveness is critical for field workers.
 <<<<<<< HEAD
+<<<<<<< .merge_file_WqoqgJ
 =======
 <<<<<<< HEAD
 =======
@@ -39,6 +40,8 @@ Identify usability issues in complex Filament forms and tables.
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Q8BQjU
 # UI Module - User Research
 
 **Module:** UI  
@@ -131,6 +134,7 @@ Some customization capability required.
 
 ---
 
+<<<<<<< .merge_file_WqoqgJ
 <<<<<<< HEAD
 *Last Updated: March 12, 2026*
 =======
@@ -157,6 +161,10 @@ Some customization capability required.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+*Last Updated: March 12, 2026*
+=======
+>>>>>>> .merge_file_Q8BQjU
 >>>>>>> laraxot/dev
 
 ## ✅ Actionable Insights / Next Steps

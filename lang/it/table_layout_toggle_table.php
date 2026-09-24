@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_KZM3MK
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -18,6 +19,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_2qx8Fa
 return [
     'actions' => [
         'toggle' => [
@@ -54,6 +57,7 @@ return [
         ],
         'label' => 'Table Layout Toggle Table',
         'sort' => 1,
+<<<<<<< .merge_file_KZM3MK
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
 =======
@@ -67,5 +71,8 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> .merge_file_2qx8Fa
     ],
 ];

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_eAIDwC
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -34,10 +35,11 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_idvmGs
 <?php
 
 declare(strict_types=1);
-
 ?>
 @props(['title' => 'Modifica Profilo'])
 

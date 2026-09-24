@@ -1,9 +1,16 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_2foyPM
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+# Changelog
+
+Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.
+=======
+>>>>>>> .merge_file_65l4Zj
 ---
 module: theme
 topic: changelog
@@ -11,6 +18,7 @@ canonical: ../../../Themes/docs/shared-components/CHANGELOG.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/CHANGELOG.md
+<<<<<<< .merge_file_2foyPM
 <<<<<<< HEAD
 =======
 =======
@@ -62,4 +70,6 @@ Tutte le variazioni importanti di UI saranno generate automaticamente da semanti
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_65l4Zj
 >>>>>>> laraxot/dev

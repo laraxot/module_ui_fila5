@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_168bB9
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -18,6 +19,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_gBJgDR
 return [
     'confirm' => 'Conferma',
     'cancel' => 'Annulla',
@@ -40,6 +43,7 @@ return [
         ],
         'label' => 'Actions',
         'sort' => 1,
+<<<<<<< .merge_file_168bB9
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
 =======
@@ -53,6 +57,9 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> .merge_file_gBJgDR
     ],
     'fields' => [
         'id' => [

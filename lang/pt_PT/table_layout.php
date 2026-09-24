@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_7BdUDy
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -18,6 +19,9 @@ return [
 =======
 >>>>>>> laraxot/dev
 return [
+=======
+return [
+>>>>>>> .merge_file_1VmIAO
     'values' => [
         'list' => [
             'label' => 'Lista',
@@ -32,11 +36,14 @@ return [
             'description' => 'Grelha',
         ],
     ],
+<<<<<<< .merge_file_7BdUDy
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1VmIAO
     'actions' => [
         'toggle' => [
             'label' => 'Alternar layout',

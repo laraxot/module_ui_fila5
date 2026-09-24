@@ -1,6 +1,7 @@
 # 🔧 PSR-4 Fix Implementation Plan - UI Module
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_763mx7
 =======
 <<<<<<< HEAD
 **Data**: Dicembre 15, 2025
@@ -10,6 +11,10 @@
 **Data**: Dicembre 15, 2025
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+**Data**: Dicembre 15, 2025
+=======
+>>>>>>> .merge_file_kFplSF
 >>>>>>> laraxot/dev
 **Modulo**: UI
 **Tipo Fix**: Namespace correction (Modules\Notify → Modules\UI)
@@ -40,6 +45,7 @@ Tutti in `Modules/UI/app/Filament/Forms/Components/`:
 
 <<<<<<< HEAD
 **TechPlanner/app/Filament/Resources/ClientResource.php**:
+<<<<<<< .merge_file_763mx7
 =======
 <<<<<<< HEAD
 **TechPlanner/app/Filament/Resources/ClientResource.php**:
@@ -74,6 +80,11 @@ Tutti in `Modules/UI/app/Filament/Forms/Components/`:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+**modulo operativo/app/Filament/Resources/ClientResource.php**:
+=======
+>>>>>>> .merge_file_kFplSF
 >>>>>>> laraxot/dev
 ```php
 Line 13: use Modules\Notify\Filament\Forms\Components\ContactSection;

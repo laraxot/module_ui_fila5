@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_arbVVk
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -35,10 +36,11 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_GREpfw
 <?php
 
 declare(strict_types=1);
-
 ?>
 <div class="bg-white">
     {{--

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_QdVD6G
 <<<<<<< HEAD
 > **[2026-07-08] SUPERATO** — `LocationSelector.php` è stato rimosso definitivamente (0 consumer in blade/route/test, importava `Modules\Geo\Models\Comune` in violazione della regola di decoupling documentata in [block-rendering-and-optional-services](wiki/concepts/block-rendering-and-optional-services.md)). I conflitti Git ricorrenti documentati sotto erano il sintomo: agent diversi continuavano ad aggiungere/rimuovere lo stesso file morto. Vedi [wiki/log.md](wiki/log.md) del 2026-07-08 per i dettagli. Il contenuto storico sotto resta come riferimento del perché il file esisteva.
 
@@ -11,6 +12,8 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_TkLQGl
 # Risoluzione Conflitto LocationSelector.php
 
 ## Problema Identificato
@@ -126,12 +129,19 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 - [filament-components-location-studio.md](filament-components-location-studio.md)
 - [components.md](components.md)
 <<<<<<< HEAD
+<<<<<<< .merge_file_QdVD6G
 - [Modules/UI/docs/](../../docs/)
 
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+- [Modules/UI/docs/](../docs/)
+
+*Ultimo aggiornamento: 29 luglio 2025*
+=======
+>>>>>>> .merge_file_TkLQGl
 - [Modules/UI/docs/](../../docs/)
 
 =======
@@ -243,6 +253,7 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 - [Modules/UI/project_docs/](../project_docs/)
 - [Modules/UI/project_docs/](../project_docs/)
 - [Modules/UI/project_docs/](../project_docs/)
+<<<<<<< .merge_file_QdVD6G
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -271,4 +282,7 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_TkLQGl
 >>>>>>> laraxot/dev

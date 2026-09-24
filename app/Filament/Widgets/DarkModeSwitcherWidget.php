@@ -26,6 +26,8 @@ final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
 
     public bool $darkMode = false;
 
+    /** @phpstan-var view-string */
+    /** @phpstan-ignore property.defaultValue */
     protected string $view = 'ui::filament.widgets.dark-mode-switcher';
 
     public function mount(): void
@@ -54,6 +56,7 @@ final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
         return [];
     }
 
+<<<<<<< .merge_file_XHDFt3
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -61,6 +64,8 @@ final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_4zuboB
     /**
      * Disabilitabile via config per temi/test (default: visibile).
      */
@@ -69,11 +74,14 @@ final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
         return (bool) config('ui.dark_mode_switcher.enabled', true);
     }
 
+<<<<<<< .merge_file_XHDFt3
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_4zuboB
     public function render(): View
     {
         return view($this->view, [

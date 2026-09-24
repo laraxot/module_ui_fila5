@@ -18,6 +18,7 @@ trait EnsuresUiDatabaseSchema
         }
 
         $schema = Schema::connection('xot');
+<<<<<<< .merge_file_AYwb9c
 <<<<<<< HEAD
 // Laraxot module file — see docs/wiki for domain contract.
 // Laraxot module file — see docs/wiki for domain contract.
@@ -37,6 +38,8 @@ trait EnsuresUiDatabaseSchema
         // Laraxot module file — see docs/wiki for domain contract.
         // Laraxot module file — see docs/wiki for domain contract.
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_GIHi4F
 
         if (! $schema->hasTable('themes')) {
             $schema->create('themes', function (Blueprint $table): void {

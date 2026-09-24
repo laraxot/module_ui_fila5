@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_qy058x
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ZAVJWf
 ---
 title: "Task: Refactoring Componenti Complessi - UI"
 type: concept
@@ -12,20 +15,28 @@ tags: [refactor, complex, components]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "refactor-complex-components task: refactoring componenti complessi - ui"
+<<<<<<< .merge_file_qy058x
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 <<<<<<< HEAD
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> .merge_file_ZAVJWf
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+<<<<<<< .merge_file_qy058x
 =======
 =======
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_ZAVJWf
 related:
   - "./001-design-system-components.md"
   - "./cleanup-redundant-files.md"
@@ -36,11 +47,16 @@ related:
   - "./ui-filament-v5.md"
 ---
 
+<<<<<<< .merge_file_qy058x
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ZAVJWf
 # Task: Refactoring Componenti Complessi - UI
 
 **Modulo**: UI  

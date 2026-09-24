@@ -16,6 +16,7 @@ use Illuminate\Cookie\Middleware\EncryptCookies;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 use Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull;
 use Illuminate\Foundation\Http\Middleware\HandlePrecognitiveRequests;
+<<<<<<< .merge_file_92fbwG
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -39,6 +40,12 @@ use Illuminate\Foundation\Http\Middleware\ValidatePostSize;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+use Illuminate\Foundation\Http\Middleware\PreventRequestForgery;
+use Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance;
+use Illuminate\Foundation\Http\Middleware\TrimStrings;
+use Illuminate\Foundation\Http\Middleware\ValidatePostSize;
+>>>>>>> .merge_file_x6vhVk
 use Illuminate\Http\Middleware\HandleCors;
 use Illuminate\Http\Middleware\SetCacheHeaders;
 use Illuminate\Routing\Middleware\SubstituteBindings;
@@ -79,6 +86,7 @@ class Kernel extends HttpKernel
             AddQueuedCookiesToResponse::class,
             StartSession::class,
             ShareErrorsFromSession::class,
+<<<<<<< .merge_file_92fbwG
 <<<<<<< HEAD
             VerifyCsrfToken::class,
 =======
@@ -92,6 +100,9 @@ class Kernel extends HttpKernel
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+            PreventRequestForgery::class,
+>>>>>>> .merge_file_x6vhVk
             SubstituteBindings::class,
             SetLocale::class,
         ],

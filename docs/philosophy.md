@@ -1,6 +1,7 @@
 # UI Module: Philosophy, Purpose, and Design Principles
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_3nNrU3
 =======
 <<<<<<< HEAD
 **Date:** December 23, 2025
@@ -10,6 +11,10 @@
 **Date:** December 23, 2025
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+**Date:** December 23, 2025
+=======
+>>>>>>> .merge_file_XbiTOc
 >>>>>>> laraxot/dev
 
 ## 🎯 Purpose and Core Responsibilities
@@ -29,6 +34,7 @@ The `UI` module, while concise in its service provider, embodies several key des
 *   **Separation of Concerns for the Presentation Layer:** It strictly enforces the principle of separating UI-related concerns from business logic. This makes the UI layer more independent, easier to manage, test, and evolve without impacting the application's core functionalities.
 *   **Architectural Conformity and Consistency (`Xot` Alignment):** The module's adherence to `XotBaseServiceProvider` signifies its commitment to the project's overarching modular architecture. It operates in harmony with other modules, benefiting from `Xot`'s established patterns without needing to redefine them.
 <<<<<<< HEAD
+<<<<<<< .merge_file_3nNrU3
 *   **"Politics" (UI Standardization and Governance):** The "politics" of this module revolve around establishing and enforcing UI standardization across the entire application. It dictates the patterns for creating, organizing, and consuming reusable UI components, thereby ensuring a consistent and <nome progetto>able user experience and streamlining frontend governance.
 *   **"Religion" (User Experience as the Ultimate Priority):** The "religion" here is a fundamental belief in the paramount importance of a consistent, intuitive, and aesthetically pleasing user experience. The module is built on the principle that a well-structured and thoughtfully designed UI is key to user satisfaction, adoption, and long-term retention.
 *   **"Zen" (Harmonious and <nome progetto>able User Interface):** The "zen" of the `UI` module is to provide a harmonious, <nome progetto>able, and delightful user interface. It aims for a state where users can effortlessly interact with the application, finding familiarity and ease of use in every interaction. For developers, it fosters a calm environment where new features can be built confidently using a consistent set of UI components, creating an intuitive and visually appealing digital environment.
@@ -79,6 +85,15 @@ The `UI` module, while concise in its service provider, embodies several key des
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+*   **"Politics" (UI Standardization and Governance):** The "politics" of this module revolve around establishing and enforcing UI standardization across the entire application. It dictates the patterns for creating, organizing, and consuming reusable UI components, thereby ensuring a consistent and predictable user experience and streamlining frontend governance.
+*   **"Religion" (User Experience as the Ultimate Priority):** The "religion" here is a fundamental belief in the paramount importance of a consistent, intuitive, and aesthetically pleasing user experience. The module is built on the principle that a well-structured and thoughtfully designed UI is key to user satisfaction, adoption, and long-term retention.
+*   **"Zen" (Harmonious and Predictable User Interface):** The "zen" of the `UI` module is to provide a harmonious, predictable, and delightful user interface. It aims for a state where users can effortlessly interact with the application, finding familiarity and ease of use in every interaction. For developers, it fosters a calm environment where new features can be built confidently using a consistent set of UI components, creating an intuitive and visually appealing digital environment.
+=======
+*   **"Politics" (UI Standardization and Governance):** The "politics" of this module revolve around establishing and enforcing UI standardization across the entire application. It dictates the patterns for creating, organizing, and consuming reusable UI components, thereby ensuring a consistent and <nome progetto>able user experience and streamlining frontend governance.
+*   **"Religion" (User Experience as the Ultimate Priority):** The "religion" here is a fundamental belief in the paramount importance of a consistent, intuitive, and aesthetically pleasing user experience. The module is built on the principle that a well-structured and thoughtfully designed UI is key to user satisfaction, adoption, and long-term retention.
+*   **"Zen" (Harmonious and <nome progetto>able User Interface):** The "zen" of the `UI` module is to provide a harmonious, <nome progetto>able, and delightful user interface. It aims for a state where users can effortlessly interact with the application, finding familiarity and ease of use in every interaction. For developers, it fosters a calm environment where new features can be built confidently using a consistent set of UI components, creating an intuitive and visually appealing digital environment.
+>>>>>>> .merge_file_XbiTOc
 >>>>>>> laraxot/dev
 
 ## 🤝 Business Logic (Supporting Role - User Experience & Branding)
@@ -102,6 +117,7 @@ The `UI` module, as the guardian of the application's user interface, can signif
 *   **Separation of Concerns for the Presentation Layer:** By providing intelligent access to UI resources, MCPs can help ensure that UI logic remains distinct from business logic, promoting cleaner code and easier maintenance.
 *   **Developer Experience (DX) Enhancement:** For frontend developers, quickly inspecting loaded UI components, debugging Livewire interactions, or validating asset loading via Laravel Boost or Filesystem MCP can significantly accelerate development and debugging cycles. Playwright/Puppeteer MCPs are invaluable for visual regression testing and UI automation.
 <<<<<<< HEAD
+<<<<<<< .merge_file_3nNrU3
 *   **"Zen" (Harmonious and <nome progetto>able User Interface):** MCPs contribute to this zen by making UI component management more transparent, verifiable, and manageable, leading to a calmer and more confident development and operational environment for the user interface.
 =======
 <<<<<<< HEAD
@@ -137,6 +153,11 @@ The `UI` module, as the guardian of the application's user interface, can signif
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+*   **"Zen" (Harmonious and Predictable User Interface):** MCPs contribute to this zen by making UI component management more transparent, verifiable, and manageable, leading to a calmer and more confident development and operational environment for the user interface.
+=======
+*   **"Zen" (Harmonious and <nome progetto>able User Interface):** MCPs contribute to this zen by making UI component management more transparent, verifiable, and manageable, leading to a calmer and more confident development and operational environment for the user interface.
+>>>>>>> .merge_file_XbiTOc
 >>>>>>> laraxot/dev
 
 ### Key MCPs for `UI`'s Operations:
@@ -149,12 +170,15 @@ The `UI` module, as the guardian of the application's user interface, can signif
 
 By leveraging these MCPs, the `UI` module can ensure its critical role in delivering an engaging and effective user interface is more efficient, verifiable, and transparent, ultimately contributing to a superior user experience.
 <<<<<<< HEAD
+<<<<<<< .merge_file_3nNrU3
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_XbiTOc
 # UI Module: Design System & Components
 
 > **Reusable Form/Table Components** — Filament-integrated, consistent styling, multi-module usage.
@@ -253,8 +277,13 @@ Tracked in: `docs/form-column-parity.md`
 
 - **Generated**: 2026-09-06
 
+<<<<<<< .merge_file_3nNrU3
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_XbiTOc

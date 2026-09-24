@@ -11,6 +11,7 @@ use Modules\UI\Filament\Actions\Table\TableLayoutTrait;
  * Sincronizza la proprietà Livewire layoutView con la preferenza in sessione.
  *
  * @property TableLayoutEnum $layoutView
+<<<<<<< .merge_file_1pMHrW
 <<<<<<< HEAD
 =======
  *                                       <<<<<<< HEAD
@@ -24,6 +25,10 @@ use Modules\UI\Filament\Actions\Table\TableLayoutTrait;
  * >>>>>>> laraxot/dev
  * >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+ *
+ * Usato da: Modules\Xot\Filament\Traits\HasXotTable (cross-module, PHPStan non rileva il consumer analizzando solo UI)
+>>>>>>> .merge_file_rIbaVK
  */
 trait HasTableLayoutPage
 {

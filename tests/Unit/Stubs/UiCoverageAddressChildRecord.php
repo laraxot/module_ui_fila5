@@ -19,6 +19,7 @@ final class UiCoverageAddressChildRecord extends Model
     public int $updated = 0;
 
     /**
+<<<<<<< .merge_file_ASMkUq
 <<<<<<< HEAD
      * @param  array<string, mixed>  $attributes
      * @param  array<string, mixed>  $options
@@ -27,13 +28,18 @@ final class UiCoverageAddressChildRecord extends Model
     {
         $this->updated++;
 =======
+=======
+>>>>>>> .merge_file_JL1TBJ
      * @param array<string, mixed> $attributes
      * @param array<string, mixed> $options
      */
     public function update(array $attributes = [], array $options = []): bool
     {
         ++$this->updated;
+<<<<<<< .merge_file_ASMkUq
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_JL1TBJ
 
         return true;
     }

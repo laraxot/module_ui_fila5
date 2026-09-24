@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_6NQjPX
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -27,10 +28,11 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_cGFjIj
 <?php
 
 declare(strict_types=1);
-
 ?>
 <!--
   This example requires some changes to your config:

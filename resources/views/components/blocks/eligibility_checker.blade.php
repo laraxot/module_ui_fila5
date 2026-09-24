@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_Abx3J6
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -30,10 +31,11 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_2MdTH3
 <?php
 
 declare(strict_types=1);
-
 ?>
 @props(['title' => 'Verifica Idoneità'])
 

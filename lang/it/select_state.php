@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_dUMb2P
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -18,6 +19,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_KKX2Xc
 return [
     'fields' => [
         'state' => [
@@ -48,6 +51,7 @@ return [
         ],
         'label' => 'Select State',
         'sort' => 1,
+<<<<<<< .merge_file_dUMb2P
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
 =======
@@ -61,6 +65,9 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> .merge_file_KKX2Xc
     ],
     'actions' => [
         'create' => [

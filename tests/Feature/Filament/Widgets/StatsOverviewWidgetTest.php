@@ -131,6 +131,7 @@ test('stats overview widget getStats method has correct return type', function (
     $returnType = $getStatsMethod->getReturnType();
 
     Assert::assertNotNull($returnType);
+<<<<<<< .merge_file_Ye3B8G
 <<<<<<< HEAD
     Assert::assertSame('array', $returnType instanceof \ReflectionNamedType ? $returnType->getName() : (string) $returnType);
 =======
@@ -146,6 +147,10 @@ test('stats overview widget getStats method has correct return type', function (
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    Assert::assertInstanceOf(\ReflectionNamedType::class, $returnType);
+    Assert::assertSame('array', $returnType->getName());
+>>>>>>> .merge_file_JqIqDg
 });
 
 test('stats overview widget has correct use statements', function (): void {
@@ -155,6 +160,7 @@ test('stats overview widget has correct use statements', function (): void {
 <<<<<<< HEAD
     if (false !== $filename) {
         $content = file_get_contents($filename);
+<<<<<<< .merge_file_Ye3B8G
         Assert::assertStringContainsString('use Filament\\Widgets\\StatsOverviewWidget as BaseWidget;', $content);
 =======
 <<<<<<< HEAD
@@ -173,5 +179,8 @@ test('stats overview widget has correct use statements', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        Assert::assertStringContainsString('use Modules\\Xot\\Filament\\Widgets\\XotBaseStatsOverviewWidget;', $content);
+>>>>>>> .merge_file_JqIqDg
     }
 });

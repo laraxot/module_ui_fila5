@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_r1nCMe
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -29,10 +30,11 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Fkt5kl
 <?php
 
 declare(strict_types=1);
-
 ?>
 {{-- Studio Selector Component - Card cliccabili per selezione studio --}}
 <div 

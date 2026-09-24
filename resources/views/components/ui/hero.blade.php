@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_uBk03S
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -56,6 +57,12 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<?php
+
+declare(strict_types=1);
+?>
+>>>>>>> .merge_file_oPpEZE
 @props([
     'title' => '',
     'subtitle' => '',
@@ -170,6 +177,7 @@
     <!-- Decorative Elements -->
     <div class="absolute top-0 right-0 -mt-20 -mr-20 w-80 h-80 bg-white/10 rounded-full blur-3xl"></div>
     <div class="absolute bottom-0 left-0 -mb-20 -ml-20 w-80 h-80 bg-white/10 rounded-full blur-3xl"></div>
+<<<<<<< .merge_file_uBk03S
 <<<<<<< HEAD
 </section>
 =======
@@ -183,3 +191,6 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+</section>
+>>>>>>> .merge_file_oPpEZE

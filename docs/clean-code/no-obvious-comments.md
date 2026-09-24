@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_HwP9nM
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_PJwewb
 ---
 title: "REGOLA CRITICA: NO Commenti Ovvi nel Codice"
 type: concept
@@ -12,6 +15,7 @@ tags: [obvious, comments]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "no-obvious-comments regola critica: no commenti ovvi nel codice"
+<<<<<<< .merge_file_HwP9nM
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -24,6 +28,12 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_PJwewb
 related:
   - "./syntax-error-fixes.md"
   - "./wizard-schema-aration.md"
@@ -31,11 +41,16 @@ related:
   - "./wizard-steps.md"
 ---
 
+<<<<<<< .merge_file_HwP9nM
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_PJwewb
 # REGOLA CRITICA: NO Commenti Ovvi nel Codice
 
 ## Principio Fondamentale

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_38jGls
 # Struttura Themes e Folio in <nome progetto>
 =======
 <<<<<<< HEAD
@@ -34,6 +35,12 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+# Struttura Themes e Folio in SaluteOra
+# Struttura Themes e Folio in <nome progetto>corrente
+=======
+# Struttura Themes e Folio in <nome progetto>
+>>>>>>> .merge_file_9wocbN
 >>>>>>> laraxot/dev
 
 ## ⚠️ ATTENZIONE CRITICA
@@ -45,6 +52,7 @@
 ## Struttura del Progetto
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_38jGls
 Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
 =======
 <<<<<<< HEAD
@@ -80,6 +88,12 @@ Il progetto SaluteOra utilizza un sistema di **Themes** che modifica la struttur
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Il progetto SaluteOra utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
+Il progetto <nome progetto>corrente utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
+=======
+Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
+>>>>>>> .merge_file_9wocbN
 >>>>>>> laraxot/dev
 
 ```

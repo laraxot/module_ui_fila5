@@ -9,6 +9,13 @@ qmd: "code quality baseline PHPStan Pest strict types Laraxot UI git remote"
 story: STORY-001
 <<<<<<< HEAD
 # GRAVE: issue/discussion del modulo — mai base_techplanner / base_workorder / mono.
+<<<<<<< .merge_file_WxNu67
+=======
+# GRAVE: issue/discussion del modulo — mai base_project / base_workorder / mono.
+=======
+<<<<<<< HEAD
+# GRAVE: issue/discussion del modulo — mai base_techplanner / base_workorder / mono.
+>>>>>>> .merge_file_uWEk76
 <<<<<<< HEAD
 # GRAVE: issue/discussion del modulo — mai base_project / base_workorder / mono.
 =======
@@ -30,6 +37,10 @@ story: STORY-001
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_WxNu67
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_uWEk76
 # Resolve: cd laravel/Modules/UI && git remote -v → laraxot/module_ui_fila5
 issues: []
 discussions: []
@@ -51,6 +62,13 @@ cd laravel/Modules/UI && git remote -v
 
 <<<<<<< HEAD
 **Lezione grave:** in un conflitto Git, *entrambe* le parti possono essere sbagliate (`base_techplanner_*` vs `base_workorder_*`). Non scegliere a caso: `git remote -v` nella cartella del modulo/tema.
+<<<<<<< .merge_file_WxNu67
+=======
+**Lezione grave:** in un conflitto Git, *entrambe* le parti possono essere sbagliate (`base_project_*` vs `base_workorder_*`). Non scegliere a caso: `git remote -v` nella cartella del modulo/tema.
+=======
+<<<<<<< HEAD
+**Lezione grave:** in un conflitto Git, *entrambe* le parti possono essere sbagliate (`base_techplanner_*` vs `base_workorder_*`). Non scegliere a caso: `git remote -v` nella cartella del modulo/tema.
+>>>>>>> .merge_file_uWEk76
 <<<<<<< HEAD
 **Lezione grave:** in un conflitto Git, *entrambe* le parti possono essere sbagliate (`base_project_*` vs `base_workorder_*`). Non scegliere a caso: `git remote -v` nella cartella del modulo/tema.
 =======
@@ -72,6 +90,10 @@ cd laravel/Modules/UI && git remote -v
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< .merge_file_WxNu67
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_uWEk76
 
 ## Baseline
 

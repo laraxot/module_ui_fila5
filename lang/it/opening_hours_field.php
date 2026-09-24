@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_HgWg6k
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -18,6 +19,8 @@ return merge_translation_files(__DIR__.'/opening_hours_field_fields.php', __DIR_
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Xl9S4X
 return [
     'fields' => [
         'monday' => [
@@ -191,8 +194,11 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
     ],
 ];
+<<<<<<< .merge_file_HgWg6k
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Xl9S4X

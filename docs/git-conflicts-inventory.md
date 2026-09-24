@@ -28,6 +28,7 @@
 ## Stato
 - ❌ Conflitti da risolvere
 <<<<<<< HEAD
+<<<<<<< .merge_file_YmDs4W
 - 📅 Data rilevamento: [DATE]
 =======
 <<<<<<< HEAD
@@ -39,5 +40,10 @@
 - 📅 Data rilevamento: 2025-11-12
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- 📅 Data rilevamento: 2025-11-12
+=======
+- 📅 Data rilevamento: [DATE]
+>>>>>>> .merge_file_uPRrTn
 >>>>>>> laraxot/dev
 - 🔄 Priorità: ALTA - Componenti UI critici

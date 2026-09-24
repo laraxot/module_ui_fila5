@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Actions\Block;
 
+<<<<<<< .merge_file_xFcrep
 <<<<<<< HEAD
 =======
 use Spatie\QueueableAction\QueueableAction;
@@ -17,16 +18,23 @@ use UnexpectedValueException;
 >>>>>>> laraxot/dev
 
 >>>>>>> laraxot/dev
+=======
+use Spatie\QueueableAction\QueueableAction;
+
+>>>>>>> .merge_file_Rkucwl
 /**
  * Risolve dati block localizzati; delega al modulo Cms se presente.
  */
 final class ResolveLocalizedBlockDataAction
 {
+<<<<<<< .merge_file_xFcrep
 <<<<<<< HEAD
     /**
      * @param array<string, mixed> $viewParams
      *
 =======
+=======
+>>>>>>> .merge_file_Rkucwl
     use QueueableAction;
 
     /**
@@ -62,16 +70,22 @@ final class ResolveLocalizedBlockDataAction
     }
 
     /**
+<<<<<<< .merge_file_xFcrep
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+     * @param array<array-key, mixed> $data
+     *
+>>>>>>> .merge_file_Rkucwl
      * @return array<string, mixed>
      */
-    private function normalizeViewData(mixed $data): array
+    private function normalizeViewData(array $data): array
     {
+<<<<<<< .merge_file_xFcrep
         if (! is_array($data)) {
             return [];
         }
@@ -90,6 +104,8 @@ final class ResolveLocalizedBlockDataAction
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_Rkucwl
         $viewData = [];
 
         foreach ($data as $key => $value) {

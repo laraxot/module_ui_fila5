@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_ksBlhR
 # Gestione delle Risorse Pubbliche 
 =======
 <<<<<<< HEAD
@@ -34,6 +35,11 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+# Gestione delle Risorse Pubbliche
+=======
+# Gestione delle Risorse Pubbliche 
+>>>>>>> .merge_file_utGBGx
 >>>>>>> laraxot/dev
 
 ## Indice
@@ -53,6 +59,7 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 
 ```
 <<<<<<< HEAD
+<<<<<<< .merge_file_ksBlhR
 /var/www/html/<nome progetto>/
 =======
 <<<<<<< HEAD
@@ -88,6 +95,12 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+/var/www/html/saluteora/
+[project-root]/
+=======
+/var/www/html/<nome progetto>/
+>>>>>>> .merge_file_utGBGx
 >>>>>>> laraxot/dev
 ├── public_html/           # Directory pubblica principale
 │   ├── images/            # Immagini pubbliche
@@ -99,6 +112,7 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 ```
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_ksBlhR
 > **IMPORTANTE**: MAI utilizzare `/var/www/html/<nome progetto>/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>.
 =======
 <<<<<<< HEAD
@@ -134,6 +148,12 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+> **IMPORTANTE**: MAI utilizzare `/var/www/html/saluteora/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di SaluteOra.
+> **IMPORTANTE**: MAI utilizzare `[project-root]/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>corrente.
+=======
+> **IMPORTANTE**: MAI utilizzare `/var/www/html/<nome progetto>/laravel/public/` per i file pubblici. Questa cartella non è accessibile via web nel setup di <nome progetto>.
+>>>>>>> .merge_file_utGBGx
 >>>>>>> laraxot/dev
 
 ## Tipi di Risorse
@@ -141,6 +161,7 @@ La struttura corretta per le risorse pubbliche  è la seguente:
 ### Immagini
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_ksBlhR
 Le immagini devono essere posizionate in `/var/www/html/<nome progetto>/public_html/images/` e organizzate in sottocartelle per tipologia:
 =======
 <<<<<<< HEAD
@@ -176,6 +197,12 @@ Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/im
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Le immagini devono essere posizionate in `/var/www/html/saluteora/public_html/images/` e organizzate in sottocartelle per tipologia:
+Le immagini devono essere posizionate in `[project-root]/public_html/images/` e organizzate in sottocartelle per tipologia:
+=======
+Le immagini devono essere posizionate in `/var/www/html/<nome progetto>/public_html/images/` e organizzate in sottocartelle per tipologia:
+>>>>>>> .merge_file_utGBGx
 >>>>>>> laraxot/dev
 
 - `/images/avatars/` - Avatar utenti
@@ -244,6 +271,7 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 
 ```blade
 <<<<<<< HEAD
+<<<<<<< .merge_file_ksBlhR
 <img 
     src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}" 
     alt="{{ $user->name }}" 
@@ -257,11 +285,16 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_utGBGx
 <img
     src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}"
     alt="{{ $user->name }}"
 =======
+<<<<<<< .merge_file_ksBlhR
 <<<<<<< HEAD
+=======
+>>>>>>> .merge_file_utGBGx
 <img 
 >>>>>>> laraxot/dev
     src="{{ $user->avatar ? asset('images/avatars/' . $user->avatar) : asset('images/default-avatar.svg') }}" 
@@ -304,8 +337,13 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 <a href="{{ LaravelLocalization::getLocalizedURL(LaravelLocalization::getCurrentLocale(), route('home')) }}">
 <<<<<<< HEAD
     <img 
+<<<<<<< HEAD
+        src="{{ asset('images/logos/saluteora-logo.svg') }}" 
+        alt="SaluteOra" 
+=======
         src="{{ asset('images/logos/<nome progetto>-logo.svg') }}" 
         alt="<nome progetto>" 
+<<<<<<< .merge_file_ksBlhR
 =======
 <<<<<<< HEAD
     <img 
@@ -346,6 +384,8 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_utGBGx
 >>>>>>> laraxot/dev
         class="h-8"
     >
@@ -362,6 +402,7 @@ I font devono essere posizionati in `/public_html/fonts/` e organizzati per fami
 ## Conclusione
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_ksBlhR
 Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>.
 =======
 <<<<<<< HEAD
@@ -397,4 +438,10 @@ Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantis
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto SaluteOra.
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>corrente.
+=======
+Seguendo queste linee guida per la gestione delle risorse pubbliche, si garantisce che tutte le risorse siano correttamente accessibili via web e organizzate in modo coerente, facilitando la manutenzione e l'evoluzione del progetto <nome progetto>.
+>>>>>>> .merge_file_utGBGx
 >>>>>>> laraxot/dev

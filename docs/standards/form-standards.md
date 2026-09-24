@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_qLRLRE
 =======
 <<<<<<< HEAD
 =======
@@ -18,6 +19,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_7X3x3Z
 ---
 title: "Standard Form nei Temi"
 type: rule
@@ -35,6 +38,7 @@ related:
   - "./performance.md"
   - "./ui-standards.md"
 ---
+<<<<<<< .merge_file_qLRLRE
 <<<<<<< HEAD
 =======
 
@@ -56,6 +60,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> .merge_file_7X3x3Z
 >>>>>>> laraxot/dev
 # Standard Form nei Temi
 
@@ -908,14 +915,21 @@ form.addEventListener('submit', async (e) => {
 - [Accessibility](./accessibility.md)
 - [Performance](./performance.md)
 # Standard Form nei Temi
+<<<<<<< HEAD
+## Principi Generali
+=======
 
 ## Principi Generali
 
+>>>>>>> laraxot/dev
 ### Layout e Allineamento
 - I form devono essere centrati nella pagina con margini appropriati
 - Utilizzare una larghezza massima per garantire leggibilità
 - Mantenere una spaziatura consistente tra gli elementi
+<<<<<<< HEAD
+=======
 
+>>>>>>> laraxot/dev
 ```html
 <div class="container mx-auto max-w-4xl px-4 py-8">
   <form class="w-full space-y-6">
@@ -923,29 +937,47 @@ form.addEventListener('submit', async (e) => {
   </form>
 </div>
 ```
+<<<<<<< HEAD
+=======
 
+>>>>>>> laraxot/dev
 ### Grid System
 - Utilizzare il grid system di Tailwind per layout responsivi
 - Su mobile: colonna singola
 - Su tablet e desktop: layout a due colonne dove appropriato
+<<<<<<< HEAD
+=======
 
 ```html
+>>>>>>> laraxot/dev
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
   <div class="col-span-1">
     <!-- Campo 1 -->
   </div>
+<<<<<<< HEAD
+    <!-- Campo 2 -->
+=======
   <div class="col-span-1">
     <!-- Campo 2 -->
   </div>
 </div>
 ```
 
+>>>>>>> laraxot/dev
 ### Spaziatura
 ```scss
 // Margini e padding consistenti
 .form-container {
   @apply p-6 md:p-8;
 }
+<<<<<<< HEAD
+.form-group {
+  @apply mb-4 md:mb-6;
+.form-section {
+  @apply mb-8 md:mb-12;
+## Componenti Form
+### Input Text
+=======
 
 .form-group {
   @apply mb-4 md:mb-6;
@@ -960,6 +992,7 @@ form.addEventListener('submit', async (e) => {
 
 ### Input Text
 ```html
+>>>>>>> laraxot/dev
 <div class="form-group">
   <label class="block text-sm font-medium text-gray-700 mb-2">
     Nome
@@ -968,6 +1001,14 @@ form.addEventListener('submit', async (e) => {
     type="text"
     class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500"
   >
+<<<<<<< HEAD
+### Select
+    Ruolo
+  <select class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500">
+    <option>Seleziona...</option>
+  </select>
+### Checkbox e Radio
+=======
 </div>
 ```
 
@@ -986,6 +1027,7 @@ form.addEventListener('submit', async (e) => {
 ### Checkbox e Radio
 ```html
 <div class="form-group">
+>>>>>>> laraxot/dev
   <div class="flex items-center">
     <input
       type="checkbox"
@@ -994,6 +1036,13 @@ form.addEventListener('submit', async (e) => {
     <label class="ml-2 text-sm text-gray-700">
       Accetto i termini
     </label>
+<<<<<<< HEAD
+## Responsive Design
+### Mobile First
+// Base styles (mobile)
+  width: 100%;
+  padding: 1rem;
+=======
   </div>
 </div>
 ```
@@ -1008,6 +1057,7 @@ form.addEventListener('submit', async (e) => {
   padding: 1rem;
 }
 
+>>>>>>> laraxot/dev
 // Tablet (md)
 @screen md {
   .form-container {
@@ -1015,6 +1065,12 @@ form.addEventListener('submit', async (e) => {
     max-width: 768px;
     margin: 0 auto;
   }
+<<<<<<< HEAD
+// Desktop (lg)
+@screen lg {
+    max-width: 1024px;
+### Breakpoints
+=======
 }
 
 // Desktop (lg)
@@ -1027,6 +1083,7 @@ form.addEventListener('submit', async (e) => {
 
 ### Breakpoints
 ```scss
+>>>>>>> laraxot/dev
 // Tailwind breakpoints
 screens: {
   'sm': '640px',
@@ -1034,6 +1091,11 @@ screens: {
   'lg': '1024px',
   'xl': '1280px',
   '2xl': '1536px',
+<<<<<<< HEAD
+## Validazione e Feedback
+### Errori
+    Email
+=======
 }
 ```
 
@@ -1046,10 +1108,36 @@ screens: {
     Email
   </label>
   <input
+>>>>>>> laraxot/dev
     type="email"
     class="w-full px-4 py-2 border border-red-300 rounded-md focus:ring-2 focus:ring-red-500"
     aria-invalid="true"
     aria-describedby="email-error"
+<<<<<<< HEAD
+  <p id="email-error" class="mt-2 text-sm text-red-600">
+    Inserisci un indirizzo email valido
+  </p>
+### Successo
+    Username
+    class="w-full px-4 py-2 border border-green-300 rounded-md focus:ring-2 focus:ring-green-500"
+    aria-invalid="false"
+  <p class="mt-2 text-sm text-green-600">
+    Username disponibile
+## Accessibilità
+### ARIA Labels
+  <label id="email-label" class="block text-sm font-medium text-gray-700 mb-2">
+    aria-labelledby="email-label"
+    aria-required="true"
+### Focus States
+// Focus visibile e consistente
+.form-input:focus {
+  @apply outline-none ring-2 ring-primary-500 border-transparent;
+// Focus visibile per keyboard navigation
+.form-input:focus-visible {
+  @apply ring-2 ring-primary-500 ring-offset-2;
+## Performance
+### Loading States
+=======
   >
   <p id="email-error" class="mt-2 text-sm text-red-600">
     Inserisci un indirizzo email valido
@@ -1108,6 +1196,7 @@ screens: {
 
 ### Loading States
 ```html
+<<<<<<< .merge_file_qLRLRE
 =======
 =======
 >>>>>>> laraxot/dev
@@ -1138,6 +1227,8 @@ screens: {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_7X3x3Z
 >>>>>>> laraxot/dev
 <button
   type="submit"
@@ -1148,6 +1239,7 @@ screens: {
   <span>Caricamento...</span>
 </button>
 <<<<<<< HEAD
+<<<<<<< .merge_file_qLRLRE
 ```
 
 =======
@@ -1159,12 +1251,18 @@ screens: {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+```
+
+>>>>>>> .merge_file_7X3x3Z
 >>>>>>> laraxot/dev
 ### Lazy Loading
 ```javascript
 // Lazy load form validation library
 const loadValidator = () => import('./validator.js');
 <<<<<<< HEAD
+<<<<<<< .merge_file_qLRLRE
 
 =======
 <<<<<<< HEAD
@@ -1174,34 +1272,47 @@ const loadValidator = () => import('./validator.js');
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_7X3x3Z
 >>>>>>> laraxot/dev
 form.addEventListener('submit', async (e) => {
   const validator = await loadValidator();
   // Validate form
 });
 <<<<<<< HEAD
+<<<<<<< .merge_file_qLRLRE
 =======
 <<<<<<< HEAD
 ## Best Practices
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+## Best Practices
+=======
+>>>>>>> .merge_file_7X3x3Z
 ```
 
 ## Best Practices
 
+<<<<<<< .merge_file_qLRLRE
 <<<<<<< HEAD
 =======
 =======
 ## Best Practices
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_7X3x3Z
 >>>>>>> laraxot/dev
 1. **Centratura e Allineamento**
    - Tutti i form devono essere centrati nella pagina
    - Utilizzare container con larghezza massima
    - Mantenere margini consistenti
 <<<<<<< HEAD
+<<<<<<< .merge_file_qLRLRE
 
 =======
 <<<<<<< HEAD
@@ -1211,12 +1322,17 @@ form.addEventListener('submit', async (e) => {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_7X3x3Z
 >>>>>>> laraxot/dev
 2. **Responsive Design**
    - Layout a colonna singola su mobile
    - Grid system per schermi più grandi
    - Breakpoint standard di Tailwind
 <<<<<<< HEAD
+<<<<<<< .merge_file_qLRLRE
 
 =======
 <<<<<<< HEAD
@@ -1226,12 +1342,17 @@ form.addEventListener('submit', async (e) => {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_7X3x3Z
 >>>>>>> laraxot/dev
 3. **Spaziatura**
    - Margini verticali consistenti tra gruppi di campi
    - Padding interno consistente per i container
    - Gap appropriato nel grid system
 <<<<<<< HEAD
+<<<<<<< .merge_file_qLRLRE
 
 =======
 <<<<<<< HEAD
@@ -1241,12 +1362,17 @@ form.addEventListener('submit', async (e) => {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_7X3x3Z
 >>>>>>> laraxot/dev
 4. **Validazione**
    - Feedback visivo immediato
    - Messaggi di errore chiari
    - Stati di successo appropriati
 <<<<<<< HEAD
+<<<<<<< .merge_file_qLRLRE
 
 =======
 <<<<<<< HEAD
@@ -1256,12 +1382,17 @@ form.addEventListener('submit', async (e) => {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_7X3x3Z
 >>>>>>> laraxot/dev
 5. **Accessibilità**
    - ARIA labels per tutti i campi
    - Focus states visibili
    - Messaggi di errore associati ai campi
 <<<<<<< HEAD
+<<<<<<< .merge_file_qLRLRE
 
 =======
 <<<<<<< HEAD
@@ -1271,22 +1402,34 @@ form.addEventListener('submit', async (e) => {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_7X3x3Z
 >>>>>>> laraxot/dev
 6. **Performance**
    - Lazy loading di script pesanti
    - Stati di loading appropriati
    - Ottimizzazione delle risorse
 <<<<<<< HEAD
+<<<<<<< .merge_file_qLRLRE
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+## Collegamenti
+- [UI Standards](./ui-standards.md)
+- [Accessibility](./accessibility.md)
+=======
+>>>>>>> .merge_file_7X3x3Z
 
 ## Collegamenti
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md)
 - [Performance](./performance.md)
+<<<<<<< .merge_file_qLRLRE
 <<<<<<< HEAD
 =======
 =======
@@ -1316,4 +1459,6 @@ form.addEventListener('submit', async (e) => {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_7X3x3Z
 >>>>>>> laraxot/dev

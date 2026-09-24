@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_dUx3lO
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_2lRs42
 ---
 title: "Module Filament Component Autoload Rule"
 type: rule
@@ -12,6 +15,7 @@ tags: [module, filament, component, autoload]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "module-filament-component-autoload-rule module filament component autoload rule"
+<<<<<<< .merge_file_dUx3lO
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -24,6 +28,12 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_2lRs42
 related:
   - "./auth-register-focus-loss-overlay.md"
   - "./block-rendering-and-optional-services.md"
@@ -35,11 +45,16 @@ related:
   - "./enum-select-contract-and-false-friends.md"
 ---
 
+<<<<<<< .merge_file_dUx3lO
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_2lRs42
 # Module Filament Component Autoload Rule
 
 ## Regola
@@ -62,11 +77,15 @@ L'errore recente su `EnumSelect` non era un problema del widget Fixcity ma di au
 =======
 <<<<<<< HEAD
 L'errore recente su `EnumSelect` non era un problema del widget Fixcity ma di autoload: il file era stato creato nel path sbagliato e Laravel non trovava la classe `Modules\UI\Filament\Forms\Components\EnumSelect`.
+<<<<<<< .merge_file_dUx3lO
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_2lRs42
 <<<<<<< HEAD
 L'errore recente su `EnumSelect` non era un problema del widget <nome progetto> ma di autoload: il file era stato creato nel path sbagliato e Laravel non trovava la classe `Modules\UI\Filament\Forms\Components\EnumSelect`.
 L'errore recente su `EnumSelect` non era un problema del widget progetto corrente ma di autoload: il file era stato creato nel path sbagliato e Laravel non trovava la classe `Modules\UI\Filament\Forms\Components\EnumSelect`.
 =======
+<<<<<<< .merge_file_dUx3lO
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89,6 +108,8 @@ L'errore recente su `EnumSelect` non era un problema del widget <nome progetto> 
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_2lRs42
 >>>>>>> laraxot/dev
 
 ## Best Practices

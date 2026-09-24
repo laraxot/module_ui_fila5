@@ -1,6 +1,7 @@
 # Analisi Metodi Duplicati - Modulo UI
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_4urpSh
 =======
 <<<<<<< HEAD
 **Data Generazione**: 2025-10-15 06:41:17
@@ -10,6 +11,10 @@
 **Data Generazione**: 2025-10-15 06:41:17
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+**Data Generazione**: 2025-10-15 06:41:17
+=======
+>>>>>>> .merge_file_kT5q6K
 >>>>>>> laraxot/dev
 **Totale Gruppi di Duplicati**:
 
@@ -86,6 +91,7 @@ public function asset(): string
 <<<<<<< HEAD
 - `ChangeStatus::execute` - [Modules/Fixcity/app/Actions/ChangeStatus.php:12](Modules/Fixcity/app/Actions/ChangeStatus.php) (Modulo: Fixcity)
 - `GenerateTicketsAction::execute` - [Modules/Fixcity/app/Actions/GenerateTicketsAction.php:24](Modules/Fixcity/app/Actions/GenerateTicketsAction.php) (Modulo: Fixcity)
+<<<<<<< .merge_file_4urpSh
 =======
 <<<<<<< HEAD
 - `ChangeStatus::execute` - [Modules/Fixcity/app/Actions/ChangeStatus.php:12](Modules/Fixcity/app/Actions/ChangeStatus.php) (Modulo: Fixcity)
@@ -130,6 +136,16 @@ public function asset(): string
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+- `ChangeStatus::execute` - [Modules/<nome progetto>/app/Actions/ChangeStatus.php:12](Modules/<nome progetto>/app/Actions/ChangeStatus.php) (Modulo: <nome progetto>)
+- `GenerateTicketsAction::execute` - [Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php:24](Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php) (Modulo: <nome progetto>)
+- `ChangeStatus::execute` - [Modules/Project/app/Actions/ChangeStatus.php:12](Modules/Project/app/Actions/ChangeStatus.php) (Modulo: progetto corrente)
+- `GenerateTicketsAction::execute` - [Modules/Project/app/Actions/GenerateTicketsAction.php:24](Modules/Project/app/Actions/GenerateTicketsAction.php) (Modulo: progetto corrente)
+- `GenerateTicketsAction::execute` - [Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php:24](Modules/<nome progetto>/app/Actions/GenerateTicketsAction.php) (Modulo: <nome progetto>)
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_kT5q6K
 - `CalculateDistanceAction::execute` - [Modules/Geo/app/Actions/CalculateDistanceAction.php:47](Modules/Geo/app/Actions/CalculateDistanceAction.php) (Modulo: Geo)
 - `ClusterLocationsAction::execute` - [Modules/Geo/app/Actions/ClusterLocationsAction.php:25](Modules/Geo/app/Actions/ClusterLocationsAction.php) (Modulo: Geo)
 - `FilterCoordinatesAction::execute` - [Modules/Geo/app/Actions/FilterCoordinatesAction.php:29](Modules/Geo/app/Actions/FilterCoordinatesAction.php) (Modulo: Geo)

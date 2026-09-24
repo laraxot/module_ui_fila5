@@ -63,10 +63,17 @@
 >>>>>>> laraxot/dev
 4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
 ## Collegamenti tra versioni di filament-components.md
+<<<<<<< HEAD
+* [filament-components.md](../../User/docs/best-practices/filament-components.md)
+* [filament-components.md](../../Cms/docs/best-practices/filament-components.md)
+* [filament-components.md](../../Cms/docs/filament-components.md)
+* [filament-components.md](../../../docs/rules/filament-components.md)
+=======
 * [filament-components.md](../../user/docs/best-practices/filament-components.md)
 * [filament-components.md](../../cms/docs/best-practices/filament-components.md)
 * [filament-components.md](../../cms/docs/filament-components.md)
 * [filament-components.md](../../../../docs/rules/filament-components.md)
+<<<<<<< .merge_file_CJyVpb
 <<<<<<< HEAD
 =======
 =======
@@ -116,6 +123,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_IWJTKU
 >>>>>>> laraxot/dev
 # Componenti Filament UI
 
@@ -195,15 +204,24 @@
 4. Aggiornare la documentazione quando vengono aggiunti nuovi componenti
 ## Collegamenti tra versioni di filament-components.md
 <<<<<<< HEAD
+<<<<<<< .merge_file_CJyVpb
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+* [filament-components.md](../../User/project_docs/best-practices/filament-components.md)
+* [filament-components.md](../../Cms/project_docs/best-practices/filament-components.md)
+* [filament-components.md](../../Cms/project_docs/filament-components.md)
+* [filament-components.md](../../../project_docs/rules/filament-components.md)
+=======
+>>>>>>> .merge_file_IWJTKU
 * [filament-components.md](../../user/project_docs/best-practices/filament-components.md)
 * [filament-components.md](../../cms/project_docs/best-practices/filament-components.md)
 * [filament-components.md](../../cms/project_docs/filament-components.md)
 * [filament-components.md](../../../../docs/project/rules/filament-components.md)
+<<<<<<< .merge_file_CJyVpb
 <<<<<<< HEAD
 =======
 =======
@@ -261,4 +279,6 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_IWJTKU
 >>>>>>> laraxot/dev

@@ -24,6 +24,7 @@ use PHPUnit\Framework\Assert;
 use Spatie\LaravelData\Data;
 
 uses(TestCase::class);
+<<<<<<< .merge_file_WrnTmc
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -44,6 +45,8 @@ uses(TestCase::class);
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_MU56B3
 
 it('SliderData can be instantiated with all fields', function (): void {
     $data = new SliderData(

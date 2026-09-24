@@ -1,5 +1,6 @@
 # Filament v4 Theme Upgrade Guide - Modulo UI
 <<<<<<< HEAD
+<<<<<<< .merge_file_fPZYEX
 =======
 <<<<<<< HEAD
 **Data**: 10 Dicembre 2025
@@ -9,6 +10,10 @@
 **Data**: 10 Dicembre 2025
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+**Data**: 10 Dicembre 2025
+=======
+>>>>>>> .merge_file_n5JwUR
 >>>>>>> laraxot/dev
 **Modulo**: UI (Theme Components)
 **Versione**: 4.0

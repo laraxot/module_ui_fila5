@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_SULKup
 =======
 <<<<<<< HEAD
 =======
@@ -18,6 +19,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_m11fL9
 ---
 title: "tailwind_themes"
 type: concept
@@ -37,6 +40,7 @@ related:
   - "./custom-firm-fields-1.md"
   - "./custom-firm-fields.md"
 ---
+<<<<<<< .merge_file_SULKup
 <<<<<<< HEAD
 =======
 
@@ -58,6 +62,10 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_m11fL9
 # tailwind_themes
 
 <!-- Contenuto migrato da _docs/tailwind_themes.txt -->
@@ -70,12 +78,17 @@ https://merakiui.com/
 =======
 >>>>>>> laraxot/dev
 # tailwind_themes
+<<<<<<< HEAD
+<!-- Contenuto migrato da _docs/tailwind_themes.txt -->
+https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your-next-project-3igo
+=======
 
 <!-- Contenuto migrato da _docs/tailwind_themes.txt -->
 
 https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your-next-project-3igo
 
 https://merakiui.com/
+<<<<<<< .merge_file_SULKup
 <<<<<<< HEAD
 # tailwind_themes
 
@@ -130,4 +143,6 @@ https://merakiui.com/
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_m11fL9
 >>>>>>> laraxot/dev

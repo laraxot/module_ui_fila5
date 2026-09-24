@@ -115,6 +115,7 @@ La stessa filosofia di gestione centralizzata dei path tramite action (es. GetMo
 - **Descrizione**: Icona per l'autenticazione e il login degli utenti
 - **Utilizzo**: `@svg('ui-login')` o `ui-login` nei componenti Filament
 <<<<<<< HEAD
+<<<<<<< .merge_file_Ru4Igi
 - **Aggiunta**: [DATE] - Sostituisce `heroicon-o-login` non disponibile
 =======
 <<<<<<< HEAD
@@ -126,6 +127,11 @@ La stessa filosofia di gestione centralizzata dei path tramite action (es. GetMo
 - **Aggiunta**: 2025-01-27 - Sostituisce `heroicon-o-login` non disponibile
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- **Aggiunta**: 2025-01-27 - Sostituisce `heroicon-o-login` non disponibile
+=======
+- **Aggiunta**: [DATE] - Sostituisce `heroicon-o-login` non disponibile
+>>>>>>> .merge_file_8lqCJ0
 >>>>>>> laraxot/dev
 
 ### Icona Authenticate
@@ -134,6 +140,7 @@ La stessa filosofia di gestione centralizzata dei path tramite action (es. GetMo
 - **Descrizione**: Icona per l'autenticazione e verifica utenti
 - **Utilizzo**: `@svg('ui-authenticate')` o `ui-authenticate` nei componenti Filament
 <<<<<<< HEAD
+<<<<<<< .merge_file_Ru4Igi
 - **Aggiunta**: [DATE] - Sostituisce `authenticate` non disponibile
 =======
 <<<<<<< HEAD
@@ -145,6 +152,11 @@ La stessa filosofia di gestione centralizzata dei path tramite action (es. GetMo
 - **Aggiunta**: 2025-01-27 - Sostituisce `authenticate` non disponibile
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- **Aggiunta**: 2025-01-27 - Sostituisce `authenticate` non disponibile
+=======
+- **Aggiunta**: [DATE] - Sostituisce `authenticate` non disponibile
+>>>>>>> .merge_file_8lqCJ0
 >>>>>>> laraxot/dev
 
 ## Come Funziona il Sistema
@@ -195,11 +207,22 @@ MenuItem::make()
 ```
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_Ru4Igi
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+## Nota sulla correzione e centralizzazione (2025-05-13)
+
+- Seguire i pattern e le regole documentate in [XotBaseServiceProvider.md](./XotBaseServiceProvider.md) per la registrazione delle icone Blade.
+- Centralizzare la logica di fallback e logging per i path SVG e la configurazione delle icone.
+- Documentare ogni estensione o personalizzazione.
+
+**Collegamento:** Vedi anche [XotBaseServiceProvider.md](./XotBaseServiceProvider.md)
+=======
+>>>>>>> .merge_file_8lqCJ0
 ## Nota sulla correzione e centralizzazione ([DATE])
 
 - Seguire i pattern e le regole documentate in [XotBaseServiceProvider.md](./xotbaseserviceprovider.md) per la registrazione delle icone Blade.
@@ -207,6 +230,7 @@ MenuItem::make()
 - Documentare ogni estensione o personalizzazione.
 
 **Collegamento:** Vedi anche [XotBaseServiceProvider.md](./xotbaseserviceprovider.md)
+<<<<<<< .merge_file_Ru4Igi
 <<<<<<< HEAD
 =======
 =======
@@ -222,6 +246,8 @@ MenuItem::make()
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_8lqCJ0
 >>>>>>> laraxot/dev
 
 ## Conclusione

@@ -215,6 +215,8 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 =======
 >>>>>>> laraxot/dev
 4. Aggiornare la documentazione quando vengono scoperti nuovi errori
+<<<<<<< HEAD
+=======
 # Errori Comuni nei Componenti Filament UI
 
 ## ⚠️ Errori di Metodi Non Supportati
@@ -604,6 +606,7 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 2. Mantenere collegamenti bidirezionali aggiornati
 3. Seguire le convenzioni di naming del progetto
 4. Aggiornare la documentazione quando vengono scoperti nuovi errori
+<<<<<<< .merge_file_E8DM1Y
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -633,4 +636,6 @@ TextInput::make('first_name')  // ✅ Il LangServiceProvider gestirà automatica
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_4QPpIf
 >>>>>>> laraxot/dev

@@ -1,6 +1,7 @@
 # Audit e Correzione Colonne Filament - Modulo UI
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_ZDeJF1
 =======
 <<<<<<< HEAD
 **Data**: 11 Novembre 2025
@@ -10,6 +11,10 @@
 **Data**: 11 Novembre 2025
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+**Data**: 11 Novembre 2025
+=======
+>>>>>>> .merge_file_9leHQi
 >>>>>>> laraxot/dev
 **Status**: ✅ COMPLETATO
 

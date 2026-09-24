@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\View\Component;
 use Illuminate\View\View;
+<<<<<<< .merge_file_6VMgiq
 <<<<<<< HEAD
 use Modules\Cms\Actions\ResolveLocalizedBlockDataAction;
 =======
@@ -24,6 +25,9 @@ use UnexpectedValueException;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+use Modules\UI\Actions\Block\ResolveLocalizedBlockDataAction;
+>>>>>>> .merge_file_HlKmPd
 use Webmozart\Assert\Assert;
 
 /**
@@ -82,6 +86,7 @@ class Block extends Component
         $view = $this->view;
         if (! view()->exists(is_string($view) ? $view : ((string) $view))) {
             $message = 'view not exists ['.$view.'] ! <pre>'.print_r($this->block, true).'</pre>';
+<<<<<<< .merge_file_6VMgiq
 <<<<<<< HEAD
             $view_params = [
 =======
@@ -95,10 +100,14 @@ class Block extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+            $viewParams = [
+>>>>>>> .merge_file_HlKmPd
                 'title' => 'deprecated',
                 'message' => $message,
             ];
 
+<<<<<<< .merge_file_6VMgiq
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -106,15 +115,17 @@ class Block extends Component
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
             return view('ui::alert', $view_params);
+=======
+            return view('ui::alert', $viewParams);
+>>>>>>> .merge_file_HlKmPd
         }
-        $view_params = $this->normalizeViewData($this->block['data'] ?? []);
-        $view_params = app(ResolveLocalizedBlockDataAction::class)->execute($view_params);
-        $view_params = $this->normalizeViewData($view_params);
+        $rawData = $this->block['data'] ?? [];
+        $viewParams = \is_array($rawData) ? $this->normalizeViewData($rawData) : [];
+        $viewParams = app(ResolveLocalizedBlockDataAction::class)->execute($viewParams);
+        $viewParams = $this->normalizeViewData($viewParams);
         Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
-        if (! view()->exists($view)) {
-            throw new \Exception('view not found ['.$view.']');
-        }
 
+<<<<<<< .merge_file_6VMgiq
         return view($view, $view_params);
 <<<<<<< HEAD
 =======
@@ -134,17 +145,19 @@ class Block extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        /* @var view-string $view */
+        return view($view, $viewParams);
+>>>>>>> .merge_file_HlKmPd
     }
 
     /**
+     * @param array<array-key, mixed> $data
+     *
      * @return array<string, mixed>
      */
-    private function normalizeViewData(mixed $data): array
+    private function normalizeViewData(array $data): array
     {
-        if (! is_array($data)) {
-            return [];
-        }
-
         $viewData = [];
 
         foreach ($data as $key => $value) {

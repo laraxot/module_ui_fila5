@@ -6,6 +6,7 @@ canonical: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+<<<<<<< .merge_file_TkuqKt
 =======
 <<<<<<< HEAD
 ---
@@ -19,6 +20,9 @@ See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Mo
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_GBWYJe
 
 
 ---
@@ -26,6 +30,7 @@ See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Mo
 ## Contenuto assorbito da `agents.md`
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+<<<<<<< .merge_file_TkuqKt
 =======
 <<<<<<< HEAD
 ---
@@ -48,6 +53,8 @@ See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Mo
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_GBWYJe
 related:
   - "./bmad-method.md"
   - "./context-compression.md"
@@ -56,6 +63,7 @@ related:
   - "./overview.md"
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
+<<<<<<< .merge_file_TkuqKt
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -77,3 +85,7 @@ See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Mo
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_GBWYJe

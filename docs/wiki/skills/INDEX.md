@@ -37,11 +37,15 @@ Le Skills progettuali vivono qui, nel wiki del Module **UI**, e vengono caricate
 <<<<<<< HEAD
 - Per Skills globali, consulta il [wiki root](../../docs/wiki/skills/index.md)
 =======
+<<<<<<< .merge_file_S5vUC6
 <<<<<<< HEAD
 - Per Skills globali, consulta il [wiki root](../../docs/wiki/skills/INDEX.md)
 =======
 - Per Skills globali, consulta il [wiki root](../../docs/wiki/skills/index.md)
 >>>>>>> laraxot/dev
+=======
+- Per Skills globali, consulta il [wiki root](../../docs/wiki/skills/INDEX.md)
+>>>>>>> .merge_file_4UNwPZ
 >>>>>>> laraxot/dev
 
 ## Aggiungere una Nuova SKILLS

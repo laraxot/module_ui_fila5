@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_mXqe0b
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -30,10 +31,11 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_wHt4pQ
 <?php
 
 declare(strict_types=1);
-
 ?>
 {{-- Radio Card Selector Component --}}
 @php

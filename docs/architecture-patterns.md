@@ -437,6 +437,14 @@ IconService
 - **Framework Base**: [Xot Architecture Patterns](../../Xot/docs/architecture-patterns.md)
 - **Disabled Components**: [disabled-components.md](./disabled-components.md)
 <<<<<<< HEAD
+<<<<<<< .merge_file_oQJTGD
+=======
+- **Architecture Overview**: [architecture.md](./architecture.md)
+- **Index**: [index.md](./index.md)
+- **Design System**: [DESIGN_COMUNI_IMPLEMENTATION.md](./design-comuni-implementation.md)
+- **Icon Integration**: [BRANDS_ICONS_INTEGRATION.md](./brands-icons-integration.md)
+=======
+>>>>>>> .merge_file_IgLzej
 - **Architecture Overview**: [ARCHITECTURE.md](./ARCHITECTURE.md)
 - **Index**: [INDEX.md](./INDEX.md)
 =======
@@ -479,6 +487,7 @@ IconService
 >>>>>>> laraxot/dev
 - **Design System**: [DESIGN_COMUNI_IMPLEMENTATION.md](./DESIGN_COMUNI_IMPLEMENTATION.md)
 - **Icon Integration**: [BRANDS_ICONS_INTEGRATION.md](./BRANDS_ICONS_INTEGRATION.md)
+>>>>>>> laraxot/dev
 
 ---
 

@@ -1,5 +1,6 @@
 <?php
 
+declare(strict_types=1);
 /**
  * The `Blocks` component is responsible for rendering a set of blocks on a view.
  *
@@ -37,6 +38,7 @@ final class Blocks extends Component
          * @phpstan-var view-string
          */
         $view = app(GetViewAction::class)->execute($this->view);
+<<<<<<< .merge_file_XmSmpH
 <<<<<<< HEAD
         $view_params = [
 =======
@@ -50,11 +52,15 @@ final class Blocks extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        $viewParams = [
+>>>>>>> .merge_file_PHlHUT
             'view' => $view,
             'blocks' => $this->blocks,
             'model' => $this->model,
         ];
 
+<<<<<<< .merge_file_XmSmpH
 <<<<<<< HEAD
         return view($view, $view_params);
 =======
@@ -68,5 +74,8 @@ final class Blocks extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        return view($view, $viewParams);
+>>>>>>> .merge_file_PHlHUT
     }
 }

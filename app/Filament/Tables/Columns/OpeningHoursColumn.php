@@ -6,9 +6,16 @@ namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Tables\Columns\TextColumn;
 use Modules\UI\Actions\Datetime\GetDaysMappingAction;
+<<<<<<< .merge_file_AiRD6q
 
 /**
  * Controparte in lista di {@see \Modules\UI\Filament\Forms\Components\OpeningHoursField}.
+=======
+use Modules\UI\Filament\Forms\Components\OpeningHoursField;
+
+/**
+ * Controparte in lista di {@see OpeningHoursField}.
+>>>>>>> .merge_file_TALaJN
  *
  * Stesso fatto di dominio (orari settimanali per fascia mattina/pomeriggio), due
  * superfici diverse per forma: il form edita ogni giorno con `TimePicker` dedicati
@@ -55,20 +62,28 @@ class OpeningHoursColumn extends TextColumn
             $slots = is_array($day) ? self::formatSlots($day) : [];
 
             $abbrev = mb_substr($dayLabel, 0, 3);
+<<<<<<< .merge_file_AiRD6q
 <<<<<<< HEAD
             $parts[] = $slots === []
 =======
             $parts[] = [] === $slots
 >>>>>>> laraxot/dev
+=======
+            $parts[] = [] === $slots
+>>>>>>> .merge_file_TALaJN
                 ? "{$abbrev} chiuso"
                 : $abbrev.' '.implode(', ', $slots);
         }
 
+<<<<<<< .merge_file_AiRD6q
 <<<<<<< HEAD
         return $parts === [] ? '—' : implode(' · ', $parts);
 =======
         return [] === $parts ? '—' : implode(' · ', $parts);
 >>>>>>> laraxot/dev
+=======
+        return [] === $parts ? '—' : implode(' · ', $parts);
+>>>>>>> .merge_file_TALaJN
     }
 
     /**

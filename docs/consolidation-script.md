@@ -84,6 +84,7 @@ mkdir -p archive
 
 # Spostare file con date
 <<<<<<< HEAD
+<<<<<<< .merge_file_1oK3S0
 mv dry-kiss-analysis-[DATE].md archive/dry-kiss-analysis.md 2>/dev/null
 mv phpstan-level-10-cleanup-[DATE].md archive/phpstan-level-10-cleanup.md 2>/dev/null
 =======
@@ -99,6 +100,13 @@ mv dry-kiss-analysis-2025-10-15.md archive/dry-kiss-analysis.md 2>/dev/null
 mv phpstan-level-10-cleanup-2025-11-06.md archive/phpstan-level-10-cleanup.md 2>/dev/null
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+mv dry-kiss-analysis-2025-10-15.md archive/dry-kiss-analysis.md 2>/dev/null
+mv phpstan-level-10-cleanup-2025-11-06.md archive/phpstan-level-10-cleanup.md 2>/dev/null
+=======
+mv dry-kiss-analysis-[DATE].md archive/dry-kiss-analysis.md 2>/dev/null
+mv phpstan-level-10-cleanup-[DATE].md archive/phpstan-level-10-cleanup.md 2>/dev/null
+>>>>>>> .merge_file_wWg3mK
 >>>>>>> laraxot/dev
 
 # Consolidare file PHPStan con date
@@ -109,11 +117,26 @@ mv phpstan-level-10-cleanup-2025-11-06.md archive/phpstan-level-10-cleanup.md 2>
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< .merge_file_1oK3S0
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+# Verificare duplicati con maiuscole rispetto ai nomi in minuscolo
+for file in *.md; do
+    lowercase="$(echo "$file" | tr '[:upper:]' '[:lower:]')"
+    if [ "$file" != "$lowercase" ] && [ -f "$lowercase" ]; then
+        if cmp -s "$file" "$lowercase" 2>/dev/null; then
+            rm -f "$file"
+        else
+            mv "$file" "${lowercase%.md}-uppercase.md"
+        fi
+    fi
+done
+=======
+>>>>>>> .merge_file_wWg3mK
 # Verificare se METODI_DUPLICATI_ANALISI.md è diverso da metodi-duplicati-analisi.md
 # Se sono identici, eliminare quello con maiuscole
 if [ -f "METODI_DUPLICATI_ANALISI.md" ]; then
@@ -124,6 +147,7 @@ if [ -f "METODI_DUPLICATI_ANALISI.md" ]; then
         mv METODI_DUPLICATI_ANALISI.md metodi-duplicati-analisi-uppercase.md
     fi
 fi
+<<<<<<< .merge_file_1oK3S0
 <<<<<<< HEAD
 =======
 =======
@@ -143,6 +167,8 @@ done
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_wWg3mK
 >>>>>>> laraxot/dev
 ```
 

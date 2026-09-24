@@ -3,6 +3,7 @@
 ## Panoramica
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_914Sxr
 Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_<nome progetto>_fila5_mono.
 =======
 <<<<<<< HEAD
@@ -30,6 +31,12 @@ Questo documento fornisce linee guida per l'integrazione dei server MCP (Model C
 Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_predict_fila3_mono.
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
+=======
+Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_ptvx_fila5.
+=======
+Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_<nome progetto>_fila5_mono.
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ryj9nS
 
 ## Server MCP Consigliati
 
@@ -257,17 +264,25 @@ class ThemeFileService
             $content = $this->mcpService->filesystem()->readFile($fullPath);
             
 <<<<<<< HEAD
+<<<<<<< .merge_file_914Sxr
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> .merge_file_ryj9nS
 
         try {
             $content = $this->mcpService->filesystem()->readFile($fullPath);
 
+<<<<<<< .merge_file_914Sxr
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ryj9nS
             return $content ?: null;
         } catch (\Exception $e) {
             Log::error("Failed to read theme file", [
@@ -384,18 +399,26 @@ class ThemeFileService
         }
         
 <<<<<<< HEAD
+<<<<<<< .merge_file_914Sxr
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> .merge_file_ryj9nS
 
         if ($directory) {
             $fullPath .= '/' . $directory;
         }
 
+<<<<<<< .merge_file_914Sxr
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ryj9nS
         try {
             return $this->mcpService->filesystem()->listDirectory($fullPath);
         } catch (\Exception $e) {
@@ -550,9 +573,12 @@ class UICacheService
             }
             
 <<<<<<< HEAD
+<<<<<<< .merge_file_914Sxr
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> .merge_file_ryj9nS
 
         try {
             $cached = $this->mcpService->redis()->get($cacheKey);
@@ -561,10 +587,15 @@ class UICacheService
                 return $cached['html'];
             }
 
+<<<<<<< .merge_file_914Sxr
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ryj9nS
             return null;
         } catch (\Exception $e) {
             Log::error("Failed to get cached UI component", [
@@ -617,9 +648,12 @@ class UICacheService
                 }
                 
 <<<<<<< HEAD
+<<<<<<< .merge_file_914Sxr
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> .merge_file_ryj9nS
 
             try {
                 $keys = $this->mcpService->redis()->keys($pattern);
@@ -628,10 +662,15 @@ class UICacheService
                     $this->mcpService->redis()->delete($key);
                 }
 
+<<<<<<< .merge_file_914Sxr
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ryj9nS
                 return true;
             } catch (\Exception $e) {
                 Log::error("Failed to invalidate UI component cache", [
@@ -834,18 +873,26 @@ class AnalyzeUIAccessibilityAction
             $suggestions = $analysis['accessibility']['suggestions'] ?? [];
             
 <<<<<<< HEAD
+<<<<<<< .merge_file_914Sxr
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> .merge_file_ryj9nS
 
             $accessibilityScore = $analysis['accessibility']['score'] ?? 0;
             $accessibilityIssues = $analysis['accessibility']['issues'] ?? [];
             $suggestions = $analysis['accessibility']['suggestions'] ?? [];
 
+<<<<<<< .merge_file_914Sxr
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ryj9nS
             return new UIAnalysisData(
                 score: $accessibilityScore,
                 issues: $accessibilityIssues,
@@ -1050,9 +1097,12 @@ class CachedUIComponent extends Component
         }
         
 <<<<<<< HEAD
+<<<<<<< .merge_file_914Sxr
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> .merge_file_ryj9nS
 
         /** @var UICacheService $uiCacheService */
         $uiCacheService = app(UICacheService::class);
@@ -1071,10 +1121,15 @@ class CachedUIComponent extends Component
             $uiCacheService->cacheComponent($this->componentName, $this->componentProps, $html, $this->cacheTtl);
         }
 
+<<<<<<< .merge_file_914Sxr
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ryj9nS
         return view('ui::livewire.cached-ui-component', [
             'html' => $html
         ]);
@@ -1116,18 +1171,26 @@ $analyze = function () {
         $analyzeAction = app(AnalyzeUIAccessibilityAction::class);
         
 <<<<<<< HEAD
+<<<<<<< .merge_file_914Sxr
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> .merge_file_ryj9nS
 
     try {
         /** @var AnalyzeUIAccessibilityAction $analyzeAction */
         $analyzeAction = app(AnalyzeUIAccessibilityAction::class);
 
+<<<<<<< .merge_file_914Sxr
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_ryj9nS
         $this->analysisResult = $analyzeAction->execute($this->url);
     } catch (\Exception $e) {
         $this->addError('analysis', $e->getMessage());
@@ -1234,6 +1297,7 @@ $analyze = function () {
 ## Conclusione
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_914Sxr
 L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_predict_fila3_mono.
 =======
 <<<<<<< HEAD
@@ -2472,4 +2536,9 @@ L'integrazione dei server MCP con il modulo UI consente di migliorare significat
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_ptvx_fila5.
+=======
+L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_<nome progetto>_fila5_mono.
+>>>>>>> .merge_file_ryj9nS
 >>>>>>> laraxot/dev

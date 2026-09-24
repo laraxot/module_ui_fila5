@@ -7,17 +7,32 @@ updated: 2026-06-13
 qmd: "UI module testing Pest PHPStan Sixteen components mockService createStub"
 issues:
 <<<<<<< HEAD
+<<<<<<< .merge_file_O021b8
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+discussions:
+related:
+  - "./auth-register-focus-loss-overlay.md"
+  - "./block-rendering-and-optional-services.md"
+  - "./claude-audit-static.md"
+  - "./code-redundancy-ui.md"
+  - "./context-overflow-prevention.md"
+  - "./enum-select-best-practices.md"
+  - "./enum-select-component.md"
+  - "./enum-select-contract-and-false-friends.md"
+=======
+>>>>>>> .merge_file_E3NDq0
   - "https://github.com/laraxot/base_fixcity_fila5/issues/52"
 discussions:
   - "https://github.com/laraxot/module_fixcity_fila5/discussions/53"
 related:
   - ../../../../Themes/Sixteen/docs/wiki/concepts/theme-component-test-contract.md
   - ../../../Xot/docs/wiki/concepts/phpstan-pest-bridge-discipline.md
+<<<<<<< .merge_file_O021b8
 <<<<<<< HEAD
 =======
 =======
@@ -36,6 +51,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_E3NDq0
 >>>>>>> laraxot/dev
 ---
 

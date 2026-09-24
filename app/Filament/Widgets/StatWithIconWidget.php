@@ -25,6 +25,7 @@ final class StatWithIconWidget extends XotBaseSchemaWidget
      */
     protected function getData(): array
     {
+<<<<<<< .merge_file_dL3wYL
 <<<<<<< HEAD
         dddx($this->label);
 
@@ -38,14 +39,19 @@ final class StatWithIconWidget extends XotBaseSchemaWidget
         return [];
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_uIMbAH
         return [
             'label' => $this->label,
             'value' => $this->value,
         ];
+<<<<<<< .merge_file_dL3wYL
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_uIMbAH
     }
 }

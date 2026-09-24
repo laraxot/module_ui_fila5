@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_Xxl8Hg
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -39,10 +40,11 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1IJ4sX
 <?php
 
 declare(strict_types=1);
-
 ?>
 <div class="relative bg-gray-50">
     <div class="relative bg-white shadow">

@@ -1,6 +1,7 @@
 # Analisi Approfondita del Modulo UI
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_Wz8tm1
 > **Generato**: [DATE]
 =======
 <<<<<<< HEAD
@@ -12,6 +13,11 @@
 > **Generato**: 2025-12-24
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+> **Generato**: 2025-12-24
+=======
+> **Generato**: [DATE]
+>>>>>>> .merge_file_7VNOdi
 >>>>>>> laraxot/dev
 > **Scopo**: Documentare la filosofia, logica, business logic e architettura del modulo UI
 
@@ -94,6 +100,7 @@ Ogni componente è progettato per essere riutilizzato in più moduli senza dupli
 
 ```php
 <<<<<<< HEAD
+<<<<<<< .merge_file_Wz8tm1
 // InlineDatePicker - Usato in TechPlanner, Employee, Cms
 // LocationSelector - Usato in TechPlanner, Employee, Geo
 =======
@@ -136,6 +143,13 @@ Ogni componente è progettato per essere riutilizzato in più moduli senza dupli
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+// InlineDatePicker - Usato in modulo operativo, Employee, Cms
+// LocationSelector - Usato in modulo operativo, Employee, Geo
+=======
+// InlineDatePicker - Usato in TechPlanner, Employee, Cms
+// LocationSelector - Usato in TechPlanner, Employee, Geo
+>>>>>>> .merge_file_7VNOdi
 >>>>>>> laraxot/dev
 // IconStateColumn - Usato in tutti i moduli con Spatie ModelStates
 // RadioCollection - Usato per selezioni complesse multimodulo
@@ -448,6 +462,7 @@ Altri moduli consumano componenti UI:
 
 ```php
 <<<<<<< HEAD
+<<<<<<< .merge_file_Wz8tm1
 // In TechPlanner/Filament/Resources/DeviceResource.php
 =======
 <<<<<<< HEAD
@@ -483,6 +498,11 @@ Altri moduli consumano componenti UI:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+// In modulo operativo/Filament/Resources/DeviceResource.php
+=======
+// In TechPlanner/Filament/Resources/DeviceResource.php
+>>>>>>> .merge_file_7VNOdi
 >>>>>>> laraxot/dev
 use Modules\UI\Filament\Forms\Components\InlineDatePicker;
 use Modules\UI\Filament\Tables\Columns\IconStateColumn;
@@ -758,6 +778,7 @@ Laravel risolve automaticamente override temi con view namespace precedence.
 **Versione**: 4.1.0
 **Framework**: Laravel 12 + Filament 4
 <<<<<<< HEAD
+<<<<<<< .merge_file_Wz8tm1
 =======
 <<<<<<< HEAD
 **Framework**: Laravel 13 + Filament 4
@@ -767,6 +788,10 @@ Laravel risolve automaticamente override temi con view namespace precedence.
 **Framework**: Laravel 13 + Filament 4
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+**Framework**: Laravel 13 + Filament 4
+=======
+>>>>>>> .merge_file_7VNOdi
 >>>>>>> laraxot/dev
 **PHPStan**: Level 10 ✅
 **Filosofia**: Estendere, Riutilizzare, Tradurre, Adattare

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_Pq1zFD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -18,6 +19,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_56gBGy
 return [
     'top-left' => [
         'label' => 'alto a sinistra',
@@ -42,6 +45,7 @@ return [
         ],
         'label' => 'Corner Position',
         'sort' => 1,
+<<<<<<< .merge_file_Pq1zFD
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
 =======
@@ -55,6 +59,9 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+>>>>>>> .merge_file_56gBGy
     ],
     'fields' => [
         'id' => [

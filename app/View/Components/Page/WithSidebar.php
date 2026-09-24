@@ -25,6 +25,7 @@ final class WithSidebar extends Component
          */
         $view = app(GetViewAction::class)->execute($this->tpl);
 
+<<<<<<< .merge_file_KXM3xK
 <<<<<<< HEAD
         $view_params = [];
 
@@ -46,5 +47,10 @@ final class WithSidebar extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+        $viewParams = [];
+
+        return view($view, $viewParams);
+>>>>>>> .merge_file_iTO633
     }
 }

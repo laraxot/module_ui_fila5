@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_8k59rh
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_5t0rdC
 ---
 title: "Esempio Pratico: Implementazione TableLayoutEnum"
 type: concept
@@ -12,6 +15,7 @@ tags: [table, layout, implementation, example]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "table-layout-implementation-example esempio pratico: implementazione tablelayoutenum"
+<<<<<<< .merge_file_8k59rh
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -24,15 +28,26 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_5t0rdC
 related:
   - "./inline-date-picker-usage.md"
 ---
 
+<<<<<<< .merge_file_8k59rh
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_5t0rdC
 # Esempio Pratico: Implementazione TableLayoutEnum
 
 ## Panoramica
@@ -191,6 +206,7 @@ class UserResource extends XotBaseResource
 
     public static function getFormSchema(): array
 <<<<<<< HEAD
+<<<<<<< .merge_file_8k59rh
 =======
 <<<<<<< HEAD
     public function getFormSchema(): array
@@ -200,6 +216,10 @@ class UserResource extends XotBaseResource
     public function getFormSchema(): array
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    public function getFormSchema(): array
+=======
+>>>>>>> .merge_file_5t0rdC
 >>>>>>> laraxot/dev
     {
         return [
@@ -386,6 +406,7 @@ class ListUsersTest extends TestCase
 
 - [TableLayoutEnum Documentation](../table-layout-enum-comprehensive.md)
 <<<<<<< HEAD
+<<<<<<< .merge_file_8k59rh
 - [UI Module Architecture](../architecture_rules.md)
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
 =======
@@ -401,5 +422,12 @@ class ListUsersTest extends TestCase
 - [Filament Best Practices](../../../../docs/filament_best-practices-2.md)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- [UI Module Architecture](../architecture-rules-1.md)
+- [Filament Best Practices](../../../../docs/filament_best-practices-2.md)
+=======
+- [UI Module Architecture](../architecture_rules.md)
+- [Filament Best Practices](../../../../docs/filament_best_practices.md)
+>>>>>>> .merge_file_5t0rdC
 >>>>>>> laraxot/dev
 - [Translation Standards](../../../../docs/translation_standards.md)

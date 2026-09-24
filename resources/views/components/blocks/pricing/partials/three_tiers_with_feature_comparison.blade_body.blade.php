@@ -1,3 +1,7 @@
+<?php
+
+declare(strict_types=1);
+?>
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp

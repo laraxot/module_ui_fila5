@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_bCcFqi
 =======
 <<<<<<< HEAD
 =======
@@ -18,6 +19,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_yN6fUW
 ---
 title: "custom_firm_fields"
 type: concept
@@ -37,6 +40,7 @@ related:
   - "./custom-firm-fields-1.md"
   - "./custom-theme-1.md"
 ---
+<<<<<<< .merge_file_bCcFqi
 <<<<<<< HEAD
 =======
 
@@ -58,6 +62,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> .merge_file_yN6fUW
 >>>>>>> laraxot/dev
 # custom_firm_fields
 
@@ -160,6 +167,7 @@ https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-ca
 =======
 
 https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
+<<<<<<< .merge_file_bCcFqi
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 <<<<<<< HEAD
 =======
@@ -172,3 +180,9 @@ https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-ca
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+https://laracasts.com/discuss/channels/livewire/laravel-filament-custom-field-call-function
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_yN6fUW

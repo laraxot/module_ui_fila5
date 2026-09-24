@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_zrayk9
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -69,6 +70,9 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+return [
+>>>>>>> .merge_file_EmvImP
     'fields' => [
         'monday' => [
             'morning' => [

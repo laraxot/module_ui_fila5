@@ -12,15 +12,24 @@ Secondo le regole di organizzazione della documentazione:
 ## Collegamenti ai Temi nel Modulo Cms
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_gV6Lxs
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+- [Compilazione dei Temi](../../Cms/docs/theme_compilation.md) - Processo di compilazione e pubblicazione dei temi
+- [Processo di Build del Tema](../../Cms/docs/theme-build-process.md) - Dettagli sul processo di build
+- [Struttura dei Temi](../../Cms/docs/themes/structure.md) - Organizzazione dei file nei temi
+- [Frontoffice](../../Cms/docs/frontoffice.md) - Documentazione completa sul frontend
+=======
+>>>>>>> .merge_file_hPhW7m
 - [Compilazione dei Temi](../../cms/docs/theme_compilation.md) - Processo di compilazione e pubblicazione dei temi
 - [Processo di Build del Tema](../../cms/docs/theme-build-process.md) - Dettagli sul processo di build
 - [Struttura dei Temi](../../cms/docs/themes/structure.md) - Organizzazione dei file nei temi
 - [Frontoffice](../../cms/docs/frontoffice.md) - Documentazione completa sul frontend
+<<<<<<< .merge_file_gV6Lxs
 <<<<<<< HEAD
 =======
 =======
@@ -33,6 +42,8 @@ Secondo le regole di organizzazione della documentazione:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_hPhW7m
 >>>>>>> laraxot/dev
 
 ## Implementazione dei Temi
@@ -58,6 +69,9 @@ I componenti UI definiti in questo modulo vengono utilizzati nei temi attraverso
 
 ## Collegamento Bidirezionale
 
+<<<<<<< HEAD
+Questo documento è collegato bidirezionalmente con [themes-ui-link.md](../../Cms/docs/themes-ui-link.md) nel modulo Cms.
+=======
 Questo documento è collegato bidirezionalmente con [themes-ui-link.md](../../cms/docs/themes-ui-link.md) nel modulo Cms.
 
 > Aggiorna entrambi i riferimenti se modifichi la documentazione dei temi o aggiungi nuove sezioni.
@@ -169,6 +183,7 @@ I componenti UI definiti in questo modulo vengono utilizzati nei temi attraverso
 ## Collegamento Bidirezionale
 
 Questo documento è collegato bidirezionalmente con [themes-ui-link.md](../../cms/project_docs/themes-ui-link.md) nel modulo Cms.
+>>>>>>> laraxot/dev
 
 > Aggiorna entrambi i riferimenti se modifichi la documentazione dei temi o aggiungi nuove sezioni.
 <<<<<<< HEAD

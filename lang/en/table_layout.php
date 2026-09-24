@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_OYBy7W
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -18,6 +19,9 @@ return [
 =======
 >>>>>>> laraxot/dev
 return [
+=======
+return [
+>>>>>>> .merge_file_PT3arh
     'values' => [
         'list' => [
             'label' => 'List',
@@ -32,11 +36,14 @@ return [
             'description' => 'Grid',
         ],
     ],
+<<<<<<< .merge_file_OYBy7W
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_PT3arh
     'actions' => [
         'toggle' => [
             'label' => 'Toggle Layout',

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_lRdS8G
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -28,10 +29,11 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_jj2s7s
 <?php
 
 declare(strict_types=1);
-
 ?>
 @props([
     'title' => 'Data to enrich your online business',

@@ -6,6 +6,7 @@ declare(strict_types=1);
 // claude-audit static: split from opening_hours_field.php for maintainability (<500 LOC).
 // Canon: Modules/UI/docs/wiki/concepts/claude-audit-static.md
 // File: lang/it/opening_hours_field_navigation.php
+<<<<<<< .merge_file_81c1fy
 <<<<<<< HEAD
 return array (
   'navigation' => 
@@ -23,6 +24,8 @@ return array (
   ),
 );
 =======
+=======
+>>>>>>> .merge_file_2987Qt
 return [
     'navigation' => [
         'name' => 'Opening Hours Field',
@@ -33,6 +36,7 @@ return [
         ],
         'label' => 'Opening Hours Field',
         'sort' => 1,
+<<<<<<< .merge_file_81c1fy
 <<<<<<< HEAD
         'icon' => 'heroicon-o-rectangle-stack',
 =======
@@ -45,3 +49,8 @@ return [
     ],
 ];
 >>>>>>> laraxot/dev
+=======
+        'icon' => 'heroicon-o-rectangle-stack',
+    ],
+];
+>>>>>>> .merge_file_2987Qt

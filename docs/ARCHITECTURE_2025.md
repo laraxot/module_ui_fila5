@@ -16,6 +16,7 @@ canonical: ../../../Themes/docs/shared-components/ARCHITECTURE.md
 
 See canonical documentation: ../../../Themes/docs/shared-components/ARCHITECTURE.md
 <<<<<<< HEAD
+<<<<<<< .merge_file_eacapi
 =======
 <<<<<<< HEAD
 =======
@@ -26,10 +27,13 @@ See canonical documentation: ../../../Themes/docs/shared-components/ARCHITECTURE
 >>>>>>> laraxot/dev
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_EyTxJq
 canonical: ../../../Themes/docs/shared-components/architecture.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/architecture.md
+<<<<<<< .merge_file_eacapi
 <<<<<<< HEAD
 =======
 >>>>>>> 92912795 (.)
@@ -39,3 +43,7 @@ See canonical documentation: ../../../Themes/docs/shared-components/architecture
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_EyTxJq

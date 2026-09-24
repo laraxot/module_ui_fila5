@@ -1,9 +1,25 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_i7XovI
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+---
+module: theme
+topic: filament_resources_structure
+canonical: ../../../Themes/docs/shared-components/filament-resources-structure_1.md
+---
+
+See canonical documentation: ../../../Themes/docs/shared-components/filament-resources-structure_1.md
+# Struttura delle Filament Resources
+## Panoramica
+Questo documento descrive la struttura e l'organizzazione delle Filament Resources nel progetto il progetto, con particolare attenzione all'integrazione con il modulo Xot.
+## Struttura Base
+Le Filament Resources seguono una struttura gerarchica standardizzata:
+=======
+>>>>>>> .merge_file_agUjWu
 # Struttura delle Filament Resources
 
 ## Panoramica
@@ -12,6 +28,7 @@ Questo documento descrive la struttura e l'organizzazione delle Filament Resourc
 ## Struttura Base
 Le Filament Resources seguono una struttura gerarchica standardizzata:
 
+<<<<<<< .merge_file_i7XovI
 <<<<<<< HEAD
 =======
 =======
@@ -62,6 +79,8 @@ Le Filament Resources seguono una struttura gerarchica standardizzata:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_agUjWu
 >>>>>>> laraxot/dev
 ```
 laravel/
@@ -80,6 +99,7 @@ laravel/
                 └── Resources/
                     └── {Model}Resource.php
 <<<<<<< HEAD
+<<<<<<< .merge_file_i7XovI
 =======
 <<<<<<< HEAD
 ## Classi Base di Xot
@@ -87,11 +107,17 @@ Le classi base di Xot forniscono funzionalità comuni a tutte le resources:
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+## Classi Base di Xot
+Le classi base di Xot forniscono funzionalità comuni a tutte le resources:
+=======
+>>>>>>> .merge_file_agUjWu
 ```
 
 ## Classi Base di Xot
 Le classi base di Xot forniscono funzionalità comuni a tutte le resources:
 
+<<<<<<< .merge_file_i7XovI
 <<<<<<< HEAD
 =======
 =======
@@ -99,12 +125,15 @@ Le classi base di Xot forniscono funzionalità comuni a tutte le resources:
 Le classi base di Xot forniscono funzionalità comuni a tutte le resources:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_agUjWu
 >>>>>>> laraxot/dev
 1. **XotBaseListRecords**
    - Gestione della lista dei record
    - Filtri e ordinamento
    - Azioni di massa
 <<<<<<< HEAD
+<<<<<<< .merge_file_i7XovI
 
 =======
 <<<<<<< HEAD
@@ -114,12 +143,17 @@ Le classi base di Xot forniscono funzionalità comuni a tutte le resources:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+
+>>>>>>> .merge_file_agUjWu
 >>>>>>> laraxot/dev
 2. **XotBaseCreateRecord**
    - Creazione di nuovi record
    - Validazione dei dati
    - Gestione delle traduzioni
 <<<<<<< HEAD
+<<<<<<< .merge_file_i7XovI
 =======
 <<<<<<< HEAD
 3. **XotBaseEditRecord**
@@ -127,12 +161,18 @@ Le classi base di Xot forniscono funzionalità comuni a tutte le resources:
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+3. **XotBaseEditRecord**
+   - Modifica dei record esistenti
+=======
+>>>>>>> .merge_file_agUjWu
 
 3. **XotBaseEditRecord**
    - Modifica dei record esistenti
    - Validazione dei dati
    - Gestione delle traduzioni
 
+<<<<<<< .merge_file_i7XovI
 <<<<<<< HEAD
 =======
 =======
@@ -140,6 +180,8 @@ Le classi base di Xot forniscono funzionalità comuni a tutte le resources:
    - Modifica dei record esistenti
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_agUjWu
 >>>>>>> laraxot/dev
 ## Namespace e Import
 Le classi base devono essere importate dal namespace corretto:
@@ -148,42 +190,67 @@ use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 use Modules\Xot\Filament\Resources\Pages\XotBaseCreateRecord;
 use Modules\Xot\Filament\Resources\Pages\XotBaseEditRecord;
 <<<<<<< HEAD
+<<<<<<< .merge_file_i7XovI
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
+=======
+## Documentazione Correlata
+- [Filament class extension rules (Xot)](../Xot/docs/filament-class-extension-rules.md)
+=======
+>>>>>>> .merge_file_agUjWu
 ```
 
 ## Documentazione Correlata
 
 - [Filament class extension rules (Xot)](../xot/docs/filament-class-extension-rules.md)
 
+>>>>>>> laraxot/dev
 ## Best Practices
 1. **Namespace**
    - Usa sempre il namespace completo
    - Importa le classi base dal percorso corretto
    - Mantieni la coerenza tra i moduli
+<<<<<<< HEAD
+=======
 
+>>>>>>> laraxot/dev
 2. **Ereditarietà**
    - Estendi sempre le classi base di Xot
    - Usa il prefisso "Base" per le classi base
    - Implementa solo le funzionalità specifiche del modulo
+<<<<<<< HEAD
+=======
 
+>>>>>>> laraxot/dev
 3. **Documentazione**
    - Mantieni aggiornata la documentazione
    - Crea collegamenti bidirezionali
    - Documenta le dipendenze
+<<<<<<< HEAD
+=======
 
+>>>>>>> laraxot/dev
 ## Note Importanti
 - Le classi base sono nel namespace `Modules\Xot\Filament\Resources\Pages\`
 - Non esistono classi senza il prefisso "Base"
 - La documentazione deve essere mantenuta sincronizzata
+<<<<<<< HEAD
+=======
 
+>>>>>>> laraxot/dev
 ## Links
 - [Documentazione Filament](https://filamentphp.com/)
 - [Laravel Modules](module-structure.md)
 - [Best Practices](best-practices.md)
+<<<<<<< HEAD
+## Note
+Questa documentazione è collegata bidirezionalmente con la documentazione specifica dei moduli. Per dettagli su resources specifiche, consultare la documentazione del modulo corrispondente.
+- [Documentazione CMS Module](../laravel/Modules/Cms/project_docs/filament-resources.md)
+- [Documentazione Xot Module](../laravel/Modules/Xot/project_docs/filament-resources.md)
+=======
 
 ## Note
 Questa documentazione è collegata bidirezionalmente con la documentazione specifica dei moduli. Per dettagli su resources specifiche, consultare la documentazione del modulo corrispondente.
@@ -317,6 +384,7 @@ Questa documentazione è collegata bidirezionalmente con la documentazione speci
 
 ## Note
 Questa documentazione è collegata bidirezionalmente con la documentazione specifica dei moduli. Per dettagli su resources specifiche, consultare la documentazione del modulo corrispondente.
+<<<<<<< .merge_file_i7XovI
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -343,4 +411,6 @@ See canonical documentation: ../../../Themes/docs/shared-components/filament-res
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_agUjWu
 >>>>>>> laraxot/dev

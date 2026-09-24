@@ -1,13 +1,13 @@
 <?php
 
 declare(strict_types=1);
-
 /**
  * @see https://github.com/awcodes/overlook/blob/2.x/src/Widgets/OverlookWidget.php
  */
 
 namespace Modules\UI\Filament\Widgets;
 
+<<<<<<< .merge_file_Ppqbpj
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -19,6 +19,9 @@ use Filament\Schemas\Components\Component;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+use Filament\Schemas\Components\Component;
+>>>>>>> .merge_file_i5w7yF
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 final class OverlookWidget extends XotBaseSchemaWidget
@@ -41,10 +44,13 @@ final class OverlookWidget extends XotBaseSchemaWidget
     /** @var array<int, array<string, mixed>> */
     public array $stats = [];
 
+    /** @phpstan-var view-string */
+    /** @phpstan-ignore property.defaultValue */
     protected string $view = 'ui::filament.widgets.overlook';
 
     protected int|string|array $columnSpan = 1;
 
+<<<<<<< .merge_file_Ppqbpj
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -60,6 +66,11 @@ final class OverlookWidget extends XotBaseSchemaWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+    /**
+     * @return array<string, Component>
+     */
+>>>>>>> .merge_file_i5w7yF
     public function getFormSchema(): array
     {
         return [];

@@ -4,10 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit;
 
+<<<<<<< .merge_file_aRVYIQ
 <<<<<<< HEAD
 use Mockery;
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_k9RV5l
 use Modules\UI\Tests\TestCase;
 use Modules\Xot\Tests\ModuleExecuteCoverage;
 use PHPUnit\Framework\Assert;
@@ -15,11 +18,15 @@ use PHPUnit\Framework\Assert;
 uses(TestCase::class);
 
 afterEach(function (): void {
+<<<<<<< .merge_file_aRVYIQ
 <<<<<<< HEAD
     Mockery::close();
 =======
     \Mockery::close();
 >>>>>>> laraxot/dev
+=======
+    \Mockery::close();
+>>>>>>> .merge_file_k9RV5l
 });
 
 describe('UI ModuleExecuteCoverage floor sweep', function (): void {

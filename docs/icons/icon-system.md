@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_5S6fGI
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_1PcMzY
 ---
 title: "UI Module Icon System"
 type: concept
@@ -12,6 +15,7 @@ tags: [icon, system]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "icon-system ui module icon system"
+<<<<<<< .merge_file_5S6fGI
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -32,6 +36,17 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+related:
+---
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_1PcMzY
 # UI Module Icon System
 
 ## How It Works
@@ -118,6 +133,7 @@ Each module registers its own SVG icons:
 - `Modules/User/resources/svg/` → `user-{name}`
 <<<<<<< HEAD
 - `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
+<<<<<<< .merge_file_5S6fGI
 =======
 <<<<<<< HEAD
 - `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
@@ -152,6 +168,11 @@ Each module registers its own SVG icons:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+- `resources/svg/` → `{name}`
+=======
+>>>>>>> .merge_file_1PcMzY
 >>>>>>> laraxot/dev
 - etc.
 

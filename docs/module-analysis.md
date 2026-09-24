@@ -6,6 +6,7 @@
 **Status**: ✅ Active  
 **Framework**: Laravel 12.x + Filament 4.x + Tailwind CSS  
 <<<<<<< HEAD
+<<<<<<< .merge_file_AOUUBw
 =======
 <<<<<<< HEAD
 **Framework**: Laravel 13.x + Filament 4.x + Tailwind CSS  
@@ -15,6 +16,10 @@
 **Framework**: Laravel 13.x + Filament 4.x + Tailwind CSS  
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+**Framework**: Laravel 13.x + Filament 4.x + Tailwind CSS  
+=======
+>>>>>>> .merge_file_TAC8x7
 >>>>>>> laraxot/dev
 **Component Library**: Custom UI components and styles  
 **Language**: Multi-language (IT/EN/DE)  
@@ -73,6 +78,7 @@ The UI module provides comprehensive user interface components and styling:
 - **Cms**: Content display components
 <<<<<<< HEAD
 - **Quaeris**: Dashboard UI components
+<<<<<<< .merge_file_AOUUBw
 =======
 <<<<<<< HEAD
 - **Quaeris**: Dashboard UI components
@@ -107,6 +113,11 @@ The UI module provides comprehensive user interface components and styling:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+- **modulo questionari**: Dashboard UI components
+=======
+>>>>>>> .merge_file_TAC8x7
 >>>>>>> laraxot/dev
 - **Xot**: Base UI infrastructure
 - **Filament**: Component compatibility
@@ -141,6 +152,7 @@ The UI module provides comprehensive user interface components and styling:
 <<<<<<< HEAD
 - Performance optimization
 =======
+<<<<<<< .merge_file_AOUUBw
 <<<<<<< HEAD
 - Performance optimization
 =======
@@ -150,4 +162,7 @@ The UI module provides comprehensive user interface components and styling:
 - Performance optimization
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- Performance optimization
+>>>>>>> .merge_file_TAC8x7
 >>>>>>> laraxot/dev

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_6H5lDB
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -18,6 +19,9 @@ return [
 =======
 >>>>>>> laraxot/dev
 return [
+=======
+return [
+>>>>>>> .merge_file_f5H5Qm
     'values' => [
         'list' => [
             'label' => 'Liste',
@@ -32,11 +36,14 @@ return [
             'description' => 'Raster',
         ],
     ],
+<<<<<<< .merge_file_6H5lDB
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_f5H5Qm
     'actions' => [
         'toggle' => [
             'label' => 'Layout wechseln',

@@ -7,6 +7,7 @@ created: "2026-05-26"
 updated: "2026-05-26"
 <<<<<<< HEAD
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/153"
+<<<<<<< .merge_file_uYR8ko
 =======
 <<<<<<< HEAD
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/153"
@@ -27,6 +28,11 @@ issue: "https://github.com/provtv/<nome repository>/issues/153"
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+issue: "https://github.com/provtv/<nome repository>/issues/153"
+=======
+>>>>>>> .merge_file_bPx243
 >>>>>>> laraxot/dev
 ---
 

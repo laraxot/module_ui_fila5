@@ -27,6 +27,13 @@ Technical implementation details for the UI module.
 <<<<<<< HEAD
 - Laravel 13.x
 =======
+<<<<<<< .merge_file_hR63da
+=======
+<<<<<<< HEAD
+- Laravel 13.x
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_NKQxBc
 >>>>>>> laraxot/dev
 - Filament 5.x
 - Xot Module

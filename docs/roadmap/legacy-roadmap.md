@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_iVcV27
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_d5QvFd
 ---
 title: "UI Module Roadmap"
 type: concept
@@ -12,6 +15,7 @@ tags: [legacy, roadmap]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "legacy-roadmap ui module roadmap"
+<<<<<<< .merge_file_iVcV27
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -24,6 +28,12 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_d5QvFd
 related:
   - "./00-index-1.md"
   - "./00-index.md"
@@ -35,11 +45,16 @@ related:
   - "./03-later.md"
 ---
 
+<<<<<<< .merge_file_iVcV27
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_d5QvFd
 # UI Module Roadmap
 
 Vedi [roadmap/00-index](roadmap/00-index.md).

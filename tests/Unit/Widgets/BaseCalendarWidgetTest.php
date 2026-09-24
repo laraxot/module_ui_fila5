@@ -45,6 +45,7 @@ function createTestCalendarWidget(): UserCalendarWidget
 }
 
 beforeEach(function (): void {
+<<<<<<< .merge_file_i1gmqS
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -61,6 +62,8 @@ beforeEach(function (): void {
 =======
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_LdQQYX
     /** @var MockInterface&SaveTransAction $mock */
     $mock = \Mockery::mock(SaveTransAction::class);
     /** @var ExpectationInterface $expectation */
@@ -68,11 +71,14 @@ beforeEach(function (): void {
     $expectation->andReturn(null);
 
     app()->instance(SaveTransAction::class, $mock);
+<<<<<<< .merge_file_i1gmqS
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_LdQQYX
 });
 
 describe('Base Calendar Widget', function (): void {

@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< .merge_file_a2KPkb
 =======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_jIudas
 ---
 title: "RadioCollection: Debugging & Risoluzione Problemi di Selezione"
 type: concept
@@ -12,6 +15,7 @@ tags: [radio, collection, debugging]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "radio-collection-debugging radiocollection: debugging & risoluzione problemi di selezione"
+<<<<<<< .merge_file_a2KPkb
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
@@ -24,6 +28,12 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_jIudas
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -35,11 +45,16 @@ related:
   - "./full-calendar-1.md"
 ---
 
+<<<<<<< .merge_file_a2KPkb
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jIudas
 # RadioCollection: Debugging & Risoluzione Problemi di Selezione
 
 ## 🔍 Diagnosi del Problema

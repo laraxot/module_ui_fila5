@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_j9a86f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -18,6 +19,9 @@ return [
 =======
 >>>>>>> laraxot/dev
 return [
+=======
+return [
+>>>>>>> .merge_file_RsNu46
     'values' => [
         'list' => [
             'label' => 'Lista',
@@ -32,11 +36,14 @@ return [
             'description' => 'Cuadrícula',
         ],
     ],
+<<<<<<< .merge_file_j9a86f
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_RsNu46
     'actions' => [
         'toggle' => [
             'label' => 'Cambiar diseño',

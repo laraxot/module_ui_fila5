@@ -303,6 +303,7 @@ abstract class UIBaseTestWidget extends XotBaseWidget
     public array $widgets = [];
     
 <<<<<<< HEAD
+<<<<<<< .merge_file_7rir5z
 =======
 <<<<<<< HEAD
 =======
@@ -320,10 +321,13 @@ abstract class UIBaseTestWidget extends XotBaseWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_u41tzd
 
     // Configurazioni comuni per tutti i widget di test UI
     public array $widgets = [];
 
+<<<<<<< .merge_file_7rir5z
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
@@ -341,6 +345,9 @@ abstract class UIBaseTestWidget extends XotBaseWidget
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> .merge_file_u41tzd
 >>>>>>> laraxot/dev
     // Metodi helper comuni
     protected function getTestData(): array
@@ -723,6 +730,7 @@ class SystemTestWidget extends UIBaseTestWidget
 ## 🔗 Collegamenti Correlati
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_7rir5z
 - [XotBase Patterns](../../xot/docs/optimization_opportunities.md)
 =======
 <<<<<<< HEAD
@@ -734,6 +742,11 @@ class SystemTestWidget extends UIBaseTestWidget
 - [XotBase Patterns](../../Xot/docs/optimization_opportunities.md)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+- [XotBase Patterns](../../Xot/docs/optimization_opportunities.md)
+=======
+- [XotBase Patterns](../../xot/docs/optimization_opportunities.md)
+>>>>>>> .merge_file_u41tzd
 >>>>>>> laraxot/dev
 - [UI Components](components.md)
 - [Development Guidelines](development-guidelines.md)
@@ -742,6 +755,7 @@ class SystemTestWidget extends UIBaseTestWidget
 ---
 
 <<<<<<< HEAD
+<<<<<<< .merge_file_7rir5z
 *Autore: Analisi Automatica del Progetto*
 =======
 <<<<<<< HEAD
@@ -767,6 +781,9 @@ class SystemTestWidget extends UIBaseTestWidget
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+*Ultimo aggiornamento: Giugno 2025*
+>>>>>>> .merge_file_u41tzd
 *Autore: Analisi Automatica del Progetto*
 # Ottimizzazioni Widget - Modulo UI
 ## Panoramica
@@ -932,6 +949,7 @@ class SystemTestWidget extends UIBaseTestWidget
 - [Testing Strategy](testing-strategy.md)
 ---
 *Ultimo aggiornamento: Giugno 2025*
+<<<<<<< .merge_file_7rir5z
 <<<<<<< HEAD
 =======
 *Autore: Analisi Automatica del Progetto*
@@ -954,4 +972,8 @@ class SystemTestWidget extends UIBaseTestWidget
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+=======
+*Autore: Analisi Automatica del Progetto*
+>>>>>>> .merge_file_u41tzd
 >>>>>>> laraxot/dev
