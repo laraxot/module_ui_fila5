@@ -229,22 +229,4 @@ Includi sempre esempi pratici:
 
 ---
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_ADmg3N
-=======
-<<<<<<< HEAD
 *Ultimo aggiornamento: Dicembre 2024*
-=======
-<<<<<<< HEAD
-=======
-*Ultimo aggiornamento: Dicembre 2024*
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-*Ultimo aggiornamento: Dicembre 2024*
-=======
->>>>>>> .merge_file_F5vB1A
->>>>>>> laraxot/dev
-=======
->>>>>>> 0dadab4 (Lint)

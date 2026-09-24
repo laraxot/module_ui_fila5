@@ -1,27 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_PiA7gZ
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_HIulS7
 ---
 title: "Gestione degli Asset"
 type: concept
@@ -38,34 +14,6 @@ related:
   - "./optimizations.md"
   - "./schemaless-attributes-guide.md"
 ---
-<<<<<<< .merge_file_PiA7gZ
-<<<<<<< HEAD
-=======
-
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> .merge_file_HIulS7
->>>>>>> laraxot/dev
-=======
->>>>>>> 0dadab4 (Lint)
 # Gestione degli Asset
 
 ## Struttura delle Directory
@@ -124,74 +72,15 @@ Gli script di automazione si trovano nella directory `bashscripts/`:
 - Creare alert per problemi di permessi
 - Monitorare lo spazio disponibile
 - Verificare periodicamente l'integrità degli asset
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-- Utilizzare lo script di verifica prima di ogni deploy
-# Gestione degli Asset
-<<<<<<< HEAD
-## Struttura delle Directory
-=======
-
-## Struttura delle Directory
-
-<<<<<<< .merge_file_PiA7gZ
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-- Utilizzare lo script di verifica prima di ogni deploy 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Utilizzare lo script di verifica prima di ogni deploy 
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-- Utilizzare lo script di verifica prima di ogni deploy 
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 - Utilizzare lo script di verifica prima di ogni deploy
 # Gestione degli Asset
 ## Struttura delle Directory
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_HIulS7
->>>>>>> laraxot/dev
-=======
-- Utilizzare lo script di verifica prima di ogni deploy
-# Gestione degli Asset
-
-## Struttura delle Directory
-
->>>>>>> 0dadab4 (Lint)
 ```
 public_html/
 └── assets/
     └── [module_name]/
         └── [asset_type]/
             └── [files]
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_PiA7gZ
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
 bashscripts/
 └── verify_assets.sh    # Script di verifica asset
 ## Permessi e Proprietari
@@ -199,95 +88,16 @@ bashscripts/
 2. **Gruppo**: www-data
 3. **Permessi**: 775 per le directory, 664 per i file
 ## Best Practices
-=======
->>>>>>> .merge_file_HIulS7
-=======
->>>>>>> 0dadab4 (Lint)
-
-bashscripts/
-└── verify_assets.sh    # Script di verifica asset
-```
-
-## Permessi e Proprietari
-
-1. **Proprietario**: www-data
-2. **Gruppo**: www-data
-3. **Permessi**: 775 per le directory, 664 per i file
-
-## Best Practices
-
-<<<<<<< HEAD
-<<<<<<< .merge_file_PiA7gZ
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-bashscripts/
-└── verify_assets.sh    # Script di verifica asset
-## Permessi e Proprietari
-1. **Proprietario**: www-data
-2. **Gruppo**: www-data
-3. **Permessi**: 775 per le directory, 664 per i file
-## Best Practices
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_HIulS7
->>>>>>> laraxot/dev
-=======
->>>>>>> 0dadab4 (Lint)
 1. **Verifica dei Permessi**:
    ```bash
    sudo chown -R www-data:www-data /path/to/public_html
    sudo chmod -R 775 /path/to/public_html
    ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_PiA7gZ
-
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_HIulS7
->>>>>>> laraxot/dev
-=======
-
->>>>>>> 0dadab4 (Lint)
 2. **Controlli Preventivi**:
    - Verificare l'esistenza della directory di destinazione
    - Controllare i permessi prima della copia
    - Implementare try-catch per gestire gli errori
    - Utilizzare lo script di verifica in `bashscripts/verify_assets.sh`
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_PiA7gZ
-
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_HIulS7
->>>>>>> laraxot/dev
-=======
-
->>>>>>> 0dadab4 (Lint)
 3. **Gestione degli Errori**:
    ```php
    try {
@@ -297,99 +107,14 @@ bashscripts/
        // Notifica all'amministratore
        // Fallback a asset di default
    }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_PiA7gZ
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
 ## Automazione
 Gli script di automazione si trovano nella directory `bashscripts/`:
 1. `verify_assets.sh` - Verifica e corregge la struttura degli asset
 2. Altri script di gestione asset
 ## Monitoraggio
-=======
->>>>>>> .merge_file_HIulS7
-=======
->>>>>>> 0dadab4 (Lint)
-   ```
-
-## Automazione
-
-Gli script di automazione si trovano nella directory `bashscripts/`:
-1. `verify_assets.sh` - Verifica e corregge la struttura degli asset
-2. Altri script di gestione asset
-
-## Monitoraggio
-
-<<<<<<< HEAD
-<<<<<<< .merge_file_PiA7gZ
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-## Automazione
-Gli script di automazione si trovano nella directory `bashscripts/`:
-1. `verify_assets.sh` - Verifica e corregge la struttura degli asset
-2. Altri script di gestione asset
-## Monitoraggio
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_HIulS7
->>>>>>> laraxot/dev
-=======
->>>>>>> 0dadab4 (Lint)
 - Implementare un sistema di logging per gli errori di asset
 - Creare alert per problemi di permessi
 - Monitorare lo spazio disponibile
 - Verificare periodicamente l'integrità degli asset
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_PiA7gZ
-- Utilizzare lo script di verifica prima di ogni deploy
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-- Utilizzare lo script di verifica prima di ogni deploy
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_HIulS7
 
 ```
-=======
-- Utilizzare lo script di verifica prima di ogni deploy
-<<<<<<< .merge_file_PiA7gZ
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- Utilizzare lo script di verifica prima di ogni deploy 
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_HIulS7
->>>>>>> laraxot/dev
-=======
-- Utilizzare lo script di verifica prima di ogni deploy
->>>>>>> 0dadab4 (Lint)

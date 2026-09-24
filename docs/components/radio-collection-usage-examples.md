@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_z6Z7Qt
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_KvljMA
 ---
 title: "RadioCollection - Esempi di Utilizzo"
 type: concept
@@ -16,25 +5,10 @@ tags: [radio, collection, usage, examples]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "radio-collection-usage-examples radiocollection - esempi di utilizzo"
-<<<<<<< .merge_file_z6Z7Qt
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_KvljMA
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -46,18 +20,6 @@ related:
   - "./full-calendar-1.md"
 ---
 
-<<<<<<< .merge_file_z6Z7Qt
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_KvljMA
-=======
->>>>>>> 0dadab4 (Lint)
 # RadioCollection - Esempi di Utilizzo
 
 ## Utilizzo Base

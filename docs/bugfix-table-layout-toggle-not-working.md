@@ -2,39 +2,8 @@
 module: UI
 topic: table-layout-toggle
 status: open
-<<<<<<< HEAD
-<<<<<<< HEAD
 related_issue: provtv/base_ptv_fila5_mono
-<<<<<<< .merge_file_aFztwP
-=======
-<<<<<<< HEAD
-related_issue: provtv/base_ptv_fila5_mono
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-related_issue: provtv/base_ptv_fila5_mono
->>>>>>> laraxot/dev
-<<<<<<< HEAD
 related_issue: provtv/<nome repository>
-=======
-=======
-related_issue: provtv/<nome repository>
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-related_issue: provtv/<nome repository>
-=======
->>>>>>> .merge_file_WB0Igc
->>>>>>> laraxot/dev
-=======
-related_issue: provtv/base_ptv_fila5_mono
->>>>>>> 0dadab4 (Lint)
 related_module_repo: laraxot/module_ui_fila5
 ---
 

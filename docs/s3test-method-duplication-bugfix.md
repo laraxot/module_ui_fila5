@@ -187,29 +187,7 @@ public function testAndReturnData(): array // Viola SRP
 - [Best Practices](best-practices.md) - Migliori pratiche
 
 ## Data Correzione
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_IIX7zy
-[DATE]
-=======
-<<<<<<< HEAD
 2025-01-06
-=======
-<<<<<<< HEAD
-[DATE]
-=======
-2025-01-06
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-2025-01-06
-=======
-[DATE]
->>>>>>> .merge_file_66JoGq
->>>>>>> laraxot/dev
-=======
-[DATE]
->>>>>>> 0dadab4 (Lint)
 
 ## Correzioni Aggiuntive Implementate
 

@@ -147,15 +147,20 @@ class CustomMiddleware
 // Non hardcodare percorsi delle risorse
 <<<<<<< HEAD
 <<<<<<< HEAD
-<img src="/var/www/html/<nome progetto>/laravel/public/images/avatar.png">
-=======
-<<<<<<< HEAD
 <<<<<<< HEAD
 =======
-<img src="/var/www/html/<nome progetto>/laravel/public/images/avatar.png">
-=======
-<<<<<<< HEAD
 >>>>>>> laraxot/dev
+<img src="/var/www/html/<nome progetto>/laravel/public/images/avatar.png">
+<img src="/var/www/html/saluteora/laravel/public/images/avatar.png">
+<img src="[project-root]/laravel/public/images/avatar.png">
+<img src="/var/www/html/saluteora/laravel/public/images/avatar.png">
+<<<<<<< HEAD
+=======
+<img src="/var/www/html/saluteora/laravel/public/images/avatar.png">
+<img src="[project-root]/laravel/public/images/avatar.png">
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
 <img src="/var/www/html/saluteora/laravel/public/images/avatar.png">
 <<<<<<< HEAD
 <img src="[project-root]/laravel/public/images/avatar.png">
@@ -178,14 +183,12 @@ class CustomMiddleware
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
 =======
-<img src="/var/www/html/<nome progetto>/laravel/public/images/avatar.png">
->>>>>>> 0dadab4 (Lint)
+>>>>>>> laraxot/dev
 
 // Non duplicare la registrazione dei componenti
 Blade::component('ui::components.icon', 'ui.icon');

@@ -2,36 +2,8 @@
 
 ## Collegamenti
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_jPx1Bc
-- [Modulo Lang](../../lang/docs/module_lang.md) - Documentazione principale sulle traduzioni
-- [Regole Generali Traduzioni](../../xot/docs/translations.md)
-=======
-<<<<<<< HEAD
 - [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale sulle traduzioni
 - [Regole Generali Traduzioni](../../Xot/docs/translations.md)
-=======
-<<<<<<< HEAD
-- [Modulo Lang](../../lang/docs/module_lang.md) - Documentazione principale sulle traduzioni
-- [Regole Generali Traduzioni](../../xot/docs/translations.md)
-=======
-- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale sulle traduzioni
-- [Regole Generali Traduzioni](../../Xot/docs/translations.md)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- [Modulo Lang](../../Lang/docs/module_lang.md) - Documentazione principale sulle traduzioni
-- [Regole Generali Traduzioni](../../Xot/docs/translations.md)
-=======
-- [Modulo Lang](../../lang/docs/module_lang.md) - Documentazione principale sulle traduzioni
-- [Regole Generali Traduzioni](../../xot/docs/translations.md)
->>>>>>> .merge_file_puXwAW
->>>>>>> laraxot/dev
-=======
-- [Modulo Lang](../../lang/docs/module_lang.md) - Documentazione principale sulle traduzioni
-- [Regole Generali Traduzioni](../../xot/docs/translations.md)
->>>>>>> 0dadab4 (Lint)
 
 ## Struttura
 
@@ -79,15 +51,6 @@ return [
 ];
 ```
 ## Collegamenti tra versioni di translations.md
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_jPx1Bc
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
 * [translations.md](../../../Chart/docs/translations.md)
 * [translations.md](../../../Reporting/docs/translations.md)
 * [translations.md](../../../Gdpr/docs/translations.md)
@@ -105,56 +68,3 @@ return [
 * [translations.md](../../../Activity/docs/translations.md)
 * [translations.md](../../../Patient/docs/translations.md)
 * [translations.md](../../../Cms/docs/translations.md)
-=======
->>>>>>> .merge_file_puXwAW
-=======
->>>>>>> 0dadab4 (Lint)
-* [translations.md](../../../chart/docs/translations.md)
-* [translations.md](../../../reporting/docs/translations.md)
-* [translations.md](../../../gdpr/docs/translations.md)
-* [translations.md](../../../notify/docs/translations.md)
-* [translations.md](../../../xot/docs/roadmap/lang/translations.md)
-* [translations.md](../../../xot/docs/translations.md)
-* [translations.md](../../../dental/docs/translations.md)
-* [translations.md](../../../user/docs/translations.md)
-* [translations.md](../../../ui/docs/translations.md)
-* [translations.md](../../../lang/docs/packages/translations.md)
-* [translations.md](../../../lang/docs/translations.md)
-* [translations.md](../../../job/docs/translations.md)
-* [translations.md](../../../media/docs/translations.md)
-* [translations.md](../../../tenant/docs/translations.md)
-* [translations.md](../../../activity/docs/translations.md)
-* [translations.md](../../../patient/docs/translations.md)
-* [translations.md](../../../cms/docs/translations.md)
-<<<<<<< HEAD
-<<<<<<< .merge_file_jPx1Bc
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-* [translations.md](../../../Chart/docs/translations.md)
-* [translations.md](../../../Reporting/docs/translations.md)
-* [translations.md](../../../Gdpr/docs/translations.md)
-* [translations.md](../../../Notify/docs/translations.md)
-* [translations.md](../../../Xot/docs/roadmap/lang/translations.md)
-* [translations.md](../../../Xot/docs/translations.md)
-* [translations.md](../../../Dental/docs/translations.md)
-* [translations.md](../../../User/docs/translations.md)
-* [translations.md](../../../UI/docs/translations.md)
-* [translations.md](../../../Lang/docs/packages/translations.md)
-* [translations.md](../../../Lang/docs/translations.md)
-* [translations.md](../../../Job/docs/translations.md)
-* [translations.md](../../../Media/docs/translations.md)
-* [translations.md](../../../Tenant/docs/translations.md)
-* [translations.md](../../../Activity/docs/translations.md)
-* [translations.md](../../../Patient/docs/translations.md)
-* [translations.md](../../../Cms/docs/translations.md)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_puXwAW
->>>>>>> laraxot/dev
-=======
->>>>>>> 0dadab4 (Lint)

@@ -20,8 +20,7 @@ final class Std extends Component
      */
     public function __construct(
         public string $tpl = '',
-    ) {
-    }
+    ) {}
 
     public function render(): Renderable
     {
@@ -30,38 +29,8 @@ final class Std extends Component
          */
         $view = app(GetViewAction::class)->execute($this->tpl);
 
-<<<<<<< HEAD
-<<<<<<< .merge_file_Ez2SeL
-<<<<<<< HEAD
-        $view_params = [];
-
-        return view($view, $view_params);
-=======
-<<<<<<< HEAD
         $viewParams = [];
 
         return view($view, $viewParams);
-=======
-<<<<<<< HEAD
-        $view_params = [];
-
-        return view($view, $view_params);
-=======
-        $viewParams = [];
-
-        return view($view, $viewParams);
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        $viewParams = [];
-
-        return view($view, $viewParams);
->>>>>>> .merge_file_zChN0o
-=======
-        $view_params = [];
-
-        return view($view, $view_params);
->>>>>>> 0dadab4 (Lint)
     }
 }

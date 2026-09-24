@@ -1,52 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< .merge_file_kaR3wy
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ZWo6B1
 <?php
 
 declare(strict_types=1);
-=======
-<?php
-
-declare(strict_types=1);
-
->>>>>>> 0dadab4 (Lint)
 ?>
 {{-- Requires Js --}}
 <div class="isolate overflow-hidden">
@@ -277,21 +231,6 @@ declare(strict_types=1);
                           <dd class="flex items-center justify-end sm:justify-center sm:px-4">
                             <span class="text-gray-900">3 invoices</span>
                           </dd>
-<<<<<<< HEAD
-<<<<<<< .merge_file_kaR3wy
-<<<<<<< HEAD
-@include('ui::components.blocks.pricing.partials.three_tiers_with_feature_comparison_tail.blade')
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-@include('ui::components.blocks.pricing.partials.three_tiers_with_feature_comparison_tail.blade')
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ZWo6B1
-=======
->>>>>>> 0dadab4 (Lint)
                         </div>
                         <div class="flex items-center justify-between px-4 py-3 sm:grid sm:grid-cols-2 sm:px-0">
                           <dt class="pr-4 text-gray-600">Exclusive offers</dt>
@@ -1233,14 +1172,3 @@ declare(strict_types=1);
       </div>
     </div>
   </div>
-<<<<<<< HEAD
-<<<<<<< .merge_file_kaR3wy
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ZWo6B1
-=======
->>>>>>> 0dadab4 (Lint)

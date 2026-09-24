@@ -1,10 +1,6 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-=======
-
->>>>>>> 0dadab4 (Lint)
 ?>
 <x-filament-panels::page>
     <form wire:submit="submit" class="space-y-6">

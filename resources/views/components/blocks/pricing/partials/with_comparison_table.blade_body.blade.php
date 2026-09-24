@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 ?>
-=======
->>>>>>> 0dadab4 (Lint)
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp

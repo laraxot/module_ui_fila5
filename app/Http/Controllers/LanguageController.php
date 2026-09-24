@@ -25,29 +25,6 @@ class LanguageController extends Controller
         session()->put('locale', $locale);
         app()->setLocale($locale);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         return redirect()->back();
-=======
-<<<<<<< HEAD
-        return redirect()->back();
-=======
-<<<<<<< HEAD
-        $previous = url()->previous();
-        $fallback = url('/');
-
-        if (! is_string($previous) || ! str_starts_with($previous, $fallback)) {
-            return redirect()->to($fallback);
-        }
-
-        return redirect()->to($previous);
-=======
-        return redirect()->back();
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        return redirect()->back();
->>>>>>> 0dadab4 (Lint)
     }
 }

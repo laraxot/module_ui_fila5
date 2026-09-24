@@ -26,23 +26,7 @@ final class RadioCollection extends XotBaseField
      * Set the options collection for the radio buttons.
      */
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * @param \Closure|Collection<int|string, mixed>|null $options
-=======
-<<<<<<< HEAD
      * @param  \Closure|Collection<int|string, mixed>|null  $options
-=======
-<<<<<<< HEAD
-     * @param \Closure|Collection<int|string, mixed>|null $options
-=======
-     * @param  \Closure|Collection<int|string, mixed>|null  $options
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-     * @param \Closure|Collection<int|string, mixed>|null $options
->>>>>>> 0dadab4 (Lint)
      */
     public function options(\Closure|Collection|null $options): static
     {
@@ -105,28 +89,6 @@ final class RadioCollection extends XotBaseField
 
     /**
      * Comparazione type-safe per determinare se un'opzione è selezionata.
-<<<<<<< HEAD
-<<<<<<< .merge_file_lwkCNS
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-     *
-     * @param mixed $stateOverride stato esplicito (test/offline senza container Livewire)
->>>>>>> .merge_file_Zz6H4R
-     */
-    public function isOptionSelected(mixed $option, mixed $stateOverride = null): bool
-    {
-<<<<<<< .merge_file_lwkCNS
-        $state = SafeStringCastAction::cast($this->getState());
-        $currentValue = (string) $state;
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
      *
      * @param  mixed  $stateOverride  stato esplicito (test/offline senza container Livewire)
      */
@@ -134,22 +96,6 @@ final class RadioCollection extends XotBaseField
     {
         $state = $stateOverride ?? $this->getState();
         $currentValue = (string) SafeStringCastAction::cast($state);
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        $state = $stateOverride ?? $this->getState();
-        $currentValue = SafeStringCastAction::cast($state);
->>>>>>> .merge_file_Zz6H4R
-=======
-     */
-    public function isOptionSelected(mixed $option): bool
-    {
-        $state = SafeStringCastAction::cast($this->getState());
-        $currentValue = (string) $state;
->>>>>>> 0dadab4 (Lint)
 
         // PHPStan L10: data_get restituisce mixed, SafeStringCastAction accetta mixed
         $optionData = data_get($option, $this->getValueKey());

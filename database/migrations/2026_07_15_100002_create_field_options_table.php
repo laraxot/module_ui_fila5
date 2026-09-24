@@ -1,23 +1,12 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-<<<<<<< .merge_file_0v9yE2
-
-=======
-<<<<<<< .merge_file_5sdRca
-
-=======
->>>>>>> .merge_file_GxRNBQ
->>>>>>> .merge_file_gN1QpW
-=======
-
->>>>>>> 0dadab4 (Lint)
 use Illuminate\Database\Schema\Blueprint;
 use Modules\UI\Models\FieldOption;
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
-return new class extends XotBaseMigration {
+return new class extends XotBaseMigration
+{
     protected ?string $model_class = FieldOption::class;
 
     public function up(): void

@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bQgfTE
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_1KYqa8
 ---
 title: "Bugfix: IconColumn View Path Mismatch"
 type: concept
@@ -16,42 +5,15 @@ tags: [iconcolumn, view, path, fix]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "iconcolumn-view-path-fix bugfix: iconcolumn view path mismatch"
-<<<<<<< .merge_file_bQgfTE
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_1KYqa8
 related:
   - "./groupcolumn-architectural-violations.md"
   - "./iconcolumn-extends-filament-column.md"
 ---
 
-<<<<<<< .merge_file_bQgfTE
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_1KYqa8
-=======
->>>>>>> 0dadab4 (Lint)
 # Bugfix: IconColumn View Path Mismatch
 
 **Data Fix**: 11 Novembre 2025
@@ -166,28 +128,6 @@ protected string $view = 'ui::filament.tables.columns.icon';
 
 ## Riferimenti
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bQgfTE
-- [Laraxot Architectural Rules](../../architecture_rules.md)
-=======
-<<<<<<< HEAD
 - [Laraxot Architectural Rules](../../architecture-rules-1.md)
-=======
-<<<<<<< HEAD
-- [Laraxot Architectural Rules](../../architecture_rules.md)
-=======
-- [Laraxot Architectural Rules](../../architecture-rules-1.md)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- [Laraxot Architectural Rules](../../architecture-rules-1.md)
-=======
-- [Laraxot Architectural Rules](../../architecture_rules.md)
->>>>>>> .merge_file_1KYqa8
->>>>>>> laraxot/dev
-=======
-- [Laraxot Architectural Rules](../../architecture_rules.md)
->>>>>>> 0dadab4 (Lint)
 - [XotBaseIconColumn](../../../../Xot/app/Filament/Tables/Columns/XotBaseIconColumn.php)
 - [Blade Best Practices](https://laravel.com/docs/blade)

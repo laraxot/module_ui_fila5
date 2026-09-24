@@ -1,10 +1,6 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-=======
-
->>>>>>> 0dadab4 (Lint)
 /**
  * @see https://filamentphp.com/docs/3.x/forms/fields/types
  * @see https://github.com/Valourite/form-builder/blob/v1.x/src/Filament/Enums/FieldType.php
@@ -18,32 +14,12 @@ use Filament\Support\Contracts\HasLabel;
 use Modules\Xot\Traits\EnumTrait;
 
 /**
-<<<<<<< HEAD
-<<<<<<< .merge_file_k4aE4q
-<<<<<<< HEAD
- * Filament form field types supported by the UI module.
-=======
-<<<<<<< HEAD
  * Defines the different types of appointments in the system.
-=======
-<<<<<<< HEAD
- * Filament form field types supported by the UI module.
-=======
- * Defines the different types of appointments in the system.
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
- * Defines the different types of appointments in the system.
->>>>>>> .merge_file_qCIK1o
-=======
- * Defines the different types of appointments in the system.
->>>>>>> 0dadab4 (Lint)
  *
- * @method static self        fromName(string $name)
- * @method static self        fromValue(string $value)
- * @method static self        tryFromName(string $name)
- * @method static self        tryFromValue(string $value)
+ * @method static self fromName(string $name)
+ * @method static self fromValue(string $value)
+ * @method static self tryFromName(string $name)
+ * @method static self tryFromValue(string $value)
  * @method static array<self> cases()
  */
 enum FieldTypeEnum: string implements HasColor, HasIcon, HasLabel
@@ -53,25 +29,7 @@ enum FieldTypeEnum: string implements HasColor, HasIcon, HasLabel
     case TEXT = 'text';
     // case NUMBER   = 'number';
     case EMAIL = 'email';
-<<<<<<< HEAD
-<<<<<<< .merge_file_k4aE4q
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
     // case PASSWORD = 'password';
-=======
-<<<<<<< HEAD
-=======
-    // case PASSWORD = 'password';
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-    // case PASSWORD = 'password';
->>>>>>> .merge_file_qCIK1o
-=======
-    // case PASSWORD = 'password';
->>>>>>> 0dadab4 (Lint)
     case TEXTAREA = 'textarea';
     case SELECT = 'select';
     case RADIO = 'radio';

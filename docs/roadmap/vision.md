@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_SPYOFA
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_YsvJSZ
 ---
 title: "Visione - UI Module"
 type: concept
@@ -16,25 +5,10 @@ tags: [vision]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "vision visione - ui module"
-<<<<<<< .merge_file_SPYOFA
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-=======
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_YsvJSZ
 related:
   - "./00-index-1.md"
   - "./00-index.md"
@@ -46,18 +20,6 @@ related:
   - "./03-later.md"
 ---
 
-<<<<<<< .merge_file_SPYOFA
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_YsvJSZ
-=======
->>>>>>> 0dadab4 (Lint)
 # Visione - UI Module
 
 Creare un ecosistema UI Headless-first:
