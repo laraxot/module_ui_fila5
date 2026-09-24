@@ -119,6 +119,7 @@ Thumbs.db
 # DEVELOPMENT TOOLS
 # ==============================================
 .windsurf/
+.cursor/
 
 
 # ==============================================
@@ -143,9 +144,6 @@ database/Seeders_old/
 database/Factories_old/
 database_old/
 
-
-# Test artifacts
-/tests/AuditCoverage/
 
 # ==============================================
 # MODULE SPECIFIC - UI
@@ -198,11 +196,7 @@ agentdb.rvf
 .devcontainer/
 .vscode/
 
-# Laraxot — local agent and quality tooling
-.rector.php
-.phpinsights.php
-
-# Root agent tooling and PHP quality configuration
+# Local AI agents and quality tooling (module-local configuration)
 /.agents/
 /.codex/
 /.cursor/
@@ -212,6 +206,5 @@ agentdb.rvf
 /phpinsights.php
 /.php-cs-fixer.php
 /.php-cs-fixer.dist.php
-
-# Generated Claude audit coverage scaffold (never commit)
+/tests/AuditCoverage/
 /audit-coverage/
