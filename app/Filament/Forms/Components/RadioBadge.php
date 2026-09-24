@@ -4,14 +4,40 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
+<<<<<<< .merge_file_tAb9DZ
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 use Filament\Forms\Components\Radio;
+=======
+>>>>>>> .merge_file_Oxn4QX
 use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasIcon;
+use Modules\Xot\Filament\Forms\Components\XotBaseRadio;
 
+<<<<<<< .merge_file_tAb9DZ
 class RadioBadge extends Radio
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> laraxot/dev
+use Filament\Support\Contracts\HasColor;
+use Filament\Support\Contracts\HasIcon;
+use Modules\Xot\Filament\Forms\Components\XotBaseRadio;
+
+class RadioBadge extends XotBaseRadio
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+class RadioBadge extends XotBaseRadio
+>>>>>>> .merge_file_Oxn4QX
 {
-    /** @phpstan-var view-string */
-    /** @phpstan-ignore property.defaultValue */
     protected string $view = 'ui::filament.forms.components.radio-badge';
 
     protected string $defaultColor = 'gray-200'; // gray-200

@@ -1,7 +1,10 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_tC6FVs
 
+=======
+>>>>>>> .merge_file_SKOfiw
 ?>
 <div class="bg-white">
     <div class="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">

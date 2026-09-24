@@ -1,3 +1,60 @@
+<<<<<<< HEAD
+<<<<<<< .merge_file_gvrmtZ
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_UEj0Rl
+---
+title: "Supporto per Icone nei Componenti Filament"
+type: concept
+tags: [component, icon, support]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "component-icon-support supporto per icone nei componenti filament"
+<<<<<<< .merge_file_gvrmtZ
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_UEj0Rl
+related:
+  - "./automatic-translations.md"
+  - "./best-practices.md"
+  - "./component-methods-compatibility.md"
+  - "./filament-4-components-guide.md"
+  - "./filament-4-migration-guide.md"
+  - "./filament-4-migration-summary.md"
+  - "./filament-4-migration-sumy.md"
+  - "./file-upload-component.md"
+---
+
+<<<<<<< .merge_file_gvrmtZ
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_UEj0Rl
 # Supporto per Icone nei Componenti Filament
 
 ## Riepilogo della Compatibilità

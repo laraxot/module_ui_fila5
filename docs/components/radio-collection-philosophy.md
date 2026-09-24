@@ -1,3 +1,60 @@
+<<<<<<< HEAD
+<<<<<<< .merge_file_y6FrY7
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_0KkgQI
+---
+title: "RadioCollection Component - A Deep Dive"
+type: concept
+tags: [radio, collection, philosophy]
+created: 2026-07-14
+updated: 2026-07-14
+qmd: "radio-collection-philosophy radiocollection component - a deep dive"
+<<<<<<< .merge_file_y6FrY7
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+=======
+=======
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
+discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+issues: ["https://github.com/provtv/<nome repository>/issues/124"]
+discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
+>>>>>>> .merge_file_0KkgQI
+related:
+  - "./address-field-1.md"
+  - "./address-field.md"
+  - "./blade-component-registration.md"
+  - "./filament-usage.md"
+  - "./filament.md"
+  - "./file-upload.md"
+  - "./footer.md"
+  - "./full-calendar-1.md"
+---
+
+<<<<<<< .merge_file_y6FrY7
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_0KkgQI
 # RadioCollection Component - A Deep Dive
 
 ## Philosophical Foundation
