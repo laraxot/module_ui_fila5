@@ -1,5 +1,6 @@
 # UI Module - Architecture Guide (2025)
 
+<<<<<<< .merge_file_Sdx5OZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_mGQ4oo
@@ -25,6 +26,9 @@
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+> **
+>>>>>>> .merge_file_pguxXh
 > **PHPStan Level:** 10
 > **Status:** Shared UI Components & Filament Customizations
 
@@ -568,6 +572,7 @@ class MyFormComponent extends Field
         $this->validateUsing([/* validation rules */]);
     }
 }
+<<<<<<< .merge_file_Sdx5OZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -580,6 +585,8 @@ class MyFormComponent extends Field
 >>>>>>> .merge_file_iwOKen
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_pguxXh
 
 // Non aggiungere route manualmente
 Route::get('/example', [ExampleController::class, 'index']);
@@ -601,6 +608,7 @@ Blade::component('ui::components.icon', 'ui.icon');
 
 // Non creare componenti personalizzati se esiste un equivalente Filament
 <x-ui.button>Click me</x-ui.button>
+<<<<<<< .merge_file_Sdx5OZ
 <<<<<<< HEAD
 <<<<<<< .merge_file_mGQ4oo
 <<<<<<< HEAD
@@ -614,6 +622,8 @@ Blade::component('ui::components.icon', 'ui.icon');
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_pguxXh
 ```
 
 ### Widget Development
@@ -720,6 +730,7 @@ The UI module is a **well-architected, feature-rich Filament customization layer
 ---
 
 **Document Version:** 1.0
+<<<<<<< .merge_file_Sdx5OZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_mGQ4oo
@@ -1462,3 +1473,6 @@ The UI module provides Filament-based admin interface components, themes, and ut
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+**Author:** Claude Code Analysis
+>>>>>>> .merge_file_pguxXh

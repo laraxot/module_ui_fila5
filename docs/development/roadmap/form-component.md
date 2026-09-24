@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_sYOuyn
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_k3pXoe
@@ -65,6 +66,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_wAi3x1
 # Form Component
 
 ## 📊 Stato Implementazione

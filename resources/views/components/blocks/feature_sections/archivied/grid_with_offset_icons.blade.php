@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_ZrX5fv
 <<<<<<< HEAD
 <<<<<<< .merge_file_tgTEon
 
@@ -9,6 +10,9 @@ declare(strict_types=1);
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_VVXZfe
 ?>
 <div class="relative bg-white py-24 sm:py-32 lg:py-40">
     <div class="mx-auto max-w-md px-6 text-center sm:max-w-3xl lg:max-w-7xl lg:px-8">

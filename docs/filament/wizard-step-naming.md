@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_lUYwPV
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ftQhwj
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_Q953x3
 # Convenzioni di Naming per i Wizard Step in Filament
 
 ## Regola Fondamentale

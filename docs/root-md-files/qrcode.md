@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_dnKNNb
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -46,6 +47,8 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_PxFtq1
 https://github.com/tecnickcom/TCPDF
 
 simplesoftwareio/simple-qrcode  

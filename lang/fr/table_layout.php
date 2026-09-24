@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_AicIXn
 <<<<<<< HEAD
 <<<<<<< .merge_file_JrVSN0
 <<<<<<< HEAD
@@ -57,6 +58,9 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+return [
+>>>>>>> .merge_file_djdhKh
     'actions' => [
         'toggle' => [
             'label' => 'Basculer la disposition',

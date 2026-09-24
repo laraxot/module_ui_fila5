@@ -193,8 +193,8 @@ Il modulo UI è il sistema di componenti e interfacce utente condivisi di <nome 
 
 ### File da Aggiornare
 - [ ] README.md - Aggiungere sezione testing
-<<<<<<< HEAD
 - [ ] CHANGELOG.md - Aggiornare con test
+<<<<<<< .merge_file_sQ97GF
 =======
 <<<<<<< HEAD
 - [ ] CHANGELOG.md - Aggiornare con test
@@ -216,6 +216,8 @@ Il modulo UI è il sistema di componenti e interfacce utente condivisi di <nome 
 >>>>>>> 92912795 (.)
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_qEbFk5
 - [ ] widget-documentation.md - Documentare widget
 
 ### Nuovi File da Creare

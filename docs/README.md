@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_aWSIUp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_D2S9oh
@@ -158,6 +159,8 @@ Documentation should be:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tCnFsL
 ---
 title: "UI Module Documentation"
 type: documentation
@@ -166,6 +169,7 @@ created: 2026-06-05
 updated: 2026-06-05
 ---
 
+<<<<<<< .merge_file_aWSIUp
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -178,6 +182,8 @@ updated: 2026-06-05
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_tCnFsL
 # Modulo UI - Componenti Condivisi
 
 ## Overview
@@ -185,6 +191,7 @@ updated: 2026-06-05
 Il modulo **UI** fornisce componenti Blade, widget Filament e asset condivisi per tutti i moduli e temi.
 
 ## Struttura Componenti
+<<<<<<< .merge_file_aWSIUp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_D2S9oh
@@ -231,6 +238,8 @@ This directory contains documentation for the module.
 >>>>>>> .merge_file_9fLzuH
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tCnFsL
 
 ```
 resources/views/components/ui/
@@ -284,6 +293,7 @@ resources/views/components/ui/
 
 ## AI Workflows
 - [AI Methodologies](./ai-methodologies.md)
+<<<<<<< .merge_file_aWSIUp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_D2S9oh
@@ -302,6 +312,9 @@ resources/views/components/ui/
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+||||||| parent of 9a84589 (.)
+>>>>>>> .merge_file_tCnFsL
     case LIST = 'list';
     case GRID = 'grid';
 
@@ -342,6 +355,7 @@ Workflow: `.github/workflows/semantic-versioning.yml`
 ## 📄 License
 MIT
 
+<<<<<<< .merge_file_aWSIUp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_D2S9oh
@@ -360,6 +374,9 @@ MIT
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_tCnFsL
 ## Standard Rules & Workflow
 
 - [[BMAD Method](../../../../docs/wiki/concepts/bmad-method.md)]
@@ -368,6 +385,7 @@ MIT
 
 ## Documentation
 
+<<<<<<< .merge_file_aWSIUp
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_D2S9oh
@@ -2487,3 +2505,9 @@ L'ecosistema ha 40+ moduli che condividono l'interfaccia admin. Senza un design 
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [On-Demand Pattern](./ON-DEMAND-PATTERN.md) — Pattern per caricamento efficiente
+- [QMD Setup](./QMD-SETUP.md) — Configurazione ricerca locale
+- [Performance](./PERFORMANCE-OPTIMIZATION.md) — Metriche e best practice
+- [Project Structure](./PROJECT-STRUCTURE.md) — Directory layout
+>>>>>>> .merge_file_tCnFsL

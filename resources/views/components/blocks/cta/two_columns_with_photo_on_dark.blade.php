@@ -1,10 +1,14 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_ntXFQF
 <<<<<<< HEAD
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_B89cqD
 ?>
 <div class="bg-gray-900 py-24 sm:py-32">
     <div class="relative isolate">

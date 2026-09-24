@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_GVGJNK
 <<<<<<< HEAD
 <<<<<<< .merge_file_0Ebype
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_VOgYiy
 return [
     'fields' => [
         'link' => ['label' => 'link', 'description' => 'link', 'helper_text' => 'link', 'placeholder' => 'link', 'tooltip' => ''],
@@ -43,6 +46,7 @@ return [
         'view' => ['label' => 'view', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
     ],
     'sections' => [
+<<<<<<< .merge_file_GVGJNK
 <<<<<<< HEAD
 <<<<<<< .merge_file_0Ebype
 <<<<<<< HEAD
@@ -66,6 +70,9 @@ return [
 >>>>>>> .merge_file_AQhpBn
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'empty' => ['heading' => 'empty'],
+>>>>>>> .merge_file_VOgYiy
     ],
     'label' => 'Hero',
     'plural_label' => 'Hero (Plurale)',
@@ -75,6 +82,7 @@ return [
         'group' => ['name' => 'General', 'description' => 'General Settings'],
         'label' => 'Hero',
         'sort' => 1,
+<<<<<<< .merge_file_GVGJNK
 <<<<<<< HEAD
 <<<<<<< .merge_file_0Ebype
 <<<<<<< HEAD
@@ -98,6 +106,9 @@ return [
 >>>>>>> .merge_file_AQhpBn
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_VOgYiy
     ],
     'actions' => [
         'create' => ['label' => 'Crea Hero'],

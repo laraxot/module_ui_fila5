@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Widgets;
 
+<<<<<<< .merge_file_uzYdJe
 <<<<<<< HEAD
 <<<<<<< .merge_file_EPQa5s
 <<<<<<< HEAD
@@ -25,12 +26,15 @@ use Filament\Schemas\Components\Component;
 >>>>>>> .merge_file_o158Jx
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_rjj24z
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 final class GroupWidget extends XotBaseSchemaWidget
 {
     protected static ?string $heading = 'Group Widget';
 
+<<<<<<< .merge_file_uzYdJe
 <<<<<<< HEAD
 <<<<<<< .merge_file_EPQa5s
 <<<<<<< HEAD
@@ -58,6 +62,8 @@ final class GroupWidget extends XotBaseSchemaWidget
 >>>>>>> .merge_file_o158Jx
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_rjj24z
     public function getFormSchema(): array
     {
         return [];

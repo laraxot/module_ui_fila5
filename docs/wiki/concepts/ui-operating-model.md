@@ -5,6 +5,7 @@ type: concept
 created: "2026-04-29T00:00:00Z"
 updated: "2026-04-29T07:22:00Z"
 related:
+<<<<<<< .merge_file_5MhiPY
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_HdEdFl
@@ -52,6 +53,10 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+  - "[[Theme Integration]]"
+  - "[[UI Architecture Sources]]"
+>>>>>>> .merge_file_t08ZCz
 ---
 
 # UI Operating Model
@@ -106,6 +111,7 @@ When a task concerns shared interface behavior:
 
 - [[UI Architecture Sources]]
 - `../../README.md`
+<<<<<<< .merge_file_5MhiPY
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_HdEdFl
@@ -137,4 +143,8 @@ When a task concerns shared interface behavior:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- `../../ARCHITECTURE.md`
+- `../../PRODUCT_STRATEGY.md`
+>>>>>>> .merge_file_t08ZCz
 - `../../architecture/structure.md`

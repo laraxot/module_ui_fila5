@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_bd8AMq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_1oTgLx
@@ -67,6 +68,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_SWwEk4
 # Standard UI
 
 ## 🎨 Design System

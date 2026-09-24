@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Feature;
 
+<<<<<<< .merge_file_du34e2
 <<<<<<< HEAD
 <<<<<<< .merge_file_HP6cbB
 <<<<<<< HEAD
@@ -17,16 +18,14 @@ use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\IconColumn;
 use Filament\Tables\Columns\SelectColumn;
 >>>>>>> .merge_file_cKfg58
+=======
+>>>>>>> .merge_file_dVT1oY
 use Filament\Tables\Columns\TextColumn;
-use Filament\Tables\Contracts\HasTable;
-use Filament\Tables\Table;
 use Illuminate\View\ComponentAttributeBag;
-use Mockery\Expectation;
-use Mockery\MockInterface;
 use Modules\UI\Filament\Tables\Columns\GroupColumn;
-use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use PHPUnit\Framework\Assert;
 
+<<<<<<< .merge_file_du34e2
 <<<<<<< .merge_file_HP6cbB
 <<<<<<< HEAD
 =======
@@ -99,6 +98,8 @@ function groupColumnViewTableBag(): array
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_dVT1oY
 // Test GroupColumn class
 describe('GroupColumn class', function (): void {
     it('can be instantiated with make()', function (): void {
@@ -108,6 +109,7 @@ describe('GroupColumn class', function (): void {
     });
 
     it('accepts schema with TextColumn instances', function (): void {
+<<<<<<< .merge_file_du34e2
 <<<<<<< HEAD
 <<<<<<< .merge_file_HP6cbB
 <<<<<<< HEAD
@@ -142,6 +144,8 @@ describe('GroupColumn class', function (): void {
 >>>>>>> .merge_file_cKfg58
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_dVT1oY
         $column = GroupColumn::make('worker')
             ->schema([
                 TextColumn::make('matr'),
@@ -181,6 +185,7 @@ describe('GroupColumn class', function (): void {
 
         Assert::assertSame('ui::filament.tables.columns.group', $property->getValue($column));
     });
+<<<<<<< .merge_file_du34e2
 <<<<<<< HEAD
 <<<<<<< .merge_file_HP6cbB
 <<<<<<< HEAD
@@ -221,6 +226,8 @@ describe('GroupColumn class', function (): void {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_dVT1oY
 });
 
 // Test view rendering with data_get() fallback
@@ -300,9 +307,13 @@ describe('GroupColumn view rendering', function (): void {
             return;
         }
 
-        $html = view('ui::filament.tables.columns.group', [
+        /** @var view-string $viewName */
+        $viewName = 'ui::filament.tables.columns.group';
+
+        $html = view($viewName, [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
+<<<<<<< .merge_file_du34e2
 <<<<<<< HEAD
             'attributes' => new ComponentAttributeBag(),
             'getExtraAttributes' => fn () => [],
@@ -337,6 +348,11 @@ describe('GroupColumn view rendering', function (): void {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+            'attributes' => new ComponentAttributeBag,
+            'getExtraAttributes' => fn () => [],
+            'isInline' => fn () => false,
+>>>>>>> .merge_file_dVT1oY
         ])->render();
 
         Assert::assertStringContainsString((string) 'Mario Rossi', (string) $html);
@@ -363,9 +379,13 @@ describe('GroupColumn view rendering', function (): void {
             return;
         }
 
-        $html = view('ui::filament.tables.columns.group', [
+        /** @var view-string $viewName */
+        $viewName = 'ui::filament.tables.columns.group';
+
+        $html = view($viewName, [
             'getFields' => fn () => $fields,
             'getRecord' => fn () => $record,
+<<<<<<< .merge_file_du34e2
 <<<<<<< HEAD
             'attributes' => new ComponentAttributeBag(),
             'getExtraAttributes' => fn () => [],
@@ -399,6 +419,11 @@ describe('GroupColumn view rendering', function (): void {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+            'attributes' => new ComponentAttributeBag,
+            'getExtraAttributes' => fn () => [],
+            'isInline' => fn () => false,
+>>>>>>> .merge_file_dVT1oY
         ])->render();
 
         Assert::assertStringContainsString((string) '12345', (string) $html);
@@ -417,6 +442,7 @@ describe('GroupColumn view rendering', function (): void {
 
         // The view logic: skip if empty($value) && $value !== 0 && $value !== '0'
         $shouldSkip = static function (mixed $value): bool {
+<<<<<<< .merge_file_du34e2
 <<<<<<< HEAD
             return empty($value) && 0 !== $value && '0' !== $value;
 =======
@@ -434,6 +460,9 @@ describe('GroupColumn view rendering', function (): void {
             return empty($value) && $value !== 0 && $value !== '0';
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+            return empty($value) && $value !== 0 && $value !== '0';
+>>>>>>> .merge_file_dVT1oY
         };
 
         Assert::assertTrue($shouldSkip($record->empty_field));
@@ -441,6 +470,7 @@ describe('GroupColumn view rendering', function (): void {
         Assert::assertFalse($shouldSkip($record->zero_int));
         Assert::assertFalse($shouldSkip($record->zero_string));
     });
+<<<<<<< .merge_file_du34e2
 <<<<<<< HEAD
 <<<<<<< .merge_file_HP6cbB
 <<<<<<< HEAD
@@ -579,4 +609,6 @@ describe('GroupColumn view rendering', function (): void {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_dVT1oY
 });

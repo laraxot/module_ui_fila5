@@ -12,6 +12,7 @@ use Modules\Xot\Filament\Blocks\XotBaseBlock;
 final class Navigation extends XotBaseBlock
 {
     /**
+<<<<<<< .merge_file_9OnKIf
 <<<<<<< HEAD
 <<<<<<< .merge_file_VfWMxq
 <<<<<<< HEAD
@@ -28,11 +29,15 @@ final class Navigation extends XotBaseBlock
 <<<<<<< HEAD
      * @return array<int, Component>
 >>>>>>> 804451c (Lint)
+=======
+     * @return array<int, Component>
+>>>>>>> .merge_file_OsL0QJ
      */
     #[\Override]
     public static function getBlockSchema(): array
     {
         return [
+<<<<<<< .merge_file_9OnKIf
 <<<<<<< HEAD
 <<<<<<< .merge_file_VfWMxq
             Repeater::make('items')
@@ -62,6 +67,9 @@ final class Navigation extends XotBaseBlock
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+            Repeater::make('items')
+>>>>>>> .merge_file_OsL0QJ
                 ->label(__('ui::blocks.navigation.fields.items.label'))
                 ->schema([
                     TextInput::make('label')
@@ -80,6 +88,7 @@ final class Navigation extends XotBaseBlock
     /**
      * @return array<string, Component>
      */
+<<<<<<< .merge_file_9OnKIf
 <<<<<<< HEAD
 <<<<<<< .merge_file_VfWMxq
 <<<<<<< HEAD
@@ -103,6 +112,9 @@ final class Navigation extends XotBaseBlock
 >>>>>>> .merge_file_fdBkUg
 =======
 >>>>>>> 804451c (Lint)
+=======
+    public function getFormSchema(): array
+>>>>>>> .merge_file_OsL0QJ
     {
         return [
             'items' => Repeater::make('items')

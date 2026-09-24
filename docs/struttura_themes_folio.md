@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_SPcrGg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_38jGls
@@ -51,6 +52,9 @@
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+# Struttura Themes e Folio in <nome progetto>
+>>>>>>> .merge_file_yEp230
 
 ## ⚠️ ATTENZIONE CRITICA
 
@@ -60,6 +64,7 @@
 
 ## Struttura del Progetto
 
+<<<<<<< .merge_file_SPcrGg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_38jGls
@@ -113,6 +118,9 @@ Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la st
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+Il progetto <nome progetto> utilizza un sistema di **Themes** che modifica la struttura standard di Laravel Folio:
+>>>>>>> .merge_file_yEp230
 
 ```
 /laravel/

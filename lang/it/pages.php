@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_U81iim
 <<<<<<< HEAD
 <<<<<<< .merge_file_5OiRgZ
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_fn63qS
 return [
     's3test' => [
         'heading' => 'Test',
@@ -87,6 +90,7 @@ return [
         ],
         'label' => 'Pages',
         'sort' => 1,
+<<<<<<< .merge_file_U81iim
 <<<<<<< HEAD
 <<<<<<< .merge_file_5OiRgZ
 <<<<<<< HEAD
@@ -110,6 +114,9 @@ return [
 >>>>>>> .merge_file_nvgfIz
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_fn63qS
     ],
     'fields' => [
         'id' => [

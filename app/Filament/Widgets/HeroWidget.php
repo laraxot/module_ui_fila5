@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Widgets;
 
+<<<<<<< .merge_file_2Wb5HM
 <<<<<<< HEAD
 <<<<<<< .merge_file_e5HN3p
 <<<<<<< HEAD
@@ -15,11 +16,13 @@ namespace Modules\UI\Filament\Widgets;
 use Filament\Widgets\StatsOverviewWidget as BaseWidget;
 =======
 >>>>>>> .merge_file_lKEpGh
+=======
+use Modules\Xot\Filament\Widgets\XotBaseStatsOverviewWidget as BaseWidget;
+>>>>>>> .merge_file_FKnAM9
 use Filament\Widgets\StatsOverviewWidget\Stat;
-use Modules\Xot\Filament\Widgets\XotBaseStatsOverviewWidget;
 
-<<<<<<< .merge_file_e5HN3p
 class HeroWidget extends BaseWidget
+<<<<<<< .merge_file_2Wb5HM
 <<<<<<< HEAD
 =======
 =======
@@ -48,6 +51,8 @@ class HeroWidget extends XotBaseStatsOverviewWidget
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_FKnAM9
 {
     protected ?string $heading = 'Hero Widget';
 

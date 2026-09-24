@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_O8i90u
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_YM0RWt
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_n2ALoa
 # EnumSelect Contract And False Friends
 
 ## Context
@@ -83,6 +86,7 @@ Questa pagina fissa il contratto minimo del componente.
 
 ## Best Practices
 
+<<<<<<< .merge_file_O8i90u
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_YM0RWt
@@ -111,6 +115,9 @@ Questa pagina fissa il contratto minimo del componente.
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- Estendere `Filament\Forms\Components\Select` mantenendo compatibilita' totale con la API parent.
+>>>>>>> .merge_file_n2ALoa
 - Dichiarare `public static function make(?string $name = null): static`.
 - Mantenere **identica** la firma di `enum()` al parent Filament: `enum(string|Closure|null $enum): static`.
 - Validare sempre che la classe passata a `->enum()` sia una backed enum esistente.

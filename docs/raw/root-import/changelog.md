@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_ZkelNq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_aLdRW3
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_KOlxN9
 # Changelog
 
 Tutte le variazioni importanti di UI saranno generate automaticamente da semantic-release.

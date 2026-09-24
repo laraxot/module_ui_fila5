@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_V8yNPu
 <<<<<<< HEAD
 <<<<<<< .merge_file_4UoYaj
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_jaf3oC
 return [
     'values' => [
         'list' => [
@@ -60,6 +63,7 @@ return [
         ],
         'label' => 'Table Layout Enum',
         'sort' => 1,
+<<<<<<< .merge_file_V8yNPu
 <<<<<<< HEAD
 <<<<<<< .merge_file_4UoYaj
 <<<<<<< HEAD
@@ -83,6 +87,9 @@ return [
 >>>>>>> .merge_file_IgHIoS
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_jaf3oC
     ],
     'fields' => [
         'id' => [

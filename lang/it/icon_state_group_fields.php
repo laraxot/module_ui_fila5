@@ -1,10 +1,14 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_fe59PR
 <<<<<<< HEAD
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_fGFuBC
 // UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
 // claude-audit static: loader for icon_state_group_fields (split <500 LOC).
 // Canon: Modules/UI/docs/wiki/concepts/claude-audit-static.md

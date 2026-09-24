@@ -125,6 +125,7 @@ Modules/UI/
 - [Documentazione Laravel Localization](https://github.com/mcamara/laravel-localization)
 - [Documentazione Filament](https://filamentphp.com/docs)
 - [Documentazione Folio](https://laravel.com/docs/folio)
+<<<<<<< .merge_file_Hk7EXC
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_qZOno4
@@ -156,3 +157,7 @@ Modules/UI/
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [Best Practices UI](./ui_best_practices.md)
+- [Guida Componenti](./components_guide.md)
+>>>>>>> .merge_file_d4m96O

@@ -6,6 +6,7 @@ declare(strict_types=1);
 // claude-audit static: split from icon_state_group.php for maintainability (<500 LOC).
 // Canon: Modules/UI/docs/wiki/concepts/claude-audit-static.md
 // File: lang/it/icon_state_group_label.php
+<<<<<<< .merge_file_P1xvK2
 <<<<<<< HEAD
 <<<<<<< .merge_file_I0vzop
 <<<<<<< HEAD
@@ -27,3 +28,8 @@ return [
     'label' => 'Icon State Group',
 ];
 >>>>>>> 804451c (Lint)
+=======
+return [
+    'label' => 'Icon State Group',
+];
+>>>>>>> .merge_file_cQHAHa

@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\View\Composers;
 
+<<<<<<< .merge_file_h7Pgm8
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -19,6 +20,8 @@ use Exception;
 use Exception;
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_3kYmcS
 use Illuminate\View\View;
 
 final class ThemeComposer
@@ -33,6 +36,7 @@ final class ThemeComposer
         return view($view);
     }
 
+<<<<<<< .merge_file_h7Pgm8
 <<<<<<< HEAD
 <<<<<<< .merge_file_LTtgOH
 <<<<<<< HEAD
@@ -56,10 +60,14 @@ final class ThemeComposer
 >>>>>>> .merge_file_ISC1he
 =======
 >>>>>>> 804451c (Lint)
+=======
+    public function metatag(string $index): mixed
+>>>>>>> .merge_file_3kYmcS
     {
         // $ris = self::__getStatic($index);
         // echo '<br/>['.$index.']['.$ris.']';
         // if ('' === $ris || null === $ris) {
+<<<<<<< .merge_file_h7Pgm8
 <<<<<<< HEAD
 <<<<<<< .merge_file_LTtgOH
 <<<<<<< HEAD
@@ -89,6 +97,9 @@ final class ThemeComposer
 >>>>>>> .merge_file_ISC1he
 =======
 >>>>>>> 804451c (Lint)
+=======
+        return config('metatag.'.$index);
+>>>>>>> .merge_file_3kYmcS
     }
 
     public function showScripts(): string
@@ -100,6 +111,7 @@ final class ThemeComposer
     {
         $view = "ui::svg.flags.{$lang}";
         if (! view()->exists($view)) {
+<<<<<<< .merge_file_h7Pgm8
 <<<<<<< HEAD
             throw new \Exception('view not exits ['.$view.']');
 =======
@@ -117,6 +129,9 @@ final class ThemeComposer
             throw new Exception('view not exits ['.$view.']');
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+            throw new \Exception('view not exits ['.$view.']');
+>>>>>>> .merge_file_3kYmcS
         }
 
         return view($view);

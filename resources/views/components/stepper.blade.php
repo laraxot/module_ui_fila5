@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_j0JjfT
 <<<<<<< HEAD
 <<<<<<< .merge_file_ol6Acr
 <<<<<<< HEAD
@@ -79,6 +80,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_lUDwZS
 @props([
     'currentStep' => 1,
     'totalSteps' => 4,

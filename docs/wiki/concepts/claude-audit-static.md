@@ -4,6 +4,7 @@ type: concept
 module: UI
 tags: [ui, quality, claude-audit, i18n, blade]
 created: 2026-07-09
+<<<<<<< .merge_file_XZXXfw
 <<<<<<< HEAD
 <<<<<<< .merge_file_aLhg7c
 <<<<<<< HEAD
@@ -40,6 +41,11 @@ related:
 >>>>>>> .merge_file_CgjQpH
 =======
 >>>>>>> 804451c (Lint)
+=======
+updated: 2026-07-12
+qmd: "UI claude-audit static 80 score lang split pricing blade partials SelectStateColumn"
+issues:
+>>>>>>> .merge_file_pipaea
   - "https://github.com/laraxot/module_ui_fila5/issues/1"
 discussions:
   - "https://github.com/laraxot/base_fixcity_fila5/discussions/304"
@@ -48,6 +54,7 @@ related:
   - ../../../../../../bashscripts/tools/split-module-lang-monolith-for-audit.php
   - ../../Xot/docs/wiki/concepts/claude-audit-static-all-modules.md
   - ../memories/lang-split-ui-claude-audit.md
+<<<<<<< .merge_file_XZXXfw
 <<<<<<< HEAD
 <<<<<<< .merge_file_aLhg7c
 <<<<<<< HEAD
@@ -77,6 +84,8 @@ related:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_pipaea
 ---
 
 # claude-audit static (UI)
@@ -98,6 +107,7 @@ bash bashscripts/tools/run-claude-audit-module-static.sh UI
 
 ## `.gitignore`
 
+<<<<<<< .merge_file_XZXXfw
 <<<<<<< HEAD
 <<<<<<< .merge_file_aLhg7c
 <<<<<<< HEAD
@@ -117,6 +127,11 @@ Bridge in `audit-coverage/tests/` (path con substring `/tests/`), non `tests/Aud
 
 Bridge in `audit-coverage/tests/` (path con substring `/tests/`), non `tests/AuditCoverage/`.
 >>>>>>> 804451c (Lint)
+=======
+`/Tests/` + negazioni `!tests/**` e `!audit-coverage/**` — rimuovere `audit-coverage/` dalla ignore list (altrimenti 0 test in static → 79/100).
+
+Bridge in `audit-coverage/tests/` (path con substring `/tests/`), non `tests/AuditCoverage/`.
+>>>>>>> .merge_file_pipaea
 
 ## Verifica
 

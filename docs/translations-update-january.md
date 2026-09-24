@@ -140,6 +140,7 @@ Tutte le traduzioni seguono la struttura espansa:
 
 ## Collegamenti
 
+<<<<<<< .merge_file_t53qOY
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Z3wc97
@@ -171,6 +172,11 @@ Tutte le traduzioni seguono la struttura espansa:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [Laraxot Translation Philosophy](../../xot/docs/translation-philosophy.md)
+- [Translation Standards](../../xot/docs/translation-standards.md)
+- [UI Module Documentation](../readme.md)
+>>>>>>> .merge_file_ijw7n5
 
 *Intervento completato il: 2026-01-22*
 *Conforme alle regole DRY + KISS*

@@ -2,6 +2,7 @@
 module: theme
 topic: organizzativa-money
 canonical: ../../../../../Themes/docs/shared-components/organizzativa-money-Modules.md
+<<<<<<< .merge_file_aIHNSq
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_M5c5SO
@@ -39,6 +40,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tGM3U8
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/organizzativa-money-Modules.md

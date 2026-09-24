@@ -1,5 +1,6 @@
 # MCP Servers per UI/UX - Modulo UI
 
+<<<<<<< .merge_file_j5tG4I
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Xx5PuZ
@@ -22,6 +23,8 @@
 > Ultimo aggiornamento: Febbraio 2026
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_ycCRXp
 
 ## Scopo
 
@@ -56,6 +59,7 @@ Il modulo UI fornisce componenti Blade condivisi in `resources/views/components/
 
 ## Collegamenti
 
+<<<<<<< .merge_file_j5tG4I
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Xx5PuZ
@@ -87,5 +91,9 @@ Il modulo UI fornisce componenti Blade condivisi in `resources/views/components/
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [MCP UI/UX Tema Two](../../themes/two/docs/mcp-ui-ux.md)
+- [Status MCP Progetto](../../../../docs/mcp-servers-status.md)
+>>>>>>> .merge_file_ycCRXp
 - [Skill MCP UI/UX](../../../.windsurf/skills/mcp-ui-ux/skill.md)
 - [Workflow MCP UI/UX](../../../.windsurf/workflows/mcp-ui-ux.md)

@@ -229,6 +229,7 @@ Includi sempre esempi pratici:
 
 ---
 
+<<<<<<< .merge_file_S1vvb3
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_ADmg3N
@@ -251,3 +252,5 @@ Includi sempre esempi pratici:
 *Ultimo aggiornamento: Dicembre 2024*
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_B3wnUJ

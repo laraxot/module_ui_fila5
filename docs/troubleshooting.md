@@ -2,6 +2,7 @@
 
 ## Common Issues
 
+<<<<<<< .merge_file_iJVVuj
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Smuzp3
@@ -1523,3 +1524,6 @@ For general troubleshooting, please refer to the [Xot Troubleshooting Guide](../
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+For general troubleshooting, please refer to the [Xot Troubleshooting Guide](../../xot/docs/troubleshooting.md).
+>>>>>>> .merge_file_OMD4zV

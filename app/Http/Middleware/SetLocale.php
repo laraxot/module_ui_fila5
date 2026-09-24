@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Session;
+<<<<<<< .merge_file_6KbIHK
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -23,6 +24,8 @@ use RuntimeException;
 use RuntimeException;
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_o2unbG
 use Symfony\Component\HttpFoundation\Response;
 
 final class SetLocale
@@ -42,8 +45,8 @@ final class SetLocale
 
         $response = $next($request);
         if (! $response instanceof Response) {
-<<<<<<< HEAD
             throw new \RuntimeException('Middleware must return a Response instance');
+<<<<<<< .merge_file_6KbIHK
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -59,6 +62,8 @@ final class SetLocale
             throw new RuntimeException('Middleware must return a Response instance');
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_o2unbG
         }
 
         return $response;

@@ -30,6 +30,7 @@ final class Std extends Component
          */
         $view = app(GetViewAction::class)->execute($this->tpl);
 
+<<<<<<< .merge_file_UFFCik
 <<<<<<< HEAD
 <<<<<<< .merge_file_Ez2SeL
 <<<<<<< HEAD
@@ -63,5 +64,10 @@ final class Std extends Component
 >>>>>>> .merge_file_zChN0o
 =======
 >>>>>>> 804451c (Lint)
+=======
+        $view_params = [];
+
+        return view($view, $view_params);
+>>>>>>> .merge_file_B7aQwV
     }
 }

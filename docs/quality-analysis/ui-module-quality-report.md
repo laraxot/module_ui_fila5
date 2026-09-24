@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_8GGYGu
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Z74LW1
@@ -58,6 +59,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_3C9xQa
 # Analisi Qualità - Modulo UI
 
 **Data Analisi**: 2025-01-22
@@ -132,6 +135,7 @@ related:
 ## 🔗 Collegamenti
 
 - [PHPStan Compliance](./phpstan-compliance.md)
+<<<<<<< .merge_file_8GGYGu
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Z74LW1
@@ -157,6 +161,9 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [Optimization Recommendations](./optimization_recommendations.md)
+>>>>>>> .merge_file_3C9xQa
 - [Modularity Optimizations](./modularity-optimizations.md)
 - [Xot Quality Analysis](../xot/docs/quality-analysis/current-status.md)
 

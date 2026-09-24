@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_onHWyc
 <<<<<<< HEAD
 <<<<<<< .merge_file_ZP9qdi
 <<<<<<< HEAD
@@ -73,6 +74,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_21d2OU
 @props([
     'notifications' => [],
     'maxCount' => 5,
@@ -203,6 +206,7 @@ declare(strict_types=1);
             </div>
         @endif
     </div>
+<<<<<<< .merge_file_onHWyc
 <<<<<<< HEAD
 <<<<<<< .merge_file_ZP9qdi
 <<<<<<< HEAD
@@ -226,3 +230,6 @@ declare(strict_types=1);
 >>>>>>> .merge_file_zFtlCi
 =======
 >>>>>>> 804451c (Lint)
+=======
+</div>
+>>>>>>> .merge_file_21d2OU

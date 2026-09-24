@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_QvRj0c
 <<<<<<< HEAD
 <<<<<<< .merge_file_KjlbZJ
 <<<<<<< HEAD
@@ -20,17 +21,43 @@ declare(strict_types=1);
 <<<<<<< HEAD
 =======
 >>>>>>> .merge_file_uXkuEx
+=======
+>>>>>>> .merge_file_HhORlA
 return [
-    'navigation' => ['label' => 'Navigazione', 'plural_label' => 'Navigazioni', 'group' => 'Gestione Contenuti', 'icon' => 'heroicon-o-rectangle-stack', 'sort' => 1],
+    'navigation' => [
+        'label' => 'Navigazione',
+        'plural_label' => 'Navigazioni',
+        'group' => 'Gestione Contenuti',
+        'icon' => 'heroicon-o-collection',
+        'sort' => 1,
+    ],
     'label' => 'Navigazione',
     'plural_label' => 'Navigazioni',
     'fields' => [
-        'items' => ['label' => 'Elementi', 'placeholder' => 'Seleziona elementi menu', 'helper_text' => 'Elementi che compongono la navigazione', 'description' => 'Lista degli elementi di navigazione', 'tooltip' => 'Clicca per aggiungere elementi'],
-        'label' => ['label' => 'Etichetta', 'placeholder' => 'Inserisci etichetta menu', 'helper_text' => 'Testo visualizzato nel menu', 'description' => 'Nome dell\'elemento di navigazione', 'tooltip' => 'Descrizione breve dell\'elemento'],
-        'url' => ['label' => 'URL', 'placeholder' => 'Inserisci URL destinazione', 'helper_text' => 'Indirizzo web o route name', 'description' => 'Destinazione del link', 'tooltip' => 'URL completo o nome route'],
-        'text' => ['label' => 'text', 'placeholder' => 'text', 'helper_text' => 'text', 'description' => 'text'],
+        'items' => [
+            'label' => 'Elementi',
+            'placeholder' => 'Seleziona elementi menu',
+            'helper_text' => 'Elementi che compongono la navigazione',
+            'description' => 'Lista degli elementi di navigazione',
+            'tooltip' => 'Clicca per aggiungere elementi',
+        ],
+        'label' => [
+            'label' => 'Etichetta',
+            'placeholder' => 'Inserisci etichetta menu',
+            'helper_text' => 'Testo visualizzato nel menu',
+            'description' => 'Nome dell\'elemento di navigazione',
+            'tooltip' => 'Descrizione breve dell\'elemento',
+        ],
+        'url' => [
+            'label' => 'URL',
+            'placeholder' => 'Inserisci URL destinazione',
+            'helper_text' => 'Indirizzo web o route name',
+            'description' => 'Destinazione del link',
+            'tooltip' => 'URL completo o nome route',
+        ],
     ],
     'actions' => [
+<<<<<<< .merge_file_QvRj0c
 <<<<<<< .merge_file_KjlbZJ
 =======
 return [
@@ -68,6 +95,8 @@ return [
     ],
     'actions' => [
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_HhORlA
         'create' => [
             'label' => 'Crea Navigazione',
             'success' => 'Navigazione creata con successo',
@@ -84,6 +113,7 @@ return [
             'failure' => 'Errore nell\'eliminazione della navigazione',
             'confirm' => 'Sei sicuro di voler eliminare questa navigazione?',
         ],
+<<<<<<< .merge_file_QvRj0c
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -120,5 +150,7 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_HhORlA
     ],
 ];

@@ -6,6 +6,7 @@ namespace Modules\UI\Actions\Panel;
 
 use Filament\Panel;
 use Illuminate\Support\Facades\Log;
+<<<<<<< .merge_file_Xdvq3N
 <<<<<<< HEAD
 <<<<<<< .merge_file_FpsdUE
 <<<<<<< HEAD
@@ -18,6 +19,9 @@ use Spatie\QueueableAction\QueueableAction;
 =======
 use Spatie\QueueableAction\QueueableAction;
 >>>>>>> 804451c (Lint)
+=======
+use Spatie\QueueableAction\QueueableAction;
+>>>>>>> .merge_file_YdTGJy
 
 /**
  * Action per applicare il calendario al panel Filament.
@@ -26,6 +30,7 @@ use Spatie\QueueableAction\QueueableAction;
  */
 final class ApplyCalendarToPanelAction
 {
+<<<<<<< .merge_file_Xdvq3N
 <<<<<<< HEAD
 <<<<<<< .merge_file_FpsdUE
 <<<<<<< HEAD
@@ -56,6 +61,11 @@ final class ApplyCalendarToPanelAction
 >>>>>>> .merge_file_sV9xiH
 =======
 >>>>>>> 804451c (Lint)
+=======
+    use QueueableAction;
+
+    public function execute(Panel $panel, string $calendarClass): Panel
+>>>>>>> .merge_file_YdTGJy
     {
         // TODO: Reimplementare quando sarà disponibile un pacchetto FullCalendar compatibile con Filament v4
         // Per ora ritorniamo il panel senza modifiche per evitare errori

@@ -13,6 +13,7 @@ use Modules\Xot\Providers\XotBaseServiceProvider;
  * Nota: la registrazione dei Blade components modulari avviene tramite GetModulePathByGeneratorAction
  * per garantire la corretta risoluzione dei path secondo la struttura dei moduli.
  *
+<<<<<<< .merge_file_gOGU5N
 <<<<<<< HEAD
 <<<<<<< .merge_file_mOdQhK
 <<<<<<< HEAD
@@ -40,10 +41,13 @@ use Modules\Xot\Providers\XotBaseServiceProvider;
 >>>>>>> .merge_file_AluPX9
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_6hqxN5
  * @phpstan-type ModuleConfig array{name: string, alias: string, description: string, keywords: array<int, string>, priority: int, providers: array<int, class-string>}
  */
 class UIServiceProvider extends XotBaseServiceProvider
 {
+<<<<<<< .merge_file_gOGU5N
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -55,6 +59,8 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_6hqxN5
     /**
      * Nome del modulo.
      */
@@ -63,6 +69,7 @@ class UIServiceProvider extends XotBaseServiceProvider
     /**
      * Directory del modulo.
      */
+<<<<<<< .merge_file_gOGU5N
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -77,10 +84,13 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_6hqxN5
     protected string $module_dir = __DIR__;
 
     protected string $module_ns = __NAMESPACE__;
 
+<<<<<<< .merge_file_gOGU5N
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -94,11 +104,16 @@ class UIServiceProvider extends XotBaseServiceProvider
     /**
 >>>>>>> 804451c (Lint)
      * Registra i servizi del provider.
+=======
+    /**
+     * Boot del service provider.
+>>>>>>> .merge_file_6hqxN5
      *
-     * Lega i contratti mappa/geocoding ai fallback Null di default. Quando il
-     * modulo Geo sarà installato, sostituire il binding qui senza toccare
-     * InteractiveMap (vedi docs/wiki/concepts/block-rendering-and-optional-services.md).
+     * Configura i componenti Blade e altre funzionalità del modulo UI.
+     *
+     * @return void
      */
+<<<<<<< .merge_file_gOGU5N
     public function register(): void
     {
         parent::register();
@@ -126,16 +141,17 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> 804451c (Lint)
         );
     }
+=======
+>>>>>>> .merge_file_6hqxN5
 
     /**
-     * Boot del service provider.
-     *
-     * Configura i componenti Blade e altre funzionalità del modulo UI.
+     * Registra i servizi del provider.
      *
      * @return void
      */
 
     /**
+<<<<<<< .merge_file_gOGU5N
 <<<<<<< HEAD
 =======
 >>>>>>> .merge_file_AluPX9
@@ -152,6 +168,10 @@ class UIServiceProvider extends XotBaseServiceProvider
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+     * Restituisce il percorso delle viste dei componenti UI.
+     */
+>>>>>>> .merge_file_6hqxN5
     public function getComponentViewPath(): string
     {
         return app(GetModulePathByGeneratorAction::class)->execute($this->name, 'component-view');

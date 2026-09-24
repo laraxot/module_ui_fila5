@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_MgERJB
 <<<<<<< HEAD
 <<<<<<< .merge_file_nBD9sl
 <<<<<<< HEAD
@@ -22,6 +23,8 @@ declare(strict_types=1);
 >>>>>>> .merge_file_kULYkf
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_I41ul0
 return [
     'fields' => [
         'newstate' => [
@@ -29,10 +32,13 @@ return [
             'tooltip' => '',
             'helper_text' => '',
             'description' => '',
+<<<<<<< .merge_file_MgERJB
 <<<<<<< HEAD
             'placeholder' => 'newstate',
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_I41ul0
         ],
         'pack' => [
             'label' => 'pack',
@@ -47,6 +53,7 @@ return [
             'helper_text' => '',
             'description' => '',
         ],
+<<<<<<< .merge_file_MgERJB
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -68,12 +75,15 @@ return [
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_I41ul0
     ],
     'label' => 'Icon Picker',
     'plural_label' => 'Icon Picker (Plurale)',
     'navigation' => [
         'name' => 'Icon Picker',
         'plural' => 'Icon Picker',
+<<<<<<< .merge_file_MgERJB
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -83,17 +93,23 @@ return [
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_I41ul0
         'group' => [
             'name' => 'General',
             'description' => 'General Settings',
         ],
         'label' => 'Icon Picker',
         'sort' => 1,
+<<<<<<< .merge_file_MgERJB
 <<<<<<< HEAD
         'icon' => 'heroicon-o-rectangle-stack',
 =======
         'icon' => 'heroicon-o-collection',
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_I41ul0
     ],
     'actions' => [
         'create' => [
@@ -105,6 +121,7 @@ return [
         'delete' => [
             'label' => 'Elimina Icon Picker',
         ],
+<<<<<<< .merge_file_MgERJB
 <<<<<<< HEAD
 <<<<<<< .merge_file_nBD9sl
 <<<<<<< HEAD
@@ -140,5 +157,7 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_I41ul0
     ],
 ];

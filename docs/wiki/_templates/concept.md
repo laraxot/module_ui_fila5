@@ -2,6 +2,7 @@
 module: theme
 topic: concept
 canonical: ../../../../../Themes/docs/shared-components/concept.md
+<<<<<<< .merge_file_I4Hln4
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_XyYfLT
@@ -29,6 +30,8 @@ related:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_akjpK5
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/concept.md

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_shHxGQ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_PHDM33
@@ -65,6 +66,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_C80nBC
 # Form Components - 95% Completato
 
 ## Descrizione

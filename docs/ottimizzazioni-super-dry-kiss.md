@@ -291,6 +291,7 @@ class ExampleComponent extends Component
 
 ## 🔗 Collegamenti
 
+<<<<<<< .merge_file_ETfwtL
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_KMqVnO
@@ -308,10 +309,13 @@ class ExampleComponent extends Component
 >>>>>>> .merge_file_7ysxSq
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_uD7nbw
 - [Documentazione Core](../../../../docs/core/)
 - [Best Practices Filament](../../../../docs/core/filament-best-practices.md)
 - [Convenzioni Sistema](../../../../docs/core/conventions.md)
 - [Template Modulo](../../../../docs/templates/module-template.md)
+<<<<<<< .merge_file_ETfwtL
 <<<<<<< HEAD
 <<<<<<< .merge_file_KMqVnO
 <<<<<<< HEAD
@@ -335,6 +339,8 @@ class ExampleComponent extends Component
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_uD7nbw
 
 ---
 

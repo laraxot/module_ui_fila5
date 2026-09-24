@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_Zu1z8j
 <<<<<<< HEAD
 <<<<<<< .merge_file_lRdS8G
 <<<<<<< HEAD
@@ -47,6 +48,12 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 804451c (Lint)
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> .merge_file_T4bwC6
 ?>
 @props([
     'title' => 'Data to enrich your online business',

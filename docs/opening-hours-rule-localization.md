@@ -128,8 +128,8 @@ App::setLocale('it');
 $rule = new OpeningHoursRule();
 // Verificare messaggi in italiano
 
-<<<<<<< HEAD
 // Test inglese
+<<<<<<< .merge_file_8CPoeo
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -171,6 +171,8 @@ $rule = new OpeningHoursRule();
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_81Z4bv
 App::setLocale('en');
 $rule = new OpeningHoursRule();
 // Verificare messaggi in inglese
@@ -224,16 +226,17 @@ $rule = new OpeningHoursRule();
 - [Validation System](./validation_system.md)
 - [Localization Guidelines](./localization_guidelines.md)
 
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 *Correzione completata: gennaio 2025*
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
-*Correzione completata: gennaio 2025*
-<<<<<<< HEAD
 =======
->>>>>>> laraxot/dev
+>>>>>>> .merge_file_81Z4bv
+*Correzione completata: gennaio 2025*
 # Localizzazione OpeningHoursRule - Modulo UI
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 ## Problema Identificato
 La classe `OpeningHoursRule` conteneva stringhe hardcoded in italiano, violando il principio di localizzazione per siti multilingua.
@@ -243,6 +246,8 @@ La classe `OpeningHoursRule` conteneva stringhe hardcoded in italiano, violando 
 =======
 # Localizzazione OpeningHoursRule - Modulo UI
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_81Z4bv
 
 ## Problema Identificato
 
@@ -252,6 +257,7 @@ La classe `OpeningHoursRule` conteneva stringhe hardcoded in italiano, violando 
 
 ### 1. Eliminazione Stringhe Hardcoded
 
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
 <<<<<<< HEAD
@@ -295,6 +301,8 @@ La classe `OpeningHoursRule` conteneva stringhe hardcoded in italiano, violando 
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_81Z4bv
 #### ❌ Prima (Stringhe Italiane Hardcoded)
 ```php
 $fail("Per {$dayLabel}, l'orario di chiusura mattina deve essere precedente all'apertura pomeridiana.");
@@ -302,6 +310,7 @@ $fail("Se specifichi l'orario di apertura {$sessionLabel} per {$dayLabel}, devi 
 $fail("L'orario di apertura {$sessionLabel} per {$dayLabel} deve essere precedente a quello di chiusura.");
 $sessionLabel = $session === 'morning' ? 'mattina' : 'pomeriggio';
 ```
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
@@ -333,10 +342,16 @@ $sessionLabel = $session === 'morning' ? 'mattina' : 'pomeriggio';
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+
+#### ✅ Dopo (Traduzioni Localizzate)
+```php
+>>>>>>> .merge_file_81Z4bv
 $fail(__('ui::validation.opening_hours.morning_before_afternoon', ['day' => $dayLabel]));
 $fail(__('ui::validation.opening_hours.missing_closing_time', ['session' => $sessionLabel, 'day' => $dayLabel]));
 $fail(__('ui::validation.opening_hours.opening_before_closing', ['session' => $sessionLabel, 'day' => $dayLabel]));
 $sessionLabel = $session === 'morning' ? __('ui::validation.opening_hours.morning') : __('ui::validation.opening_hours.afternoon');
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
@@ -352,10 +367,13 @@ $sessionLabel = $session === 'morning' ? __('ui::validation.opening_hours.mornin
 >>>>>>> .merge_file_4ZyRUC
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_81Z4bv
 ```
 
 ### 2. Aggiornamento File di Traduzione
 
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
 <<<<<<< HEAD
@@ -372,10 +390,13 @@ $sessionLabel = $session === 'morning' ? __('ui::validation.opening_hours.mornin
 ### 2. Aggiornamento File di Traduzione
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_81Z4bv
 #### File Aggiornati
 - `Modules/UI/lang/it/opening_hours.php` - Aggiunte nuove chiavi validation
 - `Modules/UI/lang/en/opening_hours.php` - Aggiunte traduzioni inglesi
 - `Modules/UI/lang/de/opening_hours.php` - Corrette traduzioni tedesche (erano italiane!)
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
@@ -407,6 +428,11 @@ $sessionLabel = $session === 'morning' ? __('ui::validation.opening_hours.mornin
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+
+#### Nuove Chiavi Traduzione Aggiunte
+```php
+>>>>>>> .merge_file_81Z4bv
 'validation' => [
     // ... chiavi esistenti ...
     'morning_before_afternoon' => 'Per :day, l\'orario di chiusura mattina deve essere precedente all\'apertura pomeridiana.',
@@ -416,6 +442,7 @@ $sessionLabel = $session === 'morning' ? __('ui::validation.opening_hours.mornin
     'morning' => 'mattina',
     'afternoon' => 'pomeriggio',
 ],
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
@@ -431,10 +458,13 @@ $sessionLabel = $session === 'morning' ? __('ui::validation.opening_hours.mornin
 >>>>>>> .merge_file_4ZyRUC
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_81Z4bv
 ```
 
 ### 3. Traduzioni Complete per Tre Lingue
 
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
 <<<<<<< HEAD
@@ -451,10 +481,13 @@ $sessionLabel = $session === 'morning' ? __('ui::validation.opening_hours.mornin
 ### 3. Traduzioni Complete per Tre Lingue
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_81Z4bv
 #### Italiano (it)
 - Linguaggio naturale e formale
 - Uso di terminologia medica appropriata
 - Messaggi chiari per gli utenti
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
@@ -476,10 +509,14 @@ $sessionLabel = $session === 'morning' ? __('ui::validation.opening_hours.mornin
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_81Z4bv
 #### Inglese (en)
 - Traduzione professionale
 - Terminologia medica internazionale
 - Messaggi user-friendly
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
@@ -501,10 +538,14 @@ $sessionLabel = $session === 'morning' ? __('ui::validation.opening_hours.mornin
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_81Z4bv
 #### Tedesco (de)
 - Correzione completa del file (era in italiano)
 - Terminologia medica tedesca appropriata
 - Struttura grammaticale tedesca corretta
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
@@ -522,11 +563,14 @@ $sessionLabel = $session === 'morning' ? __('ui::validation.opening_hours.mornin
 >>>>>>> .merge_file_4ZyRUC
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_81Z4bv
 
 ## Pattern di Localizzazione Utilizzato
 
 ### Struttura Messaggi di Validazione
 ```php
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
 <<<<<<< HEAD
@@ -544,11 +588,14 @@ $sessionLabel = $session === 'morning' ? __('ui::validation.opening_hours.mornin
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_81Z4bv
 // Con parametri dinamici
 __('ui::validation.opening_hours.message_key', [
     'session' => $sessionLabel,
     'day' => $dayLabel
 ])
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
@@ -566,11 +613,14 @@ __('ui::validation.opening_hours.simple_key')
 >>>>>>> .merge_file_4ZyRUC
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_81Z4bv
 
 // Senza parametri
 __('ui::validation.opening_hours.simple_key')
 ```
 
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
 <<<<<<< HEAD
@@ -588,12 +638,15 @@ __('ui::validation.opening_hours.simple_key')
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_81Z4bv
 ### Vantaggi del Pattern
 1. **Separazione completa** di logica e presentazione
 2. **Supporto parametri dinamici** per messaggi personalizzati
 3. **Manutenibilità** delle traduzioni senza toccare il codice
 4. **Consistenza** con il resto dell'applicazione
 5. **Scalabilità** per nuove lingue
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
@@ -611,6 +664,8 @@ __('ui::validation.opening_hours.simple_key')
 >>>>>>> .merge_file_4ZyRUC
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_81Z4bv
 
 ## Correzioni Tecniche
 
@@ -618,6 +673,7 @@ __('ui::validation.opening_hours.simple_key')
 - Rimossa riga `dddx($time);` dal metodo `isValidTimeFormat()`
 - Pulizia del codice per produzione
 
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
 <<<<<<< HEAD
@@ -641,10 +697,13 @@ __('ui::validation.opening_hours.simple_key')
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_81Z4bv
 ### Miglioramenti Code Quality
 - Tutti i messaggi ora localizzati
 - Nessuna stringa hardcoded rimanente
 - Conformità alle best practices Laravel
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
@@ -662,11 +721,14 @@ __('ui::validation.opening_hours.simple_key')
 >>>>>>> .merge_file_4ZyRUC
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_81Z4bv
 
 ## Struttura File di Traduzione
 
 ### Organizzazione Logica
 ```php
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
 <<<<<<< HEAD
@@ -684,6 +746,8 @@ __('ui::validation.opening_hours.simple_key')
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_81Z4bv
 return [
     'instructions' => [...],    // Istruzioni generali
     'headers' => [...],         // Intestazioni tabelle
@@ -696,6 +760,7 @@ return [
     'notes' => [...],          // Note e suggerimenti
     'validation' => [...],     // Messaggi di validazione
 ];
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
@@ -721,11 +786,16 @@ return [
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+```
+
+>>>>>>> .merge_file_81Z4bv
 ### Benefici Organizzazione
 - **Facile navigazione** per traduttori
 - **Raggruppamento logico** per contesto
 - **Manutenzione semplificata**
 - **Riutilizzabilità** delle traduzioni
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
@@ -744,6 +814,8 @@ Per testare la corretta localizzazione:
 >>>>>>> .merge_file_4ZyRUC
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_81Z4bv
 
 ## Test e Validazione
 
@@ -751,6 +823,7 @@ Per testare la corretta localizzazione:
 Per testare la corretta localizzazione:
 
 ```php
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
 <<<<<<< HEAD
@@ -769,10 +842,13 @@ Per testare la corretta localizzazione:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_81Z4bv
 // Test italiano
 App::setLocale('it');
 $rule = new OpeningHoursRule();
 // Verificare messaggi in italiano
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
@@ -792,6 +868,8 @@ App::setLocale('de');
 >>>>>>> .merge_file_4ZyRUC
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_81Z4bv
 
 // Test inglese
 App::setLocale('en');
@@ -804,6 +882,7 @@ $rule = new OpeningHoursRule();
 // Verificare messaggi in tedesco
 ```
 
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
 <<<<<<< HEAD
@@ -829,11 +908,14 @@ App::setLocale('de');
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_81Z4bv
 ### Messaggi di Validazione Testati
 1. **Orario mattina prima pomeriggio**
 2. **Orario apertura mancante**
 3. **Orario chiusura mancante**
 4. **Apertura prima chiusura**
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
@@ -856,20 +938,26 @@ App::setLocale('de');
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
-## Best Practices Applicate
 =======
 
+>>>>>>> .merge_file_81Z4bv
+## Best Practices Applicate
+
+<<<<<<< .merge_file_8CPoeo
 ## Best Practices Applicate
 
 >>>>>>> .merge_file_4ZyRUC
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_81Z4bv
 ### Localizzazione
 - ✅ Nessuna stringa hardcoded
 - ✅ Supporto parametri dinamici
 - ✅ Traduzioni complete per 3 lingue
 - ✅ Struttura espansa per traduzioni
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
@@ -891,11 +979,15 @@ App::setLocale('de');
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_81Z4bv
 ### Code Quality
 - ✅ Rimozione debug code
 - ✅ Commenti in inglese per codice
 - ✅ Tipizzazione corretta
 - ✅ Conformità PSR-12
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
@@ -917,10 +1009,14 @@ App::setLocale('de');
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_81Z4bv
 ### User Experience
 - ✅ Messaggi chiari e specifici
 - ✅ Contestualizzazione per giorno e sessione
 - ✅ Terminologia appropriata per dominio medico
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
@@ -952,11 +1048,17 @@ App::setLocale('de');
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+
+## Impatti della Correzione
+
+>>>>>>> .merge_file_81Z4bv
 ### Positivi
 - **Supporto multilingua completo** per validazione orari
 - **Messaggi localizzati** per tutti gli utenti
 - **Manutenibilità migliorata** delle traduzioni
 - **Conformità** alle best practices Laravel
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
@@ -978,10 +1080,14 @@ App::setLocale('de');
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_81Z4bv
 ### Prevenzione Problemi
 - **Evitata confusione** per utenti non italiani
 - **Prevenuti errori** di traduzione automatica
 - **Eliminati hardcoded** che causano problemi di manutenzione
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
@@ -1003,10 +1109,14 @@ App::setLocale('de');
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_81Z4bv
 ## Collegamenti
 - [Opening Hours Field](./opening_hours_field.md)
 - [Validation System](./validation_system.md)
 - [Localization Guidelines](./localization_guidelines.md)
+<<<<<<< .merge_file_8CPoeo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GyUESK
@@ -1057,3 +1167,7 @@ App::setLocale('de');
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+*Correzione completata: gennaio 2025*
+>>>>>>> .merge_file_81Z4bv

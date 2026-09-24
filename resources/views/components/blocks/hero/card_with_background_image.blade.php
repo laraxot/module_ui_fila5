@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_XOinW7
 <<<<<<< HEAD
 <<<<<<< .merge_file_arbVVk
 <<<<<<< HEAD
@@ -54,6 +55,12 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 804451c (Lint)
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> .merge_file_TLWWwd
 ?>
 <div class="bg-white">
     {{--

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_4lFbkm
 <<<<<<< HEAD
 <<<<<<< .merge_file_MUruAX
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_NndHsp
 return [
     'delete' => 'elimina',
     'edit' => 'modifica',
@@ -46,6 +49,7 @@ return [
         ],
         'label' => 'Txt',
         'sort' => 1,
+<<<<<<< .merge_file_4lFbkm
 <<<<<<< HEAD
 <<<<<<< .merge_file_MUruAX
 <<<<<<< HEAD
@@ -69,6 +73,9 @@ return [
 >>>>>>> .merge_file_yCScgX
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_NndHsp
     ],
     'fields' => [
         'id' => [

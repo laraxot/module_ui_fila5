@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_Aa2vwX
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_mSwjHS
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_w1Y7EO
 # blocks
 
 <!-- Contenuto migrato da _docs/blocks.txt -->

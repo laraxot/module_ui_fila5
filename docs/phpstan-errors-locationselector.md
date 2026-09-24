@@ -108,6 +108,7 @@ Aggiungere `@phpstan-ignore` e gestione errori:
 - Valutare se Geo deve essere modulo separato o parte di UI
 - Documentare struttura dati JSON attesa
 
+<<<<<<< .merge_file_ViYSk4
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -120,4 +121,6 @@ Aggiungere `@phpstan-ignore` e gestione errori:
 *Ultimo aggiornamento: 2025-01-27*
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tOfRaW
 

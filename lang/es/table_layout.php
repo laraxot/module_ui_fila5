@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_p8AUK4
 <<<<<<< HEAD
 <<<<<<< .merge_file_j9a86f
 <<<<<<< HEAD
@@ -57,6 +58,9 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+return [
+>>>>>>> .merge_file_FFb7GK
     'actions' => [
         'toggle' => [
             'label' => 'Cambiar diseño',

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_y3mu6w
 <<<<<<< HEAD
 <<<<<<< .merge_file_f3bsvm
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_Zly0Ip
 return [
     'fields' => [
         'name' => [

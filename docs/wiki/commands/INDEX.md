@@ -34,8 +34,8 @@ Le Commands progettuali vivono qui, nel wiki del Module **UI**, e vengono carica
 
 - La sorgente di verita' per le Commands e' sempre il wiki locale
 - Non embeddare Commands nei prompt di avvio
-<<<<<<< HEAD
 - Per Commands globali, consulta il [wiki root](../../docs/wiki/commands/INDEX.md)
+<<<<<<< .merge_file_JrUBu8
 =======
 <<<<<<< HEAD
 - Per Commands globali, consulta il [wiki root](../../docs/wiki/commands/INDEX.md)
@@ -57,6 +57,8 @@ Le Commands progettuali vivono qui, nel wiki del Module **UI**, e vengono carica
 >>>>>>> 92912795 (.)
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_51a8iK
 
 ## Aggiungere una Nuova COMMANDS
 

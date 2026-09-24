@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_T0dElf
 <<<<<<< HEAD
 <<<<<<< .merge_file_wnVRhO
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_hOl2TZ
 return [
     'actions' => [
         'select' => [
@@ -77,6 +80,7 @@ return [
         ],
         'label' => 'Studio Selector',
         'sort' => 1,
+<<<<<<< .merge_file_T0dElf
 <<<<<<< HEAD
 <<<<<<< .merge_file_wnVRhO
 <<<<<<< HEAD
@@ -100,5 +104,8 @@ return [
 >>>>>>> .merge_file_hcBQNu
 =======
 >>>>>>> 804451c (Lint)
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> .merge_file_hOl2TZ
     ],
 ];

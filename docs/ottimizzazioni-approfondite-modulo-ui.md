@@ -66,6 +66,7 @@ app/
 **Impatto:** Riduzione da 30+ a 10-15 file
 
 **Guide da consolidare:**
+<<<<<<< .merge_file_zq3Kct
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_xfcjQe
@@ -83,10 +84,13 @@ app/
 >>>>>>> .merge_file_5CKuv3
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_6fVUbI
 - **PHPStan:** Fare riferimento a `../../../docs/core/phpstan-guide.md`
 - **Filament:** Fare riferimento a `../../../docs/core/filament-best-practices.md`
 - **Testing:** Fare riferimento a `../../../docs/core/testing-guide.md`
 - **Code Quality:** Fare riferimento a `../../../docs/core/code-quality-guide.md`
+<<<<<<< .merge_file_zq3Kct
 <<<<<<< HEAD
 <<<<<<< .merge_file_xfcjQe
 <<<<<<< HEAD
@@ -110,6 +114,8 @@ app/
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_6fVUbI
 
 ### 2. Standardizzazione Naming File
 **Azione:** Rinominare tutti i file seguendo convenzioni corrette
@@ -316,6 +322,7 @@ php artisan test --testsuite=UI
 
 ## 🔗 Collegamenti Sistema
 
+<<<<<<< .merge_file_zq3Kct
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_xfcjQe
@@ -334,11 +341,14 @@ php artisan test --testsuite=UI
 >>>>>>> .merge_file_5CKuv3
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_6fVUbI
 - [**Documentazione Core Sistema**](../../../docs/core/)
 - [**PHPStan Guide**](../../../docs/core/phpstan-guide.md)
 - [**Filament Best Practices**](../../../docs/core/filament-best-practices.md)
 - [**Convenzioni Sistema**](../../../docs/core/conventions.md)
 - [**Template Moduli**](../../../docs/templates/)
+<<<<<<< .merge_file_zq3Kct
 <<<<<<< HEAD
 <<<<<<< .merge_file_xfcjQe
 <<<<<<< HEAD
@@ -363,6 +373,8 @@ php artisan test --testsuite=UI
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_6fVUbI
 
 ---
 

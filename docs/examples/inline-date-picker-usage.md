@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_yZqN4m
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_1Cbr7T
@@ -62,6 +63,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_KDYRpF
 # Esempi di Utilizzo di InlineDatePicker
 
 ## Esempio 1: Prenotazione Appuntamenti Medici

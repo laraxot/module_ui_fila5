@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_O61xtD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_6OResA
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_8YJN9n
 # Utilizzo dei Componenti Filament nel Progetto
 
 Questo documento serve come punto di riferimento centrale per l'utilizzo dei componenti Filament in tutto il progetto.

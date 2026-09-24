@@ -101,8 +101,8 @@ public function render()
 - [Best Practices UI](ui-best-practices.md)
 
 ## Note
-<<<<<<< HEAD
 Questa documentazione è parte del sistema di documentazione di il progetto. Per dettagli specifici sui singoli blocchi, consultare la documentazione dei rispettivi moduli.
+<<<<<<< .merge_file_syTND1
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -115,3 +115,5 @@ Questa documentazione è parte del sistema di documentazione di il progetto. Per
 Questa documentazione è parte del sistema di documentazione di il progetto. Per dettagli specifici sui singoli blocchi, consultare la documentazione dei rispettivi moduli. 
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_6LStw8

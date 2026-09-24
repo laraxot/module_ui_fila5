@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_SIoYwT
 <<<<<<< HEAD
 <<<<<<< .merge_file_1lmwxG
 <<<<<<< HEAD
@@ -49,6 +50,9 @@ return [
 >>>>>>> .merge_file_c31MPu
 =======
 >>>>>>> 804451c (Lint)
+=======
+return [
+>>>>>>> .merge_file_ZgX8MS
     'navigation' => [
         'label' => 'Test S3',
         'group' => 'UI',

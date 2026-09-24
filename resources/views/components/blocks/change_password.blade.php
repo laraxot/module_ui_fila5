@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_XV8jXl
 <<<<<<< HEAD
 <<<<<<< .merge_file_yFUJJN
 <<<<<<< HEAD
@@ -44,6 +45,12 @@ declare(strict_types=1);
 declare(strict_types=1);
 
 >>>>>>> 804451c (Lint)
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> .merge_file_y2VsaM
 ?>
 @props(['title' => 'Cambia Password'])
 

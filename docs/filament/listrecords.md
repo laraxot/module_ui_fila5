@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -18,11 +19,17 @@ use Filament\Resources\Pages\ListRecords;
 
 ## Estensione Corretta
 >>>>>>> 804451c (Lint)
+=======
+# List Records in Filament
+
+## Estensione Corretta
+>>>>>>> .merge_file_oEMyWw
 
 ```php
 // ❌ ERRATO: Non estendere ListRecords
 use Filament\Resources\Pages\ListRecords;
 
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 <<<<<<< .merge_file_bWV7Sr
 <<<<<<< HEAD
@@ -98,10 +105,13 @@ use Filament\Resources\Pages\ListRecords;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_oEMyWw
 class ListMyRecords extends ListRecords
 {
     // ...
 }
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_bWV7Sr
@@ -151,6 +161,10 @@ Estendono `XotBaseListRecords`: traduzioni, permessi e colonne restano nel contr
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+// ✅ CORRETTO: Estendere XotBaseListRecords
+>>>>>>> .merge_file_oEMyWw
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 
 class ListMyRecords extends XotBaseListRecords
@@ -161,6 +175,7 @@ class ListMyRecords extends XotBaseListRecords
     {
         return [
             // definizione colonne
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_bWV7Sr
@@ -347,18 +362,29 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+        ];
+    }
+}
+```
+
+>>>>>>> .merge_file_oEMyWw
 ## Metodi Obbligatori
 
 Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti metodi:
 
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_oEMyWw
 1. `getListTableColumns()`: Definisce le colonne della tabella
 2. `getListTableActions()`: Definisce le azioni per singola riga
 3. `getListTableBulkActions()`: Definisce le azioni di massa
 4. `getListTableFilters()`: Definisce i filtri della tabella
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 ## Convenzioni Importanti
@@ -376,6 +402,8 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_oEMyWw
 
 ## Convenzioni Importanti
 
@@ -402,14 +430,18 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 
 2. **❌ Metodi Senza Prefisso List**:
    ```php
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_oEMyWw
    // NON usare i metodi senza prefisso List
    public function getTableColumns(): array
    public function getTableActions(): array
    public function getTableBulkActions(): array
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 3. **❌ Visibilità Errata**:
@@ -434,6 +466,8 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_oEMyWw
    ```
 
 3. **❌ Visibilità Errata**:
@@ -485,14 +519,18 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 
 ## Note Importanti
 
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_oEMyWw
 1. XotBaseListRecords fornisce funzionalità aggiuntive rispetto a ListRecords:
    - Gestione automatica delle traduzioni
    - Integrazione con il sistema di permessi
    - Funzionalità custom del framework
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 2. La configurazione della tabella deve essere sempre nella classe List, non nel Resource
@@ -505,6 +543,8 @@ use Filament\Actions\CreateAction;
 =======
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_oEMyWw
 
 2. La configurazione della tabella deve essere sempre nella classe List, non nel Resource
 
@@ -515,6 +555,7 @@ declare(strict_types=1);
 
 namespace Modules\XXX\Filament\Resources\XXXResource\Pages;
 
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -549,14 +590,19 @@ namespace Modules\XXX\Filament\Resources\XXXResource\Pages;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_oEMyWw
 use Exception;
 use Filament\Actions;
 use Filament\Actions\CreateAction;
 use Filament\Resources\Pages\ListRecords;
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_oEMyWw
 use Filament\Tables\Actions\Action;
 use Filament\Tables\Actions\ActionGroup;
 use Filament\Tables\Actions\DeleteAction;
@@ -573,6 +619,7 @@ use Modules\UI\Enums\TableLayoutEnum;
 use Modules\UI\Filament\Actions\Table\TableLayoutToggleTableAction;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 class ListXXX extends XotBaseListRecords
@@ -640,27 +687,16 @@ class ListXXX extends XotBaseListRecords
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
+=======
+use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
+>>>>>>> .merge_file_oEMyWw
 
 class ListXXX extends XotBaseListRecords
 {
-    
+
     protected static string $resource = XXXResource::class;
 
-    
-
-    
-
-  
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-class ListXXX extends XotBaseListRecords
-{
-    
-    protected static string $resource = XXXResource::class;
-
+<<<<<<< .merge_file_w0dLiZ
 >>>>>>> laraxot/dev
 =======
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
@@ -678,11 +714,14 @@ class ListXXX extends XotBaseListRecords
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_oEMyWw
     public function getGridTableColumns(): array
     {
         return [
         ];
     }
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -724,12 +763,15 @@ class ListMyRecords extends XotBaseListRecords
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_oEMyWw
 
     public function getListTableColumns(): array
     {
         return [
         ];
     }
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -739,6 +781,8 @@ class ListMyRecords extends XotBaseListRecords
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_oEMyWw
 
     public function getTableFilters(): array
     {
@@ -769,6 +813,7 @@ class ListMyRecords extends XotBaseListRecords
 
     public function table(Table $table): Table
     {
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 <<<<<<< .merge_file_bWV7Sr
 <<<<<<< HEAD
@@ -829,11 +874,14 @@ class ListMyRecords extends XotBaseListRecords
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_oEMyWw
         return $table
             // ->columns($this->getTableColumns())
             ->columns($this->layoutView->getTableColumns())
             ->contentGrid($this->layoutView->getTableContentGrid())
             ->headerActions($this->getTableHeaderActions())
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_bWV7Sr
@@ -855,6 +903,9 @@ class ListMyRecords extends XotBaseListRecords
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_oEMyWw
             ->filters($this->getTableFilters())
             ->filtersLayout(FiltersLayout::AboveContent)
             ->persistFiltersInSession()
@@ -865,6 +916,7 @@ class ListMyRecords extends XotBaseListRecords
                 column: 'created_at',
                 direction: 'DESC',
             );
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -877,6 +929,8 @@ class ListMyRecords extends XotBaseListRecords
 >>>>>>> .merge_file_dN6dZC
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_oEMyWw
     }
 }
 ```
@@ -904,6 +958,7 @@ class ListMyRecords extends XotBaseListRecords
     {
         return [
             // definizione colonne
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -973,10 +1028,18 @@ class ListMyRecords extends XotBaseListRecords
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+        ];
+    }
+}
+```
+
+>>>>>>> .merge_file_oEMyWw
 ## Metodi Obbligatori
 
 Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti metodi:
 
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1016,10 +1079,13 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_oEMyWw
 1. `getListTableColumns()`: Definisce le colonne della tabella
 2. `getListTableActions()`: Definisce le azioni per singola riga
 3. `getListTableBulkActions()`: Definisce le azioni di massa
 4. `getListTableFilters()`: Definisce i filtri della tabella
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1029,6 +1095,8 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_oEMyWw
 
 ## Convenzioni Importanti
 
@@ -1055,6 +1123,7 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 
 2. **❌ Metodi Senza Prefisso List**:
    ```php
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1083,10 +1152,13 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_oEMyWw
    // NON usare i metodi senza prefisso List
    public function getTableColumns(): array
    public function getTableActions(): array
    public function getTableBulkActions(): array
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1096,6 +1168,8 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_oEMyWw
    ```
 
 3. **❌ Visibilità Errata**:
@@ -1147,6 +1221,7 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 
 ## Note Importanti
 
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1182,10 +1257,13 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_oEMyWw
 1. XotBaseListRecords fornisce funzionalità aggiuntive rispetto a ListRecords:
    - Gestione automatica delle traduzioni
    - Integrazione con il sistema di permessi
    - Funzionalità custom del framework
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1195,6 +1273,8 @@ Quando si estende `XotBaseListRecords`, è necessario implementare i seguenti me
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_oEMyWw
 
 2. La configurazione della tabella deve essere sempre nella classe List, non nel Resource
 
@@ -1209,6 +1289,7 @@ use Exception;
 use Filament\Actions;
 use Filament\Actions\CreateAction;
 use Filament\Resources\Pages\ListRecords;
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1232,6 +1313,8 @@ use Filament\Actions\CreateAction;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_oEMyWw
 use Filament\Tables\Actions\Action;
 use Filament\Tables\Actions\ActionGroup;
 use Filament\Tables\Actions\DeleteAction;
@@ -1248,6 +1331,7 @@ use Modules\UI\Enums\TableLayoutEnum;
 use Modules\UI\Filament\Actions\Table\TableLayoutToggleTableAction;
 use Modules\Xot\Filament\Traits\TransTrait;
 use Webmozart\Assert\Assert;
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1257,6 +1341,8 @@ use Webmozart\Assert\Assert;
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_oEMyWw
 use Modules\Xot\Filament\Resources\Pages\XotBaseListRecords;
 
 class ListXXX extends XotBaseListRecords
@@ -1305,6 +1391,7 @@ class ListXXX extends XotBaseListRecords
 
     public function table(Table $table): Table
     {
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1332,11 +1419,14 @@ class ListXXX extends XotBaseListRecords
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_oEMyWw
         return $table
             // ->columns($this->getTableColumns())
             ->columns($this->layoutView->getTableColumns())
             ->contentGrid($this->layoutView->getTableContentGrid())
             ->headerActions($this->getTableHeaderActions())
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
 
 =======
@@ -1351,6 +1441,9 @@ class ListXXX extends XotBaseListRecords
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_oEMyWw
             ->filters($this->getTableFilters())
             ->filtersLayout(FiltersLayout::AboveContent)
             ->persistFiltersInSession()
@@ -1361,6 +1454,7 @@ class ListXXX extends XotBaseListRecords
                 column: 'created_at',
                 direction: 'DESC',
             );
+<<<<<<< .merge_file_w0dLiZ
 <<<<<<< HEAD
     }
 }
@@ -1408,3 +1502,8 @@ class ListXXX extends XotBaseListRecords
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+    }
+}
+```
+>>>>>>> .merge_file_oEMyWw

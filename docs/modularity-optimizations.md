@@ -210,6 +210,7 @@ Dopo l'ottimizzazione completa, i comandi devono restituire **0 occorrenze**.
 
 ## Documentazione Correlata
 
+<<<<<<< .merge_file_XjbsKy
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_LsNnWM
@@ -227,10 +228,13 @@ Dopo l'ottimizzazione completa, i comandi devono restituire **0 occorrenze**.
 >>>>>>> .merge_file_zKNuKa
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_tNrFVp
 - [Root Docs: Modularity Hardcoded Names](../../../../docs/modularity-hardcoded-names.md)
 - [Regole Cursor: Modularity Rules](../../../.cursor/rules/modularity-hardcoded-names.mdc)
 - [UI Architecture Overview](./architecture-overview.md)
 - [UI Best Practices](./best-practices/readme.md)
+<<<<<<< .merge_file_XjbsKy
 <<<<<<< HEAD
 <<<<<<< .merge_file_LsNnWM
 <<<<<<< HEAD
@@ -254,6 +258,8 @@ Dopo l'ottimizzazione completa, i comandi devono restituire **0 occorrenze**.
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_tNrFVp
 
 ## Note di Implementazione
 

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_tpGPxY
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_XuZllW
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_vPuxeX
 # RadioCollection: Riassunto Correzione & Risultati FINALI
 
 ## 🎯 Problema Identificato

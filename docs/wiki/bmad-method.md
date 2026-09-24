@@ -2,6 +2,7 @@
 module: theme
 topic: bmad-method
 canonical: ../../../../Themes/docs/shared-components/bmad-method.md
+<<<<<<< .merge_file_OjrJ6Q
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_tgLkLY
@@ -36,6 +37,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_MhMGL4
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/bmad-method.md

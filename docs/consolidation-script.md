@@ -83,6 +83,7 @@ rm -f cms_themes_link.md
 mkdir -p archive
 
 # Spostare file con date
+<<<<<<< .merge_file_KZGeWs
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_1oK3S0
@@ -114,6 +115,10 @@ mv phpstan-level-10-cleanup-[DATE].md archive/phpstan-level-10-cleanup.md 2>/dev
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+mv dry-kiss-analysis-[DATE].md archive/dry-kiss-analysis.md 2>/dev/null
+mv phpstan-level-10-cleanup-[DATE].md archive/phpstan-level-10-cleanup.md 2>/dev/null
+>>>>>>> .merge_file_dgDZvk
 
 # Consolidare file PHPStan con date
 # phpstan-fixes-gennaio-2025.md → consolidare in phpstan-compliance.md
@@ -122,6 +127,7 @@ mv phpstan-level-10-cleanup-[DATE].md archive/phpstan-level-10-cleanup.md 2>/dev
 ## File con Maiuscole da Rinominare
 
 ```bash
+<<<<<<< .merge_file_KZGeWs
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_1oK3S0
@@ -146,6 +152,8 @@ done
 >>>>>>> .merge_file_wWg3mK
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_dgDZvk
 # Verificare se METODI_DUPLICATI_ANALISI.md è diverso da metodi-duplicati-analisi.md
 # Se sono identici, eliminare quello con maiuscole
 if [ -f "METODI_DUPLICATI_ANALISI.md" ]; then
@@ -156,6 +164,7 @@ if [ -f "METODI_DUPLICATI_ANALISI.md" ]; then
         mv METODI_DUPLICATI_ANALISI.md metodi-duplicati-analisi-uppercase.md
     fi
 fi
+<<<<<<< .merge_file_KZGeWs
 <<<<<<< HEAD
 <<<<<<< .merge_file_1oK3S0
 <<<<<<< HEAD
@@ -186,6 +195,8 @@ done
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_dgDZvk
 ```
 
 ## Verifica Finale

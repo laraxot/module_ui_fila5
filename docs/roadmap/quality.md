@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_7ZtOty
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_a2RuCa
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_CPa78I
 # Checklist qualità - UI Module
 
 - [x] PHPStan Level 10

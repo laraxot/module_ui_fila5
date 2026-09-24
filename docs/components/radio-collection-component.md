@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_Mz8gJN
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_jsgvya
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_2IWGXv
 # RadioCollection Component: Analisi Ontologica e Fenomenologica
 
 ## 🎭 Filosofia & Epistemologia del Componente

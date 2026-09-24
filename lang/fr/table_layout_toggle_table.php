@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< .merge_file_EnBKNl
 <<<<<<< HEAD
 <<<<<<< .merge_file_9bY9WV
 <<<<<<< HEAD
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_HyfJ4O
 return [
     'actions' => [
         'toggle' => [

@@ -1,4 +1,5 @@
 ---
+<<<<<<< .merge_file_m586RT
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_zy8dGv
@@ -68,12 +69,15 @@ See canonical documentation: ../../../Themes/docs/shared-components/customizing-
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_pGMP4P
 title: Customizing Your Site
 description: Customizing your Jigsaw docs site
 extends: _layouts.documentation
 section: content
 ---
 # Customizing Your Site {#customizing}
+<<<<<<< .merge_file_m586RT
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_zy8dGv
@@ -105,6 +109,8 @@ Here’s a quick preview of what some of the basic type styles will look like in
 >>>>>>> .merge_file_Aft2AC
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_pGMP4P
 
 ## Styles
 
@@ -137,6 +143,7 @@ Here’s a quick preview of what some of the basic type styles will look like in
 
 <div markdown="1" class="example pt-6">
 
+<<<<<<< .merge_file_m586RT
 <<<<<<< HEAD
 <<<<<<< .merge_file_zy8dGv
 <<<<<<< HEAD
@@ -174,11 +181,14 @@ Here’s a quick preview of what some of the basic type styles will look like in
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_pGMP4P
 # h1 Heading
 ## h2 Heading
 ### h3 Heading
 #### h4 Heading
 ##### h5 Heading
+<<<<<<< .merge_file_m586RT
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_zy8dGv
@@ -202,6 +212,8 @@ _The quick brown fox jumps over the lazy dog_
 >>>>>>> .merge_file_Aft2AC
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_pGMP4P
 
 ## h2 Heading
 
@@ -231,6 +243,7 @@ _The quick brown fox jumps over the lazy dog_
 
 [The quick brown fox jumps over the lazy dog](#)
 
+<<<<<<< .merge_file_m586RT
 <<<<<<< HEAD
 <<<<<<< .merge_file_zy8dGv
 <<<<<<< HEAD
@@ -260,6 +273,8 @@ _The quick brown fox jumps over the lazy dog_
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_pGMP4P
 ```php
 class Foo extends bar
 {
@@ -268,6 +283,7 @@ class Foo extends bar
         //
     }
 }
+<<<<<<< .merge_file_m586RT
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_zy8dGv
@@ -297,6 +313,8 @@ class Foo extends bar
 >>>>>>> .merge_file_Aft2AC
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_pGMP4P
 ```
 
 </div>
@@ -348,6 +366,7 @@ This starter template comes pre-loaded with [Tailwind CSS](https://tailwindcss.c
 
 @tailwind utilities;
 ```
+<<<<<<< .merge_file_m586RT
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -382,6 +401,8 @@ This starter template comes pre-loaded with [Tailwind CSS](https://tailwindcss.c
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_pGMP4P
 
 ---
 
@@ -427,6 +448,7 @@ class Foo extends bar
 ```
 
 </div>
+<<<<<<< .merge_file_m586RT
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -436,6 +458,8 @@ class Foo extends bar
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_pGMP4P
 * [customizing-your-site.md](../../../gdpr/docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../xot/docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../ui/docs/customizing-your-site.md)
@@ -446,6 +470,7 @@ class Foo extends bar
 * [customizing-your-site.md](../../../ui/project_docs/customizing-your-site.md)
 * [customizing-your-site.md](../../../tenant/project_docs/it/customizing-your-site.md)
 * [customizing-your-site.md](../../../cms/project_docs/customizing-your-site.md)
+<<<<<<< .merge_file_m586RT
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -472,10 +497,13 @@ class Foo extends bar
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_pGMP4P
 
 ### Versione Incoming
 
 ---
+<<<<<<< .merge_file_m586RT
 <<<<<<< HEAD
 <<<<<<< .merge_file_zy8dGv
 =======
@@ -515,3 +543,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/customizing-
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_pGMP4P

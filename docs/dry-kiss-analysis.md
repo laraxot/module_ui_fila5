@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_NVlwox
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_pg2P3q
@@ -68,6 +69,8 @@ Docs cleanup (1 sett)
 >>>>>>> .merge_file_nCdlIi
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_dB0vF3
 ---
 module: theme
 topic: dry-kiss-analysis
@@ -75,6 +78,7 @@ canonical: ../../../Themes/docs/shared-components/dry-kiss-analysis-2025-10-15-M
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/dry-kiss-analysis-2025-10-15-Modules.md
+<<<<<<< .merge_file_NVlwox
 <<<<<<< HEAD
 <<<<<<< .merge_file_pg2P3q
 <<<<<<< HEAD
@@ -151,3 +155,5 @@ Docs cleanup (1 sett)
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_dB0vF3

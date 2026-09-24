@@ -126,6 +126,7 @@ Ogni metodo di test implementa:
 5. **User Feedback**: Notifiche chiare per successo/errore
 6. **Documentazione**: File markdown nella cartella docs del modulo
 
+<<<<<<< .merge_file_gCiqG7
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_tNYi77
@@ -148,4 +149,6 @@ Ogni metodo di test implementa:
 *Ultimo aggiornamento: Gennaio 2025*
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_BkQQTK
 *Errore risolto: ErrorException Undefined variable $results*

@@ -1,10 +1,14 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< .merge_file_vtXMwX
 <<<<<<< HEAD
 =======
 
 >>>>>>> 804451c (Lint)
+=======
+
+>>>>>>> .merge_file_E4uh6S
 ?>
 @php
     $disableNewRecordCreation = $disableNewRecordCreation ?? false;

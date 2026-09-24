@@ -13,8 +13,8 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 
 ❌ **Non Corretto**:
 ```md
-<<<<<<< HEAD
 
+<<<<<<< .merge_file_S0DRqE
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51,12 +51,15 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_JiMkcg
 # Design System il progetto
 Il design system di il progetto definisce...
 ```
 
 ✅ **Corretto**:
 ```md
+<<<<<<< .merge_file_S0DRqE
 <<<<<<< HEAD
 
 =======
@@ -84,6 +87,9 @@ Il design system di il progetto definisce...
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> .merge_file_JiMkcg
 # Design System
 Il design system definisce...
 ```
@@ -101,6 +107,7 @@ I nomi specifici dell'applicazione devono apparire solo:
 4. Usare esempi generici nelle spiegazioni
 
 ## Collegamenti Bidirezionali
+<<<<<<< .merge_file_S0DRqE
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_bgkTdg
@@ -126,10 +133,14 @@ I nomi specifici dell'applicazione devono apparire solo:
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [README](readme.md)
+>>>>>>> .merge_file_JiMkcg
 - [Design System](design-system.md)
 - [Componenti](components.md)
 
 ## Vedi Anche
+<<<<<<< .merge_file_S0DRqE
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_bgkTdg
@@ -172,6 +183,10 @@ I nomi specifici dell'applicazione devono apparire solo:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+- [Documentazione Principale](../../../../docs/readme.md)
+- [Standard di Codice](../../../../docs/standards/coding-standards.md)
+>>>>>>> .merge_file_JiMkcg
 # Regole di Naming nei Moduli
 
 ## Regola: No Nomi Specifici dell'Applicazione
@@ -187,6 +202,7 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 
 ❌ **Non Corretto**:
 ```md
+<<<<<<< .merge_file_S0DRqE
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -202,6 +218,8 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 >>>>>>> 92912795 (.)
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_JiMkcg
 # Design System il progetto
 Il design system di il progetto definisce...
 ```
@@ -225,6 +243,7 @@ I nomi specifici dell'applicazione devono apparire solo:
 4. Usare esempi generici nelle spiegazioni
 
 ## Collegamenti Bidirezionali
+<<<<<<< .merge_file_S0DRqE
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_bgkTdg
@@ -242,10 +261,14 @@ I nomi specifici dell'applicazione devono apparire solo:
 =======
 - [README](readme.md)
 >>>>>>> 804451c (Lint)
+=======
+- [README](readme.md)
+>>>>>>> .merge_file_JiMkcg
 - [Design System](design-system.md)
 - [Componenti](components.md)
 
 ## Vedi Anche
+<<<<<<< .merge_file_S0DRqE
 <<<<<<< HEAD
 <<<<<<< HEAD
 - [Documentazione Principale](../../../project_docs/README.md)
@@ -323,3 +346,8 @@ I nomi specifici dell'applicazione devono apparire solo:
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+- [Documentazione Principale](../../../../docs/project/readme.md)
+- [Standard di Codice](../../../../docs/project/standards/coding-standards.md)
+- [Best Practices](../../../../docs/project/standards/best-practices.md)
+>>>>>>> .merge_file_JiMkcg

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_Oja5aa
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SvvvVN
@@ -1188,11 +1189,17 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+# 🎨 **UI Module** - Sistema Avanzato Componenti Interfaccia
+
+[![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
+>>>>>>> .merge_file_jna7Kp
 [![Filament 3.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
 [![PHPStan level 10](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 # 🎨 **UI Module** - Sistema Avanzato Componenti Interfaccia
 
 [![Laravel 12.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
+<<<<<<< .merge_file_Oja5aa
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SvvvVN
@@ -1215,6 +1222,8 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 [![Laravel 13.x](https://img.shields.io/badge/Laravel-12.x-red.svg)](https://laravel.com/)
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_jna7Kp
 [![Filament 4.x](https://img.shields.io/badge/Filament-3.x-blue.svg)](https://filamentphp.com/)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
 [![PHPStan Level 9](https://img.shields.io/badge/PHPStan-Level%209-brightgreen.svg)](https://phpstan.org/)
@@ -1315,6 +1324,7 @@ Il modulo UI fornisce componenti, widget e funzionalità di interfaccia utente c
 ## Regole Critiche
 
 ### ❌ MAI usare ->label()
+<<<<<<< .merge_file_Oja5aa
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SvvvVN
@@ -1340,6 +1350,8 @@ Il modulo UI fornisce componenti, widget e funzionalità di interfaccia utente c
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_jna7Kp
 ```php
 // ERRORE - Non fare mai questo
 TextColumn::make('name')->label('Nome')
@@ -1462,6 +1474,7 @@ php artisan ui:test-components
 ## 📚 **Documentazione Completa**
 
 ### 🏗️ **Architettura**
+<<<<<<< .merge_file_Oja5aa
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1474,10 +1487,13 @@ php artisan ui:test-components
 >>>>>>> .merge_file_JzGveY
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_jna7Kp
 - [Components Guide](components.md) - Guida completa componenti
 - [Design System](design-system.md) - Sistema design modulare
 - [Architecture Rules](architecture_rules.md) - Regole architetturali
 - [Best Practices](best-practices.md) - Linee guida sviluppo
+<<<<<<< .merge_file_Oja5aa
 <<<<<<< HEAD
 <<<<<<< .merge_file_SvvvVN
 <<<<<<< HEAD
@@ -1491,6 +1507,8 @@ php artisan ui:test-components
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_jna7Kp
 
 ### 🔗 **Collegamenti Moduli**
 - **[Xot Module](../Xot/docs/README.md)** - Framework core e convenzioni
@@ -1500,6 +1518,7 @@ php artisan ui:test-components
 - **[Progressioni Module](../Progressioni/docs/README.md)** - Sistema progressioni
 
 ### 🧩 **Componenti**
+<<<<<<< .merge_file_Oja5aa
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SvvvVN
@@ -1517,6 +1536,8 @@ php artisan ui:test-components
 >>>>>>> .merge_file_JzGveY
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_jna7Kp
 - [Blade Components](blade-components.md) - Componenti Blade riutilizzabili
 - [Form Components](form-components.md) - Componenti form avanzati
 - [Table Components](table-components.md) - Componenti tabella
@@ -1532,6 +1553,7 @@ php artisan ui:test-components
 - [PHPStan Fixes](phpstan/README.md) - Log completo correzioni PHPStan
 - [Translation Fixes](theme-translation-sync.md) - Correzioni traduzioni
 - [Clean Code](clean-code/README.md) - Principi clean code
+<<<<<<< .merge_file_Oja5aa
 <<<<<<< HEAD
 <<<<<<< .merge_file_SvvvVN
 <<<<<<< HEAD
@@ -1555,6 +1577,8 @@ php artisan ui:test-components
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_jna7Kp
 
 ## 🎨 **Componenti Principali**
 
@@ -1677,6 +1701,7 @@ class DataTableComponent extends Component
             'layout' => $this->layout,
         ]);
 ### ❌ MAI usa match() per traduzioni negli Enum
+<<<<<<< .merge_file_Oja5aa
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SvvvVN
@@ -1702,6 +1727,8 @@ class DataTableComponent extends Component
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_jna7Kp
 ```php
 // ❌ ERRORE - Non fare mai questo
 public function getLabel(): string
@@ -1799,6 +1826,7 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 ## 🤝 **Contributing**
 
 ### 📋 **Checklist Contribuzione**
+<<<<<<< .merge_file_Oja5aa
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1811,6 +1839,8 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 >>>>>>> .merge_file_JzGveY
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_jna7Kp
 - [ ] Codice passa PHPStan level 10
 - [ ] Codice passa PHPStan Level 9
 - [ ] Codice passa PHPStan Level 9
@@ -1820,6 +1850,7 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 - [ ] Traduzioni complete (IT/EN/DE)
 - [ ] Componenti testati
 - [ ] Responsive design verificato
+<<<<<<< .merge_file_Oja5aa
 <<<<<<< HEAD
 <<<<<<< .merge_file_SvvvVN
 <<<<<<< HEAD
@@ -1833,6 +1864,8 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_jna7Kp
 
 ### 🎯 **Convenzioni**
 - **Component Naming**: Sempre in minuscolo con trattini
@@ -1843,6 +1876,7 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 ## 📊 **Roadmap**
 
 ### 🎯 **Q1 2025**
+<<<<<<< .merge_file_Oja5aa
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SvvvVN
@@ -1860,6 +1894,8 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 >>>>>>> .merge_file_JzGveY
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_jna7Kp
 - [ ] **Advanced Components** - Componenti interattivi avanzati
 - [ ] **Theme System** - Sistema temi personalizzabili
 - [ ] **Animation Library** - Libreria animazioni CSS
@@ -1873,6 +1909,7 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 - [ ] **AI Component Generation** - Generazione automatica componenti
 - [ ] **Advanced Layouts** - Layout avanzati e dinamici
 - [ ] **Real-time Collaboration** - Collaborazione in tempo reale
+<<<<<<< .merge_file_Oja5aa
 <<<<<<< HEAD
 <<<<<<< .merge_file_SvvvVN
 <<<<<<< HEAD
@@ -1896,6 +1933,8 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_jna7Kp
 
 ## 📞 **Support & Maintainers**
 
@@ -1940,6 +1979,7 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 **🚀 Performance**: 97/100 score 
 ## Collegamenti
 
+<<<<<<< .merge_file_Oja5aa
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1952,12 +1992,15 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 >>>>>>> .merge_file_JzGveY
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_jna7Kp
 - [Documentazione Root](../../../docs/translation_standards_links.md)
 - [Regole Traduzioni](translation_rules.md)
 - [Best Practices Filament](filament_best_practices.md)
 - [Componenti UI](components.md)
 - [TableLayoutEnum Analysis](table_layout_enum_analysis.md)
 - [TableLayoutEnum Usage](table-layout-enum-usage.md)
+<<<<<<< .merge_file_Oja5aa
 <<<<<<< HEAD
 <<<<<<< .merge_file_SvvvVN
 <<<<<<< HEAD
@@ -1971,6 +2014,8 @@ protected TableLayoutEnum $layout = TableLayoutEnum::GRID;
 =======
 >>>>>>> 804451c (Lint)
 >>>>>>> laraxot/dev
+=======
+>>>>>>> .merge_file_jna7Kp
 - **[REGOLA CRITICA: MAI usare ->label()](never_use_label_rule.md)**
 - **[REGOLA CRITICA: SEMPRE usa transClass()](transclass_rule.md)**
 

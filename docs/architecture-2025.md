@@ -1,7 +1,7 @@
 ---
 module: theme
-<<<<<<< HEAD
 topic: architecture-2025
+<<<<<<< .merge_file_UdHzEm
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -14,6 +14,8 @@ topic: ARCHITECTURE_2025
 topic: ARCHITECTURE_2025
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_RtyzNV
 canonical: ../../../Themes/docs/shared-components/ARCHITECTURE.md
 ---
 

@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_tvCQLT
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_SR2GWt
@@ -69,6 +70,8 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_5Sb7Vv
 # Registrazione corretta dei componenti Blade nei moduli
 
 ## Problema

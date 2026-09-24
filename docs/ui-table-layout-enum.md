@@ -159,6 +159,7 @@ Seleziona le colonne appropriate in base al layout corrente.
 
 ## Collegamenti
 
+<<<<<<< .merge_file_t31Ffm
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_0FRxg7
@@ -190,10 +191,15 @@ Seleziona le colonne appropriate in base al layout corrente.
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- [Documentazione Completa TableLayoutEnum](../../laravel/modules/ui/docs/table-layout-enum-complete-guide.md)
+- [Modulo UI](../../laravel/modules/ui/docs/readme.md)
+>>>>>>> .merge_file_pnsHXR
 - [Enum Standards](enum_standards.md)
 - [Filament Best Practices](filament-widget-best-practices.md)
 
 ## Ultimo Aggiornamento
+<<<<<<< .merge_file_t31Ffm
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_0FRxg7
@@ -219,3 +225,6 @@ Seleziona le colonne appropriate in base al layout corrente.
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+[DATE] - Documentazione TableLayoutEnum nella root docs
+>>>>>>> .merge_file_pnsHXR

@@ -22,6 +22,7 @@ Example of a Volt component in a Folio page:
 ```blade
 <?php
 use App\Models\Event;
+<<<<<<< .merge_file_FB33y5
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_vr0SfW
@@ -40,6 +41,8 @@ $events = computed(fn () => Event::upcoming()->get());
 >>>>>>> .merge_file_wzNGkO
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_JvLhw0
 use Livewire\Volt\Component;
 
 new class extends Component {
@@ -51,6 +54,7 @@ new class extends Component {
         $this->events = Event::upcoming()->get()->all();
     }
 };
+<<<<<<< .merge_file_FB33y5
 <<<<<<< HEAD
 <<<<<<< .merge_file_vr0SfW
 <<<<<<< HEAD
@@ -69,6 +73,8 @@ $events = computed(fn () => Event::upcoming()->get());
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_JvLhw0
 ?>
 
 <x-layout>
@@ -97,6 +103,7 @@ $events = computed(fn () => Event::upcoming()->get());
 - Implement a consistent navigation component that can be included across pages
 
 ### 5. Data Handling
+<<<<<<< .merge_file_FB33y5
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_vr0SfW
@@ -131,6 +138,10 @@ $events = computed(fn () => Event::upcoming()->get());
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+- In class-based components, keep state in `public` properties and initialize in `mount()`
+- For derived values, prefer methods/getters in the class (functional `computed()` / `state()` is legacy/mantenimento)
+>>>>>>> .merge_file_JvLhw0
 - Sushi package can be used for dummy data in development
 
 ### 6. Middleware Application
@@ -175,6 +186,7 @@ middleware(['auth', 'verified']);
 - Genesis Starter Kit: https://github.com/thedevdojo/genesis
 
 ## Date
+<<<<<<< .merge_file_FB33y5
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_vr0SfW
@@ -200,3 +212,6 @@ middleware(['auth', 'verified']);
 >>>>>>> laraxot/dev
 =======
 >>>>>>> 804451c (Lint)
+=======
+[DATE]
+>>>>>>> .merge_file_JvLhw0

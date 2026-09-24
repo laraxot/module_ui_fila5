@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Actions\Table;
 
+<<<<<<< .merge_file_hLGjG1
 <<<<<<< HEAD
 <<<<<<< .merge_file_jLI7gn
 <<<<<<< HEAD
@@ -12,16 +13,14 @@ namespace Modules\UI\Filament\Actions\Table;
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
-use Filament\Actions\Action;
 =======
->>>>>>> .merge_file_GrNmvm
+>>>>>>> .merge_file_1hVEW5
+use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords;
-use Modules\UI\Enums\TableLayoutEnum;
-use Modules\UI\Filament\Traits\HasTableLayoutPage;
-use Modules\Xot\Filament\Actions\XotBaseAction;
+use Modules\UI\Contracts\HasTableLayout;
 
-<<<<<<< .merge_file_jLI7gn
 final class TableLayoutToggleTableAction extends Action implements HasTableLayout
+<<<<<<< .merge_file_hLGjG1
 <<<<<<< HEAD
 =======
 =======
@@ -53,6 +52,8 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_1hVEW5
 {
     use TableLayoutTrait;
 
@@ -60,6 +61,7 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
     {
         parent::setUp();
 
+<<<<<<< .merge_file_hLGjG1
 <<<<<<< HEAD
 <<<<<<< .merge_file_jLI7gn
 <<<<<<< HEAD
@@ -71,12 +73,15 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
 =======
 <<<<<<< HEAD
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_1hVEW5
         $current = $this->getCurrentLayout();
 
         $this->label(__('ui::table_layout.actions.toggle.label'))
             ->tooltip($current->getLabel())
             ->color($current->getColor())
             ->icon($current->getIcon())
+<<<<<<< .merge_file_hLGjG1
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -103,6 +108,8 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_1hVEW5
             ->action($this->toggleLayout(...));
     }
 
@@ -111,6 +118,7 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
         return 'table_layout_toggle';
     }
 
+<<<<<<< .merge_file_hLGjG1
 <<<<<<< HEAD
 <<<<<<< .merge_file_jLI7gn
 <<<<<<< HEAD
@@ -160,19 +168,17 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
 =======
 >>>>>>> 804451c (Lint)
     protected function toggleLayout(): void
+=======
+    protected function toggleLayout(?ListRecords $livewire): void
+>>>>>>> .merge_file_1hVEW5
     {
-        $livewire = $this->getLivewire();
-
-        if (! is_object($livewire) || ! HasTableLayoutPage::isLayoutCapable($livewire)) {
-            return;
-        }
-
-        $newLayout = $this->resolveLayout($livewire)->toggle();
+        $currentLayout = $this->getCurrentLayout();
+        $newLayout = $currentLayout->toggle();
 
         $this->setTableLayout($newLayout);
-        HasTableLayoutPage::applyLayoutTo($livewire, $newLayout);
 
         if ($livewire instanceof ListRecords) {
+<<<<<<< .merge_file_hLGjG1
             $livewire->resetTable();
         }
     }
@@ -195,20 +201,12 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
             if ($layout instanceof TableLayoutEnum) {
                 return $layout;
             }
+=======
+            $livewire->dispatch('$refresh');
+>>>>>>> .merge_file_1hVEW5
         }
-
-        $component = $this->getLivewire();
-
-        if (is_object($component)) {
-            $layout = HasTableLayoutPage::readLayoutFrom($component);
-
-            if ($layout instanceof TableLayoutEnum) {
-                return $layout;
-            }
-        }
-
-        return $this->getCurrentLayout();
     }
+<<<<<<< .merge_file_hLGjG1
 <<<<<<< HEAD
 <<<<<<< .merge_file_jLI7gn
 <<<<<<< HEAD
@@ -221,4 +219,6 @@ final class TableLayoutToggleTableAction extends XotBaseAction implements HasTab
 =======
 >>>>>>> laraxot/dev
 >>>>>>> 804451c (Lint)
+=======
+>>>>>>> .merge_file_1hVEW5
 }
