@@ -6,28 +6,10 @@ namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\TextColumn;
-<<<<<<< HEAD
-<<<<<<< .merge_file_Z6fzkj
-
-/**
- * Controparte in lista di {@see \Modules\UI\Filament\Forms\Components\PersonSection}.
-=======
-<<<<<<< .merge_file_oZIjuF
-
-/**
- * Controparte in lista di {@see \Modules\UI\Filament\Forms\Components\PersonSection}.
-=======
 use Modules\UI\Filament\Forms\Components\PersonSection;
 
 /**
  * Controparte in lista di {@see PersonSection}.
->>>>>>> .merge_file_hKe2m3
->>>>>>> .merge_file_bnnPip
-=======
-
-/**
- * Controparte in lista di {@see \Modules\UI\Filament\Forms\Components\PersonSection}.
->>>>>>> 804451c (Lint)
  *
  * Campi diretti sul record (nessuna dot-notation di relazione, a differenza di
  * {@see AddressColumn}): la persona e' il record stesso, non un suo correlato.
@@ -77,26 +59,7 @@ class PersonColumn extends GroupColumn
     /**
      * Sostituisce l'elenco dei campi mostrati.
      *
-<<<<<<< HEAD
-<<<<<<< .merge_file_Z6fzkj
-=======
-<<<<<<< .merge_file_oZIjuF
->>>>>>> .merge_file_bnnPip
-     * <<<<<<< HEAD
-     *
      * @param list<string> $fields
-     *                             =======
-     * @param list<string> $fields
-     *                             >>>>>>> laraxot/dev
-<<<<<<< .merge_file_Z6fzkj
-=======
-=======
-     * @param list<string> $fields
->>>>>>> .merge_file_hKe2m3
->>>>>>> .merge_file_bnnPip
-=======
-     * @param list<string> $fields
->>>>>>> 804451c (Lint)
      */
     public function fields(array $fields): static
     {

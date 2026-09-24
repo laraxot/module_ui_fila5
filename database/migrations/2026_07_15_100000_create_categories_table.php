@@ -1,18 +1,6 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-<<<<<<< .merge_file_V7zdkw
-
-=======
-<<<<<<< .merge_file_rEhp2a
-
-=======
->>>>>>> .merge_file_bRBOwk
->>>>>>> .merge_file_Hd8eVk
-=======
-
->>>>>>> 804451c (Lint)
 use Illuminate\Database\Schema\Blueprint;
 use Modules\UI\Models\Category;
 use Modules\Xot\Database\Migrations\XotBaseMigration;

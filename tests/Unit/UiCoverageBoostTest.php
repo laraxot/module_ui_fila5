@@ -33,25 +33,7 @@ describe('UI coverage boost — Enums', function (): void {
 
 describe('UI coverage boost — Models', function (): void {
     test('Category fillable matches domain fields', function (): void {
-<<<<<<< HEAD
-<<<<<<< .merge_file_5KRTZY
-=======
-<<<<<<< .merge_file_LFF3B7
->>>>>>> .merge_file_m4IeBR
-<<<<<<< HEAD
         $fillable = (new Category)->getFillable();
-=======
-        $fillable = (new Category())->getFillable();
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_5KRTZY
-=======
-=======
-        $fillable = (new Category())->getFillable();
->>>>>>> .merge_file_2vkDlW
->>>>>>> .merge_file_m4IeBR
-=======
-        $fillable = (new Category())->getFillable();
->>>>>>> 804451c (Lint)
 
         Assert::assertContains('name', $fillable);
         Assert::assertContains('is_active', $fillable);
@@ -60,25 +42,7 @@ describe('UI coverage boost — Models', function (): void {
 
 describe('UI coverage boost — Filament widgets', function (): void {
     test('StatsOverviewWidget declares heading', function (): void {
-<<<<<<< HEAD
-<<<<<<< .merge_file_5KRTZY
-=======
-<<<<<<< .merge_file_LFF3B7
->>>>>>> .merge_file_m4IeBR
-<<<<<<< HEAD
         $widget = new StatsOverviewWidget;
-=======
-        $widget = new StatsOverviewWidget();
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_5KRTZY
-=======
-=======
-        $widget = new StatsOverviewWidget();
->>>>>>> .merge_file_2vkDlW
->>>>>>> .merge_file_m4IeBR
-=======
-        $widget = new StatsOverviewWidget();
->>>>>>> 804451c (Lint)
         $ref = new \ReflectionClass($widget);
         $prop = $ref->getProperty('heading');
         $prop->setAccessible(true);
