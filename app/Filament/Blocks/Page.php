@@ -11,16 +11,16 @@ use Modules\Xot\Filament\Blocks\XotBaseBlock;
 final class Page extends XotBaseBlock
 {
     /**
-<<<<<<< .merge_file_nLvRJE
-     * @return array<int, Component>
-=======
-     * <<<<<<< HEAD.
+     * <<<<<<< .merge_file_nLvRJE.
      *
+     * @return array<int, Component>
+     *                               =======
+     *                               <<<<<<< HEAD
      * @return array<int, Component>
      *                               =======
      * @return array<int, Component>
      *                               >>>>>>> laraxot/dev
->>>>>>> .merge_file_lwLJ0i
+     *                               >>>>>>> .merge_file_lwLJ0i
      */
     public static function getFormSchema(): array
     {

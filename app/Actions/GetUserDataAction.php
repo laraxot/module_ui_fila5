@@ -29,12 +29,12 @@ class GetUserDataAction
         $profile = $user->relationLoaded('profile') ? $user->profile : null;
         if ($profile instanceof Profile) {
             $avatarUrl = $profile->getAvatarUrl();
-            $avatar = $avatarUrl !== '' ? $avatarUrl : null;
+            $avatar = '' !== $avatarUrl ? $avatarUrl : null;
         }
 
-        if ($avatar === null) {
+        if (null === $avatar) {
             $profilePhotoPath = $user->getAttribute('profile_photo_path');
-            if (is_string($profilePhotoPath) && $profilePhotoPath !== '') {
+            if (is_string($profilePhotoPath) && '' !== $profilePhotoPath) {
                 $avatar = $profilePhotoPath;
             }
         }

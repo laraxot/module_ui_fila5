@@ -12,16 +12,16 @@ use Modules\Xot\Filament\Blocks\XotBaseBlock;
 final class Contact extends XotBaseBlock
 {
     /**
-<<<<<<< .merge_file_LIOMxB
-     * @return array<int, Component>
-=======
-     * <<<<<<< HEAD.
+     * <<<<<<< .merge_file_LIOMxB.
      *
+     * @return array<int, Component>
+     *                               =======
+     *                               <<<<<<< HEAD
      * @return array<int, Component>
      *                               =======
      * @return array<int, Component>
      *                               >>>>>>> laraxot/dev
->>>>>>> .merge_file_pXIoFN
+     *                               >>>>>>> .merge_file_pXIoFN
      */
     public static function getFormSchema(): array
     {

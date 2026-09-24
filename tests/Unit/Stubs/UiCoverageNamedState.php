@@ -17,11 +17,12 @@ final class UiCoverageNamedState implements StateContract
     public static string $name = 'pending';
 
     /**
-     * @param  Model|array<string, mixed>|string|null  $record
+     * @param Model|array<string, mixed>|string|null $record
      */
     public function __construct(
         public Model|array|string|null $record = null,
-    ) {}
+    ) {
+    }
 
     public function label(): string
     {
@@ -66,7 +67,9 @@ final class UiCoverageNamedState implements StateContract
     }
 
     /** @param  array<string, mixed>  $data */
-    public function modalActionByRecord(Model $record, array $data): void {}
+    public function modalActionByRecord(Model $record, array $data): void
+    {
+    }
 
     /** @return list<string> */
     public function transitionableStates(): array
@@ -79,7 +82,9 @@ final class UiCoverageNamedState implements StateContract
         return true;
     }
 
-    public function transitionTo(string $state, ?string $message = null): void {}
+    public function transitionTo(string $state, ?string $message = null): void
+    {
+    }
 
     /** @return Collection<string, string> */
     public static function getStateMapping(): Collection

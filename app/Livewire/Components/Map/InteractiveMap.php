@@ -72,8 +72,8 @@ final class InteractiveMap extends Component
     ];
 
     /**
-     * @param  array{0: float, 1: float}|null  $center
-     * @param  array<string, mixed>  $filters
+     * @param array{0: float, 1: float}|null $center
+     * @param array<string, mixed>           $filters
      */
     public function mount(?array $center = null, ?int $zoom = null, array $filters = []): void
     {
@@ -116,7 +116,7 @@ final class InteractiveMap extends Component
     /**
      * Aggiorna i filtri.
      *
-     * @param  array<string, mixed>  $filters
+     * @param array<string, mixed> $filters
      */
     public function updateFilters(array $filters): void
     {
@@ -127,7 +127,7 @@ final class InteractiveMap extends Component
     /**
      * Aggiorna i bounds della mappa.
      *
-     * @param  array<string, float>  $bounds
+     * @param array<string, float> $bounds
      */
     public function updateBounds(array $bounds): void
     {
@@ -337,7 +337,7 @@ final class InteractiveMap extends Component
         $counts = [];
         foreach ($this->markers as $marker) {
             $type = $marker['type'] ?? null;
-            if (! is_string($type) || $type === '') {
+            if (! is_string($type) || '' === $type) {
                 continue;
             }
             $counts[$type] = ($counts[$type] ?? 0) + 1;

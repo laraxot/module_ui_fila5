@@ -12,16 +12,16 @@ use Modules\Xot\Filament\Blocks\XotBaseBlock;
 final class Category extends XotBaseBlock
 {
     /**
-<<<<<<< .merge_file_S2WyyE
-     * @return array<int, Component>
-=======
-     * <<<<<<< HEAD.
+     * <<<<<<< .merge_file_S2WyyE.
      *
+     * @return array<int, Component>
+     *                               =======
+     *                               <<<<<<< HEAD
      * @return array<int, Component>
      *                               =======
      * @return array<int, Component>
      *                               >>>>>>> laraxot/dev
->>>>>>> .merge_file_xgBAlu
+     *                               >>>>>>> .merge_file_xgBAlu
      */
     public static function getFormSchema(): array
     {

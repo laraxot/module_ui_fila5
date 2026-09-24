@@ -14,28 +14,28 @@ use Modules\Xot\Models\BaseModel;
  *
  * FormBuilder module not available - extending from XotBaseModel instead.
  *
- * @property int $id
- * @property string $name
+ * @property int         $id
+ * @property string      $name
  * @property string|null $description
- * @property string $type
- * @property int|null $theme_id
- * @property bool $is_active
- * @property int|null $order
+ * @property string      $type
+ * @property int|null    $theme_id
+ * @property bool        $is_active
+ * @property int|null    $order
  *
  * @method static \Modules\UI\Database\Factories\CollectionFactory factory($count = null, $state = [])
- * @method static Builder<static>|Collection newModelQuery()
- * @method static Builder<static>|Collection newQuery()
- * @method static Builder<static>|Collection query()
+ * @method static Builder<static>|Collection                       newModelQuery()
+ * @method static Builder<static>|Collection                       newQuery()
+ * @method static Builder<static>|Collection                       query()
  *
- * @property string|null $created_by
- * @property string|null $updated_by
- * @property Carbon|null $deleted_at
- * @property string|null $deleted_by
- * @property Carbon|null $created_at
- * @property Carbon|null $updated_at
- * @property-read ProfileContract|null $creator
- * @property-read ProfileContract|null $deleter
- * @property-read ProfileContract|null $updater
+ * @property string|null          $created_by
+ * @property string|null          $updated_by
+ * @property Carbon|null          $deleted_at
+ * @property string|null          $deleted_by
+ * @property Carbon|null          $created_at
+ * @property Carbon|null          $updated_at
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $deleter
+ * @property ProfileContract|null $updater
  *
  * @method static Builder<static>|Collection whereCreatedAt($value)
  * @method static Builder<static>|Collection whereCreatedBy($value)
