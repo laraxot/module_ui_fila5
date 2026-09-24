@@ -7,45 +7,8 @@ updated: 2026-07-14
 qmd: "03-workstreams workstreams - ui"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< .merge_file_6kVLiQ
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-<<<<<<< .merge_file_nffhCI
-=======
-<<<<<<< .merge_file_5UzyiT
-=======
-<<<<<<< .merge_file_cIO98w
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
->>>>>>> .merge_file_UKzKnB
->>>>>>> .merge_file_UmI8tx
->>>>>>> .merge_file_5tbMCQ
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_nffhCI
-=======
-<<<<<<< .merge_file_5UzyiT
-=======
-<<<<<<< .merge_file_cIO98w
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_UKzKnB
->>>>>>> .merge_file_UmI8tx
->>>>>>> .merge_file_5tbMCQ
->>>>>>> .merge_file_1InlJ5
 related:
   - "./00-index-1.md"
   - "./00-index.md"

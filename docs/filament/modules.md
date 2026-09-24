@@ -3,23 +3,6 @@ title: Moduli Filament
 description: Moduli Filament
 extends: _layouts.documentation
 section: content
-<<<<<<< .merge_file_0cNWpF
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_4tavdw
-=======
-=======
-<<<<<<< .merge_file_NWzAZk
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_BGMBgj
->>>>>>> .merge_file_recmyA
->>>>>>> .merge_file_CqpdlO
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -29,23 +12,6 @@ related:
   - "./filament-4-migration-guide.md"
   - "./filament-4-migration-summary.md"
   - "./filament-4-migration-sumy.md"
-<<<<<<< .merge_file_0cNWpF
-=======
-<<<<<<< .merge_file_4tavdw
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_NWzAZk
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_BGMBgj
->>>>>>> .merge_file_recmyA
->>>>>>> .merge_file_CqpdlO
 ---
 
 # Moduli Filament {#moduli-filament}

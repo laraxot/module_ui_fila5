@@ -35,30 +35,6 @@ Le Commands progettuali vivono qui, nel wiki del Module **UI**, e vengono carica
 - La sorgente di verita' per le Commands e' sempre il wiki locale
 - Non embeddare Commands nei prompt di avvio
 - Per Commands globali, consulta il [wiki root](../../docs/wiki/commands/INDEX.md)
-<<<<<<< .merge_file_lvtZnL
-=======
-=======
-<<<<<<< HEAD
-- Per Commands globali, consulta il [wiki root](../../docs/wiki/commands/INDEX.md)
-=======
-<<<<<<< .merge_file_JTuTRm
-- Per Commands globali, consulta il [wiki root](../../docs/wiki/commands/index.md)
->>>>>>> 92912795 (.)
-=======
-<<<<<<< HEAD
-- Per Commands globali, consulta il [wiki root](../../docs/wiki/commands/index.md)
->>>>>>> 92912795 (.)
-=======
-<<<<<<< HEAD
-- Per Commands globali, consulta il [wiki root](../../docs/wiki/commands/INDEX.md)
-=======
-- Per Commands globali, consulta il [wiki root](../../docs/wiki/commands/index.md)
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_bMSNDf
->>>>>>> laraxot/dev
->>>>>>> .merge_file_db4af6
 
 ## Aggiungere una Nuova COMMANDS
 

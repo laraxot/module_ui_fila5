@@ -19,11 +19,6 @@ return [
         'view' => ['label' => 'view', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
     ],
     'sections' => [
-        'empty' => ['heading' => 'empty'],
-        'empty' => ['heading' => ''],
-        'empty' => ['heading' => 'empty'],
-        'empty' => ['heading' => ''],
-        'empty' => ['heading' => 'empty'],
         'empty' => ['heading' => ''],
     ],
     'label' => 'Hero',
@@ -34,9 +29,6 @@ return [
         'group' => ['name' => 'General', 'description' => 'General Settings'],
         'label' => 'Hero',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
-        'icon' => 'heroicon-o-rectangle-stack',
-        'icon' => 'heroicon-o-collection',
         'icon' => 'heroicon-o-rectangle-stack',
     ],
     'actions' => [

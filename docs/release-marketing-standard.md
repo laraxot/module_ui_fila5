@@ -6,46 +6,7 @@ tags: [release, semantic-versioning, changelog, readme, marketing]
 created: "2026-05-26"
 updated: "2026-05-26"
 issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/153"
-<<<<<<< .merge_file_CVymfU
 issue: "https://github.com/provtv/<nome repository>/issues/153"
-=======
-<<<<<<< .merge_file_rsh3C8
-=======
-<<<<<<< .merge_file_uYR8ko
->>>>>>> .merge_file_YSyvJV
-=======
-<<<<<<< HEAD
-issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/153"
-<<<<<<< HEAD
-<<<<<<< .merge_file_rsh3C8
-=======
-=======
-=======
-<<<<<<< HEAD
-issue: "https://github.com/provtv/base_ptv_fila5_mono/issues/153"
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> .merge_file_YSyvJV
-issue: "https://github.com/provtv/<nome repository>/issues/153"
-=======
-=======
-issue: "https://github.com/provtv/<nome repository>/issues/153"
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_rsh3C8
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-issue: "https://github.com/provtv/<nome repository>/issues/153"
-=======
->>>>>>> .merge_file_bPx243
->>>>>>> .merge_file_YSyvJV
->>>>>>> laraxot/dev
->>>>>>> .merge_file_jKrKuE
 ---
 
 # Release e README marketing — UI
@@ -59,34 +20,7 @@ Ogni modulo/tema deve essere pubblicabile, comprensibile e desiderabile: workflo
 - `../README.md`
 - `../.github/workflows/semantic-release.yml`
 - `../.releaserc.json`
-<<<<<<< .merge_file_CVymfU
 - `../CHANGELOG.md`
-=======
-<<<<<<< HEAD
-- `../CHANGELOG.md`
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_rsh3C8
-=======
-- `../CHANGELOG.md`
-=======
-<<<<<<< HEAD
-- `../changelog.md`
->>>>>>> 92912795 (.)
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_YSyvJV
-- `../CHANGELOG.md`
-=======
-- `../changelog.md`
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_rsh3C8
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_YSyvJV
->>>>>>> .merge_file_jKrKuE
 
 ## Confidenza
 

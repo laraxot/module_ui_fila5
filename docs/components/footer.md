@@ -1,20 +1,3 @@
-<<<<<<< .merge_file_S24XBi
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_f2bnQV
-=======
-=======
-<<<<<<< .merge_file_LafVOr
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_gS9xt8
->>>>>>> .merge_file_yTo7t3
->>>>>>> .merge_file_40mqdi
 ---
 title: "Footer Component"
 type: concept
@@ -22,36 +5,10 @@ tags: [footer]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "footer footer component"
-<<<<<<< .merge_file_S24XBi
-=======
-<<<<<<< .merge_file_f2bnQV
-=======
-<<<<<<< .merge_file_LafVOr
->>>>>>> .merge_file_yTo7t3
-<<<<<<< HEAD
->>>>>>> .merge_file_40mqdi
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-<<<<<<< .merge_file_S24XBi
-=======
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_f2bnQV
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_gS9xt8
->>>>>>> .merge_file_yTo7t3
->>>>>>> .merge_file_40mqdi
 related:
   - "./address-field-1.md"
   - "./address-field.md"
@@ -63,23 +20,6 @@ related:
   - "./full-calendar.md"
 ---
 
-<<<<<<< .merge_file_S24XBi
-=======
-<<<<<<< .merge_file_f2bnQV
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_LafVOr
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_gS9xt8
->>>>>>> .merge_file_yTo7t3
->>>>>>> .merge_file_40mqdi
 # Footer Component
 
 Questo documento serve come punto di riferimento centrale per la documentazione del componente Footer.
@@ -95,35 +35,7 @@ laravel/Themes/One/resources/views/components/layouts/footer.blade.php
 ### Documentazione Principale
 - [Documentazione Dettagliata del Footer](../../../../themes/one/docs/components/layouts/footer.md)
 - [Guida allo Stile del Tema One](../../../../themes/one/docs/style_guide.md)
-<<<<<<< .merge_file_S24XBi
 - [Sistema di Layout](/laravel/Themes/One/docs/design-system-2.md#layout)
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_f2bnQV
-- [Sistema di Layout](/laravel/Themes/One/docs/design_system.md#layout)
-=======
-- [Sistema di Layout](/laravel/Themes/One/docs/design-system-2.md#layout)
-=======
-<<<<<<< .merge_file_LafVOr
-- [Sistema di Layout](/laravel/Themes/One/docs/design_system.md#layout)
-=======
-<<<<<<< HEAD
-- [Sistema di Layout](/laravel/Themes/One/docs/design-system-2.md#layout)
-=======
-<<<<<<< HEAD
-- [Sistema di Layout](/laravel/Themes/One/docs/design_system.md#layout)
-=======
-- [Sistema di Layout](/laravel/Themes/One/docs/design-system-2.md#layout)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- [Sistema di Layout](/laravel/Themes/One/docs/design-system-2.md#layout)
-=======
-- [Sistema di Layout](/laravel/Themes/One/docs/design_system.md#layout)
->>>>>>> .merge_file_gS9xt8
->>>>>>> .merge_file_yTo7t3
->>>>>>> laraxot/dev
->>>>>>> .merge_file_40mqdi
 
 ### Best Practices e Linee Guida
 - [Best Practices Components](../../../cms/docs/best-practices/components.md)

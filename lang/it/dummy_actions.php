@@ -73,11 +73,6 @@ return [
         ],
         'label' => 'Dummy Actions',
         'sort' => 1,
-        'icon' => 'heroicon-o-collection',
-        'icon' => 'heroicon-o-rectangle-stack',
-        'icon' => 'heroicon-o-collection',
-        'icon' => 'heroicon-o-rectangle-stack',
-        'icon' => 'heroicon-o-collection',
         'icon' => 'heroicon-o-rectangle-stack',
     ],
 ];

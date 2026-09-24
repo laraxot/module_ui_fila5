@@ -1,20 +1,3 @@
-<<<<<<< .merge_file_7PWrtF
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_J4qAVF
-=======
-=======
-<<<<<<< .merge_file_9F4QIP
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_j5THcc
->>>>>>> .merge_file_XgQvtV
->>>>>>> .merge_file_UujFaT
 ---
 title: "Sistema di Traduzione Automatica delle Etichette (Label) in Filament"
 type: concept
@@ -22,36 +5,10 @@ tags: [label, translation, system]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "label-translation-system sistema di traduzione automatica delle etichette (label) in filament"
-<<<<<<< .merge_file_7PWrtF
-=======
-<<<<<<< .merge_file_J4qAVF
-=======
-<<<<<<< .merge_file_9F4QIP
->>>>>>> .merge_file_XgQvtV
-<<<<<<< HEAD
->>>>>>> .merge_file_UujFaT
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-<<<<<<< .merge_file_7PWrtF
-=======
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_J4qAVF
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_j5THcc
->>>>>>> .merge_file_XgQvtV
->>>>>>> .merge_file_UujFaT
 related:
   - "./automatic-translations.md"
   - "./best-practices.md"
@@ -63,23 +20,6 @@ related:
   - "./filament-4-migration-sumy.md"
 ---
 
-<<<<<<< .merge_file_7PWrtF
-=======
-<<<<<<< .merge_file_J4qAVF
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_9F4QIP
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_j5THcc
->>>>>>> .merge_file_XgQvtV
->>>>>>> .merge_file_UujFaT
 # Sistema di Traduzione Automatica delle Etichette (Label) in Filament
 
 ## Regola Fondamentale

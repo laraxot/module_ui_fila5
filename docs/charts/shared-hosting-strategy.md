@@ -1,20 +1,3 @@
-<<<<<<< .merge_file_Jho966
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_LUCHlS
-=======
-=======
-<<<<<<< .merge_file_BC03dC
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_9lsBpH
->>>>>>> .merge_file_kM3WQj
->>>>>>> .merge_file_DAAsln
 ---
 title: "Shared Hosting Chart Strategy (No NPM/Node)"
 type: concept
@@ -22,36 +5,10 @@ tags: [shared, hosting, strategy]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "shared-hosting-strategy shared hosting chart strategy (no npm/node)"
-<<<<<<< .merge_file_Jho966
-=======
-<<<<<<< .merge_file_LUCHlS
-=======
-<<<<<<< .merge_file_BC03dC
->>>>>>> .merge_file_kM3WQj
-<<<<<<< HEAD
->>>>>>> .merge_file_DAAsln
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-<<<<<<< .merge_file_Jho966
-=======
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_LUCHlS
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_9lsBpH
->>>>>>> .merge_file_kM3WQj
->>>>>>> .merge_file_DAAsln
 related:
   - "./chartjs-datalabels-multiple-labels-complete-guide.md"
   - "./chartjs-plugin-datalabels-filament5.md"
@@ -60,23 +17,6 @@ related:
   - "./server-side-actions.md"
 ---
 
-<<<<<<< .merge_file_Jho966
-=======
-<<<<<<< .merge_file_LUCHlS
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_BC03dC
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_9lsBpH
->>>>>>> .merge_file_kM3WQj
->>>>>>> .merge_file_DAAsln
 # Shared Hosting Chart Strategy (No NPM/Node)
 
 > **Purpose**: Generate chart images in background jobs on **Shared Hosting environments** where you cannot install Node.js/Puppeteer (`browsershot` is not an option).

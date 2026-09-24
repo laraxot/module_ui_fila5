@@ -1,20 +1,3 @@
-<<<<<<< .merge_file_f8h0mg
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_YB7QSI
-=======
-=======
-<<<<<<< .merge_file_5S6fGI
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_1PcMzY
->>>>>>> .merge_file_wX1Pvf
->>>>>>> .merge_file_WGHYiq
 ---
 title: "UI Module Icon System"
 type: concept
@@ -22,14 +5,6 @@ tags: [icon, system]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "icon-system ui module icon system"
-<<<<<<< .merge_file_f8h0mg
-=======
-<<<<<<< .merge_file_YB7QSI
-=======
-<<<<<<< .merge_file_5S6fGI
->>>>>>> .merge_file_wX1Pvf
-<<<<<<< HEAD
->>>>>>> .merge_file_WGHYiq
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
@@ -37,29 +12,6 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 related:
 ---
 
-<<<<<<< .merge_file_f8h0mg
-=======
-<<<<<<< .merge_file_YB7QSI
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
----
-
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_1PcMzY
->>>>>>> .merge_file_wX1Pvf
->>>>>>> .merge_file_WGHYiq
 # UI Module Icon System
 
 ## How It Works
@@ -144,63 +96,8 @@ Tables\Columns\IconColumn::make('status')
 ## Cross-Module Icons
 Each module registers its own SVG icons:
 - `Modules/User/resources/svg/` → `user-{name}`
-<<<<<<< .merge_file_f8h0mg
 - `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
 - `resources/svg/` → `{name}`
-=======
-<<<<<<< HEAD
-- `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
-<<<<<<< .merge_file_YB7QSI
-=======
-<<<<<<< .merge_file_5S6fGI
->>>>>>> .merge_file_wX1Pvf
-=======
-<<<<<<< HEAD
-- `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
-<<<<<<< HEAD
-<<<<<<< .merge_file_YB7QSI
-=======
-=======
-=======
-<<<<<<< HEAD
-- `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> .merge_file_wX1Pvf
-- `resources/svg/` → `{name}`
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-- `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-- `resources/svg/` → `{name}`
-=======
-- `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_YB7QSI
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-- `resources/svg/` → `{name}`
-=======
->>>>>>> .merge_file_1PcMzY
->>>>>>> .merge_file_wX1Pvf
->>>>>>> laraxot/dev
->>>>>>> .merge_file_WGHYiq
 - etc.
 
 The `ui-` prefix is special: contains the global design system icons shared across all modules.

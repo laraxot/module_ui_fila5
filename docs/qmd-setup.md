@@ -66,24 +66,6 @@ qmd search "form" -c ui  # Solo questo modulo
 - [Operational Discipline](../../docs/wiki/concepts/llm-wiki-operational-discipline.md)
 - [On-Demand Pattern](./ON-DEMAND-PATTERN.md)
 - [On-Demand Pattern](./on-demand-pattern.md)
-<<<<<<< .merge_file_A8ed0D
-=======
-=======
-<<<<<<< .merge_file_Kg3Bq7
-=======
-<<<<<<< .merge_file_jV5rLp
-=======
-<<<<<<< .merge_file_2qPibG
-=======
-<<<<<<< HEAD
-- [On-Demand Pattern](./on-demand-pattern.md)
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_DXJqBQ
->>>>>>> .merge_file_suyRqm
->>>>>>> .merge_file_XFy9Fd
->>>>>>> laraxot/dev
->>>>>>> .merge_file_pYhX2O
 
 ---
 *Cache: ~/.cache/qmd-cache/ | Index: ~/.cache/qmd-cache/index*

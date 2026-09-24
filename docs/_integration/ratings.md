@@ -1,20 +1,3 @@
-<<<<<<< .merge_file_HdwqbJ
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_bZs02b
-=======
-=======
-<<<<<<< .merge_file_AVm61K
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_RNywvY
->>>>>>> .merge_file_8cU1S6
->>>>>>> .merge_file_ovzP1j
 ---
 title: "ratings"
 type: concept
@@ -22,36 +5,10 @@ tags: [ratings]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "ratings ratings"
-<<<<<<< .merge_file_HdwqbJ
-=======
-<<<<<<< .merge_file_bZs02b
-=======
-<<<<<<< .merge_file_AVm61K
->>>>>>> .merge_file_8cU1S6
-<<<<<<< HEAD
->>>>>>> .merge_file_ovzP1j
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-<<<<<<< .merge_file_HdwqbJ
-=======
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_bZs02b
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_RNywvY
->>>>>>> .merge_file_8cU1S6
->>>>>>> .merge_file_ovzP1j
 related:
   - "./api.md"
   - "./blocks.md"
@@ -63,23 +20,6 @@ related:
   - "./custom-firm-fields.md"
 ---
 
-<<<<<<< .merge_file_HdwqbJ
-=======
-<<<<<<< .merge_file_bZs02b
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_AVm61K
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_RNywvY
->>>>>>> .merge_file_8cU1S6
->>>>>>> .merge_file_ovzP1j
 # ratings
 
 <!-- Contenuto migrato da _docs/ratings.txt -->

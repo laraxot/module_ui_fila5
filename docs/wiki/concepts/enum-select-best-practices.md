@@ -1,22 +1,5 @@
 ---
 title: EnumSelect Best Practices
-<<<<<<< .merge_file_jeSCBN
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_AaMrKo
-=======
-=======
-<<<<<<< .merge_file_0WTTlV
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_iXICjY
->>>>>>> .merge_file_H8G2ca
->>>>>>> .merge_file_wK6FRx
 related:
   - "./auth-register-focus-loss-overlay.md"
   - "./block-rendering-and-optional-services.md"
@@ -26,23 +9,6 @@ related:
   - "./enum-select-component.md"
   - "./enum-select-contract-and-false-friends.md"
   - "./enum-select-usage.md"
-<<<<<<< .merge_file_jeSCBN
-=======
-<<<<<<< .merge_file_AaMrKo
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_0WTTlV
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_iXICjY
->>>>>>> .merge_file_H8G2ca
->>>>>>> .merge_file_wK6FRx
 ---
 
 ## Overview

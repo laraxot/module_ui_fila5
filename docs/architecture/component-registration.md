@@ -1,20 +1,3 @@
-<<<<<<< .merge_file_ZRwhzY
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_6PwAbP
-=======
-=======
-<<<<<<< .merge_file_MZfsno
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_OKQVJN
->>>>>>> .merge_file_YIDMac
->>>>>>> .merge_file_6GvO1U
 ---
 title: "Registrazione dei Componenti nei Moduli"
 type: concept
@@ -22,59 +5,16 @@ tags: [component, registration]
 created: 2026-07-14
 updated: 2026-07-14
 qmd: "component-registration registrazione dei componenti nei moduli"
-<<<<<<< .merge_file_ZRwhzY
-=======
-<<<<<<< .merge_file_6PwAbP
-=======
-<<<<<<< .merge_file_MZfsno
->>>>>>> .merge_file_YIDMac
-<<<<<<< HEAD
->>>>>>> .merge_file_6GvO1U
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-<<<<<<< .merge_file_ZRwhzY
-=======
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_6PwAbP
-=======
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> .merge_file_OKQVJN
->>>>>>> .merge_file_YIDMac
->>>>>>> .merge_file_6GvO1U
 related:
   - "./filament-pages-structure.md"
   - "./filament-resources-structure.md"
   - "./structure.md"
 ---
 
-<<<<<<< .merge_file_ZRwhzY
-=======
-<<<<<<< .merge_file_6PwAbP
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_MZfsno
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_OKQVJN
->>>>>>> .merge_file_YIDMac
->>>>>>> .merge_file_6GvO1U
 # Registrazione dei Componenti nei Moduli
 
 ## Regola Fondamentale

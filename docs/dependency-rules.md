@@ -42,19 +42,6 @@ I componenti che richiedono funzionalità geografiche **appartengono al modulo G
 | `app/Filament/Forms/Components/LocationSelector.php.old`                    | Usa `Modules\Geo\Models\Comune` direttamente    | `Modules/Geo/`     |
 | `resources/views/livewire/components/map/interactive-map.blade.php.old`     | View del componente Geo disabilitato            | `Modules/Geo/`     |
 
-<<<<<<< .merge_file_Mm4D0I
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_qT1RUn
-=======
-<<<<<<< .merge_file_a4zsjo
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_7d7v4G
 ### Contratti / Adapter Map-Location — **non** accettabili in UI
 
 Rimossi il 2026-07-22 (vedi [geo-boundary.md](./geo-boundary.md)): anche i contratti/null-adapter erano dominio geografico.
@@ -66,77 +53,6 @@ Rimossi il 2026-07-22 (vedi [geo-boundary.md](./geo-boundary.md)): anche i contr
 | `LocationSelector.php` attivo | Selettore geografico |
 
 Se serve geografia: modulo `Geo` (quando presente), mai ricopiare in UI.
-<<<<<<< .merge_file_Mm4D0I
-=======
-=======
->>>>>>> .merge_file_OvPl19
->>>>>>> .merge_file_91DP7y
-### Contratti e Null Services (accettabili in UI)
-
-I seguenti file sono **accettabili** nel modulo UI perché definiscono interfacce astratte senza dipendere da classi Geo concrete:
-
-| File                                            | Motivo                                                    |
-|-------------------------------------------------|-----------------------------------------------------------|
-| `app/Contracts/GeocodingServiceContract.php`    | Interfaccia astratta — nessuna dipendenza da Geo          |
-| `app/Contracts/MapServiceContract.php`          | Interfaccia astratta — nessuna dipendenza da Geo          |
-<<<<<<< .merge_file_a4zsjo
-<<<<<<< HEAD
-| `app/Services/Map/NullGeocodingService.php`     | Null Object pattern — fallback quando Geo non è installato |
-| `app/Services/Map/NullMapService.php`           | Null Object pattern — fallback quando Geo non è installato |
-=======
-| `app/Adapters/Map/NullGeocodingServiceAdapter.php` | Null Object pattern — fallback quando Geo non è installato |
-| `app/Adapters/Map/NullMapServiceAdapter.php`       | Null Object pattern — fallback quando Geo non è installato |
->>>>>>> laraxot/dev
-=======
-| `app/Adapters/Map/NullGeocodingServiceAdapter.php` | Null Object pattern — fallback quando Geo non è installato |
-| `app/Adapters/Map/NullMapServiceAdapter.php`       | Null Object pattern — fallback quando Geo non è installato |
->>>>>>> .merge_file_OvPl19
-
-### Documentazione archiviata
-
-| File                                        | Motivo                              |
-|---------------------------------------------|-------------------------------------|
-| `docs/map-integration-guide.md.old`         | Descriveva componenti Geo nel UI    |
-
----
-
-## LocationSelector: già disabilitato
-
-`LocationSelector` importava direttamente `Modules\Geo\Models\Comune` — violazione della regola.
-È stato rinominato `LocationSelector.php.old` in data 2026-07-06.
-
-Se in futuro si vuole un selettore regione/provincia/CAP nel modulo UI, deve usare **solo contratti astratti** (es. `GeocodingServiceContract`) e ricevere i dati via dependency injection, senza importare classi concrete di Geo.
-<<<<<<< .merge_file_qT1RUn
-=======
-=======
-<<<<<<< .merge_file_a4zsjo
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_91DP7y
-### Contratti / Adapter Map-Location — **non** accettabili in UI
-
-Rimossi il 2026-07-22 (vedi [geo-boundary.md](./geo-boundary.md)): anche i contratti/null-adapter erano dominio geografico.
-
-| Rimosso | Motivo |
-|---------|--------|
-| `app/Adapters/Location/`, `app/Adapters/Map/` | Dominio Geo, non design system |
-| `LocationDataProviderContract`, `MapServiceContract`, `GeocodingServiceContract` | Stesso dominio |
-| `LocationSelector.php` attivo | Selettore geografico |
-
-Se serve geografia: modulo `Geo` (quando presente), mai ricopiare in UI.
-<<<<<<< .merge_file_qT1RUn
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_OvPl19
->>>>>>> .merge_file_91DP7y
->>>>>>> laraxot/dev
->>>>>>> .merge_file_7d7v4G
 
 ---
 
