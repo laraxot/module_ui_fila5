@@ -4,16 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\UI\Actions;
 
-use Illuminate\Contracts\Auth\Authenticatable;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
 use Modules\UI\Datas\UserData;
 use Modules\User\Models\Profile;
 use Modules\User\Models\User;
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
-use Modules\Xot\Actions\Cast\SafeStringCastAction;
-use Modules\Xot\Contracts\UserContract;
 use Spatie\Permission\Contracts\Permission;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -33,11 +29,11 @@ class GetUserDataAction
         $profile = $user->relationLoaded('profile') ? $user->profile : null;
         if ($profile instanceof Profile) {
             $avatarUrl = $profile->getAvatarUrl();
-            $avatarValue = $avatarUrl !== '' ? $avatarUrl : null;
+            $avatarValue = '' !== $avatarUrl ? $avatarUrl : null;
         }
 
         $profilePhotoPath = property_exists($user, 'profile_photo_path') ? $user->profile_photo_path : null;
-        if (null === $avatarValue && is_string($profilePhotoPath) && $profilePhotoPath !== '') {
+        if (null === $avatarValue && is_string($profilePhotoPath) && '' !== $profilePhotoPath) {
             $avatarValue = $profilePhotoPath;
         }
 

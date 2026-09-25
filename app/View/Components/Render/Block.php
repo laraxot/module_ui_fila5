@@ -10,7 +10,6 @@ use Illuminate\Support\Arr;
 use Illuminate\View\Component;
 use Illuminate\View\View;
 use Modules\UI\Actions\Block\ResolveLocalizedBlockDataAction;
-use UnexpectedValueException;
 use Webmozart\Assert\Assert;
 
 /**
@@ -21,7 +20,7 @@ class Block extends Component
     public ?string $view = null;
 
     /**
-     * @param  array<string, mixed>  $block
+     * @param array<string, mixed> $block
      */
     public function __construct(
         public array $block,
@@ -29,7 +28,7 @@ class Block extends Component
         public string $tpl = '',
     ) {
         $view = Arr::get($this->block, 'data.view', null);
-        if ($view === null) {
+        if (null === $view) {
             $view = 'ui::empty';
         }
         Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
@@ -57,7 +56,7 @@ class Block extends Component
         $viewParams = $this->normalizeViewData($viewParams);
         Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 
-        /** @var view-string $view */
+        /* @var view-string $view */
         return view($view, $viewParams);
     }
 
@@ -74,7 +73,7 @@ class Block extends Component
 
         foreach ($data as $key => $value) {
             if (! is_string($key)) {
-                throw new UnexpectedValueException('Block view data must have string keys.');
+                throw new \UnexpectedValueException('Block view data must have string keys.');
             }
 
             $viewData[$key] = $value;
