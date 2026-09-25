@@ -19,12 +19,12 @@ final class UiCoverageAddressParentRecord extends Model
     public UiCoverageAddressChildRecord $addressModel;
 
     /**
-<<<<<<< HEAD
-<<<<<<< .merge_file_qwqWud
-     * @param  array<string, mixed>  $attributes
-=======
-     * <<<<<<< HEAD.
+     * <<<<<<< HEAD
+     * <<<<<<< .merge_file_qwqWud.
      *
+     * @param array<string, mixed> $attributes
+     *                                         =======
+     *                                         <<<<<<< HEAD
      * @param array<string, mixed> $attributes
      *                                         =======
      *                                         <<<<<<< .merge_file_mMl13T
@@ -41,10 +41,10 @@ final class UiCoverageAddressParentRecord extends Model
      *                                         >>>>>>> .merge_file_0b23s3
      *                                         >>>>>>> .merge_file_onnvsy
      *                                         >>>>>>> laraxot/dev
->>>>>>> .merge_file_2aLZzE
-=======
-     * @param  array<string, mixed>  $attributes
->>>>>>> laraxot/dev
+     *                                         >>>>>>> .merge_file_2aLZzE
+     *                                         =======
+     * @param array<string, mixed> $attributes
+     *                                         >>>>>>> laraxot/dev
      */
     public function __construct(array $attributes = [])
     {
@@ -53,12 +53,12 @@ final class UiCoverageAddressParentRecord extends Model
     }
 
     /**
-<<<<<<< HEAD
-<<<<<<< .merge_file_qwqWud
-     * @param  string|array<int, string>|null  $attribute
-=======
-     * <<<<<<< HEAD.
+     * <<<<<<< HEAD
+     * <<<<<<< .merge_file_qwqWud.
      *
+     * @param string|array<int, string>|null $attribute
+     *                                                  =======
+     *                                                  <<<<<<< HEAD
      * @param string|array<int, string>|null $attribute
      *                                                  =======
      *                                                  <<<<<<< .merge_file_mMl13T
@@ -75,10 +75,10 @@ final class UiCoverageAddressParentRecord extends Model
      *                                                  >>>>>>> .merge_file_0b23s3
      *                                                  >>>>>>> .merge_file_onnvsy
      *                                                  >>>>>>> laraxot/dev
->>>>>>> .merge_file_2aLZzE
-=======
-     * @param  string|array<int, string>|null  $attribute
->>>>>>> laraxot/dev
+     *                                                  >>>>>>> .merge_file_2aLZzE
+     *                                                  =======
+     * @param string|array<int, string>|null $attribute
+     *                                                  >>>>>>> laraxot/dev
      */
     public function touch($attribute = null): bool
     {
