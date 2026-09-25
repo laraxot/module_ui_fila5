@@ -11,25 +11,18 @@ use PHPUnit\Framework\Assert;
 uses(TestCase::class);
 
 /**
-<<<<<<< HEAD
  * @param  array<string, mixed>  $data
-=======
- * @param array<string, mixed> $data
->>>>>>> laraxot/dev
  */
 function renderCategoryTabsHtml(array $data = []): ?string
 {
-    if (! View::exists('pub_theme::components.blocks.navigation.category-tabs')) {
+    /** @var view-string $viewName */
+    $viewName = 'pub_theme::components.blocks.navigation.category-tabs';
+
+    if (! View::exists($viewName)) {
         return null;
     }
 
     try {
-        /** @var view-string $viewName */
-        $viewName = 'pub_theme::components.blocks.navigation.category-tabs';
-<<<<<<< HEAD
-=======
-
->>>>>>> laraxot/dev
         return View::make($viewName, $data)->render();
     } catch (\Throwable) {
         return null;
@@ -37,20 +30,12 @@ function renderCategoryTabsHtml(array $data = []): ?string
 }
 
 /**
-<<<<<<< HEAD
  * @param  array<string, mixed>  $data
-=======
- * @param array<string, mixed> $data
->>>>>>> laraxot/dev
  */
 function requireCategoryTabsHtml(array $data = []): string
 {
     $html = renderCategoryTabsHtml($data);
-<<<<<<< HEAD
     if ($html === null) {
-=======
-    if (null === $html) {
->>>>>>> laraxot/dev
         Assert::markTestSkipped('pub_theme category-tabs view not available in this install.');
     }
 

@@ -8,12 +8,21 @@ qmd: "01-current-state current state - ui"
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+<<<<<<< .merge_file_43vT39
+=======
+<<<<<<< .merge_file_SeYqGR
+=======
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> .merge_file_xW9iOe
+>>>>>>> .merge_file_5kak2V
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
@@ -23,7 +32,16 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+<<<<<<< .merge_file_43vT39
+=======
+<<<<<<< .merge_file_SeYqGR
+=======
 >>>>>>> laraxot/dev
+>>>>>>> .merge_file_xW9iOe
+>>>>>>> .merge_file_5kak2V
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./00-index-1.md"
   - "./00-index.md"

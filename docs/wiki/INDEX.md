@@ -24,9 +24,18 @@ related:
 - [hackernoon-ai-coding-tips-progetto corrente-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-progetto corrente-map.md)
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< .merge_file_Iakz9A
+=======
+<<<<<<< .merge_file_xjCsIF
+=======
 - [hackernoon-ai-coding-tips-progetto corrente-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-progetto corrente-map.md)
 =======
 <<<<<<< HEAD
+>>>>>>> .merge_file_K6OkW0
+>>>>>>> .merge_file_9qVbN2
+=======
+>>>>>>> 804451c (Lint)
 - [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
 =======
 <<<<<<< HEAD
@@ -36,7 +45,16 @@ related:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+<<<<<<< .merge_file_Iakz9A
+=======
+<<<<<<< .merge_file_xjCsIF
+=======
 >>>>>>> laraxot/dev
+>>>>>>> .merge_file_K6OkW0
+>>>>>>> .merge_file_9qVbN2
+=======
+>>>>>>> 804451c (Lint)
 - [bmad/architecture](../../../../docs/wiki/bmad/architecture.md)
 - [frontmatter + GitHub](../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md)
 - [ai-harness-module-discipline](../../docs/wiki/concepts/ai-harness-module-discipline.md)

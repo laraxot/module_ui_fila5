@@ -4,10 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Datas;
 
-<<<<<<< HEAD
 use InvalidArgumentException;
-=======
->>>>>>> laraxot/dev
 use Spatie\LaravelData\Data;
 
 /**
@@ -32,20 +29,12 @@ class ThemeMetadataData extends Data
     }
 
     /**
-<<<<<<< HEAD
-     * @throws InvalidArgumentException se la chiave non esiste
-=======
-     * @throws \InvalidArgumentException se la chiave non esiste
->>>>>>> laraxot/dev
+     * @throws \InvalidArgumentException se la chiave non esiste.
      */
     public function getSpacing(string $key): string
     {
         if (! isset($this->spacingUnits[$key])) {
-<<<<<<< HEAD
             throw new InvalidArgumentException("Invalid spacing unit key: {$key}");
-=======
-            throw new \InvalidArgumentException("Invalid spacing unit key: {$key}");
->>>>>>> laraxot/dev
         }
 
         return $this->spacingUnits[$key];

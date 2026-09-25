@@ -9,10 +9,4 @@ use Modules\UI\Models\Policies\UiBasePolicy;
 /**
  * Concrete policy stub for testing UiBasePolicy behavior.
  */
-<<<<<<< HEAD
 final class UiBasePolicyBehaviorConcretePolicy extends UiBasePolicy {}
-=======
-final class UiBasePolicyBehaviorConcretePolicy extends UiBasePolicy
-{
-}
->>>>>>> laraxot/dev

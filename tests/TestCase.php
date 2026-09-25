@@ -11,19 +11,12 @@ use Mockery\Expectation;
 use Mockery\LegacyMockInterface;
 use Mockery\MockInterface;
 use Modules\UI\Providers\UIServiceProvider;
-<<<<<<< HEAD
-use Modules\Xot\Contracts\UserContract;
-=======
+use Modules\UI\Tests\Support\EnsuresUiDatabaseSchema;
 use Modules\User\Models\User;
->>>>>>> laraxot/dev
 use Modules\User\Providers\UserServiceProvider;
 use Modules\Xot\Tests\XotBaseTestCase;
 
 use function Safe\file_get_contents;
-<<<<<<< HEAD
-use Modules\User\Models\User;
-=======
->>>>>>> laraxot/dev
 
 /**
  * Base test case for UI module.
@@ -34,6 +27,7 @@ use Modules\User\Models\User;
 abstract class TestCase extends XotBaseTestCase
 {
     use DatabaseTransactions;
+    use EnsuresUiDatabaseSchema;
 
     /**
      * Restringe il tipo di ritorno unione di shouldReceive() per PHPStan.
@@ -76,6 +70,8 @@ abstract class TestCase extends XotBaseTestCase
 
         parent::setUp();
 
+        $this->ensureUiSchema();
+
         config(['auth.providers.users.model' => User::class]);
 
         if ($this->shouldSkipForMissingUiDb()) {
@@ -95,11 +91,7 @@ abstract class TestCase extends XotBaseTestCase
 
         $testFile = $this->resolvePestTestFile();
 
-<<<<<<< HEAD
         if ($testFile !== null && is_file($testFile)) {
-=======
-        if (null !== $testFile && is_file($testFile)) {
->>>>>>> laraxot/dev
             $source = file_get_contents($testFile);
             if (str_contains($source, "group('no-ui-db')")) {
                 return false;
@@ -109,11 +101,7 @@ abstract class TestCase extends XotBaseTestCase
             }
         }
 
-<<<<<<< HEAD
         if ($testFile !== null && str_contains($testFile, '/tests/Unit/')) {
-=======
-        if (null !== $testFile && str_contains($testFile, '/tests/Unit/')) {
->>>>>>> laraxot/dev
             return false;
         }
 
@@ -133,11 +121,7 @@ abstract class TestCase extends XotBaseTestCase
 
         $file = (new \ReflectionClass($this))->getFileName();
 
-<<<<<<< HEAD
         return $file !== false ? $file : null;
-=======
-        return false !== $file ? $file : null;
->>>>>>> laraxot/dev
     }
 
     /**

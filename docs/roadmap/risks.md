@@ -8,12 +8,21 @@ qmd: "04-risks risks and dependencies (module ui)"
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+<<<<<<< HEAD
+<<<<<<< .merge_file_phcFz0
+=======
+<<<<<<< .merge_file_wmJCQ6
+=======
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
+>>>>>>> .merge_file_5BeOFH
+>>>>>>> .merge_file_YXLWhv
+=======
+>>>>>>> 804451c (Lint)
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
@@ -23,7 +32,16 @@ issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
+<<<<<<< .merge_file_phcFz0
+=======
+<<<<<<< .merge_file_wmJCQ6
+=======
 >>>>>>> laraxot/dev
+>>>>>>> .merge_file_5BeOFH
+>>>>>>> .merge_file_YXLWhv
+=======
+>>>>>>> 804451c (Lint)
 related:
   - "./00-index-1.md"
   - "./00-index.md"

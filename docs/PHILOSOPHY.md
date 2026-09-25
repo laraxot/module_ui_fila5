@@ -244,10 +244,36 @@ Modules/UI/
 │   ├── Feature/
 │   └── Unit/
 ├── README.md
+<<<<<<< HEAD
+<<<<<<< .merge_file_QZdJ5M
+=======
+<<<<<<< .merge_file_PxAbOR
+=======
+<<<<<<< HEAD
+└── CHANGELOG.md
+```
+
+(`ARCHITECTURE.md`, `TESTING.md`, `GETTING_STARTED.md` and `PHILOSOPHY.md` were moved from the module root into `docs/root-md-files/` and `docs/` proper; they are inside the collapsed `docs/` entry above.)
+
+=======
+>>>>>>> .merge_file_jEotks
+>>>>>>> .merge_file_hBcCiW
+=======
+>>>>>>> 804451c (Lint)
 ├── ARCHITECTURE.md
 └── CHANGELOG.md
 ```
 
+<<<<<<< HEAD
+<<<<<<< .merge_file_QZdJ5M
+=======
+<<<<<<< .merge_file_PxAbOR
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jEotks
+>>>>>>> .merge_file_hBcCiW
+=======
+>>>>>>> 804451c (Lint)
 ---
 
 ### Blade Component Naming
@@ -1271,7 +1297,23 @@ Core functionality tests pass:
 ### Core Documentation
 
 - [README.md](./README.md) — Module overview
+<<<<<<< HEAD
+<<<<<<< .merge_file_QZdJ5M
 - [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
+=======
+<<<<<<< .merge_file_PxAbOR
+- [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
+=======
+<<<<<<< HEAD
+- [architecture.md](./architecture.md) — System architecture
+=======
+- [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_jEotks
+>>>>>>> .merge_file_hBcCiW
+=======
+- [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
+>>>>>>> 804451c (Lint)
 - [patterns.md](./patterns.md) — Design patterns and workflows
 - [icon-system.md](./icon-system.md) — Icon system details
 
