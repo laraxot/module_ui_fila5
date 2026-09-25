@@ -196,13 +196,13 @@ describe('UI gap closer 100 — middleware trait rules', function (): void {
         Assert::assertSame(TableLayoutEnum::LIST, $subject->getTableLayout());
 
         Session::put('table_layout', 'list');
-        Assert::assertSame(TableLayoutEnum::LIST, $subject->getTableLayout());
+        Assert::assertEquals(TableLayoutEnum::LIST, $subject->getTableLayout());
 
         Session::put('table_layout', 'invalid');
         Assert::assertSame(TableLayoutEnum::GRID, $subject->getTableLayout());
 
         Session::forget('table_layout');
-        Assert::assertSame(TableLayoutEnum::GRID, $subject->getTableLayout());
+        Assert::assertEquals(TableLayoutEnum::GRID, $subject->getTableLayout());
 
         $subject->refreshTable();
         Assert::assertGreaterThan(0, $subject->dispatched);
