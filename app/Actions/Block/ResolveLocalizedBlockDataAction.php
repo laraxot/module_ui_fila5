@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Actions\Block;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_xFcrep
 <<<<<<< HEAD
 =======
@@ -28,11 +29,16 @@ use UnexpectedValueException;
 use Spatie\QueueableAction\QueueableAction;
 
 >>>>>>> .merge_file_Rkucwl
+=======
+use Spatie\QueueableAction\QueueableAction;
+
+>>>>>>> laraxot/dev
 /**
  * Risolve dati block localizzati; delega al modulo Cms se presente.
  */
 final class ResolveLocalizedBlockDataAction
 {
+<<<<<<< HEAD
 <<<<<<< .merge_file_xFcrep
 <<<<<<< HEAD
     /**
@@ -61,6 +67,13 @@ final class ResolveLocalizedBlockDataAction
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_fjVsew
+=======
+    use QueueableAction;
+
+    /**
+     * @param array<string, mixed> $viewParams
+     *
+>>>>>>> laraxot/dev
      * @return array<string, mixed>
      */
     public function execute(array $viewParams): array
@@ -82,6 +95,7 @@ final class ResolveLocalizedBlockDataAction
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< .merge_file_wioCsi
 <<<<<<< HEAD
 =======
@@ -102,10 +116,17 @@ final class ResolveLocalizedBlockDataAction
     private function normalizeViewData(array $data): array
     {
 <<<<<<< .merge_file_xFcrep
+=======
+     * @return array<string, mixed>
+     */
+    private function normalizeViewData(mixed $data): array
+    {
+>>>>>>> laraxot/dev
         if (! is_array($data)) {
             return [];
         }
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_wioCsi
 =======
 =======
@@ -130,11 +151,14 @@ final class ResolveLocalizedBlockDataAction
 =======
 >>>>>>> .merge_file_Rkucwl
 >>>>>>> .merge_file_fjVsew
+=======
+>>>>>>> laraxot/dev
         $viewData = [];
 
         foreach ($data as $key => $value) {
             if (! is_string($key)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_wioCsi
 =======
                 throw new \UnexpectedValueException('Block view data must have string keys.');
@@ -153,6 +177,9 @@ final class ResolveLocalizedBlockDataAction
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_fjVsew
+=======
+                throw new \UnexpectedValueException('Block view data must have string keys.');
+>>>>>>> laraxot/dev
             }
 
             $viewData[$key] = $value;

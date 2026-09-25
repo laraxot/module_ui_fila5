@@ -111,6 +111,7 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
     protected static ?string $pollingInterval = null;
     protected static bool $isLazy = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 <<<<<<< HEAD
@@ -156,6 +157,9 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
+=======
+    
 >>>>>>> laraxot/dev
     // Configurazioni comuni per tutti i widget di statistiche UI
     protected static function getDefaultStats(): array
@@ -165,6 +169,7 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
         ];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 <<<<<<< HEAD
@@ -216,6 +221,9 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
+=======
+    
 >>>>>>> laraxot/dev
     // Metodi helper comuni
     protected function formatNumber(int|float $number): string
@@ -223,6 +231,7 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
         return number_format($number);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 <<<<<<< HEAD
@@ -274,6 +283,9 @@ abstract class UIBaseStatsWidget extends XotBaseStatsOverviewWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
+=======
+    
 >>>>>>> laraxot/dev
     protected function formatPercentage(int|float $percentage): string
     {
@@ -302,6 +314,7 @@ abstract class UIBaseTestWidget extends XotBaseWidget
     protected static bool $isLazy = true;
     protected static ?string $pollingInterval = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -334,10 +347,13 @@ abstract class UIBaseTestWidget extends XotBaseWidget
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_zeGhgK
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     
     // Configurazioni comuni per tutti i widget di test UI
     public array $widgets = [];
     
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Jhw6me
 =======
@@ -399,6 +415,8 @@ abstract class UIBaseTestWidget extends XotBaseWidget
 =======
 >>>>>>> .merge_file_u41tzd
 >>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     // Metodi helper comuni
     protected function getTestData(): array
@@ -432,6 +450,7 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
     protected static ?string $description = null;
     protected static ?string $pollingInterval = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 <<<<<<< HEAD
@@ -496,6 +515,9 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
+=======
+    
 >>>>>>> laraxot/dev
     // Configurazioni comuni per tutti i grafici UI
     protected function getDefaultChartOptions(): array
@@ -511,6 +533,7 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
         ];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Jhw6me
     
 =======
@@ -574,6 +597,9 @@ abstract class UIBaseChartWidget extends XotBaseChartWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
+=======
+    
 >>>>>>> laraxot/dev
     // Metodi helper comuni
     protected function formatChartData(array $data): array
@@ -658,6 +684,7 @@ class SystemTestWidget extends UIBaseTestWidget
 {
     protected static string $view = 'ui::filament.widgets.system-test';
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 <<<<<<< HEAD
@@ -722,6 +749,9 @@ class SystemTestWidget extends UIBaseTestWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
+=======
+    
 >>>>>>> laraxot/dev
     public function getViewData(): array
     {
@@ -734,6 +764,7 @@ class SystemTestWidget extends UIBaseTestWidget
         );
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Jhw6me
     
 =======
@@ -788,6 +819,9 @@ class SystemTestWidget extends UIBaseTestWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
+=======
+    
 >>>>>>> laraxot/dev
     private function getSystemInfo(): array
     {
@@ -798,6 +832,7 @@ class SystemTestWidget extends UIBaseTestWidget
         ];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
 <<<<<<< HEAD
@@ -849,6 +884,9 @@ class SystemTestWidget extends UIBaseTestWidget
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
+=======
+    
 >>>>>>> laraxot/dev
     private function getDatabaseStatus(): array
     {
@@ -882,6 +920,7 @@ class SystemTestWidget extends UIBaseTestWidget
 ## 🔗 Collegamenti Correlati
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Jhw6me
 =======
 <<<<<<< .merge_file_7rir5z
@@ -906,12 +945,16 @@ class SystemTestWidget extends UIBaseTestWidget
 >>>>>>> .merge_file_u41tzd
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_zeGhgK
+=======
+- [XotBase Patterns](../../xot/docs/optimization_opportunities.md)
+>>>>>>> laraxot/dev
 - [UI Components](components.md)
 - [Development Guidelines](development-guidelines.md)
 - [Testing Strategy](testing-strategy.md)
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Jhw6me
 *Autore: Analisi Automatica del Progetto*
@@ -1161,4 +1204,7 @@ class SystemTestWidget extends UIBaseTestWidget
 *Autore: Analisi Automatica del Progetto*
 >>>>>>> .merge_file_u41tzd
 >>>>>>> .merge_file_zeGhgK
+>>>>>>> laraxot/dev
+=======
+*Autore: Analisi Automatica del Progetto*
 >>>>>>> laraxot/dev

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6PwAbP
 =======
 =======
@@ -64,6 +65,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_OKQVJN
 >>>>>>> .merge_file_YIDMac
+=======
+>>>>>>> laraxot/dev
 # Registrazione dei Componenti nei Moduli
 
 ## Regola Fondamentale

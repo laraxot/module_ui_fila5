@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_wSinB0
 =======
 =======
@@ -69,6 +70,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_x7VHw5
 >>>>>>> .merge_file_2Uh6PY
+=======
+>>>>>>> laraxot/dev
 # filament
 
 <!-- Contenuto migrato da _docs/filament.txt -->

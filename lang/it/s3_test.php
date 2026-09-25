@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_Qo9KFl
 <<<<<<< HEAD
 =======
@@ -46,6 +47,9 @@ return [
 return [
 >>>>>>> .merge_file_c31MPu
 >>>>>>> .merge_file_WA3LCZ
+=======
+return [
+>>>>>>> laraxot/dev
     'navigation' => [
         'label' => 'Test S3',
         'group' => 'UI',

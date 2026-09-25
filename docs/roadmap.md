@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_OZcTIt
 =======
 <<<<<<< .merge_file_haK1Oe
@@ -744,6 +745,8 @@ class UserCalendarWidget extends XotBaseWidget
 =======
 >>>>>>> .merge_file_6jihez
 >>>>>>> .merge_file_zS0VgQ
+=======
+>>>>>>> laraxot/dev
 # 🎨 UI MODULE - ROADMAP 2025
 ||||||| parent of 9a84589 (.)
 # UI Module Roadmap
@@ -753,6 +756,7 @@ class UserCalendarWidget extends XotBaseWidget
 **Priority**: HIGH  
 **PHPStan**: ✅ level 10 (0 errori)  
 **Filament**: ✅ 4.x Compatibile  
+<<<<<<< HEAD
 <<<<<<< .merge_file_OZcTIt
 =======
 =======
@@ -1505,12 +1509,15 @@ class UserCalendarWidget extends XotBaseWidget
 >>>>>>> .merge_file_6jihez
 >>>>>>> .merge_file_zS0VgQ
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ---
 
 ## 🎯 MODULE OVERVIEW
 
 Il modulo **UI** è il sistema di componenti e design system della piattaforma FixCity, fornendo una libreria completa di componenti riutilizzabili, conformi alle linee guida AGID e compatibili con Filament 4.x.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_OZcTIt
 =======
@@ -1536,6 +1543,8 @@ Il modulo **UI** è il sistema di componenti e design system della piattaforma p
 >>>>>>> .merge_file_6jihez
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_zS0VgQ
+=======
+>>>>>>> laraxot/dev
 
 ### 🏗️ Architettura Modulo
 ```
@@ -1601,6 +1610,7 @@ UI Module
 
 ### 🛠️ Technical Excellence
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_OZcTIt
 =======
 <<<<<<< .merge_file_haK1Oe
@@ -1625,6 +1635,9 @@ UI Module
 >>>>>>> .merge_file_6jihez
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_zS0VgQ
+=======
+- [x] **PHPStan level 10**: 0 errori
+>>>>>>> laraxot/dev
 - [x] **Filament 4.x**: Compatibilità completa
 - [x] **Type Safety**: Type hints completi
 - [x] **Error Handling**: Gestione errori robusta
@@ -1639,6 +1652,7 @@ UI Module
 
 ### ♿ AGID Compliance Completion (Priority: CRITICAL)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_OZcTIt
 **Status**: 85% COMPLETATO  
 =======
@@ -1662,6 +1676,9 @@ UI Module
 **Status**: 85% COMPLETATO  
 >>>>>>> .merge_file_6jihez
 >>>>>>> .merge_file_zS0VgQ
+>>>>>>> laraxot/dev
+=======
+**Status**: 85% COMPLETATO  
 >>>>>>> laraxot/dev
 **Timeline**: Q1 2025
 
@@ -1698,6 +1715,7 @@ UI Module
 
 ### 📱 Mobile Optimization (Priority: HIGH)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_OZcTIt
 **Status**: 70% COMPLETATO  
 =======
@@ -1721,6 +1739,9 @@ UI Module
 **Status**: 70% COMPLETATO  
 >>>>>>> .merge_file_6jihez
 >>>>>>> .merge_file_zS0VgQ
+>>>>>>> laraxot/dev
+=======
+**Status**: 70% COMPLETATO  
 >>>>>>> laraxot/dev
 **Timeline**: Q1 2025
 
@@ -1801,6 +1822,7 @@ UI Module
 
 ### 📊 Technical Metrics
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_OZcTIt
 =======
 <<<<<<< .merge_file_haK1Oe
@@ -1825,6 +1847,9 @@ UI Module
 >>>>>>> .merge_file_6jihez
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_zS0VgQ
+=======
+- [x] **PHPStan level 10**: 0 errori ✅
+>>>>>>> laraxot/dev
 - [x] **Filament 4.x**: Compatibile ✅
 - [ ] **Test Coverage**: 80% (target)
 - [ ] **Response Time**: < 200ms
@@ -1913,6 +1938,7 @@ UI Module
 **Last Updated**: 2025-10-01
 **Next Review**: 2025-11-01
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_OZcTIt
 =======
 <<<<<<< .merge_file_haK1Oe
@@ -1943,11 +1969,16 @@ UI Module
 >>>>>>> .merge_file_6jihez
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_zS0VgQ
+=======
+**Status**: 🚧 ACTIVE DEVELOPMENT  
+**Confidence Level**: 90%  
+>>>>>>> laraxot/dev
 
 ---
 
 *Questa roadmap è specifica per il modulo UI e viene aggiornata regolarmente in base ai progressi e alle nuove esigenze.*
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_OZcTIt
 ||||||| parent of 9a84589 (.)
 =======
@@ -1975,6 +2006,9 @@ UI Module
 ||||||| parent of 9a84589 (.)
 >>>>>>> .merge_file_6jihez
 >>>>>>> .merge_file_zS0VgQ
+>>>>>>> laraxot/dev
+=======
+||||||| parent of 9a84589 (.)
 >>>>>>> laraxot/dev
 "L'interfaccia è l'essenza: rendere l'esperienza indimenticabile."
 
@@ -1997,6 +2031,7 @@ Creare un ecosistema UI "Headless-first" che permetta di cambiare radicalmente i
 ### Fase 3: AI Design (Future)
 - [ ] **AI Theme Generator**: Generazione automatica di palette colori accessibili da un'immagine di brand.
 - [ ] **Dynamic Layout Optimization**: L'AI suggerisce layout migliori in base al tipo di contenuto visualizzato.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_OZcTIt
 - [ ] **Predictive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
@@ -2053,6 +2088,9 @@ Creare un ecosistema UI "Headless-first" che permetta di cambiare radicalmente i
 >>>>>>> .merge_file_6jihez
 >>>>>>> .merge_file_zS0VgQ
 >>>>>>> laraxot/dev
+=======
+- [ ] **Predictive Prefetching**: Caricamento anticipato delle risorse UI in base ai pattern di navigazione.
+>>>>>>> laraxot/dev
 
 ## ✅ Checklist Qualità
 - [x] PHPStan Level 10.
@@ -2060,6 +2098,7 @@ Creare un ecosistema UI "Headless-first" che permetta di cambiare radicalmente i
 - [ ] Performance Lighthouse > 90 su pagine UI intensive.
 
 ---
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_OZcTIt
 **
@@ -2902,4 +2941,7 @@ Completare il modulo UI con tutte le funzionalità mancanti, migliorare qualità
 **
 >>>>>>> .merge_file_6jihez
 >>>>>>> .merge_file_zS0VgQ
+>>>>>>> laraxot/dev
+=======
+**
 >>>>>>> laraxot/dev

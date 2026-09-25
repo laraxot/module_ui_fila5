@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_XX0a4c
 =======
 <<<<<<< .merge_file_WBYahb
@@ -227,6 +228,8 @@ rector.php
 =======
 >>>>>>> .merge_file_gIPlgs
 >>>>>>> .merge_file_9qzo8O
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: .gitignore
@@ -235,6 +238,7 @@ canonical: ../../../Themes/docs/shared-components/.gitignore-Modules
 
 See canonical documentation: ../../../Themes/docs/shared-components/.gitignore-Modules
 agentdb.rvf
+<<<<<<< HEAD
 <<<<<<< .merge_file_XX0a4c
 =======
 =======
@@ -469,4 +473,6 @@ rector.php
 =======
 >>>>>>> .merge_file_gIPlgs
 >>>>>>> .merge_file_9qzo8O
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

@@ -68,8 +68,12 @@ qmd search "form" -c ui  # Solo questo modulo
 <<<<<<< HEAD
 - [On-Demand Pattern](./on-demand-pattern.md)
 =======
+<<<<<<< HEAD
 <<<<<<< .merge_file_Kg3Bq7
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 <<<<<<< .merge_file_jV5rLp
 =======
 <<<<<<< .merge_file_2qPibG
@@ -80,7 +84,12 @@ qmd search "form" -c ui  # Solo questo modulo
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_DXJqBQ
 >>>>>>> .merge_file_suyRqm
+<<<<<<< HEAD
 >>>>>>> .merge_file_XFy9Fd
+=======
+=======
+>>>>>>> 804451c (Lint)
+>>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 
 ---

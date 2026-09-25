@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_grHv5B
 <<<<<<< HEAD
 =======
@@ -79,6 +80,8 @@ declare(strict_types=1);
 ?>
 >>>>>>> .merge_file_mCH0S8
 >>>>>>> .merge_file_wOdVbY
+=======
+>>>>>>> laraxot/dev
 @props([
     'currentStep' => 1,
     'totalSteps' => 4,

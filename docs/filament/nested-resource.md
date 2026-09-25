@@ -4,6 +4,7 @@ description: Nested Resource
 extends: _layouts.documentation
 section: content
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zH872U
 =======
 =======
@@ -40,6 +41,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_h6zArK
 >>>>>>> .merge_file_RvfPLW
+=======
+>>>>>>> laraxot/dev
 ---
 
 # Nested Resource {#nested-resource}

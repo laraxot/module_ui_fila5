@@ -1,6 +1,10 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 /**
  * @see https://filamentphp.com/docs/3.x/forms/fields/types
  * @see https://github.com/Valourite/form-builder/blob/v1.x/src/Filament/Enums/FieldType.php
@@ -14,6 +18,7 @@ use Filament\Support\Contracts\HasLabel;
 use Modules\Xot\Traits\EnumTrait;
 
 /**
+<<<<<<< HEAD
 <<<<<<< .merge_file_PhCfas
 =======
 <<<<<<< .merge_file_k4aE4q
@@ -37,6 +42,9 @@ use Modules\Xot\Traits\EnumTrait;
  * Defines the different types of appointments in the system.
 >>>>>>> .merge_file_qCIK1o
 >>>>>>> .merge_file_yndxKC
+=======
+ * Defines the different types of appointments in the system.
+>>>>>>> laraxot/dev
  *
  * @method static self        fromName(string $name)
  * @method static self        fromValue(string $value)
@@ -51,6 +59,7 @@ enum FieldTypeEnum: string implements HasColor, HasIcon, HasLabel
     case TEXT = 'text';
     // case NUMBER   = 'number';
     case EMAIL = 'email';
+<<<<<<< HEAD
 <<<<<<< .merge_file_PhCfas
 =======
 <<<<<<< .merge_file_k4aE4q
@@ -72,6 +81,9 @@ enum FieldTypeEnum: string implements HasColor, HasIcon, HasLabel
     // case PASSWORD = 'password';
 >>>>>>> .merge_file_qCIK1o
 >>>>>>> .merge_file_yndxKC
+=======
+    // case PASSWORD = 'password';
+>>>>>>> laraxot/dev
     case TEXTAREA = 'textarea';
     case SELECT = 'select';
     case RADIO = 'radio';

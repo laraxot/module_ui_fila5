@@ -37,6 +37,7 @@ The `IconStateSplitColumn` is a custom Filament table column component designed 
 ```php
 use Modules\UI\Filament\Tables\Columns\IconStateSplitColumn;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\<nome progetto>\States\Appointment\AppointmentState;
 use Modules\<nome progetto>\Models\Appointment;
 =======
@@ -54,6 +55,10 @@ use Modules\SaluteOra\Models\Appointment;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_WkkJPA
+=======
+use Modules\<nome progetto>\States\Appointment\AppointmentState;
+use Modules\<nome progetto>\Models\Appointment;
+>>>>>>> laraxot/dev
 
 // In your Filament resource table configuration
 'states' => IconStateSplitColumn::make()
@@ -297,18 +302,22 @@ The main issue was that `wire:click` doesn't work directly in Filament table col
 ```javascript
 // Custom event dispatch
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_wvyi96
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_WkkJPA
+=======
+>>>>>>> laraxot/dev
 onclick="window.dispatchEvent(new CustomEvent('state-transition', {
     detail: {
         recordId: {{ $record->id }},
         stateClass: '{{ $state['class']::class }}',
         action: 'prova'
     }
+<<<<<<< HEAD
 <<<<<<< .merge_file_wvyi96
 =======
 <<<<<<< HEAD
@@ -326,6 +335,8 @@ onclick="window.dispatchEvent(new CustomEvent('state-transition', {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_WkkJPA
+=======
+>>>>>>> laraxot/dev
 }))"
 
 // Event listener for Livewire integration
@@ -370,6 +381,7 @@ document.addEventListener('state-transition', function(event) {
 **Last Updated**: June 2025
 **Version**: 2.1
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_wvyi96
 =======
 **Compatibility**: Filament 3.x, Laravel 10.x
@@ -384,3 +396,6 @@ document.addEventListener('state-transition', function(event) {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_WkkJPA
+=======
+**Compatibility**: Filament 3.x, Laravel 10.x
+>>>>>>> laraxot/dev

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_sy6G9i
 =======
 =======
@@ -66,11 +67,14 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_TMq9Ev
 >>>>>>> .merge_file_2Hk826
+=======
+>>>>>>> laraxot/dev
 # Guida Completa: Multiple Labels con chartjs-plugin-datalabels in Filament 5.x (Modulo UI)
 
 **Versione:** 1.0  
 **Data:** Gennaio 2026  
 **Target:** Filament 5.x, Laravel 12.x, Modulo UI  
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_sy6G9i
 =======
@@ -93,6 +97,8 @@ related:
 >>>>>>> .merge_file_TMq9Ev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_2Hk826
+=======
+>>>>>>> laraxot/dev
 **Livello:** Guida "a prova di stupido" - passo dopo passo
 
 > **Riferimento Ufficiale:** [chartjs-plugin-datalabels - Multiple Labels Sample](https://chartjs-plugin-datalabels.netlify.app/samples/advanced/multiple-labels.html)  
@@ -671,6 +677,7 @@ protected function getOptions(): array
 - [Guida Completa Chart Module](../../chart/docs/chartjs-datalabels-multiple-labels-complete-guide.md)
 - [Filament 5.x Installation Guide](../../chart/docs/filament-5-installation-guide.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [SimpleChartWidget con Sfondi](../../Quaeris/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
 =======
 <<<<<<< HEAD
@@ -721,6 +728,9 @@ protected function getOptions(): array
 =======
 >>>>>>> .merge_file_TMq9Ev
 >>>>>>> .merge_file_2Hk826
+>>>>>>> laraxot/dev
+=======
+- [SimpleChartWidget con Sfondi](../../Quaeris/docs/simplechartwidget-labels-backgrounds.md) - ⭐ Esempio completo con sfondi ottimizzati per UI/UX
 >>>>>>> laraxot/dev
 
 ### Documentazione Ufficiale
@@ -733,6 +743,7 @@ protected function getOptions(): array
 **Versione:** 1.0  
 **Ultimo Aggiornamento:** Gennaio 2026  
 <<<<<<< HEAD
+<<<<<<< HEAD
 **Mantenuto da:** Quaeris Development Team
 =======
 <<<<<<< HEAD
@@ -786,3 +797,6 @@ protected function getOptions(): array
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_TMq9Ev
 >>>>>>> .merge_file_2Hk826
+=======
+**Mantenuto da:** Quaeris Development Team
+>>>>>>> laraxot/dev

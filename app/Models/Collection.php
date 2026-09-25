@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Models;
 
 use Illuminate\Database\Eloquent\Builder;
+<<<<<<< HEAD
 <<<<<<< .merge_file_R6qAC8
 =======
 <<<<<<< .merge_file_iW8GiV
@@ -28,10 +29,15 @@ use Modules\Xot\Contracts\ProfileContract;
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ZmRhSs
 >>>>>>> laraxot/dev
+=======
+use Modules\UI\Database\Factories\CollectionFactory;
+use Modules\Xot\Contracts\ProfileContract;
+>>>>>>> laraxot/dev
 use Modules\Xot\Models\BaseModel;
 
 /**
  * Collection model for UI module.
+<<<<<<< HEAD
 <<<<<<< .merge_file_R6qAC8
 <<<<<<< HEAD
 =======
@@ -139,6 +145,26 @@ use Modules\Xot\Models\BaseModel;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ZmRhSs
+>>>>>>> laraxot/dev
+=======
+ * FormBuilder module not available - extending from XotBaseModel instead.
+ */
+/**
+ * @property string|null                     $name
+ * @property string|null                     $description
+ * @property string|null                     $type
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property ProfileContract|null            $creator
+ * @property ProfileContract|null            $updater
+ *
+ * @method static CollectionFactory          factory($count = null, $state = [])
+ * @method static Builder<static>|Collection newModelQuery()
+ * @method static Builder<static>|Collection newQuery()
+ * @method static Builder<static>|Collection query()
+ *
+ * @property ProfileContract|null $deleter
+ *
 >>>>>>> laraxot/dev
  * @mixin \Eloquent
  */

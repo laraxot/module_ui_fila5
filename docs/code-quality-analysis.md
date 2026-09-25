@@ -2,6 +2,7 @@
 
 ## Data
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_B7hL5u
 [DATE]
 =======
@@ -25,6 +26,9 @@
 [DATE]
 >>>>>>> .merge_file_C7lyl1
 >>>>>>> .merge_file_biNVuI
+>>>>>>> laraxot/dev
+=======
+[DATE]
 >>>>>>> laraxot/dev
 
 ## Strumenti Utilizzati
@@ -75,6 +79,7 @@ Eseguire `./vendor/bin/rector process Modules/UI --dry-run` per vedere le modifi
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_B7hL5u
 =======
 <<<<<<< .merge_file_GaK4SO
@@ -91,10 +96,13 @@ Eseguire `./vendor/bin/rector process Modules/UI --dry-run` per vedere le modifi
 =======
 >>>>>>> .merge_file_C7lyl1
 >>>>>>> .merge_file_biNVuI
+=======
+>>>>>>> laraxot/dev
 - [Module Analysis Report](../../../../docs/module-analysis-report-[date].md)
 - [PHPStan Level 10 Fixes](../../../../docs/phpstan-level10-fixes-[date].md)
 
 *Ultimo aggiornamento: [DATE]*
+<<<<<<< HEAD
 <<<<<<< .merge_file_B7hL5u
 =======
 =======
@@ -117,4 +125,6 @@ Eseguire `./vendor/bin/rector process Modules/UI --dry-run` per vedere le modifi
 =======
 >>>>>>> .merge_file_C7lyl1
 >>>>>>> .merge_file_biNVuI
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

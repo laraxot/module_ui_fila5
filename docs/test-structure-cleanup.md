@@ -106,6 +106,7 @@ Modules/UI/
 - Clear migration path
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_U9l3EO
 ### 4. **Autoloader <nome progetto>ability**
 =======
@@ -157,6 +158,9 @@ Modules/UI/
 ### 4. **Autoloader <nome progetto>ability**
 >>>>>>> .merge_file_OsHfpv
 >>>>>>> .merge_file_8WV8oF
+>>>>>>> laraxot/dev
+=======
+### 4. **Autoloader <nome progetto>ability**
 >>>>>>> laraxot/dev
 - Eliminates ambiguous class resolution
 - Consistent namespace-to-directory mapping
@@ -225,6 +229,7 @@ After cleanup:
 
 - ✅ No more PSR-4 autoloading warnings
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_U9l3EO
 - ✅ Clear, <nome progetto>able test structure
 =======
@@ -295,6 +300,9 @@ After cleanup:
 - ✅ Clear, <nome progetto>able test structure
 >>>>>>> .merge_file_OsHfpv
 >>>>>>> .merge_file_8WV8oF
+>>>>>>> laraxot/dev
+=======
+- ✅ Clear, <nome progetto>able test structure
 >>>>>>> laraxot/dev
 - ✅ Consistent with Laravel conventions
 - ✅ Compatible with module system

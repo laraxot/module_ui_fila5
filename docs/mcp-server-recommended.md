@@ -21,6 +21,7 @@ Gestione interfaccia utente, componenti, asset e frontend.
 
 ## Note
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Personalizza la configurazione per esigenze di frontend avanzato.
 <<<<<<< .merge_file_GBuj3S
 =======
@@ -112,3 +113,6 @@ Gestione interfaccia utente, componenti, asset e frontend.
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Tklubg
 >>>>>>> .merge_file_p28mRl
+=======
+- Personalizza la configurazione per esigenze di frontend avanzato.
+>>>>>>> laraxot/dev

@@ -4,6 +4,7 @@ type: concept
 updated: 2026-04-23
 tags: [filament, forms, select, enum, tom-select, php, best-practices, false-friends]
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_hghmDH
 =======
 =======
@@ -40,6 +41,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_r6DucI
 >>>>>>> .merge_file_1huQZu
+=======
+>>>>>>> laraxot/dev
 ---
 
 # Problema

@@ -359,10 +359,14 @@ Quando aggiungi feature nuova a UI:
 <<<<<<< HEAD
 - [INDEX](./index.md) — Documentazione index completo
 =======
+<<<<<<< HEAD
 <<<<<<< .merge_file_K6eNXF
 - [INDEX](./INDEX.md) — Documentazione index completo
 >>>>>>> laraxot/dev
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 <<<<<<< .merge_file_KyuCMa
 - [INDEX](./INDEX.md) — Documentazione index completo
 >>>>>>> laraxot/dev
@@ -379,7 +383,14 @@ Quando aggiungi feature nuova a UI:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Z1KmJv
 >>>>>>> .merge_file_xRFpUK
+<<<<<<< HEAD
 >>>>>>> .merge_file_6jSg57
+=======
+=======
+- [INDEX](./INDEX.md) — Documentazione index completo
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
+>>>>>>> laraxot/dev
 - [TROUBLESHOOTING](./TROUBLESHOOTING.md) — Errori comuni e soluzioni
 - [architecture/component-registration](./architecture/component-registration.md) — Registrazione dettagliata
 - [standards/ui-standards](./standards/ui-standards.md) — UI component standards

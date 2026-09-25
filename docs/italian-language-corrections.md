@@ -79,6 +79,7 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 'afternoon_hours' => 'Orario pomeridiano',
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Dopo
 =======
 <<<<<<< HEAD
@@ -120,6 +121,9 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+// Dopo
 >>>>>>> laraxot/dev
 'morning_hours' => 'Orari del mattino',
 'afternoon_hours' => 'Orari del pomeriggio',
@@ -201,6 +205,7 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 - [Linee Guida Localizzazione](./localization_guidelines.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 =======
 *Correzioni completate: gennaio 2025*
@@ -269,6 +274,19 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 =======
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+*Correzioni completate: gennaio 2025*
+# Correzioni Lingua Italiana - Opening Hours
+
+## Problema Identificato
+
+Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammaticali e espressioni poco naturali che compromettevano la qualità dell'interfaccia utente.
+
+## Correzioni Applicate
+
+### 1. **Terminologia "Mattina" → "Mattino"**
+
 >>>>>>> laraxot/dev
 #### ❌ Prima (Scorretto)
 ```php
@@ -278,6 +296,7 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 'labels' => ['morning' => 'Mattina'],
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
 #### ✅ Dopo (Corretto)
@@ -309,12 +328,18 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 ```php
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
+#### ✅ Dopo (Corretto)
+```php
 >>>>>>> laraxot/dev
 'morning' => 'Mattino',
 'headers' => ['morning' => 'Mattino'],
 'periods' => ['morning' => 'Mattino'],
 'labels' => ['morning' => 'Mattino'],
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 =======
 <<<<<<< .merge_file_CB2f6W
@@ -355,6 +380,8 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 =======
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+=======
+>>>>>>> laraxot/dev
 ```
 
 **Motivazione**: In italiano corretto si dice "il mattino" e non "la mattina" quando si riferisce a un periodo temporale specifico.
@@ -418,6 +445,7 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 ## Principi di Correzione Applicati
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 =======
 =======
@@ -465,10 +493,13 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ### 1. **Naturalezza**
 - Uso di espressioni che un italiano nativo utilizzerebbe spontaneamente
 - Evitare traduzioni letterali dall'inglese
 - Preferire costruzioni sintattiche italiane
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
@@ -489,12 +520,16 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 ### 2. **Consistenza**
 - Stesso termine usato in tutto il file ("mattino" vs "mattina")
 - Struttura delle frasi coerente
 - Terminologia uniforme
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
 =======
@@ -514,12 +549,16 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 ### 3. **Chiarezza**
 - Messaggi di errore chiari e comprensibili
 - Istruzioni precise per l'utente
 - Terminologia appropriata per il contesto medico
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
 =======
@@ -539,12 +578,16 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 ### 4. **Professionalità**
 - Linguaggio formale ma accessibile
 - Terminologia tecnica appropriata
 - Tono professionale per ambiente sanitario
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
 ## Impatto delle Correzioni
@@ -576,12 +619,18 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
+## Impatto delle Correzioni
+
 >>>>>>> laraxot/dev
 ### User Experience
 - **Messaggi più chiari** per gli utenti italiani
 - **Comprensione immediata** degli errori di validazione
 - **Interfaccia più professionale** per ambiente medico
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
 =======
@@ -601,12 +650,16 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 ### Qualità del Software
 - **Localizzazione di qualità** per mercato italiano
 - **Coerenza terminologica** in tutta l'applicazione
 - **Standard professionali** per software sanitario
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
 =======
@@ -626,12 +679,16 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 ### Manutenibilità
 - **Traduzioni corrette** facilitano future modifiche
 - **Struttura chiara** per traduttori
 - **Esempio di qualità** per altre sezioni
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
 ## Best Practices per Traduzioni Italiane
@@ -663,12 +720,18 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
+## Best Practices per Traduzioni Italiane
+
 >>>>>>> laraxot/dev
 ### Grammatica
 1. **Articoli determinativi**: Sempre usare quando appropriato
 2. **Concordanze**: Rispettare genere e numero
 3. **Preposizioni**: Usare quelle corrette ("del", "per", "a")
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
 =======
@@ -688,12 +751,16 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 ### Terminologia
 1. **Consistenza**: Stesso termine per stesso concetto
 2. **Naturalezza**: Preferire espressioni italiane native
 3. **Contesto**: Adattare al dominio (medico/sanitario)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
 =======
@@ -713,12 +780,16 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 ### Stile
 1. **Formalità**: Linguaggio professionale ma accessibile
 2. **Chiarezza**: Messaggi diretti e comprensibili
 3. **Completezza**: Informazioni sufficienti per l'utente
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 =======
 <<<<<<< .merge_file_CB2f6W
@@ -750,6 +821,11 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
+## Controllo Qualità
+
 >>>>>>> laraxot/dev
 ### Verifica Linguistica
 - ✅ Grammatica italiana corretta
@@ -757,6 +833,7 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 - ✅ Terminologia appropriata
 - ✅ Consistenza terminologica
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
 =======
@@ -776,6 +853,9 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 ### Verifica Tecnica
 - ✅ Parametri `:day` e `:session` corretti
@@ -783,6 +863,7 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 - ✅ Compatibilità con TransTrait
 - ✅ Nessuna stringa hardcoded
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
 =======
@@ -802,12 +883,16 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 ## Collegamenti
 - [Opening Hours Rule](../app/Rules/OpeningHoursRule.php)
 - [Validation Files Multilingua](./validation_files_multilingua.md)
 - [Linee Guida Localizzazione](./localization_guidelines.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_n8xdVF
 
 *Correzioni completate: gennaio 2025*
@@ -872,4 +957,8 @@ Le traduzioni italiane nel file `opening_hours.php` contenevano errori grammatic
 *Correzioni completate: gennaio 2025*
 >>>>>>> .merge_file_JOsKxo
 >>>>>>> .merge_file_XMCe7w
+>>>>>>> laraxot/dev
+=======
+
+*Correzioni completate: gennaio 2025*
 >>>>>>> laraxot/dev

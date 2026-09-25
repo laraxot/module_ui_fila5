@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_bOdjuh
 <<<<<<< HEAD
 =======
@@ -57,6 +58,9 @@ return [
 =======
 >>>>>>> .merge_file_h5chLX
 >>>>>>> .merge_file_d5Auhx
+=======
+return [
+>>>>>>> laraxot/dev
     'actions' => [
         'toggle' => [
             'label' => 'Basculer la disposition',

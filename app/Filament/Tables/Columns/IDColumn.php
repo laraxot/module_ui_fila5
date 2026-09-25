@@ -36,6 +36,7 @@ class IDColumn extends XotBaseTextColumn
     {
         $value = is_scalar($state) ? (string) $state : '';
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_qRvgSS
         if ($value === '') {
 =======
@@ -55,6 +56,9 @@ class IDColumn extends XotBaseTextColumn
 >>>>>>> .merge_file_wuHaJ4
 >>>>>>> .merge_file_sObvGC
 >>>>>>> .merge_file_SLG8Jc
+=======
+        if ('' === $value) {
+>>>>>>> laraxot/dev
             return new HtmlString('');
         }
 

@@ -4,6 +4,7 @@
 - **PHPStan Level**: 10
 - **Errors**: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Last Checked**: [DATE]
 =======
 <<<<<<< .merge_file_HkUsz9
@@ -17,6 +18,9 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_YtgUr5
+=======
+- **Last Checked**: [DATE]
+>>>>>>> laraxot/dev
 
 ## Module Overview
 The UI module provides user interface components, themes, and frontend utilities for the application.
@@ -84,6 +88,7 @@ The UI module integrates with:
 
 *Status: ✅ PHPStan Level 10 Compliant*
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_HkUsz9
 =======
 *
@@ -98,3 +103,6 @@ The UI module integrates with:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_YtgUr5
+=======
+*
+>>>>>>> laraxot/dev

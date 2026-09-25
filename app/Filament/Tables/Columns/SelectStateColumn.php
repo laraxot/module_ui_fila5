@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Tables\Columns;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_G0OVye
 <<<<<<< HEAD
 =======
@@ -52,10 +53,19 @@ class SelectStateColumn extends XotBaseSelectColumn
 class SelectStateColumn extends XotBaseSelectColumn
 >>>>>>> .merge_file_nNmEYW
 >>>>>>> .merge_file_g9er6G
+=======
+use Filament\Tables\Columns\SelectColumn;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Arr;
+use Modules\Xot\Actions\Cast\SafeStringCastAction;
+
+class SelectStateColumn extends SelectColumn
+>>>>>>> laraxot/dev
 {
     protected function setUp(): void
     {
         parent::setUp();
+<<<<<<< HEAD
 <<<<<<< .merge_file_G0OVye
 <<<<<<< HEAD
 =======
@@ -92,6 +102,8 @@ class SelectStateColumn extends XotBaseSelectColumn
             return;
         }
 =======
+=======
+>>>>>>> laraxot/dev
         $this->options(function (Model $record, mixed $state): array {
             $name = $this->getName();
             if (null === $state) {
@@ -105,7 +117,10 @@ class SelectStateColumn extends XotBaseSelectColumn
 
                 return $this->combineStateOptions($states);
             }
+<<<<<<< HEAD
 >>>>>>> .merge_file_nNmEYW
+=======
+>>>>>>> laraxot/dev
 
             $states = [];
             try {
@@ -138,7 +153,10 @@ class SelectStateColumn extends XotBaseSelectColumn
                             $stateNameProperty = \is_string($nameProperty) ? $nameProperty : null;
                         }
                     } catch (\ReflectionException) {
+<<<<<<< HEAD
                         // Intentionally ignored: fall back to $stateNameProperty === null below.
+=======
+>>>>>>> laraxot/dev
                     }
                     if (null !== $stateNameProperty) {
                         $statesValues = array_values($states);
@@ -157,6 +175,7 @@ class SelectStateColumn extends XotBaseSelectColumn
             return $this->combineStateOptions($statesFiltered);
         });
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_UdVLlO
 <<<<<<< HEAD
         /** @var array<int|string, mixed> $statesFiltered */
@@ -336,6 +355,8 @@ class SelectStateColumn extends XotBaseSelectColumn
             return $this->combineStateOptions($statesFiltered);
         });
 
+=======
+>>>>>>> laraxot/dev
         $this->beforeStateUpdated(static function (Model $record, mixed $stateRaw): void {
             if (! \is_string($stateRaw)) {
                 return;
@@ -358,6 +379,7 @@ class SelectStateColumn extends XotBaseSelectColumn
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< .merge_file_G0OVye
      * @param array<int|string, mixed> $states
      *
@@ -457,11 +479,16 @@ class SelectStateColumn extends XotBaseSelectColumn
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_g9er6G
 >>>>>>> laraxot/dev
+=======
+     * @param array<int|string, mixed> $states
+     *
+>>>>>>> laraxot/dev
      * @return array<int|string, string>
      */
     private function combineStateOptions(array $states): array
     {
         $statesKeys = array_map(
+<<<<<<< HEAD
 <<<<<<< .merge_file_G0OVye
 <<<<<<< HEAD
 =======
@@ -473,11 +500,14 @@ class SelectStateColumn extends XotBaseSelectColumn
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_g9er6G
+=======
+>>>>>>> laraxot/dev
             static fn ($key) => SafeStringCastAction::cast($key),
             array_keys($states),
         );
         $statesValues = array_map(
             static fn ($value) => SafeStringCastAction::cast($value),
+<<<<<<< HEAD
 <<<<<<< .merge_file_G0OVye
 =======
 =======
@@ -507,6 +537,8 @@ class SelectStateColumn extends XotBaseSelectColumn
             SafeStringCastAction::cast(...),
 >>>>>>> .merge_file_nNmEYW
 >>>>>>> .merge_file_g9er6G
+=======
+>>>>>>> laraxot/dev
             array_values($states),
         );
         $combined = array_combine($statesKeys, $statesValues);

@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
 <<<<<<< .merge_file_HmTcHw
 
 =======
@@ -9,6 +10,9 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_W9KEoN
 >>>>>>> .merge_file_N5GYep
+=======
+
+>>>>>>> laraxot/dev
 ?>
 <div class="overflow-hidden bg-gray-50 py-16 lg:py-24">
     <div class="relative mx-auto max-w-xl px-6 lg:max-w-7xl lg:px-8">

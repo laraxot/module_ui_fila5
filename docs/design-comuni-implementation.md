@@ -127,8 +127,12 @@ All Bootstrap Italia classes are mapped to Tailwind via @apply:
 Pages are configured via JSON files:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_JqGI1F
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 <<<<<<< .merge_file_FZ9rvK
 =======
 <<<<<<< .merge_file_eJoKTt
@@ -138,13 +142,22 @@ Pages are configured via JSON files:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_tjqS6p
 >>>>>>> .merge_file_ifgoSr
+<<<<<<< HEAD
 >>>>>>> .merge_file_J6Gb8L
+=======
+=======
+>>>>>>> 804451c (Lint)
+>>>>>>> laraxot/dev
 **Location**: `config/local/fixcity/database/content/pages/`
 
 **Location**: `config/local/<nome progetto>/database/content/pages/`
 **Location**: `config/local/current/database/content/pages/`
+<<<<<<< HEAD
 <<<<<<< .merge_file_JqGI1F
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 <<<<<<< .merge_file_FZ9rvK
 =======
 <<<<<<< .merge_file_eJoKTt
@@ -153,7 +166,12 @@ Pages are configured via JSON files:
 =======
 >>>>>>> .merge_file_tjqS6p
 >>>>>>> .merge_file_ifgoSr
+<<<<<<< HEAD
 >>>>>>> .merge_file_J6Gb8L
+=======
+=======
+>>>>>>> 804451c (Lint)
+>>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 **Location**: `config/local/fixcity/database/content/pages/`
@@ -165,8 +183,12 @@ Pages are configured via JSON files:
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_JqGI1F
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 <<<<<<< .merge_file_FZ9rvK
 =======
 <<<<<<< .merge_file_eJoKTt
@@ -174,7 +196,12 @@ Pages are configured via JSON files:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_tjqS6p
 >>>>>>> .merge_file_ifgoSr
+<<<<<<< HEAD
 >>>>>>> .merge_file_J6Gb8L
+=======
+=======
+>>>>>>> 804451c (Lint)
+>>>>>>> laraxot/dev
 
 **Example**: `tests.homepage.json`
 

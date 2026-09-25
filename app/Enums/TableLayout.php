@@ -20,6 +20,7 @@ enum TableLayout: string
             self::GRID => self::LIST,
         };
     }
+<<<<<<< HEAD
 <<<<<<< .merge_file_SOdByC
 <<<<<<< HEAD
 =======
@@ -60,4 +61,6 @@ enum TableLayout: string
 =======
 >>>>>>> .merge_file_Da0InY
 >>>>>>> .merge_file_9PS92g
+=======
+>>>>>>> laraxot/dev
 }

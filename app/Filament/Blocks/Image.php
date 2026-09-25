@@ -8,6 +8,7 @@ use Filament\Forms\Components\Builder\Block;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
+<<<<<<< HEAD
 <<<<<<< .merge_file_VS2tKC
 =======
 <<<<<<< .merge_file_a0oyY7
@@ -32,6 +33,9 @@ use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Utilities\Set;
 >>>>>>> .merge_file_cYprF7
 >>>>>>> .merge_file_ZyIi2R
+=======
+use Filament\Schemas\Components\Component;
+>>>>>>> laraxot/dev
 
 class Image
 {
@@ -43,6 +47,7 @@ class Image
                 TextInput::make('url'),
                 Select::make('ratio')
                     ->options(static::getRatios())
+<<<<<<< HEAD
 <<<<<<< .merge_file_VS2tKC
 =======
 <<<<<<< .merge_file_a0oyY7
@@ -74,6 +79,10 @@ class Image
                         if (! $state) {
 >>>>>>> .merge_file_cYprF7
 >>>>>>> .merge_file_ZyIi2R
+=======
+                    ->afterStateHydrated(function (mixed $state, mixed $set): void {
+                        if (! $state && is_callable($set)) {
+>>>>>>> laraxot/dev
                             $set('ratio', '4-3');
                         }
                     }),
@@ -81,6 +90,7 @@ class Image
                 TextInput::make('caption')->columnSpanFull(),
             ])
 <<<<<<< HEAD
+<<<<<<< HEAD
             ->columns('form' === $context ? 2 : 1);
 =======
 <<<<<<< .merge_file_VS2tKC
@@ -97,11 +107,15 @@ class Image
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ZyIi2R
 >>>>>>> laraxot/dev
+=======
+            ->columns($context === 'form' ? 2 : 1);
+>>>>>>> laraxot/dev
     }
 
     /**
      * @return array<string, string>
      */
+<<<<<<< HEAD
 <<<<<<< .merge_file_VS2tKC
 =======
 <<<<<<< .merge_file_a0oyY7
@@ -127,6 +141,11 @@ class Image
 =======
 >>>>>>> .merge_file_cYprF7
 >>>>>>> .merge_file_ZyIi2R
+=======
+    /**
+     * @return array<string, string>
+     */
+>>>>>>> laraxot/dev
     public static function getRatios(): array
     {
         return [
@@ -146,6 +165,7 @@ class Image
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< .merge_file_VS2tKC
 =======
 <<<<<<< .merge_file_a0oyY7
@@ -171,6 +191,11 @@ class Image
 >>>>>>> .merge_file_ZyIi2R
      */
     public static function getFormSchema(): array
+=======
+     * @return array<int, Component>
+     */
+    public function getFormSchema(): array
+>>>>>>> laraxot/dev
     {
         return [
             FileUpload::make('image')

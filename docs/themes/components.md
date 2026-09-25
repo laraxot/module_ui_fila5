@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_PZuUs0
 =======
 =======
@@ -66,6 +67,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_n8NIKd
 >>>>>>> .merge_file_Ol57Y4
+=======
+>>>>>>> laraxot/dev
 # Componenti del Tema
 
 ## Logo

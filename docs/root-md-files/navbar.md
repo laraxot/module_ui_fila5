@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_QeuItp
 =======
@@ -45,6 +46,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MBUpz7
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 https://tw-elements.com/docs/standard/navigation/navbar/
 

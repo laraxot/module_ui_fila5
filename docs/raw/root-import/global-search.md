@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WdvEQw
 =======
 =======
@@ -69,5 +70,7 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_3zwVFf
 >>>>>>> .merge_file_kGDLIZ
+=======
+>>>>>>> laraxot/dev
 https://github.com/spatie/laravel-searchable
 

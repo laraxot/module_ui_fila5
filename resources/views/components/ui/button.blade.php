@@ -1,6 +1,10 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 ?>
 @props([
     'type' => 'primary', 
@@ -31,6 +35,7 @@ declare(strict_types=1);
         'danger' => 'bg-red-600 text-white hover:bg-red-600/90 focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-gray-900 focus:bg-red-700/90 focus:ring-red-700',
     };
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_m9skSN
 =======
 =======
@@ -59,6 +64,8 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_bZaLOk
+=======
+>>>>>>> laraxot/dev
 @endphp
 
 @php
@@ -82,6 +89,7 @@ switch ($tag ?? 'button') {
 <{!! $tagAttr !!} {!! $attributes->except(['class']) !!} class="{{ $sizeClasses }} {{ $typeClasses }} cursor-pointer inline-flex items-center w-full justify-center disabled:opacity-50 font-semibold focus:outline-none">
     {{ $slot }}
 </{{ $tagClose }}>
+<<<<<<< HEAD
 <<<<<<< .merge_file_m9skSN
 =======
 <<<<<<< HEAD
@@ -91,4 +99,6 @@ switch ($tag ?? 'button') {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_bZaLOk
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

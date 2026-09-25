@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_3aDCiI
 =======
@@ -45,6 +46,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_EcdAWt
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 https://github.com/whitecube/nova-flexible-content
 

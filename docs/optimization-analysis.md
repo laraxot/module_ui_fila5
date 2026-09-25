@@ -760,6 +760,7 @@ class ComponentUsageTracker
 - [Filament UI Guidelines](https://filamentphp.com/docs/support/style-guide)
 - [Tailwind CSS Best Practices](https://tailwindcss.com/docs/reusing-styles)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ONVKhT
 - [Component Design Patterns](../../../../docs/component-design-patterns.md)
 =======
@@ -783,6 +784,9 @@ class ComponentUsageTracker
 - [Component Design Patterns](../../../../docs/component-design-patterns.md)
 >>>>>>> .merge_file_yrOcfr
 >>>>>>> .merge_file_U7ZHpQ
+>>>>>>> laraxot/dev
+=======
+- [Component Design Patterns](../../../../docs/component-design-patterns.md)
 >>>>>>> laraxot/dev
 
 ---

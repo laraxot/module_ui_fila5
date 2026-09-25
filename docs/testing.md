@@ -176,6 +176,7 @@ protected function createApplication()
     
     $app['config']->set([
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_XMfVcj
 'database.connections.ui.database' => 'Quaeris_data_test',
 =======
@@ -226,6 +227,9 @@ protected function createApplication()
 'database.connections.ui.database' => 'Quaeris_data_test',
 >>>>>>> .merge_file_WGc67h
 >>>>>>> .merge_file_aKhw6q
+>>>>>>> laraxot/dev
+=======
+'database.connections.ui.database' => 'Quaeris_data_test',
 >>>>>>> laraxot/dev
     ]);
     
@@ -308,6 +312,7 @@ protected function createApplication()
 
 - [Laravel 12.x Testing Documentation](https://laravel.com/docs/12.x/testing)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_XMfVcj
 =======
 - [Laravel 13.x Testing Documentation](https://laravel.com/docs/12.x/testing)
@@ -329,12 +334,15 @@ protected function createApplication()
 >>>>>>> .merge_file_WGc67h
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_aKhw6q
+=======
+>>>>>>> laraxot/dev
 - [Pest Installation Guide](https://pestphp.com/docs/installation)
 - [PHPStan Documentation](https://phpstan.org/user-guide/getting-started)
 
 ### Internal Resources
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_XMfVcj
 =======
 <<<<<<< .merge_file_aQNWp0
@@ -372,6 +380,11 @@ protected function createApplication()
 - [Troubleshooting Guide](../../../docs/troubleshooting.md)
 >>>>>>> .merge_file_WGc67h
 >>>>>>> .merge_file_aKhw6q
+>>>>>>> laraxot/dev
+=======
+- [Testing Setup Guide](../../../docs/testing-setup.md)
+- [Testing Best Practices](../../../docs/testing-best-practices.md)
+- [Troubleshooting Guide](../../../docs/troubleshooting.md)
 >>>>>>> laraxot/dev
 
 ## Testing Examples
@@ -469,6 +482,7 @@ Remember: Good tests are the foundation of reliable software development.
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_XMfVcj
 *
 =======
@@ -551,4 +565,7 @@ Prossimo step: coprire rami residui IconStateColumn (fillForm/textarea required)
 *
 >>>>>>> .merge_file_WGc67h
 >>>>>>> .merge_file_aKhw6q
+>>>>>>> laraxot/dev
+=======
+*
 >>>>>>> laraxot/dev

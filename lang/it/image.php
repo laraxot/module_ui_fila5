@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_QnQdqv
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_6ddIo7
 >>>>>>> .merge_file_NWL3fZ
+=======
+>>>>>>> laraxot/dev
 return [
     'fields' => [
         'caption' => ['label' => 'caption', 'description' => 'caption', 'helper_text' => 'caption', 'placeholder' => 'caption', 'tooltip' => ''],
@@ -46,6 +49,7 @@ return [
         'group' => ['name' => 'General', 'description' => 'General Settings'],
         'label' => 'Image',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_QnQdqv
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -71,6 +75,9 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_6ddIo7
 >>>>>>> .merge_file_NWL3fZ
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> laraxot/dev
     ],
     'actions' => [
         'create' => ['label' => 'Crea Image'],

@@ -39,6 +39,7 @@ Entrambi i temi contengono i seguenti file di traduzione:
 12. `studio.php` - Gestione studi
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1huPVT
 ## Correzioni Applicate ([DATE])
 =======
@@ -62,6 +63,9 @@ Entrambi i temi contengono i seguenti file di traduzione:
 ## Correzioni Applicate ([DATE])
 >>>>>>> .merge_file_4FpKVe
 >>>>>>> .merge_file_iONCGa
+>>>>>>> laraxot/dev
+=======
+## Correzioni Applicate ([DATE])
 >>>>>>> laraxot/dev
 
 ### 1. Problema: Traduzione mancante `pub_theme::appointment.fields.state.label`
@@ -98,6 +102,7 @@ Entrambi i temi contengono i seguenti file di traduzione:
 - `emergency` - Emergenza
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1huPVT
 =======
 <<<<<<< .merge_file_hnMumj
@@ -122,6 +127,9 @@ Entrambi i temi contengono i seguenti file di traduzione:
 >>>>>>> .merge_file_4FpKVe
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_iONCGa
+=======
+### 4. Problema: Testo hardcoded in italiano per i referti ([DATE])
+>>>>>>> laraxot/dev
 
 **Causa**: Il file `appointment/item.blade.php` conteneva testo hardcoded in italiano per la sezione referti:
 - "Il tuo referto è pronto!"
@@ -272,6 +280,7 @@ return [
 - [Theme Widget Translations](theme-widget-translations.md)
 - [Translation Helper Text Standards](translation-helper-text-standards.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1huPVT
 =======
 <<<<<<< .merge_file_hnMumj
@@ -294,6 +303,8 @@ return [
 =======
 >>>>>>> .merge_file_4FpKVe
 >>>>>>> .merge_file_iONCGa
+=======
+>>>>>>> laraxot/dev
 - [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/modules/<nome modulo>/docs/translation_quality_standards.md)
 - [Modules/<nome progetto>/docs/translation_quality_standards.md](../laravel/modules/<nome progetto>/docs/translation_quality_standards.md)
 - [Modules/<nome modulo>/docs/translation_quality_standards.md](../laravel/modules/<nome modulo>/docs/translation_quality_standards.md)
@@ -304,6 +315,7 @@ return [
 ---
 
 **Ultimo aggiornamento**: [DATE]
+<<<<<<< HEAD
 <<<<<<< .merge_file_1huPVT
 =======
 =======
@@ -332,6 +344,8 @@ return [
 =======
 >>>>>>> .merge_file_4FpKVe
 >>>>>>> .merge_file_iONCGa
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 **Versione**: 2.2
 **Autore**: AI Assistant

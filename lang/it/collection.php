@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_qvhx0d
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_c4aYQ9
 >>>>>>> .merge_file_hlzBp7
+=======
+>>>>>>> laraxot/dev
 return [
     'actions' => [
         'create' => [
@@ -91,6 +94,7 @@ return [
         ],
         'label' => 'Collection',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_qvhx0d
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -116,5 +120,8 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_c4aYQ9
 >>>>>>> .merge_file_hlzBp7
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> laraxot/dev
     ],
 ];

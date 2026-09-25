@@ -7,6 +7,7 @@ created: "2026-05-26"
 updated: "2026-05-26"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_v2DNwD
 =======
 <<<<<<< .merge_file_oPq61Y
@@ -55,6 +56,11 @@ related:
   - ../../../redundancy-report.md
 >>>>>>> .merge_file_aDrmds
 >>>>>>> .merge_file_1PRaEZ
+>>>>>>> laraxot/dev
+=======
+  - ../../../../Xot/docs/wiki/concepts/code-redundancy-philosophy.md
+  - ../../../redundancy-audit-2026-05-21.md
+  - ../../../redundancy-report.md
 >>>>>>> laraxot/dev
 ---
 

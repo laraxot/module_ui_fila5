@@ -144,6 +144,7 @@ new class extends Component
 - [Documentazione Livewire Volt](https://livewire.laravel.com/docs/volt)
 - [Documentazione Laravel Localization](https://github.com/mcamara/laravel-localization)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_KlOag9
 - [Best Practices UI](./ui_best_practices.md)
 - [Regole Architetturali](./architecture_rules.md)
@@ -175,4 +176,8 @@ new class extends Component
 - [Regole Architetturali](./architecture_rules.md)
 >>>>>>> .merge_file_rzSi0h
 >>>>>>> .merge_file_lEHJNs
+>>>>>>> laraxot/dev
+=======
+- [Best Practices UI](./ui_best_practices.md)
+- [Regole Architetturali](./architecture_rules.md)
 >>>>>>> laraxot/dev

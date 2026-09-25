@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_a7PDls
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_KKX2Xc
 >>>>>>> .merge_file_gGVifs
+=======
+>>>>>>> laraxot/dev
 return [
     'fields' => [
         'state' => [
@@ -60,6 +63,7 @@ return [
         ],
         'label' => 'Select State',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_a7PDls
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -85,6 +89,9 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_KKX2Xc
 >>>>>>> .merge_file_gGVifs
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> laraxot/dev
     ],
     'actions' => [
         'create' => [

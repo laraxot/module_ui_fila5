@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WKa7sT
 =======
 <<<<<<< .merge_file_RoN8Qw
@@ -58,27 +59,51 @@ See canonical documentation: ../../../Themes/docs/shared-components/best-practic
 >>>>>>> laraxot/dev
 # Best Practices UI
 ## Principi Generali
+=======
+# Best Practices UI
+
+## Principi Generali
+
+>>>>>>> laraxot/dev
 ### 1. Consistenza
 - Utilizzare componenti standard
 - Mantenere uno stile uniforme
 - Seguire le convenzioni di naming
 - Riutilizzare pattern comuni
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 ### 2. Accessibilità
 - Supportare la navigazione da tastiera
 - Utilizzare attributi ARIA
 - Mantenere contrasto adeguato
 - Fornire testi alternativi
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 ### 3. Performance
 - Ottimizzare il caricamento
 - Minimizzare le dipendenze
 - Utilizzare lazy loading
 - Implementare caching
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 ### 4. Responsive Design
 - Mobile-first approach
 - Breakpoint standard
 - Layout fluidi
 - Testing multi-device
+<<<<<<< HEAD
 ## Sviluppo Componenti
+=======
+
+## Sviluppo Componenti
+
+>>>>>>> laraxot/dev
 ### 1. Struttura
 ```php
 class CustomComponent extends Component
@@ -86,8 +111,15 @@ class CustomComponent extends Component
     // Proprietà pubbliche con type hint
     public string $label;
     public ?string $hint = null;
+<<<<<<< HEAD
     // Proprietà private per stato interno
     private bool $isLoading = false;
+=======
+
+    // Proprietà private per stato interno
+    private bool $isLoading = false;
+
+>>>>>>> laraxot/dev
     // Metodi pubblici con return type
     public function render(): View
     {
@@ -95,6 +127,10 @@ class CustomComponent extends Component
     }
 }
 ```
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 ### 2. Template
 ```blade
 <div class="custom-component">
@@ -102,6 +138,7 @@ class CustomComponent extends Component
     <div class="header">
         {{ $header ?? '' }}
     </div>
+<<<<<<< HEAD
     {{-- Gestire stati condizionali --}}
     <div class="content {{ $isLoading ? 'loading' : '' }}">
         {{ $slot }}
@@ -109,6 +146,21 @@ class CustomComponent extends Component
     <div class="footer">
         {{ $footer ?? 'Default Footer' }}
 </div>
+=======
+
+    {{-- Gestire stati condizionali --}}
+    <div class="content {{ $isLoading ? 'loading' : '' }}">
+        {{ $slot }}
+    </div>
+
+    {{-- Fornire fallback --}}
+    <div class="footer">
+        {{ $footer ?? 'Default Footer' }}
+    </div>
+</div>
+```
+
+>>>>>>> laraxot/dev
 ### 3. Stili
 ```scss
 // Utilizzare BEM naming
@@ -116,6 +168,7 @@ class CustomComponent extends Component
     &__header { }
     &__content { }
     &__footer { }
+<<<<<<< HEAD
     // Stati
     &--loading { }
     &--disabled { }
@@ -124,11 +177,29 @@ class CustomComponent extends Component
     &--secondary { }
 ## Form Components
 ### 1. Validazione
+=======
+
+    // Stati
+    &--loading { }
+    &--disabled { }
+
+    // Varianti
+    &--primary { }
+    &--secondary { }
+}
+```
+
+## Form Components
+
+### 1. Validazione
+```php
+>>>>>>> laraxot/dev
 // Definire regole di validazione
 public array $rules = [
     'email' => ['required', 'email'],
     'password' => ['required', 'min:8'],
 ];
+<<<<<<< HEAD
 // Messaggi personalizzati
 public array $messages = [
     'email.required' => 'trans.validation.email.required',
@@ -149,10 +220,50 @@ public function save()
 ### 1. Configurazione
 // Definire colonne in modo chiaro
 protected function getColumns(): array
+=======
+
+// Messaggi personalizzati
+public array $messages = [
+    'email.required' => 'trans.validation.email.required',
+];
+```
+
+### 2. Eventi
+```php
+// Emettere eventi standard
+$this->emit('saved');
+$this->emit('deleted', $id);
+
+// Ascoltare eventi
+protected $listeners = [
+    'refresh' => '$refresh',
+];
+```
+
+### 3. Loading States
+```php
+// Gestire stati di caricamento
+public function save()
+{
+    $this->loading = true;
+    // ...
+    $this->loading = false;
+}
+```
+
+## Table Components
+
+### 1. Configurazione
+```php
+// Definire colonne in modo chiaro
+protected function getColumns(): array
+{
+>>>>>>> laraxot/dev
     return [
         Column::make('name')->sortable()->searchable(),
         Column::make('email')->searchable(),
     ];
+<<<<<<< HEAD
 // Configurare filtri
 protected function getFilters(): array
         Filter::make('active')->query(fn ($query) => $query->where('active', true)),
@@ -165,6 +276,39 @@ protected function getActions(): array
 ### 1. Dati
 // Formattare dati in modo standard
 protected function getData(): array
+=======
+}
+
+// Configurare filtri
+protected function getFilters(): array
+{
+    return [
+        Filter::make('active')->query(fn ($query) => $query->where('active', true)),
+    ];
+}
+```
+
+### 2. Actions
+```php
+// Definire azioni in modo modulare
+protected function getActions(): array
+{
+    return [
+        Action::make('edit')->visible(fn ($record) => $this->can('edit', $record)),
+        Action::make('delete')->requiresConfirmation(),
+    ];
+}
+```
+
+## Chart Components
+
+### 1. Dati
+```php
+// Formattare dati in modo standard
+protected function getData(): array
+{
+    return [
+>>>>>>> laraxot/dev
         'labels' => ['Gen', 'Feb', 'Mar'],
         'datasets' => [
             [
@@ -172,14 +316,28 @@ protected function getData(): array
                 'data' => [10, 20, 30],
             ],
         ],
+<<<<<<< HEAD
 ### 2. Opzioni
 // Configurare opzioni in modo chiaro
 protected function getOptions(): array
+=======
+    ];
+}
+```
+
+### 2. Opzioni
+```php
+// Configurare opzioni in modo chiaro
+protected function getOptions(): array
+{
+    return [
+>>>>>>> laraxot/dev
         'responsive' => true,
         'maintainAspectRatio' => false,
         'plugins' => [
             'legend' => [
                 'position' => 'bottom',
+<<<<<<< HEAD
 ## Testing
 ### 1. Unit Tests
 public function test_component_renders()
@@ -528,6 +686,8 @@ public function test_component_renders()
 ### 2. Browser Tests
 public function test_component_interaction()
 =======
+=======
+>>>>>>> laraxot/dev
             ],
         ],
     ];
@@ -549,6 +709,9 @@ public function test_component_renders()
 ```php
 public function test_component_interaction()
 {
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     $this->browse(function (Browser $browser) {
         $browser->visit('/page')
@@ -556,9 +719,12 @@ public function test_component_interaction()
             ->assertSee('Result');
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Documentazione
 ### 1. PHPDoc
 =======
+=======
+>>>>>>> laraxot/dev
 }
 ```
 
@@ -566,6 +732,9 @@ public function test_component_interaction()
 
 ### 1. PHPDoc
 ```php
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 /**
  * Componente per la gestione di form avanzati.
@@ -573,6 +742,10 @@ public function test_component_interaction()
  * @property string $label Label del componente
  * @property string|null $hint Suggerimento opzionale
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ *
+>>>>>>> laraxot/dev
 =======
  *
 >>>>>>> laraxot/dev
@@ -581,6 +754,11 @@ public function test_component_interaction()
  */
 class AdvancedForm extends Component
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+```
+
+>>>>>>> laraxot/dev
 =======
 ```
 
@@ -590,6 +768,7 @@ class AdvancedForm extends Component
 - Esempi di utilizzo
 - Configurazioni disponibili
 ### Versione HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 - Breaking changes
 ## Collegamenti tra versioni di best-practices.md
@@ -606,11 +785,14 @@ module: theme
 topic: best_practices
 canonical: ../../../Themes/docs/shared-components/best-practices_1.md
 =======
+=======
+>>>>>>> laraxot/dev
 
 - Breaking changes
 ## Collegamenti tra versioni di best-practices.md
 * [best-practices.md](docs/tecnico/filament/best-practices.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 * [best-practices.md](../../../xot/docs/laraxot/best-practices.md)
 * [best-practices.md](../../../ui/docs/best-practices.md)
 * [best-practices.md](../../../../themes/one/docs/best-practices.md)
@@ -642,6 +824,11 @@ canonical: ../../../Themes/docs/shared-components/best-practices_1.md
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_hdYPwT
+>>>>>>> laraxot/dev
+=======
+* [best-practices.md](../../../xot/docs/laraxot/best-practices.md)
+* [best-practices.md](../../../ui/docs/best-practices.md)
+* [best-practices.md](../../../../themes/one/docs/best-practices.md)
 >>>>>>> laraxot/dev
 
 ### Versione Incoming
@@ -650,6 +837,7 @@ canonical: ../../../Themes/docs/shared-components/best-practices_1.md
 
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WKa7sT
 =======
 =======
@@ -658,6 +846,8 @@ canonical: ../../../Themes/docs/shared-components/best-practices_1.md
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_hdYPwT
+=======
+>>>>>>> laraxot/dev
 # Best Practices UI
 
 ## Principi Generali
@@ -917,6 +1107,7 @@ class AdvancedForm extends Component
 - Breaking changes
 
 ---
+<<<<<<< HEAD
 <<<<<<< .merge_file_WKa7sT
 =======
 =======
@@ -951,4 +1142,6 @@ See canonical documentation: ../../../Themes/docs/shared-components/best-practic
 =======
 >>>>>>> .merge_file_1mok7I
 >>>>>>> .merge_file_hdYPwT
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

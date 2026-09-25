@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_LAE5xi
 =======
 =======
@@ -63,6 +64,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_kCQz4x
 >>>>>>> .merge_file_nXypiN
+=======
+>>>>>>> laraxot/dev
 # Errori Comuni in Filament
 
 ## Errori di compatibilità metodi statici/instanza

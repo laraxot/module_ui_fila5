@@ -27,6 +27,7 @@ Block components are modular UI elements used to build sections in the frontend.
 - [Theme Components](../components/readme.md)
 - [Data Handling in Blade](../blade-data-handling.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dMMkRD
 =======
 =======
@@ -86,3 +87,5 @@ Core module for the FixCity Platform.
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_lVNf49
 >>>>>>> .merge_file_rimRnb
+=======
+>>>>>>> laraxot/dev

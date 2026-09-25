@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
 <<<<<<< .merge_file_7CRUup
 
 use PHPUnit\Framework\Assert;
@@ -11,6 +12,13 @@ use PHPUnit\Framework\Assert;
 =======
 <<<<<<< HEAD
 >>>>>>> .merge_file_hWfp7M
+=======
+
+use PHPUnit\Framework\Assert;
+
+use function Safe\file_get_contents;
+
+>>>>>>> laraxot/dev
 it('button blade avoids unescaped dynamic tag emission', function (): void {
     $path = dirname(__DIR__, 3).'/resources/views/components/ui/button.blade.php';
     $contents = (string) file_get_contents($path);
@@ -29,6 +37,7 @@ it('educational material detail sanitizes html content with allowlist', function
 });
 
 it('language controller rejects off-site previous url', function (): void {
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_osthmO
 =======
@@ -69,10 +78,13 @@ it('language controller validates locale against supported list', function (): v
 =======
 >>>>>>> .merge_file_ioJ439
 >>>>>>> .merge_file_hWfp7M
+=======
+>>>>>>> laraxot/dev
     $source = (string) file_get_contents(
         dirname(__DIR__, 3).'/app/Http/Controllers/LanguageController.php'
     );
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_osthmO
 =======
 <<<<<<< .merge_file_7CRUup
@@ -96,4 +108,8 @@ it('language controller validates locale against supported list', function (): v
     Assert::assertStringContainsString('in_array($locale, $supportedLocales', $source);
 >>>>>>> .merge_file_ioJ439
 >>>>>>> .merge_file_hWfp7M
+=======
+    Assert::assertStringContainsString('str_starts_with($previous, $fallback)', $source);
+    Assert::assertStringNotContainsString('redirect()->back()', $source);
+>>>>>>> laraxot/dev
 });

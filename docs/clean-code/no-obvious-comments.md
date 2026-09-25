@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GELRy3
 =======
 =======
@@ -65,6 +66,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_PJwewb
 >>>>>>> .merge_file_W0uEOG
+=======
+>>>>>>> laraxot/dev
 # REGOLA CRITICA: NO Commenti Ovvi nel Codice
 
 ## Principio Fondamentale

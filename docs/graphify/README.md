@@ -68,8 +68,12 @@ For more information about this module, see:
 - [Module Structure Guidelines](../../../../docs/wiki/rules/module-structure.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_XHnnMb
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 <<<<<<< .merge_file_QNBexX
 =======
 <<<<<<< .merge_file_AVaSlz
@@ -79,7 +83,12 @@ For more information about this module, see:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_LW136C
 >>>>>>> .merge_file_YwTn4e
+<<<<<<< HEAD
 >>>>>>> .merge_file_ueyAu6
+=======
+=======
+>>>>>>> 804451c (Lint)
+>>>>>>> laraxot/dev
 [![Module](https://img.shields.io/badge/Module-Graphify Knowledge Graph-8B0000.svg)]()
 [![Laravel](https://img.shields.io/badge/Laravel-13-red?style=for-the-badge)](https://laravel.com/)](https://laravel.com/)
 [![Filament](https://img.shields.io/badge/Filament-5-ffab00?style=for-the-badge)](https://filamentphp.com/)](https://filamentphp.com/)
@@ -112,10 +121,14 @@ Core module for the FixCity Platform.
 ---
 
 **Modulo** `UI` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+<<<<<<< HEAD
 <<<<<<< .merge_file_XHnnMb
 =======
 >>>>>>> laraxot/dev
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 <<<<<<< .merge_file_QNBexX
 =======
 >>>>>>> laraxot/dev
@@ -131,4 +144,11 @@ Core module for the FixCity Platform.
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_LW136C
 >>>>>>> .merge_file_YwTn4e
+<<<<<<< HEAD
 >>>>>>> .merge_file_ueyAu6
+=======
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
+>>>>>>> laraxot/dev

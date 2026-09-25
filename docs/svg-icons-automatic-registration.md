@@ -92,8 +92,12 @@ php artisan view:clear
 
 # Test in browser
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_41yLhk
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 <<<<<<< .merge_file_Sph6pu
 =======
 <<<<<<< .merge_file_74WnlE
@@ -104,7 +108,12 @@ php artisan view:clear
 <<<<<<< HEAD
 >>>>>>> .merge_file_JMuFiV
 >>>>>>> .merge_file_IhMt22
+<<<<<<< HEAD
 >>>>>>> .merge_file_mQvZeY
+=======
+=======
+>>>>>>> 804451c (Lint)
+>>>>>>> laraxot/dev
 # http://fixcity.local/it/tests/homepage
 
 # http://<nome progetto>.local/it/tests/homepage
@@ -120,8 +129,12 @@ php artisan view:clear
 >>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_41yLhk
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 <<<<<<< .merge_file_Sph6pu
 =======
 <<<<<<< .merge_file_74WnlE
@@ -129,7 +142,12 @@ php artisan view:clear
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_JMuFiV
 >>>>>>> .merge_file_IhMt22
+<<<<<<< HEAD
 >>>>>>> .merge_file_mQvZeY
+=======
+=======
+>>>>>>> 804451c (Lint)
+>>>>>>> laraxot/dev
 ```
 
 ## 📊 Icon Inventory
@@ -164,9 +182,13 @@ php artisan view:clear
 - [Component Libraries](https://laravel.com/docs/blade#managing-component-libraries)
 
 ### Project Documentation
+<<<<<<< HEAD
 <<<<<<< .merge_file_41yLhk
 - [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 <<<<<<< .merge_file_Sph6pu
 - [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
 =======
@@ -180,7 +202,13 @@ php artisan view:clear
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_JMuFiV
 >>>>>>> .merge_file_IhMt22
+<<<<<<< HEAD
 >>>>>>> .merge_file_mQvZeY
+=======
+=======
+- [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
+>>>>>>> 804451c (Lint)
+>>>>>>> laraxot/dev
 - [BUG_FIX_SOCIAL_ICONS.md](BUG_FIX_SOCIAL_ICONS.md) - Bug fix report
 
 ---

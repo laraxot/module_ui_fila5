@@ -15,6 +15,7 @@ class SelectState extends XotBaseSelect
     {
         parent::setUp();
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_eff3XQ
 <<<<<<< HEAD
         $this->options(fn (?Model $record): array => $this->resolveStateOptions($record));
@@ -42,6 +43,11 @@ class SelectState extends XotBaseSelect
             if (null === $record) {
 >>>>>>> .merge_file_QR1iE8
 >>>>>>> .merge_file_r17BgJ
+=======
+        $this->options(function (?Model $record): array {
+            $name = $this->getName();
+            if (null === $record) {
+>>>>>>> laraxot/dev
                 $model = $this->getModel();
                 if (\is_string($model) && class_exists($model)) {
                     $instance = app($model);
@@ -52,10 +58,13 @@ class SelectState extends XotBaseSelect
                             if (! \is_array($statesRaw)) {
                                 $statesRaw = Arr::wrap($statesRaw);
                             }
+<<<<<<< HEAD
 <<<<<<< .merge_file_eff3XQ
 =======
 <<<<<<< .merge_file_KAanOM
 >>>>>>> .merge_file_r17BgJ
+=======
+>>>>>>> laraxot/dev
 
                             /* @var array<int|string, mixed> $statesRaw */
                             return $this->combineStateOptions($statesRaw);
@@ -79,6 +88,7 @@ class SelectState extends XotBaseSelect
 
             return $this->combineStateOptions($states);
         });
+<<<<<<< HEAD
 <<<<<<< .merge_file_eff3XQ
 =======
 <<<<<<< HEAD
@@ -87,10 +97,13 @@ class SelectState extends XotBaseSelect
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_r17BgJ
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         $this->required();
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_eff3XQ
 =======
@@ -182,11 +195,16 @@ class SelectState extends XotBaseSelect
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_r17BgJ
+=======
+     * @param array<int|string, mixed> $states
+     *
+>>>>>>> laraxot/dev
      * @return array<int|string, string>
      */
     private function combineStateOptions(array $states): array
     {
         $statesKeys = array_map(
+<<<<<<< HEAD
 <<<<<<< .merge_file_eff3XQ
 <<<<<<< HEAD
 =======
@@ -198,11 +216,14 @@ class SelectState extends XotBaseSelect
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_r17BgJ
+=======
+>>>>>>> laraxot/dev
             static fn ($key) => SafeStringCastAction::cast($key),
             array_keys($states),
         );
         $statesValues = array_map(
             static fn ($value) => SafeStringCastAction::cast($value),
+<<<<<<< HEAD
 <<<<<<< .merge_file_eff3XQ
 =======
 =======
@@ -232,6 +253,8 @@ class SelectState extends XotBaseSelect
             SafeStringCastAction::cast(...),
 >>>>>>> .merge_file_QR1iE8
 >>>>>>> .merge_file_r17BgJ
+=======
+>>>>>>> laraxot/dev
             array_values($states),
         );
         $combined = array_combine($statesKeys, $statesValues);

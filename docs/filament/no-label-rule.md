@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_QLNxFS
 =======
 =======
@@ -69,6 +70,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_KTYS9J
 >>>>>>> .merge_file_5z52jf
+=======
+>>>>>>> laraxot/dev
 # REGOLA CRITICA: MAI ->label() nei Componenti Filament UI
 
 ## Principio Fondamentale per il Modulo UI

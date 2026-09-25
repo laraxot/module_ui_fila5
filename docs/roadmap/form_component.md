@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Gw3ud9
 =======
 <<<<<<< .merge_file_9T0YDu
@@ -240,6 +241,8 @@ class FormState
 =======
 >>>>>>> .merge_file_5IeAga
 >>>>>>> .merge_file_d1yZID
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: form_component
@@ -247,6 +250,7 @@ canonical: ../../../../Themes/docs/shared-components/form-component.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/form-component.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_Gw3ud9
 =======
 =======
@@ -494,4 +498,6 @@ class FormState
 =======
 >>>>>>> .merge_file_5IeAga
 >>>>>>> .merge_file_d1yZID
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

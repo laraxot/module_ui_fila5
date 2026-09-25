@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_822k5i
 =======
 =======
@@ -69,6 +70,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_bq4c8E
 >>>>>>> .merge_file_YujWwH
+=======
+>>>>>>> laraxot/dev
 ---------------------------------------------------------------------------------------------------
 Automatic Code formatting for Apps with Laravel Code Style
 https://codebrisk.com/blog/automatic-code-formatting-for-apps-with-laravel-code-style

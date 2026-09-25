@@ -1,6 +1,7 @@
 # UI Module - Architecture Guide (2025)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_nddEfD
 > **
 =======
@@ -24,6 +25,9 @@
 > **
 >>>>>>> .merge_file_iwOKen
 >>>>>>> .merge_file_Uz0OlL
+>>>>>>> laraxot/dev
+=======
+> **
 >>>>>>> laraxot/dev
 > **PHPStan Level:** 10
 > **Status:** Shared UI Components & Filament Customizations
@@ -569,6 +573,7 @@ class MyFormComponent extends Field
     }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_nddEfD
 =======
 =======
@@ -580,6 +585,8 @@ class MyFormComponent extends Field
 =======
 >>>>>>> .merge_file_iwOKen
 >>>>>>> .merge_file_Uz0OlL
+=======
+>>>>>>> laraxot/dev
 
 // Non aggiungere route manualmente
 Route::get('/example', [ExampleController::class, 'index']);
@@ -601,6 +608,7 @@ Blade::component('ui::components.icon', 'ui.icon');
 
 // Non creare componenti personalizzati se esiste un equivalente Filament
 <x-ui.button>Click me</x-ui.button>
+<<<<<<< HEAD
 <<<<<<< .merge_file_nddEfD
 =======
 =======
@@ -613,6 +621,8 @@ Blade::component('ui::components.icon', 'ui.icon');
 =======
 >>>>>>> .merge_file_iwOKen
 >>>>>>> .merge_file_Uz0OlL
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ```
 
@@ -720,6 +730,7 @@ The UI module is a **well-architected, feature-rich Filament customization layer
 ---
 
 **Document Version:** 1.0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_nddEfD
 **Author:** Claude Code Analysis
@@ -2166,4 +2177,7 @@ The UI module provides Filament-based admin interface components, themes, and ut
 **Author:** Claude Code Analysis
 >>>>>>> .merge_file_iwOKen
 >>>>>>> .merge_file_Uz0OlL
+>>>>>>> laraxot/dev
+=======
+**Author:** Claude Code Analysis
 >>>>>>> laraxot/dev

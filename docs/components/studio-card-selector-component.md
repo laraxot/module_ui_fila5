@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_CXq9DC
 =======
 =======
@@ -69,6 +70,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_KHchny
 >>>>>>> .merge_file_0HXO9w
+=======
+>>>>>>> laraxot/dev
 # StudioCardSelector Component - Modulo UI
 
 ## 🎯 **Panoramica**

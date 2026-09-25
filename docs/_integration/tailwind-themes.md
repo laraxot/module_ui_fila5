@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cXulWa
 =======
 <<<<<<< .merge_file_SULKup
@@ -106,6 +107,8 @@ https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your
 https://merakiui.com/
 <<<<<<< .merge_file_SULKup
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 # tailwind_themes
 
 <!-- Contenuto migrato da _docs/tailwind_themes.txt -->
@@ -113,6 +116,7 @@ https://merakiui.com/
 https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your-next-project-3igo
 
 https://merakiui.com/
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_cXulWa
 <<<<<<< HEAD
@@ -169,4 +173,13 @@ https://merakiui.com/
 =======
 >>>>>>> .merge_file_m11fL9
 >>>>>>> .merge_file_hFiZmA
+>>>>>>> laraxot/dev
+=======
+# tailwind_themes
+
+<!-- Contenuto migrato da _docs/tailwind_themes.txt -->
+
+https://dev.to/mariann93502220/30-free-tailwind-css-templates-to-kick-start-your-next-project-3igo
+
+https://merakiui.com/
 >>>>>>> laraxot/dev

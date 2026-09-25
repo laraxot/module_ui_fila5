@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_OwcChu
 =======
 <<<<<<< .merge_file_PiA7gZ
@@ -78,6 +79,8 @@ related:
 >>>>>>> .merge_file_HIulS7
 >>>>>>> .merge_file_PYfeML
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 # Gestione degli Asset
 
 ## Struttura delle Directory
@@ -137,6 +140,7 @@ Gli script di automazione si trovano nella directory `bashscripts/`:
 - Monitorare lo spazio disponibile
 - Verificare periodicamente l'integrità degli asset
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_OwcChu
 =======
 =======
@@ -191,6 +195,13 @@ Gli script di automazione si trovano nella directory `bashscripts/`:
 =======
 >>>>>>> .merge_file_HIulS7
 >>>>>>> .merge_file_PYfeML
+>>>>>>> laraxot/dev
+=======
+- Utilizzare lo script di verifica prima di ogni deploy
+# Gestione degli Asset
+
+## Struttura delle Directory
+
 >>>>>>> laraxot/dev
 ```
 public_html/
@@ -199,6 +210,7 @@ public_html/
         └── [asset_type]/
             └── [files]
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_OwcChu
 =======
 <<<<<<< .merge_file_PiA7gZ
@@ -218,6 +230,8 @@ bashscripts/
 =======
 >>>>>>> .merge_file_HIulS7
 >>>>>>> .merge_file_PYfeML
+=======
+>>>>>>> laraxot/dev
 
 bashscripts/
 └── verify_assets.sh    # Script di verifica asset
@@ -231,6 +245,7 @@ bashscripts/
 
 ## Best Practices
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_OwcChu
 =======
 =======
@@ -257,11 +272,14 @@ bashscripts/
 >>>>>>> .merge_file_HIulS7
 >>>>>>> .merge_file_PYfeML
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 1. **Verifica dei Permessi**:
    ```bash
    sudo chown -R www-data:www-data /path/to/public_html
    sudo chmod -R 775 /path/to/public_html
    ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_OwcChu
 
@@ -282,6 +300,9 @@ bashscripts/
 
 >>>>>>> .merge_file_HIulS7
 >>>>>>> .merge_file_PYfeML
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 2. **Controlli Preventivi**:
    - Verificare l'esistenza della directory di destinazione
@@ -289,6 +310,7 @@ bashscripts/
    - Implementare try-catch per gestire gli errori
    - Utilizzare lo script di verifica in `bashscripts/verify_assets.sh`
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_OwcChu
 
 =======
@@ -310,6 +332,9 @@ bashscripts/
 >>>>>>> .merge_file_HIulS7
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_PYfeML
+=======
+
+>>>>>>> laraxot/dev
 3. **Gestione degli Errori**:
    ```php
    try {
@@ -320,6 +345,7 @@ bashscripts/
        // Fallback a asset di default
    }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_OwcChu
 =======
 <<<<<<< .merge_file_PiA7gZ
@@ -337,6 +363,8 @@ Gli script di automazione si trovano nella directory `bashscripts/`:
 =======
 >>>>>>> .merge_file_HIulS7
 >>>>>>> .merge_file_PYfeML
+=======
+>>>>>>> laraxot/dev
    ```
 
 ## Automazione
@@ -347,6 +375,7 @@ Gli script di automazione si trovano nella directory `bashscripts/`:
 
 ## Monitoraggio
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_OwcChu
 =======
 =======
@@ -371,10 +400,13 @@ Gli script di automazione si trovano nella directory `bashscripts/`:
 >>>>>>> .merge_file_HIulS7
 >>>>>>> .merge_file_PYfeML
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 - Implementare un sistema di logging per gli errori di asset
 - Creare alert per problemi di permessi
 - Monitorare lo spazio disponibile
 - Verificare periodicamente l'integrità degli asset
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_OwcChu
 - Utilizzare lo script di verifica prima di ogni deploy
@@ -426,4 +458,7 @@ Gli script di automazione si trovano nella directory `bashscripts/`:
 =======
 >>>>>>> .merge_file_HIulS7
 >>>>>>> .merge_file_PYfeML
+>>>>>>> laraxot/dev
+=======
+- Utilizzare lo script di verifica prima di ogni deploy
 >>>>>>> laraxot/dev

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kRRjHD
 =======
 =======
@@ -63,6 +64,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_hcnEnb
 >>>>>>> .merge_file_09wmuF
+=======
+>>>>>>> laraxot/dev
 # UI Activity Log
 
 > **Module**: UI
@@ -74,6 +77,7 @@ related:
 ## [2026-04-15] maintenance | Initial wiki setup
 - Created: llm-wiki/ directory structure
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Created: AGENTS.md (agent instructions)
 =======
 <<<<<<< HEAD
@@ -97,6 +101,9 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_09wmuF
+=======
+- Created: AGENTS.md (agent instructions)
+>>>>>>> laraxot/dev
 - Created: index.md (content catalog)
 - Created: log.md (this file)
 - Directories initialized:

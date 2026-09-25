@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_wuVaRm
 =======
 =======
@@ -58,6 +59,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_osLjd2
 >>>>>>> .merge_file_j8lwjB
+=======
+>>>>>>> laraxot/dev
 ### Versione HEAD
 
 # Roadmap Modulo UI
@@ -354,6 +357,7 @@ Overall Module Completion: 60%
 ### Component System Enhancement [75%]
 - [x] Base Components [docs/roadmap/components_base.md]
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_wuVaRm
 - [x] Form Components [docs/roadmap/form_components.md]
 =======
@@ -377,6 +381,9 @@ Overall Module Completion: 60%
 - [x] Form Components [docs/roadmap/form_components.md]
 >>>>>>> .merge_file_osLjd2
 >>>>>>> .merge_file_j8lwjB
+>>>>>>> laraxot/dev
+=======
+- [x] Form Components [docs/roadmap/form_components.md]
 >>>>>>> laraxot/dev
 - [ ] Data Display Components [docs/roadmap/data_display.md]
 - [ ] Navigation Components [docs/roadmap/navigation.md]

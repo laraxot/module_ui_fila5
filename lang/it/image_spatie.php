@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_qh8f2J
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_noK0Z6
 >>>>>>> .merge_file_oJS3C1
+=======
+>>>>>>> laraxot/dev
 return [
     'fields' => [
         'caption' => [
@@ -65,6 +68,7 @@ return [
         ],
         'label' => 'Image Spatie',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_qh8f2J
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -90,6 +94,9 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_noK0Z6
 >>>>>>> .merge_file_oJS3C1
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> laraxot/dev
     ],
     'actions' => [
         'create' => [

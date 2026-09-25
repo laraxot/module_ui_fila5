@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_8nKBm5
 =======
 =======
@@ -69,6 +70,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_YPPCCc
 >>>>>>> .merge_file_VsEV4J
+=======
+>>>>>>> laraxot/dev
 # widgets
 
 <!-- Contenuto migrato da _docs/widgets.txt -->

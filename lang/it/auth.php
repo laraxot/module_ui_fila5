@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_o3Xu9C
 <<<<<<< HEAD
 =======
@@ -36,6 +37,9 @@ return [
 return [
 >>>>>>> .merge_file_xLSNzf
 >>>>>>> .merge_file_k0c4aZ
+=======
+return [
+>>>>>>> laraxot/dev
     'login' => [
         'title' => 'Accedi',
         'email' => 'Email',

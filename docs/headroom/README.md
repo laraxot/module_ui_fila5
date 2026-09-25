@@ -34,8 +34,12 @@ headroom perf --hours 24
 - Non documentare comandi per-modulo non presenti nel CLI Headroom.
 - Coordinare modifiche su issue #218 e discussion #219.
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bKhEUL
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 <<<<<<< .merge_file_irkwG5
 =======
 <<<<<<< .merge_file_QUITJZ
@@ -45,7 +49,12 @@ headroom perf --hours 24
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_aurpfE
 >>>>>>> .merge_file_srI0Cr
+<<<<<<< HEAD
 >>>>>>> .merge_file_x1dh7Y
+=======
+=======
+>>>>>>> 804451c (Lint)
+>>>>>>> laraxot/dev
 # UI
 
 [![Module](https://img.shields.io/badge/Module-UI-8B0000.svg)]()
@@ -80,10 +89,14 @@ Core module for the FixCity Platform.
 ---
 
 **Modulo** `UI` · **Laraxot** · **FixCity Platform** · PHPStan 10 · Filament 5
+<<<<<<< HEAD
 <<<<<<< .merge_file_bKhEUL
 =======
 >>>>>>> laraxot/dev
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 <<<<<<< .merge_file_irkwG5
 =======
 >>>>>>> laraxot/dev
@@ -99,4 +112,11 @@ Core module for the FixCity Platform.
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_aurpfE
 >>>>>>> .merge_file_srI0Cr
+<<<<<<< HEAD
 >>>>>>> .merge_file_x1dh7Y
+=======
+=======
+=======
+>>>>>>> laraxot/dev
+>>>>>>> 804451c (Lint)
+>>>>>>> laraxot/dev

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_5hwXmO
 =======
 =======
@@ -58,6 +59,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_HKIV4s
 >>>>>>> .merge_file_Gb8FuR
+=======
+>>>>>>> laraxot/dev
 # Pest Testing Guide - UI Module
 
 ## 🎯 Overview
@@ -390,6 +393,7 @@ Based on existing UI module tests:
 
 ### **Module Documentation**
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_5hwXmO
 - [UI Module README](../readme.md)
 =======
@@ -413,6 +417,9 @@ Based on existing UI module tests:
 - [UI Module README](../readme.md)
 >>>>>>> .merge_file_HKIV4s
 >>>>>>> .merge_file_Gb8FuR
+>>>>>>> laraxot/dev
+=======
+- [UI Module README](../readme.md)
 >>>>>>> laraxot/dev
 - [Component Architecture](../components.md)
 - [Theme System](../themes.md)

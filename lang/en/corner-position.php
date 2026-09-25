@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_fb25QF
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_G8iHrz
 >>>>>>> .merge_file_iz03bU
+=======
+>>>>>>> laraxot/dev
 return [
     'top-left' => [
         'label' => 'alto a sinistra',

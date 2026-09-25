@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_hQF0de
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_gRJLaE
 >>>>>>> .merge_file_cl4p0D
+=======
+>>>>>>> laraxot/dev
 return [
     'previous_month' => 'Mese precedente',
     'next_month' => 'Mese successivo',
@@ -77,6 +80,7 @@ return [
         ],
         'label' => 'Datepicker',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_hQF0de
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -102,6 +106,9 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_gRJLaE
 >>>>>>> .merge_file_cl4p0D
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> laraxot/dev
     ],
     'fields' => [
         'id' => [

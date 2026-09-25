@@ -2,6 +2,7 @@
 module: theme
 topic: list-records
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_N1auCk
 =======
 <<<<<<< .merge_file_msIX3B
@@ -27,10 +28,13 @@ See canonical documentation: ../../../../Themes/docs/shared-components/listrecor
 =======
 >>>>>>> .merge_file_3KP1Be
 >>>>>>> .merge_file_Wu9TaH
+=======
+>>>>>>> laraxot/dev
 canonical: ../../../../Themes/docs/shared-components/ListRecords.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/ListRecords.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_N1auCk
 =======
 =======
@@ -62,4 +66,6 @@ See canonical documentation: ../../../../Themes/docs/shared-components/listrecor
 =======
 >>>>>>> .merge_file_3KP1Be
 >>>>>>> .merge_file_Wu9TaH
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

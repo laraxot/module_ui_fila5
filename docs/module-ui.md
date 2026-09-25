@@ -113,6 +113,7 @@ composer format        # Formatta il codice
 
 ## Changelog
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_G9kHC6
 =======
 Le modifiche vengono tracciate nel repository GitHub.
@@ -161,6 +162,11 @@ Le modifiche vengono tracciate nel repository GitHub.
 =======
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> .merge_file_B1ohDB
+>>>>>>> laraxot/dev
+=======
+Le modifiche vengono tracciate nel repository GitHub.
+# Modulo UI
+
 >>>>>>> laraxot/dev
 ## Informazioni Generali
 - **Nome**: `laraxot/module_ui_fila5`
@@ -168,6 +174,7 @@ Le modifiche vengono tracciate nel repository GitHub.
 - **Namespace**: `Modules\UI`
 - **Repository**: https://github.com/laraxot/module_ui_fila5.git
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_G9kHC6
 =======
 <<<<<<< .merge_file_cS9kDa
@@ -185,11 +192,14 @@ Le modifiche vengono tracciate nel repository GitHub.
 =======
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> .merge_file_B1ohDB
+=======
+>>>>>>> laraxot/dev
 
 ## Service Providers
 1. `Modules\UI\Providers\UIServiceProvider`
 2. `Modules\UI\Providers\Filament\AdminPanelProvider`
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_G9kHC6
 =======
 <<<<<<< .merge_file_cS9kDa
@@ -208,6 +218,8 @@ Le modifiche vengono tracciate nel repository GitHub.
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_B1ohDB
+=======
+>>>>>>> laraxot/dev
 ## Struttura
 ```
 app/
@@ -217,6 +229,7 @@ app/
 ├── Providers/      # Service Providers
 └── Services/       # Servizi UI
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_G9kHC6
 =======
 <<<<<<< .merge_file_cS9kDa
@@ -234,12 +247,15 @@ app/
 =======
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> .merge_file_B1ohDB
+=======
+>>>>>>> laraxot/dev
 ```
 
 ## Dipendenze
 ### Pacchetti Required
 - `owenvoke/blade-fontawesome`
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_G9kHC6
 =======
 <<<<<<< .merge_file_cS9kDa
@@ -258,11 +274,14 @@ app/
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_B1ohDB
+=======
+>>>>>>> laraxot/dev
 ### Moduli Required
 - User
 - Tenant
 - Xot
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_G9kHC6
 =======
 <<<<<<< .merge_file_cS9kDa
@@ -280,6 +299,8 @@ Namespace: `Modules\UI\Database\Seeders`
 =======
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> .merge_file_B1ohDB
+=======
+>>>>>>> laraxot/dev
 
 ## Database
 ### Factories
@@ -288,6 +309,7 @@ Namespace: `Modules\UI\Database\Factories`
 ### Seeders
 Namespace: `Modules\UI\Database\Seeders`
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_G9kHC6
 =======
 =======
@@ -311,6 +333,8 @@ Namespace: `Modules\UI\Database\Seeders`
 =======
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> .merge_file_B1ohDB
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ## Testing
 Comandi disponibili:
@@ -320,6 +344,7 @@ composer test-coverage  # Genera report di copertura
 composer analyse       # Analisi statica del codice
 composer format        # Formatta il codice
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_G9kHC6
 ```
 
@@ -343,6 +368,10 @@ composer format        # Formatta il codice
 
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> .merge_file_B1ohDB
+>>>>>>> laraxot/dev
+=======
+```
+
 >>>>>>> laraxot/dev
 ## Funzionalità
 - Componenti UI riutilizzabili
@@ -355,6 +384,7 @@ composer format        # Formatta il codice
 - Notifiche UI
 - Tabelle interattive
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_G9kHC6
 
 =======
@@ -374,12 +404,16 @@ composer format        # Formatta il codice
 
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> .merge_file_B1ohDB
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 ## Configurazione
 ### Font Awesome
 - Configurazione in `config/blade-fontawesome.php`
 - Supporto per diverse versioni di FA
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_G9kHC6
 =======
 <<<<<<< .merge_file_cS9kDa
@@ -397,11 +431,14 @@ composer format        # Formatta il codice
 =======
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> .merge_file_B1ohDB
+=======
+>>>>>>> laraxot/dev
 
 ### Componenti
 - Registrazione in `app/Providers/UIServiceProvider.php`
 - Configurazione view in `resources/views/components`
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_G9kHC6
 =======
 <<<<<<< .merge_file_cS9kDa
@@ -420,6 +457,8 @@ composer format        # Formatta il codice
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_B1ohDB
+=======
+>>>>>>> laraxot/dev
 ## Best Practices
 1. Seguire le convenzioni di naming Laravel
 2. Documentare tutte le classi e i metodi pubblici
@@ -430,6 +469,7 @@ composer format        # Formatta il codice
 7. Ottimizzare assets
 8. Mantenere consistenza UI
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_G9kHC6
 
 =======
@@ -449,6 +489,9 @@ composer format        # Formatta il codice
 
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> .merge_file_B1ohDB
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 ## Troubleshooting
 ### Problemi Comuni
@@ -457,6 +500,7 @@ composer format        # Formatta il codice
    - Controllare configurazione webpack/vite
    - Verificare permessi directory
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_G9kHC6
 
 =======
@@ -476,12 +520,16 @@ composer format        # Formatta il codice
 
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> .merge_file_B1ohDB
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 2. **Problemi di Font Awesome**
    - Verificare registrazione provider
    - Controllare sintassi icone
    - Verificare caricamento CSS
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_G9kHC6
 
 =======
@@ -502,10 +550,14 @@ composer format        # Formatta il codice
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> .merge_file_B1ohDB
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
 3. **Errori di Layout**
    - Controllare responsive breakpoints
    - Verificare conflitti CSS
    - Debug con strumenti browser
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_G9kHC6
 =======
@@ -523,6 +575,8 @@ composer format        # Formatta il codice
 =======
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> .merge_file_B1ohDB
+=======
+>>>>>>> laraxot/dev
 
 ## Componenti Disponibili
 ### Icons
@@ -530,6 +584,7 @@ composer format        # Formatta il codice
 - Supporto per icone custom
 - Helper per icone comuni
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_G9kHC6
 =======
 =======
@@ -553,11 +608,14 @@ composer format        # Formatta il codice
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> .merge_file_B1ohDB
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ### Navigation
 - Menu responsive
 - Breadcrumbs
 - Tabs
 - Sidebar
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_G9kHC6
 
@@ -578,6 +636,9 @@ composer format        # Formatta il codice
 
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> .merge_file_B1ohDB
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 ### Forms
 - Input fields
@@ -586,6 +647,7 @@ composer format        # Formatta il codice
 - Date pickers
 - File upload
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_G9kHC6
 
 ## Changelog
@@ -655,4 +717,9 @@ Le modifiche vengono tracciate nel repository GitHub.
 Le modifiche vengono tracciate nel repository GitHub.
 >>>>>>> .merge_file_wbEKXH
 >>>>>>> .merge_file_B1ohDB
+>>>>>>> laraxot/dev
+=======
+
+## Changelog
+Le modifiche vengono tracciate nel repository GitHub.
 >>>>>>> laraxot/dev

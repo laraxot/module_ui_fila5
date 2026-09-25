@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_7pF7tW
 =======
 =======
@@ -69,6 +70,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_h1AdJ4
 >>>>>>> .merge_file_mjMuRc
+=======
+>>>>>>> laraxot/dev
 # Compatibilità dei Metodi nei Componenti Filament
 
 ## Panoramica

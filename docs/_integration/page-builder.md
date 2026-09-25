@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9nCM4K
 =======
 <<<<<<< .merge_file_1Z7ota
@@ -27,10 +28,13 @@ related:
 <!-- Contenuto migrato da _docs/page_builder.txt -->
 =======
 >>>>>>> .merge_file_AgT32f
+=======
+>>>>>>> laraxot/dev
 # page_builder
 
 <!-- Contenuto migrato da _docs/page_builder.txt -->
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> .merge_file_KK5VRb
@@ -128,11 +132,14 @@ https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_KK5VRb
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
 # page_builder
 
 <!-- Contenuto migrato da _docs/page_builder.txt -->
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_9nCM4K
 <<<<<<< HEAD
 https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
@@ -178,4 +185,7 @@ https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_KK5VRb
+>>>>>>> laraxot/dev
+=======
+https://medium.com/landing-page-tips/5-best-drag-drop-tailwind-css-page-builders-9c251758d891
 >>>>>>> laraxot/dev

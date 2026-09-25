@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
 <<<<<<< .merge_file_Lrglie
 
 =======
@@ -13,6 +14,8 @@ declare(strict_types=1);
 >>>>>>> .merge_file_1rvfdJ
 >>>>>>> .merge_file_fKSMG3
 >>>>>>> .merge_file_lV1lUI
+=======
+>>>>>>> laraxot/dev
 use Illuminate\Database\Schema\Blueprint;
 use Modules\UI\Models\Collection;
 use Modules\Xot\Database\Migrations\XotBaseMigration;

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UBucgl
 =======
 =======
@@ -69,6 +70,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_k112hH
 >>>>>>> .merge_file_TmSFNi
+=======
+>>>>>>> laraxot/dev
 # UI Module Roadmap (2025 Q4)
 
 ## Vision & Scope
@@ -82,6 +85,7 @@ related:
 ## Milestones
 - [ ] Audit Filament v4 changes in components/pages
 - [ ] Replace labels with translations (expanded structure)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_UBucgl
 - [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
@@ -106,6 +110,9 @@ related:
 - [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
 >>>>>>> .merge_file_k112hH
 >>>>>>> .merge_file_TmSFNi
+>>>>>>> laraxot/dev
+=======
+- [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
 >>>>>>> laraxot/dev
 - [ ] Strengthen tests for critical widgets
 
@@ -127,6 +134,7 @@ related:
 - [ ] Audit Filament v4 changes in components/pages
 - [ ] Replace labels with translations (expanded structure)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UBucgl
 - [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
 =======
@@ -150,6 +158,9 @@ related:
 - [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
 >>>>>>> .merge_file_k112hH
 >>>>>>> .merge_file_TmSFNi
+>>>>>>> laraxot/dev
+=======
+- [ ] Optimize icons/assets; document in `docs/paths_and_assets.md`
 >>>>>>> laraxot/dev
 - [ ] Strengthen tests for critical widgets
 

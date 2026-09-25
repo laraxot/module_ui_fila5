@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SNjqcu
 =======
 =======
@@ -69,6 +70,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_fCVKXi
 >>>>>>> .merge_file_gE4kHC
+=======
+>>>>>>> laraxot/dev
 # OpeningHoursField Component
 
 ## Introduzione

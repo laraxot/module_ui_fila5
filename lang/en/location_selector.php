@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_1tY46d
 <<<<<<< HEAD
 =======
@@ -27,6 +28,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_gMbs1u
 >>>>>>> .merge_file_SPZWsH
+=======
+>>>>>>> laraxot/dev
 return [
     'region' => [
         'label' => 'Region',
@@ -48,12 +51,15 @@ return [
         'region_province_required_for_cap' => 'You must select region and province before choosing the postal code',
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1tY46d
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_SPZWsH
+=======
+>>>>>>> laraxot/dev
     'navigation' => [
         'label' => 'Missing Navigation Label',
         'plural_label' => 'Missing Navigation Plural Label',
@@ -67,6 +73,7 @@ return [
     ],
     'actions' => [
     ],
+<<<<<<< HEAD
 <<<<<<< .merge_file_1tY46d
 =======
 =======
@@ -75,5 +82,7 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_SPZWsH
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ];

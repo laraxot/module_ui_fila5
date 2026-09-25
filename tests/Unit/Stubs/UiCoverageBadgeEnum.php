@@ -37,6 +37,7 @@ enum UiCoverageBadgeEnum: string implements HasColor, HasIcon
             self::HtmlIcon => '<svg></svg>',
             self::NullIcon => null,
             self::HtmlableIcon => new HtmlString('<i>x</i>'),
+<<<<<<< HEAD
 <<<<<<< .merge_file_tnYTbr
             self::BareHtmlableIcon => new class implements Htmlable
             {
@@ -58,6 +59,10 @@ enum UiCoverageBadgeEnum: string implements HasColor, HasIcon
 >>>>>>> .merge_file_hGtRze
 >>>>>>> .merge_file_pMfyEA
 >>>>>>> .merge_file_ijzP2M
+=======
+            self::BareHtmlableIcon => new class implements Htmlable
+            {
+>>>>>>> laraxot/dev
                 public function toHtml(): string
                 {
                     return 'x';

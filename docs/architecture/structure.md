@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_CPmHCh
 =======
 =======
@@ -64,6 +65,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_y1SHOG
 >>>>>>> .merge_file_bBc73M
+=======
+>>>>>>> laraxot/dev
 # Modulo UI
 
 Data: 2025-04-23 19:09:56

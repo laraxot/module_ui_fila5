@@ -29,6 +29,7 @@ Modern, clean "Bento Grid" style with high contrast and clear typography for Pub
 - Business logic.
 - Backend API development.
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_B6XdGD
 =======
 =======
@@ -88,3 +89,5 @@ UI module for Laraxot platform providing core functionality.
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_yiT4l5
 >>>>>>> .merge_file_8l5Jva
+=======
+>>>>>>> laraxot/dev

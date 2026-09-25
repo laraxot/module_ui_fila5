@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AHcD4Q
 =======
 <<<<<<< .merge_file_0BXEju
@@ -208,6 +209,8 @@ protected function resolveLazyProp(string $key): mixed
 =======
 >>>>>>> .merge_file_PqXyV0
 >>>>>>> .merge_file_6HcWaR
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: component_system
@@ -215,6 +218,7 @@ canonical: ../../../../Themes/docs/shared-components/component-system.md
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/component-system.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_AHcD4Q
 =======
 =======
@@ -430,4 +434,6 @@ protected function resolveLazyProp(string $key): mixed
 =======
 >>>>>>> .merge_file_PqXyV0
 >>>>>>> .merge_file_6HcWaR
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

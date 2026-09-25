@@ -78,6 +78,7 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 - ✅ `phpstan-fixes-summary.md` → Mantenere
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bgN2Xe
 **Nota**: File con date nei nomi (`phpstan-level-10-cleanup-[DATE].md`, `dry-kiss-analysis-[DATE].md`) dovrebbero essere spostati in `archive/` o consolidati.
 =======
@@ -101,6 +102,9 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 **Nota**: File con date nei nomi (`phpstan-level-10-cleanup-[DATE].md`, `dry-kiss-analysis-[DATE].md`) dovrebbero essere spostati in `archive/` o consolidati.
 >>>>>>> .merge_file_xHuzZw
 >>>>>>> .merge_file_sV0mio
+>>>>>>> laraxot/dev
+=======
+**Nota**: File con date nei nomi (`phpstan-level-10-cleanup-[DATE].md`, `dry-kiss-analysis-[DATE].md`) dovrebbero essere spostati in `archive/` o consolidati.
 >>>>>>> laraxot/dev
 
 ### 7. VSCode Documentation
@@ -145,6 +149,7 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 ## File con Date nei Nomi (da Spostare in Archive)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bgN2Xe
 1. `dry-kiss-analysis-[DATE].md` → `archive/dry-kiss-analysis.md`
 2. `phpstan-level-10-cleanup-[DATE].md` → `archive/phpstan-level-10-cleanup.md`
@@ -176,12 +181,17 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 2. `phpstan-level-10-cleanup-[DATE].md` → `archive/phpstan-level-10-cleanup.md`
 >>>>>>> .merge_file_xHuzZw
 >>>>>>> .merge_file_sV0mio
+>>>>>>> laraxot/dev
+=======
+1. `dry-kiss-analysis-[DATE].md` → `archive/dry-kiss-analysis.md`
+2. `phpstan-level-10-cleanup-[DATE].md` → `archive/phpstan-level-10-cleanup.md`
 >>>>>>> laraxot/dev
 3. `phpstan-fixes-gennaio-2025.md` → Consolidare in `phpstan-compliance.md`
 
 ## File con Maiuscole (da Rinominare)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bgN2Xe
 1. `METODI_DUPLICATI_ANALISI.md` → `metodi-duplicati-analisi.md` (già esiste `metodi-duplicati-analisi.md`)
 =======
@@ -205,6 +215,9 @@ Consolidare la documentazione rimuovendo duplicati e file obsoleti, mantenendo u
 1. `METODI_DUPLICATI_ANALISI.md` → `metodi-duplicati-analisi.md` (già esiste `metodi-duplicati-analisi.md`)
 >>>>>>> .merge_file_xHuzZw
 >>>>>>> .merge_file_sV0mio
+>>>>>>> laraxot/dev
+=======
+1. `METODI_DUPLICATI_ANALISI.md` → `metodi-duplicati-analisi.md` (già esiste `metodi-duplicati-analisi.md`)
 >>>>>>> laraxot/dev
 
 ## Processo di Consolidamento
@@ -261,6 +274,7 @@ Per ogni coppia di file duplicati:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_bgN2Xe
 **Data creazione**: [DATE]
 =======
@@ -284,6 +298,9 @@ Per ogni coppia di file duplicati:
 **Data creazione**: [DATE]
 >>>>>>> .merge_file_xHuzZw
 >>>>>>> .merge_file_sV0mio
+>>>>>>> laraxot/dev
+=======
+**Data creazione**: [DATE]
 >>>>>>> laraxot/dev
 **Status**: Piano da implementare
 **Priorità**: Alta

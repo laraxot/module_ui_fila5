@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_fz2OAY
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_9nxihn
 >>>>>>> .merge_file_oQGDh7
+=======
+>>>>>>> laraxot/dev
 return [
     'dark_mode_switcher' => [
         'toggle_aria_label' => 'Toggle theme',

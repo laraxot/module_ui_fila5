@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_IHyuIN
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_3urFsF
 >>>>>>> .merge_file_yevvxG
+=======
+>>>>>>> laraxot/dev
 return [
     'state_transition' => [
         'success' => [
@@ -52,6 +55,7 @@ return [
         ],
         'label' => 'Notifications',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_IHyuIN
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -77,6 +81,9 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_3urFsF
 >>>>>>> .merge_file_yevvxG
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> laraxot/dev
     ],
     'fields' => [
         'id' => [

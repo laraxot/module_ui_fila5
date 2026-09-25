@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_QiD1Xj
 =======
 =======
@@ -69,6 +70,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_l5hsO1
 >>>>>>> .merge_file_TquAVK
+=======
+>>>>>>> laraxot/dev
 # ubuntu
 
 <!-- Contenuto migrato da _docs/ubuntu.txt -->

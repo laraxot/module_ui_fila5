@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_YBffpN
 =======
 <<<<<<< .merge_file_yJVpPo
@@ -42,10 +43,16 @@ use Filament\Support\Contracts\HasLabel;
 use Modules\Xot\Filament\Forms\Components\XotBaseSelect;
 >>>>>>> .merge_file_4kOwDD
 >>>>>>> .merge_file_veDYSt
+=======
+use Filament\Forms\Components\Select;
+use Filament\Support\Contracts\HasIcon;
+use Filament\Support\Contracts\HasLabel;
+>>>>>>> laraxot/dev
 
 /**
  * EnumSelect - Reusable component for PHP-backed enums in Filament v5.
  */
+<<<<<<< HEAD
 <<<<<<< .merge_file_YBffpN
 =======
 <<<<<<< .merge_file_yJVpPo
@@ -69,6 +76,9 @@ final class EnumSelect extends XotBaseSelect
 final class EnumSelect extends XotBaseSelect
 >>>>>>> .merge_file_4kOwDD
 >>>>>>> .merge_file_veDYSt
+=======
+final class EnumSelect extends Select
+>>>>>>> laraxot/dev
 {
     protected string|\Closure|null $enumClass = null;
 
@@ -257,6 +267,7 @@ final class EnumSelect extends XotBaseSelect
     {
         if (! enum_exists($enumClass)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YBffpN
 =======
 =======
@@ -265,11 +276,14 @@ final class EnumSelect extends XotBaseSelect
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_veDYSt
+=======
+>>>>>>> laraxot/dev
             throw new \InvalidArgumentException("Enum class [{$enumClass}] does not exist.");
         }
 
         if (! is_subclass_of($enumClass, \BackedEnum::class)) {
             throw new \InvalidArgumentException("Enum class [{$enumClass}] must be a backed enum.");
+<<<<<<< HEAD
 <<<<<<< .merge_file_YBffpN
 =======
 =======
@@ -290,6 +304,8 @@ final class EnumSelect extends XotBaseSelect
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_veDYSt
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         }
     }

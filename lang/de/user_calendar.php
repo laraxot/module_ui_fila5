@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_KebHW4
 <<<<<<< HEAD
 =======
@@ -48,6 +49,9 @@ return [
 return [
 >>>>>>> .merge_file_euOjuu
 >>>>>>> .merge_file_cOp1A6
+=======
+return [
+>>>>>>> laraxot/dev
     'months' => [
         'long' => [
             0 => 'Gennaio',

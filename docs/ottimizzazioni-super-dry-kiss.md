@@ -292,6 +292,7 @@ class ExampleComponent extends Component
 ## 🔗 Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_JaDrH5
 =======
 <<<<<<< .merge_file_KMqVnO
@@ -308,10 +309,13 @@ class ExampleComponent extends Component
 =======
 >>>>>>> .merge_file_7ysxSq
 >>>>>>> .merge_file_SR3J6U
+=======
+>>>>>>> laraxot/dev
 - [Documentazione Core](../../../../docs/core/)
 - [Best Practices Filament](../../../../docs/core/filament-best-practices.md)
 - [Convenzioni Sistema](../../../../docs/core/conventions.md)
 - [Template Modulo](../../../../docs/templates/module-template.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_JaDrH5
 =======
 =======
@@ -334,6 +338,8 @@ class ExampleComponent extends Component
 =======
 >>>>>>> .merge_file_7ysxSq
 >>>>>>> .merge_file_SR3J6U
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ---

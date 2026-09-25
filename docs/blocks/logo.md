@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZwsOkZ
 =======
 =======
@@ -65,6 +66,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_YRmqoB
 >>>>>>> .merge_file_CDorOV
+=======
+>>>>>>> laraxot/dev
 # Logo Component
 
 This document describes the Logo component used in section headers and its proper implementation.

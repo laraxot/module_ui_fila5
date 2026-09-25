@@ -14,6 +14,7 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 ❌ **Non Corretto**:
 ```md
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -51,12 +52,16 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_EL1Hko
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
 # Design System il progetto
 Il design system di il progetto definisce...
 ```
 
 ✅ **Corretto**:
 ```md
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -84,6 +89,9 @@ Il design system di il progetto definisce...
 >>>>>>> .merge_file_EL1Hko
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 # Design System
 Il design system definisce...
@@ -103,6 +111,7 @@ I nomi specifici dell'applicazione devono apparire solo:
 
 ## Collegamenti Bidirezionali
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4Zhxh6
 - [README](readme.md)
 =======
@@ -126,12 +135,16 @@ I nomi specifici dell'applicazione devono apparire solo:
 - [README](readme.md)
 >>>>>>> .merge_file_KimdIS
 >>>>>>> .merge_file_EL1Hko
+>>>>>>> laraxot/dev
+=======
+- [README](readme.md)
 >>>>>>> laraxot/dev
 - [Design System](design-system.md)
 - [Componenti](components.md)
 
 ## Vedi Anche
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4Zhxh6
 - [Documentazione Principale](../../../../docs/readme.md)
 - [Standard di Codice](../../../../docs/standards/coding-standards.md)
@@ -172,6 +185,10 @@ I nomi specifici dell'applicazione devono apparire solo:
 - [Standard di Codice](../../../../docs/standards/coding-standards.md)
 >>>>>>> .merge_file_KimdIS
 >>>>>>> .merge_file_EL1Hko
+>>>>>>> laraxot/dev
+=======
+- [Documentazione Principale](../../../../docs/readme.md)
+- [Standard di Codice](../../../../docs/standards/coding-standards.md)
 >>>>>>> laraxot/dev
 # Regole di Naming nei Moduli
 
@@ -189,6 +206,7 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 ❌ **Non Corretto**:
 ```md
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_4Zhxh6
 >>>>>>> 92912795 (.)
@@ -202,6 +220,8 @@ I moduli devono essere generici e riutilizzabili. L'uso di nomi specifici dell'a
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_EL1Hko
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # Design System il progetto
 Il design system di il progetto definisce...
@@ -227,6 +247,7 @@ I nomi specifici dell'applicazione devono apparire solo:
 
 ## Collegamenti Bidirezionali
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4Zhxh6
 =======
 <<<<<<< .merge_file_bgkTdg
@@ -242,10 +263,14 @@ I nomi specifici dell'applicazione devono apparire solo:
 >>>>>>> .merge_file_EL1Hko
 - [README](readme.md)
 >>>>>>> laraxot/dev
+=======
+- [README](readme.md)
+>>>>>>> laraxot/dev
 - [Design System](design-system.md)
 - [Componenti](components.md)
 
 ## Vedi Anche
+<<<<<<< HEAD
 <<<<<<< HEAD
 - [Documentazione Principale](../../../project_docs/README.md)
 - [Standard di Codice](../../../project_docs/standards/coding-standards.md)
@@ -319,4 +344,9 @@ I nomi specifici dell'applicazione devono apparire solo:
 =======
 >>>>>>> .merge_file_KimdIS
 >>>>>>> .merge_file_EL1Hko
+>>>>>>> laraxot/dev
+=======
+- [Documentazione Principale](../../../../docs/project/readme.md)
+- [Standard di Codice](../../../../docs/project/standards/coding-standards.md)
+- [Best Practices](../../../../docs/project/standards/best-practices.md)
 >>>>>>> laraxot/dev

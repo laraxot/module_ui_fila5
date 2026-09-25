@@ -3,6 +3,7 @@ module: theme
 topic: source
 canonical: ../../../../../Themes/docs/shared-components/source.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_RotkRd
 =======
 related:
@@ -29,6 +30,8 @@ related:
 =======
 >>>>>>> .merge_file_gp9ZFj
 >>>>>>> .merge_file_pBGSIw
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ---
 

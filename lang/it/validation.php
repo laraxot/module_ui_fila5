@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_dMq2R9
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_OBpmNN
 >>>>>>> .merge_file_osMRjm
+=======
+>>>>>>> laraxot/dev
 return [
     'opening_hours' => [
         'morning' => 'mattino',
@@ -50,6 +53,7 @@ return [
         ],
         'label' => 'Validation',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_dMq2R9
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -75,6 +79,9 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_OBpmNN
 >>>>>>> .merge_file_osMRjm
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> laraxot/dev
     ],
     'fields' => [
         'id' => [

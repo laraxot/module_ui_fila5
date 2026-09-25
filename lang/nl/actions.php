@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_NV69vh
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_slzdGt
 >>>>>>> .merge_file_jy2Z9b
+=======
+>>>>>>> laraxot/dev
 return [
     'confirm' => 'Bevestigen',
     'cancel' => 'Annuleren',

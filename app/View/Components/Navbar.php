@@ -8,6 +8,7 @@ use Illuminate\Contracts\Support\Renderable;
 use Illuminate\View\Component;
 use Modules\Xot\Actions\GetViewAction;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_voWOw8
 <<<<<<< HEAD
 =======
@@ -56,6 +57,18 @@ final class Navbar extends Component
 =======
 >>>>>>> .merge_file_xQs5Og
 >>>>>>> .merge_file_ZIPEc0
+=======
+// use Modules\Xot\View\Components\XotBaseComponent;
+
+/**
+ * .
+ */
+final class Navbar extends Component
+{
+    /**
+     * Create a new component instance.
+     */
+>>>>>>> laraxot/dev
     public function __construct()
     {
     }
@@ -66,6 +79,7 @@ final class Navbar extends Component
          * @phpstan-var view-string
          */
         $view = app(GetViewAction::class)->execute();
+<<<<<<< HEAD
 <<<<<<< .merge_file_voWOw8
 <<<<<<< HEAD
 =======
@@ -80,10 +94,13 @@ final class Navbar extends Component
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ZIPEc0
+=======
+>>>>>>> laraxot/dev
         dddx($view);
         $view_params = [];
 
         return view($view, $view_params);
+<<<<<<< HEAD
 <<<<<<< .merge_file_voWOw8
 =======
 <<<<<<< HEAD
@@ -104,5 +121,7 @@ final class Navbar extends Component
         return view($view, $viewParams);
 >>>>>>> .merge_file_xQs5Og
 >>>>>>> .merge_file_ZIPEc0
+=======
+>>>>>>> laraxot/dev
     }
 }

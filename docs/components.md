@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_FTaMK8
 =======
 <<<<<<< .merge_file_Xs1IYr
@@ -394,6 +395,8 @@ Tutti i componenti UI condivisi devono essere posizionati in `Modules/UI/resourc
 =======
 >>>>>>> .merge_file_cquNen
 >>>>>>> .merge_file_kbPAuQ
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: components
@@ -401,6 +404,7 @@ canonical: ../../../Themes/docs/shared-components/components-guide.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/components-guide.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_FTaMK8
 =======
 =======
@@ -802,4 +806,6 @@ Tutti i componenti UI condivisi devono essere posizionati in `Modules/UI/resourc
 =======
 >>>>>>> .merge_file_cquNen
 >>>>>>> .merge_file_kbPAuQ
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

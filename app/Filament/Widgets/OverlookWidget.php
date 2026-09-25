@@ -1,12 +1,17 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 /**
  * @see https://github.com/awcodes/overlook/blob/2.x/src/Widgets/OverlookWidget.php
  */
 
 namespace Modules\UI\Filament\Widgets;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_pS5m0R
 =======
 <<<<<<< .merge_file_Ppqbpj
@@ -28,6 +33,8 @@ use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Component;
 >>>>>>> .merge_file_i5w7yF
 >>>>>>> .merge_file_JpxdKA
+=======
+>>>>>>> laraxot/dev
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 final class OverlookWidget extends XotBaseSchemaWidget
@@ -50,6 +57,7 @@ final class OverlookWidget extends XotBaseSchemaWidget
     /** @var array<int, array<string, mixed>> */
     public array $stats = [];
 
+<<<<<<< HEAD
     /** @phpstan-var view-string */
     /** @phpstan-ignore property.defaultValue */
     protected string $view = 'ui::filament.widgets.overlook';
@@ -83,6 +91,22 @@ final class OverlookWidget extends XotBaseSchemaWidget
      */
 >>>>>>> .merge_file_i5w7yF
 >>>>>>> .merge_file_JpxdKA
+=======
+    /** @var view-string */
+    protected string $view;
+
+    public function __construct()
+    {
+        /** @var view-string $view */
+        $view = 'ui::filament.widgets.overlook';
+        $this->view = $view;
+
+        parent::__construct();
+    }
+
+    protected int|string|array $columnSpan = 1;
+
+>>>>>>> laraxot/dev
     public function getFormSchema(): array
     {
         return [];

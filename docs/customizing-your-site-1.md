@@ -83,6 +83,7 @@ class Foo extends bar
 * [customizing-your-site.md](../../../Cms/docs/customizing-your-site.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_lMLzvU
 =======
@@ -100,6 +101,8 @@ class Foo extends bar
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_wFfa7M
+=======
+>>>>>>> laraxot/dev
 ### Versione Incoming
 
 ---

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_NzNEM4
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_JbnXHR
 >>>>>>> .merge_file_A4Ss4N
+=======
+>>>>>>> laraxot/dev
 return [
     'fields' => [
         'to' => [
@@ -70,6 +73,7 @@ return [
         ],
         'label' => 'Send Email',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_NzNEM4
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -95,5 +99,8 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_JbnXHR
 >>>>>>> .merge_file_A4Ss4N
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> laraxot/dev
     ],
 ];

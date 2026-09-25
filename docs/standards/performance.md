@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_J73Xkq
 =======
 =======
@@ -67,6 +68,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ZCqgIR
 >>>>>>> .merge_file_SXk9Sc
+=======
+>>>>>>> laraxot/dev
 # Standard di Performance
 
 ## 🚀 Metriche Core Web Vitals

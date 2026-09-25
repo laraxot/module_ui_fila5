@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_Wltc8n
 <<<<<<< HEAD
 =======
@@ -45,6 +46,12 @@
 <?php
 
 declare(strict_types=1);
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> laraxot/dev
 ?>
 {{--
     Service Card Component - Card servizio riutilizzabile per servizi comunali/aziendali

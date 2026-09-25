@@ -107,6 +107,7 @@ All AWS operations are wrapped in try-catch blocks to handle exceptions graceful
 - [AWS Test Bugfix Documentation](./awstest-bugfix-undefined-variable.md)
 - [Bugfix: Undefined Variable in AWS Test](./bugfix-awstest-undefined-variable.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_KdxTHD
 - [Root Documentation: AWS Testing](../../../docs/aws-testing.md)
 =======
@@ -130,6 +131,9 @@ All AWS operations are wrapped in try-catch blocks to handle exceptions graceful
 - [Root Documentation: AWS Testing](../../../docs/aws-testing.md)
 >>>>>>> .merge_file_MJbYFZ
 >>>>>>> .merge_file_ROY7mQ
+>>>>>>> laraxot/dev
+=======
+- [Root Documentation: AWS Testing](../../../docs/aws-testing.md)
 >>>>>>> laraxot/dev
 
 ## PHPStan Compliance
@@ -142,6 +146,7 @@ The component has been updated to comply with PHPStan level 9 requirements:
 - Safe function usage
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_KdxTHD
 *
 =======
@@ -165,4 +170,7 @@ The component has been updated to comply with PHPStan level 9 requirements:
 *
 >>>>>>> .merge_file_MJbYFZ
 >>>>>>> .merge_file_ROY7mQ
+>>>>>>> laraxot/dev
+=======
+*
 >>>>>>> laraxot/dev

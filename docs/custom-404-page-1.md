@@ -38,6 +38,7 @@ Depending on where your site is hosted, you may need to configure your server to
 * [custom-404-page.md](../../../Cms/docs/custom-404-page.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_Zxk9i3
 =======
@@ -55,6 +56,8 @@ Depending on where your site is hosted, you may need to configure your server to
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ZwJpHd
+=======
+>>>>>>> laraxot/dev
 ### Versione Incoming
 
 ---

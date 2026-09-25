@@ -345,6 +345,7 @@ echo "✅ Consolidamento completato!"
 
 ### Documentazione Correlata
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_tO7Gq4
 - [README](../readme.md) - Panoramica modulo UI
 =======
@@ -369,10 +370,14 @@ echo "✅ Consolidamento completato!"
 >>>>>>> .merge_file_QzjW4V
 >>>>>>> .merge_file_cRt5DC
 >>>>>>> laraxot/dev
+=======
+- [README](../readme.md) - Panoramica modulo UI
+>>>>>>> laraxot/dev
 - [Architettura](./core/architecture.md) - Architettura modulo
 - [Convenzioni](./core/conventions.md) - Convenzioni unificate
 
 ### Documentazione Root
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_tO7Gq4
 =======
@@ -396,6 +401,8 @@ echo "✅ Consolidamento completato!"
 =======
 >>>>>>> .merge_file_QzjW4V
 >>>>>>> .merge_file_cRt5DC
+=======
+>>>>>>> laraxot/dev
 - [docs/ottimizzazioni-sistema.md](../../../../docs/ottimizzazioni-sistema.md) - Ottimizzazioni sistema generale
 - [docs/architettura-moduli.md](../../../../docs/architettura-moduli.md) - Architettura moduli
 
@@ -405,6 +412,7 @@ echo "✅ Consolidamento completato!"
 
 ---
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_tO7Gq4
 =======
 =======
@@ -433,6 +441,8 @@ echo "✅ Consolidamento completato!"
 =======
 >>>>>>> .merge_file_QzjW4V
 >>>>>>> .merge_file_cRt5DC
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 **Stato:** In implementazione
 **Responsabile:** Team Sviluppo UI

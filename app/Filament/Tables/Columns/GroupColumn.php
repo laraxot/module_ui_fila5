@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Tables\Columns\Column;
+<<<<<<< HEAD
 <<<<<<< .merge_file_a3CE68
 =======
 <<<<<<< .merge_file_tR081w
@@ -54,6 +55,10 @@ class GroupColumn extends XotBaseColumn
 =======
 >>>>>>> .merge_file_qrATa5
 >>>>>>> .merge_file_6jBa4s
+=======
+
+class GroupColumn extends Column
+>>>>>>> laraxot/dev
 {
     /** @var array<int|string, mixed> */
     public array $form = [];
@@ -67,6 +72,7 @@ class GroupColumn extends XotBaseColumn
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_a3CE68
 =======
 =======
@@ -75,6 +81,8 @@ class GroupColumn extends XotBaseColumn
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_6jBa4s
+=======
+>>>>>>> laraxot/dev
      * Initialize the component.
      */
     protected function setUp(): void
@@ -85,6 +93,7 @@ class GroupColumn extends XotBaseColumn
     }
 
     /**
+<<<<<<< HEAD
 <<<<<<< .merge_file_a3CE68
 =======
 =======
@@ -94,6 +103,8 @@ class GroupColumn extends XotBaseColumn
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_6jBa4s
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
      * @return array<Column>
      */
@@ -104,6 +115,7 @@ class GroupColumn extends XotBaseColumn
 
     /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_a3CE68
 =======
 =======
@@ -112,10 +124,13 @@ class GroupColumn extends XotBaseColumn
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_6jBa4s
+=======
+>>>>>>> laraxot/dev
      * @param array<int|string, mixed> $form
      */
     public function schema(array $form): static
     {
+<<<<<<< HEAD
 <<<<<<< .merge_file_tR081w
         // Type-check to ensure all elements are Column instances
         $filtered = array_filter($form, function (mixed $item): bool {
@@ -144,6 +159,10 @@ class GroupColumn extends XotBaseColumn
         $filtered = array_filter($form, static function (mixed $item): bool {
 >>>>>>> .merge_file_qrATa5
 >>>>>>> .merge_file_6jBa4s
+=======
+        // Type-check to ensure all elements are Column instances
+        $filtered = array_filter($form, function (mixed $item): bool {
+>>>>>>> laraxot/dev
             return $item instanceof Column;
         });
 
@@ -151,6 +170,7 @@ class GroupColumn extends XotBaseColumn
         $filteredValues = array_values($filtered);
         $this->schema = $filteredValues;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_a3CE68
 =======
 <<<<<<< .merge_file_tR081w
@@ -228,4 +248,8 @@ class GroupColumn extends XotBaseColumn
 =======
 >>>>>>> .merge_file_qrATa5
 >>>>>>> .merge_file_6jBa4s
+=======
+        return $this;
+    }
+>>>>>>> laraxot/dev
 }

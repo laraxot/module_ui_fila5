@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_3SNpWT
 =======
 =======
@@ -63,6 +64,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_qLe0yS
 >>>>>>> .merge_file_s09ygx
+=======
+>>>>>>> laraxot/dev
 # Errore di incompatibilità tra metodi statici e di istanza in Filament
 
 ## Problema

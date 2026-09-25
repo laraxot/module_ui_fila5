@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_BA3U2W
 <<<<<<< HEAD
 =======
@@ -39,6 +40,9 @@ return [
         ],
     ],
     // Chiavi flat lette da TableLayoutEnum::getTooltip()/getHelperText() ("{value}.tooltip").
+=======
+return [
+>>>>>>> laraxot/dev
     'list' => [
         'label' => 'Lista',
         'color' => 'primary',
@@ -54,6 +58,7 @@ return [
         'description' => 'Layout a griglia responsive con card',
         'tooltip' => 'Visualizza i dati in formato card responsive',
         'helper_text' => 'Ideale per visualizzare pochi dati con focus visivo',
+<<<<<<< HEAD
 <<<<<<< .merge_file_BA3U2W
 =======
 =======
@@ -88,6 +93,8 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_4ZRdCn
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     ],
     'label' => 'Table Layout Enum',
     'plural_label' => 'Table Layout Enum (Plurale)',
@@ -100,6 +107,7 @@ return [
         ],
         'label' => 'Table Layout Enum',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_BA3U2W
 =======
 <<<<<<< .merge_file_kBobsZ
@@ -123,6 +131,9 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_wyyyJH
 >>>>>>> .merge_file_4ZRdCn
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> laraxot/dev
     ],
     'fields' => [
         'id' => [

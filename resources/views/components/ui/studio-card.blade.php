@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_83WXNq
 <<<<<<< HEAD
 =======
@@ -51,6 +52,12 @@
 <?php
 
 declare(strict_types=1);
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> laraxot/dev
 ?>
 {{--
     Studio Card Component - Visualizzazione informazioni studio odontoiatrico

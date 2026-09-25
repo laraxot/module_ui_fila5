@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_16aeU0
 =======
 <<<<<<< .merge_file_pg2P3q
@@ -68,6 +69,8 @@ Docs cleanup (1 sett)
 =======
 >>>>>>> .merge_file_nCdlIi
 >>>>>>> .merge_file_hifrym
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: dry-kiss-analysis
@@ -75,6 +78,7 @@ canonical: ../../../Themes/docs/shared-components/dry-kiss-analysis-2025-10-15-M
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/dry-kiss-analysis-2025-10-15-Modules.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_16aeU0
 =======
 =======
@@ -150,4 +154,6 @@ Docs cleanup (1 sett)
 =======
 >>>>>>> .merge_file_nCdlIi
 >>>>>>> .merge_file_hifrym
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

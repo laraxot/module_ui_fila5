@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_t0SWtH
 <<<<<<< HEAD
 =======
@@ -39,6 +40,12 @@
 <?php
 
 declare(strict_types=1);
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> laraxot/dev
 ?>
 <x-filament-forms::field-wrapper :id="$getId()" :label="$getLabel()" :label-sr-only="$isLabelHidden()" :helper-text="$getHelperText()"
     :hint="$getHint()" :hint-icon="$getHintIcon()" :required="$isRequired()" :state-path="$getStatePath()">

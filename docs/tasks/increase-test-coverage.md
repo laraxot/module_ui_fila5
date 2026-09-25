@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_mhuaes
 =======
 =======
@@ -77,6 +78,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_p7Y1rN
 >>>>>>> .merge_file_Nwjd6a
+=======
+>>>>>>> laraxot/dev
 # Task: Incremento Test Coverage (Pest) - UI
 
 **Modulo**: UI  

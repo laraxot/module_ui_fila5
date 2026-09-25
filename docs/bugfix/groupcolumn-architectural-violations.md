@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UTEKHI
 =======
 =======
@@ -56,6 +57,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_jXBqJp
 >>>>>>> .merge_file_ufRyei
+=======
+>>>>>>> laraxot/dev
 # Bugfix: GroupColumn Architectural Violations
 
 **Data Fix**: 11 Novembre 2025
@@ -281,6 +284,7 @@ final class GroupColumn extends XotBaseColumn
     $fields = $getFields();  // ✅ PSR-12
 **Dopo (18 Nov 2025)**:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UTEKHI
 =======
 <<<<<<< .merge_file_uNQnBQ
@@ -305,6 +309,8 @@ final class GroupColumn extends XotBaseColumn
 >>>>>>> .merge_file_jXBqJp
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ufRyei
+=======
+>>>>>>> laraxot/dev
 ```blade
 @php
     $fields = $getFields();
@@ -397,6 +403,7 @@ Column (Filament - DO NOT REFERENCE)
 ## Riferimenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UTEKHI
 - [Laraxot Architectural Rules](../../architecture_rules.md)
 - [Never Use Label Rule](../never_use_label_rule.md)
@@ -428,6 +435,10 @@ Column (Filament - DO NOT REFERENCE)
 - [Never Use Label Rule](../never_use_label_rule.md)
 >>>>>>> .merge_file_jXBqJp
 >>>>>>> .merge_file_ufRyei
+>>>>>>> laraxot/dev
+=======
+- [Laraxot Architectural Rules](../../architecture_rules.md)
+- [Never Use Label Rule](../never_use_label_rule.md)
 >>>>>>> laraxot/dev
 - [XotBaseColumn](../../../../Xot/app/Filament/Tables/Columns/XotBaseColumn.php)
 - [Translation Pattern](../../translations/)

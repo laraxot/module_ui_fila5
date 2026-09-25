@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_eMIedL
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_AQhpBn
 >>>>>>> .merge_file_S9TXcP
+=======
+>>>>>>> laraxot/dev
 return [
     'fields' => [
         'link' => ['label' => 'link', 'description' => 'link', 'helper_text' => 'link', 'placeholder' => 'link', 'tooltip' => ''],
@@ -43,6 +46,7 @@ return [
         'view' => ['label' => 'view', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
     ],
     'sections' => [
+<<<<<<< HEAD
 <<<<<<< .merge_file_eMIedL
 <<<<<<< HEAD
         'empty' => ['heading' => 'empty'],
@@ -68,6 +72,9 @@ return [
         'empty' => ['heading' => ''],
 >>>>>>> .merge_file_AQhpBn
 >>>>>>> .merge_file_S9TXcP
+=======
+        'empty' => ['heading' => 'empty'],
+>>>>>>> laraxot/dev
     ],
     'label' => 'Hero',
     'plural_label' => 'Hero (Plurale)',
@@ -77,6 +84,7 @@ return [
         'group' => ['name' => 'General', 'description' => 'General Settings'],
         'label' => 'Hero',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_eMIedL
 =======
 <<<<<<< .merge_file_0Ebype
@@ -100,6 +108,9 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_AQhpBn
 >>>>>>> .merge_file_S9TXcP
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> laraxot/dev
     ],
     'actions' => [
         'create' => ['label' => 'Crea Hero'],

@@ -19,6 +19,7 @@ tags: [structure, architecture, module]
 │   ├── entities/                 # Organization/person pages
 │   ├── rules/                    # ⚠️ 151+ regole progettuali
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< .merge_file_nhxYDS
@@ -31,6 +32,8 @@ tags: [structure, architecture, module]
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_yGN60o
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 │   │   ├── 00-INDEX.md          # Indice regole
 │   │   ├── 00-TRIGGER_MAP.md    # Trigger map (link a globale)
 │   │   └── *.md                 # Regole specifiche modulo
@@ -42,6 +45,7 @@ tags: [structure, architecture, module]
 │   │   └── *.md
 │   ├── memories/                 # Memorie progettuali
 │   │   ├── INDEX.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< .merge_file_nhxYDS
@@ -73,12 +77,15 @@ tags: [structure, architecture, module]
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_yGN60o
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 │   │   └── *.md
 │   ├── decisions/                # Architecture decision records
 │   └── troubleshooting/          # Bug fixes, error resolutions
 ├── ON-DEMAND-PATTERN.md          # 🌟 QUESTO FILE — Pattern on-demand
 ├── QMD-SETUP.md                  # Configurazione QMD
 ├── PERFORMANCE-OPTIMIZATION.md    # Metriche e best practice
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_nhxYDS
 ├── ARCHITECTURE.md               # (opzionale) Architettura modulo
@@ -108,6 +115,9 @@ tags: [structure, architecture, module]
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_yGN60o
+=======
+├── ARCHITECTURE.md               # (opzionale) Architettura modulo
+>>>>>>> laraxot/dev
 └── README.md                     # (opzionale) Overview modulo
 \`\`\`
 
@@ -180,6 +190,7 @@ mkdir -p docs/wiki/{rules,skills,commands,memories,concepts,entities,decisions,t
 
 # 2. Crea INDEX files (già creati)
 <<<<<<< HEAD
+<<<<<<< HEAD
 cp docs/wiki/rules/INDEX.md docs/wiki/rules/
 =======
 <<<<<<< HEAD
@@ -203,6 +214,9 @@ cp docs/wiki/rules/index.md docs/wiki/rules/
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_yGN60o
+=======
+cp docs/wiki/rules/INDEX.md docs/wiki/rules/
+>>>>>>> laraxot/dev
 # ... etc
 
 # 3. Aggiungi a QMD collection (opzionale, già incluso global)

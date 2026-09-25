@@ -1,6 +1,7 @@
 # Code Coverage: UI
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_CZYfnV
 =======
@@ -55,6 +56,8 @@ Story: `docs/stories/ui-services-to-actions.story.md`.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MAtuxB
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 **Lines Coverage:** N/A (Failed to parse)
 **Test Exit Code:** 2
@@ -140,6 +143,7 @@ endor/laravel/framework/src/Illuminate/Container/Container.php:1415
 
 
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< .merge_file_CZYfnV
@@ -500,4 +504,6 @@ Tests: 6 failed, 1 risky, 109 skipped, 199 passed (654 assertions)
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MAtuxB
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

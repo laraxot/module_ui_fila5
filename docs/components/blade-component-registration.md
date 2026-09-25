@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_EPJLui
 =======
 =======
@@ -69,6 +70,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MOeYGS
 >>>>>>> .merge_file_3A998G
+=======
+>>>>>>> laraxot/dev
 # Registrazione corretta dei componenti Blade nei moduli
 
 ## Problema

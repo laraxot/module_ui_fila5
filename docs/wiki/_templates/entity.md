@@ -3,6 +3,7 @@ module: theme
 topic: entity
 canonical: ../../../../../Themes/docs/shared-components/entity-Modules.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WHPp27
 =======
 related:
@@ -29,6 +30,8 @@ related:
 =======
 >>>>>>> .merge_file_ES2Q7A
 >>>>>>> .merge_file_QJ28c2
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ---
 

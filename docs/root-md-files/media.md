@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_fmqTJd
 =======
@@ -45,6 +46,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_wRexC1
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 https://naxon.dev/blog/laravel-media-library-load-only-1st-picture-efficiently
 

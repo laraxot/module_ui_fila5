@@ -154,6 +154,7 @@ cd laravel
 - [S3Test Null ErrorCode Handling](s3test-bugfix-null-errorcode.md)
 - [AwsTest Undefined Variable Fix](awstest-bugfix-undefined-variable.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Media Module PHPStan Fixes](../media/project_docs/phpstan_level10_fixes.md)
 =======
 <<<<<<< .merge_file_1sKUyn
@@ -167,11 +168,15 @@ cd laravel
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_C1i6fU
+=======
+- [Media Module PHPStan Fixes](../media/project_docs/phpstan_level10_fixes.md)
+>>>>>>> laraxot/dev
 
 ## Aggiornamento Continuo
 
 Questo documento deve essere aggiornato ogni volta che vengono rilevati e corretti nuovi errori PHPStan level 9+.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_1sKUyn
 =======
@@ -187,5 +192,8 @@ Questo documento deve essere aggiornato ogni volta che vengono rilevati e corret
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_C1i6fU
+=======
+**Data Ultimo Aggiornamento**: [DATE]
+>>>>>>> laraxot/dev
 **PHPStan Version**: 1.12.x
 **Laravel Version**: 12.21.0

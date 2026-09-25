@@ -8,6 +8,7 @@ updated: 2026-06-05
 qmd: "ui module wiki index filament second brain"
 issues:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_CSDPDx
 =======
 <<<<<<< .merge_file_GsUpuG
@@ -27,6 +28,8 @@ related:
 =======
 >>>>>>> .merge_file_PlZEMI
 >>>>>>> .merge_file_Og5hON
+=======
+>>>>>>> laraxot/dev
   - "https://github.com/laraxot/base_fixcity_fila5/issues/272"
 discussions:
   - "https://github.com/laraxot/base_fixcity_fila5/discussions/273"
@@ -35,6 +38,7 @@ related:
   - ../../../../docs/wiki/bmad/architecture.md
   - ../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md
   - ../../docs/wiki/concepts/ai-harness-module-discipline.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_CSDPDx
 =======
 =======
@@ -61,12 +65,15 @@ related:
 >>>>>>> .merge_file_PlZEMI
 >>>>>>> .merge_file_Og5hON
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ---
 
 # Wiki Locale Index
 
 ## AI / second brain
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_CSDPDx
 - [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
@@ -96,6 +103,9 @@ related:
 >>>>>>> laraxot/dev
 <<<<<<< .merge_file_CSDPDx
 >>>>>>> laraxot/dev
+=======
+- [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
+>>>>>>> laraxot/dev
 - [bmad/architecture](../../../../docs/wiki/bmad/architecture.md)
 - [frontmatter + GitHub](../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md)
 - [ai-harness-module-discipline](../../docs/wiki/concepts/ai-harness-module-discipline.md)
@@ -116,9 +126,12 @@ related:
 - [decisions/](./decisions/): ADL (Architectural Decision Log).
 - [troubleshooting/](./troubleshooting/): Known issues and solutions.
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   - [git-push-lfs-missing-objects](./troubleshooting/git-push-lfs-missing-objects.md): push rifiutato per LFS mancanti
   - [module-theme-root-hygiene](./troubleshooting/module-theme-root-hygiene.md): zero `.txt`, max 4 `.md` in root moduli/temi
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - [_archive/](./_archive/): Legacy documentation.
 - [_templates/](./_templates/): Standard templates.
@@ -134,6 +147,7 @@ related:
 | [enumselect-filament-api-collisions](./concepts/enumselect-filament-api-collisions.md) | Concept | runtime fatals (make/enum/getLabel) | 2026-04-23 |
 | [model-states-module-ownership](./concepts/model-states-module-ownership.md) | Concept | ownership modulare e vincoli runtime | 2026-04-28 |
 | [phpstan-dynamic-array-normalization](./concepts/phpstan-dynamic-array-normalization.md) | Concept | Normalizzazione array dinamici UI per PHPStan senza inline @var/ignore | 2026-05-06 |
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -348,3 +362,5 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_PlZEMI
 >>>>>>> .merge_file_Og5hON
+=======
+>>>>>>> laraxot/dev

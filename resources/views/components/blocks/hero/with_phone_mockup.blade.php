@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_qkHEvx
 <<<<<<< HEAD
 =======
@@ -43,6 +44,12 @@
 <?php
 
 declare(strict_types=1);
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> laraxot/dev
 ?>
 <div class="bg-white">
     <header class="absolute inset-x-0 top-0 z-50">

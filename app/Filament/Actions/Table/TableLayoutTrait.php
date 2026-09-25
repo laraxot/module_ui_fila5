@@ -35,6 +35,7 @@ trait TableLayoutTrait
             }
         }
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_yZ6X2W
 <<<<<<< HEAD
         return TableLayoutEnum::GRID;
@@ -60,6 +61,9 @@ trait TableLayoutTrait
         return TableLayoutEnum::LIST;
 >>>>>>> .merge_file_o2jZnW
 >>>>>>> .merge_file_lccDlw
+=======
+        return TableLayoutEnum::GRID;
+>>>>>>> laraxot/dev
     }
 
     /**

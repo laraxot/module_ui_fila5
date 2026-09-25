@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_SJ7e4Z
 <<<<<<< HEAD
 =======
@@ -49,6 +50,13 @@ class RadioBadge extends XotBaseRadio
 class RadioBadge extends XotBaseRadio
 >>>>>>> .merge_file_Oxn4QX
 >>>>>>> .merge_file_9JyND3
+=======
+use Filament\Forms\Components\Radio;
+use Filament\Support\Contracts\HasColor;
+use Filament\Support\Contracts\HasIcon;
+
+class RadioBadge extends Radio
+>>>>>>> laraxot/dev
 {
     protected string $view = 'ui::filament.forms.components.radio-badge';
 
@@ -91,18 +99,30 @@ class RadioBadge extends XotBaseRadio
         $enum = $this->getEnumValue($value);
         if ($enum instanceof HasColor) {
             $color = $enum->getColor();
+<<<<<<< HEAD
             if (null === $color) {
+=======
+            if ($color === null) {
+>>>>>>> laraxot/dev
                 return $this->selectedColor;
             }
 
             if (is_array($color)) {
                 $first = reset($color);
 
+<<<<<<< HEAD
                 return is_string($first) && '' !== $first ? $first : $this->selectedColor;
             }
 
             // PHPStan L10: $color è già verificato come non-array e non-null, quindi è string
             if ('' !== $color) {
+=======
+                return is_string($first) && $first !== '' ? $first : $this->selectedColor;
+            }
+
+            // PHPStan L10: $color è già verificato come non-array e non-null, quindi è string
+            if ($color !== '') {
+>>>>>>> laraxot/dev
                 return $color;
             }
 
@@ -121,7 +141,11 @@ class RadioBadge extends XotBaseRadio
         $icon = $enum->getIcon();
 
         // getIcon() può restituire Htmlable|string|null, ma dobbiamo restituire solo string|null
+<<<<<<< HEAD
         if (null === $icon) {
+=======
+        if ($icon === null) {
+>>>>>>> laraxot/dev
             return null;
         }
 

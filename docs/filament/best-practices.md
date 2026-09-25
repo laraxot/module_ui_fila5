@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_j89i0Y
 =======
 =======
@@ -69,6 +70,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_8bj4mk
 >>>>>>> .merge_file_ezmVDo
+=======
+>>>>>>> laraxot/dev
 # Best Practices Filament
 
 ## Regole fondamentali

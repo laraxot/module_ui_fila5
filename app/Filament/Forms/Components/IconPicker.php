@@ -6,6 +6,7 @@ namespace Modules\UI\Filament\Forms\Components;
 
 use Filament\Actions\Action;
 use Filament\Forms\Components\Select;
+<<<<<<< HEAD
 <<<<<<< .merge_file_dPJcox
 <<<<<<< HEAD
 use Filament\Forms\Components\TextInput;
@@ -27,11 +28,15 @@ use Filament\Forms\Components\TextInput;
 =======
 >>>>>>> .merge_file_3Qh3hN
 >>>>>>> .merge_file_39yr0q
+=======
+use Filament\Forms\Components\TextInput;
+>>>>>>> laraxot/dev
 use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Components\Utilities\Set;
 use Illuminate\Support\Arr;
 use Modules\UI\Actions\Icon\GetAllIconsAction;
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
+<<<<<<< HEAD
 <<<<<<< .merge_file_dPJcox
 =======
 <<<<<<< .merge_file_dSsC7Z
@@ -71,6 +76,11 @@ use Webmozart\Assert\Assert;
 class IconPicker extends XotBaseTextInput
 >>>>>>> .merge_file_3Qh3hN
 >>>>>>> .merge_file_39yr0q
+=======
+use Webmozart\Assert\Assert;
+
+class IconPicker extends TextInput
+>>>>>>> laraxot/dev
 {
     protected function setUp(): void
     {
@@ -109,6 +119,7 @@ class IconPicker extends XotBaseTextInput
                             );
                             /** @var array<int|string, mixed> $optsRaw */
                             $optsValues = array_map(
+<<<<<<< HEAD
 <<<<<<< .merge_file_dPJcox
 <<<<<<< HEAD
                                 static fn ($v) => SafeStringCastAction::cast($v),
@@ -134,10 +145,14 @@ class IconPicker extends XotBaseTextInput
                                 SafeStringCastAction::cast(...),
 >>>>>>> .merge_file_3Qh3hN
 >>>>>>> .merge_file_39yr0q
+=======
+                                static fn ($v) => SafeStringCastAction::cast($v),
+>>>>>>> laraxot/dev
                                 array_values($optsRaw),
                             );
                             /** @var array<int|string> $optsKeys */
                             $optsKeys = array_map(
+<<<<<<< HEAD
 <<<<<<< .merge_file_dPJcox
 =======
 <<<<<<< .merge_file_dSsC7Z
@@ -161,6 +176,9 @@ class IconPicker extends XotBaseTextInput
                                 static fn (int|string $k): string => SafeStringCastAction::cast($k),
 >>>>>>> .merge_file_3Qh3hN
 >>>>>>> .merge_file_39yr0q
+=======
+                                static fn ($k) => SafeStringCastAction::cast($k),
+>>>>>>> laraxot/dev
                                 array_keys($optsRaw),
                             );
                             $optsCombined = array_combine($optsKeys, $optsValues);

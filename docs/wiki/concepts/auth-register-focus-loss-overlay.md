@@ -5,6 +5,7 @@ tags: [ui, auth, register, focus, overlay, alpine]
 created: 2026-05-21
 updated: 2026-05-21
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Olf3cu
 =======
 =======
@@ -41,6 +42,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_uW2YWC
 >>>>>>> .merge_file_uASpZ6
+=======
+>>>>>>> laraxot/dev
 ---
 
 # Problema

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_3qh8Vj
 <<<<<<< HEAD
 =======
@@ -57,6 +58,9 @@ return [
 =======
 >>>>>>> .merge_file_IlCA96
 >>>>>>> .merge_file_p4c8r3
+=======
+return [
+>>>>>>> laraxot/dev
     'actions' => [
         'toggle' => [
             'label' => 'Alternar layout',

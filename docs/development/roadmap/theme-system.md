@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_SMfPin
 =======
 =======
@@ -65,6 +66,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_nWLI57
 >>>>>>> .merge_file_REIW0P
+=======
+>>>>>>> laraxot/dev
 # Sistema di Theming
 
 ## 📊 Stato Implementazione

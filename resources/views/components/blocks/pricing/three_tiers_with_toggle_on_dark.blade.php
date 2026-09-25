@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_3WXANL
 <<<<<<< HEAD
 =======
@@ -46,6 +47,12 @@
 <?php
 
 declare(strict_types=1);
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> laraxot/dev
 ?>
 {{-- Requires js --}}
 <div class="bg-gray-900 py-24 sm:py-32">

@@ -9,6 +9,7 @@ use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
+<<<<<<< HEAD
 <<<<<<< .merge_file_Dp6MR9
 <<<<<<< HEAD
 =======
@@ -48,10 +49,23 @@ uses(TestCase::class);
 function renderCategoryTabsHtml(array $data = []): ?string
 {
     if (! View::exists('pub_theme::components.blocks.navigation.category-tabs')) {
+=======
+
+/**
+ * @param  array<string, mixed>  $data
+ */
+function renderCategoryTabsHtml(array $data = []): ?string
+{
+    /** @var view-string $viewName */
+    $viewName = 'pub_theme::components.blocks.navigation.category-tabs';
+
+    if (! View::exists($viewName)) {
+>>>>>>> laraxot/dev
         return null;
     }
 
     try {
+<<<<<<< HEAD
 <<<<<<< .merge_file_Dp6MR9
 <<<<<<< HEAD
         return View::make('pub_theme::components.blocks.navigation.category-tabs', $data)->render();
@@ -86,6 +100,9 @@ function renderCategoryTabsHtml(array $data = []): ?string
         return View::make($viewName, $data)->render();
 >>>>>>> .merge_file_ZwS1aL
 >>>>>>> .merge_file_ywTZ5b
+=======
+        return View::make($viewName, $data)->render();
+>>>>>>> laraxot/dev
     } catch (\Throwable) {
         return null;
     }
@@ -93,6 +110,7 @@ function renderCategoryTabsHtml(array $data = []): ?string
 
 /**
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Dp6MR9
 =======
  * @param array<string, mixed> $data
@@ -111,11 +129,15 @@ function renderCategoryTabsHtml(array $data = []): ?string
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ywTZ5b
+=======
+ * @param  array<string, mixed>  $data
+>>>>>>> laraxot/dev
  */
 function requireCategoryTabsHtml(array $data = []): string
 {
     $html = renderCategoryTabsHtml($data);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Dp6MR9
 =======
     if (null === $html) {
@@ -134,6 +156,9 @@ function requireCategoryTabsHtml(array $data = []): string
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ywTZ5b
+=======
+    if ($html === null) {
+>>>>>>> laraxot/dev
         Assert::markTestSkipped('pub_theme category-tabs view not available in this install.');
     }
 

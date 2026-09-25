@@ -1,6 +1,7 @@
 # PHPStan Level 10 Compliance Status
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< .merge_file_pGATxE
@@ -14,6 +15,9 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_kdluAo
+=======
+
+>>>>>>> laraxot/dev
 **Status**: ✅ FULLY COMPLIANT (0 errors)
 
 ## Summary

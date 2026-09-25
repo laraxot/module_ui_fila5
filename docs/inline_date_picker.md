@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_guQTEL
 =======
 <<<<<<< .merge_file_wJzvm8
@@ -221,6 +222,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 =======
 >>>>>>> .merge_file_I227OC
 >>>>>>> .merge_file_fTD0tQ
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: inline_date_picker
@@ -228,6 +231,7 @@ canonical: ../../../Themes/docs/shared-components/inline-date-picker-1.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/inline-date-picker-1.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_guQTEL
 =======
 =======
@@ -456,4 +460,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 =======
 >>>>>>> .merge_file_I227OC
 >>>>>>> .merge_file_fTD0tQ
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

@@ -11,7 +11,11 @@
 **Motivazione:** La documentazione nel codice è fondamentale per la manutenibilità e la comprensione del sistema, specialmente per quanto riguarda la gestione dei componenti UI che è un aspetto critico dell'architettura modulare.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### 2. paths-and-assets.md
+=======
+### 2. PATHS_AND_ASSETS.md
+>>>>>>> laraxot/dev
 =======
 ### 2. PATHS_AND_ASSETS.md
 >>>>>>> laraxot/dev

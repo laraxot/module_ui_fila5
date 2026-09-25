@@ -3,6 +3,7 @@ type: overview
 module: UI
 sources:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_eLe64h
 =======
 <<<<<<< .merge_file_EHkzMv
@@ -20,12 +21,15 @@ related:
 =======
 >>>>>>> .merge_file_ts9fkp
 >>>>>>> .merge_file_awtHaV
+=======
+>>>>>>> laraxot/dev
   - ../../../docs/module-ui.md
   - ../../../docs/philosophy.md
   - ../../../docs/design-system.md
   - ../../../docs/table-components.md
 confidence: high
 updated: 2026-04-15
+<<<<<<< HEAD
 <<<<<<< .merge_file_eLe64h
 =======
 <<<<<<< .merge_file_EHkzMv
@@ -44,6 +48,8 @@ related:
 >>>>>>> .merge_file_ts9fkp
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_awtHaV
+=======
+>>>>>>> laraxot/dev
 ---
 
 # UI Module — Overview

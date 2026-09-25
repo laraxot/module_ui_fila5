@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_U3Ieqf
 <<<<<<< HEAD
 =======
@@ -15,11 +16,14 @@ namespace Modules\UI\Filament\Forms\Components;
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_jqVBL1
+=======
+>>>>>>> laraxot/dev
 use Filament\Forms\Components\ViewField;
 
 // use Filament\Support\Components\ViewComponent;
 
 final class Children extends ViewField
+<<<<<<< HEAD
 <<<<<<< .merge_file_U3Ieqf
 =======
 =======
@@ -49,6 +53,8 @@ use Modules\Xot\Filament\Forms\Components\XotBaseViewField;
 final class Children extends XotBaseViewField
 >>>>>>> .merge_file_Blllim
 >>>>>>> .merge_file_jqVBL1
+=======
+>>>>>>> laraxot/dev
 {
     protected string $view = 'ui::filament.forms.components.navigation-builder';
 

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_q9BUHA
 =======
 =======
@@ -69,6 +70,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_x7j1bX
 >>>>>>> .merge_file_Q3NnWS
+=======
+>>>>>>> laraxot/dev
 # Componenti UI - Modulo UI
 
 ## Panoramica
@@ -248,6 +251,7 @@ return [
 ## 🔗 Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_q9BUHA
 - [**README Modulo UI**](../readme.md)
 =======
@@ -271,6 +275,9 @@ return [
 - [**README Modulo UI**](../readme.md)
 >>>>>>> .merge_file_x7j1bX
 >>>>>>> .merge_file_Q3NnWS
+>>>>>>> laraxot/dev
+=======
+- [**README Modulo UI**](../readme.md)
 >>>>>>> laraxot/dev
 - [**Sistema Layout**](../layout/layout-system.md)
 - [**Gestione Asset**](../assets/asset-management.md)
