@@ -59,16 +59,7 @@ class PersonColumn extends GroupColumn
     /**
      * Sostituisce l'elenco dei campi mostrati.
      *
-<<<<<<< .merge_file_k5NMiA
      * @param list<string> $fields
-=======
-     * <<<<<<< HEAD
-     *
-     * @param list<string> $fields
-     *                             =======
-     * @param list<string> $fields
-     *                             >>>>>>> laraxot/dev
->>>>>>> .merge_file_l5k3Lx
      */
     public function fields(array $fields): static
     {

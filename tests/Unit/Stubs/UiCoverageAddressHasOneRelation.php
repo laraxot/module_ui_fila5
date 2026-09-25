@@ -25,18 +25,7 @@ final class UiCoverageAddressHasOneRelation extends HasOne
         parent::__construct(UiCoverageAddressChildRecord::query(), $parent, 'id', 'id');
     }
 
-    /**
-<<<<<<< .merge_file_uBpqf2
-     * @param  array<int, string>|string  $columns
-=======
-     * <<<<<<< HEAD.
-     *
-     * @param array<int, string>|string $columns
-     *                                           =======
-     * @param array<int, string>|string $columns
-     *                                           >>>>>>> laraxot/dev
->>>>>>> .merge_file_LdDtrS
-     */
+    /** @param array<int, string> $columns */
     public function first($columns = ['*']): ?Model
     {
         $parent = $this->getParent();

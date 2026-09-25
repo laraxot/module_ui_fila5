@@ -45,3 +45,8 @@
 - Layer wiki: `docs/wiki/` — LLM-maintained, sintesi ad alto riuso.
 - Schema: `docs/.schema/WIKI_SCHEMA.md`
 - Adozione moduli: `docs/project/llm-wiki-module-adoption.md`
+## [2026-09-25] phpstan | UI merge/type cleanup
+
+- Completate le annotazioni generiche per upload MIME, collection radio, colonne Address/Person e fixture; aggiunti i campi dinamici reali di Category al PHPDoc e `title` al fillable, coerente con la factory.
+- Verifica full-tree: `cd laravel && ./vendor/bin/phpstan analyse Modules` → **11172 file, zero errori**.
+

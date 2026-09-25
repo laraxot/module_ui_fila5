@@ -24,18 +24,8 @@ final class RadioCollection extends XotBaseField
 
     /**
      * Set the options collection for the radio buttons.
-     */
-    /**
-<<<<<<< .merge_file_YHFH52
-     * @param \Closure|Collection<int|string, mixed>|null $options
-=======
-     * <<<<<<< HEAD.
      *
      * @param \Closure|Collection<int|string, mixed>|null $options
-     *                                                             =======
-     * @param \Closure|Collection<int|string, mixed>|null $options
-     *                                                             >>>>>>> laraxot/dev
->>>>>>> .merge_file_88muk1
      */
     public function options(\Closure|Collection|null $options): static
     {
@@ -98,16 +88,6 @@ final class RadioCollection extends XotBaseField
 
     /**
      * Comparazione type-safe per determinare se un'opzione è selezionata.
-<<<<<<< .merge_file_YHFH52
-=======
-     *
-     * <<<<<<< HEAD
-     *
-     * @param mixed $stateOverride stato esplicito (test/offline senza container Livewire)
-     *                             =======
-     * @param mixed $stateOverride stato esplicito (test/offline senza container Livewire)
-     *                             >>>>>>> laraxot/dev
->>>>>>> .merge_file_88muk1
      */
     public function isOptionSelected(mixed $option): bool
     {

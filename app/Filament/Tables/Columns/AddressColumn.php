@@ -51,16 +51,7 @@ class AddressColumn extends GroupColumn
     /**
      * Sostituisce l'elenco dei campi mostrati.
      *
-<<<<<<< .merge_file_iEsFNX
      * @param list<string> $fields
-=======
-     * <<<<<<< HEAD
-     *
-     * @param list<string> $fields
-     *                             =======
-     * @param list<string> $fields
-     *                             >>>>>>> laraxot/dev
->>>>>>> .merge_file_5tXPhc
      */
     public function fields(array $fields): static
     {
