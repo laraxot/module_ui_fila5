@@ -85,7 +85,7 @@ final class SpatieDocumentUpload
     {
         return self::make('certifications', 'certificazioni_professionali')
             ->multiple()
-            ->enableReordering()
+            ->reorderable()
             ->maxFiles(10) // Max 10 certificazioni per dottore
             ->acceptedFileTypes(['application/pdf'])
             ->maxSize(10240); // 10MB per certificazioni multiple
@@ -96,7 +96,7 @@ final class SpatieDocumentUpload
      *
      * @param  string  $name  Nome del campo
      * @param  string  $collection  Nome della collection
-     * @param  list<string>  $mimeTypes  Tipi MIME accettati
+     * @param  array<string>  $mimeTypes  Tipi MIME accettati
      * @param  int  $maxSize  Dimensione massima in KB
      */
     public static function custom(
