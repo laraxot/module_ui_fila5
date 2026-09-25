@@ -5,7 +5,10 @@ declare(strict_types=1);
 namespace Modules\UI\Actions\Block;
 
 use Spatie\QueueableAction\QueueableAction;
+<<<<<<< HEAD
 use UnexpectedValueException;
+=======
+>>>>>>> laraxot/dev
 
 /**
  * Risolve dati block localizzati; delega al modulo Cms se presente.
@@ -15,7 +18,12 @@ final class ResolveLocalizedBlockDataAction
     use QueueableAction;
 
     /**
+<<<<<<< HEAD
      * @param  array<string, mixed>  $viewParams
+=======
+     * @param array<string, mixed> $viewParams
+     *
+>>>>>>> laraxot/dev
      * @return array<string, mixed>
      */
     public function execute(array $viewParams): array
@@ -37,7 +45,12 @@ final class ResolveLocalizedBlockDataAction
     }
 
     /**
+<<<<<<< HEAD
      * @param  array<array-key, mixed>  $data
+=======
+     * @param array<array-key, mixed> $data
+     *
+>>>>>>> laraxot/dev
      * @return array<string, mixed>
      */
     private function normalizeViewData(array $data): array
@@ -46,7 +59,11 @@ final class ResolveLocalizedBlockDataAction
 
         foreach ($data as $key => $value) {
             if (! is_string($key)) {
+<<<<<<< HEAD
                 throw new UnexpectedValueException('Block view data must have string keys.');
+=======
+                throw new \UnexpectedValueException('Block view data must have string keys.');
+>>>>>>> laraxot/dev
             }
 
             $viewData[$key] = $value;

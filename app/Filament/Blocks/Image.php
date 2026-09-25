@@ -29,7 +29,11 @@ class Image
                 TextInput::make('alt')->columnSpanFull(),
                 TextInput::make('caption')->columnSpanFull(),
             ])
+<<<<<<< HEAD
             ->columns($context === 'form' ? 2 : 1);
+=======
+            ->columns('form' === $context ? 2 : 1);
+>>>>>>> laraxot/dev
     }
 
     /**

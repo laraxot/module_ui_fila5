@@ -4,16 +4,22 @@ declare(strict_types=1);
 
 namespace Modules\UI\Actions;
 
+<<<<<<< HEAD
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
+=======
+>>>>>>> laraxot/dev
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
 use Modules\UI\Datas\UserData;
 use Modules\User\Models\Profile;
 use Modules\User\Models\User;
 use Modules\Xot\Actions\Cast\SafeIntCastAction;
+<<<<<<< HEAD
 use Modules\Xot\Actions\Cast\SafeStringCastAction;
 use Modules\Xot\Contracts\UserContract;
+=======
+>>>>>>> laraxot/dev
 use Spatie\Permission\Contracts\Permission;
 use Spatie\QueueableAction\QueueableAction;
 
@@ -33,11 +39,19 @@ class GetUserDataAction
         $profile = $user->relationLoaded('profile') ? $user->profile : null;
         if ($profile instanceof Profile) {
             $avatarUrl = $profile->getAvatarUrl();
+<<<<<<< HEAD
             $avatarValue = $avatarUrl !== '' ? $avatarUrl : null;
         }
 
         $profilePhotoPath = property_exists($user, 'profile_photo_path') ? $user->profile_photo_path : null;
         if (null === $avatarValue && is_string($profilePhotoPath) && $profilePhotoPath !== '') {
+=======
+            $avatarValue = '' !== $avatarUrl ? $avatarUrl : null;
+        }
+
+        $profilePhotoPath = property_exists($user, 'profile_photo_path') ? $user->profile_photo_path : null;
+        if (null === $avatarValue && is_string($profilePhotoPath) && '' !== $profilePhotoPath) {
+>>>>>>> laraxot/dev
             $avatarValue = $profilePhotoPath;
         }
 

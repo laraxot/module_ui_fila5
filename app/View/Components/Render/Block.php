@@ -10,7 +10,10 @@ use Illuminate\Support\Arr;
 use Illuminate\View\Component;
 use Illuminate\View\View;
 use Modules\UI\Actions\Block\ResolveLocalizedBlockDataAction;
+<<<<<<< HEAD
 use UnexpectedValueException;
+=======
+>>>>>>> laraxot/dev
 use Webmozart\Assert\Assert;
 
 /**
@@ -21,7 +24,11 @@ class Block extends Component
     public ?string $view = null;
 
     /**
+<<<<<<< HEAD
      * @param  array<string, mixed>  $block
+=======
+     * @param array<string, mixed> $block
+>>>>>>> laraxot/dev
      */
     public function __construct(
         public array $block,
@@ -29,7 +36,11 @@ class Block extends Component
         public string $tpl = '',
     ) {
         $view = Arr::get($this->block, 'data.view', null);
+<<<<<<< HEAD
         if ($view === null) {
+=======
+        if (null === $view) {
+>>>>>>> laraxot/dev
             $view = 'ui::empty';
         }
         Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
@@ -57,7 +68,11 @@ class Block extends Component
         $viewParams = $this->normalizeViewData($viewParams);
         Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
 
+<<<<<<< HEAD
         /** @var view-string $view */
+=======
+        /* @var view-string $view */
+>>>>>>> laraxot/dev
         return view($view, $viewParams);
     }
 
@@ -74,7 +89,11 @@ class Block extends Component
 
         foreach ($data as $key => $value) {
             if (! is_string($key)) {
+<<<<<<< HEAD
                 throw new UnexpectedValueException('Block view data must have string keys.');
+=======
+                throw new \UnexpectedValueException('Block view data must have string keys.');
+>>>>>>> laraxot/dev
             }
 
             $viewData[$key] = $value;

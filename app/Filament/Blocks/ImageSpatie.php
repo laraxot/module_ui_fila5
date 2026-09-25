@@ -61,6 +61,10 @@ final class ImageSpatie
                     }),
                 TextInput::make('caption'),
             ])
+<<<<<<< HEAD
             ->columns($context === 'form' ? 2 : 1);
+=======
+            ->columns('form' === $context ? 2 : 1);
+>>>>>>> laraxot/dev
     }
 }

@@ -60,7 +60,11 @@ test('it generates calendar data and marks enabled dates', function (): void {
                 continue;
             }
             $dateValue = $day['datetime'] ?? $day['dateString'] ?? null;
+<<<<<<< HEAD
             if ($dateValue === '2025-06-15') {
+=======
+            if ('2025-06-15' === $dateValue) {
+>>>>>>> laraxot/dev
                 $found = true;
                 Assert::assertTrue((bool) ($day['isEnabled'] ?? false));
             }
@@ -168,7 +172,11 @@ test('it is kiss simple and clear', function (): void {
 });
 
 /**
+<<<<<<< HEAD
  * @param  array<int, mixed>  $parameters
+=======
+ * @param array<int, mixed> $parameters
+>>>>>>> laraxot/dev
  */
 function invokeInlineDatePickerMethod(object $object, string $methodName, array $parameters = []): mixed
 {
