@@ -17,7 +17,6 @@ use Modules\Cms\Actions\View\GetCmsViewAction;
  */
 class Block extends Component
 {
-    /** @var string|null */
     public ?string $view = null;
 
     /**
@@ -32,8 +31,13 @@ class Block extends Component
         if (! is_string($view) || ! view()->exists($view)) {
             $view = 'ui::empty';
         }
+<<<<<<< .merge_file_ZQL0xj
 
         $this->view = app(GetCmsViewAction::class)->execute($view);
+=======
+        /* @var view-string $view */
+        $this->view = $view;
+>>>>>>> .merge_file_V2e1uF
     }
 
     public function render(): ViewFactory|View
