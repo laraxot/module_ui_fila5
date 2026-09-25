@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_vxYgym
 =======
 =======
@@ -69,6 +70,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Cjwu9t
 >>>>>>> .merge_file_YpnLwH
+=======
+>>>>>>> laraxot/dev
 # Risorse Filament
 
 ## Documentazione Dettagliata

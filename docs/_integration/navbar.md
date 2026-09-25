@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_JeDS7y
 =======
 =======
@@ -69,6 +70,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_17prqU
 >>>>>>> .merge_file_bYWMRq
+=======
+>>>>>>> laraxot/dev
 # navbar
 
 <!-- Contenuto migrato da _docs/navbar.txt -->

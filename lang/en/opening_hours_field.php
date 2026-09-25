@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_eHO6fE
 <<<<<<< HEAD
 =======
@@ -80,6 +81,9 @@ return [
 return [
 >>>>>>> .merge_file_G05atJ
 >>>>>>> .merge_file_F0NtDb
+=======
+return [
+>>>>>>> laraxot/dev
     'fields' => [
         'monday' => [
             'morning' => [

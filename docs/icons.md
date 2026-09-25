@@ -46,6 +46,7 @@ Questa documentazione integra entrambe le versioni emerse dal conflitto per forn
 
 ## Backlink
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_0Z5qOF
 =======
 <<<<<<< .merge_file_4RXTwL
@@ -84,6 +85,11 @@ Questa documentazione integra entrambe le versioni emerse dal conflitto per forn
 - [Vedi anche: Xot/docs/README.md](../../xot/docs/readme.md)
 >>>>>>> .merge_file_uiDfu4
 >>>>>>> .merge_file_DbzONy
+>>>>>>> laraxot/dev
+=======
+- [Torna a docs/links.md](../../../../../docs/links.md)
+- [Vedi anche: UI/docs/components.md](./components.md)
+- [Vedi anche: Xot/docs/README.md](../../xot/docs/readme.md)
 >>>>>>> laraxot/dev
 
 ## Esempi
@@ -95,6 +101,7 @@ Questa documentazione integra entrambe le versioni emerse dal conflitto per forn
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_0Z5qOF
 - [Componenti UI](laravel/modules/ui/docs/components.md)
 - [Documentazione Filament](laravel/modules/ui/docs/filament/readme.md)
@@ -133,4 +140,9 @@ Questa documentazione integra entrambe le versioni emerse dal conflitto per forn
 - [Convenzioni di Naming](laravel/modules/ui/docs/naming-conventions.md)
 >>>>>>> .merge_file_uiDfu4
 >>>>>>> .merge_file_DbzONy
+>>>>>>> laraxot/dev
+=======
+- [Componenti UI](laravel/modules/ui/docs/components.md)
+- [Documentazione Filament](laravel/modules/ui/docs/filament/readme.md)
+- [Convenzioni di Naming](laravel/modules/ui/docs/naming-conventions.md)
 >>>>>>> laraxot/dev

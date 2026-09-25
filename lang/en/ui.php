@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_rrzQyJ
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_11nQcN
 >>>>>>> .merge_file_K6GcjL
+=======
+>>>>>>> laraxot/dev
 return [
     'navigation' => [
         'name' => 'Interface',

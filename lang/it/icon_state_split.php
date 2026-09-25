@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_sHCBt9
 <<<<<<< HEAD
 =======
@@ -52,6 +53,9 @@ return [
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
+>>>>>>> laraxot/dev
+=======
+return [
 >>>>>>> laraxot/dev
     'fields' => [
         'banned-icon' => [
@@ -282,6 +286,7 @@ return [
             'helper_text' => '',
             'description' => '',
         ],
+<<<<<<< HEAD
 <<<<<<< .merge_file_sHCBt9
 =======
 return [
@@ -348,12 +353,15 @@ return [
 =======
 >>>>>>> .merge_file_QIKtdu
 >>>>>>> .merge_file_o2Btpe
+=======
+>>>>>>> laraxot/dev
     ],
     'label' => 'Icon State Split',
     'plural_label' => 'Icon State Split (Plurale)',
     'navigation' => [
         'name' => 'Icon State Split',
         'plural' => 'Icon State Split',
+<<<<<<< HEAD
 <<<<<<< .merge_file_sHCBt9
 <<<<<<< HEAD
 =======
@@ -365,10 +373,13 @@ return [
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_o2Btpe
+=======
+>>>>>>> laraxot/dev
         'group' => [
             'name' => 'General',
             'description' => 'General Settings',
         ],
+<<<<<<< HEAD
 =======
         'group' => ['name' => 'General', 'description' => 'General Settings'],
 >>>>>>> .merge_file_QIKtdu
@@ -378,6 +389,13 @@ return [
     ],
     'actions' => [
 <<<<<<< .merge_file_czE0BG
+=======
+        'label' => 'Icon State Split',
+        'sort' => 1,
+        'icon' => 'heroicon-o-collection',
+    ],
+    'actions' => [
+>>>>>>> laraxot/dev
         'create' => [
             'label' => 'Crea Icon State Split',
         ],
@@ -387,6 +405,7 @@ return [
         'delete' => [
             'label' => 'Elimina Icon State Split',
         ],
+<<<<<<< HEAD
 <<<<<<< .merge_file_sHCBt9
 =======
 =======
@@ -422,5 +441,7 @@ return [
 =======
 >>>>>>> .merge_file_QIKtdu
 >>>>>>> .merge_file_o2Btpe
+=======
+>>>>>>> laraxot/dev
     ],
 ];

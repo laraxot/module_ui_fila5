@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jaiGkL
 =======
 =======
@@ -62,6 +63,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_6n8vFw
 >>>>>>> .merge_file_gwldIf
+=======
+>>>>>>> laraxot/dev
 # Utilizzo dei componenti Blade di Filament
 
 ## Regola fondamentale (obbligatoria)
@@ -69,6 +72,7 @@ related:
 **Se esiste una soluzione Filament, usare sempre quella.** Canon progetto: [filament-first-rule.md](../../../../../docs/wiki/rules/filament-first-rule.md) (Rule 019). Memoria agenti: [filament-first-mandatory-agents.md](../../../../../docs/wiki/memories/filament-first-mandatory-agents.md).
 
 Wiki modulo: [filament-first-blade-canonical.md](../wiki/concepts/filament-first-blade-canonical.md).
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_jaiGkL
 =======
@@ -102,6 +106,8 @@ Nel progetto <nome progetto>, esiste una regola fondamentale: **utilizzare sempr
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_6n8vFw
 >>>>>>> .merge_file_gwldIf
+=======
+>>>>>>> laraxot/dev
 
 ## Vantaggi dei componenti Filament
 
@@ -139,6 +145,7 @@ Frontoffice senza Livewire dedicato — pattern [Alpine](https://filamentphp.com
 </x-filament::tabs>
 ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_jaiGkL
 Caso Fixcity `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
@@ -194,6 +201,9 @@ Caso progetto corrente `/it`: [STORY-065](../../../../../docs/stories/STORY-065-
 Caso Fixcity `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
 >>>>>>> .merge_file_6n8vFw
 >>>>>>> .merge_file_gwldIf
+>>>>>>> laraxot/dev
+=======
+Caso Fixcity `/it`: [STORY-065](../../../../../docs/stories/STORY-065-it-segnalazioni-filament-tabs.md).
 >>>>>>> laraxot/dev
 
 ## Esempi di utilizzo
@@ -274,6 +284,7 @@ Per migrare da componenti personalizzati a componenti Filament:
 
 - [User](../../user/docs/blade/using-filament-components.md) - Implementazione dei componenti profilo con Filament
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jaiGkL
 =======
 =======
@@ -311,3 +322,5 @@ Per migrare da componenti personalizzati a componenti Filament:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_6n8vFw
 >>>>>>> .merge_file_gwldIf
+=======
+>>>>>>> laraxot/dev

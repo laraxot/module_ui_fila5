@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_VVI6Y9
 <<<<<<< HEAD
 =======
@@ -73,6 +74,8 @@ declare(strict_types=1);
 ?>
 >>>>>>> .merge_file_24Xhsa
 >>>>>>> .merge_file_TNW67C
+=======
+>>>>>>> laraxot/dev
 @props([
     'title' => '',
     'id' => 'item-' . uniqid(),

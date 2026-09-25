@@ -6,6 +6,7 @@ created: "2026-04-29T00:00:00Z"
 updated: "2026-04-29T00:00:00Z"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_PoxZm2
   - "[[UI Operating Model]]"
 =======
@@ -25,6 +26,9 @@ related:
   - "[[UI Operating Model]]"
 >>>>>>> .merge_file_EZs7SV
 >>>>>>> .merge_file_dkOWoM
+>>>>>>> laraxot/dev
+=======
+  - "[[UI Operating Model]]"
 >>>>>>> laraxot/dev
 ---
 
@@ -36,6 +40,7 @@ related:
 
 - `README.md`
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_PoxZm2
 - `ARCHITECTURE.md`
 - `PRODUCT_STRATEGY.md`
@@ -67,6 +72,10 @@ related:
 - `PRODUCT_STRATEGY.md`
 >>>>>>> .merge_file_EZs7SV
 >>>>>>> .merge_file_dkOWoM
+>>>>>>> laraxot/dev
+=======
+- `ARCHITECTURE.md`
+- `PRODUCT_STRATEGY.md`
 >>>>>>> laraxot/dev
 - `architecture/structure.md`
 

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_3Te6BX
 =======
 =======
@@ -69,6 +70,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_UEj0Rl
 >>>>>>> .merge_file_dfq3tG
+=======
+>>>>>>> laraxot/dev
 # Supporto per Icone nei Componenti Filament
 
 ## Riepilogo della Compatibilità

@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_LAWXjl
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_i6vfSv
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: phpstan-fixes-gennaio
@@ -12,6 +15,7 @@ canonical: ../../../Themes/docs/shared-components/phpstan-fixes-gennaio-2025-Mod
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan-fixes-gennaio-2025-Modules.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_LAWXjl
 =======
 <<<<<<< HEAD
@@ -80,3 +84,5 @@ public function canTransitionTo(int|string $recordId, string $stateClass): bool
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_i6vfSv
+=======
+>>>>>>> laraxot/dev

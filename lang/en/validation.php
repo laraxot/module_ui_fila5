@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_CEUX4N
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_fHlJtI
 >>>>>>> .merge_file_ADAS5j
+=======
+>>>>>>> laraxot/dev
 return [
     'opening_hours' => [
         'morning' => 'morning',

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_DfEjIE
 <<<<<<< HEAD
 =======
@@ -43,6 +44,12 @@
 <?php
 
 declare(strict_types=1);
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> laraxot/dev
 ?>
 <div class="relative overflow-hidden bg-gray-50">
     <div class="hidden sm:absolute sm:inset-y-0 sm:block sm:h-full sm:w-full" aria-hidden="true">

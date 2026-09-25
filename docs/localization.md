@@ -126,6 +126,7 @@ Modules/UI/
 - [Documentazione Filament](https://filamentphp.com/docs)
 - [Documentazione Folio](https://laravel.com/docs/folio)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_O7aWi1
 - [Best Practices UI](./ui_best_practices.md)
 - [Guida Componenti](./components_guide.md)
@@ -157,4 +158,8 @@ Modules/UI/
 - [Guida Componenti](./components_guide.md)
 >>>>>>> .merge_file_nM8np4
 >>>>>>> .merge_file_UfM0CS
+>>>>>>> laraxot/dev
+=======
+- [Best Practices UI](./ui_best_practices.md)
+- [Guida Componenti](./components_guide.md)
 >>>>>>> laraxot/dev

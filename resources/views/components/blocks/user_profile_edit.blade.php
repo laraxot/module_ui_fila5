@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_0oJ8a6
 <<<<<<< HEAD
 =======
@@ -49,6 +50,12 @@
 <?php
 
 declare(strict_types=1);
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> laraxot/dev
 ?>
 @props(['title' => 'Modifica Profilo'])
 

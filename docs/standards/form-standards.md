@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_uRJzC2
 =======
 <<<<<<< .merge_file_qLRLRE
@@ -79,6 +80,8 @@ related:
 >>>>>>> .merge_file_7X3x3Z
 >>>>>>> .merge_file_hRkQTC
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 # Standard Form nei Temi
 
 ## Principi Generali
@@ -137,6 +140,7 @@ related:
     Nome
   </label>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <input
 =======
 <<<<<<< HEAD
@@ -178,6 +182,9 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_hRkQTC
+>>>>>>> laraxot/dev
+=======
+  <input
 >>>>>>> laraxot/dev
     type="text"
     class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500"
@@ -202,6 +209,7 @@ related:
 <div class="form-group">
   <div class="flex items-center">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <input
 =======
 <<<<<<< HEAD
@@ -249,6 +257,9 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_hRkQTC
+>>>>>>> laraxot/dev
+=======
+    <input
 >>>>>>> laraxot/dev
       type="checkbox"
       class="h-4 w-4 text-primary-600 border-gray-300 rounded focus:ring-primary-500"
@@ -308,6 +319,7 @@ screens: {
     Email
   </label>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <input
 =======
 <<<<<<< HEAD
@@ -355,6 +367,9 @@ screens: {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_hRkQTC
+>>>>>>> laraxot/dev
+=======
+  <input
 >>>>>>> laraxot/dev
     type="email"
     class="w-full px-4 py-2 border border-red-300 rounded-md focus:ring-2 focus:ring-red-500"
@@ -374,6 +389,7 @@ screens: {
     Username
   </label>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_uRJzC2
   <input
 =======
@@ -416,6 +432,9 @@ screens: {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_hRkQTC
+>>>>>>> laraxot/dev
+=======
+  <input
 >>>>>>> laraxot/dev
     type="text"
     class="w-full px-4 py-2 border border-green-300 rounded-md focus:ring-2 focus:ring-green-500"
@@ -436,6 +455,7 @@ screens: {
     Email
   </label>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_uRJzC2
   <input
 =======
@@ -487,6 +507,9 @@ screens: {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_hRkQTC
+>>>>>>> laraxot/dev
+=======
+  <input
 >>>>>>> laraxot/dev
     type="email"
     aria-labelledby="email-label"
@@ -514,6 +537,7 @@ screens: {
 ### Loading States
 ```html
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_uRJzC2
 <button
 =======
@@ -560,6 +584,9 @@ screens: {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_hRkQTC
+>>>>>>> laraxot/dev
+=======
+<button
 >>>>>>> laraxot/dev
   type="submit"
   class="btn btn-primary"
@@ -617,16 +644,20 @@ form.addEventListener('submit', async (e) => {
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_uRJzC2
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> .merge_file_hRkQTC
+=======
+>>>>>>> laraxot/dev
 - [Performance](./performance.md)
 # Standard Form nei Temi
 
 ## Principi Generali
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< .merge_file_uRJzC2
@@ -657,31 +688,14 @@ form.addEventListener('submit', async (e) => {
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_hRkQTC
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ### Layout e Allineamento
 - I form devono essere centrati nella pagina con margini appropriati
 - Utilizzare una larghezza massima per garantire leggibilità
 - Mantenere una spaziatura consistente tra gli elementi
 <<<<<<< HEAD
-<<<<<<< .merge_file_uRJzC2
-
-=======
->>>>>>> laraxot/dev
-=======
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_hRkQTC
-```html
-<div class="container mx-auto max-w-4xl px-4 py-8">
-  <form class="w-full space-y-6">
-    <!-- Contenuto del form -->
-  </form>
-</div>
-```
 <<<<<<< HEAD
 <<<<<<< .merge_file_uRJzC2
 
@@ -695,462 +709,6 @@ form.addEventListener('submit', async (e) => {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_hRkQTC
-### Grid System
-- Utilizzare il grid system di Tailwind per layout responsivi
-- Su mobile: colonna singola
-- Su tablet e desktop: layout a due colonne dove appropriato
-<<<<<<< HEAD
-<<<<<<< .merge_file_uRJzC2
-=======
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_hRkQTC
-
-```html
-=======
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_uRJzC2
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_hRkQTC
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-  <div class="col-span-1">
-    <!-- Campo 1 -->
-  </div>
-<<<<<<< HEAD
-<<<<<<< .merge_file_uRJzC2
-=======
-    <!-- Campo 2 -->
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_hRkQTC
-  <div class="col-span-1">
-    <!-- Campo 2 -->
-  </div>
-</div>
-```
-
-=======
-    <!-- Campo 2 -->
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_uRJzC2
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_hRkQTC
-### Spaziatura
-```scss
-// Margini e padding consistenti
-.form-container {
-  @apply p-6 md:p-8;
-}
-<<<<<<< HEAD
-<<<<<<< .merge_file_uRJzC2
-=======
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_hRkQTC
-
-.form-group {
-  @apply mb-4 md:mb-6;
-}
-
-.form-section {
-  @apply mb-8 md:mb-12;
-}
-```
-
-## Componenti Form
-
-### Input Text
-```html
-=======
-<<<<<<< .merge_file_uRJzC2
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_hRkQTC
-.form-group {
-  @apply mb-4 md:mb-6;
-.form-section {
-  @apply mb-8 md:mb-12;
-## Componenti Form
-### Input Text
-<<<<<<< .merge_file_uRJzC2
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_hRkQTC
->>>>>>> laraxot/dev
-<div class="form-group">
-  <label class="block text-sm font-medium text-gray-700 mb-2">
-    Nome
-  </label>
-  <input
-    type="text"
-    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500"
-  >
-<<<<<<< HEAD
-<<<<<<< .merge_file_uRJzC2
-=======
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_hRkQTC
-</div>
-```
-
-### Select
-```html
-<div class="form-group">
-  <label class="block text-sm font-medium text-gray-700 mb-2">
-    Ruolo
-  </label>
-  <select class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500">
-    <option>Seleziona...</option>
-  </select>
-</div>
-```
-
-### Checkbox e Radio
-```html
-<div class="form-group">
-=======
-<<<<<<< .merge_file_uRJzC2
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_hRkQTC
-### Select
-    Ruolo
-  <select class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500">
-    <option>Seleziona...</option>
-  </select>
-### Checkbox e Radio
-<<<<<<< .merge_file_uRJzC2
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_hRkQTC
->>>>>>> laraxot/dev
-  <div class="flex items-center">
-    <input
-      type="checkbox"
-      class="h-4 w-4 text-primary-600 border-gray-300 rounded focus:ring-primary-500"
-    >
-    <label class="ml-2 text-sm text-gray-700">
-      Accetto i termini
-    </label>
-<<<<<<< HEAD
-<<<<<<< .merge_file_uRJzC2
-=======
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_hRkQTC
-  </div>
-</div>
-```
-
-## Responsive Design
-
-### Mobile First
-```scss
-// Base styles (mobile)
-.form-container {
-  width: 100%;
-  padding: 1rem;
-}
-
-=======
-<<<<<<< .merge_file_uRJzC2
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_hRkQTC
-## Responsive Design
-### Mobile First
-// Base styles (mobile)
-  width: 100%;
-  padding: 1rem;
-<<<<<<< .merge_file_uRJzC2
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_hRkQTC
->>>>>>> laraxot/dev
-// Tablet (md)
-@screen md {
-  .form-container {
-    padding: 2rem;
-    max-width: 768px;
-    margin: 0 auto;
-  }
-<<<<<<< HEAD
-<<<<<<< .merge_file_uRJzC2
-=======
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_hRkQTC
-}
-
-// Desktop (lg)
-@screen lg {
-  .form-container {
-    max-width: 1024px;
-  }
-}
-```
-
-### Breakpoints
-```scss
-=======
-<<<<<<< .merge_file_uRJzC2
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_hRkQTC
-// Desktop (lg)
-@screen lg {
-    max-width: 1024px;
-### Breakpoints
-<<<<<<< .merge_file_uRJzC2
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_hRkQTC
->>>>>>> laraxot/dev
-// Tailwind breakpoints
-screens: {
-  'sm': '640px',
-  'md': '768px',
-  'lg': '1024px',
-  'xl': '1280px',
-  '2xl': '1536px',
-<<<<<<< HEAD
-<<<<<<< .merge_file_uRJzC2
-=======
-## Validazione e Feedback
-### Errori
-    Email
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_hRkQTC
-}
-```
-
-## Validazione e Feedback
-
-### Errori
-```html
-<div class="form-group">
-  <label class="block text-sm font-medium text-gray-700 mb-2">
-    Email
-  </label>
-  <input
-=======
-## Validazione e Feedback
-### Errori
-    Email
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_uRJzC2
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_hRkQTC
-    type="email"
-    class="w-full px-4 py-2 border border-red-300 rounded-md focus:ring-2 focus:ring-red-500"
-    aria-invalid="true"
-    aria-describedby="email-error"
-<<<<<<< HEAD
-<<<<<<< .merge_file_uRJzC2
-=======
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_hRkQTC
-  >
-  <p id="email-error" class="mt-2 text-sm text-red-600">
-    Inserisci un indirizzo email valido
-  </p>
-</div>
-```
-
-### Successo
-```html
-<div class="form-group">
-  <label class="block text-sm font-medium text-gray-700 mb-2">
-    Username
-  </label>
->>>>>>> laraxot/dev
-  <input
-    type="text"
-    class="w-full px-4 py-2 border border-green-300 rounded-md focus:ring-2 focus:ring-green-500"
-    aria-invalid="false"
-  >
-  <p class="mt-2 text-sm text-green-600">
-    Username disponibile
-  </p>
-</div>
-```
-
-## Accessibilità
-
-### ARIA Labels
-```html
-<div class="form-group">
-  <label id="email-label" class="block text-sm font-medium text-gray-700 mb-2">
-    Email
-  </label>
-  <input
-    type="email"
-    aria-labelledby="email-label"
-    aria-required="true"
-    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500"
-  >
-</div>
-```
-
-### Focus States
-```scss
-// Focus visibile e consistente
-.form-input:focus {
-  @apply outline-none ring-2 ring-primary-500 border-transparent;
-}
-
-// Focus visibile per keyboard navigation
-.form-input:focus-visible {
-  @apply ring-2 ring-primary-500 ring-offset-2;
-}
-```
-
-## Performance
-
-### Loading States
-```html
-<<<<<<< .merge_file_uRJzC2
-=======
-  <p id="email-error" class="mt-2 text-sm text-red-600">
-    Inserisci un indirizzo email valido
-  </p>
-### Successo
-    Username
-    class="w-full px-4 py-2 border border-green-300 rounded-md focus:ring-2 focus:ring-green-500"
-    aria-invalid="false"
-  <p class="mt-2 text-sm text-green-600">
-    Username disponibile
-## Accessibilità
-### ARIA Labels
-  <label id="email-label" class="block text-sm font-medium text-gray-700 mb-2">
-    aria-labelledby="email-label"
-    aria-required="true"
-### Focus States
-// Focus visibile e consistente
-.form-input:focus {
-  @apply outline-none ring-2 ring-primary-500 border-transparent;
-// Focus visibile per keyboard navigation
-.form-input:focus-visible {
-  @apply ring-2 ring-primary-500 ring-offset-2;
-## Performance
-### Loading States
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_hRkQTC
-<button
-  type="submit"
-  class="btn btn-primary"
-  disabled
->
-  <span class="spinner" aria-hidden="true"></span>
-  <span>Caricamento...</span>
-</button>
-<<<<<<< HEAD
-```
-
-=======
->>>>>>> laraxot/dev
-### Lazy Loading
-```javascript
-// Lazy load form validation library
-const loadValidator = () => import('./validator.js');
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
-form.addEventListener('submit', async (e) => {
-  const validator = await loadValidator();
-  // Validate form
-});
-<<<<<<< HEAD
-```
-
-## Best Practices
-
-=======
-## Best Practices
->>>>>>> laraxot/dev
-1. **Centratura e Allineamento**
-   - Tutti i form devono essere centrati nella pagina
-   - Utilizzare container con larghezza massima
-   - Mantenere margini consistenti
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
-2. **Responsive Design**
-   - Layout a colonna singola su mobile
-   - Grid system per schermi più grandi
-   - Breakpoint standard di Tailwind
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
-3. **Spaziatura**
-   - Margini verticali consistenti tra gruppi di campi
-   - Padding interno consistente per i container
-   - Gap appropriato nel grid system
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
-4. **Validazione**
-   - Feedback visivo immediato
-   - Messaggi di errore chiari
-   - Stati di successo appropriati
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
-5. **Accessibilità**
-   - ARIA labels per tutti i campi
-   - Focus states visibili
-   - Messaggi di errore associati ai campi
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
-6. **Performance**
-   - Lazy loading di script pesanti
-   - Stati di loading appropriati
-   - Ottimizzazione delle risorse
-<<<<<<< HEAD
-
-## Collegamenti
-- [UI Standards](./ui-standards.md)
-- [Accessibility](./accessibility.md)
-- [Performance](./performance.md)
-<<<<<<< .merge_file_uRJzC2
-=======
-=======
-# Standard Form nei Temi
-<<<<<<< HEAD
-## Principi Generali
-=======
-
-## Principi Generali
-
->>>>>>> laraxot/dev
-### Layout e Allineamento
-- I form devono essere centrati nella pagina con margini appropriati
-- Utilizzare una larghezza massima per garantire leggibilità
-- Mantenere una spaziatura consistente tra gli elementi
-<<<<<<< HEAD
 =======
 
 >>>>>>> laraxot/dev
@@ -1162,6 +720,578 @@ form.addEventListener('submit', async (e) => {
 </div>
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< .merge_file_uRJzC2
+
+=======
+>>>>>>> laraxot/dev
+=======
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_hRkQTC
+=======
+
+>>>>>>> laraxot/dev
+### Grid System
+- Utilizzare il grid system di Tailwind per layout responsivi
+- Su mobile: colonna singola
+- Su tablet e desktop: layout a due colonne dove appropriato
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< .merge_file_uRJzC2
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_hRkQTC
+
+```html
+=======
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_uRJzC2
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_hRkQTC
+=======
+
+```html
+>>>>>>> laraxot/dev
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+  <div class="col-span-1">
+    <!-- Campo 1 -->
+  </div>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< .merge_file_uRJzC2
+=======
+    <!-- Campo 2 -->
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_hRkQTC
+=======
+>>>>>>> laraxot/dev
+  <div class="col-span-1">
+    <!-- Campo 2 -->
+  </div>
+</div>
+```
+
+<<<<<<< HEAD
+=======
+    <!-- Campo 2 -->
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_uRJzC2
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_hRkQTC
+=======
+>>>>>>> laraxot/dev
+### Spaziatura
+```scss
+// Margini e padding consistenti
+.form-container {
+  @apply p-6 md:p-8;
+}
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< .merge_file_uRJzC2
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_hRkQTC
+=======
+>>>>>>> laraxot/dev
+
+.form-group {
+  @apply mb-4 md:mb-6;
+}
+
+.form-section {
+  @apply mb-8 md:mb-12;
+}
+```
+
+## Componenti Form
+
+### Input Text
+```html
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_uRJzC2
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_hRkQTC
+.form-group {
+  @apply mb-4 md:mb-6;
+.form-section {
+  @apply mb-8 md:mb-12;
+## Componenti Form
+### Input Text
+<<<<<<< .merge_file_uRJzC2
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_hRkQTC
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+<div class="form-group">
+  <label class="block text-sm font-medium text-gray-700 mb-2">
+    Nome
+  </label>
+  <input
+    type="text"
+    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500"
+  >
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< .merge_file_uRJzC2
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_hRkQTC
+=======
+>>>>>>> laraxot/dev
+</div>
+```
+
+### Select
+```html
+<div class="form-group">
+  <label class="block text-sm font-medium text-gray-700 mb-2">
+    Ruolo
+  </label>
+  <select class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500">
+    <option>Seleziona...</option>
+  </select>
+</div>
+```
+
+### Checkbox e Radio
+```html
+<div class="form-group">
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_uRJzC2
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_hRkQTC
+### Select
+    Ruolo
+  <select class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500">
+    <option>Seleziona...</option>
+  </select>
+### Checkbox e Radio
+<<<<<<< .merge_file_uRJzC2
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_hRkQTC
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+  <div class="flex items-center">
+    <input
+      type="checkbox"
+      class="h-4 w-4 text-primary-600 border-gray-300 rounded focus:ring-primary-500"
+    >
+    <label class="ml-2 text-sm text-gray-700">
+      Accetto i termini
+    </label>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< .merge_file_uRJzC2
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_hRkQTC
+=======
+>>>>>>> laraxot/dev
+  </div>
+</div>
+```
+
+## Responsive Design
+
+### Mobile First
+```scss
+// Base styles (mobile)
+.form-container {
+  width: 100%;
+  padding: 1rem;
+}
+
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_uRJzC2
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_hRkQTC
+## Responsive Design
+### Mobile First
+// Base styles (mobile)
+  width: 100%;
+  padding: 1rem;
+<<<<<<< .merge_file_uRJzC2
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_hRkQTC
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+// Tablet (md)
+@screen md {
+  .form-container {
+    padding: 2rem;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< .merge_file_uRJzC2
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_hRkQTC
+=======
+>>>>>>> laraxot/dev
+}
+
+// Desktop (lg)
+@screen lg {
+  .form-container {
+    max-width: 1024px;
+  }
+}
+```
+
+### Breakpoints
+```scss
+<<<<<<< HEAD
+=======
+<<<<<<< .merge_file_uRJzC2
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_hRkQTC
+// Desktop (lg)
+@screen lg {
+    max-width: 1024px;
+### Breakpoints
+<<<<<<< .merge_file_uRJzC2
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_hRkQTC
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+// Tailwind breakpoints
+screens: {
+  'sm': '640px',
+  'md': '768px',
+  'lg': '1024px',
+  'xl': '1280px',
+  '2xl': '1536px',
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< .merge_file_uRJzC2
+=======
+## Validazione e Feedback
+### Errori
+    Email
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_hRkQTC
+=======
+>>>>>>> laraxot/dev
+}
+```
+
+## Validazione e Feedback
+
+### Errori
+```html
+<div class="form-group">
+  <label class="block text-sm font-medium text-gray-700 mb-2">
+    Email
+  </label>
+  <input
+<<<<<<< HEAD
+=======
+## Validazione e Feedback
+### Errori
+    Email
+>>>>>>> laraxot/dev
+<<<<<<< .merge_file_uRJzC2
+=======
+>>>>>>> laraxot/dev
+>>>>>>> .merge_file_hRkQTC
+=======
+>>>>>>> laraxot/dev
+    type="email"
+    class="w-full px-4 py-2 border border-red-300 rounded-md focus:ring-2 focus:ring-red-500"
+    aria-invalid="true"
+    aria-describedby="email-error"
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< .merge_file_uRJzC2
+=======
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_hRkQTC
+=======
+>>>>>>> laraxot/dev
+  >
+  <p id="email-error" class="mt-2 text-sm text-red-600">
+    Inserisci un indirizzo email valido
+  </p>
+</div>
+```
+
+### Successo
+```html
+<div class="form-group">
+  <label class="block text-sm font-medium text-gray-700 mb-2">
+    Username
+  </label>
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+  <input
+    type="text"
+    class="w-full px-4 py-2 border border-green-300 rounded-md focus:ring-2 focus:ring-green-500"
+    aria-invalid="false"
+  >
+  <p class="mt-2 text-sm text-green-600">
+    Username disponibile
+  </p>
+</div>
+```
+
+## Accessibilità
+
+### ARIA Labels
+```html
+<div class="form-group">
+  <label id="email-label" class="block text-sm font-medium text-gray-700 mb-2">
+    Email
+  </label>
+  <input
+    type="email"
+    aria-labelledby="email-label"
+    aria-required="true"
+    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500"
+  >
+</div>
+```
+
+### Focus States
+```scss
+// Focus visibile e consistente
+.form-input:focus {
+  @apply outline-none ring-2 ring-primary-500 border-transparent;
+}
+
+// Focus visibile per keyboard navigation
+.form-input:focus-visible {
+  @apply ring-2 ring-primary-500 ring-offset-2;
+}
+```
+
+## Performance
+
+### Loading States
+```html
+<<<<<<< HEAD
+<<<<<<< .merge_file_uRJzC2
+=======
+  <p id="email-error" class="mt-2 text-sm text-red-600">
+    Inserisci un indirizzo email valido
+  </p>
+### Successo
+    Username
+    class="w-full px-4 py-2 border border-green-300 rounded-md focus:ring-2 focus:ring-green-500"
+    aria-invalid="false"
+  <p class="mt-2 text-sm text-green-600">
+    Username disponibile
+## Accessibilità
+### ARIA Labels
+  <label id="email-label" class="block text-sm font-medium text-gray-700 mb-2">
+    aria-labelledby="email-label"
+    aria-required="true"
+### Focus States
+// Focus visibile e consistente
+.form-input:focus {
+  @apply outline-none ring-2 ring-primary-500 border-transparent;
+// Focus visibile per keyboard navigation
+.form-input:focus-visible {
+  @apply ring-2 ring-primary-500 ring-offset-2;
+## Performance
+### Loading States
+>>>>>>> laraxot/dev
+=======
+<<<<<<< HEAD
+>>>>>>> .merge_file_hRkQTC
+=======
+>>>>>>> laraxot/dev
+<button
+  type="submit"
+  class="btn btn-primary"
+  disabled
+>
+  <span class="spinner" aria-hidden="true"></span>
+  <span>Caricamento...</span>
+</button>
+<<<<<<< HEAD
+<<<<<<< HEAD
+```
+
+=======
+>>>>>>> laraxot/dev
+=======
+```
+
+>>>>>>> laraxot/dev
+### Lazy Loading
+```javascript
+// Lazy load form validation library
+const loadValidator = () => import('./validator.js');
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
+form.addEventListener('submit', async (e) => {
+  const validator = await loadValidator();
+  // Validate form
+});
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+```
+
+## Best Practices
+
+<<<<<<< HEAD
+=======
+## Best Practices
+>>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
+1. **Centratura e Allineamento**
+   - Tutti i form devono essere centrati nella pagina
+   - Utilizzare container con larghezza massima
+   - Mantenere margini consistenti
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
+2. **Responsive Design**
+   - Layout a colonna singola su mobile
+   - Grid system per schermi più grandi
+   - Breakpoint standard di Tailwind
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
+3. **Spaziatura**
+   - Margini verticali consistenti tra gruppi di campi
+   - Padding interno consistente per i container
+   - Gap appropriato nel grid system
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
+4. **Validazione**
+   - Feedback visivo immediato
+   - Messaggi di errore chiari
+   - Stati di successo appropriati
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
+5. **Accessibilità**
+   - ARIA labels per tutti i campi
+   - Focus states visibili
+   - Messaggi di errore associati ai campi
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
+6. **Performance**
+   - Lazy loading di script pesanti
+   - Stati di loading appropriati
+   - Ottimizzazione delle risorse
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
+
+## Collegamenti
+- [UI Standards](./ui-standards.md)
+- [Accessibility](./accessibility.md)
+- [Performance](./performance.md)
+<<<<<<< HEAD
+<<<<<<< .merge_file_uRJzC2
+=======
+=======
+# Standard Form nei Temi
+<<<<<<< HEAD
+## Principi Generali
+=======
+
+## Principi Generali
+
+>>>>>>> laraxot/dev
+### Layout e Allineamento
+- I form devono essere centrati nella pagina con margini appropriati
+- Utilizzare una larghezza massima per garantire leggibilità
+- Mantenere una spaziatura consistente tra gli elementi
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
+```html
+<div class="container mx-auto max-w-4xl px-4 py-8">
+  <form class="w-full space-y-6">
+    <!-- Contenuto del form -->
+  </form>
+</div>
+```
+<<<<<<< HEAD
 =======
 
 >>>>>>> laraxot/dev
@@ -1689,4 +1819,6 @@ form.addEventListener('submit', async (e) => {
 =======
 >>>>>>> .merge_file_7X3x3Z
 >>>>>>> .merge_file_hRkQTC
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

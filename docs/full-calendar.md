@@ -157,6 +157,7 @@ public function eventDidMount(): string
 - [GitHub](https://github.com/saade/filament-fullcalendar)
 - [Esempio Laravel Daily](https://laraveldaily.com/post/filament-show-calendar-of-tasks-with-fullcalendar)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Lvp57A
 =======
 <<<<<<< .merge_file_T79F9Y
@@ -174,11 +175,14 @@ public function eventDidMount(): string
 =======
 >>>>>>> .merge_file_Ex1uPj
 >>>>>>> .merge_file_yOvWeh
+=======
+>>>>>>> laraxot/dev
 - [Modules/UI/docs/full-calendar.md](../modules/ui/docs/full-calendar.md)
 - [Regole .mdc](../.cursor/rules/cursor.mdc), [../.windsurf/rules/windsurf.mdc]
 
 ## Ultimo aggiornamento
 [DATE]
+<<<<<<< HEAD
 <<<<<<< .merge_file_Lvp57A
 =======
 =======
@@ -202,4 +206,6 @@ public function eventDidMount(): string
 =======
 >>>>>>> .merge_file_Ex1uPj
 >>>>>>> .merge_file_yOvWeh
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

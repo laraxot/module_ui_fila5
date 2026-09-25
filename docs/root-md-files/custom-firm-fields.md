@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_v1HiwF
 =======
@@ -45,6 +46,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_wahArr
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 https://github.com/tanthammar/filament-extras
 

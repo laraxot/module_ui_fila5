@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zn6xzl
 =======
 =======
@@ -64,6 +65,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9Fn8Nu
 >>>>>>> .merge_file_WA34eN
+=======
+>>>>>>> laraxot/dev
 # Struttura Pagine Filament - Modulo UI
 
 ## Panoramica

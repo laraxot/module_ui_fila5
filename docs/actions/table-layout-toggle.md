@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ujgNON
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 # TableLayoutToggleTableAction
 
@@ -84,6 +87,7 @@ class MyListRecords extends ListRecords
 
 ## Collegamenti alla Documentazione
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_hwpuzM
 =======
 <<<<<<< .merge_file_v0m7U7
@@ -132,6 +136,8 @@ Azione Filament per il toggle del layout delle tabelle tra vista griglia e lista
 =======
 >>>>>>> .merge_file_d0srQb
 >>>>>>> .merge_file_ujgNON
+=======
+>>>>>>> laraxot/dev
 - [Risoluzione Conflitti UI](../conflitti_merge_risolti.md): Documentazione dei conflitti risolti
 - [Test di Risoluzione Conflitti](../test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
 
@@ -141,6 +147,7 @@ Azione Filament per il toggle del layout delle tabelle tra vista griglia e lista
 ## Panoramica
 Azione Filament per il toggle del layout delle tabelle tra vista griglia e lista.
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_hwpuzM
 =======
 =======
@@ -224,12 +231,15 @@ Azione Filament per il toggle del layout delle tabelle tra vista griglia e lista
 >>>>>>> .merge_file_d0srQb
 >>>>>>> .merge_file_ujgNON
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ## Caratteristiche
 - Supporto per layout griglia e lista
 - Integrazione con Livewire
 - Persistenza dello stato del layout
 - Supporto per tooltip e icone dinamiche
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_hwpuzM
 =======
 <<<<<<< .merge_file_v0m7U7
@@ -257,10 +267,13 @@ Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
 =======
 >>>>>>> .merge_file_d0srQb
 >>>>>>> .merge_file_ujgNON
+=======
+>>>>>>> laraxot/dev
 
 ## Miglioramenti PHPStan Livello 9
 Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_hwpuzM
 =======
 <<<<<<< .merge_file_v0m7U7
@@ -280,12 +293,15 @@ Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
 >>>>>>> .merge_file_d0srQb
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ujgNON
+=======
+>>>>>>> laraxot/dev
 1. Tipizzazione stretta dei parametri
 2. Utilizzo di tipi unione per i componenti Livewire
 3. Implementazione corretta delle interfacce
 4. Gestione type-safe degli enum
 5. Rimozione di type casting non necessari
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_hwpuzM
 =======
 <<<<<<< .merge_file_v0m7U7
@@ -314,6 +330,9 @@ Le seguenti modifiche sono state apportate per soddisfare PHPStan livello 9:
 >>>>>>> .merge_file_d0srQb
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ujgNON
+=======
+
+>>>>>>> laraxot/dev
 ## Interfaccia HasTableLayout
 ```php
 interface HasTableLayout
@@ -323,6 +342,7 @@ interface HasTableLayout
     public function resetTable(): void;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_hwpuzM
 =======
 <<<<<<< HEAD
@@ -354,6 +374,8 @@ class MyListRecords extends ListRecords
 =======
 >>>>>>> .merge_file_d0srQb
 >>>>>>> .merge_file_ujgNON
+=======
+>>>>>>> laraxot/dev
 ```
 
 ## Utilizzo
@@ -362,6 +384,7 @@ use Modules\UI\app\Filament\Actions\Table\TableLayoutToggleTableAction;
 
 class MyListRecords extends ListRecords
 {
+<<<<<<< HEAD
 <<<<<<< .merge_file_hwpuzM
 =======
 <<<<<<< .merge_file_v0m7U7
@@ -381,6 +404,8 @@ class MyListRecords extends ListRecords
 >>>>>>> .merge_file_d0srQb
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_ujgNON
+=======
+>>>>>>> laraxot/dev
     protected function getTableActions(): array
     {
         return [
@@ -388,6 +413,7 @@ class MyListRecords extends ListRecords
         ];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_hwpuzM
 =======
 <<<<<<< .merge_file_v0m7U7
@@ -429,11 +455,17 @@ class MyListRecords extends ListRecords
 =======
 >>>>>>> .merge_file_d0srQb
 >>>>>>> .merge_file_ujgNON
+=======
+}
+```
+
+>>>>>>> laraxot/dev
 ## Best Practices
 1. Implementare l'interfaccia HasTableLayout nei componenti che utilizzano l'azione
 2. Utilizzare gli enum per i tipi di layout
 3. Gestire correttamente gli eventi di refresh
 4. Mantenere la persistenza dello stato
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_hwpuzM
 =======
@@ -460,12 +492,15 @@ Vedi [bugfix](../bugfix-table-layout-toggle-not-working.md): bastano `resetTable
 =======
 >>>>>>> .merge_file_d0srQb
 >>>>>>> .merge_file_ujgNON
+=======
+>>>>>>> laraxot/dev
 
 ## Collegamenti alla Documentazione
 - [Risoluzione Conflitti UI](../conflitti_merge_risolti.md): Documentazione dei conflitti risolti
 - [Test di Risoluzione Conflitti](../test_conflicts_resolution.md): Test automatici che verificano la corretta risoluzione
 
 [Torna alla documentazione UI](/docs/modules/module_ui.md#actions)
+<<<<<<< HEAD
 <<<<<<< .merge_file_hwpuzM
 =======
 <<<<<<< HEAD
@@ -524,4 +559,6 @@ Vedi [bugfix](../bugfix-table-layout-toggle-not-working.md): bastano `resetTable
 =======
 >>>>>>> .merge_file_d0srQb
 >>>>>>> .merge_file_ujgNON
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

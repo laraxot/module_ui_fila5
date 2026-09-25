@@ -1,6 +1,7 @@
 # Analisi Errori PHPStan - Modulo UI
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_rOMtlI
 **Data**: 2025-12-23
@@ -12,6 +13,8 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5vUgVO
+=======
+>>>>>>> laraxot/dev
 **Modulo**: UI
 **Livello PHPStan**: max
 **Status**: ✅ Corretto (0 errori)

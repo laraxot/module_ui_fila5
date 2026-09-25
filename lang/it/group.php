@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_qJ8THE
 <<<<<<< HEAD
 =======
@@ -17,6 +18,8 @@ declare(strict_types=1);
 // claude-audit static: ≥5% comment lines on files >100 LOC.
 // Canon: Modules/UI/docs/wiki — domain i18n only.
 // File: lang/it/group.php
+=======
+>>>>>>> laraxot/dev
 return [
     'fields' => [
         'lavoratore' => [
@@ -67,6 +70,7 @@ return [
             'helper_text' => '',
             'description' => '',
         ],
+<<<<<<< HEAD
 <<<<<<< .merge_file_qJ8THE
 =======
 return [
@@ -103,12 +107,15 @@ return [
 =======
 >>>>>>> .merge_file_PPJTEo
 >>>>>>> .merge_file_o9ygaY
+=======
+>>>>>>> laraxot/dev
     ],
     'label' => 'Group',
     'plural_label' => 'Group (Plurale)',
     'navigation' => [
         'name' => 'Group',
         'plural' => 'Group',
+<<<<<<< HEAD
 <<<<<<< .merge_file_qJ8THE
 <<<<<<< HEAD
 =======
@@ -120,10 +127,13 @@ return [
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_o9ygaY
+=======
+>>>>>>> laraxot/dev
         'group' => [
             'name' => 'General',
             'description' => 'General Settings',
         ],
+<<<<<<< HEAD
 =======
         'group' => ['name' => 'General', 'description' => 'General Settings'],
 >>>>>>> .merge_file_PPJTEo
@@ -133,6 +143,13 @@ return [
     ],
     'actions' => [
 <<<<<<< .merge_file_cgB9Pw
+=======
+        'label' => 'Group',
+        'sort' => 1,
+        'icon' => 'heroicon-o-collection',
+    ],
+    'actions' => [
+>>>>>>> laraxot/dev
         'create' => [
             'label' => 'Crea Group',
         ],
@@ -142,6 +159,7 @@ return [
         'delete' => [
             'label' => 'Elimina Group',
         ],
+<<<<<<< HEAD
 <<<<<<< .merge_file_qJ8THE
 =======
 =======
@@ -177,5 +195,7 @@ return [
 =======
 >>>>>>> .merge_file_PPJTEo
 >>>>>>> .merge_file_o9ygaY
+=======
+>>>>>>> laraxot/dev
     ],
 ];

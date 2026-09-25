@@ -6,6 +6,7 @@ created: "2026-04-29T00:00:00Z"
 updated: "2026-04-29T00:00:00Z"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_7l9COk
   - "[[UI Operating Model]]"
 =======
@@ -41,6 +42,9 @@ related:
   - "[[UI Operating Model]]"
 >>>>>>> .merge_file_IkXbEf
 >>>>>>> .merge_file_beCVbY
+>>>>>>> laraxot/dev
+=======
+  - "[[UI Operating Model]]"
 >>>>>>> laraxot/dev
 ---
 
@@ -100,6 +104,7 @@ qmd query "$1" -c wiki --limit 3 > compressed_result.md
 
 # Estrai keyword principali
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_7l9COk
 qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
 =======
@@ -175,6 +180,9 @@ qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_IkXbEf
 >>>>>>> .merge_file_beCVbY
+=======
+qmd search "$1" -c fixcity-docs | head -5 > keywords.txt
+>>>>>>> laraxot/dev
 
 # Genera sommario
 qmd multi-get $(qmd search "$1" -c main_docs | head -10) | awk '/^# / {print; getline; print; print ""}' > summary.md

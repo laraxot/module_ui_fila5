@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_4CsMa5
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_Qepq1i
 >>>>>>> .merge_file_HPU6Y4
+=======
+>>>>>>> laraxot/dev
 return [
     's3test' => [
         'heading' => 'S3 E-Mail Test',

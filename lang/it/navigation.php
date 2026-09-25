@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_eHLqzJ
 <<<<<<< HEAD
 =======
@@ -31,6 +32,42 @@ return [
     ],
     'actions' => [
 <<<<<<< .merge_file_KjlbZJ
+=======
+return [
+    'navigation' => [
+        'label' => 'Navigazione',
+        'plural_label' => 'Navigazioni',
+        'group' => 'Gestione Contenuti',
+        'icon' => 'heroicon-o-collection',
+        'sort' => 1,
+    ],
+    'label' => 'Navigazione',
+    'plural_label' => 'Navigazioni',
+    'fields' => [
+        'items' => [
+            'label' => 'Elementi',
+            'placeholder' => 'Seleziona elementi menu',
+            'helper_text' => 'Elementi che compongono la navigazione',
+            'description' => 'Lista degli elementi di navigazione',
+            'tooltip' => 'Clicca per aggiungere elementi',
+        ],
+        'label' => [
+            'label' => 'Etichetta',
+            'placeholder' => 'Inserisci etichetta menu',
+            'helper_text' => 'Testo visualizzato nel menu',
+            'description' => 'Nome dell\'elemento di navigazione',
+            'tooltip' => 'Descrizione breve dell\'elemento',
+        ],
+        'url' => [
+            'label' => 'URL',
+            'placeholder' => 'Inserisci URL destinazione',
+            'helper_text' => 'Indirizzo web o route name',
+            'description' => 'Destinazione del link',
+            'tooltip' => 'URL completo o nome route',
+        ],
+    ],
+    'actions' => [
+>>>>>>> laraxot/dev
         'create' => [
             'label' => 'Crea Navigazione',
             'success' => 'Navigazione creata con successo',
@@ -47,6 +84,7 @@ return [
             'failure' => 'Errore nell\'eliminazione della navigazione',
             'confirm' => 'Sei sicuro di voler eliminare questa navigazione?',
         ],
+<<<<<<< HEAD
 <<<<<<< .merge_file_eHLqzJ
 =======
 =======
@@ -83,5 +121,7 @@ return [
         'delete' => ['label' => 'Elimina Navigazione', 'success' => 'Navigazione eliminata con successo', 'failure' => 'Errore nell\'eliminazione della navigazione', 'confirm' => 'Sei sicuro di voler eliminare questa navigazione?'],
 >>>>>>> .merge_file_uXkuEx
 >>>>>>> .merge_file_ZJkWMJ
+=======
+>>>>>>> laraxot/dev
     ],
 ];

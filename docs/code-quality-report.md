@@ -59,8 +59,12 @@ Report locale (2026-07-17). Metodo: `phpstan analyse` livello max, `phpmd` (rule
 | Seo | - | - | 100% | 0 |
 <<<<<<< HEAD
 | TechPlanner | - | - | 2% | 0 |
+<<<<<<< HEAD
 <<<<<<< .merge_file_RPj2TK
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 <<<<<<< .merge_file_HXxlsw
 =======
 <<<<<<< .merge_file_EE2Scz
@@ -71,7 +75,12 @@ Report locale (2026-07-17). Metodo: `phpstan analyse` livello max, `phpmd` (rule
 | TechPlanner | - | - | 2% | 0 |
 >>>>>>> .merge_file_N8YsYF
 >>>>>>> .merge_file_dlurv4
+<<<<<<< HEAD
 >>>>>>> .merge_file_O7mTlZ
+=======
+=======
+>>>>>>> 804451c (Lint)
+>>>>>>> laraxot/dev
 <<<<<<< HEAD
 | modulo operativo | - | - | 2% | 0 |
 =======
@@ -93,8 +102,12 @@ Report locale (2026-07-17). Metodo: `phpstan analyse` livello max, `phpmd` (rule
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_RPj2TK
 =======
+=======
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
 <<<<<<< .merge_file_HXxlsw
 =======
 <<<<<<< .merge_file_EE2Scz
@@ -102,7 +115,12 @@ Report locale (2026-07-17). Metodo: `phpstan analyse` livello max, `phpmd` (rule
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_N8YsYF
 >>>>>>> .merge_file_dlurv4
+<<<<<<< HEAD
 >>>>>>> .merge_file_O7mTlZ
+=======
+=======
+>>>>>>> 804451c (Lint)
+>>>>>>> laraxot/dev
 | Tenant | - | - | 75% | 6 |
 | UI | - | - | 34% | 4 |
 | User | - | - | 23% | 4 |

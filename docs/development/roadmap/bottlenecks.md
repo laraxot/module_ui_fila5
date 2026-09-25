@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_5PT36V
 =======
 =======
@@ -65,6 +66,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_nYWgnc
 >>>>>>> .merge_file_vA6ADs
+=======
+>>>>>>> laraxot/dev
 # Colli di Bottiglia - Modulo UI
 
 ## 1. Performance Componenti [85%]

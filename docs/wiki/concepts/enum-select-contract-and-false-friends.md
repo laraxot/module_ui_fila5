@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_a6CWqZ
 =======
 =======
@@ -69,6 +70,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_1KhGKn
 >>>>>>> .merge_file_177KYX
+=======
+>>>>>>> laraxot/dev
 # EnumSelect Contract And False Friends
 
 ## Context
@@ -83,6 +86,7 @@ Questa pagina fissa il contratto minimo del componente.
 
 ## Best Practices
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_a6CWqZ
 - Estendere `Filament\Forms\Components\Select` mantenendo compatibilita' totale con la API parent.
@@ -111,6 +115,9 @@ Questa pagina fissa il contratto minimo del componente.
 - Estendere `Filament\Forms\Components\Select` mantenendo compatibilita' totale con la API parent.
 >>>>>>> .merge_file_1KhGKn
 >>>>>>> .merge_file_177KYX
+>>>>>>> laraxot/dev
+=======
+- Estendere `Filament\Forms\Components\Select` mantenendo compatibilita' totale con la API parent.
 >>>>>>> laraxot/dev
 - Dichiarare `public static function make(?string $name = null): static`.
 - Mantenere **identica** la firma di `enum()` al parent Filament: `enum(string|Closure|null $enum): static`.

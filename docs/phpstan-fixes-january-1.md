@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_XMBR73
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MBpmbs
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: phpstan-fixes-january-1
@@ -12,6 +15,7 @@ canonical: ../../../Themes/docs/shared-components/phpstan-fixes-january-.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/phpstan-fixes-january-.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_XMBR73
 =======
 <<<<<<< HEAD
@@ -78,3 +82,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/phpstan-fixe
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MBpmbs
+=======
+>>>>>>> laraxot/dev

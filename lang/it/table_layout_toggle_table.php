@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_KsZ3ny
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_2qx8Fa
 >>>>>>> .merge_file_bj1TpY
+=======
+>>>>>>> laraxot/dev
 return [
     'actions' => [
         'toggle' => [
@@ -66,6 +69,7 @@ return [
         ],
         'label' => 'Table Layout Toggle Table',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_KsZ3ny
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -91,5 +95,8 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_2qx8Fa
 >>>>>>> .merge_file_bj1TpY
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> laraxot/dev
     ],
 ];

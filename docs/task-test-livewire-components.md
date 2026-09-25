@@ -4,6 +4,7 @@
 **Priorita'**: Media
 **Completamento**: 20%
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_h2ESkI
 =======
 **Data**: 2026-01-30
@@ -25,6 +26,8 @@
 >>>>>>> .merge_file_YjfZR8
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_tNYoEx
+=======
+>>>>>>> laraxot/dev
 
 ---
 

@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_OpJF4X
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_XxKMgK
 >>>>>>> .merge_file_GFyFrU
+=======
+>>>>>>> laraxot/dev
 return [
     'step' => 'Step',
     'step_1' => 'Step 1',

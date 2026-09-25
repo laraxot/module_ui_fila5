@@ -16,6 +16,7 @@ uses(TestCase::class);
 
 test('stats overview widget extends correct base class', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
     $widget = new StatsOverviewWidget();
 =======
 <<<<<<< .merge_file_TnEyfv
@@ -31,6 +32,9 @@ test('stats overview widget extends correct base class', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_IuyZio
+>>>>>>> laraxot/dev
+=======
+    $widget = new StatsOverviewWidget();
 >>>>>>> laraxot/dev
     Assert::assertInstanceOf(FilamentStatsOverviewWidget::class, $widget);
 });
@@ -41,6 +45,7 @@ test('stats overview widget has correct namespace', function (): void {
 
 test('stats overview widget has getStats method', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_TnEyfv
 =======
     $widget = new StatsOverviewWidget();
@@ -59,12 +64,16 @@ test('stats overview widget has getStats method', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_IuyZio
+=======
+    $widget = new StatsOverviewWidget();
+>>>>>>> laraxot/dev
     $reflection = new \ReflectionClass($widget);
     Assert::assertTrue($reflection->hasMethod('getStats'));
 });
 
 test('stats overview widget returns correct stats', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_TnEyfv
 =======
     $widget = new StatsOverviewWidget();
@@ -83,6 +92,9 @@ test('stats overview widget returns correct stats', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_IuyZio
+=======
+    $widget = new StatsOverviewWidget();
+>>>>>>> laraxot/dev
     $reflection = new \ReflectionClass($widget);
     $method = $reflection->getMethod('getStats');
     Assert::assertTrue($method->isProtected());
@@ -98,6 +110,7 @@ test('stats overview widget returns correct stats', function (): void {
 
 test('stats overview widget can be instantiated', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
     $widget = new StatsOverviewWidget();
 =======
 <<<<<<< .merge_file_TnEyfv
@@ -113,6 +126,9 @@ test('stats overview widget can be instantiated', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_IuyZio
+>>>>>>> laraxot/dev
+=======
+    $widget = new StatsOverviewWidget();
 >>>>>>> laraxot/dev
     Assert::assertInstanceOf(StatsOverviewWidget::class, $widget);
 });
@@ -122,6 +138,7 @@ test('stats overview widget has correct strict types declaration', function (): 
     $filename = $reflection->getFileName();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_TnEyfv
 =======
     if (false !== $filename) {
@@ -140,6 +157,9 @@ test('stats overview widget has correct strict types declaration', function (): 
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_IuyZio
+=======
+    if (false !== $filename) {
+>>>>>>> laraxot/dev
         $content = file_get_contents($filename);
         Assert::assertStringContainsString('declare(strict_types=1)', $content);
     }
@@ -157,6 +177,7 @@ test('stats overview widget getStats method has correct return type', function (
     $returnType = $getStatsMethod->getReturnType();
 
     Assert::assertNotNull($returnType);
+<<<<<<< HEAD
 <<<<<<< .merge_file_TnEyfv
 =======
 <<<<<<< .merge_file_Ye3B8G
@@ -183,6 +204,9 @@ test('stats overview widget getStats method has correct return type', function (
     Assert::assertSame('array', $returnType->getName());
 >>>>>>> .merge_file_JqIqDg
 >>>>>>> .merge_file_IuyZio
+=======
+    Assert::assertSame('array', $returnType instanceof \ReflectionNamedType ? $returnType->getName() : (string) $returnType);
+>>>>>>> laraxot/dev
 });
 
 test('stats overview widget has correct use statements', function (): void {
@@ -190,6 +214,7 @@ test('stats overview widget has correct use statements', function (): void {
     $filename = $reflection->getFileName();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (false !== $filename) {
         $content = file_get_contents($filename);
 <<<<<<< .merge_file_Ye3B8G
@@ -221,5 +246,10 @@ test('stats overview widget has correct use statements', function (): void {
         Assert::assertStringContainsString('use Modules\\Xot\\Filament\\Widgets\\XotBaseStatsOverviewWidget;', $content);
 >>>>>>> .merge_file_JqIqDg
 >>>>>>> .merge_file_IuyZio
+=======
+    if (false !== $filename) {
+        $content = file_get_contents($filename);
+        Assert::assertStringContainsString('use Filament\\Widgets\\StatsOverviewWidget as BaseWidget;', $content);
+>>>>>>> laraxot/dev
     }
 });

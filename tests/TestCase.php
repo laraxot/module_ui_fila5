@@ -7,6 +7,7 @@ namespace Modules\UI\Tests;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Support\Facades\DB;
+<<<<<<< HEAD
 <<<<<<< .merge_file_snOgZN
 <<<<<<< HEAD
 =======
@@ -37,15 +38,23 @@ use Modules\Xot\Tests\XotBaseTestCase;
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_L5SAAq
+=======
+>>>>>>> laraxot/dev
 use Mockery\Expectation;
 use Mockery\LegacyMockInterface;
 use Mockery\MockInterface;
 use Modules\UI\Providers\UIServiceProvider;
+<<<<<<< HEAD
 use Modules\Xot\Contracts\UserContract;
+=======
+use Modules\UI\Tests\Support\EnsuresUiDatabaseSchema;
+use Modules\User\Models\User;
+>>>>>>> laraxot/dev
 use Modules\User\Providers\UserServiceProvider;
 use Modules\Xot\Tests\XotBaseTestCase;
 
 use function Safe\file_get_contents;
+<<<<<<< HEAD
 use Modules\User\Models\User;
 
 <<<<<<< .merge_file_snOgZN
@@ -61,10 +70,14 @@ use function Safe\file_get_contents;
 
 >>>>>>> .merge_file_X6Dpj0
 >>>>>>> .merge_file_L5SAAq
+=======
+
+>>>>>>> laraxot/dev
 /**
  * Base test case for UI module.
  *
  * Uses shared sqlite from fixcity_data.sqlite (no RefreshDatabase).
+<<<<<<< HEAD
 <<<<<<< .merge_file_snOgZN
 =======
 <<<<<<< .merge_file_1H3Ijs
@@ -86,10 +99,14 @@ use function Safe\file_get_contents;
  * Pattern skip offline: Feature/`ui-db` skip se manca schema; Unit eseguiti.
 >>>>>>> .merge_file_X6Dpj0
 >>>>>>> .merge_file_L5SAAq
+=======
+ * Pattern skip offline: Feature/`ui-db` skip se manca schema; Unit eseguiti.
+>>>>>>> laraxot/dev
  */
 abstract class TestCase extends XotBaseTestCase
 {
     use DatabaseTransactions;
+<<<<<<< HEAD
 <<<<<<< .merge_file_snOgZN
 <<<<<<< HEAD
     use EnsuresUiDatabaseSchema;
@@ -108,6 +125,9 @@ abstract class TestCase extends XotBaseTestCase
 =======
 >>>>>>> .merge_file_X6Dpj0
 >>>>>>> .merge_file_L5SAAq
+=======
+    use EnsuresUiDatabaseSchema;
+>>>>>>> laraxot/dev
 
     /**
      * Restringe il tipo di ritorno unione di shouldReceive() per PHPStan.
@@ -128,6 +148,7 @@ abstract class TestCase extends XotBaseTestCase
 
         return $expectation;
     }
+<<<<<<< HEAD
 <<<<<<< .merge_file_snOgZN
 >>>>>>> laraxot/dev
 =======
@@ -140,6 +161,8 @@ abstract class TestCase extends XotBaseTestCase
 =======
 >>>>>>> .merge_file_X6Dpj0
 >>>>>>> .merge_file_L5SAAq
+=======
+>>>>>>> laraxot/dev
 
     /** @var list<string> */
     protected $connectionsToTransact = ['xot', 'sqlite', 'user'];
@@ -158,6 +181,7 @@ abstract class TestCase extends XotBaseTestCase
 
     protected function setUp(): void
     {
+<<<<<<< HEAD
 <<<<<<< .merge_file_snOgZN
 <<<<<<< HEAD
 =======
@@ -240,6 +264,13 @@ abstract class TestCase extends XotBaseTestCase
         $this->prepareSharedSqliteForTesting();
 
         parent::setUp();
+=======
+        $this->prepareSharedSqliteForTesting();
+
+        parent::setUp();
+
+        $this->ensureUiSchema();
+>>>>>>> laraxot/dev
 
         config(['auth.providers.users.model' => User::class]);
 
@@ -293,11 +324,14 @@ abstract class TestCase extends XotBaseTestCase
         return $file !== false ? $file : null;
     }
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_snOgZN
 =======
 =======
 >>>>>>> .merge_file_X6Dpj0
 >>>>>>> .merge_file_L5SAAq
+=======
+>>>>>>> laraxot/dev
     /**
      * Lo sqlite condiviso non contiene sempre le tabelle themes/categories.
      * fixcity_data.sqlite = offline anche se somehow le tabelle UI ci sono.
@@ -324,6 +358,7 @@ abstract class TestCase extends XotBaseTestCase
         } catch (\Throwable) {
             return true;
         }
+<<<<<<< HEAD
 <<<<<<< .merge_file_snOgZN
 >>>>>>> laraxot/dev
 =======
@@ -336,5 +371,7 @@ abstract class TestCase extends XotBaseTestCase
 =======
 >>>>>>> .merge_file_X6Dpj0
 >>>>>>> .merge_file_L5SAAq
+=======
+>>>>>>> laraxot/dev
     }
 }

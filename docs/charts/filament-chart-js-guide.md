@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dGO4bl
 =======
 =======
@@ -63,6 +64,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9HkhlY
 >>>>>>> .merge_file_e91C9N
+=======
+>>>>>>> laraxot/dev
 # Filament Chart.js Guide
 
 > **Why this guide?**: To standardize how we use Chart.js in Filament, especially regarding advanced features like plugins (Zoom, Annotations) which are not enabled by default.
@@ -172,6 +175,7 @@ See the **[LimeSurvey Professional Charts Guide](../../../limesurvey/docs/profes
 
 **Do NOT** use `dompdf` or client-side canvas capture for charts.
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dGO4bl
 The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper around Browsershot).
 =======
@@ -230,6 +234,9 @@ The architectural standard for modulo questionari is **Spatie Laravel PDF** (a w
 The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper around Browsershot).
 >>>>>>> .merge_file_9HkhlY
 >>>>>>> .merge_file_e91C9N
+>>>>>>> laraxot/dev
+=======
+The architectural standard for Quaeris is **Spatie Laravel PDF** (a wrapper around Browsershot).
 >>>>>>> laraxot/dev
 
 **Pattern:** "Shadow Report Views"

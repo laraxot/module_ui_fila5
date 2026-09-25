@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 namespace Modules\UI\Tests\Feature;
 
 =======
@@ -18,12 +19,17 @@ namespace Modules\UI\Tests\Feature;
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_M521AE
 >>>>>>> laraxot/dev
+=======
+namespace Modules\UI\Tests\Feature;
+
+>>>>>>> laraxot/dev
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\View;
 use Modules\UI\Tests\TestCase;
 use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
+<<<<<<< HEAD
 <<<<<<< .merge_file_T460Ha
 <<<<<<< HEAD
 =======
@@ -54,6 +60,8 @@ uses(TestCase::class);
 =======
 >>>>>>> .merge_file_Kp9H6h
 >>>>>>> .merge_file_M521AE
+=======
+>>>>>>> laraxot/dev
 
 function skipUnlessPubThemeViews(): void
 {
@@ -165,6 +173,7 @@ describe('Component Rendering Tests', function (): void {
                 'value' => 'test-value',
             ])->render();
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_T460Ha
 =======
         } catch (\Throwable $e) {
@@ -183,6 +192,9 @@ describe('Component Rendering Tests', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_M521AE
+=======
+        } catch (\Throwable $e) {
+>>>>>>> laraxot/dev
             Assert::markTestSkipped('pub_theme input view not renderable: '.$e->getMessage());
         }
 
@@ -201,6 +213,7 @@ describe('Component Rendering Tests', function (): void {
                 'type' => 'button',
             ])->render();
 <<<<<<< HEAD
+<<<<<<< HEAD
         } catch (\Throwable $e) {
 =======
 <<<<<<< .merge_file_T460Ha
@@ -216,6 +229,9 @@ describe('Component Rendering Tests', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_M521AE
+>>>>>>> laraxot/dev
+=======
+        } catch (\Throwable $e) {
 >>>>>>> laraxot/dev
             Assert::markTestSkipped('pub_theme button view not renderable: '.$e->getMessage());
         }
@@ -236,6 +252,7 @@ describe('Component Rendering Tests', function (): void {
                 'subtitle' => 'Test Subtitle',
             ])->render();
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_T460Ha
 =======
         } catch (\Throwable $e) {
@@ -254,6 +271,9 @@ describe('Component Rendering Tests', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_M521AE
+=======
+        } catch (\Throwable $e) {
+>>>>>>> laraxot/dev
             Assert::markTestSkipped('pub_theme card view not renderable: '.$e->getMessage());
         }
 
@@ -290,6 +310,7 @@ describe('Component Integration Tests', function (): void {
         try {
             Blade::render($testView);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_T460Ha
 =======
         } catch (\Throwable $e) {
@@ -308,6 +329,9 @@ describe('Component Integration Tests', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_M521AE
+=======
+        } catch (\Throwable $e) {
+>>>>>>> laraxot/dev
             Assert::markTestSkipped('Blade component integration not renderable in this install: '.$e->getMessage());
         }
     });

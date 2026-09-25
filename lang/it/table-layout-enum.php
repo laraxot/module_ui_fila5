@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_mjC8DH
 <<<<<<< HEAD
 =======
@@ -38,6 +39,9 @@ return [
             'helper_text' => 'Ideale per visualizzare pochi dati con focus visivo',
         ],
     ],
+=======
+return [
+>>>>>>> laraxot/dev
     'list' => [
         'label' => 'Lista',
         'color' => 'primary',
@@ -53,6 +57,7 @@ return [
         'description' => 'Layout a griglia responsive con card',
         'tooltip' => 'Visualizza i dati in formato card responsive',
         'helper_text' => 'Ideale per visualizzare pochi dati con focus visivo',
+<<<<<<< HEAD
 <<<<<<< .merge_file_mjC8DH
 =======
 =======
@@ -87,6 +92,8 @@ return [
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MCjtob
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     ],
     'label' => 'Table Layout Enum',
     'plural_label' => 'Table Layout Enum (Plurale)',
@@ -99,6 +106,7 @@ return [
         ],
         'label' => 'Table Layout Enum',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_mjC8DH
 =======
 <<<<<<< .merge_file_zNI425
@@ -122,6 +130,9 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_HzcGi2
 >>>>>>> .merge_file_MCjtob
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> laraxot/dev
     ],
     'fields' => [
         'id' => [

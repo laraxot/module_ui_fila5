@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_mhxLb8
 =======
 <<<<<<< .merge_file_gzertp
@@ -114,6 +115,8 @@ I file di documentazione vanno nelle cartelle `docs/` dentro ogni modulo/tema.
 =======
 >>>>>>> .merge_file_M4hXzK
 >>>>>>> .merge_file_awN3VB
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: testing-rules
@@ -121,6 +124,7 @@ canonical: ../../../Themes/docs/shared-components/testing-rules-Modules.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/testing-rules-Modules.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_mhxLb8
 =======
 =======
@@ -242,4 +246,6 @@ I file di documentazione vanno nelle cartelle `docs/` dentro ogni modulo/tema.
 =======
 >>>>>>> .merge_file_M4hXzK
 >>>>>>> .merge_file_awN3VB
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

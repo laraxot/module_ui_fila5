@@ -6,6 +6,7 @@ namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Tables\Columns\TextColumn;
 use Modules\UI\Actions\Datetime\GetDaysMappingAction;
+<<<<<<< HEAD
 <<<<<<< .merge_file_UObH3E
 
 /**
@@ -21,13 +22,18 @@ use Modules\UI\Actions\Datetime\GetDaysMappingAction;
 /**
  * Controparte in lista di {@see \Modules\UI\Filament\Forms\Components\OpeningHoursField}.
 =======
+=======
+>>>>>>> laraxot/dev
 use Modules\UI\Filament\Forms\Components\OpeningHoursField;
 
 /**
  * Controparte in lista di {@see OpeningHoursField}.
+<<<<<<< HEAD
 >>>>>>> .merge_file_TALaJN
 >>>>>>> .merge_file_DkM4kc
 >>>>>>> .merge_file_8q6xIP
+=======
+>>>>>>> laraxot/dev
  *
  * Stesso fatto di dominio (orari settimanali per fascia mattina/pomeriggio), due
  * superfici diverse per forma: il form edita ogni giorno con `TimePicker` dedicati
@@ -74,6 +80,7 @@ class OpeningHoursColumn extends TextColumn
             $slots = is_array($day) ? self::formatSlots($day) : [];
 
             $abbrev = mb_substr($dayLabel, 0, 3);
+<<<<<<< HEAD
 <<<<<<< .merge_file_UObH3E
             $parts[] = $slots === []
 =======
@@ -93,10 +100,14 @@ class OpeningHoursColumn extends TextColumn
 >>>>>>> .merge_file_TALaJN
 >>>>>>> .merge_file_DkM4kc
 >>>>>>> .merge_file_8q6xIP
+=======
+            $parts[] = [] === $slots
+>>>>>>> laraxot/dev
                 ? "{$abbrev} chiuso"
                 : $abbrev.' '.implode(', ', $slots);
         }
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_UObH3E
         return $parts === [] ? '—' : implode(' · ', $parts);
 =======
@@ -116,6 +127,9 @@ class OpeningHoursColumn extends TextColumn
 >>>>>>> .merge_file_TALaJN
 >>>>>>> .merge_file_DkM4kc
 >>>>>>> .merge_file_8q6xIP
+=======
+        return [] === $parts ? '—' : implode(' · ', $parts);
+>>>>>>> laraxot/dev
     }
 
     /**

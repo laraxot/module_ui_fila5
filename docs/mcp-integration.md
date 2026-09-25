@@ -3,6 +3,7 @@
 ## Panoramica
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_UWMyVZ
 Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_<nome progetto>_fila5_mono.
 =======
@@ -1732,6 +1733,9 @@ Questo documento fornisce linee guida per l'integrazione dei server MCP (Model C
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_2NOo4D
 >>>>>>> laraxot/dev
+=======
+Questo documento fornisce linee guida per l'integrazione dei server MCP (Model Context Protocol) con il modulo UI, seguendo le regole di sviluppo e le convenzioni di codice stabilite per i progetti base_<nome progetto>_fila5_mono.
+>>>>>>> laraxot/dev
 
 ## Server MCP Consigliati
 
@@ -1880,6 +1884,7 @@ class ThemeFileService
             $content = $this->mcpService->filesystem()->readFile($fullPath);
             
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_UWMyVZ
 =======
@@ -1900,6 +1905,8 @@ class ThemeFileService
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_2NOo4D
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             return $content ?: null;
         } catch (\Exception $e) {
@@ -1962,6 +1969,7 @@ class ThemeFileService
         }
         
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_UWMyVZ
 =======
@@ -1983,6 +1991,8 @@ class ThemeFileService
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_2NOo4D
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         try {
             return $this->mcpService->filesystem()->listDirectory($fullPath);
@@ -2095,6 +2105,7 @@ class UICacheService
             }
             
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_UWMyVZ
 =======
@@ -2119,6 +2130,8 @@ class UICacheService
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_2NOo4D
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             return null;
         } catch (\Exception $e) {
@@ -2153,6 +2166,7 @@ class UICacheService
                 }
                 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_UWMyVZ
 =======
@@ -2177,6 +2191,8 @@ class UICacheService
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_2NOo4D
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
                 return true;
             } catch (\Exception $e) {
@@ -2289,6 +2305,7 @@ class AnalyzeUIAccessibilityAction
             $suggestions = $analysis['accessibility']['suggestions'] ?? [];
             
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_UWMyVZ
 =======
@@ -2310,6 +2327,8 @@ class AnalyzeUIAccessibilityAction
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_2NOo4D
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
             return new UIAnalysisData(
                 score: $accessibilityScore,
@@ -2424,6 +2443,7 @@ class CachedUIComponent extends Component
         }
         
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_UWMyVZ
 =======
@@ -2459,6 +2479,8 @@ class CachedUIComponent extends Component
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_2NOo4D
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         return view('ui::livewire.cached-ui-component', [
             'html' => $html
         ]);
@@ -2493,6 +2515,7 @@ $analyze = function () {
         $analyzeAction = app(AnalyzeUIAccessibilityAction::class);
         
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_UWMyVZ
 =======
@@ -2514,6 +2537,8 @@ $analyze = function () {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_2NOo4D
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         $this->analysisResult = $analyzeAction->execute($this->url);
     } catch (\Exception $e) {
@@ -2608,6 +2633,7 @@ $analyze = function () {
 
 ## Conclusione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_<nome progetto>_fila5_mono.
 =======
@@ -3001,4 +3027,7 @@ L'integrazione dei server MCP con il modulo UI consente di migliorare significat
 L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_<nome progetto>_fila5_mono.
 >>>>>>> .merge_file_ryj9nS
 >>>>>>> .merge_file_2NOo4D
+>>>>>>> laraxot/dev
+=======
+L'integrazione dei server MCP con il modulo UI consente di migliorare significativamente le funzionalità del modulo, fornendo automazione del browser per testing e screenshot, gestione efficiente dei file per asset UI, caching di componenti UI e analisi dell'interfaccia utente. Seguendo le linee guida e gli esempi forniti in questo documento, è possibile implementare queste funzionalità in modo conforme alle regole di sviluppo stabilite per i progetti base_<nome progetto>_fila5_mono.
 >>>>>>> laraxot/dev

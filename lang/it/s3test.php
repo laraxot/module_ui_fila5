@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_xwarWC
 <<<<<<< HEAD
 =======
@@ -48,6 +49,9 @@ return [
 return [
 >>>>>>> .merge_file_VINoGM
 >>>>>>> .merge_file_SOGeR4
+=======
+return [
+>>>>>>> laraxot/dev
     'page' => [
         'title' => 'Test S3 e CloudFront',
         'heading' => 'Test Configurazione AWS',
@@ -84,6 +88,7 @@ return [
         ],
         'testPermissions' => [
             'label' => '🔒 Test Permessi',
+<<<<<<< HEAD
 <<<<<<< .merge_file_xwarWC
 <<<<<<< HEAD
             'tooltip' => 'Testa i permessi S3 (ListBucket, PutObject, GetObject, DeleteObject]',
@@ -109,6 +114,9 @@ return [
             'tooltip' => 'Testa i permessi S3 (ListBucket, PutObject, GetObject, DeleteObject)',
 >>>>>>> .merge_file_VINoGM
 >>>>>>> .merge_file_SOGeR4
+=======
+            'tooltip' => 'Testa i permessi S3 (ListBucket, PutObject, GetObject, DeleteObject]',
+>>>>>>> laraxot/dev
             'success' => 'Permessi S3 testati con successo',
             'error' => 'Errore nel test dei permessi S3',
         ],
@@ -199,6 +207,7 @@ return [
         ],
         'label' => 'S3test',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_xwarWC
 =======
 <<<<<<< .merge_file_mN4Tc3
@@ -222,5 +231,8 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_VINoGM
 >>>>>>> .merge_file_SOGeR4
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> laraxot/dev
     ],
 ];

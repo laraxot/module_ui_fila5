@@ -3,6 +3,7 @@ module: theme
 topic: usage
 canonical: ../../../../Themes/docs/shared-components/usage-Modules.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VhGt5T
 =======
 =======
@@ -36,6 +37,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_qlzrLR
 >>>>>>> .merge_file_lq61ep
+=======
+>>>>>>> laraxot/dev
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/usage-Modules.md

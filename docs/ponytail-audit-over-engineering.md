@@ -1,6 +1,7 @@
 # Ponytail audit — UI (over-engineering)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cnvj22
 =======
 <<<<<<< .merge_file_AIPy2Y
@@ -16,10 +17,14 @@
 >>>>>>> .merge_file_kNq4rE
 **Ultimo run:** 2026-07-01  
 >>>>>>> laraxot/dev
+=======
+**Ultimo run:** 2026-07-01  
+>>>>>>> laraxot/dev
 **Modulo:** design system, componenti Filament/Blade condivisi.  
 **Hub:** [../../../../docs/audit/ponytail-audit.md](../../../../docs/audit/ponytail-audit.md)  
 **Remediation:** [../../../../docs/project/ponytail-audit-remediation.md](../../../../docs/project/ponytail-audit-remediation.md)
 **GitHub monorepo:** [Issue #221](https://github.com/laraxot/base_predict_fila5/issues/221) · [Discussion #222](https://github.com/laraxot/base_predict_fila5/discussions/222) · [Discussion #228](https://github.com/laraxot/base_predict_fila5/discussions/228)
+<<<<<<< HEAD
 <<<<<<< HEAD
 **GitHub monorepo:** [Issue #221](https://github.com/laraxot/<nome repository>/discussions/228)
 **GitHub monorepo:** [Issue #221](https://github.com/laraxot/<nome repository>/discussions/228)
@@ -32,6 +37,8 @@
 | UI2 | `delete` | `docs/archive/` (~144 file duplicati sessione) | Solo `docs/wiki/` | `docs/archive/` |
 | UI3 | `delete` | ~26 stub `.md` in root modulo (`api.md`, `blocks.md`, …) | `docs/` + indici | root `Modules/UI/*.md` |
 =======
+=======
+>>>>>>> laraxot/dev
 
 ## Findings
 
@@ -41,6 +48,7 @@
 | UI1 | `delete` | `Config/` maiuscolo + `Config.bak/` (duplicato di `config/`) | Solo `config/` | `Config/`, `Config.bak/` | ✅ 2026-07-01 |
 | UI2 | `delete` | `docs/archive/` (~144 file duplicati sessione) | Solo `docs/wiki/` | `docs/archive/` | ✅ 2026-07-01 |
 | UI3 | `delete` | ~26 stub `.md` / `.txt` in root + mirror `_docs/`, `docs/root-*` | `docs/wiki/` + indici | root `Modules/UI/*`, `_docs/` | ✅ 2026-07-01 |
+<<<<<<< HEAD
 <<<<<<< .merge_file_cnvj22
 =======
 =======
@@ -96,11 +104,14 @@
 >>>>>>> .merge_file_GrWaaM
 >>>>>>> .merge_file_kNq4rE
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Collegamenti
 
 - [wiki/concepts/ponytail-audit.md](./wiki/concepts/ponytail-audit.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cnvj22
 - [00-INDEX.md](./00-INDEX.md)
 =======
@@ -152,4 +163,7 @@
 - [00-INDEX.md](./00-INDEX.md)
 >>>>>>> .merge_file_GrWaaM
 >>>>>>> .merge_file_kNq4rE
+>>>>>>> laraxot/dev
+=======
+- [00-INDEX.md](./00-INDEX.md)
 >>>>>>> laraxot/dev

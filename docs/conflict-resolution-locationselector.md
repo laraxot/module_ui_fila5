@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_cVolWz
 =======
 <<<<<<< .merge_file_QdVD6G
@@ -21,6 +22,8 @@
 =======
 >>>>>>> .merge_file_TkLQGl
 >>>>>>> .merge_file_HUom6J
+=======
+>>>>>>> laraxot/dev
 # Risoluzione Conflitto LocationSelector.php
 
 ## Problema Identificato
@@ -29,6 +32,7 @@ Il file `Modules/UI/app/Filament/Forms/Components/LocationSelector.php` presenta
 
 1. **Linea 278**: Metodo getCapOptions con logica di gestione errori
 2. **Linea 312**: Metodo validate con logica di validazione
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_cVolWz
 3. **Linea 322**: Continuazione metodo validate
@@ -82,6 +86,9 @@ Il file `Modules/UI/app/Filament/Forms/Components/LocationSelector.php` presenta
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_HUom6J
+>>>>>>> laraxot/dev
+=======
+3. **Linea 322**: Continuazione metodo validate
 >>>>>>> laraxot/dev
 4. **Linea 342**: Metodo getGeographicData con gestione dati geografici
 5. **Linea 355**: Continuazione metodo getGeographicData
@@ -153,6 +160,7 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 - [filament-components-location-studio.md](filament-components-location-studio.md)
 - [components.md](components.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_cVolWz
 - [Modules/UI/docs/](../../docs/)
 
@@ -204,6 +212,10 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_HUom6J
+>>>>>>> laraxot/dev
+=======
+- [Modules/UI/docs/](../../docs/)
+
 >>>>>>> laraxot/dev
 # Risoluzione Conflitto LocationSelector.php
 
@@ -286,6 +298,7 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 - [Modules/UI/project_docs/](../project_docs/)
 - [Modules/UI/project_docs/](../project_docs/)
 - [Modules/UI/project_docs/](../project_docs/)
+<<<<<<< HEAD
 <<<<<<< .merge_file_cVolWz
 <<<<<<< HEAD
 =======
@@ -326,4 +339,7 @@ Il conflitto riguarda la logica di recupero e gestione dei dati geografici.
 
 >>>>>>> .merge_file_TkLQGl
 >>>>>>> .merge_file_HUom6J
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev

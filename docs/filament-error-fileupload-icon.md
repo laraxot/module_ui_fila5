@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Aajo26
 =======
 <<<<<<< .merge_file_Vg0GXG
@@ -24,6 +25,8 @@ Il metodo `icon()` **NON esiste** sul componente `Filament\Forms\Components\File
 =======
 >>>>>>> .merge_file_MGMUvJ
 >>>>>>> .merge_file_a2PMjZ
+=======
+>>>>>>> laraxot/dev
 # Errore: Metodo `icon()` su FileUpload di Filament
 
 ## Descrizione
@@ -33,6 +36,7 @@ Il metodo `icon()` **NON esiste** sul componente `Filament\Forms\Components\File
 - `FileUpload` **(non supporta)**
 - `TextInput`, `Select`, `DatePicker`, `TimePicker` **(supportano)**
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_Aajo26
 =======
 <<<<<<< HEAD
@@ -96,10 +100,13 @@ Il metodo `icon()` **NON esiste** sul componente `Filament\Forms\Components\File
 >>>>>>> .merge_file_MGMUvJ
 >>>>>>> .merge_file_a2PMjZ
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ## Soluzione
 - **Non usare mai** `->icon()` su FileUpload.
 - Se serve un'icona, implementare una soluzione custom (ad esempio via slot Blade o CSS personalizzato).
 - Per le icone su altri componenti, usare solo dove documentato nell'API ufficiale.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Aajo26
 =======
@@ -124,6 +131,8 @@ Il metodo `icon()` **NON esiste** sul componente `Filament\Forms\Components\File
 =======
 >>>>>>> .merge_file_MGMUvJ
 >>>>>>> .merge_file_a2PMjZ
+=======
+>>>>>>> laraxot/dev
 
 ## Best Practice
 - Consultare sempre la [documentazione ufficiale Filament](https://filamentphp.com/docs/3.x/forms/fields/file-upload) prima di usare metodi non standard.
@@ -159,6 +168,7 @@ Il metodo `icon()` **NON esiste** sul componente `Filament\Forms\Components\File
 
 ## Collegamenti tra versioni di filament-error-fileupload-icon.md
 * [filament-error-fileupload-icon.md](../../patient/project_docs/filament-error-fileupload-icon.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_Aajo26
 =======
 =======
@@ -202,4 +212,6 @@ See canonical documentation: ../../../Themes/docs/shared-components/filament-err
 =======
 >>>>>>> .merge_file_MGMUvJ
 >>>>>>> .merge_file_a2PMjZ
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

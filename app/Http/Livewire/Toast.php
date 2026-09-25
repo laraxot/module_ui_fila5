@@ -1,6 +1,10 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 /**
  * @see https://github.com/bezhanSalleh/filament-language-switch/blob/main/src/Http/Livewire/FilamentLanguageSwitch.php
  */
@@ -14,6 +18,7 @@ final class Toast extends Component
 {
     public function render(): View
     {
+<<<<<<< HEAD
         $view = 'ui::livewire.toast';
 <<<<<<< .merge_file_ZGeH2B
 <<<<<<< HEAD
@@ -26,11 +31,16 @@ final class Toast extends Component
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_2nt62T
+=======
+        /** @var view-string $view */
+        $view = 'ui::livewire.toast';
+>>>>>>> laraxot/dev
         $view_params = [
             'view' => $view,
         ];
 
         return view($view, $view_params);
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZGeH2B
 =======
 =======
@@ -60,5 +70,7 @@ final class Toast extends Component
         return view($view, $viewParams);
 >>>>>>> .merge_file_0dXZFZ
 >>>>>>> .merge_file_2nt62T
+=======
+>>>>>>> laraxot/dev
     }
 }

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jDUAim
 # AVVISO IMPORTANTE ([DATE])
 =======
@@ -23,6 +24,9 @@
 >>>>>>> .merge_file_a09box
 >>>>>>> .merge_file_c88NfI
 >>>>>>> laraxot/dev
+=======
+# AVVISO IMPORTANTE ([DATE])
+>>>>>>> laraxot/dev
 
 > **ATTENZIONE:** Tutti i componenti UI condivisi (come `logo.blade.php`) devono essere SEMPRE posizionati in `Modules/UI/resources/views/components/ui/` e MAI in `resources/views/components/`. Qualsiasi violazione di questa regola causa errori di rendering, override errati, problemi di modularità e manutenzione.
 >
@@ -32,6 +36,7 @@
 >
 > **Soluzione:** Seguire SEMPRE la regola documentata qui sotto e aggiornata anche in README.md e nella root docs/links.md.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_jDUAim
 =======
@@ -49,11 +54,14 @@
 =======
 >>>>>>> .merge_file_a09box
 >>>>>>> .merge_file_c88NfI
+=======
+>>>>>>> laraxot/dev
 # Gestione dei Percorsi e degli Asset 
 
 ## Collegamenti correlati
 - [README modulo UI](/laravel/modules/ui/docs/readme.md)
 - [Architettura Modulare](/laravel/modules/ui/docs/architecture.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_jDUAim
 =======
 <<<<<<< HEAD
@@ -115,12 +123,15 @@
 >>>>>>> .merge_file_a09box
 >>>>>>> .merge_file_c88NfI
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 - [Collegamenti Documentazione](/docs/collegamenti-documentazione.md)
 
 ## Percorsi Corretti per gli Asset
 
 ### Struttura delle Directory
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 In <nome progetto>, è fondamentale rispettare la struttura corretta delle directory per gli asset pubblici:
 
@@ -194,6 +205,12 @@ In <nome progetto>, è fondamentale rispettare la struttura corretta delle direc
 >>>>>>> .merge_file_a09box
 >>>>>>> .merge_file_c88NfI
 >>>>>>> laraxot/dev
+=======
+, è fondamentale rispettare la struttura corretta delle directory per gli asset pubblici:
+
+```
+/var/www/html/Quaeris/
+>>>>>>> laraxot/dev
 ├── laravel/                 # Applicazione Laravel (codice sorgente)
 │   ├── Modules/             # Moduli dell'applicazione
 │   ├── resources/           # Risorse non compilate
@@ -212,6 +229,7 @@ In <nome progetto>, è fondamentale rispettare la struttura corretta delle direc
 | Tipo di Asset | ✅ Percorso Corretto | ❌ Percorso Errato |
 |---------------|---------------------|-------------------|
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jDUAim
 =======
 <<<<<<< .merge_file_VE5saP
@@ -228,10 +246,13 @@ In <nome progetto>, è fondamentale rispettare la struttura corretta delle direc
 =======
 >>>>>>> .merge_file_a09box
 >>>>>>> .merge_file_c88NfI
+=======
+>>>>>>> laraxot/dev
 | Immagini | `/var/www/html/Quaeris/public_html/images/` | `/var/www/html/Quaeris/laravel/public/images/` |
 | CSS | `/var/www/html/Quaeris/public_html/css/` | `/var/www/html/Quaeris/laravel/public/css/` |
 | JavaScript | `/var/www/html/Quaeris/public_html/js/` | `/var/www/html/Quaeris/laravel/public/js/` |
 | SVG | `/var/www/html/Quaeris/public_html/images/` | `/var/www/html/Quaeris/laravel/public/images/` |
+<<<<<<< HEAD
 <<<<<<< .merge_file_jDUAim
 =======
 <<<<<<< HEAD
@@ -301,6 +322,8 @@ In <nome progetto>, è fondamentale rispettare la struttura corretta delle direc
 >>>>>>> .merge_file_a09box
 >>>>>>> .merge_file_c88NfI
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## Utilizzo degli Asset nei Componenti Blade
 
@@ -318,6 +341,7 @@ Per garantire una buona esperienza utente, implementare sempre un fallback per l
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jDUAim
 <img 
 =======
@@ -387,6 +411,9 @@ Per garantire una buona esperienza utente, implementare sempre un fallback per l
 <img 
 >>>>>>> .merge_file_a09box
 >>>>>>> .merge_file_c88NfI
+>>>>>>> laraxot/dev
+=======
+<img 
 >>>>>>> laraxot/dev
     src="{{ asset('images/avatars/default-' . $avatarNumber . '.svg') }}"
     alt="{{ $user->name ?? 'User' }}"
@@ -402,6 +429,7 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jDUAim
 /var/www/html/Quaeris/laravel/Themes/One/resources/views/components/ui/
 =======
@@ -470,6 +498,9 @@ Themes/One/resources/views/components/ui/
 /var/www/html/Quaeris/laravel/Themes/One/resources/views/components/ui/
 >>>>>>> .merge_file_a09box
 >>>>>>> .merge_file_c88NfI
+>>>>>>> laraxot/dev
+=======
+/var/www/html/Quaeris/laravel/Themes/One/resources/views/components/ui/
 >>>>>>> laraxot/dev
 ```
 
@@ -479,6 +510,7 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jDUAim
 /var/www/html/Quaeris/public_html/images/
 =======
@@ -584,6 +616,9 @@ public_html/images/
 /var/www/html/Quaeris/public_html/images/
 >>>>>>> .merge_file_a09box
 >>>>>>> .merge_file_c88NfI
+>>>>>>> laraxot/dev
+=======
+/var/www/html/Quaeris/public_html/images/
 >>>>>>> laraxot/dev
 ```
 
@@ -595,6 +630,7 @@ Il componente avatar è implementato in:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jDUAim
 /var/www/html/Quaeris/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 =======
@@ -663,6 +699,9 @@ Themes/One/resources/views/components/ui/avatar.blade.php
 /var/www/html/Quaeris/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 >>>>>>> .merge_file_a09box
 >>>>>>> .merge_file_c88NfI
+>>>>>>> laraxot/dev
+=======
+/var/www/html/Quaeris/laravel/Themes/One/resources/views/components/ui/avatar.blade.php
 >>>>>>> laraxot/dev
 ```
 
@@ -670,6 +709,7 @@ E utilizza gli avatar SVG dalla directory pubblica:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jDUAim
 /var/www/html/Quaeris/public_html/images/avatars/
 =======
@@ -775,6 +815,9 @@ public_html/images/avatars/
 /var/www/html/Quaeris/public_html/images/avatars/
 >>>>>>> .merge_file_a09box
 >>>>>>> .merge_file_c88NfI
+>>>>>>> laraxot/dev
+=======
+/var/www/html/Quaeris/public_html/images/avatars/
 >>>>>>> laraxot/dev
 ```
 
@@ -784,6 +827,7 @@ Il componente icon è implementato in:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jDUAim
 /var/www/html/Quaeris/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 =======
@@ -852,6 +896,9 @@ Themes/One/resources/views/components/ui/icon.blade.php
 /var/www/html/Quaeris/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 >>>>>>> .merge_file_a09box
 >>>>>>> .merge_file_c88NfI
+>>>>>>> laraxot/dev
+=======
+/var/www/html/Quaeris/laravel/Themes/One/resources/views/components/ui/icon.blade.php
 >>>>>>> laraxot/dev
 ```
 
@@ -862,6 +909,7 @@ E include le definizioni SVG direttamente nel componente.
 > **IMPORTANTE:** Tutti i componenti Blade UI condivisi (es. logo, button, badge, ecc.) devono essere posizionati esclusivamente in:
 >
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jDUAim
 > `/var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/`
 =======
@@ -931,6 +979,9 @@ E include le definizioni SVG direttamente nel componente.
 > `/var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/`
 >>>>>>> .merge_file_a09box
 >>>>>>> .merge_file_c88NfI
+>>>>>>> laraxot/dev
+=======
+> `/var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/`
 >>>>>>> laraxot/dev
 >
 > **MAI** in `resources/views/components/ui/` della root Laravel.
@@ -946,6 +997,7 @@ E include le definizioni SVG direttamente nel componente.
 **❌ Errato:**
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -978,10 +1030,13 @@ E include le definizioni SVG direttamente nel componente.
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_c88NfI
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 /var/www/html/ptvx/laravel/resources/views/components/ui/logo.blade.php
 ```
 **✅ Corretto:**
 ```
+<<<<<<< HEAD
 <<<<<<< HEAD
 Modules/UI/resources/views/components/ui/logo.blade.php
 =======
@@ -1039,6 +1094,9 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 >>>>>>> .merge_file_a09box
 >>>>>>> .merge_file_c88NfI
 >>>>>>> laraxot/dev
+=======
+/var/www/html/ptvx/laravel/Modules/UI/resources/views/components/ui/logo.blade.php
+>>>>>>> laraxot/dev
 ```
 
 ## Best Practices
@@ -1052,6 +1110,7 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 
 ## Errori Comuni
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_jDUAim
 =======
@@ -1070,10 +1129,13 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 =======
 >>>>>>> .merge_file_a09box
 >>>>>>> .merge_file_c88NfI
+=======
+>>>>>>> laraxot/dev
 1. **Utilizzo del percorso Laravel public**: Utilizzare `/var/www/html/Quaeris/laravel/public/` invece di `/var/www/html/Quaeris/public_html/`
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile
 4. **Inconsistenza nei nomi dei file**: Utilizzare convenzioni di naming diverse per file simili
+<<<<<<< HEAD
 <<<<<<< .merge_file_jDUAim
 =======
 <<<<<<< HEAD
@@ -1390,4 +1452,6 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 =======
 >>>>>>> .merge_file_a09box
 >>>>>>> .merge_file_c88NfI
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

@@ -2,6 +2,7 @@
 
 **Modulo**: UI (User Interface)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MP86xw
 =======
 **Data**: 2025-01-27
@@ -23,6 +24,8 @@
 >>>>>>> .merge_file_yrc6ob
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_icOLKu
+=======
+>>>>>>> laraxot/dev
 **Versione**: 1.0
 **Stato**: 🚧 IN SVILUPPO
 
@@ -30,6 +33,7 @@
 
 ## 🎯 PANORAMICA
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
 <<<<<<< .merge_file_MP86xw
@@ -86,6 +90,9 @@ Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modu
 >>>>>>> .merge_file_yrc6ob
 >>>>>>> .merge_file_icOLKu
 >>>>>>> laraxot/dev
+=======
+Questa guida descrive l'integrazione di funzionalità mappa interattiva nel modulo UI, ispirate al progetto [farmshops.eu](https://farmshops.eu/). L'obiettivo è fornire componenti riutilizzabili per visualizzazioni geografiche in tutta l'applicazione FixCity.
+>>>>>>> laraxot/dev
 
 ---
 
@@ -121,6 +128,7 @@ Modules/UI/
 │   │   │   └── map-popup.js
 │   │   └── components/
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MP86xw
 =======
 <<<<<<< .merge_file_Myq0EY
@@ -145,6 +153,9 @@ Modules/UI/
 >>>>>>> .merge_file_yrc6ob
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_icOLKu
+=======
+│   │       ├── location-picker-lit.js
+>>>>>>> laraxot/dev
 │   │       └── address-autocomplete.js
 │   ├── css/
 │   │   ├── map/
@@ -530,6 +541,7 @@ class MapService
                     'status' => $ticket->status->slug,
                     'priority' => $ticket->priority->slug,
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MP86xw
                     'url' => route('fixcity.tickets.show', $ticket)
 =======
@@ -592,6 +604,9 @@ class MapService
                     'url' => route('fixcity.tickets.show', $ticket)
 >>>>>>> .merge_file_yrc6ob
 >>>>>>> .merge_file_icOLKu
+>>>>>>> laraxot/dev
+=======
+                    'url' => route('fixcity.tickets.show', $ticket)
 >>>>>>> laraxot/dev
                 ];
             })
@@ -673,6 +688,7 @@ class GeocodingService
         </div>
         <div class="col-md-4">
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MP86xw
             <livewire:fixcity::components.ticket-stats />
 =======
@@ -727,6 +743,9 @@ class GeocodingService
             <livewire:fixcity::components.ticket-stats />
 >>>>>>> .merge_file_yrc6ob
 >>>>>>> .merge_file_icOLKu
+>>>>>>> laraxot/dev
+=======
+            <livewire:fixcity::components.ticket-stats />
 >>>>>>> laraxot/dev
         </div>
     </div>
@@ -782,6 +801,7 @@ class GeocodingService
 
 ### 📅 Fase 3: Integrazione (Settimana 3)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] Integrazione con modulo Fixcity
 =======
 <<<<<<< HEAD
@@ -831,6 +851,9 @@ class GeocodingService
 >>>>>>> .merge_file_yrc6ob
 >>>>>>> .merge_file_icOLKu
 >>>>>>> laraxot/dev
+=======
+- [ ] Integrazione con modulo Fixcity
+>>>>>>> laraxot/dev
 - [ ] Integrazione con modulo User
 - [ ] API endpoints per mappa
 - [ ] Testing componenti
@@ -853,6 +876,7 @@ class GeocodingService
 
 ### 📖 Documentazione Correlata
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MP86xw
 =======
 <<<<<<< .merge_file_Myq0EY
@@ -877,6 +901,9 @@ class GeocodingService
 >>>>>>> .merge_file_yrc6ob
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_icOLKu
+=======
+- [Farmshops.eu Analysis](../geo/docs/farmshops-analysis.md)
+>>>>>>> laraxot/dev
 - [Geo Module Documentation](../Geo/docs/)
 - [UI Component API](component-api.md)
 - [Styling Guide](styling-guide.md)
@@ -884,6 +911,7 @@ class GeocodingService
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MP86xw
 =======
 <<<<<<< .merge_file_Myq0EY
@@ -911,6 +939,9 @@ class GeocodingService
 >>>>>>> .merge_file_yrc6ob
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_icOLKu
+=======
+
+>>>>>>> laraxot/dev
 **Status**: 🚧 IN SVILUPPO
 **Confidence Level**: 90%
 

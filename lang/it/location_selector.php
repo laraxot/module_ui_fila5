@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_PCm1Wm
 <<<<<<< HEAD
 =======
@@ -27,6 +28,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_ZtV6vN
 >>>>>>> .merge_file_069IjV
+=======
+>>>>>>> laraxot/dev
 return [
     'region' => [
         'label' => 'Regione',
@@ -66,12 +69,15 @@ return [
         'region_province_required_for_cap' => 'Devi selezionare regione e provincia prima di scegliere il CAP',
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_PCm1Wm
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_069IjV
+=======
+>>>>>>> laraxot/dev
     'label' => 'Location Selector',
     'plural_label' => 'Location Selector (Plurale)',
     'navigation' => [
@@ -116,6 +122,7 @@ return [
             'label' => 'Elimina Location Selector',
         ],
     ],
+<<<<<<< HEAD
 <<<<<<< .merge_file_PCm1Wm
 =======
 =======
@@ -124,5 +131,7 @@ return [
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_069IjV
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ];

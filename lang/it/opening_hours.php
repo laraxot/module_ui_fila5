@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_uhqAUU
 <<<<<<< HEAD
 =======
@@ -34,6 +35,9 @@ return [
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
     // Laraxot module file — see docs/wiki for domain contract.
+>>>>>>> laraxot/dev
+=======
+return [
 >>>>>>> laraxot/dev
     'instructions' => [
         'title' => 'Configurazione Orari',
@@ -81,6 +85,7 @@ return [
         'format_hint' => 'Utilizzare il formato 24 ore (es. 14:30 per le 2:30 del pomeriggio]',
         'empty_hint' => 'Lasciare vuoto significa "chiuso"',
     ],
+<<<<<<< HEAD
 <<<<<<< .merge_file_uhqAUU
 =======
 return [
@@ -115,6 +120,8 @@ return [
 =======
 >>>>>>> .merge_file_8qwq1N
 >>>>>>> .merge_file_r8F6zm
+=======
+>>>>>>> laraxot/dev
     'validation' => [
         'invalid_format' => 'Formato orario non valido. Utilizzare HH:MM-HH:MM',
         'invalid_time_range' => 'L\'orario di apertura deve essere precedente all\'orario di chiusura',
@@ -128,6 +135,7 @@ return [
         'opening_before_closing' => 'L\'orario di apertura del :session per :day deve essere precedente a quello di chiusura.',
         'morning' => 'mattino',
         'afternoon' => 'pomeriggio',
+<<<<<<< HEAD
 <<<<<<< .merge_file_uhqAUU
 <<<<<<< HEAD
 =======
@@ -140,6 +148,8 @@ return [
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_r8F6zm
+=======
+>>>>>>> laraxot/dev
         'opening_hours' => [
             'morning_before_afternoon' => 'Per :day, l\'orario di chiusura del mattino deve essere precedente all\'apertura del pomeriggio.',
             'missing_closing_time' => 'Se specifichi l\'orario di apertura del :session  :day, devi specificare anche quello di chiusura.',
@@ -148,6 +158,7 @@ return [
             'morning' => 'mattino',
             'afternoon' => 'pomeriggio',
         ],
+<<<<<<< HEAD
 <<<<<<< .merge_file_uhqAUU
 =======
         'opening_hours' => ['morning_before_afternoon' => 'Per :day, l\'orario di chiusura del mattino deve essere precedente all\'apertura del pomeriggio.', 'missing_closing_time' => 'Se specifichi l\'orario di apertura del :session  :day, devi specificare anche quello di chiusura.', 'missing_opening_time' => 'Se specifichi l\'orario di chiusura del :session  :day, devi specificare anche quello di apertura.', 'opening_before_closing' => 'L\'orario di apertura del :session  :day deve essere precedente a quello di chiusura.', 'morning' => 'mattino', 'afternoon' => 'pomeriggio'],
@@ -164,12 +175,15 @@ return [
         'opening_hours' => ['morning_before_afternoon' => 'Per :day, l\'orario di chiusura del mattino deve essere precedente all\'apertura del pomeriggio.', 'missing_closing_time' => 'Se specifichi l\'orario di apertura del :session  :day, devi specificare anche quello di chiusura.', 'missing_opening_time' => 'Se specifichi l\'orario di chiusura del :session  :day, devi specificare anche quello di apertura.', 'opening_before_closing' => 'L\'orario di apertura del :session  :day deve essere precedente a quello di chiusura.', 'morning' => 'mattino', 'afternoon' => 'pomeriggio'],
 >>>>>>> .merge_file_8qwq1N
 >>>>>>> .merge_file_r8F6zm
+=======
+>>>>>>> laraxot/dev
     ],
     'label' => 'Opening Hours',
     'plural_label' => 'Opening Hours (Plurale)',
     'navigation' => [
         'name' => 'Opening Hours',
         'plural' => 'Opening Hours',
+<<<<<<< HEAD
 <<<<<<< .merge_file_uhqAUU
 <<<<<<< HEAD
 =======
@@ -181,10 +195,13 @@ return [
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_r8F6zm
+=======
+>>>>>>> laraxot/dev
         'group' => [
             'name' => 'General',
             'description' => 'General Settings',
         ],
+<<<<<<< HEAD
 =======
         'group' => ['name' => 'General', 'description' => 'General Settings'],
 >>>>>>> .merge_file_8qwq1N
@@ -252,4 +269,41 @@ return [
     'test' => 'opening hours',
 >>>>>>> .merge_file_8qwq1N
 >>>>>>> .merge_file_r8F6zm
+=======
+        'label' => 'Opening Hours',
+        'sort' => 1,
+        'icon' => 'heroicon-o-collection',
+    ],
+    'fields' => [
+        'id' => [
+            'label' => 'Identificativo',
+            'tooltip' => 'Identificativo univoco del record',
+            'helper_text' => '',
+            'description' => '',
+        ],
+        'created_at' => [
+            'label' => 'Data Creazione',
+            'tooltip' => '',
+            'helper_text' => '',
+            'description' => '',
+        ],
+        'updated_at' => [
+            'label' => 'Ultima Modifica',
+            'tooltip' => '',
+            'helper_text' => '',
+            'description' => '',
+        ],
+    ],
+    'actions' => [
+        'create' => [
+            'label' => 'Crea Opening Hours',
+        ],
+        'edit' => [
+            'label' => 'Modifica Opening Hours',
+        ],
+        'delete' => [
+            'label' => 'Elimina Opening Hours',
+        ],
+    ],
+>>>>>>> laraxot/dev
 ];

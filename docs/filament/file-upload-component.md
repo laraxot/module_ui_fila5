@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_A2NV8n
 =======
 =======
@@ -69,6 +70,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_zDpobR
 >>>>>>> .merge_file_Ikfr3q
+=======
+>>>>>>> laraxot/dev
 # Componente FileUpload in Filament
 
 ## Limitazioni e Metodi Disponibili

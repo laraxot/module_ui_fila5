@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_xAMrKS
 =======
 =======
@@ -69,6 +70,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_JUl5T0
 >>>>>>> .merge_file_Z6vDJv
+=======
+>>>>>>> laraxot/dev
 # Migrazione Componenti di Pagina - Modulo UI
 
 ## Panoramica

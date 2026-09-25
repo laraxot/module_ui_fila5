@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_Jl2yGY
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_NWw8ec
 >>>>>>> .merge_file_PoBP39
+=======
+>>>>>>> laraxot/dev
 return [
     'navigation' => [
         'name' => 'Oberfläche',

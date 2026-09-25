@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1ul8sz
 =======
 <<<<<<< .merge_file_Kjdiip
@@ -53,12 +54,15 @@ Remotes tipici: `provtv` + `laraxot` → `module_ui_fila5` (`git remote -v`).
 =======
 >>>>>>> .merge_file_xiyuwE
 >>>>>>> .merge_file_2Gomca
+=======
+>>>>>>> laraxot/dev
 module: theme
 topic: second-brain
 canonical: ../../../Themes/docs/shared-components/second-brain.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/second-brain.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_1ul8sz
 =======
 =======
@@ -186,4 +190,6 @@ Remotes tipici: `provtv` + `laraxot` → `module_ui_fila5` (`git remote -v`).
 =======
 >>>>>>> .merge_file_xiyuwE
 >>>>>>> .merge_file_2Gomca
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

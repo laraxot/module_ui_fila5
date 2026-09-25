@@ -6,6 +6,7 @@ created: 2026-05-28
 tags: [filament, ui, blade]
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_8VcBFJ
   - ../../../../../../docs/wiki/rules/filament-first-rule.md
   - ../../blade/filament-components.md
@@ -51,6 +52,10 @@ related:
   - ../../blade/filament-components.md
 >>>>>>> .merge_file_ENtphq
 >>>>>>> .merge_file_DAJCiC
+>>>>>>> laraxot/dev
+=======
+  - ../../../../../../docs/wiki/rules/filament-first-rule.md
+  - ../../blade/filament-components.md
 >>>>>>> laraxot/dev
 ---
 

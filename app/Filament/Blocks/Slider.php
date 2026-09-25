@@ -37,7 +37,11 @@ final class Slider
     /**
      * @return array<int|string, Component>
      */
+<<<<<<< HEAD
     public static function getFormSchema(): array
+=======
+    public function getFormSchema(): array
+>>>>>>> laraxot/dev
     {
         return [
             'layout' => Select::make('layout')

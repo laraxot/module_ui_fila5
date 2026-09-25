@@ -28,6 +28,7 @@ class AddressField extends XotBaseField
         parent::setUp();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Gq1sNc
 =======
         $this->afterStateHydrated(function (AddressField $_component, mixed $record): void {
@@ -41,6 +42,9 @@ class AddressField extends XotBaseField
 >>>>>>> .merge_file_5vTT8R
         $this->afterStateHydrated(function (AddressField $component, mixed $record): void {
 >>>>>>> laraxot/dev
+=======
+        $this->afterStateHydrated(function (AddressField $_component, mixed $record): void {
+>>>>>>> laraxot/dev
             $data = [
                 'country' => null,
                 'street' => null,
@@ -49,6 +53,7 @@ class AddressField extends XotBaseField
                 'zip' => null,
             ];
 
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_YrrHEk
             if (! $record instanceof Model) {
@@ -65,12 +70,16 @@ class AddressField extends XotBaseField
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_5vTT8R
+=======
+            if (! $record instanceof Model) {
+>>>>>>> laraxot/dev
                 return;
             }
 
             $relationship = $this->getRelationship();
             if ($relationship && $record->relationLoaded($relationship)) {
                 $address = $record->getRelationValue($relationship);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_Gq1sNc
 =======
@@ -110,6 +119,14 @@ class AddressField extends XotBaseField
 =======
 >>>>>>> .merge_file_YrrHEk
 >>>>>>> .merge_file_5vTT8R
+=======
+                if (null !== $address && is_object($address) && method_exists($address, 'toArray')) {
+                    $data = $address->toArray();
+                }
+            }
+
+            // }
+>>>>>>> laraxot/dev
         });
 
         $this->dehydrated(false);

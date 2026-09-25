@@ -19,6 +19,7 @@ uses(TestCase::class);
  * PotentiallyTranslatedString` — perché è quella che il contratto promette al chiamante:
  * una closure di comodo con firma diversa passerebbe a runtime e mentirebbe sul contratto.
  *
+<<<<<<< HEAD
 <<<<<<< .merge_file_yLcX0n
  * @return list<string>
  */
@@ -42,6 +43,12 @@ function uiOpeningHoursFailures(array|string|int|null $value): array
 >>>>>>> .merge_file_Ft99tM
 >>>>>>> .merge_file_CygTaW
 >>>>>>> .merge_file_ztSEB3
+=======
+ * @param  array<string, mixed>|string|int|null  $value
+ * @return list<string>
+ */
+function uiOpeningHoursFailures(array|string|int|null $value): array
+>>>>>>> laraxot/dev
 {
     /** @var list<string> $failures */
     $failures = [];
@@ -52,6 +59,7 @@ function uiOpeningHoursFailures(array|string|int|null $value): array
         return new PotentiallyTranslatedString($message, app('translator'));
     };
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_yLcX0n
     (new OpeningHoursRule)->validate('orari', $value, $collect);
 =======
@@ -71,6 +79,9 @@ function uiOpeningHoursFailures(array|string|int|null $value): array
 >>>>>>> .merge_file_Ft99tM
 >>>>>>> .merge_file_CygTaW
 >>>>>>> .merge_file_ztSEB3
+=======
+    (new OpeningHoursRule)->validate('orari', $value, $collect);
+>>>>>>> laraxot/dev
 
     return $failures;
 }

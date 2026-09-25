@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MRzirs
 =======
 <<<<<<< .merge_file_CsKL70
@@ -23,6 +24,8 @@ All Blade components should explicitly define their expected properties using th
 =======
 >>>>>>> .merge_file_bdNrP0
 >>>>>>> .merge_file_krtbvE
+=======
+>>>>>>> laraxot/dev
 # Data Handling in Blade Components
 
 This document outlines best practices for data handling in Blade components, particularly in theme blocks used for content sections.
@@ -33,6 +36,7 @@ This document outlines best practices for data handling in Blade components, par
 
 All Blade components should explicitly define their expected properties using the `@props` directive:
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_MRzirs
 =======
 <<<<<<< HEAD
@@ -93,6 +97,8 @@ All Blade components should explicitly define their expected properties using th
 >>>>>>> .merge_file_bdNrP0
 >>>>>>> .merge_file_krtbvE
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ```blade
 @props([
     'title' => null,
@@ -103,6 +109,7 @@ All Blade components should explicitly define their expected properties using th
 ])
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MRzirs
 =======
 <<<<<<< .merge_file_CsKL70
@@ -119,11 +126,14 @@ The standard data flow follows this pattern:
 =======
 >>>>>>> .merge_file_bdNrP0
 >>>>>>> .merge_file_krtbvE
+=======
+>>>>>>> laraxot/dev
 
 ### 2. Data Flow Pattern
 
 The standard data flow follows this pattern:
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_MRzirs
 =======
 <<<<<<< .merge_file_CsKL70
@@ -141,12 +151,15 @@ The standard data flow follows this pattern:
 >>>>>>> .merge_file_bdNrP0
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_krtbvE
+=======
+>>>>>>> laraxot/dev
 1. **Storage**: Data is stored in JSON configuration files (`config/local/{tenant}/database/content/sections/{id}.json`)
 2. **Retrieval**: Section controller loads and processes the JSON data
 3. **Passing**: Data is passed to components via `@include($block->view, $block->data)`
 4. **Reception**: Components receive data through explicitly defined props
 5. **Rendering**: Components render the received data according to their template
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MRzirs
 
 ### 3. No Implicit Variables
@@ -178,6 +191,11 @@ The standard data flow follows this pattern:
 
 >>>>>>> .merge_file_bdNrP0
 >>>>>>> .merge_file_krtbvE
+>>>>>>> laraxot/dev
+=======
+
+### 3. No Implicit Variables
+
 >>>>>>> laraxot/dev
 Components should never rely on variables that haven't been explicitly defined as props. This prevents:
 - Unexpected behavior
@@ -185,6 +203,7 @@ Components should never rely on variables that haven't been explicitly defined a
 - Tight coupling between components and their parent context
 - Difficulty reusing components in different contexts
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MRzirs
 =======
 <<<<<<< .merge_file_CsKL70
@@ -201,11 +220,14 @@ Components should never rely on variables that haven't been explicitly defined a
 =======
 >>>>>>> .merge_file_bdNrP0
 >>>>>>> .merge_file_krtbvE
+=======
+>>>>>>> laraxot/dev
 
 ## Common Patterns
 
 ### Section to Block Data Flow
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_MRzirs
 =======
 <<<<<<< .merge_file_CsKL70
@@ -223,11 +245,14 @@ Components should never rely on variables that haven't been explicitly defined a
 >>>>>>> .merge_file_bdNrP0
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_krtbvE
+=======
+>>>>>>> laraxot/dev
 ```php
 // In sections/header.blade.php
 @foreach($componentsBlocks as $block)
     @include($block->view, $block->data)
 @endforeach
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_MRzirs
 =======
@@ -246,6 +271,8 @@ Components should never rely on variables that haven't been explicitly defined a
 =======
 >>>>>>> .merge_file_bdNrP0
 >>>>>>> .merge_file_krtbvE
+=======
+>>>>>>> laraxot/dev
 ```
 
 ### Block Component Structure
@@ -258,6 +285,7 @@ Components should never rely on variables that haven't been explicitly defined a
     // All expected properties
 ])
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_MRzirs
 =======
 =======
@@ -282,10 +310,13 @@ Components should never rely on variables that haven't been explicitly defined a
 >>>>>>> .merge_file_bdNrP0
 >>>>>>> .merge_file_krtbvE
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 <div {{ $attributes->merge(['class' => 'example-component']) }}>
     @if($prop1)
         <h2>{{ $prop1 }}</h2>
     @endif
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_MRzirs
 =======
@@ -304,6 +335,8 @@ Components should never rely on variables that haven't been explicitly defined a
 =======
 >>>>>>> .merge_file_bdNrP0
 >>>>>>> .merge_file_krtbvE
+=======
+>>>>>>> laraxot/dev
 
     @if($prop2)
         <p>{{ $prop2 }}</p>
@@ -316,6 +349,7 @@ Components should never rely on variables that haven't been explicitly defined a
 ### Missing Props Definition
 
 ```blade
+<<<<<<< HEAD
 <<<<<<< .merge_file_MRzirs
 =======
 =======
@@ -339,6 +373,8 @@ Components should never rely on variables that haven't been explicitly defined a
 =======
 >>>>>>> .merge_file_bdNrP0
 >>>>>>> .merge_file_krtbvE
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 <!-- INCORRECT: Missing props definition -->
 <div class="user-menu">
@@ -346,6 +382,7 @@ Components should never rely on variables that haven't been explicitly defined a
         <a href="{{ $item['url'] }}">{{ $item['label'] }}</a>
     @endforeach
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MRzirs
 =======
 <<<<<<< .merge_file_CsKL70
@@ -367,6 +404,8 @@ Components should never rely on variables that haven't been explicitly defined a
 =======
 >>>>>>> .merge_file_bdNrP0
 >>>>>>> .merge_file_krtbvE
+=======
+>>>>>>> laraxot/dev
 </div>
 
 <!-- CORRECT: With props definition -->
@@ -392,6 +431,7 @@ Components should never rely on variables that haven't been explicitly defined a
 ### Direct Use of Auth System
 
 ```blade
+<<<<<<< HEAD
 <<<<<<< .merge_file_MRzirs
 =======
 =======
@@ -420,10 +460,13 @@ Components should never rely on variables that haven't been explicitly defined a
 >>>>>>> .merge_file_bdNrP0
 >>>>>>> .merge_file_krtbvE
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 <!-- INCORRECT: Direct dependency on auth system -->
 @if(auth()->check())
     <!-- Authenticated UI -->
 @endif
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_MRzirs
 =======
@@ -442,6 +485,8 @@ Components should never rely on variables that haven't been explicitly defined a
 =======
 >>>>>>> .merge_file_bdNrP0
 >>>>>>> .merge_file_krtbvE
+=======
+>>>>>>> laraxot/dev
 
 <!-- CORRECT: Parameterized authentication state -->
 @props([
@@ -456,6 +501,7 @@ Components should never rely on variables that haven't been explicitly defined a
 
 ## Best Practices
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_MRzirs
 =======
 =======
@@ -480,11 +526,14 @@ Components should never rely on variables that haven't been explicitly defined a
 >>>>>>> .merge_file_bdNrP0
 >>>>>>> .merge_file_krtbvE
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 1. **Validate Props**: Use type checking and conditional logic to validate props
 2. **Provide Defaults**: Always set sensible default values for all props
 3. **Document Expected Format**: Comment complex data structures expected by the component
 4. **Keep Components Focused**: Each component should have a single responsibility
 5. **Test Edge Cases**: Ensure components handle missing or malformed data gracefully
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_MRzirs
 =======
@@ -506,6 +555,8 @@ Components should never rely on variables that haven't been explicitly defined a
 =======
 >>>>>>> .merge_file_bdNrP0
 >>>>>>> .merge_file_krtbvE
+=======
+>>>>>>> laraxot/dev
 
 ## Related Documentation
 
@@ -534,6 +585,7 @@ All Blade components should explicitly define their expected properties using th
     // Additional props with sensible defaults
 ])
 ```
+<<<<<<< HEAD
 <<<<<<< .merge_file_MRzirs
 =======
 =======
@@ -559,6 +611,8 @@ All Blade components should explicitly define their expected properties using th
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_krtbvE
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ### 2. Data Flow Pattern
@@ -675,6 +729,7 @@ Components should never rely on variables that haven't been explicitly defined a
 ## Related Documentation
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_MRzirs
 =======
 =======
@@ -683,12 +738,15 @@ Components should never rely on variables that haven't been explicitly defined a
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_krtbvE
+=======
+>>>>>>> laraxot/dev
 - [Block Components Overview](./blocks/readme.md)
 - [Component Architecture](./components/readme.md)
 - [Section Architecture](./sections/readme.md)
 
 > **Note**: This document is the primary reference for Blade data handling patterns across all modules.
 > All module-specific implementations should link back to this document.
+<<<<<<< HEAD
 <<<<<<< .merge_file_MRzirs
 =======
 =======
@@ -728,4 +786,6 @@ See canonical documentation: ../../../Themes/docs/shared-components/blade-data-h
 =======
 >>>>>>> .merge_file_bdNrP0
 >>>>>>> .merge_file_krtbvE
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

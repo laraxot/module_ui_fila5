@@ -4,6 +4,7 @@ type: concept
 module: UI
 tags: [ui, quality, claude-audit, i18n, blade]
 created: 2026-07-09
+<<<<<<< HEAD
 <<<<<<< .merge_file_aLhg7c
 <<<<<<< HEAD
 updated: 2026-07-09
@@ -37,6 +38,11 @@ related:
 =======
 >>>>>>> .merge_file_CgjQpH
 >>>>>>> .merge_file_X5bAsW
+=======
+updated: 2026-07-12
+qmd: "UI claude-audit static 80 score lang split pricing blade partials SelectStateColumn"
+issues:
+>>>>>>> laraxot/dev
   - "https://github.com/laraxot/module_ui_fila5/issues/1"
 discussions:
   - "https://github.com/laraxot/base_fixcity_fila5/discussions/304"
@@ -45,6 +51,7 @@ related:
   - ../../../../../../bashscripts/tools/split-module-lang-monolith-for-audit.php
   - ../../Xot/docs/wiki/concepts/claude-audit-static-all-modules.md
   - ../memories/lang-split-ui-claude-audit.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_s6j7GK
 =======
 =======
@@ -74,6 +81,8 @@ related:
 >>>>>>> .merge_file_CgjQpH
 >>>>>>> .merge_file_X5bAsW
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ---
 
 # claude-audit static (UI)
@@ -95,6 +104,7 @@ bash bashscripts/tools/run-claude-audit-module-static.sh UI
 
 ## `.gitignore`
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_aLhg7c
 <<<<<<< HEAD
 `/Tests/` + negazioni `!tests/**` e `!audit-coverage/**` già presenti.
@@ -108,6 +118,11 @@ Bridge in `audit-coverage/tests/` (path con substring `/tests/`), non `tests/Aud
 
 Bridge in `audit-coverage/tests/` (path con substring `/tests/`), non `tests/AuditCoverage/`.
 >>>>>>> .merge_file_CgjQpH
+=======
+`/Tests/` + negazioni `!tests/**` e `!audit-coverage/**` — rimuovere `audit-coverage/` dalla ignore list (altrimenti 0 test in static → 79/100).
+
+Bridge in `audit-coverage/tests/` (path con substring `/tests/`), non `tests/AuditCoverage/`.
+>>>>>>> laraxot/dev
 
 ## Verifica
 

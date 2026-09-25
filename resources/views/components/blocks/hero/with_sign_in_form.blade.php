@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_zlRQAN
 <<<<<<< HEAD
 =======
@@ -47,6 +48,12 @@
 <?php
 
 declare(strict_types=1);
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> laraxot/dev
 ?>
 <!--
   This example requires some changes to your config:

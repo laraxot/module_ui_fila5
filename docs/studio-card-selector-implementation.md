@@ -6,6 +6,7 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 ## 🏗️ **Architettura Component**
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -35,6 +36,8 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ## 🏗️ **Architettura Component**
 
@@ -250,6 +253,7 @@ return [
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_fTRuIg
 
 
@@ -281,6 +285,10 @@ return [
 
 >>>>>>> .merge_file_7dmUyq
 >>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+=======
+
+
 >>>>>>> laraxot/dev
         ],
 
@@ -288,6 +296,7 @@ return [
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_fTRuIg
 
 
@@ -320,6 +329,10 @@ return [
 =======
 >>>>>>> .merge_file_7dmUyq
 >>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+=======
+
+
 >>>>>>> laraxot/dev
         ],
         'phone' => [
@@ -350,6 +363,7 @@ return [
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_fTRuIg
 =======
 <<<<<<< .merge_file_bCpari
@@ -415,11 +429,17 @@ return [
 
 <<<<<<< HEAD
 
+=======
+
+
+
+>>>>>>> laraxot/dev
 
 ---
 **Component Status**: 📋 Documented - Ready for Implementation
 **Reusability**: 🔄 High - Cross-module compatible
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_fTRuIg
 =======
 =======
@@ -444,6 +464,14 @@ return [
 =======
 >>>>>>> .merge_file_7dmUyq
 >>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+=======
+
+
+---
+**Component Status**: 📋 Documented - Ready for Implementation
+**Reusability**: 🔄 High - Cross-module compatible
+
 >>>>>>> laraxot/dev
 # StudioCardSelector Component - Modulo UI
 
@@ -453,6 +481,7 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 ## 🏗️ **Architettura Component**
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Classe PHP
 =======
 <<<<<<< HEAD
@@ -509,6 +538,9 @@ Componente Filament Form altamente riutilizzabile per la selezione di studi medi
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_7dmUyq
 >>>>>>> .merge_file_RIpYVo
+=======
+### Classe PHP
+>>>>>>> laraxot/dev
 ```php
 // Modules/UI/app/Forms/Components/StudioCardSelector.php
 <?php
@@ -525,6 +557,7 @@ class StudioCardSelector extends Field
 {
     protected string $view = 'ui::forms.components.studio-card-selector';
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_fTRuIg
 =======
 <<<<<<< .merge_file_bCpari
@@ -590,10 +623,13 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_7dmUyq
 >>>>>>> .merge_file_RIpYVo
+=======
+>>>>>>> laraxot/dev
 
     // Dati studios da visualizzare
     protected Collection|Closure|null $studios = null;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -624,6 +660,8 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     // Personalizzazioni UI
     protected bool $showDistance = false;
@@ -631,6 +669,7 @@ class StudioCardSelector extends Field
     protected bool $showPhone = false;
     protected string $cardLayout = 'default'; // 'default', 'compact', 'detailed'
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -672,6 +711,9 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     // Configure studios data source
     public function studios(Collection|Closure $studios): static
@@ -680,6 +722,7 @@ class StudioCardSelector extends Field
         return $this;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -721,6 +764,9 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     // Enable/disable features
     public function showDistance(bool $show = true): static
@@ -729,6 +775,7 @@ class StudioCardSelector extends Field
         return $this;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -770,6 +817,9 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     public function showSpecializations(bool $show = true): static
     {
@@ -777,6 +827,7 @@ class StudioCardSelector extends Field
         return $this;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -818,6 +869,9 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     public function showPhone(bool $show = true): static
     {
@@ -825,6 +879,7 @@ class StudioCardSelector extends Field
         return $this;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -866,6 +921,9 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     // Layout variants
     public function compact(): static
@@ -874,6 +932,7 @@ class StudioCardSelector extends Field
         return $this;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -915,6 +974,9 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     public function detailed(): static
     {
@@ -922,6 +984,7 @@ class StudioCardSelector extends Field
         return $this;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -963,6 +1026,9 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     // Data getters for view
     public function getStudios(): Collection
@@ -970,6 +1036,7 @@ class StudioCardSelector extends Field
         return $this->evaluate($this->studios) ?? collect();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -1011,12 +1078,16 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     public function getCardLayout(): string
     {
         return $this->cardLayout;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -1058,12 +1129,16 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     public function shouldShowDistance(): bool
     {
         return $this->showDistance;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -1105,12 +1180,16 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     public function shouldShowSpecializations(): bool
     {
         return $this->showSpecializations;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -1152,6 +1231,9 @@ class StudioCardSelector extends Field
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     public function shouldShowPhone(): bool
     {
@@ -1181,6 +1263,7 @@ protected function getStudioStepSchema(): array
 private function getStudiosForLocation(Get $get): Collection
 {
     $cap = $get('cap');
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_fTRuIg
 =======
@@ -1271,6 +1354,11 @@ private function getStudiosForLocation(Get $get): Collection
 >>>>>>> .merge_file_7dmUyq
 >>>>>>> .merge_file_RIpYVo
 >>>>>>> laraxot/dev
+=======
+    $province = $get('province');
+    $region = $get('region');
+
+>>>>>>> laraxot/dev
     if (!$cap || !$province || !$region) {
         return collect();
     }
@@ -1278,6 +1366,7 @@ private function getStudiosForLocation(Get $get): Collection
     return \Modules\<nome modulo>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
     return \Modules\<nome modulo>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
     return \Modules\<nome modulo>\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1308,6 +1397,8 @@ private function getStudiosForLocation(Get $get): Collection
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         $q->where('postal_code', $cap)
           ->where('administrative_area_level_3', $province)
@@ -1361,6 +1452,7 @@ return [
 - [Form Components Guide](./form-components.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_fTRuIg
 =======
 <<<<<<< .merge_file_bCpari
@@ -1386,6 +1478,8 @@ return [
 =======
 >>>>>>> .merge_file_7dmUyq
 >>>>>>> .merge_file_RIpYVo
+=======
+>>>>>>> laraxot/dev
 ### Modulo Generico
 - [Widget Analysis](../<nome modulo>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
 ### Modulo Generico
@@ -1400,6 +1494,7 @@ return [
 
 
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_fTRuIg
 =======
 <<<<<<< HEAD
@@ -1490,4 +1585,6 @@ return [
 =======
 >>>>>>> .merge_file_7dmUyq
 >>>>>>> .merge_file_RIpYVo
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

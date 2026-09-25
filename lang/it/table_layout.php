@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_RhBuNW
 <<<<<<< HEAD
 =======
@@ -26,11 +27,16 @@ return [
     ],
     'actions' => [
 <<<<<<< .merge_file_ck6vTQ
+=======
+return [
+    'actions' => [
+>>>>>>> laraxot/dev
         'toggle' => [
             'label' => 'Cambia Layout',
             'tooltip' => 'Passa da vista a elenco a vista a griglia',
             'helper_text' => 'Cambia il tipo di visualizzazione',
         ],
+<<<<<<< HEAD
 <<<<<<< .merge_file_RhBuNW
 =======
 =======
@@ -58,12 +64,15 @@ return [
         'toggle' => ['label' => 'Cambia Layout', 'tooltip' => 'Passa da vista a elenco a vista a griglia', 'helper_text' => 'Cambia il tipo di visualizzazione'],
 >>>>>>> .merge_file_BLV0cT
 >>>>>>> .merge_file_z01UBl
+=======
+>>>>>>> laraxot/dev
     ],
     'label' => 'Table Layout',
     'plural_label' => 'Table Layout (Plurale)',
     'navigation' => [
         'name' => 'Table Layout',
         'plural' => 'Table Layout',
+<<<<<<< HEAD
 <<<<<<< .merge_file_RhBuNW
 <<<<<<< HEAD
 =======
@@ -75,10 +84,13 @@ return [
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_z01UBl
+=======
+>>>>>>> laraxot/dev
         'group' => [
             'name' => 'General',
             'description' => 'General Settings',
         ],
+<<<<<<< HEAD
 =======
         'group' => ['name' => 'General', 'description' => 'General Settings'],
 >>>>>>> .merge_file_BLV0cT
@@ -88,6 +100,13 @@ return [
     ],
     'fields' => [
 <<<<<<< .merge_file_ck6vTQ
+=======
+        'label' => 'Table Layout',
+        'sort' => 1,
+        'icon' => 'heroicon-o-collection',
+    ],
+    'fields' => [
+>>>>>>> laraxot/dev
         'id' => [
             'label' => 'Identificativo',
             'tooltip' => 'Identificativo univoco del record',
@@ -106,6 +125,7 @@ return [
             'helper_text' => '',
             'description' => '',
         ],
+<<<<<<< HEAD
 <<<<<<< .merge_file_RhBuNW
 =======
 =======
@@ -142,5 +162,7 @@ return [
 =======
 >>>>>>> .merge_file_BLV0cT
 >>>>>>> .merge_file_z01UBl
+=======
+>>>>>>> laraxot/dev
     ],
 ];

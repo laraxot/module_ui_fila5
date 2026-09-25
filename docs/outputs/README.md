@@ -6,6 +6,7 @@ canonical: ../../../../Themes/docs/shared-components/README-Modules.md
 
 See canonical documentation: ../../../../Themes/docs/shared-components/README-Modules.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_FhbkCq
 =======
 =======
@@ -67,3 +68,5 @@ Core module for the FixCity Platform.
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_U91hfS
 >>>>>>> .merge_file_FhEfIZ
+=======
+>>>>>>> laraxot/dev

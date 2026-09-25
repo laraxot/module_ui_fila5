@@ -3,6 +3,7 @@ module: theme
 topic: index
 canonical: ../../../../Themes/docs/shared-components/index.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_HgVgTl
 =======
 =======
@@ -36,6 +37,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_6I2jNV
 >>>>>>> .merge_file_Sbih7Y
+=======
+>>>>>>> laraxot/dev
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/index.md

@@ -141,6 +141,7 @@ php artisan tinker --execute="TableLayoutToggleTableAction::make('test');"
 
 # Testare l'URL che causava l'errore
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4oJMp3
 curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
 =======
@@ -164,12 +165,16 @@ curl -I http://127.0.0.1:8001/<nome progetto>/admin/gaia/survey-pdfs
 curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
 >>>>>>> .merge_file_L5Duox
 >>>>>>> .merge_file_4RqVPc
+>>>>>>> laraxot/dev
+=======
+curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
 >>>>>>> laraxot/dev
 ```
 
 ### Risultati Test
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4oJMp3
 ✅ **Sintassi PHP**: Nessun errore di sintassi  
 ✅ **Istanziazione**: Classe istanziabile correttamente  
@@ -208,6 +213,11 @@ curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
 ✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)  
 >>>>>>> .merge_file_L5Duox
 >>>>>>> .merge_file_4RqVPc
+>>>>>>> laraxot/dev
+=======
+✅ **Sintassi PHP**: Nessun errore di sintassi  
+✅ **Istanziazione**: Classe istanziabile correttamente  
+✅ **URL Test**: Errore originale risolto (ora errore di autenticazione, conferma che il fix ha funzionato)  
 >>>>>>> laraxot/dev
 ✅ **PHPStan**: Nessun errore di linting rilevato
 
@@ -226,6 +236,7 @@ curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
 - Supporta il metodo statico `make()` per l'istanziazione
 - Compatibile con il sistema di layout delle tabelle Filament
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_4oJMp3
 =======
@@ -261,6 +272,8 @@ curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_L5Duox
 >>>>>>> .merge_file_4RqVPc
+=======
+>>>>>>> laraxot/dev
 ## Riferimenti
 
 - [Interfaccia HasTableLayout](./HasTableLayout.php)
@@ -270,6 +283,7 @@ curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4oJMp3
 =======
 <<<<<<< .merge_file_aVpiVP
@@ -286,10 +300,13 @@ curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
 =======
 >>>>>>> .merge_file_L5Duox
 >>>>>>> .merge_file_4RqVPc
+=======
+>>>>>>> laraxot/dev
 **Data**: 27 Gennaio 2025  
 **Modulo**: UI  
 **Tipo**: Bug Fix  
 **Priorità**: Alta  
+<<<<<<< HEAD
 <<<<<<< .merge_file_4oJMp3
 =======
 =======
@@ -312,5 +329,7 @@ curl -I http://127.0.0.1:8001/Quaeris/admin/gaia/survey-pdfs
 =======
 >>>>>>> .merge_file_L5Duox
 >>>>>>> .merge_file_4RqVPc
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 **Stato**: ✅ Risolto

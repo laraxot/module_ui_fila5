@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_Egs4iD
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_neMY3t
 >>>>>>> .merge_file_t82DP2
+=======
+>>>>>>> laraxot/dev
 return [
     'attributes' => [
         'external-link' => 'Vínculo externo',

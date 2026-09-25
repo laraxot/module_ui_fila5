@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zlESCE
 https://github.com/spatie/laravel-searchable
 
@@ -94,4 +95,8 @@ https://github.com/spatie/laravel-searchable
 
 >>>>>>> .merge_file_SZ8WSO
 >>>>>>> .merge_file_XzMmux
+>>>>>>> laraxot/dev
+=======
+https://github.com/spatie/laravel-searchable
+
 >>>>>>> laraxot/dev

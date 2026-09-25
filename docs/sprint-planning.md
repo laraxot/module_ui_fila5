@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -19,6 +20,8 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_YdyC4r
+=======
+>>>>>>> laraxot/dev
 # Sprint Planning: UI Kit Polish
 
 ## 🏁 Sprint Goal
@@ -29,6 +32,7 @@ Complete the standardization of UI documentation and fix reported accessibility 
 | :--- | :--- | :--- | :--- |
 | Standardize UI Docs | 1 | @Gemini | ✅ Done |
 | Modal Accessibility Fix | 2 | @CoreTeam | 📥 Todo |
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_FRU0tV
 =======
@@ -164,10 +168,13 @@ Implement core design system with essential UI components.
 >>>>>>> .merge_file_ORlY8d
 >>>>>>> .merge_file_YdyC4r
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 ## ✅ Definition of Done
 - All 6 files exist.
 - Accessibility scores > 95 on Lighthouse for core pages.
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -199,4 +206,6 @@ Implement core design system with essential UI components.
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_YdyC4r
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

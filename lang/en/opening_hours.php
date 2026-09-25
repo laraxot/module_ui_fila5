@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_mWBpNM
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_ukNmAz
 >>>>>>> .merge_file_b9ptVn
+=======
+>>>>>>> laraxot/dev
 return [
     'instructions' => [
         'title' => 'Opening Hours Configuration',

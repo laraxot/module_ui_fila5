@@ -85,6 +85,7 @@ public static function form(Form $form): Form
             ->required()
             ->maxLength(255),
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< .merge_file_ZUZfV8
@@ -98,6 +99,9 @@ public static function form(Form $form): Form
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_IwJLcL
+=======
+
+>>>>>>> laraxot/dev
         // Digitare 'fil-select' e premere Tab
         Select::make('status')
             ->options([
@@ -106,6 +110,7 @@ public static function form(Form $form): Form
             ])
             ->required(),
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZUZfV8
 =======
 
@@ -120,6 +125,9 @@ public static function form(Form $form): Form
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_IwJLcL
+=======
+
+>>>>>>> laraxot/dev
         // Digitare 'fil-rich' e premere Tab
         RichEditor::make('content')
             ->required()
@@ -141,6 +149,7 @@ public static function table(Table $table): Table
                 ->searchable()
                 ->sortable(),
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< .merge_file_ZUZfV8
@@ -154,6 +163,9 @@ public static function table(Table $table): Table
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_IwJLcL
+=======
+
+>>>>>>> laraxot/dev
             // Digitare 'fil-col' e premere Tab
             IconColumn::make('status')
                 ->boolean(),
@@ -194,6 +206,7 @@ Forms\Components\Wizard::make([
                     Forms\Components\TextInput::make('first_name')
                         ->required(),
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_ZUZfV8
 =======
 
@@ -208,6 +221,9 @@ Forms\Components\Wizard::make([
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_IwJLcL
+=======
+
+>>>>>>> laraxot/dev
                     Forms\Components\TextInput::make('last_name')
                         ->required(),
                 ]),

@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_5QbDi2
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9SdkEx
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: phpstan-fixes-conflict
@@ -12,6 +15,7 @@ canonical: ../../../Themes/docs/shared-components/.gitkeep
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/.gitkeep
+<<<<<<< HEAD
 <<<<<<< .merge_file_5QbDi2
 =======
 
@@ -24,3 +28,5 @@ See canonical documentation: ../../../Themes/docs/shared-components/.gitkeep
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_9SdkEx
+=======
+>>>>>>> laraxot/dev

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_RLsREH
 =======
 <<<<<<< .merge_file_RkhV9c
@@ -120,6 +121,8 @@ php artisan config:clear
 =======
 >>>>>>> .merge_file_I73sIN
 >>>>>>> .merge_file_9WFDcZ
+=======
+>>>>>>> laraxot/dev
 ---
 module: theme
 topic: bugfix-icons-missing
@@ -127,6 +130,7 @@ canonical: ../../../Themes/docs/shared-components/bugfix-icons-missing.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/bugfix-icons-missing.md
+<<<<<<< HEAD
 <<<<<<< .merge_file_RLsREH
 =======
 =======
@@ -254,4 +258,6 @@ php artisan config:clear
 =======
 >>>>>>> .merge_file_I73sIN
 >>>>>>> .merge_file_9WFDcZ
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

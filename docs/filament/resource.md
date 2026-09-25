@@ -4,6 +4,7 @@ description: Creazione di una Resource
 extends: _layouts.documentation
 section: content
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_xSyy8M
 =======
 =======
@@ -40,6 +41,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_GTEEHj
 >>>>>>> .merge_file_gEJr4a
+=======
+>>>>>>> laraxot/dev
 ---
 
 # Creazione di una Resource {#creazione-resource}

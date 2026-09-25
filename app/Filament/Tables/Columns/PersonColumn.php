@@ -6,6 +6,7 @@ namespace Modules\UI\Filament\Tables\Columns;
 
 use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\TextColumn;
+<<<<<<< HEAD
 <<<<<<< .merge_file_R7f6uE
 
 /**
@@ -21,13 +22,18 @@ use Filament\Tables\Columns\TextColumn;
 /**
  * Controparte in lista di {@see \Modules\UI\Filament\Forms\Components\PersonSection}.
 =======
+=======
+>>>>>>> laraxot/dev
 use Modules\UI\Filament\Forms\Components\PersonSection;
 
 /**
  * Controparte in lista di {@see PersonSection}.
+<<<<<<< HEAD
 >>>>>>> .merge_file_hKe2m3
 >>>>>>> .merge_file_bnnPip
 >>>>>>> .merge_file_yW1KBG
+=======
+>>>>>>> laraxot/dev
  *
  * Campi diretti sul record (nessuna dot-notation di relazione, a differenza di
  * {@see AddressColumn}): la persona e' il record stesso, non un suo correlato.
@@ -77,6 +83,7 @@ class PersonColumn extends GroupColumn
     /**
      * Sostituisce l'elenco dei campi mostrati.
      *
+<<<<<<< HEAD
 <<<<<<< .merge_file_R7f6uE
      * @param  list<string>  $fields
 =======
@@ -97,6 +104,9 @@ class PersonColumn extends GroupColumn
 >>>>>>> .merge_file_hKe2m3
 >>>>>>> .merge_file_bnnPip
 >>>>>>> .merge_file_yW1KBG
+=======
+     * @param list<string> $fields
+>>>>>>> laraxot/dev
      */
     public function fields(array $fields): static
     {

@@ -1,6 +1,7 @@
 # Modulo UI
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_tX6dO6
 Data: [DATE] 19:09:56
 =======
@@ -24,6 +25,9 @@ Data: 2025-04-23 19:09:56
 Data: [DATE] 19:09:56
 >>>>>>> .merge_file_5EZSs2
 >>>>>>> .merge_file_GSK6uD
+>>>>>>> laraxot/dev
+=======
+Data: [DATE] 19:09:56
 >>>>>>> laraxot/dev
 
 ## Informazioni generali
@@ -526,6 +530,7 @@ tests_old
 ## Collegamenti tra versioni di structure.md
 * [structure.md](bashscripts/docs/structure.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_tX6dO6
 =======
 <<<<<<< .merge_file_BEhqqt
@@ -553,6 +558,8 @@ tests_old
 =======
 >>>>>>> .merge_file_5EZSs2
 >>>>>>> .merge_file_GSK6uD
+=======
+>>>>>>> laraxot/dev
 * [structure.md](../../../gdpr/docs/structure.md)
 * [structure.md](../../../notify/docs/structure.md)
 * [structure.md](../../../xot/docs/structure.md)
@@ -568,6 +575,7 @@ tests_old
 * [structure.md](../../../cms/docs/structure.md)
 * [structure.md](../../../cms/docs/themes/structure.md)
 * [structure.md](../../../cms/docs/components/structure.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_tX6dO6
 =======
 =======
@@ -601,4 +609,6 @@ tests_old
 =======
 >>>>>>> .merge_file_5EZSs2
 >>>>>>> .merge_file_GSK6uD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

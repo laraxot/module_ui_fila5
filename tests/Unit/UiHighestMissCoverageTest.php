@@ -43,6 +43,7 @@ use Modules\UI\Traits\TableLayoutTrait;
 use Modules\UI\View\Components\Render\Block;
 use Modules\UI\View\Composers\ThemeComposer;
 use PHPUnit\Framework\Assert;
+<<<<<<< HEAD
 <<<<<<< .merge_file_WnHScn
 =======
 <<<<<<< .merge_file_FKQifL
@@ -51,11 +52,14 @@ use PHPUnit\Framework\Assert;
 >>>>>>> .merge_file_fwojcD
 <<<<<<< HEAD
 >>>>>>> .merge_file_AFP3YX
+=======
+>>>>>>> laraxot/dev
 use ReflectionClass;
 use Symfony\Component\HttpFoundation\Response;
 
 use function Safe\glob;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_WnHScn
 =======
 =======
@@ -78,6 +82,8 @@ use Symfony\Component\HttpFoundation\Response;
 >>>>>>> .merge_file_hlPYvd
 >>>>>>> .merge_file_fwojcD
 >>>>>>> .merge_file_AFP3YX
+=======
+>>>>>>> laraxot/dev
 uses(TestCase::class);
 
 describe('UI highest-miss coverage', function (): void {
@@ -106,6 +112,7 @@ describe('UI highest-miss coverage', function (): void {
                 continue;
             }
             Assert::assertInstanceOf(BuilderBlock::class, $class::make());
+<<<<<<< HEAD
 <<<<<<< .merge_file_WnHScn
             $count++;
 =======
@@ -125,6 +132,9 @@ describe('UI highest-miss coverage', function (): void {
 >>>>>>> .merge_file_hlPYvd
 >>>>>>> .merge_file_fwojcD
 >>>>>>> .merge_file_AFP3YX
+=======
+            $count++;
+>>>>>>> laraxot/dev
         }
         Assert::assertGreaterThan(10, $count);
         Assert::assertArrayHasKey('4-3', ImagesGallery::getRatios());
@@ -174,6 +184,7 @@ describe('UI highest-miss coverage', function (): void {
     });
 
     test('dashboard widgets calendar and icons action', function (): void {
+<<<<<<< HEAD
 <<<<<<< .merge_file_WnHScn
 =======
 <<<<<<< .merge_file_FKQifL
@@ -182,12 +193,15 @@ describe('UI highest-miss coverage', function (): void {
 >>>>>>> .merge_file_fwojcD
 <<<<<<< HEAD
 >>>>>>> .merge_file_AFP3YX
+=======
+>>>>>>> laraxot/dev
         $dashboard = (new ReflectionClass(Dashboard::class))->newInstanceWithoutConstructor();
         $widgets = (new ReflectionClass($dashboard))->getMethod('getHeaderWidgets');
         $widgets->setAccessible(true);
         Assert::assertNotEmpty($widgets->invoke($dashboard));
 
         $calendar = new UserCalendarWidget;
+<<<<<<< HEAD
 <<<<<<< .merge_file_WnHScn
 =======
 =======
@@ -211,10 +225,13 @@ describe('UI highest-miss coverage', function (): void {
 >>>>>>> .merge_file_hlPYvd
 >>>>>>> .merge_file_fwojcD
 >>>>>>> .merge_file_AFP3YX
+=======
+>>>>>>> laraxot/dev
         $calendar->type = 'master_admin';
         Assert::assertSame([], $calendar->fetchEvents(['start' => now()->toIso8601String()]));
         Assert::assertNotEmpty($calendar->getFormSchema());
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_WnHScn
 =======
 <<<<<<< .merge_file_FKQifL
@@ -223,6 +240,8 @@ describe('UI highest-miss coverage', function (): void {
 >>>>>>> .merge_file_fwojcD
 <<<<<<< HEAD
 >>>>>>> .merge_file_AFP3YX
+=======
+>>>>>>> laraxot/dev
         $chart = new TestChartWidget;
         Assert::assertNotSame('', $chart->getDescription());
         $icons = (new GetAllIconsAction)->execute();
@@ -240,6 +259,7 @@ describe('UI highest-miss coverage', function (): void {
         config(['app.supported_locales' => ['it', 'en'], 'app.locale' => 'it']);
         Assert::assertTrue((new LanguageController)->switch('en')->isRedirect());
         Assert::assertTrue((new LanguageController)->switch('xx')->isRedirect());
+<<<<<<< HEAD
 <<<<<<< .merge_file_WnHScn
 =======
 =======
@@ -274,10 +294,13 @@ describe('UI highest-miss coverage', function (): void {
 >>>>>>> .merge_file_hlPYvd
 >>>>>>> .merge_file_fwojcD
 >>>>>>> .merge_file_AFP3YX
+=======
+>>>>>>> laraxot/dev
 
         $block = new Block(['data' => ['view' => 'ui::empty']]);
         Assert::assertSame('ui::empty', $block->view);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_WnHScn
         $composer = new ThemeComposer;
 =======
@@ -297,11 +320,15 @@ describe('UI highest-miss coverage', function (): void {
 >>>>>>> .merge_file_hlPYvd
 >>>>>>> .merge_file_fwojcD
 >>>>>>> .merge_file_AFP3YX
+=======
+        $composer = new ThemeComposer;
+>>>>>>> laraxot/dev
         Assert::assertSame('', $composer->showScripts());
         Assert::assertNull($composer->metatag('missing-key'));
     });
 
     test('TableLayoutTrait reads and writes session layout', function (): void {
+<<<<<<< HEAD
 <<<<<<< .merge_file_WnHScn
 =======
 <<<<<<< .merge_file_FKQifL
@@ -310,11 +337,14 @@ describe('UI highest-miss coverage', function (): void {
 >>>>>>> .merge_file_fwojcD
 <<<<<<< HEAD
 >>>>>>> .merge_file_AFP3YX
+=======
+>>>>>>> laraxot/dev
         $subject = new class
         {
             use TableLayoutTrait;
 
             public function dispatch(mixed ...$params): void {}
+<<<<<<< HEAD
 <<<<<<< .merge_file_WnHScn
 =======
 =======
@@ -338,6 +368,8 @@ describe('UI highest-miss coverage', function (): void {
 >>>>>>> .merge_file_hlPYvd
 >>>>>>> .merge_file_fwojcD
 >>>>>>> .merge_file_AFP3YX
+=======
+>>>>>>> laraxot/dev
         };
         $subject->setTableLayout(TableLayoutEnum::LIST);
         Assert::assertSame(TableLayoutEnum::LIST, $subject->getTableLayout());
@@ -347,9 +379,15 @@ describe('UI highest-miss coverage', function (): void {
     });
 
     test('XotBase blocks and document upload factories expose schema', function (): void {
+<<<<<<< HEAD
         Assert::assertNotEmpty(Contact::getFormSchema());
         Assert::assertNotEmpty(\Modules\UI\Filament\Blocks\Category::getFormSchema());
         Assert::assertNotEmpty(Post::getFormSchema());
+=======
+        Assert::assertNotEmpty((new Contact)->getFormSchema());
+        Assert::assertNotEmpty((new \Modules\UI\Filament\Blocks\Category)->getFormSchema());
+        Assert::assertNotEmpty((new Post)->getFormSchema());
+>>>>>>> laraxot/dev
         Assert::assertNotSame('', Contact::getTitle());
 
         Assert::assertSame('identity_document', SpatieDocumentUpload::forIdentityDocument()->getName());
@@ -381,6 +419,7 @@ describe('UI highest-miss coverage', function (): void {
     });
 
     test('TableLayoutToggleTableAction resolves layout from session', function (): void {
+<<<<<<< HEAD
 <<<<<<< .merge_file_WnHScn
 =======
 <<<<<<< .merge_file_FKQifL
@@ -389,11 +428,14 @@ describe('UI highest-miss coverage', function (): void {
 >>>>>>> .merge_file_fwojcD
 <<<<<<< HEAD
 >>>>>>> .merge_file_AFP3YX
+=======
+>>>>>>> laraxot/dev
         $subject = new class
         {
             use \Modules\UI\Filament\Actions\Table\TableLayoutTrait;
 
             public function resetTable(): void {}
+<<<<<<< HEAD
 <<<<<<< .merge_file_WnHScn
 =======
 =======
@@ -417,6 +459,8 @@ describe('UI highest-miss coverage', function (): void {
 >>>>>>> .merge_file_hlPYvd
 >>>>>>> .merge_file_fwojcD
 >>>>>>> .merge_file_AFP3YX
+=======
+>>>>>>> laraxot/dev
         };
         $subject->saveLayout(TableLayoutEnum::LIST, 'table');
         Assert::assertSame(TableLayoutEnum::LIST, $subject->getCurrentLayout('table'));

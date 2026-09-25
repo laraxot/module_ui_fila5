@@ -3,6 +3,7 @@ module: theme
 topic: theme-system
 canonical: ../../../../../Themes/docs/shared-components/theme-system.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_t9azID
 =======
 =======
@@ -36,6 +37,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_zEDeXp
 >>>>>>> .merge_file_K8CF94
+=======
+>>>>>>> laraxot/dev
 ---
 
 See canonical documentation: ../../../../../Themes/docs/shared-components/theme-system.md

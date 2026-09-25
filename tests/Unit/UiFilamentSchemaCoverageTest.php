@@ -39,6 +39,7 @@ describe('UI Filament schema coverage', function (): void {
             static fn (string $class): bool => str_ends_with($class, 'Resource'),
         ));
         Assert::assertSame([], array_diff($resources, $resources));
+<<<<<<< HEAD
 <<<<<<< .merge_file_SIhndf
         if ($resources === []) {
 =======
@@ -58,6 +59,9 @@ describe('UI Filament schema coverage', function (): void {
 >>>>>>> .merge_file_k2oLqv
 >>>>>>> .merge_file_sIB6xm
 >>>>>>> .merge_file_eyfFEH
+=======
+        if ($resources === []) {
+>>>>>>> laraxot/dev
             return;
         }
         FilamentSchemaCoverage::testAllResources($appRoot, $ns);

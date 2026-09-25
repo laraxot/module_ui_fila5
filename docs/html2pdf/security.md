@@ -3,6 +3,7 @@ module: theme
 topic: security
 canonical: ../../../../Themes/docs/shared-components/security-Modules.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_VrVGbl
 =======
 =======
@@ -36,6 +37,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_vdMGCC
 >>>>>>> .merge_file_p3qFOz
+=======
+>>>>>>> laraxot/dev
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/security-Modules.md

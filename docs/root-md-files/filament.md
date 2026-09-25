@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_kOlKgw
 =======
@@ -45,6 +46,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_UuH4CE
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 https://github.com/savannabits/filament-signature-pad
 

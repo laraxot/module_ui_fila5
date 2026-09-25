@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_mg4u7j
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_DpifhY
 >>>>>>> .merge_file_0LDavD
+=======
+>>>>>>> laraxot/dev
 return [
     'state_icons' => [
         'no_transitions' => 'Nessuna transizione disponibile',
@@ -45,6 +48,7 @@ return [
         ],
         'label' => 'Components',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_mg4u7j
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -70,6 +74,9 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_DpifhY
 >>>>>>> .merge_file_0LDavD
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> laraxot/dev
     ],
     'fields' => [
         'id' => [

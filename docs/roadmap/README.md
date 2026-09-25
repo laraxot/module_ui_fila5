@@ -66,6 +66,7 @@ Provide a **comprehensive UI toolkit** that includes:
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_QOyrsN
 =======
 =======
@@ -125,3 +126,5 @@ Provide a **comprehensive UI toolkit** that includes:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_HQ0EdS
 >>>>>>> .merge_file_V1a1yV
+=======
+>>>>>>> laraxot/dev

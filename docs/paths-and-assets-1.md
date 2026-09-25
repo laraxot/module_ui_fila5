@@ -9,12 +9,15 @@
 > **Soluzione:** Seguire SEMPRE la regola documentata qui sotto e aggiornata anche in README.md e nella root docs/links.md.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9UBLYa
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_SXFEuN
+=======
+>>>>>>> laraxot/dev
 # Gestione dei Percorsi e degli Asset
 
 ## Collegamenti correlati
@@ -30,6 +33,7 @@
 
 ```
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_9UBLYa
 =======
 <<<<<<< HEAD
@@ -51,6 +55,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_SXFEuN
+=======
+>>>>>>> laraxot/dev
 ├── laravel/                 # Applicazione Laravel (codice sorgente)
 │   ├── Modules/             # Moduli dell'applicazione
 │   ├── resources/           # Risorse non compilate
@@ -59,12 +65,15 @@
     ├── images/              # Immagini pubbliche
     │   ├── avatars/         # Avatar utenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9UBLYa
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_SXFEuN
+=======
+>>>>>>> laraxot/dev
     │   └── ...
     ├── css/                 # File CSS compilati
     ├── js/                  # File JavaScript compilati
@@ -79,6 +88,7 @@
 | CSS | `public_html/css/` | `public/css/` |
 | JavaScript | `public_html/js/` | `public/js/` |
 | SVG | `public_html/images/` | `public/images/` |
+<<<<<<< HEAD
 <<<<<<< .merge_file_9UBLYa
 =======
 <<<<<<< HEAD
@@ -100,6 +110,8 @@
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_SXFEuN
+=======
+>>>>>>> laraxot/dev
 
 ## Utilizzo degli Asset nei Componenti Blade
 
@@ -117,6 +129,7 @@ Per garantire una buona esperienza utente, implementare sempre un fallback per l
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9UBLYa
 =======
 <img
@@ -131,6 +144,9 @@ Per garantire una buona esperienza utente, implementare sempre un fallback per l
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_SXFEuN
+=======
+<img
+>>>>>>> laraxot/dev
     src="{{ asset('images/avatars/default-' . $avatarNumber . '.svg') }}"
     alt="{{ $user->name ?? 'User' }}"
     onerror="this.src='{{ asset('images/default-avatar.svg') }}'"
@@ -145,12 +161,15 @@ Gli SVG utilizzati come icone o componenti UI dovrebbero essere implementati com
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9UBLYa
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_SXFEuN
+=======
+>>>>>>> laraxot/dev
 Themes/One/resources/views/components/ui/
 ```
 
@@ -160,6 +179,7 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 
 ```
 public_html/images/
+<<<<<<< HEAD
 <<<<<<< .merge_file_9UBLYa
 =======
 <<<<<<< HEAD
@@ -176,6 +196,8 @@ Gli SVG utilizzati come immagini (avatar, loghi, ecc.) dovrebbero essere posizio
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_SXFEuN
+=======
+>>>>>>> laraxot/dev
 ```
 
 ## Gestione dei Componenti UI
@@ -186,12 +208,15 @@ Il componente avatar è implementato in:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9UBLYa
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_SXFEuN
+=======
+>>>>>>> laraxot/dev
 Themes/One/resources/views/components/ui/avatar.blade.php
 ```
 
@@ -199,6 +224,7 @@ E utilizza gli avatar SVG dalla directory pubblica:
 
 ```
 public_html/images/avatars/
+<<<<<<< HEAD
 <<<<<<< .merge_file_9UBLYa
 =======
 <<<<<<< HEAD
@@ -214,6 +240,8 @@ E utilizza gli avatar SVG dalla directory pubblica:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_SXFEuN
+=======
+>>>>>>> laraxot/dev
 ```
 
 ### Componente Icon
@@ -222,12 +250,15 @@ Il componente icon è implementato in:
 
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9UBLYa
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_SXFEuN
+=======
+>>>>>>> laraxot/dev
 Themes/One/resources/views/components/ui/icon.blade.php
 ```
 
@@ -238,6 +269,7 @@ E include le definizioni SVG direttamente nel componente.
 > **IMPORTANTE:** Tutti i componenti Blade UI condivisi (es. logo, button, badge, ecc.) devono essere posizionati esclusivamente in:
 >
 > `Modules/UI/resources/views/components/ui/`
+<<<<<<< HEAD
 <<<<<<< .merge_file_9UBLYa
 =======
 <<<<<<< HEAD
@@ -256,6 +288,8 @@ E include le definizioni SVG direttamente nel componente.
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_SXFEuN
+=======
+>>>>>>> laraxot/dev
 >
 > **MAI** in `resources/views/components/ui/` della root Laravel.
 
@@ -270,12 +304,15 @@ E include le definizioni SVG direttamente nel componente.
 **❌ Errato:**
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9UBLYa
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_SXFEuN
+=======
+>>>>>>> laraxot/dev
 resources/views/components/ui/logo.blade.php
 ```
 **✅ Corretto:**
@@ -285,6 +322,7 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 
 ## Best Practices
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_9UBLYa
 =======
 <<<<<<< HEAD
@@ -301,6 +339,8 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_SXFEuN
+=======
+>>>>>>> laraxot/dev
 1. **MAI utilizzare percorsi assoluti hardcoded** nei componenti Blade
 2. **SEMPRE utilizzare l'helper `asset()`** per riferirsi agli asset pubblici
 3. **Implementare fallback** per le immagini che potrebbero non essere disponibili
@@ -308,16 +348,20 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 5. **Seguire le convenzioni di naming** per mantenere la coerenza
 6. **Documentare i percorsi corretti** per evitare confusione
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9UBLYa
 =======
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_SXFEuN
+=======
+>>>>>>> laraxot/dev
 
 ## Errori Comuni
 
 1. **Utilizzo del percorso Laravel public**: Utilizzare `public/` invece di `public_html/`
+<<<<<<< HEAD
 <<<<<<< .merge_file_9UBLYa
 =======
 <<<<<<< HEAD
@@ -331,6 +375,8 @@ Modules/UI/resources/views/components/ui/logo.blade.php
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_SXFEuN
+=======
+>>>>>>> laraxot/dev
 2. **Riferimenti diretti ai file**: Utilizzare percorsi assoluti invece dell'helper `asset()`
 3. **Mancanza di fallback**: Non fornire alternative quando un'immagine non è disponibile
 4. **Inconsistenza nei nomi dei file**: Utilizzare convenzioni di naming diverse per file simili

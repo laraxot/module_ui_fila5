@@ -1,5 +1,6 @@
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_yjOv6L
 =======
 <<<<<<< .merge_file_pMJxA6
@@ -112,6 +113,8 @@ Quando **nessun** remote/clone ha gli OID LFS (404 ovunque) e i puntatori nello 
 =======
 >>>>>>> .merge_file_DZ2QEZ
 >>>>>>> .merge_file_thWw2O
+=======
+>>>>>>> laraxot/dev
 title: "Git push — oggetti LFS mancanti (module_ui_fila5)"
 type: rule
 tags: [git, lfs, push, troubleshooting, ui]
@@ -197,6 +200,7 @@ Risultato: `laraxot/dev` aggiornato (`f552d26..7a189bb`), branch traccia `laraxo
 
 - `git config lfs.allowincompletepush true` — push incompleto, clone rotti per altri.
 - Force push su `main`/`master` senza coordinamento.
+<<<<<<< HEAD
 <<<<<<< .merge_file_yjOv6L
 =======
 =======
@@ -316,10 +320,13 @@ Quando **nessun** remote/clone ha gli OID LFS (404 ovunque) e i puntatori nello 
 >>>>>>> .merge_file_DZ2QEZ
 >>>>>>> .merge_file_thWw2O
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 - Reintrodurre LFS su `*.svg` / `*.png` senza policy e storage affidabile.
 
 ## Prevenzione
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_yjOv6L
 =======
@@ -345,6 +352,8 @@ grep -r "Modules\\\\Geo" app/ --include="*.php" | grep -v '\.old' | grep -v '\.t
 =======
 >>>>>>> .merge_file_DZ2QEZ
 >>>>>>> .merge_file_thWw2O
+=======
+>>>>>>> laraxot/dev
 1. **LFS solo se necessario** (file >100 MB o binari pesanti). SVG/PNG piccoli → blob Git normali.
 2. `.gitattributes` minimo:
 
@@ -366,6 +375,7 @@ git lfs push laraxot --all
 # oppure copiare .git/lfs/objects/ nel clone rotto, poi
 git lfs fsck
 git push -u laraxot dev
+<<<<<<< HEAD
 <<<<<<< .merge_file_yjOv6L
 =======
 =======
@@ -397,10 +407,13 @@ grep -r "Modules\\\\Geo" app/ --include="*.php" | grep -v '\.old' | grep -v '\.t
 >>>>>>> .merge_file_DZ2QEZ
 >>>>>>> .merge_file_thWw2O
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ```
 
 ## Riferimenti
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_yjOv6L
 =======
@@ -419,6 +432,8 @@ grep -r "Modules\\\\Geo" app/ --include="*.php" | grep -v '\.old' | grep -v '\.t
 =======
 >>>>>>> .merge_file_DZ2QEZ
 >>>>>>> .merge_file_thWw2O
+=======
+>>>>>>> laraxot/dev
 - Issue: [laraxot/module_ui_fila5#24](https://github.com/laraxot/module_ui_fila5/issues/24)
 - Discussion: [laraxot/module_ui_fila5#25](https://github.com/laraxot/module_ui_fila5/discussions/25)
 - Confine moduli: [geo-boundary.md](../../geo-boundary.md) · [dependency-rules.md](../../dependency-rules.md)
@@ -450,6 +465,7 @@ find . -maxdepth 1 -name '*.txt' -print
 | `LocationSelector.php` / `InteractiveMap.php` attivi | Rimuovi dal repo (`git rm`); backup locale opzionale come `.old` (gitignored) |
 | Marker `<<<<<<<` in `docs/` | Risolvi forward-only, vedi [git-merge-conflict-inventory](./git-merge-conflict-inventory.md) |
 | Root `.txt` duplicati | Rimuovi da root; contenuto in `_docs/` |
+<<<<<<< HEAD
 <<<<<<< .merge_file_yjOv6L
 =======
 =======
@@ -473,4 +489,6 @@ find . -maxdepth 1 -name '*.txt' -print
 =======
 >>>>>>> .merge_file_DZ2QEZ
 >>>>>>> .merge_file_thWw2O
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

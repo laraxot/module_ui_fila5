@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_DJkr6K
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_BmIRlw
 >>>>>>> .merge_file_ddhadQ
+=======
+>>>>>>> laraxot/dev
 return [
     'delete' => 'elimina',
     'edit' => 'modifica',

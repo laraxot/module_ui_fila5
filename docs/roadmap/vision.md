@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_jDDOAm
 =======
 =======
@@ -69,6 +70,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_YsvJSZ
 >>>>>>> .merge_file_WpiN74
+=======
+>>>>>>> laraxot/dev
 # Visione - UI Module
 
 Creare un ecosistema UI Headless-first:

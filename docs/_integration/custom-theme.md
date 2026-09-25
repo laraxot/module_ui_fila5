@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_IcSuJx
 =======
 <<<<<<< .merge_file_jqaPDZ
@@ -80,6 +81,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_SWO1HI
 >>>>>>> .merge_file_xxy1Xl
+=======
+>>>>>>> laraxot/dev
 # custom_theme
 
 <!-- Contenuto migrato da _docs/custom_theme.txt -->
@@ -87,6 +90,7 @@ related:
 https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -116,6 +120,8 @@ https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-li
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_xxy1Xl
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 php artisan make:filament-theme admin
 
@@ -128,6 +134,7 @@ in app/Providers/Filament/AdminPanelProvider.php
 <!-- Contenuto migrato da _docs/custom_theme.txt -->
 
 https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-livewire-and-tailwindcss
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -159,12 +166,15 @@ https://blog.jpat.dev/build-custom-components-inside-a-filament-v3-panel-with-li
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_xxy1Xl
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 
 php artisan make:filament-theme admin
 
 add resources/css/filament/admin/theme.css entry to vite.config.js
 
 in app/Providers/Filament/AdminPanelProvider.php
+<<<<<<< HEAD
 <<<<<<< HEAD
 ->viteTheme('resources/css/filament/admin/theme.css')
 =======
@@ -207,4 +217,7 @@ in app/Providers/Filament/AdminPanelProvider.php
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_xxy1Xl
+>>>>>>> laraxot/dev
+=======
+->viteTheme('resources/css/filament/admin/theme.css')
 >>>>>>> laraxot/dev

@@ -6,6 +6,7 @@ created: "2026-04-29T00:00:00Z"
 updated: "2026-04-29T07:22:00Z"
 related:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zEQfJ9
   - "[[Theme Integration]]"
   - "[[UI Architecture Sources]]"
@@ -51,6 +52,10 @@ related:
   - "[[UI Architecture Sources]]"
 >>>>>>> .merge_file_gDRrW5
 >>>>>>> .merge_file_piTqRn
+>>>>>>> laraxot/dev
+=======
+  - "[[Theme Integration]]"
+  - "[[UI Architecture Sources]]"
 >>>>>>> laraxot/dev
 ---
 
@@ -107,6 +112,7 @@ When a task concerns shared interface behavior:
 - [[UI Architecture Sources]]
 - `../../README.md`
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_zEQfJ9
 - `../../ARCHITECTURE.md`
 - `../../PRODUCT_STRATEGY.md`
@@ -138,5 +144,9 @@ When a task concerns shared interface behavior:
 - `../../PRODUCT_STRATEGY.md`
 >>>>>>> .merge_file_gDRrW5
 >>>>>>> .merge_file_piTqRn
+>>>>>>> laraxot/dev
+=======
+- `../../ARCHITECTURE.md`
+- `../../PRODUCT_STRATEGY.md`
 >>>>>>> laraxot/dev
 - `../../architecture/structure.md`

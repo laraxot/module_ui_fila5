@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\UI\Tests\Unit\Datas;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_wUCVKj
 =======
 use Modules\UI\Data\UserData as DataUserData;
@@ -22,6 +23,8 @@ use Modules\UI\Data\UserData as DataUserData;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_qQDzbD
+=======
+>>>>>>> laraxot/dev
 use Modules\UI\Datas\SliderData;
 use Modules\UI\Datas\SliderDataCollection;
 use Modules\UI\Datas\UserData;
@@ -30,6 +33,7 @@ use PHPUnit\Framework\Assert;
 use Spatie\LaravelData\Data;
 
 uses(TestCase::class);
+<<<<<<< HEAD
 <<<<<<< .merge_file_wUCVKj
 <<<<<<< HEAD
 =======
@@ -62,6 +66,8 @@ uses(TestCase::class);
 =======
 >>>>>>> .merge_file_MU56B3
 >>>>>>> .merge_file_qQDzbD
+=======
+>>>>>>> laraxot/dev
 
 it('SliderData can be instantiated with all fields', function (): void {
     $data = new SliderData(
@@ -119,6 +125,7 @@ it('SliderData can be instantiated with nulls', function (): void {
 
 it('SliderDataCollection can be instantiated', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
     $collection = new SliderDataCollection();
 =======
 <<<<<<< .merge_file_wUCVKj
@@ -134,6 +141,9 @@ it('SliderDataCollection can be instantiated', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_qQDzbD
+>>>>>>> laraxot/dev
+=======
+    $collection = new SliderDataCollection();
 >>>>>>> laraxot/dev
 
     Assert::assertInstanceOf(SliderDataCollection::class, $collection);
@@ -141,6 +151,7 @@ it('SliderDataCollection can be instantiated', function (): void {
 
 it('SliderDataCollection is a Spatie Data class', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_wUCVKj
 =======
     $collection = new SliderDataCollection();
@@ -159,6 +170,9 @@ it('SliderDataCollection is a Spatie Data class', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_qQDzbD
+=======
+    $collection = new SliderDataCollection();
+>>>>>>> laraxot/dev
 
     Assert::assertInstanceOf(Data::class, $collection);
 });
@@ -189,6 +203,7 @@ it('UI Datas UserData is a Spatie Data class', function (): void {
 
     Assert::assertInstanceOf(Data::class, $data);
 });
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< .merge_file_wUCVKj
@@ -233,4 +248,7 @@ it('UI Data UserData is a Spatie Data class', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_qQDzbD
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev

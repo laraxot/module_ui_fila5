@@ -13,6 +13,7 @@ use Modules\Xot\Providers\XotBaseServiceProvider;
  * Nota: la registrazione dei Blade components modulari avviene tramite GetModulePathByGeneratorAction
  * per garantire la corretta risoluzione dei path secondo la struttura dei moduli.
  *
+<<<<<<< HEAD
 <<<<<<< .merge_file_tWROep
 =======
 <<<<<<< .merge_file_mOdQhK
@@ -40,10 +41,13 @@ use Modules\Xot\Providers\XotBaseServiceProvider;
  *
 >>>>>>> .merge_file_AluPX9
 >>>>>>> .merge_file_oAto5c
+=======
+>>>>>>> laraxot/dev
  * @phpstan-type ModuleConfig array{name: string, alias: string, description: string, keywords: array<int, string>, priority: int, providers: array<int, class-string>}
  */
 class UIServiceProvider extends XotBaseServiceProvider
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_tWROep
 =======
@@ -55,6 +59,8 @@ class UIServiceProvider extends XotBaseServiceProvider
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_oAto5c
+=======
+>>>>>>> laraxot/dev
     /**
      * Nome del modulo.
      */
@@ -63,6 +69,7 @@ class UIServiceProvider extends XotBaseServiceProvider
     /**
      * Directory del modulo.
      */
+<<<<<<< HEAD
 <<<<<<< .merge_file_tWROep
 =======
 <<<<<<< HEAD
@@ -77,10 +84,13 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_oAto5c
+=======
+>>>>>>> laraxot/dev
     protected string $module_dir = __DIR__;
 
     protected string $module_ns = __NAMESPACE__;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_tWROep
 =======
@@ -120,6 +130,8 @@ class UIServiceProvider extends XotBaseServiceProvider
         );
     }
 
+=======
+>>>>>>> laraxot/dev
     /**
      * Boot del service provider.
      *
@@ -129,6 +141,7 @@ class UIServiceProvider extends XotBaseServiceProvider
      */
 
     /**
+<<<<<<< HEAD
 =======
 >>>>>>> .merge_file_AluPX9
      * Restituisce il percorso delle viste dei componenti UI.
@@ -142,6 +155,16 @@ class UIServiceProvider extends XotBaseServiceProvider
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_oAto5c
+>>>>>>> laraxot/dev
+=======
+     * Registra i servizi del provider.
+     *
+     * @return void
+     */
+
+    /**
+     * Restituisce il percorso delle viste dei componenti UI.
+     */
 >>>>>>> laraxot/dev
     public function getComponentViewPath(): string
     {

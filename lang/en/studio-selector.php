@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_200X34
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_OVm4of
 >>>>>>> .merge_file_uz0OPM
+=======
+>>>>>>> laraxot/dev
 return [
     'actions' => [
         'select' => [

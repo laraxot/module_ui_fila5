@@ -1,6 +1,7 @@
 # PHPStan Roadmap - UI Module
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 > **Date**: [DATE]
 =======
 <<<<<<< .merge_file_fqH6Zp
@@ -14,6 +15,9 @@
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_VjDmp2
+=======
+> **Date**: [DATE]
+>>>>>>> laraxot/dev
 > **Status**: ✅ Fully Compliant (Level 10)
 > **Errors**: 0
 

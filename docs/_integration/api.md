@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_P3Vdj2
 =======
 =======
@@ -69,6 +70,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_YinuIj
 >>>>>>> .merge_file_ihhMPP
+=======
+>>>>>>> laraxot/dev
 # api
 
 <!-- Contenuto migrato da _docs/api.txt -->

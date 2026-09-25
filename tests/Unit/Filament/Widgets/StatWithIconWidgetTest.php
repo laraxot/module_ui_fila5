@@ -14,6 +14,7 @@ uses(TestCase::class);
 
 test('stat with icon widget extends filament widget', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
     $widget = new StatWithIconWidget();
 =======
 <<<<<<< .merge_file_HhJC1u
@@ -29,6 +30,9 @@ test('stat with icon widget extends filament widget', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_RcxGUu
+>>>>>>> laraxot/dev
+=======
+    $widget = new StatWithIconWidget();
 >>>>>>> laraxot/dev
     Assert::assertInstanceOf(Widget::class, $widget);
     Assert::assertInstanceOf(XotBaseSchemaWidget::class, $widget);
@@ -36,6 +40,7 @@ test('stat with icon widget extends filament widget', function (): void {
 
 test('stat with icon widget can be instantiated', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_HhJC1u
 =======
     $widget = new StatWithIconWidget();
@@ -54,11 +59,15 @@ test('stat with icon widget can be instantiated', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_RcxGUu
+=======
+    $widget = new StatWithIconWidget();
+>>>>>>> laraxot/dev
     Assert::assertInstanceOf(StatWithIconWidget::class, $widget);
 });
 
 test('stat with icon widget returns empty form schema', function (): void {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_HhJC1u
 =======
     $widget = new StatWithIconWidget();
@@ -77,5 +86,8 @@ test('stat with icon widget returns empty form schema', function (): void {
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_RcxGUu
+=======
+    $widget = new StatWithIconWidget();
+>>>>>>> laraxot/dev
     Assert::assertSame([], $widget->getFormSchema());
 });

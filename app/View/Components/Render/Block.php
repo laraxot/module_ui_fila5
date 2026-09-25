@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\View\Component;
 use Illuminate\View\View;
+<<<<<<< HEAD
 <<<<<<< .merge_file_qrnzbr
 <<<<<<< HEAD
 use Modules\Cms\Actions\ResolveLocalizedBlockDataAction;
@@ -37,6 +38,9 @@ use UnexpectedValueException;
 use Modules\UI\Actions\Block\ResolveLocalizedBlockDataAction;
 >>>>>>> .merge_file_HlKmPd
 >>>>>>> .merge_file_N1Nshf
+=======
+use Modules\Cms\Actions\ResolveLocalizedBlockDataAction;
+>>>>>>> laraxot/dev
 use Webmozart\Assert\Assert;
 
 /**
@@ -44,6 +48,7 @@ use Webmozart\Assert\Assert;
  */
 class Block extends Component
 {
+<<<<<<< HEAD
     public ?string $view = null;
 
     /**
@@ -66,6 +71,13 @@ class Block extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_N1Nshf
+=======
+    /** @var view-string|null */
+    public ?string $view = null;
+
+    /**
+     * @param  array<string, mixed>  $block
+>>>>>>> laraxot/dev
      */
     public function __construct(
         public array $block,
@@ -73,6 +85,7 @@ class Block extends Component
         public string $tpl = '',
     ) {
         $view = Arr::get($this->block, 'data.view', null);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_qrnzbr
 =======
@@ -95,12 +108,21 @@ class Block extends Component
             $view = 'ui::empty';
         }
         Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+=======
+        if ($view === null) {
+            /** @var view-string $view */
+            $view = 'ui::empty';
+        }
+        Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
+        /** @var view-string $view */
+>>>>>>> laraxot/dev
         $this->view = $view;
     }
 
     public function render(): ViewFactory|View
     {
         if (! isset($this->block['type'])) {
+<<<<<<< HEAD
             return view('ui::empty');
         }
 
@@ -199,11 +221,50 @@ class Block extends Component
      */
     private function normalizeViewData(array $data): array
     {
+=======
+            /** @var view-string $viewName */
+            $viewName = 'ui::empty';
+
+            return view($viewName);
+        }
+
+        $view = $this->view ?? 'ui::empty';
+        /** @var view-string $view */
+        $viewPath = (string) $view;
+        if (! view()->exists($viewPath)) {
+            $message = 'view not exists ['.$view.'] ! <pre>'.print_r($this->block, true).'</pre>';
+            $view_params = [
+                'title' => 'deprecated',
+                'message' => $message,
+            ];
+            /** @var view-string $viewAlert */
+            $viewAlert = 'ui::alert';
+
+            return view($viewAlert, $view_params);
+        }
+        $view_params = $this->normalizeViewData($this->block['data'] ?? []);
+        $view_params = app(ResolveLocalizedBlockDataAction::class)->execute($view_params);
+        $view_params = $this->normalizeViewData($view_params);
+
+        return view($view, $view_params);
+    }
+
+    /**
+     * @return array<string, mixed>
+     */
+    private function normalizeViewData(mixed $data): array
+    {
+        if (! is_array($data)) {
+            return [];
+        }
+
+>>>>>>> laraxot/dev
         $viewData = [];
 
         foreach ($data as $key => $value) {
             if (! is_string($key)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_qrnzbr
 =======
                 throw new \UnexpectedValueException('Block view data must have string keys.');
@@ -222,6 +283,9 @@ class Block extends Component
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_N1Nshf
+=======
+                throw new \UnexpectedValueException('Block view data must have string keys.');
+>>>>>>> laraxot/dev
             }
 
             $viewData[$key] = $value;

@@ -1,6 +1,7 @@
 # Conflitti di Merge Risolti nel Modulo UI
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9M0zbz
 ## Conflitti Risolti ([DATE])
 =======
@@ -24,6 +25,9 @@
 ## Conflitti Risolti ([DATE])
 >>>>>>> .merge_file_sYsVr0
 >>>>>>> .merge_file_Y7Pxvz
+>>>>>>> laraxot/dev
+=======
+## Conflitti Risolti ([DATE])
 >>>>>>> laraxot/dev
 
 ### 1. UIServiceProvider.php
@@ -80,6 +84,7 @@ La strategia adottata per la risoluzione dei conflitti si è basata sui seguenti
 Questa documentazione integra le informazioni sui conflitti risolti, fornendo dettagli sui problemi, le soluzioni adottate e le motivazioni, per mantenere la memoria storica delle scelte e facilitare la comprensione dell'evoluzione del sistema.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9M0zbz
 =======
 <<<<<<< .merge_file_eEbh5Y
@@ -128,6 +133,8 @@ La strategia adottata per la risoluzione dei conflitti si è basata sui seguenti
 =======
 >>>>>>> .merge_file_sYsVr0
 >>>>>>> .merge_file_Y7Pxvz
+=======
+>>>>>>> laraxot/dev
 ## Backlink
 - [Torna a docs/links.md](../../../../../docs/links.md)
 - [Vedi anche: UI/docs/README.md](./readme.md)
@@ -183,6 +190,7 @@ La strategia adottata per la risoluzione dei conflitti si è basata sui seguenti
 
 La strategia adottata per la risoluzione dei conflitti si è basata sui seguenti principi:
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_9M0zbz
 =======
 =======
@@ -254,11 +262,14 @@ La strategia adottata per la risoluzione dei conflitti si è basata sui seguenti
 >>>>>>> .merge_file_sYsVr0
 >>>>>>> .merge_file_Y7Pxvz
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 1. **Priorità alla funzionalità:** Mantenere sempre la versione che garantisce il corretto funzionamento del sistema
 2. **Completezza della documentazione:** Preservare la documentazione più dettagliata e informativa
 3. **Coerenza architetturale:** Assicurare che le soluzioni rispettino l'architettura modulare del sistema
 4. **Manutenibilità:** Favorire le versioni che facilitano la manutenzione futura del codice
 5. **Integrazione:** Quando possibile, integrare le informazioni di entrambe le versioni per massimizzare il valore
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_9M0zbz
 =======
@@ -280,6 +291,8 @@ Questa documentazione integra le informazioni sui conflitti risolti, fornendo de
 =======
 >>>>>>> .merge_file_sYsVr0
 >>>>>>> .merge_file_Y7Pxvz
+=======
+>>>>>>> laraxot/dev
 
 ## Decisione Architetturale
 Questa documentazione integra le informazioni sui conflitti risolti, fornendo dettagli sui problemi, le soluzioni adottate e le motivazioni, per mantenere la memoria storica delle scelte e facilitare la comprensione dell'evoluzione del sistema.
@@ -291,6 +304,7 @@ Questa documentazione integra le informazioni sui conflitti risolti, fornendo de
 - [Vedi anche: Blog/docs/README.md](../../blog/docs/readme.md)
 - [Vedi anche: Cms/docs/README.md](../../cms/docs/readme.md)
 - [Vedi anche: Comment/docs/README.md](../../comment/docs/readme.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_9M0zbz
 =======
 =======
@@ -335,4 +349,6 @@ Questa documentazione integra le informazioni sui conflitti risolti, fornendo de
 =======
 >>>>>>> .merge_file_sYsVr0
 >>>>>>> .merge_file_Y7Pxvz
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_izjsIy
 =======
 =======
@@ -58,6 +59,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_MxfUu7
 >>>>>>> .merge_file_B8218C
+=======
+>>>>>>> laraxot/dev
 # Gestione delle Traduzioni con LangServiceProvider
 
 ## Collegamenti Bidirezionali
@@ -186,6 +189,7 @@ return [
 // Modules/Patient/Filament/Resources/DoctorResource.php
 public static function getFormSchema(): array
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_izjsIy
 =======
 public function getFormSchema(): array
@@ -207,6 +211,8 @@ public function getFormSchema(): array
 >>>>>>> .merge_file_MxfUu7
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_B8218C
+=======
+>>>>>>> laraxot/dev
 {
     return [
         Forms\Components\TextInput::make('first_name'),  // La label viene gestita automaticamente

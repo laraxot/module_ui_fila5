@@ -13,6 +13,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 {
     protected string $module = 'UI';
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     #[\Override]
 =======
@@ -27,6 +28,10 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_rYEVTI
+>>>>>>> laraxot/dev
+=======
+
+    #[\Override]
 >>>>>>> laraxot/dev
     public function panel(Panel $panel): Panel
     {

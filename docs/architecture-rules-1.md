@@ -1,6 +1,7 @@
 ---
 module: theme
 <<<<<<< HEAD
+<<<<<<< HEAD
 topic: architecture-rules-1
 =======
 <<<<<<< .merge_file_xSsDYm
@@ -14,10 +15,14 @@ topic: architecture-rules_1
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Po6KNO
+=======
+topic: architecture-rules-1
+>>>>>>> laraxot/dev
 canonical: ../../../Themes/docs/shared-components/architecture-rules-Modules.md
 ---
 
 See canonical documentation: ../../../Themes/docs/shared-components/architecture-rules-Modules.md
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< .merge_file_xSsDYm
@@ -45,3 +50,5 @@ For strict coding standards, Filament extension rules, and PHPStan guidelines, p
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Po6KNO
+=======
+>>>>>>> laraxot/dev

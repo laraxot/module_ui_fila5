@@ -102,6 +102,7 @@ public function render()
 
 ## Note
 <<<<<<< HEAD
+<<<<<<< HEAD
 Questa documentazione è parte del sistema di documentazione di il progetto. Per dettagli specifici sui singoli blocchi, consultare la documentazione dei rispettivi moduli.
 =======
 <<<<<<< .merge_file_ZWWw5D
@@ -115,3 +116,6 @@ Questa documentazione è parte del sistema di documentazione di il progetto. Per
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_sX7lsW
+=======
+Questa documentazione è parte del sistema di documentazione di il progetto. Per dettagli specifici sui singoli blocchi, consultare la documentazione dei rispettivi moduli.
+>>>>>>> laraxot/dev

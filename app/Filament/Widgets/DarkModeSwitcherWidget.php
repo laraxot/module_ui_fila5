@@ -12,6 +12,7 @@ use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_pWUNYF
 =======
     public ?array $data = [];
@@ -35,6 +36,23 @@ final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
     /** @phpstan-var view-string */
     /** @phpstan-ignore property.defaultValue */
     protected string $view = 'ui::filament.widgets.dark-mode-switcher';
+=======
+    public ?array $data = [];
+
+    public bool $darkMode = false;
+
+    /** @var view-string */
+    protected string $view;
+
+    public function __construct()
+    {
+        /** @var view-string $view */
+        $view = 'ui::filament.widgets.dark-mode-switcher';
+        $this->view = $view;
+
+        parent::__construct();
+    }
+>>>>>>> laraxot/dev
 
     public function mount(): void
     {
@@ -62,6 +80,7 @@ final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
         return [];
     }
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_pWUNYF
 <<<<<<< HEAD
 =======
@@ -97,6 +116,8 @@ final class DarkModeSwitcherWidget extends XotBaseSchemaWidget
 =======
 >>>>>>> .merge_file_4zuboB
 >>>>>>> .merge_file_SaihbT
+=======
+>>>>>>> laraxot/dev
     public function render(): View
     {
         return view($this->view, [

@@ -3,6 +3,7 @@
 ## Collegamenti
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_79jfOl
 - [Modulo Lang](../../lang/docs/module_lang.md) - Documentazione principale sulle traduzioni
 - [Regole Generali Traduzioni](../../xot/docs/translations.md)
@@ -34,6 +35,10 @@
 - [Regole Generali Traduzioni](../../xot/docs/translations.md)
 >>>>>>> .merge_file_puXwAW
 >>>>>>> .merge_file_rvirVR
+>>>>>>> laraxot/dev
+=======
+- [Modulo Lang](../../lang/docs/module_lang.md) - Documentazione principale sulle traduzioni
+- [Regole Generali Traduzioni](../../xot/docs/translations.md)
 >>>>>>> laraxot/dev
 
 ## Struttura
@@ -83,6 +88,7 @@ return [
 ```
 ## Collegamenti tra versioni di translations.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_79jfOl
 =======
 <<<<<<< .merge_file_jPx1Bc
@@ -112,6 +118,8 @@ return [
 =======
 >>>>>>> .merge_file_puXwAW
 >>>>>>> .merge_file_rvirVR
+=======
+>>>>>>> laraxot/dev
 * [translations.md](../../../chart/docs/translations.md)
 * [translations.md](../../../reporting/docs/translations.md)
 * [translations.md](../../../gdpr/docs/translations.md)
@@ -129,6 +137,7 @@ return [
 * [translations.md](../../../activity/docs/translations.md)
 * [translations.md](../../../patient/docs/translations.md)
 * [translations.md](../../../cms/docs/translations.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_79jfOl
 =======
 =======
@@ -164,4 +173,6 @@ return [
 =======
 >>>>>>> .merge_file_puXwAW
 >>>>>>> .merge_file_rvirVR
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

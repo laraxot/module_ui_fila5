@@ -128,6 +128,7 @@
 ### Collegamenti Interni
 - [Roadmap](roadmap.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dRWY4
 - [Best Practices](best-practices.md)
 =======
@@ -152,6 +153,9 @@
 >>>>>>> .merge_file_rlFFcA
 >>>>>>> .merge_file_pPh34g
 >>>>>>> laraxot/dev
+=======
+- [Best Practices](best-practices.md)
+>>>>>>> laraxot/dev
 ### Versione HEAD
 
 - [Testing](testing.md)
@@ -161,6 +165,7 @@
 - [Testing](testing.md)
 ## Collegamenti tra versioni di bottlenecks.md
 * [bottlenecks.md](../../../../bashscripts/docs/bottlenecks.md)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_6dRWY4
 =======
@@ -193,6 +198,8 @@
 =======
 >>>>>>> .merge_file_rlFFcA
 >>>>>>> .merge_file_pPh34g
+=======
+>>>>>>> laraxot/dev
 * [bottlenecks.md](../../chart/docs/bottlenecks.md)
 * [bottlenecks.md](../../chart/docs/performance/bottlenecks.md)
 * [bottlenecks.md](../../gdpr/docs/bottlenecks.md)
@@ -212,6 +219,7 @@
 * [bottlenecks.md](../../activity/docs/bottlenecks.md)
 * [bottlenecks.md](../../patient/docs/roadmap/bottlenecks.md)
 * [bottlenecks.md](../../cms/docs/bottlenecks.md)
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dRWY4
 =======
 =======
@@ -249,6 +257,8 @@
 =======
 >>>>>>> .merge_file_rlFFcA
 >>>>>>> .merge_file_pPh34g
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ---

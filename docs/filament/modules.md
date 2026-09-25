@@ -4,6 +4,7 @@ description: Moduli Filament
 extends: _layouts.documentation
 section: content
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_4tavdw
 =======
 =======
@@ -40,6 +41,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_BGMBgj
 >>>>>>> .merge_file_recmyA
+=======
+>>>>>>> laraxot/dev
 ---
 
 # Moduli Filament {#moduli-filament}

@@ -1,5 +1,6 @@
 # Correzioni PHPStan Livello 7 - Modulo UI
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_bw8BwR
 =======
@@ -16,6 +17,8 @@ See canonical documentation: ../../../Themes/docs/shared-components/phpstan-fixe
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_g36sDI
+=======
+>>>>>>> laraxot/dev
 
 Questo documento traccia gli errori PHPStan di livello 7 identificati nel modulo UI e le relative soluzioni implementate.
 

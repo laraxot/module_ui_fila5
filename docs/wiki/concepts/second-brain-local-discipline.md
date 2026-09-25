@@ -8,6 +8,7 @@ updated: 2026-06-05
 qmd: "ui second brain stub canonical xot harness hackernoon llm-wiki"
 issues:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_8FuFEy
 =======
 <<<<<<< .merge_file_yVVffE
@@ -30,6 +31,8 @@ related:
 =======
 >>>>>>> .merge_file_0YqcNW
 >>>>>>> .merge_file_IJxMhx
+=======
+>>>>>>> laraxot/dev
   - "https://github.com/laraxot/base_fixcity_fila5/issues/272"
 discussions:
   - "https://github.com/laraxot/base_fixcity_fila5/discussions/273"
@@ -38,6 +41,7 @@ related:
   - ../../../../docs/wiki/concepts/ai-harness-module-discipline.md
   - ../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md
   - ../../../../../../bashscripts/tools/prompts/llm-wiki.txt
+<<<<<<< HEAD
 <<<<<<< .merge_file_8FuFEy
 =======
 =======
@@ -66,6 +70,8 @@ related:
 =======
 >>>>>>> .merge_file_0YqcNW
 >>>>>>> .merge_file_IJxMhx
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ---
 
@@ -75,6 +81,7 @@ related:
 |---------|------|
 | **Canon** | [Xot second-brain-local-discipline.md](../../../../Xot/docs/wiki/concepts/second-brain-local-discipline.md) |
 | **Harness moduli** | [ai-harness-module-discipline.md](../../../../docs/wiki/concepts/ai-harness-module-discipline.md) |
+<<<<<<< HEAD
 <<<<<<< HEAD
 | **Tips 001–022** | [hackernoon map](../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md) |
 =======
@@ -128,6 +135,9 @@ related:
 =======
 >>>>>>> .merge_file_0YqcNW
 >>>>>>> .merge_file_IJxMhx
+>>>>>>> laraxot/dev
+=======
+| **Tips 001–022** | [hackernoon map](../../../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md) |
 >>>>>>> laraxot/dev
 | **Prompt router** | [llm-wiki.txt](../../../../../../bashscripts/tools/prompts/llm-wiki.txt) |
 

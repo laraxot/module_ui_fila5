@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_AEmCVI
 <<<<<<< HEAD
 =======
@@ -30,6 +31,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_InaJj2
 >>>>>>> .merge_file_DJ8iDD
+=======
+>>>>>>> laraxot/dev
 return [
     'months' => [
         0 => 'Gennaio',

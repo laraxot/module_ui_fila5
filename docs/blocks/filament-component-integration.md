@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9LndG0
 =======
 =======
@@ -65,6 +66,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_54HEeS
 >>>>>>> .merge_file_7X1ogH
+=======
+>>>>>>> laraxot/dev
 # Integrazione dei Componenti Filament nei Blocchi
 
 ## Introduzione

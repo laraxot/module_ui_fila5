@@ -1,6 +1,7 @@
 # 🔧 PSR-4 Fix Implementation Plan - UI Module
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_Suw1JJ
 =======
 **Data**: Dicembre 15, 2025
@@ -22,6 +23,8 @@
 >>>>>>> .merge_file_kFplSF
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_A2pbFK
+=======
+>>>>>>> laraxot/dev
 **Modulo**: UI
 **Tipo Fix**: Namespace correction (Modules\Notify → Modules\UI)
 
@@ -49,6 +52,7 @@ Tutti in `Modules/UI/app/Filament/Forms/Components/`:
 
 ### Import Statements da Verificare
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 **TechPlanner/app/Filament/Resources/ClientResource.php**:
 <<<<<<< .merge_file_Suw1JJ
@@ -100,6 +104,9 @@ Tutti in `Modules/UI/app/Filament/Forms/Components/`:
 =======
 >>>>>>> .merge_file_kFplSF
 >>>>>>> .merge_file_A2pbFK
+>>>>>>> laraxot/dev
+=======
+**TechPlanner/app/Filament/Resources/ClientResource.php**:
 >>>>>>> laraxot/dev
 ```php
 Line 13: use Modules\Notify\Filament\Forms\Components\ContactSection;
@@ -216,6 +223,7 @@ Aggiornare:
 - [x] `Modules/UI/docs/psr4-fix-implementation-plan.md` - Questo file (status update)
 - [ ] `Modules/UI/docs/README.md` - Aggiungere reference a PSR-4 fix
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] `Modules/UI/docs/CHANGELOG.md` - Log del fix
 =======
 <<<<<<< HEAD
@@ -239,6 +247,9 @@ Aggiornare:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_A2pbFK
+=======
+- [ ] `Modules/UI/docs/CHANGELOG.md` - Log del fix
+>>>>>>> laraxot/dev
 
 ### Step 8: Git Commit
 

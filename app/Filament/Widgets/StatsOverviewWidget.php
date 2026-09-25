@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Widgets;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_xnRc8u
 =======
 <<<<<<< .merge_file_SnCqVf
@@ -40,6 +41,11 @@ use Modules\Xot\Filament\Widgets\XotBaseStatsOverviewWidget;
 final class StatsOverviewWidget extends XotBaseStatsOverviewWidget
 >>>>>>> .merge_file_eJ1nPQ
 >>>>>>> .merge_file_94Jc5d
+=======
+use Modules\Xot\Filament\Widgets\XotBaseStatsOverviewWidget as BaseWidget;
+
+final class StatsOverviewWidget extends BaseWidget
+>>>>>>> laraxot/dev
 {
     protected ?string $heading = 'Stats Overview';
 }

@@ -1,6 +1,7 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
 <<<<<<< .merge_file_BfaJao
 
 =======
@@ -9,6 +10,9 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_f8XmPL
 >>>>>>> .merge_file_GnU0Xi
+=======
+
+>>>>>>> laraxot/dev
 ?>
 <div class="bg-white py-20 sm:py-24 lg:py-32">
     <div class="mx-auto max-w-xl px-6 lg:max-w-7xl lg:px-8">

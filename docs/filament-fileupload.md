@@ -90,6 +90,7 @@ return [
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dI7BP
 =======
 <<<<<<< .merge_file_o6y9jC
@@ -109,11 +110,17 @@ return [
 - [Form Components](../../patient/docs/filament-form-components.md)
 - [Best Practices](../../xot/docs/filament-best-practices.md)
 >>>>>>> laraxot/dev
+=======
+- [Translation System](../../lang/docs/translation-system.md)
+- [Form Components](../../patient/docs/filament-form-components.md)
+- [Best Practices](../../xot/docs/filament-best-practices.md)
+>>>>>>> laraxot/dev
 
 ## Vedi Anche
 - [Filament File Upload](https://filamentphp.com/docs/forms/fields/file-upload)
 - [Laravel File Storage](https://laravel.com/docs/filesystem)
 # FileUpload Component in Filament
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## Metodi Disponibili
 =======
@@ -164,6 +171,11 @@ return [
 >>>>>>> .merge_file_71R8j0
 >>>>>>> .merge_file_Wtdikt
 >>>>>>> laraxot/dev
+=======
+
+## Metodi Disponibili
+
+>>>>>>> laraxot/dev
 ### Configurazione Base
 ```php
 FileUpload::make('document')
@@ -174,6 +186,7 @@ FileUpload::make('document')
     ->maxSize(10240)
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dI7BP
 =======
 <<<<<<< .merge_file_o6y9jC
@@ -188,10 +201,13 @@ FileUpload::make('document')
 =======
 >>>>>>> .merge_file_71R8j0
 >>>>>>> .merge_file_Wtdikt
+=======
+>>>>>>> laraxot/dev
 
 ### UI/UX
 ```php
 FileUpload::make('document')
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dI7BP
 =======
 ### UI/UX
@@ -208,6 +224,8 @@ FileUpload::make('document')
 >>>>>>> .merge_file_71R8j0
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Wtdikt
+=======
+>>>>>>> laraxot/dev
     ->downloadable()
     ->previewable()
     ->imagePreviewHeight('250')
@@ -217,6 +235,7 @@ FileUpload::make('document')
     ->removeUploadedFileButtonPosition('right')
     ->uploadProgressIndicatorPosition('right')
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dI7BP
 =======
 <<<<<<< .merge_file_o6y9jC
@@ -237,6 +256,8 @@ FileUpload::make('document')
 =======
 >>>>>>> .merge_file_71R8j0
 >>>>>>> .merge_file_Wtdikt
+=======
+>>>>>>> laraxot/dev
 ```
 
 ## ⚠️ Errori Comuni
@@ -263,6 +284,7 @@ FileUpload::make('document')
 
 ✅ **FARE**:
 ```php
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dI7BP
 =======
 =======
@@ -289,6 +311,8 @@ FileUpload::make('document')
 =======
 >>>>>>> .merge_file_71R8j0
 >>>>>>> .merge_file_Wtdikt
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 // Usa il file di traduzione invece
 // lang/it/resource.php
@@ -302,6 +326,7 @@ return [
     ],
 ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dI7BP
 =======
 <<<<<<< .merge_file_o6y9jC
@@ -316,10 +341,13 @@ return [
 =======
 >>>>>>> .merge_file_71R8j0
 >>>>>>> .merge_file_Wtdikt
+=======
+>>>>>>> laraxot/dev
 ```
 
 ## Best Practices
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dI7BP
 =======
 ## Best Practices
@@ -336,12 +364,15 @@ return [
 >>>>>>> .merge_file_71R8j0
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Wtdikt
+=======
+>>>>>>> laraxot/dev
 1. **Sicurezza**
    - Limita sempre i tipi di file accettati
    - Imposta una dimensione massima appropriata
    - Usa directory specifiche per tipo di file
    - Implementa validazione server-side
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dI7BP
 
 =======
@@ -363,12 +394,16 @@ return [
 >>>>>>> .merge_file_71R8j0
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Wtdikt
+=======
+
+>>>>>>> laraxot/dev
 2. **Performance**
    - Ottimizza le dimensioni dei file
    - Usa disk appropriati per lo storage
    - Implementa gestione errori
    - Fornisci feedback di progresso
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dI7BP
 
 =======
@@ -390,12 +425,16 @@ return [
 >>>>>>> .merge_file_71R8j0
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Wtdikt
+=======
+
+>>>>>>> laraxot/dev
 3. **UX**
    - Usa icone appropriate
    - Fornisci preview quando possibile
    - Mostra messaggi di errore chiari
    - Implementa drag & drop
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dI7BP
 
 =======
@@ -415,6 +454,9 @@ return [
 
 >>>>>>> .merge_file_71R8j0
 >>>>>>> .merge_file_Wtdikt
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 4. **Manutenibilità**
    - Usa costanti per configurazioni comuni
@@ -422,6 +464,7 @@ return [
    - Documenta requisiti specifici
    - Segui le convenzioni di naming
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6dI7BP
 =======
 <<<<<<< .merge_file_o6y9jC
@@ -438,16 +481,22 @@ return [
 =======
 >>>>>>> .merge_file_71R8j0
 >>>>>>> .merge_file_Wtdikt
+=======
+>>>>>>> laraxot/dev
 
 ## Collegamenti
 - [Translation System](../../lang/project_docs/translation-system.md)
 - [Form Components](../../patient/project_docs/filament-form-components.md)
 - [Best Practices](../../xot/project_docs/filament-best-practices.md)
+<<<<<<< HEAD
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 
 ## Vedi Anche
 - [Filament File Upload](https://filamentphp.com/project_docs/forms/fields/file-upload)
 - [Laravel File Storage](https://laravel.com/project_docs/filesystem)
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -544,4 +593,6 @@ return [
 >>>>>>> 92912795 (.)
 =======
 >>>>>>> .merge_file_Wtdikt
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

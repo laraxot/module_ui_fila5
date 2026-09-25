@@ -6,6 +6,7 @@ canonical: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
 
 See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Modules.md
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_WKVsLU
 =======
 =======
@@ -48,3 +49,5 @@ See canonical documentation: ../../../../Themes/docs/shared-components/AGENTS-Mo
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_zo4Jfn
 >>>>>>> .merge_file_BGZM9O
+=======
+>>>>>>> laraxot/dev

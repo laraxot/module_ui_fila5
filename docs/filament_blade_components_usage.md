@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_fHxfYW
 # Utilizzo dei Componenti Blade di Filament 
 =======
@@ -49,6 +50,9 @@
 # Utilizzo dei Componenti Blade di Filament 
 >>>>>>> .merge_file_y7jHbn
 >>>>>>> .merge_file_rZwsnS
+>>>>>>> laraxot/dev
+=======
+# Utilizzo dei Componenti Blade di Filament 
 >>>>>>> laraxot/dev
 
 ## Indice
@@ -91,6 +95,7 @@ Filament fornisce una serie di componenti Blade pronti all'uso che dovrebbero es
 ⚠️ **ATTENZIONE**: I seguenti layout **NON esistono** in Filament e non devono essere utilizzati:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_fHxfYW
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>
 =======
@@ -161,6 +166,9 @@ Filament fornisce una serie di componenti Blade pronti all'uso che dovrebbero es
 - ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>
 >>>>>>> .merge_file_y7jHbn
 >>>>>>> .merge_file_rZwsnS
+>>>>>>> laraxot/dev
+=======
+- ❌ `<x-filament::layouts.app>` - Non esiste, utilizzare invece `<x-layouts.app>` di <nome progetto>
 >>>>>>> laraxot/dev
 - ❌ `<x-filament::layouts.card>` - Non esiste, utilizzare invece una combinazione di `<x-filament::card>` e altri componenti
 - ❌ `<x-filament::layouts.base>` - Non esiste
@@ -305,6 +313,7 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 3. **NON nidificare** elementi dropdown in modo errato - Rispettare la struttura gerarchica dei componenti Filament.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_fHxfYW
 ## Gestione delle Rotte 
 =======
@@ -370,6 +379,9 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 ## Gestione delle Rotte 
 >>>>>>> .merge_file_y7jHbn
 >>>>>>> .merge_file_rZwsnS
+>>>>>>> laraxot/dev
+=======
+## Gestione delle Rotte 
 >>>>>>> laraxot/dev
 
 ### Regole Fondamentali
@@ -380,6 +392,7 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
 
 2. **Per le pagine frontend**:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_fHxfYW
    - Creare file Blade in `/var/www/html/<nome progetto>/laravel/Themes/One/resources/views/pages/`
 =======
@@ -450,6 +463,9 @@ I dropdown di Filament hanno una struttura specifica che deve essere rispettata.
    - Creare file Blade in `/var/www/html/<nome progetto>/laravel/Themes/One/resources/views/pages/`
 >>>>>>> .merge_file_y7jHbn
 >>>>>>> .merge_file_rZwsnS
+>>>>>>> laraxot/dev
+=======
+   - Creare file Blade in `/var/www/html/<nome progetto>/laravel/Themes/One/resources/views/pages/`
 >>>>>>> laraxot/dev
    - Utilizzare Folio per il routing automatico
    - Esempio: `/profile/index.blade.php` sarà accessibile come `/it/profile`

@@ -11,6 +11,7 @@ updated: 2026-05-11
 Concetti specifici del modulo UI. Carica on-demand via `qmd search` o consulta il [trigger map root](/docs/wiki/rules/00-TRIGGER_MAP.md).
 
 - `auth-register-focus-loss-overlay.md` — bug focus form registrazione causato da overlay header mobile fullscreen.
+<<<<<<< HEAD
 <<<<<<< .merge_file_lO6wvd
 <<<<<<< HEAD
 - [claude-audit-static](./claude-audit-static.md) — gate 80/0 static + debito pricing blocks
@@ -32,3 +33,5 @@ Concetti specifici del modulo UI. Carica on-demand via `qmd search` o consulta i
 =======
 >>>>>>> .merge_file_aJdsUi
 >>>>>>> .merge_file_USgQA2
+=======
+>>>>>>> laraxot/dev

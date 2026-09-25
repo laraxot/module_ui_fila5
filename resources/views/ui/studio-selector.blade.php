@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_DNyHPx
 <<<<<<< HEAD
 =======
@@ -44,6 +45,12 @@
 <?php
 
 declare(strict_types=1);
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> laraxot/dev
 ?>
 {{-- Studio Selector Component - Card cliccabili per selezione studio --}}
 <div 

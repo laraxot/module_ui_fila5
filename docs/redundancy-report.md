@@ -31,6 +31,7 @@ Referenziava `Modules\Geo\Services\MapService` e `Modules\Geo\Services\Geocoding
 Esiste anche in:
 - `Modules/Blog/app/Models/Category.php`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `Modules/Fixcity/app/Models/Category.php`
 <<<<<<< .merge_file_DmQOKR
 =======
@@ -85,6 +86,9 @@ Esiste anche in:
 =======
 >>>>>>> .merge_file_lqKVtP
 >>>>>>> .merge_file_OLxSx6
+>>>>>>> laraxot/dev
+=======
+- `Modules/Fixcity/app/Models/Category.php`
 >>>>>>> laraxot/dev
 
 Verificare se ciascun modulo ha la propria tabella `categories` o se dovrebbe usare un modello condiviso.

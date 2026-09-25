@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_29OejL
 <<<<<<< HEAD
 =======
@@ -30,11 +31,14 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_mTAnhJ
 >>>>>>> .merge_file_b1jpJj
+=======
+>>>>>>> laraxot/dev
 return [
     'fields' => [
         'method' => ['label' => 'method', 'description' => 'method', 'helper_text' => 'method', 'placeholder' => 'method', 'tooltip' => ''],
         '_tpl' => ['label' => '_tpl', 'tooltip' => '', 'helper_text' => '', 'description' => ''],
         'view' => ['label' => 'view', 'tooltip' => '', 'helper_text' => '', 'description' => '', 'placeholder' => 'view'],
+<<<<<<< HEAD
 <<<<<<< .merge_file_29OejL
 =======
 <<<<<<< .merge_file_XztUqd
@@ -56,6 +60,8 @@ return [
         'layout' => ['label' => 'layout', 'placeholder' => 'layout', 'helper_text' => 'layout', 'description' => 'layout'],
 >>>>>>> .merge_file_mTAnhJ
 >>>>>>> .merge_file_b1jpJj
+=======
+>>>>>>> laraxot/dev
     ],
     'label' => 'Slider',
     'plural_label' => 'Slider (Plurale)',
@@ -65,6 +71,7 @@ return [
         'group' => ['name' => 'General', 'description' => 'General Settings'],
         'label' => 'Slider',
         'sort' => 1,
+<<<<<<< HEAD
 <<<<<<< .merge_file_29OejL
 <<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
@@ -90,6 +97,9 @@ return [
         'icon' => 'heroicon-o-rectangle-stack',
 >>>>>>> .merge_file_mTAnhJ
 >>>>>>> .merge_file_b1jpJj
+=======
+        'icon' => 'heroicon-o-collection',
+>>>>>>> laraxot/dev
     ],
     'actions' => [
         'create' => ['label' => 'Crea Slider'],

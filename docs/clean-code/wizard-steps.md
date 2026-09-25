@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9p0npb
 =======
 =======
@@ -65,6 +66,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Qpb78c
 >>>>>>> .merge_file_CcPUjN
+=======
+>>>>>>> laraxot/dev
 # Gestione degli Step nei Wizard Filament
 
 ## Collegamenti Bidirezionali
@@ -182,6 +185,7 @@ class DoctorResource extends XotBaseResource
 
     public static function getFormSchemaWidget(): array
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_9p0npb
 =======
     public function getFormSchemaWidget(): array
@@ -203,6 +207,8 @@ class DoctorResource extends XotBaseResource
 >>>>>>> .merge_file_Qpb78c
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_CcPUjN
+=======
+>>>>>>> laraxot/dev
     {
         return [
             'wizard' => Forms\Components\Wizard::make([

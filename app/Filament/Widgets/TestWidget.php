@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Widgets;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_QVvcCr
 =======
 <<<<<<< .merge_file_ExBo9H
@@ -25,12 +26,15 @@ use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Component;
 >>>>>>> .merge_file_cpaCem
 >>>>>>> .merge_file_ieNbjh
+=======
+>>>>>>> laraxot/dev
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 final class TestWidget extends XotBaseSchemaWidget
 {
     protected ?string $heading = 'Test Widget';
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_QVvcCr
 =======
 <<<<<<< .merge_file_ExBo9H
@@ -58,6 +62,8 @@ final class TestWidget extends XotBaseSchemaWidget
      */
 >>>>>>> .merge_file_cpaCem
 >>>>>>> .merge_file_ieNbjh
+=======
+>>>>>>> laraxot/dev
     public function getFormSchema(): array
     {
         return [];

@@ -40,6 +40,7 @@ Specify which dates should be selectable. Other dates will be disabled.
 
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_C82S2T
 ->enabledDates(['[DATE]', '[DATE]', '[DATE]'])
 =======
@@ -63,6 +64,9 @@ Specify which dates should be selectable. Other dates will be disabled.
 ->enabledDates(['[DATE]', '[DATE]', '[DATE]'])
 >>>>>>> .merge_file_gdc5in
 >>>>>>> .merge_file_1lLbcu
+>>>>>>> laraxot/dev
+=======
+->enabledDates(['[DATE]', '[DATE]', '[DATE]'])
 >>>>>>> laraxot/dev
 
 // Or using a closure
@@ -207,6 +211,7 @@ When writing tests for forms that use the InlineDatePicker, you can interact wit
 // Select a date
 Livewire::test(YourForm::class)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_C82S2T
     ->set('appointment_date', '[DATE]')
     ->assertSet('appointment_date', '[DATE]');
@@ -238,6 +243,10 @@ Livewire::test(YourForm::class)
     ->assertSet('appointment_date', '[DATE]');
 >>>>>>> .merge_file_gdc5in
 >>>>>>> .merge_file_1lLbcu
+>>>>>>> laraxot/dev
+=======
+    ->set('appointment_date', '[DATE]')
+    ->assertSet('appointment_date', '[DATE]');
 >>>>>>> laraxot/dev
 
 // Test validation
@@ -263,10 +272,14 @@ If the component doesn't look right, make sure you have the required Tailwind CS
 ## Contributing
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## ♻️ Manutenzione
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -312,6 +325,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 =======
 >>>>>>> .merge_file_gdc5in
 >>>>>>> .merge_file_1lLbcu
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 - Rafforzata la tipizzazione delle settimane generate (`array<int, array<int, array<string, mixed>>>`).
 - Annotazioni esplicite sui container `$weeks` e `$week` per coerenza PHPStan L10.
@@ -319,6 +334,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - Verifiche qualità: PHPStan L10 ✅, PHPMD ✅, PHPInsights ✅ (avvisi legacy su proprietà pubbliche già tracciati).
 # InlineDatePicker Component
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_C82S2T
 =======
 <<<<<<< .merge_file_afoqlP
@@ -335,11 +351,14 @@ A customizable inline date picker component for Filament forms with month naviga
 =======
 >>>>>>> .merge_file_gdc5in
 >>>>>>> .merge_file_1lLbcu
+=======
+>>>>>>> laraxot/dev
 
 A customizable inline date picker component for Filament forms with month navigation and enabled/disabled date support.
 
 ## Features
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_C82S2T
 =======
 <<<<<<< .merge_file_afoqlP
@@ -357,6 +376,8 @@ A customizable inline date picker component for Filament forms with month naviga
 >>>>>>> .merge_file_gdc5in
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_1lLbcu
+=======
+>>>>>>> laraxot/dev
 - **Month Navigation**: Navigate between months with previous/next buttons
 - **Enabled/Disabled Dates**: Specify which dates are selectable
 - **Localization**: Built-in support for multiple languages
@@ -365,6 +386,7 @@ A customizable inline date picker component for Filament forms with month naviga
 - **Week Numbers**: Optional week number display
 - **First Day of Week**: Configure which day starts the week
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_C82S2T
 =======
 <<<<<<< .merge_file_afoqlP
@@ -382,6 +404,8 @@ use Modules\UI\Filament\Components\InlineDatePicker;
 =======
 >>>>>>> .merge_file_gdc5in
 >>>>>>> .merge_file_1lLbcu
+=======
+>>>>>>> laraxot/dev
 
 ## Installation
 
@@ -392,6 +416,7 @@ This component is part of the UI module and is available out of the box.
 ```php
 use Modules\UI\Filament\Components\InlineDatePicker;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_C82S2T
 =======
 =======
@@ -415,6 +440,8 @@ use Modules\UI\Filament\Components\InlineDatePicker;
 =======
 >>>>>>> .merge_file_gdc5in
 >>>>>>> .merge_file_1lLbcu
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 InlineDatePicker::make('appointment_date')
     ->label('Select Appointment Date')
@@ -427,6 +454,7 @@ InlineDatePicker::make('appointment_date')
     ->required();
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_C82S2T
 =======
 <<<<<<< .merge_file_afoqlP
@@ -456,6 +484,8 @@ The component uses Tailwind CSS classes for styling. You can customize the appea
 =======
 >>>>>>> .merge_file_gdc5in
 >>>>>>> .merge_file_1lLbcu
+=======
+>>>>>>> laraxot/dev
 
 ## Available Methods
 
@@ -498,6 +528,7 @@ Show or hide week numbers.
 
 The component uses Tailwind CSS classes for styling. You can customize the appearance by overriding the following CSS classes in your application's stylesheet:
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_C82S2T
 =======
 =======
@@ -534,11 +565,14 @@ The component uses Tailwind CSS classes for styling. You can customize the appea
 >>>>>>> .merge_file_gdc5in
 >>>>>>> .merge_file_1lLbcu
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ```css
 /* Container */
 .inline-date-picker {
     @apply bg-white rounded-lg shadow p-4 w-full max-w-md;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_C82S2T
 =======
@@ -580,6 +614,8 @@ The component includes the following accessibility features:
 =======
 >>>>>>> .merge_file_gdc5in
 >>>>>>> .merge_file_1lLbcu
+=======
+>>>>>>> laraxot/dev
 
 /* Navigation */
 .inline-date-picker-nav {
@@ -631,6 +667,7 @@ The component emits the following Livewire events:
 
 The component includes the following accessibility features:
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_C82S2T
 =======
 =======
@@ -678,10 +715,13 @@ The component includes the following accessibility features:
 >>>>>>> .merge_file_gdc5in
 >>>>>>> .merge_file_1lLbcu
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 - ARIA labels for all interactive elements
 - Keyboard navigation
 - High contrast mode support
 - Screen reader announcements
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_C82S2T
 =======
@@ -700,6 +740,8 @@ use Carbon\Carbon;
 =======
 >>>>>>> .merge_file_gdc5in
 >>>>>>> .merge_file_1lLbcu
+=======
+>>>>>>> laraxot/dev
 
 ## Examples
 
@@ -719,6 +761,7 @@ InlineDatePicker::make('appointment_date')
 use Carbon\Carbon;
 use Modules\UI\Filament\Components\InlineDatePicker;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_C82S2T
 =======
 =======
@@ -743,10 +786,13 @@ use Carbon\Carbon;
 >>>>>>> .merge_file_gdc5in
 >>>>>>> .merge_file_1lLbcu
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 $enabledDates = collect()
     ->range(1, 10)
     ->map(fn ($day) => Carbon::now()->addDays($day)->format('Y-m-d'))
     ->toArray();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_C82S2T
 =======
@@ -785,6 +831,8 @@ If the component doesn't look right, make sure you have the required Tailwind CS
 =======
 >>>>>>> .merge_file_gdc5in
 >>>>>>> .merge_file_1lLbcu
+=======
+>>>>>>> laraxot/dev
 
 InlineDatePicker::make('appointment_date')
     ->label('Select an available date')
@@ -837,6 +885,7 @@ If the component doesn't look right, make sure you have the required Tailwind CS
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+<<<<<<< HEAD
 <<<<<<< .merge_file_C82S2T
 =======
 =======
@@ -898,4 +947,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 =======
 >>>>>>> .merge_file_gdc5in
 >>>>>>> .merge_file_1lLbcu
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

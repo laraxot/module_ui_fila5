@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_MDUGew
 <<<<<<< HEAD
 =======
@@ -42,6 +43,12 @@
 <?php
 
 declare(strict_types=1);
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> laraxot/dev
 ?>
 @props(['title' => 'Documenti'])
 

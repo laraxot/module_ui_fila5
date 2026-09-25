@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_YB7QSI
 =======
 =======
@@ -58,6 +59,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_1PcMzY
 >>>>>>> .merge_file_wX1Pvf
+=======
+>>>>>>> laraxot/dev
 # UI Module Icon System
 
 ## How It Works
@@ -143,6 +146,7 @@ Tables\Columns\IconColumn::make('status')
 Each module registers its own SVG icons:
 - `Modules/User/resources/svg/` → `user-{name}`
 <<<<<<< HEAD
+<<<<<<< HEAD
 - `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
 <<<<<<< .merge_file_YB7QSI
 =======
@@ -193,6 +197,9 @@ Each module registers its own SVG icons:
 =======
 >>>>>>> .merge_file_1PcMzY
 >>>>>>> .merge_file_wX1Pvf
+>>>>>>> laraxot/dev
+=======
+- `Modules/TechPlanner/resources/svg/` → `techplanner-{name}`
 >>>>>>> laraxot/dev
 - etc.
 

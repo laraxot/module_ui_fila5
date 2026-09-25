@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_GIVOMF
 =======
 <<<<<<< .merge_file_KHXzav
@@ -79,6 +80,8 @@ related:
 >>>>>>> .merge_file_J6BA9V
 >>>>>>> .merge_file_Fj8IiR
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 # Standard Form di Autenticazione
 
 ## Principi di Design
@@ -124,6 +127,7 @@ related:
       Email
     </label>
     <div class="mt-1">
+<<<<<<< HEAD
 <<<<<<< HEAD
       <input
         type="email"
@@ -188,10 +192,15 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_J6BA9V
 >>>>>>> .merge_file_Fj8IiR
+=======
+      <input
+        type="email"
+>>>>>>> laraxot/dev
         class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-primary-500 focus:border-primary-500 sm:text-sm"
       >
     </div>
   </div>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -213,11 +222,14 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Fj8IiR
+=======
+>>>>>>> laraxot/dev
 
   <!-- Altri campi -->
 
   <div>
     <button
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GIVOMF
 =======
@@ -301,6 +313,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_J6BA9V
 >>>>>>> .merge_file_Fj8IiR
+=======
+>>>>>>> laraxot/dev
       type="submit"
       class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
     >
@@ -359,6 +373,7 @@ related:
 ```scss
 .auth-card {
   @apply shadow-sm;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GIVOMF
 
@@ -406,6 +421,9 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
   @screen sm {
     @apply shadow-md;
   }
@@ -461,6 +479,7 @@ related:
   <label id="email-label">Email</label>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <input
 =======
@@ -491,6 +510,9 @@ related:
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+  <input
 >>>>>>> laraxot/dev
     type="email"
     aria-labelledby="email-label"
@@ -536,15 +558,20 @@ related:
 
 ## Collegamenti
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [Form Standards](./form_standards.md)
 <<<<<<< HEAD
 =======
+=======
+- [Form Standards](./form_standards.md)
+>>>>>>> laraxot/dev
 - [UI Standards](./ui-standards.md)
 - [Accessibility](./accessibility.md)
 # Standard Form di Autenticazione
 
 ## Principi di Design
 
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 - [Form Standards](./form_standards.md)
@@ -580,17 +607,23 @@ related:
 <<<<<<< HEAD
 =======
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ### Layout
 - I form di autenticazione devono essere centrati sia orizzontalmente che verticalmente
 - Utilizzare una larghezza massima appropriata per garantire leggibilità
 - Mantenere una gerarchia visiva chiara con spaziatura consistente
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 ### Container
 ```html
@@ -599,33 +632,43 @@ related:
     <!-- Logo o intestazione -->
   </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
   <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
     <div class="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
       <!-- Form -->
     </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 </div>
 ```
 ### Intestazione
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
   </div>
 </div>
 ```
 
 ### Intestazione
 ```html
+<<<<<<< HEAD
 =======
 </div>
 ```
 ### Intestazione
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 <div class="sm:mx-auto sm:w-full sm:max-w-md">
   <img class="mx-auto h-12 w-auto" src="logo.svg" alt="Logo">
@@ -636,17 +679,23 @@ related:
     Sottotitolo o descrizione
   </p>
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Form
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 </div>
 ```
 
 ### Form
 ```html
+<<<<<<< HEAD
 =======
 ### Form
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 <form class="space-y-6">
   <div>
@@ -659,18 +708,24 @@ related:
         class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-primary-500 focus:border-primary-500 sm:text-sm"
       >
 <<<<<<< HEAD
+<<<<<<< HEAD
   <!-- Altri campi -->
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
     </div>
   </div>
 
   <!-- Altri campi -->
 
   <div>
+<<<<<<< HEAD
 =======
   <!-- Altri campi -->
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     <button
       type="submit"
@@ -679,31 +734,41 @@ related:
       Invia
     </button>
 <<<<<<< HEAD
+<<<<<<< HEAD
 </form>
 ## Responsive Design
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
   </div>
 </form>
 ```
 
 ## Responsive Design
 
+<<<<<<< HEAD
 =======
 </form>
 ## Responsive Design
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 ### Mobile
 - Form a larghezza piena
 - Padding ridotto
 - Stack verticale per tutti gli elementi
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
 =======
 >>>>>>> laraxot/dev
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 ```scss
 // Mobile (default)
@@ -711,25 +776,32 @@ related:
   @apply px-4 py-8;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .auth-form {
   @apply w-full;
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 
 .auth-form {
   @apply w-full;
 }
 ```
 
+<<<<<<< HEAD
 =======
 .auth-form {
   @apply w-full;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ### Tablet e Desktop
 - Form centrato con larghezza massima
 - Padding aumentato
 - Possibile layout a due colonne per alcuni elementi
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -738,14 +810,21 @@ related:
 =======
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
+=======
+
+```scss
+>>>>>>> laraxot/dev
 // Tablet (sm)
 @screen sm {
   .auth-container {
     @apply px-6 py-12;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> laraxot/dev
 
   .auth-form {
     @apply max-w-md mx-auto;
@@ -766,11 +845,15 @@ related:
 ```scss
 .auth-card {
   @apply shadow-sm;
+<<<<<<< HEAD
 >>>>>>> laraxot/dev
 =======
 >>>>>>> .merge_file_J6BA9V
 
 >>>>>>> .merge_file_Fj8IiR
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
   @screen sm {
     @apply shadow-md;
@@ -824,6 +907,7 @@ related:
 ### ARIA Labels
 ```html
 <<<<<<< HEAD
+<<<<<<< HEAD
 <div class="auth-field">
   <label id="email-label">Email</label>
 <<<<<<< HEAD
@@ -852,6 +936,11 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> 92912795 (.)
+>>>>>>> laraxot/dev
+=======
+<div class="auth-field">
+  <label id="email-label">Email</label>
+  <input
 >>>>>>> laraxot/dev
     type="email"
     aria-labelledby="email-label"
@@ -896,6 +985,7 @@ related:
    - Sanitizzazione input
 
 ## Collegamenti
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_GIVOMF
 =======
@@ -1380,4 +1470,9 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Fj8IiR
+>>>>>>> laraxot/dev
+=======
+- [Form Standards](./form_standards.md)
+- [UI Standards](./ui-standards.md)
+- [Accessibility](./accessibility.md)
 >>>>>>> laraxot/dev

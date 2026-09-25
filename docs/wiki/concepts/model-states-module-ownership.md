@@ -4,6 +4,7 @@ module: "UI"
 created: "2026-04-28"
 updated: "2026-04-28"
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_3BgSsh
 =======
 =======
@@ -40,6 +41,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_xF4glK
 >>>>>>> .merge_file_nZWXoR
+=======
+>>>>>>> laraxot/dev
 ---
 
 # Model States Module Ownership
@@ -69,6 +72,7 @@ Fissare la regola di ownership per `spatie/laravel-model-states` nel progetto mo
 
 - latest stable `2.13.1`: supporta `Laravel 12|13` ma richiede `php ^8.4`
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_3BgSsh
 =======
 - latest stable `2.13.1`: supporta `Laravel 13|13` ma richiede `php ^8.4`
@@ -90,6 +94,8 @@ Fissare la regola di ownership per `spatie/laravel-model-states` nel progetto mo
 >>>>>>> .merge_file_xF4glK
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_nZWXoR
+=======
+>>>>>>> laraxot/dev
 - linea precedente `2.12.1`: supporta `php ^7.4|^8.0` ma solo `Laravel 10|11|12`
 
 ## Regola operativa

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_tWcInO
 =======
 =======
@@ -65,6 +66,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_6DN232
 >>>>>>> .merge_file_7GPaIk
+=======
+>>>>>>> laraxot/dev
 # Separazione dello Schema dagli Step nei Wizard Filament
 
 ## Regola Fondamentale

@@ -1,6 +1,7 @@
 # Esempio Implementazione TableLayoutEnum
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 ## Data: [DATE]
 =======
@@ -24,6 +25,9 @@
 ## Data: [DATE]
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
+## Data: [DATE]
 >>>>>>> laraxot/dev
 
 ## Scenario
@@ -53,6 +57,7 @@ class ListUsers extends XotBaseListRecords
 {
     protected TableLayoutEnum $layout;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 
 =======
@@ -105,6 +110,9 @@ class ListUsers extends XotBaseListRecords
 
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     public function mount(): void
     {
@@ -112,6 +120,7 @@ class ListUsers extends XotBaseListRecords
         $this->layout = TableLayoutEnum::init();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 
 =======
@@ -164,6 +173,9 @@ class ListUsers extends XotBaseListRecords
 
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     public function table(Table $table): Table
     {
@@ -176,6 +188,7 @@ class ListUsers extends XotBaseListRecords
             ->filterable();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 
 =======
@@ -228,6 +241,9 @@ class ListUsers extends XotBaseListRecords
 
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     /**
      * Restituisce le colonne appropriate per il layout corrente
@@ -253,6 +269,7 @@ class ListUsers extends XotBaseListRecords
                 }),
         ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 
 =======
@@ -305,6 +322,9 @@ class ListUsers extends XotBaseListRecords
 
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
         $gridColumns = [
             Stack::make([
@@ -325,6 +345,7 @@ class ListUsers extends XotBaseListRecords
                 }),
         ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 <<<<<<< .merge_file_hb5zh0
@@ -390,10 +411,13 @@ class ListUsers extends XotBaseListRecords
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
 
         return $this->layout->getTableColumns($listColumns, $gridColumns);
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -425,6 +449,8 @@ class ListUsers extends XotBaseListRecords
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_P1mwl1
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     /**
      * Azioni header con toggle layout
      */
@@ -440,6 +466,7 @@ class ListUsers extends XotBaseListRecords
             // Altre azioni...
         ];
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 
@@ -493,6 +520,9 @@ class ListUsers extends XotBaseListRecords
 
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     /**
      * Azioni bulk per il layout corrente
@@ -644,6 +674,7 @@ class TableLayoutEnumTest extends TestCase
         $this->assertEquals(TableLayoutEnum::LIST, TableLayoutEnum::init());
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 
 =======
@@ -696,6 +727,9 @@ class TableLayoutEnumTest extends TestCase
 
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     public function test_toggle_switches_layout(): void
     {
@@ -704,6 +738,7 @@ class TableLayoutEnumTest extends TestCase
         $this->assertEquals(TableLayoutEnum::LIST, $layout->toggle()->toggle());
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 
 =======
@@ -756,12 +791,16 @@ class TableLayoutEnumTest extends TestCase
 
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     public function test_get_label_returns_translated_string(): void
     {
         $listLabel = TableLayoutEnum::LIST->getLabel();
         $gridLabel = TableLayoutEnum::GRID->getLabel();
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 
 =======
@@ -814,6 +853,9 @@ class TableLayoutEnumTest extends TestCase
 
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
         $this->assertIsString($listLabel);
         $this->assertIsString($gridLabel);
@@ -821,6 +863,7 @@ class TableLayoutEnumTest extends TestCase
         $this->assertNotEmpty($gridLabel);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 
 =======
@@ -873,12 +916,16 @@ class TableLayoutEnumTest extends TestCase
 
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     public function test_get_color_returns_valid_color(): void
     {
         $listColor = TableLayoutEnum::LIST->getColor();
         $gridColor = TableLayoutEnum::GRID->getColor();
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 
 =======
@@ -931,6 +978,9 @@ class TableLayoutEnumTest extends TestCase
 
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
         $this->assertIsString($listColor);
         $this->assertIsString($gridColor);
@@ -938,6 +988,7 @@ class TableLayoutEnumTest extends TestCase
         $this->assertNotEmpty($gridColor);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 
 =======
@@ -990,12 +1041,16 @@ class TableLayoutEnumTest extends TestCase
 
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     public function test_get_icon_returns_valid_icon(): void
     {
         $listIcon = TableLayoutEnum::LIST->getIcon();
         $gridIcon = TableLayoutEnum::GRID->getIcon();
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 
 =======
@@ -1048,6 +1103,9 @@ class TableLayoutEnumTest extends TestCase
 
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
         $this->assertIsString($listIcon);
         $this->assertIsString($gridIcon);
@@ -1055,6 +1113,7 @@ class TableLayoutEnumTest extends TestCase
         $this->assertNotEmpty($gridIcon);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 
 =======
@@ -1108,10 +1167,14 @@ class TableLayoutEnumTest extends TestCase
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
     public function test_get_table_content_grid_returns_null_for_list(): void
     {
         $this->assertNull(TableLayoutEnum::LIST->getTableContentGrid());
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
@@ -1179,11 +1242,14 @@ class TableLayoutEnumTest extends TestCase
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
 
     public function test_get_table_content_grid_returns_array_for_grid(): void
     {
         $grid = TableLayoutEnum::GRID->getTableContentGrid();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1214,6 +1280,8 @@ class TableLayoutEnumTest extends TestCase
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         $this->assertIsArray($grid);
         $this->assertArrayHasKey('sm', $grid);
@@ -1223,6 +1291,7 @@ class TableLayoutEnumTest extends TestCase
         $this->assertArrayHasKey('2xl', $grid);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 
 =======
@@ -1275,12 +1344,16 @@ class TableLayoutEnumTest extends TestCase
 
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     public function test_get_table_columns_returns_correct_columns(): void
     {
         $listColumns = ['name', 'email'];
         $gridColumns = ['stack'];
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -1404,10 +1477,17 @@ class TableLayoutEnumTest extends TestCase
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+=======
+
+        $result = TableLayoutEnum::LIST->getTableColumns($listColumns, $gridColumns);
+        $this->assertEquals($listColumns, $result);
+
+>>>>>>> laraxot/dev
         $result = TableLayoutEnum::GRID->getTableColumns($listColumns, $gridColumns);
         $this->assertEquals($gridColumns, $result);
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1438,6 +1518,8 @@ class TableLayoutEnumTest extends TestCase
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
     public function test_is_grid_layout_returns_correct_boolean(): void
     {
@@ -1445,6 +1527,7 @@ class TableLayoutEnumTest extends TestCase
         $this->assertFalse(TableLayoutEnum::LIST->isGridLayout());
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 
 =======
@@ -1497,6 +1580,9 @@ class TableLayoutEnumTest extends TestCase
 
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     public function test_is_list_layout_returns_correct_boolean(): void
     {
@@ -1504,6 +1590,7 @@ class TableLayoutEnumTest extends TestCase
         $this->assertFalse(TableLayoutEnum::GRID->isListLayout());
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 <<<<<<< .merge_file_hb5zh0
@@ -1570,11 +1657,14 @@ class TableLayoutEnumTest extends TestCase
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
 
     public function test_get_options_returns_all_options(): void
     {
         $options = TableLayoutEnum::getOptions();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1605,6 +1695,8 @@ class TableLayoutEnumTest extends TestCase
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         $this->assertIsArray($options);
         $this->assertArrayHasKey('list', $options);
@@ -1612,6 +1704,7 @@ class TableLayoutEnumTest extends TestCase
         $this->assertCount(2, $options);
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 
 =======
@@ -1664,12 +1757,16 @@ class TableLayoutEnumTest extends TestCase
 
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
     public function test_get_container_classes_returns_valid_classes(): void
     {
         $listClasses = TableLayoutEnum::LIST->getContainerClasses();
         $gridClasses = TableLayoutEnum::GRID->getContainerClasses();
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 
 =======
@@ -1722,6 +1819,9 @@ class TableLayoutEnumTest extends TestCase
 
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
         $this->assertEquals('table-layout-list', $listClasses);
         $this->assertEquals('table-layout-grid', $gridClasses);
@@ -1778,6 +1878,7 @@ TextColumn::make('name')
 - [Analisi TableLayoutEnum](table_layout_enum_analysis.md)
 - [Usage Guide](table-layout-enum-usage.md)
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 <<<<<<< .merge_file_hb5zh0
@@ -1805,6 +1906,8 @@ namespace Modules\User\Filament\Resources\UserResource\Pages;
 =======
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
 - [Translation Standards](../../../../docs/translation_standards.md)
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
 - [Enum Translation Pattern](../../../../docs/enum-translation-pattern.md)
@@ -1827,6 +1930,7 @@ declare(strict_types=1);
 
 namespace Modules\User\Filament\Resources\UserResource\Pages;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 =======
@@ -1877,6 +1981,8 @@ namespace Modules\User\Filament\Resources\UserResource\Pages;
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 use Filament\Actions\Action;
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -1886,6 +1992,7 @@ use Filament\Support\Enums\FontWeight;
 use Modules\UI\Enums\TableLayoutEnum;
 use Modules\Xot\Filament\Resources\XotBaseListRecords;
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 <<<<<<< .merge_file_hb5zh0
@@ -1903,11 +2010,14 @@ class ListUsers extends XotBaseListRecords
 =======
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
 
 class ListUsers extends XotBaseListRecords
 {
     protected TableLayoutEnum $layout;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 <<<<<<< .merge_file_hb5zh0
@@ -1926,12 +2036,15 @@ class ListUsers extends XotBaseListRecords
 >>>>>>> .merge_file_tosi8X
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
     public function mount(): void
     {
         parent::mount();
         $this->layout = TableLayoutEnum::init();
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 <<<<<<< .merge_file_hb5zh0
@@ -1962,6 +2075,11 @@ class ListUsers extends XotBaseListRecords
 >>>>>>> .merge_file_tosi8X
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_P1mwl1
+=======
+
+    public function table(Table $table): Table
+    {
+>>>>>>> laraxot/dev
         return $table
             ->columns($this->getColumnsForLayout())
             ->contentGrid($this->layout->getTableContentGrid())
@@ -1970,6 +2088,7 @@ class ListUsers extends XotBaseListRecords
             ->searchable()
             ->filterable();
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
     }
 
@@ -1993,12 +2112,17 @@ class ListUsers extends XotBaseListRecords
 
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
+    }
+
 >>>>>>> laraxot/dev
     /**
      * Restituisce le colonne appropriate per il layout corrente
      */
     protected function getColumnsForLayout(): array
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
     {
 =======
@@ -2020,12 +2144,16 @@ class ListUsers extends XotBaseListRecords
 >>>>>>> .merge_file_tosi8X
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_P1mwl1
+=======
+    {
+>>>>>>> laraxot/dev
         $listColumns = [
             TextColumn::make('name')
                 ->searchable()
                 ->sortable(),
             TextColumn::make('email')
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 <<<<<<< .merge_file_hb5zh0
@@ -2042,11 +2170,14 @@ class ListUsers extends XotBaseListRecords
 =======
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
                 ->searchable()
                 ->sortable(),
             TextColumn::make('created_at')
                 ->dateTime()
                 ->sortable(),
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 <<<<<<< .merge_file_hb5zh0
@@ -2064,6 +2195,8 @@ class ListUsers extends XotBaseListRecords
 >>>>>>> .merge_file_tosi8X
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
             TextColumn::make('status')
                 ->badge()
                 ->color(fn (string $state): string => match ($state) {
@@ -2073,6 +2206,7 @@ class ListUsers extends XotBaseListRecords
                 }),
         ];
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 
 =======
@@ -2092,6 +2226,9 @@ class ListUsers extends XotBaseListRecords
 
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
         $gridColumns = [
             Stack::make([
@@ -2100,6 +2237,7 @@ class ListUsers extends XotBaseListRecords
                     ->searchable(),
                 TextColumn::make('email')
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 <<<<<<< .merge_file_hb5zh0
@@ -2118,6 +2256,8 @@ class ListUsers extends XotBaseListRecords
 =======
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
                     ->searchable(),
                 TextColumn::make('created_at')
                     ->dateTime(),
@@ -2139,6 +2279,7 @@ class ListUsers extends XotBaseListRecords
      */
     protected function getHeaderActions(): array
     {
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 =======
@@ -2164,12 +2305,15 @@ class ListUsers extends XotBaseListRecords
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         return [
             Action::make('toggleLayout')
                 ->icon($this->layout->getIcon())
                 ->color($this->layout->getColor())
                 ->action(function () {
                     $this->layout = $this->layout->toggle();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
@@ -2188,6 +2332,8 @@ class ListUsers extends XotBaseListRecords
 =======
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
                 }),
             // Altre azioni...
         ];
@@ -2199,6 +2345,7 @@ class ListUsers extends XotBaseListRecords
     protected function getBulkActions(): array
     {
         return [
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 <<<<<<< .merge_file_hb5zh0
@@ -2217,6 +2364,8 @@ class ListUsers extends XotBaseListRecords
 >>>>>>> .merge_file_tosi8X
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
             Tables\Actions\BulkAction::make('activate')
                 ->icon('heroicon-o-check-circle')
                 ->action(function ($records) {
@@ -2225,6 +2374,7 @@ class ListUsers extends XotBaseListRecords
                 ->visible(fn () => $this->layout->isListLayout()),
             Tables\Actions\BulkAction::make('deactivate')
                 ->icon('heroicon-o-x-circle')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
@@ -2243,6 +2393,8 @@ class ListUsers extends XotBaseListRecords
 =======
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
                 ->action(function ($records) {
                     // Logica disattivazione
                 })
@@ -2260,6 +2412,7 @@ class ListUsers extends XotBaseListRecords
 
 declare(strict_types=1);
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 =======
@@ -2283,6 +2436,8 @@ declare(strict_types=1);
 =======
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 return [
     'name' => [
@@ -2297,6 +2452,7 @@ return [
         'tooltip' => 'Indirizzo email dell\'utente',
         'helper_text' => 'Email valida per le comunicazioni',
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
     ],
 =======
@@ -2316,6 +2472,9 @@ return [
     ],
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
+    ],
 >>>>>>> laraxot/dev
     'created_at' => [
         'label' => 'Data Creazione',
@@ -2323,6 +2482,7 @@ return [
         'tooltip' => 'Data di registrazione dell\'utente',
         'helper_text' => 'Data di creazione dell\'account',
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 <<<<<<< .merge_file_hb5zh0
@@ -2341,6 +2501,8 @@ return [
 =======
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
     ],
     'status' => [
         'label' => 'Stato',
@@ -2358,6 +2520,7 @@ return [
 declare(strict_types=1);
 
 return [
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 =======
@@ -2383,10 +2546,13 @@ return [
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
     'activate' => [
         'label' => 'Attiva',
         'tooltip' => 'Attiva gli utenti selezionati',
         'helper_text' => 'Rendi attivi gli utenti selezionati',
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
     ],
@@ -2407,12 +2573,16 @@ return [
     ],
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
+    ],
 >>>>>>> laraxot/dev
     'deactivate' => [
         'label' => 'Disattiva',
         'tooltip' => 'Disattiva gli utenti selezionati',
         'helper_text' => 'Rendi inattivi gli utenti selezionati',
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 <<<<<<< .merge_file_hb5zh0
@@ -2427,6 +2597,8 @@ return [
 =======
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
     ],
 ];
 ```
@@ -2438,6 +2610,7 @@ return [
 declare(strict_types=1);
 
 return [
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 #### File: `Modules/UI/lang/it/table-layout.php` (aggiornato)
@@ -2454,6 +2627,8 @@ return [
 >>>>>>> .merge_file_tosi8X
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
     'list' => [
         'label' => 'Lista',
         'color' => 'primary',
@@ -2462,6 +2637,7 @@ return [
         'tooltip' => 'Mostra elementi in formato lista',
         'helper_text' => 'Layout tradizionale con righe e colonne',
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
     ],
 =======
@@ -2483,6 +2659,9 @@ return [
 >>>>>>> .merge_file_tosi8X
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_P1mwl1
+=======
+    ],
+>>>>>>> laraxot/dev
     'grid' => [
         'label' => 'Griglia',
         'color' => 'success',
@@ -2491,6 +2670,7 @@ return [
         'tooltip' => 'Mostra elementi in formato griglia',
         'helper_text' => 'Layout a griglia con card responsive',
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
     ],
 =======
@@ -2512,11 +2692,15 @@ return [
 >>>>>>> .merge_file_tosi8X
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_P1mwl1
+=======
+    ],
+>>>>>>> laraxot/dev
     'toggle' => [
         'label' => 'Cambia Layout',
         'tooltip' => 'Alterna tra visualizzazione lista e griglia',
         'helper_text' => 'Cambia il tipo di visualizzazione',
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 <<<<<<< .merge_file_hb5zh0
@@ -2531,12 +2715,15 @@ return [
 =======
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
     ],
 ];
 ```
 
 ### 3. CSS Personalizzato (Opzionale)
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 ### 3. CSS Personalizzato (Opzionale)
@@ -2553,10 +2740,13 @@ return [
 >>>>>>> .merge_file_tosi8X
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
 ```css
 /* File: Modules/UI/resources/css/table-layout.css */
 .table-layout-list {
     @apply bg-white rounded-lg shadow-sm;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
@@ -2589,6 +2779,8 @@ class TableLayoutEnumTest extends TestCase
 =======
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
 }
 
 .table-layout-grid {
@@ -2635,6 +2827,7 @@ class TableLayoutEnumTest extends TestCase
         $listLabel = TableLayoutEnum::LIST->getLabel();
         $gridLabel = TableLayoutEnum::GRID->getLabel();
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 =======
@@ -2673,11 +2866,14 @@ class TableLayoutEnumTest extends TestCase
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
         $this->assertIsString($listLabel);
         $this->assertIsString($gridLabel);
         $this->assertNotEmpty($listLabel);
         $this->assertNotEmpty($gridLabel);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 <<<<<<< .merge_file_hb5zh0
@@ -2695,6 +2891,8 @@ class TableLayoutEnumTest extends TestCase
 =======
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
     }
 
     public function test_get_color_returns_valid_color(): void
@@ -2702,6 +2900,7 @@ class TableLayoutEnumTest extends TestCase
         $listColor = TableLayoutEnum::LIST->getColor();
         $gridColor = TableLayoutEnum::GRID->getColor();
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 <<<<<<< .merge_file_hb5zh0
@@ -2720,11 +2919,14 @@ class TableLayoutEnumTest extends TestCase
 >>>>>>> .merge_file_tosi8X
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
         $this->assertIsString($listColor);
         $this->assertIsString($gridColor);
         $this->assertNotEmpty($listColor);
         $this->assertNotEmpty($gridColor);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 <<<<<<< .merge_file_hb5zh0
@@ -2742,6 +2944,8 @@ class TableLayoutEnumTest extends TestCase
 =======
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
     }
 
     public function test_get_icon_returns_valid_icon(): void
@@ -2749,6 +2953,7 @@ class TableLayoutEnumTest extends TestCase
         $listIcon = TableLayoutEnum::LIST->getIcon();
         $gridIcon = TableLayoutEnum::GRID->getIcon();
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 <<<<<<< .merge_file_hb5zh0
@@ -2767,11 +2972,14 @@ class TableLayoutEnumTest extends TestCase
 >>>>>>> .merge_file_tosi8X
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
         $this->assertIsString($listIcon);
         $this->assertIsString($gridIcon);
         $this->assertNotEmpty($listIcon);
         $this->assertNotEmpty($gridIcon);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 <<<<<<< .merge_file_hb5zh0
@@ -2788,6 +2996,8 @@ class TableLayoutEnumTest extends TestCase
 =======
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
     }
 
     public function test_get_table_content_grid_returns_null_for_list(): void
@@ -2799,6 +3009,7 @@ class TableLayoutEnumTest extends TestCase
     {
         $grid = TableLayoutEnum::GRID->getTableContentGrid();
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 =======
@@ -2821,6 +3032,8 @@ class TableLayoutEnumTest extends TestCase
 =======
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         $this->assertIsArray($grid);
         $this->assertArrayHasKey('sm', $grid);
@@ -2829,6 +3042,7 @@ class TableLayoutEnumTest extends TestCase
         $this->assertArrayHasKey('xl', $grid);
         $this->assertArrayHasKey('2xl', $grid);
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 <<<<<<< .merge_file_hb5zh0
@@ -2856,6 +3070,8 @@ class TableLayoutEnumTest extends TestCase
 =======
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
     }
 
     public function test_get_table_columns_returns_correct_columns(): void
@@ -2886,6 +3102,7 @@ class TableLayoutEnumTest extends TestCase
     {
         $options = TableLayoutEnum::getOptions();
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 =======
@@ -2919,11 +3136,14 @@ class TableLayoutEnumTest extends TestCase
 =======
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
         $this->assertIsArray($options);
         $this->assertArrayHasKey('list', $options);
         $this->assertArrayHasKey('grid', $options);
         $this->assertCount(2, $options);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
@@ -2943,6 +3163,8 @@ class TableLayoutEnumTest extends TestCase
 =======
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
     }
 
     public function test_get_container_classes_returns_valid_classes(): void
@@ -2958,6 +3180,7 @@ class TableLayoutEnumTest extends TestCase
 
 ## Vantaggi dell'Implementazione
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 =======
@@ -2983,10 +3206,13 @@ class TableLayoutEnumTest extends TestCase
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ### 1. Type Safety
 - Enum garantisce valori validi
 - Type hints espliciti
 - Previene errori runtime
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 
@@ -3007,12 +3233,16 @@ class TableLayoutEnumTest extends TestCase
 
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 ### 2. Responsive Design
 - Grid configurabile per breakpoints
 - CSS nativo senza JS aggiuntivo
 - Performance ottimizzata
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 
 =======
@@ -3032,12 +3262,16 @@ class TableLayoutEnumTest extends TestCase
 
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
+
 >>>>>>> laraxot/dev
 ### 3. UX Consistency
 - Icone e colori coerenti
 - Traduzioni centralizzate
 - Comportamento prevedibile
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 
 =======
@@ -3058,10 +3292,14 @@ class TableLayoutEnumTest extends TestCase
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
 ### 4. Maintainability
 - Codice DRY e riutilizzabile
 - Separazione responsabilità
 - Testabilità migliorata
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
@@ -3081,6 +3319,8 @@ TextColumn::make('name')
 =======
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
 
 ## Regole Critiche Implementate
 
@@ -3093,6 +3333,7 @@ TextColumn::make('name')->label('Nome')
 TextColumn::make('name')
 ```
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 =======
@@ -3118,10 +3359,13 @@ TextColumn::make('name')
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
 >>>>>>> laraxot/dev
+=======
+>>>>>>> laraxot/dev
 ### ✅ Sistema Traduzioni Automatico
 - Il LangServiceProvider gestisce automaticamente le traduzioni
 - Le chiavi vengono generate automaticamente dal nome del campo
 - Struttura: `modulo::risorsa.fields.campo.label`
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 
@@ -3143,11 +3387,15 @@ TextColumn::make('name')
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
 >>>>>>> laraxot/dev
+=======
+
+>>>>>>> laraxot/dev
 ### ✅ Enum Translation Pattern
 - **SEMPRE** usare `transClass()` negli enum per le traduzioni
 - **MAI** usare `__()` o `trans()` direttamente negli enum
 - **SEMPRE** struttura espansa nei file di traduzione
 - **SEMPRE** `use TransTrait;` negli enum
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
@@ -3169,6 +3417,8 @@ TextColumn::make('name')
 =======
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+=======
+>>>>>>> laraxot/dev
 
 ## Collegamenti
 
@@ -3178,6 +3428,7 @@ TextColumn::make('name')
 - [Filament Best Practices](../../../../docs/filament_best_practices.md)
 - [Enum Translation Pattern](../../../../docs/enum-translation-pattern.md)
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_kFg4be
 =======
 =======
@@ -3222,4 +3473,6 @@ TextColumn::make('name')
 =======
 >>>>>>> .merge_file_tosi8X
 >>>>>>> .merge_file_P1mwl1
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev

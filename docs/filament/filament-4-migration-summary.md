@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_6mgWbp
 =======
 =======
@@ -69,6 +70,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_fifjEe
 >>>>>>> .merge_file_b3UBOR
+=======
+>>>>>>> laraxot/dev
 # Filament 4 Migration Summary
 
 ## Completed Tasks ✅
@@ -85,6 +88,7 @@ related:
 - ✅ Created detailed **Filament 4 Components Development Guide**
 - ✅ Updated project **CLAUDE.md** rules for Filament 4
 - ✅ Updated version information (PHP 8.3.25, Filament 4.0.19, Laravel 12.30.1)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< .merge_file_6mgWbp
 =======
@@ -107,6 +111,8 @@ related:
 >>>>>>> .merge_file_fifjEe
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_b3UBOR
+=======
+>>>>>>> laraxot/dev
 
 ### 3. Code Updates and Fixes
 

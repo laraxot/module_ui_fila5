@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Session;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_Z1ZYrz
 use RuntimeException;
@@ -22,6 +23,8 @@ use RuntimeException;
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Eynaxr
+>>>>>>> laraxot/dev
+=======
 >>>>>>> laraxot/dev
 use Symfony\Component\HttpFoundation\Response;
 
@@ -43,6 +46,7 @@ final class SetLocale
         $response = $next($request);
         if (! $response instanceof Response) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             throw new \RuntimeException('Middleware must return a Response instance');
 =======
 <<<<<<< .merge_file_Z1ZYrz
@@ -58,6 +62,9 @@ final class SetLocale
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Eynaxr
+>>>>>>> laraxot/dev
+=======
+            throw new \RuntimeException('Middleware must return a Response instance');
 >>>>>>> laraxot/dev
         }
 

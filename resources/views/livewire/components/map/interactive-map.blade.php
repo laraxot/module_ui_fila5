@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_tPlQws
 <<<<<<< HEAD
 =======
@@ -55,6 +56,8 @@ declare(strict_types=1);
 ?>
 >>>>>>> .merge_file_8eW08b
 >>>>>>> .merge_file_OWMG8z
+=======
+>>>>>>> laraxot/dev
 <div class="interactive-map-container" wire:ignore.self>
     <!-- Controlli mappa -->
     @if($showControls)

@@ -85,6 +85,7 @@ npm run dev
 * [getting-started.md](../../../Cms/docs/getting-started.md)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< .merge_file_QHGESJ
 =======
@@ -102,6 +103,8 @@ npm run dev
 =======
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_jPhzfA
+=======
+>>>>>>> laraxot/dev
 ### Versione Incoming
 
 ---

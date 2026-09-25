@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Forms\Components;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_93j7Iu
 =======
 <<<<<<< .merge_file_IWqjf6
@@ -35,6 +36,10 @@ use Filament\Forms\Components\TimePicker;
 use Filament\Infolists\Components\TextEntry;
 >>>>>>> .merge_file_eeSXGW
 >>>>>>> .merge_file_s0RIws
+=======
+use Filament\Forms\Components\TimePicker;
+use Filament\Infolists\Components\TextEntry;
+>>>>>>> laraxot/dev
 use Filament\Schemas\Components\Component;
 use Modules\UI\Actions\Datetime\GetDaysMappingAction;
 use Modules\UI\Rules\OpeningHoursRule;
@@ -64,6 +69,7 @@ final class OpeningHoursField extends XotBaseField
 
         $this->rules([
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_93j7Iu
 =======
             new OpeningHoursRule(),
@@ -82,6 +88,9 @@ final class OpeningHoursField extends XotBaseField
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_s0RIws
+=======
+            new OpeningHoursRule,
+>>>>>>> laraxot/dev
         ]);
     }
 
@@ -91,6 +100,7 @@ final class OpeningHoursField extends XotBaseField
     private function getDaySchema(string $dayKey, string $dayLabel): array
     {
         return [
+<<<<<<< HEAD
 <<<<<<< .merge_file_93j7Iu
 =======
 <<<<<<< .merge_file_IWqjf6
@@ -119,6 +129,10 @@ final class OpeningHoursField extends XotBaseField
                 ->state($dayLabel)
 >>>>>>> .merge_file_eeSXGW
 >>>>>>> .merge_file_s0RIws
+=======
+            TextEntry::make($dayKey.'_label')
+                ->state($dayLabel)
+>>>>>>> laraxot/dev
                 ->extraAttributes([
                     'class' => 'font-medium text-gray-900 dark:text-gray-100 text-center py-2',
                 ])

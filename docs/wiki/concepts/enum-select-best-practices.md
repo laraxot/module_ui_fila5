@@ -1,6 +1,7 @@
 ---
 title: EnumSelect Best Practices
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_AaMrKo
 =======
 =======
@@ -37,6 +38,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_iXICjY
 >>>>>>> .merge_file_H8G2ca
+=======
+>>>>>>> laraxot/dev
 ---
 
 ## Overview

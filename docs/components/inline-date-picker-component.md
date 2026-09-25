@@ -3,6 +3,7 @@ module: theme
 topic: inline-date-picker-component
 canonical: ../../../../Themes/docs/shared-components/.gitkeep
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_dsquw2
 =======
 =======
@@ -39,6 +40,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_6QTBqP
 >>>>>>> .merge_file_yjwxMp
+=======
+>>>>>>> laraxot/dev
 ---
 
 See canonical documentation: ../../../../Themes/docs/shared-components/.gitkeep

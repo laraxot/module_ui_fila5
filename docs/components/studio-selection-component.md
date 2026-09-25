@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_OeJonJ
 =======
 =======
@@ -69,6 +70,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_P6mR8M
 >>>>>>> .merge_file_9rMFFb
+=======
+>>>>>>> laraxot/dev
 # Studio Selection Component con Pulsanti
 
 ## Descrizione

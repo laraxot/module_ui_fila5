@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Widgets;
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_Yli5YI
 =======
 <<<<<<< .merge_file_hbQ76G
@@ -25,6 +26,8 @@ use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Component;
 >>>>>>> .merge_file_iGPWtr
 >>>>>>> .merge_file_PYBKPZ
+=======
+>>>>>>> laraxot/dev
 use Modules\Xot\Filament\Widgets\XotBaseSchemaWidget;
 
 /**
@@ -78,15 +81,31 @@ final class RedirectWidget extends XotBaseSchemaWidget
      * Vista di default per il widget.
      * Può essere sovrascritta dalla configurazione con la chiave 'view'.
      *
+<<<<<<< HEAD
      * @phpstan-var view-string
      */
     /** @phpstan-ignore property.defaultValue */
     protected string $view = 'ui::filament.widgets.redirect-widget';
+=======
+     * @var view-string
+     */
+    protected string $view;
+
+    public function __construct()
+    {
+        /** @var view-string $view */
+        $view = 'ui::filament.widgets.redirect-widget';
+        $this->view = $view;
+
+        parent::__construct();
+    }
+>>>>>>> laraxot/dev
 
     /**
      * Implementazione richiesta da XotBaseWidget.
      * Per questo widget non abbiamo form, quindi restituiamo array vuoto.
      *
+<<<<<<< HEAD
 <<<<<<< .merge_file_Yli5YI
 =======
 <<<<<<< .merge_file_hbQ76G
@@ -110,6 +129,9 @@ final class RedirectWidget extends XotBaseSchemaWidget
      * @return array<string, Component>
 >>>>>>> .merge_file_iGPWtr
 >>>>>>> .merge_file_PYBKPZ
+=======
+     * @return array<string, mixed>
+>>>>>>> laraxot/dev
      */
     public function getFormSchema(): array
     {

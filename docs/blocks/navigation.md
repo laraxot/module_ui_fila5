@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_X8iMzB
 =======
 =======
@@ -65,6 +66,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_Wds5Ov
 >>>>>>> .merge_file_kbkgaS
+=======
+>>>>>>> laraxot/dev
 # Navigation Component
 
 This document describes the Navigation component used in section headers and its proper implementation.

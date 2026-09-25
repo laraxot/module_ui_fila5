@@ -12,6 +12,7 @@ use Illuminate\Support\Collection;
  */
 final class UiCoverageAuthUser extends AuthenticatableUser
 {
+<<<<<<< HEAD
 <<<<<<< .merge_file_Qe2Yje
     public mixed $profile = null;
 =======
@@ -32,12 +33,17 @@ final class UiCoverageAuthUser extends AuthenticatableUser
 >>>>>>> .merge_file_14fUIj
 >>>>>>> .merge_file_i6sbIH
 >>>>>>> .merge_file_EQRq8G
+=======
+    public ?object $profile = null;
+
+>>>>>>> laraxot/dev
     public function relationLoaded($key): bool
     {
         if (! is_string($key)) {
             return false;
         }
 
+<<<<<<< HEAD
 <<<<<<< .merge_file_Qe2Yje
         return $key === 'profile' && $this->profile !== null;
 =======
@@ -57,6 +63,9 @@ final class UiCoverageAuthUser extends AuthenticatableUser
 >>>>>>> .merge_file_14fUIj
 >>>>>>> .merge_file_i6sbIH
 >>>>>>> .merge_file_EQRq8G
+=======
+        return $key === 'profile' && $this->profile !== null;
+>>>>>>> laraxot/dev
     }
 
     /**
@@ -66,6 +75,7 @@ final class UiCoverageAuthUser extends AuthenticatableUser
     {
         return collect(['admin']);
     }
+<<<<<<< HEAD
 <<<<<<< .merge_file_Qe2Yje
 }
 =======
@@ -85,3 +95,6 @@ final class UiCoverageAuthUser extends AuthenticatableUser
 >>>>>>> .merge_file_14fUIj
 >>>>>>> .merge_file_i6sbIH
 >>>>>>> .merge_file_EQRq8G
+=======
+}
+>>>>>>> laraxot/dev

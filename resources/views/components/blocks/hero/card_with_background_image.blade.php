@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_oAl4Zu
 <<<<<<< HEAD
 =======
@@ -50,6 +51,12 @@
 <?php
 
 declare(strict_types=1);
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> laraxot/dev
 ?>
 <div class="bg-white">
     {{--

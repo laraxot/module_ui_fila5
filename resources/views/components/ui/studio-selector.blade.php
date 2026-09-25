@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< .merge_file_btEy9F
 <<<<<<< HEAD
 =======
@@ -44,6 +45,12 @@
 <?php
 
 declare(strict_types=1);
+=======
+<?php
+
+declare(strict_types=1);
+
+>>>>>>> laraxot/dev
 ?>
 {{--
     Studio Selector Component - Selezione semplice studio con pulsanti

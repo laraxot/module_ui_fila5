@@ -1,6 +1,10 @@
 <?php
 
 declare(strict_types=1);
+<<<<<<< HEAD
+=======
+
+>>>>>>> laraxot/dev
 ?>
 @props(['material'])
 
@@ -50,6 +54,7 @@ declare(strict_types=1);
         
         <div class="text-gray-700">
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< .merge_file_1Q0An8
 =======
             {!! $material->content !!}
@@ -68,6 +73,9 @@ declare(strict_types=1);
 >>>>>>> laraxot/dev
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_k0TqYe
+=======
+            {!! $material->content !!}
+>>>>>>> laraxot/dev
         </div>
     </div>
     
