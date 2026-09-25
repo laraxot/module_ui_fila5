@@ -28,12 +28,12 @@ class Block extends Component
         public ?Model $model = null,
         public string $tpl = '',
     ) {
-        $view = Arr::get($this->block, 'data.view', null);
+        $view = Arr::get($this->block, 'data.view');
         if (! is_string($view) || ! view()->exists($view)) {
             $view = 'ui::empty';
         }
-        /** @var view-string $view */
-        $this->view = $view;
+
+        $this->view = app(GetCmsViewAction::class)->execute($view);
     }
 
     public function render(): ViewFactory|View
