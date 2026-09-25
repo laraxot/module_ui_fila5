@@ -17,7 +17,6 @@ use Modules\Cms\Actions\View\GetCmsViewAction;
  */
 class Block extends Component
 {
-    /** @var string|null */
     public ?string $view = null;
 
     /**
@@ -32,7 +31,7 @@ class Block extends Component
         if (! is_string($view) || ! view()->exists($view)) {
             $view = 'ui::empty';
         }
-        /** @var view-string $view */
+        /* @var view-string $view */
         $this->view = $view;
     }
 
