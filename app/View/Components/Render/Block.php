@@ -10,14 +10,14 @@ use Illuminate\Support\Arr;
 use Illuminate\View\Component;
 use Illuminate\View\View;
 use Modules\Cms\Actions\ResolveLocalizedBlockDataAction;
-use Webmozart\Assert\Assert;
+use Modules\Cms\Actions\View\GetCmsViewAction;
 
 /**
  * .
  */
 class Block extends Component
 {
-    /** @var view-string|null */
+    /** @var string|null */
     public ?string $view = null;
 
     /**
@@ -29,12 +29,10 @@ class Block extends Component
         public string $tpl = '',
     ) {
         $view = Arr::get($this->block, 'data.view', null);
-        if (null === $view) {
-            /** @var view-string $view */
+        if (! is_string($view) || ! view()->exists($view)) {
             $view = 'ui::empty';
         }
-        Assert::string($view, __FILE__.':'.__LINE__.' - '.class_basename(self::class));
-        /* @var view-string $view */
+        /** @var view-string $view */
         $this->view = $view;
     }
 
@@ -47,11 +45,9 @@ class Block extends Component
             return view($viewName);
         }
 
-        $view = $this->view ?? 'ui::empty';
-        /** @var view-string $view */
-        $viewPath = (string) $view;
+        $viewPath = $this->view ?? 'ui::empty';
         if (! view()->exists($viewPath)) {
-            $message = 'view not exists ['.$view.'] ! <pre>'.print_r($this->block, true).'</pre>';
+            $message = 'view not exists ['.$viewPath.'] ! <pre>'.print_r($this->block, true).'</pre>';
             $view_params = [
                 'title' => 'deprecated',
                 'message' => $message,
@@ -64,6 +60,7 @@ class Block extends Component
         $view_params = $this->normalizeViewData($this->block['data'] ?? []);
         $view_params = app(ResolveLocalizedBlockDataAction::class)->execute($view_params);
         $view_params = $this->normalizeViewData($view_params);
+        $view = app(GetCmsViewAction::class)->execute($viewPath);
 
         return view($view, $view_params);
     }
