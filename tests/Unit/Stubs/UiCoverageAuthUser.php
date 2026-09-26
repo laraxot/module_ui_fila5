@@ -12,69 +12,15 @@ use Illuminate\Support\Collection;
  */
 final class UiCoverageAuthUser extends AuthenticatableUser
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_Qe2Yje
-    public mixed $profile = null;
-=======
-<<<<<<< .merge_file_No0RQY
-=======
-<<<<<<< .merge_file_E3LYIR
->>>>>>> .merge_file_i6sbIH
-    public mixed $profile = null;
-<<<<<<< HEAD
-=======
-
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_No0RQY
-=======
-=======
     public ?object $profile = null;
 
->>>>>>> .merge_file_14fUIj
->>>>>>> .merge_file_i6sbIH
->>>>>>> .merge_file_EQRq8G
-=======
-    public ?object $profile = null;
-
->>>>>>> laraxot/dev
-=======
-    public ?object $profile = null;
-
->>>>>>> laraxot/dev
     public function relationLoaded($key): bool
     {
         if (! is_string($key)) {
             return false;
         }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_Qe2Yje
-        return $key === 'profile' && $this->profile !== null;
-=======
-<<<<<<< .merge_file_No0RQY
-=======
-<<<<<<< .merge_file_E3LYIR
->>>>>>> .merge_file_i6sbIH
-<<<<<<< HEAD
-        return $key === 'profile' && $this->profile !== null;
-=======
         return 'profile' === $key && null !== $this->profile;
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_No0RQY
-=======
-=======
-        return 'profile' === $key && null !== $this->profile;
->>>>>>> .merge_file_14fUIj
->>>>>>> .merge_file_i6sbIH
->>>>>>> .merge_file_EQRq8G
-=======
-        return $key === 'profile' && $this->profile !== null;
->>>>>>> laraxot/dev
-=======
-        return 'profile' === $key && null !== $this->profile;
->>>>>>> laraxot/dev
     }
 
     /**
@@ -84,30 +30,4 @@ final class UiCoverageAuthUser extends AuthenticatableUser
     {
         return collect(['admin']);
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_Qe2Yje
 }
-=======
-<<<<<<< .merge_file_No0RQY
-=======
-<<<<<<< .merge_file_E3LYIR
->>>>>>> .merge_file_i6sbIH
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_No0RQY
-=======
-=======
-}
->>>>>>> .merge_file_14fUIj
->>>>>>> .merge_file_i6sbIH
->>>>>>> .merge_file_EQRq8G
-=======
-}
->>>>>>> laraxot/dev
-=======
-}
->>>>>>> laraxot/dev

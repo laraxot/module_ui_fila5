@@ -1,63 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_Grq405
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_3UQpnv
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_MqSvmk
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-<<<<<<< .merge_file_Grq405
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_8KXbqu
->>>>>>> .merge_file_MqSvmk
-<?php
-
-declare(strict_types=1);
-=======
-=======
->>>>>>> laraxot/dev
 <?php
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ?>
 {{-- Requires js --}}
 <div class="bg-white py-24 sm:py-32">

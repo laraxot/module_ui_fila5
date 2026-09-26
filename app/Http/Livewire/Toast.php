@@ -1,14 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
 /**
  * @see https://github.com/bezhanSalleh/filament-language-switch/blob/main/src/Http/Livewire/FilamentLanguageSwitch.php
  */
@@ -22,67 +15,12 @@ final class Toast extends Component
 {
     public function render(): View
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        $view = 'ui::livewire.toast';
-<<<<<<< .merge_file_ZGeH2B
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_RFzo3p
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_2nt62T
-=======
         /** @var view-string $view */
         $view = 'ui::livewire.toast';
->>>>>>> laraxot/dev
-=======
-        /** @var view-string $view */
-        $view = 'ui::livewire.toast';
->>>>>>> laraxot/dev
         $view_params = [
             'view' => $view,
         ];
 
         return view($view, $view_params);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_ZGeH2B
-=======
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_2nt62T
-        $viewParams = [
-            'view' => $view,
-        ];
-
-        return view($view, $viewParams);
-<<<<<<< .merge_file_ZGeH2B
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        $viewParams = [
-            'view' => $view,
-        ];
-
-        return view($view, $viewParams);
->>>>>>> .merge_file_0dXZFZ
->>>>>>> .merge_file_2nt62T
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     }
 }

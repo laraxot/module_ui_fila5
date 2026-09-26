@@ -1,27 +1,6 @@
 # PHPStan Level 10 Compliance Status
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-<<<<<<< .merge_file_pGATxE
-**Last Updated**: 2025-12-10
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-
-=======
-**Last Updated**: 2025-12-10
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_kdluAo
-=======
-
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
 **Status**: ✅ FULLY COMPLIANT (0 errors)
 
 ## Summary

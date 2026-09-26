@@ -11,24 +11,7 @@ use Illuminate\View\View;
 use Modules\UI\Enums\TableLayoutEnum;
 use Modules\UI\Filament\Blocks\Image;
 use Modules\UI\Filament\Forms\Components\YearSelect;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_4DhNhX
-=======
-<<<<<<< .merge_file_gAdpao
-=======
-<<<<<<< .merge_file_7wAduh
-=======
 use Modules\UI\Filament\Widgets\DarkModeSwitcherWidget;
->>>>>>> .merge_file_KozRz8
->>>>>>> .merge_file_OsIub8
->>>>>>> .merge_file_X38sWm
-=======
-use Modules\UI\Filament\Widgets\DarkModeSwitcherWidget;
->>>>>>> laraxot/dev
-=======
-use Modules\UI\Filament\Widgets\DarkModeSwitcherWidget;
->>>>>>> laraxot/dev
 use Modules\UI\Filament\Widgets\HeroWidget;
 use Modules\UI\Filament\Widgets\RedirectWidget;
 use Modules\UI\Filament\Widgets\RowWidget;
@@ -45,61 +28,12 @@ use Modules\UI\View\Components\Render\Block;
 use Modules\UI\View\Components\Render\Blocks;
 use Modules\UI\View\Composers\ThemeComposer;
 use PHPUnit\Framework\Assert;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_4DhNhX
-use ReflectionClass;
-=======
-<<<<<<< .merge_file_gAdpao
-=======
-<<<<<<< .merge_file_7wAduh
->>>>>>> .merge_file_OsIub8
-<<<<<<< HEAD
-use ReflectionClass;
-=======
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_gAdpao
-=======
-=======
->>>>>>> .merge_file_KozRz8
->>>>>>> .merge_file_OsIub8
->>>>>>> .merge_file_X38sWm
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
 uses(TestCase::class);
 
 describe('UI gap closer 100 — Livewire', function (): void {
     test('DarkModeSwitcher mount toggle and render', function (): void {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_4DhNhX
-        $component = new DarkModeSwitcher;
-=======
-<<<<<<< .merge_file_gAdpao
-=======
-<<<<<<< .merge_file_7wAduh
->>>>>>> .merge_file_OsIub8
-<<<<<<< HEAD
-        $component = new DarkModeSwitcher;
-=======
         $component = new DarkModeSwitcher();
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_gAdpao
-=======
-=======
-        $component = new DarkModeSwitcher();
->>>>>>> .merge_file_KozRz8
->>>>>>> .merge_file_OsIub8
->>>>>>> .merge_file_X38sWm
-=======
-        $component = new DarkModeSwitcher();
->>>>>>> laraxot/dev
-=======
-        $component = new DarkModeSwitcher();
->>>>>>> laraxot/dev
         $component->mount();
         Assert::assertFalse($component->darkMode);
         $component->toggleDarkMode();
@@ -107,29 +41,6 @@ describe('UI gap closer 100 — Livewire', function (): void {
         Assert::assertInstanceOf(ViewContract::class, $component->render());
     });
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_4DhNhX
-    test('Toast render exposes view params', function (): void {
-        $component = new Toast;
-=======
-<<<<<<< .merge_file_gAdpao
-=======
-<<<<<<< .merge_file_7wAduh
->>>>>>> .merge_file_OsIub8
-    test('Toast render exposes view params', function (): void {
-<<<<<<< HEAD
-        $component = new Toast;
-=======
-        $component = new Toast();
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_gAdpao
-=======
-=======
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     test('DarkModeSwitcherWidget mount toggle and render (gemello Filament)', function (): void {
         $widget = new DarkModeSwitcherWidget();
         $widget->mount();
@@ -141,15 +52,6 @@ describe('UI gap closer 100 — Livewire', function (): void {
 
     test('Toast render exposes view params', function (): void {
         $component = new Toast();
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> .merge_file_KozRz8
->>>>>>> .merge_file_OsIub8
->>>>>>> .merge_file_X38sWm
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
         Assert::assertInstanceOf(ViewContract::class, $component->render());
     });
 });
@@ -171,33 +73,7 @@ describe('UI gap closer 100 — View components', function (): void {
     });
 
     test('ThemeComposer metatag and scripts', function (): void {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_4DhNhX
-        $composer = new ThemeComposer;
-=======
-<<<<<<< .merge_file_gAdpao
-=======
-<<<<<<< .merge_file_7wAduh
->>>>>>> .merge_file_OsIub8
-<<<<<<< HEAD
-        $composer = new ThemeComposer;
-=======
         $composer = new ThemeComposer();
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_gAdpao
-=======
-=======
-        $composer = new ThemeComposer();
->>>>>>> .merge_file_KozRz8
->>>>>>> .merge_file_OsIub8
->>>>>>> .merge_file_X38sWm
-=======
-        $composer = new ThemeComposer();
->>>>>>> laraxot/dev
-=======
-        $composer = new ThemeComposer();
->>>>>>> laraxot/dev
         Assert::assertSame('', $composer->showScripts());
         Assert::assertNull($composer->metatag('missing-key'));
         config(['metatag.test_bool' => true]);
@@ -209,66 +85,14 @@ describe('UI gap closer 100 — Filament widgets and forms', function (): void {
     test('RedirectWidget getViewData and canView', function (): void {
         Assert::assertTrue(RedirectWidget::canView());
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_4DhNhX
-        $widget = new RedirectWidget;
-=======
-<<<<<<< .merge_file_gAdpao
-=======
-<<<<<<< .merge_file_7wAduh
->>>>>>> .merge_file_OsIub8
-<<<<<<< HEAD
-        $widget = new RedirectWidget;
-=======
         $widget = new RedirectWidget();
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_gAdpao
-=======
-=======
-        $widget = new RedirectWidget();
->>>>>>> .merge_file_KozRz8
->>>>>>> .merge_file_OsIub8
->>>>>>> .merge_file_X38sWm
-=======
-        $widget = new RedirectWidget();
->>>>>>> laraxot/dev
-=======
-        $widget = new RedirectWidget();
->>>>>>> laraxot/dev
         $widget->to = '/admin';
         $widget->label = 'Go';
         $widget->icon = 'heroicon-o-link';
         $widget->class = 'btn';
         $widget->external = true;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_4DhNhX
-        $method = (new ReflectionClass($widget))->getMethod('getViewData');
-=======
-<<<<<<< .merge_file_gAdpao
-=======
-<<<<<<< .merge_file_7wAduh
->>>>>>> .merge_file_OsIub8
-<<<<<<< HEAD
-        $method = (new ReflectionClass($widget))->getMethod('getViewData');
-=======
         $method = (new \ReflectionClass($widget))->getMethod('getViewData');
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_gAdpao
-=======
-=======
-        $method = (new \ReflectionClass($widget))->getMethod('getViewData');
->>>>>>> .merge_file_KozRz8
->>>>>>> .merge_file_OsIub8
->>>>>>> .merge_file_X38sWm
-=======
-        $method = (new \ReflectionClass($widget))->getMethod('getViewData');
->>>>>>> laraxot/dev
-=======
-        $method = (new \ReflectionClass($widget))->getMethod('getViewData');
->>>>>>> laraxot/dev
         $method->setAccessible(true);
         $data = $method->invoke($widget);
         Assert::assertIsArray($data);
@@ -278,39 +102,8 @@ describe('UI gap closer 100 — Filament widgets and forms', function (): void {
     });
 
     test('StatWithIconWidget getData and RowWidget getColumns', function (): void {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_4DhNhX
-        $stat = new StatWithIconWidget;
-        $ref = new ReflectionClass($stat);
-=======
-<<<<<<< .merge_file_gAdpao
-=======
-<<<<<<< .merge_file_7wAduh
->>>>>>> .merge_file_OsIub8
-<<<<<<< HEAD
-        $stat = new StatWithIconWidget;
-        $ref = new ReflectionClass($stat);
-=======
         $stat = new StatWithIconWidget();
         $ref = new \ReflectionClass($stat);
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_gAdpao
-=======
-=======
-        $stat = new StatWithIconWidget();
-        $ref = new \ReflectionClass($stat);
->>>>>>> .merge_file_KozRz8
->>>>>>> .merge_file_OsIub8
->>>>>>> .merge_file_X38sWm
-=======
-        $stat = new StatWithIconWidget();
-        $ref = new \ReflectionClass($stat);
->>>>>>> laraxot/dev
-=======
-        $stat = new StatWithIconWidget();
-        $ref = new \ReflectionClass($stat);
->>>>>>> laraxot/dev
         $label = $ref->getProperty('label');
         $label->setAccessible(true);
         $label->setValue($stat, 'Users');
@@ -323,35 +116,6 @@ describe('UI gap closer 100 — Filament widgets and forms', function (): void {
         Assert::assertSame('Users', $data['label']);
         Assert::assertSame(42, $data['value']);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_4DhNhX
-=======
-<<<<<<< .merge_file_gAdpao
-=======
-<<<<<<< .merge_file_7wAduh
->>>>>>> .merge_file_OsIub8
-<<<<<<< HEAD
->>>>>>> .merge_file_X38sWm
-        $row = new class extends RowWidget {};
-        Assert::assertSame(3, (new ReflectionClass($row))->getMethod('getColumns')->invoke($row));
-    });
-
-    test('HeroWidget getStats and UserCalendarWidget private normalizers', function (): void {
-        $hero = new HeroWidget;
-        $heroRef = new ReflectionClass($hero);
-<<<<<<< .merge_file_4DhNhX
-=======
-=======
-<<<<<<< .merge_file_gAdpao
-=======
-=======
->>>>>>> .merge_file_KozRz8
->>>>>>> .merge_file_OsIub8
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
         $row = new class extends RowWidget {
         };
         Assert::assertSame(3, (new \ReflectionClass($row))->getMethod('getColumns')->invoke($row));
@@ -360,21 +124,6 @@ describe('UI gap closer 100 — Filament widgets and forms', function (): void {
     test('HeroWidget getStats and UserCalendarWidget private normalizers', function (): void {
         $hero = new HeroWidget();
         $heroRef = new \ReflectionClass($hero);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_gAdpao
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_7wAduh
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_KozRz8
->>>>>>> .merge_file_OsIub8
->>>>>>> .merge_file_X38sWm
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
         foreach (['title' => 'Welcome', 'icon' => 'heroicon-o-star'] as $prop => $val) {
             $p = $heroRef->getProperty($prop);
             $p->setAccessible(true);
@@ -384,39 +133,8 @@ describe('UI gap closer 100 — Filament widgets and forms', function (): void {
         Assert::assertIsIterable($stats);
         Assert::assertCount(1, $stats);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_4DhNhX
-        $calendar = new UserCalendarWidget;
-        $calendarRef = new ReflectionClass($calendar);
-=======
-<<<<<<< .merge_file_gAdpao
-=======
-<<<<<<< .merge_file_7wAduh
->>>>>>> .merge_file_OsIub8
-<<<<<<< HEAD
-        $calendar = new UserCalendarWidget;
-        $calendarRef = new ReflectionClass($calendar);
-=======
         $calendar = new UserCalendarWidget();
         $calendarRef = new \ReflectionClass($calendar);
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_gAdpao
-=======
-=======
-        $calendar = new UserCalendarWidget();
-        $calendarRef = new \ReflectionClass($calendar);
->>>>>>> .merge_file_KozRz8
->>>>>>> .merge_file_OsIub8
->>>>>>> .merge_file_X38sWm
-=======
-        $calendar = new UserCalendarWidget();
-        $calendarRef = new \ReflectionClass($calendar);
->>>>>>> laraxot/dev
-=======
-        $calendar = new UserCalendarWidget();
-        $calendarRef = new \ReflectionClass($calendar);
->>>>>>> laraxot/dev
         $normalizeEvents = $calendarRef->getMethod('normalizeEventsArray');
         $normalizeEvents->setAccessible(true);
         Assert::assertSame([], $normalizeEvents->invoke(null, 'not-array'));
@@ -429,33 +147,7 @@ describe('UI gap closer 100 — Filament widgets and forms', function (): void {
 
     test('YearSelect getYearsOptions swaps inverted range', function (): void {
         $select = YearSelect::make('year')->past(5)->future(-3);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_4DhNhX
-        $method = (new ReflectionClass($select))->getMethod('getYearsOptions');
-=======
-<<<<<<< .merge_file_gAdpao
-=======
-<<<<<<< .merge_file_7wAduh
->>>>>>> .merge_file_OsIub8
-<<<<<<< HEAD
-        $method = (new ReflectionClass($select))->getMethod('getYearsOptions');
-=======
         $method = (new \ReflectionClass($select))->getMethod('getYearsOptions');
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_gAdpao
-=======
-=======
-        $method = (new \ReflectionClass($select))->getMethod('getYearsOptions');
->>>>>>> .merge_file_KozRz8
->>>>>>> .merge_file_OsIub8
->>>>>>> .merge_file_X38sWm
-=======
-        $method = (new \ReflectionClass($select))->getMethod('getYearsOptions');
->>>>>>> laraxot/dev
-=======
-        $method = (new \ReflectionClass($select))->getMethod('getYearsOptions');
->>>>>>> laraxot/dev
         $method->setAccessible(true);
         $options = $method->invoke($select);
         Assert::assertIsArray($options);
@@ -466,15 +158,7 @@ describe('UI gap closer 100 — Filament widgets and forms', function (): void {
     test('Image block ratio helpers', function (): void {
         Assert::assertSame('aspect-[3/4]', Image::getRatioClass('3-4'));
         Assert::assertSame('', Image::getRatioClass('unknown'));
-<<<<<<< HEAD
-<<<<<<< HEAD
-        Assert::assertNotEmpty(Image::getFormSchema());
-=======
-        Assert::assertNotEmpty((new Image)->getFormSchema());
->>>>>>> laraxot/dev
-=======
         Assert::assertNotEmpty((new Image())->getFormSchema());
->>>>>>> laraxot/dev
         Assert::assertArrayHasKey('4-3', Image::getRatios());
     });
 
@@ -500,111 +184,19 @@ describe('UI gap closer 100 — Filament widgets and forms', function (): void {
 describe('UI gap closer 100 — middleware trait rules', function (): void {
     test('SetLocale handles non-string session locale', function (): void {
         Session::put('locale', 123);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_4DhNhX
-        $middleware = new SetLocale;
-=======
-<<<<<<< .merge_file_gAdpao
-=======
-<<<<<<< .merge_file_7wAduh
->>>>>>> .merge_file_OsIub8
-<<<<<<< HEAD
-        $middleware = new SetLocale;
-=======
         $middleware = new SetLocale();
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_gAdpao
-=======
-=======
-        $middleware = new SetLocale();
->>>>>>> .merge_file_KozRz8
->>>>>>> .merge_file_OsIub8
->>>>>>> .merge_file_X38sWm
-=======
-        $middleware = new SetLocale();
->>>>>>> laraxot/dev
-=======
-        $middleware = new SetLocale();
->>>>>>> laraxot/dev
         $response = $middleware->handle(Request::create('/'), static fn () => response('ok'));
         Assert::assertSame(200, $response->getStatusCode());
     });
 
     test('TableLayoutTrait session branches and refresh', function (): void {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_4DhNhX
-        $subject = new class
-        {
-=======
-<<<<<<< .merge_file_gAdpao
-=======
-<<<<<<< .merge_file_7wAduh
->>>>>>> .merge_file_OsIub8
-<<<<<<< HEAD
-        $subject = new class
-        {
-=======
         $subject = new class {
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_gAdpao
-=======
-=======
-        $subject = new class {
->>>>>>> .merge_file_KozRz8
->>>>>>> .merge_file_OsIub8
->>>>>>> .merge_file_X38sWm
-=======
-        $subject = new class {
->>>>>>> laraxot/dev
-=======
-        $subject = new class {
->>>>>>> laraxot/dev
             use TableLayoutTrait;
 
             public int $dispatched = 0;
 
             public function dispatch(mixed ...$params): void
             {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_4DhNhX
-                $this->dispatched++;
-=======
-<<<<<<< .merge_file_gAdpao
-=======
-<<<<<<< .merge_file_7wAduh
->>>>>>> .merge_file_OsIub8
-<<<<<<< HEAD
-                $this->dispatched++;
-=======
-                ++$this->dispatched;
->>>>>>> laraxot/dev
->>>>>>> .merge_file_X38sWm
-            }
-        };
-
-        Session::put('table_layout', TableLayoutEnum::LIST);
-        Assert::assertSame(TableLayoutEnum::LIST, $subject->getTableLayout());
-
-        Session::put('table_layout', 'list');
-        Assert::assertSame(TableLayoutEnum::LIST, $subject->getTableLayout());
-
-        Session::put('table_layout', 'invalid');
-        Assert::assertSame(TableLayoutEnum::GRID, $subject->getTableLayout());
-
-        Session::forget('table_layout');
-        Assert::assertSame(TableLayoutEnum::GRID, $subject->getTableLayout());
-<<<<<<< .merge_file_4DhNhX
-=======
-<<<<<<< .merge_file_gAdpao
-=======
-=======
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
                 ++$this->dispatched;
             }
         };
@@ -628,54 +220,14 @@ describe('UI gap closer 100 — middleware trait rules', function (): void {
 
         $subject->setTableLayout(TableLayoutEnum::GRID);
         Assert::assertSame('grid', Session::get('table_layout'));
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> .merge_file_KozRz8
->>>>>>> .merge_file_OsIub8
->>>>>>> .merge_file_X38sWm
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
         $subject->refreshTable();
         Assert::assertGreaterThan(0, $subject->dispatched);
     });
 
     test('OpeningHoursRule cleanTimeValue rejects non-string', function (): void {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_4DhNhX
-        $rule = new OpeningHoursRule;
-        $method = (new ReflectionClass($rule))->getMethod('cleanTimeValue');
-=======
-<<<<<<< .merge_file_gAdpao
-=======
-<<<<<<< .merge_file_7wAduh
->>>>>>> .merge_file_OsIub8
-<<<<<<< HEAD
-        $rule = new OpeningHoursRule;
-        $method = (new ReflectionClass($rule))->getMethod('cleanTimeValue');
-=======
         $rule = new OpeningHoursRule();
         $method = (new \ReflectionClass($rule))->getMethod('cleanTimeValue');
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_gAdpao
-=======
-=======
-        $rule = new OpeningHoursRule();
-        $method = (new \ReflectionClass($rule))->getMethod('cleanTimeValue');
->>>>>>> .merge_file_KozRz8
->>>>>>> .merge_file_OsIub8
->>>>>>> .merge_file_X38sWm
-=======
-        $rule = new OpeningHoursRule();
-        $method = (new \ReflectionClass($rule))->getMethod('cleanTimeValue');
->>>>>>> laraxot/dev
-=======
-        $rule = new OpeningHoursRule();
-        $method = (new \ReflectionClass($rule))->getMethod('cleanTimeValue');
->>>>>>> laraxot/dev
         $method->setAccessible(true);
 
         Assert::assertNull($method->invoke($rule, 12345));

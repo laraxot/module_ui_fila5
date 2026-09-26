@@ -9,15 +9,6 @@ qmd: "geo-dependency-violation-interactive-map rimosso interactivemap — violav
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 <<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_On3dMq
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_m7hylc
 <<<<<<< HEAD
 =======
@@ -32,26 +23,14 @@ discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_wAdwxv
 >>>>>>> .merge_file_SiCzrU
-<<<<<<< HEAD
->>>>>>> .merge_file_3NQR6a
-=======
 =======
 <<<<<<< HEAD
 >>>>>>> 804451c (Lint)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 updated: 2026-08-18
 qmd: "geo-dependency-violation-interactive-map rimosso interactivemap — violava regola "ui non importa geo""
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 <<<<<<< HEAD
-<<<<<<< .merge_file_On3dMq
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_m7hylc
 =======
 <<<<<<< .merge_file_XitwYC
@@ -60,15 +39,8 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 =======
 >>>>>>> .merge_file_wAdwxv
 >>>>>>> .merge_file_SiCzrU
-<<<<<<< HEAD
->>>>>>> .merge_file_3NQR6a
-=======
 =======
 >>>>>>> 804451c (Lint)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 =======
 =======
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
@@ -76,11 +48,6 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
-<<<<<<< .merge_file_On3dMq
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_m7hylc
 =======
 <<<<<<< .merge_file_XitwYC
@@ -88,15 +55,8 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_wAdwxv
 >>>>>>> .merge_file_SiCzrU
-<<<<<<< HEAD
->>>>>>> .merge_file_3NQR6a
-=======
 =======
 >>>>>>> 804451c (Lint)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index.md"

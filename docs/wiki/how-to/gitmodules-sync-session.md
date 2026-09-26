@@ -9,11 +9,6 @@ issues:
 <<<<<<< HEAD
   - "https://github.com/provtv/<nome repository>/issues/201"
 <<<<<<< HEAD
-<<<<<<< .merge_file_MgrsHs
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_ffeCn5
 =======
 <<<<<<< .merge_file_EB0Auk
@@ -24,15 +19,8 @@ issues:
   - "https://github.com/provtv/<nome repository>/issues/201"
 >>>>>>> .merge_file_CdEFdQ
 >>>>>>> .merge_file_hpiovx
-<<<<<<< HEAD
->>>>>>> .merge_file_j5cxBo
-=======
 =======
 >>>>>>> 804451c (Lint)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 =======
 <<<<<<< HEAD
 >>>>>>> laraxot/dev
@@ -41,11 +29,6 @@ issues:
   - "https://github.com/provtv/<nome repository>/issues/201"
 >>>>>>> 92912795 (.)
 <<<<<<< HEAD
-<<<<<<< .merge_file_MgrsHs
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_ffeCn5
 =======
 <<<<<<< .merge_file_EB0Auk
@@ -53,15 +36,8 @@ issues:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_CdEFdQ
 >>>>>>> .merge_file_hpiovx
-<<<<<<< HEAD
->>>>>>> .merge_file_j5cxBo
-=======
 =======
 >>>>>>> 804451c (Lint)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 discussions: []
 related:
   - "../../../../../../docs/stories/STORY-003-gitmodules-sync-conflict-sweep.md"
@@ -85,14 +61,6 @@ Sessione orchestrata dal prompt `bashscripts/tools/prompts/02-gitmodules-sync.md
 <<<<<<< HEAD
 - Issue base: https://github.com/provtv/base_ptv_fila5/issues/201
 <<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_MgrsHs
-=======
-=======
-=======
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_ffeCn5
 =======
 <<<<<<< .merge_file_EB0Auk
@@ -103,12 +71,8 @@ Sessione orchestrata dal prompt `bashscripts/tools/prompts/02-gitmodules-sync.md
 - Issue base: https://github.com/provtv/base_ptv_fila5/issues/201
 >>>>>>> .merge_file_CdEFdQ
 >>>>>>> .merge_file_hpiovx
-<<<<<<< HEAD
->>>>>>> .merge_file_j5cxBo
-=======
 =======
 >>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
 <<<<<<< HEAD
 - Issue base: https://github.com/provtv/<nome repository>/issues/201
 =======
@@ -117,11 +81,6 @@ Sessione orchestrata dal prompt `bashscripts/tools/prompts/02-gitmodules-sync.md
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
-<<<<<<< .merge_file_MgrsHs
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_ffeCn5
 =======
 <<<<<<< .merge_file_EB0Auk
@@ -129,12 +88,5 @@ Sessione orchestrata dal prompt `bashscripts/tools/prompts/02-gitmodules-sync.md
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_CdEFdQ
 >>>>>>> .merge_file_hpiovx
-<<<<<<< HEAD
->>>>>>> .merge_file_j5cxBo
-=======
 =======
 >>>>>>> 804451c (Lint)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev

@@ -1,14 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
 ?>
 <!--
   This example requires some changes to your config:

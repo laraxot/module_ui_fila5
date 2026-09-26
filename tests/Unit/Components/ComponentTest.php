@@ -11,36 +11,6 @@ use PHPUnit\Framework\Assert;
 
 uses(TestCase::class);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-describe('Component', function (): void {
-    test('ui components can be rendered', function (): void {
-<<<<<<< HEAD
-        $component = new class extends Component {
-=======
-<<<<<<< .merge_file_cPcJny
-        $component = new class extends Component
-        {
-=======
-<<<<<<< HEAD
-        $component = new class extends Component
-        {
-=======
-<<<<<<< HEAD
-        $component = new class extends Component {
-=======
-        $component = new class extends Component
-        {
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_RLYbwL
->>>>>>> laraxot/dev
-            public function render(): View
-            {
-                return view('ui::components.ui.button');
-=======
-=======
->>>>>>> laraxot/dev
 /**
  * @return view-string
  */
@@ -69,10 +39,6 @@ describe('Component', function (): void {
             public function render(): View
             {
                 return view(uiButtonViewName());
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
             }
         };
 
@@ -80,25 +46,11 @@ describe('Component', function (): void {
     });
 
     test('ui button component has correct attributes', function (): void {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        Assert::assertInstanceOf(View::class, view('ui::components.ui.button'));
-    });
-
-    test('ui card component renders content', function (): void {
-        $view = view('ui::components.ui.card', [
-=======
-=======
->>>>>>> laraxot/dev
         Assert::assertInstanceOf(View::class, view(uiButtonViewName()));
     });
 
     test('ui card component renders content', function (): void {
         $view = view(uiCardViewName(), [
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
             'title' => 'Test Card',
             'content' => 'Test Content',
         ]);

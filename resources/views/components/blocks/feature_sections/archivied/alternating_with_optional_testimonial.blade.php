@@ -1,22 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_0OSNog
 
-=======
-<<<<<<< .merge_file_OpXEVE
-
-=======
->>>>>>> .merge_file_BWDrkG
->>>>>>> .merge_file_8CWk18
-=======
-
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
 ?>
 <div class="relative overflow-hidden bg-white pb-32 pt-16">
     <div class="relative">

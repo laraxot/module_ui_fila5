@@ -2,40 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_mWBpNM
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_T1q4FE
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_b9ptVn
-// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/UI/docs/wiki — domain i18n only.
-// File: lang/en/opening_hours.php
-<<<<<<< .merge_file_mWBpNM
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ukNmAz
->>>>>>> .merge_file_b9ptVn
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 return [
     'instructions' => [
         'title' => 'Opening Hours Configuration',

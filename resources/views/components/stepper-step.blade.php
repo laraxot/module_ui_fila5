@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<?php
-
-declare(strict_types=1);
-?>
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 @props([
     'number' => 1,
     'title' => '',

@@ -2,40 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_rrzQyJ
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_vFDmZd
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_K6GcjL
-// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/UI/docs/wiki — domain i18n only.
-// File: lang/en/ui.php
-<<<<<<< .merge_file_rrzQyJ
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_11nQcN
->>>>>>> .merge_file_K6GcjL
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 return [
     'navigation' => [
         'name' => 'Interface',

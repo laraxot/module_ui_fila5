@@ -1,14 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
 ?>
 <header class="w-full">
     <div class="relative z-20 flex items-center justify-between w-full h-20 max-w-6xl px-6 mx-auto">

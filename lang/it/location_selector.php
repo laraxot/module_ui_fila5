@@ -2,37 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_PCm1Wm
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_TfrMan
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_069IjV
-// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/UI/docs/wiki — domain i18n only.
-// File: lang/it/location_selector.php
-<<<<<<< .merge_file_PCm1Wm
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ZtV6vN
->>>>>>> .merge_file_069IjV
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 return [
     'region' => [
         'label' => 'Regione',
@@ -71,19 +40,6 @@ return [
         'region_required_for_province' => 'Devi selezionare una regione prima di scegliere la provincia',
         'region_province_required_for_cap' => 'Devi selezionare regione e provincia prima di scegliere il CAP',
     ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_PCm1Wm
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_069IjV
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     'label' => 'Location Selector',
     'plural_label' => 'Location Selector (Plurale)',
     'navigation' => [
@@ -128,19 +84,4 @@ return [
             'label' => 'Elimina Location Selector',
         ],
     ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_PCm1Wm
-=======
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_069IjV
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ];

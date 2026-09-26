@@ -12,54 +12,12 @@ final class UiCoverageDoneState implements StateContract
 {
     /** @param array<array-key, mixed>|Model|string|null $record */
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_pxfJBF
-=======
-<<<<<<< .merge_file_Z9OQSM
-=======
-<<<<<<< .merge_file_YKhn1N
->>>>>>> .merge_file_KHZZK2
-<<<<<<< HEAD
->>>>>>> .merge_file_Zdgzdr
-=======
->>>>>>> laraxot/dev
-     * @param  Model|array<string, mixed>|string|null  $record
-     */
-    public function __construct(
-        public Model|array|string|null $record = null,
-    ) {}
-<<<<<<< HEAD
-<<<<<<< .merge_file_pxfJBF
-=======
-=======
-<<<<<<< .merge_file_Z9OQSM
-=======
-=======
->>>>>>> .merge_file_XmNcVH
->>>>>>> .merge_file_KHZZK2
-=======
->>>>>>> laraxot/dev
      * @param Model|array<string, mixed>|string|null $record
      */
     public function __construct(
         public Model|array|string|null $record = null,
     ) {
     }
-<<<<<<< HEAD
-<<<<<<< .merge_file_Z9OQSM
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_YKhn1N
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_XmNcVH
->>>>>>> .merge_file_KHZZK2
->>>>>>> .merge_file_Zdgzdr
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
     public function label(): string
     {
@@ -108,51 +66,11 @@ final class UiCoverageDoneState implements StateContract
     }
 
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_pxfJBF
-     * @param  array<string, mixed>  $data
-     */
-    public function modalActionByRecord(Model $record, array $data): void {}
-=======
-<<<<<<< .merge_file_Z9OQSM
-=======
-<<<<<<< .merge_file_YKhn1N
->>>>>>> .merge_file_KHZZK2
-<<<<<<< HEAD
-     * @param  array<string, mixed>  $data
-     */
-    public function modalActionByRecord(Model $record, array $data): void {}
-=======
-<<<<<<< .merge_file_Z9OQSM
-=======
-=======
->>>>>>> .merge_file_XmNcVH
->>>>>>> .merge_file_KHZZK2
-=======
->>>>>>> laraxot/dev
      * @param array<string, mixed> $data
      */
     public function modalActionByRecord(Model $record, array $data): void
     {
     }
-<<<<<<< HEAD
-<<<<<<< .merge_file_Z9OQSM
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_YKhn1N
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_XmNcVH
->>>>>>> .merge_file_KHZZK2
->>>>>>> .merge_file_Zdgzdr
-=======
-     * @param  array<string, mixed>  $data
-     */
-    public function modalActionByRecord(Model $record, array $data): void {}
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
     public function isMessageRequired(): bool
     {

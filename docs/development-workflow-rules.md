@@ -1,38 +1,6 @@
 # Development Workflow Rules - UI Module
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_UFnOE5
 **Date**: [DATE]
-=======
-**Date**: 2025-12-15
-=======
-<<<<<<< .merge_file_MRbWq9
-**Date**: [DATE]
-=======
-<<<<<<< HEAD
-**Date**: 2025-12-15
-=======
-<<<<<<< HEAD
-**Date**: [DATE]
-=======
-**Date**: 2025-12-15
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-**Date**: 2025-12-15
-=======
-**Date**: [DATE]
->>>>>>> .merge_file_Vyhk3B
->>>>>>> .merge_file_F8rPmF
->>>>>>> laraxot/dev
-=======
-**Date**: [DATE]
->>>>>>> laraxot/dev
-=======
-**Date**: [DATE]
->>>>>>> laraxot/dev
 **Status**: Active
 **Purpose**: Document the mandatory development workflow for UI module
 
@@ -178,62 +146,10 @@
 
 ## 📚 Related Documentation
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_UFnOE5
-=======
-<<<<<<< .merge_file_MRbWq9
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-- [Xot Philosophy](../Xot/docs/philosophy-complete.md)
-- [PSR-4 Autoloading Error Analysis](./psr4-autoloading-error-analysis.md)
-- [Development Guidelines](../../../docs/development/README.md)
-- [Git Workflow](../../../docs/git-conflict-resolution/README.md)
-=======
->>>>>>> .merge_file_Vyhk3B
->>>>>>> .merge_file_F8rPmF
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 - [Xot Philosophy](../xot/docs/philosophy-complete.md)
 - [PSR-4 Autoloading Error Analysis](./psr4-autoloading-error-analysis.md)
 - [Development Guidelines](../../../../docs/development/readme.md)
 - [Git Workflow](../../../../docs/git-conflict-resolution/readme.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_UFnOE5
-=======
-=======
-<<<<<<< .merge_file_MRbWq9
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_F8rPmF
-- [Xot Philosophy](../Xot/docs/philosophy-complete.md)
-- [PSR-4 Autoloading Error Analysis](./psr4-autoloading-error-analysis.md)
-- [Development Guidelines](../../../docs/development/README.md)
-- [Git Workflow](../../../docs/git-conflict-resolution/README.md)
-<<<<<<< .merge_file_UFnOE5
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_Vyhk3B
->>>>>>> .merge_file_F8rPmF
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
 ## ⚠️ Consequences of Skipping Steps
 

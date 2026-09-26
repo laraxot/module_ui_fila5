@@ -1,67 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_D9KZQh
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_kaR3wy
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_4P7NAu
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-<<<<<<< .merge_file_D9KZQh
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ZWo6B1
->>>>>>> .merge_file_4P7NAu
-<?php
-
-declare(strict_types=1);
-=======
-=======
->>>>>>> laraxot/dev
 <?php
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ?>
 {{-- Requires Js --}}
 <div class="isolate overflow-hidden">
@@ -292,30 +232,6 @@ declare(strict_types=1);
                           <dd class="flex items-center justify-end sm:justify-center sm:px-4">
                             <span class="text-gray-900">3 invoices</span>
                           </dd>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_D9KZQh
-<<<<<<< HEAD
-@include('ui::components.blocks.pricing.partials.three_tiers_with_feature_comparison_tail.blade')
-=======
-=======
-<<<<<<< .merge_file_kaR3wy
-<<<<<<< HEAD
-@include('ui::components.blocks.pricing.partials.three_tiers_with_feature_comparison_tail.blade')
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-@include('ui::components.blocks.pricing.partials.three_tiers_with_feature_comparison_tail.blade')
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ZWo6B1
->>>>>>> .merge_file_4P7NAu
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
                         </div>
                         <div class="flex items-center justify-between px-4 py-3 sm:grid sm:grid-cols-2 sm:px-0">
                           <dt class="pr-4 text-gray-600">Exclusive offers</dt>
@@ -1257,21 +1173,3 @@ declare(strict_types=1);
       </div>
     </div>
   </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_D9KZQh
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_kaR3wy
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ZWo6B1
->>>>>>> .merge_file_4P7NAu
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev

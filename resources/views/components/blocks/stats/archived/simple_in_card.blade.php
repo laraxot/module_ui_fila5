@@ -1,18 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_6CyT7N
 
-=======
->>>>>>> .merge_file_WT3O8P
-=======
-
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
 ?>
 <div class="bg-gray-50 pt-12 sm:pt-16">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
