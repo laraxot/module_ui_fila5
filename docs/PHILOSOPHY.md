@@ -245,11 +245,6 @@ Modules/UI/
 │   └── Unit/
 ├── README.md
 <<<<<<< HEAD
-<<<<<<< .merge_file_ei21pR
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_QZdJ5M
 =======
 <<<<<<< .merge_file_PxAbOR
@@ -263,22 +258,13 @@ Modules/UI/
 =======
 >>>>>>> .merge_file_jEotks
 >>>>>>> .merge_file_hBcCiW
-<<<<<<< HEAD
->>>>>>> .merge_file_G8CbqT
-=======
 =======
 >>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
 ├── ARCHITECTURE.md
 └── CHANGELOG.md
 ```
 
 <<<<<<< HEAD
-<<<<<<< .merge_file_ei21pR
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_QZdJ5M
 =======
 <<<<<<< .merge_file_PxAbOR
@@ -286,15 +272,8 @@ Modules/UI/
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_jEotks
 >>>>>>> .merge_file_hBcCiW
-<<<<<<< HEAD
->>>>>>> .merge_file_G8CbqT
-=======
 =======
 >>>>>>> 804451c (Lint)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ---
 
 ### Blade Component Naming
@@ -1319,12 +1298,6 @@ Core functionality tests pass:
 
 - [README.md](./README.md) — Module overview
 <<<<<<< HEAD
-<<<<<<< .merge_file_ei21pR
-- [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_QZdJ5M
 - [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
 =======
@@ -1338,16 +1311,9 @@ Core functionality tests pass:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_jEotks
 >>>>>>> .merge_file_hBcCiW
-<<<<<<< HEAD
->>>>>>> .merge_file_G8CbqT
-=======
 =======
 - [ARCHITECTURE.md](./ARCHITECTURE.md) — System architecture
 >>>>>>> 804451c (Lint)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 - [patterns.md](./patterns.md) — Design patterns and workflows
 - [icon-system.md](./icon-system.md) — Icon system details
 

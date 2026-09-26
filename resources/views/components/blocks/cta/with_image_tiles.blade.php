@@ -1,14 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
 ?>
 <div class="overflow-hidden bg-white py-32">
     <div class="mx-auto max-w-7xl px-6 lg:flex lg:px-8">

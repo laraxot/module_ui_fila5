@@ -21,11 +21,6 @@ docs/
 │   ├── log.md             # Registro
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< .merge_file_9omppo
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_y6hco3
 =======
 <<<<<<< .merge_file_hFkCy0
@@ -35,15 +30,8 @@ docs/
 <<<<<<< HEAD
 >>>>>>> .merge_file_UvjOtE
 >>>>>>> .merge_file_NqlCHx
-<<<<<<< HEAD
->>>>>>> .merge_file_TG0MiA
-=======
 =======
 >>>>>>> 804451c (Lint)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 │   ├── SCHEMA.md          # Questo file
 <<<<<<< HEAD
 │   ├── schema.md          # Questo file
@@ -53,11 +41,6 @@ docs/
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
-<<<<<<< .merge_file_9omppo
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_y6hco3
 =======
 <<<<<<< .merge_file_hFkCy0
@@ -65,15 +48,8 @@ docs/
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_UvjOtE
 >>>>>>> .merge_file_NqlCHx
-<<<<<<< HEAD
->>>>>>> .merge_file_TG0MiA
-=======
 =======
 >>>>>>> 804451c (Lint)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 │   ├── concepts/          # Pattern, architettura
 │   ├── entities/          # Modelli, azioni
 │   ├── sources/           # Doc esterna

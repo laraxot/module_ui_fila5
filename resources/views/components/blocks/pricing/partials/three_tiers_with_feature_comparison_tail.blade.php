@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<?php
-
-declare(strict_types=1);
-?>
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 @php
 // UI Blade view — see Modules/UI/docs/wiki.
 @endphp

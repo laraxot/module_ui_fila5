@@ -10,14 +10,6 @@ story: STORY-001
 <<<<<<< HEAD
 # GRAVE: issue/discussion del modulo — mai base_techplanner / base_workorder / mono.
 <<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_JNHiYO
-=======
-=======
-=======
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_TBc9qB
 =======
 <<<<<<< .merge_file_WxNu67
@@ -28,12 +20,8 @@ story: STORY-001
 # GRAVE: issue/discussion del modulo — mai base_techplanner / base_workorder / mono.
 >>>>>>> .merge_file_uWEk76
 >>>>>>> .merge_file_wkuu6h
-<<<<<<< HEAD
->>>>>>> .merge_file_iAl5qz
-=======
 =======
 >>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
 <<<<<<< HEAD
 # GRAVE: issue/discussion del modulo — mai base_project / base_workorder / mono.
 =======
@@ -56,11 +44,6 @@ story: STORY-001
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
-<<<<<<< .merge_file_JNHiYO
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_TBc9qB
 =======
 <<<<<<< .merge_file_WxNu67
@@ -68,15 +51,8 @@ story: STORY-001
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_uWEk76
 >>>>>>> .merge_file_wkuu6h
-<<<<<<< HEAD
->>>>>>> .merge_file_iAl5qz
-=======
 =======
 >>>>>>> 804451c (Lint)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 # Resolve: cd laravel/Modules/UI && git remote -v → laraxot/module_ui_fila5
 issues: []
 discussions: []
@@ -99,14 +75,6 @@ cd laravel/Modules/UI && git remote -v
 <<<<<<< HEAD
 **Lezione grave:** in un conflitto Git, *entrambe* le parti possono essere sbagliate (`base_techplanner_*` vs `base_workorder_*`). Non scegliere a caso: `git remote -v` nella cartella del modulo/tema.
 <<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_JNHiYO
-=======
-=======
-=======
->>>>>>> laraxot/dev
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_TBc9qB
 =======
 <<<<<<< .merge_file_WxNu67
@@ -117,12 +85,8 @@ cd laravel/Modules/UI && git remote -v
 **Lezione grave:** in un conflitto Git, *entrambe* le parti possono essere sbagliate (`base_techplanner_*` vs `base_workorder_*`). Non scegliere a caso: `git remote -v` nella cartella del modulo/tema.
 >>>>>>> .merge_file_uWEk76
 >>>>>>> .merge_file_wkuu6h
-<<<<<<< HEAD
->>>>>>> .merge_file_iAl5qz
-=======
 =======
 >>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
 <<<<<<< HEAD
 **Lezione grave:** in un conflitto Git, *entrambe* le parti possono essere sbagliate (`base_project_*` vs `base_workorder_*`). Non scegliere a caso: `git remote -v` nella cartella del modulo/tema.
 =======
@@ -145,11 +109,6 @@ cd laravel/Modules/UI && git remote -v
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
-<<<<<<< .merge_file_JNHiYO
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_TBc9qB
 =======
 <<<<<<< .merge_file_WxNu67
@@ -157,15 +116,8 @@ cd laravel/Modules/UI && git remote -v
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_uWEk76
 >>>>>>> .merge_file_wkuu6h
-<<<<<<< HEAD
->>>>>>> .merge_file_iAl5qz
-=======
 =======
 >>>>>>> 804451c (Lint)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
 ## Baseline
 

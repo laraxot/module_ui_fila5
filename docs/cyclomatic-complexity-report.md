@@ -1,33 +1,5 @@
 # Cyclomatic Complexity Report - Module: UI
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bvZRrO
-=======
-**Generated:** 2025-10-01 19:44:11
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_qjQKU2
-=======
-<<<<<<< HEAD
-**Generated:** 2025-10-01 19:44:11
-=======
-<<<<<<< HEAD
-=======
-**Generated:** 2025-10-01 19:44:11
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-**Generated:** 2025-10-01 19:44:11
-=======
->>>>>>> .merge_file_WRyK3B
->>>>>>> laraxot/dev
->>>>>>> .merge_file_48srkl
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 **Analyzer:** Super Mucca 🐮
 
 ---

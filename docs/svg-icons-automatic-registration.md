@@ -93,11 +93,6 @@ php artisan view:clear
 # Test in browser
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< .merge_file_41yLhk
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_Sph6pu
 =======
 <<<<<<< .merge_file_74WnlE
@@ -108,15 +103,8 @@ php artisan view:clear
 <<<<<<< HEAD
 >>>>>>> .merge_file_JMuFiV
 >>>>>>> .merge_file_IhMt22
-<<<<<<< HEAD
->>>>>>> .merge_file_mQvZeY
-=======
 =======
 >>>>>>> 804451c (Lint)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 # http://fixcity.local/it/tests/homepage
 
 # http://<nome progetto>.local/it/tests/homepage
@@ -133,11 +121,6 @@ php artisan view:clear
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
-<<<<<<< .merge_file_41yLhk
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_Sph6pu
 =======
 <<<<<<< .merge_file_74WnlE
@@ -145,15 +128,8 @@ php artisan view:clear
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_JMuFiV
 >>>>>>> .merge_file_IhMt22
-<<<<<<< HEAD
->>>>>>> .merge_file_mQvZeY
-=======
 =======
 >>>>>>> 804451c (Lint)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ```
 
 ## 📊 Icon Inventory
@@ -189,12 +165,6 @@ php artisan view:clear
 
 ### Project Documentation
 <<<<<<< HEAD
-<<<<<<< .merge_file_41yLhk
-- [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_Sph6pu
 - [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
 =======
@@ -208,16 +178,9 @@ php artisan view:clear
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_JMuFiV
 >>>>>>> .merge_file_IhMt22
-<<<<<<< HEAD
->>>>>>> .merge_file_mQvZeY
-=======
 =======
 - [BRANDS_ICONS_INTEGRATION.md](BRANDS_ICONS_INTEGRATION.md) - Old (with mistakes)
 >>>>>>> 804451c (Lint)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 - [BUG_FIX_SOCIAL_ICONS.md](BUG_FIX_SOCIAL_ICONS.md) - Bug fix report
 
 ---

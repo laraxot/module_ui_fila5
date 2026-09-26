@@ -20,40 +20,8 @@ uses(TestCase::class);
  * poi cammina il filesystem: mockarla toglierebbe di mezzo esattamente ciò che c'è da
  * verificare. Qui il set è reale, i file SVG sono reali, e si asserisce il risultato.
  *
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_xgz9D2
- * @param  array<int, string>  $relativeFiles
-=======
- * <<<<<<< HEAD
- *
- * @param array<int, string> $relativeFiles
- *                                          =======
- *                                          <<<<<<< .merge_file_7CRb1I
- * @param array<int, string> $relativeFiles
- *                                          =======
- *                                          <<<<<<< .merge_file_SG4ufS
- * @param array<int, string> $relativeFiles
- *                                          =======
- *                                          <<<<<<< HEAD
- * @param array<int, string> $relativeFiles
- *                                          =======
  * @param array<int, string> $relativeFiles
  *
- * >>>>>>> laraxot/dev
- * >>>>>>> .merge_file_0fTptt
- * >>>>>>> .merge_file_9v8DDK
- *
- * >>>>>>> laraxot/dev
- *
->>>>>>> .merge_file_Lhm2h5
-=======
- * @param  array<int, string>  $relativeFiles
->>>>>>> laraxot/dev
-=======
- * @param array<int, string> $relativeFiles
- *
->>>>>>> laraxot/dev
  * @return array{dir: string, prefix: string, set: string}
  */
 function uiRegisterProbeIconSet(array $relativeFiles): array

@@ -93,34 +93,8 @@ foreach ($paths as $path) {
 
 ## ❌ Errori Rimanenti (35)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 ### **Problemi di Larastan (Laravel 12 Compatibility)**
 La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 12.24.0**:
-=======
-<<<<<<< .merge_file_Z2Svpe
-### **Problemi di Larastan (Laravel 13 Compatibility)**
-La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 13.24.0**:
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-### **Problemi di Larastan (Laravel 12 Compatibility)**
-La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 12.24.0**:
-=======
-### **Problemi di Larastan (Laravel 13 Compatibility)**
-La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 13.24.0**:
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_ccFHOt
-=======
-### **Problemi di Larastan (Laravel 12 Compatibility)**
-La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 12.24.0**:
->>>>>>> laraxot/dev
-=======
-### **Problemi di Larastan (Laravel 12 Compatibility)**
-La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 12.24.0**:
->>>>>>> laraxot/dev
 
 1. **Metodi Str:: non trovati:** `Str::of()`, `Str::uuid()`, `Str::endsWith()`, etc.
 2. **Metodi Collection:: non trovati:** `map()`, `contains()`, `toArray()`
@@ -140,56 +114,13 @@ La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Lara
 ✅ **Controlli runtime** per prevenire errori
 
 ### **Prossimi Passi**
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 12
-=======
-<<<<<<< .merge_file_Z2Svpe
-1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 13
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 12
-=======
-1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 13
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_ccFHOt
-=======
-1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 12
->>>>>>> laraxot/dev
-=======
-1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 12
->>>>>>> laraxot/dev
 2. 📝 **Baseline PHPStan** per ignorare errori framework temporanei
 3. 🔄 **Monitoraggio mensile** aggiornamenti Larastan
 
 ## 🎯 Conclusioni
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_Z2Svpe
-=======
 Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 12**.
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_ccFHOt
-Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 12**.
-=======
-Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 13**.
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_Z2Svpe
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_ccFHOt
-=======
-Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 12**.
->>>>>>> laraxot/dev
-=======
-Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 12**.
->>>>>>> laraxot/dev
 
 Il **codice è funzionalmente corretto** e ora rispetta gli standard di tipizzazione PHP per tutti i componenti personalizzati.
 # PHPStan Corrections - Modulo UI
@@ -287,34 +218,8 @@ foreach ($paths as $path) {
 
 ## ❌ Errori Rimanenti (35)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 ### **Problemi di Larastan (Laravel 12 Compatibility)**
 La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 12.24.0**:
-=======
-<<<<<<< .merge_file_Z2Svpe
-### **Problemi di Larastan (Laravel 13 Compatibility)**
-La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 13.24.0**:
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-### **Problemi di Larastan (Laravel 12 Compatibility)**
-La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 12.24.0**:
-=======
-### **Problemi di Larastan (Laravel 13 Compatibility)**
-La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 13.24.0**:
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_ccFHOt
-=======
-### **Problemi di Larastan (Laravel 12 Compatibility)**
-La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 12.24.0**:
->>>>>>> laraxot/dev
-=======
-### **Problemi di Larastan (Laravel 12 Compatibility)**
-La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Larastan 3.6.0 con Laravel 12.24.0**:
->>>>>>> laraxot/dev
 
 1. **Metodi Str:: non trovati:** `Str::of()`, `Str::uuid()`, `Str::endsWith()`, etc.
 2. **Metodi Collection:: non trovati:** `map()`, `contains()`, `toArray()`
@@ -334,55 +239,12 @@ La maggior parte degli errori rimanenti sono dovuti alla **incompatibilità Lara
 ✅ **Controlli runtime** per prevenire errori
 
 ### **Prossimi Passi**
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 12
-=======
-<<<<<<< .merge_file_Z2Svpe
-1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 13
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 12
-=======
-1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 13
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_ccFHOt
-=======
-1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 12
->>>>>>> laraxot/dev
-=======
-1. ⏳ **Attendere Larastan 3.7+** con supporto Laravel 12
->>>>>>> laraxot/dev
 2. 📝 **Baseline PHPStan** per ignorare errori framework temporanei
 3. 🔄 **Monitoraggio mensile** aggiornamenti Larastan
 
 ## 🎯 Conclusioni
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_Z2Svpe
-=======
 Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 12**.
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_ccFHOt
-Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 12**.
-=======
-Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 13**.
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_Z2Svpe
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_ccFHOt
-=======
-Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 12**.
->>>>>>> laraxot/dev
-=======
-Il **80% degli errori PHPStan nel modulo UI** è stato risolto con successo. I rimanenti errori sono principalmente dovuti alla **incompatibilità temporanea Larastan + Laravel 12**.
->>>>>>> laraxot/dev
 
 Il **codice è funzionalmente corretto** e ora rispetta gli standard di tipizzazione PHP per tutti i componenti personalizzati.

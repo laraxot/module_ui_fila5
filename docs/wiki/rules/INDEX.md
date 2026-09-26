@@ -34,37 +34,7 @@ Le Rules progettuali vivono qui, nel wiki del Module **UI**, e vengono caricate 
 
 - La sorgente di verita' per le Rules e' sempre il wiki locale
 - Non embeddare Rules nei prompt di avvio
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 - Per Rules globali, consulta il [wiki root](../../docs/wiki/rules/INDEX.md)
-=======
-<<<<<<< HEAD
-- Per Rules globali, consulta il [wiki root](../../docs/wiki/rules/INDEX.md)
-=======
-<<<<<<< .merge_file_oG7uEn
-- Per Rules globali, consulta il [wiki root](../../docs/wiki/rules/index.md)
->>>>>>> 92912795 (.)
-=======
-<<<<<<< HEAD
-- Per Rules globali, consulta il [wiki root](../../docs/wiki/rules/index.md)
->>>>>>> 92912795 (.)
-=======
-<<<<<<< HEAD
-- Per Rules globali, consulta il [wiki root](../../docs/wiki/rules/INDEX.md)
-=======
-- Per Rules globali, consulta il [wiki root](../../docs/wiki/rules/index.md)
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_sjzvuw
->>>>>>> laraxot/dev
-=======
-- Per Rules globali, consulta il [wiki root](../../docs/wiki/rules/INDEX.md)
->>>>>>> laraxot/dev
-=======
-- Per Rules globali, consulta il [wiki root](../../docs/wiki/rules/INDEX.md)
->>>>>>> laraxot/dev
 
 ## Aggiungere una Nuova RULES
 

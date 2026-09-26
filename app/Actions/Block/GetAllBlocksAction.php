@@ -13,46 +13,13 @@ use Modules\Xot\Datas\ComponentFileData;
 use function Safe\realpath;
 
 use Spatie\LaravelData\DataCollection;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_ZJk7Ui
-<<<<<<< HEAD
-=======
 use Spatie\QueueableAction\QueueableAction;
->>>>>>> laraxot/dev
-=======
-use Spatie\QueueableAction\QueueableAction;
->>>>>>> .merge_file_iMr5aV
-=======
-use Spatie\QueueableAction\QueueableAction;
->>>>>>> laraxot/dev
-=======
-use Spatie\QueueableAction\QueueableAction;
->>>>>>> laraxot/dev
 use Webmozart\Assert\Assert;
 
 final class GetAllBlocksAction
 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_ZJk7Ui
-<<<<<<< HEAD
-=======
     use QueueableAction;
 
->>>>>>> laraxot/dev
-=======
-    use QueueableAction;
-
->>>>>>> .merge_file_iMr5aV
-=======
-    use QueueableAction;
-
->>>>>>> laraxot/dev
-=======
-    use QueueableAction;
-
->>>>>>> laraxot/dev
     /**
      * @return DataCollection<int, ComponentFileData>
      */

@@ -4,63 +4,13 @@ declare(strict_types=1);
 
 namespace Modules\UI\Tests\Unit;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_ctcDnL
-use Mockery;
-=======
-<<<<<<< .merge_file_hQyAkc
-=======
-<<<<<<< .merge_file_AEw819
->>>>>>> .merge_file_pRtxZS
-<<<<<<< HEAD
-use Mockery;
-=======
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_hQyAkc
-=======
-=======
->>>>>>> .merge_file_VvrOHu
->>>>>>> .merge_file_pRtxZS
->>>>>>> .merge_file_7Y2mjx
-=======
-use Mockery;
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 use Modules\UI\Tests\TestCase;
 use Modules\Xot\Tests\ModuleBusinessCoverage;
 
 uses(TestCase::class);
 
 afterEach(function (): void {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_ctcDnL
-    Mockery::close();
-=======
-<<<<<<< .merge_file_hQyAkc
-=======
-<<<<<<< .merge_file_AEw819
->>>>>>> .merge_file_pRtxZS
-<<<<<<< HEAD
-    Mockery::close();
-=======
     \Mockery::close();
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_hQyAkc
-=======
-=======
-    \Mockery::close();
->>>>>>> .merge_file_VvrOHu
->>>>>>> .merge_file_pRtxZS
->>>>>>> .merge_file_7Y2mjx
-=======
-    Mockery::close();
->>>>>>> laraxot/dev
-=======
-    \Mockery::close();
->>>>>>> laraxot/dev
 });
 
 /** @return list{string, string} */

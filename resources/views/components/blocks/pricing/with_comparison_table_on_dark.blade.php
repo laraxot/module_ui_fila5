@@ -1,70 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_sUR509
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_Cvezuo
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_m9HG8r
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-@php
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-// UI Blade view — see Modules/UI/docs/wiki.
-@endphp
-
-<<<<<<< .merge_file_sUR509
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_AXhkXY
->>>>>>> .merge_file_m9HG8r
-<?php
-
-declare(strict_types=1);
-=======
-=======
->>>>>>> laraxot/dev
 <?php
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ?>
 <div class="bg-gray-900 py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
@@ -339,30 +276,6 @@ declare(strict_types=1);
                   <div class="flex items-baseline gap-x-1 text-white">
                     <span class="text-4xl font-bold">$9</span>
                     <span class="text-sm font-semibold leading-6">/month</span>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_sUR509
-<<<<<<< HEAD
-@include('ui::components.blocks.pricing.partials.with_comparison_table_on_dark.blade_body')
-=======
-=======
-<<<<<<< .merge_file_Cvezuo
-<<<<<<< HEAD
-@include('ui::components.blocks.pricing.partials.with_comparison_table_on_dark.blade_body')
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-@include('ui::components.blocks.pricing.partials.with_comparison_table_on_dark.blade_body')
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_AXhkXY
->>>>>>> .merge_file_m9HG8r
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
                   </div>
                   <a href="#" class="mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 bg-white/10 hover:bg-white/20 focus-visible:outline-white">Buy plan</a>
                 </td>
@@ -689,21 +602,3 @@ declare(strict_types=1);
       </div>
     </div>
   </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_sUR509
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_Cvezuo
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_AXhkXY
->>>>>>> .merge_file_m9HG8r
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev

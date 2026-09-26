@@ -16,54 +16,12 @@ final class UiCoverageThrowingState implements StateContract
 {
     /** @param array<array-key, mixed>|Model|string|null $record */
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_47qJFB
-=======
-<<<<<<< .merge_file_wafKYE
-=======
-<<<<<<< .merge_file_m54Q9P
->>>>>>> .merge_file_Xkzbe0
-<<<<<<< HEAD
->>>>>>> .merge_file_OHJ2eZ
-=======
->>>>>>> laraxot/dev
-     * @param  Model|array<string, mixed>|string|null  $record
-     */
-    public function __construct(
-        public Model|array|string|null $record = null,
-    ) {}
-<<<<<<< HEAD
-<<<<<<< .merge_file_47qJFB
-=======
-=======
-<<<<<<< .merge_file_wafKYE
-=======
-=======
->>>>>>> .merge_file_8r5QfC
->>>>>>> .merge_file_Xkzbe0
-=======
->>>>>>> laraxot/dev
      * @param Model|array<string, mixed>|string|null $record
      */
     public function __construct(
         public Model|array|string|null $record = null,
     ) {
     }
-<<<<<<< HEAD
-<<<<<<< .merge_file_wafKYE
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_m54Q9P
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_8r5QfC
->>>>>>> .merge_file_Xkzbe0
->>>>>>> .merge_file_OHJ2eZ
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
     public function label(): string
     {
@@ -112,51 +70,11 @@ final class UiCoverageThrowingState implements StateContract
     }
 
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_47qJFB
-     * @param  array<string, mixed>  $data
-     */
-    public function modalActionByRecord(Model $record, array $data): void {}
-=======
-<<<<<<< .merge_file_wafKYE
-=======
-<<<<<<< .merge_file_m54Q9P
->>>>>>> .merge_file_Xkzbe0
-<<<<<<< HEAD
-     * @param  array<string, mixed>  $data
-     */
-    public function modalActionByRecord(Model $record, array $data): void {}
-=======
-<<<<<<< .merge_file_wafKYE
-=======
-=======
->>>>>>> .merge_file_8r5QfC
->>>>>>> .merge_file_Xkzbe0
-=======
->>>>>>> laraxot/dev
      * @param array<string, mixed> $data
      */
     public function modalActionByRecord(Model $record, array $data): void
     {
     }
-<<<<<<< HEAD
-<<<<<<< .merge_file_wafKYE
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_m54Q9P
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_8r5QfC
->>>>>>> .merge_file_Xkzbe0
->>>>>>> .merge_file_OHJ2eZ
-=======
-     * @param  array<string, mixed>  $data
-     */
-    public function modalActionByRecord(Model $record, array $data): void {}
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
     /**
      * @return list<string>
@@ -171,39 +89,9 @@ final class UiCoverageThrowingState implements StateContract
         return false;
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_47qJFB
-    public function transitionTo(string $state, ?string $message = null): void {}
-=======
-<<<<<<< .merge_file_wafKYE
-=======
-<<<<<<< .merge_file_m54Q9P
->>>>>>> .merge_file_Xkzbe0
-<<<<<<< HEAD
-    public function transitionTo(string $state, ?string $message = null): void {}
-=======
     public function transitionTo(string $state, ?string $message = null): void
     {
     }
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_wafKYE
-=======
-=======
-    public function transitionTo(string $state, ?string $message = null): void
-    {
-    }
->>>>>>> .merge_file_8r5QfC
->>>>>>> .merge_file_Xkzbe0
->>>>>>> .merge_file_OHJ2eZ
-=======
-    public function transitionTo(string $state, ?string $message = null): void {}
->>>>>>> laraxot/dev
-=======
-    public function transitionTo(string $state, ?string $message = null): void
-    {
-    }
->>>>>>> laraxot/dev
 
     /**
      * @return Collection<string, string>

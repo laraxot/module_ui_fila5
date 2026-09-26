@@ -4,68 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\UI\Filament\Actions\Table;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_rEbfRz
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_jLI7gn
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_v5MH1K
 use Filament\Actions\Action;
-=======
->>>>>>> .merge_file_GrNmvm
-use Filament\Resources\Pages\ListRecords;
-use Modules\UI\Enums\TableLayoutEnum;
-use Modules\UI\Filament\Traits\HasTableLayoutPage;
-use Modules\Xot\Filament\Actions\XotBaseAction;
-
-<<<<<<< .merge_file_jLI7gn
-final class TableLayoutToggleTableAction extends Action implements HasTableLayout
-<<<<<<< .merge_file_rEbfRz
-=======
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_v5MH1K
-use Filament\Resources\Pages\ListRecords;
-use Modules\UI\Enums\TableLayoutEnum;
-use Modules\UI\Filament\Traits\HasTableLayoutPage;
-use Modules\Xot\Filament\Actions\XotBaseAction;
-
-final class TableLayoutToggleTableAction extends XotBaseAction implements HasTableLayout
-<<<<<<< .merge_file_rEbfRz
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-final class TableLayoutToggleTableAction extends XotBaseAction implements HasTableLayout
->>>>>>> .merge_file_GrNmvm
->>>>>>> .merge_file_v5MH1K
-=======
-use Filament\Actions\Action;
-=======
-use Filament\Actions\Action;
->>>>>>> laraxot/dev
 use Filament\Resources\Pages\ListRecords;
 use Modules\UI\Contracts\HasTableLayout;
 
 final class TableLayoutToggleTableAction extends Action implements HasTableLayout
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 {
     use TableLayoutTrait;
 
@@ -73,61 +16,12 @@ final class TableLayoutToggleTableAction extends Action implements HasTableLayou
     {
         parent::setUp();
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_rEbfRz
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_jLI7gn
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_v5MH1K
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
         $current = $this->getCurrentLayout();
 
         $this->label(__('ui::table_layout.actions.toggle.label'))
             ->tooltip($current->getLabel())
             ->color($current->getColor())
             ->icon($current->getIcon())
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_rEbfRz
-=======
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_GrNmvm
->>>>>>> .merge_file_v5MH1K
-        $this->iconButton()
-            ->label('')
-            ->tooltip(fn (): string => $this->resolveTargetLayout()->getLabel())
-            ->icon(fn (): string => $this->resolveTargetLayout()->getIcon())
-<<<<<<< .merge_file_rEbfRz
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_jLI7gn
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_GrNmvm
->>>>>>> .merge_file_v5MH1K
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
             ->action($this->toggleLayout(...));
     }
 
@@ -136,153 +30,6 @@ final class TableLayoutToggleTableAction extends Action implements HasTableLayou
         return 'table_layout_toggle';
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_rEbfRz
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_jLI7gn
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_v5MH1K
-=======
->>>>>>> laraxot/dev
-    protected function toggleLayout(?ListRecords $livewire): void
-=======
-    protected function toggleLayout(): void
->>>>>>> .merge_file_GrNmvm
-    {
-        $livewire = $this->getLivewire();
-
-        if (! is_object($livewire) || ! HasTableLayoutPage::isLayoutCapable($livewire)) {
-            return;
-        }
-
-        $newLayout = $this->resolveLayout($livewire)->toggle();
-
-        $this->setTableLayout($newLayout);
-        HasTableLayoutPage::applyLayoutTo($livewire, $newLayout);
-
-        if ($livewire instanceof ListRecords) {
-            $livewire->resetTable();
-        }
-    }
-<<<<<<< HEAD
-<<<<<<< .merge_file_jLI7gn
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-    protected function toggleLayout(): void
-    {
-        $livewire = $this->getLivewire();
-
-        if (! is_object($livewire) || ! HasTableLayoutPage::isLayoutCapable($livewire)) {
-            return;
-        }
-
-        $newLayout = $this->resolveLayout($livewire)->toggle();
-
-        $this->setTableLayout($newLayout);
-        HasTableLayoutPage::applyLayoutTo($livewire, $newLayout);
-
-        if ($livewire instanceof ListRecords) {
-            $livewire->resetTable();
-        }
-    }
-=======
->>>>>>> .merge_file_GrNmvm
-
-    private function resolveTargetLayout(?object $livewire = null): TableLayoutEnum
-    {
-        return $this->resolveLayout($livewire)->toggle();
-    }
-
-    private function resolveLayout(?object $livewire = null): TableLayoutEnum
-    {
-        if (is_object($livewire)) {
-            $layout = HasTableLayoutPage::readLayoutFrom($livewire);
-
-            if ($layout instanceof TableLayoutEnum) {
-                return $layout;
-            }
-        }
-
-        $component = $this->getLivewire();
-
-        if (is_object($component)) {
-            $layout = HasTableLayoutPage::readLayoutFrom($component);
-
-            if ($layout instanceof TableLayoutEnum) {
-                return $layout;
-            }
-        }
-
-        return $this->getCurrentLayout();
-    }
-<<<<<<< .merge_file_rEbfRz
-=======
-    protected function toggleLayout(): void
-    {
-        $livewire = $this->getLivewire();
-
-        if (! is_object($livewire) || ! HasTableLayoutPage::isLayoutCapable($livewire)) {
-            return;
-        }
-
-        $newLayout = $this->resolveLayout($livewire)->toggle();
-
-        $this->setTableLayout($newLayout);
-        HasTableLayoutPage::applyLayoutTo($livewire, $newLayout);
-
-        if ($livewire instanceof ListRecords) {
-            $livewire->resetTable();
-        }
-    }
-
-    private function resolveTargetLayout(?object $livewire = null): TableLayoutEnum
-    {
-        return $this->resolveLayout($livewire)->toggle();
-    }
-
-    private function resolveLayout(?object $livewire = null): TableLayoutEnum
-    {
-        if (is_object($livewire)) {
-            $layout = HasTableLayoutPage::readLayoutFrom($livewire);
-
-            if ($layout instanceof TableLayoutEnum) {
-                return $layout;
-            }
-        }
-
-        $component = $this->getLivewire();
-
-        if (is_object($component)) {
-            $layout = HasTableLayoutPage::readLayoutFrom($component);
-
-            if ($layout instanceof TableLayoutEnum) {
-                return $layout;
-            }
-        }
-
-        return $this->getCurrentLayout();
-    }
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_jLI7gn
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_GrNmvm
->>>>>>> .merge_file_v5MH1K
-=======
     protected function toggleLayout(?ListRecords $livewire): void
     {
         $currentLayout = $this->getCurrentLayout();
@@ -294,7 +41,4 @@ final class TableLayoutToggleTableAction extends Action implements HasTableLayou
             $livewire->dispatch('$refresh');
         }
     }
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 }

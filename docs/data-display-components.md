@@ -169,68 +169,7 @@ new Chart(ctx, {
 .table-responsive {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bLyq9b
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_k2SWwZ
-
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_a4wL6w
-=======
-<<<<<<< HEAD
-  
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-  
-=======
-
->>>>>>> laraxot/dev
-=======
-  
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_bLyq9b
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_vnFGoC
->>>>>>> .merge_file_a4wL6w
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
   @media (max-width: 768px) {
     .table {
       min-width: 600px;
@@ -244,68 +183,7 @@ new Chart(ctx, {
 .chart-container {
   position: relative;
   height: 300px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bLyq9b
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_k2SWwZ
-
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_a4wL6w
-=======
-<<<<<<< HEAD
-  
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-  
-=======
-
->>>>>>> laraxot/dev
-=======
-  
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_bLyq9b
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_vnFGoC
->>>>>>> .merge_file_a4wL6w
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
   canvas {
     animation: fadeIn 0.5s ease;
   }
@@ -316,76 +194,11 @@ new Chart(ctx, {
 - [Componenti Base](./base-components.md)
 - [Form Avanzati](./advanced-form-components.md)
 - [Accessibilità](./standards/accessibility.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bLyq9b
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_a4wL6w
-- [Performance](./standards/performance.md)
-# Componenti Visualizzazione Dati
-<<<<<<< HEAD
-## 📊 Tabelle
-=======
-
-## 📊 Tabelle
-
-<<<<<<< .merge_file_bLyq9b
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_k2SWwZ
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_a4wL6w
-- [Performance](./standards/performance.md) 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Performance](./standards/performance.md) 
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Performance](./standards/performance.md) 
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-- [Performance](./standards/performance.md)
-# Componenti Visualizzazione Dati
-## 📊 Tabelle
-<<<<<<< .merge_file_bLyq9b
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_vnFGoC
->>>>>>> .merge_file_a4wL6w
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
 - [Performance](./standards/performance.md)
 # Componenti Visualizzazione Dati
 
 ## 📊 Tabelle
 
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ### Tabella Base
 ```html
 <div class="table-responsive">
@@ -399,35 +212,7 @@ new Chart(ctx, {
       </tr>
     </thead>
     <tbody>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bLyq9b
       <tr>
-=======
-=======
-<<<<<<< .merge_file_k2SWwZ
-      <tr>
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-      <tr>
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-      <tr>
->>>>>>> .merge_file_vnFGoC
->>>>>>> .merge_file_a4wL6w
->>>>>>> laraxot/dev
-=======
-      <tr>
->>>>>>> laraxot/dev
-=======
-      <tr>
->>>>>>> laraxot/dev
         <th scope="row">1</th>
         <td>Mario Rossi</td>
         <td>mario@example.com</td>
@@ -435,85 +220,14 @@ new Chart(ctx, {
           <button class="btn btn-sm btn-primary">Modifica</button>
           <button class="btn btn-sm btn-danger">Elimina</button>
         </td>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bLyq9b
       </tr>
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_k2SWwZ
-      </tr>
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-      </tr>
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-      </tr>
->>>>>>> .merge_file_vnFGoC
->>>>>>> laraxot/dev
->>>>>>> .merge_file_a4wL6w
-=======
-      </tr>
->>>>>>> laraxot/dev
-=======
-      </tr>
->>>>>>> laraxot/dev
     </tbody>
   </table>
 </div>
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bLyq9b
 
 ### Tabella con Ordinamento
 ```html
-=======
-### Tabella con Ordinamento
-=======
-<<<<<<< .merge_file_k2SWwZ
-
-### Tabella con Ordinamento
-```html
-=======
-<<<<<<< HEAD
-### Tabella con Ordinamento
-=======
-<<<<<<< HEAD
-
-### Tabella con Ordinamento
-```html
-=======
-### Tabella con Ordinamento
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-### Tabella con Ordinamento
-=======
-
-### Tabella con Ordinamento
-```html
->>>>>>> .merge_file_vnFGoC
->>>>>>> .merge_file_a4wL6w
->>>>>>> laraxot/dev
-=======
-
-### Tabella con Ordinamento
-```html
->>>>>>> laraxot/dev
-=======
-
-### Tabella con Ordinamento
-```html
->>>>>>> laraxot/dev
 <table class="table table-sortable">
   <thead>
     <tr>
@@ -526,29 +240,6 @@ new Chart(ctx, {
     <!-- Contenuto tabella -->
   </tbody>
 </table>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bLyq9b
-=======
-<<<<<<< .merge_file_k2SWwZ
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-## 📈 Grafici
-### Line Chart
-<div class="chart-container">
-  <canvas id="lineChart"></canvas>
-=======
->>>>>>> .merge_file_vnFGoC
->>>>>>> .merge_file_a4wL6w
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ```
 
 ## 📈 Grafici
@@ -559,35 +250,6 @@ new Chart(ctx, {
   <canvas id="lineChart"></canvas>
 </div>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bLyq9b
-=======
-=======
-<<<<<<< .merge_file_k2SWwZ
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_a4wL6w
-## 📈 Grafici
-### Line Chart
-<div class="chart-container">
-  <canvas id="lineChart"></canvas>
-<<<<<<< .merge_file_bLyq9b
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_vnFGoC
->>>>>>> .merge_file_a4wL6w
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 <script>
 const ctx = document.getElementById('lineChart').getContext('2d');
 new Chart(ctx, {
@@ -603,34 +265,6 @@ new Chart(ctx, {
   }
 });
 </script>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bLyq9b
-=======
-<<<<<<< .merge_file_k2SWwZ
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-### Pie Chart
-  <canvas id="pieChart"></canvas>
-const ctx = document.getElementById('pieChart').getContext('2d');
-  type: 'pie',
-    labels: ['Rosso', 'Blu', 'Giallo'],
-      data: [300, 50, 100],
-      backgroundColor: ['#ff6384', '#36a2eb', '#ffce56']
-## 📋 Lista
-### Lista Ordinata
-=======
->>>>>>> .merge_file_vnFGoC
->>>>>>> .merge_file_a4wL6w
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ```
 
 ### Pie Chart
@@ -658,68 +292,11 @@ new Chart(ctx, {
 
 ### Lista Ordinata
 ```html
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bLyq9b
-=======
-=======
-<<<<<<< .merge_file_k2SWwZ
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_a4wL6w
-### Pie Chart
-  <canvas id="pieChart"></canvas>
-const ctx = document.getElementById('pieChart').getContext('2d');
-  type: 'pie',
-    labels: ['Rosso', 'Blu', 'Giallo'],
-      data: [300, 50, 100],
-      backgroundColor: ['#ff6384', '#36a2eb', '#ffce56']
-## 📋 Lista
-### Lista Ordinata
-<<<<<<< .merge_file_bLyq9b
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_vnFGoC
->>>>>>> .merge_file_a4wL6w
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 <ol class="list-group">
   <li class="list-group-item d-flex justify-content-between align-items-center">
     Primo elemento
     <span class="badge bg-primary rounded-pill">14</span>
   </li>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bLyq9b
-=======
-<<<<<<< .merge_file_k2SWwZ
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-    Secondo elemento
-    <span class="badge bg-primary rounded-pill">2</span>
-</ol>
-### Lista con Azioni
-=======
->>>>>>> .merge_file_vnFGoC
->>>>>>> .merge_file_a4wL6w
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
   <li class="list-group-item d-flex justify-content-between align-items-center">
     Secondo elemento
     <span class="badge bg-primary rounded-pill">2</span>
@@ -729,35 +306,6 @@ const ctx = document.getElementById('pieChart').getContext('2d');
 
 ### Lista con Azioni
 ```html
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bLyq9b
-=======
-=======
-<<<<<<< .merge_file_k2SWwZ
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_a4wL6w
-    Secondo elemento
-    <span class="badge bg-primary rounded-pill">2</span>
-</ol>
-### Lista con Azioni
-<<<<<<< .merge_file_bLyq9b
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_vnFGoC
->>>>>>> .merge_file_a4wL6w
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 <ul class="list-group">
   <li class="list-group-item">
     <div class="d-flex justify-content-between align-items-center">
@@ -768,29 +316,6 @@ const ctx = document.getElementById('pieChart').getContext('2d');
       <div class="btn-group">
         <button class="btn btn-sm btn-outline-primary">Modifica</button>
         <button class="btn btn-sm btn-outline-danger">Elimina</button>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bLyq9b
-=======
-<<<<<<< .merge_file_k2SWwZ
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-    </div>
-</ul>
-## 📑 Card
-### Card con Immagine
-=======
->>>>>>> .merge_file_vnFGoC
->>>>>>> .merge_file_a4wL6w
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
       </div>
     </div>
   </li>
@@ -801,35 +326,6 @@ const ctx = document.getElementById('pieChart').getContext('2d');
 
 ### Card con Immagine
 ```html
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bLyq9b
-=======
-=======
-<<<<<<< .merge_file_k2SWwZ
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_a4wL6w
-    </div>
-</ul>
-## 📑 Card
-### Card con Immagine
-<<<<<<< .merge_file_bLyq9b
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_vnFGoC
->>>>>>> .merge_file_a4wL6w
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 <div class="card">
   <img src="image.jpg" class="card-img-top" alt="Immagine">
   <div class="card-body">
@@ -837,30 +333,6 @@ const ctx = document.getElementById('pieChart').getContext('2d');
     <p class="card-text">Descrizione della card.</p>
     <a href="#" class="btn btn-primary">Azione</a>
   </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bLyq9b
-=======
-<<<<<<< .merge_file_k2SWwZ
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_vnFGoC
-### Card con Tabella
-  <div class="card-header">
-    <h5 class="card-title mb-0">Dettagli</h5>
-=======
-<<<<<<< .merge_file_k2SWwZ
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_vnFGoC
->>>>>>> .merge_file_a4wL6w
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 </div>
 ```
 
@@ -871,60 +343,12 @@ const ctx = document.getElementById('pieChart').getContext('2d');
     <h5 class="card-title mb-0">Dettagli</h5>
   </div>
   <div class="card-body">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bLyq9b
-=======
-<<<<<<< .merge_file_k2SWwZ
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_a4wL6w
-=======
-### Card con Tabella
-  <div class="card-header">
-    <h5 class="card-title mb-0">Dettagli</h5>
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_bLyq9b
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_vnFGoC
->>>>>>> laraxot/dev
->>>>>>> .merge_file_a4wL6w
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     <table class="table table-sm">
       <tbody>
         <tr>
           <th scope="row">Nome</th>
           <td>Mario Rossi</td>
         </tr>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bLyq9b
-=======
-<<<<<<< .merge_file_k2SWwZ
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-          <th scope="row">Email</th>
-          <td>mario@example.com</td>
-      </tbody>
-    </table>
-## 🎨 Stili e Comportamenti
-=======
->>>>>>> .merge_file_vnFGoC
->>>>>>> .merge_file_a4wL6w
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
         <tr>
           <th scope="row">Email</th>
           <td>mario@example.com</td>
@@ -937,100 +361,16 @@ const ctx = document.getElementById('pieChart').getContext('2d');
 
 ## 🎨 Stili e Comportamenti
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bLyq9b
-=======
-=======
-<<<<<<< .merge_file_k2SWwZ
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_a4wL6w
-          <th scope="row">Email</th>
-          <td>mario@example.com</td>
-      </tbody>
-    </table>
-## 🎨 Stili e Comportamenti
-<<<<<<< .merge_file_bLyq9b
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_vnFGoC
->>>>>>> .merge_file_a4wL6w
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ### Responsive Tables
 ```scss
 .table-responsive {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bLyq9b
 
-=======
-=======
-<<<<<<< .merge_file_k2SWwZ
-
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_vnFGoC
->>>>>>> .merge_file_a4wL6w
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
   @media (max-width: 768px) {
     .table {
       min-width: 600px;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bLyq9b
-=======
-<<<<<<< .merge_file_k2SWwZ
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-}
-### Chart Animations
-.chart-container {
-  position: relative;
-  height: 300px;
-  canvas {
-    animation: fadeIn 0.5s ease;
-=======
->>>>>>> .merge_file_vnFGoC
->>>>>>> .merge_file_a4wL6w
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
   }
 }
 ```
@@ -1047,99 +387,8 @@ const ctx = document.getElementById('pieChart').getContext('2d');
 }
 ```
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bLyq9b
-=======
-=======
-<<<<<<< .merge_file_k2SWwZ
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_a4wL6w
-}
-### Chart Animations
-.chart-container {
-  position: relative;
-  height: 300px;
-  canvas {
-    animation: fadeIn 0.5s ease;
-<<<<<<< .merge_file_bLyq9b
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_vnFGoC
->>>>>>> .merge_file_a4wL6w
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ## 🔗 Collegamenti
 - [Componenti Base](./base-components.md)
 - [Form Avanzati](./advanced-form-components.md)
 - [Accessibilità](./standards/accessibility.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_bLyq9b
 - [Performance](./standards/performance.md)
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_k2SWwZ
-- [Performance](./standards/performance.md)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-- [Performance](./standards/performance.md)
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_vnFGoC
->>>>>>> .merge_file_a4wL6w
-
-```
-=======
-- [Performance](./standards/performance.md)
-<<<<<<< .merge_file_bLyq9b
-=======
-<<<<<<< .merge_file_k2SWwZ
->>>>>>> .merge_file_a4wL6w
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- [Performance](./standards/performance.md) 
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_bLyq9b
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_vnFGoC
->>>>>>> .merge_file_a4wL6w
->>>>>>> laraxot/dev
-=======
-- [Performance](./standards/performance.md)
->>>>>>> laraxot/dev
-=======
-- [Performance](./standards/performance.md)
->>>>>>> laraxot/dev

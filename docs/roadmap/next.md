@@ -9,14 +9,6 @@ qmd: "02-next next (module ui)"
 issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 <<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_dlfSdQ
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_gj3q3A
 =======
 <<<<<<< .merge_file_KVwZ4M
@@ -29,12 +21,8 @@ issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
 discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
 >>>>>>> .merge_file_KaCmDw
 >>>>>>> .merge_file_eihpbc
-<<<<<<< HEAD
->>>>>>> .merge_file_sEhhoP
-=======
 =======
 >>>>>>> 804451c (Lint)
->>>>>>> laraxot/dev
 <<<<<<< HEAD
 issues: ["https://github.com/provtv/<nome repository>/issues/124"]
 discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
@@ -45,11 +33,6 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
-<<<<<<< .merge_file_dlfSdQ
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_gj3q3A
 =======
 <<<<<<< .merge_file_KVwZ4M
@@ -57,15 +40,8 @@ discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_KaCmDw
 >>>>>>> .merge_file_eihpbc
-<<<<<<< HEAD
->>>>>>> .merge_file_sEhhoP
-=======
 =======
 >>>>>>> 804451c (Lint)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 related:
   - "./00-index-1.md"
   - "./00-index.md"

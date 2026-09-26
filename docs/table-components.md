@@ -7,57 +7,7 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 
 ### DataTable
 ```blade
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 <x-ui::datatable
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
-=======
-<<<<<<< HEAD
-=======
-<x-ui::datatable
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_XWXkZn
-<x-ui::datatable 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<x-ui::datatable
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<x-ui::datatable 
-=======
-<x-ui::datatable
->>>>>>> laraxot/dev
-=======
-<x-ui::datatable 
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-<<<<<<< .merge_file_dqU2EY
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_XWXkZn
->>>>>>> laraxot/dev
-=======
-<x-ui::datatable
->>>>>>> laraxot/dev
-=======
-<x-ui::datatable
->>>>>>> laraxot/dev
     :columns="[
         ['name' => 'id', 'label' => 'ID', 'sortable' => true],
         ['name' => 'name', 'label' => 'Nome', 'sortable' => true],
@@ -75,68 +25,7 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 
 ### StatusBadge
 ```blade
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 <x-ui::status-badge
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
-=======
-<<<<<<< HEAD
-=======
-<x-ui::status-badge
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_XWXkZn
-<x-ui::status-badge 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_dqU2EY
-<x-ui::status-badge
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<x-ui::status-badge 
-=======
-<x-ui::status-badge
-=======
-<x-ui::status-badge
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<x-ui::status-badge 
-=======
-<x-ui::status-badge
->>>>>>> .merge_file_XWXkZn
->>>>>>> laraxot/dev
-=======
-<x-ui::status-badge 
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-<<<<<<< .merge_file_dqU2EY
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_XWXkZn
->>>>>>> laraxot/dev
-=======
-<x-ui::status-badge
->>>>>>> laraxot/dev
-=======
-<x-ui::status-badge
->>>>>>> laraxot/dev
     :status="$user->status"
     :options="[
         'active' => ['label' => 'Attivo', 'color' => 'success'],
@@ -148,68 +37,7 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 
 ### ActionButtons
 ```blade
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
 <x-ui::action-buttons
-=======
-<<<<<<< HEAD
-<x-ui::action-buttons 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<x-ui::action-buttons
-=======
-<<<<<<< HEAD
-=======
-<x-ui::action-buttons
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<x-ui::action-buttons
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<x-ui::action-buttons 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<x-ui::action-buttons
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_XWXkZn
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-<x-ui::action-buttons 
-=======
-<x-ui::action-buttons
->>>>>>> laraxot/dev
-=======
-<x-ui::action-buttons 
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
-<<<<<<< .merge_file_dqU2EY
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_XWXkZn
->>>>>>> laraxot/dev
-=======
-<x-ui::action-buttons
->>>>>>> laraxot/dev
-=======
-<x-ui::action-buttons
->>>>>>> laraxot/dev
     :actions="[
         [
             'type' => 'view',
@@ -266,68 +94,7 @@ class UserTable extends Component
     public $sortDirection = 'asc';
     public $search = '';
     public $perPage = 10;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_19nahj
-
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_XWXkZn
-=======
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_dqU2EY
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_wXDxL6
->>>>>>> .merge_file_XWXkZn
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
     public function sortBy($field)
     {
         if ($this->sortField === $field) {
@@ -337,68 +104,7 @@ class UserTable extends Component
             $this->sortDirection = 'asc';
         }
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_19nahj
-
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_XWXkZn
-=======
-<<<<<<< HEAD
-    
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> laraxot/dev
-=======
-    
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_dqU2EY
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_wXDxL6
->>>>>>> .merge_file_XWXkZn
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
     public function render()
     {
         $users = User::query()
@@ -408,68 +114,7 @@ class UserTable extends Component
             })
             ->orderBy($this->sortField, $this->sortDirection)
             ->paginate($this->perPage);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
 
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_19nahj
-
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_XWXkZn
-=======
-<<<<<<< HEAD
-            
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-<<<<<<< HEAD
-            
-=======
-
->>>>>>> laraxot/dev
-=======
-            
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_dqU2EY
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_wXDxL6
->>>>>>> .merge_file_XWXkZn
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
         return view('livewire.user-table', compact('users'));
     }
 }
@@ -494,30 +139,6 @@ class UserTable extends Component
 - [Componenti Form](./form-components.md)
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
-=======
-<<<<<<< .merge_file_19nahj
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
-- [Documentazione Frontend](../Cms/docs/frontend-architecture.md)
-# Componenti Table
-## Introduzione
-I componenti table forniscono una gestione efficiente e personalizzabile dei dati tabulari, con funzionalità avanzate di ordinamento, filtro e paginazione.
-## Componenti Disponibili
-=======
->>>>>>> .merge_file_wXDxL6
->>>>>>> .merge_file_XWXkZn
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 - [Documentazione Frontend](../cms/docs/frontend-architecture.md)
 # Componenti Table
 
@@ -526,53 +147,6 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
 
 ## Componenti Disponibili
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_19nahj
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_XWXkZn
-- [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
-=======
-=======
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-- [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-- [Documentazione Frontend](../Cms/docs/frontend-architecture.md)
-# Componenti Table
-## Introduzione
-I componenti table forniscono una gestione efficiente e personalizzabile dei dati tabulari, con funzionalità avanzate di ordinamento, filtro e paginazione.
-## Componenti Disponibili
-<<<<<<< .merge_file_dqU2EY
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_wXDxL6
->>>>>>> .merge_file_XWXkZn
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ### DataTable
 ```blade
 <x-ui::datatable
@@ -590,105 +164,21 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
     :exportable="true"
 />
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
-=======
-<<<<<<< .merge_file_19nahj
->>>>>>> .merge_file_XWXkZn
 
 ### StatusBadge
 ```blade
-=======
-<<<<<<< .merge_file_dqU2EY
-### StatusBadge
-=======
-<<<<<<< HEAD
-### StatusBadge
-=======
-<<<<<<< HEAD
-
-### StatusBadge
-```blade
-=======
-### StatusBadge
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-### StatusBadge
-=======
-
-### StatusBadge
-```blade
->>>>>>> .merge_file_wXDxL6
->>>>>>> .merge_file_XWXkZn
->>>>>>> laraxot/dev
-=======
-
-### StatusBadge
-```blade
->>>>>>> laraxot/dev
-=======
-
-### StatusBadge
-```blade
->>>>>>> laraxot/dev
 <x-ui::status-badge
     :status="$user->status"
     :options="[
         'active' => ['label' => 'Attivo', 'color' => 'success'],
         'inactive' => ['label' => 'Inattivo', 'color' => 'danger'],
         'pending' => ['label' => 'In attesa', 'color' => 'warning'],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
-=======
-<<<<<<< .merge_file_19nahj
-=======
-<<<<<<< HEAD
-### ActionButtons
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-### ActionButtons
-=======
->>>>>>> .merge_file_wXDxL6
->>>>>>> .merge_file_XWXkZn
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     ]"
 />
 ```
 
 ### ActionButtons
 ```blade
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
-=======
-### ActionButtons
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_19nahj
-<<<<<<< HEAD
-=======
-=======
-### ActionButtons
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_wXDxL6
->>>>>>> laraxot/dev
->>>>>>> .merge_file_XWXkZn
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 <x-ui::action-buttons
     :actions="[
         [
@@ -697,195 +187,36 @@ I componenti table forniscono una gestione efficiente e personalizzabile dei dat
             'icon' => 'eye',
             'label' => 'Visualizza'
         ],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
         [
-=======
-=======
-<<<<<<< .merge_file_19nahj
-        [
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-        [
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-        [
->>>>>>> .merge_file_wXDxL6
->>>>>>> .merge_file_XWXkZn
->>>>>>> laraxot/dev
-=======
-        [
->>>>>>> laraxot/dev
-=======
-        [
->>>>>>> laraxot/dev
             'type' => 'edit',
             'url' => route('users.edit', $user),
             'icon' => 'pencil',
             'label' => 'Modifica'
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
         ],
         [
-=======
-=======
-<<<<<<< .merge_file_19nahj
-        ],
-        [
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-        ],
-        [
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-        ],
-        [
->>>>>>> .merge_file_wXDxL6
->>>>>>> .merge_file_XWXkZn
->>>>>>> laraxot/dev
-=======
-        ],
-        [
->>>>>>> laraxot/dev
-=======
-        ],
-        [
->>>>>>> laraxot/dev
             'type' => 'delete',
             'url' => route('users.destroy', $user),
             'icon' => 'trash',
             'label' => 'Elimina',
             'confirm' => true
         ]
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
-=======
-<<<<<<< .merge_file_19nahj
-=======
-<<<<<<< HEAD
-## Funzionalità
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-## Funzionalità
-=======
->>>>>>> .merge_file_wXDxL6
->>>>>>> .merge_file_XWXkZn
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     ]"
 />
 ```
 
 ## Funzionalità
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
-=======
-## Funzionalità
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_19nahj
-<<<<<<< HEAD
-=======
-=======
-## Funzionalità
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_wXDxL6
->>>>>>> laraxot/dev
->>>>>>> .merge_file_XWXkZn
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ### Ordinamento
 - Multi-colonna
 - Direzione (asc/desc)
 - Personalizzazione
 - Cache risultati
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
 
-=======
-=======
-<<<<<<< .merge_file_19nahj
-
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_wXDxL6
->>>>>>> .merge_file_XWXkZn
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
 ### Filtri
 - Testo libero
 - Select multipli
 - Date range
 - Custom filters
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
-=======
-<<<<<<< .merge_file_19nahj
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-### Paginazione
-- Server-side
-- Client-side
-- Cache pagine
-## Integrazione
-### Livewire
-```php
-use Livewire\Component;
-=======
->>>>>>> .merge_file_wXDxL6
->>>>>>> .merge_file_XWXkZn
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
 ### Paginazione
 - Server-side
@@ -899,74 +230,13 @@ use Livewire\Component;
 ```php
 use Livewire\Component;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
-=======
-=======
-<<<<<<< .merge_file_19nahj
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_XWXkZn
-### Paginazione
-- Server-side
-- Client-side
-- Cache pagine
-## Integrazione
-### Livewire
-```php
-use Livewire\Component;
-<<<<<<< .merge_file_dqU2EY
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_wXDxL6
->>>>>>> .merge_file_XWXkZn
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 class UserTable extends Component
 {
     public $sortField = 'name';
     public $sortDirection = 'asc';
     public $search = '';
     public $perPage = 10;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
 
-=======
-=======
-<<<<<<< .merge_file_19nahj
-
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_wXDxL6
->>>>>>> .merge_file_XWXkZn
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
     public function sortBy($field)
     {
         if ($this->sortField === $field) {
@@ -976,51 +246,9 @@ class UserTable extends Component
             $this->sortDirection = 'asc';
         }
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
 
     public function render()
     {
-=======
-    public function render()
-=======
-<<<<<<< .merge_file_19nahj
-
-    public function render()
-    {
-=======
-<<<<<<< HEAD
-    public function render()
-=======
-<<<<<<< HEAD
-
-    public function render()
-    {
-=======
-    public function render()
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-    public function render()
-=======
-
-    public function render()
-    {
->>>>>>> .merge_file_wXDxL6
->>>>>>> .merge_file_XWXkZn
->>>>>>> laraxot/dev
-=======
-
-    public function render()
-    {
->>>>>>> laraxot/dev
-=======
-
-    public function render()
-    {
->>>>>>> laraxot/dev
         $users = User::query()
             ->when($this->search, function ($query) {
                 $query->where('name', 'like', '%'.$this->search.'%')
@@ -1028,32 +256,6 @@ class UserTable extends Component
             })
             ->orderBy($this->sortField, $this->sortDirection)
             ->paginate($this->perPage);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
-=======
-<<<<<<< .merge_file_19nahj
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
-        return view('livewire.user-table', compact('users'));
-}
-## Best Practices
-### Utilizzo
-- Ottimizzazione query
-- Lazy loading
-- Responsive design
-=======
->>>>>>> .merge_file_wXDxL6
->>>>>>> .merge_file_XWXkZn
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
         return view('livewire.user-table', compact('users'));
     }
@@ -1068,144 +270,17 @@ class UserTable extends Component
 - Lazy loading
 - Responsive design
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
-=======
-=======
-<<<<<<< .merge_file_19nahj
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_XWXkZn
-        return view('livewire.user-table', compact('users'));
-}
-## Best Practices
-### Utilizzo
-- Ottimizzazione query
-- Lazy loading
-- Responsive design
-<<<<<<< .merge_file_dqU2EY
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_wXDxL6
->>>>>>> .merge_file_XWXkZn
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ### Performance
 - Indici database
 - Query ottimizzate
 - Cache paginazione
 - Lazy loading colonne
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
 
-=======
-=======
-<<<<<<< .merge_file_19nahj
-
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-
->>>>>>> .merge_file_wXDxL6
->>>>>>> .merge_file_XWXkZn
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
 ## Collegamenti
 - [Componenti Base](./base-components.md)
 - [Componenti Form](./form-components.md)
 - [Componenti Chart](./chart-components.md)
 - [Componenti Layout](./layout-components.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
-=======
-<<<<<<< .merge_file_19nahj
->>>>>>> .merge_file_XWXkZn
-- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
-- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
-=======
-
-```
-=======
->>>>>>> .merge_file_wXDxL6
-- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
-=======
-<<<<<<< HEAD
-<<<<<<< .merge_file_dqU2EY
-=======
-<<<<<<< HEAD
-=======
-- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
-- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
-<<<<<<< .merge_file_19nahj
-- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_XWXkZn
-
-```
-=======
-- [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
-- [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
-- [Documentazione Frontend](../Cms/project_docs/frontend-architecture.md)
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- [Documentazione Frontend](../Cms/docs/frontend-architecture.md) 
->>>>>>> f6fcbb6f (Fix merge conflict in .gitattributes by removing redundant lines and ensuring proper exclusion of image formats from text processing.)
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_dqU2EY
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_wXDxL6
->>>>>>> .merge_file_XWXkZn
->>>>>>> laraxot/dev
-=======
 - [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
 - [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
 - [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
->>>>>>> laraxot/dev
-=======
-- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
-- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
-- [Documentazione Frontend](../cms/project_docs/frontend-architecture.md)
->>>>>>> laraxot/dev

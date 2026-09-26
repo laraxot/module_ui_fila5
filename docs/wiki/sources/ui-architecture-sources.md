@@ -5,35 +5,7 @@ type: source
 created: "2026-04-29T00:00:00Z"
 updated: "2026-04-29T00:00:00Z"
 related:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_PoxZm2
   - "[[UI Operating Model]]"
-=======
-=======
-<<<<<<< .merge_file_Y0yaow
-  - "[[UI Operating Model]]"
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-  - "[[UI Operating Model]]"
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
-  - "[[UI Operating Model]]"
->>>>>>> .merge_file_EZs7SV
->>>>>>> .merge_file_dkOWoM
->>>>>>> laraxot/dev
-=======
-  - "[[UI Operating Model]]"
->>>>>>> laraxot/dev
-=======
-  - "[[UI Operating Model]]"
->>>>>>> laraxot/dev
 ---
 
 # UI Architecture Sources
@@ -43,49 +15,8 @@ related:
 ## Source Cluster
 
 - `README.md`
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_PoxZm2
 - `ARCHITECTURE.md`
 - `PRODUCT_STRATEGY.md`
-=======
-- `architecture-1.md`
-- `product-strategy-1.md`
-=======
-<<<<<<< .merge_file_Y0yaow
-- `ARCHITECTURE.md`
-- `PRODUCT_STRATEGY.md`
-=======
-<<<<<<< HEAD
-- `architecture-1.md`
-- `product-strategy-1.md`
-=======
-<<<<<<< HEAD
-- `ARCHITECTURE.md`
-- `PRODUCT_STRATEGY.md`
-=======
-- `architecture-1.md`
-- `product-strategy-1.md`
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-- `architecture-1.md`
-- `product-strategy-1.md`
-=======
-- `ARCHITECTURE.md`
-- `PRODUCT_STRATEGY.md`
->>>>>>> .merge_file_EZs7SV
->>>>>>> .merge_file_dkOWoM
->>>>>>> laraxot/dev
-=======
-- `ARCHITECTURE.md`
-- `PRODUCT_STRATEGY.md`
->>>>>>> laraxot/dev
-=======
-- `ARCHITECTURE.md`
-- `PRODUCT_STRATEGY.md`
->>>>>>> laraxot/dev
 - `architecture/structure.md`
 
 ## Main Signals

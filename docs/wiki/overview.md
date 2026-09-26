@@ -4,46 +4,6 @@ module: "UI"
 type: overview
 created: "2026-04-15T08:28:51Z"
 updated: "2026-04-15T08:28:51Z"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_NbAu4y
-=======
-=======
-<<<<<<< .merge_file_nl9Q65
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_xBiCt9
->>>>>>> .merge_file_2YmDs0
-related:
-  - "./agents.md"
-  - "./bmad-method.md"
-  - "./context-compression.md"
-  - "./index.md"
-  - "./log.md"
-<<<<<<< .merge_file_NbAu4y
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_nl9Q65
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_xBiCt9
->>>>>>> .merge_file_2YmDs0
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ---
 
 # UI Wiki Overview

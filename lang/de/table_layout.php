@@ -2,69 +2,7 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_tBDW44
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_6H5lDB
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_4hCYS7
-// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/UI/docs/wiki — domain i18n only.
-// File: lang/de/table_layout.php
 return [
-<<<<<<< .merge_file_tBDW44
-=======
-return [
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-return [
-=======
-return [
->>>>>>> .merge_file_f5H5Qm
->>>>>>> .merge_file_4hCYS7
-    'values' => [
-        'list' => [
-            'label' => 'Liste',
-            'icon' => 'heroicon-o-list-bullet',
-            'color' => 'primary',
-            'description' => 'Liste',
-        ],
-        'grid' => [
-            'label' => 'Raster',
-            'icon' => 'heroicon-o-squares-2x2',
-            'color' => 'secondary',
-            'description' => 'Raster',
-        ],
-    ],
-<<<<<<< .merge_file_tBDW44
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_6H5lDB
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_f5H5Qm
->>>>>>> .merge_file_4hCYS7
-=======
-return [
->>>>>>> laraxot/dev
-=======
-return [
->>>>>>> laraxot/dev
     'actions' => [
         'toggle' => [
             'label' => 'Layout wechseln',

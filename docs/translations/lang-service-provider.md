@@ -1,69 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_izjsIy
-=======
-=======
-<<<<<<< .merge_file_PEujEY
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_MxfUu7
->>>>>>> .merge_file_B8218C
----
-title: "Gestione delle Traduzioni con LangServiceProvider"
-type: concept
-tags: [lang, service, provider]
-created: 2026-07-14
-updated: 2026-07-14
-qmd: "lang-service-provider gestione delle traduzioni con langserviceprovider"
-<<<<<<< .merge_file_izjsIy
-=======
-<<<<<<< .merge_file_PEujEY
->>>>>>> .merge_file_B8218C
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-<<<<<<< HEAD
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-=======
-=======
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
->>>>>>> 92912795 (.)
->>>>>>> laraxot/dev
-related:
----
-
-<<<<<<< .merge_file_izjsIy
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-issues: ["https://github.com/provtv/base_ptv_fila5/issues/124"]
-discussions: ["https://github.com/provtv/base_ptv_fila5/discussions/1"]
-issues: ["https://github.com/provtv/<nome repository>/issues/124"]
-discussions: ["https://github.com/provtv/<nome repository>/discussions/1"]
-related:
----
-
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_MxfUu7
->>>>>>> .merge_file_B8218C
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 # Gestione delle Traduzioni con LangServiceProvider
 
 ## Collegamenti Bidirezionali
@@ -191,34 +125,6 @@ return [
 
 // Modules/Patient/Filament/Resources/DoctorResource.php
 public static function getFormSchema(): array
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_izjsIy
-=======
-public function getFormSchema(): array
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_PEujEY
-=======
-<<<<<<< HEAD
-public function getFormSchema(): array
-=======
-<<<<<<< HEAD
-=======
-public function getFormSchema(): array
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-public function getFormSchema(): array
-=======
->>>>>>> .merge_file_MxfUu7
->>>>>>> laraxot/dev
->>>>>>> .merge_file_B8218C
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 {
     return [
         Forms\Components\TextInput::make('first_name'),  // La label viene gestita automaticamente

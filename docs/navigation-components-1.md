@@ -1,25 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Componenti di Navigazione
-=======
-<<<<<<< .merge_file_VepfuF
-# Componenti di Navigazione 
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-# Componenti di Navigazione
-=======
-# Componenti di Navigazione 
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_5NlOyJ
-=======
-# Componenti di Navigazione
->>>>>>> laraxot/dev
-=======
-# Componenti di Navigazione
->>>>>>> laraxot/dev
 
 ## Indice
 - [Panoramica](#panoramica)
@@ -89,29 +68,7 @@ I componenti di navigazione devono utilizzare sempre le funzioni di localizzazio
 
 ### Traduzioni Necessarie
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_VepfuF
-=======
 Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_5NlOyJ
-Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
-=======
-Assicurarsi che le seguenti chiavi di traduzione siano definite in `/var/www/html/saluteora/laravel/lang/{locale}/auth.php`:
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_VepfuF
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_5NlOyJ
-=======
-Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
->>>>>>> laraxot/dev
-=======
-Assicurarsi che le seguenti chiavi di traduzione siano definite in `lang/{locale}/auth.php`:
->>>>>>> laraxot/dev
 
 ```php
 return [

@@ -1,14 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
 ?>
 <div class="relative bg-gray-900">
     <div class="absolute bottom-0 h-80 w-full xl:inset-0 xl:h-full">

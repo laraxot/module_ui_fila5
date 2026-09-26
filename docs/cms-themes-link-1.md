@@ -1,28 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_UJLg4Z
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_7t82jV
----
-module: theme
-topic: cms-themes-link_1
-canonical: ../../../Themes/docs/shared-components/cms-themes-link-1.md
----
-
-See canonical documentation: ../../../Themes/docs/shared-components/cms-themes-link-1.md
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_UJLg4Z
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_7t82jV
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 # Collegamenti ai Temi nel Modulo Cms
 
 Questo documento fornisce collegamenti bidirezionali tra il modulo UI e il modulo Cms per quanto riguarda i temi.

@@ -25,11 +25,6 @@ related:
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< .merge_file_Q0elZP
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_Iakz9A
 =======
 <<<<<<< .merge_file_xjCsIF
@@ -39,15 +34,8 @@ related:
 <<<<<<< HEAD
 >>>>>>> .merge_file_K6OkW0
 >>>>>>> .merge_file_9qVbN2
-<<<<<<< HEAD
->>>>>>> .merge_file_5uE7pO
-=======
 =======
 >>>>>>> 804451c (Lint)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 - [hackernoon-ai-coding-tips-fixcity-map](../../../../docs/wiki/concepts/hackernoon-ai-coding-tips-fixcity-map.md)
 =======
 <<<<<<< HEAD
@@ -58,11 +46,6 @@ related:
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
-<<<<<<< .merge_file_Q0elZP
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_Iakz9A
 =======
 <<<<<<< .merge_file_xjCsIF
@@ -70,15 +53,8 @@ related:
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_K6OkW0
 >>>>>>> .merge_file_9qVbN2
-<<<<<<< HEAD
->>>>>>> .merge_file_5uE7pO
-=======
 =======
 >>>>>>> 804451c (Lint)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 - [bmad/architecture](../../../../docs/wiki/bmad/architecture.md)
 - [frontmatter + GitHub](../../../../docs/wiki/rules/wiki-markdown-frontmatter-mandatory.md)
 - [ai-harness-module-discipline](../../docs/wiki/concepts/ai-harness-module-discipline.md)

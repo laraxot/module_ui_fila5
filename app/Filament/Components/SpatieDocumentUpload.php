@@ -18,38 +18,8 @@ final class SpatieDocumentUpload
     /**
      * Configurazione base per upload documenti con collection specifica.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
      * @param string $name       Nome del campo
      * @param string $collection Nome della media collection
-=======
-<<<<<<< .merge_file_blDACa
-     * @param  string  $name  Nome del campo
-     * @param  string  $collection  Nome della media collection
-=======
-<<<<<<< HEAD
-     * @param  string  $name  Nome del campo
-     * @param  string  $collection  Nome della media collection
-=======
-<<<<<<< HEAD
-     * @param string $name       Nome del campo
-     * @param string $collection Nome della media collection
-=======
-     * @param  string  $name  Nome del campo
-     * @param  string  $collection  Nome della media collection
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_wUQaNQ
->>>>>>> laraxot/dev
-=======
-     * @param  string  $name  Nome del campo
-     * @param  string  $collection  Nome della media collection
->>>>>>> laraxot/dev
-=======
-     * @param string $name       Nome del campo
-     * @param string $collection Nome della media collection
->>>>>>> laraxot/dev
      */
     public static function make(string $name, string $collection): SpatieMediaLibraryFileUpload
     {
@@ -115,37 +85,7 @@ final class SpatieDocumentUpload
     {
         return self::make('certifications', 'certificazioni_professionali')
             ->multiple()
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_blDACa
-=======
-<<<<<<< .merge_file_V5jE6n
-<<<<<<< HEAD
-            ->enableReordering()
-=======
-<<<<<<< HEAD
             ->reorderable()
-=======
->>>>>>> .merge_file_wUQaNQ
-<<<<<<< HEAD
-            ->enableReordering()
-=======
-            ->reorderable()
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_blDACa
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-            ->reorderable()
->>>>>>> .merge_file_IilNwm
->>>>>>> .merge_file_wUQaNQ
-=======
-            ->reorderable()
->>>>>>> laraxot/dev
-=======
-            ->reorderable()
->>>>>>> laraxot/dev
             ->maxFiles(10) // Max 10 certificazioni per dottore
             ->acceptedFileTypes(['application/pdf'])
             ->maxSize(10240); // 10MB per certificazioni multiple
@@ -154,51 +94,10 @@ final class SpatieDocumentUpload
     /**
      * Upload documento generico con collection personalizzata.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_blDACa
-=======
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_wUQaNQ
-=======
->>>>>>> laraxot/dev
      * @param string        $name       Nome del campo
      * @param string        $collection Nome della collection
      * @param array<string> $mimeTypes  Tipi MIME accettati
      * @param int           $maxSize    Dimensione massima in KB
-<<<<<<< HEAD
-<<<<<<< .merge_file_blDACa
-=======
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_wUQaNQ
-=======
->>>>>>> laraxot/dev
-     * @param  string  $name  Nome del campo
-     * @param  string  $collection  Nome della collection
-     * @param  array<string>  $mimeTypes  Tipi MIME accettati
-     * @param  int  $maxSize  Dimensione massima in KB
-<<<<<<< HEAD
-<<<<<<< .merge_file_blDACa
-=======
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_wUQaNQ
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
      */
     public static function custom(
         string $name,

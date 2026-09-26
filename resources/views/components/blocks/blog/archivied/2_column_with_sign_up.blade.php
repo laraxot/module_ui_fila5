@@ -1,22 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_GunECQ
 
-=======
-<<<<<<< .merge_file_kWkzA4
-
-=======
->>>>>>> .merge_file_eNJU1I
->>>>>>> .merge_file_JYzIL2
-=======
-
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
 ?>
 <!--
   This example requires some changes to your config:

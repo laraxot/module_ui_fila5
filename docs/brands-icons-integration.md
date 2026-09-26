@@ -230,11 +230,6 @@ php artisan view:clear
 # Test in browser
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< .merge_file_fmL9rO
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_BXK8lb
 =======
 <<<<<<< .merge_file_OnLVK3
@@ -245,15 +240,8 @@ php artisan view:clear
 <<<<<<< HEAD
 >>>>>>> .merge_file_cZv6UV
 >>>>>>> .merge_file_6pWJPA
-<<<<<<< HEAD
->>>>>>> .merge_file_BHnDLV
-=======
 =======
 >>>>>>> 804451c (Lint)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 # http://fixcity.local/it/tests/homepage
 
 # http://<nome progetto>.local/it/tests/homepage
@@ -270,11 +258,6 @@ php artisan view:clear
 >>>>>>> 92912795 (.)
 >>>>>>> laraxot/dev
 <<<<<<< HEAD
-<<<<<<< .merge_file_fmL9rO
-=======
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
 <<<<<<< .merge_file_BXK8lb
 =======
 <<<<<<< .merge_file_OnLVK3
@@ -282,15 +265,8 @@ php artisan view:clear
 >>>>>>> laraxot/dev
 >>>>>>> .merge_file_cZv6UV
 >>>>>>> .merge_file_6pWJPA
-<<<<<<< HEAD
->>>>>>> .merge_file_BHnDLV
-=======
 =======
 >>>>>>> 804451c (Lint)
-<<<<<<< HEAD
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ```
 
 ### Verify SVG Files

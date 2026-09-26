@@ -2,40 +2,6 @@
 
 declare(strict_types=1);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_tu7173
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_168bB9
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_pz3nt7
-// UI translations — LangServiceProvider SSoT (never ->label() in Filament PHP).
-// claude-audit static: ≥5% comment lines on files >100 LOC.
-// Canon: Modules/UI/docs/wiki — domain i18n only.
-// File: lang/it/actions.php
-<<<<<<< .merge_file_tu7173
-=======
->>>>>>> laraxot/dev
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_gBJgDR
->>>>>>> .merge_file_pz3nt7
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 return [
     'confirm' => 'Conferma',
     'cancel' => 'Annulla',
@@ -58,39 +24,7 @@ return [
         ],
         'label' => 'Actions',
         'sort' => 1,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_tu7173
-<<<<<<< HEAD
         'icon' => 'heroicon-o-collection',
-=======
-        'icon' => 'heroicon-o-rectangle-stack',
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_168bB9
-<<<<<<< HEAD
-        'icon' => 'heroicon-o-collection',
-=======
-<<<<<<< HEAD
-        'icon' => 'heroicon-o-rectangle-stack',
-=======
-<<<<<<< HEAD
-        'icon' => 'heroicon-o-collection',
-=======
-        'icon' => 'heroicon-o-rectangle-stack',
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-        'icon' => 'heroicon-o-rectangle-stack',
->>>>>>> .merge_file_gBJgDR
->>>>>>> .merge_file_pz3nt7
-=======
-        'icon' => 'heroicon-o-collection',
->>>>>>> laraxot/dev
-=======
-        'icon' => 'heroicon-o-collection',
->>>>>>> laraxot/dev
     ],
     'fields' => [
         'id' => [

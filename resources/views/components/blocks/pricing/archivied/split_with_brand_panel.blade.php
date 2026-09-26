@@ -1,22 +1,7 @@
 <?php
 
 declare(strict_types=1);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_21a06n
 
-=======
-<<<<<<< .merge_file_2OGZpF
-
-=======
->>>>>>> .merge_file_QZ6Bog
->>>>>>> .merge_file_ZGZTnS
-=======
-
->>>>>>> laraxot/dev
-=======
-
->>>>>>> laraxot/dev
 ?>
 <div class="relative bg-white">
     <div class="absolute inset-0" aria-hidden="true">

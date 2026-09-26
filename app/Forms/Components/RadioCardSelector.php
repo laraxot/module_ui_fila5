@@ -34,20 +34,7 @@ class RadioCardSelector extends XotBaseField
     /**
      * Imposta le card disponibili per la selezione.
      *
-<<<<<<< HEAD
-<<<<<<< HEAD
-     * <<<<<<< HEAD
-     *
      * @param array<int, array<string, mixed>>|\Closure $cards
-     *                                                         =======
-     * @param array<int, array<string, mixed>>|\Closure $cards
-     *                                                         >>>>>>> laraxot/dev
-=======
-     * @param array<int, array<string, mixed>>|\Closure $cards
->>>>>>> laraxot/dev
-=======
-     * @param array<int, array<string, mixed>>|\Closure $cards
->>>>>>> laraxot/dev
      */
     public function cards(array|\Closure $cards): static
     {
@@ -131,44 +118,7 @@ class RadioCardSelector extends XotBaseField
     }
 
     /**
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_w1YJtB
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
      * @param array<mixed, mixed> $item
-=======
-     * @param array<array-key, mixed> $item
->>>>>>> laraxot/dev
-=======
-     * <<<<<<< .merge_file_SO8J2m
-     * <<<<<<< HEAD.
-     *
-     * @param array<mixed, mixed>     $item
-     *                                      =======
-     *                                      =======
-     *                                      >>>>>>> .merge_file_Zu5Anh
-     *                                      <<<<<<< HEAD.
-     * @param array<array-key, mixed> $item
-     *                                      =======
-     *                                      <<<<<<< .merge_file_SO8J2m
-     *                                      <<<<<<< HEAD
-     * @param array<mixed, mixed>     $item
-     *                                      =======
-     * @param array<array-key, mixed> $item
-     *                                      >>>>>>> laraxot/dev
-     *                                      >>>>>>> laraxot/dev
-     *                                      >>>>>>> laraxot/dev
-     *                                      =======
-     * @param array<mixed, mixed>     $item
-     *
-     * >>>>>>> laraxot/dev
-     * >>>>>>> .merge_file_Zu5Anh
->>>>>>> .merge_file_JlOiY8
-=======
-     * @param array<mixed, mixed> $item
->>>>>>> laraxot/dev
      *
      * @return array<string, mixed>
      */

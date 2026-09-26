@@ -21,28 +21,6 @@ use Closure;
 class StudioCardSelector extends Field
 {
     protected string $view = 'ui::forms.components.studio-card-selector';
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_gQxY7E
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_mbsK20
-    
-    // Dati studios da visualizzare
-    protected Collection|Closure|null $studios = null;
-    
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_gQxY7E
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_mbsK20
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 
     // Dati studios da visualizzare
     protected Collection|Closure|null $studios = null;
@@ -141,32 +119,6 @@ protected function getStudioStepSchema(): array
 private function getStudiosForLocation(Get $get): Collection
 {
     $cap = $get('cap');
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_gQxY7E
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_mbsK20
-    $province = $get('province'); 
-    $region = $get('region');
-    
-    if (!$cap || !$province || !$region) {
-        return collect();
-    }
-    
-    return \Modules\SaluteOra\Models\Studio::whereHas('address', function($q) use ($cap, $province, $region) {
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_gQxY7E
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_mbsK20
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     $province = $get('province');
     $region = $get('region');
 
@@ -226,32 +178,6 @@ return [
 - [Components Overview](./components.md)
 - [Form Components Guide](./form-components.md)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_gQxY7E
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_mbsK20
-### Modulo SaluteOra
-- [Widget Analysis](../SaluteOra/docs/widgets/find-doctor-widget-studio-step-analysis.md)
-
----
-
-**Component Status**: 📋 Documented - Ready for Implementation  
-**Reusability**: 🔄 High - Cross-module compatible  
-**Last Updated**: January 2025 
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_gQxY7E
-=======
->>>>>>> laraxot/dev
->>>>>>> .merge_file_mbsK20
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
 ### Modulo <nome progetto>
 - [Widget Analysis](../<nome progetto>/docs/widgets/find-doctor-widget-studio-step-analysis.md)
 

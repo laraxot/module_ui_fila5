@@ -22,39 +22,7 @@ final class ImagesGallery
                             // ->image()
                             // ->maxSize(5000)
                             ->multiple()
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_sokSPj
-<<<<<<< HEAD
-                            ->enableReordering()
-=======
                             ->reorderable()
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_gFx5sY
-<<<<<<< HEAD
-                            ->enableReordering()
-=======
-<<<<<<< HEAD
-                            ->reorderable()
-=======
-<<<<<<< HEAD
-                            ->enableReordering()
-=======
-                            ->reorderable()
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-                            ->reorderable()
->>>>>>> .merge_file_EBBQM2
->>>>>>> .merge_file_o8RN7F
-=======
-                            ->reorderable()
->>>>>>> laraxot/dev
-=======
-                            ->reorderable()
->>>>>>> laraxot/dev
                             ->openable()
                             ->downloadable()
                             ->columnSpanFull()
@@ -78,37 +46,7 @@ final class ImagesGallery
                 //         // ->image()
                 //         // ->maxSize(5000)
                 //     ->multiple()
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_sokSPj
-=======
-<<<<<<< .merge_file_gFx5sY
-<<<<<<< HEAD
                 //     ->enableReordering()
-=======
-<<<<<<< HEAD
-                //     ->reorderable()
-=======
->>>>>>> .merge_file_o8RN7F
-<<<<<<< HEAD
-                //     ->enableReordering()
-=======
-                //     ->reorderable()
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_sokSPj
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-                //     ->reorderable()
->>>>>>> .merge_file_EBBQM2
->>>>>>> .merge_file_o8RN7F
-=======
-                //     ->enableReordering()
->>>>>>> laraxot/dev
-=======
-                //     ->enableReordering()
->>>>>>> laraxot/dev
                 //     ->openable()
                 //     ->downloadable()
                 //     ->columnSpanFull()
@@ -126,33 +64,7 @@ final class ImagesGallery
                 // TextInput::make('caption')
                 //     ->columnSpanFull(),
             ])
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_sokSPj
-=======
             ->columns('form' === $context ? 2 : 1);
-=======
-<<<<<<< HEAD
-            ->columns($context === 'form' ? 2 : 1);
-=======
-<<<<<<< HEAD
->>>>>>> .merge_file_o8RN7F
-            ->columns('form' === $context ? 2 : 1);
-=======
-            ->columns($context === 'form' ? 2 : 1);
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_sokSPj
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> .merge_file_o8RN7F
-=======
-            ->columns($context === 'form' ? 2 : 1);
->>>>>>> laraxot/dev
-=======
-            ->columns('form' === $context ? 2 : 1);
->>>>>>> laraxot/dev
     }
 
     /**

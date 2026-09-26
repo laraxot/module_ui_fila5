@@ -5,56 +5,9 @@ declare(strict_types=1);
 namespace Modules\UI\Filament\Widgets;
 
 use Filament\Support\RawJs;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_nJ39GH
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_QfkNcx
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
 
 final class TestChartWidget extends XotBaseChartWidget
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_X8N9rs
-use Filament\Widgets\ChartWidget;
-use Illuminate\Support\Facades\File;
-
-final class TestChartWidget extends ChartWidget
-<<<<<<< .merge_file_nJ39GH
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .merge_file_X8N9rs
-=======
-use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
-
-final class TestChartWidget extends XotBaseChartWidget
->>>>>>> laraxot/dev
-<<<<<<< .merge_file_nJ39GH
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
-use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
-
-final class TestChartWidget extends XotBaseChartWidget
->>>>>>> .merge_file_ZvFKqt
->>>>>>> .merge_file_X8N9rs
-=======
-use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
-
-final class TestChartWidget extends XotBaseChartWidget
->>>>>>> laraxot/dev
-=======
-use Modules\Xot\Filament\Widgets\XotBaseChartWidget;
-
-final class TestChartWidget extends XotBaseChartWidget
->>>>>>> laraxot/dev
 {
     public int $qid = 0;
 
@@ -99,37 +52,6 @@ final class TestChartWidget extends XotBaseChartWidget
 
     protected function getOptions(): RawJs
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_nJ39GH
-<<<<<<< HEAD
-=======
-<<<<<<< .merge_file_QfkNcx
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> laraxot/dev
->>>>>>> .merge_file_X8N9rs
-        $path = module_path('UI', 'resources/js/test-chart-y-tick-options.js');
-        $contents = File::exists($path) ? File::get($path) : '{}';
-
-        return RawJs::make($contents);
-<<<<<<< .merge_file_nJ39GH
-=======
-=======
-<<<<<<< HEAD
-=======
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ZvFKqt
->>>>>>> .merge_file_X8N9rs
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
         return RawJs::make(<<<'JS'
             {
                 scales: {
@@ -141,23 +63,5 @@ final class TestChartWidget extends XotBaseChartWidget
                 },
             }
         JS);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< .merge_file_nJ39GH
->>>>>>> laraxot/dev
-=======
-<<<<<<< .merge_file_QfkNcx
-<<<<<<< HEAD
-=======
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
->>>>>>> laraxot/dev
-=======
->>>>>>> .merge_file_ZvFKqt
->>>>>>> .merge_file_X8N9rs
-=======
->>>>>>> laraxot/dev
-=======
->>>>>>> laraxot/dev
     }
 }
